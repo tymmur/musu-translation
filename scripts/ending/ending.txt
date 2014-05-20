@@ -1,0 +1,298 @@
+#グローバルフラグメモ------------------------------------------------------
+
+#100	みかんクリア
+#101	いちごクリア
+#102	かりんクリア
+#103	すいかクリア
+#104	ざくろクリア
+#105	ゆずクリア
+#106	ふたごクリア
+#107	ひかりクリア
+
+#110	みかん/いちご/かりんクリア
+#111	みかん/いちご/かりん/ゆず/すいか/ざくろクリア
+#112	ひかりルート以外すべてのキャラをクリア
+#113	すべてのキャラをクリア
+
+#120	とりあえずエンディングをみた
+#121	すべてのエンディングをみた
+
+#130	プロローグを見た
+
+#エンディング
+label	ending
+@bg_black
+money_close
+minimoney_close
+date_close
+
+@bg_black
+
+
+#pay_debts = 1		#借金を返せたか？(デバッグ用)
+
+#スタッフロール
+if mikan_end_flag=0 and ichigo_end_flag=0 and karin_end_flag=0 and hikari_end_flag=0 then gosub	staffroll
+#スタッフロールTRUE
+if mikan_end_flag=1 or ichigo_end_flag=1 or karin_end_flag=1 or hikari_end_flag=1 then  gosub	staffroll2
+
+
+GLOBAL(120)=1		#とりあえずエンディングを見た
+
+#すいかED
+if suika_end_flag=1 then GLOBAL(103)=1
+#ざくろED
+if zakuro_end_flag=1 then GLOBAL(104)=1
+#ゆずED
+if yuzu_end_flag=1 then GLOBAL(105)=1
+#みかんED
+if mikan_end_flag=1 then GLOBAL(100)=1
+#いちごED
+if ichigo_end_flag=1 then GLOBAL(101)=1
+#かりんED
+if karin_end_flag=1 then GLOBAL(102)=1
+#ひかりED
+if hikari_end_flag=1 then GLOBAL(107)=1
+
+#110	みかん/いちご/かりんクリア
+if GLOBAL(100)=1 and GLOBAL(101)=1 and GLOBAL(102)=1 then GLOBAL(110)=1
+
+#みかんED
+if mikan_end_flag=1 then gosub mikan_end
+#いちごED
+if ichigo_end_flag=1 then gosub ichigo_end
+#かりんED
+if karin_end_flag=1 then gosub karin_end
+#ひかりED
+if hikari_end_flag=1 then gosub hikari_end
+
+#ルートエンディングの場合は
+
+if mikan_end_flag=1 or ichigo_end_flag=1 or karin_end_flag=1 or hikari_end_flag=1 then goto ending_skip1
+
+
+
+###############################################################################
+#全ＥＤ共通
+###############################################################################
+@bg_white
+wait		500
+#text_04
+event	"event\text_04.png"
+wait		1000
+@bg_white
+
+gosub	ending_mini
+
+#すいかED
+if suika_end_flag=1 then gosub suika_end;@bg_black
+#ざくろED
+if zakuro_end_flag=1 then gosub zakuro_end;@bg_black
+#ゆずED
+if yuzu_end_flag=1 then gosub yuzu_end;@bg_black
+
+event	"cg\bg\gameover2.png"
+
+keywait
+
+#gameover2の後に流すエピローグ
+if mikan_kekkonend_flag=1 then gosub after_kekkon_mikan		#みかんと結婚した場合
+if karin_kekkonend_flag=1 then gosub after_kekkon_karin		#かりんと結婚した場合
+if ichigo_kekkonend_flag=1 then gosub after_kekkon_ichigo	#いちごと結婚した場合
+if mikan_kekkonend_flag=1 and karin_kekkonend_flag=1 and ichigo_kekkonend_flag=1 then gosub after_sanjyukon	#三人と結婚した場合
+
+if mikan_normalend_flag=1 then gosub	after_nomal_mikan	#ノーマルエンド、みかん
+if karin_normalend_flag=1 then gosub	after_nomal_karin	#ノーマルエンド、かりん
+if ichigo_normalend_flag=1 then gosub	after_nomal_ichigo	#ノーマルエンド、いちご
+if mikan_normalend_flag=1 and karin_normalend_flag=1 and ichigo_normalend_flag=1 then gosub after_all_nomal	#三人ともノーマルエンドだった場合
+
+reset
+
+label	ending_skip1
+
+bgm_stop
+@gameover2
+#タイトルに戻る
+wait	2000
+@bg_black
+reset
+
+#スタッフロール
+label	staffroll
+layer_load	0,"stg\staffroll.png"
+bgm	"sound\bgm\end.ogg",play_once
+screen_blackin	2000
+layer_move	0,282000,0,0,0,-7824+600,passtype_tcb
+wait		282000
+
+wait		5000
+screen_blackout	4000
+wait		4000
+@bg_black
+screen_blackin	1
+bgm_stop
+
+return
+
+#スタッフロール
+label	staffroll2
+layer_load	0,"stg\staffroll2.png"
+#bgm	"sound\bgm\end.ogg",play_once
+@bgm13
+screen_blackin	2000
+layer_move	0,282000,0,0,0,-7824+600,passtype_tcb
+wait		282000
+
+wait		5000
+screen_blackout	4000
+wait		4000
+@bg_black
+screen_blackin	1
+bgm_stop
+
+return
+
+
+label	ending_mini
+
+#結婚エンド###################################
+#仮条件　魅力1000以上　売春・ハード、ご奉仕コマンドを実行しない
+
+gosub	miniend_mikan
+gosub	miniend_karin
+gosub	miniend_ichigo
+
+return
+
+
+
+
+#gameover2の後に流すエピローグ
+#label	after_kekkon_mikan	#みかんと結婚した場合
+#label	after_kekkon_karin	#かりんと結婚した場合
+#label	after_kekkon_ichigo	#いちごと結婚した場合
+#label	after_sanjyukon	#三人と結婚した場合
+
+
+#エッチ系エンド###################################################
+
+#高級娼婦エンド###################################
+#仮条件　売春回数30回以上　みりょく800以上　
+
+
+#SM女王様エンド###################################
+#仮条件　ハード回数20回以上　みりょく500以上　
+
+
+#ホステスエンド###################################
+#仮条件　せったい回数100回以上　みりょく400以上　
+
+
+#############
+#条件　かりんのアダルトビデオを売ってしまう　かりん魅力600以上　売春経験有り　
+
+
+#ノーマルエンド###################################################
+
+#あたま＋こころエンド###################################
+#仮条件　あたまレベル5以上、こころレベル5以上　ハードを実行していない
+
+
+#あたまエンド###################################
+#仮条件　あたまレベル5以上、こころレベル4以下　あたま、こころ、からだの中であたまが一番高いハードを実行していない
+
+
+#からだエンド###################################
+#仮条件　からだレベル5以上、あたま、こころ、からだの中でからだが一番高い　ハードを実行していない
+
+
+
+
+#こころエンド###################################
+#仮条件　こころレベル5以上、あたま、こころ、からだの中でこころが一番高い　ハードを実行していない
+
+
+
+#gameover2の後に流すエピローグ
+#label	after_nomal_mikan	#ノーマルエンド、みかん
+#label	after_nomal_karin	#ノーマルエンド、かりん
+#label	after_nomal_ichigo	#ノーマルエンド、いちご
+#label	after_all_nomal	#三人ともノーマルエンドだった場合
+
+
+#堕落エンド###################################
+#どれにも当てはまらなかった場合
+
+
+
+label	miniend_mikan
+
+mikan_reception_cnt=mikan_reception2_cnt+mikan_reception3_cnt+mikan_reception4_cnt
+
+
+#みかん
+if mikan_miryoku>500 and  mikan_reception_cnt=0 then goto	ED_kekkon_mikan		#みかん結婚エンド
+if mikan_miryoku>800 and mikan_reception3_cnt>40 then goto	ED_syoufu_mikan		#みかん娼婦エンド
+if mikan_miryoku>500 and mikan_reception4_cnt>10 then goto	ED_jyoou_mikan		#みかん女王様エンド
+if mikan_miryoku>400 and mikan_reception1_cnt>70 then goto	ED_hosutes_mikan	#みかんホステスエンド
+
+if  mikan_atama_level>=8 and mikan_kokoro_level>=5 and mikan_reception4_cnt=0 then  goto	ED_atakoko_mikan		#みかんあたまこころエンド
+if  mikan_atama_level>=8 and mikan_kokoro_leve<=4 and mikan_reception4_cnt=0 then  goto	ED_atama_mikan		#みかんあたまエンド
+if  mikan_karada_level>=8 and mikan_karada_level>mikan_kokoro_level and mikan_karada_level>mikan_atama_level and mikan_reception4_cnt=0 then  goto	ED_karada_mikan			#みかんからだエンド
+if  mikan_kokoro_level>=8 and mikan_kokoro_level>mikan_karada_level and mikan_kokoro_level>mikan_atama_level and mikan_reception4_cnt=0 then  goto	ED_kokoro_mikan			#みかんからだエンド
+goto	ED_daraku_mikan			#みかんからだエンド
+
+
+
+return
+
+#かりん
+label	miniend_karin
+
+karin_reception_cnt=karin_reception2_cnt+karin_reception3_cnt+karin_reception4_cnt
+
+if karin_miryoku>500 and karin_reception_cnt=0 then goto	ED_kekkon_karin		#かりん結婚エンド
+if karin_miryoku>800 and karin_reception3_cnt>40 then goto	ED_syoufu_karin		#かりん娼婦エンド
+if karin_miryoku>500 and karin_reception4_cnt>10 then goto	ED_jyoou_karin		#かりん女王様エンド
+if karin_miryoku>400 and karin_reception1_cnt>70 then goto	ED_hosutes_karin	#かりんホステスエンド
+if  karin_video_sell_flag=1 then goto				ED_av_karin		#かりんAV女優エンド
+if  karin_atama_level>8 and karin_kokoro_level>=5 and karin_reception4_cnt=0 then  goto	ED_atakoko_karin		#かりんあたまこころエンド
+if  karin_atama_level>=8 and karin_kokoro_leve<=4 and karin_reception4_cnt=0 then  goto	ED_atama_karin		#かりんあたまエンド
+if  karin_karada_level>=8 and karin_karada_level>karin_kokoro_level and karin_karada_level>karin_atama_level and karin_reception4_cnt=0 then  goto	ED_karada_karin			#かりんからだエンド
+if  karin_kokoro_level>=8 and karin_kokoro_level>karin_karada_level and karin_kokoro_level>karin_atama_level and karin_reception4_cnt=0 then  goto	ED_kokoro_karin			#かりんからだエンド
+goto	ED_daraku_karin			#かりんからだエンド
+
+
+
+return
+
+#いちご
+label	miniend_ichigo
+
+ichigo_reception_cnt=ichigo_reception2_cnt+ichigo_reception3_cnt+ichigo_reception4_cnt
+
+if ichigo_miryoku>500 and ichigo_reception_cnt=0 then goto	ED_kekkon_ichigo	#いちご結婚エンド
+if ichigo_miryoku>800 and ichigo_reception3_cnt>40 then goto	ED_syoufu_ichigo	#いちご娼婦エンド
+if ichigo_miryoku>500 and ichigo_reception4_cnt>10 then goto	ED_jyoou_ichigo		#いちご女王様エンド
+if ichigo_miryoku>400 and ichigo_reception1_cnt>70 then goto	ED_hosutes_ichigo	#いちごホステスエンド
+
+if  ichigo_atama_level>=8 and ichigo_kokoro_level>=5 and ichigo_reception4_cnt=0 then  goto	ED_atakoko_ichigo		#いちごあたまこころエンド
+if  ichigo_atama_level>=8 and ichigo_kokoro_leve<=4 and ichigo_reception4_cnt=0 then  goto	ED_atama_ichigo		#いちごあたまエンド
+if  ichigo_karada_level>=8 and ichigo_karada_level>ichigo_kokoro_level and ichigo_karada_level>ichigo_atama_level and ichigo_reception4_cnt=0 then  goto	ED_karada_ichigo		#いちごからだエンド
+if  ichigo_kokoro_level>=8 and ichigo_kokoro_level>ichigo_karada_level and ichigo_kokoro_level>ichigo_atama_level and ichigo_reception4_cnt=0 then  goto	ED_kokoro_ichigo		#いちごからだエンド
+
+
+goto	ED_daraku_ichigo		#いちごからだエンド
+
+return
+
+
+
+
+
+
+
+#メインED
+
+
+

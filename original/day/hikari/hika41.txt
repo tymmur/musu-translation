@@ -1,0 +1,2015 @@
+#--------------------------------------------------
+label		hika41
+#--------------------------------------------------
+bgm_stop
+@bg_black
+
+#EF　一度ホワイトイン
+#■BG（自室）
+window_close
+screen_whiteout		2000
+wait			2000
+@bg_white		# 白
+screen_whitein		100
+wait			100
+
+
+まぶしい朝日に照らされ、ゆっくりと眠りから目覚めた朝。
+
+開けた窓から心地よい風と鳥の声が、部屋の中へ入ってくる。
+
+
+window_close
+screen_whiteout		100
+wait			100
+#@hikari_middle		# 中間
+@hikari_large		# 近い
+@hikari_shifuku
+@hikari_yorokobi	#喜
+@bg_itsuki		# 自室
+screen_whitein		2000
+wait			2000
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00761
+「おはよ、お父しゃん♪」
+
+
+#@bgm02			#BGM 02 : 朝のテーマ
+@bgm17			#BGM 17 : のんびりのテーマ
+
+
+すでに起きていたひかりが、ベッドの側でオレに微笑みかけた。
+
+＠樹
+「おはよう、ひかり」
+
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00762
+「あははっ、お父しゃんお寝坊なの。もうひーちゃんもお母しゃんも起きてゆよ」
+
+＠樹
+「そっか。美雨は朝ごはんかい？」
+
+
+@hikari_yorokobi	#喜
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,16
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00763
+「うん。今だいどこよで用意してくれてゆの」
+
+＠樹
+「ならオレも手伝わないと」
+
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00764
+「わぁい♪　ひーちゃんもご飯のお手ちゅだいするのっ」
+
+
+@hikari_yorokobi	#喜
+
+
+＠ひかり,N00765
+「ひーちゃん先に下いてゆから、早くお父しゃんも来てねーっ」
+
+
+#CH（ひかり立ち絵消去）
+#SE21　廊下を走り去る音　※徐々に小さく
+window_close
+@hikari_
+#wait		1000
+#@SE06			#部屋のドア開く音（ガチャ）
+#wait		100
+wait		500
+@SE21			#SE21　廊下を走り去る音　※徐々に小さく
+
+
+朝から元気に走って行った。
+
+まるでミニチュアのいちごみたいな子だ。
+
+
+#SE05　物にぶつかる音（ガンッ！）
+#@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
+se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
+
+
+＠ひかり,N00766
+「きゅぶぅッ！」
+
+……また物にぶつかったな。
+
+＠樹
+「騒がしさがなくなって、結局残ったのはあの子だけなんだよな……」
+
+オレと美雨の実の娘、ひかり。
+
+今まで美雨がひかりに過保護だったのも、母親としての娘への愛しさからだろう。
+
+最初、ひかりをつれて来た時の美雨の様子も、そのためだったのか……
+
+＠樹
+「家族で一緒に暮らすなんて……他の人たちはみんな、普通にしてることなのに」
+
+
+#■BG（黒）
+bgm_stop
+@bg_black
+
+
+そんなささやかな幸せが、また美雨から逃げようとしている……
+
+
+#■BG（食堂）
+#@bg_dining		# 食堂
+@bg_gate		# 孤児院前
+
+
+ひかりと二人で美雨を手伝って、食堂で朝食になった。
+
+
+@bg_black
+wait		100
+@bgm02			#BGM 02 : 朝のテーマ
+
+#@miu_middle_kuruma
+#@miu_kurumaisu		#メイド服・車イス
+@hikari_middle		# 中間
+@hikari_shifuku
+
+#@miu_kuruma_yorokobi	# 喜（車いす専用）
+@hikari_warai		#笑
+@bg_dining		# 食堂
+wait		100
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	850,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00767
+「ふぁ～…コーンシュープ、トロトロしてて美味しいの♪」
+
+＠美雨,B03117
+「あらあら、落ち着いて飲まないと口元についてるわよ。ほら」
+
+
+@bg_white		# 白
+
+
+＠ひかり,N00768
+「あははっ、ごめんなしゃい～」
+
+美雨に口を拭ってもらいながら、上機嫌のひかり。
+
+その美雨とはやはり、昨日の話題もあってチラチラと視線が交わった。
+
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+#@hikari_middle		# 中間
+#@hikari_shifuku
+
+@miu_kuruma		# 普（車いす専用）
+#@hikari_yorokobi	#喜
+@bg_dining		# 食堂
+
+
+＠美雨,B03118
+「…えっと。樹さん、サラダのおかわりどうですか……？」
+
+＠樹
+「ああ、うん。じゃあ少しだけ……」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari			#普
+
+
+＠ひかり,N00769
+「……？」
+
+
+@hikari_yorokobi	#喜
+
+
+＠ひかり,N00770
+「ねぇお母しゃん、このコリコリしたのもっと入えてい～い？」
+
+
+#@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03119
+「ええ、クルトンね。このお皿にあるから、食べたい分だけ入れてね」
+
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00771
+「わぁい！　こえお菓子みたいで、ひーちゃん大しゅきなの！」
+
+ひかりはそんなオレ達の様子を不思議そうに小首を傾げたが、すぐ食事へと関心が戻った。
+
+
+@bg_black
+
+
+＠樹
+（……美雨は今日、行動を起こすんだろうか）
+
+誠司は猶予は無いと言った。
+
+そして美雨は昨夜、オレに全てを話してひかりを託した。
+
+美雨は未練を引きずるような子じゃない。だとすれば……
+
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+#@hikari_middle		# 中間
+#@hikari_shifuku
+
+#@miu_kuruma_yorokobi	# 喜（車いす専用）
+@miu_kuruma		# 普（車いす専用）
+#@hikari_yorokobi	#喜
+@bg_dining		# 食堂
+
+
+＠美雨,B03120
+「樹さん……？　どうぞ」
+
+＠樹
+「あ、うん。ありがとう」
+
+
+@bg_black		# 黒
+
+
+美雨が差し出してくれたサラダの器を受け取った。
+
+
+bgm_stop
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+#@hikari_middle		# 中間
+#@hikari_shifuku
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+#@hikari_yorokobi	#喜
+@bg_dining		# 食堂
+
+
+＠美雨,B03121
+「ひーちゃん、お話があるの。ちょっといい？」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari			#普
+
+
+＠ひかり,N00772
+「うん、なぁに？」
+
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03122
+「実は私ね、今夜から少し、遠いところに出かけないといけなくなっちゃったの」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_odoroki		#驚
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_hikari,0,	200,	0,32
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00773
+「えーっ！」
+
+
+#@bgmk02		#BGM K02 : しんみりのテーマ
+@bgmk06			#BGM K06 : 哀しいな時のテーマ
+
+
+＠樹
+（……やっぱり。美雨はもう今日自ら…）
+
+
+@hikari_komaru		#困
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00774
+「お母しゃん一人で行くのっ？　いちゅ帰ってくゆのー！？」
+
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B03123
+「それはまだ分からないのよ……。ごめんねひーちゃん」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03124
+「だから私が帰ってくるまで、樹さんと仲良く一緒に居てほしいの」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+#@hikari_kanashimi	#哀
+@hikari_naki		#泣
+wait		100
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00775
+「えぅ……みんなのちゅぎは、お母しゃんまで居なくなっちゃうのっ……そんなのやぁなのぉっ」
+
+
+@hikari_naki		#泣
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	700,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00776
+「寂しいよぉッ……ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいのっ…！」
+
+
+#@chara_clear		#保険
+#wait		500
+#@miu_middle_kuruma
+#@miu_kurumaisu		#メイド服・車イス
+#@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠美雨,B03125
+「ひーちゃん……」
+
+さっきまで嬉しそうだった笑顔が、一気に泣きべそ顔に変わるひかり。
+
+無理もない。まだひかりは幼いんだ。
+
+家族同然だったみんなに次いで、美雨まで居なくなろうとしているのだから。
+
+＠ひかり,N00777
+「いちゅ帰ってくゆのっ…？　明日？　明日の明日ッ？」
+
+
+#@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B03126
+「……もっとかかっちゃうわ」
+
+
+#@hikari_kanashimi	#哀
+@hikari_naki		#泣
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00778
+「ぐすッ……一週しゃん……？」
+
+＠美雨,B03127
+「ううん。ごめんね……もっと何年もかかっちゃうの……」
+
+
+@hikari_naki		#泣
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,12
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,12
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,12
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,12
+layer_movepass_add	l_hikari,0,	100,	0,6
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00779
+「ひっく、ふぇッ……うぇええぇぇええんッ！」
+
+
+#SE36　勢いよく抱きつく音（バフッ！）
+window_close
+screen_whiteout		100
+wait			100
+#@SE36			#SE36　勢いよく抱きつく音（バフッ！）
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+@bg_white		# 白
+screen_whitein		1
+
+
+その言葉でついにひかりは泣き出し、美雨へ飛び込んだ。
+
+＠ひかり,N00780
+「お母しゃん行っちゃヤなのぉッ……ひーちゃんみんなと一緒がいいよぉッ！」
+
+＠ひかり,N00781
+「ぐすッ…ひーちゃん、ずっと良い子にすゆからッ……お母しゃん居なくなやないでぇッ…！」
+
+＠美雨,B03128
+「……ひーちゃん」
+
+車椅子に座る美雨の膝の上に顔を押しつけてくるひかり。
+
+そんなひかりを、美雨は優しく撫でてあげた。
+
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+@bg_dining		# 食堂
+
+
+＠美雨,B03129
+「うん、寂しいのよね、ひーちゃん……みんなが居なくなって…」
+
+＠美雨,B03130
+「それでも、私は行かないといけないの……。それが決まりだから」
+
+＠ひかり,N00782
+「～～～ッ」
+
+ひかりはグシグシと押し付けた顔を左右に振った。
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03131
+「電話は無理だけど、でもお手紙は書くわ。だから、ね……？」
+
+＠ひかり,N00783
+「～～～～ッ」
+
+駄々っ子のように、また顔を押し付けてグシグシと擦る。
+
+＠美雨,B03132
+「たくさんお土産を持って……帰ってきてあげるから……」
+
+
+@bg_white		# 白
+wait		100
+@hikari_large		# 近い
+@hikari_shifuku		#私服
+#@hikari_kanashimi	#哀
+@hikari_naki		#泣
+@bg_dining		# 食堂
+wait		100
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00784
+「お母しゃんと一緒の方がいいのぉ……！」
+
+
+@hikari_naki		#泣
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00785
+「ぐすッ……じぇったい、行かないといけないの……？」
+
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+#@miu_kuruma_kanashimi	# 哀（車いす専用）
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03133
+「ええ……」
+
+
+#@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03134
+「ひーちゃんが良い子で待っていてくれたら、私も向こうで頑張れるわ」
+
+＠美雨,B03135
+「早く用事を済ませて帰ってくるから……。ね…？」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_large		# 近い
+@hikari_shifuku		#私服
+@hikari_naki		#泣
+wait		100
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00786
+「んぐぅっ……お母しゃぁん…ッ」
+
+
+window_close
+screen_whiteout		100
+wait			100
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+@bg_white		# 白
+screen_whitein		1
+
+
+もう一度、美雨の膝に顔を埋めるひかり……
+
+ひかりは寂しがりやで泣き虫な面もあるが、素直で良い子だ。
+
+美雨に諭される内に少しずつ納得し、泣き声を静め始めた。
+
+＠樹
+「………」
+
+
+#■BG（廊下）
+bgm_stop
+@bg_black
+wait		1000
+@SE07			#部屋のドア閉まる音（パタン）
+@bg_rouka		# 廊下
+
+
+オレは一言も発せないまま、二人を残してソッと廊下へと出た。
+
+＠樹
+（美雨は今日、出頭する……）
+
+ひかりには戻ってくると言っていたが、おそらくこの場での慰めの言葉だろう。
+
+＠樹
+（ならオレも、行く準備をしないとな……）
+
+この物語は、そんな結末で終わらせてはいけない。
+
+たとえ三人のハッピーエンドへの道は無くとも、選ぶべき道筋は存在するはずだ。
+
+
+#■BG（黒）
+@bg_black
+
+
+オレは一人、自室へと戻って行った。
+
+
+#■BG（青空）
+@bg_sky		# 空
+#@bg_gate		# 孤児院前
+#WAIT
+wait			2500
+#■BG（自室）
+@bg_itsuki		# 自室
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+
+それからしばらく部屋でペンを動かし作業に没頭していた。
+
+間に昼食を挟んだりもしたが、その後もかなりの時間集中している……
+
+
+@SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
+wait		500
+
+
+＠樹
+「よし、出来た……」
+
+
+#SE11　部屋のドアをノック（コンコン）
+@SE11			#SE11　部屋のドアをノック（コンコン）
+
+
+＠美雨,B03136
+「樹さん……？　よろしいですか」
+
+＠樹
+「ああ、どうぞ」
+
+
+window_close
+#SE06　部屋のドア開く音（ガチャ）
+@SE06			#部屋のドア開く音（ガチャ）
+wait		100
+@SE07			#部屋のドア閉まる音（パタン）
+wait		1000
+#@miu_small_kuruma
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma		# 普（車いす専用）
+
+
+＠美雨,B03137
+「失礼します。お仕事中でしたか……？」
+
+＠樹
+「うん、仕事って言うか………それより美雨、それ」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03138
+「あ、はい、よければどうぞ。お茶とお菓子をお持ちしました」
+
+＠美雨,B03139
+「昼食を取られてからずっと部屋で作業をされていたみたいですし」
+
+＠樹
+「ありがとう。でも美雨も大変なんだから、無理しないで」
+
+
+@bg_black
+
+
+美雨が運んできてくれたティーセットを受け取った。
+
+
+#@miu_small_kuruma
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma		# 普（車いす専用）
+@bg_itsuki		# 自室
+
+
+＠美雨,B03140
+「お手紙を書かれていたんですか…？」
+
+＠樹
+「まぁね。みかん達にさ」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03141
+「電話だとみんな、新しい生活でも元気そうでしたね。安心しました」
+
+
+@miu_kuruma		# 普（車いす専用）
+
+
+＠美雨,B03142
+「そういえばかりんちゃんがこの前、樹さんの新しい引っ越し先の住所が知りたいって言ってましたよ」
+
+＠樹
+「何だろうな。不幸の手紙でも送ってくる気か……」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03143
+「ふふ。住む場所が決まったら、みんなに連絡をお願いします」
+
+それをわざわざオレに頼む。
+
+美雨はもうその頃には、住所を教えられる状態じゃなくなっているということだろう。
+
+＠樹
+「……美雨の紅茶、美味しいな」
+
+＠樹
+「これからしばらく飲めなくなると思うと、名残惜しいよ」
+
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B03144
+「私も……この時間がなくなるのは、すごく寂しいです」
+
+＠樹
+「………」
+
+
+@bg_black
+
+
+手紙をそれぞれ封筒に入れると、オレはお皿の上のクッキーを摘んだ。
+
+これも美雨の手作りだ。
+
+最後に、カップの中の紅茶を一気に呷る。
+
+
+#@miu_small_kuruma
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@bg_itsuki		# 自室
+
+
+＠樹
+「時間まで何をしようか。三人での思い出作り」
+
+
+@miu_kuruma		# 普（車いす専用）
+
+
+＠美雨,B03145
+「そうですね……。お菓子作りなんてどうでしょう」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03146
+「クッキーの作り方を、前からひーちゃんにせがまれていましたから」
+
+＠樹
+「うん。いいんじゃないかな」
+
+＠樹
+「クッキーだけと言わず、後先考えないで色々一緒に作りまくろう」
+
+＠美雨,B03147
+「はいっ。今日は全部のメニューを出し尽くします」
+
+する事は決まった。
+
+時間までオレ達は、それぞれの思惑を胸に思い出を積み上げていく。
+
+
+bgm_stop
+@bg_black
+wait		1000
+#■BG（ひかりの部屋）
+#@bg_hikari		# ひかりの部屋
+
+
+美雨と一緒に、部屋でお絵かきをしていたひかりに声を掛けた。
+
+
+#@hikari_small
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_yorokobi	#喜
+@bg_hikari		# ひかりの部屋
+wait		100
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	1800,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00787
+「クッキー作ゆの！？　行く行くーっ！」
+
+＠美雨,B03148
+「材料は他に沢山あるから、三人一緒に色々作りましょうね」
+
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00788
+「うんッ！　わぁいッ♪」
+
+
+@bg_black
+wait		1000
+#■BG（食堂）
+#@bg_dining		# 食堂
+@bg_kitchen		# キッチン
+@bgm17			#BGM 17 : のんびりのテーマ
+
+
+それからオレ達三人は、キッチンにこもりお菓子作りを楽しんだ。
+
+正直オレもひかりも素人なので失敗は多かったが、今の目的は思い出作り。
+
+失敗したときは笑いあい、成功したときは喜び合う。それで十分だった。
+
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@hikari_middle		# 中間
+@hikari_shifuku
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@hikari_yorokobi	#喜
+
+
+＠ひかり,N00789
+「お母しゃん、混ぜてゆのトロトロになってきたの」
+
+＠美雨,B03149
+「うん、上手いわよ。じゃあ次はそこに、メレンゲを入れて混ぜるの」
+
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00790
+「はーい♪　れめんげ、れめんげー」
+
+
+@miu_kuruma		# 普（車いす専用）
+
+
+＠美雨,B03150
+「樹さん、そちらはどうですか？」
+
+
+@hikari_yorokobi	#喜
+
+
+＠樹
+「見てくれ美雨！　噛まずに済むボロボロのホットケーキが出来上がった！」
+
+
+@hikari_odoroki		#驚
+#@miu_kuruma_odoroki	# 驚（車いす専用）
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03151
+「あ、あは……えっと、焼きあがるまでにタネを弄りすぎたみたいですね……」
+
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00791
+「ボロボロでも美味ししょうな匂いなのー♪」
+
+＠樹
+「次は甘いのが苦手な人でも食べられる、しょっぱいシュークリームでも作るか」
+
+
+@hikari			#普
+@miu_kuruma_odoroki	# 驚（車いす専用）
+
+
+＠美雨,B03152
+「あぁあ、樹さんっ。メレンゲにはお塩じゃなく砂糖をお願いします～」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@hikari_warai		#笑
+
+
+どんな工程で何を作っても、その一緒にいる時間がかけがえのない宝物になる。
+
+談笑した数だけ、お菓子の数だけ、過ぎた時間だけ、記憶の中へ刻み付ける。
+
+
+#■BG（白）
+#@bg_white		# 白
+window_close
+screen_whiteout		2000
+wait			2000
+@bg_white		# 白
+screen_whitein		100
+wait			100
+
+
+……オレは過ぎた一年間を振り返っていた。
+
+……想像もしていなかった濃い生活と、慌しい日々。
+
+……まるで一生分の出来事が、この一年間に凝縮されていたような生活だった。
+
+……たくさん笑った。
+
+……たくさん苦しんだ。
+
+……たくさん悩んだ。
+
+……たくさん努力した。
+
+……そして、たくさん幸せを感じた。
+
+……もう、未練も後悔もない。
+
+一生分の苦楽を過ごした一年間の思い出を胸に、オレは生涯の終幕に立つ。
+
+
+bgm_stop
+@bg_black
+wait		1000
+#■BG（夕焼け）
+@bg_sky_y		# 夕方の空
+
+
+＠美雨,B03153
+「……樹さん」
+
+＠樹
+「うん…？」
+
+＠美雨,B03154
+「何を考えてるんですか……？」
+
+＠樹
+「分からない。色々すぎて、言葉では言えないよ」
+
+
+#■BG（リビング・夕方）
+#@bg_living_n		# リビング(夜) 
+@bg_living		# リビング
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+
+お菓子作りの時間も終わって、オレと美雨は二人で窓から外を眺めている。
+
+時折、前庭で遊ぶひかりが横切るたびに、手を振って答えてあげた。
+
+
+@miu_small_kuruma
+#@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03155
+「部屋の中が甘い匂いでいっぱいですね……」
+
+＠樹
+「明らかに作りすぎだな。食べ残してるし……」
+
+＠美雨,B03156
+「でも、楽しかったです」
+
+＠美雨,B03157
+「最後に楽しい思い出がたくさん出来て」
+
+
+@miu_
+
+
+キィキィと、美雨が車椅子の向きを変えた。
+
+＠美雨,B03158
+「そろそろ行きますね。未練が出てしまう前に」
+
+＠樹
+「………」
+
+
+@bg_black
+#@SE24			#SE24　物音（ガタンッ）
+wait		100
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma		# 普（車いす専用）
+@bg_living		# リビング
+
+
+＠美雨,B03159
+「……樹さん？」
+
+車椅子を押さえて、静かに美雨の前へ回り込んだ。
+
+＠樹
+「美雨。最後に二つ、頼みを聞いてくれないか」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B03160
+「はい……いいですよ、今からで出来る事になってしまいますけど…」
+
+＠美雨,B03161
+「何でしょう……？」
+
+これから濡れ衣を被ろうと言うのに、美雨は穏やかな微笑みを絶やさない。
+
+オレは……
+
+
+bgm_stop
+
+
+＠樹
+「ひかりのことを、よろしく頼むよ」
+
+
+@miu_kuruma		# 普（車いす専用）
+
+
+＠美雨,B03162
+「え……？」
+
+＠美雨,B03163
+「……あの、それはどういう」
+
+＠樹
+「一つ目の頼みだよ」
+
+＠樹
+「警察へは、オレが出頭する」
+
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠美雨,B03164
+「……ッ！」
+
+
+@bgmk07			#BGM K07 : 深刻なテーマ
+
+
+その言葉に美雨が、息を呑んで身体を強張らせた。
+
+
+@miu_kuruma_ikari	# 怒（車いす専用）
+
+
+＠美雨,B03165
+「な、何を言い出すんですかッ、樹さん！？」
+
+＠美雨,B03166
+「一連の事件の犯人は私です！　警察もそう捜査して、もう決まっていることなんですッ」
+
+＠樹
+「あいつらは、自分達の不利にならない犯人なら誰でもいいんだよ」
+
+＠樹
+「今日、誠司に話して確認した」
+
+＠樹
+「オレが自首をすれば、誠司が内部からそう取り計らってくれるって」
+
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠美雨,B03167
+「そ、そんなことをッ……！？」
+
+
+@miu_kuruma_ikari	# 怒（車いす専用）
+
+
+＠美雨,B03168
+「ダメですッ、樹さんにそんなのッ！　認められませんッ！」
+
+＠樹
+「美雨。君はもう十分に苦しんだ。辛い目に遭った」
+
+＠樹
+「それはオレのせいだから、その罪を今から償いに行くんだよ」
+
+＠美雨,B03169
+「樹さんのせいじゃありません！　樹さんは被害者じゃないですかッ」
+
+＠樹
+「オレは美雨の心に、そして身体に傷を負わせた。立派な加害者だ」
+
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B03170
+「そんな………そんなことで自首なんてッ…」
+
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠美雨,B03171
+「私は今まで、たくさんの人を殺めましたッ」
+
+＠美雨,B03172
+「樹さんのお父さんも、この手にかけているんですッ！」
+
+＠美雨,B03173
+「それは例えどんな事情があろうと、罪として私が償わなければなりませんッ」
+
+
+@miu_kuruma_ikari	# 怒（車いす専用）
+
+
+＠美雨,B03174
+「樹さんッ……お願いですから、バカな真似はやめてくださいっ…！」
+
+＠樹
+「美雨……」
+
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B03175
+「冗談だって言ってください……樹さんっ…」
+
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠美雨,B03176
+「今ならギリギリでまだ………その言葉を、受け止めていませんからッ…」
+
+衝撃から動転、困惑と焦り………
+
+そんな様々な感情を理解した先にあるのが、大きな絶望と悲しみというのが分かっているから。
+
+だから美雨は今、手を震わせながらここで踏みとどまっているのだ……
+
+＠樹
+「ごめんよ、美雨……」
+
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B03177
+「そ、んな……」
+
+オレはもう、美雨を守るという決意を変えるつもりはない。
+
+＠樹
+「……美雨。前にオレが言った事、覚えてる？」
+
+
+#@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠樹
+「例え国だろうが世界だろうが敵に回しても、美雨と天秤にかけるなんて出来ない」
+
+＠樹
+「……オレは美雨を守りたいんだ」
+
+
+bgm_stop
+@bg_black
+
+
+＠美雨,B03178
+「あっ……！」
+
+オレは美雨に背を向け、ゆっくりと歩き出した。
+
+背後で息を呑む美雨。
+
+
+#@bg_living		# リビング
+
+
+＠美雨,B03179
+「樹さんッ……私でも、同じ事が出来ますかッ！」
+
+
+#EF　白フラッシュ
+#SE50　風を切る音（ヒュンッ）
+screen_flash		500
+#@SE50			#SE50　風を切る音（ヒュンッ）
+se		0,	"sound\se\SE50_空を切る.WAV",	play_once
+
+
+その瞬間、風を切るような音と共に頬に痛みが走った。
+
+放たれた果物ナイフが頬をかすめていた。
+
+オレは静かに、美雨の方へと振り返る……
+
+
+@miu_small_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_ikari	# 怒（車いす専用）
+@bg_living		# リビング
+
+
+＠美雨,B03180
+「樹さんが本気でしたら……私も本気で樹さんを止めますッ…」
+
+＠美雨,B03181
+「樹さんが守ると言ってくださった私自身も、樹さんの敵に回りますからッ」
+
+＠樹
+「………」
+
+
+@bgm05			#BGM 05 : 悲しいシーンの曲
+
+
+瞳に涙を滲ませた、激しい美雨の怒りだった。
+
+自分のことでオレを犠牲にさせたくないと言う、想いのこもった怒り……
+
+＠樹
+「そう……」
+
+＠美雨,B03182
+「本気、ですよッ……」
+
+でも、想いが分かるから、オレは美雨の怒りを前にしても冷静でいられた。
+
+逆に嬉しくさえ思う。
+
+＠樹
+「美雨。もしこのナイフが、オレじゃなくて美雨自身に向けられていたものだとしたら」
+
+＠樹
+「オレが思いとどまっていたのは、分かっていたはずだ」
+
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠美雨,B03183
+「……ッ！」
+
+＠樹
+「でも美雨は、そんな強引な解決策より、オレを納得させようとしてくれたね」
+
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B03184
+「だって、それは………そんな事をしても樹さんは……」
+
+＠樹
+「きっと、後々抵抗して、ひかりとおとなしく過ごすような事はないだろうな……」
+
+＠樹
+「だから美雨は自分のことより、ひかりの事を案じてくれた」
+
+さっきのが、今の美雨が取れる最後の手段だったはずだ。
+
+そしてオレはそれも振り切って、美雨に背を向ける。
+
+
+#■BG（黒）
+@bg_black
+
+
+＠美雨,B03185
+「い、いや……樹さんッ！！」
+
+
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+
+
+＠美雨,B03186
+「いやぁッ、待ってッ！　行かないで樹さんッ！！」
+
+
+#se	0,	"sound\se\SE24_ガラス戸を乱暴に閉める～ガタン.wav",	play_wait
+#wait		100
+@SE27			#SE27　倒れる音（ドサッ）
+wait		500
+
+
+身を乗り出した美雨はバランスを崩し、床へと投げ出された。
+
+
+#素材なし：ＥＶ
+#--------------------------------------------------
+#■EVCG（泣き縋ろうとする美雨）
+@miu_large		# 近い
+@miu_maid
+@miu_kanashimi		#開_哀
+@bg_living		# リビング
+#--------------------------------------------------
+
+
+＠美雨,B03187
+「どうしてッ……！」
+
+＠美雨,B03188
+「どうして私とひーちゃんを置いていくんですかッ！」
+
+
+@miu_kanashimi2		#閉_哀
+
+
+＠美雨,B03189
+「樹さんは何も悪くないッ……全部、私が犯したことなのにぃッ！」
+
+もう取れる手段もない、悲愴な声がオレの鼓膜を打ちつける。
+
+
+@miu_kanashimi		#開_哀
+
+
+＠美雨,B03190
+「お願いしますッ、樹さん！　私を庇って自首なんて、バカな真似は止めてくださいッ！」
+
+＠美雨,B03191
+「穢れてる私なんか……ひーちゃんの側にいる資格なんてないんですッ」
+
+＠樹
+「美雨。君は穢れてなんかいない」
+
+＠樹
+「ずっと淀んだ世界で自分を顧みてたから、そう見えていただけだよ」
+
+＠樹
+「だから、そんな世界に君を置いてしまったオレが、全ての罪を償うべきなんだ」
+
+
+@miu_kanashimi2		#閉_哀
+
+
+＠美雨,B03192
+「分かりませんッ、そんな勝手な理屈！　分かりたくないッ！」
+
+＠美雨,B03193
+「私はただ………ただッ……」
+
+＠美雨,B03194
+「樹さんとひーちゃんが大好きで、何よりも大事なだけなのにぃッ…！」
+
+＠樹
+「美雨……」
+
+結局、オレのしていることは、自己満足でしかないのかもしれない。
+
+こうして美雨を悲しませ、泣かせているオレ。
+
+誰にだって、日陰ではなく、日向の人生を歩む権利があって当然じゃないか。
+
+＠樹
+「これからはひかりと、この淀んだ世界を出て、澄んだ世界を歩んでほしい」
+
+＠樹
+「美雨ならもっと楽しい事、嬉しい事、幸せな事を、たくさん見つけられるはずだ」
+
+＠樹
+「それがオレの、二つ目のお願いだよ」
+
+
+@miu_kanashimi		#開_哀
+
+
+＠美雨,B03195
+「そんな……いやですッ……」
+
+＠美雨,B03196
+「そんなお願いなんて聞けませんッ、樹さんッ！　行かないでぇッ！」
+
+
+@bg_black
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+
+
+＠美雨,B03197
+「あッ……」
+
+届かぬと思った美雨の手が、オレのズボンの裾を掴んでいた。
+
+
+@miu_large		# 近い
+@miu_maid
+@miu_kanashimi2		#閉_哀
+@bg_living		# リビング
+
+
+＠美雨,B03198
+「樹さん……幸せになってくださいッ、私なんていいですから…」
+
+＠樹
+「心配ないよ、美雨。オレは今、すごく幸せだから」
+
+
+@bg_black
+
+
+腰をかがめると、オレはその美雨の手にキスをして、ズボンの裾からそっと離した。
+
+
+@miu_large		# 近い
+@miu_maid
+@miu_kanashimi		#開_哀
+@bg_living		# リビング
+
+
+＠樹
+「大好きだ。美雨」
+
+＠美雨,B03199
+「ッ、いつき……さっ……」
+
+＠樹
+「それじゃあ、元気で」
+
+
+@bg_black
+
+
+再び美雨に背を向け、オレはリビングを後にする。
+
+＠美雨,B03200
+「―――ッ！？　い、樹さんッ……」
+
+
+@SE06			#部屋のドア開く音（ガチャ）
+
+
+リビングのドアを開けて、廊下に一歩を足を踏み出す。
+
+＠美雨,B03201
+「いやッ、いやあぁぁ………行かないで、樹さんッ……樹さんッ…」
+
+＠樹
+「……っ」
+
+美雨の哀しみに沈んだ声で、オレは咄嗟に背中越しに口を開く。
+
+……が、
+
+＠美雨,B03202
+「いつき…さん……」
+
+
+window_close
+bgm_stop
+#SE07　部屋のドア閉まる音（パタン）
+@SE07			#部屋のドア閉まる音（パタン）
+#■BG（黒）
+#@bg_black
+@bg_rouka		# 廊下
+
+
+何も言葉を発することなく、リビングのドアを閉じた。
+
+＠樹
+「………」
+
+その直後、リビングから聞こえる美雨の慟哭を、ドアの前にたたずんで耳に残す。
+
+それが声の枯れそうな嗚咽になるまで、その場でオレはジッと立っていた。
+
+
+@bg_black
+wait		1000
+@bg_sky_y		# 夕方の空
+#注：素材微妙：ＢＧ
+#■BG（庭／施設外観）
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+
+外に出ると、遊んでいたひかりがオレの姿を見て寄って来た。
+
+
+@hikari_small		# 遠い
+@hikari_shifuku
+@hikari			#普
+@bg_gate_y		# 孤児院前(夕方)
+
+
+＠ひかり,N00792
+「…？　お父しゃん、お出かけすゆのっ？」
+
+＠樹
+「ああ、ちょっと遠くに出かけてくる。しばらく帰って来れないな……」
+
+
+@hikari_komaru		#困
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_hikari,0,	200,	0,32
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00793
+「ふぇぇッ……帰ららいのッ！？　ぐすッ…お父しゃんまで居なくなっちゃうのぉッ…！」
+
+＠樹
+「代わりに美雨が居てくれるよ。ずっと」
+
+
+@hikari_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00794
+「えうぅッ……どっちも居なくなるのがやぁなのぉッ！」
+
+
+@hikari_naki		#泣
+
+
+＠ひかり,N00795
+「ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいよぉッ…！　ふえぇぇええんッ！」
+
+
+@hikari_
+
+
+＠樹
+「はは……甘えんぼさんだなぁ、ひかりは」
+
+また寂しくて泣き出してしまったひかりの前に屈み、視線を合わせる。
+
+＠樹
+「ひかりが笑っていてくれないと、中々帰って来られなくなっちゃうよ」
+
+
+@hikari_large		# 近い
+@hikari_shifuku
+@hikari_naki		#泣
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00796
+「ひっく、ぐしゅッ……ん、ひーちゃん、泣いてゆとダメなの……？」
+
+＠樹
+「そうだよ。ひかりが強い子でいてくれたら、オレも早く戻って来られるんだ」
+
+＠樹
+「だから、ほら。笑顔になって」
+
+
+#@hikari_kanashimi	#哀
+@hikari_naki		#泣
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00797
+「んぐっ……ひっく、うん……だったらひーちゃん、泣からいの…」
+
+＠樹
+「ははっ、よし。良い子だ。今ので少し帰るのが早くなったぞ」
+
+
+#@hikari_komaru		#困
+@hikari_naki		#泣
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00798
+「ぐすッ、すんっ……うん！　ちゅよい子になるの…」
+
+＠樹
+「それじゃあ。元気でな、ひかり」
+
+
+bgm_stop
+@bg_white		# 白
+
+
+頭を撫でると、前髪を上げたその額にキスをして、オレは立ち上がった。
+
+
+@bg_gate_y		# 孤児院前(夕方)
+
+
+＠樹
+「美雨が中で寂しがっているんだ。慰めてあげてくれるかい？」
+
+
+#@hikari_large		# 近い
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_yorokobi	#喜
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	500,	0,0
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00799
+「…うん！　お母しゃんも、笑ってゆのがいいの……」
+
+
+#--------------------------------------------------
+#ひかりのキスシーンがイベントに組み込まれていない場合、ここで朝バージョンを表示
+
+
+@bg_white		# 白
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+screen_whiteout		100
+wait			100
+event		"event\EV_HIK_020-00.png"
+screen_whitein		1500
+wait			1500
+
+
+＠樹
+「あ……」
+#--------------------------------------------------
+
+
+@bg_black
+wait		100
+#@hikari_large		# 近い
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_tere		#照
+@bg_gate_y		# 孤児院前(夕方)
+
+
+＠ひかり,N00800
+「お父しゃん、早く帰ってきてね……！」
+
+
+@hikari_
+wait		500
+#SE34　外で走り去る音
+@SE34			#SE34　外で走り去る音
+
+
+少し照れたような笑顔を見せて、ひかりは美雨の元へと元気に走っていく。
+
+そんな後ろ姿に目を細めると、ジワリと視界が滲んでしまった。
+
+
+#一拍
+@bg_black
+se_stop		0
+wait		1000
+#■BG（住宅街）
+#@bg_jyuutakugai	# 住宅街
+@bg_jyuutakugai_y	# 住宅街 (夕方) 
+
+
+施設を出て最後の用事、書き上げた手紙をポストへ入れて、オレは息を吐いた。
+
+＠樹
+「ふぅ……」
+
+＠樹
+「終わったのか……」
+
+
+@bgm17			#BGM 17 : のんびりのテーマ
+
+
+やるべき事は全てやった。
+
+後は町へ出て、警察署で事情を話せば全てが終わる。
+
+その先のことは、正直、考えても想像はつかなかった。
+
+
+#--------------------------------------------------
+#■EVCG（集合写真＋手に持っている？）
+#@SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
+@bg_white		# 白
+#window_close
+screen_whiteout		100
+wait			100
+event		"event\EV_MIU_100-00.png"
+screen_whitein		1000
+wait			1000
+#--------------------------------------------------
+
+
+＠樹
+「色んなことがあった一年だったな……」
+
+オレは唯一つの持ち物、思い出の写真をポケットから出して見つめていた。
+
+そこに写っている人達はみんな、離れ離れになった、今もかけがえのない大事な家族だ。
+
+みんなそれぞれの道を歩んで、幸せに暮らしてほしいと願う。
+
+＠樹
+「それじゃあみんな、行ってくるよ」
+
+
+#■BG（青空）
+#@bg_sky			# 空
+#@SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
+@bg_sky_y		# 夕方の空
+
+
+挨拶を残してオレは空を見上げた。
+
+何があろうと、みんなとの思い出があれば、心が折れることなんてない。
+
+だからこそオレは言える。
+
+誰が何と言おうと、みんなと過ごしたこの一年間は、最高に幸せで満たされた日々だったと。
+
+これからの事の不安も、その気持ちで一掃された。
+
+＠樹
+「さぁ、行こうか」
+
+たくさんの思い出を持って、オレは物語の終点へと踏み出した。
+
+
+window_close
+bgm_stop
+screen_whiteout		3000
+wait			3000
+@bg_white		# 白
+screen_whitein		1
+
+hikari_end_flag=1
+
+goto	ending
+
+#（エンドロール）
+return
+
+
+
+
+

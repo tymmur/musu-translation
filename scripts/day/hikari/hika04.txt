@@ -1,0 +1,470 @@
+label	hikari_04
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#ひかりルート３（週末のアレ）
+#発生条件：『ひかりとの新生活イベント』が終了
+#発生時期：上記イベントが終了している状態での、週末の調教。強制発生
+#※調教開始コメントは発生しない
+#--------------------------------------------------
+
+
+#■BG（自室・夜）
+@shizuku_small
+@shizuku_shifuku
+@shizuku		#普通
+@bg_itsuki_n		# 自室(夜)
+
+
+＠樹
+「はぁぁ～……」
+
+＠雫,S01204
+「ん？　何だい、気の抜けるような溜め息ついて」
+
+＠樹
+「いえ、別に。調教だなぁ……と」
+
+
+@bgmk04			#BGM K04 : 寝る前のテーマ
+
+
+ひかりと暮らし始めて、何か平和になった気がするが、こればっかりは変わらない。
+
+もう慣れたつもりだったが、改めて思い返してしまった。
+
+
+@shizuku_akire		#呆
+
+
+＠雫,S01205
+「はぁ。ひかりのことかい？」
+
+
+@shizuku		#普通
+
+
+＠雫,S01206
+「ま、和やかっぽくなってたみたいだけど、所詮表面だけってことだよ」
+
+＠樹
+「でしょうね……。何も解決してないし」
+
+そして、ここから抜けるためには、今の生活を続けるしかないのだ。
+
+今は、ひかりのことは吹っ切ろう。
+
+＠樹
+「よしッ、悩んでてもしょうがない。今までどおりするしかないか」
+
+
+@shizuku_yorokobi	#喜
+
+
+＠雫,S01207
+「そうそう。やることやってりゃ気も紛れるさ」
+
+
+@shizuku_akire		#呆
+
+
+＠雫,S01208
+「それじゃ、今日は誰とする――――」
+
+
+#SE05　物にぶつかる音（ガンッ！）
+#EF　画面シェイク
+#@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
+se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
+screen_vibration	500,16,16,16
+
+
+@shizuku		#普通
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_shizuku,0,	500,	0,0
+layer_movepass_add	l_shizuku,0,	200,	0,16
+layer_movepass_add	l_shizuku,0,	200,	0,0
+layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_shizuku,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠雫,S01209
+「ッと！？　な、なに？」
+
+突然、部屋のドアから大きな音がした。
+
+
+#CH（ひかりは立ち絵なし）
+
+
+＠ひかり,N00280
+「うぅっ、んぅぅ～～ッ……いたい、痛いのぉっ……」
+
+＠樹
+「……ひかりか」
+
+
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01210
+「話には聞いてたけど、豪快なぶつかり方だねぇ……」
+
+
+@bg_black
+#SE06　部屋のドア開く音（ガチャ）
+@SE06			#部屋のドア開く音（ガチャ）
+
+
+少ししてドアが開き、ひかりが入ってきた。
+
+
+#CH（ここからひかり立ち絵あり）
+@hikari_large		# 近い
+@hikari_shifuku
+@hikari_kanashimi	#哀.png
+@bg_itsuki_n		# 自室(夜)
+wait		500
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	400,	-16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	-16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	-16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	-16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	-16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_add	l_hikari,0,	400,	16,0
+layer_movepass_add	l_hikari,0,	400,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00281
+「うぅ～…お父しゃん、おでこぶちゅけた……痛いのぉ…」
+
+＠樹
+「どれ……見せてごらん」
+
+
+@bg_black
+
+
+前髪を上げて見ると、真っ白なおでこの一部が赤くなっている。
+
+
+@shizuku_small
+@shizuku_shifuku
+@shizuku		#普通
+@bg_itsuki_n		# 自室(夜)
+
+
+＠雫,S01211
+「特に腫れも無いし、大丈夫でしょ」
+
+
+@shizuku_yorokobi	#喜
+
+
+＠雫,S01212
+「しかしドアにぶつかるのは……。ちゃんと気をつけるんだよ」
+
+＠ひかり,N00282
+「は～い……」
+
+部屋に来たひかりは、そのままキョロキョロと周りを見回した。
+
+
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+
+
+＠ひかり,N00283
+「お父しゃんと雫しゃん、何してゆの……？」
+
+
+@shizuku_akire		#呆
+
+
+＠雫,S01213
+「樹の仕事だよ。これから子供達を調教するのさ」
+
+
+#SE66　効果音１（ビシッ！）
+@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+
+
+＠樹
+「ちょぉおッ！？　サラリと当然のように答えないでくださいッ！」
+
+
+@hikari			#普.png
+
+
+＠ひかり,N00284
+「ちょーきょー？　なぁに？」
+
+
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01214
+「ははっ。心配しなくても、ひかりはまだ関係ないことさね」
+
+＠樹
+「『まだ』とかも言わないッ！」
+
+＠美雨,B01615
+「あの、すみません。もしかしてここにひーちゃんが………あッ！」
+
+部屋を確認しに来た美雨が、ひかりの姿を見つけて声をあげた。
+
+
+@chara_clear		#保険
+wait		500
+@miu_small
+@miu_maid
+@miu_komaru		#開_困
+
+
+＠美雨,B01616
+「ひ、ひーちゃん、今はここに来ちゃダメって言ったでしょ」
+
+
+@hikari_small
+@hikari_shifuku
+@hikari			#普.png
+
+
+＠ひかり,N00285
+「ねぇお母しゃん、ちょーきょーってなぁに？」
+
+
+@miu_ikari2		#開_怒
+
+
+＠美雨,B01617
+「え゛ッ……」
+
+
+@hikari_yorokobi	#喜.png
+
+
+＠ひかり,N00286
+「お父しゃん、こえからちょーきょーでお仕事すゆんだって。なぁに？」
+
+＠樹
+「あ、いや、だからなひかり……それは」
+
+
+@miu_ikari		#閉_怒
+
+
+＠美雨,B01618
+「…………」
+
+＠美雨,B01619
+「……まさか、ひーちゃんに話したんですか」
+
+静かに。
+
+それは誰にというわけではなく、ただ答えを求め虚空へ言葉を紡ぐ。
+
+
+@hikari			#普.png
+
+
+＠ひかり,N00287
+「雫しゃんから聞いたの。ちょーきょーってなぁに？」
+
+
+@miu_ikari2		#開_怒
+
+
+＠美雨,B01620
+「そう、雫さんが」
+
+
+@chara_clear		#保険
+wait		500
+@shizuku_small
+@shizuku_shifuku
+@shizuku_akire		#呆
+
+
+＠雫,S01215
+「いやまぁ、内容は話してないよ。はは、事故事故」
+
+
+@miu_small
+@miu_maid
+@miu			#閉_にこ
+
+
+＠美雨,B01621
+「事故。うふふふ♪」
+
+
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01216
+「そう、事故。ははははっ」
+
+
+@miu2			#開_にこ
+
+
+＠美雨,B01622
+「樹さん、ひーちゃん。今何時かしら？」
+
+＠樹
+「え、今？」
+
+＠ひかり,N00288
+「……？」
+
+
+#■BG（黒）
+@bg_black
+
+
+二人して部屋の時計へ振り返る。
+
+
+screen_flash		500
+#SE95　人を殴る音
+@SE95			#SE95　人を殴る音　※リアル
+
+
+特に何がある訳でもなく、普通に針は９時過ぎを指している。
+
+
+#■BG（自室・夜）
+@miu_small
+@miu_maid
+@hikari_small
+@hikari_shifuku
+
+@miu_ikari		#閉_怒
+@hikari			#普.png
+@bg_itsuki_n		# 自室(夜)
+
+
+＠樹
+「ん？　今何か鈍い音が」
+
+
+@miu2			#開_にこ
+
+
+＠美雨,B01623
+「あ、もうこんな時間。ひーちゃん、一緒にお風呂に入りましょうか」
+
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00289
+「わーいっ♪　おふよおふよー！」
+
+
+@miu			#閉_にこ
+
+
+＠美雨,B01624
+「それでは樹さん、後はよろしくお願いします」
+
+＠樹
+「へ……？　あぁ、うん」
+
+
+window_close
+@chara_clear		#保険
+wait		1000
+#SE07　部屋のドア閉まる音（パタン）
+@SE07			#部屋のドア閉まる音（パタン）
+
+
+何事も無かったように、美雨はひかりを連れて部屋を出て行った。
+
+＠樹
+「……何だったんだ、一体」
+
+
+window_close
+#CH（雫立ち絵なし）
+@SE70			#SE70　衣擦れ音（シュルシュル）
+
+
+＠雫,S01217
+「ぐッ……うぅ、ぉぐぅっ……」
+
+＠樹
+「って、あれ……？　雫さん、何してるんですか」
+
+お腹を抱えるようにして、雫さんがうずくまっていた。
+
+＠雫,S01218
+「うぅぐッ…い、いいものもらい過ぎた……さすが美雨…」
+
+＠雫,S01219
+「っていうか……ほ、本気だったねアレは……マジで一瞬…」
+
+＠樹
+「よく分からないんですけど。結局今日の調教はどうするんです？」
+
+＠雫,S01220
+「や、やるに決まってるッ……けど、あたしはもう今日はダメだ……げふっ」
+
+＠雫,S01221
+「…というわけで、後はあんた一人で頼むよ………うぅッ……お腹が…」
+
+
+window_close
+#CH（雫立ち絵なし）
+@SE70			#SE70　衣擦れ音（シュルシュル）
+wait		100
+@SE06			#部屋のドア開く音（ガチャ）
+wait		100
+@SE07			#部屋のドア閉まる音（パタン）
+
+
+さっきまでの元気はどうしたのか、うずくまったまま部屋を出て行った。
+
+＠樹
+「………まぁ、いいか」
+
+元が変わり者なので、たいていはその一言で済んでしまうのだった。
+
+
+@bg_black
+return
+

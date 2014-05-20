@@ -1,0 +1,1380 @@
+#スケジュール実行中
+label	work
+window_close
+#------------------------------------------------------------------------------
+#  フレームの読み込み
+#------------------------------------------------------------------------------
+l_work		=	60
+
+add_kenkou	=	0
+add_kiryoku	=	0
+add_karada	=	0
+add_atama	=	0
+add_kokoro	=	0
+add_money	=	0
+
+if schedule_chara=1 then @mikan_schedule_paramset
+if schedule_chara=2 then @ichigo_schedule_paramset
+if schedule_chara=3 then @karin_schedule_paramset
+
+layer_load		l_work,	"schedule\com_frame.png"
+layer_position_set	l_work,16,90
+
+if command=10 then goto schedule_study1
+if command=11 then goto schedule_study2
+if command=12 then goto schedule_study3
+if command=13 then goto schedule_study4
+
+if command=20 then goto schedule_work1
+if command=21 then goto schedule_work2
+if command=22 then goto schedule_work3
+if command=23 then goto schedule_work4
+
+if command=30 then goto schedule_reception1
+if command=31 then goto schedule_reception2
+if command=32 then goto schedule_reception3
+if command=33 then goto schedule_reception4
+
+if command=40 then goto schedule_rest1
+if command=41 then goto schedule_rest2
+
+if command=50 then goto schedule_lesson1
+if command=51 then goto schedule_lesson2
+if command=52 then goto schedule_lesson3
+if command=53 then goto schedule_lesson4
+
+if command=90 then goto schedule_down
+
+#ここにきてはいけない
+goto	scheduke_skip
+
+
+#------------------------------------------------------------------------------
+#  勉強(やさしい)
+#------------------------------------------------------------------------------
+label	schedule_study1
+
+if schedule_chara=1 then @mikan_study1_load
+if schedule_chara=2 then @ichigo_study1_load
+if schedule_chara=3 then @karin_study1_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	500,	0
+layer_anime_add		l_work-1,0,	500,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=study1_kenkou+rnd
+@work_rnd1
+add_kiryoku=study1_kiryoku+rnd
+
+@work_rnd1
+add_atama=study1_atama+rnd
+@work_rnd1
+add_karada=study1_karada+rnd
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  勉強(普通)
+#------------------------------------------------------------------------------
+label	schedule_study2
+
+if schedule_chara=1 then @mikan_study2_load
+if schedule_chara=2 then @ichigo_study2_load
+if schedule_chara=3 then @karin_study2_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	350,	0
+layer_anime_add		l_work-1,0,	350,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=study2_kenkou+rnd
+@work_rnd1
+add_kiryoku=study2_kiryoku+rnd
+
+@work_rnd1
+add_atama=study2_atama+rnd
+@work_rnd1
+add_karada=study2_karada+rnd
+
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  勉強(厳しい)
+#------------------------------------------------------------------------------
+label	schedule_study3
+
+if schedule_chara=1 then @mikan_study3_load
+if schedule_chara=2 then @ichigo_study3_load
+if schedule_chara=3 then @karin_study3_load
+
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	200,	0
+layer_anime_add		l_work-1,0,	200,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=study3_kenkou+rnd
+@work_rnd1
+add_kiryoku=study3_kiryoku+rnd
+
+@work_rnd1
+add_atama=study3_atama+rnd
+@work_rnd1
+add_karada=study3_karada+rnd
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  勉強(スパルタ)
+#------------------------------------------------------------------------------
+label	schedule_study4
+
+if schedule_chara=1 then @mikan_study4_load
+if schedule_chara=2 then @ichigo_study4_load
+if schedule_chara=3 then @karin_study4_load
+
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	100,	0
+layer_anime_add		l_work-1,0,	100,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=study4_kenkou+rnd
+@work_rnd1
+add_kiryoku=study4_kiryoku+rnd
+
+@work_rnd1
+add_atama=study4_atama+rnd
+@work_rnd1
+add_karada=study4_karada+rnd
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  メイド喫茶
+#------------------------------------------------------------------------------
+label	schedule_work1
+
+if schedule_chara=1 then @mikan_work1_load
+if schedule_chara=2 then @ichigo_work1_load
+if schedule_chara=3 then @karin_work1_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	300,	0
+layer_anime_add		l_work-1,0,	300,	1
+layer_anime_add		l_work-1,0,	300,	2
+layer_anime_add		l_work-1,0,	300,	3
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=work1_kenkou+rnd
+@work_rnd1
+add_kiryoku=work1_kiryoku+rnd
+
+@work_rnd1
+add_atama=work1_atama+rnd
+@work_rnd1
+add_karada=work1_karada+rnd
+add_money=work1_price
+
+if schedule_chara=1 then mikan_work1=mikan_work1+1
+if schedule_chara=2 then ichigo_work1=ichigo_work1+1
+if schedule_chara=3 then karin_work1=karin_work1+1
+
+#はたらくおじさんチェック
+if ojisan_count=0 then goto scheduke_skip
+add_money=add_money*3
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  着ぐるみ
+#------------------------------------------------------------------------------
+label	schedule_work2
+
+if schedule_chara=1 then @mikan_work2_load
+if schedule_chara=2 then @ichigo_work2_load
+if schedule_chara=3 then @karin_work2_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	300,	0
+layer_anime_add		l_work-1,0,	300,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=work2_kenkou+rnd
+@work_rnd1
+add_kiryoku=work2_kiryoku+rnd
+
+@work_rnd1
+add_atama=work2_atama+rnd
+@work_rnd1
+add_karada=work2_karada+rnd
+add_money=work2_price
+
+if schedule_chara=1 then mikan_work2=mikan_work2+1
+if schedule_chara=2 then ichigo_work2=ichigo_work2+1
+if schedule_chara=3 then karin_work2=karin_work2+1
+
+#はたらくおじさんチェック
+if ojisan_count=0 then goto scheduke_skip
+add_money=add_money*3
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  メイド喫茶（ハード）
+#------------------------------------------------------------------------------
+label	schedule_work3
+
+if schedule_chara=1 then @mikan_work3_load
+if schedule_chara=2 then @ichigo_work3_load
+if schedule_chara=3 then @karin_work3_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	100,	0
+layer_anime_add		l_work-1,0,	100,	1
+layer_anime_add		l_work-1,0,	100,	2
+layer_anime_add		l_work-1,0,	100,	3
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=work3_kenkou+rnd
+@work_rnd1
+add_kiryoku=work3_kiryoku+rnd
+
+@work_rnd1
+add_atama=work3_atama+rnd
+@work_rnd1
+add_karada=work3_karada+rnd
+add_money=work3_price
+
+if schedule_chara=1 then mikan_work3=mikan_work3+1
+if schedule_chara=2 then ichigo_work3=ichigo_work3+1
+if schedule_chara=3 then karin_work3=karin_work3+1
+
+#はたらくおじさんチェック
+if ojisan_count=0 then goto scheduke_skip
+add_money=add_money*3
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  着ぐるみ（ハード）
+#------------------------------------------------------------------------------
+label	schedule_work4
+
+if schedule_chara=1 then @mikan_work4_load
+if schedule_chara=2 then @ichigo_work4_load
+if schedule_chara=3 then @karin_work4_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	100,	0
+layer_anime_add		l_work-1,0,	100,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=work4_kenkou+rnd
+@work_rnd1
+add_kiryoku=work4_kiryoku+rnd
+
+@work_rnd1
+add_atama=work4_atama+rnd
+@work_rnd1
+add_karada=work4_karada+rnd
+add_money=work4_price
+
+if schedule_chara=1 then mikan_work4=mikan_work4+1
+if schedule_chara=2 then ichigo_work4=ichigo_work4+1
+if schedule_chara=3 then karin_work4=karin_work4+1
+
+#はたらくおじさんチェック
+if ojisan_count=0 then goto scheduke_skip
+add_money=add_money*3
+goto	scheduke_skip
+
+
+#------------------------------------------------------------------------------
+#  せったい
+#------------------------------------------------------------------------------
+label	schedule_reception1
+
+if schedule_chara=1 then @mikan_reception1_load
+if schedule_chara=2 then @ichigo_reception1_load
+if schedule_chara=3 then @karin_reception1_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	200,	0
+layer_anime_add		l_work-1,0,	200,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=reception1_kenkou+rnd
+@work_rnd1
+add_kiryoku=reception1_kiryoku+rnd
+
+temp=miryoku/100
+add_money=reception1_price*temp			#接待の報酬
+
+if schedule_chara=1 then mikan_reception1_cnt=mikan_reception1_cnt+1
+if schedule_chara=2 then ichigo_reception1_cnt=ichigo_reception1_cnt+1
+if schedule_chara=3 then karin_reception1_cnt=karin_reception1_cnt+1
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  ご奉仕
+#------------------------------------------------------------------------------
+label	schedule_reception2
+
+if schedule_chara=1 then @mikan_reception2_load
+if schedule_chara=2 then @ichigo_reception2_load
+if schedule_chara=3 then @karin_reception2_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	200,	0
+layer_anime_add		l_work-1,0,	200,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=reception2_kenkou+rnd
+@work_rnd1
+add_kiryoku=reception2_kiryoku+rnd
+
+temp=miryoku/100
+add_money=reception2_price*temp			#接待の報酬
+
+if schedule_chara=1 then mikan_reception2_cnt=mikan_reception2_cnt+1
+if schedule_chara=2 then ichigo_reception2_cnt=ichigo_reception2_cnt+1
+if schedule_chara=3 then karin_reception2_cnt=karin_reception2_cnt+1
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  売春
+#------------------------------------------------------------------------------
+label	schedule_reception3
+
+if schedule_chara=1 then @mikan_reception3_load
+if schedule_chara=2 then @ichigo_reception3_load
+if schedule_chara=3 then @karin_reception3_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	200,	0
+layer_anime_add		l_work-1,0,	200,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=reception3_kenkou+rnd
+@work_rnd1
+add_kiryoku=reception3_kiryoku+rnd
+
+temp=miryoku/100
+add_money=reception3_price*temp			#接待の報酬
+
+if schedule_chara=1 then mikan_reception3_cnt=mikan_reception3_cnt+1
+if schedule_chara=2 then ichigo_reception3_cnt=ichigo_reception3_cnt+1
+if schedule_chara=3 then karin_reception3_cnt=karin_reception3_cnt+1
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  ＳＭ
+#------------------------------------------------------------------------------
+label	schedule_reception4
+
+if schedule_chara=1 then @mikan_reception4_load
+if schedule_chara=2 then @ichigo_reception4_load
+if schedule_chara=3 then @karin_reception4_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	200,	0
+layer_anime_add		l_work-1,0,	200,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=reception4_kenkou+rnd
+@work_rnd1
+add_kiryoku=reception4_kiryoku+rnd
+
+temp=miryoku/100
+add_money=reception4_price*temp			#接待の報酬
+
+if schedule_chara=1 then mikan_reception4_cnt=mikan_reception4_cnt+1
+if schedule_chara=2 then ichigo_reception4_cnt=ichigo_reception4_cnt+1
+if schedule_chara=3 then karin_reception4_cnt=karin_reception4_cnt+1
+
+goto	scheduke_skip
+
+#------------------------------------------------------------------------------
+#  おやすみ
+#------------------------------------------------------------------------------
+label	schedule_rest1
+
+if schedule_chara=1 then @mikan_rest1_load
+if schedule_chara=2 then @ichigo_rest1_load
+if schedule_chara=3 then @karin_rest1_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	300,	0
+layer_anime_add		l_work-1,0,	300,	1
+layer_anime_add		l_work-1,0,	300,	2
+layer_anime_add		l_work-1,0,	300,	3
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+add_kenkou=kenkou_max/10
+add_kiryoku=kiryoku_max/10
+
+goto	scheduke_skip
+#------------------------------------------------------------------------------
+#  バカンス
+#------------------------------------------------------------------------------
+label	schedule_rest2
+
+if schedule_chara=1 then @mikan_rest2_load
+if schedule_chara=2 then @ichigo_rest2_load
+if schedule_chara=3 then @karin_rest2_load
+
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	300,	0
+layer_anime_add		l_work-1,0,	300,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+add_kenkou=kenkou_max/3
+add_kiryoku=kiryoku_max/3
+
+add_money=_MONEY/30*-1
+
+goto	scheduke_skip
+
+
+#------------------------------------------------------------------------------
+#  お習字
+#------------------------------------------------------------------------------
+label	schedule_lesson1
+
+if schedule_chara=1 then @mikan_lesson1_load
+if schedule_chara=2 then @ichigo_lesson1_load
+if schedule_chara=3 then @karin_lesson1_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	300,	0
+layer_anime_add		l_work-1,0,	300,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=lesson1_kenkou+rnd
+@work_rnd1
+add_kiryoku=lesson1_kiryoku+rnd
+@work_rnd1
+add_karada=lesson1_karada+rnd
+@work_rnd1
+add_kokoro=lesson1_kokoro+rnd
+add_money=lesson1_price
+
+goto	scheduke_skip
+#------------------------------------------------------------------------------
+#  バレエ
+#------------------------------------------------------------------------------
+label	schedule_lesson2
+
+if schedule_chara=1 then @mikan_lesson2_load
+if schedule_chara=2 then @ichigo_lesson2_load
+if schedule_chara=3 then @karin_lesson2_load
+
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+
+#アニメセットの定義
+layer_anime_add		l_work-1,0,	300,	0
+layer_anime_add		l_work-1,0,	300,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=lesson2_kenkou+rnd
+@work_rnd1
+add_kiryoku=lesson2_kiryoku+rnd
+@work_rnd1
+add_karada=lesson2_karada+rnd
+@work_rnd1
+add_kokoro=lesson2_kokoro+rnd
+add_money=lesson2_price
+
+goto	scheduke_skip
+#------------------------------------------------------------------------------
+#  お習字（ハード）
+#------------------------------------------------------------------------------
+label	schedule_lesson3
+
+if schedule_chara=1 then @mikan_lesson3_load
+if schedule_chara=2 then @ichigo_lesson3_load
+if schedule_chara=3 then @karin_lesson3_load
+
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+
+#アニメセットの定義
+layer_anime_add		l_work-1,0,	300,	0
+layer_anime_add		l_work-1,0,	300,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=lesson3_kenkou+rnd
+@work_rnd1
+add_kiryoku=lesson3_kiryoku+rnd
+@work_rnd1
+add_karada=lesson3_karada+rnd
+@work_rnd1
+add_kokoro=lesson3_kokoro+rnd
+add_money=lesson3_price
+
+
+goto	scheduke_skip
+#------------------------------------------------------------------------------
+#  バレエ（ハード）
+#------------------------------------------------------------------------------
+label	schedule_lesson4
+
+if schedule_chara=1 then @mikan_lesson4_load
+if schedule_chara=2 then @ichigo_lesson4_load
+if schedule_chara=3 then @karin_lesson4_load
+
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+
+#アニメセットの定義
+layer_anime_add		l_work-1,0,	100,	0
+layer_anime_add		l_work-1,0,	100,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+@work_rnd1
+add_kenkou=lesson4_kenkou+rnd
+@work_rnd1
+add_kiryoku=lesson4_kiryoku+rnd
+@work_rnd1
+add_karada=lesson4_karada+rnd
+@work_rnd1
+add_kokoro=lesson4_kokoro+rnd
+add_money=lesson4_price
+
+
+goto	scheduke_skip
+
+
+#------------------------------------------------------------------------------
+#  病気
+#------------------------------------------------------------------------------
+label	schedule_down
+
+if schedule_chara=1 then @mikan_sick_load
+if schedule_chara=2 then @ichigo_sick_load
+if schedule_chara=3 then @karin_sick_load
+
+#アニメセットの定義
+layer_position_set	l_work-1,4,40
+layer_reference_set	l_work-1,l_work
+layer_anime_add		l_work-1,0,	100,	0
+layer_anime_add		l_work-1,0,	100,	1
+layer_anime_play	l_work-1,0,	PLAY_LOOP
+
+add_kenkou=kenkou_max/20
+add_kiryoku=kiryoku_max/20
+add_karada=-karada_max/50
+add_kokoro=-kokoro_max/50
+add_atama=-amata_max/50
+
+goto	scheduke_skip
+
+
+#------------------------------------------------------------------------------
+#  加算
+#------------------------------------------------------------------------------
+label	scheduke_skip
+layer_move		l_work,400,-200,0,0,0,passtype_tcb
+layer_alpha		l_work,400,-255,0,passtype_tcb
+layer_alpha		l_work-1,400,-255,0,passtype_tcb
+wait	400
+
+#はたらくおじさんカウント
+if ojisan_count>0 then ojisan_count=ojisan_count-1
+
+# パラメータの加算 ##########################################################
+for imikan=0 to 2
+	#けんこう
+	kenkou	=	kenkou+add_kenkou*kenkou_hosei
+	#きりょく
+	kiryoku	=	kiryoku+add_kiryoku*kiryoku_hosei
+	rand	rnd,0,kiryoku_max
+	#お休みの場合をミスしない
+	if command=40 or command=90 then rnd=0
+	if rnd>kiryoku*2 then goto schedule_work_miss
+	if _MONEY+add_money<0 then goto schedule_work_miss2
+	#成功-----------------------------------------------------------
+	#あたま
+	atama	=	atama+add_atama*atama_hosei
+	#からだ
+	karada	=	karada+add_karada*karada_hosei
+	#こころ
+	kokoro	=	kokoro+add_kokoro*kokoro_hosei
+	#パラメータ範囲チェック
+	#お金
+	money_add 	add_money*money_hosei
+	goto	schedule_work_skip
+label	schedule_work_miss2
+	layer_load_overlap	l_work+2,"schedule\nomoney.png"
+	layer_reference_set	l_work+2,l_work
+	#お金
+	money_add 	add_money*money_hosei
+	if schedule_chara=1 then voice	"A03136"
+	if schedule_chara=2 then voice	"O00085sys"
+	if schedule_chara=3 then voice	"P01883sys"
+	se	0,"schedule\失敗.wav",play_once
+	goto	schedule_work_skip
+
+label	schedule_work_miss
+	#失敗-----------------------------------------------------------
+	if schedule_chara=1 then voice	"A03136"
+	if schedule_chara=2 then voice	"O00085sys"
+	if schedule_chara=3 then voice	"P01883sys"
+	se	0,"schedule\失敗.wav",play_once
+	money_add 	add_money*money_hosei/2
+	goto	schedule_work_skip
+label	schedule_work_skip
+	lifebar_setauto		life_kiryoku,kiryoku
+	lifebar_setauto		life_kenkou,kenkou
+	lifebar_setauto		life_kokoro,kokoro
+	lifebar_setauto		life_atama,atama
+	lifebar_setauto		life_karada,karada
+
+	if schedule_chara=1 then @mikan_schedule_paramget
+	if schedule_chara=2 then @ichigo_schedule_paramget
+	if schedule_chara=3 then @karin_schedule_paramget
+
+	if schedule_chara=1 then @mikan_check
+	if schedule_chara=2 then @ichigo_check
+	if schedule_chara=3 then @karin_check
+
+	if schedule_chara=1 then @mikan_schedule_paramset
+	if schedule_chara=2 then @ichigo_schedule_paramset
+	if schedule_chara=3 then @karin_schedule_paramset
+
+	lifebar_setauto		life_kiryoku,kiryoku
+	lifebar_setauto		life_kenkou,kenkou
+	lifebar_setauto		life_kokoro,kokoro
+	lifebar_setauto		life_atama,atama
+	lifebar_setauto		life_karada,karada
+	
+	wait		700
+	layer_fadeout	l_work+2
+next								#繰り返し
+
+
+#時給アップチェック 
+if schedule_chara=1 then @mikan_work_check
+if schedule_chara=2 then @ichigo_work_check
+if schedule_chara=3 then @karin_work_check
+
+
+#終了エフェクト
+
+#layer_load		l_work+1,"schedule\study_ok.png"
+#layer_position_set	l_work+1,90,16
+#layer_reference_set	l_work+1,l_work
+#layer_scale		l_work+1,200,40,40,0,0,passtype_tcb
+#layer_alpha		l_work+1,200,-255,0,passtype_tcb
+wait		200
+#screen_effect_stardust	140,110,230,250
+wait		300
+
+layer_move		l_work,400,0,0,200,0,passtype_tcb
+layer_alpha		l_work+1,400,0,-255,passtype_tcb
+layer_alpha		l_work,400,0,-255,passtype_tcb
+layer_alpha		l_work-1,400,0,-255,passtype_tcb
+
+wait		400
+
+layer_release		l_work+2
+layer_release		l_work+1
+layer_release		l_work-1
+layer_release		l_work
+
+return
+
+
+# randomの生成 ##############################################################
+macro	work_rnd1
+	rand	rnd,1,4
+	rnd=rnd-2
+endm
+
+
+
+# みかん画像読み込み用 #######################################################
+# みかん勉強(やさしい) -------------------------------------------------------
+macro	mikan_study1_load
+layer_load		l_work-1,"schedule\mikan\com_study_easy01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_study_easy02.png"
+endm
+# みかん勉強(普通)------------------------------------------------------------
+macro	mikan_study2_load
+layer_load		l_work-1,"schedule\mikan\com_study_normal01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_study_normal02.png"
+endm
+# みかん勉強(難しい)----------------------------------------------------------
+macro	mikan_study3_load
+layer_load		l_work-1,"schedule\mikan\com_study_hard01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_study_hard02.png"
+endm
+# みかん勉強(スパルタ)--------------------------------------------------------
+macro	mikan_study4_load
+layer_load		l_work-1,"schedule\mikan\com_study_sparta01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_study_sparta02.png"
+endm
+
+# メイド喫茶------------------------------------------------------------------
+macro	mikan_work1_load
+layer_load		l_work-1,"schedule\mikan\com_part_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_part_02.png"
+layer_load_parts	l_work-1,2,"schedule\mikan\com_part_03.png"
+layer_load_parts	l_work-1,3,"schedule\mikan\com_part_04.png"
+endm
+# 着ぐるみ-------------------------------------------------------------------
+macro	mikan_work2_load
+layer_load		l_work-1,"schedule\mikan\com_part2_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_part2_02.png"
+endm
+# メイド喫茶(ハード)----------------------------------------------------------
+macro	mikan_work3_load
+layer_load		l_work-1,"schedule\mikan\com_part3_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_part3_02.png"
+layer_load_parts	l_work-1,2,"schedule\mikan\com_part3_03.png"
+layer_load_parts	l_work-1,3,"schedule\mikan\com_part3_04.png"
+endm
+# 着ぐるみ(ハード)------------------------------------------------------------
+macro	mikan_work4_load
+layer_load		l_work-1,"schedule\mikan\com_part4_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_part4_02.png"
+endm
+
+# せったい-------------------------------------------------------------------
+macro	mikan_reception1_load
+layer_load		l_work-1,"schedule\mikan\com_reception_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_reception_02.png"
+endm
+# 奉仕-----------------------------------------------------------------------
+macro	mikan_reception2_load
+layer_load		l_work-1,"schedule\mikan\com_reception2_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_reception2_02.png"
+endm
+# 売春 ----------------------------------------------------------------------
+macro	mikan_reception3_load
+layer_load		l_work-1,"schedule\mikan\com_reception3_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_reception3_02.png"
+endm
+# SM-------------------------------------------------------------------------
+macro	mikan_reception4_load
+layer_load		l_work-1,"schedule\mikan\com_reception4_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_reception4_02.png"
+endm
+
+#お休み ---------------------------------------------------------------------
+macro	mikan_rest1_load
+layer_load		l_work-1,"schedule\mikan\com_rest_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_rest_02.png"
+layer_load_parts	l_work-1,2,"schedule\mikan\com_rest_03.png"
+layer_load_parts	l_work-1,3,"schedule\mikan\com_rest_04.png"
+endm
+#バカンス -------------------------------------------------------------------
+macro	mikan_rest2_load
+layer_load		l_work-1,"schedule\mikan\com_rest2_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_rest2_02.png"
+endm
+
+#お習字---------------------------------------------------------------------
+macro	mikan_lesson1_load
+layer_load		l_work-1,"schedule\mikan\com_lesson_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_lesson_02.png"
+endm
+#バレエ---------------------------------------------------------------------
+macro	mikan_lesson2_load
+layer_load		l_work-1,"schedule\mikan\com_lesson2_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_lesson2_02.png"
+endm
+#お習字---------------------------------------------------------------------
+macro	mikan_lesson3_load
+layer_load		l_work-1,"schedule\mikan\com_lesson3_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_lesson3_02.png"
+endm
+#バレエ---------------------------------------------------------------------
+macro	mikan_lesson4_load
+layer_load		l_work-1,"schedule\mikan\com_lesson4_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_lesson4_02.png"
+endm
+
+#病気---------------------------------------------------------------------
+macro	mikan_sick_load
+layer_load		l_work-1,"schedule\mikan\com_byouki_01.png"
+layer_load_parts	l_work-1,1,"schedule\mikan\com_byouki_02.png"
+endm
+
+# いちご画像読み込み用 #######################################################
+# いちご勉強(やさしい) -------------------------------------------------------
+macro	ichigo_study1_load
+layer_load		l_work-1,"schedule\ichigo\com_study_easy01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_study_easy02.png"
+endm
+# いちご勉強(普通)------------------------------------------------------------
+macro	ichigo_study2_load
+layer_load		l_work-1,"schedule\ichigo\com_study_normal01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_study_normal02.png"
+endm
+# いちご勉強(難しい)----------------------------------------------------------
+macro	ichigo_study3_load
+layer_load		l_work-1,"schedule\ichigo\com_study_hard01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_study_hard02.png"
+endm
+# いちご勉強(スパルタ)--------------------------------------------------------
+macro	ichigo_study4_load
+layer_load		l_work-1,"schedule\ichigo\com_study_sparta01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_study_sparta02.png"
+endm
+
+# メイド喫茶------------------------------------------------------------------
+macro	ichigo_work1_load
+layer_load		l_work-1,"schedule\ichigo\com_part_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_part_02.png"
+layer_load_parts	l_work-1,2,"schedule\ichigo\com_part_03.png"
+layer_load_parts	l_work-1,3,"schedule\ichigo\com_part_04.png"
+endm
+# 着ぐるみ-------------------------------------------------------------------
+macro	ichigo_work2_load
+layer_load		l_work-1,"schedule\ichigo\com_part2_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_part2_02.png"
+endm
+# メイド喫茶(ハード)----------------------------------------------------------
+macro	ichigo_work3_load
+layer_load		l_work-1,"schedule\ichigo\com_part3_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_part3_02.png"
+layer_load_parts	l_work-1,2,"schedule\ichigo\com_part3_03.png"
+layer_load_parts	l_work-1,3,"schedule\ichigo\com_part3_04.png"
+endm
+# 着ぐるみ(ハード)------------------------------------------------------------
+macro	ichigo_work4_load
+layer_load		l_work-1,"schedule\ichigo\com_part4_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_part4_02.png"
+endm
+
+# せったい-------------------------------------------------------------------
+macro	ichigo_reception1_load
+layer_load		l_work-1,"schedule\ichigo\com_reception_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_reception_02.png"
+endm
+# 奉仕-----------------------------------------------------------------------
+macro	ichigo_reception2_load
+layer_load		l_work-1,"schedule\ichigo\com_reception2_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_reception2_02.png"
+endm
+# 売春 ----------------------------------------------------------------------
+macro	ichigo_reception3_load
+layer_load		l_work-1,"schedule\ichigo\com_reception3_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_reception3_02.png"
+endm
+# SM-------------------------------------------------------------------------
+macro	ichigo_reception4_load
+layer_load		l_work-1,"schedule\ichigo\com_reception4_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_reception4_02.png"
+endm
+
+#お休み ---------------------------------------------------------------------
+macro	ichigo_rest1_load
+layer_load		l_work-1,"schedule\ichigo\com_rest_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_rest_02.png"
+layer_load_parts	l_work-1,2,"schedule\ichigo\com_rest_03.png"
+layer_load_parts	l_work-1,3,"schedule\ichigo\com_rest_04.png"
+endm
+#バカンス -------------------------------------------------------------------
+macro	ichigo_rest2_load
+layer_load		l_work-1,"schedule\ichigo\com_rest2_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_rest2_02.png"
+endm
+
+#お習字---------------------------------------------------------------------
+macro	ichigo_lesson1_load
+layer_load		l_work-1,"schedule\ichigo\com_lesson_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_lesson_02.png"
+endm
+#バレエ---------------------------------------------------------------------
+macro	ichigo_lesson2_load
+layer_load		l_work-1,"schedule\ichigo\com_lesson2_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_lesson2_02.png"
+endm
+#お習字---------------------------------------------------------------------
+macro	ichigo_lesson3_load
+layer_load		l_work-1,"schedule\ichigo\com_lesson3_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_lesson3_02.png"
+endm
+#バレエ---------------------------------------------------------------------
+macro	ichigo_lesson4_load
+layer_load		l_work-1,"schedule\ichigo\com_lesson4_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_lesson4_02.png"
+endm
+
+#病気---------------------------------------------------------------------
+macro	ichigo_sick_load
+layer_load		l_work-1,"schedule\ichigo\com_byouki_01.png"
+layer_load_parts	l_work-1,1,"schedule\ichigo\com_byouki_02.png"
+endm
+
+# かりん画像読み込み用 #######################################################
+# かりん勉強(やさしい) -------------------------------------------------------
+macro	karin_study1_load
+layer_load		l_work-1,"schedule\karin\com_study_easy01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_study_easy02.png"
+endm
+# かりん勉強(普通)------------------------------------------------------------
+macro	karin_study2_load
+layer_load		l_work-1,"schedule\karin\com_study_normal01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_study_normal02.png"
+endm
+# かりん勉強(難しい)----------------------------------------------------------
+macro	karin_study3_load
+layer_load		l_work-1,"schedule\karin\com_study_hard01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_study_hard02.png"
+endm
+# かりん勉強(スパルタ)--------------------------------------------------------
+macro	karin_study4_load
+layer_load		l_work-1,"schedule\karin\com_study_sparta01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_study_sparta02.png"
+endm
+
+# メイド喫茶------------------------------------------------------------------
+macro	karin_work1_load
+layer_load		l_work-1,"schedule\karin\com_part_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_part_02.png"
+layer_load_parts	l_work-1,2,"schedule\karin\com_part_03.png"
+layer_load_parts	l_work-1,3,"schedule\karin\com_part_04.png"
+endm
+# 着ぐるみ-------------------------------------------------------------------
+macro	karin_work2_load
+layer_load		l_work-1,"schedule\karin\com_part2_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_part2_02.png"
+endm
+# メイド喫茶(ハード)----------------------------------------------------------
+macro	karin_work3_load
+layer_load		l_work-1,"schedule\karin\com_part3_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_part3_02.png"
+layer_load_parts	l_work-1,2,"schedule\karin\com_part3_03.png"
+layer_load_parts	l_work-1,3,"schedule\karin\com_part3_04.png"
+endm
+# 着ぐるみ(ハード)------------------------------------------------------------
+macro	karin_work4_load
+layer_load		l_work-1,"schedule\karin\com_part4_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_part4_02.png"
+endm
+
+# せったい-------------------------------------------------------------------
+macro	karin_reception1_load
+layer_load		l_work-1,"schedule\karin\com_reception_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_reception_02.png"
+endm
+# 奉仕-----------------------------------------------------------------------
+macro	karin_reception2_load
+layer_load		l_work-1,"schedule\karin\com_reception2_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_reception2_02.png"
+endm
+# 売春 ----------------------------------------------------------------------
+macro	karin_reception3_load
+layer_load		l_work-1,"schedule\karin\com_reception3_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_reception3_02.png"
+endm
+# SM-------------------------------------------------------------------------
+macro	karin_reception4_load
+layer_load		l_work-1,"schedule\karin\com_reception4_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_reception4_02.png"
+endm
+
+#お休み ---------------------------------------------------------------------
+macro	karin_rest1_load
+layer_load		l_work-1,"schedule\karin\com_rest_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_rest_02.png"
+layer_load_parts	l_work-1,2,"schedule\karin\com_rest_03.png"
+layer_load_parts	l_work-1,3,"schedule\karin\com_rest_04.png"
+endm
+#バカンス -------------------------------------------------------------------
+macro	karin_rest2_load
+layer_load		l_work-1,"schedule\karin\com_rest2_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_rest2_02.png"
+endm
+
+#お習字---------------------------------------------------------------------
+macro	karin_lesson1_load
+layer_load		l_work-1,"schedule\karin\com_lesson_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_lesson_02.png"
+endm
+#バレエ---------------------------------------------------------------------
+macro	karin_lesson2_load
+layer_load		l_work-1,"schedule\karin\com_lesson2_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_lesson2_02.png"
+endm
+#お習字---------------------------------------------------------------------
+macro	karin_lesson3_load
+layer_load		l_work-1,"schedule\karin\com_lesson3_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_lesson3_02.png"
+endm
+#バレエ---------------------------------------------------------------------
+macro	karin_lesson4_load
+layer_load		l_work-1,"schedule\karin\com_lesson4_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_lesson4_02.png"
+endm
+
+#病気---------------------------------------------------------------------
+macro	karin_sick_load
+layer_load		l_work-1,"schedule\karin\com_byouki_01.png"
+layer_load_parts	l_work-1,1,"schedule\karin\com_byouki_02.png"
+endm
+
+#みかんパラメータセット---------------------------------------------------
+macro	mikan_schedule_paramset
+
+	kenkou_max=mikan_kenkou_max
+	kiryoku_max=mikan_kiryoku_max
+	atama_max=mikan_atama_max
+	karada_max=mikan_karada_max
+	kokoro_max=mikan_kokoro_max
+
+	kenkou=mikan_kenkou
+	kiryoku=mikan_kiryoku
+	atama=mikan_atama
+	karada=mikan_karada
+	kokoro=mikan_kokoro
+	@calc_mikan_miryoku
+	miryoku=mikan_miryoku
+
+	kenkou_hosei=mikan_kenkou_hosei
+	kiryoku_hosei=mikan_kiryoku_hosei
+	atama_hosei=mikan_atama_hosei
+	karada_hosei=mikan_karada_hosei
+	kokoro_hosei=mikan_kokoro_hosei
+
+	money_hosei=mikan_money_hosei
+	ojisan_count=mikan_ojisan_count
+	work1_price=mikan_work1_price
+	work2_price=mikan_work2_price
+	work3_price=mikan_work3_price
+	work4_price=mikan_work4_price
+
+endm
+#ゲット
+macro	mikan_schedule_paramget
+	mikan_kenkou_max=kenkou_max
+	mikan_kiryoku_max=kiryoku_max
+	mikan_atama_max=atama_max
+	mikan_karada_max=karada_max
+	mikan_kokoro_max=kokoro_max
+
+	mikan_kenkou=kenkou
+	mikan_kiryoku=kiryoku
+	mikan_atama=atama
+	mikan_karada=karada
+	mikan_kokoro=kokoro
+
+	mikan_kenkou_hosei=kenkou_hosei
+	mikan_kiryoku_hosei=kiryoku_hosei
+	mikan_atama_hosei=atama_hosei
+	mikan_karada_hosei=karada_hosei
+	mikan_kokoro_hosei=kokoro_hosei
+
+	mikan_money_hosei=money_hosei
+	mikan_ojisan_count=ojisan_count
+	mikan_work1_price=work1_price
+	mikan_work2_price=work2_price
+	mikan_work3_price=work3_price
+	mikan_work4_price=work4_price
+
+endm
+
+#いちごパラメータセット
+macro	ichigo_schedule_paramset
+	kenkou_max=ichigo_kenkou_max
+	kiryoku_max=ichigo_kiryoku_max
+	atama_max=ichigo_atama_max
+	karada_max=ichigo_karada_max
+	kokoro_max=ichigo_kokoro_max
+
+	kenkou=ichigo_kenkou
+	kiryoku=ichigo_kiryoku
+	atama=ichigo_atama
+	karada=ichigo_karada
+	kokoro=ichigo_kokoro
+	@calc_ichigo_miryoku
+	miryoku=ichigo_miryoku
+
+	kenkou_hosei=ichigo_kenkou_hosei
+	kiryoku_hosei=ichigo_kiryoku_hosei
+	atama_hosei=ichigo_atama_hosei
+	karada_hosei=ichigo_karada_hosei
+	kokoro_hosei=ichigo_kokoro_hosei
+
+	money_hosei=ichigo_money_hosei
+	ojisan_count=ichigo_ojisan_count
+	work1_price=ichigo_work1_price
+	work2_price=ichigo_work2_price
+	work3_price=ichigo_work3_price
+	work4_price=ichigo_work4_price
+endm
+
+macro	ichigo_schedule_paramget
+	ichigo_kenkou_max=kenkou_max
+	ichigo_kiryoku_max=kiryoku_max
+	ichigo_atama_max=atama_max
+	ichigo_karada_max=karada_max
+	ichigo_kokoro_max=kokoro_max
+
+	ichigo_kenkou=kenkou
+	ichigo_kiryoku=kiryoku
+	ichigo_atama=atama
+	ichigo_karada=karada
+	ichigo_kokoro=kokoro
+
+	ichigo_kenkou_hosei=kenkou_hosei
+	ichigo_kiryoku_hosei=kiryoku_hosei
+	ichigo_atama_hosei=atama_hosei
+	ichigo_karada_hosei=karada_hosei
+	ichigo_kokoro_hosei=kokoro_hosei
+
+	ichigo_money_hosei=money_hosei
+	ichigo_ojisan_count=ojisan_count
+	ichigo_work1_price=work1_price
+	ichigo_work2_price=work2_price
+	ichigo_work3_price=work3_price
+	ichigo_work4_price=work4_price
+endm
+
+#かりんパラメータセット
+macro	karin_schedule_paramset
+	kenkou_max=karin_kenkou_max
+	kiryoku_max=karin_kiryoku_max
+	atama_max=karin_atama_max
+	karada_max=karin_karada_max
+	kokoro_max=karin_kokoro_max
+	@calc_karin_miryoku
+	miryoku=karin_miryoku
+
+	kenkou=karin_kenkou
+	kiryoku=karin_kiryoku
+	atama=karin_atama
+	karada=karin_karada
+	kokoro=karin_kokoro
+
+	kenkou_hosei=karin_kenkou_hosei
+	kiryoku_hosei=karin_kiryoku_hosei
+	atama_hosei=karin_atama_hosei
+	karada_hosei=karin_karada_hosei
+	kokoro_hosei=karin_kokoro_hosei
+
+	money_hosei=karin_money_hosei
+	ojisan_count=karin_ojisan_count
+	work1_price=karin_work1_price
+	work2_price=karin_work2_price
+	work3_price=karin_work3_price
+	work4_price=karin_work4_price
+endm
+
+#かりんパラメータセット
+macro	karin_schedule_paramget
+	karin_kenkou_max=kenkou_max
+	karin_kiryoku_max=kiryoku_max
+	karin_atama_max=atama_max
+	karin_karada_max=karada_max
+	karin_kokoro_max=kokoro_max
+
+	karin_kenkou=kenkou
+	karin_kiryoku=kiryoku
+	karin_atama=atama
+	karin_karada=karada
+	karin_kokoro=kokoro
+
+	karin_kenkou_hosei=kenkou_hosei
+	karin_kiryoku_hosei=kiryoku_hosei
+	karin_atama_hosei=atama_hosei
+	karin_karada_hosei=karada_hosei
+	karin_kokoro_hosei=kokoro_hosei
+
+	karin_money_hosei=money_hosei
+	karin_ojisan_count=ojisan_count
+	karin_work1_price=work1_price
+	karin_work2_price=work2_price
+	karin_work3_price=work3_price
+	karin_work4_price=work4_price
+endm
+
+macro	mikan_work_check
+	if mikan_work1=mikan_work1_max then gosub mikan_work1_up
+	if mikan_work2=mikan_work2_max then gosub mikan_work2_up
+	if mikan_work3=mikan_work3_max then gosub mikan_work3_up
+	if mikan_work4=mikan_work4_max then gosub mikan_work4_up
+endm
+
+macro	ichigo_work_check
+	if ichigo_work1=ichigo_work1_max then gosub ichigo_work1_up
+	if ichigo_work2=ichigo_work2_max then gosub ichigo_work2_up
+	if ichigo_work3=ichigo_work3_max then gosub ichigo_work3_up
+	if ichigo_work4=ichigo_work4_max then gosub ichigo_work4_up
+endm
+
+macro	karin_work_check
+	if karin_work1=karin_work1_max then gosub karin_work1_up
+	if karin_work2=karin_work2_max then gosub karin_work2_up
+	if karin_work3=karin_work3_max then gosub karin_work3_up
+	if karin_work4=karin_work4_max then gosub karin_work4_up
+endm
+
+
+#みかん仕事1　時給アップ ####################################################
+label	mikan_work1_up
+voice	"A03847sys"
+@status_salaryup
+mikan_work1_max=mikan_work1_max+16
+mikan_work1_price=mikan_work1_price*1.5
+voice	"A02526"
+return
+
+#みかん仕事2　時給アップ ####################################################
+label	mikan_work2_up
+voice	"A03847sys"
+@status_salaryup
+mikan_work2_max=mikan_work2_max+16
+mikan_work2_price=mikan_work2_price*1.5
+voice	"A02526"
+return
+
+#みかん仕事3　時給アップ ####################################################
+label	mikan_work3_up
+voice	"A03847sys"
+@status_salaryup
+mikan_work3_max=mikan_work3_max+16
+mikan_work3_price=mikan_work3_price*1.5
+voice	"A02526"
+return
+
+#みかん仕事4　時給アップ ####################################################
+label	mikan_work4_up
+voice	"A03847sys"
+@status_salaryup
+mikan_work4_max=mikan_work4_max+16
+mikan_work4_price=mikan_work4_price*1.5
+voice	"A02526"
+return
+
+
+#いちご仕事1　時給アップ ####################################################
+label	ichigo_work1_up
+voice	"O03706sys"
+@status_salaryup
+ichigo_work1_max=ichigo_work1_max+16
+ichigo_work1_price=ichigo_work1_price*1.5
+voice	"O03712"
+return
+
+#いちご仕事2　時給アップ ####################################################
+label	ichigo_work2_up
+voice	"O03706sys"
+@status_salaryup
+ichigo_work2_max=ichigo_work2_max+16
+ichigo_work2_price=ichigo_work2_price*1.5
+voice	"O03712"
+return
+
+#いちご仕事3　時給アップ ####################################################
+label	ichigo_work3_up
+voice	"O03706sys"
+@status_salaryup
+ichigo_work3_max=ichigo_work3_max+16
+ichigo_work3_price=ichigo_work3_price*1.5
+voice	"O03712"
+return
+
+#いちご仕事4　時給アップ ####################################################
+label	ichigo_work4_up
+voice	"O03706sys"
+@status_salaryup
+ichigo_work4_max=ichigo_work4_max+16
+ichigo_work4_price=ichigo_work4_price*1.5
+voice	"O03712"
+return
+
+
+#かりん仕事1　時給アップ ####################################################
+label	karin_work1_up
+voice	"P03557"
+@status_salaryup
+karin_work1_max=karin_work1_max+16
+karin_work1_price=karin_work1_price*1.5
+voice	"P02800sys"
+return
+
+#かりん仕事2　時給アップ ####################################################
+label	karin_work2_up
+voice	"P03557"
+@status_salaryup
+karin_work2_max=karin_work2_max+16
+karin_work2_price=karin_work2_price*1.5
+voice	"P02800sys"
+return
+
+#かりん仕事3　時給アップ ####################################################
+label	karin_work3_up
+voice	"P03557"
+@status_salaryup
+karin_work3_max=karin_work3_max+16
+karin_work3_price=karin_work3_price*1.5
+voice	"P02800sys"
+return
+
+#かりん仕事4　時給アップ ####################################################
+label	karin_work4_up
+voice	"P03557"
+@status_salaryup
+karin_work4_max=karin_work4_max+16
+karin_work4_price=karin_work4_price*1.5
+voice	"P02800sys"
+return
+
+
+
+
+

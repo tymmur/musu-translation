@@ -1,0 +1,1672 @@
+#--------------------------------------------------
+label		hika37
+#--------------------------------------------------
+bgm_stop
+@bg_black
+
+#■BG（白地文字）・一ヵ月後
+window_close
+screen_whiteout		2000
+wait			2000
+event		"event\text_01.png"
+screen_whitein		2000
+wait			2000
+
+#WAIT
+wait			2000
+
+#■BG（青空）
+@bg_sky			# 空
+
+
+傷の治療で、オレは入院生活が続いていた。
+
+あれから日付を重ね、早くも新しい月が始まりを迎えている。
+
+
+#■BG（病室）
+@bg_byoushitsu		# 病室
+
+
+＠樹
+「……ふぅ」
+
+
+@bgmk03			#BGM K03 : 静かの時のテーマ
+
+
+窓から目を離して、オレはベッドに腰を投げ下ろした。
+
+ここに来てずっと嘘のように平和だった。
+
+傷の回復も順調で、腕に巻かれている包帯ももうすぐ外れると診断されている。
+
+……何だかこれで、全て終わったと錯覚してしまいそうだ。
+
+
+bgm_stop
+#SE11　部屋のドアをノック（コンコン）
+@SE11			#SE11　部屋のドアをノック（コンコン）
+
+
+＠樹
+「ん……？　はい、どうぞ」
+
+
+window_close
+#SE06　部屋のドア開く音（ガチャ）
+@SE06			#部屋のドア開く音（ガチャ）
+wait		1000
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00701
+「お父しゃんっ、お見舞いに来たの～！」
+
+
+#@bgmk02		#BGM K02 : しんみりのテーマ
+@bgm12			#BGM 12 : メインテーマ
+
+
+＠樹
+「おっ、今日も来てくれたのか、ひかり。ありがとうな」
+
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00702
+「うんっ、早くお父しゃんに元気なってほしいもん！」
+
+＠樹
+「ざくろも。ひかりを連れてきてくれたんだな、ありがとう」
+
+
+@zakuro_small
+@zakuro_shifuku
+@zakuro_metoji		#閉
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_zakuro,0,	300,	0,16
+layer_movepass_add	l_zakuro,0,	300,	0,0
+layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_zakuro,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ざくろ,Q01367
+「うん。私も前のお見舞いから日が空いたから、そろそろ来たかったし」
+
+
+@zakuro			#普
+@hikari_yorokobi	#喜
+
+
+＠ざくろ,Q01368
+「これ、お見舞いの品物買ってきた」
+
+
+@SE39			#SE39　積んでいた物が崩れる音（ドシャドシャッ、ガララッ）
+@bg_white		# 白
+
+
+ドサッとテーブルに置くざくろ。
+
+
+@zakuro_small
+@zakuro_shifuku
+@hikari_small
+@hikari_shifuku
+
+@hikari_yorokobi	#喜
+@zakuro			#普
+@bg_byoushitsu		# 病室
+
+
+＠樹
+「ありがとう……また青ノリか」
+
+
+@zakuro_metoji		#閉
+
+
+＠ざくろ,Q01369
+「そろそろ切れる頃かと思ったから」
+
+……切れるどころか、余りまくって邪魔になっているくらいだ。
+
+
+@hikari_komaru		#困
+
+
+＠ひかり,N00703
+「お父しゃん、まだ腕が包帯いっぱいなの……」
+
+＠樹
+「大丈夫。もう取れて退院できるからな」
+
+
+@zakuro_akire		#呆
+
+
+＠ざくろ,Q01370
+「大変ね。利き腕がそれだと、満足にオナニーも出来ないし」
+
+
+@hikari			#普
+
+
+＠ひかり,N00704
+「……？　おな……なぁに？」
+
+
+screen_vibration	500,16,16,16
+
+
+＠樹
+「こ、こらざくろッ！　ひかりの前でそういう事を言うんじゃないッ」
+
+
+@zakuro_niko		#にこ
+
+
+＠ざくろ,Q01371
+「……必要なときは手伝うから」
+
+
+@zakuro_metoji		#閉
+
+
+＠ざくろ,Q01372
+「一ヶ月も溜まってる、つっちーのドロドロ濃密な精液ゼリーをドクドクって」
+
+
+#SE66　効果音１（ビシッ！）
+@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+
+
+＠樹
+「結構だッ！　変な気遣いはイランッ」
+
+
+@bg_black		# 黒
+
+
+＠ひかり,N00705
+「…？　ざくろお姉しゃん？」
+
+
+window_close
+@SE70			#SE70　衣擦れ音（シュルシュル）
+
+
+ズリズリとざくろがベッドを昇り、身体を寄せてくる。
+
+
+@zakuro_large		# 近い
+@zakuro_shifuku
+@zakuro_akire		#呆
+@bg_byoushitsu		# 病室
+
+
+＠ざくろ,Q01373
+「本当は、私がやってみたいからかも……つっちー」
+
+
+@zakuro_tere		#照れ
+
+
+＠ざくろ,Q01374
+「いつも以上に硬くなってビクビク脈打つ大きなおちんちんを堪能して、固形みたいに濃いザーメンゼリーをいっぱいぶちまけて欲しい」
+
+
+@zakuro_
+wait		500
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+
+
+#＠樹
+#「だ、だから止めろってッ！　絶対オレじゃ無くてざくろが溜まって―――ぐはッ！！」
+＠樹
+「だ、だから止めろってッ！　絶対オレじゃ無くてざくろが溜まって―――」
+
+
+window_close
+@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+wait		100
+#EF　白フラッシュ
+#SE38　殴る音（バキッ！）
+@SE38			#殴る音（バキッ！）
+
+
+＠樹
+「ぐはッ！！」
+
+
+@karin_middle		# 中間
+@karin_shifuku
+@karin_komikaru_ikari	#コミカル怒
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02650
+「な、何て会話してるのよッ。ドアを開け放したままで！」
+
+猛烈な勢いで入って来たかりんが、問答無用でオレを殴り倒していた。
+
+
+@chara_clear		#保険
+wait		500
+@hikari_small
+@hikari_shifuku
+#@hikari_yorokobi	#喜
+@hikari_odoroki		#驚
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_hikari,0,	200,	0,32
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00706
+「あっ。かりんお姉しゃんだぁッ♪」
+
+
+window_close
+@SE17			#SE17　廊下を歩いてくる音　※徐々に大きく
+wait		2000
+se_stop		0
+@karin_small
+@karin_shifuku
+@karin_kanashimi	#哀
+wait		100
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_karin,0,	550,	0,32
+layer_movepass_add	l_karin,0,	550,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02651
+「はぁ……ひーちゃん、気をつけないと。こんなメンバーと一緒に居たら悪影響を受けるわよ」
+
+
+@hikari			#普
+
+
+＠樹
+「う、ぐ……オレは襲われてた側なのに、酷い言い草だ……」
+
+
+@chara_clear		#保険
+wait		500
+@zakuro_large		# 近い
+@zakuro_shifuku
+@zakuro_akire		#呆
+
+
+＠ざくろ,Q01375
+「冗談よ、つっちー。溜まって発情するかと思って」
+
+
+window_close
+@zakuro_
+wait		500
+@SE70			#SE70　衣擦れ音（シュルシュル）
+
+
+ざくろはざくろで、真偽の掴めない言葉でスルーするし。
+
+＠樹
+「で、かりんは何をしに来たんだ」
+
+
+@karin_small
+@karin_shifuku
+@karin_kanashimi	#哀
+
+
+＠かりん,P02652
+「別に。ただちょっと通りかかったから、顔を見に来ただけよ」
+
+
+#@karin			#普通
+@karin_niko		#にこ
+
+
+＠かりん,P02653
+「それと、たまたまお店の前を通りかかったから、これもついでに買ってきてあげたわよ」
+
+
+@karin_
+
+
+＠ひかり,N00707
+「あッ、どーなちゅなの～♪」
+
+
+window_close
+@SE17			#SE17　廊下を歩いてくる音　※徐々に大きく
+wait		2000
+se_stop		0
+#@karin_small
+@karin_middle		# 中間
+@karin_shifuku
+@karin_niko		#にこ
+
+
+＠かりん,P02654
+「ひーちゃんのついでに、あなたも食べていいわ」
+
+＠樹
+「はは、そうか。ありがとう」
+
+
+@karin			#普通
+
+
+＠かりん,P02655
+「あと花瓶の花、そろそろ新しく買ってきた方がいいわね」
+
+
+@karin_kanashimi	#哀
+
+
+＠かりん,P02656
+「あ、もう。上着は脱ぎ捨てないで、ちゃんとハンガーにかけなさいよ」
+
+
+@bg_black
+#@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+se		0,	"sound\se\SE02_バフッ.wav",play_wait
+
+wait		1000
+
+@SE70			#SE70　衣擦れ音（シュルシュル）
+
+#@karin_small
+@karin_middle		# 中間
+@karin_shifuku
+@karin_niko		#にこ
+@bg_byoushitsu		# 病室
+
+
+＠かりん,P02657
+「これでよし、と。皺になるでしょ」
+
+＠樹
+「え、ああ悪い、ありがとう……」
+
+
+@karin_kanashimi	#哀
+
+
+＠かりん,P02658
+「ティッシュの買い置きももう無いみたいね。切れる前に言ってほしいわ」
+
+
+#@karin			#普通
+@karin_niko		#にこ
+
+
+＠かりん,P02659
+「次来るときに買ってくるから、あとは何か足りない物は無いの？」
+
+＠樹
+「……えっと、特には」
+
+＠樹
+「しかしかりん、お見舞いに来るたびに甲斐甲斐しくなっていくな……」
+
+
+@karin_odoroki		#驚
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_karin,0,	200,	0,24
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02660
+「す、好きでやってるんじゃないわよッ！　何言ってるのッ」
+
+
+@karin_keno		#嫌悪
+
+
+＠かりん,P02661
+「ただこの部屋に不自由があったら、毎日来てるひーちゃんにも不自由になるから。それだけよッ」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_small
+@hikari_shifuku
+@zakuro_small
+@zakuro_shifuku
+
+@zakuro			#普
+@hikari_yorokobi	#喜
+#wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+#layer_movepass_add	l_hikari,0,	300,	0,24
+#layer_movepass_add	l_hikari,0,	300,	0,0
+#layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+#layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00708
+「かりんお姉しゃん、ひーちゃん大丈夫だよ」
+
+
+@zakuro_akire		#呆
+
+
+＠ざくろ,Q01376
+「かりんはツンデレ属性に加えて、世話上手のスキル持ちだったのね」
+
+
+@chara_clear		#保険
+wait		500
+#@karin_small
+@karin_middle		# 中間
+@karin_shifuku
+@karin_komikaru_ikari	#コミカル怒
+wait		100
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02662
+「その前者も後者もどっちも１ミリたりとも持ってないわよッ！」
+
+＠樹
+「はは……まぁどっちにしても助かってるから。礼は言うよ」
+
+
+@chara_clear		#保険
+@bg_sky			# 空
+
+
+どんな理由であれ、やはりこうして来てくれること自体が嬉しい。
+
+そして何より、場所なんか関係なく明るさを運んできてくれる事が、今オレの一番の楽しみだった。
+
+
+bgm_stop
+@bg_byoushitsu		# 病室
+
+
+＠樹
+「ところで、そっちはどうなんだ。新しい入院先は決まったのか？」
+
+
+@karin_small
+@karin_shifuku
+@zakuro_small
+@zakuro_shifuku
+
+@zakuro			#普
+@karin_odoroki		#驚
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_karin,0,	200,	0,24
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02663
+「えっ、あ……」
+
+
+@zakuro_akire		#呆
+
+
+＠ざくろ,Q01377
+「………」
+
+
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+
+その話題に、ざくろは分からないが、かりんは敏感に反応した。
+
+＠樹
+「今はオレも美雨も居なくて、てんやわんやしてるだろうけど。大事なことだからな」
+
+
+@karin_kanashimi	#哀
+
+
+＠かりん,P02664
+「そうね……。みんなポツポツと探してるわ」
+
+
+@zakuro_metoji		#閉
+
+
+＠ざくろ,Q01378
+「転院は新学期になる前に済ませる予定だから」
+
+＠樹
+「と言うことは長くても、あとひと月ちょっとか」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_small
+@hikari_shifuku
+@hikari_kanashimi	#哀
+
+
+＠ひかり,N00709
+「……お姉しゃんたち、みんな別のところ行っちゃったら寂しいの……」
+
+
+@chara_clear		#保険
+wait		500
+@karin_small
+@karin_shifuku
+@zakuro_small
+@zakuro_shifuku
+
+@zakuro_akire		#呆
+@karin_kanashimi	#哀
+
+
+＠かりん,P02665
+「私も寂しいわ。せっかく妹が出来たみたいで嬉しかったのに……」
+
+＠樹
+「ああ……家族みたいに、ずっと一緒だったのにな」
+
+夜行が死に、彼の影響下にあった裏の政界は、今かなりの混乱をしていると雫さんは言った。
+
+そして同時に、土屋施設のこれまでの所業が明るみに出るのも時間の問題との事だ。
+
+そうなる前に子供達を別の施設へ移し、土屋施設を閉めるのがベストらしい。
+
+施設の借金は、夜行がオレ達を逃がさないようにしていた偽の情報だったのだ。
+
+＠かりん,P02666
+「……また、みかんとも離れ離れになるなんて」
+
+＠樹
+「仕方ないよ。みんな同じ施設に移るんじゃ意味が無いから」
+
+
+@zakuro_metoji		#閉
+
+
+＠ざくろ,Q01379
+「いちごと私は例外だけど」
+
+＠かりん,P02667
+「いいわね、あなた達だけ……。仲良いし」
+
+ただ、いちごとざくろだけは、雫さんが引き取って面倒をみる事になっていた。
+
+いちごは発作があり、ざくろも手放しでの社会復帰はまだ出来ないためだ。
+
+＠樹
+「まぁ連絡先は分かるんだし。いつでも話せるじゃないか」
+
+
+@karin_ikari		#怒
+@zakuro_akire		#呆
+
+
+＠かりん,P02668
+「何よッ、他人事みたいに！　元はといえば樹が施設を閉めるのが原因じゃないッ！」
+
+
+#@karin_komikaru_yoku	#コミカル欲
+@karin_koufun		#興奮
+
+
+＠かりん,P02669
+「もういいわ。こうなったら残った時間で、みかんを私のモノにしてみせるんだから！」
+
+
+#@zakuro_niko		#にこ
+@zakuro_metoji		#閉
+
+
+＠ざくろ,Q01380
+「奇遇ね。私と同じ事を考えてるなんて」
+
+
+@karin_komikaru_ikari	#コミカル怒
+#SE66　効果音１（ビシッ！）
+@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+
+
+＠かりん,P02670
+「あなたまで何サラッと変なこと言ってるのよッ！！」
+
+＠樹
+「かりんだって十分変だと知ろうな……」
+
+
+bgm_stop
+@chara_clear		#保険
+@bg_sky			# 空
+
+
+場所は変わったが、施設に居る時と変わらないにぎやかな時間が過ぎる。
+
+平和になった一日が、今日も何事もなく進んでいった。
+
+
+#--------------------------------------------------
+#一拍　※アイキャッチがあるなら表示
+#--------------------------------------------------
+
+
+@bg_black
+wait		1000
+#■BG（病室）
+@bg_byoushitsu		# 病室
+
+
+翌日。
+
+日中の診察を終えたオレは病室へ戻ってきていた。
+
+＠樹
+「つくづく、医者ってのは偉大だな……」
+
+
+@bgm12			#BGM 12 : メインテーマ
+
+
+今日は一度腕の包帯を取って感覚のテストをしてみた。
+
+結果は、ほぼ全快。
+
+怪我する前と変わりなく動かせて、感覚も戻っていた。
+
+＠樹
+「医大だけに、偉大なんだなぁ」
+
+
+@shizuku_small
+@shizuku_shifuku
+@shizuku_akire		#呆
+
+
+＠雫,S01391
+「……あんたって。一人になるといつも、そんなこと言ってるのかい……」
+
+
+#SE24　物音（ガタンッ）
+@SE24			#SE24　物音（ガタンッ）
+screen_vibration	500,16,16,16
+
+
+＠樹
+「うわえッ…！？」
+
+いつから居たのか、雫さんがちょっと冷めた目でオレを見ていた。
+
+＠樹
+「し、雫さんッ……なんで居るんですかッ！？」
+
+
+@shizuku		#普通
+
+
+＠雫,S01392
+「そりゃぁ、あんたの見舞いにさ」
+
+
+@shizuku_akire		#呆
+
+
+＠雫,S01393
+「でも土屋樹、可哀想に早くもセンスに親父臭が漂い始めてるね……」
+
+
+#SE66　効果音１（ビシッ！）
+@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+
+
+＠樹
+「大きなお世話ですッ！」
+
+
+bgm_stop
+
+
+＠樹
+「……っと、そんなことより。雫さんッ」
+
+
+@shizuku		#普通
+
+
+＠雫,S01394
+「ああ、分かってる分かってる。美雨のことだろう？」
+
+
+#@bgm06			#BGM 06 : 不安のテーマ
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+
+あの日ヘリで運ばれた美雨とは、ずっと連絡を取りたくても取れなかった。
+
+重症だった為に違う病院に運ばれ、情報漏洩を防ぐために場所も秘密にされている。
+
+何度か顔を見せに来た雫さんに聞いても、いつもはぐらかされていた。
+
+＠樹
+「けど今日は引き下がりませんよッ。いい加減、美雨の居場所を教えてください！」
+
+
+@shizuku_akire		#呆
+
+
+＠雫,S01395
+「居場所ねぇ。まぁ訊かれるのはとうぜん予想してたけど」
+
+＠雫,S01396
+「それが出来ない理由は、あんたも知ってるだろう？」
+
+＠樹
+「なら、話だけでも！　もう意識は回復してるって、前に言いましたよね！」
+
+
+@shizuku		#普通
+
+
+＠雫,S01397
+「ああ。怪我の部位以外はもう、ほとんど問題ないくらいだよ」
+
+＠樹
+「じゃあ、話をッ。声を聞かせてくださいよ！」
+
+＠樹
+「教えられない理由は知ってる。けど、雫さんだってオレが知りたがる理由は分かるでしょう！？」
+
+
+#@shizuku_yorokobi	#喜
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01398
+「そりゃあね。あの子が好きだって事くらいは」
+
+美雨の様態への心配は、どんなときも頭を離れなかった。
+
+平和で穏やかな日々が過ぎながらも、やはりその事だけは深い不安の闇に閉ざされていた。
+
+＠樹
+（出来れば会いたい！　無理ならせめて、声だけでも聞きたい！）
+
+
+@shizuku		#普通
+
+
+＠雫,S01399
+「無事だっていう連絡だけじゃ、満足できないかい？」
+
+＠樹
+「出来るわけないじゃないですかッ、オレはッ……」
+
+＠樹
+「オレは本気で美雨が愛しいから！　心配で心配で、居ても立ってもいられない……」
+
+
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01400
+「困ったねぇ。あたしにそんな愛の告白をされてもねぇ……」
+
+＠樹
+「とにかく、今日は教えてくれるまで帰しませんよ！」
+
+いつにない強気で責める。
+
+すると雫さんが、諦めたように溜め息を吐いた。
+
+
+@shizuku_akire		#呆
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_shizuku,0,	550,	0,32
+layer_movepass_add	l_shizuku,0,	550,	0,0
+layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_shizuku,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠雫,S01401
+「やれやれ、しょうがないね。帰してもらえないのも困るし」
+
+
+bgm_stop
+@shizuku		#普通
+
+
+＠雫,S01402
+「美雨、もういいよ出ておいでー」
+
+＠樹
+「…………へっ？」
+
+予想外に、雫さんは廊下に向けてそんな声を投げる。
+
+病室のドアの側で、確かに一人の人影があった。
+
+＠？？？,B02878a
+「…………」
+
+
+#@shizuku_yorokobi	#喜
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01403
+「ほら、何を照れてるんだい。愛しくて心配してくれてる樹が待ってるよ」
+
+＠樹
+「え、ま、まさかッ……そこに居るんですかッ、美雨が！」
+
+
+@bg_black		# 黒
+
+
+＠？？？,B02878b
+「あ……その…」
+
+
+#CH（美雨立ち絵・車椅子）
+#@miu_small
+@miu_small_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+@bg_byoushitsu		# 病室
+
+
+人影がドアの前に出て、姿を現した。
+
+
+＠樹
+「み、美雨ッ……！！」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B02879
+「こんにちは、樹さん………来ちゃいました」
+
+
+@bgm17			#BGM 17 : のんびりのテーマ
+
+
+やはりそこに居たのは美雨。
+
+車椅子に乗っているが、正真正銘、ずっと想っていた美雨だった。
+
+＠樹
+「美雨ッ、よく来てくれた！　本当に……」
+
+＠美雨,B02880
+「樹さん……。私も会いたかったです、ずっと」
+
+＠美雨,B02881
+「それにその、さっきの言葉も。すごく嬉しかったです……」
+
+＠樹
+「え？　あ……」
+
+出会えた歓喜で一気に忘れてしまっていた。
+
+……そういえば、声を大にして言ったあの言葉、モロに聞かれていた。
+
+＠樹
+「まぁその、うん……。偽りない本心だよ」
+
+＠樹
+「……って言うか、雫さん。謀りましたね」
+
+
+@shizuku_small
+@shizuku_shifuku
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01404
+「はぁ～、いいねラブラブで。そのまま舐めたり入れたりしていいんじゃない？」
+
+
+@miu_kuruma_odoroki	# 驚（車いす専用）
+
+
+＠美雨,B02882
+「そ、そんな気持ちで来たんじゃありませんッ。私は純粋にっ……」
+
+＠樹
+「……まったく、相変わらず下ネタ好きな人なんだから」
+
+
+@shizuku		#普通
+
+
+＠樹
+「それより美雨、その車椅子は……」
+
+
+@miu_kuruma		# 普（車いす専用）
+
+
+＠美雨,B02883
+「え、はい……。まだ完治はしていないので」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B02884
+「でもそれ以外は、傷も体力もすっかり元気ですから。心配いりませんよ」
+
+＠樹
+「そっか。それを聞いて安心したよ」
+
+オレがホッとすると、雫さんはニヤリとほくそ笑んだ。
+
+
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01405
+「美雨はもう大変だったんだよ。あんたに会いたい会いたいって我侭言ってさ」
+
+
+@miu_kuruma_odoroki	# 驚（車いす専用）
+
+
+＠美雨,B02885
+「し、雫さんっ…！？」
+
+
+@shizuku_akire		#呆
+
+
+＠雫,S01406
+「ほんと、数週間前まで生死の境を彷徨ってたなんて思えないほどだったのよ」
+
+
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01407
+「樹も美雨美雨って駄々捏ねてたけど、この子はその倍以上はあんたを恋しがってたね」
+
+
+@miu_kuruma_ikari	# 怒（車いす専用）
+
+
+＠美雨,B02886
+「雫さんッ、もう！　そんな事わざわざ言わなくてもいいじゃないですかッ……」
+
+＠樹
+「へぇ～、美雨がねぇ」
+
+嬉しくて勝手にニヤニヤしてしまう。
+
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B02887
+「……樹さんまで」
+
+＠樹
+「いやいや、オレは嬉しいんだよ」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B02888
+「そういう事にしておきます……。私も嬉しいですから」
+
+
+@miu_kuruma		# 普（車いす専用）
+@shizuku_yorokobi	#喜
+
+
+＠美雨,B02889
+「それより樹さんの怪我の具合は、いかがですか……？」
+
+＠樹
+「ああ、オレはもうすっかり平気さ。包帯なんて飾りですよ」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B02890
+「そうですか。良かった……」
+
+＠美雨,B02891
+「じゃあ、ちゃんと完治されるんですね」
+
+＠樹
+「……ん？」
+
+＠樹
+「もちろんさ。退院も目の前だし」
+
+オレは美雨の足を見る。
+
+何だか、今の念を押すみたいな言い方だと……
+
+＠樹
+「…………」
+
+
+@shizuku_chousyou	#怒笑
+
+
+＠雫,S01408
+「どうしたの～。そんなエッチなところジッと見つめて」
+
+
+@miu_kuruma_odoroki	# 驚（車いす専用）
+
+
+＠美雨,B02892
+「えッ…！？」
+
+
+#SE66　効果音１（ビシッ！）
+@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+
+
+＠樹
+「目線違いますからッ、絶対！」
+
+
+bgm_stop
+
+
+その時、部屋の外から中を窺う声が聞こえた。
+
+
+#CH（ひかり・みかん・いちごに立ち絵なし）
+
+
+#--------------------------------------------------
+#重要：素材なし：音声
+#--------------------------------------------------
+#＠みかん
+#「あれ、お兄ちゃんの病室から声がするよ」
+
+#--------------------------------------------------
+
+
+#--------------------------------------------------
+#重要：音声加工：みかん音声素材なしによるつじつま合わせ
+#--------------------------------------------------
+#＠いちご,O02239
+#「ほんとだ、誰だろ。みんな施設に居たから知らない人かな」
+
+＠？？？,O02239a
+「誰だろ。みんな施設に居たから知らない人かな？」
+
+#--------------------------------------------------
+
+
+今日も誰かがお見舞いに来てくれたらしい。
+
+
+@miu_kuruma		# 普（車いす専用）
+@shizuku_yorokobi	#喜
+
+
+＠雫,S01409
+「お。今日も熱心なお見舞いが来たみたいね」
+
+＠ひかり,N00710
+「お父しゃーん♪　お見舞いなの！」
+
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+
+＠美雨,B02893
+「……ッ！？」
+
+ひかりの声で敏感に、美雨が身体をこわばらせた。
+
+そして……
+
+
+#CH（ここからひかり・みかん・いちごにも立ち絵あり）
+@bg_black
+wait		100
+@mikan_small
+@mikan_shifuku
+@ichigo_small
+@ichigo_shifuku
+#@hikari_small
+#@hikari_shifuku
+
+#@mikan_warai		#笑
+@mikan			#普通
+#@ichigo_yorokobi	#喜
+@ichigo_odoroki		#驚
+#@hikari_odoroki		#驚
+@bg_byoushitsu		# 病室
+
+
+＠みかん,A01945
+「お兄ちゃ―――あれ？」
+
+
+#@mikan			#普通
+#@ichigo_small
+#@ichigo_shifuku
+#@ichigo_odoroki		#驚
+#wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_ichigo,0,	200,	0,32
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02240
+「あッ、雫と美雨がいるよ！」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_small
+@hikari_shifuku
+@hikari_odoroki		#驚
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_hikari,0,	1000,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,32
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00711
+「え……ああーッ！　お母しゃんだッ！」
+
+＠美雨,B02894
+「ひーちゃんッ！！」
+
+
+@hikari_naki		#泣
+
+
+三人が入ってくると、その姿に互いが驚きと欣喜の声を響かせた。
+
+
+#--------------------------------------------------
+@hikari_
+se	0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
+#--------------------------------------------------
+
+
+＠ひかり,N00712
+「お母しゃんッ！　お母しゃあああんッ！！」
+
+
+window_close
+screen_whiteout		100
+se_stop		0
+wait			100
+#@SE36			#SE36　勢いよく抱きつく音（バフッ！）
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+@bg_white
+screen_whitein		1
+
+
+＠美雨,B02895
+「ひーちゃんッ！　よかった元気そうで……会いたかったわ」
+
+＠ひかり,N00713
+「うんッ、ひーちゃんも寂しかったのぉ、お母しゃん」
+
+
+@bgmk03			#BGM K03 : 静かの時のテーマ
+
+
+飛び込んでくるひかりを受け止めて、美雨は一ヶ月ぶりの再会に感極まって抱きしめる。
+
+
+@mikan_small
+@mikan_shifuku
+@ichigo_small
+@ichigo_shifuku
+
+#@ichigo_yorokobi	#喜
+@ichigo_komaru		#困
+@mikan_yorokobi		#喜
+@bg_byoushitsu		# 病室
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01946
+「よかったね、ひーちゃん。ずっと寂しがってたから」
+
+＠ひかり,N00714
+「うぅう～、ぐすッ……うん…お母しゃん、もうどこにも行っちゃヤなのっ……」
+
+＠美雨,B02896
+「あらあら、泣かないでひーちゃん……ごめんね、寂しくさせて」
+
+
+#@chara_clear		#保険
+#wait		500
+#@ichigo_small
+#@ichigo_shifuku
+#@ichigo_komaru		#困
+
+
+＠いちご,O02241
+「美雨、車椅子に乗ってるよ……。まだ怪我してるの…？」
+
+
+@chara_clear		#保険
+wait		500
+@shizuku_small
+@shizuku_shifuku
+@shizuku		#普通
+
+
+＠雫,S01410
+「ああ。だから残念だけど、もう少し入院してもらわないといけないんだよ」
+
+
+#@chara_clear		#保険
+#wait		500
+@bg_black
+wait		100
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_naki		#泣
+@bg_byoushitsu		# 病室
+wait		100
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00715
+「ひっく、ぐしゅッ……お母しゃん、また行っちゃうのぉ…？」
+
+
+@chara_clear		#保険
+wait		500
+#@miu_middle		# 中間
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+
+＠美雨,B02897
+「ええ……。でも少しの間だから」
+
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B02898
+「それにこれからは、私もここに来てひーちゃんに会えるようになるから。ね？」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+#@hikari_komaru		#困
+@hikari_naki		#泣
+
+
+＠ひかり,N00716
+「んぅ……まいにち会えゆ？」
+
+＠美雨,B02899
+「もちろんよ。私もひーちゃんと樹さんに会いたいもの」
+
+＠樹
+「オレも歓迎するよ。それなら我慢できるだろ、ひかり？」
+
+美雨の前で不安そうなひかり。
+
+あの事件の直後から一ヶ月も会えなかったのだから、寂しい気持ちは辛いくらいよく分かっていた。
+
+実際この病室に来て、何度美雨のことをオレに尋ねただろう。
+
+＠美雨,B02900
+「ね、ひーちゃん。約束するから」
+
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	1500,	0,0
+layer_movepass_add	l_hikari,0,	300,	0,16
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00717
+「ぐすッ………うん…」
+
+
+bgm_stop
+
+
+ひかりは小さく頷いた。
+
+
+@chara_clear		#保険
+wait		500
+#@miu_middle		# 中間
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@bgm17			#BGM 17 : のんびりのテーマ
+
+
+＠美雨,B02901
+「ふふ、偉いわよ。代わりに今日はいっぱいお話しましょうね」
+
+
+@chara_clear		#保険
+wait		500
+@mikan_small
+@mikan_shifuku
+@ichigo_small
+@ichigo_shifuku
+
+@mikan_yorokobi		#喜
+@ichigo_warai		#笑
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_ichigo,0,	600,	0,0
+layer_movepass_add	l_ichigo,0,	300,	0,32
+layer_movepass_add	l_ichigo,0,	300,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02242
+「うんッ」
+
+＠美雨,B02902
+「みかんちゃんといちごちゃんも。施設のことを色々教えてくれると嬉しいわ」
+
+
+@mikan_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01947
+「うんッ、いいよ！　あのね、ご飯があんまり美味しくないの」
+
+
+@ichigo_ase		#汗
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02243
+「やっぱり美雨のご飯がいいよぉ。雫の味つけ変なんだもん～」
+
+
+@chara_clear		#保険
+wait		500
+@shizuku_small
+@shizuku_shifuku
+@shizuku_akire		#呆
+
+
+＠雫,S01411
+「悪かったねッ。言われなくても分かってるよ」
+
+
+@shizuku_
+
+
+＠樹
+「ははッ。オレも入院食だから知らなかったな。ざくろはどうした？」
+
+
+@mikan_small
+@mikan_shifuku
+@ichigo_small
+@ichigo_shifuku
+
+@mikan_kusyou		#苦笑
+@ichigo_akire		#呆れ
+
+
+＠いちご,O02244
+「ざくろのは美味しいけど、いっつも青ノリの味がして飽きちゃうもん」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_warai		#笑
+wait		100
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00718
+「この前しゅごかったの。青ノリだけでハンバーグちゅくってたの！」
+
+＠美雨,B02903
+「それはそれですごい技術ね」
+
+
+@chara_clear		#保険
+wait		500
+@mikan_small
+@mikan_shifuku
+@ichigo_small
+@ichigo_shifuku
+
+@ichigo_akire		#呆れ
+#@mikan_kanashimi	#哀
+@mikan_kusyou		#苦笑
+
+
+＠みかん,A01948
+「でもクシャミしたら、全部バラバラに飛んで行っちゃったよ……」
+
+その現場と子供達のことを想像し、オレも美雨も自然と頬が緩む。
+
+
+@chara_clear		#保険
+wait		500
+#@miu_middle		# 中間
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+
+＠美雨,B02904
+「他にはどんな事があったの？」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_warai		#笑
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00719
+「うんッ、えっとね、いっぱいあゆの！」
+
+美雨が来てくれたことで、ひかりはいつもより嬉しそうにはしゃいでいた。
+
+そしてそれは美雨もオレも、そして他の子たちも同じだった。
+
+＠樹
+（もうすぐだ。またみんなで施設に戻れるまで）
+
+
+#■BG（青空）
+@chara_clear		#保険
+@bg_sky			# 空
+
+
+それからは毎日、美雨とひかり達が尋ねてくれて、お見舞いはいっそう賑やかになった。
+
+たまにそこへ、涼海ちゃんとるあちゃん、誠司まで加わることもあり、お祭り状態にもなる。
+
+みんな諸悪の決着がついて、日々を安心して楽しんでいた。
+
+
+#■BG（施設外観）
+@bg_black
+wait		1000
+@bg_gate		# 孤児院前
+
+
+オレと美雨が退院して施設に戻ってからは、さらに輪をかけて賑やかさは増した。
+
+そして、あっという間に日々は流れていった……
+
+
+#--------------------------------------------------
+#一拍　※アイキャッチがあれば入れる
+#--------------------------------------------------
+
+
+bgm_stop
+@bg_black
+wait		1000
+
+
+#（『hika38』へ）
+#return
+goto		hika38
+
+
+
+
+

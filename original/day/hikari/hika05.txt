@@ -1,0 +1,347 @@
+label	hikari_05
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#ひかりルート４（親密イベント１）
+#発生条件：『ひかりとの新生活イベント』が終了＆子供達が家に居ない平日
+#発生時期：上記イベント～１月５日（未定）
+#--------------------------------------------------
+
+
+#■BG（廊下）
+@bg_rouka		# 廊下
+@bgm12			#BGM 12 : メインテーマ
+
+
+子供達が居ない日は実に静かだった。
+
+日程上、いつも誰かが居ることが多いからな、ここは。
+
+少し心寂しい気もするが、たまにはこんな時間もあっていいだろう。
+
+
+@bg_black
+wait		1000
+@SE06			#部屋のドア開く音（ガチャ）
+#■BG（リビング）
+@hikari_middle		# 中間
+@hikari_shifuku
+@miu_middle		# 中間
+@miu_maid
+
+@hikari_warai		#笑.png
+@miu2			#開_にこ
+@bg_living		# リビング
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00290
+「んーっ、美味しいーっ♪」
+
+
+@miu			#閉_にこ
+layer_movepass_init	l_hikari,0	#演出初期化
+
+
+＠美雨,B01625
+「そう、良かった。まだあるからたくさん食べていいのよ」
+
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00291
+「うん！」
+
+＠樹
+「美雨とひかり、ここに居たのか………おお？」
+
+テーブルに置かれている豪華なケーキに、思わず感嘆の声を漏らす。
+
+
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_hikari,0,	200,	0,32
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00292
+「あっ、お父しゃんー♪」
+
+
+@miu2			#開_にこ
+
+
+＠美雨,B01626
+「今ちょうど、ひーちゃんとおやつにしていたんです。樹さんもどうですか？」
+
+＠樹
+「あ、いや、オレはいいよ」
+
+＠樹
+「しかしそれ手作りケーキか？　すごいな」
+
+まるで祝い事に出されるようなデコレーションケーキだった。
+
+それが１ホール丸々、ひかりの前に用意されている。
+
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00293
+「あははっ、甘くて美味しいのーっ♪」
+
+＠樹
+「そんなに食べれるか？　ひかり」
+
+
+@miu			#閉_にこ
+
+
+＠美雨,B01627
+「いえ、もちろんみんなの分のおやつですよ」
+
+
+@miu2			#開_にこ
+
+
+＠美雨,B01628
+「ただ今日は、他の子もまだ帰って来てませんでしたから」
+
+＠樹
+「むぅ……。それにしたって、かつて無い豪華なおやつだ」
+
+
+@hikari_yorokobi	#喜.png
+
+
+＠ひかり,N00294
+「お母しゃん、またいちご乗ってるところほしいの」
+
+
+@miu			#閉_にこ
+
+
+＠美雨,B01629
+「あ、はい。今切ってあげるわね」
+
+ひかりが所望する場所を、食べごろのサイズに切り取って皿に盛る。
+
+
+@miu2			#開_にこ
+
+
+＠美雨,B01630
+「いちごはこの半分のやつね。後は他のみんなの分だから」
+
+
+@hikari			#普.png
+
+
+＠ひかり,N00295
+「んぅ～……。もうちょっと食べたいの。ダメ……？」
+
+
+@miu			#閉_にこ
+
+
+＠美雨,B01631
+「ふふ、なら私の分をあげる。これで最後よ」
+
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00296
+「わーいっ♪　あいがとぉ！」
+
+誰にでも優しい美雨だが、ひかりには特別甘く接している感じだった。
+
+まぁそれ自体は悪いことじゃないし、ちゃんと他の子のことも考えてくれてるからいいんだけど。
+
+＠樹
+「……やっぱりでかいと思ってる？　そのケーキ」
+
+
+@miu2			#開_にこ
+
+
+＠美雨,B01632
+「あは……そ、そうですね。作りすぎてしまいました」
+
+
+@miu			#閉_にこ
+
+
+＠美雨,B01633
+「よければ樹さんも、手伝っていただけると助かるんですけど……」
+
+
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00297
+「うんッ。お父しゃんも一緒に食べよーっ♪」
+
+＠樹
+「だな。相伴に預かろうか」
+
+
+@bg_black
+
+
+ひかりの隣に腰を下ろし、オレもそのケーキの攻略に取り掛かることにした。
+
+＠美雨,B01634
+「どうぞ。いま飲み物も用意します」
+
+
+@hikari_middle		# 中間
+@hikari_shifuku
+@miu_middle		# 中間
+@miu_maid
+
+@hikari_yorokobi	#喜.png
+@miu2			#開_にこ
+@bg_living		# リビング
+
+
+＠樹
+「それじゃ、いただきます」
+
+切り分けられたケーキを一口フォークで運ぶ。
+
+その華美なデコレーションから、それなりの甘さは想像していたのだが、
+
+＠樹
+「ん……？　お、美味いよ。これ」
+
+＠美雨,B01635
+「よかった。甘さは大丈夫ですか？」
+
+＠樹
+「ああ。これならいける」
+
+クリームは程よい甘さで口の中で溶け、後味もあっさりしている。
+
+
+@hikari_warai		#笑.png
+
+
+＠ひかり,N00298
+「お母しゃん、お菓子ちゅくるの上手なのっ♪」
+
+
+@miu			#閉_にこ
+
+
+＠美雨,B01636
+「ふふ、ひーちゃんもありがとう」
+
+
+@miu2			#開_にこ
+
+
+＠美雨,B01637
+「だけど頬っぺたにクリームがついてるわよ。取ってあげるから、こっち向いて」
+
+
+#@hikari_yorokobi	#喜.png
+@hikari_tere		#照.png
+
+
+＠ひかり,N00299
+「えへ…♪　うん！」
+
+
+@bg_white		# 白
+
+
+嬉しそうに顔を向けるひかりから、優しくクリームを拭き取る美雨。
+
+
+@hikari_middle		# 中間
+@hikari_shifuku
+@miu_middle		# 中間
+@miu_maid
+
+@hikari_warai		#笑.png
+@miu2			#開_にこ
+@bg_living		# リビング
+
+
+＠美雨,B01638
+「樹さんも、よければどんどんお替りしてくださいね」
+
+＠樹
+「自然とそうなりそうだな。この味なら」
+
+
+@miu			#閉_にこ
+
+
+お茶とケーキを囲んだおやつの時間は、そうやって三人一緒に過ぎていった。
+
+
+bgm_stop
+@bg_black
+wait		1000
+
+
+#（スケジュール）
+return
+
+
+
+
+

@@ -1,0 +1,600 @@
+label	suika_10
+#--------------------------------------------------
+#主人公を諦めようとするすいか
+#発生条件：シューティング３回目でコンティニュー１回以上
+#発生時期：シューティング３回目から約１ヶ月後？　できれば12月に入ってから
+#--------------------------------------------------
+
+
+#■BG（１階リビング）
+@bg_living		# リビング
+
+
+＠樹
+「これはひどい……」
+
+
+@bgm02			#BGM 02 : 朝のテーマ
+
+
+リビングで新聞を読んでいたオレは、思わずつぶいやた。
+
+ひどい事件があったわけではない。社説の内容があまりにひどいのだ。
+
+仮にも大新聞がこんな社説を書いて恥ずかしくないのだろうか？
+
+はっきり言って、こんな社説を載せている新聞の記事なんて信用できないんだが……。
+
+やっぱりもう新聞なんて終わったメディアなんだろうか？
+
+とはいえ、こんな仕事をしているとどうしても情報に疎くなりがちなので、やはり新聞は必要だしなぁ……。
+
+＠樹
+（でも、考えてみればネットでニュースを見る手もあるのか？）
+
+パソコンはすいかに貸してるけど……。
+
+前に雫さんがパソコンを使ってるのも見たし、すいかもＢＧＭをネットから拾ってきたとか言っていたはず。
+
+ということは、無線LANか何かあるんだよな、ここ。
+
+だったら、パソコンがあればネットでニュースを見ることもできるはずだった。
+
+＠樹
+（とはいえ、パソコンはすいかが使ってるしな）
+
+せっかく喜んで使ってるんだし、わざわざ返してもらう道理はない。
+
+すいかのためなら、オレはまあ新聞で我慢するさ……。
+
+偏ってはいるけれど、一応右寄りと左寄りの新聞を取っているので、見比べて情報を整理することも出来るしな。
+
+……と、そんなことを考えていたときだった。
+
+
+@SE06			#部屋のドア開く音（ガチャ）
+
+
+リビングのドアが開き、そちらに目をやると、すいかが入ってきた。
+
+
+window_close
+@SE07			#部屋のドア閉まる音（パタン）
+wait		1000
+@suika_small
+@suika_heyagi
+@suika_yorokobi		#喜
+
+
+＠すいか,R00727
+「あ、院長先生。ここにいらしたんですか」
+
+オレと目が合うと、すいかはとたんに嬉しそうな顔になる。
+
+
+@suika_
+
+
+＠樹
+「おう、どうした？」
+
+
+@suika_middle		# 中間
+@suika_heyagi
+@suika_kanashimi	#哀
+
+
+＠すいか,R00728
+「あ、いえ……。またゲームの続きを作りましたので、遊んでいただけないかと……」
+
+＠樹
+「お、そうか。珍しいな、こんな時間に」
+
+
+@suika_komariwarai	#困笑
+
+
+＠すいか,R00729
+「あはは……。昨日は遅くまで調整してましたから……」
+
+
+@suika			#普
+
+
+＠すいか,R00730
+「さすがに遅かったんで、昨日はそのまま寝ちゃったんです」
+
+
+@suika_yorokobi		#喜
+
+
+＠すいか,R00731
+「それで、今日の夜まで待とうかとも思ったんですけど、待ちきれなくて」
+
+キラキラと目を輝かせるようにオレを見つめるすいか。
+
+＠樹
+「そ、そうか」
+
+やっぱりなんとなく、惚れられかけているような気がする……。
+
+でもまあ、一緒にゲームをやるくらい、何の問題もないよな？
+
+＠樹
+「それじゃ、行こうか……」
+
+
+bgm_stop
+@chara_clear	#保険
+
+
+と、オレが言いかけたそのときだった。
+
+
+#--------------------------------------------------
+#注：デバッグ用
+#karin_miryoku = 0
+#ichigo_miryoku = 0
+#mikan_miryoku = 0
+#--------------------------------------------------
+#■（条件分岐）
+if karin_miryoku > ichigo_miryoku and karin_miryoku > mikan_miryoku  then goto suika10_f01_karin
+if mikan_miryoku > karin_miryoku and mikan_miryoku > ichigo_miryoku then goto suika10_f01_mikan
+#--------------------------------------------------
+#（いちご、みかん、かりんの中でいちごの好感度が高い）
+#--------------------------------------------------
+
+
+window_close
+@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+@ichigo_small
+@ichigo_shifuku
+@ichigo_odoroki		#驚
+wait		500
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_ichigo,0,	200,	0,32
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02316
+「あーッ、パパ、こんなところにいた！」
+
+
+#@ichigo_ikari		#怒
+@ichigo_komikaru_odoroki	#コミカル驚
+
+
+＠いちご,O02317
+「大変なんだよッ！　いちごの部屋にあいつが出たの！」
+
+
+@bgm03			#BGM 03 : いちごのテーマ
+
+
+いちごが息せき切ってリビングに飛び込んできた。
+
+＠樹
+「あいつ……？」
+
+
+@ichigo_komaru		#困
+wait	500
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_ichigo,0,	200,	32,0
+layer_movepass_add	l_ichigo,0,	200,	-32,0
+layer_movepass_add	l_ichigo,0,	200,	32,0
+layer_movepass_add	l_ichigo,0,	200,	-32,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02318
+「あいつだよ！　あの黒くて素早くてギトギトしてるアレ……！」
+
+＠樹
+「……ゴキブリか？」
+
+
+@ichigo_ikari		#怒
+wait	500
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_ichigo,0,	300,	0,32
+layer_movepass_add	l_ichigo,0,	300,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02319
+「そう、いわゆるそれ！」
+
+
+@ichigo_
+wait		1000
+@ichigo_large		# 近い
+@ichigo_shifuku
+@ichigo_kanashimi	#哀
+wait	500
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02320
+「どうにかして、パパッ！」
+
+いちごは俺に泣きついてくる。
+
+
+@ichigo_
+
+
+＠樹
+「しょうがないなぁ……」
+
+＠樹
+「悪い、すいか、またあとで」
+
+
+@suika_middle		# 中間
+@suika_heyagi
+@suika			#普
+
+
+＠すいか,R00732
+「あ、はい……」
+
+
+@suika_
+
+
+すいかに断りを入れて、俺は立ち上がる。
+
+
+@ichigo_large		# 近い
+@ichigo_shifuku
+@ichigo_ikari		#怒
+wait	500
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02321
+「パパ～ッ、早く早くッ！」
+
+せかすいちごに手を引かれ、俺はリビングを出たのだった。
+
+
+#（統合へ）
+goto		suika10_togo1
+
+
+
+
+
+#--------------------------------------------------
+#（いちご、みかん、かりんの中でみかんの好感度が高い）
+#--------------------------------------------------
+label		suika10_f01_mikan
+
+
+@mikan_small
+@mikan_shifuku
+@mikan_odoroki		#驚
+
+
+＠みかん,A01961
+「あ、ここにいたぁっ！」
+
+
+@mikan_
+se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
+
+
+＠みかん,A01962
+「お兄ちゃ～んっ……！」
+
+
+@bgm12			#BGM 12 : メインテーマ
+
+
+泣きそうな顔でみかんがリビングに飛び込んできた。
+
+＠樹
+「どうした……？」
+
+
+se_stop		0
+@mikan_large		# 近い
+@mikan_shifuku
+#@mikan_kanashimi	#哀
+@mikan_komikaru_kanashimi	#コミカル哀
+wait		500
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_mikan,0,	200,	0,16
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_add	l_mikan,0,	200,	0,16
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_add	l_mikan,0,	200,	0,16
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01963
+「あのね、みかんの部屋に……出たの～っ……」
+
+＠樹
+「出たって、何がだ？」
+
+お化けとかそういう話か……？
+
+
+layer_movepass_init	l_mikan,0	#演出初期化
+#@mikan_komikaru_kanashimi	#コミカル哀
+
+
+＠みかん,A01964
+「ゴキブリ～っ！」
+
+
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_mikan,0,	150,	-16,0
+layer_movepass_add	l_mikan,0,	150,	0,0
+layer_movepass_add	l_mikan,0,	150,	16,0
+layer_movepass_add	l_mikan,0,	150,	0,0
+layer_movepass_add	l_mikan,0,	150,	-16,0
+layer_movepass_add	l_mikan,0,	150,	0,0
+layer_movepass_add	l_mikan,0,	150,	16,0
+layer_movepass_add	l_mikan,0,	150,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01965
+「助けてお兄ちゃん！　なんとかして～ッ！」
+
+
+@chara_clear		#保険
+
+
+今にも泣き出しそうな勢いで、みかんは俺にすがりついてくる。
+
+＠樹
+「しょうがないなぁ……」
+
+＠樹
+「悪い、すいか、またあとで」
+
+
+@suika_middle		# 中間
+@suika_heyagi
+@suika			#普
+
+
+＠すいか,R00733
+「あ、はい……」
+
+
+@suika_
+
+
+すいかに断りを入れて、俺は立ち上がる。
+
+＠樹
+「行くぞ、みかん」
+
+
+@mikan_large		# 近い
+@mikan_shifuku
+@mikan_warai		#笑
+wait	500
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01966
+「ありがとう、お兄ちゃん！」
+
+みかんは嬉しそうに俺の腕に抱きついてきた。
+
+
+@mikan_warai2		#笑2
+
+
+＠みかん,A01967
+「やっぱりお兄ちゃんは頼りになるな……」
+
+＠樹
+「ほらほら、早く行かないとどこにいるのかわからなくなるだろ？」
+
+腕に絡みつくみかんを急かし、俺は部屋の出口へ向かった。
+
+
+#（統合へ）
+goto		suika10_togo1
+
+
+
+
+
+#--------------------------------------------------
+#（いちご、みかん、かりんの中でかりんの好感度が高い）
+#--------------------------------------------------
+label		suika10_f01_karin
+
+
+@karin_small
+@karin_shifuku
+@karin_odoroki		#驚
+
+
+＠かりん,P02693
+「樹！　こんなところにいたのね！」
+
+
+@karin_ikari		#怒
+
+
+＠かりん,P02694
+「肝心なときに役に立たないんだから、もう！」
+
+
+@karin_
+@bgm12			#BGM 12 : メインテーマ
+
+
+いつになく慌てた様子で、かりんがリビングに入ってきた。
+
+＠樹
+「どうかしたのか？」
+
+
+@karin_middle		# 中間
+@karin_shifuku
+@karin_kanashimi	#哀
+
+
+＠かりん,P02695
+「うぅ、それが……」
+
+＠かりん,P02696
+「出たのよ、アレが」
+
+少し困ったように口ごもりつつ、かりんはつぶやく。
+
+＠樹
+「アレ……？」
+
+＠かりん,P02697
+「あの、黒くてすばしこくてギトギトしている虫よ」
+
+#＠かりん,P02698
+#「実物は初めて見たけど、やはり不気味なものね……」
+
+＠樹
+「って、ゴキブリか？」
+
+
+@karin_ikari		#怒
+
+
+＠かりん,P02699
+「そ、そんな言葉を口に出さないで。樹の口が汚れるわ」
+
+＠樹
+「そんなことを言われても……」
+
+いちいち別の言葉に言い換えてたら会話が進まないじゃんか。
+
+
+@karin_kanashimi	#哀
+
+
+＠かりん,P02700
+「いいから早くアレを退治しなさい。あなたの仕事でしょう？」
+
+＠樹
+「しょうがないなぁ……」
+
+
+@chara_clear		#保険
+
+
+＠樹
+「悪い、すいか、またあとで」
+
+
+@suika_middle		# 中間
+@suika_heyagi
+@suika			#普
+
+
+＠すいか,R00734
+「あ、はい……」
+
+
+@suika_
+
+
+すいかに断りを入れて、俺は立ち上がる。
+
+
+@karin_large		# 近い
+@karin_shifuku
+#@karin_tere		#照れ（笑いを兼用？）
+@karin_warai		#笑
+
+
+＠かりん,P02701
+「さすがね、樹。頼もしいわ」
+
+
+@karin_
+
+
+リビングの出口に向かおうとすると、かりんはさりげなく俺に寄り添い、俺の腕を取った。
+
+#初めてゴキブリを見て、やはりかなり驚いたのだろうか？
+
+触れた腕から、かりんの緊張が伝わってきた気がした。
+
+
+
+
+
+#--------------------------------------------------
+#■（統合）
+#--------------------------------------------------
+label		suika10_togo1
+
+
+bgm_stop
+#■BG（黒）
+@bg_black
+wait		1000
+
+@suika_evup
+#（スケジュールへ）
+return
+
+
+
+
+

@@ -1,0 +1,893 @@
+label	hikari_10
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#ひかりルート９（かりんと仲直り？）
+#発生条件：『ひかりとの新生活イベント』が終了＆みかんとかりんが家に居る
+#発生時期：上記イベント～１月５日（未定）の平日
+#※天気：晴れ
+#--------------------------------------------------
+
+
+#■BG（廊下）
+@bg_rouka		# 廊下
+@bgm12			#BGM 12 : メインテーマ
+
+
+みかんの部屋の前を通りかかると、中から楽しげな声が聞こえてきた。
+
+
+#CH（立ち絵なし）
+@bg_door		# ドア前
+
+
+＠みかん,A01830
+「ひーちゃん、これこれ。こっちが正解だよきっと」
+
+＠ひかり,N00346
+「う…？　んぅ～……迷うの～」
+
+＠かりん,P02272
+「さ、どれにする？　どちらか一枚がハズレよ」
+
+かりんが居るのはデフォとして、今日はそこにひかりも混ざっているようだ。
+
+＠樹
+（……ふむ。変な性癖をうつされてないか心配だな）
+
+どんな心配の仕方だ……
+
+
+#SE11　部屋のドアをノック（コンコン）
+@SE11			#SE11　部屋のドアをノック（コンコン）
+
+
+＠樹
+「みかん～、入るぞ」
+
+
+#SE06　部屋のドア開く音（ガチャ）
+#■BG（みかんの部屋）
+@bg_black
+@SE06			#部屋のドア開く音（ガチャ）
+wait		100
+@mikan_middle		# 遠い
+@mikan_shifuku
+@mikan_warai		#笑
+@bg_mikan		# みかんの部屋
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_mikan,0,	200,	0,32
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01831
+「あ、お兄ちゃん」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+#@karin_keno		#嫌悪
+@karin_kanashimi	#哀
+
+
+＠かりん,P02273
+「げ……」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle
+@hikari_shifuku
+@hikari_warai		#笑.png
+wait		500
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00347
+「お父しゃんだ～♪」
+
+＠樹
+「予想通りの反応だな。特にかりん……」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_keno		#嫌悪
+
+
+＠かりん,P02274
+「ふん。いいでしょ、別に」
+
+
+@chara_clear		#保険
+
+
+まぁオレも、今に始まったことじゃないから慣れてきつつあるが……
+
+＠ひかり,N00348
+「……？」
+
+＠樹
+「トランプしてたのか。三人で」
+
+
+@mikan_middle		# 遠い
+@mikan_shifuku
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01832
+「ひーちゃんも入れて、ババ抜きしてたの。お兄ちゃんも一緒にやろう！」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle
+@hikari_shifuku
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00349
+「うんッ、お父しゃんもやろ！　やろう！」
+
+＠樹
+「ん～、そうだな。少し混ざって行こうか」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_bubetsu		#侮蔑
+
+
+＠かりん,P02275
+「残念だけどダメよ。このトランプは三人用だから」
+
+＠樹
+「……お前はどっかの金持ちお坊ちゃまか」
+
+
+@karin_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_karin,0,	200,	0,32
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02276
+「失礼ねッ。誰がキツネ顔よ！」
+
+
+#CH（ひかり表情・困る）
+@chara_clear		#保険
+wait		500
+@hikari_middle
+@hikari_shifuku
+@hikari_komaru		#困.png
+
+
+＠ひかり,N00350
+「…………」
+
+＠ひかり,N00351
+「かりんお姉しゃん、お父しゃんと喧嘩してゆの……？」
+
+＠かりん,P02277
+「え…？」
+
+そんなオレとかりんのやり取りを見て、ひかりが困惑気に尋ねてきた。
+
+＠ひかり,N00352
+「ひーちゃん、喧嘩嫌いなの。かりんお姉しゃん喧嘩中なの……？」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_odoroki		#驚
+
+
+＠かりん,P02278
+「え……えっと、喧嘩って言うか、私が樹のことを嫌いなのよ」
+
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 遠い
+@mikan_shifuku
+@mikan_odoroki		#驚
+
+
+＠みかん,A01833
+「えッ、そうだったの！？」
+
+＠樹
+「……えらく直球で言われるものだ」
+
+＠樹
+「っていうか、みかんは今ごろ気付いたのか……？」
+
+
+@mikan_kanashimi	#哀
+
+
+＠みかん,A01834
+「だ、だってみかん、てっきりかりんちゃん照れてるだけだと思ってたから」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_ikari		#怒
+
+
+＠かりん,P02279
+「て、照れてなんかないっ。私が照れるのは生涯で一人、みかんだけよッ」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle
+@hikari_shifuku
+@hikari_ikari		#怒.png
+
+
+＠ひかり,N00353
+「う～……」
+
+かりんの答えに、ひかりは不満そうに眉を寄せた。
+
+
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00354
+「お父しゃん、優しくてかっこいいの。嫌いになったらメェッなの」
+
+
+layer_movepass_init	l_hikari,0	#演出初期化
+
+
+＠かりん,P02280
+「え、う……。メッて言われても……」
+
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00355
+「メェッなの！　お父しゃんのこと嫌いなかりんお姉しゃん、ひーちゃんも嫌いなのっ」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_kanashimi	#哀
+
+
+＠かりん,P02281
+「うッ……うぅう」
+
+
+@karin_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_karin,0,	200,	16,0
+layer_movepass_add	l_karin,0,	200,	-16,0
+layer_movepass_add	l_karin,0,	200,	16,0
+layer_movepass_add	l_karin,0,	200,	-16,0
+layer_movepass_add	l_karin,0,	100,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02282
+「ひ、卑怯よ樹っ。ひーちゃんにこんなこと言わせるなんてっ」
+
+＠樹
+「オレは何もしてないって。ひかりの意思だ」
+
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 遠い
+@mikan_shifuku
+@mikan_kanashimi	#哀
+
+
+＠みかん,A01835
+「かりんちゃん、みかんも喧嘩は良くないと思うな……」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+#@karin_komikaru_namida	#コミカル涙
+@karin_kanashimi	#哀
+
+
+＠かりん,P02283
+「う、うぅぅ……そんな……なんで私が責められてる構図なの……？」
+
+＠かりん,P02284
+「だって樹が、みかんや私の純潔を奪って……その後もやりたい放題なのに……」
+
+
+@bg_black
+
+
+確かに、こんな風にかりんが責められるのは可哀想だ。
+
+常識で考えるとかりんは被害者。そしてオレが責められる立場なはずだし。
+
+
+#@chara_clear		#保険
+#@bg_black
+#wait		500
+@bg_mikan		# みかんの部屋
+
+
+＠樹
+「ひかり、みかん。かりんがオレを嫌うのは理由があるんだ。だから構わないよ」
+
+
+@hikari_middle
+@hikari_shifuku
+@hikari_ikari2		#怒（口開け）
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00356
+「だって、お父しゃん悪くないもん……。ひーちゃんお父しゃんのこと大しゅきだもんっ」
+
+＠樹
+「何て言えばいいかな……。オレもかりんを傷つけてるんだ。だから―――」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_karin,0,	550,	0,32
+layer_movepass_add	l_karin,0,	550,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02285
+「はぁ……分かった。いいわ。嫌うのを止める」
+
+ひかりを説得しようとするオレより先に、かりんがため息を吐いて折れた。
+
+＠かりん,P02286
+「みかんとひーちゃんに嫌われてまで、樹を責めたい訳じゃないし……」
+
+＠樹
+「え……いいのか？　かりんの怒りは間違ってないんだぞ」
+
+
+@karin_keno		#嫌悪
+
+
+＠かりん,P02287
+「いいのっ、もう！」
+
+
+#@karin_kanashimi	#哀
+#@karin			#普通
+@karin_niko		#にこ
+
+
+＠かりん,P02288
+「それに私も、どこかで区切りをつけないとって思ってたし……」
+
+……それって、今はもう実は怒ってなかったって事か？
+
+
+@karin			#普通
+
+
+＠かりん,P02289
+「だ、だからひーちゃんもみかんも、私のこと嫌いにならないで」
+
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 遠い
+@mikan_shifuku
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01836
+「みかん、かりんちゃんのこと嫌いになんかならないよ。友達だもん」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_kanashimi	#哀
+#SE53　傷つく言葉（グサッ！）
+@SE53			#SE53　傷つく言葉（グサッ！）
+
+
+＠かりん,P02290
+「う、友達……。マイナスにならなかっただけ、感謝しないと」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+
+
+＠ひかり,N00357
+「じゃあ、お父しゃんとかりんお姉しゃん、仲直りーッ♪　ギュッてして、ギュッて」
+
+＠樹
+「ギュ？」
+
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00358
+「うん！　こうしゅるの！」
+
+
+#SE36　勢いよく抱きつく音（バフッ！）
+window_close
+screen_whiteout		100
+wait			100
+#@SE36			#SE36　勢いよく抱きつく音（バフッ！）
+@SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+@bg_white		# 白
+screen_whitein		1
+
+
+嬉しそうに言うと、ひかりはそのままオレの胸に飛び込んできた。
+
+＠ひかり,N00359
+「ぎゅ～ッ♪」
+
+
+@karin_middle
+@karin_shifuku
+@karin_odoroki		#驚
+@bg_mikan		# みかんの部屋
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_karin,0,	200,	0,16
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠かりん,P02291
+「そっ、それを樹とするのっ！？　ここでっ？」
+
+＠ひかり,N00360
+「ひーちゃん、お父しゃんのことしゅきだから出来ゆよ。ね、みかんお姉しゃん」
+
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 遠い
+@mikan_shifuku
+@mikan_yorokobi		#喜
+
+
+＠みかん,A01837
+「うん、突然は無理だけど。お兄ちゃんが良いって言ってくれたら出来るよ、みかんも」
+
+
+window_close
+@chara_clear		#保険
+@SE70			#SE70　衣擦れ音（シュルシュル）
+#CH（ここからひかり、通常立ち絵へ）
+@hikari_middle
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+
+
+＠ひかり,N00361
+「はい。かりんお姉しゃんもぎゅ～ってしてー」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_kanashimi	#哀
+
+
+＠かりん,P02292
+「う……そんな」
+
+＠樹
+「……まぁ待て君達。オレに抱きつくことをバロメーターにするのは止めなさい」
+
+＠樹
+「何か、テストされてるみたいでオレがショックだ」
+
+
+@karin_keno		#嫌悪
+
+
+＠かりん,P02293
+「それはどうでもいいけど……。やっぱり今はダメよ」
+
+＠樹
+「どうでもいいのか」
+
+
+@karin_kanashimi	#哀
+
+
+＠かりん,P02294
+「だってさっき外で遊んでたし、汗掻いてるし……」
+
+＠かりん,P02295
+「それにまだ昼間じゃない。いつもと状況がぜんぜん違って緊張するし……」
+
+＠樹
+「……それだと、ギュッてすること自体は嫌じゃないって聞こえる」
+
+
+@karin_odoroki		#驚
+
+
+＠かりん,P02296
+「しょ、しょうがないでしょッ。ひーちゃんとみかんが言うんだから！」
+
+＠みかん,A01838
+「かりんちゃん、照れると思うけど大丈夫だよ。お兄ちゃんだもん」
+
+
+@karin_kanashimi	#哀
+
+
+＠かりん,P02297
+「うぅっ……楽しく遊んでただけなのに。何でこんなことに……」
+
+
+bgm_stop
+@karin_
+
+
+観念したように、かりんがこちらへ歩み寄ってくる。
+
+
+@karin_large		# 近い
+@karin_shifuku
+@karin_kanashimi	#哀
+
+
+＠かりん,P02298
+「ひーちゃんがしたみたいに、抱きしめるだけだからね」
+
+＠かりん,P02299
+「それ以上は何もしないって約束してよ」
+
+＠樹
+「はは……。大変だな、お互いに」
+
+
+@karin_
+@bgmk03			#BGM K03 : 静かの時のテーマ
+
+
+同意するように、かりんも僅かに相好を崩した。
+
+妙な流れを経て、かりんがオレの胸に顔を埋めてくる。
+
+
+@bg_white		# 白
+#@SE70			#SE70　衣擦れ音（シュルシュル）
+
+
+＠かりん,P02300
+「…………」
+
+＠みかん,A01839
+「わぁ……」
+
+＠ひかり,N00362
+「えへへ～♪　お父しゃんとかりんお姉しゃんも仲直り～♪」
+
+満足そうなひかりの声と、こちらを見つめるみかんのため息が聞こえた。
+
+抱き合うような強い抱擁ではないが、かりんの温もりと、その鼓動はこちらに伝わってくる。
+
+
+@bg_mikan		# みかんの部屋
+
+
+＠樹
+「かりん、もう満足してくれたみたいだぞ。お疲れ……」
+
+＠かりん,P02301
+「…………」
+
+＠樹
+「……かりん？」
+
+＠かりん,P02302
+「ん……うん…」
+
+気弱に頷きはするが、かりんは顔を伏せてすぐには離れない。
+
+……まさか、具合でも悪くなったのか？
+
+＠樹
+「おい、かりん？　どうした」
+
+
+#SE11　部屋のドアをノック（コンコン）
+@SE11			#SE11　部屋のドアをノック（コンコン）
+
+
+声を掛けるのと同時に、部屋のドアがノックされた。
+
+＠樹
+「え…？」
+
+＠かりん,P02303
+「……っ」
+
+
+window_close
+bgm_stop
+#SE06　部屋のドア開く音（ガチャ）
+@SE06			#部屋のドア開く音（ガチャ）
+wait		1000
+@suika_small
+@suika_shifuku
+@suika			#普
+
+
+＠すいか,R00359
+「んしょ……みかんちゃん、この前の―――え？」
+
+
+#SE38　殴る音（バキッ！）
+#EF　画面シェイク
+window_close
+@SE38			#殴る音（バキッ！）
+screen_blackout		100
+wait			100
+@bg_black
+screen_blackin		1
+
+
+＠樹
+「ぐぶぅッ！？」
+
+すいかが入室してきた刹那、かりんからのボディーブローがわき腹に突き刺さった。
+
+＠みかん,A01840
+「うわっ！？　お兄ちゃん！」
+
+＠ひかり,N00363
+「お父しゃんッ！」
+
+＠樹
+「ぐぅッ！　うぉお………こんな至近距離で……」
+
+
+@bgm12			#BGM 12 : メインテーマ
+@suika_small
+@suika_shifuku
+@suika_odoroki		#驚
+@bg_mikan		# みかんの部屋
+
+
+＠すいか,R00360
+「えっ、え？　あの……一体何が」
+
+
+@chara_clear		#保険
+wait		500
+@karin_middle		# 中間
+@karin_shifuku
+@karin_bubetsu		#侮蔑
+
+
+＠かりん,P02304
+「ふふふっ、何でもないわ。樹を殴ろうとしていただけよ」
+
+＠すいか,R00361
+「えっと……。でも今、院長先生とかりんちゃん……」
+
+
+@karin_keno		#嫌悪
+
+
+＠かりん,P02305
+「だ、だから、殴ろうとしていた瞬間よっ。すいかが思ってるような事はぜんぜん無いわ」
+
+＠樹
+「……な、まさか、そんなことを誤魔化すためだけに、こんなパンチ……」
+
+
+#@karin_kanashimi	#哀
+@karin_koufun_n		#興奮ｎ
+
+
+＠かりん,P02306
+「じゃあね、樹。はあ……身体が穢れたから洗わないと」
+
+
+window_close
+@karin_
+wait		1000
+@SE07			#部屋のドア閉まる音（パタン）
+
+
+スタスタと部屋を出て行ってしまった。
+
+怒りか照れか分からないが、頬に赤みを残しながら……
+
+
+@mikan_small
+@mikan_shifuku
+@mikan_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_mikan,0,	200,	0,32
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠みかん,A01841
+「お兄ちゃんっ、大丈夫！？」
+
+
+@suika_small
+@suika_shifuku
+@suika_kanashimi	#哀
+
+
+＠すいか,R00362
+「……あの、もしかして私、何か不味いときに来てしまったんでしょうか」
+
+＠樹
+「そんな事はない……。理不尽だが、誰のせいでも……」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_naki		#泣.png
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00364
+「うぅう～、お父しゃん、死んじゃヤなのぉ～っ」
+
+縁起でもない事を言いながら、本気で泣きそうなひかり。
+
+
+@chara_clear		#保険
+@bg_sky			# 空
+
+
+オレも何でこんな仕打ちを受けたのか分からない。
+
+とりあえず、かりんとの仲は微妙なまま、殴られ損というのは確かなようだった。
+
+
+bgm_stop
+@bg_black
+wait		1000
+
+
+#（スケジュール）
+return
+
+
+
+
+

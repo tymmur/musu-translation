@@ -1,0 +1,9 @@
+label	training_karin
+
+if training_karin_count=0 then gosub	training_karin_01
+if training_karin_count>0 then gosub	training_karin_02
+
+training_karin_count=training_karin_count+1
+
+return
+

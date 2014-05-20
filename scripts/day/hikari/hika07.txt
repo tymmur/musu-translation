@@ -1,0 +1,710 @@
+label	hikari_07
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#ひかりルート６（もう一波乱）
+#発生条件：『ひかりとの新生活イベント』が終了
+#発生時期：上記イベントの１０日後前後の平日（変動性）
+#--------------------------------------------------
+
+
+#■BG（リビング）
+#@bg_living		# リビング
+@bg_gate		# 孤児院前
+@bgm12			#BGM 12 : メインテーマ
+
+
+お昼ご飯も終わり、美雨やひかり達とリビングでくつろいでいた。
+
+みかんとかりん、いちごの三人も、集まっている。
+
+
+@hikari_small
+@hikari_shifuku
+@mikan_small
+@mikan_shifuku
+@karin_small
+@karin_shifuku
+
+@karin			#普通
+@mikan			#普通
+@hikari_yorokobi	#喜.png
+@bg_living		# リビング
+
+
+＠みかん,A01825
+「ひーちゃん、お昼から何して遊ぼっか？」
+
+
+@hikari_warai		#笑.png
+
+
+＠ひかり,N00310
+「んっとねー。お父しゃんとお母しゃんとみんなであしょびたいの！」
+
+
+@karin_kanashimi	#哀
+
+
+＠かりん,P02266
+「美雨はいいけど、樹とねぇ……せっかくのお休みなのに」
+
+＠樹
+「遊ぶ前から疲れるなよ……」
+
+＠樹
+「まぁいい、ひかり、みんなと遊んどいで。美雨は大丈夫？」
+
+
+@chara_clear		#保険
+wait		500
+@miu_small
+@miu_maid
+@miu2			#開_にこ
+
+
+＠美雨,B01648
+「はい。まだ仕事がありますから、外に出かけたりは出来ませんけど」
+
+
+@miu			#閉_にこ
+
+
+＠美雨,B01649
+「ひーちゃん、おうちの中で遊ぶのでもいいかしら？」
+
+
+@chara_clear		#保険
+wait		500
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00311
+「うん！　でもひーちゃん、お父しゃんとも一緒にあしょぶのー」
+
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_yorokobi	#喜
+
+
+＠いちご,O02175
+「そうだよ、パパも一緒に遊ぼうよー」
+
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠ひかり,N00312
+「ね、お父しゃんー♪」
+
+
+@ichigo_warai		#笑
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠いちご,O02176
+「いいでしょ、パパー」
+
+＠樹
+「……ぷちいちごが増えたみたいだ」
+
+
+@chara_clear		#保険
+wait		500
+@miu_small
+@miu_maid
+@miu			#閉_にこ
+
+
+＠美雨,B01650
+「ふふ、人気者ですね」
+
+
+#SE42　施設の呼び鈴
+@SE42			#SE42　孤児院の呼び鈴
+@miu2			#開_にこ
+
+
+＠美雨,B01651
+「あ、ちょっとすみません。どなたかいらしたようです」
+
+
+window_close
+@miu_
+wait		1000
+@SE06			#部屋のドア開く音（ガチャ）
+
+
+呼び鈴を聞いて、美雨が玄関へ出向いていく。
+
+
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+
+
+＠ひかり,N00313
+「ひーちゃんも行くのー♪」
+
+
+@hikari_
+
+
+その後を、嬉しそうにひかりが走ってついていく。
+
+
+@mikan_small
+@mikan_shifuku
+@mikan			#普通
+
+
+＠みかん,A01826
+「誰だろうね、平日のこんな時間に？」
+
+
+@karin_small
+@karin_shifuku
+@karin_bubetsu		#侮蔑
+
+
+＠かりん,P02267
+「樹の来客だったら遊ぶ間もなくなって楽なんだけどね」
+
+
+@chara_clear		#保険
+
+
+＠樹
+「ひでぇな……」
+
+
+#CH（美雨とひかり、来客には立ち絵なし）
+window_close
+@SE30			#SE30　玄関のドアが開く音
+wait		1000
+@SE31			#SE31　玄関のドアが閉まる音
+
+
+＠？？？,L00315
+「おじゃましまーす」
+
+＠？？？,M00333
+「おじゃまします」
+
+かりんに愚痴でも返そうとしたとき、玄関から聞き慣れた声がした。
+
+＠美雨,B01652
+「いらっしゃい、涼海ちゃん、るあちゃん。それに誠司さんも」
+
+＠誠司,D00201
+「おじゃまします美雨さん。いやー忙しいのにすんません、こっちの二人がどうしても遊びに来たい言うもんで」
+
+＠涼海,L00316
+「別に誠司は誘ってないでしょ―――って、あれ？」
+
+＠ひかり,N00314
+「こんにちわ！」
+
+＠るあ,M00334
+「わぁ、知らない子がいる。可愛い～、誰なんですか？」
+
+＠美雨,B01653
+「えっと、この子は今、ここで預かっている子で――」
+
+＠ひかり,N00315
+「ねぇお母しゃん、このお姉しゃん達だぁれ？」
+
+＠るあ,M00335
+「え…？」
+
+＠涼海,L00317
+「へ……？　お、お母さん…？」
+
+＠誠司,D00202
+「………ぉ」
+
+＠誠司,D00203
+「お母さん……って、美雨さんが……？」
+
+……あれ。何か向こう、ややこしい事になってるんじゃないか？
+
+＠ひかり,N00316
+「お母しゃんは、ひーちゃんのお母しゃんなの。中にお父しゃんも居るの」
+
+その瞬間、ものすごい足音が廊下を走ってきた。
+
+
+#CH（ここから立ち絵あり）
+window_close
+@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+@seiji_small
+@seiji_shifuku
+@seiji_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+#layer_movepass_add	l_seiji,0,	200,	0,16
+#layer_movepass_add	l_seiji,0,	200,	0,0
+#layer_movepass_add	l_seiji,0,	200,	0,16
+#layer_movepass_add	l_seiji,0,	200,	0,0
+#layer_movepass_add	l_seiji,0,	200,	0,16
+#layer_movepass_add	l_seiji,0,	200,	0,0
+#layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+#layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠誠司,D00204
+「ど、どこの誰やーーッ！　美雨さんの尊い畑に子種を実らせた奴はーーッ！！」
+
+＠樹
+「分かりにくいっての」
+
+
+@seiji_odoroki		#驚
+
+
+＠誠司,D00205
+「ハッ、樹！？　まさかッ……！！」
+
+オレと目が合って硬直する誠司。
+
+
+@seiji_
+
+
+その後ろからすぐ、同じく驚いて駆けつけてくる涼海とるあ。
+
+
+window_close
+@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+#SE05　物にぶつかる音（ガンッ！）
+#@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
+se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
+screen_flash		500
+screen_vibration	500,16,16,16
+
+
+＠ひかり,N00317
+「お父しゃ――ぴぎゅぅッ！！」
+
+それと壁に衝突するひかり。
+
+
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+@rua_odoroki		#驚
+#@suzumi_odoroki		#驚
+@suzumi			#普
+
+
+＠涼海,L00318
+「あ、あれ……。中に居る男の人って、樹さんだけ……ですか？」
+
+＠るあ,M00336
+「え、じゃあ、この子ってやっぱり……樹先生と美雨さんの…」
+
+＠ひかり,N00318
+「うぅ～……お父しゃんー、おでこぶちゅけたのぉ～～……」
+
+おでこを擦りながら、ひかりがオレの方へ歩いてきた。
+
+
+@chara_clear		#保険
+wait		500
+@seiji_small
+@seiji_shifuku
+@seiji_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_seiji,0,	200,	0,16
+layer_movepass_add	l_seiji,0,	200,	0,0
+layer_movepass_add	l_seiji,0,	200,	0,16
+layer_movepass_add	l_seiji,0,	200,	0,0
+layer_movepass_add	l_seiji,0,	200,	0,16
+layer_movepass_add	l_seiji,0,	200,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠誠司,D00206
+「やっぱりお前かッ！　殺したるーーー！！」
+
+
+@seiji_
+
+
+＠樹
+「ちょッ！？　こら、まずは話を聞けッ！」
+
+＠誠司,D00207
+「言い訳無用！　この光源氏がーー！！」
+
+
+window_close
+#SE41　暴れる音（ドタンッバタンッ！）
+#EF　画面シェイク
+#CH（立ち絵なし）
+@SE41			#SE41　暴れる音（ドタンッバタンッ！）
+
+
+@rua_small
+@rua_shifuku
+@rua_odoroki		#驚
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_rua,0,	200,	0,32
+layer_movepass_add	l_rua,0,	200,	0,0
+layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_rua,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠るあ,M00337
+「きゃあっ！？　お、落ち着いてくださいっ、誠司先生」
+
+
+@mikan_small
+@mikan_shifuku
+@mikan_odoroki		#驚
+
+
+＠みかん,A01827
+「わぁっ！？　なにっ、急になに～！？」
+
+
+@chara_clear		#保険
+
+
+＠誠司,D00208
+「うぁああ～～っ！　美雨さんと添い遂げたら、お前と穴兄弟になるやないか～～！」
+
+
+window_close
+@SE41			#SE41　暴れる音（ドタンッバタンッ！）
+
+
+＠樹
+「するの確定で暴れるなッ。そんなフラグはない！」
+
+
+@miu_small
+@miu_maid
+@miu_komaru		#開_困
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_miu,0,	200,	0,16
+layer_movepass_add	l_miu,0,	200,	0,0
+layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_miu,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠美雨,B01654
+「きゃっ！　ど、どうされたんですか、誠司さんっ？」
+
+後からやってきた美雨は理由が分からず慌てていた。
+
+
+#■BG（黒）
+@bg_black
+wait		1000
+
+
+………
+
+……………
+
+…………………
+
+
+#■BG（リビング）
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+@seiji_small
+@seiji_shifuku
+
+@suzumi			#普
+@rua			#普
+@seiji			#普
+@bg_living		# リビング
+
+
+＠樹
+「――と、言うわけだ。理解したか」
+
+＠誠司,D00209
+「ほほぉ、預かってる子ねぇ」
+
+しばらくして、オレはようやく落ち着いた誠司に事情を説明できた。
+
+
+@suzumi_niko		#にこ
+
+
+＠涼海,L00319
+「樹さんと美雨さんの子供じゃなかったんだ……」
+
+
+@seiji_niko		#にこ
+
+
+＠誠司,D00210
+「ふっ。命拾いしたな」
+
+＠樹
+「捨ててたまるか。こんなことで」
+
+＠るあ,M00338
+「でも、いきなりだったからビックリしました」
+
+
+@chara_clear		#保険
+
+
+ひかりは今、美雨がキッチンの方へ連れて行って、席を外している。
+
+
+@karin_small
+@karin_shifuku
+@karin_bubetsu		#侮蔑
+
+
+＠かりん,P02268
+「樹の日ごろの行いが悪いから誤解されるのよ」
+
+
+@karin			#普通
+
+
+＠かりん,P02269
+「まぁ誤解じゃなくなるのも、時間の問題なのかもしれないけど」
+
+＠樹
+「……不安になるようなことを言わないでくれ」
+
+
+@chara_clear		#保険
+wait		500
+#@suzumi_small
+#@suzumi_shifuku
+#@rua_small
+#@rua_shifuku
+@seiji_small
+@seiji_shifuku
+
+#@suzumi_niko		#にこ
+#@rua			#普
+@seiji_niko		#にこ
+
+
+＠誠司,D00211
+「ふふふ……まぁこれで遠慮なく美雨さんにアタックできるわけや」
+
+＠誠司,D00212
+「美雨さんの畑で、オレの子種を育ててもらうんや！！」
+
+
+#--------------------------------------------------
+#＠涼海（//本編では音声を双子重ねて再生させるので、,L00320
+#『涼海＆るあ』
+#と表記）
+#「そんなことにやる気を出さないでよッ、バカ！」（//下のるあの台詞と重ねて発音します）
+
+#＠るあ,M00339
+#「そんなことにやる気を出さないでくださいッ」
+#（//上の涼海の台詞と重ねて発音します）
+
+
+#@suzumi_ikari		#怒
+#@rua_ikari		#怒
+
+
+＠涼海＆るあ,Z90006
+「そんなことにやる気を出さないでよッ、バカ！／くださいッ」
+
+#--------------------------------------------------
+
+
+#SE38　殴る音（バキッ！）
+window_close
+#SE38　殴る音（バキッ！）
+@SE38			#殴る音（バキッ！）
+screen_blackout		100
+wait			100
+@bg_black
+screen_blackin		1
+
+
+＠誠司,D00213
+「ぐふぁッ！！」
+
+＠樹
+「……なかなかいいパンチだ、るあちゃんも」
+
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_yorokobi	#喜
+@bg_living		# リビング
+
+
+＠いちご,O02177
+「お話が終わったんだったら、ひーちゃんと美雨も呼んで遊ぼ！」
+
+
+@chara_clear		#保険
+wait		500
+@suzumi_small
+@suzumi_shifuku
+@suzumi_niko		#にこ
+
+
+＠涼海,L00321
+「そだねっ。ゴミ捨ててくるから、ちょっと待ってて」
+
+＠みかん,A01828
+「ゴミなんだ、誠司先生……」
+
+＠誠司,D00213a
+（……って言うのは建て前で。本当は人の家で、こっそり誠司とエッチしてみたいかな）
+
+
+@suzumi_comical_ikari	#コミカル怒
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_suzumi,0,	200,	0,32
+layer_movepass_add	l_suzumi,0,	200,	0,0
+layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+
+＠涼海,L00322
+「勝手にでたらめなナレーション入れないでッ！！」
+
+
+@bg_black
+@SE36			#SE36　勢いよく抱きつく音（バフッ！）
+
+
+＠誠司,D00214
+「は、離せ～～後生や……美雨さ～～ん……！」
+
+
+#window_close
+#@SE70			#SE70　衣擦れ音（シュルシュル）
+
+
+ズリズリと引きずられていった。
+
+
+@karin_small
+@karin_shifuku
+@karin_kanashimi	#哀
+@bg_living		# リビング
+
+
+＠かりん,P02270
+「ウチの樹もあれくらいユーモアがあったら、実害も無さそうなのに」
+
+＠樹
+「似たようなもんだろ」
+
+
+@chara_clear		#保険
+wait		500
+@rua_small
+@rua_shifuku
+@rua			#普
+
+
+＠るあ,M00340
+「害じゃないけど、誠司先生もする時はしてるよ……その、いろいろ」
+
+
+@chara_clear		#保険
+wait		500
+@ichigo_small
+@ichigo_shifuku
+@mikan_small
+@mikan_shifuku
+
+@mikan			#普通
+@ichigo_yorokobi	#喜
+
+
+＠いちご,O02178
+「二人はお尻にしてるんだよね。誠司先生が」
+
+＠みかん,A01829
+「……お尻」
+
+
+@chara_clear		#保険
+wait		500
+@karin_small
+@karin_shifuku
+@karin_kanashimi	#哀
+
+
+＠かりん,P02271
+「っく……。何で私の周りには変態しかいないのッ……」
+
+＠樹
+「…………」
+
+本気で悔しそうだったが、ちょっと反論し切れなかった。
+
+
+bgm_stop
+@bg_black
+wait		1000
+
+
+#（スケジュール）
+return
+
+
+
+
+

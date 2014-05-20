@@ -1,0 +1,101 @@
+## TRPGÇ¢ÇøÇ≤óßÇøê›íË #########################################################
+chara_folder	l_trpg_ichigo,"chara"
+chara_name	l_trpg_ichigo,"TRPGÇ¢ÇøÇ≤"
+@trpg_ichigo_small
+@trpg_ichigo_shifuku
+
+## è¡Ç∑ #######################################################################
+macro	trpg_ichigo_
+	layer_fadeout	l_trpg_ichigo
+	trpg_ichigo_flag=0
+endmacro
+
+## ãóó£ #######################################################################
+# âìÇ¢
+macro	trpg_ichigo_small
+	chara_size	l_trpg_ichigo,"è¨",0,-32
+endm
+
+# íÜä‘
+macro	trpg_ichigo_middle
+	chara_size	l_trpg_ichigo,"íÜ",0,6
+endm
+
+# ãﬂÇ¢
+macro	trpg_ichigo_large
+	chara_size	l_trpg_ichigo,"ëÂ",0,-78
+endm
+
+## ïûëï ######################################################################
+macro	trpg_ichigo_shifuku
+	chara_clothes	l_trpg_ichigo,"éÑïû"
+endm
+
+macro	trpg_ichigo_motion_default
+	layer_movepass_add	l_trpg_ichigo,0,	0,	0,0
+	layer_movepass_add	l_trpg_ichigo,0,	500,	0,4
+	layer_movepass_add	l_trpg_ichigo,0,	500,	0,0
+	layer_movepass_add	l_trpg_ichigo,0,	500,	0,-4
+	layer_movepass_add	l_trpg_ichigo,0,	500,	0,0
+	layer_movepass_type	l_trpg_ichigo,0,	PASSTYPE_TCB
+	layer_movepass_play	l_trpg_ichigo,0,	play_loop
+endm
+
+macro	trpg_ichigo_in
+	if trpg_ichigo_flag=0 then screen_effect_stardust	600,0,200,200
+	if trpg_ichigo_flag=0 then layer_scale	l_trpg_ichigo,500,-99,400,0,0,PASSTYPE_BEZIER_A
+	if trpg_ichigo_flag=0 then wait	500
+	trpg_ichigo_flag=1
+endm
+
+## ï\èÓ ######################################################################
+
+#- ïÅí  ----------------------------------------------------------------------
+macro	trpg_ichigo
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\ïÅ.png",540,-64
+	@trpg_ichigo_in
+	@trpg_ichigo_motion_default
+endm
+#- ì{ÇË ----------------------------------------------------------------------
+macro	trpg_ichigo_ikari
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\ì{.png",540,-64
+	@trpg_ichigo_in
+	@trpg_ichigo_motion_default
+endm
+#- è∆ÇÍ ----------------------------------------------------------------------
+macro	trpg_ichigo_tere
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\è∆.png",540,-64
+	@trpg_ichigo_in
+	@trpg_ichigo_motion_default
+endm
+#- ã¡Ç´ ----------------------------------------------------------------------
+macro	trpg_ichigo_odoroki
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\ã¡.png",540,-64
+	@trpg_ichigo_in
+	@trpg_ichigo_motion_default
+endm
+#- à£ÇµÇ› --------------------------------------------------------------------
+macro	trpg_ichigo_kanashimi
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\à£.png",540,-64
+	@trpg_ichigo_in
+	@trpg_ichigo_motion_default
+endm
+#- äÏÇ— --------------------------------------------------------------------
+macro	trpg_ichigo_yorokobi
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\äÏ.png",540,-64
+	@trpg_ichigo_in
+	@trpg_ichigo_motion_default
+endm
+macro	trpg_ichigo_warai
+	@trpg_ichigo_yorokobi
+endm
+#- ïKéE --------------------------------------------------------------------
+macro	trpg_ichigo_special
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\ï¬.png",540,-64
+	@trpg_ichigo_motion_default
+endm
+#- Ç‚ÇÁÇÍ ------------------------------------------------------------------
+macro	trpg_ichigo_damage
+	chara	l_trpg_ichigo,"chara\trpgÇ¢ÇøÇ≤\è¨\éÑïû\Ç‚ÇÁÇÍ.png",540,-64
+	@trpg_ichigo_motion_default
+endm
