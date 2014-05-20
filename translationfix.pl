@@ -481,7 +481,15 @@ sub handleFile
 			next;
 		}
 		
-		if ($dialogue_added == 0)
+		if ($dialogue_added == 1)
+		{
+			if (getType($japanese[$japanese_index]) eq "KANJI" and $type eq "TEXT")
+			{
+				# new dialogue needs to start with a kanji
+				$add_kanji_to_text = 1;
+			}
+		}
+		else
 		{
 			my $jap_type = getNextJapType();
 			
