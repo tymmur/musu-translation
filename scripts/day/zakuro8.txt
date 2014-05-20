@@ -12,7 +12,9 @@ label	zakuro_08
 @bgm12			#BGM 12 : メインテーマ
 
 
-その日、商店街でざくろとばったり出会った。
+#その日、商店街でざくろとばったり出会った。
+#SCRIPT ADD KANJI
+Ｔhat day, I unexpectedly bet Zakuro in the shopping district.
 
 
 #@zakuro_small
@@ -21,11 +23,15 @@ label	zakuro_08
 @zakuro			#普
 
 
-＠ざくろ,Q01485
-「あ、つっちー見つけた」
+#＠ざくろ,Q01485
+#「あ、つっちー見つけた」
+＠Zakuro,Q01485
+「Ah, found you Tsuchii.」
 
-＠樹
-「ざくろ、一人で買い物か？」
+#＠樹
+#「ざくろ、一人で買い物か？」
+＠Itsuki
+「Zakuro, were you shopping by yourself?」
 
 
 #///////////////////////////////////////////////////////
@@ -37,35 +43,51 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ざくろ,Q01486
-「そう、ちょっと空き時間ができたから」
+#＠ざくろ,Q01486
+#「そう、ちょっと空き時間ができたから」
+＠Zakuro,Q01486
+「Yup, I had some free time.」
 
-そう言ったざくろは、大きな紙袋を抱えている。
+#そう言ったざくろは、大きな紙袋を抱えている。
+#SCRIPT ADD KANJI
+Ｚakuro said that and held a large paper bag under her arm.
 
-＠樹
-「何をそんなに買ったんだ？　……って聞くまでもないか。また青ノリか」
+#＠樹
+#「何をそんなに買ったんだ？　……って聞くまでもないか。また青ノリか」
+＠Itsuki
+「What did you buy that's so big? ......Wait, I don't need to ask. Is it aonori again?」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01487
-「うん。青ノリ分が不足したから、大量補給」
+#＠ざくろ,Q01487
+#「うん。青ノリ分が不足したから、大量補給」
+＠Zakuro,Q01487
+「Yup. There was not enough aonori, so I bought a large supply.」
 
-＠樹
-「しかし多いな」
+#＠樹
+#「しかし多いな」
+＠Itsuki
+「But that's a lot.」
 
 
 @zakuro_niko		#にこ
 
 
-＠ざくろ,Q01488
-「いつも買ってるのの他に、今日はちょっと吉野川産のと、四万十川産のも奮発してみた。すごい楽しみ」
+#＠ざくろ,Q01488
+#「いつも買ってるのの他に、今日はちょっと吉野川産のと、四万十川産のも奮発してみた。すごい楽しみ」
+＠Zakuro,Q01488
+「It's different from what I usually buy. Today I tried splurging on buying Yoshinokawa and Shimantogawa ones. I'm looking forward to it.」 *(note, check with the audio if the names are right)
 
-袋をのぞき込んでニコニコしている。
+#袋をのぞき込んでニコニコしている。
+#SCRIPT ADD KANJI
+Ｓhe peeked inside her bag and smiled.
 
-＠樹
-「へえ、青ノリにどこそこ産なんてあるんだ」
+#＠樹
+#「へえ、青ノリにどこそこ産なんてあるんだ」
+＠Itsuki
+「Ehh, there are aonori from different places?」
 
 
 se_bg_stop
@@ -73,20 +95,26 @@ bgm_stop
 @zakuro_iya		#嫌
 
 
-＠ざくろ,Q01489
-「つっちー……」
+#＠ざくろ,Q01489
+#「つっちー……」
+＠Zakuro,Q01489
+「Tsuchii.....」
 
-何気なくついた言葉に、ざくろは驚愕と軽蔑が入り交じったような表情を浮かべた。
+#何気なくついた言葉に、ざくろは驚愕と軽蔑が入り交じったような表情を浮かべた。
+#SCRIPT ADD KANJI
+Ｚakuro made an expression with surprise and scorn mixed to those words I casually said.
 
-＠樹
+＠Itsuki
 「あ……ゴメン。そりゃあるよな、どこそこ産くらい」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01490
-「あるに決まってる。つっちー、不勉強すぎ」
+#＠ざくろ,Q01490
+#「あるに決まってる。つっちー、不勉強すぎ」
+＠Zakuro,Q01490
+「It's obvious there are. Tsuchii, you're too neglective of these things.」
 
 
 @zakuro			#普
@@ -94,26 +122,36 @@ bgm_stop
 wait		1000
 
 
-＠ざくろ,Q01491
-「青ノリには１級から５級まであるの。同じ河でとれた一番いいのが１級。でも、そもそも河ごとに味も匂いも食感も違ってる」
+#＠ざくろ,Q01491
+#「青ノリには１級から５級まであるの。同じ河でとれた一番いいのが１級。でも、そもそも河ごとに味も匂いも食感も違ってる」
+＠Zakuro,Q01491
+「Aonori has levels 1-5. Level 1 is taken from the same river and tastes the best. But from different rivers, the taste, smell, and texture are different.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01492
-「全国数ある青ノリの中でも、四万十川の１級、『すじあおのり』が最高だってことは、青ノリ好きには常識」
+#＠ざくろ,Q01492
+#「全国数ある青ノリの中でも、四万十川の１級、『すじあおのり』が最高だってことは、青ノリ好きには常識」
+＠Zakuro,Q01492
+「There are many aonoris throughout the country, but it is common sense to those who like aonori that Shimantogawa's level 1 "Suji Aonori" is the best.」
 
 
 @zakuro_niko		#にこ
 
 
-＠ざくろ,Q01493
-「宝石みたいな緑で、絹糸のように細くて、口の中でさらりと溶けて味はもちろん、その香りといったら、あぁ、素敵すぎる、最高」
+#＠ざくろ,Q01493
+#「宝石みたいな緑で、絹糸のように細くて、口の中でさらりと溶けて味はもちろん、その香りといったら、あぁ、素敵すぎる、最高」
+＠Zakuro,Q01493
+「Green like a jewel, thin like a silk thread, that flavor that melts immediately in your mouth, and that scent, aah, it's too lovely, it's the best.」
 
-道の真ん中でうっとりと目を細めるざくろ。
+#道の真ん中でうっとりと目を細めるざくろ。
+#SCRIPT ADD KANJI
+Ｚakuro smiles absentmindedly in the middle of the road.
 
-このまま歌でも歌い始めそうだ。
+#このまま歌でも歌い始めそうだ。
+#SCRIPT ADD KANJI
+Ｌike this it seems like she is about to start singing or something.
 
 
 window_close
@@ -134,22 +172,28 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ざくろ,Q01494
-「諸君、私は青ノリが好き。諸君、私は青ノリが大好き」
+#＠ざくろ,Q01494
+#「諸君、私は青ノリが好き。諸君、私は青ノリが大好き」
+＠Zakuro,Q01494
+「Ladies and Gentlemen, I like aonori. Ladies and Gentlemen, I love aonori.」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01495
-「すじあおのりが好き、ひらあおのりが好き、ぼうあおのりが好き、うすばあおのりが好き、あなあおさが好き、おおあおさが好き」
+#＠ざくろ,Q01495
+#「すじあおのりが好き、ひらあおのりが好き、ぼうあおのりが好き、うすばあおのりが好き、あなあおさが好き、おおあおさが好き」
+＠Zakuro,Q01495
+「I like Suji Aonori, I like Hira Aonori, I like Bou Aonori, I like Usuba Aonori, I like Ana Aonori, I like Oo Aonori.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01496
-「ご飯で、焼き肉で、お刺身で、卵焼きで、カツ丼で、天ぷらで、肉じゃがで、焼き魚で、お好み焼きで、焼きそばで」
+#＠ざくろ,Q01496
+#「ご飯で、焼き肉で、お刺身で、卵焼きで、カツ丼で、天ぷらで、肉じゃがで、焼き魚で、お好み焼きで、焼きそばで」
+＠Zakuro,Q01496
+「On rice, on yakiniku, on omelet, on katsudon, on tempura, on nikujaga, on yakizakana, on okonomiyaki, on yakisoba.」
 
 
 #注：ちょっと試しにやってみた
@@ -158,20 +202,28 @@ layer_movepass_play	l_zakuro,0,play_once
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠ざくろ,Q01497
-「この地上で振りかけられる、ありとあらゆる青ノリが大好き」
+#＠ざくろ,Q01497
+#「この地上で振りかけられる、ありとあらゆる青ノリが大好き」
+＠Zakuro,Q01497
+「I love every single aonori sprinkled on this earth.」
 
-＠樹
-「ちょ、ちょ、ちょっと待て待て、ざくろ！」
+#＠樹
+#「ちょ、ちょ、ちょっと待て待て、ざくろ！」
+＠Itsuki
+「Wa, wai, wait wait wait, Zakuro!」
 
 
 bgm_stop
 @bg_black
 
 
-歌どころか演説を始めたざくろを慌てて制止する。
+#歌どころか演説を始めたざくろを慌てて制止する。
+#SCRIPT ADD KANJI
+Ｔhe song In a panic, I try to silence Zakuro, whose song was more like a speech.
 
-どこの少佐だ、お前は。
+#どこの少佐だ、お前は。
+#SCRIPT ADD KANJI
+Ｗhat lieutenant commander are you?
 
 
 @zakuro_middle		# 中間
@@ -180,203 +232,302 @@ bgm_stop
 @bg_syoutengai		# 商店街
 
 
-＠ざくろ,Q01498
-「なに？」
+#＠ざくろ,Q01498
+#「なに？」
+＠Zakuro,Q01498
+「What?」
 
 
 @bgm12			#BGM 12 : メインテーマ
 
 
-人目を気にした風もなく、平然とこちらを見返すざくろ。
+#人目を気にした風もなく、平然とこちらを見返すざくろ。
+#SCRIPT ADD KANJI
+Ｗithout even minding other people's eyes, Zakuro calmly looked back at me.
 
-いきなり素に戻るか。
+#いきなり素に戻るか。
+#SCRIPT ADD KANJI
+Ｓhe suddenly returned back to normal.
 
-＠樹
-「い、いや、その、なんだ……今日はその四万十川産の最高級品が手に入ったんだろ。夕食が楽しみだな」
+#＠樹
+#「い、いや、その、なんだ……今日はその四万十川産の最高級品が手に入ったんだろ。夕食が楽しみだな」
+＠Itsuki
+「N, no, well, uh, ......today you got those Shimantogawa high quality products. I'm looking forward to dinner.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01499
-「うん、でもこっちは『良いことがあった時』用にちょっと熟成させるつもり」
+#＠ざくろ,Q01499
+#「うん、でもこっちは『良いことがあった時』用にちょっと熟成させるつもり」
+＠Zakuro,Q01499
+「Yeah, but I was planning to let them ripen for "when something good happens".」
 
-＠樹
-「熟成？」
+#＠樹
+#「熟成？」
+＠Itsuki
+「Ripen?」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01500
-「すぐに食べたいのは吉野川の方。食事よりは気分転換向きだけど」
+#＠ざくろ,Q01500
+#「すぐに食べたいのは吉野川の方。食事よりは気分転換向きだけど」
+＠Zakuro,Q01500
+「The ones I want to eat right away are the Yoshinokawa ones. Rather than for dinner, they're for a change of pace.」
 
-＠樹
-「はぁ、気分転換……？」
+#＠樹
+#「はぁ、気分転換……？」
+＠Itsuki
+「Huh, change of pace......?」
 
 
 @zakuro_iya		#嫌
 
 
-＠ざくろ,Q01501
-「吉野川の『ぼうあおのり』は、幅広で口溶けは今ひとつなんだけど、その分、滋味に溢れてるわ」
+#＠ざくろ,Q01501
+#「吉野川の『ぼうあおのり』は、幅広で口溶けは今ひとつなんだけど、その分、滋味に溢れてるわ」
+＠Zakuro,Q01501
+「Yoshinokawa's "Bou Aonori" is wide and melts in your mouth but I only have one. But that one is overflowing with nutrition.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01502
-「口の中でじっくり噛んでると、じわ～～っと香りが鼻に抜けていって、気持ちが落ちつくの」
+#＠ざくろ,Q01502
+#「口の中でじっくり噛んでると、じわ～～っと香りが鼻に抜けていって、気持ちが落ちつくの」
+＠Zakuro,Q01502
+「When you carefully chew it in your mouth, the scent leaves your nose with a "jiwa~~~" and you calm down.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01503
-「ああ、青ノリ、青ノリ、あなたはどうして青ノリなの？　それは青ノリだから」
+#＠ざくろ,Q01503
+#「ああ、青ノリ、青ノリ、あなたはどうして青ノリなの？　それは青ノリだから」
+＠Zakuro,Q01503
+「Aah, aonori, aonori, why are you aonori? That is because that is aonori.」
 
-＠樹
-「そ、そうか……とにかく良い物が手に入って良かったな」
+#＠樹
+#「そ、そうか……とにかく良い物が手に入って良かったな」
+＠Itsuki
+「Y, yeah...... Anyways, it's good that you got something good.」
 
-また語り出しそうなので、口を挟むと、
+#また語り出しそうなので、口を挟むと、
+#SCRIPT ADD KANJI
+Ｓhe looked like she was about to start talking like that again so I interrupted.
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01504
-「つっちーも食べたい？」
+#＠ざくろ,Q01504
+#「つっちーも食べたい？」
+＠Zakuro,Q01504
+「Do you want to eat them too Tsuchii?」
 
-＠樹
-「そりゃまあ、その四万十川の最高級品か？　それにはちょっと興味あるな」
+#＠樹
+#「そりゃまあ、その四万十川の最高級品か？　それにはちょっと興味あるな」
+＠Itsuki
+「Well, you mean those high quality Shimantogawa products? I'm kind of interested in that.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01505
-「それは人として当然。でも、すぐには駄目」
+#＠ざくろ,Q01505
+#「それは人として当然。でも、すぐには駄目」
+＠Zakuro,Q01505
+「That's only natural for people to do that. But, you can't eat it right away.」
 
-＠樹
-「分かってるよ」
+#＠樹
+#「分かってるよ」
+＠Itsuki
+「I know.」
 
 
 @zakuro_niko		#にこ
 
 
-＠ざくろ,Q01506
-「そうね、つっちーが私をちゃんとイカせられたら、一口だけ食べさせてあげる。口移しで」
+#＠ざくろ,Q01506
+#「そうね、つっちーが私をちゃんとイカせられたら、一口だけ食べさせてあげる。口移しで」
+＠Zakuro,Q01506
+「That's right. If Tsucchii makes me come properly, I'll feed you one bite. By mouth to mouth feeding.」
 
-＠樹
-「それは……なかなかにハードルが高いな」
+#＠樹
+#「それは……なかなかにハードルが高いな」
+＠Itsuki
+「That's kind of......a high hurdle.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01507
-「下の口移しの方がいいの？」
+#＠ざくろ,Q01507
+#「下の口移しの方がいいの？」
+＠Zakuro,Q01507
+「Would lower mouth to mouth feeding be better?」
 
-＠樹
-「そっちかよ！　大体、下の口移しってどんな食べさせ方だ。美味そうな気がしないぞ」
+#＠樹
+#「そっちかよ！　大体、下の口移しってどんな食べさせ方だ。美味そうな気がしないぞ」
+＠Itsuki
+「As if! Anyways, what kind of way of eating is lower mouth to mouth feeding? It doesn't sound good.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01508
-「そう。残念」
+#＠ざくろ,Q01508
+#「そう。残念」
+＠Zakuro,Q01508
+「Yeah. Too bad.」
 
-どこまで冗談でどこまで本気なのか、相変わらず分かりにくい顔をしている。
+#どこまで冗談でどこまで本気なのか、相変わらず分かりにくい顔をしている。
+#SCRIPT ADD KANJI
+Ａs usual, her expression was too hard to tell how serious she was.
 
-＠樹
-「さて、他に寄るところがなければ帰ろう。その荷物持ってやるよ」
+#＠樹
+#「さて、他に寄るところがなければ帰ろう。その荷物持ってやるよ」
+＠Itsuki
+「Well if there's no other place you want to visit, let's go home. I'll carry that bag for you.」
 
 
 @zakuro_niko		#にこ
 
 
-＠ざくろ,Q01509
-「いい。青ノリを持ってるだけで幸せ」
+#＠ざくろ,Q01509
+#「いい。青ノリを持ってるだけで幸せ」
+＠Zakuro,Q01509
+「I'm okay. I'm happy just by holding aonori.」
 
-＠樹
-「はは、そうか……」
+#＠樹
+#「はは、そうか……」
+＠Itsuki
+「Haha, I see......」
 
 
 bgm_stop
 @bg_black
 
 
-笑いながら家路につくオレとざくろ。
+#笑いながら家路につくオレとざくろ。
+#SCRIPT ADD KANJI
+Ｚakuro and I go home while laughing.
 
-と、その横を誰かがパタパタとかけていく。
+#と、その横を誰かがパタパタとかけていく。
+#SCRIPT ADD KANJI
+Ａnd, someone was running beside us.
 
 
 @bg_jyuutakugai		# 住宅街
 @bgm17			#BGM 17 : のんびりのテーマ
 
 
-＠女の子,V22006
-「ママぁ～～～～～、まってぇ～～～～～」
+#＠女の子,V22006
+#「ママぁ～～～～～、まってぇ～～～～～」
+＠Girl,V22006
+「Mamaa~~~~~, waiiit~~~~~」
 
-小さな女の子だ。
+#小さな女の子だ。
+#SCRIPT ADD KANJI
+Ｉt was a small girl.
 
-＠母親,V21011
-「めぐ、フラフラしてないで、早く来なさい」
+#＠母親,V21011
+#「めぐ、フラフラしてないで、早く来なさい」
+＠Mother,V21011
+「Megu, don't walk unsteadily. Hurry up and come.」
 
-向こうにいるのはお母さんだろう。
+#向こうにいるのはお母さんだろう。
+#SCRIPT ADD KANJI
+Ｔhe one on the other side must be the mother.
 
-＠女の子,V22007
-「ままぁ……ふあっ！」
+#＠女の子,V22007
+#「ままぁ……ふあっ！」
+＠Girl,V22007
+「Mamaa...... Fuah!」
 
 
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
 
-急いでいた女の子は足をもつれさせて、べちゃっとかなり盛大に転んでしまった。
+#急いでいた女の子は足をもつれさせて、べちゃっとかなり盛大に転んでしまった。
+#SCRIPT ADD KANJI
+Ｔhe girl's leg twists as she hurries, and she falls quite harshly.
 
-＠母親,V21012
-「あっ……」
+#＠母親,V21012
+#「あっ……」
+＠Mother,V21012
+「Ah......」
 
-＠女の子,V22008
-「ふぁぁ、うわぁぁあんんっ、ママ、ママぁぁ～～～～、おっき～～～～」
+#＠女の子,V22008
+#「ふぁぁ、うわぁぁあんんっ、ママ、ママぁぁ～～～～、おっき～～～～」
+＠Girl,V22008
+「Fuaaa, uwaaaaannn, Mama, Mamaaaa~~~~, okki(??)~~~~」
 
-＠母親,V21013
-「おっきならもうできるでしょ。一人でちゃんと立ちなさい、めぐ」
+#＠母親,V21013
+#「おっきならもうできるでしょ。一人でちゃんと立ちなさい、めぐ」
+＠Mother,V21013
+「If you're okki(?? ookii?) then you can do it. Stand up by yourself, Megu.」
 
-女の子が転んだ瞬間にはハッとした顔をしたお母さん。
+#女の子が転んだ瞬間にはハッとした顔をしたお母さん。
+#SCRIPT ADD KANJI
+Ｔhe mother was startled when the girl fell down.
 
-が、子供がわんわん泣き出してからは、逆にちょっと怖い顔になって、子供が自分で立つのをじっと待ってる。
+#が、子供がわんわん泣き出してからは、逆にちょっと怖い顔になって、子供が自分で立つのをじっと待ってる。
+#SCRIPT ADD KANJI
+Ｂut, when the child started crying loudly, she made a kind of angry face opposite of before, and waited for the child to stand up on her own.
 
-＠女の子,V22009
-「ふえぐぅ、うぅ……うぐっ……ふえ、ん……ママぁ……ママァ……」
+#＠女の子,V22009
+#「ふえぐぅ、うぅ……うぐっ……ふえ、ん……ママぁ……ママァ……」
+＠Girl,V22009
+「Fueguu, uu...... ugu...... fue, n...... Mamaa...... Mamaaa......」
 
-女の子はゆっくりと立ち上がると、涙で顔をぐずぐずにしたままお母さんの所までいって、しがみついた。
+#女の子はゆっくりと立ち上がると、涙で顔をぐずぐずにしたままお母さんの所までいって、しがみついた。
+#SCRIPT ADD KANJI
+Ｔhe girl slowly stands up, and with her crying face went to her mother, and clung to her.
 
-＠母親,V21014
-「まったく、きちんとしなさい。めぐももうすぐお姉ちゃんになるんだから」
+#＠母親,V21014
+#「まったく、きちんとしなさい。めぐももうすぐお姉ちゃんになるんだから」
+＠Mother,V21014
+「Ugh, act properly. You will soon become an older sister, Megu.」
 
-お母さんは口ではそう言いつつ、取り出したハンカチで娘の顔をやさしく拭いてやっている。
+#お母さんは口ではそう言いつつ、取り出したハンカチで娘の顔をやさしく拭いてやっている。
+#SCRIPT ADD KANJI
+Ｔhe mother said that, and at the same time wiped her daughter's face with a handkerchief she took out.
 
-＠女の子,V22010
-「う、うん……めぐ、ちゃんとする……」
+#＠女の子,V22010
+#「う、うん……めぐ、ちゃんとする……」
+＠Girl,V22010
+「Y, yes...... Megu, will act properly......」
 
-＠母親,V21015
-「良い子ね。じゃ、帰りましょう」
+#＠母親,V21015
+#「良い子ね。じゃ、帰りましょう」
+＠Mother,V21015
+「Good girl. Now, let's go home.」
 
-＠女の子,V22011
-「うんっ」
+#＠女の子,V22011
+#「うんっ」
+＠Girl,V22011
+「Okay!」
 
-お母さんは娘の手をしっかりと握りしめ、角を仲良く曲がっていった。
+#お母さんは娘の手をしっかりと握りしめ、角を仲良く曲がっていった。
+#SCRIPT ADD KANJI
+Ｔhe mother gripped her daughter's hand tightly, and they turned at the corner getting along well.
 
-＠樹
-「………………」
+#＠樹
+#「………………」
+＠Itsuki
+「..................」
 
-どこにでもよくある、いたって普通の親と子の姿だ。
+#どこにでもよくある、いたって普通の親と子の姿だ。
+#SCRIPT ADD KANJI
+Ｔhey were a very normal parent and child, which could be found anywhere.
 
-だが、そんなものすらなかったオレにとっては、少しばかり眩しい光景でもある。
-
+#だが、そんなものすらなかったオレにとっては、少しばかり眩しい光景でもある。
+#SCRIPT ADD KANJI
+Ｂut if only that didn't happen, I would have thought it was a dazzling scene.
 
 bgm_stop
 @zakuro_small
@@ -384,13 +535,19 @@ bgm_stop
 @zakuro			#普
 
 
-＠ざくろ,Q01510
-「つっちー、何してるの？」
+#＠ざくろ,Q01510
+#「つっちー、何してるの？」
+＠Zakuro,Q01510
+「Tsucchii, wha are you doing?」
 
-いつのまにか少し先に行っていたざくろが振り返る。
+#いつのまにか少し先に行っていたざくろが振り返る。
+#SCRIPT ADD KANJI
+Ｂefore I noticed, Zakuro who had gone a little bit ahead of me turned around.
 
-＠樹
-「え？　あ、ああ……ごめん」
+#＠樹
+#「え？　あ、ああ……ごめん」
+＠Itsuki
+「Eh? A, ah...... sorry.」
 
 
 @bg_black
@@ -398,84 +555,126 @@ wait		1000
 @bg_jyuutakugai		# 住宅街
 
 
-＠ざくろ,Q01511
-「………………」
+#＠ざくろ,Q01511
+#「………………」
+＠Zakuro,Q01511
+「..................」
 
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 
-ざくろに追いつきながら、その横顔をチラリと見た。
+#ざくろに追いつきながら、その横顔をチラリと見た。
+#SCRIPT ADD KANJI
+Ｗhen I was catching up to Zakuro, I saw a glimpse of that face from the side.
 
-その左手に巻かれた包帯も。
+#その左手に巻かれた包帯も。
+#SCRIPT ADD KANJI
+Ａnd the bandage wrapped on her left hand.
 
-ざくろの生い立ちがどのようなものであったのかは、雫さんに見せてもらった資料以上のことはまだよく知らない。
+#ざくろの生い立ちがどのようなものであったのかは、雫さんに見せてもらった資料以上のことはまだよく知らない。
+#SCRIPT ADD KANJI
+Ｉ don't know anything about how Zakuro was brought up other than the documents Shizuku-san showed me.
 
-父親は不明、幼い頃は母親と一緒に暮らしていたらしいが、かなり早い頃から施設に預けられた。
+#父親は不明、幼い頃は母親と一緒に暮らしていたらしいが、かなり早い頃から施設に預けられた。
+#SCRIPT ADD KANJI
+Ｈer father was unknown, and it seems like she lived together with her mother when she was young, but she was brought to the institution quite early.
 
-あまり運に恵まれなかったようで、いくつかの施設を転々とする羽目になり、里親も見つからなかった。
+#あまり運に恵まれなかったようで、いくつかの施設を転々とする羽目になり、里親も見つからなかった。
+#SCRIPT ADD KANJI
+Ｓhe wasn't blessed with much luck, so ended up being transferred from institution to institution, and wasn't even able to find foster parents.
 
-そして、今はオレたちと一緒に暮らしている。
+#そして、今はオレたちと一緒に暮らしている。
+#SCRIPT ADD KANJI
+Ａnd now, she is living with us.
 
-オレ同様……いや、それ以上に、普通の親子の触れあいには乏しかったはずだ。
-
+#オレ同様……いや、それ以上に、普通の親子の触れあいには乏しかったはずだ。
+#SCRIPT ADD KANJI
+Ｔhe same as me...... No, more than that, she must not have had much contact with her parents like normal parents and children should.
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01512
-「何を見てるの？」
+#＠ざくろ,Q01512
+#「何を見てるの？」
+＠Zakuro,Q01512
+「What are you looking at?」
 
-＠樹
-「あ……いや……」
+#＠樹
+#「あ……いや……」
+＠Itsuki
+「Ah......Nothing......」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01513
-「別にあんなの気にしてない。いちいち気にしてたら身が持たない」
+#＠ざくろ,Q01513
+#「別にあんなの気にしてない。いちいち気にしてたら身が持たない」
+＠Zakuro,Q01513
+「I don't really care. If I care about separate things like that my health will be ruined.」
 
-こちらを見ることなく、ざくろは言う。
+#こちらを見ることなく、ざくろは言う。
+#SCRIPT ADD KANJI
+Ｗithout even looking here, Zakuro said that.
 
-いつも通り淡々とした表情だが、もし全く気にしていないのなら、わざわざ口に出して言うはずもない。
+#いつも通り淡々とした表情だが、もし全く気にしていないのなら、わざわざ口に出して言うはずもない。
+#SCRIPT ADD KANJI
+Ｓhe had her usual not interested expression, but if she really didn't care at all, then she wouldn't have said that on purpose.
 
-＠樹
-「そうだけどな、オレにはあんな母親はいなかったから、ちょっとな……」
+#＠樹
+#「そうだけどな、オレにはあんな母親はいなかったから、ちょっとな……」
+＠Itsuki
+「Yeah, but I didn't have that kind of mother, so I kind of......」
 
-どう返すか少し迷ったが、思った通りのことを口にした。
+#どう返すか少し迷ったが、思った通りのことを口にした。
+#SCRIPT ADD KANJI
+Ｉ was kind of unsure of how to respond, but I just said what I thought.
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01514
-「つっちーも？」
+#＠ざくろ,Q01514
+#「つっちーも？」
+＠Zakuro,Q01514
+「Tsucchii too?」
 
-ざくろがオレを見た。
+#ざくろがオレを見た。
+#SCRIPT ADD KANJI
+Ｚakuro looked at me.
 
-＠樹
-「言ったことことなかったか？」
-
+#＠樹
+#「言ったことことなかったか？」
+＠Itsuki
+「Didn't I say that(?)?」
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01515
-「聞いてない。……そうなんだ。お父さんは？　うちの前の院長？」
+#＠ざくろ,Q01515
+#「聞いてない。……そうなんだ。お父さんは？　うちの前の院長？」
+＠Zakuro,Q01515
+「I didn't ask. ......Right. What about your father? The previous director?」
 
-＠樹
-「ああ、あれは……」
+#＠樹
+#「ああ、あれは……」
+＠Itsuki
+「Ah, that......」
 
 
 @bg_white		# 白
 
 
-父親……そう呼ばれるべきあの男への記憶がふっと蘇る。
+#父親……そう呼ばれるべきあの男への記憶がふっと蘇る。
+#SCRIPT ADD KANJI
+Ｆather......I immediately recall the man who had to be called that.
 
-が、その記憶の中で男の瞳にオレは映っていない。
+#が、その記憶の中で男の瞳にオレは映っていない。
+#SCRIPT ADD KANJI
+Ｂut, in those memories, I was not reflected in the eyes of that man.
 
 
 @zakuro_middle		# 中間
@@ -484,39 +683,57 @@ wait		1000
 @bg_jyuutakugai		# 住宅街
 
 
-＠ざくろ,Q01516
-「……つっちー？」
+#＠ざくろ,Q01516
+#「……つっちー？」
+＠Zakuro,Q01516
+「......Tsucchii?」
 
-＠樹
-「あれは、お父さんなんてものじゃなかったよ。確かにうちの院長、それだけだったよ、あの人は」
+#＠樹
+#「あれは、お父さんなんてものじゃなかったよ。確かにうちの院長、それだけだったよ、あの人は」
+＠Itsuki
+「That, that man was nothing like a father. It's true that he was the director, but that's all that that person was.」
 
-＠ざくろ,Q01517
-「……………」
+#＠ざくろ,Q01517
+#「……………」
+＠Zakuro,Q01517
+「...............」
 
-＠樹
-「まあ、それでもこうやって後を継いでるわけだが……皮肉なもんだ」
+#＠樹
+#「まあ、それでもこうやって後を継いでるわけだが……皮肉なもんだ」
+＠Itsuki
+「Well, even then I ended up succeeding him...... It's ironic.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01518
-「ごめんなさい、つっちー」
+#＠ざくろ,Q01518
+#「ごめんなさい、つっちー」
+＠Zakuro,Q01518
+「Sorry, Tsucchii.」
 
-＠樹
-「え？　なにが？」
+#＠樹
+#「え？　なにが？」
+＠Itsuki
+「Eh? For what?」
 
-いつになく神妙な声にざくろを見ると、少し俯いた顔で、
+#いつになく神妙な声にざくろを見ると、少し俯いた顔で、
+#SCRIPT ADD KANJI
+Ｉ looked at Zakuro who spoke in an unusually meek voice, and her head hung low,
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01519
-「全然聞かなくていいこと聞いた。私らしくない。反省」
+#＠ざくろ,Q01519
+#「全然聞かなくていいこと聞いた。私らしくない。反省」
+＠Zakuro,Q01519
+「I asked something that would be better off not asking. That's not like me. I'm reflecting on it.」
 
-＠樹
-「気にするな。大したことじゃない」
+#＠樹
+#「気にするな。大したことじゃない」
+＠Itsuki
+「Don't worry about it. It's not a big deal.」
 
 
 #///////////////////////////////////////////////////////
@@ -528,46 +745,74 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ざくろ,Q01520
-「…………うん」
+#＠ざくろ,Q01520
+#「…………うん」
+＠Zakuro,Q01520
+「............Okay.」
 
 
 @zakuro_
 
 
-ざくろはコクンと頷き、それからしばらく無言のまま歩き続ける。
+#ざくろはコクンと頷き、それからしばらく無言のまま歩き続ける。
+#SCRIPT ADD KANJI
+Ｚakuro nodded deeply, then for a while we continued walking silently.
 
-＠ざくろ,Q01521
-「つっちー」
+#＠ざくろ,Q01521
+#「つっちー」
+＠Zakuro,Q01521
+「Tsucchii.」
 
-＠樹
-「……ん？」
+#＠樹
+#「……ん？」
+＠Itsuki
+「......Yeah?」
 
-また、前を向いたままざくろが話し始める。
 
-＠ざくろ,Q01522
-「さっきのあれ、別に羨ましいとか、私と比べてどうとか、そういことは思ってない」
 
-＠樹
-「……いいよ、その話は」
+#また、前を向いたままざくろが話し始める。
+#SCRIPT ADD KANJI
+Ｚakuro begins to talk again facing forward.
 
-＠ざくろ,Q01523
-「ううん、言っておきたいから。聞いて」
+#＠ざくろ,Q01522
+#「さっきのあれ、別に羨ましいとか、私と比べてどうとか、そういことは思ってない」
+＠Zakuro,Q01522
+「That thing before, I wasn't really thinking that I'm jealous or how it is compared to me.」
 
-＠樹
-「あ、ああ……」
+#＠樹
+#「……いいよ、その話は」
+＠Itsuki
+「......It's okay.」
 
-＠ざくろ,Q01524
-「あのとき私ね、いつまで続くんだろうって思ってた」
+#＠ざくろ,Q01523
+#「ううん、言っておきたいから。聞いて」
+＠Zakuro,Q01523
+「No, I want to say something. Listen.」
 
-＠樹
-「続く？　何が？」
+#＠樹
+#「あ、ああ……」
+＠Itsuki
+「A, ah......」
 
-＠ざくろ,Q01525
-「あの母親が」
+#＠ざくろ,Q01524
+#「あのとき私ね、いつまで続くんだろうって思ってた」
+＠Zakuro,Q01524
+「That time, I used to think that she would continue forever.」
 
-＠樹
-「…………？　あの『一人でちゃんと立つまで待つ』って、ありがちなやりとりがか？」
+#＠樹
+#「続く？　何が？」
+＠Itsuki
+「Continue? Who?」
+
+#＠ざくろ,Q01525
+#「あの母親が」
+＠Zakuro,Q01525
+「That mother.」
+
+#＠樹
+#「…………？　あの『一人でちゃんと立つまで待つ』って、ありがちなやりとりがか？」
+＠Itsuki
+「............? That "wait until you can stand up by yourself" mother, isn't that common?」
 
 
 @zakuro_middle		# 中間
@@ -575,129 +820,187 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01526
-「違う。そんな話じゃない。というか、つっちーがそんな悪意を持って見てたことに驚き」
+#＠ざくろ,Q01526
+#「違う。そんな話じゃない。というか、つっちーがそんな悪意を持って見てたことに驚き」
+＠Zakuro,Q01526
+「No. Not that. I mean, I was surprised that Tsucchii was looking at her with such ill will.」
 
-＠樹
-「いや……別に悪意を持って見てたわけじゃないが……」
-
-
-@zakuro_metoji		#閉
-
-
-＠ざくろ,Q01527
-「冗談。気にしないで」
-
-ざくろはいつものようにくすりとも笑わずに、
-
-
-@zakuro			#普
-
-
-＠ざくろ,Q01528
-「私が思ってたのは、あの人は今はああやってちゃんと母親をやってるけど、それがいつまで続くのかって」
-
-＠樹
-「続かないように見えたのか、ざくろには？」
+#＠樹
+#「いや……別に悪意を持って見てたわけじゃないが……」
+＠Itsuki
+「No...... I wasn't really looking at her with ill will but......」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01529
-「一目でそんなことが分かったら、私、超能力者」
+#＠ざくろ,Q01527
+#「冗談。気にしないで」
+＠Zakuro,Q01527
+「It's a joke. Don't worry about it.」
+
+#ざくろはいつものようにくすりとも笑わずに、
+#SCRIPT ADD KANJI
+Ｚakuro, like always, without even smiling,
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01530
-「今はちゃんとした母親に見える。でも、一年後は違うかも知れない、二年後は？　三年後は？　もっと先は？」
+#＠ざくろ,Q01528
+#「私が思ってたのは、あの人は今はああやってちゃんと母親をやってるけど、それがいつまで続くのかって」
+＠Zakuro,Q01528
+「What I was thinking was, that person was being a good mother now but, how long will that continue?」
 
-＠樹
-「どう変わるか分からないと……」
+#＠樹
+#「続かないように見えたのか、ざくろには？」
+＠Itsuki
+「Did it look like it wouldn't continue to you?」
+
+
+@zakuro_metoji		#閉
+
+
+#＠ざくろ,Q01529
+#「一目でそんなことが分かったら、私、超能力者」
+＠Zakuro,Q01529
+「If I could understand that just by looking, I would be psychic.」
+
+
+@zakuro			#普
+
+
+#＠ざくろ,Q01530
+#「今はちゃんとした母親に見える。でも、一年後は違うかも知れない、二年後は？　三年後は？　もっと先は？」
+＠Zakuro,Q01530
+「Now she looks like a good mother. However, we don't know if she will be different after a year. What about two years? Three years? Even further?」
+
+#＠樹
+#「どう変わるか分からないと……」
+＠Itsuki
+「I don't know how she will change......」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01531
-「そう、あの子が大きくなって、自分の思う通りにならなくなったら、急にイヤになるかもしれない」
+#＠ざくろ,Q01531
+#「そう、あの子が大きくなって、自分の思う通りにならなくなったら、急にイヤになるかもしれない」
+＠Zakuro,Q01531
+「That's right, when that child becomes older, she might not want to become like she thinks and might become bad.」
 
 
 @zakuro_iya		#嫌
 
 
-＠ざくろ,Q01532
-「父親が死ぬか別れるか、他に男ができるか、理由はなんでもいいけど、あの子が邪魔になるかも知れない」
+#＠ざくろ,Q01532
+#「父親が死ぬか別れるか、他に男ができるか、理由はなんでもいいけど、あの子が邪魔になるかも知れない」
+＠Zakuro,Q01532
+「If the father dies or gets separated from her, or another man comes, the reason doesn't really matter, but that child might become a nuisance.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01533
-「いつ何時、母親をやる気がなくなるかもしれない」
+#＠ざくろ,Q01533
+#「いつ何時、母親をやる気がなくなるかもしれない」
+＠Zakuro,Q01533
+「At any time, that mother might not feel like being a mother anymore.」
 
-『でも親だぞ？』
+#『でも親だぞ？』
+#SCRIPT ADD KANJI
+　"But she's a parent right?"
 
-普通ならそんなことを言うのだろう。
+#普通ならそんなことを言うのだろう。
+#SCRIPT ADD KANJI
+Ｎormally I would say that.
 
-だが、自分のこと、ざくろをはじめ、院にいる他の子たちのことを考えると、とてもそうは言えなかった。
+#だが、自分のこと、ざくろをはじめ、院にいる他の子たちのことを考えると、とてもそうは言えなかった。
+#SCRIPT ADD KANJI
+Ｂut if I thought about myself, Zakuro, and the other children in the institute, I couldn't say that.
 
-＠樹
-「人の心は変わるものだからな。それが父親だろうが、母親だろうが」
+#＠樹
+#「人の心は変わるものだからな。それが父親だろうが、母親だろうが」
+＠Itsuki
+「Humans hearts are things that change. Whether they're fathers or mothers.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01534
-「そう、特に女は男と違って、子供を産むと、自然と愛情が生まれるとか言うけど、そんなのファンタジー、遺伝子とか知らない」
+#＠ざくろ,Q01534
+#「そう、特に女は男と違って、子供を産むと、自然と愛情が生まれるとか言うけど、そんなのファンタジー、遺伝子とか知らない」
+＠Zakuro,Q01534
+「Right, but women in particular are different from men, giving birth to children, and naturally loving them, I don't know that kind of fantasy and genes.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01535
-「ううん、逆に女の心はすぐ変わる。女だから分かる。誰だって母親である前に女」
-
+#＠ざくろ,Q01535
+#「ううん、逆に女の心はすぐ変わる。女だから分かる。誰だって母親である前に女」
+＠Zakuro,Q01535
+「No, on the contrary, women's hearts change immediately. I know because I'm a girl. Any girl before becoming a mother knows.」
 
 @zakuro			#普
 
 
-＠ざくろ,Q01536
-「親は自分の意志で親になる。それを続けていく。そうできるのが本当の親。そう思う」
+#＠ざくろ,Q01536
+#「親は自分の意志で親になる。それを続けていく。そうできるのが本当の親。そう思う」
+＠Zakuro,Q01536
+「Parents become parents by their own will. Then they continue that. Whoever can do that is a true parent. Or so I think.」
 
-ざくろはいつものように無表情で、その言葉に力を込めているわけでもない。
+#ざくろはいつものように無表情で、その言葉に力を込めているわけでもない。
+#SCRIPT ADD KANJI
+Ｚakuro had her usual expressionless face, so there was no way she could be putting effort into those words.
 
-だからこそ感じる、過去への深い想い。
+#だからこそ感じる、過去への深い想い。
+#SCRIPT ADD KANJI
+Ｔhat's why I could feel her deep feelings to her past.
 
-＠樹
-「………そうだな」
+#＠樹
+#「………そうだな」
+＠Itsuki
+「.........That's right.」
 
-頷くと、少しだけ間があって、
-
+#頷くと、少しだけ間があって、
+#SCRIPT ADD KANJI
+Ｔhere was a small gap when I nodded,
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01537
-「……聞かないの？」
+#＠ざくろ,Q01537
+#「……聞かないの？」
+＠Zakuro,Q01537
+「......Won't you ask?」
 
-ざくろがポツリと言った。
+#ざくろがポツリと言った。
+#SCRIPT ADD KANJI
+Ｚakuro said quietly.
 
-＠樹
-「……ん？」
+#＠樹
+#「……ん？」
+＠Itsuki
+「......Huh?」
 
-＠ざくろ,Q01538
-「私がどうだったか聞かないの、つっちー？」
+#＠ざくろ,Q01538
+#「私がどうだったか聞かないの、つっちー？」
+＠Zakuro,Q01538
+「Won't you ask about how I used to be, Tsucchii?」
 
-いつもマイペースで好きなことを喋る、ざくろらしからぬ問いかけ。
+#いつもマイペースで好きなことを喋る、ざくろらしからぬ問いかけ。
+#SCRIPT ADD KANJI
+Ｓhe usually talked about things at her own pace, and asked a question that was not Zakuro-like.
 
-オレの口から言って欲しいのだろう、多分。
+#オレの口から言って欲しいのだろう、多分。
+#SCRIPT ADD KANJI
+Ｓhe probably wants to hear it from my mouth.
 
-＠樹
-「ざくろのお母さんはなれなかったんだな、お母さんに」
+#＠樹
+#「ざくろのお母さんはなれなかったんだな、お母さんに」
+＠Itsuki
+「Zakuro's mother couldn't become a good mother?」
 
 
 #///////////////////////////////////////////////////////
@@ -709,75 +1012,106 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 
-ざくろは小さく頷く。
+#ざくろは小さく頷く。
+#SCRIPT ADD KANJI
+Ｚakuro nodded lightly.
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01539
-「あの人は結局、女だった。今なら分かる。流されやすくて、だらしなくて、だから男がいつも寄ってきてた」
+#＠ざくろ,Q01539
+#「あの人は結局、女だった。今なら分かる。流されやすくて、だらしなくて、だから男がいつも寄ってきてた」
+＠Zakuro,Q01539
+「That person was after all, a woman. Now I understand. She was easily carried away and loose, so men were always visiting her.」
 
 
 @zakuro_iya		#嫌
 
 
-＠ざくろ,Q01540
-「自分では良い親のつもりで、でも本当は自分のことしか考えてない。そういう人。だから、私を捨てた」
+#＠ざくろ,Q01540
+#「自分では良い親のつもりで、でも本当は自分のことしか考えてない。そういう人。だから、私を捨てた」
+＠Zakuro,Q01540
+「She wanted to become a good mother, but she really only thought about herself. She was that kind of person. That's why I was thrown away.」
 
-＠樹
-「捨てた？」
+#＠樹
+#「捨てた？」
+＠Itsuki
+「Thrown away?」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01541
-「どの男かもう忘れたけど、二人でどこかに行った。最後は女であることを選んだ。それがあの人。私を産んだ女」
+#＠ざくろ,Q01541
+#「どの男かもう忘れたけど、二人でどこかに行った。最後は女であることを選んだ。それがあの人。私を産んだ女」
+＠Zakuro,Q01541
+「I already forgot which man it was, but she went somewhere with him. In the end, she decided to be a woman. That is her. The woman who gave birth to me.」
 
-やはり淡々と語るざくろ。
+#やはり淡々と語るざくろ。
+#SCRIPT ADD KANJI
+Ｚakuro talks indifferently.
 
-自分を捨てた母親をどう思っているのか、その表情からは伺うことはできない。
+#自分を捨てた母親をどう思っているのか、その表情からは伺うことはできない。
+#SCRIPT ADD KANJI
+Ｉ couldn't tell from that expression how she thought about the mother who threw her away.
 
-懐かしさ……それとも、憎しみ……
+#懐かしさ……それとも、憎しみ……
+#SCRIPT ADD KANJI
+Ｗhether she missed her...... or hated her......
 
-＠樹
-「ざくろ……」
+#＠樹
+#「ざくろ……」
+＠Itsuki
+「Zakuro......」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01542
-「なに？」
+#＠ざくろ,Q01542
+#「なに？」
+＠Zakuro,Q01542
+「What?」
 
-＠樹
-「会いたいか、今」
+#＠樹
+#「会いたいか、今」
+＠Itsuki
+「Do you want to see her now?」
 
 
 @zakuro_iya		#嫌
 
 
-＠ざくろ,Q01543
-「……………」
+#＠ざくろ,Q01543
+#「……………」
+＠Zakuro,Q01543
+「...............」
 
-ざくろはスッと目を逸らし、
-
+#ざくろはスッと目を逸らし、
+#SCRIPT ADD KANJI
+Ｚakuro averted her eyes,
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01544
-「あの人は私と関係なく、好きに生きて好きに死ぬ。だからどうでもいい」
+#＠ざくろ,Q01544
+#「あの人は私と関係なく、好きに生きて好きに死ぬ。だからどうでもいい」
+＠Zakuro,Q01544
+「That person has nothing to do with me. She can go live if she wants or die if she wants. I don't care.」
 
 
 bgm_stop
 @zakuro_
 
 
-会いたいとも、会いたくないとも言わず、ざくろはそれだけを口にした。
+#会いたいとも、会いたくないとも言わず、ざくろはそれだけを口にした。
+#SCRIPT ADD KANJI
+Ｚakuro said only that, without mentioning whether she wanted to see her, or not want to see her.
 
-それから家に戻るまで、オレとざくろは何も話さなかった。
+#それから家に戻るまで、オレとざくろは何も話さなかった。
+#SCRIPT ADD KANJI
+Ｕntil we returned home, Zakuro and I did not say anything.
 
 
 @bg_black

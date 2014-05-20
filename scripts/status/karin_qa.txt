@@ -253,9 +253,9 @@ screen_vibration	500,16,16,16
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．やっぱり止めてほしい）
-#（２．むしろお兄様のままで）
-select sel,"やっぱり止めてほしい","むしろお兄様のままで"
+#（１．やっぱり止めてほしい）still/anyway stop want (?)
+#（２．むしろお兄様のままで）rather/preferably oniichan remain (?)
+select sel,"still want stop","I'd rather remain your older brother"
 if sel=0 then goto karin_qa01_a
 if sel=1 then goto karin_qa01_b
 #--------------------------------------------------
@@ -591,9 +591,9 @@ wait		500
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．しばらく避難させてやる）
-#（２．退治しに行く）
-select sel,"しばらく避難させてやる","退治しに行く"
+#（１．しばらく避難させてやる）evacuate(?)
+#（２．退治しに行く）exterminate(?)
+select sel,"Evacuate","Exterminate"
 if sel=0 then goto karin_qa02_a
 if sel=1 then goto karin_qa02_b
 #--------------------------------------------------
@@ -974,7 +974,7 @@ layer_movepass_init	l_karin,0	#演出初期化
 #■（選択肢）
 #（１．本気だったかもしれないぞ）
 #（２．からかわれてたのかもな）
-select sel,"本気だったかもしれないぞ","からかわれてたのかもな"
+select sel,"Might have been serious","Maybe teasing"
 if sel=0 then goto karin_qa03_a
 if sel=1 then goto karin_qa03_b
 #--------------------------------------------------
@@ -1260,11 +1260,13 @@ wait		1000
 不思議だがとりあえず、ここはバシッと問題に答えてやろう。
 
 
+# note: these questions don't work when translated literally.
+
 #--------------------------------------------------
 #■（選択肢Ａ）
 #（１．『ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！』）
 #（２．『約束の時間を過ぎても、いっこうに彼が来る気配はなかった』）
-select sel,"『ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！』","『約束の時間を過ぎても、いっこうに彼が来る気配はなかった』"
+select sel,"『Master's completely hard cock feels good!』","『He is completely late.』"
 sel1=sel
 #--------------------------------------------------
 
@@ -1282,7 +1284,7 @@ sel1=sel
 #■（選択肢Ｂ）
 #（１．『今日はデートなので、とても楽しみにしてます』）
 #（２．『もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！』）
-select sel,"『今日はデートなので、とても楽しみにしてます』","『もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！』"
+select sel,"『I have a big, hot date tonight』","『Only a big hot one satisfies Karin tonight』"
 sel2=sel
 #--------------------------------------------------
 
@@ -1300,7 +1302,7 @@ sel2=sel
 #■（選択肢Ｃ）
 #（１．『おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！』）
 #（２．『どうにかして、今日は彼との仲を進展させたいです』）
-select sel,"『おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！』","『どうにかして、今日は彼との仲を進展させたいです』"
+select sel,"『Amazing cock, somehow I have to get it deeper！』","『Somehow I have to form a deeper relationship with him』"
 sel3=sel
 #--------------------------------------------------
 
@@ -1674,7 +1676,7 @@ wait		1000
 #■（選択肢）
 #（１．責任をとる）
 #（２．分からない）
-select sel,"責任をとる","分からない"
+select sel,"I take responsibility","I know nothing"
 if sel=0 then goto karin_qa05_a
 if sel=1 then goto karin_qa05_b
 #--------------------------------------------------
@@ -2021,7 +2023,7 @@ wait		1000
 #■（選択肢）
 #（１．正確に教える）
 #（２．言うと危険な香りがする！）
-select sel,"正確に教える","言うと危険な香りがする！"
+select sel,"Explain fully","This smells dangerous！"
 if sel=0 then goto karin_qa06_a
 if sel=1 then goto karin_qa06_b
 #--------------------------------------------------
@@ -2329,7 +2331,7 @@ wait		1000
 #■（選択肢Ａ）
 #（１．『な、何やらせるつもりよっ……こんな汚らしい倉庫に閉じ込めてッ…』）
 #（２．『何やら楽しそうだと思ったら、もうすぐお祭りらしいです』）
-select sel,"『な、何やらせるつもりよっ……こんな汚らしい倉庫に閉じ込めてッ…』","『何やら楽しそうだと思ったら、もうすぐお祭りらしいです』"
+select sel,"『Anything could happen, tied up in a dirty warehouse tonight』","『Anything could happen, the summer festival is tonight!』"
 sel1=sel
 #--------------------------------------------------
 
@@ -2347,7 +2349,7 @@ sel1=sel
 #■（選択肢Ｂ）
 #（１．『やぁあッ、離してぇッ！　あなたの死んでも咥えたくないんだからッ』）
 #（２．『次のデートはそのお祭りの日にして、楽しんで来ようと思います』）
-select sel,"『やぁあッ、離してぇッ！　あなたの死んでも咥えたくないんだからッ』","『次のデートはそのお祭りの日にして、楽しんで来ようと思います』"
+select sel,"『AAaa, Let me go！　Please, don't make me suck it!』","『Koyo is tomorrow, I will enjoy the festival!』"
 sel2=sel
 #--------------------------------------------------
 
@@ -2365,7 +2367,7 @@ sel2=sel
 #■（選択肢Ｃ）
 #（１．『彼との約束も決まって、私はデートの準備に夢中でした』）
 #（２．『んぐぅんッ！？　ちゅむッ、りゅちゅぅッ……ぢゅむッ、むちゅぅッ！』）
-select sel,"『彼との約束も決まって、私はデートの準備に夢中でした』","『んぐぅんッ！？　ちゅむッ、りゅちゅぅッ……ぢゅむッ、むちゅぅッ！』"
+select sel,"『I went a little crazy preparing for the date with him』","『MMmpff！？　*glork*, *choke*... *spurt* *gag* *swallow*！』"
 sel3=sel
 #--------------------------------------------------
 
@@ -2688,7 +2690,7 @@ wait		1000
 #■（選択肢）
 #（１．そういえば、みかんに～）
 #（２．問題なく発見）
-select sel,"そういえば、みかんに～","問題なく発見"
+select sel,"Oh yeah, it's in Mikan's...","Not a problem."
 if sel=0 then goto karin_qa08_a
 if sel=1 then goto karin_qa08_b
 #--------------------------------------------------
@@ -3018,8 +3020,8 @@ wait		1000
 #--------------------------------------------------
 #■（選択肢）
 #（１．教えてあげないと）
-#（２．触らぬかりんに怒りなし）
-select sel,"教えてあげないと","触らぬかりんに怒りなし"
+#（２．触らぬかりんに怒りなし）No anger in Karin, which is not touch (?)
+select sel,"Say nothing","No anger in Karin, which is not touch"
 if sel=0 then goto karin_qa09_a
 if sel=1 then goto karin_qa09_b
 #--------------------------------------------------
@@ -3416,7 +3418,7 @@ wait		1000
 #■（選択肢）
 #（１．否定しないと）
 #（２．どこに行くのか興味ある）
-select sel,"否定しないと","どこに行くのか興味ある"
+select sel,"No, it's not.","I'm curious where you're going"
 if sel=0 then goto karin_qa10_a
 if sel=1 then goto karin_qa10_b
 #--------------------------------------------------

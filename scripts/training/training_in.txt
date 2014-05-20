@@ -43,7 +43,7 @@ return
 
 
 macro	training_charasel
-#■（キャラ選択）
+#■（キャラ選択）character selection
 #※かりんといちごを任されるまでは、『みかん』のみ。
 #※それ以降は、各種イベントテキストを参考に、出るキャラと出ないキャラが有り。
 
@@ -51,7 +51,7 @@ macro	training_charasel
 #（２．かりんにする）
 #（３．いちごにする）
 
-#select	sel,"みかんにする","いちごにする","かりんにする"
+#select	sel,"Do Mikan","Pick Ichigo","I want Karin"
 date_close
 	window_close
 
@@ -91,22 +91,29 @@ label	training_in_1
 #■BG（自室）
 @bg_itsuki_n
 
-＠樹
-「週末の調教か」
+#「週末の調教か」
+＠Itsuki
+「Is it time for the weekend's training?」
 
-まだちょっと憂鬱だ。
+#まだちょっと憂鬱だ。
+#SCRIPT ADD KANJI
+Ｉ'm still a bit melancholy though.
 
-この前は部屋にみかんを呼んで行ったが、今日から専用の調教部屋でするらしい。
+#この前は部屋にみかんを呼んで行ったが、今日から専用の調教部屋でするらしい。
+#SCRIPT ADD KANJI
+Ｉ summoned Mikan to this room last time, but from today it seems appropriate to use the training room meant for this.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
 
-＠美雨,B00088
-「樹さん、準備出来ましたか？」
+#「樹さん、準備出来ましたか？」
+＠Miu,B00088
+「Itsuki-san, have you finished preparing?」
 
-＠樹
-「ん、ああ……」
+#「ん、ああ……」
+＠Itsuki
+「Yeah, umm......」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -115,8 +122,9 @@ label	training_in_1
 @bg_rouka_n
 @miu
 
-＠美雨,B00089
-「それでは、部屋まで案内します」
+#「それでは、部屋まで案内します」
+＠Miu,B00089
+「In that case I'll take you to the room.」
 
 @miu_
 @bg_black
@@ -125,7 +133,9 @@ wait	1000
 @bg_rouka_n
 @miu
 
-口頭で場所は聞いていたが、あまり近寄らない区画に入る。
+#口頭で場所は聞いていたが、あまり近寄らない区画に入る。
+#SCRIPT ADD KANJI
+Ｔhough I'd heard about this room, we go into an area I haven't been in very often.
 
 #＠美雨,B00090
 #「調教をする部屋には二種類があります」
@@ -150,7 +160,9 @@ wait	1000
 #■BG（調教部屋・ライト）
 @bg_choukyou_n
 
-手前にある、簡素な内装の部屋へ通された。
+#手前にある、簡素な内装の部屋へ通された。
+#SCRIPT ADD KANJI
+Ｗe stood on this side, and the plain upholstery drew no attention.
 
 @miu
 #＠美雨,B00094
@@ -166,61 +178,77 @@ wait	1000
 
 
 @miu
-＠美雨,B00096
-「何か分からない事はありますか？」
+#「何か分からない事はありますか？」
+＠Miu,B00096
+「Is there anything that's not clear?」
 
-＠樹
-「さぁ……」
+#「さぁ……」
+＠Itsuki
+「Hmm......」
 
-＠樹
-「まぁ、何とかやっていくしかないんじゃないか」
+#「まぁ、何とかやっていくしかないんじゃないか」
+＠Itsuki
+「Well, I don't really have much of a choice but to live with it, one way or another.」
 
-＠美雨,B00097
-「慣れるまでは戸惑われるかもしれませんが、頑張ってくださいね」
+#「慣れるまでは戸惑われるかもしれませんが、頑張ってくださいね」
+＠Miu,B00097
+「You might be confused until you get used to it, but hang in there, alright?」
 
 @miu_warai
 
-＠美雨,B00098
-「それでは、みかんちゃんを呼んできます」
+#「それでは、みかんちゃんを呼んできます」
+＠Miu,B00098
+「Then, I'll go get Mikan.」
 
 @miu_
 
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-＠樹
-「……調教部屋、ねぇ………」
+#「……調教部屋、ねぇ………」
+＠Itsuki
+「...... Training room, eh... ... ...」
 
-専用部屋と言うことは、他の子もここでそういう事をしているのだろう。
+#専用部屋と言うことは、他の子もここでそういう事をしているのだろう。
+#SCRIPT ADD KANJI
+Ｉ guess that means in this exclusive room, the rest of the girls do things like that too.
 
-確か現在、ざくろといちごを雫さん。すいかを美雨が担当と聞く。
+#確か現在、ざくろといちごを雫さん。すいかを美雨が担当と聞く。
+#SCRIPT ADD KANJI
+Ｉf I remember correctly, they said that Zakuro and Ichigo are with Shizuku and Miu is in charge of Suika.
 
-＠樹
-「女の子同士で性行為って………やっぱりレズっぽい系になるんだろうか」
+#「女の子同士で性行為って………やっぱりレズっぽい系になるんだろうか」
+＠Itsuki
+「Female bonding by intercourse... ... ... I wonder if in the end this is a lineage of lesbianism.」
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-＠みかん,A00232
-「お兄ちゃん……？」
+#「お兄ちゃん……？」
+＠Mikan,A00232
+「Onii-chan......？」
 
-くだらない事を考えているうちに、みかんがやって来た。
+#くだらない事を考えているうちに、みかんがやって来た。
+#SCRIPT ADD KANJI
+Ｍikan showed up while I was considering trivial matters.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
 @mikan
 
-#＠みかん,A00233
+#＠Mikan,A00233
 #「わ……何にも無い部屋……」
 
-＠みかん,A00234
-「美雨さんに、これからはココに来るようにって言われたんだけど」
+#「美雨さんに、これからはココに来るようにって言われたんだけど」
+＠Mikan,A00234
+「I was told by Miu-san to come here.」
 
-＠樹
-「ああ、今週からはしばらくここで調教をする」
+#「ああ、今週からはしばらくここで調教をする」
+＠Itsuki
+「Ahh, starting this week we'll be doing training here for some time.」
 
-＠みかん,A00235
+＠Mikan,A00235
 「へぇ～」
 
 
@@ -231,35 +259,35 @@ label	training_in_1_a
 
 #■（『youzyo2 S-2-mika』を見ているとき）
 
-＠みかん,A00236
+＠Mikan,A00236
 「ここって、みかんとお兄ちゃんが前に探検した部屋に似てるね」
 
 #CH（立ち絵消去）
 @mikan_
 
-＠樹
+＠Itsuki
 「……そういえば、そんなこともあったな」
 
 #SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 @se28
 
-＠樹
+＠Itsuki
 「……って、こら！」
 
 また前のように、机の中をガサゴソと漁りだすみかん。
 
 
 @mikan
-＠みかん,A00237
+＠Mikan,A00237
 「あ、やっぱりあった。キノコみたいな変なやつ！」
 
-＠樹
+＠Itsuki
 「それはもう、食べ物じゃないっていう結論が出てるだろ」
 
-＠樹
+＠Itsuki
 「さ、よそ事をしてないで始めよう」
 
-＠みかん,A00238
+＠Mikan,A00238
 「は～い……」
 
 やっぱり興味を残しながら、それを机の中に戻した。
@@ -282,31 +310,40 @@ label	training_in_1_b
 #SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 @se28
 
-興味津々に、机の中を漁ったりするみかん。
+#興味津々に、机の中を漁ったりするみかん。
+#SCRIPT ADD KANJI
+Ｉmmensely curious, Mikan rummaged about in the desk.
 
 @mikan_odoroki
-＠みかん,A00239
-「あっ、何かあったよ！」
+#「あっ、何かあったよ！」
+＠Mikan,A00239
+「Ah, what's this!」
 
-＠樹
-「ん？　……げッ！」
+#「ん？　……げッ！」
+＠Itsuki
+「Hm? ...... Huh!」
 
-ずいぶんとご立派なバイブを見つけていた。
+#ずいぶんとご立派なバイブを見つけていた。
+#SCRIPT ADD KANJI
+Ｓhe discovered an extremely handsome vibrator.
 
 @mikan
 
-＠みかん,A00240
-「なんだろう、これ。キノコみたい」
+#「なんだろう、これ。キノコみたい」
+＠Mikan,A00240
+「What is this? It looks like a mushroom.」
 
-＠みかん,A00241
-「食べ物じゃないよね？」
+#「食べ物じゃないよね？」
+＠Mikan,A00241
+「Can I eat it?」
 
-＠樹
-「全然違うぞ。それはまだ早いから、置いといていい」
+#「全然違うぞ。それはまだ早いから、置いといていい」
+＠Itsuki
+「It's completely different. It's still too soon for this so you should put it aside.」
 
 @mikan_odoroki
 
-＠みかん,A00242
+＠Mikan,A00242
 「うん………わっ！？」
 
 #SE29　バイブが動く音（ウィィンウィィン）
@@ -314,34 +351,47 @@ label	training_in_1_b
 
 弾みでスイッチが入り、その物体が怪しくクネり始める。
 
-＠みかん,A00243
-「……ッ！？　な、なに！？　変な動きしてる！！」
+#「……ッ！？　な、なに！？　変な動きしてる！！」
+＠Mikan,A00243
+「......!? W-what is this!? It's moving weirdly!!」
 
-＠樹
-「す、スイッチを切れッ、みかん！」
+#「す、スイッチを切れッ、みかん！」
+＠Itsuki
+「T-turn off the switch, Mikan!」
 
-＠みかん,A00244
-「えっ、スイッチ！？　スイッチってどれ！？」
+#「えっ、スイッチ！？　スイッチってどれ！？」
+＠Mikan,A00244
+「S-switch!? What switch!?」
 
 @se68
-カチッ。
+#カチッ。
+#SCRIPT ADD KANJI
+　*Click*
 
 @se_keitai1
-ブブブブブブブッ……
+#ブブブブブブブッ……
+#SCRIPT ADD KANJI
+　*bububububububu*......
 
-＠みかん,A00245
-「うわわっ！？　し、振動し出したっ、何で！？」
+#「うわわっ！？　し、振動し出したっ、何で！？」
+＠Mikan,A00245
+「うわわっ!? Why's it moving outwards!?」
 
 @se68
 
-バタバタしながらバイブを止める。
+#バタバタしながらバイブを止める。
+#SCRIPT ADD KANJI
+Ｃlattering around, the vibrator finally stopped.
 
-まるで初心者な二人だった。
+#まるで初心者な二人だった。
+#SCRIPT ADD KANJI
+Ｉt was as if there were two beginners here.
 
-＠樹
-「ふぅ………あまり無闇に、物に触れないように」
+#「ふぅ………あまり無闇に、物に触れないように」
+＠Itsuki
+「Hau... ... ... That was too reckless, let's not touch it again.」
 
-＠みかん,A00246
+＠Mikan,A00246
 「は～い……」
 
 
@@ -367,79 +417,103 @@ label	training_in_2
 #■BG（自室・夜）
 @bg_itsuki_n
 
-＠樹
-「む～……また来たな。週末が」
+#「む～……また来たな。週末が」
+＠Itsuki
+「Huff...... It's the weekend again.」
 
-嫌な意味で鼓動が高鳴る。
+#嫌な意味で鼓動が高鳴る。
+#SCRIPT ADD KANJI
+Ｍy heart's beating with the unpleasant expectation.
 
-……まったく、仕方ないこととは言え。
+#……まったく、仕方ないこととは言え。
+#SCRIPT ADD KANJI
+　...... Well, there's nothing I can do about it now.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-＠雫,S00247
-「樹、部屋にいるだろ？」
+#「樹、部屋にいるだろ？」
+＠Shizuku,S00247
+「Itsuki, are you there?」
 
-＠樹
-「……？　ええ、どうぞ」
+#「……？　ええ、どうぞ」
+＠Itsuki
+「......？　Yeah, come in.」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
 @shizuku_warai
 
-＠雫,S00248
-「うん、よしよし。逃げずにちゃんと居るね」
+#「うん、よしよし。逃げずにちゃんと居るね」
+＠Shizuku,S00248
+「Still didn't run away, eh? Looking good.」
 
-＠樹
-「な、何ですか藪から棒に……」
+#「な、何ですか藪から棒に……」
+＠Itsuki
+「Why are you here out of the blue......」
 
 @shizuku_akire
 
-＠雫,S00249
-「何って、週末の調教じゃないか。もしかして寝ぼけてるのかい？」
+#「何って、週末の調教じゃないか。もしかして寝ぼけてるのかい？」
+＠Shizuku,S00249
+「"Why am I here?" It's the weekend's training. I guess you're still half asleep.」
 
-入ってきた雫さんは、オレの態度に呆れたようなため息を吐く。
+#入ってきた雫さんは、オレの態度に呆れたようなため息を吐く。
+#SCRIPT ADD KANJI
+Ｓhe comes barging in here sighing like she's shocked at my behaviour?
 
-＠樹
-「いや、起きてますけど………美雨は？」
+#「いや、起きてますけど………美雨は？」
+＠Itsuki
+「No, I'm awake... ... ... Where's Miu?」
 
 @shizuku
 
-＠雫,S00250
-「あの子は忙しいからね、あたしほどじゃないけど」
+#「あの子は忙しいからね、あたしほどじゃないけど」
+＠Shizuku,S00250
+「She's busy...... I'm the only one who can take her place.」
 
 @shizuku_warai
 
-＠雫,S00251
-「だから今週からは、あたしが週末夜のオネイさんだ。嬉しいだろう？」
+#「だから今週からは、あたしが週末夜のオネイさんだ。嬉しいだろう？」
+＠Shizuku,S00251
+「So from this week on I'll be the lady of the weekend evenings. Aren't you glad?」
 
-＠樹
-「……とりあえず今の会話、どこをツッコめばいいんでしょ」
+#「……とりあえず今の会話、どこをツッコめばいいんでしょ」
+＠Itsuki
+「...... Firstly, the reason for this conversation. What's a good place to stick it in today?」
 
-＠雫,S00252
-「んふふ、気持ちは分かるけど、突っ込むのはみかんにしてあげな。それが仕事なんだから」
+#「んふふ、気持ちは分かるけど、突っ込むのはみかんにしてあげな。それが仕事なんだから」
+＠Shizuku,S00252
+「んふふ, I know how you feel, but you'll have to stick it in Mikan for me. It's your job you know.」
 
-＠樹
-「くあ……」
+#「くあ……」
+＠Itsuki
+「Ugh......」
 
-＠樹
-「何かもう、ヤダやっぱり。雫さんより美雨がいいです」
+#「何かもう、ヤダやっぱり。雫さんより美雨がいいです」
+＠Itsuki
+「This is already really unpleasant. Miu is better than you.」
 
 @shizuku_ikari
 
-＠雫,S00253
-「贅沢言わないのッ。あたしに不満を言うなんざ百年早い。とっとと始めるよ」
+#「贅沢言わないのッ。あたしに不満を言うなんざ百年早い。とっとと始めるよ」
+＠Shizuku,S00253
+「I'm not saying it's a walk in the park, but it's way too early to be complaining to me. Chop chop, let's go.」
 
-＠樹
-「は～い………えっと、オレは……」
+#「は～い………えっと、オレは……」
+＠Itsuki
+「Fine... ... ... um, should I......」
 
 @shizuku
 
-＠雫,S00254
-「あたしがみかんを呼んでってやるから、あんたは先に部屋に行ってな」
+#「あたしがみかんを呼んでってやるから、あんたは先に部屋に行ってな」
+＠Shizuku,S00254
+「I'll call Mikan for you. Just go to the room from last time.」
 
-モヤモヤしていた気分も、すっかり雲散霧消してしまった……
+#モヤモヤしていた気分も、すっかり雲散霧消してしまった……
+#SCRIPT ADD KANJI
+Ｔhe gloominess that was twitching at me vanished all at once......
 
 @shizuku_
 @bg_black
@@ -473,16 +547,16 @@ label	training_in_3
 
 @miu
 
-＠美雨,B00099
+＠Miu,B00099
 「どうですか、樹さん、準備の方は」
 
-＠樹
+＠Itsuki
 「とりあえずは。用意する物もないし」
 
-＠美雨,B00100
+＠Miu,B00100
 「では今日は、かりんちゃんかいちごちゃんの調教をしていただく事になります」
 
-＠樹
+＠Itsuki
 「しかたがない、誰にしようか……」
 
 @training_charasel
@@ -497,7 +571,7 @@ label	training_in_3
 
 #（１．いちごにする）
 #（２．かりんにする）
-#select	sel,"いちごにする","かりんにする"
+#select	sel,"Do Ichigo","Do Karin"
 #training_chara=sel
 
 #（選択後）
@@ -533,13 +607,13 @@ label	training_in_4
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-＠樹
+＠Itsuki
 「はい」
 
-＠美雨,B00104
+＠Miu,B00104
 「美雨です。樹さん、そろそろ大丈夫ですか？」
 
-＠樹
+＠Itsuki
 「ん、分かった」
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -549,51 +623,51 @@ label	training_in_4
 @bg_rouka_n
 @miu
 
-＠美雨,B00105
+＠Miu,B00105
 「すみません。お休みじゃなかったですか？」
 
-＠樹
+＠Itsuki
 「いや、ちゃんと起きてたよ。週末だからね」
 
-＠美雨,B00106
+＠Miu,B00106
 「今日もいちごちゃんか、かりんちゃん。どちらかの子でお願いします」
 
-＠美雨,B00107
+＠Miu,B00107
 「とりあえず先週とは違う子にして、二人に一度ずつ調教を与えておくのがいいと思いますけど」
 
-＠樹
+＠Itsuki
 「あ……ああ、そうだね」
 
 やっぱりおっとり口調でそういう事を言われるのは、違和感があるな。
 
-＠樹
+＠Itsuki
 「………こんな事をしてて、雫さんは大丈夫なのかな」
 
 @miu_kanashimi
 
-＠美雨,B00108
+＠Miu,B00108
 「そうですね……」
 
 @miu
 
-＠美雨,B00109
+＠Miu,B00109
 「心配する気持ちは分かりますが、今はこれが私たちに出来ることなのは確かです」
 
-＠美雨,B00110
+＠Miu,B00110
 「樹さんがしっかり施設を運営していると分かってもらえれば、雫さんもきっと無事に帰ってこれますよ」
 
-＠樹
+＠Itsuki
 「ん……ああ」
 
 生返事しか出来ない。
 
-＠美雨,B00111
+＠Miu,B00111
 「それでは、私はこれで」
 
-＠美雨,B00112
+＠Miu,B00112
 「子供達には私から声をかけておきますから、樹さんは部屋の方に行っていてください」
 
-＠樹
+＠Itsuki
 「分かった。頼むよ」
 
 美雨が歩き出したのを見て、オレも調教部屋の方へと歩を進めた。
@@ -627,26 +701,35 @@ label	training_in_5
 #■BG（自室・夜）
 @bg_itsuki_n
 
-また週末の夜がやって来た。
+#また週末の夜がやって来た。
+#SCRIPT ADD KANJI
+Ａgain the weekend's training reared its ugly head.
 
 @shizuku_yorokobi
 
-＠雫,S00255
-「それじゃ恒例の、お楽しみタイムの時間だ」
+#「それじゃ恒例の、お楽しみタイムの時間だ」
+＠Shizuku,S00255
+「Well then, it's time for your customary fun time.」
 
-＠樹
-「タイムと時間の意味が被ってますよ」
+#「タイムと時間の意味が被ってますよ」
+＠Itsuki
+「You said time twice there bubs (jikan and taimu). They mean the same thing.」
 
-＠雫,S00256
-「そんなのノリじゃない。細かいことは気にしないの」
+#「そんなのノリじゃない。細かいことは気にしないの」
+＠Shizuku,S00256
+「There's no such nori (rules). I don't bother about trifles.」
 
-＠雫,S00257
-「ほら、今日はだれの果肉を味わうんだい～？」
+#「ほら、今日はだれの果肉を味わうんだい～？」
+＠Shizuku,S00257
+「Haha, I wonder whose sweet flesh of fruit you'll be savouring today～?」
 
-＠樹
-「…………」
+#「…………」
+＠Itsuki
+「... ... ... ...」
 
-何でこの人は、こんないつも嬉しそうなんだが。
+#何でこの人は、こんないつも嬉しそうなんだが。
+#SCRIPT ADD KANJI
+Ｗhat's with her? How can she seem so jovial all the time.
 
 label	training_in_5_a
 #■（キャラ選択）
@@ -664,8 +747,9 @@ if training_chara=0 then return
 
 #（選択後）
 
-＠雫,S00259
-「それじゃ、これで始めるよ」
+#「それじゃ、これで始めるよ」
+＠Shizuku,S00259
+「Then, let's start with this.」
 
 #（確認画面表示）
 
@@ -673,18 +757,20 @@ if training_chara=0 then return
 #（１．分かった）
 #（２．考え直す）
 
-select	sel,"分かった","考え直す"
+select	sel,"I'll do it","On second thought......"
 if	sel=0 then goto training_in_5_b
 if	sel=1 then goto training_in_5_c
 label	training_in_5_b
 
 #（分かった）
 
-＠雫,S00260
-「相手の子はあたしが呼びに行ってあげるから、樹は先に部屋に行ってな」
+#「相手の子はあたしが呼びに行ってあげるから、樹は先に部屋に行ってな」
+＠Shizuku,S00260
+「I'll go call your partner, so you go to the room from last time.」
 
-＠樹
-「ええ、お願いします」
+#「ええ、お願いします」
+＠Itsuki
+「Right, please.」
 
 @shizuku_
 @bg_black
@@ -696,8 +782,9 @@ label	training_in_5_c
 
 #（考え直す）
 
-＠雫,S00261
-「しょうがないね……じゃあ誰にする？」
+#「しょうがないね……じゃあ誰にする？」
+＠Shizuku,S00261
+「If you insist...... who will it be then?」
 
 goto	training_in_5_a
 
@@ -724,26 +811,34 @@ label	training_in_6
 #■BG（自室・夜）
 @bg_itsuki_n
 
-＠樹
-「ふぅ……また一週間経ったのか」
+#「ふぅ……また一週間経ったのか」
+＠Itsuki
+「*Sigh*...... Has another week passed again?」
 
-子供らを調教する、避けて通れない時間だ。
+#子供らを調教する、避けて通れない時間だ。
+#SCRIPT ADD KANJI
+Ｗe're training the children, it's a time that can't be avoided.
 
-そろそろいつものように雫さんがやってくるだろう。
+#そろそろいつものように雫さんがやってくるだろう。
+#SCRIPT ADD KANJI
+Ｓoon it'll be Shizuku's habitual arrival.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
 #CH（立ち絵なし）
 
-＠雫,S00262
-「樹～、今週の性欲処理の時間だよ～」
+#「樹～、今週の性欲処理の時間だよ～」
+＠Shizuku,S00262
+「Itsuki～, It's time to deal with your sexual desires this week～」
 
-＠雫,S00263
-「吸って揉んで舐って食んで、たっぷり肉欲を満たせる時間が来たよ」
+#「吸って揉んで舐って食んで、たっぷり肉欲を満たせる時間が来たよ」
+＠Shizuku,S00263
+「Sucking and rubbing and licking and drinking, a time that will arouse many lusts has come.」
 
-＠樹
-「そんな時間なら存在しませんッ、お引き取りを！」
+#「そんな時間なら存在しませんッ、お引き取りを！」
+＠Itsuki
+「If it's a time like that I won't do it!」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -752,31 +847,39 @@ label	training_in_6
 
 @shizuku_akire
 
-＠雫,S00264
-「はぁ……シャレじゃないか。お茶目なジョークだよ」
+#「はぁ……シャレじゃないか。お茶目なジョークだよ」
+＠Shizuku,S00264
+「*Sigh*...... It's a joke you know. A playful joke.」
 
-＠樹
-「全然茶目っ気なんかないですから。ただの下ネタですから」
+#「全然茶目っ気なんかないですから。ただの下ネタですから」
+＠Itsuki
+「This is no time for playfulness and it's a dirty joke.」
 
-＠樹
-「だいたい、仮にオレがシャレに乗って、『分かった』とか言ったらどうします？」
+#「だいたい、仮にオレがシャレに乗って、『分かった』とか言ったらどうします？」
+＠Itsuki
+「And generally, if I were to join in your joke and say "alright" or something how would that be?」
 
 @shizuku_warai2
 
-＠雫,S00265
-「それはもう、樹のドロドロした欲情の本心として、明日の朝には施設中を噂が駆け回ってるさ」
+#「それはもう、樹のドロドロした欲情の本心として、明日の朝には施設中を噂が駆け回ってるさ」
+＠Shizuku,S00265
+「Then rumours of Itsuki's dripping sexual desires and true feelings would be running about the place the next morning.」
 
-＠樹
-「それもうシャレの域じゃないですから！　イジメって言いますから！」
+#「それもうシャレの域じゃないですから！　イジメって言いますから！」
+＠Itsuki
+「That's not even a joke anymore! That's just tormenting!」
 
-＠雫,S00266
-「ふふ。それじゃそろそろ、今日あんたが虐めたい子は誰なのか」
+#「ふふ。それじゃそろそろ、今日あんたが虐めたい子は誰なのか」
+＠Shizuku,S00266
+「ふふ. Well then, who would you like to torment today?」
 
-＠雫,S00267
-「綺麗にまとまったところで、さぁ、選ぼうか」
+#「綺麗にまとまったところで、さぁ、選ぼうか」
+＠Shizuku,S00267
+「We have a pretty selection, come on, shall you choose?」
 
-＠樹
-「全然綺麗じゃない全然綺麗じゃない」
+#「全然綺麗じゃない全然綺麗じゃない」
+＠Itsuki
+「There's nothing pretty about this, there isn't.」
 
 label	training_in_6_a
 
@@ -796,26 +899,29 @@ if training_chara=0 then return
 
 #（選択後）
 @shizuku_yorokobi
-＠雫,S00269
-「よし、これでいいんだね？」
+#「よし、これでいいんだね？」
+＠Shizuku,S00269
+「All right, this is good right?」
 
 #（確認画面表示）
 
 #■（選択肢）
 #（１．いいよ）
 #（２．考え直す）
-select	sel,"いいよ","考え直す"
+select	sel,"It's good","On second thought..."
 if sel=0 then goto training_in_6_b
 if sel=1 then goto training_in_6_c
 
 #（いいよ）
 label	training_in_6_b
 
-＠雫,S00270
-「樹は先に行ってな。あたしがこの子を呼んできてあげるから」
+#「樹は先に行ってな。あたしがこの子を呼んできてあげるから」
+＠Shizuku,S00270
+「Go to the place from last time. I'll call this child for you.」
 
-＠樹
-「ええ、お願いします」
+#「ええ、お願いします」
+＠Itsuki
+「Ee, onegaishimasu.」
 
 @shizuku_
 @bg_black
@@ -826,8 +932,9 @@ return
 label	training_in_6_c
 #（考え直す）
 
-＠雫,S00271
-「だったら選び直しなさい。ほら、早く」
+#「だったら選び直しなさい。ほら、早く」
+＠Shizuku,S00271
+「Then choose again. Hurry up already.」
 
 #（キャラ選択へ）→以下ループ
 goto	training_in_6_a
@@ -852,109 +959,146 @@ label	training_in_7
 #■BG（自室・夜）
 @bg_itsuki_n
 
-＠樹
-「ん……何か眠いな……」
+#「ん……何か眠いな……」
+＠Itsuki
+「Ungh...... I'm drowsy for some reason......」
 
-日頃の疲れが出たか、ちょっと瞼が重い。
+#日頃の疲れが出たか、ちょっと瞼が重い。
+#SCRIPT ADD KANJI
+Ａm I fatigued from this routine? My eyelids feel a little heavy.
 
-けど今日は週末の調教の日だ。
+#けど今日は週末の調教の日だ。
+#SCRIPT ADD KANJI
+Ｂut today is the day of the weekend's training.
 
-＠樹
-「んー………」
+#「んー………」
+＠Itsuki
+「Unnn... ... ...」
 
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @se08
 
-＠樹
-「んわ…ッ！？」
+#「んわ…ッ！？」
+＠Itsuki
+「Agh...!?」
 
 @shizuku_ikari
 
-＠雫,S00272
-「こら、樹ー！　調教の日だ、忘れてるんじゃないんだろうね」
+#「こら、樹ー！　調教の日だ、忘れてるんじゃないんだろうね」
+＠Shizuku,S00272
+「Hey, Itsukiー! It's training day, you probably forgot didn't you.」
 
 @shizuku
 
-＠雫,S00273
-「……って、おや？　床で何やってんだい？」
+#「……って、おや？　床で何やってんだい？」
+＠Shizuku,S00273
+「...... Oh what? What are you doing on the floor?」
 
-＠樹
-「の、ノックくらいしてから入ってください！」
+#「の、ノックくらいしてから入ってください！」
+＠Itsuki
+「A-at least knock before you come in!」
 
-ビックリして床に転げ落ちていた。
+#ビックリして床に転げ落ちていた。
+#SCRIPT ADD KANJI
+Ｉ was surprised and tumbled down onto the floor.
 
-＠雫,S00274
-「したよ、ノックは。返事がなかったんで、寝てると思ったから開けたのさ」
+#「したよ、ノックは。返事がなかったんで、寝てると思ったから開けたのさ」
+＠Shizuku,S00274
+「I did knock. You didn't reply so I assumed you were sleeping and opened the door.」
 
-＠雫,S00275
+＠Shizuku,S00275
 「……ん？」
 
 @shizuku_warai
 
-＠雫,S00276
-「あぁ、なるほどねぇ……眠気じゃなくて、そっちに夢中で気付かなかったかのかい」
+#「あぁ、なるほどねぇ……眠気じゃなくて、そっちに夢中で気付かなかったかのかい」
+＠Shizuku,S00276
+「あぁ, I get it...... You weren't tired, you were engrossed and didn't notice me.」
 
-＠樹
-「え……？」
+#「え……？」
+＠Itsuki
+「Eh......?」
 
-うつ伏せたまま抗議するオレに、悟ったようないやらしい系の笑みを浮かべた。
+#うつ伏せたまま抗議するオレに、悟ったようないやらしい系の笑みを浮かべた。
+#SCRIPT ADD KANJI
+Ｓhe floated a smile with a perverted corollary like she had discerned something to me who protests lying face-down.
 
-＠雫,S00277
-「ふふ。床に擦り付けるなんて、ずいぶんと子供っぽいやり方をするんだねぇ」
+#「ふふ。床に擦り付けるなんて、ずいぶんと子供っぽいやり方をするんだねぇ」
+＠Shizuku,S00277
+「ふふ. Rubbing up against the floor, that's a very childish way of doing it.」
 
-＠雫,S00278
-「でもそういう可愛らしさ、結構あたしのツボを付いてるよ」
+#「でもそういう可愛らしさ、結構あたしのツボを付いてるよ」
+＠Shizuku,S00278
+「But that type of thing is very endearing, it's really gives me shivers.」
 
-＠樹
-「は……？」
+#「は……？」
+＠Itsuki
+「What......?」
 
 #SE53　傷つく言葉（グサッ！）
 @se53
 
-＠樹
-「うがッ！？」
+#「うがッ！？」
+＠Itsuki
+「Uga!?」
 
-一拍置いてその意味に気付き、慌てて身体を起こすオレ。
+#一拍置いてその意味に気付き、慌てて身体を起こすオレ。
+#SCRIPT ADD KANJI
+Ａfter a beat recognizing her meaning, getting flustered I rise up.
 
-＠樹
-「ちょッ！　ちがッ！　ビックリして床に転げ落ちただけですってッ！」
+#「ちょッ！　ちがッ！　ビックリして床に転げ落ちただけですってッ！」
+＠Itsuki
+「Wait! That's not it! You startled me and I fell onto the floor!」
 
 @shizuku_ikari
 
-＠雫,S00279
-「別に恥ずかしがることないよ。やり方なんて人それぞれ、千差万別なんだからさ」
+#「別に恥ずかしがることないよ。やり方なんて人それぞれ、千差万別なんだからさ」
+＠Shizuku,S00279
+「There's nothing to be ashamed of. Each person has their own way of doing it, there's an infinite variety.」
 
-＠樹
-「だから違うってよッ、オレは別に、もっと普通に――――うぐ！！」
+#「だから違うってよッ、オレは別に、もっと普通に――――うぐ！！」
+＠Itsuki
+「So it's different I said, I'm different, I do it more normally――――Ugu!!」
 
 @shizuku_warai
 
-＠雫,S00280
-「ふふふ～。ん～、普通に？」
+#「ふふふ～。ん～、普通に？」
+＠Shizuku,S00280
+「ふふふ～。ん～, normally?」
 
-＠雫,S00281
-「普通にどうしたの～？　どんなふうにするの、樹は？」
+#「普通にどうしたの～？　どんなふうにするの、樹は？」
+＠Shizuku,S00281
+「What way is normally～? How do you do it, Itsuki?」
 
-＠樹
-「う、ぐッ……！」
+#「う、ぐッ……！」
+＠Itsuki
+「Uh, gu!」
 
-＠樹
-「も、もういいです！　とっとと始めましょうッ、調教調教！」
+#「も、もういいです！　とっとと始めましょうッ、調教調教！」
+＠Itsuki
+「T-that's enough! Let's begin quickly, training training!」
 
 @shizuku
 
-＠雫,S00282
-「ま、それはまたの機会にジックリと教えてもらうとしましょうか」
+#「ま、それはまたの機会にジックリと教えてもらうとしましょうか」
+＠Shizuku,S00282
+「Well, as for that this time you get another shot, if you teach carefully shall we? 」
 
-＠雫,S00283
-「とりあえず今は調教だね。さ、どうするか選びな？」
+#「とりあえず今は調教だね。さ、どうするか選びな？」
+＠Shizuku,S00283
+「For now it's training I guess. So, who will you choose?」
 
-＠樹
-「………はぁ」
+#「………はぁ」
+＠Itsuki
+「... ... ... Haa.」
 
-眠気もすっかり覚めてしまった。
+#眠気もすっかり覚めてしまった。
+#SCRIPT ADD KANJI
+Ｔhe drowsiness has cleared away completely too.
 
-今週はどうするかな。
+#今週はどうするかな。
+#SCRIPT ADD KANJI
+Ｗhat will I do this week.
 
 label	training_in_7_a
 #■（キャラ選択）
@@ -973,15 +1117,16 @@ if training_chara=0 then return
 
 #（選択後）
 
-＠雫,S00285
-「なら、これで始めて大丈夫だね」
+#「なら、これで始めて大丈夫だね」
+＠Shizuku,S00285
+「Then starting with this is fine right?」
 
 #（確認画面表示）
 
 #■（選択肢）
 #（１．お願いします）
 #（２．考え直す）
-select	sel,"お願いします","考え直す"
+select	sel,"Please","On second thought..."
 if sel=0 then goto training_in_7_b
 if sel=1 then goto training_in_7_c
 
@@ -989,30 +1134,39 @@ if sel=1 then goto training_in_7_c
 label	training_in_7_b
 #（お願いします）
 
-＠雫,S00286
-「オナニーするくらい溜まってるみたいだし、さっさと始めようか」
+#「オナニーするくらい溜まってるみたいだし、さっさと始めようか」
+＠Shizuku,S00286
+「It looks like you've saved up enough to masturbate, quickly shall we begin?」
 
-＠樹
-「くぅッ……！　違うってのに！」
+#「くぅッ……！　違うってのに！」
+＠Itsuki
+「Kuu! I said that wasn't it!」
 
-しばらく引っ張られそうだ、そのネタ……
+#しばらく引っ張られそうだ、そのネタ……
+#SCRIPT ADD KANJI
+Ｉt looks like I've been delayed for a long time, what a joke......
 
-＠樹
-「オレは部屋に行ってますから、子供達のほうは頼みますよ」
+#「オレは部屋に行ってますから、子供達のほうは頼みますよ」
+＠Itsuki
+「After I leave the room, I'll go toward the children and call.」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
-「変なことは言わないように！」
+#「変なことは言わないように！」
+＠Itsuki
+「And I won't say anything weird!」
 
-＠雫,S00287
-「むふふふ、言わない言わない。喋ったら『弱み』の意味がないしねぇ」
+#「むふふふ、言わない言わない。喋ったら『弱み』の意味がないしねぇ」
+＠Shizuku,S00287
+「むふふふ, so you won't. If you talk it doesn't mean you're weak you know.」
 
-＠樹
+＠Itsuki
 「…………」
 
-とにかくもう、今週も調教開始だ。
+#とにかくもう、今週も調教開始だ。
+#SCRIPT ADD KANJI
+Ａt any rate, this week it's already the start of another training.
 
 @shizuku_
 @bg_black
@@ -1024,8 +1178,9 @@ return
 label	training_in_7_c
 #（考え直す）
 
-＠雫,S00288
-「この子じゃ嫌だって言うの？　贅沢だねぇ」
+#「この子じゃ嫌だって言うの？　贅沢だねぇ」
+＠Shizuku,S00288
+「You're saying this child isn't fit for you? How luxurious.」
 
 #（キャラ選択へ）→以下ループ
 goto	training_in_7_a
@@ -1050,46 +1205,47 @@ label	training_in_8
 
 @shizuku
 
-＠雫,S00289
+＠Shizuku,S00289
 「さ、今日も張り切ってヌキに行こうか、樹」
 
-＠樹
+＠Itsuki
 「別にやるのはオレで、雫さんには関係ないことでしょうに」
 
-＠雫,S00290
+＠Shizuku,S00290
 「あるよ、関係あるある」
 
-＠雫,S00291
+＠Shizuku,S00291
 「樹が小さい子を相手に、あんな事やこんな事をしてるのかって想像しててねぇ……」
 
 @shizuku_ikari
 
-＠雫,S00292
+＠Shizuku,S00292
 「あたしはいつもいつも隣の部屋で、濡れ濡れなのよ、もう！」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
+＠Itsuki
 「変態か！！」
 
-＠樹
+＠Itsuki
 「って、隣の部屋に居るんですか！？　いつもいつも！？」
+
 
 @shizuku_warai2
 
-＠雫,S00293
+＠Shizuku,S00293
 「はははっ、冗談だよ、冗談。あたしだってそんな暇じゃないよ」
 
 暇にしか思えないから、心配なんだが……
 
-＠樹
+＠Itsuki
 （これからはちょっと、隣の様子とか気にした方がいいかもしれん……）
 
-＠雫,S00294
+＠Shizuku,S00294
 「さぁて、今夜のあたしのオカズ………じゃないや、調教の相手は誰にするんだい？」
 
-＠樹
+＠Itsuki
 「…………」
 
 label	training_in_8_a
@@ -1109,7 +1265,7 @@ if training_chara=0 then return
 
 #（選択後）
 @shizuku_yorokobi
-＠雫,S00296
+＠Shizuku,S00296
 「なら、今日はこれで始めるんだね」
 
 #（確認画面表示）
@@ -1118,7 +1274,7 @@ if training_chara=0 then return
 #（１．これでいい）
 #（２．考え直す）
 
-select sel,"これでいい","考え直す"
+select sel,"This is good","On second thought..."
 if sel=0 then goto training_in_8_b
 if sel=1 then goto training_in_8_c
 
@@ -1126,19 +1282,19 @@ if sel=1 then goto training_in_8_c
 label	training_in_8_b
 #（これでいい）
 
-＠雫,S00297
+＠Shizuku,S00297
 「よーし！　なら先に部屋に行ってな。呼んできてあげるから」
 
-＠樹
+＠Itsuki
 「……隣に居ないでくださいよ」
 
-＠雫,S00298
+＠Shizuku,S00298
 「ふふふっ。もう今さら、一度や二度増えたって変わらないと思うけどねぇ」
 
 #SE75　ショック音（ガーーン！）
 @se75
 
-＠樹
+＠Itsuki
 「やっぱりッ！！」
 
 #■BG（黒）
@@ -1156,7 +1312,7 @@ return
 label	training_in_8_c
 #（考え直す）
 
-＠雫,S00299
+＠Shizuku,S00299
 「あたしはいいと思ったけど……それじゃ、どうするの？」
 
 #（キャラ選択へ）→以下ループ
@@ -1187,7 +1343,7 @@ if training_chara=0 then return
 #■（選択肢）
 #（１．これでいい）
 #（２．考え直す）
-select sel,"これでいい","考え直す"
+select sel,"This is good","On second thought..."
 if sel=0 then goto hika04_qa01_a
 if sel=1 then goto hika04_qa01_b
 #--------------------------------------------------
@@ -1199,10 +1355,10 @@ if sel=1 then goto hika04_qa01_b
 label		hika04_qa01_a
 
 
-＠樹
+＠Itsuki
 「よし、今日はこれで行こうか」
 
-＠樹
+＠Itsuki
 「……っと、今日は先にオレが相手を呼んでおかないといけないのか」
 
 

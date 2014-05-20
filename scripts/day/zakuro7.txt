@@ -26,14 +26,22 @@ label	zakuro_07
 @bgm12			#BGM 12 : メインテーマ
 
 
-雫さんも一緒の食事となったが、なにか違和感があった。
+#雫さんも一緒の食事となったが、なにか違和感があった。
+#SCRIPT ADD KANJI
+Ｓhizuku-san ate with us, but I felt kind of uncomfortable.
 
-あるべきものがそこにないような。
+#あるべきものがそこにないような。
+#SCRIPT ADD KANJI
+Ｉt feels like something that should be there is not there.
 
-なんだろう。
+#なんだろう。
+#SCRIPT ADD KANJI
+Ｗhat is it?
 
-＠樹
-「………………？」
+#＠樹
+#「………………？」
+＠Itsuki
+「..................?」
 
 
 @miu_middle		# 中間
@@ -42,11 +50,15 @@ label	zakuro_07
 @miu2			#開_にこ
 
 
-＠美雨,B03255
-「樹さん、今日のポトフ美味しくなかったですか？　味付けにちょっとお味噌を使ってみたんですけど……」
+#＠美雨,B03255
+#「樹さん、今日のポトフ美味しくなかったですか？　味付けにちょっとお味噌を使ってみたんですけど……」
+＠Miu,B03255
+「Itsuki-san, was the pot-au-feu today delicious? I tried using some miso as seasoning......」
 
-＠樹
-「あ、いや……美味いよ」
+#＠樹
+#「あ、いや……美味いよ」
+＠Itsuki
+「Ah, no...... it was delicious.」
 
 
 @chara_clear		#保険
@@ -63,8 +75,10 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A02504
-「うん、お味噌ポトフ、すっごく美味し～～」
+#＠みかん,A02504
+#「うん、お味噌ポトフ、すっごく美味し～～」
+＠Mikan,A02504
+「Yup, miso pot-au-feu is reallllly yummy~~」
 
 
 @chara_clear		#保険
@@ -74,8 +88,10 @@ wait		500
 @miu			#閉_にこ
 
 
-＠美雨,B03256
-「ありがとう、うふふ」
+#＠美雨,B03256
+#「ありがとう、うふふ」
+＠Miu,B03256
+「Thank you, ufufu.」
 
 
 @chara_clear		#保険
@@ -85,27 +101,37 @@ wait		500
 @shizuku		#普通
 
 
-＠雫,S01492
-「あたしは味噌の味がもっと濃いと嬉しいね。それから豆腐とかゴボウとかも入れて欲しいねぇ」
+#＠雫,S01492
+#「あたしは味噌の味がもっと濃いと嬉しいね。それから豆腐とかゴボウとかも入れて欲しいねぇ」
+＠Shizuku,S01492
+「I like the miso flavor better when it's stronger. Also I want tofu and gobou added too.」
 
 
 
-＠美雨,B03257
-「豆腐とゴボウですか……」
+#＠美雨,B03257
+#「豆腐とゴボウですか……」
+＠Miu,B03257
+「Tofu and gobou......」
 
-＠樹
-「そりゃ豚汁でしょう」
+#＠樹
+#「そりゃ豚汁でしょう」
+＠Itsuki
+「Isn't that just butajiru?」
 
 
 #@shizuku_yorokobi	#喜
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S01493
-「いいんだよ、好きなんだから。で、美味いって言ってるあんたは箸が進んでないね」
+#＠雫,S01493
+#「いいんだよ、好きなんだから。で、美味いって言ってるあんたは箸が進んでないね」
+＠Shizuku,S01493
+「Doesn't matter, I like it. And, even though you said it's delicious, you're not moving your chopsticks.」
 
-＠樹
-「いえ……なんか今日の食事、変な気がしませんか？」
+#＠樹
+#「いえ……なんか今日の食事、変な気がしませんか？」
+＠Itsuki
+「No...... Doesn't this meal feel kind of weird?」
 
 
 @chara_clear		#保険
@@ -115,11 +141,15 @@ wait		500
 @karin			#普通
 
 
-＠かりん,P02705
-「変？　なにが？」
+#＠かりん,P02705
+#「変？　なにが？」
+＠Karin,P02705
+「Weird? What is?」
 
-＠樹
-「いや、それが分からない……なんかいつもと違うってういうか」
+#＠樹
+#「いや、それが分からない……なんかいつもと違うってういうか」
+＠Itsuki
+「No, I don't know what but...... It feels like something has been wrong or something.」
 
 
 @chara_clear		#保険
@@ -129,11 +159,15 @@ wait		500
 @shizuku_akire		#呆
 
 
-＠雫,S01494
-「あたしが一緒にいるのが変とか言ったら殴るよ」
+#＠雫,S01494
+#「あたしが一緒にいるのが変とか言ったら殴るよ」
+＠Shizuku,S01494
+「If you're saying that it's weird that I'm here, I'll hit you.」
 
-＠樹
-「言いませんよ、そんなこと……ま、いいか」
+#＠樹
+#「言いませんよ、そんなこと……ま、いいか」
+＠Itsuki
+「I'm not saying that...... Well, whatever.」
 
 
 @chara_clear		#保険
@@ -143,18 +177,24 @@ wait		500
 @ichigo_yorokobi	#喜
 
 
-＠いちご,O02740
-「パパ、そのマヨネーズとってっ」
+#＠いちご,O02740
+#「パパ、そのマヨネーズとってっ」
+＠Ichigo,O02740
+「Papa, pass me that mayonnaise!」
 
-＠樹
-「え？　ああ、はい」
+#＠樹
+#「え？　ああ、はい」
+＠Itsuki
+「Eh? Ah, here.」
 
 
 @ichigo_komikaru_warai	#コミカル笑
 
 
-＠いちご,O02741
-「ありがと。えへへ、マヨネーズ、にゅるにゅるにゅる～～～♪」
+#＠いちご,O02741
+#「ありがと。えへへ、マヨネーズ、にゅるにゅるにゅる～～～♪」
+＠Ichigo,O02741
+「Thanks. Ehehe, mayonnaise, nyuru-nyuru-nyuru~~~♪」
 
 
 @chara_clear		#保険
@@ -164,8 +204,10 @@ wait		500
 @karin_kanashimi	#哀
 
 
-＠かりん,P02706
-「……相変わらず気持ち悪いわね」
+#＠かりん,P02706
+#「……相変わらず気持ち悪いわね」
+＠Karin,P02706
+「......You're disgusting as always.」
 
 
 @chara_clear		#保険
@@ -175,8 +217,10 @@ wait		500
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00883
-「食べ方は、人それぞれですから」
+#＠すいか,R00883
+#「食べ方は、人それぞれですから」
+＠Suika,R00883
+「Different people have different ways of eating.」
 
 
 @chara_clear		#保険
@@ -186,11 +230,15 @@ wait		500
 @karin_kanashimi	#哀
 
 
-＠かりん,P02707
-「すいかはそう言うけど、いちごといい、ざくろといい………えっ！？」
+#＠かりん,P02707
+#「すいかはそう言うけど、いちごといい、ざくろといい………えっ！？」
+＠Karin,P02707
+「You may say that Suika, however, Ichigo and Zakuro......... Eh!?」
 
-＠樹
-「どうした？」
+#＠樹
+#「どうした？」
+＠Itsuki
+「What?」
 
 
 @chara_clear		#保険
@@ -207,21 +255,31 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02742
-「あ～～～～～！！　青ノリかけてないっ！！」
+#＠いちご,O02742
+#「あ～～～～～！！　青ノリかけてないっ！！」
+＠Ichigo,O02742
+「Aah~~~~~!! There's no aonori!!」
 
 
 @ichigo_
 
 
-＠樹
-「えっ……！？」
+#＠樹
+#「えっ……！？」
+＠Itsuki
+「Eh......!?」
 
-驚いてざくろの皿を見る。
+#驚いてざくろの皿を見る。
+#SCRIPT ADD KANJI
+Ｓurprised, I look at Zakuro's plate.
 
-本当だ……ご飯にもポトフにも青ノリがかかってない。
+#本当だ……ご飯にもポトフにも青ノリがかかってない。
+#SCRIPT ADD KANJI
+Ｉt's true...... There's no aonori on her rice or pot-au-feu.
 
-ずっと感じていた違和感の正体が分かったが、こんなことがあるなんて。
+#ずっと感じていた違和感の正体が分かったが、こんなことがあるなんて。
+#SCRIPT ADD KANJI
+Ｉ finally understand what the uncomfortable feeling was, but for it to be something like this.
 
 
 @ichigo_middle		# 中間
@@ -229,8 +287,10 @@ layer_movepass_play	l_ichigo,0,play_once
 @ichigo_komikaru_odoroki	#コミカル驚
 
 
-＠いちご,O02743
-「ざくろが大変だーーー！」
+#＠いちご,O02743
+#「ざくろが大変だーーー！」
+＠Ichigo,O02743
+「Zakuro is in trouble---!」
 
 
 @chara_clear		#保険
@@ -240,8 +300,10 @@ wait		500
 @suika_kanashimi	#哀
 
 
-＠すいか,R00884
-「ざくろちゃんが青ノリを使ってないなんて……」
+#＠すいか,R00884
+#「ざくろちゃんが青ノリを使ってないなんて……」
+＠Suika,R00884
+「For Zakuro-chan to not be using aonori......」
 
 
 @chara_clear		#保険
@@ -251,8 +313,10 @@ wait		500
 @karin_odoroki		#驚
 
 
-＠かりん,P02708
-「ちょっとざくろ、いったいどうしたの？」
+#＠かりん,P02708
+#「ちょっとざくろ、いったいどうしたの？」
+＠Karin,P02708
+「Hey, Zakuro, what happened?」
 
 
 @chara_clear		#保険
@@ -262,17 +326,23 @@ wait		500
 @mikan_kanashimi	#哀
 
 
-＠みかん,A02505
-「ひょっとして、具合悪いの？」
+#＠みかん,A02505
+#「ひょっとして、具合悪いの？」
+＠Mikan,A02505
+「Could she not be feeling well?」
 
 
 @mikan_
 
 
-＠樹
-「ざくろ、大丈夫か？」
+#＠樹
+#「ざくろ、大丈夫か？」
+＠Itsuki
+「Zakuro, are you okay?」
 
-普通なら考えられない事態に、皆口々にざくろを気遣う。
+#普通なら考えられない事態に、皆口々にざくろを気遣う。
+#SCRIPT ADD KANJI
+Ｅveryone worries about Zakuro in this normally unimaginable condition.
 
 
 @zakuro_middle		# 中間
@@ -280,15 +350,19 @@ wait		500
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01477
-「別になんともない。忘れてただけ」
+#＠ざくろ,Q01477
+#「別になんともない。忘れてただけ」
+＠Zakuro,Q01477
+「Nothing really. I just forgot.」
 
 
 #SE23　青ノリを振り掛ける音（ザッザッザッ）
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
 
-ざくろは青ノリを取って、盛大に振りかけ始めた。
+#ざくろは青ノリを取って、盛大に振りかけ始めた。
+#SCRIPT ADD KANJI
+Ｚakuro takes the aonori, and starts sprinkling a lot on her food.
 
 
 @chara_clear		#保険
@@ -298,8 +372,10 @@ wait		500
 @mikan_odoroki		#驚
 
 
-＠みかん,A02506
-「ふあぁ、こんなことあるんだー」
+#＠みかん,A02506
+#「ふあぁ、こんなことあるんだー」
+＠Mikan,A02506
+「Fuaaa, well that kind of thing happens--」
 
 
 @chara_clear		#保険
@@ -309,8 +385,10 @@ wait		500
 @suika_odoroki		#驚
 
 
-＠すいか,R00885
-「うん、驚いちゃった」
+#＠すいか,R00885
+#「うん、驚いちゃった」
+＠Suika,R00885
+「Yup, I was surprised.」
 
 
 @chara_clear		#保険
@@ -320,8 +398,10 @@ wait		500
 @karin_kanashimi	#哀
 
 
-＠かりん,P02709
-「天変地異の前触れかしら」
+#＠かりん,P02709
+#「天変地異の前触れかしら」
+＠Karin,P02709
+「I wonder if this is a forewarning of a natural disaster.」
 
 
 @chara_clear		#保険
@@ -341,11 +421,15 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02744
-「むぅー、なにか恐ろしいことが怒りそうだよ！　地震かみなり火事ーーーっ！」
+#＠いちご,O02744
+#「むぅー、なにか恐ろしいことが怒りそうだよ！　地震かみなり火事ーーーっ！」
+＠Ichigo,O02744
+「Muu-, something dreadful is about to happen! Earthquake lightning fire------!!」
 
-＠樹
-「いちご、嬉しそうに言わない」
+#＠樹
+#「いちご、嬉しそうに言わない」
+＠Itsuki
+「Ichigo, don't say that happily.」
 
 
 @chara_clear		#保険
@@ -355,14 +439,19 @@ wait		500
 @shizuku_akire		#呆
 
 
-＠雫,S01495
-「…………………」
+#＠雫,S01495
+#「…………………」
+＠Shizuku,S01495
+「.....................」
 
-＠ざくろ,Q01478
-「ぱく………ぱく…………」
+#＠ざくろ,Q01478
+#「ぱく………ぱく…………」
+＠Zakuro,Q01478
+「Munch.........Munch............」
 
-驚いているこちらをよそに、ざくろはいつものように青ノリまみれのそれらを食べていたが、
-
+#驚いているこちらをよそに、ざくろはいつものように青ノリまみれのそれらを食べていたが、
+#SCRIPT ADD KANJI
+Ｆrom a different place than us surprised here, Zakuro ate those things covered in aonori like usual but,
 
 @chara_clear		#保険
 wait		500
@@ -371,23 +460,28 @@ wait		500
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01479
-「…………ごちそうさま」
+#＠ざくろ,Q01479
+#「…………ごちそうさま」
+＠Zakuro,Q01479
+「............Thanks for the meal.」
 
 
 @zakuro_
 
 
-まだ半分以上残っているというのに、そう言ってサッと席を立とうとした。
-
+#まだ半分以上残っているというのに、そう言ってサッと席を立とうとした。
+#SCRIPT ADD KANJI
+Ｅven though there was still more than half left, she said that and left her seat.
 
 @miu_middle		# 中間
 @miu_maid
 @miu_komaru		#開_困
 
 
-＠美雨,B03258
-「ざくろちゃん、美味しくなかった？」
+#＠美雨,B03258
+#「ざくろちゃん、美味しくなかった？」
+＠Miu,B03258
+「Zakuro-chan, was it not delicious?」
 
 
 @chara_clear		#保険
@@ -397,11 +491,15 @@ wait		500
 @zakuro			#普
 
 
-＠ざくろ,Q01480
-「そんなことない。青ノリとの相性も最高。すごく美味しい。今日はちょっと食欲がないだけ。残してごめんなさい」
+#＠ざくろ,Q01480
+#「そんなことない。青ノリとの相性も最高。すごく美味しい。今日はちょっと食欲がないだけ。残してごめんなさい」
+＠Zakuro,Q01480
+「No. It was very compatible with aonori too. It was very delicious. I just don't have much appetite today. Sorry for leaving some.」
 
-＠美雨,B03259
-「え？　ううん、いいのよそんなこと」
+#＠美雨,B03259
+#「え？　ううん、いいのよそんなこと」
+＠Miu,B03259
+「Eh? No, that's okay.」
 
 
 @zakuro_akire		#呆
@@ -414,24 +512,32 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ざくろ,Q01481
-「ごちそうさま」
+#＠ざくろ,Q01481
+#「ごちそうさま」
+＠Zakuro,Q01481
+「Thanks for the meal.」
 
 
 @zakuro_
 
 
-もう一度ざくろは言って、食堂を出て行こうとした。
+#もう一度ざくろは言って、食堂を出て行こうとした。
+#SCRIPT ADD KANJI
+Ｚakuro said that once more and started to leave the dining hall.
 
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
 
-＠雫,S01496
-「あ～～～～、ちょっとざくろ」
+#＠雫,S01496
+#「あ～～～～、ちょっとざくろ」
+＠Shizuku,S01496
+「Ah~~~~, wait Zakuro.」
 
-ざくろが扉に手を掛けたところで、雫さんが声をかける。
+#ざくろが扉に手を掛けたところで、雫さんが声をかける。
+#SCRIPT ADD KANJI
+Ｓhizuku-san called out to Zakuro just as she put her hand on the door.
 
 
 @zakuro_small
@@ -439,28 +545,38 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro			#普
 
 
-＠ざくろ,Q01482
-「なに？」
+#＠ざくろ,Q01482
+#「なに？」
+＠Zakuro,Q01482
+「What?」
 
-＠雫,S01497
-「大丈夫かい？」
+#＠雫,S01497
+#「大丈夫かい？」
+＠Shizuku,S01497
+「Are you okay?」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01483
-「大丈夫。いつものことだから」
+#＠ざくろ,Q01483
+#「大丈夫。いつものことだから」
+＠Zakuro,Q01483
+「I'm fine. This is normal.」
 
-＠雫,S01498
-「本当に辛かったら言うんだよ」
+#＠雫,S01498
+#「本当に辛かったら言うんだよ」
+＠Shizuku,S01498
+「Tell me if it gets too painful for you.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01484
-「分かってる。ありがとう」
+#＠ざくろ,Q01484
+#「分かってる。ありがとう」
+＠Zakuro,Q01484
+「Okay. Thanks.」
 
 
 window_close
@@ -470,7 +586,9 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 
-ドアが閉まり、ざくろは自室に戻っていった。
+#ドアが閉まり、ざくろは自室に戻っていった。
+#SCRIPT ADD KANJI
+Ｃlosing the door, Zakuro returned to her room.
 
 
 @chara_clear		#保険
@@ -480,8 +598,10 @@ wait		500
 @mikan_kanashimi	#哀
 
 
-＠みかん,A02507
-「ざくろちゃん、大丈夫かな……」
+#＠みかん,A02507
+#「ざくろちゃん、大丈夫かな……」
+＠Mikan,A02507
+「I wonder if Zakuro-chan is okay......」
 
 
 @chara_clear		#保険
@@ -491,64 +611,92 @@ wait		500
 @karin_kanashimi	#哀
 
 
-＠かりん,P02710
-「なんだかいつもと違う感じだったわね」
+#＠かりん,P02710
+#「なんだかいつもと違う感じだったわね」
+＠Karin,P02710
+「I feel as if something was different about her than usual.」
 
-＠樹
-「やっぱりちょっと具合が悪いみたいだな……」
+#＠樹
+#「やっぱりちょっと具合が悪いみたいだな……」
+＠Itsuki
+「It seems like she is feeling a bit unwell......」
 
 
 @karin_
 
 
-昼間、生理が来たとか言っていた。
+#昼間、生理が来たとか言っていた。
+#SCRIPT ADD KANJI
+Ｉn the day time, she said that her period came.
 
-男の身には一生分からないことだが、きっと辛いんだろう。
-
+#男の身には一生分からないことだが、きっと辛いんだろう。
+#SCRIPT ADD KANJI
+Ｉt's something that a man's body never understands in their whole lifetime. It must be painful.
 
 @shizuku_middle		# 中間
 @shizuku_shifuku
 @shizuku		#普通
 
 
-＠雫,S01499
-「えっ！？　やっぱりって、樹、あんた何か知ってるのかい？」
+#＠雫,S01499
+#「えっ！？　やっぱりって、樹、あんた何か知ってるのかい？」
+＠Shizuku,S01499
+「Eh!? So, Itsuki, you know something about what happened?」
 
-オレの呟きを聞きとがめる雫さん。
+#オレの呟きを聞きとがめる雫さん。
+#SCRIPT ADD KANJI
+Ｓhizuku-san questions me when she heard my whisper.
 
-＠樹
-「え？　いや、知ってるというか昼間にちょっと……」
+#＠樹
+#「え？　いや、知ってるというか昼間にちょっと……」
+＠Itsuki
+「Eh? No, it's not like I know anything about it but in the day time......」
 
 
 @shizuku_ikari		#怒
 
 
-＠雫,S01500
-「ちょっと何だい！」
+#＠雫,S01500
+#「ちょっと何だい！」
+＠Shizuku,S01500
+「What!?」
 
-雫さんが問い詰める。
+#雫さんが問い詰める。
+#SCRIPT ADD KANJI
+Ｓhizuku-san presses the question.
 
-他の皆もオレを見ていた。
+#他の皆もオレを見ていた。
+#SCRIPT ADD KANJI
+Ｅveryone else looks at me.
 
-＠樹
-「あ～～～、食事中にする話題じゃないんですが……その、ざくろ……生理が来たとか……」
+#＠樹
+#「あ～～～、食事中にする話題じゃないんですが……その、ざくろ……生理が来たとか……」
+＠Itsuki
+「Ah~~~, it's not something to talk about during a meal...... but well, Zakuro...... got her period......」
 
 
 @shizuku		#普通
 
 
-＠雫,S01501
-「生理……？」
+#＠雫,S01501
+#「生理……？」
+＠Shizuku,S01501
+「Period......?」
 
-＠樹
-「ええ、そう言ってました」
+#＠樹
+#「ええ、そう言ってました」
+＠Itsuki
+「Yes, I said that.」
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S01502
-「………………」
+#＠雫,S01502
+#「………………」
+＠Shizuku,S01502
+「..................」
+
 
 
 @chara_clear		#保険
@@ -558,8 +706,10 @@ wait		500
 @ichigo_yorokobi	#喜
 
 
-＠いちご,O02745
-「なーーんだ、そっかーーー」
+#＠いちご,O02745
+#「なーーんだ、そっかーーー」
+＠Ichigo,O02745
+「Wha----t, I see------」
 
 
 @chara_clear		#保険
@@ -569,8 +719,10 @@ wait		500
 @karin_niko		#にこ
 
 
-＠かりん,P02711
-「ならしょうがないわね。アレのときは青ノリも食べたくなくなるのかもね。ざくろって、キツい方だっけ」
+#＠かりん,P02711
+#「ならしょうがないわね。アレのときは青ノリも食べたくなくなるのかもね。ざくろって、キツい方だっけ」
+＠Karin,P02711
+「Then it can't be helped. When that happens, you become not wanting to eat even aonori. Zakuro is strong.」
 
 
 @chara_clear		#保険
@@ -580,8 +732,10 @@ wait		500
 @mikan			#普通
 
 
-＠みかん,A02508
-「う～～～ん、あんまりそういうこと言わないけど、全然楽ってことはないと思う」
+#＠みかん,A02508
+#「う～～～ん、あんまりそういうこと言わないけど、全然楽ってことはないと思う」
+＠Mikan,A02508
+「U~~~m, I won't say something like that, but I don't think she is at ease at all.」
 
 
 @chara_clear		#保険
@@ -591,8 +745,10 @@ wait		500
 @karin_kanashimi	#哀
 
 
-＠かりん,P02712
-「そりゃ楽じゃないわよね。はぁ、なんであんな面倒くさいものがあるのかしら」
+#＠かりん,P02712
+#「そりゃ楽じゃないわよね。はぁ、なんであんな面倒くさいものがあるのかしら」
+＠Karin,P02712
+「Well then she's not at ease. Haa, why is such a bothersome thing happening?」
 
 
 #@chara_clear		#保険
@@ -631,9 +787,13 @@ wait		500
 @karin_
 
 
-食事中だからと気を遣ったのに、女の子同士で生理談義が始まってしまった。
+#食事中だからと気を遣ったのに、女の子同士で生理談義が始まってしまった。
+#SCRIPT ADD KANJI
+Ｔhey should have taken into consideration that it was in the middle of a meal, but the girls started a lecture on periods.
 
-こういうときばかりは居心地が悪い。
+#こういうときばかりは居心地が悪い。
+#SCRIPT ADD KANJI
+Ｉ feel uncomfortable in these kinds of situations.
 
 
 @shizuku_middle		# 中間
@@ -641,45 +801,61 @@ wait		500
 @shizuku_akire		#呆
 
 
-＠雫,S01503
-「………………」
+#＠雫,S01503
+#「………………」
+＠Shizuku,S01503
+「..................」
 
-その一方で、雫さんは箸を止めて、何か少し考えているような様子だった。
+#その一方で、雫さんは箸を止めて、何か少し考えているような様子だった。
+#SCRIPT ADD KANJI
+Ｏn the other side, Shizuku-san stopped moving her chopsticks, and looked as if she were thinking about something.
 
-＠樹
-「雫さん、どうかしましたか？」
-
+#＠樹
+#「雫さん、どうかしましたか？」
+＠Itsuki
+「Shizuku-san, what happened?」
 
 @shizuku		#普通
 
 
-＠雫,S01504
-「ん？　ううん、ちょっとね」
+#＠雫,S01504
+#「ん？　ううん、ちょっとね」
+＠Shizuku,S01504
+「Hm? No, I just.」
 
-＠樹
-「ちょっと？」
+#＠樹
+#「ちょっと？」
+＠Itsuki
+「Just?」
 
 
 @shizuku_yorokobi	#喜
 
 
-＠雫,S01505
-「まぁいいさ。別に大したことじゃないしね」
+#＠雫,S01505
+#「まぁいいさ。別に大したことじゃないしね」
+＠Shizuku,S01505
+「Well, it doesn't matter. It's nothing important.」
 
 
 @shizuku_
 
 
-＠樹
-「はぁ、そうですか」
+#＠樹
+#「はぁ、そうですか」
+＠Itsuki
+「Haa, I see.」
 
-雫さんは軽く笑うと、食事の続きを始めた。
-
+#雫さんは軽く笑うと、食事の続きを始めた。
+#SCRIPT ADD KANJI
+Ｓhizuku-san lightly laughed, and continued her meal.
 
 bgm_stop
 
 
-だから、雫さんが何を考えていたのか、オレには良く分からなかった。
+#だから、雫さんが何を考えていたのか、オレには良く分からなかった。
+#SCRIPT ADD KANJI
+Ｓo that's why I didn't understand what Shizuku-san was thinking about.
 
 
 @bg_black

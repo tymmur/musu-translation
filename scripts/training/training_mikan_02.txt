@@ -1083,7 +1083,8 @@ goto	ev_mik_050_exit2
 #-- I—¹ --------------------------------------------------------------------
 label ev_mik_050_exit
 
-select	sel,"’²‹³‚ğI—¹‚·‚é","‚â‚Á‚Ï‚è‚â‚ß‚é"
+#"’²‹³‚ğI—¹‚·‚é","‚â‚Á‚Ï‚è‚â‚ß‚é"
+select	sel,"End training","On second thought..."
 if sel=1 then goto ev_mik_050_loop_a
 
 

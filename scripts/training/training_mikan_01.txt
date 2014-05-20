@@ -10,781 +10,1282 @@ scene_start	"みかん処女喪失"
 #■BG（調教部屋・ライト系）
 @bg_choukyou_n
 
-＠樹
-「さて、みかん。始めようか」
+#＠樹
+#「さて、みかん。始めようか」
+＠Itsuki
+「So, Mikan. Shall we begin?」
 
 @mikan
 
-＠みかん,A00483
-「今日は何をするの？」
+#＠みかん,A00483
+#「今日は何をするの？」
+＠Mikan,A00483
+「What are we doing today?」
 
-＠樹
-「それは……この前中断した、みかんの中に入れる作業だな」
+#＠樹
+#「それは……この前中断した、みかんの中に入れる作業だな」
+＠Itsuki
+「Well...... Last time we were interrupted from putting it inside Mikan.」
 
 @mikan_kanashimi
 
-＠みかん,A00484
+#＠みかん,A00484
+#「う……」
+＠Mikan,A00484
 「う……」
 
-躊躇を見せる。
+#躊躇を見せる。
+#SCRIPT ADD KANJI
+Ｓigns of hesitation.
 
-あまりいい思い出は無いだろう。当然だ。
+#あまりいい思い出は無いだろう。当然だ。
+#SCRIPT ADD KANJI
+Ｓeems she's having not-so-fantastic memories, as a matter of course.
 
-＠みかん,A00485
-「雫さんから聞いたんだけど、ああいうことするの、せっくすって言うんだよね」
+#＠みかん,A00485
+#「雫さんから聞いたんだけど、ああいうことするの、せっくすって言うんだよね」
+＠Mikan,A00485
+「I heard from Shizuku-san, doing that sort of thing, is called sex isn't it?」
 
-＠樹
-「また、あの人は要らん知識を……」
+#＠樹
+#「また、あの人は要らん知識を……」
+＠Itsuki
+「Again, that person provides knowledge that's not necessary......」
 
-＠樹
-「……いや、そうでもないのか」
+#＠樹
+#「……いや、そうでもないのか」
+＠Itsuki
+「...... Well, maybe it's not like that.」
 
-＠みかん,A00486
-「男の人は気持ちよくて、女の子も慣れたら気持ちよくなるって」
+#＠みかん,A00486
+#「男の人は気持ちよくて、女の子も慣れたら気持ちよくなるって」
+＠Mikan,A00486
+「The man feels good, and the girl if she relaxes feels good too is what she said.」
 
-＠みかん,A00487
-「お兄ちゃんも、せっくすするの気持ち良いの？」
+#＠みかん,A00487
+#「お兄ちゃんも、せっくすするの気持ち良いの？」
+＠Mikan,A00487
+「Does having sex feel good for Onii-chan too?」
 
-＠樹
-「ん？　ん～……」
+#＠樹
+#「ん？　ん～……」
+＠Itsuki
+「Hm? Weeell......」
 
-一瞬、どう答えたものか逡巡する。
+#一瞬、どう答えたものか逡巡する。
+#SCRIPT ADD KANJI
+Ｆor a moment I wasn't sure how to reply.
 
-＠樹
-「あぁ、気持ちいいよ。だからみかんも、気持ちよくしてやれるように努力する」
+#＠樹
+#「あぁ、気持ちいいよ。だからみかんも、気持ちよくしてやれるように努力する」
+＠Itsuki
+「Ahh, it does feel good. And so Mikan will be able to feel good too with great effort.」
 
-＠樹
-「だから怖がらずに、始めようか」
+#＠樹
+#「だから怖がらずに、始めようか」
+＠Itsuki
+「So without being afraid, shall we begin?」
 
-＠みかん,A00488
-「う、うん……」
+#＠みかん,A00488
+#「う、うん……」
+＠Mikan,A00488
+「O, Okay......」
 
 #■BG（黒）
 @bg_black
 
-戸惑いながら、モゾモゾとベッドに上がるみかん。
+#戸惑いながら、モゾモゾとベッドに上がるみかん。
+#SCRIPT ADD KANJI
+Ｆeeling out of sorts, Mikan goes up onto the bed moving restlessly.
 
-前と同じように、仰向けでコロンと寝転がった。
+#前と同じように、仰向けでコロンと寝転がった。
+#SCRIPT ADD KANJI
+Ｊust like last time, with a plop she lied face-up on the bed.
 
 #■HCG（仰向け・着衣状態・調教１と同じＣＧの場所違い）
 event	"event\EV_MIK_010-00.png"
 date_close
 
-＠みかん,A00489
+＠Mikan,A00489
 「…………」
 
-まだ全然未知で不慣れな事に対し、みかんが不安の浮かぶ瞳で見上げてくる。
+#まだ全然未知で不慣れな事に対し、みかんが不安の浮かぶ瞳で見上げてくる。
+#SCRIPT ADD KANJI
+Ｆacing the thing that she's not familiar with and until now completely unknown, Mikan looks up with tense floating eyes.
 
-＠みかん,A00490
-「……また、みかんはジッとしてるだけで良いの？」
+#＠みかん,A00490
+#「……また、みかんはジッとしてるだけで良いの？」
+＠Mikan,A00490
+「...... Will it be fine if Mikan just lies here like last time?」
 
-＠樹
-「この前は感じるところまで行ったから、まずはそうだな」
+#＠樹
+#「この前は感じるところまで行ったから、まずはそうだな」
+＠Itsuki
+「Last time we went until you were on the verge of feeling it, so for now that's a good idea.」
 
-＠樹
-「今日は前回の反省を生かして、こっちを重点的に解そうと思う」
+#＠樹
+#「今日は前回の反省を生かして、こっちを重点的に解そうと思う」
+＠Itsuki
+「Let's make use of what we learned last time, and try and understand the main parts here.」
 
-＠みかん,A00491
+#＠みかん,A00491
+#「え……？　ぁうん！」
+＠Mikan,A00491
 「え……？　ぁうん！」
 
 #EF　カットイン（スカートの中で、ショーツの上から秘部に触っている指）
 event	"event\EV_MIK_010-01.png"
 
-スカートの中へ少し積極的に手をしのばせ、ショーツに包まれたみかんのアソコに触れる。
+#スカートの中へ少し積極的に手をしのばせ、ショーツに包まれたみかんのアソコに触れる。
+#SCRIPT ADD KANJI
+Ｐlacing it assertively into her skirt, my hand feels Mikan's place through her shorts.
 
-＠みかん,A00492
-「お、お兄ちゃん……また、みかんのソコ……」
+#＠みかん,A00492
+#「お、お兄ちゃん……また、みかんのソコ……」
+＠Mikan,A00492
+「On-onii chan...... Mikan's place again......」
 
-＠みかん,A00493
-「今日は最初から触るの……？」
+#＠みかん,A00493
+#「今日は最初から触るの……？」
+＠Mikan,A00493
+「Today are you going to touch there right from the start......?」
 
-＠樹
-「この前、オレのを入れようとして凄く痛かっただろう？」
+#＠樹
+#「この前、オレのを入れようとして凄く痛かっただろう？」
+＠Itsuki
+「Last time when I tried to put it in it hurt a lot, right?」
 
-＠樹
-「あれは、ココが十分にほぐれてなかったからだ」
+#＠樹
+#「あれは、ココが十分にほぐれてなかったからだ」
+＠Itsuki
+「That happened because you weren't loosened up enough here.」
 
-＠みかん,A00494
-「ん、んぅ……でも、あんなにおちんちんの方が大きかったのに……」
+#＠みかん,A00494
+#「ん、んぅ……でも、あんなにおちんちんの方が大きかったのに……」
+＠Mikan,A00494
+「ん、んぅ...... But last time your ochinchin was that big too, so......」
 
-＠みかん,A00495
-「…っんぅ…ふぅっ……いくら触っても、入りそうになかったよ…」
+#＠みかん,A00495
+#「…っんぅ…ふぅっ……いくら触っても、入りそうになかったよ…」
+＠Mikan,A00495
+「…っんぅ…ふぅっ...... However much you rubbed, it didn't look like you could get in......」
 
 #EF　カットイン終了
 
-割れ目をなぞる指先に対し、モゾモゾと腰を揺らすみかん。
+#割れ目をなぞる指先に対し、モゾモゾと腰を揺らすみかん。
+#SCRIPT ADD KANJI
+Ｉn response to my fingertip which traces her crevice, Mikan shakes her hips squirming about.
 
-だがまだ恥ずかしそうな吐息だけで、性的な刺激とは別のようだ。
+#だがまだ恥ずかしそうな吐息だけで、性的な刺激とは別のようだ。
+#SCRIPT ADD KANJI
+Ｈowever, only appearing embarassed with her breath, the sexual reaction seems different.
 
-＠樹
-「まずは、ここを前みたいに濡らさないとな」
+#＠樹
+#「まずは、ここを前みたいに濡らさないとな」
+＠Itsuki
+「For now, you must get wet here like last time..」
 
-＠みかん,A00496
-「あぅぅ……っんぅ、恥ずかしいよぉ……」
+#＠みかん,A00496
+#「あぅぅ……っんぅ、恥ずかしいよぉ……」
+＠Mikan,A00496
+「あぅぅ……っんぅ, It's embarassing......」
 
 voice_bg	"a90010"
 @seh27
 
-＠みかん,A00497
+＠Mikan,A00497
 「…っぁふ……ふぅっ…ん……んぅ…っふぅ……」
 
-＠みかん,A00498
-「…おしっこするところ……またお兄ちゃんに、こんなに触られちゃってる…」
+#＠みかん,A00498
+#「…おしっこするところ……またお兄ちゃんに、こんなに触られちゃってる…」
+＠Mikan,A00498
+「...... The place that I pee...... is being touched by Onii-chan like that again. 」
 
-片手でそのままソコを弄りながら、オレは反対の手で腰から胸を撫でていく。
+#片手でそのままソコを弄りながら、オレは反対の手で腰から胸を。
+#SCRIPT ADD KANJI
+Ｗhile groping her in that spot with one hand, my other one strokes her gently from her waist to her chest.
 
-服越しの体温と健康的な肉付きの感触で、撫でているだけでも心地よい。
+#服越しの体温と健康的な肉付きの感触で、撫でているだけでも心地よい。
+#SCRIPT ADD KANJI
+Ｗith the feeling of her healthy body and heat through her clothes, the caressing was quite pleasant.
 
-＠みかん,A00499
-「うぅ…んぅ……せっくすって……いっぱい触るんだね、身体同士……」
+#＠みかん,A00499
+#「うぅ…んぅ……せっくすって……いっぱい触るんだね、身体同士……」
+＠Mikan,A00499
+「うぅ…んぅ...... This thing called "sex"...... Has lots of touching, doesn't it? Between two bodies......」
 
-＠樹
-「そうだな。少しずつ、身体をこれからする事に慣らしてあげないと」
+#＠樹
+#「そうだな。少しずつ、身体をこれからする事に慣らしてあげないと」
+＠Itsuki
+「That's right. Little by little, I have to get you used to what will happen to your body afterwards.」
 
-＠みかん,A00500
-「んふぅ……ん……うん…」
+#＠みかん,A00500
+#「んふぅ……ん……うん…」
+＠Mikan,A00500
+「んふぅ……ん...... Okay......」
 
-＠みかん,A00501
-「……何かね、身体を触られるだけでもドキドキするの……ぁふ、ふぅっ…」
+#＠みかん,A00501
+#「……何かね、身体を触られるだけでもドキドキするの……ぁふ、ふぅっ…」
+＠Mikan,A00501
+「...... Something's happening, I'm not just being touched but also I feel something beating...... ぁふ、ふぅっ…」
 
-＠みかん,A00502
-「恥ずかしいんだけど……頭の中が熱くなってくる感じ……」
+#＠みかん,A00502
+#「恥ずかしいんだけど……頭の中が熱くなってくる感じ……」
+＠Mikan,A00502
+「It's embarassing but...... A feeling that it got hotter inside my head......」
 
-触れている身体、そして反応も、最初ほどみかんの緊張は高くないようだ。
+#触れている身体、そして反応も、最初ほどみかんの緊張は高くないようだ。
+#SCRIPT ADD KANJI
+Ｆrom her body that I'm touching, and in her reaction, Mikan's tension doesn't seem greater than when we started.
 
-＠樹
-「そのまま、リラックスしてるんだよ」
+#＠樹
+#「そのまま、リラックスしてるんだよ」
+＠Itsuki
+「As it is now, go ahead and relax.」
 
 #EF　カットイン（スカートの中で、ショーツの上から秘部に触っている指。上と同じ）
 
-＠みかん,A00503
+＠Mikan,A00503
 「んっ！　ぁぅふっ……ぁふう…！」
 
-クロッチを摩る指の動きを早め、割れ目を刺激していく。
+#クロッチを摩る指の動きを早め、割れ目を刺激していく。
+#SCRIPT ADD KANJI
+Ｈastening the motion of my finger that rubs her crotch, I stimulate her vulva.
 
-＠みかん,A00504
-「…んくんっ……お、お兄ちゃん、みかん……おしっこのところが…っぅん…！」
+#＠みかん,A00504
+#「…んくんっ……お、お兄ちゃん、みかん……おしっこのところが…っぅん…！」
+＠Mikan,A00504
+「…んくんっ...... On-Onii-chan, Mikan...... The place that I pee...... っぅん…！」
 
-＠樹
-「力は強めて無いから、痛みとかはないだろ？」
+#＠樹
+#「力は強めて無いから、痛みとかはないだろ？」
+＠Itsuki
+「If I don't rub harder, it's going to hurt, right?」
 
-＠みかん,A00505
-「っふぅ……ん！　うん……ムズムズって、くすぐったいだけだけど……」
+#＠みかん,A00505
+#「っふぅ……ん！　うん……ムズムズって、くすぐったいだけだけど……」
+＠Mikan,A00505
+「っふぅ……ん！　うん...... It feels kind of itchy, but it's only ticklish......」
 
-＠みかん,A00506
-「あぅぅ……はぁっ……何か、変な感じがするよぉ……身体の中に…」
+#＠みかん,A00506
+#「あぅぅ……はぁっ……何か、変な感じがするよぉ……身体の中に…」
+＠Mikan,A00506
+「あぅぅ……はぁっ...... Something, some strange feeling...... is happening inside my body......」
 
-＠みかん,A00507
+#＠みかん,A00507
+#「…っはぁ、ぅんっ……んふぅ…はぁっ……んぁぅ…」
+＠Mikan,A00507
 「…っはぁ、ぅんっ……んふぅ…はぁっ……んぁぅ…」
 
-前回も見せた幼い性感が、小さくも再び揺さぶられているらしい。
+#前回も見せた幼い性感が、小さくも再び揺さぶられているらしい。
+#SCRIPT ADD KANJI
+Ｏnce again, the immature sexual feelings that we discovered last time seem to be shaking her just a little bit. 
 
-一度感じたおかげか、前回よりその兆候は早く感じられる。
+#一度感じたおかげか、前回よりその兆候は早く感じられる。
+#SCRIPT ADD KANJI
+Ｐerhaps thanks to feeling this before, she experienced this reaction sooner than last time.
 
-＠みかん,A00508
-「んっ…ぁふぅっ……今日ってまだ、ソコしか触られてないのに……どうして…？」
+#＠みかん,A00508
+#「んっ…ぁふぅっ……今日ってまだ、ソコしか触られてないのに……どうして…？」
+＠Mikan,A00508
+「んっ…ぁふぅっ...... Today you've not only been touching me in my spot...... Why......?」
 
-＠樹
-「それはみかんの身体が、少しずつエッチが出来る身体になってきてる証拠だな」
+#＠樹
+#「それはみかんの身体が、少しずつエッチが出来る身体になってきてる証拠だな」
+＠Itsuki
+「It's because Mikan's body is evidence that she is reaching a point where she can be ecchi.」
 
-＠みかん,A00509
-「そ、そうなの……？　んぅっ…ふぅっ……みかんには、よく分からないけど……」
+#＠みかん,A00509
+#「そ、そうなの……？　んぅっ…ふぅっ……みかんには、よく分からないけど……」
+＠Mikan,A00509
+「I-is that how it is......?　んぅっ…ふぅっ...... Mikan doesn't understand very well......」
 
-＠みかん,A00510
-「…そんな身体になっちゃうの……何だか恥ずかしい気がするよぉ……っんぁふ…はぁっ…」
+#＠みかん,A00510
+#「…そんな身体になっちゃうの……何だか恥ずかしい気がするよぉ……っんぁふ…はぁっ…」
+＠Mikan,A00510
+「My body becoming like that...... somehow it feels a bit embarassing to me...... っんぁふ…はぁっ…」
 
-＠樹
-「そんなこと無いさ。今感じること、正直になってごらん？」
+#＠樹
+#「そんなこと無いさ。今感じること、正直になってごらん？」
+＠Itsuki
+「It's not like that. Can you please try to be honest about what you're feeling now?」
 
-＠みかん,A00511
-「え……？　ひゃんっ！　んん……はぁっ…」
+#＠みかん,A00511
+#「え……？　ひゃんっ！　んん……はぁっ…」
+＠Mikan,A00511
+「Eh......?　ひゃんっ！　んん……はぁっ…」
 
 #→みかんの様子を窺いながら、怖がらないように恥丘の柔らかさに少しずつ、小さな力の波をつけて押し擦る。
 
 #EF　カットイン終了
 
-＠みかん,A00512
-「んぁんっ、あふっ……やぁ、お兄ちゃん……指で押してこないで…」
+#＠みかん,A00512
+#「んぁんっ、あふっ……やぁ、お兄ちゃん……指で押してこないで…」
+＠Mikan,A00512
+「んぁんっ、あふっ...... No, Onii-chan! ...... Don't push your finger......」
 
-＠みかん,A00513
-「（…そんなに弄ったら汚れちゃうし……何か前より、ムズムズしちゃうのぉ……っふぁ、ぁぅふ…」
+#＠みかん,A00513
+#「（…そんなに弄ったら汚れちゃうし……何か前より、ムズムズしちゃうのぉ……っふぁ、ぁぅふ…」
+＠Mikan,A00513
+「...... If you touch so much it'll get dirty...... It got itcher than before...... っふぁ、ぁぅふ…」
 
-＠みかん,A00514
+＠Mikan,A00514
 「んんふ……はぁっ……ぁう、ん……っんぅ…！」
 
-まだ慣れない刺激と感覚に戸惑い、愛撫されるその小柄な身体をベッドで捩るみかん。
+#まだ慣れない刺激と感覚に戸惑い、愛撫されるその小柄な身体をベッドで捩るみかん。
+#SCRIPT ADD KANJI
+Ｄisconcerted by the unfamiliar feeling and stimulus, Mikan's petite frame, which I'm caressing carefully, twists around.
 
-＠樹
-「すぐに慣れるさ、みかん。こっちもな…」
+#＠樹
+#「すぐに慣れるさ、みかん。こっちもな…」
+＠Itsuki
+「All of a sudden you're getting used to it Mikan, this time too......」
 
 #EF　カットイン（ジャンパースカートの胸部分の下に手を入れている胸愛撫（Ｔシャツ越し））
 
-ゴソッ…モゾモゾ……
+#ゴソッ…モゾモゾ……
+#SCRIPT ADD KANJI
+　*Rustle*...... *Squirm squirm*......
 
-＠みかん,A00515
+#＠みかん,A00515
+#「えっ……はぅぅ！　ぅんっ！　あふっ…」
+＠Mikan,A00515
 「えっ……はぅぅ！　ぅんっ！　あふっ…」
 
-ジャンパースカートに手を潜らせ、胸の部分を摩るように愛撫する。
+#ジャンパースカートに手を潜らせ、胸の部分を摩るように愛撫する。
+#SCRIPT ADD KANJI
+Ｍy hand going into her jumper skirt, in order to caress her further I stroked her breast.
 
-＠みかん,A00516
-「ひぅんっ…！　んぅっ…お兄ちゃん、胸が……撫でられたらビリビリしちゃうよぉ……んぅふ、ぁふぅっ…」
+#＠みかん,A00516
+#「ひぅんっ…！　んぅっ…お兄ちゃん、胸が……撫でられたらビリビリしちゃうよぉ……んぅふ、ぁふぅっ…」
+＠Mikan,A00516
+「ひぅんっ…！　んぅっ...... Onii-chan, my chest...... If you rub it it's like a shock...... んぅふ、ぁふぅっ…」
 
-＠みかん,A00517
-「…そんなに、押し付けながらモゾモゾって……はぁっ、んんぅっ…服の中で動かさないで…」
+#＠みかん,A00517
+#「…そんなに、押し付けながらモゾモゾって……はぁっ、んんぅっ…服の中で動かさないで…」
+＠Mikan,A00517
+「Pressing so much while it wiggles around sort of...... はぁっ、んんぅっ...... Don't move around inside my clothes.」
 
-ささやかな膨らみがフニフニと柔らかくひしゃげられ、その先に小さい先端の感触を捉える。
+#ささやかな膨らみがフニフニと柔らかくひしゃげられ、その先に小さい先端の感触を捉える。
+#SCRIPT ADD KANJI
+Ｓoftly squashing and rubbing the meager bulge, I take hold of a pointed tip that's no longer little.
 
-＠樹
-（……この触り心地は、やっぱりみかんはまだ下着を着けていないようだな）
+#＠樹
+#（……この触り心地は、やっぱりみかんはまだ下着を着けていないようだな）
+＠Itsuki
+（...... Touching Mikan, it seems she really isn't wearing clothes beneath.）
 
 #EF　カットイン終了
 
-刺激が鋭くなりすぎないように気をつけながら、指の腹でソコを弄ってやる。
+#刺激が鋭くなりすぎないように気をつけながら、指の腹でソコを弄ってやる。
+#SCRIPT ADD KANJI
+Ｗhile taking care so as the movement doesn't become too sharp, I touch her on her abdomen with my finger.
 
+#＠みかん,A00518
+#「んんぅ～っ…！　ふぁっ、はぁぁっ……ぃぅんっ！」
+＠Mikan,A00518
+「んんぅ～っ…！　ふぁっ、はぁぁっ……ぃぅんっ！」 
 
-＠みかん,A00518
-「んんぅ～っ…！　ふぁっ、はぁぁっ……ぃぅんっ！」
+#(I understand why this game is 3.6 GB now. Only about 100 voice recording left to go...... :o)
 
-＠樹
-「こことか、特にビリビリっていうのがするんじゃないのか？」
+#＠樹
+#「こことか、特にビリビリっていうのがするんじゃないのか？」
+＠Itsuki
+「So you said here and places like this is where it's especially shocking, right? 」
 
-＠みかん,A00519
-「ん、うんっ…どうして分かるの……っはぁ、んっ…んぅっ……先っちょが変な感じなの……」
+#＠みかん,A00519
+#「ん、うんっ…どうして分かるの……っはぁ、んっ…んぅっ……先っちょが変な感じなの……」
+＠Mikan,A00519
+「ん、うんっ...... I know why...... っはぁ、んっ…んぅっ...... The tips give me a weird feeling......」
 
-＠樹
-「ふふ、オレが分かってないとな。みかんを安心させてやれないだろう？」
+#＠樹
+#「ふふ、オレが分かってないとな。みかんを安心させてやれないだろう？」
+＠Itsuki
+「Heh, I'm not understanding. Is it not able to release your tension?」
 
-両手にそれぞれ感じる温もりと柔らかさに手の平を被せ、どちらも揉むように愛撫を続けていく。
+#両手にそれぞれ感じる温もりと柔らかさに手の平を被せ、どちらも揉むように愛撫を続けていく。
+#SCRIPT ADD KANJI
+Ｃovering both of my palms with warmth and softness, I continue the caressing massage.
 
-＠みかん,A00520
+#＠みかん,A00520
+#「ぁふっ…はぁぁ……っぁう、んんっ…はぁっ、はぅん……」
+＠Mikan,A00520
 「ぁふっ…はぁぁ……っぁう、んんっ…はぁっ、はぅん……」
 
-＠みかん,A00521
-「んぅふっ、はぅ……ちょっとずつ、何だか身体があったかくなってきてるみたい…」
+#＠みかん,A00521
+#「んぅふっ、はぅ……ちょっとずつ、何だか身体があったかくなってきてるみたい…」
+＠Mikan,A00521
+「んぅふっ、はぅ...... Slowly, it's like my body is somehow becoming warmer......」
 
-＠みかん,A00522
-「…触られてるの恥ずかしいけど……っはぁ…んぅふ…！　頭が、ポゥッてしてきちゃうよ…」
+#＠みかん,A00522
+#「…触られてるの恥ずかしいけど……っはぁ…んぅふ…！　頭が、ポゥッてしてきちゃうよ…」
+＠Mikan,A00522
+「...... Being touched is embarassing but...... っはぁ…んぅふ…！ My head is getting all dizzy......」
 
-＠みかん,A00523
+#＠みかん,A00523
+#「っはぁぁ……っふぅ、んん……っはぁ、はぁふ……」
+＠Mikan,A00523
 「っはぁぁ……っふぅ、んん……っはぁ、はぁふ……」
 
-徐々に熱の乗った吐息を零し始めるみかん。
+#徐々に熱の乗った吐息を零し始めるみかん。
+#SCRIPT ADD KANJI
+Ｇradually Mikan started letting her feelings show by her breaths in harmony with her body heat.
 
-所在なさ気にさ迷っていた不安そうな視線が、こちらの手元とオレとを交互に見やる。
+#所在なさ気にさ迷っていた不安そうな視線が、こちらの手元とオレとを交互に見やる。
+#SCRIPT ADD KANJI
+Ｈer gaze which seems anxious roams about, and fixated alternately on me and my handiwork.
 
-＠みかん,A00524
-「っんぅ…ふぅっ……お兄ちゃん、またみかん、服も脱ぐの……？」
+#＠みかん,A00524
+#「っんぅ…ふぅっ……お兄ちゃん、またみかん、服も脱ぐの……？」
+＠Mikan,A00524
+「っんぅ…ふぅっ...... Onii-chan, will Mikan again take her clothes off......?」
 
-＠樹
-「いやか……？」
+#＠樹
+#「いやか……？」
+＠Itsuki
+「Is it unpleasant......?」
 
-＠みかん,A00525
-「だ、だって……はぁっ、んぁふ……や、やっぱりそれは恥ずかしいよ……」
+#＠みかん,A00525
+#「だ、だって……はぁっ、んぁふ……や、やっぱりそれは恥ずかしいよ……」
+＠Mikan,A00525
+「W-well...... はぁっ、んぁふ...... Th-that's also embarassing...... 」
 
-裸を見せる恥じらいは抜けない。
-初めてでないとは言え、さすがにそれは仕方ない事だ。
+#裸を見せる恥じらいは抜けない。
+#初めてでないとは言え、さすがにそれは仕方ない事だ。
+#SCRIPT ADD KANJI
+Ｓhyness at showing herself hasn't left her. Even if she doesn't do it now we can say she did, but still there's no use fighting the inevitable.
 
-＠樹
-「……そうか。でもその前にもう一つ、することがあるぞ？」
+#＠樹
+#「……そうか。でもその前にもう一つ、することがあるぞ？」
+＠Itsuki
+「...... Is that so? But this already happened before, are you ever going to do it?」
 
-＠みかん,A00526
-「え……？　んっ…ちゅぷっ…ちゅぅっ！」
+#＠みかん,A00526
+#「え……？　んっ…ちゅぷっ…ちゅぅっ！」
+＠Mikan,A00526
+「Eh......? んっ…ちゅぷっ…ちゅぅっ！」
 
-＠樹
-「…キスだ。やり方は覚えてるかい？」
+#＠樹
+#「…キスだ。やり方は覚えてるかい？」
+＠Itsuki
+「...... This is a kiss. Do you remember how?」
 
-＠みかん,A00527
-「んぅふ、ちゅむっ……う、うん……舌を出して、くっつけ合うんだよね…」
+#＠みかん,A00527
+#「んぅふ、ちゅむっ……う、うん……舌を出して、くっつけ合うんだよね…」
+＠Mikan,A00527
+「んぅふ、ちゅむっ...... Y-yeah...... You take out your tongue, and stick them together, right......」
 
-＠みかん,A00528
-「んぅ……えっと……こう…？」
+#＠みかん,A00528
+#「んぅ……えっと……こう…？」
+＠Mikan,A00528
+「んぅ...... Umm...... Like this......?」
 
-答えを窺うように、オズオズと唇から小さくみかんの舌が覗く。
+#答えを窺うように、オズオズと唇から小さくみかんの舌が覗く。
+#SCRIPT ADD KANJI
+Ａwaiting the reply, Mikan's little tongue hesitantly emerged from her lips.
 
 #→それは唾液に光るサーモンピンクの、幼いみかんが持つ大人と変わらない感触の部位だ。
 
-＠樹
-（……動きのぎこちなさは、まだ仕方ないけどな）
+#＠樹
+#（……動きのぎこちなさは、まだ仕方ないけどな）
+＠Itsuki
+（...... Her awkward motions can't be helped at this point.）
 
 event	"event\EV_MIK_010-02a.png"
 voice_bg	"a90016"
 se_stop		1
 
 
-＠みかん,A00529
+＠Mikan,A00529
 「…っんぅ、ちゅぷっ…！　ちゅぅむっ…んぁふ…」
 
-唇を重ねると前回に倣い、オレはみかんの舌の感触を堪能するようにキスで攻め始める。
+#唇を重ねると前回に倣い、オレはみかんの舌の感触を堪能するようにキスで攻め始める。
+#SCRIPT ADD KANJI
+Ｗhen our lips touch, emulating last time, I attack her with my kiss to feel Mikan's tongue like she said.
 
-＠みかん,A00530
+#＠みかん,A00530
+#「ちゅぅっ！　ちゅぷっ、ちゅむちゅ……れるぅ…ふぅっ…くちゅむっ」
+＠Mikan,A00530
 「ちゅぅっ！　ちゅぷっ、ちゅむちゅ……れるぅ…ふぅっ…くちゅむっ」
 
-＠みかん,A00531
-「ふぁふっ……んぅっ…お兄ちゃん……ちゅるちゅ…！　ちゅぷぅっ……舌と唾で、息がしづらいよ…」
+#＠みかん,A00531
+#「ふぁふっ……んぅっ…お兄ちゃん……ちゅるちゅ…！　ちゅぷぅっ……舌と唾で、息がしづらいよ…」
+＠Mikan,A00531
+「ふぁふっ……んぅっ...... Onii-chan...... ちゅるちゅ…！　ちゅぷぅっ...... It's hard to breath with your tongue and spit......」
 
-＠樹
-「……慣れるからな、みかん。呼吸の合間は作ってやるから」
+#＠樹
+#「……慣れるからな、みかん。呼吸の合間は作ってやるから」
+＠Itsuki
+「...... It's so you get used to it, Mikan. I'll make intervals for breathing for you.」
 
-＠みかん,A00532
-「ぁふぅっ、ん、うん……れぴちゅっ、れる、ちゅるぅっ…！」
+#＠みかん,A00532
+#「ぁふぅっ、ん、うん……れぴちゅっ、れる、ちゅるぅっ…！」
+＠Mikan,A00532
+「ぁふぅっ, O, Okay...... れぴちゅっ、れる、ちゅるぅっ…！」
 
-たどたどしく息継ぎをしながらも、口の中で懸命に舌を押し付けてくるみかん。
+#たどたどしく息継ぎをしながらも、口の中で懸命に舌を押し付けてくるみかん。
+#SCRIPT ADD KANJI
+Ｅven while having difficulty with the breathing, Mikan pushed her tongue earnestly in her mouth.
 
-オレは胸と秘部の性感を刺激しながら、時おり舌を離して呼吸のタイミングを入れてやる。
+#オレは胸と秘部の性感を刺激しながら、時おり舌を離して呼吸のタイミングを入れてやる。
+#SCRIPT ADD KANJI
+Ｗhile I stimulate arousal in her chest and slit, sometimes we part our tongues and allow for breath timing.
 
-＠みかん,A00533
+#＠みかん,A00533
+#「ちゅぅぷっ、くちゅっ…んっ、ぁふぅっ……ちゅるぅっ、ちゅくむ、にちゅっ…しゅぷぅっ…」
+＠Mikan,A00533
 「ちゅぅぷっ、くちゅっ…んっ、ぁふぅっ……ちゅるぅっ、ちゅくむ、にちゅっ…しゅぷぅっ…」
 
-＠みかん,A00534
+#＠みかん,A00534
+#「んぅっ、ふぅ……くちゅるっ、れちゅぅっ……ちゅぅっ、ぴちゅくっ、ちゅぷぅっ…ちゅちゅっ…」
+＠Mikan,A00534
 「んぅっ、ふぅ……くちゅるっ、れちゅぅっ……ちゅぅっ、ぴちゅくっ、ちゅぷぅっ…ちゅちゅっ…」
 
-連続する熱い舌の口付けが、みかんの唇から粘質な水音を響かせ、唾液を滴らせていく。
+#連続する熱い舌の口付けが、みかんの唇から粘質な水音を響かせ、唾液を滴らせていく。
+#SCRIPT ADD KANJI
+Ｔhe consecutive hot tongue's kisses making a sticky noise resound from Mikan's lips, and saliva trickles down.
 
-＠みかん,A00535
-「あふぅ…ちゅぅむっ……みかんの舌が…お兄ちゃんのと絡まっちゃう……にちゅぷっ、ちゅぅるっ…ぴちゅぅっ…！」
+#＠みかん,A00535
+#「あふぅ…ちゅぅむっ……みかんの舌が…お兄ちゃんのと絡まっちゃう……にちゅぷっ、ちゅぅるっ…ぴちゅぅっ…！」
+＠Mikan,A00535
+「あふぅ…ちゅぅむっ...... Mikan's tongue...... got wrapped with Onii-chan's...... にちゅぷっ、ちゅぅるっ…ぴちゅぅっ…！」
 
-＠みかん,A00536
-「ちゅふっ…前より、口の中が熱くなっちゃっへるよ……ちゅにるっ、れにゅっ…ちゅぅぷっ…！」
+#＠みかん,A00536
+#「ちゅふっ…前より、口の中が熱くなっちゃっへるよ……ちゅにるっ、れにゅっ…ちゅぅぷっ…！」
+＠Mikan,A00536
+「ちゅふっ...... Inside my mouth is getting hotter 'han last time...... ちゅにるっ、れにゅっ…ちゅぅぷっ…！」
 
-最初に比べ、舌の動きや密着感は良くなっている。
+#最初に比べ、舌の動きや密着感は良くなっている。
+#SCRIPT ADD KANJI
+Ｃompared to the beginning, her tongue movement and adhesion is getting better.
 
-＠樹
-「ん……いい感じだぞ、みかん」
+#＠樹
+#「ん……いい感じだぞ、みかん」
+＠Itsuki
+「Ungh...... Good job, Mikan.」
 
-＠みかん,A00537
+＠Mikan,A00537
 「ふぁふっ…！　んぅッ、ちゅぷちゅぅっ……！」
 
-＠みかん,A00538
-「くぷんっ、んっ…ぴちゅるぅっ……く、苦しいよお兄ちゃん、強くされたら…んちゅるっ！　くぷぅっ…」
+#＠みかん,A00538
+#「くぷんっ、んっ…ぴちゅるぅっ……く、苦しいよお兄ちゃん、強くされたら…んちゅるっ！　くぷぅっ…」
+＠Mikan,A00538
+「くぷんっ、んっ…ぴちゅるぅっ...... I-it's painful Onii-chan, 強くされたら…んちゅるっ！　くぷぅっ…」
 
-ついその感触に加減を忘れたオレに非難が飛び、慌てて口を一端離す。
+#ついその感触に加減を忘れたオレに非難が飛び、慌てて口を一端離す。
+#SCRIPT ADD KANJI
+Ｃriticism flies at me as I was careless about how far to go, and hastily I separate our mouths.
 
 event	"event\EV_MIK_010-02.png"
 voice_bg_stop
 
-＠みかん,A00539
+＠Mikan,A00539
 「んぷぅっ…あふぅっ、はぁぁ……ん、んぅっ……」
 
-＠みかん,A00540
-「はぁぁ…び、ビックリした……みかんの舌が吸い取られちゃうんじゃないかと思ったよぉ……」
+#＠みかん,A00540
+#「はぁぁ…び、ビックリした……みかんの舌が吸い取られちゃうんじゃないかと思ったよぉ……」
+＠Mikan,A00540
+「Haa...... I-I was scared...... I thought Mikan's tongue might get sucked away......」
 
-＠樹
-「まだみかんにディープ的なキスは早いか……悪い」
+#＠樹
+#「まだみかんにディープ的なキスは早いか……悪い」
+＠Itsuki
+「I guess it's still too soon for Mikan to have a deep kiss...... Sorry.」
 
-少し遺憾に感じながら、代わりにジャンパースカートのボタンに手をかける。
+#少し遺憾に感じながら、代わりにジャンパースカートのボタンに手をかける。
+#SCRIPT ADD KANJI
+Ｉ feel a twinge of regret, as instead I put my hand on the button of her jumper skirt.
 
-＠みかん,A00541
-「あ……ぬ、脱ぐの……？」
+#＠みかん,A00541
+#「あ……ぬ、脱ぐの……？」
+＠Mikan,A00541
+「あ...... T-taking off......?」
 
-そんなオレの矢継ぎ早な展開に、少々みかんにためらいが感じられた。
+#そんなオレの矢継ぎ早な展開に、少々みかんにためらいが感じられた。
+#SCRIPT ADD KANJI
+Ｒapidly advancing events in such a way, I felt some of Mikan's nervousness.
 
-＠みかん,A00542
-「……な、何か、前よりするのが早いみたい……」
+#＠みかん,A00542
+#「……な、何か、前よりするのが早いみたい……」
+＠Mikan,A00542
+「...... Y-you're doing it quicker than last time......」
 
-＠樹
-「それはたぶん……みかんが最初より慣れてきてるから、テンポ良く進められるんだ」
+#＠樹
+#「それはたぶん……みかんが最初より慣れてきてるから、テンポ良く進められるんだ」
+＠Itsuki
+「True..... Since Mikan is more accustomed than in the beginning, the tempo will advance.」
 
-＠みかん,A00543
-「…っふぅ……ん…慣れてるのかな……よく分からないけど……」
+#＠みかん,A00543
+#「…っふぅ……ん…慣れてるのかな……よく分からないけど……」
+＠Mikan,A00543
+「…っふぅ……ん...... I'm more used to it, you say...... I don't get it......」
 
-愛撫やキスを介して、こちらの意識が逸っているのもあるが……ここは黙っておく。
+#愛撫やキスを介して、こちらの意識が逸っているのもあるが……ここは黙っておく。
+#SCRIPT ADD KANJI
+Ａfter helping her with the kiss and touching, I'm becoming impatient again but...... I'll keep quiet this time.
 
-スカートのボタンを外し、手早くＴシャツとスカートを捲り上げた。
+#スカートのボタンを外し、手早くＴシャツとスカートを捲り上げた。
+#SCRIPT ADD KANJI
+Ｕndoing the button of her skirt, I lifted her T-shirt and skirt quickly.
 
 #■HCG（脱衣差分・調教１と同じＣＧの場所違い）
 event	"event\EV_MIK_010-05.png"
 
-＠みかん,A00544
-「んんぅ…！　っぁふ……うぅ…また、パンツまで脱ぐの……？」
+#＠みかん,A00544
+#「んんぅ…！　っぁふ……うぅ…また、パンツまで脱ぐの……？」
+＠Mikan,A00544
+「んんぅ…！　っぁふ……うぅ...... You're taking off my panties again......?」
 
-スルスルと脱がされていくショーツには身体を捩らせるみかん。
+#スルスルと脱がされていくショーツには身体を捩らせるみかん。
+#SCRIPT ADD KANJI
+Ｍikan makes her body twist inside her shorts to help me remove them smoothly.
 
-＠樹
-「前もそうしただろう？　最終的には、脱がないと」
+#＠樹
+#「前もそうしただろう？　最終的には、脱がないと」
+＠Itsuki
+「We did that last time too, right? You have to take it all off.」
 
-＠みかん,A00545
-「……そ、そうだけど……うぅぅ…」
+#＠みかん,A00545
+#「……そ、そうだけど……うぅぅ…」
+＠Mikan,A00545
+「...... Y-you're right but...... うぅぅ…」
 
 #恥ずかしくても隠すことは出来ず、みかんの手は所在無げに（シーツやお腹の上に乗せられている）
 
-＠みかん,A00546
-「おしっこのところ……またちょっと濡れてるみたい……」
+#＠みかん,A00546
+#「おしっこのところ……またちょっと濡れてるみたい……」
+＠Mikan,A00546
+「That place that I pee...... Looks like it's getting a little wet again......」
 
-＠樹
-「ああ。けど、まだだな。前以上に解すのが条件だよ」
+#＠樹
+#「ああ。けど、まだだな。前以上に解すのが条件だよ」
+＠Itsuki
+「Ahh. But that's only so far. You'll have to get more loosened up than last time.」
 
 event	"event\EV_MIK_010-06.png"
 voice_bg	"a90010"
 
-＠みかん,A00547
+#＠みかん,A00547
+#「んっ……ひゃぅっ！　んくぅっ、ふぅっ……！」
+＠Mikan,A00547
 「んっ……ひゃぅっ！　んくぅっ、ふぅっ……！」
 
-胸の先端を弄りながら、今は僅かな愛液をさらに滲ませるように、割れ目を上下に擦り始めた。
+#胸の先端を弄りながら、今は僅かな愛液をさらに滲ませるように、割れ目を上下に擦り始めた。
+#SCRIPT ADD KANJI
+Ｗhile playing with tip of her breast, I started rubbing her slit up and down to make the fluids run even more.
 
-＠みかん,A00548
-「んぁふっ…！　っやぁ、あふぅっ…お、お兄ちゃん……んんっ…！」
+#＠みかん,A00548
+#「んぁふっ…！　っやぁ、あふぅっ…お、お兄ちゃん……んんっ…！」
+＠Mikan,A00548
+「んぁふっ…！　っやぁ、あふぅっ...... O-Onii-chan...... んんっ…！」
 
-＠樹
-「恥ずかしいのも、少し我慢な」
+#＠樹
+#「恥ずかしいのも、少し我慢な」
+＠Itsuki
+「It's also embarassing, I know. Be patient.」
 
-＠みかん,A00549
-「はぅん…！　っはぁ…そうじゃなくて、やっぱりそんなところ、汚いよぉ…んんぅっ…！」
+#＠みかん,A00549
+#「はぅん…！　っはぁ…そうじゃなくて、やっぱりそんなところ、汚いよぉ…んんぅっ…！」
+＠Mikan,A00549
+「はぅん…！　っはぁ...... It's not that, places like this are dirty...... んんぅっ…！」
 
-＠みかん,A00550
+#＠みかん,A00550
+#「っはぁ、ぁふ……んぅふっ……んくんっ…！　はぁっ…」
+＠Mikan,A00550
 「っはぁ、ぁふ……んぅふっ……んくんっ…！　はぁっ…」
 
-みかん胸の先端は僅かに硬くなり始め、秘裂にも徐々に熱がこもり始めている。
+#みかん胸の先端は僅かに硬くなり始め、秘裂にも徐々に熱がこもり始めている。
+#SCRIPT ADD KANJI
+Ｔhe tip of Mikan's breast starts to become hard, and heat is also slowly starting to fill her place.
 
-どちらも最初よりは確実に萌芽させられている、女の子の反応だった。
+#どちらも最初よりは確実に萌芽させられている、女の子の反応だった。
+#SCRIPT ADD KANJI
+Ｔhe girls's reaction was such that both are most definitely being made to germinate more than before.
 
-＠みかん,A00551
-「はぁっ…んぅ……お兄ちゃんに弄られてるところ……こそばいような、ムズムズする感じになってる……」
+#＠みかん,A00551
+#「はぁっ…んぅ……お兄ちゃんに弄られてるところ……こそばいような、ムズムズする感じになってる……」
+＠Mikan,A00551
+「はぁっ…んぅ...... The places Onii-chan is touching...... The ticklish feeling is kind of getting itchier......」
 
 #→そして、恥ずかしさの中にも感じている息を吐くみかん。
 
-＠樹
-（……やっぱり複雑だな。こんな子をオレが穢していくのが）
+#＠樹
+#（……やっぱり複雑だな。こんな子をオレが穢していくのが）
+＠Itsuki
+（...... this is complicated. I'm dirtying up a child like this.）
 
-＠みかん,A00552
+#＠みかん,A00552
+#「っんぅ…っはぁ……んんぅ…！」
+＠Mikan,A00552
 「っんぅ…っはぁ……んんぅ…！」
 
-＠みかん,A00553
-「…そ、そこに入るんだよね……んはぅ、はぁっ…お兄ちゃんのおちんちん……」
+#＠みかん,A00553
+#「…そ、そこに入るんだよね……んはぅ、はぁっ…お兄ちゃんのおちんちん……」
+＠Mikan,A00553
+「...... Y-you're going to put it in there, right...... んはぅ、はぁっ...... Onii-chan's ochinchin......」
 
-＠みかん,A00554
-「解れてても、とても入りそうな大きさじゃ無かったよ……んくんっ、っふぁ…」
+#＠みかん,A00554
+#「解れてても、とても入りそうな大きさじゃ無かったよ……んくんっ、っふぁ…」
+＠Mikan,A00554
+「Even if you're getting it looser, it didn't look like you could put in such big thing at all...... んくんっ、っふぁ…」
 
-みかんは言葉でムズがり、結局現状では前と同じやり取りなので不安は拭えていない。
+#みかんは言葉でムズがり、結局現状では前と同じやり取りなので不安は拭えていない。
+#SCRIPT ADD KANJI
+Ｍikan is haunted by this. After all, the current situation will soon become what happened last time, so she can't let go of her unease.
 
-ここはもう一段階、愛撫を踏み込ませる必要がありそうだ。
+#ここはもう一段階、愛撫を踏み込ませる必要がありそうだ。
+#SCRIPT ADD KANJI
+Ｗith it already one step away, it's probably best to let her come to terms with it with touching first.
 
-＠みかん,A00555
-「……っえ！？　な、なに……？」
+#＠みかん,A00555
+#「……っえ！？　な、なに……？」
+＠Mikan,A00555
+「……っえ！？　W-what are you doing......?」
 
-クリクリと愛液を纏わりつかせるように動かされる指先。
+#クリクリと愛液を纏わりつかせるように動かされる指先。
+#SCRIPT ADD KANJI
+Ｉ rouse my finger to make her fluids coil around. 
 
-＠樹
-「不安なんだろ？　前と同じことだけをしていても、結局痛いんじゃないかって」
+#＠樹
+#「不安なんだろ？　前と同じことだけをしていても、結局痛いんじゃないかって」
+＠Itsuki
+「Why are you scared? Even though I'm only doing the same as last time, you keep saying it might be painful.」
 
-＠みかん,A00556
-「あ……う、うん…」
+#＠みかん,A00556
+#「あ……う、うん…」
+＠Mikan,A00556
+「Ah...... Y-yeah......」
 
-図星を言われ頷く。
+#図星を言われ頷く。
+#SCRIPT ADD KANJI
+Ｓhe nodded her head. That's exactly the problem.
 
-＠樹
-「だから少し、前とは違った事をこれからするからな」
+#＠樹
+#「だから少し、前とは違った事をこれからするからな」
+＠Itsuki
+「So I'll be careful, I'll make sure it's different from last time.」
 
-少量の愛液でもそれなりに指先を濡らし終えると、オレは割れ目を左右に開いた。
+#少量の愛液でもそれなりに指先を濡らし終えると、オレは割れ目を左右に開いた。
+#SCRIPT ADD KANJI
+Ｗhen I managed to get my finger wet even with a small amount, I opened up her cleft.
 
-＠みかん,A00557
-「んぅっ…！　ふぁっ…はぁぁっ……ど、どうするの、お兄ちゃん……」
+＠Mikan,A00557
+「んぅっ…！　ふぁっ…はぁぁっ...... Like that, Onii-chan......」
 
-スリットの内側では、初々しい桜色の媚肉が層を成してひしめき合っている。
+#スリットの内側では、初々しい桜色の媚肉が層を成してひしめき合っている。
+#SCRIPT ADD KANJI
+Ｉnside her slit, the untouched, flirtacious, cherry-coloured inside forms a seam and is crowding together.
 
-＠樹
-「今度は、直接内側を弄るんだよ」
+#＠樹
+#「今度は、直接内側を弄るんだよ」
+＠Itsuki
+「This time I'm going to feel you right inside.」
 
 event	"event\EV_MIK_010-07.png"
 voice_bg	"a90011"
 
-＠みかん,A00558
+#＠みかん,A00558
+#「えッ……んはぅっ！　くぅんっ……んんふっ！」
+＠Mikan,A00558
 「えッ……んはぅっ！　くぅんっ……んんふっ！」
 
-柔らかな温もりの媚肉を指の圧迫で震わせると、みかんからは一段階強い吐息が揺らめき出る。
+#柔らかな温もりの媚肉を指の圧迫で震わせると、みかんからは一段階強い吐息が揺らめき出る。
+#SCRIPT ADD KANJI
+Ｗhen I make her soft, warm inside shake with my finger's pressure, Mikan's breath sways a step stronger.
 
-＠みかん,A00559
-「んふぁっ…はぁぁ！　や、やだ…お兄ちゃん……中まで触るなんて……ふぁふっ、ぃぅん！」
+#＠みかん,A00559
+#「んふぁっ…はぁぁ！　や、やだ…お兄ちゃん……中まで触るなんて……ふぁふっ、ぃぅん！」
+＠Mikan,A00559
+「んふぁっ…はぁぁ! I-it's bad...... Onii-chan...... Why are you touching me all the way inside...... ふぁふっ、ぃぅん！」
 
-＠みかん,A00560
-「んぅふっ、はぁっ…ゆ、指が汚れちゃうよ…ぁぅん…！　っはぁ、はふぅ…そんなに、深くしたらぁ……」
+#＠みかん,A00560
+#「んぅふっ、はぁっ…ゆ、指が汚れちゃうよ…ぁぅん…！　っはぁ、はふぅ…そんなに、深くしたらぁ……」
+＠Mikan,A00560
+「んぅふっ、はぁっ...... Y-your finger'll get dirty...... ぁぅん…！　っはぁ、はふぅ...... If you do it so deep......」
 
-＠みかん,A00561
+#＠みかん,A00561
+#「…っふぁん、んんぅっ……はぁ、あふぅっ…はぁふっ……ぅんっ…！」
+＠Mikan,A00561
 「…っふぁん、んんぅっ……はぁ、あふぅっ…はぁふっ……ぅんっ…！」
 
-内側から来る不慣れな性感に、シーツの上でモゾモゾと身体を縮めるように震わせるみかん。
+#内側から来る不慣れな性感に、シーツの上でモゾモゾと身体を縮めるように震わせるみかん。
+#SCRIPT ADD KANJI
+Ｔhe inexperienced arousal coming from inside shakes Mikan so that she squeezes herself squirming on the sheets.
 
-＠みかん,A00562
-「っんぅふ、あふぅっ…！　何か、さっきよりゾクゾクってしてきちゃう……くぅんっ、んはぅっ……！」
+#＠みかん,A00562
+#「っんぅふ、あふぅっ…！　何か、さっきよりゾクゾクってしてきちゃう……くぅんっ、んはぅっ……！」
+＠Mikan,A00562
+「っんぅふ、あふぅっ…！ It's like something is shivering more than last time...... くぅんっ、んはぅっ……！」
 
-＠樹
-「そのまま少し我慢な。そうしたらさっきよりも濡れてくるから」
+#＠樹
+#「そのまま少し我慢な。そうしたらさっきよりも濡れてくるから」
+＠Itsuki
+「Hang in there a little more. If it's like that you'll also get wetter than last time too.」
 
-＠みかん,A00563
-「…今よりまだ、濡れちゃうなんて……はぁっ…はふぅっ…！」
+#＠みかん,A00563
+#「…今よりまだ、濡れちゃうなんて……はぁっ…はふぅっ…！」
+＠Mikan,A00563
+「...... I'm still going to get more wet...... はぁっ…はふぅっ…！」
 
-不安と哀願する瞳に見つめられながら、オレは続けて乳首とソコを刺激していく。
+#不安と哀願する瞳に見つめられながら、オレは続けて乳首とソコを刺激していく。
+#SCRIPT ADD KANJI
+Ｉ continue stimulating her nipple and that spot while she gazes at me with those eyes that appeal to me.
 
-＠みかん,A00564
+#＠みかん,A00564
+#「っひぅん、はぁぁっ…！　んぁふっ、くふぅん…！」
+＠Mikan,A00564
 「っひぅん、はぁぁっ…！　んぁふっ、くふぅん…！」
 
-＠みかん,A00565
+#＠みかん,A00565
+#「うぅんっ、んぅっ…！　はぁぁっ…はふぅ……んんく、っふぁん…！」
+＠Mikan,A00565
 「うぅんっ、んぅっ…！　はぁぁっ…はふぅ……んんく、っふぁん…！」
 
-自分自身の感覚に困惑しながらも、みかんは身体の緊張を弛緩させ、言うとおり愛撫を受け入れていく。
+#自分自身の感覚に困惑しながらも、みかんは身体の緊張を弛緩させ、言うとおり愛撫を受け入れていく。
+#SCRIPT ADD KANJI
+Ｄespite her sense of confusion, Mikan lets her body relax, as if accepting the caress.
 
-＠みかん,A00566
-「っはぁ、んふぁぁ……んんっ、また、身体が熱くなってきてる……ひぅんっ、はぁぁっ…！」
+#＠みかん,A00566
+#「っはぁ、んふぁぁ……んんっ、また、身体が熱くなってきてる……ひぅんっ、はぁぁっ…！」
+＠Mikan,A00566
+「っはぁ、んふぁぁ……んんっ, My body's getting hot again...... ひぅんっ、はぁぁっ…！」
 
-＠みかん,A00567
-「っんはぅ……みかんのソコで、指がヌルヌルしてるよ…お兄ちゃん…っはぁふ…！」
+#＠みかん,A00567
+#「っんはぅ……みかんのソコで、指がヌルヌルしてるよ…お兄ちゃん…っはぁふ…！」
+＠Mikan,A00567
+「っんはぅ...... Your finger's slipping around in my place...... Onii-chan...... っはぁふ…！」
 
-＠みかん,A00568
+#＠みかん,A00568
+#「はぅん、んぅくっ……あふぅっ…はぁぁっ……ふぁふっ、んぅふっ…！」
+＠Mikan,A00568
 「はぅん、んぅくっ……あふぅっ…はぁぁっ……ふぁふっ、んぅふっ…！」
 
-＠樹
-「ん……なら、そろそろだな。少しずつ指から入れていってみるか……？」
+#＠樹
+#「ん……なら、そろそろだな。少しずつ指から入れていってみるか……？」
+＠Itsuki
+「Hm...... It's about time then. Little by little I'll start with putting my finger in, okay......?」
 
-＠みかん,A00569
-「ふえっ……ゆ、指…？　んくんっ……はぁぁっ…触るだけじゃないの…？」
+#＠みかん,A00569
+#「ふえっ……ゆ、指…？　んくんっ……はぁぁっ…触るだけじゃないの…？」
+＠Mikan,A00569
+「ふえっ...... F-finger......? んくんっ……はぁぁっ...... You're not just going to touch me......?」
 
-おそらく思ってもいなかった提案に驚くみかん。
+#おそらく思ってもいなかった提案に驚くみかん。
+#SCRIPT ADD KANJI
+Ｍikan is astonished at the unexpected suggestion.
 
-濡れ具合が上がってくると、オレはその為に事前に濡らした指をツプツプと中へ沈めていく。
+#濡れ具合が上がってくると、オレはその為に事前に濡らした指をツプツプと中へ沈めていく。
+#SCRIPT ADD KANJI
+Ｏnce the wetness is enough, my finger, which was soaked in advance for this, sinks inside not without some bumps.
 
 voice_bg	"a90020"
 
-＠みかん,A00570
-「ひぅぅっ…！　くぅんんっ……はぁぁっ！　やっ、待ってお兄ちゃんっ……んはふっ！」
+#＠みかん,A00570
+#「ひぅぅっ…！　くぅんんっ……はぁぁっ！　やっ、待ってお兄ちゃんっ……んはふっ！」
+＠Mikan,A00570
+「ひぅぅっ…！　くぅんんっ……はぁぁっ！ No, wait Onii-chan...... んはふっ！」
 
-愛液の潤滑で僅かに指が中に潜ると、すぐその媚肉の窮屈さで締め付けてきた。
+#愛液の潤滑で僅かに指が中に潜ると、すぐその媚肉の窮屈さで締め付けてきた。
+#SCRIPT ADD KANJI
+Ｗhen my finger gets in a little bit with her lubrication, right away her narrow untouched inside tightens around me.
 
-＠みかん,A00571
-「っんぅふ…！　くぅぅんっ……そんな、指なんか入れちゃダメだよ、そんなところにぃ…ぃうんっ、んぁふっ……」
+#＠みかん,A00571
+#「っんぅふ…！　くぅぅんっ……そんな、指なんか入れちゃダメだよ、そんなところにぃ…ぃうんっ、んぁふっ……」
+＠Mikan,A00571
+「っんぅふ…！　くぅぅんっ...... You can't put fingers in there, in such a place...... ぃうんっ、んぁふっ……」
 
-＠樹
-「けど、指のサイズが入らないと、到底これから先のことは出来ないってことだ」
+#＠樹
+#「けど、指のサイズが入らないと、到底これから先のことは出来ないってことだ」
+＠Itsuki
+「But if something as small as this can't go in, there's no way you'll be able to do what we tried last time.」
 
-＠みかん,A00572
-「はぁっ、んぁんっ…！　ぁはうっ……そ、そうだけど…はぁぁっ、ぁぅふっ…！」
+#＠みかん,A00572
+#「はぁっ、んぁんっ…！　ぁはうっ……そ、そうだけど…はぁぁっ、ぁぅふっ…！」
+＠Mikan,A00572
+「はぁっ、んぁんっ…！　ぁはうっ...... Y-you're right but...... はぁぁっ、ぁぅふっ…！」
 
-＠みかん,A00573
-「…やっぱり何か、今日のお兄ちゃん、することが早いよぉ……はぁぁっ、あはぅ…んんぅっ…！」
+#＠みかん,A00573
+#「…やっぱり何か、今日のお兄ちゃん、することが早いよぉ……はぁぁっ、あはぅ…んんぅっ…！」
+＠Mikan,A00573
+「...... Really, there's something about Onii-chan today, you're going too fast...... はぁぁっ、あはぅ…んんぅっ…！」
 
-＠樹
+＠Itsuki
 「…………」
 
-確かに、気が逸っている。
+#確かに、気が逸っている。
+#SCRIPT ADD KANJI
+Ｗell I do feel impatient for sure.
 
-みかんとの行為を一つの性行為として処理しようとしている意識が、少なからずオレの中に存在した。
+#みかんとの行為を一つの性行為として処理しようとしている意識が、少なからずオレの中に存在した。
+#SCRIPT ADD KANJI
+Ｔhe careful consideration of trying to deal with my first time with Mikan swarmed around in my head.
 
-＠樹
-（未だにざくろやすいかのイメージが被っているせいだな……）
+#＠樹
+#（未だにざくろやすいかのイメージが被っているせいだな……）
+＠Itsuki
+（That's why Zakuro and Suika's image keeps popping up in my head even now......）
 
-あの子達の相手とみかんとを一緒にしてはいけない。
+#あの子達の相手とみかんとを一緒にしてはいけない。
+#SCRIPT ADD KANJI
+Ｉ mustn't think of the other children in the same way as Mikan.
 
-＠みかん,A00574
+#＠みかん,A00574
+#「ん……んんぅ…っふぅ……」
+＠Mikan,A00574
 「ん……んんぅ…っふぅ……」
 
-＠樹
-「……けど。指でするのはイヤか……？　挿入感に少しでも慣れるべきだと思うけどな」
+#＠樹
+#「……けど。指でするのはイヤか……？　挿入感に少しでも慣れるべきだと思うけどな」
+＠Itsuki
+「...... Well. Is doing it with my finger unpleasant......? Even if it's only been a little while you should be getting used to the feeling of insertion by now.」
 
-気の焦りを無視にしても、これは本心での提案だ。
+#気の焦りを無視にしても、これは本心での提案だ。
+#SCRIPT ADD KANJI
+Ｅven though I'm ignoring my impatient urge, I say this truthfully.
 
-＠みかん,A00575
-「……そこに、おちんちんが入るんだよね……指なんかよりも、ずっと太い…」
+#＠みかん,A00575
+#「……そこに、おちんちんが入るんだよね……指なんかよりも、ずっと太い…」
+＠Mikan,A00575
+「...... You want to put your ochinchin in there, right...... But it's way thicker than your finger or anything like that......」
 
-＠樹
-「ああ、最後までするのが今日の目標だから、そういうことになるな」
+#＠樹
+#「ああ、最後までするのが今日の目標だから、そういうことになるな」
+＠Itsuki
+「Ahh, well we've decided on this, that going to the end is today's goal.」
 
-＠みかん,A00576
-「っんぅ……はぁ……だったら、指がそこに入らないのってマズイかも……」
+#＠みかん,A00576
+#「っんぅ……はぁ……だったら、指がそこに入らないのってマズイかも……」
+＠Mikan,A00576
+「っんぅ……はぁ...... Then not putting your finger in might be kind of bad......」
 
-＠みかん,A00577
-「……少しだけだったら…いいよ、みかんの中に入れても……」
+#＠みかん,A00577
+#「……少しだけだったら…いいよ、みかんの中に入れても……」
+＠Mikan,A00577
+「...... If it's only a little bit...... It's fine, even if you put it inside Mikan......」
 
-不満と理解の半々の雰囲気で頷くが、初めてなのだから、今はこれで十分だ。
+#不満と理解の半々の雰囲気で頷くが、初めてなのだから、今はこれで十分だ。
+#SCRIPT ADD KANJI
+Ｔhough nodding her head in displeasure and like she doesn't really get it, it's her first time, so it's enough.
 
-引き続きみかんの秘洞へ、愛液で濡らした指を押し付けていく。
+#引き続きみかんの秘洞へ、愛液で濡らした指を押し付けていく。
+#SCRIPT ADD KANJI
+Ｉ keep pressing my finger, wet with her secretions, into her crevice.
 
-＠みかん,A00578
+＠Mikan,A00578
 「ふぁぁっ…！　あふぁっ、はぁぁっ…！　んんんっ……」
 
-＠みかん,A00579
-「…は、入ってきてるよぉ…お兄ちゃんの指……んくぅっ…！」
+#＠みかん,A00579
+#「…は、入ってきてるよぉ…お兄ちゃんの指……んくぅっ…！」
+＠Mikan,A00579
+「...... I-it went in...... Onii-chan's finger...... んくぅっ…！」
 
-未姦の媚肉は、指でさえも押し締めるように、きつく侵入を拒んでくる。
+#未姦の媚肉は、指でさえも押し締めるように、きつく侵入を拒んでくる。
+#SCRIPT ADD KANJI
+Ｍikan's untouched inside forcefully refused penetration so that it even blocked up my finger. 
 
-挿入のほとんどが、愛液のヌメりに助けられる感じで継続されていく。
+#挿入のほとんどが、愛液のヌメりに助けられる感じで継続されていく。
+#SCRIPT ADD KANJI
+Ｔhe last bit of the insertion continues like I was helped by her bodily fluids.
 
-＠みかん,A00580
-「はぁぁっ、ふぁふぅっ……ど、どこまで入れてくるの……」
+#＠みかん,A00580
+#「はぁぁっ、ふぁふぅっ……ど、どこまで入れてくるの……」
+＠Mikan,A00580
+「はぁぁっ、ふぁふぅっ...... H-how far did it go in......」
 
-＠樹
-「今が……ちょうど第二関節だ。ここまでにしておくか？」
+#＠樹
+#「今が……ちょうど第二関節だ。ここまでにしておくか？」
+＠Itsuki
+「Right now...... just to the second joint. Have we gone this far before?」
 
-＠みかん,A00581
-「んっ、あふぅっ……う、うんっ…もうきついし、入らないよぉ……」
+#＠みかん,A00581
+#「んっ、あふぅっ……う、うんっ…もうきついし、入らないよぉ……」
+＠Mikan,A00581
+「んっ、あふぅっ...... Y-yeah...... It's already tight, it won't go......」
 
-緊張のせいで強張っているみかんの下半身が、限界を訴えるように小刻みにわなないていた。
+#緊張のせいで強張っているみかんの下半身が、限界を訴えるように小刻みにわなないていた。
+#SCRIPT ADD KANJI
+Ｔhe lower half of Mikan's body which is stiffening up because of her tension shivered sharply and appealed for respite.
 
-＠樹
-（……やっぱり、結局このサイズじゃ挿入は痛いだろうな）
+#＠樹
+#（……やっぱり、結局このサイズじゃ挿入は痛いだろうな）
+＠Itsuki
+（...... I guess an insertion of this size really does hurt in the end.）
 
-それでも感度を高めていくため、その位置で指を捏ねるように動かす。
+#それでも感度を高めていくため、その位置で指を捏ねるように動かす。
+#SCRIPT ADD KANJI
+Ｅven so, I set my finger in motion to play around inside for the sake of making her more receptive.
 
-＠みかん,A00582
+＠Mikan,A00582
 「ひぅんっ！　あぅぅっ……んくんっ！」
 
-＠みかん,A00583
-「…んぅっ……指動かすの、お兄ちゃん……はぁぁっ…はぅぅ…！　んぅっ、ふぅっ…」
+#＠みかん,A00583
+#「…んぅっ……指動かすの、お兄ちゃん……はぁぁっ…はぅぅ…！　んぅっ、ふぅっ…」
+＠Mikan,A00583
+「…んぅっ...... Moving your finger, Onii-chan...... はぁぁっ…はぅぅ…！　んぅっ、ふぅっ…」
 
-＠樹
-「……痛いか？」
+#＠樹
+#「……痛いか？」
+＠Itsuki
+「...... Does it hurt?」
 
-＠みかん,A00584
-「んっ、ううん……痛くは無いけど…中の感触が……はぁぁっ、んぅふ……よく分からない感じなの…」
+#＠みかん,A00584
+#「んっ、ううん……痛くは無いけど…中の感触が……はぁぁっ、んぅふ……よく分からない感じなの…」
+＠Mikan,A00584
+「んっ、ううん...... It doesn't hurt but...... This feeling inside...... はぁぁっ、んぅふ...... I don't know it very well......」
 
-ビクンッと驚きで一度波打ったみかんの身体に、官能の反応が連続する。
+#ビクンッと驚きで一度波打ったみかんの身体に、官能の反応が連続する。
+#SCRIPT ADD KANJI
+Ｔhe series of aroused reactions continues now with Mikan's body which for a moment shuddered hard with surprise.
 
-それに伴い、キュウキュウと蠢く媚肉はたっぷりと指に絡み付いてきた。
+#それに伴い、キュウキュウと蠢く媚肉はたっぷりと指に絡み付いてきた。
+#SCRIPT ADD KANJI
+Ｗith this, her insides which wriggled diligently fully coiled themselves around my finger.
 
-＠みかん,A00585
-「んくぅっ、くぅんっ…！　指が、中で擦れるの……身体がゾワゾワするよぉ……ひぅふっ！　んふぁっ…」
+#＠みかん,A00585
+#「んくぅっ、くぅんっ…！　指が、中で擦れるの……身体がゾワゾワするよぉ……ひぅふっ！　んふぁっ…」
+＠Mikan,A00585
+「んくぅっ、くぅんっ…！ Your finger's being rubbed inside...... My body's all restless...... ひぅふっ！　んふぁっ…」
 
-＠みかん,A00586
-「…お腹の中でヌルヌルって……勝手に、呼吸が出ちゃうぅ……っはぁぁ、ふぁふっ！」
+#＠みかん,A00586
+#「…お腹の中でヌルヌルって……勝手に、呼吸が出ちゃうぅ……っはぁぁ、ふぁふっ！」
+＠Mikan,A00586
+「...... It feels kind of slippery inside my tummy...... I can't breathe...... っはぁぁ、ふぁふっ！」
 
-身体の内側を未知の感覚で触られている、その違和感が「ゾワゾワ」というのは分からないでもない。
+#身体の内側を未知の感覚で触られている、その違和感が「ゾワゾワ」というのは分からないでもない。
+#SCRIPT ADD KANJI
+Ｆeeling the unknown sensation inside her body, I don't know what she means by "restless" to describe this malaise. 
 
-痛みで拒絶されない以上、オレはこのままみかんの秘部の内側を刺激するのだが、
+#痛みで拒絶されない以上、オレはこのままみかんの秘部の内側を刺激するのだが、
+#SCRIPT ADD KANJI
+Ｓeeing that her distress wasn't getting worse, I stimulate the inside of Mikan's pussy in the same way, and......
 
-＠樹
-（さすが………すごい吸着力だな）
+#＠樹
+#（さすが………すごい吸着力だな）
+＠Itsuki
+（Amazing...... What sucking strength.）
 
-＠みかん,A00587
+＠Mikan,A00587
 「ふぁっ…あぅんっ……！　っんぅく、あふぅ……はぁぁっ…っんはぅ…！」
 
-初めての経験というのもあり、みかんの中は見た目の小ささどおりのきつさで、蜜の滲む媚肉で指を締め付けてくる。
+#初めての経験というのもあり、みかんの中は見た目の小ささどおりのきつさで、蜜の滲む媚肉で指を締め付けてくる。
+#SCRIPT ADD KANJI
+Ｂecause it's the first time, Mikan's inside has been pressing against my finger with oozing nectar and tightness in proportion to size.
 
-＠みかん,A00588
+#＠みかん,A00588
+#「はあぁっ、んっ……んぅふっ！　んくんっ…んふぁ、はぁうっ……ん！」
+＠Mikan,A00588
 「はあぁっ、んっ……んぅふっ！　んくんっ…んふぁ、はぁうっ……ん！」
 
-＠みかん,A00589
-「くふぅんっ…何か、お兄ちゃんの指が……みかんの中に入り込もうとしてるみたい…」
+#＠みかん,A00589
+#「くふぅんっ…何か、お兄ちゃんの指が……みかんの中に入り込もうとしてるみたい…」
+＠Mikan,A00589
+「くふぅんっ...... It's almost like Onii-chan's finger wants to be inside Mikan......」
 
-＠みかん,A00590
-「…クニクニって、中で……色んなふうに動いてるの…あはぅっ、んぅふ！　んくんっ…！」
+#＠みかん,A00590
+#「…クニクニって、中で……色んなふうに動いてるの…あはぅっ、んぅふ！　んくんっ…！」
+＠Mikan,A00590
+「...... It feels like wiggling, inside...... It's moving in all sorts of different ways...... あはぅっ、んぅふ！　んくんっ…！」
 
-みかんの要望に従い挿入は深めないが、代わりに指先で中の感触を捏ね回させる。
+#みかんの要望に従い挿入は深めないが、代わりに指先で中の感触を捏ね回させる。
+#SCRIPT ADD KANJI
+Ｉn accordance with Mikan's wish I don't deepen the insertion, but instead I make my finger mix up her inside.
 
-そこでも密着が強い分、全ての動きでみかんの膣路は、クチュクチュと攪拌されていく。
+#そこでも密着が強い分、全ての動きでみかんの膣路は、クチュクチュと攪拌されていく。
+#SCRIPT ADD KANJI
+Ｄespite how much my finger is glued in place there, Mikan's passage is being stirred and getting sopping wet by the motion.
 
-＠樹
-「……どんな感じだ？　濡れ具合は増してきてるみたいだけど」
+#＠樹
+#「……どんな感じだ？　濡れ具合は増してきてるみたいだけど」
+＠Itsuki
+「...... How does it feel? It looks like you've been getting more and more wet.」
 
-＠みかん,A00591
-「うぅ…んんぅっ……あはぁっ…！　でも、指でいっぱいになってるのは同じだよ……んんっ、くふぅっ…！」
+#＠みかん,A00591
+#「うぅ…んんぅっ……あはぁっ…！　でも、指でいっぱいになってるのは同じだよ……んんっ、くふぅっ…！」
+＠Mikan,A00591
+「Y...... Yeah...... あはぁっ…！ But your finger's filling me up just as much...... んんっ、くふぅっ…！」
 
-呼吸に合わせて波打つ媚肉の収縮。愛液はジワジワと量が増してきている。
+#呼吸に合わせて波打つ媚肉の収縮。愛液はジワジワと量が増してきている。
+#SCRIPT ADD KANJI
+Ｈer slit's constriction undulates and matches her breath, while the amount of juices are slowly increasing.
 
-＠みかん,A00592
-「ひぅんっ！　はあぁっ、はぅぅっ……こ、この前みたいなおちんちんは……入るの無理かも…」
+#＠みかん,A00592
+#「ひぅんっ！　はあぁっ、はぅぅっ……こ、この前みたいなおちんちんは……入るの無理かも…」
+＠Mikan,A00592
+「ひぅんっ！　はあぁっ、はぅぅっ...... I-I think your ochinchin going in...... It looks like it's impossible for now.」
 
-そしてこれで、合計３度目の無理宣言だった。
+#そしてこれで、合計３度目の無理宣言だった。
+#SCRIPT ADD KANJI
+Ｓo this will be the third time she's declared it as impossible.
 
-＠樹
-「………感触的には、徐々に柔らかくなってきてるんだけどな…」
+#＠樹
+#「………感触的には、徐々に柔らかくなってきてるんだけどな…」
+＠Itsuki
+「......... I can feel it though, it's been getting softer little by little......」
 
-ピチュッ、チュク……チュッ…チュプッ……
+#ピチュッ、チュク……チュッ…チュプッ……
+#SCRIPT ADD KANJI
+　*bichu, chuku*...... *chu*... *chubu*......
 
-＠みかん,A00593
-「はぅぅっ、んくんっ…！　やぁ…な、何か指で、濡れてる音がしてるぅ……んはぅ、はぁぁっ…！」
+#＠みかん,A00593
+#「はぅぅっ、んくんっ…！　やぁ…な、何か指で、濡れてる音がしてるぅ……んはぅ、はぁぁっ…！」
+＠Mikan,A00593
+「はぅぅっ、んくんっ…！ No...... Somehow, you're making wet sounds with your finger...... んはぅ、はぁぁっ…！」
 
-＠みかん,A00594
-「んんぅっ！　はぁぁっ…んはぁっ……こ、これ全部…みかんのソコから濡れてきてるの……あぅぅっ、んぅ！」
+#＠みかん,A00594
+#「んんぅっ！　はぁぁっ…んはぁっ……こ、これ全部…みかんのソコから濡れてきてるの……あぅぅっ、んぅ！」
+＠Mikan,A00594
+「んんぅっ！　はぁぁっ…んはぁっ...... T-this is all of it...... It's all gotten wet from Mikan's place...... あぅぅっ、んぅ！」
 
-指での攪拌に伴い、恥じらいと戸惑うみかんの秘裂から、徐々に女の子の反応は大きく現れ始めていた。
+#指での攪拌に伴い、恥じらいと戸惑うみかんの秘裂から、徐々に女の子の反応は大きく現れ始めていた。
+#SCRIPT ADD KANJI
+Ｓtarting from Mikan's pussy being scared and shy, slowly the girl's reaction, with my finger's stirring, emerged in a big way.
 
-たっぷりとまではいかないが、前より確実に濡れているのは見た目に明らかだ。
+#たっぷりとまではいかないが、前より確実に濡れているのは見た目に明らかだ。
+#SCRIPT ADD KANJI
+Ａlthough not as much as possible, she appears much more clearly wet than last time.
 
 event	"event\EV_MIK_010-05.png"
 voice_bg_stop
 se_stop		1
 
-＠樹
-「……そろそろ、やってみるか。みかん」
+#＠樹
+#「……そろそろ、やってみるか。みかん」
+＠Itsuki
+「...... It's time. shall we try doing it, Mikan?.」
 
-
-＠みかん,A00595
+#＠みかん,A00595
+#「っあふ、はぁぁっ…！　ん、えっ……」
+＠Mikan,A00595
 「っあふ、はぁぁっ…！　ん、えっ……」
 
-オレの言葉に、熱の滲んだ疑問の声で返す。
+#オレの言葉に、熱の滲んだ疑問の声で返す。
+#SCRIPT ADD KANJI
+Ｓhe replies to my words with a voice full of doubt.
 
-＠みかん,A00596
-「…や、やるって……その、もう入れるの……？」
+#＠みかん,A00596
+#「…や、やるって……その、もう入れるの……？」
+＠Mikan,A00596
+「...... D-do it, you say...... you're going to put it in soon......?」
 
-＠樹
-「当初の、前回より濡れさせるっていう目的は達成できてるからな」
+#＠樹
+#「当初の、前回より濡れさせるっていう目的は達成できてるからな」
+＠Itsuki
+「For the beginning, the goal of making you more wet than last time has been achieved.」
 
-＠樹
-「……長く続けても、サイズ的に痛みが０になる事はない」
+#＠樹
+#「……長く続けても、サイズ的に痛みが０になる事はない」
+＠Itsuki
+「...... Even if we keep this up for a long time, it's impossible to completely eliminate the pain from size.」
 
-＠みかん,A00597
-「う、うん……でも……」
+#＠みかん,A00597
+#「う、うん……でも……」
+＠Mikan,A00597
+「Right...... B-but......」
 
-その痛みを思い返し、さすがに逡巡するみかん。
+#その痛みを思い返し、さすがに逡巡するみかん。
+#SCRIPT ADD KANJI
+Ｔhinking back on this pain, as one would expect Mikan hesitated.
 
-……だが個人的な事情においても、あまり長く前戯を引き伸ばすのは賛同しかねる。
+#……だが個人的な事情においても、あまり長く前戯を引き伸ばすのは賛同しかねる。
+#SCRIPT ADD KANJI
+　...... However, even taking her interests into consideration, it's hard to justify stretching out this excessively long foreplay.
 
-肉茎も完全に勃ち切る前ならまだ、挿入の痛みも和らぐだろう。
+#肉茎も完全に勃ち切る前ならまだ、挿入の痛みも和らぐだろう。
+#SCRIPT ADD KANJI
+Ｂesides, since my erection hasn't finished completely, the pain of the insertion will probably be less.
 
 #■BG（黒）
 @bg_black
 
 
-＠みかん,A00598
-「え……ふぁっ、あ！　お兄ちゃんっ……」
+#＠みかん,A00598
+#「え……ふぁっ、あ！　お兄ちゃんっ……」
+＠Mikan,A00598
+「え……ふぁっ、あ！ Onii-chan......!」
 
-少し強引気味な流れで、みかんの両足を前と同じように広げさせる。
+#少し強引気味な流れで、みかんの両足を前と同じように広げさせる。
+#SCRIPT ADD KANJI
+Ｗith a series of somewhat forcible sensations, I spread Mikan's legs like last time.
+
 
 #■HCG（正常位・調教１と同じＣＧの場所違い）
 event	"event\EV_MIK_020-00.png"
 
 
-＠みかん,A00599
-「んっ、んぅふっ…！　ま、またみかん、こんな格好でするの……」
+#＠みかん,A00599
+#「んっ、んぅふっ…！　ま、またみかん、こんな格好でするの……」
+＠Mikan,A00599
+「んっ、んぅふっ…！ Again you made me look like this...... 」
 
-＠樹
-「とりあえず一般的な体位の一つだからな」
+#＠樹
+#「とりあえず一般的な体位の一つだからな」
+＠Itsuki
+「This is one of the typical positions. We'll do this for now.」
 
-＠みかん,A00600
-「うぅ……ん、で、でも……」
+#＠みかん,A00600
+#「うぅ……ん、で、でも……」
+＠Mikan,A00600
+「うぅ……ん, B-but......」
 
-隠す物のない秘部を晒され、すがるような瞳で羞恥を見せるみかん。
+#隠す物のない秘部を晒され、すがるような瞳で羞恥を見せるみかん。
+#SCRIPT ADD KANJI
+Ｅxposing her genitals with nothing concealed, Mikan expresses bashfulness with her eyes like she's depending on me.
 
-広げさせた足の付け根で、指に弄られた幼い割れ目が愛液を光らせている。
+#広げさせた足の付け根で、指に弄られた幼い割れ目が愛液を光らせている。
+#SCRIPT ADD KANJI
+Ｂy opening the crotch of her legs, the very young pussy which was touched by my finger shines with fluids.
 
-＠みかん,A00601
-「…こんなところ、そんな…人に見せる場所じゃないよぉ……」
+#＠みかん,A00601
+#「…こんなところ、そんな…人に見せる場所じゃないよぉ……」
+＠Mikan,A00601
+「...... This place, It's not...... something you show to people like this.」
 
-＠樹
-「もちろん……見る場所じゃなくて入れるのが課題だからな」
+#＠樹
+#「もちろん……見る場所じゃなくて入れるのが課題だからな」
+＠Itsuki
+「Of course...... It's not something you show, the idea is putting it inside.」
 
-＠みかん,A00602
-「あっ……」
+＠Mikan,A00602
+「Ah......」
 
 event	"event\EV_MIK_020-01.png"
 
-そのままこちらも外へ出した肉茎の姿に、みかんが抵抗を止めて息を呑んだ。
+#そのままこちらも外へ出した肉茎の姿に、みかんが抵抗を止めて息を呑んだ。
+#SCRIPT ADD KANJI
+Ｍikan keeps her breathing low and suppresses her resistance to the penis which I took out into the open.
 
-＠みかん,A00603
-「…お、おちんちん……すごい、前みたいに大きくなってる……」
+#＠みかん,A00603
+#「…お、おちんちん……すごい、前みたいに大きくなってる……」
+＠Mikan,A00603
+「...... O-ochinchin...... Wow, It's getting as big as last time......」
 
-＠みかん,A00604
-「お兄ちゃん……またそれ、みかんのココに無理やり入れるの……？」
+#＠みかん,A00604
+#「お兄ちゃん……またそれ、みかんのココに無理やり入れるの……？」
+＠Mikan,A00604
+「Onii-chan...... Is there going to be no way of putting it in again......?」
 
-＠樹
-「入れれるようにならないと、ダメなんだ。みかんを守ってやるためにはな」
+#＠樹
+#「入れれるようにならないと、ダメなんだ。みかんを守ってやるためにはな」
+＠Itsuki
+「We can't go without doing it. This is for the sake of protecting Mikan you know.」
 
-＠みかん,A00605
-「…指でいっぱいだったのに……おちんちんなんて………っん、んくん！」
+#＠みかん,A00605
+#「…指でいっぱいだったのに……おちんちんなんて………っん、んくん！」
+＠Mikan,A00605
+「...... You used your finger a lot but...... Something like your ochinchin......... っん、んくん！」
 
-不安を零すみかんのスリットに、半分近くの反応を見せている肉茎の先端をあてがう。
+#不安を零すみかんのスリットに、半分近くの反応を見せている肉茎の先端をあてがう。
+#SCRIPT ADD KANJI
+Ｉ put my penis which is at nearly half-capacity to Mikan's slit which is visibly nervous.
 
-亀頭からして、すんなり通りそうな対比ではないが、
+#亀頭からして、すんなり通りそうな対比ではないが、
+#SCRIPT ADD KANJI
+Ｊudging from the head, it doesn't seem it's going to pass smoothy, but......
 
-＠樹
-「悪いな、いくぞみかん」
+#＠樹
+#「悪いな、いくぞみかん」
+＠Itsuki
+「Sorry Mikan, but I'm going.」
 
 #■CG差分（チンコ挿入中・破瓜前・調教１と同じＣＧの場所違い）※特に無くても支障はないですが、可能ならお願いします。
 screen_vibration	500,8,16,16
@@ -792,385 +1293,656 @@ event	"event\EV_MIK_020-02.png"
 voice_bg	"a90012"
 @seh22
 
-＠みかん,A00606
+＠Mikan,A00606
 「んぅくっ！　ふぁぁッ…！　あふぅ、はぁぁッ…」
 
-指先を通した秘裂の孔をめがけ、怒張の先端を強く押し付ける。
+#指先を通した秘裂の孔をめがけ、怒張の先端を強く押し付ける。
+#SCRIPT ADD KANJI
+Ａiming for the slit's passage which let the tip of my finger pass, it presses strongly against the tip of my erection.
 
-＠みかん,A00607
-「んぅっ…くぅふっ！　い、痛いぃっ…強引だよお兄ちゃんっ…！　はぁくっ、くふぅんっ…！」
+#＠みかん,A00607
+#「んぅっ…くぅふっ！　い、痛いぃっ…強引だよお兄ちゃんっ…！　はぁくっ、くふぅんっ…！」
+＠Mikan,A00607
+「んぅっ…くぅふっ！ I-it hurts...... You're forcing it, Onii-chan......! はぁくっ、くふぅんっ…！」
 
-＠みかん,A00608
-「そ、そこ……指が入ってた入り口だけどっ…ふぁふッ、くぅん！　は、入りそうに無いよぉっ……」
+#＠みかん,A00608
+#「そ、そこ……指が入ってた入り口だけどっ…ふぁふッ、くぅん！　は、入りそうに無いよぉっ……」
+＠Mikan,A00608
+「T-there...... It's the way you finger went in but...... ふぁふッ、くぅん！ T-there's no way it's going to pass......」
 
-無理に拡張されそうになる痛みを、前と同じく、全身を強張らせながら訴えるみかん。
+#無理に拡張されそうになる痛みを、前と同じく、全身を強張らせながら訴えるみかん。
+#SCRIPT ADD KANJI
+Ｌike last time, Mikan's entire body stiffens while she pleads for me to stop the pain that is almost too much.
 
-＠樹
-「っん！　ふぅっ……みかん、二度目でまた躊躇してたら、いつまでも進まないんだ…」
+#＠樹
+#「っん！　ふぅっ……みかん、二度目でまた躊躇してたら、いつまでも進まないんだ…」
+＠Itsuki
+「っん！　ふぅっ...... Mikan, if you're still hesitating the second time, you'll never improve......」
 
-＠みかん,A00609
+#＠みかん,A00609
+#「ふぁっ…はぁ！　んっ……ふぇ…」
+＠Mikan,A00609
 「ふぁっ…はぁ！　んっ……ふぇ…」
 
-可哀想だが、同情していたらキリが無いことだ。
+#可哀想だが、同情していたらキリが無いことだ。
+#SCRIPT ADD KANJI
+Ｉt's sad, but if I'm too nice there will be no end to this.
 
-オレは割れ目の広がりの限界を分かりながら、そこからなお力を込めて腰を進ませた。
+#オレは割れ目の広がりの限界を分かりながら、そこからなお力を込めて腰を進ませた。
+#SCRIPT ADD KANJI
+Ｗhile remaining aware of the limit her pussy can be spread, I put in still more exertion there and my hips move forward.
 
 voice_bg	"a90021"
 
-＠みかん,A00610
+＠Mikan,A00610
 「ひぐうぅッ！　んぅぐッ…はぁぁっ、ふぁあっ…！　あぁふ！」
 
-ギュブブッ、ヂュグゥッ…！　グヂュッ……ヂュググッ！
+#ギュブブッ、ヂュグゥッ…！　グヂュッ……ヂュググッ！
+#SCRIPT ADD KANJI
+　*gyububu, juguu...!* *guju*...... *jugugu!*
 
-＠みかん,A00611
-「やっ、やぁあ、お兄ちゃんッ…！　無理っ、無理だよぉッ…！　痛いぃッ…！」
+#＠みかん,A00611
+#「やっ、やぁあ、お兄ちゃんッ…！　無理っ、無理だよぉッ…！　痛いぃッ…！」
+＠Mikan,A00611
+「やっ、やぁあ, Onii-chan......! It's too much, too much......! It hurts......!」
 
-＠みかん,A00612
-「さ、裂けちゃうよぉっ、そんなっ……あぐぅぅんッ！　くぅふぅッ…！　ふぁぁッ……！」
+#＠みかん,A00612
+#「さ、裂けちゃうよぉっ、そんなっ……あぐぅぅんッ！　くぅふぅッ…！　ふぁぁッ……！」
+＠Mikan,A00612
+「I-it'll tear, like that...... あぐぅぅんッ！　くぅふぅッ…！　ふぁぁッ……！」
 
-みかんが文字通り、身を裂かれるような悲痛な声を迸らせ、身体を跳ね上げる。
+#みかんが文字通り、身を裂かれるような悲痛な声を迸らせ、身体を跳ね上げる。
+#SCRIPT ADD KANJI
+Ａ bitter cry gushes out from Mikan like she's really being torn, and her body springs up.
 
-それでも力任せに割れ目を押し広げ、メリメリと肉茎を中へ飲み込ませていく。
+#それでも力任せに割れ目を押し広げ、メリメリと肉茎を中へ飲み込ませていく。
+#SCRIPT ADD KANJI
+Ｄespite this, expanding her cleft with all my might, her inside is swallowing my penis deeply in a splintering way.
 
-＠みかん,A00613
-「お兄ちゃんっ……！　痛いっ、痛い痛いぃぃっ！　やあぁッ、んぁうぅぅッ！」
+#＠みかん,A00613
+#「お兄ちゃんっ……！　痛いっ、痛い痛いぃぃっ！　やあぁッ、んぁうぅぅッ！」
+＠Mikan,A00613
+「Onii-chan......! It hurts, it hurts it hurts! やあぁッ、んぁうぅぅッ！」
 
-＠樹
-「………ッ」
+#＠樹
+#「………ッ」
+＠Itsuki
+「.........」
 
-さすがに、そんな咽ぶ姿に心が締め付けられると、オレも今のやり方を懸念した。
+#さすがに、そんな咽ぶ姿に心が締め付けられると、オレも今のやり方を懸念した。
+#SCRIPT ADD KANJI
+Ｓtill, when she's being pressed so hard as to have such a choked-up appearance, I worry about using the current method too.
 
-＠樹
-（……一気に、終わらせてやる方がいいか）
+#＠樹
+#（……一気に、終わらせてやる方がいいか）
+＠Itsuki
+（...... I wonder if finishing it all at once is a better way.）
 
-痛みで強張るみかんの腰を掴み、押し付けていた怒張の力を一時止める。
+#痛みで強張るみかんの腰を掴み、押し付けていた怒張の力を一時止める。
+#SCRIPT ADD KANJI
+Ｇrasping Mikan's lower back which is stiff with pain, I pull back the force pressing from my erection for a moment.
 
 voice_bg_stop
 
-＠みかん,A00614
+#＠みかん,A00614
+#「んぅぐッ…えッ……」
+＠Mikan,A00614
 「んぅぐッ…えッ……」
 
-涙を滲ませている瞳がこちらを見遣るのと同時に、オレは一気に奥まで腰を突き入れた。
+#涙を滲ませている瞳がこちらを見遣るのと同時に、オレは一気に奥まで腰を突き入れた。
+#SCRIPT ADD KANJI
+Ｗhile her teary eyes gaze at me, all at once I thrust, bringing in her back, all the way inside.
 
 screen_vibration	1000,8,16,16
 #■HCG（差分・破瓜）
 event	"event\EV_MIK_020-04.png"
 
-ブツゥッ！　ヅブブゥッ―――グリュゥゥッ！！
+#ブツゥッ！　ヅブブゥッ―――グリュゥゥッ！！
+#SCRIPT ADD KANJI
+　*butsuu!* *zububuu*――― *guryuuu*!!
 
-＠みかん,A00615
+#＠みかん,A00615
+#「えぅぐゥッ！　んぁァァああッ、あぁああああぁぁッ！！」
+＠Mikan,A00615
 「えぅぐゥッ！　んぁァァああッ、あぁああああぁぁッ！！」
 
-膣内を引き裂く感触の刹那、みかんから（張り裂けそうに）悲愴な声が響きあがる―――！
+#膣内を引き裂く感触の刹那、みかんから（張り裂けそうに）悲愴な声が響きあがる―――！
+#SCRIPT ADD KANJI
+Ｔhe moment I feel tearing through inside her vagina, Mikan raises her voice to resound with a sorrowful wail like she would burst――!
 
-＠みかん,A00616
+#＠みかん,A00616
+#「あぁああッ、んんぐぅぅッ……！　はあぁぁっ、あはぁぁぐッ……」
+＠Mikan,A00616
 「あぁああッ、んんぐぅぅッ……！　はあぁぁっ、あはぁぁぐッ……」
 
-＠みかん,A00617
-「い……痛いよぉぉっ……んぁふッ！　あはぁぁッ…！　お、奥に入ってきてるぅぅっ……！」
+#＠みかん,A00617
+#「い……痛いよぉぉっ……んぁふッ！　あはぁぁッ…！　お、奥に入ってきてるぅぅっ……！」
+＠Mikan,A00617
+「It...... It hurts...... んぁふッ！　あはぁぁッ…！ It went all the way to the inner part......!」
 
-肉茎自体は全て入り切っていないが、先端は秘洞の奥まで押し付くように届いている。
+#肉茎自体は全て入り切っていないが、先端は秘洞の奥まで押し付くように届いている。
+#SCRIPT ADD KANJI
+Ｔhough the full penis itself didn't finish going in, the tip is getting through forcing its way deep inside.
 
-純潔と膣内を姦通した生温かい血が、ネットリと内と外に広がっていった。
+#純潔と膣内を姦通した生温かい血が、ネットリと内と外に広がっていった。
+#SCRIPT ADD KANJI
+Ｔhe warm, fresh blood that deflowered her purity and the inside of her vagina was spreading stickily inside and out.
 
-＠みかん,A00618
-「んくぅううッ……ひ、酷いよ、お兄ちゃん…こんなのぉぉ……」
+#＠みかん,A00618
+#「んくぅううッ……ひ、酷いよ、お兄ちゃん…こんなのぉぉ……」
+＠Mikan,A00618
+「んくぅううッ...... This is awful, Onii-chan...... Like this......」
 
-＠樹
-「あぁ……けど、よくやったな、みかん……偉いぞ」
+#＠樹
+#「あぁ……けど、よくやったな、みかん……偉いぞ」
+＠Itsuki
+「Ahh...... But you did well, Mikan...... It's admirable.」
 
-＠みかん,A00619
+#＠みかん,A00619
+#「うぅぅッ、んぅッ……ひぐっ、ひッく…んぅふッ……」
+＠Mikan,A00619
 「うぅぅッ、んぅッ……ひぐっ、ひッく…んぅふッ……」
 
-すっかり涙で濡れた泣き顔のみかんを、今出来る精一杯の優しさで労ってやる。
+#すっかり涙で濡れた泣き顔のみかんを、今出来る精一杯の優しさで労ってやる。
+#SCRIPT ADD KANJI
+Ｎow I'll be able to comfort Mikan, be kind with all my might, and ease her face which is completely wet with tears.
 
-まだこれはスタートラインだが、それでも一つ大きな壁を超えたのだ。
+#まだこれはスタートラインだが、それでも一つ大きな壁を超えたのだ。
+#SCRIPT ADD KANJI
+Ｗe're still at the starting line, but even so one great hurdle has been crossed.
 
-＠みかん,A00620
-「はあぁぁっ、んぅく……ま、まだ、おちんちん全部入ってないの……？」
+#＠みかん,A00620
+#「はあぁぁっ、んぅく……ま、まだ、おちんちん全部入ってないの……？」
+＠Mikan,A00620
+「はあぁぁっ、んぅく...... H-has your ochinchin still not gone in completely......?」
 
-＠樹
-「それは仕方ないことだ……物理的にな」
+#＠樹
+#「それは仕方ないことだ……物理的にな」
+＠Itsuki
+「It can't be helped...... That's the way it is.」
 
-厳密には入らないことは無いが、今はまだ望むべくことではない。
+#厳密には入らないことは無いが、今はまだ望むべくことではない。
+#SCRIPT ADD KANJI
+Ａlthough it hasn't strictly gone in, at this point I wouldn't expect any more.
 
-それよりも大事な、挿入を終えた後にしなくてはならない事がある。
+#それよりも大事な、挿入を終えた後にしなくてはならない事がある。
+#SCRIPT ADD KANJI
+Ｍore important than this, I should probably leave finishing the insertion until later.
 
-＠樹
-「……みかん、まだもう一つする事があるぞ。覚えてるか？」
+#＠樹
+#「……みかん、まだもう一つする事があるぞ。覚えてるか？」
+＠Itsuki
+「...... Mikan, sometimes this thing that I've done once before so far will happen. Do you remember?」
 
-＠みかん,A00621
-「え……えっと……んくっ、はぁふっ…こ、この前の最後にした、射精っていうの……？」
+#＠みかん,A00621
+#「え……えっと……んくっ、はぁふっ…こ、この前の最後にした、射精っていうの……？」
+＠Mikan,A00621
+「え……えっと……んくっ、はぁふっ...... Y-you did it at the end last time, ejaculation was it......?」
 
-異物の感触と痛みで乱れる呼吸を落ち着かせながら、
+#異物の感触と痛みで乱れる呼吸を落ち着かせながら、
+#SCRIPT ADD KANJI
+Ｗhile letting her respiration, which was upset with pain and the sensation of a foreign body, calm down,
 
-＠みかん,A00622
-「っんぅく……はぁぁっ…で、でも……みかんの中に入れたままだと…手で擦れないよ……」
+#＠みかん,A00622
+#「っんぅく……はぁぁっ…で、でも……みかんの中に入れたままだと…手で擦れないよ……」
+＠Mikan,A00622
+「っんぅく……はぁぁっ...... B-but...... If it's inside Mikan like this...... I can't rub it with my hand......」
 
-＠樹
-「あれは臨時で手を使っただけで、本来は違う」
+#＠樹
+#「あれは臨時で手を使っただけで、本来は違う」
+＠Itsuki
+「That way of only using your hand was a special case, by itself it's not the usual way.」
 
-＠樹
-「このまま手でした時みたいに、みかんの中で前後に動かすんだ」
+#＠樹
+#「このまま手でした時みたいに、みかんの中で前後に動かすんだ」
+＠Itsuki
+「It's similar to how you used your hand, I'm going to move back and forth inside Mikan.」
 
-＠みかん,A00623
-「んっ…んぅ……前後……？」
+#＠みかん,A00623
+#「んっ…んぅ……前後……？」
+＠Mikan,A00623
+「んっ…んぅ...... Back and forth......?」
 
-言葉ではよく分からないように首を傾げるみかん。
+#言葉ではよく分からないように首を傾げるみかん。
+#SCRIPT ADD KANJI
+Ｍikan slants her head, not understanding those words.
 
-＠樹
-「……こうだよ」
+#＠樹
+#「……こうだよ」
+＠Itsuki
+「...... Like this.」
 
 screen_vibration	500,8,16,16
 event	"event\EV_MIK_020-04.png"
 voice_bg	"a90021"
 @seh23
 
-＠みかん,A00624
+#＠みかん,A00624
+#「ふぁっ、えうぅッ……！？　あはぅぅッ、んんぐぅッ…！」
+＠Mikan,A00624
 「ふぁっ、えうぅッ……！？　あはぅぅッ、んんぐぅッ…！」
 
-まだ滲む処女血の痛々しさもあり、オレは細心の気を遣ったペースで実演し始める。
+#まだ滲む処女血の痛々しさもあり、オレは細心の気を遣ったペースで実演し始める。
+#SCRIPT ADD KANJI
+Ｈaving pity for her still running virgin blood, I start demonstrating at a prudent pace.
 
-＠みかん,A00625
+#＠みかん,A00625
+#「んぅぐッ！　あぅぅッ…！　あはぁぁッ……はあぁッ！　んぁんんっ…！」
+＠Mikan,A00625
 「んぅぐッ！　あぅぅッ…！　あはぁぁッ……はあぁッ！　んぁんんっ…！」
 
-＠みかん,A00626
-「んくふぅッ…！　ぜ、前後って……みかんの奥に、おちんちんが出入りしてるよぉ…ふぁんっ！　くんんっ…！」
+#＠みかん,A00626
+#「んくふぅッ…！　ぜ、前後って……みかんの奥に、おちんちんが出入りしてるよぉ…ふぁんっ！　くんんっ…！」
+＠Mikan,A00626
+「んくふぅッ…！ Through all of me...... Your ochinchin is going in and out inside Mikan...... ふぁんっ！　くんんっ…！」
 
-ペースは緩めるも、深さは目いっぱいまで沈め、ピストンさせる肉竿の摩擦範囲は高めていく。
+#ペースは緩めるも、深さは目いっぱいまで沈め、ピストンさせる肉竿の摩擦範囲は高めていく。
+#SCRIPT ADD KANJI
+Ｔhough relaxing the pace, I submerge it as deep as I can, and the range of rubbing motion done like a piston increases.
 
-＠みかん,A00627
-「あはぁッ、はあぁぁッ…！　あくぅぅッ……い、痛いよぉっ、お兄ちゃんっ……くぁんっ！　あはぁぁっ…」
+#＠みかん,A00627
+#「あはぁッ、はあぁぁッ…！　あくぅぅッ……い、痛いよぉっ、お兄ちゃんっ……くぁんっ！　あはぁぁっ…」
+＠Mikan,A00627
+「あはぁッ、はあぁぁッ…！　あくぅぅッ...... I-it hurts, Onii-chan...... くぁんっ！　あはぁぁっ…」
 
-＠みかん,A00628
-「お、おちんちんが…っんぅ！　んぅくぅッ…！　裂けてるところに、ズリズリって擦れてきててぇっ……！」
+#＠みかん,A00628
+#「お、おちんちんが…っんぅ！　んぅくぅッ…！　裂けてるところに、ズリズリって擦れてきててぇっ……！」
+＠Mikan,A00628
+「Your o-ochinchin...... っんぅ！　んぅくぅッ…！ I'm being rubbed and you're dragging it in the place that you tore......!」
 
-＠樹
-「ん、くぅ……我慢しな、みかんっ……もうこれ以上のことはないからな」
+#＠樹
+#「ん、くぅ……我慢しな、みかんっ……もうこれ以上のことはないからな」
+＠Itsuki
+「Ungh...... Just be patient, Mikan...... There's no need for more than what we've already done.」
 
-直前の激痛で逆に麻痺しているのか、中の圧迫に対し、みかんの痛みの声はさっきよりも控えめになっている。
+#直前の激痛で逆に麻痺しているのか、中の圧迫に対し、みかんの痛みの声はさっきよりも控えめになっている。
+#SCRIPT ADD KANJI
+Ｉs she getting numb, contrary to the sharp pain from before? Like the pressure inside, Mikan's pained voiced is becoming more relaxed.
 
-そのぶん心の罪悪が薄れて動かす腰に、肉茎の熱い媚肉の摩擦で気持ちよさが生まれる。
+#そのぶん心の罪悪が薄れて動かす腰に、肉茎の熱い媚肉の摩擦で気持ちよさが生まれる。
+#SCRIPT ADD KANJI
+Ｗith that the sense that it's wrong fades, and, with the rubbing of my penis of her hot flesh, the good feeling sprouts in my midsection.
 
-＠みかん,A00629
-「くぅぅッ、んぅんっ…！　はぁぁッ……我慢、出来るけど……すごい、お兄ちゃんのおちんちんがぁ……あふぅっ、んはぁぁッ…！」
+#＠みかん,A00629
+#「くぅぅッ、んぅんっ…！　はぁぁッ……我慢、出来るけど……すごい、お兄ちゃんのおちんちんがぁ……あふぅっ、んはぁぁッ…！」
+＠Mikan,A00629
+「くぅぅッ、んぅんっ…！　はぁぁッ...... I can take it but...... It's amazing, Onii-chan's ochinchin...... あふぅっ、んはぁぁッ…！」
 
-＠みかん,A00630
-「…おちんちん、奥までぇ…ひゃぅふッ、あはぁぁッ…はあぁッ！　みかんの、こんなところに入ってきてるぅっ…」
+#＠みかん,A00630
+#「…おちんちん、奥までぇ…ひゃぅふッ、あはぁぁッ…はあぁッ！　みかんの、こんなところに入ってきてるぅっ…」
+＠Mikan,A00630
+「Your ochinchin, all the way inside...... ひゃぅふッ、あはぁぁッ…はあぁッ！ It's been going in a such a place of Mikan's......」
 
-＠みかん,A00631
+#＠みかん,A00631
+#「んぅふッ！　あふぅぅッ…はあぁぁッ、あぅん！　んくぅッ…はぁぁッ、あはぁぁッ…！」
+＠Mikan,A00631
 「んぅふッ！　あふぅぅッ…はあぁぁッ、あぅん！　んくぅッ…はぁぁッ、あはぁぁッ…！」
 
-＠みかん,A00632
+#＠みかん,A00632
+#「んふぅッ、んぁぁッ！　はぁあッ……あぅんッ、んはぁぁッ、はぁぁ！　ひゃぅうッ！」
+＠Mikan,A00632
 「んふぅッ、んぁぁッ！　はぁあッ……あぅんッ、んはぁぁッ、はぁぁ！　ひゃぅうッ！」
 
-小柄のみかんの身体が、肉茎のピストンに引き摺られるように前後に揺さぶられる。
+#小柄のみかんの身体が、肉茎のピストンに引き摺られるように前後に揺さぶられる。
+#SCRIPT ADD KANJI
+Ｔhe small build of Mikan's body is rocked so that it's pulled along with the piston motion of my penis.
 
-ニヂュッ、ヂュブブッ……ヂュチュッ、ヂュッ…クヂュゥッ…！
+#ニヂュッ、ヂュブブッ……ヂュチュッ、ヂュッ…クヂュゥッ…！
+#SCRIPT ADD KANJI
+　*niju, jububu*...... *juchi, ju*... *kujuu...!*
 
-その度に、絡みつくような水音が、広げられた秘裂で鳴り響く。
+#その度に、絡みつくような水音が、広げられた秘裂で鳴り響く。
+#SCRIPT ADD KANJI
+Ｅvery time, the squelching sounds which are like it's coiling around me resound from her spread-open slit.
 
-＠みかん,A00633
-「ふぁあッ！　あぅんッ、んんふッ…！　さ、さっきより、ニチュニチュって……おちんちんですごい音がしてるぅ……あはぁッ、はぁふッ…！」
+#＠みかん,A00633
+#「ふぁあッ！　あぅんッ、んんふッ…！　さ、さっきより、ニチュニチュって……おちんちんですごい音がしてるぅ……あはぁッ、はぁふッ…！」
+＠Mikan,A00633
+「ふぁあッ！　あぅんッ、んんふッ…！ I-it feels more wet and sticky than last time...... You're making a lot of noise with your ochinchin...... あはぁッ、はぁふッ…！」
 
-＠みかん,A00634
-「…んんふぅッ！　あくぅッ、はああぁッ……これで、前みたいに射精するの、お兄ちゃん……」
+#＠みかん,A00634
+#「…んんふぅッ！　あくぅッ、はああぁッ……これで、前みたいに射精するの、お兄ちゃん……」
+＠Mikan,A00634
+「…んんふぅッ！　あくぅッ、はああぁッ...... Are you going to ejaculate like last time by doing this, Onii-chan......」
 
-＠樹
-「っん、ふぅっ……あぁ、そうだ…それまで我慢だ、みかんっ…」
+#＠樹
+#「っん、ふぅっ……あぁ、そうだ…それまで我慢だ、みかんっ…」
+＠Itsuki
+「Ungh, fugh...... Ahh, that's right...... Just stay with me until then, Mikan......」
 
-＠みかん,A00635
+#＠みかん,A00635
+#「ひふぅッ！　んはぁぁッ、はぁぁッ…！　はぅふッ……あふぅッ、くぅん！　くふぅぅッ…！」
+＠Mikan,A00635
 「ひふぅッ！　んはぁぁッ、はぁぁッ…！　はぅふッ……あふぅッ、くぅん！　くふぅぅッ…！」
 
-愛液と純潔の血が熱い潤滑になり、みかんの矮小な秘裂の中へ、肉茎の出入りを徐々にスムーズにし始める。
+#愛液と純潔の血が熱い潤滑になり、みかんの矮小な秘裂の中へ、肉茎の出入りを徐々にスムーズにし始める。
+#SCRIPT ADD KANJI
+Ｔhe juices and virgin blood providing lubrication, little by little it's becoming smooth inside Mikan's immature place.
 
-＠みかん,A00636
-「んぁふぅッ…あはぁッ！　はあぁッ…お、おちんちん、何か……大きくなってるよぉっ……ひゃんッ！　んくふぅッ！」
+#＠みかん,A00636
+#「んぁふぅッ…あはぁッ！　はあぁッ…お、おちんちん、何か……大きくなってるよぉっ……ひゃんッ！　んくふぅッ！」
+＠Mikan,A00636
+「んぁふぅッ…あはぁッ！　はあぁッ...... O-ochinchin, it's kind of...... It's getting bigger...... ひゃんッ！　んくふぅッ！」
 
-＠みかん,A00637
-「あぅんッ、くぅふッ！　みかんのお腹が……内側から、おちんちんで膨れちゃってる……ッくぅん！　んぁはッ、あはぁッ…！」
+#＠みかん,A00637
+#「あぅんッ、くぅふッ！　みかんのお腹が……内側から、おちんちんで膨れちゃってる……ッくぅん！　んぁはッ、あはぁッ…！」
+＠Mikan,A00637
+「あぅんッ、くぅふッ！ Mikan's tummy...... it's swelling out from inside with your ochinchin......  んぁはッ、あはぁッ…！」
 
-みかんを犯す気持ちは吹っ切れないままでも、身体だけは正直に興奮していた。
+#みかんを犯す気持ちは吹っ切れないままでも、身体だけは正直に興奮していた。
+#SCRIPT ADD KANJI
+Ｔhe desire to violate Mikan isn't going to burst through from me, but as it is her body is quite arousing on its own.
 
-他では味わえない圧迫や強い摩擦の快楽で、肉茎は血を滾らせて硬くなっていく。
+#他では味わえない圧迫や強い摩擦の快楽で、肉茎は血を滾らせて硬くなっていく。
+#SCRIPT ADD KANJI
+Ｗith the pleasure of this hard rubbing and pressure, my penis seethes with blood and gets harder.
 
-＠樹
-「んッ……けど、今はこの深さが限界か……」
+#＠樹
+#「んッ……けど、今はこの深さが限界か……」
+＠Itsuki
+「Ungh...... Well, is this really as deep as I can go......?」
 
-破瓜をしたすぐ直後に深めて挿れるのは憚られ、オレは竿を全部入れ切らないままピストンを敢行する。
+#破瓜をしたすぐ直後に深めて挿れるのは憚られ、オレは竿を全部入れ切らないままピストンを敢行する。
+#SCRIPT ADD KANJI
+Ａfraid of inserting and going deeper immediately after deflowering her, I don't finish putting in all of it and act decisively with the piston motion instead.
 
 @seh24
 
-ニヂュッ、ヂュッ…ヂュヂュッ！　ヂュブブッ、チュブゥッ…！
+#ニヂュッ、ヂュッ…ヂュヂュッ！　ヂュブブッ、チュブゥッ…！
+#SCRIPT ADD KANJI
+　*niju, ju... juju!* *jububu, chubuu...!*
 
-＠みかん,A00638
+#＠みかん,A00638
+#「はあぁッ、あぁうんッ！　あふぅッ、はぁぁッ……！　んんくっ、んぁふぅッ…！」
+＠Mikan,A00638
 「はあぁッ、あぁうんッ！　あふぅッ、はぁぁッ……！　んんくっ、んぁふぅッ…！」
 
-＠みかん,A00639
+#＠みかん,A00639
+#「んひぅッ……ふぁあッ、はあぁッ！　あぁぅっ、んはぁぁッ…はぁぁッ！　あぅん！」
+＠Mikan,A00639
 「んひぅッ……ふぁあッ、はあぁッ！　あぁぅっ、んはぁぁッ…はぁぁッ！　あぅん！」
 
-みかんの様子を窺いながら、少しずつ怒張のピストンを速めていく。
+#みかんの様子を窺いながら、少しずつ怒張のピストンを速めていく。
+#SCRIPT ADD KANJI
+Ｗhile observing Mikan's reaction, little by little I hasten the erection's piston motion.
 
-＠みかん,A00640
-「んんぅッ！　くふぅぅッ…！　お、お兄ちゃん…おちんちんの動きっ……ふぁんッ！　んんくぅ！」
+#＠みかん,A00640
+#「んんぅッ！　くふぅぅッ…！　お、お兄ちゃん…おちんちんの動きっ……ふぁんッ！　んんくぅ！」
+＠Mikan,A00640
+「んんぅッ！　くふぅぅッ…！　O-Onii-chan, the way you're moving your ochinchin...... ふぁんッ！　んんくぅ！」
 
-＠樹
-「……痛いか？　速めないと終わらないんだが」
+#＠樹
+#「……痛いか？　速めないと終わらないんだが」
+＠Itsuki
+「...... Does it hurt? If I don't speed up it won't finish.」
 
-＠みかん,A00641
-「はあぁッ、んぁふッ！　う、うん……痛いけど…さっきよりは平気かも……あふぅッ、くぅん！　くぅふッ…！」
+#＠みかん,A00641
+#「はあぁッ、んぁふッ！　う、うん……痛いけど…さっきよりは平気かも……あふぅッ、くぅん！　くぅふッ…！」
+＠Mikan,A00641
+「はあぁッ、んぁふッ！　う、うん...... It hurts but...... Maybe I'm calmer than last time...... あふぅッ、くぅん！　くぅふッ…！」
 
-＠みかん,A00642
-「んはぅッ…中が擦れて、声が出ちゃうよぉっ……くぅふッ！　あうぅぅッ、あはぁぁッ！」
+#＠みかん,A00642
+#「んはぅッ…中が擦れて、声が出ちゃうよぉっ……くぅふッ！　あうぅぅッ、あはぁぁッ！」
+＠Mikan,A00642
+「んはぅッ...... My inside is being rubbed, I can't keep quiet...... くぅふッ！　あうぅぅッ、あはぁぁッ！」
 
-まだ出血の引かない痛みの声に、みかんの官能の熱が少しずつ滲み出ようとしている。
+#まだ出血の引かない痛みの声に、みかんの官能の熱が少しずつ滲み出ようとしている。
+#SCRIPT ADD KANJI
+Ｔhe heat of Mikan's sensuality is just starting to percolate into her voice which so far has not faded with the pain of bleeding.
 
-傍目に痛そうだが、芽吹き始めた性感も同時に、媚肉への刺激で揺さぶられているのだろうか。
+#傍目に痛そうだが、芽吹き始めた性感も同時に、媚肉への刺激で揺さぶられているのだろうか。
+#SCRIPT ADD KANJI
+Ｔhough it looks painful even to me, I wonder if at the same time the sexual arousal is being jolted forth from the stimulus inside.
 
-＠みかん,A00643
-「えぅんんッ、あはぁぁッ！　ふあぁんッ……お、お兄ちゃん…もう、終わりそう……？」
+#＠みかん,A00643
+#「えぅんんッ、あはぁぁッ！　ふあぁんッ……お、お兄ちゃん…もう、終わりそう……？」
+＠Mikan,A00643
+「えぅんんッ、あはぁぁッ！　ふあぁんッ...... O-Onii-chan...... Are you going to finish soon......?」
 
-＠樹
-「ん……終わってほしいのか…？　痛みも引いて来てるって、今……」
+#＠樹
+#「ん……終わってほしいのか…？　痛みも引いて来てるって、今……」
+＠Itsuki
+「Ungh...... Do you want me to finish......? It looks almost like your pain has been fading now too......」
 
-＠みかん,A00644
-「はあぁッ、んくッ！　んはぁ、はあぁぁッ…また、痛くなる前に……終わってほしいのぉ……ひゃぅッ、あはぁッ！」
+#＠みかん,A00644
+#「はあぁッ、んくッ！　んはぁ、はあぁぁッ…また、痛くなる前に……終わってほしいのぉ……ひゃぅッ、あはぁッ！」
+＠Mikan,A00644
+「はあぁッ、んくッ！　んはぁ、はあぁぁッ...... It's painful like last time...... Please finish...... ひゃぅッ、あはぁッ！」
 
-＠樹
-「そう……なら、仕方ないな」
+#＠樹
+#「そう……なら、仕方ないな」
+＠Itsuki
+「Right...... If that's how it is, there's no choice.」
 
-みかんの中の感触は、手早く済ませるにはあまりに惜しいが……
+#みかんの中の感触は、手早く済ませるにはあまりに惜しいが……
+#SCRIPT ADD KANJI
+Ｐutting an end to this feeling of being inside Mikan so quickly is really disappointing but......
 
-前回、無理をして怯えさせた前科がある以上、仕方ない。
+#前回、無理をして怯えさせた前科がある以上、仕方ない。
+#SCRIPT ADD KANJI
+Ｌast time, I overdid it and remembering this previous mistake, I have to.
 
-＠みかん,A00645
+#＠みかん,A00645
+#「ひぅッ…！？　んんくッ……！」
+＠Mikan,A00645
 「ひぅッ…！？　んんくッ……！」
 
-＠樹
-「ただ止めるだけなら前と同じだ。射精はさせてもらうけどな、みかん……」
+#＠樹
+#「ただ止めるだけなら前と同じだ。射精はさせてもらうけどな、みかん……」
+＠Itsuki
+「If you just want me to stop it'll be like last time. I'll have to ejaculate for you though, Mikan......」
 
-クチュヂュッ…ニヂュッ…！　ヂュチュッ、ヂュッ、ヂュチュッ！
+#クチュヂュッ…ニヂュッ…！　ヂュチュッ、ヂュッ、ヂュチュッ！
+#SCRIPT ADD KANJI
+　*kuchuju*... *niju*...! *juchu, ju, juchu!*
 
 voice_bg	"a90022"
 
-＠みかん,A00646
+#＠みかん,A00646
+#「はぁぁッ！　んぁあんッ…くふぅッ！　はあぁッ、あぁふッ！　んはぁぁッ…！」
+＠Mikan,A00646
 「はぁぁッ！　んぁあんッ…くふぅッ！　はあぁッ、あぁふッ！　んはぁぁッ…！」
 
-＠みかん,A00647
-「んぁふッ！　お、お兄ちゃん、大きいぉ…おちんちん動かすのぉ……あぅんッ、ふぁあッ…！」
+#＠みかん,A00647
+#「んぁふッ！　お、お兄ちゃん、大きいぉ…おちんちん動かすのぉ……あぅんッ、ふぁあッ…！」
+＠Mikan,A00647
+「んぁふッ！ O-Onii-chan, It's really big...... Your ochinchin's moving...... あぅんッ、ふぁあッ…！」
 
-＠みかん,A00648
+#＠みかん,A00648
+#「あくぅんッ、あはぁッ……はぁふッ、んん！　はぁぁッ…あぅんッ！」
+＠Mikan,A00648
 「あくぅんッ、あはぁッ……はぁふッ、んん！　はぁぁッ…あぅんッ！」
 
-強めて再開されるピストンに非難と官能を向けて驚き、咄嗟に身体を弾ませるみかん。
+#強めて再開されるピストンに非難と官能を向けて驚き、咄嗟に身体を弾ませるみかん。
+#SCRIPT ADD KANJI
+Ｉntensifying, the piston which restarted causes her to protest, draws her full attention, and surprised Mikan makes her body jump up.
 
-それを押さえ、オレは腰のストロークを上げながら、みかんの中を肉茎で往復させる。
+#それを押さえ、オレは腰のストロークを上げながら、みかんの中を肉茎で往復させる。
+#SCRIPT ADD KANJI
+Ｒestraining this, while increasing the stroking of her lower back, I go in and out with my penis inside Mikan.
 
-＠みかん,A00649
-「ひぅんッ、んぁはぁッ！　やぅぅッ、んぁんッ！　はぁぁッ、ヤダ、強くしないでぇ……んくぅッ！　ひゃぅぅ！」
+#＠みかん,A00649
+#「ひぅんッ、んぁはぁッ！　やぅぅッ、んぁんッ！　はぁぁッ、ヤダ、強くしないでぇ……んくぅッ！　ひゃぅぅ！」
+＠Mikan,A00649
+「ひぅんッ、んぁはぁッ！　やぅぅッ、んぁんッ！　はぁぁッ, no, don't do it so strongly...... んくぅッ！　ひゃぅぅ！」
 
-＠みかん,A00650
-「んぅふッ…はあぁッ！　みかんのソコ…こんなに拡がるなんて……あぅんッ！　んくぅぅッ…！　きつくて擦れちゃうよぉ…」
+#＠みかん,A00650
+#「んぅふッ…はあぁッ！　みかんのソコ…こんなに拡がるなんて……あぅんッ！　んくぅぅッ…！　きつくて擦れちゃうよぉ…」
+＠Mikan,A00650
+「んぅふッ…はあぁッ！ Mikan's place...... it's spreading out like this...... あぅんッ！　んくぅぅッ…！ It's tight and I'm being rubbed......」
 
-＠みかん,A00651
+#＠みかん,A00651
+#「あふぁッ、あはぁぁッ！　はぁんッ、んんくッ……ひゃふぅッ！　んぁくッ、くふぅッ！」
+＠Mikan,A00651
 「あふぁッ、あはぁぁッ！　はぁんッ、んんくッ……ひゃふぅッ！　んぁくッ、くふぅッ！」
 
-初めて異物を通した膣内粘膜は徐々に解れ、こちらのカリや竿に絡みつき始めていた。
+#初めて異物を通した膣内粘膜は徐々に解れ、こちらのカリや竿に絡みつき始めていた。
+#SCRIPT ADD KANJI
+Ｔhe vaginal mucosa which had let the foreign body pass slowly coming apart, it was starting to twine itself around the head and rod.
 
-動きを高めた分だけ、ヌヂュヌヂュと肉茎に締め付けと摩擦の快楽が返ってくる。
+#動きを高めた分だけ、ヌヂュヌヂュと肉茎に締め付けと摩擦の快楽が返ってくる。
+#SCRIPT ADD KANJI
+Ｊust as much as I accelerated the motion, the tightness and pleasure of rubbing return to my penis pumping in and out.
 
-＠みかん,A00652
-「ふやぁあッ…！　くぅふぅッ……にりゅにりゅって、たくさん、おちんちんが出入りしてるのぉ……くふむッ、ふぁぁッ！」
+#＠みかん,A00652
+#「ふやぁあッ…！　くぅふぅッ……にりゅにりゅって、たくさん、おちんちんが出入りしてるのぉ……くふむッ、ふぁぁッ！」
+＠Mikan,A00652
+「ふやぁあッ…！　くぅふぅッ...... It feels slimy, your ochinchin's going in and out so much...... くふむッ、ふぁぁッ！」
 
-＠樹
-「う…んぅっ！　……どうしても、早く終わらせてほしいか…？」
+#＠樹
+#「う…んぅっ！　……どうしても、早く終わらせてほしいか…？」
+＠Itsuki
+「う…んぅっ！ ...... Do you really want me to finish so quickly......?」
 
-＠みかん,A00653
-「ふあぁッ、はぁぁんッ！　んぅッ、うん……また、痛くなるのイヤだから……んふぁあッ！　あはぁッ」
+#＠みかん,A00653
+#「ふあぁッ、はぁぁんッ！　んぅッ、うん……また、痛くなるのイヤだから……んふぁあッ！　あはぁッ」
+＠Mikan,A00653
+「ふあぁッ、はぁぁんッ！　んぅッ, Yes...... It's because it feels bad from hurting again...... んふぁあッ！　あはぁッ」
 
-＠みかん,A00654
-「んぅくッ…はぁぁッ…！　だ、ダメなの…？　終わったら……んくふッ、あぅん！」
+#＠みかん,A00654
+#「んぅくッ…はぁぁッ…！　だ、ダメなの…？　終わったら……んくふッ、あぅん！」
+＠Mikan,A00654
+「んぅくッ…はぁぁッ…！ Would it be bad if you finished quickly......? んくふッ、あぅん！」
 
-前回に無理をさせた前科があるので、不安そうに見つめられる。
+#前回に無理をさせた前科があるので、不安そうに見つめられる。
+#SCRIPT ADD KANJI
+Ｂecause I made it unpleasant for her last time, she fixes her eyes on me, appearing nervous.
 
-＠樹
-「……いや、いいよ。初めてで頑張ったんだから、仕方ないだろうし」
+#＠樹
+#「……いや、いいよ。初めてで頑張ったんだから、仕方ないだろうし」
+＠Itsuki
+「...... No, it's fine. For your first time you're doing the best you can, so I guess it can't be helped.」
 
-良くも悪くも複雑だが、機会はいくらでも後日にあるのだ。
+#良くも悪くも複雑だが、機会はいくらでも後日にあるのだ。
+#SCRIPT ADD KANJI
+Ｗhether it's good or bad it is complicated, but I am going to have as many opportunities as I like in the coming months.
 
-ここで感触の名残惜しさに惹かれて怯えさすのは、両者にとってマイナスでしかない。
+#ここで感触の名残惜しさに惹かれて怯えさすのは、両者にとってマイナスでしかない。
+#SCRIPT ADD KANJI
+Ｒeluctant to part with this sensation and stopping while she's still frightened, I have no choice but to leave both of us in the minus.
 
-＠樹
-「ふぅっ……次の課題は、もうちょっと長くみかんが慣れることだな」
+#＠樹
+#「ふぅっ……次の課題は、もうちょっと長くみかんが慣れることだな」
+＠Itsuki
+「Fugh...... The next task will be for Mikan to get accustomed to it a little longer, alright?」
 
-＠みかん,A00655
-「んんくッ、はぁぁッ…！　うん…今日は、もう……ひゃぅんッ！　はぅぅッ！」
+#＠みかん,A00655
+#「んんくッ、はぁぁッ…！　うん…今日は、もう……ひゃぅんッ！　はぅぅッ！」
+＠Mikan,A00655
+「んんくッ、はぁぁッ…！ Right...... Today, quickly...... ひゃぅんッ！　はぅぅッ！」
 
-終わりを意識するみかんに、こちらも官能を溜め込んだ肉茎を、最後に強く律動させる。
+#終わりを意識するみかんに、こちらも官能を溜め込んだ肉茎を、最後に強く律動させる。
+#SCRIPT ADD KANJI
+Ｍikan feels the climax coming, and is shaken powerfully by my penis with the final rythm.
 
 screen_vibration	500,16,16,16
 @seh25
 
-ヌヂュゥッ、ヂュブブ！　クヂュッ、クヂュリュッ……クヂュムッ！
+#ヌヂュゥッ、ヂュブブ！　クヂュッ、クヂュリュッ……クヂュムッ！
+#SCRIPT ADD KANJI
+　*nujuu, jububu!* *kuju, kujuryu*...... *kujumu!*
 
-＠みかん,A00656
+#＠みかん,A00656
+#「ぃうふッ、んぁあんッ！　あはぁぁッ…ふぁぁあッ…！　くふんッ、んんふぅッ、はぁぁッ…！」
+＠Mikan,A00656
 「ぃうふッ、んぁあんッ！　あはぁぁッ…ふぁぁあッ…！　くふんッ、んんふぅッ、はぁぁッ…！」
 
-＠みかん,A00657
-「…ふやぅんッ、あふぅッ！　やだ、こんなすごいのぉ……はぁぁッ、くぅぅん！　おちんちんが、お腹のもっと奥まで入っちゃうぅ…！」
+#＠みかん,A00657
+#「…ふやぅんッ、あふぅッ！　やだ、こんなすごいのぉ……はぁぁッ、くぅぅん！　おちんちんが、お腹のもっと奥まで入っちゃうぅ…！」
+＠Mikan,A00657
+「…ふやぅんッ、あふぅッ！ No, this is so much...... はぁぁッ、くぅぅん！ Your ochinchin is going to go even deeper into my belly......!」
 
-＠みかん,A00658
-「…くぅんッ、あはあぁッ！　そんなに、おちんちん…みかんの中で暴れさせないでぇ……んはぁッ…ひゃぅんッ！」
+#＠みかん,A00658
+#「…くぅんッ、あはあぁッ！　そんなに、おちんちん…みかんの中で暴れさせないでぇ……んはぁッ…ひゃぅんッ！」
+＠Mikan,A00658
+「…くぅんッ、あはあぁッ！ Don't make your ochinchin move inside Mikan so wildly like this...... んはぁッ…ひゃぅんッ！」
 
-最奥の器官だけは犯さないようにし、後はほぼ遠慮なく怒張を抽挿し奥を穿つ。
+#最奥の器官だけは犯さないようにし、後はほぼ遠慮なく怒張を抽挿し奥を穿つ。
+#SCRIPT ADD KANJI
+Ｎot penetrating into the most extreme part of her organ, but going in and out almost without restraint in the rest I pierce her inside.
 
-まだ未成熟な膣内をカリや肉竿で前後に引き摺りながら、最後にみかんへ性行為の官能を植えつけていく。
+#まだ未成熟な膣内をカリや肉竿で前後に引き摺りながら、最後にみかんへ性行為の官能を植えつけていく。
+#SCRIPT ADD KANJI
+Ｗhile pulling along her still immature inside with my head and rod, lastly I will plant the reward for the sensuality of intercourse in Mikan.
 
-＠みかん,A00659
+#＠みかん,A00659
+#「んくぅんッ！　ひゃんんッ……あはぁぁッ、ふぁんッ！　んはぁぁッ、はあぁッ、はぁうん！　くふぅッ…！」
+＠Mikan,A00659
 「んくぅんッ！　ひゃんんッ……あはぁぁッ、ふぁんッ！　んはぁぁッ、はあぁッ、はぁうん！　くふぅッ…！」
 
-＠みかん,A00660
-「ひぅぅんッ、んはぁぁッ！　あぅぅッ…中が、熱くなってきてるぅ……んくぅッ！　はぁぁッ！」
+#＠みかん,A00660
+#「ひぅぅんッ、んはぁぁッ！　あぅぅッ…中が、熱くなってきてるぅ……んくぅッ！　はぁぁッ！」
+＠Mikan,A00660
+「ひぅぅんッ、んはぁぁッ！　あぅぅッ...... It's been getting hot inside...... んくぅッ！　はぁぁッ！」
 
-＠みかん,A00661
-「んぁふッ！　くぅうんッ！　ズボズボって……おちんちんが濡れて出入りしちゃうよぉっ…！」
+#＠みかん,A00661
+#「んぁふッ！　くぅうんッ！　ズボズボって……おちんちんが濡れて出入りしちゃうよぉっ…！」
+＠Mikan,A00661
+「んぁふッ！　くぅうんッ！ It's stabbing into me...... Your ochinchin got wet and it's going in and out......!」
 
-＠みかん,A00662
+#＠みかん,A00662
+#「くふんッ、んぁはぁッ…！　ふぁあんッ、んはぁぁッ！　はぁぁッ……んひゃぅ、ひぅぅッ…！」
+＠Mikan,A00662
 「くふんッ、んぁはぁッ…！　ふぁあんッ、んはぁぁッ！　はぁぁッ……んひゃぅ、ひぅぅッ…！」
 
-＠みかん,A00663
-「あふぅッ、はあぁッ…み、みかんのソコより……おちんちんの方が、硬くて大きいのにぃ……んはあッ！　はぁあん！」
+#＠みかん,A00663
+#「あふぅッ、はあぁッ…み、みかんのソコより……おちんちんの方が、硬くて大きいのにぃ……んはあッ！　はぁあん！」
+＠Mikan,A00663
+「あふぅッ、はあぁッ...... Your ochinchin...... It's bigger and harder than Mikan's place though...... んはあッ！　はぁあん！」
 
-どれも初めての感覚に、みかんからは焦りや当惑、そして痛みの声と官能が様々に混ざり合う。
+#どれも初めての感覚に、みかんからは焦りや当惑、そして痛みの声と官能が様々に混ざり合う。
+#SCRIPT ADD KANJI
+Ｉmpatience and confusion, as well as her pained voice and arousal interspersed with all of Mikan's first experiences.
 
-だがそれも、もう終焉が近い。
+#だがそれも、もう終焉が近い。
+#SCRIPT ADD KANJI
+Ｂut in addition to this, the end is nigh.
 
-終わらせてあげようと意識してピストンすれば、射精感までそうはかからない。
+#終わらせてあげようと意識してピストンすれば、射精感までそうはかからない。
+#SCRIPT ADD KANJI
+Ｔrying to arouse the finish for her and keeping up with the piston, the feeling of climaxing encroaches.
 
-＠樹
-「っく、んぅッ……終わるぞ、みかん…」
+#＠樹
+#「っく、んぅッ……終わるぞ、みかん…」
+＠Itsuki
+「っく、んぅッ...... I'm going to finish, Mikan......」
 
-＠みかん,A00664
-「あふぅぅッ、はぁぁッ！　んぅくッ……う、うんッ…はうぅッ！」
+#＠みかん,A00664
+#「あふぅぅッ、はぁぁッ！　んぅくッ……う、うんッ…はうぅッ！」
+＠Mikan,A00664
+「あふぅぅッ、はぁぁッ！　んぅくッ...... O-Okay...... はうぅッ！」
 
-身体中を駆け巡る感覚に悶え、小さく首を動かすしか出来ないみかん。
+#身体中を駆け巡る感覚に悶え、小さく首を動かすしか出来ないみかん。
+#SCRIPT ADD KANJI
+Ｉn agony with the feelings coursing through her body, Mikan is only able to move her head a little bit.
 
 	screen_vibration	500,16,16,16
 
-ズヂュブッ、ニヂュゥッ！　クヂュッ…ヂュチュッ、チュヂュムッ…クブゥ！
+#ズヂュブッ、ニヂュゥッ！　クヂュッ…ヂュチュッ、チュヂュムッ…クブゥ！
+#SCRIPT ADD KANJI
+　*zujubu, nijuu!* *kuju*... *juchu, chujumu*... *kubu!*
 
 #十分に堪能するのはもう少しこの子が慣れてからと決め、今回はこれでフィニッシュまで上り詰める。
 
-＠みかん,A00665
-「んぁあッ、やぅッ！　んんッ…はあぁッ、つ、強いよぉ…お兄ちゃんっ…！　ソンナニ突いたら…ひゃぅんッ！　んぁあうッ」
+#＠みかん,A00665
+#「んぁあッ、やぅッ！　んんッ…はあぁッ、つ、強いよぉ…お兄ちゃんっ…！　ソンナニ突いたら…ひゃぅんッ！　んぁあうッ」
+＠Mikan,A00665
+「んぁあッ、やぅッ！　んんッ…はあぁッ、つ, It's really strong, Onii-chan......!　If you thrust like this...... ひゃぅんッ！　んぁあうッ」
 
-＠みかん,A00666
-「おちんちんで、みかんのお腹が広がっちゃうっ……あぅぅッ、あはぁぁ！　はぁんッ！」
+#＠みかん,A00666
+#「おちんちんで、みかんのお腹が広がっちゃうっ……あぅぅッ、あはぁぁ！　はぁんッ！」
+＠Mikan,A00666
+「My tummy is going to get bigger with your ochinchin......! あぅぅッ、あはぁぁ！　はぁんッ！」
 
-＠みかん,A00667
+#＠みかん,A00667
+#「んくッ、ふぅッ…！　ふぁあッ…あはぁぁッ！　はぁぁッ……んくぅんッ、あんッ……ひゃぅんッ！」
+＠Mikan,A00667
 「んくッ、ふぅッ…！　ふぁあッ…あはぁぁッ！　はぁぁッ……んくぅんッ、あんッ……ひゃぅんッ！」
 
-スパートをかけて動かすピストンに翻弄されるみかんに向けて、じきに衝動が込み上げた！
+#スパートをかけて動かすピストンに翻弄されるみかんに向けて、じきに衝動が込み上げた！
+#SCRIPT ADD KANJI
+Ｉ begin the final spurt, turn toward Mikan, being toyed with by the piston's activity, and soon the urge wells up!
+
 
 
 #■HCG（射精差分）
@@ -1182,82 +1954,138 @@ voice_bg_stop
 se_stop		1
 wait	1000
 
-ヂュビュゥゥッ！　ドクドクドクッ…ドクンッ、ドクンッ！　ドビュゥッ…！
+#ヂュビュゥゥッ！　ドクドクドクッ…ドクンッ、ドクンッ！　ドビュゥッ…！
+#SCRIPT ADD KANJI
+　*zubuuu!* *doku doku doku*... *dokun, dokun!* *dobuu...!*
 
-＠みかん,A00668
-「ひゃぅぅうッ！！　んくぅうッ！　ふぁああッ、な、なに……熱いぃぃッ…！？」
+#＠みかん,A00668
+#「ひゃぅぅうッ！！　んくぅうッ！　ふぁああッ、な、なに……熱いぃぃッ…！？」
+＠Mikan,A00668
+「ひゃぅぅうッ！！　んくぅうッ！　ふぁああッ, W-what is this...... It's hot......!?」
 
-射精に驚いて身を引くみかんを可哀想だが押さえ込み、オレはそのまま中へ続けて発射する。
+#射精に驚いて身を引くみかんを可哀想だが押さえ込み、オレはそのまま中へ続けて発射する。
+#SCRIPT ADD KANJI
+Ｓhe's surprised at the ejaculation and though Mikan, pulling her body back, is pitiful I hold her down and continue shooting it all inside.
+
 
 #EF　白フラッシュ
 screen_flash	500
 
-ズビュゥッ、ビュルルッ！　ビュクゥッ…ドクッ、ドクドクドクッ！
+#ズビュゥッ、ビュルルッ！　ビュクゥッ…ドクッ、ドクドクドクッ！
+#SCRIPT ADD KANJI
+　*zubuu, bururu!* *buku*... *doku, doku doku doku*!
 
-＠みかん,A00669
+#＠みかん,A00669
+#「んはぁぁッ、ふぁぁんッ！　んんふぅッ、はぁぁぁッ…！　はぁあんッ…！」
+＠Mikan,A00669
 「んはぁぁッ、ふぁぁんッ！　んんふぅッ、はぁぁぁッ…！　はぁあんッ…！」
 
-＠みかん,A00670
-「あぁふぅうッ！　はぁあッ……おちんちんが、みかんの中にいっぱい射精してるぅ…！」
+#＠みかん,A00670
+#「あぁふぅうッ！　はぁあッ……おちんちんが、みかんの中にいっぱい射精してるぅ…！」
+＠Mikan,A00670
+「あぁふぅうッ！　はぁあッ...... Your ochinchin is ejaculating lots inside Mikan......!」
 
 #EF　白フラッシュ
 screen_flash	500
 
-ドビュゥッ…ドクンッ……ドプッ、ドプドプッ…ドクンッ……ドクンッ…
+#ドビュゥッ…ドクンッ……ドプッ、ドプドプッ…ドクンッ……ドクンッ…
+#SCRIPT ADD KANJI
+　*dobuu*... *dokun*...... *dobu, dobu dobu*... *dokun*...... *dokun*...
 
-＠みかん,A00671
+#＠みかん,A00671
+#「んくぅぅんッ……あふぅッ！　はぁぁっ……はあぁ、はぁぁッ……」
+＠Mikan,A00671
 「んくぅぅんッ……あふぅッ！　はぁぁっ……はあぁ、はぁぁッ……」
 
-自分でも認識し切れなかったくらい大量の白濁が、肉茎を突き入れる奥へと打ち込まれていった。
+#自分でも認識し切れなかったくらい大量の白濁が、肉茎を突き入れる奥へと打ち込まれていった。
+#SCRIPT ADD KANJI
+Ｔhe huge quantity of white emulsion of which even I couldn't estimate the amount was driven inside where I thrusted my penis.
 
-色々な感情の混ざり合った熱い呼吸を乱し、胸を上下させるみかん。
+#色々な感情の混ざり合った熱い呼吸を乱し、胸を上下させるみかん。
+#SCRIPT ADD KANJI
+Ｂlending together, her hot breaths with various emotions are thrown out of order, and Mikan lets her chest heave up and down.
+
 
 event	"event\EV_MIK_020-06.png"
 wait	1000
 
-＠みかん,A00672
-「んんぅッ…あはぁぁッ……はぁぁっ、んぅッ…前より、すごくいっぱい出てる…おちんちんから……」
+#＠みかん,A00672
+#「んんぅッ…あはぁぁッ……はぁぁっ、んぅッ…前より、すごくいっぱい出てる…おちんちんから……」
+＠Mikan,A00672
+「んんぅッ…あはぁぁッ……はぁぁっ、んぅッ...... So much more is coming out of your ochinchin than last time......」
 
-＠みかん,A00673
-「…こんなにたくさん……んっ、んくぅぅ……外にもいっぱい溢れちゃってるよぉ……」
+#＠みかん,A00673
+#「…こんなにたくさん……んっ、んくぅぅ……外にもいっぱい溢れちゃってるよぉ……」
+＠Mikan,A00673
+「...... There's so much...... んっ、んくぅぅ...... A lot is spilling out everywhere......」
 
-肉茎すら入りきらない小さな秘洞でその量は受けきれず、外にまで白濁が溢れ出していく。
+#肉茎すら入りきらない小さな秘洞でその量は受けきれず、外にまで白濁が溢れ出していく。
+#SCRIPT ADD KANJI
+Ｗithout being able to receive this volume completely inside her small crevice which didn't fully bring in the penis, the emulsion overflows.
 
-それは視覚的にも、みかんの中が精液で埋め尽くされていると分かる光景だった。
+#それは視覚的にも、みかんの中が精液で埋め尽くされていると分かる光景だった。
+#SCRIPT ADD KANJI
+Ｅven visually, I can see that Mikan's inside is being filled up to exhaustion.
 
-＠みかん,A00674
-「はあぁぁっ、んんふぅっ……お、終わったの…射精……？」
+#＠みかん,A00674
+#「はあぁぁっ、んんふぅっ……お、終わったの…射精……？」
+＠Mikan,A00674
+「はあぁぁっ、んんふぅっ...... I-is it done...... the ejaculation......?」
 
-＠樹
-「……あぁ、全部出し切った」
+#＠樹
+#「……あぁ、全部出し切った」
+＠Itsuki
+「...... Ahh, It all went out.」
 
-幼い秘裂からまだ半分近く姿を覗かせながらも、肉茎からはたっぷりの精液が吐き出された。
+#幼い秘裂からまだ半分近く姿を覗かせながらも、肉茎からはたっぷりの精液が吐き出された。
+#SCRIPT ADD KANJI
+Ｅven while taking a quick look at how I was so far nearly halfway out of her childish cunt, the loads of semen was spit out.
 
-年下の子を相手にこの光景は情けない感もあるが、今はまずみかんを労ってやる。
+#年下の子を相手にこの光景は情けない感もあるが、今はまずみかんを労ってやる。
+#SCRIPT ADD KANJI
+Ａlthough with the scene before me the younger child is brought to the company of her peers who also had that miserable feeling, I'll console her now.
 
-＠樹
-「よく頑張ったな、みかん。偉かったぞ」
+#(not sure about this last one. it's weird)
 
-＠みかん,A00675
-「んぅくっ、はぁぁ……うん…すごく痛かったけど……」
+#＠樹
+#「よく頑張ったな、みかん。偉かったぞ」
+＠Itsuki
+「You really tried hard, Mikan. I'm proud of you.」
 
-＠みかん,A00676
-「…今もまだね、おちんちんが入ってるままで熱いの……ゾクゾクしてる……」
+#＠みかん,A00675
+#「んぅくっ、はぁぁ……うん…すごく痛かったけど……」
+＠Mikan,A00675
+「んぅくっ、はぁぁ...... Thanks...... It hurt a lot though......」
 
-一連の行為の疲労と火照りに浮かされたような表情のみかん。
+#＠みかん,A00676
+#「…今もまだね、おちんちんが入ってるままで熱いの……ゾクゾクしてる……」
+＠Mikan,A00676
+「...... Now and all this time before, it's hot with your ochinchin inside...... I'm shivering......」
 
-肉茎を咥えたままの秘洞がビクビクと小刻みに震え、滴る白濁をうっすらとピンク色にしている。
+#一連の行為の疲労と火照りに浮かされたような表情のみかん。
+#SCRIPT ADD KANJI
+Ｍikan's facial expression looks like she's becoming delirious with the thrill of the heat and weariness from the series of events.
 
-＠みかん,A00677
-「んっ、くぅんっ……！　ふぅっ……おちんちん、まだ抜けないの……？」
+#肉茎を咥えたままの秘洞がビクビクと小刻みに震え、滴る白濁をうっすらとピンク色にしている。
+#SCRIPT ADD KANJI
+Ｈer cleft which still held my penis twitches and quivers bit by bit, and the emulsion which drips down is turning pretty pink.
+
+#＠みかん,A00677
+#「んっ、くぅんっ……！　ふぅっ……おちんちん、まだ抜けないの……？」
+＠Mikan,A00677
+「んっ、くぅんっ……！　ふぅっ...... Has your ochinchin not come out yet......?」
 
 #■BG（黒）
 @bg_black
 
 
-みかんの不安そうな言葉に首を振り、ゆっくりと怒張を抜いてやる。
+#みかんの不安そうな言葉に首を振り、ゆっくりと怒張を抜いてやる。
+#SCRIPT ADD KANJI
+Ｓhaking my head at Mikan's words which seem somewhat worried, restfully I draw out my erection for her.
 
-そこからはピンク色の精液が、ネトネトの糸を太く引いて滴り落ちた。
+#そこからはピンク色の精液が、ネトネトの糸を太く引いて滴り落ちた。
+#SCRIPT ADD KANJI
+Ａfter this the pink semen is pulled into a fat, syrupy strand and trickles down.
 
 ………
 
@@ -1269,55 +2097,85 @@ wait	1000
 @bg_choukyou_n
 date_open
 
-汚れを引き取り、服を着たみかんが安堵の息を吐く。
+#汚れを引き取り、服を着たみかんが安堵の息を吐く。
+#SCRIPT ADD KANJI
+Ｒemoving the impurities, Mikan who had put her clothes back on breathes a sigh of relief.
 
 @mikan_naki
 
-＠みかん,A00678
-「はぁぁ……これで終わったんだよね……」
+#＠みかん,A00678
+#「はぁぁ……これで終わったんだよね……」
+＠Mikan,A00678
+「はぁぁ...... We're done with this, right......」
 
-＠樹
-「第一歩がな」
+#＠樹
+#「第一歩がな」
+＠Itsuki
+「It's only the first step.」
 
-＠樹
-「……むしろ、これからが始まりだろう」
+#＠樹
+#「……むしろ、これからが始まりだろう」
+＠Itsuki
+「...... I think after this will be the beginning.」
 
 @mikan_kanashimi
 
-＠みかん,A00679
-「う……うん」
+#＠みかん,A00679
+#「う……うん」
+＠Mikan,A00679
+「Oh...... Okay.」
 
-＠みかん,A00680
-「今日みたいにおちんちんを入れるの、これからもしていくんだよね……」
+#＠みかん,A00680
+#「今日みたいにおちんちんを入れるの、これからもしていくんだよね……」
+＠Mikan,A00680
+「After this it's going to be like today how you put in your ochinchin, right......」
 
-＠樹
-「それに関してはきっと、すぐに慣れるさ」
+#＠樹
+#「それに関してはきっと、すぐに慣れるさ」
+＠Itsuki
+「That's definitely going to happen. You'll be used to it in no time.」
 
-＠樹
-「今日はとりあえずお疲れ様だ。これからも頑張るんだぞ」
+#＠樹
+#「今日はとりあえずお疲れ様だ。これからも頑張るんだぞ」
+＠Itsuki
+「For now, this is much appreciated and that's enough for the day. I hope you do your best next time too!」
 
 @mikan_warai
 
-＠みかん,A00681
-「うんッ」
+#＠みかん,A00681
+#「うんッ」
+＠Mikan,A00681
+「Right!」
 
 @mikan_warai2
 
-＠みかん,A00682
-「ねぇお兄ちゃん。みかんのこと、怖い人たちから守ってくれるんだよね？」
+#＠みかん,A00682
+#「ねぇお兄ちゃん。みかんのこと、怖い人たちから守ってくれるんだよね？」
+＠Mikan,A00682
+「Hey Onii-chan. You're going to protect Mikan from those scary people right?」
 
-その唯一の見返りが嬉しそうに、無邪気に尋ねてくる。
+#その唯一の見返りが嬉しそうに、無邪気に尋ねてくる。
+#SCRIPT ADD KANJI
+Ａppearing to be happy only with this repayment, she innocently inquires.
 
-＠樹
-「もちろん。もう心配する事はないぞ」
+#＠樹
+#「もちろん。もう心配する事はないぞ」
+＠Itsuki
+「Of course. Soon you won't need to worry about that.」
 
-＠樹
-「みかん自身も頑張る限り、オレやみんなも最善を尽くして守ってやれるから」
+#＠樹
+#「みかん自身も頑張る限り、オレやみんなも最善を尽くして守ってやれるから」
+＠Itsuki
+「Because with Mikan trying as hard as she can, me and everyone will do our absolute best and we'll protect you.」
 
-＠みかん,A00683
-「あははっ、うんッ♪　頑張るよ！」
+#＠みかん,A00683
+#「あははっ、うんッ♪　頑張るよ！」
+＠Mikan,A00683
+「あははっ、うんッ♪　I'll do my best!」
 
-それからしばらく話をするが、翌日は学校なので早めに部屋へ引き上げさせた。
+#それからしばらく話をするが、翌日は学校なので早めに部屋へ引き上げさせた。
+#SCRIPT ADD KANJI
+Ａfter that we talk for a short while, but tomorrow is school so she retired to her room in good season.
 
 @bg_black
 #一拍
@@ -1329,44 +2187,70 @@ wait	1000
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-＠樹
-「ふぅ……」
+#＠樹
+#「ふぅ……」
+＠Itsuki
+「Phew......」
 
-＠樹
-「……終わったか」
+#＠樹
+#「……終わったか」
+＠Itsuki
+「...... Is it really over?」
 
-今日のことでもう、後戻りの出来ない一歩を踏み出してしまった。
+#今日のことでもう、後戻りの出来ない一歩を踏み出してしまった。
+#SCRIPT ADD KANJI
+Ｗith what happened today, there's no turning back anymore.
 
-これから先はもう何が起ころうと、オレも共犯………
+#これから先はもう何が起ころうと、オレも共犯………
+#SCRIPT ADD KANJI
+Ｗhatever may happen from here on out, I'm in it too......
 
-いや、むしろ一件の中心人物だ。
+#いや、むしろ一件の中心人物だ。
+#SCRIPT ADD KANJI
+Ｎo, actually I'll be the central figure.
 
-＠樹
-「考えても仕方ない……父さんの頃からやって続いてるんだから、そう急展開にはならないだろう」
+#＠樹
+#「考えても仕方ない……父さんの頃からやって続いてるんだから、そう急展開にはならないだろう」
+＠Itsuki
+「However much I ponder it I have no choice...... I'm following in my dad's footsteps, so it seems this rapid development is irresistible.」
 
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @se02
 
-ベッドに倒れる。
+#ベッドに倒れる。
+#SCRIPT ADD KANJI
+Ｉ collapse on the bed.
 
-精神的に疲れ切っていた。
+#精神的に疲れ切っていた。
+#SCRIPT ADD KANJI
+Ｉ was exhausted mentally and emotionally today.
 
-＠樹
-「……シャワーは、今みかんが使ってるだろうし」
+#＠樹
+#「……シャワーは、今みかんが使ってるだろうし」
+＠Itsuki
+「...... Not just because Mikan is using the shower right now.」
 
-＠樹
-「いいか、もう明日で……」
+#＠樹
+#「いいか、もう明日で……」
+＠Itsuki
+「Whatever,  soon it'll be a new day......」
 
 
 #■BG（黒）
 @bg_black
 
 
-そのまま目を閉じ、眠りに落ちることにした。
+#そのまま目を閉じ、眠りに落ちることにした。
+#SCRIPT ADD KANJI
+Ｃlosing my eyes as it is, I decided to go to sleep.
 
 wait	1000
 
-この日、また昔の夢を見たような気がするが、熟睡し切って覚えていなかった。
+#この日、また昔の夢を見たような気がするが、熟睡し切って覚えていなかった。
+#SCRIPT ADD KANJI
+Ｔhese days, I have a feeling like I'm seeing dreams of my past, but my sleep was uninterrupted and I felt nothing tonight.
+
+#(Hm, reading over this I'm finding that the less I follow the literal japanese the better it sounds.)
 
 
 scene_end
@@ -1374,3 +2258,4 @@ scene_end
 #（スケジュールへ）
 
 return
+

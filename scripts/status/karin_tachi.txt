@@ -1450,7 +1450,7 @@ se_stop		0
 #（選択肢）
 #（１．一緒に行く）
 #（２．今回は止める）
-select sel,"一緒に行く","今回は止める"
+select sel,"Go together","Stop this time"
 if sel=0 then goto karin_tachi07_a
 if sel=1 then goto karin_tachi07_b
 #--------------------------------------------------
@@ -1812,7 +1812,7 @@ wait		500
 #（選択肢）
 #（１．食事風景の話題）
 #（２．食事内容の話題）
-select sel,"食事風景の話題","食事内容の話題"
+select sel,"Talk about the ambiance","Talk about the food"
 if sel=0 then goto karin_tachi08_a
 if sel=1 then goto karin_tachi08_b
 #--------------------------------------------------
@@ -2656,7 +2656,7 @@ screen_flash		500
 #（選択肢）
 #（１．もう一度勧め食べさせる）
 #（２．無理強いはしない）
-select sel,"もう一度勧め食べさせる","無理強いはしない"
+select sel,"Make her eat some","It's not mandatory"
 if sel=0 then goto karin_tachi10_a
 if sel=1 then goto karin_tachi10_b
 #--------------------------------------------------

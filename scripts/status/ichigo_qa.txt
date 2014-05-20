@@ -100,9 +100,9 @@ label	ichigo_qa01
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．もう少し良く調べる）
-#（２．新しい物を買ってあげる）
-select sel,"もう少し良く調べる","新しい物を買ってあげる"
+#（１．もう少し良く調べる）Examine more closely
+#（２．新しい物を買ってあげる）Just get a new one
+select sel,"Examine more closely","Just get a new one"
 if sel=0 then goto ichigo_qa01_a
 if sel=1 then goto ichigo_qa01_b
 #--------------------------------------------------
@@ -384,7 +384,7 @@ screen_vibration	500,16,16,16
 #■（選択肢）
 #（１．アヌスが名詞、アナルが形容詞だ）
 #（２．アヌスが形容詞、アナルが名詞だ）
-select sel,"アヌスが名詞、アナルが形容詞だ","アヌスが形容詞、アナルが名詞だ"
+select sel,"Ass is a noun, anal's an adjective","Ass is an adjective, anal's a noun"
 sel1=sel
 #--------------------------------------------------
 #（どちらも分岐なし）
@@ -553,7 +553,7 @@ if _MONEY<18000 then goto ichigo_qa03_b
 #■（選択肢）
 #（１．お小遣いをあげる）
 #（２．我慢させる）
-select sel,"お小遣いをあげる","我慢させる"
+select sel,"Give pocket money","Show some restraint"
 if sel=0 then goto ichigo_qa03_a
 if sel=1 then goto ichigo_qa03_b
 #--------------------------------------------------
@@ -806,7 +806,7 @@ label	ichigo_qa04
 #（１．４人）
 #（２．５人）
 #（３．３人）
-select sel,"４人","５人","３人"
+select sel,"４ people","５ people","３ people"
 if sel=0 then goto ichigo_qa04_a
 if sel=1 then goto ichigo_qa04_b
 if sel=2 then goto ichigo_qa04_c
@@ -1125,7 +1125,7 @@ label	ichigo_qa05
 #（１．二本）
 #（２．五本）
 #（３．空いていない）
-select sel,"二本","五本","空いていない"
+select sel,"2 parts","5 parts","none of the above"
 if sel=0 then goto ichigo_qa05_a
 if sel=1 then goto ichigo_qa05_b
 if sel=2 then goto ichigo_qa05_c
@@ -1469,9 +1469,9 @@ layer_movepass_init	l_ichigo,0	#演出初期化
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．ちょいとアニメにはうるさいぜ！）
-#（２．普通くらいの知識かな）
-select sel,"ちょいとアニメにはうるさいぜ！","普通くらいの知識かな"
+#（１．ちょいとアニメにはうるさいぜ！）The noisy anime To Choi!
+#（２．普通くらいの知識かな）Wonder if knowledge of much ordinary
+select sel,"A noisy anime!","Does she understand much normal stuff?"
 if sel=0 then goto ichigo_qa06_a
 if sel=1 then goto ichigo_qa06_b
 #--------------------------------------------------
@@ -1859,7 +1859,7 @@ screen_vibration	500,16,16,16
 #■（選択肢）
 #（１．こっちから聞いてあげる）
 #（２．黙っておく）
-select sel,"こっちから聞いてあげる","黙っておく"
+select sel,"I'll hear from here","Keep quiet"
 if sel=0 then goto ichigo_qa07_a
 if sel=1 then goto ichigo_qa07_b
 #--------------------------------------------------
@@ -2436,9 +2436,9 @@ layer_movepass_play	l_ichigo,0,play_once
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．この場でエッチする）
-#（２．そんなことはしない）
-select sel,"この場でエッチする","そんなことはしない"
+#（１．この場でエッチする）I will echi in this place
+#（２．そんなことはしない）I will not do something like that
+select sel,"I'll some ecchi here","I wouldn't do that"
 if sel=0 then goto ichigo_qa08_a
 if sel=1 then goto ichigo_qa08_b
 #--------------------------------------------------
@@ -2857,9 +2857,9 @@ label	ichigo_qa09
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．良いに決まっている）
-#（２．父親ではなく、オレに甘えていい）
-select sel,"良いに決まっている","父親ではなく、オレに甘えていい"
+#（１．良いに決まっている）It is determined to good. Good ni Kimatteiru.
+#（２．父親ではなく、オレに甘えていい）Not the father, totally dependant on me.
+select sel,"It's obviously good","She's depenent on me, not her father"
 if sel=0 then goto ichigo_qa09_a
 if sel=1 then goto ichigo_qa09_b
 #--------------------------------------------------
@@ -3143,9 +3143,9 @@ label	ichigo_qa10
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．題材を変えさせる）
-#（２．オレが最後まで側でチェック）
-select sel,"題材を変えさせる","オレが最後まで側でチェック"
+#（１．題材を変えさせる）I make change the subject.
+#（２．オレが最後まで側でチェック）I'll check on the side until the end
+select sel,"I'll change the subject","I'll check out the ending"
 if sel=0 then goto ichigo_qa10_a
 if sel=1 then goto ichigo_qa10_b
 #--------------------------------------------------

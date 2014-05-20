@@ -1,4 +1,5 @@
 #プロローグ三日目・チャプター１
+#プロローグ三日目・チャプター１
 #------------------------------------------------------------
 
 label youzyo3_00 ##############################################################
@@ -15,75 +16,113 @@ date_open
 #SE15　目覚ましの音（ジリリリリッ！）
 @se15
 
-＠樹
-「………う」
+#＠樹
+#「………う」
+＠Itsuki
+「………Ugh.」
 
-朝だ………目覚ましを止めないと……
+#朝だ………目覚ましを止めないと……
+#SCRIPT ADD KANJI
+Ｉt's morning………I have to stop the alarm clock…….
 
-＠樹
-「うぅ、まだ眠い……昨日の疲れが……」
+#＠樹
+#「うぅ、まだ眠い……昨日の疲れが……」
+＠Itsuki
+「Ugh, I'm still sleepy……from yesterday……」
 
 #SE71　目覚ましが止まる音（リンッ）
 @se71
 
-＠樹
-（ん……？　勝手に止まった？）
+#＠樹
+#（ん……？　勝手に止まった？）
+＠Itsuki
+（Hm……？　It stopped by itself？）
 
-＠いちご,O00067
-「朝だよッ、パパー！！」
+#＠いちご,O00067
+#「朝だよッ、パパー！！」
+＠Ichigo,O00067
+「It's morning, Papaー！！」
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
 
-＠樹
-「ぐふぅぅううッ！！」
+#＠樹
+#「ぐふぅぅううッ！！」
+＠Itsuki
+「Guhuuhh！！」
 
 #■EVCG（いちご馬乗り）※差分があるなら、曇り空
 @bgm03
 event_fast		"event\ev_ich_090-00.png"
 screen_whitein		2000
 
-＠いちご,O00068
-「えへへぇ～、おはよ。パパ」
+#＠いちご,O00068
+#「えへへぇ～、おはよ。パパ」
+＠Ichigo,O00068
+「Eheheh～, 'morning, Papa.」
 
-＠いちご,O00069
-「もう、目覚ましなんか掛けちゃだめだよ～。いちごがせっかく起こしに来てるのにぃ」
+# ★
+#＠いちご,O00069
+#「もう、目覚ましなんか掛けちゃだめだよ～。いちごがせっかく起こしに来てるのにぃ」
+＠Ichigo,O00069
+「Aww, you can't set the alarm clock～. I even went out of my way to come wake you.」
 
-＠樹
-「と、止めたのはいちごか……」
+#＠樹
+#「と、止めたのはいちごか……」
+＠Itsuki
+「W, were you the one who stopped it...?」
 
-こうならないための目覚ましセットだったのに……
+#こうならないための目覚ましセットだったのに……
+#SCRIPT ADD KANJI
+Ｉ had set the alarm clock so this wouldn't happen...
 
-＠いちご,O00070
-「そだよ。ほらぁ、朝なんだからもっとテンション上げていこうよー」
+#＠いちご,O00070
+#「そだよ。ほらぁ、朝なんだからもっとテンション上げていこうよー」
+＠Ichigo,O00070
+「Yup. Come on, it's morning, so be a little happierー.」
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
 
-＠樹
-「うぐぅッ！　や、やめれ……朝からこれはマジきついから……ッ！」
+# ★
+#＠樹
+#「うぐぅッ！　や、やめれ……朝からこれはマジきついから……ッ！」
+＠Itsuki
+「Uguh！　St, stop……This is really harsh during the morning...！」
 
-＠いちご,O00071
-「むーっ。いちごはそんなに重くないよ。せーてき体重だもん」
+#＠いちご,O00071
+#「むーっ。いちごはそんなに重くないよ。せーてき体重だもん」
+＠Ichigo,O00071
+「Awwー. I'm not THAT heavy. I'm at a "seiteki" (sexual) weight.」
 
-＠樹
-「どんな体重だよ性的！？　適正だろッ！」
+#＠樹
+#「どんな体重だよ性的！？　適正だろッ！」
+＠Itsuki
+「What do you mean "'seiteki' weight"！？　Don't you mean "tekisei" (reasonable)！?」
 
-＠いちご,O00072
-「そんなことよりパパ。今朝は興奮した？」
+#＠いちご,O00072
+#「そんなことよりパパ。今朝は興奮した？」
+＠Ichigo,O00072
+「Forget that, Papa. Are you excited this morning？」
 
-サワサワ……
+#サワサワ……
+#SCRIPT ADD KANJI
+　*Rustle*……
 
-＠樹
-「こら、バカ！　変なところ触るなッ！！」
+#＠樹
+#「こら、バカ！　変なところ触るなッ！！」
+＠Itsuki
+「Hey, idiot！　Don't go touching me in weird places！！」
 
 #■BG（自室・昼）
 @bg_itsuki
 @ichigo_large
 @ichigo_odoroki
 
-＠いちご,O00073
-「うわッ！？　わわっと！！」
+#＠いちご,O00073
+#「うわッ！？　わわっと！！」
+＠Ichigo,O00073
+「Uwah！？　Wawah！！」
 
 layer_move	l_ichigo,500,0,0,0,600,passtype_tcb
 wait	500
@@ -92,11 +131,15 @@ wait	500
 #SE27　倒れる音（ドサッ）
 @se27
 
-＠樹
-「はぁぁ……まったく」
+#＠樹
+#「はぁぁ……まったく」
+＠Itsuki
+「*Pant*……Sheesh.」
 
-＠樹
-「とりあえず、おはよ」
+#＠樹
+#「とりあえず、おはよ」
+＠Itsuki
+「First of all, good morning.」
 
 
 #layer_load	l_ichigo,"chara\いちご大\いちご_私服_大_喜.png"
@@ -105,48 +148,70 @@ wait	500
 @ichigo_kurushii
 layer_move	l_ichigo,2000,0,600,0,0,passtype_linear
 
-＠いちご,O00074
-「う、うぅぅ～～～っ！　痛いよぉ、頭打ったぁ。いきなり起きないでぇぇ」
+#＠いちご,O00074
+#「う、うぅぅ～～～っ！　痛いよぉ、頭打ったぁ。いきなり起きないでぇぇ」
+＠Ichigo,O00074
+「U, uuu～～～！ It hurts, I hit my head. Don't get up so suddenly…」
 
-＠樹
-「変なことしようとするからだ……前にも言ったとおり、踏まれて興奮する趣味はないッ」
+#＠樹
+#「変なことしようとするからだ……前にも言ったとおり、踏まれて興奮する趣味はないッ」
+＠Itsuki
+「You were about to do something weird……Like I said before, I have no interest in being excited when I'm stepped on.」 ←Like you said above, excited can double as aroused
 
 @ichigo_naki
 #layer_movepass_add	l_ichigo,0,250,0,4
 #layer_movepass_add	l_ichigo,0,250,0,0
 #layer_movepass_play	l_ichigo,0,play_loop
 
-＠いちご,O00075
-「ひーーーんッ！　あたま、頭が痛いよぉぉ……！」
+#＠いちご,O00075
+#「ひーーーんッ！　あたま、頭が痛いよぉぉ……！」
+＠Ichigo,O00075
+「Hiiiin！ (Eeek!)　My head, my head hurts……！」
 
-＠いちご,O00076
-「うぇぇぇええんッ」
+#＠いちご,O00076
+#「うぇぇぇええんッ」
+＠Ichigo,O00076
+「Ueeeeeen!」
 
-＠樹
+#＠樹
+#「………」
+＠Itsuki
 「………」
 
-＠樹
-「………いちご？」
+#＠樹
+#「………いちご？」
+＠Itsuki
+「………Ichigo？」
 
-＠いちご,O00077
-「ひくっ、ひっく……うぅっ、うわぁああぁん！」
+#＠いちご,O00077
+#「ひくっ、ひっく……うぅっ、うわぁああぁん！」
+＠Ichigo,O00077
+「*Sniff*, *sniff*……Uu, uwaaaaaaan！」
 
-ヤバい、泣き止まない。
-もしかして結構危ない落ち方したんじゃないのか……？
+#ヤバい、泣き止まない。
+#もしかして結構危ない落ち方したんじゃないのか……？
+#SCRIPT ADD KANJI
+Ｃrap, she won't stop crying. Perhaps her fall was a little too dangerous……?
 
 #CH（いちごの立ち絵表示大）
 layer_scale	l_ichigo,1000,0,0,20,20,passtype_tcb
 
-＠樹
-「お、おい、いちご、どうした。大丈夫か？」
+#＠樹
+#「お、おい、いちご、どうした。大丈夫か？」
+＠Itsuki
+「He, hey, Ichigo, what's wrong? Are you okay？」
 
-＠いちご,O00078
-「うぅ～～、パパ、もっとこっち来てよぉ」
+#＠いちご,O00078
+#「うぅ～～、パパ、もっとこっち来てよぉ」
+＠Ichigo,O00078
+「Uu～～、Papa、come a bit closer.」
 
 layer_scale	l_ichigo,1000,20,20,40,40,passtype_tcb
 
-＠樹
-「ん？」
+#＠樹
+#「ん？」
+＠Itsuki
+「Hm？」
 
 #CH（立ち絵消去）
 @ichigo_
@@ -154,31 +219,43 @@ layer_scale	l_ichigo,1000,20,20,40,40,passtype_tcb
 #SE48　柔肉音１（ムニュッ）
 @se48
 
-＠いちご,O00079
-「にへ……♪」
+#＠いちご,O00079
+#「にへ……♪」
+＠Ichigo,O00079
+「Nihe (smile/giggle) ……♪」
 
-＠樹
+#＠樹
+#「………」
+＠Itsuki
 「………」
 
-＠樹
+#＠樹
+#「…………！？」
+＠Itsuki
 「…………！？」
 
 #CH（立ち絵表示）
 @ichigo_warai
 
-＠いちご,O00080
-「ああーッ！　やっぱりパパ、おチンチン大きくなってるー！　興奮してたんだー♪」
+#＠いちご,O00080
+#「ああーッ！　やっぱりパパ、おチンチン大きくなってるー！　興奮してたんだー♪」
+＠Ichigo,O00080
+「Aahー！　Papa's penis really did become biggerー！　He was excitedー♪」(*she uses a childish word for penis...) ←Same thing for excited here
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
-「なッ！？　何触ってるんだコラッ！　って、ウソ泣きかいちご！？」
+#＠樹
+#「なッ！？　何触ってるんだコラッ！　って、ウソ泣きかいちご！？」
+＠Itsuki
+「Wha-！？　What are you touching, hey！　I mean, were you faking tears, Ichigo！？」
 
 #CH（立ち絵大表示から、通常表示へ変更）
 
-＠いちご,O00081
-「えへへ～、隙有りだよパパ。ざくろにも教えてあげようっと～～♪」
+#＠いちご,O00081
+#「えへへ～、隙有りだよパパ。ざくろにも教えてあげようっと～～♪」
+＠Ichigo,O00081
+「Ehehe～、this is my chance, Papa. I'm going to go tell Zakuro～～♪」
 
 #SE21　廊下を走り去る音　※徐々に小さく
 @se21
@@ -188,8 +265,10 @@ layer_move	l_ichigo,1000,0,0,-800,0,passtype_tcb
 wait		1000
 @ichigo_
 
-＠樹
-「待ていちごッ！！　朝こうなるのは仕方ないことなんだよッ！！」
+#＠樹
+#「待ていちごッ！！　朝こうなるのは仕方ないことなんだよッ！！」
+＠Itsuki
+「Wait, Ichigo！！　I can't help if this happens in the morning！！」
 
 #SE21　廊下を走り去る音　※徐々に小さく
 @se21
@@ -211,29 +290,43 @@ se_stop		0
 
 
 
-＠樹
-「はぁぁ、はぁ……まったく、何で朝からボディーブローを受けた上に全力疾走しないといけないんだ……」
+#＠樹
+#「はぁぁ、はぁ……まったく、何で朝からボディーブローを受けた上に全力疾走しないといけないんだ……」
+＠Itsuki
+「*Pant*, *pant*……Really, why do I have to take a body blow in the morning and on top of that, run at full speed……」
 
 @mikan
 
-＠みかん,A00047
-「どうしたのお兄ちゃん？　息が上がってるよ？」
+#＠みかん,A00047
+#「どうしたのお兄ちゃん？　息が上がってるよ？」
+＠Mikan,A00047
+「What's wrong, Onii-chan？　Your breath is heavy？」 ←Possibly "Why are you panting?"
 
-＠樹
-「いちごを捕まえてた」
+#＠樹
+#「いちごを捕まえてた」
+＠Itsuki
+「Caught you, Ichigo.」
 
 @ichigo_warai
 
-＠いちご,O00082
-「えへへ、捕まえられちゃった」
+#＠いちご,O00082
+#「えへへ、捕まえられちゃった」
+＠Ichigo,O00082
+「Ehehe, I was caught.」
 
-＠みかん,A00048
-「……うん？」
+#＠みかん,A00048
+#「……うん？」
+＠Mikan,A00048
+「……Yeah？」 ←Seems more like "Eh?" or "Huh?"
 
-不思議そうに小首を傾げてる。
+#不思議そうに小首を傾げてる。
+#SCRIPT ADD KANJI
+Ｓhe tilts her head curiously.
 
-＠樹
-「いや、何でもないんだ。済んだことだし」
+#＠樹
+#「いや、何でもないんだ。済んだことだし」
+＠Itsuki
+「No, it's nothing. It's over now anyways.」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -244,40 +337,58 @@ se_stop		0
 
 @miu_niko
 
-＠美雨,B00048
-「樹さん、おはようございます。もうすぐ朝ご飯ですから来てくださいね」
+#＠美雨,B00048
+#「樹さん、おはようございます。もうすぐ朝ご飯ですから来てくださいね」
+＠Miu,B00048
+「Itsuki-san, good morning. I'm going to make breakfast very soon so please come.」
 
-＠樹
-「はぁ……おはよ」
+#＠樹
+#「はぁ……おはよ」
+＠Itsuki
+「*Pant*……'morning.」
 
 @miu
-＠美雨,B00049
-「あら、息が上がってますけど、どうかしたんですか？」
+#＠美雨,B00049
+#「あら、息が上がってますけど、どうかしたんですか？」
+＠Miu,B00049
+「Oh, your breath is heavy, is something wrong？」 ← Can be: "Oh, you're panting, is something wrong?"
 
 @ichigo_yorokobi
-＠いちご,O00083
-「興奮してるんだよね、パパ？」
+#＠いちご,O00083
+#「興奮してるんだよね、パパ？」
+＠Ichigo,O00083
+「You're excited, aren't you, Papa？」
 
-＠美雨,B00050
-「興奮……？」
+#＠美雨,B00050
+#「興奮……？」
+＠Miu,B00050
+「Excited……？」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
-「してないッ！　朝立ちっていうんだあれはッ！！」
+#＠樹
+#「してないッ！　朝立ちっていうんだあれはッ！！」
+＠Itsuki
+「I'm not! That's morning wood！！」 (*I don't know any other word for it, lol) ← No idea either for a proper translation. Seems like morning wood can be morning bullshit, but that's not good.
 
-＠樹
-「………あ」
+#＠樹
+#「………あ」
+＠Itsuki
+「………Ah.」
 
 #CH（美雨赤面）
 @miu_tere
 
-＠美雨,B00051
+#＠美雨,B00051
+#「………」
+＠Miu,B00051
 「………」
 
-＠美雨,B00052
-「あ、えと、朝ご飯の用意してきますね」
+#＠美雨,B00052
+#「あ、えと、朝ご飯の用意してきますね」
+＠Miu,B00052
+「Ah, umm, I'm going to go make breakfast, okay?」
 
 #CH（立ち絵消去）
 @miu_
@@ -288,43 +399,65 @@ se_stop		0
 #SE21　廊下を走り去る音
 #@se21
 
-＠樹
-「み、美雨！？」
+#＠樹
+#「み、美雨！？」
+＠Itsuki
+「Mi, Miu！？」
 
-おおお……朝から何ちゅうことを叫んで聞かれてるんだオレは……
+#おおお……朝から何ちゅうことを叫んで聞かれてるんだオレは……
+#SCRIPT ADD KANJI
+Ｗhoa…… What a thing for me to shout in the morning and be heard…….
 
-＠樹
-「いや、けどすいかにあんな事をさせてるだろうに。言葉くらいで照れるなんて……」
+#＠樹
+#「いや、けどすいかにあんな事をさせてるだろうに。言葉くらいで照れるなんて……」
+＠Itsuki
+「No, I wonder if she's making Suika do such a thing. She was embarrassed just from those words……」 (*not sure about this...) ←No idea either. Can also be: She was embarrassed from just those words.
 
 @shizuku
 
-＠雫,S00060
-「ちっちっち、ダメだよ樹。この生活に慣れてるとはいえ、美雨は結構ウブなところがあるんだから」
+#＠雫,S00060
+#「ちっちっち、ダメだよ樹。この生活に慣れてるとはいえ、美雨は結構ウブなところがあるんだから」
+＠Shizuku,S00060
+「Tsk tsk tsk, you can't do that, Itsuki. Even though she's getting used to this kind of lifestyle, Miu is still kind of naive.」
 
-＠樹
-「そう、なんですか？」
+#＠樹
+#「そう、なんですか？」
+＠Itsuki
+「R,really？」
 
-それはそれでまぁ、情緒があるというか可愛らしいというか……微妙にホッとしたが。
+#それはそれでまぁ、情緒があるというか可愛らしいというか……微妙にホッとしたが。
+#SCRIPT ADD KANJI
+Ｗell, whatever the case,  I was a bit relieved to see the  cute emotional side of her 
 
 #SE13　お腹の音・弱（キュルル……）
 @se13
 
-＠樹
-「腹減りましたね、食堂に行きますか」
+#＠樹
+#「腹減りましたね、食堂に行きますか」
+＠Itsuki
+「I'm hungry, I'll go to the dining room.」
 
 @shizuku_ikari
-＠雫,S00061
-「待ちな」
+#＠雫,S00061
+#「待ちな」
+＠Shizuku,S00061
+「Wai-」
 
 	screen_vibration	500,16,16,16
 
-――ガシッ
+#――ガシッ
+#SCRIPT ADD KANJI
+――*Grab*
 
 @shizuku_ikariwarai
-＠雫,S00062
-「すいかにどんな事をされたって？　興味あるねぇ」
+#＠雫,S00062
+#「すいかにどんな事をされたって？　興味あるねぇ」
+＠Shizuku,S00062
+「Made Suika do what？　I'm interested.」
 
-＠樹
+#＠樹
+#「………」
+＠Itsuki
 「………」
 
 #（youzyo3 S-2へ）
@@ -346,33 +479,45 @@ bg	"cg\bg\bg09.png"
 @mikan_seifuku		#みかん冬服
 @suika_seifuku		#すいか制服
 @ichigo_seifuku		#いちご制服
-
-朝食も終えて、初登校のみかんを交えて子供達が学校へ行く。
+#★
+#朝食も終えて、初登校のみかんを交えて子供達が学校へ行く。
+#SCRIPT ADD KANJI
+Ｂreakfast was finished. The children exchanged words with Mikan, who was new to going to school and then they set off for school.
 
 @miu
 
-＠美雨,B00053
-「みんな、忘れ物はない？　お弁当は持ったかしら？」
+#＠美雨,B00053
+#「みんな、忘れ物はない？　お弁当は持ったかしら？」
+＠Miu,B00053
+「Everyone, have you forgotten anything？　Do you have your bentous？」 (*could change bentou to lunch box)
 
 @ichigo_warai
 
-＠いちご,O00084
-「うん！　いちごがお弁当を忘れるわけないよー♪」
+#＠いちご,O00084
+#「うん！　いちごがお弁当を忘れるわけないよー♪」
+＠Ichigo,O00084
+「Yup！　There's no way I would forget my bentouー♪」
 
 @suika_odoroki
 
-＠すいか,R00108
-「……いちごちゃん、カバンは？」
+#＠すいか,R00108
+#「……いちごちゃん、カバンは？」
+＠Suika,R00108
+「……Ichigo-chan, where's your bag？」
 
 @ichigo_gimon
 
-＠いちご,O00085
-「え？　あれ？」
+#＠いちご,O00085
+#「え？　あれ？」
+＠Ichigo,O00085
+「Eh？　Huh？」
 
 @ichigo_komikaru_odoroki
 
-＠いちご,O00086
-「あーっ！　どっか置いてきたッ！　探してくる」
+#＠いちご,O00086
+#「あーっ！　どっか置いてきたッ！　探してくる」
+＠Ichigo,O00086
+「Ahーっ！　I left it somewhere！　I'll go look for it.」
 
 layer_move	l_ichigo,500,0,0,800,0,passtype_tcb
 wait	500
@@ -381,64 +526,92 @@ wait	500
 @ichigo_
 @se21
 
-＠樹
-「何をしに学校に行く気だったんだよ」
+#＠樹
+#「何をしに学校に行く気だったんだよ」
+＠Itsuki
+「What was she planning to do at school like that?」
 
-入れ違うようにみかんが玄関へやってくる。
+#入れ違うようにみかんが玄関へやってくる。
+#SCRIPT ADD KANJI
+Ｍikan came into the entranceway and we passed each other.
 
 @mikan
 
-＠みかん,A00049
-「……いちごちゃんどうかしたの？　逆走して行ったけど」
+#＠みかん,A00049
+#「……いちごちゃんどうかしたの？　逆走して行ったけど」
+＠Mikan,A00049
+「……Ichigo-chan, what's wrong？　You came running backwards.」
 
 @zakuro
 
-＠ざくろ,Q00122
-「ほとんど日課の運動だから。気にしないで」
+#＠ざくろ,Q00122
+#「ほとんど日課の運動だから。気にしないで」
+＠Zakuro,Q00122
+「It's practically her daily routine. Don't worry about it.」
 
 @mikan
 
-＠みかん,A00050
-「そうなんだ？　朝のジョギングなら外でやればいいのに」
+#＠みかん,A00050
+#「そうなんだ？　朝のジョギングなら外でやればいいのに」
+＠Mikan,A00050
+「Really？　She should do her morning jogging outside though.」
 
 @mikan_kanashimi
 
-＠みかん,A00051
-「あ、それより美雨さん、みかんのお弁当が見つからないの～……探してるんだけど」
+#＠みかん,A00051
+#「あ、それより美雨さん、みかんのお弁当が見つからないの～……探してるんだけど」
+＠Mikan,A00051
+「Ah, more importantly, Miu-san, I can't find my bentou～……I looked for it but…」
 
 @miu_komaru
 
-＠美雨,B00054
-「みかんちゃんの？　えっと……」
+#＠美雨,B00054
+#「みかんちゃんの？　えっと……」
+＠Miu,B00054
+「Mikan-chan's bentou? Umm……」
 
 @miu_warai
 
-＠美雨,B00055
-「あ、そうそう。ハンバーグが好きって言っていたから余分に入れてあげて、食堂に―――」
+#＠美雨,B00055
+#「あ、そうそう。ハンバーグが好きって言っていたから余分に入れてあげて、食堂に―――」
+＠Miu,B00055
+「Ah, yes yes. You said you liked hamburger meat so I was going to give you extra. It's in the dining room―――」
 
-スッとその場の全員の視線が食堂の方へと向かれる。
+#スッとその場の全員の視線が食堂の方へと向かれる。
+#SCRIPT ADD KANJI
+Ｓuddenly, everyone's gaze shifted towards the direction the dining room was in.
 
 #//立ち絵なし
 
 #SE41　暴れる音（ドタンッバタンッ！）
 @se41
 
-＠いちご,O00087
-「ないよーー！！　どこにもいちごのカバンがないーー！！」
+#＠いちご,O00087
+#「ないよーー！！　どこにもいちごのカバンがないーー！！」
+＠Ichigo,O00087
+「It's not hereーー！！　My bag is nowhere to be foundーー！！」
 
-中でいちごが暴れていた。
+#中でいちごが暴れていた。
+#SCRIPT ADD KANJI
+Ｉnside, Ichigo ran amock.
 
-＠いちご,O00088
-「うわッ、何か誰かのお弁当ひっくり返したーー！！」
+#＠いちご,O00088
+#「うわッ、何か誰かのお弁当ひっくり返したーー！！」
+＠Ichigo,O00088
+「Uwah, I think I knocked over someone's bentouーー！！」
 
 @miu
 
-＠美雨,B00056
-「……そのまま食堂に置いたままだったかしら」
+#＠美雨,B00056
+#「……そのまま食堂に置いたままだったかしら」
+＠Miu,B00056
+「……I wonder if it's still in the dining room like I left it.」
 
 @mikan_komikaru_ikari
 
-＠みかん,A00052
+#＠みかん,A00052
+#「………！！！」
+＠Mikan,A00052
 「………！！！」
 
 layer_move	l_mikan,500,0,0,800,0,passtype_tcb
@@ -448,25 +621,36 @@ wait	500
 #SE21　廊下を走り去る音　※徐々に小さく
 @se21
 
-＠みかん,A00053
-「ふにーーーーーーー！！！！！（激怒」
+#＠みかん,A00053
+#「ふにーーーーーーー！！！！！（激怒」
+＠Mikan,A00053
+「Funiーーーーーーー！！！！！（rage.」
 
-＠いちご,O00089
-「ぴあッ！？　何ッ、何で怒ってるのみかん！？　ひーーーーん！！」
+#＠いちご,O00089
+#「ぴあッ！？　何ッ、何で怒ってるのみかん！？　ひーーーーん！！」
+＠Ichigo,O00089
+「Piah！？　Wh, why are you mad, Mikan！？　Hiiiin (eek)！！」
 
 #SE41　暴れる音（ドタンッバタンッ！）
 @se41
 
-＠樹
+#＠樹
+#「………」
+＠Itsuki
 「………」
 
+#★
 @zakuro
-＠ざくろ,Q00123
-「日記に新たな１ページが追加」
+#＠ざくろ,Q00123
+#「日記に新たな１ページが追加」
+＠Zakuro,Q00123
+「A new page added in my diary.」
 
 @suika
-＠すいか,R00109
-「はぁぁ……あんまり遅刻したくないなぁ」
+#＠すいか,R00109
+#「はぁぁ……あんまり遅刻したくないなぁ」
+＠Suika,R00109
+「*Pant*……I don't want to be too late.」
 
 @suika_
 @zakuro_
@@ -485,93 +669,150 @@ label youzyo3_02 ##############################################################
 @bg_living
 @shizuku
 
-＠雫,S00063
-「ふふ、昨日よりも随分と上がってるね……予想通りだ」
+#＠雫,S00063
+#「ふふ、昨日よりも随分と上がってるね……予想通りだ」
+＠Shizuku,S00063
+「Fufu, they've gone up quite a bit since yesterday……like I expected.」
 
-＠樹
-「雫さん？　珍しいですね、家にいるなんて」
+#＠樹
+#「雫さん？　珍しいですね、家にいるなんて」
+＠Itsuki
+「Shizuku-san？　How rare, for you to be inside the house.」
 
-＠雫,S00064
-「いや、すぐ出かけないといけない。ちょっと新聞の確認をね」
+#＠雫,S00064
+#「いや、すぐ出かけないといけない。ちょっと新聞の確認をね」
+＠Shizuku,S00064
+「No, I have to leave soon. I was just checking the newspaper.」
 
-＠樹
-「ふ～ん。上がってるって、株か何かですか………って、降雪確立？」
+#＠樹
+#「ふ～ん。上がってるって、株か何かですか………って、降雪確立？」
+＠Itsuki
+「Hmm. "Gone up", is she talking about stocks or something………? Wait, 'snow establishment'？」
 
 @shizuku_chousyou
 
-＠雫,S00065
-「ああ。昨日よりもずいぶん上がってるだろ」
+#＠雫,S00065
+#「ああ。昨日よりもずいぶん上がってるだろ」
+＠Shizuku,S00065
+「Aah. They've gone up quite a bit since yesterday.」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
-「外見てください外！　今も思いっきり降ってますから！」
+#＠樹
+#「外見てください外！　今も思いっきり降ってますから！」
+＠Itsuki
+「Please look outside, outside！ It's snowing very heavily right now！」
 
 @shizuku
+#★
+#「ムキになりなさんな。同じ天気予報でもこう呟くと、頭よさそうに見えるだろ？」
+＠Shizuku,S00066
+「Dont be so mad, if you murmur like this, the same whether report looks more intelligent right?」
 
-＠雫,S00066
-「ムキになりなさんな。同じ天気予報でもこう呟くと、頭よさそうに見えるだろ？」
+#さすがここの子達の保護者、変わり者っぷりも普通じゃない。
+#SCRIPT ADD KANJI
+Ｌike I thought, the guardian of the children here is an eccentric person and not normal.
 
-さすがここの子達の保護者、変わり者っぷりも普通じゃない。
+#＠雫,S00067
+#「さて、じゃあ今日も出かけますか」
+＠Shizuku,S00067
+「Then, are you going out again today?」
 
-＠雫,S00067
-「さて、じゃあ今日も出かけますか」
+#＠樹
+#「あ、ちょっとその前に話があるんですけど」
+＠Itsuki
+「Ah, I have something to say before that.」
 
-＠樹
-「あ、ちょっとその前に話があるんですけど」
+#＠雫,S00068
+#「んん？　何、忙しいんだから手短に、有意義なことしか聞かないよ？」
+＠Shizuku,S00068
+「What? I'm busy so make it brief and I don't listen to anything that isn't worthwhile, alright?」
 
-＠雫,S00068
-「んん？　何、忙しいんだから手短に、有意義なことしか聞かないよ？」
-
-さっき天気予報でアホな事を呟いていた人の台詞とは思えないが。
+#★
+#さっき天気予報でアホな事を呟いていた人の台詞とは思えないが。
+#SCRIPT ADD KANJI
+Ｉt dosent sound like words coming out from the idiot who reported the weather just then.
 
 #BGM/STOP
 bgm_stop
 @shizuku_
 @bg_black
 
-これはオレの一大決心。
+#これはオレの一大決心。
+#SCRIPT ADD KANJI
+Ｔhis is my crucial decision.
 
-漠然と考えていたことの答えを………告げる。
+#★
+#漠然と考えていたことの答えを………告げる。
+#SCRIPT ADD KANJI
+Ｉ said my answer after given much thought to this question.
 
 @bg_living
 @shizuku
 
-＠樹
-「唐突なんですけど、オレ……」
+#＠樹
+#「唐突なんですけど、オレ……」
+＠Itsuki
+「This is kind of sudden, but I……」
 
-＠樹
-「ずっと考えてたこと、ようやく答えが出ました」
+#＠樹
+#「ずっと考えてたこと、ようやく答えが出ました」
+＠Itsuki
+「I've always thought about it, but I've finally got an answer.」
 
-＠樹
-「オレは、この施設を継ごうと思います」
+#＠樹
+#「オレは、この施設を継ごうと思います」
+＠Itsuki
+「I'm thinking about succeeding this institution.」
 
-＠雫,S00069
+#＠雫,S00069
+#「………」
+＠Shizuku,S00069
 「………」
 
-＠樹
+#＠樹
+#「…………」
+＠Itsuki
 「…………」
 
-……言った。
+#……言った。
+#SCRIPT ADD KANJI
+……I said it。
 
-答えてしまった。
+#答えてしまった。
+#SCRIPT ADD KANJI
+Ｉ replied.
 
-これでもう、オレは今までの生活に戻ることは出来ない。
+#これでもう、オレは今までの生活に戻ることは出来ない。
+#SCRIPT ADD KANJI
+Ｎow, I can't return to living my life the way I was before.
 
-未練が無いとは言えないが………しかし後悔もない。
+#未練が無いとは言えないが………しかし後悔もない。
+#SCRIPT ADD KANJI
+Ｉt's not like I'm not reluctant………but it's not like I don't have any regrets either.
 
-ここの子供達が事情を抱えているのを知り、そして昨夜のすいかの話も踏まえた答えが、これだった。
+#ここの子供達が事情を抱えているのを知り、そして昨夜のすいかの話も踏まえた答えが、これだった。
+#SCRIPT ADD KANJI
+Ｉ know that the children here have their own circumstances, and that was my answer based on Suika's story last night.
 
-＠樹
-「今さらになりましたけど、これからよろしくお願いします」
+#＠樹
+#「今さらになりましたけど、これからよろしくお願いします」
+＠Itsuki
+「It's kind of late, but I look forward to working here with you.」
 
-＠雫,S00070
-「……なるほど」
+#＠雫,S00070
+#「……なるほど」
+＠Shizuku,S00070
+「……I see.」
 
-短く告げた雫さんがスッとこちらに手の平を差し出す。
+#短く告げた雫さんがスッとこちらに手の平を差し出す。
+#SCRIPT ADD KANJI
+Ｓhizuku-san answered shortly and held out her palm in my direction.
 
-それに応えようと、オレも少し照れくさかったが手を差し出した。
+#それに応えようと、オレも少し照れくさかったが手を差し出した。
+#SCRIPT ADD KANJI
+Ａnd to respond to that, I was a bit embarrassed, but I also held out my hand.
 
 #SE38　殴る音（バキッ！）
 @se38
@@ -579,81 +820,125 @@ bgm_stop
 #//BGM再生
 @bgm03
 
-＠樹
-「いでぇッ！？」
+#＠樹
+#「いでぇッ！？」
+＠Itsuki
+「Ouch！？」
 
-握手の『あ』の字もなかったその手は、いつもどおり一直線でオレの頭へ振り下ろされた。
+#★
+#握手の『あ』の字もなかったその手は、いつもどおり一直線でオレの頭へ振り下ろされた。
+#SCRIPT ADD KANJI
+Ｔhe hand which didn't show any sign of 'shake', came flying straight at me as usual hitting me in the head. 
 
-＠樹
-「えッ！？　ええ！　何ッ、何で殴られたんですかオレ！？」
+#＠樹
+#「えッ！？　ええ！　何ッ、何で殴られたんですかオレ！？」
+＠Itsuki
+「Eh！？　Ehh！　Wh, why did you hit me！？」
 
 @shizuku_akire
+#★
+#＠雫,S00071
+#「はぁ……忙しいって言っただろ、有意義な話しか聞かないって」
+＠Shizuku,S00071
+「*Sigh*……I told you I was busy, and will only listen to meaningfull things.」
 
-＠雫,S00071
-「はぁ……忙しいって言っただろ、有意義な話しか聞かないって」
-
-＠樹
-「だ、だから今まで渋っていたことの決心をこうして……」
+#＠樹
+#「だ、だから今まで渋っていたことの決心をこうして……」
+＠Itsuki
+「B, but, it was the answer to something I had always been hesitating about……」
 
 @shizuku_ikari
 
-＠雫,S00072
-「そんなもの、別にあんたの答えなんか聞かなくても強引に任せるつもりだったよ」
+#＠雫,S00072
+#「そんなもの、別にあんたの答えなんか聞かなくても強引に任せるつもりだったよ」
+＠Shizuku,S00072
+「I don't really want to hear your answer to something like that and I was going to force you to do it anyways.」
 
-＠雫,S00073
-「すでにもう引継ぎの手続きだって完了してる」
+#＠雫,S00073
+#「すでにもう引継ぎの手続きだって完了してる」
+＠Shizuku,S00073
+「The procedures for the inheritances are already finished.」
 
-＠樹
-「ひどい……あんなに迷ってたのに」
+#＠樹
+#「ひどい……あんなに迷ってたのに」
+＠Itsuki
+「How mean……I worried about it so much.」
 
 @shizuku_yorokobi
 
-＠雫,S00074
-「ま、でもこれで意思は一致したってことだね。ちゃちゃっと話を進めようか」
+#＠雫,S00074
+#「ま、でもこれで意思は一致したってことだね。ちゃちゃっと話を進めようか」
+＠Shizuku,S00074
+「Well, at least now our intentions are the same. Let's continue our talk a little.」
 
-急に考え直したほうがいい気がしてきたが……後の祭りだ。
-水を得た魚のように雫さんは話し始める。
+#急に考え直したほうがいい気がしてきたが……後の祭りだ。
+#水を得た魚のように雫さんは話し始める。
+#SCRIPT ADD KANJI
+Ｓuddenly I felt like it would have been better if I had reconsidered that……but it's too late. Shizuku-san began talking in her element.
 
 
 @shizuku
+#★
+#＠雫,S00075
+#「これまで散々話したとおり、あんたには子供達を調教して売春に出し、そして借金を返済していってもらう」
+＠Shizuku,S00075
+「Like I've been telling you before, I'm going to have you train the children, put them into prostitution, then repay the debt.」
 
-＠雫,S00075
-「これまで散々話したとおり、あんたには子供達を調教して売春に出し、そして借金を返済していってもらう」
+#＠雫,S00076
+#「まずはみかんを担当しな」
+＠Shizuku,S00076
+「First, you are in charge of Mikan.」
 
-＠雫,S00076
-「まずはみかんを担当しな」
+#＠樹
+#「……みかん、ですか。全然知識も経験も無い子ですよ」
+＠Itsuki
+「……Mikan? She's a child with absolutely no experience or knowledge of it.」
 
-＠樹
-「……みかん、ですか。全然知識も経験も無い子ですよ」
+#＠雫,S00077
+#「一から進める方が理解も早いだろ。それに他の子はこれまでどおり働いてもらわないと、毎月の利息も払わないとならないしね」
+＠Shizuku,S00077
+「If you start from the beginning, she'll understand quick. And if you don't make the other girls work like I've told you, every month the interest will rise and you won't be able to pay it.」
 
-＠雫,S00077
-「一から進める方が理解も早いだろ。それに他の子はこれまでどおり働いてもらわないと、毎月の利息も払わないとならないしね」
+#★
+#「具体的には今週末、実際にみかんのスケジュールを組みながら説明って事で問題ないね？」
+＠Shizuku,S00078
+「In actuality, I'll have you organise Mikans schedule this weekend while explaining to her whats about to happen.」
 
-＠雫,S00078
-「具体的には今週末、実際にみかんのスケジュールを組みながら説明って事で問題ないね？」
+#＠樹
+#「う、今週末って早いですね」
+＠Itsuki
+「Uh, this weekend is early.」
 
-＠樹
-「う、今週末って早いですね」
-
-＠雫,S00079
-「決心が鈍らないうちに、まず一発やっといてもらわないとね」
+#★
+#「決心が鈍らないうちに、まず一発やっといてもらわないとね」
+＠Shizuku,S00079
+「Let's have you have a 'shot' before you're determination rusts.」
 
 みかんとするのか……
 知識から入れてかないとダメだな、それは。
 
-＠樹
-「そっか、みかんか～……」
+#＠樹
+#「そっか、みかんか～……」
+＠Itsuki
+「I see, Mikan, huh～……?」
 
 @shizuku_warai
 
-＠雫,S00080
-「男の夢だろぉ～？　無垢な初物を自分色に染めれるんだからさぁ」
+#＠雫,S00080
+#「男の夢だろぉ～？　無垢な初物を自分色に染めれるんだからさぁ」
+＠Shizuku,S00080
+「Isn't it a man's dream～？　To dye the pure, first produce with your own colour.」
 
-＠雫,S00081
-「幸い『お兄ちゃん』なんか呼ばれて、それで喘がせられたら萌え萌えってやつじゃない～？」
+#★
+#＠雫,S00081
+#「幸い『お兄ちゃん』なんか呼ばれて、それで喘がせられたら萌え萌えってやつじゃない～？」
+＠Shizuku,S00081
+「Having her happily calling you 'Onii-chan' or something, then making her gasp, isn't that what they call moe moe～？」
 
-＠樹
-「そんな雫さんみたいに頭空っぽで出来りゃ楽なんですがね」
+#＠樹
+#「そんな雫さんみたいに頭空っぽで出来りゃ楽なんですがね」
+＠Itsuki
+「If my head was empty like Shizuku-san's, I would be at ease.」
 
 #SE38　殴る音（バキッ！）
 @se38
@@ -668,146 +953,234 @@ wait	1000
 
 #■BG（自室・曇り）
 @bg_itsuki
+#★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+#「決心はしてたけど、いざやるとなると気は晴れないか」
+＠Itsuki
+「I've set my mind but, when it comes to doing it I can't really brighten up.」
 
-＠樹
-「決心はしてたけど、いざやるとなると気は晴れないか」
+#＠樹
+#「みかんか～」
+＠Itsuki
+「Mikan, huh～?」
 
-＠樹
-「みかんか～」
+#他の希望があるわけじゃないけど、説明から始めないといけないってのもな。
+#SCRIPT ADD KANJI
+Ｉt doesn't mean that I have other wishes, but I have to start from the explanation.
 
-他の希望があるわけじゃないけど、説明から始めないといけないってのもな。
+#★★★★★★★★★★★★★★★★★★★
+#罪悪感というか、本当にみかんとやってしまっていいのかって思いはある。
+#SCRIPT ADD KANJI
+Ｍaybe it's guilt, but I'm thinking whether it's really okay to do it with Mikan.
 
-罪悪感というか、本当にみかんとやってしまっていいのかって思いはある。
-
-＠樹
-「一人でいても堂々巡りだ。ちょっと下に顔でも出すか」
+#★★★★★★★★★★★★★★★★★★★★★★★★★★
+#「一人でいても堂々巡りだ。ちょっと下に顔でも出すか」
+＠Itsuki
+「I'm only going in circles thinking to myself, might as well show my face downstairs.」
 
 #■BG（食卓）
 @bgm08
 @bg_dining
 @miu
 
-＠美雨,B00057
-「あ、樹さん。どうかしましたか？」
+#＠美雨,B00057
+#「あ、樹さん。どうかしましたか？」
+＠Miu,B00057
+「Ah, Itsuki-san. Is something wrong？」
 
-＠樹
-「部屋で落ち着かなかったから。日中なのに静かだな」
+#＠樹
+#「部屋で落ち着かなかったから。日中なのに静かだな」
+＠Itsuki
+「I couldn't calm down in my room. It's daytime but it's awfully quiet.」
 
-＠美雨,B00058
-「平日ですと子供達は学校ですから、こんな感じですよ。お茶でも淹れましょうか？」
+#＠美雨,B00058
+#「平日ですと子供達は学校ですから、こんな感じですよ。お茶でも淹れましょうか？」
+＠Miu,B00058
+「It's the weekday so the children are at school, so it feels like this. Should I pour some tea？」
 
-＠樹
-「ああ、ありがとう」
+#＠樹
+#「ああ、ありがとう」
+＠Itsuki
+「Ah, thanks.」
 
 @miu_
 #SE18　廊下を歩き去る音　※徐々に小さく
 @se18
 
-笑みを残してキッチンへ消えていく。
+#笑みを残してキッチンへ消えていく。
+#SCRIPT ADD KANJI
+Ｓhe disappeared into the kitchen leaving a smile.
 
-＠樹
-（そういえば、美雨はオレがここを継ぐ決心をしたの知ってるんだろうか）
+#＠樹
+#（そういえば、美雨はオレがここを継ぐ決心をしたの知ってるんだろうか）
+＠Itsuki
+（That reminds me, does Miu know that it's been decided that I'm going to succeed this place?）
 
-昼食の時はとくに話題にしなかったが。
+#昼食の時はとくに話題にしなかったが。
+#SCRIPT ADD KANJI
+Ｉ didn't really talk about it at lunch.
 
 @miu
-＠美雨,B00059
-「お待たせしました」
+#＠美雨,B00059
+#「お待たせしました」
+＠Miu,B00059
+「Sorry to keep you waiting.」
 
 #SE35　ティーカップを置く音（カチャ）
 @se35
+#★
+#「子供達のおやつに焼いたクッキーですけど。お茶請けにどうぞ」
+＠Miu,B00060
+「I baked these cookies for the kids as snacks. Please have them with your tea.」
 
-＠美雨,B00060
-「子供達のおやつに焼いたクッキーですけど。お茶請けにどうぞ」
+#カップの隣にチョコマーブルのクッキーが添えられる。
+#SCRIPT ADD KANJI
+Ｂeside the cup was a chocolate marble cookie.
 
-カップの隣にチョコマーブルのクッキーが添えられる。
+#＠樹
+#「へぇ、美味そうだな。何でも出来るんだな美雨は」
+＠Itsuki
+「Ehh, it looks good. You can do anything, can't you, Miu?」
 
-＠樹
-「へぇ、美味そうだな。何でも出来るんだな美雨は」
+#＠美雨,B00061
+#「別にそんなことは。もしかすると、少し甘すぎるかもしれませんが」
+＠Miu,B00061
+「Not really. It might be a bit too sweet.」
 
-＠美雨,B00061
-「別にそんなことは。もしかすると、少し甘すぎるかもしれませんが」
+#＠樹
+#「どれどれ」
+＠Itsuki
+「I'll see.」
 
-＠樹
-「どれどれ」
-
-――パクッ、もぐもぐ
+#――パクッ、もぐもぐ
+#SCRIPT ADD KANJI
+――*Munch*, *chew*
 
 @miu_kanashimi
 
-＠美雨,B00062
+#＠美雨,B00062
+#「………」
+＠Miu,B00062
 「………」
 
-＠樹
-「んや、美味いよ。全然」
+#＠樹
+#「んや、美味いよ。全然」
+＠Itsuki
+「Nnya, it's good.」
 
 #CH（美雨立ち絵笑顔）
 @miu_niko
 
 
-モグモグと口に運ぶオレを見て、嬉しそうに美雨が新しいクッキーを置いてくれた。
+#モグモグと口に運ぶオレを見て、嬉しそうに美雨が新しいクッキーを置いてくれた。
+#SCRIPT ADD KANJI
+Ｉ chewed the cookie and ate it, and Miu watched me happily and gave me a new cookie.
 
-＠樹
-（こういう静かな時間もたまにはいいな）
+#＠樹
+#（こういう静かな時間もたまにはいいな）
+＠Itsuki
+（This quietness is good once in a while.）
 
-＠美雨,B00063
-「そういえば樹さん？」
+#★
+#＠美雨,B00063
+#「そういえば樹さん？」
+＠Miu,B00063
+「By the way, Itsuki-san？」
 
-＠樹
-「うん？」
+#「うん？」
+＠Itsuki
+「Probably: Eh?」
 
 #CH（美雨照れ）
 @miu_tere
 
-＠美雨,B00064
-「あの……すいかちゃんとのエッチ、どうでしたか……？」
+#＠美雨,B00064
+#「あの……すいかちゃんとのエッチ、どうでしたか……？」
+＠Miu,B00064
+「Umm……When you did it with Suika, how was it……？」
 
 #SE67　食事を噴き出す音（ブゥゥッ！！）
 @se67
 
-＠樹
-「――――――ッ！！」
+#＠樹
+#「――――――ッ！！」
+＠Itsuki
+「――――――！！」
 
-＠樹
-「うッ、ゲホゲホ！　ごほっ！！」
+#＠樹
+#「うッ、ゲホゲホ！　ごほっ！！」
+＠Itsuki
+「Uh, *cough cough*！*Cough*！！」
 
 @miu
-＠美雨,B00065
-「きゃあッ！？　だ、大丈夫ですか樹さん」
+#＠美雨,B00065
+#「きゃあッ！？　だ、大丈夫ですか樹さん」
+＠Miu,B00065
+「Kyaa！？　A, are you okay, Itsuki-san?」
 
-＠樹
-「う、うぐ……ぁ、ああ、何とか……ちょっと驚いただけだから」
+#＠樹
+#「う、うぐ……ぁ、ああ、何とか……ちょっと驚いただけだから」
+＠Itsuki
+「Uh, uguh……ah, ahh, kind of……I was just a little surprised.」
 
-リラックスしていたから油断してた………昨夜のすいかは美雨の指示だったんだ。
+#★
+#リラックスしていたから油断してた………昨夜のすいかは美雨の指示だったんだ。
+#SCRIPT ADD KANJI
+Ｉ was caught off my guard because I was relaxed...... So last night Suika was under Miu's instruction?
 
 #CH（美雨照れ）
 @miu_tere
 
-＠美雨,B00066
-「す、すみません……でもその、どうしても意見を伺っておきたかったので……」
+#＠美雨,B00066
+#「す、すみません……でもその、どうしても意見を伺っておきたかったので……」
+＠Miu,B00066
+「S, sorry……But that, I wanted to hear you're opinion……」
 
-＠美雨,B00067
-「前日にざくろちゃんとされてるって聞いて、すいかちゃんも少し戸惑っていたんです」
+#＠美雨,B00067
+#「前日にざくろちゃんとされてるって聞いて、すいかちゃんも少し戸惑っていたんです」
+＠Miu,B00067
+「Suika-chan was a little confused when she heard you with Zakuro the other day.」
 
-＠樹
-「はぁ……」
+#＠樹
+#「はぁ……」
+＠Itsuki
+「Haa……」
 
+#★
 @miu
-＠美雨,B00068
-「今後の参考にしたかったんですけど。どちらが良かったか聞かせてもらえませんか……？」
+#＠美雨,B00068
+#「今後の参考にしたかったんですけど。どちらが良かったか聞かせてもらえませんか……？」
+＠Miu,B00068
+「For future reference, can you tell me who was better...？」
 
-う、う～ん……恥ずかしいなら美雨も話題にしなきゃいいのに。
+#★(cant tell wat う、う～ん implies without hearing it)
+#う、う～ん……恥ずかしいなら美雨も話題にしなきゃいいのに。
+#SCRIPT ADD KANJI
+う、う～ん……If Miu was embarassed she didn't have to bring up this topic.
 
-けどやっぱり、それは子供らに対する責任感があるからなんだろうな。
+#★ (rephrase)
+#けどやっぱり、それは子供らに対する責任感があるからなんだろうな。
+#SCRIPT ADD KANJI
+Ｂut of course, this is due to the resposibilities she felt she had to act upon the children.
 
-＠樹
-「えっと……」
+#＠樹
+#「えっと……」
+＠Itsuki
+「Umm……」
 
 #（選択肢）
 #１．ざくろの方が良かった
 #２．すいかの方が良かった
 #３．ソロプレイの方が気持ちいい
-select	sel,"ざくろの方が良かった","すいかの方が良かった","ソロプレイの方が気持ちいい"
+#"ざくろの方が良かった","すいかの方が良かった","ソロプレイの方が気持ちいい"
+#if sel=0 then goto youzyo3_02_01
+#if sel=1 then goto youzyo3_02_02
+#if sel=2 then goto youzyo3_02_03
+
+#（Choice）
+#１．Zakuro was better
+#２．Suika was better
+#３．'Solo play' feels better
+select	sel,"Zakuro was better","Suika was better","'Solo play' feels better"
 if sel=0 then goto youzyo3_02_01
 if sel=1 then goto youzyo3_02_02
 if sel=2 then goto youzyo3_02_03
@@ -815,30 +1188,46 @@ if sel=2 then goto youzyo3_02_03
 label youzyo3_02_01 ##########################################################
 
 #■（１）ざくろ好感度＋１
+#■（１）Zakuro fondness＋１
 
-＠樹
-「………どっちかと言えば、ざくろだろうか」
+#＠樹
+#「………どっちかと言えば、ざくろだろうか」
+＠Itsuki
+「………If you ask which one, I guess it would be Zakuro.」
 
 @miu_kanashimi
-＠美雨,B00069
-「そうですか……もっと頑張らないといけませんね」
+#＠美雨,B00069
+#「そうですか……もっと頑張らないといけませんね」
+＠Miu,B00069
+「Really……I have to work harder.」
 
-＠樹
-「そう気を落とさなくても、ほとんど差は無かったよ。結局オレは二人共に射精させられたしな」
+#★
+#＠樹
+#「そう気を落とさなくても、ほとんど差は無かったよ。結局オレは二人共に射精させられたしな」
+＠Itsuki
+「You don't have to become depressed, because really, there's almost no difference. Besides, they both made me ejaculate.」
 
 #CH（美雨照れ）
 @miu_tere
 
-＠美雨,B00070
-「えっ！？　あ、はい……そうですね……」
+#＠美雨,B00070
+#「えっ！？　あ、はい……そうですね……」
+＠Miu,B00070
+「Eh！？　Ah, okay……I see……」
 
-＠樹
-「………あ」
+#＠樹
+#「………あ」
+＠Itsuki
+「………Ah.」
 
-何をシレッと射精なんて言ってんだオレは……
+#何をシレッと射精なんて言ってんだオレは……
+#SCRIPT ADD KANJI
+Ｉ said ejaculate as if it wasn't a big deal…….
 
-＠樹
-「まぁその、なんだ。ざくろはいきなり最初でインパクトがあったからな。それだけ」
+#＠樹
+#「まぁその、なんだ。ざくろはいきなり最初でインパクトがあったからな。それだけ」
+＠Itsuki
+「Well, yeah. Zakuro had a sudden impact in the beginning. That's all.」
 
 #（統合へ）
 goto	youzyo3_02_04
@@ -846,28 +1235,42 @@ goto	youzyo3_02_04
 label youzyo3_02_02 ##########################################################
 
 #■（２）すいか好感度＋１
+#■（２）Suika fondness＋１
 
-＠樹
-「すいかかな。何かいろいろとビックリしたし………」
+#＠樹
+#「すいかかな。何かいろいろとビックリしたし………」
+＠Itsuki
+「Suika I guess. She surprised me in many ways………」
 
 @miu_niko
-＠美雨,B00071
-「本当ですか？　そう言ってもらえると、私も頑張って教え込んだ甲斐があります」
+#＠美雨,B00071
+#「本当ですか？　そう言ってもらえると、私も頑張って教え込んだ甲斐があります」
+＠Miu,B00071
+「Really？　If you say that, I see that my efforts training her were worthwhile.」
 
 #CH（美雨照れ）
 @miu_tere
 
-＠美雨,B00072
-「その……男の人の意見は貴重なので。具体的に良かったところとかも教えていただけると助かるんですが……」
+#＠美雨,B00072
+#「その……男の人の意見は貴重なので。具体的に良かったところとかも教えていただけると助かるんですが……」
+＠Miu,B00072
+「Umm……Input from men is important. So if there was something in particular that was good, I would like to know……」
 
-＠樹
-「……いや、さすがにそれは勘弁してくれ」
+#＠樹
+#「……いや、さすがにそれは勘弁してくれ」
+＠Itsuki
+「……Sorry, you'll have to forgive me about that.」
 
 @miu
-＠美雨,B00073
-「で、ですよねっ。すみません、急に変なことを聞いてしまってっ」
+#＠美雨,B00073
+#「で、ですよねっ。すみません、急に変なことを聞いてしまってっ」
+＠Miu,B00073
+「I, I see. Sorry, I suddenly asked you something weird.」
 
-慌てて取り繕うと、自分もカップへ口をつける美雨。
+#★
+#慌てて取り繕うと、自分もカップへ口をつける美雨。
+#SCRIPT ADD KANJI
+Ｆlustered, Miu tried to save herself by sipping from her cup.
 
 #（統合へ）
 
@@ -876,30 +1279,45 @@ goto	youzyo3_02_04
 label youzyo3_02_03 ##########################################################
 
 #■（３）美雨好感度＋１
+#■（３）Miu fondness＋１
 
-＠樹
-（言えるかッ！　ようするにオナニーじゃないか！！）
+#＠樹
+#（言えるかッ！　ようするにオナニーじゃないか！！）
+＠Itsuki
+（Like I can say that！　That's basically masturbation！！）
 
 
-＠美雨,B00074
-「……？　どうかしました？　急に頭を振ったりして」
+#＠美雨,B00074
+#「……？　どうかしました？　急に頭を振ったりして」
+＠Miu,B00074
+「……？　Is something wrong？　You're shaking your head suddenly.」
 
-＠樹
-「いや、ちょっと変な考えが念頭に………」
+#＠樹
+#「いや、ちょっと変な考えが念頭に………」
+＠Itsuki
+「No, I just got a weird idea………」
 
-＠樹
-「どっちも上手だったよ。うん、よくあそこまで教えられたね………」
+#＠樹
+#「どっちも上手だったよ。うん、よくあそこまで教えられたね………」
+＠Itsuki
+「Both of them were good. Yeah, you taught them well………」
 
 @miu_kanashimi
 
-＠美雨,B00075
-「……そうですか。そんな風に冷静ということは、まだまだ練習不足ですね」
+#＠美雨,B00075
+#「……そうですか。そんな風に冷静ということは、まだまだ練習不足ですね」
+＠Miu,B00075
+「……I see. Saying it so calmly, that means that they still need more training.」
 
-＠樹
-「いや、気を悪くしたなら謝る。何もしてないオレが意見することじゃないし」
+#＠樹
+#「いや、気を悪くしたなら謝る。何もしてないオレが意見することじゃないし」
+＠Itsuki
+「No, sorry if I offended you. I can't give my opinion since I didn't do anything.」
 
-＠樹
-「ただまぁ、あまり無理しすぎないように。今のままで十分すぎるよ、あの二人は」
+#＠樹
+#「ただまぁ、あまり無理しすぎないように。今のままで十分すぎるよ、あの二人は」
+＠Itsuki
+「Well, don't overdo it. Those two are already good enough the way they are now.」
 
 #（統合へ）
 
@@ -910,14 +1328,20 @@ label youzyo3_02_04 ##########################################################
 #■（統合）
 
 @miu_niko
-＠美雨,B00076
-「うふふ。ありがとうございます。参考にしますね」
+#＠美雨,B00076
+#「うふふ。ありがとうございます。参考にしますね」
+＠Miu,B00076
+「Ufufu. Thank you very much. I'll keep that for reference.」
 
-＠樹
-「そっか……うん、まぁ頑張って」
+#★
+#＠樹
+#「そっか……うん、まぁ頑張って」
+＠Itsuki
+「Is that so..... well, keep it up.」
 
-もうオレも人事じゃないんだけどな。
-
+#もうオレも人事じゃないんだけどな。
+#SCRIPT ADD KANJI
+Ｉt doesn't have anything to do with me anymore.
 
 @miu_
 #■BG（ブラックアウト）
@@ -929,4 +1353,6 @@ screen_blackin	100
 
 
 #■（youzyoG S-1へ）
+
+
 

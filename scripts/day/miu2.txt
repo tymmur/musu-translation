@@ -12,19 +12,25 @@ label	miu_02
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-＠雫,S00680
-「樹、いるかーい？」
+#「樹、いるかーい？」
+＠Shizuku,S00680
+「Itsuki,  are you in there?」
 
-＠樹
+＠Itsuki
 「…………」
 
-〝せっかく〟部屋でゆっくりしていたのに、雫さんが来て〝しまった〟。
+#〝せっかく〟部屋でゆっくりしていたのに、雫さんが来て〝しまった〟。
+#SCRIPT ADD KANJI
+“Troublesome” Even though I was taking it easy in my room, Shizuku-san comes knocking.  “Dammit.”
 
-＠雫,S00681
-「なーんか失礼なこと考えてるね、この沈黙は」
 
-＠樹
-「いえいえ、開いてますからどうぞ」
+#「なーんか失礼なこと考えてるね、この沈黙は」
+＠Shizuku,S00681
+「Are you thinking rude things?  Such a heavy silence.」
+
+#「いえいえ、開いてますからどうぞ」
+＠Itsuki
+「No, I’m opening it.  Please come in.」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -32,68 +38,89 @@ label	miu_02
 
 @shizuku_ikari
 
-＠雫,S00682
-「ったく、人をトラブルメーカーか何かだと思ってるんじゃないだろうね」
+#「ったく、人をトラブルメーカーか何かだと思ってるんじゃないだろうね」
+＠Shizuku,S00682
+「Geez, I hope you weren’t thinking that I was being a troublemaker.」
 
-＠樹
-「ははは、まさか……」
+
+#「ははは、まさか……」
+＠Itsuki
+「Hahaha, that’s ridiculous……」
 
 @shizuku
 
-＠雫,S00683
-「ふむ、なら構わないけど」
+#「ふむ、なら構わないけど」
+＠Shizuku,S00683
+「Hmm, in that case, there is no problem.  However…」
 
-……いや、今の『まさか』は否定じゃなく、「まさか自分で気付いてないのか」の『まさか』なんだが。
+#……いや、今の『まさか』は否定じゃなく、「まさか自分で気付いてないのか」の『まさか』なんだが。
+#SCRIPT ADD KANJI
+……no, that 『ridiculous』wasn’t a denial.  “It’s impossible that she realized.”  ‘Ridiculous’, huh?
 
-＠雫,S00684
-「今風呂が開いたから教えに来てやったのさ。親切だろう？」
+#「今風呂が開いたから教えに来てやったのさ。親切だろう？」
+＠Shizuku,S00684
+「Since the bath is currently unoccupied, how about I teach you thing or two?  Isn’t that kind of me? 」(maybe “how about I give you a lesson”)  
 
-＠樹
-「……だから疑うんですが」
+#「……だから疑うんですが」
+＠Itsuki
+「……Knowing you, I doubt it.」
 
-＠樹
-「まぁ風呂には行かせてもらいます。入ってこれないように鍵は掛けますけど」
+#「まぁ風呂には行かせてもらいます。入ってこれないように鍵は掛けますけど」
+＠Itsuki
+「You’re making me take a bath.  But there isn’t any sort of lock for it.」
 
 @shizuku_warai
 
-＠雫,S00685
-「へえ～、なかなか積極的じゃないの♪」
+#「へえ～、なかなか積極的じゃないの♪」
+＠Shizuku,S00685
+「Hey~, that’s not very positive.」
 
-＠雫,S00686
-「そうまで言われちゃ、二人きりでアレコレとしてあげないといけないねぇ」
+#「そうまで言われちゃ、二人きりでアレコレとしてあげないといけないねぇ」
+＠Shizuku,S00686
+「You know what they say, a couple that doesn’t do anything with each other is no good.」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
-「二人きりじゃなくッ！　あなたを入れないための鍵ですからッ！」
+#「二人きりじゃなくッ！　あなたを入れないための鍵ですからッ！」
+＠Itsuki
+「We are not a couple!  There is a lock because you are not allowed to enter! 」
 
 @shizuku_akire
 
-＠雫,S00687
-「はいはい、嫌われたもんねぇ～……下半身には大満足して貰ったっていうのに」
+#「はいはい、嫌われたもんねぇ～……下半身には大満足して貰ったっていうのに」
+＠Shizuku,S00687
+「Yeah yeah, I’m disliked, huh? ……But even so, satisfy my lower half for me.」
 
-＠樹
-「……頭痛が…」
+#「……頭痛が…」
+＠Itsuki
+「……I have a headache…」
 
-＠樹
-「とりあえず、風呂に行きます。入ってこないでくださいよ」
+#「とりあえず、風呂に行きます。入ってこないでくださいよ」
+＠Itsuki
+「For the time being, I will take a bath.  Please don’t come in.」
 
 @shizuku_warai
 
-＠雫,S00688
-「分かってるわよぉ。邪魔する気はないしね」
+#「分かってるわよぉ。邪魔する気はないしね」
+＠Shizuku,S00688
+「I understand.  I won’t ruin the atmosphere.」
 
-＠樹
+＠Itsuki
 「………？」
 
 #■BG（黒）
 
 @bg_black
 
-何か含み笑いが気にはなったが、構わず部屋を後にする。
+#何か含み笑いが気にはなったが、構わず部屋を後にする。
+#SCRIPT ADD KANJI
+Ｈer suppressed laugh made me worry, but I choose not to concern myself with it and continue relaxing in my room.
 
-思えば、この時にもっと怪しむべきだったのだ。
+#思えば、この時にもっと怪しむべきだったのだ。
+#SCRIPT ADD KANJI
+Ｎow that I think about it, I should have been more suspicious then.
+
 
 #■BG（廊下・夜）
 @bg_rouka_n
@@ -103,18 +130,25 @@ label	miu_02
 @se16
 
 
-＠樹
-「やれやれ……どこまでも冗談が過ぎ過ぎる人だ…」
+#「やれやれ……どこまでも冗談が過ぎ過ぎる人だ…」
+＠Itsuki
+「Aaah…they’re making a racket every time they pass by…」(maybe “everywhere they go”)
 
-＠樹
-「どういう環境で暮らせば、あんな大人が出来上がるんだろうか……」
+#「どういう環境で暮らせば、あんな大人が出来上がるんだろうか……」
+＠Itsuki
+「If they’re living here, then I guess an adult like me is finished…」
 
-まぁ出来てしまったものは仕方ないのだが。
+#まぁ出来てしまったものは仕方ないのだが。
+#SCRIPT ADD KANJI
+Ｎow that I’m up, there is no helping it.
 
-だがこの施設の変り種・ざくろといちごは、オレが来るまで雫さんの担当だったわけで……
+#だがこの施設の変り種・ざくろといちごは、オレが来るまで雫さんの担当だったわけで……
+#SCRIPT ADD KANJI
+Ｓtill, this kind of suspicious establishment, and Zakuro and Ichigo…  And then I came here under Shizuku-san’s orders… (maybe “request”)
 
-＠樹
-「ヤッベェ……確実に何か変なノリと性格が伝染してるぞ……」
+#「ヤッベェ……確実に何か変なノリと性格が伝染してるぞ……」
+＠Itsuki
+「ヤッベェ…Her personality is being infected by that weird nori stuff…」(maybe “contaminated” instead of infected)
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -124,7 +158,9 @@ label	miu_02
 @miu_hadaka
 @miu_middle
 
-ぶつぶつ実の無いことを言いながら脱衣所のドアを開ける。
+#ぶつぶつ実の無いことを言いながら脱衣所のドアを開ける。
+#SCRIPT ADD KANJI
+Ｃomplaining about nothing in particular, I open the changing room door.
 
 #■EV（着替え中の美雨。脱ぎ掛けブラと、ショーツ露出。後に表情差分で、樹と一緒に着替えているCGにも使用）
 
@@ -134,42 +170,58 @@ label	miu_02
 
 wait	2000
 
-＠美雨,B00393
-「えっ……？」
+#「えっ……？」
+＠Miu,B00393
+「Eh……?」
 
-＠樹
-「へ……？」
+#「へ……？」
+＠Itsuki
+「Eh……?」
 
-互いに間の抜けた声を返し、その瞬間硬直した。
+#互いに間の抜けた声を返し、その瞬間硬直した。
+#SCRIPT ADD KANJI
+Ｏur voices echo each other, and time stands still. (perhaps “time freezes for a moment”)
 
-おそらく同じ目的で、服を脱ぎかけていた美雨がいる。
+#おそらく同じ目的で、服を脱ぎかけていた美雨がいる。
+#SCRIPT ADD KANJI
+Ｐrobably for the same reason as me, Miu was inside getting undressed.
 
 @miu
 
-＠美雨,B00394
+＠Miu,B00394
 「…………」
 
-雪白の肌と見事なプロポーションのほとんどを露にし、突然のオレの来訪に反応できず固まっている美雨。
+#雪白の肌と見事なプロポーションのほとんどを露にし、突然のオレの来訪に反応できず固まっている美雨。
+#SCRIPT ADD KANJI
+Ｈer snow white skin and beautiful proportions almost dewy, my unexpected entrance causes her to cover herself as if injured. (probably messed up something)
 
 #美しく膨らんだ豊乳が外しかけの下着から覗き、ウェストから綺麗なラインを描くヒップも薄い生地のショーツ一枚のみ。
 
-＠樹
-（……す、すごい……服の上からでも分かってたけど……雫さん以上だ）
+#（……す、すごい……服の上からでも分かってたけど……雫さん以上だ）
+＠Itsuki
+(A, amazing… If I understand from her top… What Shizuku-san mentioned earlier was…)   [sounds a bit weird]
 
-同じ硬直でも、オレは突然の遭遇に対してではなく、美雨のプロポーションに見とれての硬直だった。
+#同じ硬直でも、オレは突然の遭遇に対してではなく、美雨のプロポーションに見とれての硬直だった。
+#SCRIPT ADD KANJI
+Ｂut the same stiffness, I don’t confront the situation, Miu’s proportions visibly stiffen. (doesn’t read well as is)
 
 @miu_tere
 
-＠美雨,B00395
-「あ、あの……」
+#「あ、あの……」
+＠Miu,B00395
+「Um, excuse me……」
 
-＠樹
-「えっ……」
+#「えっ……」
+＠Itsuki
+「Eh……」
 
-まだ硬いままのその声で、我に返る。
+#まだ硬いままのその声で、我に返る。
+#SCRIPT ADD KANJI
+　 Still unsteady, her voice makes me come to my senses.
 
-＠樹
-「うわッ、悪い！」
+#「うわッ、悪い！」
+＠Itsuki
+「Uwa!  Sorry!」
 
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @se08
@@ -178,200 +230,254 @@ wait	2000
 #■BG（廊下・夜）
 @bg_rouka_n
 
-美雨に叫ばれる前に廊下へ飛び出した。
+#美雨に叫ばれる前に廊下へ飛び出した。
+#SCRIPT ADD KANJI
+Ｂefore Miu could let out a scream, I dashed down the hallway.
 
-＠樹
-「ビックリしたっ……な、何で美雨が着替えてるんだ」
+#「ビックリしたっ……な、何で美雨が着替えてるんだ」
+＠Itsuki
+「That sure surprised me.  Hmm, for what reason would Miu be changing?」
 
-＠樹
-「……って、原因は一人しか居ないか」
+#「……って、原因は一人しか居ないか」
+＠Itsuki
+「Could the cause be that person?」
 
 #■BG（黒）
 @bg_black
 @miu_maid
 @miu_small
 
-気まずいこの場を離れ、すぐ元凶を探しに行く。
+#気まずいこの場を離れ、すぐ元凶を探しに行く。
+#SCRIPT ADD KANJI
+Ｅmbarrassed in this isolated room, I immediately go and search for the source. (first part doesn’t sound right)
+
 
 #■BG（リビング・夜）
 @bg_living_n
 
 
-＠樹
-「居たッ、雫さん！」
+#「居たッ、雫さん！」
+＠Itsuki
+「There she is, Shizuku-san!」
 
 @shizuku
 
-＠雫,S00689
-「んー？　あれ、樹？」
+#「んー？　あれ、樹？」
+＠Shizuku,S00689
+「Hmm? Oh, Itsuki?」
 
-＠雫,S00690
-「どうしたの。お風呂行ったんじゃなかったのかい？」
+#「どうしたの。お風呂行ったんじゃなかったのかい？」
+＠Shizuku,S00690
+「What’s going on?  Did you not go take a bath?」
 
-呑気にお菓子をかじっていた。
+#呑気にお菓子をかじっていた。
+#SCRIPT ADD KANJI
+Ｓhe leisurely bites into a pastry.
 
-＠樹
-「ええ、えぇ、行きましたよ。見事に裸の美雨とエンカウントしました」
+#「ええ、えぇ、行きましたよ。見事に裸の美雨とエンカウントしました」
+＠Itsuki
+「Yes, I did go there.  While I was there, I had an encounter with the beautifully naked Miu.」
 
 @shizuku_akire
 
-#＠雫,S00691
+#@Shizuku,S00691
 #「着替え中ねぇ」
 
-＠雫,S00692
-「まぁ怒るのは分かるけど、もう少しゆっくり脱衣所に向かわなかった自分の運を恨むんだね」
+#「まぁ怒るのは分かるけど、もう少しゆっくり脱衣所に向かわなかった自分の運を恨むんだね」
+＠Shizuku,S00692
+「I can understand your anger, but relax a more and resent your own luck that you didn’t stare into the changing room a bit more.」 (very unsure)
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
-「裸が見れなかったから怒ってるんじゃないってよ！　風呂開いてないじゃないですかッ」
+#「裸が見れなかったから怒ってるんじゃないってよ！　風呂開いてないじゃないですかッ」
+＠Itsuki
+「Since I didn’t get a good look at her naked body, she didn’t get angry!  The bath isn’t unoccupied, is it?」
 
 #@shizuku_ikari
 
-#＠雫,S00693
+#@雫,S00693
 #「そんな事は無い。〝まだ〟美雨は脱衣所に居たのなら、間違いなく〝風呂は〟開いてるはずだよ」
 
-#＠樹
+#@樹
 #「そ、そんな屁理屈で美雨の着替えを……」
 
 @shizuku_warai
 
-＠雫,S00694
-「よかったろ♪」
+#「よかったろ♪」
+＠Shizuku,S00694
+「Great!」
 
-＠樹
-「見られる美雨の身になってくださいッ、まったく人騒がせな」
+#「見られる美雨の身になってくださいッ、まったく人騒がせな」
+＠Itsuki
+「Please try and see it from Miu’s perspective.  It was simply a false alarm.」
 
-＠雫,S00695
-「ははは、まぁそう気を悪くしなさんな」
+#「ははは、まぁそう気を悪くしなさんな」
+＠Shizuku,S00695
+「Hahaha, I see the atmosphere worsened.」
 
 @shizuku
 
-＠雫,S00696
-「ほら、話題の子が戻ってきたよ」
+#「ほら、話題の子が戻ってきたよ」
+＠Shizuku,S00696
+「Look, the subject of our conversation appears.」
 
-＠樹
-「え……？」
+#「え……？」
+＠Itsuki
+「Eh…?」
 
 @miu_odoroki
 
-＠美雨,B00396
-「あ……」
+#「あ……」
+＠Miu,B00396
+「Ah…」
 
-雫さんに言われ振り返ると、いつものメイド服に着替えた美雨がそこに立っていた。
+#雫さんに言われ振り返ると、いつものメイド服に着替えた美雨がそこに立っていた。
+#SCRIPT ADD KANJI
+Ｓhizuku-san turns as she speaks, and there, having changed into her usual maid clothing, stands Miu.
 
-＠樹
-「み、美雨……！？　お風呂に入ったんじゃ……」
+#「み、美雨……！？　お風呂に入ったんじゃ……」
+＠Itsuki
+「Mi, Miu…!?  About the bath, I didn’t…」
 
 @miu_tere
 
-＠美雨,B00397
-「い、いえ……すぐに着替えて出てきたんです」
+#「い、いえ……すぐに着替えて出てきたんです」
+＠Miu,B00397
+「N, no… you left the changing room immediately, so…」
 
-＠美雨,B00398
-「そうしたらリビングで樹さんの声が聞こえたので、ここに……」
+#「そうしたらリビングで樹さんの声が聞こえたので、ここに……」
+＠Miu,B00398
+「I could hear your voice from the living room, so I came here to… 」
 
-着替えを正面から見られた恥ずかしさで面映そうに、美雨はペコリと頭を下げた。
+#着替えを正面から見られた恥ずかしさで面映そうに、美雨はペコリと頭を下げた。
+#SCRIPT ADD KANJI
+Ｂeing seen full on changing made her embarrassed, leaving her feeling ashamed.  Miu lowered her head and bowed.
 
-＠美雨,B00399
-「えっと……樹さん、さっきはすみませんでした…」
 
-＠樹
-「え、ああ……いや、オレこそ唐突に入って行ってあんな……」
+#「えっと……樹さん、さっきはすみませんでした…」
+＠Miu,B00399
+「Umm…Itsuki-san, I’m very sorry for what happened earlier.」
+
+#「え、ああ……いや、オレこそ唐突に入って行ってあんな……」
+＠Itsuki
+「Eh, aah… No, I did enter the changing room rather abruptly…」
 
 #■EV（さっきの美雨の着替えCG）
 @bg_black
 @miu_hadaka
 @miu_tere
 
-＠樹
-「……あんな」
+#「……あんな」
+＠Itsuki
+「…that sort of…」
 
 ………
 
 ……………
 
-＠美雨,B00400
-「……樹さん？」
+#「……樹さん？」
+＠Miu,B00400
+「…Itsuki-san?」
 
 @miu_
 #■BG（リビング・夜）
 @bg_living_n
 
 @miu_maid
-＠樹
-「うわッ！　な、なんでもないッ！」
+#「うわッ！　な、なんでもないッ！」
+＠Itsuki
+「Uwa!  I, it was nothing!」
 
 @miu_odoroki
 @shizuku
 
-＠美雨,B00401
-「……え？」
+#「……え？」
+＠Miu,B00401
+「…Eh?」
 
 
-＠雫,S00697
-「ふっふ～ん？　脳内オカズとしてゲットしたわけね」
+#「ふっふ～ん？　脳内オカズとしてゲットしたわけね」
+＠Shizuku,S00697
+「Fufu~n?  Getting some food for your mind, huh?」
 
-＠樹
-「バ、バカなッ！　違いますッて」
+#「バ、バカなッ！　違いますッて」
+＠Itsuki
+「Id, idiot!  This is different.」
 
 @shizuku_warai
 
-＠雫,S00698
-「謝ることないよ美雨。あんたの着替えを見れて喜んでるみたいだからさ」
+#「謝ることないよ美雨。あんたの着替えを見れて喜んでるみたいだからさ」
+＠Shizuku,S00698
+「That isn’t an apology, Miu.  It looks like he enjoyed the view of you changing.」
 
-＠雫,S00699
-「脳内でその光景をリプレイして、部屋で一人スプラッシュするらしいよ」
+#「脳内でその光景をリプレイして、部屋で一人スプラッシュするらしいよ」
+＠Shizuku,S00699
+「Replay the scene in your mind.  Apparently, there was somebody splashing in the room.」(splashing doesn’t sound quite right)
 
 @miu_tere
 
-＠美雨,B00402
-「す……スプラッシュって…」
+#「す……スプラッシュって…」
+＠Miu,B00402
+「S…splash…」
 
-＠樹
-「美雨が信じてるから止めてください！　泣かしますよッ！　っていうかオレが泣きますよ！」
+#「美雨が信じてるから止めてください！　泣かしますよッ！　っていうかオレが泣きますよ！」
+＠Itsuki
+「Miu, please don’t believe her!  It’s making you cry!  Or rather, I will cry!」(doesn’t sound right)
 
 @shizuku_akire
 
-＠雫,S00700
-「はいはい、退散しますよ」
+#「はいはい、退散しますよ」
+＠Shizuku,S00700
+「Yes yes, I’m leaving.」
 
-＠雫,S00701
-「まったく、あたしの裸を見たときは、そんな可愛い反応してくれなかったけどねぇ」
+#「まったく、あたしの裸を見たときは、そんな可愛い反応してくれなかったけどねぇ」
+＠Shizuku,S00701
+「If you ever saw me naked, I wouldn’t have gotten such a cute reaction.」(subjects in sentence are confusing)
 
 @shizuku_
 
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-冗談口調で愚痴を言いながら、リビングを後にする。
+#冗談口調で愚痴を言いながら、リビングを後にする。
+#SCRIPT ADD KANJI
+Ｓhe leaves the living room, complaining and uttering unpleasant jokes as she goes.
 
-＠樹
-「……って、しまった」
+#「……って、しまった」
+＠Itsuki
+「Dammit.」
 
-あの人を追い出したら、この状況で美雨と二人きりになってしまうッ……
+#あの人を追い出したら、この状況で美雨と二人きりになってしまうッ……
+#SCRIPT ADD KANJI
+Ｉf that person leaves, it will be just the two of us.  And in these circumstances….
 
 @miu_tere
 
-＠美雨,B00403
+＠Miu,B00403
 「………」
 
-＠樹
-「………えっと、やっぱりここに戻ってきたっていう事は、オレに怒ってる？」
+#「………えっと、やっぱりここに戻ってきたっていう事は、オレに怒ってる？」
+＠Itsuki
+「…Well, you did return here after all.  Are you angry?」
 
 @miu_komaru
 
-＠美雨,B00404
-「……い、いえ、今のは事故ですし。私は気にしていませんので…」
+#「……い、いえ、今のは事故ですし。私は気にしていませんので…」
+＠Miu,B00404
+「N, no, it was an accident.  Because of me, the mood hasn’t become…」(again, second part sounds weird)
 
-＠美雨,B00405
-「ですから樹さんの方も、どうか気まずくならないでください」
+#「ですから樹さんの方も、どうか気まずくならないでください」
+＠Miu,B00405
+「For Itsuki-san as well, please don’t feel that you need to be embarrassed.」
+	
+#「……だよな、うん。悪いのは雫さんで、事故だし」
+＠Itsuki
+「…Yes, your right.  The bad one here is Shizuku-san.  It was an accident after all.」
 
-＠樹
-「……だよな、うん。悪いのは雫さんで、事故だし」
-
-仮にもエッチまでしてる仲だし。着替え中の事故くらいで……
+#仮にもエッチまでしてる仲だし。着替え中の事故くらいで……
+#SCRIPT ADD KANJI
+Ｏur relationship was just shy of becoming an [ecchi] one.  Her being in the middle of changing was just an accident.
 
 #■EV（さっきの美雨の着替えCG）
 @bg_black
@@ -379,12 +485,17 @@ wait	2000
 @miu_tere
 
 
-じ、事故くらいで……
+#じ、事故くらいで……
+#SCRIPT ADD KANJI
+Ｙ, yeah, it was just an accident….
 
-＠樹
-（し、しかし……当たり前だけど、あの頃より数段成長してたな…）
+#（し、しかし……当たり前だけど、あの頃より数段成長してたな…）
+＠Itsuki
+(But it is to be expected, our relationship has grown since those days.)
 
-一瞬だったがゆえに、返って強いインパクトで光景が頭に残っている……
+#一瞬だったがゆえに、返って強いインパクトで光景が頭に残っている……
+#SCRIPT ADD KANJI
+Ｔhat instant had such a strong impact, that it still remains in my mind.
 
 @miu_
 @miu_maid
@@ -395,55 +506,70 @@ wait	2000
 
 ブンブンブンッ！
 
-＠樹
-（って……これじゃ本気で雫さんの言うとおりオカズ状態じゃんッ！）
+#（って……これじゃ本気で雫さんの言うとおりオカズ状態じゃんッ！）
+＠Itsuki
+(Compared to the seriousness just now, Shizuku-san’s speech was nothing!) Not sure what オカズ means.  Maybe “food”.
 
 @miu_odoroki
 
-＠美雨,B00406
-「……ど、どうかしましたか？」
+#「……ど、どうかしましたか？」
+＠Miu,B00406
+「S, so, how was it?」 (maybe word it differently)
 
-＠樹
-「いや別に……気にしない方向で」
+#「いや別に……気にしない方向で」
+＠Itsuki
+「Not particularly bad…The atmosphere wasn’t quite right.」(unsure)
 
 @miu_komaru
 
-＠美雨,B00407
+＠Miu,B00407
 「………？」
 
 @miu_warai
 
-＠美雨,B00408
-「えっと……ではとりあえず、樹さんが先にお風呂に入ってくださいますか？」
+#「えっと……ではとりあえず、樹さんが先にお風呂に入ってくださいますか？」
+＠Miu,B00408
+「Um…Then for the time being, Itsuki-san, would you please do so before entering the bath.」
 
-＠美雨,B00409
-「その間に準備の方は、私がしておきますので」
+#「その間に準備の方は、私がしておきますので」
+＠Miu,B00409
+「This is a chance to prepare.  And I will act on that chance.」
 
-＠樹
-「ああ、了解。それじゃお互い今のは流す方向でな」
+#「ああ、了解。それじゃお互い今のは流す方向でな」
+＠Itsuki
+「Aah, understood.  This present now is the way to pour.」 (not even gonna pretend that this makes sense)
 
 @miu
 
-＠美雨,B00410
-「はい。それではこれで、失礼します」
+#「はい。それではこれで、失礼します」
+＠Miu,B00410
+「Yes.  Well then, excuse me.」
 
 @miu_
 
 #SE18　廊下を歩き去る音　※徐々に小さく
 @se18
 
-まだ頬に僅かな赤みを残しながら、美雨もリビングから退室する。
+#まだ頬に僅かな赤みを残しながら、美雨もリビングから退室する。
+#SCRIPT ADD KANJI
+Ｍiu leaves the living room, the red tinge of her cheeks having yet to leave her face.
 
-＠樹
-「はぁ、やれやれ……とんだ一件だった…」
+#「はぁ、やれやれ……とんだ一件だった…」
+＠Itsuki
+「Haa, fwoo…that was quite an unusual situation…」
 
-＠樹
-「……あれ？」
+#「……あれ？」
+＠Itsuki
+「…Huh?」
 
-その姿を見送り、また疑問だけが残った。
+#その姿を見送り、また疑問だけが残った。
+#SCRIPT ADD KANJI
+Ｓeeing off that figure, there was again only one problem that remained.  (possibly, “again, it was the only problem that remained.”)
 
-＠樹
-「………準備って、何？」
+
+#「………準備って、何？」
+＠Itsuki
+「…Preperations?  What?」
 
 #■BG（黒）
 @bg_black
@@ -454,9 +580,13 @@ wait	2000
 
 ………
 
-その数十分後。
+#その数十分後。
+#SCRIPT ADD KANJI
+Ｔen minutes later.
 
-さっぱりして風呂から上がったオレは、部屋に置かれた新しいテッシュの箱で、その言葉の意味を知った。
+#さっぱりして風呂から上がったオレは、部屋に置かれた新しいテッシュの箱で、その言葉の意味を知った。
+#SCRIPT ADD KANJI
+Ｉ rise out of the bath, feeling very relieved.  A new tissue box has been placed in the room, and it’s meaning is more than clear.
 
 @bg_black
 return

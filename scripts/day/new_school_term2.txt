@@ -18,8 +18,10 @@ label	shigyou_02
 
 ………
 
-＠樹
-「ん……」
+#＠樹
+#「ん……」
+＠Itsuki
+「Nn......」
 
 #SE71　目覚ましが止まる音（リンッ）
 @se71
@@ -28,8 +30,10 @@ label	shigyou_02
 
 何でセットしたんだっけ……
 
-＠いちご,O00402
-「朝だよーッ、パパー！！」
+#＠いちご,O00402
+#「朝だよーッ、パパー！！」
+＠Ichigo,O00402
+「Papa---, it's morning!」
 
 #■BG（自室）※瞬間表示
 @bgm02
@@ -39,41 +43,61 @@ label	shigyou_02
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
-＠樹
-「ぐふぁッ！？」
+#＠樹
+#「ぐふぁッ！？」
+＠Itsuki
+「Umph!?」
 
 #■EVCG（EV_ICH_090-00）
 event	"event\ev_ich_090-00.png"
 
-＠いちご,O00403
-「おはよーッ、パパ。今日から新学期だよ！」
+#＠いちご,O00403
+#「おはよーッ、パパ。今日から新学期だよ！」
+＠Ichigo,O00403
+「Good morning papa. It's the new semester today!」
 
-＠樹
-「し、新学期……」
+#＠樹
+#「し、新学期……」
+＠Itsuki
+「Ne.., new semester...」
 
-そうか……だから目覚ましをセットしておいたんだ。
+#そうか……だから目覚ましをセットしておいたんだ。
+#SCRIPT ADD KANJI
+Ｔhats right... thats why I set the alarm.
 
-＠いちご,O00404
-「パパが寝坊したら、いちご達の朝ごはんも遅れるんだよッ。早く早くー」
+#＠いちご,O00404
+#「パパが寝坊したら、いちご達の朝ごはんも遅れるんだよッ。早く早くー」
+＠Ichigo,O00404
+「We'll be late for breakfast if papa slept in, Hurry Hurry~」
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
 
-＠樹
-「ぐぁふッ！　お、起きるって……だから退け！」
+#＠樹
+#「ぐぁふッ！　お、起きるって……だから退け！」
+＠Itsuki
+「Gafuu! I, I'll get up... so get off.」
 
-＠いちご,O00405
-「早くねー♪　下で待ってるから！」
+#＠いちご,O00405
+#「早くねー♪　下で待ってるから！」
+＠Ichigo,O00405
+「Hurry kay＝u♪ waiting for you downstairs!」
 
 #■BG（自室）
 @bg_itsuki
 
-ベッドから飛び退くと、バタバタと廊下を走っていく。
+#ベッドから飛び退くと、バタバタと廊下を走っていく。
+#SCRIPT ADD KANJI
+　***running across the corridor after jumping off the bed (require rephrase)
 
-＠樹
-「学期が変わってもテンションは相変わらずか……当然だが」
+#＠樹
+#「学期が変わってもテンションは相変わらずか……当然だが」
+＠Itsuki
+「Even when the semesters change the vibe is still the same... naturally.」
 
-あくびをかみ殺しながら朝の用意を始め、食堂へ下りた。
+#あくびをかみ殺しながら朝の用意を始め、食堂へ下りた。
+#SCRIPT ADD KANJI
+Ｇetting ready for the morning preparations, I enter the dining hall while surpressing a yawn.
 
 @bg_black
 #一拍
@@ -83,61 +107,94 @@ wait	1000
 #■EVCG（みんなで食事）
 event	"event\EV_ALL_020-03.png"
 
-＠全員,Z90005
-「いただきまーす！」
+#「いただきまーす！」
+＠Everybody,Z90005
+「ITTATAKIMA＝uSU!」
 
-全員が席に着くと、挨拶のあと朝食時間になった。
+#全員が席に着くと、挨拶のあと朝食時間になった。
+#SCRIPT ADD KANJI
+Ｅveryone takes there seats and start breakfast after their prayers/table greeting] (which one should be used?)
 
-＠かりん,P00452
-「まだ全然暑いのに、新学期だなんて……」
+#＠かりん,P00452
+#「まだ全然暑いのに、新学期だなんて……」
+＠Karin,P00452
+「It's the new semester yet its still so hot...」
 
-＠かりん,P00453
-「こんな日付どおりに動かなくても、もっと気温に合わせて柔軟に対応して欲しいわ」
+#＠かりん,P00453
+#「こんな日付どおりに動かなくても、もっと気温に合わせて柔軟に対応して欲しいわ」
+＠Karin,P00453
+***「I wish they could be more flexible according to the temperature, not being so strict on a particular date.」 (struggled on this one)
 
-＠いちご,O00407
-「ほんとー、いちごももっとお休みが欲しかったよぉ」
+#＠いちご,O00407
+#「ほんとー、いちごももっとお休みが欲しかったよぉ」
+＠Ichigo,O00407
+「Yaa＝u, Ichigo also wants a longer holiday.」
 
-＠樹
-「その割りには元気だな？　登校日はあれだけ嫌がってたのに」
+#＠樹
+#「その割りには元気だな？　登校日はあれだけ嫌がってたのに」
+＠Itsuki
+***「You despised the new semester that much, yet you're this energetic?」
 
-＠いちご,O00408
-「あれはお休みが中断されるのがイヤだったの。学校自体は嫌いじゃないよ」
+#＠いちご,O00408
+#「あれはお休みが中断されるのがイヤだったの。学校自体は嫌いじゃないよ」
+＠Ichigo,O00408
+「That was becauseI didn't want the holiday to end. I don't mind going to school.」
 
-＠みかん,A00394
-「うん、それに休みが長すぎたら、だんだんする事が無くて退屈になるよね」
+#＠みかん,A00394
+#「うん、それに休みが長すぎたら、だんだんする事が無くて退屈になるよね」
+＠Mikan,A00394
+「Ya, it also gets boring after you run out of things to do if the holidays are too long.」
 
-＠かりん,P00454
-「た、退屈ッ！？　私と居る時間が、みかんの退屈だったなんて……」
+#＠かりん,P00454
+#「た、退屈ッ！？　私と居る時間が、みかんの退屈だったなんて……」
+＠Karin,P00454
+「BO..BORING!? Mikan was bored, while she was spending time with me...」
 
-＠みかん,A00395
-「あ、そんな意味じゃないよッ。かりんちゃんと一緒に居るのはもちろん楽しいから」
+#＠みかん,A00395
+#「あ、そんな意味じゃないよッ。かりんちゃんと一緒に居るのはもちろん楽しいから」
+＠Mikan,A00395
+「Ah, thats not what i meant. The times I've spent with Karin was of course delightful.」
 
-＠すいか,R00173
-「でも、私もそろそろ学校で色んなゲームの情報交換もしたいし……」
+#＠すいか,R00173
+#「でも、私もそろそろ学校で色んなゲームの情報交換もしたいし……」
+＠Suika,R00173
+「But, its about time i wanted to trade various game information at school.」
 
-＠すいか,R00174
-「久しぶりの登校だから、いちごちゃんが楽しそうなのも分かるよ」
+#＠すいか,R00174
+#「久しぶりの登校だから、いちごちゃんが楽しそうなのも分かるよ」
+＠Suika,R00174
+「It's been a while since school, so I understand why Ichigo seems so happy.」
 
-＠ゆず,F00065
-「はぁ……また日中、樹先生と離れ離れの日々の始まりです……」
+#＠ゆず,F00065
+#「はぁ……また日中、樹先生と離れ離れの日々の始まりです……」
+＠Yuzu,F00065
+「Haa... again comes the days when i must be separated from Itsuki-sensei...」
 
-＠ざくろ,Q00315
-「そうやって想い焦がれてこそ、愛」
+#＠ざくろ,Q00315
+#「そうやって想い焦がれてこそ、愛」
+＠Zakuro,Q00315
+「The way the emotions becomes desperate, its love.」
 
-＠樹
-「誤解することを言うなッ、ざくろ！」
+#＠樹
+#「誤解することを言うなッ、ざくろ！」
+＠Itsuki
+「Zakuro! Don't say things that will cause misunderstandings.」
 
-＠雫,S00399
-「ま、新学期だろうが夏休みだろうが、樹の仕事はいつもどおり変わらないけどね」
+#「ま、新学期だろうが夏休みだろうが、樹の仕事はいつもどおり変わらないけどね」
+＠Shizuku,S00399
+「Well, whether it's the new semester or the summer break. Itsuki's job stays the same.」
 
-＠美雨,B00276
-「頑張ってくださいね、樹さん」
+#「頑張ってくださいね、樹さん」
+＠Miu,B00276
+「Itsuki-san, please give it your all.」
 
-＠樹
-「……快くは頷けないですが。分かってますよ」
+#「……快くは頷けないですが。分かってますよ」
+＠Itsuki
+*「Pass.」*
 
-＠かりん,P00455
-「はぁ……新学期初日から、鬱だわ……」
+#「はぁ……新学期初日から、鬱だわ……」
+＠Karin,P00455
+「Haa... melancholy from the first day of the new semester...」
 
 #■BG（玄関）
 @bg_genkan
@@ -148,12 +205,15 @@ event	"event\EV_ALL_020-03.png"
 @suika_seifuku
 
 
-少しのんびりと朝食を取りすぎ、子供達が慌てて登校する。
+#少しのんびりと朝食を取りすぎ、子供達が慌てて登校する。
+#SCRIPT ADD KANJI
+Ｗhile beeing too carefree at breakfast, the kids had to rush to school.
 
 @miu_warai
 
-＠美雨,B00277
-「慌てて怪我しないように、気をつけてね」
+#「慌てて怪我しないように、気をつけてね」
+＠Miu,B00277
+「Be careful not to hurt yourself while you're in a hurry.」
 
 @miu_
 @mikan_warai
@@ -161,48 +221,58 @@ event	"event\EV_ALL_020-03.png"
 @zakuro_warai
 @karin
 
-＠みかん,A00396
-「うん！　行ってきまーす！」
+#「うん！　行ってきまーす！」
+＠Mikan,A00396
+「OK! I'm off (or is ittekima＝usu better?)」
 
-＠いちご,O00409
-「まーす！」
+#「まーす！」
+＠Ichigo,O00409
+「O＝uff.」
 
-＠ざくろ,Q00316
-「マスー」
+#「マスー」
+＠Zakuro,Q00316
+「Off＝u」
 
 @karin_akire
 
-＠かりん,P00456
-「……強引な下ネタは止めてよね」
+#「……強引な下ネタは止めてよね」
+＠Karin,P00456
+「...please refrain from any forceful vulgar jokes.」
 
 @mikan_odoroki
 
-＠みかん,A00397
-「え、今の？　何か変な答えだったの？」
+#「え、今の？　何か変な答えだったの？」
+＠Mikan,A00397
+「Ha? did I answer something weird right now?」
 
 @karin_tere
 
-＠かりん,P00457
-「えッ！？　い、いえ、別に……」
+#「えッ！？　い、いえ、別に……」
+＠Karin,P00457
+「Ha!? n.. no, nothing...」
 
-＠ざくろ,Q00317
-「ふ……墓穴」
+#「ふ……墓穴」
+＠Zakuro,Q00317
+「She... fell into her own hole.」
 
-＠樹
-「……のんびりしてたら遅刻するぞ？」
+#「……のんびりしてたら遅刻するぞ？」
+＠Itsuki
+「You'll be late if you take your time like that.」
 
 @chara_clear
 wait	1000
 @yuzu_odoroki
 
-＠ゆず,F00066
-「え、うわっ、早く行かないと。初日から遅刻はヤダよ」
+#「え、うわっ、早く行かないと。初日から遅刻はヤダよ」
+＠Yuzu,F00066
+「Ha? ahh,  we have to hurry. I don't want to be late on the first day~」
 
 @yuzu_
 @suika_odoroki
 
-＠すいか,R00175
-「あ、待ってみんな。お昼から雨だから、傘持たないと」
+#「あ、待ってみんな。お昼から雨だから、傘持たないと」
+＠Suika,R00175
+「Hey, wait everyone. it'l rain in the afternoon so you should bring umbrellas.」
 
 @suika_
 
@@ -210,37 +280,46 @@ wait	1000
 @se31
 
 
-賑やかに会話を弾ませながら出て行った。
+#賑やかに会話を弾ませながら出て行った。
+#SCRIPT ADD KANJI
+Ｔhey left in a rustle and bustle of conversations.
 
-＠樹
-「さて……みんなが帰ってくるまで、ちょっと部屋で休んでおくかな」
+#「さて……みんなが帰ってくるまで、ちょっと部屋で休んでおくかな」
+＠Itsuki
+「Right... before everyone comes back maybe I should take a rest in my room.」
 
 @shizuku_akire
 
-＠雫,S00400
-「はぁ、いいね暇人は。あたしも美雨もこれから普通に仕事だってのに」
+#「はぁ、いいね暇人は。あたしも美雨もこれから普通に仕事だってのに」
+＠Shizuku,S00400
+「Haa, isn't it great, people with free time, both Miyu and I have normal jobs after this.」
 
-＠樹
-「ははは、いつでも交代しますよ。子守兼調教と院長責任……」
+#「ははは、いつでも交代しますよ。子守兼調教と院長責任……」
+＠Itsuki
+「Hahaha, I'll swap with you anytime. child guardian/trainer and inchou resposibilities...」 (i dont know how to translate inchou)
 
 @miu
 
-＠美雨,B00278
-「そんな、樹さんは十分にお仕事を頑張られていますよ」
-
+#「そんな、樹さんは十分にお仕事を頑張られていますよ」
+＠Miu,B00278
+「Thats not true, Itsuki-san tries really hard at your job.」
 
 @miu_warai
 
-＠美雨,B00279
-「ごゆっくりどうぞ。あとでお茶をお持ちしますね」
+#「ごゆっくりどうぞ。あとでお茶をお持ちしますね」
+＠Miu,B00279
+「Please take your time. I'll bring you some tea later.」
 
-＠樹
-「あぁ、ありがとう」
+#「あぁ、ありがとう」
+＠Itsuki
+「Aah, thank you.」
 
 #■BG（黒）
 @bg_black
 
-二人に別れを告げると、夏休み疲れで部屋へ引き上げる。
+#二人に別れを告げると、夏休み疲れで部屋へ引き上げる。
+#SCRIPT ADD KANJI
+Ａfter farewelling the two, I return to my room from the summer break weariness.
 
 #■BG（自室・曇り空）
 bgm_stop
@@ -249,32 +328,44 @@ bgm_stop
 @se07
 
 
-＠樹
-「ふぅっ……」
+#「ふぅっ……」
+＠Itsuki
+「Fuuu...」
 
-一人になると、自然と息を零した。
+#一人になると、自然と息を零した。
+#SCRIPT ADD KANJI
+Ａfter being alone I naturally spill my breath.
 
-＠樹
-「何かもう、すっかり当たり前の生活だな……」
+#「何かもう、すっかり当たり前の生活だな……」
+＠Itsuki
+「Somehow, this lifestyle has become a matter of fact...」
 
-今さらにして、ふとそんなことを思った。
+#今さらにして、ふとそんなことを思った。
+#SCRIPT ADD KANJI
+Ａt a time like this, it suddenly comes to mind.
 
-ここに来て、今日で六ヶ月。ちょうど一年の半分が過ぎたわけだ。
+#ここに来て、今日で六ヶ月。ちょうど一年の半分が過ぎたわけだ。
+#SCRIPT ADD KANJI
+Ｉt's been six months since coming here. Exactly half of one year.
 
-初めはどうなる生活かと思ったけど、それなりに平和という部類で日々を送れていた。
+#初めはどうなる生活かと思ったけど、それなりに平和という部類で日々を送れていた。
+#SCRIPT ADD KANJI
+Ａt first I wondered how the life would be, but it has been a peacful lifestyle in itself.
 
-＠樹
-「………このまま、何事もなく過ごせて行ければ良いんだけどな」
-
+#「………このまま、何事もなく過ごせて行ければ良いんだけどな」
+＠Itsuki
+「....like this, it would be great to live on without anything happening.」
 
 #■BG（曇り空）
 @bg_sky_ame
 
-僅かに渦巻いた不安を呟き、窓から空を見上げてみる。
+#僅かに渦巻いた不安を呟き、窓から空を見上げてみる。
+#SCRIPT ADD KANJI
+Ａ meager whirlpool of uncertainty sounds as I look up at the sky from the window. (sounds? mutters? dont know wat fits better)
 
-
-いつの間にか空を覆う曇天から、ポツポツと雨が降り始めていた。
-
+#いつの間にか空を覆う曇天から、ポツポツと雨が降り始めていた。
+#SCRIPT ADD KANJI
+Ｗith no time at all the sky is covered in rainclouds, and droplets of rain start falling. (any one can do this any better?)
 
 #（第二オープニング？）
 

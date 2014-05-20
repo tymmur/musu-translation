@@ -25,12 +25,18 @@ if shop_count	>1 then gosub shop_in_message	#ショップインメッセージ
 #（３．話をする）（（月－話した回数）＞０以上の場合のみ。１度の来店で話ができるのは１回のみ）
 #（４．店を出る）
 
+#■（Choices Ａ）
+#（１．Buy an item）
+#（２．Sell an item）（If you have one）
+#（３．Talk）（（月－話した回数）＞０以上の場合のみ。１度の来店で話ができるのは１回のみ）
+#（４．Leave the store）
+
 label	shop_loop
 window_close
 #minimoney_close
 if shop_talk_count_work>0 then 	goto shop_skip1
 if shop_talk_count>11	then	goto shop_skip1
-select	sel,"アイテムを買う","アイテムを売る","話をする","店を出る"
+select	sel,"Buy an item","Sell an item","Talk","Leave the store"
 if sel=0 then goto shop_buy
 if sel=1 then goto shop_sell
 if sel=2 then goto shop_talk
@@ -38,7 +44,7 @@ if sel=3 then goto shop_exit
 goto	shop_loop
 
 label	shop_skip1
-select	sel,"アイテムを買う","アイテムを売る","店を出る"
+select	sel,"Buy an item","Sell an item","Leave the store"
 if sel=0 then goto shop_buy
 if sel=1 then goto shop_sell
 if sel=2 then goto shop_exit

@@ -14,7 +14,9 @@ label	suika_04
 @bg_door		# ドア前
 
 
-トイレで用を足して外に出ると、洗面所ですいかが鏡を見て髪を整えていた。
+#トイレで用を足して外に出ると、洗面所ですいかが鏡を見て髪を整えていた。
+#SCRIPT ADD KANJI
+Ｉ finished my business in the toilet and went outside, and I saw Suika fixing her hair while looking at the bathroom mirror.
 
 
 #@suika_small
@@ -24,33 +26,45 @@ label	suika_04
 @bg_black
 
 
-＠すいか,R00447
-「あ、使いますか？　もう終わりましたから」
+#＠すいか,R00447
+#「あ、使いますか？　もう終わりましたから」
+＠Suika,R00447
+「Ah, do you want to use it? I'm done.」
 
-オレの姿を認め、すいかはスッと鏡の前からどいた。
+#オレの姿を認め、すいかはスッと鏡の前からどいた。
+#SCRIPT ADD KANJI
+Ｎoticing me, Suika quickly stepped away from the mirror.
 
-＠樹
-「あ、いや。中で手は洗ったから、大丈夫だ」
+#＠樹
+#「あ、いや。中で手は洗ったから、大丈夫だ」
+＠Itsuki
+「Ah, no. I washed my hands inside so it's okay.」
 
 
 #@suika			#普
 
 
-＠すいか,R00448
-「そうですか……」
+#＠すいか,R00448
+#「そうですか……」
+＠Suika,R00448
+「I see......」
 
 
 #@suika_
 
 
-オレはすいかの脇を通り過ぎようとするが、もう終わったというのは本当だったらしい。
+#オレはすいかの脇を通り過ぎようとするが、もう終わったというのは本当だったらしい。
+#SCRIPT ADD KANJI
+Ｉ passed by Suika, but it looked like she really was finished.
 
 
 #CH（すいか立ちポーズ）
 @SE18			#廊下を歩き去る音
 
 
-すいかはオレと並んで廊下へ出た。
+#すいかはオレと並んで廊下へ出た。
+#SCRIPT ADD KANJI
+Ｓuika stood with my and we went to the corridor.
 
 
 @bg_black
@@ -59,42 +73,63 @@ wait		1000
 @bgm12			#BGM 12 : メインテーマ
 
 
-＠樹
-「どこかに行くのか？」
+#＠樹
+#「どこかに行くのか？」
+＠Itsuki
+「Where are you going?」
 
-すいかが髪を整えているところなんて、初めて見たな。
+#すいかが髪を整えているところなんて、初めて見たな。
+#SCRIPT ADD KANJI
+Ｉt's the first time I've seen Suika fixing her hair.
 
-普段はジャージで生活してたりするけど、やっぱり女の子、ということだろうか。
-
+#普段はジャージで生活してたりするけど、やっぱり女の子、ということだろうか。
+#SCRIPT ADD KANJI
+Ｎormally she lives her life wearing a jersey, but she is a girl after all.
 
 @suika_middle		# 中間
 @suika_shifuku
 @suika_yorokobi		#喜
 
 
-＠すいか,R00449
-「ええ。今日はこれから接待の予定が入ってますから」
+#＠すいか,R00449
+#「ええ。今日はこれから接待の予定が入ってますから」
+＠Suika,R00449
+「Yeah, today I have plans for doing service.」
 
-すいかはそう言って、穏やかに微笑む。
+#すいかはそう言って、穏やかに微笑む。
+#SCRIPT ADD KANJI
+Ｓuika said that and calmly smiled.
 
-＠樹
-「……そうか」
+#＠樹
+#「……そうか」
+＠Itsuki
+「......I see.」
 
-あまりに普通に言うものだから、一瞬、なんのことか考えてしまった。
+#あまりに普通に言うものだから、一瞬、なんのことか考えてしまった。
+#SCRIPT ADD KANJI
+Ｓhe said it normally, so for a moment I had to think about what it really was.
 
-ここで接待といえば、売春のことなのだ。
+#ここで接待といえば、売春のことなのだ。
+#SCRIPT ADD KANJI
+Ｈere, what is called "service" is actually prostitution.
 
-しかし、すいかの表情からは、親に虐待されて施設に入り、売春をしているという悲愴感はうかがえない。
+#しかし、すいかの表情からは、親に虐待されて施設に入り、売春をしているという悲愴感はうかがえない。
+#SCRIPT ADD KANJI
+Ｂut on Suika's expression, there were no pathetic feelings shown of being treated badly by her parents, then entering this institute and becoming a prostitute.
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00450
-「やっぱり、お客様にはがっかりしてほしくないですから、できるだけ可愛くしたいですよね……」
+#＠すいか,R00450
+#「やっぱり、お客様にはがっかりしてほしくないですから、できるだけ可愛くしたいですよね……」
+＠Suika,R00450
+「I don't want to disappoint the customer, so I want to be as cute as I can......」
 
-＠樹
-「そんなもんか」
+#＠樹
+#「そんなもんか」
+＠Itsuki
+「Do you?」
 
 
 @suika_komariwarai	#困笑
@@ -106,75 +141,104 @@ wait		1000
 #＠樹
 #「……」
 
-すいかの声にやはり悲愴な響きはなく、そんな現実を淡々と受け入れている様子だった。
+#すいかの声にやはり悲愴な響きはなく、そんな現実を淡々と受け入れている様子だった。
+#SCRIPT ADD KANJI
+Ｔhere was no ring of sadness in Suika's voice, she lightly accepted that reality.
 
-それだけに、オレは言葉に詰まってしまう。
+#それだけに、オレは言葉に詰まってしまう。
+#SCRIPT ADD KANJI
+Ｉ was at a loss for words because of that.
 
 
 @suika_kanashimi	#哀
 
 
-＠すいか,R00452
-「お客様には事前に身体のことは言ってあるはずなんですけど、実際に見てイヤな顔をする人もいますから……」
+#＠すいか,R00452
+#「お客様には事前に身体のことは言ってあるはずなんですけど、実際に見てイヤな顔をする人もいますから……」
+＠Suika,R00452
+「The customers are probably told about my body beforehand, but there are some who have a disgusted face when they look at me anyways......」
 
-＠樹
-「そうか……」
-
-
-@suika_yorokobi		#喜
-
-
-＠すいか,R00453
-「でも、それがイイって言ってくれる人もいるんですよ」
-
-
-@suika_warai		#笑
-
-
-＠すいか,R00454
-「まあ変態だとは思いますけど、私みたいな子からすればホントにありがたいです」
+#＠樹
+#「そうか……」
+＠Itsuki
+「I see......」
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00455
-「……あ、それじゃ、私はこっちですから」
-
-＠樹
-「お、おう」
+#＠すいか,R00453
+#「でも、それがイイって言ってくれる人もいるんですよ」
+＠Suika,R00453
+「But there are also people who say that that's okay.」
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00456
-「頑張ってきますね！」
+#＠すいか,R00454
+#「まあ変態だとは思いますけど、私みたいな子からすればホントにありがたいです」
+＠Suika,R00454
+「Well I think that's perverted, but I'm really thankful that they choose someone like me.」
+
+
+@suika_yorokobi		#喜
+
+
+#＠すいか,R00455
+#「……あ、それじゃ、私はこっちですから」
+＠Suika,R00455
+「......Ah, well, I'll be going this way.」
+
+#＠樹
+#「お、おう」
+＠Itsuki
+「O, oh.」
+
+
+@suika_warai		#笑
+
+
+#＠すいか,R00456
+#「頑張ってきますね！」
+＠Suika,R00456
+「I'm going to work hard!」
 
 
 bgm_stop
 @suika_
 
 
-にっこりとオレに微笑みかけ、すいかは玄関の方へと向かってしまう。
+#にっこりとオレに微笑みかけ、すいかは玄関の方へと向かってしまう。
+#SCRIPT ADD KANJI
+Ｓuika smiled at me, and went to the entranceway.
 
-オレは足を止め、その後ろ姿を見送ることしかできなかった。
+#オレは足を止め、その後ろ姿を見送ることしかできなかった。
+#SCRIPT ADD KANJI
+Ｉ stopped moving, and couldn't do anything but see her off from behind.
 
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 
-なんだろう、この気持ちは……。
+#なんだろう、この気持ちは……。
+#SCRIPT ADD KANJI
+Ｗhat is this feeling......?
 
-すいかにとってはやっぱり、この生活が幸せなのだろうか？
+#すいかにとってはやっぱり、この生活が幸せなのだろうか？
+#SCRIPT ADD KANJI
+Ｉs this life really happiness for Suika?
 
-それはまあ、親に虐待されていたときに比べればマシに決まってるだろうけど――。
-
+#それはまあ、親に虐待されていたときに比べればマシに決まってるだろうけど――。
+#SCRIPT ADD KANJI
+Ｂut that's obvious if you compare it to when she was treated badly by her parents---.
 
 bgm_stop
 
 
-だけど、すいかは本当にこのままでいいのだろうか……？
+#だけど、すいかは本当にこのままでいいのだろうか……？
+#SCRIPT ADD KANJI
+Ｂut is Suika really okay like this......?
 
 
 #■BG（黒）
@@ -188,6 +252,7 @@ wait		1000
 
 #（スケジュールへ）
 return
+
 
 
 

@@ -269,9 +269,14 @@ if miryoku_chara=2 and karin_kenkou_count<2 then route_chara=3	#かりん
 
 sel=0
 
-if GLOBAL(100)=1 and route_chara=1 then select sel,"みかんルートに入る","みかんルートに入らない"
-if GLOBAL(101)=1 and route_chara=2 then select sel,"いちごルートに入る","いちごルートに入らない"
-if GLOBAL(102)=1 and route_chara=3 then select sel,"かりんルートに入る","かりんルートに入らない"
+
+#"みかんルートに入る","みかんルートに入らない"
+#"いちごルートに入る","いちごルートに入らない"
+#"かりんルートに入る","かりんルートに入らない"
+if GLOBAL(100)=1 and route_chara=1 then select sel,"Enter Mikan's route", "Don't enter Mikan's route"
+if GLOBAL(101)=1 and route_chara=2 then select sel,"Enter Ichigo's route","Don't enter Ichigo's route"
+if GLOBAL(102)=1 and route_chara=3 then select sel,"Enter Karin's route", "Don't enter Karin's route"
+
 
 if sel=1 then route_chara=0
 #if route_chara=0 then goto date_hikari
@@ -283,7 +288,8 @@ return
 
 label	date_hikari
 sel=0
-if GLOBAL(107)=1 then select sel,"ひかりルートに入る","ひかりルートに入らない"
+#"ひかりルートに入る","ひかりルートに入らない"
+if GLOBAL(107)=1 then select sel,"Enter Hikari's route","Don't enter Hikari's route"
 
 if sel=1 then return
 

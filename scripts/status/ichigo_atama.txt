@@ -1082,7 +1082,8 @@ event		"event\EV_ALL_021-yakiniku.png"
 #（２．かりんのエリアを狙う）
 #（３．いちごのエリアを狙う）
 #（４．ざくろのエリアを狙う）
-select sel,"みかんのエリアを狙う","かりんのエリアを狙う","いちごのエリアを狙う","ざくろのエリアを狙う"
+select sel,"Aim for Mikan's area","Aim for Karin's area","Aim for Ichigo's area","Aim for Zakuro's area"
+
 if sel=0 then goto ichigo_atama01_a
 if sel=1 then goto ichigo_atama01_b
 if sel=2 then goto ichigo_atama01_c

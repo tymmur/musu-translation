@@ -1725,10 +1725,10 @@ se_stop		0
 
 #--------------------------------------------------
 #（選択肢）
-#（１．代わりのケーキを買う）
-#（２．許してあげる）
-#（３．弁償させる）
-select sel,"代わりのケーキを買う","許してあげる","弁償させる"
+#（１．代わりのケーキを買う）Buy a substitute cake
+#（２．許してあげる）Forgive Increase (forgive again?)
+#（３．弁償させる）Bensho-saseru (compensation make-someone-do)
+select sel,"Buy another cake","Forgive her again","Tell her to pay for it"
 if sel=0 then goto ichigo_tachi07_a
 if sel=1 then goto ichigo_tachi07_b
 if sel=2 then goto ichigo_tachi07_c
@@ -2405,9 +2405,9 @@ label	ichigo_tachi_10
 
 #--------------------------------------------------
 #（選択肢）
-#（１．観念して遊ぶ）
-#（２．何としても寝かせる）
-select sel,"観念して遊ぶ","何としても寝かせる"
+#（１．観念して遊ぶ）Playing with ideas (?)
+#（２．何としても寝かせる）By any means necessary, force to lie down
+select sel,"Playing with ideas","Make her lie down somehow"
 if sel=0 then goto ichigo_tachi10_a
 if sel=1 then goto ichigo_tachi10_b
 #--------------------------------------------------
@@ -2955,7 +2955,7 @@ wait		1000
 #（選択肢）
 #（１．やる）（いちご好感度up、美雨好感度down）
 #（２．やらない）（いちご好感度down）
-select sel,"やる","やらない"
+select sel,"Do it","Don't do it"
 if sel=0 then goto ichigo_tachi11_a
 if sel=1 then goto ichigo_tachi11_b
 #--------------------------------------------------

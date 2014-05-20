@@ -339,7 +339,7 @@ wait		1000
 #■（選択肢）※みかんの好感度が低いときのみ選択肢。デートが出来る範囲だと無し。強制的に違和感を聞く。
 #（１．気のせいだろう）
 #（２．美雨はどう思っただろうか）
-select sel,"気のせいだろう","美雨はどう思っただろうか"
+select sel,"It's my imagination","What was Miu thinking?"
 sel1=sel
 if sel1=0 then goto mika13_01_a
 if sel1=1 then goto mika13_01_b

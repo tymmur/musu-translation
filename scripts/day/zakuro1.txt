@@ -7,38 +7,57 @@ label	zakuro_01
 #■BG（廊下・日中）
 @bg_rouka
 
-＠樹
-「あれ？　ざくろがいる」
+#「あれ？　ざくろがいる」
+＠Itsuki
+「Eh? Zakuro is here.」
 
 @zakuro
 
-廊下を歩いていると、特徴的な服の後ろ姿を見つけた。
+#廊下を歩いていると、特徴的な服の後ろ姿を見つけた。
+#SCRIPT ADD KANJI
+Ｉ see the back of her unique clothes while walking down the corridor.
 
-まぁこの家の住人なので、居て当然なんだけど。
+#まぁこの家の住人なので、居て当然なんだけど。
+#SCRIPT ADD KANJI
+Ｗell... As this house's resident, it's natural for her to be here.
 
-＠ざくろ,Q00485
+＠Zakuro,Q00485
 「…………」
 
-一人でどこか歩いてるざくろの行動が気になってしまう。
+#一人でどこか歩いてるざくろの行動が気になってしまう。
+#SCRIPT ADD KANJI
+Ｉ'm a bit curious where she is going to by herself.
 
-＠樹
-（……付いてってみるか？）
+#（……付いてってみるか？）
+＠Itsuki
+(...... Shall I follower her for a while?)
 
 #■選択肢
 #（１．もちろん追跡）（ざくろ好感度UP）
 #（２．それは悪趣味だ）
-select	sel,"もちろん追跡","それは悪趣味だ"
+#"もちろん追跡","それは悪趣味だ"
+#if	sel=0 then goto day_0128_1
+#if	sel=1 then goto day_0128_2
+
+#■選択肢 Choice
+# (1. Of course, let's stalk her a bit) (Zakuro's intimacy up)
+# (2.  That's a bad thing to do)
+select	sel,"Of course, let's stalk her a bit","That's a bad thing to do"
 if	sel=0 then goto day_0128_1
 if	sel=1 then goto day_0128_2
 
-label	day_0128_1
+#label	day_0128_1
 #■（１を選択時）
+label	day_0128_1
+#■（When 1 is chosen）
 
-＠樹
-（どこに行くつもりなのか……）
+#（どこに行くつもりなのか……）
+＠Itsuki
+(Where is she going to?.....)
 
-探究心が罪悪感に勝り、バレないように後をつける。
-
+#探究心が罪悪感に勝り、バレないように後をつける。
+#SCRIPT ADD KANJI
+Ａs my curiousity is overwhelming the sense of guilt, I carefully follow her from behind. 
 
 #一拍
 @bg_black
@@ -46,53 +65,70 @@ wait	1000
 @zakuro
 @bg_rouka
 
-＠ざくろ,Q00486
-「…………」
+#「…………」
+＠Zakuro,Q00486
+「..............」
 
-#SE16　廊下を歩く音
+#SE16　廊下を歩く音 
 @se16
+#★
+#まっすぐ正面を見つめながら、一定間隔で歩みを進めていくざくろ。
+#SCRIPT ADD KANJI
+Ｌooking straight ahead, I followed with at a distance. 
 
-まっすぐ正面を見つめながら、一定間隔で歩みを進めていくざくろ。
+#（トイレ、でもないか……）
+＠Itsuki
+(Toilet ? No, it isn't.....)
 
-＠樹
-（トイレ、でもないか……）
+#今トイレの前を通過し、これで食堂も階段も自室も通り過ぎていた。
+#SCRIPT ADD KANJI
+Ｊust now she passed the toilet, and keep passing the dining room, stairs, and her own room. 
 
-今トイレの前を通過し、これで食堂も階段も自室も通り過ぎていた。
-
-＠ざくろ,Q00487
-「……？」
+#「……？」
+＠Zakuro,Q00487
+「........?」
 
 #■BG（黒）
 @bg_black
 
-＠樹
-（おっと……）
+#（おっと……）
+＠Itsuki
+(woops...)
 
-振り向きそうになったので、とっさに曲がり角に身を隠す。
+#振り向きそうになったので、とっさに曲がり角に身を隠す。
+#SCRIPT ADD KANJI
+Ｉ quicky hid in the coner as Zakuro seems to turn her head.
 
-＠樹
-「…………」
+#「…………」
+＠Itsuki
+「............」
 
-＠樹
-「……何か、だんだんバカらしくなってきたぞ…」
+#「……何か、だんだんバカらしくなってきたぞ…」
+＠Itsuki
+「...Somehow, it's starting to get a little stupid...」
 
-今さらだが、ここまでして後をつけてどうしようと言うのだろうか。
+#今さらだが、ここまでして後をつけてどうしようと言うのだろうか。
+#SCRIPT ADD KANJI
+Ｉt's too late to say these things when I've come this far.
 
 #■BG（廊下・日中）
 @zakuro
 @bg_rouka
 
-＠ざくろ,Q00488
-「………」
+#「………」
+＠Zakuro,Q00488
+「.........」
 
 #SE16　廊下を歩く音
 @se16
 
-＠樹
-「やれやれ……」
+#「やれやれ……」
+＠Itsuki
+「Well, well....」
 
-でもここまで附けたのだから、やっぱり気になる。
-
+#でもここまで附けたのだから、やっぱり気になる。
+#SCRIPT ADD KANJI
+Ｂut I've stalked her up until now, I'm still curious. 
 
 #一拍
 @bg_black
@@ -101,26 +137,39 @@ wait	1000
 @bg_rouka
 
 
-＠ざくろ,Q00489
+＠Zakuro,Q00489
 「…………」
 
-……ピタッ。
+#……ピタッ。
+#SCRIPT ADD KANJI
+　....... Stop.
 
-＠樹
-（お、ようやく立ち止まった）
+#（お、ようやく立ち止まった）
+＠Itsuki
+(Ooo, at last she stopped.)
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 @zakuro_
 
-そこが目的地らしく、ざくろは側にある部屋へ入っていった。
+#そこが目的地らしく、ざくろは側にある部屋へ入っていった。
+#SCRIPT ADD KANJI
+Ｓeems like it is her destination, she walks in into the room beside her.
 
-……けど、まだ、確かそこは空き室だった気がする。
+#……けど、まだ、確かそこは空き室だった気がする。
+#SCRIPT ADD KANJI
+　......however, If I'm not mistaken that room is empty. So I'm still curious.
 
-＠樹
-「はぁ………見たいような、見てはいけないような」
 
-結局、最後まで気になってしまう……
+
+#「はぁ………見たいような、見てはいけないような」
+＠Itsuki
+「Haa.......... I want to see, but I can't see.」
+
+#結局、最後まで気になってしまう……
+#SCRIPT ADD KANJI
+Ｉn the end, I'm curious all over my body.....
+
 
 #■BG（黒）
 @bg_black
@@ -128,214 +177,298 @@ wait	1000
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
-オレもそれに続いて、ゆっくりとドアを開けて中を覗いて見た。
+#オレもそれに続いて、ゆっくりとドアを開けて中を覗いて見た。
+#SCRIPT ADD KANJI
+Ａnd I continue what I was doing, slowly open the door and peep inside.
 
 #■BG（空き室）
 @bg_akibeya
 
-果たして、そこに今まで附け続けたざくろの姿は無くなっている。
+#果たして、そこに今まで附け続けたざくろの姿は無くなっている。
+#SCRIPT ADD KANJI
+Ｂut, there's no trace of Zakuro inside.
 
-＠樹
-「えッ……あれ…？」
+#「えッ……あれ…？」
+＠Itsuki
+「Eeh.... What....?」
 
-＠ざくろ,Q00490
-「……つっちー、こっち」
+#「……つっちー、こっち」
+＠Zakuro,Q00490
+「...... Tsucchi, over here.」
 
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-慌てて部屋の中へ入ると、死角に隠れていたざくろがドアを閉めた。
+#慌てて部屋の中へ入ると、死角に隠れていたざくろがドアを閉めた。
+#SCRIPT ADD KANJI
+Ｗhile confused, I come inside the room, and I found Zakuro is hiding behind the door.
+
+#Confused, I come inside the room, and found Zakuro hiding behind the door.
 
 @zakuro
 
-＠ざくろ,Q00491
-「後ろ附けてたの、誰かなって思ってたら。つっちー？」
+#「後ろ附けてたの、誰かなって思ってたら。つっちー？」
+＠Zakuro,Q00491
+「I felt someone is following me from behind. I wonder who, is it you tsucchi?」
 
-＠樹
-「あ……悪い、気付いてたのか」
+#「あ……悪い、気付いてたのか」
+＠Itsuki
+「Ah.... I'm sorry, Did you realize?」
 
-＠ざくろ,Q00492
-「うん」
-
-#SE09　部屋のドアの鍵を掛ける音（カチャ）
-@se09
-
-後ろ手に鍵をかけられる。
-
-＠樹
-「え……」
-
-＠樹
-「な、何でカギ……？」
-
-＠ざくろ,Q00493
-「……？　違うの？」
-
-＠樹
-「会話が繋がってないが……とりあえず違うと応えておく」
+#「うん」
+＠Zakuro,Q00492
+「Yeah.」
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @se09
 
-初日の反省点を生かし、念のためカギを開ける。
+#後ろ手に鍵をかけられる。
+#SCRIPT ADD KANJI
+Ｔhe door behind is locked.
 
-＠ざくろ,Q00494
-「……そう」
+#「え……」
+＠Itsuki
+「Ee.......」
 
-＠ざくろ,Q00495
-「トイレに行こうとしてたのに、つっちーが附いてくるから行きそびれた」
+#「な、何でカギ……？」
+＠Itsuki
+「Wha-, Why do you lock it......?」
 
-＠樹
-「お……それで辞めて、ここに退避か？」
+#「……？　違うの？」
+＠Zakuro,Q00493
+「........? Am I mistaken?」
 
-＠ざくろ,Q00496
-「うん」
+#「会話が繋がってないが……とりあえず違うと応えておく」
+＠Itsuki
+「Well, the conversation isn't conne-........ Umm, for the time being, It is wrong.」
 
-それは、やっぱり恥ずかしかったからだろうか。
+#SE09　部屋のドアの鍵を掛ける音（カチャ）
+@se09
 
-＠樹
-（ふふ。何だ、やっぱりざくろも、人並みの羞恥心くらいは―――）
+#初日の反省点を生かし、念のためカギを開ける。
+#SCRIPT ADD KANJI
+Ｄisappointed she open the door.
+
+#「……そう」
+＠Zakuro,Q00494
+「....... I see.」
+
+#「トイレに行こうとしてたのに、つっちーが附いてくるから行きそびれた」
+＠Zakuro,Q00495
+「I was going to toilet but Tsucchi followed me so I missed it.」
+
+#「お……それで辞めて、ここに退避か？」
+＠Itsuki
+「O...... After that, you hide in here?」 
+
+#「うん」
+＠Zakuro,Q00496
+「Yeah.」
+
+#それは、やっぱり恥ずかしかったからだろうか。
+#SCRIPT ADD KANJI
+Ｉt seems that going to toilet is an embarassing thing.
+
+#（ふふ。何だ、やっぱりざくろも、人並みの羞恥心くらいは―――）
+＠Itsuki
+(Giggle. What the,  As I thought, even Zakuro has some sha------)
 
 @zakuro_warai
 
-＠ざくろ,Q00497
-「トイレしてるところ、見たいのかと思ったから」
+#「トイレしてるところ、見たいのかと思ったから」
+＠Zakuro,Q00497
+「I thought you wanted to see the place where I pee.」
 
-＠樹
-「……持ってないか……」
+#「……持ってないか……」
+＠Itsuki
+「........I take back my word.....」 / 「.......or she doesn't.......」
 
-表情一つ変えずに、そんなことを言うざくろ。
+#表情一つ変えずに、そんなことを言うざくろ。
+#SCRIPT ADD KANJI
+Ｓhe says that without batting an eyeleash. / She says that casually.
 
-まぁこの子が、「トイレに入るのを見られると恥ずかしい」なんて言う方が、むしろ異常のような気もする。
+#まぁこの子が、「トイレに入るのを見られると恥ずかしい」なんて言う方が、むしろ異常のような気もする。
+#SCRIPT ADD KANJI
+Ｗell I can't imagine this kid  saying [I can die from embarassment if I was seen entering the toilet] or anything like that.
 
 
-＠ざくろ,Q00498
-「…………」
+#「…………」
+＠Zakuro,Q00498
+「.............」
 
 @zakuro_
 
-ゴソゴソ……
+#ゴソゴソ……
+#SCRIPT ADD KANJI
+Ｒustle... Rustle.....
 
-＠樹
-「って、やめやめッ！　無言で下着を下ろすな！」
+#「って、やめやめッ！　無言で下着を下ろすな！」
+＠Itsuki
+「Wha-, Stop it ! Don't lower your underwear here / Don't lower your underwear without saying it!」
 
-＠ざくろ,Q00499
-「これ、下着じゃなくてドロワーズ」
+#「これ、下着じゃなくてドロワーズ」
+＠Zakuro,Q00499
+「This isn't underwear you know, it's drawers.」
 
-ゴソゴソ……ズリッ、ズリリッ…
+#ゴソゴソ……ズリッ、ズリリッ…
+#SCRIPT ADD KANJI
+Ｒustle....Rustle........Stagger.......
 
-スカートに入れた手が、ズルズルと中の生地をズリ下げていく。
+#スカートに入れた手が、ズルズルと中の生地をズリ下げていく。
+#SCRIPT ADD KANJI
+Ｗith her hand inside the skirt, she is undoing it.
 
-＠ざくろ,Q00500
-「……？　ドロワーズも下着？」
+#「……？　ドロワーズも下着？」
+＠Zakuro,Q00500
+「.......? Drawers are also underwear?」
 
-＠樹
-「そんなのどっちでも構わんッ！　ここでするのも、そんな姿を人に見せるのもダメだッ」
+#「そんなのどっちでも構わんッ！　ここでするのも、そんな姿を人に見せるのもダメだッ」
+＠Itsuki
+「Like I care about those things ! Doing it in here, You can't show those things to others.」
 
 @zakuro
 
-＠ざくろ,Q00501
-「……やっぱり、トイレじゃないと嫌だった？」
+#「……やっぱり、トイレじゃないと嫌だった？」
+＠Zakuro,Q00501
+「.......So if it isn't toilet, you don't like it?」 
 
-＠樹
-「あぁ……もういい。口で言うより直すのが先だ」
+#「あぁ……もういい。口で言うより直すのが先だ」
+＠Itsuki
+「Argh.... Oh well. It'll be forever to tell you.」
 
-慌てて自らが手を伸ばし、ざくろの下着をズリ上げ直してやる。
+#慌てて自らが手を伸ばし、ざくろの下着をズリ上げ直してやる。
+#SCRIPT ADD KANJI
+Ｉ stretched my hand and fix her underwear in haste.
 
 @zakuro_niko
 
-＠ざくろ,Q00502
-「ん……」
+#「ん……」
+＠Zakuro,Q00502
+「Nn......」
 
-＠ざくろ,Q00503
-「スカートに手を入れるなんて、昼間から大胆」
+#「スカートに手を入れるなんて、昼間から大胆」
+＠Zakuro,Q00503
+「Touching inside the skirt at daytime is very bold.」
 
-＠樹
-「誰のせいだ、誰の」
+#「誰のせいだ、誰の」
+＠Itsuki
+「Whose fault is it, Whose?」
 
-ゴソゴソとスカートの中で手を動かしている様は、傍で見たら変態以外の何者でもない。
+#ゴソゴソとスカートの中で手を動かしている様は、傍で見たら変態以外の何者でもない。
+#SCRIPT ADD KANJI
+Ｍoving my hand in the skirt like this, if you look it from other perspection, I just like some pervert.
 
-＠樹
-「ん、何だこの紐」
+#「ん、何だこの紐」
+＠Itsuki
+「Hmmm, What is this string?」
 
 @zakuro_warai
 
-＠ざくろ,Q00504
-「紐パンツ。引いたら解けちゃう」
+#「紐パンツ。引いたら解けちゃう」
+＠Zakuro,Q00504
+「Panties string. If you pull it, it will disolve.」
 
-＠樹
-「うわッ、アブね！」
+#「うわッ、アブね！」
+＠Itsuki
+「Uwa...., dangerous!」
 
-ゴソゴソッ…
+#ゴソゴソッ…
+#SCRIPT ADD KANJI
+Ｒustle...Rustle.....
 
 @zakuro_akire
 
-＠ざくろ,Q00505
-「あ……つっちー、お尻触ってる」
+#「あ……つっちー、お尻触ってる」
+＠Zakuro,Q00505
+「Ahn..... Tsucchi, you just touch my butt.」
 
-＠樹
-「ふ、不可抗力だ……っていうか、見えないんだからしょうがないだろっ」
+#「ふ、不可抗力だ……っていうか、見えないんだからしょうがないだろっ」
+＠Itsuki
+「It-, It is enviteable.......hey wait, I can't help it since I can't see.」
 
 @zakuro_warai
 
-＠ざくろ,Q00506
-「これで見える？」
+#「これで見える？」
+＠Zakuro,Q00506
+「Then you can see it now?」
 
-バサッ…
+#バサッ…
+#SCRIPT ADD KANJI
+Ｓlide......
 
-＠樹
-「捲るなッて！　うわッ、ちょっ…見え、見えてるッ！？」
+#「捲るなッて！　うわッ、ちょっ…見え、見えてるッ！？」
+＠Itsuki
+「Oi..... don't roll it up! Uwaa, wait i can..., I can see it!?」
 
-解けかけのパンツと垣間見える恥丘の光景から、慌てて目をそらす。
+#解けかけのパンツと垣間見える恥丘の光景から、慌てて目をそらす。
+#SCRIPT ADD KANJI
+Ｉ can see her private place upclose, I instantly avert my eyes.
+
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
 @miu
 
-＠美雨,B01158
-「あの……樹さん？　騒がしいですが何か―――」
+#「あの……Itsukiさん？　騒がしいですが何か―――」
+＠Miu,B01158
+「Err.. Itsuki? What is with that noise......」 
 
-＠美雨,B01159
-「え……？」
+#「え……？」
+＠Miu,B01159
+「Eh.....?」
 
-ちょうどそんなバッドタイミングで、美雨が部屋に入ってきてしまった。
+#ちょうどそんなバッドタイミングで、美雨が部屋に入ってきてしまった。
+#SCRIPT ADD KANJI
+Ａnd with that Miu entered the room in such a bad timing.
 
-＠樹
-「げッ……うそ…」
+#「げッ……うそ…」
+＠Itsuki
+「Er...... Shi---」
 
-＠美雨,B01160
-「あ……あの、えっと……」
+#「あ……あの、えっと……」
+＠Miu,B01160
+「Err.... Um....」
 
 @miu_tere
 
-＠美雨,B01161
-「す、すみません、聞いてなかったので……どうぞ続けてください」
+#「す、すみません、聞いてなかったので……どうぞ続けてください」
+＠Miu,B01161
+「I'm, I'm sorry, I think something happened.... Please continue what you're doing.」
 
-照れながら退室しようとする。
+#照れながら退室しようとする。
+#SCRIPT ADD KANJI
+Ｓhe tries to leave the room hiding her embarassment.
 
-＠樹
-「ちょッ、待て美雨！　違うッて」
+#「ちょッ、待て美雨！　違うッて」
+＠Itsuki
+「Wai-, Wait a sec, Miu! You're wrong.」
 
-＠ざくろ,Q00507
-「美雨も混ざる？」
+#「美雨も混ざる？」
+＠Zakuro,Q00507
+「Do you want to join us, Miu?」
 
 @miu_komaru
 
-＠美雨,B01162
-「い、いえっ、そんな急に言われても……」
+#「い、いえっ、そんな急に言われても……」
+＠Miu,B01162
+「N-, No, even you said it now.....」
 
-＠樹
-「話をこじれさすなッ！　何もしてないだろ！？」
+#「話をこじれさすなッ！　何もしてないだろ！？」
+＠Itsuki
+「Hey, Don't complicate the situation! We aren't doing anything you know !?」
 
-＠ざくろ,Q00508
-「つっちーが私にスカートを捲らせて、アソコを覗き込んでる現場にしか思えない」
+#「つっちーが私にスカートを捲らせて、アソコを覗き込んでる現場にしか思えない」
+＠Zakuro,Q00508
+「Tsucchi rolled up my skirt, and eventually want to see 'there'.」
 
-＠ざくろ,Q00509
-「……おしっこも、早く出さないともう漏れちゃいそう」
+#「……おしっこも、早く出さないともう漏れちゃいそう」
+＠Zakuro,Q00509
+「.......and pee, If I don't do it now, it's going to leak.」
 
-＠美雨,B01163
-「す、すぐ退室します。ごめんねざくろちゃん、それじゃ続けてて」
+#「す、すぐ退室します。ごめんねざくろちゃん、それじゃ続けてて」
+＠Miu,B01163
+「I'm, I'll be leaving right now. I'm sorry Zakuro-chan, then please continue.」
 
 @miu_
 
@@ -343,24 +476,30 @@ wait	1000
 @se07
 
 
-＠樹
-「待て待て美雨ッ、こいつも一緒に連れて行ってくれッ！」
+#「待て待て美雨ッ、こいつも一緒に連れて行ってくれッ！」
+＠Itsuki
+「Wait! Wait, Miu! Please bring along this kid!」
 
 嘆願むなしく、出て行ってしまう美雨。
+
+
 
 #CH（ざくろ・頬紅表情）
 @zakuro_niko
 
-＠ざくろ,Q00510
-「ん、んぅ……つっちー、出ちゃう……早く口開けて」
+#「ん、んぅ……つっちー、出ちゃう……早く口開けて」
+＠Zakuro,Q00510
+「Uhn...... Tsucchi, It's gonna come out..... Hurry open your mouth.」
 
-＠樹
-「開けるかッ！！」
+#「開けるかッ！！」
+＠Itsuki
+「As if I'm gonna do that!!」
 
 @zakuro_ikari
 
-＠ざくろ,Q00511
-「強情……せっかく出すんだから、受け止めて…」
+#「強情……せっかく出すんだから、受け止めて…」
+＠Zakuro,Q00511
+「Such obstinate..... I've been longing for this, at least receive it...」
 
 #SE36　勢いよく抱きつく音（バフッ！）
 @se36
@@ -369,70 +508,109 @@ wait	1000
 @bg_black
 
 
-＠樹
-「えッ！？　うわッ、何だ！？」
+#「えッ！？　うわッ、何だ！？」
+＠Itsuki
+「Eh!? Uwa, What the!?」
 
-視界が暗転し、それがスカートを被せられたからだと気付くのに一瞬。
+#視界が暗転し、それがスカートを被せられたからだと気付くのに一瞬。
+#SCRIPT ADD KANJI
+Ｉn instant my surrounding are pitch black, my head is covered by her skirt.
 
 頬に柔らかく温かい、下着越しのざくろの恥丘の感触を見極めた直後、
 
-＠ざくろ,Q00512
-「んっ！　あぅ……出ちゃう、おしっこ……つっちーの顔に…」
 
-＠樹
-「や、やめーッ！！　シャレになってないッ！！」
 
-ビクビクッと艶かしくざくろの下肢が震え……
 
-＠ざくろ,Q00513
-「んはぅっ……おしっこの波が、ゾクゾクって…」
 
-＠樹
-「―――――――ッッッッ！？！？！？」
+
+
+#「んっ！　あぅ……出ちゃう、おしっこ……つっちーの顔に…」
+＠Zakuro,Q00512
+「Nnh ! Ahn..... It's gonna come out, my pee... at Tsucchi's face...」
+
+#「や、やめーッ！！　シャレになってないッ！！」
+＠Itsuki
+「St-, Stop it !! Don't joke with me !!」
+
+#ビクビクッと艶かしくざくろの下肢が震え……
+#SCRIPT ADD KANJI
+Ｉ can feel her glossy legs shivering.....
+
+#「んはぅっ……おしっこの波が、ゾクゾクって…」
+＠Zakuro,Q00513
+「Ahnnn...... It's coming....」
+
+#「―――――――ッッッッ！？！？！？」
+＠Itsuki
+「................ wha- !?!?!?」
 
 @seh11
 
-そしてオレは今日、生まれて初めての体験をさせられてしまうのだった……
+#そしてオレは今日、生まれて初めての体験をさせられてしまうのだった……
+#SCRIPT ADD KANJI
+Ａnd today since my birth I finally experienced the real thing.......
 
-…………………
+#…………………
+#SCRIPT ADD KANJI
+　......................
 
-……………
 
-………
+#……………
+#SCRIPT ADD KANJI
+　.................
 
+
+#………
+#SCRIPT ADD KANJI
+　...........
+
+ 
 #■BG（空き室）
 @bg_akibeya
 
-＠樹
-「うぅ……汚された……」
+#「うぅ……汚された……」
+＠Itsuki
+「Uu...... I've been dirtied.....」
 
-＠樹
-「また一つ、開いちゃいけない禁断の扉を……」
+#「また一つ、開いちゃいけない禁断の扉を……」
+＠Itsuki
+「And for one more time, I've opened the forbidden door......」
 
-キュッキュッ……
+#キュッキュッ……
+#SCRIPT ADD KANJI
+Ｓqueeze.... Squeeze....
 
 @zakuro
 
-＠ざくろ,Q00514
-「つっちー、部屋の掃除」
+#「つっちー、部屋の掃除」
+＠Zakuro,Q00514
+「Tsucchi, Here you go.」
 
-特に気にしてなさそうに、いつものマイペースで床を拭いているざくろ。
+#特に気にしてなさそうに、いつものマイペースで床を拭いているざくろ。
+#SCRIPT ADD KANJI
+Ｗithout feeling anything, she begins to clean the floor.
 
-＠樹
-「これが……コソコソ尾行なんかした罰か」
+#「これが……コソコソ尾行なんかした罰か」
+＠Itsuki
+「It this.... the divine punishment for stalking?」
 
 @zakuro_warai
 
-＠ざくろ,Q00515
-「平気。じきに興奮に変わる」
+#「平気。じきに興奮に変わる」
+＠Zakuro,Q00515
+「It's alright. Your interests will change soon.」
 
-＠ざくろ,Q00516
-「他のお客みたいに」
+#「他のお客みたいに」
+＠Zakuro,Q00516
+「Like the other guests.」
 
-＠樹
-「はぁぁ……い、嫌過ぎる…」
+#「はぁぁ……い、嫌過ぎる…」
+＠Itsuki
+「Haaaa..... I-, I hate it so much.....」
 
-口の中にまで、今まで味わった事のない甘酸っぱさが広がっていた……
+#口の中にまで、今まで味わった事のない甘酸っぱさが広がっていた……
+#SCRIPT ADD KANJI
+Ｕp until now, I never taste such sweetness and bitterness this much.
 
 @zakuro_evup
 
@@ -445,21 +623,28 @@ return
 #■（２．を選択）
 label	day_0128_2
 
-＠樹
-（やめよう、悪趣味だ）
+#（やめよう、悪趣味だ）
+＠Itsuki
+(Cut it out, that's bad)
 
-＠ざくろ,Q00517
-「…………」
+#「…………」
+＠Zakuro,Q00517
+「..............」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
-きびすを返そうとする刹那、ざくろはトイレへと入っていった。
+#きびすを返そうとする刹那、ざくろはトイレへと入っていった。
+#SCRIPT ADD KANJI
+Ａnd Zakuro entered the toilet.
 
-＠樹
-「はぁぁ……」
+#「はぁぁ……」
+＠Itsuki
+「Haaa.........」
 
-附いて行ってたら、危うく変な趣味にされてしまうところだった。
+#附いて行ってたら、危うく変な趣味にされてしまうところだった。
+#SCRIPT ADD KANJI
+Ｉf i followed her, I will be plunged into wierd and dangerous hobby.
 
 #（スケジュール）
 @bg_black

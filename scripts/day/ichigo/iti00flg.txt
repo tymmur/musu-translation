@@ -90,7 +90,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #■（選択肢）
 #（１．疲れるのはちょっとな……）※これを選ぶと、いちごルートは発生しなくなります
 #（２．断ることも無いか）
-select sel,"疲れるのはちょっとな……","断ることも無いか"
+select sel,"It's a little tiring……","Don't refuse"
 if sel=0 then goto iti00flg_01_a
 if sel=1 then goto iti00flg_01_b
 #--------------------------------------------------

@@ -414,7 +414,7 @@ label	tanabata_00
 #■選択肢Ａ（選んだ短冊の子の好感度ＵＰ）
 #（１．右の笹）
 #（２．左の笹）
-select	sel,"右の笹","左の笹"
+select	sel,"the bamboo on the right","the bamboo on the left"
 if sel=0 then goto tanabata_01
 if sel=1 then goto tanabata_02
 
@@ -432,7 +432,7 @@ window_close
 #（３．ざくろの短冊を視姦）
 #（４．雫さんは何を書いたんだ？）
 #（５．やっぱり別の笹にしよう）※→選択肢Ａへ戻る
-select	sel,"みかんのを見てみようか","かりんのを失敬しよう","ざくろの短冊を視姦","雫さんは何を書いたんだ？","やっぱり別の笹にしよう"
+select	sel,"Look at Mikan's","Peek at Karin's","Zakuro's poetry card","What Shizuku wrote？","Meh, I'll look at the other bamboo"
 
 if sel=0 then goto tanabata_mikan
 if sel=1 then goto tanabata_karin
@@ -455,7 +455,7 @@ window_close
 #（４．美雨はどんな願いだろうか）
 #（５．やっぱり別の笹にしよう）※→選択肢Ａへ戻る
 
-select	sel,"いちごのはありすぎだ……","すいかは何を書いたんだろう","ゆずの短冊にしようか","美雨はどんな願いだろうか","やっぱり別の笹にしよう"
+select	sel,"Ichigo wrote way too much...","Wonder what Sukia wrote?","Yuzu's poetry card?","Wonder what Mui wished for?","Maybe I'll look at the other bamboo"
 
 if sel=0 then goto tanabata_ichigo
 if sel=1 then goto tanabata_suika
@@ -928,7 +928,7 @@ label	tanabata_skip
 
 if miryoku_chara_max<checkpoint1_miryoku then return
 
-#select	miryoku_chara,"みかん","いちご","かりん"	#デバッグ用
+#select	miryoku_chara,"Mikan","Ichigo","Karin"	#デバッグ用 #debug
 
 if miryoku_chara=0 then goto tanabata_mikan2
 if miryoku_chara=1 then goto tanabata_ichigo2

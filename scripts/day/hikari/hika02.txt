@@ -19,28 +19,34 @@ wait		1000
 @SE13			#お腹の音・弱（キュルル……）
 
 
-机に向かって仕事中、お腹が空腹を訴えた。
+#机に向かって仕事中、お腹が空腹を訴えた。
+#SCRIPT ADD KANJI
+Ｉ was in the midst of my work at my desk, when my stomach craved for food.
 
-＠樹
-「……腹減ったな」
+#「……腹減ったな」
+＠Itsuki
+「...I'm very hungry.」
 
 
 @bgm12			#BGM 12 : メインテーマ
 
 
-時間はそろそろお昼を指そうとしている。
+#時間はそろそろお昼を指そうとしている。
+#SCRIPT ADD KANJI
+Ｉt was about time for lunch.
 
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 
-＠樹
-「ん？　はい、どうぞ」
+#「ん？　はい、どうぞ」
+＠Itsuki
+「Hm? You may enter.」
 
-＠美雨,B01511
-「美雨です。失礼します」
-
+#「美雨です。失礼します」
+＠Miu,B01511
+「This is Miu. Sorry for the intrusion.」
 
 window_close
 #SE06　部屋のドア開く音（ガチャ）
@@ -53,47 +59,67 @@ wait		1000
 @miu2			#開_にこ
 
 
-＠美雨,B01512
-「お仕事中すみません」
+#「お仕事中すみません」
+＠Miu,B01512
+「I'm sorry for bothering your work.」
 
-＠樹
-「いいや、どうかした？」
+#「いいや、どうかした？」
+＠Itsuki
+「It's not a problem. What's the matter?」
 
-＠美雨,B01513
-「昼食ですけど、少し遅れてしまいそうなんです。少し材料が切れてしまいまして」
+#「昼食ですけど、少し遅れてしまいそうなんです。少し材料が切れてしまいまして」
+＠Miu,B01513
+「It is almost time for lunch, but it seems that it will need to be delayed. We don't have enough ingredients.」
 
-＠美雨,B01514
-「今から買いに行ってきますので、留守をお願いしてもよろしいでしょうか？」
+#★
+#「今から買いに行ってきますので、留守をお願いしてもよろしいでしょうか？」
+＠Miu,B01514
+「I am about to go shopping, is it okay for you to look after the house?」
 
-＠樹
-「ならオレが行くよ。いつも任せっぱなしだしさ」
+#★
+#「ならオレが行くよ。いつも任せっぱなしだしさ」
+＠Itsuki
+「In that case I'll go. You are always entrusted with shopping every day.」
 
 
 @miu_komaru		#開_困
 
+#★
+#「そんな。いいんですよ、これが私の仕事ですから」
+＠Miu,B01515
+「No,I'm not troubled at all, this is my job after all.」
 
-＠美雨,B01515
-「そんな。いいんですよ、これが私の仕事ですから」
+#★
+#ここに来てもう、何度となく美雨と交わしたやり取りだ。
+#SCRIPT ADD KANJI
+Ｓince coming here, I have exchanged numerous of these bickerings with Miu.
 
-ここに来てもう、何度となく美雨と交わしたやり取りだ。
+#★
+#だからこういう場合は強引に行動するべきだと、必勝法も知っている。
+#SCRIPT ADD KANJI
+Ｔhats why in these situations I should be more forceful, thats the key to success.
 
-だからこういう場合は強引に行動するべきだと、必勝法も知っている。
-
-＠樹
-「今いる物は？　商店街で大丈夫かな」
+#★
+#「今いる物は？　商店街で大丈夫かな」
+＠Itsuki
+「What do we have left? Will the shopping district be sufficient?」
 
 
 @miu2			#開_にこ
 
+#★
+#「あ、えっと……薄口のしょうゆと卵なんですけど」
+＠Miu,B01516
+「Aa, ummm... Light flavoured soy sauce and egg.」
 
-＠美雨,B01516
-「あ、えっと……薄口のしょうゆと卵なんですけど」
+#★
+#「了解。じゃあ行ってくる。美雨は準備してて」
+＠Itsuki
+「I understand. Then, I'm going now. Miu can start preparing for lunch.」
 
-＠樹
-「了解。じゃあ行ってくる。美雨は準備してて」
-
-席を立つと、美雨は諦めたようだ。
-
+#席を立つと、美雨は諦めたようだ。
+#SCRIPT ADD KANJI
+Ｍiu seems to have given up after seeing me stand.
 
 @miu_mu			#開_普通（無表情）
 wait		500
@@ -107,34 +133,44 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠美雨,B01517
-「……ふぅ」
+#「……ふぅ」
+＠Miu,B01517
+「...Fuu.」
 
-基本的に美雨は、オレの行動を阻害するようなことはしない。
+#★
+#基本的に美雨は、オレの行動を阻害するようなことはしない。
+#SCRIPT ADD KANJI
+Ｂasically, Miu dosen't get in my way when I act upon something.
 
 
 @miu2			#開_にこ
 
 
-＠美雨,B01518
-「分かりました。それでは申し訳ありませんが、よろしくお願いします」
+#「分かりました。それでは申し訳ありませんが、よろしくお願いします」
+＠Miu,B01518
+「I understand. Sorry for troubling you, and thank you.」
 
-＠樹
-「ああ。代わりに、今日も美味しいご飯を頼む」
+#★
+#「ああ。代わりに、今日も美味しいご飯を頼む」
+＠Itsuki
+「Aa. In return, please make a delicious meal today too.」
 
 
 @miu			#閉_にこ
 
 
-＠美雨,B01519
-「はい。それはお任せください」
+#「はい。それはお任せください」
+＠Miu,B01519
+「Yes. Leave it to me.」
 
 
 #■BG（黒）
 @bg_black
 
 
-美雨に見送られながら、オレは施設を後にした。
+#美雨に見送られながら、オレは施設を後にした。
+#SCRIPT ADD KANJI
+Ｍiu saw me off, and the institution was already behind me.
 
 
 @bg_sky			# 空
@@ -142,22 +178,31 @@ wait		2000
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
+#★
+#「さて、これならスーパーに行けば揃うな」
+＠Itsuki
+「Well then, I should be able to get everything from the super market.」
 
-＠樹
-「さて、これならスーパーに行けば揃うな」
+#到着して、オレは目的地を定め歩き出す。
+#SCRIPT ADD KANJI
+Ａfter I arrived, I decided my destination and walked to that place.
 
-到着して、オレは目的地を定め歩き出す。
+#★
+#人の波は平日にしては少し多かったが、歩き難いほどではない。
+#SCRIPT ADD KANJI
+Ａlthough theres more people there usually is on a weekday, it wasnt so bad as to cause me trouble getting around.
 
-人の波は平日にしては少し多かったが、歩き難いほどではない。
-
-それは、空腹も手伝って心持ち早足になっていた時だ。
-
+#★
+#それは、空腹も手伝って心持ち早足になっていた時だ。
+#SCRIPT ADD KANJI
+Ｔhat was when I slightly increased my pace due to my empty stomach.
 
 bgm_stop
 
 
-＠樹
-「お……あれは」
+#「お……あれは」
+＠Itsuki
+「T...That is.」
 
 
 @hikari_small
@@ -166,13 +211,17 @@ bgm_stop
 @hikari_komaru		#困.png
 
 
-＠ひかり,N00204
-「………」
+#「………」
+＠Hikari,N00204
+「.....」
 
-ひかりがまた一人で商店街を歩いていた。
+#ひかりがまた一人で商店街を歩いていた。
+#SCRIPT ADD KANJI
+「Hikari walked alone in the shopping district again」
 
-＠樹
-「ひかりちゃん、前に看板がある―――」
+#「ひかりちゃん、前に看板がある―――」
+＠Itsuki
+「Hikari-chan, there is a sign in front of you--」
 
 
 #SE05　物にぶつかる音（ガンッ！）
@@ -183,11 +232,14 @@ screen_vibration	500,16,16,16
 @hikari_kanashimi	#哀.png
 
 
-＠ひかり,N00205
-「……ッきゅぅ！」
+#「……ッきゅぅ！」
+＠Hikari,N00205
+「...Gyuu!」
 
-＠樹
-「って、ゆっくり歩いてもぶつかるんだもんな……」
+#★
+#「って、ゆっくり歩いてもぶつかるんだもんな……」
+＠Itsuki
+「You hit things even if you walk slowly...」
 
 
 window_close
@@ -240,17 +292,25 @@ wait		500
 @hikari_
 
 
-＠ひかり,N00206
-「…………」
+#「…………」
+＠Hikari,N00206
+「.....」★(dosaa is a sound effect of falling down, so sound of falling down in english? i dont know either... not slam, bang, whoop...:P)
 
-ドサッ……と、ひかりは足をふらつかせて倒れてしまった。
+#ドサッ……と、ひかりは足をふらつかせて倒れてしまった。
+#SCRIPT ADD KANJI
+Ｈikari's legs trembled, and she fell down.
 
-＠樹
-「え……ひかりちゃん？」
+#「え……ひかりちゃん？」
+＠Itsuki
+「E.... Hikari-chan?」
 
-倒れる、というのは初めてだった。
+#倒れる、というのは初めてだった。
+#SCRIPT ADD KANJI
+Ｓhe fell, for the first time.
 
-いや、それ以前に、今のはそんなに強くぶつかってもいない。
+#いや、それ以前に、今のはそんなに強くぶつかってもいない。
+#SCRIPT ADD KANJI
+Ｎo, compared to previously, the impact just now was not hard.
 
 
 @bg_black
@@ -263,22 +323,30 @@ wait		100
 @bg_syoutengai		# 商店街
 
 
-＠樹
-「どうした、ひかりちゃん！？」
+#「どうした、ひかりちゃん！？」
+＠Itsuki
+「What happenned, Hikari-chan?」
 
-＠ひかり,N00207
-「ん、ぅ……はぁっ…はぁっ………」
+#「ん、ぅ……はぁっ…はぁっ………」
+＠Hikari,N00207
+「Nn, u.... Hauu... Hau.....」
 
 
 @bgm06			#BGM 06 : 不安のテーマ
 
+#★
+#慌てて駆け寄ってみると、すぐぶつかって倒れたのではないと分かった。
+#SCRIPT ADD KANJI
+Ｉ quickly approached her, and realised immediately that she didn't fall due to the impact. 
 
-慌てて駆け寄ってみると、すぐぶつかって倒れたのではないと分かった。
+#★
+#熱い頬に苦しそうな呼吸。それに何故か服も濡れている。
+#SCRIPT ADD KANJI
+Ｈer cheeks were hot and she was breathing hard. Also, for some reason her clothes were wet.
 
-熱い頬に苦しそうな呼吸。それに何故か服も濡れている。
-
-＠樹
-「……熱があるぞ。ダメじゃないか、こんな状態で外に出てちゃ！」
+#「……熱があるぞ。ダメじゃないか、こんな状態で外に出てちゃ！」
+＠Itsuki
+「...You have fever. You're not supposed to walk around outside in this condition!」
 
 
 @hikari_large		# 近い
@@ -299,48 +367,67 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00208
-「っはぁ……ん、お兄しゃん……？」
+#「っはぁ……ん、お兄しゃん……？」
+＠Hikari,N00208
+「Ha....n, onii-shan....?」
 
 
 layer_movepass_init	l_hikari,0	#演出初期化
 
+#★
+#「家はどこだ。送って行ってやる。電話番号でもいいから」
+＠Itsuki
+「Tell me where you live, I'll take you home. A phone number would be good too.」
 
-＠樹
-「家はどこだ。送って行ってやる。電話番号でもいいから」
+#「う……ううん……だえも居ないの。おうち……」
+＠Hikari,N00209
+「U.....uun.... There wiz no one there. In my home....」
 
-＠ひかり,N00209
-「う……ううん……だえも居ないの。おうち……」
-
-＠樹
-「え……？」
+#「え……？」
+＠Itsuki
+「E......?」
 
 
 @hikari_naki		#泣.png
 
 
-＠ひかり,N00210
-「ひっく……グスッ…いないのぉ……ぉ父しゃんも、お母しゃんもぉ……」
+#「ひっく……グスッ…いないのぉ……ぉ父しゃんも、お母しゃんもぉ……」
+＠Hikari,N00210
+「Hikku.... Gusuu... No one is there.... Otou-shan, and okaa-shan too....」
 
-弱々しい声を紡ぎながら、ひかりが震え、目に涙が溜まっていく。
+#弱々しい声を紡ぎながら、ひかりが震え、目に涙が溜まっていく。
+#SCRIPT ADD KANJI
+Ｈikari's voice was very fragile, her body shivered, and tears gathered around her eyes.
 
-＠ひかり,N00211
-「はぁっ、ん……お父しゃん、お母しゃんん……グスッ、うぇえっ…」
+#「はぁっ、ん……お父しゃん、お母しゃんん……グスッ、うぇえっ…」
+＠Hikari,N00211
+「Haa,n..... otou-shan, okaa-shann..... Gusuu, ueeee...」
 
-＠樹
-「……わ、分かった。とにかく休まないと」
+#「……わ、分かった。とにかく休まないと」
+＠Itsuki
+「..... I, I understand. Anyway, you need to rest..」
 
-涙を流す事情もアレだが、とにかく今は熱の看病をしてやるのが先だ。
+#★
+#涙を流す事情もアレだが、とにかく今は熱の看病をしてやるのが先だ。
+#SCRIPT ADD KANJI
+Ｈer pitiful situation is one thing, but now what mattered the most was to nurse her fever.
 
-救急車……は早計な気がする。
+#救急車……は早計な気がする。
+#SCRIPT ADD KANJI
+Ａmbulance... But it was kind of overhasty.
 
-やはり施設に連れて帰るか……
+#★
+#やはり施設に連れて帰るか……
+#SCRIPT ADD KANJI
+Ｉ guess I should take her back to the facility... 
 
-＠樹
-「ひかりちゃん、ちょっとゴメンよ」
+#「ひかりちゃん、ちょっとゴメンよ」
+＠Itsuki
+「Hikari-chan, excuse me for a moment.」
 
-＠ひかり,N00212
-「んっく……はぁっ…」
+#「んっく……はぁっ…」
+＠Hikari,N00212
+「Nkku.... Haaa....」
 
 
 #■BG（黒）
@@ -351,7 +438,9 @@ wait		500
 @SE34			#SE34　外で走り去る音
 
 
-弱っているひかりちゃんを背中に担いで、オレは帰り道を急いだ。
+#弱っているひかりちゃんを背中に担いで、オレは帰り道を急いだ。
+#SCRIPT ADD KANJI
+Ｉ carried the weakened Hikari-chan on my back, and hurriedly went back to the institution.
 
 
 se_stop		0
@@ -366,8 +455,9 @@ wait		2000
 @bg_hiroma		# 広間
 
 
-＠樹
-「美雨っ、来てくれないか！」
+#「美雨っ、来てくれないか！」
+＠Itsuki
+「Miu, come here!」
 
 
 window_close
@@ -378,31 +468,37 @@ window_close
 @miu			#閉_にこ
 
 
-＠美雨,B01520
-「はいっ、どうかしましたか、樹さん」
+#「はいっ、どうかしましたか、樹さん」
+＠Miu,B01520
+「Yes, what happenned, Itsuki-san?」
 
 
 @miu2			#開_にこ
 
+#★
+#「……あら、そちらの子は？」
+＠Miu,B01521
+「.... oh, this child is?」
 
-＠美雨,B01521
-「……あら、そちらの子は？」
-
-＠樹
-「酷い熱を出してるんだ。悪いけど部屋を用意してくれないか。それと着替えも」
+#「酷い熱を出してるんだ。悪いけど部屋を用意してくれないか。それと着替えも」
+＠Itsuki
+「She has severe fever. I'm sorry, but could you prepare a room for her? And some clothes too.」
 
 
 @miu_komaru		#開_困
 
 
-＠美雨,B01522
-「あ、はいっ。ではこちらへお願いします」
+#「あ、はいっ。ではこちらへお願いします」
+＠Miu,B01522
+「A, yes. Then, this way please.」
 
 
 @miu_
 
-
-突然のことに驚きながらも、美雨の先導で部屋まで移動する。
+#★
+#突然のことに驚きながらも、美雨の先導で部屋まで移動する。
+#SCRIPT ADD KANJI
+Ｓurprised by this sudenness, Miu guided us to the room.
 
 
 @bg_black
@@ -415,51 +511,65 @@ wait		1000
 @bg_akibeya		# 空き部屋
 
 
-＠美雨,B01523
-「この部屋へ。シーツも替えたばかりですから」
+#「この部屋へ。シーツも替えたばかりですから」
+＠Miu,B01523
+「This room please. I just changed the bedsheet.」 
 
-＠樹
-「ありがとう、助かる」
+#「ありがとう、助かる」
+＠Itsuki
+「Thank you, you helped a lot.」
 
-空き部屋だが、ちゃんと清潔になっているベッドへひかりを寄せた。
+#★
+#空き部屋だが、ちゃんと清潔になっているベッドへひかりを寄せた。
+#SCRIPT ADD KANJI
+Ａlthough this room was empty, I moved Hikari closer to the freshly made bed.
 
-＠ひかり,N00213
-「ん……んぅっ…」
+#「ん……んぅっ…」
+＠Hikari,N00213
+「N.....Nnuu...」
 
-＠樹
-「下ろすぞ、大丈夫かひかりちゃん」
+#「下ろすぞ、大丈夫かひかりちゃん」
+＠Itsuki
+「I'll lower you down, are you okay, Hikari-chan?」
 
 
 @miu_ikari2		#開_怒
 
 
-＠美雨,B01524
-「………ひかり？」
+#「………ひかり？」
+＠Miu,B01524
+「.....Hikari?」
 
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 
-布団の上へゆっくりと、ひかりの身体を横たえた。
+#布団の上へゆっくりと、ひかりの身体を横たえた。
+#SCRIPT ADD KANJI
+Ｉ put Hikari's body gently on the bed.
 
-＠樹
-「美雨、着替えを――――美雨？」
-
+#「美雨、着替えを――――美雨？」
+＠Itsuki
+「Miu, the clothes------- Miu?」
 
 bgm_stop
 
 
-＠美雨,B01525
-「…………」
+#「…………」
+＠Miu,B01525
+「.........」
 
 
 @miu_
 
+#★
+#緊張した面持ちで、美雨がひかりを覗き込むように、スススッと移動してくる。
+#SCRIPT ADD KANJI
+Ｎervously, Miu moved as though to take a better peek.
 
-緊張した面持ちで、美雨がひかりを覗き込むように、スススッと移動してくる。
-
-＠樹
-「あぁ、この子はひかりちゃんって言って、偶然……」
+#「あぁ、この子はひかりちゃんって言って、偶然……」
+＠Itsuki
+「Aa, this girl is Hikari-chan, we met by chance....」
 
 
 @miu_middle		# 中間
@@ -474,74 +584,94 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠美雨,B01526
-「―――――ッッ！？！」
+#「―――――ッッ！？！」
+＠Miu,B01526
+「---------!?!」
 
-ひかりの姿を確認した刹那、美雨が驚きで引きつったように呼吸を呑み、身体を強張らせた。
+#ひかりの姿を確認した刹那、美雨が驚きで引きつったように呼吸を呑み、身体を強張らせた。
+#SCRIPT ADD KANJI
+Ｔhe moment Miu checked Hikari's figure, she drew her breath in surprise, and her body froze.                                    ←- This line is too complicated for me.
 
-＠樹
-「え……どうした、美雨？」
+#「え……どうした、美雨？」
+＠Itsuki
+「E.... What's wrong, Miu?」
 
 
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01527
-「…ッぁ……う、ぁあ……そんな……うそっ…」
+#「…ッぁ……う、ぁあ……そんな……うそっ…」
+＠Miu,B01527
+「...a.....u, aa.... That is.... no way...」
 
-＠樹
-「……美雨？　おい」
+#「……美雨？　おい」
+＠Itsuki
+「....Miu? Oi.」
 
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
 
-わなわなと震え、何かに驚愕して狼狽している。
-
+#わなわなと震え、何かに驚愕して狼狽している。
+#SCRIPT ADD KANJI
+Ｈer body trembled, and she somehow was confused and amazed.
 
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01528
-「…この子、どうして樹さんがっ……」
+#「…この子、どうして樹さんがっ……」
+＠Miu,B01528
+「..This girl, why is Itsuki-san...」
 
-＠樹
-「え、えっと……ちょっと前から少し知り合いの子なんだよ。ひかりちゃんって言う」
+#★
+#「え、えっと……ちょっと前から少し知り合いの子なんだよ。ひかりちゃんって言う」
+＠Itsuki
+「Ah, umm.... she's the daughter of an acquaintance I met a short while back. Her name is Hikari.」 
 
 
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01529
-「ひ…ひかり……そんな……どうしてっ……」
+#「ひ…ひかり……そんな……どうしてっ……」
+＠Miu,B01529
+「Hi.. Hikari... That's..... Why.....」
 
-＠樹
-「……美雨の知り合いなのか？」
+#「……美雨の知り合いなのか？」
+＠Itsuki
+「.....Is she Miu's acquaintance?」
 
 
 @miu_komaru		#開_困
 
 
-＠美雨,B01530
-「えッ――！？」
+#「えッ――！？」
+＠Miu,B01530
+「Ee--!?」
 
-驚愕を張り付かせた表情の美雨。
+#★
+#驚愕を張り付かせた表情の美雨。
+#SCRIPT ADD KANJI
+Ｍiu's expression filled with surprised.
 
-知り合いどころか、それ以上に何かあるのは明らかなのだが。
+#知り合いどころか、それ以上に何かあるのは明らかなのだが。
+#SCRIPT ADD KANJI
+Ａs far as being an acquaintance, it was very obvious that there was something more.
 
 
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01531
-「い、いえ……そういうわけでは…」
+#「い、いえ……そういうわけでは…」
+＠Miu,B01531
+「N, no... That is not the case.」
 
 
 @miu_ikari2		#開_怒
 
 
-＠美雨,B01532
-「あっ、着替えですね。すぐ用意します！」
+#「あっ、着替えですね。すぐ用意します！」
+＠Miu,B01532
+「Aa, the clothes for changing! I will prepare it immediately!」
 
 
 window_close
@@ -551,23 +681,32 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#★
+#冷静を取り繕う間もなく、慌てて部屋を出て行った。
+#SCRIPT ADD KANJI
+Ｗithout time to return to her normal composure, she quickly left room.
 
-冷静を取り繕う間もなく、慌てて部屋を出て行った。
 
-＠樹
-「……？　な、何だろ一体」
+#「……？　な、何だろ一体」
+＠Itsuki
+「.....? W, what the hell was that?」
 
-＠ひかり,N00214
-「うぅ……んっ……あ、あれ……。どこ……」
+#「うぅ……んっ……あ、あれ……。どこ……」
+＠Hikari,N00214
+「Uu...Nn.... H, huh.... Where...」
 
-＠樹
-「あ、ひかりちゃん、気がついたか？」
+#★★★ (i changed ah from a, but please take note of this, other similar things include ok/okay, ya/yeah)
+#「あ、ひかりちゃん、気がついたか？」
+＠Itsuki
+「Ah, Hikari-chan, your awake?」 
 
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
-
-半分朦朧としていたひかりが、薄く目を開けてオレを見ていた。
+#★
+#半分朦朧としていたひかりが、薄く目を開けてオレを見ていた。
+#SCRIPT ADD KANJI
+Ｈikari, half concious. Opened her eyes slightly and looked at me.
 
 
 window_close
@@ -576,28 +715,34 @@ window_close
 @hikari_shifuku
 @hikari_komaru		#困.png
 
+#★
+#「っはぁ…ぅん……お父しゃん…どこ、ここ……」
+＠Hikari,N00215
+「Hhaa... un.... Otou-shan... Where, is this...」
 
-＠ひかり,N00215
-「っはぁ…ぅん……お父しゃん…どこ、ここ……」
+#「ここは施設。熱が酷かったから運んだんだよ」
+＠Itsuki
+「This is the institution. You had a severe fever so I brought you here.」
 
-＠樹
-「ここは施設。熱が酷かったから運んだんだよ」
-
-＠樹
-「ひかりちゃんのお父さんは、ここにはいないんだけどね」
+#「ひかりちゃんのお父さんは、ここにはいないんだけどね」
+＠Itsuki
+「But Hikari-chan's otou-san isn't here.」
 
 
 @hikari			#普.png
 
 
-＠ひかり,N00216
-「ふぇ…？　っはぁ……お父しゃん…何言ってゆの……？　居るよ……」
+#「ふぇ…？　っはぁ……お父しゃん…何言ってゆの……？　居るよ……」
+＠Hikari,N00216
+「Fue...? Hhaa.... Otou-shan.... What are you saying....? He's here...」
 
-＠樹
-「オレはひかりちゃんのお父さんじゃないよ」
+#「オレはひかりちゃんのお父さんじゃないよ」
+＠Itsuki
+「I'm not Hikari-chan's otou-shan~」
 
-＠樹
-「とにかく。あんまり喋らないで、ゆっくり寝てなさい」
+#「とにかく。あんまり喋らないで、ゆっくり寝てなさい」
+＠Itsuki
+「Anyways, don't speak too much. Just relax and go to sleep.」
 
 
 @bg_black
@@ -606,46 +751,74 @@ wait		1000
 @bg_akibeya		# 空き部屋
 
 
-＠ひかり,N00217
-「んっ…んふぅ……ひーちゃん置いて、どこにも行かない……？」
+#「んっ…んふぅ……ひーちゃん置いて、どこにも行かない……？」
+＠Hikari,N00217
+「Nn... nfuu... you won't go anywhere, leaving hi-chan here...?」
 
-布団の中から、ひかりの小さい手が伸ばされてくる。
+#布団の中から、ひかりの小さい手が伸ばされてくる。
+#SCRIPT ADD KANJI
+Ｆrom inside the blankets, Hikari extended out her small hand.
 
-居ない父親の代わりに、オレがそれを握ってあげた。
+#居ない父親の代わりに、オレがそれを握ってあげた。
+#SCRIPT ADD KANJI
+Ｉn place of her non-existing father, I held her hand.
 
-＠樹
-「さ、無理せず休んでるんだ」
+#「さ、無理せず休んでるんだ」
+＠Itsuki
+「Don't overexert yourself and have a rest.」
 
-＠ひかり,N00218
-「えへ……うん…」
+#「えへ……うん…」
+＠Hikari,N00218
+「Ehe.... Un....」
 
-それで安心したように微笑むと、少し楽になったように、スゥスゥと眠り始めた。
+#★
+#それで安心したように微笑むと、少し楽になったように、スゥスゥと眠り始めた。
+#SCRIPT ADD KANJI
+Ａfter that, she smiled a little in relief. Her sorrow seems to have eased a little, and she started to sleep soundly. 
 
-……しかし、この子に一体何があったのだろうか。
+#……しかし、この子に一体何があったのだろうか。
+#SCRIPT ADD KANJI
+　...But, I wondered what happenned to this girl.
 
-服の湿り気は初め汗かと思ったが、それにしては濡れすぎだ。
+#服の湿り気は初め汗かと思ったが、それにしては濡れすぎだ。
+#SCRIPT ADD KANJI
+Ｉ thought the dampness of her clothes was caused by her sweat, but it was too wet to be caused by that.
 
-妥当なところでは、昨日の雨じゃないかと思うのだが……
+#★(
+#妥当なところでは、昨日の雨じゃないかと思うのだが……
+#SCRIPT ADD KANJI
+Ｔhe most logical reason that I could think of was... yesterday's rain, but...
 
-＠樹
-（それに確か、家に誰も居ないって）
+#★
+#（それに確か、家に誰も居ないって）
+＠Itsuki
+(but then... there was no one in her house)
 
-閉め出されて雨に濡れていたとなると、この熱も説明がつくが。
+#閉め出されて雨に濡れていたとなると、この熱も説明がつくが。
+#SCRIPT ADD KANJI
+Ｓhe couldn't enter her house and got wet because of the rain. This also explained the cause for her fever. 
 
-しかしそれは同時に、一番考えたくない可能性まで脳裏をよぎってしまう。
-
+#★
+#しかしそれは同時に、一番考えたくない可能性まで脳裏をよぎってしまう。
+#SCRIPT ADD KANJI
+Ｈowever in this case, the most unthinkable possibility comes to mind.
 
 bgm_stop
 
 
-＠樹
-「…………」
+#「…………」
+＠Itsuki
+「.......」
 
-＠樹
-「……遅いな、美雨」
+#★
+#「……遅いな、美雨」
+＠Itsuki
+「.... Miu, she's taking her time.」
 
-あれだけ慌てて出て行ったのだから、そろそろ戻ってもいいはずだが。
-
+#★
+#あれだけ慌てて出て行ったのだから、そろそろ戻ってもいいはずだが。
+#SCRIPT ADD KANJI
+Ｓhe left the room in a hurry, so it should be about time she returned.
 
 window_close
 #SE06　部屋のドア開く音（ガチャ）
@@ -658,31 +831,44 @@ wait		1000
 @miu_komaru		#開_困
 
 
-＠美雨,B01533
-「すみませんっ、お待たせしました！」
+#「すみませんっ、お待たせしました！」
+＠Miu,B01533
+「I'm sorry for making you wait!」
 
-ちょうど気になったとき、替えの子供服を手にした美雨が帰ってきた。
+#★
+#ちょうど気になったとき、替えの子供服を手にした美雨が帰ってきた。
+#SCRIPT ADD KANJI
+Ｊust when I was starting to get concerned, Miu came back with a set of children's clothing in her hand.
 
-＠樹
-「おかえり。ひかりちゃん、今寝てるから」
+
+#「おかえり。ひかりちゃん、今寝てるから」
+＠Itsuki
+「Welcome back. Hikari-chan is sleeping now.」
 
 
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01534
-「えっ……あ、はい」
+#「えっ……あ、はい」
+＠Miu,B01534
+「Ee... oh, Yes.」
 
 
 @miu_
 
 
-自分の声に気がついて、慌てて声量を潜める。
+#自分の声に気がついて、慌てて声量を潜める。
+#SCRIPT ADD KANJI
+Ｒealising the pitch of her own voice, she rushed to conceal it.
 
-同時に気持ちも少し落ち着いたようで、静かにベッドの方へ近寄ってきた。
+#★ (need rephrase, my bad)
+#同時に気持ちも少し落ち着いたようで、静かにベッドの方へ近寄ってきた。
+#SCRIPT ADD KANJI
+Ａt the same time she seems to have calmed down a little, and quietly got closer to the bed.  
 
-＠ひかり,N00219
-「…くぅ……ん、すぅ……」
+#「…くぅ……ん、すぅ……」
+＠Hikari,N00219
+「...Kuu....n, suu....」
 
 
 @miu_middle		# 中間
@@ -690,63 +876,82 @@ wait		1000
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01535
-「樹さん、その……この子、どうしたんですか…？　ご両親とかは……」
+#「樹さん、その……この子、どうしたんですか…？　ご両親とかは……」
+＠Miu,B01535
+「Itsuki-san, umm... this girl, what happenned to her? What about her parents?」
 
-＠樹
-「……分からない」
+#「……分からない」
+＠Itsuki
+「.... I don't know.」
 
-＠樹
-「ただ……ちょっと聞いた感じだと、この子に黙って家を空けてるみたいだ」
+#★
+#「ただ……ちょっと聞いた感じだと、この子に黙って家を空けてるみたいだ」
+＠Itsuki
+「But.... from what i heard from her, it seems like they moved without her.」
 
 
 @miu_komaru		#開_困
 
 
-＠美雨,B01536
-「えっ……」
+#「えっ……」
+＠Miu,B01536
+「E....」
 
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
-
-＠樹
-「雨で濡れてるし、少なくても昨日から。ずっと外に居たんじゃないかな」
+#★
+#「雨で濡れてるし、少なくても昨日から。ずっと外に居たんじゃないかな」
+＠Itsuki
+「She's wet from the rain, possibly since yesterday. She may have been outside this whole time.」 
 
 
 @miu_kanashimi2		#閉_哀
 
+#★
+#「そ、そんなっ……どうしてそんな、残酷っ―――……」
+＠Miu,B01537
+「Wh, why.... why would they, that's too cruel~~.....」
 
-＠美雨,B01537
-「そ、そんなっ……どうしてそんな、残酷っ―――……」
-
-言いかけてその言葉を、美雨は途中で飲み込んだ。
-
+#★
+#言いかけてその言葉を、美雨は途中で飲み込んだ。
+#SCRIPT ADD KANJI
+Ｍiu swallowed her words half way through her sentence.
 
 @miu_ikari2		#開_怒
 
-
-＠美雨,B01538
-「とにかく、両親がそんな状態なら尚更、私たちで看病しましょう」
+#必死
+#「とにかく、両親がそんな状態なら尚更、私たちで看病しましょう」
+＠Miu,B01538
+「Anyway, if this is the situation with the parents, then all the more reason that we take care of her.」
 
 
 #@miu_ikari		#閉_怒
 
 
-＠美雨,B01539
-「絶対………、絶対に治してあげないと」
+#「絶対………、絶対に治してあげないと」
+＠Miu,B01539
+「I must......, I must cure her.」
 
 
 @miu_
 
 
-＠樹
-「…………」
+#「…………」
+＠Itsuki
+「......」
 
-美雨がここまで必死に………怒りすら感じるほど真剣になっているのを見るのは、初めてだった。
+#★ (your translations are good too, thats why i didnt delete, we'l leave it for the proofreaders)
 
-＠樹
-「オレは出てるよ。何かあれば遠慮なく呼んでくれ」
+#美雨がここまで必死に………怒りすら感じるほど真剣になっているのを見るのは、初めてだった。
+#SCRIPT ADD KANJI
+Ｍiu being so frantic... it was my first time seeing her so serious, as though it was anger.
+
+#Miu was desperate now... It was my first time seeing her seriously angry like that.
+
+#「オレは出てるよ。何かあれば遠慮なく呼んでくれ」
+＠Itsuki
+「I'm going out. If something happens, don't refrain from calling me.」
 
 
 @miu_middle		# 中間
@@ -754,8 +959,9 @@ wait		1000
 @miu_ikari2		#開_怒
 
 
-＠美雨,B01540
-「はい。私もこの子の側に居ますから……」
+#「はい。私もこの子の側に居ますから……」
+＠Miu,B01540
+「Yes. I will be by this girl's side...」
 
 
 window_close
@@ -777,7 +983,7 @@ wait		1000
 @bg_door		# ドア前
 
 
-＠樹
+＠Itsuki
 「……大事にならなければいいが」
 
 これは熱ではなく、ひかりの家族の事だ。
@@ -788,7 +994,7 @@ wait		1000
 
 これがもし、もう〝迎えに来ない〟つもりの放置なら……
 
-＠樹
+＠Itsuki
 「考えすぎであって欲しいけどな……」
 
 嫌な考えを振り払い、部屋の前を離れた。
@@ -832,7 +1038,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01816
+＠Mikan,A01816
 「お腹すいたぁ～～……」
 
 
@@ -843,7 +1049,7 @@ wait		500
 @yuzu			#普
 
 
-＠ゆず,F00300
+＠Yuzu,F00300
 「うん……。いつもならもう食べ始めてる時間だよね」
 
 
@@ -854,7 +1060,7 @@ wait		500
 @karin_kanashimi	#哀
 
 
-＠かりん,P02254
+＠Karin,P02254
 「時間がもったいないわ……。せっかく色々出来る夜の時間なのに……」
 
 
@@ -884,10 +1090,10 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02159
+＠Ichigo,O02159
 「うぅ……ご飯」
 
-＠すいか,R00344
+＠Suika,R00344
 「いちごちゃん、大丈夫……？」
 
 
@@ -907,7 +1113,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02160
+＠Ichigo,O02160
 「ダメ……ご飯ないと死んじゃうんだよ……」
 
 
@@ -925,10 +1131,10 @@ layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠雫,S01175
+＠Shizuku,S01175
 「はぁぁ。せっかくたまの帰宅なのに、何でこうも飢えるかねぇ」
 
-＠樹
+＠Itsuki
 「雫さんが作れないからですよ」
 
 
@@ -939,7 +1145,7 @@ wait		500
 @SE38			#殴る音（バキッ！）
 
 
-＠樹
+＠Itsuki
 「ぐはッ！！」
 
 
@@ -955,7 +1161,7 @@ layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠雫,S01176
+＠Shizuku,S01176
 「はぁっ……しょうがない。出前でも頼もうか。樹もちで」
 
 
@@ -964,15 +1170,15 @@ layer_movepass_play	l_shizuku,0,play_once
 
 美雨が居ないと何も出来ない、なんとも情けない保護者ツインズだ。
 
-＠樹
+＠Itsuki
 「うぅ、出費が痛い……殴られたところもっと痛い……」
 
-＠ざくろ,Q01238
+＠Zakuro,Q01238
 「………」
 
 そんな中、ざくろが黙したまま席を立った。
 
-＠樹
+＠Itsuki
 「どうした、ざくろ？　何か頼みたい物あるか」
 
 
@@ -981,13 +1187,13 @@ layer_movepass_play	l_shizuku,0,play_once
 @zakuro			#普
 
 
-＠ざくろ,Q01239
+＠Zakuro,Q01239
 「ううん。私が作る。夕食」
 
-＠樹
+＠Itsuki
 「……え？」
 
-＠かりん,P02255
+＠Karin,P02255
 「へ……？」
 
 何か唐突な事を言い出すざくろ。
@@ -996,20 +1202,20 @@ layer_movepass_play	l_shizuku,0,play_once
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01240
+＠Zakuro,Q01240
 「お腹すいたから」
 
-＠かりん,P02256
+＠Karin,P02256
 「ちょ、ちょっと待ちなさいよ！？」
 
-＠みかん,A01817
+＠Mikan,A01817
 「ざくろちゃん、ご飯作れるのっ？」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01241
+＠Zakuro,Q01241
 「……微妙」
 
 
@@ -1021,7 +1227,7 @@ wait		500
 @karin_komikaru_ikari	#コミカル怒
 
 
-＠かりん,P02257
+＠Karin,P02257
 「却下よ！　私たちは青ノリが主食じゃないのよッ！」
 
 
@@ -1032,7 +1238,7 @@ wait		500
 @suika_yorokobi		#喜
 
 
-＠すいか,R00345
+＠Suika,R00345
 「あ、でもざくろちゃんは普通にご飯も作れるんだよ」
 
 
@@ -1043,7 +1249,7 @@ wait		500
 @shizuku_akire		#呆
 
 
-＠雫,S01177
+＠Shizuku,S01177
 「まぁね。美雨が作れないなら、出前かざくろの料理かの二択じゃない？」
 
 
@@ -1054,10 +1260,10 @@ wait		500
 @zakuro			#普
 
 
-＠ざくろ,Q01242
+＠Zakuro,Q01242
 「…………」
 
-＠樹
+＠Itsuki
 「え……。決めるのオレ？」
 
 ざくろをはじめ、子供達の視線が集まっていた。
@@ -1070,10 +1276,10 @@ wait		500
 @mikan			#普通
 
 
-＠みかん,A01818
+＠Mikan,A01818
 「だって、出前のお金出すのってお兄ちゃんなんだよね？」
 
-＠樹
+＠Itsuki
 「そっか。じゃあ、ざくろだ」
 
 
@@ -1084,10 +1290,10 @@ wait		500
 @karin_komikaru_ikari	#コミカル怒
 
 
-＠かりん,P02258
+＠Karin,P02258
 「あ、あなたねぇッ！　保護者のくせに私たちの命よりお金の方が大事だって言うのー！！」
 
-＠樹
+＠Itsuki
 「命ってオーバーな……」
 
 
@@ -1098,7 +1304,7 @@ wait		500
 @yuzu			#普
 
 
-＠ゆず,F00301
+＠Yuzu,F00301
 「……ざくろちゃん、一人で大丈夫？　手伝おうか」
 
 
@@ -1109,7 +1315,7 @@ wait		500
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01243
+＠Zakuro,Q01243
 「ううん。見ない方が良い」
 
 
@@ -1120,7 +1326,7 @@ wait		500
 
 ただ一言、ゆずの言葉に妙な返事をして………
 
-＠樹
+＠Itsuki
 「見ない方がいいって……何を料理する気なんだ」
 
 
@@ -1129,7 +1335,7 @@ wait		500
 @karin_kanashimi	#哀
 
 
-＠かりん,P02259
+＠Karin,P02259
 「あ、あたま痛くなってきたわ………」
 
 
@@ -1159,7 +1365,7 @@ wait		1000
 @zakuro			#普
 
 
-＠ざくろ,Q01244
+＠Zakuro,Q01244
 「出来た」
 
 
@@ -1169,7 +1375,7 @@ wait		1000
 
 ざくろが食堂に現れ、その仕上がった料理をテーブルに並べ始めた。
 
-＠樹
+＠Itsuki
 「…………」
 
 
@@ -1180,7 +1386,7 @@ wait		500
 @mikan			#普通
 
 
-＠みかん,A01819
+＠Mikan,A01819
 「………」
 
 
@@ -1191,7 +1397,7 @@ wait		500
 @yuzu			#普
 
 
-＠ゆず,F00302
+＠Yuzu,F00302
 「…………」
 
 
@@ -1202,7 +1408,7 @@ wait		500
 @karin			#普通
 
 
-＠かりん,P02260
+＠Karin,P02260
 「……普通ね」
 
 
@@ -1224,7 +1430,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02161
+＠Ichigo,O02161
 「やっとご飯食べれるよぉッ。早く早く！」
 
 微妙な緊張感の中、いちごの声が明るく響く。
@@ -1237,7 +1443,7 @@ wait		500
 @zakuro			#普
 
 
-＠ざくろ,Q01245
+＠Zakuro,Q01245
 「青ノリも」
 
 
@@ -1257,7 +1463,7 @@ wait		500
 @yuzu			#普
 
 
-＠ゆず,F00303
+＠Yuzu,F00303
 「……どれも青ノリ必要ないよね」
 
 
@@ -1268,7 +1474,7 @@ wait		500
 @shizuku_yorokobi	#喜
 
 
-＠雫,S01178
+＠Shizuku,S01178
 「気にしない気にしない。さ、食べるか」
 
 
@@ -1286,7 +1492,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02162
+＠Ichigo,O02162
 「いただきまーす！！」
 
 
@@ -1297,7 +1503,7 @@ wait		500
 @suika_yorokobi		#喜
 
 
-＠すいか,R00346
+＠Suika,R00346
 「いただきます」
 
 
@@ -1327,10 +1533,10 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02163
+＠Ichigo,O02163
 「おいしーっ。ざくろ、やっぱりお料理上手いねー♪」
 
-＠ざくろ,Q01246
+＠Zakuro,Q01246
 「そう？　微妙」
 
 
@@ -1341,7 +1547,7 @@ wait		500
 @suika_yorokobi		#喜
 
 
-＠すいか,R00347
+＠Suika,R00347
 「そんなことないよ。味付けもちゃんと出来てるし」
 
 
@@ -1352,7 +1558,7 @@ wait		500
 @shizuku_yorokobi	#喜
 
 
-＠雫,S01179
+＠Shizuku,S01179
 「美雨が居ないときはやっぱり、ざくろが料理当番が一番無難よねぇ」
 
 
@@ -1374,7 +1580,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01820
+＠Mikan,A01820
 「あっ。本当に美味しいよ、これ」
 
 
@@ -1385,14 +1591,14 @@ wait		500
 @yuzu_yorokobi		#喜
 
 
-＠ゆず,F00304
+＠Yuzu,F00304
 「うん。ほんとだ。ざくろちゃん上手だよ」
 
 
 @yuzu_
 
 
-＠樹
+＠Itsuki
 「………じゃあ、オレ達も食ってみるか？　かりん」
 
 
@@ -1401,7 +1607,7 @@ wait		500
 @karin			#普通
 
 
-＠かりん,P02261
+＠Karin,P02261
 「え、ええ……。空腹は最高の調味料って言うし」
 
 
@@ -1411,7 +1617,7 @@ wait		500
 
 結局全員が食べ始めたのを見て、とりあえずスープから手を付けてみた。
 
-＠樹
+＠Itsuki
 「…………お？」
 
 特別美味しいと言うほどでもない。
@@ -1426,7 +1632,7 @@ wait		500
 @karin_niko		#にこ
 
 
-＠かりん,P02262
+＠Karin,P02262
 「美味しい………」
 
 
@@ -1437,7 +1643,7 @@ wait		500
 @mikan_warai		#笑
 
 
-＠みかん,A01821
+＠Mikan,A01821
 「ね？　すごいよね」
 
 
@@ -1454,19 +1660,19 @@ wait		500
 @yuzu_yorokobi		#喜
 
 
-＠ゆず,F00305
+＠Yuzu,F00305
 「ざくろちゃん、このスープに入ってるお肉って何？　美味しいけどちょっと固いかな」
 
 何とはなしにゆずが、スープに入っている肉を摘んだ。
 
-＠ざくろ,Q01247
+＠Zakuro,Q01247
 「……秘密」
 
 
 @yuzu			#普
 
 
-＠ゆず,F00306
+＠Yuzu,F00306
 「え……？」
 
 
@@ -1477,7 +1683,7 @@ wait		500
 @zakuro			#普
 
 
-＠ざくろ,Q01248
+＠Zakuro,Q01248
 「知らなくても食べられるでしょ？」
 
 
@@ -1495,7 +1701,7 @@ wait		500
 @mikan			#普通
 
 
-＠みかん,A01822
+＠Mikan,A01822
 「この野菜に混じってる黒いのは？　コリコリしてて、辛いやつ」
 
 
@@ -1506,17 +1712,17 @@ wait		500
 @zakuro			#普
 
 
-＠ざくろ,Q01249
+＠Zakuro,Q01249
 「秘密」
 
-＠樹
+＠Itsuki
 「そもそもこれは何のスープなんだ。美味いけど味が分からん」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01250
+＠Zakuro,Q01250
 「……秘密。知らなくても飲める」
 
 
@@ -1527,14 +1733,14 @@ wait		500
 @karin_ikari		#怒
 
 
-＠かりん,P02263
+＠Karin,P02263
 「な、もぉーッ！　何よ秘密ってッ、余計気になるでしょッ！」
 
 
 @karin_
 
 
-＠樹
+＠Itsuki
 「いや、やっぱりやめよう。何か怖いし……。材料が何であれ、美味ければ正義だ」
 
 結局は、それが現状で出せる一番の答えなのかもしれない。
@@ -1545,11 +1751,11 @@ wait		500
 @ichigo_warai		#笑
 
 
-＠いちご,O02164
+＠Ichigo,O02164
 「おかわりー！」
 
 
-＠ざくろ,Q01251
+＠Zakuro,Q01251
 「………」
 
 
@@ -1567,7 +1773,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02165
+＠Ichigo,O02165
 「わ、わーッ！　いちごのおかずがーーッ！？」
 
 
@@ -1578,7 +1784,7 @@ wait		500
 @zakuro			#普
 
 
-＠ざくろ,Q01252
+＠Zakuro,Q01252
 「……？　青ノリが欲しいんじゃなかったの？」
 
 紆余曲折あったが、食事はいつもどおり騒がしく進んでいった。
@@ -1598,37 +1804,37 @@ wait		1000
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 
-＠雫,S01180
+＠Shizuku,S01180
 「で、どうなんだい。その弱ってるのを良い事に樹がさらって来た子は」
 
-＠樹
+＠Itsuki
 「さらってません。看病で連れてきたんです」
 
-＠樹
+＠Itsuki
 「さっき見たらグッスリ眠ってましたよ。もう大丈夫だと思います」
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S01181
+＠Shizuku,S01181
 「へぇ、そう。美雨が付きっ切りだから、もっと悪いのかと思ってたけど」
 
-＠樹
+＠Itsuki
 「ええ。オレも、少し休むように言ってみたんですけど」
 
 
 @shizuku		#普通
 
 
-＠雫,S01182
+＠Shizuku,S01182
 「まぁ美雨はかいがいしい上に、人一倍母性本能が強い子だからね」
 
 
 @shizuku_yorokobi	#喜
 
 
-＠雫,S01183
+＠Shizuku,S01183
 「知らない子でも、やっぱり熱でうなされてたりすると心配なんでしょ」
 
 
@@ -1649,14 +1855,14 @@ wait		1000
 @suika			#普
 
 
-＠すいか,R00348
+＠Suika,R00348
 「私もさっき様子を見に行きましたけど、本当に心配そうでしたね、美雨さん」
 
 
 @suika_kanashimi	#哀
 
 
-＠すいか,R00349
+＠Suika,R00349
 「何だかまるで、自分の子供を看病してるお母さんみたいに必死で」
 
 
@@ -1667,42 +1873,42 @@ wait		500
 @shizuku		#普通
 
 
-＠雫,S01184
+＠Shizuku,S01184
 「……お母さん？」
 
-＠樹
+＠Itsuki
 「そう言われると、そんな感じかもな。自分の事みたいに悲痛そうに心配してて」
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S01185
+＠Shizuku,S01185
 「ふ～ん……自分の娘みたい、ねぇ」
 
 雫さんは何か気になるのか、独り言のように繰り返す。
 
-＠樹
+＠Itsuki
 「母性本能ってやつですね。美雨はきっと優しいお母さんになるんだろうな」
 
-＠ざくろ,Q01253
+＠Zakuro,Q01253
 「意外と大胆なことを言うのね、つっちーって」
 
 
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S01186
+＠Shizuku,S01186
 「ふふん、直接言ってあげな、それ。真っ赤になって照れるよきっと」
 
-＠樹
+＠Itsuki
 「本人を前にしたら恥ずかしいに決まってるでしょッ、オレも」
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S01187
+＠Shizuku,S01187
 「ま、あたしには縁のない物だけどね」
 
 
@@ -1719,17 +1925,17 @@ wait		500
 @shizuku		#普通
 
 
-＠雫,S01188
+＠Shizuku,S01188
 「それじゃ、あたしは部屋に戻ってるから。後は頼むよ樹」
 
-＠樹
+＠Itsuki
 「要約すると、自分はさっさと部屋に帰るから片付けをしといてくれ、ってことですね」
 
 
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S01189
+＠Shizuku,S01189
 「そ。物分りがよくて助かるよ。じゃあね」
 
 
@@ -1766,10 +1972,10 @@ wait		1000
 
 普段使われていない部屋で、美雨はまだひかりの側に座っていた。
 
-＠ひかり,N00220
+＠Hikari,N00220
 「すぅ……ん…くぅ……」
 
-＠美雨,B01541
+＠Miu,B01541
 「………」
 
 
@@ -1780,19 +1986,19 @@ wait		1000
 
 心配する峠が無事終わっていることは美雨も知っていた。
 
-＠美雨,B01542
+＠Miu,B01542
 「…………」
 
 今は、また別の気持ちで、眠るひかりの姿をジッと見つめている。
 
-＠ひかり,N00221
+＠Hikari,N00221
 「ん…むにゅ……お父しゃん……お母しゃん……」
 
 
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01543
+＠Miu,B01543
 「……っ」
 
 小さく寝言をこぼして、ひかりが小さく身体をよじらせる。
@@ -1803,7 +2009,7 @@ wait		1000
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01544
+＠Miu,B01544
 「ひかりっ………」
 
 感極まってささやくその声には、これ以上無いほど大きな想いが込められていた。
@@ -1812,7 +2018,7 @@ wait		1000
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01545
+＠Miu,B01545
 「…こんなに大きくなってっ………あぁ……ひかりっ…」
 
 もうこれで何度目にもなる涙で、再び美雨の視界が滲んでいった。
@@ -1821,24 +2027,24 @@ wait		1000
 
 ひかりの姿を見つめるたびに、次々と溢れてくる。
 
-＠ひかり,N00222
+＠Hikari,N00222
 「ん、くぅ……うん…お母しゃん……」
 
 
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01546
+＠Miu,B01546
 「…また会える日が来るなんて……こんな、成長したあなたにっ……ああぁ…」
 
-＠美雨,B01547
+＠Miu,B01547
 「もう離したくないっ……ずっと一緒にいたい、ひかりっ……！」
 
 
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01548
+＠Miu,B01548
 「うっ……うぅっ…あ……うあぁぁあぁあッ…！」
 
 
@@ -1851,7 +2057,7 @@ wait		1000
 
 そして決して、美雨が人前でこの涙を見せることも無い。
 
-＠美雨,B01549
+＠Miu,B01549
 「うあぁあッ、あぁぁああッ…！　ひかりぃッ……！　ひかりぃッ…！」
 
 悲痛な嗚咽で、我慢せず、いくらでも泣かなくてはならない。
@@ -1866,7 +2072,7 @@ wait		1000
 @bg_rouka_n		# 廊下(夜)
 
 
-＠雫,S01190
+＠Shizuku,S01190
 「…………」
 
 雫はドアの少し開いた隙間から、そんな美雨の様子を見ていた。
@@ -1877,7 +2083,7 @@ wait		1000
 @shizuku_akire		#呆
 
 
-＠雫,S01191
+＠Shizuku,S01191
 「ひかり、か……」
 
 
@@ -1892,7 +2098,7 @@ wait		1000
 @shizuku		#普通
 
 
-＠雫,S01192
+＠Shizuku,S01192
 「……まぁ、今は大丈夫だろうけど」
 
 普段の彼女なら、こんなドアの影くらいの気配、すぐに察知できるはずだった。
@@ -1903,7 +2109,7 @@ wait		1000
 @shizuku_akire		#呆
 
 
-＠雫,S01192a
+＠Shizuku,S01192a
 （あの子が誰なのか……。まぁ大体の想像はつくけどね）
 
 

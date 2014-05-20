@@ -3,9 +3,9 @@ bgm_stop
 @bg_black
 
 #--------------------------------------------------
-#ひかりルート２（ひかりとの新生活）
-#発生条件：ひかりルート１が終了
-#発生時期：ひかりルート１の翌日、強制発生
+#Hikariルート２（Hikariとの新生活）
+#発生条件：Hikariルート１が終了
+#発生時期：Hikariルート１の翌日、強制発生
 #--------------------------------------------------
 
 
@@ -14,7 +14,9 @@ bgm_stop
 @bgm12			#BGM 12 : メインテーマ
 
 
-今日も朝の用意をして、食堂に下りてきた。
+#今日も朝の用意をして、食堂に下りてきた。
+#SCRIPT ADD KANJI
+Ｔhis morning I prepared myself for the day, and I went down to the dining hall.
 
 
 @mikan_small
@@ -29,8 +31,9 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01823
-「お兄ちゃん、おはよう」
+#「お兄ちゃん、おはよう」
+＠Mikan,A01823
+「Onii-chan, good morning.」
 
 
 @chara_clear		#保険
@@ -47,20 +50,25 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02166
-「おはよー！」
+#「おはよー！」
+＠Ichigo,O02166
+「Morning-!」
 
 
 @ichigo_
 
 
-＠樹
-「おはよ」
+#「おはよ」
+＠Itsuki
+「Good morning.」
 
-子供たちと挨拶を交わしながら、視線を食堂とキッチンの方へめぐらせた。
+#子供たちと挨拶を交わしながら、視線を食堂とキッチンの方へめぐらせた。
+#SCRIPT ADD KANJI
+Ｔhe children exchanged their greetings, and I glanced at the people in the dining hall and the kitchen.
 
-＠樹
-「美雨は？　朝食はあるみたいだけど」
+#「Miuは？　朝食はあるみたいだけど」
+＠Itsuki
+「Where is Miu? I thought I saw her in breakfast.」
 
 
 @suika_small
@@ -68,8 +76,9 @@ layer_movepass_play	l_ichigo,0,play_once
 @suika			#普
 
 
-＠すいか,R00350
-「今はまた、昨日の子の部屋にいるみたいです」
+#「今はまた、昨日の子の部屋にいるみたいです」
+＠Suika,R00350
+「Right now, it seems that she is in yesterday's girl's room again.」
 
 
 @yuzu_small
@@ -77,11 +86,13 @@ layer_movepass_play	l_ichigo,0,play_once
 @yuzu			#普
 
 
-＠ゆず,F00307
-「でももう大丈夫みたいですよ。この朝食も、その子の分と合わせて作ってましたから」
+#「でももう大丈夫みたいですよ。この朝食も、その子の分と合わせて作ってましたから」
+＠Yuzu,F00307
+「But, it looks like she is already alright. This breakfast also, she made that child's share.」
 
-＠樹
-「そうか。じゃあだいぶ落ち着いたんだな、美雨も」
+#「そうか。じゃあだいぶ落ち着いたんだな、Miuも」
+＠Itsuki
+「I see. Then, Miu also has calmed down a lot.」
 
 
 @chara_clear		#保険
@@ -91,17 +102,21 @@ wait		500
 @shizuku_akire		#呆
 
 
-＠雫,S01193
-「いや～、それはどうだろうねぇ」
+#「いや～、それはどうだろうねぇ」
+＠Shizuku,S01193
+「Well~, I wonder how about that.」
 
-雫さんが冗談っぽく横から口を挟んだ。
+#Shizukuさんが冗談っぽく横から口を挟んだ。
+#SCRIPT ADD KANJI
+Ｓhizuku-san inserted a joke from her mouth from the side of the room.
 
 
 #CH（立ち絵なし）
 
 
-＠ひかり,N00223
-「わーっ、良い匂いー♪」
+#「わーっ、良い匂いー♪」
+＠Hikari,N00223
+「わ＝uっ, Delicious smell-♪」
 
 
 window_close
@@ -109,21 +124,25 @@ window_close
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 
 
-＠美雨,B01550
-「あ、走らないでっ、危ないわ」
+#「あ、走らないでっ、危ないわ」
+＠Miu,B01550
+「A, don't walk too fast, it's dangerous.」
 
 
 @shizuku_yorokobi	#喜
 
 
-＠雫,S01194
-「っと、噂をすればだ」
+#「っと、噂をすればだ」
+＠Shizuku,S01194
+「That, is what I come with from rumors.」
 
 
 @shizuku_
 
 
-廊下から元気な声が、食堂へ聞こえてきた。
+#廊下から元気な声が、食堂へ聞こえてきた。
+#SCRIPT ADD KANJI
+Ｗe could hear lively voice in the corridor from the dining hall.
 
 
 #CH（ここから立ち絵あり）
@@ -143,13 +162,17 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00224
-「あしゃご飯ー！　あっ…♪」
+#「あしゃご飯ー！　あっ…♪」
+＠Hikari,N00224
+「Morning meal-! Aa...♪」
 
-＠樹
-「お、ひかりちゃん。元気になったみたいだな」
+#「お、Hikariちゃん。元気になったみたいだな」
+＠Itsuki
+「O, Hikari-chan. It seems you have become healthy.」
 
-中へ駆け込んで来たひかりが、笑顔を見せる。
+#中へ駆け込んで来たHikariが、笑顔を見せる。
+#SCRIPT ADD KANJI
+Ｈikari entered the crowded room by walking fast, and she showed a smile.
 
 
 @hikari_warai		#笑.png
@@ -162,8 +185,9 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00225
-「お父しゃんだー！」
+#「お父しゃんだー！」
+＠Hikari,N00225
+「Otou-shan-!」
 
 
 window_close
@@ -180,13 +204,15 @@ wait			100
 screen_whitein		1
 
 
-＠樹
+＠Itsuki
 「えっ……？」
 
-＠美雨,B01551
+＠Miu,B01551
 「っ！？」
 
-そのままオレの胸に飛び込んできた。
+#そのままオレの胸に飛び込んできた。
+#SCRIPT ADD KANJI
+Ａfter that, she jumped straight to my chest.
 
 
 @zakuro_small
@@ -202,36 +228,40 @@ screen_whitein		1
 @bg_dining		# 食堂
 
 
-＠樹
-「え、お父さん……？」
+#「え、お父さん……？」
+＠Itsuki
+「E, otou-san...?」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01254
+＠Zakuro,Q01254
 「………」
 
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
 
-＠いちご,O02167
-「パパが、この子のパパだったの？」
+#「パパが、この子のパパだったの？」
+＠Ichigo,O02167
+「Papa was this child's papa?」
 
 
 @karin_bubetsu		#侮蔑
 
 
-＠かりん,P02264
-「ふっ……ついにやってしまったのね」
+#「ふっ……ついにやってしまったのね」
+＠Karin,P02264
+「Fu... It is just revealed, right...」
 
 
 screen_vibration	500,16,16,16
 
 
-＠樹
-「ちょ、待てーッ！　知らんぞオレはッ！」
+#「ちょ、待てーッ！　知らんぞオレはッ！」
+＠Itsuki
+「Wa-, wait-! I don't know anything about this!」
 
 
 @chara_clear		#保険
@@ -241,8 +271,9 @@ wait		500
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01552
-「あ……ひかりちゃん、その人は……」
+#「あ……Hikariちゃん、その人は……」
+＠Miu,B01552
+「A... Hikari-chan, that person is...」
 
 
 @chara_clear		#保険
@@ -252,13 +283,17 @@ wait		500
 @hikari			#普.png
 
 
-＠ひかり,N00226
-「……？　お父しゃん、知ららい人がいっぱい居ゆよ。だぁれ？」
+#「……？　お父しゃん、知ららい人がいっぱい居ゆよ。だぁれ？」
+＠Hikari,N00226
+「......? Otou-shan, a lot of strangers is here. Who are they?」
 
-周りの子供たちをグルリと見渡すひかり。
+#周りの子供たちをグルリと見渡すHikari。
+#SCRIPT ADD KANJI
+Ｔhe children around me looked at Hikari.
 
-＠樹
-「これはいったい………美雨？」
+#「これはいったい………Miu？」
+＠Itsuki
+「What the hell is this...... Miu?」
 
 
 @chara_clear		#保険
@@ -268,17 +303,21 @@ wait		500
 @miu_komaru		#開_困
 
 
-＠美雨,B01553
-「……ッ、あ、は、はいっ」
+#「……ッ、あ、は、はいっ」
+＠Miu,B01553
+「……ッ、あ、Y, yes.」
 
-戸惑うオレ以上に、美雨がその呼称に驚き混乱しているようだった。
+#戸惑うオレ以上に、Miuがその呼称に驚き混乱しているようだった。
+#SCRIPT ADD KANJI
+Ｉ was confused being called like that, and moreover it seemed Miu was bewildered when she heard what I was called.
 
 
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01554
-「実は目が覚めてから……この子、勘違いをしているようで……」
+#「実は目が覚めてから……この子、勘違いをしているようで……」
+＠Miu,B01554
+「The truth is, since she opened her eyes... This child, she seems to have a misunderstanding...」
 
 
 @chara_clear		#保険
@@ -289,13 +328,17 @@ wait		500
 @hikari			#普.png
 
 
-＠ひかり,N00227
-「ねぇお父しゃん。お母しゃんが元気ないの。どうして？」
+#「ねぇお父しゃん。お母しゃんが元気ないの。どうして？」
+＠Hikari,N00227
+「Hey, otou-shan. Okaa-shan doesn't look well. Why's that?」
 
-＠樹
-「……お母さんって」
+#「……お母さんって」
+＠Itsuki
+「... Okaa-shan is...」
 
-ひかりの視線の先には、その場で佇んでいる美雨しか居ない。
+#Hikariの視線の先には、その場で佇んでいるMiuしか居ない。
+#SCRIPT ADD KANJI
+Ｔhe one existed on Hikari's sight, was no one but Miu who had been standing there.
 
 
 @chara_clear		#保険
@@ -309,18 +352,21 @@ wait		500
 @mikan_odoroki		#驚
 
 
-＠すいか,R00351
-「えっ、えぇえーー！？」
+#「えっ、えぇえーー！？」
+＠Suika,R00351
+「Ee, eee--!?」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01824
-「お兄ちゃんと美雨さん、子供居たの！？」
+#「お兄ちゃんとMiuさん、子供居たの！？」
+＠Mikan,A01824
+「Onii-chan and Miu-san have a child!?」
 
-＠樹
-「そんなわけあるか！　美雨、勘違いっていったい」
+#「そんなわけあるか！　Miu、勘違いっていったい」
+＠Itsuki
+「There's no way that's happening! Miu, what's with this misunderstanding?」
 
 
 @chara_clear		#保険
@@ -330,13 +376,17 @@ wait		500
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01555
-「あの……わ、私をお母さんってっ……。樹さんが、お父さんらしいです」
+#「あの……わ、私をお母さんってっ……。Itsukiさんが、お父さんらしいです」
+＠Miu,B01555
+「Hmm... I, I am the okaa-san... Itsuki-san is like an otou-san.」
 
-説明しながら、美雨が何かをこらえるように呼吸を震わせる。
+#説明しながら、Miuが何かをこらえるように呼吸を震わせる。
+#SCRIPT ADD KANJI
+Ａs she was explaning, Miu looked like repressing something because of her shaking breath.
 
-＠樹
-「ひかりちゃん。オレだよ。分からないか？」
+#「Hikariちゃん。オレだよ。分からないか？」
+＠Itsuki
+「Hikari-chan. This is me. Do you know who I am?」
 
 
 @chara_clear		#保険
@@ -346,25 +396,29 @@ wait		500
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00228
-「……？　お父しゃんっ！」
+#「……？　お父しゃんっ！」
+＠Hikari,N00228
+「...? Otou-shan!」
 
-＠樹
-「いや、だから……」
+#「いや、だから……」
+＠Itsuki
+「No, like I said...」
 
 
 @hikari			#普.png
 
 
-＠ひかり,N00229
-「ねぇお父しゃん。どうしてひーちゃんのこと『ひかりちゃん』って呼ぶの？」
+#「ねぇお父しゃん。どうしてひーちゃんのこと『Hikariちゃん』って呼ぶの？」
+＠Hikari,N00229
+「Otou-shan, why do you call Hi-chan "Hikari-chan"?」
 
 
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00230
-「ひーちゃんはひーちゃんなの。ひーちゃんって呼んで」
+#「ひーちゃんはひーちゃんなの。ひーちゃんって呼んで」
+＠Hikari,N00230
+「Hi-chan is Hi-chan. Call me Hi-chan.」
 
 
 @chara_clear		#保険
@@ -378,14 +432,17 @@ wait		500
 @yuzu_odoroki		#驚
 
 
-＠かりん,P02265
-「どんどんボロが出てくるわね」
+#「どんどんボロが出てくるわね」
+＠Karin,P02265
+「Things get revealed quite fast, right...」
 
-＠ゆず,F00308
-「じゃ、じゃあやっぱりっ…！　樹先生の！？」
+#「じゃ、じゃあやっぱりっ…！　Itsuki先生の！？」
+＠Yuzu,F00308
+「Th, then as I thought...! She is Itsuki-sensei's!?」
 
-＠樹
-「だから、頼む聞いてくれ……冤罪だ」
+#「だから、頼む聞いてくれ……冤罪だ」
+＠Itsuki
+「Like I said, I beg you, listen to me... This is a defamation.」
 
 
 @chara_clear		#保険
@@ -399,116 +456,141 @@ wait		500
 @miu_kanashimi		#開_哀
 
 
-＠雫,S01195
-「勘違いか。じゃあ美雨が何かしたわけじゃないんだね？」
+#「勘違いか。じゃあMiuが何かしたわけじゃないんだね？」
+＠Shizuku,S01195
+「So, this is a misunderstanding. Miu, you don't anything, right?」
 
 
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01556
-「は、はい……きっとこの子、寂しくて…」
+#「は、はい……きっとこの子、寂しくて…」
+＠Miu,B01556
+「Y, yes... Undoubtedly, this child was lonely...」
 
-＠樹
-「……美雨、大丈夫か？　様子がおかしいけど」
+#「……Miu、大丈夫か？　様子がおかしいけど」
+＠Itsuki
+「......Miu, are you okay? You don't look well, though.」
 
-何か泣いているような声になっている。様子もおかしい。
+#何か泣いているような声になっている。様子もおかしい。
+#SCRIPT ADD KANJI
+Ｓomehow, her voice was as if she was crying. Her looks was also strange.
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S01196
-「まぁ別に、無理に訂正しないでもいいんじゃない？」
+#「まぁ別に、無理に訂正しないでもいいんじゃない？」
+＠Shizuku,S01196
+「Well, nothing in particular, but isn't it better not to force yourself?」
 
 
 @shizuku		#普通
 
 
-＠雫,S01197
-「昨日樹から話を聞いた限りじゃ、この子の境遇も察せるしね」
+#「昨日Itsukiから話を聞いた限りじゃ、この子の境遇も察せるしね」
+＠Shizuku,S01197
+「Yesterday I heard from Itsuki, and I can guess this girl's situation.」
 
-＠樹
-「いや、しかし。まだそう決まったわけじゃ」
+#「いや、しかし。まだそう決まったわけじゃ」
+＠Itsuki
+「Well, but it hasn't been decided like that.」
 
-あまり考えたくはない。だがやはり『捨てられた』という可能性は否めない。
+#あまり考えたくはない。だがやはり『捨てられた』という可能性は否めない。
+#SCRIPT ADD KANJI
+Ｉ didn't want to think too much about it. As I thought, the possibility of being 'abandoned' could not be rejected.  
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S01198
-「美雨の言うとおり寂しくて、二人を親だって思い込んでるんだろう」
+#「Miuの言うとおり寂しくて、二人を親だって思い込んでるんだろう」
+＠Shizuku,S01198
+「Just as Miu said, she was lonely. She got the impression that you and Miu were her parents because of the intimacy.」 
 
 
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S01199
-「ほら、あれ、想像妊娠みたいなものよ。希望と現実がごちゃ混ぜになる現実逃避」
+#「ほら、あれ、想像妊娠みたいなものよ。希望と現実がごちゃ混ぜになる現実逃避」
+＠Shizuku,S01199
+「Look, it seems like a false pregnancy. Dreams and facts have mixed abruptly and escaped reality.」
 
-＠樹
-「例えが悪すぎます」
+#「例えが悪すぎます」
+＠Itsuki
+「Even though it is extremely bad.」
 
 
 @shizuku		#普通
 
 
-＠雫,S01200
-「とりあえずあたしの方で事情は調べておくからさ。それまで、ここで預かってればいい」
+#「とりあえずあたしの方で事情は調べておくからさ。それまで、ここで預かってればいい」
+＠Shizuku,S01200
+「For the time being, let me investigate the circumstances. Until then, it's okay for her to live here.」
 
 
 @miu_komaru		#開_困
 
 
-＠美雨,B01557
-「えッ！？　こ、この子をここでっ……！？」
+#「えッ！？　こ、この子をここでっ……！？」
+＠Miu,B01557
+「えッ!? T, this child is going to live here......!?」
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S01201
-「放り出すわけにはいかないでしょう」
+#「放り出すわけにはいかないでしょう」
+＠Shizuku,S01201
+「We cannot abandon her, right?」
 
 
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01558
-「そ、それはそうですけどっ……で、でもここはっ…」
+#「そ、それはそうですけどっ……で、でもここはっ…」
+＠Miu,B01558
+「T, that may be right... B, but this place is...」
 
-＠ざくろ,Q01255
-「普通じゃないものね。仕事が」
+#「普通じゃないものね。仕事が」
+＠Zakuro,Q01255
+「It may be not normal. The job is.」
 
-＠樹
-「なッ……ま、まさか雫さん、そういうつもりで！？」
+
+#「なッ……ま、まさかShizukuさん、そういうつもりで！？」
+＠Itsuki
+「なッ……D, don't tell me, Shizuku-san, are you saying 'that'?」
 
 
 @shizuku_ikari		#怒
 
 
-＠雫,S01202
-「失礼だねッ、いくらなんでもこんな小さい子にさせないよッ。まったく！」
-
+#「失礼だねッ、いくらなんでもこんな小さい子にさせないよッ。まったく！」
+＠Shizuku,S01202
+「Excuse me! No matter what happens, we won't use a child as small as her. Sheesh!」
 
 @shizuku		#普通
 
 
-＠雫,S01203
-「まぁ、世話の手間が増えるのは美雨だから、美雨が嫌なら放り出すよ」
+#「まぁ、世話の手間が増えるのはMiuだから、Miuが嫌なら放り出すよ」
+＠Shizuku,S01203
+「Well, because Miu's workload will increase because of this, if you hate it we will throw her out, you know?」  
 
 
 bgm_stop
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01559
+＠Miu,B01559
 「…………」
 
-美雨は答えられず、ひかりを恐る恐る見つめている。
+#Miuは答えられず、Hikariを恐る恐る見つめている。
+#SCRIPT ADD KANJI
+Ｗhile Miu was about to answer, she looked at Hikari with fear. 
 
-あんなに必死に看病していたのに、その葛藤がオレにはよく分からない。
+#あんなに必死に看病していたのに、その葛藤がオレにはよく分からない。
+#SCRIPT ADD KANJI
+Ａlthough she had nursed her desperately, I didn't quite understand that problem.
 
 
 @chara_clear		#保険
@@ -519,31 +601,35 @@ wait		500
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
 
-＠ひかり,N00231
+＠Hikari,N00231
 「………」
 
 
 @hikari_komaru		#困.png
 
 
-＠ひかり,N00232
-「……もしかしてお母しゃん、またどこかいっちゃうの……？」
+#「……もしかしてお母しゃん、またどこかいっちゃうの……？」
+＠Hikari,N00232
+「...Okaa-shan, could it be that you are going somewhere again?」
 
-＠美雨,B01560
+＠Miu,B01560
 「……っえ」
 
 
 @hikari_kanashimi	#哀.png
 
 
-＠ひかり,N00233
-「ひーちゃん、もう寂しいのヤなの。お母しゃんとお父しゃんと居たいのに……」
+#「ひーちゃん、もう寂しいのヤなの。お母しゃんとお父しゃんと居たいのに……」
+＠Hikari,N00233
+「Hi-chan, doesn't want to be lonely. I want to be with okaa-shan and otou-shan...」
 
-＠美雨,B01561
-「…そんな……ひかりちゃん………」
+#「…そんな……Hikariちゃん………」
+＠Miu,B01561
+「...That......Hikari-chan......」
 
-＠美雨,B01562
-「ひーちゃんっ…！」
+#「ひーちゃんっ…！」
+＠Miu,B01562
+「Hi-chan...!」
 
 
 #SE36　勢いよく抱きつく音（バフッ！）
@@ -556,22 +642,33 @@ wait			100
 screen_whitein		1
 
 
-感情のこもった声をわななかせながら、美雨はひかりを胸に抱きしめた。
+#感情のこもった声をわななかせながら、MiuはHikariを胸に抱きしめた。
+#SCRIPT ADD KANJI
+Ｗith trembling voice filled with emotions, Miu embraced Hikari on her chest.
 
-＠ひかり,N00234
-「んぅ…♪　お母しゃん」
+#「んぅ…♪　お母しゃん」
+＠Hikari,N00234
+「んぅ…♪ Okaa-shan.」
 
-＠美雨,B01563
-「分かったわ、ひーちゃん。一緒に暮らしましょう……」
+#「分かったわ、ひーちゃん。一緒に暮らしましょう……」
+＠Miu,B01563
+「I understand, Hi-chan. Let's live together...」
 
-＠美雨,B01564
-「お母さんと、お父さんと一緒に。もう寂しい思いはさせないから」
+#「お母さんと、お父さんと一緒に。もう寂しい思いはさせないから」
+＠Miu,B01564
+「Together, with okaa-shan and otou-shan. I won't let you to feel lonely again.」
 
-まるで本当の母娘であるように、大事そうにひかりを抱きしめる。
+#まるで本当の母娘であるように、大事そうにHikariを抱きしめる。
+#SCRIPT ADD KANJI
+Ｔhey seemed like a true mother and daughter, and Hikari was hugged as if she was a truly precious thing.
 
-オレはそんな様子に言葉もはさまず、ただ黙って見つめていた。
+#オレはそんな様子に言葉もはさまず、ただ黙って見つめていた。
+#SCRIPT ADD KANJI
+Ｉ could not find any word to say, and I just shut my mouth and looked quitely.
 
-ひかりの思い込みや美雨の態度など、不可解なところは色々あるが、この光景で全て満足していいように思いながら。
+#Hikariの思い込みやMiuの態度など、不可解なところは色々あるが、この光景で全て満足していいように思いながら。
+#SCRIPT ADD KANJI
+Ｈikari's considerateness and Miu's attitude; there were a lot of incomprehensible things here, but they were okay since all of them were satisfied in this scene.
 
 
 #一拍
@@ -583,19 +680,23 @@ wait		1000
 @bg_gate		# 孤児院前
 
 
-食事を終えて、ひかりは初対面のみんなとも、すぐ仲良くなっていた。
+#食事を終えて、Hikariは初対面のみんなとも、すぐ仲良くなっていた。
+#SCRIPT ADD KANJI
+Ａfter Hikari finished her meal, she began her introduction with everyone, and became friendly quickly.
 
 
 @bg_door		# ドア前
 
 
-＠ひかり,N00235
-「あ、お父しゃんー！　お父しゃんだー！」
+#「あ、お父しゃんー！　お父しゃんだー！」
+＠Hikari,N00235
+「A, otou-shan-! It's otou-shan-!」
 
-＠いちご,O02168
-「パパー！」
+#「パパー！」
+＠Ichigo,O02168
+「Papa-!」
 
-＠樹
+＠Itsuki
 「ん？」
 
 
@@ -603,9 +704,13 @@ wait		1000
 @bg_rouka		# 廊下
 
 
-廊下でざくろと一緒に居るひかり達に呼ばれた。
+#廊下でZakuroと一緒に居るHikari達に呼ばれた。
+#SCRIPT ADD KANJI
+Ｉn the corridor, Hikari with Zakuro and everyone else called me.
 
-こっちに走ってくる。
+#こっちに走ってくる。
+#SCRIPT ADD KANJI
+Ｓhe ran towards here.
 
 
 window_close
@@ -617,16 +722,19 @@ screen_flash		500
 screen_vibration	500,16,16,16
 
 
-＠ひかり,N00236
+＠Hikari,N00236
 「ぴぎゃんッ！」
 
-＠いちご,O02169
+＠Ichigo,O02169
 「わっ！？」
 
-走ってきたひかりだけが、音を立てて壁に激突した。
+#走ってきたHikariだけが、音を立てて壁に激突した。
+#SCRIPT ADD KANJI
+Ｈikari came here alone, but she let out a sound and crashed to the wall.
 
-＠樹
-「平行な壁だぞ。なんでだ」
+#「平行な壁だぞ。なんでだ」
+＠Itsuki
+「The walls are parallel to each other. How could this happen...」
 
 
 @hikari_small
@@ -656,8 +764,9 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00237
-「んんぅ～～！　い、痛いのぉ……また壁がぶちゅかってきたのぉ～…！」
+#「んんぅ～～！　い、痛いのぉ……また壁がぶちゅかってきたのぉ～…！」
+＠Hikari,N00237
+「んんぅ～～！ T, that hurts...... I crashed to the wall again...」
 
 layer_movepass_init	l_hikari,0	#演出初期化
 @ichigo_small
@@ -665,8 +774,9 @@ layer_movepass_init	l_hikari,0	#演出初期化
 @ichigo_ase		#汗
 
 
-＠いちご,O02170
-「ううん……ひーちゃんが斜めに走ってたよ」
+#「ううん……ひーちゃんが斜めに走ってたよ」
+＠Ichigo,O02170
+「ううん…… Hi-chan was the one who ran diagonally.」
 
 
 @zakuro_small
@@ -674,33 +784,44 @@ layer_movepass_init	l_hikari,0	#演出初期化
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01256
-「これで３度目ね。壁だけで」
+#「これで３度目ね。壁だけで」
+＠Zakuro,Q01256
+「With this it's the third time. With wall.」
 
-壁だけで、か。
 
-いちごまでリアクションに困らせるとは、なかなかすごい子だ、ひかり。
+#壁だけで、か。
+#SCRIPT ADD KANJI
+Ｏnly with wall...
 
-＠樹
-「珍しい取り合わせだな。美雨は？」
+#Ichigoまでリアクションに困らせるとは、なかなかすごい子だ、Hikari。
+#SCRIPT ADD KANJI
+Ｕntil Ichigo gave a troubled reaction like that... She was quite a child, Hikari was.
+
+
+#「珍しい取り合わせだな。Miuは？」
+＠Itsuki
+「What a strange combination. Where's Miu?」
 
 
 @ichigo			#普通
 @hikari			#普.png
 
 
-＠いちご,O02171
-「さっきまで居たけど、仕事があるからって。残念そうに行っちゃった」
+#「さっきまで居たけど、仕事があるからって。残念そうに行っちゃった」
+＠Ichigo,O02171
+「She was there a while ago, but she had an important job. She left with regretful expression.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01257
-「今はこの子に、施設の中を案内してるの」
+#「今はこの子に、施設の中を案内してるの」
+＠Zakuro,Q01257
+「Right now, we are guiding her inside this institution.」
 
-＠樹
-「そっか。よかったな、ひかり」
+#「そっか。よかったな、Hikari」
+＠Itsuki
+「I see. Isn't it nice, Hikari.」
 
 
 @hikari_warai		#笑.png
@@ -713,10 +834,13 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00238
-「うん！」
+#「うん！」
+＠Hikari,N00238
+「Yes!」
 
-父親らしくという事で、オレもこの子のことを『ひかり』と呼ぶことにしていた。
+#父親らしくという事で、オレもこの子のことを『Hikari』と呼ぶことにしていた。
+#SCRIPT ADD KANJI
+Ｉ was a father to her, so I called this girl 'Hikari' too.
 
 
 @hikari_yorokobi	#喜.png
@@ -733,8 +857,9 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00239
-「お父しゃんも一緒に行こうー♪」
+#「お父しゃんも一緒に行こうー♪」
+＠Hikari,N00239
+「Let's go with us, otou-shan-♪」
 
 
 @ichigo_warai		#笑
@@ -747,25 +872,29 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02172
-「うんっ、パパも行こうよー！」
+#「うんっ、パパも行こうよー！」
+＠Ichigo,O02172
+「Yeah, let's go too, papa-!」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q01258
-「行こ、親父」
+#「行こ、親父」
+＠Zakuro,Q01258
+「Let's go, old man.」
 
-＠樹
-「だれが親父だ」
+#「だれが親父だ」
+＠Itsuki
+「Who's the old man.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01259
-「つっちー。そして私が言うの」
+#「つっちー。そして私が言うの」
+＠Zakuro,Q01259
+「Tsucchi. Then, that is what I call you.」
 
 
 @zakuro_metoji		#閉
@@ -773,79 +902,98 @@ layer_movepass_play	l_ichigo,0,play_once
 @ichigo			#普通
 
 
-＠ざくろ,Q01260
-「『掘ったね。親父にしか掘られたことなかったのにー』」
+#「『掘ったね。親父にしか掘られたことなかったのにー』」
+＠Zakuro,Q01260
+「'Digging... Only the old man that I have dug...'」 
 
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠樹
-「掘らねぇよ親父！」
+#「掘らねぇよ親父！」
+＠Itsuki
+「Not being dug, old man is!」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01261
-「じゃあつっちーでいい。今度掘って」
+#「じゃあつっちーでいい。今度掘って」
+＠Zakuro,Q01261
+「Then, Tsucchi is okay. Let's dig right now.」
 
 
 @ichigo_ase		#汗
 
 
-＠樹
-「はぁ……。何なんだろうなぁ、この疲れる会話」
+#「はぁ……。何なんだろうなぁ、この疲れる会話」
+＠Itsuki
+「はぁ…… What are you saying? This conversation is tiring.」
 
-＠ひかり,N00240
-「……？　ほゆの？」
+#「……？　ほゆの？」
+＠Hikari,N00240
+「......? Digging?」
 
-当たり前だが、ひかりに今の抽象表現は分からない。
+#当たり前だが、Hikariに今の抽象表現は分からない。
+#SCRIPT ADD KANJI
+Ｉt was very obvious that Hikari didn't understand these abstract expressions.
 
-分からないといえば、
+#分からないといえば、
+#SCRIPT ADD KANJI
+Ｓpeaking of not understanding,
 
-＠樹
-「……あんまり言えない事まで、ひかりに説明するんじゃないぞ？」
+#「……あんまり言えない事まで、Hikariに説明するんじゃないぞ？」
+＠Itsuki
+「……Don't talk too much about those 'unspoken things', and don't explain those to Hikari. Okay?」
 
 
 @ichigo			#普通
 
 
-＠いちご,O02173
-「調教するお部屋とか？」
+#「調教するお部屋とか？」
+＠Ichigo,O02173
+「Such as the training room?」
 
-＠樹
-「そうだ。ひかりはそういう事と無縁の子なんだからな」
+#「そうだ。Hikariはそういう事と無縁の子なんだからな」
+＠Itsuki
+「You're right. After all, Hikari is an unrelated girl to those kind of thing.」
 
-＠樹
-「『ざくろ達と違って』、まだ『年齢的に』大人じゃないんだ」
+#「『Zakuro達と違って』、まだ『年齢的に』大人じゃないんだ」
+＠Itsuki
+「'Different from Zakuro and others', she is still at 'unwanted age' by the adults.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q01262
-「つっちー、強調しすぎ」
+#「つっちー、強調しすぎ」
+＠Zakuro,Q01262
+「Tsucchi, you are too stressed.」
 
-＠樹
-「誤解を生まないよう、しっかり主張するべきことだ」
+#「誤解を生まないよう、しっかり主張するべきことだ」
+＠Itsuki
+「Do not start a misunderstanding. You should put your statements more strongly.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q01263
-「でも、○学生を大人がすると犯罪だけど、それに近い年の子同士だと犯罪にはならないわよね」
+#「でも、○学生を大人がすると犯罪だけど、それに近い年の子同士だと犯罪にはならないわよね」
+＠Zakuro,Q01263
+「But, although pr*m*ry students doing illegal things with adults, moreover a disabled comrade about our age doing illegal things should have not be allowed, right?」
 
-＠樹
-「物騒なことを言うなッ！」
+#「物騒なことを言うなッ！」
+＠Itsuki
+「Don't say those dangerous words!」
 
 
 @bg_black
 
 
-クイクイとひかりが服の袖を引く。
+#クイクイとHikariが服の袖を引く。
+#SCRIPT ADD KANJI
+Ｈikari tugged the sleeve of my shirt quitely.
 
 
 @chara_clear		#保険
@@ -856,14 +1004,17 @@ wait		500
 @bg_rouka		# 廊下
 
 
-＠ひかり,N00241
-「ねぇ、お父しゃんー……。ひーちゃんお話がよく分からないの」
+#「ねぇ、お父しゃんー……。ひーちゃんお話がよく分からないの」
+＠Hikari,N00241
+「Hey, otou-shan-... Hi-chan doesn't understand what you are talking.」
 
-＠樹
-「いいんだ、分からなくて」
+#「いいんだ、分からなくて」
+＠Itsuki
+「It's okay, even if you don't understand.」
 
-＠樹
-「不安だから美雨が戻るまで、オレが付き添うことにする」
+#「不安だからMiuが戻るまで、オレが付き添うことにする」
+＠Itsuki
+「Because I feel uneasy until Miu returns, I will go along with you.」 
 
 
 @hikari_warai		#笑.png
@@ -880,15 +1031,17 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00242
-「わーいッ♪　お父しゃんも一緒だー！」
+#「わーいッ♪　お父しゃんも一緒だー！」
+＠Hikari,N00242
+「わ＝uいッ♪ Together with otou-shan-!」
 
 
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00243
-「じゃあ行こ、いちごお姉しゃん、ざくろお姉しゃん！」
+#「じゃあ行こ、Ichigoお姉しゃん、Zakuroお姉しゃん！」
+＠Hikari,N00243
+「Then, let's go! Ichigo onee-shan, Zakuro onee-shan?」 
 
 
 @chara_clear		#保険
@@ -913,13 +1066,18 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02174
-「えへへぇ、お姉ちゃんだって♪」
+#「えへへぇ、お姉ちゃんだって♪」
+＠Ichigo,O02174
+「Ehehe, I'm an onee-chan she said♪」
 
-＠ざくろ,Q01264
-「お姉ちゃん……」
+#「お姉ちゃん……」
+＠Zakuro,Q01264
+「Onee-chan......」
 
-いちごはもちろん、ざくろも繰り返し、そう呼ばれることが気に入ってるようだった。
+#Ichigoはもちろん、Zakuroも繰り返し、そう呼ばれることが気に入ってるようだった。
+#SCRIPT ADD KANJI
+Ｉt was natural that Ichigo and Zakuro would be happy being called like that.
+
 
 
 #■BG（黒）
@@ -940,7 +1098,9 @@ wait		1000
 @bg_sky			# 空
 
 
-青空の下の中庭で、美雨は洗いたての洗濯物を干していた。
+#青空の下の中庭で、Miuは洗いたての洗濯物を干していた。
+#SCRIPT ADD KANJI
+Ｉn the courtyard under the blue sky, Miu was hanging washed laundries.
 
 
 @miu_small
@@ -959,7 +1119,7 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠美雨,B01565
+＠Miu,B01565
 「………ふぅ」
 
 
@@ -967,11 +1127,17 @@ layer_movepass_play	l_miu,0,play_once
 layer_movepass_init	l_miu,0		#演出初期化
 
 
-今日はいつもの手際良さも、楽しそうな鼻唄も聞こえてこない。
+#今日はいつもの手際良さも、楽しそうな鼻唄も聞こえてこない。
+#SCRIPT ADD KANJI
+Ｔoday she had her usual good performance, but her fun-sounding humming could not be heard.
 
-もちろん、ひかりのこと。
+#もちろん、Hikariのこと。
+#SCRIPT ADD KANJI
+Ｃertainly, it was about Hikari.
 
-思わぬこの事態は素直に嬉しいのだが、逆に気圧されて、どうすればいいのか戸惑っているのだ。
+#思わぬこの事態は素直に嬉しいのだが、逆に気圧されて、どうすればいいのか戸惑っているのだ。
+#SCRIPT ADD KANJI
+Ａlthough she was obediently happy with this unexpected event, she overbore oppositely, she was troubled about thinking what should I do.
 
 
 #@miu_komaru		#開_困
@@ -985,7 +1151,7 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠美雨,B01566
+＠Miu,B01566
 「はぁ……」
 
 
@@ -993,8 +1159,9 @@ bgm_stop
 #SE33　外で走ってくる音
 
 
-＠ひかり,N00244
-「あっ、お母しゃんーッ♪」
+#「あっ、お母しゃんーッ♪」
+＠Hikari,N00244
+「Ah, okaa-shan-♪」
 
 
 #@SE33			#SE33　外で走ってくる音
@@ -1011,22 +1178,25 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠美雨,B01567
+＠Miu,B01567
 「……ッ！？」
 
 
 @bgm17			#BGM 17 : のんびりのテーマ
 
 
-建物の方から走ってくるその声に、ビクッと身体を弾ませた。
+#建物の方から走ってくるその声に、ビクッと身体を弾ませた。
+#SCRIPT ADD KANJI
+Ｔhere was a voice of a person running from the side of the building, and it bounced Miu's body with surprise.
 
 
 se_stop		0
 @miu2			#開_にこ
 
 
-＠美雨,B01568
-「ひーちゃん、どうしたの……？」
+#「ひーちゃん、どうしたの……？」
+＠Miu,B01568
+「Hi-chan, what's wrong......?」
 
 
 @hikari_small
@@ -1034,15 +1204,17 @@ se_stop		0
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00245
-「お洗濯もの干しゅの、てちゅだいに来たのー！」
+#「お洗濯もの干しゅの、てちゅだいに来たのー！」
+＠Hikari,N00245
+「About hanging the laundry, I came to lend a hand-!」
 
 
 @miu			#閉_にこ
 
 
-＠美雨,B01569
-「そうなの。……ありがとう、ひーちゃん」
+#「そうなの。……ありがとう、ひーちゃん」
+＠Miu,B01569
+「So that's the case.... Thank you, Hi-chan.」
 
 
 @hikari_warai		#笑.png
@@ -1055,26 +1227,33 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00246
-「うん！　あははッ」
+#「うん！　あははッ」
+＠Hikari,N00246
+「Yes! Ahaha.」
 
-嬉しそうに笑うひかり。
+#嬉しそうに笑うHikari。
+#SCRIPT ADD KANJI
+Ｈikari laughed joyously.
 
-たったそれだけのことでも、美雨には心が弾けそうなほどの幸せだった。
+#たったそれだけのことでも、Miuには心が弾けそうなほどの幸せだった。
+#SCRIPT ADD KANJI
+Ｏnly with that, Miu's heart bursted suddenly with happiness.
 
 
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00247
-「こえ干しゅの？　ひーちゃんもやるね」
+#「こえ干しゅの？　ひーちゃんもやるね」
+＠Hikari,N00247
+「Must this be hung? Hi-chan will do that also.」
 
 
 @miu2			#開_にこ
 
 
-＠美雨,B01570
-「ええ……。じゃあこの洗濯ばさみに、靴下とかハンカチをはさんでいってくれる？」
+#「ええ……。じゃあこの洗濯ばさみに、靴下とかハンカチをはさんでいってくれる？」
+＠Miu,B01570
+「Yes... Then, could you put the clothespins on socks, handkerchief, and others?」 
 
 
 @hikari_warai		#笑.png
@@ -1087,24 +1266,29 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00248
-「はーい！」
+#「はーい！」
+＠Hikari,N00248
+「Ye-s!」
 
 
 @bg_black
 
 
-小物用のピンチハンガーを渡すと、ひかりはそれを膝に置いて、洗濯物を干し始める。
+#小物用のピンチハンガーを渡すと、Hikariはそれを膝に置いて、洗濯物を干し始める。
+#SCRIPT ADD KANJI
+Ｔhose small clothespins was passed to Hikari. Then Hikari put the clothes on her lap and began placing the clothespins.
 
 
 @bg_sky			# 空
 
 
-＠ひかり,N00249
-「ハンカチと……んっと、このちっちゃいタオユとくちゅ下もここなの」
+#「ハンカチと……んっと、このちっちゃいタオユとくちゅ下もここなの」
+＠Hikari,N00249
+「Handkerchief and...んっと, this small towel and socks are here too.」
 
-＠ひかり,N00250
-「あれ、縞々のくちゅ下が片っぽ無いの。どこ～？」
+#「あれ、縞々のくちゅ下が片っぽ無いの。どこ～？」
+＠Hikari,N00250
+「Hmm? The other piece of striped sock is not here. Where is it~?」
 
 
 @miu_small
@@ -1113,47 +1297,60 @@ layer_movepass_play	l_hikari,0,play_once
 @bg_nakaniwa		# 中庭
 
 
-＠美雨,B01571
+＠Miu,B01571
 「………」
 
-洗濯カゴをゴソゴソと探すひかりに、美雨は自然と柔らかい微笑みを浮かべていた。
+#洗濯カゴをゴソゴソと探すHikariに、Miuは自然と柔らかい微笑みを浮かべていた。
+#SCRIPT ADD KANJI
+Ｗhile Hikari was searching the laundry basket, Miu showed her natural and softhearted smile.
 
-＠ひかり,N00251
-「……？　こえ、帽子？」
+#「……？　こえ、帽子？」
+＠Hikari,N00251
+「......? This, is this a hat?」
 
-美雨のブラジャーをスポッと頭に被ったりするひかり。
+#Miuのブラジャーをスポッと頭に被ったりするHikari。
+#SCRIPT ADD KANJI
+Ｈikari put Miu's brassiere on her head.
 
 
 @miu_komikaru_ase	#コミカル汗
 
 
-＠美雨,B01572
+＠Miu,B01572
 「………」
 
 
 #@miu			#閉_にこ
 
 
-＠美雨,B01573
-「……そ、それは私が干すわ、ひーちゃん」
+#「……そ、それは私が干すわ、ひーちゃん」
+＠Miu,B01573
+「......T, that one, let me do it, Hi-chan.」
 
-＠ひかり,N00252
-「これ、お母しゃんの？　ひーちゃんにもピッタリなの」
+#「これ、お母しゃんの？　ひーちゃんにもピッタリなの」
+＠Hikari,N00252
+「This, is this okaa-shan's? Hi-chan will do this neatly.」
 
-……本当にピッタリだった。
+#……本当にピッタリだった。
+#SCRIPT ADD KANJI
+　...To be honest, it was neatly done.
 
 
 @miu2			#開_にこ
 
 
-＠美雨,B01574
-「えっと……帽子じゃないから。ごめんね、ひーちゃん」
+#「えっと……帽子じゃないから。ごめんね、ひーちゃん」
+＠Miu,B01574
+「Well... This is not a hat. I'm sorry, Hi-chan.」
 
 
 @bg_black
 
 
-他の物で外からは見えないように、美雨が自分で干し直した。
+#他の物で外からは見えないように、Miuが自分で干し直した。
+#SCRIPT ADD KANJI
+Ｗhen other things could not be seen from the outside, Miu re-put everything by herself.
+
 
 
 @miu_small
@@ -1166,55 +1363,64 @@ layer_movepass_play	l_hikari,0,play_once
 @bg_nakaniwa		# 中庭
 
 
-＠美雨,B01575
-「ひーちゃん、私が居なくなった後、ざくろちゃんやいちごちゃんと何して遊んでたの？」
+#「ひーちゃん、私が居なくなった後、ZakuroちゃんやIchigoちゃんと何して遊んでたの？」
+＠Miu,B01575
+「Hi-chan, when I was not around, what kind of game were you playing with Zakuro, Ichigo, and others?」
 
 
 @hikari			#普.png
 
 
-＠ひかり,N00253
-「んっと、お家の中を案内してもやってたの」
+#「んっと、お家の中を案内してもやってたの」
+＠Hikari,N00253
+「んっと, I was being guided around the house.」
 
 
 @miu_komaru		#開_困
 
 
-＠美雨,B01576
+＠Miu,B01576
 「え…？」
 
 
 @hikari_warai		#笑.png
 
 
-＠ひかり,N00254
-「ここの新しいお家、お部屋がいっぱいあゆからびっくいしたよ」
+#「ここの新しいお家、お部屋がいっぱいあゆからびっくいしたよ」
+＠Hikari,N00254
+「The new house here, has a lot of rooms. I was surprised.」
 
-＠美雨,B01577
-「……案内って、どんな部屋に行ったの？」
+#「……案内って、どんな部屋に行ったの？」
+＠Miu,B01577
+「...... About being guided, which kind of room did you go?」
 
-言わずもがな、ひかりには見せたくない部屋がいっぱいある。
+#言わずもがな、Hikariには見せたくない部屋がいっぱいある。
+#SCRIPT ADD KANJI
+Ｎeedless to say, there were a lot of room that could not be shown to Hikari.
 
 
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00255
-「ご飯食べゆとことか、おふよとか。お父しゃんも一緒だったよ」
+#「ご飯食べゆとことか、おふよとか。お父しゃんも一緒だったよ」
+＠Hikari,N00255
+「Such as the place where I eat my meal, then the bathroom. Otou-shan was with me.」
 
 
 @miu2			#開_にこ
 
 
-＠美雨,B01578
-「そう、樹さんも……。なら安心ね」
+#「そう、Itsukiさんも……。なら安心ね」
+＠Miu,B01578
+「I see, Itsuki-san was also... Then, I am relieved.」
 
 
 @miu			#閉_にこ
 
 
-＠美雨,B01579
-「ひーちゃん、これが終わったら一緒におやつでも食べましょうか」
+#「ひーちゃん、これが終わったら一緒におやつでも食べましょうか」
+＠Miu,B01579
+「Hi-chan, after we finish with this, do you want to have an afternoon tea together?」
 
 
 @hikari_warai		#笑.png
@@ -1227,17 +1433,22 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00256
-「うん！」
+#「うん！」
+＠Hikari,N00256
+「Yes!」
 
 
 @chara_clear		#保険
 @bg_sky			# 空
 
 
-ひかりの笑顔に、美雨も笑顔を返す。
+#Hikariの笑顔に、Miuも笑顔を返す。
+#SCRIPT ADD KANJI
+Ｍiu returned Hikari's smiling face with her smile.
 
-いつもより時間のかかった洗濯だったが、その分美雨はこの幸せを堪能していた。
+#いつもより時間のかかった洗濯だったが、その分Miuはこの幸せを堪能していた。
+#SCRIPT ADD KANJI
+Ａlthough today's laundry took more time than usual, Miu enjoyed the happiness that every minute given.
 
 
 #一拍
@@ -1247,13 +1458,21 @@ bgm_stop
 wait		1000
 
 
-ひかりの来院は、施設の中に新たな明るさを作っていた。
+#Hikariの来院は、施設の中に新たな明るさを作っていた。
+#SCRIPT ADD KANJI
+Ｈikari's arrival made new light inside this institution.
 
-ひかり自身の元気の良さと人懐っこさや、妹のようにひかりを構う子供達。
+#Hikari自身の元気の良さと人懐っこさや、妹のようにHikariを構う子供達。
+#SCRIPT ADD KANJI
+Ｈikari's good vitality, friendliness, and others, made her like a younger sister that other children cared about.
 
-そして何より、ひかりへの一挙一動全てに愛情が溢れている美雨。
+#そして何より、Hikariへの一挙一動全てに愛情が溢れているMiu。
+#SCRIPT ADD KANJI
+Ａbove all, every single move that Hikari made made Miu overflown with love.
 
-今までに無かった新しい一日で時間は過ぎ、日は暮れていった。
+#今までに無かった新しい一日で時間は過ぎ、日は暮れていった。
+#SCRIPT ADD KANJI
+Ｔhere was a lot of extra time on every new day, but now it seemed none, and now the day came to an end.
 
 
 #■BG（自室・夜）
@@ -1264,27 +1483,32 @@ wait		1000
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 
-＠樹
-「ん……はい？」
+#「ん……はい？」
+＠Itsuki
+「Hmm... Who is it?」
 
-＠ひかり,N00257
-「お父しゃん、お風呂から出たよ。入ってもいい？」
+#「お父しゃん、お風呂から出たよ。入ってもいい？」
+＠Hikari,N00257
+「Otou-shan, I just came out from the bathroom. May I come in?」
 
-＠樹
-「ああ、ひかりか。どうぞ」
+#「ああ、Hikariか。どうぞ」
+＠Itsuki
+「Aa, it's Hikari. Come in.」
 
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
 
-返事と同時にドアノブが回る。
+#返事と同時にドアノブが回る。
+#SCRIPT ADD KANJI
+Ａt the same time she replied, she also turned the knob.
 
 
 window_close
 @SE07			#部屋のドア閉まる音（パタン）
 wait		1000
-#CH（ひかり・パジャマ）
+#CH（Hikari・パジャマ）
 @hikari_small
 @hikari_pajama		#パジャマ
 @hikari_warai		#笑.png
@@ -1301,26 +1525,33 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00258
-「わーいッ、あはは！　お父しゃんのお部屋なのー♪」
+#「わーいッ、あはは！　お父しゃんのお部屋なのー♪」
+＠Hikari,N00258
+「わ＝uいッ、あはは！ This is otou-shan's room-♪」
 
 
 @bgmk04			#BGM K04 : 寝る前のテーマ
 
 
-見慣れない服を着たひかりが、嬉しそうに中へ入ってきた。
+#見慣れない服を着たHikariが、嬉しそうに中へ入ってきた。
+#SCRIPT ADD KANJI
+Ｈikari with unfamiliar clothing entered the room joyously.
 
-お風呂上りなので髪や肌がしっとりと濡れている。
+#お風呂上りなので髪や肌がしっとりと濡れている。
+#SCRIPT ADD KANJI
+Ｓhe came out from the batroom with damply wetted hair and body.
 
-＠樹
-「ちゃんとノックして入るのは偉いな、ひかり」
+#「ちゃんとノックして入るのは偉いな、Hikari」
+＠Itsuki
+「You knocked properly before you entered my room. How great of you, Hikari.」
 
 
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00259
-「うん！　お部屋に入るときのやくしょくなの」
+#「うん！　お部屋に入るときのやくしょくなの」
+＠Hikari,N00259
+「Yes! It's a promise before I enter a room.」  {or 'It's a rule' ?}
 
 
 @miu_small
@@ -1328,30 +1559,39 @@ layer_movepass_play	l_hikari,0,play_once
 @miu			#閉_にこ
 
 
-＠美雨,B01580
-「おつかれさまです、樹さん。今一緒に上がりました」
+#「おつかれさまです、Itsukiさん。今一緒に上がりました」
+＠Miu,B01580
+「Thank you for your hard work, Itsuki-san. We finished together just now.」 {I dunno how to re-phrase おつかれさまです in english}
 
-その後から、いつもの格好の美雨が入ってくる。
 
-二人はさっきまで一緒にお風呂に入っていたのだ。
+#その後から、いつもの格好のMiuが入ってくる。
+#SCRIPT ADD KANJI
+Ａfter that, Miu with her usual appearance entered.
+
+#二人はさっきまで一緒にお風呂に入っていたのだ。
+#SCRIPT ADD KANJI
+Ｔhe two of them were together in the bathroom just now.
 
 
 @hikari_kanashimi	#哀.png
 
 
-＠ひかり,N00260
-「ひーちゃん、お父しゃんも一緒が良かったのに。ちょっと残念なの」
+#「ひーちゃん、お父しゃんも一緒が良かったのに。ちょっと残念なの」
+＠Hikari,N00260
+「Hi-chan would be happy if otou-shan came with us. It's a bit disappointing.」 
 
-＠樹
-「ああ、まぁ誘ってくれたのは嬉しかったけど……な？」
+#「ああ、まぁ誘ってくれたのは嬉しかったけど……な？」
+＠Itsuki
+「Aa, well, if I was invited I would be happy to do it... Right?」
 
 
-#CH（美雨・照れ）
+#CH（Miu・照れ）
 @miu_tere		#開_照
 
 
-＠美雨,B01581
-「そ、そうですね……三人で入るのは、また次の機会にしましょう、ひーちゃん」
+#「そ、そうですね……三人で入るのは、また次の機会にしましょう、ひーちゃん」
+＠Miu,B01581
+「T, that's right... The three of us should bathe together next time, Hi-chan.」
 
 
 @hikari_yorokobi	#喜.png
@@ -1364,116 +1604,146 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00261
-「はーい！」
+#「はーい！」
+＠Hikari,N00261
+「Ye-s!」
 
-さすがにオレと美雨が一緒に入るのはちょっとまずいだろう。
+#さすがにオレとMiuが一緒に入るのはちょっとまずいだろう。
+#SCRIPT ADD KANJI
+Ｔhough it would be a bit dangerous if I enter with her together.
 
-相当に名残惜しいけど。
+#相当に名残惜しいけど。
+#SCRIPT ADD KANJI
+Ｈowever it would be quite regretted.
 
-＠樹
-「えっと、それよりひかりの服。それは？」
+#「えっと、それよりHikariの服。それは？」
+＠Itsuki
+「Putting that aside, about Hikari's clothing. That is?」
 
 
 @hikari_warai		#笑.png
 @miu2			#開_にこ
 
 
-＠ひかり,N00262
-「えへへ、パジャマだよ。お母しゃんが出してくえたの」
+#「えへへ、パジャマだよ。お母しゃんが出してくえたの」
+＠Hikari,N00262
+「Ehehe, this is pajama. Okaa-shan brought this out.」
 
-＠美雨,B01582
-「子供用に常備してある私服です。ちょうどいいサイズがあったので」
+#「子供用に常備してある私服です。ちょうどいいサイズがあったので」
+＠Miu,B01582
+「It's a normal clothing from the reserve of clothing that the children use, because there were some with just the right size.」 
 
-＠樹
-「あれ、でも美雨の格好は……」
+#「あれ、でもMiuの格好は……」
+＠Itsuki
+「Hmm? But Miu's uniform is...」
 
-＠美雨,B01583
-「はい、私はまだこの後の仕事が残ってますから」
+#「はい、私はまだこの後の仕事が残ってますから」
+＠Miu,B01583
+「Yes, I still have some works to do after this, so I must remain like this.」
 
 
 @miu			#閉_にこ
 
 
-＠美雨,B01584
-「それが終わってから、もう一度シャワーだけ浴びて休むことにします」
+#「それが終わってから、もう一度シャワーだけ浴びて休むことにします」
+＠Miu,B01584
+「After I have finished everything, I will take a shower once more then I will have a rest.」
 
-＠樹
-「そっか……。じゃあ先にお風呂を勧めたの、悪かったな。湯冷めするだろ」
+#「そっか……。じゃあ先にお風呂を勧めたの、悪かったな。湯冷めするだろ」
+＠Itsuki
+「I see... Then, about the suggestion to take a bath you said before, I'm sorry about that. You must be feeling cold after taking a bath, right?」
 
 
 @miu2			#開_にこ
 
 
-＠美雨,B01585
-「いえ、大丈夫ですよ。心配していただいてすみません」
+#「いえ、大丈夫ですよ。心配していただいてすみません」
+＠Miu,B01585
+「Don't mind, I'm okay. I'm sorry to make you worried.」
 
 
 @miu			#閉_にこ
 
 
-＠美雨,B01586
-「その代わりと言ってはなんですが、少しひーちゃんに付き合ってあげてもらえますか？」
+#「その代わりと言ってはなんですが、少しひーちゃんに付き合ってあげてもらえますか？」
+＠Miu,B01586
+「Although I would say 'to compensate that', would you accompany Hi-chan for a bit longer?」
 
-＠樹
-「ひかりに……？」
+#「Hikariに……？」
+＠Itsuki
+「With Hikari...?」
 
 
 #@hikari_yorokobi	#喜.png
 @hikari_tere		#照.png
 
 
-＠ひかり,N00263
-「うん！　あのね、ひーちゃんお父しゃんと一緒に寝に来たの」
+#「うん！　あのね、ひーちゃんお父しゃんと一緒に寝に来たの」
+＠Hikari,N00263
+「Yes! You know, Hi-chan came to this room to sleep together with otou-shan.」
 
-期待のこもった目でオレを見上げるひかり。
+#期待のこもった目でオレを見上げるHikari。
+#SCRIPT ADD KANJI
+Ｈikari stared at me with eyes filled with expectations.
 
-＠ひかり,N00264
-「おふよで一緒じゃなかったから、寝るのはお父しゃんと一緒がいいのっ♪」
+#「おふよで一緒じゃなかったから、寝るのはお父しゃんと一緒がいいのっ♪」
+＠Hikari,N00264
+「Because we weren't together at bath, sleeping together with otou-shan is fine♪」
 
-＠樹
-「ああ、そういうことか……。けど、いいのか美雨？」
+#「ああ、そういうことか……。けど、いいのかMiu？」
+＠Itsuki
+「Aa, so it's that kind of situation... But, is it okay, Miu?」
 
-オレもそうだが、それ以上に美雨の方が、少しでもひかりと一緒に居たい感じだが。
+#オレもそうだが、それ以上にMiuの方が、少しでもHikariと一緒に居たい感じだが。
+#SCRIPT ADD KANJI
+Ａlthough I felt so, more than that, I felt that Miu wanted to stay together with Hikari evern for a little bit longer.
 
 
 @miu_komaru		#開_困
 
 
-＠美雨,B01587
-「は、はい……お気持ちは嬉しいのですが」
+#「は、はい……お気持ちは嬉しいのですが」
+＠Miu,B01587
+「Y, yes... If she is glad about it.」
 
 
 @miu_kanashimi		#開_哀
 
 
-＠美雨,B01588
-「むしろ、私の方からお願いしたいくらいなのですが……。でも、今寝てしまうのはちょっと……」
+#「むしろ、私の方からお願いしたいくらいなのですが……。でも、今寝てしまうのはちょっと……」
+＠Miu,B01588
+「Rather than that, if she wished something from me I wanted to do it... But, sleeping now is a bit...」
 
 
 @miu_kanashimi2		#閉_哀
 
 
-＠美雨,B01589
-「まだ起きてる子も居ますし、明日の朝の用意や、戸締り、火の元、他にも色々と………うぅ…」
+#「まだ起きてる子も居ますし、明日の朝の用意や、戸締り、火の元、他にも色々と………うぅ…」
+＠Miu,B01589
+「There are still children that are awake, then tomorrow's preparation, closing doors and windows, putting out the fireplace, then many other things...うぅ...」
 
-＠樹
-「……た、大変だな」
+#「……た、大変だな」
+＠Itsuki
+「......T, that is a big trouble.」
 
-めちゃくちゃ一緒に居たそうに、葛藤に悩んでいる。
+#めちゃくちゃ一緒に居たそうに、葛藤に悩んでいる。
+#SCRIPT ADD KANJI
+Ｓhe wanted to be together so badly, and I was concerned with the trouble that it would create.
 
-＠樹
-「だったら、ひかりが寝るまで側に居てあげればいいんじゃないか？　オレだってまだ仕事があって寝れないし」
+#「だったら、Hikariが寝るまで側に居てあげればいいんじゃないか？　オレだってまだ仕事があって寝れないし」
+＠Itsuki
+「If that's the case, isn't it okay to stay at her side until she has fallen asleep? Even I still have some works to do, so I won't sleep.」
 
 
 @miu_komaru		#開_困
 
 
-＠美雨,B01590
+＠Miu,B01590
 「え……？」
 
-＠樹
-「ひかりも美雨……お母さんとだって一緒に寝たいだろ？」
+#「HikariもMiu……お母さんとだって一緒に寝たいだろ？」
+＠Itsuki
+「Hikari wants Miu... okaa-shan to be sleeping together with her, right?」
 
 
 @hikari_warai		#笑.png
@@ -1486,26 +1756,31 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00265
-「うんッ、お母しゃんも一緒がいいの！」
+#「うんッ、お母しゃんも一緒がいいの！」
+＠Hikari,N00265
+「Yes, together with okaa-shan is good!」
 
 
 @miu_mu			#開_普通（無表情）
 
 
-＠美雨,B01591
-「な、なるほど……。それは逆に盲点でした……」
+#「な、なるほど……。それは逆に盲点でした……」
+＠Miu,B01591
+「Oh, I see... It's an unexpected blind spot.」
 
-＠樹
-「悩み過ぎなのも考えものだな」
+
+#「悩み過ぎなのも考えものだな」
+＠Itsuki
+「Worrying too much is also something to think about.」
 
 
 #@hikari_odoroki		#驚.png
 @hikari			#普.png
 
 
-＠ひかり,N00266
-「お母しゃんも、ひーちゃんと一緒に寝てくれゆのっ？」
+#「お母しゃんも、ひーちゃんと一緒に寝てくれゆのっ？」
+＠Hikari,N00266
+「Okaa-shan also, are you going to sleep together with me?」
 
 
 @miu			#閉_にこ
@@ -1519,40 +1794,46 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠美雨,B01592
-「ええ、そうね。一緒に寝ましょうひーちゃん」
+#「ええ、そうね。一緒に寝ましょうひーちゃん」
+＠Miu,B01592
+「Yeah, that's right. Let's sleep together, Hi-chan.」
 
 
 @hikari_yorokobi	#喜.png
 
 
-＠樹
-「良かったな、ひかり。三人一緒に……」
+#「良かったな、Hikari。三人一緒に……」
+＠Itsuki
+「Aren't you glad, Hikari? The three of us together......」
 
-……一緒に。
+#……一緒に。
+#SCRIPT ADD KANJI
+　......Together.
 
-＠樹
+＠Itsuki
 「………」
 
 
 @miu2			#開_にこ
 
 
-＠美雨,B01593
+＠Miu,B01593
 「…………」
 
-＠ひかり,N00267
+＠Hikari,N00267
 「……？」
 
 
 @miu			#閉_にこ
 
 
-＠美雨,B01594
-「ふ、普通ですよね。今は親子ですから」
+#「ふ、普通ですよね。今は親子ですから」
+＠Miu,B01594
+「N, normally please. Because we are parents and child now.」
 
-＠樹
-「も、もちろん。別にやましいことは何も無いぞ。そうだ、ひかりを真ん中にして寝よう」
+#「も、もちろん。別にやましいことは何も無いぞ。そうだ、Hikariを真ん中にして寝よう」
+＠Itsuki
+「O, of course. There is no remorseful act in particular. That's right, why don't Hikari sleep in the middle.」
 
 
 @hikari_warai		#笑.png
@@ -1569,24 +1850,34 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00268
-「わーいッ！　ひーちゃんが真ん中なのー♪」
+#「わーいッ！　ひーちゃんが真ん中なのー♪」
+＠Hikari,N00268
+「わ＝uいッ！ Hi-chan is in the middle-♪」
 
-思い付きの言葉だが、ひかりは嬉しそうに飛び跳ねる。
+#思い付きの言葉だが、Hikariは嬉しそうに飛び跳ねる。
+#SCRIPT ADD KANJI
+Ｉt was just a suggestion, but Hikari jumped up and down in happiness.
 
-＠樹
-（……思い込みって言っても、やっぱり細部で緊張するぞ、これは）
+#（……思い込みって言っても、やっぱり細部で緊張するぞ、これは）
+＠Itsuki
+(...Although I said I was being considerate, as expected this made me nervous in details, this situation)
 
-しかも三人で親子ってことは、つまり……オレと美雨が……
+#しかも三人で親子ってことは、つまり……オレとMiuが……
+#SCRIPT ADD KANJI
+Ｆurthermore, three people as parents and child, in other words... Me and Miu are...
+
 
 
 @miu_tere2		#閉_照
 
 
-＠美雨,B01595
-「そ、そういえば夫婦になるんですね、私たち……。親子でしたら」
+#「そ、そういえば夫婦になるんですね、私たち……。親子でしたら」
+＠Miu,B01595
+「Co, come to think about it, we become spouses, right? We are... Because of the parents-child relationship.」 
 
-美雨も同じ事を考えていたようで、頬を染めていた。
+#Miuも同じ事を考えていたようで、頬を染めていた。
+#SCRIPT ADD KANJI
+Ｍiu also thought about the same thing, and her cheeks became dyed.
 
 
 bgm_stop
@@ -1598,117 +1889,153 @@ wait		1000
 @bg_itsuki_nn		# 自室(消灯)
 
 
-ともあれ、喜ぶひかりに二人とも弱く、そのまま消灯してベッドへ入る。
+#ともあれ、喜ぶHikariに二人とも弱く、そのまま消灯してベッドへ入る。
+#SCRIPT ADD KANJI
+Ａnyhow, the overjoyed Hikari was the weakness for those two people. While remaining like that, I turned off the light and we went to bed.
 
 
 #CH（二人とも立ち絵なし）
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 
-＠ひかり,N00269
-「あははっ、真ん中真ん中なのっ♪」
+#「あははっ、真ん中真ん中なのっ♪」
+＠Hikari,N00269
+「Ahaha, in the middle in the middle♪」
 
-＠樹
-「さすがに狭いな。ひかり、もうちょっとこっちに寄って来な」
+#「さすがに狭いな。Hikari、もうちょっとこっちに寄って来な」
+＠Itsuki
+「As expected, this is very cramped. Hikari, could you move to this site for a bit?」
 
-＠ひかり,N00270
-「はーいっ。お母しゃん、ちゃんと入れゆ？」
+#「はーいっ。お母しゃん、ちゃんと入れゆ？」
+＠Hikari,N00270
+「Ye~s. Okaa-shan, have entered properly?」
 
-＠美雨,B01596
-「え、ええ……。大丈夫よひーちゃん」
+#「え、ええ……。大丈夫よひーちゃん」
+＠Miu,B01596
+「Y, yes... I'm all right, Hi-chan.」
 
 
 #SE70　衣擦れ音（シュルシュル）
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 
-＠樹
+＠Itsuki
 「………」
 
-＠樹
-「あの、美雨……。衣擦れが聞こえるんだけど、シーツの下で何を……？」
+#「あの、Miu……。衣擦れが聞こえるんだけど、シーツの下で何を……？」
+＠Itsuki
+「Umm, Miu... I could hear rustlings of clothes, what are you doing under the sheet?」
 
-＠美雨,B01597
-「えっと、その……服が。どうしても寝辛くて、よけい窮屈になりますので……」
+#「えっと、その……服が。どうしても寝辛くて、よけい窮屈になりますので……」
+＠Miu,B01597
+「Well, that is... my uniform. No matter what is my sleeping position, it becomes very tight...」
 
-＠樹
+＠Itsuki
 「…………」
 
-＠ひかり,N00271
-「わぁ、お母しゃんお胸おっきい～。ポヨポヨしてるのー♪」
+#「わぁ、お母しゃんお胸おっきい～。ポヨポヨしてるのー♪」
+＠Hikari,N00271
+「わぁ, okaa-shan, your breasts are big~ They are very bouncy~♪」
 
-＠美雨,B01598
-「あっ、で、でも緩めるだけですからっ……ご心配なさらないでくださいっ……」
+#「あっ、で、でも緩めるだけですからっ……ご心配なさらないでくださいっ……」
+＠Miu,B01598
+「Aa, I, I only loosened my clothes... You don't have to be concerned about it...」
 
-＠樹
-「……うん、まぁ心配はしないけどさ」
+#「……うん、まぁ心配はしないけどさ」
+＠Itsuki
+「...Yeah, well I won't be worried.」
 
-期待ならしてしまったが。
+#期待ならしてしまったが。
+#SCRIPT ADD KANJI
+Ａlthough I did expect something.
 
 
 #--------------------------------------------------
-#■EVCG（美雨とひかりの川の字ベッド）
+#■EVCG（MiuとHikariの川の字ベッド）
 @bgmk03			#BGM K03 : 静かの時のテーマ
 event		"event\EV_MIU_030-00.png"
 #--------------------------------------------------
 
 
-＠ひかり,N00272
-「あははっ、お父しゃんとお母しゃんで暖かい～♪」
+#「あははっ、お父しゃんとお母しゃんで暖かい～♪」
+＠Hikari,N00272
+「Ahaha, otou-shan and okaa-shan are warm~♪」
 
-＠樹
-「はは、ほとんど密着状態になったからな」
+#「はは、ほとんど密着状態になったからな」
+＠Itsuki
+「Haha, because we are almost sticking together.」
 
-＠美雨,B01599
-「ひーちゃん、窮屈じゃない？」
+#「ひーちゃん、窮屈じゃない？」
+＠Miu,B01599
+「Hi-chan, are you feeling too tight?」
 
-＠ひかり,N00273
-「うんっ、大丈夫」
+#「うんっ、大丈夫」
+＠Hikari,N00273
+「Nope, it's alright.」
 
-オレと美雨に密着して入っているひかりが、嬉しそうに笑顔をこぼす。
+#オレとMiuに密着して入っているHikariが、嬉しそうに笑顔をこぼす。
+#SCRIPT ADD KANJI
+Ｈikari who was between me and Miu who were sticking together, showed a smiling face filled with happiness.
 
-＠美雨,B01600
-「でも本当……こうしてると、ひーちゃんの言うとおりすごく暖かで……」
 
-＠美雨,B01601
-「やっぱりいいですね、こういう幸せ……本当に親子らしくて」
+#「でも本当……こうしてると、ひーちゃんの言うとおりすごく暖かで……」
+＠Miu,B01600
+「But really... Doing this way, just as Hi-chan said it is very warm...」
 
-＠ひかり,N00274
-「……？　ひーちゃんとお母しゃんとお父しゃん、本当じゃないの？」
+#「やっぱりいいですね、こういう幸せ……本当に親子らしくて」
+＠Miu,B01601
+「Still, this is nice, this happiness... It feels like a real parents and child.」
 
-＠美雨,B01602
-「あ、ううん。そういう意味じゃないの……。もちろん本当の親子よ」
+#「……？　ひーちゃんとお母しゃんとお父しゃん、本当じゃないの？」
+＠Hikari,N00274
+「...? Hi-chan and okaa-shan and otou-shan, aren't real?」
 
-＠樹
-「オレがお父さんで、美雨がお母さんだ。そうだろ？」
+#「あ、ううん。そういう意味じゃないの……。もちろん本当の親子よ」
+＠Miu,B01602
+「A, no. Not in that sense... Of course, we really are parents and child.」
 
-＠ひかり,N00275
-「えへっ、うん♪　ひーちゃんのお父しゃんとお母しゃんなの」
+#「オレがお父さんで、Miuがお母さんだ。そうだろ？」
+＠Itsuki
+「I'm the otou-shan, Miu is the okaa-shan. Isn't that right?」
 
-モゾモゾと動いては、オレと美雨の交互に身体を寄せるひかり。
+#「えへっ、うん♪　ひーちゃんのお父しゃんとお母しゃんなの」
+＠Hikari,N00275
+「Ehe, yup♪ Hi-chan's otou-shan and okaa-shan.」
 
-そうやって互いの胸に抱かれるたびに、満足そうに笑い声を漏らす。
+#モゾモゾと動いては、オレとMiuの交互に身体を寄せるHikari。
+#SCRIPT ADD KANJI
+Ｈikari moved her body and faced me and Miu alternately.
 
-＠ひかり,N00276
+#そうやって互いの胸に抱かれるたびに、満足そうに笑い声を漏らす。
+#SCRIPT ADD KANJI
+Ｗhile she was embracing our chests, she let out laughter filled with satisfaction.
+
+＠Hikari,N00276
 「ん～～♪」
 
-＠美雨,B01603
-「ふふ、ひーちゃん、そんなに動いてたら眠れないわよ？」
+#「ふふ、ひーちゃん、そんなに動いてたら眠れないわよ？」
+＠Miu,B01603
+「Fufu, Hi-chan, if you move like that you won't be able to sleep.」
 
-＠ひかり,N00277
-「んぅ……？　あ、そっか。えへへ♪」
+#「んぅ……？　あ、そっか。えへへ♪」
+＠Hikari,N00277
+「んぅ……？ A, I see. Ehehe♪」
 
-＠樹
-「嬉しいのは分かるけど、今日はもうお休み、ひかり」
+#「嬉しいのは分かるけど、今日はもうお休み、Hikari」
+＠Itsuki
+「Although I understand you being happy, today is almost ends, Hikari.」
 
-＠美雨,B01604
-「そう、良い子は寝る時間よ」
+#「そう、良い子は寝る時間よ」
+＠Miu,B01604
+「Yes, now is the sleeping time for good kids.」
 
-＠美雨,B01605
-「心配しなくても、これからはいつだってこうして、一緒に眠ってあげるから」
+#「心配しなくても、これからはいつだってこうして、一緒に眠ってあげるから」
+＠Miu,B01605
+「You don't have to worry, starting now if you want to, we will sleep together just like this.」
 
-＠ひかり,N00278
-「うん……♪」
+#「うん……♪」
+＠Hikari,N00278
+「Yes...♪」
 
 
 #--------------------------------------------------
@@ -1717,42 +2044,56 @@ event		"event\EV_MIU_030-01.png"
 #--------------------------------------------------
 
 
-小さく頷くと、ひかりはちょうど真ん中に収まるようにして目を閉じた。
+#小さく頷くと、Hikariはちょうど真ん中に収まるようにして目を閉じた。
+#SCRIPT ADD KANJI
+Ｗith a small nod, Hikari who was in between us calmed down and closed her eyes.
 
-そこから数分とかからず、穏やかな寝息が聞こえ始める。
+#そこから数分とかからず、穏やかな寝息が聞こえ始める。
+#SCRIPT ADD KANJI
+Ｗe remained like that for a few minutes, and after that we began hearing a peaceful Hikari's sleeping breath.
 
-＠美雨,B01606
-「ふふ。ひーちゃん、やっぱり疲れてたみたい」
+#「ふふ。ひーちゃん、やっぱり疲れてたみたい」
+＠Miu,B01606
+「Fufu. Hi-chan, as I thought she was kind of tired.」
 
-＠樹
-「病み上がりだけど、今日は一日他の子と遊び回ってたからな」
+#「病み上がりだけど、今日は一日他の子と遊び回ってたからな」
+＠Itsuki
+「Although it is still her recuperation, today she played around with other children for the entire day.」
 
-＠樹
-「この子、町で会ってたときから一人だったんだ。友達も居ないらしくて」
+#「この子、町で会ってたときから一人だったんだ。友達も居ないらしくて」
+＠Itsuki
+「This child, since I met her in the city she was always alone. It seems that she doesn't have a friend.」
 
-＠美雨,B01607
-「そうだったんですか……。きっと、ここでみんなと友達になれて嬉しかったんですね」
+#「そうだったんですか……。きっと、ここでみんなと友達になれて嬉しかったんですね」
+＠Miu,B01607
+「So it's like that... Surely, she was happy for becoming friends with everyone in this place.」
 
-＠美雨,B01608
-「それに、どんな形であれ、こうして親子一緒に居られるんですから」
+#「それに、どんな形であれ、こうして親子一緒に居られるんですから」
+＠Miu,B01608
+「Moreover, no matter what our appearance are, she wanted to be like parents and child in this way.」 
 
-＠ひかり,N00279
+＠Hikari,N00279
 「ん……くぅ……んぅ…」
 
-＠美雨,B01609
-「幸せそうに眠ってくれてる……」
+#「幸せそうに眠ってくれてる……」
+＠Miu,B01609
+「She looks very happy in her sleep...」
 
-＠美雨,B01610
-「樹さん。こんなご無理を聞いていただいて、本当にありがとうございます」
+#「Itsukiさん。こんなご無理を聞いていただいて、本当にありがとうございます」
+＠Miu,B01610
+「Itsuki-san. I am really grateful for listening to this kind of impossible thing.」
 
-＠樹
-「それはお互い様だし。それに、無理なんかしてないさ」
+#「それはお互い様だし。それに、無理なんかしてないさ」
+＠Itsuki
+「It's nothing at all. Besides, it is not impossible.」
 
-＠樹
-「他の子とは別に、この子には不思議と情が移るんだ。だからこれからも助けてあげたいよ」
+#「他の子とは別に、この子には不思議と情が移るんだ。だからこれからも助けてあげたいよ」
+＠Itsuki
+「Particularly about the other children, this girl gave them emotions and miracles. That's why I want to help her from now on.」
 
-＠美雨,B01611
-「……樹さん」
+#「……Itsukiさん」
+＠Miu,B01611
+「... Itsuki-san.」
 
 
 #--------------------------------------------------
@@ -1761,21 +2102,30 @@ event		"event\EV_MIU_030-02.png"
 #--------------------------------------------------
 
 
-＠美雨,B01612
-「そうなると、しばらくは私たち夫婦になってしまいますね……」
+#「そうなると、しばらくは私たち夫婦になってしまいますね……」
+＠Miu,B01612
+「If it's like that, let us be husband and wife just for a while...」
 
-面映ゆそうに微笑んで、美雨が薄く頬を染める。
+#面映ゆそうに微笑んで、Miuが薄く頬を染める。
+#SCRIPT ADD KANJI
+Ｗith an embarassed-looking smile, Miu's cheek became red.
 
-＠樹
-「はは。それこそオレも大歓迎、役得だな」
+#「はは。それこそオレも大歓迎、役得だな」
+＠Itsuki
+「Haha. Exactly thus I will give it a big welcome; it gives profits.」
 
-＠美雨,B01613
-「はい、私もです。幸せすぎて……」
+#「はい、私もです。幸せすぎて……」
+＠Miu,B01613
+「Yes, me too. It gives too much happiness...」
 
-＠美雨,B01614
-「……初めから、ずっとこんな生活を送れていれば良かったのに」
+#「……初めから、ずっとこんな生活を送れていれば良かったのに」
+＠Miu,B01614
+「...Since the beginning, I always feel okay about this kind of livelihood.」
 
-その言葉は、少し寂しそうに美雨の口から紡がれた……
+#その言葉は、少し寂しそうにMiuの口から紡がれた……
+#SCRIPT ADD KANJI
+Ｔhose words, which filled with little loneliness were said from Miu's mouth...
+
 
 
 bgm_stop
@@ -1784,9 +2134,13 @@ bgm_stop
 @bg_sky_n		# 夜空
 
 
-オレと美雨は示し合わせるでもなく、そのまま目を瞑る。
+#オレとMiuは示し合わせるでもなく、そのまま目を瞑る。
+#SCRIPT ADD KANJI
+Ｍe and Miu didn't arrange beforehand, without any change we closed our eyes.
 
-暖かな心地よさに呑まれ、このまま眠ってしまいたかった。
+#暖かな心地よさに呑まれ、このまま眠ってしまいたかった。
+#SCRIPT ADD KANJI
+Ｃovered with this warm feelings, we fell asleep in that condition.
 
 
 @bg_black

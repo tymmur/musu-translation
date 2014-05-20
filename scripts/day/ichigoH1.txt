@@ -418,7 +418,7 @@ label	ichigo_h1
 #■選択肢
 #（１．オレも行く）
 #（２．そのまま見送る）
-select	sel,"オレも行く","そのまま見送る"
+select	sel,"I'll go too","Leave off"
 if sel=0 then goto ichigo_h1_1
 if sel=1 then goto ichigo_h1_2
 

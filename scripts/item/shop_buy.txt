@@ -839,7 +839,7 @@ label	shopitem_buy
 #（１．買う）
 #（２．やっぱりやめる）
 
-select sel,"買う","やっぱりやめる"
+select sel,"Buy","On second thought, no"
 if sel=0	then	goto shopitem_buy1
 if sel=1	then	goto shopitem_buy2
 

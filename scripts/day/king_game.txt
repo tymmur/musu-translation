@@ -1275,8 +1275,8 @@ wait	500
 
 #（１．真ん中のクジ）
 #（２．少し汚れているクジ）
-#（３．ノリっぽいクジ）
-select	sel,"真ん中のクジ","少し汚れているクジ","ノリっぽいクジ"
+#（３．ノリっぽいクジ）Draw nori-like (law?)(paste?)(seaweed?)(?)
+select	sel,"Draw from the middle","Play a little dirty","Play fair"
 if sel=0 then goto	oosama_01
 if sel=1 then goto	oosama_02
 if sel=2 then goto	oosama_03

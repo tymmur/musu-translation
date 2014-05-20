@@ -10,7 +10,7 @@ bgm_stop
 #SE15　目覚ましの音（ジリリリリッ！）
 @se15
 
-＠樹
+＠Itsuki
 「………ん、ぅ～～」
 
 #■BG（自室・昼）
@@ -21,141 +21,214 @@ bgm_stop
 #SE71　目覚ましが止まる音（リンッ）
 @se71
 
-カチッ……
+#カチッ……
+#SCRIPT ADD KANJI
+Ｃreak.......
 
-＠樹
-「眠い………」
+#「眠い………」
+＠Itsuki
+「Man, I'm sleepy......」
 
-鳴り響く目覚ましを止めて、針の示す時間を確認する。
+#鳴り響く目覚ましを止めて、針の示す時間を確認する。
+#SCRIPT ADD KANJI
+Ｉ stopped the alarm clock and the clock's hands are showing the time.
 
-窓から差す光の眩しさにも負けない朝の眠気。
+#窓から差す光の眩しさにも負けない朝の眠気。
+#SCRIPT ADD KANJI
+Ｅven the dazzling light can't beat the drowsiness.
 
 ここで二度寝をするのは最高に贅沢な時間の過ごし方だが、
 
 #SE19　廊下を走る音
 @se19
 
-＠いちご,O00395
-「朝だーーーッ！！　お腹空いたーーーッ！！」
+#「朝だーーーッ！！　お腹空いたーーーッ！！」
+＠Ichigo,O00395
+「IT'S MORNING~~~!! AND I'M STARVING~~~!!」
 
-スイッチ一つでベルを止める目覚ましよりもよっぽど強力ないちごの発声。
+#スイッチ一つでベルを止める目覚ましよりもよっぽど強力ないちごの発声。
+#SCRIPT ADD KANJI
+Ｉchigo's sound kicks in more than one alarm's ring.
 
-元気いっぱいに廊下を走り、それは周りを起こしながらこちらへ近づいてくる。
+#元気いっぱいに廊下を走り、それは周りを起こしながらこちらへ近づいてくる。
+#SCRIPT ADD KANJI
+Ｓhe storms down to the hall way energicly, and that's the way she wakes the neighbors as she approaches.
 
 #SE12　部屋のドアを乱暴にノック（ダンダンダン！）
 @se12
 
-＠いちご,O00396
-「パパ起きてーッ、朝ご飯食べよーー♪」
+#「パパ起きてーッ、朝ご飯食べよーー♪」
+＠Ichigo,O00396
+「Papa wakes up, Let's eat some breakfast~~♪」
 
-＠樹
-「分かったー、すぐ行く」
+#「分かったー、すぐ行く」
+＠Itsuki
+「I know, I'll get going.」
 
-そう、今日から子供達は新学期だ。
+#or
+#「Uhn~ I know, I'll be right there.」
+#Not sure right here, I like the second better under those circumstances.
+
+#そう、今日から子供達は新学期だ。
+#SCRIPT ADD KANJI
+Ｙeah, Today is the kids' new semester.
 
 @bg_black
 #■BG（食堂）
 event	"event\EV_ALL_020-04.png"
 
-＠樹
-「おはよう」
+#「おはよう」
+＠Itsuki
+「Morning.」
 
-＠美雨,B00269
-「おはようございます」
+#「おはようございます」
+＠Miu,B00269
+「Good morning.」
 
-＠いちご,O00397
-「早くないっ、いちごお腹空いたよー」
+#「早くないっ、いちごお腹空いたよー」
+＠Ichigo,O00397
+「It's not fast at all, Ichigo's starving you know~」
 
-＠かりん,P00441
-「ほんと、あなたが揃ってからだって美雨が聞かないから、もうペコペコよ」
+#「ほんと、あなたが揃ってからだって美雨が聞かないから、もうペコペコよ」
+＠Karin,P00441
+「」
 
-＠樹
-「前にも言ったけど、別にオレを待つことないのに」
+#「前にも言ったけど、別にオレを待つことないのに」
+＠Itsuki
+「Well I've told you all before, there's no need to wait for me you know.」
 
-＠美雨,B00270
-「いえ、樹さんはここの院長なんですから、ちゃんと揃ってからいただくのが普通ですよ」
+#「いえ、樹さんはここの院長なんですから、ちゃんと揃ってからいただくのが普通ですよ」
+＠Miu,B00270
+「No, Itsuki is the director here, so waiting for you is an usual thing.」
 
-ここでの食事は院長のオレ抜きでは始められない。
+#or
+#「No, it can't. Itsuki is the head here, so waiting for you is the appropriate things to do.」
+#Hmm this one is tricky, because seeing Miu's characters I'm not sure about the first translation, so i spiced
+#some at the second.
 
-それは美雨が決めたことで、別に構わないと言っても譲ってくれないのだ。
+#ここでの食事は院長のオレ抜きでは始められない。
+#SCRIPT ADD KANJI
+Ｔhe rules in here that they can't begin eating without the director presence which is me.
+
+#それは美雨が決めたことで、別に構わないと言っても譲ってくれないのだ。
+#SCRIPT ADD KANJI
+Ｔhat what Miu has decided, I just can't tell her that she shouldn't care much about it.
 
 #■EVCG（みんなで食事。雫・ゆず抜き）
 
-＠いちご,O00398
-「今日からまた学校かー。楽しいけど、休みが終わるのもったいないなぁ」
+#「今日からまた学校かー。楽しいけど、休みが終わるのもったいないなぁ」
+＠Ichigo,O00398
+「So it's school from today~. It's fun but holiday isn't bad either.」
 
-＠すいか,R00170
-「うん、そうだね。宿題が無いのは嬉しいけど、やっぱり春休みは短いかも」
+#「うん、そうだね。宿題が無いのは嬉しいけど、やっぱり春休みは短いかも」
+＠Suika,R00170
+「Yeah, you're right. I'm happy there is no homework but I still think spring break is too short.」
 
-食事中、カチャカチャと食器を鳴らしながら、いちごが残念そうな愚痴をこぼす。
+#食事中、カチャカチャと食器を鳴らしながら、いちごが残念そうな愚痴をこぼす。
+#SCRIPT ADD KANJI
+Ｗhile eating, the sound of tableware clashing, and Ichigo is still grumbling complaints.
 
-＠ざくろ,Q00311
-「いちごは授業中も寝てるんだから、大差ないんじゃない？」
+#「いちごは授業中も寝てるんだから、大差ないんじゃない？」
+＠Zakuro,Q00311
+「Ichigo is sleeping in the class anyway, so what's the difference?」
 
-＠いちご,O00399
-「あははっ、それもそっかー♪」
+#「あははっ、それもそっかー♪」
+＠Ichigo,O00399
+「Ahahaaha.., that's true~♪」
 
-＠樹
-「そんな嬉しそうに同意するのも、どうかと思うぞ」
+#「そんな嬉しそうに同意するのも、どうかと思うぞ」
+＠Itsuki
+「」
 
-＠美雨,B00271
-「いちごちゃん～？　そんなことだと、また通知表悪くなっちゃうわよ」
+#「いちごちゃん～？　そんなことだと、また通知表悪くなっちゃうわよ」
+＠Miu,B00271
+「Ichigo-chan~? If you do things like that, you're report will all fire in red you know.」
 
-＠いちご,O00400
-「う……が、頑張る……」
+#「う……が、頑張る……」
+＠Ichigo,O00400
+「Uuu.... I'll study hard.」
 
-＠みかん,A00390
-「かりんちゃんも、今日は一緒に登校だよね？」
+#「かりんちゃんも、今日は一緒に登校だよね？」
+＠Mikan,A00390
+「Karin-chan too, You're going to school with us right?」
 
-＠かりん,P00442
-「ええ。ちゃんとみかんと同じクラスになれるように根回ししておいたわ」
+#「ええ。ちゃんとみかんと同じクラスになれるように根回ししておいたわ」
+＠Karin,P00442
+「Yeah. I've made sure to be in the same class with you guys.」
 
-＠かりん,P00443
-「あぁ、クラスメート……昼は同じ教室、帰る場所も同じ家……私の一日はずっとみかんみかんみかんのみかんだらけ……」
+#Please help me express these words into something friendlier
 
-＠ざくろ,Q00312
-「嫌なんだって」
+#「あぁ、クラスメート……昼は同じ教室、帰る場所も同じ家……私の一日はずっとみかんみかんみかんのみかんだらけ……」
+＠Karin,P00443
+「Aa, Classmate...... Daytime in the same class, we go home to the same place.... My day is always filled with Mikan Mikan Mikan Mikan Mikan.....」
 
-＠みかん,A00391
-「えっ！？　あ……そっか、ずっと一緒に居るのも迷惑だよね……」
+#At the Mikan mikan mikan part she is implying it negatively some please help me convey it.
 
-＠かりん,P00444
-「ちょっとッ、変なこと言わないでゴスロリッ！　みかんとだったら私、どこまででも堕ちていけるわ！！」
+#「嫌なんだって」
+＠Zakuro,Q00312
+「So you hate it.」
 
-＠かりん,P00445
-「むしろ、堕ちていきたい……（ポッ）」
+#「えっ！？　あ……そっか、ずっと一緒に居るのも迷惑だよね……」
+＠Mikan,A00391
+「Eeh!? Aa.... I get it, always being together with me is annoying right....」
 
-朝から飛ばしすぎだ、かりん……
+#「ちょっとッ、変なこと言わないでゴスロリッ！　みかんとだったら私、どこまででも堕ちていけるわ！！」
+＠Karin,P00444
+「Wait a sec-, Don't spout any wierd comment you, cosloli! If I always seen being with Mikan, I'll be degenerated you know!!」
 
-まぁ初登校を不安がるよりは、盛り上がってくれてる方がマシだと思うが。
+#「むしろ、堕ちていきたい……（ポッ）」
+＠Karin,P00445
+「It's as if you want to be degenerated......(Po)」
 
-＠ざくろ,Q00313
-「……ゴスロリ」
+#
 
-周りに聞こえないくらいの声で、ポツリとざくろが無感情に呟く。
+#朝から飛ばしすぎだ、かりん……
+#SCRIPT ADD KANJI
+Ｆrom morning you fired up too much, Karin.....
 
-＠かりん,P00446
-「でも学校じゃ、邪な気持ちの男子がみかんに寄り付かないか心配で心配で」
+#まぁ初登校を不安がるよりは、盛り上がってくれてる方がマシだと思うが。
+#SCRIPT ADD KANJI
+Ｗell, going to new school is better this way than getting nervous, I think.
 
-＠みかん,A00392
-「え、別にそんなことないよ～。男子のみんなも仲良くしてくれてるよ」
+#「……ゴスロリ」
+＠Zakuro,Q00313
+「.......CosLoli.」
 
-＠かりん,P00447
-「だ、男子と仲良く……ッ！？」
+#周りに聞こえないくらいの声で、ポツリとざくろが無感情に呟く。
+#SCRIPT ADD KANJI
+Ｚakuro is muttering some sort of unheard voices.
 
-＠かりん,P00448
-「そ、そんな……新性生活の出遅れが、もうみかんに悪い虫を近づけさせているなんてッ……」
+#「でも学校じゃ、邪な気持ちの男子がみかんに寄り付かないか心配で心配で」
+＠Karin,P00446
+「But in school, Mikan might be approached by some sort ill-mannered boys. I'm worried, very worried.」
 
-＠樹
-「『せい』が一個多かった気がするが……かりん、あんまり神経質になると学校も楽しくなくなるぞ？」
+#「え、別にそんなことないよ～。男子のみんなも仲良くしてくれてるよ」
+＠Mikan,A00392
+「Eh, There's no such a thing~. All the boys are very friendly to me, you know.」
 
-＠樹
-「学校では学校での友達を作ってみろ。そんな心配するような奴なんかいないって」
+#「だ、男子と仲良く……ッ！？」
+＠Karin,P00447
+「Geh, Friendly with boys.........!?」
 
-＠かりん,P00449
-「それはまぁ、お兄ちゃんとか呼ばせてるどっかの変態と比べれば、全然安全圏内だとは思うけど」
+#「そ、そんな……新性生活の出遅れが、もうみかんに悪い虫を近づけさせているなんてッ……」
+＠Karin,P00448
+「Th-, That can't be true...... Late sprouting new sex life, Mikan has already approached by evil bugs..... 」
 
-まだ言うか、それを。
+#「『せい』が一個多かった気がするが……かりん、あんまり神経質になると学校も楽しくなくなるぞ？」
+＠Itsuki
+「」
+
+#「学校では学校での友達を作ってみろ。そんな心配するような奴なんかいないって」
+＠Itsuki
+「Just try making some friends at school. There's no such a person that you can be worried of.」
+
+#「それはまぁ、お兄ちゃんとか呼ばせてるどっかの変態と比べれば、全然安全圏内だとは思うけど」
+＠Karin,P00449
+「Well that's can't be compared with a pervert that called by Oniihan, The level is different, I think.」
+
+#まだ言うか、それを。
+#SCRIPT ADD KANJI
+Ｓo she's still bringing up that thing......
 
 @bg_black
 #■BG（食堂）
@@ -163,38 +236,53 @@ event	"event\EV_ALL_020-04.png"
 
 @miu
 
-＠美雨,B00272
-「みんな、そろそろ時間、大丈夫なの？」
+#「みんな、そろそろ時間、大丈夫なの？」
+＠Miu,B00272
+「Everyone, It's almost time, It's alright?」
 
-そんな実の無い話をしていると、おかわりの世話をする美雨が壁にかかる時計を示した。
+#そんな実の無い話をしていると、おかわりの世話をする美雨が壁にかかる時計を示した。
+#SCRIPT ADD KANJI
+Ｂringing up the reality, she points out the clock on the wall while doing giving another serving.
 
-＠いちご,O00401
-「うわッ、ほんとだ！　急がないと遅刻しちゃうよ！？」
+#「うわッ、ほんとだ！　急がないと遅刻しちゃうよ！？」
+＠Ichigo,O00401
+「Uwa, you're right! If we're not hurry, we'll be late, guys!?」
 
-＠すいか,R00171
-「休み中の時間感覚のままだったから。慌しいけど行こ、かりんちゃんも」
+#「休み中の時間感覚のままだったから。慌しいけど行こ、かりんちゃんも」
+＠Suika,R00171
+「Well, time fly fast while you rest. You guys better hurry. Karin-chan too.」
 
-＠かりん,P00450
-「はぁぁ……送迎の車も無い徒歩通学なのね。これからは……」
+#「はぁぁ……送迎の車も無い徒歩通学なのね。これからは……」
+＠Karin,P00450
+「Haaaa..... There's no car to pick us up and we have to run all the way to school. And after that.......」
 
 #SE18　廊下を歩き去る音　※徐々に小さく
 @se18
 
 
-バタバタと食事を片付けると、各々食堂を後にして行った。
+#バタバタと食事を片付けると、各々食堂を後にして行った。
+#SCRIPT ADD KANJI
+Ｈurriedly finishing up the food, they leave the room.
 
-＠樹
-「気をつけて行ってこいよ」
+#「気をつけて行ってこいよ」
+＠Itsuki
+「You guys becareful okay!」
 
-＠美雨,B00273
-「行ってらっしゃい」
+#「行ってらっしゃい」
+＠Miu,B00273
+「Safety trips.」
 
-＠美雨,B00274
-「……さてと、私も私も朝食を終えたら仕事に戻らないと」
+#「……さてと、私も私も朝食を終えたら仕事に戻らないと」
+＠Miu,B00274
+「.......Well then, I also have to return to jobs after eating.」
 
-一気に静かになった食堂へ腰を下ろすと、手付かずだった自分の分を食べ始める。
+#一気に静かになった食堂へ腰を下ろすと、手付かずだった自分の分を食べ始める。
+#SCRIPT ADD KANJI
+Ｉ and Miu together sit down at the dining table, say some prayer then eat our food.
 
-朝食は終えたオレだったが、そのまま美雨と他愛ない話をしながら時間を過ごしていった。
+#朝食は終えたオレだったが、そのまま美雨と他愛ない話をしながら時間を過ごしていった。
+#SCRIPT ADD KANJI
+Ａfter finishing up the breakfast, I just stay there and talk about some silly things with Miu to kill time.
 
 @bg_black
 @open_schedule
@@ -202,3 +290,4 @@ event	"event\EV_ALL_020-04.png"
 return
 
 #（スケジュール）
+

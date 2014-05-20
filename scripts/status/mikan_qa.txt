@@ -54,8 +54,9 @@ label	mikan_qa01
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01632
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01632
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -63,32 +64,40 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#SCRIPT ADD KANJI
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01633
-「あのね、分からない事があるの」
+#「あのね、分からない事があるの」
+＠Mikan,A01633
+「あのね, there's something I don't understand.」
 
-＠みかん,A01634
-「空にある宇宙って、真っ暗なんだよね？　どうして青空が見えるの？」
+#「空にある宇宙って、真っ暗なんだよね？　どうして青空が見えるの？」
+＠Mikan,A01634
+「In the sky is space I heard, which is all black right? Why does the sky look blue then?」
 
-＠樹
-「唐突だな……宿題か？」
+#「唐突だな……宿題か？」
+＠Itsuki
+「This is kind of sudden...... Is it for school?」
 
-＠みかん,A01635
-「うん。理科のグループ研究で空について調べてることになったの」
+#「うん。理科のグループ研究で空について調べてることになったの」
+＠Mikan,A01635
+「Yeah. Our science group is supposed to be researching about the sky.」
 
-＠樹
-「そうか。う～ん……」
+#「そうか。う～ん……」
+＠Itsuki
+「Is that so. Weeell......」
 
 
 #--------------------------------------------------
 #選択肢
 #（１．しっかり答えてあげる）
 #（２．簡略して答えてあげる）
-select sel,"しっかり答えてあげる","簡略して答えてあげる"
+select sel,"Answer in detail","Simplify and answer"
 if sel=0 then goto mikan_qa01_a
 if sel=1 then goto mikan_qa01_b
 #--------------------------------------------------
@@ -99,27 +108,33 @@ label	mikan_qa01_a
 #--------------------------------------------------
 
 
-反射する光の波長や、空気中の水蒸気や塵などを交えて説明してあげた。
+#反射する光の波長や、空気中の水蒸気や塵などを交えて説明してあげた。
+#SCRIPT ADD KANJI
+Ｉ included all kinds of things like the wavelengths of light which radiate, water vapour throughout the atmosphere, and dust in my explanation.
 
-＠樹
-「……と、いうわけだ。分かったか？」
+#「……と、いうわけだ。分かったか？」
+＠Itsuki
+「...... And that's why the sky is blue. Did you understand?」
 
 
-＠みかん,A01636
+＠Mikan,A01636
 「え、えっと……」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01637
-「あぅ…ごめんなさい……よく分からなかった…」
+#「あぅ…ごめんなさい……よく分からなかった…」
+＠Mikan,A01637
+「あぅ... Sorry...... I didn't get it very well at all...」
 
-＠樹
-「そうか……まだみかんには難しかったかな」
+#「そうか……まだみかんには難しかったかな」
+＠Itsuki
+「Is that so...... I guess I made it difficult for Mikan again.」
 
-＠みかん,A01638
-「ごめんね、せっかく説明してくれたのに……」
+#「ごめんね、せっかく説明してくれたのに……」
+＠Mikan,A01638
+「Sorry, you went to so much trouble in that explanation for me though......」
 
 
 bgm_stop
@@ -131,9 +146,13 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 
-ションボリとして、みかんは自分の部屋に戻っていった。
+#ションボリとして、みかんは自分の部屋に戻っていった。
+#SCRIPT ADD KANJI
+Ｄownhearted, Mikan returned to her room.
 
-……う～ん。もっと分かりやすく言ってあげるべきだったな。
+#……う～ん。もっと分かりやすく言ってあげるべきだったな。
+#SCRIPT ADD KANJI
+　...... Hmm. I guess I should have tried to make it easier to understand for her.
 
 
 #（スケジュールへ）
@@ -148,10 +167,13 @@ label	mikan_qa01_b
 #--------------------------------------------------
 
 
-小難しい話は止めて、砕けた説明でまとめてあげた。
+#小難しい話は止めて、砕けた説明でまとめてあげた。
+#SCRIPT ADD KANJI
+Ｉ limited any troublesome stories and seeked a more broken-down explanation.
 
-＠樹
-「……と、いうわけだ。分かったか？」
+#「……と、いうわけだ。分かったか？」
+＠Itsuki
+「...... And that's why the sky is blue. Does that make sense?」
 
 
 @mikan_warai		#笑
@@ -164,33 +186,42 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01639
-「うんっ、すごく分かりやすかった～っ♪」
+#「うんっ、すごく分かりやすかった～っ♪」
+＠Mikan,A01639
+「Yeah, that was really easy to understand～♪」
 
-＠みかん,A01640
-「すぐ答えてくれるなんて、お兄ちゃんって物知りなんだねっ」
+#「すぐ答えてくれるなんて、お兄ちゃんって物知りなんだねっ」
+＠Mikan,A01640
+「You reply really quickly for me, Onii-chan is definitely knowledgable.」
 
-嬉しそうに笑うみかん。どうやら上手く伝わったようだ。
+#嬉しそうに笑うみかん。どうやら上手く伝わったようだ。
+#SCRIPT ADD KANJI
+Ａppearing delighted Mikan smiles. It seems I managed to transmit it well.
 
-＠みかん,A01641
-「また分からないことがあったら、聞きに来てもいい？」
+#「また分からないことがあったら、聞きに来てもいい？」
+＠Mikan,A01641
+「If there's something I don't understand again, is it okay if I come to ask?」
 
-＠樹
-「ああ、いつでも来て良いよ」
+#「ああ、いつでも来て良いよ」
+＠Itsuki
+「Ahh, anytime is fine.」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01642
-「うんっ♪」
+#「うんっ♪」
+＠Mikan,A01642
+「Yeah!♪」
 
 
 bgm_stop
 @mikan_
 
 
-満足して、みかんは自分の部屋に戻っていった。
+#満足して、みかんは自分の部屋に戻っていった。
+#SCRIPT ADD KANJI
+Ｓatisfied, Mikan returned to her room.
 
 window_close
 #（スケジュールへ）
@@ -210,8 +241,9 @@ label	mikan_qa02
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01643
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01643
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -219,29 +251,35 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01644
-「お兄ちゃんって、みかんのことどう思う？」
+＠Mikan,A01644
+#「お兄ちゃんって、みかんのことどう思う？」
+"Onii-chan, how do you feel about me?"
 
-＠樹
-「……唐突だな、急に。大事な家族だと思ってるよ」
+＠Itsuki
+#「……唐突だな、急に。大事な家族だと思ってるよ」
+"……That's a very sudden question. I think you're a very dear family member"
 
-＠みかん,A01645
-「う～ん、と……他にもっと無い…？　みかんのこと」
+＠Mikan,A01645
+#「う～ん、と……他にもっと無い…？　みかんのこと」
+"And, um… There isn't anything else? About me?"
 
-家族より、もっと何かか……
+#家族より、もっと何かか……
+As in family, or something more…
 
 
 #--------------------------------------------------
 #選択肢
-#（１．妹みたいに思ってる）
-#（２．ロリッ娘だと思ってる）
-#（３．恋人だと思ってる）
-select sel,"妹みたいに思ってる","ロリッ娘だと思ってる","恋人だと思ってる"
+#（１．妹みたいに思ってる）I think the sister like.
+#（２．ロリッ娘だと思ってる）It is thought it Rori~tsu daughter.
+#（３．恋人だと思ってる）And thinks it's lover.
+select sel,"You're my little sister","You're my loli-daughter","You're my lover"
 if sel=0 then goto mikan_qa02_a
 if sel=1 then goto mikan_qa02_b
 if sel=2 then goto mikan_qa02_c
@@ -253,37 +291,39 @@ label	mikan_qa02_a
 #--------------------------------------------------
 
 
-＠樹
-「妹みたいだなって思ってるよ」
+＠Itsuki
+#「妹みたいだなって思ってるよ」
+"I have come to think of you as my little sister."
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01646
-「ほんとっ？　お兄ちゃんがみかんのお兄ちゃんでもいいのっ？」
+＠Mikan,A01646
+#「ほんとっ？　お兄ちゃんがみかんのお兄ちゃんでもいいのっ？」
+"Really? Oniichan ga mikan no oniichan demo ii no~tsu?"
 
-＠樹
+＠Itsuki
 「もちろん、みかんみたいな妹なら大歓迎だよ」
 
 
 @mikan_warai		#笑
 
 
-＠みかん,A01647
+＠Mikan,A01647
 「よかった～♪　あのね、ちょっとだけ心配だったの」
 
-＠みかん,A01648
+＠Mikan,A01648
 「みかんが無理言ってお兄ちゃんってお願いしたから、本当はお兄ちゃん嫌じゃないのかなって」
 
-＠樹
+＠Itsuki
 「まぁ最初は戸惑ったけどな。でも今はそれが一番だよ」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01649
+＠Mikan,A01649
 「うんっ。お兄ちゃん、これからもよろしくねっ！」
 
 嬉しそうな笑顔を溢れさせて、みかんは自分の部屋へ戻って行った。
@@ -303,14 +343,14 @@ label	mikan_qa02_b
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「ロリッ娘だ！」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01650
+＠Mikan,A01650
 「ふえっ…！？　ろ、ロリッこ？」
 
 
@@ -318,31 +358,31 @@ label	mikan_qa02_b
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠樹
+＠Itsuki
 「それ以外に考えられない！」
 
-＠みかん,A01651
+＠Mikan,A01651
 「わ、わぁっ！？」
 
 目を丸くしたみかんが、さらにオレに抱き上げられて驚きを上げる。
 
-＠樹
+＠Itsuki
 「この小柄な体型！　プニプニした感触！　オレを慕ってくれる純粋さと可愛さ！」
 
-＠樹
+＠Itsuki
 「そして『お兄ちゃん』ときたらもう、キング・オブ・ロリだぞみかんーー！！」
 
-＠みかん,A01652
+＠Mikan,A01652
 「え、ええッ…！？　ど、どうしたのお兄ちゃん、何か変だよぉ～っ」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01653
+＠Mikan,A01653
 「えっと、あのね、みかんが聞きたい答えって―――」
 
-＠樹
+＠Itsuki
 「あぁッ、ベッドの横に置いて抱きしめながら眠りたいッ！！」
 
 
@@ -352,7 +392,7 @@ screen_vibration	500,16,16,16
 @se36
 
 
-＠みかん,A01654
+＠Mikan,A01654
 「ひゃうぅッ！？　お、お兄ちゃん～～～！？」
 
 抱きしめてベッドへ押し倒すと………そのままオレは眠ってしまっていた。
@@ -382,62 +422,62 @@ label	mikan_qa02_c
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「こい――――」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01655
+＠Mikan,A01655
 「……？　こい？」
 
 ちょっと待て。恋人、か……？
 何かそれは違うだろう……
 
-＠みかん,A01656
+＠Mikan,A01656
 「こい……なぁに？」
 
-＠樹
+＠Itsuki
 「えっと………こい、小粋な女の子」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01657
+＠Mikan,A01657
 「小粋っ…？！」
 
 やはりその驚きぶりは、みかんも予想外の答えだったようだ。
 
-＠みかん,A01658
+＠Mikan,A01658
 「みかんって、お兄ちゃんから見て小粋だったのっ……！？」
 
-＠樹
+＠Itsuki
 「いや、どうだろう……。自分で言っておいて変だと思う」
 
 
 @mikan_kusyou		#苦笑
 
 
-＠みかん,A01659
+＠Mikan,A01659
 「……そもそもみかん、あんまり意味も知らないような言葉だよ…」
 
 
 @mikan			#普通
 
 
-＠みかん,A01660
+＠Mikan,A01660
 「おしゃれとか、都会染みてるってこと……？」
 
-＠樹
+＠Itsuki
 「……みかんには何か、しっくり来ないイメージだな」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01661
+＠Mikan,A01661
 「みかんって、お兄ちゃんにとって小粋な家族だったんだ……」
 
 
@@ -464,8 +504,9 @@ label	mikan_qa03
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01662
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01662
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -473,31 +514,39 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01663
-「今クロスワードを解いてたんだけど、どうしても分からないところがあって」
+#「今クロスワードを解いてたんだけど、どうしても分からないところがあって
+＠Mikan,A01663
+「I've been solving a crossword but, there are some I don't know really」
 
-＠みかん,A01664
-「ここの縦と横なんだけど、お兄ちゃん分かる……？」
+#「ここの縦と横なんだけど、お兄ちゃん分かる……？」
+＠Mikan,A01664
+「There's a down and an across, Onii-chan do you know them?」
 
-＠樹
-「ふむ。どれどれ」
+#「ふむ。どれどれ」
+＠Itsuki
+「Hmm. Let's see」
 
-みかんの指差した問題に目を落とした。
+#みかんの指差した問題に目を落とした。
+Mikan pointed to the questions and I looked down.
 
-（ヨコ２３）
-『その棒状の物をしっかり咥えて、口内でゴシゴシ擦りましょう』
+#（ヨコ２３）
+#『その棒状の物をしっかり咥えて、口内でゴシゴシ擦りましょう』
+（２３ Across）
+『A rod like thing that we suck, rub and scrub in the mouth』
 
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．ハブラシ）
-#（２．おちんちん）
-select sel,"ハブラシ","おちんちん"
+#（１．ハブラシ）Toothbrush
+#（２．おちんちん）Penis
+select sel,"Toothbrush","Penis"
 sel1=sel
 #--------------------------------------------------
 
@@ -505,135 +554,158 @@ sel1=sel
 @mikan_odoroki		#驚
 
 
-＠みかん,A01665
-「すご～いッ、分かるのお兄ちゃん！？」
+#「すご～いッ、分かるのお兄ちゃん！？」
+＠Mikan,A01665
+「Woow!, Onii-chan figured it out!?」
 
-＠樹
+＠Itsuki
 「まぁな。次はどれだ」
-
+「Yeah, sure. What's next?」
 
 @mikan			#普通
 
 
-＠みかん,A01666
-「えっとね～、ここっ」
+#「えっとね～、ここっ」
+＠Mikan,A01666
+「Well, ahh... here」
 
-（タテ３１）
-『七五三縄』の読み方
+#（タテ３１）
+#『七五三縄』の読み方
+（３１ Down）
+What is a『7-5-3 Rope』
 
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．きっこうしばり）
+#（１．きっこうしばり）Bondage Harness
 #（２．しめなわ）
-select sel,"きっこうしばり","しめなわ"
+select sel,"Kikou Shibari (Bondage Harness)","Shimenawa (Shinto shrine holy ropes)"
 sel2=sel
 #--------------------------------------------------
 
 
-＠樹
-「楽勝だぜ」
+#「楽勝だぜ」
+＠Itsuki
+「No Sweat.」
 
 
 @mikan_warai		#笑
 
 
-＠みかん,A01667
-「わぁいッ♪　あとね、ここも教えて！」
+#「わぁいッ♪　あとね、ここも教えて！」
+＠Mikan,A01667
+「Kawaaii♪ I got it, here too - tell me this one!」
 
-（ヨコ２６）
-動機は『小さい子が大好きだから！』
+
+#動機は『小さい子が大好きだから！』
+（２６ across）
+Motivation?『Small children, because I love them!』
+
 
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．ロリコン）
 #（２．保母面接）
-select sel,"ロリコン","保母面接"
+select sel,"Pedophile","Kindergarten Teacher"
 sel3=sel
 #--------------------------------------------------
 
 
-＠樹
-「ほら、これで全部だ」
+#「ほら、これで全部だ」
+＠Itsuki
+「Bring it on! Is that all there is?」
 
 
 #--------------------------------------------------
 #（自動分岐）
 if sel1=0 and sel2=1 and sel2=1 then goto mikan_qa03_a
 #（１－２－２以外の選択だった場合）-----------------------------------------
+# (if you didnt choose 1-2-2) -----------------------------------------
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01673
-「ん～……あれ？　でもマスの数と文字が合わないよ？」
+#「ん～……あれ？　でもマスの数と文字が合わないよ？」
+＠Mikan,A01673
+「Nnn uh... wha? The letters don't fit the number of squares?」
 
 答えを書き込んでいたみかんが、首を傾げてペンを止めた。
+Mikan was writing the answers, when her pen froze and she cocked her head.
 
-＠樹
-「そんなバカな……」
-
+#「そんなバカな……」
+＠Itsuki
+「Stupid thing...」
 
 @mikan			#普通
 
 
-＠みかん,A01674
-「ほら、こことか、こっちの文字と合わないもん」
+#「ほら、こことか、こっちの文字と合わないもん」
+＠Mikan,A01674
+「Hey, this... Coach's letters don't go in the holes」
 
-＠樹
-「………すでにみかんの答えが間違ってるんじゃ？」
+#「………すでにみかんの答えが間違ってるんじゃ？」
+＠Itsuki
+「....... Was one of your earlier answers wrong?」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01675
-「え～～っ、そうかなぁ……」
+#「え～～っ、そうかなぁ……」
+＠Mikan,A01675
+「Oooh, I wonder if it was...」
 
-難しそうな顔をして、ウンウンと雑誌とにらめっこ。
-
+#難しそうな顔をして、ウンウンと雑誌とにらめっこ。
+It's hard to keep a straight face, saying "uh-huh" and staring at the magazine.
 
 @mikan_kusyou		#苦笑
 
 
-＠みかん,A01676
+＠Mikan,A01676
 「やっぱり難しいね」
+「It's really hard after all」
 
-＠樹
-「悪いな、力になってやれなくて」
+#「悪いな、力になってやれなくて」
+＠Itsuki
+「You're not doing bad. Don't give up, try harder!」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01677
-「ううん。また部屋で考えてみる」
+#「ううん。また部屋で考えてみる」
+＠Mikan,A01677
+「Mmm. I'll think about it in my room.」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01678
-「夜遅くにごめんね、お兄ちゃん。おやすみ」
+#「夜遅くにごめんね、お兄ちゃん。おやすみ」
+＠Mikan,A01678
+「I'm sorry to bother you so late at night, Onii-chan. Good night」
 
 
 bgm_stop
 @mikan_
 
 
-＠樹
-「ああ、おやすみ」
+#「ああ、おやすみ」
+＠Itsuki
+「Ah, good night」
 
 
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
 
-残念そうに、みかんは部屋へ帰っていってしまった。
+#残念そうに、みかんは部屋へ帰っていってしまった。
+In sadness, Mikan went back to her room.
 
-ちょっとがっかりさせてしまったかな。
+#ちょっとがっかりさせてしまったかな。
+I wonder if I just disappointed her a little?
 
 
 #（スケジュールへ）
@@ -662,7 +734,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01668
+＠Mikan,A01668
 「ほんとだっ、すご～い！　全部解けた～～ッ♪」
 
 雑誌を抱えるようにして、嬉しそうに跳ねるみかん。
@@ -671,17 +743,17 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_warai		#笑
 
 
-＠みかん,A01669
+＠Mikan,A01669
 「さすがお兄ちゃんだね！　すごく頼りになるよっ」
 
-＠樹
+＠Itsuki
 「そ、そうか…？　また何かあったら聞いて来い」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01670
+＠Mikan,A01670
 「うんッ！　えへへ～♪」
 
 たかがクロスワードとは言え、ここまで素直に褒められると少し照れくさかった。
@@ -690,10 +762,10 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01671
+＠Mikan,A01671
 「お兄ちゃん、まだお仕事あるの？　みかんお茶持ってきてあげようか」
 
-＠樹
+＠Itsuki
 「ありがとう。それじゃ、一緒に行くか」
 
 
@@ -707,7 +779,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01672
+＠Mikan,A01672
 「うんッ！」
 
 
@@ -737,8 +809,9 @@ label	mikan_qa04
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01679
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01679
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -746,15 +819,17 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01680
+＠Mikan,A01680
 「あのね、今学校でベルマークを集めてるの。お兄ちゃん持ってない？」
 
-＠樹
+＠Itsuki
 「懐かしいな、ベルマーク……。ちょっと待ってろ」
 
 
@@ -767,7 +842,7 @@ wait		1000
 
 机の中の文房具などをチェックする。
 
-＠樹
+＠Itsuki
 「学校でってことは、かりんやいちご達も集めてるのか？」
 
 
@@ -781,23 +856,23 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01681
+＠Mikan,A01681
 「うん。だからみんなでジャンケンしたんだよ」
 
-＠みかん,A01682
+＠Mikan,A01682
 「それでみかんが勝ったから、お兄ちゃんのところに来たの♪」
 
-＠樹
+＠Itsuki
 「そうか。ちゃんと平等に決めたことならいいんだ」
 
 
 @mikan_kusyou		#苦笑
 
 
-＠みかん,A01683
+＠Mikan,A01683
 「でも負けたゆずちゃんとかりんちゃんは残念そうだったけど」
 
-＠樹
+＠Itsuki
 「ゆずは分かるが、かりんも？」
 
 
@@ -811,7 +886,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01684
+＠Mikan,A01684
 「うん。お兄ちゃんにベルマーク貰いたかったみたい」
 
 意外だな。
@@ -821,10 +896,10 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan			#普通
 
 
-＠みかん,A01685
+＠Mikan,A01685
 「……お兄ちゃん、ベルマークあった？」
 
-＠樹
+＠Itsuki
 「ん？　あぁ、えっと……」
 
 いくつか見つかったが。
@@ -835,7 +910,8 @@ layer_movepass_play	l_mikan,0,play_once
 #（１．エッチな交換条件を出す）
 #（２．無条件であげる）
 #（３．他の子にあげる）
-select sel,"エッチな交換条件を出す","無条件であげる","他の子にあげる"
+select sel,"Give in exchange for sex","Give unconditionally","Give to other children"
+
 if sel=0 then goto mikan_qa04_a
 if sel=1 then goto mikan_qa04_b
 if sel=2 then goto mikan_qa04_c
@@ -847,39 +923,39 @@ label	mikan_qa04_a
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「いいけど、交換条件がある」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01686
+＠Mikan,A01686
 「なぁに？」
 
-＠樹
+＠Itsuki
 「そうだな……」
 
 エッチなとは言っても、あんまり度を越すとただの変態だぞ。
 
-＠樹
+＠Itsuki
 「よし。ベルマークが欲しいっていやらしくおねだりしてみろ」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01687
+＠Mikan,A01687
 「………え？」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01688
+＠Mikan,A01688
 「……え、えっと、お兄ちゃん、ベルマークにいやらしく言ってほしいの…？」
 
-＠樹
+＠Itsuki
 「……あれ？」
 
 変態というより、ちょっと頭のおかしい人だった。
@@ -888,14 +964,14 @@ label	mikan_qa04_a
 @mikan_kusyou		#苦笑
 
 
-＠みかん,A01689
+＠Mikan,A01689
 「どう言ったらいいのかな……。えっと」
 
 
 @mikan_yorokobi2	#欲情_喜
 
 
-＠みかん,A01690
+＠Mikan,A01690
 「お兄ちゃんのベルマーク、たくさんみかんにちょうだい……？」
 
 
@@ -914,10 +990,10 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01691
+＠Mikan,A01691
 「…いやらしいお兄ちゃんのそのマーク、早くみかんにほしいよぉ……」
 
-＠樹
+＠Itsuki
 「いや、悪い……。やっぱ無理に言わなくて良いから」
 
 何とか頑張って言おうとするみかんに、くだらない自分自身が情けなくなった。
@@ -939,17 +1015,17 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01692
+＠Mikan,A01692
 「わあっ、ありがとうお兄ちゃん！」
 
-＠樹
+＠Itsuki
 「いっぱい集まるといいな」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01693
+＠Mikan,A01693
 「うんっ、頑張るね！」
 
 
@@ -974,31 +1050,31 @@ label	mikan_qa04_b
 
 切り取ったマークをみかんの手の平に乗せてあげた。
 
-＠樹
+＠Itsuki
 「ほら、これで大丈夫か？」
 
 
 @mikan_warai		#笑
 
 
-＠みかん,A01694
+＠Mikan,A01694
 「うん！　わぁいッ、いっぱいある～～♪」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01695
+＠Mikan,A01695
 「どうもありがとう、お兄ちゃん！」
 
-＠樹
+＠Itsuki
 「どういたしまして。いっぱい集まるといいな」
 
 
 @mikan_ikari		#怒
 
 
-＠みかん,A01696
+＠Mikan,A01696
 「うんっ、みかんまだまだ頑張るよ」
 
 
@@ -1022,48 +1098,51 @@ label	mikan_qa04_c
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「……ごめん、今はちょっと無いみたいだ」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01697
+＠Mikan,A01697
 「あぅ、そうなんだ……残念」
 
-＠樹
+＠Itsuki
 「その代わり、今度見つけたら取っておくからな」
 
 
 @mikan_warai		#笑
 
 
-＠みかん,A01698
+＠Mikan,A01698
 「ほんとっ？　ありがとう！」
 
-＠みかん,A01699
-「それじゃ、みかんお仕事の邪魔しないように戻るね。お休みなさいお兄ちゃん」
-
+＠Mikan,A01699
+#「それじゃ、みかんお仕事の邪魔しないように戻るね。お休みなさいお兄ちゃん」
+"Well then, I'll go back so I won't interfere with your work. Good night Oniichan"
 
 bgm_stop
 @mikan_
 
 
-＠樹
-「ああ、おやすみ」
-
+＠Itsuki
+#「ああ、おやすみ」
+Aah, good night.
 
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
 
-オレに気を遣って、みかんは自分の部屋へ戻って行った。
+#オレに気を遣って、みかんは自分の部屋へ戻って行った。
+Looking back at me, Mikan returned to her room.
 
-しかし……ウソをついちゃったな。
+#しかし……ウソをついちゃったな。
+However. I told a lie.
 
-＠樹
+＠Itsuki
 「学校行事ならみんな集めてるのか。誰に上げようかな」
+Do you have attracted everyone if school events. Who I wonder if I will give (help?)
 
 
 #--------------------------------------------------
@@ -1071,7 +1150,7 @@ bgm_stop
 #（１．かりん）
 #（２．いちご）
 #（３．ゆず）
-select sel,"かりん","いちご","ゆず"
+select sel,"Karin","Ichigo","Yuzu"
 if sel=0 then goto mikan_qa04_d
 if sel=1 then goto mikan_qa04_e
 if sel=2 then goto mikan_qa04_f
@@ -1137,8 +1216,9 @@ label	mikan_qa05
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01700
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01700
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -1147,49 +1227,50 @@ wait		1000
 @mikan_kanashimi
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01701
+＠Mikan,A01701
 「えっと……昼間テレビで怖い映画を見ちゃって……」
 
-＠みかん,A01702
+＠Mikan,A01702
 「その時は明るかったし、夜もみんなが居たから平気だったんだけど……」
 
-＠樹
+＠Itsuki
 「部屋で一人になると、思い出して怖いってことか」
 
-＠みかん,A01703
+＠Mikan,A01703
 「……うん」
 
-＠みかん,A01704
+＠Mikan,A01704
 「寝ようと思って目を閉じたら、瞼の中に怖いお化けが出てくるの」
 
 甘えているわけではなく、本当にしょんぼりしているみかん。
 
 何というか……
 
-＠樹
+＠Itsuki
 「まだ子供だな、みかん」
 
 
 @mikan_ikari		#怒
 
 
-＠みかん,A01705
-「う～っ、子供だもん～ッ」
-（※１８歳以上です）
+＠Mikan,A01705
+「う～っ、子供だもん～ッ」（※１８歳以上です）
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01706
+＠Mikan,A01706
 「ねぇお兄ちゃん、今日一緒の布団で寝てもいい…？」
 
-＠樹
+＠Itsuki
 「ふふふ。オレはいやらしい事をするかもしれないぞ？」
 
 
@@ -1208,7 +1289,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01707
+＠Mikan,A01707
 「してもいいからぁ～……お化けの方がイヤだもん」
 
 と、女の子としてどうかと思う発言まで。
@@ -1218,9 +1299,9 @@ layer_movepass_play	l_mikan,0,play_once
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．一緒に寝てあげる）
-#（２．お化けなんていないと説得する）
-select sel,"一緒に寝てあげる","お化けなんていないと説得する"
+#（１．一緒に寝てあげる）Let her sleep with me
+#（２．お化けなんていないと説得する）Convince her it's not haunted
+select sel,"Let her sleep with me","Convince her it's not haunted"
 if sel=0 then goto mikan_qa05_a
 if sel=1 then goto mikan_qa05_b
 #--------------------------------------------------
@@ -1231,20 +1312,20 @@ label	mikan_qa05_a
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「なら、おいで。一緒に寝てやるから」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01708
+＠Mikan,A01708
 「ほんとっ…？　お布団狭くなるよ……？」
 
-＠樹
+＠Itsuki
 「みかんくらい気にならないさ。それにソレ、もう枕持ってきてるだろ」
 
-＠みかん,A01709
+＠Mikan,A01709
 「あ……」
 
 ずっと身体の後ろで持っていたそれは、もうオレと寝る気満々の証拠だった。
@@ -1253,10 +1334,10 @@ label	mikan_qa05_a
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01710
+＠Mikan,A01710
 「えっと、だって、枕を取りに戻るのも怖かったんだもん……」
 
-＠樹
+＠Itsuki
 「はは。なら早いけどもう寝ようか。一緒にな」
 
 
@@ -1270,7 +1351,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01711
+＠Mikan,A01711
 「うんッ、ありがとうお兄ちゃん！」
 
 
@@ -1288,21 +1369,21 @@ layer_movepass_play	l_mikan,0,play_once
 @bg_black
 
 
-＠みかん,A01712
+＠Mikan,A01712
 「えへへ～、お兄ちゃんと一緒だ～♪」
 
-＠みかん,A01713
+＠Mikan,A01713
 「あ、でもエッチするのが長いと寝る時間が少なくなっちゃうから……」
 
-＠樹
+＠Itsuki
 「いやいや、真に受けるな。冗談だってよ……」
 
 頼ってきてくれた子を、まさか襲うようなことは出来ないしな。
 
-＠みかん,A01714
+＠Mikan,A01714
 「そうなんだ……」
 
-＠みかん,A01715
+＠Mikan,A01715
 「じゃあ、お布団の中でお話しながら寝ようねっ♪」
 
 少し複雑そうだったが、すぐ気分を切り替えるみかん。
@@ -1327,14 +1408,14 @@ label	mikan_qa05_b
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「はぁ……お化けなんていないから、心配するなみかん」
 
 
 @mikan_naki		#泣
 
 
-＠みかん,A01716
+＠Mikan,A01716
 「ふぇッ…！？　うぅう……」
 
 突き放すのではなく、信じてるならちゃんと説明してあげる必要がある。
@@ -1355,16 +1436,16 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01717
+＠Mikan,A01717
 「居るか居ないかじゃないよぉっ、怖いか怖くないかだよぉっ……」
 
-＠樹
+＠Itsuki
 「怖くない怖くない。今まで一人で寝れてたじゃないか」
 
-＠みかん,A01718
+＠Mikan,A01718
 「うぅう～……」
 
-＠樹
+＠Itsuki
 「眠くなったら自然と寝てしまうよ。慣れないと」
 
 
@@ -1377,25 +1458,25 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01719
+＠Mikan,A01719
 「はぅ………うん」
 
 シブシブだが、小さく頷くみかん。
 
-＠みかん,A01720
+＠Mikan,A01720
 「わかった、頑張って寝てみる……」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01721
+＠Mikan,A01721
 「でも、怖い夢を見て起きちゃったら、また来てもいい？」
 
-＠樹
+＠Itsuki
 「ああ。頑張ってもダメだったら、遠慮なく来い」
 
-＠みかん,A01722
+＠Mikan,A01722
 「うん……。それじゃ、おやすみなさい」
 
 
@@ -1429,8 +1510,9 @@ label	mikan_qa06
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01723
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01723
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -1438,65 +1520,75 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01724
+＠Mikan,A01724
 「今日クラスでね、友達とお話してたんだけど……」
+「Today in class, I was talking with friends but......」
 
-＠みかん,A01725
+＠Mikan,A01725
 「みんなキスをした事があるか無いかっていう話になったの」
+「People started talking about 'Have you ever kissed a guy before?'」
 
-＠樹
+＠Itsuki
 「ファーストキスか。みかんの年代の子が話しそうな内容だな」
+「First Kiss? It's normal for childen your age to talk about that」
 
 
 @mikan			#普通
 
 
-＠みかん,A01726
+＠Mikan,A01726
 「ん……そうかな」
+「Nnn... Really?」
 
-＠樹
-「それで、その話がどうかしたのか？」
+#「それで、その話がどうかしたのか？」
+＠Itsuki
+「So, what's wrong?」
 
-＠みかん,A01727
+＠Mikan,A01727
 「うん……キスした事のある子が居て、みんなその話を聞いて盛り上がってたから…」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01728
-「……キス以上のエッチもたくさんしてるみかんは、もうみんなと違うのかな」
+#「……キス以上のエッチもたくさんしてるみかんは、もうみんなと違うのかな」
+＠Mikan,A01728
+「... Kissing and even more perverted things, I've done a lot of that. I wonder if I'm different from everyone else」
 
-＠樹
+＠Itsuki
 「………」
 
-……そういうことか。
+#……そういうことか。
+... So that's how it is.
 
 エッチの有無は微妙だが、みかんほど経験過多な子は他にいないだろう。
+Pervertedness's presence or absence is subtle, but Mikan has experienced much more than the other children will.
 
-＠みかん,A01729
+＠Mikan,A01729
 「………」
 
 自分とは違う世界の話題の中で、みかんが溶け込めなかった寂しさが伝わってくる。
 
-＠樹
+＠Itsuki
 （みかんをみんなから引き離したのは、オレだからな……）
-
+（Mikan is isolated from all her peers, because I...）
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．謝るべきだ）
 #（２．謝るべきではない）
-select sel,"謝るべきだ","謝るべきではない"
+select sel,"Apologize","Do not apologize"
 if sel=0 then goto mikan_qa06_a
 if sel=1 then goto mikan_qa06_b
 #--------------------------------------------------
@@ -1507,45 +1599,50 @@ label	mikan_qa06_a
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「ごめんな、みかん。オレのせいで」
+「I'm sorry, Mikan. It's my fault」
 
 
 @mikan			#普通
 
 
-＠みかん,A01730
+＠Mikan,A01730
 「えっ……」
+「Well...」
 
 
 @mikan_kusyou		#苦笑
 
 
-＠みかん,A01731
+＠Mikan,A01731
 「あ、ううん。みかんこそごめんね、困らせちゃって」
+「Ah, Unnn... I'm sorry, if I bothered you.」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01732
+＠Mikan,A01732
 「お兄ちゃんはみかんを守るために、色々してくれてるんだもんね……」
-
+「Onii-chan does it in order to protect me, in various ways I'm money」
 
 @mikan_kanashimi	#哀
 
 
-みかんはそう言って納得しようとしているが、やはり声は少し沈んでいく。
+#みかんはそう言って納得しようとしているが、やはり声は少し沈んでいく。
+Mikan is trying to convince to say so, but voice sinking a little still.
 
-オレが謝ったせいで、余計にみんなとの違いを意識させてしまったようだ。
+#オレが謝ったせいで、余計にみんなとの違いを意識させてしまったようだ。
+By apologizing, it seems that I just made her aware of the difference between herself and others more.
 
-＠樹
+＠Itsuki
 「そうじゃなくて、みかん、別にみかんがみんなと違うなんてことは無いぞ」
 
-＠みかん,A01733
+＠Mikan,A01733
 「うん、でもみかん気にしないから。平気だよ……」
 
-＠みかん,A01734
+＠Mikan,A01734
 「これからもよろしくね、お兄ちゃん」
 
 
@@ -1556,11 +1653,12 @@ bgm_stop
 @SE07			#部屋のドア閉まる音（パタン）
 
 
-みかんは寂しそうに、自分の部屋に戻っていってしまった。
+#みかんは寂しそうに、自分の部屋に戻っていってしまった。
+Mikan went back to her room feeling helpless.
 
-＠樹
+＠Itsuki
 「……まずったな。軽率に謝るべきじゃなかったか」
-
+「... I was her first. It was thoughtless of me to apologize to her」
 
 #（スケジュールへ）
 goto	mikan_qa_exit
@@ -1576,23 +1674,25 @@ label	mikan_qa06_b
 
 でもここで謝ることは、みかんの境遇をオレが肯定してしまう事になる。
 
-＠樹
+＠Itsuki
 「みかんはちゃんと、オレが守ってやる。約束する」
+「You're fine Mikan, I promise I'm going to protect you」
 
-＠みかん,A01735
+＠Mikan,A01735
 「……お兄ちゃん」
+「... Onii-chan」
 
-＠樹
+＠Itsuki
 「それに、オレが言うのも変だけど、どんな生活をしていようとみかんはみかんじゃないか」
 
-＠樹
+＠Itsuki
 「だから気にせずにみんなと仲良くしていればいいよ」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01736
+＠Mikan,A01736
 「ほんと？　みかん、今までどおりみんなと遊んでで大丈夫？」
 
 みかんの言葉に、オレは大きく頷いて返してやった。
@@ -1603,16 +1703,16 @@ label	mikan_qa06_b
 @mikan_warai		#笑
 
 
-＠みかん,A01737
+＠Mikan,A01737
 「うんッ。それじゃ、明日誘われてるお買い物もみんなと一緒に行って来る！」
 
-＠みかん,A01738
+＠Mikan,A01738
 「えへへ、ありがとうお兄ちゃん。みかん元気でたよ」
 
-＠樹
+＠Itsuki
 「そうか。良かった、楽しんでこい」
 
-＠みかん,A01739
+＠Mikan,A01739
 「お兄ちゃんも、また今度みかんと一緒にお出かけしようねっ」
 
 
@@ -1640,8 +1740,9 @@ label	mikan_qa07
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01740
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01740
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -1649,12 +1750,14 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01741
+＠Mikan,A01741
 「すわっぴんぐってなに？」
 
 
@@ -1664,7 +1767,7 @@ screen_vibration	500,16,16,16
 @SE69			#SE69　物をこかす音（ガシャン）
 
 
-＠樹
+＠Itsuki
 「ぐはッ！！」
 
 思いっきり机に頭をぶつけてしまった。
@@ -1673,48 +1776,48 @@ screen_vibration	500,16,16,16
 @mikan_odoroki		#驚
 
 
-＠みかん,A01742
+＠Mikan,A01742
 「わっ…お兄ちゃん大丈夫っ？」
 
-＠樹
+＠Itsuki
 「あぁ、平気だ……」
 
-＠樹
+＠Itsuki
 「けどそんな言葉、どこで覚えたんだ…」
 
 
 @mikan			#普通
 
 
-＠みかん,A01743
+＠Mikan,A01743
 「ざくろちゃんがテレビを見ながら、独り言で呟いてたの」
 
-＠みかん,A01744
+＠Mikan,A01744
 「スワッピング、スワッピングって」
 
-＠樹
+＠Itsuki
 「分かんねぇ……ざくろの思考は未だに分かんねぇよ…」
 
-＠みかん,A01745
+＠Mikan,A01745
 「えっと確か、お昼の恋愛ドラマでね、主人公の彼女さんが男友達の家を内緒で尋ねてたんだけど」
 
-＠みかん,A01746
+＠Mikan,A01746
 「その時にその友人の彼女さんが、主人公のところに相談にやってくる場面だったよ」
 
-＠みかん,A01747
+＠Mikan,A01747
 「それを見ながら、ずっとスワッピングスワッピングって」
 
-＠樹
+＠Itsuki
 「…昼ドラに何を期待してるんだ、ざくろ………」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01748
+＠Mikan,A01748
 「それでお兄ちゃんなら、その言葉の意味を知ってるかなって」
 
-＠樹
+＠Itsuki
 「むぅ……すわっぴんぐなぁ」
 
 頼られて嬉しいのか、微妙だな……
@@ -1725,15 +1828,15 @@ screen_vibration	500,16,16,16
 @mikan			#普通
 
 
-＠みかん,A01749
+＠Mikan,A01749
 「…？」
 
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．正確に教えよう）
-#（２．みかんにはまだ早い）
-select sel,"正確に教えよう","みかんにはまだ早い"
+#（１．正確に教えよう）Teach exactly
+#（２．みかんにはまだ早い）It is still early for Mikan
+select sel,"Explain fully","Mikan's too young for this"
 if sel=0 then goto mikan_qa07_a
 if sel=1 then goto mikan_qa07_b
 #--------------------------------------------------
@@ -1747,16 +1850,16 @@ label	mikan_qa07_a
 そうだな。
 こんな生活だし、要る知識になるかもしれん。
 
-＠樹
+＠Itsuki
 「それはな、男女のカップル同士で相手を交換してエッチをすることだ」
 
-＠みかん,A01750
+＠Mikan,A01750
 「……？　交換？」
 
-＠樹
+＠Itsuki
 「自分の彼女を別の男に抱かせる代わりに、その男の彼女をこっちが抱くんだ」
 
-＠みかん,A01751
+＠Mikan,A01751
 「……ん～っと」
 
 みかんの頭の中で、その光景がイメージがされていく。
@@ -1765,39 +1868,39 @@ label	mikan_qa07_a
 @mikan_odoroki		#驚
 
 
-＠みかん,A01752
+＠Mikan,A01752
 「えぇえッ！？　それって全然知らない人と、自分の恋人さんを取り替えっこしちゃうの！？」
 
-＠樹
+＠Itsuki
 「そういうことだ」
 
-＠みかん,A01753
+＠Mikan,A01753
 「どうして？　もう恋人さんのことが好きじゃなくなったからっ？」
 
-＠樹
+＠Itsuki
 「ん～……オレも興味が無いから当人達の気持ちは分からんが」
 
-＠樹
+＠Itsuki
 「普段と違う相手だから興奮するっていう気持ちを互いに持ってたら、それはある意味気持ちが通じ合ってるんじゃないか？」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01754
+＠Mikan,A01754
 「……そうなのかなぁ」
 
-＠みかん,A01755
+＠Mikan,A01755
 「みかんはお仕事だからお客さんがいるけど、やっぱりエッチは好きな人じゃないとヤダよ…」
 
-＠樹
+＠Itsuki
 「なら、みかんはそれでいいよ。オレも無理にお勧めはしないからな」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01756
+＠Mikan,A01756
 「うん。お兄ちゃん、教えてくれてありがとう」
 
 
@@ -1823,50 +1926,50 @@ label	mikan_qa07_b
 まだ早いな。
 必要になるような日まで、教える事じゃない。
 
-＠樹
+＠Itsuki
 「気にするな。みかんにはまだ早い事だ」
 
-＠みかん,A01757
+＠Mikan,A01757
 「えぇ～ッ、知ってるなら教えてよ、お兄ちゃん」
 
-＠樹
+＠Itsuki
 「一つだけ言うと、それはいやらしい言葉だな」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01758
+＠Mikan,A01758
 「……っえぅ！」
 
 その一言に、興味津々だったみかんが僅かにひるんだ。
 
-＠樹
+＠Itsuki
 「どうしても知りたいか？」
 
 
 @mikan_kusyou		#苦笑
 
 
-＠みかん,A01759
+＠Mikan,A01759
 「え、えっと……エッチな言葉なの？」
 
-＠みかん,A01760
+＠Mikan,A01760
 「でも、普通のお昼のドラマを見ながら呟いてた言葉だったのに」
 
-＠樹
+＠Itsuki
 「だから分からないんだ、ざくろの考えは」
 
 ……まぁドラマのシチュエーションで、そういう連想をしたんだろうけど。
 
-＠樹
+＠Itsuki
 「必要な知識になったら教えてやるから。今は知ろうとするな」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01761
+＠Mikan,A01761
 「は～い……」
 
 興味が一歩引いたとはいえ、やはりみかんは残念そうだった。
@@ -1890,8 +1993,9 @@ label	mikan_qa08
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01762
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01762
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -1899,39 +2003,42 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01763
+＠Mikan,A01763
 「クロスワードで分からないところがあるの。聞いてもい～い？」
 
 
 @mikan			#普通
 
 
-＠みかん,A01764
+＠Mikan,A01764
 「ここの縦と、こっちの横二つなんだけど」
 
-＠樹
+＠Itsuki
 「ふむ。どれどれ…」
 
 みかんが指差した問題に目を落とした。
 
 （ヨコ１４）
-『気持ちいいように、穴の中を擦って出入りしてあげましょう』
+#『気持ちいいように、穴の中を擦って出入りしてあげましょう』
+『It feels good, to gently rub inside the hole』
 
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．耳掃除）
 #（２．セックス）
-select	sel1,"耳掃除","セックス"
+select	sel1,"Earwax removal","Sexual intercourse"
 #--------------------------------------------------
 
 
@@ -1949,32 +2056,33 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01765
+＠Mikan,A01765
 「すご～いっ、お兄ちゃんすぐに分かっちゃうんだッ！」
 
-＠樹
+＠Itsuki
 「まぁな。次はどれだ」
 
 
 @mikan			#普通
 
 
-＠みかん,A01766
+＠Mikan,A01766
 「えっとね～、ここ」
 
 （ヨコ３９）
-『ことわざ：可愛い子には○○』
+#『ことわざ：可愛い子には○○』
+『Proverb: The child is cute ___』
 
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．旅をさせよ）
 #（２．欲情するぜ！）
-select	sel2,"旅をさせよ","欲情するぜ！"
+select	sel2,"- so do not spoil her","- so get horny！"
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「楽勝だぜ」
 
 
@@ -1992,8 +2100,9 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01767
+＠Mikan,A01767
 「わぁいッ♪　あとねあとねっ、ここも教えて～」
+「Kawaaii♪ Oh I got it, here teach me more!」
 
 （タテ３）
 『無理に剥かなくても、これは自然と剥けるようになってきます』
@@ -2003,11 +2112,11 @@ layer_movepass_play	l_mikan,0,play_once
 #■（選択肢）
 #（１．おちんちん）
 #（２．日焼け肌）
-select	sel3,"おちんちん","日焼け肌"
+select	sel3,"Ochinchin (penis)","Sunburned Skin"
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「ほら、これで全部だ」
 
 
@@ -2020,21 +2129,21 @@ if sel1=0 and sel2=0 and sel3=1 then goto mikan_qa08_a
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01773
+＠Mikan,A01773
 「ん～……あれ？　でもマスの数と文字が合わないよ？」
 
 答えを書き込んでいたみかんが、首を傾げてペンを止めた。
 
-＠樹
+＠Itsuki
 「そんなバカな……」
 
-＠みかん,A01774
+＠Mikan,A01774
 「見て、ここ。こっちも文字と合ってないし…」
 
-＠樹
+＠Itsuki
 「………すでにみかんの答えが間違ってるんじゃ？」
 
-＠みかん,A01775
+＠Mikan,A01775
 「え～～っ、そうかなぁ……」
 
 難しそうな顔をして、ウンウンと雑誌とにらめっこ。
@@ -2049,20 +2158,20 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01776
+＠Mikan,A01776
 「はぁ、クロスワードって難しいね…」
 
-＠樹
+＠Itsuki
 「悪いな、力になってやれなくて」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01777
+＠Mikan,A01777
 「ううん。また部屋で考えてみる」
 
-＠みかん,A01778
+＠Mikan,A01778
 「夜遅くにごめんね、お兄ちゃん。おやすみなさい」
 
 
@@ -2070,7 +2179,7 @@ bgm_stop
 @mikan_
 
 
-＠樹
+＠Itsuki
 「ああ、おやすみ」
 
 
@@ -2097,7 +2206,7 @@ label	mikan_qa08_a
 #--------------------------------------------------
 
 
-＠みかん,A01768
+＠Mikan,A01768
 「ほんとだッ、ちゃんと他の答えも埋まってるよ～！　すご～い！」
 
 雑誌を抱えるようにして、嬉しそうに跳ねるみかん。
@@ -2106,10 +2215,10 @@ label	mikan_qa08_a
 @mikan_warai		#笑
 
 
-＠みかん,A01769
+＠Mikan,A01769
 「さすがお兄ちゃんだね！　すごく頼りになるよっ」
 
-＠樹
+＠Itsuki
 「そ、そうか…？　また何かあったら聞いて来い」
 
 
@@ -2123,7 +2232,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01770
+＠Mikan,A01770
 「うんッ！　えへへ～♪」
 
 たかがクロスワードとは言え、ここまで素直に褒められると少し照れくさかった。
@@ -2132,10 +2241,10 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_warai		#笑
 
 
-＠みかん,A01771
+＠Mikan,A01771
 「まだ起きてるの、お兄ちゃん？　みかんお茶持ってきてあげようか」
 
-＠樹
+＠Itsuki
 「ありがとう。それじゃ、一緒に行くか」
 
 
@@ -2149,7 +2258,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01772
+＠Mikan,A01772
 「うんッ！」
 
 
@@ -2178,8 +2287,9 @@ label	mikan_qa09
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01779
-「お兄ちゃん、今ちょっといい？」
+#「お兄ちゃん、今ちょっといい？」
+＠Mikan,A01779
+「Onii-chan, can I bother you for a little?」
 
 
 @SE07			#部屋のドア閉まる音（パタン）
@@ -2187,27 +2297,29 @@ wait		1000
 @mikan			#普通
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01780
+＠Mikan,A01780
 「体育の着替えの時間にね、クラスにブラジャー着けてる子がいたの」
 
-＠みかん,A01781
+＠Mikan,A01781
 「みかんはまだしてないけど、ブラジャーって必要なのかなぁ…」
 
-＠みかん,A01782
+＠Mikan,A01782
 「お兄ちゃんどう思う…？」
 
-＠樹
+＠Itsuki
 「う～ん。みかんにブラジャーか……」
 
-＠みかん,A01783
+＠Mikan,A01783
 「その子はみかんよりお胸が大きいの」
 
-＠みかん,A01784
+＠Mikan,A01784
 「みかんは小さいから、まだ無くても大丈夫なの…？」
 
 尋ねながら、パジャマ越しに自分の胸をペタペタと触るみかん。
@@ -2216,7 +2328,7 @@ wait		1000
 
 みかんにとっても大事でデリケートな場所だ。
 
-＠樹
+＠Itsuki
 「美雨とか雫さんには相談した？」
 
 
@@ -2235,14 +2347,14 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01785
+＠Mikan,A01785
 「ううん、まだしてないの」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01786
+＠Mikan,A01786
 「えへへ。みかん一番にお兄ちゃんに聞いて考えたかったから」
 
 オレを見ながら、みかんははにかみ笑った。
@@ -2252,9 +2364,9 @@ layer_movepass_play	l_mikan,0,play_once
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．オレよりも女性陣に）
-#（２．みかんの自由でいい）
-select sel,"オレよりも女性陣に","みかんの自由でいい"
+#（１．オレよりも女性陣に）To ladies than me (?)
+#（２．みかんの自由でいい）The good in freedom of Mikan (?)
+select sel,"To ladies than me","The good in freedom of Mikan"
 if sel=0 then goto mikan_qa09_a
 if sel=1 then goto mikan_qa09_b
 #--------------------------------------------------
@@ -2265,20 +2377,20 @@ label	mikan_qa09_a
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「嬉しいけど、でもやっぱりそういうのは女の人が詳しいと思うぞ」
 
 
 @mikan			#普通
 
 
-＠みかん,A01787
+＠Mikan,A01787
 「ん～ぅ、そうかな…」
 
-＠樹
+＠Itsuki
 「ああ。何しろ、女性はみんな経験したことだろうからな」
 
-＠みかん,A01788
+＠Mikan,A01788
 「う～ん……」
 
 みかんは逡巡するが、でもやっぱりオレの浅知恵で判断させたくない事だ。
@@ -2287,27 +2399,27 @@ label	mikan_qa09_a
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01789
+＠Mikan,A01789
 「みかん、お兄ちゃんの意見が聞きたかったな……」
 
-＠樹
+＠Itsuki
 「はは、オレはどっちでもいいと思うよ。だから気にしないでいい」
 
 
 @mikan_yorokobi		#喜
 
 
-＠みかん,A01790
+＠Mikan,A01790
 「うん。じゃあ分かった、みんなに聞いてみる」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01791
+＠Mikan,A01791
 「もしみかんがブラジャーしたら、一番にお兄ちゃんに見せに来るねっ♪」
 
-＠樹
+＠Itsuki
 「うん、楽しみにしてるよ」
 
 だがかなり変態チックな会話だ。
@@ -2336,33 +2448,33 @@ label	mikan_qa09_b
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「たしかブラジャーって、胸の大きさは関係ないらしいな」
 
 
 @mikan			#普通
 
 
-＠みかん,A01792
+＠Mikan,A01792
 「そうなの？」
 
-＠樹
+＠Itsuki
 「いずれ着ける物だから、早めにつけて慣れておくのも一つらしい」
 
-＠樹
+＠Itsuki
 「まぁなんか小さい時の方がデザインを選べて楽しいんだそうだ」
 
-＠みかん,A01793
+＠Mikan,A01793
 「へぇ～、じゃあ着けた方がいいのかな」
 
 
 @mikan_kusyou		#苦笑
 
 
-＠みかん,A01794
+＠Mikan,A01794
 「実はみかん、まだ恥ずかしいから、どうしようか迷ってるんだけど」
 
-＠樹
+＠Itsuki
 「なら、着けなくても変じゃないよ。みかんの好きな方でいいんだから」
 
 
@@ -2376,14 +2488,14 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01795
+＠Mikan,A01795
 「うんッ！　もう少しこのままがいいっ」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01796
+＠Mikan,A01796
 「あはは♪　良かった、お兄ちゃんにそう言ってもらえて」
 
 無くても変じゃないと言われ、安心したように微笑むみかん。
@@ -2416,7 +2528,7 @@ label	mikan_qa10
 @bg_itsuki_n		# 自室(夜)
 
 
-＠みかん,A01797
+＠Mikan,A01797
 「お兄ちゃん、今ちょっと大丈夫……？」
 
 
@@ -2426,54 +2538,56 @@ wait		1000
 @mikan_kanashimi
 
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+Ｉn my room resting, Mikan came to ask me something.
 
-＠樹
-「うん？　どうした」
+#「うん？　どうした」
+＠Itsuki
+「Yeah? What's up.」
 
-＠みかん,A01798
+＠Mikan,A01798
 「えっと……シーツの上にジュースを零しちゃったの…」
 
-＠みかん,A01799
+＠Mikan,A01799
 「すぐに拭いたんだけど、染みになって濡れちゃってて……」
 
-＠樹
+＠Itsuki
 「はぁ……。さてはみかん、ベッドに寝転がっておやつを食べてたろ…」
 
 
 @mikan_naki		#泣
 
 
-＠みかん,A01800
+＠Mikan,A01800
 「う……ごめんなさい…」
 
-＠樹
+＠Itsuki
 「ははっ、まぁ行儀は悪いけど、楽になる気分は分かるから怒りはしないよ」
 
-＠樹
+＠Itsuki
 「ただ、寝る前におやつを食べる習慣は控えたほうがいいな」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01801
+＠Mikan,A01801
 「うん……みかん、今度から止めるようにする…」
 
 しゅんとなって落ち込んでいるみかん。
 
 反省と後悔もしているようだし、オレもこの程度のことで咎めるつもりは無い。
 
-＠樹
+＠Itsuki
 「じゃあどうする、みかん？　シーツが濡れてちゃな」
 
-＠みかん,A01802
+＠Mikan,A01802
 「あのねっ、みかんはお兄ちゃんと一緒に寝たいな……ダメ？」
 
-＠樹
+＠Itsuki
 「ははっ、もちろん構わないよ」
 
-＠樹
+＠Itsuki
 「でもその前に、汚れたシーツは脱衣所に置いておきな。寝るのはそれからだ」
 
 
@@ -2487,37 +2601,37 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01803
+＠Mikan,A01803
 「うんッ！　じゃあみかん、すぐ持っていくねッ」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01804
+＠Mikan,A01804
 「あッ、でも……脱衣所に置いちゃったら……」
 
 喜んだみかんの顔が、何故かまた不安そうになってしまう。
 
-＠みかん,A01805
+＠Mikan,A01805
 「えっとね。みかん、ジュースを零しちゃったのこれで３回目なの……」
 
-＠樹
+＠Itsuki
 「え。３ッ…！？」
 
-＠みかん,A01806
+＠Mikan,A01806
 「また零しちゃったって言ったら、美雨さんみかんのこと怒るかな……」
 
-＠樹
+＠Itsuki
 「さ、三回目か……う～ん…」
 
-＠樹
+＠Itsuki
 「しかし、ちょっと注意散漫だなみかん」
 
-＠みかん,A01807
+＠Mikan,A01807
 「あぅ……ついお菓子に夢中になっちゃうの……」
 
-＠みかん,A01808
+＠Mikan,A01808
 「お兄ちゃん、どうしよう……？」
 
 どうしよう、と言われてもな……
@@ -2525,9 +2639,9 @@ layer_movepass_play	l_mikan,0,play_once
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．オレがやったことにする）
+#（１．オレがやったことにする）I will that I did (?)
 #（２．ちゃんとみかんに謝らせる）
-select sel,"オレがやったことにする","ちゃんとみかんに謝らせる"
+select sel,"I will that I did","Apologize to Mikan properly"
 if sel=0 then goto mikan_qa10_a
 if sel=1 then goto mikan_qa10_b
 #--------------------------------------------------
@@ -2538,20 +2652,20 @@ label	mikan_qa10_a
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「しょうがないな。オレがやった事にしてあげるよ」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01809
+＠Mikan,A01809
 「えッ…ほんとッ！？」
 
-＠樹
+＠Itsuki
 「その代わり、もうベッドにおやつは持ち込まないこと」
 
-＠樹
+＠Itsuki
 「約束できるか？」
 
 
@@ -2565,14 +2679,14 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01810
+＠Mikan,A01810
 「うんッ！　みかん約束する！」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01811
+＠Mikan,A01811
 「どうもありがとう、お兄ちゃんッ♪」
 
 その助け舟に喜び笑顔を零すみかんへ、オレも笑い返してあげた。
@@ -2600,30 +2714,30 @@ label	mikan_qa10_b
 #--------------------------------------------------
 
 
-＠樹
+＠Itsuki
 「みかんがした事だから、ちゃんと謝らないとな」
 
 
 @mikan_kanashimi	#哀
 
 
-＠みかん,A01812
+＠Mikan,A01812
 「うん……そうだよね」
 
-＠樹
+＠Itsuki
 「大丈夫、ちゃんと謝れば美雨は怒ったりしないさ」
 
-＠樹
+＠Itsuki
 「それにオレも一緒に謝ってあげるから」
 
 
 @mikan_odoroki		#驚
 
 
-＠みかん,A01813
+＠Mikan,A01813
 「ほんとっ？　いいのお兄ちゃんッ？」
 
-＠樹
+＠Itsuki
 「ああ。みかんも反省してるし。今後はちゃんと気をつけるんだぞ？」
 
 
@@ -2637,14 +2751,14 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01814
+＠Mikan,A01814
 「うんッ！　みかんもう、ベッドにおやつを運ばないようにするよっ」
 
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01815
+＠Mikan,A01815
 「お兄ちゃん、どうもありがとうッ♪」
 
 その助け舟に喜び笑顔を零すみかんへ、オレも笑い返してあげた。

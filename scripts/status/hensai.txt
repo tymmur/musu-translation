@@ -34,17 +34,17 @@ money_open
 @shizuku_yorokobi
 
 #大仰に、笑顔で
-＠雫,S01704
+＠Shizuku,S01704
 「レディス＆ジェントルメン、借金返済のお時間でーす」
 
 
-＠雫,S01705
+＠Shizuku,S01705
 「どーれどれ、樹の坊ちゃんは、お金をちゃんと貯められているかねぇ？」
 
 #SE　ドラムロール
 @se216
 @shizuku
-＠雫,S01706
+＠Shizuku,S01706
 「ん～～～～と？」
 
 wait	1000
@@ -60,13 +60,13 @@ label	hensai_1a
 #SE　ファンファーレ
 @se217
 @shizuku_warai2
-＠雫,S01707
+＠Shizuku,S01707
 「おーっ、グッジョブ！！」
 
-＠雫,S01708
+＠Shizuku,S01708
 「この調子で、次も頼むよ」
 
-＠雫,S01709
+＠Shizuku,S01709
 「じゃあ、お金を頂戴しま～す」
 
 #SE　お金の減る音、お金が減る
@@ -74,13 +74,13 @@ label	hensai_1a
 repayment_sub	hensai_gaku
 money_sub	hensai_gaku
 
-＠雫,S01710
+＠Shizuku,S01710
 「はい、しっかり頂いたよ」
 
-＠雫,S01711
+＠Shizuku,S01711
 「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 
-＠雫,S01712
+＠Shizuku,S01712
 「じゃあね～♪」
 
 @shizuku_
@@ -103,41 +103,43 @@ label	hensai_1b
 
 if chien_count>0 then goto hensai_1c
 
+#SE　がっかりの音
 @shizuku_ikari
 @se219
-＠雫,S01713
+＠Shizuku,S01713
 「…………お前」
 
-＠雫,S01714
+＠Shizuku,S01714
 「これがどういうことか、わかってるんだろうね？」
 
-＠樹
+＠Itsuki
 「……すみません……」
 
-＠雫,S01715
+＠Shizuku,S01715
 「すみません、で済む問題じゃないだろうに」
 
-＠雫,S01716
+＠Shizuku,S01716
 「……まあ、今回は何とかしてあげるよ。仏の顔も３度まで、ってね」
 
-＠雫,S01717
+＠Shizuku,S01717
 「あたしは仏じゃないから、次はないけど」
 
-＠雫,S01718
+＠Shizuku,S01718
 「とりあえず、今あるお金だけでも頂くとするかね」
 
+#SE　お金の減る音、お金が全部減る
 @shizuku_kanashimi
 @se218
 repayment_sub	_MONEY
 money_sub	_MONEY
 
-＠雫,S01719
+＠Shizuku,S01719
 「はい、しっかり頂いたよ」
 
-＠雫,S01720
+＠Shizuku,S01720
 「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 
-＠雫,S01721
+＠Shizuku,S01721
 「じゃあ、次は頑張って」
 
 @shizuku_
@@ -159,26 +161,27 @@ return
 #######貯められなかった（2回目）#############################################
 label	hensai_1c
 
+#SE　がっかりの音
 @shizuku_kanashimi
-＠雫,S01722
+＠Shizuku,S01722
 「…………ハァ……」
 
-＠雫,S01723
+＠Shizuku,S01723
 「２回目はない、って言ったよね」
 
-＠樹
+＠Itsuki
 「……すみません……」
 
-＠雫,S01724
+＠Shizuku,S01724
 「すみません、で済む問題じゃなんだって」
 
-＠雫,S01725
+＠Shizuku,S01725
 「今回ばっかりは、あたしにもどうにも出来ないよ」
 
-＠雫,S01726
+＠Shizuku,S01726
 「……明日、ここを出て行ってもらう」
 
-＠雫,S01727
+＠Shizuku,S01727
 「とりあえず、今あるお金だけでも、全額頂くよ」
 
 #SE　お金の減る音、お金が全部減る
@@ -186,19 +189,19 @@ label	hensai_1c
 repayment_sub	_MONEY
 money_sub	_MONEY
 @shizuku
-＠雫,S01728
+＠Shizuku,S01728
 「はい、しっかり頂いたよ」
 
-＠雫,S01729
+＠Shizuku,S01729
 「……とりあえず、今日中に、荷物をまとめて出て行きな」
 
-＠雫,S01730
+＠Shizuku,S01730
 「あんたが施設を出て行くことは、誰にも言わないように。そしてわからないようにこっそりと出て行くんだ」
 
-＠雫,S01731
+＠Shizuku,S01731
 「もちろん、この施設のことは口外しないように」
 
-＠雫,S01732
+＠Shizuku,S01732
 「いいね」
 
 @shizuku_
@@ -225,17 +228,17 @@ label	hensai_2
 #最終の借金返済日（初回）
 @shizuku
 
-＠雫,S01733
+＠Shizuku,S01733
 「さあ、最後の返済のお時間だよ」
 
-＠雫,S01734
+＠Shizuku,S01734
 「どーれどれ、樹の坊ちゃんは、お金をちゃんと貯められているかねぇ？」
 
 #SE　ドラムロール
 @se216
 wait	1000
 
-＠雫,S01735
+＠Shizuku,S01735
 「ん～～～～と？」
 
 wait	2000
@@ -248,13 +251,13 @@ if _REPAYMENT>_MONEY then goto hensai_2b
 label	hensai_2a
 
 @se217
-＠雫,S01736
+＠Shizuku,S01736
 「おーっ、グッジョブ！！」
 
-＠雫,S01737
+＠Shizuku,S01737
 「これで全額返済、って事になるね」
 
-＠雫,S01738
+＠Shizuku,S01738
 「じゃあ、お金を頂戴しま～す」
 
 #SE　お金の減る音、お金が減る
@@ -262,70 +265,70 @@ label	hensai_2a
 money_sub	_REPAYMENT
 repayment_sub	_REPAYMENT
 
-＠雫,S01739
+＠Shizuku,S01739
 「はい、しっかり全額頂いたよ。これで借金は無し」
 
-＠雫,S01740
+＠Shizuku,S01740
 「こうやって、お金を貰うのも、最後かと思うと……寂しいねぇ」
 
-＠樹
+＠Itsuki
 「……たくさんのお金にさわれない事が寂しいんでしょう」
 
-＠雫,S01741
+＠Shizuku,S01741
 「それ以外何があるってんだい？」
 
-＠樹
+＠Itsuki
 「素直じゃないんだから」
 
-＠雫,S01742
+＠Shizuku,S01742
 「はいはい、……さて」
 
-＠雫,S01743
+＠Shizuku,S01743
 「借金を全額返したんだから、樹、あんたはもう自由だ」
 
-＠雫,S01744
+＠Shizuku,S01744
 「ここにいる理由はひとつも残ってない。どこへ行くなり好きにしな」
 
-＠樹
+＠Itsuki
 「えっ……」
 
-＠雫,S01745
+＠Shizuku,S01745
 「そして、ここにいる『むすめ』達も、自由」
 
-＠雫,S01746
+＠Shizuku,S01746
 「……だけど、彼女たちがお前に付いていくか、ここに残るか、どこかへ行っちゃうか……それは、今までのあんたの行動次第だけどね」
 
-＠樹
+＠Itsuki
 「雫さんや、美雨は……どうするんですか」
 
-＠雫,S01747
+＠Shizuku,S01747
 「『どうする』？　……愚問だねぇ。あたしたちはここにいるよ」
 
-＠雫,S01748
+＠Shizuku,S01748
 「ずっと、ね」
 
-＠樹
+＠Itsuki
 「雫さん……」
 
-＠雫,S01749
+＠Shizuku,S01749
 「とにかく」
 
-＠雫,S01750
+＠Shizuku,S01750
 「まさか、全額返済できるとは思ってなかったよ……あんたの努力が、奇跡を起こしたんだねぇ……」
 
-＠樹
+＠Itsuki
 「『奇跡』ですか」
 
-＠雫,S01751
+＠Shizuku,S01751
 「そ、本当の『奇跡』だよ……でもあんたの、『努力』の上での『奇跡』だ。魔法や手品なんかじゃない」
 
-＠樹
+＠Itsuki
 「……ありがとうございます。なんか、雫さんからそんなに褒められると、照れますね」
 
-＠雫,S01752
+＠Shizuku,S01752
 「照れるこたぁないさ。……よく頑張ったね」
 
-＠雫,S01753
+＠Shizuku,S01753
 「おめでとう、樹！」
 
 #コングラッチュレーションの画像
@@ -350,28 +353,28 @@ label	hensai_2b
 #SE　がっかりの音
 @se219
 
-＠雫,S01754
+＠Shizuku,S01754
 「…………ハァ……」
 
-＠雫,S01755
+＠Shizuku,S01755
 「最後の最後にやらかしてくれるのが、樹だよね」
 
-＠樹
+＠Itsuki
 「……すみません……」
 
-＠雫,S01756
+＠Shizuku,S01756
 「すみません、で済んだらよかったよ」
 
-＠樹
+＠Itsuki
 「……返す言葉もありません」
 
-＠雫,S01757
+＠Shizuku,S01757
 「……樹、あんたにはここを出て行ってもらう」
 
-＠樹
+＠Itsuki
 「……そんな」
 
-＠雫,S01758
+＠Shizuku,S01758
 「とりあえず、今あるお金だけでも、全額頂くよ」
 
 #SE　お金の減る音、お金が全部減る
@@ -379,19 +382,19 @@ label	hensai_2b
 repayment_sub	_MONEY
 money_sub	_MONEY
 
-＠雫,S01759
+＠Shizuku,S01759
 「……とりあえず、明日までに、荷物をまとめて出て行きな」
 
-＠雫,S01760
+＠Shizuku,S01760
 「あんたが施設を出て行くことは、誰にも言わないように。そしてわからないようにこっそりと出て行くんだ」
 
-＠雫,S01761
+＠Shizuku,S01761
 「もちろん、この施設のことは口外しないように……もし口外したら……」
 
-＠雫,S01762
+＠Shizuku,S01762
 「わかってるね」
 
-＠雫,S01763
+＠Shizuku,S01763
 「じゃあ、さよなら、樹。見送りできないけど、元気で」
 
 @shizuku_
@@ -435,7 +438,9 @@ macro	hensai_text
 	if _MONTH=12 then repayment_add 50000000
 
 
-さて、今月末の借金の返済額だが……。
+#さて、今月末の借金の返済額だが……。
+#SCRIPT ADD KANJI
+Ｎow, here is the amount for repayment of the debt for the end of this month......
 
 	if _MONTH=1 then goto hensai_text_1
 	if _MONTH=12 then goto hensai_text_3
@@ -444,9 +449,13 @@ macro	hensai_text
 label	hensai_text_1
 	###1月はじめのテキスト##########################################
 
-今月は流石に、赴任最初の月なので、借金の返済はしなくていいらしい。
+#今月は流石に、赴任最初の月なので、借金の返済はしなくていいらしい。
+#SCRIPT ADD KANJI
+Ｔhis month, as expected, since it's the first day of my new job, it's fitting if I don't have payment.
 
-でも、来月の借金の返済のためにも、今月を頑張らないとな。
+#でも、来月の借金の返済のためにも、今月を頑張らないとな。
+#SCRIPT ADD KANJI
+Ｈowever, for next month's payment, if I don't do my best this month......
 
 	goto	hensai_text_skip
 
@@ -456,9 +465,13 @@ label	hensai_text_2
 	#借金の返済額をお金ウィンドウに表示
 	money_open
 
-この額を返さなければならないらしい。
+#この額を返さなければならないらしい。
+#SCRIPT ADD KANJI
+Ｉt seems this sum must be returned.
 
-が、頑張ろう……。
+#が、頑張ろう……。
+#SCRIPT ADD KANJI
+Ｉ guess I'll do my best......
 
 	goto	hensai_text_skip
 
@@ -470,7 +483,9 @@ label	hensai_text_3
 	#借金の返済額をお金ウィンドウに表示
 	money_open
 
-この額を返さなければならないらしい。
+#この額を返さなければならないらしい。
+#SCRIPT ADD KANJI
+Ｉt seems this sum must be returned.
 
 ついに最後だ。ここに来るまで長かったな……。
 

@@ -223,9 +223,9 @@ layer_movepass_init	l_yuzu,0	#演出初期化
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．わかった、やってみろ）
+#（１．わかった、やってみろ）All right, Lets do it.
 #（２．お断りします）
-select	sel,"わかった、やってみろ","お断りします"
+select	sel,"All right, lets do this","No, thank you"
 if sel=0 then goto yuzu9_q01_a
 if sel=1 then goto yuzu9_q01_b
 #--------------------------------------------------

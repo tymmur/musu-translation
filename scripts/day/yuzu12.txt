@@ -792,9 +792,10 @@ event		"event\EV_YUZ_040-00.png"
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．欲望に流される）
-#（２．なんとか冷静になる）
-select sel,"欲望に流される","なんとか冷静になる"
+#（１．欲望に流される）It flowed to desire (?) Let the lust flow
+#（２．なんとか冷静になる）I would somehow calm (?) Stay calm, somehow
+select sel,"Let the lust flow","Stay calm, somehow"
+
 if sel=0 then goto yuzu12_q01_a
 if sel=1 then goto yuzu12_q01_b
 #--------------------------------------------------

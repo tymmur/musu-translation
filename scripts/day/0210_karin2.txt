@@ -6,25 +6,36 @@ label	karin_e02
 #■BG（廊下・室内灯）
 @bg_rouka
 
-また週末がやってきた。みかんの部屋に尋ねる。
+#また週末がやってきた。みかんの部屋に尋ねる。
+#SCRIPT ADD KANJI
+Ｔhe weekend has arrived. I'm at Mikan's room to ask.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-＠樹
-「みかん、オレだけど。そろそろ時間だぞ」
+#「みかん、オレだけど。そろそろ時間だぞ」
+＠Itsuki
+「Mikan, it's me. It'll be time soon.」
 
-＠みかん,A00342
-「あ、うん……ちょっと待って」
+#「あ、うん……ちょっと待って」
+＠Mikan,A00342
+「あ、うん...... Wait just a second.」
 
-＠かりん,P00393
-「時間……？　こんな時間に樹なんかと何するの？」
+#「時間……？　こんな時間に樹なんかと何するの？」
+＠Karin,P00393
+「It's time......? What are you doing with the likes of Itsuki at times likes this?」
 
-げ……かりんが居るのか……？
+#げ……かりんが居るのか……？
+#SCRIPT ADD KANJI
+Ａck...... Karin's in there......?
 
-かりんにはまだここの生活を説明していない。
+#かりんにはまだここの生活を説明していない。
+#SCRIPT ADD KANJI
+Ｔhe lifestyle here still hasn't been explained to Karin.
 
-そんな彼女にみかんを調教をするなんて知られたら………瞬殺されかねないぞ。
+#そんな彼女にみかんを調教をするなんて知られたら………瞬殺されかねないぞ。
+#SCRIPT ADD KANJI
+Ｉf my doing things like training to Mikan was made known to such a girl...... I might be killed instantly.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -32,60 +43,79 @@ label	karin_e02
 #CH（みかん）
 @mikan_tere
 
-＠みかん,A00343
-「そっか、今日だったよね……まだちょっと慣れないけど………」
+#「そっか、今日だったよね……まだちょっと慣れないけど………」
+＠Mikan,A00343
+「Right, it's today isn't it...... I'm still not that used to it though... ... ...」
 
 @karin_ikari
 @bgm06
 
-＠かりん,P00394
-「ちょっと樹、こんな時間にみかんをどこに連れて行く気よ。非常識じゃない」
+#「ちょっと樹、こんな時間にみかんをどこに連れて行く気よ。非常識じゃない」
+＠Karin,P00394
+「Hold it Itsuki, the reason for taking Mikan along somewhere at a time like this. I'm not a fool.」
 
-頬を染めたみかんと明らかに不審がるかりんが現れた。
+#頬を染めたみかんと明らかに不審がるかりんが現れた。
+#SCRIPT ADD KANJI
+Ｋarin came into sight with obvious distrtust next to Mikan who blushed.
 
-＠樹
-「大丈夫、別に何も変なことはないぞ。話するだけだ」
+#「大丈夫、別に何も変なことはないぞ。話するだけだ」
+＠Itsuki
+「It's fine, there's nothing strange going on. We'll just be talking.」
 
 @karin_keno
 
-＠かりん,P00395
-「……そんなことを強調して反論する時点で怪しすぎるわ」
+#「……そんなことを強調して反論する時点で怪しすぎるわ」
+＠Karin,P00395
+「...... You're emphasizing things like that and as soon as you deny it it's too suspicious.」
 
-＠樹
-「急ぎの用事なんだ。明日になると間に合わない」
+#「急ぎの用事なんだ。明日になると間に合わない」
+＠Itsuki
+「They're pressing matters. Tomorrow is too late.」
 
-＠かりん,P00396
-「だったらここで言いなさいよ」
+#「だったらここで言いなさいよ」
+＠Karin,P00396
+「Then tell her here.」
 
-＠樹
-「いや、ここじゃ出来ない……これから行く場所じゃないと都合が悪いんだよ」
+#「いや、ここじゃ出来ない……これから行く場所じゃないと都合が悪いんだよ」
+＠Itsuki
+「No, I can't do it here...... If we don't go this place afterwards it'll be inconvenient.」
 
-＠かりん,P00397
-「なら、みかんだけじゃなくて私も連れて行きなさい」
+#「なら、みかんだけじゃなくて私も連れて行きなさい」
+＠Karin,P00397
+「Then it won't only be Mikan. Take me along too.」
 
-＠樹
-「う……みかん一人じゃないと、都合が悪い」
+#「う……みかん一人じゃないと、都合が悪い」
+＠Itsuki
+「Um...... If Mikan isn't alone it'll be inconvenient.」
 
 #CH（かりん疑い）
 #@karin_bubetsu
 
-＠かりん,P00398
-「急ぎの用事で場所を選んで、しかもこんな時間にみかん一人じゃないと不味い用事なんて……怪しいですって言ってるようなものじゃない」
+#「急ぎの用事で場所を選んで、しかもこんな時間にみかん一人じゃないと不味い用事なんて……怪しいですって言ってるようなものじゃない」
+＠Karin,P00398
+「Selecting a place to do urgent tasks and if Mikan isn't alone it'll be an awkward task at a time like this...... I'm telling you this is suspicious.」
 
-弁明のしようが無い……っていうか、そもそも言い訳でしかない。
+#弁明のしようが無い……っていうか、そもそも言い訳でしかない。
+#SCRIPT ADD KANJI
+Ａn explanation is impossible...... Or should I say, in the first place it couldn't be solved with an excuse.
 
-＠樹
-「はぁぁ～……じゃあみかん、今日はもういいか？」
+#「はぁぁ～……じゃあみかん、今日はもういいか？」
+＠Itsuki
+「Haa～...... Then Mikan, is today okay already?」
 
 @mikan
 
-＠みかん,A00344
-「あ、うんと……かりんちゃん……」
+#「あ、うんと……かりんちゃん……」
+＠Mikan,A00344
+「Ah, yeah um...... Karin-chan......」
 
-今まで恥ずかしそうに俯いていたみかんが、オズオズと言葉を挟んだ。
+#今まで恥ずかしそうに俯いていたみかんが、オズオズと言葉を挟んだ。
+#SCRIPT ADD KANJI
+Ｍikan who cast her eyes down appearing embarassed until this point hesitantly slipped in a word.
 
-＠みかん,A00345
-「みかん達、ちょっと大事な用事があるの………。でも、内緒にしないといけなくて……ごめんね」
+#「みかん達、ちょっと大事な用事があるの………。でも、内緒にしないといけなくて……ごめんね」
+＠Mikan,A00345
+「Mikan and others have kind of important tasks... ... ... ... But I have to keep it secret...... Sorry.」
 
 #SE75　ショック音（ガーーン！）
 @se75
@@ -93,33 +123,46 @@ bgm_stop
 
 @karin_odoroki
 
-＠かりん,P00399
-「えっ、そんな、みかんまで………」
+#「えっ、そんな、みかんまで………」
+＠Karin,P00399
+「えっ, such a, even Mikan... ... ...」
 
-さすがにみかんに言われると効くようだ。
+#さすがにみかんに言われると効くようだ。
+#SCRIPT ADD KANJI
+Ａs expected being told by Mikan appeared effective.
 
 @karin_komikaru_namida
 @bgm05
 
-＠かりん,P00400
-「私は、みかんに隠し事されると辛いわ……。どうしても、内緒なの？」
+#「私は、みかんに隠し事されると辛いわ……。どうしても、内緒なの？」
+＠Karin,P00400
+「A secret being kept from me by Mikan, it's bitter...... Does it have to be a secret no matter what?」
 
 @mikan_kanashimi
 
-＠みかん,A00346
-「う、うん……この用事はダメなの。かりんちゃんは大事な友達だから、だから知られたくないの」
+#「う、うん……この用事はダメなの。かりんちゃんは大事な友達だから、だから知られたくないの」
+＠Mikan,A00346
+「Y-yeah...... This secret can't be told. Karin-chan is a dear friend so I, I don't want it to be known.」
 
-＠かりん,P00401
-「………そう」
+#「………そう」
+＠Karin,P00401
+「... ... ... I see.」
 
-呟くかりんの声は表現しようも無いほど気落ちしたもので、可哀想にまで思えてくる。
+#呟くかりんの声は表現しようも無いほど気落ちしたもので、可哀想にまで思えてくる。
+#SCRIPT ADD KANJI
+Ｍurmuring Karin was so distraught that she couldn't express it in her voice; it's sad to see her.
 
-暴走するくらいみかんに必死だが、友達として大事に守りたいという思いは本物なのだろう。
+#暴走するくらいみかんに必死だが、友達として大事に守りたいという思いは本物なのだろう。
+#SCRIPT ADD KANJI
+Ｓhe's frantic for Mikan to the point of panicking, but it seems her emotions of wanting to protect her as a friend are real.
 
-＠かりん,P00402
-「まだ、友達、なのね………」
+#「まだ、友達、なのね………」
+＠Karin,P00402
+「We're still friends right... ... ...」
 
-……って、あれ？　何か気落ちしてる箇所が違う？
+#……って、あれ？　何か気落ちしてる箇所が違う？
+#SCRIPT ADD KANJI
+　...... Huh? Something different from the mumblings of despair?
 
 #SE66　効果音１（ビシッ！）
 @se66
@@ -127,42 +170,54 @@ bgm_stop
 @karin_ikari
 @bgm12
 
-＠かりん,P00403
-「うぅッ、負けないわよ樹！　どんな付き合いも最初は友達からなんだから！　私とみかんはこれからよ！！」
+#「うぅッ、負けないわよ樹！　どんな付き合いも最初は友達からなんだから！　私とみかんはこれからよ！！」
+＠Karin,P00403
+「うぅッ, I haven't lost Itsuki! Who knows what relationship we'll have starting from being friends! Me and Mikan after this!!」
 
 @mikan_odoroki
 
-＠みかん,A00347
-「え？　みかん、かりんちゃんとこれから何かあるの？」
+#「え？　みかん、かりんちゃんとこれから何かあるの？」
+＠Mikan,A00347
+「え? What's there going to be between Mikan and Karin after this?」
 
-＠樹
-「いや………まぁ、頑張って」
+#「いや………まぁ、頑張って」
+＠Itsuki
+「Well... ... ... I wish you the best I suppose.」
 
-＠かりん,P00404
-「今日の勝ちは預けておくわッ……みかん、いつか絶対に樹の魔の手から救ってあげるからね！」
+#「今日の勝ちは預けておくわッ……みかん、いつか絶対に樹の魔の手から救ってあげるからね！」
+＠Karin,P00404
+「I'll leave this victory to you for now...... Mikan, someday I'll rescue you from the demonic hands of Itsuki forever!」
 
-＠かりん,P00405
-「それまで、樹なんかに負けずに頑張って………！！」
+#「それまで、樹なんかに負けずに頑張って………！！」
+＠Karin,P00405
+「Until then, I'll crusade against the likes of him without giving in... ... ...!!」
 
 @karin_
 
 #SE21　廊下を走り去る音　※徐々に小さく
 @se21
 
-悲しそうにまぶたを伏せると、そのまま髪をなびかせ走り去ってしまった。
+#悲しそうにまぶたを伏せると、そのまま髪をなびかせ走り去ってしまった。
+#SCRIPT ADD KANJI
+Ｍournfully turning her eyes downward, she runs away like this hair fluttering.
 
 @mikan
 
-＠みかん,A00348
-「か、かりんちゃん何であんなに悲しそうなの……。みかん、そんなに酷いこと言ったのかな……」
+#「か、かりんちゃん何であんなに悲しそうなの……。みかん、そんなに酷いこと言ったのかな……」
+＠Mikan,A00348
+「W-why's Karin-chan so sad-looking...... I wonder if Mikan said a mean thing......」
 
-こうやって見ると、ある意味全然気持ちが届いてないかりんは不憫だなぁ……
+#こうやって見ると、ある意味全然気持ちが届いてないかりんは不憫だなぁ……
+#SCRIPT ADD KANJI
+Ｓeeing it like this, in some sense I was left without any particular mood except pity for Karin......
 
-＠樹
-「まぁ明日になれば立ち直ってるだろ」
+#「まぁ明日になれば立ち直ってるだろ」
+＠Itsuki
+「She'll probably regain her footing tomorrow.」
 
-＠みかん,A00349
-「そうだといいけど」
+#「そうだといいけど」
+＠Mikan,A00349
+「I hope that happens.」
 
 #■BG（ブラック）
 @bg_black

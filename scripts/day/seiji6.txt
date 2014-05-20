@@ -234,7 +234,7 @@ voice_bg	"L90001"
 #１．立ち去る
 #２．やっぱり様子を見ていく
 
-select	sel,"立ち去る","やっぱり様子を見ていく"
+select	sel,"Leave","On second thought I'll wait and see"
 if sel=0 then goto seiji_06_1
 if sel=1 then goto seiji_06_2
 

@@ -3,7 +3,8 @@
 
 @bg_black
 
-#select sel,"メイン","プロローグ","調教","調教2","シューティング"
+#"メイン","プロローグ","調教","調教2","シューティング"
+#select sel,"Main","Prologue","Training","Training 2","Shooting"
 #if sel=0 then goto main
 #if sel=1 then goto youzyo_00
 #if sel=2 then goto training
@@ -20,7 +21,7 @@ if global(130)=1 then goto skip_prologue1
 gosub youzyo_00
 goto	skip_prologue2
 label	skip_prologue1
-select sel,"プロローグを見る","プロローグを見ない"
+select sel,"Prologue","Skip it"
 if sel=0 then gosub youzyo_00
 label	skip_prologue2
 global(130)=1
@@ -81,7 +82,9 @@ money_open
 if debug=1 then goto	debug_skip01			#デバッグ用
 
 
-日曜日だ。何をしようか？
+#日曜日だ。何をしようか？
+#SCRIPT ADD KANJI
+Ｉt's Sunday. What do you want to do?
 
 
 label	mainloop2_0
@@ -198,7 +201,9 @@ money_open
 if mikan_on=0 then goto schedule_mikan_skip
 
 #みかんのスケジュール設定######################################################
-来週のみかんのスケジュールを決めるか
+#来週のみかんのスケジュールを決めるか
+#SCRIPT ADD KANJI
+Ｗhat do you choose next week for Mikan?
 
 window_close
 @mikan_set
@@ -218,7 +223,8 @@ label	schedule_mikan_skip
 if ichigo_on=0 then goto schedule_ichigo_skip
 
 #いちごのスケジュール設定#####################################################
-来週のいちごのスケジュールを決めるか
+#来週のいちごのスケジュールを決めるか
+What do you choose next week for Ichigo?
 
 window_close
 @ichigo_set
@@ -239,7 +245,7 @@ label	schedule_ichigo_skip
 if karin_on=0 then goto schedule_karin_skip
 
 #かりんのスケジュール設定#####################################################
-来週のかりんのスケジュールを決めるか
+What do you choose next week for Karin?
 
 window_close
 @karin_set
@@ -417,3 +423,4 @@ label	main_sunday
 turn = turn + 1			#ターンを追加
 
 goto	mainloop
+

@@ -26,33 +26,26 @@ if mikan_miryoku_event_cnt_flag=1 then mikan_miryoku_event_cnt_flag=0;mikan_miry
 
 return
 
-
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚Ά‚Ώ‚²F‚έ‚©‚ρ
 #”­¶F
 #σ‹µF’‹
 
-
 if mikan_miryoku_event_cnt=1 then gosub mikan_tachi_1
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
 #”­¶FΕ‰‚Μ•ϋ‚Ι‹­§”­¶
 #σ‹µF’‹
 
-
 if mikan_miryoku_event_cnt=2 then gosub mikan_tachi_2	#Ε‰‚Μ•ϋ‚Ι‹­§”­¶
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
 #”­¶F‚©‚θ‚ρ“oκΟ‚έ
 #σ‹µF’‹
 
-
 if mikan_miryoku_event_cnt=3 then gosub	mikan_tachi_3	#‘Μ±”ΕΘ~‚ª—‘zB‚©‚θ‚ρ“oκΟ‚έ
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚©‚θ‚ρF‚έ‚©‚ρ
@@ -62,20 +55,15 @@ if mikan_miryoku_event_cnt=3 then gosub	mikan_tachi_3	#‘Μ±”ΕΘ~‚ª—‘zB‚©‚θ‚ρ“
 #d—vF3-1‚Ε‚έ‚©‚ρ‚Ι“J‚π‹³‚¦‚Θ‚Άκ‡Amikan_tachi_3_2‚Ν”­¶‚µ‚Θ‚Ά‚ζ‚¤‚Ι‚·‚ι‚½‚ίA
 #ƒtƒ‰ƒO‚Ε‚Ν‚¶‚­‚©Amikan_miryoku_event_cnt‚π1‚Β—]•ª‚Ι‘«‚µ‚Δ‚¨‚­•K—v‚ ‚θH
 
-
 if mikan_miryoku_event_cnt=4 then gosub	mikan_tachi_3_1	#‚R‚π©‚Δ‚Ά‚ι‚±‚Ζ
 
+#/////////////////////////////////////////////////////////////
+#“oκƒLƒƒƒ‰F‚έ‚©‚ρ
+#”­¶F3-1‚Ε‚έ‚©‚ρ‚Ι“J‚π‹³‚¦‚Δ‚Ά‚ι‚±‚Ζ
+#σ‹µF
+#ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
 
-	#/////////////////////////////////////////////////////////////
-	#“oκƒLƒƒƒ‰F‚έ‚©‚ρ
-	#”­¶F3-1‚Ε‚έ‚©‚ρ‚Ι“J‚π‹³‚¦‚Δ‚Ά‚ι‚±‚Ζ
-	#σ‹µF
-	#ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
-
-
-
-	if mikan_miryoku_event_cnt=5 then gosub	mikan_tachi_3_2	#3-1‚Ε‚έ‚©‚ρ‚Ι“J‚π‹³‚¦‚Δ‚Ά‚ι‚±‚Ζ
-
+if mikan_miryoku_event_cnt=5 then gosub	mikan_tachi_3_2	#3-1‚Ε‚έ‚©‚ρ‚Ι“J‚π‹³‚¦‚Δ‚Ά‚ι‚±‚Ζ
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚Ά‚Ώ‚²F‚έ‚©‚ρF”ό‰J
@@ -83,18 +71,14 @@ if mikan_miryoku_event_cnt=4 then gosub	mikan_tachi_3_1	#‚R‚π©‚Δ‚Ά‚ι‚±‚Ζ
 #σ‹µF’‹iίγ3|—[•ϋ‘Oj
 #ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
 
-
 if mikan_miryoku_event_cnt=6 then gosub	mikan_tachi_4
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρF΄
 #”­¶F
 #σ‹µF’©H
 
-
 if mikan_miryoku_event_cnt=7 then gosub	mikan_tachi_5
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
@@ -102,18 +86,14 @@ if mikan_miryoku_event_cnt=7 then gosub	mikan_tachi_5
 #σ‹µF’‹
 #’F—‚“ϊ‚ΝwZ‚ ‚θ
 
-
 if mikan_miryoku_event_cnt=8 then gosub	mikan_tachi_6	#Ε‰‚Μ•ϋB’²‹³‰ρ”‚ª­‚Θ‚Άσ‘Τ‚Μ‚Ζ‚«‚Ι‹­§”­¶
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
 #”­¶F‹x‰Ι‚π—^‚¦‚Δ‚Ά‚ι‚Ζ‚«
 #σ‹µF‹x—{“ϊE’‹
 
-
 if mikan_miryoku_event_cnt=9 then gosub	mikan_tachi_7	#‹x‰Ι‚π—^‚¦‚Δ‚Ά‚ι‚Ζ‚«
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
@@ -121,9 +101,7 @@ if mikan_miryoku_event_cnt=9 then gosub	mikan_tachi_7	#‹x‰Ι‚π—^‚¦‚Δ‚Ά‚ι‚Ζ‚«
 #σ‹µF’‹E°‚κ
 #ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
 
-
 if mikan_miryoku_event_cnt=10 then gosub mikan_tachi_8
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
@@ -131,9 +109,7 @@ if mikan_miryoku_event_cnt=10 then gosub mikan_tachi_8
 #σ‹µF’‹
 #ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
 
-
 if mikan_miryoku_event_cnt=11 then gosub mikan_tachi_9
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚Ά‚Ώ‚²F‚έ‚©‚ρ
@@ -142,9 +118,7 @@ if mikan_miryoku_event_cnt=11 then gosub mikan_tachi_9
 #ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
 #d—vF‚Ά‚Ώ‚²‚ª‚έ‚©‚ρ‚Ι‘Ò‚Ώ‚πΔ“ΰ‚µ‚Δ‚Ά‚ιƒCƒxƒ“ƒg‚Θ‚Μ‚Ε‚©‚Θ‚θ”Υ‚Ι‚β‚Α‚½‚Ω‚¤‚ª‚Ά‚Ά‚©‚ΰH
 
-
 if mikan_miryoku_event_cnt=12 then gosub mikan_tachi_10	#‚έ‚©‚ρ‹x‰Ι‘I‘π“ϊ‚Ι”­¶B‘Μ±”ΕϊΤά‚ή‘‚Ά‚¤‚Ώ
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚Ά‚Ώ‚²F‚΄‚­‚λF‚έ‚©‚ρ
@@ -152,18 +126,14 @@ if mikan_miryoku_event_cnt=12 then gosub mikan_tachi_10	#‚έ‚©‚ρ‹x‰Ι‘I‘π“ϊ‚Ι”­¶
 #σ‹µF’‹E°‚κ
 #ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
 
-
 if mikan_miryoku_event_cnt=13 then gosub mikan_tachi_11
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚΄‚­‚λF‚έ‚©‚ρ
 #”­¶F
 #σ‹µF’‹
 
-
 if mikan_miryoku_event_cnt=14 then gosub mikan_tachi_12
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚Ά‚Ώ‚²F‚έ‚©‚ρF”ό‰J
@@ -171,47 +141,34 @@ if mikan_miryoku_event_cnt=14 then gosub mikan_tachi_12
 #σ‹µF•½“ϊE’‹i’©A“oZ‘O‚ΜƒCƒxƒ“ƒgj
 #ƒXƒe[ƒ^ƒX‘€μ‚ ‚θ
 
-
 if mikan_miryoku_event_cnt=15 then gosub mikan_tachi_13	#‚Ά‚Ώ‚²E‚έ‚©‚ρ‚Ι•Χ‹­‚π‘I‘πH
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
 #”­¶F
 #σ‹µF’‹i—[H‘Oj
 
-
 if mikan_miryoku_event_cnt=16 then gosub mikan_tachi_14
-
 
 #/////////////////////////////////////////////////////////////
 #“oκƒLƒƒƒ‰F‚έ‚©‚ρ
 #”­¶F‰Δκi‚V‚Q‚O“ϊ`‚W‚R‚P“ϊj
 #σ‹µF’‹
 
-
 if mikan_miryoku_event_cnt=17 then gosub mikan_tachi_15	#‰Δκi‚V‚Q‚O“ϊ`‚W‚R‚P“ϊj
-
 
 #/////////////////////////////////////////////////////////////
 
-
 return
-
-
-
-
 
 label	mikan_tachi_1	#-----------------------------------------------------
 #”­¶F•s–Ύ
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGiƒƒrƒ“ƒOE’‹j
 @mikan
 @bg_living
-
 
 #///////////////////////////////////////////////////////
 #‰‰F•ΰ‚«ƒ‚[ƒhiƒeƒXƒg’†j
@@ -255,69 +212,66 @@ layer_move	l_mikan,200,160,0,200,4,PASSTYPE_LINEAR
 wait		1200
 #///////////////////////////////////////////////////////
 
-
 chara_size	l_mikan,"¬",200,102
 @mikan_kanashimi
 
-
 ƒƒrƒ“ƒO‚Ε‚έ‚©‚ρ‚ªAƒLƒ‡ƒƒLƒ‡ƒ‚Ζ•Σ‚θ‚π©‚Θ‚ª‚η‚³‚ά‚ζ‚Α‚Δ‚½B
+‚l‚‰‚‹‚‚@‚—‚‚‚„‚…‚’‚…‚„@‚‚‚‚‚•‚”@‚”‚‚…@‚‚‰‚–‚‰‚‚‡@‚’‚‚‚@‚’‚…‚“‚”‚‚…‚“‚“‚‚™@‚‚‚‚‹‚‰‚‚‡@‚†‚‚’@‚“‚‚‚…‚”‚‚‰‚‚‡D
 
-—χ
-u‚¨‚β‚Β‚Θ‚ηΛ’I‚Ιc‚Α‚Δ‚½‚Όv
-
+#u‚¨‚β‚Β‚Θ‚ηΛ’I‚Ιc‚Α‚Δ‚½‚Όv
+—Itsuki
+uThere's a snack in the cupboard if that's what you're looking forv
 
 @mikan_
 wait		1000
 @mikan_middle
 @mikan_komikaru_ikari
 
+#u‚ΠA‚Π‚Η‚Ά‚¨Z‚Ώ‚α‚ρƒbI@Jϋκ”Τ‚Ε‚»‚ρ‚Θ‘δ‚Θ‚ρ‚ΔƒbIv
+—Mikan,A01265
+uT-That's mean Onii-chan! You don't have to jump to conclusions like that!v
 
-—‚έ‚©‚ρ,A01265
-u‚ΠA‚Π‚Η‚Ά‚¨Z‚Ώ‚α‚ρƒbI@Jϋκ”Τ‚Ε‚»‚ρ‚Θ‘δ‚Θ‚ρ‚ΔƒbIv
+#u‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Ζ‚©‚­‚κ‚ρ‚Ϊ‚π‚µ‚Δ‚ΔA΅‚Ν‚έ‚©‚ρ‚ª‹S‚Θ‚Μƒbv
+—Mikan,A01266
+uI'm playing hide and seek with Ichigo-chan. I'm "it" right nowv
 
-—‚έ‚©‚ρ,A01266
-u‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Ζ‚©‚­‚κ‚ρ‚Ϊ‚π‚µ‚Δ‚ΔA΅‚Ν‚έ‚©‚ρ‚ª‹S‚Θ‚Μƒbv
-
-—χ
-u‚»‚κ‚Ν«‚©‚Α‚½cc‚X„‚ª‚½‚Ν‚¨‚β‚Β‚Ε“–‚½‚θ‚Ζv‚Α‚½‚ρ‚Ύ‚―‚Ηv
-
+#u‚»‚κ‚Ν«‚©‚Α‚½cc‚X„‚ª‚½‚Ν‚¨‚β‚Β‚Ε“–‚½‚θ‚Ζv‚Α‚½‚ρ‚Ύ‚―‚Ηv
+—Itsuki
+uOh my bad... I think I'd guess right 9 times out of 10 thoughv
 
 @mikan_komikaru_kanashimi
 
-
-—‚έ‚©‚ρ,A01267
-u‚X„‚ΰƒbccv
-
+#u‚X„‚ΰƒbccv
+—Mikan,A01267
+u9 times...!v
 
 @mikan_kusyou
 
+#u‚¨Z‚Ώ‚α‚ρ‚Μ’†‚¶‚αA‚έ‚©‚ρ‚Μs“®‚Α‚Δ‚X‚O“‚ª‚¨‚β‚ΒΦA‚Θ‚ρ‚Ύv
+—Mikan,A01268
+uIn Onii-chan's head, 90% of the things I do are related to snackingv
 
-—‚έ‚©‚ρ,A01268
-u‚¨Z‚Ώ‚α‚ρ‚Μ’†‚¶‚αA‚έ‚©‚ρ‚Μs“®‚Α‚Δ‚X‚O“‚ª‚¨‚β‚ΒΦA‚Θ‚ρ‚Ύv
+#u‚ρA‚ά‚Χ‚©‚Ά–‚Ν’u‚Ά‚Ζ‚Ά‚Δv
+—Itsuki
+uWell, don't worry about it too muchv
 
-—χ
-u‚ρA‚ά‚Χ‚©‚Ά–‚Ν’u‚Ά‚Ζ‚Ά‚Δv
-
-—χ
-u‚Ά‚Ώ‚²‚Ν—V‚ΡΦW‚Ι‹­‚»‚¤‚Ύ‚©‚η‚Θ‚B‰B‚κ‚ι”ΝΝ‚ΝHv
-
+#u‚Ά‚Ώ‚²‚Ν—V‚ΡΦW‚Ι‹­‚»‚¤‚Ύ‚©‚η‚Θ‚B‰B‚κ‚ι”ΝΝ‚ΝHv
+—Itsuki
+uI always associate Ichigo with playing games you know. Where are you allowed to hide in?v
 
 @mikan
 
-
-—‚έ‚©‚ρ,A01269
-u•¨‚Μ’†Bγ‚Ν©—R‚Θ‚Μv
-
+#u•¨‚Μ’†Bγ‚Ν©—R‚Θ‚Μv
+—Mikan,A01269
+uAnywhere in the buildingv
 
 @mikan_
 
-
 ‘θ‚ª‚Ά‚Ώ‚²‚Ε‚»‚Μs“®”ΝΝ‚Ν–³—‚Ύcc
-
+‚s‚‚…‚’‚…L‚“@‚‚@‚—‚‚™@‚™‚‚•L‚„@‚†‚‰‚‚„@‚h‚ƒ‚‚‰‚‡‚@‚—‚‰‚”‚@‚”‚‚‚”@‚‚•‚ƒ‚@‚†‚’‚…‚…‚„‚‚DDD
 
 @mikan_small
 @mikan
-
 
 #‰‰F•ΰ‚«ƒ‚[ƒhiƒeƒXƒg’†j
 #--------------------------------------------------
@@ -366,25 +320,24 @@ layer_move	l_mikan,200,40,4,0,0,PASSTYPE_LINEAR
 wait		1000
 #--------------------------------------------------
 
-
 @mikan_kanashimi
 
+#u~Q‚µ‚ζ‚¤‚©‚Θ`cc‚Έ‚Α‚Ζ‚έ‚©‚ρ‚ª‹S‚Μ‚ά‚ά‚Ύ‚ζv
+—Mikan,A01270
+uMaybe I'll give up`... I've been it the entire timev
 
-—‚έ‚©‚ρ,A01270
-u~Q‚µ‚ζ‚¤‚©‚Θ`cc‚Έ‚Α‚Ζ‚έ‚©‚ρ‚ª‹S‚Μ‚ά‚ά‚Ύ‚ζv
-
-—χ
-u‚©‚η‚Ν‚ΰ‚¤‚Ώ‚ε‚Α‚Ζ”ΝΝ‚πi‚ι‚Χ‚«‚Ύ‚λ‚¤‚Λcc‚ρHv
-
+#u‚©‚η‚Ν‚ΰ‚¤‚Ώ‚ε‚Α‚Ζ”ΝΝ‚πi‚ι‚Χ‚«‚Ύ‚λ‚¤‚Λcc‚ρHv
+—Itsuki
+uYou might want to make the search area a little smaller next time... Huh?v
 
 @ichigo_kanashimi
 
-
-—‚Ά‚Ώ‚²,O01721
-u‚ ‚£``cc‚Ν‚Π‚΅v
+#u‚ ‚£``cc‚Ν‚Π‚΅v
+—Ichigo,O01721
+uAuu``... Ahhuv
 
 ƒMƒuƒAƒbƒv‚π‚Ω‚Μ‚ί‚©‚·‚έ‚©‚ρ‚π©η‚Α‚Δ‚Ά‚ι‚ΖA‚»‚±‚Ι‚Θ‚Ί‚©ƒwƒƒwƒ‚Ι‚Θ‚Α‚½‚Ά‚Ώ‚²‚ª“ό‚Α‚Δ‚«‚½B
-
+‚g‚‚–‚‰‚‚‡@‚“‚‚‰‚…‚„@‚l‚‰‚‹‚‚@‚”‚‚‰‚‚‹‚‰‚‚‡@‚“‚‚…L‚„@‚‚‰‚‹‚…@‚”‚@‚‡‚‰‚–‚…@‚•‚C@‚h‚ƒ‚‚‰‚‡‚@‚—‚‚‚‹‚“@‚‰‚‚”‚@‚”‚‚…@‚’‚‚‚@‚‚‚‚‹‚‰‚‚‡@‚@‚‚‰‚”‚”‚‚…@‚—‚‚’‚“‚…@‚†‚‚’@‚”‚‚…@‚—‚…‚‚’D
 
 @mikan_odoroki
 #layer_movepass_add	l_mikan,0,	300,	0,32
@@ -392,17 +345,15 @@ wait		1000
 #layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 #layer_movepass_play	l_mikan,0,play_once
 
-
-—‚έ‚©‚ρ,A01271
-u‚ A‚Ά‚Ώ‚²‚Ώ‚α‚ρ©‚Β‚―‚½Iv
-
+#u‚ A‚Ά‚Ώ‚²‚Ώ‚α‚ρ©‚Β‚―‚½Iv
+—Mikan,A01271
+uAh, there you are Ichigo-chan!v
 
 @mikan
 
-
-—‚έ‚©‚ρ,A01272
-ucc‚Α‚ΔA‚Η‚¤‚µ‚½‚ΜHv
-
+#ucc‚Α‚ΔA‚Η‚¤‚µ‚½‚ΜHv
+—Mikan,A01272
+u... Wait, what happened to you?v
 
 @ichigo_komaru
 #--------------------------------------------------
@@ -418,69 +369,68 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-
-—‚Ά‚Ώ‚²,O01722
-u‚έ‚©‚ρ`c‚ Aƒpƒp‚ΰ`ccv
-
+#u‚έ‚©‚ρ`c‚ Aƒpƒp‚ΰ`ccv
+—Ichigo,O01722
+uMikan`... Oh, and Papa too...v
 
 @ichigo_kanashimi
 
+#u‚Σ‚‚``c‚Ά‚Ώ‚²’Χ‚κ‚ι‚©‚Ζv‚Α‚½‚ζ‚§v
+—Ichigo,O01723
+uFuaah``... I really got wiped outv
 
-—‚Ά‚Ώ‚²,O01723
-u‚Σ‚‚``c‚Ά‚Ώ‚²’Χ‚κ‚ι‚©‚Ζv‚Α‚½‚ζ‚§v
-
-—χ
-u‚©‚­‚κ‚ρ‚Ϊ‚µ‚Δ‚½‚ρ‚Ύ‚λHv
-
+#u‚©‚­‚κ‚ρ‚Ϊ‚µ‚Δ‚½‚ρ‚Ύ‚λHv
+—Itsuki
+uYou were trying to hide right?v
 
 @ichigo
 
+#u‚¤‚ρAτ‘σ•¨‚Μ’†‚Ι‰B‚κ‚Δ‚½‚Μ`v
+—Ichigo,O01724
+uYeah, I was hiding in the laundry`v
 
-—‚Ά‚Ώ‚²,O01724
-u‚¤‚ρAτ‘σ•¨‚Μ’†‚Ι‰B‚κ‚Δ‚½‚Μ`v
+#u‚ ‚κccH@‚»‚±‚Ν‚³‚Α‚«’T‚µ‚½‚ρ‚Ύ‚―‚Ηv
+—Mikan,A01273
+uHuh...? I searched there not too long agov
 
-—‚έ‚©‚ρ,A01273
-u‚ ‚κccH@‚»‚±‚Ν‚³‚Α‚«’T‚µ‚½‚ρ‚Ύ‚―‚Ηv
+#u‚έ‚©‚ρ‚ª’T‚µI‚ν‚Α‚½‚Μ‚π©‚Δ‚©‚ηA‚»‚±‚Ι‰B‚κ’Ό‚µ‚½‚Μv
+—Ichigo,O01725
+uI hid in there after I saw Mikan finish searching itv
 
-—‚Ά‚Ώ‚²,O01725
-u‚έ‚©‚ρ‚ª’T‚µI‚ν‚Α‚½‚Μ‚π©‚Δ‚©‚ηA‚»‚±‚Ι‰B‚κ’Ό‚µ‚½‚Μv
-
-—χ
-u‰B‚κκ‚π“®‚­‚Θ‚ζccv
-
+#u‰B‚κκ‚π“®‚­‚Θ‚ζccv
+—Itsuki
+uYou can't change your hiding place...v
 
 @ichigo_ikari
 
-
-—‚Ά‚Ώ‚²,O01726
-u‚»‚µ‚½‚η‚΄‚­‚λ‚ª—‚ΔAw‚Σ‚©‚Σ‚©`x‚Ζ‚©Ύ‚Ά‚Θ‚ª‚ηv‚Ά‚Α‚«‚θƒ_ƒCƒu‚µ‚Δ‚«‚½‚ρ‚Ύ‚ζ‚§v
-
+#u‚»‚µ‚½‚η‚΄‚­‚λ‚ª—‚ΔAw‚Σ‚©‚Σ‚©`x‚Ζ‚©Ύ‚Ά‚Θ‚ª‚ηv‚Ά‚Α‚«‚θƒ_ƒCƒu‚µ‚Δ‚«‚½‚ρ‚Ύ‚ζ‚§v
+—Ichigo,O01726
+uThen Zakuro came in saying "soft and fluffy`" or something and jumped into me full forcev
 
 @mikan_odoroki
 
-
-—‚έ‚©‚ρ,A01274
-u‚ ccv
-
+#u‚ ccv
+—Mikan,A01274
+uAh...v
 
 @ichigo_ase
 
+#u‚Ά‚Ώ‚²ƒrƒbƒNƒ‚µ‚½‚µA‚ΰ‚¤’Χ‚κ‚ι‚©‚Ζv‚Α‚½‚ρ‚Ύ‚©‚ηv
+—Ichigo,O01727
+uShe really scared me to death and knocked me outv
 
-—‚Ά‚Ώ‚²,O01727
-u‚Ά‚Ώ‚²ƒrƒbƒNƒ‚µ‚½‚µA‚ΰ‚¤’Χ‚κ‚ι‚©‚Ζv‚Α‚½‚ρ‚Ύ‚©‚ηv
-
-—χ
-u‚»‚κ‚Ν”ίS‚Ύ‚Α‚½‚ΘB‚µ‚©‚µA‚΄‚­‚λ‚ªccHv
+#u‚»‚κ‚Ν”ίS‚Ύ‚Α‚½‚ΘB‚µ‚©‚µA‚΄‚­‚λ‚ªccHv
+—Itsuki
+uThat's just terrible. But Zakuro of all people...?v
 
 u‚Σ‚©‚Σ‚©v‚Ζ‚©Ύ‚Ά‚Θ‚ª‚ητ‘σ•¨‚Ιƒ_ƒCƒu‚·‚ιp‚ΝA‘z‘o—‚ρ‚Μ‚Ύ‚ªcc
-
+‚h@‚ƒ‚‚L‚”@‚‚‰‚ƒ‚”‚•‚’‚…@‚‚…‚’@‚“‚‚™‚‰‚‚‡@g‚“‚‚†‚”@‚‚‚„@‚†‚‚•‚†‚†‚™h@‚‚‚„@‚„‚‰‚–‚‰‚‚‡@‚‰‚‚”‚@‚@‚‚‰‚‚…@‚‚†@‚‚‚•‚‚„‚’‚™DDD
 
 @mikan_kanashimi
 
-
-—‚έ‚©‚ρ,A01275
-u‚²A‚²‚ί‚ρA‚»‚κ‚έ‚©‚ρ‚Μ‚Ή‚Ά‚©‚ΰccv
-
+#u‚²A‚²‚ί‚ρA‚»‚κ‚έ‚©‚ρ‚Μ‚Ή‚Ά‚©‚ΰccv
+—Mikan,A01275
+uS-Sorry, that might be my fault...v
 
 @ichigo_odoroki
 #--------------------------------------------------
@@ -490,44 +440,41 @@ layer_movepass_play	l_ichigo,0,play_once
 #layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-
-—‚Ά‚Ώ‚²,O01728
-u‚¦‚¦ƒbIHv
-
+#u‚¦‚¦ƒbIHv
+—Ichigo,O01728
+uEh!?v
 
 @mikan_kusyou
 
+#u‚³‚Α‚«‚΄‚­‚λ‚Ώ‚α‚ρ‚Ι‰ο‚Α‚½Aτ‘σ•¨‚ªƒtƒJƒtƒJ‚Ύ‚Α‚½‚ζ`‚Α‚ΔΎ‚Α‚Ώ‚α‚Α‚½v
+—Mikan,A01276
+uI met Zakuro in the hallway and told her "the laundry was so soft and fluffy`"...v
 
-—‚έ‚©‚ρ,A01276
-u‚³‚Α‚«‚΄‚­‚λ‚Ώ‚α‚ρ‚Ι‰ο‚Α‚½Aτ‘σ•¨‚ªƒtƒJƒtƒJ‚Ύ‚Α‚½‚ζ`‚Α‚ΔΎ‚Α‚Ώ‚α‚Α‚½v
-
-—‚έ‚©‚ρ,A01277
-u•’ΚA’†‚Ιl‚ª‚Ά‚ι‚Θ‚ρ‚Δv‚ν‚Θ‚Ά‚©‚ηζ‚Α‚½‚Μ‚©‚ΰccv
-
+#u•’ΚA’†‚Ιl‚ª‚Ά‚ι‚Θ‚ρ‚Δv‚ν‚Θ‚Ά‚©‚ηζ‚Α‚½‚Μ‚©‚ΰccv
+—Mikan,A01277
+uI guess she jumped inside because you wouldn't expect there to be anyone in there usuallyv
 
 @ichigo_kanashimi
 
-
-—‚Ά‚Ώ‚²,O01729
-u‚¤‚¤‚¤A“‚Ά‚ζ‚§`cc“ª‘Ε‚Α‚Δ‚·‚²‚­’Ι‚©‚Α‚½‚ρ‚Ύ‚©‚η‚v
-
+#u‚¤‚¤‚¤A“‚Ά‚ζ‚§`cc“ª‘Ε‚Α‚Δ‚·‚²‚­’Ι‚©‚Α‚½‚ρ‚Ύ‚©‚η‚v
+—Ichigo,O01729
+uUuu, that's awful`... She knocked into my head and it hurt so muchv
 
 @mikan_kanashimi
 
-
-—χ
-ucc‚άA‰B‚κ‚Θ‚¨‚µ‚½ί‚Μ•t‚―‚Ύ‚Θv
+#ucc‚άA‰B‚κ‚Θ‚¨‚µ‚½ί‚Μ•t‚―‚Ύ‚Θv
+—Itsuki
+u... Well that's what you get for hiding where she already lookedv
 
 s“®‚Ι“δ‚ª‘½‚Ά‚΄‚­‚λ‚Θ‚Μ‚ΕA‚ΰ‚µ‚©‚µ‚Δ‚Ά‚Ώ‚²‚ª‹‚ι‚Μ‚π’m‚Α‚Δ‚Ά‚½‰Β”\«‚Ν”Ϋ‚ί‚Θ‚Ά‚ªcc
-
+‚s‚‚‚•‚‡‚@‚v‚‰‚”‚@‚y‚‚‹‚•‚’‚@‚—‚‚‚“‚…@‚‚ƒ‚”‚‰‚‚‚“@‚‚’‚…@‚‰‚‚“‚ƒ‚’‚•‚”‚‚‚‚‚…C@‚™‚‚•@‚ƒ‚‚L‚”@‚’‚•‚‚…@‚‚•‚”@‚”‚‚…@‚‚‚“‚“‚‰‚‚‚‰‚‚‰‚”‚™@‚“‚‚…@‚‹‚‚…‚—@‚h‚ƒ‚‚‰‚‡‚@‚—‚‚“@‚”‚‚…‚’‚…DDD
 
 #@ichigo_ikari
 @ichigo_komikaru_ikari
 
-
-—‚Ά‚Ώ‚²,O01730
-u΅“x‚Ν‚΄‚­‚λ‚ΰª‚«‚ρ‚Ε‹S‚²‚Α‚±‚Ι‚µ‚ζ‚¤I@‚±‚Μ¦‚έ°‚η‚³‚Ε‚¨‚­‚Χ‚«‚©``IIv
-
+#u΅“x‚Ν‚΄‚­‚λ‚ΰª‚«‚ρ‚Ε‹S‚²‚Α‚±‚Ι‚µ‚ζ‚¤I@‚±‚Μ¦‚έ°‚η‚³‚Ε‚¨‚­‚Χ‚«‚©``IIv
+—Ichigo,O01730
+uLet's go find Zakuro and make her "it"!@Should This Revenge Be Taken``!!v
 
 @ichigo_
 wait		1000
@@ -535,51 +482,48 @@ wait		1000
 wait		2000
 @mikan_
 
-
 Σ‹C‚έ‚Θ‚ª‚ηo‚Δs‚­‚Ά‚Ώ‚²B
+‚h‚ƒ‚‚‰‚‡‚@‚…‚‚ƒ‚‰‚”‚…‚„‚‚™@‚„‚‚“‚‚…‚“@‚‚—‚‚™D
 
 ψ‚Α’£‚η‚κ‚ι‚ζ‚¤‚ΙA‚έ‚©‚ρ‚ΰA‚κ‚Δs‚©‚κ‚½B
+‚l‚‰‚‹‚‚@‚†‚‚‚‚‚—‚“C@‚‚•‚‚‚…‚„@‚‚‚‚‚‡D
 
-—χ
-u‚β‚κ‚β‚κA³‹C‚Ύ‚Θccv
-
+#u‚β‚κ‚β‚κA³‹C‚Ύ‚Θccv
+—Itsuki
+uOh man, she's got so much energy...v
 
 bgm_stop
 #΅BGiƒuƒ‰ƒbƒNj
 @bg_black
 wait		1000
 
-
 cccccc
+DDDDDDDDDDDD
 
 ccccc
+DDDDDDDDD
 
 ccc
+DDDDDD
 
 —]’k‚Ύ‚ª‚»‚Μ”•ªγA‚©‚­‚κ‚ρ‚Ϊ‚πƒTƒ{‚Α‚ΔΛ’I‚π‹™‚ι‚έ‚©‚ρ‚π”­©‚µ‚½B
+‚h@‚†‚‚•‚‚„@‚l‚‰‚‹‚‚@‚@‚‚‰‚”‚”‚‚…@‚‚‚”‚…‚’@‚†‚‰‚“‚‚‰‚‚‡@‚‰‚@‚”‚‚…@‚ƒ‚•‚‚‚‚‚‚’‚„C@‚‚‚‚‚’‚…‚‚”‚‚™@‚‚@‚‚‚‚‡‚…‚’@‚‰‚‚”‚…‚’‚…‚“‚”‚…‚„@‚‰‚@‚‚‰‚„‚…@‚‚‚„@‚“‚…‚…‚‹D
 
 ‚³‚·‚ª‚X‚O“‚Μs“®m—¦B
-
+‚s‚‚…@‚•‚“‚•‚‚@‚X‚O“@‚‚„‚„‚“D
 
 #iƒXƒPƒWƒ…[ƒ‹‚Φj
 return
-
-
-
-
 
 label	mikan_tachi_2	#-----------------------------------------------------
 #”­¶F•s–Ύi‚½‚Ύ‚µΕ‰‚Μ•ϋ‚Ι‹­§”­¶j
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGi‚έ‚©‚ρ‚Μ•”‰®j
 @bg_mikan
 
-
 ‚έ‚©‚ρ‚Ι—U‚ν‚κA‚±‚Μq‚Μ•”‰®‚Φ‚Ζ‚β‚Α‚Δ—‚Δ‚Ά‚½B
-
 
 @mikan_middle
 @mikan_warai2
@@ -594,143 +538,118 @@ layer_movepass_play	l_mikan,0,play_once
 #--------------------------------------------------
 wait		300
 
-
+#u‚±‚ΜƒNƒbƒVƒ‡ƒ“g‚Α‚Δ‚ΔB‚Ά‚ά‰½‚©ƒQ[ƒ€o‚·‚Λv
 —‚έ‚©‚ρ,A01278
-u‚±‚ΜƒNƒbƒVƒ‡ƒ“g‚Α‚Δ‚ΔB‚Ά‚ά‰½‚©ƒQ[ƒ€o‚·‚Λv
-
 
 se_stop		0
 @mikan_
-
 
 ‚Ώ‚ε‚¤‚Η‘Ό‚Μq‚½‚Ώ‚ªo‚©‚―‚Δκl‚Ύ‚Α‚½‚έ‚©‚ρ‚ΝA—V‚Ρ‘θ‚π•ί‚ά‚¦‚Δ‚²‹@™‚ΎB
 
 •”‰®‚Μ‹χ‚Ι‹l‚ά‚κ‚½”X‚ΜQƒ{[ƒhƒQ[ƒ€‚Μ’†‚©‚ηA–Ϊ‚Ϊ‚µ‚Ά•¨‚π‹™‚Α‚Δ‚Ά‚ιB
 
-
 @SE28
 
-
+#u‚Η‚κ‚Ι‚µ‚ζ‚¤‚©‚Θ`v
 —‚έ‚©‚ρ,A01279
-u‚Η‚κ‚Ι‚µ‚ζ‚¤‚©‚Θ`v
 
+#u“ρl‚Ε‚ΰ—V‚Χ‚ι‚ΰ‚ΜA–Κ”’‚Ά‚β‚Β`v
 —‚έ‚©‚ρ,A01280
-u“ρl‚Ε‚ΰ—V‚Χ‚ι‚ΰ‚ΜA–Κ”’‚Ά‚β‚Β`v
 
 ‚έ‚©‚ρ‚Ζ—V‚ρ‚Ε‚·‚®•ª‚©‚Α‚½‚ªA‚±‚Μq‚Ν‚©‚Θ‚θ‚Μƒ{[ƒhƒQ[ƒ€D‚«‚Ύ‚Α‚½B
 
 ‘Ό‚Μ—V‚Ρ‚ΰΟ‹Ι“I‚Ιy‚µ‚ρ‚Ε‚Ν‚Ά‚ι‚ªA‚ΰ‚Ν‚βƒRƒƒNƒVƒ‡ƒ“‚Μζ‚Ι’B‚µ‚»‚¤‚Θ‚Ω‚Η‘ςR‚ΜƒQ[ƒ€‚π‚µ‚Δ‚Ά‚ιB
 
+#u‚ά‚‚¨έ‚Ά‰Ι‚Ύ‚©‚η‚ΘB‚Μ‚ρ‚Ρ‚θ’T‚Ή‚Ξ‚Ά‚Ά‚ζv
 —χ
-u‚ά‚‚¨έ‚Ά‰Ι‚Ύ‚©‚η‚ΘB‚Μ‚ρ‚Ρ‚θ’T‚Ή‚Ξ‚Ά‚Ά‚ζv
 
 ‚±‚¤‚Ά‚¤–‚πΎ‚¤‚Ζ΄‚³‚ρ‚ ‚½‚θ‚ªAu‚Ύ‚Α‚½‚η’²‹³‚µ‚λv‚Ζ‚©Ύ‚Ά‚»‚¤‚Ύ‚ªB
 
+#u‚ ‚κA‚»‚±‚Ι‚ ‚ι‚Μ‚Α‚Δƒ[ƒ‰[ƒuƒ[ƒh‚¶‚α‚Θ‚Ά‚©Hv
 —χ
-u‚ ‚κA‚»‚±‚Ι‚ ‚ι‚Μ‚Α‚Δƒ[ƒ‰[ƒuƒ[ƒh‚¶‚α‚Θ‚Ά‚©Hv
-
 
 se_stop		0
 @mikan_small
 @mikan_warai
 
-
+#u‚ A‚¤‚ρB‚±‚±‚Ι—‚ι‘O‚Μό‚±‚¤‚Μ—F’B‚Ζ‚ΝAκ‚Ι—V‚ρ‚Ε‚½‚ρ‚Ύ‚ζv
 —‚έ‚©‚ρ,A01281
-u‚ A‚¤‚ρB‚±‚±‚Ι—‚ι‘O‚Μό‚±‚¤‚Μ—F’B‚Ζ‚ΝAκ‚Ι—V‚ρ‚Ε‚½‚ρ‚Ύ‚ζv
-
 
 #@mikan_kusyou
 
-
+#u‚±‚Α‚Ώ‚Ε‚ΰ—V‚Ϊ‚¤‚Ζv‚Α‚Δ‚Α‚Δ‚«‚½‚ρ‚Ύ‚―‚ΗA’N‚ΰ‚Α‚Δ‚Θ‚Ά‚©‚η’u‚«‚Α‚Ο‚Θ‚µ‚Θ‚ρ‚Ύ‚ccv
 —‚έ‚©‚ρ,A01282
-u‚±‚Α‚Ώ‚Ε‚ΰ—V‚Ϊ‚¤‚Ζv‚Α‚Δ‚Α‚Δ‚«‚½‚ρ‚Ύ‚―‚ΗA’N‚ΰ‚Α‚Δ‚Θ‚Ά‚©‚η’u‚«‚Α‚Ο‚Θ‚µ‚Θ‚ρ‚Ύ‚ccv
-
 
 @mikan_
 wait		1000
 @SE28
 wait		1000
 
-
+#u‚»‚κ‚Ν‚΄‚ρ‚Λccc‚¤‚νv
 —χ
-u‚»‚κ‚Ν‚΄‚ρ‚Λccc‚¤‚νv
 
 ‰‚Ι‚ ‚ιƒQ[ƒ€‚πζ‚λ‚¤‚Ζ‚µ‚ΔA‚έ‚©‚ρ‚ªl‚Β‚ρ”‡‚Ά‚ΜΫ‚Η‚Άƒ|[ƒY‚Ι‚Θ‚Α‚Δ‚Ά‚½B
 
 ƒpƒ“ƒc‚ª©‚¦‚»‚¤‚Ύccc‚ά‚‰Ί’…‚­‚η‚ΆA΅X‚Μ‚ζ‚¤‚Θ΄‚ª‚ ‚ι‚―‚Η‚ΰB
 
+#u‚Ά‚Ώ‚²‚Θ‚η‚±‚¤‚Ά‚¤‚ΜAμ‚ρ‚Ε—V‚Ρ‚»‚¤‚Ύ‚―‚Η‚Θv
 —χ
-u‚Ά‚Ώ‚²‚Θ‚η‚±‚¤‚Ά‚¤‚ΜAμ‚ρ‚Ε—V‚Ρ‚»‚¤‚Ύ‚―‚Η‚Θv
-
 
 @mikan_kusyou
 
-
+#u‚¤`‚ρA‚Ε‚ΰ‚±‚κ‚‚Ά‚©‚ηA—U‚Α‚Δ‚ΰ”ƒ‚¦‚Θ‚Ά‚µccc‚ A‚ ‚Α‚½v
 —‚έ‚©‚ρ,A01283
-u‚¤`‚ρA‚Ε‚ΰ‚±‚κ‚‚Ά‚©‚ηA—U‚Α‚Δ‚ΰ”ƒ‚¦‚Θ‚Ά‚µccc‚ A‚ ‚Α‚½v
-
 
 bgm_stop
 se_stop		0
 @mikan_
 
-
 ƒYƒ{ƒbI‚Ζ‰‚Μ‰Ί‚Ι‚ ‚Α‚½ƒQ[ƒ€‚π”²‚«ζ‚ι‚έ‚©‚ρB
 
 ƒOƒ‰ƒbcc
 
+#u‚¦ccH@‚¤‚ν‚ν‚ν[ƒbIHv
 —‚έ‚©‚ρ,A01284
-u‚¦ccH@‚¤‚ν‚ν‚ν[ƒbIHv
-
 
 #SE39@Ο‚ρ‚Ε‚Ά‚½•¨‚ª•φ‚κ‚ι‰ΉiƒhƒVƒƒƒhƒVƒƒƒbAƒKƒ‰ƒ‰ƒbj
 @se39
 screen_vibration	500,16,16,16
 
-
 ƒKƒ‰ƒKƒ‰ƒKƒ‰ƒbI@ƒKƒVƒƒ[[ƒ“II
 
+#u‚¤‚νƒbA‚έ‚©‚ρIH@‘εδ•v‚©A‚¨‚ΆIHv
 —χ
-u‚¤‚νƒbA‚έ‚©‚ρIH@‘εδ•v‚©A‚¨‚ΆIHv
-
 
 se_stop		0
 
-
+#u‚¤‚¬‚γ‚£‚£‚Αcc‚ΒA’Χ‚κ‚ι‚£‚£``v
 —‚έ‚©‚ρ,A01285
-u‚¤‚¬‚γ‚£‚£‚Αcc‚ΒA’Χ‚κ‚ι‚£‚£``v
 
 ‚έ‚©‚ρ‚Μγ”Όg‚ªA•φ‚κ‚Δ‚«‚½ƒ{[ƒh‚ΜR‚Ι®‘S‚Ι–„‚ά‚Α‚Δ‚µ‚ά‚Α‚Δ‚Ά‚½B
 
+#u‚»‚θ‚α‰Ί‚π”²‚«ζ‚Α‚½‚η•φ‚κ‚Δ‚­‚ι‚Ύ‚λcc‰φ‰δ‚Θ‚Ά‚©Hv
 —χ
-u‚»‚θ‚α‰Ί‚π”²‚«ζ‚Α‚½‚η•φ‚κ‚Δ‚­‚ι‚Ύ‚λcc‰φ‰δ‚Θ‚Ά‚©Hv
 
+#u‘εδ•v`A‚Ε‚ΰd‚­‚Δ“®‚―‚Θ‚Ά‚ζ‚§`‚¨Z‚Ώ‚α‚ρ``ccv
 —‚έ‚©‚ρ,A01286
-u‘εδ•v`A‚Ε‚ΰd‚­‚Δ“®‚―‚Θ‚Ά‚ζ‚§`‚¨Z‚Ώ‚α‚ρ``ccv
-
 
 #’F”χ–­‚Θ‚Μ‚Εν‚ι‚©‚ΰ
 @SE28
 
-
 R‚©‚η“Λ‚«o‚½‰Ί”Όg‚ªƒoƒ^•t‚«AΫ©‚¦‚Μƒpƒ“ƒc‚ªξ‚―‚Θ‚³‚Ι—Φ‚π‚©‚―‚ιB
 
+#u‚Ν‚ccW‚ί‚ι‚Μ‚Ν‚Ά‚Ά‚―‚ΗA®—‚ΰ‚Ώ‚α‚ρ‚Ζ‚µ‚ζ‚¤‚Θv
 —χ
-u‚Ν‚ccW‚ί‚ι‚Μ‚Ν‚Ά‚Ά‚―‚ΗA®—‚ΰ‚Ώ‚α‚ρ‚Ζ‚µ‚ζ‚¤‚Θv
-
 
 se_stop		0
 
-
+#u‚²‚ί‚ρ‚Θ‚³‚Άccv
 —‚έ‚©‚ρ,A01287
-u‚²‚ί‚ρ‚Θ‚³‚Άccv
 
 ƒpƒ“ƒc‚©‚ηƒVƒ…ƒ“‚Ζ—‚Ώ‚ρ‚ΎΊ‚ª—λ‚κ—‚Ώ‚½B
 
-
 @bg_black
 wait		1000
-
 
 #iƒXƒPƒWƒ…[ƒ‹j
 return
@@ -742,110 +661,90 @@ label	mikan_tachi_3	#-----------------------------------------------------
 #΅BGiL‰Ίj
 @bg_rouka
 
-
 #SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 @SE40			#SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
-
 
 ‚έ‚©‚ρ‚Μ•”‰®‚Μ‘O‚π’Κ‚ι‚ΖA’†‚©‚η‰ω‚©‚µ‚Ά“J‚Μ‰Ή‚ª•·‚±‚¦‚Δ‚«‚½B
 
 Ί‚π‚©‚―‚Δ‚©‚ηƒhƒA‚πJ‚―‚Δ©‚ιB
-
 
 se_stop		0
 @bg_black
 @se_door_open
 wait		1000
 
-
 #΅BGi‚έ‚©‚ρ‚Μ•”‰®j
 @bg_mikan
 
-
+#u‚²‚ί‚ρA“J‚Μ‰Ή‚¤‚ι‚³‚©‚Α‚½‚©‚ΘHv
 —‚έ‚©‚ρ,A01305
-u‚²‚ί‚ρA“J‚Μ‰Ή‚¤‚ι‚³‚©‚Α‚½‚©‚ΘHv
-
 
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 
-
 ƒxƒbƒh‚Ι|‚―‚½‚έ‚©‚ρ‚ªAƒƒR[ƒ_[‚π•Πθ‚Ι\‚µ–σ–³‚³‚»‚¤‚Θη‚π‚µ‚Δ‚Ά‚½B
 
+#u‚Ά‚βA‘O‚π’Κ‚θ‚©‚©‚Α‚Δ‹C‚Ι‚Θ‚Α‚½‚Ύ‚―‚Ύ‚©‚ηB—ϋKHv
 —χ
-u‚Ά‚βA‘O‚π’Κ‚θ‚©‚©‚Α‚Δ‹C‚Ι‚Θ‚Α‚½‚Ύ‚―‚Ύ‚©‚ηB—ϋKHv
-
 
 @mikan_kanashimi
 
-
+#ucc‚¤‚ρA“ο‚µ‚­‚Δγθ‚­‚―‚Θ‚Ά‚Μv
 —‚έ‚©‚ρ,A01306
-ucc‚¤‚ρA“ο‚µ‚­‚Δγθ‚­‚―‚Θ‚Ά‚Μv
 
 —Ν–³‚­¨‚π—‚Ζ‚µ‚½‚έ‚©‚ρ‚ªAϊ‘Ò‚π‚±‚ί‚½‹ό‚π‚±‚Ώ‚η‚Ιό‚―‚ιB
 
-
 @mikan
 
-
+#u‚¨Z‚Ώ‚α‚ρ‚―‚ιH@‹³‚¦‚Δ‚ΰ‚η‚Α‚Δ‚ΰ‚Ά‚Ά‚©‚Θv
 —‚έ‚©‚ρ,A01307
-u‚¨Z‚Ώ‚α‚ρ‚―‚ιH@‹³‚¦‚Δ‚ΰ‚η‚Α‚Δ‚ΰ‚Ά‚Ά‚©‚Θv
 
+#u‚ΰ‚¤‰½”N‚ΰ‘O‚Μ‚±‚Ζ‚Ύ‚©‚η‚Θccwg‚ΆHv
 —χ
-u‚ΰ‚¤‰½”N‚ΰ‘O‚Μ‚±‚Ζ‚Ύ‚©‚η‚Θccwg‚ΆHv
-
 
 @mikan_
 wait		1000
 @mikan_middle
 @mikan
 
-
+#u‚¤‚¤‚ρAκ‰ρ‚¨θ–{‚π©‚Ή‚Δ‚Ω‚µ‚Ά‚ρ‚Ύ‚―‚Ηv
 —‚έ‚©‚ρ,A01308
-u‚¤‚¤‚ρAκ‰ρ‚¨θ–{‚π©‚Ή‚Δ‚Ω‚µ‚Ά‚ρ‚Ύ‚―‚Ηv
 
 ‰‚¦‚Θ‚ª‚ηA‚έ‚©‚ρ‚©‚η‹³‰Θ‘‚πσ‚―ζ‚Α‚Δ‰Ή•„‚π’Η‚Α‚Δ‚Ά‚­B
 
+#u‚ά‚‘εδ•v‚©‚ΘBƒƒR[ƒ_[‘έ‚µ‚Δv
 —χ
-u‚ά‚‘εδ•v‚©‚ΘBƒƒR[ƒ_[‘έ‚µ‚Δv
-
 
 @mikan_warai2
 
-
+#u‚¤‚ρv
 —‚έ‚©‚ρ,A01309
-u‚¤‚ρv
 
 Ύ‚ν‚κ‚ι‚ά‚ά‚Ι·‚µo‚·ƒƒR[ƒ_[‚πσ‚―ζ‚Α‚Δϋ‚π‚Β‚―‚½B
-
 
 bgm_stop
 #΅BGiƒuƒ‰ƒbƒNj
 @mikan_
 @bg_black
 
-
 ‚«n‚ί‚ι‚ΖAΔOo‚¦‚Δ‚Ά‚½w‚ªθ‚Ι“®‚Ά‚Δ‰Ή‚π‘t‚Ε‚Δ‚Ά‚­B
 
+#icc‚µ‚©‚µA‚«n‚ί‚Δ‹C‚Γ‚Ά‚½‚―‚ΗB‚±‚κ‚ΝΤΪƒLƒX‚Ύ‚ζ‚Θj
 —χ
-icc‚µ‚©‚µA‚«n‚ί‚Δ‹C‚Γ‚Ά‚½‚―‚ΗB‚±‚κ‚ΝΤΪƒLƒX‚Ύ‚ζ‚Θj
 
 ‚έ‚©‚ρ‘θ‚Ι‚»‚ρ‚Θ‚±‚Ζ‚πΣ―‚·‚ι‚Θ‚ρ‚ΔA‚β‚Ν‚θ’²‹³‚ªψ‚Ά‚Δ‚Ά‚ι‚Μ‚Ύ‚λ‚¤‚©B
-
 
 #΅BGi‚έ‚©‚ρ‚Μ•”‰®j
 @mikan_middle
 @mikan
 @bg_mikan
 
-
+#ucccv
 —‚έ‚©‚ρ,A01310
-ucccv
 
 ‰‚ί•sΐ‚»‚¤‚Ύ‚Α‚½‚έ‚©‚ρ‚ΰA‚«I‚ν‚ι ‚Ι‚Ν΄S‚µ‚½‚ζ‚¤‚Ι‚±‚Ώ‚η‚Μwg‚Ά‚π©‚Β‚ί‚Δ‚Ά‚½B
 
+#ucc‚ρA‚±‚ρ‚Θ΄‚¶‚©‚Θv
 —χ
-ucc‚ρA‚±‚ρ‚Θ΄‚¶‚©‚Θv
-
 
 @mikan_warai
 #--------------------------------------------------
@@ -859,27 +758,23 @@ layer_movepass_play	l_mikan,0,play_once
 #--------------------------------------------------
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 
-
+#u‚ν‚ƒbA‚·‚²‚Ά‚¨Z‚Ώ‚α‚ρA®ΰψ‚Ύ‚ζIv
 —‚έ‚©‚ρ,A01311
-u‚ν‚ƒbA‚·‚²‚Ά‚¨Z‚Ώ‚α‚ρA®ΰψ‚Ύ‚ζIv
 
 ‰‰‘t‚πI‚¦‚ι‚ΖAƒƒR[ƒ_[‚πσ‚―ζ‚θ‚Θ‚ª‚η‚Ν‚µ‚α‚®‚έ‚©‚ρB
 
 ‚·‚®‚Ι©•ª‚ΰ‚«ϋ‚π™ψ‚¦‚ι‚ΖA“―‚¶‹Θ‚π‰‰‘t‚µ‚ζ‚¤‚Ζ‚έ‚ιB
 
+#ucc‚ΰ‚¤‚Ά‚Ά‚©B‚Ώ‚ε‚Α‚Ζ—§‚Ώρ‚Α‚½‚Ύ‚―‚Ύ‚©‚ηAƒIƒ‚Ν‚»‚λ‚»‚λs‚­‚―‚ΗHv
 —χ
-ucc‚ΰ‚¤‚Ά‚Ά‚©B‚Ώ‚ε‚Α‚Ζ—§‚Ώρ‚Α‚½‚Ύ‚―‚Ύ‚©‚ηAƒIƒ‚Ν‚»‚λ‚»‚λs‚­‚―‚ΗHv
-
 
 #@mikan_warai2
 @mikan_kusyou
 
-
+#u‚ A‚¤‚ρcc‚ά‚Ύ•sΐ‚Ύ‚―‚ΗAζ’£‚Α‚Δ‚έ‚ιB‚ ‚θ‚ª‚Ζ‚¨Z‚Ώ‚α‚ρτv
 —‚έ‚©‚ρ,A01312
-u‚ A‚¤‚ρcc‚ά‚Ύ•sΐ‚Ύ‚―‚ΗAζ’£‚Α‚Δ‚έ‚ιB‚ ‚θ‚ª‚Ζ‚¨Z‚Ώ‚α‚ρτv
 
 –Ύ‚ι‚©‚Α‚½•\ξ‚ª‚Ώ‚ε‚Α‚Ζ“ά‚ι‚ªA—ϋK‚πΔJ‚·‚ι‚Μ‚π©‚Δ•”‰®‚πγ‚Ι‚µ‚½B
-
 
 #΅BGiƒuƒ‰ƒbƒNj
 bgm_stop
@@ -888,39 +783,28 @@ bgm_stop
 @se_door_close
 wait		1000
 
-
 ‚©‚θ‚ρ‚Ι‚Ν’m‚η‚κ‚Θ‚Ά‚ζ‚¤‚Ι‚µ‚Θ‚Ά‚Ζ‚ΘccΤΪƒLƒX‚Θ‚ρ‚ΔB
-
 
 se_stop		0
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_3_1	#-----------------------------------------------------
 #”­¶FD΄“xΛ‘¶B‚R‚π©‚Δ‚Ά‚ι‚±‚Ζ
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGiL‰Ίj
 @bg_rouka
 
-
 #SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 @SE40			#SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 
-
 ‚έ‚©‚ρ‚Μ•”‰®‚Μ‘O‚π’Κ‚θ‚©‚©‚ι‚ΖA‚ά‚½‚Ά‚Β‚©‚Μ“J‚Μ‰Ή‚ª•·‚±‚¦‚Δ‚«‚½B
 
+#i‚ά‚Ύ‹l‚ά‚Α‚Δ‚ι‚έ‚½‚Ά‚Ύ‚Θccj
 —χ
-i‚ά‚Ύ‹l‚ά‚Α‚Δ‚ι‚έ‚½‚Ά‚Ύ‚Θccj
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -931,12 +815,10 @@ if sel=0 then goto	mikan_tachi_3_1a
 if sel=1 then goto	mikan_tachi_3_1b
 #--------------------------------------------------
 
-
 #---------------------------
 #i‚Pj‚έ‚©‚ρD΄“xUP
 label	mikan_tachi_3_1a
 #---------------------------
-
 
 se_stop		0
 @bg_black
@@ -945,95 +827,77 @@ wait		1000
 #΅BGi‚έ‚©‚ρ‚Μ•”‰®j
 @bg_mikan
 
-
+#u‚Η‚¤‚µ‚½A‚ά‚½—ϋK‚©Hv
 —χ
-u‚Η‚¤‚µ‚½A‚ά‚½—ϋK‚©Hv
-
 
 @mikan
 
-
+#u‚ A‚¤‚ρcc‘O‚Μ‹ΘB‚―‚½‚ρ‚Ύ‚―‚ΗAζ¶‚ª‡i‚π‚­‚κ‚Θ‚Ά‚Μv
 —‚έ‚©‚ρ,A01288
-u‚ A‚¤‚ρcc‘O‚Μ‹ΘB‚―‚½‚ρ‚Ύ‚―‚ΗAζ¶‚ª‡i‚π‚­‚κ‚Θ‚Ά‚Μv
-
 
 @mikan_kusyou
 
-
+#u‰½‚©‚ΛAƒ^ƒ“ƒMƒ“ƒO‚ªo—‚Δ‚Θ‚Ά‚©‚η‚Α‚Δv
 —‚έ‚©‚ρ,A01289
-u‰½‚©‚ΛAƒ^ƒ“ƒMƒ“ƒO‚ªo—‚Δ‚Θ‚Ά‚©‚η‚Α‚Δv
 
 ƒ^ƒ“ƒMƒ“ƒO‚©ccc
 
 m‚©‚Ι‚έ‚©‚ρ‚Μ‹Θ‚Ι‚ΝA‰Ή‚ΙΨ‚κ–Ϊ‚ª–³‚Ά‚ρ‚Ύ‚ζ‚ΘB
 
+#uγ‚πg‚Α‚ΔA‚«‚έϋ‚πΗ‚Ά‚Ε‰Ή‚πΨ‚η‚·‚ρ‚Ύ‚ζv
 —χ
-uγ‚πg‚Α‚ΔA‚«‚έϋ‚πΗ‚Ά‚Ε‰Ή‚πΨ‚η‚·‚ρ‚Ύ‚ζv
-
 
 @mikan
 
-
+#ucc‚Ε‚ΰϋ‚πΗ‚Ά‚Ύ‚η‰Ή‚ª–Β‚η‚Θ‚­‚Θ‚Α‚Ώ‚α‚¤‚ζHv
 —‚έ‚©‚ρ,A01290
-ucc‚Ε‚ΰϋ‚πΗ‚Ά‚Ύ‚η‰Ή‚ª–Β‚η‚Θ‚­‚Θ‚Α‚Ώ‚α‚¤‚ζHv
 
+#ucccv
 —χ
-ucccv
 
+#i‹ZpΘ‘O‚Ι’m―‚ª‚Θ‚Ά‚έ‚½‚Ά‚Ύcc‹³t‚Νκ‘Μ‰½‚π‹³‚¦‚Δ‚ι‚ρ‚Ύ‚©ccj
 —χ
-i‹ZpΘ‘O‚Ι’m―‚ª‚Θ‚Ά‚έ‚½‚Ά‚Ύcc‹³t‚Νκ‘Μ‰½‚π‹³‚¦‚Δ‚ι‚ρ‚Ύ‚©ccj
 
+#u“JA‘έ‚µ‚Δv
 —χ
-u“JA‘έ‚µ‚Δv
 
+#u‚¤‚ρccv
 —‚έ‚©‚ρ,A01291
-u‚¤‚ρccv
-
 
 @mikan_
-
 
 ‚ά‚½‚έ‚©‚ρ‚©‚ηƒƒR[ƒ_[‚πσ‚―ζ‚ι‚ΖA‚¨θ–{‚π©‚Ή‚Δ‚β‚ιB
 
 •ª‚©‚θ‚β‚·‚Ά‚ζ‚¤‚Ι“―‚¶‰Ή‚π–Β‚η‚µ‚Θ‚ª‚ηAγ‚Ε‰Ή‚π‹ζΨ‚Α‚Δ‚Ά‚Α‚½B
 
+#u‚±‚¤‚β‚Α‚Δ‰Ή‚π–Β‚η‚µ‚Θ‚ª‚ηAγ‚π•t‚―‚½‚θ—£‚µ‚½‚θ‚µ‚Δ‰Ή‚π‹ζΨ‚ιv
 —χ
-u‚±‚¤‚β‚Α‚Δ‰Ή‚π–Β‚η‚µ‚Θ‚ª‚ηAγ‚π•t‚―‚½‚θ—£‚µ‚½‚θ‚µ‚Δ‰Ή‚π‹ζΨ‚ιv
-
 
 @mikan_middle
 @mikan_kanashimi
 
-
+#ucc‚¤`‚ρv
 —‚έ‚©‚ρ,A01292
-ucc‚¤`‚ρv
 
+#u—v—ϋK‚Ύ‚Θv
 —χ
-u—v—ϋK‚Ύ‚Θv
-
 
 @mikan_kusyou
 
-
+#u‚¤‚ρccζ’£‚Α‚Δ‚έ‚ιv
 —‚έ‚©‚ρ,A01293
-u‚¤‚ρccζ’£‚Α‚Δ‚έ‚ιv
-
 
 @mikan_
 #SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 @SE40			#SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 
-
 ©M–³‚³‚»‚¤‚Ι‘§‚π‚«‚ή‚έ‚©‚ρ‚ª—ϋK‚πΔJ‚µ‚½B
 
 ‘O‰ρ‚Ν“r’†‚Ε‹A‚Α‚½•ªA΅“ϊ‚ΝΕγ‚ά‚Ε‹³‚¦‚Δ‚β‚ι‚±‚Ζ‚Ι‚µ‚ζ‚¤B
 
-
-
 se_stop		0
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xUP
@@ -1041,109 +905,88 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #---------------------------
 #i‚Qj‚©‚θ‚ρD΄“xUP
 label	mikan_tachi_3_1b
 #---------------------------
 
-
 ‚β‚Α‚Ο‚θƒIƒ‚ζ‚θ‚©‚θ‚ρ‚ª“K”C‚Ύ‚ΘB
 
 ‚»‚Μ•ϋ‚ª‚©‚θ‚ρ‚ΰμ‚Τ‚Ύ‚λ‚¤‚µcc“―‚¶“J‚Μ‚β‚θζ‚θ‚Ν‚Η‚¤‚ΰ‚ΘB
 
+#u‚©‚θ‚ρ‚Ιƒoƒ‚½‚ηE‚³‚κ‚»‚¤‚Ύv
 —χ
-u‚©‚θ‚ρ‚Ιƒoƒ‚½‚ηE‚³‚κ‚»‚¤‚Ύv
-
 
 se_stop		0
 
-
+#u„‚ª‚Η‚¤‚µ‚½‚Α‚ΔHv
 —‚©‚θ‚ρ,P01737
-u„‚ª‚Η‚¤‚µ‚½‚Α‚ΔHv
-
 
 @karin
 wait			1000
 screen_vibration	500,16,16,16	
 
-
+#u‚¦ƒbccc‚¤‚§‚ ƒbIHv
 —χ
-u‚¦ƒbccc‚¤‚§‚ ƒbIHv
 
 ‚Ά‚Β‚Μ‚ά‚Ι‚©”wγ‚Ι‚Ά‚½‚©‚θ‚ρ‚ªAƒIƒ‚Μ—λ‚µ‚½‘δ‚Ιζb‚µ‚°‚Θ‹ό‚πό‚―‚Δ‚«‚Δ‚Ά‚½B
 
+#u‰½‚µ‚Δ‚ι‚ρ‚ΎA‚±‚ρ‚Θ‚Ζ‚±‚λ‚Ε‚Αccv
 —χ
-u‰½‚µ‚Δ‚ι‚ρ‚ΎA‚±‚ρ‚Θ‚Ζ‚±‚λ‚Ε‚Αccv
 
+#u‰½‚Α‚ΔA‚±‚±‚Ν‚έ‚©‚ρ‚Μ•”‰®‚ζB„‚ª‹‚Δ“–‘R‚¶‚α‚Θ‚Άv
 —‚©‚θ‚ρ,P01738
-u‰½‚Α‚ΔA‚±‚±‚Ν‚έ‚©‚ρ‚Μ•”‰®‚ζB„‚ª‹‚Δ“–‘R‚¶‚α‚Θ‚Άv
 
 ‚Ά‚βA‚»‚Μ“–‘R‚ΜΣ–΅‚ª•ª‚©‚ι‚ζ‚¤‚Ε•ª‚©‚η‚Θ‚Ά‚ρ‚Ύ‚ªB
 
-
 @karin_keno		#™«
 
-
+#u‚»‚κ‚ζ‚θA‚ ‚Θ‚½‚±‚»‰½‚µ‚Δ‚ι‚ΜBƒuƒcƒuƒc‚Ζ“Ζ‚θΎ™κ‚Ά‚Δ‰φ‚µ‚Ά‚ν‚Λccv
 —‚©‚θ‚ρ,P01739
-u‚»‚κ‚ζ‚θA‚ ‚Θ‚½‚±‚»‰½‚µ‚Δ‚ι‚ΜBƒuƒcƒuƒc‚Ζ“Ζ‚θΎ™κ‚Ά‚Δ‰φ‚µ‚Ά‚ν‚Λccv
 
+#u•Κ‚ΙAƒIƒ‚Μ•ϋ‚ΰ‚β‚ά‚µ‚Ά‚±‚Ζ‚Ν–³‚Ά‚ªcccv
 —χ
-u•Κ‚ΙAƒIƒ‚Μ•ϋ‚ΰ‚β‚ά‚µ‚Ά‚±‚Ζ‚Ν–³‚Ά‚ªcccv
 
+#u‚»‚κ‚ζ‚θ‚©‚θ‚ρA΅‚έ‚©‚ρ‚ªƒƒR[ƒ_[‚Μ—ϋK‚π‚µ‚Δ‚ι‚ρ‚Ύ‚―‚ΗA©‚Δ‚β‚Α‚Δ‚ΰ‚η‚¦‚ι‚©v
 —χ
-u‚»‚κ‚ζ‚θ‚©‚θ‚ρA΅‚έ‚©‚ρ‚ªƒƒR[ƒ_[‚Μ—ϋK‚π‚µ‚Δ‚ι‚ρ‚Ύ‚―‚ΗA©‚Δ‚β‚Α‚Δ‚ΰ‚η‚¦‚ι‚©v
-
 
 @karin_odoroki		#‹Α
 
-
+#u‚¦A‚έ‚©‚ρ‚ªcc“J‚πHv
 —‚©‚θ‚ρ,P01740
-u‚¦A‚έ‚©‚ρ‚ªcc“J‚πHv
 
 ‹^”O‚Μ‚±‚ΰ‚Α‚½‹ό‚ªA‚»‚ΜΎ—t‚Ε‹Α‚«F‚Ι©J‚©‚κ‚½B•ª‚©‚θ‚β‚·‚­‚Δ”ρν‚Ι•‚©‚ιB
 
+#i‚ά‚‚»‚Μ•ªA‚Ω‚©‚Μ–‚Ι‚Ν‹C“ο‚µ‚Ά‚ρ‚Ύ‚―‚Ηccj
 —χ
-i‚ά‚‚»‚Μ•ªA‚Ω‚©‚Μ–‚Ι‚Ν‹C“ο‚µ‚Ά‚ρ‚Ύ‚―‚Ηccj
-
 
 @karin_
 wait		1000
 @karin_large		# ‹ί‚Ά
 @karin			#•’Κ
 
-
 Ί‚πφ‚ί‚Δ¨³‚ΕA‚ ‚½‚©‚ΰ”ι‚ί‚β‚©‚³‚π‰‰o‚·‚ι‚ζ‚¤‚ΙΎ—t‚πq‚°‚Δ‚Ά‚­B
 
+#u‚ ‚ A‚¨θ–{‚Ζ‚©©‚Ή‚Δ‚β‚Α‚Δ‚­‚κB‚έ‚©‚ρ‚Μ“J‚Εv
 —χ
-u‚ ‚ A‚¨θ–{‚Ζ‚©©‚Ή‚Δ‚β‚Α‚Δ‚­‚κB‚έ‚©‚ρ‚Μ“J‚Εv
-
 
 @karin_odoroki		#‹Α
 
-
+#u‚έ‚©‚ρ‚Μ“J‚ΕƒbIH@„‚ª‚¨θ–{‚πIIv
 —‚©‚θ‚ρ,P01741
-u‚έ‚©‚ρ‚Μ“J‚ΕƒbIH@„‚ª‚¨θ–{‚πIIv
 
+#u“J‚π‚­‚Α‚Δ‚±‚Ζ‚Νccv
 —χ
-u“J‚π‚­‚Α‚Δ‚±‚Ζ‚Νccv
-
 
 @karin_komikaru_yoku	#ƒRƒ~ƒJƒ‹—~
 
-
+#uϋ‚π•t‚―‚ιIIv
 —‚©‚θ‚ρ,P01742
-uϋ‚π•t‚―‚ιIIv
 
 µ‚Ά‚β‚·‚­‚Δ‹\‚Ύ‚ªA‚±‚Μq‚Μ‚έ‚©‚ρ‚Φ‚Μ“M¤‚Α‚Υ‚θ‚Ν΅‚µ‚½•ϋ‚ª—Η‚Ά‚ζ‚¤‚Θ‹C‚ª‚µ‚Θ‚Ά‚Ε‚ΰ‚Θ‚ΆB
-
 
 #--------------------------------------------------
 layer_movepass_add	l_karin,0,	200,	32,0
@@ -1155,20 +998,16 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #--------------------------------------------------
 
-
+#u‚»‚µ‚Δγg‚Ά‚ª•ª‚©‚η‚Θ‚Ά‚έ‚©‚ρ‚ΙAΐ‰‰‚ΖΜ‚µ‚Δ’ΌΪϋ•t‚―‚πIIv
 —‚©‚θ‚ρ,P01743
-u‚»‚µ‚Δγg‚Ά‚ª•ª‚©‚η‚Θ‚Ά‚έ‚©‚ρ‚ΙAΐ‰‰‚ΖΜ‚µ‚Δ’ΌΪϋ•t‚―‚πIIv
 
+#u‚Ά‚βA‚»‚±‚ά‚Εs‚Α‚½‚η‚ΰ‚¤“J‚Μ—ϋK‚¶‚α\\\v
 —χ
-u‚Ά‚βA‚»‚±‚ά‚Εs‚Α‚½‚η‚ΰ‚¤“J‚Μ—ϋK‚¶‚α\\\v
-
 
 @karin_koufun		#‹»•±
 
-
+#u‚Η‚«‚Θ‚³‚ΆƒbIIv
 —‚©‚θ‚ρ,P01744
-u‚Η‚«‚Θ‚³‚ΆƒbIIv
-
 
 @karin_
 #SE05@•¨‚Ι‚Τ‚Β‚©‚ι‰ΉiƒKƒ“ƒbIj
@@ -1177,47 +1016,41 @@ layer_movepass_play	l_karin,0,play_once
 #screen_flash		500
 #screen_vibration	500,16,16,16
 
-
 ®‘S‚Ι–\‘–‚µ‚½‚©‚θ‚ρ‚ΝƒIƒ‚π“Λ‚«”ς‚Ξ‚µA–Ϊ‚ΜF•Ο‚¦‚Δ‚έ‚©‚ρ‚Μ•”‰®‚Φ”ς‚Ρ‚ρ‚Ε‚Ά‚­B
 
+#u‚ ƒbA‚¨‚ΆIH@–ΐ‚¤‚Θ‚©‚θ‚ρƒbIIv
 —χ
-u‚ ƒbA‚¨‚ΆIH@–ΐ‚¤‚Θ‚©‚θ‚ρƒbIIv
-
 
 screen_vibration	500,16,16,16
 #SE10@®‚Μ|‚©‚Α‚½•”‰®‚ΜƒhƒAƒmƒu‚π‰ρ‚·‰ΉiƒKƒ`ƒƒƒKƒ`ƒƒj
 @SE10
 
-
+#u‚Α‚ΔA®|‚―‚Δ‚β‚ª‚ιIHv
 —χ
-u‚Α‚ΔA®|‚―‚Δ‚β‚ª‚ιIHv
 
 ‚ ‚Μκu‚Ε”ΰ‚ª•Β‚΄‚³‚κAOE‚©‚ηu—£‚³‚κ‚½‚έ‚©‚ρ‚Μ•”‰®B
 
 ‚»‚Μ’†‚©‚ηA
 
+#u‚νƒbIH@‚ΗA‚Η‚¤‚µ‚½‚Μ‚©‚θ‚ρ‚Ώ‚α‚ρIHv
 —‚έ‚©‚ρ,A01294
-u‚νƒbIH@‚ΗA‚Η‚¤‚µ‚½‚Μ‚©‚θ‚ρ‚Ώ‚α‚ρIHv
 
+#u‚Ν‚‚Ν‚ƒbI@‚έ‚©‚ρA‚έ‚©‚ρ[II@ΐ‰‰‚³‚Ή‚Θ‚³‚Ά[IIv
 —‚©‚θ‚ρ,P01745
-u‚Ν‚‚Ν‚ƒbI@‚έ‚©‚ρA‚έ‚©‚ρ[II@ΐ‰‰‚³‚Ή‚Θ‚³‚Ά[IIv
 
+#u‚«‚α[[[ƒbIIv
 —‚έ‚©‚ρ,A01295
-u‚«‚α[[[ƒbIIv
-
 
 #SE39@Ο‚ρ‚Ε‚Ά‚½•¨‚ª•φ‚κ‚ι‰ΉiƒhƒVƒƒƒhƒVƒƒƒbAƒKƒ‰ƒ‰ƒbj
 @SE39
 
-
+#u‚¤‚ν‚νƒbI@‚©‚θ‚ρ‚Ώ‚α‚ρ‚ªƒ{[ƒhƒQ[ƒ€‚ΜR‚Μ‰Ί•~‚«‚ΙƒbII@‘εδ•vIHv
 —‚έ‚©‚ρ,A01296
-u‚¤‚ν‚νƒbI@‚©‚θ‚ρ‚Ώ‚α‚ρ‚ªƒ{[ƒhƒQ[ƒ€‚ΜR‚Μ‰Ί•~‚«‚ΙƒbII@‘εδ•vIHv
 
+#ucccv
 —‚©‚θ‚ρ,P01746
-ucccv
 
 ‰½‚Ζ‚Θ‚­ƒhƒA‰z‚µ‚Εσ‹µ‚π”c¬‚µ‚ΔA‚»‚κΘ~‚©‚θ‚ρ‚ΜΊ‚Ν•·‚±‚¦‚Θ‚ΆB
-
 
 #΅BGiƒuƒ‰ƒbƒNj
 bgm_stop
@@ -1225,14 +1058,12 @@ se_stop		0
 @bg_black
 wait		1000
 
-
 ‚»‚Μγ‚Ν“J‚Μ—ϋK‚Η‚±‚λ‚Ε‚Ν‚Θ‚­A•φ‚κ‚½R‚Μ®—®“Ϊ‚ΙΤ‚π”ο‚β‚³‚κ‚ι‚Ύ‚―‚Ύ‚Α‚½B
 
+#u‚¤‚£ccΐ‰‰‚ªAϋ•t‚―‚ª‚‚ccƒVƒNƒVƒNƒVƒNv
 —‚©‚θ‚ρ,P01747
-u‚¤‚£ccΐ‰‰‚ªAϋ•t‚―‚ª‚‚ccƒVƒNƒVƒNƒVƒNv
 
 “J‚Ε–‘«‚µ‚Θ‚©‚Α‚½“V”±‚ΎB
-
 
 window_close
 #--------------------------------------------------
@@ -1241,33 +1072,23 @@ window_close
 #¥
 #--------------------------------------------------
 
-
 mikan_miryoku_event_cnt_flag=1
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_3_2	#-----------------------------------------------------
 #”­¶FD΄“xΛ‘¶i3-1‚Ε‚έ‚©‚ρ‚Ι“J‚π‹³‚¦‚Δ‚Ά‚ι‚±‚Ζj
 #------------------------------------------------------------
 
-
 #΅BGiL‰Ίj
 @bg_rouka
-
 
 #SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 @SE40			#SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 
-
 ‚έ‚©‚ρ‚Μ•”‰®‚©‚ηA‚ά‚½“J‚π—ϋK‚·‚ι‰Ή‚ªR‚κ•·‚±‚¦‚Δ‚Ά‚½B
 
 ‚µ‚©‚µΕ‰‚Μ ‚Ι”δ‚Χ‚ι‚ΖA“Α‚Ι–β‘θ‚Θ‚­‚―‚Δ‚Ά‚ι‚ζ‚¤‚ΎB
-
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -1278,16 +1099,13 @@ if sel=0 then goto mikan_tachi_3_2a
 if sel=1 then goto mikan_tachi_3_2b
 #--------------------------------------------------
 
-
 #--------------------------
 #i‚Pj‚έ‚©‚ρD΄“xUP
 label	mikan_tachi_3_2a
 #--------------------------
 
-
+#u‚έ‚©‚ρA“ό‚ι‚ζv
 —χ
-u‚έ‚©‚ρA“ό‚ι‚ζv
-
 
 se_stop		0
 @bg_black
@@ -1297,83 +1115,71 @@ wait		1000
 @bg_mikan
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 
-
 —¬’¨‚Θ“J‚Μ‰Ή‚ª~‚ή‚ΖAƒxƒbƒh‚Ι|‚―‚½‚έ‚©‚ρ‚ªΞη‚Ε‰‘Ξ‚µ‚½B
-
 
 @mikan_middle		# ’†Τ
 @mikan_warai2		#Ξ2
 
-
+#u‚¨Z‚Ώ‚α‚ρA‚ΰ‚¤Τα‚¦‚Θ‚Ά‚Ε‚―‚ι‚ζ‚¤‚Ι‚Θ‚Α‚½‚ζτv
 —‚έ‚©‚ρ,A01297
-u‚¨Z‚Ώ‚α‚ρA‚ΰ‚¤Τα‚¦‚Θ‚Ά‚Ε‚―‚ι‚ζ‚¤‚Ι‚Θ‚Α‚½‚ζτv
 
+#u‚ ‚AL‰Ί‚Ε•·‚Ά‚Δ‚½BΕ‰‚Μ ‚Ζ”δ‚Χ‚ι‚Ζ‚Έ‚Ά‚Τ‚ργθ‚­‚Θ‚Α‚½‚Όv
 —χ
-u‚ ‚AL‰Ί‚Ε•·‚Ά‚Δ‚½BΕ‰‚Μ ‚Ζ”δ‚Χ‚ι‚Ζ‚Έ‚Ά‚Τ‚ργθ‚­‚Θ‚Α‚½‚Όv
 
+#u‚¤‚ρB‚ρ`cc‚Ε‚ΰA‚ά‚Ύ’α‚Ά‰Ή‚Μ‚Ι‰Ή‚ªO‚κ‚Ώ‚α‚¤‚ρ‚Ύ‚ζ‚Λccv
 —‚έ‚©‚ρ,A01298
-u‚¤‚ρB‚ρ`cc‚Ε‚ΰA‚ά‚Ύ’α‚Ά‰Ή‚Μ‚Ι‰Ή‚ªO‚κ‚Ώ‚α‚¤‚ρ‚Ύ‚ζ‚Λccv
 
+#u‚­‚Μ‘§‚ª‹­‚·‚¬‚ι‚Ή‚Ά‚Θ‚ρ‚Ύ‚―‚Ηccv
 —‚έ‚©‚ρ,A01299
-u‚­‚Μ‘§‚ª‹­‚·‚¬‚ι‚Ή‚Ά‚Θ‚ρ‚Ύ‚―‚Ηccv
 
+#u΄φ‚ª•ª‚©‚Α‚Δ‚κ‚Ξγ‚Ν’Σ‚·‚ι‚Ύ‚―‚Ύ‚ΘB‘έ‚µ‚Δ‚²‚η‚ρv
 —χ
-u΄φ‚ª•ª‚©‚Α‚Δ‚κ‚Ξγ‚Ν’Σ‚·‚ι‚Ύ‚―‚Ύ‚ΘB‘έ‚µ‚Δ‚²‚η‚ρv
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚¦ccHv
 —‚έ‚©‚ρ,A01300
-u‚¦ccHv
 
 ΅‚ά‚Ε‚Ζ“―‚¶‚ζ‚¤‚Ιθ–{‚π©‚Ή‚Δ‚β‚λ‚¤‚Ζ‚·‚ι‚ΖA“‚“Λ‚Ι‚έ‚©‚ρ‚Μ”½‰‚ªΕ‚ά‚Α‚½B
 
 ‚»‚Μ—lq‚ΙAƒIƒ‚Μ•ϋ‚ά‚ΕκuΎ—t‚Ι‹l‚ά‚Α‚Δ‚µ‚ά‚¤B
 
+#ucc‚ρA‚Η‚¤‚µ‚½Hv
 —χ
-ucc‚ρA‚Η‚¤‚µ‚½Hv
-
 
 @mikan			#•’Κ
 
-
+#u‚ A‚¤‚¤‚ρB‚¨Z‚Ώ‚α‚ρA‚έ‚©‚ρ‚Μ“Jg‚¤‚ΜHv
 —‚έ‚©‚ρ,A01301
-u‚ A‚¤‚¤‚ρB‚¨Z‚Ώ‚α‚ρA‚έ‚©‚ρ‚Μ“Jg‚¤‚ΜHv
 
+#u‚»‚¤‚µ‚Θ‚Ά‚Ζθ–{‚ªo—‚Θ‚Ά‚Ύ‚λH@΅‚ά‚Ε‚»‚¤‚µ‚Δ‚½‚¶‚α‚Θ‚Ά‚©v
 —χ
-u‚»‚¤‚µ‚Θ‚Ά‚Ζθ–{‚ªo—‚Θ‚Ά‚Ύ‚λH@΅‚ά‚Ε‚»‚¤‚µ‚Δ‚½‚¶‚α‚Θ‚Ά‚©v
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚»‚¤‚Θ‚ρ‚Ύ‚―‚Η‚ΛccB‚¦‚Α‚Ζv
 —‚έ‚©‚ρ,A01302
-u‚»‚¤‚Θ‚ρ‚Ύ‚―‚Η‚ΛccB‚¦‚Α‚Ζv
 
 ‚Η‚¤‚µ‚½‚ρ‚Ύ‚λ‚¤B
 
 ΅‚ά‚Ε‚ΰ‘έ‚µΨ‚θ‚µ‚Δ‚Ά‚½‚Μ‚ΙA‹}‚ΙΕ‚ά‚Α‚½‚Ζv‚Α‚½‚ηQ‚Δ‚½‚θƒ‚ƒWƒ‚ƒW‚µ‚½‚θB
-
 
 @mikan_
 wait		1000
 @mikan_small		# ‰“‚Ά
 @mikan_kusyou		#‹κΞ
 
-
+#u•½‹CA©–{–³‚­‚Δ‚ΰB‚ ‚Ζ‚Ν‚έ‚©‚ρ‚Ύ‚―‚Ε—ϋK‚Ε‚«‚ι‚©‚ηv
 —‚έ‚©‚ρ,A01303
-u•½‹CA©–{–³‚­‚Δ‚ΰB‚ ‚Ζ‚Ν‚έ‚©‚ρ‚Ύ‚―‚Ε—ϋK‚Ε‚«‚ι‚©‚ηv
 
+#u‚»‚¤‚©ccH@‚ά‚‚»‚¤‚Ά‚¤‚ρ‚Θ‚η\‚ν‚Θ‚Ά‚―‚Ηv
 —χ
-u‚»‚¤‚©ccH@‚ά‚‚»‚¤‚Ά‚¤‚ρ‚Θ‚η\‚ν‚Θ‚Ά‚―‚Ηv
 
+#u‚²A‚²‚ί‚ρ‚Λcc‚Ή‚Α‚©‚­θ“`‚Α‚Δ‚­‚κ‚Δ‚ι‚Μ‚Ιv
 —‚έ‚©‚ρ,A01304
-u‚²A‚²‚ί‚ρ‚Λcc‚Ή‚Α‚©‚­θ“`‚Α‚Δ‚­‚κ‚Δ‚ι‚Μ‚Ιv
 
+#u‚Ά‚βA‚»‚κ‚¶‚α©‚Δ‚Δ‚β‚ι‚©‚ηA—ϋK‚·‚ι‚©v
 —χ
-u‚Ά‚βA‚»‚κ‚¶‚α©‚Δ‚Δ‚β‚ι‚©‚ηA—ϋK‚·‚ι‚©v
-
 
 #--------------------------------------------------
 layer_movepass_add	l_mikan,0,	300,	0,32
@@ -1382,24 +1188,19 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #--------------------------------------------------
 
-
 ‚έ‚©‚ρ‚Ν\‚µ–σ–³‚³‚»‚¤‚Ιθυ‚Ά‚½B
-
 
 bgm_stop
 @mikan_
 #΅BGiƒuƒ‰ƒbƒNj
 @bg_black
 
-
 #SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
 @SE40			#SE40@ƒƒR[ƒ_[‚Μ—ϋK‰Ή
-
 
 γ‚Ν‚Ά‚Β‚ΰ‚Η‚¨‚θ‚Μ–Ύ‚ι‚³‚π©‚Ή‚ι‚έ‚©‚ρ‚ΖAκ‚ΙΤ‚π‰ί‚²‚·B
 
 ‰½‚Ύ‚Α‚½‚Μ‚©•ª‚©‚η‚Θ‚Ά‚ªA‚ά‚”π‚―‚η‚κ‚Δ‚ι‚ν‚―‚Ε‚Ν–³‚³‚»‚¤‚Ύ‚©‚η‹C‚Ι‚·‚ι‚±‚Ζ‚ΰ–³‚³‚»‚¤‚ΎB
-
 
 window_close
 se_stop		0
@@ -1409,42 +1210,28 @@ se_stop		0
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #--------------------------
 #i‚Qj
 label	mikan_tachi_3_2b
 #--------------------------
 
-
 ©•ª‚Ε—ϋK‚Ε‚«‚Δ‚ι‚έ‚½‚Ά‚Ύ‚©‚ηA‚»‚Α‚Ζ‚µ‚Δ‚¨‚­‚©B
-
 
 #΅BGiƒuƒ‰ƒbƒNj
 se_stop		0
 @bg_black
 
-
 “J‚Μ‰Ή‚π•·‚«‚Θ‚ª‚ηA‚»‚Μκ‚πγ‚Ι‚µ‚½B
-
 
 #iƒXƒPƒWƒ…[ƒ‹j
 return
 
-
-
-
-
 label	mikan_tachi_4	#------------------------------------------------------
 #”­¶F•s–Ύ
 #------------------------------------------------------------
-
 
 #΅BGiƒƒrƒ“ƒOj
 @bg_living
@@ -1453,19 +1240,16 @@ label	mikan_tachi_4	#------------------------------------------------------
 
 ‚Ζv‚Α‚½‚ηAƒ\ƒtƒ@[‚Μ”w‚ΰ‚½‚κ‚Ι‰B‚κ‚ΔA‚Ά‚Ώ‚²‚ªƒOƒfƒb‚ΖQ‚»‚Χ‚Α‚Δ‚Ά‚½B
 
+#ucc‚Η‚¤‚µ‚½‚Ά‚Ώ‚²A³‹C‚Θ‚Ά‚ΘHv
 —χ
-ucc‚Η‚¤‚µ‚½‚Ά‚Ώ‚²A³‹C‚Θ‚Ά‚ΘHv
-
 
 @ichigo_komaru		#Ά
 @bgm03
 
-
+#u‚ ‚£`ccƒpƒp``v
 —‚Ά‚Ώ‚²,O01731
-u‚ ‚£`ccƒpƒp``v
 
 ‰½‚Ζ‚ΰ‹C‚Μ”²‚―‚½‚ζ‚¤‚Θƒwƒƒwƒ‚ΜΊ‚πo‚·‚Ά‚Ώ‚²B
-
 
 #--------------------------------------------------
 layer_movepass_add	l_ichigo,0,	150,	-16,0
@@ -1480,105 +1264,81 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-
+#u‚¨• ‹σ‚Ά‚½‚ζ``cc‚¨¬­‚Άg‚ΆΨ‚Α‚Ώ‚α‚Α‚ΔA‚¨‰Ωq‚ª”ƒ‚¦‚Θ‚Ά‚Μ``v
 —‚Ά‚Ώ‚²,O01732
-u‚¨• ‹σ‚Ά‚½‚ζ``cc‚¨¬­‚Άg‚ΆΨ‚Α‚Ώ‚α‚Α‚ΔA‚¨‰Ωq‚ª”ƒ‚¦‚Θ‚Ά‚Μ``v
 
+#u‚R‚Μ‚¨‚β‚Β‚ΝH‚Χ‚½‚ρ‚Ύ‚µA—[H‚ά‚Ε‰δ–‚·‚ι‚µ‚©‚Θ‚Ά‚Θv
 —χ
-u‚R‚Μ‚¨‚β‚Β‚ΝH‚Χ‚½‚ρ‚Ύ‚µA—[H‚ά‚Ε‰δ–‚·‚ι‚µ‚©‚Θ‚Ά‚Θv
-
 
 @ichigo_kanashimi	#£
 
-
+#u‚»‚ρ‚Θ‚Μ“‚Ά‚΅ccv
 —‚Ά‚Ώ‚²,O01733
-u‚»‚ρ‚Θ‚Μ“‚Ά‚΅ccv
-
 
 @mikan			#•’Κ
 
-
+#u‚ ‚κA‚¨Z‚Ώ‚α‚ρccc‚Ζv
 —‚έ‚©‚ρ,A01313
-u‚ ‚κA‚¨Z‚Ώ‚α‚ρccc‚Ζv
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚νƒbA‚Ά‚Ώ‚²‚Ώ‚α‚ρA‚Η‚¤‚µ‚½‚ΜIHv
 —‚έ‚©‚ρ,A01314
-u‚νƒbA‚Ά‚Ώ‚²‚Ώ‚α‚ρA‚Η‚¤‚µ‚½‚ΜIHv
 
 ƒƒrƒ“ƒO‚Ι‚β‚Α‚Δ‚«‚½‚έ‚©‚ρ‚ªA‚Ά‚Ώ‚²‚Μσ‘Τ‚Ι‹Α‚Ά‚ΔΊ‚πγ‚°‚ιB
 
 ‚»‚Μθ‚Ι‚ΝA‚R‚Μ‚¨‚β‚Β‚Ζ‚Ν•Κ‚Μ‚¨‰ΩqB
 
-
 @ichigo_odoroki		#‹Α
 
-
+#uƒnƒbII@‚»A‚»‚κ‚Ν‚¨‰ΩqII@”ƒ‚Α‚Δ‚«‚½‚ΜIHv
 —‚Ά‚Ώ‚²,O01734
-uƒnƒbII@‚»A‚»‚κ‚Ν‚¨‰ΩqII@”ƒ‚Α‚Δ‚«‚½‚ΜIHv
-
 
 @mikan			#•’Κ
 
-
+#u‚¦H@π“ϊ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Ζ”ƒ‚Ά‚Ιs‚Α‚½‚¨‰Ωq‚Μc‚θ‚Ύ‚―‚Ηccv
 —‚έ‚©‚ρ,A01315
-u‚¦H@π“ϊ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Ζ”ƒ‚Ά‚Ιs‚Α‚½‚¨‰Ωq‚Μc‚θ‚Ύ‚―‚Ηccv
 
+#uπ“ϊ”ƒ‚Ά‚ΙccH@‚Ά‚Ώ‚²A‚»‚Μ‚¨‰Ωq‚Ν‚Η‚¤‚µ‚½‚ρ‚Ύv
 —χ
-uπ“ϊ”ƒ‚Ά‚ΙccH@‚Ά‚Ώ‚²A‚»‚Μ‚¨‰Ωq‚Ν‚Η‚¤‚µ‚½‚ρ‚Ύv
-
 
 @ichigo_komaru		#Ά
 
-
+#u‚¤`cc‚ΰ‚¤H‚Χ‚Ώ‚α‚Α‚½v
 —‚Ά‚Ώ‚²,O01735
-u‚¤`cc‚ΰ‚¤H‚Χ‚Ώ‚α‚Α‚½v
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚¦‚¥ƒbI@‘ά‚Ι‚Ά‚Α‚Ο‚Ά‚ ‚Α‚½‚ ‚Μ—Κ‚πκ“ϊ‚ΕIHv
 —‚έ‚©‚ρ,A01316
-u‚¦‚¥ƒbI@‘ά‚Ι‚Ά‚Α‚Ο‚Ά‚ ‚Α‚½‚ ‚Μ—Κ‚πκ“ϊ‚ΕIHv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚έ‚©‚ρA‚ ‚κ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Μκƒ–•ª‚Μ‚¨‰Ωq‚Ζ‚Ξ‚©‚θv‚Α‚Δ‚½‚Μ‚Ιv
 —‚έ‚©‚ρ,A01317
-u‚έ‚©‚ρA‚ ‚κ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Μκƒ–•ª‚Μ‚¨‰Ωq‚Ζ‚Ξ‚©‚θv‚Α‚Δ‚½‚Μ‚Ιv
 
+#ucc‚»‚¤‚Ά‚¦‚Ξ©o‚¦‚Μ–³‚ΆƒXƒiƒbƒN‰Ωq‚Μ‘ά‚ªƒSƒ~” ‚Ι‚©‚³‚Ξ‚Α‚Δ‚½‚Θv
 —χ
-ucc‚»‚¤‚Ά‚¦‚Ξ©o‚¦‚Μ–³‚ΆƒXƒiƒbƒN‰Ωq‚Μ‘ά‚ªƒSƒ~” ‚Ι‚©‚³‚Ξ‚Α‚Δ‚½‚Θv
 
+#uccc‚ ‚κ‘S•”A‚Ά‚Ώ‚²‚ªH‚Χ‚½‚Μ‚©Hv
 —χ
-uccc‚ ‚κ‘S•”A‚Ά‚Ώ‚²‚ªH‚Χ‚½‚Μ‚©Hv
-
 
 @ichigo_kanashimi	#£
 
-
+#u‚Ύ‚Α‚Δ`ccv
 —‚Ά‚Ώ‚²,O01736
-u‚Ύ‚Α‚Δ`ccv
-
 
 @ichigo_naki		#‹ƒ
 
-
+#u‚Ν‚¤‚£‚£ccƒ_ƒ‚¥AR‹c‚·‚ι—Ν‚ΰo‚Θ‚Ά‚ζ‚§v
 —‚Ά‚Ώ‚²,O01737
-u‚Ν‚¤‚£‚£ccƒ_ƒ‚¥AR‹c‚·‚ι—Ν‚ΰo‚Θ‚Ά‚ζ‚§v
-
 
 #SE14@‚¨• ‚Μ‰ΉE‹­iƒOƒEƒDƒDƒEƒEƒbIj
 @SE13
 @mikan_odoroki		#‹Α
 
-
+#u‚¤‚νƒbA‚·‚²‚Ά‚¨• ‚Μ‰ΉIv
 —‚έ‚©‚ρ,A01318
-u‚¤‚νƒbA‚·‚²‚Ά‚¨• ‚Μ‰ΉIv
-
 
 #--------------------------------------------------
 layer_movepass_add	l_ichigo,0,	150,	-16,0
@@ -1593,17 +1353,13 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-
+#uέ_‚Εέ‚ª—n‚―‚ι``ccv
 —‚Ά‚Ώ‚²,O01738
-uέ_‚Εέ‚ª—n‚―‚ι``ccv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚Ν‚cc‚µ‚ε‚¤‚ª‚Θ‚Ά‚Θv
 —χ
-u‚Ν‚cc‚µ‚ε‚¤‚ª‚Θ‚Ά‚Θv
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -1614,28 +1370,23 @@ if sel=0 then goto mikan_tachi_4a
 if sel=1 then goto mikan_tachi_4b
 #--------------------------------------------------
 
-
 #--------------------------------------------------
 #i‚Pj‚Ά‚Ώ‚²•‚έ‚©‚ρD΄“xUPE‹ΰDOWN
 label	mikan_tachi_4a
 #--------------------------------------------------
 
-
+#u΅‚Ύ‚―“Α•Κ‚Ύ‚ΌA‚Ά‚Ώ‚²v
 —χ
-u΅‚Ύ‚―“Α•Κ‚Ύ‚ΌA‚Ά‚Ώ‚²v
 
 ΰ•z‚©‚ηo‚µ‚½‚¨‹ΰ‚π‚¨¬­‚Ά‚Ζ‚µ‚Δ¬‚η‚Ή‚Δ‚β‚Α‚½B
 
-
 @ichigo_odoroki		#‹Α
 
-
+#u‚¦ƒbI@‚Ά‚Ά‚ΜIHv
 —‚Ά‚Ώ‚²,O01739
-u‚¦ƒbI@‚Ά‚Ά‚ΜIHv
 
+#u‚ΰ‚¤–³‘Κ­‚Ά‚·‚ι‚ρ‚¶‚α‚Θ‚Ά‚ΌB‚¨‰Ωq‚ΰH‚Χ‰ί‚¬‚½‚ηg‘Μ‚Ι«‚Ά‚©‚η‚Θv
 —χ
-u‚ΰ‚¤–³‘Κ­‚Ά‚·‚ι‚ρ‚¶‚α‚Θ‚Ά‚ΌB‚¨‰Ωq‚ΰH‚Χ‰ί‚¬‚½‚ηg‘Μ‚Ι«‚Ά‚©‚η‚Θv
-
 
 @ichigo_yorokobi	#μ
 layer_movepass_add	l_ichigo,0,	300,	0,32
@@ -1643,12 +1394,10 @@ layer_movepass_add	l_ichigo,0,	300,	0,0
 layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 
-
+#u‚¤‚ρI@‚β‚Α‚½[ƒbτ@‚ ‚θ‚ª‚Ζ‚¤ƒpƒpIIv
 —‚Ά‚Ώ‚²,O01740
-u‚¤‚ρI@‚β‚Α‚½[ƒbτ@‚ ‚θ‚ª‚Ζ‚¤ƒpƒpIIv
 
 ‚Ν‚cc‚±‚Μπ‚µ‚»‚¤‚ΘΞη‚ªƒIƒ‚πΓ‚­‚µ‚Δ‚Ά‚­‚ρ‚Ύ‚ζ‚ΘB
-
 
 bgm_stop
 @ichigo_
@@ -1657,54 +1406,42 @@ wait		1000
 @SE21
 wait		1000
 
-
 ‚³‚Α‚»‚­‚¨‹ΰ‚π¬‚θ’χ‚ί‚Δ”ς‚Ρo‚µ‚Δ‚Ά‚­‚Ά‚Ώ‚²B
-
 
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 
-
+#u‚³‚ΔA‚±‚κ‚Ν‚έ‚©‚ρ‚Μ•ª‚Ύv
 —χ
-u‚³‚ΔA‚±‚κ‚Ν‚έ‚©‚ρ‚Μ•ª‚Ύv
-
 
 se_stop		0
 @mikan			#•’Κ
 
-
+#u‚¦H@•Κ‚Ι‚έ‚©‚ρ‚Ν‚¨¬­‚Ά‚ΙΆ‚Α‚Δ‚Θ‚Ά‚ζv
 —‚έ‚©‚ρ,A01319
-u‚¦H@•Κ‚Ι‚έ‚©‚ρ‚Ν‚¨¬­‚Ά‚ΙΆ‚Α‚Δ‚Θ‚Ά‚ζv
 
+#u–Ϊ‚Μ‘O‚Ε‚Ά‚Ώ‚²‚Ύ‚―‚Ι‚ ‚°‚½‚η•sφ•½‚Ύ‚µ‚Θv
 —χ
-u–Ϊ‚Μ‘O‚Ε‚Ά‚Ώ‚²‚Ύ‚―‚Ι‚ ‚°‚½‚η•sφ•½‚Ύ‚µ‚Θv
 
+#u‚έ‚©‚ρ‚ΜH—~‚Θ‚ηA—]•ª‚Ι‚ ‚Α‚ΔΆ‚ι‚±‚Ζ‚Ν‚Θ‚Ά‚Ύ‚λ‚¤Hv
 —χ
-u‚έ‚©‚ρ‚ΜH—~‚Θ‚ηA—]•ª‚Ι‚ ‚Α‚ΔΆ‚ι‚±‚Ζ‚Ν‚Θ‚Ά‚Ύ‚λ‚¤Hv
-
 
 @mikan_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
 
-
+#u‚¤‚£‚£`cc‚ά‚½‚έ‚©‚ρ‚πH‚Ά‚µ‚ρ–V‚ ‚Β‚©‚Ά‚·‚ι‚£v
 —‚έ‚©‚ρ,A01320
-u‚¤‚£‚£`cc‚ά‚½‚έ‚©‚ρ‚πH‚Ά‚µ‚ρ–V‚ ‚Β‚©‚Ά‚·‚ι‚£v
-
 
 @mikan_warai		#Ξ
 
-
+#u‚Ε‚ΰA‚¨¬­‚Ά‚Νπ‚µ‚Ά‚ζ‚¨Z‚Ώ‚α‚ρI@‚ ‚θ‚ª‚Ζƒbτv
 —‚έ‚©‚ρ,A01321
-u‚Ε‚ΰA‚¨¬­‚Ά‚Νπ‚µ‚Ά‚ζ‚¨Z‚Ώ‚α‚ρI@‚ ‚θ‚ª‚Ζƒbτv
 
+#u‚Ά‚Ώ‚²’Η‚Α‚Δ‚Ά‚―B‚¨‰Ωq”ƒ‚¤‚ρ‚Ύ‚λ‚¤Hv
 —χ
-u‚Ά‚Ώ‚²’Η‚Α‚Δ‚Ά‚―B‚¨‰Ωq”ƒ‚¤‚ρ‚Ύ‚λ‚¤Hv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚¤‚ρƒbIv
 —‚έ‚©‚ρ,A01322
-u‚¤‚ρƒbIv
-
 
 #CHi‚έ‚©‚ρ—§‚ΏGΑ‚·j
 @mikan_
@@ -1712,47 +1449,40 @@ wait		1000
 #SE21@L‰Ί‚π‘–‚θ‹‚ι‰Ή@¦™X‚Ι¬‚³‚­
 @SE21
 
-
+#u‘Ò‚Α‚Δ[ƒbA‚Ά‚Ώ‚²‚Ώ‚α‚ρI@‚έ‚©‚ρ‚ΰκ‚Ι”ƒ‚Ά‚Ιs‚­‚ζ[IIv
 —‚έ‚©‚ρ,A01323
-u‘Ò‚Α‚Δ[ƒbA‚Ά‚Ώ‚²‚Ώ‚α‚ρI@‚έ‚©‚ρ‚ΰκ‚Ι”ƒ‚Ά‚Ιs‚­‚ζ[IIv
-
 
 #SE21@L‰Ί‚π‘–‚θ‹‚ι‰Ή@¦™X‚Ι¬‚³‚­
-
 
 π‚µ‚»‚¤‚Ι‚Ά‚Ώ‚²‚Μγ‚π’Η‚Αs‚­‚έ‚©‚ρB
 
 ‚»‚κ‚π©‘—‚θA‚έ‚©‚ρ‚ª’u‚Ά‚Δ‚Ά‚Α‚½‚¨‰Ωq‚πΌ‹C‚η‚Θ‚Ά‚ζ‚¤‚Ι••‚µ‚Δ‚β‚ιB
 
-
 @miu			#•Β_‚Ι‚±
 se_stop		0
 
-
+#u‚Σ‚ΣAΓ‚Ά‚Ε‚·‚Λχ‚³‚ρv
 —”ό‰J,B01466
-u‚Σ‚ΣAΓ‚Ά‚Ε‚·‚Λχ‚³‚ρv
 
+#u”ό‰Jcc‚Θ‚ρ‚Ύ©‚Δ‚½‚Μ‚©v
 —χ
-u”ό‰Jcc‚Θ‚ρ‚Ύ©‚Δ‚½‚Μ‚©v
 
+#u‚β‚Α‚Ο‚θ—Η‚­‚Θ‚Ά‚©‚ΘA“ρl‚Ι‚Ύ‚―¬­‚Ά‚π‚β‚Α‚½‚Μ‚Νv
 —χ
-u‚β‚Α‚Ο‚θ—Η‚­‚Θ‚Ά‚©‚ΘA“ρl‚Ι‚Ύ‚―¬­‚Ά‚π‚β‚Α‚½‚Μ‚Νv
 
+#u‚ ‚κ‚Νd•ϋ‚Θ‚Ά‚Ζv‚Ά‚ά‚·‚ζv
 —”ό‰J,B01467
-u‚ ‚κ‚Νd•ϋ‚Θ‚Ά‚Ζv‚Ά‚ά‚·‚ζv
 
+#u‚»‚κ‚ΙA‚ΰ‚µ‘Ό‚Μq‚Ι’m‚η‚κ‚Δ‚ΰA‚ά‚½χ‚³‚ρ‚ª‚¨¬­‚Ά‚π‚ ‚°‚Δ‚­‚κ‚ι‚ρ‚Ε‚µ‚ε‚¤Hv
 —”ό‰J,B01468
-u‚»‚κ‚ΙA‚ΰ‚µ‘Ό‚Μq‚Ι’m‚η‚κ‚Δ‚ΰA‚ά‚½χ‚³‚ρ‚ª‚¨¬­‚Ά‚π‚ ‚°‚Δ‚­‚κ‚ι‚ρ‚Ε‚µ‚ε‚¤Hv
 
+#u‚Ν‚Ν‚Νcc‚»‚¤‚Θ‚η‚Θ‚Ά‚ζ‚¤‚Ι‹F‚θ‚½‚Ά‚Λv
 —χ
-u‚Ν‚Ν‚Νcc‚»‚¤‚Θ‚η‚Θ‚Ά‚ζ‚¤‚Ι‹F‚θ‚½‚Ά‚Λv
 
 –ε‚©‚ηo‚Δs‚­“ρl‚π‘‹‰z‚µ‚Ι’­‚ί‚Θ‚ª‚ηA‚Ώ‚ε‚Α‚ΖΨΐ‚Ι‚»‚¤θ‚¤‚Μ‚Ύ‚Α‚½B
 
-
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚Ά‚Ώ‚²•‚έ‚©‚ρD΄“xUPE‹ΰDOWN
@@ -1761,39 +1491,28 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #------------------------
 #i‚Qj”ό‰JD΄“xUP
 label	mikan_tachi_4b
 #------------------------
 
-
+#u‚έ‚©‚ρA‚»‚Μ‚¨‰Ωq‚Ά‚Ώ‚²‚Ι‚ΰ•ª‚―‚Δ‚ ‚°‚Δ‚ΰ‚η‚¦‚ιHv
 —χ
-u‚έ‚©‚ρA‚»‚Μ‚¨‰Ωq‚Ά‚Ώ‚²‚Ι‚ΰ•ª‚―‚Δ‚ ‚°‚Δ‚ΰ‚η‚¦‚ιHv
 
 ’Η‰Α‚Ε‚¨¬­‚Ά‚π‚ ‚°‚ι‚Ζ‚Ά‚¤‘I‘π‚ΰ‚ ‚Α‚½‚ªA•Θ‚Ι‚Θ‚ι‚Ζ‚Ά‚―‚Θ‚ΆB
 
-
 @mikan			#•’Κ
 
-
+#u‚¤‚ρB‚Ά‚Ά‚―‚Η‚±‚κAπ“ϊ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ª™‚Ά‚Ύ‚Α‚ΔΎ‚Α‚Δ‚½ƒsƒUƒ}ƒƒl[ƒY–΅‚Ύ‚ζHv
 —‚έ‚©‚ρ,A01324
-u‚¤‚ρB‚Ά‚Ά‚―‚Η‚±‚κAπ“ϊ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ª™‚Ά‚Ύ‚Α‚ΔΎ‚Α‚Δ‚½ƒsƒUƒ}ƒƒl[ƒY–΅‚Ύ‚ζHv
-
 
 @ichigo_odoroki		#‹Α
 
-
+#u‚¦I@‚­‚κ‚ι‚ΜƒbA–{“–‚ΙIHv
 —‚Ά‚Ώ‚²,O01741
-u‚¦I@‚­‚κ‚ι‚ΜƒbA–{“–‚ΙIHv
-
 
 @ichigo_yorokobi	#μ
 #--------------------------------------------------
@@ -1806,10 +1525,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-
+#u–΅‚Θ‚ρ‚©‰½‚Ε‚ΰ‚Ά‚Ά‚ζ`IIv
 —‚Ά‚Ώ‚²,O01742
-u–΅‚Θ‚ρ‚©‰½‚Ε‚ΰ‚Ά‚Ά‚ζ`IIv
-
 
 #--------------------------------------------------
 layer_move	l_ichigo,100,0,0,-70,4,PASSTYPE_LINEAR
@@ -1820,25 +1537,21 @@ layer_move	l_ichigo,100,-70,4,-140,0,PASSTYPE_LINEAR
 @SE36
 @mikan_odoroki		#‹Α
 
-
+#u‚¤‚ν‚ν‚ΑIH@”ς‚Ρ‚Β‚Ά‚Δ‚±‚Θ‚­‚Δ‚ΰ“¦‚°‚Θ‚Ά‚ζcƒbv
 —‚έ‚©‚ρ,A01325
-u‚¤‚ν‚ν‚ΑIH@”ς‚Ρ‚Β‚Ά‚Δ‚±‚Θ‚­‚Δ‚ΰ“¦‚°‚Θ‚Ά‚ζcƒbv
 
 lΤA–{“–‚Ι‹Q‚¦‚Δ‚Ά‚ι‚Ζ‚«‚ΝD‚«™‚Ά‚πΎ‚¤—]—T‚Θ‚ρ‚©–³‚Ά‚Α‚Δ‚±‚Ζ‚ΎB
 
+#i΅“x‚©‚η™‚Ά‚Θ•¨‚ΝA‚Ά‚Ώ‚²‚ª‚¨• ‚π‹σ‚©‚Ή‚Δ‚©‚ηH‚Χ‚³‚Ή‚ζ‚¤j
 —χ
-i΅“x‚©‚η™‚Ά‚Θ•¨‚ΝA‚Ά‚Ώ‚²‚ª‚¨• ‚π‹σ‚©‚Ή‚Δ‚©‚ηH‚Χ‚³‚Ή‚ζ‚¤j
-
 
 @mikan_yorokobi		#μ
 
-
+#u•”‰®‚Ιs‚±‚¤‚ζB‘Ό‚Ιc‚µ‚Δ‚ι‚Μ‚ΰ‚ ‚ι‚©‚ηA—V‚Ρ‚Θ‚ª‚ηH‚Χ‚ζ‚¤v
 —‚έ‚©‚ρ,A01326
-u•”‰®‚Ιs‚±‚¤‚ζB‘Ό‚Ιc‚µ‚Δ‚ι‚Μ‚ΰ‚ ‚ι‚©‚ηA—V‚Ρ‚Θ‚ª‚ηH‚Χ‚ζ‚¤v
 
+#u‚¤‚ρƒbAs‚­s‚­II@‚ ‚θ‚ª‚Ζ‚έ‚©‚ρ[IIv
 —‚Ά‚Ώ‚²,O01743
-u‚¤‚ρƒbAs‚­s‚­II@‚ ‚θ‚ª‚Ζ‚έ‚©‚ρ[IIv
-
 
 bgm_stop
 @mikan_
@@ -1846,45 +1559,36 @@ bgm_stop
 wait		1000
 @SE21
 
-
 ‚³‚Α‚«‚ά‚Ε‚Φ‚Ξ‚Α‚Δ‚Ά‚½‚Μ‚Ι‚ΰ‚¤³‹C‚ΕA‚Ά‚Ώ‚²‚Ν‚έ‚©‚ρ‚ΖA‚κ—§‚Α‚Δ•”‰®‚πo‚Δs‚Α‚½B
 
 ‚±‚κ‚Ε—‚©‚η‚ΝA‚Ά‚Ώ‚²‚ΰ–³‘Κ­‚Ά‚πT‚¦‚Δ‚Ά‚­‚Ύ‚λ‚¤B
-
 
 se_stop		0
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 @miu			#•Β_‚Ι‚±
 
-
+#u‚Σ‚ΣA‚¨”ζ‚κ—l‚Ε‚·χ‚³‚ρv
 —”ό‰J,B01469
-u‚Σ‚ΣA‚¨”ζ‚κ—l‚Ε‚·χ‚³‚ρv
 
+#ucc‹‚½‚Μ‚©A”ό‰JB‚ά‚’Η‰Α‚Ε‚¨‹ΰ‚π‚ ‚°‚ι‚ζ‚θA‚±‚Α‚Ώ‚Μ•ϋ‚ª‚Ά‚Ά‚Ύ‚λ‚¤‚Ζv‚Α‚Δv
 —χ
-ucc‹‚½‚Μ‚©A”ό‰JB‚ά‚’Η‰Α‚Ε‚¨‹ΰ‚π‚ ‚°‚ι‚ζ‚θA‚±‚Α‚Ώ‚Μ•ϋ‚ª‚Ά‚Ά‚Ύ‚λ‚¤‚Ζv‚Α‚Δv
 
+#u‚»‚¤‚Ε‚·‚ΛB‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΰ—‚©‚η‚ΝA‚ΰ‚¤­‚µ‘ε–‚Ιg‚Α‚Δ‚­‚κ‚ι‚Ζv‚Ά‚ά‚·‚ζv
 —”ό‰J,B01470
-u‚»‚¤‚Ε‚·‚ΛB‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΰ—‚©‚η‚ΝA‚ΰ‚¤­‚µ‘ε–‚Ιg‚Α‚Δ‚­‚κ‚ι‚Ζv‚Ά‚ά‚·‚ζv
 
+#u‚¨‹ΰ‚Ε‰π‚·‚ι‚ζ‚θA‚Έ‚Α‚Ζ—§”h‚Θ‚¨θ•ΐ‚έ‚Ε‚µ‚½v
 —”ό‰J,B01471
-u‚¨‹ΰ‚Ε‰π‚·‚ι‚ζ‚θA‚Έ‚Α‚Ζ—§”h‚Θ‚¨θ•ΐ‚έ‚Ε‚µ‚½v
 
+#u‚»‚±‚ά‚ΕΎ‚ν‚κ‚ι‚Ω‚Η‚Μ‚±‚Ζ‚Ν‚β‚Α‚Δ‚Θ‚Ά‚―‚Ηv
 —χ
-u‚»‚±‚ά‚ΕΎ‚ν‚κ‚ι‚Ω‚Η‚Μ‚±‚Ζ‚Ν‚β‚Α‚Δ‚Θ‚Ά‚―‚Ηv
 
 —‚Μ¬­‚Ά‚π“n‚·‚Ι‚ΰ‚¤κ“x”O‚π‰‚µ‚Δ‚¨‚―‚ΞA‚Ά‚Ώ‚²‚ΰUΰ‚πT‚¦‚ι‚Ύ‚λ‚¤B
-
 
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_5	#------------------------------------------------------
 #”­¶F•s–Ύ
@@ -1899,7 +1603,6 @@ wait		2000
 
 wait		1000
 
-
 #///////////////////////////////////////////////////////
 #‰‰F‚½‚ί‚Ά‚«
 layer_movepass_add	l_shizuku,0,	550,	0,32
@@ -1908,10 +1611,8 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚Ν‚‚ccv
 —΄,S01165
-u‚Ν‚‚ccv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F‚½‚ί‚Ά‚«
@@ -1921,16 +1622,13 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚Ν‚ccv
 —‚έ‚©‚ρ,A01327
-u‚Ν‚ccv
 
+#ucc‰½‚Ε‚·‚©A“ρl‚µ‚Δv
 —χ
-ucc‰½‚Ε‚·‚©A“ρl‚µ‚Δv
-
 
 @bgm12			#BGM 12 : ƒƒCƒ“ƒe[ƒ}
-
 
 ƒƒrƒ“ƒO‚Ι“ό‚ι‚β”Ϋ‚βA‚Ά‚«‚Θ‚θ“ρl‚Μ‚½‚ί‘§‚π•·‚©‚³‚κ‚Δ‚µ‚ά‚Α‚½B
 
@@ -1938,234 +1636,189 @@ layer_movepass_play	l_mikan,0,play_once
 
 ΄‚³‚ρ‚ΝV•·‚π©‚Θ‚ª‚ηB‚έ‚©‚ρ‚Νά‚θ‚έ‚Μƒ`ƒ‰ƒV‚π©‚Θ‚ª‚ηB
 
+#u‚Η‚¤‚µ‚½A‚έ‚©‚ρH@L‚Ι‰½‚©‚ ‚ι‚Μ‚©‚ΆHv
 —χ
-u‚Η‚¤‚µ‚½A‚έ‚©‚ρH@L‚Ι‰½‚©‚ ‚ι‚Μ‚©‚ΆHv
 
+#ucc‚¤‚ρAV‚µ‚Άƒ{[ƒhƒQ[ƒ€‚ªΐ”„‚θ‚³‚κ‚Δ‚ι‚Μv
 —‚έ‚©‚ρ,A01328
-ucc‚¤‚ρAV‚µ‚Άƒ{[ƒhƒQ[ƒ€‚ªΐ”„‚θ‚³‚κ‚Δ‚ι‚Μv
 
 ‚έ‚©‚ρ‚ª©‚Δ‚Ά‚ι‚Μ‚ΝAV‘•J“X‚η‚µ‚Ά‚¨‚ΰ‚Ώ‚α‰®‚Μƒ`ƒ‰ƒV‚Ύ‚Α‚½B
 
-
 @shizuku_ikari		#“{
 
-
+#u‰½‚Ύ‚Ά‰½‚Ύ‚Άχcc‚ ‚½‚µ‚Ι‚Ν•·‚©‚Θ‚Ά‚ΜHv
 —΄,S01166
-u‰½‚Ύ‚Ά‰½‚Ύ‚Άχcc‚ ‚½‚µ‚Ι‚Ν•·‚©‚Θ‚Ά‚ΜHv
 
+#uL©‚Δ‚ι‚έ‚©‚ρ‚ζ‚θAV•·©‚Δ—­‚ί‘§‚Β‚Ά‚Δ‚ι‚ ‚½‚µ‚Μ•ϋ‚ªd—v‚»‚¤‚Ύ‚λ‚¤Hv
 —΄,S01167
-uL©‚Δ‚ι‚έ‚©‚ρ‚ζ‚θAV•·©‚Δ—­‚ί‘§‚Β‚Ά‚Δ‚ι‚ ‚½‚µ‚Μ•ϋ‚ªd—v‚»‚¤‚Ύ‚λ‚¤Hv
 
+#u΄‚³‚ρ‚Ν‚Η‚¤‚ΉA“V‹C—\•ρ‚Ε‚ΰ©‚Δ—­‚ί‘§‚Β‚Ά‚Δ‚ι‚ρ‚Ε‚µ‚εv
 —χ
-u΄‚³‚ρ‚Ν‚Η‚¤‚ΉA“V‹C—\•ρ‚Ε‚ΰ©‚Δ—­‚ί‘§‚Β‚Ά‚Δ‚ι‚ρ‚Ε‚µ‚εv
 
+#uƒoƒJA‚½‚©‚ª“V‹C—\•ρ‚­‚η‚Ά‚Ε‚±‚ρ‚Θd‚Ά—­‚ί‘§‚Β‚­l‚Ά‚Θ‚Ά‚ζccv
 —΄,S01168
-uƒoƒJA‚½‚©‚ª“V‹C—\•ρ‚­‚η‚Ά‚Ε‚±‚ρ‚Θd‚Ά—­‚ί‘§‚Β‚­l‚Ά‚Θ‚Ά‚ζccv
 
 ‚»‚Μ‚½‚©‚ª“V‹C—\•ρ‚πA‚±‚ΜΤ‚Ν’m“I‚Ι‚·‚ι‚Ζ‚©‰½‚Ζ‚©‚±‚Ύ‚ν‚Α‚Δ‚­‚Ή‚Ιcc
 
+#ucc‚ΕA΄‚³‚ρ‚Ν‚Η‚¤‚µ‚ΔV•·©‚Δ—­‚ί‘§‚π‚Β‚Ά‚Δ‚½‚ρ‚Ε‚·Hv
 —χ
-ucc‚ΕA΄‚³‚ρ‚Ν‚Η‚¤‚µ‚ΔV•·©‚Δ—­‚ί‘§‚π‚Β‚Ά‚Δ‚½‚ρ‚Ε‚·Hv
-
 
 @shizuku_akire		#•π
 
-
+#u‚Ά‚ρ‚βA•Κ‚ΙV•·‚ΝΦW‚Θ‚Ά‚ΛB‚½‚Ύ‘ή‹ό‚Ύ‚©‚η—­‚ί‘§‚Β‚Ά‚Δ‚½‚Μ‚³v
 —΄,S01169
-u‚Ά‚ρ‚βA•Κ‚ΙV•·‚ΝΦW‚Θ‚Ά‚ΛB‚½‚Ύ‘ή‹ό‚Ύ‚©‚η—­‚ί‘§‚Β‚Ά‚Δ‚½‚Μ‚³v
 
+#u‚ΰ‚¤“ρ“x‚Ζ‚ ‚Θ‚½‚ª—­‚ί‘§‚π‚Β‚Ά‚Δ‚Ά‚Δ‚ΰS”z‚µ‚Θ‚Ά‚±‚Ζ‚ΙA΅‚±‚ΜuΤA“V’n_–Ύ‚Ι|‚―‚ΔΎ‚Ά‚ά‚µ‚½v
 —χ
-u‚ΰ‚¤“ρ“x‚Ζ‚ ‚Θ‚½‚ª—­‚ί‘§‚π‚Β‚Ά‚Δ‚Ά‚Δ‚ΰS”z‚µ‚Θ‚Ά‚±‚Ζ‚ΙA΅‚±‚ΜuΤA“V’n_–Ύ‚Ι|‚―‚ΔΎ‚Ά‚ά‚µ‚½v
-
 
 @shizuku		#•’Κ
 
-
+#uƒI[ƒo[‚Ύ‚Λ‚¥cc‰³—‚Μ—­‚ί‘§‚Μ——R‚πA‚»‚ρ‚Θΐ‚Α‚Ϋ‚ΆΎ—tκ‚Β‚Ε•·‚«o‚»‚¤‚Ζ‚·‚ι•ϋ‚ªΓ‚Ά‚Μ‚³v
 —΄,S01170
-uƒI[ƒo[‚Ύ‚Λ‚¥cc‰³—‚Μ—­‚ί‘§‚Μ——R‚πA‚»‚ρ‚Θΐ‚Α‚Ϋ‚ΆΎ—tκ‚Β‚Ε•·‚«o‚»‚¤‚Ζ‚·‚ι•ϋ‚ªΓ‚Ά‚Μ‚³v
 
+#u‚¨A‰³—ccIv
 —χ
-u‚¨A‰³—ccIv
 
 ƒcƒbƒRƒ~‚Ζ‚©ƒYƒbƒRƒP‚Ζ‚©‚Μ”½‰‚π’΄‰z‚µ‚ΔAΕ‚ά‚Α‚Δ‚µ‚ά‚Α‚½ccI
 
-
 @shizuku_ikariwarai	#“{Ξ
 
-
+#u•¶‹ε‚ ‚ι‚Μ‚©‚ΆccHv
 —΄,S01171
-u•¶‹ε‚ ‚ι‚Μ‚©‚ΆccHv
 
+#u‚Ά‚¦A‚Ά‚βA•Κ‚Ιccv
 —χ
-u‚Ά‚¦A‚Ά‚βA•Κ‚Ιccv
 
+#u΄‚³‚ρ–{l‚Ι•¶‹ε‚ª‚ ‚ι‚ν‚―‚Ε‚Ν‚Θ‚­A‰³—‚Ν©•ª‚Μ‚±‚Ζ‚πw‰³—x‚Θ‚ρ‚Δ‚Ά‚¤€κ‚Ε•\»‚µ‚Θ‚Ά‚ρ‚¶‚α‚Θ‚Ά‚©‚Ζccv
 —χ
-u΄‚³‚ρ–{l‚Ι•¶‹ε‚ª‚ ‚ι‚ν‚―‚Ε‚Ν‚Θ‚­A‰³—‚Ν©•ª‚Μ‚±‚Ζ‚πw‰³—x‚Θ‚ρ‚Δ‚Ά‚¤€κ‚Ε•\»‚µ‚Θ‚Ά‚ρ‚¶‚α‚Θ‚Ά‚©‚Ζccv
-
 
 @shizuku_akire		#•π
 
-
+#u‚άA‘ή‹ό‚Θ‚Μ‚ΝΆ‚Μ’†‚Ύ‚Λ‚¥ccc•si‹C‚Ι‰ρ•‚Μ’›‚µ‚Ν–³‚Ά‚µA­΅‰Ζ‚ΝƒNƒY‚Ύ‚µv
 —΄,S01172
-u‚άA‘ή‹ό‚Θ‚Μ‚ΝΆ‚Μ’†‚Ύ‚Λ‚¥ccc•si‹C‚Ι‰ρ•‚Μ’›‚µ‚Ν–³‚Ά‚µA­΅‰Ζ‚ΝƒNƒY‚Ύ‚µv
 
 b‘θ‚©‚η“¦‚°‚½‚Θcc
 
 ‚µ‚©‚µ‚Η‚ρ‚Θσ‘Τ‚Ύ‚λ‚¤‚ΖA‚ζ‚ΰ‚β”„t‚π΄ω‚µ‚Δ‚ι‚±‚Μl‚Ι‚Ύ‚―‚ΝƒNƒY‚Ζ‚©Ύ‚ν‚κ‚½‚­‚Θ‚ΆB
 
+#u‚ΕA‚ζ‚¤‚β‚­–{‘θ‚ΙΪ‚Α‚Δ‚έ‚©‚ρBƒ{[ƒhƒQ[ƒ€‚ª‚Η‚¤‚µ‚½‚Α‚ΔHv
 —χ
-u‚ΕA‚ζ‚¤‚β‚­–{‘θ‚ΙΪ‚Α‚Δ‚έ‚©‚ρBƒ{[ƒhƒQ[ƒ€‚ª‚Η‚¤‚µ‚½‚Α‚ΔHv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚ A‚Ω‚ρ‚Ζ‚Ι‚έ‚©‚ρ‚Ν‰½‚Ε‚ΰ‚Θ‚Ά‚ρ‚Ύ‚―‚Ηccv
 —‚έ‚©‚ρ,A01329
-u‚ A‚Ω‚ρ‚Ζ‚Ι‚έ‚©‚ρ‚Ν‰½‚Ε‚ΰ‚Θ‚Ά‚ρ‚Ύ‚―‚Ηccv
 
+#u‘εδ•vA΄‚³‚ρΘγ‚Ιΐ‚Μ–³‚Άb‘θ‚Θ‚ρ‚ΔA‚»‚¤‚»‚¤‚ ‚ι‚Ν‚Έ‚ª‚Θ‚Ά‚©‚ηv
 —χ
-u‘εδ•vA΄‚³‚ρΘγ‚Ιΐ‚Μ–³‚Άb‘θ‚Θ‚ρ‚ΔA‚»‚¤‚»‚¤‚ ‚ι‚Ν‚Έ‚ª‚Θ‚Ά‚©‚ηv
 
 ‚ά‚Ύƒuƒcƒuƒc‚Ζ•¶‹ε‚πΎ‚Α‚Δ‚ι‚ªA‹π’sƒƒxƒ‹‚Ε—―‚ά‚Α‚Δ‚Ά‚ιΤ‚Ν–³‹‚ΎB
 
+#u‚―‚ΗA‚έ‚©‚ρ‚Ν‚ΰ‚¤‚Ά‚Α‚Ο‚Ά‚Α‚Δ‚ι‚Ύ‚λB‚»‚ρ‚Θ‚Ι”M’†‚·‚ι‚Ω‚Η‚Μ•¨Hv
 —χ
-u‚―‚ΗA‚έ‚©‚ρ‚Ν‚ΰ‚¤‚Ά‚Α‚Ο‚Ά‚Α‚Δ‚ι‚Ύ‚λB‚»‚ρ‚Θ‚Ι”M’†‚·‚ι‚Ω‚Η‚Μ•¨Hv
-
 
 @mikan_yorokobi		#μ
 
-
+#u‚¤‚ρ‚Ζcc‚»‚κ‚ΰ‚ ‚ι‚ρ‚Ύ‚―‚ΗAƒ{[ƒhƒQ[ƒ€‚Ν‡€‚έ‚ρ‚Θ‡‚Εy‚µ‚ί‚ι‚©‚ηv
 —‚έ‚©‚ρ,A01330
-u‚¤‚ρ‚Ζcc‚»‚κ‚ΰ‚ ‚ι‚ρ‚Ύ‚―‚ΗAƒ{[ƒhƒQ[ƒ€‚Ν‡€‚έ‚ρ‚Θ‡‚Εy‚µ‚ί‚ι‚©‚ηv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚έ‚©‚ρA—F’B‚Ζ‚©‰Ζ‚Μl‚Ζ‚©‚Ζκ‚Ικ‚Β‚Μ‚±‚Ζ‚Εy‚µ‚ή‚Μ‚Α‚ΔA‚·‚²‚­‘εD‚«‚Θ‚ρ‚Ύv
 —‚έ‚©‚ρ,A01331
-u‚έ‚©‚ρA—F’B‚Ζ‚©‰Ζ‚Μl‚Ζ‚©‚Ζκ‚Ικ‚Β‚Μ‚±‚Ζ‚Εy‚µ‚ή‚Μ‚Α‚ΔA‚·‚²‚­‘εD‚«‚Θ‚ρ‚Ύv
 
 κ‚ΙA‚©ccc
 
 gρ‚θ‚Μ‚Θ‚Άq‚Ζ‚µ‚Δ‚±‚±‚Ι‚Ά‚ι‚±‚Μq‚ªΎ‚¤‚ΖA‚―‚Α‚±‚¤d‚Ά‚ΘB
 
-
 @shizuku		#•’Κ
 
-
+#u‚»‚ρ‚Θ‚Ι—~‚µ‚Ά‚Θ‚ηχ‚Ι‚Λ‚Ύ‚κ‚Ξ‚Ά‚Ά‚¶‚α‚Θ‚Ά‚©v
 —΄,S01173
-u‚»‚ρ‚Θ‚Ι—~‚µ‚Ά‚Θ‚ηχ‚Ι‚Λ‚Ύ‚κ‚Ξ‚Ά‚Ά‚¶‚α‚Θ‚Ά‚©v
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚¦‚ΑIH@‚ΆA‚Ά‚Ά‚ζA‚»‚ρ‚Θ‚Μcc’a¶“ϊ‚Ε‚ΰ–³‚Ά‚Μ‚ΙA‚±‚ρ‚Θ‚Μ”ƒ‚Α‚Δ‚ΰ‚η‚¤‚Θ‚ρ‚Δv
 —‚έ‚©‚ρ,A01332
-u‚¦‚ΑIH@‚ΆA‚Ά‚Ά‚ζA‚»‚ρ‚Θ‚Μcc’a¶“ϊ‚Ε‚ΰ–³‚Ά‚Μ‚ΙA‚±‚ρ‚Θ‚Μ”ƒ‚Α‚Δ‚ΰ‚η‚¤‚Θ‚ρ‚Δv
-
 
 @shizuku_akire		#•π
 
-
+#u‚Ν‚A‚Ά‚Ά‚©‚Ά‚έ‚©‚ρB‰“—¶‚Θ‚ρ‚©‚µ‚Δ‚ιl¶A‰½‚ΰ‚Ά‚Ά‚±‚Ζ‚Θ‚Ά‚ζHv
 —΄,S01174
-u‚Ν‚A‚Ά‚Ά‚©‚Ά‚έ‚©‚ρB‰“—¶‚Θ‚ρ‚©‚µ‚Δ‚ιl¶A‰½‚ΰ‚Ά‚Ά‚±‚Ζ‚Θ‚Ά‚ζHv
-
 
 #@mikan_kusyou		#‹κΞ
 @mikan_kanashimi	#£
 
-
+#ucc‚¨θ‚Ά‚Ε‚·‚©‚ηA΄‚³‚ρ‚Ν‚ΰ‚Α‚ΖΎ—t‚π‘I‚ρ‚Ε’‚Α‚Δ‚­‚Ύ‚³‚Άv
 —χ
-ucc‚¨θ‚Ά‚Ε‚·‚©‚ηA΄‚³‚ρ‚Ν‚ΰ‚Α‚ΖΎ—t‚π‘I‚ρ‚Ε’‚Α‚Δ‚­‚Ύ‚³‚Άv
 
 ‚»‚Μγ‚ΰeΨ‚Μ‰‚µ”„‚θ‚έ‚½‚Ά‚Ι‚ά‚­‚µ—§‚Δ‚ι΄‚³‚ρ‚Ι‰‚³‚κAΆf‚·‚ι‚έ‚©‚ρB
 
 ‹‹Η‚έ‚©‚ρ‚ªƒ`ƒ‰ƒV‚π’u‚Ά‚Δ‘ήΊ‚·‚ι‚±‚Ζ‚Εb‚ΝI‚ν‚Α‚Δ‚µ‚ά‚Α‚½B
 
+#i‚Ε‚ΰA‚»‚¤‚Ύ‚Θcc΅“x‰½‚©‚ ‚ι‚ΝA‚»‚Μƒ{[ƒhƒQ[ƒ€‚π”ƒ‚Α‚Δ‚β‚ι‚±‚Ζ‚Ι‚·‚ι‚©j
 —χ
-i‚Ε‚ΰA‚»‚¤‚Ύ‚Θcc΅“x‰½‚©‚ ‚ι‚ΝA‚»‚Μƒ{[ƒhƒQ[ƒ€‚π”ƒ‚Α‚Δ‚β‚ι‚±‚Ζ‚Ι‚·‚ι‚©j
-
 
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_6	#-----------------------------------------------------
 #Ε‰‚Μ•ϋB’²‹³‰ρ”‚ª­‚Θ‚Άσ‘Τ‚Μ‚Ζ‚«‚Ι‹­§”­¶
 #------------------------------------------------------------
 
-
 #΅BGi©Ίj
 @bg_itsuki		#©Ί
-
 
 #SE11@•”‰®‚ΜƒhƒA‚πƒmƒbƒNiƒRƒ“ƒRƒ“j
 @SE11			#SE11@•”‰®‚ΜƒhƒA‚πƒmƒbƒNiƒRƒ“ƒRƒ“j
 
-
 —[H‚ά‚Ε‚ΜΤ‚π’Χ‚µ‚Δ‚Ά‚ι‚Ζ—‹q‚ª‚ ‚Α‚½B
 
-
+#u‚¨Z‚Ώ‚α‚ρA‹‚ιHv
 —‚έ‚©‚ρ,A01333
-u‚¨Z‚Ώ‚α‚ρA‹‚ιHv
-
 
 se_stop		0
 
-
+#u‹‚ι‚ζB‚Η‚¤‚Όv
 —χ
-u‹‚ι‚ζB‚Η‚¤‚Όv
-
 
 #SE06@•”‰®‚ΜƒhƒAJ‚­‰ΉiƒKƒ`ƒƒj
 @SE06			#•”‰®‚ΜƒhƒAJ‚­‰ΉiƒKƒ`ƒƒj
 
-
 ‚»‚Μ‚ά‚ά’†‚Φµ‚«“ό‚κ‚ιB
-
 
 @bgm12			#BGM 12 : ƒƒCƒ“ƒe[ƒ}
 
-
+#u‚Η‚¤‚©‚µ‚½H@m‚©‚΄‚­‚λ‚β‚Ά‚Ώ‚²‚Ζ—V‚ρ‚Ε‚½‚ρ‚¶‚α‚Θ‚©‚Α‚½‚Α‚―v
 —χ
-u‚Η‚¤‚©‚µ‚½H@m‚©‚΄‚­‚λ‚β‚Ά‚Ώ‚²‚Ζ—V‚ρ‚Ε‚½‚ρ‚¶‚α‚Θ‚©‚Α‚½‚Α‚―v
-
 
 se_stop		0
 @mikan			#•’Κ
 
-
+#u‚¤‚ρA‚»‚¤‚Θ‚ρ‚Ύ‚―‚Ηv
 —‚έ‚©‚ρ,A01334
-u‚¤‚ρA‚»‚¤‚Θ‚ρ‚Ύ‚―‚Ηv
 
 ‰½‚©•sv‹c‚»‚¤‚Θη‚Ε‚±‚Α‚Ώ‚π©‚Δ‚Ά‚ιB
 
+#u•·‚«‚½‚Ά‚±‚Ζ‚ª‚ ‚ι‚Μv
 —‚έ‚©‚ρ,A01335
-u•·‚«‚½‚Ά‚±‚Ζ‚ª‚ ‚ι‚Μv
 
+#u‚¤‚ρHv
 —χ
-u‚¤‚ρHv
 
+#u‚Λ‚¥‚¨Z‚Ώ‚α‚ρA‚¨ƒ}ƒ“ƒR‚Α‚Δ‰½Hv
 —‚έ‚©‚ρ,A01336
-u‚Λ‚¥‚¨Z‚Ώ‚α‚ρA‚¨ƒ}ƒ“ƒR‚Α‚Δ‰½Hv
-
 
 #SE27@“|‚κ‚ι‰ΉiƒhƒTƒbj
 @SE27			#SE27@“|‚κ‚ι‰ΉiƒhƒTƒbj
 
-
+#u‚Άƒb‚ΔcccIIv
 —χ
-u‚Άƒb‚ΔcccIIv
 
 ‹Α‚«‚Μ‚ ‚ά‚θΦq‚©‚ηƒYƒ—‚Ώ‚Δ‚µ‚ά‚Α‚½B
-
 
 se_stop		0
 @mikan_
@@ -2173,291 +1826,234 @@ wait		1000
 @mikan_middle		# ’†Τ
 @mikan_odoroki		#‹Α
 
-
+#u‚ΎA‘εδ•vIH@‚¨Z‚Ώ‚α‚ρƒbv
 —‚έ‚©‚ρ,A01337
-u‚ΎA‘εδ•vIH@‚¨Z‚Ώ‚α‚ρƒbv
 
+#u‚ A‚ ‚ ‘εδ•vcc‚»‚κ‚ζ‚θAκ‘Μccv
 —χ
-u‚ A‚ ‚ ‘εδ•vcc‚»‚κ‚ζ‚θAκ‘Μccv
 
 w‚Η‚±‚Εx‚Ζq‚Λ‚©‚―‚ΔA‚·‚®‚Ιv‚Ά“–‚½‚Α‚½B
 
+#i‚΄‚­‚λ‚Ζ‚Ά‚Ώ‚²‚Ζ—V‚ρ‚Ε‚½‚ρ‚Ύ‚ζ‚Θccco‚Ν‚»‚±‚©j
 —χ
-i‚΄‚­‚λ‚Ζ‚Ά‚Ώ‚²‚Ζ—V‚ρ‚Ε‚½‚ρ‚Ύ‚ζ‚Θccco‚Ν‚»‚±‚©j
-
 
 @mikan_yorokobi		#μ
 
-
+#u‚Λ‚¥A‚¨ƒ}ƒ“ƒR‚Α‚Δ‰½H@‚¨Z‚Ώ‚α‚ρ’m‚Α‚Δ‚ιHv
 —‚έ‚©‚ρ,A01338
-u‚Λ‚¥A‚¨ƒ}ƒ“ƒR‚Α‚Δ‰½H@‚¨Z‚Ώ‚α‚ρ’m‚Α‚Δ‚ιHv
 
+#u‚ `cc‚¦‚Α‚Ζv
 —χ
-u‚ `cc‚¦‚Α‚Ζv
 
+#i‚Η‚¤‚µ‚ζ‚¤‚©cc‚±‚ρ‚Θ¶‚ΎB‚Ά‚Έ‚κ’m‚ι‚±‚Ζ‚Ι‚Θ‚ι‚Μ‚ΝΤα‚Ά‚Θ‚Ά‚―‚Ηj
 —χ
-i‚Η‚¤‚µ‚ζ‚¤‚©cc‚±‚ρ‚Θ¶‚ΎB‚Ά‚Έ‚κ’m‚ι‚±‚Ζ‚Ι‚Θ‚ι‚Μ‚ΝΤα‚Ά‚Θ‚Ά‚―‚Ηj
-
 
 @mikan			#•’Κ
 
-
+#ucccHv
 —‚έ‚©‚ρ,A01339
-ucccHv
 
 ‚µ‚©‚µƒGƒbƒ`‚Μ•µΝ‹C‚Μ’†‚Ε‹³‚¦‚ι‚Θ‚η‚Ζ‚ΰ‚©‚­A‚±‚ρ‚Θ•½‚Ι¶X‚µ‚­‹³‚¦‚ι‚Μ‚©ccH
 
+#iƒIƒ‚Ι‚Ν–³—‚Ύcc‚―‚ΗAμ‚ρ‚Εb‚µ‚»‚¤‚Θl‚ΜΠ‰ξ‚­‚η‚Ά‚Νo—‚ιj
 —χ
-iƒIƒ‚Ι‚Ν–³—‚Ύcc‚―‚ΗAμ‚ρ‚Εb‚µ‚»‚¤‚Θl‚ΜΠ‰ξ‚­‚η‚Ά‚Νo—‚ιj
 
+#u΄‚³‚ρ‚Ι•·‚Ά‚Δ‚έ‚ΘBμ‚ρ‚Εb‚µ‚Δ‚­‚κ‚ι‚ζv
 —χ
-u΄‚³‚ρ‚Ι•·‚Ά‚Δ‚έ‚ΘBμ‚ρ‚Εb‚µ‚Δ‚­‚κ‚ι‚ζv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚¤‚¤‚ρB΄‚³‚ρ‚Ι‚ΰ•·‚Ά‚½‚ρ‚Ύ‚―‚ΗA‚»‚µ‚½‚η‚¨Z‚Ώ‚α‚ρ‚Ι•·‚―‚Α‚ΔΞ‚ν‚κ‚½‚©‚ηv
 —‚έ‚©‚ρ,A01340
-u‚¤‚¤‚ρB΄‚³‚ρ‚Ι‚ΰ•·‚Ά‚½‚ρ‚Ύ‚―‚ΗA‚»‚µ‚½‚η‚¨Z‚Ώ‚α‚ρ‚Ι•·‚―‚Α‚ΔΞ‚ν‚κ‚½‚©‚ηv
-
 
 #SE75@ƒVƒ‡ƒbƒN‰ΉiƒK[[ƒ“Ij
 @SE75			#SE75@ƒVƒ‡ƒbƒN‰ΉiƒK[[ƒ“Ij
 #screen_vibration	500,16,16,16
 
-
+#uζ‰z‚³‚κ‚½‚Μ‚©ƒbI@‚±‚ρ‚Θ‚­‚η‚Ά–π‚Ι—§‚Δ‚ζA‚ ‚Μl‚ΝIv
 —χ
-uζ‰z‚³‚κ‚½‚Μ‚©ƒbI@‚±‚ρ‚Θ‚­‚η‚Ά–π‚Ι—§‚Δ‚ζA‚ ‚Μl‚ΝIv
 
+#u‚Η‚¤‚·‚ιcc‚ά‚³‚©”ό‰J‚ΙU‚ι‚ν‚―‚Ι‚ΰ‚Ά‚©‚Θ‚Ά‚µccv
 —χ
-u‚Η‚¤‚·‚ιcc‚ά‚³‚©”ό‰J‚ΙU‚ι‚ν‚―‚Ι‚ΰ‚Ά‚©‚Θ‚Ά‚µccv
-
 
 se_stop		0
 @mikan_yorokobi		#μ
 
-
+#u‚ρ`cc‚Ά‚Ά‚βA–Ύ“ϊwZ‚Μζ¶‚Ι•·‚Ά‚Δ‚έ‚ι‚ζv
 —‚έ‚©‚ρ,A01341
-u‚ρ`cc‚Ά‚Ά‚βA–Ύ“ϊwZ‚Μζ¶‚Ι•·‚Ά‚Δ‚έ‚ι‚ζv
 
+#u‚¦cc‰½‚ΔHv
 —χ
-u‚¦cc‰½‚ΔHv
 
+#u•’Κ‚ΙA‚¨ƒ}ƒ“ƒR‚Α‚Δ‰½‚Ε‚·‚©‚Α‚Δv
 —‚έ‚©‚ρ,A01342
-u•’Κ‚ΙA‚¨ƒ}ƒ“ƒR‚Α‚Δ‰½‚Ε‚·‚©‚Α‚Δv
-
 
 #SE66@ψ‰Κ‰Ή‚PiƒrƒVƒbIj
 @SE66			#ψ‰Κ‰Ή‚PiƒrƒVƒbIj¦κ–Κ‚π‹­’²‚µ‚½‚θ‚·‚ιψ‰Κ‰Ή
 
-
+#u‚»‚κ‚Ν•s–΅‚ΆƒbI@‰Ζ’λΒ‹«‚ª^•‚Ι‹^‚ν‚κ‚ι‚©‚ηIIv
 —χ
-u‚»‚κ‚Ν•s–΅‚ΆƒbI@‰Ζ’λΒ‹«‚ª^•‚Ι‹^‚ν‚κ‚ι‚©‚ηIIv
 
+#u‚Ζ‚θ‚ ‚¦‚Έ΅Ύ‚¦‚ι‚Μ‚ΝA‚»‚ΜΎ—t‚Ν’p‚Έ‚©‚µ‚Ά‚©‚ηϋ‚Ι‚·‚ι‚Θ‚Α‚Δ‚±‚ΖIv
 —χ
-u‚Ζ‚θ‚ ‚¦‚Έ΅Ύ‚¦‚ι‚Μ‚ΝA‚»‚ΜΎ—t‚Ν’p‚Έ‚©‚µ‚Ά‚©‚ηϋ‚Ι‚·‚ι‚Θ‚Α‚Δ‚±‚ΖIv
-
 
 se_stop		0
 @mikan_odoroki		#‹Α
 
-
+#u‚¦cc‚»‚¤‚Θ‚ΜHv
 —‚έ‚©‚ρ,A01343
-u‚¦cc‚»‚¤‚Θ‚ΜHv
 
+#u‚Ε‚ΰ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΰ‚΄‚­‚λ‚Ώ‚α‚ρ‚ΰA•’Κ‚Ιw‚¨ƒ}ƒ“ƒR‚¨ƒ}ƒ“ƒRx‚Α‚ΔΎ‚Α‚Δ‚½‚ζv
 —‚έ‚©‚ρ,A01344
-u‚Ε‚ΰ‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΰ‚΄‚­‚λ‚Ώ‚α‚ρ‚ΰA•’Κ‚Ιw‚¨ƒ}ƒ“ƒR‚¨ƒ}ƒ“ƒRx‚Α‚ΔΎ‚Α‚Δ‚½‚ζv
 
+#ucc‚ ‚Μ“ρl‚Νξ€‚Ι‚µ‚Ώ‚αƒ_ƒ‚Ύv
 —χ
-ucc‚ ‚Μ“ρl‚Νξ€‚Ι‚µ‚Ώ‚αƒ_ƒ‚Ύv
 
+#u‚Ζ‚Ι‚©‚­A‚±‚Μ{έ‚Μ’†‚ΕƒOƒ[ƒ][ƒ“Bκ•ΰ‚Ε‚ΰO‚Ιo‚Δ‘Όl‚ΙΎ‚Α‚½‚ηƒAƒEƒg‚Ύ‚©‚η‚Θv
 —χ
-u‚Ζ‚Ι‚©‚­A‚±‚Μ{έ‚Μ’†‚ΕƒOƒ[ƒ][ƒ“Bκ•ΰ‚Ε‚ΰO‚Ιo‚Δ‘Όl‚ΙΎ‚Α‚½‚ηƒAƒEƒg‚Ύ‚©‚η‚Θv
-
 
 @mikan			#•’Κ
 
-
+#u‚¤A‚¤‚ρcc‰½‚©•ª‚©‚η‚Θ‚Ά‚―‚ΗA•ª‚©‚Α‚½ccv
 —‚έ‚©‚ρ,A01345
-u‚¤A‚¤‚ρcc‰½‚©•ª‚©‚η‚Θ‚Ά‚―‚ΗA•ª‚©‚Α‚½ccv
 
 ‚Ά‚ά‚Ά‚Ώ”[“Ύ‚µΨ‚κ‚Δ‚Ά‚Θ‚Ά‚ζ‚¤‚Ύ‚ªA‚έ‚©‚ρ‚Ν—Η‚Άq‚Θ‚Μ‚Εθυ‚Ά‚Δ•Τ‚·B
 
-
 @mikan_kusyou		#‹κΞ
 
-
+#ucc‚¦‚Α‚ΖAΣ–΅‚Ν‹³‚¦‚Δ‚­‚κ‚Θ‚Ά‚Μv
 —‚έ‚©‚ρ,A01346
-ucc‚¦‚Α‚ΖAΣ–΅‚Ν‹³‚¦‚Δ‚­‚κ‚Θ‚Ά‚Μv
 
+#u™‚Ε‚ΰ‚»‚Μ‚¤‚Ώ•ª‚©‚ι‚©‚ηcc‚»‚κ‚ά‚Ε‰δ–‚µ‚Θv
 —χ
-u™‚Ε‚ΰ‚»‚Μ‚¤‚Ώ•ª‚©‚ι‚©‚ηcc‚»‚κ‚ά‚Ε‰δ–‚µ‚Θv
 
 ‚»‚¤A}‚η‚Έ‚ΰ΄‚³‚ρ‚ΜΎ—t’Κ‚θA‚Ά‚Έ‚κƒIƒ‚ª‹³‚¦‚ι‚±‚Ζ‚Ι‚Θ‚ι‚Μ‚Ύ‚λ‚¤B
 
 ‚έ‚©‚ρ‚π“ρl‚Μ³‚Φ•Τ‚µ‚Θ‚ª‚ηA‚»‚Μ‰“‚­‚Θ‚Ά–Ά—‚Μ‚±‚Ζ‚πv‚Α‚Δ—­‚ί‘§‚π‚Β‚­‚Μ‚Ύ‚Α‚½B
 
-
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_7	#----------------------------------------------------
 #‹x‰Ι‚π—^‚¦‚Δ‚Ά‚ι‚Ζ‚«
 #------------------------------------------------------------
 
-
 #΅BGiΊΦj
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 @bg_genkan		#ΊΦ
 
-
 ‚έ‚©‚ρ‚ªAΊΦ‚Εo‚©‚―‚ι€”υ‚π‚µ‚Δ‚Ά‚½B
 
-
+#u‚Η‚¤‚µ‚½A‚έ‚©‚ρHv
 —χ
-u‚Η‚¤‚µ‚½A‚έ‚©‚ρHv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚¤‚ρBwZ‚Μ—F’B‚Ζ—V‚Ρ‚Ιs‚­‚Μv
 —‚έ‚©‚ρ,A01347
-u‚¤‚ρBwZ‚Μ—F’B‚Ζ—V‚Ρ‚Ιs‚­‚Μv
 
 ƒgƒ“ƒgƒ“‚ΖƒXƒj[ƒJ[‚Μ‚Β‚άζ‚π’@‚«‚Θ‚ª‚ηA‚έ‚©‚ρ‚ªπ‚µ‚»‚¤‚Ι”jη‚·‚ιB
 
 w—F‚Ζ‰ί‚²‚·‚Ζ‚Ά‚¤‚Μ‚Νy‚µ‚έ‚ΘƒCƒxƒ“ƒg‚Μκ‚Β‚Θ‚Μ‚Ύ‚λ‚¤B
 
-
 @mikan			#•’Κ
 
-
+#u‚¨Z‚Ώ‚α‚ρA‚ΰ‚µ‚©‚µ‚Δ‚έ‚©‚ρ‚Ι‰½‚©—p–‚Ύ‚Α‚½‚ΜHv
 —‚έ‚©‚ρ,A01348
-u‚¨Z‚Ώ‚α‚ρA‚ΰ‚µ‚©‚µ‚Δ‚έ‚©‚ρ‚Ι‰½‚©—p–‚Ύ‚Α‚½‚ΜHv
 
+#u‚Ά‚βA‹C‚Ι‚Ή‚Έ‚Ιs‚Α‚Ζ‚Ά‚ΕB’x‚­‚Θ‚ι‚ά‚Ε‚Ι‚Ν‹A‚Α‚Δ‚­‚ι‚ρ‚Ύ‚Όv
 —χ
-u‚Ά‚βA‹C‚Ι‚Ή‚Έ‚Ιs‚Α‚Ζ‚Ά‚ΕB’x‚­‚Θ‚ι‚ά‚Ε‚Ι‚Ν‹A‚Α‚Δ‚­‚ι‚ρ‚Ύ‚Όv
-
 
 @mikan_warai		#Ξ
 
-
+#u•ª‚©‚Α‚½Bs‚Α‚Δ‚«‚ά[‚·IIv
 —‚έ‚©‚ρ,A01349
-u•ª‚©‚Α‚½Bs‚Α‚Δ‚«‚ά[‚·IIv
-
 
 @mikan_
 wait		1000
 #SE30@ΊΦ‚ΜƒhƒA‚ªJ‚­‰Ή
 @SE30			#SE30@ΊΦ‚ΜƒhƒA‚ªJ‚­‰Ή
 
-
 ³‹C‚Θ¥A‚πc‚µAo‚©‚―‚ι‚έ‚©‚ρ‚π©‘—‚Α‚½B
 
+#i‚Ή‚Α‚©‚­‚Μ‹x‚έ‚Ύ‚©‚η—V‚ρ‚Ε‚β‚λ‚¤‚Ζv‚Α‚½‚ρ‚Ύ‚ªA—F’B•t‚«‡‚Ά‚ª—Dζ‚Ύ‚Θccj
 —χ
-i‚Ή‚Α‚©‚­‚Μ‹x‚έ‚Ύ‚©‚η—V‚ρ‚Ε‚β‚λ‚¤‚Ζv‚Α‚½‚ρ‚Ύ‚ªA—F’B•t‚«‡‚Ά‚ª—Dζ‚Ύ‚Θccj
-
 
 se_stop		0
 
-
+#u‚³‚ΔAƒIƒ‚Ν‰½‚µ‚Δ‰ί‚²‚·‚©‚Θv
 —χ
-u‚³‚ΔAƒIƒ‚Ν‰½‚µ‚Δ‰ί‚²‚·‚©‚Θv
 
 ‘γ‚ν‚θ‚Ι‰Ι‚π‚Δ—]‚µ‚½ƒIƒ‚ΝA•”‰®‚Φ‚Ζ–ί‚Α‚Δ‚Ά‚Α‚½B
-
 
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
 
 label	mikan_tachi_8	#-----------------------------------------------------
 #”­¶F•s–Ύ
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGiZ‘ξXj
 @bg_jyuutakugai		# Z‘ξX
 
-
 ”ό‰J‚Ι—‚ά‚κ‚½”ƒ‚Ά•¨‚Μ‹A‚θ“Ή‚Μ‚±‚ΖB
 
-
+#u‚ ‚κccH@‰½‚©—‚Ώ‚Δ‚ι‚έ‚½‚Άv
 —‚έ‚©‚ρ,A01350
-u‚ ‚κccH@‰½‚©—‚Ώ‚Δ‚ι‚έ‚½‚Άv
-
 
 #SE32@O‚Ε‘–‚ι‰Ή
 @SE32			#SE32@O‚Ε‘–‚ι‰Ή
 wait		3000
 se_stop		0
 
-
+#u‚ρHv
 —χ
-u‚ρHv
 
 ‰½‚©‚Ι‹C•t‚Ά‚½‚έ‚©‚ρ‚ª‘O•ϋ‚Ι‹μ‚―‚½B
 
-
 @mikan_odoroki		#‹Α
 
-
+#u‚ ‚ΑA‚¨Z‚Ώ‚α‚ρB‚±‚κΰ•z‚Ύ‚ζv
 —‚έ‚©‚ρ,A01351
-u‚ ‚ΑA‚¨Z‚Ώ‚α‚ρB‚±‚κΰ•z‚Ύ‚ζv
 
+#uΰ•zHv
 —χ
-uΰ•zHv
-
 
 @mikan_
 wait		1000
 @mikan_middle		# ’†Τ
 @mikan_warai		#Ξ
 
-
+#u‚Ω‚ηv
 —‚έ‚©‚ρ,A01352
-u‚Ω‚ηv
 
 ‚»‚¤Ύ‚Α‚Δ©‚Ή‚ι‚έ‚©‚ρ‚©‚η‚»‚κ‚πσ‚―ζ‚ι‚ΖA‚Έ‚Α‚µ‚θ‚Ζd‚έ‚ª“`‚ν‚Α‚Δ‚«‚½B
 
+#uccm‚©‚Ιΰ•z‚Ύ‚ªB‚·‚²‚Ά‚ΘA–ϋ‚Ύ‚η‚―‚Ύv
 —χ
-uccm‚©‚Ιΰ•z‚Ύ‚ªB‚·‚²‚Ά‚ΘA–ϋ‚Ύ‚η‚―‚Ύv
-
 
 @mikan_kanashimi	#£
 
-
+#u‚±‚ρ‚Θ‚Ι‚½‚­‚³‚ρ‚Μ‚¨‹ΰcc—‚Ζ‚µ‚½lAΆ‚Α‚Δ‚ι‚Ύ‚λ‚¤‚Λv
 —‚έ‚©‚ρ,A01353
-u‚±‚ρ‚Θ‚Ι‚½‚­‚³‚ρ‚Μ‚¨‹ΰcc—‚Ζ‚µ‚½lAΆ‚Α‚Δ‚ι‚Ύ‚λ‚¤‚Λv
 
+#u‚±‚ρ‚Θ‚Ι‚Ώ•ΰ‚­‚Θ‚ηƒJ[ƒh‚Ι‚·‚κ‚Ξ‚Ά‚Ά‚Μ‚Ιccv
 —χ
-u‚±‚ρ‚Θ‚Ι‚Ώ•ΰ‚­‚Θ‚ηƒJ[ƒh‚Ι‚·‚κ‚Ξ‚Ά‚Ά‚Μ‚Ιccv
 
+#u‚―‚Η‚ά‚A—‚Ζ‚µ‚Δ‚ι‚ζ‚¤‚¶‚α‚Η‚Α‚Ώ‚ΰ•Ο‚ν‚η‚Θ‚Ά‚©v
 —χ
-u‚―‚Η‚ά‚A—‚Ζ‚µ‚Δ‚ι‚ζ‚¤‚¶‚α‚Η‚Α‚Ώ‚ΰ•Ο‚ν‚η‚Θ‚Ά‚©v
-
 
 @mikan			#•’Κ
 
-
+#u‚Η‚¤‚·‚ι‚ΜA‚¨Z‚Ώ‚α‚ρHv
 —‚έ‚©‚ρ,A01354
-u‚Η‚¤‚·‚ι‚ΜA‚¨Z‚Ώ‚α‚ρHv
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -2470,63 +2066,51 @@ if sel=1 then goto mikan_tachi_8b
 if sel=2 then goto mikan_tachi_8c
 #--------------------------------------------------
 
-
 #--------------------------
 #i‚Pj‚έ‚©‚ρD΄“xUP
 label	mikan_tachi_8a
 #--------------------------
 
-
+#u‚µ‚ε‚¤‚ª‚Θ‚ΆA‚ΰ‚¤κ“x–ί‚λ‚¤B¤“XX‚Μ“ό‚θϋ‚Ιπ”Τ‚ª‚ ‚Α‚½‚©‚ηv
 —χ
-u‚µ‚ε‚¤‚ª‚Θ‚ΆA‚ΰ‚¤κ“x–ί‚λ‚¤B¤“XX‚Μ“ό‚θϋ‚Ιπ”Τ‚ª‚ ‚Α‚½‚©‚ηv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚¤‚ρI@—‚µ•¨‚Νπ”Τ‚Ύ‚ζ‚Λv
 —‚έ‚©‚ρ,A01355
-u‚¤‚ρI@—‚µ•¨‚Νπ”Τ‚Ύ‚ζ‚Λv
 
 ‚tƒ^[ƒ“‚·‚ι‚ΖAƒIƒ‚Ζ‚έ‚©‚ρ‚Ν‚ά‚½—‚½“Ή‚π–ί‚Α‚Δ‚Ά‚Α‚½B
-
 
 #΅BGiƒuƒ‰ƒbƒNj
 @bg_black
 
-
 π”Τ‚Ε•K—v‚Θ‘—ή‚π‘‚Ά‚Δ‚©‚ηA‚»‚Μκ‚πγ‚Ι‚·‚ιB
-
 
 @mikan_small		# ‰“‚Ά
 @mikan_yorokobi		#μ
 #΅BGi¤“XXj
 @bg_syoutengai		# ¤“XX
 
-
+#u‚ζ‚©‚Α‚½B‚±‚κ‚Ε—‚Ζ‚µ‚½l‚ΰΐS‚Ύ‚Λv
 —‚έ‚©‚ρ,A01356
-u‚ζ‚©‚Α‚½B‚±‚κ‚Ε—‚Ζ‚µ‚½l‚ΰΐS‚Ύ‚Λv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚»‚κ‚ΙA‚ΰ‚µ‚©‚µ‚½‚η‚έ‚©‚ρ’BA‚¨—η‚Ικ„‚ΰ‚η‚¦‚ι‚©‚ΰ‚µ‚κ‚Θ‚Ά‚ζτv
 —‚έ‚©‚ρ,A01357
-u‚»‚κ‚ΙA‚ΰ‚µ‚©‚µ‚½‚η‚έ‚©‚ρ’BA‚¨—η‚Ικ„‚ΰ‚η‚¦‚ι‚©‚ΰ‚µ‚κ‚Θ‚Ά‚ζτv
 
+#u‚¤‚ρH@‚»‚¤‚Ύ‚ΘA‚»‚Μ‚Ν‚έ‚ρ‚Θ‚Ε‰½‚©”ό–΅‚Ά•¨‚Ε‚ΰH‚Χ‚Ιs‚­‚©v
 —χ
-u‚¤‚ρH@‚»‚¤‚Ύ‚ΘA‚»‚Μ‚Ν‚έ‚ρ‚Θ‚Ε‰½‚©”ό–΅‚Ά•¨‚Ε‚ΰH‚Χ‚Ιs‚­‚©v
 
 ΰ•z‚πθ‚Ι‚µ‚½‚ΙA™‚Ε‚ΰ‰ί‚¬‚Α‚½w‚Ώ‹A‚ιx‚Ζ‚Ά‚¤‘I‘πB
 
 ’N‚ΰ©‚Δ‚Θ‚©‚Α‚½‚Μ‚ΙA‚±‚¤‚µ‚Δκ„‚Μ‚¨—η‚Ε–³Χ‹C‚Ιμ‚Τ‚έ‚©‚ρ‚Ν–{“–‚Ιƒ^‚Ύ‚Ζv‚¤B
 
+#i–{“–‚Ικ„•Τ‚µ‚ª–α‚¦‚½‚ηA‚»‚Μ‚Ν‚έ‚©‚ρ‚Ιg‚Ά“Ή‚π‚ί‚³‚Ή‚Δ‚β‚ι‚©j
 —χ
-i–{“–‚Ικ„•Τ‚µ‚ª–α‚¦‚½‚ηA‚»‚Μ‚Ν‚έ‚©‚ρ‚Ιg‚Ά“Ή‚π‚ί‚³‚Ή‚Δ‚β‚ι‚©j
-
 
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xUP
@@ -2534,82 +2118,64 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #--------------------------
 #i‚Qj‚έ‚©‚ρD΄“xUP•‚ ‚½‚άUP
 label	mikan_tachi_8b
 #--------------------------
 
-
+#u’†g‚ΰ©‚Δ‚έ‚ζ‚¤‚©v
 —χ
-u’†g‚ΰ©‚Δ‚έ‚ζ‚¤‚©v
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚¦‚¦ƒbIH@l‚Μΰ•z‚Ύ‚ζA‚¨Z‚Ώ‚α‚ρIv
 —‚έ‚©‚ρ,A01358
-u‚¦‚¦ƒbIH@l‚Μΰ•z‚Ύ‚ζA‚¨Z‚Ώ‚α‚ρIv
 
 ΰ•z‚Μϋ‚πJ‚­ƒIƒ‚π©‚Δ‹Α‚«A‚»‚µ‚Δ‰φζb‚»‚¤‚Θ‹ό‚Ε‚±‚Ώ‚η‚π©‚Β‚ί‚Δ‚­‚ιB
 
-
 @mikan_kanashimi	#£
 
-
+#uπ”Τ‚Ι“Ν‚―‚ζ‚¤‚ζcc—‚Ζ‚µ‚½l‚ΰΆ‚Α‚Δ‚ι‚ζA‚«‚Α‚Ζv
 —‚έ‚©‚ρ,A01359
-uπ”Τ‚Ι“Ν‚―‚ζ‚¤‚ζcc—‚Ζ‚µ‚½l‚ΰΆ‚Α‚Δ‚ι‚ζA‚«‚Α‚Ζv
 
+#u•Κ‚Ι•Ο‚Θ‹C‚Ώ‚Ε’†‚π©‚ι‚ρ‚¶‚α‚Θ‚Ά‚Α‚ΔB‚ΰ‚µ‚©‚µ‚½‚η‚Ώε‚ª•ª‚©‚ι‚©‚ΰ‚µ‚κ‚Θ‚Ά‚Ύ‚λHv
 —χ
-u•Κ‚Ι•Ο‚Θ‹C‚Ώ‚Ε’†‚π©‚ι‚ρ‚¶‚α‚Θ‚Ά‚Α‚ΔB‚ΰ‚µ‚©‚µ‚½‚η‚Ώε‚ª•ª‚©‚ι‚©‚ΰ‚µ‚κ‚Θ‚Ά‚Ύ‚λHv
-
 
 @mikan			#•’Κ
 
-
+#u‚¦ccHv
 —‚έ‚©‚ρ,A01360
-u‚¦ccHv
 
 –Ϊ“I‚πϋ‚Ι‚µ‚Θ‚ª‚ηΰ•z‚πJ‚­‚Ζccc—\‘z‚πγ‰ρ‚ι–D‚Α‚Υ‚θB
 
+#u‚·‚²‚Ά‚Θcc‚±‚Μ•si‹C‚Θ’†‚ΕA‰½‚Ε‚±‚ρ‚Θ‹Η’n‚Ι•‘ς‚³‚ρ‚ª–§W‚µ‚Δ‚ι‚ρ‚Ύ‚©v
 —χ
-u‚·‚²‚Ά‚Θcc‚±‚Μ•si‹C‚Θ’†‚ΕA‰½‚Ε‚±‚ρ‚Θ‹Η’n‚Ι•‘ς‚³‚ρ‚ª–§W‚µ‚Δ‚ι‚ρ‚Ύ‚©v
 
 ƒJ[ƒhƒ|ƒPƒbƒg‚Ι–Ϊ‚πό‚―‚ι‚ΖA‚·‚®–Ζ‹–Ψ‚π”­©‚Ε‚«‚½B
 
+#u‚Ω‚ηA”­©B‚±‚Μ‹ί‚Μl‚έ‚½‚Ά‚Ύ‚Θv
 —χ
-u‚Ω‚ηA”­©B‚±‚Μ‹ί‚Μl‚έ‚½‚Ά‚Ύ‚Θv
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚ν‚ƒbA‚»‚Α‚©‚I@‚¨Z‚Ώ‚α‚ρ“ª—Η‚ΆIv
 —‚έ‚©‚ρ,A01361
-u‚ν‚ƒbA‚»‚Α‚©‚I@‚¨Z‚Ώ‚α‚ρ“ª—Η‚ΆIv
 
+#u’ΌΪ“Ν‚―‚Ιs‚­‚©B‚·‚®‹ί‚­‚Ύ‚µv
 —χ
-u’ΌΪ“Ν‚―‚Ιs‚­‚©B‚·‚®‹ί‚­‚Ύ‚µv
-
 
 @mikan_warai		#Ξ
 
-
+#u‚¤‚ρτv
 —‚έ‚©‚ρ,A01362
-u‚¤‚ρτv
 
 ΄S‚·‚ι‚έ‚©‚ρ‚πA‚κAƒIƒ’B‚Ν‹AH‚©‚ηO‚κ‚½e“Ή‚Φ‚Ζ“ό‚Α‚Δ‚Ά‚Α‚½B
 
-
 #΅BGiƒuƒ‰ƒbƒNj
 @bg_black
-
 
 ccccccc
 
@@ -2619,51 +2185,43 @@ label	mikan_tachi_8b
 
 ’T‚µ“–‚Δ‚½‰Ζ‚ΕAΰ•z‚Με‚Ι‹ƒ‚«‚»‚¤‚Θ‚­‚η‚Ά΄Σ‚³‚κAƒIƒ‚Ζ‚έ‚©‚ρ‚Ν‚»‚Μκ‚πγ‚·‚ιB
 
-
 @mikan_small		# ‰“‚Ά
 @mikan_kusyou		#‹κΞ
 #΅iZ‘ξXj
 @bg_jyuutakugai		# Z‘ξX
 
-
+#u‚Σ‚£A–³–‚Ι“n‚Ή‚Δ‚ζ‚©‚Α‚½‚ΛB‰½‚©‚¨‚έ‚β‚°‚ά‚Ε–α‚Α‚Ώ‚α‚Α‚½‚µv
 —‚έ‚©‚ρ,A01363
-u‚Σ‚£A–³–‚Ι“n‚Ή‚Δ‚ζ‚©‚Α‚½‚ΛB‰½‚©‚¨‚έ‚β‚°‚ά‚Ε–α‚Α‚Ώ‚α‚Α‚½‚µv
 
+#u‚ ‚ B•Κ‚Ι‹Cg‚ν‚Θ‚­‚Δ‚ΰ—Η‚©‚Α‚½‚ρ‚Ύ‚―‚Η‚Θv
 —χ
-u‚ ‚ B•Κ‚Ι‹Cg‚ν‚Θ‚­‚Δ‚ΰ—Η‚©‚Α‚½‚ρ‚Ύ‚―‚Η‚Θv
 
 •ο‘•†‚Ι•ο‚ά‚κ‚½Κ‚π•ψ‚¦‚Θ‚ª‚ηAπ‚µ‚»‚¤‚Ι‚έ‚©‚ρ‚ΝΞη‚π—λ‚µ‚Δ‚Ά‚½B
 
-
 @mikan_warai		#Ξ
 
-
+#u‚¦‚Φ‚ΦAƒNƒbƒL[‚Ύ‚Α‚ΔB‚έ‚©‚ρƒNƒbƒL[‘εD‚«τv
 —‚έ‚©‚ρ,A01364
-u‚¦‚Φ‚ΦAƒNƒbƒL[‚Ύ‚Α‚ΔB‚έ‚©‚ρƒNƒbƒL[‘εD‚«τv
 
+#u‚β‚Α‚Ο‚θ—Η‚Ά–‚π‚µ‚½γ‚Ν‚¨—η‚ª‚ ‚ι‚ρ‚Ύ‚ΛB“Ν‚―‚Δ‚ζ‚©‚Α‚½v
 —‚έ‚©‚ρ,A01365
-u‚β‚Α‚Ο‚θ—Η‚Ά–‚π‚µ‚½γ‚Ν‚¨—η‚ª‚ ‚ι‚ρ‚Ύ‚ΛB“Ν‚―‚Δ‚ζ‚©‚Α‚½v
 
 “Ν‚―‚Θ‚―‚κ‚Ξ‘Sz©•ª’B‚Μ•¨‚Ύ‚Α‚½‚―‚Η‚Θccc‚ΖA•‚Ά‚±‚Ζ‚ΰκul‚¦‚Δ‚µ‚ά‚Α‚½‚ªB
 
 ‚ά‚ν―‚Εl‚¦‚Δ—Η‚Ά‚±‚Ζ‚π‚µ‚½‚ρ‚Ύ‚©‚ηA‚ΰ‚Α‚ΖƒIƒ‚ΰ‘f’Ό‚Ιμ‚ρ‚Ύ‚Ω‚¤‚ª‚Ά‚Ά‚Ύ‚λ‚¤B
 
+#u‚Ά‚Ώ‚²‚ªμ‚Ρ‚»‚¤‚Ύ‚ΘB‚³‚Α‚»‚­‹A‚Α‚½‚η”ό‰J‚Ι‚¨’ƒ‚Ε‚ΰ“ό‚κ‚Δ‚ΰ‚η‚¤‚©v
 —χ
-u‚Ά‚Ώ‚²‚ªμ‚Ρ‚»‚¤‚Ύ‚ΘB‚³‚Α‚»‚­‹A‚Α‚½‚η”ό‰J‚Ι‚¨’ƒ‚Ε‚ΰ“ό‚κ‚Δ‚ΰ‚η‚¤‚©v
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚¤‚ρƒbI@y‚µ‚έτv
 —‚έ‚©‚ρ,A01366
-u‚¤‚ρƒbI@y‚µ‚έτv
 
 ΰ•z‚πE‚¤‘O‚ζ‚θy‚Ά‘«ζ‚θ‚ΕAƒIƒ’B‚Ν‰ΖH‚Ι’…‚Ά‚½B
 
-
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xUP•‚ ‚½‚άUP
@@ -2672,58 +2230,47 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #--------------------------
 #i‚Rj‚έ‚©‚ρD΄“xDOWN•‹ΰUP
 label	mikan_tachi_8c
 #--------------------------
 
-
+#ucccv
 —χ
-ucccv
 
+#ucc‚¨Z‚Ώ‚α‚ρHv
 —‚έ‚©‚ρ,A01367
-ucc‚¨Z‚Ώ‚α‚ρHv
 
 ΰ•z‚π‚Α‚ΔΕ‚ά‚Α‚½ƒIƒ‚ΙAƒ‚Θ“µ‚ªό‚―‚η‚κ‚½B
 
+#i‚¤`‚ρccί«΄‚Ν‚Θ‚Ά‚±‚Ζ‚ΰ–³‚Ά‚ªA‚µ‚©‚µ‚±‚ΜD‚Μd‚³‚Ν—Uf‚Μd‚³cj
 —χ
-i‚¤`‚ρccί«΄‚Ν‚Θ‚Ά‚±‚Ζ‚ΰ–³‚Ά‚ªA‚µ‚©‚µ‚±‚ΜD‚Μd‚³‚Ν—Uf‚Μd‚³cj
 
+#ucccv
 —χ
-ucccv
 
 ccƒTƒTƒbB
 
-
 @mikan_odoroki		#‹Α
 
-
+#u‚ ƒbI@‚ ‚ [[[ƒbƒbIIIv
 —‚έ‚©‚ρ,A01368
-u‚ ƒbI@‚ ‚ [[[ƒbƒbIIIv
 
+#uƒVƒBƒbA‚έ‚©‚ρccI@–Ω‚Α‚Δ‚κ‚Ξ•ª‚©‚η‚Θ‚Ά‚Α‚Δv
 —χ
-uƒVƒBƒbA‚έ‚©‚ρccI@–Ω‚Α‚Δ‚κ‚Ξ•ª‚©‚η‚Θ‚Ά‚Α‚Δv
 
 ‰ω‚Ιΰ•z‚π‚µ‚ά‚Ά‚±‚ήƒIƒ‚ΙA‚έ‚©‚ρ‚ª”ί–Β‚Ι‚ΰ‹ί‚ΆΊ‚π‚γ‚°‚½B
 
+#uγ‚Ε‚έ‚©‚ρ‚Ι‚ΰ‰½‚©”ƒ‚Α‚Δ‚β‚ι‚©‚ηB‚ΘHv
 —χ
-uγ‚Ε‚έ‚©‚ρ‚Ι‚ΰ‰½‚©”ƒ‚Α‚Δ‚β‚ι‚©‚ηB‚ΘHv
-
 
 @mikan_komikaru_kanashimi	#ƒRƒ~ƒJƒ‹£
 
-
+#u‚¨Z‚Ώ‚α‚ρ‚ªIv
 —‚έ‚©‚ρ,A01369
-u‚¨Z‚Ώ‚α‚ρ‚ªIv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F‚Ύ‚Ύ‚±‚Λ
@@ -2739,12 +2286,10 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚¨Z‚Ώ‚α‚ρ‚ª[[IIv
 —‚έ‚©‚ρ,A01370
-u‚¨Z‚Ώ‚α‚ρ‚ª[[IIv
 
 ‚Ά‚©‚ρA‚©‚Θ‚θƒVƒ‡ƒbƒN‚ª‘ε‚«‚­‚Δφ—‚µ‚Δ‚ιB
-
 
 #///////////////////////////////////////////////////////
 layer_movepass_add	l_mikan,0,	200,	0,32
@@ -2753,26 +2298,21 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚ν[[[ƒbA‚¨Z‚Ώ‚α[[[‚ρIIIv
 —‚έ‚©‚ρ,A01371
-u‚ν[[[ƒbA‚¨Z‚Ώ‚α[[[‚ρIIIv
-
 
 @mikan_
 #SE34@O‚Ε‘–‚θ‹‚ι‰Ή
 @SE34			#SE34@O‚Ε‘–‚θ‹‚ι‰Ή
 
-
+#u‚ ‚ΑA‚±‚η‘Ò‚Δ‚έ‚©‚ρIIv
 —χ
-u‚ ‚ΑA‚±‚η‘Ò‚Δ‚έ‚©‚ρIIv
 
 ‚»‚κ‚©‚η”\•ªB‚»‚Μ‚ά‚άƒtƒF[ƒhƒAƒEƒg‚µ‚Δ‚Ά‚­‚έ‚©‚ρ‚Ζ‚Μ’Η‚Ά‚©‚―‚Α‚±‚π‘±‚―‚ι‰H–Ϊ‚Ι‚Θ‚Α‚½B
-
 
 se_stop		0
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xDOWN•‹ΰUP
@@ -2780,63 +2320,47 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_9	#------------------------------------------------------
 #”­¶F•s–Ύ
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGi}‘Ίj
 @bg_library		# }‘Ί
 
-
 wZ‚Ε©KΤ‚Ι“Η‚ή–{‚π‘I‚Τ‚Ζ‚Ά‚¤‚±‚Ζ‚ΕA‚έ‚©‚ρ‚Ζκ‚Ι}‘Ί‚Φ‚Ζ‚β‚Α‚Δ—‚½B
-
 
 @mikan_middle		# ’†Τ
 @mikan_odoroki		#‹Α
 
-
+#u‚¤‚ν‚A‚β‚Α‚Ο‚θ‘½‚Ά‚Λ‚¥ccB‚Η‚κ‚Α‚Δs‚±‚¤‚©‚Θ‚v
 —‚έ‚©‚ρ,A01372
-u‚¤‚ν‚A‚β‚Α‚Ο‚θ‘½‚Ά‚Λ‚¥ccB‚Η‚κ‚Α‚Δs‚±‚¤‚©‚Θ‚v
-
 
 @mikan_
 
-
 w}‘Ίx‚Μ–Ό‚Ι’p‚¶‚Κ‘ ‘‚Μ‘½‚³‚ΙA‚έ‚©‚ρ‚Ν³“|‚³‚κ‚Δ‚Ά‚ιB
 
+#u‚Ά‚Β‚ΰ‚Ν‚Η‚ρ‚Θ–{‚π“Η‚ρ‚Ε‚ι‚ρ‚ΎHv
 —χ
-u‚Ά‚Β‚ΰ‚Ν‚Η‚ρ‚Θ–{‚π“Η‚ρ‚Ε‚ι‚ρ‚ΎHv
-
 
 @mikan_small		# ‰“‚Ά
 @mikan			#•’Κ
 
-
+#u‚¦‚Α‚Ζccc–‰ζv
 —‚έ‚©‚ρ,A01373
-u‚¦‚Α‚Ζccc–‰ζv
 
+#u‚»‚θ‚αwZ‚Ι‚Ν‚Α‚Δ‚Ά‚―‚Θ‚Ά‚Θ‚ccv
 —χ
-u‚»‚θ‚αwZ‚Ι‚Ν‚Α‚Δ‚Ά‚―‚Θ‚Ά‚Θ‚ccv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#uκϋ‚Έ‚Βm‚©‚ί‚ζ‚¤‚Ζv‚Α‚½‚―‚ΗA‚±‚κ‚¶‚α“ϊ‚ª•ι‚κ‚Ώ‚α‚¤‚ΛB‚Η‚¤‚µ‚ζ‚¤v
 —‚έ‚©‚ρ,A01374
-uκϋ‚Έ‚Βm‚©‚ί‚ζ‚¤‚Ζv‚Α‚½‚―‚ΗA‚±‚κ‚¶‚α“ϊ‚ª•ι‚κ‚Ώ‚α‚¤‚ΛB‚Η‚¤‚µ‚ζ‚¤v
 
 θ‹ί‚Θ–{‚πƒpƒ‰ƒpƒ‰‚Ζ‚ί‚­‚θ‚Θ‚ª‚ηA‚Μ‘½‚³‚Ι—­‚ί‘§‚π“f‚­‚έ‚©‚ρB
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -2847,26 +2371,20 @@ if sel=0 then goto mikan_tachi_9a
 if sel=1 then goto mikan_tachi_9b
 #--------------------------------------------------
 
-
 #-----------------------------------------
 #i‚Pj’²‹³is“x‚Ι‚ζ‚Α‚ΔƒIƒiƒj[ƒtƒ‰ƒOH
 label	mikan_tachi_9a
 #-----------------------------------------
 
-
 ‘I‚ρ‚Ε‚β‚ι‚±‚Ζ‚ΰo—‚½‚ªA‚β‚Ν‚θ‚±‚κ‚­‚η‚Ά‚Ν©•ª‚Ε‚β‚η‚Ή‚Θ‚Ά‚ΖB
 
-
+#u–{’I‚Μγ‚ΙƒWƒƒƒ“ƒ‹‚ª‘‚Ά‚Δ‚ ‚ι‚Ύ‚λH@‚»‚κ‚π©‚Δ‚ά‚Έ‚Ν‘I‚Τ‚ρ‚Ύ‚ζv
 —χ
-u–{’I‚Μγ‚ΙƒWƒƒƒ“ƒ‹‚ª‘‚Ά‚Δ‚ ‚ι‚Ύ‚λH@‚»‚κ‚π©‚Δ‚ά‚Έ‚Ν‘I‚Τ‚ρ‚Ύ‚ζv
-
 
 @mikan			#•’Κ
 
-
+#u‚ A‚Θ‚ι‚Ω‚Η[B‚¦‚Α‚Ζccv
 —‚έ‚©‚ρ,A01375
-u‚ A‚Θ‚ι‚Ω‚Η[B‚¦‚Α‚Ζccv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F•ΰ‚«
@@ -2915,65 +2433,53 @@ layer_move	l_mikan,200,40,4,0,0,PASSTYPE_LINEAR
 wait		1000
 #///////////////////////////////////////////////////////
 
-
 –{’I‚ΜΤ‚π–D‚Ά‚Θ‚ª‚ηƒEƒƒEƒ‚Ζ‚³–ΐ‚Ά•ΰ‚­B
 
+#i‚³‚ΔAΤ‚©‚©‚ι‚Ύ‚λ‚¤‚©‚ηBƒIƒ‚ΰ‰½‚©–{‚Ε‚ΰ“Η‚ρ‚Εcccj
 —χ
-i‚³‚ΔAΤ‚©‚©‚ι‚Ύ‚λ‚¤‚©‚ηBƒIƒ‚ΰ‰½‚©–{‚Ε‚ΰ“Η‚ρ‚Εcccj
-
 
 @mikan_warai		#Ξ
 
-
+#u‚ At‚Μ‰ζ‚Α‚ΔAG–{‚©‚ΘHv
 —‚έ‚©‚ρ,A01376
-u‚ At‚Μ‰ζ‚Α‚ΔAG–{‚©‚ΘHv
-
 
 #SE53@‚Β‚­Ύ—tiƒOƒTƒbIj
 @SE53			#SE53@‚Β‚­Ύ—tiƒOƒTƒbIj
 
-
+#u‚ªƒbIHv
 —χ
-u‚ªƒbIHv
 
 –{’I‚Μ‰‚ά‚Εi‚ρ‚Ύ‚έ‚©‚ρ‚ΜΊ‚ΙAv‚ν‚Έ•Ο‚Θ’f–––‚‚ªR‚κ‚½B
 
+#i‚¤‚©‚Β‚ΘƒbII@–{’I‚Μ‰‚Ι‚»‚¤‚Ά‚¤ƒR[ƒi[‚ª‚ ‚ι‚Μ‚π–Y‚κ‚Δ‚½IIj
 —χ
-i‚¤‚©‚Β‚ΘƒbII@–{’I‚Μ‰‚Ι‚»‚¤‚Ά‚¤ƒR[ƒi[‚ª‚ ‚ι‚Μ‚π–Y‚κ‚Δ‚½IIj
 
 ƒGƒ–{‚Ζ‘‚―‚Ξ‚Ά‚Ά‚Μ‚Ι‡€t‰ζ–{‡‚Ζ‚©‚Ά‚¤•ª‚©‚θ“ο‚Ά‘Μ‚ΕAƒIƒ‚ΰ‰‚ί‚ΝΤα‚¦‚½«–‚‚ΜƒR[ƒi[‚ªcc
-
 
 se_stop		0
 @mikan			#•’Κ
 
-
+#u‚¦‚Α‚Ζ‚§ccv
 —‚έ‚©‚ρ,A01377
-u‚¦‚Α‚Ζ‚§ccv
 
+#u‘Ò‚Δ‚έ‚©‚ρƒbA‚»‚Μt‚Ν‚¨‘O‚Νv‚Α‚Δ‚Ά‚ι‚ζ‚¤‚Θƒ^γY—ν‚Θ“ϊ–{‚Μt‚¶‚α‚Θ‚Ά‚ρ‚ΎIIv
 —χ
-u‘Ò‚Δ‚έ‚©‚ρƒbA‚»‚Μt‚Ν‚¨‘O‚Νv‚Α‚Δ‚Ά‚ι‚ζ‚¤‚Θƒ^γY—ν‚Θ“ϊ–{‚Μt‚¶‚α‚Θ‚Ά‚ρ‚ΎIIv
 
 ’†g‚π©‚ι‘O‚Ι~‚ί‚ι‚ζ‚¤‚ΖA‚»‚ΜƒR[ƒi[‚Φ”ς‚Ρ‚ήƒIƒcc
-
 
 #CHi‚έ‚©‚ρ–jgj
 @mikan2			#—~ξ_•’Κ
 
-
+#ucccv
 —‚έ‚©‚ρ,A01378
-ucccv
-
 
 #SE75@ƒVƒ‡ƒbƒN‰ΉiƒK[[ƒ“Ij
 @SE75			#SE75@ƒVƒ‡ƒbƒN‰ΉiƒK[[ƒ“Ij
 
-
+#u‚¤‚νƒbA’x‚©‚Α‚½‚©ccv
 —χ
-u‚¤‚νƒbA’x‚©‚Α‚½‚©ccv
 
 ‚Ύ‚ªA‚·‚Ε‚Ι’†‚π”`‚«‚±‚ρ‚ΕΕ‚ά‚Α‚Δ‚Ά‚ι‚έ‚©‚ρ‚Μp‚ª‚ ‚Α‚½B
-
 
 @mikan_komikaru_kanashimi	#ƒRƒ~ƒJƒ‹£
 #///////////////////////////////////////////////////////
@@ -2990,150 +2496,125 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 se_stop		0
 
-
+#u‚¨A‚¨‚¨‚¨A‚¨Z‚Ώ‚α‚ρ‚Αcct‚Μ’I‚ΙA‚±‚ρ‚Θ–{‚ªccIv
 —‚έ‚©‚ρ,A01379
-u‚¨A‚¨‚¨‚¨A‚¨Z‚Ώ‚α‚ρ‚Αcct‚Μ’I‚ΙA‚±‚ρ‚Θ–{‚ªccIv
 
+#u‚έ‚©‚ρB‚»‚κ‚ΰ—§”h‚Θ‘εl‚Μt‚Θ‚ρ‚Ύv
 —χ
-u‚έ‚©‚ρB‚»‚κ‚ΰ—§”h‚Θ‘εl‚Μt‚Θ‚ρ‚Ύv
 
+#u‚Ω‚ηA‚β‚Α‚Ο‚θƒIƒ‚ª‘I‚ρ‚Ε‚β‚ι‚©‚ηBό‚±‚¤‚Ιs‚±‚¤v
 —χ
-u‚Ω‚ηA‚β‚Α‚Ο‚θƒIƒ‚ª‘I‚ρ‚Ε‚β‚ι‚©‚ηBό‚±‚¤‚Ιs‚±‚¤v
 
+#u‚Ε‚Ε‚ΑA‚Ε‚ΰƒbcc‚±‚Μ—‚ΜlA‚Η‚¤‚µ‚Δ‚±‚ρ‚Θ‚±‚Ζ‚³‚κ‚Δμ‚ρ‚Ε‚ι‚ΜccIHv
 —‚έ‚©‚ρ,A01380
-u‚Ε‚Ε‚ΑA‚Ε‚ΰƒbcc‚±‚Μ—‚ΜlA‚Η‚¤‚µ‚Δ‚±‚ρ‚Θ‚±‚Ζ‚³‚κ‚Δμ‚ρ‚Ε‚ι‚ΜccIHv
 
+#u‚±A‚±‚±A‚±‚ρ‚Θ‚ΜA‚¨K‚ª‰σ‚κ‚Ώ‚α‚¤‚ζ‚§ccIHv
 —‚έ‚©‚ρ,A01381
-u‚±A‚±‚±A‚±‚ρ‚Θ‚ΜA‚¨K‚ª‰σ‚κ‚Ώ‚α‚¤‚ζ‚§ccIHv
 
+#u‚ζ‚θ‚Ι‚ζ‚Α‚ΔƒRƒA‚Θ•¨‚πƒbv
 —χ
-u‚ζ‚θ‚Ι‚ζ‚Α‚ΔƒRƒA‚Θ•¨‚πƒbv
 
 ƒ`ƒ‰ƒb‚Ζ”`‚­”w•\†‚Ι‚ΝAwƒAƒiƒ‹x‚Ζ‚©w”j‰σx‚Ζ‚©‚Ά‚¤i‹C‚Μ—Η‚Ά•¶‘Μ‚ª–τ‚θ‹¶‚Α‚Δ‚Ά‚½B
 
+#u‚έ‚©‚ρcc‘εl‚Μt‚Ύv
 —χ
-u‚έ‚©‚ρcc‘εl‚Μt‚Ύv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#uiƒSƒNƒbjcc‚¨A‘εl‚Μtv
 —‚έ‚©‚ρ,A01382
-uiƒSƒNƒbjcc‚¨A‘εl‚Μtv
 
 ‚Ά‚βAβ‘Ξα‚¤‚Ζv‚¤‚ªcc
 
 ‚Ζ‚θ‚ ‚¦‚Έ΅‚Ν‚±‚ρ‚Θ”™‘R‚Ζ‚µ‚½“‚¦‚µ‚©•Τ‚Ή‚Θ‚ΆB
 
-
 bgm_stop
 #΅BGiƒuƒ‰ƒbƒNj
 @bg_black
 
-
 ‹‹Η‚»‚ΜγA‚έ‚©‚ρ‚Ι‚Ν–³“ο‚Θ’Z•Ò¬ΰ‚π‘I‚ρ‚Ε‚ ‚°‚½‚ªcc
 
+#uccciƒ`ƒ‰ƒbAƒ`ƒ‰ƒbjv
 —‚έ‚©‚ρ,A01383
-uccciƒ`ƒ‰ƒbAƒ`ƒ‰ƒbjv
 
 ‚ζ‚Α‚Ϋ‚Η‹C‚Ι‚Θ‚ι‚Μ‚©A‚ά‚Ύƒ`ƒ‰ƒ`ƒ‰‚Ζ‚»‚Μ’I‚Φ‚Ζ‹ό‚π‘—‚ι‚έ‚©‚ρ‚Ύ‚Α‚½B
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #-----------------------------------------
 #i‚Qj‚έ‚©‚ρD΄“xUP
 label	mikan_tachi_9b
 #-----------------------------------------
 
-
 ‰φ‚µ‚°‚Θ–{‚ΰ‘½”¬‚΄‚Α‚Δ‚ι}‘Ί‚ΎB
 
 •Ο‚Θ‚ΰ‚Μ‚π‘I‚Ξ‚Ή‚Θ‚Ά‚ζ‚¤AƒIƒ‚ª‚ί‚Δ‚β‚ι‚Χ‚«‚Ύ‚ΘB
 
+#u‚β‚Α‚Ο‚θA–³“ο‚Ι¬ΰ‚ª‚Ά‚Ά‚Ύ‚λB’Z•Ò‚Μv
 —χ
-u‚β‚Α‚Ο‚θA–³“ο‚Ι¬ΰ‚ª‚Ά‚Ά‚Ύ‚λB’Z•Ò‚Μv
-
 
 @mikan_kanashimi	#£
 
-
+#u‚¤`‚ρcccv
 —‚έ‚©‚ρ,A01384
-u‚¤`‚ρcccv
 
 –‰ζ’†S‚Μ‚έ‚©‚ρ‚ª•Τ–‚πa‚ιB
 
 µ‚κ‚µ‚Δ‚Ά‚Θ‚Ά‚Μ‚π”O“ª‚Ι‘I‚ρ‚Ύκϋ‚πA‚έ‚©‚ρ‚Ι“n‚µ‚Δ‚έ‚½B
 
+#u‚Ω‚ηA‚±‚κ‚Θ‚ηƒy[ƒW‚ΰ”–‚Ά‚µA•¶‚ΰ‘ε‚«‚Ά‚©‚η©‚β‚·‚»‚¤‚Ύ‚λHv
 —χ
-u‚Ω‚ηA‚±‚κ‚Θ‚ηƒy[ƒW‚ΰ”–‚Ά‚µA•¶‚ΰ‘ε‚«‚Ά‚©‚η©‚β‚·‚»‚¤‚Ύ‚λHv
-
 
 @mikan			#•’Κ
 
-
+#u‚¦‚Α‚Ζccv
 —‚έ‚©‚ρ,A01385
-u‚¦‚Α‚Ζccv
 
 ƒyƒ‰Aƒyƒ‰cc
 
+#u’j‚Ν•‰z‚µ‚Ι“ϋ–[‚π’T‚θ‚Θ‚ª‚ηcc”½‘Ξ‚Μθ‚π‚δ‚Α‚­‚θ‰Ί”Όg‚Φccv
 —‚έ‚©‚ρ,A01386
-u’j‚Ν•‰z‚µ‚Ι“ϋ–[‚π’T‚θ‚Θ‚ª‚ηcc”½‘Ξ‚Μθ‚π‚δ‚Α‚­‚θ‰Ί”Όg‚Φccv
-
 
 #//ƒtƒ‰ƒbƒVƒ…
 #screen_flash		500
 #SE66@ψ‰Κ‰Ή‚PiƒrƒVƒbIj
 @SE66			#ψ‰Κ‰Ή‚PiƒrƒVƒbIj¦κ–Κ‚π‹­’²‚µ‚½‚θ‚·‚ιψ‰Κ‰Ή
 
-
 ƒoƒVƒbII
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚ν‚ΑIHv
 —‚έ‚©‚ρ,A01387
-u‚ν‚ΑIHv
 
 ©•ª‚Ε‚ΰ‹Α‚«‚Μ¨‚Ά‚ΕA‚έ‚©‚ρ‚Μθ‚©‚η–{‚π’D‚Άζ‚Α‚Δ‚Ά‚½B
 
-
 se_stop		0
 
-
+#u‚ΗA‚Η‚¤‚µ‚½‚ΜccIHv
 —‚έ‚©‚ρ,A01388
-u‚ΗA‚Η‚¤‚µ‚½‚ΜccIHv
 
+#u‚ΆA‚Ά‚βA‚Θ‚ρ‚Ε‚ΰ‚Θ‚ΆB‰½‚Ε‚ΰccv
 —χ
-u‚ΆA‚Ά‚βA‚Θ‚ρ‚Ε‚ΰ‚Θ‚ΆB‰½‚Ε‚ΰccv
-
 
 @mikan			#•’Κ
 
-
+#ucccHv
 —‚έ‚©‚ρ,A01389
-ucccHv
 
+#i‚ζ‚θ‚Ι‚ζ‚Α‚Δ―”\¬ΰcc‚Ώ‚α‚ρ‚Ζ‰‚Μκ—pƒR[ƒi[‚Ι••σ‚µ‚Δ‚¨‚―‚ζ‚Θccj
 —χ
-i‚ζ‚θ‚Ι‚ζ‚Α‚Δ―”\¬ΰcc‚Ώ‚α‚ρ‚Ζ‰‚Μκ—pƒR[ƒi[‚Ι••σ‚µ‚Δ‚¨‚―‚ζ‚Θccj
 
 sX’n‚Ι’n—‹‚ª–„‚ά‚Α‚Δ‚ι‚έ‚½‚Ά‚ΙA‚½‚ά‚Ικ”ΚƒR[ƒi[‚Ι‚ά‚Ε‚±‚¤‚Ά‚¤‚Μ‚ªgU‚µ‚Δ‚ι‚ρ‚ΎB
 
+#u•Κ‚Μ–{‚Ι‚µ‚ζ‚¤ccƒIƒ‚Μ’m‚Α‚Δ‚ι–{‚Μ’†‚©‚η‘I‚ρ‚Ε‚έ‚ι‚©ccv
 —χ
-u•Κ‚Μ–{‚Ι‚µ‚ζ‚¤ccƒIƒ‚Μ’m‚Α‚Δ‚ι–{‚Μ’†‚©‚η‘I‚ρ‚Ε‚έ‚ι‚©ccv
 
 cc΅“xΤ‚Μ‚ ‚ι‚Ι‚Ε‚ΰA‚Ώ‚α‚ρ‚Ζ®—‚µ‚Θ‚¨‚µ‚Δ‚¨‚©‚Θ‚Ά‚Ζ‚ΘB
 
-
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xUP
@@ -3141,138 +2622,114 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_10	#-----------------------------------------------------
 #‚έ‚©‚ρ‹x‰Ι‘I‘π“ϊ‚Ι”­¶B‘Μ±”ΕϊΤά‚ή‘‚Ά‚¤‚Ώ
 #------------------------------------------------------------
 
-
 #@bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGi¤“XXj
 @bg_syoutengai		# ¤“XX
-
 
 ‰“—¶‚·‚ι”ό‰J‚©‚η‹­ψ‚Ι‚¨g‚Ά‚πψ‚«σ‚―‚½‹A‚θB
 
 ‚έ‚©‚ρ‚Ζ‚Ά‚Ώ‚²‚π¤“XX‚Ε”­©‚µ‚½B
 
+#u‚έ‚©‚ρ‚Ι‚Ά‚Ώ‚²A“ρl‚Ζ‚ΰ”ƒ‚Ά•¨‚©Hv
 —χ
-u‚έ‚©‚ρ‚Ι‚Ά‚Ώ‚²A“ρl‚Ζ‚ΰ”ƒ‚Ά•¨‚©Hv
-
 
 @bgm03			#BGM 03 : ‚Ά‚Ώ‚²‚Μƒe[ƒ}
 @ichigo_yorokobi	#μ
 @mikan_yorokobi		#μ
 
-
+#u‚ Aƒpƒp‚ΎB΅‚ΛA‚έ‚©‚ρ‚ΙX‚πΔ“ΰ‚µ‚Δ‚ι‚Ζ‚±‚λ‚Ύ‚ζv
 —‚Ά‚Ώ‚²,O01744
-u‚ Aƒpƒp‚ΎB΅‚ΛA‚έ‚©‚ρ‚ΙX‚πΔ“ΰ‚µ‚Δ‚ι‚Ζ‚±‚λ‚Ύ‚ζv
 
+#u‚±‚±‚Μ‚¨“X‚Μκ‚ª‚ά‚Ύ—Η‚­•ª‚©‚η‚Θ‚Ά‚©‚ηA‚έ‚©‚ρ‚ª‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Ι‚¨θ‚Ά‚µ‚Δ‚ι‚Μv
 —‚έ‚©‚ρ,A01390
-u‚±‚±‚Μ‚¨“X‚Μκ‚ª‚ά‚Ύ—Η‚­•ª‚©‚η‚Θ‚Ά‚©‚ηA‚έ‚©‚ρ‚ª‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚Ι‚¨θ‚Ά‚µ‚Δ‚ι‚Μv
 
+#u‚έ‚©‚ρ‚Ν‚±‚ΜX‰‚ί‚Δ‚Ύ‚ΰ‚ρ‚ΘB‰½‚©‹C‚Ι“ό‚θ‚»‚¤‚Θ“X‚Ν‚ ‚Α‚½Hv
 —χ
-u‚έ‚©‚ρ‚Ν‚±‚ΜX‰‚ί‚Δ‚Ύ‚ΰ‚ρ‚ΘB‰½‚©‹C‚Ι“ό‚θ‚»‚¤‚Θ“X‚Ν‚ ‚Α‚½Hv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚¤`‚ρcc‚¨“X‚Ν‚Ά‚Α‚Ο‚Ά‚ ‚ι‚ρ‚Ύ‚―‚Ηv
 —‚έ‚©‚ρ,A01391
-u‚¤`‚ρcc‚¨“X‚Ν‚Ά‚Α‚Ο‚Ά‚ ‚ι‚ρ‚Ύ‚―‚Ηv
 
 ‚Ά‚Β‚ΰ‚Μ‹C‚Ώ‚ζ‚Ά•Τ–‚πϊ‘Ò‚µ‚Δ‚Ά‚½‚ªA‚έ‚©‚ρ‚ΝΆ‚Α‚½‚ζ‚¤‚Ι‹κΞ‚ΆB
 
-
 @ichigo_odoroki		#‹Α
 
-
+#u‚ A‚έ‚©‚ρI@‚ ‚κ‚ΰ–Κ”’‚»‚¤ƒbAs‚±s‚±IIv
 —‚Ά‚Ώ‚²,O01745
-u‚ A‚έ‚©‚ρI@‚ ‚κ‚ΰ–Κ”’‚»‚¤ƒbAs‚±s‚±IIv
-
 
 @ichigo_
 #SE34@O‚Ε‘–‚θ‹‚ι‰Ή
 @SE34			#SE34@O‚Ε‘–‚θ‹‚ι‰Ή
 
-
 Δ“ΰ–π‚Μ‚Ν‚Έ‚Μ‚Ά‚Ώ‚²‚ª‚έ‚©‚ρ‚π’u‚Ά‚ΔA”¬ζ‚Μ‚¨‚ΰ‚Ώ‚α‰®‚Φ‚Ζ‘–‚Α‚Δ‚Ά‚Α‚½B
 
+#uQ‚µ‚­‚Δ‚Η‚κ‚ª‚Η‚Μ‚¨“X‚©‚ζ‚­o‚¦‚Δ‚Θ‚Ά‚Μv
 —‚έ‚©‚ρ,A01392
-uQ‚µ‚­‚Δ‚Η‚κ‚ª‚Η‚Μ‚¨“X‚©‚ζ‚­o‚¦‚Δ‚Θ‚Ά‚Μv
 
+#u‚Θ‚ι‚Ω‚Ηv
 —χ
-u‚Θ‚ι‚Ω‚Ηv
-
 
 se_stop		0
 
-
+#u‚±‚ΜƒQ[ƒ€–Κ”’‚»‚¤`I@‚Ά‚Ά‚Θ‚v
 —‚Ά‚Ώ‚²,O01746
-u‚±‚ΜƒQ[ƒ€–Κ”’‚»‚¤`I@‚Ά‚Ά‚Θ‚v
 
+#u‚ ƒbI@‚ ‚Μ‚¨‰Τ‚«‚κ[Iv
 —‚Ά‚Ώ‚²,O01747
-u‚ ƒbI@‚ ‚Μ‚¨‰Τ‚«‚κ[Iv
 
+#u‚ν`I@‚±‚Α‚Ώ‚Μ‚¨“XA‚·‚²‚­‰Β¤‚ΆƒoƒbƒN‚ª‚ ‚ι[τv
 —‚Ά‚Ώ‚²,O01748
-u‚ν`I@‚±‚Α‚Ώ‚Μ‚¨“XA‚·‚²‚­‰Β¤‚ΆƒoƒbƒN‚ª‚ ‚ι[τv
 
 ”•ª‚Ζ“―‚¶κ‚Ι—―‚ά‚η‚ΈA½μ‚ΜΊ‚πγ‚°‚Θ‚ª‚η‘–‚θ‰ρ‚ι‚Ά‚Ώ‚²B
 
+#um‚©‚ΙA‚ ‚Μ‚Ά‚Ώ‚²‚ΙΔ“ΰ‚³‚κ‚Δ‚ΰAκ‚πm”F‚·‚ι‚δ‚Ζ‚θ‚Ν–³‚³‚»‚¤‚Ύv
 —χ
-um‚©‚ΙA‚ ‚Μ‚Ά‚Ώ‚²‚ΙΔ“ΰ‚³‚κ‚Δ‚ΰAκ‚πm”F‚·‚ι‚δ‚Ζ‚θ‚Ν–³‚³‚»‚¤‚Ύv
 
+#u‚ ‚Ν‚Νccv
 —‚έ‚©‚ρ,A01393
-u‚ ‚Ν‚Νccv
-
 
 @ichigo_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
 
-
+#u‚ΰ[I@‚έ‚©‚ρ‚ΰƒpƒp‚ΰ’x‚Ά[Iv
 —‚Ά‚Ώ‚²,O01749
-u‚ΰ[I@‚έ‚©‚ρ‚ΰƒpƒp‚ΰ’x‚Ά[Iv
 
+#u‘‚­‚µ‚Θ‚Ά‚ΖA‘S•”‰ρ‚ι‘O‚Ι“ϊ‚ª•ι‚κ‚Ώ‚α‚¤‚ζƒbv
 —‚Ά‚Ώ‚²,O01750
-u‘‚­‚µ‚Θ‚Ά‚ΖA‘S•”‰ρ‚ι‘O‚Ι“ϊ‚ª•ι‚κ‚Ώ‚α‚¤‚ζƒbv
 
+#u‘S•”‚Α‚Δ¤“XX’†‚π‰ρ‚ι‚Β‚ΰ‚θ‚©ccv
 —χ
-u‘S•”‚Α‚Δ¤“XX’†‚π‰ρ‚ι‚Β‚ΰ‚θ‚©ccv
 
+#u‚Ω‚ηAΔ“ΰ‚µ‚Δ‚ι‚ρ‚Θ‚ηA‚ΰ‚Α‚Ζ‚έ‚©‚ρ‚ΰy‚µ‚ά‚Ή‚Δ‚ ‚°‚Θ‚Ά‚Ζƒ_ƒ‚Ύ‚λ‚¤Hv
 —χ
-u‚Ω‚ηAΔ“ΰ‚µ‚Δ‚ι‚ρ‚Θ‚ηA‚ΰ‚Α‚Ζ‚έ‚©‚ρ‚ΰy‚µ‚ά‚Ή‚Δ‚ ‚°‚Θ‚Ά‚Ζƒ_ƒ‚Ύ‚λ‚¤Hv
 
+#u‚Ύ‚©‚ηζ’£‚Α‚Δ—Η‚³‚»‚¤‚Θ‚¨“X‚π‰ρ‚Α‚Δ‚ι‚Μ‚Ι[v
 —‚Ά‚Ώ‚²,O01751
-u‚Ύ‚©‚ηζ’£‚Α‚Δ—Η‚³‚»‚¤‚Θ‚¨“X‚π‰ρ‚Α‚Δ‚ι‚Μ‚Ι[v
-
 
 @ichigo_ikari		#“{
 
-
+#u‚»‚κ‚Ι‚Ά‚Ώ‚²‚Ύ‚Α‚Δ‹v‚µ‚Τ‚θ‚Ι—V‚Ρ‚Ι—‚½‚ρ‚Ύ‚©‚ηA‚Ά‚Α‚Ο‚Ά‚¨“X‚Ιs‚«‚½‚Ά‚ζ‚§Iv
 —‚Ά‚Ώ‚²,O01752
-u‚»‚κ‚Ι‚Ά‚Ώ‚²‚Ύ‚Α‚Δ‹v‚µ‚Τ‚θ‚Ι—V‚Ρ‚Ι—‚½‚ρ‚Ύ‚©‚ηA‚Ά‚Α‚Ο‚Ά‚¨“X‚Ιs‚«‚½‚Ά‚ζ‚§Iv
 
+#ucc‚Η‚±‚ά‚Ε‚ΰƒGƒlƒ‹ƒMƒbƒVƒ…‚Θv
 —χ
-ucc‚Η‚±‚ά‚Ε‚ΰƒGƒlƒ‹ƒMƒbƒVƒ…‚Θv
 
 –{‹C‚Ε΅“ϊ’†‚Ι¤“XX‚π–Τ—…‚µ‚Θ‚Ά‚Ζ—‚Ώ’…‚­‹C‚ª‚µ‚Θ‚ΆB
 
-
 @mikan_yorokobi		#μ
 
-
+#u‚¨Z‚Ώ‚α‚ρA‚έ‚©‚ρ‚ΰ•Κ‚Ι΅‚Μ‚ά‚ά‚Ε‚Ά‚Ά‚ζBκ‚Ν•sΐ‚Ύ‚―‚ΗA‚¨“X©‚Δ‰ρ‚ι‚Μ‚Νy‚µ‚Ά‚ΰ‚ρv
 —‚έ‚©‚ρ,A01394
-u‚¨Z‚Ώ‚α‚ρA‚έ‚©‚ρ‚ΰ•Κ‚Ι΅‚Μ‚ά‚ά‚Ε‚Ά‚Ά‚ζBκ‚Ν•sΐ‚Ύ‚―‚ΗA‚¨“X©‚Δ‰ρ‚ι‚Μ‚Νy‚µ‚Ά‚ΰ‚ρv
 
+#u‚»‚Α‚©H@‚ά‚“––Ò‚Μ‚έ‚©‚ρ‚ª‚»‚¤Ύ‚¤‚Θ‚η\‚ν‚Θ‚Ά‚―‚Ηv
 —χ
-u‚»‚Α‚©H@‚ά‚“––Ò‚Μ‚έ‚©‚ρ‚ª‚»‚¤Ύ‚¤‚Θ‚η\‚ν‚Θ‚Ά‚―‚Ηv
-
 
 @ichigo_warai		#Ξ
 #///////////////////////////////////////////////////////
@@ -3289,42 +2746,34 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚Λ‚¥‚Λ‚¥Aƒpƒp‚ΰs‚±‚¤‚ζ‚§B‘Ό‚Ι‚ΰ‚Ά‚Α‚Ο‚Ά‚¨“X’m‚Α‚Δ‚ι‚©‚ηv
 —‚Ά‚Ώ‚²,O01753
-u‚Λ‚¥‚Λ‚¥Aƒpƒp‚ΰs‚±‚¤‚ζ‚§B‘Ό‚Ι‚ΰ‚Ά‚Α‚Ο‚Ά‚¨“X’m‚Α‚Δ‚ι‚©‚ηv
 
+#u‚±‚ηA•‚πψ‚Α’£‚ι‚Θcc΅‚Ν‚¨g‚Ά‚ΜΕ’†‚Θ‚ρ‚Ύ‚ζv
 —χ
-u‚±‚ηA•‚πψ‚Α’£‚ι‚Θcc΅‚Ν‚¨g‚Ά‚ΜΕ’†‚Θ‚ρ‚Ύ‚ζv
-
 
 @ichigo_ikari		#“{
 
-
+#u‚¦[A‚¨g‚Ά‚Θ‚ρ‚Δγ‚Ε‚Ά‚Ά‚ζ‚§`Bκ‚Ι—V‚Ϊ‚¤‚ζƒpƒp`v
 —‚Ά‚Ώ‚²,O01754
-u‚¦[A‚¨g‚Ά‚Θ‚ρ‚Δγ‚Ε‚Ά‚Ά‚ζ‚§`Bκ‚Ι—V‚Ϊ‚¤‚ζƒpƒp`v
 
+#u”ό‰J‚Ι—‚ά‚κ‚½—[H‚Μή—Ώ‚Θ‚ρ‚Ύ‚―‚ΗHv
 —χ
-u”ό‰J‚Ι—‚ά‚κ‚½—[H‚Μή—Ώ‚Θ‚ρ‚Ύ‚―‚ΗHv
-
 
 @ichigo_odoroki		#‹Α
 @mikan_odoroki		#‹Α
 wait		1000
 @ichigo_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
 
-
+#u‘‚­‚¨g‚Ά‚πΟ‚ά‚Ή‚Δ‚ζƒpƒpƒbII@”Σδ”Ρ‚ª’x‚κ‚ι‚¶‚α‚ρ‚©ƒbIv
 —‚Ά‚Ώ‚²,O01755
-u‘‚­‚¨g‚Ά‚πΟ‚ά‚Ή‚Δ‚ζƒpƒpƒbII@”Σδ”Ρ‚ª’x‚κ‚ι‚¶‚α‚ρ‚©ƒbIv
-
 
 @mikan_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
 
-
+#u‚»‚¤‚Ύ‚ζ‚¨Z‚Ώ‚α‚ρƒbI@“Ή‘H‚¤‚Μ‚Ν«‚Άl‚Ύ‚ζƒbv
 —‚έ‚©‚ρ,A01395
-u‚»‚¤‚Ύ‚ζ‚¨Z‚Ώ‚α‚ρƒbI@“Ή‘H‚¤‚Μ‚Ν«‚Άl‚Ύ‚ζƒbv
 
 ’Pƒ‚·‚¬‚ι‚Ό‚Ά‚Ώ‚²cc‚»‚µ‚Δ‚έ‚©‚ρc
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -3335,24 +2784,19 @@ if sel=0 then goto mikan_tachi_10a
 if sel=1 then goto mikan_tachi_10b
 #--------------------------------------------------
 
-
 #--------------------------------------------------
 #i‚Pj‚έ‚©‚ρE‚Ά‚Ώ‚²D΄“xUP•‹ΰDOWN
 label	mikan_tachi_10a
 #--------------------------------------------------
 
-
+#u©‚ι‚Ύ‚―‚¶‚α”ζ‚κ‚ι‚Ύ‚λB‚±‚κ‚Ν“Α•Κ‚Μ‚¨¬­‚Ά‚Ύv
 —χ
-u©‚ι‚Ύ‚―‚¶‚α”ζ‚κ‚ι‚Ύ‚λB‚±‚κ‚Ν“Α•Κ‚Μ‚¨¬­‚Ά‚Ύv
-
 
 @mikan_odoroki		#‹Α
 @ichigo_odoroki		#‹Α
 
-
+#u‚¦ƒbA‚Ω‚ρ‚ΖIH@‚Ά‚Ά‚ΜIHv
 —‚έ‚©‚ρ,A01396
-u‚¦ƒbA‚Ω‚ρ‚ΖIH@‚Ά‚Ά‚ΜIHv
-
 
 @ichigo_warai		#Ξ
 #///////////////////////////////////////////////////////
@@ -3366,23 +2810,19 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚β‚Α‚½‚ƒbA‚¨¬­‚Ά[II@‚ ‚θ‚ª‚Ζ‚¤ƒpƒp[τv
 —‚Ά‚Ώ‚²,O01756
-u‚β‚Α‚½‚ƒbA‚¨¬­‚Ά[II@‚ ‚θ‚ª‚Ζ‚¤ƒpƒp[τv
 
+#uΓ‚­‚Θ‚ι‘O‚Ι‹A‚Α‚Δ‚­‚ι‚±‚Ζ‚ΖA”Σδ”Ρ‚ª“ό‚η‚Θ‚­‚Θ‚ι‚©‚η”ƒ‚ΆH‚Ά‚ΝT‚¦‚ι‚±‚Ζv
 —χ
-uΓ‚­‚Θ‚ι‘O‚Ι‹A‚Α‚Δ‚­‚ι‚±‚Ζ‚ΖA”Σδ”Ρ‚ª“ό‚η‚Θ‚­‚Θ‚ι‚©‚η”ƒ‚ΆH‚Ά‚ΝT‚¦‚ι‚±‚Ζv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚¤‚ρI@‚ν‚©‚Α‚½ƒbA‚ ‚θ‚ª‚Ζ‚¨Z‚Ώ‚α‚ρIv
 —‚έ‚©‚ρ,A01397
-u‚¤‚ρI@‚ν‚©‚Α‚½ƒbA‚ ‚θ‚ª‚Ζ‚¨Z‚Ώ‚α‚ρIv
 
+#u‚Ά‚Α‚Δ‚«‚ά[‚·AƒpƒpII@s‚±A‚έ‚©‚ρIv
 —‚Ά‚Ώ‚²,O01757
-u‚Ά‚Α‚Δ‚«‚ά[‚·AƒpƒpII@s‚±A‚έ‚©‚ρIv
-
 
 bgm_stop
 @mikan_
@@ -3390,18 +2830,15 @@ bgm_stop
 #SE34@O‚Ε‘–‚θ‹‚ι‰Ή
 @SE34			#SE34@O‚Ε‘–‚θ‹‚ι‰Ή
 
-
 ‚¨¬­‚Ά‚πσ‚―ζ‚ι‚ΖAπ‚µ‚»‚¤‚Ι¤“XX‚Μ’†‚Φ‘–‚Α‚Δ‚Ά‚­“ρl‚Μ”w‚π©‘—‚ιB
 
 ‚³‚ΔAƒIƒ‚ΰ‘‚­‹A‚η‚Θ‚Ά‚ΖB
 
 ”Σδ”Ρ‚ª’x‚κ‚½‚η‚Ά‚Ώ‚²‚Ι“{‚η‚κ‚»‚¤‚ΎB
 
-
 se_stop		0
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρE‚Ά‚Ώ‚²D΄“xUP•‹ΰDOWN
@@ -3410,189 +2847,142 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹
 return
-
-
-
-
 
 #--------------------------------------------------
 #i‚Qj•Ο‰»‚Θ‚µ
 label	mikan_tachi_10b
 #--------------------------------------------------
 
-
+#uΓ‚­‚Θ‚ι‘O‚Ι‹A‚Α‚Δ—‚Ά‚ζB‚ ‚ΖA‚Ν‚µ‚α‚¬‰ί‚¬‚Δ‰φ‰δ‚π‚·‚ι‚Θ‚ζA‚Ά‚Ώ‚²Hv
 —χ
-uΓ‚­‚Θ‚ι‘O‚Ι‹A‚Α‚Δ—‚Ά‚ζB‚ ‚ΖA‚Ν‚µ‚α‚¬‰ί‚¬‚Δ‰φ‰δ‚π‚·‚ι‚Θ‚ζA‚Ά‚Ώ‚²Hv
-
 
 @ichigo_yorokobi	#μ
 
-
+#u‘εδ•v‚Ύ‚ζ[Bƒpƒp‚±‚»“]‚ρ‚Ε‚¨‚©‚Έ‚π’Χ‚µ‚Ώ‚α‚Α‚½‚η‹–‚³‚Θ‚Ά‚©‚ηv
 —‚Ά‚Ώ‚²,O01758
-u‘εδ•v‚Ύ‚ζ[Bƒpƒp‚±‚»“]‚ρ‚Ε‚¨‚©‚Έ‚π’Χ‚µ‚Ώ‚α‚Α‚½‚η‹–‚³‚Θ‚Ά‚©‚ηv
-
 
 @mikan_warai		#Ξ
 
-
+#u”Σδ”Ρ‚Ι‚Ν‹A‚ι‚©‚ηAs‚Α‚Δ‚­‚ι‚Λ‚¨Z‚Ώ‚α‚ρv
 —‚έ‚©‚ρ,A01398
-u”Σδ”Ρ‚Ι‚Ν‹A‚ι‚©‚ηAs‚Α‚Δ‚­‚ι‚Λ‚¨Z‚Ώ‚α‚ρv
-
 
 bgm_stop
 @mikan_
 @ichigo_
 
-
 “ρl‚Ν‚ά‚½‚Ν‚µ‚α‚¬‚Θ‚ª‚ηA‰E‚Φ¶‚ΦƒEƒBƒ“ƒhƒEƒVƒ‡ƒbƒsƒ“ƒO‚πΔJ‚·‚ιB
 
 ‚ά‚A•’io—‚Θ‚Ά‚±‚Ζ‚π©—R‚Ι‚β‚η‚Ή‚Δ‚β‚λ‚¤B
 
-
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_11	#-----------------------------------------------------
 #”­¶F•s–Ύ
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGiZ‘ξXj
 @bg_jyuutakugai		# Z‘ξX
-
 
 ”ό‰J‚Μθ“`‚Ά‚Ε—[”Ρ‚Μή—Ώ‚π”ƒ‚Ά‚Ι•ΰ‚Ά‚Δ‚Ά‚½B
 
 ‰½Μ‚©‚Β‚Ά‚Δ—‚½‚έ‚©‚ρE‚Ά‚Ώ‚²E‚΄‚­‚λ‚ªAwZ‚Μ‚±‚Ζ‚Ε·‚θγ‚ª‚Α‚Δ‚Ά‚ιB
 
-
 @mikan			#•’Κ
 @ichigo_takurami	#ι‚έ
 @zakuro			#•
 
-
+#u‚»‚κ‚Ε‚Ά‚Ώ‚²“{‚Α‚½‚©‚ηAφ‹Ζ’†‚Ιγ‚λ‚©‚η‚»‚Μζ¶‚Μƒuƒ‰ƒWƒƒ[‚ΜƒzƒbƒNO‚µ‚Δ‚β‚Α‚½‚Μv
 —‚Ά‚Ώ‚²,O01759
-u‚»‚κ‚Ε‚Ά‚Ώ‚²“{‚Α‚½‚©‚ηAφ‹Ζ’†‚Ιγ‚λ‚©‚η‚»‚Μζ¶‚Μƒuƒ‰ƒWƒƒ[‚ΜƒzƒbƒNO‚µ‚Δ‚β‚Α‚½‚Μv
-
 
 @mikan_odoroki		#‹Α
 
-
+#u•‚Μγ‚©‚ηO‚Ή‚ι‚Θ‚ρ‚ΔA‚·‚²‚Ά‚Λ‚Ά‚Ώ‚²‚Ώ‚α‚ρI@ζ¶‚Η‚¤‚Θ‚Α‚½‚ΜHv
 —‚έ‚©‚ρ,A01399
-u•‚Μγ‚©‚ηO‚Ή‚ι‚Θ‚ρ‚ΔA‚·‚²‚Ά‚Λ‚Ά‚Ώ‚²‚Ώ‚α‚ρI@ζ¶‚Η‚¤‚Θ‚Α‚½‚ΜHv
-
 
 @ichigo_yorokobi	#μ
 
-
+#u‚»‚µ‚½‚η‚Λ‚¥cc‚ ‚Ν‚Νƒbτ@–Κ”’‚©‚Α‚½‚ζ[v
 —‚Ά‚Ώ‚²,O01760
-u‚»‚µ‚½‚η‚Λ‚¥cc‚ ‚Ν‚Νƒbτ@–Κ”’‚©‚Α‚½‚ζ[v
-
 
 @ichigo_warai		#Ξ
 
-
+#u‚¨‚Α‚Ο‚Ά‚ª‹}‚Ι¬‚³‚­‚Θ‚Α‚ΔAƒpƒbƒg‚ªƒ|ƒgƒ|ƒg‚Α‚Δ•‚Μ’†‚Ε“]‚ª‚Α‚Δ‚ι‚ΜB‚·‚²‚ΆQ‚Δ‚Δ‚½‚ζ[v
 —‚Ά‚Ώ‚²,O01761
-u‚¨‚Α‚Ο‚Ά‚ª‹}‚Ι¬‚³‚­‚Θ‚Α‚ΔAƒpƒbƒg‚ªƒ|ƒgƒ|ƒg‚Α‚Δ•‚Μ’†‚Ε“]‚ª‚Α‚Δ‚ι‚ΜB‚·‚²‚ΆQ‚Δ‚Δ‚½‚ζ[v
-
 
 @mikan_kusyou		#‹κΞ
-
 
 cc‚Η‚¤‚Ι‚ΰA‰Έ‚β‚©‚¶‚α‚Θ‚Άb‚Ε·‚θγ‚ª‚Α‚Δ‚ι‚Μ‚ª‹C‚Ι‚Θ‚ι‚ªB
 
-
 @ichigo_takurami	#ι‚έ
 
-
+#u’¦‚θ‚Θ‚Ά‚ζ‚Λ[A‚ ‚Μζ¶B‚΄‚­‚λ‚ΰ‘O‚Ι“{‚Α‚½‚Ζ‚«AEυΊ‚Ε‰½‚©‚β‚Α‚½‚ρ‚Ύ‚ζ‚ΛHv
 —‚Ά‚Ώ‚²,O01762
-u’¦‚θ‚Θ‚Ά‚ζ‚Λ[A‚ ‚Μζ¶B‚΄‚­‚λ‚ΰ‘O‚Ι“{‚Α‚½‚Ζ‚«AEυΊ‚Ε‰½‚©‚β‚Α‚½‚ρ‚Ύ‚ζ‚ΛHv
 
+#u‹³t‚ª‚Ά‚ι‘O‚ΕAƒuƒ‰ƒWƒƒ[‚²‚Ζƒuƒ‰ƒEƒX‚π”‚Ά‚ΕΫo‚µ‚Ι‚µ‚Δ‚β‚Α‚½‚Μv
 —‚΄‚­‚λ,Q01037
-u‹³t‚ª‚Ά‚ι‘O‚ΕAƒuƒ‰ƒWƒƒ[‚²‚Ζƒuƒ‰ƒEƒX‚π”‚Ά‚ΕΫo‚µ‚Ι‚µ‚Δ‚β‚Α‚½‚Μv
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚¦ƒbAEυΊ‚ΕIHv
 —‚έ‚©‚ρ,A01400
-u‚¦ƒbAEυΊ‚ΕIHv
 
+#u‰Ί’…‚Ζκ‚Ι‚Α‚ΔA‚Η‚¤‚β‚Α‚Δ’E‚ª‚µ‚½‚Μv
 —‚έ‚©‚ρ,A01401
-u‰Ί’…‚Ζκ‚Ι‚Α‚ΔA‚Η‚¤‚β‚Α‚Δ’E‚ª‚µ‚½‚Μv
-
 
 @zakuro_niko		#‚Ι‚±
 
-
+#u‚»‚κ‚­‚η‚Ά‚Θ‚ηA–ΪαÒ‚Α‚Δ‚Δ‚ΰyv
 —‚΄‚­‚λ,Q01038
-u‚»‚κ‚­‚η‚Ά‚Θ‚ηA–ΪαÒ‚Α‚Δ‚Δ‚ΰyv
 
+#uccζ¶AοΊγ‚°‚Δ“¦‚°‚Δ‚Α‚½B‰Ί‚ΰ’E‚ª‚»‚¤‚Ζ‚µ‚½‚Μ‚ΙA“¦‚°‘«‚ª‘¬‚Άv
 —‚΄‚­‚λ,Q01039
-uccζ¶AοΊγ‚°‚Δ“¦‚°‚Δ‚Α‚½B‰Ί‚ΰ’E‚ª‚»‚¤‚Ζ‚µ‚½‚Μ‚ΙA“¦‚°‘«‚ª‘¬‚Άv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#uN‚ηcc‚Ά‚­‚η‰½‚Ε‚ΰ‚β‚θ‚·‚¬‚¶‚α‚Θ‚Ά‚©v
 —χ
-uN‚ηcc‚Ά‚­‚η‰½‚Ε‚ΰ‚β‚θ‚·‚¬‚¶‚α‚Θ‚Ά‚©v
-
 
 @ichigo_ikari		#“{
 
-
+#u‚Ύ‚Α‚ΔA‚ ‚Μζ¶‚·‚®‚Ά‚Ώ‚²’B‚Ι”ª‚Β“–‚½‚θ‚·‚ι‚ρ‚Ύ‚ΰ‚ρ[B‚έ‚ρ‚Θ™‚Α‚Δ‚ι‚ζv
 —‚Ά‚Ώ‚²,O01763
-u‚Ύ‚Α‚ΔA‚ ‚Μζ¶‚·‚®‚Ά‚Ώ‚²’B‚Ι”ª‚Β“–‚½‚θ‚·‚ι‚ρ‚Ύ‚ΰ‚ρ[B‚έ‚ρ‚Θ™‚Α‚Δ‚ι‚ζv
-
 
 @zakuro			#•
 
-
+#u©‹Ζ©“Ύv
 —‚΄‚­‚λ,Q01040
-u©‹Ζ©“Ύv
 
+#u‚ΝA‚Ν‚Νcc‚±‚¦‚¥v
 —χ
-u‚ΝA‚Ν‚Νcc‚±‚¦‚¥v
 
+#i‚±‚Μ“ρl‚Ι™‚ν‚κ‚½‚ηAƒIƒ‚ΰ‚Ά‚ΒφO‚Μ–Κ‘O‚ΕƒYƒ{ƒ“‚π’E‚ª‚³‚κ‚ι‚©•ª‚©‚Α‚½‚ΰ‚ρ‚¶‚α‚Θ‚Ά‚Θccj
 —χ
-i‚±‚Μ“ρl‚Ι™‚ν‚κ‚½‚ηAƒIƒ‚ΰ‚Ά‚ΒφO‚Μ–Κ‘O‚ΕƒYƒ{ƒ“‚π’E‚ª‚³‚κ‚ι‚©•ª‚©‚Α‚½‚ΰ‚ρ‚¶‚α‚Θ‚Ά‚Θccj
-
 
 @bg_black		# •
 wait		1000
 #΅BGi¤“XXj
 @bg_syoutengai		# ¤“XX
 
-
 cc‚ΖA‹³ηγ‚©‚Θ‚θ‚ζ‚λ‚µ‚­‚Θ‚Ά–‚πb‚µ‚Θ‚ª‚ηA¤“XX‚Ι“’…‚µ‚Δ‚Ά‚½B
 
+#u‚³‚Δccv
 —χ
-u‚³‚Δccv
-
 
 @mikan			#•’Κ
 @ichigo			#•’Κ
 @zakuro			#•
 
-
 “―‚ΙA•t‚Ά‚Δ‚«‚½q‹’B‚ª–Ϊ‚π‹P‚©‚Ή‚Δ‚±‚Ώ‚η‚π©γ‚°‚½B
 
+#u‚Ά‚Ά‚ζAΎ‚Α‚Δ‚έ‚Θv
 —χ
-u‚Ά‚Ά‚ζAΎ‚Α‚Δ‚έ‚Θv
-
 
 @mikan_warai		#Ξ
 #///////////////////////////////////////////////////////
@@ -3603,10 +2993,8 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚έ‚©‚ρAƒJƒ[‚ªH‚Χ‚½‚ΆIIv
 —‚έ‚©‚ρ,A01402
-u‚έ‚©‚ρAƒJƒ[‚ªH‚Χ‚½‚ΆIIv
-
 
 @ichigo_yorokobi	#μ
 #///////////////////////////////////////////////////////
@@ -3620,24 +3008,20 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#uƒnƒ“ƒo[ƒOAƒnƒ“ƒo[ƒOIv
 —‚Ά‚Ώ‚²,O01764
-uƒnƒ“ƒo[ƒOAƒnƒ“ƒo[ƒOIv
-
 
 @zakuro_niko		#‚Ι‚±
 
-
+#uƒLƒ“ƒsƒ‰ƒSƒ{ƒEv
 —‚΄‚­‚λ,Q01041
-uƒLƒ“ƒsƒ‰ƒSƒ{ƒEv
 
 ϋ‰Ξ‚πΨ‚Α‚ΔκΔ‚Ιb‚µo‚·Ol‚Μ­—B
 
 ‚ά‚•t‚Ά‚Δ‚«‚½–Ϊ“I‚ΝΕ‰‚©‚η•ª‚©‚Α‚Δ‚½‚―‚ΗB
 
+#i‚έ‚©‚ρ‚ΝƒJƒ[A‚Ά‚Ώ‚²‚Νƒnƒ“ƒo[ƒOA‚΄‚­‚λ‚ΝƒLƒ“ƒsƒ‰‚©j
 —χ
-i‚έ‚©‚ρ‚ΝƒJƒ[A‚Ά‚Ώ‚²‚Νƒnƒ“ƒo[ƒOA‚΄‚­‚λ‚ΝƒLƒ“ƒsƒ‰‚©j
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -3650,16 +3034,13 @@ if sel=1 then goto mikan_tachi_11b
 if sel=2 then goto mikan_tachi_11c
 #--------------------------------------------------
 
-
 #--------------------------
 #i‚Pj‚έ‚©‚ρD΄“xUP
 label	mikan_tachi_11a
 #--------------------------
 
-
+#uccƒJƒ[‚Ι‚·‚ι‚©v
 —χ
-uccƒJƒ[‚Ι‚·‚ι‚©v
-
 
 @mikan_warai2		#Ξ2
 #///////////////////////////////////////////////////////
@@ -3673,89 +3054,72 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚β‚Α‚½[IIv
 —‚έ‚©‚ρ,A01403
-u‚β‚Α‚½[IIv
-
 
 @ichigo_odoroki		#‹Α
 
-
+#u‚¦‚¥ƒbA‰½‚ΕIHv
 —‚Ά‚Ώ‚²,O01765
-u‚¦‚¥ƒbA‰½‚ΕIHv
-
 
 @zakuro_metoji		#•Β
 
-
+#u‚Β‚Α‚Ώ[A‚±‚ΜuΤ‚Ά‚Ώ‚²‚Ζ„‚π“G‚Ι‰ρ‚µ‚½‚ν‚ζv
 —‚΄‚­‚λ,Q01042
-u‚Β‚Α‚Ώ[A‚±‚ΜuΤ‚Ά‚Ώ‚²‚Ζ„‚π“G‚Ι‰ρ‚µ‚½‚ν‚ζv
-
 
 @zakuro_ikari		#“{
 @ichigo_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
-
 
 ‰φ‚µ‚Άθ‚Β‚«‚Εw‚πƒƒLƒƒL‚³‚Ή‚Θ‚ª‚ηA‚΄‚­‚λ‚ª‚Ι‚¶‚θρ‚Α‚Δ‚­‚ιB
 
 ‚Ζ‚Α‚³‚Ι—‚ι“r’†‚Μb‚ª”]— ‚π‰ί‚¬‚Α‚½B
 
+#iƒ„ƒxƒFƒbA‹ό‚ªƒxƒ‹ƒg‚π‘_‚Α‚Δ‚β‚ª‚ιIIj
 —χ
-iƒ„ƒxƒFƒbA‹ό‚ªƒxƒ‹ƒg‚π‘_‚Α‚Δ‚β‚ª‚ιIIj
 
+#u‘Ò‚Δ‘Ò‚ΔI@‚¶‚αA‚ά‚½‚Μ‹@‰ο‚Ν‚Ά‚Ώ‚²‚Ζ‚΄‚­‚λ‚Μσ–]‚π•·‚­‚±‚Ζ‚µ‚ζ‚¤v
 —χ
-u‘Ò‚Δ‘Ò‚ΔI@‚¶‚αA‚ά‚½‚Μ‹@‰ο‚Ν‚Ά‚Ώ‚²‚Ζ‚΄‚­‚λ‚Μσ–]‚π•·‚­‚±‚Ζ‚µ‚ζ‚¤v
-
 
 @ichigo_takurami	#ι‚έ
 
-
+#u‚ή[cc•Κ‚ΙƒJƒ[‚ΰD‚«‚Ύ‚©‚η‚Ά‚Ά‚―‚Η‚³v
 —‚Ά‚Ώ‚²,O01766
-u‚ή[cc•Κ‚ΙƒJƒ[‚ΰD‚«‚Ύ‚©‚η‚Ά‚Ά‚―‚Η‚³v
-
 
 @zakuro_metoji		#•Β
 
-
+#u‚«‚ρ‚Ò‚ηccv
 —‚΄‚­‚λ,Q01043
-u‚«‚ρ‚Ò‚ηccv
 
 ‚΄‚­‚λ‚Ν‚ ‚«‚η‚ί‚Θ‚ΆBΣO‚Θ·”O[‚³‚ΎB
 
+#uccΒƒmƒ”ƒ‚Α‚Δ‚β‚ι‚©‚ηB‚ΘHv
 —χ
-uccΒƒmƒ”ƒ‚Α‚Δ‚β‚ι‚©‚ηB‚ΘHv
-
 
 @zakuro_niko		#‚Ι‚±
 
-
+#u‚¤‚ρv
 —‚΄‚­‚λ,Q01044
-u‚¤‚ρv
 
 ‚ ‚Α‚³‚θ‚Ζά‚κ‚½B
 
+#u‚»‚κ‚¶‚αA‚Ζ‚θ‚ ‚¦‚Έ΅“ϊ‚ΝƒJƒ[‚Μή—Ώ‚π”ƒ‚Ά‚Ιs‚­‚©v
 —χ
-u‚»‚κ‚¶‚αA‚Ζ‚θ‚ ‚¦‚Έ΅“ϊ‚ΝƒJƒ[‚Μή—Ώ‚π”ƒ‚Ά‚Ιs‚­‚©v
-
 
 @zakuro_metoji		#•Β
 
-
+#uΒƒmƒ‚ΰv
 —‚΄‚­‚λ,Q01045
-uΒƒmƒ‚ΰv
 
+#uƒJƒ[‚Μή—Ώ‚ΖΒƒmƒ‚π”ƒ‚Ά‚Ιs‚­‚©ccv
 —χ
-uƒJƒ[‚Μή—Ώ‚ΖΒƒmƒ‚π”ƒ‚Ά‚Ιs‚­‚©ccv
 
 ‰½‚Ζ‚©φO‚Μ–Κ‘O‚Εγµ’pƒvƒƒC‚Νσ‚―‚Έ‚ΙΟ‚ρ‚Ε‚ά‚Ζ‚ά‚Α‚Δ‚­‚κ‚½B
 
+#i‚Ν‚A”ζ‚κ‚½ccj
 —χ
-i‚Ν‚A”ζ‚κ‚½ccj
-
 
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xUP
@@ -3763,23 +3127,16 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #--------------------------
 #i‚Qj‚Ά‚Ώ‚²D΄“xUP
 label	mikan_tachi_11b
 #--------------------------
 
-
+#u‚¶‚αAƒnƒ“ƒo[ƒO‚Ι‚·‚ι‚©v
 —χ
-u‚¶‚αAƒnƒ“ƒo[ƒO‚Ι‚·‚ι‚©v
-
 
 @ichigo_yorokobi	#μ
 #///////////////////////////////////////////////////////
@@ -3790,35 +3147,27 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚¤‚ρƒbI@ƒnƒ“ƒo[ƒO‚Ύ[IIv
 —‚Ά‚Ώ‚²,O01767
-u‚¤‚ρƒbI@ƒnƒ“ƒo[ƒO‚Ύ[IIv
-
 
 @mikan_kanashimi	#£
 
-
+#u‚ ‚£ccƒJƒ[H‚Χ‚½‚©‚Α‚½‚Θv
 —‚έ‚©‚ρ,A01404
-u‚ ‚£ccƒJƒ[H‚Χ‚½‚©‚Α‚½‚Θv
-
 
 @zakuro_akire		#•π
 
-
+#ucc‚ν‚΄‚ν‚΄—‚ι“r’†‚Εΐ—α‚π‹“‚°‚½‚Μ‚ΙB’E‚ª‚³‚κ‚½‚Ά‚Μ‚Λv
 —‚΄‚­‚λ,Q01046
-ucc‚ν‚΄‚ν‚΄—‚ι“r’†‚Εΐ—α‚π‹“‚°‚½‚Μ‚ΙB’E‚ª‚³‚κ‚½‚Ά‚Μ‚Λv
-
 
 @zakuro_ikari		#“{
-
 
 ‚µ‚ε‚ρ‚Ϊ‚θ‚·‚ι‚έ‚©‚ρ‚ΖAƒWƒƒWƒ‚Ζ”—‚Α‚Δ‚­‚ι‚΄‚­‚λcc
 
 cc‚Α‚Δ‚Ά‚¤‚©A‚ ‚Μb‚ª‚±‚±‚Ε•ό‚Ι‚Θ‚Α‚Δ‚­‚ι‚Μ‚©IH
 
+#u‚Α‚­A‚Ύ‚ªƒxƒ‹ƒg‚Ν‚β‚η‚Ή‚ρƒbIIv
 —χ
-u‚Α‚­A‚Ύ‚ªƒxƒ‹ƒg‚Ν‚β‚η‚Ή‚ρƒbIIv
-
 
 @mikan_
 @ichigo_
@@ -3827,10 +3176,8 @@ wait		1000
 @zakuro_large		# ‹ί‚Ά
 @zakuro_niko		#‚Ι‚±
 
-
+#u‚Σ‚Αccv
 —‚΄‚­‚λ,Q01047
-u‚Σ‚Αccv
-
 
 #SEi‹ΰ‘®Υ“Λ‰ΉHj
 #//ƒtƒ‰ƒbƒVƒ…
@@ -3839,105 +3186,88 @@ screen_flash		500
 #@SE37			#SE37@‹ΰ‘®Υ“Λ‰ΉiƒJƒLƒBƒ“ƒbIj¦•‚Ε‘Ε‚Ώ‡‚Α‚½΄‚¶B‹[‰Ή“I‚Θ–π„‚Ε”Δ—p“I‚Ιg
 se		0,	"sound\se\SE37_‹ΰ‘®Υ“Λ‰Ή.WAV",play_wait
 
-
+#ucccv
 —χ
-ucccv
 
 ƒVƒ…ƒ‹ƒVƒ…ƒ‹ƒVƒ…ƒ‹cc
 
+#u‚Θ‚ƒbIHv
 —χ
-u‚Θ‚ƒbIHv
 
 ƒoƒbƒNƒ‹‚πη‚ιƒIƒ‚Μ‰΅‚π‰ί‚¬‚ικu‚ΕA‚΄‚­‚λ‚Ν©–ƒxƒ‹ƒg‚πψ‚«”²‚Ά‚Δ‚Ά‚½ccI
 
+#u‚·A‚·‚°‚¥ƒbccv
 —χ
-u‚·A‚·‚°‚¥ƒbccv
 
+#u‚Ά‚βI@‚Α‚ΔΎ‚¤‚©A‚¨‚©‚µ‚Ά‚Ύ‚λƒbIv
 —χ
-u‚Ά‚βI@‚Α‚ΔΎ‚¤‚©A‚¨‚©‚µ‚Ά‚Ύ‚λƒbIv
-
 
 @zakuro_metoji		#•Β
 
-
+#u‚ΝƒYƒ{ƒ“cccƒLƒ“ƒsƒ‰ƒSƒ{ƒE‚Μ¦‚έv
 —‚΄‚­‚λ,Q01048
-u‚ΝƒYƒ{ƒ“cccƒLƒ“ƒsƒ‰ƒSƒ{ƒE‚Μ¦‚έv
 
+#u‚¶‚εAη’k‚¶‚α‚Θ‚ΆƒbI@‚½‚©‚ªƒLƒ“ƒsƒ‰‚ΕƒYƒ{ƒ“‚π’E‚ª‚³‚κ‚Δ‚½‚ά‚ι‚©ccIv
 —χ
-u‚¶‚εAη’k‚¶‚α‚Θ‚ΆƒbI@‚½‚©‚ªƒLƒ“ƒsƒ‰‚ΕƒYƒ{ƒ“‚π’E‚ª‚³‚κ‚Δ‚½‚ά‚ι‚©ccIv
-
 
 @zakuro_ikari		#“{
 
-
+#u‚½‚©‚ªccv
 —‚΄‚­‚λ,Q01049
-u‚½‚©‚ªccv
-
 
 screen_vibration	500,16,16,16
 
-
+#u‚Π‚΅ƒbI@‚²‚ί‚ρ‚Θ‚³‚ΆƒbIv
 —χ
-u‚Π‚΅ƒbI@‚²‚ί‚ρ‚Θ‚³‚ΆƒbIv
 
+#u‚»‚κ‚¶‚αA‚ΝƒLƒ“ƒsƒ‰‚Ι‚µ‚Δ‚β‚ι‚©‚ηcc‚ΘH@‚ΘHv
 —χ
-u‚»‚κ‚¶‚αA‚ΝƒLƒ“ƒsƒ‰‚Ι‚µ‚Δ‚β‚ι‚©‚ηcc‚ΘH@‚ΘHv
 
+#u‚¤‚ν[ccƒpƒp‚©‚Α‚±«‚Ά[ccv
 —‚Ά‚Ώ‚²,O01768
-u‚¤‚ν[ccƒpƒp‚©‚Α‚±«‚Ά[ccv
 
+#u‚¨Z‚Ώ‚α‚ρcc‚Ώ‚ε‚Α‚Ζ¶–Ε‚·‚ι‚©‚ΰcv
 —‚έ‚©‚ρ,A01405
-u‚¨Z‚Ώ‚α‚ρcc‚Ώ‚ε‚Α‚Ζ¶–Ε‚·‚ι‚©‚ΰcv
 
+#uƒvƒ‰ƒCƒh‚ζ‚θƒYƒ{ƒ“‚ª‘ε–‚Ύv
 —χ
-uƒvƒ‰ƒCƒh‚ζ‚θƒYƒ{ƒ“‚ª‘ε–‚Ύv
-
 
 @zakuro			#•
 
-
+#ucc‚Ά‚Ά‚―‚ΗBΒƒmƒ‚ΰƒZƒbƒg‚Θ‚ηv
 —‚΄‚­‚λ,Q01050
-ucc‚Ά‚Ά‚―‚ΗBΒƒmƒ‚ΰƒZƒbƒg‚Θ‚ηv
 
+#uƒLƒ“ƒsƒ‰‚ΙccH@‚ ‚A‚ά‚’E‚ª‚³‚κ‚ι‚ζ‚θƒ}ƒV‚ΎBD‚«‚Θ‚Ύ‚―‚©‚―‚λv
 —χ
-uƒLƒ“ƒsƒ‰‚ΙccH@‚ ‚A‚ά‚’E‚ª‚³‚κ‚ι‚ζ‚θƒ}ƒV‚ΎBD‚«‚Θ‚Ύ‚―‚©‚―‚λv
-
 
 @zakuro_niko		#‚Ι‚±
 
-
+#ucc‚¤‚ρv
 —‚΄‚­‚λ,Q01051
-ucc‚¤‚ρv
-
 
 @zakuro_
 
-
 ‚ζ‚¤‚β‚­A‚Ι‚¶‚θρ‚Α‚Δ‚Ά‚½‚΄‚­‚λ‚Μ•ΰ‚έ‚ª~‚ά‚Α‚½B
 
+#u‚Ν‚ ‚cc”Σδ”Ρ‚Μή—Ώ‚ΕA‰½‚Ε‚±‚ρ‚Θλ‹@“Iσ‹µ‚ΙΧ‚η‚Λ‚Ξ‚Θ‚η‚ρ‚Μ‚©v
 —χ
-u‚Ν‚ ‚cc”Σδ”Ρ‚Μή—Ώ‚ΕA‰½‚Ε‚±‚ρ‚Θλ‹@“Iσ‹µ‚ΙΧ‚η‚Λ‚Ξ‚Θ‚η‚ρ‚Μ‚©v
 
 ‚µ‚©‚µA‚΄‚­‚λ‚Μ’†‚Ε‚ΝwΒƒmƒ„ƒLƒ“ƒsƒ‰ƒSƒ{ƒE„ƒIƒ‚Μ‘ΜΩx‚Ζ‚Ά‚¤‚±‚Ζ‚Θ‚Μ‚©B
 
 cc”[“Ύ‚Ά‚©‚Λ‚¥B
 
-
 @ichigo_yorokobi	#μ
 
-
+#uƒpƒpA‘‚­”ƒ‚Ά•¨‚Ιs‚±‚¤‚ζIv
 —‚Ά‚Ώ‚²,O01769
-uƒpƒpA‘‚­”ƒ‚Ά•¨‚Ιs‚±‚¤‚ζIv
 
+#u‚ ‚ A‚»‚¤‚Ύ‚Θcc‚Ζ‚Ι‚©‚­΅‚Ν‘‚­‹A‚θ‚½‚Άv
 —χ
-u‚ ‚ A‚»‚¤‚Ύ‚Θcc‚Ζ‚Ι‚©‚­΅‚Ν‘‚­‹A‚θ‚½‚Άv
 
 cc‚±‚Μƒƒ“ƒo[‚Ε—[H‚Μ£—§‚Νb‚µ‡‚ν‚Θ‚Ά‚ζ‚¤‚Ι‚µ‚ζ‚¤‚Ζ‚ί‚Θ‚ª‚ηB
 
-
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚Ά‚Ώ‚²D΄“xUP
@@ -3945,37 +3275,26 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #--------------------------
 #i‚Rj‚΄‚­‚λD΄“xUP
 label	mikan_tachi_11c
 #--------------------------
 
-
+#uƒLƒ“ƒsƒ‰‚Ι‚µ‚ζ‚¤v
 —χ
-uƒLƒ“ƒsƒ‰‚Ι‚µ‚ζ‚¤v
-
 
 @zakuro_warai		#Ξ
 
-
+#u‚¨‚£ƒCƒG[v
 —‚΄‚­‚λ,Q01052
-u‚¨‚£ƒCƒG[v
-
 
 @mikan_kanashimi	#£
 
-
+#uƒLƒ“ƒsƒ‰cccv
 —‚έ‚©‚ρ,A01406
-uƒLƒ“ƒsƒ‰cccv
-
 
 @ichigo_ikari		#“{
 #///////////////////////////////////////////////////////
@@ -3992,84 +3311,64 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚¦[ccƒLƒ“ƒsƒ‰ƒSƒ{ƒE```v
 —‚Ά‚Ώ‚²,O01770
-u‚¦[ccƒLƒ“ƒsƒ‰ƒSƒ{ƒE```v
 
 ‚±‚κ‚Ν‚ά‚½A—\‘z’Κ‚θ”½‰‚ª‚·‚²‚Ά‚ΘB
 
+#u‚Ζ‚±‚λ‚ΕA‚΄‚­‚λ‚Α‚ΔƒLƒ“ƒsƒ‰‚ªD‚«‚Θ‚ρ‚Ύ‚Α‚―Hv
 —χ
-u‚Ζ‚±‚λ‚ΕA‚΄‚­‚λ‚Α‚ΔƒLƒ“ƒsƒ‰‚ªD‚«‚Θ‚ρ‚Ύ‚Α‚―Hv
-
 
 @zakuro_metoji		#•Β
 
-
+#u•Κ‚Ιcc‰½‚Ζ‚Θ‚­‹C•ªv
 —‚΄‚­‚λ,Q01053
-u•Κ‚Ιcc‰½‚Ζ‚Θ‚­‹C•ªv
-
 
 @ichigo_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
 
-
+#u‚Ύ‚Α‚½‚ηƒnƒ“ƒo[ƒO‚Ι‚µ‚Δ‚ζƒbB‚Ά‚Ώ‚²ƒLƒ“ƒsƒ‰™‚ΆIv
 —‚Ά‚Ώ‚²,O01771
-u‚Ύ‚Α‚½‚ηƒnƒ“ƒo[ƒO‚Ι‚µ‚Δ‚ζƒbB‚Ά‚Ώ‚²ƒLƒ“ƒsƒ‰™‚ΆIv
-
 
 @zakuro_niko		#‚Ι‚±
 
-
+#u’m‚Α‚Δ‚ιv
 —‚΄‚­‚λ,Q01054
-u’m‚Α‚Δ‚ιv
-
 
 @ichigo_odoroki		#‹Α
 
-
+#u‚ΘƒbA‚Θ‚Μ‚Ι‰½‚Ε‚¥ƒbIHv
 —‚Ά‚Ώ‚²,O01772
-u‚ΘƒbA‚Θ‚Μ‚Ι‰½‚Ε‚¥ƒbIHv
 
+#u‚ά‚A‚Ά‚Ά‹@‰ο‚Ύ‚Ά‚Ώ‚²B™‚Ά‚Ε‚ΰζ’£‚Α‚ΔH‚Χ‚λB‚έ‚©‚ρ‚ΰ‚ΘHv
 —χ
-u‚ά‚A‚Ά‚Ά‹@‰ο‚Ύ‚Ά‚Ώ‚²B™‚Ά‚Ε‚ΰζ’£‚Α‚ΔH‚Χ‚λB‚έ‚©‚ρ‚ΰ‚ΘHv
-
 
 @mikan			#•’Κ
 
-
+#u‚¤‚ρcc‚έ‚©‚ρ‚Ν•Κ‚Ι™‚Ά‚Α‚Δ‚Ω‚Η‚¶‚α‚Θ‚Ά‚―‚Ηv
 —‚έ‚©‚ρ,A01407
-u‚¤‚ρcc‚έ‚©‚ρ‚Ν•Κ‚Ι™‚Ά‚Α‚Δ‚Ω‚Η‚¶‚α‚Θ‚Ά‚―‚Ηv
-
 
 @ichigo_kanashimi	#£
 
-
+#u‚¤`cc‚Η‚¤‚µ‚Δy‚µ‚ΆH–‚ΜΤ‚ΙA‚Ά‚Ώ‚²‚Ύ‚―™‚Θv‚Ά‚π‚µ‚Θ‚Ά‚Ζ‚Ά‚―‚Θ‚Ά‚Μ`v
 —‚Ά‚Ώ‚²,O01773
-u‚¤`cc‚Η‚¤‚µ‚Δy‚µ‚ΆH–‚ΜΤ‚ΙA‚Ά‚Ώ‚²‚Ύ‚―™‚Θv‚Ά‚π‚µ‚Θ‚Ά‚Ζ‚Ά‚―‚Θ‚Ά‚Μ`v
-
 
 @zakuro_metoji		#•Β
 
-
+#uD‚«™‚Ά‚ª‚ ‚ι‚©‚ηv
 —‚΄‚­‚λ,Q01055
-uD‚«™‚Ά‚ª‚ ‚ι‚©‚ηv
-
 
 @ichigo_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
 
-
+#ucccccv
 —‚Ά‚Ώ‚²,O01774
-ucccccv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚¤‚ν‚Ag‚ΰW‚ΰ‚Θ‚ΆΨ‚θ•Τ‚µccv
 —‚έ‚©‚ρ,A01408
-u‚¤‚ν‚Ag‚ΰW‚ΰ‚Θ‚ΆΨ‚θ•Τ‚µccv
 
+#u‚Ύ‚Α‚½‚η‰½‚©ƒfƒU[ƒg‚Ε‚ΰ‚Β‚―‚Δ‚ΰ‚η‚¤‚©B‚»‚κ‚Ν‚Ά‚Ώ‚²‚ª‘I‚ρ‚Ε‚Ά‚Ά‚ζv
 —χ
-u‚Ύ‚Α‚½‚η‰½‚©ƒfƒU[ƒg‚Ε‚ΰ‚Β‚―‚Δ‚ΰ‚η‚¤‚©B‚»‚κ‚Ν‚Ά‚Ώ‚²‚ª‘I‚ρ‚Ε‚Ά‚Ά‚ζv
-
 
 @ichigo_yorokobi	#μ
 #///////////////////////////////////////////////////////
@@ -4083,10 +3382,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#uƒfƒU[ƒgI@‚Ω‚ρ‚ΖƒbIHv
 —‚Ά‚Ώ‚²,O01775
-uƒfƒU[ƒgI@‚Ω‚ρ‚ΖƒbIHv
-
 
 @mikan_komikaru_warai	#ƒRƒ~ƒJƒ‹Ξ
 #///////////////////////////////////////////////////////
@@ -4097,188 +3394,152 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚νƒbA‚¤‚νƒbI@‚¨Z‚Ώ‚α‚ρA‚έ‚©‚ρ‚ΰI@‚έ‚©‚ρ‚ΰƒfƒU[ƒg—~‚µ‚ΆƒbIv
 —‚έ‚©‚ρ,A01409
-u‚νƒbA‚¤‚νƒbI@‚¨Z‚Ώ‚α‚ρA‚έ‚©‚ρ‚ΰI@‚έ‚©‚ρ‚ΰƒfƒU[ƒg—~‚µ‚ΆƒbIv
 
+#u‚Ν‚Ά‚Ν‚Άccv
 —χ
-u‚Ν‚Ά‚Ν‚Άccv
 
 —]•ª‚Θo”ο‚ΝƒIƒ‚Μ©• ‚Ι‚Θ‚ι‚ρ‚Ύ‚ªB‚ά‚q‹’B‚Ι‘Ξ‚µ‚Δ‚ΜΓ‚³‚Μ•t‚―‚Ύ‚ΘB
 
 ‹@™‚π’Ό‚·‚Ά‚Ώ‚²’B‚Ιθυ‚«‚Θ‚ª‚ηA”ƒ‚Ά•¨‚Φ‚Ζ“ό‚Α‚Δ‚Ά‚Α‚½B
 
-
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_12	#------------------------------------------------------
 #”­¶F•s–Ύ
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGiΊΦj
 @bg_genkan		# ΊΦ
 
-
 ‚»‚λ‚»‚λ“ϊ‚ΰ•ι‚κn‚ί‚ι AO‚©‚η‹A‚Α‚Δ—‚½‚έ‚©‚ρ‚ΖΊΦ‚Ε”«‡‚ν‚Ή‚½B
-
 
 @SE30			#SE30@ΊΦ‚ΜƒhƒA‚ªJ‚­‰Ή
 wait		1000
 @mikan_warai		#Ξ
 
-
+#u‚½‚Ύ‚Ά‚άƒbA‚¨Z‚Ώ‚α‚ρIv
 —‚έ‚©‚ρ,A01410
-u‚½‚Ύ‚Ά‚άƒbA‚¨Z‚Ώ‚α‚ρIv
 
+#u‚¨‚©‚¦‚θBO‚Ε—V‚ρ‚Ε‚½‚Μ‚©Hv
 —χ
-u‚¨‚©‚¦‚θBO‚Ε—V‚ρ‚Ε‚½‚Μ‚©Hv
 
+#u‚¤‚ρAwZ‚Μ—F’B‚Ζμ‚Μ•ϋ‚Ιs‚Α‚Δ‚½‚Μv
 —‚έ‚©‚ρ,A01411
-u‚¤‚ρAwZ‚Μ—F’B‚Ζμ‚Μ•ϋ‚Ιs‚Α‚Δ‚½‚Μv
 
 ƒXƒj[ƒJ[‚β‘³ϋ‚ªμ‚Μ…‚Ε”G‚κ‚Δ‚Ά‚½B
 
+#u•ª‚©‚Α‚Δ‚ι‚Ζv‚¤‚―‚ΗA[‚Ά•ϋ‚ά‚Εs‚­‚ρ‚¶‚α‚Θ‚Ά‚Όv
 —χ
-u•ª‚©‚Α‚Δ‚ι‚Ζv‚¤‚―‚ΗA[‚Ά•ϋ‚ά‚Εs‚­‚ρ‚¶‚α‚Θ‚Ά‚Όv
-
 
 @mikan_yorokobi		#μ
 
-
+#u‘εδ•v‚Ύ‚ζƒbA‘Ό‚Μq‚ΰ‚έ‚ρ‚Θ—V‚ρ‚Ε‚ισ‚Άμ‚Ύ‚ΰ‚ρv
 —‚έ‚©‚ρ,A01412
-u‘εδ•v‚Ύ‚ζƒbA‘Ό‚Μq‚ΰ‚έ‚ρ‚Θ—V‚ρ‚Ε‚ισ‚Άμ‚Ύ‚ΰ‚ρv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚Ά‚Α‚Ο‚Ά—V‚Ρ‚π‹³‚¦‚Δ‚ΰ‚η‚Α‚½‚©‚ηA΅“x‚έ‚ρ‚Θ‚Εκ‚Ιs‚±‚¤‚Λτv
 —‚έ‚©‚ρ,A01413
-u‚Ά‚Α‚Ο‚Ά—V‚Ρ‚π‹³‚¦‚Δ‚ΰ‚η‚Α‚½‚©‚ηA΅“x‚έ‚ρ‚Θ‚Εκ‚Ιs‚±‚¤‚Λτv
 
+#ucc‚Ύ‚ΘA–Ϊ‚Μ“Ν‚­‚Ζ‚±‚λ‚Ι‹‚ι•ϋ‚ªƒIƒ‚ΰΐS‚Ύv
 —χ
-ucc‚Ύ‚ΘA–Ϊ‚Μ“Ν‚­‚Ζ‚±‚λ‚Ι‹‚ι•ϋ‚ªƒIƒ‚ΰΐS‚Ύv
 
 ‚»‚Μ•Τ–‚Εb‘θ‚ΝI‚ν‚θA•Κ’i’Κ‚θ‚©‚©‚Α‚½‚Ύ‚―‚Θ‚Μ‚Ε—p–‚ΰ–³‚­•Κ‚κ‚ΔI—Ή‚Θ‚Μ‚Ύ‚ªB
 
 ‚Σ‚Ζ‹C‚Ι‚Θ‚Α‚½‚±‚Ζ‚π‚έ‚©‚ρ‚Ιq‚Λ‚Δ‚έ‚½B
 
+#u‚έ‚©‚ρ‚Νƒ{[ƒhƒQ[ƒ€‚π‚Ά‚Α‚Ο‚Ά‚Α‚Δ‚ι‚―‚ΗA—F’B‚Ζ‚Ν‚Ά‚Β‚ΰO‚Ε—V‚ρ‚Ε‚ι‚ΘHv
 —χ
-u‚έ‚©‚ρ‚Νƒ{[ƒhƒQ[ƒ€‚π‚Ά‚Α‚Ο‚Ά‚Α‚Δ‚ι‚―‚ΗA—F’B‚Ζ‚Ν‚Ά‚Β‚ΰO‚Ε—V‚ρ‚Ε‚ι‚ΘHv
-
 
 @mikan_yorokobi		#μ
 
-
+#u‚¦H@‚¤‚ρBO‚Ε—V‚Τ‚Μ‚ΰy‚µ‚Ά‚ζv
 —‚έ‚©‚ρ,A01414
-u‚¦H@‚¤‚ρBO‚Ε—V‚Τ‚Μ‚ΰy‚µ‚Ά‚ζv
 
+#u‚»‚κ‚Ν‚Ά‚Ά‚ρ‚Ύ‚―‚ΗAƒIƒ’B‚Ι‰“—¶‚·‚ι‚±‚Ζ‚Ν‚Θ‚Ά‚ΌB‰Ζ‚Ε—V‚Ρ‚½‚©‚Α‚½‚η‚Β‚κ‚Δ‚«‚Δ‚Ά‚Ά‚©‚η‚Θv
 —χ
-u‚»‚κ‚Ν‚Ά‚Ά‚ρ‚Ύ‚―‚ΗAƒIƒ’B‚Ι‰“—¶‚·‚ι‚±‚Ζ‚Ν‚Θ‚Ά‚ΌB‰Ζ‚Ε—V‚Ρ‚½‚©‚Α‚½‚η‚Β‚κ‚Δ‚«‚Δ‚Ά‚Ά‚©‚η‚Θv
-
 
 @mikan			#•’Κ
 
-
+#u‚ρcc‚¤‚ρcc‚»‚κ‚ΝA‚έ‚©‚ρ‚ΰ‰Ζ‚Ε—V‚Ρ‚½‚Ά‚―‚Ηv
 —‚έ‚©‚ρ,A01415
-u‚ρcc‚¤‚ρcc‚»‚κ‚ΝA‚έ‚©‚ρ‚ΰ‰Ζ‚Ε—V‚Ρ‚½‚Ά‚―‚Ηv
-
 
 @mikan_kanashimi	#£
 
-
 θυ‚«‚Ν‚·‚ι‚ªA‚έ‚©‚ρ‚Μ—J‚Ά‚Ν°‚κ‚Θ‚ΆB
 
+#icc‰½‚ΎA‰“—¶‚¶‚α‚Θ‚Ά‚Μ‚©Hj
 —χ
-icc‰½‚ΎA‰“—¶‚¶‚α‚Θ‚Ά‚Μ‚©Hj
 
 ccc
 
 cccc‚ B‚»‚¤‚Ά‚¤‚±‚Ζ‚©B
 
+#u’²‹³‚Ν‚µ‚Θ‚Ά‚³AS”z‚µ‚Θ‚­‚Δ‚ΰB‚ΰ‚Ώ‚λ‚ρ‚ ‚Μ•”‰®‚ΰ’m‚η‚κ‚Θ‚Ά‚ζ‚¤‚Ι‚µ‚Δ‚κ‚Ξ‚Ά‚Ά‚µv
 —χ
-u’²‹³‚Ν‚µ‚Θ‚Ά‚³AS”z‚µ‚Θ‚­‚Δ‚ΰB‚ΰ‚Ώ‚λ‚ρ‚ ‚Μ•”‰®‚ΰ’m‚η‚κ‚Θ‚Ά‚ζ‚¤‚Ι‚µ‚Δ‚κ‚Ξ‚Ά‚Ά‚µv
 
+#u‚Ά‚Ώ‚²‚Ζ‚Ν’†‚Ε‚ΰ—V‚ρ‚Ε‚ι‚µA‰®O‚¶‚α‚Θ‚Ά‚Ζ™‚Α‚Δ‚ν‚―‚Ε‚ΰ–³‚Ά‚ρ‚Ύ‚λHv
 —χ
-u‚Ά‚Ώ‚²‚Ζ‚Ν’†‚Ε‚ΰ—V‚ρ‚Ε‚ι‚µA‰®O‚¶‚α‚Θ‚Ά‚Ζ™‚Α‚Δ‚ν‚―‚Ε‚ΰ–³‚Ά‚ρ‚Ύ‚λHv
-
 
 @mikan_yorokobi		#μ
 
-
+#u‚¤‚ρA‚έ‚©‚ρ‚Ν’†‚Ε‚ΰO‚Ε‚ΰ‚Η‚Α‚Ώ‚Ε‚ΰ‚Ά‚Ά‚ζv
 —‚έ‚©‚ρ,A01416
-u‚¤‚ρA‚έ‚©‚ρ‚Ν’†‚Ε‚ΰO‚Ε‚ΰ‚Η‚Α‚Ώ‚Ε‚ΰ‚Ά‚Ά‚ζv
 
+#u‚Θ‚η΅“x‚±‚±‚ΙA‚κ‚Ζ‚Ά‚ΕB“φ‚β‚©‚Θ•ϋ‚ª‚Ά‚Ώ‚²‚ΰμ‚Τ‚Ύ‚λv
 —χ
-u‚Θ‚η΅“x‚±‚±‚ΙA‚κ‚Ζ‚Ά‚ΕB“φ‚β‚©‚Θ•ϋ‚ª‚Ά‚Ώ‚²‚ΰμ‚Τ‚Ύ‚λv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‚»‚¤‚Ύ‚ΛA‚¤‚ρI@—F’B‚Ά‚Α‚Ο‚ΆA‚κ‚Δ—‚ζ‚¤‚Α‚Ζτv
 —‚έ‚©‚ρ,A01417
-u‚»‚¤‚Ύ‚ΛA‚¤‚ρI@—F’B‚Ά‚Α‚Ο‚ΆA‚κ‚Δ—‚ζ‚¤‚Α‚Ζτv
 
+#u‚ ‚ B‚Ω‚ηAθτ‚Α‚Δ‚¨‚Ά‚ΕB”ό‰J‚ª‚¨‚β‚Β—pΣ‚µ‚Δ‚ι‚©‚ηv
 —χ
-u‚ ‚ B‚Ω‚ηAθτ‚Α‚Δ‚¨‚Ά‚ΕB”ό‰J‚ª‚¨‚β‚Β—pΣ‚µ‚Δ‚ι‚©‚ηv
-
 
 @mikan_warai		#Ξ
 
-
+#u‚β‚Α‚½I@‚¨‚β‚Β[A‚¨‚β‚Β[τv
 —‚έ‚©‚ρ,A01418
-u‚β‚Α‚½I@‚¨‚β‚Β[A‚¨‚β‚Β[τv
-
 
 @mikan_
 #SE21@L‰Ί‚π‘–‚θ‹‚ι‰Ή@¦™X‚Ι¬‚³‚­
 @SE21			#SE21@L‰Ί‚π‘–‚θ‹‚ι‰Ή@¦™X‚Ι¬‚³‚­
 wait		1000
 
-
 π‚µ‚»‚¤‚Ιτ–Κ‚Φ‘–‚Α‚Δ‚Ά‚­B
 
+#ucc’†‚Ε‚ΰO‚Ε‚ΰ‚Ά‚Άv
 —‚΄‚­‚λ,Q01056
-ucc’†‚Ε‚ΰO‚Ε‚ΰ‚Ά‚Άv
-
 
 se_stop		0
 
-
+#u‚¦Hv
 —χ
-u‚¦Hv
 
 ‚έ‚©‚ρ‚ªs‚Α‚½”½‘Ξ‚Μp‚©‚ηA‚΄‚­‚λ‚ªΓ‚©‚Ιp‚π”`‚©‚Ή‚Δ‚Ά‚½B
 
-
 @zakuro			#•
 
-
+#u’²‹³‚Μ¬‰ΚH@‚έ‚©‚ρ‚Μ‘ε’_”­Ύv
 —‚΄‚­‚λ,Q01057
-u’²‹³‚Μ¬‰ΚH@‚έ‚©‚ρ‚Μ‘ε’_”­Ύv
 
+#ucccHv
 —χ
-ucccHv
 
 ‘ε’_H
 
-
 @zakuro_metoji		#•Β
 
-
+#u‚έ‚©‚ρ‚Μ—F’B‚Ν•”OÒ‚Ύ‚©‚ηA—π‚·‚ι‚Ζ‚«‚Ν‹C‚π‚Β‚―‚Δv
 —‚΄‚­‚λ,Q01058
-u‚έ‚©‚ρ‚Μ—F’B‚Ν•”OÒ‚Ύ‚©‚ηA—π‚·‚ι‚Ζ‚«‚Ν‹C‚π‚Β‚―‚Δv
-
 
 window_close
 @zakuro_
@@ -4286,77 +3547,61 @@ wait		1000
 #SE18@L‰Ί‚π•ΰ‚«‹‚ι‰Ή@¦™X‚Ι¬‚³‚­
 @SE18			#L‰Ί‚π•ΰ‚«‹‚ι‰Ή
 
-
+#i•”OÒA—πccIj
 —χ
-i•”OÒA—πccIj
-
 
 screen_vibration	500,16,16,16
 
-
+#u‚ηƒbI@—πIHv
 —χ
-u‚ηƒbI@—πIHv
 
+#u‘Ò‚Δ‚΄‚­‚λI@’†‚Ζ‚©O‚Ζ‚©A‚»‚ρ‚Θ–­‚Θ‚Ζ‚±‚λ‚Ύ‚―•·‚Ά‚Δ‹Θ‰π‚µ‚Δ‚Ά‚­‚ΘIIv
 —χ
-u‘Ò‚Δ‚΄‚­‚λI@’†‚Ζ‚©O‚Ζ‚©A‚»‚ρ‚Θ–­‚Θ‚Ζ‚±‚λ‚Ύ‚―•·‚Ά‚Δ‹Θ‰π‚µ‚Δ‚Ά‚­‚ΘIIv
 
 ‚Ζ‚ρ‚Ε‚ΰ‚Θ‚Άv‚Άα‚Ά‚π‚µ‚Δ‚Ά‚ι‚΄‚­‚λ‚π’Η‚ΆAƒƒrƒ“ƒO‚Φ”ς‚Ρ‚ρ‚Ε‚Ά‚Α‚½B
-
 
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_13	#-----------------------------------------------------
 #”­¶F•s–Ύi‚Ά‚Ώ‚²E‚έ‚©‚ρ‚Ι•Χ‹­‚π‘I‘πHj
 #------------------------------------------------------------
-
 
 #@bgm12			#‰‰F‰Ό‚a‚f‚l
 @bgm02			#BGM 02 : ’©‚Μƒe[ƒ}
 #΅BGiƒƒrƒ“ƒOj
 @bg_living		# ƒƒrƒ“ƒO
 
-
 ’©H‚πΟ‚ά‚Ή‚½γ‚ΜQ‚µ‚ΆΤ‘ΡB
 
 ‘Ό‚Μq‚ª“oZ€”υ‚π‚·‚ι’†‚ΕA‚Ά‚Ώ‚²‚Ζ‚έ‚©‚ρ‚Νƒƒrƒ“ƒO‚Μƒeƒƒr‚Μ‘O‚Ι‚Ά‚½B
 
+#u“ρl‚Ζ‚ΰ‰½‚µ‚Δ‚ι‚ρ‚ΎAwZ‚Ι’x‚κ‚ι‚ΌHv
 —χ
-u“ρl‚Ζ‚ΰ‰½‚µ‚Δ‚ι‚ρ‚ΎAwZ‚Ι’x‚κ‚ι‚ΌHv
-
 
 @ichigo_ikari		#“{
 @mikan_ikari		#“{
 
-
+#uƒVƒB[ƒbI@΅‚Ά‚Ώ‚²’B―θ‚Ά©‚Δ‚ι‚©‚ηƒbIv
 —‚Ά‚Ώ‚²,O01776
-uƒVƒB[ƒbI@΅‚Ά‚Ώ‚²’B―θ‚Ά©‚Δ‚ι‚©‚ηƒbIv
 
+#u‚ΰ‚¤‚·‚®‚Ύ‚©‚ηA‚Ώ‚ε‚Α‚Ζ‘Ò‚Α‚Δ‚Δv
 —‚έ‚©‚ρ,A01419
-u‚ΰ‚¤‚·‚®‚Ύ‚©‚ηA‚Ώ‚ε‚Α‚Ζ‘Ò‚Α‚Δ‚Δv
 
 “ρl‚ª‚©‚¶‚θ•t‚­ƒeƒƒr‚Μ’†‚ΕAƒ|ƒbƒv‚ΘƒLƒƒƒ‰‚ª―‚πU‚θ‚Ξ‚ί‚Θ‚ª‚ηθ‚Ά‚π‚µ‚Δ‚Ά‚½B
 
 ‚ά‚Τ‚Μ‚©‚©‚ι‚ΰ‚Μ‚Ε‚ΰ–³‚Ά‚µA’x‚κ‚ι‚ζ‚¤‚Θ‚±‚Ζ‚Ν‚Θ‚Ά‚Ύ‚λ‚¤B
 
-
 @mikan			#•’Κ
 
-
+#u‚¨Z‚Ώ‚α‚ρ‚Ν©‚Θ‚Ά‚ΜHv
 —‚έ‚©‚ρ,A01420
-u‚¨Z‚Ώ‚α‚ρ‚Ν©‚Θ‚Ά‚ΜHv
 
+#u‚¤‚ρH@‚ ‚AƒIƒ‚Νccv
 —χ
-u‚¤‚ρH@‚ ‚AƒIƒ‚Νccv
-
 
 #--------------------------------------------------
 #i‘I‘πj
@@ -4367,102 +3612,83 @@ if sel=0 then goto mikan_tachi_13a
 if sel=1 then goto mikan_tachi_13b
 #--------------------------------------------------
 
-
 #----------------------------------------
 #i‚Pj‚έ‚©‚ρD΄“xUP•‚Ά‚Ώ‚²D΄“xDOWN
 label	mikan_tachi_13a
 #----------------------------------------
 
-
+#u‚»‚¤‚Ύ‚ΘA‹\M‚¶‚ι•ϋ‚Ύ‚µv
 —χ
-u‚»‚¤‚Ύ‚ΘA‹\M‚¶‚ι•ϋ‚Ύ‚µv
-
 
 @mikan_
 @ichigo_
 
-
 ‚Β‚Ά‚Ε‚Ύ‚©‚η“ρl‚ΜΤ‚Ιΐ‚θ•ΐ‚ρ‚Ε©‚ι–‚Ι‚·‚ιB
-
 
 @miu			#•Β_‚Ι‚±
 
-
+#u‚ ‚ηcc‚Σ‚Σ‚Αv
 —”ό‰J,B01472
-u‚ ‚ηcc‚Σ‚Σ‚Αv
-
 
 @miu_
 
-
+#ucccv
 —χ
-ucccv
 
 ‚ΕA”ό‰J‚ΙΞ‚ν‚κ‚Δ‚µ‚ά‚¤cc‰½‚©’p‚Έ‚©‚µ‚ΆB
 
 ƒIƒ‚Μ‰^¨‚Νccc‹ΰ‰^›@—φ¤@’N›@•‰‰^Ά
 
+#u‚·‚°‚¥”χ–­ccv
 —χ
-u‚·‚°‚¥”χ–­ccv
 
 —α‚¦‚Ξ—φ¤‚ª—Η‚Ά‚©‚η‚Α‚Δ”’‚µ‚Δ‚ΰA•‰‰^‚ª’α‚Ά‚©‚ηƒtƒ‰‚κ‚ι‰Β”\«‚ΰ‚ ‚ι‚ν‚―‚ΕB
 
 ‚ά‚θ‚Ά‚Θ‚ρ‚Δ“Ύ‚Δ‚µ‚Δ‚»‚¤‚Ά‚¤‚ΰ‚Μ‚©‚ΰ‚µ‚κ‚Θ‚ΆB
 
+#u“ρl‚Ν‚Η‚¤‚Ύ‚Α‚½A‹‰Κv
 —χ
-u“ρl‚Ν‚Η‚¤‚Ύ‚Α‚½A‹‰Κv
-
 
 @mikan_warai		#Ξ
 
-
+#u‚έ‚©‚ρ‚Ν‚ΛA‘S•”“ρdΫ‚Ύ‚Α‚½‚ζIv
 —‚έ‚©‚ρ,A01421
-u‚έ‚©‚ρ‚Ν‚ΛA‘S•”“ρdΫ‚Ύ‚Α‚½‚ζIv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u‰½‚π‚µ‚Δ‚ΰγθ‚­‚Ά‚­‚©‚ηAΟ‹Ι“I‚Ιs“®‚µ‚ά‚µ‚ε‚¤‚Ύ‚Α‚Δτv
 —‚έ‚©‚ρ,A01422
-u‰½‚π‚µ‚Δ‚ΰγθ‚­‚Ά‚­‚©‚ηAΟ‹Ι“I‚Ιs“®‚µ‚ά‚µ‚ε‚¤‚Ύ‚Α‚Δτv
 
 ”ς‚Ργ‚ª‚η‚ρ‚Ξ‚©‚θ‚Ι‹Σμ‚·‚ι‚Μ‚Ν‚έ‚©‚ρB
 
 ‘Ξ‚µ‚ΔA
 
-
 @ichigo_kanashimi	#£
 
-
+#u‚ΆA‚Ά‚Ώ‚²‘S•”ƒhƒNƒƒ}[ƒN‚Ύ‚Α‚½ccv
 —‚Ά‚Ώ‚²,O01777
-u‚ΆA‚Ά‚Ώ‚²‘S•”ƒhƒNƒƒ}[ƒN‚Ύ‚Α‚½ccv
 
 •ϊS‚µ‚½‚ζ‚¤‚Ι™κ‚­‚Μ‚Ν‚Ά‚Ώ‚²B
 
-
 @mikan_odoroki		#‹Α
 
-
+#u‚ΗAƒhƒNƒƒ}[ƒNcc‚ ‚ΜƒƒA‚Θ”»’θ‚ªl‚Β‘S•”‚Θ‚ρ‚Δv
 —‚έ‚©‚ρ,A01423
-u‚ΗAƒhƒNƒƒ}[ƒNcc‚ ‚ΜƒƒA‚Θ”»’θ‚ªl‚Β‘S•”‚Θ‚ρ‚Δv
 
+#u‚ΰ‚µ‚©‚µ‚Δ‚Ά‚Ώ‚²A΅“ϊ‚ªl¶Εγ‚Μ“ϊccv
 —‚Ά‚Ώ‚²,O01778
-u‚ΰ‚µ‚©‚µ‚Δ‚Ά‚Ώ‚²A΅“ϊ‚ªl¶Εγ‚Μ“ϊccv
 
+#u‘εUΎ‚Ύ‚ΘA‚Ά‚Ώ‚²cc‚Ω‚ηA‚½‚©‚ªθ‚Ά‚Ύ‚λHv
 —χ
-u‘εUΎ‚Ύ‚ΘA‚Ά‚Ώ‚²cc‚Ω‚ηA‚½‚©‚ªθ‚Ά‚Ύ‚λHv
-
 
 @ichigo_ikari		#“{
 
-
+#u‚½‚©‚ª‚¶‚α‚Θ‚Ά‚ζƒbI@ƒpƒp‚Ύ‚Α‚Δ‚³‚Α‚«M‚¶‚Δ‚ι‚Α‚ΔΎ‚Α‚½‚ΰ‚ρccIv
 —‚Ά‚Ώ‚²,O01779
-u‚½‚©‚ª‚¶‚α‚Θ‚Ά‚ζƒbI@ƒpƒp‚Ύ‚Α‚Δ‚³‚Α‚«M‚¶‚Δ‚ι‚Α‚ΔΎ‚Α‚½‚ΰ‚ρccIv
 
 ‚»‚¤‚Ά‚¦‚ΞΎ‚Α‚½‹C‚ª‚·‚ι‚Θccc
 
 ‚Η‚Α‚Ώ‚Ε‚ΰ‚Θ‚Ά‚©‚η“K“–‚ΙΎ‚Α‚½‚Μ‚ª— –Ϊ‚Ιo‚½‚©cc
-
 
 @ichigo_naki		#‹ƒ
 #///////////////////////////////////////////////////////
@@ -4475,20 +3701,16 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚¤‚ν[[ƒbAƒpƒp‚ΰ΅“ϊ‚ª‚Ά‚Ώ‚²‚Μl¶Ε«‚Μ“ϊ‚Ύ‚Α‚ΔM‚¶‚Δ‹^‚ν‚Θ‚Ά‚ρ‚Ύ[[[IIv
 —‚Ά‚Ώ‚²,O01780
-u‚¤‚ν[[ƒbAƒpƒp‚ΰ΅“ϊ‚ª‚Ά‚Ώ‚²‚Μl¶Ε«‚Μ“ϊ‚Ύ‚Α‚ΔM‚¶‚Δ‹^‚ν‚Θ‚Ά‚ρ‚Ύ[[[IIv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚»A‚»‚¤‚Ύ‚ζA‚Ά‚Ώ‚²‚Ώ‚α‚ρB΅“ϊ‚Ν‚Έ‚Α‚Ζ‚έ‚©‚ρ‚Ζκ‚Ι‚Ά‚ζ‚Α‚©ccv
 —‚έ‚©‚ρ,A01424
-u‚»A‚»‚¤‚Ύ‚ζA‚Ά‚Ώ‚²‚Ώ‚α‚ρB΅“ϊ‚Ν‚Έ‚Α‚Ζ‚έ‚©‚ρ‚Ζκ‚Ι‚Ά‚ζ‚Α‚©ccv
 
+#u‚»‚µ‚½‚ηA‚έ‚©‚ρ‚Μ“ρdΫ‚Ε‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΜƒhƒNƒ‚ΰ–³‚­‚Θ‚ι‚©‚ΰv
 —‚έ‚©‚ρ,A01425
-u‚»‚µ‚½‚ηA‚έ‚©‚ρ‚Μ“ρdΫ‚Ε‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΜƒhƒNƒ‚ΰ–³‚­‚Θ‚ι‚©‚ΰv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F•ψ‚«‚Β‚«i‰EƒLƒƒƒ‰‚ª¶ƒLƒƒƒ‰‚Ιj
@@ -4498,51 +3720,42 @@ layer_move	l_ichigo,100,-70,4,-140,0,PASSTYPE_LINEAR
 @SE36			#SE36@¨‚Ά‚ζ‚­•ψ‚«‚Β‚­‰ΉiƒoƒtƒbIj
 #///////////////////////////////////////////////////////
 
-
+#u‚¤‚£‚£cc‚ ‚θ‚ª‚Ζ‚έ‚©‚ρ`A΅“ϊκ“ϊ‚Ά‚Ώ‚²‚π©Μ‚Δ‚Θ‚Ά‚Εv
 —‚Ά‚Ώ‚²,O01781
-u‚¤‚£‚£cc‚ ‚θ‚ª‚Ζ‚έ‚©‚ρ`A΅“ϊκ“ϊ‚Ά‚Ώ‚²‚π©Μ‚Δ‚Θ‚Ά‚Εv
 
 •‚―M‚πo‚·‚έ‚©‚ρ‚ΙA”ίΖ‚³‚π•Y‚ν‚Ή‚½‚Ά‚Ώ‚²‚ª‹ƒ‚«‚·‚ª‚ιB
 
-
 se_stop		0
 
-
+#u‚»‚κ‚¶‚α‚έ‚©‚ρA«‚Ά‚―‚Η‚Ά‚Ώ‚²‚π—‚ήv
 —χ
-u‚»‚κ‚¶‚α‚έ‚©‚ρA«‚Ά‚―‚Η‚Ά‚Ώ‚²‚π—‚ήv
 
+#u‚ ‚ΜA‚Ά‚Ώ‚²‚Ώ‚α‚ρcc‚»‚ρ‚Θ‚Ι‚­‚Α‚Β‚©‚κ‚½‚η•ΰ‚―‚Θ‚Ά‚ρ‚Ύ‚―‚Ηv
 —‚έ‚©‚ρ,A01426
-u‚ ‚ΜA‚Ά‚Ώ‚²‚Ώ‚α‚ρcc‚»‚ρ‚Θ‚Ι‚­‚Α‚Β‚©‚κ‚½‚η•ΰ‚―‚Θ‚Ά‚ρ‚Ύ‚―‚Ηv
 
+#uƒ„ƒ_`ƒ„ƒ_‚ζ‚§```A‚Ά‚Ώ‚²‚π©Μ‚Δ‚Θ‚Ά‚Ε‚έ‚©‚ρ```v
 —‚Ά‚Ώ‚²,O01782
-uƒ„ƒ_`ƒ„ƒ_‚ζ‚§```A‚Ά‚Ώ‚²‚π©Μ‚Δ‚Θ‚Ά‚Ε‚έ‚©‚ρ```v
-
 
 @mikan_komikaru_kanashimi	#ƒRƒ~ƒJƒ‹£
 
-
+#u‚ ‚£ccv
 —‚έ‚©‚ρ,A01427
-u‚ ‚£ccv
 
+#u‚ρ‚µ‚εA‚ρ‚µ‚εcc‚Α‚Ζv
 —‚έ‚©‚ρ,A01428
-u‚ρ‚µ‚εA‚ρ‚µ‚εcc‚Α‚Ζv
-
 
 @mikan_
 @ichigo_
 
-
 q‹ƒ‚«–κ‚Μ‚ζ‚¤‚Ι‚µ‚ª‚έ‚Β‚­‚Ά‚Ώ‚²‚πψ‚«‚Έ‚θ‚Θ‚ª‚ηAƒYƒƒYƒ‚Ζƒƒrƒ“ƒO‚πo‚Δs‚­‚έ‚©‚ρB
 
+#u‹³Ί‚Ν•Κ‚Ύ‚―‚ΗA‚Η‚¤‚·‚ι‚Β‚ΰ‚θ‚Θ‚ρ‚Ύ‚λ‚¤ccv
 —χ
-u‹³Ί‚Ν•Κ‚Ύ‚―‚ΗA‚Η‚¤‚·‚ι‚Β‚ΰ‚θ‚Θ‚ρ‚Ύ‚λ‚¤ccv
 
 K‰^‚Θ‚Ν‚Έ‚Μ‚έ‚©‚ρ‚ά‚ΕΠ“ο‚Ι‚ ‚Α‚ΔA‚²D—l‚Ζ‚µ‚©Ύ‚Ά‚ζ‚¤‚ª‚Θ‚©‚Α‚½B
 
-
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xUP•‚Ά‚Ώ‚²D΄“xDOWN
@@ -4551,121 +3764,97 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 #----------------------------------------
 #i‚Qj‚έ‚©‚ρD΄“xDOWN•‚Ά‚Ώ‚²D΄“xUP
 label	mikan_tachi_13b
 #----------------------------------------
 
-
+#u“Α‚ΙM‚¶‚Δ‚ι‚ν‚―‚¶‚α‚Θ‚Ά‚©‚η‚Θccv
 —χ
-u“Α‚ΙM‚¶‚Δ‚ι‚ν‚―‚¶‚α‚Θ‚Ά‚©‚η‚Θccv
-
 
 @mikan_
 @ichigo_
-
 
 ‰‚¦‚Θ‚ª‚ηA“ρl‚Μθ‚Ά‚ªI‚ν‚ι‚Μ‚π”™‘R‚Ζ©η‚Α‚Δ‚Ά‚½B
 
 \“ρ―ΐ‚²‚Ζ‚Ι‹‰Κ‚ª•\¦‚³‚κA‚Ά‚Β‚Μ‚ά‚Ι‚©©•ª‚Μ‚ªI‚ν‚Α‚½ cc“ρl‚Ι•Ο‰»‚ª©‚η‚κ‚½B
 
+#uI‚ν‚Α‚½Hv
 —χ
-uI‚ν‚Α‚½Hv
-
 
 @mikan_kanashimi	#£
 
-
+#u‚ρA‚¤‚ρccc‘S•”“ρdΫ‚Ύ‚Α‚½‚―‚Ηv
 —‚έ‚©‚ρ,A01429
-u‚ρA‚¤‚ρccc‘S•”“ρdΫ‚Ύ‚Α‚½‚―‚Ηv
 
 ‚»‚Μ„‚Ι‚ΝA•\ξ‚ªΓ‚ΆB
 
-
 @ichigo_warai		#Ξ
 
-
+#u‚ ‚Ν‚Ν‚ΑA‚Ά‚Ώ‚²‚Ν‘S•”ƒhƒNƒ‚Ύ‚Α‚½‚ζ‚§cc‚΄‚ρ‚Λ[‚ρv
 —‚Ά‚Ώ‚²,O01783
-u‚ ‚Ν‚Ν‚ΑA‚Ά‚Ώ‚²‚Ν‘S•”ƒhƒNƒ‚Ύ‚Α‚½‚ζ‚§cc‚΄‚ρ‚Λ[‚ρv
 
 κ•ϋ‚Ε‚Ά‚Ώ‚²‚ΝA‚»‚ρ‚Θ‹‰Κ‚Θ‚Μ‚Ι‚ ‚Α‚―‚η‚©‚ρ‚Ζ‚µ‚½‚ΰ‚Μ‚Ύ‚Α‚½B
 
-
 @ichigo_yorokobi	#μ
 
-
+#u‚Ε‚ΰ‚Ά‚Ά‚βA“–‚½‚η‚Θ‚Ά‚ζ‚Λθ‚Ά‚Θ‚ρ‚©Bƒpƒp‚ΰM‚¶‚Δ‚Θ‚Ά‚ρ‚Ε‚µ‚εHv
 —‚Ά‚Ώ‚²,O01784
-u‚Ε‚ΰ‚Ά‚Ά‚βA“–‚½‚η‚Θ‚Ά‚ζ‚Λθ‚Ά‚Θ‚ρ‚©Bƒpƒp‚ΰM‚¶‚Δ‚Θ‚Ά‚ρ‚Ε‚µ‚εHv
 
+#u‚ ‚A‚Ώ‚ε‚Α‚Ζ‹C•ª‚ª¶‰E‚³‚κ‚ι‚­‚η‚Ά‚Εccc‚ v
 —χ
-u‚ ‚A‚Ώ‚ε‚Α‚Ζ‹C•ª‚ª¶‰E‚³‚κ‚ι‚­‚η‚Ά‚Εccc‚ v
 
 ‚έ‚©‚ρ‚Μ•\ξ‚ª”χ–­‚Θ‚Μ‚Ν‚±‚Μ‚Ή‚Ά‚©B
 
+#u“–‚½‚η‚Θ‚Ά‚Μ‚©‚ΘA‚±‚Μθ‚Άccv
 —‚έ‚©‚ρ,A01430
-u“–‚½‚η‚Θ‚Ά‚Μ‚©‚ΘA‚±‚Μθ‚Άccv
 
+#u“–‚½‚η‚Θ‚Ά‚ζ‚Λ‚ΑAθ‚Ά‚Θ‚ρ‚©τv
 —‚Ά‚Ώ‚²,O01785
-u“–‚½‚η‚Θ‚Ά‚ζ‚Λ‚ΑAθ‚Ά‚Θ‚ρ‚©τv
 
+#u‚¦A‚¦[‚Α‚ΖccƒIƒ‚Ν“–‚½‚η‚Θ‚Ά‚Ζv‚¤‚―‚Η‚Θv
 —χ
-u‚¦A‚¦[‚Α‚ΖccƒIƒ‚Ν“–‚½‚η‚Θ‚Ά‚Ζv‚¤‚―‚Η‚Θv
 
 ‚ά‚‚έ‚©‚ρ‚Ι‚Ν«‚Ά‚―‚ΗAM‚¶‚Δ‚Θ‚Ά‚Μ‚Ν–ΐ‚Ύ‚µB
 
+#u‚¤cc‚»‚Α‚©v
 —‚έ‚©‚ρ,A01431
-u‚¤cc‚»‚Α‚©v
 
+#u‚―‚Η‘S‘R“K“–‚Α‚Δ‚ν‚―‚Ε‚ΰ‚Θ‚Ά‚Ύ‚λ‚¤‚©‚ηAγ‚Ν‚έ‚©‚ρ‚Μ“w—Ν‘ζ‚Ύ‚λv
 —χ
-u‚―‚Η‘S‘R“K“–‚Α‚Δ‚ν‚―‚Ε‚ΰ‚Θ‚Ά‚Ύ‚λ‚¤‚©‚ηAγ‚Ν‚έ‚©‚ρ‚Μ“w—Ν‘ζ‚Ύ‚λv
 
+#u‹C‚Ι‚Ή‚Έ΅“ϊ‚ΰζ’£‚Α‚Δ‚±‚Άv
 —χ
-u‹C‚Ι‚Ή‚Έ΅“ϊ‚ΰζ’£‚Α‚Δ‚±‚Άv
-
 
 @ichigo			#•’Κ
 
-
+#u‚»‚¤‚Ύ‚ζBƒhƒNƒ‚Μ‚Ά‚Ώ‚²‚ª³‹C‚Θ‚Μ‚ΙA“ρdΫ‚Μ‚έ‚©‚ρ‚ª³‹C–³‚Ά‚Θ‚ρ‚Δ‚¨‚©‚µ‚Ά‚ζv
 —‚Ά‚Ώ‚²,O01786
-u‚»‚¤‚Ύ‚ζBƒhƒNƒ‚Μ‚Ά‚Ώ‚²‚ª³‹C‚Θ‚Μ‚ΙA“ρdΫ‚Μ‚έ‚©‚ρ‚ª³‹C–³‚Ά‚Θ‚ρ‚Δ‚¨‚©‚µ‚Ά‚ζv
-
 
 @mikan_yorokobi		#μ
 
-
+#u‚ρA‚»‚¤‚Ύ‚ζ‚Λcc•ª‚©‚Α‚½v
 —‚έ‚©‚ρ,A01432
-u‚ρA‚»‚¤‚Ύ‚ζ‚Λcc•ª‚©‚Α‚½v
 
 ―θ‚Ά‚ΜI‚ν‚Α‚½ƒeƒƒr‚πΑ‚·‚ΖA‚ΑΨ‚κ‚½‚ζ‚¤‚Ι‚έ‚©‚ρ‚ª—§‚Ώγ‚ª‚ιB
 
-
 @mikan_warai2		#Ξ2
 
-
+#u’x‚κ‚Ώ‚α‚¤‚ζA‚Ά‚Ώ‚²‚Ώ‚α‚ρBs‚±‚¤v
 —‚έ‚©‚ρ,A01433
-u’x‚κ‚Ώ‚α‚¤‚ζA‚Ά‚Ώ‚²‚Ώ‚α‚ρBs‚±‚¤v
-
 
 @mikan_
 @ichigo_
-
 
 ‚Ζ‚θ‚ ‚¦‚Έ•‚µ‚½‚Α‚Ϋ‚Ά‚έ‚©‚ρ‚Ζ‹¤‚ΙAƒƒrƒ“ƒO‚πo‚Δs‚­‚Ά‚Ώ‚²B
 
 ‡—¬‚µ‚½q‹’B‚ΜΊ‚π•·‚«‚Θ‚ª‚ηA΅“ϊ‚ΰ‚έ‚ρ‚Θ‚π©‘—‚Α‚Δκ“ϊ‚ªn‚ά‚ιB
 
-
 @bg_black
 wait		1000
-
 
 #--------------------------------------------------
 #d—vFƒXƒe[ƒ^ƒX‘€μF‚έ‚©‚ρD΄“xDOWN•‚Ά‚Ώ‚²D΄“xUP
@@ -4674,13 +3863,8 @@ wait		1000
 #¥
 #--------------------------------------------------
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 
 label	mikan_tachi_14	#-----------------------------------------------------
 #—§‚ΏGƒCƒxƒ“ƒg‚P‚S
@@ -4692,93 +3876,75 @@ label	mikan_tachi_14	#-----------------------------------------------------
 #΅BGiL‰Ίj
 @bg_rouka		# L‰Ί
 
-
 #SE28@χ‚βψ‚«o‚µ‚π‹™‚ι‰ΉiƒKƒ^ƒbAƒSƒ\ƒSƒ\ƒSƒ\ccj
 @SE28			#SE28@χ‚βψ‚«o‚µ‚π‹™‚ι‰ΉiƒKƒ^ƒbAƒSƒ\ƒSƒ\ƒSƒ\ccj
 
-
 ƒKƒ^ƒbAƒSƒ\ƒSƒ\ƒSƒ\cc
 
+#u‚ρccHv
 —χ
-u‚ρccHv
-
 
 H“°‚©‚η‰½‚©‹™‚Α‚Δ‚Ά‚ι‚ζ‚¤‚Θ•¨‰Ή‚ª•·‚±‚¦‚½B
-
 
 #΅BGiH“°j
 #CHi—§‚ΏG‚Ν‚ά‚Ύ–Ά•\¦j
 @bg_dining		# H“°
 @SE28			#SE28@χ‚βψ‚«o‚µ‚π‹™‚ι‰ΉiƒKƒ^ƒbAƒSƒ\ƒSƒ\ƒSƒ\ccj
 
-
 ƒSƒ\ƒSƒ\ƒbAƒKƒTƒTƒbcc
 
+#u‚¤``‚ρcc‚Θ‚Ά‚ζ‚§`v
 —‚έ‚©‚ρ,A01434
-u‚¤``‚ρcc‚Θ‚Ά‚ζ‚§`v
 
+#u‰½‚π‚β‚Α‚Δ‚ι‚ρ‚ΎccHv
 —χ
-u‰½‚π‚β‚Α‚Δ‚ι‚ρ‚ΎccHv
-
 
 #CHi‚±‚±‚©‚η—§‚ΏG•\¦j
 @mikan_odoroki		#‹Α
 
-
+#u‚¦‚ΑA‚¤‚ν‚ΑIHv
 —‚έ‚©‚ρ,A01435
-u‚¦‚ΑA‚¤‚ν‚ΑIHv
 
 •¨‰Ή‚Μ³‘Μ‚ª‹Α‚Ά‚Δ”ς‚Ργ‚ª‚ιB
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 
-
+#ucc‚ά‚AΛ’I‚π‹™‚Α‚Δ‚ι“_‚ΕA–Ϊ“I‚Ν–Ύ‚η‚©‚Ύ‚―‚Ηv
 —χ
-ucc‚ά‚AΛ’I‚π‹™‚Α‚Δ‚ι“_‚ΕA–Ϊ“I‚Ν–Ύ‚η‚©‚Ύ‚―‚Ηv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚¦ƒbA‚ΘA‰½‚Μ‚±‚Ζ`H@‚έ‚©‚ρ•Κ‚ΙAH‚Χ•¨‚Θ‚ρ‚©’T‚µ‚Δ‚Θ‚Ά‚ζv
 —‚έ‚©‚ρ,A01436
-u‚¦ƒbA‚ΘA‰½‚Μ‚±‚Ζ`H@‚έ‚©‚ρ•Κ‚ΙAH‚Χ•¨‚Θ‚ρ‚©’T‚µ‚Δ‚Θ‚Ά‚ζv
 
+#u“{‚η‚Θ‚Ά‚Α‚ΔB‚¨• Έ‚Α‚½‚Θ‚ηA”ό‰J‚ΙΎ‚¦‚Ξ‚Ά‚Ά‚¶‚α‚Θ‚Ά‚©v
 —χ
-u“{‚η‚Θ‚Ά‚Α‚ΔB‚¨• Έ‚Α‚½‚Θ‚ηA”ό‰J‚ΙΎ‚¦‚Ξ‚Ά‚Ά‚¶‚α‚Θ‚Ά‚©v
-
 
 @mikan_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
 
-
+#uα‚¤‚ζ‚§A‚ΰ‚¤B‚¨Z‚Ώ‚α‚ρM‚¶‚Δ‚Θ‚Ά``v
 —‚έ‚©‚ρ,A01437
-uα‚¤‚ζ‚§A‚ΰ‚¤B‚¨Z‚Ώ‚α‚ρM‚¶‚Δ‚Θ‚Ά``v
 
+#u•Κ‚Ι‚έ‚©‚ρA‹}‚Ιa‰Ωq‚Α‚Ϋ‚ΆΓ‚Ά‚¨‰Ωq‚ªH‚Χ‚½‚­‚Θ‚Α‚½‚Ζ‚©A‘S‘R‚»‚ρ‚Θ‚Μ‚¶‚α‚Θ‚Ά‚ρ‚Ύ‚ΰ‚ρ‚Αv
 —‚έ‚©‚ρ,A01438
-u•Κ‚Ι‚έ‚©‚ρA‹}‚Ιa‰Ωq‚Α‚Ϋ‚ΆΓ‚Ά‚¨‰Ωq‚ªH‚Χ‚½‚­‚Θ‚Α‚½‚Ζ‚©A‘S‘R‚»‚ρ‚Θ‚Μ‚¶‚α‚Θ‚Ά‚ρ‚Ύ‚ΰ‚ρ‚Αv
 
 ‚Η‚ρ‚Η‚ρvl‚ª‹ο‘Μ“I‚Ι‚Θ‚Α‚Δ‚Ά‚­B
-
 
 #SE13@‚¨• ‚Μ‰ΉEγiƒLƒ…ƒ‹ƒ‹ccj
 @SE13			#‚¨• ‚Μ‰ΉEγiƒLƒ…ƒ‹ƒ‹ccj
 #ƒLƒ…ƒ‹ƒ‹ƒ‹cc
 @mikan_komikaru_kanashimi	#ƒRƒ~ƒJƒ‹£
 
-
+#uccccv
 —‚έ‚©‚ρ,A01439
-uccccv
 
+#ucc‚¨• ‚ª–Β‚Α‚½‚Θv
 —χ
-ucc‚¨• ‚ª–Β‚Α‚½‚Θv
-
 
 se_stop		0
 
-
+#u‰B‚³‚Θ‚­‚Δ‚ΰA‚¨• ‚ª‚·‚Ά‚Δ‚½‚­‚³‚ρH‚Χ‚ι‚Μ‚Ν«‚Ά‚±‚Ζ‚¶‚α‚Θ‚Ά‚Ύ‚λv
 —χ
-u‰B‚³‚Θ‚­‚Δ‚ΰA‚¨• ‚ª‚·‚Ά‚Δ‚½‚­‚³‚ρH‚Χ‚ι‚Μ‚Ν«‚Ά‚±‚Ζ‚¶‚α‚Θ‚Ά‚Ύ‚λv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F‚Ύ‚Ύ‚±‚Λ
@@ -4794,28 +3960,24 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚Ύ‚Α‚Δ‚έ‚©‚ρ‚Ύ‚―H‚Χ‚Δ‚ι‚ΖA‘Ό‚Μq‚ζ‚θ‘Ύ‚Α‚Ώ‚α‚¤‚ζ‚§ccv
 —‚έ‚©‚ρ,A01440
-u‚Ύ‚Α‚Δ‚έ‚©‚ρ‚Ύ‚―H‚Χ‚Δ‚ι‚ΖA‘Ό‚Μq‚ζ‚θ‘Ύ‚Α‚Ώ‚α‚¤‚ζ‚§ccv
 
 ‚»‚κ‚Ν‰B‚κ‚ΔƒRƒ\ƒRƒ\H‚Χ‚Δ‚Δ‚ΰ‰π‚·‚ι–Ϋ‚Ε‚Ν‚Θ‚Ά‚ªcc
 
+#u‚Ά‚Ώ‚²‚Ι•‰‚―‚Έ—ς‚η‚ΈA•’i‚ΜOH‚©‚ηA‚έ‚©‚ρ‚Ν’V‚Ύ‚©‚η‚Θv
 —χ
-u‚Ά‚Ώ‚²‚Ι•‰‚―‚Έ—ς‚η‚ΈA•’i‚ΜOH‚©‚ηA‚έ‚©‚ρ‚Ν’V‚Ύ‚©‚η‚Θv
-
 
 @mikan_kanashimi	#£
 
-
+#u‚Ω‚ρ‚Ζ‚ΝA‚ζ‚¤‚©‚ρ‚ª—~‚µ‚­‚Δ’T‚µ‚Δ‚½‚Μccv
 —‚έ‚©‚ρ,A01441
-u‚Ω‚ρ‚Ζ‚ΝA‚ζ‚¤‚©‚ρ‚ª—~‚µ‚­‚Δ’T‚µ‚Δ‚½‚Μccv
 
+#u‚Ε‚ΰ‚ΰ‚¤‚·‚®”Σδ”Ρ‚Ύ‚©‚ηA”ό‰J‚³‚ρ‚ΙΎ‚Α‚Δ‚ΰ‰δ–‚·‚ι‚ζ‚¤‚Ι‚Α‚ΔΎ‚ν‚κ‚Ώ‚α‚¤‚ζv
 —‚έ‚©‚ρ,A01442
-u‚Ε‚ΰ‚ΰ‚¤‚·‚®”Σδ”Ρ‚Ύ‚©‚ηA”ό‰J‚³‚ρ‚ΙΎ‚Α‚Δ‚ΰ‰δ–‚·‚ι‚ζ‚¤‚Ι‚Α‚ΔΎ‚ν‚κ‚Ώ‚α‚¤‚ζv
 
+#um‚©‚ΙBΤ“I‚Ι‚Ν‚»‚¤‚Θ‚ι‚Θv
 —χ
-um‚©‚ΙBΤ“I‚Ι‚Ν‚»‚¤‚Θ‚ι‚Θv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F‚½‚ί‚Ά‚«
@@ -4825,86 +3987,71 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚Ν‚£`cc³‹C‚ªo‚Θ‚Ά`ccv
 —‚έ‚©‚ρ,A01443
-u‚Ν‚£`cc³‹C‚ªo‚Θ‚Ά`ccv
 
+#ucc‰½‚Ύ‚©A‚¨Z‚Ώ‚α‚ρ‚Μ‚ªƒAƒCƒXƒLƒƒƒ“ƒf[‚Ιv‚¦‚Δ‚«‚Ώ‚α‚Α‚½‚ζ‚§v
 —‚έ‚©‚ρ,A01444
-ucc‰½‚Ύ‚©A‚¨Z‚Ώ‚α‚ρ‚Μ‚ªƒAƒCƒXƒLƒƒƒ“ƒf[‚Ιv‚¦‚Δ‚«‚Ώ‚α‚Α‚½‚ζ‚§v
 
+#ucccv
 —χ
-ucccv
 
 ΅‚Μ‚ΝAw‚¨Z‚Ώ‚α‚ρ‚Μ‡€η‡‚Ζ‚©‡€r‡x‚ΖΎ‚Ά‚½‚©‚Α‚½‚Μ‚Ύ‚Ζ‰πί‚µ‚Δ‚¨‚±‚¤B
 
 ‚±‚ΖH‚Χ•¨‚Ι‚¨‚Ά‚ΔA‚έ‚©‚ρ‚Ν‚Ώ‚ε‚Α‚ΖƒLƒƒƒ‰‚ªƒoƒO‚ι‚±‚Ζ‚ª‚ ‚ι‚©‚η‚ΘB
 
-
 #΅BGi•j
 @bg_black		# •
 
-
+#u‚¶‚α‚ A‚±‚κ‚Ε‚ΰ‚µ‚α‚Τ‚ι‚©A‚έ‚©‚ρH@• ‚Μ‘«‚µ‚Ι‚Ν‚Θ‚ι‚©‚ΰ‚µ‚κ‚Θ‚Ά‚Όv
 —χ
-u‚¶‚α‚ A‚±‚κ‚Ε‚ΰ‚µ‚α‚Τ‚ι‚©A‚έ‚©‚ρH@• ‚Μ‘«‚µ‚Ι‚Ν‚Θ‚ι‚©‚ΰ‚µ‚κ‚Θ‚Ά‚Όv
 
+#u‚¤‚ρI@‚¨Z‚Ώ‚α‚ρ‚Μw”Zϊ—ϋ“ϋ“ό‚θƒ~ƒ‹ƒNƒAƒCƒXxA‚έ‚©‚ρ‚Ι‘ςR‚µ‚α‚Τ‚η‚Ή‚Δτv
 —‚έ‚©‚ρ,A01445
-u‚¤‚ρI@‚¨Z‚Ώ‚α‚ρ‚Μw”Zϊ—ϋ“ϋ“ό‚θƒ~ƒ‹ƒNƒAƒCƒXxA‚έ‚©‚ρ‚Ι‘ςR‚µ‚α‚Τ‚η‚Ή‚Δτv
 
+#u‚Ώ‚γ‚Τ‚¶‚γ‚¶‚γƒbI@‚Έ‚ΐ‚γ‚ΑA‚Ώ‚γ‚Τ‚£ƒbcc‚­‚ΐ‚γ‚ΑA‚Ώ‚γ‚ΐ‚γ‚ι‚ΑA‚Ò‚ΐ‚γ‚£ƒbcIv
 —‚έ‚©‚ρ,A01446
-u‚Ώ‚γ‚Τ‚¶‚γ‚¶‚γƒbI@‚Έ‚ΐ‚γ‚ΑA‚Ώ‚γ‚Τ‚£ƒbcc‚­‚ΐ‚γ‚ΑA‚Ώ‚γ‚ΐ‚γ‚ι‚ΑA‚Ò‚ΐ‚γ‚£ƒbcIv
 
+#u‚­‚ΐ‚γ‚ΤƒbA‚Ώ‚γ‚ΐ‚γ‚£‚Αc’†‚Μ—ϋ“ϋA‚·‚®‚Ι‘ςR‚ ‚Σ‚κo‚Ή‚Ώ‚α‚¤‚©‚η‚Λcc‚Ò‚ΐ‚γ‚ή‚ΑA‚Ό‚ΐ‚γ‚ΐ‚γ‚¶‚γ‚¶‚γƒbIv
 —‚έ‚©‚ρ,A01447
-u‚­‚ΐ‚γ‚ΤƒbA‚Ώ‚γ‚ΐ‚γ‚£‚Αc’†‚Μ—ϋ“ϋA‚·‚®‚Ι‘ςR‚ ‚Σ‚κo‚Ή‚Ώ‚α‚¤‚©‚η‚Λcc‚Ò‚ΐ‚γ‚ή‚ΑA‚Ό‚ΐ‚γ‚ΐ‚γ‚¶‚γ‚¶‚γƒbIv
-
 
 @mikan_kanashimi	#£
 #΅BGiH“°j
 @bg_dining		# H“°
 
-
 cc‚Ζ‚©B
 
+#u‚Ά‚β—ϋ“ϋ‚Α‚Δcc‚Ζ‚ρ‚Ύ“”A•a‚Ύ‚ΘA‚¨‚Άv
 —χ
-u‚Ά‚β—ϋ“ϋ‚Α‚Δcc‚Ζ‚ρ‚Ύ“”A•a‚Ύ‚ΘA‚¨‚Άv
 
+#ucccHv
 —‚έ‚©‚ρ,A01448
-ucccHv
-
 
 @mikan_
 
-
 ‚»‚κΘ‘O‚ΙA΅‚Μ–Ο‘z‚ΝƒIƒ‚ΰ‚έ‚©‚ρ‚ΰ®‘S‚ΙƒLƒƒƒ‰‚ª‚¨‚©‚µ‚·‚¬‚ιB
 
+#uΛ’I‚Ι‚¨‰Ωq‚Ν‰½‚ΰ–³‚Ά‚έ‚½‚Άccv
 —‚έ‚©‚ρ,A01449
-uΛ’I‚Ι‚¨‰Ωq‚Ν‰½‚ΰ–³‚Ά‚έ‚½‚Άccv
 
+#u‚ ‚ρ‚ά‚θ”ƒ‚Ά’u‚«‚Ζ‚©‚µ‚Θ‚Άƒ^ƒCƒv‚Ύ‚©‚η‚Θ‚A”ό‰J‚Νv
 —χ
-u‚ ‚ρ‚ά‚θ”ƒ‚Ά’u‚«‚Ζ‚©‚µ‚Θ‚Άƒ^ƒCƒv‚Ύ‚©‚η‚Θ‚A”ό‰J‚Νv
 
 “Α‚ΙH‚Χ•¨n‚ΝA•K—v‚Ι‚Θ‚Α‚½‚Ζ‚«‚Μ“x‚Ι”ό‰J©g‚ªθ‚π‰Α‚¦‚Δ‚Ά‚ι‚©‚ηB
 
+#u‚ά‚A‚²”Ρ‚ά‚Ε‰δ–‚µ‚ΘB‚ΰ‚¤‚·‚®‚Ύ‚©‚ηv
 —χ
-u‚ά‚A‚²”Ρ‚ά‚Ε‰δ–‚µ‚ΘB‚ΰ‚¤‚·‚®‚Ύ‚©‚ηv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚Ν`‚Άv
 —‚έ‚©‚ρ,A01450
-u‚Ν`‚Άv
-
 
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Φj
 return
-
-
-
-
 
 label	mikan_tachi_15	#-----------------------------------------------------
 #‚έ‚©‚ρ—§‚ΏGƒCƒxƒ“ƒg‚P‚T
@@ -4912,136 +4059,111 @@ label	mikan_tachi_15	#-----------------------------------------------------
 #”­¶ϊΤF‰Δκi‚V‚Q‚O“ϊ`‚W‚R‚P“ϊj
 #------------------------------------------------------------
 
-
 @bgm12			#‰‰F‰Ό‚a‚f‚l
 #΅BGiH“°j
 @bg_dining		# H“°
 
-
 H“°‚Ι‚β‚Α‚Δ‚­‚ι‚ΖA‚έ‚©‚ρ‚ª—β“€Ι‚πJ‚―•ϊ‚Α‚Δ‚Ά‚½B
 
+#ucc‰½‚µ‚Δ‚ι‚ρ‚ΎHv
 —χ
-ucc‰½‚µ‚Δ‚ι‚ρ‚ΎHv
-
 
 @mikan_odoroki		#‹Α
 
-
+#u‚¦H@‚ A‚¨Z‚Ώ‚α‚ρv
 —‚έ‚©‚ρ,A01451
-u‚¦H@‚ A‚¨Z‚Ώ‚α‚ρv
 
 ƒ{ƒƒ{ƒcc
 
+#ucc‰½‚πH‚Χ‚Δ‚ιv
 —χ
-ucc‰½‚πH‚Χ‚Δ‚ιv
-
 
 @mikan_warai		#Ξ
 
-
+#u•X‚Ύ‚ζ`τ@ƒAƒCƒXƒ[ƒJ[‚Ιo—‚Δ‚ι‚β‚Βv
 —‚έ‚©‚ρ,A01452
-u•X‚Ύ‚ζ`τ@ƒAƒCƒXƒ[ƒJ[‚Ιo—‚Δ‚ι‚β‚Βv
 
+#ucc‚»‚κ‚Α‚Δ•’Κ‚Μ•X‚Ύ‚ζ‚Θcc–΅‚Μ–³‚Ά…‚π“€‚η‚Ή‚½‚Ύ‚―‚Μv
 —χ
-ucc‚»‚κ‚Α‚Δ•’Κ‚Μ•X‚Ύ‚ζ‚Θcc–΅‚Μ–³‚Ά…‚π“€‚η‚Ή‚½‚Ύ‚―‚Μv
-
 
 @mikan			#•’Κ
 
-
+#u‚¦H@•Ο‚©‚Θ‚B‹‚Ά‚Ζ‚«‚ΝƒAƒCƒX‚Μ‘γ‚ν‚θ‚ΙH‚Χ‚ι‚ρ‚Ύ‚ζv
 —‚έ‚©‚ρ,A01453
-u‚¦H@•Ο‚©‚Θ‚B‹‚Ά‚Ζ‚«‚ΝƒAƒCƒX‚Μ‘γ‚ν‚θ‚ΙH‚Χ‚ι‚ρ‚Ύ‚ζv
-
 
 @mikan_warai2		#Ξ2
 
-
+#u³‚ª‚¨…‚Ύ‚©‚ηA‚¨• ‚ΰ–c‚κ‚Θ‚Ά‚µ‚·‚²‚­•Φ—‚Ε‚µ‚ετv
 —‚έ‚©‚ρ,A01454
-u³‚ª‚¨…‚Ύ‚©‚ηA‚¨• ‚ΰ–c‚κ‚Θ‚Ά‚µ‚·‚²‚­•Φ—‚Ε‚µ‚ετv
 
 ƒ{ƒƒ{ƒƒ{ƒcc
 
+#u‚ά‚‘F…‚Ύ‚©‚η‚Θv
 —χ
-u‚ά‚‘F…‚Ύ‚©‚η‚Θv
 
+#u‚»‚¤Ύ‚¦‚Ξ”ό‰J‚ªAΕ‹ί—β“€Ι‚Μ•X‚ΜΈ‚θ‚ª‘‚Ά‚Α‚ΔΎ‚Α‚Δ‚½‚Α‚―v
 —χ
-u‚»‚¤Ύ‚¦‚Ξ”ό‰J‚ªAΕ‹ί—β“€Ι‚Μ•X‚ΜΈ‚θ‚ª‘‚Ά‚Α‚ΔΎ‚Α‚Δ‚½‚Α‚―v
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚έA‚έ‚©‚ρ‚Ύ‚―‚¶‚α‚Θ‚Ά‚ζB‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΰH‚Χ‚Δ‚ι‚µv
 —‚έ‚©‚ρ,A01455
-u‚έA‚έ‚©‚ρ‚Ύ‚―‚¶‚α‚Θ‚Ά‚ζB‚Ά‚Ώ‚²‚Ώ‚α‚ρ‚ΰH‚Χ‚Δ‚ι‚µv
-
 
 @mikan_warai		#Ξ
 
-
+#u‚»‚κ‚Ι‚έ‚©‚ρ‚Ν‚Ώ‚α‚ρ‚ΖAH‚Χ‚½γ‚ΝV‚µ‚­ƒgƒƒC‚Ι…‚ΰ—­‚ί‚Δ‚ι‚ΰ‚ρv
 —‚έ‚©‚ρ,A01456
-u‚»‚κ‚Ι‚έ‚©‚ρ‚Ν‚Ώ‚α‚ρ‚ΖAH‚Χ‚½γ‚ΝV‚µ‚­ƒgƒƒC‚Ι…‚ΰ—­‚ί‚Δ‚ι‚ΰ‚ρv
 
+#u‚Β‚ά‚θA“ρl‚µ‚Δ‡vA‚»‚ΜƒgƒƒCκM‚Ε‚Ν’Η‚Ά‚Β‚©‚Θ‚Ά‚­‚η‚ΆH‚Χ‚Δ‚ι‚Α‚Δ‚±‚Ζ‚Ύ‚ΘHv
 —χ
-u‚Β‚ά‚θA“ρl‚µ‚Δ‡vA‚»‚ΜƒgƒƒCκM‚Ε‚Ν’Η‚Ά‚Β‚©‚Θ‚Ά‚­‚η‚ΆH‚Χ‚Δ‚ι‚Α‚Δ‚±‚Ζ‚Ύ‚ΘHv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚ cc‚¦A‚¦‚Α‚Ζccv
 —‚έ‚©‚ρ,A01457
-u‚ cc‚¦A‚¦‚Α‚Ζccv
 
 •ζ‚π@‚Α‚Δ‚ιB
 
-
 @mikan_kanashimi	#£
 
-
+#u‚Ύ‚Α‚Δ‹‚Ά‚ρ‚Ύ‚ΰ‚ρccO‚Ε—V‚ρ‚Ε‚«‚½‹A‚θ‚Ζ‚©v
 —‚έ‚©‚ρ,A01458
-u‚Ύ‚Α‚Δ‹‚Ά‚ρ‚Ύ‚ΰ‚ρccO‚Ε—V‚ρ‚Ε‚«‚½‹A‚θ‚Ζ‚©v
 
+#u‚ά‚ƒAƒCƒX‚Ζ‚©ƒWƒ…[ƒX‚πζ‚θ‚·‚¬‚ι‚ζ‚θ‚ΝAQ‚ΰ–³‚Ά‚Ύ‚λ‚¤‚―‚Η‚Θv
 —χ
-u‚ά‚ƒAƒCƒX‚Ζ‚©ƒWƒ…[ƒX‚πζ‚θ‚·‚¬‚ι‚ζ‚θ‚ΝAQ‚ΰ–³‚Ά‚Ύ‚λ‚¤‚―‚Η‚Θv
-
 
 @mikan_kusyou		#‹κΞ
 
-
+#u‚¤‚ρA‚Ε‚ΰcc‚έ‚©‚ρ‚ΰΕ‰‚Ν‚»‚¤v‚Α‚Δ‚½‚ρ‚Ύ‚―‚Ηv
 —‚έ‚©‚ρ,A01459
-u‚¤‚ρA‚Ε‚ΰcc‚έ‚©‚ρ‚ΰΕ‰‚Ν‚»‚¤v‚Α‚Δ‚½‚ρ‚Ύ‚―‚Ηv
 
+#u‚¨Z‚Ώ‚α‚ρA‚ΰ‚µ‚©‚µ‚Δ‚±‚±‚Μ‚¨…Ag‘Μ‚Ι«‚Ά•Ο‚Θ‚Μ‚ª¬‚΄‚Α‚Δ‚ι‚Μ‚©‚ΰv
 —‚έ‚©‚ρ,A01460
-u‚¨Z‚Ώ‚α‚ρA‚ΰ‚µ‚©‚µ‚Δ‚±‚±‚Μ‚¨…Ag‘Μ‚Ι«‚Ά•Ο‚Θ‚Μ‚ª¬‚΄‚Α‚Δ‚ι‚Μ‚©‚ΰv
 
+#u‚¦Hv
 —χ
-u‚¦Hv
 
 ‚έ‚©‚ρ‚ª[‚»‚¤‚Ι‚¨• ‚π‰‚³‚¦‚½B
 
-
 @mikan_kanashimi	#£
 
-
+#uΕ‹ί‚ζ‚­A‚¨• ‚ª’Ι‚­‚Θ‚ι‚ΜB•X‚Μ‚Ή‚Ά‚©‚Θ‚v
 —‚έ‚©‚ρ,A01461
-uΕ‹ί‚ζ‚­A‚¨• ‚ª’Ι‚­‚Θ‚ι‚ΜB•X‚Μ‚Ή‚Ά‚©‚Θ‚v
 
+#uccc‚ ‚ v
 —χ
-uccc‚ ‚ v
 
 ‚»‚κ‚ΝΤα‚Ά‚Θ‚­•X‚Μ‚Ή‚Ά‚Ύ‚ΘB
 
+#uH‚Ά‚·‚¬‚ΎB‚µ‚Ξ‚η‚­•X‚Ν‹Φ~v
 —χ
-uH‚Ά‚·‚¬‚ΎB‚µ‚Ξ‚η‚­•X‚Ν‹Φ~v
-
 
 #SE75@ƒVƒ‡ƒbƒN‰ΉiƒK[[ƒ“Ij
 @SE75			#SE75@ƒVƒ‡ƒbƒN‰ΉiƒK[[ƒ“Ij
 @mikan_komikaru_kanashimi	#ƒRƒ~ƒJƒ‹£
 
-
+#uccc‚¦‚¦ƒbIv
 —‚έ‚©‚ρ,A01462
-uccc‚¦‚¦ƒbIv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F‚Ύ‚Ύ‚±‚Λ
@@ -5057,43 +4179,37 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚»‚ρ‚ΘƒbA‚Ύ‚Α‚½‚η‚ΰ‚¤‚έ‚©‚ρAƒWƒ…[ƒX‚Ζ‚©ƒAƒCƒX‚πƒ„ƒPH‚Ά‚·‚ι‚µ‚©“Ή‚ª‚Θ‚Ά‚ζ‚§‚Αv
 —‚έ‚©‚ρ,A01463
-u‚»‚ρ‚ΘƒbA‚Ύ‚Α‚½‚η‚ΰ‚¤‚έ‚©‚ρAƒWƒ…[ƒX‚Ζ‚©ƒAƒCƒX‚πƒ„ƒPH‚Ά‚·‚ι‚µ‚©“Ή‚ª‚Θ‚Ά‚ζ‚§‚Αv
 
+#u‚β‚ί‚κB—β‚½‚Ά‚ΰ‚Μ‚Μζ‚θ‚·‚¬‚ΕA’Pƒ‚Ι‚¨• ‚π—β‚β‚µ‚Δ‚ι‚ρ‚Ύ‚ζv
 —χ
-u‚β‚ί‚κB—β‚½‚Ά‚ΰ‚Μ‚Μζ‚θ‚·‚¬‚ΕA’Pƒ‚Ι‚¨• ‚π—β‚β‚µ‚Δ‚ι‚ρ‚Ύ‚ζv
-
 
 se_stop		0
 
-
+#u‚»A‚»‚ρ‚Θcc‚έ‚©‚ρA‰Δ‚πζ‚θΨ‚κ‚Θ‚Άccv
 —‚έ‚©‚ρ,A01464
-u‚»A‚»‚ρ‚Θcc‚έ‚©‚ρA‰Δ‚πζ‚θΨ‚κ‚Θ‚Άccv
 
 ƒI[ƒo[‚Θq‚Ύ‚Α‚½BH‚Χ‚ι•¨‚ªΦ‚ν‚Α‚½‚Ζ‚«‚ΝB
 
+#uS“ª–Ε‹p‚·‚κ‚ΞA‰Ξ‚ΰ‚ά‚½—Α‚µ‚Α‚ΔΎ—t‚ª‚ ‚ιv
 —χ
-uS“ª–Ε‹p‚·‚κ‚ΞA‰Ξ‚ΰ‚ά‚½—Α‚µ‚Α‚ΔΎ—t‚ª‚ ‚ιv
 
+#u—β‚½‚Ά‚ΰ‚Μ‚πζ‚ι–‚Ύ‚―‚ªA‹‚³‚πζ‚θΨ‚ιp‚¶‚α‚Θ‚Ά‚ΌHv
 —χ
-u—β‚½‚Ά‚ΰ‚Μ‚πζ‚ι–‚Ύ‚―‚ªA‹‚³‚πζ‚θΨ‚ιp‚¶‚α‚Θ‚Ά‚ΌHv
-
 
 @mikan_kanashimi	#£
 
-
+#uccc‚Β‚ά‚θv
 —‚έ‚©‚ρ,A01465
-uccc‚Β‚ά‚θv
 
+#u‚¨• ‚π—β‚β‚³‚Θ‚Ά‚ζ‚¤‚Ι”M‚Ά‚¨’ƒ‚πω‚ρ‚Ε‚©‚ηA•X‚πH‚Χ‚½‚η‘εδ•v‚Α‚Δ‚±‚ΖHv
 —‚έ‚©‚ρ,A01466
-u‚¨• ‚π—β‚β‚³‚Θ‚Ά‚ζ‚¤‚Ι”M‚Ά‚¨’ƒ‚πω‚ρ‚Ε‚©‚ηA•X‚πH‚Χ‚½‚η‘εδ•v‚Α‚Δ‚±‚ΖHv
 
 ccS“ª–Ε‹p``‚Μ‚­‚Ύ‚θ‚ΝA‚ά‚Α‚½‚­•·‚Ά‚Δ‚Ά‚Θ‚©‚Α‚½B
 
+#ucc•ª‚©‚Α‚½B‚PA‚QΒ‚Θ‚η‘Γ‹¦‚·‚ι‚©‚ηB‚Ή‚ί‚ΔH‚Χ‰ί‚¬‚Θ‚Ά‚ζ‚¤‚Ι‚µ‚Θ‚³‚Άv
 —χ
-ucc•ª‚©‚Α‚½B‚PA‚QΒ‚Θ‚η‘Γ‹¦‚·‚ι‚©‚ηB‚Ή‚ί‚ΔH‚Χ‰ί‚¬‚Θ‚Ά‚ζ‚¤‚Ι‚µ‚Θ‚³‚Άv
-
 
 #///////////////////////////////////////////////////////
 #‰‰F‚¤‚Θ‚Έ‚«
@@ -5103,45 +4219,35 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#u‚¤‚ρccc”O‚Ύ‚―‚ΗA•ª‚©‚Α‚½v
 —‚έ‚©‚ρ,A01467
-u‚¤‚ρccc”O‚Ύ‚―‚ΗA•ª‚©‚Α‚½v
 
 κ‘Μ΅‚ά‚Ε‚Ά‚­‚ΒH‚Χ‚Δ‚Ά‚½‚Μ‚©A–{‹C‚Εc”O‚»‚¤‚Ιθυ‚­‚έ‚©‚ρB
 
+#uccccv
 —‚έ‚©‚ρ,A01468
-uccccv
 
 ƒ{ƒƒ{ƒccƒ{ƒƒbAƒ{ƒƒbc
 
+#u‚Ά‚βcc΅‚©‚η‚³‚η‚Ι‚QΒ‚π‹–‚µ‚½‚ν‚―‚¶‚α‚Θ‚­v
 —χ
-u‚Ά‚βcc΅‚©‚η‚³‚η‚Ι‚QΒ‚π‹–‚µ‚½‚ν‚―‚¶‚α‚Θ‚­v
-
 
 @mikan			#•’Κ
 
-
+#u‚¦ccHv
 —‚έ‚©‚ρ,A01469
-u‚¦ccHv
 
 ‹‹Η’¦‚θ‚Έ‚ΙH‚Χ‚Δ‚Ά‚½B
-
 
 bgm_stop
 #΅BGi•j
 @bg_black		# •
 wait		1000
 
-
 ‚±‚Μ“ϊ‚Μ–ιB
 
 ‚¨• ‚π‰‚³‚¦‚Θ‚ª‚ηƒgƒCƒ‚Ι“ό‚ι‚έ‚©‚ρ‚π‚·‚Ά‚©‚ª–Ϊ‚‚µ‚½‚Μ‚ΝA—]’k‚Ε‚ ‚ιB
 
-
 #iƒXƒPƒWƒ…[ƒ‹j
 return
-
-
-
-
 

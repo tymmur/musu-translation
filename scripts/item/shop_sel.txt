@@ -122,7 +122,7 @@ label	shop_sell_message2
 ＠巣蓋さん,H00279
 「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
 
-select	sel,"売る","やっぱりやめる"
+select	sel,"Sell","On second thought..."
 
 if sel=0 then goto shop_sell_message3
 if sel=1 then goto shop_sell_message4

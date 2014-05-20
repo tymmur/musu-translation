@@ -1,9 +1,9 @@
 label	zakuro_04
 #--------------------------------------------------
-#ざくろイベント４（エッチシーン）
-#発生条件：『youzyo-zaku3』が終了していること＆一定の好感度？
+#Zakuroイベント４（エッチシーン）
+#発生条件：『youzyo-zaku3』が終了していること＆一定の好感度?
 #発生時期：未定
-#※樹がうつぶせて、若干の顔あげ状態。ざくろが口元へ秘裂を押し付けて、身体を起こしてる６９体勢。手は樹のチンコを握っている。
+#※Itsukiがうつぶせて、若干の顔あげ状態。Zakuroが口元へ秘裂を押し付けて、身体を起こしてる６９体勢。手はItsukiのチンコを握っている。
 #--------------------------------------------------
 
 
@@ -12,167 +12,196 @@ label	zakuro_04
 @bgm12			#BGM 12 : メインテーマ
 
 
-空いた時間を利用して、また図書室へやってきた。
+#空いた時間を利用して、また図書室へやってきた。
+#SCRIPT ADD KANJI
+Ｕsing the free time, I go to the library again.
 
-＠樹
-（『ざくろだらけ』が気になる………半分、中毒だな……）
+#（『Zakuroだらけ』が気になる.........半分、中毒だな......）
+＠Itsuki
+( I'm curious about 'Zakuro darake'......... Half, it's addicting.....) 
 
-堂々と本棚に並べてあることもあって、徐々に罪悪感も薄れてきている。
+#dont know bout the last, maybe it says half of it is addicting. 
 
-っていうか、見ても良いもの扱いにしか思えない。
+#堂々と本棚に並べてあることもあって、徐々に罪悪感も薄れてきている。
+#SCRIPT ADD KANJI
+Ｓeeing the magnificent line up of bookshelf, My sense of guilt slowly fading.
 
-＠樹
-「どこまで読んだっけ……『vol.4』の……」
+#っていうか、見ても良いもの扱いにしか思えない。
+#SCRIPT ADD KANJI
+Ｏr perhaps I should say, h.
 
+#「どこまで読んだっけ......『vol.4』の......」
+＠Itsuki
+「Let's see where did I left of..... at 'vol.4'.....」
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
+#「ん......?」
+＠Itsuki
+「Hmm.....?」
 
-＠樹
-「ん……？」
-
-誰か入ってきたドアの方へ視線を向ける。
-
+#誰か入ってきたドアの方へ視線を向ける。
+#SCRIPT ADD KANJI
+Ｉ take a glance to look who's entering the room.
 
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
 
 
-＠ざくろ,Q00546
-「…………」
+#「............」
+＠Zakuro,Q00546
+「.............」
 
-
-#EF（画面シェイク？　もしくはSEか……手ごろな驚き演出）
+#EF（画面シェイク?　もしくはSEか......手ごろな驚き演出）
 @SE24			#SE24　物音（ガタンッ）
 screen_vibration	500,16,16,16
 
+#「うぉあッ!　Zakuroッ!?」
+＠Itsuki
+「Uahh! Zakuro!?」
 
-＠樹
-「うぉあッ！　ざくろッ！？」
-
-＠ざくろ,Q00547
-「……つっちー？」
-
+#「......つっちー?」
+＠Zakuro,Q00547
+「......Tsucchi?」
 
 window_close
 @zakuro_
 @SE17			#SE17　廊下を歩いてくる音　※徐々に大きく
 
 
-慌てて棚に伸ばした手を引っ込める。
-
+#慌てて棚に伸ばした手を引っ込める。
+#SCRIPT ADD KANJI
+Ｉ panicly withdraw my hand from reaching the shelf.
 
 se_stop		0
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_akire		#呆
 
+#「何してるの?」
+＠Zakuro,Q00548
+「What are you doing?」
 
-＠ざくろ,Q00548
-「何してるの？」
+#「な、何って.........えっと」
+＠Itsuki
+「Wh-,What am I doing?....... Errr.」
 
-＠樹
-「な、何って………えっと」
+#さすがに本人の前で、「日記読みに来た」とは言えない......
+#SCRIPT ADD KANJI
+Ａs expected I can't say in front of the real person [I come to read your diary]......
 
-さすがに本人の前で、「日記読みに来た」とは言えない……
-
-＠樹
-「ざくろは……？」
-
+#「Zakuroは......?」
+＠Itsuki
+「What about you.....?」
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00549
-「私は、雫に呼ばれて調教の時間だから」
+#「私は、雫に呼ばれて調教の時間だから」
+＠Zakuro,Q00549
+「I was called by Shizuku because it's training time.」
 
-＠樹
-「……今から、ここで？」
-
+#「......今から、ここで?」
+＠Itsuki
+「.......Now, in here?」
 
 @zakuro			#普
 
 
-＠ざくろ,Q00550
-「うん。今日は趣向を変えるから、ここに来るようにって」
-
+#「うん。今日は趣向を変えるから、ここに来るようにって」
+＠Zakuro,Q00550
+「Yeah. There's a change of plan for today, so I should go here.」
 
 @zakuro_akire		#呆
 
+#「つっちーが今日の相手なの?」
+＠Zakuro,Q00551
+「Tsucchi is my partner for today?」
 
-＠ざくろ,Q00551
-「つっちーが今日の相手なの？」
+#ブンブンと慌てて首を振る。
+#SCRIPT ADD KANJI
+Ｍy mind is wavered and confused.
 
-ブンブンと慌てて首を振る。
-
+# Err dunno what bun2 means, it's translated as swish --'
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00552
-「なるほど。そういうシチュエーションのプレイなのね」
+#「なるほど。そういうシチュエーションのプレイなのね」
+＠Zakuro,Q00552
+「 I see. This is that kind of another situation play, isn't it.」
 
-＠樹
-「だから違うっつの」
-
+#「だから違うっつの」
+＠Itsuki
+「As I say, you're mistaken.」
 
 @zakuro_iya		#嫌
 
 
-＠ざくろ,Q00553
-「……でも、挙動不審」
-
+#「......でも、挙動不審」
+＠Zakuro,Q00553
+「.......But, you're acting suspiciously.」
 
 @zakuro			#普
 
+#「ここで何をしてたの?」
+＠Zakuro,Q00554
+「What have you been doing in here?」
 
-＠ざくろ,Q00554
-「ここで何をしてたの？」
+#「............いや、それはまぁ」
+＠Itsuki
+「..............Well, that is one thing.」
 
-＠樹
-「…………いや、それはまぁ」
-
-＠樹
-「……とりあえず、雫さんもすぐ来ると思うし、オレももう行くから」
-
+#「......とりあえず、雫さんもすぐ来ると思うし、オレももう行くから」
+＠Itsuki
+「....... For the time being, I think Shizuku will come soon, I'll be leaving for now.」
 
 @zakuro_
 
 
-ざくろの横を過ぎ、図書室を後にしようとする。
+#Zakuroの横を過ぎ、図書室を後にしようとする。
+#SCRIPT ADD KANJI
+Ｗith her presence, let's return here later.
 
-＠ざくろ,Q00555
-「待って」
+#dunno about yoko wo sugi.... i think i mean like this
 
+#「待って」
+＠Zakuro,Q00555
+「Wait.」
 
 screen_vibration	500,16,16,16
 
 
-腕を引き止められた。
-
+#腕を引き止められた。
+#SCRIPT ADD KANJI
+Ｓhe stopped me by pulling my arms.
 
 #@zakuro_middle		# 中間
 #@zakuro_shifuku
 #@zakuro_iya		#嫌
 
 
-＠ざくろ,Q00556
-「このままエッチしないで終わったら、私もつっちーも後で怒られる」
+#「このままエッチしないで終わったら、私もつっちーも後で怒られる」
+＠Zakuro,Q00556
+「If this ended just like that without doing any sex, Both of us will get scolded.」 
 
-＠樹
-「………さては全然聞いてないな？　人の話」
+#「.........さては全然聞いてないな?　人の話」
+＠Itsuki
+「..........you didn't hear anyhintg, did you? my argument.」
 
-＠樹
-「オレは違うっての。たまたまここに来ただけだ」
+#my argument seems lame, dont know need rephrase maybe with something what i've said or sumthin
 
+#「オレは違うっての。たまたまここに来ただけだ」
+＠Itsuki
+「I said you're mistaken, you know. I came here by chance.」
 
 #@zakuro_
 
 
-＠ざくろ,Q00557
-「…………」
+＠Zakuro,Q00557
+「..............」
 
 
 window_close
@@ -185,55 +214,66 @@ wait		2000
 se_stop		0
 
 
-＠樹
-「え……」
+#「え......」
+＠Itsuki
+「Eh?......」
 
-いつの間にかざくろが、オレの両手を後ろ手に縛っていた。
+#いつの間にかZakuroが、オレの両手を後ろ手に縛っていた。
+#SCRIPT ADD KANJI
+Ｂefore awaring of it, Zakuro has tied my both hand to the back.
 
-＠樹
-「……って、うそッ！？」
+#err dont know what the better english to the back
 
-慌てて解こうとするが、すでに荒縄で固結びにされてどうしようもない。
+#「......って、うそッ!?」
+＠Itsuki
+「........Wha-, Seriously!?」
 
+#慌てて解こうとするが、すでに荒縄で固結びにされてどうしようもない。
+#SCRIPT ADD KANJI
+Ｔo solve this in panic, It's already too late as the rope has tied strongly.
+
+#or
+#It's impossible to get out of this since I'm panic and the roped had already tied strongly.
+#Hit me for this 
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
 
+#「関節でも外さない限り、一人じゃ解けないわよ?」
+＠Zakuro,Q00558
+「I've restricted your joint movement to the extreme, it can't be undo it by yourself you know.」 
 
-＠ざくろ,Q00558
-「関節でも外さない限り、一人じゃ解けないわよ？」
-
-＠樹
-「手早すぎるッ！　って言うか、オレは無関係だって言うのに！」
-
+#「手早すぎるッ!　って言うか、オレは無関係だって言うのに!」
+＠Itsuki
+「Your hand is too fast! Eh wait, I've already said that I don't have any relation with this thing!」
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00559
-「うん、分かってる」
-
+#「うん、分かってる」
+＠Zakuro,Q00559
+「Yeah, I already know.」
 
 @zakuro			#普
 
-
-＠ざくろ,Q00560
-「今日は逆レイプを希望するお客のための練習ってことでしょ？」
+#「今日は逆レイプを希望するお客のための練習ってことでしょ?」
+＠Zakuro,Q00560
+「Today's training is reverse rape training for fulfilling costumer wish right?」
 
 
 screen_vibration	500,16,16,16
 
-
-＠樹
-「分かってねぇ！　っていうか、マジでオレは違うんだって！　縄を解け！」
+#「分かってねぇ!　っていうか、マジでオレは違うんだって!　縄を解け!」
+＠Itsuki
+「You don't get it ! I mean, you seriously get the wrong man!! Release me!」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q00561
-「…………」
+＠Zakuro,Q00561
+「.............」
 
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
@@ -243,50 +283,58 @@ wait		1000
 @SE09			#部屋のドアの鍵を掛ける音（カチャ）
 
 
-無機質な音で、部屋の鍵が掛けられる。
+#無機質な音で、部屋の鍵が掛けられる。
+#SCRIPT ADD KANJI
+Ｗith a clack sound being heard, the room's door is locked.
 
-＠樹
-「……ま、またカギ…」
+#「......ま、またカギ...」
+＠Itsuki
+「.......An-, another locking....」
 
-この瞬間、最初のフェラチオをされたデジャビュが脳内に走る。
-
+#この瞬間、最初のフェラチオをされたデジャビュが脳内に走る。
+#SCRIPT ADD KANJI
+Ｉn instance, A dejavu about the first blow job flashes before me.
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
 
 
-＠ざくろ,Q00562
-「間違いだとしても、何かエッチを済ませないと後には引けないの」
+#「間違いだとしても、何かエッチを済ませないと後には引けないの」
+＠Zakuro,Q00562
+「Even if I'm mistaken, I need to finish this fast or else.」
 
-＠樹
-「……え？」
+#Smack me if this killing the chara :P
 
-＠樹
-「……な、何で」
+#「......え?」
+＠Itsuki
+「.......Eh?」
 
+#「......な、何で」
+＠Itsuki
+「......Wh-, Why?」
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00563
-「早く出かけないと、青ノリの特売が終わっちゃうから」
+#「早く出かけないと、青ノリの特売が終わっちゃうから」
+＠Zakuro,Q00563
+「If I don't get out early, Seaweed's special discount will be ended by then.」
 
-
-#SE66　効果音１（ビシッ！）
+#SE66　効果音１（ビシッ!）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠樹
-「人の操を青ノリより軽く見るなよッ！」
-
+#「人の操を青ノリより軽く見るなよッ!」
+＠Itsuki
+「Don't place other honour below seaweed!」
 
 @zakuro_niko		#にこ
 
 
-＠ざくろ,Q00564
-「ついでに、つっちーが最初よりどれくらい上達したのか見てみたい」
-
+#「ついでに、つっちーが最初よりどれくらい上達したのか見てみたい」
+＠Zakuro,Q00564
+「While at it, I want to see how much you improved since the first time.」
 
 #■BG（黒）
 bgm_stop
@@ -297,147 +345,216 @@ bgm_stop
 scene_start	"ざくろの逆レイプ"
 #--------------------------------------------------
 
+#NOOOOOO THERE IS ERO SCENE IN DAY !!!!
 
-＠樹
-「ちょッ！？　うわッ、やめッ……こっちくんな！」
-
+#「ちょッ!?　うわッ、やめッ......こっちくんな!」
+＠Itsuki
+「Wait!? Uwaa, Stop...... dont come closer!!」
 
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
 
-意外に強いタックルを受けて転ばされると、マウントポジションを取られる。
+#意外に強いタックルを受けて転ばされると、マウントポジションを取られる。
+#SCRIPT ADD KANJI
+Ｕnexpectedly I was knocked down by a strong tackle, and i ended up in mounted position / being mounted.
 
-＠ざくろ,Q00565
-「全身縛られたくなかったら、大人しくしてて」
-
+#「全身縛られたくなかったら、大人しくしてて」
+＠Zakuro,Q00565
+「As we don't tie the whole body, please stay still.」
 
 #SE01　ズボンのベルトを外す（カチャカチャ）
 @SE01			#SE01　ズボンのベルトを外す（カチャカチャ）
 
 
-＠樹
-「冗談だろッ！？　こらッ、ズボンを脱がすなー！！」
+#「冗談だろッ!?　こらッ、ズボンを脱がすなー!!」
+＠Itsuki
+「You're joking right!? Hey, don't take off my trousers!!」
 
-全く身に覚えのない展開で、ざくろに犯される。
+#全く身に覚えのない展開で、Zakuroに犯される。
+#SCRIPT ADD KANJI
+Ｗithout getting horny, Zakuro rape my body.
 
+#err dunno how to put without having the whole body feels the feeling, she rapes it.
 
 #素材待ち：ＥＶ
 #--------------------------------------------------
 #■HCG（６９の、フェラしていないver.（体位は参考CG参照）。
 #服は乱れてないまま。スカートは捲られているが、下はまだ紐パン。
-#クロッチは樹の口元。→差分でショーツを脱ぐシーンがあるので、
-#サンプルの体位のまま、視点は樹側（ショーツ側）からの方が見栄えがいいかも？）EV_ZAK_060
+#クロッチはItsukiの口元。→差分でショーツを脱ぐシーンがあるので、
+#サンプルの体位のまま、視点はItsuki側（ショーツ側）からの方が見栄えがいいかも?）EV_ZAK_060
 
 event		"event\EV_ZAK_060-00.png"
 @bgm10			#BGM 10 : エッチシーンのテーマ
 #--------------------------------------------------
 
 
-＠ざくろ,Q00566
-「ふふ、もう大きくなり始めてる。元気なおちんちん」
+#「ふふ、もう大きくなり始めてる。元気なおちんちん」
+＠Zakuro,Q00566
+「Fufu, already this big for the beginning. What a healthy cock.」
 
-取り出した肉茎に微笑すると、ドロワーズを降ろした腰をこちらに押し付けてくる。
+#取り出した肉茎に微笑すると、ドロワーズを降ろした腰をこちらに押し付けてくる。
+#SCRIPT ADD KANJI
+Ｓhe smiles as my cock came out, she lowers down her drawers and approach me.
 
-＠樹
-「は、早まるなってッ……すぐ雫さんを呼んで、買い物にも行かせてやるから！」
+#「は、早まるなってッ......すぐ雫さんを呼んで、買い物にも行かせてやるから!」
+＠Itsuki
+「Do-, Don't be too hasty...... I'll call Shizuku to give you the permission to go shopping!」
 
-＠ざくろ,Q00567
-「つっちーもイヤじゃないんでしょ？」
+#「つっちーもイヤじゃないんでしょ?」
+＠Zakuro,Q00567
+「Well you don't seem to refuse it, Tsucchi.」
 
-＠ざくろ,Q00568
-「口で言ってるだけで、抵抗が弱い」
+#「口で言ってるだけで、抵抗が弱い」
+＠Zakuro,Q00568
+「It's just some words while your resistance is weak.」
 
-＠樹
-「両手を縛られてるんだよッ！　乗っかられてたら、どうしようもないだろ」
+#「両手を縛られてるんだよッ!　乗っかられてたら、どうしようもないだろ」
+＠Itsuki
+「It's because you tied both of my hands! Being mounted/pinned, I can do anything you know.」
 
-＠ざくろ,Q00569
-「別にいい。正直な感想は、ココの反応で見させてもらうから」
+#「別にいい。正直な感想は、ココの反応で見させてもらうから」
+＠Zakuro,Q00569
+「I don't care/Well then. Let's just ask the real feeling from this things, shall we.」
 
-両手で肉茎を包み込むと、片方は竿を、もう片方は袋の方へ回され揉み始める。
+#両手で肉茎を包み込むと、片方は竿を、もう片方は袋の方へ回され揉み始める。
+#SCRIPT ADD KANJI
+Ｗrapping the cock with both hand, with one covers the penis, and the other begins to rub the balls.
 
-＠ざくろ,Q00570
-「ふよふよしてて温かい。枕代わりにしたら気持ちいいかも」
+#「ふよふよしてて温かい。枕代わりにしたら気持ちいいかも」
+＠Zakuro,Q00570
+「It's very warm. Maybe it'll be good if i change this for my pillow.」
 
-＠ざくろ,Q00571
-「……あ。でもすぐ硬くなっちゃうから無理ね」
+#「......あ。でもすぐ硬くなっちゃうから無理ね」
+＠Zakuro,Q00571
+「.......Ah. But it seems impossible to make this thing hard in instant.」
 
-＠樹
-「なるかッ！　とにかく一度手を離して、腰をのけるんだ」
+#「なるかッ!　とにかく一度手を離して、腰をのけるんだ」
+＠Itsuki
+「As if it would ! Release this at once, and get up.」
 
-＠ざくろ,Q00572
-「無理。もう問答する時間も惜しいから」
+#err need some stronger for the commanding
 
-＠ざくろ,Q00573
-「つっちーがイヤがっても、またあの早漏っぷりで強引に射精させるから平気よ」
+#「無理。もう問答する時間も惜しいから」
+＠Zakuro,Q00572
+「Impossible.  Ah I spent my precious time just by answering.」
 
-自信たっぷりに宣言した直後、思わず情欲を促されそうな気持ちよさで、肉茎を攻め始めるざくろ。
+#「つっちーがイヤがっても、またあの早漏っぷりで強引に射精させるから平気よ」
+＠Zakuro,Q00573
+「Even if Tsucchi refuses,  It's fine because I'll make end fast with that strong premature ejaculation, you know.」
 
-＠樹
-「……ッ！　な、ちょッ…ざくろッ…」
+#自信たっぷりに宣言した直後、思わず情欲を促されそうな気持ちよさで、肉茎を攻め始めるZakuro。
+#SCRIPT ADD KANJI
+Ａfter showing such confidence, instinctively she show her lust, she begins to attack my cock furiously.
 
-＠ざくろ,Q00574
-「まずは、おちんちんの勃起から」
+#「......ッ!　な、ちょッ...Zakuroッ...」
+＠Itsuki
+「.......Th! Wa-, Wait.... Zakuro......」
 
-指先の一本一本にまで巧みな強弱がつき、男性器の感じるツボを断続的に刺激される。
+#「まずは、おちんちんの勃起から」
+＠Zakuro,Q00574
+「Then, let's start from making your penis stand up first.」
 
-同時にざくろは当然のように、さらにこちらへ腰を突き出してきた。
 
-＠ざくろ,Q00575
-「つっちーも、攻めたかったら攻め返して構わないわよ？」
+#指先の一本一本にまで巧みな強弱がつき、男性器の感じるツボを断続的に刺激される。
+#SCRIPT ADD KANJI
+Ｕsing such good strenght control in her fingertip, she stimulate my penis erogenous zone intermittently.
 
-＠ざくろ,Q00576
-「単純に興奮したいっていう理由だけでも、好きなように吸い付いてくれて可」
+#同時にZakuroは当然のように、さらにこちらへ腰を突き出してきた。
+#SCRIPT ADD KANJI
+Ａt the same as if it is natural, she thrust her hips further. 
 
-＠樹
-「そ、そんな合意エッチみたいなことッ………状況がおかしいだろ、状況がっ」
+#「つっちーも、攻めたかったら攻め返して構わないわよ?」
+＠Zakuro,Q00575
+「And Tsucchi, If you want to attack, just attack, i dont mind you know.」
 
-＠ざくろ,Q00577
-「……そう？　別に遠慮しないでいいのに」
+#「単純に興奮したいっていう理由だけでも、好きなように吸い付いてくれて可」
+＠Zakuro,Q00576
+「Even though I told that I just want to arouse you, but you also can play along.」
 
-すぐ眼前に見える、ショーツに包まれたざくろの小ぶりなお尻と、なだらかな丸みを帯びた恥丘。
+#「そ、そんな合意エッチみたいなことッ.........状況がおかしいだろ、状況がっ」
+＠Itsuki
+「Th-, That sort of indecent agreement....... The situation is wierd you know, the situation.」
 
-誘惑や色香とは遠い年齢相応の腰つきだが、調教で他の子を相手しているため、どうしても性的に意識してしまう。
+#「......そう?　別に遠慮しないでいいのに」
+＠Zakuro,Q00577
+「.......It is? It would be good if you don't hold back.」
 
-＠ざくろ,Q00578
-「熱くなって手触りが変わってきてる。勃起してるわよ、つっちー」
+#すぐ眼前に見える、ショーツに包まれたZakuroの小ぶりなお尻と、なだらかな丸みを帯びた恥丘。
+#SCRIPT ADD KANJI
+Ｆor instance in front of my eyes, there's a shorts which wrap up Zakuro's small butt and her round mound pubis.
 
-＠樹
-「……さ、触られてたら当然だ、反応しない方がおかしいっ」
+#Err dunno about chikyuu thing
 
-＠ざくろ,Q00579
-「そうだとしても、他の人より早い部類に入るわ」
+#誘惑や色香とは遠い年齢相応の腰つきだが、調教で他の子を相手しているため、どうしても性的に意識してしまう。
+#SCRIPT ADD KANJI
+Ｈer hips moves without seduction nor taste that suits her age, but because of being partner for other kids' training, I just can't stop neomg concious of her sexuality.
 
-＠ざくろ,Q00580
-「今日の下着は気に入ってるやつだから、興奮されるのは嬉しいかも」
+#「熱くなって手触りが変わってきてる。勃起してるわよ、つっちー」
+＠Zakuro,Q00578
+「It becomes hot as it being touched. And it's erecting too, Tsucchi.」
 
-こんな体勢でも余裕そうに、ざくろは膨らんでいく肉茎をさらに刺激して反応を促してくる。
+#「......さ、触られてたら当然だ、反応しない方がおかしいっ」
+＠Itsuki
+「......Of, Of course it will, it will be wierd if it doesnt respond.」
 
-意識をそらしても抑えきれず、オレはその手使いで股間に血流を滾らされていく。
+#「そうだとしても、他の人より早い部類に入るわ」
+＠Zakuro,Q00579
+「Even it is like that, it's kicks in more than other people.」
 
-＠ざくろ,Q00581
-「この前は見損ねたけど、つっちーのは勃起も堰を切ったみたいに勢いがいいのね」
+#「今日の下着は気に入ってるやつだから、興奮されるのは嬉しいかも」
+＠Zakuro,Q00580
+「I've put on my favorite panties today, I'll be happy if you're getting excited from it.」
 
-＠ざくろ,Q00582
-「射精したそうにムクムクって、すごく一生懸命な感じ」
+#こんな体勢でも余裕そうに、Zakuroは膨らんでいく肉茎をさらに刺激して反応を促してくる。
+#SCRIPT ADD KANJI
+Ｅven in this position, Zakuro quicken on stimulating my swelling dick.
 
-＠樹
-「…う、観察するなッ……っていうか、こんなのに違いなんかあるかよ」
+#意識をそらしても抑えきれず、オレはその手使いで股間に血流を滾らされていく。
+#SCRIPT ADD KANJI
+Ａs my conciusness to not look down is cut, I let that hand to gather my blood.
 
-＠ざくろ,Q00583
-「あるの。自然な勃起なのか、それとも興奮してるのかくらいはすぐに分かる」
+#「この前は見損ねたけど、つっちーのは勃起も堰を切ったみたいに勢いがいいのね」
+＠Zakuro,Q00581
+「I might have missed it, but Tsucchi's erection and vigor to endure is good too.」
 
-真偽は分からないが、その全てを見透かしているような物言いにドキリとする。
+#Dunno bout 'seki wo kitta mitai ni ikoi'
 
-＠ざくろ,Q00584
-「口で抵抗しても、ココは刺激と視界にちゃんと興奮してるみたい」
+#「射精したそうにムクムクって、すごく一生懸命な感じ」
+＠Zakuro,Q00582
+「Swelling like about to burst, it's give an impression of your all might.」
 
-そんな狼狽するオレに、ざくろは微笑を零す。
+# seems wierd maybe change into it's give a very lively feeling?
 
-風変わり著しいとは言え、客層も厚いこの子の独特の魅力は、オレもよく分かって納得していたことだ。
+#「...う、観察するなッ......っていうか、こんなのに違いなんかあるかよ」
+＠Itsuki
+「.....U, Don't do any obersvation of it...... I mean, how it is possible to have such a difference.」
 
-最初のフェラチオによる期待感もあり、本格的な昂揚感が募らされていく。
+#「あるの。自然な勃起なのか、それとも興奮してるのかくらいはすぐに分かる」
+＠Zakuro,Q00583
+「There is. Like natural erection, or about the excitement. I can notice it immediately.」
 
+#真偽は分からないが、その全てを見透かしているような物言いにドキリとする。
+#SCRIPT ADD KANJI
+Ｉ dont know if its true or not but I was startled at her way of saying all that.
+
+#Dunno how to say the way she talks about seeing through all --'
+
+#「口で抵抗しても、ココは刺激と視界にちゃんと興奮してるみたい」
+＠Zakuro,Q00584
+「Even if your mouth oppose it, I can see it being excited from its reaction and field of vision (?)」
+
+#そんな狼狽するオレに、Zakuroは微笑を零す。
+#SCRIPT ADD KANJI
+Ｌooking me in a confusion, Zakuro shows a smile.
+
+#風変わり著しいとは言え、客層も厚いこの子の独特の魅力は、オレもよく分かって納得していたことだ。
+#SCRIPT ADD KANJI
+Ｓhe's eccentric to say the least, however the fact that she attracs a variety of customers with her unique charm is even a thing that I can comprehend.
+
+#最初のフェラチオによる期待感もあり、本格的な昂揚感が募らされていく。
+#SCRIPT ADD KANJI
+Ｔhere is some of expectation due to the first felattio, and my feeling is upraging.
 
 #注：意味不明
 #--------------------------------------------------
@@ -445,240 +562,350 @@ event		"event\EV_ZAK_060-00.png"
 #--------------------------------------------------
 
 
-＠ざくろ,Q00585
-「おちんちん、すっかり硬くなっちゃった」
+#「おちんちん、すっかり硬くなっちゃった」
+＠Zakuro,Q00585
+「Your cock is completely become hard.」
 
-＠ざくろ,Q00586
-「でもつっちー、一方的過ぎて調教にも訓練にもならないわよ？」
+#「でもつっちー、一方的過ぎて調教にも訓練にもならないわよ?」
+＠Zakuro,Q00586
+「But Tsucchi, It's bad for this training for being one sidely you know.」
 
-＠樹
-「当たり前だッ………ざくろ、本気でもうこれ以上は止めろ…」
+#「当たり前だッ.........Zakuro、本気でもうこれ以上は止めろ...」
+＠Itsuki
+「Of course........... Zakuro, seriously please stop doing it more than this...」
 
-＠ざくろ,Q00587
-「…ほんとに往生際が悪い……勃起までして興奮してるのに」
+#Seem wierd , maybe just change it 'please stop it now' if he doesnt want to continue, 'please no more than this' if he wants the bj to continue.
 
-＠ざくろ,Q00588
-「でもこのまま射精しそうにされたら、イヤでも攻め返すしかなくなるでしょ？」
+#「...ほんとに往生際が悪い......勃起までして興奮してるのに」
+＠Zakuro,Q00587
+「..... you really don't where to give up...... Although it has erected and excited this much.」
 
-嘆息しながら告げると、隆起し張り詰めた肉茎を手淫し始めるざくろ。
+#「でもこのまま射精しそうにされたら、イヤでも攻め返すしかなくなるでしょ?」
+＠Zakuro,Q00588
+「But with this thing looks like going to burst, even you don't want to but you'll lose the chance to attack you know?」
 
-巧みな手の動きが絡みつくように竿をシゴき、想像以上の気持ちよさを走らされる。
+#嘆息しながら告げると、隆起し張り詰めた肉茎を手淫し始めるZakuro。
+#SCRIPT ADD KANJI
+Ｓhe tells this while sighing and begin to tense up her grip.
 
-＠ざくろ,Q00589
-「この前はいきなり咥えたから、今日は手から」
+#巧みな手の動きが絡みつくように竿をシゴき、想像以上の気持ちよさを走らされる。
+#SCRIPT ADD KANJI
+Ｓhe wrap the rood and begins to stroke it with skillful movement, and a sensation beyond my imagination runs down.
 
-＠樹
-「んッ…！　う…手までこんな………万能すぎるぞ、ざくろっ……」
+#「この前はいきなり咥えたから、今日は手から」
+＠Zakuro,Q00589
+「Because of the other day are suddenly from mouth, i'm starting from hand today.」
 
-＠ざくろ,Q00590
-「そう？　一家に一台、欲しい感じ？」
+#「んッ...!　う...手までこんな.........万能すぎるぞ、Zakuroっ......」
+＠Itsuki
+「Hmph....!     uh... even with hands, I'm......... you're so good, Zakuro.....」
 
-＠樹
-「……そ、その感性は分からんが」
+#bannou to be utility or omnipotent seems wierd
 
-＠ざくろ,Q00591
-「つっちーのおちんちんも、相変わらず太くて大きいわよ。感心するくらい」
+#「そう?　一家に一台、欲しい感じ?」
+＠Zakuro,Q00590
+「Is it? Like the feeling of wanting a machine at home?」
 
-＠ざくろ,Q00592
-「手も指も大きく動かしやすいから、その分気持ちいいでしょ？」
+#Hmmm... dont know to put in english .
 
-指先でさまざまな場所を刺激しながら、ざくろの手の平はカリ溝までのピストンを、多様なリズムで繰り返す。
+#「......そ、その感性は分からんが」
+＠Itsuki
+「.......Th-, I don't know that sort of thing.」
 
-その複雑な動きは、他で味わった事のない気持ちよさを感じさせる。
+#「つっちーのおちんちんも、相変わらず太くて大きいわよ。感心するくらい」
+＠Zakuro,Q00591
+「Tsucchi's penis too, as usual thick and big. It's a good job to do.」
 
-＠ざくろ,Q00593
-「ふふ……これを女の子のアソコの中に入れるなんて、凶器みたい」
+#dunno kanshin suru kurai
 
-＠ざくろ,Q00594
-「みかんやいちごも、すごく痛かったでしょうね。この大きさは」
+#「手も指も大きく動かしやすいから、その分気持ちいいでしょ?」
+＠Zakuro,Q00592
+「Because it's easy to make you big by finger or hand, just by that part is good, isn't it?」
 
-＠樹
-「……ッそ、そんなこと分かってる……仕事なんだから仕方なかったんだ」
+#指先でさまざまな場所を刺激しながら、Zakuroの手の平はカリ溝までのピストンを、多様なリズムで繰り返す。
+#SCRIPT ADD KANJI
+Ｈer fingertip is stimulating me in various area, and her palm strokes like piston in various repeated rythm.
 
-＠ざくろ,Q00595
-「それでつっちーだけ、そんな未開発の子の中で気持ちよく動いてたんでしょ？」
+#その複雑な動きは、他で味わった事のない気持ちよさを感じさせる。
+#SCRIPT ADD KANJI
+Ｆrom that complex way of moving, I can't feel anything except the pleasant feeling that was given.
 
-＠ざくろ,Q00596
-「これだけ勃起してたら、さぞ摩擦も大きくて気持ちいいと思うし」
+#「ふふ......これを女の子のアソコの中に入れるなんて、凶器みたい」
+＠Zakuro,Q00593
+「Fufu...... If this thing is inserted inside woman's 'place', it'll be dangerous.」
 
-僅かなひずみをほのめかしながら、ざくろは指の一本を伸ばして亀頭に触れる。
+#or dangerously ultimate weapon :p
 
-＠ざくろ,Q00597
-「この先っちょが、いちご達の膣内を深くついて快感を貪ってたのね」
+#「みかんやいちごも、すごく痛かったでしょうね。この大きさは」
+＠Zakuro,Q00594
+「It must be very hurt either for Mikan or Ichigo, right. Doing it with this big thing.」
 
-＠ざくろ,Q00598
-「つっちーのは先端も大きいから、きっと出入りするたびに膣内が押し広げられて、いっぱいだったと思う」
+#「......ッそ、そんなこと分かってる......仕事なんだから仕方なかったんだ」
+＠Itsuki
+「.........I-, I know that thing for sure....... It can't be helped since It's work.」
 
-＠樹
-「わっ、分かってるなら……ざくろ、ソコは触るな……」
+#「それでつっちーだけ、そんな未開発の子の中で気持ちよく動いてたんでしょ?」
+＠Zakuro,Q00595
+「And it's just Tsucchi, that feels good from moving inside of those undeveloped child right?」
 
-＠ざくろ,Q00599
-「ダメ、ココが一番気持ちいいんでしょ？」
+#「これだけ勃起してたら、さぞ摩擦も大きくて気持ちいいと思うし」
+＠Zakuro,Q00596
+「If you erect just by these, certainly you'll feel good from being rubbed, i think.」
 
-＠ざくろ,Q00600
-「射精しちゃったら終了だし、ギリギリの範囲でやるから大丈夫」
+#僅かなひずみをほのめかしながら、Zakuroは指の一本を伸ばして亀頭に触れる。
+#SCRIPT ADD KANJI
+Ｗhile showing a faint hint of twist, Zakuro extends her fingertip to caress the head.
 
-指の腹で亀頭をくすぐりながら、片手で竿をシゴき、反対の手で袋をやわやわと揉みしだく。
+#「この先っちょが、いちご達の膣内を深くついて快感を貪ってたのね」
+＠Zakuro,Q00597
+「Just right now, You were lusting for the pleasant feeling inside Ichigo and others' vagina right.」
 
-怒張した性器全体に這わされる快感に、思わず背筋が震わされた。
+#「つっちーのは先端も大きいから、きっと出入りするたびに膣内が押し広げられて、いっぱいだったと思う」
+＠Zakuro,Q00598
+「Even Tsucchi's tip of penis is big, i'm sure that it would stir inside every time you insert it, i think its very fulfilling.」
 
-＠樹
-「……ッん！　んぅ…こ、こらッ……どこがギリギリの範囲だッ…」
+#stirring or spread out dunno the difference
 
-＠ざくろ,Q00601
-「ちゃんと加減してるわ。本気でやったら全然こんなものじゃないもの」
+#「わっ、分かってるなら......Zakuro、ソコは触るな......」
+＠Itsuki
+「If-, If you already know about that..... Zakuro, don't touch it there..」
 
-＠ざくろ,Q00602
-「力加減だってまだバラバラだし、素手で触ってるのもマイナスでしょ？」
+#「ダメ、ココが一番気持ちいいんでしょ?」
+＠Zakuro,Q00599
+「I can't, Here's the most pleasant right?」
 
-＠樹
-「そ…そうなのか…？　末恐ろしすぎ……っん、ぅ…！」
+#「射精しちゃったら終了だし、ギリギリの範囲でやるから大丈夫」
+＠Zakuro,Q00600
+「It would end if you ejaculate, i'll do it to just barely the moment, so it's alright.」
 
-＠ざくろ,Q00603
-「ふふ。焦るってことは、これで気持ちいいのね、つっちー」
+#指の腹で亀頭をくすぐりながら、片手で竿をシゴき、反対の手で袋をやわやわと揉みしだく。
+#SCRIPT ADD KANJI
+Ｗhile her finger tickle the tip of my penis, one hand stroke the rod/body, and the other hand is gently massaging the ball]
 
-オレの様子にほくそ笑むと、ざくろは竿と亀頭を擦る手の圧迫を〝緩めて〟いく。
+#怒張した性器全体に這わされる快感に、思わず背筋が震わされた。
+#SCRIPT ADD KANJI
+Ｍy overswelling penis pleasant feeling are crawling all over my body, instinctively electrocuted my muscles.
 
-＠ざくろ,Q00604
-「なら、こうすればもっと敏感になっちゃうはずよ」
+#what a wierd description
 
-＠樹
-「え……ッんく、んぅ！　ざ、ざくろッ……！」
+#「......ッん!　んぅ...こ、こらッ......どこがギリギリの範囲だッ...」
+＠Itsuki
+「........Nnh! Nh... He-,Hey....... How can it be just barely do it......」
 
-その緩いくすぐったさが、袋を揉まれる気持ちよさで際立ち、刺激を求めるように股間に血が巡っていく。
+#「ちゃんと加減してるわ。本気でやったら全然こんなものじゃないもの」
+＠Zakuro,Q00601
+「I'm proplery measuring it you know. If i'm doing it serious then it wouldn't be like this.」
 
-＠ざくろ,Q00605
-「……っ、ビクッてして……また大きくなってる、つっちーのおちんちん」
+#「力加減だってまだバラバラだし、素手で触ってるのもマイナスでしょ?」
+＠Zakuro,Q00602
+「I'm hasn't loosened measuring my strenght, it would be a minus if i touch you bare hand right.」 
 
-＠ざくろ,Q00606
-「これは口でしたときより大きいかも………ちょっと興味深い…」
+#「そ...そうなのか...?　末恐ろしすぎ......っん、ぅ...!」
+＠Itsuki
+「Is.... Is that so.....?」
+ 
+#「ふふ。焦るってことは、これで気持ちいいのね、つっちー」
+＠Zakuro,Q00603
+「Fufu. To be this impatient, is it that pleasant, Tsucchi.」
 
-ざくろの言うとおり敏感になり、自分のモノがさらに張り詰めるように肥大していっているのが、感覚で分かる。
+#オレの様子にほくそ笑むと、Zakuroは竿と亀頭を擦る手の圧迫を〝緩めて〟いく。
+#SCRIPT ADD KANJI
+Ｓhe chuckles seeing my condition and she 'loosen' her stroke on my tip of penis and rod.
 
-＠ざくろ,Q00607
-「……つっちー、すごく勃起してる。こんなに大きくしたら、おちんちんの皮膚が裂けちゃうわよ…？」
+#「なら、こうすればもっと敏感になっちゃうはずよ」
+＠Zakuro,Q00604
+「Then, in that case i expect you want to become more sensitive.」
 
-＠樹
-「……んッ、っく！　す、好きでしてるわけじゃ……今さら、手だけでこんなにッ……」
+#「え......ッんく、んぅ!　ざ、Zakuroッ......!」
+＠Itsuki
+「Eh.......Nnh,Guh! Za, Zakuro.......!」
 
-＠ざくろ,Q00608
-「手だけじゃないわ。私のショーツのアソコも見て興奮してるんだから」
+#その緩いくすぐったさが、袋を揉まれる気持ちよさで際立ち、刺激を求めるように股間に血が巡っていく。
+#SCRIPT ADD KANJI
+Ｔhat loosening is ticklish, but the ball massaging feeling is prominent, and like seeking for stimulation the blood is gathering in my lower body]
 
-＠ざくろ,Q00609
-「くす……これが拒否ばっかりしてるつっちーの、正直な性欲なんでしょ？」
+#「......っ、ビクッてして......また大きくなってる、つっちーのおちんちん」
+＠Zakuro,Q00605
+「.........It, It's still reacting...... and getting bigger, Tsucchi's cock.」
 
-羞恥を感じさせるように告げると、ざくろは心持ち愉しそうに腰を浮かせ、クロッチを見せつける。
+#「これは口でしたときより大きいかも.........ちょっと興味深い...」
+＠Zakuro,Q00606
+「I think this is bigger than I did it with my mouth........ I'm become more interested....」
 
-＠樹
-「……えっ」
+#Zakuroの言うとおり敏感になり、自分のモノがさらに張り詰めるように肥大していっているのが、感覚で分かる。
+#SCRIPT ADD KANJI
+Ａs she said it becomes more sensitive, I can feel my thing like tensing up and being larger.s.
 
-＠ざくろ,Q00610
-「ん……つっちーの反応が興味深いから、攻める気が出るまでこうしてる」
+#「......つっちー、すごく勃起してる。こんなに大きくしたら、おちんちんの皮膚が裂けちゃうわよ...?」
+＠Zakuro,Q00607
+「.....Tsucchi, immensly erecting. If you become this big, your skin will tear up you know...?」
 
-＠ざくろ,Q00611
-「よく見えるから、こっちの方が興奮するでしょ？」
+#「......んッ、っく!　す、好きでしてるわけじゃ......今さら、手だけでこんなにッ......」
+＠Itsuki
+「......Nn, kku! It is not in my will.... Up until now, just by using hand this.......」
 
-＠樹
-「……い、いや……それは…」
+#「手だけじゃないわ。私のショーツのアソコも見て興奮してるんだから」
+＠Zakuro,Q00608
+「Not only by hand. You're also getting aroused by looking my 'that' shorts part.」
 
-肉茎からの快感のせいで、改めて見るざくろのソコを強く意識してしまう。
+#「くす......これが拒否ばっかりしてるつっちーの、正直な性欲なんでしょ?」
+＠Zakuro,Q00609
+「Kusu(?)..... So this is that denying Tsucchi's real sexual desire, isn't it?」
 
-まだ未成熟さが漂う幼い腰つきと恥丘。
+#羞恥を感じさせるように告げると、Zakuroは心持ち愉しそうに腰を浮かせ、クロッチを見せつける。
+#SCRIPT ADD KANJI
+Ａs She tell me to make me feel embarassed, While looked enjoying herself she rise her waist, and show her crotch.
 
-それゆえに、もう経験過多であることが背徳的に思えてしまう。
+#「......えっ」
+＠Itsuki
+「......Eh?」
 
-＠ざくろ,Q00612
-「私みたいな年端もない子に強引にされて、戸惑うくらいおちんちんが興奮してるなんて」
+#「ん......つっちーの反応が興味深いから、攻める気が出るまでこうしてる」
+＠Zakuro,Q00610
+「Nn..... Because of Tsucchi 's reaction is very interesting, thus I'll be doing this until you attack me.」 
 
-＠ざくろ,Q00613
-「つっちー、ほんとはこうやって強引にされるのが好きみたい」
+#「よく見えるから、こっちの方が興奮するでしょ?」
+＠Zakuro,Q00611
+「Because you can look at it clearly, You feel an urge from this right?」
 
-少しずつリアルになってくる情欲に、オレは何とか逃れようとするも叶わない。
+#「......い、いや......それは...」
+＠Itsuki
+「......N-, No...... That thing is....」
 
-それにいくらざくろが小柄でも、人一人が被さっている上に、自身がこんな格好なのだ。
+#肉茎からの快感のせいで、改めて見るZakuroのソコを強く意識してしまう。
+#SCRIPT ADD KANJI
+Ｂecause of the pleasant feeling from my cock, and by looking again I become more concious of her private part.
 
-＠ざくろ,Q00614
-「逃げられないでしょ、つっちー？　こんな格好のままで」
+#まだ未成熟さが漂う幼い腰つきと恥丘。
+#SCRIPT ADD KANJI
+Ａgain with the infacy of the childish posture and mound pubis.
 
-＠ざくろ,Q00615
-「興奮してるのなら、このまま射精するしかないと思う」
+#それゆえに、もう経験過多であることが背徳的に思えてしまう。
+#SCRIPT ADD KANJI
+Ａnd so, because of this enermous experience I'm collapsing from reality.
 
-強く反応する肉茎を見つめていたざくろが、再び同じように両手を絡め、竿と袋に擦り付ける。
+#「私みたいな年端もない子に強引にされて、戸惑うくらいおちんちんが興奮してるなんて」
+＠Zakuro,Q00612
+「To be pinned down by a kid like me, confused enough your penis is getting aroused.」
 
-＠樹
-「……ッんぅ、うッ…！　だ、だからもう、止めろざくろっ…」
+#「つっちー、ほんとはこうやって強引にされるのが好きみたい」
+＠Zakuro,Q00613
+「Tsucchi, It seems that you really like to be forced/taken down like this.」
 
-＠ざくろ,Q00616
-「気持ちいいの？　ビクビクしながら先走りを出してきてる」
+#少しずつリアルになってくる情欲に、オレは何とか逃れようとするも叶わない。
+#SCRIPT ADD KANJI
+Ａs My lust become real gradually, somehow i can't even wish to get away.
 
-＠ざくろ,Q00617
-「嫌がりながらこんなになってるなんて、いやらしいおちんちん」
+#それにいくらZakuroが小柄でも、人一人が被さっている上に、自身がこんな格好なのだ。
+#SCRIPT ADD KANJI
+Ｎo matter how small Zakuro is, To be on top of a person, i'm the proof of that.
 
-ショーツ越しとはいえ、アソコを見られていることなど意に介さず、肉茎へ妖しく手を這い回らせるざくろ。
+#「逃げられないでしょ、つっちー?　こんな格好のままで」
+＠Zakuro,Q00614
+「You can't escape right, Tsucchi? With this posture.」
+
+#「興奮してるのなら、このまま射精するしかないと思う」
+＠Zakuro,Q00615
+「If you're aroused, it seem you will ejaculate just like this.」
+
+#強く反応する肉茎を見つめていたZakuroが、再び同じように両手を絡め、竿と袋に擦り付ける。
+#SCRIPT ADD KANJI
+Ｓeeing the strong reaction from my penis, Zakuro once again uses both of her hand to rub my balls and rod.
+
+#「......ッんぅ、うッ...!　だ、だからもう、止めろZakuroっ...」
+＠Itsuki
+「.......Nnnu, Uuu...! As I said, please stop this Zakuro....」
+
+#「気持ちいいの?　ビクビクしながら先走りを出してきてる」
+＠Zakuro,Q00616
+「Feels good? While beating its leak some precum.」
+
+#「嫌がりながらこんなになってるなんて、いやらしいおちんちん」
+＠Zakuro,Q00617
+「It becomes like this despite hating it, what a lewd cock.」
+
+ショーツ越しとはいえ、アソコを見られていることなど意に介さず、肉茎へ妖しく手を這い回らせるZakuro。
+
 
 オレはその刺激とアソコの光景、そして羞恥も相まって、溢れるように先走りが滲まされる。
 
-＠ざくろ,Q00618
+
+＠Zakuro,Q00618
 「これ以上できないくらい強い勃起の次は、濡れていくことに必死になるのね」
 
-＠樹
-「……ッぅく、んッ…！　ひ、必死なわけっ……ざくろ、刺激するんじゃない…」
 
-＠ざくろ,Q00619
+＠Itsuki
+「......ッぅく、んッ...!　ひ、必死なわけっ......Zakuro、刺激するんじゃない...」
+
+#[......ッぅく、んッ...!
+
+＠Zakuro,Q00619
 「仕事で他の人のも見るけど、こんなに激しく勃起してるおちんちんは初めてよ」
 
-＠ざくろ,Q00620
+＠Zakuro,Q00620
 「だからつっちーが何て言おうと、すごく気持ちよさそうなのが分かっちゃうの」
 
-快感の波に休息を与えないように、ざくろは裏筋や亀頭をまんべんなく摩り刺激する。
+快感の波に休息を与えないように、Zakuroは裏筋や亀頭をまんべんなく摩り刺激する。
 
-すでに肉茎は情けないくらい欲情し切った姿を、ざくろの目の前に晒していた。
+すでに肉茎は情けないくらい欲情し切った姿を、Zakuroの目の前に晒していた。
 
-＠ざくろ,Q00621
+＠Zakuro,Q00621
 「出したくなったら言って。すぐにもっと擦ってあげるから」
 
-＠樹
-「……ッくぅ…！　なら、射精したら……ちゃんと止めるんだな、ざくろ」
+＠Itsuki
+「......ッくぅ...!　なら、射精したら......ちゃんと止めるんだな、Zakuro.」
 
-＠ざくろ,Q00622
-「……？」
+＠Zakuro,Q00622
+「........?」
 
-オレの言葉が意外そうに、ざくろが首を傾げて手を緩める。
+オレの言葉が意外そうに、Zakuroが首を傾げて手を緩める。
 
-＠ざくろ,Q00623
-「もう限界にきちゃった？」
+#「もう限界にきちゃった?」
+＠Zakuro,Q00623
+「It this the limit?」 / 「You've reached the limit?」
 
-＠樹
-「……こんなままより、潔く出した方がマシってだけだ」
+#「......こんなままより、潔く出した方がマシってだけだ」
+＠Itsuki
+「....... Better than this, I only prefer to cum more manly.」
 
-＠樹
-「だからオレからも攻める……構わないなら腰を下ろしてみな、ざくろ」
+#「だからオレからも攻める......構わないなら腰を下ろしてみな、Zakuro」
+＠Itsuki
+「So I will attack you too..... If you dont mind about it, you can lower your waist, Zakuro.」
 
-＠ざくろ,Q00624
-「…………」
+＠Zakuro,Q00624
+「.............」
 
-＠ざくろ,Q00625
-「……楽しかったから、最後までつっちーをからかいながらでもよかったけど…」
+#「......楽しかったから、最後までつっちーをからかいながらでもよかったけど...」
+＠Zakuro,Q00625
+「........Because it was fun, to make fun of you until the end but.........」
 
-スッと、ざくろが自分の腰元へ手を伸ばすのが見えた。
+#スッと、Zakuroが自分の腰元へ手を伸ばすのが見えた。
+#SCRIPT ADD KANJI
+Ｉn instant, I can saw her hand reaching her own waist.
 
-＠樹
-「え……？」
+#「え......?」
+＠Itsuki
+「Eh......?」
 
-＠ざくろ,Q00626
-「でも、つっちーがどれくらい出来るのかも興味あるから。いいわよ」
+#「でも、つっちーがどれくらい出来るのかも興味あるから。いいわよ」
+＠Zakuro,Q00626
+「But, I'm interest in how far Tsucchi can do. So, It's alright.」
 
-そのままシュルシュルとショーツの紐を解いていく。
+#そのままシュルシュルとショーツの紐を解いていく。
+#SCRIPT ADD KANJI
+Ａnd just like that, her panties came off.
 
-＠樹
-「ちょッ、ざくろっ……そんな脱がなくても」
+#「ちょッ、Zakuroっ......そんな脱がなくても」
+＠Itsuki
+「Wai-, Zakuro...... you don't have to take those off.」
 
-＠ざくろ,Q00627
-「遠慮しないで。着たままだと、正確な技量がみれないから」
+#「遠慮しないで。着たままだと、正確な技量がみれないから」
+＠Zakuro,Q00627
+「Don't be hesitate. If I'm still dressed, I couldn't see the extent of your abilities.」
 
-＠樹
-「技量って……、…うっ」
-
+#「技量って......、...うっ」
+＠Itsuki
+「Abilities......, .....uu.」
 
 #--------------------------------------------------
 #■（差分・ショーツを脱ぐ）
@@ -686,78 +913,104 @@ event		"event\EV_ZAK_060-01.png"
 #--------------------------------------------------
 
 
-戸惑うオレをよそに下着を脱ぎ去ると、ざくろはショーツに覆われていた秘部を露にした。
+#戸惑うオレをよそに下着を脱ぎ去ると、Zakuroはショーツに覆われていた秘部を露にした。
+#SCRIPT ADD KANJI
+　~The preplexed me ,Zakuro's private place that is hidden by her short is exposed.
 
-＠ざくろ,Q00628
-「見える？　私のアソコ」
+#「見える?　私のアソコ」
+＠Zakuro,Q00628
+「Do you see it? My 'thing'」
 
-＠樹
-「……そ、そりゃ全部、見えるけど……恥ずかしくないのか、ざくろ」
+#「......そ、そりゃ全部、見えるけど......恥ずかしくないのか、Zakuro」
+＠Itsuki
+「......I-, I can see all of it but....... Aren't you embarassed, Zakuro?」
 
-＠ざくろ,Q00629
-「……？　もう慣れてるわ」
+#「......?　もう慣れてるわ」
+＠Zakuro,Q00629
+「........? I'm already used to it.」
 
-＠ざくろ,Q00630
-「最近はしてないけど、公衆の面前で青姦したことも何度かあるし」
+#「最近はしてないけど、公衆の面前で青姦したことも何度かあるし」
+＠Zakuro,Q00630
+「I don't do this recently though, but I've done several outdoor sex.」
 
-あっさりと告白し、確かに動揺の欠片も見せないざくろ。
+#あっさりと告白し、確かに動揺の欠片も見せないZakuro。
+#SCRIPT ADD KANJI
+Ｅasily confessing that, Zakuro don't even show a bit of agitation.
 
 だが視界に現れた小さい秘裂は、とてもそんな多経験とは思えない。初々しい肌色の縦筋だった。
 
-＠ざくろ,Q00631
-「しないの？　つっちー」
+#~
 
-＠樹
-「あ、あぁ……する」
+#「しないの?　つっちー」
+＠Zakuro,Q00631
+「Don't you want to do it? Tsucchi.」
+
+#「あ、あぁ......する」
+＠Itsuki
+「A, Ah....... I will.」
 
 他の子同様、まだ幼い秘部をクンニする背徳感を感じながら、口を寄せて舌を差し出す。
 
-＠ざくろ,Q00632
-「……っん！　っぁふ……はぁっ」
+#~Identical to other kids, 
 
+＠Zakuro,Q00632
+「......っん!　っぁふ......はぁっ」
 
 voice_bg	"Q90005"
 
+#ヌルリと触れ合うと、意外だがZakuroから少し熱っぽい吐息が漏れた。
+#SCRIPT ADD KANJI
+Ｗith some licking and touching, unexpectedly there's some sexy moaning come from Zakuro.
 
-ヌルリと触れ合うと、意外だがざくろから少し熱っぽい吐息が漏れた。
+#「っはぁ......つっちー、〝慣らし〟は必要ないから.........もっと思いっきりしていいわよ」
+＠Zakuro,Q00633
+「っはぁ......Tsucchi、I dont need some 'warming-ups' so.........you can do something more.」
 
-＠ざくろ,Q00633
-「っはぁ……つっちー、〝慣らし〟は必要ないから………もっと思いっきりしていいわよ」
+#浮かせていた腰を下ろすZakuroに、オレの舌の動きの密着度が自然と上がっていく。
+#SCRIPT ADD KANJI
+　~
 
-浮かせていた腰を下ろすざくろに、オレの舌の動きの密着度が自然と上がっていく。
+＠Zakuro,Q00634
+「ん...っはぁ......っぅん、ん......っぁふぅ...」
 
-＠ざくろ,Q00634
-「ん…っはぁ……っぅん、ん……っぁふぅ…」
+#「...熱くて、柔らかい感触が......っくん...アソコの表面で動いてる......」
+＠Zakuro,Q00635
+「...Hot and tender feeling......っくん...It stirring me up......」
 
-＠ざくろ,Q00635
-「…熱くて、柔らかい感触が……っくん…アソコの表面で動いてる……」
+#「っあふぅ......つっちーの息も熱くて、なかなかいい感じかも......」
+＠Zakuro,Q00636
+「っあふぅ......Tsucchi's breath is also hot, it's quite plesant......」
 
-＠ざくろ,Q00636
-「っあふぅ……つっちーの息も熱くて、なかなかいい感じかも……」
+#その刺激に声を漏らすZakuroの秘部で、舌先が僅かに甘酸っぱい味を拾った。
+#SCRIPT ADD KANJI
+Ｚakuro who leaks some moaning from that stimulus, The tip of my tounge tastes some sour and sweet taste from her private place.
 
-その刺激に声を漏らすざくろの秘部で、舌先が僅かに甘酸っぱい味を拾った。
-
-＠樹
-「……愛液の味がする……ざくろも濡れてたのか…？」
-
+#「......愛液の味がする......Zakuroも濡れてたのか...?」
+＠Itsuki
+「......I tasted some love juice......Zakuro wet already...?」
 
 voice_bg_stop
 
+#「ん、少しだけ.........嬉しい?」
+＠Zakuro,Q00637
+「Nn, Just a little bit........ Are you happy?」
 
-＠ざくろ,Q00637
-「ん、少しだけ………嬉しい？」
+#「まさか。こんなことしてたら、これくらい感じなくても濡れるだろう」
+＠Itsuki
+「You wish. When this kind of thing was done, even if you don't feel it but you will get wet you know.」
 
-＠樹
-「まさか。こんなことしてたら、これくらい感じなくても濡れるだろう」
+#「うん......だったらつっちーが舐めて、本格的に感じさせてみて?」
+＠Zakuro,Q00638
+「You right...... Then when Tsucchi is licking, should I show the real feeling?」
 
-＠ざくろ,Q00638
-「うん……だったらつっちーが舐めて、本格的に感じさせてみて？」
+#「私もおちんちんに、同じ条件でやらせてもらうから」
+＠Zakuro,Q00639
+「I will apply the same thing to your penis.」
 
-＠ざくろ,Q00639
-「私もおちんちんに、同じ条件でやらせてもらうから」
+#SCRIPT ADD KANJI
+Ｚakuroの言葉がすぐには理解できないまま、亀頭にヌルリとした感触が走る。
 
-ざくろの言葉がすぐには理解できないまま、亀頭にヌルリとした感触が走る。
-
+#~
 
 #--------------------------------------------------
 #■（差分・フェラ開始。がっぽり咥えてます）
@@ -766,93 +1019,118 @@ voice_bg	"Q90001"
 #--------------------------------------------------
 
 
-＠樹
-「……ッ！　ざ、ざくろッ」
+＠Itsuki
+「......ッ!　ざ、Zakuroッ」
 
-＠ざくろ,Q00640
-「んちゅるっ…くぢゅぅっ！　んぅ……」
+＠Zakuro,Q00640
+「んちゅるっ...くぢゅぅっ!　んぅ......」
 
-静止の声より早く、ざくろの口の中に、過敏になった肉茎が含まれてしまう。
+#静止の声より早く、Zakuroの口の中に、過敏になった肉茎が含まれてしまう。
+#SCRIPT ADD KANJI
+　~
 
-＠ざくろ,Q00641
-「ちゅぅむっ…ぴちゅっ、ちゅちゅるっ！　ちゅぢゅぅ、ちゅぷっ……んるちゅっ」
+＠Zakuro,Q00641
+「ちゅぅむっ...ぴちゅっ、ちゅちゅるっ!　ちゅぢゅぅ、ちゅぷっ......んるちゅっ」
 
-＠ざくろ,Q00642
-「ちゅくるっ、ぴちゅぅっ……んんふっ、ちゅぶぅっ！　んぅっ、んちゅっ、ちゅちゅむっ」
+＠Zakuro,Q00642
+「ちゅくるっ、ぴちゅぅっ......んんふっ、ちゅぶぅっ!　んぅっ、んちゅっ、ちゅちゅむっ」
 
-そのまま手で袋も揉まれながら、ざくろに怒張し切った肉茎をしゃぶられ、一気に快感が駆け上がる。
+#そのまま手で袋も揉まれながら、Zakuroに怒張し切った肉茎をしゃぶられ、一気に快感が駆け上がる。
+#SCRIPT ADD KANJI
+Ｊut like that she massage/rub my balls, Zakuro sucks my overswelling cock, at once I feel a pleasant feeling.
 
-＠ざくろ,Q00643
-「にちゅっ、ちゅむぅっ…！　んぅふ……おちんちん、やっぱり前より大きいみたい……ちゅぷっ、ちちゅぅっ…」
+#「にちゅっ、ちゅむぅっ...!　んぅふ......おちんちん、やっぱり前より大きいみたい......ちゅぷっ、ちちゅぅっ...」
+＠Zakuro,Q00643
+「にちゅっ、ちゅむぅっ...!　んぅふ......Your penis, as I thought it's bigger than last time......ちゅぷっ、ちちゅぅっ...」
 
-＠ざくろ,Q00644
-「ちちゅるっ……くちゅぅっ…どうしたのつっちー、舌が止まってるわよ……？」
+#「ちちゅるっ......くちゅぅっ...どうしたのつっちー、舌が止まってるわよ......?」
+＠Zakuro,Q00644
+「ちちゅるっ......くちゅぅっ...What's wrong Tsucchi, your tounge isn't moving, you know.......?」
 
-＠樹
-「……んぅッ、はぁッ…！　で、出来るわけないだろっ……こんなことされながらっ…」
+#「......んぅッ、はぁッ...!　で、出来るわけないだろっ......こんなことされながらっ...」
+＠Itsuki
+「......んぅッ、はぁッ...!　As I can do such a thing......when I was given such a thing...」
 
-＠ざくろ,Q00645
-「ちゅぅっ、ん…そう……？　まだ前より緩いくらいなのに……そんなにいい？」
+#「ちゅぅっ、ん...そう......?　まだ前より緩いくらいなのに......そんなにいい?」
+＠Zakuro,Q00645
+「ちゅぅっ、ん...Really......?　It still about as loose as before though......Is it that good?」
 
-＠ざくろ,Q00646
-「んぅ……ぴちゅぢゅっ…ちゅるぅっ！　んくっ……ぴちゅっ、ちゅびちゅっ、くりゅぅっ」
+#Or maybe the intensity just about as same as before?
 
-ざくろは前回同様、巧みに口腔粘膜を使い、喋りながらも舌と手で快感を与え続けてくる。
+＠Zakuro,Q00646
+「んぅ......ぴちゅぢゅっ...ちゅるぅっ!　んくっ......ぴちゅっ、ちゅびちゅっ、くりゅぅっ」
 
+#Zakuroは前回同様、巧みに口腔粘膜を使い、喋りながらも舌と手で快感を与え続けてくる。
+#SCRIPT ADD KANJI
+Ｓame as before, Zakuro skillfully uses her mouth surface, even while talking, her tounge and hands keep sending the pleasure.
 
 #--------------------------------------------------
 #■（可能なら差分・一度口を離し、舌を出している状態。EV_ZAK_010-02のような感じ）
 #--------------------------------------------------
 
 
-＠ざくろ,Q00647
-「んぅっ、ぴちゅるっ…！　たくさんの先走り……唾液が流されちゃいそう…」
+#「んぅっ、ぴちゅるっ...!　たくさんの先走り......唾液が流されちゃいそう...」
+＠Zakuro,Q00647
+「んぅっ、ぴちゅるっ...!　A lot of precum......It seems I spill a lot of saliva...」
 
-＠ざくろ,Q00648
-「やっぱりこんなに勃起してたら、おちんちんって敏感になっちゃってるの……？」
+#「やっぱりこんなに勃起してたら、おちんちんって敏感になっちゃってるの......?」
+＠Zakuro,Q00648
+「As I thought If it is this erect, your thing will be sensitive........?」
 
-＠樹
-「……ッん！　くぅッ……ざくろ、ちゃんとクンニしてやるから……口は後にしろっ…」
+#「......ッん!　くぅッ......Zakuro、ちゃんとクンニしてやるから......口は後にしろっ...」
+＠Itsuki
+「......ッん!　くぅッ......Zakuro、I will properly do it......so please save the mouth for later...」
 
-＠ざくろ,Q00649
-「ん…ちゅむぅ……っふぅ…質問を命令で返すなんて、つっちー失礼過ぎる…」
+#「ん...ちゅむぅ......っふぅ...質問を命令で返すなんて、つっちー失礼過ぎる...」
+＠Zakuro,Q00649
+「ん...ちゅむぅ......っふぅ...To reply a question with an order, you're so rude Tsucchi...」
 
-＠ざくろ,Q00650
-「ちゃんと教えて。おちんちんって、こんなに硬く勃起してたら気持ち良いの……？」
+#「ちゃんと教えて。おちんちんって、こんなに硬く勃起してたら気持ち良いの......?」
+＠Zakuro,Q00650
+「Be honest with me. Your penis, If it is this hard, is it good......?」
 
-オレへの恥辱を孕ませながら、ざくろは興味深そうに肉茎を両手で擦り、質問を繰り返す。
+オレへの恥辱を孕ませながら、Zakuroは興味深そうに肉茎を両手で擦り、質問を繰り返す。
 
-＠樹
-「……そんなの、見れば分かるだろ……」
+#「......そんなの、見れば分かるだろ......」
+＠Itsuki
+「......That kind of question, don't you know it just by looking......」
 
-＠ざくろ,Q00651
-「うん、もちろん分かってる……んちゅ、んんりゅ…でも、ちゃんと言葉で言ってほしいの」
+#「うん、もちろん分かってる......んちゅ、んんりゅ...でも、ちゃんと言葉で言ってほしいの」
+＠Zakuro,Q00651
+「Yeah、Of course I know......んちゅ、んんりゅ...But, I want to hear it directly/I want the word directly delivered from your mouth.」
 
-＠ざくろ,Q00652
-「そうじゃないと……このまま、際限なく射精させ続けちゃうかも」
+#「そうじゃないと......このまま、際限なく射精させ続けちゃうかも」
+＠Zakuro,Q00652
+「そうじゃないと......このまま、際限なく射精させ続けちゃうかも」
 
-抑揚ない調子で言いながら、ざくろの手がスルスルと肉茎の根元に絡み付いて疼かせてくる。
+抑揚ない調子で言いながら、Zakuroの手がスルスルと肉茎の根元に絡み付いて疼かせてくる。
 
-＠樹
-「……うッ、待てざくろッ……気持ちいいっ…すごくッ……」
+#「......うッ、待てZakuroッ......気持ちいいっ...すごくッ......」
+＠Itsuki
+「......うッ、Wait Zakuro......It's so good...very......」
 
-＠ざくろ,Q00653
-「それじゃダメよ……んぅりゅ、れるちゅっ…ちゃんと言って」
+#「それじゃダメよ......んぅりゅ、れるちゅっ...ちゃんと言って」
+＠Zakuro,Q00653
+「That won't do......んぅりゅ、れるちゅっ...Tell me honestly.」
 
-＠ざくろ,Q00654
-「…おちんちんが勃起して、気持ち良いって…」
+#「...おちんちんが勃起して、気持ち良いって...」
+＠Zakuro,Q00654
+「...Your penis feels good, when it erects...」
 
 肉茎の快感を人質にとりながら、もっと恥辱を要求してくるのだった。
 
-＠ざくろ,Q00655
-「…他の子には言わせてるんでしょ？　おちんちんって…」
 
-＠樹
-「ば、バカッ……オレが言ってもしょうがないだろ！」
+#「...他の子には言わせてるんでしょ?　おちんちんって...」
+＠Zakuro,Q00655
+「...You're telling that to other kids too right?　That your penis is...」
 
-＠ざくろ,Q00656
-「そう……？　なら、別の方法で示してもらうことになるわよ」
+#「ば、バカッ......オレが言ってもしょうがないだろ!」
+＠Itsuki
+「St, Stupid......Even I said it, It can't be helped, isn't it!」
 
+#「そう......?　なら、別の方法で示してもらうことになるわよ」
+＠Zakuro,Q00656
+「Really......?　Then, I will make you say it with other ways.」
 
 #--------------------------------------------------
 #■（差分：上記のがっぽり咥えてるフェラ）同じ物です。
@@ -861,135 +1139,141 @@ voice_bg	"Q90001"
 
 不気味な静けさで告げられた直後、舌で焦らされていた肉茎が、再び口内の温かい呼気の中に包まれていく。
 
-＠ざくろ,Q00657
-「くぷちゅっ、ちゅぢゅぅっ…！　ぴちゅっ、れちゅるっ……にちゅぅっ、んちゅるっ…」
+＠Zakuro,Q00657
+「くぷちゅっ、ちゅぢゅぅっ...!　ぴちゅっ、れちゅるっ......にちゅぅっ、んちゅるっ...」
 
 
 voice_bg	"Q90002"
 
 
-＠樹
-「…くぅッ！　ッはぁ…ざくろッ……な、何をッ…」
+#「...くぅッ!　ッはぁ...Zakuroッ......な、何をッ...」
+＠Itsuki
+「...くぅッ!　ッはぁ...Zakuro......Wh, What are you...」
 
-＠ざくろ,Q00658
-「ぴぢゅっ！　ちぢゅるっ……んぅ、言う気がないから、行動で示してもらうのよ……くちゅむっ、ちゅぅっ！」
 
-＠ざくろ,Q00659
-「…つっちーの気持ちよさ、射精の勢いで見せて……るりゅぢゅっ、ちゅぶぅっ！　んくちゅっ…」
+#「ぴぢゅっ!　ちぢゅるっ......んぅ、言う気がないから、行動で示してもらうのよ......くちゅむっ、ちゅぅっ!」
+＠Zakuro,Q00658
+「ぴぢゅっ!　ちぢゅるっ......んぅ、If you don't want to say it、行動で示してもらうのよ......くちゅむっ、ちゅぅっ!」
 
-＠ざくろ,Q00660
-「ちりゅぅっ……ぴちゅぢゅっ、くりゅぅっ…ぴちゅるっ！　ちゅぶっ、ちゅぅっ…んちゅぅっ！」
+#「...つっちーの気持ちよさ、射精の勢いで見せて......るりゅぢゅっ、ちゅぶぅっ!　んくちゅっ...」
+＠Zakuro,Q00659
+「...つっちーの気持ちよさ、射精の勢いで見せて......るりゅぢゅっ、ちゅぶぅっ!　んくちゅっ...」
 
-出来て当然のように言いながら、ざくろはさらに、口の中いっぱいになるまで肉茎を頬張っていく。
+＠Zakuro,Q00660
+「ちりゅぅっ......ぴちゅぢゅっ、くりゅぅっ...ぴちゅるっ!　ちゅぶっ、ちゅぅっ...んちゅぅっ!」
 
-＠ざくろ,Q00661
-「にちゅぅっ…んぅく、ちゅぷぅっ！　ちゅぢゅっ、くぢゅぅっ…ちゅぢゅるっ！」
+出来て当然のように言いながら、Zakuroはさらに、口の中いっぱいになるまで肉茎を頬張っていく。
 
-＠ざくろ,Q00662
-「ぴちゅむっ！　ちゅじゅぅっ……んぅ、咥えきれらい…大ひくて……くぶっ、ぴちゅぅっ…ぢゅちるっ！」
+＠Zakuro,Q00661
+「にちゅぅっ...んぅく、ちゅぷぅっ!　ちゅぢゅっ、くぢゅぅっ...ちゅぢゅるっ!」
 
-＠ざくろ,Q00663
-「んぢゅるっ、ちゅぶぅっ！　んくんっ…んぅりゅっ、ぢゅぶぶっ！　くぢゅぅっ！」
+＠Zakuro,Q00662
+「ぴちゅむっ!　ちゅじゅぅっ......んぅ、咥えきれらい...大ひくて......くぶっ、ぴちゅぅっ...ぢゅちるっ!」
+
+＠Zakuro,Q00663
+「んぢゅるっ、ちゅぶぅっ!　んくんっ...んぅりゅっ、ぢゅぶぶっ!　くぢゅぅっ!」
 
 小さい口腔内で膨れた亀頭を喉の奥まで導くと、熱い唾液まみれの頬肉や舌で隙間なく肉茎を舐め擦り、吸い上げる。
 
-＠ざくろ,Q00664
-「くちゅむっ、ちゅぶぅっ！　しゅぶちゅっ……にちゅっ、ちゅくるぅっ、ぴちゅぐっ！」
+＠Zakuro,Q00664
+「くちゅむっ、ちゅぶぅっ!　しゅぶちゅっ......にちゅっ、ちゅくるぅっ、ぴちゅぐっ!」
 
-＠樹
-「はぅっ、ッくぅ！　やめ、ざくろッ……お前も苦しいだろ、喉の奥までッ…」
+＠Itsuki
+「はぅっ、ッくぅ!　やめ、Zakuroッ......お前も苦しいだろ、喉の奥までッ...」
 
-＠ざくろ,Q00665
-「ぴぢゅっ、ちゅぢゅぅっ！　くぢゅぅっ…ふぇいひ、慣れへるから……ちゅぶぅっ！　にりゅっ、ねりゅちゅっ…！」
+＠Zakuro,Q00665
+「ぴぢゅっ、ちゅぢゅぅっ!　くぢゅぅっ...ふぇいひ、慣れへるから......ちゅぶぅっ!　にりゅっ、ねりゅちゅっ...!」
 
-＠ざくろ,Q00666
-「くちゅぅっ！　ちゅぢゅっ……ぢゅぶっ、にちゅるっ…ぢゅるぅっ！　ぢゅるっ、ぢゅぢゅっ…ぬぢゅぅっ」
+＠Zakuro,Q00666
+「くちゅぅっ!　ちゅぢゅっ......ぢゅぶっ、にちゅるっ...ぢゅるぅっ!　ぢゅるっ、ぢゅぢゅっ...ぬぢゅぅっ」
 
 オレの心配をよそに舌と口を動かし、咥えきれないところは、唾液で濡れた手がヌヂュヌヂュと上下に擦る。
 
-ざくろが本気なのかは分からないが、今のままでは間違いなく、前回よりも快楽が大きかった。
+#SCRIPT ADD KANJI
+Ｚakuroが本気なのかは分からないが、今のままでは間違いなく、前回よりも快楽が大きかった。
 
-＠ざくろ,Q00667
-「んぅちゅっ……ろぉつっひー、ぼっひひてるフェラチオ…気もひいい……？　んぅりゅっ、ちゅりゅっ！　にぢゅるぅっ！」
+＠Zakuro,Q00667
+「んぅちゅっ......ろぉつっひー、ぼっひひてるフェラチオ...気もひいい......?　んぅりゅっ、ちゅりゅっ!　にぢゅるぅっ!」
 
-＠樹
-「……ッく！　だから、オレが言っても意味無いって言ってるだろッ、そんな言葉っ……」
+＠Itsuki
+「......ッく!　だから、オレが言っても意味無いって言ってるだろッ、そんな言葉っ......」
 
-＠ざくろ,Q00668
-「…ごうりょう（強情）……ぢゅぢゅぅっ、くぢゅむっ！　ぴぢゅるっ！」
+＠Zakuro,Q00668
+「...ごうりょう（強情）......ぢゅぢゅぅっ、くぢゅむっ!　ぴぢゅるっ!」
 
-＠樹
-「もう、イカされる情けなさは覚悟したんだ……後は、ざくろッ…」
+＠Itsuki
+「もう、イカされる情けなさは覚悟したんだ......後は、Zakuroッ...」
 
-＠ざくろ,Q00669
-「ちゅぶぅ、んぅ…？　……っふぅッ！　んぅふっ」
+＠Zakuro,Q00669
+「ちゅぶぅ、んぅ...?　......っふぅッ!　んぅふっ」
 
-子供相手に大人気ないという気持ちを捨て、オレはざくろへのクンニを再開する。
+子供相手に大人気ないという気持ちを捨て、オレはZakuroへのクンニを再開する。
 
-＠ざくろ,Q00670
-「っんぅ…！　ふぅっ……ちゅむぅっ、どうひたのつっひー…急に……っぁふ、っふぅ」
+＠Zakuro,Q00670
+「っんぅ...!　ふぅっ......ちゅむぅっ、どうひたのつっひー...急に......っぁふ、っふぅ」
 
-＠樹
-「ふぅっ……道連れは無理でも、少しくらい感じさせてやるっ…」
+＠Itsuki
+「ふぅっ......道連れは無理でも、少しくらい感じさせてやるっ...」
 
-＠ざくろ,Q00671
-「んぅふっ……っくん…ふふ……いはひのはいごっへ（イタチの最後っ屁）ね…」
+＠Zakuro,Q00671
+「んぅふっ......っくん...ふふ......いはひのはいごっへ（イタチの最後っ屁）ね...」
 
-＠樹
-「…………」
+＠Itsuki
+「............」
 
 何を言ってるのか分からないが、何となくほくそ笑まれた気がした。
 
-＠ざくろ,Q00672
-「ぅんっ…いいわ、やっへみて……くちゅつっ、じゅぶぶっ！」
+＠Zakuro,Q00672
+「ぅんっ...いいわ、やっへみて......くちゅつっ、じゅぶぶっ!」
 
-＠ざくろ,Q00673
-「んぅりゅっ、くちゅぅっ！　にぢゅっ、ぢゅぅっ……にちゅむっ！　ぢゅちゅるっ！」
+＠Zakuro,Q00673
+「んぅりゅっ、くちゅぅっ!　にぢゅっ、ぢゅぅっ......にちゅむっ!　ぢゅちゅるっ!」
 
 挑戦的に言うと、肉茎全体に掛けるフェラチオと手の動きが、クンニなどお構いなく加速されていく。
 
-＠ざくろ,Q00674
-「ちゅぢゅっ、ぢゅぅっ！　ぞじゅじゅッ……ちゅぶちゅっ、きゅぶぅっ！」
+＠Zakuro,Q00674
+「ちゅぢゅっ、ぢゅぅっ!　ぞじゅじゅッ......ちゅぶちゅっ、きゅぶぅっ!」
 
-＠樹
-「……ッんく！　うッ、んんぅ…！」
+＠Itsuki
+「......ッんく!　うッ、んんぅ...!」
 
-＠ざくろ,Q00675
-「くぢゅっ、ぢゅりゅぅっ！　ろぉひたの、もっと頑張ららいの……くぶむっ、ぢゅるるっ……ぢゅぶぅっ！　んくん！」
+＠Zakuro,Q00675
+「くぢゅっ、ぢゅりゅぅっ!　ろぉひたの、もっと頑張ららいの......くぶむっ、ぢゅるるっ......ぢゅぶぅっ!　んくん!」
 
-＠ざくろ,Q00676
-「んぅくっ…ぢゅぷぅっ！　おひんひんはもう、ビクビクひてるわよ……ぴぢゅるっ、ちゅるぅっ！　ねぢゅちゅっ」
+＠Zakuro,Q00676
+「んぅくっ...ぢゅぷぅっ!　おひんひんはもう、ビクビクひてるわよ......ぴぢゅるっ、ちゅるぅっ!　ねぢゅちゅっ」
 
-オレは恥を捨てて、ざくろの幼い恥丘に顔を埋め、先ほどより愛液の味が多いスリットを強く舐めまわす。
+オレは恥を捨てて、Zakuroの幼い恥丘に顔を埋め、先ほどより愛液の味が多いスリットを強く舐めまわす。
 
 その熱い女の子の味と香りは、いやがおうにも肉茎の情欲と興奮を促進させるものだ。
 
-＠樹
-「……んぅッ！　くぅッ…ふぅっ、ふぅっ！」
+＠Itsuki
+「......んぅッ!　くぅッ...ふぅっ、ふぅっ!」
 
-＠ざくろ,Q00677
-「ちゅびるっ、ぢゅちゅぅっ！　ねちゅぅっ、んくぢゅっ……れるりゅっ、ぢゅぬっ、ぢゅぶぅっ！」
+＠Zakuro,Q00677
+「ちゅびるっ、ぢゅちゅぅっ!　ねちゅぅっ、んくぢゅっ......れるりゅっ、ぢゅぬっ、ぢゅぶぅっ!」
 
-＠ざくろ,Q00678
-「ぴぢゅぅっ！　ちゅるちゅっ、れぢゅぅっ……これは、圧勝かひら…んぅくっ、ふぢゅるっ、くぶぅっ！」
+＠Zakuro,Q00678
+「ぴぢゅぅっ!　ちゅるちゅっ、れぢゅぅっ......これは、圧勝かひら...んぅくっ、ふぢゅるっ、くぶぅっ!」
 
 それでも舌使いが乱れるオレと違い、
 
-ざくろはもう袋までネトネトの肉茎を、射精近くまで昂ぶらせてしまう。
+#SCRIPT ADD KANJI
+Ｚakuroはもう袋までネトネトの肉茎を、射精近くまで昂ぶらせてしまう。
 
-＠樹
-「っはぁ！　な、何で……全然平気なのかっ…」
+＠Itsuki
+「っはぁ!　な、何で......全然平気なのかっ...」
 
-＠ざくろ,Q00679
-「んるちゅっ、ちゅぶぅっ…ううん、濡れれるし、もひろん気持ひいいわよ……くちゅむっ！　ぢゅぢゅっ、くりゅぢゅっ！」
+＠Zakuro,Q00679
+「んるちゅっ、ちゅぶぅっ...ううん、濡れれるし、もひろん気持ひいいわよ......くちゅむっ!　ぢゅぢゅっ、くりゅぢゅっ!」
 
-＠ざくろ,Q00680
-「れも、つっひーのおひんひんの興味が強いから……んちゅるっ！　ちゅぢゅぅっ！　ぢゅちゅっ！　ぬぢゅぅっ…早く、しゃへいが見はいの」
+＠Zakuro,Q00680
+「れも、つっひーのおひんひんの興味が強いから......んちゅるっ!　ちゅぢゅぅっ!　ぢゅちゅっ!　ぬぢゅぅっ...早く、しゃへいが見はいの」
 
-＠ざくろ,Q00681
-「れちゅるっ！　にりゅぅっ、んぢゅっ！　んぢゅるっ！　くぶむぅっ……んぅふっ、れりゅむっ！」
+＠Zakuro,Q00681
+「れちゅるっ!　にりゅぅっ、んぢゅっ!　んぢゅるっ!　くぶむぅっ......んぅふっ、れりゅむっ!」
 
-一応それも行為に酔っているのか……微妙に判断に迷う答えを返すざくろ。
+一応それも行為に酔っているのか......微妙に判断に迷う答えを返すZakuro。
 
 限界まで硬く勃起した肉茎をピストンさせる口腔内に、前回と同じように熱く濃い唾液を溢れさせていく。
 
@@ -997,58 +1281,58 @@ voice_bg	"Q90002"
 voice_bg	"Q90003"
 
 
-＠ざくろ,Q00682
-「ぞじゅじゅッ！　ぢゅるぢゅッ…ぬぢゅぅっ！　ぢゅぢゅぶッ、くぢゅっ、くぢゅるぅっ！」
+＠Zakuro,Q00682
+「ぞじゅじゅッ!　ぢゅるぢゅッ...ぬぢゅぅっ!　ぢゅぢゅぶッ、くぢゅっ、くぢゅるぅっ!」
 
-＠ざくろ,Q00683
-「にぢゅるッ、ぐぢゅぅっ！　じゅぢゅッ、ずぢゅぢゅッ……れちゅるぅッ！　くぢゅむ！」
+＠Zakuro,Q00683
+「にぢゅるッ、ぐぢゅぅっ!　じゅぢゅッ、ずぢゅぢゅッ......れちゅるぅッ!　くぢゅむ!」
 
-＠樹
-「……ッんぅ！　ぅあッ…だ、唾液が、ざくろッ…今そんなにされたらッ…」
+＠Itsuki
+「......ッんぅ!　ぅあッ...だ、唾液が、Zakuroッ...今そんなにされたらッ...」
 
-＠ざくろ,Q00684
-「ぢゅぷるッ！　ぢゅぢゅぅっ、んぐちゅッ…ひゅごい、つっひー……ビクイウっれ、まだ硬くなっれる……ふぐむッ、ちゅぢゅぅっ！」
+＠Zakuro,Q00684
+「ぢゅぷるッ!　ぢゅぢゅぅっ、んぐちゅッ...ひゅごい、つっひー......ビクイウっれ、まだ硬くなっれる......ふぐむッ、ちゅぢゅぅっ!」
 
-＠ざくろ,Q00685
-「…ここはら濃いろ、いっはい出ひれみて……ぢゅつるッ！　にじゅぢゅっ、ぢゅりゅぅッ！　くぢゅるっ！」
+＠Zakuro,Q00685
+「...ここはら濃いろ、いっはい出ひれみて......ぢゅつるッ!　にじゅぢゅっ、ぢゅりゅぅッ!　くぢゅるっ!」
 
-＠ざくろ,Q00686
-「ぢゅぐるりゅッ！　びじゅぢゅぅッ……じぢゅぅッ、ぢゅびりゅッ！　れりゅぐッ、ぐぢゅぅッ！」
+＠Zakuro,Q00686
+「ぢゅぐるりゅッ!　びじゅぢゅぅッ......じぢゅぅッ、ぢゅびりゅッ!　れりゅぐッ、ぐぢゅぅッ!」
 
-ディープスロートする肉茎を、ヌルヌルの唾液と熱い口内粘膜の密着で、激しくシゴき立てるざくろ。
+ディープスロートする肉茎を、ヌルヌルの唾液と熱い口内粘膜の密着で、激しくシゴき立てるZakuro。
 
 口元からバキュームのような水音が鳴り響き、滴らされる唾液も、次々と口の中で新たに溢れ絡み付いてくる。
 
-＠ざくろ,Q00687
-「ぐぢゅぶッ！　ずぢゅぅッ…ぞぢゅりゅっ、ぢゅぢゅぅッ！　にぢゅむっ、ぐちゅぶぅッ」
+＠Zakuro,Q00687
+「ぐぢゅぶッ!　ずぢゅぅッ...ぞぢゅりゅっ、ぢゅぢゅぅッ!　にぢゅむっ、ぐちゅぶぅッ」
 
-＠樹
-「ッくふぅ！　ッはぁ……！　ま、前よりすごい……気持ちよすぎるて、もうッ…」
+＠Itsuki
+「ッくふぅ!　ッはぁ......!　ま、前よりすごい......気持ちよすぎるて、もうッ...」
 
-＠ざくろ,Q00688
-「ぢゅるぢゅッ、くぢゅぅッ！　んぅぶッ……ぅん…しゃへいひてひいわよ、つっひー…んにぢゅッ！　ぢゅぐぅッ、ぢゅぐむッ！」
+＠Zakuro,Q00688
+「ぢゅるぢゅッ、くぢゅぅッ!　んぅぶッ......ぅん...しゃへいひてひいわよ、つっひー...んにぢゅッ!　ぢゅぐぅッ、ぢゅぐむッ!」
 
-＠ざくろ,Q00689
-「んぢゅるッ、くぶむぅッ！　私みらいら、子供に犯されれ……興奮ひて出ひたひんれしょ…んぢゅぅッ、くぢゅむっ！　ぞぢゅるぅッ！」
+＠Zakuro,Q00689
+「んぢゅるッ、くぶむぅッ!　私みらいら、子供に犯されれ......興奮ひて出ひたひんれしょ...んぢゅぅッ、くぢゅむっ!　ぞぢゅるぅッ!」
 
-＠ざくろ,Q00690
-「…こんらに硬く勃起する、いやらひいおひんひんらから……ぢゅぶぢゅッ…にぢゅぅッ！　ぐぢゅぶっ、じゅぢゅッ、りゅぐぢゅッ！」
+＠Zakuro,Q00690
+「...こんらに硬く勃起する、いやらひいおひんひんらから......ぢゅぶぢゅッ...にぢゅぅッ!　ぐぢゅぶっ、じゅぢゅッ、りゅぐぢゅッ!」
 
 没頭しながらくぐもる、心成し愉楽な声で、犯されてイキそうな肉茎を辱める。
 
-それで恥ずかしさが振り切らされると同時に、ざくろが一層強く肉茎を吸い上げてきた。
+それで恥ずかしさが振り切らされると同時に、Zakuroが一層強く肉茎を吸い上げてきた。
 
-＠ざくろ,Q00691
-「くぢゅるッ、ぬぢゅぅッ！　じゅぴぢゅッ、きゅぢゅッ……ぢゅるぅッ！　んぅぶッ…れちゅぢゅッ！」
+＠Zakuro,Q00691
+「くぢゅるッ、ぬぢゅぅッ!　じゅぴぢゅッ、きゅぢゅッ......ぢゅるぅッ!　んぅぶッ...れちゅぢゅッ!」
 
-＠ざくろ,Q00692
-「ぴぢゅぅッ、ぢゅぶぢゅッ！　くぢゅるぅッ……ぢゅるるッ、ずぢゅッ！　ぢゅぶぢゅぅッ！」
+＠Zakuro,Q00692
+「ぴぢゅぅッ、ぢゅぶぢゅッ!　くぢゅるぅッ......ぢゅるるッ、ずぢゅッ!　ぢゅぶぢゅぅッ!」
 
-＠樹
-「っくぅ！……ッはあ！　い、いやらしくてもいいッ……ざくろッ、もう出るッ！」
+＠Itsuki
+「っくぅ!......ッはあ!　い、いやらしくてもいいッ......Zakuroッ、もう出るッ!」
 
-＠ざくろ,Q00693
-「んぅッ！　んぐぶぅッ！　ぢゅぢゅるッ……ずぢゅッ、ぢゅぶぅッ！」
+＠Zakuro,Q00693
+「んぅッ!　んぐぶぅッ!　ぢゅぢゅるッ......ずぢゅッ、ぢゅぶぅッ!」
 
 
 #--------------------------------------------------
@@ -1058,49 +1342,49 @@ event		"event\EV_ZAK_060-03.png"
 #--------------------------------------------------
 
 
-グビュビュゥッ！　ビュルルッ…ドクドクッ…ドビュゥッ！　ドクン！
+グビュビュゥッ!　ビュルルッ...ドクドクッ...ドビュゥッ!　ドクン!
 
-＠ざくろ,Q00694
-「ぐぶぅぢゅッ……んぅぶッ！　ずぢゅッ、んぢゅふぅっ……！」
+＠Zakuro,Q00694
+「ぐぶぅぢゅッ......んぅぶッ!　ずぢゅッ、んぢゅふぅっ......!」
 
-衝動が抑え切れなくなった刹那、オレはざくろの喉の奥へ怒張を突き入れて射精する。
-
-
-screen_flash		500
-
-
-ビュビュルッ…ドクドクッ！　ドクンッ！　ヂュビュゥッ…ヂュビュビュッ！
-
-＠ざくろ,Q00695
-「ぐぢゅむぅッ！　んぅッ……んぅぶふッ！　ぢゅふぅッ、んぢゅるるッ！」
+衝動が抑え切れなくなった刹那、オレはZakuroの喉の奥へ怒張を突き入れて射精する。
 
 
 screen_flash		500
 
 
-ドクドクッ…ビュビュゥッ……ドクンッ…ドクッ、ドクンッ……
+ビュビュルッ...ドクドクッ!　ドクンッ!　ヂュビュゥッ...ヂュビュビュッ!
 
-＠ざくろ,Q00696
-「ッくぶぅ…！　んぅふッ……ぬぢゅぢゅッ、ぐぢゅぅッ！　ぢゅぷッ、ぢゅぶぅッ！」
+＠Zakuro,Q00695
+「ぐぢゅむぅッ!　んぅッ......んぅぶふッ!　ぢゅふぅッ、んぢゅるるッ!」
 
-積溜まった快楽が爆ぜた射精は、ざくろの小さい口の中で大量の精液を吐き出していった。
 
-＠ざくろ,Q00697
-「くぶぅっ……っふぅ、んんッ……んぁふ、ッんんぅ…」
+screen_flash		500
 
-射精を終えると、ずっと肉茎を咥えていたざくろは、さすがに少し荒い呼吸を弾ませる。
 
-＠樹
-「……っく、んぅ…わ、悪いざくろ、つい口に……大丈夫か」
+ドクドクッ...ビュビュゥッ......ドクンッ...ドクッ、ドクンッ......
 
-＠ざくろ,Q00698
-「んぢゅっ、くぢゅぢゅ……んぐっ、ごくんッ…」
+＠Zakuro,Q00696
+「ッくぶぅ...!　んぅふッ......ぬぢゅぢゅッ、ぐぢゅぅッ!　ぢゅぷッ、ぢゅぶぅッ!」
 
-＠ざくろ,Q00699
-「……っん、んくッ…んくんッ……ごくッ…ごくんッ……」
+積溜まった快楽が爆ぜた射精は、Zakuroの小さい口の中で大量の精液を吐き出していった。
 
-＠ざくろ,Q00700
-「んくんッ……ん…ぁふぅ……っはぁ」
+＠Zakuro,Q00697
+「くぶぅっ......っふぅ、んんッ......んぁふ、ッんんぅ...」
+
+射精を終えると、ずっと肉茎を咥えていたZakuroは、さすがに少し荒い呼吸を弾ませる。
+
+＠Itsuki
+「......っく、んぅ...わ、悪いZakuro、つい口に......大丈夫か」
+
+＠Zakuro,Q00698
+「んぢゅっ、くぢゅぢゅ......んぐっ、ごくんッ...」
+
+＠Zakuro,Q00699
+「......っん、んくッ...んくんッ......ごくッ...ごくんッ......」
+
+＠Zakuro,Q00700
+「んくんッ......ん...ぁふぅ......っはぁ」
 
 言われずとも舌で絡めながら、口の中の大量の精液の全てを飲み下す。
 
@@ -1112,60 +1396,60 @@ voice_bg	"Q90004"
 #--------------------------------------------------
 
 
-＠ざくろ,Q00701
-「っはあ……ん、つっちー…さすがに、ちょっとビックリする量だったかも…」
+＠Zakuro,Q00701
+「っはあ......ん、つっちー...さすがに、ちょっとビックリする量だったかも...」
 
-それで一段落すると、ざくろは一息ついて肉茎を解放した。
+それで一段落すると、Zakuroは一息ついて肉茎を解放した。
 
-＠樹
-「あ……やっといてなんだが……大丈夫か…？」
+＠Itsuki
+「あ......やっといてなんだが......大丈夫か...?」
 
-＠ざくろ,Q00702
-「…ふぅっ…ぁふ……濃すぎる……まだ喉に絡み付いてるみたい……」
+＠Zakuro,Q00702
+「...ふぅっ...ぁふ......濃すぎる......まだ喉に絡み付いてるみたい......」
 
-＠ざくろ,Q00703
-「……それと、勢いが過ごすぎ……気管に入りそうだった」
+＠Zakuro,Q00703
+「......それと、勢いが過ごすぎ......気管に入りそうだった」
 
 
 voice_bg_stop
 
 
-＠樹
-「………それは何か、不可抗力な気がするが」
+＠Itsuki
+「.........それは何か、不可抗力な気がするが」
 
-＠ざくろ,Q00704
+＠Zakuro,Q00704
 「でも、前より勃起も射精も凄かったから、とりあえずは満足してる」
 
-＠ざくろ,Q00705
-「………つっちーのは、まだ大きいままね。あれだけ出したのに」
+＠Zakuro,Q00705
+「.........つっちーのは、まだ大きいままね。あれだけ出したのに」
 
-どことなく無感情に淡々と告げられる……
+どことなく無感情に淡々と告げられる......
 
 肉茎は射精を終えても勃起したまま、むしろ情欲はさらに高まっていた。
 
-＠ざくろ,Q00706
-「犯された直後なのに、もしかしてされ足りないの？」
+＠Zakuro,Q00706
+「犯された直後なのに、もしかしてされ足りないの?」
 
-＠樹
-「い、いや、放っておけば納まるだろ……そもそも、言うほど興奮してなかったしな」
+＠Itsuki
+「い、いや、放っておけば納まるだろ......そもそも、言うほど興奮してなかったしな」
 
-＠樹
-「ははは……はは…」
+＠Itsuki
+「ははは......はは...」
 
-原因は分かっている。目の前の、ざくろのアソコの光景だった。
+原因は分かっている。目の前の、Zakuroのアソコの光景だった。
 
 まだ成長途中の幼い背徳さを漂わせ、唾液と愛液で濡れ光る割れ目に、欲情させられる。
 
-＠ざくろ,Q00707
-「おちんちん、入れたかったら入れて構わないわよ？　私のアソコに」
+＠Zakuro,Q00707
+「おちんちん、入れたかったら入れて構わないわよ?　私のアソコに」
 
-＠樹
-「えッ！？　な、何でだ……したいなんて言ってないだろうに」
+＠Itsuki
+「えッ!?　な、何でだ......したいなんて言ってないだろうに」
 
-＠ざくろ,Q00708
+＠Zakuro,Q00708
 「知ってる。念のため」
 
-＠ざくろ,Q00709
+＠Zakuro,Q00709
 「ただ、犯された興奮を鎮めれてないと可哀想だから。一応」
 
 
@@ -1174,9 +1458,9 @@ voice_bg_stop
 @bg_black
 
 
-察しているように、ざくろはショーツとドロワーズを履き直して身体を起こした。
+察しているように、Zakuroはショーツとドロワーズを履き直して身体を起こした。
 
-オレもズボンをそのままに身体を起こすと、ざくろが手首の拘束を解きにかかる。
+オレもズボンをそのままに身体を起こすと、Zakuroが手首の拘束を解きにかかる。
 
 
 window_close
@@ -1196,18 +1480,18 @@ se_stop		0
 @bg_library		# 図書室
 
 
-＠ざくろ,Q00710
+＠Zakuro,Q00710
 「はい、これで自由」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00711
+＠Zakuro,Q00711
 「私は今から特売に行ってくるから、雫に言っておいて」
 
-＠樹
-「あ、あぁ……」
+＠Itsuki
+「あ、あぁ......」
 
 
 @zakuro_akire		#呆
@@ -1219,15 +1503,15 @@ se_stop		0
 @zakuro_
 
 
-＠樹
-（……本気で出て行くのか）
+＠Itsuki
+（......本気で出て行くのか）
 
 情けないと思いながらも、このまま大人しく去らせるほど冷静じゃなかった。
 
-＠ざくろ,Q00712
-「………？」
+＠Zakuro,Q00712
+「.........?」
 
-咄嗟にざくろの腕を掴み引き止める。
+咄嗟にZakuroの腕を掴み引き止める。
 
 
 @zakuro_middle		# 中間
@@ -1235,62 +1519,62 @@ se_stop		0
 @zakuro			#普
 
 
-＠ざくろ,Q00713
-「何？」
+＠Zakuro,Q00713
+「何?」
 
-＠樹
-「………構わないんだったら、するぞ。ざくろ」
+＠Itsuki
+「.........構わないんだったら、するぞ。Zakuro.」
 
 
-#SE36　勢いよく抱きつく音（バフッ！）
+#SE36　勢いよく抱きつく音（バフッ!）
 window_close
 screen_whiteout		100
 wait			100
-#@SE36			#SE36　勢いよく抱きつく音（バフッ！）
+#@SE36			#SE36　勢いよく抱きつく音（バフッ!）
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @bg_white		# 白
 screen_whitein		1
 
 
-＠ざくろ,Q00714
-「んっ……んぅ…」
+＠Zakuro,Q00714
+「んっ......んぅ...」
 
-＠ざくろ,Q00715
-「ふぅっ……つっちー、強引……おちんちん丸出しのまま…」
+＠Zakuro,Q00715
+「ふぅっ......つっちー、強引......おちんちん丸出しのまま...」
 
 
 @bg_library		# 図書室
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
+#SCRIPT ADD KANJI
+Ｚakuroの身体を腕の中に収め、オレは急き気味に服をはだけさせていく。
 
-ざくろの身体を腕の中に収め、オレは急き気味に服をはだけさせていく。
+＠Itsuki
+「で......め、面倒な服だな。どうやったら脱げるんだ、このっ」
 
-＠樹
-「で……め、面倒な服だな。どうやったら脱げるんだ、このっ」
-
-＠ざくろ,Q00716
+＠Zakuro,Q00716
 「あんまり乱暴にしないで。破れちゃうから」
 
-＠ざくろ,Q00717
-「そんなに私を脱がせたいの……？」
+＠Zakuro,Q00717
+「そんなに私を脱がせたいの......?」
 
-＠樹
-「……さっき言ったとおりだ。脱がせれないならもう、このままでもいい」
+＠Itsuki
+「......さっき言ったとおりだ。脱がせれないならもう、このままでもいい」
 
 
-#■BG（黒）※黒背景が長いかも……実際動かして長いときは、図書室背景のままで。
+#■BG（黒）※黒背景が長いかも......実際動かして長いときは、図書室背景のままで。
 #@bg_black
 
 
-恥ずかしさを虚勢で押し殺して、強引にざくろの長いスカートをたくし上げる。
+恥ずかしさを虚勢で押し殺して、強引にZakuroの長いスカートをたくし上げる。
 
-＠ざくろ,Q00718
-「っんぅ、ふふ……つっちー、私みたいな年端もない子と、そんなに夢中になってエッチしたいの？」
+＠Zakuro,Q00718
+「っんぅ、ふふ......つっちー、私みたいな年端もない子と、そんなに夢中になってエッチしたいの?」
 
-＠樹
-「そ、そうだ……言いたいことは分かってる。構わないって言っただろ」
+＠Itsuki
+「そ、そうだ......言いたいことは分かってる。構わないって言っただろ」
 
-＠ざくろ,Q00719
+＠Zakuro,Q00719
 「うん。もうしたくてたまらなさそうだから、特別」
 
 
@@ -1298,60 +1582,60 @@ screen_whitein		1
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 
-自分からボレロを脱ぎ、チャックやボタンを弄りながら衣服をズリ下ろすざくろ。
+自分からボレロを脱ぎ、チャックやボタンを弄りながら衣服をズリ下ろすZakuro。
 
 小さな胸の膨らみが露になり、今度はスカートに手を入れる。
 
-＠ざくろ,Q00720
-「下も脱ぐ派？」
+＠Zakuro,Q00720
+「下も脱ぐ派?」
 
-＠樹
-「……派も何も、脱がないと入れれないよな。今になって嫌か？」
+＠Itsuki
+「......派も何も、脱がないと入れれないよな。今になって嫌か?」
 
-＠ざくろ,Q00721
+＠Zakuro,Q00721
 「ううん、今までも居たから。いろんな性癖の人」
 
-＠ざくろ,Q00722
+＠Zakuro,Q00722
 「つっちーがノーマルなら脱ぐから、別に心配しないで」
 
 大人しくドロワーズもズリ下げてショーツを解き、スカートをたくし上げた。
 
 
 #--------------------------------------------------
-#■HCG（後背位・背の低い本棚に手を置き、立ったままの前傾姿勢で体重をかけている。腰を後ろに突き出し、樹が挿入）
+#■HCG（後背位・背の低い本棚に手を置き、立ったままの前傾姿勢で体重をかけている。腰を後ろに突き出し、Itsukiが挿入）
 #■（以下はまだ挿入前）
 event		"event\EV_ZAK_070-00.png"
 #--------------------------------------------------
 
 
-そのままこちらが指示する前に、後ろ向きで本棚に体重をかけるざくろ。
+そのままこちらが指示する前に、後ろ向きで本棚に体重をかけるZakuro。
 
-＠ざくろ,Q00723
+＠Zakuro,Q00723
 「この格好で後ろから」
 
-＠樹
-「……え？」
+＠Itsuki
+「......え?」
 
-＠ざくろ,Q00724
+＠Zakuro,Q00724
 「入れて良い代わりに、体位は私が決めたいの」
 
 少し身体を浮かせた前傾姿勢で、肌にスカートが揺れる腰をこちらに向ける。
 
 さっき間近で見た小ぶりなお尻と、まだ唾液と愛液に濡れた幼い秘裂が視界に映った。
 
-＠ざくろ,Q00725
-「中途半端だったから、アソコが疼いてる……つっちーのせい」
+＠Zakuro,Q00725
+「中途半端だったから、アソコが疼いてる......つっちーのせい」
 
-＠樹
-「いや、最後までフェラをしたざくろのせいだ」
+＠Itsuki
+「いや、最後までフェラをしたZakuroのせいだ」
 
-＠ざくろ,Q00726
-「どっちでもいい。今度は、そうはしない自信があるんでしょ？」
+＠Zakuro,Q00726
+「どっちでもいい。今度は、そうはしない自信があるんでしょ?」
 
-＠ざくろ,Q00727
-「……入れてみて、つっちーのおちんちん。その大きいの」
+＠Zakuro,Q00727
+「......入れてみて、つっちーのおちんちん。その大きいの」
 
-一瞬窈窕なざくろの視線に捉われ、オレは逸る気持ちのまま秘裂へ肉茎を押し付けた。
+一瞬窈窕なZakuroの視線に捉われ、オレは逸る気持ちのまま秘裂へ肉茎を押し付けた。
 
 
 #--------------------------------------------------
@@ -1361,45 +1645,46 @@ voice_bg	"Q90005"
 #--------------------------------------------------
 
 
-＠ざくろ,Q00728
-「んぅっ…くぅんっ！　はぁぁっ……！」
+＠Zakuro,Q00728
+「んぅっ...くぅんっ!　はぁぁっ......!」
 
 自分の欲情で気遣いもないまま、未成熟の秘裂を押し広げていく。
 
-＠ざくろ,Q00729
-「んっぅん！　見た目より……まだ大きい…はぁぁっ……ぁふ、んぅっ…！」
+＠Zakuro,Q00729
+「んっぅん!　見た目より......まだ大きい...はぁぁっ......ぁふ、んぅっ...!」
 
-＠ざくろ,Q00730
-「…おちんちんが……どんどん中に、押し広げて入ってきてる……ぅんっ、はぁっ…」
+＠Zakuro,Q00730
+「...おちんちんが......どんどん中に、押し広げて入ってきてる......ぅんっ、はぁっ...」
 
-ざくろの中も他の子と同様にきついが、調教された膣肉は、柔軟に肉茎に絡みつきながら挿入を導いてくる。
+#SCRIPT ADD KANJI
+Ｚakuroの中も他の子と同様にきついが、調教された膣肉は、柔軟に肉茎に絡みつきながら挿入を導いてくる。
 
 異物が挿入される刺激に呼吸は震わせるが、みかん達と違い痛みの様子は無かった。
 
-＠ざくろ,Q00731
-「っはぁぁ、んぅっ……つっちーの、奥まで入ってきた……あはぁっ…はぁぁっ…」
+＠Zakuro,Q00731
+「っはぁぁ、んぅっ......つっちーの、奥まで入ってきた......あはぁっ...はぁぁっ...」
 
-＠ざくろ,Q00732
-「…てっきり、もっと気遣うかと思ってたけど……一気に入れちゃったの」
+＠Zakuro,Q00732
+「...てっきり、もっと気遣うかと思ってたけど......一気に入れちゃったの」
 
-＠樹
-「……クンニの時にざくろ、気遣いは要らないって言ってたろ……」
+＠Itsuki
+「......クンニの時にZakuro、気遣いは要らないって言ってたろ......」
 
-＠ざくろ,Q00733
-「んぅっ、ふぅ…うん……舐めたり入れたりするくらいで……そんなの必要ない…」
+＠Zakuro,Q00733
+「んぅっ、ふぅ...うん......舐めたり入れたりするくらいで......そんなの必要ない...」
 
-＠ざくろ,Q00734
-「……これまでもっと激しい事も、たくさん要求されてきてるから…」
+＠Zakuro,Q00734
+「......これまでもっと激しい事も、たくさん要求されてきてるから...」
 
-いつもの感情の見えない声で、ざくろがどう思って言ったのかは分からない。
+いつもの感情の見えない声で、Zakuroがどう思って言ったのかは分からない。
 
 だが実際、このきつさを最奥まで貫いているにもかかわらず、全然余裕があるのは窺えた。
 
-＠ざくろ,Q00735
-「…つっちー、おちんちんが中で熱くなってきてる……もう待ちきれない？」
+＠Zakuro,Q00735
+「...つっちー、おちんちんが中で熱くなってきてる......もう待ちきれない?」
 
-＠樹
-「あぁ……動かすぞ、ざくろ」
+＠Itsuki
+「あぁ......動かすぞ、Zakuro.」
 
 密着してくる膣肉の中で一度、奥へ入れたばかりの肉茎をギリギリまで引き抜く。
 
@@ -1412,142 +1697,145 @@ screen_transition	1000
 #--------------------------------------------------
 
 
-＠ざくろ,Q00736
-「んっ……っんぅ！　ぁふぅっ……」
+＠Zakuro,Q00736
+「んっ......っんぅ!　ぁふぅっ......」
 
-ざくろが頷くと、再び最奥まで怒張で貫かせ、ピストンさせ始める。
+#SCRIPT ADD KANJI
+Ｚakuroが頷くと、再び最奥まで怒張で貫かせ、ピストンさせ始める。
 
-ニヂュッ…ヂュッ！　ヂュブッ……ヂュチュッ、ヂュブブッ…！
+ニヂュッ...ヂュッ!　ヂュブッ......ヂュチュッ、ヂュブブッ...!
 
-＠ざくろ,Q00737
-「んぅっ…！　はぁぁっ、あぅんッ…！　んはぁっ、はぅっ……」
+＠Zakuro,Q00737
+「んぅっ...!　はぁぁっ、あぅんッ...!　んはぁっ、はぅっ......」
 
-＠ざくろ,Q00738
-「ふぅっ、ぅんっ…！　んくぅっ、はぁぁっ…はぅっ…あふぅっ…」
+＠Zakuro,Q00738
+「ふぅっ、ぅんっ...!　んくぅっ、はぁぁっ...はぅっ...あふぅっ...」
 
-クチュっ！クチュっ！と奥まで突かれながら、ざくろは小さい吐息を連続させた。
+クチュっ!クチュっ!と奥まで突かれながら、Zakuroは小さい吐息を連続させた。
 
-＠ざくろ,Q00739
-「んぅふっ…あふぅっ……これ、つっちーのおちんちんの感触……っはぁぁ…んくっ…」
+＠Zakuro,Q00739
+「んぅふっ...あふぅっ......これ、つっちーのおちんちんの感触......っはぁぁ...んくっ...」
 
-＠ざくろ,Q00740
-「…硬い……こんなに勃起してるの……っはぁ、んんっ…他の人より、全然すごい…」
+＠Zakuro,Q00740
+「...硬い......こんなに勃起してるの......っはぁ、んんっ...他の人より、全然すごい...」
 
-＠樹
-「ん、っく……ざくろもさすがだ、中の感触……他の子よりもずっといい」
+＠Itsuki
+「ん、っく......Zakuroもさすがだ、中の感触......他の子よりもずっといい」
 
-ざくろの媚肉は吸着するように肉茎に絡みつき、ピストンの摩擦を高めていく。
+#SCRIPT ADD KANJI
+Ｚakuroの媚肉は吸着するように肉茎に絡みつき、ピストンの摩擦を高めていく。
 
 膣路の小ささで全てを挿入することは出来なくても、十分達することが出来そうな快美感だ。
 
-＠ざくろ,Q00741
-「んふぅ…んんっ……！　もう、私のソコ、おちんちんに慣れてるから……すぐに馴染むの……はぁっ、あぅんっ…」
+＠Zakuro,Q00741
+「んふぅ...んんっ......!　もう、私のソコ、おちんちんに慣れてるから......すぐに馴染むの......はぁっ、あぅんっ...」
 
-＠ざくろ,Q00742
-「あふぅっ……ぅんっ…！　はぁぁっ…あふぅ……んぅっ…はぁぁっ」
+＠Zakuro,Q00742
+「あふぅっ......ぅんっ...!　はぁぁっ...あふぅ......んぅっ...はぁぁっ」
 
-＠ざくろ,Q00743
-「…ぅんんっ、あふぅ…はぁぁ…！　もしかして、つっちー……もう自信なくなったの……？」
+＠Zakuro,Q00743
+「...ぅんんっ、あふぅ...はぁぁ...!　もしかして、つっちー......もう自信なくなったの......?」
 
-こちらの逸る欲情が腰使いに表れ、ざくろに微笑交じりの言葉を向けられる。
+こちらの逸る欲情が腰使いに表れ、Zakuroに微笑交じりの言葉を向けられる。
 
-＠ざくろ,Q00744
-「…んふ……ふぅっ…他の人も、今のつっちーみたいに……気持ちよさそうに腰を動かしてるのよ…」
+＠Zakuro,Q00744
+「...んふ......ふぅっ...他の人も、今のつっちーみたいに......気持ちよさそうに腰を動かしてるのよ...」
 
-＠樹
-「っん…見くびるな、これくらい……今度はざくろを喘がせるから、覚悟しろよ」
+＠Itsuki
+「っん...見くびるな、これくらい......今度はZakuroを喘がせるから、覚悟しろよ」
 
-＠ざくろ,Q00745
-「んんっ…！　あふぅっ……っはぁ、うん…頑張って…」
+＠Zakuro,Q00745
+「んんっ...!　あふぅっ......っはぁ、うん...頑張って...」
 
-まるで他人事のように励ます……というより、
+まるで他人事のように励ます......というより、
 
-こんな時でさえも、やはりどこか考えを読み取りにくい普段どおりのざくろだ。
+こんな時でさえも、やはりどこか考えを読み取りにくい普段どおりのZakuroだ。
 
-＠ざくろ,Q00746
-「つっちー、おちんちんは大きいから……んぅふっ…はぁっ…素質はあると思う…」
+＠Zakuro,Q00746
+「つっちー、おちんちんは大きいから......んぅふっ...はぁっ...素質はあると思う...」
 
-＠ざくろ,Q00747
-「…あとは、早漏だから……ただの持ち腐れだけど……っはぁぁ…んぅふっ……」
+＠Zakuro,Q00747
+「...あとは、早漏だから......ただの持ち腐れだけど......っはぁぁ...んぅふっ......」
 
-＠ざくろ,Q00748
-「くんっ！　はぁぁ…ぅんっ……！　んぅふ…はぁぁっ……くぅんっ…」
+＠Zakuro,Q00748
+「くんっ!　はぁぁ...ぅんっ......!　んぅふ...はぁぁっ......くぅんっ...」
 
-ざくろの中は幼さによるきつさと、経験による媚肉の熱と柔軟さで、出入りさせる肉茎に圧倒的な快楽を走らせる。
+#SCRIPT ADD KANJI
+Ｚakuroの中は幼さによるきつさと、経験による媚肉の熱と柔軟さで、出入りさせる肉茎に圧倒的な快楽を走らせる。
 
 巧みなシックスナインからの気の逸りもあって、肉茎がかなり敏感になっている。
 
-＠ざくろ,Q00749
-「んぁんっ！　はぁぁっ……ん！　はぁっ……んふぅっ、んぅっ…」
+＠Zakuro,Q00749
+「んぁんっ!　はぁぁっ......ん!　はぁっ......んふぅっ、んぅっ...」
 
-射精直後なので何とか余裕を保ち、オレはざくろの中をピストンで堪能した。
+射精直後なので何とか余裕を保ち、オレはZakuroの中をピストンで堪能した。
 
-＠ざくろ,Q00750
-「んぅふっ…！　あふぅっ…はぁっ…つっちーの、出入りしながら……熱くなってきてる…」
+＠Zakuro,Q00750
+「んぅふっ...!　あふぅっ...はぁっ...つっちーの、出入りしながら......熱くなってきてる...」
 
-＠ざくろ,Q00751
-「んふぅっ…んん！　はぁぁ……二回も先にイッたら、恥の上塗りよ……？」
+＠Zakuro,Q00751
+「んふぅっ...んん!　はぁぁ......二回も先にイッたら、恥の上塗りよ......?」
 
-＠樹
-「……言われなくても、分かってるさ……イクわけないだろう…」
+＠Itsuki
+「......言われなくても、分かってるさ......イクわけないだろう...」
 
-ニヂュッ、ヂュヂュッ……ヂュブッ！　ヂュブブッ…！
+ニヂュッ、ヂュヂュッ......ヂュブッ!　ヂュブブッ...!
 
-＠ざくろ,Q00752
-「んぅふっ…！　ぁふぅ、はぁぁっ……んっ…んんぅっ！」
+＠Zakuro,Q00752
+「んぅふっ...!　ぁふぅ、はぁぁっ......んっ...んんぅっ!」
 
-強く否定できずに、最奥まで怒張を突きいれ、ざくろの溶かされそうな熱の媚肉を前後に捲り返す。
+強く否定できずに、最奥まで怒張を突きいれ、Zakuroの溶かされそうな熱の媚肉を前後に捲り返す。
 
 
 voice_bg	"Q90006"
 
 
-＠ざくろ,Q00753
-「はぁぁっ、んぅ…！　ぁふうっ！　つっちー…はぁぁ……んくんっ……んふぅっ…！」
+＠Zakuro,Q00753
+「はぁぁっ、んぅ...!　ぁふうっ!　つっちー...はぁぁ......んくんっ......んふぅっ...!」
 
-ニチュヂュッ…ヂュブブッ……クヂュ！　ヂュクッ、ヂュチュッ！
+ニチュヂュッ...ヂュブブッ......クヂュ!　ヂュクッ、ヂュチュッ!
 
-＠ざくろ,Q00754
-「んっ、はぁぁっ……アソコの中、拡がって…引っ張られてるみたい……んふぅっ…んんっ…！」
+＠Zakuro,Q00754
+「んっ、はぁぁっ......アソコの中、拡がって...引っ張られてるみたい......んふぅっ...んんっ...!」
 
-＠ざくろ,Q00755
-「んぅふ……はぁぁっ…！　はぁ…ぅんっ……あふぅ……はぁぁっ！」
+＠Zakuro,Q00755
+「んぅふ......はぁぁっ...!　はぁ...ぅんっ......あふぅ......はぁぁっ!」
 
-熱っぽい吐息と共に身体を揺さぶられ、ざくろの長い黒髪がサラサラと散り揺れる。
+熱っぽい吐息と共に身体を揺さぶられ、Zakuroの長い黒髪がサラサラと散り揺れる。
 
 その姿と、そこから覗く白い肌に浮かぶ朱色の光景に、思わず相手を忘れて見とれてしまう。
 
-＠ざくろ,Q00756
-「んぅ……っぁぅふ、ふぅっ！　ズリュズリュって……アソコの中、奥まで貪られてる…」
+＠Zakuro,Q00756
+「んぅ......っぁぅふ、ふぅっ!　ズリュズリュって......アソコの中、奥まで貪られてる...」
 
-＠ざくろ,Q00757
-「…こんなの、きつさと硬さだけで……っくぅん…ふぅっ…！　つっちーのおちんちん、他の人より有利かも…」
+＠Zakuro,Q00757
+「...こんなの、きつさと硬さだけで......っくぅん...ふぅっ...!　つっちーのおちんちん、他の人より有利かも...」
 
-＠樹
-「……有利ならもっと…それらしく喘いでくれると嬉しいけど……んっ、くぅ…！」
+＠Itsuki
+「......有利ならもっと...それらしく喘いでくれると嬉しいけど......んっ、くぅ...!」
 
-ズチュッ、ヂュチュゥッ…ジュブッ、ニヂュッ…ヂュブブッ…！
+ズチュッ、ヂュチュゥッ...ジュブッ、ニヂュッ...ヂュブブッ...!
 
-＠ざくろ,Q00758
-「んくぅっ！　あぅっ…んぅふっ……それは、つっちーが頑張るんでしょ…？」
+＠Zakuro,Q00758
+「んくぅっ!　あぅっ...んぅふっ......それは、つっちーが頑張るんでしょ...?」
 
-＠ざくろ,Q00759
-「演技なら出来るけど……っんふぅ、はぁぁっ……今は、つっちーのおちんちんの頑張りが見たいの…」
+＠Zakuro,Q00759
+「演技なら出来るけど......っんふぅ、はぁぁっ......今は、つっちーのおちんちんの頑張りが見たいの...」
 
 スッとこちらに、期待と揶揄を孕んだ視線が向けられた。
 
-＠ざくろ,Q00760
-「んんっ、あふんっ…！　それまで、こっちからは何もしないから……やってみて…」
+＠Zakuro,Q00760
+「んんっ、あふんっ...!　それまで、こっちからは何もしないから......やってみて...」
 
-＠ざくろ,Q00761
-「んっ！　はぁふ、あふぅっ…！　はぁぁっ……んっ…んふぅ、はぁぁっ……」
+＠Zakuro,Q00761
+「んっ!　はぁふ、あふぅっ...!　はぁぁっ......んっ...んふぅ、はぁぁっ......」
 
-＠樹
-「んぅっ……くぅ…ざくろっ……！」
+＠Itsuki
+「んぅっ......くぅ...Zakuroっ......!」
 
-昂ぶった興奮と怒張の疼きのせいで、オレはただでさえ上質なざくろの中を、さらに敏感に往復している。
+昂ぶった興奮と怒張の疼きのせいで、オレはただでさえ上質なZakuroの中を、さらに敏感に往復している。
 
-危機感を覚えたオレは、本能的にざくろの胸へ手を回していた。
+危機感を覚えたオレは、本能的にZakuroの胸へ手を回していた。
 
 
 #--------------------------------------------------
@@ -1559,37 +1847,37 @@ screen_transition	1000
 #--------------------------------------------------
 
 
-＠ざくろ,Q00762
-「…っ！　んっ、んぅっ…はぅんッ！」
+＠Zakuro,Q00762
+「...っ!　んっ、んぅっ...はぅんッ!」
 
-＠ざくろ,Q00763
-「んぅふ……っふあ、はぁぁっ！　んっ……つっちー……くぅんっ…！」
+＠Zakuro,Q00763
+「んぅふ......っふあ、はぁぁっ!　んっ......つっちー......くぅんっ...!」
 
-手の中に小さくも柔らかい、ざくろの胸の感触が収まってひしゃげる。
+手の中に小さくも柔らかい、Zakuroの胸の感触が収まってひしゃげる。
 
-＠ざくろ,Q00764
-「はぁぁっ…んくん…！　んぅふ……どうしたの、つっちー…腰だけじゃ足りないの…？」
+＠Zakuro,Q00764
+「はぁぁっ...んくん...!　んぅふ......どうしたの、つっちー...腰だけじゃ足りないの...?」
 
-＠樹
-「ん、んぅ……そんな他意は……ただ、本能的に…」
+＠Itsuki
+「ん、んぅ......そんな他意は......ただ、本能的に...」
 
-＠ざくろ,Q00765
-「なら、本能レベルで触りたいってことね……」
+＠Zakuro,Q00765
+「なら、本能レベルで触りたいってことね......」
 
-＠ざくろ,Q00766
-「っふぅ……んくん…いいから、続けて……つっちーがしたかったら、触りながらしてもいいから…」
+＠Zakuro,Q00766
+「っふぅ......んくん...いいから、続けて......つっちーがしたかったら、触りながらしてもいいから...」
 
-＠樹
-「……余裕なんだな……ほんとにいいのか…？」
+＠Itsuki
+「......余裕なんだな......ほんとにいいのか...?」
 
-＠ざくろ,Q00767
-「…胸でも、おちんちんでも…ん…っんぅふ……つっちーの発散したいようにして……」
+＠Zakuro,Q00767
+「...胸でも、おちんちんでも...ん...っんぅふ......つっちーの発散したいようにして......」
 
-＠ざくろ,Q00768
-「…私は、ちゃんと自信のある余裕だから、平気……」
+＠Zakuro,Q00768
+「...私は、ちゃんと自信のある余裕だから、平気......」
 
-＠樹
-「……そうか……なら、このまま触らせてもらうな…」
+＠Itsuki
+「......そうか......なら、このまま触らせてもらうな...」
 
 勧められるまま、手が余るほどの僅かな胸の膨らみをムニムニと揉みさする。
 
@@ -1603,27 +1891,27 @@ screen_transition	1000
 #--------------------------------------------------
 
 
-＠ざくろ,Q00769
-「んぅふ！　はぁぁっ……んっ…んぅっ…！　あふぅっ…」
+＠Zakuro,Q00769
+「んぅふ!　はぁぁっ......んっ...んぅっ...!　あふぅっ...」
 
-＠ざくろ,Q00770
-「っん……くふぅっ、つっちー、興奮してるわりに……それなりに上手……んんっ…！」
+＠Zakuro,Q00770
+「っん......くふぅっ、つっちー、興奮してるわりに......それなりに上手......んんっ...!」
 
-＠ざくろ,Q00771
-「…はぅんっ……んんぅ、ふぅっ！　んふぁっ…！　はぁぁっ」
+＠Zakuro,Q00771
+「...はぅんっ......んんぅ、ふぅっ!　んふぁっ...!　はぁぁっ」
 
-手で包む感触は幼いながらも、ざくろからは愛撫に応じた息遣いを吐き出される。
+手で包む感触は幼いながらも、Zakuroからは愛撫に応じた息遣いを吐き出される。
 
 撫でるようにして揉む指先に、膨らみの先端の小さい突起が擦れた。
 
-＠ざくろ,Q00772
-「んっ！　はぁぁ…！　んふぅっ……そこ、硬くなってる……嬉しい…？」
+＠Zakuro,Q00772
+「んっ!　はぁぁ...!　んふぅっ......そこ、硬くなってる......嬉しい...?」
 
-＠樹
-「……この程度ではダメだ……ざくろも、これで満足されたら不本意だろ…？」
+＠Itsuki
+「......この程度ではダメだ......Zakuroも、これで満足されたら不本意だろ...?」
 
-＠ざくろ,Q00773
-「はぁっ、んん……うん…拍子抜けするところだったから………んくんっ！　んふぁっ…！」
+＠Zakuro,Q00773
+「はぁっ、んん......うん...拍子抜けするところだったから.........んくんっ!　んふぁっ...!」
 
 
 #--------------------------------------------------
@@ -1635,86 +1923,87 @@ screen_transition	1000
 #--------------------------------------------------
 
 
-ニチュヂュッ、ヂュブッ…！　クヂュッ、クヂュゥッ！　ニヂュッ！　ニチュッ！
+ニチュヂュッ、ヂュブッ...!　クヂュッ、クヂュゥッ!　ニヂュッ!　ニチュッ!
 
-＠ざくろ,Q00774
-「っくん…！　はぁぁっ……はふっ、んん！　んぅふぅっ…！」
+＠Zakuro,Q00774
+「っくん...!　はぁぁっ......はふっ、んん!　んぅふぅっ...!」
 
 手の平で胸をまさぐりながら、そのまま無理のない範囲で腰の律動を深くしていく。
 
-＠ざくろ,Q00775
-「はぁあ！　っんく……つっちー、急に動かれたら…さすがにビックリする……んくんっ、ふぅっ…！」
+＠Zakuro,Q00775
+「はぁあ!　っんく......つっちー、急に動かれたら...さすがにビックリする......んくんっ、ふぅっ...!」
 
-＠樹
-「…それは悪い……けど、だいぶ息が上がってきてるな」
+＠Itsuki
+「...それは悪い......けど、だいぶ息が上がってきてるな」
 
-クヂュッ、ヂュチュッ…ヂュッ！　ニチュグッ、チュヂュッ…！
+クヂュッ、ヂュチュッ...ヂュッ!　ニチュグッ、チュヂュッ...!
 
-＠ざくろ,Q00776
-「んぅふ！　はぁぁっ……んっ、くぅん！　あふぅっ……はぁぁ…！」
+＠Zakuro,Q00776
+「んぅふ!　はぁぁっ......んっ、くぅん!　あふぅっ......はぁぁ...!」
 
-＠ざくろ,Q00777
-「はぁっ…っんんふ…！　腰、止まってないの……謝ってるのに……っはぁ、はふぅっ…！」
+＠Zakuro,Q00777
+「はぁっ...っんんふ...!　腰、止まってないの......謝ってるのに......っはぁ、はふぅっ...!」
 
-＠ざくろ,Q00778
-「…ヂュボヂュボって、おちんちんが……んんっ、ふぁぁっ…！　アソコの中、夢中で掻き出そうとしてるみたい…！」
+＠Zakuro,Q00778
+「...ヂュボヂュボって、おちんちんが......んんっ、ふぁぁっ...!　アソコの中、夢中で掻き出そうとしてるみたい...!」
 
-＠ざくろ,Q00779
-「んはぁっ……はぁぁ、んぅふ…！　んぅっ…んはぁっ、はぁぁっ……くぅん！」
+＠Zakuro,Q00779
+「んはぁっ......はぁぁ、んぅふ...!　んぅっ...んはぁっ、はぁぁっ......くぅん!」
 
-背後から抱かれるように胸を弄られながら、徐々に艶を孕んだ声を零すざくろ。
+背後から抱かれるように胸を弄られながら、徐々に艶を孕んだ声を零すZakuro。
 
 オレは謝罪しながらも、きつく狭い膣路の最奥まで、肉茎を何度も突き入れては往復させる。
 
-＠ざくろ,Q00780
-「っぁうん…はぁぁっ……つっちー…んん！　んぅく、良くなってきた……あふぅっ…！」
+＠Zakuro,Q00780
+「っぁうん...はぁぁっ......つっちー...んん!　んぅく、良くなってきた......あふぅっ...!」
 
-＠ざくろ,Q00781
-「…大きくて硬いの、お腹までズンズン突いてきてる……はぁぁっ、んぅん！　あはぅっ…！」
+＠Zakuro,Q00781
+「...大きくて硬いの、お腹までズンズン突いてきてる......はぁぁっ、んぅん!　あはぅっ...!」
 
-ざくろの奥からピストンごとに熱い愛液が滲み、グチグチと粘質な音が攪拌される。
+#SCRIPT ADD KANJI
+Ｚakuroの奥からピストンごとに熱い愛液が滲み、グチグチと粘質な音が攪拌される。
 
 秘裂の中は愛液に潤った媚肉が、肉茎に隙間無く絡み付いて擦れ動いた。
 
-＠ざくろ,Q00782
-「ふぁうっ！　はぁッ……んん！　はぁっ、あはぁっ……んぁふっ…！」
+＠Zakuro,Q00782
+「ふぁうっ!　はぁッ......んん!　はぁっ、あはぁっ......んぁふっ...!」
 
-そのざくろの様子に、さっきのシックスナインでの仕返しを思いつく。
+そのZakuroの様子に、さっきのシックスナインでの仕返しを思いつく。
 
-＠樹
-「っく、んん……今度はこっちの番だ、ざくろっ……どこが気持ちいいのか言ってみな」
+＠Itsuki
+「っく、んん......今度はこっちの番だ、Zakuroっ......どこが気持ちいいのか言ってみな」
 
-＠ざくろ,Q00783
-「っあふ、はぁぁっ……んぅく！　それ言うの、もしかしてさっきの仕返し……っはぁふ、んはぁ！」
+＠Zakuro,Q00783
+「っあふ、はぁぁっ......んぅく!　それ言うの、もしかしてさっきの仕返し......っはぁふ、んはぁ!」
 
-＠樹
-「そうだ、オレは言わなかったけど、ざくろは我慢できるかっ……？」
+＠Itsuki
+「そうだ、オレは言わなかったけど、Zakuroは我慢できるかっ......?」
 
-射精を耐えられるギリギリまで、ピストンの勢いを強めてざくろを責め尽くす。
+射精を耐えられるギリギリまで、ピストンの勢いを強めてZakuroを責め尽くす。
 
-＠ざくろ,Q00784
-「はあぁッ、んくぅッ…！　あぅっ、はぁぁッ……あはぁっ、んはふッ！」
+＠Zakuro,Q00784
+「はあぁッ、んくぅッ...!　あぅっ、はぁぁッ......あはぁっ、んはふッ!」
 
-ニヂュッ、ヂュチュッ！　ヂュブゥッ…ヂュブブッ、クヂュッ！
+ニヂュッ、ヂュチュッ!　ヂュブゥッ...ヂュブブッ、クヂュッ!
 
-＠ざくろ,Q00785
-「んぁうッ！　はぁぁッ……つっちー、思ってたよりすごい……おマンコが気持ちよくなってくる、ッあふぅ！　はあぁッ…」
+＠Zakuro,Q00785
+「んぁうッ!　はぁぁッ......つっちー、思ってたよりすごい......おマンコが気持ちよくなってくる、ッあふぅ!　はあぁッ...」
 
-＠ざくろ,Q00786
-「おチンポがこんな、子種を植えつけたそうに……あぅん！　んんッ、はあぁっ！　子宮までズンズン、先端を擦りつけて来てるからっ……」
+＠Zakuro,Q00786
+「おチンポがこんな、子種を植えつけたそうに......あぅん!　んんッ、はあぁっ!　子宮までズンズン、先端を擦りつけて来てるからっ......」
 
-＠樹
-「……って、あっさりと言うんじゃない！」
+＠Itsuki
+「......って、あっさりと言うんじゃない!」
 
-さすがざくろ。
+さすがZakuro。
 
 オレが主導権を取る間もなく、あっさりと言葉を口にした。
 
-＠ざくろ,Q00787
-「んクゥ！　はぁぁッ、このくらいのことで、動揺なんてしないから……ッんふぅ！」
+＠Zakuro,Q00787
+「んクゥ!　はぁぁッ、このくらいのことで、動揺なんてしないから......ッんふぅ!」
 
-＠樹
-「っく……結局最後まで、ざくろに主導権は取られっぱなしなのかよっ……」
+＠Itsuki
+「っく......結局最後まで、Zakuroに主導権は取られっぱなしなのかよっ......」
 
 抱きしめるように胸を愛撫しながらの抽挿に、怒張は二度目の射精感を渦巻かせていた。
 
@@ -1722,84 +2011,85 @@ screen_transition	1000
 
 オレは一度ピストンを抑え、別の手段を講じようとした。
 
-＠ざくろ,Q00788
-「んはぁッ、あぅん！　んぅッ、でも、気持ちいいのはホントだからっ……もっとして、つっちー……あぁう、あふぅ！」
+＠Zakuro,Q00788
+「んはぁッ、あぅん!　んぅッ、でも、気持ちいいのはホントだからっ......もっとして、つっちー......あぁう、あふぅ!」
 
-＠ざくろ,Q00789
-「おマンコが子宮ごと、ズリズリ引き摺られてるみたい……っんはぁ！　くぅうん！　おチンポのピストンがすごくてっ…」
+＠Zakuro,Q00789
+「おマンコが子宮ごと、ズリズリ引き摺られてるみたい......っんはぁ!　くぅうん!　おチンポのピストンがすごくてっ...」
 
-＠ざくろ,Q00790
-「んくぅッ！　本気になっちゃいそうなの……はぁあッ！　あはぁ！　こんなサイズのおチンポ、経験も浅いからっ……！」
+＠Zakuro,Q00790
+「んくぅッ!　本気になっちゃいそうなの......はぁあッ!　あはぁ!　こんなサイズのおチンポ、経験も浅いからっ......!」
 
-激しいピストンを受けながら、ざくろが捲くし立てるように言ってこちらを見上げる。
+激しいピストンを受けながら、Zakuroが捲くし立てるように言ってこちらを見上げる。
 
-＠ざくろ,Q00791
-「っふぅ！　んはぁっ…！　だからもっと、おチンポのお汁でおマンコの中……グチョグチョに掻き回して…！」
+＠Zakuro,Q00791
+「っふぅ!　んはぁっ...!　だからもっと、おチンポのお汁でおマンコの中......グチョグチョに掻き回して...!」
 
 濡れた瞳のその姿に欲情を揺すられ、オレの頭の中から、動きを抑えるという選択肢は無くなった。
 
-＠樹
-「分かった、最後までいくぞざくろッ……」
+＠Itsuki
+「分かった、最後までいくぞZakuroッ......」
 
-限界近い怒張を緩めることなく、続けてざくろの中へ強く押し入れる。
+限界近い怒張を緩めることなく、続けてZakuroの中へ強く押し入れる。
 
-＠ざくろ,Q00792
-「んぁんッ！　んんッ、はぁぁッ！　つっちー、おっぱいももっと……んくぅっ！　あはぁっ…！」
+＠Zakuro,Q00792
+「んぁんッ!　んんッ、はぁぁッ!　つっちー、おっぱいももっと......んくぅっ!　あはぁっ...!」
 
-＠ざくろ,Q00793
-「はぁうん、んぅふッ！　小さくて、揉み辛いと思うけど……気持ちいいから同時にしてっ……」
+＠Zakuro,Q00793
+「はぁうん、んぅふッ!　小さくて、揉み辛いと思うけど......気持ちいいから同時にしてっ......」
 
 すっかり性欲に浮かされたオレは頷き、胸の愛撫も再開しながらピストンを繰り返す。
 
-ズヂュッ！　ヂュブブッ、ニヂュッ、ヂュヂュ！　ニチュゥ！
+ズヂュッ!　ヂュブブッ、ニヂュッ、ヂュヂュ!　ニチュゥ!
 
-＠ざくろ,Q00794
-「ッあふ！　はあぁっ、んはぁっ…！　はあぁうっ……んふぅッ、ふぅくッ、あふぁ！」
+＠Zakuro,Q00794
+「ッあふ!　はあぁっ、んはぁっ...!　はあぁうっ......んふぅッ、ふぅくッ、あふぁ!」
 
-＠ざくろ,Q00795
-「んんッ、ひぅん！　おマンコもおっぱいも、つっちーにすごく感じさせられてるっ……んくぅ！」
+＠Zakuro,Q00795
+「んんッ、ひぅん!　おマンコもおっぱいも、つっちーにすごく感じさせられてるっ......んくぅ!」
 
-ざくろの身体は胸の感触も柔らかく火照り、手の中で心地よさを増していく。
+#SCRIPT ADD KANJI
+Ｚakuroの身体は胸の感触も柔らかく火照り、手の中で心地よさを増していく。
 
 愛液はまるでフェラチオの唾液のように、秘裂の中の肉茎を熱くたっぷりと膣肉で摩擦する。
 
-＠ざくろ,Q00796
-「んぅっはぁ！　あふぅっ…！　おチンポが強引に、小さい中に出入りしてるの……っんはぁ、んぁう！」
+＠Zakuro,Q00796
+「んぅっはぁ!　あふぅっ...!　おチンポが強引に、小さい中に出入りしてるの......っんはぁ、んぁう!」
 
-＠ざくろ,Q00797
-「んぅふ！　はぁぁッ、んはぁ！　おマンコの奥まで、硬い感触でヂュブヂュブ擦れてるぅ……くぅん！　あはぁっ！」
+＠Zakuro,Q00797
+「んぅふ!　はぁぁッ、んはぁ!　おマンコの奥まで、硬い感触でヂュブヂュブ擦れてるぅ......くぅん!　あはぁっ!」
 
-＠ざくろ,Q00798
-「んくぅっ！　ゃぁふっ……んはぁ！　はあッ、んぅッ！　あはあっ！　あぁう！」
+＠Zakuro,Q00798
+「んくぅっ!　ゃぁふっ......んはぁ!　はあッ、んぅッ!　あはあっ!　あぁう!」
 
-律動に合わせて吐き出されるざくろの嬌声は、徐々に感極まっていく。
+律動に合わせて吐き出されるZakuroの嬌声は、徐々に感極まっていく。
 
-オレもざくろのこんな姿は想像も出来なかったため、その分興奮は逸らされた。
+オレもZakuroのこんな姿は想像も出来なかったため、その分興奮は逸らされた。
 
 
 voice_bg	"Q90007"
 
 
-＠ざくろ,Q00799
-「くぅんッ！　んはあッ、つっちー、もっと入れておチンポ……おマンコの底までぇっ…！　くふんッ、あぁふぅ！」
+＠Zakuro,Q00799
+「くぅんッ!　んはあッ、つっちー、もっと入れておチンポ......おマンコの底までぇっ...!　くふんッ、あぁふぅ!」
 
-＠ざくろ,Q00800
-「こんなすごいの、つっちーのしかないからっ……あはぁっ！　んくん、んんふぅ！　射精まで、たくさん中に突き入れてっ…！」
+＠Zakuro,Q00800
+「こんなすごいの、つっちーのしかないからっ......あはぁっ!　んくん、んんふぅ!　射精まで、たくさん中に突き入れてっ...!」
 
-もうざくろの体躯も秘裂の小ささも、オレはすっかり熱に浮かされて失念していた。
+もうZakuroの体躯も秘裂の小ささも、オレはすっかり熱に浮かされて失念していた。
 
 欲情のままに、そのまだ幼い性味を、快楽に猛る怒張で貪っていく。
 
-＠樹
-「ッ、くぅ！　ざくろ、そろそろッ……」
+＠Itsuki
+「ッ、くぅ!　Zakuro、そろそろッ......」
 
-＠ざくろ,Q00801
-「ッはぁ！　んくんっ、うんッ！　好きなところに、出していいからっ……はあぁ！　んはぁッ」
+＠Zakuro,Q00801
+「ッはぁ!　んくんっ、うんッ!　好きなところに、出していいからっ......はあぁ!　んはぁッ」
 
-上気したざくろが応えるままに、オレは膨らんだ亀頭を奥へと押し入れた。
+上気したZakuroが応えるままに、オレは膨らんだ亀頭を奥へと押し入れた。
 
-＠ざくろ,Q00802
-「くぅふ！　あはぁッ……んっ、ぁあああーーーッ！！」
+＠Zakuro,Q00802
+「くぅふ!　あはぁッ......んっ、ぁあああーーーッ!!」
 
 
 #--------------------------------------------------
@@ -1815,45 +2105,46 @@ voice_bg_stop
 #--------------------------------------------------
 
 
-#ドビュビュゥ！　ビュルルッ、ドクドク！　ドクンッ！
+#ドビュビュゥ!　ビュルルッ、ドクドク!　ドクンッ!
 
-＠ざくろ,Q00803
-「んはぁッ！　ああッ…はあぁッ、んはぁぁッ！」
+＠Zakuro,Q00803
+「んはぁッ!　ああッ...はあぁッ、んはぁぁッ!」
 
 その最奥で、怒張から爆ぜるように白濁を溢れ出させた。
 
-＠ざくろ,Q00804
-「はぁぁッ、んぅ！　つっちーの精液、一番奥でぇ……赤ちゃんが出来るっ…」
+＠Zakuro,Q00804
+「はぁぁッ、んぅ!　つっちーの精液、一番奥でぇ......赤ちゃんが出来るっ...」
 
 
 screen_flash		500
 
 
-ドクドクンッ…ドビュッ、ビュビュルゥッ！　ドクッ、ドクッ！
+ドクドクンッ...ドビュッ、ビュビュルゥッ!　ドクッ、ドクッ!
 
-＠ざくろ,Q00805
-「あふぅっ、んああッ！　はあぁッ、んはぁっ……はぁう！」
+＠Zakuro,Q00805
+「あふぅっ、んああッ!　はあぁッ、んはぁっ......はぁう!」
 
 秘裂の中を、ヌルヌルした白濁の感触が満たしていく。
 
-＠ざくろ,Q00806
-「…っはあ、んんぅ！　子宮まで、ビチャビチャ浴びせられてる……」
+＠Zakuro,Q00806
+「...っはあ、んんぅ!　子宮まで、ビチャビチャ浴びせられてる......」
 
-＠ざくろ,Q00807
-「…二度目なのに、おチンポからこんなに出るなんて……んん！　あはぁぅッ」
+＠Zakuro,Q00807
+「...二度目なのに、おチンポからこんなに出るなんて......んん!　あはぁぅッ」
 
 
 screen_flash		500
 
 
-ドクドクッ……ドクン！　ドクンッ…ドクッ、ドクッ……！
+ドクドクッ......ドクン!　ドクンッ...ドクッ、ドクッ......!
 
-ざくろの中を堪能した波が、ゆっくりと引き、衝動が底を尽きていく。
+#SCRIPT ADD KANJI
+Ｚakuroの中を堪能した波が、ゆっくりと引き、衝動が底を尽きていく。
 
-＠ざくろ,Q00808
-「はぁぁっ、あはぁッ……中がいっぱい、ドロドロにされてる…」
+＠Zakuro,Q00808
+「はぁぁっ、あはぁッ......中がいっぱい、ドロドロにされてる...」
 
-情欲の塊をその小さい身体の中へ全て受け、ざくろは呼吸を震わせる。
+情欲の塊をその小さい身体の中へ全て受け、Zakuroは呼吸を震わせる。
 
 
 #--------------------------------------------------
@@ -1864,44 +2155,44 @@ event		"event\EV_ZAK_070-06.png"
 
 射精が終わると、溢れ出した精液で周りもドロドロになっていた。
 
-＠ざくろ,Q00809
-「っふぅ……ん、つっちー、二度目の射精ね……」
+＠Zakuro,Q00809
+「っふぅ......ん、つっちー、二度目の射精ね......」
 
-＠樹
-「え……？」
+＠Itsuki
+「え......?」
 
-同じくそれを感じ、ざくろが微かに笑みを含みながら、オレを振り返る。
+同じくそれを感じ、Zakuroが微かに笑みを含みながら、オレを振り返る。
 
-＠ざくろ,Q00810
+＠Zakuro,Q00810
 「また私より先に、つっちーだけイカされて」
 
-＠樹
-「……けど、ざくろも喘がせることができた。一応は満足だ」
+＠Itsuki
+「......けど、Zakuroも喘がせることができた。一応は満足だ」
 
-＠ざくろ,Q00811
-「うん、喘ぐくらいには気持ちよかった……でもまだ余裕はあったから」
+＠Zakuro,Q00811
+「うん、喘ぐくらいには気持ちよかった......でもまだ余裕はあったから」
 
-射精したオレに対し、ざくろは絶頂を迎えた様子はない。
+射精したオレに対し、Zakuroは絶頂を迎えた様子はない。
 
 呼吸も悦楽の火照りは孕んでいるが、息切れするほど乱れてはいない。
 
-＠樹
-「まさか……」
+＠Itsuki
+「まさか......」
 
-＠ざくろ,Q00812
-「…だって最後のとき、動きを弱めようとしてたから。ああ言わないと射精しなかったでしょ？」
+＠Zakuro,Q00812
+「...だって最後のとき、動きを弱めようとしてたから。ああ言わないと射精しなかったでしょ?」
 
-確かに、主導権を取ろうと思って何とかしようとは思ったが……
+確かに、主導権を取ろうと思って何とかしようとは思ったが......
 
-＠ざくろ,Q00813
+＠Zakuro,Q00813
 「感じてたのは本当よ。だからあのまま、本当は射精せずに続けて欲しかった」
 
-＠樹
-「う……」
+＠Itsuki
+「う......」
 
-期待していただけに、どことなく責めるような視線でオレを見るざくろ。
+期待していただけに、どことなく責めるような視線でオレを見るZakuro。
 
-＠樹
+＠Itsuki
 「ならこのまま、もう一回続けよう」
 
 
@@ -1910,8 +2201,8 @@ event		"event\EV_ZAK_070-06.png"
 #--------------------------------------------------
 
 
-＠ざくろ,Q00814
-「え……？　んッ、んぁう！」
+＠Zakuro,Q00814
+「え......?　んッ、んぁう!」
 
 
 voice_bg	"Q90006"
@@ -1924,87 +2215,88 @@ wait	1000
 
 射精はしたが、まだ硬さを保ったままの怒張を、再び深くまで律動させる。
 
-＠ざくろ,Q00815
-「っあはぁ、はぁッ……つっちー、今はもういい…引き際が悪いっ……くぅん！」
+＠Zakuro,Q00815
+「っあはぁ、はぁッ......つっちー、今はもういい...引き際が悪いっ......くぅん!」
 
-愛液と精液でグチュグチュになったざくろの膣内を、肉茎のピストンでもう一度かき回す。
+愛液と精液でグチュグチュになったZakuroの膣内を、肉茎のピストンでもう一度かき回す。
 
-＠ざくろ,Q00816
-「んはぁッ、はぁぅ！　ふぅッ、んはぁっ……はあぁッ！」
+＠Zakuro,Q00816
+「んはぁッ、はぁぅ!　ふぅッ、んはぁっ......はあぁッ!」
 
-ヌヂュヂュッ！　クヂュッ、ニュチュゥッ……ヂュプッ、ヂュブブ！
+ヌヂュヂュッ!　クヂュッ、ニュチュゥッ......ヂュプッ、ヂュブブ!
 
-＠ざくろ,Q00817
-「んッ！　あぅぅッ……おチンポ、もう硬くなってる…ビクビクしてっ……」
+＠Zakuro,Q00817
+「んッ!　あぅぅッ......おチンポ、もう硬くなってる...ビクビクしてっ......」
 
-＠樹
-「今度こそ、ざくろをイカせてやるからな」
+＠Itsuki
+「今度こそ、Zakuroをイカせてやるからな」
 
-＠ざくろ,Q00818
-「んはぁッ、んん！　そんなに、ムキにならなくていい……はぅふッ、んぁう！」
+＠Zakuro,Q00818
+「んはぁッ、んん!　そんなに、ムキにならなくていい......はぅふッ、んぁう!」
 
-官能で硬くなったざくろの乳首を捏ね弄り、怒張を膣壁へ擦り付けるように突き入れる。
+官能で硬くなったZakuroの乳首を捏ね弄り、怒張を膣壁へ擦り付けるように突き入れる。
 
 
 voice_bg	"Q90006"
 
 
-＠ざくろ,Q00819
-「はあぁっ、あはぁッ！　くふぅんッ！　んッ……んんぅぁっ、あはぁぁ！」
+＠Zakuro,Q00819
+「はあぁっ、あはぁッ!　くふぅんッ!　んッ......んんぅぁっ、あはぁぁ!」
 
-＠ざくろ,Q00820
-「んくん！　あぁふッ…つっちー、時間がダメ……買い物に行きたいからっ…」
+＠Zakuro,Q00820
+「んくん!　あぁふッ...つっちー、時間がダメ......買い物に行きたいからっ...」
 
-刺激に身体を強張らせるざくろを無視し、オレ自身が次第にこの行為に夢中になっていく。
+刺激に身体を強張らせるZakuroを無視し、オレ自身が次第にこの行為に夢中になっていく。
 
 粘質な水音のする秘部の中を攪拌し、グラインドさせるように腰と怒張を往復させる。
 
-＠ざくろ,Q00821
-「んぁふッ！　はあぁっ、あぁうっ！　はぁうんッ……んぅっ！　んはぁあっ！」
+＠Zakuro,Q00821
+「んぁふッ!　はあぁっ、あぁうっ!　はぁうんッ......んぅっ!　んはぁあっ!」
 
-＠樹
-「ッく、んんぅッ……これは調教のせいか。他の子よりも、中の感触が気持ちいい」
+＠Itsuki
+「ッく、んんぅッ......これは調教のせいか。他の子よりも、中の感触が気持ちいい」
 
-ざくろの膣肉は突く度にこちらへ絡みつき、怒張の凹凸がまんべんなく摩擦された。
+#SCRIPT ADD KANJI
+Ｚakuroの膣肉は突く度にこちらへ絡みつき、怒張の凹凸がまんべんなく摩擦された。
 
-＠ざくろ,Q00822
-「んんふッ、んはぁッ…！　それは、最初から……んぁうっ！　あはぁッ…雫も名器って言ってた…」
+＠Zakuro,Q00822
+「んんふッ、んはぁッ...!　それは、最初から......んぁうっ!　あはぁッ...雫も名器って言ってた...」
 
-＠樹
-「名器か……ありきたりだけど、その通りだな」
+＠Itsuki
+「名器か......ありきたりだけど、その通りだな」
 
-クヂュヌッ、ヌヂュッ！　ヂュヌヌッ、ニヂュッ…ヂュブッ！　ヂュブブ！
+クヂュヌッ、ヌヂュッ!　ヂュヌヌッ、ニヂュッ...ヂュブッ!　ヂュブブ!
 
-＠ざくろ,Q00823
-「っはぁう！　んぅッ、くふぅっ！　んはぁッ……はあぁっ、あはぁッ！　くぅん！」
+＠Zakuro,Q00823
+「っはぁう!　んぅッ、くふぅっ!　んはぁッ......はあぁっ、あはぁッ!　くぅん!」
 
-サイズ的なきつさは〝締め付け〟になり、オレとざくろ、両方に官能の刺激を与えた。
+サイズ的なきつさは〝締め付け〟になり、オレとZakuro、両方に官能の刺激を与えた。
 
-＠ざくろ,Q00824
-「んはぁッ！　んんぅッ……つ、つっちー、やめないなら…反撃するからっ……あぅぅ！　んくん！」
+＠Zakuro,Q00824
+「んはぁッ!　んんぅッ......つ、つっちー、やめないなら...反撃するからっ......あぅぅ!　んくん!」
 
-＠樹
-「はぁっ、んぅ……反撃？　この体勢じゃ、ざくろからは何も出来ないぞ」
+＠Itsuki
+「はぁっ、んぅ......反撃?　この体勢じゃ、Zakuroからは何も出来ないぞ」
 
 いつもの突拍子も無い言葉と思って聞き流し、オレは腰のピストンをやめる気にもならない。
 
-＠ざくろ,Q00825
-「っあふぅ！　はぁぁッ…んはぁ！　なら、足腰立たないくらい…イッてつっちー…！」
+＠Zakuro,Q00825
+「っあふぅ!　はぁぁッ...んはぁ!　なら、足腰立たないくらい...イッてつっちー...!」
 
-モゾモゾと身体をクネらせるざくろ。
+モゾモゾと身体をクネらせるZakuro。
 
 途端に、今まで受け身一方だった膣内がうねり、ズルリズルリと肉茎を捻り始めた。
 
-＠樹
-「―――ッ！？　なッ！」
+＠Itsuki
+「―――ッ!?　なッ!」
 
-＠ざくろ,Q00826
-「ッひぅん！　んんッ……んはぁっ、はぁあ！」
+＠Zakuro,Q00826
+「ッひぅん!　んんッ......んはぁっ、はぁあ!」
 
-その感触にひるんだオレに向け、ざくろの方から腰を打ち付けてシゴき立てる。
+その感触にひるんだオレに向け、Zakuroの方から腰を打ち付けてシゴき立てる。
 
-＠ざくろ,Q00827
-「んはぁッ、んくん！　はぁぁッ…早漏のつっちーに、何秒も我慢させないから…」
+＠Zakuro,Q00827
+「んはぁッ、んくん!　はぁぁッ...早漏のつっちーに、何秒も我慢させないから...」
 
 胎内がさらにきつく搾られ、熱い粘膜の感触が怒張を押し包んでピストンした。
 
@@ -2012,31 +2304,35 @@ voice_bg	"Q90006"
 voice_bg	"Q90007"
 
 
-＠樹
-「あくッ、はぁッ！　ちょッ、ま、待てッ、ざくろッ……」
+#「あくッ、はぁッ!　ちょッ、ま、待てッ、Zakuroッ......」
+＠Itsuki
+「あくッ、はぁッ!　Wa-, Wait Zakuro......」
 
-＠ざくろ,Q00828
-「あはぅッ、あはぁッ！　はぁぁッ、んぅぅッ…んはぁッ！　はあぁッ！」
+＠Zakuro,Q00828
+「あはぅッ、あはぁッ!　はぁぁッ、んぅぅッ...んはぁッ!　はあぁッ!」
 
-ざくろからいきなり受ける反撃で、感覚が快感に埋め尽くされる。
+#Zakuroからいきなり受ける反撃で、感覚が快感に埋め尽くされる。
+#SCRIPT ADD KANJI
+Ｚakuroからいきなり受ける反撃で、感覚が快感に埋め尽くされる。
+
 
 腰を引こうにも、怒張は絡み取られたように膣内にしずまり、なにより快感で、本能がやめるのを拒絶する。
 
-＠ざくろ,Q00829
-「はふぅッ！　あはぁッ！　おチンポ、さっきより大きいっ……こっちまできちゃう…」
+＠Zakuro,Q00829
+「はふぅッ!　あはぁッ!　おチンポ、さっきより大きいっ......こっちまできちゃう...」
 
-＠ざくろ,Q00830
-「…おマンコも、一緒にイキそうかも……はあぁッ、んんぅ！　つっちーのおチンポでっ…」
+＠Zakuro,Q00830
+「...おマンコも、一緒にイキそうかも......はあぁッ、んんぅ!　つっちーのおチンポでっ...」
 
-＠ざくろ,Q00831
-「んんぅ！　あふぅッ、はあぁッ……！　あはぁッ、はぁふッ、んくぅッ！」
+＠Zakuro,Q00831
+「んんぅ!　あふぅッ、はあぁッ......!　あはぁッ、はぁふッ、んくぅッ!」
 
-責められてさっきより反応が強くなる怒張に、ざくろの嬌声が高まっていく。
+責められてさっきより反応が強くなる怒張に、Zakuroの嬌声が高まっていく。
 
-＠ざくろ,Q00832
-「ッあふぅ！　んはぁッ、はあぁッ、つっちー……おチンポもっと、おマンコで味わわせて」
+＠Zakuro,Q00832
+「ッあふぅ!　んはぁッ、はあぁッ、つっちー......おチンポもっと、おマンコで味わわせて」
 
-その気持ちよさでオレも腰を合わせ、三度目の射精にざくろの絶頂を目指そうとした。
+その気持ちよさでオレも腰を合わせ、三度目の射精にZakuroの絶頂を目指そうとした。
 
 
 #EF　フラッシュ
@@ -2056,7 +2352,7 @@ scene_end
 
 
 #--------------------------------------------------
-#SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
+#SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ!!）
 #■BG（図書室）
 @SE06			#部屋のドア開く音（ガチャ）
 @shizuku_small
@@ -2066,31 +2362,37 @@ scene_end
 #--------------------------------------------------
 
 
-＠雫,S00859
-「いやー、悪い悪いッ、待たせたね！　ちょっと用事が入ってたんだよ」
+#「いやー、悪い悪いッ、待たせたね!　ちょっと用事が入ってたんだよ」
+＠Shizuku,S00859
+「Well, my bad my bad, to make you waited! There's some works came up.」
 
-図書室のドアがいきなり豪快に開き、場の空気にそぐわない声が響いた。
+#図書室のドアがいきなり豪快に開き、場の空気にそぐわない声が響いた。
+#SCRIPT ADD KANJI
+Ｔhe library's door suddenly opened lively, A sound that out of place was heard.
 
-＠樹
-「え……」
+#「え......」
+＠Itsuki
+「Eh......?」
 
-#CH（ざくろの立ち絵はなし）
+#CH（Zakuroの立ち絵はなし）
 
-＠ざくろ,Q00833
-「っふぅ……んぅ…？」
+#「っふぅ......んぅ...?」
+＠Zakuro,Q00833
+「Mmng......Hnn...?」
 
 
 @shizuku		#普通
 
 
-＠雫,S00860
-「お……？」
+#「お......?」
+＠Shizuku,S00860
+「Oh......?」
 
 
 @bgm12			#BGM 12 : メインテーマ
 
 
-突然の闖入者にオレとざくろはもちろん、雫さんも一瞬動作を固まらせる。
+突然の闖入者にオレとZakuroはもちろん、雫さんも一瞬動作を固まらせる。
 
 間違いなく一瞬だが、確実に時間が止まった瞬間だった。
 
@@ -2098,72 +2400,93 @@ scene_end
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S00861
-「……ああ」
+#「......ああ」
+＠Shizuku,S00861
+「......Ah.」
 
-すぐにポンと手を打った。
-
+#すぐにポンと手を打った。
+#SCRIPT ADD KANJI
+Ｓuddenly a pop and clap from her hands.
 
 @shizuku_akire		#呆
 
 
-＠雫,S00862
-「悪い、邪魔しないから。続けていいよ」
+#「悪い、邪魔しないから。続けていいよ」
+＠Shizuku,S00862
+「My bad、to interrupt you guys. You can continue.」
 
-＠樹
-「なッ！？　うわぁあ！！　ななッ、何しに来てんですか雫さんッ！！」
+#「なッ!?　うわぁあ!!　ななッ、何しに来てんですか雫さんッ!!」
+＠Itsuki
+「Wh!?　Uwaah!!　Wh- Wha、Why do you come here for Shizuku!!」
 
-＠ざくろ,Q00834
-「あ……」
+#「あ......」
+＠Zakuro,Q00834
+「Ah......」
 
-咄嗟に身を離すオレに、ざくろが溜め息のような声を漏らす。
+咄嗟に身を離すオレに、Zakuroが溜め息のような声を漏らす。
 
 
 @shizuku_yorokobi	#喜
 
 
-＠雫,S00863
-「ここでざくろの調教をする約束だったんだよ。まぁ実践中ならそれもＯＫだ」
+#「ここでZakuroの調教をする約束だったんだよ。まぁ実践中ならそれもＯＫだ」
+＠Shizuku,S00863
+「Well, It's because I promised to train Zakuro. But, you're in the middle of it, so it's ok.」
 
-＠樹
-「ＯＫじゃない！　大体どうやってッ、鍵は！？」
+#「ＯＫじゃない!　大体どうやってッ、鍵は!?」
+＠Itsuki
+「IT'S NOT OK!　How do you get in、the lock!?」
 
-＠ざくろ,Q00835
-「……最初のしゃぶり合いが終わって出ようとした時、私が開けたから」
+#「......最初のしゃぶり合いが終わって出ようとした時、私が開けたから」
+＠Zakuro,Q00835
+「......From the first we flirt out, I opened it. 」
 
-＠樹
-「なら閉め直せよ！　せめて！」
+#「なら閉め直せよ!　せめて!」
+＠Itsuki
+「At least lock it back! Lock it!」
 
-オレもオレで、性欲に夢中で全く気付かなかった。
+#オレもオレで、性欲に夢中で全く気付かなかった。
+#SCRIPT ADD KANJI
+Ａnd I came back from the sexual delusion.
 
 
 @shizuku		#普通
 
 
-＠雫,S00864
-「じゃあ今日の調教は中止だね。樹、後は任せたよ」
+#「じゃあ今日の調教は中止だね。Itsuki、後は任せたよ」
+＠Shizuku,S00864
+「Well today's training is halted. Itsuki, I'll leave it to you later.」
 
-＠樹
-「はい、そうですか。何ていうはず無いでしょう、この状況でッ」
-
+#「はい、そうですか。何ていうはず無いでしょう、この状況でッ」
+＠Itsuki
+「Ok, is that so? 。As if I will do that, in this situation.」
 
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S00865
-「そうかい？　下半身はまだヤル気まんまんみたいだけど」
+#「そうかい?　下半身はまだヤル気まんまんみたいだけど」
+＠Shizuku,S00865
+「Is that so?　But your lower half seems wanting more.」
 
-思いっきりズボンを下ろしたまま、いきり立った局部丸出し状態だった。
+#思いっきりズボンを下ろしたまま、いきり立った局部丸出し状態だった。
+#SCRIPT ADD KANJI
+Ｔhinking of it if I suddenly pull up my trousers, this thing would leave a buldge.
 
-確かにこんな状態でおあずけは辛いが……
+#確かにこんな状態でおあずけは辛いが......
+#SCRIPT ADD KANJI
+Ｂut certainly, if I leave this just like that, it would be tough....
 
-＠樹
-「と、とにかく中止。ざくろも服を着て」
+#「と、とにかく中止。Zakuroも服を着て」
+＠Itsuki
+「An, Anyhow it suspended. You too put your clothes, Zakuro.」
 
-＠ざくろ,Q00836
-「………うん」
+#「.........うん」
+＠Zakuro,Q00836
+「.........Ok.」
 
-熱っぽい吐息で小さく頷くと、ざくろは渋々だが服を整える。
+#熱っぽい吐息で小さく頷くと、Zakuroは渋々だが服を整える。
+#SCRIPT ADD KANJI
+Ｓhe nods with feverish sigh, then she relucantly wears her clothes.
 
 
 window_close
@@ -2171,133 +2494,136 @@ window_close
 @shizuku_akire		#呆
 
 
-＠雫,S00866
-「ほんとにやめるのかい？　続けてくれて全然構わないんだけど」
+#「ほんとにやめるのかい?　続けてくれて全然構わないんだけど」
+＠Shizuku,S00866
+「Do you really want to stop it? I wouldn't mind if you continue though.」
 
-＠樹
-「続けません！　っていうか、何で始まったのかも分からないし」
-
+#「続けません!　っていうか、何で始まったのかも分からないし」
+＠Itsuki
+「I won't continue it! Or rather, I don't even know why did it start.」
 
 @shizuku_yorokobi	#喜
 
 
-＠雫,S00867
-「それはもう迸る情熱でしょうに。ざくろの客にリピーターが多いのは知ってるだろ？」
+＠Shizuku,S00867
+「それはもう迸る情熱でしょうに。Zakuroの客にリピーターが多いのは知ってるだろ?」
 
 
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S00868
-「で、どうだった。実際にざくろの中に突っ込んでみて」
+＠Shizuku,S00868
+「で、どうだった。実際にZakuroの中に突っ込んでみて」
 
-＠樹
-「それを答える必要もなし！」
+＠Itsuki
+「それを答える必要もなし!」
 
 
-#CH（ここからざくろに立ち絵あり）
+#CH（ここからZakuroに立ち絵あり）
 @zakuro_small
 @zakuro_shifuku
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q00837
+＠Zakuro,Q00837
 「たくさん中に出された。危険日なのに」
 
 
 @shizuku_yorokobi	#喜
 
 
-＠雫,S00869
-「そうかそうか。もし子供が出来たら、ざくろはママになるんだねぇ」
+＠Shizuku,S00869
+「そうかそうか。もし子供が出来たら、Zakuroはママになるんだねぇ」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q00838
-「ママ……」
+＠Zakuro,Q00838
+「ママ......」
 
 
-#SE66　効果音１（ビシッ！）
+#SE66　効果音１（ビシッ!）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠樹
-「縁起でもないッ！」
+＠Itsuki
+「縁起でもないッ!」
 
-着替え終えたざくろは、もう普段どおりのざくろだった。
+着替え終えたZakuroは、もう普段どおりのZakuroだった。
 
-＠ざくろ,Q00839
+＠Zakuro,Q00839
 「つっちー、青ノリ買いに行ってくる」
 
-＠樹
-「うう、ああ。行っておいで。大丈夫か……？」
+＠Itsuki
+「うう、ああ。行っておいで。大丈夫か......?」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q00840
+＠Zakuro,Q00840
 「廊下に精液垂らしちゃったら、拭いておいて」
 
 
 @zakuro_
 
 
-＠樹
-「せめて出した分くらいは、シャワーでも浴びて流していこうな……」
+＠Itsuki
+「せめて出した分くらいは、シャワーでも浴びて流していこうな......」
 
-そのまま出かけそうになるざくろの背を誘導し、浴室の方へ歩かせた。
+そのまま出かけそうになるZakuroの背を誘導し、浴室の方へ歩かせた。
 
-＠樹
-「……何だかなぁ」
+＠Itsuki
+「......何だかなぁ」
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S00870
-「はぁ……どうにも、マズイタイミングで入っちまったねぇ」
+＠Shizuku,S00870
+「はぁ......どうにも、マズイタイミングで入っちまったねぇ」
 
-＠樹
+＠Itsuki
 「別にいいですよ、もう。済んだことですから」
 
 
 @shizuku		#普通
 
 
-＠雫,S00871
-「あんたは良くても、ざくろがねぇ。内心あれはちょっと不機嫌入ってたよ」
+＠Shizuku,S00871
+「あんたは良くても、Zakuroがねぇ。内心あれはちょっと不機嫌入ってたよ」
 
-＠樹
-「え……？」
+＠Itsuki
+「え......?」
 
 そんな違い、オレには分からなかったが。
 
-＠樹
+＠Itsuki
 「不機嫌なら、むしろ最後まで満足させてやれなかったオレに対してかと」
 
 
 @shizuku_akire		#呆
 
 
-＠雫,S00872
+＠Shizuku,S00872
 「いやいや、付き合いが長いから分かる。間違いなくあたしに対してだね」
 
 
 @shizuku_yorokobi	#喜
 
 
-＠雫,S00873
+＠Shizuku,S00873
 「あんたに対しては満足してたんじゃない。少なくとも、邪魔されたくなかったくらいにはさ」
 
-＠樹
+＠Itsuki
 「そ、そうなんでしょうか」
 
-結局ざくろのあれは、演技なのか本気だったのか、微妙に分からないままだ。
+結局Zakuroのあれは、演技なのか本気だったのか、微妙に分からないままだ。
 
-……続けた方が良かったのだろうか。
+#......続けた方が良かったのだろうか。
+#SCRIPT ADD KANJI
+　......続けた方が良かったのだろうか。
 
 実は少し名残惜しかったが。
 
@@ -2305,13 +2631,16 @@ window_close
 @shizuku_chousyou	#怒笑
 
 
-＠雫,S00874
-「だったら、今からでも浴室に行けば出来るんじゃない？」
+#「だったら、今からでも浴室に行けば出来るんじゃない?」
+＠Shizuku,S00874
+「Well then, you would come if you go to the bathroom?」
 
-＠樹
-「人の考えを読まないでください！」
+#「人の考えを読まないでください!」
+＠Itsuki
+「Don't read others mind!」
 
 微妙に室温の高い気がする図書室を、雫さんを残し後にした。
+
 
 
 bgm_stop
@@ -2320,15 +2649,21 @@ bgm_stop
 wait		1000
 
 
-股間はまだ辛いが、とりあえずこれで終わりになった。
+#股間はまだ辛いが、とりあえずこれで終わりになった。
+#SCRIPT ADD KANJI
+Ｍy dick is still hard but finally all those thing has ended.
 
-ざくろもその後いつもどおりで、再開する雰囲気でも無かったし……
+#Zakuroもその後いつもどおりで、再開する雰囲気でも無かったし......
+#SCRIPT ADD KANJI
+Ａnd after that Zakuro as usual, revert to her usualself.......
 
-＠樹
-「しかし……あのまま続けていれば、ざくろもイッてたのかな」
+#「しかし......あのまま続けていれば、Zakuroもイッてたのかな」
+＠Itsuki
+「But......If we had continued it back then, I wonder if Zakuro would come.」
 
-それだけは、微妙に心残りだった。
-
+#それだけは、微妙に心残りだった。
+#SCRIPT ADD KANJI
+Ａnd with all that, I regretted a little.
 
 #（スケジュール）
 @bg_black

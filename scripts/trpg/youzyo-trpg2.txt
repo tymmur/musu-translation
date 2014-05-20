@@ -322,7 +322,7 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 #（選択肢）
 #（１．治療して逃がしてあげる）※みかん好感度UP
 #（２．戦いは非情なり）※かりん好感度UP
-select	sel,"治療して逃がしてあげる","戦いは非情なり"
+select	sel,"Give healing","Attack ruthlessly"
 if sel=0 then goto trpg2_01
 if sel=1 then goto trpg2_02
 

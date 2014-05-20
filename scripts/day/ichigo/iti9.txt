@@ -1045,8 +1045,9 @@ se_stop		0
 #--------------------------------------------------
 #注：不細工なので確認と修正があればお願いします：奥井
 
+#"図書室","娯楽室","いちごの部屋"
 
-select sel,"図書室","娯楽室","いちごの部屋"
+ sel,"Library","Game room","Ichigo's room"
 sel1=sel
 rnd=0
 
@@ -1127,7 +1128,7 @@ if sel1=0 then goto iti9_ibasyo_tosho
 if sel1=1 then goto iti9_ibasyo_goraku
 
 
-	select sel,"図書室","娯楽室"
+	select sel,"Library","Game room"
 	sel1=sel
 
 	if sel1=0 then goto iti9_2ndroomcheck_tosho
@@ -1136,7 +1137,7 @@ if sel1=1 then goto iti9_ibasyo_goraku
 
 label	iti9_ibasyo_goraku
 
-	select sel,"図書室","いちごの部屋"
+	select sel,"Library","Ichigo's room"
 	sel1=sel
 
 	if sel1=0 then goto iti9_2ndroomcheck_tosho
@@ -1145,7 +1146,7 @@ label	iti9_ibasyo_goraku
 
 label	iti9_ibasyo_tosho
 
-	select sel,"娯楽室","いちごの部屋"
+	select sel,"Game room","Ichigo's room"
 	sel1=sel
 
 	if sel1=0 then goto iti9_2ndroomcheck_goraku
@@ -1303,7 +1304,7 @@ bgm_stop
 #（１．強引にたたきのめす）１
 #（２．いちごを気遣いながら攻撃）１
 #（３．いちごの救出を優先）１
-select sel,"強引にたたきのめす","いちごを気遣いながら攻撃","いちごの救出を優先"
+select sel,"Beat the hell out of him","Attack, being careful of Ichigo","Rescuing Ichigo is the priority"
 if sel=0 then goto iti9_03_a
 if sel=1 then goto iti9_03_b
 if sel=2 then goto iti9_03_c
@@ -1531,7 +1532,7 @@ label	iti9_life_survive
 #（１．強引にたたきのめす）２
 #（２．いちごを気遣いながら攻撃）２
 #（３．いちごの救出を優先）２
-select sel,"強引にたたきのめす","いちごを気遣いながら攻撃","いちごの救出を優先"
+select sel,"Beat the hell out of him","Attack, being careful of Ichigo","Rescuing Ichigo is the priority"
 if sel=0 then goto iti9_04_a
 if sel=1 then goto iti9_04_b
 if sel=2 then goto iti9_04_c

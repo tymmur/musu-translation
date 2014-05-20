@@ -6,20 +6,32 @@ label	suika_01
 
 #■BG（廊下）
 
-＠樹
-「ここに来てもう２週間か……」
+#＠樹
+#「ここに来てもう２週間か……」
+＠Itsuki
+「It's already been 2 weeks since I came here, huh......」
 
-施設での生活を決め、オレはみかんにあんなことをした。
+#施設での生活を決め、オレはみかんにあんなことをした。
+#SCRIPT ADD KANJI
+Ｉ decided on my life in the institution, and I did that kind of thing to Mikan.
 
-生々しい。
+#生々しい。
+#SCRIPT ADD KANJI
+Ｉ can remember it clearly.
 
-挿入までは出来なかったが、しかしそれは間違いなく時間の問題だ。
+#挿入までは出来なかったが、しかしそれは間違いなく時間の問題だ。
+#SCRIPT ADD KANJI
+Ｗe didn't get to insertion yet, but that is definitely just a matter of time.
 
-たった２週間。されど２週間。
-今から前の生活に戻ろうとも、オレの中からこの黒い蟠りが消えることはないだろう。
+#たった２週間。されど２週間。
+#今から前の生活に戻ろうとも、オレの中からこの黒い蟠りが消えることはないだろう。
+#SCRIPT ADD KANJI
+Ｊust 2 weeks. But that's still 2 weeks. Now, wanting to return to my previous lifestyle, or dark feelings have not yet disappeared.
 
-＠樹
-「はぁ、やめやめ………サイを投げてから悩んでも仕方ないことだ……」
+#＠樹
+#「はぁ、やめやめ………サイを投げてから悩んでも仕方ないことだ……」
+＠Itsuki
+「Haa, too bad.........I already rolled the dice, so there is no point in worrying......」
 
 #■BG（ブラック）
 @bg_black
@@ -27,166 +39,268 @@ label	suika_01
 #■BG（廊下）
 @bg_rouka
 
-＠樹
-「……ん？」
+#＠樹
+#「……ん？」
+＠Itsuki
+「......Hm?」
 
-この施設には、個人が持つには結構大きめな図書室が完備されていた。
+#この施設には、個人が持つには結構大きめな図書室が完備されていた。
+#SCRIPT ADD KANJI
+Ｔhis institute has a quite large private library room, which is completely furnished.
 
-その前を通り掛かった時、中から人の気配がする。
+#その前を通り掛かった時、中から人の気配がする。
+#SCRIPT ADD KANJI
+Ｗhen I passed by it a while ago, I felt like there were people inside.
 
-＠樹
-（ありえねー）
+#＠樹
+#（ありえねー）
+＠Itsuki
+（Impossible-）
 
-と思ってしまうのもさもありなん。
+#と思ってしまうのもさもありなん。
+#SCRIPT ADD KANJI
+Ｉ'm not surprised that I thought that.
 
-図書室には児童書から始まり文学やら洋書まで揃っていたが、本自体に需要の無さそうな子達ばかりだ。
+#図書室には児童書から始まり文学やら洋書まで揃っていたが、本自体に需要の無さそうな子達ばかりだ。
+#SCRIPT ADD KANJI
+Ｔhe library room has children's books to beginning literature to Western books, but it doesn't seem like there are any children who want them.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
-おおかた美雨が掃除でもしてるのだろうと、ノックも無しに入室した。
+#おおかた美雨が掃除でもしてるのだろうと、ノックも無しに入室した。
+#SCRIPT ADD KANJI
+Ｉ entered without knocking, thinking that it was just Miu doing the cleaning.
 
 #■BG（図書室）
 @bg_library
 @suika_middle
 @suika_odoroki
 
-＠すいか,R00176
-「きゃッ！！　い、院長先生ッ！？」
+#＠すいか,R00176
+#「きゃッ！！　い、院長先生ッ！？」
+＠Suika,R00176
+「Kyah!! I, Inchou-sensei!?」
 
-中にいたのはすいかだった。
+#中にいたのはすいかだった。
+#SCRIPT ADD KANJI
+Ｔhe one inside was Suika.
 
-前触れなく入室したオレに驚き、読んでいた本をバタンと閉じる。
+#前触れなく入室したオレに驚き、読んでいた本をバタンと閉じる。
+#SCRIPT ADD KANJI
+Ｓurprised at me who entered the room without saying anything, she closed her book with a *thud*.
 
-＠樹
-「え？　あぁ、すいかだったのか、悪い。驚かせたか」
+#＠樹
+#「え？　あぁ、すいかだったのか、悪い。驚かせたか」
+＠Itsuki
+「Eh? Aah, it was Suika, sorry. Did I startle you?」
 
 @suika_komariwarai
 
-＠すいか,R00177
-「あ、いえ。私こそ大げさですみません。誰か来るなんて思わなかったので」
+#＠すいか,R00177
+#「あ、いえ。私こそ大げさですみません。誰か来るなんて思わなかったので」
+＠Suika,R00177
+「Ah, no. I'm sorry for exaggerating. I did not think anyone would come.」
 
-＠樹
-「オレも同じ。まさか誰かが真面目に本を読んでるとは思わなかったからな」
+#＠樹
+#「オレも同じ。まさか誰かが真面目に本を読んでるとは思わなかったからな」
+＠Itsuki
+「Same. I didn't think anyone would seriously be reading a book.」
 
-しかし前言は撤回。すいかだけは確かに本が似合いそうな子だ。
+#しかし前言は撤回。すいかだけは確かに本が似合いそうな子だ。
+#SCRIPT ADD KANJI
+Ｂut I took back what I just said. Suika seems like the only child who seems to like books.
 
-＠樹
-「すいかしか利用しないなら、ここで読まなくても、部屋に持っていって大丈夫なんじゃないか？」
+#＠樹
+#「すいかしか利用しないなら、ここで読まなくても、部屋に持っていって大丈夫なんじゃないか？」
+＠Itsuki
+「But Suika is the only one who uses them, so why not take the books to your room instead of reading here?」
 
 @suika
 
-＠すいか,R00178
-「私だけじゃないですよ。雫さんとか、あとざくろちゃんも私よりここに来ることが多いかもしれません」
+#＠すいか,R00178
+#「私だけじゃないですよ。雫さんとか、あとざくろちゃんも私よりここに来ることが多いかもしれません」
+＠Suika,R00178
+「It is not only me. Maybe Shizuku-san too, and also Zakuro-chan come here more often than me.」
 
-＠樹
-「あの二人か……言われてみれば似合わんことは無いが、本の内容は押して知るべしだな」
+#＠樹
+#「あの二人か……言われてみれば似合わんことは無いが、本の内容は押して知るべしだな」
+＠Itsuki
+「Those two, huh...... Now that you mention it, they don't not seem like it, but they probably are forced to learn the contents of the books.」
 
 @suika_warai
 
-＠すいか,R00179
-「あはは……いろんな本がありますから……」
+#＠すいか,R00179
+#「あはは……いろんな本がありますから……」
+＠Suika,R00179
+「Ahaha...... There are various books so......」
 
-そこはすいかも苦笑するだけで否定はしない。
+#そこはすいかも苦笑するだけで否定はしない。
+#SCRIPT ADD KANJI
+Ｓuika bitterly laughed at that and did not deny it.
 
-せっかくなので少し話でもしていきたいが……
+#せっかくなので少し話でもしていきたいが……
+#SCRIPT ADD KANJI
+Ｓhe probably wants me to take the time to talk, even if it's a little...... (*can't think of a proper way to put this sentence in English... >_<)
 
-＠樹
-「ところで、すいかは何を読んでるんだ？」
+#＠樹
+#「ところで、すいかは何を読んでるんだ？」
+＠Itsuki
+「By the way, what are you reading, Suika?」
 
 @suika_tere
 
-＠すいか,R00180
-「え……あ、えぇ～っと……」
+#＠すいか,R00180
+#「え……あ、えぇ～っと……」
+＠Suika,R00180
+「Eh...... Ah, uu~mm......」
 
-さっきオレに驚いて閉じたきり、手元の本は開かれる気配が無かった。
+#さっきオレに驚いて閉じたきり、手元の本は開かれる気配が無かった。
+#SCRIPT ADD KANJI
+Ｓhe closed the book when I startled her earlier, and it didn't seem like she would open it.
 
-＠すいか,R00181
-「あ……ある男の人とその従者の方の旅の記録、ですね」
+#＠すいか,R00181
+#「あ……ある男の人とその従者の方の旅の記録、ですね」
+＠Suika,R00181
+「Ah......The chronicles of a man and his attendant's travels, you see.」
 
-＠樹
-「へ～、ノンフィクション？」
+#＠樹
+#「へ～、ノンフィクション？」
+＠Itsuki
+「He~, non-fiction?」
 
 @suika
 
-＠すいか,R00182
-「いえ、作り話です。魔法とか魔物とかが出てくる話で、主人公がその困難に打ち勝っていく物語です」
+#＠すいか,R00182
+#「いえ、作り話です。魔法とか魔物とかが出てくる話で、主人公がその困難に打ち勝っていく物語です」
+＠Suika,R00182
+「No, it is fiction. It is a story where magic and magical creatures appear, and the main character overcomes those difficulties.」
 
-＠樹
-「ゲームとかだとよくある話だな、それは」
+#＠樹
+#「ゲームとかだとよくある話だな、それは」
+＠Itsuki
+「That's a story that's often in games.」
 
 @suika_komariwarai
 
-＠すいか,R00183
-「へ、へぇ～……そうなんですか……？」
+#＠すいか,R00183
+#「へ、へぇ～……そうなんですか……？」
+＠Suika,R00183
+「He, hee~ ......Is that so......?」
 
-＠樹
-「………」
+#＠樹
+#「………」
+＠Itsuki
+「.........」
 
-＠すいか,R00184
-「………」
+#＠すいか,R00184
+#「………」
+＠Suika,R00184
+「.........」
 
-すいかの視線が泳いでる。
+#すいかの視線が泳いでる。
+#SCRIPT ADD KANJI
+Ｓuika glances around. (*literally her glance swims around, don't know if I should literally translate it)
 
-笑みもどこかぎこちないし、事情は分からないがオレの存在は都合が悪いようだ。
+#笑みもどこかぎこちないし、事情は分からないがオレの存在は都合が悪いようだ。
+#SCRIPT ADD KANJI
+Ｓhe awkwardly smiled, and I did not know the reason, but my being here was probably inconvenient for her.
 
-＠樹
-「それじゃ、邪魔して悪かったな、オレはもう行くから」
+#＠樹
+#「それじゃ、邪魔して悪かったな、オレはもう行くから」
+＠Itsuki
+「Then, sorry for bothering you. I'll be going now.」
 
 @suika_warai
 
-＠すいか,R00185
-「あ、はい……おつかれさまです」
+#＠すいか,R00185
+#「あ、はい……おつかれさまです」
+＠Suika,R00185
+「Ah, yes...... Thank you.」
 
-本の内容も知りたかったが、しつこく詮索するのも可哀想なので仕方ないか……
+#本の内容も知りたかったが、しつこく詮索するのも可哀想なので仕方ないか……
+#SCRIPT ADD KANJI
+Ｉ wanted to know what was in the book, but I pathetically couldn't help but restrained from asking......
 
-＠樹
-「……ん？」
+#＠樹
+#「……ん？」
+＠Itsuki
+「.......Hm?」
 
-視線を翻したとき、ヒョイと本棚にあったノートの表紙に目が留まった。
+#視線を翻したとき、ヒョイと本棚にあったノートの表紙に目が留まった。
+#SCRIPT ADD KANJI
+Ｗhen I looked away, my eyes met with a notebook on the bookshelf.
 
-『ざくろだらけvol.3』
+#『ざくろだらけvol.3』
+#SCRIPT ADD KANJI
+　"Zakuro Darake vol.3" ("Full of Zakuro vol.3")
 
-＠樹
-「……なっ」
+#＠樹
+#「……なっ」
+＠Itsuki
+「......Wha-」
 
 @suika
 
-＠すいか,R00186
-「……？」
+#＠すいか,R00186
+#「……？」
+＠Suika,R00186
+「......?」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
-（何だッ、この本はーーッッ！？）
+#＠樹
+#（何だッ、この本はーーッッ！？）
+＠Itsuki
+（What, what is this book---!?）
 
 @suika_ikari
 
-＠すいか,R00187
-「……院長先生？」
+#＠すいか,R00187
+#「……院長先生？」
+＠Suika,R00187
+「......Inchou-sensei?」
 
-片足を上げたまま不自然に固まるオレに、すいかが訝しそうに眉根を寄せる。
+#片足を上げたまま不自然に固まるオレに、すいかが訝しそうに眉根を寄せる。
+#SCRIPT ADD KANJI
+Ｓuika suspectingly frowned at me, who had unnaturally lifted one leg and froze.
 
-＠樹
-「え、いや……」
+#＠樹
+#「え、いや……」
+＠Itsuki
+「Eh, no......」
 
-すいかの位置からは棚の上まで見えないらしい。
+#すいかの位置からは棚の上まで見えないらしい。
+#SCRIPT ADD KANJI
+Ｉt looks like Suika can't see to the top of the bookshelf from where she is.
 
-＠樹
-（ざ、『ざくろだらけ』……どんなタイトルのノートなんだこれは……）
+#＠樹
+#（ざ、『ざくろだらけ』……どんなタイトルのノートなんだこれは……）
+＠Itsuki
+（Za, "Zakuro Darake" ......What kind of title for a notebook is this......）
 
-しかも『vol.3』って書いてある。
+#しかも『vol.3』って書いてある。
+#SCRIPT ADD KANJI
+Ａnd it even says "vol.3".
 
-＠すいか,R00188
-「棚の上に何かあるんですか？」
+#＠すいか,R00188
+#「棚の上に何かあるんですか？」
+＠Suika,R00188
+「Is there something on top of the shelf?」
 
-＠樹
-「いや、何でも無いんだ……それじゃ」
+#＠樹
+#「いや、何でも無いんだ……それじゃ」
+＠Itsuki
+「No, there's nothing...... Well then,」
 
-気になるがざくろの物らしいし、勝手に見るのもはばかられた。
+#気になるがざくろの物らしいし、勝手に見るのもはばかられた。
+#SCRIPT ADD KANJI
+Ｚakuro's object worries me, and I hesitate to look at it by myself.
 
-今度ざくろがいる時にでも、ちゃんと心の準備をして尋ねてみることにしよう。
+#今度ざくろがいる時にでも、ちゃんと心の準備をして尋ねてみることにしよう。
+#SCRIPT ADD KANJI
+Ｎext time when Zakuro is here, I'm going to prepare myself and try asking her.
 
 #■BG（ブラック）
 @bg_black
@@ -195,12 +309,18 @@ label	suika_01
 @se07
 
 
-まさに言葉通り、頭の中が『ざくろだらけ』になったまま図書室を後にする。
+#まさに言葉通り、頭の中が『ざくろだらけ』になったまま図書室を後にする。
+#SCRIPT ADD KANJI
+Ｊust like the title, my head was "Zakuro Darake", while I left the library room.
 
-が、しかし、後日改めて来て見た図書室には、『ざくろだらけ』なるノートはどこにも無かったのだった。
+#が、しかし、後日改めて来て見た図書室には、『ざくろだらけ』なるノートはどこにも無かったのだった。
+#SCRIPT ADD KANJI
+Ｂut, however, another day when I came to the library room, the notebook called "Zakuro Darake" was nowhere to be found.
 
-＠樹
-「………う～ん、謎だ」
+#＠樹
+#「………う～ん、謎だ」
+＠Itsuki
+「.........U~n, it's a mystery.」
 
 @bg_black
 wait	1000
@@ -209,3 +329,4 @@ wait	1000
 
 #（スケジュール）
 return
+

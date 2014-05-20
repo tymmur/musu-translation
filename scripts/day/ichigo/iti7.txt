@@ -27,7 +27,7 @@ bgm_stop
 #■（選択肢）
 #（１．様子を探りに行く）
 #（２．今日は諦める）
-select sel,"様子を探りに行く","今日は諦める"
+select sel,"I'm going to explore the situation.","I give up today"
 if sel=0 then goto iti7_01_a
 if sel=1 then goto iti7_01_b
 #--------------------------------------------------

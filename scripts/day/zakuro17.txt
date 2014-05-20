@@ -1853,7 +1853,7 @@ event		"event\EV_ZAK_050-02.png"
 #■浣腸K-0
 #（ざくろに浣腸）→　youzyo-zaku17K-1A
 #（蓮に浣腸）　　→　youzyo-zaku17K-1B
-select sel,"ざくろに浣腸","蓮に浣腸"
+select sel,"Enema into Zakuro","Enema into Ren"
 if sel=0 then goto youzyo_zaku17K_1A
 if sel=1 then goto youzyo_zaku17K_1B
 #--------------------------------------------------
@@ -1994,7 +1994,7 @@ event		"event\EV_ZAK_050-05.png"
 #■浣腸K-1A
 #（ざくろに浣腸）→　youzyo-zaku17K-2A
 #（蓮に浣腸）　　→　youzyo-zaku17K-2B
-select sel,"ざくろに浣腸","蓮に浣腸"
+select sel,"Enema into Zakuro","Enema into Ren"
 if sel=0 then goto youzyo_zaku17K_2A
 if sel=1 then goto youzyo_zaku17K_2B
 #--------------------------------------------------
@@ -2160,7 +2160,7 @@ event		"event\EV_ZAK_050-45.png"
 #■浣腸K-1B
 #（ざくろに浣腸）→　youzyo-zaku17K-2C
 #（蓮に浣腸）　　→　youzyo-zaku17K-2D（バッドエンド）
-select sel,"ざくろに浣腸","蓮に浣腸"
+select sel,"Enema into Zakuro","Enema into Ren"
 if sel=0 then goto youzyo_zaku17K_2C
 if sel=1 then goto youzyo_zaku17K_2D
 #--------------------------------------------------

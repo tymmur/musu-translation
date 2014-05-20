@@ -605,7 +605,7 @@ event	"event\cutin_06-05.png"
 #■（好感度分岐。３人とも好感度が足りないときは、共通へ）
 
 @miryoku_charasel
-#select	miryoku_chara,"みかん","いちご","かりん"	#デバッグ用
+#select	miryoku_chara,"Mikan","Ichigo","Karin"	#Debaggu-yo #debugging
 
 if miryoku_chara_max<checkpoint2_miryoku then goto	matsuri_skip
 if miryoku_chara=0 then goto matsuri_mikan

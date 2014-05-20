@@ -11,12 +11,17 @@ label	suika_03
 @bg_rouka		# 廊下
 
 
-図書室の前を通りかかると、珍しく人の気配がした。
+#図書室の前を通りかかると、珍しく人の気配がした。
+#SCRIPT ADD KANJI
+Ｉ happened to pass by the library room, and unusually, it seemed like there was someone there.
 
-またすいかあたりだろうか？
+#またすいかあたりだろうか？
+#SCRIPT ADD KANJI
+Ｉ wonder if it's Suika again?
 
-少し手持ち無沙汰だったこともあり、オレはなんとなく図書室を覗いてみた。
-
+#少し手持ち無沙汰だったこともあり、オレはなんとなく図書室を覗いてみた。
+#SCRIPT ADD KANJI
+Ｉ had nothing better to do, so somehow I ended up peeking into the library room.
 
 @bg_black
 wait		1000
@@ -32,99 +37,153 @@ wait		1000
 @suika_yorokobi		#喜
 
 
-＠すいか,R00432
-「あ、院長先生……」
+#＠すいか,R00432
+#「あ、院長先生……」
+＠Suika,R00432
+「Ah, Inchou-sensei......」
 
-＠樹
-「やっぱりすいかか。今日は何を読んでたんだ？」
+#＠樹
+#「やっぱりすいかか。今日は何を読んでたんだ？」
+＠Itsuki
+「So it is Suika. What are you reading today?」
 
 
 @suika			#普
 
 
-＠すいか,R00433
-「あ、えーと……」
+#＠すいか,R00433
+#「あ、えーと……」
+＠Suika,R00433
+「Ah, u-m......」
 
-すいかは口ごもり、机に置かれた本に目をやった。
+#すいかは口ごもり、机に置かれた本に目をやった。
+#SCRIPT ADD KANJI
+Ｓuika hesitates to say it, and looks at the book on the desk.
 
-本の表紙には大きな文字で『初めてのＣ』と書かれている。
+#本の表紙には大きな文字で『初めてのＣ』と書かれている。
+#SCRIPT ADD KANJI
+Ｏn the cover of the book, written in large letters is "First Time C".
 
 
 # 一応、本当にあった本は『はじめてのＣ』のはずなので、違う。
 
 
-＠樹
-「うーん、仕事熱心だな……。でも、そんな初心者向けの本でいいのか？」
+#＠樹
+#「うーん、仕事熱心だな……。でも、そんな初心者向けの本でいいのか？」
+＠Itsuki
+「U-n, you like work don't you...... But, is that kind of beginner book okay?」
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00434
-「あ、いえ、これは仕事の本では……」
+#＠すいか,R00434
+#「あ、いえ、これは仕事の本では……」
+＠Suika,R00434
+「Ah, no, this is not for work......」
 
-＠樹
-「ん……？」
+#＠樹
+#「ん……？」
+＠Itsuki
+「Hm......?」
 
-よく見ると、基礎からのプログラム入門、みたいなことが小さい文字で書かれている。
+#よく見ると、基礎からのプログラム入門、みたいなことが小さい文字で書かれている。
+#SCRIPT ADD KANJI
+Ｉf I look closely, I see that something like fundamental programming guide is written in small letters.
 
-＠樹
-「Ｃって、プログラムのＣ言語か……」
+#＠樹
+#「Ｃって、プログラムのＣ言語か……」
+＠Itsuki
+「This "C", is it the programming language C......?」
 
-そのへんのことはあまりわからないが、Ｃ言語という名前ぐらい、オレだって聞いたことがあった。
+#そのへんのことはあまりわからないが、Ｃ言語という名前ぐらい、オレだって聞いたことがあった。
+#SCRIPT ADD KANJI
+Ｉ don't really know about it, but even I have at least heard about the C language.
 
-＠樹
-「でも、どうしたんだ、急に？」
+#＠樹
+#「でも、どうしたんだ、急に？」
+＠Itsuki
+「But, what is it, so suddenly?」
 
 
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00435
-「え？　えへへ……」
+#＠すいか,R00435
+#「え？　えへへ……」
+＠Suika,R00435
+「Eh? Ehehe......」
 
-すいかは少し困ったような笑みを浮かべた。
+#すいかは少し困ったような笑みを浮かべた。
+#SCRIPT ADD KANJI
+Ｓuika gives a slightly worried expression.
 
-＠すいか,R00436
-「ちょっと恥ずかしいですけど……私、先生もご存じのとおり、ゲーム好きですから」
+#＠すいか,R00436
+#「ちょっと恥ずかしいですけど……私、先生もご存じのとおり、ゲーム好きですから」
+＠Suika,R00436
+「It's a bit embarrassing...... But I, just like even sensei knows, I like games.」
 
-＠すいか,R00437
-「できれば……できればですけど、そのうち自分でも、ゲームとか作ってみたいな……なんて……」
+#＠すいか,R00437
+#「できれば……できればですけど、そのうち自分でも、ゲームとか作ってみたいな……なんて……」
+＠Suika,R00437
+「If I can...... This is just if I can, I want to try making a game myself......or something......」
 
-＠樹
-「それで、勉強してたのか」
+#＠樹
+#「それで、勉強してたのか」
+＠Itsuki
+「So then, you studied about it.」
 
-＠樹
-「うーん、すいかは偉いなぁ」
+#＠樹
+#「うーん、すいかは偉いなぁ」
+＠Itsuki
+「U-n, Suika is amazing.」
 
 
 @suika_tere		#照
 
 
-＠すいか,R00438
-「そ、そんな大したことじゃないですよ。せっかくこういう本があるんだし、ちょっと読んでみただけです」
+#＠すいか,R00438
+#「そ、そんな大したことじゃないですよ。せっかくこういう本があるんだし、ちょっと読んでみただけです」
+＠Suika,R00438
+「I, it's not that big of a deal. There are these kinds of books anyways, so I just wanted to try reading about it.」
 
-＠樹
-「いやいや、いろんなことに興味を持つのはいいことだ」
+#＠樹
+#「いやいや、いろんなことに興味を持つのはいいことだ」
+＠Itsuki
+「No no, it's a good thing to have interest in various things.」
 
-オレは素直に感心してしまった。
+#オレは素直に感心してしまった。
+#SCRIPT ADD KANJI
+Ｉ honestly admired her.
 
-今はここで仕事をしつつ生活するしかないかもしれないけど……。
+#今はここで仕事をしつつ生活するしかないかもしれないけど……。
+#SCRIPT ADD KANJI
+Ｉ might not have a choice about having to work and live here but......
 
-でも、やっぱり夢を持つのはいいことだよな。
+#でも、やっぱり夢を持つのはいいことだよな。
+#SCRIPT ADD KANJI
+Ｂut, it's definitely a good thing to have a dream.
 
-そういうのは、オレとしてもできるだけ応援したいところだ。
+#そういうのは、オレとしてもできるだけ応援したいところだ。
+#SCRIPT ADD KANJI
+Ｔhat's something I want to help with as much as I can.
 
-とはいえ、具体的に何をしたらいいのかもわからないけど……。
+#とはいえ、具体的に何をしたらいいのかもわからないけど……。
+#SCRIPT ADD KANJI
+Ｂut I don't know what exactly is good to do but......
 
-パソコンでもあれば、もっと勉強できるのかなぁ？
+#パソコンでもあれば、もっと勉強できるのかなぁ？
+#SCRIPT ADD KANJI
+Ｂut if there are computers, I wonder if I can study a bit more?
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00439
-「ありがとうございます、先生」
+#＠すいか,R00439
+#「ありがとうございます、先生」
+＠Suika,R00439
+「Thank you very much, sensei.」
 
 
 window_close
@@ -133,64 +192,98 @@ wait		3000
 @suika_kanashimi	#哀
 
 
-＠すいか,R00440
-「……すみません、ちょっとお願いしてもいいですか？」
+#＠すいか,R00440
+#「……すみません、ちょっとお願いしてもいいですか？」
+＠Suika,R00440
+「......Excuse me, but is it okay if I ask you something?」
 
-照れくさそうに頭を下げてから、すいかは少し考えるようにして、俺に尋ねた。
+#照れくさそうに頭を下げてから、すいかは少し考えるようにして、俺に尋ねた。
+#SCRIPT ADD KANJI
+Ｓuika asked me while looking down kind as if she were shy, and as if to think about it.
 
-＠樹
-「なんだ？　オレに出来ることなら、いくらでも協力するぞ？」
+#＠樹
+#「なんだ？　オレに出来ることなら、いくらでも協力するぞ？」
+＠Itsuki
+「What is it? If it's something I can do, I'd be glad to help.」
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00441
-「ホントですか？　それじゃ、この本、本棚に戻していただけないでしょうか？」
+#＠すいか,R00441
+#「ホントですか？　それじゃ、この本、本棚に戻していただけないでしょうか？」
+＠Suika,R00441
+「Really? Then, can you put this book back on the bookshelf?」
 
-＠すいか,R00442
-「低い棚ならなんとか自分でもできるんですけど、高い棚だと……」
+#＠すいか,R00442
+#「低い棚ならなんとか自分でもできるんですけど、高い棚だと……」
+＠Suika,R00442
+「I can reach short bookshelves by myself, but tall shelves......」
 
-……たしかに、松葉杖だと本を持ったまま移動するのも大変そうだ。
+#……たしかに、松葉杖だと本を持ったまま移動するのも大変そうだ。
+#SCRIPT ADD KANJI
+　......It must be hard to move the book with crutches.
 
 
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00443
-「それで、今ちょうど、誰かを呼びに行こうと思ってたところなんです」
+#＠すいか,R00443
+#「それで、今ちょうど、誰かを呼びに行こうと思ってたところなんです」
+＠Suika,R00443
+「I was thinking about calling someone to do it a while ago.」
 
-＠樹
-「そうか……。どこに戻せばいいんだ？」
+#＠樹
+#「そうか……。どこに戻せばいいんだ？」
+＠Itsuki
+「I see...... Where should I put it?」
 
-オレはさっそく机から本を持ち上げ、すいかに尋ねた。
+#オレはさっそく机から本を持ち上げ、すいかに尋ねた。
+#SCRIPT ADD KANJI
+Ｉ immediately lifted the book from the desk and asked Suika.
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00444
-「あ、そこの上から２段目の棚です」
+#＠すいか,R00444
+#「あ、そこの上から２段目の棚です」
+＠Suika,R00444
+「Ah, two shelves up from there.」
 
-＠樹
-「あそこか」
+#＠樹
+#「あそこか」
+＠Itsuki
+「There?」
 
 
 @suika_
 
 
-見ると、その棚にはコンピューター関係や、ネットワークなどのよくわからない技術的な本が並んでいる。
+#見ると、その棚にはコンピューター関係や、ネットワークなどのよくわからない技術的な本が並んでいる。
+#SCRIPT ADD KANJI
+Ｗhen I looked, I saw technical books lined up related to computers and networks and stuff I don't really know about.
 
-読む人がいるかどうか知らないけど一応図書室らしく揃えてみました、という感じの棚だった。
+#読む人がいるかどうか知らないけど一応図書室らしく揃えてみました、という感じの棚だった。
+#SCRIPT ADD KANJI
+Ｉ don't know whether there are people here who read them, but I immediately put it back in order.
 
-こういうＩＴ分野は技術革新が著しいから、もう情報が古くなってしまっているのが多そうだが……。
+#こういうＩＴ分野は技術革新が著しいから、もう情報が古くなってしまっているのが多そうだが……。
+#SCRIPT ADD KANJI
+Ｔhis IT field has remarkable technological innovation, so I'm sure there is a lot of outdated information here......
 
-とはいえ、こうしてすいかの勉強になったのなら、こういうコーナーがあったのも良かったのかもしれん。
+#とはいえ、こうしてすいかの勉強になったのなら、こういうコーナーがあったのも良かったのかもしれん。
+#SCRIPT ADD KANJI
+Ａnyways, by doing this, Suika was able to study, so this corner being here is probably a good thing.
 
-＠樹
-「このへんでいいかな？」
+#＠樹
+#「このへんでいいかな？」
+＠Itsuki
+「Is here okay?」
 
-オレはそのなかでもプログラム関係っぽい本が並んでいるあたりに、すいかの読んでいた本を戻した。
+#オレはそのなかでもプログラム関係っぽい本が並んでいるあたりに、すいかの読んでいた本を戻した。
+#SCRIPT ADD KANJI
+Ｉ put back the book Suika read where books that looked like they were related to programming were lined up.
 
 
 @suika_small
@@ -198,24 +291,36 @@ wait		3000
 @suika_yorokobi		#喜
 
 
-＠すいか,R00445
-「あ、はい」
+#＠すいか,R00445
+#「あ、はい」
+＠Suika,R00445
+「Ah, yes.」
 
-すいかはうなずく。
+#すいかはうなずく。
+#SCRIPT ADD KANJI
+Ｓuika nods.
 
-まあ、そんなにきっちりと頭文字順で管理しているわけでもないようだし、棚さえ合っていればいいのだろう。
+#まあ、そんなにきっちりと頭文字順で管理しているわけでもないようだし、棚さえ合っていればいいのだろう。
+#SCRIPT ADD KANJI
+Ｗell, I don't think it's organized so meticulously by initials, but it's OK if the shelves at least match.
 
-＠樹
-「また読みたい本とかあったら遠慮なく言えよ？　取ってやるから」
+#＠樹
+#「また読みたい本とかあったら遠慮なく言えよ？　取ってやるから」
+＠Itsuki
+「If there's a book you want to read, ask me okay? I'll get it for you.」
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00446
-「あ、はい。ありがとうございます、院長先生」
+#＠すいか,R00446
+#「あ、はい。ありがとうございます、院長先生」
+＠Suika,R00446
+「Ah, yes. Thank you very much, Inchou-sensei.」
 
-すいかは嬉しそうにオレに頭を下げた。
+#すいかは嬉しそうにオレに頭を下げた。
+#SCRIPT ADD KANJI
+Ｓuika happily lowered her head to me.
 
 
 #bgm_stop
@@ -227,8 +332,5 @@ wait		1000
 
 #（スケジュールへ）
 return
-
-
-
 
 

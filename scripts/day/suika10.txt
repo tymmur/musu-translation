@@ -10,52 +10,81 @@ label	suika_10
 @bg_living		# リビング
 
 
-＠樹
+＠Itsuki
 「これはひどい……」
 
 
 @bgm02			#BGM 02 : 朝のテーマ
 
 
-リビングで新聞を読んでいたオレは、思わずつぶいやた。
+#リビングで新聞を読んでいたオレは、思わずつぶいやた。
+#SCRIPT ADD KANJI
+Ｉ was reading the newspaper in the living room, and I sighed without realizing it.
 
-ひどい事件があったわけではない。社説の内容があまりにひどいのだ。
+#ひどい事件があったわけではない。社説の内容があまりにひどいのだ。
+#SCRIPT ADD KANJI
+Ｔhere's no way such a horrible incident could have happened. The editorial's contents are too horrible.
 
-仮にも大新聞がこんな社説を書いて恥ずかしくないのだろうか？
+#仮にも大新聞がこんな社説を書いて恥ずかしくないのだろうか？
+#SCRIPT ADD KANJI
+Ｅven if a big newspaper wrote this kind of editorial as a joke, isn't it embarassing?
 
-はっきり言って、こんな社説を載せている新聞の記事なんて信用できないんだが……。
+#はっきり言って、こんな社説を載せている新聞の記事なんて信用できないんだが……。
+#SCRIPT ADD KANJI
+Ｔo say it clearly, I can't really place confidence in the articles in a newspaper that has this kind of editorial......
 
-やっぱりもう新聞なんて終わったメディアなんだろうか？
+#やっぱりもう新聞なんて終わったメディアなんだろうか？
+#SCRIPT ADD KANJI
+Ｉs the newspaper already a finished media?
 
 とはいえ、こんな仕事をしているとどうしても情報に疎くなりがちなので、やはり新聞は必要だしなぁ……。
 
-＠樹
-（でも、考えてみればネットでニュースを見る手もあるのか？）
+#＠樹
+#（でも、考えてみればネットでニュースを見る手もあるのか？）
+＠Itsuki
+（But if you think about it, can't you also check the news on the net?）
 
-パソコンはすいかに貸してるけど……。
+#パソコンはすいかに貸してるけど……。
+#SCRIPT ADD KANJI
+Ｉ lent my computer to Suika though......
 
-前に雫さんがパソコンを使ってるのも見たし、すいかもＢＧＭをネットから拾ってきたとか言っていたはず。
+#前に雫さんがパソコンを使ってるのも見たし、すいかもＢＧＭをネットから拾ってきたとか言っていたはず。
+#SCRIPT ADD KANJI
+Ｉ saw Shizuku-san using the computer earlier, and Suika said that she got BGM from the net.
 
-ということは、無線LANか何かあるんだよな、ここ。
+#ということは、無線LANか何かあるんだよな、ここ。
+#SCRIPT ADD KANJI
+Ｗhich means we have wireless LAN or something here.
 
-だったら、パソコンがあればネットでニュースを見ることもできるはずだった。
+#だったら、パソコンがあればネットでニュースを見ることもできるはずだった。
+#SCRIPT ADD KANJI
+Ｉf so, you should be able to check the news on the net.
 
-＠樹
-（とはいえ、パソコンはすいかが使ってるしな）
+#＠樹
+#（とはいえ、パソコンはすいかが使ってるしな）
+＠Itsuki
+（Which reminds me, Suika is using the computer）
 
-せっかく喜んで使ってるんだし、わざわざ返してもらう道理はない。
+#せっかく喜んで使ってるんだし、わざわざ返してもらう道理はない。
+#SCRIPT ADD KANJI
+Ｓhe is finally happily using it, so I don't want to force her to give it back.
 
-すいかのためなら、オレはまあ新聞で我慢するさ……。
+#すいかのためなら、オレはまあ新聞で我慢するさ……。
+#SCRIPT ADD KANJI
+Ｉf it's for Suika's sake, I'll just endure reading this newspaper......
 
 偏ってはいるけれど、一応右寄りと左寄りの新聞を取っているので、見比べて情報を整理することも出来るしな。
 
-……と、そんなことを考えていたときだった。
-
+#……と、そんなことを考えていたときだった。
+#SCRIPT ADD KANJI
+　......So, I thought about that.
 
 @SE06			#部屋のドア開く音（ガチャ）
 
 
-リビングのドアが開き、そちらに目をやると、すいかが入ってきた。
+#リビングのドアが開き、そちらに目をやると、すいかが入ってきた。
+#SCRIPT ADD KANJI
+Ｔhe living room door opens, and I look towards it, and Suika enters.
 
 
 window_close
@@ -66,17 +95,23 @@ wait		1000
 @suika_yorokobi		#喜
 
 
-＠すいか,R00727
-「あ、院長先生。ここにいらしたんですか」
+#＠すいか,R00727
+#「あ、院長先生。ここにいらしたんですか」
+＠Suika,R00727
+「Ah, Inchou-sensei. You were here.」
 
-オレと目が合うと、すいかはとたんに嬉しそうな顔になる。
+#オレと目が合うと、すいかはとたんに嬉しそうな顔になる。
+#SCRIPT ADD KANJI
+Ｏur eyes meet, and Suika's face becomes happy.
 
 
 @suika_
 
 
-＠樹
-「おう、どうした？」
+#＠樹
+#「おう、どうした？」
+＠Itsuki
+「Oh, what's up?」
 
 
 @suika_middle		# 中間
@@ -84,51 +119,73 @@ wait		1000
 @suika_kanashimi	#哀
 
 
-＠すいか,R00728
-「あ、いえ……。またゲームの続きを作りましたので、遊んでいただけないかと……」
+#＠すいか,R00728
+#「あ、いえ……。またゲームの続きを作りましたので、遊んでいただけないかと……」
+＠Suika,R00728
+「Ah, no...... I made the continuation of the game again, so if you would like to try playing it......」
 
-＠樹
-「お、そうか。珍しいな、こんな時間に」
+#＠樹
+#「お、そうか。珍しいな、こんな時間に」
+＠Itsuki
+「Oh, I see. It's strange, at this time.」
 
 
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00729
-「あはは……。昨日は遅くまで調整してましたから……」
+#＠すいか,R00729
+#「あはは……。昨日は遅くまで調整してましたから……」
+＠Suika,R00729
+「Ahaha...... Because yesterday I stayed up adjusting it......」
 
 
 @suika			#普
 
 
-＠すいか,R00730
-「さすがに遅かったんで、昨日はそのまま寝ちゃったんです」
+#＠すいか,R00730
+#「さすがに遅かったんで、昨日はそのまま寝ちゃったんです」
+＠Suika,R00730
+「It was really late, so yesterday I ended up falling asleep like that.」
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00731
-「それで、今日の夜まで待とうかとも思ったんですけど、待ちきれなくて」
+#＠すいか,R00731
+#「それで、今日の夜まで待とうかとも思ったんですけど、待ちきれなくて」
+＠Suika,R00731
+「So then, I was thinking whether I should wait until tonight, but I couldn't wait.」
 
-キラキラと目を輝かせるようにオレを見つめるすいか。
+#キラキラと目を輝かせるようにオレを見つめるすいか。
+#SCRIPT ADD KANJI
+Ｓuika looks at me with sparkling eyes.
 
-＠樹
-「そ、そうか」
+#＠樹
+#「そ、そうか」
+＠Itsuki
+「I, I see.」
 
-やっぱりなんとなく、惚れられかけているような気がする……。
+#やっぱりなんとなく、惚れられかけているような気がする……。
+#SCRIPT ADD KANJI
+Ｉ have a feeling she really has fallen in love with me......
 
-でもまあ、一緒にゲームをやるくらい、何の問題もないよな？
+#でもまあ、一緒にゲームをやるくらい、何の問題もないよな？
+#SCRIPT ADD KANJI
+Ｂut well, there are no problems with playing a game together right?
 
-＠樹
-「それじゃ、行こうか……」
+#＠樹
+#「それじゃ、行こうか……」
+＠Itsuki
+「Well then, let's go......」
 
 
 bgm_stop
 @chara_clear	#保険
 
 
-と、オレが言いかけたそのときだった。
+#と、オレが言いかけたそのときだった。
+#SCRIPT ADD KANJI
+Ｔhen, right when I started to say that.
 
 
 #--------------------------------------------------
@@ -160,25 +217,33 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02316
-「あーッ、パパ、こんなところにいた！」
+#＠いちご,O02316
+#「あーッ、パパ、こんなところにいた！」
+＠Ichigo,O02316
+「A-h, Papa, you were here!」
 
 
 #@ichigo_ikari		#怒
 @ichigo_komikaru_odoroki	#コミカル驚
 
 
-＠いちご,O02317
-「大変なんだよッ！　いちごの部屋にあいつが出たの！」
+#＠いちご,O02317
+#「大変なんだよッ！　いちごの部屋にあいつが出たの！」
+＠Ichigo,O02317
+「It's terrible! That guy appeared in Ichigo's room!」
 
 
 @bgm03			#BGM 03 : いちごのテーマ
 
 
-いちごが息せき切ってリビングに飛び込んできた。
+#いちごが息せき切ってリビングに飛び込んできた。
+#SCRIPT ADD KANJI
+Ｉchigo jumped in the living room, panting.
 
-＠樹
-「あいつ……？」
+#＠樹
+#「あいつ……？」
+＠Itsuki
+「"That guy"......?」
 
 
 @ichigo_komaru		#困
@@ -195,11 +260,15 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02318
-「あいつだよ！　あの黒くて素早くてギトギトしてるアレ……！」
+#＠いちご,O02318
+#「あいつだよ！　あの黒くて素早くてギトギトしてるアレ……！」
+＠Ichigo,O02318
+「That guy! That black, fast, greasy thing......!」
 
-＠樹
-「……ゴキブリか？」
+#＠樹
+#「……ゴキブリか？」
+＠Itsuki
+「......A cockroach?」
 
 
 @ichigo_ikari		#怒
@@ -213,8 +282,10 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02319
-「そう、いわゆるそれ！」
+#＠いちご,O02319
+#「そう、いわゆるそれ！」
+＠Ichigo,O02319
+「Yeah, that's it!」
 
 
 @ichigo_
@@ -238,20 +309,28 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02320
-「どうにかして、パパッ！」
+#＠いちご,O02320
+#「どうにかして、パパッ！」
+＠Ichigo,O02320
+「Please do something, papa!」
 
-いちごは俺に泣きついてくる。
+#いちごは俺に泣きついてくる。
+#SCRIPT ADD KANJI
+Ｉchigo clung to me and cried.
 
 
 @ichigo_
 
 
-＠樹
-「しょうがないなぁ……」
+#＠樹
+#「しょうがないなぁ……」
+＠Itsuki
+「I have no choice, do I......」
 
-＠樹
-「悪い、すいか、またあとで」
+#＠樹
+#「悪い、すいか、またあとで」
+＠Itsuki
+「Sorry, Suika, I'll play it later.」
 
 
 @suika_middle		# 中間
@@ -259,15 +338,18 @@ layer_movepass_play	l_ichigo,0,play_once
 @suika			#普
 
 
-＠すいか,R00732
-「あ、はい……」
+#＠すいか,R00732
+#「あ、はい……」
+＠Suika,R00732
+「Ah, yes......」
 
 
 @suika_
 
 
-すいかに断りを入れて、俺は立ち上がる。
-
+#すいかに断りを入れて、俺は立ち上がる。
+#SCRIPT ADD KANJI
+Ｉ get up after refusing to Suika.
 
 @ichigo_large		# 近い
 @ichigo_shifuku
@@ -286,11 +368,14 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O02321
-「パパ～ッ、早く早くッ！」
+#＠いちご,O02321
+#「パパ～ッ、早く早くッ！」
+＠Ichigo,O02321
+「Papa~, hurry hurry!」
 
-せかすいちごに手を引かれ、俺はリビングを出たのだった。
-
+#せかすいちごに手を引かれ、俺はリビングを出たのだった。
+#SCRIPT ADD KANJI
+Ｉchigo pulled my arm to hurry me, and I left the living room.
 
 #（統合へ）
 goto		suika10_togo1
@@ -310,25 +395,33 @@ label		suika10_f01_mikan
 @mikan_odoroki		#驚
 
 
-＠みかん,A01961
-「あ、ここにいたぁっ！」
+#＠みかん,A01961
+#「あ、ここにいたぁっ！」
+＠Mikan,A01961
+「Ah, you were here!」
 
 
 @mikan_
 se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
 
 
-＠みかん,A01962
-「お兄ちゃ～んっ……！」
+#＠みかん,A01962
+#「お兄ちゃ～んっ……！」
+＠Mikan,A01962
+「Onii-cha~n......!」
 
 
 @bgm12			#BGM 12 : メインテーマ
 
 
-泣きそうな顔でみかんがリビングに飛び込んできた。
+#泣きそうな顔でみかんがリビングに飛び込んできた。
+#SCRIPT ADD KANJI
+Ｍikan jumped into the living room, looking as if she were about to cry.
 
-＠樹
-「どうした……？」
+#＠樹
+#「どうした……？」
+＠Itsuki
+「What's wrong......?」
 
 
 se_stop		0
@@ -350,21 +443,29 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01963
-「あのね、みかんの部屋に……出たの～っ……」
+#＠みかん,A01963
+#「あのね、みかんの部屋に……出たの～っ……」
+＠Mikan,A01963
+「Umm, in Mikan's room...... appaeared~......」
 
-＠樹
-「出たって、何がだ？」
+#＠樹
+#「出たって、何がだ？」
+＠Itsuki
+「What appeared?」
 
-お化けとかそういう話か……？
+#お化けとかそういう話か……？
+#SCRIPT ADD KANJI
+Ａ monster or something like that......?
 
 
 layer_movepass_init	l_mikan,0	#演出初期化
 #@mikan_komikaru_kanashimi	#コミカル哀
 
 
-＠みかん,A01964
-「ゴキブリ～っ！」
+#＠みかん,A01964
+#「ゴキブリ～っ！」
+＠Mikan,A01964
+「Cockroach~!」
 
 
 #///////////////////////////////////////////////////////
@@ -382,20 +483,28 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01965
-「助けてお兄ちゃん！　なんとかして～ッ！」
+#＠みかん,A01965
+#「助けてお兄ちゃん！　なんとかして～ッ！」
+＠Mikan,A01965
+「Save me Onii-chan! Do something~!」
 
 
 @chara_clear		#保険
 
 
-今にも泣き出しそうな勢いで、みかんは俺にすがりついてくる。
+#今にも泣き出しそうな勢いで、みかんは俺にすがりついてくる。
+#SCRIPT ADD KANJI
+Ｍikan clung to me with force looking like she would burst into tears.
 
-＠樹
-「しょうがないなぁ……」
+#＠樹
+#「しょうがないなぁ……」
+＠Itsuki
+「I have no choice, do I......?」
 
-＠樹
-「悪い、すいか、またあとで」
+#＠樹
+#「悪い、すいか、またあとで」
+＠Itsuki
+「Sorry, Suika, I'll play it later.」
 
 
 @suika_middle		# 中間
@@ -403,17 +512,23 @@ layer_movepass_play	l_mikan,0,play_once
 @suika			#普
 
 
-＠すいか,R00733
-「あ、はい……」
+#＠すいか,R00733
+#「あ、はい……」
+＠Suika,R00733
+「Ah, yes......」
 
 
 @suika_
 
 
-すいかに断りを入れて、俺は立ち上がる。
+#すいかに断りを入れて、俺は立ち上がる。
+#SCRIPT ADD KANJI
+Ｉ get up after refusing to Suika.
 
-＠樹
-「行くぞ、みかん」
+#＠樹
+#「行くぞ、みかん」
+＠Itsuki
+「Let's go, Mikan.」
 
 
 @mikan_large		# 近い
@@ -429,22 +544,32 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠みかん,A01966
-「ありがとう、お兄ちゃん！」
+#＠みかん,A01966
+#「ありがとう、お兄ちゃん！」
+＠Mikan,A01966
+「Thanks, Onii-chan!」
 
-みかんは嬉しそうに俺の腕に抱きついてきた。
-
+#みかんは嬉しそうに俺の腕に抱きついてきた。
+#SCRIPT ADD KANJI
+Ｍikan clung to my arm happily.
 
 @mikan_warai2		#笑2
 
 
-＠みかん,A01967
-「やっぱりお兄ちゃんは頼りになるな……」
+#＠みかん,A01967
+#「やっぱりお兄ちゃんは頼りになるな……」
+＠Mikan,A01967
+「Onii-chan is reliable after all......」
 
-＠樹
-「ほらほら、早く行かないとどこにいるのかわからなくなるだろ？」
 
-腕に絡みつくみかんを急かし、俺は部屋の出口へ向かった。
+#＠樹
+#「ほらほら、早く行かないとどこにいるのかわからなくなるだろ？」
+＠Itsuki
+「Hey hey, if you don't hurry, you don't know where it might go!」
+
+#腕に絡みつくみかんを急かし、俺は部屋の出口へ向かった。
+#SCRIPT ADD KANJI
+Ｉ hurry Mikan, who is on my arm, and I go to the room's exit.
 
 
 #（統合へ）
@@ -465,25 +590,33 @@ label		suika10_f01_karin
 @karin_odoroki		#驚
 
 
-＠かりん,P02693
-「樹！　こんなところにいたのね！」
+#＠かりん,P02693
+#「樹！　こんなところにいたのね！」
+＠Karin,P02693
+「Itsuki! You were here!」
 
 
 @karin_ikari		#怒
 
 
-＠かりん,P02694
-「肝心なときに役に立たないんだから、もう！」
+#＠かりん,P02694
+#「肝心なときに役に立たないんだから、もう！」
+＠Karin,P02694
+「Ugh, you're so useless at crucial times!」
 
 
 @karin_
 @bgm12			#BGM 12 : メインテーマ
 
 
-いつになく慌てた様子で、かりんがリビングに入ってきた。
+#いつになく慌てた様子で、かりんがリビングに入ってきた。
+#SCRIPT ADD KANJI
+Ｋarin entered the living room, unusually flustered.
 
-＠樹
-「どうかしたのか？」
+#＠樹
+#「どうかしたのか？」
+＠Itsuki
+「What happened?」
 
 
 @karin_middle		# 中間
@@ -491,35 +624,51 @@ label		suika10_f01_karin
 @karin_kanashimi	#哀
 
 
-＠かりん,P02695
-「うぅ、それが……」
+#＠かりん,P02695
+#「うぅ、それが……」
+＠Karin,P02695
+「Uu, that......」
 
-＠かりん,P02696
-「出たのよ、アレが」
+#＠かりん,P02696
+#「出たのよ、アレが」
+＠Karin,P02696
+「Appeared, that.」
 
-少し困ったように口ごもりつつ、かりんはつぶやく。
+#少し困ったように口ごもりつつ、かりんはつぶやく。
+#SCRIPT ADD KANJI
+Ｋarin murmured while mumbling a bit worriedly.
 
-＠樹
-「アレ……？」
+#＠樹
+#「アレ……？」
+＠Itsuki
+「That......?」
 
-＠かりん,P02697
-「あの、黒くてすばしこくてギトギトしている虫よ」
+#＠かりん,P02697
+#「あの、黒くてすばしこくてギトギトしている虫よ」
+＠Karin,P02697
+「That black, quick, greasy insect!」
 
 #＠かりん,P02698
 #「実物は初めて見たけど、やはり不気味なものね……」
 
-＠樹
-「って、ゴキブリか？」
+#＠樹
+#「って、ゴキブリか？」
+＠Itsuki
+「You mean a cockroach?」
 
 
 @karin_ikari		#怒
 
 
-＠かりん,P02699
-「そ、そんな言葉を口に出さないで。樹の口が汚れるわ」
+#＠かりん,P02699
+#「そ、そんな言葉を口に出さないで。樹の口が汚れるわ」
+＠Karin,P02699
+「D, don't say such words. Itsuki, your mouth is dirty!」
 
-＠樹
-「そんなことを言われても……」
+#＠樹
+#「そんなことを言われても……」
+＠Itsuki
+「Even if you say that......」
 
 いちいち別の言葉に言い換えてたら会話が進まないじゃんか。
 
@@ -527,18 +676,24 @@ label		suika10_f01_karin
 @karin_kanashimi	#哀
 
 
-＠かりん,P02700
-「いいから早くアレを退治しなさい。あなたの仕事でしょう？」
+#＠かりん,P02700
+#「いいから早くアレを退治しなさい。あなたの仕事でしょう？」
+＠Karin,P02700
+「Just hurry up and get rid of that thing. It's your job, okay?」
 
-＠樹
-「しょうがないなぁ……」
+#＠樹
+#「しょうがないなぁ……」
+＠Itsuki
+「I don't have a choice, do I......?」
 
 
 @chara_clear		#保険
 
 
-＠樹
-「悪い、すいか、またあとで」
+#＠樹
+#「悪い、すいか、またあとで」
+＠Itsuki
+「Sorry, Suika, I'll play it later.」
 
 
 @suika_middle		# 中間
@@ -546,14 +701,18 @@ label		suika10_f01_karin
 @suika			#普
 
 
-＠すいか,R00734
-「あ、はい……」
+#＠すいか,R00734
+#「あ、はい……」
+＠Suika,R00734
+「Ah, yes......」
 
 
 @suika_
 
 
-すいかに断りを入れて、俺は立ち上がる。
+#すいかに断りを入れて、俺は立ち上がる。
+#SCRIPT ADD KANJI
+Ｉ get up after refusing to Suika.
 
 
 @karin_large		# 近い
@@ -562,19 +721,24 @@ label		suika10_f01_karin
 @karin_warai		#笑
 
 
-＠かりん,P02701
-「さすがね、樹。頼もしいわ」
+#＠かりん,P02701
+#「さすがね、樹。頼もしいわ」
+＠Karin,P02701
+「You're great, Itsuki. You're reliable.」
 
 
 @karin_
 
 
-リビングの出口に向かおうとすると、かりんはさりげなく俺に寄り添い、俺の腕を取った。
+#リビングの出口に向かおうとすると、かりんはさりげなく俺に寄り添い、俺の腕を取った。
+#SCRIPT ADD KANJI
+Ｉ was going to the living room's exit, and Karin casually gets closer to me and takes my arm.
 
 #初めてゴキブリを見て、やはりかなり驚いたのだろうか？
 
-触れた腕から、かりんの緊張が伝わってきた気がした。
-
+#触れた腕から、かりんの緊張が伝わってきた気がした。
+#SCRIPT ADD KANJI
+Ｉ felt like I could feel Karin's tension from the arm she was touching.
 
 
 

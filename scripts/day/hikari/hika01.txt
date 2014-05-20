@@ -17,9 +17,13 @@ bgm_stop
 @bg_sky_ame		# 雨空
 
 
-この日は、朝からずっと分厚い雲が空を覆い隠していた。
+#この日は、朝からずっと分厚い雲が空を覆い隠していた。
+#SCRIPT ADD KANJI
+Ｔhe thick clouds has covered the sky throughout the day since this morning.
 
-ジメジメした雨が霧のように降り注いでいる。
+#ジメジメした雨が霧のように降り注いでいる。
+#SCRIPT ADD KANJI
+Ｉt was damp, the rain which fell from the sky created a mist. 
 
 
 #■BG（商店街・雨）
@@ -27,7 +31,9 @@ bgm_stop
 @bgm17			#BGM 17 : のんびりのテーマ
 
 
-商店街のファミリーレストランから、ひかりは両親と一緒に出てきた。
+#商店街のファミリーレストランから、ひかりは両親と一緒に出てきた。
+#SCRIPT ADD KANJI
+Ｈikari with her parents came out from the family restaurant in the shopping district.
 
 
 @hikari_middle		# 中間
@@ -35,12 +41,13 @@ bgm_stop
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00197
-「美味しかったね、ハンバーグ！」
+#「美味しかったね、ハンバーグ！」
+＠Hikari,N00197
+「It was delicious, the hamburger!」
 
-＠父親
-「ははっ、よく食べるなひかりは。お腹いっぱいになったか？」
-
+#「ははっ、よく食べるなひかりは。お腹いっぱいになったか？」
+＠Father
+「Haha, You ate well, Hikari. Are you full now full?]」
 
 @hikari_warai		#笑.png
 #///////////////////////////////////////////////////////
@@ -52,42 +59,55 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00198
-「うん！」
+#「うん！」
+＠Hikari,N00198
+「Un!」
 
 
 @hikari_yorokobi	#喜.png
 
 
-＠ひかり,N00199
-「ねぇお父しゃん、今日こえからどこか行くんだよね？　どこに行くの？」
+#「ねぇお父しゃん、今日こえからどこか行くんだよね？　どこに行くの？」
+＠Hikari,N00199
+「Hey, otou-shan, from now on, where are we going today? Where are we going to?」
 
-＠父親
-「…………」
+#「…………」
+＠Father
+「........」
 
+#「…………」
 ＠母親,V21007
-「…………」
+「........」
 
 
 @hikari			#普.png
 
 
-＠ひかり,N00200
-「……？　お父しゃん？　お母しゃん？　どうしたの？」
+#「……？　お父しゃん？　お母しゃん？　どうしたの？」
+＠Hikari,N00200
+「......? Otou-shan? Oka-shan? What's wrong?」
 
-様子が暗い両親に首を傾げるひかり。
+#★
+#様子が暗い両親に首を傾げるひかり。
+#SCRIPT ADD KANJI
+Ｈikari leaned her head to the side while looking at her gloomy parents.
 
-ついさっきまで、あんなにみんなで楽しそうに食事をしたのに。
+#ついさっきまで、あんなにみんなで楽しそうに食事をしたのに。 
+#SCRIPT ADD KANJI
+Ｓince just now, they looked very happy after having meal together.
 
+#「ひーちゃん。パパとママね、少し用事があるの。そこのお店で待っててくれる？」
 ＠母親,V21008
-「ひーちゃん。パパとママね、少し用事があるの。そこのお店で待っててくれる？」
+「Hi-chan. Papa and mama have little thing to do. Can you wait in the shop over there?」
 
-＠ひかり,N00201
-「え…？　うん……」
+#「え…？　うん……」
+＠Hikari,N00201
+「Huh...? Okay.....」
 
-＠父親
-「いい子だ。お小遣いをやるから、好きな物を買ってなさい」
-
+#★
+#「いい子だ。お小遣いをやるから、好きな物を買ってなさい」
+＠Father
+「Good girl. I will give you an allowance, use it to buy things that you like.」
 
 @hikari_warai		#笑.png
 #///////////////////////////////////////////////////////
@@ -102,19 +122,22 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#★
+#「わーいッ、お小ぢゅかい！　ひーちゃん待ってるっ。早く迎えに来てね！」
+＠Hikari,N00202
+「Ya~ｙ, allowantsue! Hi-chan will wait. Come back here quickly to pick me up!」
 
-＠ひかり,N00202
-「わーいッ、お小ぢゅかい！　ひーちゃん待ってるっ。早く迎えに来てね！」
-
+#「………ひーちゃん」
 ＠母親,V21009
-「………ひーちゃん」
+「..... Hi-chan.」
 
 
 @hikari_yorokobi	#喜.png
 
-
-＠父親
-「ああ、すぐに迎えに来るよ。行っておいで」
+#★
+#「ああ、すぐに迎えに来るよ。行っておいで」
+＠Father
+「Yeah, we will come back here to pick you up as soon as we can. Go on.」
 
 
 @hikari_warai		#笑.png
@@ -127,8 +150,9 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠ひかり,N00203
-「うん！」
+#「うん！」
+＠Hikari,N00203
+「Un!」
 
 
 #CH（立ち絵消去）
@@ -139,22 +163,31 @@ wait		1000
 #@SE91			#SE91　雨の中を走る音（パシャッパシャッパシャッパシャッ！）
 @SE34			#SE34　外で走り去る音
 
-
-無邪気に喜んで、お店の並びに走っていくひかり。
+#★
+#無邪気に喜んで、お店の並びに走っていくひかり。
+#SCRIPT ADD KANJI
+Ｈikari was innocently happy, running between the shops.
 
 
 se_stop		0
 
 
-両親はそれを見送ると、反対方向へ歩いていく。
+#両親はそれを見送ると、反対方向へ歩いていく。
+#SCRIPT ADD KANJI
+Ｔhe parents saw her off, and walked towards the opposite direction.
 
-どこか疲れたような、解放されたような足取りだった。
+#どこか疲れたような、解放されたような足取りだった。
+#SCRIPT ADD KANJI
+Ｓomehow they seemed exhausted, but walked as if they were liberalized. (realeased?)
 
-＠父親
-「あとで、施設の人がひかりを迎えに来ることになってる」
 
+#「あとで、施設の人がひかりを迎えに来ることになってる」
+＠Father
+「People from the institution will come and pick her up after.」
+
+#「ええ……。やっぱり、誰かも分からない子を育てる自信なんかないわ」
 ＠母親,V21010
-「ええ……。やっぱり、誰かも分からない子を育てる自信なんかないわ」
+「Yes... As suspected, we don't have the confidence to raise a child who we don't know.」 
 
 
 bgm_stop
@@ -162,9 +195,13 @@ bgm_stop
 @bg_sky_ame		# 雨空
 
 
-降りしきる雨の中、二人の足音が遠ざかる。
+#降りしきる雨の中、二人の足音が遠ざかる。
+#SCRIPT ADD KANJI
+Ｔhe footsteps of the two people vanished in the middle of the falling rain. (dampened, got lower and dissapeared sort of meaning)
 
-そして二度と、ひかりを迎えに来ることはなかった。
+#そして二度と、ひかりを迎えに来ることはなかった。
+#SCRIPT ADD KANJI
+Ａnd never again, returned for Hikari again.
 
 
 @bg_black

@@ -11,16 +11,25 @@ label	suika_11
 @bg_rouka		# 廊下
 
 
-……逃げ回るゴキブリを退治するのに時間を取られ、それが終わったときには夕食の時間になってしまった。
+#……逃げ回るゴキブリを退治するのに時間を取られ、それが終わったときには夕食の時間になってしまった。
+#SCRIPT ADD KANJI
+……Running around exterminating cockroaches takes a lot of time.  It is about dinner time when I finish.
 
-夕食の後には風呂の時間もあるし、人数が多いだけにそれぞれが決められた時間に風呂を済まさなくてはならない。
+#夕食の後には風呂の時間もあるし、人数が多いだけにそれぞれが決められた時間に風呂を済まさなくてはならない。
+#SCRIPT ADD KANJI
+Ａfter dinner, it will be time for a bath.  There are so many people here that there absolutely needs to be a time limit for taking a bath. (a little unsure)
 
-ということで、結局こんな時間まですいかのところには行けずじまいだった。
+#ということで、結局こんな時間まですいかのところには行けずじまいだった。
+#SCRIPT ADD KANJI
+Ｔhat is to say, Suika’s time has come and gone, and she never went. (it’s worded a little differently, but the same thing more or less……I think)
 
-＠樹
-（遅くなっちゃったけど、行ってやらないと……）
+#（遅くなっちゃったけど、行ってやらないと……）
+＠Itsuki
+(It’s become late, but she never went……)
 
-風呂を出て少し落ち着いてから、俺はすいかの部屋に向かった。
+#風呂を出て少し落ち着いてから、俺はすいかの部屋に向かった。
+#SCRIPT ADD KANJI
+Ｉ leave the bath after relaxing a little bit, and make my way to Suika’s room.
 
 
 @bg_black
@@ -32,33 +41,46 @@ wait		1000
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 
-＠樹
-「すいか、悪い。遅くなったな」
+#「すいか、悪い。遅くなったな」
+＠Itsuki
+「Suika, it isn’t good.  You’re late.」
 
 …………。
 
-ノックしながら声をかけてみるが、返事はない。
+#ノックしながら声をかけてみるが、返事はない。
+#SCRIPT ADD KANJI
+Ｗhile I knock I try to here her voice, but there is no reply.
 
-やっぱり、またゲーム中だろうか？
+#やっぱり、またゲーム中だろうか？
+#SCRIPT ADD KANJI
+Ｉ wonder, is she in the middle of a game again?
 
 
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 
-＠樹
-「おーい、すいか……！」
+#「おーい、すいか……！」
+＠Itsuki
+「Heeeey, Suika……!」
 
 …………。
 
-もう一度ノックしてみるが、やはり返事はない。
+#もう一度ノックしてみるが、やはり返事はない。
+#SCRIPT ADD KANJI
+Ｉ try knocking one more time, but I still don’t get a reply.
 
-……これはゲーム中と見て間違いなさそうだな。
+#……これはゲーム中と見て間違いなさそうだな。
+#SCRIPT ADD KANJI
+……I probably wouldn’t be mistaken if she were in the middle of a game. (unsure)
 
-あるいは自分が作ったゲームの調整かもしれんが……。
+#あるいは自分が作ったゲームの調整かもしれんが……。
+#SCRIPT ADD KANJI
+Ｏr, I guess it’s possible that she is making adjustments to the game she made herself.
 
-＠樹
-「入るぞ……」
+#「入るぞ……」
+＠Itsuki
+「I’m coming in……」
 
 
 bgm_stop
@@ -66,7 +88,9 @@ bgm_stop
 @SE06			#部屋のドア開く音（ガチャ）
 
 
-仕方ないので、声をかけつつドアを開ける。
+#仕方ないので、声をかけつつドアを開ける。
+#SCRIPT ADD KANJI
+Ｉt just can’t be helped.  I call out to her as I open the door.
 
 
 #--------------------------------------------------
@@ -76,24 +100,37 @@ event		"event\EV_SUI_040-00.png"
 #--------------------------------------------------
 
 
-＠すいか,R00735
-「たぁッ！　ていッ！　喰らえぇッ……！」
+#「たぁッ！　ていッ！　喰らえぇッ……！」
+＠Suika,R00735
+「Taa!  Tei!  Take this……!」
 
-＠すいか,R00736
-「そこだッ！　そりゃぁッ！　行っけえええぇぇッ……！」
+#「そこだッ！　そりゃぁッ！　行っけえええぇぇッ……！」
+＠Suika,R00736
+「And there!  Hyaaaa!  Here it goes……!」 (I know it should be soryaa, but hyaaa seems to get the point across and would be understood by more people)
 
-案の定、すいかは画面に向かい、コントローラーを握り締めていた。
+#案の定、すいかは画面に向かい、コントローラーを握り締めていた。
+#SCRIPT ADD KANJI
+Ｊust as I thought, Suika is in staring at the television screen, tightly gripping the controller.
 
-＠すいか,R00737
-「フフッ、甘いッ！　ファイナルダークネス・メテオエクスプロージョンッ……！！」
+#「フフッ、甘いッ！　ファイナルダークネス・メテオエクスプロージョンッ……！！」
+＠Suika,R00737
+「Fufu, awesome!  Final Darkness: Meteor Explosion……!!」
 
-すいかは技の名前を高らかに叫びつつ、敵に攻撃を叩き込む。
+#すいかは技の名前を高らかに叫びつつ、敵に攻撃を叩き込む。
+#SCRIPT ADD KANJI
+Ｓuika loudly shouts out the full name of the technique while attacking her opponent.
 
-どうでもいいが、その中学生が考えたみたいな技、どうにかならないのか……？
+#どうでもいいが、その中学生が考えたみたいな技、どうにかならないのか……？
+#SCRIPT ADD KANJI
+Ｎot that it matters, but it sounds like a middle school student came up with that technique name.  I guess it can’t be helped.  (unsure)
 
-まあそれはともかく、どうやら今日はＣＰＵ相手に圧勝しているようだ。
+#まあそれはともかく、どうやら今日はＣＰＵ相手に圧勝しているようだ。
+#SCRIPT ADD KANJI
+Ｗell, about that, it seems like she was completely victorious against her CPU opponent.
 
-必殺技を喰らった敵のライフゲージがゴリゴリと減っていき、そのまま吹き飛ばされてお陀仏になった。
+#必殺技を喰らった敵のライフゲージがゴリゴリと減っていき、そのまま吹き飛ばされてお陀仏になった。
+#SCRIPT ADD KANJI
+Ｉt receives Suika’s special attack and its life gauge begins to drop.  And with that, it is sent flying and fades away.
 
 
 #--------------------------------------------------
@@ -101,17 +138,20 @@ event		"event\EV_SUI_040-02.png"
 #--------------------------------------------------
 
 
-＠すいか,R00738
-「クックックッ……。私に逆らうからこういう目に遭うのよ……」
+#「クックックッ……。私に逆らうからこういう目に遭うのよ……」
+＠Suika,R00738
+「Kukuku…… Since it challenged me, it had to go through all that……」
 
-すいかは満足げに画面を見つめ、つぶやいた。
-
+#すいかは満足げに画面を見つめ、つぶやいた。
+#SCRIPT ADD KANJI
+Ｓuika speaks to herself softly as she watches the screen.
 
 bgm_stop
 
 
-＠樹
-「……ちょ、ちょっと怖いぞ、すいか」
+#「……ちょ、ちょっと怖いぞ、すいか」
+＠Itsuki
+「……Tha, that was a little scary, Suika.」
 
 
 #--------------------------------------------------
@@ -119,10 +159,13 @@ event		"event\EV_SUI_040-04.png"
 #--------------------------------------------------
 
 
-＠すいか,R00739
-「えっ！？　あああぁあッ……！」
+#「えっ！？　あああぁあッ……！」
+＠Suika,R00739
+「Eh!?  Aaaaaaah……!」
 
-俺に気づき、すいかは大げさに驚く。
+#俺に気づき、すいかは大げさに驚く。
+#SCRIPT ADD KANJI
+Ａs she notices me, Suika lets out an exaggerated surprised reaction.
 
 
 @bg_black
@@ -135,52 +178,69 @@ wait		1000
 @bgm12			#BGM 12 : メインテーマ
 
 
-＠すいか,R00740
-「い、いつからそこにいたんですか……！？」
+#「い、いつからそこにいたんですか……！？」
+＠Suika,R00740
+「W, when did you get here……!?」 (maybe, “How long have you been there.”)
 
-＠樹
-「いや、まあ今来たばっかりだが」
+#「いや、まあ今来たばっかりだが」
+＠Itsuki
+「No, I got here just now.」
 
 
 @suika_kanashimi	#哀
 
 
-＠すいか,R00741
-「すみません、全然気づかなくて……」
+#「すみません、全然気づかなくて……」
+＠Suika,R00741
+「I’m sorry, I didn’t notice you at all……」
 
-＠樹
-「ま、いつものことだし、いいけどな」
+#「ま、いつものことだし、いいけどな」
+＠Itsuki
+「Since it’s what usually happens, it’s alright.」 (Maybe: I’ve come to expect it.)
 
-＠樹
-「それより、今日はずいぶん調子がいいみたいじゃないか」
+#「それより、今日はずいぶん調子がいいみたいじゃないか」
+＠Itsuki
+「Anyway, it seems like you are doing considerably better today.」
 
 
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00742
-「え？　あははは……」
+#「え？　あははは……」
+＠Suika,R00742
+「Eh?  Ahahaha……」
 
-＠すいか,R00743
-「今は、デフォルト設定ですから……」
+#「今は、デフォルト設定ですから……」
+＠Suika,R00743
+「It’s on the default setting right now, so……」
 
 
 @suika_
 
 
-引きつった笑いを浮かべ、すいかは目をそらした。
+#引きつった笑いを浮かべ、すいかは目をそらした。
+#SCRIPT ADD KANJI
+Ｓhe lets out a stiff laughter and turns her eyes away.
 
-＠樹
-「そうか……」
+#「そうか……」
+＠Itsuki
+「I see……」
 
-珍しいな、すいかがデフォルト設定でプレイしてるなんて。
+#珍しいな、すいかがデフォルト設定でプレイしてるなんて。	
+#SCRIPT ADD KANJI
+Ｉt’s unusual for Suika to be playing on the default setting.
 
-ま、それはともかく。
+#ま、それはともかく。
+#SCRIPT ADD KANJI
+Ｈm, if that’s the case….
 
-＠樹
-「さっきは悪かったな、ゲームしに来れなくて」
+#「さっきは悪かったな、ゲームしに来れなくて」
+＠Itsuki
+「It was difficult last time, so I didn’t come to play games.」
 
-俺はまず、夕方のことを謝っておく。
+#俺はまず、夕方のことを謝っておく。
+#SCRIPT ADD KANJI
+Ａfter all, I came here to apologize for this evening.
 
 
 @suika_middle		# 中間
@@ -188,115 +248,166 @@ wait		1000
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00744
-「あはは、いいんですよ」
+#「あはは、いいんですよ」
+＠Suika,R00744
+「Ahaha, it’s alright.」
 
-＠すいか,R00745
-「ゴキブリが出たんじゃ、しょうがないですし……」
+#「ゴキブリが出たんじゃ、しょうがないですし……」
+＠Suika,R00745
+「A cockroach got out, since it couldn’t be helped……」
 
-＠すいか,R00746
-「私ばっかり院長先生を独占するわけにも、いかないですし……」
+#「私ばっかり院長先生を独占するわけにも、いかないですし……」
+＠Suika,R00746
+「Because I’m the only one hogging Inchou-sensei, I’m not going.」 (unsure of last part)
 
 
 bgm_stop
 
 
-すいかは苦笑し、少し寂しそうにつぶやいた。
+#すいかは苦笑し、少し寂しそうにつぶやいた。
+#SCRIPT ADD KANJI
+Ａ little lonely, Suika smiles bitterly and mumbles.
 
-＠樹
-「いや、そんなことは……」
+#「いや、そんなことは……」
+＠Itsuki
+「No, such a thing……」
 
-別に独占なんてされていない。そう言おうと思ったのだが――。
-
+#別に独占なんてされていない。そう言おうと思ったのだが――。
+#SCRIPT ADD KANJI
+Ｓhe isn’t really hogging me.  She is thinking like that…… (unsure of last part)
 
 @suika_kanashimi	#哀
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 
-＠すいか,R00747
-「私、思ったんです。やっぱり私なんて、院長先生には不釣り合いだな、って」
+#「私、思ったんです。やっぱり私なんて、院長先生には不釣り合いだな、って」
+＠Suika,R00747
+「I, that’s how I felt… As I thought, I don’t match up properly with Inchou-sensei.」 (unsure)
 
-＠樹
+＠Itsuki
 「……」
 
-すいかの言葉に、俺は何も言えなくなってしまう。
+#すいかの言葉に、俺は何も言えなくなってしまう。
+#SCRIPT ADD KANJI
+Ｓuika’s words…… Regrettably, I have nothing that I can say to them.
 
-ただ一緒にゲームをするだけに、釣り合いも何もない。
+#ただ一緒にゲームをするだけに、釣り合いも何もない。
+#SCRIPT ADD KANJI
+Ｓince we usually played games together, I wasn’t expecting to have nothing in common with her. (a little unsure about last part)
 
-やはりすいかは、どこかでそれ以上の関係を期待している部分があったのだろう。
+#やはりすいかは、どこかでそれ以上の関係を期待している部分があったのだろう。
+#SCRIPT ADD KANJI
+Ｉ guess there was a part of Suika that was hoping for a closer relationship after all.
 
-オレが言うのも傲慢だが……しかし、これまでのすいかの人生を思うと、すいかがオレに惹かれるのも無理はない気がする。
+#オレが言うのも傲慢だが……しかし、これまでのすいかの人生を思うと、すいかがオレに惹かれるのも無理はない気がする。
+#SCRIPT ADD KANJI
+Ｗhat I said was ignorant, however……until now, thinking about Suika’s life, I guess it is only natural for her to become attracted to me.
 
-オレはある意味、すいかを愛さなかった親の代わりになれそうな年上の理解者であり……。
+#オレはある意味、すいかを愛さなかった親の代わりになれそうな年上の理解者であり……。
+#SCRIPT ADD KANJI
+Ｔhere is some significance to that.  For Suika to grow up without the love of her parents, she has the understanding of someone much older.  (or, “For having grown up without a parent’s love, she has the understanding of someone much older)
 
-また、すいかにとって初めて、仕事抜きで通じ合える部分のある男性だったのだ。
+#また、すいかにとって初めて、仕事抜きで通じ合える部分のある男性だったのだ。
+#SCRIPT ADD KANJI
+Ｓtill, that was the first time Suika has been able to communicate without it concerning her job, and with a male no less. (unsure)
 
-けれど……。
+#けれど……。
+#SCRIPT ADD KANJI
+Ｈowever…….
 
-軽々しく「不釣り合いじゃない」などとは言えなかった。
+#軽々しく「不釣り合いじゃない」などとは言えなかった。
+#SCRIPT ADD KANJI
+Ｔactlessly, I couldn’t say, “We aren’t matched up improperly.”.
 
-すいかのことは、確かに可愛いと思うし、もう少し自信を持たせてやりたいとも思うけど……。
+#すいかのことは、確かに可愛いと思うし、もう少し自信を持たせてやりたいとも思うけど……。
+#SCRIPT ADD KANJI
+Ｓince I certainly think Suika is cute, I also want her to be more self-confident.  However…… (I think it says that “I think I want her to be more self-confident,” but it makes him seem unsure of himself in English.)
 
-とはいえ、今現在、オレ自身にすいかに対する恋愛感情があるわけじゃない。
+#とはいえ、今現在、オレ自身にすいかに対する恋愛感情があるわけじゃない。
+#SCRIPT ADD KANJI
+Ｈowever, currently, it doesn’t mean that we have passionate feelings for each other.
 
-付き合う気もないのに気を持たせるようなことを言うのは、かえってあとあとすいかを傷つけることになるかもしれない。
+#付き合う気もないのに気を持たせるようなことを言うのは、かえってあとあとすいかを傷つけることになるかもしれない。
+#SCRIPT ADD KANJI
+Ｅven though I have no intention of being with her like that, what I am saying is to encourage her.  But, in the future, Suika could end up hurt. (worded weird)
 
 
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00748
-「あはは、なんかちょっと、夢を見ていたような気がします」
+#「あはは、なんかちょっと、夢を見ていたような気がします」
+＠Suika,R00748
+「Ahaha, just a little, it felt like I was dreaming.」 (unsure)
 
-オレが口を開けずにいると、すいかは少し寂しそうに笑った。
+#オレが口を開けずにいると、すいかは少し寂しそうに笑った。
+#SCRIPT ADD KANJI
+Ｉ don’t open my mouth, and Suika laughs, looking a little lonely. (a little unsure)
 
-＠樹
-「……すいかは、魅力的だぞ」
+#「……すいかは、魅力的だぞ」
+＠Itsuki
+「……Suika is very charming.」
 
-オレは慌ててフォローを入れる。
+#オレは慌ててフォローを入れる。
+#SCRIPT ADD KANJI
+Ｗithout thinking, I interject.
 
-オレと釣り合うかなどという話じゃなくて、客観的に見て、すいかは魅力的だと思う。
+#オレと釣り合うかなどという話じゃなくて、客観的に見て、すいかは魅力的だと思う。
+#SCRIPT ADD KANJI
+Ｔhat doesn’t mean to say that she would get along well with me.  I see my objective, and I think that Suika is charming. (very unsure of first part)
 
-やっぱり、そのことは伝えなくてはならないと思った。
+#やっぱり、そのことは伝えなくてはならないと思った。
+#SCRIPT ADD KANJI
+Ａfter all, I thought that not conveying it would be unacceptable. (unsure)
 
-でも……。
+#でも……。
+#SCRIPT ADD KANJI
+Ｂut…….
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00749
-「いいんですよぉ」
+#「いいんですよぉ」
+＠Suika,R00749
+「It’s alright.」
 
-明るく笑って見せ、すいかはオレの言葉を否定する。
+#明るく笑って見せ、すいかはオレの言葉を否定する。
+#SCRIPT ADD KANJI
+Ｓmiling brightly, she looks at me and denies all of my words.
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00750
-「私だって、わかってるんです」
+#「私だって、わかってるんです」
+＠Suika,R00750
+「Even I understand.」
 
-＠すいか,R00751
-「私は……こんな変な子だし、他のみんなみたいに可愛くないし」
+#「私は……こんな変な子だし、他のみんなみたいに可愛くないし」
+＠Suika,R00751
+「I……because I am such a strange child, and I’m not cute like everyone else.」
 
 
 #@suika_komariwarai	#困笑
 @suika_kanashimi	#哀
 
 
-＠すいか,R00752
-「私はもともと、いらない子でしたから……」
+#「私はもともと、いらない子でしたから……」
+＠Suika,R00752
+「Because, from the very beginning, I was an unwanted child……」
 
-＠樹
-「そんなことない……！　すいかは、いらない子なんかじゃない！」
+#「そんなことない……！　すいかは、いらない子なんかじゃない！」
+＠Itsuki
+「That isn’t true……!  Suika isn’t anything like an unwanted child!」 (first part pretty much just says, “It isn’t such a thing!”  But this sounds better)
 
 
 @bg_white		# 白
 #@SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
 
 
-オレはすいかの肩に手を置いた。
+#オレはすいかの肩に手を置いた。
+#SCRIPT ADD KANJI
+Ｉ place my hand on Suika’s shoulder.
 
 
 window_close
@@ -310,25 +421,35 @@ screen_whitein		1000
 wait			1000
 
 
-＠すいか,R00753
-「えっ……？」
+#「えっ……？」
+＠Suika,R00753
+「Eh……?」
 
-＠樹
-「すいかには……いいところがいっぱいある……」
+#「すいかには……いいところがいっぱいある……」
+＠Itsuki
+「Suika is……full of strong points……」
 
-＠樹
-「ゲームも作れるし……優しくて、明るくて……」
+#「ゲームも作れるし……優しくて、明るくて……」
+＠Itsuki
+「You can make games……and you’re kind and cheerful……」
 
-＠樹
-「すいかがいい子だってこと、オレはちゃんと知ってるぞ……」
+#「すいかがいい子だってこと、オレはちゃんと知ってるぞ……」
+＠Itsuki
+「Suika is a good child even, I know that without a doubt……」
 
-オレはすいかに言い聞かせる。
+#オレはすいかに言い聞かせる。
+#SCRIPT ADD KANJI
+Ｉ make that clear to Suika. (not exactly what is says, but it’s better than, “I tell Suika.”)
 
-それが恋愛感情ではなくても――オレはやっぱり、すいかを大切に思っている。
+#それが恋愛感情ではなくても――オレはやっぱり、すいかを大切に思っている。
+#SCRIPT ADD KANJI
+Ｔhis isn’t love, but even though, I still think about Suika with great care. (maybe, “I still care for Suika deeply)
 
-だからすいかには、自分がいらない子なんて思ってほしくなかった。
+#だからすいかには、自分がいらない子なんて思ってほしくなかった。
+#SCRIPT ADD KANJI
+Ａnd so, Suika shouldn’t have thought of herself as an unwanted child.
 
-＠すいか,R00754
+＠Suika,R00754
 「……」
 
 
@@ -338,8 +459,9 @@ wait			1000
 #@suika_
 
 
-＠すいか,R00755
-「先生……」
+#「先生……」
+＠Suika,R00755
+「Sensei……」
 
 
 #@suika_large		# 近い
@@ -347,49 +469,71 @@ wait			1000
 #@suika			#普
 
 
-＠すいか,R00756
-「ホントですか……？」
+#「ホントですか……？」
+＠Suika,R00756
+「Really……?」
 
-＠すいか,R00757
-「ホントに……そう思いますか……？」
+#「ホントに……そう思いますか……？」
+＠Suika,R00757
+「Is that……really what you think……?」
 
-＠すいか,R00758
-「だったら……」
+#「だったら……」
+＠Suika,R00758
+「If so, then……」
 
-俺の手に、すいかは自分の片手を重ねた。
+#俺の手に、すいかは自分の片手を重ねた。
+#SCRIPT ADD KANJI
+Ｓuika takes my hand and holds it in hers.  (a little unsure about who’s hand is being held)
 
-う、うーん……。
+#う、うーん……。
+#SCRIPT ADD KANJI
+Ｈmmm…….
 
-なんだかちょっと、変な展開になってきたような……。
+#なんだかちょっと、変な展開になってきたような……。
+#SCRIPT ADD KANJI
+Ｓomehow, it seems that there has been a curious development…….
 
-オレはただ、すいかが本当は魅力的なんだと伝えようとしただけなのに……。
+#オレはただ、すいかが本当は魅力的なんだと伝えようとしただけなのに……。
+#SCRIPT ADD KANJI
+Ａll I did was assure Suika that she was charming, however…….
 
-＠すいか,R00759
-「信じさせてください……」
+#「信じさせてください……」
+＠Suika,R00759
+「Please, make me believe it……」
 
 
 @suika_
 
 
-すいかは目を閉じて顔を上げた。
+#すいかは目を閉じて顔を上げた。
+#SCRIPT ADD KANJI
+Ｓuika closes her eyes and raises her face.
 
-キスを待つように……。
+#キスを待つように……。
+#SCRIPT ADD KANJI
+Ｉt’s like she is waiting for a kiss…….
 
-というか、すいかは明らかに、キスを待っていた。
+#というか、すいかは明らかに、キスを待っていた。
+#SCRIPT ADD KANJI
+Ｏr I should say, it’s obvious that she is waiting for a kiss.
 
-＠樹
+＠Itsuki
 「……」
 
-オレは、どうするべきなのだろう？
+#オレは、どうするべきなのだろう？
+#SCRIPT ADD KANJI
+Ｗhat should I do?
 
-ここで拒んだりしたら、やはりすいかを傷つけてしまう気がする……。
+#ここで拒んだりしたら、やはりすいかを傷つけてしまう気がする……。
+#SCRIPT ADD KANJI
+Ｉf I refuse here, I’m fairly certain I would really hurt Suika…….
 
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．キスする）
 #（２．しない）
-select sel,"キスする","しない"
+select sel,“Kiss her”,“Don’t kiss her”
 if sel=0 then goto suika11_q01_a
 if sel=1 then goto suika11_q01_b
 #--------------------------------------------------
@@ -401,9 +545,13 @@ if sel=1 then goto suika11_q01_b
 label		suika11_q01_a
 
 
-仕方ない。ここはやはり態度で示すしかないだろう。
+#仕方ない。ここはやはり態度で示すしかないだろう。
+#SCRIPT ADD KANJI
+Ｉt’s no use.  I guess I have choice but to show her through my actions.
 
-オレがすいかを、本当に魅力的だと思っていることを。
+#オレがすいかを、本当に魅力的だと思っていることを。
+#SCRIPT ADD KANJI
+Ｉ truly think Suika is very charming.
 
 
 #--------------------------------------------------
@@ -411,22 +559,28 @@ scene_start	"すいか　信じさせて"
 #--------------------------------------------------
 
 
-オレは覚悟を決め、すいかの肩を引き寄せるようにして、唇を近づけた。
+#オレは覚悟を決め、すいかの肩を引き寄せるようにして、唇を近づけた。
+#SCRIPT ADD KANJI
+Ｉ make my decision.  I pull Suika’s shoulders toward me so that I can draw her lips nearer.
 
 
 bgm_stop
 
 
-俺たちの唇が、そっと重なり合う……。
+#俺たちの唇が、そっと重なり合う……。
+#SCRIPT ADD KANJI
+Ｏur lips gently overlap each other…….
 
 
 @bg_white		# 白
 
 
-＠すいか,R00760
+＠Suika,R00760
 「……」
 
-すいかは息を止め、さらなるアクションを待っているようだ。
+#すいかは息を止め、さらなるアクションを待っているようだ。
+#SCRIPT ADD KANJI
+Ｈer breathing stops, as if she is waiting for more.
 
 
 #--------------------------------------------------
@@ -435,7 +589,9 @@ event		"event\EV_SUI_050-00.png"
 #--------------------------------------------------
 
 
-オレはそっと舌を伸ばし、すいかの唇を舐めた。
+#オレはそっと舌を伸ばし、すいかの唇を舐めた。
+#SCRIPT ADD KANJI
+Ｉ gently reach out my tongue and lick her lips.
 
 
 #--------------------------------------------------
@@ -443,25 +599,41 @@ event		"event\EV_SUI_050-01.png"
 #--------------------------------------------------
 
 
-＠すいか,R00761
-「んっ……」
+#「んっ……」
+＠Suika,R00761
+「Nnnn……」
 
-すいかはオレの舌を受け入れるように唇を開ける。
+#すいかはオレの舌を受け入れるように唇を開ける。
+#SCRIPT ADD KANJI
+Ｓuika’s lips part in order to accept my tongue.
 
-オレはその隙間に舌を滑り込ませた。
+#オレはその隙間に舌を滑り込ませた。
+#SCRIPT ADD KANJI
+Ｍy tongue slips through that opening.
 
-その舌先に、すいかもおずおずと、自らの舌先を宛がう。
+#その舌先に、すいかもおずおずと、自らの舌先を宛がう。
+#SCRIPT ADD KANJI
+Ｓuika timidly extends her tongue to meet mine.
 
-オレはすいかの舌を舐め、さらに奥へと割って入った。
+#オレはすいかの舌を舐め、さらに奥へと割って入った。
+#SCRIPT ADD KANJI
+Ｉ lick Suika’s tongue and force myself deeper inside.
 
-＠すいか,R00762
-「んぅ……」
+#「んぅ……」
+＠Suika,R00762
+「Nnnuu……」
 
-舌を絡めるようにすると、すいかも興奮した様子でそれに応じる。
+#舌を絡めるようにすると、すいかも興奮した様子でそれに応じる。
+#SCRIPT ADD KANJI
+Ｓuika’s appearance is one of excitement as she accepts me into her and our tongues intertwine.
 
-柔らかく、ざらざらした舌の表面がこすれる感触。
+#柔らかく、ざらざらした舌の表面がこすれる感触。
+#SCRIPT ADD KANJI
+Ｔenderly, I rub the rough surface of her tongue.
 
-すいかは重ねた手に力を込め、夢中でオレの舌を吸ってくる。
+#すいかは重ねた手に力を込め、夢中でオレの舌を吸ってくる。
+#SCRIPT ADD KANJI
+Ｓuika puts strength into her hands, and, as if in a daze, sucks on my tongue.
 
 
 #--------------------------------------------------
@@ -470,58 +642,85 @@ event		"event\EV_SUI_050-02.png"
 #--------------------------------------------------
 
 
-＠すいか,R00763
+＠Suika,R00763
 「ちゅ……じゅぅッ……ぴちゅるッ……」
 
-舌を絡めながら、すいかの口の中に唾液が溜まってきた。
+#舌を絡めながら、すいかの口の中に唾液が溜まってきた。
+#SCRIPT ADD KANJI
+Ｗhile our tongues tangle with each other, saliva begins to collect in Suika’s mouth.
 
-＠すいか,R00764
+＠Suika,R00764
 「んむぅ……ぴちゅ……」
 
-すいかは今度はオレの舌を押し返すようにして、オレの口に舌を入れてくる。
+#すいかは今度はオレの舌を押し返すようにして、オレの口に舌を入れてくる。
+#SCRIPT ADD KANJI
+Ｔhis time, my tongue is forced back, and Suika’s tongue now enters my mouth.
 
-それ自体が生き物のように、舌はオレの口の中を這い回り、ぞわぞわした快感が俺を襲う。
+#それ自体が生き物のように、舌はオレの口の中を這い回り、ぞわぞわした快感が俺を襲う。
+#SCRIPT ADD KANJI
+Ｈer tongue explores my mouth like it had a mind of its own, and a nervous and pleasant feeling assails me. (couldn’t find anything for zowazowa, but sowasowa means to be anxious or fidgety)
 
-＠すいか,R00765
+＠Suika,R00765
 「んッ……ちゅる……」
 
-そしてすいかは、少し身を乗り出すようにして、舌を伝わらせ、オレの口に唾液を送り込んできた。
+#そしてすいかは、少し身を乗り出すようにして、舌を伝わらせ、オレの口に唾液を送り込んできた。
+#SCRIPT ADD KANJI
+Ａnd then, Suika leans forward a little.  Saliva starts to pour into my mouth aided by her tongue.
 
-＠樹
-「んっ……」
+#「んっ……」
+＠Itsuki
+「Nnn……」
 
-生温かい唾液が流れ込んでくる感触に一瞬戸惑うものの、すいかの唾液ならイヤではない。
+#生温かい唾液が流れ込んでくる感触に一瞬戸惑うものの、すいかの唾液ならイヤではない。
+#SCRIPT ADD KANJI
+Ｔhe sensation of saliva flowing into my mouth, at first, it surprises me.  But because it is Suika’s saliva, it isn’t disgusting at all.
 
-＠樹
+＠Itsuki
 「んっく……」
 
-喉を鳴らして、オレはそれを飲み干してやる。
+#喉を鳴らして、オレはそれを飲み干してやる。
+#SCRIPT ADD KANJI
+Ｆlexing my throat, I drink it down.
 
-＠すいか,R00766
+＠Suika,R00766
 「ぴちゅ……ぷあッ……！」
 
-すいかは満足げに唇を離した。
+#すいかは満足げに唇を離した。
+#SCRIPT ADD KANJI
+Ｓatisfied, Suika opens her lips.
 
 
 @bg_white		# 白
 #voice_bg_stop
 
 
-＠すいか,R00767
-「えへへ……先生……。飲んでくれて……嬉しいです……」
+#「えへへ……先生……。飲んでくれて……嬉しいです……」
+＠Suika,R00767
+「Ehehe……Sensei……You drank it……I’m so happy……」
 
-頬を上気させて微笑むすいかの目は、もうすっかり欲情に潤んでいる。
+#頬を上気させて微笑むすいかの目は、もうすっかり欲情に潤んでいる。
+#SCRIPT ADD KANJI
+Ｂlood rushes to her cheeks as she smiles at me, her eyes already moist with passion.
 
-＠樹
-「おう……。すいかのなら……イヤじゃないからな……」
+#「おう……。すいかのなら……イヤじゃないからな……」
+＠Itsuki
+「Ooh……Only Suika’s……only Suika’s isn’t disgusting……」
 
-キスをしているうちに、オレのほうも少し興奮してきていた。
+#キスをしているうちに、オレのほうも少し興奮してきていた。
+#SCRIPT ADD KANJI
+Ｗhile kissing, I’m beginning to get a little aroused.
 
-考えてみれば、すいかにはフェラはしてもらったけれど、まだ繋がってはいないのだ。
+#考えてみれば、すいかにはフェラはしてもらったけれど、まだ繋がってはいないのだ。
+#SCRIPT ADD KANJI
+Ｗhen I think about it, I’ve received fellatio from Suika.  However, it still doesn’t seem the same. (a little unsure)
 
-せっかくだし、すいかの中も味わいたい……。
+#せっかくだし、すいかの中も味わいたい……。
+#SCRIPT ADD KANJI
+Ｂecause I’ve waited some time, I want to taste the inside of Suika…… (unsure)
 
-そんな欲望が心に浮かんでくる。
+#そんな欲望が心に浮かんでくる。
+#SCRIPT ADD KANJI
+Ｓuch lust rises inside of me.
 
 
 #--------------------------------------------------
@@ -529,8 +728,9 @@ event		"event\EV_SUI_050-00.png"
 #--------------------------------------------------
 
 
-＠樹
-「すいか……」
+#「すいか……」
+＠Itsuki
+「Suika……」
 
 
 #--------------------------------------------------
@@ -539,15 +739,19 @@ event		"event\EV_SUI_050-01.png"
 #--------------------------------------------------
 
 
-オレは再びすいかを抱き寄せるようにして、唇を重ねる。
+#オレは再びすいかを抱き寄せるようにして、唇を重ねる。
+#SCRIPT ADD KANJI
+Ｉ embrace Suika once again, and press my lips against hers.
 
-＠すいか,R00768
+＠Suika,R00768
 「んっ……」
 
-＠すいか,R00769
+＠Suika,R00769
 「ぴちゅ……ちゅぷ……んふっ……ちゅるぅ……」
 
-舌を差し入れ、絡め合いながら、今度はオレも唾液を溜めていく。
+#舌を差し入れ、絡め合いながら、今度はオレも唾液を溜めていく。
+#SCRIPT ADD KANJI
+Ｉ insert my tongue and twist it around with hers.  This time, I also start to accumulate saliva.
 
 
 #--------------------------------------------------
@@ -555,19 +759,27 @@ event		"event\EV_SUI_050-02.png"
 #--------------------------------------------------
 
 
-＠すいか,R00770
+＠Suika,R00770
 「ちゅぬっ……んぁ……じゅぅっ……」
 
-自分も飲ませてほしいのか、すいかはオレの舌を強く吸った。
+#自分も飲ませてほしいのか、すいかはオレの舌を強く吸った。
+#SCRIPT ADD KANJI
+Ｗanting to drink mine as well, Suika strongly sucks on my tongue.
 
-舌を伝わらせ、オレは口の中に溜まった唾液を流し込んでいく。
+#舌を伝わらせ、オレは口の中に溜まった唾液を流し込んでいく。
+#SCRIPT ADD KANJI
+Ｍy tongue enters her mouth, and the saliva that has been gathering in my mouth flows into hers. (unsure of first part)
 
-＠すいか,R00771
+＠Suika,R00771
 「んぅ……じゅっ……じゅるっ……こくんっ……！」
 
-すいかは自らそれを吸い上げ、飲み下してしまう。
+#すいかは自らそれを吸い上げ、飲み下してしまう。
+#SCRIPT ADD KANJI
+Ｓuika sucks and gulps it down. (unsure, I trimmed down the sentence so that it made more sense and didn’t drag on in English)
 
-キスを続けながら、オレはじわじわと手を動かし、すいかの胸の前へと運ぶ。
+#キスを続けながら、オレはじわじわと手を動かし、すいかの胸の前へと運ぶ。
+#SCRIPT ADD KANJI
+Ｗhile we continue to kiss, my hand slowly moves toward the front of Suika’s chest.
 
 
 #--------------------------------------------------
@@ -575,53 +787,82 @@ event		"event\EV_SUI_050-03.png"
 #--------------------------------------------------
 
 
-＠すいか,R00772
-「んっ……」
+#「んっ……」
+＠Suika,R00772
+「Nnnn……」
 
-なだらかな丘に手を当てると、すいかは少し身をこわばらせた。
+#なだらかな丘に手を当てると、すいかは少し身をこわばらせた。
+#SCRIPT ADD KANJI
+Ｇently, I place my hand on her mound, and Suika’s body stiffens a bit.
 
-オレは両手を動かし、二つの丘をそっと撫でて、そのほのかな膨らみを味わう。
+#オレは両手を動かし、二つの丘をそっと撫でて、そのほのかな膨らみを味わう。
+#SCRIPT ADD KANJI
+Ｉ move both of my hands, and savor the slightly swollen mounds as I softly knead them.
 
-まだまだ小さいが、ジャージ越しでも膨らみがあることはハッキリとうかがえた。
+#まだまだ小さいが、ジャージ越しでも膨らみがあることはハッキリとうかがえた。
+#SCRIPT ADD KANJI
+Ｔhey still have a little ways to go, but I still examine the bulges, even through her jersey.
 
-そこをゆっくりと撫でながら、オレはすいかと舌を絡め続ける。
+#そこをゆっくりと撫でながら、オレはすいかと舌を絡め続ける。
+#SCRIPT ADD KANJI
+Ｗhile I gently caress them, our tongues continue to explore each other.
 
-＠すいか,R00773
+＠Suika,R00773
 「じゅるっ……んふ……じゅうぅっ……」
 
-そうしているうちに、すいかの身体から力が抜けていく。
+#そうしているうちに、すいかの身体から力が抜けていく。
+#SCRIPT ADD KANJI
+Ｗhile that’s happening, strength leaves Suika’s body.
 
-胸の膨らみを手のひらで軽く押してみると、あまりつぶれずに硬い弾力が返ってきた。
+#胸の膨らみを手のひらで軽く押してみると、あまりつぶれずに硬い弾力が返ってきた。
+#SCRIPT ADD KANJI
+Ｉ tentatively and lightly press on her budding chest, and not pressing too hard, it firmly returned. (I think what it means is that while he is kneading her chest, it is firm and offers some resistance.)
 
-膨らみかけの最高の状態と言っても過言ではない。
+#膨らみかけの最高の状態と言っても過言ではない。
+#SCRIPT ADD KANJI
+Ｉ’m not exaggerating when I say that they are the best small mounds. (very unsure, at least of the wording)
 
-直接触りたい……。
+#直接触りたい……。
+#SCRIPT ADD KANJI
+Ｉ want to feel them directly…….
 
-オレは手の位置を動かして、指先でファスナーを探った。
+#オレは手の位置を動かして、指先でファスナーを探った。
+#SCRIPT ADD KANJI
+Ｉ shift the placement of my hands, searching for the zipper with my fingertips.
 
-すぐに指先は目的のものを見つけ、オレはファスナーを下ろし始める。
+#すぐに指先は目的のものを見つけ、オレはファスナーを下ろし始める。
+#SCRIPT ADD KANJI
+Ｉmmediately, my fingertips find their goal, and I begin to undo the zipper.
 
 
 @SEH01			#SEH01_ジッパー下げる
 
 
-＠すいか,R00774
+＠Suika,R00774
 「んぁ……じゅるぅっ……んくっ……」
 
-すいかは鼻にかかった息を漏らし、オレの唾液をすすっている。
+#すいかは鼻にかかった息を漏らし、オレの唾液をすすっている。
+#SCRIPT ADD KANJI
+Ｓuika lets her breathe out of her nose and slurps up my saliva. (a little unsure)
 
 
 se_stop		0
 
 
-ファスナーを最後まで下ろし、そのまま下の体操服をめくり上げた。
+#ファスナーを最後まで下ろし、そのまま下の体操服をめくり上げた。
+#SCRIPT ADD KANJI
+Ｔhe zipper reaches the end of the track, and now that it is I peel off her track suit.
 
-＠すいか,R00775
+＠Suika,R00775
 「んふ……ぴちゅ……ちゅるっ……」
 
-すいかは抵抗もせず、オレの舌を舐め続ける。
+#すいかは抵抗もせず、オレの舌を舐め続ける。
+#SCRIPT ADD KANJI
+Ｓuika offer no resistance, and continues to lick my tongue.
 
-オレは体操服の下に手を入れて、胸の位置を探った。
+#オレは体操服の下に手を入れて、胸の位置を探った。
+#SCRIPT ADD KANJI
+Ｉ put my hands into the track suit and explore her chest.
 
 
 #--------------------------------------------------
@@ -629,47 +870,75 @@ event		"event\EV_SUI_050-04.png"
 #--------------------------------------------------
 
 
-＠すいか,R00776
+＠Suika,R00776
 「んっ……！」
 
-熱を帯びた突起に手のひらが触れ、すいかはびくんと身を捩る。
+#熱を帯びた突起に手のひらが触れ、すいかはびくんと身を捩る。
+#SCRIPT ADD KANJI
+Ｉ place the palm of my hand on her feverishly hot mounds.  With slight intoxication, Suika twists herself around.
 
-風呂から出たあとだけに、ブラジャーはしていなかったようだ。
+#風呂から出たあとだけに、ブラジャーはしていなかったようだ。
+#SCRIPT ADD KANJI
+Ａfter getting out of the bath, it appears she didn’t put on a bra.
 
-オレはそのままそこに手を押し当て、今度は直接その膨らみを味わった。
+#オレはそのままそこに手を押し当て、今度は直接その膨らみを味わった。
+#SCRIPT ADD KANJI
+Ａs it is, I place my hand there, and this time, I feel those swellings directly.
 
-小さな膨らみだけに、肌と肌を密着させた状態で大きく手を動かすのは難しい。
+#小さな膨らみだけに、肌と肌を密着させた状態で大きく手を動かすのは難しい。
+#SCRIPT ADD KANJI
+Ａs I thought, her breasts are so small.  I cover so much of her skin, that it is difficult to move around much.
 
-手のひらを滑らせて撫でるようにすると、すでに硬くなっていた乳首が手のひらにこすれる。
+#手のひらを滑らせて撫でるようにすると、すでに硬くなっていた乳首が手のひらにこすれる。
+#SCRIPT ADD KANJI
+Ｗhen I slide the palm of my hand around so as to caress her, her nipples are already stiff from being rubbed by my hand.
 
-＠すいか,R00777
+＠Suika,R00777
 「んぅ……ちゅぷ……んむぅ……」
 
-すいかは身を捩りながら、それでもオレの舌を吸い続ける。
+#すいかは身を捩りながら、それでもオレの舌を吸い続ける。
+#SCRIPT ADD KANJI
+Ｗhile twisting her body around, she still continues to suck on my tongue.
 
-次にオレは、親指と人差し指で小さな胸をつまむようにしてみた。
+#次にオレは、親指と人差し指で小さな胸をつまむようにしてみた。
+#SCRIPT ADD KANJI
+Ｎext, I pinch her small chest between my thumb and index fingers.
 
-すいかの胸には脂肪がほとんどなく、薄い皮膚の下の乳腺の感触が直に伝わってくる。
+#すいかの胸には脂肪がほとんどなく、薄い皮膚の下の乳腺の感触が直に伝わってくる。
+#SCRIPT ADD KANJI
+Ｓuika’s chest has almost no fat.  I directly feel the pale skin under her breasts. (maybe he is cupping them and feeling the weight of them?  But they seem too small for that.  Could be that he is rubbing the spot right above her stomach but below her chest.)
 
-コリコリした乳腺の感触を味わうと、女の子の身体を好きにしているという実感に、興奮が高まっていく。
+#コリコリした乳腺の感触を味わうと、女の子の身体を好きにしているという実感に、興奮が高まっていく。
+#SCRIPT ADD KANJI
+Ｉ savor the feel of her breasts.  I truly love the feel of this girl’s body. M y arousal is rising. (unsure of middle part)
 
-ズボンの中でオレのものも急速に熱を帯びてきていた。
+#ズボンの中でオレのものも急速に熱を帯びてきていた。
+#SCRIPT ADD KANJI
+Ｉn my pants, my thing is rapidly becoming hot.
 
-小さな胸をつまむようにしながら、オレは指の位置を徐々に先端へと移動させていった。
+#小さな胸をつまむようにしながら、オレは指の位置を徐々に先端へと移動させていった。
+#SCRIPT ADD KANJI
+Ｗhile pinching her tiny breasts, I slowly move the placement of fingers to the tips of them.
 
-＠すいか,R00778
+＠Suika,R00778
 「んふぅっ……！」
 
-乳首をつままれ、すいかは強く身を捩った。
+#乳首をつままれ、すいかは強く身を捩った。
+#SCRIPT ADD KANJI
+Ｗhen I pinch her nipples, Suika strongly twists her body.
 
-オレはそのまま、硬くなった突起を指先で揉む。
+#オレはそのまま、硬くなった突起を指先で揉む。
+#SCRIPT ADD KANJI
+Ａs it is, they have become hard from all the rubbing.
 
-＠すいか,R00779
+＠Suika,R00779
 「んっ……んぅ……んぁ……」
 
-すいかは身を捩るが、硬くなった乳首の強い弾力がたまらない。
+#すいかは身を捩るが、硬くなった乳首の強い弾力がたまらない。
+#SCRIPT ADD KANJI
+Ｓuika twists and distorts her body, the strong flexibility of her hard nipples is unbearable. (a little unsure, maybe a little too literal)
 
-＠すいか,R00780
+＠Suika,R00780
 「んっふ、んむぅ……ぷあッ……！」
 
 
@@ -677,48 +946,70 @@ event		"event\EV_SUI_050-04.png"
 #voice_bg_stop
 
 
-＠すいか,R00781
-「はぁ……はぁ……はぁ……せんせぇ……」
+#「はぁ……はぁ……はぁ……せんせぇ……」
+＠Suika,R00781
+「Haa……haa……haa……Sensei……」
 
-＠すいか,R00782
-「そこ……気持ちいい……です……」
+#「そこ……気持ちいい……です……」
+＠Suika,R00782
+「There……it feels……so good……」
 
-＠樹
-「敏感だな……すいかは……」
+#「敏感だな……すいかは……」
+＠Itsuki
+「You’re so sensitive……Suika……」
 
-＠樹
-「この前は……さんざんイかされちゃったからな……」
+#「この前は……さんざんイかされちゃったからな……」
+＠Itsuki
+「From before, harshly 」 (I have no idea about the later part)
 
-＠樹
-「今日はオレが……すいかを泣かせてやる……」
+#「今日はオレが……すいかを泣かせてやる……」
+＠Itsuki
+「Today, I……made Suika cry……」
 
-親指でそっと乳首を転がしながら囁き、最後に乳首を乳房に押し込むようにする。
+#親指でそっと乳首を転がしながら囁き、最後に乳首を乳房に押し込むようにする。
+#SCRIPT ADD KANJI
+Ｉ slowly roll over her nipple with my thumb while whispering.  Finally, I squeeze her breasts and nipples. (last part is a bit confusing)
 
-＠すいか,R00783
-「あはぁっ……そ、そんなぁ……」
+#「あはぁっ……そ、そんなぁ……」
+＠Suika,R00783
+「Ahaaa……suchaaa……」
 
-すいかはびくんと身をくねらせるが、やはり少し嬉しそうだ。
+#すいかはびくんと身をくねらせるが、やはり少し嬉しそうだ。
+#SCRIPT ADD KANJI
+Ｓuika sways her body back and forth like she was intoxicated, but in spite of that, it looks like she is enjoying it a little.
 
-今はまだ、すいかはこうして抱かれることでしか愛情を感じられないのかもしれない。
+#今はまだ、すいかはこうして抱かれることでしか愛情を感じられないのかもしれない。
+#SCRIPT ADD KANJI
+Ｎow, still, perhaps I have no choice but to hug Suika because of the love I feel. (very unsure)
 
-だったら、それぐらいお安い御用だ。
+#だったら、それぐらいお安い御用だ。
+#SCRIPT ADD KANJI
+Ｉf that is the case, something like that is easy.
 
-＠樹
-「すいか……」
+#「すいか……」
+＠Itsuki
+「Suika……」
 
 
 @bg_white		# 白
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
 
-オレはすいかに抱きつくと、その身体を持ち上げるようにしてベッドに横たえた。
+#オレはすいかに抱きつくと、その身体を持ち上げるようにしてベッドに横たえた。
+#SCRIPT ADD KANJI
+Ｉ cling to Suika, lifting her body so that I may lay her on the bed.
 
-＠すいか,R00784
-「はぁ……はぁ……院長先生……」
+#「はぁ……はぁ……院長先生……」
+＠Suika,R00784
+「Haa……haa……Inchou-sensei……」
 
-すいかは頬を上気させ、期待に目を潤ませてオレを見つめる。
+#すいかは頬を上気させ、期待に目を潤ませてオレを見つめる。
+#SCRIPT ADD KANJI
+Ｂlood rushes into Suika’s cheeks, I gaze into her eyes, which moist with anticipation.
 
-オレはそのまますいかの脚を持ち上げ、ズボンのウェストを探った。
+#オレはそのまますいかの脚を持ち上げ、ズボンのウェストを探った。
+#SCRIPT ADD KANJI
+Ａs it is, I lift Suika’s legs up, and search along the waist of her pants.
 
 
 #--------------------------------------------------
@@ -726,30 +1017,41 @@ event		"event\EV_SUI_051-00.png"
 #--------------------------------------------------
 
 
-＠すいか,R00785
-「ううぅ……恥ずかしいです……」
+#「ううぅ……恥ずかしいです……」
+＠Suika,R00785
+「Uuuuu……it’s embarrassing……」
 
-＠すいか,R00786
-「今日……お仕事用のパンツじゃ……ないですし……」
+#「今日……お仕事用のパンツじゃ……ないですし……」
+＠Suika,R00786
+「Today……I’m not wearing……my work panties……」
 
-すいかは少し困ったようにオレを見つめる。
+#すいかは少し困ったようにオレを見つめる。
+#SCRIPT ADD KANJI
+Ｉ stare at the slightly worried Suika.
 
-＠樹
-「仕事じゃないんだから、別にいいさ……」
+#「仕事じゃないんだから、別にいいさ……」
+＠Itsuki
+「You’re not working, so it’s alright……」
 
-＠樹
-「すいかがどんなパンツ穿いてたって、オレは嫌いにならないぞ」
+#「すいかがどんなパンツ穿いてたって、オレは嫌いにならないぞ」
+＠Itsuki
+「Whatever kind of panties Suika wears, I wouldn’t hate them.」
 
-＠すいか,R00787
-「ホント……ですか……？」
+#「ホント……ですか……？」
+＠Suika,R00787
+「Re……really……?」
 
-＠樹
-「当たり前だろ……？」
+#「当たり前だろ……？」
+＠Itsuki
+「Isn’t it obvious……?」
 
-そう言い聞かせ、オレはウェストのゴムに手をかけた。
+#そう言い聞かせ、オレはウェストのゴムに手をかけた。
+#SCRIPT ADD KANJI
+Ｈaving assured her, I place my hand on the elastic around her waist.
 
-＠すいか,R00788
-「あっ……」
+#「あっ……」
+＠Suika,R00788
+「Ah……」
 
 
 #--------------------------------------------------
@@ -757,79 +1059,123 @@ event		"event\EV_SUI_051-01.png"
 #--------------------------------------------------
 
 
-一気に引き下ろすと、飾り気のない白いショーツが露わになる。
+#一気に引き下ろすと、飾り気のない白いショーツが露わになる。
+#SCRIPT ADD KANJI
+Ｉ pull down her pants at once, revealing plain white.
 
-子供っぽいリブ地のショーツは、かなり穿き古されている様子で、股間の部分が少し黄ばんでいた。
+#子供っぽいリブ地のショーツは、かなり穿き古されている様子で、股間の部分が少し黄ばんでいた。
+#SCRIPT ADD KANJI
+Ｔhe shorts are childish.  They look rather old, and the groin area has a small yellow spot.
 
-＠すいか,R00789
-「うぅ……。あんまり、見ないでください……」
+#「うぅ……。あんまり、見ないでください……」
+＠Suika,R00789
+「Uuu……that’s too much, please don’t look……」
 
-＠樹
-「可愛いぞ、すいか……」
+#「可愛いぞ、すいか……」
+＠Itsuki
+「They’re cute, Suika……」
 
-ある意味すいからしいというか、そんな下着もオレの興奮を加速するばかりだ。
+#ある意味すいからしいというか、そんな下着もオレの興奮を加速するばかりだ。
+#SCRIPT ADD KANJI
+Ｏr perhaps I should say that there is a certain meaning to it, because such underwear also speeds up my arousal.
 
-オレはその股間に親指の腹を押しつけ、ぐりぐりと刺激した。
+#オレはその股間に親指の腹を押しつけ、ぐりぐりと刺激した。
+#SCRIPT ADD KANJI
+Ｉ press the palm of my hand against her crotch, and I stimulate the bump. (bump could be clitoris or just her crotch.)
 
-＠すいか,R00790
-「あっ、せ、せんせ……んっ……！」
+#「あっ、せ、せんせ……んっ……！」
+＠Suika,R00790
+「Ah, se, sense……nn……!」
 
-すいかは再び、身体をこわばらせる。
+#すいかは再び、身体をこわばらせる。
+#SCRIPT ADD KANJI
+Ｓuika’s body stiffens again.
 
-下着の股間の部分は、まだ染みにはなっていないようだが、少し湿ってきているようだった。
+#下着の股間の部分は、まだ染みにはなっていないようだが、少し湿ってきているようだった。
+#SCRIPT ADD KANJI
+Ｔhe crotch of her underwear, it doesn’t look like it has become stained yet, but it does seem to have become a little moist. (stain could be confused with the yellow spot mentioned earlier.  Maybe revise)
 
-オレは親指を上下させ、下着の上から中の様子を確認する。
+#オレは親指を上下させ、下着の上から中の様子を確認する。
+#SCRIPT ADD KANJI
+Ｉ move my thumb up and down, and from on top of her underwear, I confirm the state on the inside of them. (I guess he means that from the looks of the outside, the inside is obvious)
 
-襞は割れ目から少しはみ出しているらしく、ぐにぐにした感触がある。
+#襞は割れ目から少しはみ出しているらしく、ぐにぐにした感触がある。
+#SCRIPT ADD KANJI
+Ｆrom the crease in her crotch, it seems to be jutting out a little bit.  I have a feeling.  (don’t know what guniguni means, so the last part it incomplete.)
 
-そこからさらに上へと辿っていくと、割れ目のくぼみと、その間の小さな突起の位置がわかった。
+#そこからさらに上へと辿っていくと、割れ目のくぼみと、その間の小さな突起の位置がわかった。
+#SCRIPT ADD KANJI
+Ｆrom there, I follow it up more and more.  In the crease, I understand what the tiny nub is.
 
-下着の布地を食い込ませるように、オレはそこを刺激した。
+#下着の布地を食い込ませるように、オレはそこを刺激した。
+#SCRIPT ADD KANJI
+Ｉt’s like the fabric is eating into her, and I stimulate it there.
 
-＠すいか,R00791
+＠Suika,R00791
 「あっ……はぁっ……んっ……」
 
-＠すいか,R00792
+＠Suika,R00792
 「はぁっ……はぁっ……はぁっ……」
 
-刺激を続けると、不意にすいかの身体から力が抜ける。
+#刺激を続けると、不意にすいかの身体から力が抜ける。
+#SCRIPT ADD KANJI
+Ｗhen I continue to stimulate it, the strength in Suika’s body suddenly leaves her.
 
-＠すいか,R00793
-「あぁ……気持ちいい……先生の指……いいです……」
+#「あぁ……気持ちいい……先生の指……いいです……」
+＠Suika,R00793
+「Aah……this good feeling……Sensei’s finger……it’s good……」
 
-そしてすいかは、自ら腰をくねらせてそこをオレの指に押しつけ始めた。
+#そしてすいかは、自ら腰をくねらせてそこをオレの指に押しつけ始めた。
+#SCRIPT ADD KANJI
+Ａnd then, Suika’s back bends back, and my finger begins to press there.
 
-日頃の調教のためか、やはり感度はいいようだ。
+#日頃の調教のためか、やはり感度はいいようだ。
+#SCRIPT ADD KANJI
+Ｆor the sake of her normal training, as I thought, her sensitivity appears to be good. (unsure about first part)
 
-指先に感じていた湿り気は、すぐに明らかな水分に変わり始める。
+#指先に感じていた湿り気は、すぐに明らかな水分に変わり始める。
+#SCRIPT ADD KANJI
+Ｉ sense moisture with my fingertips.  Immediately, there begins to be an obvious change in moisture.
 
-＠樹
-「もう濡れてきたのか……？」
+#「もう濡れてきたのか……？」
+＠Itsuki
+「You’re already wet……?」
 
-＠すいか,R00794
-「んっ、ごめんなさい……感じやすくて……」
+#「んっ、ごめんなさい……感じやすくて……」
+＠Suika,R00794
+「Nnn, I’m very sorry……it’s sensitive……」
 
-＠樹
-「いや……いいぞ。濡れやすいのは……いい身体だ……」
+#「いや……いいぞ。濡れやすいのは……いい身体だ……」
+＠Itsuki
+「No……it’s fine.  Getting wet easily……it’s a good body……」 (maybe replace good body with just, “It’s healthy.”)
 
-＠樹
-「これももう……脱がせてやる……」
+#「これももう……脱がせてやる……」
+＠Itsuki
+「This too……let’s take it off already……」
 
 
 @bg_white		# 白
 
 
-オレはショーツのゴムに手をかけ、すいかのお尻を持ち上げるようにしてそれを引き下ろした。
+#オレはショーツのゴムに手をかけ、すいかのお尻を持ち上げるようにしてそれを引き下ろした。
+#SCRIPT ADD KANJI
+Ｉ put my hands on the elastic of her shorts, and lift her bottom so that I can pull them off.
 
-＠すいか,R00795
-「あっ……」
+#「あっ……」
+＠Suika,R00795
+「Ah……」
 
-愛液で襞に貼りついていたクロッチが剥がれ、細い糸を引く。
+#愛液で襞に貼りついていたクロッチが剥がれ、細い糸を引く。
+#SCRIPT ADD KANJI
+Ｇenital secretions make her underwear cling to her crotch as I peel them off, forming a fine thread.
 
-ぬるぬるになった襞は、画面の明かりを反射し、てらてらと艶めかしく光っている。
+#ぬるぬるになった襞は、画面の明かりを反射し、てらてらと艶めかしく光っている。
+#SCRIPT ADD KANJI
+Ｉt has become slippery, reflecting the scene brightly.  It charmingly captivates me. (The middle part must just mean that her fluids are making her crotch shine a little)
 
-＠樹
-「綺麗だ……」
+#「綺麗だ……」
+＠Itsuki
+「It’s beautiful……」
 
 
 #--------------------------------------------------
@@ -837,53 +1183,79 @@ event		"event\EV_SUI_051-02.png"
 #--------------------------------------------------
 
 
-ショーツから片脚を抜き取り、オレは濡れた襞へと手を伸ばした。
+#ショーツから片脚を抜き取り、オレは濡れた襞へと手を伸ばした。
+#SCRIPT ADD KANJI
+Ｆrom her shorts, she takes off one leg, and my hand extends to her wet folds.
 
-＠すいか,R00796
+＠Suika,R00796
 「んっ……」
 
-指先が襞に触れたとたん、すいかの身体がびくんと跳ねる。
+#指先が襞に触れたとたん、すいかの身体がびくんと跳ねる。
+#SCRIPT ADD KANJI
+Ｍy fingertip just barely touches her, and Suika’s body jumps.
 
-＠樹
-「すいか……」
+#「すいか……」
+＠Itsuki
+「Suika……」
 
-オレはそのまま、割れ目からはみ出した襞のフチに沿って、指先を滑らせた。
+#オレはそのまま、割れ目からはみ出した襞のフチに沿って、指先を滑らせた。
+#SCRIPT ADD KANJI
+Ａs it is, something is sticking out along the edge of the crease.  My fingertip glides across it.
 
-＠すいか,R00797
-「あぁっ……はぁっ……はぁっ……あぁ……」
+#「あぁっ……はぁっ……はぁっ……あぁ……」
+＠Suika,R00797
+「Aaah……haaa……haaa……aaah……」
 
-愛液で指はぬるぬると滑り、すいかの息が一気に荒くなる。
+#愛液で指はぬるぬると滑り、すいかの息が一気に荒くなる。
+#SCRIPT ADD KANJI
+Ｂecause of her secretions, my finger slides across it.  Suika’s breathing at once becomes wild.
 
-＠樹
-「敏感だな……。いい身体だ……」
+#「敏感だな……。いい身体だ……」
+＠Itsuki
+「It’s so sensitive…… You have a good body……」
 
-両手で脚を広げるようにして、オレはその間に割って入る。
+#両手で脚を広げるようにして、オレはその間に割って入る。
+#SCRIPT ADD KANJI
+Ｉ spread her legs with both hands, and I force my way into that space.
 
-それから両手の親指を二枚の襞の間に挿し入れるようにして、襞を開かせた。
+#それから両手の親指を二枚の襞の間に挿し入れるようにして、襞を開かせた。
+#SCRIPT ADD KANJI
+Ａnd then, I put the thumbs of both my hands on either side of her crease.  I insert them, and spread the folds apart.
 
-＠すいか,R00798
+＠Suika,R00798
 「あうぅ……」
 
-内側のピンク色が覗き、襞の間に溜まっていた愛液がお尻の方へと垂れていく。
+#内側のピンク色が覗き、襞の間に溜まっていた愛液がお尻の方へと垂れていく。
+#SCRIPT ADD KANJI
+Ｈer pink interior is peeking out.  Fluids have been collecting in the space between her folds, and they are now dripping down onto her asshole.
 
-そんな様が、オレのものを欲してよだれを垂らしているように見え、ここに挿れたいという欲求が高まっていく。
+#そんな様が、オレのものを欲してよだれを垂らしているように見え、ここに挿れたいという欲求が高まっていく。
+#SCRIPT ADD KANJI
+Ｓuch an appearance, it wants my thing.  She displays the fluids dripping down.  My desire to insert it here is increasing. (it’s a little split up.  Wording needs revising)
 
-オレのものもすでに、ズボンの中で限界まで硬くなっている。
+#オレのものもすでに、ズボンの中で限界まで硬くなっている。
+#SCRIPT ADD KANJI
+Ｉt’s already too late for my thing.  I’ve reached the limit inside my pants.
 
-＠樹
-「すいか……」
+#「すいか……」
+＠Itsuki
+「Suika……」
 
 
 @SEH01			#SEH01_ジッパー下げる
 
 
-オレはいそいそとベルトを外し、ズボンのファスナーを下ろした。
+#オレはいそいそとベルトを外し、ズボンのファスナーを下ろした。
+#SCRIPT ADD KANJI
+Ｓuika excitedly undoes my belt, and unzips my pants.
 
 
 se_stop		0
 
 
-トランクスとまとめてズボンを下ろすと、力強く屹立したものがすいかの眼前に晒された。
+#トランクスとまとめてズボンを下ろすと、力強く屹立したものがすいかの眼前に晒された。
+#SCRIPT ADD KANJI
+Ｗhen collecting my trousers and pulling my pants down, I stand tall and expose myself before Suika’s eyes.
 
 
 #--------------------------------------------------
@@ -891,42 +1263,64 @@ event		"event\EV_SUI_051-03.png"
 #--------------------------------------------------
 
 
-＠すいか,R00799
-「うぅ、先生の……大きいです……」
+#「うぅ、先生の……大きいです……」
+＠Suika,R00799
+「Uuu, Sensei’s……it’s big……」
 
-少し困ったようにしつつも、すいかはそこから目を離せないようだ。
+#少し困ったようにしつつも、すいかはそこから目を離せないようだ。
+#SCRIPT ADD KANJI
+Ｉ’m a little worried, because Suika’s eyes seem like they won’t leave there.
 
-＠樹
-「イヤだと言っても……もう遅いぞ……？」
+#「イヤだと言っても……もう遅いぞ……？」
+＠Itsuki
+「Even if you say it is unpleasant……isn’t it already too late……?」
 
-オレはもう、すいかと繋がりたくてたまらなかった。
+#オレはもう、すいかと繋がりたくてたまらなかった。
+#SCRIPT ADD KANJI
+Ａlready, I want to connect with Suika. (very unsure.  Don’t know what the last part, maranakatta means)
 
-オレは自らの皮を剥くと、すいかの脚を抱えるようにして腰を近づける。
+#オレは自らの皮を剥くと、すいかの脚を抱えるようにして腰を近づける。
+#SCRIPT ADD KANJI
+Ｗhen I take off my own skin, in order to carry Suika’s legs, I hold her waist close. (a little unsure)
 
-＠すいか,R00800
+＠Suika,R00800
 「あ……」
 
-＠すいか,R00801
-「熱い……。先生の、熱くて……硬くて……」
+#「熱い……。先生の、熱くて……硬くて……」
+＠Suika,R00801
+「Hot…… Sensei’s, it’s hot……and it’s hard……」
 
-竿が触れると、すいかは陶酔したようにつぶやく。
+#竿が触れると、すいかは陶酔したようにつぶやく。
+#SCRIPT ADD KANJI
+Ｔouching my rod, Suika mutters elatedly.
 
-＠樹
-「はぁ……はぁ……すいか……」
+#「はぁ……はぁ……すいか……」
+＠Itsuki
+「Haa……haa……Suika……」
 
-オレは自らの根本を握り締め、先端の位置を調節した。
+#オレは自らの根本を握り締め、先端の位置を調節した。
+#SCRIPT ADD KANJI
+Ｉ grip the base of it, controlling the tip.
 
-襞の間に亀頭がめり込み、ぬるぬるした感触が伝わってくる。
+#襞の間に亀頭がめり込み、ぬるぬるした感触が伝わってくる。
+#SCRIPT ADD KANJI
+Ｉ prod the opening of her crease, a slippery feeling is transferred to me.
 
-そのぬめりに導かれ、オレの先端はすぐにすいかの入り口を探り当てた。
+#そのぬめりに導かれ、オレの先端はすぐにすいかの入り口を探り当てた。
+#SCRIPT ADD KANJI
+Ｔhose juices guide me.  My tip immediately finds Suika’s entrance.
 
-＠すいか,R00802
-「はぁっ、はぁっ、はぁっ……」
+#「はぁっ、はぁっ、はぁっ……」
+＠Suika,R00802
+「Haa, haa, haa……」
 
-再びすいかの呼吸が荒くなる。
+#再びすいかの呼吸が荒くなる。
+#SCRIPT ADD KANJI
+Ｓuika’s breathing becomes wild once again.
 
-＠樹
-「挿れるぞ……」
+#「挿れるぞ……」
+＠Itsuki
+「I’m going to put it in……」
 
 
 #--------------------------------------------------
@@ -934,149 +1328,229 @@ event		"event\EV_SUI_051-04.png"
 #--------------------------------------------------
 
 
-一方的に宣言し、すいかの確認を待たずに腰を進める。
+#一方的に宣言し、すいかの確認を待たずに腰を進める。
+#SCRIPT ADD KANJI
+Ｂecause it’s a one-sided proclamation, I hasten my hips without waiting for Suika to confirm.
 
-＠すいか,R00803
-「せんせ……ごうい……んッ……！」
+#「せんせ……ごうい……んッ……！」
+＠Suika,R00803
+「Sense……go ahead……nn……!」
 
-すいかの言葉は、オレのものが膣の入り口を押し広げていく感触に途切れた。
+#すいかの言葉は、オレのものが膣の入り口を押し広げていく感触に途切れた。
+#SCRIPT ADD KANJI
+Ｔhe feeling of my thing spread her vagina entrance interrupted her words.
 
-＠樹
-「キツいな……」
+#「キツいな……」
+＠Itsuki
+「Tight……」
 
-十分に濡れているはずなのに、すいかの入り口は狭く、亀頭が半分ほどめり込んだところで引っかかるように止まってしまう。
+#十分に濡れているはずなのに、すいかの入り口は狭く、亀頭が半分ほどめり込んだところで引っかかるように止まってしまう。
+#SCRIPT ADD KANJI
+Ｅven though Suika’s entrance should be plenty wet by now, it’s so narrow.  The glans is only halfway in, but I stop so that I don’t get stuck.
 
-＠すいか,R00804
-「はぁっ、はぁっ、せんせっ……」
+#「はぁっ、はぁっ、せんせっ……」
+＠Suika,R00804
+「Haa, haa, Sense……」
 
-＠樹
-「すいか……！」
+#「すいか……！」
+＠Itsuki
+「Suika……!」
 
-オレはそのまま、力任せに腰を押し込んだ。
+#オレはそのまま、力任せに腰を押し込んだ。
+#SCRIPT ADD KANJI
+Ａs it is, I push my hips with all my might.
 
-＠すいか,R00805
-「んああぁぁッ……！」
+#「んああぁぁッ……！」
+＠Suika,R00805
+「Nnaaaaaaa……!」
 
-めりめりと膣を押し広げる感触とともに、すいかは一気にオレにつらぬかれてしまう。
+#めりめりと膣を押し広げる感触とともに、すいかは一気にオレにつらぬかれてしまう。
+#SCRIPT ADD KANJI
+Ｉ spread her vagina with a groan, and at once, I plunge into her.
 
-＠すいか,R00806
-「はぁっ！　はぁっ！　はぁっ……！」
+#「はぁっ！　はぁっ！　はぁっ……！」
+＠Suika,R00806
+「Haa!  Haa!  Haa……!」
 
-＠すいか,R00807
-「先生の……、太い……の……」
+#「先生の……、太い……の……」
+＠Suika,R00807
+「Sensei’s……, thick……」
 
-限界まで穴を押し広げられ、息を途切れさせながら、すいかはオレの腕をつかむ。
+#限界まで穴を押し広げられ、息を途切れさせながら、すいかはオレの腕をつかむ。
+#SCRIPT ADD KANJI
+Ｉ expand her hole to the limit, and while her breathing pauses, Suika seizes my arms.
 
-＠樹
-「すいかの中……キツくて……あったかくて……ぬるぬるだぞ……」
+#「すいかの中……キツくて……あったかくて……ぬるぬるだぞ……」
+＠Itsuki
+「Inside of Suika……it’s tight……and warm……and slippery……」
 
-＠樹
-「最高だな……。動かすぞ……」
+#「最高だな……。動かすぞ……」
+＠Itsuki
+「It’s the best…… I’m going to move now……」
 
-すいかの身体を誉めながら、オレはゆっくりと腰を引き始める。
+#すいかの身体を誉めながら、オレはゆっくりと腰を引き始める。
+#SCRIPT ADD KANJI
+Ｗhile admiring Suika’s body, I slowly begin to pull at her waist.
 
-＠すいか,R00808
-「はぁあッ……！」
+#「はぁあッ……！」
+＠Suika,R00808
+「Haaaa……!」
 
-こじ開けられ、ギリギリまで引き延ばされた内側の粘膜が、オレのものに引きずられ、すいかは悲鳴に近い声を上げた。
+#こじ開けられ、ギリギリまで引き延ばされた内側の粘膜が、オレのものに引きずられ、すいかは悲鳴に近い声を上げた。
+#SCRIPT ADD KANJI
+Ｐrying open, I stretch her insides to the limit, but I keep going.  Suika raises her small voice into a scream.
 
-＠すいか,R00809
-「ああぁ……」
+#「ああぁ……」
+＠Suika,R00809
+「Aaaah……」
 
-内側の肉を絡みつかせながら、血管の浮いたオレのものが、すいかの中から抜き出されてくる。
+#内側の肉を絡みつかせながら、血管の浮いたオレのものが、すいかの中から抜き出されてくる。
+#SCRIPT ADD KANJI
+Ｗhile her walls coil around me, cutting off the blood circulation in my thing.  I start to pull out of Suika.
 
-＠すいか,R00810
-「はぁっ、はぁっ、せんせ……」
+#「はぁっ、はぁっ、せんせ……」
+＠Suika,R00810
+「Haa, haa, Sense……」
 
-すいかは何かを言おうとするが、オレはそれを許さなかった。
+#すいかは何かを言おうとするが、オレはそれを許さなかった。
+#SCRIPT ADD KANJI
+Ｓuika is saying something, but I didn’t allow it.
 
-十分に腰を退いたところで方向を転じ、オレは再びすいかの中を目指す。
+#十分に腰を退いたところで方向を転じ、オレは再びすいかの中を目指す。
+#SCRIPT ADD KANJI
+Ｅven though I pull my waist away, I switch direction, and I aim for inside of Suika’s insides again.
 
-＠すいか,R00811
-「んぅ……はあぁッ……！」
+#「んぅ……はあぁッ……！」
+＠Suika,R00811
+「Nnn……haaa……!」
 
-襞を巻き込みながら、オレのものは再びすいかの中に埋まっていく。
+#襞を巻き込みながら、オレのものは再びすいかの中に埋まっていく。
+#SCRIPT ADD KANJI
+Ｗhile rolling up her folds, my thing is once again buried inside of Suika.
 
-＠すいか,R00812
-「はぁっ、はぁっ、はぁっ……！」
+#「はぁっ、はぁっ、はぁっ……！」
+＠Suika,R00812
+「Haa, haa, haa……!」
 
-根本まで押し込まれると、すいかは荒い息を繰り返すことしかできない。
+#根本まで押し込まれると、すいかは荒い息を繰り返すことしかできない。
+#SCRIPT ADD KANJI
+Ｉ push into her until the hilt, Suika has been breathing roughly for a while.
 
-＠樹
-「いいぞ……すいかの中……」
+#「いいぞ……すいかの中……」
+＠Itsuki
+「It’s good……inside of Suika……」
 
-キツい締め付けと粘膜の感触を味わいつつ、オレは再び腰を引き、押し込む。
+#キツい締め付けと粘膜の感触を味わいつつ、オレは再び腰を引き、押し込む。
+#SCRIPT ADD KANJI
+Ｉ savor the feeling of the tight pressure of her insides, while I again pull her waist and thrust in.
 
-＠すいか,R00813
-「あっ……はぁっ、んくッ……！」
+#「あっ……はぁっ、んくッ……！」
+＠Suika,R00813
+「Aah……haa, nkuu……!」
 
-突き込むたびにすいかの身体が揺さぶられ、苦しげな声が上がる。
+#突き込むたびにすいかの身体が揺さぶられ、苦しげな声が上がる。
+#SCRIPT ADD KANJI
+Ｅvery time I thrust into Suika, her body trembles.  Her pained voice rises. (pained might not be quite right.)
 
-しかし、そんなすいかの反応も長くは続かなかった。
+#しかし、そんなすいかの反応も長くは続かなかった。
+#SCRIPT ADD KANJI
+Ｈowever, such actions of Suika’s didn’t last long.
 
-すでに男の味を教え込まれているすいかの身体は、オレの精液を搾り取ろうと、さらに愛液を分泌する。
+#すでに男の味を教え込まれているすいかの身体は、オレの精液を搾り取ろうと、さらに愛液を分泌する。
+#SCRIPT ADD KANJI
+Ｉ’m already giving Suika’s body the taste of a man.  She is milking my semen, and more and more of her love juices leak out of her. (first part is kind of awkward)
 
-腰の動きを繰り返すに従い、粘膜の滑りは次第によくなって、すいかの顔からも苦痛の色は消えていく。
+#腰の動きを繰り返すに従い、粘膜の滑りは次第によくなって、すいかの顔からも苦痛の色は消えていく。
+#SCRIPT ADD KANJI
+Ｉn accordance with the repetition of my hip movements, her walls are coated, and the painful look on Suika’s face vanishes.
 
-＠すいか,R00814
-「あぁっ……んっ……はぁっ……せんせっ……」
+#「あぁっ……んっ……はぁっ……せんせっ……」
+＠Suika,R00814
+「Aaah……nn……haa……Sense……」
 
-すいかの声も、求めるような甘い声に変わってきた。
+#すいかの声も、求めるような甘い声に変わってきた。
+#SCRIPT ADD KANJI
+Ｓuika’s voice too, like it desires it, changes to a sweet tone.
 
-それに伴い、オレの腰の動きも自然と早まっていく。
+#それに伴い、オレの腰の動きも自然と早まっていく。
+#SCRIPT ADD KANJI
+Ａnd what’s more, my hip movements naturally speed up.
 
-＠樹
-「ホントに……イヤらしいな、すいかの……身体は……」
+#「ホントに……イヤらしいな、すいかの……身体は……」
+＠Itsuki
+「Really……so dirty, Suika’s……body……」
 
-＠すいか,R00815
-「はぁっ、先生……ごめんなさい……こんなに、エッチで……」
+#「はぁっ、先生……ごめんなさい……こんなに、エッチで……」
+＠Suika,R00815
+「Haa, Sensei……I’m sorry……like this, it’s so perverted……」
 
-＠樹
-「謝るな……。オレは好きだぞ……イヤらしい女の子……」
+#「謝るな……。オレは好きだぞ……イヤらしい女の子……」
+＠Itsuki
+「Apologizing…… I like that……you filthy girl……」
 
-＠すいか,R00816
-「あはぁっ……！　んっ……ホント、ですか……？」
+#「あはぁっ……！　んっ……ホント、ですか……？」
+＠Suika,R00816
+「Ahaa……!  Nnn……is that, true……?」
 
-＠樹
-「当たり前だろ……？」
+#「当たり前だろ……？」
+＠Itsuki
+「Isn’t it obvious……?」
 
-＠樹
-「すいかが……気持ちよくなったほうが……、オレも……気持ちいい……」
+#「すいかが……気持ちよくなったほうが……、オレも……気持ちいい……」
+＠Itsuki
+「Suika…… is beginning to feel better……, For me as well, it feels good……」
 
-＠樹
-「もっと……感じるんだ……」
+#「もっと……感じるんだ……」
+＠Itsuki
+「More……feel more……」
 
-＠樹
-「すいかが……気持ちよくて、理性なくしてるところ……見たい……」
+#「すいかが……気持ちよくて、理性なくしてるところ……見たい……」
+＠Itsuki
+「Suika……is feeling good, and losing sense of reason……I want to see……」
 
-これまではイかされるだけだったからな……。
+#これまではイかされるだけだったからな……。
+#SCRIPT ADD KANJI
+Ｕntil this (no clue whatsoever)
 
-だからオレはもう、すいかが理性をなくした姿を見たくてたまらない。
+#だからオレはもう、すいかが理性をなくした姿を見たくてたまらない。
+#SCRIPT ADD KANJI
+Ａnd so, I’m already dying to see Suika lose her senses.
 
-＠すいか,R00817
-「ああっ、んっ……！　せんせえ……せんせえ……！」
+#「ああっ、んっ……！　せんせえ……せんせえ……！」
+＠Suika,R00817
+「Aaah, nn……!  Sense……Sense……!」
 
-＠すいか,R00818
-「ホントですか……？　私……ホントに……おかしくなっちゃう……」
+#「ホントですか……？　私……ホントに……おかしくなっちゃう……」
+＠Suika,R00818
+「Is it true……?  I’ve……really……become strange……」
 
-＠樹
-「気持ちいいか……？　いいぞ……。おかしくなれ……」
+#「気持ちいいか……？　いいぞ……。おかしくなれ……」
+＠Itsuki
+「Does it feel good……?  It’s alright…… become strange……」 (unsure of the ‘become strange part)
 
-＠すいか,R00819
-「んふぅっ……はぁっ……はい……。気持ちいい……気持ちいいの……」
+#「んふぅっ……はぁっ……はい……。気持ちいい……気持ちいいの……」
+＠Suika,R00819
+「んふぅっ……haaa……yes……It feels good……it feels good……」
 
-オレの言葉の暗示にかかったように、すいかの声から理性の色が消えていく。
+#オレの言葉の暗示にかかったように、すいかの声から理性の色が消えていく。
+#SCRIPT ADD KANJI
+Ｓhe takes the suggestion in my words, and reason vanishes from Suika’s voice.
 
-＠すいか,R00820
-「はぁん……せんせぇの、おちんちんっ……太くて……いいよぉ……」
+#「はぁん……せんせぇの、おちんちんっ……太くて……いいよぉ……」
+＠Suika,R00820
+「Haan……Sense’s, penis……it’s thick……good……」
 
-＠すいか,R00821
-「ぬるぬるして……あぁっ、はぁぅっ！　あはぁっ！」
+#「ぬるぬるして……あぁっ、はぁぅっ！　あはぁっ！」
+＠Suika,R00821
+「It’s slipping……aaah, haau!  Ahaa!」
 
-＠樹
-「いいぞ……すいか……」
+#「いいぞ……すいか……」
+＠Itsuki
+「Good……Suika……」
 
-オレは腰の動きを続けながら、再びすいかの胸へと手を伸ばす。
+#オレは腰の動きを続けながら、再びすいかの胸へと手を伸ばす。	
+#SCRIPT ADD KANJI
+Ｗhile I continue to move my hips, I again reach out for Suika’s breasts.
 
 
 #--------------------------------------------------
@@ -1084,32 +1558,44 @@ event		"event\EV_SUI_051-05.png"
 #--------------------------------------------------
 
 
-＠すいか,R00822
+＠Suika,R00822
 「あっ……」
 
-乳首に指が触れた瞬間、すいかは一瞬びくんとするが、すぐにオレの指を求めるように胸を突き出してきた。
+#乳首に指が触れた瞬間、すいかは一瞬びくんとするが、すぐにオレの指を求めるように胸を突き出してきた。
+#SCRIPT ADD KANJI
+Ｔhe instant I touch her nipple with my finger, Suika instantly becomes intoxicated.  As if to demand it, she sticks out her chest.
 
-＠すいか,R00823
-「あぁ……せんせ……。乳首いいの……すいかの乳首ぃ……」
+#「あぁ……せんせ……。乳首いいの……すいかの乳首ぃ……」
+＠Suika,R00823
+「Aah……Sense…… Nipple, is good……Suika’s nipple……」
 
-＠樹
-「もっと触って……ほしいか……？」
+#「もっと触って……ほしいか……？」
+＠Itsuki
+「Do you want me to……touch it more……?」
 
-＠すいか,R00824
-「うん……はい……触って……。触ってぇ……」
+#「うん……はい……触って……。触ってぇ……」
+＠Suika,R00824
+「Yeah……yes……touch it…… Touch it……」
 
-＠樹
-「しょうがないな……」
+#「しょうがないな……」
+＠Itsuki
+「It can’t be helped then……」
 
-オレはまた両手で乳首をつまみ、そこをコリコリしてやる。
+#オレはまた両手で乳首をつまみ、そこをコリコリしてやる。
+#SCRIPT ADD KANJI
+Ｉ again pinch her nipples with both hands.  She can’t stand what I am doing there.  (unsure.  Korikori means crunchy.  On the other hand, korigori means something like, ‘unbearable’)
 
-＠すいか,R00825
-「あはぁっ、いいっ！　乳首気持ちいいよぉ……じゅるッ……」
+#「あはぁっ、いいっ！　乳首気持ちいいよぉ……じゅるッ……」
+＠Suika,R00825
+「Ahaa, good!  My nipples feel good……じゅるッ……」
 
-すいかは激しく身を捩り、唇の端からこぼれた唾液を啜る。
+#すいかは激しく身を捩り、唇の端からこぼれた唾液を啜る。
+#SCRIPT ADD KANJI
+Ｓuika violently twists her body.  She slurps up the saliva that had overflowed from the start.
 
-＠樹
-「すいか……」
+#「すいか……」
+＠Itsuki
+「Suika……」
 
 
 #--------------------------------------------------
@@ -1117,88 +1603,141 @@ event		"event\EV_SUI_051-06.png"
 #--------------------------------------------------
 
 
-指先でコリコリしているうちにたまらなくなって、オレは身を屈め、今度はそこに唇を近づけた。
+#指先でコリコリしているうちにたまらなくなって、オレは身を屈め、今度はそこに唇を近づけた。
+#SCRIPT ADD KANJI
+Ｍy fingertip is becoming unbearable.  I bend my body, and this time bring my lips near there. (same thing with korikori)
 
-片方の乳首を口に含み、一気に吸い上げる。
+#片方の乳首を口に含み、一気に吸い上げる。
+#SCRIPT ADD KANJI
+Ｉ take one of her nipples in my mouth, and at once start sucking.
 
-＠すいか,R00826
-「はぁっ……！　すっ、すごいぃ……」
+#「はぁっ……！　すっ、すごいぃ……」
+＠Suika,R00826
+「Haaa……!  A, amazing……」
 
-＠すいか,R00827
-「私……せんせえにおっぱい……吸われてるぅ……んぅう……！」
+#「私……せんせえにおっぱい……吸われてるぅ……んぅう……！」
+＠Suika,R00827
+「I……Sensei is sucking……my breast……nnuu……!」
 
-オレは乳首を唇に挟んだまま、その先端に舌をこすりつけた。
+#オレは乳首を唇に挟んだまま、その先端に舌をこすりつけた。
+#SCRIPT ADD KANJI
+Ｉ hold her nipple in between my lips, and rub the tip with my tongue.
 
-＠すいか,R00828
-「んあッ……！　いいッ！　それ……気持ちいいよぉ……」
+#「んあッ……！　いいッ！　それ……気持ちいいよぉ……」
+＠Suika,R00828
+「んあッ……!  Good!  That……feels so good……」
 
-小さな胸を手のひらで中央に寄せるようにして、オレは乳首を吸い続ける。
+#小さな胸を手のひらで中央に寄せるようにして、オレは乳首を吸い続ける。
+#SCRIPT ADD KANJI
+Ｗith the palm of my hand on the center of her tiny breast, I continue to suck her nipple. (weird sounding)
 
-同時に反対の乳首も指でつまみ、軽く引っ張りながら揉んでやった。
+#同時に反対の乳首も指でつまみ、軽く引っ張りながら揉んでやった。
+#SCRIPT ADD KANJI
+Ａt the same time, I pinch her other nipple with my fingers.  While I pinch her, I lightly rub her.
 
-＠すいか,R00829
-「はぁ……はぁ……せんせ……もう、おかしくなっちゃ……んっ……！」
+#「はぁ……はぁ……せんせ……もう、おかしくなっちゃ……んっ……！」
+＠Suika,R00829
+「Haa……haa……Sense……again, I’m becoming strange……nnn……!」
 
-＠樹
-「ぷはぁっ……。可愛いぞ……すいか……」
+#「ぷはぁっ……。可愛いぞ……すいか……」
+＠Itsuki
+「ぷはぁっ…… You’re cute……Suika……」
 
-唇を離し、ぬるぬるになった乳首を指で撫でながら、声をかけてみる。
+#唇を離し、ぬるぬるになった乳首を指で撫でながら、声をかけてみる。
+#SCRIPT ADD KANJI
+Ｉ open my lips, and gently stroke her now slippery nipple.  As I do that, Suika calls out to me.
 
-＠すいか,R00830
-「んうぅッ、せんせ……恥ずかし……んッ！　はあぁッ……いいよぉ……」
+#「んうぅッ、せんせ……恥ずかし……んッ！　はあぁッ……いいよぉ……」
+＠Suika,R00830
+「んうぅッ, Sense……its embarrassing……nn!  Haaa……so good……」
 
-もう、ほとんど理性は残っていないみたいだ。
+#もう、ほとんど理性は残っていないみたいだ。
+#SCRIPT ADD KANJI
+Ａlready, it looks like there is almost no reason left in her.
 
-この前はすいかにいろいろされちゃったけれど、今はすいかがオレのものでこんなに感じている……。
+#この前はすいかにいろいろされちゃったけれど、今はすいかがオレのものでこんなに感じている……。
+#SCRIPT ADD KANJI
+Ｒecently, various things were done to Suika, but now, she is feeling my thing like this. (unsure)
 
-そう思うと、たまらない満足感とともに、射精の欲求が高まってくる。
+#そう思うと、たまらない満足感とともに、射精の欲求が高まってくる。
+#SCRIPT ADD KANJI
+Ｗhen I think in this way, together with an unbearable feeling of satisfaction, my desire to ejaculate rises.
 
-＠樹
-「はぁ……はぁ……すいか……。中で出しても……いいか……？」
+#「はぁ……はぁ……すいか……。中で出しても……いいか……？」
+＠Itsuki
+「Haa……haa……Suika…… If I cum inside……is that alright……?」
 
-腰の動きを速めながら、オレはすいかに許可を求める。
+#腰の動きを速めながら、オレはすいかに許可を求める。
+#SCRIPT ADD KANJI
+Ｗhile I quicken my hip’s movement, I seek permission from Suika.
 
-＠すいか,R00831
-「んッ、あッ、はい……。中に……せんせぇの……すいかの中に、ください……」
+#「んッ、あッ、はい……。中に……せんせぇの……すいかの中に、ください……」
+＠Suika,R00831
+「Nn, ah, yes…… Inside……Sensei’s……inside Suika’s, please……」
 
-オレの腰の動きに全身を揺さぶられ、とぎれとぎれになりながらも、すいかはそう求めてくる。
+#オレの腰の動きに全身を揺さぶられ、とぎれとぎれになりながらも、すいかはそう求めてくる。
+#SCRIPT ADD KANJI
+Ｍy hip movements are shaking her entire body, and while they become chaotic, she demands that of me.
 
-同時にすいかの膣もオレのものを強く締めつけてくる。
+#同時にすいかの膣もオレのものを強く締めつけてくる。
+#SCRIPT ADD KANJI
+Ａt the same time, Suika’s vagina tightens around me.
 
-すいかも出されたいんだ……。
+#すいかも出されたいんだ……。
+#SCRIPT ADD KANJI
+Ｓuika wants to cum as well…….
 
-そう思うと、急速に精液がこみ上げてくる。
+#そう思うと、急速に精液がこみ上げてくる。
+#SCRIPT ADD KANJI
+Ａs I think that, my semen rapidly starts to build up.
 
-＠樹
-「すいか……。すいかの子宮……オレので、どろどろにしてやる……」
+#「すいか……。すいかの子宮……オレので、どろどろにしてやる……」
+＠Itsuki
+「Suika…… Suika’s womb……mine, is thickening.」 (unsure.  Thickening might be talking about his semen welling up, and he is about to cum or something.)
 
-＠すいか,R00832
-「はあぁッ！　せんせッ！　ああぁッ、んふぅッ……！」
+#「はあぁッ！　せんせッ！　ああぁッ、んふぅッ……！」
+＠Suika,R00832
+「Haaa!  Sensei!  Aaaah, nnfuu……!」
 
-強く腰を突き込むと、そのたびにすいかの身体がびくびくと跳ねる。
+#強く腰を突き込むと、そのたびにすいかの身体がびくびくと跳ねる。
+#SCRIPT ADD KANJI
+Ｉ strongly thrust my hips and bury myself.  Every time I do that, Suika’s body nervously jumps.
 
-すいかももう、あと少しでイきそうなのだろう。
+#すいかももう、あと少しでイきそうなのだろう。
+#SCRIPT ADD KANJI
+Ｉt seems that Suika will come soon as well.
 
-＠すいか,R00833
-「んあッ……先生の……せーえき……」
+#「んあッ……先生の……せーえき……」
+＠Suika,R00833
+「Nnaaa……Sensei’s……penis……」
 
-＠すいか,R00834
-「出されちゃう……あぁ……せんせぇッ……！」
+#「出されちゃう……あぁ……せんせぇッ……！」
+＠Suika,R00834
+「Let’s cum……aah……Sensei……!」
 
-＠樹
-「はぁ……はぁ……すいか……。出そうに……なってきた……」
+#「はぁ……はぁ……すいか……。出そうに……なってきた……」
+＠Itsuki
+「Haa……haa……Suika…… Let’s cum……together……」 (together is just a space filler.  It would be a nice touch, but nattekita is probably just, ‘to become.’  Don’t really know what to do with it)
 
-うわごとのようにつぶやくすいかの耳元で、わざと囁いてやる。
+#うわごとのようにつぶやくすいかの耳元で、わざと囁いてやる。
+#SCRIPT ADD KANJI
+Ｌike I am mumbling incoherently into Suika’s ear, I am purposefully whispering.
 
-＠すいか,R00835
-「はぁああぁッ……！」
+#「はぁああぁッ……！」
+＠Suika,R00835
+「Haaaaa……!」
 
-それだけですいかの膣がキュッと締まる。
+#それだけですいかの膣がキュッと締まる。
+#SCRIPT ADD KANJI
+Ａnd with that alone, Suika’s vagina shuts tight.
 
-オレはすいかの腰をがっちりとつかみ、自らの腰を押しつけてぐりぐりと奥を刺激した。
+#オレはすいかの腰をがっちりとつかみ、自らの腰を押しつけてぐりぐりと奥を刺激した。
+#SCRIPT ADD KANJI
+Ｉ tightly grip Suika’s waist, thrusting my one hips to stimulate her insides. (is the guriguri referring to her clitoris?  It means something about hard lump.  So not only is he thrusting in, stimulating inside of her, but he is also rubbing her clitoris. Edit: In a couple of lines, he presses her clitoris, so it’s likely he is doing something with it here too.)
 
-＠すいか,R00836
-「あはぁッ、せんせッ！　奥がッ！　あふんッ！」
+#「あはぁッ、せんせッ！　奥がッ！　あふんッ！」
+＠Suika,R00836
+「Ahaa, Sensei!  Inside!  あふんッ!」
 
 
 #--------------------------------------------------
@@ -1206,35 +1745,54 @@ event		"event\EV_SUI_051-07.png"
 #--------------------------------------------------
 
 
-さらに片手の親指をクリトリスに押しつける。
+#さらに片手の親指をクリトリスに押しつける。
+#SCRIPT ADD KANJI
+Ｍoreover, the thumb on one of my hands presses her clitoris.
 
-＠すいか,R00837
-「あッ、やはぁッ……！」
+#「あッ、やはぁッ……！」
+＠Suika,R00837
+「Ah, yahaa……!」
 
-＠樹
-「んくッ……」
+#「んくッ……」
+＠Itsuki
+「Nkuu……」
 
-すいかの中が強くオレのものを締めつけて、こみ上げる精液をオレは必死で抑え込む。
+#すいかの中が強くオレのものを締めつけて、こみ上げる精液をオレは必死で抑え込む。
+#SCRIPT ADD KANJI
+Ｓuika’s insides strongly tighten around my thing, and I desperately try to hold back the semen that is welling up.
 
-それでもオレの腰は勝手に動いてしまい、もうこれ以上は耐えられそうになかった。
+#それでもオレの腰は勝手に動いてしまい、もうこれ以上は耐えられそうになかった。
+#SCRIPT ADD KANJI
+Ｎevertheless, my hips move of their own accord, and I already can’t take any more of this.
 
-＠樹
-「すいかッ……出すぞ……出すぞ……」
+#「すいかッ……出すぞ……出すぞ……」
+＠Itsuki
+「Suika……I’m cumming……I’m cumming……」
 
-クリトリスをぐりぐりと刺激しつつ、オレは一気に腰を突き込む。
+#クリトリスをぐりぐりと刺激しつつ、オレは一気に腰を突き込む。
+#SCRIPT ADD KANJI
+Ｉ stimulate the hard lump that is her clitoris while thrusting my hips and plunging into her.
 
-＠すいか,R00838
-「んはぁッ……せんせ……せんせッ……もうだめッ、あああぁッ……！」
+#「んはぁッ……せんせ……せんせッ……もうだめッ、あああぁッ……！」
+＠Suika,R00838
+「Nhaa……Sensei……Sensei……it’s too late, aaaaaaah……!」
 
-＠すいか,R00839
-「イくッ、イッちゃ……んはぁッ！　あはああああああぁ……ッ！！」
+#「イくッ、イッちゃ……んはぁッ！　あはああああああぁ……ッ！！」
+＠Suika,R00839
+「Cumming, cummi……nhaa!  Ahaaaaaaaaaaa……!!」
 
-すいかの身体が大きく波打った。
 
-＠樹
-「くうぅッ、すいか……！！」
+#すいかの身体が大きく波打った。
+#SCRIPT ADD KANJI
+Ｓuika’s body shudders immensely.
 
-その瞬間、一気に精液がこみ上げ、すいかの胎内へと迸る。
+#「くうぅッ、すいか……！！」
+＠Itsuki
+「Kuuu, Suika……!!」
+
+#その瞬間、一気に精液がこみ上げ、すいかの胎内へと迸る。
+#SCRIPT ADD KANJI
+Ｉn that moment, semen instantly gushes forth and flows into Suika’s womb.
 
 
 #--------------------------------------------------
@@ -1246,94 +1804,143 @@ event		"event\EV_SUI_051-08.png"
 ビュクッ、ドプッ！　ドビュルッ……！！
 
 
-＠すいか,R00840
-「んああああぁッ！！　んくぅッ！！　あはぁッ……！！」
+#「んああああぁッ！！　んくぅッ！！　あはぁッ……！！」
+＠Suika,R00840
+「Nhaaaa!!  Nkuu!!  Ahaa……!!」
 
-オレの下ですいかの身体が何度も跳ね、オレはさらに腰を動かして、その中に精液を注いでいく。
+#オレの下ですいかの身体が何度も跳ね、オレはさらに腰を動かして、その中に精液を注いでいく。
+#SCRIPT ADD KANJI
+Ｕnder me, Suika’s body jumps over and over.  My hips move again, and semen pours inside there.
 
-＠すいか,R00841
-「あああぁッ！！　せんせぇのがッ……入って……！　んふあッ……！」
+#「あああぁッ！！　せんせぇのがッ……入って……！　んふあッ……！」
+＠Suika,R00841
+「Aaaaaaah!!  Sensei’s is……entering……!  Nnfua……!」
 
-精液はすいかの子宮を満たし、膣に溢れて、繋がった部分からこぼれる。
+#精液はすいかの子宮を満たし、膣に溢れて、繋がった部分からこぼれる。
+#SCRIPT ADD KANJI
+Ｓemen fills Suika’s womb and overflowing from her vagina, spilling out from where we are joined.
 
-＠樹
-「すいかッ……！　んッ……！　んッ……！　はあぁっ……」
+#「すいかッ……！　んッ……！　んッ……！　はあぁっ……」
+＠Itsuki
+「Suika……!  Nnn……!  Nnn……!  Haaa……」
 
-腰に力を入れ、一滴残らず絞り出すと、一気に全身の力が抜けた。
+#腰に力を入れ、一滴残らず絞り出すと、一気に全身の力が抜けた。
+#SCRIPT ADD KANJI
+Ｓtrength enters my hips, and squeezes out every last drop.  And with that, that strength leaves my entire body.
 
-＠すいか,R00842
-「あぁっ……はぁっ……はぁっ……！　はあぁ……」
+#「あぁっ……はぁっ……はぁっ……！　はあぁ……」
+＠Suika,R00842
+「Aaah……haaa……haa……!  Haaa……」
 
-すいかもオレの下でぐったりしてしまっている。
+#すいかもオレの下でぐったりしてしまっている。
+#SCRIPT ADD KANJI
+Ｕnder me, Suika is completely exhausted too.
 
-＠すいか,R00843
-「はぁ……はぁ……はぁ……」
+#「はぁ……はぁ……はぁ……」
+＠Suika,R00843
+「Haa……haa……haa……」
 
-俺たちはしばらくの間、そのままの姿勢で荒い息を繰り返すだけだった。
+#俺たちはしばらくの間、そのままの姿勢で荒い息を繰り返すだけだった。
+#SCRIPT ADD KANJI
+Ｆor a short while after, we remain in that lewd position, just breathing heavily.
 
 …………。
 
-……呼吸が整うにつれて、徐々に冷静さが戻ってくる。
+#……呼吸が整うにつれて、徐々に冷静さが戻ってくる。
+#SCRIPT ADD KANJI
+……As our breathing stabilizes, little by little our calm returns to us.
 
-最後まで、しちゃったな……。
+#最後まで、しちゃったな……。
+#SCRIPT ADD KANJI
+Ｔo the end, I did it…….
 
-本当に……これで良かったのだろうか？
+#本当に……これで良かったのだろうか？
+#SCRIPT ADD KANJI
+Ｒeally……I wonder if this was a good thing?
 
-＠すいか,R00844
-「はぁ……はぁ……先生……」
+#「はぁ……はぁ……先生……」
+＠Suika,R00844
+「Haa……haa……Sensei……」
 
-すいかもようやく落ち着いてきたらしく、息を整えながらオレを見つめた。
+#すいかもようやく落ち着いてきたらしく、息を整えながらオレを見つめた。
+#SCRIPT ADD KANJI
+Ｓuika seems to have finally calmed down as well.  While her breathing returns to normal, she stares at me.
 
-＠すいか,R00845
-「ごめんなさい……。急にこんなこと……させちゃって……」
+#「ごめんなさい……。急にこんなこと……させちゃって……」
+＠Suika,R00845
+「I’m very sorry……Doing……something like this so abruptly……」
 
-＠樹
-「お、おう……」
+#「お、おう……」
+＠Itsuki
+「Oh, ooh……」
 
-どうやらすいかとしても、自分が誘ったという認識だったらしい。
+#どうやらすいかとしても、自分が誘ったという認識だったらしい。
+#SCRIPT ADD KANJI
+Ａs for Suika, somehow, it seems like she recognizes that she asked me to.
 
-＠すいか,R00846
-「どうしても、言葉だけじゃ……信じられなくて……」
+#「どうしても、言葉だけじゃ……信じられなくて……」
+＠Suika,R00846
+「After all, they were just words……not to be believed……」 (unsure)
 
-＠樹
-「そうか……」
+#「そうか……」
+＠Itsuki
+「Is that so……」
 
-だったら、良かったのかな……？
+#だったら、良かったのかな……？
+#SCRIPT ADD KANJI
+Ｉn that case, was it a good thing……?
 
-＠樹
-「わかったか？　オレがホントに、すいかを可愛いって思ってること」
+#「わかったか？　オレがホントに、すいかを可愛いって思ってること」
+＠Itsuki
+「Did you understand?  I really think Suika is cute.」
 
-恋人として付き合いたいと思っていたわけじゃないにしても、その気持ちに嘘はなかった。
+#恋人として付き合いたいと思っていたわけじゃないにしても、その気持ちに嘘はなかった。
+#SCRIPT ADD KANJI
+Ｅven if I don’t think I want to be with her like a lover, that feeling wasn’t a lie.
 
-＠すいか,R00847
-「はい……。ありがとうございます……院長先生……」
+#「はい……。ありがとうございます……院長先生……」
+＠Suika,R00847
+「Yes…… Thank you very much……Inchou-sensei……」
 
-＠すいか,R00848
-「おかげでちょっと……元気出ました……」
+#「おかげでちょっと……元気出ました……」
+＠Suika,R00848
+「Thanks in part to you……my energy has left me……」
 
-＠樹
-「それなら……良かった……」
+#「それなら……良かった……」
+＠Itsuki
+「If that’s the case……it’s good……」
 
-オレもずいぶん役得だった気もするけど、まあ、結果オーライかな？
+#オレもずいぶん役得だった気もするけど、まあ、結果オーライかな？
+#SCRIPT ADD KANJI
+Ｉt was a surprising perk for me as well.  However, did everything turn out all right? (maybe, ‘it was a pleasant surprise for me as well.’)
 
-＠樹
-「可愛かったぞ、すいか……」
+#「可愛かったぞ、すいか……」
+＠Itsuki
+「You were definitely cute, Suika……」
 
-オレは改めて、すいかの髪を撫でてやる。
+#オレは改めて、すいかの髪を撫でてやる。
+#SCRIPT ADD KANJI
+Ｉ again stroke Suika’s hair.
 
-＠すいか,R00849
-「えへへ、嬉しいです……」
+#「えへへ、嬉しいです……」
+＠Suika,R00849
+「Ehehe, I’m happy……」
 
-＠すいか,R00850
-「でも、今日はちょっと、興奮し過ぎちゃいました……。恥ずかしいです……」
+#「でも、今日はちょっと、興奮し過ぎちゃいました……。恥ずかしいです……」
+＠Suika,R00850
+「But, today is a little, now that the excitement has passed…… It’s embarrassing……」 (Kyo wa chotto may mean that today wasn’t a good time for that, but I can’t see how to fit it in there.)
 
-＠樹
-「それが可愛いんだって」
+#「それが可愛いんだって」
+＠Itsuki
+「That’s cute.」
 
-＠樹
-「ごめん、抜くぞ……」
+#「ごめん、抜くぞ……」
+＠Itsuki
+「Sorry, I’ll pull out……」
 
-オレのものはすいかの中ですでに萎えてきていたので、オレはそっと腰を引いた。
+#オレのものはすいかの中ですでに萎えてきていたので、オレはそっと腰を引いた。
+#SCRIPT ADD KANJI
+Ｂecause my thing was already withering inside of Suika, I gently pull back my hips.
 
 
 #--------------------------------------------------
@@ -1341,15 +1948,20 @@ event		"event\EV_SUI_051-09.png"
 #--------------------------------------------------
 
 
-＠すいか,R00851
+＠Suika,R00851
 「んっ……」
 
-すいかは切なげな息を漏らすが、何も言わずに黙っている。
+#すいかは切なげな息を漏らすが、何も言わずに黙っている。
+#SCRIPT ADD KANJI
+Ｓuika lets out a labored breath, but doesn’t say anything, keeping silent.
 
-＠樹
-「拭いてやる」
+#「拭いてやる」
+＠Itsuki
+「I’ll wipe you.」
 
-オレはベッドサイドからティッシュを取って、すいかの股間を拭いてやる。
+#オレはベッドサイドからティッシュを取って、すいかの股間を拭いてやる。
+#SCRIPT ADD KANJI
+Ｉ take a tissue from beside the bed and wipe her crotch.
 
 
 #--------------------------------------------------
@@ -1357,18 +1969,25 @@ event		"event\EV_SUI_051-10.png"
 #--------------------------------------------------
 
 
-＠すいか,R00852
-「あっ、ちょ、くすぐったいです、ちょっと……」
+#「あっ、ちょ、くすぐったいです、ちょっと……」
+＠Suika,R00852
+「Ah, it, it tickles, a little……」
 
-すいかは身を捩り、オレの手を押しとどめた。
+#すいかは身を捩り、オレの手を押しとどめた。
+#SCRIPT ADD KANJI
+Ｓuika’s body twists, and my hand stops pressing.
 
-＠すいか,R00853
-「あとは、自分でやりますから……」
+#「あとは、自分でやりますから……」
+＠Suika,R00853
+「The rear, I’ll do it myself.」
 
-＠樹
-「そうか……？」
+#「そうか……？」
+＠Itsuki
+「Is that so……?」
 
-オレは諦めてすいかにティッシュを渡し、あとは自分の方を拭くことにした。
+#オレは諦めてすいかにティッシュを渡し、あとは自分の方を拭くことにした。
+#SCRIPT ADD KANJI
+Ｉ give up the tissue to Suika.  She wipes her rear in her own, unusual way.
 
 
 #■BG（黒）
@@ -1386,9 +2005,13 @@ wait		1000
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
 
-しばらくして、後始末を終えたオレはすいかに見送られ、部屋を出た。
+#しばらくして、後始末を終えたオレはすいかに見送られ、部屋を出た。
+#SCRIPT ADD KANJI
+Ｌater, after having finished cleaning up, Suika sees me out and I leave the room.
 
-ゲームもやりたかったけれど、今日はもう遅いし、また今度だ。
+#ゲームもやりたかったけれど、今日はもう遅いし、また今度だ。
+#SCRIPT ADD KANJI
+Ｉ wanted to play the game too, however, since it’s already late today, it will have to wait for another time.
 
 
 @suika_middle		# 中間
@@ -1396,37 +2019,49 @@ wait		1000
 @suika_kanashimi	#哀
 
 
-＠すいか,R00854
-「今日はすみませんでした、先生……」
+#「今日はすみませんでした、先生……」
+＠Suika,R00854
+「I’m sorry about today, Sensei……」
 
-＠樹
-「気にするな。っていうか、すいかは可愛いんだし、むしろ役得だったぞ、オレは」
+#「気にするな。っていうか、すいかは可愛いんだし、むしろ役得だったぞ、オレは」
+＠Itsuki
+「Don’t worry about it.  Or should I say, since Suika is so cute, I would rather have that service.」
 
-改めて頭を下げるすいかに、オレは冗談めかして言ってやる。
+#改めて頭を下げるすいかに、オレは冗談めかして言ってやる。
+#SCRIPT ADD KANJI
+Ｉ bow to Suika again, saying that jokingly.
 
 
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00855
-「あはは、そう言っていただけると私も嬉しいんですけど」
+#「あはは、そう言っていただけると私も嬉しいんですけど」
+＠Suika,R00855
+「Ahaha, if you approve of that sort of thing, I’m happy too.」
 
-＠樹
-「それじゃ、また明日な」
+#「それじゃ、また明日な」
+＠Itsuki
+「Well then, see you tomorrow.」
 
 
 @suika_
 
 
-ぽん、といつものようにすいかの頭を軽く叩いてやり、オレはすいかに背を向けようとした。
+#ぽん、といつものようにすいかの頭を軽く叩いてやり、オレはすいかに背を向けようとした。
+#SCRIPT ADD KANJI
+Ｗith a usual PON, I lightly pat Suika’s head, and then turn away from her.
 
-＠すいか,R00856
-「あ、先生……」
+#「あ、先生……」
+＠Suika,R00856
+「Ah, Sensei……」
 
-＠樹
-「ん……？」
+#「ん……？」
+＠Itsuki
+「Hm……?」
 
-呼び止められて、俺は振り返る。
+#呼び止められて、俺は振り返る。
+#SCRIPT ADD KANJI
+Ｓhe calls out to me, and I look back.
 
 
 @suika_middle		# 中間
@@ -1434,31 +2069,41 @@ wait		1000
 @suika			# 普
 
 
-＠すいか,R00857
-「私……ゲーム作るの、もっと頑張ります」
+#「私……ゲーム作るの、もっと頑張ります」
+＠Suika,R00857
+「I……the game I’m making, I’ll try even harder.」
 
-オレを見つめ、すいかは真剣な表情でそう言った。
+#オレを見つめ、すいかは真剣な表情でそう言った。
+#SCRIPT ADD KANJI
+Ｓhe continues to look at me with a serious expression.
 
-＠すいか,R00858
-「先生も誉めてくれたし……今のお仕事、いつまでも続けられるわけでもないですし」
+#「先生も誉めてくれたし……今のお仕事、いつまでも続けられるわけでもないですし」
+＠Suika,R00858
+「Sensei deserves some praise as well, because……my job right now, I won’t continue doing it forever.」
 
-＠樹
-「そうだな」
+#「そうだな」
+＠Itsuki
+「Evidently.」
 
-＠樹
-「あれだけ面白いゲームを作れるんだし、すいかには才能があるよ、絶対」
+#「あれだけ面白いゲームを作れるんだし、すいかには才能があるよ、絶対」
+＠Itsuki
+「Because you made such an interesting game, Suika has talent.  I’m sure of it.」
 
-＠樹
-「頑張れ。オレも応援する」
+#「頑張れ。オレも応援する」
+＠Itsuki
+「Do your best.  I’ll root for you too.」
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00859
-「はいっ！」
+#「はいっ！」
+＠Suika,R00859
+「Yes!」
 
-オレの言葉にすいかは真剣に、それでも嬉しそうにうなずいた。
+#オレの言葉にすいかは真剣に、それでも嬉しそうにうなずいた。
+#SCRIPT ADD KANJI
+Ｓuika takes my words seriously.  Even so, she happily nods.
 
 
 bgm_stop
@@ -1476,21 +2121,29 @@ goto			suika11_togo1
 label		suika11_q01_b
 
 
-いや、やはり安易にそんなことをすべきじゃない……。
+#いや、やはり安易にそんなことをすべきじゃない……。
+#SCRIPT ADD KANJI
+Ｎo, as I thought, I shouldn’t do such a thing so easily…….
 
-＠樹
-「すいか……」
+#「すいか……」
+＠Itsuki
+「Suika……」
 
-オレはそっとすいかの髪を撫で、言い聞かせてやる。
+#オレはそっとすいかの髪を撫で、言い聞かせてやる。
+#SCRIPT ADD KANJI
+Ｉ gently pat Suika on her head, and instruct her.
 
-＠樹
-「確かに言葉だけじゃ実感できないかもしれない……」
+#「確かに言葉だけじゃ実感できないかもしれない……」
+＠Itsuki
+「Surely those are just words, and probably aren’t able to express true feelings……」 (unsure)
 
-＠樹
-「でもな、キスとかセックスだけが愛情の証明じゃないんだ」
+#「でもな、キスとかセックスだけが愛情の証明じゃないんだ」
+＠Itsuki
+「Even so, only doing things like kissing and sex aren’t proof of love.」
 
-＠すいか,R00860
-「先生……？」
+#「先生……？」
+＠Suika,R00860
+「Sensei……?」
 
 
 @suika_large		# 近い
@@ -1498,60 +2151,78 @@ label		suika11_q01_b
 @suika			#普
 
 
-すいかは目を開けた。
+#すいかは目を開けた。
+#SCRIPT ADD KANJI
+Ｓuika opens her eyes.
 
-＠樹
-「すいかは……今までそういう関係しか知らなかったのかもしれないけど……」
+#「すいかは……今までそういう関係しか知らなかったのかもしれないけど……」
+＠Itsuki
+「Until now, Suika probably didn’t know any other kinds of relationships, however……」
 
-＠樹
-「だけどオレは、そういった欲望とは関係なく、すいかのことはいい子だって、魅力的だって思ってる」
+#「だけどオレは、そういった欲望とは関係なく、すいかのことはいい子だって、魅力的だって思ってる」
+＠Itsuki
+「This kind of desire isn’t the relationship we have.  Suika is a good child, and I think you are charming as well.」
 
 
 @suika_kanashimi	#哀
 
 
-＠すいか,R00861
-「先生……」
+#「先生……」
+＠Suika,R00861
+「Sensei……」
 
-すいかは一瞬目をそらし、それから笑顔を作ってみせた。
+#すいかは一瞬目をそらし、それから笑顔を作ってみせた。
+#SCRIPT ADD KANJI
+Ｓuika’s eyes look away for a moment, and then she shows me a smiling face.
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00862
-「ありがとう、ございます……」
+#「ありがとう、ございます……」
+＠Suika,R00862
+「Thank you, very much……」
 
-＠樹
-「ははは……。それより、早くゲームをやらせてくれないか？」
+#「ははは……。それより、早くゲームをやらせてくれないか？」
+＠Itsuki
+「Hahaha…… Leaving that aside, can we hurry up and play the game?」
 
-＠樹
-「楽しみにしてたんだぜ、オレ」
+#「楽しみにしてたんだぜ、オレ」
+＠Itsuki
+「I’ll enjoy myself.」
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00863
-「……あ、はい！」
+#「……あ、はい！」
+＠Suika,R00863
+「Ah, yes!」
 
-すいかは慌てたようにうなずく。
+#すいかは慌てたようにうなずく。
+#SCRIPT ADD KANJI
+Ｓuika is becomes flustered and nods in agreement.
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00864
-「それじゃ、準備しますね……」
+#「それじゃ、準備しますね……」
+＠Suika,R00864
+「Well then, I’ll set it up……」
 
 
 bgm_stop
 @suika_
 
 
-すいかは机に向かい、パソコンの電源を入れる。
+#すいかは机に向かい、パソコンの電源を入れる。
+#SCRIPT ADD KANJI
+Ｏn the other side of the desk, Suika turns the computer on.
 
-……そして俺たちは、いつものようにすいかの作ったゲームで遊んだのだった。
+#……そして俺たちは、いつものようにすいかの作ったゲームで遊んだのだった。
+#SCRIPT ADD KANJI
+……And then we play the game that Suika made like normal, enjoying ourselves.
 
 
 

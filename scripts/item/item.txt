@@ -215,8 +215,9 @@ goto	itemuse_skip
 #（ケーキ）###################################################################
 label	itemuse_cake
 
-ケーキをあげた。<br>
-とても喜んで食べてくれた。
+#SCRIPT ADD KANJI
+Ｇave her some cake <br>
+She ate it happily.
 
 add_kenkou=add_kenkou*1
 window_close
@@ -233,8 +234,8 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-
-けんこうが[ADD_KENKOU]回復！
+#SCRIPT ADD KANJI
+Ｓtamina replenished by [ADD_KENKOU]!
 
 
 #（統合へ）
@@ -243,8 +244,8 @@ goto	itemuse_skip
 #（栄養ドリンク）#############################################################
 label	itemuse_drink
 
-栄養ドリンクをあげた。<br>
-変な味がする、といいつつも全て飲み干してくれた。
+#SCRIPT ADD KANJI
+Ｇave her a Nutrient drink. <br>She said it tasted funny but still finished it.
 
 add_kenkou=add_kenkou*2
 window_close
@@ -261,7 +262,8 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-けんこうが[ADD_KENKOU]回復！
+#SCRIPT ADD KANJI
+Ｓtamina replenished by [ADD_KENKOU]!
 
 
 #（統合へ）
@@ -270,7 +272,8 @@ goto	itemuse_skip
 #（成長の実）#################################################################
 label	itemuse_seichounomi
 
-成長の実をあげた。<br>
+#SCRIPT ADD KANJI
+Ｇave her the fruit of growth <br>
 
 add_kenkou=add_kenkou*10
 window_close
@@ -287,8 +290,8 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-
-けんこうが[ADD_KENKOU]回復！
+#SCRIPT ADD KANJI
+Ｓtamina replenished by [ADD_KENKOU]!
 
 
 #（統合へ）
@@ -298,8 +301,8 @@ goto	itemuse_skip
 #（ぬいぐるみ）###############################################################
 label	itemuse_doll
 
-かわいいぬいぐるみをあげた。<br>
-とても喜んでくれたみたいだ。
+#SCRIPT ADD KANJI
+Ｇave her an adorable stuffed animal <br>she seems very happy.
 
 add_kiryoku=add_kiryoku*1
 window_close
@@ -316,7 +319,8 @@ if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-きりょくが[ADD_KIRYOKU]回復！
+#SCRIPT ADD KANJI
+Ｗillpower replenished by [ADD_KIRYOKU]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -324,8 +328,8 @@ goto	itemuse_skip
 #（ぁゃιぃクスリ）###########################################################
 label	itemuse_drug
 
-なんだかよくわからないクスリをあげた。<br>
-嫌がりつつもなんとか飲んでくれた。
+#SCRIPT ADD KANJI
+Ｇave her some suspicious medicine. <br>She took it with much resistance.
 
 add_kiryoku=add_kiryoku*2
 window_close
@@ -342,7 +346,8 @@ if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-きりょくが[ADD_KIRYOKU]回復！
+#SCRIPT ADD KANJI
+Ｗillpower replenished by [ADD_KIRYOKU]!
 
 
 #（統合へ）
@@ -352,7 +357,8 @@ goto	itemuse_skip
 label	itemuse_book1
 add_atama=add_atama*1
 
-かんたんな問題集をあげてみた。
+#SCRIPT ADD KANJI
+Ｇave her some easy drills.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -368,7 +374,8 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-あたまが[ADD_ATAMA]アップ！
+#SCRIPT ADD KANJI
+Ｉntelligence up by [ADD_ATAMA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -377,7 +384,8 @@ goto	itemuse_skip
 label	itemuse_book2
 add_atama=add_atama*2
 
-基本的な問題集をあげてみた。
+#SCRIPT ADD KANJI
+Ｇave her some basic drills.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -393,7 +401,8 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-あたまが[ADD_ATAMA]アップ！
+#SCRIPT ADD KANJI
+Ｉntelligence up by [ADD_ATAMA]!
 
 
 #（統合へ）
@@ -403,8 +412,8 @@ goto	itemuse_skip
 label	itemuse_book3
 add_atama=add_atama*3
 
-とても難しい問題集をあげてみた。<br>
-これが解けたら天才かもしれない。
+#SCRIPT ADD KANJI
+Ｇave her some really hard drills. <br>She would be a genius if she could solve them.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -420,7 +429,8 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-あたまが[ADD_ATAMA]アップ！
+#SCRIPT ADD KANJI
+Ｉntelligence up by [ADD_ATAMA]!
 
 
 #（統合へ）
@@ -429,8 +439,8 @@ goto	itemuse_skip
 #（おなかでふるえるベルト）###################################################
 label	itemuse_belt
 
-お腹でブルブルして筋肉を鍛えてくれるベルトをあげてみた。<br>
-効果はあるのだろうか……？
+#SCRIPT ADD KANJI
+Ｇave her a belt which gives you muscles if you vibrate your belly with it. <br>I wonder if it works...?
 
 add_karada=add_karada*1
 
@@ -448,7 +458,8 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-からだが[ADD_KARADA]アップ！
+#SCRIPT ADD KANJI
+Ｂody up by [ADD_KARADA]!
 
 
 #（統合へ）
@@ -457,8 +468,8 @@ goto	itemuse_skip
 #（元軍人さんの体操ビデオ）###################################################
 label	itemuse_sportsvideo
 
-軍人さんと楽しく体操できるビデオをあげてみた。<br>
-ダイエットにもなるかもしれない。
+#SCRIPT ADD KANJI
+Ｇave her a military video where you can have fun working out with soldiers. <br>It may even be good for a diet.
 
 add_karada=add_karada*2
 
@@ -476,7 +487,8 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-からだが[ADD_KARADA]アップ！
+#SCRIPT ADD KANJI
+Ｂody up by [ADD_KARADA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -484,8 +496,8 @@ goto	itemuse_skip
 #（なにかの養成ギプス）#######################################################
 label	itemuse_gibusu
 
-ものすごく強力なバネがついたギプスをつけてあげた。<br>
-ずっとつけていれば、なにかの星になれるかもしれない……。
+#SCRIPT ADD KANJI
+Ｇave her a body training suit with extremly strong springs. <br>If she continues to wear it maybe she'll become some sort of star.....
 
 add_karada=add_karada*3
 
@@ -503,7 +515,8 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-からだが[ADD_KARADA]アップ！
+#SCRIPT ADD KANJI
+Ｂody up by [ADD_KARADA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -511,8 +524,8 @@ goto	itemuse_skip
 #（きれいな手鏡）#############################################################
 label	itemuse_mirror
 
-キラキラした装飾がついた手鏡をあげた。<br>
-とても喜んでくれたみたいだ。
+#SCRIPT ADD KANJI
+Ｇave her a mirror with shiny things attached to it. <br>she seems very happy.
 
 add_kokoro=add_kokoro*1
 
@@ -530,7 +543,8 @@ if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-こころが[ADD_KOKORO]アップ！
+#SCRIPT ADD KANJI
+Ｍind up by [ADD_KOKORO]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -538,8 +552,8 @@ goto	itemuse_skip
 #（アイドル写真集「ジ・アイドルマイスター写真集」）##########################
 label	itemuse_photobook
 
-同い年くらいの女の子アイドルの写真集をあげてみた。<br>
-とても興味深そうに読んでいる。
+#SCRIPT ADD KANJI
+Ｇave her a gravure photobook of a girl about the same age as her. <br>She's reading it with alot of interest.
 
 add_kokoro=add_kokoro*2
 
@@ -557,7 +571,8 @@ if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-こころが[ADD_KOKORO]アップ！
+#SCRIPT ADD KANJI
+Ｍind up by [ADD_KOKORO]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -565,8 +580,8 @@ goto	itemuse_skip
 #（エッチな本「SMドエロ大魔神」）#############################################
 label	itemuse_erobook
 
-マニアックなどぎついエロ本をあげてみた。<br>
-初めはいらないと言われたが、結局自分の部屋に持って帰ったみたいだ。
+#SCRIPT ADD KANJI
+Ｉ gave her some pretty maniac and harsh pornography. <br>She said she didn't need it at first, but apparently ended up sneaking it into her room.
 
 add_kokoro=add_kokoro*3
 
@@ -584,6 +599,8 @@ if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#Mind up by [ADD_KOKORO]!
+
 #（統合へ）
 goto	itemuse_skip
 
@@ -591,8 +608,8 @@ goto	itemuse_skip
 # ショップでは買えない？　一応入れておきます。
 label	itemuse_visualbook
 
-労働の喜びを教えてくれる教育絵本をあげてみた。<br>
-無駄にやる気を出し始めた。どうやら感動したらしい。
+#SCRIPT ADD KANJI
+Ｉ gave her a picture book talking about the enjoyment of working. <br>She seems excessively hyped up, seems to be moved by the book.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -605,7 +622,8 @@ wait	2000
 @item_effect_2
 wait	1000
 
-バイトの収入アップ！
+#SCRIPT ADD KANJI
+Ｐayrise!
 
 #（統合へ）
 goto	itemuse_skip
@@ -687,7 +705,8 @@ return
 
 macro	itemuse_charasel
 
-誰に使おうか……
+#SCRIPT ADD KANJI
+Ｗho should I use it on...
 
 itemuse_chara=0
 

@@ -785,7 +785,7 @@ wait	1000
 #（２．飛び込みプールへ）
 #（３．５０Ｍプールへ）
 
-select	sel,"流水プールへ","飛び込みプールへ","５０Ｍプールへ"
+select	sel,"Lazy river","Diving pool","50m pool"
 if sel=0 then goto pool_a1
 if sel=1 then goto pool_a2
 if sel=2 then goto pool_a3
@@ -917,7 +917,7 @@ event	"event\EV_ALL_040-02.png"
 #（１．みかんの味方につく）
 #（２．いちごの味方につく）
 #（３．かりんの様子を見る）
-select	sel,"みかんの味方につく","いちごの味方につく","かりんの様子を見る"
+select	sel,"Take Mikan's side","Take Ichigo's side","See Karin's side"
 if sel=0 then goto pool_b1
 if sel=1 then goto pool_b2
 if sel=2 then goto pool_b3
@@ -1131,7 +1131,7 @@ label	pool_b2
 #（選択肢Ｃ）
 #（１．もちろん好きだからだよ）
 #（２．実はそうじゃなくて……）
-select	sel,"もちろん好きだからだよ","実はそうじゃなくて……"
+select	sel,"Of course I like it","Actually, that's not so……"
 if sel=0 then goto pool_c1
 if sel=1 then goto pool_c2
 
@@ -1334,7 +1334,7 @@ label	pool_b3
 #（選択肢Ｄ）
 #（１．別に……）
 #（２．ちょっとだけ……）
-select	sel,"別に……","ちょっとだけ……"
+select	sel,"Not particularly……","Just a little……"
 if sel=0 then goto pool_d1
 if sel=1 then goto pool_d2
 

@@ -151,7 +151,7 @@ screen_vibration	500,16,16,16
 #■選択肢
 #（１．食堂へ行ってみる）
 #（２．リビングに誰かいるかな）
-select sel,"食堂へ行ってみる","リビングに誰かいるかな"
+select sel,"Go to the dining room","Is there someone in the living room?"
 if sel=0 then goto kari9_01_a
 if sel=1 then goto kari9_01_b
 #--------------------------------------------------
@@ -408,7 +408,7 @@ screen_vibration	500,16,16,16
 #■選択肢Ａ
 #（１．もう一回言ってもらう（遊び））
 #（２．バカな考えはやめよう）
-select sel,"もう一回言ってもらう","バカな考えはやめよう"
+select sel,"Say again","Idiot, stop and think"
 if sel=0 then goto kari9_02_a
 if sel=1 then goto kari9_02_b
 #--------------------------------------------------
@@ -496,7 +496,7 @@ label	kari9_02_a
 #■選択肢Ｂ
 #（１．もっと言ってもらいたい（遊び））
 #（２．待て、オレ。踏みとどまれ）
-select sel,"もっと言ってもらいたい","待て、オレ。踏みとどまれ"
+select sel,"I want to say more","Wait. Say nothing."
 if sel=0 then goto kari9_03_a
 if sel=1 then goto kari9_02_b
 #--------------------------------------------------
@@ -598,7 +598,7 @@ wait		1000
 #■選択肢Ｃ
 #（１．じゃあ、ぜひお願いする（遊び））
 #（２．これ以上はマズイって……）
-select sel,"じゃあ、ぜひお願いする","これ以上はマズイって……"
+select sel,"Well then, by all means ask","Any more would be bad"
 if sel=0 then goto kari9_04_a
 if sel=1 then goto kari9_02_b
 #--------------------------------------------------

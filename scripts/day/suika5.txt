@@ -12,19 +12,33 @@ label	suika_05
 @bg_itsuki_n		# 自室(夜)
 
 
-さて、パソコンを買ったのはいいけど、どうしたもんか……。
+#さて、パソコンを買ったのはいいけど、どうしたもんか……。
+#SCRIPT ADD KANJI
+Ｗell, it's okay that I bought a computer, but what now......
 
-とりあえず自分の部屋に戻り、オレは考えていた。
+#とりあえず自分の部屋に戻り、オレは考えていた。
+#SCRIPT ADD KANJI
+Ｉ thought I would bring it to my room for now.
 
-頑張ってるすいかにプレゼント、ということにしてもいいんだけれど、それもやっぱり他の子に不公平だからな。
+#頑張ってるすいかにプレゼント、ということにしてもいいんだけれど、それもやっぱり他の子に不公平だからな。
+#SCRIPT ADD KANJI
+Ｉt would be good to give it to Suika who is doing her best, but that's probably unfair to the other children.
 
-となるとやっぱり、貸してやるってことにするのが妥当なのかな。
+#となるとやっぱり、貸してやるってことにするのが妥当なのかな。
+#SCRIPT ADD KANJI
+Ｔhen it's probably right to lend it.
 
-安かったから思わず買っちゃったけど、あんまり使わないから……ということにしておくか。
+#安かったから思わず買っちゃったけど、あんまり使わないから……ということにしておくか。
+#SCRIPT ADD KANJI
+Ｉt was cheap so I bought it without thinking, but I won't really use it......I think I'll do that.
 
-だとすると、買ったばかりということにしないほうがいいかな？
+#だとすると、買ったばかりということにしないほうがいいかな？
+#SCRIPT ADD KANJI
+Ｂut then isn't it better if I didn't just buy it?
 
-しばらく前に買ったけれど、使っていなかったということにした方がいいだろうな……。
+#しばらく前に買ったけれど、使っていなかったということにした方がいいだろうな……。
+#SCRIPT ADD KANJI
+Ｉ bought it just a while ago, but it's probably better if it wasn't used......
 
 
 #■BG（黒）
@@ -34,8 +48,9 @@ wait		1000
 @bg_rouka_n		# 廊下(夜)
 
 
-みんなの風呂が終わったぐらいの時間まで待って、オレはすいかの部屋に行ってみた。
-
+#みんなの風呂が終わったぐらいの時間まで待って、オレはすいかの部屋に行ってみた。
+#SCRIPT ADD KANJI
+Ｉ waited long enough for everyone's bath to finish, then I went to Suika's room.
 
 #SE　ノック
 @bg_black
@@ -44,14 +59,20 @@ wait		1000
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 
-＠樹
-「すいか、今、いいか？」
+#＠樹
+#「すいか、今、いいか？」
+＠Itsuki
+「Suika, is it okay to come in now?」
 
-＠すいか,R00457
-「……あ、はい」
+#＠すいか,R00457
+#「……あ、はい」
+＠Suika,R00457
+「......Ah, yes.」
 
 
-すいかの返事を確認し、オレはすいかの部屋のドアを開ける。
+#すいかの返事を確認し、オレはすいかの部屋のドアを開ける。
+#SCRIPT ADD KANJI
+Ｉ opened the door to Suika's room after confirming her reply.
 
 
 @bg_black
@@ -60,10 +81,14 @@ wait		1000
 @bg_suika_n		# すいかの部屋(夜)
 
 
-＠樹
-「今日は、ゲームじゃなかったんだな」
+#＠樹
+#「今日は、ゲームじゃなかったんだな」
+＠Itsuki
+「Today you weren't playing a game.」
 
-またノックしても無駄かと思っていたので、ちょっと意外だ。
+#またノックしても無駄かと思っていたので、ちょっと意外だ。
+#SCRIPT ADD KANJI
+Ｉ didn't knock again because I thought it was useless, so it was kind of unexpected.
 
 
 @suika_small
@@ -72,90 +97,130 @@ wait		1000
 @suika_komariwarai	#困笑
 
 
-＠すいか,R00458
-「あはは……。今日はちょっと、宿題が多くて」
+#＠すいか,R00458
+#「あはは……。今日はちょっと、宿題が多くて」
+＠Suika,R00458
+「Ahaha...... Today I have a lot of homework.」
 
-いつものジャージ姿で、すいかは苦笑する。
+#いつものジャージ姿で、すいかは苦笑する。
+#SCRIPT ADD KANJI
+Ｓuika bitterly smiles, wearing her usual jersey.
 
-が、すぐにオレの持っているものに気づいたらしい。
-
+#が、すぐにオレの持っているものに気づいたらしい。
+#SCRIPT ADD KANJI
+Ｂut it seems she immediately noticed the thing I was holding.
 
 @suika			#普
 
 
-＠すいか,R00459
-「……あれ、院長先生、それは？」
+#＠すいか,R00459
+#「……あれ、院長先生、それは？」
+＠Suika,R00459
+「......Huh, Inchou-sensei, what's that?」
 
-＠樹
-「見てのとおり、ノートパソコンだ」
+#＠樹
+#「見てのとおり、ノートパソコンだ」
+＠Itsuki
+「Just as it looks like, it's a laptop.」
 
 
 @suika_odoroki		#驚
 
 
-＠すいか,R00460
-「ええっ？　院長先生、パソコンなんて持ってたんですか？」
+#＠すいか,R00460
+#「ええっ？　院長先生、パソコンなんて持ってたんですか？」
+＠Suika,R00460
+「Eeh? Inchou-sensei, you had a computer?」
 
-＠樹
-「ここに来たばっかりの頃に、街で安く売ってたんだよ」
+#＠樹
+#「ここに来たばっかりの頃に、街で安く売ってたんだよ」
+＠Itsuki
+「Right after I came here, it was being sold for a cheap price on the street.」
 
-＠樹
-「それでつい買っちゃったんだけど、全然使ってなくてさ」
+#＠樹
+#「それでつい買っちゃったんだけど、全然使ってなくてさ」
+＠Itsuki
+「I just immediately bought it, but I don't use it at all.」
 
 
 @suika			#普
 
 
-＠樹
-「けど、この前すいかがプログラムの勉強してただろ？　それでちょっと、思い出してな……」
+#＠樹
+#「けど、この前すいかがプログラムの勉強してただろ？　それでちょっと、思い出してな……」
+＠Itsuki
+「But, before, Suika was studying programming right? So I remembered it......」
 
-＠樹
-「オレは使ってないから、よかったらすいかが使うか？」
+#＠樹
+#「オレは使ってないから、よかったらすいかが使うか？」
+＠Itsuki
+「I don't use it, so if you'd like, do you want to use it?」
 
 
 #@suika_odoroki		#驚
 @suika_yorokobi		#喜
 
 
-＠すいか,R00461
-「ええっ……？　ホントに、いいんですか……？」
+#＠すいか,R00461
+#「ええっ……？　ホントに、いいんですか……？」
+＠Suika,R00461
+「Eeh-......? Really, is it okay......?」
 
-オレの申し出に、すいかは目を輝かせる。
+#オレの申し出に、すいかは目を輝かせる。
+#SCRIPT ADD KANJI
+Ｓuika's eyes sparkled because of my suggestion.
 
-やっぱり、プログラムの本なんて読んでいるだけに、パソコンにはすごく興味があるようだ。
+#やっぱり、プログラムの本なんて読んでいるだけに、パソコンにはすごく興味があるようだ。
+#SCRIPT ADD KANJI
+Ｓhe probably has lots of interest in computers even if she was just reading programming books.
 
-＠樹
-「ま、オレは使わないからな、今のところ」
+#＠樹
+#「ま、オレは使わないからな、今のところ」
+＠Itsuki
+「Well, I don't really use it now.」
 
-そう言ってオレは、すいかにパソコンを差し出した。
+#そう言ってオレは、すいかにパソコンを差し出した。
+#SCRIPT ADD KANJI
+Ｉ held out the computer to Suika and said that.
 
-＠樹
-「まあ、もしオレが使うことがあれば、そのときはいったん返してもらうことになるけど」
+#＠樹
+#「まあ、もしオレが使うことがあれば、そのときはいったん返してもらうことになるけど」
+＠Itsuki
+「Well, if I need to use it, you'll have to give it back for a while.」
 
-と、これぐらい念を押しておいた方が、わざわざ買ったということを疑われにくいだろう。
-
+#と、これぐらい念を押しておいた方が、わざわざ買ったということを疑われにくいだろう。
+#SCRIPT ADD KANJI
+Ａnd, making sure this much makes it hard to suspect that I bought it on purpose.
 
 @suika_warai		#笑
 
 
-＠すいか,R00462
-「はい、そのときはすぐにお返しします」
+#＠すいか,R00462
+#「はい、そのときはすぐにお返しします」
+＠Suika,R00462
+「Yes, I'll return it right away then.」
 
-＠樹
-「ほら、受け取れよ」
+#＠樹
+#「ほら、受け取れよ」
+＠Itsuki
+「Here, take it.」
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00463
-「あ、はい……」
+#＠すいか,R00463
+#「あ、はい……」
+＠Suika,R00463
+「Ah, yes......」
 
 
 @suika_
 
 
-すいかは俺の手からノートパソコンを受け取ると、幸せそうにそれを胸に抱きしめた。
+#すいかは俺の手からノートパソコンを受け取ると、幸せそうにそれを胸に抱きしめた。
+#SCRIPT ADD KANJI
+Ｓuika happily took the laptop from my hands and held it to her chest.
 
 
 @suika_middle		# 中間
@@ -163,34 +228,50 @@ wait		1000
 @suika_warai		#笑
 
 
-＠すいか,R00464
-「ありがとう……ございます……！」
+#＠すいか,R00464
+#「ありがとう……ございます……！」
+＠Suika,R00464
+「Thank you......very much......!」
 
-＠樹
-「ははは、大げさだな。使ってないから貸すだけだって」
+#＠樹
+#「ははは、大げさだな。使ってないから貸すだけだって」
+＠Itsuki
+「Hahaha, don't exaggerate. I don't use it so I'm just lending it.」
 
 
 @suika_yorokobi		#喜
 
 
-＠すいか,R00465
-「でも、ホントに嬉しいんです……！」
+#＠すいか,R00465
+#「でも、ホントに嬉しいんです……！」
+＠Suika,R00465
+「But, I'm really happy......!」
 
-うーん、思った以上の喜び方だ。
+#うーん、思った以上の喜び方だ。
+#SCRIPT ADD KANJI
+Ｓhe was more happy than I thought she would be.
 
-やっぱり、このパソコンを買って正解だったかもしれない。
+#やっぱり、このパソコンを買って正解だったかもしれない。
+#SCRIPT ADD KANJI
+Ｉ guess it was right to have bought this computer.
 
-＠樹
-「なんかプログラムしたら、見せてくれよ？」
+#＠樹
+#「なんかプログラムしたら、見せてくれよ？」
+＠Itsuki
+「If you program something, show me okay?」
 
 
 @suika_warai		#笑
 
 
-＠すいか,R00466
-「はい！　一番に院長先生に見せますね！」
+#＠すいか,R00466
+#「はい！　一番に院長先生に見せますね！」
+＠Suika,R00466
+「Yes! I'll show Inchou-sensei first!」
 
-すいかは嬉しそうにうなずき、俺に約束した。
+#すいかは嬉しそうにうなずき、俺に約束した。
+#SCRIPT ADD KANJI
+Ｓuika happily nodded and made a promise with me.
 
 
 #■BG（黒）

@@ -1,6 +1,6 @@
 label	zakuro_03
 #--------------------------------------------------
-#ざくろイベント３
+#Zakuroイベント３
 #発生条件：『youzyo-zaku2』が終了していること＆一定の好感度？
 #発生時期：未定
 #--------------------------------------------------
@@ -11,18 +11,20 @@ label	zakuro_03
 @bgm12			#BGM 12 : メインテーマ
 
 
-またある一日のこと。
+#またある一日のこと。
+#SCRIPT ADD KANJI
+Ａnd there's another day like this.
 
-少し出来た暇な時間を潰そうと、オレは図書室に足を運んでいた。
-
+#少し出来た暇な時間を潰そうと、オレは図書室に足を運んでいた。
+#SCRIPT ADD KANJI
+Ｔhere is some free times and I was dragged to library by my legs 
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
-
-＠樹
-「ん……？」
-
+#「ん……?」
+＠Itsuki
+「Nn.....?」
 
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
@@ -32,91 +34,117 @@ label	zakuro_03
 @bg_door		# ドア前
 
 
-＠ざくろ,Q00523
-「あ、つっちー発見」
+#「あ、つっちー発見」
+＠Zakuro,Q00523
+「Aah, I found Tsucchi.」
 
-入ろうとした矢先、入れ替わるように、中からざくろが出てきた。
-
+#入ろうとした矢先、入れ替わるように、中からZakuroが出てきた。
+#SCRIPT ADD KANJI
+Ａs I am about to enter, Zakuro showed up from inside in instance.
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q00524
-「図書室に用事？」
+#「図書室に用事？」
+＠Zakuro,Q00524
+「Have some business here?」
 
-＠樹
-「ちょっとした時間つぶしでな。ざくろもか？」
-
+#「ちょっとした時間つぶしでな。Zakuroもか？」
+＠Itsuki
+「Well I'm just hanging around a bit. you too?」
 
 @zakuro			#普
 
+#「うん。春画本を熟読してたの」
+＠Zakuro,Q00525
+「Yeah. I'm gonna carefully read some obsence picture book.」
 
-＠ざくろ,Q00525
-「うん。春画本を熟読してたの」
+#「しゅん………そ、そうか」
+＠Itsuki
+「Porn.........I-, I see.」
 
-＠樹
-「しゅん………そ、そうか」
+#春画本とは、すなわちエロ本。
+#SCRIPT ADD KANJI
+Ｗhen I say obsence picture book, litterally it means ero book.
 
-春画本とは、すなわちエロ本。
-
-ここの図書室には専用のコーナーがあるくらい、そっち系の本も充実している。
-
+#ここの図書室には専用のコーナーがあるくらい、そっち系の本も充実している。
+#SCRIPT ADD KANJI
+Ｗell, this library even has some private corner in it, and we also have a good collection of those books.
 
 @zakuro_niko		#にこ
 
 
-＠ざくろ,Q00526
-「面白そうなのみつけたから、ちょっと嬉しい」
+#「面白そうなのみつけたから、ちょっと嬉しい」
+＠Zakuro,Q00526
+「If I find something interesting, it makes me happy.」
 
-＠ざくろ,Q00527
-「つっちーも読む？」
+#「つっちーも読む？」
+＠Zakuro,Q00527
+「Do Tsucchi want to join?」
 
-＠樹
-「……いや、結構。もうリアル性生活だけでお腹いっぱいだから」
+#「……いや、結構。もうリアル性生活だけでお腹いっぱいだから」
+＠Itsuki
+「......No, thanks. I'm already stuffed with real sex life here.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00528
-「そう、残念。これならつっちーも受けの気分を味わえるのに」
+#「そう、残念。これならつっちーも受けの気分を味わえるのに」
+＠Zakuro,Q00528
+「Ah I see, what a waste. 」
 
-＠樹
-「…………」
+#「…………」
+＠Itsuki
+「.............」
 
-『背徳のアナルプレイⅥ～お兄ちゃん、お尻の中が気持ちいいよぉ～』
+#『背徳のアナルプレイⅥ～お兄ちゃん、お尻の中が気持ちいいよぉ～』
+#SCRIPT ADD KANJI
+　 'Corrupted Anal Play VI ~Oniichan, My bottom feels really good~' 
 
-＠樹
-「絶対に読みたくねぇ……」
+#Argh this one sounds lame need some correction. 
+
+#「絶対に読みたくねぇ……」
+＠Itsuki
+「I will never read it......」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q00529
-「あと、日記書いてた」
+#「あと、日記書いてた」
+＠Zakuro,Q00529
+「Then, I'll write a diary.」
 
-＠樹
-「日記………あ」
+#「日記………あ」
+＠Itsuki
+「Diary........Ah!?」
 
-あの『ざくろだらけ』か。
+#Well the sign to show itsu realize sumthin.
 
-＠ざくろ,Q00530
-「それじゃ、部屋でまたこれ読み返してくるけど」
+#あの『Zakuroだらけ』か。
+#SCRIPT ADD KANJI
+Ｔhat 'Zakuro darake' thingy...
+
+#「それじゃ、部屋でまたこれ読み返してくるけど」
+＠Zakuro,Q00530
+「Well then, I'll go to my room and read this once more.」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q00531
-「つっちーも一緒にくる？」
+#「つっちーも一緒にくる？」
+＠Zakuro,Q00531
+「Do Tsucchi want to come along too?」
 
 
 #--------------------------------------------------
 #■選択肢
-#（１．行く）
-#（２．行かない）
-select sel,"行く","行かない"
+#（１．Come along）
+#（２．Refuse）
+select sel,"Come along","Refuse"
+#Well change the opt if you dont like it. Cos it may sound wierd or lame.
 if sel=0 then goto youzyo_zaku3_q01_a
 if sel=1 then goto youzyo_zaku3_q01_b
 #--------------------------------------------------
@@ -133,11 +161,15 @@ wait		100
 @bg_rouka		# 廊下
 
 
-＠樹
-「絶対イヤだッ、行きたくない！」
+#「絶対イヤだッ、行きたくない！」
+＠Itsuki
+「I won't go, I don't want to go!」
 
-＠ざくろ,Q00532
-「………？　誰に向かって言ってるの？」
+#Don't know the harsher way to say refusing oneself to go --'
+
+#「………？　誰に向かって言ってるの？」
+＠Zakuro,Q00532
+「..........? Who're you talking to?」
 
 
 @bg_black		# 黒
@@ -148,25 +180,29 @@ wait		100
 @bg_door		# ドア前
 
 
-＠樹
-「……とりあえず、それは一人で楽しんでくれ。周りに迷惑かけないようにな」
+#「……とりあえず、それは一人で楽しんでくれ。周りに迷惑かけないようにな」
+＠Itsuki
+「......For the time being, Please enjoy that alone. I don't want to get in your reading.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00533
-「うん、残念……」
+#「うん、残念……」
+＠Zakuro,Q00533
+「Kay, it's unfortunate.....」
 
 
 @zakuro_akire		#呆
 
 
-＠ざくろ,Q00534
-「部屋にさえ入れたら、後は無理やりアナルプレイに誘う自信があったのに」
+#「部屋にさえ入れたら、後は無理やりアナルプレイに誘う自信があったのに」
+＠Zakuro,Q00534
+「If you had accepted, I'd have force you to some anal play later .」
 
-＠樹
-「サラッと言うな、そんなこと……」
+#「サラッと言うな、そんなこと……」
+＠Itsuki
+「Don't tell that now, that kind of thing......」
 
 
 #SE18　廊下を歩き去る音　※徐々に小さく
@@ -176,19 +212,22 @@ wait		1000
 @SE18			#廊下を歩き去る音
 
 
-心持ち残念そうに本を抱え、ざくろは部屋に戻っていく。
+#心持ち残念そうに本を抱え、Zakuroは部屋に戻っていく。
+#SCRIPT ADD KANJI
+Ｗith some dissapointment, she hold her books and return to her room.
 
-＠樹
-「危うく捕獲されるところだった……」
-
+#「危うく捕獲されるところだった……」
+＠Itsuki
+「I almost get caught in something dangerous....」
 
 bgm_stop
 #■BG（黒）
 @bg_rouka		# 廊下
 
 
-何か改めて卑猥本が眠る図書室に入る気も失せ、オレも部屋に引き返した。
-
+#何か改めて卑猥本が眠る図書室に入る気も失せ、オレも部屋に引き返した。
+#SCRIPT ADD KANJI
+Ｉt seems checking some ero book sobers me up and I return to my room.
 
 @bg_black
 wait		1000
@@ -207,32 +246,39 @@ return
 label		youzyo_zaku3_q01_b
 
 
-＠樹
-「悪いけど、遠慮する。絶対何かありそうだ」
+#「悪いけど、遠慮する。絶対何かありそうだ」
+＠Itsuki
+「I'm sorry, not this time. I sense something in it.」
+
+#Ummm can't think off any better, need rephrase
 
 
 @zakuro_iya		#嫌
 
 
-＠ざくろ,Q00535
-「……鋭い」
+#「……鋭い」
+＠Zakuro,Q00535
+「.......Sharp.」
 
 
 @zakuro_metoji		#閉
 
 
-＠ざくろ,Q00536
-「分かった。アナルプレイしようと思ったけど、今日は諦める」
+#「分かった。アナルプレイしようと思ったけど、今日は諦める」
+＠Zakuro,Q00536
+「I'll tell you. I've been thinking about some anal play, but I'll let you go for today.」
 
-＠樹
-「あぁ、そうしてくれ……」
+#「あぁ、そうしてくれ……」
+＠Itsuki
+「Aah.., please do so.」
 
 
 @zakuro			#普
 
 
-＠ざくろ,Q00537
-「じゃ」
+#「じゃ」
+＠Zakuro,Q00537
+「Later.」
 
 
 #SE18　廊下を歩き去る音　※徐々に小さく
@@ -242,10 +288,13 @@ wait		1000
 @SE18			#廊下を歩き去る音
 
 
-本を抱え、トコトコと廊下を歩いていく。
+#本を抱え、トコトコと廊下を歩いていく。
+#SCRIPT ADD KANJI
+Ｗhile holding the book, she walks down the hallway.
 
-＠樹
-「……やっぱざくろの事だから、ただ読むだけじゃ済まないんだろうな」
+#「……やっぱZakuroの事だから、ただ読むだけじゃ済まないんだろうな」
+＠Itsuki
+「......As I thought if it's with Zakuro, it won't be just a simple reading.」
 
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
@@ -255,66 +304,98 @@ bgm_stop
 @SE06			#部屋のドア開く音（ガチャ）
 
 
-妙な興味を振り切り、代わりに図書室へ入る。
-
+#妙な興味を振り切り、代わりに図書室へ入る。
+#SCRIPT ADD KANJI
+Ａfter escaping from bad things, I enter the library.
 
 #■BG（図書室）
 @bg_library		# 図書室
 
 
-＠樹
-「日記書いてたって言ったな」
+#「日記書いてたって言ったな」
+＠Itsuki
+「She wrote the diary she said.」
 
-そっちへの探究心は抑えきれず、件の本棚を開けてみた。
+#そっちへの探究心は抑えきれず、件の本棚を開けてみた。
+#SCRIPT ADD KANJI
+Ｗith some motivation, I search it down at the aisle.
 
 @bgm08
 #@bgmk12			#BGM K12 : 興味津々のテーマ
 
 
-『ざくろだらけvol.4』
+#『Zakuroだらけvol.4』
+#SCRIPT ADD KANJI
+　  'Zakuro darake vol.4'
 
-＠樹
-「ふ、増えてる………３までだったのに」
+#「ふ、増えてる………３までだったのに」
+＠Itsuki
+「Fuh, it increased...... it was only 3 before.」
 
-とりあえず最新の物を出して、広げてみる。
+#Err if you can make the last phrase into something more like a complain.
 
+#とりあえず最新の物を出して、広げてみる。
+#SCRIPT ADD KANJI
+Ｗell for the time being let's just open the newest.
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 
-（１月７日、『ざくろダラけ～』の日）
-
+#（１月７日、『Zakuroダラけ～』の日）
+#SCRIPT ADD KANJI
+　  (January 7th, 'Zakuro darake~' day)
 
 #下記は台本用表記。ゲーム内ではネームプレートを無くして二重カギカッコ扱い
 
 
+#『雫に言われて、新しい院長のつっちーにフェラチオをした』
 ＠　,Q00538
-『雫に言われて、新しい院長のつっちーにフェラチオをした』
+  'I gave the new director, Tsucchi, a blow job because Shizuku told me to.'
 
-＠樹
-「お……オレが出てきた。新しいな」
 
+#「お……オレが出てきた。新しいな」
+＠Itsuki
+「Oh..... I'm in it. It's new.」 (note: alternative translation in comments)
+
+#or
+#「Oh..... I'm being mentioned. So refreshing.」
+
+#『全然素人、あっという間に射精した腰抜け。でも濃さとサイズはよかったから、７９点』
 ＠　,Q00539
-『全然素人、あっという間に射精した腰抜け。でも濃さとサイズはよかったから、７９点』
+  'He's a noob, after ejaculating it went limp. But for the thickness and the size , 79 point' (note: alternative translation in comments)
 
+#or 
+#  'He's a complete amateur, it went limp just like that after ejaculating. But the thickness and the size I'll say it's 79 point'
 
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
 
-＠樹
-「こ、腰抜け……」
+#「こ、腰抜け……」
+＠Itsuki
+「Li-,Limp.......」
 
-＠樹
-「……確かに、ざくろに比べたら全然青かっただろうけど」
+#「……確かに、Zakuroに比べたら全然青かっただろうけど」
+＠Itsuki
+「......Certainly, I'm a complete amateur if compared to Zakuro'」
 
-腰抜けは傷ついた……
+#腰抜けは傷ついた……
+#SCRIPT ADD KANJI
+Ｉ'm hurt to be said like that......
 
-名誉のためにもこれは、リベンジの機会を図った方がいいのだろうか。
+#Don't know how to put the real jap into eng....
 
-＠樹
-「はは……大人気ないか…」
+#名誉のためにもこれは、リベンジの機会を図った方がいいのだろうか。
+#SCRIPT ADD KANJI
+Ｆor my honour, maybe I should take a chance for revenge. (note. alternative translation in comments)
+
+#or
+#Maybe I should plan to take a revenge for the sake of my honour.
+
+#「はは……大人気ないか…」
+＠Itsuki
+「Haha.... I'm so immature...」
 
 
 #SE79　ページを捲る音（ペラッ）
@@ -328,55 +409,81 @@ wait		500
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠樹
-「ぐふぁッ！？」
+＠Itsuki
+「ぐふぁッ!?」
 
-次のページを見て噴いた。
+#次のページを見て噴いた。
+#SCRIPT ADD KANJI
+Ｉ was startled when I see the next page.
 
-（図解：『つっちーのペニス』）
+#（図解：『つっちーのペニス』）
+#SCRIPT ADD KANJI
+　  (Illustration : 'Tsucchi's Penis')
 
-＠樹
-「え、絵日記になっとるッ！」
+#「え、絵日記になっとるッ！」
+＠Itsuki
+「Eh? It becomes a picture diary!」
 
-ページいっぱいに、おそらくオレの興奮状態の局部がかなりリアルに描かれていた。
+#ページいっぱいに、おそらくオレの興奮状態の局部がかなりリアルに描かれていた。
+#SCRIPT ADD KANJI
+Ｂy taking a lot of spaces, I think she had drawn my 'thing' quite realistic.
+
+#No bgm sound of turning paper, so i assume just in one paper.
 
 
 #下記は台本用表記。ゲーム内ではネームプレートを無くして二重カギカッコ扱い
 
 
+#『つっちーのおちんちん。太さも硬さも一生懸命。後は我慢強さだけ覚えたら高得点かも』
 ＠　,Q00540
-『つっちーのおちんちん。太さも硬さも一生懸命。後は我慢強さだけ覚えたら高得点かも』
+  'Tsucchi's penis. It's hard, thick, and lively (?). After that his endurance might also get high score. (?)
 
-＠樹
-「人の性器を批評するなよッ……」
+#「人の性器を批評するなよッ……」
+＠Itsuki
+「Please don't make a review/analysis/comment on other's genital/vital place/private place..... 」
 
-＠樹
-「そしてすげー上手い絵がイヤ過ぎる……」
+#「そしてすげー上手い絵がイヤ過ぎる……」
+＠Itsuki
+「And with this splendid drawing annoys me so much......」
 
-色んな意味で目を背けたいので、とっとと別のページへ。
+#色んな意味で目を背けたいので、とっとと別のページへ。
+#SCRIPT ADD KANJI
+Ｉ want to avert my eyes in many meaning, quickly turn into another page. (note: alternative translation in comments)
 
+#or
+#I don't want to look at it by many reasons, so I hurriedly turn into another page.
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 
-（２月２４日、『白血球ＶＳざくろだらけ』の日）
+#（２月２４日、『白血球ＶＳZakuroだらけ』の日）
+#SCRIPT ADD KANJI
+　  (February 24th, 'White Blood Cell Vs Zakuro darake' Day)
 
-…………。
+#…………。
+#SCRIPT ADD KANJI
+　.............
 
-………ばい菌？
+#………ばい菌？
+#SCRIPT ADD KANJI
+　........... Germ?
 
+#『今日の調教はいちごと一緒だった。前よりいちごは上達している。まだ私が上だけど、こっちも何度かイカされた』
 ＠　,Q00541
-『今日の調教はいちごと一緒だった。前よりいちごは上達している。まだ私が上だけど、こっちも何度かイカされた』
+'Today's training is with Ichigo. She progressed a lot more than before. She's still not in my level yet but I've been trained a lot too (?).
 
+#『快感に素直に悶えるいちごはペットみたいで可愛い。気持ちよかったし、いちごとエッチするの好きになるかも』
 ＠　,Q00542
-『快感に素直に悶えるいちごはペットみたいで可愛い。気持ちよかったし、いちごとエッチするの好きになるかも』
+ 'Easy to worry Ichigo is very cute just like pet. I felt good, I might take a liking to have sex with Ichigo.
 
-＠樹
-「……そんなことしてたのか。気付かなかった」
+#「……そんなことしてたのか。気付かなかった」
+＠Itsuki
+「......Such a thing happened. I didn't know about it.」
 
-＠樹
-「まぁこの二人なら、案外コンビとしてはアリかもな……」
+#「まぁこの二人なら、案外コンビとしてはアリかもな……」
+＠Itsuki
+「Well if its this two kid, there might be such an unexpected combination.....」
 
 
 #SE79　ページを捲る音（ペラッ）
@@ -390,69 +497,97 @@ wait		500
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠樹
-「ぎはッ！？」
+#「ぎはッ！？」
+＠Itsuki
+「Geh!?」
 
-絵の代わりに、いちごとざくろが半裸で乱れ合っている写真が貼ってあった。
+#絵の代わりに、いちごとZakuroが半裸で乱れ合っている写真が貼ってあった。
+#SCRIPT ADD KANJI
+Ｉnstead of pictures, they put some photo of Ichigo and Zakuro half naked together.
 
-ざくろがいちごに被さって攻め、いちごも感じながら反撃している様子が手に取るように伝わってくる。
+#Zakuroがいちごに被さって攻め、いちごも感じながら反撃している様子が手に取るように伝わってくる。
+#SCRIPT ADD KANJI
+Ｚakuro cover Ichigo, and Ichigo also felt her so she connects her arm against Zakuro. (?) (note: plenty of comments here)
 
-＠樹
-「……し、しかもなんて際どいアングルで……」
+#or
+#Zakuro was on top, and Ichigo connected her arm with Zakuro as a proof of pleasure.
+#Well hit me on these, don't know bout these. So i just put in what is in my mind.
 
-撮ったのは雫さんだろう。
+#「……し、しかもなんて際どいアングルで……」
+＠Itsuki
+「......B-, but why in a such dangerous angle..........」
 
-当然、モザイクなんかが入っているはずも無く……
+#撮ったのは雫さんだろう。
+#SCRIPT ADD KANJI
+Ｉt is Shizuku who took it, isn't it.
 
-＠樹
-「他に行こう……他に…」
+#当然、モザイクなんかが入っているはずも無く…
+#SCRIPT ADD KANJI
+Ｎaturally, this is a reason why there's no need of sensor.
+
+#「他に行こう……他に…」
+＠Itsuki
+「Let's see the others.... the others...」
 
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 
-（３月２日、『ワゴンセールに群がるざくろだらけ』の日）
+#（３月２日、『ワゴンセールに群がるZakuroだらけ』の日）
+#SCRIPT ADD KANJI
+　  ( March 2nd, 'To swarm the wagon sale Zakuro darake' day
 
+#『てるてるぼ～ず、てるぼ～ず。今夜もいい夢見せてくれ～♪』
 ＠　,Q00543
-『てるてるぼ～ず、てるぼ～ず。今夜もいい夢見せてくれ～♪』
+'Teru teru Bo~Zu, Teru Bo~Zu. Please give me a good dream tonight~♪'
 
-＠樹
-「……急に平和になったな」
+#「……急に平和になったな」
+＠Itsuki
+「......so it was suddenly becoming peaceful.」
 
-＠樹
-「とりあえず、それはてるてるぼーずの役目じゃないが……」
-
+#「とりあえず、それはてるてるぼーずの役目じゃないが……」
+＠Itsuki
+「First of all, That is not a Teru Teru Bo-Zu's role you know.....」
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 
-（３月３日、『反乱軍はざくろだらけ』の日）
+#（３月３日、『反乱軍はZakuroだらけ』の日）
+#SCRIPT ADD KANJI
+　  ( March 3rd 'Rebel army is Zakuro darake' day)
 
+#『……ぼーず役に立たない。ヤな夢を見た』
 ＠　,Q00544
-『……ぼーず役に立たない。ヤな夢を見た』
+'.........Bo-Zu is useless. I saw a bad dream'
 
+#『あんな夢、今更見ても仕方ないのに………』
 ＠　,Q00545
-『あんな夢、今更見ても仕方ないのに………』
+' That kind of dream, It is no use to see it right now.....'
 
-＠樹
-「そりゃてるてるぼーずだしなぁ……」
+#「そりゃてるてるぼーずだしなぁ……」
+＠Itsuki
+「Don't take that out at Teru Teru Bo-Zu....」
 
-そこまで読んで、日記を閉じた。
-
+#そこまで読んで、日記を閉じた。
+#SCRIPT ADD KANJI
+Ｉ read it until that segment, and I close the book.
 
 bgm_stop
 
 
-＠樹
-「……『あんな夢』か。何か含みある言い方だな」
+#「……『あんな夢』か。何か含みある言い方だな」
+＠Itsuki
+「....... 'That dream' ? It's like there a hidden message when she put it that way.」
 
-気にはなったが、まさか勝手に読んだ日記の内容を本人に問う事も出来ない。
+#気にはなったが、まさか勝手に読んだ日記の内容を本人に問う事も出来ない。
+#SCRIPT ADD KANJI
+Ｉ'm curious about it though, but I can't ask the real person about it when I read her diary without permission.
 
-＠樹
-「さて、結構時間も経ってるし。そろそろ戻るか……」
-
+#「さて、結構時間も経ってるし。そろそろ戻るか……」
+＠Itsuki
+「Well then, a lot of time have passed. Let's go back....」
 
 @bg_black
 

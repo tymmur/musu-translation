@@ -9,12 +9,18 @@ label	miu_01
 @bgmk01
 date_close
 
-………また夢を見ている。
+#………また夢を見ている。
+#SCRIPT ADD KANJI
+　...I'm dreaming again.
 
-あの日の出来事。
+#あの日の出来事。
+#SCRIPT ADD KANJI
+Ｔhe events of that day.
 
-とても忘れられない、
-当時のオレにはまだ、現実味の薄かった行為。
+#とても忘れられない、
+#当時のオレにはまだ、現実味の薄かった行為。
+#SCRIPT ADD KANJI
+Ｔhey are unforgettable, The me of that time had (actual) (taste) (weak) (event). (Just can’t figure out what it says) IT all seemed unreal for me at that time.
 
 #■（美雨とのエッチCG・プロローグ回想と同じもの）
 se			1,"sound\se\zuba.wav",	play_once
@@ -54,31 +60,46 @@ wait			2000
 #バックグラウンドボイス
 voice_bg		b90004
 
-＠美雨,B00188
-「ひぅんッ！　んくぁッ、はあぁぁッ！　あぅんッ……んんふぅッ、はぁッ！　ふぁあッ！」
+＠Miu,B00188
+「ひぅんッ!　んくぁッ,はあぁぁッ!　あぅんッ......んんふぅッ,はぁッ!　ふぁあッ!」
 
-＠美雨,B00189
-「はぁあんッ、ふぁあッ！　はあぁッ、樹くんッ……んんくッ、あはぁあッ！」
+#「はぁあんッ,ふぁあッ!　はあぁッ,樹くんッ......んんくッ,あはぁあッ!」
+＠Miu,B00189
+「はぁあんッ,ふぁあッ!　はあぁッ, Itsuki-kun......んんくッ,あはぁあッ!」
 
-＠樹
-「くうぅッ、んん！　はぁぁッ、美雨ッ！」
+＠Itsuki
+「くうぅッ,んん!　はぁぁッ,Miu!」
 
-共に深く繋がり、絡みあう温もり。
+#共に深く繋がり,絡みあう温もり.
+#SCRIPT ADD KANJI
+Ｗe're deeply connected, entangled in each other's warmth.
 
-喘ぎ合う嬌声と、美雨の艶かしい吐息。
+#喘ぎ合う嬌声と,美雨の艶かしい吐息.
+#SCRIPT ADD KANJI
+Ｓhe gasps, sighing seductively.
 
-これが、オレと美雨の男の女の始まりだった。
+#これが,オレと美雨の男の女の始まりだった.
+#SCRIPT ADD KANJI
+Ｔhis is, how Miu and I became Man and Woman.
 
-＠美雨,B00190
-「んはぁッ、あはぁぁッ！　樹くんのが、美雨の奥にゴリゴリ当たってるッ…」
+#This is, Miu and I (still can’t figure this out).
 
-＠美雨,B00191
-「…気持ちいいよぉッ、樹くんの大きくて……んんぅッ、はぁあッ！　あはぅん！　ズンズンッて中をかき回してるぅ…」
+#「んはぁッ,あはぁぁッ!　樹くんのが,美雨の奥にゴリゴリ当たってるッ...」
+＠Miu,B00190
+「んはぁッ,あはぁぁッ!　Itsuki-kun's is rubbing against Miu’s insides...」
 
-＠美雨,B00192
-「あふぁッ、あぁんッ！　はあぁぁッ、くはぁッ……ふぁあッ！　あはぁあッ」
+#「んはぁッ,あはぁぁッ!　Itsuki-kun is making Miu’s insides go ゴリゴリ...」
 
-もしくは、これが終わりだったのかも知れない。
+#「…気持ちいいよぉッ、樹くんの大きくて……んんぅッ、はぁあッ！　あはぅん！　ズンズンッて中をかき回してるぅ…」
+＠Miu,B00191
+「...feels so good, Itsuki-kun's big...んんぅッ,はぁあッ!　あはぅん!　It's going so fast inside me...」
+
+＠Miu,B00192
+「あふぁッ,あぁんッ!　はあぁぁッ,くはぁッ......ふぁあッ!　あはぁあッ」
+
+#もしくは,これが終わりだったのかも知れない.
+#SCRIPT ADD KANJI
+Ｔhis might be the end.
 
 se_stop			0
 voice_bg_stop
@@ -92,185 +113,295 @@ layer_release	3
 #■BG（ブラック）
 bgm_stop
 
-父親の事で嫉妬して、それでも抱いていた淡い恋心を見失ってしまった日。
+#父親の事で嫉妬して,それでも抱いていた淡い恋心を見失ってしまった日.
+#SCRIPT ADD KANJI
+Ｆather is jealous, but even so, our love is so that we do not notice the passing of the day. I was jelous of my father, but even so, I still want to remember the day I lost the faint love.
 
-…………………
+#SCRIPT ADD KANJI
+　.....................
 
-……………
+#SCRIPT ADD KANJI
+　...............
 
-………
+#SCRIPT ADD KANJI
+　.........
 
 #■BG（自室・昼）
 @bg_itsuki
 date_open
 
-＠樹
-「はぁぁ……」
+#「はぁぁ......」
+＠Itsuki
+「Haa......」
 
-＠樹
-「最近よく見るな、この夢……」
+#「最近よく見るな,この夢......」
+＠Itsuki
+「Lately, I’ve been having that dream quite often......」
 
-やはり、こうして同じ場所で暮らしているのが原因なのだろうか。
 
+#やはり,こうして同じ場所で暮らしているのが原因なのだろうか.
+#SCRIPT ADD KANJI
+Ａnd now I'm living in the place where it happened. It must be because we are living at the same place.
 
 #■BG（リビング）
 @bgm08
 @bg_living
 @miu_warai
 
-＠美雨,B00193
-「おはようございます、樹さん」
+#「おはようございます,樹さん」
+＠Miu,B00193
+「Good morning, Itsuki-san.」
 
-＠樹
-「おはよう。子供達は？」
+#「おはよう.子供達は?」
+＠Itsuki
+「Morning. How are the children?」
 
 @miu
-＠美雨,B00194
-「今さっき学校に行きましたよ。雫さんもお仕事で出かけてます」
+#「今さっき学校に行きましたよ.雫さんもお仕事で出かけてます」
+＠Miu,B00194
+「They just left for school. Shizuku-san has gone to work as well.」
 
-＠樹
-「そう……」
+#「そう......」
+＠Itsuki
+「I see……」
 
-＠美雨,B00195
-「今、朝食の用意しますね」
+#「今,朝食の用意しますね」
+＠Miu,B00195
+「I’ve prepared some breakfast for you.」
 
 @miu_
 
-穏やかに微笑みながら、綺麗に拭き終えたテーブルの上に朝食を並べる美雨。
+#穏やかに微笑みながら,綺麗に拭き終えたテーブルの上に朝食を並べる美雨.
+#SCRIPT ADD KANJI
+Ｓhe says so with a gentle smile, setting up breakfast on the sparkling clean table.
 
-＠樹
-「………」
+#She says so with a gentle smile, clearing the table and setting the food down.
 
-＠樹
-（あの日のこと……忘れたわけじゃないよな………）
+＠Itsuki
+「.........」
 
-＠美雨,B00196
+#（あの日のこと......忘れたわけじゃないよな.........）
+＠Itsuki
+(The events on that day... couldn't be forgotten can it...)
+
+#(That day, I can’t get it out of my head……)
+
+＠Miu,B00196
 「～♪　～～♪」
 
-カチャカチャ…
+カチャカチャ...
 
-＠樹
-（何事もなかったように楽しそうに食器を並べてる……）
+#（何事もなかったように楽しそうに食器を並べてる......）
+＠Itsuki
+(She sets the table happily as if nothing had happened...)
+
+#(She looks so happy quietly arranging the dishes and silverware……)
 
 @miu
 
-＠美雨,B00197
-「……？　どうかしましたか？」
+#「......?　どうかしましたか?」
+＠Miu,B00197
+「.....?  Is something the matter?」
 
-＠樹
-「いや、ちょっと今朝の夢を思い出して……」
+#「いや,ちょっと今朝の夢を思い出して......」
+＠Itsuki
+「Uh, just remembering a dream from this morning……」
 
-＠美雨,B00198
-「夢……？」
+#「夢......?」
+＠Miu,B00198
+「Dream……?」
 
-＠樹
-「あ……」
+#「あ......」
+＠Itsuki
+「Ah……」
 
-＠樹
-（しまった……つい何となくで応えてしまった……）
+#（しまった......つい何となくで応えてしまった......）
+＠Itsuki
+(Dammit.... I answered without thinking...)
+
+#(Dammit……I can’t tell her the truth, dammit……)
 
 #CH（美雨・少し照れ表情）
 @miu_tere
 
-＠美雨,B00199
-「えっと……樹さんの夢に、私が出て来ていたんですか？」
+#「えっと......樹さんの夢に,私が出て来ていたんですか?」
+＠Miu,B00199
+「Um.... Itsuki-san’s dream, was I in it?」
 
-少し照れ恥ずかしそうに、こちらを見やる。
+#少し照れ恥ずかしそうに,こちらを見やる.
+#SCRIPT ADD KANJI
+Ｓhe looks at me, apparenlty a little shy.
 
-＠樹
-「その、まぁ出てたって言えば出てたんだけど……」
+#She seems shy, looking at me.
 
-……この際だから、聞いておくのもいいかもしれない。
+#「その,まぁ出てたって言えば出てたんだけど......」
+＠Itsuki
+「Well, you could say that you were in it....」
 
-結果や現状がどうであれ、あの時オレが美雨を襲い犯した事実は変わらないのだし。
+#......この際だから,聞いておくのもいいかもしれない.
+#SCRIPT ADD KANJI
+　.....I should take this opportunity to ask her.
 
-＠樹
-「美雨、あの夜のこと。覚えてるよね」
+#.....I should probably ask her about it first.
 
-＠美雨,B00200
-「あの夜……？」
+#結果や現状がどうであれ,あの時オレが美雨を襲い犯した事実は変わらないのだし.
+#SCRIPT ADD KANJI
+Ｔhe fact of the matter is, I raped her that time. Regardless of the results or the current situation, the fact that I violated Mio back then is an unchanging truth.
+
+#「美雨,あの夜のこと.覚えてるよね」
+＠Itsuki
+「Miu, you remember that night. Right?」
+
+#「Miu, that night, you remember it, right?」
+
+#「あの夜......?」
+＠Miu,B00200
+「That night……?」
 
 @miu_kanashimi
 
-＠美雨,B00201
-「あ……」
+#「あ......」
+＠Miu,B00201
+「Ah……」
 
-すぐに察した美雨の表情に影が落ちる。
+#すぐに察した美雨の表情に影が落ちる.
+#SCRIPT ADD KANJI
+Ａ shadow befalls Mio's expression as she realises what I was talking about.
 
-＠樹
-「今さらだけど、謝ろうと思って」
+#Her expression immediately falls, so I guess she realized what I was talking about.
 
-＠樹
-「悪い事をした……あんな事までするつもりは、無かったんだ」
+#「今さらだけど,謝ろうと思って」
+＠Itsuki
+「It's a bit late, but i was thinking of apologizing.」
+
+#「Let me try that again.  I think I should apologize.」
+
+#「悪い事をした......あんな事までするつもりは,無かったんだ」
+＠Itsuki
+「I did a terrible thing... I hadn't planned to do that from the beggining.」
+
+#「I did a terrible thing……up until planning a thing like that, it was nothing.」
 
 @miu_ikari2
 
-＠美雨,B00202
-「…………」
+＠Miu,B00202
+「............」
 
-＠美雨,B00203
-「樹さん、今の私はあなたのメイドです。だから謝ったりしないでください」
+#「樹さん,今の私はあなたのメイドです.だから謝ったりしないでください」
+＠Miu,B00203
+「Itsuki-san, I am your maid now.  So, please, do not apologize.」
 
-＠美雨,B00204
-「……それに私、あの時のこと後悔はしていませんから」
 
-＠樹
-「え……？」
+#「......それに私,あの時のこと後悔はしていませんから」
+＠Miu,B00204
+「... Also, I have not regretted what we did that time.」
 
-＠美雨,B00205
-「あの時の私、一度でも叫んだり助けを求めたりしましたか？」
+#「And I, that time I do not regret.」
 
-＠樹
-「………してない」
+#「え......?」
+＠Itsuki
+「Eh……?」
 
-そう、美雨は突然の事に驚いただけで、後は抵抗らしい抵抗はしなかった。
+#「あの時の私,一度でも叫んだり助けを求めたりしましたか?」
+＠Miu,B00205
+「During that time, did I even once cry or call for help?」
 
-＠樹
-「だから、オレはそのまま……」
 
-初めは少し脅かしてやるだけのつもりだった。
+#「.........してない」
+＠Itsuki
+「……You didn’t.」
 
-オレよりも父親に構ってもらっていた美雨に、嫉妬する気持ちが抑えきれなかったのだ。
+#そう,美雨は突然の事に驚いただけで,後は抵抗らしい抵抗はしなかった.
+#SCRIPT ADD KANJI
+Ｔhats right, Miu was surprised at the sudden turn of events, but didn't seem to have put up any resistance.
 
-＠美雨,B00206
-「当時の私の生活も、今のみかんちゃん達と同じ………いえ、もっと過酷なものでした」
+#Miu really surprised me with this unexpected news.  What had seemed like resistance before really wasn’t at all.
 
-＠美雨,B00207
-「だから最後までする初めての人が赤の他人ではなく、樹さんだったことが、私は嬉しかったんです」
+#「だから,オレはそのまま......」
+＠Itsuki
+「That's why I, continued...」
+
+#「So, I’ll leave it at that……」
+
+#初めは少し脅かしてやるだけのつもりだった.
+#SCRIPT ADD KANJI
+Ａt first I was only planning to intimidate her a little.
+
+#At first, I only planned to threaten her a little bit.
+
+#オレよりも父親に構ってもらっていた美雨に,嫉妬する気持ちが抑えきれなかったのだ.
+#SCRIPT ADD KANJI
+Ｉ was jeleous of Mio who would get more attention from father, i couldn't surpress my jelousy.
+
+#I was also concerned with father over Miu, because he would get jealous and take her away.
+
+#「当時の私の生活も,今のみかんちゃん達と同じ.........いえ,もっと過酷なものでした」
+＠Miu,B00206
+「My life back then, was the same as Mikan-chan and the others... no, it was harsher.」
+
+#「My life back then, Mikan-chan and the others are the same……no, it was more harsh.」
+
+#「だから最後までする初めての人が赤の他人ではなく,樹さんだったことが,私は嬉しかったんです」
+＠Miu,B00207
+「SO in the end, the one who took my first time being no stranger, instead being Itsuki-san made me happy.」
+
+#「So from the beginning, my first was a complete stranger.  But, Itsuki-san, the thing is, I was happy.」
 
 @miu_warai
 
-＠美雨,B00208
-「なので後悔はしていませんよ」
+#「なので後悔はしていませんよ」
+＠Miu,B00208
+「And so, I have no regrets.」
+
+#「And so, don’t feel remorseful.」
 
 @miu_komaru
 
-＠美雨,B00209
-「……謝られても困ってしまいます」
+#「......謝られても困ってしまいます」
+＠Miu,B00209
+「...I would feel troubled if you apologised.」
 
-＠樹
-「……美雨」
+#「……You would be hard pressed to apologize.」 (not quite sure this is exactly right)
 
-＠美雨,B00210
-「さ、朝食が冷めない内に召し上がってください」
+#「......美雨」
+＠Itsuki
+「……Miu.」
 
-相好を崩す。
+#「さ,朝食が冷めない内に召し上がってください」
+＠Miu,B00210
+「Now, please, eat breakfast before it gets cold.」
 
-正直、まだ聞きたいことはいっぱいあった。
+#相好を崩す.
+#SCRIPT ADD KANJI
+Ａ radiant smile appears on her face.
 
-どういう経緯を経て今、美雨がここでこんな風に働いているのか……など。
+#正直,まだ聞きたいことはいっぱいあった.
+#SCRIPT ADD KANJI
+Ｓtill, I want to ask her about it. In truth, theres still alot I still wanted to ask.
 
-＠樹
-「そうだな。いただきます」
+#どういう経緯を経て今,美雨がここでこんな風に働いているのか......など.
+#SCRIPT ADD KANJI
+Ｑuestions such as What experiences she gone through, allowing her to be working here like this...
+
+#How can she skip over the details and work here like this and everything.
+
+#「そうだな.いただきます」
+＠Itsuki
+「Alright. Itadakimasu.」
 
 @miu_warai
 
-＠美雨,B00211
-「はい」
+#「はい」
+＠Miu,B00211
+「Yes.」
 
-でも今は、こうして笑顔を見せてくれる美雨に、素直に喜んでおこう。
+#でも今は,こうして笑顔を見せてくれる美雨に,素直に喜んでおこう.
+#SCRIPT ADD KANJI
+Ｂut for now, I should just feel happy at Mio who shows me her bright smile.
 
-#→☆体験版では、ここで当時の回想が入る。
+#But now, she gives off her bright smile, being cheerfully obedient.
+
+#→☆体験版では,ここで当時の回想が入る.
 @bg_black
 wait	1000
 
@@ -278,3 +409,4 @@ wait	1000
 #（スケジュールへ）
 
 return
+
