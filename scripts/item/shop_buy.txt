@@ -7,7 +7,13 @@ label	shop_buy_message
 # 巣蓋さんの名前表示は、名前を訊くまでは「店員さん」になりますが、いちいち書くのが鬱陶しいので、シナリオ上は以降「巣蓋さん」で統一しておきます。
 # とりあえず文字列変数に「店員さん」を入れておき、表示する際は文字列変数を参照、名前を訊いたところで文字列変数を「巣蓋さん」にするのが良いと思います。
 
+#■■■Explanatory note■■■
+# "Subuta"'s name display, until you hear it, will remain "Attendant". It's annoying to have to write them out separately, so upon that scenario "Subuta" will consolidate.
+# For now the character string variable "Attendant" is entered, the occasion where it's presented references the character string variable, that no matter where you hear the name the character string variable changes to "Subuta" is good I think.
+#TL note: I hope this doesn't cause issues... I'll try and do the same thing. Basically Subuta is written everywhere here but in the game is displayed as attendant. I'll just write Subuta too.
+
 #■BG（アダルトショップ）
+#■BG（Adult shop）
 
 if _ITEM=0	then 	goto	shopitem_buy4
 
@@ -392,21 +398,24 @@ label	shopitem_bondage
 #（統合へ）
 goto	shopitem_buy
 
-#（ケーキ）###################################################################
+#（Cake）###################################################################
 label	shopitem_cake
 
-＠巣蓋さん,H00087
+＠Subuta,H00087
 「ケーキですね……」
+「A cake......」
 
-＠巣蓋さん,H00088
+＠Subuta,H00088
 「生クリームは使用しておりませんし、窒素充填包装ですので日持ちします……」
+「We freeze it in nitrogen so we can keep it for days, because we don't use fresh cream......」
 
-＠巣蓋さん,H00089
+＠Subuta,H00089
 「プレイの合間のおやつに最適だと思います……」
+「I think it's most suitable as a snack between playing......」
 
-#テキストでは、正規の値段を表示
-＠巣蓋さん,H00090
+＠Subuta,H00090
 「お値段は[_PRICE]円になります……」
+「It comes to 円[_PRICE]......」
 
 #（統合へ）
 goto	shopitem_buy
@@ -414,15 +423,17 @@ goto	shopitem_buy
 #（栄養ドリンク）#############################################################
 label	shopitem_drink
 
-＠巣蓋さん,H00091
+＠Subuta,H00091
 「栄養ドリンクですね……」
+「That's a nutrient drink...」
 
-＠巣蓋さん,H00092
+＠Subuta,H00092
 「Ｈには体力が必要ですからね……」
+「It's important for stamina in H isn't it...」
 
-#テキストでは、正規の値段を表示
-＠巣蓋さん,H00093
+＠Subuta,H00093
 「お値段は[_PRICE]円になります……」
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -430,21 +441,25 @@ goto	shopitem_buy
 #（ぬいぐるみ）###############################################################
 label	shopitem_doll
 
-＠巣蓋さん,H00094
+＠Subuta,H00094
 「ぬいぐるみですね……」
+「That's a stuffed animal...」
 
-＠巣蓋さん,H00095
+＠Subuta,H00095
 「ハードなことをしすぎて嫌われたら、物で釣るのも良いかと思います……」
+「If you do too many hard things and they dislike you, I think luring them in with something is a good idea...」
 
-＠巣蓋さん,H00096
+＠Subuta,H00096
 「相手が幼くないと有効ではない気もしますが……」
+「If your partner isn't childish I don't think it'll work though...」
 
-＠巣蓋さん,H00097
+＠Subuta,H00097
 「精神的に幼ければたぶん大丈夫でしょう……」
+「If they're kind of immature it's probably fine...」
 
-#テキストでは、正規の値段を表示
-＠巣蓋さん,H00098
+＠Subuta,H00098
 「お値段は[_PRICE]円です……」
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -452,57 +467,73 @@ goto	shopitem_buy
 #（ぁゃιぃクスリ）###########################################################
 label	shopitem_drug
 
-＠巣蓋さん,H00099
+＠Subuta,H00099
 「ぁゃιぃクスリですね……」
+「That's strange medicine...」
 
-＠樹
+＠Itsuki
 「……商品名なのか、それ？」
+「... Is it a brand name?」
 
-＠巣蓋さん,H00100
+＠Subuta,H00100
 「どうなのでしょう……？　よくわかりません……」
+「I wonder. I can't really tell...」
 
-＠樹
+＠Itsuki
 「どんな効果があるんだ？」
+「What effects does it have?」
 
-＠巣蓋さん,H00101
+＠Subuta,H00101
 「さあ……？　あ、でもここに『インカ帝国で媚薬として使われていた』と書いてあります」
+「Let's see... Ah, it says "Used as an aphrodisiac in the Incan Empire".」
 
 #テキストでは、正規の値段を表示
-＠巣蓋さん,H00102
+#In the text the proper price is shown
+＠Subuta,H00102
 「お値段は[_PRICE]円になりますが、どうしますか……？」
+「The price is 円[_PRICE], what will you do...?」
 
 #（統合へ）
 goto	shopitem_buy
 
-#（やさしいドリル）############################################################
+#（Easy drills）############################################################
 label	shopitem_book1
 
-＠巣蓋さん,H00103
+＠Subuta,H00103
 「やさしいドリルですね……」
+「Those are easy drills...」
 
-＠巣蓋さん,H00104
+＠Subuta,H00104
 「Ｈのしすぎでバカにならないよう、たまにはこういうのも必要かもしれません……」
+「Sometimes you have to this kind of thing to not get stupid from too much H...」
 
-＠巣蓋さん,H00105
+＠Subuta,H00105
 「個人的には、バカになったほうが楽しいと思いますが……」
+「Personally, I think getting stupid is fun...」
 
-＠樹
+＠Itsuki
 「……っていうか、なんでそんなもの売ってるんだ？」
+「... Why are you selling something like that then?」
 
-＠巣蓋さん,H00106
+＠Subuta,H00106
 「売れる物はなんでも売らないと、経営が……」
+「If I don't sell anything that will sell, management is going to...」
 
 よく見ると、ドリルには微妙に使用感がある。
+When I look closely, I notice the drills are somewhat difficult.
 
-＠巣蓋さん,H00107
+＠Subuta,H00107
 「わたしも昔は、優等生だったんですが……」
+「There was a time when I was an honors student...」
 
-＠巣蓋さん,H00108
+＠Subuta,H00108
 「やっぱり、お勉強よりエッチのほうが楽しいです……」
+「Perverted things are much more fun than studying though...」
 
-#テキストでは、正規の値段を表示
-＠巣蓋さん,H00109
+#In the text the proper price is shown
+＠Subuta,H00109
 「お値段は[_PRICE]円になります……」
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -510,18 +541,22 @@ goto	shopitem_buy
 #（ふつうのドリル）##########################################################
 label	shopitem_book2
 
-＠巣蓋さん,H00110
+＠Subuta,H00110
 「ふつうのドリルですね……」
+「Those are regular drills...」
 
-＠巣蓋さん,H00111
+＠Subuta,H00111
 「ドリルといっても穴を開ける道具ではありません……」
+「But they're not that thing you use to open up holes...」
 
-＠巣蓋さん,H00112
+＠Subuta,H00112
 「いくらプレイでも、そんなことをしたら捕まってしまいますから……」
+「Even if you're playing around, you'd get arrested...」
 
 #テキストでは、正規の値段を表示
-＠巣蓋さん,H00113
+＠Subuta,H00113
 「お値段は[_PRICE]円になります……」
+「The price comes to [_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -548,20 +583,25 @@ goto	shopitem_buy
 #（おなかでふるえるベルト）###################################################
 label	shopitem_belt
 
-＠巣蓋さん,H00117
+＠Subuta,H00117
 「おなかでふるえるベルトですね……」
+「A vibrating belt is it...」
 
-＠巣蓋さん,H00118
+＠Subuta,H00118
 「知り合いがこれで１０キロ痩せました……」
+「Someone I know lost 10 kilos with this...」
 
-＠巣蓋さん,H00119
+＠Subuta,H00119
 「ちょうどノロウィルスに感染していたというのもあるようですが……」
+「It seems he'd just got over a bout of norovirus though...」
 
 ……それじゃこのベルトのおかげなのかわからんがな。
+... So you don't actually know how useful it is.
 
 #テキストでは、正規の値段を表示
-＠巣蓋さん,H00120
+＠Subuta,H00120
 「お値段は[_PRICE]円になります……」
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -604,31 +644,38 @@ goto	shopitem_buy
 #（きれいな手鏡）#############################################################
 label	shopitem_mirror
 
-＠巣蓋さん,H00128
+＠Subuta,H00128
 「手鏡ですね……」
+「That's a hand mirror...」
 
-＠巣蓋さん,H00129
+＠Subuta,H00129
 「やっぱり、美容とＨは切り離せません……」
+「You can't separate being pretty from H after all...」
 
 #テキストでは、正規の値段を表示
-＠巣蓋さん,H00130
+＠Subuta,H00130
 「お値段は[_PRICE]円になります……」
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
 
 #（アイドル写真集「ジ・アイドルマイスター写真集」）##########################
+#（Idol photobook「ジ・アイドルマイスター写真集」）##########################
 label	shopitem_photobook
 
-＠巣蓋さん,H00131
+＠Subuta,H00131
 「『ジ・アイドルマイスター』の写真集ですね……」
+「That's a gravure magazine "The IdolMeister"」
 
-＠巣蓋さん,H00132
+＠Subuta,H00132
 「女の子にも人気がありますよ、これ……」
+「People find this kind of stuff interesting, girls too...」
 
 #テキストでは、正規の値段を表示
 ＠巣蓋さん,H00133
 「お値段は[_PRICE]円になります……」
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -799,24 +846,29 @@ goto	shopitem_buy
 
 #（買う）
 
-＠巣蓋さん,H00141
+＠Subuta,H00141
 「お買い上げありがとうございます……」
+「Thank you for your patronage...」
 
-＠巣蓋さん,H00142
+＠Subuta,H00142
 「他にも何か買われますか……？」
+「Will you buy something else...?」
 
 #（統合２へ）
 
 #（やっぱりやめる）
 
-＠樹
+＠Itsuki
 「やっぱり、それはいいや……」
+「Actually, maybe not that...」
 
-＠巣蓋さん,H00143
+＠Subuta,H00143
 「そうですか……」
+「Is that so...」
 
-＠巣蓋さん,H00144
+＠Subuta,H00144
 「できれば……何か買ってください……」
+「If you can... Please buy something...」
 
 #■（統合２）
 
@@ -839,11 +891,16 @@ label	shopitem_buy
 #（１．買う）
 #（２．やっぱりやめる）
 
-select sel,"Buy","On second thought, no"
+# How does buying sit with you?
+label	shopitem_buy
+#（１．Buy）
+#（２．Never mind）
+
+select sel,"Buy","Never mind"
 if sel=0	then	goto shopitem_buy1
 if sel=1	then	goto shopitem_buy2
 
-#買った
+#Bought
 label	shopitem_buy1
 
 if _MONEY < _PRICE then goto shopitem_buy3
@@ -857,50 +914,59 @@ shop_buy_count=shop_buy_count+1
 if _ITEM>=200 then item_soldout	_ITEM,_TRUE
 if _ITEM=500 then @suika_love_up
 
-＠巣蓋さん,H00141
+＠Attendant,H00141
 「お買い上げありがとうございます……」
+「Thank you for your patronage...」
 
-＠巣蓋さん,H00142
+＠Attendant,H00142
 「他にも何か買われますか……？」
+「Was there anything else you wanted...?」
 
 goto	shopitem_end
 
 label	shopitem_buy2
-#（やっぱりやめる）
+#（Never mind）
 
-＠樹
+＠Itsuki
 「やっぱり、それはいいや……」
+「Actually, maybe not that...」
 
-＠巣蓋さん,H00143
+＠Attendant,H00143
 「そうですか……」
+「Is that so...」
 
-＠巣蓋さん,H00144
+＠Attendant,H00144
 「できれば……何か買ってください……」
+「If you can... Please buy something...」
 
 goto	shopitem_end
 
 label	shopitem_buy3
-＠樹
+＠Itsuki
 「お金が足りなかった……」
+「I don't have enough money...」
 
 goto	shopitem_end
 
 label	shopitem_buy4
 #（やっぱりやめる）
 
-＠樹
+＠Itsuki
 「やっぱり、いいや……」
+「Actually, maybe not...」
 
-＠巣蓋さん,H00143
+＠Attendant,H00143
 「そうですか……」
+「Is that so...」
 
-＠巣蓋さん,H00144
+＠Attendant,H00144
 「できれば……何か買ってください……」
+「If you can... Please buy something...」
 
 goto	shopitem_end
 
 
-# 終わり
+# Finished
 label	shopitem_end
 
 return

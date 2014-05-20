@@ -86,43 +86,58 @@ return
 label	shop_talk_1
 
 せっかくだし、ちょっとこの店員さんと話をしてみるか。
+It's a rare opportunity so I guess I'll try talking to the attendant for a bit.
 
 なんでこんな格好してるのかとか、やっぱりちょっと気になるし。
+Why is her appearance and attitude like this, it's bothering me.
 
-＠樹
+＠Itsuki
 「えーと……」
+「Ummm......」
 
 話しかけようとして、オレは彼女の名前を知らないことに気づく。
+Trying to accost her, I recall I don't know her name.
 
-＠樹
+＠Itsuki
 「名前はなんていうのかな、キミ？」
+「I didn't catch your name.」
 
-＠店員さん,H00288
+＠Attendant,H00288
 「えっ……！」
+「Huh......!」
 
 名前を尋ねると、彼女はびくんと身を震わせた。
+When I ask for her name, with a start her body jolts.
 
-＠店員さん,H00289
+＠Attendant,H00289
 「な、名前ですか……？」
+「N-Name is it......?」
 
-＠樹
+＠Itsuki
 「うん。教えてくれるか？」
+「Yeah. Can you tell me?」
 
-＠店員さん,H00290
+＠Attendant,H00290
 「…………」
+「... ... ... ...」
 
-＠店員さん,H00291
+＠Attendant,H00291
 「名前なんてありません。わたし……ただのメスブタですから」
+「I don't have a name. I'm...... just a lowly whore.」
 
 店員さんはそう言ってうつむいてしまった。
+Saying that the attendant casts her eyes down.
 
-＠店員さん,H00292
+＠Attendant,H00292
 「お客様も、わたしのことはどうぞメスブタとお呼びください……」
+「Mister Customer, please go right ahead and call me bitch......」
 
-＠樹
+＠Itsuki
 「いや、そういうわけにもいかないって……」
+「No, I don't think that'll work either......」
 
 うーん、大丈夫なのか、この店……？
+Hmm, is she alright, this attendant......?
 
 #（統合へ）
 return
@@ -131,113 +146,153 @@ return
 label	shop_talk_2
 
 何か話をしようかな……。
+Maybe we could talk about something......
 
 そう思い、オレは彼女の名前をまだ教えてもらっていないことを思い出す。
+I recall that she still hasn't told me her name.
 
 どうやって話しかけよう？
+How should I approach her?
 
 ああ言われたとはいえ、メスブタ呼ばわりもさすがに気が引ける。
+Ahh she told me, but I don't really want to call her bitch either.
 
 さん付けで「メスブタさん」とか……それも微妙か。
+Perhaps using -san to make bitch-san...... That's also inappropriate.
 
 うーん、メスブタか……。
+Hmm, bitch huh......
 
 ……今気づいたけど、メスブタって、酢豚に似てるな。
+...... I just realized now, but bitch (mesubuta) sounds like sweet-and-sour pork (subuta).
 
 まあ、豚はもともと一緒なんだけど、印象はだいぶ違う。
+Well, pig (buta) is far down at the origin, but the connotation is vastly different.
 
-＠樹
+＠Itsuki
 「えーと、店員さん……」
+「Umm, shopkeeper-san......」
 
-＠店員さん,H00293
+＠Shopkeeper,H00293
 「はい、なんでしょうか……？」
+「Yes, what is it......?」
 
-＠樹
+＠Itsuki
 「さすがにメスブタとは呼べないし、スブタさんって呼んでもいい？」
+「I can't really call you mesubuta, is Subuta-san OK?」
 
-＠店員さん,H00294
+＠Shopkeeper,H00294
 「ええっ！？」
+「What!?」
 
-＠店員さん,H00295
+＠Shopkeeper,H00295
 「す、スブタですか……」
+「S-Subuta huh......」
 
-＠樹
+＠Itsuki
 「ダメかな……？」
+「No good......?」
 
-＠店員さん,H00296
+＠Shopkeeper,H00296
 「うぅ……そんな呼ばれ方では興奮できません……」
+「Uu...... that doesn't turn me on at all......」
 
 いや、ここで興奮されても困るんだが。
+No, for me it's a problem even if it's arousing.
 
-＠樹
+＠Itsuki
 「いいじゃん、名字っぽくて」
+「Isn't it okay, it's like a surname」
 
-＠樹
+＠Itsuki
 「漢字で書くと、鳥の巣の〝巣〟に鍋蓋の〝蓋〟とか……」
+「If you write it with kanji, it could be a bird's nest (su) and a pot lid (buta)」
 
-＠樹
+＠Itsuki
 「……よし！」
+「...... All right!」
 
-＠樹
+＠Itsuki
 「もう決めた。今日から店員さんのことは巣蓋さんって呼ぼう」
+「It's decided. Starting today let's call you Subuta.」
 
 replace_clear	"＠巣蓋さん"
 
-＠巣蓋さん,H00297
+＠Subuta,H00297
 「そ、そんなぁ……」
+「N-No way......」
 
 オレの一方的な宣告に、巣蓋さんは情けない声を上げた。
+Subuta utters a cry of protest at my one-sided proclamation.
 
-＠樹
+＠Itsuki
 「あ、ちなみにオレは土屋樹。樹って呼んでくれ」
+「Ah, and in exchange I'm Itsuki Tsuchiya. You can call me Itsuki.」
 
 相手に名前を訊いてこちらが名乗らないのも失礼かと思い、一応名乗っておく。
+Thinking it would also be impolite to withhold my name now, I hesitantly share it.
 
 まあ、結局名前は教えてもらってないけどな。
+It's not like she will be asking me for it anyway.
 
-＠巣蓋さん,H00298
+＠Subuta,H00298
 「はあ……。巣蓋ですか……」
+「Haa...... Subuta......」
 
 巣蓋さんはまだショックを受けていた。
+Subuta was still in shock.
 
 #（統合へ）
 return
 
 #（３回目・３月以降）########################################################
+#（3rd visit・On or after 3rd month）########################################################
 label	shop_talk_3
 
-＠樹
+＠Itsuki
 「えーと、巣蓋さん……？」
+「Umm, Subuta-san...?」
 
-＠巣蓋さん,H00299
+＠Subuta,H00299
 「うぅ、はい……。なんでしょうか？」
+「Uu, yes... What would you like?」
 
-＠樹
+＠Itsuki
 「一応確認しておきたいんだけど、巣蓋さんってこういう店にいていい年齢なんだよね……？」
+「You don't have to confirm this or anything, but you're old enough to be working here right?」
 
-＠巣蓋さん,H00300
+＠Subuta,H00300
 「うぅ……。れ、れでぃに年齢を訊くのは失礼なのです……」
+「Uu... I-It's rude to ask a lady her age...」
 
 オレの質問に、巣蓋さんはうつむいてしまう。
+Subuta casts her eyes down at my question.
 
-＠樹
+＠Itsuki
 「でもその……不法労働じゃないよな？」
+「But I mean... You're not being made to work here illegally are you?」
 
 まあ、施設の娘たちに不法労働をさせているオレが訊くようなことじゃないんだが……。
+It's not like I feel it's my place to be asking this who is having girls work illegally at his orphanage though.
 
-＠巣蓋さん,H00301
+＠Subuta,H00301
 「一応、大学は出てますから……」
+「For now I can tell you that I'm going to university...」
 
 うつむいたまま、巣蓋さんはつぶやいた。
+Subuta muttered still looking down.
 
-＠樹
+＠Itsuki
 「何だ、そうなんだ……」
+「Oh really, is that how it is...」
 
-＠樹
+＠Itsuki
 「って、オレより年上！？」
+「Wait, that means you're older than me!?」
 
-＠巣蓋さん,H00302
+＠Subuta,H00302
 「うぅ……。だから言いたくなかったんです……」
+「Uu... That's why I didn't want to tell you...」
 
 #（統合へ）
 return
@@ -245,37 +300,50 @@ return
 #（４回目・４月以降）########################################################
 label	shop_talk_4
 
-＠樹
+＠Itsuki
 「そういえば、巣蓋さんってカレシとかいるの？」
+「By the way, do you have a boyfriend?」
 
 かなり子供っぽく見えるが、実はオレより年上なんだよな……？
+She looks just like a child, but she's older than me after all right...?
 
 だとしたら、カレシとかいてもおかしくないかな？
+So it wouldn't be weird if she had one.
 
 こんな格好で仕事してるなんて、カレシ公認なんだろうか？
+Maybe he's having her work looking like this?
 
-＠巣蓋さん,H00303
+＠Subuta,H00303
 「え……？　か、カレシなんていないですよ……」
+「What...? I-I don't have a boyfriend or anything」
 
 オレの質問に、巣蓋さんはうつむいてしまう。
+Subuta casts her eyes down at my question.
 
 そうか……。それじゃ、何でこんな仕事をしてるんだろう……？
+Really... Then why does she have a job like this...?
 
-＠巣蓋さん,H00304
+＠Subuta,H00304
 「……彼女ならいますけど」
+「... But I do have a girlfriend」
 
 うつむいたまま、巣蓋さんはつぶやいた。
+Subuta whispers while still looking down.
 
-＠樹
+＠Itsuki
 「え……？」
+「Huh...?」
 
-＠巣蓋さん,H00305
+＠Subuta,H00305
 「彼女というか……ご主人様というか……女王様ですけど……」
+「Well I wouldn't say girlfriend... She's my master... No, she's my queen」
 
-＠樹
+＠Itsuki
 「……そ、そうなんだ」
+「A-Ah, I see」
 
 うーん、ディープな世界だ……。
+Well, it just keeps going... This is a deep world...
 
 #（統合へ）
 return
@@ -283,35 +351,47 @@ return
 #（５回目・５月以降）#########################################################
 label	shop_talk_5
 
-＠樹
+＠Itsuki
 「そういえば、巣蓋さんっていつもその格好だね……」
+「So you're always in that outfit huh...」
 
 だんだん慣れてきてしまったが、考えてみればすごいよな。
+I've slowly been getting used to it, but it's kind of amazing when I think about it.
 
 いくらアダルトショップだからって、常に裸エプロンでいいんだろうか？
+It may be an adult shop, but is she really fine with wearing a hadaka apron constantly?
 
-＠巣蓋さん,H00306
+＠Subuta,H00306
 「制服ですから……」
+「It's my uniform...」
 
 巣蓋さんは少し頬を赤らめ、うつむいた。
+She blushes a bit and looks down.
 
-＠樹
+＠Itsuki
 「そ、そうなんだ……」
+「Oh, is that so...」
 
-＠樹
+＠Itsuki
 「そのネコミミも？」
+「Those cat ears too?」
 
 裸エプロンもそうだが、ネコミミも結構目立つよな。
+The hadaka apron is like that too, but the cat ears stick out quite a bit.
 
-＠巣蓋さん,H00307
+＠Subuta,H00307
 「これは……ホンモノです……」
+「Oh these... They're real...」
 
-＠巣蓋さん,H00308
+＠Subuta,H00308
 「動きます……」
+「I'll move them...」
 
 そう言って巣蓋さんはパタパタと耳を動かしてみせた。
+Saying that she flaps the ears back and forth.
 
 う、うーん、さすがにホンモノのわけがないだろうし、どんな仕掛けになってるんだろう……？
+Hmm, it can't be real, so I wonder how that works...?
 
 #（統合へ）
 return

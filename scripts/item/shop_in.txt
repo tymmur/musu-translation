@@ -1,5 +1,7 @@
 #アイテムショップに入る
+#Enter item shop
 #メニューからアイテムショップを選んだときに発生
+#This is what happens when you choose item shop from the menu
 #------------------------------------------------------------
 label	shop_in_message
 
@@ -22,41 +24,57 @@ goto	shop_in_message_9
 goto	shop_in_message_exit
 
 #■BG（アダルトショップ）
+#■BG（Adult shop）
 
 #■（条件分岐）
+#■（Fork in the road）
 
 #（ショップに来るのが２回目（１回目はこのファイルを通らずにshop_1stからshop_buyへ行く））
+#（Second rendezvous to shop（The first time went straight from shop_1st to shop_buy））
+
 label	shop_in_message_1
 
-＠店員さん,H00233
+＠Shopkeeper,H00233
 「いらっしゃいませ……あ、また来てくださったんですね……」
+「Welcome...... Ah, you came again......」
 
 エロキュートに入ると、店員さんはオレを覚えていたようで、少し嬉しそうな顔になる。
+Having remembered me, she perks up a little when I step into EroCute shop. 
 
-＠樹
+＠Itsuki
 「あはは、顔を覚えられちゃったか……」
+「Ahaha, you've seen my face now......」
 
 普通ならお店で顔を覚えられるのは嬉しいかもしれないが、アダルトショップとなると若干微妙だ。
+Normally I'd be pleased to be remembered, but for adult shops I'm a little more hesitant.
 
-＠店員さん,H00234
+＠Shopkeeper,H00234
 「ま、まあ、貴重なお客様ですから……」
+「W-Well, you're a prized customer......」
 
-＠樹
+＠Itsuki
 「確かにな……」
+「Of course......」
 
 オレは店内を見回してみるが、今日も客の姿はなかった。
+I take a look around the shop, but once more not a soul to be seen.
 
 とはいえまあ、こんな格好で接客してたら、あんまり客が多くても問題になりそうな……。
+Though I'd imagine with a reception like this, having lots of customers would be troublesome......
 
 今のようにひっそりとやっていくのがいいんじゃないかと、他人事ながら思う。
+I'm happy to be able to quietly go about my business today, while others do theirs.
 
-＠店員さん,H00235
+＠Shopkeeper,H00235
 「本日は、何がご入り用でしょうか……？」
+「What would you like today, sir......?」
 
-＠樹
+＠Itsuki
 「そうだな……」
+「Right......」
 
 #（統合へ）
+#（To integration）
 goto	shop_in_message_exit
 
 ##########################################################################
@@ -203,46 +221,58 @@ label	shop_in_message_6
 goto	shop_in_message_exit
 
 #（巣蓋さんと呼ぶことにした次の回）#########################################
+#（Next time after calling her Subuta）#########################################
 label	shop_in_message_7
 
-＠巣蓋さん,H00249
+＠Subuta-san,H00249
 「いらっしゃいませ……あ」
+「Welcome... Ah」
 
-＠樹
+＠Itsuki
 「よっ、巣蓋さん」
+「Hey Subuta-san」
 
-＠巣蓋さん,H00250
+＠Subuta,H00250
 「うぅ……。やっぱりその呼び方なのですね……」
+「うぅ……。You really are calling me that...」
 
 巣蓋さんはがっくりと肩を落とす。
+She slumps her shoulders crestfallen.
 
 さて、今日はどうしようかな？
+What to do today?
 
 #（統合へ）
 goto	shop_in_message_exit
 
 ############################################################################
 #（巣蓋さんと呼ぶことになっている場合１）###################################
+#（Her name becoming Subuta Scene 1）###################################
 label	shop_in_message_8
 
-＠巣蓋さん,H00251
+＠Subuta,H00251
 「あ、いらっしゃいませ、樹様……」
+「Ah, welcome Itsuki-sama...」
 
-＠巣蓋さん,H00252
+＠Subuta,H00252
 「本日は、何をお探しでしょうか……？」
+「What are you looking for today...?」
 
 #（統合へ）
 goto	shop_in_message_exit
 
 #############################################################################
 #（巣蓋さんと呼ぶことになっている場合２）####################################
+#（Her name becoming Subuta Scene 2）###################################
 label	shop_in_message_9
 
-＠巣蓋さん,H00253
+＠Subuta,H00253
 「あ、樹様……。いらっしゃいませ……」
+「Ah, Itsuki-sama... Welcome...」
 
-＠巣蓋さん,H00254
+＠Subuta,H00254
 「今日は、何がご入り用でしょうか……？」
+「What can I do for you today...?」
 
 #（統合へ）
 goto	shop_in_message_exit

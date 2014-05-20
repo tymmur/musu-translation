@@ -134,8 +134,9 @@ wait		100
 @bgm12			#演：仮ＢＧＭ
 
 
-＠樹
+＠Itsuki
 「ただいま、っと」
+「I'm back」
 
 
 @bg_black
@@ -146,19 +147,23 @@ wait		1000
 @bg_dining		# 食堂
 
 
-＠樹
+＠Itsuki
 「美雨、買い物済ませてきたよ………あれ？」
+「Miu, I went shopping...... huh?」
 
 
 #@bgm12			#演：仮ＢＧＭ
 
 
 夕食の買出しから帰って来たが、そこに美雨の姿は無い。
+I bought things for dinner, but Miu wasn't around.
 
 何か別の用事でも出来たのだろうか？
+Maybe she's busy with something else.
 
-＠樹
+＠Itsuki
 「ま、じきに戻ってくるだろ」
+「I'm sure she'll be back soon」
 
 
 bgm_stop
@@ -166,10 +171,13 @@ bgm_stop
 
 
 買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
+I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
 キャンペーン中のお店でサービスに貰った物だ。
+I got it for free from the store.
 
 なので困った事に、子供達のおやつにするには量が少ない。
+It's kind of a bother that there isn't enough to give to all of the kids.
 
 
 @bgm03			#BGM 03 : いちごのテーマ
@@ -187,12 +195,14 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01800
+＠Ichigo,O01800
 「おかえりなさい、パパ。何してるの？」
+「Welcome back, Papa. What are you doing right now?」
 
 
-＠樹
+＠Itsuki
 「ああ、ただいまいちご。ちょっとこれをな」
+「Hey Ichigo. I'm wondering what to do with this」
 
 
 @ichigo_yorokobi	#喜
@@ -206,10 +216,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01801
+＠Ichigo,O01801
 「…？　あっ、クッキーだー！」
+「...? Oh, a cookieー!」
 
 手の中の包みを見て、いちごがはしゃいだ声を上げた。
+She sees the wrapper in my hand and exclaims happily.
 
 
 @ichigo_warai		#笑
@@ -226,14 +238,17 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01802
+＠Ichigo,O01802
 「美味しそう～♪　パパが買ってきたのっ？」
+「That looks good～♪　Did you buy it?」
 
-＠樹
+＠Itsuki
 「お店のサービスで貰ったんだよ」
+「No, I got it free from the store」
 
-＠樹
+＠Itsuki
 「そうだ。よかったらいちご食べるか？」
+「Actually, why don't you have it?」
 
 
 @ichigo_yorokobi	#喜
@@ -246,11 +261,13 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01803
+＠Ichigo,O01803
 「えっ、いいのッ？」
+「Huh, can I?」
 
-＠樹
+＠Itsuki
 「とてもみんなの分は無いからな。内緒だぞ」
+「There's not enough for everyone. Let's keep it our secret」
 
 
 @ichigo_warai		#笑
@@ -263,14 +280,15 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01804
+＠Ichigo,O01804
 「うん！　わぁいッ♪」
-
+「Ok! Yay♪」
 
 @ichigo_
 
 
 いちごはクッキーを受け取り、その場で嬉しそうに包みを広げ始めた。
+Ichigo takes the cookie and starts unwrapping it right away.
 
 
 @ichigo_middle		# 中間
@@ -284,13 +302,16 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01805
+＠Ichigo,O01805
 「パパも一緒に食べよっ」
+「You can have some too」
 
-＠樹
+＠Itsuki
 「そだな。少し摘ませてもらうか」
+「Sure, give me a piece」
 
 二人でクッキーを摘みながら、談笑して過ごすことにした。
+Cookie in hand, we chatted and passed the time.
 
 
 bgm_stop
@@ -493,6 +514,7 @@ label	ep_ichigo_03
 
 
 美雨と一緒に段取りを話しながら、廊下を進んでいた。
+I walked with Miu through the hall discussing some plans.
 
 
 @bg_black
@@ -503,11 +525,13 @@ wait		100
 @bg_door		# ドア前
 
 
-＠美雨,B01488
+＠Miu,B01488
 「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
+「So I'll be in the library room next door, you can call if you need anything」
 
-＠樹
+＠Itsuki
 「分かった。終わったらオレもそっちを手伝うから」
+「Okay. If I finish early I'll come and help」
 
 
 @miu			#閉_にこ
@@ -520,14 +544,16 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠美雨,B01489
+＠Miu,B01489
 「はい。すみませんけれど、よろしくお願いします」
+「Ok, thanks so much」
 
 
 @miu_
 
 
 ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
+We part before the door, and Miu enters the library room while I enter the game room.
 
 
 @bg_black
@@ -538,21 +564,28 @@ wait		100
 @bg_goraku
 
 
-＠樹
+＠Itsuki
 「さて、と」
+「Now then...」
 
 部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
+Miu had already left a bucket and house-cloth inside.
 
 さっきの段取りと言うのは、掃除の手伝いのことだ。
+We'd been talking about helping her with cleaning.
 
 遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
+I had to almost force myself into volunteering to help out as Miu was quite hesitant.
 
-＠樹
+＠Itsuki
 「こうして落ち着いて見ると、けっこう汚れているものだな」
+「When I take the time to look closely like this, it's actually quite dirty」
 
 遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
+When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
 後はもう、出しっぱなしで片付けていないカードとかも……
+And there's some cards and stuff that haven't been put away...
 
 
 bgm_stop
@@ -572,17 +605,20 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01812
+＠Ichigo,O01812
 「あ。やっぱりパパだ♪」
+「Oh, it is you Papa♪」
 
 
 @bgm03			#BGM 03 : いちごのテーマ
 
 
 どこから手をつけようか迷っていると、いちごが部屋に入ってきた。
+Ichigo came into the room as I was wondering where to start.
 
-＠樹
+＠Itsuki
 「いちごか。そう言えば今日はお休みだったな」
+「Ichigo? You have your day off today right」
 
 
 @ichigo_yorokobi	#喜
@@ -595,8 +631,9 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01813
+＠Ichigo,O01813
 「うん。それで、パパがここに入るのが見えたから追ってきたんだよ」
+「Yeah. I saw you go into here to so I followed you」
 
 
 @ichigo_takurami	#企み
@@ -615,23 +652,28 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01814
+＠Ichigo,O01814
 「ねぇねぇ、いちご暇なの～。何かして遊ぼうよ～」
+「I've got nothing to do. Let's play something～」
 
-＠樹
+＠Itsuki
 「はは、残念だが遊びじゃないよ。掃除しに来たんだ」
+「Haha, sorry but I came here to clean the place, not play」
 
 
 @ichigo			#普通
 
 
-＠いちご,O01815
+＠Ichigo,O01815
 「え。掃除……？」
+「Huh. Cleaning...?」
 
 遊戯室に入ったので、てっきり遊ぶとばかり思っていたのだろう。
+It appears she had nothing but the thought of playing on her mind.
 
-＠樹
+＠Itsuki
 「そうだ。いちご暇なら一緒に―――」
+「Actually, if you've got time maybe you could―――」
 
 
 @ichigo_odoroki		#驚
@@ -644,23 +686,28 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01816
+＠Ichigo,O01816
 「あ、思い出したー！　いちごそう言えば用事があるんだった～！」
+「Ah, I just remembered! I had something to do today too～!」
 
 
 @ichigo_ase		#汗
 
 
-＠いちご,O01817
+＠Ichigo,O01817
 「えっと、だからお手伝いしたくても、忙しくていちごちょっと無理かな～」
+「Um, so as much as I'd like to help you, I'm busy and can't spare the time～」
 
 ……分かりやすいな。
+... She's so easy to read.
 
-＠樹
+＠Itsuki
 「そんなに急ぐ用事って一体何だ？」
+「What on earth do you have to do so suddenly?」
 
-＠いちご,O01818
+＠Ichigo,O01818
 「え。えっと、それは……分からないけど、何かあったような～」
+「Eh. Er... I don't know exactly what, but I feel like there was something～」
 
 
 @ichigo_komikaru_odoroki	#コミカル驚
@@ -673,11 +720,13 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01819
+＠Ichigo,O01819
 「あ、そうだッ。いつもざくろがね、いちごは頭の中が大変だって言うの！　だから、大変で忙しいの～！」
+「Oh I know. Zakuro is very dear to me... so I really need to go see her right now～!」
 
-＠樹
+＠Itsuki
 「分かったから、ほら布巾。いちごはテーブルを頼むな」
+「Oh OK if that's how it is, here's a rag and I'll leave the table to you」
 
 
 @ichigo_naki		#泣
@@ -696,17 +745,20 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01820
+＠Ichigo,O01820
 「うわーん、本当に大変なのに～！」
+「Oh no, but this is a really big deal～!」
 
-＠樹
+＠Itsuki
 「……まぁ、確かに大変そうだ」
+「... No, it just seems like it」
 
 何か、『頭が悪いから早退します』とか学生が言うのと同レベルだ。
+This is on the same level as a student excusing himself early by saying he doesn't get it.
 
-＠樹
+＠Itsuki
 「手伝ってくれたら、後で出かけよう。お菓子でも買ってあげるからさ」
-
+「If you help out I'll take you out later and buy you a candy」
 
 @ichigo_yorokobi	#喜
 #///////////////////////////////////////////////////////
@@ -719,18 +771,23 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01821
+＠Ichigo,O01821
 「お菓子！？　うんッ、それならいいよ！」
+「Candy!? Then I'll help out!」
 
-＠樹
+＠Itsuki
 「はやッ」
+「That was quick」
 
 ……大変すぎるぞいちご。
+... Must be really important Ichigo.
 
 まぁ、おかげでこうして貴重な戦力を得たわけだが……
+Well, thanks to this I've acquired a deadly munitions to my arsenal, but even so...
 
-＠樹
+＠Itsuki
 「いちご。くれぐれも知らない人に、お菓子なんかでついて行っちゃダメだぞ」
+「Please Ichigo, no poking people you don't know with your candy or whatever」
 
 
 @ichigo_warai		#笑
@@ -743,14 +800,16 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01822
+＠Ichigo,O01822
 「は～い♪」
+「Sure～♪」
 
 
 bgm_stop
 
 
 その笑顔が、そこはかとなく不安を感じさせてくれた。
+Somehow, that smile makes me feel uneasy.
 
 
 @bg_black
@@ -778,8 +837,10 @@ label	ep_ichigo_04
 
 
 改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
+I don't need to say it again, but Shizuku really loves doing useless things.
 
 とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
+She can't ever calm down, and is always amusing herself at the expense of the people around her.
 
 
 #■BG（自室・夜）
@@ -790,8 +851,9 @@ label	ep_ichigo_04
 screen_vibration	500,8,8,8
 
 
-＠樹
+＠Itsuki
 「や、やられたぁッ……！！」
+「W-What the hell...」
 
 
 @bgm12			#演：仮ＢＧＭ
@@ -799,30 +861,41 @@ se_stop		0
 
 
 お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
+Returning from the bath I was dumbstruck at the scene before me.
 
 部屋の中には曲者の侵入の痕跡が残っていた。
+Someone had intruded in my room and left a mess all over the place.
 
 いや、残っているどころか、
+No, not just a mess...
 
-＠樹
+＠Itsuki
 「部屋中の本がエロ本にすり替わってる！！」
+「All my books have been switched with porn magazines!!」
 
 本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
+Everything from my bookshelf to my nightstand, an overflowing sexual deviance scattered about.
 
 むしろ産卵しているかもしれない。
+Or perhaps planted there.
 
-＠樹
+＠Itsuki
 「こんなくだらない事に労力を使うのは、雫さんだな……」
+「Only Shizuku would go to so much trouble...」
 
 図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
+They're probably from the library room. I don't think this is all the work of one person though.
 
-＠樹
+＠Itsuki
 「手伝ったのはざくろだろうな。未だに行動が読めないし」
+「Zakuro probably helped. She seems pretty fishy too」
 
-＠樹
+＠Itsuki
 「……ったく」
+「... Ugh」
 
 放っておくわけにもいかないので、とりあえず片付け始める。
+I can't just leave it like this, so I start cleaning it up.
 
 
 #SE11　部屋のドアをノック（コンコン）
@@ -830,8 +903,9 @@ se_stop		0
 #コンコン。
 
 
-＠樹
+＠Itsuki
 「ん？　ざくろか。雫さんですか？　どうぞ」
+「Is that you, Zakuro? Shizuku-san? Come in」
 
 
 bgm_stop
@@ -861,15 +935,17 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01823
+＠Ichigo,O01823
 「ブブー、ハズレ～！　正解はいちごだよ」
+「Wrong, Papa～! The correct answer is Ichigo」
 
 
 @bgm03			#BGM 03 : いちごのテーマ
 
 
-＠樹
+＠Itsuki
 「げッ…！？」
+「Ack...!」
 
 
 @ichigo_odoroki		#驚
@@ -883,33 +959,40 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01824
+＠Ichigo,O01824
 「…？　ああーー！」
+「...? Ahhーー!」
 
 完全に不意を付かれて、部屋の現状がいちごに見つかってしまった。
+I'm caught completely off-guard, and Ichigo finds the state of my room.
 
-＠いちご,O01825
+＠Ichigo,O01825
 「すごーい！　エッチな本がいっぱいある～。どうしたの？」
+「Wow! There's so many dirty books～. What's with that?」
 
-＠樹
+＠Itsuki
 「どうもこうも、オレのじゃないぞ。雫さんがやったんだ」
+「Nothing, they're not mine. This is Shizuku-san's doing」
 
 
 @ichigo_yorokobi	#喜
 
 
-＠いちご,O01826
+＠Ichigo,O01826
 「ふ～ん。あ、見てパパ。これすごい格好でエッチしてるよー♪」
+「Hmmm. Oh, look at the crazy position they're doing it in Papaー♪」
 
 
 @ichigo			#普通
 
 
-＠いちご,O01827
+＠Ichigo,O01827
 「こっちの本の人は、すごいおっぱいだし。美雨とどっちが大きいかな～」
+「This girl has really big boobs. I wonder which are bigger, her's or Miu's～」
 
-＠樹
+＠Itsuki
 「いや～、美雨だろ。メイド服の上からあのボリュームだしな」
+「I'd say Miu. You can tell how big they are through her maid outfit」
 
 
 @ichigo_yorokobi	#喜
@@ -928,47 +1011,59 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠いちご,O01828
+＠Ichigo,O01828
 「あははッ、やっぱりそうだよね。雫なら同じくらいかな」
+「Ahaha, I guess you're right. Probably closer to Shizuku's then」
 
-＠樹
+＠Itsuki
 「けどこのモデル、大きさはあっても形がなぁ」
+「But this model's got a nice shape even when they're so big」
 
 ……って、何のんきに品評してるんだオレも。
+... Wait, why am I commenting along with Ichigo.
 
 とりあえずいちごはあっという間に状況に順応し、それは不幸中の幸いだった。
+Actually now that she knows I might be able to use her to my advantage.
 
-＠樹
+＠Itsuki
 「悪いけどいちご、片付け手伝ってくれないか」
+「Ichigo, could you help me clean this up」
 
 
 @ichigo			#普通
 
 
-＠いちご,O01829
+＠Ichigo,O01829
 「え、どうして？　もっと一緒に見ようよ」
+「Huh, why? Let's let look at them together some more」
 
-＠樹
+＠Itsuki
 「いやいやいや」
+「OK, just wait a minute」
 
-＠樹
+＠Itsuki
 「百歩譲って見るにしても、まずはこの部屋の惨劇は何とかしたい」
+「I might acquiesce to that, but firstly we have to do something about this disaster in my room」
 
 
 @ichigo_yorokobi	#喜
 
 
-＠いちご,O01830
+＠Ichigo,O01830
 「ふ～ん。あ、パパ見てこの人、大人なのにお股の毛が生えてないよ」
+「Hmmm. Oh, Papa look, she's an adult but she doesn't have any hair down there」
 
-＠樹
+＠Itsuki
 「ん？　ほぉ、パイパンだな。剃った後も無いし天然物だ」
+「Hm? Yeah, you're right. There's no residual so it must be naturally like that」
 
-＠いちご,O01831
+＠Ichigo,O01831
 「こっちの人はお股の毛も無いし胸も小さいよ」
+「She's got no hair and her boobs are small too」
 
-＠樹
+＠Itsuki
 「ふむ。良きかな良きかな」
+「Mhm. Looking good looking good」
 
 
 bgm_stop
@@ -978,6 +1073,7 @@ wait		1000
 
 
 ……結局遅くまで、いっこうに片付けの効率は上がらなかった。
+... And so we didn't start cleaning up until much later.
 
 
 #（スケジュールへ）

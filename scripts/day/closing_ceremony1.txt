@@ -12,55 +12,69 @@ label	shuugyou_01
 @suika_seifuku
 
 #今日は平日だが、お昼頃には子供達が賑やかに帰宅してきた。
+#Today's a weekday, but bustling the kids return home about noon.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
 @mikan_warai
 
-＠みかん,A00400
+＠Mikan,A00400
 「ただいまーッ！」
+「I'm back!」
 
 @ichigo_warai
 
-＠いちご,O00435
+＠Ichigo,O00435
 「うおーーーッ！　終わったぁぁああッ！！」
+「It's finished!!」
 
 みかんといちごが弾むような勢いでリビングに飛び込み、
+Mikan and Ichigo jump into the living room energetically, and...
 
 @zakuro
 
-＠ざくろ,Q00333
+＠Zakuro,Q00333
 「ただいま」
+「Hi」
 
 @suika_warai
 
-＠すいか,R00216
+＠Suika,R00216
 「ただいま帰りました」
+「Hi I'm back」
 
 その後から、ざくろとすいかも帰ってくる。
+Zakuro and Suika step in a moment later.
 
 今日は今学期の最終日、終業式だったのだ。
+Today's the last day of the school semester. They had a closing ceremony.
 
-＠美雨,B00332
+＠Miu,B00332
 「みんな、お疲れさま」
+「Good job everyone」
 
-＠いちご,O00436
+＠Ichigo,O00436
 「あははッ♪　明日から休みかぁ。春休みは宿題が無いから大好きー！」
+「Ahaha♪ Starting tomorrow I can relax. I love it since I don't have any homework for spring break!」
 
-＠いちご,O00437
+＠Ichigo,O00437
 「ねぇねぇ、さっそく何かして遊ぼうよー！」
+「Hey, let's do something fun right away」
 
 @suika
 
-＠すいか,R00217
+＠Suika,R00217
 「うん。あ、美雨さん、これ通知表です」
+「Sure. Ah, Miu-san, here's my report card」
 
-＠ざくろ,Q00334
+＠Zakuro,Q00334
 「私のも」
+「Mine too」
 
-＠美雨,B00333
+＠Miu,B00333
 「ええ、見せてもらうわね」
+「Yeah, let me see」
 
 @zakuro_
 @suika_
@@ -71,53 +85,72 @@ wait	1000
 
 @ichigo_odoroki
 
-＠いちご,O00438
+＠Ichigo,O00438
 「あはははッ！　いちごカバン置いてくるーー！！」
+「Ahahaha! I'm going to put my backpack away!!」
 
 @miu
 
-＠美雨,B00334
+＠Miu,B00334
 「ちょっと待ちなさい、いちごちゃん？」
+「Just a minute, Ichigo-chan?」
 
 screen_vibration	500,16,16,16
 
 ガシッ―――
+*grab*―――
 
-＠いちご,O00439
+＠Ichigo,O00439
 「あ、あはは……は、はぁ……」
+「Ah, ahaha... ha, haa...」
 
 互いに笑顔のまま、刹那の攻防が一瞬で決着を付けて終わる。
+The two of them smile at each other, as their brief tussle is quashed.
 
-＠美雨,B00335
+＠Miu,B00335
 「ダメよ、いちごちゃん。ちゃんと通知表は見せてもらわないと」
+「That won't do, Ichigo-chan. You have to show me your report card」
 
 あくまでもいつもの笑顔と優しい声だが、絶対引きそうにない芯の強さ。
+She keeps smiling and asks softly, but looks not to be messed with.
 
 ……これは、きっと毎学期ごとにやってるな。
+... This probably happens every end of semester.
 
-＠みかん,A00401
+＠Mikan,A00401
 「えっと、みかんのも……ちょっとしか結果がないけど」
+「Um, here's mine too... I didn't get any grades though」
 
-＠美雨,B00336
+＠Miu,B00336
 「ええ。転入してすぐだから仕方ないわ」
+「Ok. That's fine since you moved here all of a sudden」
 
-＠いちご,O00440
+＠Ichigo,O00440
 「い、いちごのは……えっとぉ……」
+「M-Mine is... umm...」
 
-＠ざくろ,Q00335
+＠Zakuro,Q00335
 「前は盗まれた。その前は無くさないように郵送にした。もっと前はヤギに食べられた。今回は？」
+「Last time it was stolen. The time before that, it got lost in the mail...」 ->
 
-＠いちご,O00441
+＠Zakuro
+「The time before that, a goat ate it. What happened this time?」
+
+＠Ichigo,O00441
 「ざ……ざくろに食べられた……？」
+「Z-Zakuro ate it...?」
 
-＠美雨,B00337
+＠Miu,B00337
 「う～ん、それは困ったわね……。ざくろちゃんの胃袋は、どこに繋がってるのかしら？」
+「Hmm, that's a problem... Zakuro-chan, where has your stomach sent it?」
 
-＠ざくろ,Q00336
+＠Zakuro,Q00336
 「いちごのスカートの中。パンツの奥」
+「Inside Ichigo's skirt. In her panties」
 
-＠美雨,B00338
+＠Miu,B00338
 「はい、出しましょうねいちごちゃん」
+「We must take it out Ichigo-chan」
 
 #CH（立ち絵なし）
 
@@ -127,15 +160,19 @@ screen_vibration	500,16,16,16
 #SE41　暴れる音（ドタンッバタンッ！）
 @se41
 
-＠いちご,O00442
+＠Ichigo,O00442
 「わッ、わ～～！！　ヤダヤダッ、ヤダよぉぉ～～！！！」
+「Wah, waah!! Stop stop stop ～～ !!」
 
-＠樹
+＠Itsuki
 「………」
+「...」
 
 み、美雨が手馴れてる………
+M-Miu's quite good at this...
 
 いちごもあっという間にスカートを捲られながら、そこから必死にパンツを下ろされないように抵抗を試みている。
+Ichigo, skirt rolled up in the blink of an eye, tries to fight back so her panties aren't taken down.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -143,18 +180,21 @@ screen_vibration	500,16,16,16
 #（//訝しんでいる）
 @karin_akire
 
-＠かりん,P00462
+＠Karin,P00462
 「な、何の騒ぎ………これ」
+「W-What... is going on here」
 
 @mikan
 
-＠みかん,A00402
+＠Mikan,A00402
 「いちごちゃんがパンツの中に通知表を隠してるみたいで……」
+「I think Ichigo is hiding her report card in her panties...」
 
 @karin_odoroki
 
-＠かりん,P00463
+＠Karin,P00463
 「ま、マヌケだわ……」
+「H-How stupid...」
 
 #CH（みかん・かりんの立ち絵を消してからざくろ）
 
@@ -163,133 +203,167 @@ screen_vibration	500,16,16,16
 
 @zakuro
 
-＠ざくろ,Q00337
+＠Zakuro,Q00337
 「小さくたたんでたから、たぶん脱がしたほうが早い」
+「She folded it up really small, so it's probably quicker to take them off」
 
 @miu
 
-＠美雨,B00339
+＠Miu,B00339
 「そうみたいねぇ……。しょうがないわ、ざくろちゃん、ちょっと押さえててもらえるかしら」
+「You're right... Oh well, Zakuro-chan, hold her down a bit for me」
 
 #@ichigo_kanashimi
 
-＠いちご,O00443
+＠Ichigo,O00443
 「やぁぁ～～ッ！！　離してざくろぉッ、脱がされちゃうよぉぉ～～～！！」
+「Noo!!　Zakuro let me go, I'm going to be naked~~!!」
 
 @ichigo_
 @zakuro_
 @miu_
 
 ズリズリ……ッ、ズルッ……！
+*slip slip*... *slide*...!
 
 哀れ、後ろから押さえられながも足をバタつかせるが、
 やがてスカートから丸まりながらずり下ろされていくいちごのパンツ。
+Held from behind she kicks with her legs, but...
 
-＠ざくろ,Q00338
+#SCRIPT ADD DIALOGUE
+In the end rolled up her panties are taken down from inside her skirt.
+
+＠Zakuro,Q00338
 「……一気に」
+「... All at once now」
 
-＠いちご,O00444
+＠Ichigo,O00444
 「ひ～～～ん！」
+「Noooo!」
 
 やがて、グイッ！と後ろに引かれるいちごの足からついにパンツが離れ、通知表が転がり落ちた。
+Finally, pulled back with a jerk Ichigo's panties come off her legs, and the report card falls out.
 
 @miu
 
-＠美雨,B00340
+＠Miu,B00340
 「ふぅ……ずいぶん器用にたたんだのね。すごくコンパクト」
+「Fuu... She did a nice job folding it. It's really compact」
 
 @zakuro_warai
 
-＠ざくろ,Q00339
+＠Zakuro,Q00339
 「ミッションコンプリート」
+「Mission complete」
 
 何かの法則を無視したくらい小さくされた通知表を回収する。
-
+She recovers the report card which is so small it's like it's breaking some physical law.
 
 @miu_
 
 @ichigo_kanashimi
 
-＠いちご,O00445
+＠Ichigo,O00445
 「うぅ、お股がスゥスゥして寒いよぉ～～……」
+「I feel breezy and cold down there...」
 
 @suika
 
-＠すいか,R00218
+＠Suika,R00218
 「いちごちゃん、だから止めたのに……あれはゲームだから、上手いトリックなんだよって」
+「Ichigo-chan, I tried to tell you... but you kept saying it's a neat trick and it's a game」
 
 @zakuro
 
-＠ざくろ,Q00340
+＠Zakuro,Q00340
 「あ。こっちはいらないから、あげる」
+「Oh, I don't need this, here you go」
 
-＠樹
+＠Itsuki
 「は？」
+「What?」
 
 ざくろが、通知表のついでに脱がされたパンツをこちらに差し出していた。
+Zakuro who now had the panties presented them to me.
 
-＠樹
+＠Itsuki
 「いや、いちごに返しなよ。何でオレに……」
+「No, give them back to Ichigo, why are you giving them to me...」
 
 @zakuro_warai
 
-＠ざくろ,Q00341
+＠Zakuro,Q00341
 「だって、最後まで見たかったからここに残ってるんでしょ？」
+「You wanted to see the show to the end, that's why you stayed here right?」
 
-＠樹
+＠Itsuki
 「……え？」
+「... Huh?」
 
 @ichigo_
 @karin_odoroki
 
-＠かりん,P00464
+＠Karin,P00464
 「そ、そういえば……何でいちごが脱がされてるのをジッと見てるのよッ、このスケベ！！」
+「A-Actually yeah... why are you still looking at her so closely while she's undressed, you pervert!!」
 
 呆けていた傍観からふと我に返る。
+I suddenly look away after realizing I'd been staring unashamed.
 
 その場の視線がオレへと集中していた。
+The attention shifted toward me.
 
 @mikan_tere
 
-＠みかん,A00403
+＠Mikan,A00403
 「お兄ちゃん……やっぱりお仕事以外でも、普通にエッチなんだ……」
+「Onii-chan... I guess you really are into it even outside your job...」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-＠樹
+＠Itsuki
 「ちょ、待てお前ら……オレのせいか、これはッ！？」
+「Hold on a minute... How is this my fault!?」
 
 @suika_tere
 
-＠すいか,R00219
+＠Suika,R00219
 「院長先生のせいじゃないですけど……えっと、実際ジッと見てたわけですし……」
+「It's not your fault... but, you really were looking at her」
 
 @karin_akire
 
-＠かりん,P00465
+＠Karin,P00465
 「浅ましい」
+「Disgusting」
 
-＠樹
+＠Itsuki
 「脱がせたのは美雨だッ！」
+「Miu's the one who undressed her!」
 
 #（//ちょっと頬紅）
 @karin_tere
 
-＠かりん,P00466
+＠Karin,P00466
 「そりゃまぁ、あそこまで堂々と出来る展開は私も羨ましいけどぉ……」
+「Well, I guess I am a little jealous of being able to do that so brazenly」
 
 いや、そんなことは聞いてない。
 ……っていうかする気か、みかんに。
+No, that's not what I meant...... wait, she means with Mikan doesn't she.
 
 @zakuro
 
-＠ざくろ,Q00342
+＠Zakuro,Q00342
 「はい、これ。つっちーの春休みの友」
+「Here, take it. It'll be your companion for you for spring break」
 
 必死で弁明するオレに、まだ温かな脱ぎたてパンツを握らせてくるざくろ。
+Zakuro pushes the freshly removed, still warm panties into my hand as I desperately try to apologize.
 
 よく分からない騒動を経て、こうして子供達の春休みが始まりを迎えた。
+And so passing through this dubious affair, we welcomed the beginning of spring break for the kids.
 
 @bg_black
 

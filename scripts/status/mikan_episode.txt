@@ -1,7 +1,7 @@
 #みかん　からだエピソード #####################################################
 label	mikan_karada_ep
 if mikan_karada_ep_count=7 then return
-if shizuku_off=1 then return
+
 @close_schedule
 @bg_black
 @chara_init
@@ -10,11 +10,11 @@ if mikan_karada_ep_count=0 then gosub	ep_mikan_01	#昼 クッキーは誰の物？
 if mikan_karada_ep_count=1 then gosub	mikan_qa10	#ふとんにジュースをこぼす
 if mikan_karada_ep_count=2 then gosub	ep_mikan_06	#昼 一人ぼっちのおやつ時間
 if mikan_karada_ep_count=3 then gosub	mikan_qa09	#ブラジャー
-if mikan_karada_ep_count=4 then gosub	ep_mikan_09	#昼 子供たちの手料理騒動
-if mikan_karada_ep_count=5 then gosub	mikan_qa05	#今日一緒の布団で寝てもいい…？
+if mikan_karada_ep_count=4 then gosub	ep_mikan_09	#昼 子供たちの手料理騒動if mikan_karada_ep_count=5 then gosub	mikan_qa05	#今日一緒の布団で寝てもいい…？
 if mikan_karada_ep_count=6  then gosub	ep_mikan_10	#昼 エッチの現場を見られてしまった！？（今更）
 
-mikan_karada_levelup_flag=mikan_karada_levelup_flag-1
+mikan_karada_levelup_flag=0
+
 mikan_karada_ep_count=mikan_karada_ep_count+1
 @open_schedule
 return
@@ -22,7 +22,7 @@ return
 #みかん　あたまエピソード ####################################################
 label	mikan_atama_ep
 if mikan_atama_ep_count=7 then return
-if shizuku_off=1 then return
+
 @close_schedule
 @bg_black
 @chara_init
@@ -36,7 +36,7 @@ if mikan_atama_ep_count=5 then gosub	mikan_qa08	#クロスワード2
 if mikan_atama_ep_count=6 and karin_on=1 then gosub	mikan_qa04	#ベルマーク　かりんゆず登場後
 
 
-mikan_atama_levelup_flag=mikan_atama_levelup_flag-1
+mikan_atama_levelup_flag=0
 
 mikan_atama_ep_count=mikan_atama_ep_count+1
 @open_schedule
@@ -45,7 +45,7 @@ return
 #みかん　こころエピソード ####################################################
 label	mikan_kokoro_ep
 if mikan_kokoro_ep_count=7 then return
-if shizuku_off=1 then return
+
 @close_schedule
 @bg_black
 @chara_init
@@ -60,7 +60,7 @@ if mikan_kokoro_ep_count=6 then gosub	ep_mikan_02	#夜 お風呂現場でばったり！？
 
 
 
-mikan_kokoro_levelup_flag=mikan_kokoro_levelup_flag-1
+mikan_kokoro_levelup_flag=0
 
 mikan_kokoro_ep_count=mikan_kokoro_ep_count+1
 @open_schedule
@@ -96,10 +96,9 @@ label	ep_mikan_01
 @bg_genkan
 
 
-#「ただいま、っと」
 ＠Itsuki
-「I'm home.」
-
+「ただいま、っと」
+「I'm back」
 
 #■BG（食堂）
 @bg_dining
@@ -109,113 +108,105 @@ label	ep_mikan_01
 @se06
 
 
-#「美雨、買い物済ませてきたよ………あれ？」
 ＠Itsuki
-「Miu, I finished shopping...... Hm?」
+「美雨、買い物済ませてきたよ………あれ？」
+「Miu, I went shopping...... huh?」
 
 
 @bgm12			#演：仮ＢＧＭ
 
 
-#夕食の買出しから帰って来たが、そこに美雨の姿は無い。
-#SCRIPT ADD KANJI
-Ｉ returned from buying dinner, but Miu is nowhere in sight.
+夕食の買出しから帰って来たが、そこに美雨の姿は無い。
+I bought things for dinner, but Miu wasn't around.
 
-#何か別の用事でも出来たのだろうか？
-#SCRIPT ADD KANJI
-Ｉ guess she was allowed some time off.
+何か別の用事でも出来たのだろうか？
+Maybe she's busy with something else.
 
-#「ま、じきに戻ってくるだろ」
 ＠Itsuki
-「Well, she should be back before long.」
+「ま、じきに戻ってくるだろ」
+「I'm sure she'll be back soon」
 
-#買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
-#SCRIPT ADD KANJI
-Ｉ put the shopping bag on the table and took out a neatly wrapped cookie from inside.
+買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
+I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
-#キャンペーン中のお店でサービスに貰った物だ。
-#SCRIPT ADD KANJI
-Ｉt's a free thing I received during my trip in the merchant's shop.
+キャンペーン中のお店でサービスに貰った物だ。
+I got it for free from the store.
 
-#なので困った事に、子供達のおやつにするには量が少ない。
-#SCRIPT ADD KANJI
-Ｉ'm worried though because there isn't enough for all of them as a snack.
+なので困った事に、子供達のおやつにするには量が少ない。
+It's kind of a bother that there isn't enough to give to all of the kids.
 
 
 @mikan
 
 
-#「おかえりなさい、お兄ちゃん。買い物してきてたの？」
 ＠Mikan,A01528
-「Welcome back, Onii-chan. Did you go shopping?」
+「おかえりなさい、お兄ちゃん。買い物してきてたの？」
+「Hey Onii-chan. Did you go shopping?」
 
-#「ああ、夕食のな」
 ＠Itsuki
-「Ahh, yeah, for the evening meal. [Ahh is an expression of surprise]」
+「ああ、夕食のな」
+「Yeah, food for dinner」
 
-#「そうだ。みかん今一人か？」
 ＠Itsuki
-「Hmm, are you the only person here?」
+「そうだ。みかん今一人か？」
+「Wait, is it just you here?」
 
-#「…？　うん、みんな出かけてるよ」
 ＠Mikan,A01529
-「...? Yes. Everyone's out.」
+「…？　うん、みんな出かけてるよ」
+「...? Yeah, everyone's out」
 
-#なら都合がいい。他の子には悪いけど。
-#SCRIPT ADD KANJI
-Ｇood. This would look bad otherwise.
+なら都合がいい。他の子には悪いけど。
+Good timing. Too bad for the others though.
 
-#「これ、みかんにあげるよ。量が少ないから他の子には内緒な」
 ＠Itsuki
-「Here Mikan, this is for you. Since there's only a little let's make it a secret.」
+「これ、みかんにあげるよ。量が少ないから他の子には内緒な」
+「Here, this is for you. There's only a little so let's not tell the others」
 
-#「え？　うん」
 ＠Mikan,A01530
-「Huh? Okay......」
+「え？　うん」
+「Huh? OK」
 
 
 @mikan_odoroki		#驚
 
 
-#「あっ、クッキーだ～っ♪」
 ＠Mikan,A01531
+「あっ、クッキーだ～っ♪」
 「Aha! It's a cookie!～♪」
 
-#受け取った袋の中身を確認して、喜びの声をあげるみかん。
-#SCRIPT ADD KANJI
-Ｓhe confirmed the contents of the bag I gave her, and cried out rapturously.
+受け取った袋の中身を確認して、喜びの声をあげるみかん。
+She discovers what's inside and exclaims happily.
 
 
 @mikan_warai		#笑
 
 
-#「お兄ちゃんが買ってきたの？」
 ＠Mikan,A01532
-「Did Onii-chan buy this?」
+「お兄ちゃんが買ってきたの？」
+「Did you buy this?」
 
-#「お店のサービスで貰った物だよ。だから全員の分が無いんだけど」
 ＠Itsuki
-「I got it for free from the store. So there isn't enough for everyone, unfortunately.」
+「お店のサービスで貰った物だよ。だから全員の分が無いんだけど」
+「I got it for free from the store. That's why there isn't enough for everyone」
 
-#「これ、みかんがもらってもいいのっ？」
 ＠Mikan,A01533
-「So it's fine if Mikan gets this?」
+「これ、みかんがもらってもいいのっ？」
+「Is it really OK for me to have this?」
 
-#「他の子、特にいちごは羨むから内緒でな」
 ＠Itsuki
-「The other girls, Ichigo in particular, will be jealous so let's keep it under the radar.」
+「他の子、特にいちごは羨むから内緒でな」
+「The others especially Ichigo are going to be jealous so let's keep it hush-hush」
 
 
 @mikan_komikaru_warai	#コミカル笑
 
 
-#「うんッ。わ～いクッキだー♪」
 ＠Mikan,A01534
-「Okay. A cookieー♪」
+「うんッ。わ～いクッキだー♪」
+「OK. Yay A cookieー♪」
 
-#そのままここで包みを広げるみかんと一緒に、クッキーを摘みながら過ごした。
-#SCRIPT ADD KANJI
-Ｊust like that Mikan unwrapped the bag, and in a lump bit off more than she could chew.
+そのままここで包みを広げるみかんと一緒に、クッキーを摘みながら過ごした。
+Mikan unwrapped it, and so cookie in hand together we passed the time.
 
 
 @bg_black
@@ -244,12 +235,12 @@ label	ep_mikan_02
 @bg_bathroom_n
 
 
-＠Itsuki
+＠樹
 「ふぅ～～」
 
 熱い湯船にリラックスした声が漏れる。
 
-＠Itsuki
+＠樹
 「いい湯だ」
 
 
@@ -268,7 +259,7 @@ bgm_stop
 wait		1000
 
 
-＠Itsuki
+＠樹
 「さてと。名残惜しいけど、長湯したら後がつかえてるからな」
 
 
@@ -283,7 +274,7 @@ wait		1000
 @se112
 
 
-＠Itsuki
+＠樹
 「ん？」
 
 
@@ -293,7 +284,7 @@ wait		1000
 @mikan
 
 
-＠Mikan,A01535
+＠みかん,A01535
 「え？」
 
 
@@ -308,10 +299,10 @@ wait		1000
 @mikan_odoroki
 
 
-＠Mikan,A01536
+＠みかん,A01536
 「わ、わぁッ！？　入ってたのお兄ちゃんっ！？」
 
-＠Itsuki
+＠樹
 「お、おお、ついさっきな。まだもう少しかかりそうだ」
 
 
@@ -325,7 +316,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠Mikan,A01537
+＠みかん,A01537
 「ご、ごめんなさい～～！」
 
 
@@ -344,17 +335,17 @@ wait		1000
 @mikan_kanashimi
 
 
-＠Mikan,A01538
+＠みかん,A01538
 「はぅ～……び、ビックリしたよ～」
 
-＠Itsuki
+＠樹
 「……それはいいが。何でまだ中に居るんだ？」
 
 
 @mikan_odoroki
 
 
-＠Mikan,A01539
+＠みかん,A01539
 「え……？」
 
 閉めたドアのこちら側にみかんが居た。
@@ -363,7 +354,7 @@ wait		1000
 @mikan_komikaru_kanashimi	#コミカル哀
 
 
-＠Mikan,A01540
+＠みかん,A01540
 「わぁあっ、ま、間違えたー！　みかんは出て行かないと～～！！」
 
 
@@ -374,27 +365,27 @@ wait		1000
 @se112
 
 
-＠Itsuki
+＠樹
 「……だいぶ混乱してるな」
 
 今度こそドアの向こう側に行ったみかんを見て、オレも一息ついた。
 
-＠Mikan,A01541
+＠みかん,A01541
 「えっと、えっと～ッ」
 
 脱衣所で服を着直すみかんの影が映っている。
 
-＠Itsuki
+＠樹
 「早く出るようにするよ。出たら教えに行ってやるから」
 
-＠Mikan,A01542
+＠みかん,A01542
 「う、うん。ごめんねお兄ちゃん」
 
 やがてその影も廊下へと消えていった。
 
 オレも突然の事だったので、少し気分が高揚している。
 
-＠Itsuki
+＠樹
 （もう何度もエッチしてても、こういうシチュは中々新鮮なモノがあったな……）
 
 今度何か応用してやってみるのもありかもしれない。
@@ -425,36 +416,34 @@ label	ep_mikan_03
 @bg_rouka
 
 
-#美雨と一緒に段取りを話しながら、廊下を進んでいた。
-#SCRIPT ADD KANJI
-Ｗhile talking with Miu about some plans, we walked through the hallway.
+美雨と一緒に段取りを話しながら、廊下を進んでいた。
+I walked with Miu through the hall discussing some plans.
 
 
 @miu			#閉_にこ
 
 
-#＠美雨,B01490
-#「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
+＠美雨,B01490
+「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 ＠Miu,B01490
-「Well then, I'll be in the library room next door. If you need something, call me.」
+「So I'll be in the library room next door, you can call if you need anything」
 
-#＠樹
-#「分かった。終わったらオレもそっちを手伝うから」
+＠樹
+「分かった。終わったらオレもそっちを手伝うから」
 ＠Itsuki
-「Okay. If I finish I'll come by and help.」
+「Okay. If I finish early I'll come and help」
 
-#＠美雨,B01491
-#「はい。すみませんけれど、よろしくお願いします」
+＠美雨,B01491
+「はい。すみませんけれど、よろしくお願いします」
 ＠Miu,B01491
-「Ok. Sorry for the trouble, but thank you.」
+「Ok, thanks so much」
 
 
 @miu_
 
 
-#ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
-#SCRIPT ADD KANJI
-Ｐarting in front of the doorway, Miu goes to the library room while I go to the recreation room.
+ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
+We part before the door, and Miu enters the library room while I enter the game room.
 
 
 
@@ -462,35 +451,30 @@ label	ep_mikan_03
 @bg_goraku
 
 
-#＠樹
-#「さて、と」
+＠樹
+「さて、と」
 ＠Itsuki
-「Now then......」
+「Now then...」
 
-#部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
-#SCRIPT ADD KANJI
-Ｔhe bucket and dust cloth that Miu had already prepared rested inside.
+部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
+Miu had already left a bucket and house-cloth inside.
 
-#さっきの段取りと言うのは、掃除の手伝いのことだ。
-#SCRIPT ADD KANJI
-Ｔhe arrangements from before were about how I would be her cleaning assistant.
+さっきの段取りと言うのは、掃除の手伝いのことだ。
+We'd been talking about helping her with cleaning.
 
-#遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
-#SCRIPT ADD KANJI
-Ａlmost by force volunteering for this job for reserved Miu, we came to this point.
+遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
+I had to almost force myself into volunteering to help out as Miu was quite hesitant.
 
-#＠樹
-#「こうして落ち着いて見ると、けっこう汚れてるものだな」
+＠樹
+「こうして落ち着いて見ると、けっこう汚れてるものだな」
 ＠Itsuki
-「Settling in here, I'm finding that it's getting somewhat dirty.」
+「When I take the time to look closely like this, it's actually quite dirty」
 
-#遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
-#SCRIPT ADD KANJI
-Ｗhen I'm enjoying myself I don't notice, but dust is collecting on the table and play equipment odds and ends.
+遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
+When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
-#後はもう、出しっぱなしで片付けてないカードとかも……
-#SCRIPT ADD KANJI
-Ｂehind that are some cards lying around that no one thought to put away and other things......
+後はもう、出しっぱなしで片付けてないカードとかも……
+And there's some cards and stuff that haven't been put away...
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
@@ -500,88 +484,84 @@ wait		1000
 @mikan			#普通
 
 
-#＠みかん,A01543
-#「お兄ちゃん……？」
+＠みかん,A01543
+「お兄ちゃん……？」
 ＠Mikan,A01543
-「Onii-chan......?」
+「Onii-chan...?」
 
-#ドアが開き、そこからみかんが顔を出した。
-#SCRIPT ADD KANJI
-Ｔhe door opens and Mikan walks in.
+ドアが開き、そこからみかんが顔を出した。
+The door opens and Mikan appears.
 
-#＠樹
-#「みかんか。そうだ、ドアそのまま開けておいてくれるか」
+＠樹
+「みかんか。そうだ、ドアそのまま開けておいてくれるか」
 ＠Itsuki
-「Mikan? Oh, I left the door open didn't I?」
+「Oh Mikan? Can you leave the door open?」
 
-#＠みかん,A01544
-#「え？　いいけど、何してるの？」
+＠みかん,A01544
+「え？　いいけど、何してるの？」
 ＠Mikan,A01544
-「Hm? It's fine, what are you doing though?」
+「Huh? Sure, what are you doing?」
 
-#＠樹
-#「散らかってるから、美雨の掃除の手伝いだよ」
+＠樹
+「散らかってるから、美雨の掃除の手伝いだよ」
 ＠Itsuki
-「It's getting messy so I'm helping Miu with cleaning.」
+「It's kind of messy so I'm helping Miu with cleaning」
 
 
 @mikan_odoroki		#驚
 
 
-#＠みかん,A01545
-#「あ、そっかぁ。けっこう汚れてるもんね、この部屋」
+＠みかん,A01545
+「あ、そっかぁ。けっこう汚れてるもんね、この部屋」
 ＠Mikan,A01545
-「Ah, is that so? It's getting kind of dirty in here isn't it?」
+「Oh, I see... It's pretty dirty in here isn't it」
 
 
 @mikan_warai		#笑
 
 
-#「うん。だったらみかん、お手伝いするよ」
 ＠Mikan,A01546
-「Right. Then Mikan will help you guys.」
+「うん。だったらみかん、お手伝いするよ」
+「Right. Then I'll help you out」
 
-#「いいのか？　みかんはせっかくの休暇じゃないか」
 ＠Itsuki
-「You sure? It's your long-awaited break.」
+「いいのか？　みかんはせっかくの休暇じゃないか」
+「Are you sure? It's your day off」
 
-#「うん。お兄ちゃんと一緒に遊ぼうって思ってたから。お掃除でも楽しいよ」
 ＠Mikan,A01547
-「Yeah. I wanted to have a good time with Onii-chan. Even if it's cleaning it's fun.」
+「うん。お兄ちゃんと一緒に遊ぼうって思ってたから。お掃除でも楽しいよ」
+「Yeah. I wanted to do something with you. Cleaning will be fun too」
 
 
 @mikan_
 
 
-#パタパタと部屋の中を走ると、窓を開けて空気を入れ替えていくみかん。
-#SCRIPT ADD KANJI
-Ｗith the light pitter patter of Mikan's footsteps running across the room, she opens a window and fresh air rushes in.
+パタパタと部屋の中を走ると、窓を開けて空気を入れ替えていくみかん。
+Mikan runs across the room, and opening a window lets some fresh air in.
 
 
 @mikan			#普通
 
 
-#＠みかん,A01548
-#「お手伝いしていいでしょ？」
+＠みかん,A01548
+「お手伝いしていいでしょ？」
 ＠Mikan,A01548
-「Is it fine if I help?」
+「I can help too right」
 
-#「そういうことなら、頼もうかな」
 ＠Itsuki
-「If it's like that, I think I'll leave it to you.」
+「そういうことなら、頼もうかな」
+「In that case I'll enlist your help」
 
-#一人だと大変でも、二人なら早く終わるはずだ。
-#SCRIPT ADD KANJI
-Ａlone it would be difficult, but with two we should be done quickly.
+一人だと大変でも、二人なら早く終わるはずだ。
+This would be lengthy alone, but with 2 people it should be done pretty quickly.
 
-#そうすれば美雨の手伝いにも行けるし。
-#SCRIPT ADD KANJI
-Ａnd then Miu's cleaning will go better too.
+そうすれば美雨の手伝いにも行けるし。
+Then we can go help Miu too.
 
-#＠樹
-#「ありがと。お利口だな、みかんは」
+＠樹
+「ありがと。お利口だな、みかんは」
 ＠Itsuki
-「Thank you. You're very sharp, Mikan.」
+「Thanks. You're on the ball, Mikan.」
 
 
 window_close
@@ -591,14 +571,13 @@ wait		1000
 @mikan_warai2		#笑2
 
 
-#＠みかん,A01549
-#「えへへ♪　頑張って綺麗にしようね」
+＠みかん,A01549
+「えへへ♪　頑張って綺麗にしようね」
 ＠Mikan,A01549
-「えへへ♪ Let's work hard and get it nice and tidy.」
+「Ehehe♪ Let's work hard and get it nice and tidy」
 
-#側によってきたみかんの頭を撫でてやる。
-#SCRIPT ADD KANJI
-Ｍikan comes to my side and I caress her fondly on the head.
+側によってきたみかんの頭を撫でてやる。
+I pat Mikan on the head who came to my side.
 
 
 bgm_stop
@@ -606,9 +585,8 @@ bgm_stop
 @bg_black
 
 
-#二人ですると掃除はすぐに終わり、その後は美雨を手伝い三人で施設を掃除していった。
-#SCRIPT ADD KANJI
-Ｗith two people we finished easily, and after we help Miu and clean the place with 3 people.
+二人ですると掃除はすぐに終わり、その後は美雨を手伝い三人で施設を掃除していった。
+With the 2 of us we quickly finished, and went on to help Miu clean the institution with 3 people.
 
 
 #（スケジュールへ）
@@ -632,70 +610,61 @@ label	ep_mikan_04
 @bg_black
 
 
-#改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
-#SCRIPT ADD KANJI
-Ｉt's not that I'm complaining, but Shizuku really loves doing useless things.
+改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
+I don't need to say it again, but Shizuku really loves doing useless things.
 
-#とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
-#SCRIPT ADD KANJI
-Ａnyway even without getting to settle in comfortably, I'm always trying to enjoy what I can where I am.
+とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
+She can't ever calm down, and is always amusing herself at the expense of the people around her.
 
 
 #■BG（自室・夜）
 @bg_itsuki_n
 
 
-#「や、やられたぁッ……！！」
 ＠Itsuki
-「I-I've been had......!!」
+「や、やられたぁッ……！！」
+「W-What the hell...」
 
 
 @bgm12			#演：仮ＢＧＭ
 
 
-#お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
-#SCRIPT ADD KANJI
-Ｒeturning from the bath I witnessed a scene and raised my voice in despair.
+お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
+Returning from the bath I was dumbstruck at the scene before me.
 
-#部屋の中には曲者の侵入の痕跡が残っていた。
-#SCRIPT ADD KANJI
-Ｔraces of invasion of some ruffian remained in my room.
+部屋の中には曲者の侵入の痕跡が残っていた。
+Someone had intruded in my room and left a mess all over the place.
 
-#いや、残っているどころか、
-#SCRIPT ADD KANJI
-Ｎo, far from just remaining,
+いや、残っているどころか、
+No, not just a mess...
 
-#「部屋中の本がエロ本にすり替わってる！！」
 ＠Itsuki
-「All the books in this room have been replaced with ero books!!」
+「部屋中の本がエロ本にすり替わってる！！」
+「All my books have been switched with porn magazines!!」
 
-#本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
-#SCRIPT ADD KANJI
-Ｔhe bookshelf of course, and all the way to my bedside paperbacks being replaced, a messy sex life was scattered.
+本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
+Everything from my bookshelf to my nightstand, an overflowing sexual deviance scattered about.
 
-#むしろ産卵しているかもしれない。
-#SCRIPT ADD KANJI
-Ｏr maybe egg-laying and spawning are better words.
+むしろ産卵しているかもしれない。
+Or perhaps planted there.
 
-#「こんなくだらない事に労力を使うのは、雫さんだな……」
 ＠Itsuki
-「Employing so much effort into such a worthless thing, it's Shizuku......」
+「こんなくだらない事に労力を使うのは、雫さんだな……」
+「Only Shizuku would go to so much trouble...」
 
-#図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
-#SCRIPT ADD KANJI
-Ｉt probably ero books from the library room. It doesn't look like it's solely the work of one person though.
+図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
+They're probably from the library room. I don't think this is all the work of one person though.
 
-#「手伝ったのはざくろだろうな。未だに行動が読めないし」
 ＠Itsuki
-「Probably Zakuro helped out since she can't read about these things herself yet.」
+「手伝ったのはざくろだろうな。未だに行動が読めないし」
+「Zakuro probably helped. She seems pretty fishy too」
 
-#「……ったく」
 ＠Itsuki
-「...... Sheesh.」
+「……ったく」
+「... Ugh」
 
-#放っておくわけにもいかないので、とりあえず片付け始める。
-#SCRIPT ADD KANJI
-Ｎot neglecting to take up the reins, for now I'll start tidying up.
+放っておくわけにもいかないので、とりあえず片付け始める。
+I can't just leave it like this, so I start cleaning it up.
 
 
 #SE11　部屋のドアをノック（コンコン）
@@ -703,29 +672,27 @@ label	ep_mikan_04
 #コンコン。
 
 
-#「ん？　ざくろか。雫さんですか？　どうぞ」
 ＠Itsuki
-「Hm? Zakuro? Or is it Shizuku? Come in.」
+「ん？　ざくろか。雫さんですか？　どうぞ」
+「Is that you, Zakuro? Shizuku-san? Come in」
 
-#「ううん、みかんだよ。入るね～」
 ＠Mikan,A01550
+「ううん、みかんだよ。入るね～」
 「No, it's Mikan. I'm coming in～」
 
-#………え。
-#SCRIPT ADD KANJI
-　... ... ... What?
+………え。
+...... Huh.
 
-#「……え゛！？」
 ＠Itsuki
-「...... What!?」
+「……え゛！？」
+「... Huh!?」
 
-#地の文と合わせて二回驚いてしまった。
-#SCRIPT ADD KANJI
-Ｍerging together with the narrative I was twice surprised.
+地の文と合わせて二回驚いてしまった。
+My surprise blended together with the narration.
 
-#「ちょ、ま、待てみかんッ。入るな！」
 ＠Itsuki
-「Hol-, wai-, wait Mikan. Don't come in!」
+「ちょ、ま、待てみかんッ。入るな！」
+「W-wait, don't come in yet Mikan!」
 
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -737,17 +704,16 @@ wait		1000
 @mikan_warai2		#笑2
 
 
-#「あのね、今国語の宿題をやってて分からない言葉があるんだけど―――」
 ＠Mikan,A01551
-「Excuse me, I'm doing language homework and there's a word I don't know―――」
+「あのね、今国語の宿題をやってて分からない言葉があるんだけど―――」
+「Um, I'm doing language homework and there's a word I don't―――」
 
-#「……『哀れみの視線』っていう………意味が…」
 ＠Mikan,A01552
-「...... It says "eyes of pity"... ... ... what does it... mean...」
+「……『哀れみの視線』っていう………意味が…」
+「... It says "eyes of pity"...... what does that... mean」
 
-#入って来たみかんから、徐々に笑顔が消えていく。
-#SCRIPT ADD KANJI
-Ｔhe smiling face of Mikan who came in is slowly disappearing.
+入って来たみかんから、徐々に笑顔が消えていく。
+Mikan's smile when she came in slowly fades.
 
 
 @mikan			#普通
@@ -755,50 +721,50 @@ wait		1000
 
 ＠Mikan,A01553
 「………」
+「...」
 
 
 @mikan_kanashimi	#哀
 
 
-#「は、はは……意味か。実演は出来てるな……」
 ＠Itsuki
-「Ha, haha...... meaning? You're doing a performance right......」
+「は、はは……意味か。実演は出来てるな……」
+「Ha, haha... What does it mean? You're doing a stage show right...」
 
-#まさに今のみかんのソレが、哀れみの視線だった。
-#SCRIPT ADD KANJI
-Ｅxactly that from Mikan just now was eyes of pity.
+まさに今のみかんのソレが、哀れみの視線だった。
+That's exactly what Mikan just showed me, eyes of pity.
 
-#「お兄ちゃん……部屋の中にエッチな本がいっぱい……」
 ＠Mikan,A01554
-「Onii-chan...... There's lots of ecchi books in your room......」
+「お兄ちゃん……部屋の中にエッチな本がいっぱい……」
+「Onii-chan... There's a lot of dirty books in your room...」
 
-#「こ、これはオレじゃないぞッ。きっと雫さんが！」
 ＠Itsuki
-「T-those aren't mine! I'm sure they're Shizuku's.」
+「こ、これはオレじゃないぞッ。きっと雫さんが！」
+「T-They're not mine! I'm sure Shizuku-san put them here!」
 
-#「ううん。お兄ちゃんのお仕事だもんね。みかん分かってるよ」
 ＠Mikan,A01555
-「No, this is Onii-chan's job right. Mikan understands.」
+「ううん。お兄ちゃんのお仕事だもんね。みかん分かってるよ」
+「No, I get it. This is your job after all right」
 
-#「でも、お兄ちゃんこういうのが好きなんだ……」
 ＠Mikan,A01556
-「But Onii-chan really does like it this much......」
+「でも、お兄ちゃんこういうのが好きなんだ……」
+「But you really like it this much...」
 
-#「全然分かってないじゃないか……」
 ＠Itsuki
-「You don't really understand all of it do you......」
+「全然分かってないじゃないか……」
+「You really don't understand this at all do you...」
 
 
 @mikan_kusyou		#苦笑
 
 
-#「宿題は美雨さんに聞いてくるから。お仕事の邪魔してごめんね」
 ＠Mikan,A01557
-「I've been getting homework from Miu. I bothered you during your job, sorry.」
+「宿題は美雨さんに聞いてくるから。お仕事の邪魔してごめんね」
+「I'll go ask Miu for help. Sorry for interrupting your work」
 
-#「それと、みかんとする時は、この本みたいに痛そうなことはしないでね……？」
 ＠Mikan,A01558
-「But when the time comes to do it with Mikan, don't do things that look painful like in these books alright......?」
+「それと、みかんとする時は、この本みたいに痛そうなことはしないでね……？」
+「But don't do those painful-looking things like in that book with me OK...?」
 
 
 window_close
@@ -808,26 +774,23 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 
-#不安や羞恥や哀れみの表情を漂わせて、みかんがドアの向こうに消えた。
-#SCRIPT ADD KANJI
-Ｈer shyness, unease, and expression of pity hangs in the air and Mikan disappears through the door.
+不安や羞恥や哀れみの表情を漂わせて、みかんがドアの向こうに消えた。
+Looking tensed up, embarrassed, and showing me eyes of pity, Mikan vanished behind the door.
 
-#オレの手には、片付けようと思った本格ハードＳＭ本。
-#SCRIPT ADD KANJI
-Ｉ notice in my hand I'd been holding a genuine hard SM book.
+オレの手には、片付けようと思った本格ハードＳＭ本。
+I notice the hard SM book I'd been holding in my hand meaning to put away.
 
-#「うわあああああーー！！」
 ＠Itsuki
-「UWAHHHHHーー!!」
+「うわあああああーー！！」
+「Uwahhhhhh!!」
 
 
 #■BG（黒）
 @bg_black
 
 
-#雫さんを連れて誤解を解くまで（結局犯人だった）、みかんから微妙な距離を保たれてしまった。
-#SCRIPT ADD KANJI
-Ｕntil I took Shizuku and cleared up this misunderstanding I kept a comfortable distance away from Mikan.
+雫さんを連れて誤解を解くまで（結局犯人だった）、みかんから微妙な距離を保たれてしまった。
+I had to keep well away from Mikan until I took Shizuku (the real offender) to clear this up.
 
 
 #（スケジュールへ）
@@ -855,6 +818,7 @@ label	ep_mikan_05
 
 
 自室に戻る途中、図書室の前でふと足を止めた。
+Heading back to my room I stop suddenly in front of the library room.
 
 
 @bgm12			#演：仮ＢＧＭ
@@ -862,8 +826,10 @@ label	ep_mikan_05
 
 ＠Itsuki
 「そういえば、読みかけの本があったっけ……」
+「Oh yeah, there was that book I wanted to read...」
 
 ちょうど時間も空いてるし、少し読んでいくことにしよう。
+I've got nothing to do, may as well read for a while.
 
 
 @bg_black
@@ -877,8 +843,10 @@ wait		1000
 
 ＠Mikan,A01559
 「…？」
+「...?」
 
 中に入ると、先にいた先客が顔を上げた。
+The previous occupant lifts her gaze as I come in.
 
 
 @mikan_warai		#笑
@@ -886,9 +854,11 @@ wait		1000
 
 ＠Mikan,A01560
 「あ、お兄ちゃん」
+「Ah, Onii-chan」
 
 ＠Itsuki
 「あれ、図書室に居たのかみかん。一人か？」
+「Oh, it's you Mikan. Are you here by yourself?」
 
 
 @mikan_warai2		#笑2
@@ -896,14 +866,18 @@ wait		1000
 
 ＠Mikan,A01561
 「うん。宿題やってるの」
+「Yeah. Homework」
 
 ＠Mikan,A01562
 「いつもは部屋でしてるんだけど、昨日新しい漫画を買ってきちゃったから」
+「I usually do it in my room, but I bought a new manga yesterday」
 
 ＠Itsuki
 「ん、うん……？」
+「Oh Ok...」
 
 会話の流れで頷きかけたが、今の何が原因なのかよく分からない。
+I nod in the flow of the conversation, but don't really understand what she means.
 
 
 @mikan_kusyou		#苦笑
@@ -911,9 +885,11 @@ wait		1000
 
 ＠Mikan,A01563
 「部屋に居たら、つい漫画の続きが気になって読んじゃいそうなの」
+「When I'm in my room I can't help but feel like reading it」
 
 ＠Itsuki
 「ああ、なるほど。ははっ、確かにあるな」
+「Oh, I see. Haha, that happens」
 
 
 @mikan			#普通
@@ -921,36 +897,48 @@ wait		1000
 
 ＠Mikan,A01564
 「ねぇお兄ちゃん、いま勉強見てもらってもいい？」
+「So Onii-chan, can you look at my work for me?」
 
 ＠Itsuki
 「いいけど、どこか分からないところでもあったか？」
+「Sure, is there something you didn't understand?」
 
 ＠Mikan,A01565
 「ううん、答え合わせ」
+「No, just checking my answers」
 
 ＠Mikan,A01566
 「こっちの計算ドリルの３ページなんだけど。解答集はみんな先生に提出しちゃってるんだ」
+「It's these 3 pages of math drills. We have to hand in our answers to the teacher」
 
 ＠Itsuki
 「どれどれ」
+「Let's see...」
 
 みかんの指すドリルのページを開いてみる。
+I open to the page of drills Mikan is pointing to.
 
 そこには丸っこい綺麗な字で、式と答えが書き込まれていた。
+She has the formulas and answers filled in, in tidy round handwriting.
 
 ＠Mikan,A01567
 「結構たくさんあるんだけど」
+「There's a lot though」
 
 ＠Itsuki
 「ふむ。これは全部、今日解いた宿題か？」
+「Mhm. Did you solve all these today?」
 
 ＠Mikan,A01568
 「うん。習ったばかりの復習問題だよ」
+「Yeah. It's all review of stuff we learned before」
 
 ＠Itsuki
 「そっか。頑張ったんだな、みかん」
+「I see. You've been working hard, Mikan」
 
 まずはそれを褒めて、みかんのことを軽く撫でてあげる。
+I praise her first and gently pat her head.
 
 
 @mikan_warai2		#笑2
@@ -958,21 +946,26 @@ wait		1000
 
 ＠Mikan,A01569
 「えへへ。でもまだ、正解してるか分からないよ」
+「Ehehe. I don't know if it's right yet though」
 
 ＠Itsuki
 「よし。さっそく採点しようか」
+「Alright, I'd better get to marking it」
 
 みかんの隣に座って、ルーズリーフへ計算を写し解きなおす。
-
+Taking a seat beside Mikan, I copy the problems to a loose-leaf and solve them over again.
 
 @mikan_
 
 
 一問目、
+First question,
 
 ……二問目、
+... Second question,
 
 …………三問目、
+...... Third question,
 
 
 @mikan_middle		# 中間
@@ -981,16 +974,21 @@ wait		1000
 
 ＠Mikan,A01570
 「わ。すごいお兄ちゃん、解くの早い～♪」
+「Wow Onii-chan, you're so quick～♪」
 
 ＠Itsuki
 「はは、まぁ採点者が悩んでたらダメだからな」
+「Haha, well the marker shouldn't have issues with it」
 
 正解続きで問題は半分を越え、そのまま三分の二も過ぎる。
+I get past halfway with all checkmarks, and still 2 thirds.
 
 が、そこで、
+But, right here,
 
 ＠Itsuki
 「……ん？　ここはちょっとおかしいな」
+「... Hm? This doesn't make sense」
 
 
 @mikan			#普通
@@ -998,21 +996,28 @@ wait		1000
 
 ＠Mikan,A01571
 「え。どこどこ…？」
+「Huh. Where where...?」
 
 ＠Itsuki
 「ここ、オレの解答とみかんの解答が違うだろ」
+「Here, our answers are different」
 
 ドリルを見つめるみかんの身体が、自然とオレの方へ寄り添ってくる。
+Mikan staring fixedly at the drills, she suddenly drifts closer.
 
 ＠Mikan,A01572
 「ほんとだ……えっと、こうかな……」
+「You're right... Um, maybe if I do this...」
 
 そのまま、うんうんと悩みながら問題を解きなおす。
+Like that Mikan talking to herself sets about solving it again.
 
 それは別に何でもないことだが、一生懸命な姿は妙に可愛かった。
+That's as expected, but the way she puts all her effort into is super cute.
 
 ＠Itsuki
 「みかん、上手くとけたら膝の上で抱っこしてやるぞ」
+「Mikan, if you solve it correctly you can sit on my lap」
 
 
 @mikan_kanashimi	#哀
@@ -1020,10 +1025,13 @@ wait		1000
 
 ＠Mikan,A01573
 「あ。やっぱりおんなじ答えになっちゃうよ……」
+「Ah. I got the same answer...」
 
 コンマ２秒で返事が返ってきた。
+She replied in less than half a second.
 
 って言うか、問題に集中してみかんは聞こえてなかったみたいだ。
+She must have been focusing on the problem and didn't hear what I said.
 
 
 @mikan_odoroki		#驚
@@ -1031,21 +1039,25 @@ wait		1000
 
 ＠Mikan,A01574
 「あれ。お兄ちゃん今みかんに何か言った？」
+「Wait, did you say something?」
 
 ＠Itsuki
 「いや、何でもない。気にするな」
+「No, it's nothing. Don't worry about it」
 
 ＠Itsuki
 「間違いの原因は公式の使い方だな。慣れてないと良くあるミスだ」
+「It has to do with how you're using the formula. It's a pretty common mistake if you're not used to it」
 
 
 @mikan			#普通
 
 
 みかんの前で問題を解きながら、説明を加える。
+I solve it in front of Mikan, explaining as I go.
 
 そうやってみかんの宿題が終わるまで、一緒に勉強を見てあげて過ごした。
-
+And so I helped her with her homework until we were done.
 
 @bg_black
 
@@ -1073,13 +1085,17 @@ label	ep_mikan_06
 
 ＠Itsuki
 「おや……？」
+「Hm...?」
 
 食堂に続く廊下でみかんの後ろ姿を見つけた。
+I saw Mikan heading to the dining room.
 
 そのまま気付かずに食堂へ入っていく。
+She entered without noticing me.
 
 ＠Itsuki
 「さては、夕食前につまみ食いだな」
+「I bet she wants to sneak some food before dinner」
 
 
 #SE13　お腹の音・弱（キュルル……）
@@ -1087,6 +1103,7 @@ label	ep_mikan_06
 
 
 ……そう言えばオレも小腹が空いた。
+... Actually I'm pretty hungry too.
 
 
 @bg_black
@@ -1099,9 +1116,11 @@ wait		1000
 
 
 中に入ると、ちょうどみかんが背を向けるように座り、モグモグと何かを食べていた。
+Sure enough when I go in Mikan is turned away munching on something.
 
 ＠Itsuki
 「みかん、つまみ食いはほどほどにしろよ？」
+「Mikan, go easy on it before dinner」
 
 
 @mikan_small
@@ -1111,6 +1130,7 @@ wait		1000
 
 ＠Mikan,A01575
 「わぁッ！？　ご、ごめんなさい～っ」
+「Ahh!? S-Sorry～」
 
 
 @mikan_odoroki		#驚
@@ -1118,9 +1138,11 @@ wait		1000
 
 ＠Mikan,A01576
 「……って、お兄ちゃんか～。ビックリした」
+「... Oh, it's you Onii-chan. You startled me」
 
 ＠Itsuki
 「ははっ、みかんは無防備だなぁ。ちゃんと周りに注意を払わないと」
+「Haha, you're so defenseless, you have to be more aware of your surroundings」
 
 
 @mikan_kanashimi	#哀
@@ -1128,18 +1150,22 @@ wait		1000
 
 ＠Mikan,A01577
 「うぅ～……だからって、急に見つかったら驚いちゃうよぉ、も～」
+「Uu... No, of course people will be surprised if you sneak up on them, geez～」
 
 
 @mikan_
 
 
 安堵するみかんの隣へ並び、その摘んでいる物を確認する。
+I look more closely at the thing she was so coveting, lined up next to her.
 
 ＠Itsuki
 「……あれ。プリンだ」
+「... Oh, it's pudding」
 
 ＠Itsuki
 「豆腐プリン……？」
+「Tofu pudding...?」
 
 
 @mikan_middle		# 中間
@@ -1148,17 +1174,22 @@ wait		1000
 
 ＠Mikan,A01578
 「え？　普通のプリンだよ、たぶん」
+「Huh? I think it's just regular pudding」
 
 ＠Itsuki
 「だよな……」
+「Yeah...」
 
 まぁ豆腐プリンがオカズなのかどうかは微妙だが。
+That's an odd side dish to have prepared for dinner.
 
 ＠Mikan,A01579
 「みかん今日、三時におやつ食べてなかったから。これがそうなの」
+「I didn't have my snack at 3 today, this is it」
 
 ＠Itsuki
 「何だ、そうか。てっきり夕食のつまみ食いかと思った」
+「Oh, I see. I thought you were stealing some food Miu had made」
 
 
 @mikan_odoroki		#驚
@@ -1166,11 +1197,14 @@ wait		1000
 
 ＠Mikan,A01580
 「えーっ、つまみ食いなんて酷いよ。みかんを疑ってたの？」
+「Huh, that's really mean. Is that why you followed me?」
 
 ＠Itsuki
 「はは、悪い。オレも小腹が空いてたからな」
+「Haha, sorry. Actually I was pretty hungry myself」
 
 けどそれなら別に見つかっても、驚いて謝ることは無いだろうに。
+If that's the case, she didn't need to be surprised and apologize when I found her.
 
 
 @mikan_warai2		#笑2
@@ -1178,10 +1212,12 @@ wait		1000
 
 ＠Mikan,A01581
 「えへへ……。実はつまみ食いに来て、おやつのことを思い出したの」
+「Ehehe... Actually I came to sneak some food, but I remembered my snack」
 
 
 ＠Itsuki
 「やっぱり常習犯だったか」
+「So you are doing it after all」
 
 
 @mikan			#普通
@@ -1189,6 +1225,7 @@ wait		1000
 
 ＠Mikan,A01582
 「うぅん、別にいつもってわけじゃないんだけど……」
+「Well, I don't do it all the time...」
 
 
 @mikan_warai		#笑
@@ -1196,12 +1233,15 @@ wait		1000
 
 ＠Mikan,A01583
 「えっと～、夕食でみかんのおかずが少ない時は、つまみ食いが見つかって引かれちゃってる時かな」
+「Um～, I can't help but want to grab some when there's not a lot of side dish for my rice」
 
 ＠Itsuki
 「あぁ、三日に一度くらい、微妙にみかんのおかずが少ない日があるな」
+「Oh, that happens once every few days doesn't it」
 
 ＠Itsuki
 「ほとんど毎日じゃん」
+「That's pretty often though」
 
 
 @mikan_kusyou		#苦笑
@@ -1222,11 +1262,14 @@ layer_movepass_play	l_mikan,0,play_once
 
 ＠Mikan,A01584
 「あはは……だって、美雨さんのご飯美味しくて待ちきれないんだもん～」
+「Ahaha... but Miu's food is so tasty I can't wait～」
 
 しかもそれは〝見つかってる時〟だから、実行数はもっと多いはずだ。
+And that's just how often she finds some, so she's probably spending even more time looking for it. 
 
 ＠Itsuki
 「やれやれ。みかんの身体のどこにそれだけ入るんだか」
+「Oh man. Where does that all go in your tiny body」
 
 
 #SE13　お腹の音・弱（キュルル……）
@@ -1234,6 +1277,7 @@ layer_movepass_play	l_mikan,0,play_once
 
 
 夕食の話に釣られて、ついまたお腹がなってしまう。
+My stomach rumbles again with all the talk of food.
 
 
 @mikan			#普通
@@ -1241,9 +1285,11 @@ layer_movepass_play	l_mikan,0,play_once
 
 ＠Mikan,A01585
 「お兄ちゃん、お腹空いてるの？」
+「Are you hungry Onii-chan?」
 
 ＠Itsuki
 「ああ。まぁな」
+「Yeah, a little」
 
 
 window_close
@@ -1255,11 +1301,14 @@ wait		1000
 
 ＠Mikan,A01586
 「じゃあ、はい♪」
+「Then, here you go♪」
 
 みかんはスプーンですくったプリンを、こちらに差し出してくれた。
+Mikan scoops out some pudding with a spoon, and shoves it toward me.
 
 ＠Itsuki
 「ありがとう。でもこれはみかんのおやつじゃないか」
+「Thanks, but this is your snack isn't it」
 
 
 @mikan_yorokobi		#喜
@@ -1267,23 +1316,28 @@ wait		1000
 
 ＠Mikan,A01587
 「いいよ、一緒に食べよ。一人でおやつなのも寂しかったもん」
+「It's fine, let's both have some. It's lonely snacking on my own」
 
 ＠Itsuki
 「そっか。じゃあ少しだけ貰うな」
+「Ok, just a little then」
 
 パクッとスプーンを口に含む。
+I take the spoon in my mouth.
 
 スプーンが引き抜かれて残ったプリンからは、どこか懐かしい味と感触がした。
-
+She removes the spoon and from the pudding that remained, I get a much longed for taste.
 
 @mikan_warai		#笑
 
 
 ＠Mikan,A01588
 「美味しい？」
+「Is it good?」
 
 ＠Itsuki
 「うん、美味い」
+「Yeah, it's good」
 
 
 @mikan_warai2		#笑2
@@ -1291,11 +1345,14 @@ wait		1000
 
 ＠Mikan,A01589
 「それじゃあもう一口、はい♪」
+「Then here's another one♪」
 
 さっきより大きめのプリンも、パクリと一口で口に運んだ。
+I accept another dollop of pudding in my mouth, bigger than the last one.
 
 ＠Itsuki
 「貸してごらん。今度はオレがみかんにしてあげるから」
+「Pass it here. I'll feed you some too」
 
 
 @mikan_odoroki		#驚
@@ -1303,8 +1360,10 @@ wait		1000
 
 ＠Mikan,A01590
 「ほんとっ？　じゃあ下のソースのところ、たくさんすくってね♪」
+「Really? Make sure to scoop out a lot of sauce from the bottom♪」
 
 仲良くそんな風に、夕食までの時間をみかんと過ごした。
+Getting along well with her like so, we passed the time until dinner.
 
 
 bgm_stop
@@ -1313,6 +1372,7 @@ bgm_stop
 
 
 ……後にそれを聞いたかりんから、みかんと過ごしたことに激しい嫉妬を買ったのだが。
+... It caused Karin some consternation when she heard about it afterward.
 
 
 #（スケジュールへ）
@@ -1340,7 +1400,7 @@ label	ep_mikan_07
 
 ヒタ…ヒタ……
 
-＠Itsuki
+＠樹
 「………」
 
 
@@ -1351,7 +1411,7 @@ label	ep_mikan_07
 
 消灯した静かな廊下を、オレは物音を立てないように歩いていた。
 
-＠Itsuki
+＠樹
 （うぅ…お腹が痛い……）
 
 こんな時間に目を覚まし、クスリを探そうにも場所が分からなかった。
@@ -1368,7 +1428,7 @@ wait	1000
 
 やがて何事も無く、美雨の部屋の前に到着する。
 
-＠Itsuki
+＠樹
 「……起きてるかな、美雨。寝てたらどうしようか」
 
 
@@ -1384,10 +1444,10 @@ wait	1000
 
 中は既に電気が落ち、真っ暗になっていた。
 
-＠Miu,B01508
+＠美雨,B01508
 「……すぅ…ん」
 
-＠Itsuki
+＠樹
 （眠ってる、か……）
 
 
@@ -1400,17 +1460,17 @@ wait	1000
 screen_vibration	500,16,16,16
 
 
-＠Itsuki
+＠樹
 「ぐ、がッ……」
 
 だがこっちはかなり非常事態っぽい……！！
 
 悪い、美雨。情けない理由で起こして……。でも薬が無いと痛くて寝れそうにない。
 
-＠Miu,B01509
+＠美雨,B01509
 「ん……くぅ…」
 
-＠Itsuki
+＠樹
 「はぁっ…はぁッ……美雨……」
 
 お腹を押さえて前かがみになりながら、ジリジリと美雨のベッドへ。
@@ -1421,14 +1481,14 @@ window_close
 wait		1000
 
 
-＠Mikan,A01591
+＠みかん,A01591
 「お、お兄ちゃん……何してるの？」
 
 
 screen_vibration	500,16,16,16
 
 
-＠Itsuki
+＠樹
 「――ッ！？」
 
 
@@ -1446,40 +1506,40 @@ screen_vibration	500,16,16,16
 @bg_rouka_nn
 
 
-＠Mikan,A01592
+＠みかん,A01592
 「…………」
 
 廊下からみかんが、悲しそうな視線でオレを見ていた。
 
-＠Itsuki
+＠樹
 「み、みかん……？　何でこんな時間に」
 
-＠Mikan,A01593
+＠みかん,A01593
 「喉が渇いたから、お水飲もうかなって……」
 
-＠Itsuki
+＠樹
 「そ、そうか……。悪いけどオレはついていってやれない、気をつけていけよ」
 
 
 @mikan_naki		#泣
 
 
-＠Mikan,A01594
+＠みかん,A01594
 「う、うん、それはいいけど……」
 
 何故かいっそう悲しい目でオレを見つめてくる。何でだ……？
 
-＠Itsuki
+＠樹
 「はぁっ、はぁっ……」
 
-＠Mikan,A01595
+＠みかん,A01595
 「そ、それじゃあね……お兄ちゃん」
 
 
 @mikan_
 
 
-＠Itsuki
+＠樹
 「あぁ、うん……」
 
 そそくさと退散するみかん。
@@ -1492,21 +1552,21 @@ wait		1000
 
 再びオレは荒い呼吸で前かがみのまま、寝ている美雨へと近づいていく。
 
-＠Itsuki
+＠樹
 「………ん、あれ？」
 
 ちょっと待てよ。
 
 もしかしてみかん、何かとんでもない勘違いをして行ったんじゃないのか？
 
-＠Miu,B01510
+＠美雨,B01510
 「くぅ、ん……」
 
 目の前には無防備に眠っている美雨。
 
 そしてみかんが見たのは、そんな美雨へ「はぁはぁ」言いながら近づくオレ。
 
-＠Itsuki
+＠樹
 「（（小声で）ひ、ひいぃぃぃーーーーッ！！）」
 
 これじゃ間違いなく、夜這いの現行犯じゃないかッ！？
@@ -1521,7 +1581,7 @@ wait		1000
 screen_vibration	500,16,16,16
 
 
-＠Itsuki
+＠樹
 「は、ぐッ……みかん…」
 
 追いかけようにも追いかけられない……
@@ -1564,19 +1624,19 @@ label	ep_mikan_08
 @SE22			#SE22　水を浴びる音（バシャアァァン！）
 
 
-＠Itsuki
+＠樹
 「ふぃ～。良いお湯だった」
 
 一日の疲れをお風呂で洗い流す。
 
 オレは少しのぼせ気味に長湯を楽しんで、脱衣所に上がった。
 
-＠Itsuki
+＠樹
 「ん？」
 
 バスタオルを除けて、もう一度確認する。
 
-＠Itsuki
+＠樹
 「しまった……。着替え用意するのを忘れた」
 
 入るときに脱いだ服はすでに、洗濯機の中で水洗いされていた。
@@ -1603,14 +1663,14 @@ label	ep_mikan_08
 @bgm12			#演：仮ＢＧＭ
 
 
-#＠樹
-#「やれやれ……今が夏でよかった」
+＠樹
+「やれやれ……今が夏でよかった」
 
 他に手段もなく、オレは腰にバスタオル姿で部屋へ戻っていた。
 
 誰かに着替えを頼むことも考えたが、それはこの姿で人前に出ることを意味する。
 
-＠Itsuki
+＠樹
 （ならいっそ、誰にも会わない内に部屋に帰った方が無難だしな）
 
 そんな事を思いながら、最初の角を曲がった。
@@ -1622,41 +1682,41 @@ label	ep_mikan_08
 @zakuro			#普
 
 
-＠Zakuro,Q01103
+＠ざくろ,Q01103
 「……？」
 
-＠Itsuki
+＠樹
 「うわ……」
 
 ……いきなり曲がった先で見つかってしまった。
 
 しかも、雫さんに次いで見つかりたくなかった人物の一人。ざくろだ。
 
-＠Zakuro,Q01104
+＠ざくろ,Q01104
 「………」
 
-＠Itsuki
+＠樹
 「や、やぁ、ざくろ……」
 
-＠Zakuro,Q01105
+＠ざくろ,Q01105
 「つっちー、そこ裸なの？」
 
 抑揚のないざくろの視線が、腰のバスタオルへと向いて問われた。
 
-＠Itsuki
+＠樹
 「まぁな。風呂に入ってたから」
 
-＠Zakuro,Q01106
+＠ざくろ,Q01106
 「じゃあ、私も着いていく」
 
-＠Itsuki
+＠樹
 「いや、じゃあとか言う意味が分かんないんだが……」
 
 
 @zakuro_metoji		#閉
 
 
-＠Zakuro,Q01107
+＠ざくろ,Q01107
 「その格好で勃起したら恥ずかしいから、気をつけてね」
 
 考えないようにしてたのに……。
@@ -1666,10 +1726,10 @@ label	ep_mikan_08
 @zakuro			#普
 
 
-＠Zakuro,Q01108
+＠ざくろ,Q01108
 「行こつっちー」
 
-＠Itsuki
+＠樹
 「う、ああ……」
 
 
@@ -1680,13 +1740,13 @@ label	ep_mikan_08
 
 見ない見ない。意識もしない。
 
-＠Zakuro,Q01109
+＠ざくろ,Q01109
 「誰の部屋に行くの？」
 
-＠Itsuki
+＠樹
 「自分の部屋しかないだろ。服を着たいんだから」
 
-＠Zakuro,Q01110
+＠ざくろ,Q01110
 「その格好、似合ってるのに」
 
 ……どの世界に、バスタオル一枚姿が似合って嬉しい男が居るだろうか。
@@ -1702,7 +1762,7 @@ label	ep_mikan_08
 @mikan
 
 
-＠Mikan,A01596
+＠みかん,A01596
 「お兄ちゃ――――あれ？」
 
 廊下の先から声を掛けてきたみかんが、顔に困惑を浮かべた。
@@ -1711,43 +1771,43 @@ label	ep_mikan_08
 @mikan_kusyou		#苦笑
 
 
-＠Mikan,A01597
+＠みかん,A01597
 「えっと、お兄ちゃんどうして裸なの……？」
 
-＠Zakuro,Q01111
+＠ざくろ,Q01111
 「聞かないであげて」
 
-＠Itsuki
+＠樹
 「こら、意味深に言うな……。風呂上りの着替えを忘れただけなんだから」
 
 
 @mikan_kanashimi	#哀
 
 
-＠Mikan,A01598
+＠みかん,A01598
 「寒くないの？　みかんが着替え持ってきてあげようか？」
 
-＠Itsuki
+＠樹
 「すぐそこだから大丈夫だよ。じゃあな」
 
 
 @mikan			#普通
 
 
-＠Mikan,A01599
+＠みかん,A01599
 「うんっ」
 
 
 @mikan_warai		#笑
 
 
-＠Mikan,A01600
+＠みかん,A01600
 「みかん達リビングで映画見てるから。ざくろちゃんも良かったら来てね」
 
-＠Zakuro,Q01112
+＠ざくろ,Q01112
 「うん。つっちーの用事が終わったら行く」
 
-＠Itsuki
+＠樹
 「別にオレは引きとめてもないんだが……」
 
 
@@ -1760,7 +1820,7 @@ wait		1000
 
 オレ達と別れたみかんは廊下を折れて、リビングへと向かっていった。
 
-＠Itsuki
+＠樹
 「行って良いんだぞ、ざくろ」
 
 
@@ -1769,10 +1829,10 @@ wait		1000
 @zakuro			#普
 
 
-＠Zakuro,Q01113
+＠ざくろ,Q01113
 「後でいい。こっちの方がモザイクも無いし」
 
-＠Itsuki
+＠樹
 「……はぁ」
 
 まぁ着いてくるだけなら、断る事もないが。
@@ -1791,7 +1851,7 @@ wait		2000
 @bg_itsuki_n
 
 
-＠Itsuki
+＠樹
 「ほら、もう着いたぞ」
 
 
@@ -1800,30 +1860,30 @@ wait		2000
 @zakuro_akire		#呆
 
 
-＠Zakuro,Q01114
+＠ざくろ,Q01114
 「……ショック。何も無かった」
 
-＠Itsuki
+＠樹
 「いいじゃんか。やっぱり何か変な期待してたんだな……」
 
 
 @zakuro			#普
 
 
-＠Zakuro,Q01115
+＠ざくろ,Q01115
 「うん」
 
-＠Zakuro,Q01116
+＠ざくろ,Q01116
 「みかんじゃ無かったら面白かったかも」
 
 
 @zakuro_metoji		#閉
 
 
-＠Zakuro,Q01117
+＠ざくろ,Q01117
 「それじゃあ、私もリビングで映画見てくる」
 
-＠Itsuki
+＠樹
 「……え？　ああ」
 
 
@@ -1836,14 +1896,14 @@ wait		1000
 
 もう興味が無くなったのか、あっさりとみんなの元へ引き上げるざくろ。
 
-＠Itsuki
+＠樹
 「……切り替え早いなおい」
 
 まぁ別に、部屋で変な期待をしていたわけではないが。
 
 ……うん。してないぞ、全然。
 
-＠Itsuki
+＠樹
 「確かにみかん以外の子に見つかってたら、穏やかじゃなかったも知れないな」
 
 オレも服を着て、何事もなくリビングへ合流しに行った。
@@ -1877,14 +1937,14 @@ label	ep_mikan_09
 @SE13			#お腹の音・弱（キュルル……）
 
 
-＠Itsuki
+＠樹
 「……腹減ったな」
 
 腹の虫の訴えに、一度仕事の手を止めて時計を確認する。
 
 朝食を食べたきりのまま、既に針は１時を通り過ぎていた。
 
-＠Itsuki
+＠樹
 「いつもなら美雨が呼びに来てくれるはずなんだが……」
 
 もう少し待とうか迷ったが、結局空腹に負けてオレは席を立つ。
@@ -1900,7 +1960,7 @@ wait	2000
 @bg_dining
 
 
-＠Itsuki
+＠樹
 「美雨……？」
 
 
@@ -1911,10 +1971,10 @@ wait	2000
 
 その美雨の代わりにキッチンから声だけ返ってきた。
 
-＠Mikan,A01601
+＠みかん,A01601
 「お兄ちゃん、お仕事終わったの～？」
 
-＠Itsuki
+＠樹
 「みかんか？　何をしてるんだ？」
 
 
@@ -1930,34 +1990,34 @@ wait	2000
 @mikan_warai2		#笑2
 
 
-＠Mikan,A01602
+＠みかん,A01602
 「～～♪　あとは、オーブンに入れて焼くだけっと」
 
 
 @mikan_warai		#笑
 
 
-＠Mikan,A01603
+＠みかん,A01603
 「待っててね、お兄ちゃん。もうすぐ出来るから」
 
-＠Itsuki
+＠樹
 「出来るって……？　あれ、美雨は？」
 
 
 @mikan			#普通
 
 
-＠Mikan,A01604
+＠みかん,A01604
 「美雨さんね、町内の何か用事でさっき出かけちゃったの」
 
 
 @mikan_yorokobi		#喜
 
 
-＠Mikan,A01605
+＠みかん,A01605
 「だから代わりに、今日はみかんが作ってあげるね」
 
-＠Itsuki
+＠樹
 「……さっきから、何か良い匂いがして気になってたんだが」
 
 まさか……と思いながら、テーブルのホットプレートの蓋を開ける。
@@ -1966,37 +2026,37 @@ wait	2000
 @mikan_warai		#笑
 
 
-＠Mikan,A01606
+＠みかん,A01606
 「どう？　お兄ちゃんホットケーキ好き？」
 
-＠Itsuki
+＠樹
 「あぁ、上手く焼けてて美味しそうだな」
 
-＠Itsuki
+＠樹
 「そのオーブンの中のちっちゃいのは？」
 
 
 @mikan_warai2		#笑2
 
 
-＠Mikan,A01607
+＠みかん,A01607
 「クッキー♪　美雨さんに教えてもらったの」
 
 
 @mikan_warai		#笑
 
 
-＠Mikan,A01608
+＠みかん,A01608
 「お兄ちゃんお腹すいてると思ったから、いっぱい作ってあるよ」
 
-＠Itsuki
+＠樹
 「これも良い匂いだ。すごいな、みかん」
 
 
 @mikan_warai2		#笑2
 
 
-＠Mikan,A01609
+＠みかん,A01609
 「あははっ。頑張ったんだよっ♪」
 
 褒められて嬉しそうに、みかんの顔から笑みが零れ落ちる。
@@ -2005,48 +2065,48 @@ wait	2000
 
 だがオレは一度辺りを見回して、みかんに確認する。
 
-＠Itsuki
+＠樹
 「デザートはすごく美味しそうなんだが。肝心のお昼ご飯はどこにあるんだろう？」
 
 
 @mikan_odoroki		#驚
 
 
-＠Mikan,A01610
+＠みかん,A01610
 「え…？　ご飯？」
 
-＠Itsuki
+＠樹
 「ああ、これとは別に美雨が用意してくれてるんだろう？　ご飯」
 
 
 @mikan			#普通
 
 
-＠Mikan,A01611
+＠みかん,A01611
 「ううん、急いでたから無いよ。ここにあるのだけ」
 
-＠Mikan,A01612
+＠みかん,A01612
 「一度お兄ちゃんの部屋に知らせに行ったんだけど、返事が無かったから」
 
-＠Itsuki
+＠樹
 「……ああ、あれか。ヘッドホンしてたからかな」
 
 
 @mikan_kanashimi	#哀
 
 
-＠Mikan,A01613
+＠みかん,A01613
 「お兄ちゃん、やっぱりお菓子嫌いだった……？」
 
 反応に詰まったオレに、みかんが悲しそうな顔を向けた。
 
-＠Itsuki
+＠樹
 「いやいやっ、お菓子は好きだぞ。みかんの気持ちも嬉しいし！」
 
-＠Mikan,A01614
+＠みかん,A01614
 「ほんと……？」
 
-＠Itsuki
+＠樹
 「本当だとも。頑張ってくれたんだろ。嬉しいに決まってる」
 
 ただお菓子だけって言うのが微妙なだけで。
@@ -2055,10 +2115,10 @@ wait	2000
 @mikan_warai		#笑
 
 
-＠Mikan,A01615
+＠みかん,A01615
 「よかった～♪　あとヨーグルトもあるから、フルーツ乗せて食べようね」
 
-＠Itsuki
+＠樹
 「もう何でもかかって来い」
 
 お菓子だけと知りながらも、その匂いに食欲だけは掻き立てられていった。
@@ -2088,10 +2148,10 @@ bgm_stop
 @mikan_warai2		#笑2
 
 
-＠Mikan,A01616
+＠みかん,A01616
 「いただきまーす！」
 
-＠Itsuki
+＠樹
 「いただきます」
 
 キツネ色のホットケーキにフォークを突き刺し、さっそく口に運ぶ。
@@ -2102,17 +2162,17 @@ bgm_stop
 @mikan			#普通
 
 
-＠Mikan,A01617
+＠みかん,A01617
 「どうかな？」
 
-＠Itsuki
+＠樹
 「ん、美味い。香りで想像していたよりずっと美味しいよ」
 
 
 @mikan_warai2		#笑2
 
 
-＠Mikan,A01618
+＠みかん,A01618
 「あははっ。良かったー♪」
 
 続けてクッキーを摘むが、こちらも香ばしい味が口の中に広がった。
@@ -2123,20 +2183,20 @@ bgm_stop
 @mikan_warai		#笑
 
 
-＠Mikan,A01619
+＠みかん,A01619
 「おかわりたくさんあるから遠慮なく食べてね」
 
-＠Itsuki
+＠樹
 「ああ、これなら入りそうだ」
 
-＠Itsuki
+＠樹
 「今度また、このお礼はしてあげないとな」
 
 
 @mikan_warai2		#笑2
 
 
-＠Mikan,A01620
+＠みかん,A01620
 「うんっ、楽しみにしてるね」
 
 少し変わった昼食になったが、みかんと一緒に談笑しながら過ごした。
@@ -2181,22 +2241,22 @@ screen_transition	1000
 voice_bg		"Q90001"
 
 
-＠Zakuro,Q01200
+＠ざくろ,Q01200
 「んふぅ、くぷちゅッ……にりゅむ、ちゅくぅッ…ん、りゅぅむ……」
 
-＠Zakuro,Q01201
+＠ざくろ,Q01201
 「ぷぁっ……はむぅ、くちゅりゅッ…ずぢゅぢゅ、ぢゅぶッ……んちゅぅッ」
 
-＠Itsuki
+＠樹
 「う……あのな、ざくろ…前にも言ったけどさ……」
 
-＠Zakuro,Q01202
+＠ざくろ,Q01202
 「ちゅぅむ…ちゅぱッ、れりゅッ…りゅむちゅぅ……ふぅん、なぁに…？」
 
-＠Itsuki
+＠樹
 「…毎回そうなんだが、こう、強引にするのやめないか……」
 
-＠Zakuro,Q01203
+＠ざくろ,Q01203
 「れりゅぅ、ちゅぱぁっ……あふ…いいの、今さらやめても…？」
 
 
@@ -2209,19 +2269,19 @@ voice_bg_stop
 
 もうかれこれ十分近く、ずっとそれはざくろの口内で責められ続けていた。
 
-＠Zakuro,Q01204
+＠ざくろ,Q01204
 「んっ…出した途端、名残惜しそうにヒクヒクしてる……つっちーのおちんちん…」
 
-＠Zakuro,Q01205
+＠ざくろ,Q01205
 「熱くて固くて、先っぽから精液みたいに濃い涎がいっぱい流れ出てるわよ……」
 
-＠Zakuro,Q01206
+＠ざくろ,Q01206
 「っん……ぁふ、つっちーはこの涎、舐めてほしくないの？　吸い出して欲しくない…？」
 
-＠Itsuki
+＠樹
 「……そ、そういう本能的なことじゃなくて、もっと常識的な話だよっ……」
 
-＠Zakuro,Q01207
+＠ざくろ,Q01207
 「エッチは常識じゃなくて、本能でするものよ……。正直なこのおちんちんみたいに」
 
 
@@ -2231,18 +2291,18 @@ screen_transition	1000
 voice_bg		"Q90001"
 
 
-＠Zakuro,Q01208
+＠ざくろ,Q01208
 「くぷむッ、れりゅぅ……ずずッ、ずぢゅッ…ぢゅぶぶッ…」
 
 すっかり興奮状態の怒張が、再び口内の深くまでズッポリと咥えられる。
 
-＠Zakuro,Q01209
+＠ざくろ,Q01209
 「ぢゅぷッ、くぢゅるッ……んぅふ…るちゅぢゅッ、くぢゅぅッ、ずずぢゅッ…！」
 
-＠Zakuro,Q01210
+＠ざくろ,Q01210
 「くぢゅぅッ…ん、おちんちんから、ネトネトの先走りがどんどん出てきてる……しゅぶちゅッ、にぢゅぅッ…！」
 
-＠Zakuro,Q01211
+＠ざくろ,Q01211
 「んぁふッ…もっとして欲しそうに、ビクビク暴れまわってるわよ、つっちーのおちんちん……ぢゅくぶッ、ぬぢゅぅッ…ぢゅるちゅッ！」
 
 ざくろの巧みな舌使いと粘膜の絡み付きに、怒張全体へ言い知れぬ快感が走りあがる。
@@ -2250,60 +2310,60 @@ voice_bg		"Q90001"
 目の前に部屋のドアはあった。
 だが、本能の方が強く引き出されて、振り切れない。
 
-＠Zakuro,Q01212
+＠ざくろ,Q01212
 「んぅぢゅッ、ちゅばぁッ……ずッ、ずぢゅぢゅッ、あふぅッ…にちゅむッ、くぶぢゅぅッ！」
 
-＠Zakuro,Q01213
+＠ざくろ,Q01213
 「んぢゅるッ…ぢゅりゅぅッ！　んふぅ…どう、おちんちんのいやらしい本能、分からない…？」
 
-＠Itsuki
+＠樹
 「…それは、分かるが……ざくろの場合それを無理に押し出させてくるじゃないか…」
 
-＠Zakuro,Q01214
+＠ざくろ,Q01214
 「ぢゅるむッ、くぢゅぅッ……ぅん、つっちーより、おちんちんの方が素直だからつい……ぢゅぶぶッ！　ぬちゅぅッ」
 
 しかもざくろは、それが上手いからよけい始末が悪い……
 
 ネロネロと動き回る舌は裏筋を舐め上げ、亀頭とカリの間を幾度もしゃぶり立てた。
 
-＠Zakuro,Q01215
+＠ざくろ,Q01215
 「あふぅッ、にぢゅむ…！　こんな大きさと硬さを、すぐ勃起させちゃうの……ぢゅるるッ！　くぢゅぅッ…」
 
-＠Zakuro,Q01216
+＠ざくろ,Q01216
 「ぐむぅッ、ぢゅぅぶッ…！　れちゅるッ、ぬぢゅッ、ぢゅぢゅぅッ…くむぶッ…！」
 
-＠Zakuro,Q01217
+＠ざくろ,Q01217
 「えふぅッ、んんぅッ…ヤラシイお汁も、吸えば吸うだけ濃くなって量が増えてくる……ぢゅりゅッぅ、にぢゅむッ！」
 
-＠Zakuro,Q01218
+＠ざくろ,Q01218
 「こんなおちんちん、つっちーの以外じゃ見たこと無い……ッくぶ、ぢゅぅるッ…どうしてこんなにいやらしいの…」
 
-＠Zakuro,Q01219
+＠ざくろ,Q01219
 「はむぅッ、んんッ……ぢゅるるッ、ぬぢゅッ、ぢゅッ…ぢゅぶぶ！　くちゅぅッ」
 
 淫らな言葉を紡ぎ、ざくろは唾液でベトベトの肉茎を泡立てながら、指と口唇のピストンを繰り返す。
 
 焦らさず急かさず、最も自然に恍惚が昂ぶるようなペースで刺激は強くされていく。
 
-＠Zakuro,Q01220
+＠ざくろ,Q01220
 「ずぢゅッ、ぢゅぶぶぅッ…！　んぅッ…つっちーの、また熱くなってきてる……るるぶッ、ちゅぅぶッ…！」
 
-＠Zakuro,Q01221
+＠ざくろ,Q01221
 「くぶぶッ、ぬぢゅッ、ぢゅるるッ！　ちゅぶぅッ……んるむッ、りゅぶッ、ちゅぅるッ…！」
 
-＠Zakuro,Q01222
+＠ざくろ,Q01222
 「んはむぅッ、んぢゅるッ…ぢゅぅるッ！　イキそうよ、つっちー……思いっきり出したくないの…？」
 
 射精の衝動は、すでに抑えるには限界近くまで高まっていた。
 
 そして言うまでも無く、中途半端に出してしまうと後味が悪いだけだ。
 
-＠Itsuki
+＠樹
 「……まったく、毎度しょうがないやつだなざくろは…」
 
 その小さい口の中へ、オレからも怒張を深く突き入れ始めた。
 
-＠Zakuro,Q01223
+＠ざくろ,Q01223
 「んッ、ちゅぐぅッ…！　はぁむ、んぅふッ、ちゅぶぶッ……！」
 
 ざくろの熱い舌と口腔粘膜の舐めしゃぶりが、さらに肉茎に強く感じさせられる。
@@ -2314,29 +2374,29 @@ voice_bg		"Q90001"
 voice_bg		"Q90002"
 
 
-＠Zakuro,Q01224
+＠ざくろ,Q01224
 「るぢゅぅッ、ぐぢゅぢゅッ…！　ふむぅッ…思いっきり出して、つっちー……ぴぢゅるッ、ぢゅむぅッ！　んりゅぢゅッ」
 
-＠Zakuro,Q01225
+＠ざくろ,Q01225
 「ぢゅぢゅッ、くぷりゅぅッ！　この硬いおちんちんの先から、たくさんいやらしい精液が出てくるから……んぅむ、ぢゅるぅッ！」
 
-＠Zakuro,Q01226
+＠ざくろ,Q01226
 「くぶぅッ、ぢゅぢゅぅッ！　あふぅッ、ぴちゅる…ぢゅぶぶッ！　にぢゅぅッ！」
 
-＠Zakuro,Q01227
+＠ざくろ,Q01227
 「じゅぷるッ…んぅッ、つっちーの、他の人よりずっと濃い精液……ぬぢゅむッ！　れちゅぅッ、くぶぶッ……また出して見せて…」
 
-＠Zakuro,Q01228
+＠ざくろ,Q01228
 「んぅふッ、ぴちゅぅッ…ちゅぢゅぅッ！　くぷりゅッ、はぁむッ…ぴぢゅぅッ！　ちゅくぶッ、るぢゅぅッ！」
 
 その卑猥な言葉通り、射精を求めるように淫らに怒張へ咥え付いてくるざくろ。
 
 的確な責めとピストンの快感が、すぐにもゾクゾクと強い射精感を走らせてきた。
 
-＠Itsuki
+＠樹
 「……ッ、出るぞ、ざくろの求めてる精液が」
 
-＠Zakuro,Q01229
+＠ざくろ,Q01229
 「くぢゅむッ…りゅむぅッ！　つっちー……んッ…！」
 
 その瞬間、顔を離して怒張を口の外へと解放するざくろ。
@@ -2348,7 +2408,7 @@ voice_bg		"Q90002"
 
 だがオレは深く考えず、顔射だと思って、そのまま衝動を駆け上がらせた！
 
-＠Mikan,A01621
+＠みかん,A01621
 「お兄ちゃん、一緒に――――え？」
 
 
@@ -2375,10 +2435,10 @@ screen_flash		500
 @mikan			#普通
 
 
-＠Mikan,A01622
+＠みかん,A01622
 「…………」
 
-＠Itsuki
+＠樹
 「……え」
 
 ……注がれて無かった。
@@ -2390,7 +2450,7 @@ screen_flash		500
 
 ドクンッ、ドクドクッ…！　ドビュッ、ヂュビュゥッ…！
 
-＠Mikan,A01623
+＠みかん,A01623
 「……っ！？」
 
 
@@ -2399,7 +2459,7 @@ screen_flash		500
 
 しかも追い討ちをかけるように、二度三度と溢れる精液がみかんへと放たれる。
 
-＠Mikan,A01624
+＠みかん,A01624
 「え…えっと……？」
 
 事態が分からず、一瞬固まっていたみかんだが、
@@ -2408,10 +2468,10 @@ screen_flash		500
 @mikan_odoroki		#驚
 
 
-＠Mikan,A01625
+＠みかん,A01625
 「わぁあああっ！？　お、お兄ちゃんのが出てるーーッ！？」
 
-＠Itsuki
+＠樹
 「えええッ！？　み、みかんッ、何で、ざくろは……！？」
 
 
@@ -2420,13 +2480,13 @@ screen_flash		500
 @zakuro			#普
 
 
-＠Zakuro,Q01230
+＠ざくろ,Q01230
 「こっち」
 
 すぐ斜め前。
 何故かざくろが精液を浴びずに立っていた。
 
-＠Zakuro,Q01231
+＠ざくろ,Q01231
 「避けちゃったの」
 
 
@@ -2434,10 +2494,10 @@ screen_flash		500
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 
-＠Itsuki
+＠樹
 「えぇえーーッ！？　避けちゃったじゃないだろッ！」
 
-＠Zakuro,Q01232
+＠ざくろ,Q01232
 「誰か入ってきそうだったから、おすそ分けしようと思って」
 
 
@@ -2449,27 +2509,27 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠Mikan,A01626
+＠みかん,A01626
 「お、おすそ分けッ…！？　お兄ちゃんの、え、えっと～～…」
 
 
 @mikan_komikaru_kanashimi	#コミカル哀
 
 
-＠Mikan,A01627
+＠みかん,A01627
 「わぁんッ！　み、みかんどうすればいいのッ、お口に入れればいいの～～！？」
 
-＠Itsuki
+＠樹
 「と、とりあえず落ち着くんだ。今は飲まないで良いからティッシュを」
 
-＠Zakuro,Q01233
+＠ざくろ,Q01233
 「その前に半分ちょうだい」
 
 
 @mikan_odoroki		#驚
 
 
-＠Mikan,A01628
+＠みかん,A01628
 「えっ、半分って………わぁあっ！？」
 
 
@@ -2480,18 +2540,18 @@ wait		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
 
-＠Zakuro,Q01234
+＠ざくろ,Q01234
 「るりゅ、ちゅぅッ…！　れろれろ、ちゅちゅぅ、んぅふッ…」
 
 いきなりみかんに抱きつくと、頬や首筋についた精液を舐めとり始めるざくろ。
 
-＠Mikan,A01629
+＠みかん,A01629
 「ひゃぅッ！　はうぅっ……ざ、ざくろちゃんくすぐったい～っ……」
 
-＠Zakuro,Q01235
+＠ざくろ,Q01235
 「ちゅ、れりゅむ…ちゅぷぅッ……つっちー、みかんは首筋が感じるみたい…」
 
-＠Itsuki
+＠樹
 「いや知らんからっ、とにかく離してやれ……」
 
 放っておくとエスカレートしそうなので、強引にざくろ引き剥がした。
@@ -2500,30 +2560,30 @@ wait		500
 @zakuro			#普
 
 
-＠Zakuro,Q01236
+＠ざくろ,Q01236
 「待って。まだ舐めたりないの……」
 
-＠Itsuki
+＠樹
 「この状況で何を待つんだよ」
 
-＠Itsuki
+＠樹
 「はぁ……みかん、えっと、色々と大丈夫か……？」
 
 
 @mikan_komikaru_kanashimi	#コミカル哀
 
 
-＠Mikan,A01630
+＠みかん,A01630
 「うぇ～～んッ……ざくろちゃんの唾でもベトベトだよぉ…」
 
-＠Itsuki
+＠樹
 「ほら、ティッシュ……」
 
 
 @zakuro_niko		#にこ
 
 
-＠Zakuro,Q01237
+＠ざくろ,Q01237
 「唾と精液でベトベトなんて、すごくエッチに見えるわ」
 
 
@@ -2542,7 +2602,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠Mikan,A01631
+＠みかん,A01631
 「嬉しくないよぉ～っ。みかん、お兄ちゃんと一緒にお菓子を食べに来ただけなのに～～」
 
 ……オレにも責任があるとはいえ。可哀想を通り越して哀れだった。
@@ -2574,7 +2634,7 @@ label	ep_mikan_11
 @SE19			#SE19　廊下を走る音
 
 
-＠Itsuki
+＠樹
 「ん……？」
 
 
@@ -2583,7 +2643,7 @@ se_stop		0
 
 部屋で本を読んでいると、廊下で騒がしく走る音がした。
 
-＠Itsuki
+＠樹
 「またいちごか……」
 
 
@@ -2591,10 +2651,10 @@ se_stop		0
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 
-＠Mikan,A01522
+＠みかん,A01522
 「お兄ちゃん、みかんだよ！　居る！？」
 
-＠Itsuki
+＠樹
 「え、みかん……？　開いてるけど」
 
 
@@ -2616,7 +2676,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 
-＠Mikan,A01523
+＠みかん,A01523
 「見て、お兄ちゃん！　二枚とも百点だよ！」
 
 
@@ -2631,29 +2691,29 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_warai2		#笑2
 
 
-＠Mikan,A01524
+＠みかん,A01524
 「どうッ！？　すごいでしょ～♪」
 
 どちらの点数欄にも『１００』の数字が踊っている。
 
-＠Itsuki
+＠樹
 「おおッ、二枚同時か！　すごいじゃないかみかん」
 
 
 @mikan_warai		#笑
 
 
-＠Mikan,A01525
+＠みかん,A01525
 「あははっ、うん！　だって勉強がんばったもん！」
 
-＠Mikan,A01526
+＠みかん,A01526
 「早くお兄ちゃんに見せたくて、急いで走ってきたんだよ！」
 
 
 @mikan_odoroki		#驚
 
 
-＠Mikan,A01527
+＠みかん,A01527
 「そうだッ、次は美雨さんにも見せてくる！」
 
 
@@ -2671,7 +2731,7 @@ wait		100
 
 もともと成績の悪い子じゃなかったけど、二枚同時に満点ならオレだってはしゃぎ回るくらい嬉しいだろう。
 
-＠Itsuki
+＠樹
 「最近勉強もがんばってたし。何かご褒美でも上げたほうがいいかな」
 
 みかんの嬉しそうな声を遠くに聞きながら、そんなことを考えるのだった。

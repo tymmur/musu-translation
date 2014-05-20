@@ -16,63 +16,57 @@ date_open
 #SE15　目覚ましの音（ジリリリリッ！）
 @se15
 
-#＠樹
-#「………」
+＠樹
+「………」
 ＠Itsuki
 「.........」
 
 #■BG（自室・昼）
 @bg_itsuki
 
-#＠樹
-#「っ、ぅ、ん～………？」
+＠樹
+「っ、ぅ、ん～………？」
 ＠Itsuki
-「U, hm~.........?」
+「u, hm~.........?」
 
-#けたたましい音に急かされて、まだまどろみの中で瞼を開ける。
-#SCRIPT ADD KANJI
-Ｕrged by the shrill noise, I opened my eyelids, still dozing off.
+けたたましい音に急かされて、まだまどろみの中で瞼を開ける。
+Urged by the shrill noise, I opened my eyelids, still dozing off.
 
-#目覚まし……？
-#SCRIPT ADD KANJI
-Ａlarm clock......?
+目覚まし……？
+Alarm clock......?
 
-#＠樹
-#「そっか……いちご対策にかけておいたんだった……」
+＠樹
+「そっか……いちご対策にかけておいたんだった……」
 ＠Itsuki
 「Oh yeah...... I set it as a counter-measure to Ichigo......」
 
 #SE71　目覚ましが止まる音（リンッ）
 @se71
 
-#寝ぼけながらベルを止める。
-#SCRIPT ADD KANJI
-Ｉ stopped the bell while still half asleep.
+寝ぼけながらベルを止める。
+I stopped the bell while still half asleep.
 
-#朝は強い方なんだが………昨日の精神的な疲労が溜まってるのか……
-#SCRIPT ADD KANJI
-Ｉ'm a morning person but......... The mental fatigue from yesterday is collecting......
+朝は強い方なんだが………昨日の精神的な疲労が溜まってるのか……
+I'm a morning person but......... The mental fatigue from yesterday is collecting......
 
 #CH（立ち絵無し）
 
-#＠いちご,O00033
-#「うわっ、わ～っ！」
+＠いちご,O00033
+「うわっ、わ～っ！」
 ＠Ichigo,O00033
 「Uwah, wa~!」
 
 #SE21　廊下を走り去る音　※徐々に小さく
 @se21
 
-#何か廊下の方から声が聞こえたが、気にせずまどろむ事にしよう。
-#SCRIPT ADD KANJI
-Ｉ hear a voice from the corridor, but I guess I'll doze off without paying attention to it.
+何か廊下の方から声が聞こえたが、気にせずまどろむ事にしよう。
+I hear a voice from the corridor, but I guess I'll doze off without paying attention to it.
 
-#朝はこの時間が一番幸せである気がする。
-#SCRIPT ADD KANJI
-Ｉ think she is happiest at this time in the morning.
+朝はこの時間が一番幸せである気がする。
+I think she is happiest at this time in the morning.
 
-#＠樹
-#「起きたら全部夢でありますよ～に～～……」
+＠樹
+「起きたら全部夢でありますよ～に～～……」
 ＠Itsuki
 「When I wake up, let this all~ be a dream~~......」
 
@@ -93,23 +87,22 @@ layer_position_set	l_ichigo,80,0
 layer_move	l_ichigo,500,0,600,0,0,passtype_tcb
 
 
-#＠いちご,O00034
-#「火事はどこだーっ！？」
+＠いちご,O00034
+「火事はどこだーっ！？」
 ＠Ichigo,O00034
 「Where's the fire--!?」
 
-#＠樹
-#「……え？」
+＠樹
+「……え？」
 ＠Itsuki
 「......Eh？」
 
-#さっきどっかに走っていった足音が、たっぷり水の入ったバケツを持って飛び込んできた。
-#SCRIPT ADD KANJI
-Ｔhe footsteps I had heart running just a while ago jumped in with a bucket full of water.
+さっきどっかに走っていった足音が、たっぷり水の入ったバケツを持って飛び込んできた。
+The footsteps I had heart running just a while ago jumped in with a bucket full of water.
 
 @ichigo_ikari
-#＠いちご,O00035
-#「くらえ火の元ッ、ハイドロバスター！！」
+＠いちご,O00035
+「くらえ火の元ッ、ハイドロバスター！！」
 ＠Ichigo,O00035
 「Eat this, source of fire, Hydro Buster-!!」
 
@@ -124,14 +117,13 @@ wait			1000
 @bg_sky2
 screen_whitein		2000
 
-#＠樹
-#「うぎゃぁぁあああああ！！！」
+＠樹
+「うぎゃぁぁあああああ！！！」
 ＠Itsuki
 「Ugyaaaaaaah！！！」
 
-#こうして今日も、世間の常識からは離れたオレの生活が始まる。
-#SCRIPT ADD KANJI
-Ｌike this, my life starts off separated from society's common sense.
+こうして今日も、世間の常識からは離れたオレの生活が始まる。
+Like this, my life starts off separated from society's common sense.
 
 #BGM切り替え
 
@@ -143,151 +135,147 @@ wait	1000
 event		"event\ev_all_020-00.png"
 se	1,	"sound\se\食事中1.wav",play_loop
 
-#ずぶ濡れになった服を着替え、微妙にテンションの低いまま朝食を取った。
-#SCRIPT ADD KANJI
-Ｉ changed my soaking wet clothes, and got breakfast with low tension.
+ずぶ濡れになった服を着替え、微妙にテンションの低いまま朝食を取った。
+I changed my soaking wet clothes, and got breakfast with low tension.
 
 #■EVCG（みんなと朝食）※ゆずとかりんがいない
 
-#＠すいか,R00006
-#「え……か、勘違い？」
+＠すいか,R00006
+「え……か、勘違い？」
 ＠Suika,R00006
 「Eh...... Mi, misunderstanding?」
 
-#＠いちご,O00036
-#「うん、この前学校でね、火事の時になるベルが誰かの悪戯で鳴ったんだよ」
+＠いちご,O00036
+「うん、この前学校でね、火事の時になるベルが誰かの悪戯で鳴ったんだよ」
 ＠Ichigo,O00036
 「Yeah, before at school, someone rang the fire bell as a joke.」
 
-#＠樹
-#「そうなのか……けど今朝のは目覚ましの音で、火災報知機じゃないからな」
+＠樹
+「そうなのか……けど今朝のは目覚ましの音で、火災報知機じゃないからな」
 ＠Itsuki
 「Is that so......? But this morning, that was an alarm clock, not a fire alarm.」
 
-#わけも分からず冷水を浴びせられたオレだったが、結局いちごが火事と勘違いしただけのようだった。
-#SCRIPT ADD KANJI
-Ｉ did not understand why I had cold water poured on me, but eventually I found out it was just Ichigo's misunderstanding that it was a fire.
+わけも分からず冷水を浴びせられたオレだったが、結局いちごが火事と勘違いしただけのようだった。
+I did not understand why I had cold water poured on me, but eventually I found out it was just Ichigo's misunderstanding that it was a fire.
 
-#＠美雨,B00040
-#「でもビックリしました。いちごちゃんが、火事だ火事だって大騒ぎしていて」
+＠美雨,B00040
+「でもビックリしました。いちごちゃんが、火事だ火事だって大騒ぎしていて」
 ＠Miu,B00040
 「But that surprised me. Ichigo-chan was saying "fire, fire" and making an uproar.」
 
-#＠樹
-#「ハッ………クシュンッ！！」
+＠樹
+「ハッ………クシュンッ！！」
 ＠Itsuki
 「Ah......... choo!!」
 
-#＠ざくろ,Q00112
-#「つっちー、朝食に唾飛ばさないで」
+＠ざくろ,Q00112
+「つっちー、朝食に唾飛ばさないで」
 ＠Zakuro,Q00112
 「Tsuchii, don't spit at breakfast.」
 
-#＠いちご,O00037
-#「あははっ。もう寒いんだから、風邪ひかないようにしなよ～？」
+＠いちご,O00037
+「あははっ。もう寒いんだから、風邪ひかないようにしなよ～？」
 ＠Ichigo,O00037
 「Ahaha. It's already cold, so be careful not to catch a cold, okay~?」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
-#＠樹
-#「いちごには言われたくないッ！」
+＠樹
+「いちごには言われたくないッ！」
 ＠Itsuki
 「I don't want to be told that by Ichigo!」
 
-#＠雫,S00050
-#「しかし昨日のコーヒーといい、今朝の水といい、やけに災難に好かれてるね」
+＠雫,S00050
+「しかし昨日のコーヒーといい、今朝の水といい、やけに災難に好かれてるね」
 ＠Shizuku,S00050
 「But yesterday's coffee, and today's water, you seem to be liked by misfortune.」
 
-#むしろここに居ること事態が災難の元凶だろう。
-#SCRIPT ADD KANJI
-Ｂehind me was the cause of misfortune. (??)
+むしろここに居ること事態が災難の元凶だろう。
+Behind me was the cause of misfortune. (??)
 
-#＠樹
-#「ええ、何の祟りなんでしょうね」
+＠樹
+「ええ、何の祟りなんでしょうね」
 ＠Itsuki
 「Ehh, I wonder which curse it is.」
 
-#＠ざくろ,Q00113
-#「水子」
+＠ざくろ,Q00113
+「水子」
 ＠Zakuro,Q00113
 「Aborted fetus.」
 
 #SE69　物をこかす音（ガシャン）
 @se69
 
-#＠美雨,B00041
-#「きゃッ！？　あ、ああ、すいません……」
+＠美雨,B00041
+「きゃッ！？　あ、ああ、すいません……」
 ＠Miu,B00041
 「Kyah!? Ah, aah, excuse me......」
 
-#＠樹
-#「何で美雨が取り乱してんの」
+＠樹
+「何で美雨が取り乱してんの」
 ＠Itsuki
 「Why is Miu being distracted?」
 
-#＠美雨,B00042
-#「あ、いえ、つい……」
+＠美雨,B00042
+「あ、いえ、つい……」
 ＠Miu,B00042
 「Ah, no, I just......」
 
-#＠みかん,A00012
-#「水子って何……？　お兄ちゃん、それに祟られてるの？」
+＠みかん,A00012
+「水子って何……？　お兄ちゃん、それに祟られてるの？」
 ＠Mikan,A00012
 「What's an "aborted fetus"......? Onii-chan, are you cursed by that?」
 
 #SE53　傷つく言葉（グサッ！）
 @se53
 
-#＠樹
-#「う……」
+＠樹
+「う……」
 ＠Itsuki
 「Uh......」
 
-#＠すいか,R00007
-#「え、『うっ』って……も、もしかして院長先生、本当に……？」
-＠Suika,R00007
+＠すいか,R00007
+「え、『うっ』って……も、もしかして院長先生、本当に……？」
+＠すいか,R00007
 「Eh, "uh"... D, don't tell me Inchou-sensei, you really are......?」
 
-#＠雫,S00051
-#「ふふふ。いや、むしろそういう経験が無いことの方にショックを受けてると見た」
+＠雫,S00051
+「ふふふ。いや、むしろそういう経験が無いことの方にショックを受けてると見た」
 ＠Shizuku,S00051
 「Fufufu. No, rather, the person who has no experience of anything like that is receiving the shock. (??)」
 
-#＠樹
-#「あんたはエスパーかッ！？」
+＠樹
+「あんたはエスパーかッ！？」
 ＠Itsuki
 「Are you an esper!?」
 
-＠Shizuku,S00052
+＠雫,S00052
 「顔に出てるのさ、顔に♪　やる時も顔に出してるから孕まないんじゃないの～？」
 
-#うッ、くく……ッ！
-#そんなつまらない親父ギャグにさえ言い返せれない自分が情けない……！
-#SCRIPT ADD KANJI
-Ｕh, kuku......!
+うッ、くく……ッ！
+Uh, kuku......!
+そんなつまらない親父ギャグにさえ言い返せれない自分が情けない……！
 
-#＠ざくろ,Q00114
-#「ごめんなさい、つっちー。男の尊厳を傷つけること言ったみたい」
+＠ざくろ,Q00114
+「ごめんなさい、つっちー。男の尊厳を傷つけること言ったみたい」
 ＠Zakuro,Q00114
 「Sorry, Tsuchii. It looks like I said something that hurt your man's pride.」
 
-＠Itsuki
+＠樹
 「あ、謝るな……返って止めを刺されてるみたいだ」
 
 そりゃ、確かに経験は多くない上……直接中に出したことなんかは一度も………
 
-＠Itsuki
+＠樹
 （あれ？　でも美雨とのエッチは……）
 
 初めてのエッチの興奮で細部まで覚えてないが………直接中に出したような気がしないでもない。
 
 #■BG（食堂）
 
-#＠美雨,B00043
-#「……お茶、替えてきますね」
+＠美雨,B00043
+「……お茶、替えてきますね」
 ＠Miu,B00043
 「......I'll refill the tea.」
 
@@ -297,13 +285,11 @@ event		"event\ev_all_020-01.png"
 @se18
 
 
-#美雨は先ほど零したカップを片し、キッチンの方へ慌しく去って行った。
-#SCRIPT ADD KANJI
-Ａ while ago, Miu took the spilled cup to the kitchen in a flurry.
+美雨は先ほど零したカップを片し、キッチンの方へ慌しく去って行った。
+A while ago, Miu took the spilled cup to the kitchen in a flurry.
 
-#ま、まさかな……
-#SCRIPT ADD KANJI
-Ｎ, no way......
+ま、まさかな……
+N, no way......
 
 #BGM切り替え
 
@@ -317,24 +303,23 @@ wait	1000
 
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#＠樹
-#「ああ～～……」
+＠樹
+「ああ～～……」
 ＠Itsuki
 「Ah~~......」
 
-#＠樹
-#「疲れる……精神的に」
+＠樹
+「疲れる……精神的に」
 ＠Itsuki
 「I'm tired...... mentally.」
 
-#身体はむしろ好調……なのだが、考えることが多すぎる。
-#SCRIPT ADD KANJI
-Ｍy body was in a better shape, but there are too many things to think about.
+身体はむしろ好調……なのだが、考えることが多すぎる。
+My body was in a better shape, but there are too many things to think about.
 
 しかも問題提示をした人（雫さん）自らが、ノリの延長上で事態を楽しんでるから始末に終えない。
 
-#＠樹
-#「うぅ……つい先日のことなのに、普通の生活が懐かしいな～」
+＠樹
+「うぅ……つい先日のことなのに、普通の生活が懐かしいな～」
 ＠Itsuki
 「Uu...... It was just a few days ago, but I already miss my normal life~」
 
@@ -356,18 +341,16 @@ label youzyo2_01 #############################################################
 @bg_itsuki
 
 
-#暇つぶしのための小説を携帯していた。
-#SCRIPT ADD KANJI
-Ｉ got a novel to kill some time.
+暇つぶしのための小説を携帯していた。
+I got a novel to kill some time.
 
-#＠樹
-#「部屋で大人しくしていよう……」
+＠樹
+「部屋で大人しくしていよう……」
 ＠Itsuki
 「I'll be quiet in the room......」
 
-#読みかけに挟んだ栞から読書を再開させる。
-#SCRIPT ADD KANJI
-Ｉ continue reading from where my bookmark is.
+読みかけに挟んだ栞から読書を再開させる。
+I continue reading from where my bookmark is.
 
 #■BG（自室）※一度場面変換エフェクト
 @bg_black
@@ -377,8 +360,8 @@ label youzyo2_01 #############################################################
 
 @bg_itsuki
 
-#＠樹
-#「ん……？　どうぞ～」
+＠樹
+「ん……？　どうぞ～」
 ＠Itsuki
 「Hm......? Come in~」
 
@@ -387,204 +370,198 @@ label youzyo2_01 #############################################################
 
 @bgm03
 @ichigo_yorokobi
-#＠いちご,O00038
-#「パパ……あッ、部屋で本読んでるー！？」
+＠いちご,O00038
+「パパ……あッ、部屋で本読んでるー！？」
 ＠Ichigo,O00038
 「Papa...... Ah, are you reading a book in the room-!?」
 
-#入ってきたのはいちご。
-#SCRIPT ADD KANJI
-Ｉchigo was the one to come in.
+入ってきたのはいちご。
+Ichigo was the one to come in.
 
-#＠樹
-#「それが、どうかしたか……？」
+＠樹
+「それが、どうかしたか……？」
 ＠Itsuki
 「What's wrong with that......?」
 
 @ichigo_akire
-#＠いちご,O00039
-#「ダメだよー、こんないい天気なのにお部屋で本を読むだけなんてー」
+＠いちご,O00039
+「ダメだよー、こんないい天気なのにお部屋で本を読むだけなんてー」
 ＠Ichigo,O00039
 「That's not good-, it's such good weather but all you're doing is reading a book in the room-」
 
 @ichigo_warai
-#＠いちご,O00040
-#「でも暇なんだったら、いちごが遊んであげよっか？」
+＠いちご,O00040
+「でも暇なんだったら、いちごが遊んであげよっか？」
 ＠Ichigo,O00040
-「But if you have free time, why don't you play with me?」
+「But if you have free time, why don't you play with Ichigo?」
 
-#＠樹
-#「素直に遊んで欲しいって言え」
+＠樹
+「素直に遊んで欲しいって言え」
 ＠Itsuki
-「You're saying that you want to play obediently.」
+「You're saying that you want to play obediently」
 
-#＠いちご,O00041
-#「えへへぇ～、実は当たり♪」
+＠いちご,O00041
+「えへへぇ～、実は当たり♪」
 ＠Ichigo,O00041
 「Eheheh~, actually you're right♪」
 
 @ichigo
-#＠いちご,O00042
-#「ねぇパパ。パパってここに来る前、どこにいたの？」
+＠いちご,O00042
+「ねぇパパ。パパってここに来る前、どこにいたの？」
 ＠Ichigo,O00042
 「Hey Papa. Where was Papa before coming here?」
 
-#＠樹
-#「遠い街だ、ここより都会の。ここからじゃ電車で乗り継ぎがいるな」
+＠樹
+「遠い街だ、ここより都会の。ここからじゃ電車で乗り継ぎがいるな」
 ＠Itsuki
 「A far away town, a city far from here. To get there you have to take a train.」
 
 @ichigo_odoroki
-#＠いちご,O00043
-#「都会！？」
+＠いちご,O00043
+「都会！？」
 ＠Ichigo,O00043
 「City!?」
 
-#いちごの目がキラーンと輝きを増した。
-#SCRIPT ADD KANJI
-Ｉchigo's eyes glittered and grew larger.
+いちごの目がキラーンと輝きを増した。
+Ichigo's eyes glittered and grew larger.
 
-#＠いちご,O00044
-#「都会って、下水道にワニがいるんだよね！？　白いワニ！」
+＠いちご,O00044
+「都会って、下水道にワニがいるんだよね！？　白いワニ！」
 ＠Ichigo,O00044
 「In a city, there are crocodiles in the sewer right!? White crocodiles!」
 
-#＠樹
-#「……あれは都市伝説だ」
+＠樹
+「……あれは都市伝説だ」
 ＠Itsuki
 「......That's an urban legend.」
 
 @ichigo_warai
-#＠いちご,O00045
-#「じゃあじゃあ、ビルにゴリラが登ってるんでしょう？」
+＠いちご,O00045
+「じゃあじゃあ、ビルにゴリラが登ってるんでしょう？」
 ＠Ichigo,O00045
 「Then then, there are gorillas climbing buildings right?」
 
-#＠樹
-#「ゴリラなのかキングコングなのか知らないけど、あれも作り物」
+＠樹
+「ゴリラなのかキングコングなのか知らないけど、あれも作り物」
 ＠Itsuki
 「I don't know if that's a gorilla or King Kong, but that's also fake.」
 
 @ichigo
-#＠いちご,O00046
-#「えっと……それじゃあ、ミミズのハンバーガーとかは？」
+＠いちご,O00046
+「えっと……それじゃあ、ミミズのハンバーガーとかは？」
 ＠Ichigo,O00046
 「Umm...... Then, what about worm hamburgers?」
 
-#＠樹
-#「実在はしないな」
+＠樹
+「実在はしないな」
 ＠Itsuki
 「They don't exist.」 (or maybe just "... ... What?")
 
 @ichigo_ase
-#＠いちご,O00047
-#「え～……なんだぁ、都会って結構つまんなさそう。何があるの？」
+＠いちご,O00047
+「え～……なんだぁ、都会って結構つまんなさそう。何があるの？」
 ＠Ichigo,O00047
 「Eh~...... What, cities sound so boring. What's there?」
 
-#＠樹
-#「それで興味を失われちゃあ、あんまりにも都会が可哀想だろうよ……」
+＠樹
+「それで興味を失われちゃあ、あんまりにも都会が可哀想だろうよ……」
 ＠Itsuki
 「If that makes you lose interest, then a city is quite pathetic......」
 
-#＠樹
-#「それにオレが居た所も、中程度だ。もっと大きな街はいくらでもあるしな」
+＠樹
+「それにオレが居た所も、中程度だ。もっと大きな街はいくらでもあるしな」
 ＠Itsuki
 「And the place I was in was in the middle. There are plenty of bigger cities.」
 
 @ichigo_yorokobi
-#＠いちご,O00048
-#「あッ！　じゃあそこにいるんだね！？　ワニ♪」
+＠いちご,O00048
+「あッ！　じゃあそこにいるんだね！？　ワニ♪」
 ＠Ichigo,O00048
 「Ah! Then they're there, right!? Crocodiles♪」
 
-#そんなに出て欲しいのか……大騒ぎだぞ。
-#SCRIPT ADD KANJI
-Ｄo you want them to appear so much...... There would be an uproar.
+そんなに出て欲しいのか……大騒ぎだぞ。
+Do you want them to appear so much...... There would be an uproar.
 
-#＠樹
-#「……まぁ、そういう映画があるから、今度借りてきてやるよ」
+＠樹
+「……まぁ、そういう映画があるから、今度借りてきてやるよ」
 ＠Itsuki
 「.......Well there are those kinds of movies, so I'll rent one next time.」
 
 @ichigo
-#＠いちご,O00049
-#「うん。それじゃあパパの町は、こことは何が違ってたの？」
+＠いちご,O00049
+「うん。それじゃあパパの町は、こことは何が違ってたの？」
 ＠Ichigo,O00049
 「Yup. Then, what was different in Papa's town from here?」
 
-#＠樹
-#「……う～ん、この町の記憶が新しくないからな」
+＠樹
+「……う～ん、この町の記憶が新しくないからな」
 ＠Itsuki
 「.......U~m, the memories from this town aren't that recent so...」
 
-#ここ数年、今回のことで帰郷するまで、一度として帰ってきた事はなかった。
-#SCRIPT ADD KANJI
-Ｆor many years, until I returned here now, I did not return here even once.
+ここ数年、今回のことで帰郷するまで、一度として帰ってきた事はなかった。
+For many years, until I returned here now, I did not return here even once.
 
-#＠いちご,O00050
-#「ここの商店街はねぇ、真ん中の広場に美味しいたこ焼き屋さんがあるの」
+＠いちご,O00050
+「ここの商店街はねぇ、真ん中の広場に美味しいたこ焼き屋さんがあるの」
 ＠Ichigo,O00050
 「You know, in the shopping district here, in the plaza in the middle, there is a delicious takoyaki shop.」
 
 
-#＠いちご,O00051
-#「その向かいの通りに入ったら、すぐ右に安いソフトクリーム屋さんがあってぇ」
+＠いちご,O00051
+「その向かいの通りに入ったら、すぐ右に安いソフトクリーム屋さんがあってぇ」
 ＠Ichigo,O00051
-「And in the street across from there, directly -on the right there is a cheap soft ice cream storee.」
+「And in the street across from there, directly -on the right there is a cheap soft ice cream storee」
 
-#＠いちご,O00052
-#「隣の通りに出たらクレープ屋さんとかドーナツ屋さんが仲良く並んでるんだよ」
+＠いちご,O00052
+「隣の通りに出たらクレープ屋さんとかドーナツ屋さんが仲良く並んでるんだよ」
 ＠Ichigo,O00052
 「And if you go on the street beside that, there is a crepe shop and a donut shop lined up together in a friendly way.」
 
-#＠樹
-#「食べ物屋ばっかりだな」
+＠樹
+「食べ物屋ばっかりだな」
 ＠Itsuki
 「That's only food stores.」
 
 @ichigo_warai
-#＠いちご,O00053
-#「今度パパも一緒に行こうね♪」
+＠いちご,O00053
+「今度パパも一緒に行こうね♪」
 ＠Ichigo,O00053
 「Next time you come too Papa♪」
 
-#聞いてるだけで甘ったるくなるようなツアー要請だが……
-#SCRIPT ADD KANJI
-Ａ tour request which I get spoiled just from listening to it......
+聞いてるだけで甘ったるくなるようなツアー要請だが……
+A tour request which I get spoiled just from listening to it......
 
-#＠いちご,O00054
-#「えへへぇ～♪　出来ればねぇ、いちご月末がいいなぁ～」
+＠いちご,O00054
+「えへへぇ～♪　出来ればねぇ、いちご月末がいいなぁ～」
 ＠Ichigo,O00054
-「Ehehee~♪ If it's okay, I'm okay with the end of the month~」
+「Ehehee~♪ If it's okay, Ichigo is okay with the end of the month~」
 
 
-#＠いちご,O00055
-#「いっつも月初めにお小遣い貰ってるから、月末が空っぽなの」
+＠いちご,O00055
+「いっつも月初めにお小遣い貰ってるから、月末が空っぽなの」
 ＠Ichigo,O00055
-「I always gets pocket money in the beginning of the month, then at the end there is none.」
+「Ichigo always gets pocket money in the beginning of the month, then at the end there is none.」
 
-#＠樹
-#「ふぅ……しょうがない奴だな、そんな嬉しそうに」
+＠樹
+「ふぅ……しょうがない奴だな、そんな嬉しそうに」
 ＠Itsuki
 「Fu...... It can't be helped, you look so happy.」
 
 まぁここまで嬉しそうにしてくれるのなら、奢りがいもあるというものだ。
 
-#＠樹
-#「機会があればな。連れてってもらうよ」
+＠樹
+「機会があればな。連れてってもらうよ」
 ＠Itsuki
 「If there's a chance. I'll take you.」
 
 @ichigo_yorokobi
-#＠いちご,O00056
-#「わわ……っ、うん！　きっとだよ」
+＠いちご,O00056
+「わわ……っ、うん！　きっとだよ」
 ＠Ichigo,O00056
 「Wawa......, yup! Definitely!」
 
-#ガシガシと頭を撫でるオレに驚きながらも、いちごは嬉しそうに声を弾ませた。
-#SCRIPT ADD KANJI
-Ｉchigo happily and surprisedly said that while I stroked her head.
+ガシガシと頭を撫でるオレに驚きながらも、いちごは嬉しそうに声を弾ませた。
+Ichigo happily and surprisedly said that while I stroked her head.
 
 @ichigo_
 #（youzyo2 S-3）
@@ -598,27 +575,24 @@ label youzyo2_02 #############################################################
 @bgm12
 youzyo2_flag1=1
 
-#調教部屋と言うのは、名前どおりの行為をするところ……らしい。
-#SCRIPT ADD KANJI
-Ｔhe training room, like the name, is a place where those things are done...... Or it seems like that.
+調教部屋と言うのは、名前どおりの行為をするところ……らしい。
+The training room, like the name, is a place where those things are done...... Or it seems like that.
 
-#まだ半信半疑だった初日に、美雨の案内でそういう区画の説明も受けていた。
-#SCRIPT ADD KANJI
-Ｉ'm still half doubtful because on the first day, I received the information about this section from Miu.
+まだ半信半疑だった初日に、美雨の案内でそういう区画の説明も受けていた。
+I'm still half doubtful because on the first day, I received the information about this section from Miu.
 
 #SE06　部屋のドア開く音（ガチャ）
 
 #■BG（廊下）
 @bg_rouka
 
-#＠樹
-#「まぁ、全く興味が無いわけじゃないからな……」
+＠樹
+「まぁ、全く興味が無いわけじゃないからな……」
 ＠Itsuki
 「Well, it's not like I have no interest at all......」
 
-#怖いもの見たさというやつか。
-#SCRIPT ADD KANJI
-Ｉt's like wanting to see something scary just because it's scary.
+怖いもの見たさというやつか。
+It's like wanting to see something scary just because it's scary.
 
 #■BG（ブラック）
 
@@ -628,89 +602,82 @@ youzyo2_flag1=1
 #■BG（調教部屋区画・昼）
 @bgm06
 
-#＠樹
-#「今来ると、やっぱり微妙な緊張感があるな……」
+＠樹
+「今来ると、やっぱり微妙な緊張感があるな……」
 ＠Itsuki
 「If I come now, I feel a little nervous......」
 
-#一見すると他と変わらないこの辺りが、調教部屋区画。
-#SCRIPT ADD KANJI
-Ａt a glance, it's not different from the other places, the training room section.
+一見すると他と変わらないこの辺りが、調教部屋区画。
+At a glance, it's not different from the other places, the training room section.
 
-#その実態を信じている今では、初日のような気軽さは無い。
-#SCRIPT ADD KANJI
-Ｎow that I believe that reality, I don't have the kind of carefree-ness from the first day.
+その実態を信じている今では、初日のような気軽さは無い。
+Now that I believe that reality, I don't have the kind of carefree-ness from the first day.
 
-#＠樹
-#「事前確認で、今は誰も入っていないって言ってたけど………」
+＠樹
+「事前確認で、今は誰も入っていないって言ってたけど………」
 ＠Itsuki
 「I confirmed before, but now there is no one inside.........」
 
-#興味があったような、控えたいような……
-#SCRIPT ADD KANJI
-Ｉ was interested, so I wanted to hold back......
+興味があったような、控えたいような……
+I was interested, so I wanted to hold back......
 
 bgm_stop
-#＠みかん,A00013
-#「あれ？　お兄ちゃん？」
+＠みかん,A00013
+「あれ？　お兄ちゃん？」
 ＠Mikan,A00013
 「Huh? Onii-chan?」
 
 se_stop		0
 screen_vibration	500,16,16,16
-#ビクゥッ！！
-#SCRIPT ADD KANJI
-　*Startle*!!
+ビクゥッ！！
+*Startle*!!
 
 @mikan
 
-#＠みかん,A00014
-#「ここで何してるの？」
+＠みかん,A00014
+「ここで何してるの？」
 ＠Mikan,A00014
 「What are you doing here?」
 
-#＠樹
-#「……な、なんだみかんか。よかった」
+＠樹
+「……な、なんだみかんか。よかった」
 ＠Itsuki
 「......O, oh, it's Mikan. Thank goodness.」
 
 @bgm12
-#この子なら、別にここで会っても調教現場という心配は無い。
-#SCRIPT ADD KANJI
-Ｉf it's this child, I don't really have any worry about meeting her at the training scene.
+この子なら、別にここで会っても調教現場という心配は無い。
+If it's this child, I don't really have any worry about meeting her at the training scene.
 
-#＠樹
-#「オレは別に。みかんこそ、何の用だったんだ？」
+＠樹
+「オレは別に。みかんこそ、何の用だったんだ？」
 ＠Itsuki
 「Nothing much. Mikan too, what are you doing?」
 
-#＠みかん,A00015
-#「みかんはね、この家広いから探検中だったんだよ」
+＠みかん,A00015
+「みかんはね、この家広いから探検中だったんだよ」
 ＠Mikan,A00015
-「I was well, this house is huge, so I was exploring.」
+「Mikan was well, this house is wide, so she was exploring.」
 
-#「Mikan was well, this house is wide, so she was exploring.」
-
-#＠みかん,A00016
-#「いっぱい部屋があるから全部見てって、後はこの辺だけなの」
+＠みかん,A00016
+「いっぱい部屋があるから全部見てって、後はこの辺だけなの」
 ＠Mikan,A00016
 「There are a lot of rooms, so I wanted to look at them all and ended up here.」
 
-#＠樹
-#「この辺は何も無いぞ………うん、見ても意味無い。さぁ行こう」
+＠樹
+「この辺は何も無いぞ………うん、見ても意味無い。さぁ行こう」
 ＠Itsuki
 「There's nothing here......... Yeah, even if you look, there is no meaning. Come, let's go.」
 
 #CH（みかん中央の立ち絵を、端の壁側へ移動）
 layer_move	l_mikan,1000,0,0,800,0,passtype_tcb
 
-#＠みかん,A00017
-#「えッ、うわわ！？　お、押さないでよお兄ちゃん……みかん、全部の部屋見るって決めたもん」
+＠みかん,A00017
+「えッ、うわわ！？　お、押さないでよお兄ちゃん……みかん、全部の部屋見るって決めたもん」
 ＠Mikan,A00017
-「Eh, uwawa!? Do-, don't push, Onii-chan...... I decided that I was going to see all the rooms.」
+「Eh, uwawa!? Do-, don't push, Onii-chan...... Mikan decided she was going to see all the rooms.」
 
-#＠樹
-#「いや、だからなみかん、この部屋は………あっ」
+＠樹
+「いや、だからなみかん、この部屋は………あっ」
 ＠Itsuki
 「No, that's why, Mikan, this room is.........Ah-」
 
@@ -718,13 +685,12 @@ layer_move	l_mikan,1000,0,0,800,0,passtype_tcb
 layer_move	l_mikan,2000,-800,0,-150,0,passtype_tcb
 wait	1000
 
-#言葉を選ぶその隙に、みかんはスルリと手の中から逃げてしまう。
-#SCRIPT ADD KANJI
-Ｗhen I was choosing my words, Mikan slipped out of my hands and ran away.
+言葉を選ぶその隙に、みかんはスルリと手の中から逃げてしまう。
+When I was choosing my words, Mikan slipped out of my hands and ran away.
 
 @mikan_warai
-#＠みかん,A00018
-#「えへへ、入っちゃうもんね～♪」
+＠みかん,A00018
+「えへへ、入っちゃうもんね～♪」
 ＠Mikan,A00018
 「Ehehe, I'm entering~♪」
 
@@ -733,16 +699,14 @@ wait	1000
 #CH（立ち絵消去）
 @mikan_
 
-#そのまま中に入っていく。
-#SCRIPT ADD KANJI
-Ｓhe went inside like that.
+そのまま中に入っていく。
+She went inside like that.
 
-#まったく、無知とは恐ろしい………
-#SCRIPT ADD KANJI
-Ｒeally, she's scarily ignorant.........
+まったく、無知とは恐ろしい………
+Really, she's scarily ignorant.........
 
-#＠樹
-#「はぁぁ……一人にはさせられないか……」
+＠樹
+「はぁぁ……一人にはさせられないか……」
 ＠Itsuki
 「*Sigh*...... I can't leave her by herself......」
 
@@ -750,27 +714,26 @@ wait	1000
 @bg_choukyou
 
 @mikan
-#＠みかん,A00019
-#「う～ん、空き部屋みたい。何も無いね」
+＠みかん,A00019
+「う～ん、空き部屋みたい。何も無いね」
 ＠Mikan,A00019
 「U~n, it looks like an empty room. There's nothing.」
 
-#＠樹
-#「ふぅ……」
+＠樹
+「ふぅ……」
 ＠Itsuki
 「Fuu......」
 
-#あからさまな道具が趣味悪く飾ってあるのを想像したが、中は意外と普通の部屋で安心した。
-#SCRIPT ADD KANJI
-Ｉ was relieved to find that it was a normal looking room, when I had been expecting it to be decorated by tools and bad taste things.
+あからさまな道具が趣味悪く飾ってあるのを想像したが、中は意外と普通の部屋で安心した。
+I was relieved to find that it was a normal looking room, when I had been expecting it to be decorated by tools and bad taste things.
 
-#＠樹
-#「だから言ったろ……。さ、出るぞ」
+＠樹
+「だから言ったろ……。さ、出るぞ」
 ＠Itsuki
 「That's what I said...... Come, let's leave.」
 
-#＠みかん,A00020
-#「ちょっと待って、探検だからいろいろ見て行ってるの」
+＠みかん,A00020
+「ちょっと待って、探検だからいろいろ見て行ってるの」
 ＠Mikan,A00020
 「Wait a bit, I'm exploring, so I'm going to see various things.」
 
@@ -778,57 +741,53 @@ wait	1000
 layer_move	l_mikan,1000,0,0,-200,0,passtype_tcb
 wait		500
 
-#＠みかん,A00021
-#「う～ん……」
+＠みかん,A00021
+「う～ん……」
 ＠Mikan,A00021
 「U~n......」
 
 layer_move	l_mikan,1000,-200,0,200,0,passtype_tcb
 wait		500
 
-#――キョロキョロ
-#SCRIPT ADD KANJI
+――キョロキョロ
 ――*Looking around*
 
 #CH（立ち絵を中央に戻す）
 layer_move	l_mikan,1000,200,0,0,0,passtype_tcb
 wait		500
 
-#＠みかん,A00022
-#「んっと～……」
+＠みかん,A00022
+「んっと～……」
 ＠Mikan,A00022
 「Nnto~......」
 
 @se70
-#――ゴソゴソゴソ
-#SCRIPT ADD KANJI
+――ゴソゴソゴソ
 ――*Rummage rummage rummage*
 
-#＠樹
-#「………」
+＠樹
+「………」
 ＠Itsuki
 「………」
 
-#＠みかん,A00023
-#「やっぱり何もないのかなぁ」
+＠みかん,A00023
+「やっぱり何もないのかなぁ」
 ＠Mikan,A00023
 「There really is nothing...」
 
-#……何かはあるだろう。きっとこの部屋に。
-#SCRIPT ADD KANJI
-　......There is something. Definitely in this room.
+……何かはあるだろう。きっとこの部屋に。
+......There is something. Definitely in this room.
 
-#見つける前にさっさと退室してしまわないと。
-#SCRIPT ADD KANJI
-Ｗe have to get out before she finds it.
+見つける前にさっさと退室してしまわないと。
+We have to get out before she finds it.
 
-#＠樹
-#「じゃあ出よう。部屋は他にあるんだろう？」
+＠樹
+「じゃあ出よう。部屋は他にあるんだろう？」
 ＠Itsuki
 「Well, let's go. There are other rooms right?」
 
-#＠みかん,A00024
-#「うん。あ、机の中とかは？」
+＠みかん,A00024
+「うん。あ、机の中とかは？」
 ＠Mikan,A00024
 「Yup. Ah, what about inside the desk?」
 
@@ -838,153 +797,142 @@ wait		500
 #SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 @se28
 
-#ガタッ、ゴソゴソ……
-#SCRIPT ADD KANJI
-　*Open*, *rummage rummage*......
+ガタッ、ゴソゴソ……
+*Open*, *rummage rummage*......
 
-#＠みかん,A00025
-#「ん～？　お？」
+＠みかん,A00025
+「ん～？　お？」
 ＠Mikan,A00025
 「Hm~? Oh?」
 
-#何か興味を惹かれる物があったらしく、みかんが腕を引き出した。
-#SCRIPT ADD KANJI
-Ｔhere seemed to be something that caught her attention, and Mikan pulled her arm.
+何か興味を惹かれる物があったらしく、みかんが腕を引き出した。
+There seemed to be something that caught her attention, and Mikan pulled her arm.
 
 #CH（みかんの立ち絵表示）
 @mikan
 
 #SW（反対の端に小窓・バイブ）
 
-#＠みかん,A00026
-#「………何だろう、これ？」
+＠みかん,A00026
+「………何だろう、これ？」
 ＠Mikan,A00026
 「.........What's this?」
 
-#＠樹
-#「ガッ！」
+＠樹
+「ガッ！」
 ＠Itsuki
 「Gah!」
 
-#＠樹
-#（ついに見つけちまったーーー！！！）
+＠樹
+（ついに見つけちまったーーー！！！）
 ＠Itsuki
 （She ended up finding it---!!!）
 
-#無垢なみかんの手の中に、野太いアレの形をした大人の玩具が握られていた。
-#SCRIPT ADD KANJI
-★Pure Mikan's hand holds "that" adult toy.
-
-#In pure Mikan's hand, "that" adult's toy was held.
+無垢なみかんの手の中に、野太いアレの形をした大人の玩具が握られていた。
+In pure Mikan's hand, "that" adult's toy was held.
 
 @mikan_odoroki
-#＠みかん,A00027
-#「お兄ちゃんっ、何か変な物みつけたよっ。キノコみたいな形してる～！」
+＠みかん,A00027
+「お兄ちゃんっ、何か変な物みつけたよっ。キノコみたいな形してる～！」
 ＠Mikan,A00027
 「Onii-chan, I found something weird. It looks like a mushroom~!」
 
-#クンクン……
-#SCRIPT ADD KANJI
-　*Sniff sniff*......
+クンクン……
+*Sniff sniff*......
 
-#＠樹
-#「嗅ぐな～ッ！　形はキノコでも食い物じゃないぞみかんッ」
+＠樹
+「嗅ぐな～ッ！　形はキノコでも食い物じゃないぞみかんッ」
 ＠Itsuki
 「Don't smell it~! It may look like a mushroom but it's not food, Mikan!」
 
 @mikan_warai
-#＠みかん,A00028
-#「あ、何かお兄ちゃんの中で、みかんが食いしんぼうキャラみたいになってる……」
+＠みかん,A00028
+「あ、何かお兄ちゃんの中で、みかんが食いしんぼうキャラみたいになってる……」
 ＠Mikan,A00028
-★「Ah, Onii-chan thinks I'm is starting to look like somebody who wants to eat......」
-
-#「Ah, Mikan is starting to look like a character that likes to eat to Onii-chan......」
+「Ah, Mikan is starting to look like a character that likes to eat to Onii-chan......」
 
 @mikan_kanashimi
-#＠みかん,A00029
-#「でもそっか。食べ物じゃないのかぁ」
+＠みかん,A00029
+「でもそっか。食べ物じゃないのかぁ」
 ＠Mikan,A00029
-「But I see. It's not food...」
+「But I see. It's not a food...」
 
-#あっさり興味を無くすみかん。
-#SCRIPT ADD KANJI
-Ｍikan quickly lost interest.
+あっさり興味を無くすみかん。
+Mikan quickly lost interest.
 
-#＠樹
-#「………」
+＠樹
+「………」
 ＠Itsuki
 「………」
 
-#＠樹
-#「さ、そんな変な物を見てても面白くないし。他の部屋へ探検に行こう」
+＠樹
+「さ、そんな変な物を見てても面白くないし。他の部屋へ探検に行こう」
 ＠Itsuki
 「Come, looking at something weird like that isn't interesting. Let's go explore some other room.」
 
-#＠みかん,A00030
-#「ん～……、うん～？　あ、何かスイッチがある」
+＠みかん,A00030
+「ん～……、うん～？　あ、何かスイッチがある」
 ＠Mikan,A00030
 「Hm~......, hm~? Ah, there's a switch.」
 
 
 カチッ（←スイッチを入れる音）
 
-#＠樹
-#「な……ッ！？」
+＠樹
+「な……ッ！？」
 ＠Itsuki
 「Wha-......!?」
 
-#その脈絡の無い動きを止める間などなかった。
-#SCRIPT ADD KANJI
-Ｔhere was no chance to stop that unreasonable movement.
+その脈絡の無い動きを止める間などなかった。
+There was no chance to stop that unreasonable movement.
 
 #SE29　バイブが動く音（ウィィンウィィン）
 @se29
 
 @mikan_odoroki
-#＠みかん,A00031
-#「………ッ！？」
+＠みかん,A00031
+「………ッ！？」
 ＠Mikan,A00031
 「.........!?」
 
-#＠みかん,A00032
-#「…………ッッ！！！」
+＠みかん,A00032
+「…………ッッ！！！」
 ＠Mikan,A00032
 「............!!!」
 
-#＠みかん,A00033
-#「う、動き出したッ！？　何これ！　食べ物の動きじゃないよお兄ちゃんッ！！」
+＠みかん,A00033
+「う、動き出したッ！？　何これ！　食べ物の動きじゃないよお兄ちゃんッ！！」
 ＠Mikan,A00033
 「I, it moved!? What is this! It's not the movement of a food, Onii-chan!!」
 
-#＠樹
-#「……だから違うと言っている」
+＠樹
+「……だから違うと言っている」
 ＠Itsuki
 「......That's why I'm saying you're wrong.」
 
 @mikan
-#＠みかん,A00034
-#「生き物みたい……変な動き」
+＠みかん,A00034
+「生き物みたい……変な動き」
 ＠Mikan,A00034
 「It looks alive...... It moves strangely.」
 
 妖しげな動きを見せ付けるバイブを横にしたり逆さにしたり。
 
-#用途なんて尋ねられたら、どう誤魔化せばいいんだろう。
-#SCRIPT ADD KANJI
-Ｉf she asks what it's used for, how should I trick her?
+用途なんて尋ねられたら、どう誤魔化せばいいんだろう。
+If she asks what it's used for, how should I trick her?
 
-#＠みかん,A00035
-#「ねぇお兄ちゃん、これ何に使う道具なの？」
+＠みかん,A00035
+「ねぇお兄ちゃん、これ何に使う道具なの？」
 ＠Mikan,A00035
 「Hey Onii-chan, what use is this tool for?」
 
-#＠樹
-#「食べ物じゃない。それが全て」
+＠樹
+「食べ物じゃない。それが全て」
 ＠Itsuki
 「It's not food. That's all.」
 
-#＠みかん,A00036
-#「だよねぇ。何か変な匂いもしたし」
+＠みかん,A00036
+「だよねぇ。何か変な匂いもしたし」
 ＠Mikan,A00036
 「Right. Something also smells weird.」
 
@@ -992,30 +940,28 @@ se_stop		0
 
 ポイッとあっさり引き出しへバイブを放り入れた。
 
-#決定。みかんは食いしんぼうキャラだ。
-#SCRIPT ADD KANJI
-Ｉt's decided. Mikan is a character who likes to eat.
+決定。みかんは食いしんぼうキャラだ。
+It's decided. Mikan is a character that likes to eat.
 
-#＠樹
-#「よし、別の部屋へ行こうみかん。つまみ食い出来るおやつを探しに」
+＠樹
+「よし、別の部屋へ行こうみかん。つまみ食い出来るおやつを探しに」
 ＠Itsuki
 「Okay, let's go to another room, Mikan. Let's look for a snack you can eat with your fingers.」
 
 @mikan_warai
-#＠みかん,A00037
-#「うん♪」
+＠みかん,A00037
+「うん♪」
 ＠Mikan,A00037
 「Okay♪」
 
 @mikan_odoroki
-#＠みかん,A00038
-#「……って、別にそんなの探してたわけじゃないよ」
+＠みかん,A00038
+「……って、別にそんなの探してたわけじゃないよ」
 ＠Mikan,A00038
 「......I mean, I'm not really looking for something like that.」
 
-#一瞬本気で頷いた目だった。
-#SCRIPT ADD KANJI
-Ｔhat moment, she nodded with serious eyes.
+一瞬本気で頷いた目だった。
+That moment, she nodded with serious eyes.
 
 #■（youzyo2 S-3へ）
 @mikan_
@@ -1035,274 +981,261 @@ wait	1000
 event	"event\ev_all_021-00.png"
 se	1,	"sound\se\食事中1.wav",play_loop
 
-#＠いちご,O00057
-#「パパッ、今日の夕食はエビフライだよ！」
+＠いちご,O00057
+「パパッ、今日の夕食はエビフライだよ！」
 ＠Ichigo,O00057
 「Papa, today's dinner is fried shrimp!」
 
-#＠樹
-#「……？　そうなのか」
+＠樹
+「……？　そうなのか」
 ＠Itsuki
 「......? Is that so?」
 
-#＠いちご,O00058
-#「ああッ、感動が薄いよぉ。いちごが昨日歌ったからだよ♪」
+＠いちご,O00058
+「ああッ、感動が薄いよぉ。いちごが昨日歌ったからだよ♪」
 ＠Ichigo,O00058
-「Aah, you're not impressed. It's because I was singing yesterday♪」
+「Aah, you're not impressed. Because Ichigo was singing yesterday♪」
 
-#そう言えば、意味もなく歌ってたな。
-#SCRIPT ADD KANJI
-Ｔhat reminds me, she was singing with no meaning.
+そう言えば、意味もなく歌ってたな。
+That reminds me, she was singing with no meaning.
 
-#＠美雨,B00044
-#「あの歌を聞いて今日の献立は決めましたから、いちごちゃんのおかげね」
-＠Miu,B00044
+＠美雨,B00044
+「あの歌を聞いて今日の献立は決めましたから、いちごちゃんのおかげね」
+＠美雨,B00044
 「I heard that song and decided today's menu, so it's thanks to Ichigo.」
 
-#＠みかん,A00039
-#「すごぉいッ、いちごちゃん！　今度からみかんも歌うようにしようっと♪」
+＠みかん,A00039
+「すごぉいッ、いちごちゃん！　今度からみかんも歌うようにしようっと♪」
 ＠Mikan,A00039
-「Wowww, Ichigo-chan! Next time I will sing too♪」
+「Wowww, Ichigo-chan! Next time Mikan will sing too♪」
 
-#＠いちご,O00059
-#「えへへぇ～♪」
+＠いちご,O00059
+「えへへぇ～♪」
 ＠Ichigo,O00059
 「Ehehee~♪」
 
 #■EVCG（みんなで食事・夕食）※かりんとゆずがいない
 
-#＠雫,S00053
-#「あ～、そうそう。みかんは明日からみんなと同じ学校に通ってもらうよ」
+＠雫,S00053
+「あ～、そうそう。みかんは明日からみんなと同じ学校に通ってもらうよ」
 ＠Shizuku,S00053
 「Ah~ oh yeah. Mikan is going to go to the same school as you all starting tomorrow.」
 
-#＠みかん,A00040
-#「え？　あ、そっか。今まで土日だったから忘れてた」
+＠みかん,A00040
+「え？　あ、そっか。今まで土日だったから忘れてた」
 ＠Mikan,A00040
 「Eh? Ah, oh yeah. I forgot because it was the weekend.」
 
-#＠雫,S00054
-#「すでに転入の手続きは済ませてあるからね」
+＠雫,S00054
+「すでに転入の手続きは済ませてあるからね」
 ＠Shizuku,S00054
 「The procedures for your move here are already complete.」
 
-#＠いちご,O00060
-#「えへへー、学校でも一緒だね、みかん♪」
+＠いちご,O00060
+「えへへー、学校でも一緒だね、みかん♪」
 ＠Ichigo,O00060
 「Ehehe-, we're together at school too, Mikan♪」
 
-#＠みかん,A00041
-#「うん♪」
+＠みかん,A00041
+「うん♪」
 ＠Mikan,A00041
 「Yup♪」
 
-#＠ざくろ,Q00115
-#「いちごは学年が違う」
+＠ざくろ,Q00115
+「いちごは学年が違う」
 ＠Zakuro,Q00115
 「Ichigo is in a different grade.」
 
-#＠いちご,O00061
-#「がーーーん！　そ、そうなの！？」
+＠いちご,O00061
+「がーーーん！　そ、そうなの！？」
 ＠Ichigo,O00061
 「Gaaa--n! Re, really!?」
 
-#＠みかん,A00042
-#「そうなんだ……？」
+＠みかん,A00042
+「そうなんだ……？」
 ＠Mikan,A00042
 「Really......?」
 
-#＠すいか,R00008
-#「いちごちゃんは、私達より一つ下だから」
+＠すいか,R00008
+「いちごちゃんは、私達より一つ下だから」
 ＠Suika,R00008
 「Ichigo-chan is one grade lower than us.」
 
-#＠いちご,O00062
-#「ちくしょーッ、またいちごだけ仲間外れだーー！！　ハグハグハグ！！」
+＠いちご,O00062
+「ちくしょーッ、またいちごだけ仲間外れだーー！！　ハグハグハグ！！」
 ＠Ichigo,O00062
-「Damn i-t, I'm the only one left out again--!! *Munch munch munch*!!」
+「Damn i-t, only Ichigo is left out again--!! *Munch munch munch*!!」
 
-#八つ当たりするようにエビフライを食い散らかし始める。
-#SCRIPT ADD KANJI
-Ｉn a fit of anger, she starts messily eating the fried shrimp.
+八つ当たりするようにエビフライを食い散らかし始める。
+In a fit of anger, she starts messily eating the fried shrimp.
 
 #■BG（食堂・夜）
 
 
-#＠美雨,B00045
-#「あらあら、もったいないわよ、いちごちゃん？」
-＠Miu,B00045
+＠美雨,B00045
+「あらあら、もったいないわよ、いちごちゃん？」
+＠美雨,B00045
 「Oh my, that's a waste isn't it, Ichigo-chan?」
 
-#＠ざくろ,Q00116
-#「……可哀想ないちご。私のエビフライもいる？」
+＠ざくろ,Q00116
+「……可哀想ないちご。私のエビフライもいる？」
 ＠Zakuro,Q00116
 「......Poor Ichigo. Want my friend shrimp too?」
 
-#＠いちご,O00063
-#「え、いいのッ！？　ありがとざくろーッ♪」
+＠いちご,O00063
+「え、いいのッ！？　ありがとざくろーッ♪」
 ＠Ichigo,O00063
 「Eh, really!? Thanks Zakuro--♪」
 
-#＠ざくろ,Q00117
-#「うん、お姉さんは年下の子に優しくしないと」
+＠ざくろ,Q00117
+「うん、お姉さんは年下の子に優しくしないと」
 ＠Zakuro,Q00117
 「Yup, an older sister has to be nice to the younger children.」
 
-＠Ichigo,O00064
+＠いちご,O00064
 「こんちくしょーー！！」
 
-#結局食い散らかしてるし。
-#SCRIPT ADD KANJI
-Ｓhe was eating messily after all.
+結局食い散らかしてるし。
+She was eating messily after all.
 
-#＠みかん,A00043
-#「あ、でも雫さん。みかんまだ教科書持ってないけど……」
+＠みかん,A00043
+「あ、でも雫さん。みかんまだ教科書持ってないけど……」
 ＠Mikan,A00043
-「Ah, but Shizuku-san. I still doesn't have a textbook......」
+「Ah, but Shizuku-san. Mikan still doesn't have a textbook......」
 
-#＠雫,S00055
-#「まぁ注文したのが届くまで、クラスの誰かから見せてもらうしかないだろうね」
+＠雫,S00055
+「まぁ注文したのが届くまで、クラスの誰かから見せてもらうしかないだろうね」
 ＠Shizuku,S00055
 「Well, until they receive my order, you should ask someone in your class to share with you.」
 
-#＠みかん,A00044
-#「新しい学校かー。どんな所だろ」
+＠みかん,A00044
+「新しい学校かー。どんな所だろ」
 ＠Mikan,A00044
 「A new school, huh-. I wonder what kind of place it is.」
 
-#楽しみ半分不安半分といった具合に想像を広げるみかん。
-#SCRIPT ADD KANJI
-Ｍikan imagined and said that while being half excited, half nervous.
+楽しみ半分不安半分といった具合に想像を広げるみかん。
+Mikan imagined and said that while being half excited, half nervous.
 
-#＠すいか,R00009
-#「特に他と違ったところは無いけど、校庭が広いかな。あと、遊具が多いよ」
+＠すいか,R00009
+「特に他と違ったところは無いけど、校庭が広いかな。あと、遊具が多いよ」
 ＠Suika,R00009
 「It's not really different from other places, but the school yard is wide. Also, there is lots of play equipment.」
 
-#＠ざくろ,Q00118
-#「教師にハゲも多い」
+＠ざくろ,Q00118
+「教師にハゲも多い」
 ＠Zakuro,Q00118
 「Also lots of bald teachers.」
 
-#＠いちご,O00065
-#「ハグハグッ、ゴクンッ！　あ、でもね、休み時間が短いんだよー。十分しかないの」
+＠いちご,O00065
+「ハグハグッ、ゴクンッ！　あ、でもね、休み時間が短いんだよー。十分しかないの」
 ＠Ichigo,O00065
 「*Munch*munch*, *swallow*! Ah, but you know, the rest time is short-. It's not enough.」
 
-#＠ざくろ,Q00119
-#「………教員の赴任期間も短い。どんどん辞めるか、クビになってる」
+＠ざくろ,Q00119
+「………教員の赴任期間も短い。どんどん辞めるか、クビになってる」
 ＠Zakuro,Q00119
 「.........And the time the teachers are employed is also short. They keep quitting, or being fired.」
 
-#＠美雨,B00046
-#「あと、月に一回、お弁当の日があるわね。その日は私がお弁当を作ってあげてるの」
+＠美雨,B00046
+「あと、月に一回、お弁当の日があるわね。その日は私がお弁当を作ってあげてるの」
 ＠Miu,B00046
 「Also, once a month, there is a bentou day. That day, I make bentous for you.」
 
-#＠ざくろ,Q00120
-#「……忘れて来た子が、みんなからおかずを貰って回るの。あれ嫌」
+＠ざくろ,Q00120
+「……忘れて来た子が、みんなからおかずを貰って回るの。あれ嫌」
 ＠Zakuro,Q00120
 「......The children who forget theirs get side dishes from everyone else. I don't like that.」
 
-#＠樹
-#「ざくろ………もしかして学校嫌いなのか……？」
+＠樹
+「ざくろ………もしかして学校嫌いなのか……？」
 ＠Itsuki
 「Zakuro.........Don't tell me you hate school......?」
 
-#＠ざくろ,Q00121
-#「別に………」
+＠ざくろ,Q00121
+「別に………」
 ＠Zakuro,Q00121
 「Not really.........」
 
-#青ノリをふり掛けたキャベツをモシャモシャと食べ始める。
-#SCRIPT ADD KANJI
-Ｓhe begins to messily eat the cabbage wrapped with aonori.
+青ノリをふり掛けたキャベツをモシャモシャと食べ始める。
+She begins to messily eat the cabbage wrapped with aonori.
 
-#＠樹
-#（……また青ノリ使ってるし…）
+＠樹
+（……また青ノリ使ってるし…）
 ＠Itsuki
 （......She's using aonori again......）
 
-#＠みかん,A00045
-#「みかん、朝弱いんだ～。起きれるかなぁ」
+＠みかん,A00045
+「みかん、朝弱いんだ～。起きれるかなぁ」
 ＠Mikan,A00045
-「I'm not a morning person~. I wonder if I will be able to wake up...」
-
-#「Mikan isn't a morning person~. She wonders if she will be able to wake up...」
+「Mikan isn't a morning person~. She wonders if she will be able to wake up...」
 
 
-#＠いちご,O00066
-#「だったらいちごが起こしに行くよ。いちご、朝強いから」
+＠いちご,O00066
+「だったらいちごが起こしに行くよ。いちご、朝強いから」
 ＠Ichigo,O00066
-★「I'm a morning person, so I will come and wake you up.」
+「Then Ichigo will come wake you up. Because Ichigo is a morning person.」
 
-#「Then Ichigo will come wake you up. Because Ichigo is a morning person.」
-
-#＠樹
-#「……いちごが？」
+＠樹
+「……いちごが？」
 ＠Itsuki
 「......Ichigo is?」
 
-#＠雫,S00056
-#「ああ、意外だけど、本当にこいつ早起きなんだよ」
+＠雫,S00056
+「ああ、意外だけど、本当にこいつ早起きなんだよ」
 ＠Shizuku,S00056
 「Ah, it's unexpected, but she really does wake up early.」
 
-#＠樹
-#「それは知ってますがね……」
+＠樹
+「それは知ってますがね……」
 ＠Itsuki
 「I know that......」
 
-#みかんにまで圧し掛かったり、水をぶっ掛けたりする気なのだろうか。
-#SCRIPT ADD KANJI
-Ｉ wonder if she is going to lean on even Mikan, and throw water at her face.
+みかんにまで圧し掛かったり、水をぶっ掛けたりする気なのだろうか。
+I wonder if she is going to lean on even Mikan, and throw water at her face.
 
-#＠雫,S00057
-#「早起きしてこのテンションで騒ぎまわるから、あたしとしてはもう少しゆっくり寝てて欲しいんだけどねぇ」
+＠雫,S00057
+「早起きしてこのテンションで騒ぎまわるから、あたしとしてはもう少しゆっくり寝てて欲しいんだけどねぇ」
 ＠Shizuku,S00057
 「If I wake up early, I get tensed, so I would like to be able to sleep a bit more restfully.」
 
-#＠樹
-#「その気持ち、よく分かります………」
+＠樹
+「その気持ち、よく分かります………」
 ＠Itsuki
 「I understand those feelings very well.........」
 
-#＠美雨,B00047
-#「それじゃ、明日はみかんちゃんのお弁当も用意するから、忘れずに持って行ってね」
+＠美雨,B00047
+「それじゃ、明日はみかんちゃんのお弁当も用意するから、忘れずに持って行ってね」
 ＠Miu,B00047
 「Well, tomorrow I'm going to make Mikan-chan's bentou tomorrow too, so don't forget to take it.」
 
-#＠みかん,A00046
-#「やったぁ！　お弁当♪」
+＠みかん,A00046
+「やったぁ！　お弁当♪」
 ＠Mikan,A00046
 「Yayy! Obentou♪」
 
-#明日から子供達は学校か。
-#SCRIPT ADD KANJI
-Ｆrom tomorrow the children will be at school, huh.
+明日から子供達は学校か。
+From tomorrow the children will be at school, huh.
 
-#ということは、日中はオレと美雨、それと雫さんだけ……
-#SCRIPT ADD KANJI
-Ｔhat means during the day, it will be only me and Miu, and also Shizuku-san......
+ということは、日中はオレと美雨、それと雫さんだけ……
+That means during the day, it will be only me and Miu, and also Shizuku-san......
 
-#＠雫,S00058
-#「ふふふ、大人の時間だね」
+＠雫,S00058
+「ふふふ、大人の時間だね」
 ＠Shizuku,S00058
 「Fufufu. adult's time.」
 
-#＠樹
-#「別に何もしませんよ」
+＠樹
+「別に何もしませんよ」
 ＠Itsuki
 「I'm not really doing anything.」
 
-#＠雫,S00059
-#「おや？　あたしは酒でも飲もうかって言っただけなんだけど。何をする気なのかねぇ、樹は」
+＠雫,S00059
+「おや？　あたしは酒でも飲もうかって言っただけなんだけど。何をする気なのかねぇ、樹は」
 ＠Shizuku,S00059
 「Oh? I just said let's drink sake. What are you planning to do, Itsuki.」
 
-#お約束だな、その切り返しも。
-#SCRIPT ADD KANJI
-Ｉt was a promise, that retaliation.
+お約束だな、その切り返しも。
+It was a promise, that retaliation.
 
 @bg_black
 se_stop		1
@@ -1320,41 +1253,35 @@ label youzyo2_04 #############################################################
 #■BG（自室・室内灯）
 @bg_itsuki_n
 
-#騒がしい一日が、今日もこれでやっと終わる。
-#SCRIPT ADD KANJI
-Ｔhe noisy day finally ended.
+騒がしい一日が、今日もこれでやっと終わる。
+The noisy day finally ended.
 
-#時間を確認するとあくびしてベッドへ向かった。
-#SCRIPT ADD KANJI
-Ａfter checking the time, I yawned and went to bed.
+時間を確認するとあくびしてベッドへ向かった。
+After checking the time, I yawned and went to bed.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-#＠樹
-#「………ん？」
+＠樹
+「………ん？」
 ＠Itsuki
 「.........Hm?」
 
-#こんな時間に誰だ？
-#SCRIPT ADD KANJI
-Ｗho is it at this time?
+こんな時間に誰だ？
+Who is it at this time?
 
-#SCRIPT IGNORE 3RD PERSON
-
-#＠すいか,R00010
-#「すいかです。もう、休まれましたか？」
+＠すいか,R00010
+「すいかです。もう、休まれましたか？」
 ＠Suika,R00010
 「It's Suika. Have you already fallen asleep?」
 
-#＠樹
-#「いや、起きてる。どう………」
+＠樹
+「いや、起きてる。どう………」
 ＠Itsuki
 「No, I'm awake. Co.........」
 
-#どうぞ、と言いかけて彼女の身体を思い出し、自分でドアを開けに行った。
-#SCRIPT ADD KANJI
-Ｉ was going to say "come in", but I stopped when I remembered her body, and went to open the door myself.
+どうぞ、と言いかけて彼女の身体を思い出し、自分でドアを開けに行った。
+I was going to say "come in", but I stopped when I remembered her body, and went to open the door myself.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -1364,27 +1291,26 @@ label youzyo2_04 #############################################################
 
 @suika
 
-#＠すいか,R00011
-#「あ。どうもすみません」
+＠すいか,R00011
+「あ。どうもすみません」
 ＠Suika,R00011
 「Ah. Excuse me.」
 
-#＠樹
-#「どうしたんだ、こんな時間に？」
+＠樹
+「どうしたんだ、こんな時間に？」
 ＠Itsuki
 「What's wrong, at this time?」
 
-#＠すいか,R00012
-#「ちょっと、いいですか？」
+＠すいか,R00012
+「ちょっと、いいですか？」
 ＠Suika,R00012
 「Do you have a moment?」
 
-#チラ、と部屋の中に視線を移してからこちらを見上げた。
-#SCRIPT ADD KANJI
-Ｓhe glanced around the room, and then looked up at me.
+チラ、と部屋の中に視線を移してからこちらを見上げた。
+She glanced around the room, and then looked up at me.
 
-#＠樹
-#「どうぞ」
+＠樹
+「どうぞ」
 ＠Itsuki
 「Come in.」
 
@@ -1396,73 +1322,70 @@ label youzyo2_04 #############################################################
 
 @suika
 
-#＠樹
-#「何か用事か？　手伝ってほしいことがあるとか」
+＠樹
+「何か用事か？　手伝ってほしいことがあるとか」
 ＠Itsuki
 「Do you have something to do? Like something you want me to help you with?」
 
-#＠すいか,R00013
-#「えっと……そうではなくて、むしろ手伝うのは私って言いますか………」
+＠すいか,R00013
+「えっと……そうではなくて、むしろ手伝うのは私って言いますか………」
 ＠Suika,R00013
 「Um...... Not that, instead, I should say the one who is helping is me.........」
 
-#何か言い辛そうにモジモジと頬を染めている。
-#SCRIPT ADD KANJI
-Ｉt seems there is something hard for her to say and her face is bashfully coloured.
+何か言い辛そうにモジモジと頬を染めている。
+It seems there is something hard for her to say and her face is bashfully coloured.
 
 @suika_tere
-#＠すいか,R00014
-#「あの。今夜は私が、院長先生に奉仕します」
+＠すいか,R00014
+「あの。今夜は私が、院長先生に奉仕します」
 ＠Suika,R00014
 「Um. Tonight, I'm going to serve Inchou-sensei.」
 
-#＠樹
-#「え゛」
+＠樹
+「え゛」
 ＠Itsuki
 「Eh-」
 
-#＠すいか,R00015
-#「ざくろちゃんみたいに………その、上手くありませんけど」
+＠すいか,R00015
+「ざくろちゃんみたいに………その、上手くありませんけど」
 ＠Suika,R00015
-「I'm not......... um, as skilled as Zakuro-chan, but.」
+「I'm not......... um, as skilled as Zakuro-chan, but」
 
-#まぁ、ざくろは上手かったな。
-#SCRIPT ADD KANJI
-Ｗell, Zakuro was skilled.
+まぁ、ざくろは上手かったな。
+Well, Zakuro was skilled.
 
-#＠樹
-#「いやいや、別に上手いとか下手とかは気にしてないけどな」
+＠樹
+「いやいや、別に上手いとか下手とかは気にしてないけどな」
 ＠Itsuki
 「No no, I don't really mind if you're skilled or not.」
 
-#＠樹
-#「……また雫さんか」
+＠樹
+「……また雫さんか」
 ＠Itsuki
 「......Shizuku-san again?」
 
 @suika_odoroki
-#＠すいか,R00016
-#「あ、いえ。私を担当してくれてるのは美雨さんなので。今夜も美雨さんに言われて……」
+＠すいか,R00016
+「あ、いえ。私を担当してくれてるのは美雨さんなので。今夜も美雨さんに言われて……」
 ＠Suika,R00016
 「Ah, no. The person who told me was Miu-san. I was told by Miu-san tonight too......」
 
-#＠樹
-#「……！　そ、そっか。美雨にか」
+＠樹
+「……！　そ、そっか。美雨にか」
 ＠Itsuki
 「......!　I, I see. It was Miu-san, huh.」
 
-#案外驚きが小さかったのは、それをどこかで予測していたからだ。
-#SCRIPT ADD KANJI
-Ｉ was unexpectedly not that surprised, because I guess I had predicted it was like that.
+案外驚きが小さかったのは、それをどこかで予測していたからだ。
+I was unexpectedly not that surprised, because I guess I had predicted it was like that.
 
-#子供の頃は売春をしていた側。
-#そして今では売春をさせる側として。
-#SCRIPT ADD KANJI
-Ａ person who was in prostitution when she was a child. And now, a person who puts others into prostitution.
+子供の頃は売春をしていた側。
+A person who was in prostitution when she was a child.
+そして今では売春をさせる側として。
+And now, a person who puts others into prostitution.
 
 @suika
-#＠すいか,R00017
-#「しつれいします。院長先生には、いずれ知られてしまうと思いますので」
+＠すいか,R00017
+「しつれいします。院長先生には、いずれ知られてしまうと思いますので」
 ＠Suika,R00017
 「Excuse me. I think Inchou-sensei would find out about it sooner or later.」
 
@@ -1470,110 +1393,104 @@ label youzyo2_04 #############################################################
 @se70
 @suika_
 
-#話の合間を見て、すいかが着ているものを脱ぎ始めた。
-#SCRIPT ADD KANJI
-Ｉn the time we were talking, Suika began taking off the things she was wearing.
+話の合間を見て、すいかが着ているものを脱ぎ始めた。
+In the time we were talking, Suika began taking off the things she was wearing.
 
-#オレは手伝うことも止めることも出来ずに、それをただ見守る。
-#SCRIPT ADD KANJI
-Ｉ wasn't able to help or stop her, all I could do was watch.
+オレは手伝うことも止めることも出来ずに、それをただ見守る。
+I wasn't able to help or stop her, all I could do was watch.
 
-#この子にも、やはりこういうことをする理由があるのだろうか。
-#SCRIPT ADD KANJI
-Ｔhis child must have her own reasons for doing something like this.
+この子にも、やはりこういうことをする理由があるのだろうか。
+This child must have her own reasons for doing something like this.
 
-#＠樹
-#「……！　すいか、その身体は」
+＠樹
+「……！　すいか、その身体は」
 ＠Itsuki
 「......! Suika, that body...」
 
 #CH（すいか全裸立ち絵）
 event	"event\EV_SUI_011.png"
 
-#＠すいか,R00018
-#「院長先生。これが、私の身体です……」
+＠すいか,R00018
+「院長先生。これが、私の身体です……」
 ＠Suika,R00018
 「Inchou-sensei. This is, my body......」
 
-#＠すいか,R00019
-#「ぜんぜん女の子らしくなくて、綺麗でもなくてすみません……」
+＠すいか,R00019
+「ぜんぜん女の子らしくなくて、綺麗でもなくてすみません……」
 ＠Suika,R00019
 「Sorry that it is not at all like a girl's, or pretty......」
 
-#全身に消えない痕となっている傷と痣。
-#SCRIPT ADD KANJI
-Ｔraces of scars and bruises on her whole body that would not go away.
+全身に消えない痕となっている傷と痣。
+Traces of scars and bruises on her whole body that would not go away.
 
-#切り傷、擦り傷、打撲、火傷………これは………
-#SCRIPT ADD KANJI
-Ｃuts, scratches, bruises, burns......... This is.........
+切り傷、擦り傷、打撲、火傷………これは………
+Cuts, scratches, bruises, burns......... This is.........
 
-#＠すいか,R00020
-#「私は、お父さんとお母さんから、虐待を受けてました」
+＠すいか,R00020
+「私は、お父さんとお母さんから、虐待を受けてました」
 ＠Suika,R00020
 「I was treated badly by my father and mother.」
 
-#＠すいか,R00021
-#「嫌われてたんだと思います。いつも叩かれたり、蹴られたり。この足もその時の事故で……」
+＠すいか,R00021
+「嫌われてたんだと思います。いつも叩かれたり、蹴られたり。この足もその時の事故で……」
 ＠Suika,R00021
 「I think they hated me. I was always being hit and kicked. And in that accident, these legs......」
 
-#＠樹
-#「………」
+＠樹
+「………」
 ＠Itsuki
 「………」
 
-#＠すいか,R00022
-#「でも私、ここの施設に私を捨ててくれたことは感謝してるんです。おかげで私はみんなと会えた」
+＠すいか,R00022
+「でも私、ここの施設に私を捨ててくれたことは感謝してるんです。おかげで私はみんなと会えた」
 ＠Suika,R00022
 「But, I'm thankful that I was abandoned here at this institute. Because of that, I was able to meet everyone.」
 
-#＠すいか,R00023
-#「ちょっと変わった人たちだけど、でも温かくて優しい人ばかり。だから私は、この生活を続けるためなら、何でもしたいんです」
+＠すいか,R00023
+「ちょっと変わった人たちだけど、でも温かくて優しい人ばかり。だから私は、この生活を続けるためなら、何でもしたいんです」
 ＠Suika,R00023
 「They're kind of different people, but they are only warm and kind people. That's why, I want to continue living this life, and I would do anything to do so.」
 
-#＠すいか,R00024
-#「こういうことするの、恥ずかしいけど、嫌じゃありません。みんな喜んでくれるし、上手く出来たら誉めてくれるから」
+＠すいか,R00024
+「こういうことするの、恥ずかしいけど、嫌じゃありません。みんな喜んでくれるし、上手く出来たら誉めてくれるから」
 ＠Suika,R00024
 「Doing this kind of thing is embarrassing, but it's not unpleasant. Because everyone is happy, and if I do well, I am praised.」
 
-#＠樹
-#「………分かった、いいよもう」
+＠樹
+「………分かった、いいよもう」
 ＠Itsuki
 「.........I understand, it's fine.」
 
-#＠樹
-#「すいか、オレが悩んでるのを見て話してくれたんだな」
+＠樹
+「すいか、オレが悩んでるのを見て話してくれたんだな」
 ＠Itsuki
 「Suika, you talked to me about what I saw and was worried about.」
 
-#＠すいか,R00025
-#「私は、院長先生にもここにいて欲しいんです。ざくろちゃんもいちごちゃんも、美雨さんも、みんなそうだと思います」
+＠すいか,R00025
+「私は、院長先生にもここにいて欲しいんです。ざくろちゃんもいちごちゃんも、美雨さんも、みんなそうだと思います」
 ＠Suika,R00025
 「I want Inchou-sensei to stay here too. And Zakuro-chan, and Ichigo-chan, Miu-san, everyone.」
 
-#＠すいか,R00026
-#「院長先生と話してるとき、楽しそうですから」
+＠すいか,R00026
+「院長先生と話してるとき、楽しそうですから」
 ＠Suika,R00026
 「Because I am happy when I talk to Inchou-sensei.」
 
-#＠樹
-#「そうか……」
+＠樹
+「そうか……」
 ＠Itsuki
 「I see......」
 
-#ならばここを継ぐかどうかは後にしても、すいかの奉仕を断る理由はない。
-#SCRIPT ADD KANJI
-Ｉf so, I don't know whether I'll succeed this place or not, but I have no reason to refuse Suika's service.
+ならばここを継ぐかどうかは後にしても、すいかの奉仕を断る理由はない。
+If so, I don't know whether I'll succeed this place or not, but I have no reason to refuse Suika's service.
 
-#＠樹
-#「それじゃ、頼む」
+＠樹
+「それじゃ、頼む」
 ＠Itsuki
 「Then, I leave it to you.」
 
-#＠すいか,R00027
-#「はい……」
+＠すいか,R00027
+「はい……」
 ＠Suika,R00027
 「Yes......」
 
@@ -1589,425 +1506,390 @@ event	"event\EV_SUI_010-00.png"
 #SE01　ズボンのベルトを外す（カチャカチャ）
 @se01
 
-#ベッドへ仰向けになったオレのベルトを、すいかの指先が緩めていく。
-#SCRIPT ADD KANJI
-Ｓuika unfastened my belt which had fallen over on the bed.
+ベッドへ仰向けになったオレのベルトを、すいかの指先が緩めていく。
+Suika unfastened my belt which had fallen over on the bed.
 
-#＠すいか,R00028
-#「………」
+＠すいか,R00028
+「………」
 ＠Suika,R00028
 「.........」
 
 
-#その瞬間は言葉がなくなり、すいかの静かな呼吸だけが吹きかかった。
-#SCRIPT ADD KANJI
-Ａt that moment, all words disappeared, and all that could be heard was Suika's quiet breath.
+その瞬間は言葉がなくなり、すいかの静かな呼吸だけが吹きかかった。
+At that moment, all words disappeared, and all that could be heard was Suika's quiet breath.
 
-#緊張してるのだろうか。やはり。
-#SCRIPT ADD KANJI
-Ｉ wonder if she's nervous. She probably is.
+緊張してるのだろうか。やはり。
+I wonder if she's nervous. She probably is.
 
-#＠すいか,R00029
-#「院長先生、失礼します」
+＠すいか,R00029
+「院長先生、失礼します」
 ＠Suika,R00029
 「Inchou-sensei, excuse me.」
 
 event	"event\EV_SUI_010-01.png"
 
-#はだけ終えたズボンから内側のイチモツが取り出された。
-#SCRIPT ADD KANJI
-Ｓuika finished opening the pants, and took the penis out from inside. 
+はだけ終えたズボンから内側のイチモツが取り出された。
+Suika finished opening the pants, and took the penis out from inside. 
 
-#＠樹
-#「ざくろと同じように初めてじゃないんだよな？」
+＠樹
+「ざくろと同じよう に初めてじゃないんだよな？」
 ＠Itsuki
 「Like the pomegranate, this is not your first time, is it?」 
 
-#＠すいか,R00030
-#「はい……と言っても、練習の方が多くて、本当にするのはまだ数えるくらいしか」
-＠Suika,R00030
+＠すいか,R00030
+「はい……と言っても、練習の方が多くて、本当にするのはまだ数えるくらいしか」
+＠Suika,R0030
 「Yes...... And I will tell you about it too. The training had lots of it, and really, I can yet only estimate.」 (deeply woefully unsure)
 
-#＠すいか,R00031
-#「……えっと、それじゃ、もう直接初めてもいいでしょうか？」
+＠すいか,R00031
+「……えっと、それじゃ、もう直接初めてもいいでしょうか？」
 ＠Suika,R00031
 「Umm, then, is it OK if I begin?」
 
-#＠樹
-#「あぁ、任せるから好きなように」
+＠樹
+「あぁ、任せるから好きなように」
 ＠Itsuki
 「Aah, I leave it to you, so do as you wish..」
 
-#＠すいか,R00032
-#「……はい」
+＠すいか,R00032
+「……はい」
 ＠Suika,R00032
 「......OK」
 
-#了承を得たすいかの手が、ズボンの内側で温まっていた肉棒を繊細につかみこむ。
-#SCRIPT ADD KANJI
-Ｓuika's hand knew what to do, and the inside of my pants warmed up as she delicately grasped my penis and held it. 
+了承を得たすいかの手が、ズボンの内側で温まっていた肉棒を繊細につかみこむ。
+Suika's hand knew what to do, and the inside of my pants warmed up as she delicately grasped my penis and held it. 
 
-#面映ゆげに注がれる視線。
-#ざくろの感情の見えない瞳と違い、それはこちらにも僅か恥ずかしさを思わせてくる。
-#SCRIPT ADD KANJI
-Ａpparent embarassment is seen in her eyes. The emotions of the pomegranate are not visible in these different eyes, and that makes me believe it is a little shameful too.
+面映ゆげに注がれる視線。
+Apparent embarassment is seen in her eyes.
+ざくろの感情の見えない瞳と違い、それはこちらにも僅か恥ずかしさを思わせてくる。
+The emotions of the pomegranate are not visible in these different eyes, and that makes me believe it is a little shameful too.
 
-#＠すいか,R00033
-#「もしかして、もう大きくなってますか？」
+＠すいか,R00033
+「もしかして、もう大きくなってますか？」
 ＠Suika,R00033
 「Are you getting big already, perhaps?」 
 
-#＠樹
-#「少しだけな。すいかの身体を見せてもらってからか」
+＠樹
+「少しだけな。すいかの身体を見せてもらってからか」
 ＠Itsuki
 「Only a little bit. Maybe I can get Suika's body to do something afterwards, if you like.」
 
-#＠すいか,R00034
-#「私の………。こんな傷だらけの身体なんかで……」
+＠すいか,R00034
+「私の………。こんな傷だらけの身体なんかで……」
 ＠Suika,R00034
 「My... ... ... Among things like such wounds covering my body......」
 
-#＠樹
-#「そんな風に卑下するな。女の子らしくて綺麗だぞ」
+＠樹
+「そんな風に卑下するな。女の子らしくて綺麗だぞ」
 ＠Itsuki
 「You're insulting yourself like that. You are loli-ish and pretty.」 
 
-#＠すいか,R00035
-#「………」
+＠すいか,R00035
+「………」
 ＠Suika,R00035
 「... ... ...」
 
-#その言葉に肉棒を弄る指先が止まり、すいかが吐息を詰まらせた。
-#SCRIPT ADD KANJI
-Ｈer fingertips stopped groping my penis because of those words, and Suika was filled with a sigh.
+その言葉に肉棒を弄る指先が止まり、すいかが吐息を詰まらせた。
+Her fingertips stopped groping my penis because of those words, and Suika was filled with a sigh.
 
-#＠すいか,R00036
-#「………ありがとうございます。私、絶対に院長先生を気持ちよくしますから」
+＠すいか,R00036
+「………ありがとうございます。私、絶対に院長先生を気持ちよくしますから」
 ＠Suika,R00036
 「... ... ... Thank you. Now I will definitely make Inchou-sensei feel good.」
 
-#再び動き始める指は、竿の付け根からカリの方まで上下に擦り始める。
-#SCRIPT ADD KANJI
-Ｈer fingers start moving again, rubbing up and down from the crotch to the head.
+再び動き始める指は、竿の付け根からカリの方まで上下に擦り始める。
+Her fingers start moving again, rubbing up and down from the crotch to the head.
 
-#この子の裸身に血流を溜まらせ始めていたその部分が、敏感に行為の期待を身体中に走らせてきた。
-#SCRIPT ADD KANJI
-Ｔhat area started to accumulate blood, which made anticipation of the act course throughout my body.
+この子の裸身に血流を溜まらせ始めていたその部分が、敏感に行為の期待を身体中に走らせてきた。
+That area started to accumulate blood, which made anticipation of the act course throughout my body.
 
-#＠すいか,R00037
-#「もっとおちんちん大きくしてください」
+＠すいか,R00037
+「もっとおちんちん大きくしてください」
 ＠Suika,R00037
 「I'll make your ochinchin even bigger.」
 
-#晒した男性器の全貌を見つめ、頬の朱が色濃くなっていくすいか。
-#SCRIPT ADD KANJI
-Ｓtaring at the entire exposed penis, Suika's face becomes noticeably red.
+晒した男性器の全貌を見つめ、頬の朱が色濃くなっていくすいか。
+Staring at the entire exposed penis, Suika's face becomes noticeably red.
 
-#しかしその恥ずかしさとは裏腹な手使いが、施設での調教生活を思わせる。
-#SCRIPT ADD KANJI
-Ｂut that bit of embarassment is contrary to her hand service, which remembers her training as part of the brothel.
+しかしその恥ずかしさとは裏腹な手使いが、施設での調教生活を思わせる。
+But that bit of embarassment is contrary to her hand service, which remembers her training as part of the brothel.
 
-#＠樹
-#「オレに遠慮はいらない。だから思うように弄ってみな？」
+＠樹
+「オレに遠慮はいらない。だから思うように弄ってみな？」
 ＠Itsuki
 「I'm not holding back anymore so I think I'll try touching you, okay?」
 
-#＠すいか,R00038
-#「あ、はい……ならこのまま、手から口に繋げていきますね」
+＠すいか,R00038
+「あ、はい……ならこのまま、手から口に繋げていきますね」
 ＠Suika,R00038
 「Ah, okay...... In that case maybe I should go from hand to mouth.」
 
-#キュッと今までよりも力が入って肉竿が握られる。
-#SCRIPT ADD KANJI
-Ｓhe rubbed harder and grabbed it more tightly than before.
+キュッと今までよりも力が入って肉竿が握られる。
+She rubbed harder and grabbed it more tightly than before.
 
-#まだ面映ゆそうな視線でこちらを窺いながら、すいかの手は下のふぐりも弄りながら滑り始めた。
-#SCRIPT ADD KANJI
-Ｗhile casting an embarassed covert glance at me, Suika's hand groped the bottom of my testicles while her other started sliding.
+まだ面映ゆそうな視線でこちらを窺いながら、すいかの手は下のふぐりも弄りながら滑り始めた。
+While casting an embarassed covert glance at me, Suika's hand groped the bottom of my testicles while her other started sliding.
 
-#＠樹
-#「……っ」
+＠樹
+「……っ」
 ＠Itsuki
-「......Agh.」
+「......Agh」
 
-#それにより肉棒の内部の熱さが更に沸き上げられていく。
-#SCRIPT ADD KANJI
-Ｎow the heat emanating from the inside of the penis boiled over even more.
+それにより肉棒の内部の熱さが更に沸き上げられていく。
+Now the heat emanating from the inside of the penis boiled over even more.
 
-#＠すいか,R00039
-#「ぁ……これ、いいですか？」
+＠すいか,R00039
+「ぁ……これ、いいですか？」
 ＠Suika,R00039
 「Ah...... Does this feel good?」
 
-#羞恥に熱のこもる吐息を零すすいかは、オレのそんな微妙な表情を捉えて動きを繰り返してきた。
-#SCRIPT ADD KANJI
-Ｓuika lets loose a long sigh filled with shyness. She had been repeating the motion and saw me grimace from pleasure.
+羞恥に熱のこもる吐息を零すすいかは、オレのそんな微妙な表情を捉えて動きを繰り返してきた。
+Suika lets loose a long sigh filled with shyness. She had been repeating the motion and saw me grimace from pleasure.
 
-#＠樹
-#「これも、教えてもらったのか？」
+＠樹
+「これも、教えてもらったのか？」
 ＠Itsuki
 「Did they teach you this too?」
 
-#＠すいか,R00040
-#「はい。……すみません、私が先生に奉仕したいのに、よく分からなくて。教えてもらったことでしか動けなくて」
+＠すいか,R00040
+「はい。……すみません、私が先生に奉仕したいのに、よく分からなくて。教えてもらったことでしか動けなくて」
 ＠Suika,R00040
 「Yes...... Sorry, I want to service you but I don't know how. I can't move the way they taught me.」
 
-#＠樹
-#「気にするな。それはこれから覚えていけばいいさ」
+＠樹
+「気にするな。それはこれから覚えていけばいいさ」
 ＠Itsuki
 「Don't worry about it. It's fine if you remember after this.」
 
-#＠すいか,R00041
-#「え……？」
+＠すいか,R00041
+「え……？」
 ＠Suika,R00041
-「Eh......?」
+「eh......?」
 
-#＠樹
-#「……え？　あっ、いや」
+＠樹
+「……え？　あっ、いや」
 ＠Itsuki
 「......eh? Ah, no no, that's not what I meant!」
 
-#早くも状況に飲まれ始めてるのかオレは……
-#まるで自分が世話してやるみたいなことが自然に口を付いて慌てた。
-#SCRIPT ADD KANJI
-Ｉ'm already becoming overwhelmed by this situation...... True to looking after me completely she seemed hurried to give it a taste.
+早くも状況に飲まれ始めてるのかオレは……
+I'm already becoming overwhelmed by this situation......
+まるで自分が世話してやるみたいなことが自然に口を付いて慌てた。
+True to looking after me completely she seemed hurried to give it a taste.
 
-#しかしすいかは少しキョトンとした後、僅かに頬を緩めて行為を続けていく。
-#SCRIPT ADD KANJI
-Ｈowever after staring blankly for a moment or two, her cheeks relaxed somewhat and she continued more calmly.
+しかしすいかは少しキョトンとした後、僅かに頬を緩めて行為を続けていく。
+However after staring blankly for a moment or two, her cheeks relaxed somewhat and she continued more calmly.
 
-#＠樹
-#（う……やっぱり上手いな……）
+＠樹
+（う……やっぱり上手いな……）
 ＠Itsuki
 (Ungh...... She is actually skillful......)
 
-#緩急つけて動く手から、肉棒の内側に的確な刺激が連続される。
-#SCRIPT ADD KANJI
-Ｔurning on her hand motions like it was an emergency, her precise handiwork repeatedly stimulated the inside of my penis.
+緩急つけて動く手から、肉棒の内側に的確な刺激が連続される。
+Turning on her hand motions like it was an emergency, her precise handiwork repeatedly stimulated the inside of my penis.
 
-#ざくろの時と同様、オレの抑制の効かないところで、肉棒は躊躇いなく勃起させられていた。
-#SCRIPT ADD KANJI
-Ｍy self-control faltered and my penis stood up stockstill, as expected from the pomegranate.
+ざくろの時と同様、オレの抑制の効かないところで、肉棒は躊躇いなく勃起させられていた。
+My self-control faltered and my penis stood up stockstill, as expected from the pomegranate.
 
-#＠すいか,R00042
-#「……こんなに、大きくなるんですね。院長先生の」
+＠すいか,R00042
+「……こんなに、大きくなるんですね。院長先生の」
 ＠Suika,R00042
 「It's getting big like this. Inchou-sensei's......」
 
-#＠樹
-#「特別オレがってわけじゃないけど、これはこういうもんだ。気持ちよければ大きくなる」
+＠樹
+「特別オレがってわけじゃないけど、これはこういうもんだ。気持ちよければ大きくなる」
 ＠Itsuki
 「It's nothing special about me. When you do that, if it feels good then it'll get bigger.」
 
-#＠すいか,R00043
-#「よかった。もっと擦りますね」
+＠すいか,R00043
+「よかった。もっと擦りますね」
 ＠Suika,R00043
 「Good. I'll touch you more then.」
 
-#肥大化していく竿に視線を向けながら、その全体に指を這わせていくすいか。
-#SCRIPT ADD KANJI
-Ｗhile turning her eyes to the penis she was in the process of engorging, Suika made her fingers crawl over its entirety.
+肥大化していく竿に視線を向けながら、その全体に指を這わせていくすいか。
+While turning her eyes to the penis she was in the process of engorging, Suika made her fingers crawl over its entirety.
 
-#ざくろほど突っ走る展開は無いものの、興奮をあおる動きはこの年の子のものではない。
-#SCRIPT ADD KANJI
-Ａlthough she doesn't go as fast and efficient as Zakuro, her activity that incites my arousal is not that of a mere child.
+ざくろほど突っ走る展開は無いものの、興奮をあおる動きはこの年の子のものではない。
+Although she doesn't go as fast and efficient as Zakuro, her activity that incites my arousal is not that of a mere child.
 
-#＠すいか,R00044
-#「えっと、その……勃起、し終えたら言ってください。口でさせてもらいますから」
+＠すいか,R00044
+「えっと、その……勃起、し終えたら言ってください。口でさせてもらいますから」
 ＠Suika,R00044
 「Um, this...... erection, please tell me if it stops. Then I'll use my mouth for you.」
 
-#＠樹
-#「あ、あぁ」
+＠樹
+「あ、あぁ」
 ＠Itsuki
-「Ah, ahh.」
+「Ah, ahh」
 
-#言葉を恥ずかしそうに紡ぐその口元に、オレは視線を寄せられた。
-#SCRIPT ADD KANJI
-Ｓhe fumbles with these embarassing words, gazing at me.
+言葉を恥ずかしそうに紡ぐその口元に、オレは視線を寄せられた。
+She fumbles with these embarassing words, gazing at me.
 
-#＠すいか,R00045
-#「ん……ふぅ」
+＠すいか,R00045
+「ん……ふぅ」
 ＠Suika,R00045
 「ん……ふぅ」
 
-#起立する男性器を見た恥ずかしさで、口唇から乱れるすいかの吐息。
-#SCRIPT ADD KANJI
-Ｓhe viewed my erect genitalia with embarassment and the sigh that escapes her lips is confused.
+起立する男性器を見た恥ずかしさで、口唇から乱れるすいかの吐息。
+She viewed my erect genitalia with embarassment and the sigh that escapes her lips is confused.
 
-#生々しく肉棒にかかる吐息に、抑えるべき情欲は倒錯的に膨れ上がる。
-#SCRIPT ADD KANJI
-Ｗith that fresh sigh at my penis, the desires that should be restrained swell up pervertedly.
+生々しく肉棒にかかる吐息に、抑えるべき情欲は倒錯的に膨れ上がる。
+With that fresh sigh at my penis, the desires that should be restrained swell up pervertedly.
 
-#＠樹
-#「すいか、もう勃起は終わってるから。頼めるか」
-＠Itsuki
+＠樹
+「すいか、もう勃起は終わってるから。頼めるか」
+＠樹
 「Suika, my erection is ending. Can you do it?」
 
-#＠すいか,R00046
-#「……はい。それじゃ、口で。失礼します」
+＠すいか,R00046
+「……はい。それじゃ、口で。失礼します」
 ＠Suika,R00046
 「...... Yes. Mouth it is then. Excuse me.」
 
-#オレが求めているのを知ると恥ずかしそうにしながら、そっと口を寄せてきた。
-#SCRIPT ADD KANJI
-Ｒealizing that I want to be doing this causes me to become embarassed, while I softly receive Suika's mouth.
+オレが求めているのを知ると恥ずかしそうにしながら、そっと口を寄せてきた。
+Realizing that I want to be doing this causes me to become embarassed, while I softly receive Suika's mouth.
 
 #■（フェラ開始）
 event		"event\EV_SUI_010-02.png"
 voice_bg	"R90001"
 
-#＠すいか,R00047
-#「ん、ちゅる……ちゅ、くちゅむ……ぴちゅぅ」
+＠すいか,R00047
+「ん、ちゅる……ちゅ、くちゅむ……ぴちゅぅ」
 ＠Suika,R00047
 「ん、ちゅる……ちゅ、くちゅむ……ぴちゅぅ」
 
-#＠すいか,R00048
-#「れる、ちゅぅく……ぴちゅ、ん、ちゅるっ、れちゅる……」
+＠すいか,R00048
+「れる、ちゅぅく……ぴちゅ、ん、ちゅるっ、れちゅる……」
 ＠Suika,R00048
 「れる、ちゅぅく……ぴちゅ、ん、ちゅるっ、れちゅる……」
 
-#しっかりと唾液で湿らされた舌先を躍らせ、すいかが肉竿を亀頭まで舐め上げる。
-#SCRIPT ADD KANJI
-Ｔongue swimming around, steadily moistening the area with saliva, Suika licks it up thoroughly on the head.
+しっかりと唾液で湿らされた舌先を躍らせ、すいかが肉竿を亀頭まで舐め上げる。
+Tongue swimming around, steadily moistening the area with saliva, Suika licks it up thoroughly on the head.
 
-#くすぐったさが先立った後、すぐにゾクリと心地よさが走った。
-#SCRIPT ADD KANJI
-Ａfter the initial ticklishness had passed, all at once knee-shaking pleasure coursed through me.
+くすぐったさが先立った後、すぐにゾクリと心地よさが走った。
+After the initial ticklishness had passed, all at once knee-shaking pleasure coursed through me.
 
-#＠すいか,R00049
-#「んぅく、ちゅく……ちゅっ、れるん、ぴちゅぅ……ちゅぴ、んっ、ちゅちゅ」
+＠すいか,R00049
+「んぅく、ちゅく……ちゅっ、れるん、ぴちゅぅ……ちゅぴ、んっ、ちゅちゅ」
 ＠Suika,R00049
 「んぅく、ちゅく……ちゅっ、れるん、ぴちゅぅ……ちゅぴ、んっ、ちゅちゅ」
 
-#裏の筋を中心に往復を繰り返し、細かな動きを連続させる。
-#SCRIPT ADD KANJI
-Ｃoming over and over again to my muscle at the bottom, the precise motion continues.
+裏の筋を中心に往復を繰り返し、細かな動きを連続させる。
+Coming over and over again to my muscle at the bottom, the precise motion continues.
 
 event	"event\EV_SUI_010-03.png"
 
-#下からはさっきまで竿を擦っていた手が、ふぐりと竿の付け根を揉むように刺激していた。
-#SCRIPT ADD KANJI
-Ｓhe had been rubbing from the base of the rod with her hand for some time now, and crumples up my scrotum together with the base to further arouse me.
+下からはさっきまで竿を擦っていた手が、ふぐりと竿の付け根を揉むように刺激していた。
+She had been rubbing from the base of the rod with her hand for some time now, and crumples up my scrotum together with the base to further arouse me.
 
-#＠すいか,R00050
-#「ちゅ、ちゅむぅ……ん、どうでしょうか……ちゅるる、れる、何か、希望があれば……」
+＠すいか,R00050
+「ちゅ、ちゅむぅ……ん、どうでしょうか……ちゅるる、れる、何か、希望があれば……」
 ＠Suika,R00050
 「ちゅ、ちゅむぅ...... ん, How do you want it...... ちゅるる、れる, if there is something you wish for......」
 
-#＠樹
-#「いや……大丈夫だ、このまま続けてくれて」
-＠Itsuki
+＠樹
+「いや……大丈夫だ、このまま続けてくれて」
+＠樹
 「No...... It's fine, continue as is.」
 
-#控えめだが与えてくる刺激に不適なものは無い。
-#『経験』ではなく『知識』を思わせてくるすいかの奉仕。
-#SCRIPT ADD KANJI
-Ｔhough she is self-effacing, her stimulus is as good as I would want. Suika's service has made me think that "experience" is not the same as "knowledge".
+控えめだが与えてくる刺激に不適なものは無い。
+Though she is self-effacing, her stimulus is as good as I would want.
+『経験』ではなく『知識』を思わせてくるすいかの奉仕。
+Suika's service has made me think that "experience" is not the same as "knowledge".
 
-#それは、まるで焦らされているような感覚をこちらに与えてくる。
-#SCRIPT ADD KANJI
-Ｔhat has been kind of irritating me.
+それは、まるで焦らされているような感覚をこちらに与えてくる。
+That has been kind of irritating me.
 
-#＠すいか,R00051
-#「にちゅ、んっ、ちゅるる……もっと、濡らしますね」
+＠すいか,R00051
+「にちゅ、んっ、ちゅるる……もっと、濡らしますね」
 ＠Suika,R00051
 「にちゅ、んっ、ちゅるる...... It's getting even wetter......」
 
 event	"event\EV_SUI_010-04.png"
 
-#滴りそうなほど唾液を乗せた舌が、怒張をぬるぬるに仕立てていった。
-#SCRIPT ADD KANJI
-Ｈer tongue poured saliva until it was dripping, preparing a slimy swelling mass.
+滴りそうなほど唾液を乗せた舌が、怒張をぬるぬるに仕立てていった。
+Her tongue poured saliva until it was dripping, preparing a slimy swelling mass.
 
-#舐められる感触がさらに熱くなり、こちらの感度を昂ぶらせていく。
-#SCRIPT ADD KANJI
-Ｔhe feeling of being licked becoming even hotter, my sensitivity is being excited.
+舐められる感触がさらに熱くなり、こちらの感度を昂ぶらせていく。
+The feeling of being licked becoming even hotter, my sensitivity is being excited.
 
-#＠樹
-#「けど、やっぱり慣れてはないんだな」
+＠樹
+「けど、やっぱり慣れてはないんだな」
 ＠Itsuki
 「I'm definitely not getting bored of it you know.」
 
 ＠Suika,R00052
 「ちゅく、ん......... Hm?」
 
-#後一歩、気持ち的な踏み込みが足りていない感じがした。
-#SCRIPT ADD KANJI
-Ａfter a moment, I got the impression from her that she didn't feel a need to rush through anymore.
+後一歩、気持ち的な踏み込みが足りていない感じがした。
+After a moment, I got the impression from her that she didn't feel a need to rush through anymore.
 
-#＠すいか,R00053
-#「あふ……すみません……ほとんどが、知識と練習だけなので」
+＠すいか,R00053
+「あふ……すみません……ほとんどが、知識と練習だけなので」
 ＠Suika,R00053
 「あふ...... Sorry...... Most of it's just knowledge and practice.」
 
-#＠樹
-#「あ、悪い意味で言ったんじゃない、気持ちいいぞ、ちゃんと」
+＠樹
+「あ、悪い意味で言ったんじゃない、気持ちいいぞ、ちゃんと」
 ＠Itsuki
 「Ah, I didn't say anything bad, It feels great, perfect.」
 
-#＠樹
-#「ただ、やっぱり『調教』によるものだって再確認したかな」
+＠樹
+「ただ、やっぱり『調教』によるものだって再確認したかな」
 ＠Itsuki
 「Although I don't know if this proves that it all came from your training.」
 
-#＠すいか,R00054
-#「……調教に男の人はいませんから。やっぱり美雨さんもやり方の教授になりますし」
+＠すいか,R00054
+「……調教に男の人はいませんから。やっぱり美雨さんもやり方の教授になりますし」
 ＠Suika,R00054
 「...... It's because my training wasn't with a man. Miu teaches me how to do it too.」
 
-#それもそうだ。
-#まさか適当な男性を拾ってきて試すとか、そんなことまでやってるとは思いたくない。
-#SCRIPT ADD KANJI
-Ｓo that's true too. Such things as picking up a suitable man and trying him out, I don't even want to think about it.
+それもそうだ。
+So that's true too.
+まさか適当な男性を拾ってきて試すとか、そんなことまでやってるとは思いたくない。
+Such things as picking up a suitable man and trying him out, I don't even want to think about it.
 
-#もしかして今夜のこれも、そういう意味ですいかをよこしたんじゃないだろうか。
-#SCRIPT ADD KANJI
-Ｐerhaps this evening's events too, I wonder if she sent Suika with such a purpose.
+もしかして今夜のこれも、そういう意味ですいかをよこしたんじゃないだろうか。
+Perhaps this evening's events too, I wonder if she sent Suika with such a purpose.
 
-#＠樹
-#「それじゃせっかくの機会なんだから、遠慮せずに経験を吸収していかないとな」
+＠樹
+「それじゃせっかくの機会なんだから、遠慮せずに経験を吸収していかないとな」
 ＠Itsuki
 「Well since I'm sure it's been a long-awaited opportunity, you have to take in the experience without holding back.」
 
-#＠すいか,R00055
-#「え……でも、院長先生のためにやってるのに、私が勝手にしたら……」
-＠Suika,R00055
+＠すいか,R00055
+「え……でも、院長先生のためにやってるのに、私が勝手にしたら……」
+＠すいか,R00055
 「え...... But I'm doing this for you Inchou-sensei. If I had my own way......」
 
-#＠樹
-#「ま、何か間違いがあれば指摘してやるから。そう難しく考えずにやってみな」
-＠Itsuki
+＠樹
+「ま、何か間違いがあれば指摘してやるから。そう難しく考えずにやってみな」
+＠樹
 「Alright, if you make a mistake I'll point it out for you. I'll try not to criticize too harshly.」
 
-#……何というか、オレには学習能力がないのかもしれない。
-#SCRIPT ADD KANJI
-　...... What am I saying, maybe I don't have any tutoring ability.
+……何というか、オレには学習能力がないのかもしれない。
+...... What am I saying, maybe I don't have any tutoring ability.
 
-#ざくろに対して８０％と軽く妥協し、そして思いっきりイかされたことを、この時のオレは完全に失念していた。
-#SCRIPT ADD KANJI
-Ｇiving in to Zakuro for 80% without much of a fight, I was completely oblivious to all the skill she leveraged.
+ざくろに対して８０％と軽く妥協し、そして思いっきりイかされたことを、この時のオレは完全に失念していた。
+Giving in to Zakuro for 80% without much of a fight, I was completely oblivious to all the skill she leveraged.
 
-#＠すいか,R00056
-#「あ、ありがとうございます……それじゃ、その、いつもの調教のつもりでやらせてもらいますね」
-＠Suika,R00056
+＠すいか,R00056
+「あ、ありがとうございます……それじゃ、その、いつもの調教のつもりでやらせてもらいますね」
+＠すいか,R00056
 「Th-thank you...... Then let me do the usual training's intention.」
 
-#＠樹
-#「あぁ、さっきも言ったように遠慮なくこい」
+＠樹
+「あぁ、さっきも言ったように遠慮なくこい」
 ＠Itsuki
 「Come freely like I said before.」
 
 event	"event\EV_SUI_020-00.png"
 
 
-#舐めるだけだった肉棒の先をすいかが口に含み、余裕のオレの笑みは、あっさりと引きつることになる。
-#SCRIPT ADD KANJI
-Ｔaking the penis which she had so far only been licking in her mouth, my smile and composure quickly started falling away.
+舐めるだけだった肉棒の先をすいかが口に含み、余裕のオレの笑みは、あっさりと引きつることになる。
+Taking the penis which she had so far only been licking in her mouth, my smile and composure quickly started falling away.
 
-#＠すいか,R00057
-#「ぷぢゅぅッ、くぢゅぢゅ……ちゅぶっ、ぢゅ、にぢゅるっ……れりゅぅっ、くちゅぅぶッ」
+＠すいか,R00057
+「ぷぢゅぅッ、くぢゅぢゅ……ちゅぶっ、ぢゅ、にぢゅるっ……れりゅぅっ、くちゅぅぶッ」
 ＠Suika,R00057
 「ぷぢゅぅッ、くぢゅぢゅ……ちゅぶっ、ぢゅ、にぢゅるっ……れりゅぅっ、くちゅぅぶッ」
 
@@ -2017,39 +1899,35 @@ event	"event\EV_SUI_020-00.png"
 ＠Suika,R00058
 「んふぅ、ぢゅぶぶっ……にぢゅッ、ぢゅッ、りゅぶぅちゅっ……くちぅぅッ、あふぅ」
 
-#いつの間に溜めたのか、すいかの口内にはたっぷりの熱い唾液。
-#SCRIPT ADD KANJI
-Ｌots of hot saliva had accumulated in Suika's mouth unnoticed.
+いつの間に溜めたのか、すいかの口内にはたっぷりの熱い唾液。
+Lots of hot saliva had accumulated in Suika's mouth unnoticed.
 
-#その粘質な海の中に放り込まれた亀頭は、主である舌肉に擦られながらしゃぶりつかれていく。
-#SCRIPT ADD KANJI
-Ｍy head was thrown into this moist, sticky sea, and is licked by this tongue that is God while she sucks and thrusts.
+その粘質な海の中に放り込まれた亀頭は、主である舌肉に擦られながらしゃぶりつかれていく。
+My head was thrown into this moist, sticky sea, and is licked by this tongue that is God while she sucks and thrusts.
 
-#急に襲い掛かった性感でいきなりイキそうになり、オレは潰れた声を零しながら咄嗟に放射感を抑制した。
-#SCRIPT ADD KANJI
-Ｂecoming energized with sexual feelings that swiftly besieged me, I let drop in my voice how aroused I was as I instinctively tried to curb this display.
+急に襲い掛かった性感でいきなりイキそうになり、オレは潰れた声を零しながら咄嗟に放射感を抑制した。
+Becoming energized with sexual feelings that swiftly besieged me, I let drop in my voice how aroused I was as I instinctively tried to curb this display.
 
-#＠すいか,R00059
-#「……んぐ？　あ、もひかして、何かまふかったですか……？」
-＠Suika,R00059
+＠すいか,R00059
+「……んぐ？　あ、もひかして、何かまふかったですか……？」
+＠すいか,R00059
 「……んぐ？ Ah, is wamthing the madder?」
 
-#＠樹
-#「な、何でもない。ちょっと油断してただけだから、全然大丈夫だ……」
+＠樹
+「な、何でもない。ちょっと油断してただけだから、全然大丈夫だ……」
 ＠Itsuki
 「It's n-nothing. It's because I was caught off guard a little, it's perfectly fine (cracking voice ehehe)......」
 
-＠Suika,R00060
+＠すいか,R00060
 「……？　ん, Okay...... ちゅぢゅぢゅっ、にちゅ、れりゅぅっ……ちゅくっ、ぢゅッ、んぶぅッ」
 
-#そんなオレの様子に首を傾げながら、すいかは持てる知識を試すように口淫へと戻る。
-#SCRIPT ADD KANJI
-Ｔhough slanting her head at my reaction, Suika returned to the fellatio putting her knowledge into practice.
+そんなオレの様子に首を傾げながら、すいかは持てる知識を試すように口淫へと戻る。
+Though slanting her head at my reaction, Suika returned to the fellatio putting her knowledge into practice.
 
-#この子もざくろと同じ、外見に騙されてはいけなかった。
-#今度はオレも相応の気持ちでそれを迎え受ける………のだが、
-#SCRIPT ADD KANJI
-Ｔhis child is the same as Zakuro, I shouldn't have been fooled by her outer appearance. Now I can welcome and accept this with grateful feelings too... ... ... and so,
+この子もざくろと同じ、外見に騙されてはいけなかった。
+This child is the same as Zakuro, I shouldn't have been fooled by her outer appearance.
+今度はオレも相応の気持ちでそれを迎え受ける………のだが、
+Now I can welcome and accept this with grateful feelings too... ... ... and so,
 
 ＠Suika,R00061
 「んぅ、ねぢゅぅっ、ちゅぅぶ……ちゅじゅッ、んぐ、にちゅるぅッ！」
@@ -2057,64 +1935,57 @@ event	"event\EV_SUI_020-00.png"
 ＠Suika,R00062
 「くにちゅ、じゅぷぅッ……んぐ、にゅぶぶッ、ちゅりゅぅッ！　ちゅぶッ、りゅりゅちゅッ」
 
-#すでに手で勃起させられた肉棒は、亀頭への刺激を敏感に付け根まで走らせてきた。
-#SCRIPT ADD KANJI
-Ｍy penis, which had already been forced erect by her hand, received the stimulus on the head but the feeling ran all the way down to the crotch.
+すでに手で勃起させられた肉棒は、亀頭への刺激を敏感に付け根まで走らせてきた。
+My penis, which had already been forced erect by her hand, received the stimulus on the head but the feeling ran all the way down to the crotch.
 
-#滴るほどに溢れさせる唾液と舌の動きは、ざくろと同等の官能を間断なく送り続けてくる。
-#SCRIPT ADD KANJI
-Ｈer tongue's motion makes it overflow with saliva, and has been continuously sending pleasure waves of equal measure with Zakuro.
+滴るほどに溢れさせる唾液と舌の動きは、ざくろと同等の官能を間断なく送り続けてくる。
+Her tongue's motion makes it overflow with saliva, and has been continuously sending pleasure waves of equal measure with Zakuro.
 
-#＠樹
-#「さ、さすがだな……ざくろでも驚いたけど、すいかも唾液の粘りとか舌の動きがかなり上手いし」
+＠樹
+「さ、さすがだな……ざくろでも驚いたけど、すいかも唾液の粘りとか舌の動きがかなり上手いし」
 ＠Itsuki
 「You're so good...... Even though Zakuro impressed me, your spit is so sticky and your tongue moves so well.」
 
-#＠すいか,R00063
-#「んぢゅむッ、ぢゅぐぅ、んぅぶ……ありはほうごはいまふ……ちゅれろ、んじゅッ、もっと頑張りまふね」
+＠すいか,R00063
+「んぢゅむッ、ぢゅぐぅ、んぅぶ……ありはほうごはいまふ……ちゅれろ、んじゅッ、もっと頑張りまふね」
 ＠Suika,R00063
-「んぢゅむッ、ぢゅぐぅ、んぅぶ...... Fankyu...... ちゅれろ、んじゅッ, I 'oo i' e'en befa.」
+「んぢゅむッ、ぢゅぐぅ、んぅぶ...... Fankyu...... ちゅれろ、んじゅッ, I 'oo i' e'en befa」
 
 ＠Suika,R00064
 「んぅ……ちゅぷぶっ、くちゅるぅッ！　んふぅむ……ぢゅぢゅっ、くぶぅ、ぢゅくぶッ！　りゅちゅぅッ」
 
-#シーツまでねっとりと流れていく唾液をすすりながら、脈打つ怒張への口淫を続けていくすいか。
-#SCRIPT ADD KANJI
-Ｗhile slurping with saliva that runs down as far as the sheet in a sticky mess, Suika continues the blowjob that causes my bulging, pulsing erection.
+シーツまでねっとりと流れていく唾液をすすりながら、脈打つ怒張への口淫を続けていくすいか。
+While slurping with saliva that runs down as far as the sheet in a sticky mess, Suika continues the blowjob that causes my bulging, pulsing erection.
 
-#早すぎる射精も情けないので、オレとしてはあまり張り切られても困るのだが、
-#SCRIPT ADD KANJI
-Ａ quick ejaculation would be bad though, so I'm worried even though I'm so heavily physically aroused.
+早すぎる射精も情けないので、オレとしてはあまり張り切られても困るのだが、
+A quick ejaculation would be bad though, so I'm worried even though I'm so heavily physically aroused.
 
-#＠すいか,R00065
-#「ちゅちゅるッ、ぢゅぶ、んんふッ……こっちの方も、んぅ」
-＠Suika,R00065
+＠すいか,R00065
+「ちゅちゅるッ、ぢゅぶ、んんふッ……こっちの方も、んぅ」
+＠すいか,R00065
 「ちゅちゅるッ、ぢゅぶ、んんふッ...... this way too, んぅ」
 
-#おざなりになっていた手の動きも再開され、いよいよ本格的にフェラチオの濃度が上がっていく。
-#SCRIPT ADD KANJI
-Ｌivening up the hand movements that were becoming careless, more and more the fellatio's intensity is going up.
+おざなりになっていた手の動きも再開され、いよいよ本格的にフェラチオの濃度が上がっていく。
+Livening up the hand movements that were becoming careless, more and more the fellatio's intensity is going up.
 
-#＠樹
-#「うぅ、ちょ、すいか……」
+＠樹
+「うぅ、ちょ、すいか……」
 ＠Itsuki
 「うぅ、ちょ, Suika......」
 
-#＠すいか,R00066
-#「くぢゅぢゅッ！　れりゅぅッ、にぢゅむ……手の動ひも、合わへた方がいいえふよね……くぷぅぢゅッ、りゅりゅッ！」
-＠Suika,R00066
+＠すいか,R00066
+「くぢゅぢゅッ！　れりゅぅッ、にぢゅむ……手の動ひも、合わへた方がいいえふよね……くぷぅぢゅッ、りゅりゅッ！」
+＠すいか,R00066
 「くぢゅぢゅッ！　れりゅぅッ、にぢゅむ...... I'f bewer match my han' speed too wight...... くぷぅぢゅッ、りゅりゅッ！」
 
-#与えられる刺激に思わず情けない声を上げるオレに、すいかは持てる知識を存分に施してきた。
-#SCRIPT ADD KANJI
-Ｓuika freely put in all the knowledge she had into it for me, and I raised my pathetic voice from the stimulus.
+与えられる刺激に思わず情けない声を上げるオレに、すいかは持てる知識を存分に施してきた。
+Suika freely put in all the knowledge she had into it for me, and I raised my pathetic voice from the stimulus.
 
 ＠Itsuki
 「Ungh...... Kah!」
 
-#それは実際の経験不足も補い、否応無くこちらは射精感が近づけられる。
-#SCRIPT ADD KANJI
-Ｃompensating for her lack of practical experience, the feeling of ejaculation is brought close whether I like it or not.
+それは実際の経験不足も補い、否応無くこちらは射精感が近づけられる。
+Compensating for her lack of practical experience, the feeling of ejaculation is brought close whether I like it or not.
 
 ＠Suika,R00067
 「じゅぶぅッ、ねぢゅッ！　ぐぶぶッ、んぅふ……んぐぢゅっ、ちゅぢゅッ、くぷぶッ！　じゅぶちゅッ」
@@ -2122,37 +1993,32 @@ event	"event\EV_SUI_020-00.png"
 ＠Suika,R00068
 「きゅぶぅッ、くちゅじゅッ！　んぐぶッ、ぢゅ、ぴちゅぅッ……ちゅぶッ、ぢゅぢゅぅッ！」
 
-#すでにヌルヌルになったすいかの手は、口で限界に近い肉棒を付け根からシゴき上げていた。
-#SCRIPT ADD KANJI
-Ｓuika works my penis through her hand, which had by now become slimy, thoroughly all the way from my crotch to her mouth.
+すでにヌルヌルになったすいかの手は、口で限界に近い肉棒を付け根からシゴき上げていた。
+Suika works my penis through her hand, which had by now become slimy, thoroughly all the way from my crotch to her mouth.
 
-#先端から溢れる先走りが唾液に混ざり、より粘質な音と感触が昇り詰めていく。
-#SCRIPT ADD KANJI
-Ｂlending spit and pre-cum that rushes out of the tip, the mucous-like sound and texture keeps growing more intense.
+先端から溢れる先走りが唾液に混ざり、より粘質な音と感触が昇り詰めていく。
+Blending spit and pre-cum that rushes out of the tip, the mucous-like sound and texture keeps growing more intense.
 
-#＠すいか,R00069
-#「にぢゅるッ、ぐぶぅ、ちゅじゅじゅッ！　へんへいのからも、もっと濡れてきへまふよ」
+＠すいか,R00069
+「にぢゅるッ、ぐぶぅ、ちゅじゅじゅッ！　へんへいのからも、もっと濡れてきへまふよ」
 ＠Suika,R00069
-「にぢゅるッ、ぐぶぅ、ちゅじゅじゅッ！　Get mo' wet fo' me henhei.」
+「にぢゅるッ、ぐぶぅ、ちゅじゅじゅッ！　Get mo' wet fo' me henhei」
 
-#手の刺激が加わったことで快感も増大。間違いなく近づいてくる抑制の限界。
-#SCRIPT ADD KANJI
-Ｗith the increase in hand stimulus the sexual feeling went up too. I'm definitely approaching my limit.
+手の刺激が加わったことで快感も増大。間違いなく近づいてくる抑制の限界。
+With the increase in hand stimulus the sexual feeling went up too. I'm definitely approaching my limit.
 
-#完全に受け入れることも拒否することも出来ないまま、またオレはざくろの時のように場に流されていく。
-#SCRIPT ADD KANJI
-Ｉt seems I can't refuse but I also can't enjoy receiving all that is offered, and once again I've lost myself in the moment like with Zakuro.
+完全に受け入れることも拒否することも出来ないまま、またオレはざくろの時のように場に流されていく。
+It seems I can't refuse but I also can't enjoy receiving all that is offered, and once again I've lost myself in the moment like with Zakuro.
 
 ＠Suika,R00070
 「んぅッ、くぷぅちゅ！　ぢゅぢゅぶッ、んぐふ……ずじゅっ、りゅりゅぶ、ちゅくぅッ！」
 
-#すいかは口内でしゃぶっていた亀頭を、今度は口を前後させてピストンまで施した。
-#SCRIPT ADD KANJI
-Ｎow she moved her mouth and my head which she was sucking front and back, performing it with such tenacity as a piston.
+すいかは口内でしゃぶっていた亀頭を、今度は口を前後させてピストンまで施した。
+Now she moved her mouth and my head which she was sucking front and back, performing it with such tenacity as a piston.
 
-#＠樹
-#「……っ、すいか、そこまでしなくていい、苦しいだろ」
-＠Itsuki
+＠樹
+「……っ、すいか、そこまでしなくていい、苦しいだろ」
+＠樹
 「... ... Suika, it's fine if you don't go that far, maybe it's painful or difficult......」
 
 ＠Suika,R00071
@@ -2161,107 +2027,94 @@ event	"event\EV_SUI_020-00.png"
 ＠Suika,R00072
 「ちゅぶむッ、ぐぶぶ……ちゅぐッ、れりゅちゅ、ぢゅぢゅぅッ！　ぢゅぐんッ、りゅぶ、ちゅきゅぅッ」
 
-#咥えたまま首を振ると、すいかはさらに深く肉棒を頬張って動いていく。
-#SCRIPT ADD KANJI
-Ｗhen she swings her head as she holds it in her mouth, Suika stuffs her cheeks with my penis more and more deeply.
+咥えたまま首を振ると、すいかはさらに深く肉棒を頬張って動いていく。
+When she swings her head as she holds it in her mouth, Suika stuffs her cheeks with my penis more and more deeply.
 
-#小さい口腔内を膨らんだ怒張が満たしては擦れ、亀頭が先走りを滲ませながら喉の奥まで犯していく。
-#SCRIPT ADD KANJI
-Ｍy swelling erection, which puffed up her modest oral cavity, fills this space and rubs up against it, and while she made my head ooze precum it violated her as far as her throat.
+小さい口腔内を膨らんだ怒張が満たしては擦れ、亀頭が先走りを滲ませながら喉の奥まで犯していく。
+My swelling erection, which puffed up her modest oral cavity, fills this space and rubs up against it, and while she made my head ooze precum it violated her as far as her throat.
 
-#＠すいか,R00073
-#「んぐぅッ、ずぢゅぢゅッ！　れぢゅんッ……すごい、院長へんへいの、口の中にいっはい……ぢゅんぅッ」
-＠Suika,R00073
+＠すいか,R00073
+「んぐぅッ、ずぢゅぢゅッ！　れぢゅんッ……すごい、院長へんへいの、口の中にいっはい……ぢゅんぅッ」
+＠すいか,R00073
 「んぐぅッ、ずぢゅぢゅッ！　れぢゅんッ...... Amazing, Inhou-henhei's...... Filling u' my mouth...... ぢゅんぅッ」
 
-#唾液に濡れたすいかの口唇が、脈浮かせた怒張の表面を何度も前後に擦りあげた。
-#SCRIPT ADD KANJI
-Ｓuika rubbed over the erection's surface repeatedly and her lips, wet with saliva, made it pulse and throb.
+唾液に濡れたすいかの口唇が、脈浮かせた怒張の表面を何度も前後に擦りあげた。
+Suika rubbed over the erection's surface repeatedly and her lips, wet with saliva, made it pulse and throb.
 
-#その度に口内で舌が蠢き舐めながら、新たな唾液が怒張に塗りつけられる。
-#SCRIPT ADD KANJI
-Ｅach time her tongue wriggles in her mouth, fresh spit is smeared on my erection.
+その度に口内で舌が蠢き舐めながら、新たな唾液が怒張に塗りつけられる。
+Each time her tongue wriggles in her mouth, fresh spit is smeared on my erection.
 
-#これを、この控えめなすいかがやっているのか。
-#SCRIPT ADD KANJI
-Ｈow can moderate, mild-mannered Suika be doing this?
+これを、この控えめなすいかがやっているのか。
+How can moderate, mild-mannered Suika be doing this?
 
-#＠樹
-#「すごいところなんだな、ここは……すいかみたいな子が、こんなやり方まで」
+＠樹
+「すごいところなんだな、ここは……すいかみたいな子が、こんなやり方まで」
 ＠Itsuki
 「This is an amazing place, here...... Suika resembles a child, except for your skill level.」
 
-＠Suika,R00074
+＠すいか,R00074
 「ぢゅるちゅッ、ちゅぐぅッ……んふ、I'f's 'ecause I rook rike a 'hild, henhei.」
 
-#＠すいか,R00075
-#「こうやっへ生活を送るのが……ぢゅちゅ、ちゅきゅぅッ、いまほ私の全へなんえふ……ねくりゅッ、ぢゅぶぅッ！」
-＠Suika,R00075
+＠すいか,R00075
+「こうやっへ生活を送るのが……ぢゅちゅ、ちゅきゅぅッ、いまほ私の全へなんえふ……ねくりゅッ、ぢゅぶぅッ！」
+＠すいか,R00075
 「I can have a hob like 'his...... ぢゅちゅ、ちゅきゅぅッ、'his is my enhire rife...... ねくりゅッ、ぢゅぶぅッ！」
 
-#すいかの手がふぐりを揉みながら、怒張の付け根を圧迫するように刺激した。
-#SCRIPT ADD KANJI
-Ｗhile her hand massages my testicles, in order to stimulate me she applied pressure to the base of my erection.
+すいかの手がふぐりを揉みながら、怒張の付け根を圧迫するように刺激した。
+While her hand massages my testicles, in order to stimulate me she applied pressure to the base of my erection.
 
 ＠Itsuki
 「Angh, there......」
 
-#＠すいか,R00076
-#「出ひてくだはい、へんへい……私も役に立へるって、知りたいんえふ……」
+＠すいか,R00076
+「出ひてくだはい、へんへい……私も役に立へるって、知りたいんえふ……」
 ＠Suika,R00076
 「Fwease come, henhei...... I want to know what it's like to be useful too.」
 
-#際どい刺激で呻くオレを一瞥し、しかしすいかの指はさらに下へと降りていく。
-#SCRIPT ADD KANJI
-Ｔhough she saw me moaning from that lewd remark, Suika's fingers again descend to the bottom.
+際どい刺激で呻くオレを一瞥し、しかしすいかの指はさらに下へと降りていく。
+Though she saw me moaning from that lewd remark, Suika's fingers again descend to the bottom.
 
-#＠樹
-#「う……すいか、そこは。さすがに冗談だろう？」
+＠樹
+「う……すいか、そこは。さすがに冗談だろう？」
 ＠Itsuki
 「う...... Suika, that spot. Still, I wonder if you're serious about this.」
 
-#＠すいか,R00077
-#「んちゅっ、ちゅくむ……気持ひいいって教わりまひたから、大丈夫えふ」
+＠すいか,R00077
+「んちゅっ、ちゅくむ……気持ひいいって教わりまひたから、大丈夫えふ」
 ＠Suika,R00077
 「んちゅっ、ちゅくむ…… You 'haught me how to ma'e you feel goo', so it's fine.」
 
-#自ら進んでそれをやる意味を持つすいかは、どこか小悪魔的な笑みで微笑んだ。
-#SCRIPT ADD KANJI
-Ｓuika carries the dubious honour of doing this of her own initiative, and displays what is in many ways a devilish grin. 
+自ら進んでそれをやる意味を持つすいかは、どこか小悪魔的な笑みで微笑んだ。
+Suika carries the dubious honour of doing this of her own initiative, and displays what is in many ways a devilish grin. 
 
 event	"event\EV_SUI_020-01.png"
 
-#そして閉じられた肛門に………ヌルッと唾液に濡れた中指の先が入ってくる。
-#SCRIPT ADD KANJI
-Ｔhe tip of Suika's middle finger that had gotten wet with lukewarm spit was entering......... my anus.
+そして閉じられた肛門に………ヌルッと唾液に濡れた中指の先が入ってくる。
+The tip of Suika's middle finger that had gotten wet with lukewarm spit was entering......... my anus.
 
 ＠Suika,R00078
 「Let it out...... んぢゅぶッ！　ずぢゅッ、ぢゅ、ちゅぐぅむッ！　じゅにるッ、ねちゅるぅッ！」
 
 ＠Itsuki
-「Eh...... nngu!?」
+「eh...... nngu!?」
 
-#フェラチオも同時に再開しながら、後ろの孔へ入れた指を動かし出すすいか。
-#SCRIPT ADD KANJI
-Ａs she resumes her fellatio, Suika starts moving the finger that she stuck up my rear.
+フェラチオも同時に再開しながら、後ろの孔へ入れた指を動かし出すすいか。
+As she resumes her fellatio, Suika starts moving the finger that she stuck up my rear.
 
-#今まで感じたことのない抽挿感が、ダイレクトに神経へ響いてくる……！
-#SCRIPT ADD KANJI
-Ｔhe sense of thrusting in and out that until now I hadn't felt was shaking and striking straight to my nerve......!
+今まで感じたことのない抽挿感が、ダイレクトに神経へ響いてくる……！
+The sense of thrusting in and out that until now I hadn't felt was shaking and striking straight to my nerve......!
 
 ＠Suika,R00079
 「にぢゅッ、ぢゅぢゅりゅッ！　ちゅりゅむッ、りゅぶ、くぶぅぅッ！　ちゅぐりゅッ！」
 
-#未知の刺激を受けて鋭敏になる肉棒に、激しいフェラチオは遠慮なく繰り返された。
-#SCRIPT ADD KANJI
-Ｉ received this as yet unknown stimulus while her violent fellatio was repeated on my progressively more sensitive penis without reservation.
+未知の刺激を受けて鋭敏になる肉棒に、激しいフェラチオは遠慮なく繰り返された。
+I received this as yet unknown stimulus while her violent fellatio was repeated on my progressively more sensitive penis without reservation.
 
-#官能が股間への血流を滾らせ、限界と思っていた怒張がさらに硬度を持って、すいかの口内へ反り返っていく。
-#SCRIPT ADD KANJI
-Ｔhe sensuality makes the blood flow between my legs boil over, and the swelling erection that I thought was at its limit gets harder, infringing on the inside of Suika's mouth even more.
+官能が股間への血流を滾らせ、限界と思っていた怒張がさらに硬度を持って、すいかの口内へ反り返っていく。
+The sensuality makes the blood flow between my legs boil over, and the swelling erection that I thought was at its limit gets harder, infringing on the inside of Suika's mouth even more.
 
-#＠すいか,R00080
-#「ぢゅぐッ！　ぶぐぅッ……へんへいのが、んぶぅん！　ぢゅぶむッ、まだ硬くなっへまふぅ……ぢゅぐぶッ、んんぅ！」
+＠すいか,R00080
+「ぢゅぐッ！　ぶぐぅッ……へんへいのが、んぶぅん！　ぢゅぶむッ、まだ硬くなっへまふぅ……ぢゅぐぶッ、んんぅ！」
 ＠Suika,R00080
 「ぢゅぐッ！　ぶぐぅッ…… Henhei's, んぶぅん！　ぢゅぶむッ、is swill hettin' har'er...... ぢゅぐぶッ、んんぅ！」
 
@@ -2271,49 +2124,45 @@ event	"event\EV_SUI_020-01.png"
 ＠Suika,R00081
 「ぢゅぼぶッ、ねぢゅぅッ…… Is somethin' unfweasant......?」
 
-#＠樹
-#「……嫌というか、ぅ、やっぱり違和感が。普通は男が触られる場所じゃないし……」
+＠樹
+「……嫌というか、ぅ、やっぱり違和感が。普通は男が触られる場所じゃないし……」
 ＠Itsuki
 「...... Unpleasant, you say, ungh...... Well of course it's awkward. Usually it's not a place a man is touched......」
 
-＠Suika,R00082
+＠すいか,R00082
 「りゅぶ、ぢゅちゅぅぶッ！　If it's ohei with you, you'll het used hoo it...... じゅぶぶッ、くぶりゅぅッ！」
 
-#無慈悲なのか無邪気なのか微妙なことを言い放ち、腸内の中指は根元までズブズブと深められていく。
-#SCRIPT ADD KANJI
-Ｄeclaring those words that are cruel, innocent, and worrisome, her middle finger in my intestine stabs and deepens all the way to the end.
+無慈悲なのか無邪気なのか微妙なことを言い放ち、腸内の中指は根元までズブズブと深められていく。
+Declaring those words that are cruel, innocent, and worrisome, her middle finger in my intestine stabs and deepens all the way to the end.
 
 event	"event\EV_SUI_020-02.png"
 
-#そこからピストンが始まり、怒張の裏側から溜まった精液をかき回された。
-#SCRIPT ADD KANJI
-Ｏriginating from that that thumping, the semen that had collected at the base of the erection was churned up.
+そこからピストンが始まり、怒張の裏側から溜まった精液をかき回された。
+Originating from that that thumping, the semen that had collected at the base of the erection was churned up.
 
-#＠すいか,R00083
-#「ねぢゅぢゅッ！　ちゅぶぅッ、ぢゅりゅッ、ぐぢゅちゅッ！　先ばひり、濃くなっへきへまふ……」
+＠すいか,R00083
+「ねぢゅぢゅッ！　ちゅぶぅッ、ぢゅりゅッ、ぐぢゅちゅッ！　先ばひり、濃くなっへきへまふ……」
 ＠Suika,R00083
 「ねぢゅぢゅッ！　ちゅぶぅッ、ぢゅりゅッ、ぐぢゅちゅッ！ A hittle while ago the 'aste got swonger all of a surren......」
 
-#＠樹
-#「うっ、うぅ……微妙すぎる……こんなことで感じたら、別の趣味の人間みたいだ……んくッ」
+＠樹
+「うっ、うぅ……微妙すぎる……こんなことで感じたら、別の趣味の人間みたいだ……んくッ」
 ＠Itsuki
 「Un, unn......This is too dicey...... I've felt this and it doesn't seem like something I could get into...... nkah!」
 
-#＠すいか,R00084
-#「んぢゅぅッ！　ちゅぼッ、ここが気持ちひいのは、みんなそうえふよ……ぢゅッ、ちゅぶりゅぅッ！」
+＠すいか,R00084
+「んぢゅぅッ！　ちゅぼッ、ここが気持ちひいのは、みんなそうえふよ……ぢゅッ、ちゅぶりゅぅッ！」
 ＠Suika,R00084
 「んぢゅぅッ！　ちゅぼッ、It's behause i' fee's good here, like e'eryone, you know...... ぢゅッ、ちゅぶりゅぅッ！」
 
 ＠Suika,R00085
 「んぅ、ちゅぐぅッ！　ちゅぢゅるっ……にりゅっ、じゅちゅぅッ！　ちゅくぶっ、んむぅ、ぇふちゅッ！」
 
-#無邪気な知識ですいかが陥落へと誘惑し、手と口による猛攻を増していく。
-#SCRIPT ADD KANJI
-Ｔempting me to surrender with that simple-minded knowledge, Suika intensifies her fierce attack with her mouth and hand.
+無邪気な知識ですいかが陥落へと誘惑し、手と口による猛攻を増していく。
+Tempting me to surrender with that simple-minded knowledge, Suika intensifies her fierce attack with her mouth and hand.
 
-#膨れ上がった肉棒を咥えた口が激しく前後に動きながら、淫らな水音をよりいっそう大きく響かせた。
-#SCRIPT ADD KANJI
-Ｗhile her mouth that held the swollen penis moved furiously back and forth, she made the obscene squelching noise resound more than ever.
+膨れ上がった肉棒を咥えた口が激しく前後に動きながら、淫らな水音をよりいっそう大きく響かせた。
+While her mouth that held the swollen penis moved furiously back and forth, she made the obscene squelching noise resound more than ever.
 
 ＠Suika,R00086
 「ぢゅぶぅッ、ずぢゅぢゅッ！　You're hettin' har'er like this...... んんぢゅッ！　ちゅぶりゅぅッ、Ron' hol' back, fwease come.」
@@ -2321,34 +2170,30 @@ event	"event\EV_SUI_020-02.png"
 ＠Suika,R00087
 「ぢゅぢゅぢゅッ、ちゅぐぅッ！　くちゅぷッ、ねりゅッ……んぅく、ぷぐぅっ、ぢゅぢゅッ！」
 
-#反対の手は肉棒を支えながら、竿の部分を口に合わせて上下にシゴく。まさに怒張全体が蹂躙されていった。
-#SCRIPT ADD KANJI
-Ａs she props up my penis, she keeps a part of it merged with her mouth and works it up and down with her hand.
+反対の手は肉棒を支えながら、竿の部分を口に合わせて上下にシゴく。まさに怒張全体が蹂躙されていった。
+As she props up my penis, she keeps a part of it merged with her mouth and works it up and down with her hand.
 
-#ざくろの淫戯に引けは取らず、とっくに限界を振り切っているオレの我慢は強制的に弛緩される。
-#SCRIPT ADD KANJI
-Ｗithout the sense of defeat earned from Zakuro's sex play, my self-control, which is already shaking off the climax, is forcibly relaxed.
+ざくろの淫戯に引けは取らず、とっくに限界を振り切っているオレの我慢は強制的に弛緩される。
+Without the sense of defeat earned from Zakuro's sex play, my self-control, which is already shaking off the climax, is forcibly relaxed.
 
-#＠すいか,R00088
-#「んはぶッ、れりゅりゅ……ぢゅちゅぅッ！　んじゅむッ、んんぅ！　出ほぉ、でふか……？」
+＠すいか,R00088
+「んはぶッ、れりゅりゅ……ぢゅちゅぅッ！　んじゅむッ、んんぅ！　出ほぉ、でふか……？」
 ＠Suika,R00088
 「んはぶッ、れりゅりゅ……ぢゅちゅぅッ！　んじゅむッ、んんぅ！ Hoo you wan' hoo come......？」
 
-#＠樹
-#「……ぅ、心情は複雑だけど、そろそろ出そうだ……口を離すんだ、すいか」
+＠樹
+「……ぅ、心情は複雑だけど、そろそろ出そうだ……口を離すんだ、すいか」
 ＠Itsuki
 「......Un, I have mixed feelings. I think I'll come before long though...... I'll take it out of your mouth, Suika.」
 
 ＠Suika,R00089
 「ふぅ、ぢゅぢゅッ！　くぶぅ…… It's fine, 'eave it inhide...... にぢゅっ、ぢゅッ！　ねりゅぢゅぅッ！」
 
-#怒張を深く咥えたまま、変わらずたっぷりの唾液で快美感を与えてくるすいか。
-#SCRIPT ADD KANJI
-Ａs she held the swollen erection deep in her mouth, she cut an arousing figure with her plentiful strands of saliva.
+怒張を深く咥えたまま、変わらずたっぷりの唾液で快美感を与えてくるすいか。
+As she held the swollen erection deep in her mouth, she cut an arousing figure with her plentiful strands of saliva.
 
-#せめて外に出してやろうという気遣いもあっさりと却下され、最後の瞬間まですいかの口内で蹂躙を受け続けていく。
-#SCRIPT ADD KANJI
-Ｔhe concern that I voiced about at least taking it out being quickly rejected as well, I will continue being trampled by her mouth service until the end. (TL note: lucky bastard)
+せめて外に出してやろうという気遣いもあっさりと却下され、最後の瞬間まですいかの口内で蹂躙を受け続けていく。
+The concern that I voiced about at least taking it out being quickly rejected as well, I will continue being trampled by her mouth service until the end. (TL note: lucky bastard)
 
 ＠Suika,R00090
 「ねぢゅりゅぅッ、ちゅぢゅぢゅッ！　くぶッ、んんふッ……しゅぶぅっ、りゅぢゅッ、んにぢゅぅッ！」
@@ -2356,62 +2201,56 @@ event	"event\EV_SUI_020-02.png"
 ＠Suika,R00091
 「ふぅぶ……ん、ぢゅりゅるぅッ！　くちゅぶッ、ねぢゅぅ……ちぢゅッ、ぐぶりゅッ！　んくぅふ！」
 
-#そのすいかの表情も、行為と共に少しずつ息苦しそうになっていった。
-#SCRIPT ADD KANJI
-Ｆrom Suika's facial expression together with what she was doing now, she appears to have started choking a little.
+そのすいかの表情も、行為と共に少しずつ息苦しそうになっていった。
+From Suika's facial expression together with what she was doing now, she appears to have started choking a little.
 
-#唾液や先走りと共に喉を犯す淫大な亀頭は、激しい動きを見せるすいかの呼吸を断続的に遮っていくのだ。
-#SCRIPT ADD KANJI
-Ｍy large head violates her throat with spit and precum, and obstructs her breathing intermittently evidencing her tempestuous activity.
+唾液や先走りと共に喉を犯す淫大な亀頭は、激しい動きを見せるすいかの呼吸を断続的に遮っていくのだ。
+My large head violates her throat with spit and precum, and obstructs her breathing intermittently evidencing her tempestuous activity.
 
-#＠樹
-#「んく、もう出そうだから……苦しかったら、無理せずに吐き出すんだぞ……っ」
+＠樹
+「んく、もう出そうだから……苦しかったら、無理せずに吐き出すんだぞ……っ」
 ＠Itsuki
-「Nkuh! I'll come soon, so...... If it's painful, you should spit it out without overdoing it......」
+「nkuh! I'll come soon, so...... If it's painful, you should spit it out without overdoing it......」
 
-#止めろと言っても止めないだろう、すいか。
-#我慢せずに射精してやる方が、早く彼女を開放してやれるはずだ。
-#SCRIPT ADD KANJI
-Ｓeems even though I told her to stop she won't. This girl had better quickly be able to free herself from this way of ejaculating without any restraint.
+止めろと言っても止めないだろう、すいか。
+Seems even though I told her to stop she won't.
+我慢せずに射精してやる方が、早く彼女を開放してやれるはずだ。
+This girl had better quickly be able to free herself from this way of ejaculating without any restraint.
 
 ＠Suika,R00092
 「ふぢゅむッ、OK……ちゅぐぅッ！　くぢゅぢゅッ、しゅぢゅぅッ！　れるぶッ、にぢゅりゅぅッ！　ぢゅぐぶ！」
 
-#頷くすいかがスパートをかけるように口内の抽挿を早め、直腸を大きくこね回した。
-#SCRIPT ADD KANJI
-Ｓuika, who nodded, started a quick spurt speeding up her mouth motion, and powerfully churned up my rectum.
+頷くすいかがスパートをかけるように口内の抽挿を早め、直腸を大きくこね回した。
+Suika, who nodded, started a quick spurt speeding up her mouth motion, and powerfully churned up my rectum.
 
-#唾液とカウパーによる泡立ちが、口と手による肉棒とお尻の内側で熱を上げていく！
-#SCRIPT ADD KANJI
-Ｔhe foam formed from spit and precum heats up the inside of my butt and penis worked by her hands and mouth......!
+唾液とカウパーによる泡立ちが、口と手による肉棒とお尻の内側で熱を上げていく！
+The foam formed from spit and precum heats up the inside of my butt and penis worked by her hands and mouth......!
 
 ＠Suika,R00093
 「れぢゅるッ、くびゅるぅッ！　んぁふッ……ぢゅぶぶッ、にぢゅ、ぢゅちゅちゅッ、ねちゅぐッ！」
 
 event	"event\EV_SUI_020-01.png"
 
-＠Suika,R00094
+＠すいか,R00094
 「Fwease come, henhei...... りゅりゅぢゅッ！　くぶちゅぅ！　Inhide my mouth, fill it up...... ッ」
 
 event	"event\EV_SUI_020-02.png"
 
-#＠樹
-#「……ッ、く、分かった、出すぞすいか……ッ」
+＠樹
+「……ッ、く、分かった、出すぞすいか……ッ」
 ＠Itsuki
 「... ... , kuh, okay, I'm coming, Suika......」
 
-#すいかの動きと共に犯す官能と犯される官能の前後の刺激が昂ぶり、射精感が一気に尿道を競りあがった！
-#SCRIPT ADD KANJI
-Ｔhe sensuality caused by Suika's movement together with arousal from the violation welled up, and my ejaculation arose!
+すいかの動きと共に犯す官能と犯される官能の前後の刺激が昂ぶり、射精感が一気に尿道を競りあがった！
+The sensuality caused by Suika's movement together with arousal from the violation welled up, and my ejaculation arose!
 
 #//フラッシュ
 screen_flash	500
 event	"event\EV_SUI_020-03.png"
 voice_bg_stop
 
-#ジュビュゥッ！　ドビュルッ、ビュグゥッ！　ドクッ、ドクドクッ！　ドクンッ！
-#SCRIPT ADD KANJI
-　*jubuu!* *doburu, buguu!* *doku, doku doku!* *dokun!*
+ジュビュゥッ！　ドビュルッ、ビュグゥッ！　ドクッ、ドクドクッ！　ドクンッ！
+*jubuu!* *doburu, buguu!* *doku, doku doku!* *dokun!*
 
 screen_flash	500
 
@@ -2420,54 +2259,48 @@ screen_flash	500
 
 screen_flash	500
 
-#吐き出された大量の白濁が小さな口内を熱く埋め尽くす。
-#SCRIPT ADD KANJI
-Ａ large amount of hot white cloudiness was spit out and filled up her little mouth until there was no room left.
+吐き出された大量の白濁が小さな口内を熱く埋め尽くす。
+A large amount of hot white cloudiness was spit out and filled up her little mouth until there was no room left.
 
-#官能の大きさに比例した粘りつくような濃さの迸りに、すいかは息苦しそうに眉をたわめて手を離した。
-#SCRIPT ADD KANJI
-Ｓuika bent her eyebrows in a suffocating way and her hand let go because of my sticky spray's thickness and smell which seemed to be in proportion to the depth of my arousal.
+官能の大きさに比例した粘りつくような濃さの迸りに、すいかは息苦しそうに眉をたわめて手を離した。
+Suika bent her eyebrows in a suffocating way and her hand let go because of my sticky spray's thickness and smell which seemed to be in proportion to the depth of my arousal.
 
 event	"event\EV_SUI_020-04.png"
 
 ＠Suika,R00096
 「あぁふっ、んちゅぐ……くぶぅッ！ So much, came out......」
 
-#＠樹
-#「だから言っただろ……大丈夫かすいか……」
+＠樹
+「だから言っただろ……大丈夫かすいか……」
 ＠Itsuki
 「I thought you'd say that...... Are you OK, Suika?」
 
 event	"event\EV_SUI_020-05.png"
 
-＠Suika,R00097
+＠すいか,R00097
 「んっ、Yeah...... ふぐむ……んく、こくんっ……こくくっ」
 
-#口から溢れた白濁を拭いながら、中に残っている分を飲み下していく。
-#SCRIPT ADD KANJI
-Ｗhile wiping away the semen that had overflowed from her mouth, she swallows the share that remains inside.
+口から溢れた白濁を拭いながら、中に残っている分を飲み下していく。
+While wiping away the semen that had overflowed from her mouth, she swallows the share that remains inside.
 
-#それでも散々の唾液と共に、大半がねっとりと糸を引きながらシーツへと零れていった。
-#SCRIPT ADD KANJI
-Ｄespite this most of it together with her scattered saliva fell down down to the sheet in sticky threads.
+それでも散々の唾液と共に、大半がねっとりと糸を引きながらシーツへと零れていった。
+Despite this most of it together with her scattered saliva fell down down to the sheet in sticky threads.
 
 event	"event\EV_SUI_010-06.png"
 
 ＠Suika,R00098
 「はふぅっ……くんっ、ケホッ、コフンッ…… Sowwy, I wasn't taught how to swallow......」
 
-#＠樹
-#「はぁ、謝るな……よく頑張ったよすいかは。ほら、無理するな」
+＠樹
+「はぁ、謝るな……よく頑張ったよすいかは。ほら、無理するな」
 ＠Itsuki
 「Haa, Don't apologize...... You tried really hard. Don't be unreasonable.」
 
-#滴る精液をすくい取ろうとしている彼女の手を押さえ、生真面目な姿勢に嘆息する。
-#SCRIPT ADD KANJI
-Ｇrabbing her hand which is trying to scoop up the semen that had trickled down, I sigh at her level of commitment.
+滴る精液をすくい取ろうとしている彼女の手を押さえ、生真面目な姿勢に嘆息する。
+Grabbing her hand which is trying to scoop up the semen that had trickled down, I sigh at her level of commitment.
 
-#視覚的に分かるくらいドロドロの迸りを吐いた肉茎を、まだすいかは手にしたままだった。
-#SCRIPT ADD KANJI
-Ａs it was Suika still worked the penis that, as could evidently be seen, had disgorged all the dark, syrupy spray with her hand.
+視覚的に分かるくらいドロドロの迸りを吐いた肉茎を、まだすいかは手にしたままだった。
+As it was Suika still worked the penis that, as could evidently be seen, had disgorged all the dark, syrupy spray with her hand.
 
 event	"event\EV_SUI_010-07.png"
 
@@ -2477,27 +2310,24 @@ event	"event\EV_SUI_010-07.png"
 ＠Suika,R00100
 「...... Maybe, it still isn't enough though?」
 
-#射精の余韻で硬さを残したままの肉棒を弄るすいかが、ホッとした笑みでゆっくりと弄ってくる。
-#SCRIPT ADD KANJI
-Ｓuika plays with the penis which has lingering hardness from the end of the ejaculation, and gropes it calmly with a smile of relief.
+射精の余韻で硬さを残したままの肉棒を弄るすいかが、ホッとした笑みでゆっくりと弄ってくる。
+Suika plays with the penis which has lingering hardness from the end of the ejaculation, and gropes it calmly with a smile of relief.
 
-#気持ちいいことは何度でも味わいたいのが普通だが、
-#SCRIPT ADD KANJI
-Ｉt's natural for her to want to savour this feeling as much as she can I guess, but......
+気持ちいいことは何度でも味わいたいのが普通だが、
+It's natural for her to want to savour this feeling as much as she can I guess, but......
 
-#＠樹
-#「干からびさせる気か」
+＠樹
+「干からびさせる気か」
 ＠Itsuki
 「Somehow I feel like I'm done.」
 
-#＠すいか,R00101
-#「あはは、冗談です。さすがに、ちょっと私も疲れましたし
+＠すいか,R00101
+「あはは、冗談です。さすがに、ちょっと私も疲れましたし
 ＠Suika,R00101
 「Haha, yeah right. Still, I guess I'm a little tired too.」
 
-#疲労の色を浮かべながら、すいかは亀頭に残った精液を拭い取るのだった。
-#SCRIPT ADD KANJI
-Ｅxpressing her fatigued lust in this way, Suika wiped off the semen remaining on the head.
+疲労の色を浮かべながら、すいかは亀頭に残った精液を拭い取るのだった。
+Expressing her fatigued lust in this way, Suika wiped off the semen remaining on the head.
 
 @bg_black
 bgm_stop
@@ -2511,75 +2341,72 @@ date_open
 
 @suika
 
-#＠すいか,R00102
-#「それでは、夜遅くにすみませんでした」
+＠すいか,R00102
+「それでは、夜遅くにすみませんでした」
 ＠Suika,R00102
 「Then, sorry that it became so late at night.」
 
-#汚れの掃除と着替えを終えると、もう時間もかなり遅くなっていた。
-#SCRIPT ADD KANJI
-Ａfter cleaning and changing, it became quite late.
+汚れの掃除と着替えを終えると、もう時間もかなり遅くなっていた。
+After cleaning and changing, it became quite late.
 
-#＠樹
-#「送ろうか？」
+＠樹
+「送ろうか？」
 ＠Itsuki
 「Should I take you there?」
 
 @suika_warai
-#＠すいか,R00103
-#「いえ、大丈夫です。この施設は、もう住み慣れた家ですから」
-＠Suika,R00103
+＠すいか,R00103
+「いえ、大丈夫です。この施設は、もう住み慣れた家ですから」
+＠すいか,R00103
 「No, I'm fine. I'm already used to living in this institution after all.」
 
 @suika_kanashimi
-#＠すいか,R00104
-#「それより私の虐待のこと………。あれはもう、今の生活では過去の出来事です」
+＠すいか,R00104
+「それより私の虐待のこと………。あれはもう、今の生活では過去の出来事です」
 ＠Suika,R00104
 「And more importantly, that ill-treatment......... That is now, in my life, a thing of the past.」
 
 @suika_warai
-#＠すいか,R00105
-#「こうして先にお話しましたが、これからも今までどおり同情や遠慮なく接してくれると嬉しいです」
+＠すいか,R00105
+「こうして先にお話しましたが、これからも今までどおり同情や遠慮なく接してくれると嬉しいです」
 ＠Suika,R00105
 「I talked about this before, but I would be happy if you could talk to me in the same way without hesitation or sympathy.」
 
-#＠樹
-#「今までどおりで遠慮なくとか言われると、まるでオレが無神経みたいだ」
+＠樹
+「今までどおりで遠慮なくとか言われると、まるでオレが無神経みたいだ」
 ＠Itsuki
 「In the same way, but without hesitation, it's like you're saying I'm insensible.」
 
 @suika_komariwarai
-#＠すいか,R00106
-#「え、あ……えと、そういう意味ではなくて」
+＠すいか,R00106
+「え、あ……えと、そういう意味ではなくて」
 ＠Suika,R00106
 「Eh, ah...... Uh, I don't mean that.」
 
-#＠樹
-#「ははっ、分かってる。任せろ、他の子と分け隔てなくするさ」
+＠樹
+「ははっ、分かってる。任せろ、他の子と分け隔てなくするさ」
 ＠Itsuki
 「Hahah, I know. Leave it to me, I won't treat you differently from the other children.」
 
-#＠樹
-#「だからもう部屋で休め。明日は学校だろう？」
+＠樹
+「だからもう部屋で休め。明日は学校だろう？」
 ＠Itsuki
 「So you should go rest in your room already. Tomorrow is school right?」
 
-#ポンと頭に手を乗せて緩く促してやる。
-#SCRIPT ADD KANJI
-Ｉ lightly put my hand on her head and urge her.
+ポンと頭に手を乗せて緩く促してやる。
+I lightly put my hand on her head and urge her.
 
-#このままだといつまでもここに居そうだ。
-#SCRIPT ADD KANJI
-Ｉt seemed like she would stay here forever otherwise.
+このままだといつまでもここに居そうだ。
+It seemed like she would stay here forever otherwise.
 
 @suika_warai
-#＠すいか,R00107
-#「院長先生、ありがとうございます。それじゃ、おやすみなさい」
+＠すいか,R00107
+「院長先生、ありがとうございます。それじゃ、おやすみなさい」
 ＠Suika,R00107
 「Inchou-sensei, thank you very much. Then, good night.」
 
-#＠樹
-#「おやすみ」
+＠樹
+「おやすみ」
 ＠Itsuki
 「'night.」
 
@@ -2587,22 +2414,19 @@ date_open
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-#騒がしい一日が終わりと思ったのが数十分前。
-#SCRIPT ADD KANJI
-Ｉ had thought this noisy day had ended minutes ago.
+騒がしい一日が終わりと思ったのが数十分前。
+I had thought this noisy day had ended minutes ago.
 
-#あにはからんや、こんなことが最後に待っていたとは。
-#SCRIPT ADD KANJI
-Ｂut actually, this kind of thing was waiting to be the last thing.
+あにはからんや、こんなことが最後に待っていたとは。
+But actually, this kind of thing was waiting to be the last thing.
 
-#＠樹
-#「さて、オレも寝るか」
+＠樹
+「さて、オレも寝るか」
 ＠Itsuki
 「Then, I should sleep too.」
 
-#心地よい疲労感が溜まり、ぐっすりと眠れそうだ。
-#SCRIPT ADD KANJI
-Ｉ was comfortably tired, so it seemed like I would be able to sleep soundly.
+心地よい疲労感が溜まり、ぐっすりと眠れそうだ。
+I was comfortably tired, so it seemed like I would be able to sleep soundly.
 
 #■BG（ブラックアウト）
 bgm_stop

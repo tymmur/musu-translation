@@ -1,9 +1,10 @@
 # みかんフェラチオ調教まとめ
+# For Mikan fellatio training
 label	training_mikan_fellatio
 sel=0
 
-if _COLOR=228 then sel=0	#口
-if _COLOR=86  then sel=1	#顔
+if _COLOR=228 then sel=0	#口Mouth
+if _COLOR=86  then sel=1	#顔Face
 
 if t_mikan_fellatio_cnt1=0 then gosub training_mikan_fellatio_01
 if t_mikan_fellatio_cnt1=1 then gosub training_mikan_fellatio_02
@@ -30,6 +31,7 @@ if sel=1 then goto training_mikan_fellatio_mouth
 if sel=0 then goto training_mikan_fellatio_face
 
 #口の中に射精する
+#Ejaculate in mouth (they are reversed actually. this is face. it's correct in-game though)
 label	training_mikan_fellatio_mouth
 if t_mikan_fellatio_cnt2=0 then gosub training_mikan_fellatio_a01
 if t_mikan_fellatio_cnt2=1 then gosub training_mikan_fellatio_a02
@@ -39,6 +41,7 @@ t_mikan_fellatio_cnt2=t_mikan_fellatio_cnt2+1
 
 goto	training_mikan_fellatio_skip
 #顔に射精する
+#Ejaculate on face (they are reversed actually. this is mouth. it's correct in-game though)
 label	training_mikan_fellatio_face
 if t_mikan_fellatio_cnt3=0 then gosub training_mikan_fellatio_b01
 if t_mikan_fellatio_cnt3=1 then gosub training_mikan_fellatio_b02
@@ -53,111 +56,105 @@ endm
 
 
 # みかんフェラチオ調教初回 #######################################################
+# Mikan fellatio training first time #######################################################
 label	training_mikan_fellatio_01
 #■初めて
+#■First time
 #【00】
 #if mikan_bondage_flag=0 then event "event\EV_MIK_060-00.png"
 #if mikan_bondage_flag=1 then event "event\EV_MIK_061-00.png"
 
-#「………！！！　く、口に…！！？？　おちんちんをく、くわえるの…！？」
 ＠Mikan,A02027
+「………！！！　く、口に…！！？？　おちんちんをく、くわえるの…！？」
 「………！！！　I-in my mouth...!!?? I'm going to hold your ochinchin there...!?」
 
-#…一気にみかんが引いたのがよく、分かった。
-#SCRIPT ADD KANJI
-　...... Mikan's immediate drawing back I understand well enough.
+…一気にみかんが引いたのがよく、分かった。
+...... Mikan's immediate drawing back I understand well enough.
 
-#「やだ。そんなの、キタナイもん！！　みかんそんな事したくないよぉ…」
 ＠Mikan,A02028
-「やだ. Such a dirty thing!! Mikan doesn't want to do something like that...」
+「やだ。そんなの、キタナイもん！！　みかんそんな事したくないよぉ…」
+「No! Such a dirty thing!! Mikan doesn't want to do something like that...」
 
-#少々涙目になっているみかん。
-#SCRIPT ADD KANJI
-Ｍikan's getting a bit teary.
+少々涙目になっているみかん。
+Mikan's getting a bit teary.
 
-#たしかにいきなり男のイチモツを口にくわえろと言われれば、経験のない少女にしてみれば当然の反応だ。
-#SCRIPT ADD KANJI
-Ｏf course asking her to hold my dick in her mouth so suddenly, to a girl without experience it's a natural response.
+たしかにいきなり男のイチモツを口にくわえろと言われれば、経験のない少女にしてみれば当然の反応だ。
+Of course asking her to hold my dick in her mouth so suddenly, to a girl without experience it's a natural response.
 
-#「いいかい、みかん。フェラチオをしてもらうと、男は誰でも『ああ、自分はこの子に大事に思われてる』って思うんだ」
 ＠Itsuki
+「いいかい、みかん。フェラチオをしてもらうと、男は誰でも『ああ、自分はこの子に大事に思われてる』って思うんだ」
 「Listen Mikan. If you do fellatio for someone, any man would think "Ahh, I am being thought of highly by this child."」
 
-#「…何故だかわかるかい？」
 ＠Itsuki
+「…何故だかわかるかい？」
 「...... Do you understand why?」
 
-#みかんは首をかしげ、オレの問いに必死で答えようとしている。
-#SCRIPT ADD KANJI
-Ｔilting her head, puzzled, Mikan desperately tries to answer my question.
+みかんは首をかしげ、オレの問いに必死で答えようとしている。
+Tilting her head, puzzled, Mikan thinks hard trying to answer my question.
 
-#「………わかんない…、なんでお口におちんちんをくわえると、『大事に思われている』って思うんだろう…みかんわからないよ…」
 ＠Mikan,A02029
+「………わかんない…、なんでお口におちんちんをくわえると、『大事に思われている』って思うんだろう…みかんわからないよ…」
 「... ... ... I don't know..., why would they think that putting their ochinchin in my mouth means I "think highly" of them... Mikan doesn't get it...」
 
-#「それはな、みかん。　お口が体の中でとても必要で無くなったら困る物、だからさ」
 ＠Itsuki
-「It's that, Mikan. If the mouth isn't available but someone really needed it to be inside your body they'd be bothered, that's why.」
+「それはな、みかん。　お口が体の中でとても必要で無くなったら困る物、だからさ」
+「It's that, Mikan. If the mouth isn't available but someone needed it to be inside your body they'd be bothered, that's why.」
 
-#「えええぇえ？？　どういう事？？」
 ＠Mikan,A02030
-「えええぇえ？？ What do you mean??」
+「えええぇえ？？　どういう事？？」
+「What?? What do you mean??」
 
-#「口が無くなったら喋られない。　口が無くなったら物が食べられない。　食べられなかったら生きていけない」
 ＠Itsuki
-「If the mouth isn't available we won't be talked about, we won't eat, and we won't won't make a living.」
+「口が無くなったら喋られない。　口が無くなったら物が食べられない。　食べられなかったら生きていけない」
+「If the mouth isn't available we won't be talked about, we won't eat, and we won't make a living.」
 
-#「そんな大事な所に、この女の子は自分のおちんちんをくわえて気持ちよくしてくれようとしている…」
 ＠Itsuki
+「そんな大事な所に、この女の子は自分のおちんちんをくわえて気持ちよくしてくれようとしている…」
 「This girl holds his ochinchin in that important place and is trying to make him feel good...」
 
-#「そう思って、男はその子に「大事に思われている」と思ってしまうのさ…」
 ＠Itsuki
+「そう思って、男はその子に「大事に思われている」と思ってしまうのさ…」
 「With that mindset, the man thinks he is being "thought of highly" by the child.」
 
-#「…そ、そうなんだぁあ…」
 ＠Mikan,A02031
-「... T-that true...」
+「…そ、そうなんだぁあ…」
+「... T-that's true...」
 
-#我ながら上手い事言ったもんだ。
-#SCRIPT ADD KANJI
-Ｔhat was a very wise way of speaking for me.
+我ながら上手い事言ったもんだ。
+That was a very wise way of speaking for me.
 
-#至極納得したようにみかんはうなずいている。
-#SCRIPT ADD KANJI
-Ｍikan is nodding like she comprehended what I was saying very well.
+至極納得したようにみかんはうなずいている。
+Mikan is nodding like she comprehended what I was saying very well.
 
-#「まあ、他にも征服感とか優越感とか、他にもそういう諸々の感情があるんだけどな。　これは割愛だ」
 ＠Itsuki
+「まあ、他にも征服感とか優越感とか、他にもそういう諸々の感情があるんだけどな。　これは割愛だ」
 「And also, there's other things like the feeling of conquest and supremacy, and all kinds of other emotions like that. I won't explain those.」
 
-#「まず第一に理解してもらいたいのは、『大事に思われている、と思わせる』…そこらあたりかな」
 ＠Itsuki
+「まず第一に理解してもらいたいのは、『大事に思われている、と思わせる』…そこらあたりかな」
 「The number one thing you need to appreciate is, "Make him think he's being thought of highly"... or something in that area.」
 
-#「…うん、なんとなく、わかった」
 ＠Mikan,A02032
-「…うん, I get it, kind of.」
+「…うん、なんとなく、わかった」
+「... Right, I get it, kind of.」
 
-#みかんはこくん、とうなずいた。
-#SCRIPT ADD KANJI
-Ｍikan nodded deeply, *kokun*
+みかんはこくん、とうなずいた。
+Mikan nodded deeply.
 
-#「そうだな、最初はなんとなくでいいのさ。　さてと、それじゃ手っ取り早く実践といきましょうか？　みかんさん？」
 ＠Itsuki
+「そうだな、最初はなんとなくでいいのさ。　さてと、それじゃ手っ取り早く実践といきましょうか？　みかんさん？」
 「That's right. For the beginning "kind of" is fine. Now then, shall we practice this straight away? Mikan-san?」
 
-#「ふぇ。ふぇええぇぇええ。もう始めるの！？」
 ＠Mikan,A02033
-「ふぇ。ふぇええぇぇええ. We're starting already!?」
+「ふぇ。ふぇええぇぇええ。もう始めるの！？」
+「What?? We're starting already!?」
 
-#「そう、オレの講義はもうお終い。　後は実践あるのみだ」
 ＠Itsuki
+「そう、オレの講義はもうお終い。　後は実践あるのみだ」
 「Yeah, my lecture is over. There's nothing left but to practice.」
 
-#オレはオレの肉棒を取り出してみかんの前に突き出した。
-#SCRIPT ADD KANJI
-Ｉ take out my penis and stick it out in front of Mikan.
+オレはオレの肉棒を取り出してみかんの前に突き出した。
+I take out my penis and stick it out in front of Mikan.
 
 
 @training_anime_release
@@ -165,345 +162,319 @@ scene_start	"みかんフェラチオ調教１"
 @bgm10
 
 #【01】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
-#「…お、おおきぃ…ほ、ホントにこれ、舐めるの…？　み、みかんのお口にはいるか、なぁ…」
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
 ＠Mikan,A02034
+「…お、おおきぃ…ほ、ホントにこれ、舐めるの…？　み、みかんのお口にはいるか、なぁ…」
 「... I-it's so big... I-I'm really supposed to lick this...? It's g-going to go in my mouth, oh man......」
 
-#「でも、いきなり知らない男のおちんちん舐めろって言われて、みかんやれるか？　まずはオレで練習してから。ちゃんと教えてやるから安心しろ」
 ＠Itsuki
+「でも、いきなり知らない男のおちんちん舐めろって言われて、みかんやれるか？　まずはオレで練習してから。ちゃんと教えてやるから安心しろ」
 「But if you were told to lick some strange ochinchin from a man you don't know, could you do it? After practicing with me first. I'll teach you well so be at ease.」
 
-#「…う、うん…わかった…。みかん、やってみる…」
 ＠Mikan,A02035
-「…う、うん... Got it... Mikan will try and do it...」
+「…う、うん…わかった…。みかん、やってみる…」
+「... R-right... Got it... Mikan will try and do it...」
 
-#おずおずとオレの肉棒に手を添え、みかんは怖々とそれに口をつけた。
-#SCRIPT ADD KANJI
-　*ozu ozu*, tentatively propping up my penis with her hand, Mikan nervously put her mouth to it.
+おずおずとオレの肉棒に手を添え、みかんは怖々とそれに口をつけた。
+Tentatively propping up my penis with her hand, Mikan nervously put her mouth to it.
 
-#「まずは「これ」の感触を確かめてみてみろ。慣れる事が第一だ」
 ＠Itsuki
+「まずは「これ」の感触を確かめてみてみろ。慣れる事が第一だ」
 「Firstly try and check to see what "it" feels like. Getting comfortable with it comes first. 」
 
-#「う、うん…。わかったよ、お兄ちゃん…」
 ＠Mikan,A02036
-「う、うん...... Okay, Onii-chan...」
+「う、うん…。わかったよ、お兄ちゃん…」
+「R-right...... Okay, Onii-chan...」
 
-#みかんは手に持ったオレの肉棒の感触を確かめる様に、揉んだり唇で竿の皮膚を引っ張ったりしている。
-#SCRIPT ADD KANJI
-Ｍikan pulls at the rod's skin with her lips and massages it to ascertain the feeling of my penis held in her hand.
+みかんは手に持ったオレの肉棒の感触を確かめる様に、揉んだり唇で竿の皮膚を引っ張ったりしている。
+Mikan pulls at the rod's skin with her lips and massages it to ascertain the feeling of my penis held in her hand.
 
-#「硬くて熱い…、これがおにいちゃんのおちんちん…」
 ＠Mikan,A02037
+「硬くて熱い…、これがおにいちゃんのおちんちん…」
 「It's hard and hot..., so this is Onii-chan's ochinchin...」
 
-#「そうだよ…、よし、みかん。そろそろ舐めてみろ」
 ＠Itsuki
+「そうだよ…、よし、みかん。そろそろ舐めてみろ」
 「That's right..., looking good, Mikan. Go ahead and taste it any time now.」
 
-#「う、うん。わ、わかった…」
 ＠Mikan,A02038
-「う、うん. I-I'll do it...」
+「う、うん。わ、わかった…」
+「R-right. I-I'll do it...」
 
-#意を決したようにみかんはそう言って、オレの肉棒を口にくわえた。
-#SCRIPT ADD KANJI
-Ｓaying that Mikan, appearing ready, takes my penis in her mouth.
+意を決したようにみかんはそう言って、オレの肉棒を口にくわえた。
+Saying that Mikan, appearing ready, takes my penis in her mouth.
 
 ＠Mikan,A02039
 「ばぁくっ」
 
-#みかんの歯が、がつんと当たった…
-#SCRIPT ADD KANJI
-Ｍikan's tooth hit me, *gakun*
+みかんの歯が、がつんと当たった…
+Mikan's tooth strikes me.
 
-#「でぇぁ─────────っ！ちょおっ！？　みかん、みかん　歯は歯は立てるんじゃないっっ」
 ＠Itsuki
+「でぇぁ─────────っ！ちょおっ！？　みかん、みかん　歯は歯は立てるんじゃないっっ」
 「DEAHHH─────────っ！ Hol─!? Mikan, Mikan, tooth, tooth! You're not supposed put it to my thing!」
 
-#「…あ、そうなんだ…？？　あ、あれ…お兄ちゃんの…ちょっとしなしなのふにゃふにゃ…？？」
 ＠Mikan,A02040
-「...Ah, oh yeah that's right...?? H-huh... Onii-chan's... It's a little limp from being weak...??」
+「…あ、そうなんだ…？？　あ、あれ…お兄ちゃんの…ちょっとしなしなのふにゃふにゃ…？？」
+「...Ah, oh yeah that's right...?? H-huh... Onii-chan's... It's a little limp and weak...??」
 
-#「……、ちょ、ちょっとまってろ。立て直すから」
 ＠Itsuki
+「……、ちょ、ちょっとまってろ。立て直すから」
 「...... H-hold on a second. I have to regroup.」
 
-#オレは後をむいて肉棒を扱く。
-#SCRIPT ADD KANJI
-Ｉ turn the other way and work it with my hand.
+オレは後をむいて肉棒を扱く。
+I turn the other way and work it with my hand.
 
-#（まさか、いきなり噛まれるとは…。勢い余ったって感じだな…、最初に「そうっと」と言っておかなかったオレが、…いけなかったんだな…）
 ＠Itsuki
-（Ugh, being bitten all of a sudden...... That felt too energetic and vigorous..., I didn't tell her to be gentle in the beginning, ... bad idea...)
+（まさか、いきなり噛まれるとは…。勢い余ったって感じだな…、最初に「そうっと」と言っておかなかったオレが、…いけなかったんだな…）
+（Ugh, being bitten all of a sudden...... She got over-excited..., I didn't tell her to be gentle in the beginning, ... Bad idea...)
 
-#「…大丈夫？　お兄ちゃん…？？」
 ＠Mikan,A02041
+「…大丈夫？　お兄ちゃん…？？」
 「... Are you okay? Onii-chan...??」
 
-#みかんが心配そうにのぞき込んでいる。
-#SCRIPT ADD KANJI
-Ｍikan is peering in with a worried look.
+みかんが心配そうにのぞき込んでいる。
+Mikan is peering in with a worried look.
 
-#「だっ、大丈夫、大丈夫だ！　ほら！　元通り！！」
 ＠Itsuki
+「だっ、大丈夫、大丈夫だ！　ほら！　元通り！！」
 「Ah, I-I'm fine, I'm fine! See, look! Same as before!!」
 
-#「わあ、すごおい。ちゃんと元に戻ったね。よかった」
 ＠Mikan,A02042
-「わあ, wow. It restored perfectly. I'm so glad.」
+「わあ、すごおい。ちゃんと元に戻ったね。よかった」
+「Oh, wow. It restored perfectly. I'm so glad.」
 
-#「…いいか、みかん。『歯は立てない』、これは大原則だ。忘れるなよ？」
 ＠Itsuki
+「…いいか、みかん。『歯は立てない』、これは大原則だ。忘れるなよ？」
 「... Listen, Mikan. "I won't put my teeth to it" is a golden rule. Don't forget it, alright?」
 
-#「はい、みかん、わかったよ、お兄ちゃん」
 ＠Mikan,A02043
+「はい、みかん、わかったよ、お兄ちゃん」
 「Got it, Onii-chan.」
 
 
 #【02】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
-#「よぉし、じゃあ、さっきの続きから。…ゆっくりでいいから舐めてごらん…？？」
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 ＠Itsuki
+「よぉし、じゃあ、さっきの続きから。…ゆっくりでいいから舐めてごらん…？？」
 「Great. Then, from the top...... Can you please try to start nice and restfully...??」
 
-#「ゆっくりでいいから…。　ふぁめる……んちゅる…っ」
 ＠Mikan,A02044
+「ゆっくりでいいから…。　ふぁめる……んちゅる…っ」
 「Start nice and restfully...... ふぁめる……んちゅる…っ」
 
-#オレの肉棒の先を、ためらいを残しつつもみかんは舌をつける。
-#SCRIPT ADD KANJI
-Ｌeaving behind her faltering Mikan brings her tongue to the tip of my penis.
+オレの肉棒の先を、ためらいを残しつつもみかんは舌をつける。
+Leaving behind her faltering Mikan brings her tongue to the tip of my penis.
 
-#ぎこちない赤い舌がオレの肉棒に這っていく様は、どことなく淫靡でもある。
-#SCRIPT ADD KANJI
-Ｔhe way her clumsy red tongue slithers over my penis is somehow obscene.
+ぎこちない赤い舌がオレの肉棒に這っていく様は、どことなく淫靡でもある。
+The way her clumsy red tongue slithers over my penis is somehow obscene.
 
-#「もっと口に含んでごらん…？　そう、そうだ」
 ＠Itsuki
+「もっと口に含んでごらん…？　そう、そうだ」
 「Can you try to hold it in your mouth more...? Yeah, that's right.」
 
-#オレの言葉通り、みかんは亀頭部を口につるりと含む。
-#SCRIPT ADD KANJI
-Ｊust like I said, with a sliding motion Mikan holds part of the head in her mouth, *tsururi*
+オレの言葉通り、みかんは亀頭部を口につるりと含む。
+Just like I said, with a sliding motion Mikan holds part of the head in her mouth, *tsururi*
 
-#「んちゅ…れるぅ…っ、れるぅ…れろれろぅ……むぐぅ…ッ　んぅ…ッ　はぁ…ッ、はぁ…ッ。　こ、こんな感じでいい…？お兄ちゃん…？？」
 ＠Mikan,A02045
+「んちゅ…れるぅ…っ、れるぅ…れろれろぅ……むぐぅ…ッ　んぅ…ッ　はぁ…ッ、はぁ…ッ。　こ、こんな感じでいい…？お兄ちゃん…？？」
 「んちゅ…れるぅ…っ、れるぅ…れろれろぅ……むぐぅ…ッ　んぅ…ッ　はぁ…ッ、はぁ…ッ。 D-does it feel good like this...? Onii-chan...??」
 
-#「ああ、いいぞ。時々吸ったり口の中で舌を動かしたりしてみるんだ」
 ＠Itsuki
+「ああ、いいぞ。時々吸ったり口の中で舌を動かしたりしてみるんだ」
 「Ahh, it's good. Try and suck sometimes and move your tongue inside your mouth and stuff like that.」
 
-#オレの言葉通り、含んだ亀頭を吸い、舌を転がすように動かしている。
-#SCRIPT ADD KANJI
-Ｊust like I said, sucking on my head held in her mouth, she's moving and rolling her tongue.
+オレの言葉通り、含んだ亀頭を吸い、舌を転がすように動かしている。
+Just like I said, sucking on my head held in her mouth, she's moving and rolling her tongue.
 
-#「わ、わかったよ…　んく…ッ、れるら……うちゅる…くちゅちゅ…っ、んちゅるぅ……えぅるえうっ…ん…ん…っ、あれ…？」
 ＠Mikan,A02046
+「わ、わかったよ…　んく…ッ、れるら……うちゅる…くちゅちゅ…っ、んちゅるぅ……えぅるえうっ…ん…ん…っ、あれ…？」
 「I-I know what to do... んく…ッ、れるら……うちゅる…くちゅちゅ…っ、んちゅるぅ……えぅるえうっ…ん…ん…っ, huh...?」
 
-#「先っちょから、なんかぬるぬるしたものが出てきたよ…？」
 ＠Mikan,A02047
+「先っちょから、なんかぬるぬるしたものが出てきたよ…？」
 「Something slimy has been coming out from the tip...?」
 
-#「それはカウパー氏液、男は気持ちよくなるとそれがでてくるんだ」
 ＠Itsuki
+「それはカウパー氏液、男は気持ちよくなるとそれがでてくるんだ」
 「That's cowper's fluid, when a man feels good it comes out.」
 
-#「んん…っ、ふぉうなんら…っ、れる…れろれ……えるあ…っ、あう…、ヨダレが、みかんも…　ヨダレがこんなにたくさん出ちゃうよう…」
 ＠Mikan,A02048
+「んん…っ、ふぉうなんら…っ、れる…れろれ……えるあ…っ、あう…、ヨダレが、みかんも…　ヨダレがこんなにたくさん出ちゃうよう…」
 「んん…っ, is 'hat right...... っ、れる…れろれ……えるあ…っ、あう..., spit from Mikan too... so much spit is going out like this...」
 
-#「唾液が出れば出るほど、摩擦係数が上がって、される方は気持ちいいんだ」
 ＠Itsuki
+「唾液が出れば出るほど、摩擦係数が上がって、される方は気持ちいいんだ」
 「If saliva comes out, the coefficient of friction goes up and the way it's done feels better.」
 
-#「まさつけいすう…？　それはなに？」
 ＠Mikan,A02049
+「まさつけいすう…？　それはなに？」
 「Coefficient of friction...? What's dat?」
 
-#「………、ちょっと難しい話になるから、それはまた後で」
 ＠Itsuki
-「... ... ..., er, the explanation is a little difficult, let's come back to it later.」
+「………、ちょっと難しい話になるから、それはまた後で」
+「... ... ..., Er, the explanation is a little difficult, let's come back to it later.」
 
-#「さあヨダレの事は気にしないで…、そうだなむしろヨダレを塗りたくるような感じで続けてみろ、みかん」
 ＠Itsuki
+「さあヨダレの事は気にしないで…、そうだなむしろヨダレを塗りたくるような感じで続けてみろ、みかん」
 「Don't worry too much about the idea of spit...... Right, instead let's try to continue with a sense like you're painting it thickly, Mikan.」
 
-#「う、うん…わかったよ、お兄ちゃん。　んちゅるぅ、ちゅば…っ、ぢゅるうぅ……れる、れるぅ…っ、じゅぷん、くぷぅ」
 ＠Mikan,A02050
+「う、うん…わかったよ、お兄ちゃん。　んちゅるぅ、ちゅば…っ、ぢゅるうぅ……れる、れるぅ…っ、じゅぷん、くぷぅ」
 「う、うん... Got it, Onii-chan. んちゅるぅ、ちゅば…っ、ぢゅるうぅ……れる、れるぅ…っ、じゅぷん、くぷぅ」
 
-#「れるら…っ、れぁ…　んちゅっ　くちゅちゅ…っ、ぢゅぢゅんっぢゅん」
 ＠Mikan,A02051
 「れるら…っ、れぁ…　んちゅっ　くちゅちゅ…っ、ぢゅぢゅんっぢゅん」
+「れるら…っ、れぁ…　んちゅっ　くちゅちゅ…っ、ぢゅぢゅんっぢゅん」
 
-#唾液をたっぷり含みながら、それをオレに塗りたくるように舌が動く。
-#SCRIPT ADD KANJI
-Ｈolding plenty of spit, she moves her tongue to daub it around me.
+唾液をたっぷり含みながら、それをオレに塗りたくるように舌が動く。
+Holding plenty of spit, she moves her tongue to daub it around.
 
-#つたないながらも、オレに一生懸命奉仕しているみかん。
-#SCRIPT ADD KANJI
-Ａlthough only following, Mikan is serving me with utmost effort.
+つたないながらも、オレに一生懸命奉仕しているみかん。
+Although only following, Mikan is serving me with utmost effort.
 
-#それを考えただけでオレも熱くなってくる。
-#SCRIPT ADD KANJI
-Ｊust thinking about this I'm becoming hot too.
+それを考えただけでオレも熱くなってくる。
+Just thinking about this I'm becoming hot too.
 
-#「ちゅぷぅっ、くちゅる、れるるる……れらあっ、れるっ、れらっ……くちゅん、くゅちゅちゅ…っ。、き、キモチイイ？　お兄ちゃん…？？」
 ＠Mikan,A02052
+「ちゅぷぅっ、くちゅる、れるるる……れらあっ、れるっ、れらっ……くちゅん、くゅちゅちゅ…っ。、き、キモチイイ？　お兄ちゃん…？？」
 「ちゅぷぅっ、くちゅる、れるるる……れらあっ、れるっ、れらっ……くちゅん、くゅちゅちゅ…っ. D-does it feel good? Onii-chan...??」
 
 #【01】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
-#「うん、おおむね良し、と言うところだけど、ここだけじゃ単調になりがちなんだ。　今度はここ、竿の部分をしごきながらなめてみろ、みかん」
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
 ＠Itsuki
+「うん、おおむね良し、と言うところだけど、ここだけじゃ単調になりがちなんだ。　今度はここ、竿の部分をしごきながらなめてみろ、みかん」
 「Yeah, by and large it's pleasant but it does tend to get a tad boring. Next, go ahead and try to lick it while stroking a part of the rod, Mikan.」
 
-#「んぷぅ…っ、さお…さおの部分…。　ここをしごくって、どうやるの…？」
 ＠Mikan,A02053
+「んぷぅ…っ、さお…さおの部分…。　ここをしごくって、どうやるの…？」
 「んぷぅ…っ, A part... A part of the rod...... You want me to stroke it, how...?」
 
-#オレはみかんの手を取り、竿を握らせながら、上下に動かしてみせる。
-#SCRIPT ADD KANJI
-Ｔaking Mikan's hand, while making her grab hold of the rod, I try and make it move up and down.
+オレはみかんの手を取り、竿を握らせながら、上下に動かしてみせる。
+Taking Mikan's hand, while making her grab hold of the rod, I try and make it move up and down.
 
-#「扱くってのは、こんな感じかな。　強弱をつけながら扱くと、なおいいな。　…よし、やってごらん」
 ＠Itsuki
+「扱くってのは、こんな感じかな。　強弱をつけながら扱くと、なおいいな。　…よし、やってごらん」
 「The stroking kind of feels like this. If you stroke it while adding strength, it'll feel even better...... Give it a shot.」
 
-#「う、うん、わかった。やってみるね。　んちゅるっ　ぴちゅ…ぴちゅん…っ、れるぅ……くぷぅ…っはあ…っ、どう…お兄ちゃん…」
 ＠Mikan,A02054
+「う、うん、わかった。やってみるね。　んちゅるっ　ぴちゅ…ぴちゅん…っ、れるぅ……くぷぅ…っはあ…っ、どう…お兄ちゃん…」
 「う、うん, got it. I'll try and do it. んちゅるっ　ぴちゅ…ぴちゅん…っ、れるぅ……くぷぅ…っはあ…っ, how is it... Onii-chan...」
 
-#「そうだ、うまいぞみかん、言われた事をちゃんとやっているぞ。リズム良く、でも単調過ぎちゃイケナイ。　強弱をつけながら、な？」
 ＠Itsuki
+「そうだ、うまいぞみかん、言われた事をちゃんとやっているぞ。リズム良く、でも単調過ぎちゃイケナイ。　強弱をつけながら、な？」
 「That's right Mikan, very good. You're doing exactly as I said. The rythm is good, but you mustn't be too monotonous. While adding strength, right?」
 
-#「よかった…、じゃあ続けるね…？　じゅぷんっ、れるっ、ぷゅゅうんっ……ふぁっ、はあぁ…っ。　ぷくぅっ…っ、ぢゅんぢゅぢゅっ…ちゅぱんっ」
 ＠Mikan,A02055
+「よかった…、じゃあ続けるね…？　じゅぷんっ、れるっ、ぷゅゅうんっ……ふぁっ、はあぁ…っ。　ぷくぅっ…っ、ぢゅんぢゅぢゅっ…ちゅぱんっ」
 「That's fine..., then I'll continue, okay...? じゅぷんっ、れるっ、ぷゅゅうんっ……ふぁっ、はあぁ…っ。　ぷくぅっ…っ、ぢゅんぢゅぢゅっ…ちゅぱんっ」
 
 ＠Mikan,A02056
 「ちゅぷ…ちゅちゅぅ…　……ぷゅゅうんっ、ぷちゅんっ　ぢゅるうぅ……くちゅん」
 
-#竿を扱きながら、口での奉仕をみかんは続けている。
-#SCRIPT ADD KANJI
-Ｗhile stroking the rod, Mikan continues her mouth service.
+竿を扱きながら、口での奉仕をみかんは続けている。
+While stroking the rod, Mikan continues her mouth service.
 
-#亀頭をまだ幼いみかんの熱い舌でこすられるのは、技法以前に堪えられえないものがあるのも事実だ。
-#SCRIPT ADD KANJI
-Ｔhe truth is that even before the technique my head being rubbed by still childish Mikan's hot tongue was irresistible.
+亀頭をまだ幼いみかんの熱い舌でこすられるのは、技法以前に堪えられえないものがあるのも事実だ。
+The truth is that even before the technique my head being rubbed by still childish Mikan's hot tongue was irresistible.
 
-#「よおし、次は袋の方、なんだが…、ここは男の急所だからな。デリケートな場所だから、優しく揉み込むように触ってみるんだ」
 ＠Itsuki
-「Good good, next up is the sack but that's because... it's a man's tender spot. It's a delicate place, so touch and rub into it gently.」
+「よおし、次は袋の方、なんだが…、ここは男の急所だからな。デリケートな場所だから、優しく揉み込むように触ってみるんだ」
+「Good good, next up is the testicles but... it's a man's tender spot. It's a delicate place, so touch and rub into it gently.」
 
-#「ふぁ…ンッ、ひゅぅひょ…、やはひく、ふぁわる…」
 ＠Mikan,A02057
+「ふぁ…ンッ、ひゅぅひょ…、やはひく、ふぁわる…」
 「ふぁ…ンッ, henher hot..., hen'ly, huch...」
 
-#みかんの手がおずおずと陰嚢に伸びる。
-#SCRIPT ADD KANJI
-Ｍikan's arm tentatively extends to my scrotum, *ozu ozu*
+みかんの手がおずおずと陰嚢に伸びる。
+Mikan's arm tentatively extends to my scrotum.
 
-#小さな手が袋の部分を触り、中の睾丸を転がすように触っている。
-#SCRIPT ADD KANJI
-Ｈer little hand feeling a part of my sack, she's touching to roll the testicles around inside.
+小さな手が袋の部分を触り、中の睾丸を転がすように触っている。
+Her little hand feeling a part of my sack, she's touching to roll the testicles around inside.
 
-#「じゅぷっ、ちゅちゅっ……んちゅっ、んぽっ、ころころが二つ…、みかんの手の中…。お兄ちゃんどうかな…、みかんうまくやれてるかな…」
 ＠Mikan,A02058
+「じゅぷっ、ちゅちゅっ……んちゅっ、んぽっ、ころころが二つ…、みかんの手の中…。お兄ちゃんどうかな…、みかんうまくやれてるかな…」
 「じゅぷっ、ちゅちゅっ……んちゅっ、んぽっ, there's two things rolling around..., inside my hand...... Onii-chan how is it..., is Mikan doing well...」
 
-#「ああ、大丈夫、初めてにしちゃ上出来だ…」
 ＠Itsuki
+「ああ、大丈夫、初めてにしちゃ上出来だ…」
 「Ahh, it's fine, a good performance for your first time...」
 
-#（とはいうものの…だんだん余裕が無くなってきたな…）
 ＠Itsuki
+（とはいうものの…だんだん余裕が無くなってきたな…）
 （Having said that... my composure is gradually fading...）
 
 #【02】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
-#「よかった　みかんがんばるね…　んん…っ、れるぅ…くちゅる…っ　れろれろぅ……ぷちゅんっ……ちゅちゅく…っ、くちゅううっ…、ぢゅるぅ」
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 ＠Mikan,A02059
-「Good, Mikan will keep doing her best... んん…っ、れるぅ…くちゅる…っ　れろれろぅ……ぷちゅんっ……ちゅちゅく…っ、くちゅううっ…、ぢゅるぅ」
+「よかった　みかんがんばるね…　んん…っ、れるぅ…くちゅる…っ　れろれろぅ……ぷちゅんっ……ちゅちゅく…っ、くちゅううっ…、ぢゅるぅ」
+「Good, I'll do my best... んん…っ、れるぅ…くちゅる…っ　れろれろぅ……ぷちゅんっ……ちゅちゅく…っ、くちゅううっ…、ぢゅるぅ」
 
-#「みかんは…筋が…いいな…。なんだかみかんに呑み込まれそうになってきたよ…」
 ＠Itsuki
+「みかんは…筋が…いいな…。なんだかみかんに呑み込まれそうになってきたよ…」
 「Mikan... that's... a good plan...... Somehow it seems you're really catching on...」
 
-#「ちゅぷぷぷん、くちゅる……んぷぅっ　くぽんっ　ほ、本当に…？　みかんうれしいな…、ふぇらちおがんばるからね…っ」
 ＠Mikan,A02060
+「ちゅぷぷぷん、くちゅる……んぷぅっ　くぽんっ　ほ、本当に…？　みかんうれしいな…、ふぇらちおがんばるからね…っ」
 「ちゅぷぷぷん、くちゅる……んぷぅっ　Real-, r-really...? Mikan's so happy..., from doing my best at fellatio...」
 
 ＠Mikan,A02061
 「くぷりっ…ちゅぷん、ぷぁあっ、はぁっ…ん、んくぅ…ぢゅるぅ」
 
-#（うお、こ、これは…っ）
 ＠Itsuki
-（whoa, t-this is...）
-%carriage_return
-
-#徐々に慣れてきたのか、みかんが積極的に舌を動かしている。
-#SCRIPT ADD KANJI
-Ｈas she slowly been getting used to it? Mikan is assertively moving her tongue.
+（うお、こ、これは…っ）
+（Whoa, t-this is...）
+　
+徐々に慣れてきたのか、みかんが積極的に舌を動かしている。
+Has she slowly been getting used to it? Mikan is assertively moving her tongue.
 
 ＠Mikan,A02062
 「ぢゅぁあっ……ぢゅるぅ　…くちゅっ……ちゅぷぅっ、ぴちゅう…ぴちゃあっ　くゅちゅ…っ」
 
-#「ぢゅぷぅ、くちゅうぅぅっ　ほにぃひゃぁん…っ、どお…っ？　ひかん、りょうるにれきてるぅぅ？　ちゅるうっ、ちゅるるるる……っ、ぢゅるぅる」
 ＠Mikan,A02063
+「ぢゅぷぅ、くちゅうぅぅっ　ほにぃひゃぁん…っ、どお…っ？　ひかん、りょうるにれきてるぅぅ？　ちゅるうっ、ちゅるるるる……っ、ぢゅるぅる」
 「ぢゅぷぅ、くちゅうぅぅっ　honii-han..., how is it...? is hikan afle to roo it good, hetter han anyone? ちゅるうっ、ちゅるるるる……っ、ぢゅるぅる」
 
-#「あ、ああ…、とっても上手だ。　とっても上手だよ、みかん」
 ＠Itsuki
+「あ、ああ…、とっても上手だ。　とっても上手だよ、みかん」
 「Ah, ahh..., it's very skillful. You're very talented, Mikan.」
 
-#みかんに呑み込まれそうになる、そう思うのは嘘じゃなかった。
-#SCRIPT ADD KANJI
-Ｍikan's catching on quickly, thinking that wasn't wrong.
+みかんに呑み込まれそうになる、そう思うのは嘘じゃなかった。
+Mikan's catching on quickly, thinking that wasn't wrong.
 
-#実のところオレはそう言うのが精一杯で、断続的に襲ってくる放射感を抑えるのに必死だったからだ。
-#SCRIPT ADD KANJI
-Ａs a matter of fact I've been saying these things because I've just barely been able to suppress the sense of coming sweeping in.
+実のところオレはそう言うのが精一杯で、断続的に襲ってくる放射感を抑えるのに必死だったからだ。
+As a matter of fact I've been saying these things because I've just barely been able to suppress the climax sweeping in.
 
-#「ぢゅりぅ、ぢゅぢゅうぅ……、ふぉ兄ちゃん…、ふぉ兄ちゃんのおひんひん…、ぷはぁっ、はぁっ…、つぷん……っ、ちゅちゅぢゅっ」
 ＠Mikan,A02064
+「ぢゅりぅ、ぢゅぢゅうぅ……、ふぉ兄ちゃん…、ふぉ兄ちゃんのおひんひん…、ぷはぁっ、はぁっ…、つぷん……っ、ちゅちゅぢゅっ」
 「ぢゅりぅ、ぢゅぢゅうぅ...... Fonii-han..., fonii-han's ohinhin..., ぷはぁっ、はぁっ…、つぷん……っ、ちゅちゅぢゅっ」
 
 ＠Mikan,A02065
 「んぅ…っんちゅ……、ぢゅぢうぅ……ちゅぷぅ…　ぷはぁっ、はぁ…っ、はぁ…ッはぁっ…ん…っ、くぷんっ」
 
-#（やばいぞ…そろそろ抑えきれなくなってきた…っ）
 ＠Itsuki
+（やばいぞ…そろそろ抑えきれなくなってきた…っ）
 （Shit, shit... It's steadily been getting uncontrollable...）
 
-#「んちゅ…れるぅ…っ、んぅ…ッ　はぁ…ッ、ん…っ、れるぅ………ぷちゅんっ……ちゅちゅく…っ、ふぁぁっ…。　みかんが…お兄ちゃんを気持ちよくする……」
 ＠Mikan,A02066
+「んちゅ…れるぅ…っ、んぅ…ッ　はぁ…ッ、ん…っ、れるぅ………ぷちゅんっ……ちゅちゅく…っ、ふぁぁっ…。　みかんが…お兄ちゃんを気持ちよくする……」
 「んちゅ…れるぅ…っ、んぅ…ッ　はぁ…ッ、ん…っ、れるぅ………ぷちゅんっ……ちゅちゅく…っ、ふぁぁっ...... Mikan... is making Onii-chan feel good......」
 
 ＠Mikan,A02067
 「ぷちゅんっ、ぴちょ…ぴちゅん……れろれろぅ…　…くちゅううっ…　ちゅるうっ、ちゅるちゅる……っちゅぷぷうん」
 
-#みかんが強く亀頭を啜ったその時だった。
-#SCRIPT ADD KANJI
-Ａt that moment Mikan slurped my head strongly.
+みかんが強く亀頭を啜ったその時だった。
+At that moment Mikan slurped my head strongly.
 
-#オレの脳天にもうすでに抑えられない強烈な稲妻が一筋走っていく。
-#SCRIPT ADD KANJI
-Ｔoo late, an intense flash of light which wasn't suppressed courses through to the crown of my head.
+オレの脳天にもうすでに抑えられない強烈な稲妻が一筋走っていく。
+Too late, an intense flash of light which wasn't suppressed courses through to the crown of my head.
 
-#(that line was anal. fuck)
-
-#「うぐぅ…ッ」
 ＠Itsuki
+「うぐぅ…ッ」
 「Uguh...!」
 
 
@@ -515,6 +486,7 @@ return
 
 
 # みかんフェラチオ調教一段階目 ###################################################
+# Mikan fellatio training grade 1 ###################################################
 label	training_mikan_fellatio_02
 
 @training_anime_release
@@ -524,139 +496,187 @@ scene_start	"みかんフェラチオ調教２"
 
 
 #【00】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-00.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-00.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-00.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-00.png"
 前回と同じく、神妙な顔つきの全裸のみかんが、やはりベッドに正座をしている。
+Like last time, Mikan is kneeling on the bed naked with a meek expression on her face.
 
-＠Mikan,A02068
+＠Mikzn,A02068
 「えっと…、よろしくお願いいたします、お兄ちゃん…」
+「Umm..., I look forward to training with you, Onii-chan...」
 
 多少緊張しているのか。
+I guess she's a little nervous.
 
 男のモノをくわえる事に、少なからず抵抗がのこっているのかもしれない。
+Perhaps she has a good deal of repulsion still left to holding a man's dick in her mouth.
 
 ＠Itsuki
 「よろしく、みかん。　そんなに堅くなるな、緊張するとかえってうまくいかなくなるぞ」
+「You too, Mikan. Don't be so stiff, if you're tense the guests will leave and we won't succeed.」
 
 ＠Mikan,A02069
 「う、うん…、そうだよね。　わかっているんだけど……」
+「O-Okay..., you're right. I know that though......」
 
 視線を反らし、もじもじと体を動かすみかんに、オレはつとめて優しく言った。
+I admonished Mikan as gently as I could; she averts her gaze and starts moving her body. 
 
 ＠Itsuki
 「こっちを向け、みかん。　なにもとって食おうって訳じゃない。　前回やった事、覚えているか？」
+「This way, Mikan. I don't mean you have to screw and take anything. Do you remember last time?」
 
 ＠Mikan,A02070
 「う、うん、フェラチオ…だよね。　覚えているよ、…お、おちんちんを舐めて、えっと、サオを上下に動かしながら握って、タマタマを触った、です」
+「Y-Yeah, fellatio... right? I remember... I lick your ochinchin, and um, hold it while moving up and down on the rod, and touch your testicles...」
 
 ＠Mikan,A02071
 「タマタマは急所でデリケートだから優しく。　だよね？」
+「Testicles are the vital spot and delicate, so gently, right?」
 
 ＠Itsuki
 「そう、正解。　みかんはのみこみが早いな　今回はその復習をします。　前回やった事を思い出しながらフェラチオ、…できるか？」
+「Right. It's too early for you to drink it, this time will just be a review. Can you do the fellatio keeping in mind what you learned last time?」
 
 みかんは一瞬目を瞬かせて、それからこくりと頷いた。
+Mikan blinks for a moment and then nods.
 
 ＠Mikan,A02072
 「出来るよ…　みかん、一生懸命やるからね、お兄ちゃん」
+「I can...... I'll put my best effort into it, Onii-chan.」
 
 ＠Itsuki
 「そう　その意気だ、みかん　…前回はもうオレが勃起させた状態で舐めたけど、今回はみかんがオレを勃起させてごらん」
+「Right, that's the spirit, Mikan... Last time when you licked I already made it erect, but this time could you try and make it erect for me?」
 
 オレは股間のモノを指さしてみかんに言う。
+I tell Mikan pointing at the dick between my legs.
 
 ＠Mikan,A02073
 「ふぇ　ふぇえええ　みかんがやるの？　…ど、…どうしよう、できるかな…」
+「ふぇ　ふぇえええ　I'm going to do it? ... W-... What do I do, I wonder if I can...」
 
 ＠Itsuki
 「大丈夫、ちゃんと言われた通りにやればいいんだよ。　もう半分勃ってるから簡単だ、それにオレがちゃんと教えてやるから」
+「It's fine, if you do it like you said it'll be fine. It's already halfway so it'll be easy, and besides I'll tell you exactly what to do.」
 
 ＠Mikan,A02074
 「わ、わかった、お兄ちゃん。　ええと、まずどうすれば…」
+「A-All right, Onii-chan. Umm, what should I do first...」
 
 みかんは四つんばいになると、オレの股間に顔を寄せる。
+Going on all fours, Mikan brings her face close to my crotch.
 
 ＠Itsuki
 「まずは竿を握ってみろ、上下に扱きながら…リズミカルな。そう、上手いぞみかん」
+「First grab the rod and move up and down... rythmically you know. Right, you're doing great, Mikan.」
 
 半勃ちになったオレの肉棒をみかんの小さな手が扱き始める。
+Mikan starts drawing my half-erect penis through her little hand.
 
 ＠Mikan,A02075
 「ふぁぁぁ…、どんどん大きくなってくぅ…っ、熱くて…っ、どんどんカタくなっていくよぉ…」
+「Fahhh..., It's getting bigger steadily..., It's hot..., and it's getting harder steadily...」
 
 前回の事を忘れていなかったらしい、強弱をつけ、単調にならないようにみかんは一生懸命手を動かしている。
+Adding strength, Mikan moves with her best effort so that it doesn't become monotonous; it looks like she hasn't forgotten.
 
 ＠Itsuki
 「タマの方も触ってみろ…、優しく、な？」
+「Try touching my testicles too... gently eh?」
 
 ＠Mikan,A02076
 「う、うん。　わかった」
+「A-All right.」
 
 みかんが陰嚢に手を伸ばし、やわやわとオレの睾丸を手で転がしている。
+Reaching out her hand to my scrotum, softly she's rolling my testicles around.
 
 ＠Mikan,A02077
 「すごいよぉ…、お兄ちゃんのおちんちんがどんどん大きくなって…っ」
+「Wow..., Onii-chan's ochinchin is steadily getting bigger...」
 
 何度も見ている筈なのだが、勃起の過程を見るのは初めてだったようだ。
+It's like she's seeing the process of getting erect for the first time despite how much she's seen it.
 
 びっくりしたようにみかんが言う。
+Mikan says that like she's amazed.
 
 ＠Itsuki
 「よぉしストップだ、みかん。　みかんは上手いな、完全に勃起したぞ」
+「All right, that's enough, Mikan. That was skillful, it's perfectly erect.」
 
 ＠Mikan,A02078
 「えへへ…、そうかな…？　一生懸命やったからかな…？」
+「Ehehe..., It was wasn't it...? I wonder if it's because I tried so hard...?」
 
-＠Itsuki
+＠樹
 「そう、その一生懸命が大事なんだ。　なんでもそうなんだが…、一生懸命やってくれる、それがお客さんは一番喜ぶ事なんだよ」
+「It is, trying hard is really important in whatever you're doing..., always put all your effort in, that'll please the customer the most.」
 
 ＠Mikan,A02079
 「うん、わかった。　みかん一生懸命やるね、お兄ちゃん、よろしくお願いします」
+「All right. I'll try as hard as I can, Onii-chan, let's do well.」
+#i don't really understand the yoroshiku onegaishimasu.
 
 #【01】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
 
 ＠Mikan,A02080
 「お兄ちゃんのおちんちん……、ちゅぷ…ちゅ、ちゅぅ…」
+「Onii-chan's ochinchin......, ちゅぷ…ちゅ、ちゅぅ…」
 
 みかんの小さな舌がオレの肉棒を這っていく。
+Mikan's little tongue slithers over my penis.
 
 カリの下から亀頭の方へ、鈴口に達した舌がぴくんと反応した。
+From just underneath the head going up, when her tongue reaches the hole it quivers for a moment.
 
 ＠Mikan,A02081
 「るれる…、れろ…ちゅぷっ　…くちゅん、くゅちゅ……にちゅぅ……くぽんっ　…ああ、おちんちんの先から透明な液が…出てきたよ…」
+「るれる…、れろ…ちゅぷっ　…くちゅん、くゅちゅ……にちゅぅ……くぽんっ　... Ahh, a clear liquid is coming out of the tip...」
 
 ＠Itsuki
 「そうだな、気持ちいいからな」
+「Right, because it feels good.」
 
 ＠Mikan,A02082
 「もっとみかんも濡らしてみるね…くぷんっ」
+「I'll try and get it wetter too... くぷんっ」
 
 みかんは唾液をためるようにして舌に乗せ、それをオレの亀頭に塗りたくる。
+Mikan saves up saliva and placing it on her tongue, smears it over the head.
 
 ぬるぬるになったオレの亀頭をみかんの舌が這っていく。
+Her tongue slithers over the now slimy head.
 
 ＠Mikan,A02083
 「じゅぷっ、んぽっ、ちゅちゅっ……んちゅっ　くちゅちゅ…っ、れるら…っ　…うちゅるちゅる……っ」
 
 みかんは大がつくほど素直な子だ。
+Mikan has been obedient so she's learned a lot.
 
 素直に教えられた知識を、復習するように繰り返していく。
+She's repeating and reviewing what she learned without fuss last time.
 
 ＠Mikan,A02084
 「んん…っ、れるぅ…ぷちゅんっ　はぁ…っ、ふぁ…っ　ぽちゅっ　……ちゅく…っ、くちゅぅううっ…」
 
 ＠Itsuki
 「みかん、手の方も動かしてごらん、舐める事に集中し過ぎて、手がお留守になってるぞ」
+「Mikan, make sure to move your hand too. You're paying too much attention to licking and forgetting about your hand.」
 
 ＠Mikan,A02085
 「ふぁ、ふぁい…　ふぁかった、ふぉ兄ひゃん…　ぢゅるっ、ぢゅぢゅっ、んく…っ　んあ…　れりゅらっ、れりゅっ」
+「Oh, oh yeah... All hight, fonii-han... ぢゅるっ、ぢゅぢゅっ、んく…っ　んあ…　れりゅらっ、れりゅっ」
 
 舌の動きに手の動きが加わり、みかんのフェラチオが、急激に深いものに変わっていく。
+Her hand joining in with her tongue, Mikan's fellatio suddenly starts meaning business.
 
 ＠Itsuki
 「いいぞみかん、その調子だ。なかなか良くできてる」
+「That's good, that's the way, Mikan. You can do it quite well.」
 
 ＠Mikan,A02086
 「んん…っ　ふぁいっ　ぷぁあっ、はぁっ…くぷっ…ちゅぷっ　んぷちゅんっ……んくぅ…くちゅううっ…」
@@ -666,110 +686,145 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
 
 ＠Itsuki
 「どうしたみかん、疲れてきたか？」
+「How is it Mikan, have you been getting tired?」
 
 苦しそうな息つぎにそう声をかける。
+During breathing spells with a pained look she gasps like that.
 
 すると即座に首を振りながらみかんは言った。
+Immediately Mikan shook her head and said:
 
 ＠Mikan,A02088
 「らいりょうぶぅ…っ　みかん、いっひょうひぇんめいひゃるのぅ…っ　はぁっ…ん、くぷんっ…ちゅぷぅ…　ぢゅぁあっ……ぢゅるぅ」
+「I' fine... I' hoin' to roo my ahoru' hest... はぁっ…ん、くぷんっ…ちゅぷぅ…　ぢゅぁあっ……ぢゅるぅ」
 
 この子はこの子なりの一生懸命さで、オレにつくそうとしてくれている。
+This child with her way of trying hard is trying devote herself to me.
 
 そう思うと胸が熱い。
+When I think that my chest gets hot.
 
 オレは俺自身をくわえている、みかんの頭を撫でる。
+I stroke Mikan's head who's holding me in her mouth.
 
 ＠Itsuki
 「いいぞ、みかん。　その調子だ…おれもだいぶいい感じに気持ちよくなってきた…」
+「It's good, Mikan, that's the way... I'm fine too, a good feeling is sweeping over me...」
 
 ＠Mikan,A02089
 「ふぉひいひゃん…、ほふぉひぃひゃんのおひんひん…っ　みかんれきもちヨクなっひぇ…　ふぉっときもちヨクなってぇぇぇ」
+「Fohii-han..., your ohinhin... fee' good 'rom Mikan... fee' muh befaaa...」
 
 ＠Mikan,A02090
 「…ちゅぷぷうんっ、れるぅ……ぷゅゅうんっ……　ぷちゅんっ…ふぁっ、はあぁ…っ、ふぅ…っ　れるっ、れるるる……」
 
 オレの肉棒を扱く手が、教えられた通り、強弱をつけ上下に動く。
+She draws my penis through her hand, and moves up and down adding strength like she was taught.
 
 それに合わせるようにみかんの舌も、拙いながらに徐々に男のイイ場所へのコツを覚えてきたかのように動いた。
+Also Mikan's tongue, though clumsy, like she's slowly getting the hang of reaching a man's sweet spot moved bringing them together. 
 
 ＠Mikan,A02091
 「ちゅぷぅっ、ぴちゅ…ぴちゅん…っ　…くちゅっ……れらあっ、れらるっ　…くゅちゅちゅ…っ、んちゅるっ」
 
 ＠Mikan,A02092
 「んぱぁっ　はぁ…っ、はぁ…っ　ど、どう…？お兄ちゃん…？イ、イけそう、かなぁ…？」
+「んぱぁっ　はぁ…っ、はぁ…っ　H-How is it...? Onii-chan...? It looks like it'll be able to come...?」
 
 ＠Itsuki
 「そうだな、なかなかいいけど、まだまだだ」
-
+「Yes, it's quite good, but there's still a ways to go.」
 
 ＠Itsuki
 「でもみかんが一生懸命しているのがわかるから、とても気持ちがいいよ。　どうだ？　まだがんばれるか？」
+「But since Mikan is trying is so hard it makes it feels so much better. How is it? Still hanging in there?」
 
 ＠Mikan,A02093
 「…　うん　みかんまだまだがんばれるよ　お兄ちゃん、いっぱい、いっぱい、みかんで気持ちよくなってね…　ぢゅぷんっ　ちゅぱんっ」
+「... Yeah, I'll be good for much more. Onii-chan, feel good from Mikan lots and lots... ぢゅぷんっ　ちゅぱんっ」
 
 快楽の刺激がオレの脳を刺激し、オレはその刺激を逃がすように息を吐く。
+Pleasure stimulating my mind, I exhale letting it loose.
 
 みかんの舌は、まるで別の生き物のようにオレの肉棒に絡み、官能を喚起させていく。
+Mikan's tongue encircling my penis like it has a life of its own, it's inciting my arousal.
 
 ＠Mikan,A02094
 「んちゅる…っ　ちゅゅば…っ、ちゅぷぷうんっ……れるるる　んぢゅっ、ちゅちゅる…　ぴちゅ…ぴちょぅ…っ、ぢゅぢゅっ…ぷゅゅうんっ…」
 
 ＠Mikan,A02095
 「れるぅ…んちゅ…れろぅ…っ　んぢゅるうぅ…っ、くぷぅ…っ　ねらぁ…っ、ねろぅ…っ　ふぉにいちゃんの…カタイおひんひん…っ、みかん、がぁ…っ」
+「れるぅ…んちゅ…れろぅ…っ　んぢゅるうぅ…っ、くぷぅ…っ　ねらぁ…っ、ねろぅ…っ　Fonii-chan's... hard ochinchin..., Mikan, is...」
 
 #【02】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 
 ＠Mikan,A02096
 「ちゅぷぅっ、れるっ、くちゅぱんっ　くゅちゅ…っ　んぢゅく…っ、っれらあっ…　ふぁぁあっ、くぷんっ　ぢゅる、ぢゅらっ、……うちゅる…、れるらぁっ」
 
 一生懸命奉仕しているみかん、その姿をみて、オレは少々の悪戯心が芽生えてきた。
+Seeing the figure of Mikan putting all her effort into the service, a little teasing spirit has been sprouting in me.
 
 ＠Mikan,A02097
 「んん…っ、ちゅる…っ　……ぢゅぱぁっ、れりゅらぁ　……？　くぱん　お、お兄ちゃん？」
+「んん…っ、ちゅる…っ　……ぢゅぱぁっ、れりゅらぁ　……？　くぱん　O-Onii-chan?」
 
 オレはみかんの小さな胸の先を摘んでいる。
+I'm pinching the tip of Mikan's little breast.
 
 それを転がし、オレは小さな胸の感触を楽しんだ。
+Twisting it around, I enjoyed myself feeling it.
 
 ＠Itsuki
 「みかんの胸はちっちゃいけど、ちゃんと柔らかくて気持ちがいいな……」
+「Mikan's breast is tiny, but it's so soft and feels good......」
 
 ＠Itsuki
 「ほら、どうした？　手も口もお留守になっちゃってるぞ？」
+「Hey, what's wrong? Your hand and mouth are away from home.」
 
 ＠Mikan,A02098
 「ふあぁあんっ　やぁんっ　そんなところ触れていたらこっちに集中できなくなっちゃうぅ…」
+「ふあぁあんっ　やぁんっ　If you touch me there I won't be able to concentrate here...」
 
 ＠Itsuki
 「それを集中するのがプロの仕事ってもんだぞ？　みかんはフェラチオのプロになるんだからな…？　ほら、ちゃんとくわえて。　手も動かす」
+「Concentrating on it is the work of a pro isn't it? So Mikan's fellatio will become that of a pro. Look, put it in your mouth and move your hand.」
 
 ＠Mikan,A02099
 「お兄ちゃんのいじわるぅ…　わかったもん、みかんのお口でお兄ちゃんをいっぱいいっぱい気持ちよくしてシャセイさせちゃうんだから…っ」
+「Onii-chan you're so mean... All right, I'm supposed to make Onii-chan feel good lots and lots with Mikan's mouth and make you ejaculate...」
 
 ＠Mikan,A02100
 「んう゛～～　ぢゅん、ぢゅるっ、……んちゅ　…れろらるぅ…っ　きもちヨクなっひゃえ　おひぃちゃんきもちヨクなっちゃえ」
+「んう゛～～　ぢゅん、ぢゅるっ、……んちゅ　…れろらるぅ…っ　Feel goo' all the way, Ohii-chan, feel good to the end.」
 
 みかんはどうやら意地になってしまったようだ。
+It looks like Mikan one way or another has become strong-willed.
 
 だがオレもむざむざとイかされる訳にはいかない。
+However it's also impossible for me to sit here and be helplessly made to come.
 
 空いたもう一方の手で、みかんのおまんこを弄りはじめる。
+I start to touch Mikan's omanko with my free hand.
 
 ＠Mikan,A02100a
-「　ひゃぁっ　む、むぐぅ～～　ぢゅりぅ、ぢゅうぅ……っっ　えるあ…っ、……うぢゅるっ　負けひゃいもん　負けひゃいもん」
+「ひゃぁっ　む、むぐぅ～～　ぢゅりぅ、ぢゅうぅ……っっ　えるあ…っ、……うぢゅるっ　負けひゃいもん　負けひゃいもん」
+「ひゃぁっ　む、むぐぅ～～　ぢゅりぅ、ぢゅうぅ……っっ　えるあ…っ、……うぢゅるっ　I won't lose, I won't lose.」
 
 みかんのおまんこはもうすっかり濡れ濡れだ。
+Mikan's omanko is already completely wet.
 
 俺の指を難なく飲み込み、しっとりと絡みついてくる。
+Easily swallowing up my finger, it's gently twining around.
 
 ＠Itsuki
 「いやらしい子だな、みかんは…。　口に咥えているだけで、もうこんなに濡らしてるなんてな…？」
+「You're a perverted child aren't you, Mikan...... Only by putting it in your mouth you're already this wet...?」
 
 みかんのおまんこの中をオレの指が行ったり来たりする度に、びくびくとその背が揺れる。
+Every time my finger goes to and fro in Mikan's omanko, her back sways and jolts.
 
 ＠Mikan,A02101
 「～～～～～っ　ぷちゅうんっ、ちゅるちゅるるるるん……っ　ぢゅぶっ、ぢゅぢゅぢゅっ　ぴちっ　ぴちゅん」
@@ -778,44 +833,60 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 「……れるれろぅ…　…くちゅううん…　ぢゅばっ、ぢゅるうっ　ちゅちゅっ……くぷぷうん」
 
 みかんのフェラチオに一層の熱がこもる。
+Mikan putting still more heat into the fellatio worries me.
 
 どうしてもオレをイかしてやる、という気で満々なのが見え見えだ。
+Her brimming motivation to make me come is obvious.
 
 ＠Itsuki
 「そうだな…、競争するか？　みかんが先にイくか、オレが先にイくか？　その方が面白いだろう？」
+「Right..., shall we have a contest as to who can make who come first? Sound amusing?」
 
 ぶんぶん、とみかんは首を否定に振るが、俺の手はみかんのおまんこを本格的に弄りだしている。
+Mikan shakes her head against it *bun bun*, but my hand starts feeling up her omanko in earnest anyway.
 
 ＠Itsuki
 「ほらほら、もっと一生懸命舐めないと、先にイかされるぞ？」
+「Ahh look look, if you don't lick even harder, you might be made to come first?」
 
 ＠Itsuki
 「オレを口でイかせるのが今日の調教の目的だ。みかんが先にイくと、ちょっと目的からはずれちまうな？　どうする、みかん」
+「Making me come with your mouth is the goal of today's training. If you come first, it'll be slightly off the mark eh? What are you going to do, Mikan.」
 
 ＠Mikan,A02103
 「～～～～～～　ふぉにぃひゃんに先にイってもらうもん　みかん、がんばるんらからぁ…」
+「～～～～～～　I'll roo my best, so Onii-chan will 'ome first...」
 
 ＠Itsuki
 「ようし、その意気だ。　がんばれ、みかん」
+「All right, that's the spirit. Do your best, Mikan.」
 
 ＠Mikan,A02104
 「んぅ…ッ　むぐぅ…ッ　れるれるぅ…　えぅるぅえうっ…、くちゅぱっ……んく…ッ、ちゅば…っ」
 
 ＠Mikan,A02105
 「れるるる……ふぁんっ？　ひゃぁん　…んくぅ…　がんばるぅ…　んちゅるぅ……っ、ぷちゅんっ」
+「れるるる……ふぁんっ？　ひゃぁん　…んくぅ... Keep at it... んちゅるぅ……っ、ぷちゅんっ」
 
 オレの指がクリトリスの付近を触ったり、胸の先を指で転がすと、その度悲鳴のような高いみかんの声が跳ねる。
+Touching in the vicinity of Mikan's clitoris, when I twist her nipple with my finger, Mikan's voice leaps up like a shriek.
 
 それが割と楽しい事とオレはみかんの体を弄り回していたが、そのうち実は徐々に余裕が無くなってきていたのに気がついた。
+To that extent my amusement rising I feel up Mikan's body, but eventually I perceived that in reality my composure was fading.
 
 ＠Itsuki
 （ヤバイな…遊びすぎたか…？　それにしてもだいぶ上達してきたんだな、えらいぞ、みかん）
+（Shit... maybe I played too much...? Even so you've been improving a lot. Impressive, Mikan. ）
 
 なんて、褒めてる場合じゃない。
+Still, I can't praise her for this.
 
 みかんの成長を甘く見ていたかもしれない。
+Maybe I underestimated her maturity.
+#Literally: maybe I viewed her growth softly/naively
 
 オレは今、確実にみかんに追い詰められはじめていた。
+I'm most definitely being driven to the wall by her now.
 
 ＠Mikan,A02106
 「ふむうっ、ふちゅるんっ　ぢゅるうぅ……くちゅん　くぷりっ…ぢゅぷぅ　…はぁ…ッ、はぁ…ッ　ぷぱっ、ぢゅぷぅ、ぷちゅんっ」
@@ -825,52 +896,68 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 
 ＠Itsuki
 「…っ　すごいな、みかん、すごい追い上げだな　でもオレも負けないぞ？」
+「... Amazing, Mikan, you're putting lots of pressure on me, but I won't lose either.」
 
 クリトリスと同時に膣にも指を抜き差しし始めると、みかんの体が大きく跳ね上がった。
+When I start pressing my finger back and forth simultaneously in her slit and on her clitoris, Mikan's body jolted up.
 
 ＠Mikan,A02108
 「…くぽんっ、ふひぃぃぃんっ　んんぁ…っ、んあぅ…っっ　ん、ん～～～　負けふぁいっ　負けふぁいっ」
+「…くぽんっ、ふひぃぃぃんっ　んんぁ…っ、んあぅ…っっ　ん、ん～～～　I won't lose, I won't lose.」
 
 ＠Mikan,A02109
 「じゅぷんっ　れるら　れらあっ、くゅちゅん　にぢゅぢゅぢゅ～　んぱぁっ　はぁっ、はぁっ　んちゅっ」
 
 フェラチオの調教の筈が、何かの運動会のようになってきた。
+The time for fellatio training has become like an athletic meet for something.
 
 オレはみかんにイかされる前にみかんをイかそうとし、みかんはオレにイかされそうになる前にオレをイかそうとしている。
+I'm trying to get Mikan to come before I'm made to come, and Mikan is trying to get me to come before it looks like she's been made to come.
 
-このおかしな競争に苦笑いを浮かべながら、オレは徐々に高みに追いやられていく自分に気がついていた。
+このおかしな競争に苦笑いを浮かべながら、オレは徐々に高みに追いやら れていく自分に気がついていた。
+I floated a bitter smile at this ridiculous contest, while I perceived myself gradually being pushed to the edge.
 
 ＠Itsuki
 「はは…みかん、上手くなってるぞ…、…ッ、オレも負ける気はないが…、ちょっとヤバいかな…？」
+「Haha... Mikan, you're getting really good at this...... I don't feel like losing either though... it's kind of messed up isn't it...?」
 
 ＠Mikan,A02110
 「んん…っ、みかんもぉ…っ、イきひょうにらってきひゃったよぉ…　…れも…っ、負けふぁいっ」
+「んん…っ, Me too..., I' also been fee'ing like I' hoin' to come...... But..., I won' roose.」
 
 ＠Mikan,A02111
 「くぁぁぁあん…っ　くはっ、くぷうっ　ちゅぷぷぷんっ、んくぁ…ぢゅるるぅ　ぢゅぷん、ぢゅるぁっ、んんぢゅくぅ」
 
 みかんのフェラチオはますます熱がこもってくる。
+It's getting stuffy with steaming heat from Mikan's fellatio.
 
 気迫でオレは負けてるな、なんて頭のどこか隅に思いながら、熱いみかんの舌が容赦なくオレを確実に追い詰めはじめていた。
+In terms of passion I'm losing, I think in some small corner left of my mind; Mikan's hot tongue mercilessly cornered me.
 
 ＠Mikan,A02112
 「んぷぅっ　んぽっ、…ぢゅるぅ　くちゅうぅぅっ　んぢゅっ、ちゅちゅる…」
 
 ＠Itsuki
 （イきそうだな…、勝負はオレの負け、かな）
+（It's imminent... I wonder it'll be my loss after all.）
 
 みかんを弄る手は休めてはいない。
+My hand fondling Mikan doesn't rest.
 
 しかし脳髄を貫く快楽のパルスにオレが流されそうになった刹那。
+However for a moment I seemed taken by the pleasure's pulse which ran through my brain.
 
 ＠Mikan,A02113
 「むぐうぅ…　んぁぁああ……っんぅ～～～～」
 
 膣に差し込んだ指がぎゅうと締めつけられ、びくびくとおまんこを痙攣させたみかんが、とうとうイったのがわかった。
+My finger in Mikan's slit was squeezed against, and I realized Mikan, who's omanko I made convulse and twitch, came. 
 
 しかし絶頂の瞬間、みかんはオレの肉棒をこれまで以上無い位に、強く吸い付けていたのだ。
+However, at the point of climax but no further Mikan sucked and stuck hard to my penis.
 
 強い射精感がオレの脳天を目指して駆け上がっていく……
+A strong sense of ejaculation aims at the crown of my head and wells up......
 
 
 
@@ -890,133 +977,172 @@ scene_start	"みかんフェラチオ調教３"
 
 
 #【00】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-00.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-00.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-00.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-00.png"
 ＠Mikan,A01970
 「よぉし♪お兄ちゃん、今日もみかん『フェラチオ』がんばるぞー♪」
+「Alright Onii-chan♪, I'll do my best at fellatio again today♪」
 
 全裸になったみかんが、ベッドの上でぼんぼん、と跳ねている。
+Mikan fully naked hops up and down on top of the bed.
 
 ＠Itsuki
 「おいおい…、そんなに跳ねたらあぶないぞ。　なんかちょっと自信が出てきたみたいだな、みかん」
+「Hey, no jumping on the bed. You seem more confident, Mikan」
 
 ぼんと跳ねた勢いで正座に座り直し、みかんが身を乗り出してうんとうなずいた。
+Jumping down she kneels, leans forward and nods excitedly.
 
 ＠Mikan,A01971
 「うんとね、どこをどうすれば男の人が気持ちよくなるのか、ちょっとわかってきたの　それにお兄ちゃんが、喜んでくれるのが一番うれしいな」
+「I feel like I've started to understand where it feels good for men a lot more, and also I like pleasing you Onii-chan」
 
 にこにことオレに話しかけるみかん。
+Saying that she grins.
 
 ＠Itsuki
 「そうか、そりゃよかった」
+「Really? That's good」
 
 ＠Itsuki
 「でもオレを喜ばせる為にオレはお前にテクニックおしえているんじゃないんだぞ？　あくまでお客さんの為…だ」
+「But I'm teaching you techniques for how to please me aren't I? And in the end it's for the... guests」
 
 ＠Itsuki
 「それをわすれないようにな、みかん？」
-
+「Be sure not to forget that, alright Mikan?」
 
 ＠Mikan,A01972
 「…そっか、そうだったよね。　もちろんわかっている、わかっているよ」
+「... Yeah, you're right. I know that, definitely」
 
 ＠Mikan,A01973
 「でもお兄ちゃんを喜ばせる事が出来るなら、お客さんにも喜んでもらえる事ができるとおもうんだ。だから今はお兄ちゃんに喜んでもらいたいの」
+「But I think if I'm able to please you I'll be able to please the guests too. So I want to please you now Onii-chan」
 
 ＠Mikan,A01974
 「それがみかんの気持ちだよ」
+「That's how I feel」
 
 ………
+... ...
 
 不覚にもオレは胸にじいんと、なにか熱いものがこみ上げてしまった。
+I feel cold for all that's gone wrong, and then unexpectedly warmth wells up in my chest.
 
 こんなけなげな娘、他にそうはいるもんじゃない。
+A girl this pure cannot possibly exist anywhere else.
 
 しかし…。
+However...
 
 ＠Itsuki
 「みかんがそう言ってくれて、オレはうれしいよ」
+「I'm glad to hear you say that」
 
 ＠Itsuki
 「でもな、…これは調教なんだ。みかんを立派な商品として、売り出す為、のな」
+「But... This is training. It's to turn you into a desired commodity and sell you on the market」
 
 ＠Itsuki
 「やはりオレは私情を、はさまないよ」
+「So I can't let my personal feelings get in the way」
 
 口ではそう言ったものの、本当は自信がない。
+While spinning that I didn't really believe it.
 
 だからこそ……オレはみかんに、精一杯の虚勢を張った。
+So that's why... I had to act strong at Mikan with all my might.
 
 ＠Mikan,A01975
 「お兄ちゃん…、そっか…、うん、わかった…」
+「Onii-chan... I see... OK, I understand」
 
 そんな俺の気持ちを知らずに、ストレートに言葉を受け止め、うなだれてしまうみかん。
+She's winded by my discompassionate words without knowing my real feelings.
 
 ＠Itsuki
 「…でもな、みかんの気持ちはしっかり受け止めた。みかんに気持ちよくさせてもらえると思ったら、ほら見てみろ」
+「... But I've been stung by your feelings too Mikan. When I thought about how you would make me feel good, look」
 
 ＠Itsuki
 「オレのイチモツはもうこんなになっちまってる」
-
+「Look how my dick has gotten」
 
 オレはしょんぼりしたみかんをなぐさめるため、ちょっと下品におちゃらけて見せようと思った。
+I thought I'd mess around and make a crude joke trying to amuse her from how downcast she looks.
 
 ＠Itsuki
 「……ほら、お前もご挨拶だ。『今日もよろしくな、みかん』」
+「... You should greet her properly too. "Let's have a good time today, Mikan"」
 
 ギンギンに勃った肉棒を前に突き出してアフレコしてみた。
-
+I stick my excited penis out and ad lib with the words.
 
 みかんはびっくりしたように目を大きくしてそれを見つめる。
+Mikan stares, eyes wide and surprised.
 
 （スベったかな……？）
+（I guess it didn't work...）
 
 オレが内心焦りを感じていたが、みかんは、こちらを向いてにっこりわらった。
+I could tell she's a bit nervous inside but she looks at me and cracks a smile.
 
 ＠Mikan,A01976
 「うん　お兄ちゃん　今日もみかん一生懸命がんばるからね」
+「Yeah, Onii-chan. I'll do my very best today too」
 
 #【02】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 ＠Mikan,A01977
 「それじゃあみかん、行きます　あむぅ、ふむぅ…。　ちゅぷ…ちゅん、ちゆぅ…っ、ちゅちゅっ、ぢゅん」
+「Then, I'll start あむぅ、ふむぅ…。　ちゅぷ…ちゅん、ちゆぅ…っ、ちゅちゅっ、ぢゅん」
 
 ＠Mikan,A01978
 「るれるら…、れろぅ……ちゅぷんっ　はぁっ…くぷんっ……くぽんっ　くちゅん、くゅちゅ…んぷちゅんっ……」
 
 流石にフェラチオはもう何度もしているだけあって、みかん舌使いは格段に上手くなってきている。
+She's performed fellatio many times now so her tongue use is getting quite good.
 
 ＠Itsuki
 「なかなかいいぞ、みかん。最初の頃とは雲泥の差だよ。オレも調教のしがいがあるよ…」
+「It's great, Mikan. Way different from when you started. It's making me proud of our training...」
 
 時折走る快楽のパルスに思考が寸断されながら、オレは言った。
+As I say that my thoughts are disarrayed from the pulses of pleasure running through every now and then.
 
 ＠Mikan,A01979
 「ちゅむぅ…ちゅちゅ…っ　お、お兄ひゃん…、お兄ちゃんにほめられひゃったぁ。　……にちゅぅ…くちゅちゅ…っ　みかん、うれひぃな…」
+「ちゅむぅ…ちゅちゅ…っ　O-Onii-chan... I was 'hwaised by Onii-hyan... にちゅぅ…くちゅちゅ…っ　Mikan is so hafwy...」
 
 ＠Mikan,A01980
 「ぷちゅんっ　ぽちゅっん　…うちゅるんちゅる……っ、れるぅ…ぢゅぢうぅ……、ぢゅぁりゅんっ、れりゅらっ」
 
 今までは無我夢中のようであったが、今日のみかんはオレの反応を伺い舌や手を動かしている。
+She was always absorbed in it before, but today Mikan moves her hand and tongue waiting for my reaction.
 
 手は淫らに竿も扱きつつ、みかんはたっぷりと唾液を蓄えた口で、オレの亀頭をねっとりと熱く濡らしていく。
+She wets the head with lots of saliva she had saved in her mouth while her hand lewdly strokes the shaft.
 
 ＠Mikan,A01981
 「くちゅぅううっ…　ぢゅるっ、……くぷんっ　れるるる……くちゅっ、れらるっ　ぴちゃん…ぴちゅん…　んちゅるう…ちゅるんっ」
 
 ＠Mikan,A01981a
 「くぽん…っ、はぁっ…んっ。　…お、お兄ちゃん、き、気持ちヨクなってりゅ…？　ぢゅぷっ、…くゅちゅちゅん……ちゅゅば」
+「くぽん…っ、はぁっ…んっ。　O-Onii-chan, are you starting to feel goo'...? ぢゅぷっ、…くゅちゅちゅん……ちゅゅば」
 
 ＠Itsuki
 「みかんは筋がいいぞ、かなり気持ちよくなってきた…。だがまだまだだ、がんばれよ」
+「You're stimulating it well, it does feel good... But there's still a ways to go, work hard」
 
 ＠Mikan,A01982
 「ふむぅ…ふぱんっ　んん…っ、ふぁいっ　みかん、がんばりゅ…　くぷんっんぢゅっ、ぢゅぷんっ　れるぅ……れりゅっ　んぢゅるうぅ…っ」
+「ふむぅ…ふぱんっ　んん…っ、ふぁいっ　I'll do my bwest... くぷんっんぢゅっ、ぢゅぷんっ　れるぅ……れりゅっ　んぢゅるうぅ…っ」
 
 #【01】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-01.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
 ＠Mikan,A01983
 「……ちゅく…っ、ぢゅぢゅんっ、んぐぅ…、…ちゅぷぷぷうんっ　んん…っ、ふぁ…っ　……れるるる、ねららぁ…っ、れりゅりゅらぁ」
 
@@ -1025,89 +1151,118 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-01.png"
 
 ＠Itsuki
 （うお、ペース上げてきたな？）
+（Whoa, she increased the pace）
 
 上手くはなってきているとはいえ、まだまだ拙さは抜けないものの、みかんの口淫は徐々に激しさを増していく。
+She's getting better, but still a little inexperienced, as her mouth's stimulation gets more intense.
 
 積極的に舌を絡め、手を動かし、確実に男をイかす手管を身につけているようだ。
+Her tongue wraps around and she moves her hand, Mikan has clearly learned the skills to get a man to come. 
 
 ＠Mikan,A01985
 「んく…っ、はぁ…っ　おにいひゃんのおひんひん…かたいおひんひん…だいすき…、ぢゅく　ぢゅくくん……ぢゅるぅ」
+「んく…っ、はぁ…っ　Onii-hyan's 'ick... This hard 'ick... I love it... ぢゅく　ぢゅくくん……ぢゅるぅ」
 
 ＠Mikan,A01986
 「ぷちゅんっ……ぷゅぅうんっ　ちゅぷぷっ、んちゅるっ、ちゅぶん　はあぁ…っ、ふぅ…っ　　ちゅぱんっ、 くゅちゅ…っ」
 
 ＠Mikan,A01987
 「くちゅぱっ　れるらぁっ　ぢゅるっ、ちゅるっ、っれらあっ…　ぢゅぶっ、ぴくちゅっ　お、おにいひゃぁん…みかんどう…上手になってきられひょう…？」
+「くちゅぱっ　れるらぁっ　ぢゅるっ、ちゅるっ、っれらあっ…　ぢゅぶっ、ぴくちゅっ　Onii-hyan... How am I... Have I gotten goo'...?」
 
 ＠Itsuki
 「ああ、本当に上手になってきているよ。　みかんが一生懸命してくれるから、オレはだいぶ気持ちよくなってきたぞ」
+「Yeah, you're really skillful. You're doing your very best for me, so I'm feeling really good」
 
 ＠Mikan,A01988
 「ほ、ほんとう…？　よぉひ　みかんもっとがんばりゅよ　ちゅぷぅっ、ぢゅぢゅっ、ぴちゅ…ぴちょん…っ……ぢゅぱぁっ、ちゅぷぅっ、んぢゅく…っ」
+「R-Really...? Then I'll keep doing my best　ちゅぷぅっ、ぢゅぢゅっ、ぴちゅ…ぴちょん…っ……ぢゅぱぁっ、ちゅぷぅっ、んぢゅく…っ」
 
 ＠Mikan,A01989
 「…れるれろろぅ…　えぅるぅうぷっ、くちゅぱっ、ぢゅぷぅ、ぷちゅんっ　ぴちゅあっ」
 
 室内にみかんの立てる淫猥な水音が響いていくのが聞こえる。
+The obscene wet noises Mikan is making resonate in the room.
 
 口に含んだ男の肉棒を舐め続けなから、ふと、この子は今なにを考えているのだろうと思った。
+She continues holding a man's cock in her mouth licking it. I start thinking about what she's learning right now.
 
 ＠Itsuki
 「なあ、みかん。　オレはみかんにこうしてもらって気持ちよくさせてもらっているけど、みかんはフェラチオをしている間はなにをかんがえているんだ？」
+「Hey, Mikan. You're doing this for me and making me feel good, but what do you think about while you're giving a BJ?」
 
 ＠Mikan,A01990
 「くぷぷぁ…っ、ぷはぁっ、はぁ…っ。　ふえ…？　なぁに？　みかんがどうしたの？」
+「くぷぷぁ…っ、ぷはぁっ、はぁ…っ。　ふえ…？　Hm? What did you say?」
 
 肉棒から口を離して、きょとんとした顔でみかんが首をかしげている。
+She releases the penis from her mouth and tilts her head puzzled.
 
 ＠Itsuki
 「んーと、だからさ、フェラしている間、みかんはなにを考えているのかなーって、…ちょっとした疑問だな」
+「So, what do you think about while you're giving a BJ? Just a small question」
 
 ＠Mikan,A01991
 「考えている事…？　うん　ええとね、みかんずっと頭の中でお歌を歌っているよ」
+「What do I think about...? Oh yeah um, I'm always singing a song in my head」
 
 ＠Itsuki
 「…歌？」
+「... Singing?」
 
 あまりに意外で突拍子もない答えにオレはつい聞き直す。
+I inadvertently repeat her absurd reply.
 
 ＠Itsuki
 「歌、ですか」
+「A song, huh」
 
 ＠Mikan,A01992
 「そう♪お歌、ちょっと歌ってみるね♪お兄ちゃんの～、おちんちん～～、カタクテ熱くておっきいおちんちん～～……」
+「Yeah♪ I'll sing a bit for you♪ Onii-chan's～, Penis～～, It's so hard, it's so hot, his big big ochinchin～～...」
 
 ＠Mikan,A01993
 「気持ちよくなって～～、気持ちよくなって～～だいばくはつ♪って歌♪ちなみに作詞作曲はみかんで～～す」
+「Feel good～～, Feel good～～ Big explosion♪ That's my song♪ Also music and lyrics by Mikan～～」
 
 オレはがくっと脱力した。
+My limbs fell numb.
 
 そんな歌を歌いながらフェラチオをしていたのか…。
+She sings a song like that while giving a blowjob...
 
 ＠Itsuki
 「そ、そうか。　いい歌だな……はは」
+「I-I see. That's a nice song... Haha」
 
 ＠Itsuki
 「だけどそれ、他の子の前で歌っちゃだめだぞ？　……オレがすっごく恥ずかしいからな」
+「But you know, you can't sing that in front of other kids right? ... I'd be really embarrassed」
 
 ＠Mikan,A01994
 「…お兄ちゃん、はずかしいんだ…？　…そっか、わかった♪歌うのはみかんの頭の中だけにするね」
+「... Onii-chan would be embarrassed? ... Alright, fine♪ I'll only sing in my head」
 
 ＠Itsuki
 「是非、そうしてくれ」
+「Please do so」
 
 みかんのありがたい申し出にオレはうなずいた。
+I nod at Mikan's much-appreciated suggestion.
 
 ＠Mikan,A01995
 「じゃあ、続きをしまーす♪ぱくっ……うぢゅる、ちゅぐうっ、ぢゅばっ、ぢゅるうっ」
+「Then let's keep goingー♪ぱくっ……うぢゅる、ちゅぐうっ、ぢゅばっ、ぢゅるうっ」
 
 今もその歌を歌っているのだろうか。
+Is she singing it right now?
 
 …まあ深くは考えまい。
+... I'll try not to think about it.
 
 #【02】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 ＠Mikan,A01996
 「ちゅぷぅ…　ぢゅらっ、ぢゅぢゅぢゅっ　ぢゅる……うちゅる　ちゅるちゅ、ふちゅるんっ　ぷちゅうっ、ふむうっ、ぷちゅんっ」
 
@@ -1115,44 +1270,53 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 「ちゅちゅっ……んちゅ　ぢゅりぅ、ぢゅあわぁあ、くぷりっ　くゅちゅん、ちゅば…っ」
 
 オレはみかんのフェラチオに熱がこもり、それが徐々に高まってきているのを感じていた。
+I'm aroused with Mikan's fellatio and feel it steadily welling up.
 
 ＠Mikan,A01998
 「んあ…　ぷはぁっ、くぷっ、くちゅううっ…　んぅ…っ　んちゅ」
 
 ＠Itsuki
 「うぅ…っ、いいな、みかん。…すごく、いいぞ…」
+「Uu... That's good, Mikan... It's really good...」
 
 ともすればみっともなく上がりそうになる息を抑えながら、オレは言った。
+I say that holding back my indecent elevated breathing.
 
 そのオレの余裕のなさを察知したのか、上目遣いでオレを見上げたみかんが、ふわり、と柔らかい笑みを見せたような気がした。
+Perhaps sensing my shamefulness, Mikan looks up at me with upturned eyes, and I think I see a hint of a soft smile.
 
 ＠Mikan,A01999
 「お兄ひゃん…、気持ちヨクなっれね…、れるぅちゅる…っ　…みかんでいっぱい、気持ちヨクらってねぇ…」
+「Onii-hyan... Feel good... れるぅちゅる…っ　Feel good a lo' from Mikan...」
 
 ＠Mikan,A02000
 「れるれるぅ…　ぢゅるうぅ……ぢゅぷっ、　ぴちゅん　くちゅうぅぅっ　んぢゅっ、ぢゅるぁっ」
 
 みかんのフェラチオはますます深く熱くなっていき、オレは神経のパルスが一点の高みに上りつめて行くのを感じていた。
+Mikan's fellatio gets deeper and hotter, and I feel the nerve pulses running up to a high point.
 
 ＠Mikan,A02001
 「ぢゅうぅ……っっ　……うぢゅるっぢゅぶっ、　ぴちっ　ぴちゅん　ぢゅぢゅぢゅっ」
 
 ＠Mikan,A02002
-「くちゅん…　ぢゅばっ、ちゅちゅっ……ぷちゅんっ　んぅ…ッ　くちゅぱっん…、ふちゅふちゅちゅっ　くぷんっ…ぢゅぷぅ」　
-
+「くちゅん…　ぢゅばっ、ちゅちゅっ……ぷちゅんっ　んぅ…ッ　くちゅぱっん…、ふちゅふちゅちゅっ　くぷんっ…ぢゅぷぅ」
+　
 ＠Itsuki
 「…そ、そろそろ、出るぞ、みかん…っ」
+「I-I'll be coming soon, Mikan...」
 
 息を吐きながらオレは言った。
+I say that between ragged breaths.
 
 ＠Mikan,A02003
 「わ、わかっひゃっ……むぐぅ…ッ、…んくぅ…ちゅるぅ、ぢゅるんっ　ちゅちゅく…っ、ちゅぷぷうんっ」
+「A-A'wight... むぐぅ…ッ、…んくぅ…ちゅるぅ、ぢゅるんっ　ちゅちゅく…っ、ちゅぷぷうんっ」
 
 ＠Mikan,A02004
 「くぷぅ…っ、ねぢゅぢゅぢゅっ、ねぢゅらっ　くちゅうっ、くちゃぁっ、ぢゅん、ぢゅばっ」
 
 射精を促すようなみかんのフェラチオ、オレの脳天に駆け上げるような射精感が突き抜けた。
-
+From Mikan's fellatio inciting me to come, the feeling of climax pierces through driving up to the crown of my head.
 
 
 
@@ -1173,76 +1337,76 @@ scene_start	"みかんフェラチオ調教４"
 
 
 #【09】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-09.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-09.png"
-＠Itsuki
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-09.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-09.png"
+＠樹
 「さあ、そろそろみかんも『フェラチオ』ってもんに慣れてきただろう…って、どうしたみかん」
 
 ベッドの上に正座をし、手を前について、みかんが尻をもじもじと動かしている。
 
-＠Mikan,A02158
+＠みかん,A02158
 「あうぅぅ…、またお兄ちゃんのおちんちん…なめるんだよね…？　なんかみかん、おかしいの…。　体が熱くなっちゃって…なんかうずうずするぅ…」
 
-＠Itsuki
+＠樹
 「ほぉう？　みかんはフェラチオする自分を想像してもう興奮しているのか？　ふぅん、どれ、見せて見ろ」
 
-＠Mikan,A02159
+＠みかん,A02159
 「あ　あぁんお兄ちゃん、なにするのぉ……」
 
 オレはみかんの片足をつかむとそれを上に引っ張り上げた。
 
 みかんがバランスを崩してベッドに沈み込むと、更に片足を捕まえて両足を左右に割り開く。
 
-＠Itsuki
+＠樹
 「…やっぱりな。　まだなんにもしてないのに、みかんのおまんこがこんなにふくらんで、どうも濡らしているようだな」
 
-＠Mikan,A02160
+＠みかん,A02160
 「やぁん…っ、うそ…っうそぉ…　みかん興奮なんてしてないもん、みかん…あぅ…っ」
 
 オレはみかんのおまんこの割れ目の中に指を差し込み、クリトリスを包皮の上から軽く擦りつける。
 
-＠Mikan,A02161
+＠みかん,A02161
 「ひゃぅっ　やぁん、やぁん　お兄ちゃんやめてぇ…っ」
 
 みかんが体をねじり、俺の手から逃れようとするが、オレはそれを許さない。
 
-＠Itsuki
+＠樹
 「なんだ、もうびちょびちょになっているぞ？　それでも濡れてないっていうのか、みかんは」
 
 みかんは首を振って、濡れてないもん、濡れないもんと否定する。
 
 それがあんまりにもかわいらしい仕草で、…オレは少々の悪戯心が芽生えてきた。
 
-＠Itsuki
+＠樹
 「濡れてない、か。…嘘つきで、素直じゃない子はお仕置きだな」
 
-＠Itsuki
+＠樹
 「そうだな…、皮をむいてクリトリスを直接摘んでやろうか？　それとも、おまんこにディルドを入れたまま一日過ごしてもらおうか？」
 
 途端ビクンとみかんの体が跳ねた。
 
-＠Mikan,A02162
+＠みかん,A02162
 「い…っ、いやぁっ…　どれもいやぁ…」
 
 更に激しく首を振るみかん。
 
-＠Itsuki
+＠樹
 「ようし、じゃあおまんこをこんなにしている理由をちゃんといってごらん、みかん」
 
-＠Mikan,A02163
+＠みかん,A02163
 「だから、だから…　あの、その、…ッ　み、みかん、みかん、お兄ちゃんにご奉仕したいんですぅ…」
 
-＠Mikan,A02164
+＠みかん,A02164
 「お兄ちゃんのおちんちんを舐めてしゃぶりたいの…　そう考えたら、体が熱くなって…おまんこも熱くなって…」
 
-＠Itsuki
+＠樹
 「そう、そんなにオレのをしゃぶりたいか、みかん」
 
 こくこくと頷くみかんを見遣り、オレは掴んでいた足から手をぱっと離してやる。
 
 自由になった手足を縮めて、みかんはオレを上目使いに見上げている。
 
-＠Itsuki
+＠樹
 「素直ないい子にはご褒美をあげないとな。　…お願いしてごらん、おちんちんをしゃぶりたいって。　…さて、みかんにできるかな？」
 
 起き上がったみかんが息を飲むのがわかった。
@@ -1251,61 +1415,61 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-09.png"
 
 逡巡するようにうつむいた顔が、ぱっと上がった。
 
-＠Mikan,A02165
+＠みかん,A02165
 「…お、おねがいします…、みかんに、みかんにお兄ちゃんの大きなおちんちんを舐めさせてください…　ご奉仕させてください…」
 
-＠Mikan,A02166
+＠みかん,A02166
 「みかんにおちんちんをしゃぶらせて…」
 
 真っ赤になった顔、みかんは自分の言葉にすら反応している。
 
-＠Itsuki
+＠樹
 「そう…、そんなにお願いされたら…しかたないな…？　みかんの好きなようにしゃぶってごらん」
 
-＠Mikan,A02167
+＠みかん,A02167
 「う、うん…　お兄ちゃん…、みかん、がんばるから…」
 
 みかんはベッドに這いつくばり、オレの肉棒を手に取った。
 
-＠Mikan,A02168
+＠みかん,A02168
 「舐めるね…」
 
 #【13】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-13.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-13.png"
-＠Mikan,A02169
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-13.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-13.png"
+＠みかん,A02169
 「舐めて…くわえる…お兄ちゃんのおちんちん…。　…むぐぅ…っ、んん…っ、……ぢゅぱぁっ　ぢゅん、ぢゅるっ、…くちゅん…」
 
 みかんは深々とオレをくわえ、控えめながらも頭を前後に動かし、肉棒を扱きはじめる。
 
 口に蓄える唾液の量も、舌の動かし方ももう十分上達したといっていいだろう。
 
-＠Mikan,A02170
+＠みかん,A02170
 「ぢゅりぅ、ぢゅうぅ……っっ　れぢゅらっ、ぢゅぢゅぢゅんっ　ぎゅぶっ、ぎゅびゅぅ…っ」
 
 最初からギアをトップに上げている感じだ。
 
 オレは喉の奥から出るうめき声を、みかんに悟られないように飲み込んだ。
 
-＠Mikan,A02171
+＠みかん,A02171
 「んん…っ、ぢゅばっ、ぢゅるうっ　んちゅっ、ちゅくんっ　お兄ひゃん…っ、気持ちイイ？？　みかんのお口気持ちイイ…？？」
 
 オレの反応を知りたがってか、みかんが上目遣いに見上げてくる。
 
-＠Itsuki
+＠樹
 「ああ…、かなりいい感じだぞ、みかん。　さすが、みかんはえっちな子、だな」
 
 揶揄するように言うオレに
 
-＠Mikan,A02172
+＠みかん,A02172
 「ぢゅぼっ、ぢゅんっ　えっひ…どうひぇ、えっひな子ですよぉら…　んん…っ、えぅる、えうぁっ…、れりゅ　ぷちゅんっ、……うぢゅるんっ　ぱふ」
 
 なにか余裕さえにじませたように、みかんが言った。
 
-＠Mikan,A02173
+＠みかん,A02173
 「ちゅるぅ…っ　ぢゅるちゅるるぅん……っ　ぢゅぶっ、ぴちゅん　んう゛～～、くぱん　はぁ…っ、ふぁ…っ　くぷんっ…れらるぅ…っ」
 
-＠Mikan,A02174
+＠みかん,A02174
 「くちゅぱぁっ………んくぅ…　ぢゅぢゅぢゅっ……くぷぷうん　ぷぱっ、はぁっ　ぴちゅあんっ、ふちゅるぅんっ」
 
 両手で竿を握りながら、口でオレの肉棒を扱くみかんの仕草は、フェラチオの調教をはじめた頃と比べようもない。
@@ -1314,86 +1478,86 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-13.png"
 
 ただ、ひたすらに雄への奉仕に悦びを感じているかのようだ。
 
-＠Mikan,A02175
+＠みかん,A02175
 「ちゅば…っ　ぷぢゅうっっ　ぢゅぷんっ、ちゅちゅく…っ　にぢゅぢゅぢゅっ……んんぢゅくぅ　…ぢゅぷぅ、ぢゅぱんっ」
 
-＠Itsuki
+＠樹
 「いいぞ、みかん…すごくいい…ぞっ。　うぐ…っ、気持ちよすぎて目が回りそうだ…っ」
 
-＠Mikan,A02176
+＠みかん,A02176
 「…ぐぽっ、はぁっ、はぁっ…。　ひゃあ、今まれの復習もひていいかな…？」
 
 #【02】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-02.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-02.png"
 みかんは深くくわえていたオレの肉棒を口内から引き抜くと、今度は亀頭だけをぱくりと口に含む。
 
-＠Itsuki
+＠樹
 「う…っ、これは、これで……、効く…っ」
 
-＠Mikan,A02177
+＠みかん,A02177
 「くぷんっ　ちゅちゅっ……くちゅうぅぅっ　にちゅぅ、うちゅる」
 
 唾液をたっぷり乗せた舌を亀頭に絡め、竿を扱きつつ、みかんは手慣れた仕草でオレを追いつめていく。
 
-＠Mikan,A02178
+＠みかん,A02178
 「れるら…っ　ぽちゅっ　ぢゅるっ、ちゅちゅっ、んくぅ…ッれらるら……くぷりっ　ちゅぷぷうんっ…くちゅん、くぽんっ」
 
-＠Mikan,A02179
+＠みかん,A02179
 「ちゅぷぅっ、んぢゅく…っ、くぷんっ…　にぢゅぅっ　くゅちゅんっ、…ぢゅるぅ　ぷゅゅうんっ、んぢゅるうぅ…っ」
 
-＠Itsuki
+＠樹
 「…っ　か、感嘆するしかないな…っ、みかんの成長には…っ　正直ここまで簡単に追い詰められるとはおもってなかった…」
 
-＠Mikan,A02180
+＠みかん,A02180
 「んちゅる…っ？　ぢゅぷんっ　…えへへ…、みかん一生懸命れんひゅうひたんらよ…？　だから…もっと気持ちヨクなっれ…お兄ひゃん…。　ぢゅぢゅぽっ」
 
-＠Mikan,A02181
+＠みかん,A02181
 「……うちゅるぅっ、にぢゅらっ、ぢゅるっ、れるるぁっ　…くゅちゅちゅ…っ、れろうっ、ぐぷんっ」
 
 教えられた通りに、しかしみかん独自のアレンジも入ったフェラチオはますます熱が入っていく。
 
 リズミカルに扱く手の動きも堂にいったものだ。
 
-＠Mikan,A02182
+＠みかん,A02182
 「ぢゅぁあっ、えるあ…っ、れれるぅ…　ふむうっ、んちゅぅ…っ、ぢゅぬらっ　れるられるる……」
 
-＠Mikan,A02183
+＠みかん,A02183
 「んく…っ、お兄ひゃん、またくわふぇるね…っ。　はむうぅつ　くぢゅぢゅん」
 
 #【13】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-13.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-13.png"
-＠Itsuki
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-13.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-13.png"
+＠樹
 （……ッ　まぶたの裏がチカチカする…　みかん、本気のフェラチオだな…ッ）
 
-＠Mikan,A02184
+＠みかん,A02184
 「むぐぅっ、…ぬるぅんっ、ぢゅるうぅ…ぢゅぷぅ、ぢゅくくくっ、んぢゅうっ　れるぅ、れろら…っ、ぢゅぢゅっ」
 
 ギアはどんどん上がり続けている、これじゃまるで天井知らずだ。
 
 みかんはオレの肉棒を深くくわえ、頭を激しく振りピストンを繰り返す。
 
-＠Mikan,A02185
+＠みかん,A02185
 「……んちゅう　ぢゅぼっ、ぢゅばっ　ぐぽっ、はぁッ、はぅ　…ぶちゅんっ、れららあっ、ぐぢゅぢゅぢゅっ」
 
-＠Mikan,A02186
+＠みかん,A02186
 「…お兄ひゃんの…おひんひん…っ、みかん、がんばるぅ　もっろ、がんばるからぁ…っ　ぐぽっ、ぐぷっ、…れるれぅ…　…ッ、かはっはぅ…っ」
 
 唾液が気管にはいったか、みかんが咳き込む。
 
-＠Itsuki
+＠樹
 「大丈夫か、みかん　そんなに深くくわえなくてもいいんだぞ…」
 
-＠Mikan,A02187
+＠みかん,A02187
 「こほ…っ、ら、らいりょうぶぅ…、それより、みかん続きをするぅ…っ　くぷっ、…くちゅんぷちゅんっ」
 
 完全に行為に没頭してしまっているようだ、みかんは呼吸を整えると、またオレの肉棒をくわえ、行為を再び開始した。
 
-＠Mikan,A02188
+＠みかん,A02188
 「ぢゅるぁっ、ぢゅくっ　にぢゅうっ　んくぁ…ぢゅぷん、れらるっ」
 
-＠Itsuki
+＠樹
 「うぉ…。みかん、そろそろ…出るぞ…っ」
 
 みかんの熱に押し上げられる様に、オレは感じる射精感の予感に喘いだ。
@@ -1416,178 +1580,157 @@ label	training_mikan_fellatio_a01
 
 
 @effect_iku
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
 
 
-#ビュクゥ…ッ　ビュルッ、ビュルル　ドク、ドクン
-#SCRIPT ADD KANJI
-　*byukuu...* *byuru, byururu* *doku, dokun*
+ビュクゥ…ッ　ビュルッ、ビュルル　ドク、ドクン
+*byukuu...* *byuru, byururu* *doku, dokun*
 
-#オレの精液がびしゃびしゃと音を立て、勢いよくみかんの顔にかかる。
-#SCRIPT ADD KANJI
-Ｍy semen making a soaking noise, *bisha bisha*, it covers Mikan's face with nice vigour.
+オレの精液がびしゃびしゃと音を立て、勢いよくみかんの顔にかかる。
+My semen soaks and splashes vigorously onto Mikan's face, covering her.
 
-#「うぐ…っ、うお……ッ」
 ＠Itsuki
-「Uguh..., whooooa......」
+「うぐ…っ、うお……ッ」
+「Ugu... Whoa...」
 
-#「ひゃ、ひゃぁぁぁぁあん　お兄ちゃんのせいえきがぁ…　みかんのお顔にぃ……」
 ＠Mikan,A02236
-「ひゃ、ひゃぁぁぁぁあん　Onii-chan's semen... Mikan's face......」
+「ひゃ、ひゃぁぁぁぁあん　お兄ちゃんのせいえきがぁ…　みかんのお顔にぃ……」
+「ひゃ、ひゃぁぁぁぁあん　Onii-chan's semen... On Mikan's face...」
 
-#オレの射精に驚いて手が止まったみかん、オレは自分で自分の肉棒を扱き更に射精を続ける。
-#SCRIPT ADD KANJI
-Ｍikan was surprised at my ejaculation and her hand stopped; stroking my penis myself I continue to ejaculate.
+オレの射精に驚いて手が止まったみかん、オレは自分で自分の肉棒を扱き更に射精を続ける。
+Mikan was surprised at my ejaculation and her hand stopped, stroking my penis myself I continue to ejaculate.
 
-#その間にも精液はみかんの顔にかかり続け、みかんの顔はオレの精液でべっとりと濡れてしまっていた。
-#SCRIPT ADD KANJI
-Ｄuring that too semen continuing to cover her, Mikan's face got wet with my semen plastered and stuck.
+その間にも精液はみかんの顔にかかり続け、みかんの顔はオレの精液でべっとりと濡れてしまっていた。
+During that too semen continuing to cover her, Mikan's face got wet with my semen plastered and stuck.
 
-#「はわわ…、熱い…お兄ちゃんのせーえきが……、べとべと…ぬとぬと…、みかんの顔に…たくさん……かかってるぅ……」
 ＠Mikan,A02237
-「はわわ..., It's hot... Onii-chan's semen......, it's sticky... and thick..., on Mikan's face... so much...... is covering......」
+「はわわ…、熱い…お兄ちゃんのせーえきが……、べとべと…ぬとぬと…、みかんの顔に…たくさん……かかってるぅ……」
+「はわわ... It's hot... Onii-chan's semen... it's sticky... and thick... on Mikan's face... so much... is covering...」
 
-#オレはみかんの呆然とした声に、はっと我に返った。
-#SCRIPT ADD KANJI
-Ｗith a start I return to my senses and Mikan's dazed voice.
+オレはみかんの呆然とした声に、はっと我に返った。
+With a start I return to my senses and Mikan's dazed voice.
 
-#「…はっ　す、すまん、みかん　うっかり顔にかけちまった　他意はない　本当にすまん」
 ＠Itsuki
-「... Ha, s-sorry, Mikan, I covered your face without thinking. I didn't mean to, I'm really sorry.」
+「…はっ　す、すまん、みかん　うっかり顔にかけちまった　他意はない　本当にすまん」
+「... Ha, s-sorry, Mikan, I covered your face without thinking. I didn't mean to, I'm really sorry」
 
-#両手で顔にかかった精液を触り、粘つくそれをみかんはじっと見ている。
-#SCRIPT ADD KANJI
-Ｔouching the semen which covered her face with both hands, Mikan is staring intently at this glutinous thing.
+両手で顔にかかった精液を触り、粘つくそれをみかんはじっと見ている。
+Touching the semen which covered her face with both hands, Mikan is staring intently at this glutinous thing.
 
-#「……みかん？　……おーい、みかんさん？？　どうした？？　目にでも入ったか？？」
 ＠Itsuki
-「...... Mikan? ...... OOI, MIKAN-SAN?? What's wrong?? Did it go in your eye??」
+「……みかん？　……おーい、みかんさん？？　どうした？？　目にでも入ったか？？」
+「... Mikan? ... Hey, Mikan-san?? What's wrong?? Did it go in your eye??」
 
 #【04】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-04.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-04.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-04.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-04.png"
 
-#「ふえ…」
 ＠Mikan,A02238
+「ふえ…」
 「Fue...」
 
-#うつむいたみかんから、ぽつりと聞こえた声。
-#SCRIPT ADD KANJI
-Ａn single sound was audible from Mikan, eyes downcast.
+うつむいたみかんから、ぽつりと聞こえた声。
+An single sound was audible from Mikan, eyes downcast.
 
 ＠Itsuki
 「Fue?」
 
-#オレはオウム返しに聞き返す。
-#SCRIPT ADD KANJI
-Ｉ ask again, echoing.
+オレはオウム返しに聞き返す。
+I echo her sound.
 
-#次の瞬間、みかんは目に大粒の涙をため、泣き出したのだ
-#SCRIPT ADD KANJI
-Ｎext moment moisture having went to her eyes, she burst into tears.
+次の瞬間、みかんは目に大粒の涙をため、泣き出したのだ
+Next moment moisture having went to her eyes, she burst into tears.
 
-#「ふええええええええええ…　ふあぁぁああああん　お兄ちゃんが、お兄ちゃんが、みかんの顔にせいえきかけたぁ」
 ＠Mikan,A02239
+「ふええええええええええ…　ふあぁぁああああん　お兄ちゃんが、お兄ちゃんが、みかんの顔にせいえきかけたぁ」
 「ふええええええええええ…　ふあぁぁああああん　Onii-chan, Onii-chan, you covered Mikan's face with semen!!」
 
-#「こんなにいっぱい　こんなにたくさん　みかんの顔、ベロベロのドロドロだよう…」
 ＠Mikan,A02240
-「So much like this, lots and lots! Mikan's face is oozing from being slobbered on...」
+「こんなにいっぱい　こんなにたくさん　みかんの顔、ベロベロのドロドロだよう…」
+「So much like this, lots and lots! Mikan's face is oozing and slobbery...」
 
-#「み、みかんっ」
 ＠Itsuki
+「み、みかんっ」
 「Mi-Mikan!」
 
-#まさか泣かれるとは
-#SCRIPT ADD KANJI
-Ｎo way, being cried at like this.
+まさか泣かれるとは
+No way, being cried at like this.
 
-#オレは大あわてでみかんをなだめにかかる。
-#SCRIPT ADD KANJI
-Ｉn a panic I attend to Mikan, trying to soothe her.
+オレは大あわてでみかんをなだめにかかる。
+In a panic I attend to Mikan, trying to soothe her.
 
-#「すまなかった　本当にすまなかった。みかんのフェラがあんまりにも上手かったもんだから、つい余裕がなくなってしまったんだ」
 ＠Itsuki
+「すまなかった　本当にすまなかった。みかんのフェラがあんまりにも上手かったもんだから、つい余裕がなくなってしまったんだ」
 「I'm sorry, I'm really sorry!! Mikan's fellatio was so skillful and too much, by mistake I lost my composure.」
 
-#手近にあったタオルでみかんの精液まみれの顔を拭きながら、オレは謝りたおす。
-#SCRIPT ADD KANJI
-Ａs I wipe Mikan's cum-stained face with a towel that was on hand, I practically knock her over with apologies.
+手近にあったタオルでみかんの精液まみれの顔を拭きながら、オレは謝りたおす。
+As I wipe Mikan's semen-stained face with a towel that was on hand, I practically knock her over with apologies.
 
-#……すくなくとも、これでみかんがフェラチオに少しでも嫌悪感をもってしまったら、この調教は失敗という事になるからだ。
-#SCRIPT ADD KANJI
-　...... At least, if Mikan has any unpleasant feelings toward fellatio with this, I can tell her it's because I failed during this training.
+……すくなくとも、これでみかんがフェラチオに少しでも嫌悪感をもってしまったら、この調教は失敗という事になるからだ。
+... At least, if Mikan considers this a bad experience with fellatio, I can tell her I failed in this training session.
 
-#オレは『みかんが上手にできたからつい』、と何度も繰り返した。
-#SCRIPT ADD KANJI
-Ｉ don't know how many times I repeated "Mikan was able to be skillful so I couldn't help it."
+オレは『みかんが上手にできたからつい』、と何度も繰り返した。
+I keep telling her "You were so good at it I couldn't help it".
 
-#「…ふええ…、みかんのふぇらちお…そんなに上手だった…？」
 ＠Mikan,A02241
-「…ふええ..., Mikan's fellatio... was it skillful like that...?」
+「…ふええ…、みかんのふぇらちお…そんなに上手だった…？」
+「…ふええ…、Mikan's fellatio... Was it that good...?」
 
-#まだ目に涙をためながらも、そう言ってみかんがオレを見返す。
-#SCRIPT ADD KANJI
-Ｔhough tears are still going to her eyes, saying that Mikan stares back at me.
+まだ目に涙をためながらも、そう言ってみかんがオレを見返す。
+Tears are still in her eyes, but saying that Mikan looks back at me.
 
-#チャンスだ、まだチャンスが残っている
-#SCRIPT ADD KANJI
-Ｉt's my chance, there's still a chance left.
+チャンスだ、まだチャンスが残っている
+It's my chance, there's still a chance.
 
-#「ああ　とても初めてとは思えない位、上手なフェラチオだった　特に舌使いが良かったぞ」
 ＠Itsuki
-「Ahh, I wouldn't rank it like a very first time, that was a skillful fellatio... especially your tongue use, it was really good.」
+「ああ　とても初めてとは思えない位、上手なフェラチオだった　特に舌使いが良かったぞ」
+「Ahh, I wouldn't guess that to be a very first time, that was a pretty good BJ... especially your tongue use, I liked it」
 
-#「みかんの気持ちがこもってて、オレは目茶苦茶気持ちよかったんだ……いや、気持ちよすぎた」
 ＠Itsuki
-「The feeling of Mikan filled me, and I felt good 'til it was reckless...... No, too good I should say.」
+「みかんの気持ちがこもってて、オレは目茶苦茶気持ちよかったんだ……いや、気持ちよすぎた」
+「You overwhelmed me, I felt good and lost control... It was too good I guess」
 
-
-#「顔にかけた事は悪かった　すまん、みかん　許してくれ」
 ＠Itsuki
-「Covering your face was bad. Sorry, Mikan. Forgive me.」
+「顔にかけた事は悪かった　すまん、みかん　許してくれ」
+「It wasn't nice of me to cover your face. I'm sorry, Mikan. Please forgive me?」
 
-#目を瞬かせてオレを見るみかん。
-#SCRIPT ADD KANJI
-Ｍikan blinks and stares at me.
+目を瞬かせてオレを見るみかん。
+Mikan blinks and gazes at me.
 
-#オレも息をのんで、みかんを見る。
-#SCRIPT ADD KANJI
-Ｉ take a breath too and look at Mikan.
+オレも息をのんで、みかんを見る。
+I take a breath too and look at Mikan.
 
-#「…良かった…、実はみかん心配だったの…。　初めてだったから怖くて不安で…」
 ＠Mikan,A02242
-「... It's okay...... The truth is Mikan was worried...... It was my first time so I was scared and nervous...」
+「…良かった…、実はみかん心配だったの…。　初めてだったから怖くて不安で…」
+「... That's good... Actually I was a little strung-up... I'm just starting so I was scared and nervous...」
 
-#「でもお兄ちゃんがそんなに気持ち良くなってくれたんだったら、みかんそれがうれしいな…」
 ＠Mikan,A02243
-「But if I was able to get Onii-chan to feel good like that, Mikan is happy about that...」
+「でもお兄ちゃんがそんなに気持ち良くなってくれたんだったら、みかんそれがうれしいな…」
+「But if I was able to get Onii-chan to feel good like that, I can be proud of that...」
 
-#「……みかん　オレを許してくれるのか…？」
 ＠Itsuki
+「……みかん　オレを許してくれるのか…？」
 「...... Mikan, can you forgive me...?」
 
-#「うん　みかん、お兄ちゃんが気持ちよくなってくれたから、すごくうれしいよ」
 ＠Mikan,A02244
+「うん　みかん、お兄ちゃんが気持ちよくなってくれたから、すごくうれしいよ」
 「Yeah! Mikan got Onii-chan to feel good, so I'm really happy!」
 
-#「お兄ちゃんが気持ちよくなりすぎて、それでせいえきが顔にかかっちゃったんなら、それはもう忘れる」
 ＠Mikan,A02245
-「Onii-chan felt too good, and if because of that semen covered my face, I'll forget about it already.」
+「お兄ちゃんが気持ちよくなりすぎて、それでせいえきが顔にかかっちゃったんなら、それはもう忘れる」
+「Onii-chan felt too good, and if because of that semen covered my face, I'll forget about it already」
 
-
-#「次はもっと上手にやれるようにするからね　また教えてねお兄ちゃん」
 ＠Mikan,A02246
+「次はもっと上手にやれるようにするからね　また教えてねお兄ちゃん」
 「Next time I'll be able to do it even more skillful, right? Teach me again, Onii-chan!」
 
-#「おう、オレもがんばってみかんに教えるからな。　次もがんばろうな」
 ＠Itsuki
-「Right, I'll do my best and teach Mikan too. Let's do our best next time too.」
+「おう、オレもがんばってみかんに教えるからな。　次もがんばろうな」
+「OK, I'll do my best too and teach Mikan. Next time then」
 
-#オレはみかんの頭を撫でて、ほっと胸をなで下ろした。
-#SCRIPT ADD KANJI
-Ｉ caress Mikan's head, and relieved my chest relaxes.
+オレはみかんの頭を撫でて、ほっと胸をなで下ろした。
+I pet Mikan's head and feel relieved.
 
 scene_end
 
@@ -1598,21 +1741,21 @@ return
 label	training_mikan_fellatio_a02
 #みかん顔射　二回目
 #【03】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
-＠Itsuki
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
+＠樹
 「ぐぅ…ッ出るぞ…」
 
 ビュクッ　ビュルン、ビュルル　ドク、ドクン！
 
 みかんの口から肉棒を引き抜くと、それをそのままみかんの顔めがけて浴びせかけた。
 
-＠Mikan,A02114
+＠みかん,A02114
 「ふあ？　ふぁぁぁあああぁぁぁん　あ、ああ　お兄ちゃんの精液、お兄ちゃんの精液がみかんの顔に……」
 
 ビュッ、ビュッ、と勢いよく吹き上げたオレの精液は、白くみかんの顔を汚していく。
 
-＠Mikan,A02115
+＠みかん,A02115
 「いやぁ…、いやぁん　熱いのがたくさん出てる、たくさん出てるよぉ　あん…っ、ああん…っ　こんな、こんなにぃぃぃ…」
 
 みかんの悲鳴のような声を、オレは遠くに聞いていた。
@@ -1622,43 +1765,43 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
 そうして、ようやくみかんを見ると、顔面を真っ白にして、さらにそこからこぼれた白濁の液が体に伝い、全身を精液まみれにしたみかんがいた。
 
 #【07】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
-＠Mikan,A02116
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
+＠みかん,A02116
 「…ひどい…」
 
 ぽつりとみかんが言った。
 
-＠Mikan,A02117
+＠みかん,A02117
 「こんなにドロドロ…、ねばねばした変な匂いのする白い液でみかんドロドロ…、全部ドロドロ…、ドロドロドロドロドロドロ…」
 
 その大きな目に、大きな涙がたまるのを見たオレは、あわててみかんのフォローに入る。
 
-＠Itsuki
+＠樹
 「み、みかん　すまん、すまなかった　みかんのフェラチオがあんまり上手かったもんでな　ついたくさん出してしまった」
 
-＠Itsuki
+＠樹
 「でも上手かったぞ、上達したな　みかん」
 
 じとり、と涙のたまった瞳がオレを見た。
 
-＠Mikan,A02118
+＠みかん,A02118
 「それにフェラチオの調教の筈だったのに、途中からなんか変な競争になっていったしぃ…。　それでこんなにドロドロにされて…っ」
 
-＠Mikan,A02119
+＠みかん,A02119
 「ひどい、ひどすぎるよぉ、お兄ちゃん…」
 
 とうとうシクシク泣き出したみかん、オレはと言うと、笑顔を顔面に張り付かせて、「ははは」と乾いた笑いを浮かべるしかなかった。
 
-＠Itsuki
+＠樹
 「でもな、みかん。　いっぱい出たのは、本当にみかんのフェラチオが上手くなってせいだぞ？？」
 
-＠Itsuki
+＠樹
 「前回の事ちゃんと覚えていて、ちゃんとそれが復習出来てて、オレは本当に感心したんだ。　ホントだぞ」
 
 なんとか取り繕わなければ、とオレはもてる言葉を総動員して、みかんのご機嫌取りに走る。
 
-＠Mikan,A02120
+＠みかん,A02120
 「……ホントに…？」
 
 俯いていた顔を上げてみかんがオレを見る。
@@ -1667,7 +1810,7 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
 
 まだ涙目だったが、精液まみれの顔がにこっとわらった。
 
-＠Mikan,A02121
+＠みかん,A02121
 「えへへへ…、そうかな…、みかん、がんばったんだよ…？　お兄ちゃんが認めてくれたのなら、みかん、とってもうれしいな」
 
 『単純』と言えなくもないが…、みかんは大がつくほど素直な子だった。
@@ -1684,10 +1827,10 @@ return
 label	training_mikan_fellatio_a03
 #みかん　顔射　３回目
 #【03】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
 
-＠Itsuki
+＠樹
 「ぐぅ…ッ出る…！！」
 
 オレはみかんの口から肉棒を引き抜く。
@@ -1696,33 +1839,33 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
 
 ドビュク！　ビュクッ、ビュクッ！！　ドクッ、ドクク…ッ！！
 
-＠Mikan,A02129
+＠みかん,A02129
 「出た…っ　出たっ　お兄ちゃんのセイエキ出たっ　みかんに、みかんに雨みたいに降ってくるぅ…　熱い、熱いよぉ、お兄ちゃん」
 
 オレの精液はまだ出続け、みかんが興奮したように叫んでいる。
 
-＠Mikan,A02130
+＠みかん,A02130
 「出てるぅ…　まだ出てるよぉ…　熱い、熱い…、気持ちイイ…」
 
 両手を顔の前にかかげ、みかんの手のひらがオレの精液を受け止めている。
 
-＠Itsuki
+＠樹
 「…ふぅ…、ずいぶんたくさん出たな…（我ながら感心するな）　ああ、みかんの顔が真っ白だ」
 
 オレの発射した精液は、みかんの顔のみならず、体にも降り注ぎ全身を白く濡らしていた。
 
 #【10】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-10.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-10.png"
-＠Mikan,A02131
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-10.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-10.png"
+＠みかん,A02131
 「お兄ちゃん…、みかんドロドロ…。　お兄ちゃんの熱い精液でドロドロになっちゃったよう…？」
 
 うっとり呟くようにみかんが言う。
 
-＠Itsuki
+＠樹
 「ああ、そうだな、少し出し過ぎた位だが…、それにしてもかなり気持ちよかったぞ、みかん。　ずいぶん上達したな」
 
-＠Mikan,A02132
+＠みかん,A02132
 「お兄ちゃん…、気持ちよかった…、みかん、うれしい…」
 
 とろんとした目を向けたみかん。
@@ -1731,15 +1874,15 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-10.png"
 
 どこの国の人か、と言うほどにカタコトだ。
 
-＠Itsuki
+＠樹
 「みかん、大丈夫か？　みかーん、大丈夫だったら返事しろ？？　みかん？」
 
-＠Mikan,A02133
+＠みかん,A02133
 「はぁい…、らいじょぶれふ…。　うふふ…、お兄ちゃんのセイエキ…まだあったかい…」
 
 全身にまとった精液を手で更に体のあちらこちらに擦りつけながら、みかんはぼんやりした瞳を空に向けて言った。
 
-＠Itsuki
+＠樹
 「…………そうか」
 
 
@@ -1754,22 +1897,22 @@ return
 label	training_mikan_fellatio_a04
 #みかん　顔射　4回目
 #【03】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
-＠Mikan,A02122
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-03.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
+＠みかん,A02122
 「お、お兄ひゃん…っ　お兄ひゃん　おねがいぃ　みかんの、みかんの顔にかけて…ッ　お兄ひゃんの熱いセイエキが欲しいの…」
 
 みかんの懇願に、オレはみかんの口から肉棒を引き出した。
 
-＠Itsuki
+＠樹
 「いいのか…っ？　かけるぞ、みかん…」
 
-＠Mikan,A02123
+＠みかん,A02123
 「かけてぇぇぇ　みかんの顔に　みかんをお兄ちゃんの白い液で染めてぇ…」
 
 絶叫するかのようなみかん。
 
-＠Itsuki
+＠樹
 「よぉし…ッ　わかったぞ、みかん　…ぐぅッ、出る…」
 
 オレは獣の様なうなり声と共に、みかんの顔に射精した。
@@ -1778,33 +1921,33 @@ if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-03.png"
 
 びしゃ、びしゃっ！という音と共に、オレの精液がみかんへとかけられていく。
 
-＠Mikan,A02124
+＠みかん,A02124
 「んぁ…っ！　んぁあぁああ　熱いっ　お兄ちゃんのせいえきぃぃぃ　もっと　もっとみかんにちょうだいっ　ひゃぁうっ、あうっ……っ、んぁぁぁぁああ…」
 
 オレの精液がみかんにかかる度に、みかんは体をビクビクと愉悦に震わせ、まるで絶頂の悦びに打ち震えているかのようだ。
 
-＠Mikan,A02125
+＠みかん,A02125
 「ふあぁっ　ひあぁあああぁん　お兄ちゃん、お兄ちゃあん…っ」
 
 #【10】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-10.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-10.png"
-＠Mikan,A02126
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-10.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-10.png"
+＠みかん,A02126
 「はあぁぁああああん…、お兄ちゃんのセイエキ…こんなにたくさん…、みかん、みかん、すごくうれしいよ…」
 
 全身にまみれた精液を手に取り、みかんが呟くように言った。
 
-＠Mikan,A02127
+＠みかん,A02127
 「お兄ちゃん…、海みたいな匂いがするよ…、深くて青くて透明な海みたいな匂い…。　それにねばねばして、くっついて、うふふ…、なんだかおかしいな…」
 
 精液に濡れた手の匂いをかぎ、ぺろりと赤い舌がそれを舐めた。
 
 ぼんやり、遠くを見るような目は、なにを映しているのだろう。
 
-＠Itsuki
+＠樹
 「みかん、今日はとても良かったぞ…、上手くなったな…。　さあ後始末をして風呂に入ろう。　さあ、みかん」
 
-＠Mikan,A02128
+＠みかん,A02128
 「……お兄ちゃん…」
 
 オレは彼女の手を引いて、この暗い道を歩いている。
@@ -1821,155 +1964,203 @@ return
 
 
 # みかん口の中に出す1 ########################################################
+# Come in Mikan's mouth1 ########################################################
 label	training_mikan_fellatio_b01
 #口の中に出す　一回目
+#Come in mouth, first time
 @effect_iku
 
 #【05】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-05.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-05.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-05.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-05.png"
 ビュルビュルル！！ドクッ、ドクン！！
+*byuru* *byururu*!! *doku, doku*!!
 
 ＠Mikan,A02247
 「ぷぁぁあああぁぁああんっ！　んあっひゃう……」
 
 みかんの口内にオレは射精してしまっていた。
+I came in Mikan's mouth.
 
 ＠Itsuki
 「ぐ…っ　ぐあ…っ」
+「Gu... Guah...」
 
 オレの射精にびっくりしてしまったのだろう。
+Looks like I suprised her with my ejaculation.
 
 すっかり手が止まってしまったみかん。
+Mikan's hand stopped completely.
 
 ＠Mikan,A02248
-「んんぁあ…ッ　ふあうううう…っ」　
+「んんぁあ…ッ　ふあうううう…っ」
 
 オレ自分で自分の肉棒を扱き、精液を扱きだした。
+Taking hold of my penis myself, I began working out my semen.
 
 どくっどくっどくっ、と全身に痺れるような脈動が走り、オレはぶるり、と身を震わせた。
+*doku doku doku*, the pulsation runs throughout exciting me, and my body shakes fiercely.
 
 ＠Itsuki
 「はぁ…っ、はぁ…っ、………ふぅ…」
+「Haa..., Haa..., ... ... ... Phew...」
 
 #【06】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-06.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-06.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-06.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-06.png"
 ＠Mikan,A02249
 「……ふあ……、ほふぃいひゃん…ほれ…」
+「……ふあ......, Hoiihan...... 'his......」
 
 オレの精液を口の中にため、涙目になったみかんがオレを見ている。
+Mikan is looking at me with teary eyes, the result of coming in her mouth.
 
 ＠Itsuki
 「す、すまん、みかん　つい出しちまった…」
+「S-Sorry, Mikan. I came by mistake...」
 
 あわてるオレに、みかんは口の中にたまった精液をもてあましているようだった。
+Mikan looks like the ejaculating taken in the mouth was too much for her and I get flustered.
 
 ＠Mikan,A02250
 「ひ、ひがい…　うえええ…っ　へんらありあふる…」
+「I-Ih's hiher... うえええ... Ih hah a heirh hahor...」
+#maybe wrong for the second part
 
 ＠Itsuki
 「に、苦い？　苦いって？　そ、そうか。　そうだろうな…、まあ無理するな、出していいんだぞ」　
-
+「I-It's bitter? Bitter you said? I-Is that right. I would be I guess..., I overdid it, I came a lot didn't I.」　
 
 そう言ったオレに、しかし何かを決意するように、みかんはきっとオレの目を見据えて言った。
+However, Mikan steadily looks me in the eyes like saying she decided something.
 
 ＠Mikan,A02251
 「ひはん、ほんれみる…」
+「Hihan will hry an' hrink ih...」
 
 ＠Itsuki
 「え、なんだって…？　ほんでみる……？？ああ、飲んでみるって言ったのか…」
-
+「Wait, what did you say...? Hrink ih...?? Ahh, you said you're going to try and drink it...」
 
 ＠Itsuki
 「いや、それは飲んでもらえばうれしいが…。　最初なんだから本当に無理するなよ」
+「No, it would be great if you could drink that but... It's really too much for the first time.」
 
 ＠Mikan,A02252
 「みあん、ふぁる。　…ほんれみる…」
+「Mian, hih roo ih...... I'll hrink ih...」
 
 ＠Itsuki
 「そうか…、やる、か……。　そうだな、何でも慣れとくに越した事はない、か…」
+「Really..., you'll do it, huh...... All right, I suppose practicing as you like isn't all bad...」
+#argh, I'm not sure!
 
 オレはみかんを見守る事にした。
-
+I decided to watch Mikan carefully.
 
 ＠Mikan,A02253
 「んぐぐぐぐぅ…　うぐぅぅぅうう…っ、ん、んんぅぅぅううううぅううぅうう」
 
 おかしなうなり声を上げて、みかんがオレの精液を呑み込もうと四苦八苦している。
+Making odd moaning noises, Mikan is laborously trying to gulp down my semen.
 
 体もおかしな風にねじれて、あからさまに無理をしているという感じだ。
+Also her body twisting up oddly, it clearly feels like this is too much.
 
 ＠Itsuki
 「も、もう、いいぞ　もういいんだ、みかん　無理しないで吐き出しなさい」
+「E-Enough already, it's enough, Mikan. Don't hurt yourself, spit it out.」
 
 間違いない、みかんはかなり、それもかなり無理をしてオレの精液を飲み込もうとしているのだろう。
+I'm not seeing wrong, it seems Mikan is really trying to swallow my semen even after I overdid it so much.
 
 そういうオレに、みかんは強情にも首を横にふって拒否をする。
+And Mikan shakes her head sideways stubbornly to me refusing.
 
 ＠Mikan,A02254
 「ひゃる　みあんひゃる　うむにぃぃぃいぃいい　ふみゅぅぅぅうううううんん　んくっ…、……………ん…、ごくっ」
+「I' roo ih. Mian han roo ih. うむにぃぃぃいぃいい　ふみゅぅぅぅうううううんん　んくっ…、……………ん…、ごくっ」
 
 ＠Itsuki
 （おお、のみこんだか…？？）
+（Ohh, did she swallow it...??）
 
 見守るオレに、みかんの体がぷるぷると震えだした。
+Watching closely, Mikan's body started quivering and trembling slightly.
 
 ＠Itsuki
 「……み、みかん…？？」
+「...... Mi-Mikan...??」
 
 
 #【07】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
 ＠Mikan,A02255
 「………………ッ　ぶはぁ…ッ　うえ…ッ」
 
 ＠Itsuki
 「………………………」
+「... ... ... ... ... ... ... ... ...」
 
 オレの顔面に、みかんが勢いよく吐き出した精液が飛沫となって飛んできた。
+The semen which Mikan vigorously spit out became a spray and flew on my face.
 
 オレは思いもよらない展開に、…見事に固まった。
+I kept my cool admirably in light of this... unforeseen development.
 
 ＠Mikan,A02256
 「げぼ…っ、げほ…ッ　うえ…、おえぇ…っ」
 
 みかんは咳き込みながら、こみ上げる嘔気を必死にこらえているようだ。
+While she has a coughing fit, it looks like she's desperately trying to resist nausea that was welling up.
 
 そして、精液まみれになったオレに、ようやく気がついた。
+And gradually she came to notice me covered with semen.
 
 ＠Mikan,A02256A
 「…はっ　…ご、ごめんなひゃい…ッお兄ちゃん、ふぁいりょうぶ……？」
+「...Ha, ... S-Sorry... Onii-han, are you ohei......?」
 
 ＠Itsuki
 「………ああ、…まあ、元はと言えば自分の分泌物だからな…。　大丈夫、だよ。　はは…」
+「... ... ... Ahh, ... Well, I guess it's originally my own secretion after all, so... I'm fine. Haha...」
 
 みかんが手近にあったタオルを持ってきて、オレの顔面にかかった精液を拭き取ってくれている。
+Mikan takes a towel handy and wipes off my semen-stained face.
 
 ＠Mikan,A02257
 「おにいひゃん…、ごめんなひゃい…ほんとうにごめんなひゃい…っ　みかんどうしたら…っ」
+「Onii-han..., I'm sorry... I'm really sorry... Wha' shou' I do...」
 
 ＠Itsuki
 「みかんが拭いてくれたから、きれいになったよ。ありがとな」
+「Mikan cleaned me off so I'm pretty again. Thank you.」
 
 オレはみかんの頭を撫でながらそう言った。
+I caressed Mikan's head while saying that.
 
 そうだな、今日のみかんのがんばりを褒めてやらなくちゃいけないな。
+Right, I've got to praise Mikan for her hard work today.
 
 ＠Itsuki
 「今回のフェラチオは初めてにしては良くやってたぞ。　特に舌使いがよかったな」
+「Considering that these are your first times doing fellatio it was really good. Especially your tongue use.」
 
 ＠Itsuki
 「次にやる時は……、歯を立てない事、そしてオレには……精液をかけない事。　わかった？」
+「Next time......, you won't bite, and as for me...... I won't end up covered in semen. All right?」
 
 ＠Mikan,A02258
 「……うんわかったよ、みかん、ふぇらちお初めてだったから、本当はすごく不安で、すごく心配だったんだ…お兄ちゃんに褒められてよかった…本当によかった…」
+「...... Got it. I'm just starting fellatio, so I was actually really worried and scared... I'm glad I was praised by Onii-chan... Really, I'm glad...」
 
 ごしごしと目元をこすっているみかんを、オレは優しく抱きしめやる。
+As Mikan rubs her eyes scrubbing them off I hold her close.
 
 ＠Itsuki
 「よく頑張ったな、みかん。えらいぞ」
+「You tried hard, Mikan. I'm proud of you.」
 
 
 scene_end
@@ -1980,143 +2171,145 @@ return
 
 
 # みかん口の中に出す2 ########################################################
+# Come in Mikan's mouth2 ########################################################
 label	training_mikan_fellatio_b02
 @effect_iku
 #みかんの口の中に出す　二回目
+#Come in Mikan's mouth, second time
 #【05】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-05.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-05.png"
-＠Mikan,A02134
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-05.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-05.png"
+＠みかん,A02134
 「ひんっ、んんふぁぁあああぁぁん　くはっ…、くぁぁああぁぁん…」
 
 オレはみかんの口の中に、俺自身の精を解き放っていた。
 
 口の中に収まりきれなかったオレの精液が、飛び散っていくのを視界の隅にとらえる。
 
-＠Mikan,A02135
+＠みかん,A02135
 「んんぁ…、おにいひゃんのせいえき…っ、いっぱい…　んあ…っ、まら出てきひぇるぅぅぅぅぅ」
 
 粘ついたオレの精液がみかんの口を汚していく。
 
 泡だった精液を口のはしにつけて、みかんはオレの精を受け止め続けていた。
 
-＠Itsuki
+＠樹
 「……ふぅ…、たくさん出してしまったな…。　大丈夫か、みかん」
 
 #【06】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-06.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-06.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-06.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-06.png"
 口いっぱいにオレの精液を頬張っているみかん。
 
 精液を受け止めるのは二回目、と言う事もあって多少は事に慣れていたようだった。
 
 
 #【06】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
-＠Mikan,A02136
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
+＠みかん,A02136
 「ふぇ…、らいりょぶ…。　ふぉにいちゃんの熱いせいえき…、みかん全部受け止めらよ…？」
 
 と、口を開いた途端、つう、と白い筋が伝っていった。
 
-＠Itsuki
+＠樹
 「こぼれたな」
 
 
 #【06】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-06.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-06.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-06.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-06.png"
 
-＠Mikan,A02137
+＠みかん,A02137
 「むぐぐぐ…」
 
 みかんは口を押さえてくぐもった声を上げた。
 
-＠Itsuki
+＠樹
 「まあ、それはさておき、えらいぞ、みかん。　基本は飲むんだが…どうだ？　飲み込めそうか？」
 
 みかんは口の中に貯まった精液を多少もて余しているような雰囲気だが。
 
-＠Mikan,A02138
+＠みかん,A02138
 「むぐ…むが…」
 
 口の中でどうやら精液の味を確かめているらしい。
 
 舌を動かしている様子が頬の動き方でわかる。
 
-＠Mikan,A02139
+＠みかん,A02139
 「飲む…飲んでみりゅよ…」
 
 口の中でもごもごとさせながらみかんが言った。
 
-＠Itsuki
+＠樹
 「そうか　でも無理はしなくていいぞ、ゆっくり慣れていけばいいんだからな」
 
-＠Mikan,A02140
+＠みかん,A02140
 「うん　でもみかん、がんばりゅんら…」
 
 また一筋、白い液が口の端から流れていった。
 
 
-＠Mikan,A02141
+＠みかん,A02141
 「んん～～～～～～　んんぐうぅぅぅうぅううう」
 
 みかんは四苦八苦しながらも、何とか少しずつ飲み込んでいる様子である。
 
-＠Mikan,A02142
+＠みかん,A02142
 「んんんんんんっ、んくっ…　んくく…っ　……ごく…、ごくっん……」
 
 その様子を見守っていたオレは、みかんの喉が完全に嚥下したのを見計らって声をかける。
 
-＠Itsuki
+＠樹
 「どうだ、みかん。　大丈夫か？　いけそうか？」
 
-＠Mikan,A02143
+＠みかん,A02143
 「……………………」
 
-＠Itsuki
+＠樹
 「みかん…？？」
 
 
 #【08】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-07.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-07.png"
 
-＠Mikan,A02144
+＠みかん,A02144
 「…っっぱぁあああぁぁぁあああん」
 
 不意を突かれた。
 
-＠Mikan,A02145
+＠みかん,A02145
 「に、にがぁあいい　へんな匂いが口の中でするぅうぅぅぅ　喉の奧がイガイガして気持ち悪いよぉぉぉぉ」
 
-＠Itsuki
+＠樹
 「………そんなに、苦くて、くさくて、変な味、か、オレの精液は」
 
 脱力しながら呟くように言ったオレ。
 
-＠Mikan,A02146
+＠みかん,A02146
 「んあ？　あう？」
 
 オレの様子に気づいたみかんが、あわてて取り繕うようにフォローを入れてきた。
 
-＠Mikan,A02147
+＠みかん,A02147
 「違うよ、違うのっ　ほら、ええとね、あんまり味わった事のない、…えーと…。　そう　「珍味」　チンミだったからね、みかん、ちょっとあわてちゃったの」
 
-＠Itsuki
+＠樹
 「珍味…、珍味ね、…オッケー、おおけー。　わかりました、了解です。　…まあ、それはさておいて、勝負はオレの勝ち、だったな、みかん」
 
-＠Mikan,A02148
+＠みかん,A02148
 「あうう…、あれは…ずるいよぉ…だってフェラチオの調教だったのにぃ…、いつの間にかあんな事になってるんだもん…」
 
-＠Itsuki
+＠樹
 「ははは。　まあいいじゃないか、オレも気持ちよかった、みかんも気持ちよかった　おあいこって事で」
 
 オレはみかんの頭を撫でながらそう言ってやる。
 
 実際楽しかった、こんな状況だからこそ、楽しさも時には必要だ。
 
-＠Mikan,A02149
+＠みかん,A02149
 「うーん、なんかごまかされたような…そんな気がするよ…？」
 
 気持ちよさそうに頭を撫でられて、うっとり目をつぶりながらみかんはそう言った。
@@ -2133,61 +2326,61 @@ label	training_mikan_fellatio_b03
 @effect_iku
 
 #【05】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-05.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-05.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-05.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-05.png"
 ビュクッ、ドクッ　ドクッ、ビュルッ　ドクッ、ドクンッ！
 
 オレは脳天を突き上げた強烈な射精感に呻いた。
 
 そのまま、みかんの口内へ、オレはオレの精を放つ。
 
-＠Mikan,A02005
+＠みかん,A02005
 「ふぁんっ！　あぁあぁあああ…　熱ひ…、熱ひ、お兄ひゃんのセイエキ…ッ」
 
-＠Mikan,A02006
+＠みかん,A02006
 「くふぅ…っ、くあぁ…っ　どんどん…出てりゅう…っ　出てくりゅうっ　お兄ひゃん…ッ　たくさん…出してぇ…ッ　もっと、もっとぉぉ」
 
 オレの精液をすべて受け止めたみかんの口から、白濁の液がなみなみと溜まっているのが見えた。
 
 顔を紅潮させたみかんが、少々息苦しそうに胸を上下させている。
 
-＠Itsuki
+＠樹
 「大丈夫か、みかん。　どうだ、飲めるか」
 
 みかんは口を閉じ、こくんとうなずいた。
 
 #【09】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-09.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-09.png"
-＠Mikan,A02007
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-09.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-09.png"
+＠みかん,A02007
 「んん…っ、んくむ…っ、こくくっ、こくん……、こくん」
 
 なんとか飲み下しているようだ。
 
 だが、飲みきれない精液が口の端から一筋、二筋とこぼれ落ちていく。
 
-＠Mikan,A02008
+＠みかん,A02008
 「…っはあ…っ、んく…っ、こくっ、……ごくん」
 
 完全に嚥下したようだ。
 
 みかんは「飲んだよ」というようにオレを見る。
 
-＠Itsuki
+＠樹
 「よくやったな、みかん。　全部…とはいかないまでもちゃんと飲めたじゃないか」
 
-＠Mikan,A02009
+＠みかん,A02009
 「はぁ…っ、はあ…っ　う、うん、ちょっとこぼしちゃったけど、なんとか飲めたよ　でも、やっぱり苦いねぇ…、えへへ…」
 
 オレの肉棒を手にしたまま、はにかむように笑うみかん。
 
-＠Itsuki
+＠樹
 「みかんは本当に努力家だな、オレはちょっと感心したよ。　精液だってそんなに飲み込めるもんじゃないのにな…。　みかんに飲んでもらってオレもうれしいよ」
 
-＠Mikan,A02010
+＠みかん,A02010
 「お兄ちゃんにそう言ってもらって、みかん本当にうれしいよ　せいえきだって、今度は一息でのんじゃうからね　みてて、お兄ちゃん」
 
-＠Itsuki
+＠樹
 「ははは…、無理はしなくていいんだぞ、無理はな」
 
 みかんの笑顔につられて、オレも笑顔でそう言った。
@@ -2203,59 +2396,59 @@ label	training_mikan_fellatio_b04
 #みかん　口内射精　4回目
 #【15】
 @effect_iku
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-15.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-15.png"
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-15.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-15.png"
 ドクッ、ビュクッ、ドククッ！！　ドック、ドク！！
 
 オレはみかんの口内に吐精していた。
 
 みかんが与えてくれた熱に浮かされるように、オレの射精は続く。
 
-＠Mikan,A02150
+＠みかん,A02150
 「んぁああぁぁっぁ　ああ　お兄ひゃん…　お兄ひゃんのセイエキぃ…ッ　いっぱい、いっぱい、ちょうらい…ちょうらいぃぃぃ」
 
 オレの精液を受けるみかんは、うっとりと心地よさげに目を閉じている。
 
 #【12】
-if t_mikan_bondage_flag=0 then event "event\EV_MIK_060-12.png"
-if t_mikan_bondage_flag=1 then event "event\EV_MIK_061-12.png"
-＠Itsuki
+if mikan_bondage_flag=0 then event "event\EV_MIK_060-12.png"
+if mikan_bondage_flag=1 then event "event\EV_MIK_061-12.png"
+＠樹
 「大丈夫か、みかん。また、たくさん出しちまってごめんな…。飲めるか？」
 
-＠Mikan,A02151
+＠みかん,A02151
 「らいじょうぶ、みかん、のみらいの…」
 
 そういってみかんは口内に溜まった精液を飲み干し始めた。
 
-＠Mikan,A02152
+＠みかん,A02152
 「んく…、こく…こくん…　あうぅ…　…　けふ…っ、こふ…っ　んんっ…ごくっ」
 
-＠Mikan,A02153
+＠みかん,A02153
 「んく…あぁ…っ、お兄ちゃんのセイエキぃぃ…　ごく…っ、ひうん　あふぅぅぅぅっ　あぁ…ンッ、ああぁ…っ　イイよぉ…っ」
 
-＠Mikan,A02154
+＠みかん,A02154
 「体が、アソコが、熱い…　みかん、みかん、もう…ッ　ああ……ッ」
 
 まるで愉悦に打ち震えるかのように、みかんはビクリビクリと体を震わせ、オレの吐き出した精液を飲み干している。
 
-＠Mikan,A02155
+＠みかん,A02155
 「はぁぁぁぁん…っ、…全部のんじゃった…、お兄ちゃんの苦くて、でも甘いセイエキ、ぜんぶのんじゃったよぉ…」
 
 愉悦に潤む瞳を細め、みかんはうっとりとつぶやいた。
 
-＠Itsuki
+＠樹
 「苦くて甘い…？　それはどんな味なんだよ…」
 
-＠Mikan,A02156
+＠みかん,A02156
 「言ったままの味だよ。苦くて甘くて、お兄ちゃんの味がした」
 
-＠Itsuki
+＠樹
 「よくやったな、みかん。正直みかんがここまでやりきれるとは思ってなかった。　途中で弱音をはくんじゃないかって思っていた」
 
-＠Itsuki
+＠樹
 「けど、みかんはここまで来た　えらいぞ　みかん」
 
-＠Mikan,A02157
+＠みかん,A02157
 「えへへ　ちがうよ、お兄ちゃん。お兄ちゃんがいたから、お兄ちゃんが教えてくれたから、みかんここまで出来るようになったんだよ　…お兄ちゃん、ありがとう…」
 
 何かを達成した、という感じは心地よいものだ。

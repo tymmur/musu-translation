@@ -1,53 +1,71 @@
 label	ichigo_e01
 
 #体験版期間。調教開始前に発生。（月曜日～木曜日）
+#Personal experience version period. Occurence before beginning of training. (Monday - Thursday)
 #みかんに２回ほど調教済みの方が好ましい
+#It's desireable that training with Mikan completed at least twice.
 #------------------------------------------------------------
 
 #■BG（食堂・夕食）
+#■BG（Dining hall・Dinner）
 @bgm12
 event	"event\EV_ALL_021-00.png"
 
-＠いちご,O00528
+＠Ichigo,O00528
 「ねぇパパ～、いちごハンバーグ大好物なんだ～♪」
+「Hey Papa～, hamburger is definitely Ichigo's favourite food～♪」
 
 それは今夜のメインディッシュ。
+That's tonight's main dish.
 
 すでに皿の上に跡形も無く食べつくしたいちごがオレの分に目を光らせる。
+Already having polished off any traces left on her plate, Ichigo's eyes light up at my portion. 
 
-＠樹
+＠Itsuki
 「野菜を全部食べたらやる」
+「If you eat all your vegetables you can have it.」
 
-＠いちご,O00529
+＠Ichigo,O00529
 「え～。ハンバーグくれたら食べるよ、ちゃんと」
+「Huh～. If you give me yours I'll eat it, all of it.」
 
-＠樹
+＠Itsuki
 「そういって食べたことが今までに一度でもあったか？」
+「Is there even one time where you've said that and eaten your vegetables?」
 
-＠いちご,O00530
+＠Ichigo,O00530
 「野菜だっていちごに嫌々食べられるよりは、他の人に美味しく食べてもらう方が喜ぶと思うよ？」
+「I think it's more pleasing eating other people's tasty food for them than having to eat vegetables if I don't want to.」
 
-＠みかん,A00469
+＠Mikan,A00469
 「あ、いちごちゃんが今何か正論っぽいこと言った」
+「Ah, Ichigo-chan raised a good point just now.」
 
-＠いちご,O00531
+＠Ichigo,O00531
 「感心した？　だったらちょうだいハンバーグ」
+「Did you like it? Then, hamburger please.」
 
-＠みかん,A00470
+＠Mikan,A00470
 「あッ、ああ！　ダメッ、みかんも大好きなの！」
+「Ah, ahhh! Don't, I like them too!」
 
 #SE37　金属衝突音（カキィンッ！）
+#SE37　Sound of metal hitting metal （カキィンッ！）
 @se37
 
 目の前でおかずをとりあえず二人の空腹猛者。
+Dinner and a show.
 
 そして結局オレがいちごに自分の分をやるのが日常になってきている。
+And in the end giving Ichigo my own share is becoming a regular occurence.
 
-＠樹
+＠Itsuki
 「あー、ほら。やるから喧嘩するな」
+「Hey, wait. Don't fight over food.」
 
-＠いちご,O00532
+＠Ichigo,O00532
 「ありがとパパ♪」
+「Thanks Papa♪」
 
 @bg_black
 bgm_stop
@@ -55,888 +73,1208 @@ wait	1000
 
 #BGM切り替え
 #■BG（廊下・夜）
+#BGM Switchover
+#■BG（Corridor・Evening）
 @bgmk04
 @bg_rouka_n
 
-＠樹
+＠Itsuki
 「あ～、小腹減ったな……」
+「Ahh～, I think I'm losing weight......」
 
 #SE16　廊下を歩く音
+#SE16　Sound of walking in the hallway
 @se16
 
 就寝前。
+It's just before bedtime.
 夕食のおかずを食べ損なったオレはキッチンを目指し歩いていた。
+Having failed to eat a side dish during dinner I headed to the kitchen.
 
-＠樹
+＠Itsuki
 「明日に響かない、軽い物が残ってればいいけど……うぅっ」
+「It won't make a difference tomorrow, but it would be good if there's something left...... So hungry......」
 
 夜はさすがに冷えるな、まだ……
+It still gets pretty cold at night......
 
 残り物が温かいはずないし、レンジしてからか……深夜にわびしいことこの上ない。
+The leftovers won't be warm, so maybe I'll heat it up in the oven...... Then I won't be miserable late at night.
 
 @ichigo_pajama
 @ichigo_middle
 
-＠いちご,O00533
+＠Ichigo,O00533
 「あ、パパだ！」
+「Ah, it's Papa!」
 
 #SE20　廊下を走ってくる音　※徐々に大きく
+#SE20　Sound of running through hallway　※Gradually louder
 @se20
 
 
-＠樹
+＠Itsuki
 「え……？」
+「Huh......?」
 
 @bgm03
 @ichigo_warai
 
-＠いちご,O00534
+＠Ichigo,O00534
 「何してるのパパ、こんなとこで」
+「What are you doing here Papa?」
 
-＠樹
+＠Itsuki
 「それはオレの台詞だろ。いちごこそ、何で起きてるんだ」
+「No, the question is what are you doing here, Ichigo. Why are you awake?」
 
 @ichigo_tere
-＠いちご,O00535
+＠Ichigo,O00535
 「いちごは、なんか眠れないから散歩してたの」
+「I'm kind of restless so I was walking around.」
 
 出歩くには時間の遅い、パジャマ姿のいちごが昼間のテンションで笑みを零す。
+Late to be taking a stroll, pajama-robed Ichigo lets loose a smile without a hint of fatigue. 
 
-＠樹
+＠Itsuki
 「学校だろ、明日。起きれなくなるぞ」
+「Don't you have school tomorrow? You won't be able to get up.」
 
 @ichigo_warai
-＠いちご,O00536
+＠Ichigo,O00536
 「大丈夫だよぉ、眠くなったら学校で寝るから～♪」
+「Oh I'm fine, if I get sleepy I can sleep in school～♪」
 
-＠樹
+＠Itsuki
 「そうならないように言ってるんだっ」
+「And I'm telling you you shouldn't do that.」
 
 @ichigo_yokujyou_yorokobi
 
-＠いちご,O00537
+＠Ichigo,O00537
 「ねぇ～パパも一緒に起きてようよ～。いちご一人で退屈だったの」
+「Hey～, let's be awake together～. I was bored alone.」
 
-都合よく出会ったオレを早速捕獲に掛かるいちご。
+都合よく出会ったオレを早速捕獲に掛かる いちご。
+Having conveniently stumbled across me Ichigo aims to capture me at once.
 
 しかしオレも教育上おいそれと捕まるわけにいかない。
+However, pursuing more than education I can't allow that.
 
-＠樹
+＠Itsuki
 「ダメだ、わがまま言わずに布団に入れ。ジッとしてたらその内眠くなるから」
+「That's no good, stop complaining and go to bed. If you wait patiently you'll get sleepy.」
 
 @ichigo_ikari
 
-＠いちご,O00538
+＠Ichigo,O00538
 「ジッとなんて時間の無駄だよ。だったら疲れて眠くなるまで遊ぼうよ～」
+「Waiting patiently is a waste of time. Since I'm awake let's play until I get tired～」
 
-＠樹
+＠Itsuki
 「無駄なもんか。布団に入ってる瞬間とお風呂につかる瞬間って最高に幸せを感じるだろ」
+「Waste of time huh. The moment of going into a futon or being soaked in a bath I feel the highest blessing.」
 
 @ichigo_akire
 
-＠いちご,O00539
+＠Ichigo,O00539
 「……分かるけどなんかそれ、体力の無いおじいちゃんみたい」
+「...... Alright I get it but somehow that seems like something a weak grandpa would do.」
 
 #SE53　傷つく言葉（グサッ！）
+#SE53　Wounding remark （グサッ！）
 @se53
 
 素で言った台詞が素で返された。
+My honest words were returned bluntly.
 
-＠樹
+＠Itsuki
 「………そう、か？　けどそこら日常の波のある小事よりも、睡眠と入浴は安定かつ安心して得られる極上の……」
+「... ... ... Um, is that so? But as opposed to the troubles of everyday life, sleep and bathing is the best way to be refreshed and relaxed and......」
 
 #CH（いちご同情）
+#CH（Ichigo sympathizing）
 @ichigo_takurami
 
 
-＠いちご,O00540
+＠Ichigo,O00540
 「………」
+「... ... ...」
 
 フォローのつもりが余計に傷を深めるオレ。
+Following her I make the situation worse.
 深めた傷にすごいもの言いたげな気遣わしい視線を向けるいちご。
+Ichigo turns a worried look at my hurt pride like she's really getting what I'm saying.
 
 #BGM切り替え
+#BGM Switchover
 
 @bg_black
 
 wait	1000
 
 #■BG（いちごの部屋・夜）
+#■BG（Ichigo's room・Evening）
 @bg_ichigo_n
 
 @ichigo_middle
 
-＠樹
+＠Itsuki
 「ふ……オレはまだ若いからな」
+「Phew......  Because I'm still young you know.」
 
 @ichigo_warai
 
 
-＠いちご,O00541
+＠Ichigo,O00541
 「だよね、一緒に遊ぼうパパ♪」
+「Yeah you are, let's play Papa♪」
 
 いちごの部屋へとやってきた。
+I ended up in Ichigo's room.
 
 ああ負け犬だよどうせ。笑いたい奴は笑うがいいさ。
+I'm a loser like that anyway. Someone could have a good laugh at this.
 
 @ichigo
 
-＠いちご,O00542
+＠Ichigo,O00542
 「パパは初めてだよね～、いちごの部屋に来るの」
+「It's Papa's first time isn't it～, that you came to my room.」
 
-＠樹
+＠Itsuki
 「ん？　あぁ、そうかな」
+「Hm? Ahh, is that so.」
 
 一度美雨に案内されたことはあった。
+Miu did show me around once.
 
 改めて見ても、まぁ何ともいちごらしい部屋だの一言に尽きる。
+Even seeing it a second time, you could say reduced to one word this room doesn't resemble Ichigo at all.
 
 意外なのは、結構きれいに片付いていることくらいか。
+It's surprising how much everything has been put in order neat and tidy.
 
 @ichigo_warai
 
-＠いちご,O00543
+＠Ichigo,O00543
 「見て見て～♪　これね、いちごのお気に入りのニンジン枕なんだ～♪　てぃやッ！」
+「Look look～♪ This is my carrot pillow which suits me～♪　てぃやッ！」
 
 #SE26　柔らかい物との衝突音（バフンッ！！）
+#SE26　Sound of collision with a soft object （バフンッ！！）
+
 @se26
 #//フラッシュ
+#//Flash
 
-＠樹
+＠Itsuki
 「あぶッ！？」
+「Abuh!?」
 
 @ichigo_tere
 
-＠いちご,O00544
+＠Ichigo,O00544
 「柔らかくて気持ちいいでしょぉ～」
+「It's soft and probably feels good～」
 
-＠樹
+＠Itsuki
 「むぐっ、硬かったらこの攻撃は危ないだろうが……っ。お気に入りならもっと大事に扱えよ」
+「Muguh, if it was hard that strike would probably be dangerous...... and if it suits you treat it with more care.」
 
 @ichigo
 
-＠いちご,O00545
+＠Ichigo,O00545
 「これがいちごの愛情表現だよ。嫌いだったら蹴ったりしないで、そのまま捨てちゃうもん」
+「This is my show of affection. If you don't like it don't kick it or anything, just throw it away.」
 
 @ichigo_warai
 
-＠いちご,O00546
+＠Ichigo,O00546
 「あ、もちろんいちご、パパだって大好きだよ♪」
+「Ah, of course, I love Papa lots too♪」
 
-＠樹
+＠Itsuki
 「なるほど、だったらオレも理不尽なボレーシュートを食らわないように気をつけておくよ」
+「I see, so I should watch my back to avoid unreasonable bicycle kicks every now and then.」
 
 不恰好なニンジンを模ったクッションをいちごに投げ返す。
+I throw the pillow modelled after an unshapely carrot back to Ichigo.
 
 #SE26　柔らかい物との衝突音（バフンッ！！）
+#SE26　Sound of collision with a soft object （バフンッ！！）
 @se26
 
-＠いちご,O00547
+＠Ichigo,O00547
 「んぷッ、えへへぇ♪　パパ、何して遊ぶ？」
+「Unpuh, ehehee♪ Papa, what are we going to play?」
 
-＠樹
+＠Itsuki
 「そうだな。どっちが早く眠れるか競争するのはどうだ」
+「Right. How about which one of us can fall asleep first.」
 
 @ichigo_akire
 
-＠いちご,O00548
+＠Ichigo,O00548
 「え～。やっぱりおじいちゃんだ……」
+「Huh～. You really are a grandpa......」
 
 @ichigo_odoroki
 
-＠いちご,O00549
+＠Ichigo,O00549
 「あッ、そうだ！　だったらいちごが寝るの手伝ってよ、パパ♪」
+「Ah, that's it! Then help me go to sleep, Papa♪」
 
-＠樹
+＠Itsuki
 「……おじいちゃん言われるから嫌だ」
+「...... I don't like it because you called me grandpa.」
 
 @ichigo_warai
 
-＠いちご,O00550
+＠Ichigo,O00550
 「お年よりは国の宝なんだよ？」
+「Being more aged is the pride of the nation isn't it?」
 
-＠樹
+＠Itsuki
 「………」
+「... ... ...」
 
 @ichigo_gimon
 
-＠いちご,O00551
+＠Ichigo,O00551
 「………？」
+「... ... ...?」
 
-＠樹
+＠Itsuki
 「話戻すぞ。で、手伝うって何をしてほしいんだ」
+「I take it back. So, what do you want me to do to help?」
 
 
 @ichigo_tere
 
-＠いちご,O00552
+＠Ichigo,O00552
 「えっとね。いちごのおっぱいとか触って気持ちよくしてほしいの。そしたら眠くなるから絶対大丈夫だよ」
+「Um, yeah. I want you to touch my boobs and stuff and make me feel good. Then I'll get sleepy so I'll be absolutely fine.」
 
-＠樹
+＠Itsuki
 「………は？」
+「... ... ... Ha?」
 
 それって、つまりそういうことだよな。いちごが言ってるんだから。
+So I guess her plan was this kind of thing. She's saying it clear as day. 
 
-＠樹
+＠Itsuki
 「眠くなるのか、それは。むしろ………興奮して目が冴えるだろ」
+「To get you sleepy huh. I think... ... ... It'll get you excited and wake you up instead.」
 
 @ichigo_warai
 
-＠いちご,O00553
+＠Ichigo,O00553
 「ううん、最後まで気持ちよくなったら、いちごいつもそのまま眠っちゃうよ」
+「Nope, If I feel good all the way to the end, I always fall asleep like that.」
 
 あぁ、オルガスムスのことか……
+Ahh, I guess she means orgasm......
 
-＠樹
+＠Itsuki
 「そうか……どうするかなぁ……」
+「Is that so...... I wonder what I should do......」
 
 @ichigo_gimon
 
-＠いちご,O00554
+＠Ichigo,O00554
 「……？　もしかして出来ないの、パパ？　雫が、下手な男は出来ないって言ってたよ」
+「......? Maybe you can't do it, Papa? Shizuku said that unskilled men can't do it.」
 
-＠樹
+＠Itsuki
 「う……余計なことまで教えてるな、あの人は」
+「Ugh...... She's really teaching you unnecessary things.」
 
-＠樹
+＠Itsuki
 「このまま止めて雫さんに何か言われるのは癪だ」
+「Stopping like this and what Shizuku-san would say of me is annoying.」
 
 @ichigo_warai
 
-＠いちご,O00555
+＠Ichigo,O00555
 「してくれる？」
+「You'll do it for me?」
 
-＠樹
+＠Itsuki
 「ああ、もうみかんで吹っ切れたからな。その代わり、オレの尊厳が掛かってるから覚悟してもらうぞ？」
+「Ahh, I've already broken through with Mikan. In return, I'll bequeath you with my presence. Ready?」
 
-＠いちご,O00556
+＠Ichigo,O00556
 「えへへ、うん！　やった、パパと一緒だー♪」
+「Ehehe, yeah! All right, together with Papa♪」
 
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
+#SE02　Fall to the futon・Futon springs up（バフッ！！）
 @se02
 
 #ニンジン枕を抱えたまま、いちごは嬉しそうにベッドへダイブするのだった。
+#Holding the carrot pillow, Ichigo dives to the bed happily.
 
 @bg_black
 
 
 scene_start	"いちごペッティング"
 #■HEV（いちご・ペッティング）
+#■HEV（Ichigo・Petting）
 @bgm10
 event	"event\ev_ich_010-00.png"
 
 コロンと仰向けに転がると、期待たっぷりな視線でこちらを見上げてくる。
+When she tumbles down face-up on the bed, she looks up at me full of anticipation.
 
-＠いちご,O00557
+＠Ichigo,O00557
 「パパ、まずは何するの？」
+「Papa, what'll you do first?」
 
-＠樹
+＠Itsuki
 「そうだな……」
+「Right......」
 
 別にエッチの経験もない純青年というわけではないが、改めて聞かれると何からするべきか。
+It's not like she's a pure youth who hasn't had any sexual experience, but when she asks me again I wonder how to begin.
 
 挿入までは行かなくてもいいだろう。
+I probably don't need to go as far as insertion.
 キスもまぁ直接的なものだし、出来るだけひかえ………メインはペッティングからオーラルセックス辺りまでか。
+Also kissing seems kind of direct, so I can only do... ... ... In the vicinity between petting and oral sex I guess.
 
-＠いちご,O00558
+＠Ichigo,O00558
 「服脱いだほうがいい？」
+「How about taking off my clothes?」
 
-＠樹
+＠Itsuki
 「いや、オレが自分のタイミングで脱がす。任せてろ」
+「No, I'll strip you at my own pace. Leave it to me.」
 
 促しの瞳に応じ、小さな体躯のラインへ手を伸ばす。
+Answering her urging eyes, I run my hand along the length of her petite frame.
 
-＠いちご,O00559
+＠Ichigo,O00559
 「んくくッ、あははッ……パパ、わき腹くすぐったいよ」
+「んくくッ、あははッ...... Papa, I'm ticklish on the side.」
 
-＠樹
+＠Itsuki
 「今はそれでいい。すぐに気持ちよく感じるようになるさ」
+「That's fine for now. You'll feel good from it soon.」
 
 わき腹から上へなぞり上げ、胸の方まで指を這わせた。
+Tracing along from her sides to the center, my finger creeps along toward her chest.
 
 生地越しに感じる丸みある肉付きの感触が、そこに近づくにつれて僅かな丘になっていく。
+The feel of her bosom through her clothes round, as my finger approaches it gets into hilly area.
 
-＠樹
+＠Itsuki
 「ちゃんと膨らんでるんだな、いちごも」
+「You're pretty well-developed, Ichigo.」
 
-＠いちご,O00560
+＠Ichigo,O00560
 「当たり前だよ。まだちっちゃいけど、いちごも美雨みたいなおっぱいになるんだから」
+「Obviously. I'm still small, but I'm getting boobs like Miu's.」
 
-＠樹
+＠Itsuki
 「美雨が目標かぁ………難儀だな」
+「Miu's the goal huh... ... ... That's tough.」
 
-＠いちご,O00561
+＠Ichigo,O00561
 「いちごじゃ無理？」
+「Is it impossible for me?」
 
-＠樹
+＠Itsuki
 「牛乳を飲んで、好き嫌いをせずに野菜を食べないとダメだな」
+「If you don't drink milk and eat vegetables putting aside your tastes it's hopeless.」
 
-＠いちご,O00562
+＠Ichigo,O00562
 「うぐ……美雨と同じこと言ってる……。美雨も、好き嫌いを無くして野菜を食べろって言うの」
+「Uguh...... You're saying the same things as Miu...... She's also like eat my vegetables and don't be so picky.」
 
-＠樹
+＠Itsuki
 「美雨が言うなら間違いないな。ちなみに、雫さんは？」
+「If it's Miu saying it you can bet it's right. What about Shizuku-san?」
 
-＠いちご,O00563
+＠Ichigo,O00563
 「知らない。何か大笑いしただけで、そのまま行っちゃった」
+「I don't know. She just had some laughing fit and left.」
 
 ………あの人は。保護者の自覚があるのか？
+... ... ... That woman. Is she even aware she's their guardian?
 ほとんど娯楽代わりに子供達を預かってるようにしか見えないぞ……
+It always looks like she's taking care of amusements instead of the kids......
 
 話をしながらも指先に神経を集め、いちごの胸元を探っていた。
+Though talking, feeling with the tip of my finger, I searched Ichigo's breasts.
 下着やシャツは着けていないらしい。
+It seems she's not wearing underwear or a shirt.
 
 なので服越しでも、薄い胸の先端を探り当てるのにそう時間はかからなかった。
+So even through the fabric, finding the thin tip of her breast didn't take very long.
 
 event	"event\ev_ich_010-01.png"
 
 
-＠いちご,O00564
+＠Ichigo,O00564
 「あぅっ、ん……パパの指、いちごのおっぱいの先っちょ触ってるよ……」
+「Auh, un...... Papa's finger is touching the tip of Ichigo's boob......」
 
-＠いちご,O00565
+＠Ichigo,O00565
 「そこもくすぐったいけど、もっと強く触って。気持ちいいから」
+「It tickles there too, but touch me harder, since it feels good.」
 
 さっきまでの楽しそうな会話の調子から僅かに身体をモジらせ、刺激に対して反応を見せるいちご。
+From chatting conversationally a moment ago, now her body twists a little; stimulated, Ichigo displays her response.
 
 望みどおり指を押し付けパジャマの裏地を擦り付けてやる。
+I press my finger at will and rub the lining of the pajama against her.
 
-＠いちご,O00566
+＠Ichigo,O00566
 「ぅぅん……えへへ、変な感じがする……くすぐったくて、身体がゾクゾクするの」
+「Uun..... Ehehe, I'm getting a weird feeling...... It tickles, and my body's tingling.」
 
 いちごは自分の感じる刺激が面映そうに、くすぐったい笑みを浮かべてみせた。
+Ichigo bashfully tried to express what she felt with a tickled smile.
 
-＠樹
+＠Itsuki
 「もっと動かしてあげようか？」
+「Shall I move more for you?」
 
-＠いちご,O00567
+＠Ichigo,O00567
 「うん、パパに任せるよ。雫みたいに気持ちよくして」
+「Yeah, I leave it you Papa. Make me feel good like Shizuku.」
 
 雫さんみたいにか………
+Like Shizuku-san huh... ... ...
 
 彼女が何をしているのかは分からないが、あの余裕の態度からはかなりの手練であることが予想できる。
+I don't know specifically what she does, but from her composed manner it wouldn't surprise me that she's quite skilful.
 
 だからこそざくろ達にあそこまで仕込めるのであって……
+That's why Zakuro and Suika are in that area too......
 
-＠いちご,O00568
+＠Ichigo,O00568
 「……っん、はぁぁ、たくさん擦れてる、おっぱいの先っちょ……」
+「...... Un, Haaa, You're rubbing it a lot, the tip of my boob......」
 
-＠いちご,O00569
+＠Ichigo,O00569
 「えへへ……パパの指、おっきいね。いちごの先っちょが全部隠れちゃうよ」
+「Ehehe...... Papa's finger is so big. Ichigo's tip is completely hidden.」
 
-＠樹
+＠Itsuki
 「……ここか？」
+「...... Here?」
 
 いちごの言う先端の突起の中心へ指を腹をあてがう。
+I fit the belly of my finger to the center of Ichigo's said tip's bulge.
+#Umm... I think this is a typo. that first wo should be no. tsk tsk tsk
 
 僅かにポッチの感触を感じながら、膨らみの小丘に押し沈め振動させた。
+I can feel her nipple slightly, and I press and sink into and vibrate this swelling hill.
 
 #（//完全に感じてるわけではなく、くすぐったさの笑み交じりで）
-＠いちご,O00570
+#（//It's not all sexual feelings, it's mixed with a tickled smile）
+＠Ichigo,O00570
 「やふッ、んんぅ……くすぐったくて気持ちいいよ……はぁ」
+「Yafu, unn...... It tickles and it feels good...... Haa」
 
-＠樹
+＠Itsuki
 「いちごも、胸は薄くてもここは感じるのか。調教のときも？」
+「Even if your chest is small does this turn you on? During training too?」
 
-＠いちご,O00571
+＠Ichigo,O00571
 「うん、もっといっぱい触ってるよ……パパも触って」
+「Yeah, I'm feeling it even more...... Touch me too Papa.」
 
 モゾモゾとシーツの上で体勢を整えながら、ねだるように見上げるいちご。
+Stirring restlessly adjusting her position on the sheets, Ichigo looks up at me coaxing.
 
 指で弄るおっぱいの先をこちらに向ける様は、エッチ慣れした女の子のしぐさだ。
+The way she turns the tips of her breasts I'm touching with finger toward me is that of a girl used to ecchi.
 
-＠いちご,O00572
+＠Ichigo,O00572
 「んぅ、ふぅ……ん、お胸の周りも包んでる、パパの手……えへへ、まだパジャマなのに、先っちょ硬くなってきちゃう」
+「Nu, fuu...... Un, Papa's hand is covering all around my chest too...... Ehehe, it's still pajama, but the tip is getting hard.」
 
 乳首と共に健気ながらも膨らみを築く胸にも手を当てながら、パジャマ越しに手を往復させた。
+Though her nipple is praiseworthy too I touch my hand to her bulging breasts, and come and go through her clothes.
 
-＠いちご,O00573
+＠Ichigo,O00573
 「んふぅ、はぁぁっ、パパも触るの上手だよ……いちごの気持ちいいところいっぱい触ってきてる」
+「Unfuu, Haaa, Papa's touching is skilful too...... You're coming to touch my sweet spot so much.」
 
-＠樹
+＠Itsuki
 「まだ服越しだぞ？　下手かどうかなんて試されるんなら、ちょっとくらいいちごにも頑張ってもらわないな」
+「It's still through your clothes. Skilful or not if one tries, it doesn't take much effort for you Ichigo.」
 
-＠いちご,O00574
+＠Ichigo,O00574
 「うん……んふふ、楽しみ♪　もっと責めてパパ」
+「Yeah...... Unfufu, it's fun♪ Blame me more Papa.」
 
 いい覚悟だ。
+She's well prepared.
 いちごも慣れてるようで、余裕は十分にありそうな感じか。
+With the way she's getting into it too, she seems to have plenty of composure.
 
-＠樹
+＠Itsuki
 「さっきいちごが言った先っちょを、もっと硬くしてやるか？」
+「Your tip that you mentioned before, should I make it harder?」
 
-＠いちご,O00575
+＠Ichigo,O00575
 「ん～、えへへ。パパに出来るかなぁ？　いちごもがんばるよぉ」
+「Hm～, ehehe. I wonder if I'm ready for Papa. I'll do my best too.」
 
 勝敗でも決めるゲームのように無邪気に笑う。
+She laughs innocently like she's contemplating a game.
 
 ぬぅ～……可愛いじゃないか。
+Hmm～...... She's cute isn't she.
 これが普通に遊びでのゲームなら、オレも喜んで楽しませてやる気になるが。
+When she makes it a light-hearted game like this, it makes me enjoy it and willing too.
 
 まぁ今までみかんしか相手にしていなかったから。これも一つの越えるべきハードルだと割り切ろう。
+Well, I haven't been with anyone but Mikan so far. If this is also one of the hurdles to cross, I think I'll put some resolve into it.
 
-#＠みかん,A00471
+#＠Mikan,A00471
 #「ねぇパパ、調教の時みかんも、気持ちよくなって寝ちゃう？」
+#「Hey Papa, do you get Mikan to feel good and fall asleep for training too?」
 
-#＠樹
+#＠Itsuki
 #「どうかな、寝るには寝るけど、それが原因で寝たのかは分からないか」
+#「I'm not sure, she sleeps, but I don't know if that's the source of her falling asleep.」
 
-#＠樹
-#「もしいちごは寝るようだったら、みかんよりいちごの方がエッチな子ってことだ」
+#＠Itsuki
+#「もしいちごは寝るようだったら、みかんよりいちごの方がfエッチな子ってことだ」
+#「Maybe if you're falling asleep from it, that means you're more ecchi than Mikan.」
 
-#＠いちご,O00576
+#＠Ichigo,O00576
 #「どうだろ～、いちごエッチかなぁ。早く勝負の続きしようよ、パパ♪」
+#「Really～, I wonder if I'm ecchi. Come on, let's continue our game, Papa♪」
 
 #元々遊びたがっていただけに、すっかりゲームということでノリノリらしい。
+#Wanting to play from the start, she looks thoroughly delighted by the idea of the game.
 
 #便乗するオレもオレだが。
+#And then there's opportunistic me.
 
 首元のチャックを下ろし、いちごの肢体を開けさせた。
+Pulling the zipper down from the neck, I exposed Ichigo's body.
 
 #■（服脱がし差分）
+#■（Clothes removed increment）
 event	"event\ev_ich_010-02.png"
 
-＠いちご,O00577
+＠Ichigo,O00577
 「う……もう脱がしちゃうんだ」
+「Ah...... I'm stripped enough now.」
 
 これまでの行為で少し朱を帯びた肌。
+Her skin is a little flushed from the act so far.
 薄く膨らんだ裸の胸と、下半身のショーツまでが露になる。
+Her slightly bulging bust all the way to her shorts is unconcealed.
 
 視線にさらされ、いちごの声がちょっと控えめになった。
+Exposed to my eyes, Ichigo's voice became a little milder.
 
-＠樹
+＠Itsuki
 「ん～？　どうしたいちご、頑張るんだろ？　それとも降参か？」
+「Hm～? What's wrong Ichigo, trying your best right? Or were you planning to give in?」
 
-＠いちご,O00578
+＠Ichigo,O00578
 「ち、違うもんっ……パパが急にチャック開けてエッチな目で見たから、ビックリしただけだもん」
+「T-That's not it...... you opened up my zipper so quickly and looked at me all lusty, I was just surprised is all.」
 
 エッチな目……
+Lusty eyes......
 そんな目してたのか。オレ……
+Did I really do that......
 
 いや、まぁ凹凸は無くても、健康的な女の子の身体に意識を惹かれたのは事実だが。
+No, well the truth is even if there's nothing unsmooth, my awareness was captivated by a healthy girl's body.
 
-＠樹
+＠Itsuki
 「なるほど。それじゃエッチな目で結構だ。視線だけじゃなくて手もエッチにさせてもらうからな～」
+「I see. Well then with lusty eyes is just fine. Because I won't be just looking, my hands will be lusty for you too～」
 
-＠いちご,O00579
+＠Ichigo,O00579
 「え……やぅ、んぅ」
+「Huh...... Yau, nu」
 
 ぽっちゃりと丸みある肢体が幼美な魅力をかもし出す。
+Her well-rounded body expresses the charm of a young girl.
 そのお腹の方から手を滑らせながら、到達したいちごの胸をまさぐった。
+I make my hand glide from that belly, and reaching Ichigo's breasts groped them.
 
-＠いちご,O00580
+＠Ichigo,O00580
 「あぅ、はぁ……んっ、いいよ……これくらい、何でもないもん」
+「Au, haa...... Un, it's good...... This much, it's nothing.」
 
-＠樹
+＠Itsuki
 「あぁ、そうだよな。これくらいで気持ちいいと、ほんとにエッチな子だ」
+「Ahh, right. If you felt good with this much, you really would be a perverted child.」
 
-＠いちご,O00581
+＠Ichigo,O00581
 「うん、ぜんぜん……はぁ、平気だよ。いちごエッチじゃないもん……」
+「Yeah, not at all...... Haa, I'm calm. I'm not perverted......」
 
 先端のポッチにはまだ触れないように指をかわし、膨らみをプニプニと捏ね寄せる。
+My finger dodging to still avoid touching the raised tip of her nipple, I knead and bring her squishy bulges close.
 
 それだけでは弱いので、指の先で薄い乳首周りを時折り擦り、その頂に触れそうな焦らしを与えていく。
+By itself that's weak, so rubbing around her thin nipple on occasion with the tip of my finger, that peak's irritated like it was touched.
 
-＠いちご,O00582
+＠Ichigo,O00582
 「んんぅ～……はぁぁ、ず、ずるいよパパ……先っちょ、触るなら触ってよぉ」
+「Nnu～...... Haaa, t-that's cheating Papa...... If you're touching my tip, then touch it.」
 
 その度にいちごの吐息が緊張しては震えてかすれていった。
+Each time Ichigo's breaths turned strained, quavering and husky.
 
 指使いがじれったそうに、いちごが唇を噤んでは歪ませる。
+When Ichigo shuts her lips my finger use makes them curl impatiently.
 
-＠いちご,O00583
+＠Ichigo,O00583
 「いちご、別に先っちょに触っても平気だから……ふぅ、ん、頑張れるから、触ってもいいよ、パパ」
+「I don't care if you touch my tip or not...... Fuu, un, I can handle it, so it's fine if you touch me, Papa.」
 
-＠樹
+＠Itsuki
 「もしかしていちごは触ってほしいのか？　自分からねだるなんて、エッチだから勝負はどうでも良くなったのかな？」
+「Maybe you want to be touched? You're coaxing me into it like you're horny so this game works for you anyway, doesn't it?」
 
-＠いちご,O00584
+＠Ichigo,O00584
 「んぅっ、ふぅ……だって、パパが触らずに勝負から逃げてるんだもん……」
+「Nu, fuu...... But you're not touching me and running away from the game......」
 
-＠いちご,O00585
+＠Ichigo,O00585
 「いちごはエッチじゃないから、別に触らなくてもいいけどさ……パパが触りたいかなって……っひゃう！」
+「I'm not perverted, so I'm fine if you don't really touch me...... I wonder if that means Papa wants to...... Hyau!」
 
 いちごが負けず嫌いな言葉を並べる中で、触れなかった指で乳首を押し付けてやる。
+While without surrendering Ichigo voices her distaste, I press down on her nipple with the said unused finger.
 
-＠樹
+＠Itsuki
 「お、どうしたいちご？」
+「Oh, what's wrong Ichigo?」
 
 クリクリッ……クニュッ。
+*rub rub*...... *rub*
 
-＠いちご,O00586
+＠Ichigo,O00586
 「ひゃんっ！　んんふ……はぁッ、パ、パパぁ……んく！」
+「ひゃんっ！　んんふ……はぁッ, P-Papa...... んく！」
 
 予想通り焦らされた後の敏感な反応。
+As expected a sensitive reaction after being teased.
 しかしこのまま触るのもまだ面白くないな。
+However, touching like this still isn't that interesting.
 
-＠樹
+＠Itsuki
 「……おっと、悪い。いちごの話に夢中で間違えて触ってたな。気をつけないと」
+「...... Oops, sorry. I was engrossed in what you were saying and made a mistake. I'll have to pay attention.」
 
-＠いちご,O00587
+＠Ichigo,O00587
 「んふぅッ……えっ、あ……」
 
-＠樹
+＠Itsuki
 「危うくいちごをエッチな子と勘違いして触るところだったよ」
+「I almost confused Ichigo as being a perverted child and I was about to touch you.」
 
 事故を装って指を離すと、明らかに名残惜しそうないちごの吐息。
+When I feign an accident and part my finger, Ichigo's sigh shows unmistakeable regret.
 
-＠樹
+＠Itsuki
 「いちごはエッチじゃないから、ちゃんと勝負も続けて勝つんだよな？」
+「Ichigo isn't perverted, so I guess I'll continue the game just like you said and win, right?」
 
-＠いちご,O00588
+＠Ichigo,O00588
 「うう～……続けるよぉ……続けるんだけどね、パパ～……」
+「Uu～...... Keep going...... Just continue it, Papa～......」
 
 そのままもう泣きかけ半分に恨めしそうにオレを見上げる。
+Still more in the midst of sobbing like that Ichigo looks up at me spitefully.
 
 そんな目で見られたらますます苛めたくなってくるのだが……
+Looking at me like that I'm wanting torment her more and more but......
 
-＠樹
+＠Itsuki
 「しょうがないな。それじゃエッチだって認めるなら、いちごの言うこと聞いてやるよ」
+「It can't be helped. Well then, if you admit you're ecchi I'll listen to what you have to say.」
 
-＠いちご,O00589
+＠Ichigo,O00589
 「んぅ……うん、勝負に負けたとかって言わない？　いちご、まだ勝てるの？」
+「Nu...... Okay, you won't say like I lost the game or something? Ichigo is still winning right?」
 
-＠樹
+＠Itsuki
 「ああ、いいよ。特別サービスだ」
+「Ahh, don't worry about it. It's special service.」
 
 っていうか、本当はサービスでもなんでもなく、イクかイカないかの勝負にエッチかどうかはまるで関係の無い事柄だったりする。
+Actually, the truth is it's not service or anything, whether ecchi or not is irrelevant to the game of getting her to come or not.
 
 もっと言えば、別に勝負でもなんでもないわけで……
+To say more I mean it's not a game at all......
 まぁいちごの性格から、何かに『負けた』とされるのが嫌いなだけなんだろうけど。
+Because of Ichigo's personality, it's probably just that she hates to be seen as "giving in" to something.
 
-＠いちご,O00590
+＠Ichigo,O00590
 「んっ、はぁふ……いちご、おっぱいの先っちょもっと触ってほしいのぉ……」
+「Un, Haafu...... I want you to touch the tip of my boobs more......」
 
-＠いちご,O00591
+＠Ichigo,O00591
 「さっきちょっと触った時もね……お股の方も……ぁふ、はぁ、すごく熱くなっちゃったのぉ……」
+「Like when you touched a little while ago...... I got really hot...... Afuh, Haa, down there......」
 
-＠いちご,O00592
+＠Ichigo,O00592
 「パパ、やっぱりいちごってエッチなのかな……」
+「Papa, I wonder if I am perverted after all......」
 
 さっきと同じように乳首をよけて触られながら、いちごが腿を擦り合わせる。
+Like before avoiding her nipple and being touched, Ichigo rubs her thighs together.
 
 ショーツにはプックリと柔らかな恥丘の膨らみと、スリットのシワがくっきりと現れていた。
+Swelling of her soft mons and the crease of her slit had appeared distinctly through her shorts.
 
 そこの中心にいちごの言葉通りの染みが広がっている。
+At the center just like Ichigo said a stain is widening.
 
-＠樹
+＠Itsuki
 「う～ん、そうだな、エッチだと思うぞ」
+「Hmm, right, I think you are perverted.」
 
 ヤバい……一度意識したら、そっちに目が行きそうになる。
+Shit...... Coming to my senses, my eyes were being drawn there.
 
-＠いちご,O00593
+＠Ichigo,O00593
 「んぅ、はふぅ……エッチでもいいから……触ってパパ」
+「Nu, hafuu...... Even perverted is fine...... Touch me Papa.」
 
 認めたいちごがねだる言葉も、焦らす必要はもうないだろう。
+Having admitted and with Ichigo's coaxing words, I guess there's no need to tease anymore.
 
-＠樹
+＠Itsuki
 「いいけど、勝負はいちごの不利になるんじゃないか？　こんな風に」
+「Good, but the game would work against you wouldn't it? Like this.」
 
 #■HCG（差分乳首刺激）
+#■HCG（Nipple stimulus increment）
 event	"event\ev_ich_010-03.png"
 voice_bg	"O90001"
 
-＠いちご,O00594
+＠Ichigo,O00594
 「あぅんッ！　はぁッ……ひふんッ！　ぁっ、ぁあうん！」
 
 予想以上にいちごの弾む声が大きく零れだした。
+Ichigo's cry sprang forth more than expected.
 
-＠樹
+＠Itsuki
 「ほら、どうだいちご、触られる方が辛いだろう？」
+「Hey, how is it Ichigo. I guess the way I did it was tough on you......」
 
-＠いちご,O00595
+＠Ichigo,O00595
 「はぁぁッ……はぁ、んぅっ、くぅん……へ、平気だもん……いきなりだから、びっくりしただけ……」
+「はぁぁッ……はぁ、んぅっ、くぅん...... I-It doesn't bother me...... It was sudden so I was just surprised......」
 
-＠樹
+＠Itsuki
 「そうかな。まだ摘んだだけで、こうも出来るんだぞ？」
+「Is that how it is. I still only pinched, can you handle this too?」
 
 挟み込んだ先端を、いちごの薄い胸を揉みながらクリクリと捏ねてやる。
+While massaging Ichigo's thin breasts I knead her tip between my fingers.
 
 その瞬間、泣き声のような声を上げて、いちごが身体を弾ませた。
+At that moment, Ichigo raises her voice like a sob, and her body springs up.
 
-＠いちご,O00596
+＠Ichigo,O00596
 「あぅッ……くふぅん！　はぁっ……はぁっ、んんく、やぅッ！」
 
-＠樹
+＠Itsuki
 「頑張るって言ってたのに、乳首はもう硬くなってるなぁいちご」
+「You said you'd do your best, but your nipple is getting hard already Ichigo.」
 
-＠いちご,O00597
+＠Ichigo,O00597
 「んんッ……あふ、はぁっ、はぁぁ……だから、触ってほしかったんだもん……」
+「んんッ……あふ、はぁっ、はぁぁ...... That's why I wanted you to touch me......」
 
 ＠いちご,O00598
 「ぱ、パパ……あぅッ、んんく！　クリクリするのだめぇ……それ、反則だよぉっ……はぁ、あふ」
+「Pa, Papa...... あぅッ、んんく！ You can't rub between your fingers...... That's against the rules...... はぁ、あふ」
 
 きつく摘むたびに身体をベッドの上で弾ませるいちご。
+Every time I pinch a little hard Ichigo's body springs up on the bed.
 
 さっき視界に入れて意識が移ったショーツのクロッチに、見て明らかなほど染みが広がっていく。
+I see the crotch of her shorts that entered my vision a moment ago and I turned away from, and the stain is clearly widening.
 
-＠いちご,O00599
+＠Ichigo,O00599
 「ぁっ、ああぅッ……ふぁぁッ！　いちごのおっぱい、先っちょが取れちゃうよぉ」
+「ぁっ、ああぅッ……ふぁぁッ！ You're going to take off the tip of my boobs!」
 
-＠樹
+＠Itsuki
 「取れたりしたら確かに一大事だな。心配しなくても捻ったくらいじゃ取れないさ」
+「That would pretty serious. Don't worry, my twisting isn't going to do anything like that.」
 
 クリュリュッ……キュッ、クリッ……
+*rub rub*...... *kyu, kuri*......
 
-＠いちご,O00600
+＠Ichigo,O00600
 「あふぅッ、んん！　取れなくてもダメぇ……はぁッ、反則してるから、パパの負け……あぅん！」
+「あふぅッ、んん！ Even then it's still no good...... Haa, you're playing dirty, so you're losing...... Aun!」
 
-＠樹
+＠Itsuki
 「そんなルール初耳だけど。でも気持ちよくなって眠りたかったんだろ、いちごは？」
+「I've never heard those rules before. But you wanted to feel good and sleep, didn't you?」
 
-＠いちご,O00601
+＠Ichigo,O00601
 「はぁぁッ、んぅ！　んはぁッ……あ、そうだった……はふぅッ、いちご、気持ちよくて忘れてた……」
+「はぁぁッ、んぅ！　んはぁッ...... Ah, that's right...... Hafuh, I felt good and forgot......」
 
 やれやれ……まぁいちごらしいか。
+Oh jeez...... Well that's Ichigo for you I guess.
 
-＠樹
+＠Itsuki
 「なら問題ないだろ？　勝負もついたし、気持ちいいならこうしても」
+「Then what's the problem? It's part of the game, so if it feels good I can do this too.」
 
 ちょっと嗜虐心が疼かされ、捏ねながらクニクニと乳首を引っ張り刺激を強めてやった。
+A little sadistic spirit aroused, while kneading I pull her nipples and strengthen the stimulus.
 
-＠いちご,O00602
+＠Ichigo,O00602
 「ひゃぅんッ！　はあッ、んぅ！　んんぅ！　おっぱい、ビリビリしてきてるぅ……」
+「ひゃぅんッ！　はあッ、んぅ！　んんぅ！ My boobs are prickling......」
 
-＠いちご,O00603
+＠Ichigo,O00603
 「はぁふ……パパ、いちごの気持ちいいの弾けたら、疲れて眠くなっちゃうよぉ……」
+「Hafuh...... Papa, if my feeling good bursts out, I'll get nice and tired and sleepy......」
 
-＠樹
+＠Itsuki
 「いちご、そういうのをイクっていうんだ。雫さんから聞いてないのか？」
+「Ichigo, that's called coming. Hasn't Shizuku-san told you that?」
 
-＠いちご,O00604
+＠Ichigo,O00604
 「ん、ぅ？　イク……？　うん、初めて聞いたよ……」
+「Un, hm? Coming......? No, that's the first time I've heard that......」
 
 そうなのか……？
+Really......?
 妙なことは溢れるほど教えるくせに、基本を教えない人だな。
+Her teachings are dripping with odd little details, and yet she doesn't teach the foundation.
 
-＠樹
+＠Itsuki
 「いちごの気持ちいいのが弾けるっていうのはイクって言うんだ」
+「Yep, when your good feelings burst out as you say, that's called coming.」
 
-＠いちご,O00605
+＠Ichigo,O00605
 「んくッ！　はぁぁっ、じゃあ、いちごこのままイクの……？」
+「んくッ！　はぁぁっ, So, am I going to come like this......?」
 
 つままれた乳首に身体を震わせ、吐息を甘く弾ませるいちご。
+Her body shaking at the pinched nipple, Ichigo's breath spikes impressively.
 朱を帯びていた肌に薄く汗の雫が浮き始めている。
+Thin beads of sweat are appearing on her flushed skin.
 
 中でもやはり、ショーツに広がる染みはもうグッショリと濡れていた。
+Even in her shorts, the spreading stain has made it soaking wet.
 
-＠樹
+＠Itsuki
 「今まで胸だけでイッたことはあるか？」
+「Have you come already just from your chest?」
 
-＠いちご,O00606
+＠Ichigo,O00606
 「んっ、ぁッ！　うぅん……おっぱいと、お股も一緒に触ってるのぉ……ひゃぅふッ！」
+「んっ、ぁッ！ No...... I feel it in my boobs and down there at the same time...... ひゃぅふッ！」
 
-＠樹
+＠Itsuki
 「そっか……そうだろうな。胸だけでイクのは厳しいか」
+「Is that so...... Yeah that's probably it. Coming from your chest would be pretty tough.」
 
 いちごはそこへ刺激を欲するように何度も腿を擦り合わせていた。
+Ichigo had rubbed her thighs together so many times wanting to be stimulated there.
 
 もともと薄い生地のショーツで、ほとんど透けているその光景に視線が移ってしまう。
+I change my target of interest to that spectacle at her shorts, practically showing through the already thin fabric.
 
-＠いちご,O00607
+＠Ichigo,O00607
 「ふあ、あぅうっ……パパ、お股も触ってぇ……はぁ、ぅうんッ、いちご、イキたいよぉ……」
+「ふあ、あぅうっ...... Papa, touch me down there too...... Haa, uuhn, I want to come......」
 
-＠いちご,O00608
+＠Ichigo,O00608
 「眠くなんなくてもいいから……お股で気持ちよくなりたいのぉ……ふぅっ、くぅん！」
+「I don't care about about getting sleepy...... I want to feel good down there...... ふぅっ、くぅん！」
 
-＠樹
+＠Itsuki
 「……やるのか？」
+「...... I'll do it?」
 
 それはオレへの問いかけでもある。
+I'm asking myself just as much.
 
 みかんを調教はしているが、今はその免罪符は通用しない。
+I am training Mikan, but right now that luxury doesn't apply.
 完全にオレの意思でいちごとこういうことをしているのだ。
+I'm doing such a thing with Ichigo completely of my own volition.
 
 思案しながらも服を脱がすオレに、いちごは身体を浮かせて微笑みかける。
+Though I'm contemplating, Ichigo lifts her body and smiles at me stripping her.
 
-＠いちご,O00609
+＠Ichigo,O00609
 「はぁ……ぁっ、んんっ、気持ちよくしてほしいのぉ、パパ……」
+「はぁ……ぁっ、んんっ, I want to feel good, Papa......」
 
-＠樹
+＠Itsuki
 「分かってるよ。ただ、ここは自分で触るんだ」
+「All right. Just, here you should touch yourself.」
 
-＠いちご,O00610
+＠Ichigo,O00610
 「え……？」
+「Huh......?」
 
 ペットリ張り付いてシワを寄せるショーツを指し、脱がすことを確認する。
+Pointing to her shorts which have a crease sticking closely, she inquires.
 
-＠いちご,O00611
+＠Ichigo,O00611
 「んぅっ……パパが触ってくれないの……？」
+「んぅっ...... Papa, you're not going to touch me......?」
 
-＠樹
+＠Itsuki
 「あぁ……オレは……」
+「Ahh...... Well......」
 
-＠樹
+＠Itsuki
 「おっぱいの方でもっと感じさせてやろう。二人でする方が二倍のよさかもしれないぞ？」
+「I think I'll make you feel it more with your chest. With both of us it's twice as good, is it not?」
 
-＠いちご,O00612
+＠Ichigo,O00612
 「ぁふう、んっ……」
 
 @bg_black
 
 シュルッと脱がせたショーツの裏側に、いちごから滲んだ愛液が濃い糸を引いていた。
+Inside her shorts which were removed rustling, oozing fluids stem in a thick string from Ichigo.
 
 体躯と相まって、みかん以上に幼い花弁。
+Their builds taken together, she's no less of a younger petal than Mikan.
+
 しかしその秘所はもう快感を知っている場所で、だからこそ期待が蜜を滴らせているのだろう。
+However her private spot being a place which already knows pleasure, anticipation has made her nectar flow.
 
 甘い匂いが香り、いちごとはいえ女の子のソコの光景に視線を奪われるのはしようがない。
+Permeating a fragrant scent, though it's Ichigo I can't help my gaze being stolen away by the scene of a girl's place.
 
-＠いちご,O00613
+＠Ichigo,O00613
 「はぁぁ……んぅ、分かった……だから、早く続きしてぇ」
+「Haaa...... Nu, All right...... Then, hurry up and keep going.」
 
 オレの中断を返事待ちだと勘違いしたいちごが、我慢しきれないようにムズがった。
+Thinking that I was waiting for something, I feel Ichigo's restlessness like she can't hold back anymore.
 
 いちごの軽い身体を抱え上げると、裸になった肢体へ身を寄せていく。
+When I lift her light body up into my arms, I press myself close to her bare limbs.
 
 #■HCG（胸）
+#■HCG（Chest）
 event	"event\ev_ich_011-00.png"
 voice_bg	"O90002"
 
-＠いちご,O00614
+＠Ichigo,O00614
 「ッん！　あッ……ひゃぃん！」
 
 期待通り乳首を口に含み、より強い刺激を舌先で与えてやると、いちごの身体がビクンと大きく弾んでみせた。
+As expected holding her teat in my mouth, when I give her stronger stimulus with my tongue, Ichigo tried to leap up with a jerk.
 
-＠いちご,O00615
+＠Ichigo,O00615
 「んぅぁっ、はぁぁッ！　んッ！　パパぁ……！」
+「んぅぁっ、はぁぁッ！　んッ！ Papaa......!」
 
-＠樹
+＠Itsuki
 「イキたいなら、いちごはちゃんと下の方を触ってるんだ」
+「If you want to come, you should be touching yourself down there.」
 
 @seh27
-＠いちご,O00616
+＠Ichigo,O00616
 「んぅくッ！　ぅん……はぁぁふ、うんッ！　はぁッ、はぁッ……ひぅんッ！」
 
 ＠いちご,O00617
 「いちごのここ、すごく濡れてるよぉ……くふぅんッ！　んぁッ、触ると、気持ちいいぃ……！」
+「Ichigo's place, it's getting really wet......くふぅんッ！　んぁッ, when I touch, it feels good......!」
 
 抱えられたまま手を下ろし、自らの秘部をこすり上げるいちごの指。
+Lowering her hand while held in my arms, her finger reaches her slit and rubs.
 
 嬌声の合間にクチュクチュと淫らな音が攪拌され、幼美な身体が動機を弾ませる。
+Between her lovely moans a lewd wet noise being roused makes her young body get excited.
 
-＠いちご,O00618
-「はぁ、んんふッ！　パパ、熱くなってるぅ……もっと吸って、いちごのおっぱいぃ……
-！」
+＠Ichigo,O00618
+「はぁ、んんふッ！　パパ、熱くなってるぅ……もっと吸って、いちごのおっぱいぃ……！」
+「はぁ、んんふッ！ Papa, I'm getting hot...... Suck my boobs more......!」
 
 下半身と胸との重なり官能で、いちごの反応は一気に昇り詰めていく。
+With sensuality from down there and her chest, Ichigo's reaction spikes at a breath.
 
 #→正直、驚き戸惑っていた。
+#→Honestly, I was surprised and bewildered.
 #→普段とまるで別人のように快楽を訴えるいちごの艶肢に。
+#→She appeals for pleasure like she's a different person.
 
 #→※みかんの時との比較保留。
+#→※Deferring a comparison with Mikan.
 #驚きか、それともみかん同様で締めるのか
+#Is it surprise, or is it that it sums equal with Mikan.
 
-＠樹
+＠Itsuki
 「少しずつ強めていくぞ」
+「I'll strengthen it little by little.」
 
-＠いちご,O00619
+＠Ichigo,O00619
 「はぅんッ！　んんきゅぅぅぅッ……！！」
 
 吸い上げた先を舌で押し潰す刺激に、子犬のような鳴き声をあげる。
+She raises her voice whining like a puppy at my squishing of her tip with my tongue.
 
-＠いちご,O00620
+＠Ichigo,O00620
 「はぁぁッ！　あぅふ……んくぅんッ！　くぅふんッ！　ふぁあッ！」
 
-＠いちご,O00621
+＠Ichigo,O00621
 「あふぅッ！　お股とおっぱいが……ああッ、はあぁッ！　気持ちよくて痺れちゃうよぉ……！」
+「あふぅッ！ My boobs and down there...... ああッ、はあぁッ！ It feels good, I'm getting excited......!」
 
 高まる感度に比例して、いちごの手の動きも強まっていく。
+As she gets more excited, Ichigo moves her hand stronger.
 そこから滴る愛蜜がシーツへ糸を引くように汚し、濃い性香を放っていた。
+Soiling her shorts with a string of dripping love nectar I pull from there, it gave off a pungent odour.
 
 乳首を吸い上げる都度にいちごの身体が弓なりに反れ、全身に浮く熱い珠の汗がさらにその艶っぽさを高めているのだ。
+Ichigo's body arching backward every time I suck up her teat, the beads of sweat coating her body are adding to that fiery scene.
 
 今この瞬間は、オレの知る〝いちご〟はいないのだ。
+Right now, this isn't the Ichigo I've come to know.
 
-＠いちご,O00622
+＠Ichigo,O00622
 「んひぅッ！　ふぁ、はぁぁッ！　パパ、もっと強くしてぇ……そしたらいちご、イッちゃうからぁ……！」
+「んひぅッ！　ふぁ、はぁぁッ！ Papa, do it harder...... Then I'll come......!」
 
-＠樹
+＠Itsuki
 「ダメだ、少しずつだって言ったろう？　おねだりする我慢の無い子は、逆に弱めちゃうぞ？」
+「That's no good, didn't I say I'd do it bit by bit? Maybe I should back off since you're impatient and pester so much?」
 
-＠いちご,O00623
+＠Ichigo,O00623
 「くひんッ！　はあぁぁッ、あはぁッ！　や、やらよぉ……よわ、弱めらいでぇ……」
+「くひんッ！　はあぁぁッ、あはぁッ！ N-No ron't...... R-ron't back off......」
 
 意地悪で舌を弱めてやると、浮き上がった呼吸がいちごから呂律を奪っていく。
+When I slow down my tongue for her malevolently, Ichigo's respiration which rose snatches away her articulation.
 
 その分求めるように熱っぽさが増し、指の動きはここから見て明らかなほど強くなっていくようだった。
+To that extent her feverish desire rising, I observe her fingers moving from here and clearly it's getting stronger.
 
-＠いちご,O00624
+＠Ichigo,O00624
 「あはぁッ！　はふぅッ、んぅ！　ひてよ、パパぁ……いひご、頭が変になっひゃうよぉ……！」
+「あはぁッ！　はふぅッ、んぅ！ 'ome, Papaa...... My head's 'etting all funny......!」
 
-＠樹
+＠Itsuki
 「抜き打ちで調教に変えてみるか？　このまま一人だけで、いちごがイケるかどうか」
+「Are you trying to change this into training? As it is you'll be alone, whether you're able to come or not.」
 
-＠いちご,O00625
+＠Ichigo,O00625
 「やぁ……ふああ！　ひ、ひじわるひないでぇ……こんらのぉッ、んぅ！　はぁぁッ！」
+「やぁ……ふああ！　R-ron't be mean...... 'his is so...... んぅ！はぁぁッ！」
 
-＠いちご,O00626
+＠Ichigo,O00626
 「ひんッ！　はぁぁッ、あぅ、んくぅ！　い、イケらいよぉぉ……！」
+「ひんッ！　はぁぁッ、あぅ、んくぅ！ I-I can't come......!」
 
 震える声で訴え、必死でせがむいちご。
+With a trembling voice, Ichigo implores me desperately.
 その涙姿に嗜虐的な性愛が生まれるのは否めない。
+I can't deny the sadistic passion welling up from her tearful figure.
 
 が、呂律も回っていないようだし可哀想か……
+But she can't even speak properly, it's kind of sad......
 まだオレはみかん以外の子への調教の許しは……厳密にはもらっていない。
+Strictly speaking...... I'm still not taking liberties of training anyone other than Mikan.
 
-＠樹
+＠Itsuki
 「はは、ウソだよ。約束したからな、いちごをイカせてやるって」
+「Haha, I'm not serious. We agreed and I said I would make you come didn't I?」
 
-＠いちご,O00627
+＠Ichigo,O00627
 「んぅッ、はぁぁッ！　パパぁ……んくッ！　ぁッ……ひきゅぅぅんッ！！」
+「んぅッ、はぁぁッ！ Papaa...... んくッ！　ぁッ……ひきゅぅぅんッ！！」
 
 休んだ舌を再開させ、いちごの薄い胸を強く吸い上げた。
+Restarting my resting tongue, I sucked hard on Ichigo's thin chest.
 
 尖った先端に唾液を塗りこめながら、何度も往復して転がしてやる。
+While I smear saliva over her hardened tip, I go back and forth and around many times for her. 
 
-＠いちご,O00628
+＠Ichigo,O00628
 「はあぁあッ、んんッ！　くふぁあッ！　先っひょがぁ、コロコロひてるぅ……！」
+「はあぁあッ、んんッ！　くふぁあッ！ 'he tip's rolling aroun'......!」
 
-＠いちご,O00629
+＠Ichigo,O00629
 「舐めてパパぁッ……いひごも、お股かき回ふぅぅッ……！！　くひゃぁあッ！！」
+「Lick it Papaa...... I'higo will stir it up down there too......!! くひゃぁあッ！！」
 
 乳首に軽く歯も立てた。徐々にこちらも攻め手を増やしていく。
+My tooth lightly found its way to her nipple, and Ichigo's slowly ramping up the offensive too.
 
 また、いちごのエッチな反応に、責めているオレの方もゆとりが無くなっているのは確かだ。
+Once again, as I fondle her I'm most definitely losing my reserve at Ichigo's sexy reaction.
 
 してやろうと思っていた手加減のタガは自然と一つずつ外れていく。
+My control of this situation I thought I was doing for her is unravelling on its own.
 
-＠いちご,O00630
+＠Ichigo,O00630
+「くふぅんッ！　はあぁッ、あんッ！　んふぅ、あッ！　はふぅッ、はぁぁッ！」
 「くふぅんッ！　はあぁッ、あんッ！　んふぅ、あッ！　はふぅッ、はぁぁッ！」
 
-＠樹
+＠Itsuki
 「……近いか、いちご？　もうイクか？」
+「...... Are you close, Ichigo? Will you come soon?」
 
-＠いちご,O00631
+＠Ichigo,O00631
 「んああッ！　はあぁッ！　イクぅッ、イカはいと、おかひくなっひゃうよぉ……！」
+「んああッ！　はあぁッ！ I'll come, if I hon' come, I'll be all 'essed up......!」
 
 その乱れよがり様に目をやると、いちごの指は花弁の抽挿や淫核の刺激を強く繰り返している。
+When I look to her lapsing into desire, Ichigo's fingers are forcefully stimulating her clit and going in and out of her petals again.
 
 ざくろやすいかと比べその手の動きはまるで夢中で拙いが、快感で翻弄されているからだろうか。
+Her hand motion's clumsy, as if in a trance, compared to Zakuro and Suika, but perhaps she likes being toyed with.
 
 ……いや、おそらく後者か。
+...... No, it's likely the latter.
 乱雑な動きの中にも、その指は達しようとするオナニーのように的確なポイントを外しはしない。
+In the middle of her muddled movement, those fingers aren't missing any precise points as with focused onanism.
 
-＠いちご,O00632
+＠Ichigo,O00632
 「あふぅッ！　んッ！　ふああッ！　からは、熱いぃッ……もう、弾けひゃうよぉ！！」
+「あふぅッ！　んッ！　ふああッ！ My bohy's so hot...... It's going to burst out!!」
 
-＠樹
+＠Itsuki
 「……あぁ、イケ、いちご」
+「...... Ahh, come, Ichigo.」
 
 咥えた乳首を歯で擦ると共に、いちごの手をオレからも動かした。
+At the same time as I graze her nipple with my tooth, Ichigo's hand is motivated by me too.
 
 快美感に寄って大雑になった指を、強く秘部へと突きいれ振動させる。
+She makes her finger, losing focus and approaching climax, forcefully thrust at her slit.
 
 #■HCG（表情差分）
+#■HCG（Facial expression increment）
 event	"event\ev_ich_011-01.png"
 
 
-＠いちご,O00633
+＠Ichigo,O00633
 「ひゃぅぅんッ！　強い、くるくうぅッ……！　ふぁッ、はああ！！　いひごイッひゃうよぉぉおッ！！」
+「ひゃぅぅんッ！ It's strong, it's coming......! ふぁッ、はああ！！ I'm coming!!」
 
-＠いちご,O00634
+＠Ichigo,O00634
 「ふあああッ！！　んッ、ああッ！　あぁぁああぅぅんんッッッ！！！」
 
 #//フラッシュ
+#//flash
 se_stop	1
 screen_flash	500
 event	"event\ev_ich_011-02.png"
@@ -944,112 +1282,145 @@ voice_bg	"O90007"
 
 
 普段からは思えないほど甘い響きの声をあげ、いちごが身体を震わせた。
+Pelting an impressive shriek I wouldn't have thought possible, Ichigo's body shook in tremours.
 
 抱きしめた身体がこわばり、痙攣するような身体の反応に流されるように指の動きも止まってしまう。
+Holding her stiffening body close, I stop my finger too and feel her convulsing reaction.
 
-＠いちご,O00635
+＠Ichigo,O00635
 「ぁッ、はぁぁッ……あふぅ！　んんくっ……」
 
-＠樹
+＠Itsuki
 「イッたみたいだな、いちご？」
+「Hey, looks like you came, Ichigo.」
 
-＠樹
+＠Itsuki
 「けど、もう少し頑張ってもらうぞ？」
+「But hang in there for a little more, alright?」
 
 event	"event\ev_ich_011-00.png"
 
-＠いちご,O00636
+＠Ichigo,O00636
 「え……くひゅぅぅんッ！！　あはぁぁッ、ふやぅんッ！！」
 
 まだ全然絶頂の余韻が抜け切らないいちごへ、再度乳首から刺激を与えて指を動かさせる。
+Still not wholly finished with the trailing notes of her climax, I reward Ichigo with more teat and finger service.
 
 衝動的なことだが別に情痴したわけじゃない。
+It was impulsive, but it's not like I was stricken mad by love or something.
 単にいちごならもう一度くらい、連続で絶頂しても大丈夫だろうと思ったからだ。
+It's just that I thought since it's Ichigo, she'll be fine coming again.
 
 voice_bg	"O90002"
 @seh27
 
-＠いちご,O00637
+＠Ichigo,O00637
 「やぅぅッ！！　ぇふああッ！　はぁふッ、んんぅッ……ま、まっへパパぁッ！」
+「やぅぅッ！！　ぇふああッ！　はぁふッ、んんぅッ...... S-S'op, Papaa!」
 
-＠いちご,O00638
+＠Ichigo,O00638
 「あぅんッ！　いひご、そんはにぃ……！　んぁはあッ！　はぁぅ、んくぅんッ！　へきらいよぉッ」
+「あぅんッ！ I'higo, like that......! んぁはあッ！　はぁぅ、んくぅんッ！ I 'an't.」
 
-＠樹
+＠Itsuki
 「知ってる、だからオレがやってやるよ。どうせイクなら二回くらいイッた方が、気持ちいいだろ？」
+「I know, that's why I'll do it for you. After all if you can come, wouldn't it feel good to come twice?」
 
 ほとんど力の抜け切ったいちごの手を勝手に動かし花弁を擦らせる。
+Her strength diminished Ichigo's hand starts up of its own accord and rubs her petals.
 
 絶頂の蜜が滴るそこは他人任せの指使いも楽に受け入れ、いちごの奥を掻き回させた。
+Her place trickling with the orgasm's nectar accepts the foreign fingering, and it churns up Ichigo's inside.
 
-＠いちご,O00639
+＠Ichigo,O00639
 「はぁあッ、ああうッ！　ぅんッ！　らめぇ……あぅんッ！　パパ、またイクよぉッ！」
+「はぁあッ、ああうッ！　ぅんッ！ S'op...... あぅんッ！ Papa, I'll come again!」
 
-＠樹
+＠Itsuki
 「イクんならいいだろ。本当に辛そうなら、ちゃんと止めてやるから」
+「That's good isn't it? If it looks too tough on you, I'll stop.」
 
-＠いちご,O00640
+＠Ichigo,O00640
 「んふぅッ、はあぁッ！　えぅうんッ！　そ、そぉな……パパ、くひぅんッ！！」
-
+「んふぅッ、はあぁッ！　えぅうんッ！ No, really...... Papa, くひぅんッ！！」
 
 
 いちごの身体が絶頂から続き、何度も小刻みに跳ね上がる。
+Continuing from the climax, Ichigo's body springs up a little many times.
 その度に愛蜜はとめどなく溢れ、全身の朱が熱を上げていく。
+When that happens her love juices flowing ceaselessly, her skin gets ever more flushed.
 
 連続して小さな絶頂に達しているらしい。しかし、
+One after the other, it's like she's reaching mini-orgasms. However,
 
-＠いちご,O00641
+＠Ichigo,O00641
 「はひぃッ！　はああッ！　パパッ、パパぁッ……あぅッ！　あふぅぅんッ！！」
+「はひぃッ！　はああッ！ Papa, Papaa...... あぅッ！　あふぅぅんッ！！」
 
-＠いちご,O00642
+＠Ichigo,O00642
 「いひごぉ、もぉなんろも……あぅッ、ぃふぅあッ！　はあぁッ、はぁぁッ！」
+「I'higo, so many times over...... あぅッ、ぃふぅあッ！　はあぁッ、はぁぁッ！」
 
-＠樹
+＠Itsuki
 「ほら、もう少しだいちご。頑張ってもう一回、大きくイッてごらん？」
+「Look, just a little bit left Ichigo. Hang in there once more and come big for me, alright?」
 
 挿入して振動させるのとは別の指を、淫核へもあてがって同時に震わせた。
+Inserting and pumping while putting another finger to her clitoris she shook them at the same time.
 
-＠いちご,O00643
+＠Ichigo,O00643
 「いぅぅッ！！　ぅはあッ！　ああッ！　はぁあくう！！」
 
 #//フラッシュ
+#//Flash
 se_stop	1
 screen_flash	500
 event	"event\ev_ich_011-01.png"
 
 その刹那、やはり我慢していたらしいいちごが絶頂の波を昇らせる。
+At that moment, Ichigo's who still looked she had been holding back makes the climax swell up.
 
 さっき以上に熱が火照り、まるで失禁するように愛蜜が飛び散っていった。
+Heat burning even more than last time, her love juices sprayed out uncontrollably.
 
 event	"event\ev_ich_011-02.png"
 
-＠いちご,O00644
+＠Ichigo,O00644
 「ッ！　んくぁッ、はあぁぁッ……えふぅ、んんぁぁッ」
 
-＠いちご,O00645
+＠Ichigo,O00645
 「あぁふぅッ……んくぅ、あらまが、まっひろになっちゃうよぉ……！」
+「あぁふぅッ……んくぅ, my hea's gone 'lank......!」
 
 voice_bg	"O90007"
 
 納まるまもなく達した二回の絶頂に呼吸を荒げ、涙すら浮かべて涎を滴らすいちご。
+Panting at the second climax reached without pause, tears come forth and drool drips down from Ichigo.
 
-＠樹
+＠Itsuki
 「……もしかして、辛かったか？」
+「...... Maybe it was tough on you?」
 
-＠いちご,O00646
+＠Ichigo,O00646
 「はふぅッ……んんく、気持ひよ過いて……くるひかったよぉ……」
+「はふぅッ……んんく, it felt too good...... It was painful......」
 
 わずかな肉付きの双胸が、荒い呼吸に乗せられて大きく膨らんではしぼんでいく。
+Her slightly buxom breasts were excited by rough breathing; her chest rises and falls greatly.
 
 そこを中心に唾液と、そして火照った肌に浮く汗がいちごの熱い官能の度合いを表していた。
+There saliva in the center and sweat dripping on her flushed skin express the extent of Ichigo's hot arousal.
 
-＠樹
+＠Itsuki
 「そっか。そんなに敏感に感じるとは思わなかったんだ。悪いな」
+「I see. I didn't think that you would be so sensitive. My bad.」
 
-＠いちご,O00647
+＠Ichigo,O00647
 「あふぅッ、はぁぁ……ぅうん、気持ちよかったよ、パパ……」
+「あふぅッ、はぁぁ……ぅうん, it felt good, Papa......」
 
 #■BG（いちごの部屋・室内灯）
+#■BG（Ichigo's room・Indoor light）
 voice_bg_stop
 @bg_black
 wait	1000
@@ -1059,35 +1430,48 @@ scene_end
 @bg_ichigo_n
 
 無頓着に気にしないいちごを促して身体を拭かせ、服を着させる。
+I prompt Ichigo, who is oblivious, and have her wipe herself dry and put her clothes on.
 
 ……いちごはベッドに横たわると、すぐにグッスリ寝息を立て始めた。
+...... When Ichigo lies down on her bed, quickly I hear her sleeping breaths.
 
-＠樹
+＠Itsuki
 「シャワーくらいすればいいのに……」
+「It would be good if she took a shower but......」
 
 まぁせっかく寝たのに起こすのは可哀想だ。
+It would be pretty sad to wake her after all this trouble to get her asleep.
 シャワーなどしたら逆に目が覚めてしまうだろう。
+A shower would perk her up probably.
 
-＠いちご,O00648
+＠Ichigo,O00648
 「んぅ……クゥ、クゥ～……」
 
-＠樹
+＠Itsuki
 「……調教か」
+「...... Training huh?」
 
 あの乱れ様は、思っていた以上だった。
+That dishevelled appearance was more than I anticipated.
 率直に言うとありえない。
+Impossible, actually.
 これが調教による成果なのだろうか。
+Is this what's expected to come of the training?
 
 #SE68　電気のスイッチ（パチッ）
+#SE68　Light switch (pachi)
 @se68
 
 #■BG（いちごの部屋・消灯）
+#■BG（Ichigo's room・Light off）
 @bg_ichigo_nn
 
-＠樹
+＠Itsuki
 「おやすみ、いちご」
+「Good night, Ichigo.」
 
 #SE07　部屋のドア閉まる音（パタン）
+#SE07　Sound of door shutting（patan）
 @se07
 
 #■BG（ブラック）

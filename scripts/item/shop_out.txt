@@ -5,6 +5,11 @@ label	shop_out_message
 #■■■注■■■
 # 巣蓋さんの名前表示は、名前を訊くまでは「店員さん」になりますが、いちいち書くのが鬱陶しいので、シナリオ上は以降「巣蓋さん」で統一しておきます。
 # とりあえず文字列変数に「店員さん」を入れておき、表示する際は文字列変数を参照、名前を訊いたところで文字列変数を「巣蓋さん」にするのが良いと思います。
+
+#■■■Explanatory note■■■
+# "Subuta"'s name display, until you hear it, will remain "Attendant". It's annoying to have to write them out separately, so upon that scenario "Subuta" will consolidate.
+# For now the character string variable "Attendant" is entered, the occasion where it's presented references the character string variable, that no matter where you hear the name the character string variable changes to "Subuta" is good I think.
+#TL note: I hope this doesn't cause issues... I'll try and do the same thing. Basically Subuta is written everywhere here but in the game is displayed as attendant. I'll just write Subuta too.
 if shop_talk_count>10 	then	goto shop_out_message_0
 label	shop_out_message_skip
 
@@ -19,12 +24,14 @@ if shop_nobuy_count=5 	then 	goto shop_out_message_8
 if shop_nobuy_count=6 	then 	goto shop_out_message_9
 if shop_nobuy_count>6 	then 	goto shop_out_message_10
 
-#■BG（アダルトショップ）
+#■BG（Adult shop）
 goto	shop_out_message_exit
 
 #■（条件分岐）
+#■（Fork in the road or conditional divergence or something）
 
 #（巣蓋さんと１０回話をしていて、今回の来店でアイテムを買った場合。すでにＨしている場合は除く）
+#（I think something like: in the case that you talked to Subuta 10 times and bought an item you go to an H scene. Just the verb at the end confuses me.）
 label	shop_out_message_0
 
 if shop_buy_count_work=0 then goto shop_out_message_skip
@@ -42,8 +49,9 @@ goto	shop_out_message_exit
 label	shop_out_message_1
 if shop_buy_count>2 then goto shop_out_message_3
 
-＠巣蓋さん,H00258
+＠Subuta,H00258
 「ありがとうございました……」
+「Thank you......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -52,8 +60,9 @@ goto	shop_out_message_exit
 label	shop_out_message_2
 if shop_buy_count>2 then goto shop_out_message_3
 
-＠巣蓋さん,H00259
+＠Subuta,H00259
 「ありがとうございました。またのご利用をお待ちしております……」
+「Thank you. I look forward to doing business with you again......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -61,8 +70,9 @@ goto	shop_out_message_exit
 #（今回の来店でアイテムを売買した場合３・これまで２回以上アイテムを買っている場合のみ）
 label	shop_out_message_3
 
-＠巣蓋さん,H00260
+＠Subuta,H00260
 「いつもありがとうございます……」
+「Thank you for your patronage......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -70,8 +80,9 @@ goto	shop_out_message_exit
 #（今回の来店で売買をしなかった場合）########################################
 label	shop_out_message_4
 
-＠巣蓋さん,H00261
+＠Subuta,H00261
 「ありがとうございました。またのご来店をお待ちしております……」
+「Thank you. I look forward to doing business with you again......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -79,8 +90,9 @@ goto	shop_out_message_exit
 #（今回、前回の来店で売買をしなかった場合）##################################
 label	shop_out_message_5
 
-＠巣蓋さん,H00262
+＠Subuta,H00262
 「ありがとう……ございました……」
+「Thank...... you......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -88,8 +100,9 @@ goto	shop_out_message_exit
 #（３回連続売買をしなかった場合）############################################
 label	shop_out_message_6
 
-＠巣蓋さん,H00263
+＠Subuta,H00263
 「またのご来店をお待ちしております……」
+「I'm looking forward to doing business with you again......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -97,8 +110,9 @@ goto	shop_out_message_exit
 #（４回連続売買をしなかった場合）############################################
 label	shop_out_message_7
 
-＠巣蓋さん,H00264
+＠Subuta,H00264
 「たまには……何か買ってください……」
+「Please...... Buy something sometimes......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -106,8 +120,9 @@ goto	shop_out_message_exit
 #（５回連続売買をしなかった場合）#############################################
 label	shop_out_message_8
 
-＠巣蓋さん,H00265
+＠Subuta,H00265
 「はぁ……」
+「Haa......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -115,8 +130,9 @@ goto	shop_out_message_exit
 #（６回連続売買をしなかった場合）#############################################
 label	shop_out_message_9
 
-＠巣蓋さん,H00266
+＠Subuta,H00266
 「また冷やかしですか……」
+「Just window-shopping again......」
 
 #（統合へ）
 goto	shop_out_message_exit
@@ -124,8 +140,9 @@ goto	shop_out_message_exit
 #（７回以上連続売買をしなかった場合）########################################
 label	shop_out_message_10
 
-＠巣蓋さん,H00267
+＠Subuta,H00267
 「…………」
+「... ... ... ...」
 
 goto	shop_out_message_exit
 #■（統合）
