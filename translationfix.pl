@@ -236,6 +236,59 @@ sub getJapaneseLines
 	return @array;
 }
 
+# ensure that speaker has the right @
+# converts name
+# ensures that audio fits the original
+# returns the converted line
+sub convertSpeakerLine
+{
+	my($line, $use_extra_dialogue) = @_;
+	
+	if (substr($line, 0, 1) eq "@")
+	{
+		$line = $speaker_add . substr($line, 1);
+	}
+	
+	my $name = substr($line, 2);
+		
+	my $audio = "";
+	if (index($name, ",") != -1)
+	{
+		my $index = index($name, ",");
+		$audio = substr($name, $index);
+		$name = substr($name, 0, $index);
+	}
+	
+	$name = convertLine($name);
+	
+	my $japanese_audio = $japanese[$japanese_index];
+	if ($use_extra_dialogue)
+	{
+		$japanese_audio = "";
+	}
+	else
+	{
+		if (index($japanese_audio, ",") != -1)
+		{
+			$japanese_audio = substr($japanese_audio, index($japanese_audio, ","));
+		}
+		else
+		{
+			$japanese_audio = "";
+		}
+	}
+	
+	if ($audio ne $japanese_audio)
+	{
+		print "audio mismatch\n";
+		print "found:    " . $line . "\n";
+		print "expected: " . $japanese[$japanese_index] . "\n";
+		die;
+	}
+
+	return $speaker_add . $name . $audio;
+}
+
 sub handleScreenLines
 {
 	my($use_extra_dialogue, @input) = @_;
@@ -244,68 +297,19 @@ sub handleScreenLines
 	my @lines;
 	my @output;
 	
+	my $first_line = "";
+	
 	my $has_japanese = 0;
 	my $has_translation = 0;
 	my $i = 0;
 	
 	my $type = getType($input[0]);
 	
-	if ($type eq "COMMAND")
-	{
-		# wrong @
-		$type = "SPEAKER";
-		$input[0] = $speaker_add . substr($input[0],1);
-	}
-	
 	if ($type eq "SPEAKER" or $type eq "COMMAND")
 	{
-		my $name;
-		if ($type eq "SPEAKER")
-		{
-			$name = substr($input[0],2);
-		}
-		else
-		{
-			$name = substr($input[0],1);
-		}
-		
-		my $audio = "";
-		if (index($name, ",") != -1)
-		{
-			my $index = index($name, ",");
-			$audio = substr($name, $index);
-			$name = substr($name, 0, $index);
-		}
-		
-		$name = convertLine($name);
-		
-		my $japanese_audio = $japanese[$japanese_index];
-		if ($use_extra_dialogue)
-		{
-			$japanese_audio = "";
-		}
-		else
-		{
-			if (index($japanese_audio, ",") != -1)
-			{
-				$japanese_audio = substr($japanese_audio, index($japanese_audio, ","));
-			}
-			else
-			{
-				$japanese_audio = "";
-			}
-		}
-		
-		if ($audio ne $japanese_audio)
-		{
-			print "audio mismatch\n";
-			print "found:    " . $input[0] . "\n";
-			print "expected: " . $japanese[$japanese_index] . "\n";
-			die;
-		}
-	
-		push(@lines, $speaker_add . $name . $audio);
-		$i++;
+		$first_line = convertSpeakerLine($input[0], $use_extra_dialogue);
+		push(@lines, $first_line);
+		$i = 1;
 	}
 	
 	# put modified lines into @lines
@@ -332,7 +336,19 @@ sub handleScreenLines
 		else
 		{
 			$has_translation = 1;
-			$newline = convertLine($newline);
+		
+			$type = getType($newline);
+			if ($type eq "SPEAKER" or $type eq "COMMAND")
+			{
+				@lines = ();
+				$newline = convertSpeakerLine($newline, $use_extra_dialogue);
+				$has_translation = 0;
+			}
+			else
+			{
+				$newline = convertLine($newline);
+			}
+			
 			push(@lines, $newline);
 		}
 		$i++;
@@ -503,7 +519,7 @@ sub handleFile
 				$i++;
 			}
 			
-			while (getType($translated[$i]) eq "KANJI" or getType($translated[$i]) eq "TEXT")
+			while (getType($translated[$i]) ne "BLANK")
 			{
 				push(@lines, $translated[$i]);
 				$i++;
