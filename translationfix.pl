@@ -451,12 +451,12 @@ sub handleFile
 	
 	my $last_was_blank = 0;
 	my $dialogue_added = 0;
-	my $add_kanji_to_text = 0;
 	
 	for (my $i=0; $i < scalar @translated; $i++)
 	{
 		my $line = $translated[$i];
 		my $type = getType($line);
+		my $add_kanji_to_text = 0;
 		
 		if ($type eq "BLANK")
 		{
@@ -506,16 +506,15 @@ sub handleFile
 				}
 				else
 				{
-					print "mismatched lines in " . $file . " at line " . ($i + 1) . "\n";
-					print "jap " .$jap_type . "	" . $japanese[$japanese_index] . "\n";
-					print "eng " .$type . "	" . $line . "\n";
+					print "mismatched lines in " . $file . "\n";
+					print "jap " .$jap_type . "	" . "	" . ($japanese_index + 1) . "	" . $japanese[$japanese_index] . "\n";
+					print "eng " .$type . "	" . "	" . ($i + 1) . "	" . $line . "\n";
 			
 					exit();
 				}
 			}
 		}
 		
-		$dialogue_added = 0;
 		
 		if ($type eq "SPEAKER" or $type eq "KANJI" or ($type eq "TEXT" and $add_kanji_to_text == 1))
 		{
@@ -539,8 +538,12 @@ sub handleFile
 			}
 
 			$last_was_blank = 1;
+			$dialogue_added = 0;
 			next;
 		}
+		
+		
+		$dialogue_added = 0;
 		
 		if ($type eq "TEXT" and index($line, "select") != -1 and index($line, "sel") != -1)
 		{
@@ -550,9 +553,9 @@ sub handleFile
 		
 		if ($line ne $japanese[$japanese_index])
 		{
-			print "mismatched lines in " . $file . " at line " . ($i + 1) . "\n";
-			print "expected " . $japanese[$japanese_index] . "\n";
-			print "found    " . $line . "\n";
+			print "mismatched lines in " . $file . "\n";
+			print "expected " . "	" . ($japanese_index + 1) . "	" .  $japanese[$japanese_index] . "\n";
+			print "found    " . "	" . ($i + 1) . "	" .  $line . "\n";
 			
 			exit();
 		}
@@ -604,4 +607,11 @@ sub handleDir
 	}
 }
 
-handleDir ".";
+if ($#ARGV >= 0)
+{
+	handleFile $ARGV[0];
+}
+else
+{
+	handleDir ".";
+}
