@@ -29,6 +29,11 @@ my $speaker_add = sprintf("%c%c", 0x81, 0x97);
 my @japanese;
 my $japanese_index;
 
+my $line_count = 0;
+my $translated_line_count = 0;
+my $byte_count = 0;
+my $translated_byte_count = 0;
+my $byte_count_block = 0;
 
 my %toWideTable;
 
@@ -215,6 +220,8 @@ sub readFile
 
 sub getJapaneseLines
 {
+	my($use_extra_dialogue) = @_;
+
 	my $max = scalar @japanese;
 	my $i = $japanese_index;
 	
@@ -227,10 +234,23 @@ sub getJapaneseLines
 	
 	my @array;
 	
+	$byte_count_block = 0;
+	
 	while ($i < $max and getType($japanese[$i]) eq "KANJI")
 	{
-		push(@array, $japanese[$i]);
+		my $line = $japanese[$i];
+		$byte_count_block += length($line);
+		push(@array, $line);
 		$i++;
+	}
+	
+	if ($use_extra_dialogue == 1)
+	{
+		$byte_count_block = 0;
+	}
+	else
+	{
+		$byte_count += $byte_count_block;
 	}
 	
 	return @array;
@@ -293,7 +313,7 @@ sub handleScreenLines
 {
 	my($use_extra_dialogue, @input) = @_;
 	 
-	my @jap_lines = getJapaneseLines();		
+	my @jap_lines = getJapaneseLines($use_extra_dialogue);		
 	my @lines;
 	my @output;
 	
@@ -302,6 +322,8 @@ sub handleScreenLines
 	my $has_japanese = 0;
 	my $has_translation = 0;
 	my $i = 0;
+	
+	$line_count++;
 	
 	my $type = getType($input[0]);
 	
@@ -377,6 +399,12 @@ sub handleScreenLines
 		# kanji line starting with text
 		# inset a kanji whitespace
 		$lines[0] = $empty . $lines[0];
+	}
+	
+	if ($has_translation == 1)
+	{
+		$translated_line_count++;
+		$translated_byte_count += $byte_count_block;
 	}
 	
 	foreach (@lines)
@@ -547,6 +575,11 @@ sub handleFile
 		
 		if ($type eq "TEXT" and index($line, "select") != -1 and index($line, "sel") != -1)
 		{
+			$line_count++;
+			if ($line ne $japanese[$japanese_index])
+			{
+				$translated_line_count++;
+			}
 			push(@output, $line);
 			next;
 		}
@@ -575,12 +608,49 @@ sub handleFile
 	}
 }
 
+sub makeStatusLine
+{
+	my ($file, $translated, $total, $byte_translated, $byte_total) = @_;
+	
+	my $percentage = 1;
+	
+	if ($total > 0)
+	{
+		$percentage = $translated / $total;
+	}
+	
+	$file = $file . "\t\t" . $percentage . "\t" . $translated . "\t" . $total . "\t\t";
+	
+	$percentage = 1;
+	if ($byte_total > 0)
+	{
+		$percentage = $byte_translated / $byte_total;
+	}
+	$file = $file . $percentage . "\t" . $byte_translated . "\t" . $byte_total;
+	
+	return $file . $CLRF;
+}
+
+my $total_lines = 0;
+my $total_translated_lines = 0;
+my $total_byte_count = 0;
+my $total_translated_byte_count = 0;
+my @file_status;
+
 sub handleDir
 {
-	my ($dirname) = @_;
+	my ($dirname, $level) = @_;
 	opendir my($dh), $dirname or die "Couldn't open dir '$dirname': $!";
 	my @files = grep { !/^\.\.?$/ } readdir $dh;
 	closedir $dh;
+	
+	my $status_file = "../translation_status.txt";
+	
+	if (-e $status_file)
+	{
+		unlink($status_file);
+	}
+
 	
 	foreach (@files)
 	{
@@ -595,16 +665,43 @@ sub handleDir
 		
 		if (-d $filename)
 		{
-			handleDir($filename);
+			handleDir($filename, ($level + 1));
 		}
 		else
 		{
 			if (substr($filename, -4) eq ".txt")
 			{
 				handleFile $filename;
+				
+				push(@file_status, makeStatusLine("$filename", $translated_line_count, $line_count, $translated_byte_count, $byte_count));
+				
+				$total_lines                 += $line_count;
+				$total_translated_lines      += $translated_line_count;
+				$total_byte_count            += $byte_count;
+				$total_translated_byte_count += $translated_byte_count;
+				
+				$line_count = 0;
+				$translated_line_count = 0;
+				$byte_count = 0;
+				$translated_byte_count = 0;
 			}
 		}
 	}
+	
+	return if $level > 0;
+	
+	open FILE, ">", $status_file or die $!;
+	
+	print FILE "\t\t\tLINES\t\t\t\tBYTES" . $CLRF;
+	print FILE "File\t\tpercentage\ttranslated\ttotal\t\tpercentage\ttranslated\ttotal" . $CLRF;
+	
+	print FILE makeStatusLine("TOTAL", $total_translated_lines, $total_lines, $total_translated_byte_count, $total_byte_count);
+	
+	foreach (@file_status)
+	{
+		print FILE $_;
+	}
+	close FILE;
 }
 
 if ($#ARGV >= 0)
@@ -613,5 +710,5 @@ if ($#ARGV >= 0)
 }
 else
 {
-	handleDir ".";
+	handleDir(".", 0);
 }
