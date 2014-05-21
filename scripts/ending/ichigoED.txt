@@ -4,11 +4,9 @@ label	ichigo_end
 #いちご純愛ルート（エピローグ）
 #--------------------------------------------------
 
-
 #■BG（白）
 @bg_white		# 白
 @bgmk01			#BGM K01 : 夢のテーマ
-
 
 #また意識がはっきりしないまま、オレは何も無い空間をたゆたっていた。
 #SCRIPT ADD KANJI
@@ -21,7 +19,6 @@ label	ichigo_end
 #あれは、いちごを庇って施設の屋根から転落したときだ。
 #SCRIPT ADD KANJI
 Ｔhat was when Ichigo tumbled off the roof of the facility.
-
 
 #＠樹
 #（……けど、あの時と比べたらずいぶんと暖かくて……なんだか心地よいな……）
@@ -60,7 +57,6 @@ label	ichigo_end
 
 bgm_stop
 
-
 #＠いちご,O01196
 #「パパッ！？　パパぁッ！！」
 ＠Ichigo,O01196
@@ -71,7 +67,6 @@ bgm_stop
 ＠Itsuki
 「Ichigo!?」
 
-
 window_close
 #■BG（黒）※瞬間表示
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
@@ -80,7 +75,6 @@ screen_blackout		100
 wait			100
 @bg_black
 screen_blackin		1
-
 
 #その呼びかけに、今度こそ意識をはっきりと覚醒させた。
 #SCRIPT ADD KANJI
@@ -112,12 +106,10 @@ screen_blackin		1
 #SCRIPT ADD KANJI
 Ｍy eyes......can't see anything.
 
-
 #一拍
 #wait		1000
 #■BG（病室）
 @bg_byoushitsu		# 病室
-
 
 #＠医者,V26000
 #「……なるほど。分かりました。ひとまず私はこれで」
@@ -129,7 +121,6 @@ wait		2000
 @SE07			#部屋のドア閉まる音（パタン）
 wait		1000
 @bgmk02			#BGM K02 : しんみりのテーマ
-
 
 #一通りオレの様子を調べた〝その人〟は、事務的な言葉を残して部屋を出て行った。
 #SCRIPT ADD KANJI
@@ -143,7 +134,6 @@ wait		1000
 @miu_maid
 @miu_kanashimi2		#閉_哀
 
-
 #＠美雨,B00863
 #「樹さん、良かったです……本当に。もうどうなることかとっ……」
 ＠Miu,B00863
@@ -152,7 +142,6 @@ wait		1000
 @shizuku_small
 @shizuku_shifuku
 @shizuku		#普通
-
 
 #＠雫,S00743
 #「みんな心配してたんだよ。怪我はとっくに治ったって言うのに、一向に目を覚まさなかったんだから」
@@ -182,7 +171,6 @@ wait		500
 @yuzu_shifuku
 @yuzu_kanashimi		#哀
 
-
 #＠ゆず,F00260
 #「うぅっ……よかったですよぉっ。危険な状態ってお医者さんも言ってましたから」
 ＠Yuzu,F00260
@@ -192,14 +180,12 @@ wait		500
 @suika_shifuku
 @suika_kanashimi	#哀
 
-
 #＠すいか,R00290
 #「手術の後も安心できないって言われてましたから……」
 ＠Suika,R00290
 「Were were told that even after the surgery we couldn't be assured of your recovery...... 」
 
 #@suika_ikari		#怒
-
 
 #＠すいか,R00291
 #「だからもう、院長先生が目を覚ましたって聞いて急いで駆けつけてきたんです」
@@ -225,7 +211,6 @@ wait		500
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
-
 #＠みかん,A00740
 #「……お兄ちゃん。本当に目、見えないの……？」
 ＠Mikan,A00740
@@ -244,14 +229,12 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
-
 #＠かりん,P00638
 #「……ま、まぁ、医者もまだ治る見込みはあるって言ってたじゃない」
 ＠Karin,P00638
 「......W,well, didn't the doctor say that there's still room for improvement.」
 
 @karin_niko		#にこ
-
 
 #＠かりん,P00639
 #「屋根から落ちて助かるくらい強運が強いんだから、目の一つや二つきっと治るわよ」
@@ -262,7 +245,6 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-
 #＠ざくろ,Q00452
 #「そうね。もしかすると、そのまま三つ四つ治っていくかも」
 ＠Zakuro,Q00452
@@ -271,7 +253,6 @@ wait		500
 #@karin_kanashimi	#哀
 @karin_ikari		#怒
 
-
 #＠かりん,P00640
 #「それじゃ妖怪じゃないッ」
 ＠Karin,P00640
@@ -279,15 +260,12 @@ wait		500
 
 @mikan_kusyou		#苦笑
 
-
 #＠樹
 #「はは……ありがとう」
 ＠Itsuki
 「Haha......thanks.」
 
-
 @chara_clear		#保険
-
 
 #さっきまでここに来てオレを診察した医者は、確かにそう言った。
 #SCRIPT ADD KANJI
@@ -301,26 +279,21 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-
 #＠ざくろ,Q00453
 #「文字通り、お先真っ暗ね」#The stock phrase is about being unable to see the future
 ＠Zakuro,Q00453
 「Just as it's written, what lies before you is shrouded in darkness.」
 
-
 @suika_small
 @suika_shifuku
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00292
 #「ざ、ざくろちゃんっ……」
 ＠Suika,R00292
 「Za, Zakuro-chan......」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00454
 #「ジョークだから。つっちー、平気？」
@@ -333,7 +306,6 @@ wait		500
 「Yea.  Thanks for worrying about me Zakuro.」
 
 @chara_clear		#保険
-
 
 #声のみの存在のみんなに、オレは向きも定まらないまま礼の言葉を返した。
 #SCRIPT ADD KANJI
@@ -352,7 +324,6 @@ wait		500
 @ichigo_small
 @ichigo_shifuku
 @ichigo_kanashimi	#哀
-
 
 #＠いちご,O01198
 #「……っ」
@@ -386,9 +357,7 @@ wait		500
 ＠Miu,B00864
 「いちごちゃん……」
 
-
 @ichigo_naki		#泣
-
 
 #＠いちご,O01201
 #「んぐっ……ごめんなさいッ、パパ………せっかく元気になったのに、今度は目まで見えなくしちゃってぇ……」
@@ -410,28 +379,22 @@ wait		500
 ＠Itsuki
 「.........」
 
-
 @chara_clear		#保険
 wait		500
 @miu_small
 @miu_maid
 @miu_kanashimi		#開_哀
 
-
 #＠美雨,B00865
 #「あの、樹さん。いちごちゃんはずっと樹さんの看病をされてたんです」
-＠Miu
-,B00865
+＠Miu,B00865
 「You know, Itsuki-san. Ichigo-san was taking care of you all the way when you were hospitalised.」
-
 
 @miu_kanashimi2		#閉_哀
 
-
 #＠美雨,B00866
 #「私たちが交代に来ても、絶対にここを離れないままで」
-＠Miu
-,B00866
+＠Miu,B00866
 「Even when we came to take over from her, she absolutely refused to leave.」
 
 #＠樹
@@ -448,23 +411,17 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
-
 #＠雫,S00744
 #「いいよ。あんたじゃないと収まらない話だからね」
-＠Shizuku
-,S00744
+＠Shizuku,S00744
 「That's alright.  This is something no-one but you can resolve.」
-
 
 @shizuku		#普通
 
-
 #＠雫,S00745
 #「ほら、みんな行くよ」
-＠Shizuku
-,S00745
+＠Shizuku,S00745
 「Alright everyone, lets go.」
-
 
 @chara_clear		#保険
 wait		500
@@ -472,13 +429,10 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-
 #＠ざくろ,Q00455
 #「ん」
-＠Zakuro
-,Q00455
+＠Zakuro,Q00455
 「ん」
-
 
 @chara_clear		#保険
 wait		500
@@ -486,13 +440,10 @@ wait		500
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
-
 #＠みかん,A00741
 #「お兄ちゃん、いちごちゃん、何かあったらすぐ呼んでね」
-＠Mikan
-,A00741
+＠Mikan,A00741
 「Onii-chan and Ichigo-chan, if there's anything, call us right away ok.」
-
 
 @chara_clear		#保険
 wait		500
@@ -500,20 +451,16 @@ wait		500
 @yuzu_shifuku
 @yuzu_kanashimi		#哀
 
-
 #＠ゆず,F00262
 #「樹先生、また来ます」
-＠Yuzu
-,F00262
+＠Yuzu,F00262
 「Itsuki-sensei, we'll come again.」
-
 
 window_close
 @chara_clear		#保険
 wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
-
 
 #ドアの閉まる音がして、廊下の足音が遠ざかっていく。
 #SCRIPT ADD KANJI
@@ -524,16 +471,13 @@ wait		1000
 ＠Itsuki
 「Ok, the crybaby stayed behind right?」
 
-
 @ichigo_small
 @ichigo_shifuku
 @ichigo_naki		#泣
 
-
 #＠いちご,O01204
 #「グスッ……うん……」
-＠Ichigo
-,O01204
+＠Ichigo,O01204
 「グスッ......Yes......」
 
 #＠樹
@@ -546,23 +490,18 @@ wait		1000
 ＠Itsuki
 「This is my punishment for not understanding Ichigo's situation more quickly.」
 
-
 @ichigo_kanashimi	#哀
-
 
 #＠いちご,O01205
 #「でも、だって、いちごが前のパパと一緒に居たから……」
-＠Ichigo
-,O01205
+＠Ichigo,O01205
 「But, that's because, Ichigo was always with the previous Papa......」
 
 @ichigo_naki		#泣
 
-
 #＠いちご,O01206
 #「院長せんせぇにいっぱい、迷惑かけてたからっ……」
-＠Ichigo
-,O01206
+＠Ichigo,O01206
 「I made alot of trouble for the principal......」
 
 #＠樹
@@ -590,11 +529,9 @@ wait		1000
 
 @ichigo_kanashimi	#哀
 
-
 #＠いちご,O01207
 #「パパ……」
-＠Ichigo
-,O01207
+＠Ichigo,O01207
 「Papa......」
 
 #そんな暗闇の中でも、はっきりとみんなの姿、そしていちごの姿が瞼に浮かんだ。
@@ -608,8 +545,7 @@ wait		1000
 
 #＠いちご,O01208
 #「いちごのこと、怒ってないの……？　嫌いになってない……？」
-＠Ichigo
-,O01208
+＠Ichigo,O01208
 「You're not mad at Ichigo......? You don't hate me......?」
 
 #＠樹
@@ -624,23 +560,17 @@ wait		1000
 
 @ichigo_naki		#泣
 
-
 #＠いちご,O01209
 #「……パパぁ……グスッ」
-＠Ichigo
-,O01209
+＠Ichigo,O01209
 「......Papaa......グスッ」
-
 
 @ichigo_kanashimi	#哀
 
-
 #＠いちご,O01210
 #「パパぁッ！」
-＠Ichigo
-,O01210
+＠Ichigo,O01210
 「Papaa!」
-
 
 window_close
 bgm_stop
@@ -652,7 +582,6 @@ wait			100
 @bg_white
 screen_whitein		1
 #SE36　勢いよく抱きつく音（バフッ！）
-
 
 #勢いよくいちごの声がすると、胸の中に温かい感触が飛び込んできた。
 #SCRIPT ADD KANJI
@@ -669,17 +598,14 @@ screen_whitein		1
 #wait			1000
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
-
 #＠いちご,O01211
 #「本当にごめんなさいッ、パパっ……いちご、これからいっぱいパパのこと助けるからっ」
-＠Ichigo
-,O01211
+＠Ichigo,O01211
 「I'm really sorry, Papa......Ichigo is going to help Papa from now on.」
 
 #＠いちご,O01212
 #「だから、ずっと嫌いにならないでッ！　いちごと一緒に居てほしいよぉッ」
-＠Ichigo
-,O01212
+＠Ichigo,O01212
 「That's why, don't ever hate me Papa!  I want you to be with me forever.」
 
 #オレは泣きすがるいちごの頭を撫でる。
@@ -695,20 +621,16 @@ screen_whitein		1
 ＠Itsuki
 「Right, I've got to depend on you Ichigo.  So don't cry anymore ok.」
 
-
 @ichigo_kanashimi	#哀
-
 
 #＠いちご,O01213
 #「ん……うん…」
-＠Ichigo
-,O01213
+＠Ichigo,O01213
 「O……ok…」
 
 #＠いちご,O01214
 #「パパ、さっそく何かお手伝いすることない……？」
-＠Ichigo
-,O01214
+＠Ichigo,O01214
 「Papa, is there anything you want me to help with immediately......?」
 
 #＠樹
@@ -731,11 +653,9 @@ screen_whitein		1
 
 @ichigo_warai		#笑
 
-
 #＠いちご,O01215
 #「うんっ、いいよ。何でもするよっ」
-＠Ichigo
-,O01215
+＠Ichigo,O01215
 「Ok, its fine.  I'll do anything.」
 
 #＠樹
@@ -749,11 +669,9 @@ screen_whitein		1
 
 @ichigo			#普通
 
-
 #＠いちご,O01216
 #「え……？」
-＠Ichigo
-,O01216
+＠Ichigo,O01216
 「え......?」
 
 #さすがのいちごも、それは予想していなかったのか、反応が遅れた。
@@ -762,8 +680,7 @@ screen_whitein		1
 
 #＠いちご,O01217
 #「いちごはいいけど、どうしたのパパ……？　したいの？」
-＠Ichigo
-,O01217
+＠Ichigo,O01217
 「Ichigo is fine but, what about Papa......? You wanna do it?」
 
 #＠樹
@@ -784,17 +701,14 @@ screen_whitein		1
 
 @ichigo_komaru		#困
 
-
 #＠いちご,O01218
 #「でもいちご、前のパパとはちゃんとしたエッチしてないよ」
-＠Ichigo
-,O01218
+＠Ichigo,O01218
 「But Ichigo's previous Papa never did it with Ichigo regularly.」
 
 #＠いちご,O01219
 #「それでもモヤモヤするの？」
-＠Ichigo
-,O01219
+＠Ichigo,O01219
 「Even so, you're still uneasy?」
 
 #＠樹
@@ -802,22 +716,17 @@ screen_whitein		1
 ＠Itsuki
 「Yeah......」
 
-
 @ichigo_warai		#笑
-
 
 #＠いちご,O01220
 #「えへへ♪　じゃあいいよ。いちごも、やっぱりパパとエッチしたいもん」
-＠Ichigo
-,O01220
+＠Ichigo,O01220
 「えへへ♪ Well then its ok. Ichigo does want to do it with Papa after all.」
-
 
 window_close
 @ichigo_
 #@SE70			#SE70　衣擦れ音（シュルシュル）
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
-
 
 #再び抱きついて、胸の中へ顔を埋めてくるいちご。
 #SCRIPT ADD KANJI
@@ -829,8 +738,7 @@ window_close
 
 #＠いちご,O01221
 #「ちょっと待って、いちご、先に服はだけちゃうから」
-＠Ichigo
-,O01221
+＠Ichigo,O01221
 「Wait, let Ichigo take off your clothes first.」
 
 #＠樹
@@ -853,7 +761,6 @@ wait		1000
 #SE70　衣擦れ音（シュルシュル）
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-
 #＠樹
 #「脱いだら、オレの上で仰向けになって」
 ＠Itsuki
@@ -861,8 +768,7 @@ wait		1000
 
 #＠いちご,O01222
 #「うん、分かった」
-＠Ichigo
-,O01222
+＠Ichigo,O01222
 「Ok, I got it.」
 
 #シュルシュルと衣擦れの音がして、いちごの身体が乗ってきた。
@@ -876,15 +782,13 @@ scene_start	"いちごの気持ち"
 event		"event\EV_ICH_120-00.png"
 #--------------------------------------------------
 
-
 #温かいいちごの肌が、オレの胸にすっぽりと収まる。
 #SCRIPT ADD KANJI
 Ｉchigo's warm body presses against my chest.
 
 #＠いちご,O01223
 #「えへへ、パパとエッチするのって久しぶり」
-＠Ichigo
-,O01223
+＠Ichigo,O01223
 「えへへ, its been a long time since I did it with Papa.」
 
 #＠樹
@@ -898,8 +802,7 @@ event		"event\EV_ICH_120-00.png"
 
 #＠いちご,O01224
 #「うん。ダメ？」
-＠Ichigo
-,O01224
+＠Ichigo,O01224
 「Uhuh.  I shouldn't have?」
 
 #＠樹
@@ -909,14 +812,12 @@ event		"event\EV_ICH_120-00.png"
 
 #＠いちご,O01225
 #「でもあの髪型、前のパパのお人形を真似た形だもん」
-＠Ichigo
-,O01225
+＠Ichigo,O01225
 「Because that hairstyle, it was modelled after a doll of my previous Papa.」
 
 #＠いちご,O01226
 #「だから、今のパパとエッチするときは解いちゃうの」
-＠Ichigo
-,O01226
+＠Ichigo,O01226
 「That's why, now that I'm doing it with the present Papa, I'm taking it out.」
 
 #＠樹
@@ -926,8 +827,7 @@ event		"event\EV_ICH_120-00.png"
 
 #＠いちご,O01227
 #「いちごもお気に入りだよ。だから、パパとエッチするときだけね」
-＠Ichigo
-,O01227
+＠Ichigo,O01227
 「Ichigo really likes it too.  So this is only for when doing it with Papa.」
 
 #話しながら、オレはいちごの髪を梳き、首筋や肩、お腹などを撫でていく。
@@ -940,8 +840,7 @@ event		"event\EV_ICH_120-00.png"
 
 #＠いちご,O01228
 #「もしかして、お胸の位置とか分からない……？」
-＠Ichigo
-,O01228
+＠Ichigo,O01228
 「Could it be that Papa doesn't know where my breasts are......?」
 
 #＠樹
@@ -951,8 +850,7 @@ event		"event\EV_ICH_120-00.png"
 
 #＠いちご,O01229
 #「いちごもう、ずっとパパと一緒にいるよ。だから……」
-＠Ichigo
-,O01229
+＠Ichigo,O01229
 「Ichigo will always be by Papa's side. So......」
 
 #＠樹
@@ -966,15 +864,13 @@ event		"event\EV_ICH_120-01.png"
 voice_bg	"O90005"
 #--------------------------------------------------
 
-
 #両手をいちごの胸に向かわせ、少ない膨らみに触れる。
 #SCRIPT ADD KANJI
 Ｉ reach my hands out towards Ichigo's chest, and touch her small swellings.
 
 #＠いちご,O01230
 #「んぅ……っふぅ…」
-＠ichigo
-,O01230
+＠ichigo,O01230
 「んぅ......っふぅ...」
 
 #先端の小さい突起を両方とも指で擦り、胸に愛撫を与えた。
@@ -983,8 +879,7 @@ voice_bg	"O90005"
 
 #＠いちご,O01231
 #「っあぅ、はぁ……両方とも、お胸の先っちょに擦ってるよ……分かるの？」
-＠Ichigo
-,O01231
+＠Ichigo,O01231
 「っあぅ、はぁ……both, my nipples, you're rubbing them both......you know that right?」
 
 #＠樹
@@ -994,8 +889,7 @@ voice_bg	"O90005"
 
 #＠いちご,O01232
 #「んっ……はぁ、んぅ！　んぅんっ…」
-＠Ichigo
-,O01232
+＠Ichigo,O01232
 「んっ……はぁ、んぅ！　んぅんっ…」
 
 #性感豊かなソコを弄り回し、他の指は胸の膨らみへなぞらせていく。
@@ -1004,8 +898,7 @@ voice_bg	"O90005"
 
 #＠いちご,O01233
 #「……っ！　うっ、んく！」
-＠Ichigo
-,O01233
+＠Ichigo,O01233
 「......っ! うっ、んく!」
 
 #＠樹
@@ -1014,7 +907,6 @@ voice_bg	"O90005"
 「......? How does it feel, Ichigo.......あっ!」
 
 voice_bg_stop
-
 
 #吐息に僅かな痛みが混ざり、オレは思い出した。
 #SCRIPT ADD KANJI
@@ -1027,8 +919,7 @@ voice_bg_stop
 
 #＠いちご,O01234
 #「ん、ううん……平気」
-＠Ichigo
-,O01234
+＠Ichigo,O01234
 「N,no......I'm ok.」
 
 #＠樹
@@ -1042,14 +933,12 @@ voice_bg_stop
 
 #＠いちご,O01235
 #「いちごもパパにしてもらいたいから………だから、もっとして」
-＠Ichigo
-,O01235
+＠Ichigo,O01235
 「I want Papa to do it to me too so.........that's why, please do it.」
 
 #＠いちご,O01236
 #「お願い、パパ。もう前のパパのことで、今のパパの邪魔をしたくないよぉ……」
-＠Ichigo
-,O01236
+＠Ichigo,O01236
 「Please, Papa.  I don't want to let the problems with my ex-Papa get in the way of Papa anymore......」
 
 #＠樹
@@ -1057,9 +946,7 @@ voice_bg_stop
 ＠Itsuki
 「.........I got it.  But if it hurts, don't push yourself ok.」
 
-
 voice_bg	"O90005"
-
 
 #いちご自身も切望している事を察し、オレは愛撫を再開させた。
 #SCRIPT ADD KANJI
@@ -1071,14 +958,12 @@ voice_bg	"O90005"
 
 #＠いちご,O01237
 #「あぅっ……はぁっ、ん、んんぅっ……」
-＠Ichigo
-,O01237
+＠Ichigo,O01237
 「あぅっ......はぁっ, ん, んんぅっ......」
 
 #＠いちご,O01238
 #「お胸が、先っちょからビリビリする……痛くないよ…」
-＠Ichigo
-,O01238
+＠Ichigo,O01238
 「My breasts, my nipples are tingling......it doesn't hurt at...」
 
 #その突起に比例して、同じく小さい乳輪を、乳首ごとつまみ上げる。
@@ -1087,8 +972,7 @@ voice_bg	"O90005"
 
 #＠いちご,O01239
 #「んふぅっ……はぁっ、そこ摘んだら、ピリッてしちゃうよぉ」
-＠ichigo
-,O01239
+＠ichigo,O01239
 「んふぅっ......はぁっ, if you pluck at them like that, they're going to come off.」
 
 #いちごの声に傷みが無いのを確認して、オレは先端をクニクニとこねた。
@@ -1097,8 +981,7 @@ voice_bg	"O90005"
 
 #＠いちご,O01240
 #「はぁぁっ、ん！　んぁぅっ……はぁっ、ぅん！」
-＠Ichigo
-,O01240
+＠Ichigo,O01240
 「はぁぁっ, ん! んぁぅっ......はぁっ, ぅん!」
 
 #＠樹
@@ -1108,14 +991,12 @@ voice_bg	"O90005"
 
 #＠いちご,O01241
 #「はぁっ、うん……パパとするの久しぶりだから、嬉しいの」
-＠Ichigo
-,O01241
+＠Ichigo,O01241
 「はぁっ, yea......it's been so long since I've done it with Papa, so it feels so good.」
 
 #＠いちご,O01242
 #「もっとたくさんこねて……んぅっ、んはぁ……いちごのお胸、いっぱい…」
-＠Ichigo
-,O01242
+＠Ichigo,O01242
 「Squeeze them more......んぅっ、んはぁ......Ichigo's breasts, squeeze them lots...」
 
 #恥ずかしそうに声をつき、モゾモゾといちごが身体を揺する。
@@ -1124,8 +1005,7 @@ voice_bg	"O90005"
 
 #＠いちご,O01243
 #「っはぅ、んはぁ……んんぅっ、ぁふ……」
-＠Ichigo
-,O01243
+＠Ichigo,O01243
 「っはぅ, んはぁ......んんぅっ, ぁふ......」
 
 #オレは硬くなっていく乳首を、ときに摘んで擦り、押しつぶしたりと刺激する。
@@ -1138,14 +1018,12 @@ voice_bg	"O90005"
 
 #＠いちご,O01244
 #「んくぅ……先っちょ、くすぐったくて気持ちいい……」
-＠Ichigo
-,O01244
+＠Ichigo,O01244
 「んくぅ......the nipples, ticklish, it feels good......」
 
 #＠いちご,O01245
 #「っはぁ、んん………パパの指で、いちごの乳首どんどん硬くなってるよぉ……ぁふぅっ、はぁっ…」
-＠Ichigo
-,O01245
+＠Ichigo,O01245
 「っはぁ, んん.........Papa's fingers are making Ichigo's nipples harder and harder......ぁふぅっ, はぁっ...」
 
 #正直な反応を返しながら、愛撫によがるいちご。
@@ -1163,8 +1041,7 @@ voice_bg	"O90005"
 
 #＠いちご,O01246
 #「んっ！　はぅっ……パパっ…」
-＠Ichigo
-,O01246
+＠Ichigo,O01246
 「んっ!  はぅっ......Papaa...」
 
 #三本の指で乳首を挟み、それぞれ別の動きで先端を擦りまわす。
@@ -1177,20 +1054,17 @@ voice_bg	"O90005"
 
 #＠いちご,O01247
 #「ひんっ、んはぁっ……はぁっ、んんっ…！　すごいよぉ、お胸の先っちょが……」
-＠Ichigo
-,O01247
+＠Ichigo,O01247
 「ひんっ, んはぁっ......はぁっ, んんっ...! It, it's great, the tips of my breasts are......」
 
 #＠いちご,O01248
 #「…硬くなってるとこ……パパの指がズリズリって擦ってきてるぅ……っんはぅ、はぁっ…」
-＠Ichigo
-,O01248
+＠Ichigo,O01248
 「...they're getting harder......Papa's fingers rubbing them......っんはぅ, はぁっ...」
 
 #＠いちご,O01249
 #「はぁぅ……んぅんっ、熱くなっていっちゃうよ……いちごのお胸……はぁっ、んはぁっ…」
-＠Ichigo
-,O01249
+＠Ichigo,O01249
 「はぁぅ......んぅんっ, it's getting hotter......Ichigo's chest......はぁっ, んはぁっ...」
 
 #さらに膨らみを揉む代わりに、摘んだ乳首を上下左右へ押し込みながら揺らした。
@@ -1199,14 +1073,12 @@ voice_bg	"O90005"
 
 #＠いちご,O01250
 #「んっ、んぅ！　はぁぁっ……はぅ、んはぁっ……んんぅ！」
-＠Ichigo
-,O01250
+＠Ichigo,O01250
 「んっ, んぅ! はぁぁっ......はぅ, んはぁっ......んんぅ!」
 
 #＠いちご,O01251
 #「…お胸、いっぱいパパに弄られてる……気持ちいいよぉ……んくんっ、はぁっ…」
-＠Ichigo
-,O01251
+＠Ichigo,O01251
 「...my breasts, Papa is playing with them lots......it feels so good......んくんっ, はぁっ...」
 
 #いちごからは間断なく声が漏れ、硬くなった乳首の感度も上がっていく。
@@ -1226,11 +1098,9 @@ voice_bg	"O90005"
 event		"event\EV_ICH_120-02.png"
 #--------------------------------------------------
 
-
 #＠いちご,O01252
 #「んんっ！　はぁぁっ…！　パパ、そこも……」
-＠Ichigo
-,O01252
+＠Ichigo,O01252
 「んんっ! はぁぁっ...! Papa, there too......」
 
 #なだらかな恥丘をなぞって、手を秘裂の方へと滑り込ませた。
@@ -1248,14 +1118,12 @@ event		"event\EV_ICH_120-02.png"
 
 #＠いちご,O01253
 #「ううん、無いから平気………酷いことするのって、身体の上だけだったから」
-＠Ichigo
-,O01253
+＠Ichigo,O01253
 「Nope, there's nothing so don't worry.........the mean things that were done were only done to my upper body.」
 
 #＠いちご,O01254
 #「アソコとかは乱暴にして怪我したら、お金に出来ないからって……」
-＠Ichigo
-,O01254
+＠Ichigo,O01254
 「If I got injured down there, no money could be earned from me......」
 
 #＠樹
@@ -1269,17 +1137,14 @@ event		"event\EV_ICH_120-02.png"
 
 voice_bg	"O90006"
 
-
 #＠いちご,O01255
 #「っんくん！　はぁぁっ……んっ、あぅんっ…！　んはぁっ…」
-＠Ichigo
-,O01255
+＠Ichigo,O01255
 「っんくん! はぁぁっ......んっ, あぅんっ...! んはぁっ...」
 
 #＠いちご,O01256
 #「もう濡れてるよ、ソコ……んふぅっ…はぁっ…！　パパとエッチなことしてるから……」
-＠Ichigo
-,O01256
+＠Ichigo,O01256
 「I'm all wet already, down there......んふぅっ...はぁっ...! パパとエッチなことしてるから......」
 
 #いちごから漏れる吐息の熱に比例して、秘裂に感じる蜜も温かかった。
@@ -1292,14 +1157,12 @@ voice_bg	"O90006"
 
 #＠いちご,O01257
 #「んんっ、あはぁっ……パパ、ベトベトにしたら……んぁっ、はあ！　下まで零れてっちゃうよぉ……」
-＠Ichigo
-,O01257
+＠Ichigo,O01257
 「んんっ, あはぁっ......Papa, if you make it all sticky......んぁっ、はあ! It's going to drip......」
 
 #＠いちご,O01258
 #「はぁっ…！　んひんっ！　んぅぅ……いちごから出てくるお汁で、パパの服が汚れちゃう」
-＠Ichigo
-,O01258
+＠Ichigo,O01258
 「はぁっ...! んひんっ! んぅぅ......the juice coming out of Ichigo has made Papa's clothes dirty.」
 
 #＠樹
@@ -1309,8 +1172,7 @@ voice_bg	"O90006"
 
 #＠いちご,O01259
 #「んんっ、あふぅ！　はぁっ……うん、パパに感じさせてほしい…」
-＠Ichigo
-,O01259
+＠Ichigo,O01259
 「んんっ, あふぅ! はぁっ......yea. I want Papa to make me feel good...」
 
 #自身の愛液のヌメリで解される割れ目は、その幼いスリットへ徐々に指の先を沈めていく。
@@ -1319,8 +1181,7 @@ voice_bg	"O90006"
 
 #＠いちご,O01260
 #「んふぁっ…！　はぁっ、んはぁっ……入り口のとこ、指がクリクリしてるよぉっ…」
-＠Ichigo
-,O01260
+＠Ichigo,O01260
 「んふぁっ...! はぁっ, んはぁっ......fingers, teasing my cunnie...」
 
 #＠樹
@@ -1334,20 +1195,17 @@ voice_bg	"O90006"
 
 #＠いちご,O01261
 #「んぅん！　はぅぅっ……乳首ももう、コリコリってしてるっ…」
-＠Ichigo
-,O01261
+＠Ichigo,O01261
 「んぅん! はぅぅっ......my nipples, they've become harder...」
 
 #＠いちご,O01262
 #「んはぁっ、くぅんっ…！　んんっ、んはぁっ……はぁぁっ……！」
-＠Ichigo
-,O01262
+＠Ichigo,O01262
 「んはぁっ, くぅんっ...! んんっ, んはぁっ......はぁぁっ......!」
 
 #＠いちご,O01263
 #「はぅん、あふぅっ……いちご今日、感じるの早いよぉ……」
-＠Ichigo
-,O01263
+＠Ichigo,O01263
 「はぅん, あふぅっ......Ichigo is sensitive today......」
 
 #腕の中で身体を横たえたいちごは、愛撫の一つ一つに身を捩らせる。
@@ -1365,8 +1223,7 @@ voice_bg	"O90006"
 
 #＠いちご,O01264
 #「あぅっ、はぁ…！　パパ、見えなくても……最後までしてくれるの……？　んはぁっ、はぁふ！」
-＠Ichigo
-,O01264
+＠Ichigo,O01264
 「あぅっ, はぁ...! Papa, even if you can't see......will you do it all the way with me......? んはぁっ, はぁふ!」
 
 #＠樹
@@ -1380,14 +1237,12 @@ voice_bg	"O90006"
 
 #＠いちご,O01265
 #「んくっ、んはぁっ…！　いちご、おマンコがお汁でいっぱい濡れてるの……」
-＠Ichigo
-,O01265
+＠Ichigo,O01265
 「んくっ, んはぁっ...! Ichigo's pussy is leaking lots of juice......」
 
 #＠いちご,O01266
 #「それにお胸も……ふぅっ、あはぁっ…！　乳首がコリコリするくらい、硬くなってるよぉ……」
-＠Ichigo
-,O01266
+＠Ichigo,O01266
 「And my breasts......ふぅっ, あはぁっ...! My nipples have become so hard......」
 
 #＠樹
@@ -1397,14 +1252,12 @@ voice_bg	"O90006"
 
 #＠いちご,O01267
 #「はぁぁっ、ん！　んんっ……他は、エッチな声が出ちゃうぅ…」
-＠Ichigo
-,O01267
+＠Ichigo,O01267
 「はぁぁっ, ん! んんっ......also, my naughty voice is coming out...」
 
 #＠いちご,O01268
 #「パパにもっとしてほしくて……いちご、ずっとドキドキしてるのぉっ……」
-＠Ichigo
-,O01268
+＠Ichigo,O01268
 「Please do it more to me Papa......Ichigo's heart is beating so fast......」
 
 #＠樹
@@ -1416,16 +1269,13 @@ voice_bg	"O90006"
 #SCRIPT ADD KANJI
 Ｉn response to her words, I inserted my fingers deeper into her cleft.
 
-
 #--------------------------------------------------
 event		"event\EV_ICH_120-03.png"
 #--------------------------------------------------
 
-
 #＠いちご,O01269
 #「んはぁっ、ひぅん！　あぁあっ……！」
-＠Ichigo
-,O01269
+＠Ichigo,O01269
 「んはぁっ, ひぅん! あぁあっ......!」
 
 #クチュッ！クチッ！と、温かくとろけた中の媚肉を指で引きずっていく。
@@ -1434,14 +1284,12 @@ event		"event\EV_ICH_120-03.png"
 
 #＠いちご,O01270
 #「はぁあっ、んはぁっ……！　んんっ、んくぅん！　いちごの中が動いてるぅっ……」
-＠Ichigo
-,O01270
+＠Ichigo,O01270
 「はぁあっ, んはぁっ......! んんっ, んくぅん! You're moving inside Ichigo......」
 
 #＠いちご,O01271
 #「あはぁっ…！　んぁんっ！　お汁でトロトロの中……パパの指が入ってきてぇっ…！」
-＠Ichigo
-,O01271
+＠Ichigo,O01271
 「あはぁっ...! んぁんっ! Inside me, its all slippery with my juice......Papa's fingers are inside me...!」
 
 #絡みつくようないちごの中の粘膜は、指の出入りで前後にかき回される。
@@ -1454,8 +1302,7 @@ event		"event\EV_ICH_120-03.png"
 
 #＠いちご,O01272
 #「あぁうっ、はぁっ…んはぁんっ…！　んくっ、あはぁぅっ……」
-＠Ichigo
-,O01272
+＠Ichigo,O01272
 「あぁうっ, はぁっ...んはぁんっ...! んくっ, あはぁぅっ......」
 
 #＠樹
@@ -1465,8 +1312,7 @@ event		"event\EV_ICH_120-03.png"
 
 #＠いちご,O01273
 #「んぅっ、はぁぁっ！　見えなくても、分かるの……パパ？」
-＠Ichigo
-,O01273
+＠Ichigo,O01273
 「んぅっ, はぁぁっ! Even if you can't see, you can tell that......Papa?」
 
 #＠樹
@@ -1476,16 +1322,13 @@ event		"event\EV_ICH_120-03.png"
 
 #＠いちご,O01274
 #「っんんぅ、はぁぁっ……うん。いちごが動くから、パパは寝てて」
-＠Ichigo
-,O01274
+＠Ichigo,O01274
 「っんんぅ, はぁぁっ......ok. Ichigo will move, so you just lie there Papa.」
-
 
 #■BG（黒）
 voice_bg_stop
 @bg_black		# 黒
 @SE70			#SE70　衣擦れ音（シュルシュル）
-
 
 #呼吸を火照らせながら、いちごが身体を起こし、オレの入院着の下をはだけていく。
 #SCRIPT ADD KANJI
@@ -1498,8 +1341,7 @@ voice_bg_stop
 
 #＠いちご,O01275
 #「んっ……ううん。いちごが手伝ったげる………あっ」
-＠Ichigo
-,O01275
+＠Ichigo,O01275
 「んっ......nah. Ichigo will help you.........あっ」
 
 #そして服の下から取り出した肉茎の状態に、いちごが小さく驚きを見せた。
@@ -1508,8 +1350,7 @@ voice_bg_stop
 
 #＠いちご,O01276
 #「パパのも、もう大きくなってる」
-＠Ichigo
-,O01276
+＠Ichigo,O01276
 「Papa'sthing has already become big.」
 
 #＠樹
@@ -1519,8 +1360,7 @@ voice_bg_stop
 
 #＠いちご,O01277
 #「えへへ、そっか……よかった。いちごだけ気持ちよくなっちゃってるのかと思ったから」
-＠Ichigo
-,O01277
+＠Ichigo,O01277
 「えへへ, I see......that's good. Ichigo was thinking if she was the only one feeling good.」
 
 #お腹の上でいちごが動き、すでに肥大化した肉棒が握られる。
@@ -1529,8 +1369,7 @@ voice_bg_stop
 
 #＠いちご,O01278
 #「挿れるよ、パパ。いい……？」
-＠Ichigo
-,O01278
+＠Ichigo,O01278
 「I'm putting in it, Papa.  Ok......?」
 
 #＠樹
@@ -1542,18 +1381,15 @@ voice_bg_stop
 #SCRIPT ADD KANJI
 Ｉn my unseeing state, I felt the swollen tip of my member touch her warm opening.
 
-
 #--------------------------------------------------
 #■HCG（騎乗位）
 event		"event\EV_ICH_121-00.png"
 voice_bg	"O90001"
 #--------------------------------------------------
 
-
 #＠いちご,O01279
 #「んッ……くぁあっ、んはぁあっ！　ああぁあっ！」
-＠Ichigo
-,O01279
+＠Ichigo,O01279
 「んッ......くぁあっ, んはぁあっ! ああぁあっ!」
 
 #いちごの腰がゆっくりと降りてきて、怒張を熱い媚肉の層の中へ沈めていく。
@@ -1567,8 +1403,7 @@ voice_bg	"O90001"
 
 #＠いちご,O01280
 #「んんんっ！　んはぁっ……はぁぁっ、入ってくよ、パパ…！」
-＠Ichigo
-,O01280
+＠Ichigo,O01280
 「んんんっ! んはぁっ......はぁぁっ, it's going in Papa...!」
 
 #見えずともイメージの中で、怒張がいちごの割れ目を左右に押し広げているのが分かる。
@@ -1581,22 +1416,18 @@ voice_bg	"O90001"
 
 #＠いちご,O01281
 #「んはぁぁっ、はぁう……熱くて硬いよぉ、パパのおちんちん……」
-＠Ichigo
-,O01281
+＠Ichigo,O01281
 「んはぁぁっ, はぁう......it's hot and hard, Papa's penis......」
 
 #＠いちご,O01282
 #「…でも入ったから、今日はいちごから動くね………っはぁぁ、んッ！　んんぅッ！」
-＠Ichigo
-,O01282
+＠Ichigo,O01282
 「...but it went in, so Ichigo is going to move today......... っはぁぁ, んッ! んんぅッ!」
-
 
 #--------------------------------------------------
 event		"event\EV_ICH_121-01.png"
 voice_bg	"O90002"
 #--------------------------------------------------
-
 
 #ヌヂュッ、ヂュッ……クヂュッ、ヂュブッ…#sqishy sounds
 #SCRIPT ADD KANJI
@@ -1606,20 +1437,16 @@ voice_bg	"O90002"
 #SCRIPT ADD KANJI
 Ｉchigo moves her waist up and down, and my meat rod begins its pistoning.
 
-
 voice_bg	"O90002"
-
 
 #＠いちご,O01283
 #「んはぁっ、はぁぁ！　んくッ……んひゃぅっ…！　あふぅっ……」
-＠Ichigo
-,O01283
+＠Ichigo,O01283
 「んはぁっ, はぁぁ! んくッ......んひゃぅっ...! あふぅっ......」
 
 #＠いちご,O01284
 #「はぁんっ、んはぁ！　あはぁっ、はぁふっ……んくん！　んはぁっ！」
-＠Ichigo
-,O01284
+＠Ichigo,O01284
 「はぁんっ, はぁ! あはぁっ, はぁふっ......んくん! んはぁっ!」
 
 #いちごは愛撫より強い嬌声を上げ、敏感な秘肉を怒張へ押し付ける。
@@ -1628,14 +1455,12 @@ voice_bg	"O90002"
 
 #＠いちご,O01285
 #「おちんちん、パパのぉっ……はぁっ！　んはぁッ、あぅん！　んんふっ…」
-＠Ichigo
-,O01285
+＠Ichigo,O01285
 「Cock, Papa's...... はぁっ! んはぁッ, あぅん! んんふっ...」
 
 #＠いちご,O01286
 #「ひぁんっ、あはぁぁッ！　大きいのが奥まで……キツキツで出入りしてるよぉっ……！」
-＠Ichigo
-,O01286
+＠Ichigo,O01286
 「ひぁんっ, あはぁぁッ! That huge thing all the way inside...... forcing itself in and out......!」
 
 #カリや静脈に張り付いた媚肉が、入り口から奥までズリズリと引きずられる。
@@ -1653,8 +1478,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01287
 #「はふぅっ、んぁんっ！　んはぁっ……はぁっ、五日間くらい……なんでっ？」
-＠chigo
-,O01287
+＠Ichigo,O01287
 「はふぅっ、んぁんっ!　んはぁっ......はぁっ, about five days......why?」
 
 #宝交に邪魔をされて不十分だった期間を入れると、結構な間処理をしていないことになる。
@@ -1663,14 +1487,12 @@ voice_bg	"O90002"
 
 #＠いちご,O01288
 #「ひぅんっ！　んはぁっ…はあぁっ……パパのおちんちん、ビクビクってしてるよっ…」
-＠Ichigo
-,O01288
+＠Ichigo,O01288
 「ひぅんっ! んはぁっ...はあぁっ......Papa's penis is twitching…」
 
 #＠いちご,O01289
 #「んんぅっ、あはぁっ！　前よりもっと、おちんちんが元気になってるみたいぃっ……」
-＠Ichigo
-,O01289
+＠Ichigo,O01289
 「んんぅっ, あはぁっ! Papa's cock seems to have become even more lively than before......」
 
 #＠樹
@@ -1680,8 +1502,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01290
 #「んくぅっ、はぁ！　んぇっ……？」
-＠Ichigo
-,O01290
+＠Ichigo,O01290
 「んくぅっ, はぁ! んぇっ......?」
 
 #意味は察していないようだが、いちごは腰の律動をそのまま続けていた。
@@ -1694,8 +1515,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01291
 #「くぅんっ！　んはあっ、あはぁっ…！　はぅんっ……んぅあっ、あふぅっ！　うぅんっ！」
-＠Ichigo
-,O01291
+＠Ichigo,O01291
 「くぅんっ! んはあっ, あはぁっ...! はぅんっ......んぅあっ, あふぅっ! うぅんっ!」
 
 #ズヂュッ、ヂュブブッ……クヂュッ、ズリュッ、ズチュゥッ！
@@ -1704,14 +1524,12 @@ voice_bg	"O90002"
 
 #＠いちご,O01292
 #「んんッ！　ふぁあっ……んはぁっ、はあっ！　おちんちん、気持ちいいよぉっ……」
-＠Ichigo
-,O01292
+＠Ichigo,O01292
 「んんッ! ふぁあっ......んはぁっ, はあっ!  Cock feels so good......」
 
 #＠いちご,O01293
 #「あぅはっ、ふはぁッ！　グヂュグヂュッて、いちごの中で暴れてるっ……」
-＠Ichigo
-,O01293
+＠Ichigo,O01293
 「あぅはっ, ふはぁッ! Squishing inside, its going wild inside Ichigo......」
 
 #腰使いは徐々に深くなり、いちごの膣内は怒張への吸着力をさらに増した。
@@ -1720,14 +1538,12 @@ voice_bg	"O90002"
 
 #＠いちご,O01294
 #「あはぁッ、んく！　おちんちんにっ、いちごの中が引きずり出されるよぉっ……」
-＠Ichigo
-,O01294
+＠Ichigo,O01294
 「あはぁッ, んく! The cock in Ichigo, its dragging Ichigo's inside out......」
 
 #＠いちご,O01295
 #「んはぅッ……はぁぁ！　んはぁっ、あぅぅッ……はぁぁ！　んぅふっ、あはぁっ…！」
-＠Ichigo
-,O01295
+＠Ichigo,O01295
 「んはぅッ......はぁぁ! んはぁっ, あぅぅッ......はぁぁ! んぅふっ, あはぁっ...!」
 
 #いちごのよるピストンの刺激が腰に渦巻くと、オレも下からいちごを突き上げた。
@@ -1736,8 +1552,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01296
 #「ふぁうッ！　んんッ！　んああッ……パパぁっ…」
-＠Ichigo
-,O01296
+＠Ichigo,O01296
 「ふぁうッ! んんッ! んああッ......Papaaa...」
 
 #オレからいちごの律動に合わせ、さらに奥まで肉棒を往復させる。
@@ -1746,20 +1561,17 @@ voice_bg	"O90002"
 
 #＠いちご,O01297
 #「んぁんッ、んはぁッ…！　はぁふッ、んくん！　あはぁッ……はぁぁッ」
-＠Ichigo
-,O01297
+＠Ichigo,O01297
 「んぁんッ, んはぁッ...! はぁふッ, んくん! あはぁッ......はぁぁッ」
 
 #＠いちご,O01298
 #「くひぅっ、んん！　パパ、すごいよぉっ……はあぁッ、んはぁッ！　お腹の奥まで、おちんちんが入ってくるぅッ……」
-＠Ichigo
-,O01298
+＠Ichigo,O01298
 「くひぅっ, んん! Papa, it's wonderful......はあぁッ, んはぁッ! The cock is going all the way into my tummy......」
 
 #＠いちご,O01299
 #「キツキツなとこ、グリグリって出入りさせてッ……熱くなってるよぉ、んぅはぁッ、はぁぅッ！」
-＠Ichigo
-,O01299
+＠Ichigo,O01299
 「That tight place, thrusting into me like that...... its getting hotter, んぅはぁッ, はぁぅッ!」
 
 #いちごの悦声に呼応するように、膣内がズッチュズッチュと肉棒を吸引する。
@@ -1771,8 +1583,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01300
 #「はあぁッ、んあぅッ！　パパ、いちごだんだん……腰に力が入んないよぉっ……くぅん！　んぁあ！」
-＠Ichigo
-,O01300
+＠Ichigo,O01300
 「はあぁッ, んあぅッ! Papa, Ichigo......can't keep moving......くぅん! んぁあ!」
 
 #＠樹
@@ -1782,8 +1593,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01301
 #「あうぅッ、んはぁあッ！　うん、でも……身体が疲れててっ……はぅぅッ！」
-＠Ichigo
-,O01301
+＠Ichigo,O01301
 「あうぅッ, んはぁあッ! Yea, but......I'm tired......はぅぅッ!」
 
 #……そうか。いちごはずっと、オレの看病をしてくれてたんだ。
@@ -1797,8 +1607,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01302
 #「っえ……？　んはぅッ！　ひぁあッ！」
-＠Ichigo
-,O01302
+＠Ichigo,O01302
 「っえ......? んはぅッ! ひぁあッ!」
 
 #オレはいちごに合わせていた突き上げを、自分のペースでずんずんと強めていった。
@@ -1807,8 +1616,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01303
 #「んはぁッ！　んくんッ、はぁぁッ……あぅふッ、ふぁ！　あぁああッ！」
-＠Ichigo
-,O01303
+＠Ichigo,O01303
 「んはぁッ! んくんッ, はぁぁッ......あぅふッ, ふぁ! あぁああッ!」
 
 #ギシギシとベッドのスプリングと腰の力を使い、いちごの軽い身体を弾ませる。
@@ -1817,8 +1625,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01304
 #「パ、パパぁっ……いちごッ…もうイッちゃうよ……んんッ！　んはぁッ！」
-＠Ichigo
-,O01304
+＠Ichigo,O01304
 「Pa, Papa......Ichigo...is coming......んんッ! んはぁッ!」
 
 #＠樹
@@ -1832,8 +1639,7 @@ voice_bg	"O90002"
 
 #＠いちご,O01305
 #「んんぅッ！　んはぁあッ！　はあぁッ、あぅッ、んくぅッ……あふぁッ！　あはぁッ！」
-＠Ichigo
-,O01305
+＠Ichigo,O01305
 「んんぅッ！　んはぁあッ！　はあぁッ、あぅッ、んくぅッ……あふぁッ！　あはぁッ！」
 
 #数日分の処理し切れていない怒張を、いちごの中へ一気にピストンさせる。
@@ -1842,16 +1648,13 @@ voice_bg	"O90002"
 
 #＠いちご,O01306
 #「ひはぁッ、はうぅッ！　パパ、おちんちん……まだ大きくなってくぅっ……ぃうん！　んぁあッ！」
-＠Ichigo
-,O01306
+＠Ichigo,O01306
 「ひはぁッ, はうぅッ! Papa, your cock......is getting bigger......ぃうん! んぁあッ!」
-
 
 #＠いちご,O01307
 #「んはぁッ！　はあぁッ、いちごの中のお肉、ズチュズチュってしながらぁッ…！　んッ…ふぁ
 #あん！」
-＠Ichigo
-,O01307
+＠Ichigo,O01307
 「んはぁッ! はあぁッ, while pounding Ichigo's insides...! んッ...ふぁあん!」
 
 #熱く愛液でヌルヌルになった膣内に、怒張を締め付けられ、そう時間もかからず射精感が尿道を痺れさせた。
@@ -1869,15 +1672,13 @@ screen_flash		500
 event		"event\EV_ICH_121-02.png"
 #--------------------------------------------------
 
-
 #ビュルルッ！　ドビュッ、ヂュビュゥッ！　ドクドクッ！
 #SCRIPT ADD KANJI
 ビュルルッ! ドビュッ, ヂュビュゥッ! ドクドクッ!
 
 #＠いちご,O01308
 #「んぁぁあぁあああああッ！！　あはぁッ、ぁあぁぁあッ！」
-＠Ichigo
-,O01308
+＠Ichigo,O01308
 「んぁぁあぁあああああッ! あはぁッ, ぁあぁぁあッ!」
 
 #いちごの中に入れたまま、そこで精の塊を一気に溢れさせる。
@@ -1886,27 +1687,23 @@ event		"event\EV_ICH_121-02.png"
 
 screen_flash		500
 
-
 #ドクドクッ！　ドクゥウッ……ヂュブゥッ！　ドブブッ！
 #SCRIPT ADD KANJI
 ドクドクッ! ドクゥウッ......ヂュブゥッ! ドブブッ!
 
 #＠いちご,O01309
 #「んひぁあッ、あはぁぁッ！！　出てるよぉッ……パパの精液が中にぃっ…！」
-＠Ichigo
-,O01309
+＠Ichigo,O01309
 「んひぁあッ, あはぁぁッ! It's shooting out......Papa's cum is inside me...!」
 
 #＠いちご,O01310
 #「いちごのイッてる中で、溜まってくるよぉ…ッ！　んくぅッ！　はあぁああッ、熱いぃッ…」
-＠Ichigo
-,O01310
+＠Ichigo,O01310
 「Ah, its filling Ichigo...! んくぅッ! はあぁああッ, its hot...」
 
 #--------------------------------------------------
 event		"event\EV_ICH_121-03.png"
 #--------------------------------------------------
-
 
 #膣内がオルガスムスの熱と痙攣を見せ、白濁に埋め尽くされていく。
 #SCRIPT ADD KANJI
@@ -1918,8 +1715,7 @@ event		"event\EV_ICH_121-03.png"
 
 #＠いちご,O01311
 #「ひぁっんぁあ！　あはぁあッ！　はぁあッ、パパぁッ……いちごもうイッちゃったよぉッ…！」
-＠Ichigo
-,O01311
+＠Ichigo,O01311
 「ひぁっんぁあ! あはぁあッ! はぁあッ, Papa......Ichigo came...!」
 
 #看病疲れだったいちごは、絶頂を挟んだことでさらに疲れが声に表れている。
@@ -1928,8 +1724,7 @@ event		"event\EV_ICH_121-03.png"
 
 #＠いちご,O01312
 #「んぅぁあッ！　くはぁっあはぁあッ！　あぅんッ……んんぁッ、んはぁ！　はぁぁうん！」
-＠Ichigo
-,O01312
+＠Ichigo,O01312
 「んぅぁあッ! くはぁっあはぁあッ! あぅんッ......んんぁッ, んはぁ! はぁぁうん!」
 
 #いちごから腰の動きは無く、オレから一方的に、精液を溜め込んだ膣内を怒張でかき回した。
@@ -1942,8 +1737,7 @@ event		"event\EV_ICH_121-03.png"
 
 #＠いちご,O01313
 #「んはぁあッあぁあう！　はあぁッ…おちんちんに、精液が混ぜられちゃうぅッ…！」
-＠Ichigo
-,O01313
+＠Ichigo,O01313
 「んはぁあッあぁあう! はあぁッ...Papa's cock...its mixing up everything ...!」
 
 #＠樹
@@ -1961,8 +1755,7 @@ event		"event\EV_ICH_121-03.png"
 
 #＠いちご,O01314
 #「んくぅぅッ！　あはぁぁッ、あぅッ！　パパッ……」
-＠Ichigo
-,O01314
+＠Ichigo,O01314
 「んくぅぅッ! あはぁぁッ, あぅッ! Papaa......」
 
 #＠樹
@@ -1980,15 +1773,13 @@ screen_flash		500
 event		"event\EV_ICH_121-04.png"
 #--------------------------------------------------
 
-
 #ドビュルゥッ！　ビュビュルッ、ドビュッ！　ヂュビュゥッ！
 #SCRIPT ADD KANJI
 ドビュルゥッ! ビュビュルッ, ドビュッ! ヂュビュゥッ!
 
 #＠いちご,O01315
 #「んぁあああぅぅッ！　あうぅうッ、んはぁああぁあッ！！」
-＠Ichigo
-,O01315
+＠Ichigo,O01315
 「んぁあああぅぅッ! あうぅうッ, んはぁああぁあッ!!」
 
 #タイミングがずれて抜けたまま、大量の精液が外に向けて放たれていく。
@@ -1997,12 +1788,10 @@ event		"event\EV_ICH_121-04.png"
 
 #＠いちご,O01316
 #「熱いぃ、はぁぅぅ！　あはぁッ、またたくさんッ……精液が身体にかかってるぅッ…！」
-＠Ichigo
-,O01316
+＠Ichigo,O01316
 「Its hot, はぁぅぅ! あはぁッ, so much again...all over my body...!」
 
 screen_flash		500
-
 
 #ドクドクッ！　ビュブッ、ドビュルゥッ……！　ドクンッ、ドクンッ…
 #SCRIPT ADD KANJI
@@ -2010,8 +1799,7 @@ screen_flash		500
 
 #＠いちご,O01317
 #「んはぁぁッ……あはあぁっ、おちんちん、すごいよぉ……ビクビクしながらこんなに…！」
-＠Ichigo
-,O01317
+＠Ichigo,O01317
 「んはぁぁッ......あはあぁっ, Papa's cock, is wonderful......twitching and doing this...! 」
 
 #どうやら精液はいちごを汚しているらしく、いちごは絶頂の余韻を残した声をとろけさせる。
@@ -2028,11 +1816,9 @@ event		"event\EV_ICH_121-05.png"
 voice_bg	"O90007"
 #--------------------------------------------------
 
-
 #＠いちご,O01318
 #「ああぅ……んはぁぁっ、はぁぁ…はぁぁっ……」
-＠Ichigo
-,O01318
+＠Ichigo,O01318
 「ああぅ......んはぁぁっ, はぁぁ...はぁぁっ......」
 
 #絶頂した疲れと、火照りを混じらせた呼吸を乱れて漏らすいちご。
@@ -2041,8 +1827,7 @@ voice_bg	"O90007"
 
 #＠いちご,O01319
 #「はぁぁ……パパ、すごい濃いのがいっぱい出たね……」
-＠Ichigo
-,O01319
+＠Ichigo,O01319
 「はぁぁ......Papa, you sure shot out alot of thick stuff......」
 
 #＠樹
@@ -2052,14 +1837,12 @@ voice_bg	"O90007"
 
 #＠いちご,O01320
 #「それって、いちごとエッチしたのが気持ちよかったって事だよね」
-＠Ichigo
-,O01320
+＠Ichigo,O01320
 「You're saying that it felt good to do it with Ichigo right.」
 
 #＠いちご,O01321
 #「えへへ……いちごも疲れたけど、それなら頑張ってよかったぁ」
-＠Ichigo
-,O01321
+＠Ichigo,O01321
 「えへへ......Ichigo is tired too but, I'm glad I tried hard.」
 
 #そう言って疲れて笑ういちごの姿が、声だけで想像できた。
@@ -2072,13 +1855,10 @@ voice_bg	"O90007"
 
 voice_bg_stop
 
-
 #＠いちご,O01322
 #「パパ、いちごこれからもずっとパパと一緒に居るね……」
-＠Ichigo
-,O01322
+＠Ichigo,O01322
 「Papa, Ichigo will stay with Papa forever from now on......」
-
 
 #■BG（黒）
 #@bg_black		# 黒
@@ -2088,20 +1868,16 @@ wait			2000
 @bg_white		# 白
 screen_whitein		100
 
-
 #こちらに体重を預けてくるいちごを、オレは強く抱きしめてやった。
 #SCRIPT ADD KANJI
 Ａs Ichigo rested herself against me, I hugged her tightly.
 
-
 bgm_stop
 @bg_black		# 黒
-
 
 #--------------------------------------------------
 scene_end
 #--------------------------------------------------
-
 
 #…………………
 #SCRIPT ADD KANJI
@@ -2115,10 +1891,8 @@ scene_end
 #SCRIPT ADD KANJI
 　.........
 
-
 #■BG（病室）
 @bg_byoushitsu		# 病室
-
 
 #行為の直後は明らかに香っていた匂いも、何とか換気で和らいできた。
 #SCRIPT ADD KANJI
@@ -2126,11 +1900,9 @@ scene_end
 
 #CH（立ち絵なし）
 
-
 #＠いちご,O01323
 #「………すぅ……んくぅ…」
-＠Ichigo
-,O01323
+＠Ichigo,O01323
 「.........すぅ......んくぅ...」
 
 #いちごは疲れて、今はオレの隣でベッドに入って眠っている。
@@ -2148,8 +1920,7 @@ scene_end
 
 #＠いちご,O01324
 #「んん……んにゅぅ……」
-＠Ichigo
-,O01324
+＠Ichigo,O01324
 「んん......んにゅぅ......」
 
 #寝息の返事を聞いて安心し、オレも疲れたから眠ろうとした。
@@ -2159,11 +1930,9 @@ scene_end
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-
 #＠美雨,B00867
 #「樹さん、よろしいですか？」
-＠Miu
-,B00867
+＠Miu,B00867
 「Itsuki, may I enter?」
 
 #＠樹
@@ -2179,23 +1948,18 @@ wait		1000
 #@miu_maid
 #@miu			#閉_にこ
 
-
 #＠美雨,B00868
 #「失礼します。お疲れのところを」
-＠Itsuki
-,B00868
+＠Miu,B00868
 「Excuse me. You must still be tired.」
-
 
 @miu_small
 @miu_maid
 @miu			#閉_にこ
 
-
 #＠美雨,B00869
 #「あら。ふふっ、いちごちゃんは樹さんの隣で眠っちゃったんですね」
-＠Miu
-,B00869
+＠Miu,B00869
 「Well.  ふふっ, Ichigo-chan fell asleep next to you.」
 
 #＠樹
@@ -2205,7 +1969,6 @@ wait		1000
 
 @bgm02			#BGM 02 : 朝のテーマ（特別に使ってみたほかにないの・・・）
 
-
 #今さっきまでしていた事はとても話せまい……
 #SCRIPT ADD KANJI
 Ｗhat we did just a while earlier, its really not something I can talk about......
@@ -2214,16 +1977,13 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｂut that was some awfully good timing on Miu's part.  I have a feeling she probably knows anyway.
 
-
 @shizuku_small
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-
 #＠雫,S00746
 #「ぬっふふ～。本当に看病で疲れただけなんだろうかねぇ～」
-＠Shizuku
-,S00746
+＠Shizuku,S00746
 「ぬっふふ～.  I wonder if visiting is the real reason for her being exhausted～」
 
 #＠樹
@@ -2231,23 +1991,18 @@ wait		1000
 ＠Itsuki
 「うぉあッ!?　Y, you were here!?」
 
-
 @shizuku		#普通
-
 
 #＠雫,S00747
 #「ああ居たよ、ずっと」
-＠Shizuku
-,S00747
+＠Shizuku,S00747
 「ああ I was here alright, all the way.」
 
 @shizuku_yorokobi	#喜
 
-
 #＠雫,S00748
 #「もちろん、あんた達が何か一生懸命してる間、ず～～っとだよ」
-＠Shizuku
-,S00748
+＠Shizuku,S00748
 「Of course, while the two of you were doing something with all your energy, I was here all～the～way～」
 
 #＠樹
@@ -2255,24 +2010,18 @@ wait		1000
 ＠Itsuki
 「Wha!?」
 
-
 @shizuku_warai		#笑
-
 
 #＠雫,S00749
 #「はっはは。堂々と見てても樹は気付かないんだから、たっぷり楽しんだよ」
-＠Shizuku
-,S00749
+＠Shizuku,S00749
 「はっはは。Because Itsuki didn't notice even though I was watching so openly, I really had alot of fun.」
-
 
 @miu_ikari		#閉_怒
 
-
 #＠美雨,B00870
 #「雫さん、冗談はそれくらいにしてください。樹さんが固まってます」
-＠
-,B00870
+＠Miu,B00870
 「Shizuku-san, I think that joke has gone far enough.  Itsuki-san is petrified.」
 
 #＠樹
@@ -2280,14 +2029,11 @@ wait		1000
 ＠Itsuki
 「.........T,that was a joke, right?」
 
-
 @miu_komaru		#開_困
-
 
 #＠美雨,B00871
 #「安心してください。ちゃんと部屋の外に居ましたから」
-＠Iysuki
-,B00871
+＠Miu,B00871
 「Please relax.  We were outside the room all the way.」
 
 #＠樹
@@ -2299,15 +2045,12 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｔhis is really too strenuous for my heart.
 
-
 #CH（美雨表情・照れ）
 @miu_tere		#閉_照
 
-
 #＠美雨,B00872
 #「お話があったので、タイミングが出来るまで様子を探ってはいたんですけど……」
-＠Miu
-,B00872
+＠Miu,B00872
 「There is something to discuss, so we waited until there was an opening for us to enter but......」
 
 #＠樹
@@ -2317,11 +2060,9 @@ wait		1000
 
 @shizuku_akire		#呆
 
-
 #＠雫,S00750
 #「いちごが疲れてなきゃ、もう１ラウンドくらいの余力はあったんだろう？　残念だったね」
-＠Shizuku
-,S00750
+＠Shizuku,S00750
 「If Ichigo wasn't tired, you'd probably still have enough reserves for one more round right? What a pity.」
 
 #＠樹
@@ -2333,7 +2074,6 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉt's not really anybody's fault, but I decided to avoid reality for this once.
 
-
 #＠樹
 #「……で、話って？」
 ＠Itsuki
@@ -2343,23 +2083,17 @@ wait		1000
 #@miu_ikari2		#開_怒
 @miu_komaru		#開_困
 
-
 #＠雫,S00751
 #「うん、それなんだがな」
-＠Shizuku
-,S00751
+＠Shizuku,S00751
 「Yes, there is something.」
-
 
 bgm_stop
 
-
 #＠雫,S00752
 #「実は土屋施設、潰す事になったんだ」
-＠Shizuku
-,S00752
+＠Shizuku,S00752
 「Actually, the Tsuchiya Facility has gone bankrupt.」
-
 
 #＠樹
 #「は……？」
@@ -2369,11 +2103,9 @@ bgm_stop
 @shizuku_akire		#呆
 @bgmk07			#BGM K07 : 深刻なテーマ
 
-
 #＠雫,S00753
 #「潰すんだよ。もっとも、その後立て直す予定も無いんだけどね」
-＠Shizuku
-,S00753
+＠Shizuku,S00753
 「Bankrupted. In addition, there are no plans to reestablish it.」
 
 #＠樹
@@ -2392,8 +2124,7 @@ bgm_stop
 
 #＠美雨,B00873
 #「いえ、本当なんです。実はもう解体準備は始まっていまして」
-＠Miu
-,B00873
+＠Miu,B00873
 「No, its the truth.  In fact, the preparations for dissolution are already beginning.」
 
 #＠樹
@@ -2405,14 +2136,11 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｉn my state of confusion, I blurted out my words without any regard.
 
-
 @shizuku_yorokobi	#喜
-
 
 #＠雫,S00754
 #「あんたの父親の借金は、その解体作業でチャラになる。最高の利潤だろ？」
-＠Shizuku
-,S00754
+＠Shizuku,S00754
 「With the dissolution, the loan your father took will be reduced to zero.  Isn't this the best case?」
 
 #＠樹
@@ -2420,14 +2148,11 @@ bgm_stop
 ＠Itsuki
 「It's not about profit......its just, how did this suddenly happen!?」
 
-
 @miu_ikari2		#開_怒
-
 
 #＠美雨,B00874
 #「私たちのしていることが、警察にバレたんです」
-＠Miu
-,B00874
+＠Miu,B00874
 「The police discovered what we were doing.」
 
 #＠樹
@@ -2437,27 +2162,21 @@ bgm_stop
 
 #＠美雨,B00875
 #「すぐに施設を取り壊すように、とのことです」
-＠Miu
-,B00875
+＠Miu,B00875
 「They quickly moved to shutdown and demolish the facility.」
-
 
 #@miu_ikari		#閉_怒
 
-
 #＠美雨,B00876
 #「ただ借金そのものも不当性な要素が多々あるため、国の方で処理してくださると」
-＠Miu
-,B00876
+＠Miu,B00876
 「Because of numerous irregularities in the loan though, you may have to deal with the authorities.」
 
 @shizuku_chousyou	#怒笑
 
-
 #＠雫,S00755
 #「つまりこれで、あんたは晴れて自由の身。借金からも裏社会からも解放されたのさ」
-＠Shizuku
-,S00755
+＠Shizuku,S00755
 「Anyway, with this, you're now free to go.  The underworld has also released you from responsibility for the loan.」
 
 #＠樹
@@ -2478,14 +2197,11 @@ bgm_stop
 ＠Itsuki
 「What about everyone else? Mikan and Karin, the other kids who have nowhere to go.」
 
-
 @miu			#閉_にこ
-
 
 #＠美雨,B00877
 #「他の施設で預かっていただきます。もちろん、こんなお仕事の無い普通の施設ですよ」
-＠Miu
-,B00877
+＠Miu,B00877
 「They will be placed in other facilities.  Of course, those will be normal facilities without the work like at the previous facility.」
 
 #＠樹
@@ -2493,14 +2209,11 @@ bgm_stop
 ＠Itsuki
 「Then, what about Ichigo......」
 
-
 @shizuku		#普通
-
 
 #＠雫,S00756
 #「とうぜん、他の子たちと同じように別の施設へ送られるさ」
-＠Shizuku
-,S00756
+＠Shizuku,S00756
 「Of course, just like the other children, she will be sent to another facility.」
 
 #＠樹
@@ -2512,21 +2225,16 @@ bgm_stop
 #@miu_ikari2		#開_怒
 #@miu_komaru		#開_困
 
-
 #＠雫,S00757
 #「まぁ興奮しないで聞きな。あんたがその気なら、いちごを養女に迎えることは出来る」
-＠Shizuku
-,S00757
+＠Shizuku,S00757
 「Well, you don't have to get so excited.  If you feel that way, you can adopt Ichigo.」
-
 
 @shizuku_yorokobi	#喜
 
-
 #＠雫,S00758
 #「いちごもそれを望んでるみたいだし、だからあたしも美雨も、いちごの転院手続きはしていないんだ」
-＠Shizuku
-,S00758
+＠Shizuku,S00758
 「It seems like Ichigo wishes for that too.  That's why neither Miu nor I did any transfer arrangemens for Ichigo.」
 
 #＠樹
@@ -2536,11 +2244,9 @@ bgm_stop
 
 #@miu			#閉_にこ
 
-
 #＠美雨,B00878
 #「はい。せっかく家族が出来る子を、無理に施設に入れたりはしませんよ」
-＠Miu
-,B00878
+＠Miu,B00878
 「Yes.  Since she's been able to get a family, we don't want to force her into a facility.」
 
 #いちごを養女に………オレが、父親に……
@@ -2562,14 +2268,12 @@ bgm_stop
 
 #＠美雨,B00879
 #「よかった……」
-＠Miu
-,B00879
+＠Miu,B00879
 「That's wonderful......」
 
 #＠美雨,B00880
 #「いちごちゃんも喜ぶと思います。私たちも、それを聞いて安心しました」
-＠Miu
-,B00880
+＠Miu,B00880
 「I think that Ichigo-chan will be overjoyed as well.  We're very relieved to hear that.」
 
 #＠樹
@@ -2589,17 +2293,14 @@ bgm_stop
 @miu_komaru		#開_困
 @shizuku_akire		#呆
 
-
 #＠美雨,B00881
 #「…………」
-＠Miu
-,B00881
+＠Miu,B00881
 「............」
 
 #＠雫,S00759
 #「……………」
-＠Shizuku
-,S00759
+＠Shizuku,S00759
 「...............」
 
 #＠樹
@@ -2607,24 +2308,18 @@ bgm_stop
 ＠Itsuki
 「In this state, will I be able to adopt Ichigo......?」
 
-
 @miu			#閉_にこ
-
 
 #＠美雨,B00882
 #「そのことでしたら、心配いりませんよ」
-＠Miu
-,B00882
+＠Miu,B00882
 「You don't have to worry about that problem.」
-
 
 @miu_ikari2		#開_怒
 
-
 #＠美雨,B00883
 #「樹さんは捕まりません」
-＠Shizuku
-,B00883
+＠Shizuku,B00883
 「Itsuki-san will not be arrested.」
 
 #＠樹
@@ -2632,14 +2327,11 @@ bgm_stop
 ＠Itsuki
 「え......?」
 
-
 @shizuku		#普通
-
 
 #＠雫,S00760
 #「黒幕はあたしと美雨。施設もあたし名義に書き換えて、院長もあんたじゃない」
-＠Shizuku
-,S00760
+＠Shizuku,S00760
 「The people behind it are Miu and I.  The facility was also transferred to my name, and tehre are no records of you as the principal either.」
 
 #＠樹
@@ -2647,14 +2339,11 @@ bgm_stop
 ＠Itsuki
 「.........That's, in other words......」
 
-
 @shizuku_chousyou	#怒笑
-
 
 #＠雫,S00761
 #「あたしと美雨が代わりに捕まるのさ。感謝しなよ～」
-＠Shizuku
-,S00761
+＠Shizuku,S00761
 「Miu and I will get arrested in your place, so you'd better be grateful～」
 
 #＠樹
@@ -2673,21 +2362,16 @@ bgm_stop
 
 @miu_kanashimi2		#閉_哀
 
-
 #＠美雨,B00884
 #「いいえ、これが自然な結末なんです」
-＠Miu
-,B00884
+＠Miu,B00884
 「No, this is way it should end.」
-
 
 @miu_kanashimi		#開_哀
 
-
 #＠美雨,B00885
 #「だって樹さんは私たちに呼ばれて施設に来た、いわば被害者なのですから」
-＠Miu
-,B00885
+＠Miu,B00885
 「Bcause we summoned you to the facility, you're just a victim.」
 
 #＠樹
@@ -2695,24 +2379,18 @@ bgm_stop
 ＠Itsuki
 「What kind of reasoning is that? No, whether or not its justified, I can't accept that!」
 
-
 @shizuku_akire		#呆
-
 
 #＠雫,S00762
 #「やれやれ。強情って言うか、変わったやつだねぇ、あんたも」
-＠Shizuku
-,S00762
+＠Shizuku,S00762
 「Hmnhmn.  Such a strong outburst, you've really changed haven't you.」
-
 
 @shizuku		#普通
 
-
 #＠雫,S00763
 #「せっかく罪を逃れられるんだ。もっと素直に喜びなよ」
-＠Shizuku
-,S00763
+＠Shizuku,S00763
 「Seeing as you've got away, you should rejoice more honestly.」
 
 #＠樹
@@ -2725,24 +2403,18 @@ bgm_stop
 ＠Itsuki
 「What is more, aren't the two of you who were living together with us as good as family?」
 
-
 @miu_komaru		#開_困
-
 
 #＠美雨,B00886
 #「樹さん……」
-＠Miu
-,B00886
+＠Miu,B00886
 「Itsuki-san......」
-
 
 @shizuku_yorokobi	#喜
 
-
 #＠雫,S00764
 #「ふふ。もう会うことも無いと思うけど、元気でやりなよ」
-＠Shizuku
-,S00764
+＠Shizuku,S00764
 「ふふ. I don't think we will meet again, but have a good life.」
 
 #＠樹
@@ -2750,9 +2422,7 @@ bgm_stop
 ＠Itsuki
 「Shizuku-san! Miuu!!」
 
-
 @chara_clear		#保険
-
 
 #必死で呼び止めようとするが、二人の足音と気配が遠ざかっていく。
 #SCRIPT ADD KANJI
@@ -2764,14 +2434,11 @@ bgm_stop
 
 #＠いちご,O01325
 #「ん……にゅぅ……パパ…」
-＠Ichigo
-,O01325
+＠Ichigo,O01325
 「ん......にゅぅ......Papa...」
-
 
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
-
 
 #＠樹
 #「……ッ！　いちご」
@@ -2805,14 +2472,12 @@ window_close
 
 #＠いちご,O01326
 #「くぅ……んん…パパ……もういちご、一人にしないで……」
-＠Ichigo
-,O01326
+＠Ichigo,O01326
 「くぅ......んん...Papa......don't...leave Ichigo...alone...any more......」
 
 #＠いちご,O01327
 #「ん……くぅ……んすぅ……」
-＠Ichigo
-,O01327
+＠Ichigo,O01327
 「ん......くぅ......んすぅ......」
 
 #＠樹
@@ -2825,7 +2490,6 @@ bgm_stop
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @bg_black		# 黒
-
 
 #オレは布団を跳ね上げて、ベッドから飛び出した。
 #SCRIPT ADD KANJI
@@ -2843,15 +2507,12 @@ bgm_stop
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
-
 #＠樹
 #「っぐあ！！　ッつう…！！」
 ＠Itsuki
 「っぐあ!! ッつう...!!」
 
-
 @bgm05			#BGM 05 : 悲しいシーンの曲
-
 
 #足音を頼りに駆け出すが、すぐ何かに足元をひっかけて倒れる。
 #SCRIPT ADD KANJI
@@ -2875,10 +2536,8 @@ bgm_stop
 ＠Itsuki
 「I'll definitely protect Ichigoo! We'll definitely live together happily from now on!!」
 
-
 #SE89　壁を殴る音
 @SE89			#SE89　壁を殴る音（既存のSEで合うものがあれば使いまわし。無ければ新規でお願いします）
-
 
 #壁かもドアかも分からない手の触れた場所を、思いっきり殴りつける。
 #SCRIPT ADD KANJI
@@ -2889,13 +2548,11 @@ bgm_stop
 ＠Itsuki
 「Shizuku-sann!! Miuu!!」
 
-
 #SE89　壁を殴る音
 @SE89			#SE89　壁を殴る音（既存のSEで合うものがあれば使いまわし。無ければ新規でお願いします）
 wait		1000
 #SE89　壁を殴る音
 @SE89			#SE89　壁を殴る音（既存のSEで合うものがあれば使いまわし。無ければ新規でお願いします）
-
 
 #あの二人にとにかく伝えたい。
 #SCRIPT ADD KANJI
@@ -2916,25 +2573,20 @@ wait		1000
 #SE89　壁を殴る音
 @SE89			#SE89　壁を殴る音（既存のSEで合うものがあれば使いまわし。無ければ新規でお願いします）
 
-
 #＠樹
 #「絶対にいちごと二人で、幸せにッ！！　何があってもずっとだッ！！」
 ＠Itsuki
 「Ichigo and I! We'll definitely live happily together!! Forever! No matter what!!」
 
-
 @SE06			#部屋のドア開く音（ガチャ）
-
 
 #＠看護婦,V25000
 #「つ、土屋さんッ！？　何をしてるんですか！　しっかりしてください！！」
-＠Nurse
-,V25000
+＠Nurse,V25000
 「Tsu, Tsuchiya-san!? What are you doing! Please get a hold of yourself!!」
 
 window_close
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
-
 
 #見当ハズレな場所でドアが開き、そこから知らない人間がオレを取り押さえに掛かってくる。
 #SCRIPT ADD KANJI
@@ -2956,17 +2608,14 @@ wait		1000
 #SE89　壁を殴る音
 @SE89			#SE89　壁を殴る音（既存のSEで合うものがあれば使いまわし。無ければ新規でお願いします）
 
-
 #＠看護婦,V25001
 #「止めてくださいッ、土屋さん！　土屋さんッ！！」
-＠Nurse
-,V25001
+＠Nurse,V25001
 「Please stop it, Tsuchiya-san! Tsuchiya-san!!」
 
 #＠看護婦,V25002
 #「せんせーッ！　誰かッ、土屋さんがッ！！」
-＠Nurse
-,V25002
+＠Nurse,V25002
 「Doctor! Someone! Tsuchiya-san is...!!」
 
 #＠樹
@@ -2974,11 +2623,9 @@ wait		1000
 ＠Itsuki
 「Shit!! Miu!! Shizuku-san!! うわぁぁぁああああッッッ!!」
 
-
 window_close
 bgm_stop
 wait		1000
-
 
 #………その後のことは、うろ覚えだった。
 #SCRIPT ADD KANJI
@@ -2999,13 +2646,10 @@ window_close
 wait		2000
 @bg_sky			# 空
 
-
 ………数日後。
-
 
 #■BG（青空）
 #@bg_sky			# 空
-
 
 #一騒動あったが無事に退院したオレは、いちごと共に、施設のあった場所を訪れていた。
 #SCRIPT ADD KANJI
@@ -3013,8 +2657,7 @@ wait		2000
 
 #＠いちご,O01328
 #「あッ……」
-＠Ichigo
-,O01328
+＠Ichigo,O01328
 「あッ......」
 
 #＠樹
@@ -3024,13 +2667,10 @@ wait		2000
 
 #＠いちご,O01329
 #「本当に無いよ。空き地になって、立ち入り禁止になってる」
-＠Ichigo
-,O01329
+＠Ichigo,O01329
 「There's really nothing left. It's become a 'no entry' empty ground.」
 
-
 @bgm17			#BGM 17 : のんびりのテーマ
-
 
 #予想はしていたが、やはりショックだった。
 #SCRIPT ADD KANJI
@@ -3041,23 +2681,18 @@ wait		2000
 ＠Itsuki
 「Let's go......」
 
-
 #■BG（住宅街）
 @ichigo_middle		# 中間
 @ichigo_shifuku
 @ichigo_odoroki		#驚
 @bg_jyuutakugai		# 住宅街
 
-
 #＠いちご,O01330
 #「あっ、待ってパパ。危ないから一緒に歩くよっ」
-＠Ichigo
-,O01330
+＠Ichigo,O01330
 「あっ, wait up Papa.  It's dangerous, so we should walk together.」
 
-
 @ichigo_
-
 
 #きびすを返すオレの隣に、いちごの足音が並ぶ。
 #SCRIPT ADD KANJI
@@ -3065,8 +2700,7 @@ wait		2000
 
 #＠いちご,O01331
 #「みんなどこに行ったんだろうね……」
-＠Ichigo
-,O01331
+＠Ichigo,O01331
 「I wonder where everyone went......」
 
 #＠樹
@@ -3103,11 +2737,9 @@ wait		2000
 #@ichigo_shifuku
 #@ichigo			#普通
 
-
 #＠いちご,O01332
 #「パパ……？」
-＠Ichigo
-,O01332
+＠Ichigo,O01332
 「Papa......?」
 
 #＠樹
@@ -3115,12 +2747,10 @@ wait		2000
 ＠Itsuki
 「It's nothing.  In any case, even if something had happened...」
 
-
 #--------------------------------------------------
 #■EVCG（エンディング）
 event		"event\EV_ICH_190-00.png"
 #--------------------------------------------------
-
 
 #＠樹
 #「いちごはちゃんと、オレの隣にいるんだよな」
@@ -3129,8 +2759,7 @@ event		"event\EV_ICH_190-00.png"
 
 #＠いちご,O01333
 #「どうしたの、パパ？」
-＠Ichigo
-,O01333
+＠Ichigo,O01333
 「What is it, Papa?」
 
 #スッと差し出した手を、いちごと互いに繋ぎ合った。
@@ -3144,15 +2773,12 @@ event		"event\EV_ICH_190-00.png"
 
 #＠いちご,O01334
 #「うんッ。いちごもずっとパパと一緒にいるよ。ずっと一緒に暮らす！」
-＠Ichigo
-,O01334
+＠Ichigo,O01334
 「Right. Ichigo will stay with Papa forever.  We'll live together forever!」
-
 
 #＠いちご,O01335
 #「ねぇパパ。どこに住むの？　どこで暮らそっか」
-＠Ichigo
-,O01335
+＠Ichigo,O01335
 「Hey Papa. Where will we stay? Where do you think we can live?」
 
 #＠樹
@@ -3173,19 +2799,16 @@ event		"event\EV_ICH_190-00.png"
 @bg_sky			# 空
 wait		1000
 
-
 # ＠美雨（//本編中では二重カギカッコ）,B10000
 #＠　,B10000
 #『樹さん……もしこれからの新生活で、他の子と同じ年代、『ひかり』という名の子に会うことがあれば』
-＠
-,B10000
+＠Miu,B10000
 『Itsuki-san.......if, during your new life from now on, you happen to meet with a child the same age the other girls with the name 'Hikari'』
 
 # ＠美雨（//本編中では二重カギカッコ）,B10001
 #＠　,B10001
 #『その子が元気で過ごしているのか、少しでもいいので見守ってあげてください……』
-＠
-,B10001
+＠Miu,B10001
 『even if it's just for a little, please watch over that child......』
 
 window_close
@@ -3195,11 +2818,6 @@ wait			3000
 @bg_white		# 白
 screen_whitein		1
 
-
 #■（エンディング）
 return
-
-
-
-
 

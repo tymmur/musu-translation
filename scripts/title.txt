@@ -16,7 +16,6 @@ label	title
 #screen_whiteout	1000
 #wait		1000
 
-
 layer_movie_load	0,"musume_op.mpg",play_loop
 voice		"A02522"
 keywait
@@ -38,82 +37,80 @@ layer_movepass_add	3,0,500,0,-4
 layer_movepass_add	3,0,500,0,0
 layer_movepass_play	3,0,play_loop
 
-
 layer_load_overlap	2,"cg\title\title_base.png"
 
 #wait			50000
 
-
-	clearbutton
-	# setbutton ボタン番号,X,Y,エフェクト
-	setbutton 0,21,335,0,"cg\title\title_gamestart_over.png","cg\title\title_gamestart.png"
-	setbutton 1,21,378,0,"cg\title\title_load_over.png","cg\title\title_load.png"
-	setbutton 2,21,419,0,"cg\title\title_quickload_over.png","cg\title\title_quickload.png"
-	setbutton 3,21,464,0,"cg\title\title_cgmode_over.png","cg\title\title_cgmode.png"
-	setbutton 4,21,500,0,"cg\title\title_scenemode_over.png","cg\title\title_scenemode.png"
-	setbutton 5,21,539,0,"cg\title\title_website_over.png","cg\title\title_website.png"
-	setbutton 6,240,539,0,"cg\title\title_quit_over.png","cg\title\title_quit.png"
-	setbutton 7,210,576,0,"cg\title\title_support_over.png","cg\title\title_support.png"
-	if GLOBAL(103)=1 then setbutton 8,236,468,0,"stg\title_burunyan_over.png","stg\title_burunyan.png"
+clearbutton
+# setbutton ボタン番号,X,Y,エフェクト
+setbutton 0,21,335,0,"cg\title\title_gamestart_over.png","cg\title\title_gamestart.png"
+setbutton 1,21,378,0,"cg\title\title_load_over.png","cg\title\title_load.png"
+setbutton 2,21,419,0,"cg\title\title_quickload_over.png","cg\title\title_quickload.png"
+setbutton 3,21,464,0,"cg\title\title_cgmode_over.png","cg\title\title_cgmode.png"
+setbutton 4,21,500,0,"cg\title\title_scenemode_over.png","cg\title\title_scenemode.png"
+setbutton 5,21,539,0,"cg\title\title_website_over.png","cg\title\title_website.png"
+setbutton 6,240,539,0,"cg\title\title_quit_over.png","cg\title\title_quit.png"
+setbutton 7,210,576,0,"cg\title\title_support_over.png","cg\title\title_support.png"
+if GLOBAL(103)=1 then setbutton 8,236,468,0,"stg\title_burunyan_over.png","stg\title_burunyan.png"
 
 label	title_loop
 
-	getbutton titlesel
+getbutton titlesel
 
-	if titlesel=1 then loadwindow	;goto title_loop
-	if titlesel=2 then quickload		;goto title_loop
-	if titlesel=3 then goto title_cgmode
-	if titlesel=4 then goto title_scenemode
-	if titlesel=5 then goto title_website
-	if titlesel=6 then goto title_quit
-	if titlesel=7 then goto title_support
-	if titlesel=8 then goto title_stg
+if titlesel=1 then loadwindow	;goto title_loop
+if titlesel=2 then quickload		;goto title_loop
+if titlesel=3 then goto title_cgmode
+if titlesel=4 then goto title_scenemode
+if titlesel=5 then goto title_website
+if titlesel=6 then goto title_quit
+if titlesel=7 then goto title_support
+if titlesel=8 then goto title_stg
 
 label	gamestart
-	se	0,"se\クインッ.wav",play_once
-	clearbutton
-	layer_release	0
-	layer_release	1
-	layer_release	2
-	layer_release	3
-	event	"cg\title\caution_00.png"
-	wait	2000
-	event	"cg\title\caution_01.png"
-	wait	2000
-	@bg_black
-	wait	1000
-	bgm_stop
+se	0,"se\クインッ.wav",play_once
+clearbutton
+layer_release	0
+layer_release	1
+layer_release	2
+layer_release	3
+event	"cg\title\caution_00.png"
+wait	2000
+event	"cg\title\caution_01.png"
+wait	2000
+@bg_black
+wait	1000
+bgm_stop
 
 goto	title_skip
 
 # ウェブページ
 label	title_website
-	website	"http://www.digitalcute.com"
-	goto	title_loop
+website	"http://www.digitalcute.com"
+goto	title_loop
 
 # サポートサイト
 label	title_support
-	website	"http://www.digitalcute.com/contents/content/view/217/172/"
-	goto	title_loop
+website	"http://www.digitalcute.com/contents/content/view/217/172/"
+goto	title_loop
 
 label	title_quit
-	screen_blackout	1000
-	wait	1000
-	quit
+screen_blackout	1000
+wait	1000
+quit
 
 label	title_stg
-	se	0,"se\クインッ.wav",play_once
-	clearbutton	layer_release	0
-	layer_release	1
-	layer_release	2
-	layer_release	3
-	bgm_stop
-	event	"stg\load.png"
-	shooting_horizonal	3
-	wait	1000
-	@bg_black
-	wait	1000
-	goto	title2
+se	0,"se\クインッ.wav",play_once
+clearbutton	layer_release	0
+layer_release	1
+layer_release	2
+layer_release	3
+bgm_stop
+event	"stg\load.png"
+shooting_horizonal	3
+wait	1000
+@bg_black
+wait	1000
+goto	title2
 
 label	title_cgmode
 cgmode	"EVENT\CUTIN_01-00.PNG",
@@ -1015,12 +1012,12 @@ cgmode	"EVENT\CUTIN_01-00.PNG",
 goto	title_loop
 
 label	title_scenemode
-	clearbutton
-	layer_release	0
-	layer_release	1
-	layer_release	2
-	layer_release	3
-	scenemode	"雫その１","EV_SIZ_020-00.png",
+clearbutton
+layer_release	0
+layer_release	1
+layer_release	2
+layer_release	3
+scenemode	"雫その１","EV_SIZ_020-00.png",
 "雫その２","EV_SIZ_010-00.png",
 "美雨との思いで","ev_miu_020-00.png",
 "美雨・合意の上で…","EV_MIU_050-00.png",
@@ -1093,17 +1090,13 @@ label	title_scenemode
 "涼海とるあ","EV_SEI_010-00.png",
 "女王様と巣蓋","ev_sub_010-00.png"
 
-	window_close
-	se_stop	0
-	se_stop	1
-	voice_bg_stop
-	@bgm03
-	reset
-	goto	title2
-
+window_close
+se_stop	0
+se_stop	1
+voice_bg_stop
+@bgm03
+reset
+goto	title2
 
 label	title_skip
-
-
-
 

@@ -47,7 +47,6 @@ if karin_atama_ep_count=3 then gosub	karin_qa04	#–â‚¢‚PFu‚¢‚Á‚±‚¤‚Év‚ğg‚Á‚Ä’
 if karin_atama_ep_count=4 then gosub	karin_qa07	#–â‚¢‚PFu‰½‚â‚ç``‚ç‚µ‚¢v‚ğg‚Á‚Ä’Z•¶‚ğì‚è‚È‚³‚¢
 if karin_atama_ep_count=5 then gosub	karin_qa10	#„‚Â‚¢‚³‚Á‚«‚¨•—˜C‚©‚çã‚ª‚Á‚½‚ñ‚¾‚¯‚ÇA—pˆÓ‚µ‚Ä‚¢‚½‰º’…‚ª–³‚­‚È‚Á‚Ä‚½‚Ì‚æ‚Ë
 
-
 karin_atama_levelup_flag=karin_atama_levelup_flag-1
 
 karin_atama_ep_count=karin_atama_ep_count+1
@@ -70,47 +69,34 @@ if karin_kokoro_ep_count=4 then gosub	ep_karin_07	#–é ‚Ü‚³‚©‚Ì”ü‰J–é”‡‚¢Œ»êIH
 if karin_kokoro_ep_count=5 then gosub	karin_qa03	#À‚Í¡“úŠwZ‚ÅA’jq‚©‚ç”’‚³‚ê‚½‚Ì‚æ
 if karin_kokoro_ep_count=6 then gosub	ep_karin_02	#–é ‚¨•—˜CŒ»ê‚Å‚Î‚Á‚½‚èIH
 
-
-
 karin_kokoro_levelup_flag=karin_kokoro_levelup_flag-1
 
 karin_kokoro_ep_count=karin_kokoro_ep_count+1
 @open_schedule
 return
 
+@chara_init
+gosub ep_karin_01
+@chara_init
+gosub ep_karin_02
+@chara_init
+gosub ep_karin_03
+@chara_init
+gosub ep_karin_04
+@chara_init
+gosub ep_karin_05
+@chara_init
+gosub ep_karin_06
+@chara_init
+gosub ep_karin_07
+@chara_init
+gosub ep_karin_08
+@chara_init
+gosub ep_karin_09
+@chara_init
+gosub ep_karin_10
 
-
-
-
-
-
-	@chara_init
-	gosub ep_karin_01
-	@chara_init
-	gosub ep_karin_02
-	@chara_init
-	gosub ep_karin_03
-	@chara_init
-	gosub ep_karin_04
-	@chara_init
-	gosub ep_karin_05
-	@chara_init
-	gosub ep_karin_06
-	@chara_init
-	gosub ep_karin_07
-	@chara_init
-	gosub ep_karin_08
-	@chara_init
-	gosub ep_karin_09
-	@chara_init
-	gosub ep_karin_10
-
-
-	return
-
-
-
-
+return
 
 ##############################################################################
 # 01 : ƒNƒbƒL[‚Í’N‚Ì•¨Hi‚©‚è‚ñ•Ò
@@ -120,17 +106,14 @@ return
 #------------------------------------------------------------
 label	ep_karin_01
 
-
 @SE31			#SE31@ŒºŠÖ‚ÌƒhƒA‚ª•Â‚Ü‚é‰¹
 #¡BGiŒºŠÖj
 @chara_clear		#•ÛŒ¯
 @bg_genkan		# ŒºŠÖ
 
-
+#u‚½‚¾‚¢‚ÜA‚Á‚Æv
 —Itsuki
-u‚½‚¾‚¢‚ÜA‚Á‚Æv
 uI'm backv
-
 
 @chara_clear		#•ÛŒ¯
 @bg_black
@@ -141,214 +124,183 @@ wait		1000
 @chara_clear		#•ÛŒ¯
 @bg_dining		# H“°
 
-
+#u”ü‰JA”ƒ‚¢•¨Ï‚Ü‚¹‚Ä‚«‚½‚æccc‚ ‚êHv
 —Itsuki
-u”ü‰JA”ƒ‚¢•¨Ï‚Ü‚¹‚Ä‚«‚½‚æccc‚ ‚êHv
 uMiu, I went shopping...... huh?v
-
 
 @bgm12			#‰‰F‰¼‚a‚f‚l
 
+#—[H‚Ì”ƒo‚µ‚©‚ç‹A‚Á‚Ä—ˆ‚½‚ªA‚»‚±‚É”ü‰J‚Ìp‚Í–³‚¢B
+@I bought things for dinner, but Miu wasn't around.
 
-—[H‚Ì”ƒo‚µ‚©‚ç‹A‚Á‚Ä—ˆ‚½‚ªA‚»‚±‚É”ü‰J‚Ìp‚Í–³‚¢B
-I bought things for dinner, but Miu wasn't around.
+#‰½‚©•Ê‚Ì—p–‚Å‚ào—ˆ‚½‚Ì‚¾‚ë‚¤‚©H
+@Maybe she's busy with something else.
 
-‰½‚©•Ê‚Ì—p–‚Å‚ào—ˆ‚½‚Ì‚¾‚ë‚¤‚©H
-Maybe she's busy with something else.
-
+#u‚ÜA‚¶‚«‚É–ß‚Á‚Ä‚­‚é‚¾‚ëv
 —Itsuki
-u‚ÜA‚¶‚«‚É–ß‚Á‚Ä‚­‚é‚¾‚ëv
 uI'm sure she'll be back soonv
 
-”ƒ‚¢•¨‘Ü‚ğƒe[ƒuƒ‹‚É’u‚¢‚ÄA’†‚©‚ç¬Šï—í‚Éƒ‰ƒbƒsƒ“ƒO‚³‚ê‚½ƒNƒbƒL[‚ğæ‚èo‚µ‚½B
-I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
+#”ƒ‚¢•¨‘Ü‚ğƒe[ƒuƒ‹‚É’u‚¢‚ÄA’†‚©‚ç¬Šï—í‚Éƒ‰ƒbƒsƒ“ƒO‚³‚ê‚½ƒNƒbƒL[‚ğæ‚èo‚µ‚½B
+@I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
-ƒLƒƒƒ“ƒy[ƒ“’†‚Ì‚¨“X‚ÅƒT[ƒrƒX‚É–á‚Á‚½•¨‚¾B
-I got it for free from the store.
+#ƒLƒƒƒ“ƒy[ƒ“’†‚Ì‚¨“X‚ÅƒT[ƒrƒX‚É–á‚Á‚½•¨‚¾B
+@I got it for free from the store.
 
-‚È‚Ì‚Å¢‚Á‚½–‚ÉAq‹Ÿ’B‚Ì‚¨‚â‚Â‚É‚·‚é‚É‚Í—Ê‚ª­‚È‚¢B
-It's kind of a bother that there isn't enough to give to all of the kids.
-
+#‚È‚Ì‚Å¢‚Á‚½–‚ÉAq‹Ÿ’B‚Ì‚¨‚â‚Â‚É‚·‚é‚É‚Í—Ê‚ª­‚È‚¢B
+@It's kind of a bother that there isn't enough to give to all of the kids.
 
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
 
-
+#uƒ{`‚Á‚Æ‚µ‚ÄAˆêl‰½‚µ‚Ä‚é‚Ìccv
 —Karin,P01782
-uƒ{`‚Á‚Æ‚µ‚ÄAˆêl‰½‚µ‚Ä‚é‚Ìccv
 uWhat are you staring at all alone here...v
 
+#u‚ñH@‚ ‚ A‚¿‚å‚Á‚Æ‚Èv
 —Itsuki
-u‚ñH@‚ ‚ A‚¿‚å‚Á‚Æ‚Èv
 uHuh? Oh, nothing muchv
-
 
 @karin_keno		#Œ™ˆ«
 
-
+#u‚Ç‚¤‚¹‚Ü‚½•Ï‚È‚±‚Æ‚Å‚µ‚å‚¤‚©‚ç•·‚©‚È‚¢‚¯‚ÇB„‚â‚İ‚©‚ñ‚É‚ÍŠÖ‚í‚ç‚È‚¢‚Å‚æ‚Ëv
 —Karin,P01783
-u‚Ç‚¤‚¹‚Ü‚½•Ï‚È‚±‚Æ‚Å‚µ‚å‚¤‚©‚ç•·‚©‚È‚¢‚¯‚ÇB„‚â‚İ‚©‚ñ‚É‚ÍŠÖ‚í‚ç‚È‚¢‚Å‚æ‚Ëv
 uIt's probably something weird again so I don't want to hear it. Just don't associate with me and Mikanv
-
 
 @karin_
 
+#ƒIƒŒ‚Ì‰¡‚ğ‰ß‚¬‚ÄAƒLƒbƒ`ƒ“‚Ì•û‚ğ”`‚«‚Ş‚©‚è‚ñB
+@Walking past me Karin peers into the kitchen.
 
-ƒIƒŒ‚Ì‰¡‚ğ‰ß‚¬‚ÄAƒLƒbƒ`ƒ“‚Ì•û‚ğ”`‚«‚Ş‚©‚è‚ñB
-Walking past me Karin peers into the kitchen.
-
+#ucH@”ü‰J‚Í‚¢‚È‚¢‚Ì‚©‚µ‚çv
 —Karin,P01784
-ucH@”ü‰J‚Í‚¢‚È‚¢‚Ì‚©‚µ‚çv
 u...? Miu's not aroundv
 
+#u—[H‚Ì“r’†‚İ‚½‚¢‚¾‚©‚çA‚·‚®–ß‚Á‚Ä‚­‚é‚¾‚ëv
 —Itsuki
-u—[H‚Ì“r’†‚İ‚½‚¢‚¾‚©‚çA‚·‚®–ß‚Á‚Ä‚­‚é‚¾‚ëv
 uIt looks like she's in the middle of making dinner, so she'll be back soonv
 
+#u‚»Bd•û‚È‚¢‚í‚Ëv
 —Karin,P01785
-u‚»Bd•û‚È‚¢‚í‚Ëv
 uYeah. Oh wellv
 
-‚»‚Á‚¯‚È‚­•Ô“š‚ğ•Ô‚µ‚ÄA‚©‚è‚ñ‚Í©•ª‚Åƒpƒ^ƒpƒ^‚Æg’ƒ‚ğŸ¹‚ên‚ß‚éB
-Karin replies curtly and busies herself making some tea on her own.
+#‚»‚Á‚¯‚È‚­•Ô“š‚ğ•Ô‚µ‚ÄA‚©‚è‚ñ‚Í©•ª‚Åƒpƒ^ƒpƒ^‚Æg’ƒ‚ğŸ¹‚ên‚ß‚éB
+@Karin replies curtly and busies herself making some tea on her own.
 
-ƒJƒbƒv‚Í“–‘Rˆê‚Â‚¾‚¯‚¾cc
-Of course she's only making for one...
+#ƒJƒbƒv‚Í“–‘Rˆê‚Â‚¾‚¯‚¾cc
+@Of course she's only making for one...
 
+#uƒIƒŒAƒ_[ƒWƒŠƒ“‚ªˆù‚İ‚½‚¢‚Èv
 —Itsuki
-uƒIƒŒAƒ_[ƒWƒŠƒ“‚ªˆù‚İ‚½‚¢‚Èv
 uCan I get a Darjeeling teav
-
 
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
 
-
+#u‚Ó`‚ñAŸ¹‚ê‚ê‚ÎB—t‚È‚ç‚ ‚é‚Å‚µ‚åv
 —Karin,P01786
-u‚Ó`‚ñAŸ¹‚ê‚ê‚ÎB—t‚È‚ç‚ ‚é‚Å‚µ‚åv
 uSure, go ahead and make some. We have the tea leavesv
 
+#u‚Í‚Ícc‚Ü‚Ÿ‚»‚¤‚¾‚æ‚ÈB—t‚ªˆá‚¤‚ÆŒ‹‹Ç“ñ“xèŠÔ‚¾‚µv
 —Itsuki
-u‚Í‚Ícc‚Ü‚Ÿ‚»‚¤‚¾‚æ‚ÈB—t‚ªˆá‚¤‚ÆŒ‹‹Ç“ñ“xèŠÔ‚¾‚µv
 uHaha... That's fair. If it's different from yours it'll just be double the work rightv
 
+#u‚ÅA¡‚©‚è‚ñ‚ªŸ¹‚ê‚Ä‚é‚Ì‚Í‰½‚¾Hv
 —Itsuki
-u‚ÅA¡‚©‚è‚ñ‚ªŸ¹‚ê‚Ä‚é‚Ì‚Í‰½‚¾Hv
 uSo what are you making now?v
-
 
 @karin_niko		#‚É‚±
 
-
+#uƒ_[ƒWƒŠƒ“v
 —Karin,P01787
-uƒ_[ƒWƒŠƒ“v
 uDarjeelingv
 
-cc‚»‚ê‚Å‚àƒIƒŒ‚Ì‚ÍŸ¹‚ê‚Ä‚­‚ê‚È‚¢‚Ì‚©B
-... And yet she still won't make mine.
+#cc‚»‚ê‚Å‚àƒIƒŒ‚Ì‚ÍŸ¹‚ê‚Ä‚­‚ê‚È‚¢‚Ì‚©B
+@... And yet she still won't make mine.
 
+#ucc‚ A‚»‚¤‚¾B‚æ‚©‚Á‚½‚ç‚©‚è‚ñA‚±‚êH‚×‚é‚©v
 —Itsuki
-ucc‚ A‚»‚¤‚¾B‚æ‚©‚Á‚½‚ç‚©‚è‚ñA‚±‚êH‚×‚é‚©v
 u... Oh yeah. Karin, you can have this if you wantv
-
 
 @karin			#•’Ê
 
-
+#u‚£‚ñH@‰½‚±‚êAƒNƒbƒL[Hv
 —Karin,P01788
-u‚£‚ñH@‰½‚±‚êAƒNƒbƒL[Hv
 uHm? Is this a cookie?v
 
+#u”ƒ‚¢•¨‚És‚Á‚½‚çƒT[ƒrƒX‚Å‚­‚ê‚½‚ñ‚¾B‚İ‚ñ‚È‚ÅH‚×‚é‚É‚Í—Ê‚ª­‚È‚¢‚©‚ç‚Èv
 —Itsuki
-u”ƒ‚¢•¨‚És‚Á‚½‚çƒT[ƒrƒX‚Å‚­‚ê‚½‚ñ‚¾B‚İ‚ñ‚È‚ÅH‚×‚é‚É‚Í—Ê‚ª­‚È‚¢‚©‚ç‚Èv
 uI got it free when I went shopping. There isn't enough for everyonev
-
 
 @karin_keno		#Œ™ˆ«
 
-
+#ucc‰ö‚µ‚¢‚í‚ËB‚Ç‚¤‚µ‚Ä„‚ÉHv
 —Karin,P01789
-ucc‰ö‚µ‚¢‚í‚ËB‚Ç‚¤‚µ‚Ä„‚ÉHv
 u... How suspicious. Why are you giving to me?v
 
+#u•Ê‚É‰½‚Ì— ‚à–³‚¢‚³B‚Ç‚¤‚µ‚æ‚¤‚©‚Æv‚Á‚Ä‚½‚çA‚©‚è‚ñ‚ª—ˆ‚½‚¾‚¯‚¾v
 —Itsuki
-u•Ê‚É‰½‚Ì— ‚à–³‚¢‚³B‚Ç‚¤‚µ‚æ‚¤‚©‚Æv‚Á‚Ä‚½‚çA‚©‚è‚ñ‚ª—ˆ‚½‚¾‚¯‚¾v
 uThere's no ulterior motive. I was wondering what to do with it, and you happened to come byv
-
 
 @karin			#•’Ê
 
-
+#ucccv
 —Karin,P01790
-ucccv
 u...v
 
-‚Æ‚è‚ ‚¦‚¸·‚µo‚³‚ê‚½•ï‚İ‚ğó‚¯æ‚é‚©‚è‚ñB
-Karin accepts it tentatively.
-
+#‚Æ‚è‚ ‚¦‚¸·‚µo‚³‚ê‚½•ï‚İ‚ğó‚¯æ‚é‚©‚è‚ñB
+@Karin accepts it tentatively.
 
 @karin_niko		#‚É‚±
 
-
+#ucc‚»‚¤B‚ ‚è‚ª‚Æ‚¤v
 —Karin,P01791
-ucc‚»‚¤B‚ ‚è‚ª‚Æ‚¤v
 u... I see. Thank youv
 
-v‚Á‚Ä‚¢‚½‚æ‚è_‚ç‚©‚¢Š´‚¶‚Å‚¨—ç‚ğŒ¾‚Á‚ÄA‚©‚è‚ñ‚Íg’ƒ‚ğƒIƒŒ‚Ì‘O‚É’u‚¢‚½B
-She thanks me in a surprisingly soft tone of voice, and places the tea in front of me.
+#v‚Á‚Ä‚¢‚½‚æ‚è_‚ç‚©‚¢Š´‚¶‚Å‚¨—ç‚ğŒ¾‚Á‚ÄA‚©‚è‚ñ‚Íg’ƒ‚ğƒIƒŒ‚Ì‘O‚É’u‚¢‚½B
+@She thanks me in a surprisingly soft tone of voice, and places the tea in front of me.
 
+#u‚¦H@‚¢‚¢‚æAŒ©•Ô‚è‚Í‚¢‚ç‚È‚¢‚Á‚Äv
 —Itsuki
-u‚¦H@‚¢‚¢‚æAŒ©•Ô‚è‚Í‚¢‚ç‚È‚¢‚Á‚Äv
 uHuh? No, you don't have to pay me backv
-
 
 @karin			#•’Ê
 
-
+#uccŒ©•Ô‚è‚¶‚á‚È‚¢‚íB‚àA‚à‚Æ‚à‚Æ÷‚ÉŸ¹‚ê‚½‚ñ‚¾‚©‚çv
 —Karin,P01792
-uccŒ©•Ô‚è‚¶‚á‚È‚¢‚íB‚àA‚à‚Æ‚à‚Æ÷‚ÉŸ¹‚ê‚½‚ñ‚¾‚©‚çv
 u... I'm not paying you back. I-It was for you from the startv
 
+#u‚¦Hv
 —Itsuki
-u‚¦Hv
 uHuh?v
 
+#u‚¾‚©‚çŠ´Ó‚µ‚È‚ª‚çˆù‚İ‚È‚³‚¢‚æ‚Ë‚ÁA‚Ü‚Á‚½‚­v
 —Karin,P01793
-u‚¾‚©‚çŠ´Ó‚µ‚È‚ª‚çˆù‚İ‚È‚³‚¢‚æ‚Ë‚ÁA‚Ü‚Á‚½‚­v
 uSo be grateful and drink it, geezv
-
 
 bgm_stop
 @karin_
 
+#•·‚«•Ô‚·ŠÔ‚à‚È‚­A‹}‚¬‹C–¡‚Å‚©‚è‚ñ‚ÍH“°‚ğo‚Äs‚Á‚½B
+@No time for explanations, Karin hurried off to the dining room.
 
-•·‚«•Ô‚·ŠÔ‚à‚È‚­A‹}‚¬‹C–¡‚Å‚©‚è‚ñ‚ÍH“°‚ğo‚Äs‚Á‚½B
-No time for explanations, Karin hurried off to the dining room.
-
+#uˆê‘Ì‚Ç‚¤‚¢‚¤•—‚Ì‚«‰ñ‚µ‚¾ccHv
 —Itsuki
-uˆê‘Ì‚Ç‚¤‚¢‚¤•—‚Ì‚«‰ñ‚µ‚¾ccHv
 uWhat just happened...?v
 
-‚à‚¤’N‚à‹‚È‚¢‹•‹ó‚ÉŒü‚¯‚Ä™ê‚¢‚Ä‚à“š‚¦‚Í•Ô‚Á‚Ä‚±‚È‚¢B
-I mutter into empty space, no reply forthcoming.
+#‚à‚¤’N‚à‹‚È‚¢‹•‹ó‚ÉŒü‚¯‚Ä™ê‚¢‚Ä‚à“š‚¦‚Í•Ô‚Á‚Ä‚±‚È‚¢B
+@I mutter into empty space, no reply forthcoming.
 
-ˆêŒûˆù‚Ş‚ÆA”ü‰J‚É—ò‚ç‚È‚¢‚­‚ç‚¢”ü–¡‚µ‚©‚Á‚½B
-Taking a sip, it was no less delicious than Miu's.
-
+#ˆêŒûˆù‚Ş‚ÆA”ü‰J‚É—ò‚ç‚È‚¢‚­‚ç‚¢”ü–¡‚µ‚©‚Á‚½B
+@Taking a sip, it was no less delicious than Miu's.
 
 @chara_clear		#•ÛŒ¯
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 
 ##############################################################################
 # 02 : ‚¨•—˜CŒ»ê‚Å‚Î‚Á‚½‚èIHi‚©‚è‚ñ•Òj
@@ -359,11 +311,9 @@ return
 label	ep_karin_02
 @karin_hadaka
 
-
 #¡BGi—ºj
 @chara_clear		#•ÛŒ¯
 @bg_bathroom_n
-
 
 —÷
 u‚Ó‚£``v
@@ -373,9 +323,7 @@ label	ep_karin_02
 —÷
 u‚¢‚¢“’‚¾v
 
-
 @bgmk03			#BGM K03 : Ã‚©‚Ì‚Ìƒe[ƒ}
-
 
 ˆê“ú‚Ì”æ‚ê‚ª–ü‚¦‚Ä‚¢‚­B
 
@@ -383,36 +331,28 @@ label	ep_karin_02
 
 ‚±‚Ì¶Šˆ‚Ì“ö‚â‚©‚³‚à‚ ‚Á‚ÄA‚±‚¤‚µ‚ÄÃ‚©‚ÈŠÔ‚Í‹Md‚Å‚à‚ ‚Á‚½B
 
-
 window_close
 bgm_stop
 wait		1000
 
-
 —÷
 u‚³‚Ä‚ÆB–¼cÉ‚µ‚¢‚¯‚ÇA’·“’‚µ‚½‚çŒã‚ª‚Â‚©‚¦‚Ä‚é‚©‚ç‚Èv
-
 
 #SE22@…‚ğ—‚Ñ‚é‰¹iƒoƒVƒƒƒAƒ@ƒ@ƒ“Ij
 @SE22			#SE22@…‚ğ—‚Ñ‚é‰¹iƒoƒVƒƒƒAƒ@ƒ@ƒ“Ij
 
-
 ˆê“x“’‘D‚©‚ço‚ÄAƒIƒŒ‚ÍƒVƒƒƒ[‚ÆƒVƒƒƒ“ƒv[‚Éè‚ğL‚Î‚·B
-
 
 #SE112@—º‚ÌƒhƒAƒXƒ‰ƒCƒhiƒJƒ‰ƒJƒ‰ƒJƒ‰j
 @SE112			#SE112@—º‚ÌƒhƒAƒXƒ‰ƒCƒhiƒJƒ‰ƒJƒ‰ƒJƒ‰j
 
-
 —÷
 u‚ñHv
-
 
 #CHi‚©‚è‚ñ—‡j
 @karin_small		# ‰“‚¢
 @karin_hadaka
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01794
 u‚ÖccHv
@@ -421,9 +361,7 @@ wait		1000
 
 ‚»‚µ‚ÄA‚¨•—˜C‚É“ü‚è‚É—ˆ‚½—‡‚Ì‚©‚è‚ñ‚ªAƒIƒŒ‚ğŒ©‚ÄƒsƒVƒb‚ÆŒÅ‚Ü‚Á‚½B
 
-
 @karin_odoroki		#‹Á
-
 
 —‚©‚è‚ñ,P01795
 u‚ÈA‚È‚È‚È‚È‚ÁccIHv
@@ -432,9 +370,7 @@ wait		1000
 
 ƒIƒŒ‚Ìƒ\ƒR‚ğŒ©‚½uŠÔAƒ{ƒ“ƒb‚ÆÔ‚­‚È‚Á‚½B
 
-
 @karin_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
-
 
 —‚©‚è‚ñ,P01796
 u‚«A‚«‚á‚ ‚ ‚ ƒbII@ƒXƒPƒxƒbAo‚Äs‚«‚È‚³‚¢‚æ[IIv
@@ -448,9 +384,7 @@ wait		1000
 —÷
 uƒKƒ“Œ©‚µ‚È‚ª‚çŒ¾‚¤‚Èƒbccc‚Á‚ÄA‚¤‚íƒbIHv
 
-
 screen_flash		500
-
 
 ƒuƒ“ƒbI‚ÆA‚Ü‚é‚Å–Ÿ‰æ‚Ì‚æ‚¤‚Éô–ÊŠí‚ª”ò‚ñ‚Å‚­‚éB
 
@@ -463,7 +397,6 @@ screen_flash		500
 —‚©‚è‚ñ,P01799
 u‚¨•—˜C‚­‚ç‚¢‚ä‚Á‚­‚è“ü‚ç‚¹‚È‚¢‚æ[ƒbIIv
 
-
 window_close
 screen_flash		500
 wait		1000
@@ -471,9 +404,7 @@ screen_flash		500
 wait		1000
 screen_flash		500
 
-
 ƒVƒƒƒ“ƒv[‚â‚çÎŒ²‚â‚çŸX‚Æ”ò‚ñ‚Å‚­‚é‚Ì‚ğA‘S‚ÄŠÔˆê”¯‚Å”ğ‚¯‚Ä‚¢‚­B
-
 
 #///////////////////////////////////////////////////////
 #‰‰F‚¾‚¾‚±‚Ë
@@ -489,7 +420,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-
 —‚©‚è‚ñ,P01800
 u‚â‚¾‚â‚¾‚â‚Ÿ‚ ƒbI@‰½‚Å“®‚­‚ÌƒbA˜‚É‚‚ê‚Ä‚é‚Ì—h‚ç‚³‚È‚¢‚Å‚Á‚Ä‚Î[Iv
 
@@ -503,23 +433,18 @@ layer_movepass_play	l_karin,0,play_once
 —÷
 ucc‚ A‰½‚©ƒ„ƒoƒC‚©‚àv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01801
 u‚¦ƒbcH@‚ A‚ ‚êB‰½‚©—h‚ê‚ª–³‚­‚È‚Á‚Ä—ˆ‚½‚æ‚¤‚È‚Á\\v
 
-
 @karin_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
-
 
 —‚©‚è‚ñ,P01802
 u‚Á‚Äcc‚«‚á‚Ÿ‚ ƒbIH@‚ÈA‰½‚Å‚»‚ê‘å‚«‚­‚È‚Á‚Ä‚«‚Ä‚é‚Ì‚æ[[ƒbIIv
 
 —÷
 ucc‚æ‚­Œ©‚Ä‚é‚¶‚á‚ñv
-
 
 #SE05@•¨‚É‚Ô‚Â‚©‚é‰¹iƒKƒ“ƒbIj
 #EF@”’ƒtƒ‰ƒbƒVƒ…
@@ -528,13 +453,11 @@ layer_movepass_play	l_karin,0,play_once
 @SE05			#SE05@•¨‚É‚Ô‚Â‚©‚é‰¹iƒKƒ“ƒbIj¦ƒMƒƒƒO’²‚È‚Ì‚ÅAƒŠƒAƒ‹‚Á‚Û‚­‚È‚¢‹[‰¹Œn
 #screen_vibration	500,16,16,16
 
-
 —÷
 u‚®‚ÍƒbIIv
 
 —‚©‚è‚ñ,P01803
 uŒ©‚È‚¢‚ÅƒbA–u‚½‚¹‚È‚¢‚Å‚¥[I@•”‰®‚Åˆêl‚Å‚µ‚Ä‚È‚³‚¢‚æ[ƒbIIv
-
 
 #SE05@•¨‚É‚Ô‚Â‚©‚é‰¹iƒKƒ“ƒbIj
 #EF@”’ƒtƒ‰ƒbƒVƒ…
@@ -552,12 +475,10 @@ wait		600
 @SE05			#SE05@•¨‚É‚Ô‚Â‚©‚é‰¹iƒKƒ“ƒbIj¦ƒMƒƒƒO’²‚È‚Ì‚ÅAƒŠƒAƒ‹‚Á‚Û‚­‚È‚¢‹[‰¹Œn
 #screen_vibration	500,16,16,16
 
-
 —÷
 u‚íA•ª‚©‚Á‚½ƒbAo‚Ä‚­I@o‚Ä‚­‚©‚çIIv
 
 ‚©‚È‚è—•ss‚È‹C‚à‚µ‚½‚ªA–½‚Ì•û‚ª‘å–‚È‚Ì‚Å“P‘Ş‚ğŒˆ‚ß‚éB
-
 
 bgm_stop
 #¡BGi•j
@@ -565,20 +486,13 @@ bgm_stop
 @bg_black
 wait		1000
 
-
 ‚¹‚Á‚©‚­‚ÌÃ‚©‚ÈŠÔ‚àA‚±‚¤‚µ‚Ä’Ç‚¢o‚³‚ê‚ÄI—¹‚µ‚½B
 
 cc‚¿‚å‚Á‚Æ–ğ“¾‚¾‚Á‚½‚ªB
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 
-
 return
-
-
-
-
 
 ###############################################################################
 # 03 : —V‹Yº‚¨‘|œ’†i‚©‚è‚ñ•Ò
@@ -588,68 +502,59 @@ return
 #------------------------------------------------------------
 label	ep_karin_03
 
-
 @bgm12			#‰‰F‰¼‚a‚f‚l
 #¡BGi˜L‰ºj
 @chara_clear		#•ÛŒ¯
 @bg_rouka
 
-
-”ü‰J‚Æˆê‚É’iæ‚è‚ğ˜b‚µ‚È‚ª‚çA˜L‰º‚ği‚ñ‚Å‚¢‚½B
-I walked with Miu through the hall discussing some plans.
-
+#”ü‰J‚Æˆê‚É’iæ‚è‚ğ˜b‚µ‚È‚ª‚çA˜L‰º‚ği‚ñ‚Å‚¢‚½B
+@I walked with Miu through the hall discussing some plans.
 
 @miu			#•Â_‚É‚±
 
-
+#u‚»‚ê‚Å‚ÍA„‚Í—×‚Ì}‘º‚É‹‚Ü‚·‚Ì‚ÅB‰½‚©‚ ‚ê‚ÎŒÄ‚ñ‚Å‚­‚¾‚³‚¢v
 —Miu,B01490
-u‚»‚ê‚Å‚ÍA„‚Í—×‚Ì}‘º‚É‹‚Ü‚·‚Ì‚ÅB‰½‚©‚ ‚ê‚ÎŒÄ‚ñ‚Å‚­‚¾‚³‚¢v
 uI'll be in the library room next door, call me if you need anythingv
 
+#u•ª‚©‚Á‚½BI‚í‚Á‚½‚çƒIƒŒ‚à‚»‚Á‚¿‚ğè“`‚¤‚©‚çv
 —Itsuki
-u•ª‚©‚Á‚½BI‚í‚Á‚½‚çƒIƒŒ‚à‚»‚Á‚¿‚ğè“`‚¤‚©‚çv
 uOkay. If I finish early I'll come and helpv
 
+#u‚Í‚¢B‚·‚İ‚Ü‚¹‚ñ‚¯‚ê‚ÇA‚æ‚ë‚µ‚­‚¨Šè‚¢‚µ‚Ü‚·v
 —Miu,B01491
-u‚Í‚¢B‚·‚İ‚Ü‚¹‚ñ‚¯‚ê‚ÇA‚æ‚ë‚µ‚­‚¨Šè‚¢‚µ‚Ü‚·v
 uOk, thanks so muchv
-
 
 @miu_
 
-
-ƒhƒA‚Ì‘O‚Å•Ê‚êA”ü‰J‚Í}‘º‚ÖAƒIƒŒ‚ÍŒâŠyº‚Ö‚Æ“ü‚Á‚½B
-We part before the door, and Miu enters the library room while I enter the game room.
-
+#ƒhƒA‚Ì‘O‚Å•Ê‚êA”ü‰J‚Í}‘º‚ÖAƒIƒŒ‚ÍŒâŠyº‚Ö‚Æ“ü‚Á‚½B
+@We part before the door, and Miu enters the library room while I enter the game room.
 
 #¡BGiŒâŠyºj
 @chara_clear		#•ÛŒ¯
 @bg_goraku
 
-
+#u‚³‚ÄA‚Æv
 —Itsuki
-u‚³‚ÄA‚Æv
 uNow then...v
 
-•”‰®‚Ì’†‚É‚ÍŠù‚É”ü‰J‚ª—pˆÓ‚µ‚½G‹Ğ‚âƒoƒPƒc‚ª’u‚¢‚Ä‚ ‚Á‚½B
-Miu had already left a bucket and cloth inside.
+#•”‰®‚Ì’†‚É‚ÍŠù‚É”ü‰J‚ª—pˆÓ‚µ‚½G‹Ğ‚âƒoƒPƒc‚ª’u‚¢‚Ä‚ ‚Á‚½B
+@Miu had already left a bucket and cloth inside.
 
-‚³‚Á‚«‚Ì’iæ‚è‚ÆŒ¾‚¤‚Ì‚ÍA‘|œ‚Ìè“`‚¢‚Ì‚±‚Æ‚¾B
-We'd been talking about helping her with house-cleaning.
+#‚³‚Á‚«‚Ì’iæ‚è‚ÆŒ¾‚¤‚Ì‚ÍA‘|œ‚Ìè“`‚¢‚Ì‚±‚Æ‚¾B
+@We'd been talking about helping her with house-cleaning.
 
-‰“—¶‚·‚é”ü‰J‚ÖA”¼‚Î‹­ˆø‚Éè“`‚¢‚ğ”ƒ‚Á‚Äo‚Ä¡‚ÉŠ‚éB
-I had to almost force myself into volunteering to help out as Miu was quite hesitant.
+#‰“—¶‚·‚é”ü‰J‚ÖA”¼‚Î‹­ˆø‚Éè“`‚¢‚ğ”ƒ‚Á‚Äo‚Ä¡‚ÉŠ‚éB
+@I had to almost force myself into volunteering to help out as Miu was quite hesitant.
 
 —Itsuki
 u‚±‚¤‚µ‚Ä—‚¿’…‚¢‚ÄŒ©‚é‚ÆA‚¯‚Á‚±‚¤‰˜‚ê‚Ä‚¢‚é‚à‚Ì‚¾‚Èv
 uWhen I take the time to look closely like this, it's actually quite dirtyv
 
-—V‚Ñ‚ÉW’†‚µ‚Ä‚¢‚é‚Æ‹C•t‚©‚È‚¢‚ªAƒe[ƒuƒ‹‚â—V‹ï‚Ì’[‚É‚Ù‚±‚è‚ª—­‚Ü‚Á‚Ä‚¢‚éB
-When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
+#—V‚Ñ‚ÉW’†‚µ‚Ä‚¢‚é‚Æ‹C•t‚©‚È‚¢‚ªAƒe[ƒuƒ‹‚â—V‹ï‚Ì’[‚É‚Ù‚±‚è‚ª—­‚Ü‚Á‚Ä‚¢‚éB
+@When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
-Œã‚Í‚à‚¤Ao‚µ‚Á‚Ï‚È‚µ‚Å•Ğ•t‚¯‚Ä‚È‚¢ƒJ[ƒh‚Æ‚©‚àcc
-And there's some cards and stuff that haven't been put away...
-
+#Œã‚Í‚à‚¤Ao‚µ‚Á‚Ï‚È‚µ‚Å•Ğ•t‚¯‚Ä‚È‚¢ƒJ[ƒh‚Æ‚©‚àcc
+@And there's some cards and stuff that haven't been put away...
 
 #SE06@•”‰®‚ÌƒhƒAŠJ‚­‰¹iƒKƒ`ƒƒj
 @SE06			#•”‰®‚ÌƒhƒAŠJ‚­‰¹iƒKƒ`ƒƒj
@@ -658,237 +563,196 @@ wait		1000
 #@karin_shifuku
 #@karin			#•’Ê
 
-
+#uccHv
 —Karin,P01804
-uccHv
 u...?v
 
+#u‚ñA‚©‚è‚ñH@‚Ç‚¤‚©‚µ‚½‚©Hv
 —Itsuki
-u‚ñA‚©‚è‚ñH@‚Ç‚¤‚©‚µ‚½‚©Hv
 uHm, Karin? Is something wrong?v
 
-”¼ŠJ‚«‚ÉƒhƒA‚ªŠJ‚«A‚»‚±‚©‚ç‚©‚è‚ñ‚ª’†‚ğ”`‚«‚±‚ñ‚Å‚«‚½B
-Opening the door halfway, Karin had peered into the room.
-
+#”¼ŠJ‚«‚ÉƒhƒA‚ªŠJ‚«A‚»‚±‚©‚ç‚©‚è‚ñ‚ª’†‚ğ”`‚«‚±‚ñ‚Å‚«‚½B
+@Opening the door halfway, Karin had peered into the room.
 
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
 
-
+#u÷ˆêl‚È‚ÌH@˜b‚µº‚ª‚µ‚½‚¯‚Çv
 —Karin,P01805
-u÷ˆêl‚È‚ÌH@˜b‚µº‚ª‚µ‚½‚¯‚Çv
 uItsuki, are you alone? I heard you talkingv
 
+#u‚ ‚ A‘|œ‚·‚é‚©‚ç‰˜‚ê‚ğŒ©‚Ä‚½‚Ì‚³B‚¯‚Á‚±‚¤‰˜‚ê‚Ä‚é‚Èv
 —Itsuki
-u‚ ‚ A‘|œ‚·‚é‚©‚ç‰˜‚ê‚ğŒ©‚Ä‚½‚Ì‚³B‚¯‚Á‚±‚¤‰˜‚ê‚Ä‚é‚Èv
 uYeah, I'm here to clean the room and I just noticed how dirty it isv
-
 
 @karin_niko		#‚É‚±
 
-
+#u‚Ó`‚ñBêŸ‚¶‚á‚È‚¢v
 —Karin,P01806
-u‚Ó`‚ñBêŸ‚¶‚á‚È‚¢v
 uHow admirablev
-
 
 @karin			#•’Ê
 
-
+#u‚Å‚à”ü‰J‚ÍH@‚Ü‚³‚©ˆêl‚Å‚±‚Ì•”‰®‘S•”‚ğ‘|œ‚·‚é‚Â‚à‚èHv
 —Karin,P01807
-u‚Å‚à”ü‰J‚ÍH@‚Ü‚³‚©ˆêl‚Å‚±‚Ì•”‰®‘S•”‚ğ‘|œ‚·‚é‚Â‚à‚èHv
 uWhat about Miu? Don't tell me you were planning to clean this entire room on your own?v
 
+#u”ü‰J‚Í—×‚Ì•”‰®‚ğ‘|œ‚µ‚Ä‚é‚©‚ç‚Èv
 —Itsuki
-u”ü‰J‚Í—×‚Ì•”‰®‚ğ‘|œ‚µ‚Ä‚é‚©‚ç‚Èv
 uShe's doing the one next doorv
 
+#u‚Ü‚Ÿ‚±‚ê‚Ü‚Å‚Í”ü‰J‚ªˆêl‚Å‚µ‚Ä‚½‚ñ‚¾‚µA‰½‚Æ‚©‚È‚é‚³v
 —Itsuki
-u‚Ü‚Ÿ‚±‚ê‚Ü‚Å‚Í”ü‰J‚ªˆêl‚Å‚µ‚Ä‚½‚ñ‚¾‚µA‰½‚Æ‚©‚È‚é‚³v
 uUp until now she's always done this on her own so I think I'll managev
-
 
 @karin_akire		#•ğ‚ê
 
-
+#u‚Í‚ŸB‚ ‚È‚½‚Æ”ü‰J‚Ì‘|œƒXƒLƒ‹‚¶‚áA“V‚Æ’n‚Ì·‚ª‚ ‚é‚¶‚á‚È‚¢v
 —Karin,P01808
-u‚Í‚ŸB‚ ‚È‚½‚Æ”ü‰J‚Ì‘|œƒXƒLƒ‹‚¶‚áA“V‚Æ’n‚Ì·‚ª‚ ‚é‚¶‚á‚È‚¢v
 uThe difference between your and Miu's cleaning skills is like night and day thoughv
 
+#u‹C‡‚¾‚¯‹ó‰ñ‚è‚³‚¹‚ÄA—]ŒvU‚ç‚©‚µ‚½‚è‚µ‚È‚¢‚Å‚æv
 —Karin,P01809
-u‹C‡‚¾‚¯‹ó‰ñ‚è‚³‚¹‚ÄA—]ŒvU‚ç‚©‚µ‚½‚è‚µ‚È‚¢‚Å‚æv
 uI hope you don't end up just spinning your wheels and making even more of a mess of thingsv
 
+#uS”z‚·‚é‚ÈBƒIƒŒ‚Ìê‡‚Í’P‚ÉA”ü‰J‚ª•’iè“`‚í‚¹‚Ä‚­‚ê‚È‚¢‚¾‚¯‚¾‚æv
 —Itsuki
-uS”z‚·‚é‚ÈBƒIƒŒ‚Ìê‡‚Í’P‚ÉA”ü‰J‚ª•’iè“`‚í‚¹‚Ä‚­‚ê‚È‚¢‚¾‚¯‚¾‚æv
 uDon't worry about it. My only concern is helping Miuv
 
-‚³‚Á‚»‚­•z‹Ğ‚ği‚èAƒIƒŒ‚Íè‹ß‚Èƒe[ƒuƒ‹‚ğ@‚±‚¤‚Æ‚µ‚½B
-I strain the cloth and make to wipe a nearby table.
-
+#‚³‚Á‚»‚­•z‹Ğ‚ği‚èAƒIƒŒ‚Íè‹ß‚Èƒe[ƒuƒ‹‚ğ@‚±‚¤‚Æ‚µ‚½B
+@I strain the cloth and make to wipe a nearby table.
 
 @karin_ikari		#“{
 
-
+#u‚ Aƒ_ƒ‚¶‚á‚È‚¢B‚Ü‚¸‚Íƒe[ƒuƒ‹‚Ìã‚Ì•¨‚ğ•Ğ•t‚¯‚È‚³‚¢v
 —Karin,P01810
-u‚ Aƒ_ƒ‚¶‚á‚È‚¢B‚Ü‚¸‚Íƒe[ƒuƒ‹‚Ìã‚Ì•¨‚ğ•Ğ•t‚¯‚È‚³‚¢v
 uAh, wait. You have to move the things off the table firstv
 
+#u‚¢‚¢‚æB@‚«‚È‚ª‚ç”ğ‚¯‚ê‚Î‚¢‚¢‚¶‚á‚È‚¢‚©v
 —Itsuki
-u‚¢‚¢‚æB@‚«‚È‚ª‚ç”ğ‚¯‚ê‚Î‚¢‚¢‚¶‚á‚È‚¢‚©v
 uIt doesn't matter. I can just towel around themv
 
+#u‚»‚ñ‚È‚±‚ÆŒ¾‚¤l‚ÉŒÀ‚Á‚ÄAã‚Ì•¨‚ğ—‚Æ‚µ‚Ä‰ó‚µ‚¿‚á‚¤‚Ì‚æv
 —Karin,P01811
-u‚»‚ñ‚È‚±‚ÆŒ¾‚¤l‚ÉŒÀ‚Á‚ÄAã‚Ì•¨‚ğ—‚Æ‚µ‚Ä‰ó‚µ‚¿‚á‚¤‚Ì‚æv
 uPeople who say that usually ends up making something fall and breaking itv
-
 
 @karin_
 
+#’‰‚µ‚È‚ª‚ç—×‚É—ˆ‚é‚ÆA‚©‚è‚ñ‚ÍèÛ‚æ‚­ƒe[ƒuƒ‹‚Ìã‚ğ•Ğ•t‚¯n‚ß‚éB
+@While advising me Karin comes to my side and begins speedily moving things from the table.
 
-’‰‚µ‚È‚ª‚ç—×‚É—ˆ‚é‚ÆA‚©‚è‚ñ‚ÍèÛ‚æ‚­ƒe[ƒuƒ‹‚Ìã‚ğ•Ğ•t‚¯n‚ß‚éB
-While advising me Karin comes to my side and begins speedily moving things from the table.
-
-
+#u‚»‚Á‚©B‚¶‚á‚ ƒIƒŒ‚àv
 —Itsuki
-u‚»‚Á‚©B‚¶‚á‚ ƒIƒŒ‚àv
 uIs that so. Then here I'll help toov
-
 
 @karin_middle		# ’†ŠÔ
 @karin_shifuku
 @karin_keno		#Œ™ˆ«
 
-
+#u‚ ‚ÁB‚Ù‚ç‚à‚¤A•¨‚ğ‚Ì‚©‚·‚È‚çšº‚É‹C‚ğ‚Â‚¯‚Ä‚æBü‚è‚ÉU‚Á‚¿‚á‚¤‚ñ‚¾‚©‚çv
 —Karin,P01812
-u‚ ‚ÁB‚Ù‚ç‚à‚¤A•¨‚ğ‚Ì‚©‚·‚È‚çšº‚É‹C‚ğ‚Â‚¯‚Ä‚æBü‚è‚ÉU‚Á‚¿‚á‚¤‚ñ‚¾‚©‚çv
 uAh. Hey, be careful of things that have been sitting for a while. You'll kick up dustv
-
 
 @karin			#•’Ê
 
-
+#u‚±‚±‚Í—Ç‚¢‚©‚çA‘‹‚ğŠJ‚¯‚Ä‚«‚ÄBŠ·‹C‚­‚ç‚¢Å‰‚É‚µ‚Ä‚¨‚«‚È‚³‚¢v
 —Karin,P01813
-u‚±‚±‚Í—Ç‚¢‚©‚çA‘‹‚ğŠJ‚¯‚Ä‚«‚ÄBŠ·‹C‚­‚ç‚¢Å‰‚É‚µ‚Ä‚¨‚«‚È‚³‚¢v
 uI'm fine with this, go and open the window. That's the first thing you should do you knowv
 
+#u‚¨A‚¨‚¨v
 —Itsuki
-u‚¨A‚¨‚¨v
 uO-Okayv
 
 @karin_
 
+#Šm‚©‚É‚»‚Ì’Ê‚è‚¾B
+#‚©‚è‚ñ‚Ìw¦‚É‚µ‚½‚ª‚Á‚ÄAˆê“x•”‰®‚Ì‘‹‚ğŠJ‚¯•ú‚ÂB
+@She's probably right. I go and open it like she said.
 
-Šm‚©‚É‚»‚Ì’Ê‚è‚¾B
-‚©‚è‚ñ‚Ìw¦‚É‚µ‚½‚ª‚Á‚ÄAˆê“x•”‰®‚Ì‘‹‚ğŠJ‚¯•ú‚ÂB
-She's probably right. I go and open it like she said.
-
+#u‚³‚Ä‚ÆB‘|œ‚Í‚Ü‚¸A‚‚¢êŠ‚©‚ç‚¾‚æ‚ÈBšº‚ª—‚¿‚é‚©‚çv
 —Itsuki
-u‚³‚Ä‚ÆB‘|œ‚Í‚Ü‚¸A‚‚¢êŠ‚©‚ç‚¾‚æ‚ÈBšº‚ª—‚¿‚é‚©‚çv
 uThen, I should start cleaning the high places first because dust will fall, rightv
-
 
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
 
-
+#uŠÔˆá‚Á‚Ä‚Í–³‚¢‚¯‚ÇB‚È‚ÉA‘å‘|œ‚Å‚àn‚ß‚é‹C‚È‚Ì‚ ‚È‚½ccv
 —Karin,P01814
-uŠÔˆá‚Á‚Ä‚Í–³‚¢‚¯‚ÇB‚È‚ÉA‘å‘|œ‚Å‚àn‚ß‚é‹C‚È‚Ì‚ ‚È‚½ccv
 uThat's true, but you don't need to make such a fuss like you're starting spring cleaning or something...v
-
 
 @karin_keno		#Œ™ˆ«
 
-
+#u‚»‚ñ‚È‚±‚Æ‚æ‚èA‚Ù‚çA‘³‚ªšº‚ğC‚Á‚Ä‚é‚¶‚á‚È‚¢Bƒ{ƒPƒb‚Æ‚µ‚È‚¢‚Å‚æv
 —Karin,P01815
-u‚»‚ñ‚È‚±‚Æ‚æ‚èA‚Ù‚çA‘³‚ªšº‚ğC‚Á‚Ä‚é‚¶‚á‚È‚¢Bƒ{ƒPƒb‚Æ‚µ‚È‚¢‚Å‚æv
 uAnyway, look, you can wipe off the dust with your sleeve, don't take the bucket with youv
-
 
 @karin_
 
+#Œû’²‚â‘Ô“x‚Í‚¢‚Â‚à‚Æ“¯‚¶‚¾‚ªA‚í‚´‚í‚´‚»‚Ì‰˜‚ê‚ğè‚Å•¥‚Á‚Ä‚­‚ê‚é‚©‚è‚ñB
+@She always maintains the same dismissive tone, but pointedly wipes the dust with her arm.
 
-Œû’²‚â‘Ô“x‚Í‚¢‚Â‚à‚Æ“¯‚¶‚¾‚ªA‚í‚´‚í‚´‚»‚Ì‰˜‚ê‚ğè‚Å•¥‚Á‚Ä‚­‚ê‚é‚©‚è‚ñB
-She always maintains the same dismissive tone, but pointedly wipes the dust with her arm.
+#‰½‚Ä‚¢‚¤‚©A•Ï‚Éb”ãb”ã‚µ‚­‚Ä’²q‚ª‹¶‚¤B
+@There's something off about all her bravado.
 
-‰½‚Ä‚¢‚¤‚©A•Ï‚Éb”ãb”ã‚µ‚­‚Ä’²q‚ª‹¶‚¤B
-There's something off about all her bravado.
-
+#u‚¦‚Á‚ÆA‚©‚è‚ñccHv
 —Itsuki
-u‚¦‚Á‚ÆA‚©‚è‚ñccHv
 uUh, Karin...?v
-
 
 @karin_middle		# ’†ŠÔ
 @karin_shifuku
 @karin			#•’Ê
 
-
+#u‚ÈA‰½‚æccŠ¨ˆá‚¢‚µ‚È‚¢‚Å‚æ‚ËB—]Œv‚É‰˜‚­‚³‚ê‚È‚¢‚æ‚¤‚ÉAè“`‚Á‚Ä‚é‚¾‚¯‚È‚ñ‚¾‚©‚çv
 —Karin,P01816
-u‚ÈA‰½‚æccŠ¨ˆá‚¢‚µ‚È‚¢‚Å‚æ‚ËB—]Œv‚É‰˜‚­‚³‚ê‚È‚¢‚æ‚¤‚ÉAè“`‚Á‚Ä‚é‚¾‚¯‚È‚ñ‚¾‚©‚çv
 uW-What... Don't get me wrong. I'm just helping because I want you to do it properlyv
 
+#u‚»‚ê‚ÆA‚±‚Á‚»‚è‚¢‚â‚ç‚µ‚¢‰B‚µƒJƒƒ‰‚Æ‚©dŠ|‚¯‚½‚è‚µ‚È‚¢‚©AŒ©’£‚è‚æv
 —Karin,P01817
-u‚»‚ê‚ÆA‚±‚Á‚»‚è‚¢‚â‚ç‚µ‚¢‰B‚µƒJƒƒ‰‚Æ‚©dŠ|‚¯‚½‚è‚µ‚È‚¢‚©AŒ©’£‚è‚æv
 uAnd to make sure you don't lay one of those disgusting hidden cameras somewherev
 
+#uŒãÒ‚Íâ‘Î‚Ë‚¥‚æBM—p‚Ë‚¥‚Èccv
 —Itsuki
-uŒãÒ‚Íâ‘Î‚Ë‚¥‚æBM—p‚Ë‚¥‚Èccv
 uThat's absurd. You don't trust me at all...v
-
 
 @karin_keno		#Œ™ˆ«
 
-
+#u‚ ‚é‚í‚¯–³‚¢‚Å‚µ‚åB‚±‚ñ‚È¶Šˆ‚µ‚Ä‚¨‚¢‚Äv
 —Karin,P01818
-u‚ ‚é‚í‚¯–³‚¢‚Å‚µ‚åB‚±‚ñ‚È¶Šˆ‚µ‚Ä‚¨‚¢‚Äv
 uOf course I don't, in a place like this...v
-
 
 @karin_
 
+#ƒtƒCƒb‚ÆŠç‚ğ”w‚¯‚é‚ÆA¡“x‚Í©•ª‚Ì‘|œ‚ÉW’†‚µ‚Ä‚µ‚Ü‚¤B
+@She scoffs turning away, and focuses on her cleaning. 
 
-ƒtƒCƒb‚ÆŠç‚ğ”w‚¯‚é‚ÆA¡“x‚Í©•ª‚Ì‘|œ‚ÉW’†‚µ‚Ä‚µ‚Ü‚¤B
-She scoffs turning away, and focuses on her cleaning. 
-
-cc‚â‚Á‚Ï‚è‹C‚Ì‚¹‚¢‚©B‚¢‚Â‚à‚Ì‚©‚è‚ñ‚¾B
-... I'm just imagining things. She's always like this.
-
+#cc‚â‚Á‚Ï‚è‹C‚Ì‚¹‚¢‚©B‚¢‚Â‚à‚Ì‚©‚è‚ñ‚¾B
+@... I'm just imagining things. She's always like this.
 
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
 
-
+#u‚³‚Ä‚ÆB‚¶‚á‚ ÷‚Í—v—Ì‚ªˆ«‚¢‚µA‚Æ‚è‚ ‚¦‚¸„‚Ìw¦‚É]‚Á‚Ä‚Ëv
 —Karin,P01819
-u‚³‚Ä‚ÆB‚¶‚á‚ ÷‚Í—v—Ì‚ªˆ«‚¢‚µA‚Æ‚è‚ ‚¦‚¸„‚Ìw¦‚É]‚Á‚Ä‚Ëv
 uAlright, you're not very good at this, so I'll have to instruct you for nowv
-
 
 @karin_
 
-
+#uƒVƒ‡ƒbƒN‚¾v
 —Itsuki
-uƒVƒ‡ƒbƒN‚¾v
 uI'm shockedv
 
-‚¾‚ªv‚í‚Ê•‚Ál‚ª“ü‚èA”ü‰J‚Ìè“`‚¢‚ğŠÜ‚ßA‘|œ‚Í‡’²‚É•Ğ•t‚­‚Ì‚¾‚Á‚½B
-Still, having unexpeced aid arrive for Miu's house-cleaning, we handled it well.
-
+#‚¾‚ªv‚í‚Ê•‚Ál‚ª“ü‚èA”ü‰J‚Ìè“`‚¢‚ğŠÜ‚ßA‘|œ‚Í‡’²‚É•Ğ•t‚­‚Ì‚¾‚Á‚½B
+@Still, having unexpeced aid arrive for Miu's house-cleaning, we handled it well.
 
 @chara_clear		#•ÛŒ¯
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 
 ##############################################################################
 # 04 : ƒGƒ–{Y—‘–ŒIHi‚©‚è‚ñ•Ò
@@ -898,79 +762,70 @@ return
 #------------------------------------------------------------
 label	ep_karin_04
 
-
 #¡BGi•j
 @chara_clear		#•ÛŒ¯
 @bg_black
 
+#‰ü‚ß‚ÄŒ¾‚¤–‚Å‚à‚È‚¢‚ªA´‚³‚ñ‚ÍÀ‚É‚­‚¾‚ç‚È‚¢–‚ğ‚·‚é‚Ì‚ªD‚«‚Èl‚¾B
+@I don't need to say it again, but Shizuku really loves doing useless things.
 
-‰ü‚ß‚ÄŒ¾‚¤–‚Å‚à‚È‚¢‚ªA´‚³‚ñ‚ÍÀ‚É‚­‚¾‚ç‚È‚¢–‚ğ‚·‚é‚Ì‚ªD‚«‚Èl‚¾B
-I don't need to say it again, but Shizuku really loves doing useless things.
-
-‚Æ‚É‚©‚­—‚¿’…‚­‚±‚Æ‚ğ’m‚ç‚¸Aí‚Éü‚è‚ÌlŠÔ‚Å–‚ğŠy‚µ‚à‚¤‚Æ‚·‚éB
-She can't ever calm down, and is always amusing herself at the expense of the people around her.
-
+#‚Æ‚É‚©‚­—‚¿’…‚­‚±‚Æ‚ğ’m‚ç‚¸Aí‚Éü‚è‚ÌlŠÔ‚Å–‚ğŠy‚µ‚à‚¤‚Æ‚·‚éB
+@She can't ever calm down, and is always amusing herself at the expense of the people around her.
 
 #¡BGi©ºE–éj
 @chara_clear		#•ÛŒ¯
 @bg_itsuki_n
 
-
+#u‚âA‚â‚ç‚ê‚½‚ŸƒbccIIv
 —Itsuki
-u‚âA‚â‚ç‚ê‚½‚ŸƒbccIIv
 uW-What the hell...v
-
 
 @bgm12			#‰‰F‰¼‚a‚f‚l
 
+#‚¨•—˜C‚©‚ç–ß‚Á‚Ä‚«‚½ƒIƒŒ‚ÍA‚ ‚éŒõŒi‚ğ–Ú‚É‚µ‚Äâ–]‚Ìº‚ğã‚°‚½B
+@Returning from the bath I was dumbstruck at the scene before me.
 
-‚¨•—˜C‚©‚ç–ß‚Á‚Ä‚«‚½ƒIƒŒ‚ÍA‚ ‚éŒõŒi‚ğ–Ú‚É‚µ‚Äâ–]‚Ìº‚ğã‚°‚½B
-Returning from the bath I was dumbstruck at the scene before me.
+#•”‰®‚Ì’†‚É‚Í‹ÈÒ‚ÌN“ü‚Ì­Õ‚ªc‚Á‚Ä‚¢‚½B
+@Someone had intruded in my room and left a mess all over the place.
 
-•”‰®‚Ì’†‚É‚Í‹ÈÒ‚ÌN“ü‚Ì­Õ‚ªc‚Á‚Ä‚¢‚½B
-Someone had intruded in my room and left a mess all over the place.
+#‚¢‚âAc‚Á‚Ä‚¢‚é‚Ç‚±‚ë‚©A
+@No, not just a mess...
 
-‚¢‚âAc‚Á‚Ä‚¢‚é‚Ç‚±‚ë‚©A
-No, not just a mess...
-
+#u•”‰®’†‚Ì–{‚ªƒGƒ–{‚É‚·‚è‘Ö‚í‚Á‚Ä‚éIIv
 —Itsuki
-u•”‰®’†‚Ì–{‚ªƒGƒ–{‚É‚·‚è‘Ö‚í‚Á‚Ä‚éIIv
 uAll my books have been switched with porn magazines!!v
 
-–{’I‚Í‚à‚¿‚ë‚ñA–‚à‚Æ‚Ì•¶ŒÉ–{‚Ü‚Å‚ª‚·‚è‘Ö‚¦‚ç‚êA—‚ê‚½«¶Šˆ‚ªU—‚µ‚Ä‚¢‚½B
-Everything from my bookshelf to my nightstand, an overflowing sexual deviance scattered about.
+#–{’I‚Í‚à‚¿‚ë‚ñA–‚à‚Æ‚Ì•¶ŒÉ–{‚Ü‚Å‚ª‚·‚è‘Ö‚¦‚ç‚êA—‚ê‚½«¶Šˆ‚ªU—‚µ‚Ä‚¢‚½B
+@Everything from my bookshelf to my nightstand, an overflowing sexual deviance scattered about.
 
-‚Ş‚µ‚ëY—‘‚µ‚Ä‚¢‚é‚©‚à‚µ‚ê‚È‚¢B
-Or perhaps planted there.
+#‚Ş‚µ‚ëY—‘‚µ‚Ä‚¢‚é‚©‚à‚µ‚ê‚È‚¢B
+@Or perhaps planted there.
 
+#u‚±‚ñ‚È‚­‚¾‚ç‚È‚¢–‚É˜J—Í‚ğg‚¤‚Ì‚ÍA´‚³‚ñ‚¾‚Èccv
 —Itsuki
-u‚±‚ñ‚È‚­‚¾‚ç‚È‚¢–‚É˜J—Í‚ğg‚¤‚Ì‚ÍA´‚³‚ñ‚¾‚Èccv
 uOnly Shizuku would go to so much trouble...v
 
-}‘º‚É‚ ‚éƒGƒ–{‚¾‚ë‚¤B‚¾‚ªA‚Æ‚Ä‚àˆêl‚Ìd–‚Æ‚Ív‚¦‚È‚¢B
-They're probably from the library room. I don't think this is all the work of one person though.
+#}‘º‚É‚ ‚éƒGƒ–{‚¾‚ë‚¤B‚¾‚ªA‚Æ‚Ä‚àˆêl‚Ìd–‚Æ‚Ív‚¦‚È‚¢B
+@They're probably from the library room. I don't think this is all the work of one person though.
 
+#uè“`‚Á‚½‚Ì‚Í‚´‚­‚ë‚¾‚ë‚¤‚ÈB–¢‚¾‚És“®‚ª“Ç‚ß‚È‚¢‚µv
 —Itsuki
-uè“`‚Á‚½‚Ì‚Í‚´‚­‚ë‚¾‚ë‚¤‚ÈB–¢‚¾‚És“®‚ª“Ç‚ß‚È‚¢‚µv
 uZakuro probably helped. She seems pretty fishy toov
 
+#ucc‚Á‚½‚­v
 —Itsuki
-ucc‚Á‚½‚­v
 u... Ughv
 
-•ú‚Á‚Ä‚¨‚­‚í‚¯‚É‚à‚¢‚©‚È‚¢‚Ì‚ÅA‚Æ‚è‚ ‚¦‚¸•Ğ•t‚¯n‚ß‚éB
-I can't just leave it like this, so I start cleaning it up.
-
+#•ú‚Á‚Ä‚¨‚­‚í‚¯‚É‚à‚¢‚©‚È‚¢‚Ì‚ÅA‚Æ‚è‚ ‚¦‚¸•Ğ•t‚¯n‚ß‚éB
+@I can't just leave it like this, so I start cleaning it up.
 
 #SE11@•”‰®‚ÌƒhƒA‚ğƒmƒbƒNiƒRƒ“ƒRƒ“j
 @SE11			#SE11@•”‰®‚ÌƒhƒA‚ğƒmƒbƒNiƒRƒ“ƒRƒ“j
 #ƒRƒ“ƒRƒ“B
 
-
+#u‚ñH@‚´‚­‚ë‚©B´‚³‚ñ‚Å‚·‚©H@‚Ç‚¤‚¼v
 —Itsuki
-u‚ñH@‚´‚­‚ë‚©B´‚³‚ñ‚Å‚·‚©H@‚Ç‚¤‚¼v
 uIs that you, Zakuro? Shizuku-san? Come inv
-
 
 #SE06@•”‰®‚ÌƒhƒAŠJ‚­‰¹iƒKƒ`ƒƒj
 @SE06			#•”‰®‚ÌƒhƒAŠJ‚­‰¹iƒKƒ`ƒƒj
@@ -979,116 +834,100 @@ wait		1000
 @karin_pajama
 @karin			#•’Ê
 
-
+#uˆ«‚¢‚í‚ËA‚Ç‚Á‚¿‚Å‚à‚È‚­‚Äv
 —Karin,P01820
-uˆ«‚¢‚í‚ËA‚Ç‚Á‚¿‚Å‚à‚È‚­‚Äv
 uSorry, but it's neither of thosev
 
+#ucc‚¦JIHv
 —Itsuki
-ucc‚¦JIHv
 u... Huh!?v
 
-‰½‚Æ‚¢‚¤•sK‚È—\‘zŠOII
-Oh twisted fate!!
+#‰½‚Æ‚¢‚¤•sK‚È—\‘zŠOII
+@Oh twisted fate!!
 
+#u‚Ü‚Ÿ‚±‚Á‚¿‚à—p‚ªI‚í‚ê‚Î‚·‚®\\\v
 —Karin,P01821
-u‚Ü‚Ÿ‚±‚Á‚¿‚à—p‚ªI‚í‚ê‚Î‚·‚®\\\v
 uI just have something quick to\\\v
-
 
 @karin_keno		#Œ™ˆ«
 
-
+#uccc‹A‚é‚ív
 —Karin,P01822
-uccc‹A‚é‚ív
 u...... I'm going backv
-
 
 @karin_
 
+#ˆêu‚Å‰˜‚ç‚í‚µ‚¢•¨‚ğŒ©‚é“µ‚É‚È‚Á‚ÄA•”‰®‚ÌŠO‚Ö‚tƒ^[ƒ“‚·‚é‚©‚è‚ñB
+@Her eyes widening in disgust Karin makes a quick U-turn and goes back outside.
 
-ˆêu‚Å‰˜‚ç‚í‚µ‚¢•¨‚ğŒ©‚é“µ‚É‚È‚Á‚ÄA•”‰®‚ÌŠO‚Ö‚tƒ^[ƒ“‚·‚é‚©‚è‚ñB
-Her eyes widening in disgust Karin makes a quick U-turn and goes back outside.
-
+#u‚¤‚í‚ ƒbAŒë‰ğ‚¾‚Á‚Ä‚æƒbII@‚Á‚Ä‚¢‚¤‚©—p‚ª‚ ‚é‚ñ‚¶‚á‚È‚¢‚Ì‚©IIv
 —Itsuki
-u‚¤‚í‚ ƒbAŒë‰ğ‚¾‚Á‚Ä‚æƒbII@‚Á‚Ä‚¢‚¤‚©—p‚ª‚ ‚é‚ñ‚¶‚á‚È‚¢‚Ì‚©IIv
 uUwahh, it's not what you think!! Didn't you have something to ask me!!v
-
 
 @karin_small
 @karin_pajama
 @karin_keno		#Œ™ˆ«
 
-
+#u–³‚¢‚íi‚«‚Á‚Ï‚èv
 —Karin,P01823
-u–³‚¢‚íi‚«‚Á‚Ï‚èv
 uNo, I don'tv
 
+#u‚ ‚È‚½‚ÉŠÖ‚í‚é‘S‚Ä‚Ì—p‚ªA¡‚±‚ÌuŠÔ‚ğ‚à‚Á‚ÄI—¹‚µ‚½‚í‚Ëv
 —Karin,P01824
-u‚ ‚È‚½‚ÉŠÖ‚í‚é‘S‚Ä‚Ì—p‚ªA¡‚±‚ÌuŠÔ‚ğ‚à‚Á‚ÄI—¹‚µ‚½‚í‚Ëv
 uAs of this moment, I am ending ending all associations with youv
 
+#u‚Ğ‚¢‚¡‚¡‚¡ƒbccIv
 —Itsuki
-u‚Ğ‚¢‚¡‚¡‚¡ƒbccIv
 uOh my god...!v
 
-‚ ‚Ü‚è‚Ì–‘Ô‚ÉíœÉ‚µAƒIƒŒ‚Í”ß–Â‚µ‚©˜R‚ç‚¹‚È‚¢B
-The situation taking hold of my nerves, all I can do is recoil.
+#‚ ‚Ü‚è‚Ì–‘Ô‚ÉíœÉ‚µAƒIƒŒ‚Í”ß–Â‚µ‚©˜R‚ç‚¹‚È‚¢B
+@The situation taking hold of my nerves, all I can do is recoil.
 
+#ucccv
 —Karin,P01825
-ucccv
 u...v
 
-‚©‚è‚ñ‚Í—â‚ß‚½‹ü‚ÅAƒIƒŒ‚ª‹ô‘Rè‚É‚Á‚Ä‚¢‚½–{‚ğŒ©‚½‚æ‚¤‚¾‚Á‚½B
-Looking at me coldly, her eyes fall to the book I'm holding.
+#‚©‚è‚ñ‚Í—â‚ß‚½‹ü‚ÅAƒIƒŒ‚ª‹ô‘Rè‚É‚Á‚Ä‚¢‚½–{‚ğŒ©‚½‚æ‚¤‚¾‚Á‚½B
+@Looking at me coldly, her eyes fall to the book I'm holding.
 
-w”l‚Á‚Ä‚¨o‚³‚Ü‡U@`‚Ç‚¤‚©•Ì‚ŞŒ¾—t‚ÅƒCƒJ‚¹‚Ä‚­‚¾‚³‚¢`x
+#w”l‚Á‚Ä‚¨o‚³‚Ü‡U@`‚Ç‚¤‚©•Ì‚ŞŒ¾—t‚ÅƒCƒJ‚¹‚Ä‚­‚¾‚³‚¢`x
 wAbusive Onee-sama II@"Please make me come with your spiteful words"x
 
+#u‚»‚ê‚É•ğ‚ê‚½«•È‚ËB‚Æ‚Ä‚à—‰ğ‚Å‚«‚È‚¢‚íA‚±‚Ì•Ï‘Ôv
 —Karin,P01826
-u‚»‚ê‚É•ğ‚ê‚½«•È‚ËB‚Æ‚Ä‚à—‰ğ‚Å‚«‚È‚¢‚íA‚±‚Ì•Ï‘Ôv
 uAnd what a disgusting fetish. I don't even understand... you pervert!v
-
 
 #SE53@‚Â‚­Œ¾—tiƒOƒTƒbIj
 @SE53			#SE53@‚Â‚­Œ¾—tiƒOƒTƒbIj
 
-
+#u‚®‚ÍƒbIIv
 —Itsuki
-u‚®‚ÍƒbIIv
 uGuha!!v
 
-–{‹C‚Å‚»‚Ì«•È‚¾‚Á‚½‚çAŠÔˆá‚¢‚È‚­‹»•±‚µ‚»‚¤‚ÈŒû’²‚¾‚Á‚½B
-If it really was my fetish, that would definitely have turned me on.
-
+#–{‹C‚Å‚»‚Ì«•È‚¾‚Á‚½‚çAŠÔˆá‚¢‚È‚­‹»•±‚µ‚»‚¤‚ÈŒû’²‚¾‚Á‚½B
+@If it really was my fetish, that would definitely have turned me on.
 
 @karin			#•’Ê
 
-
+#u‚»‚ê‚¶‚á‚ ‚ËB‚à‚¤“ñ“x‚Æ‚±‚Ì•”‰®‚É‚Í—ˆ‚È‚¢‚©‚çv
 —Karin,P01827
-u‚»‚ê‚¶‚á‚ ‚ËB‚à‚¤“ñ“x‚Æ‚±‚Ì•”‰®‚É‚Í—ˆ‚È‚¢‚©‚çv
 uI'll see you later. I won't make the mistake of coming to your room twicev
 
+#u‚ÜA‘Ò‚Á‚Ä‚­‚êccB‚±‚ñ‚È‚Ì”ßS‚·‚¬‚éccv
 —Itsuki
-u‚ÜA‘Ò‚Á‚Ä‚­‚êccB‚±‚ñ‚È‚Ì”ßS‚·‚¬‚éccv
 uJ-Just wait, please... This is too much to bear...v
-
 
 @karin_keno		#Œ™ˆ«
 
-
+#u‚Ó‚ñA‰½‚æB”ßS‚È‚Ì‚Í„‚à“¯‚¶‚È‚ñ‚¾‚©‚çv
 —Karin,P01828
-u‚Ó‚ñA‰½‚æB”ßS‚È‚Ì‚Í„‚à“¯‚¶‚È‚ñ‚¾‚©‚çv
 uWhat? This is too much for me to bear as wellv
-
 
 @karin_kanashimi	#ˆ£
 
-
+#u‚±‚ñ‚È«•È‚¶‚áA„‚à‚Ç‚¤‚·‚ê‚Î‚¢‚¢‚©•ª‚©‚ç‚È‚¢‚¶‚á‚È‚¢ccv
 —Karin,P01829
-u‚±‚ñ‚È«•È‚¶‚áA„‚à‚Ç‚¤‚·‚ê‚Î‚¢‚¢‚©•ª‚©‚ç‚È‚¢‚¶‚á‚È‚¢ccv
 uObviously I don't know what to do with desires like this either...v
-
 
 window_close
 @karin_
@@ -1096,41 +935,33 @@ wait		1000
 #SE07@•”‰®‚ÌƒhƒA•Â‚Ü‚é‰¹iƒpƒ^ƒ“j
 @SE07			#•”‰®‚ÌƒhƒA•Â‚Ü‚é‰¹iƒpƒ^ƒ“j
 
+#ÅŒã‚Ìˆêu‚Í‚¿‚å‚Á‚Æâ‚µ‚»‚¤‚ÉŒ©‚¦‚½‚ªcc
+@She looked a little lonely for a moment, but...
 
-ÅŒã‚Ìˆêu‚Í‚¿‚å‚Á‚Æâ‚µ‚»‚¤‚ÉŒ©‚¦‚½‚ªcc
-She looked a little lonely for a moment, but...
-
+#u‚¤A‚¤‚£cccv
 —Itsuki
-u‚¤A‚¤‚£cccv
 uNo, no...v
 
-‚»‚ê‚Å‚àŒƒ‚µ‚¢Œë‰ğ‚©‚çŒy•Ì‚ğc‚µ‚ÄA‚©‚è‚ñ‚Í•”‰®‚ğ‹‚Á‚Ä‚¢‚Á‚½B
-Even so, expressing contempt at this huge misunderstanding, Karin left the room.
+#‚»‚ê‚Å‚àŒƒ‚µ‚¢Œë‰ğ‚©‚çŒy•Ì‚ğc‚µ‚ÄA‚©‚è‚ñ‚Í•”‰®‚ğ‹‚Á‚Ä‚¢‚Á‚½B
+@Even so, expressing contempt at this huge misunderstanding, Karin left the room.
 
+#u‚¤‚í‚ ‚ ‚ ‚ [[[ƒbIIv
 —Itsuki
-u‚¤‚í‚ ‚ ‚ ‚ [[[ƒbIIv
 uUwahhhhh!!!v
-
 
 bgm_stop
 #¡BGi•j
 @chara_clear		#•ÛŒ¯
 @bg_black
 
+#Œ‹‹Ç”Æl‚¾‚Á‚½´‚³‚ñ‚ğ•ß‚Ü‚¦‚é‚Ü‚ÅA‚©‚è‚ñ‚©‚ç‚Í‚Ü‚é‚ÅlˆÈ‰º‚Ì‚æ‚¤‚ÉŒ©‚ç‚ê‚é‚Ì‚¾‚Á‚½B
+@Until I caught the real villain Shizuku-san, Karin would look at me like the plague.
 
-Œ‹‹Ç”Æl‚¾‚Á‚½´‚³‚ñ‚ğ•ß‚Ü‚¦‚é‚Ü‚ÅA‚©‚è‚ñ‚©‚ç‚Í‚Ü‚é‚ÅlˆÈ‰º‚Ì‚æ‚¤‚ÉŒ©‚ç‚ê‚é‚Ì‚¾‚Á‚½B
-Until I caught the real villain Shizuku-san, Karin would look at me like the plague.
-
-ccŒë‰ğ‚¾‚Æ•ª‚©‚é‚ÆA‰½‚©‚â‚¯‚É‚©‚è‚ñ‚ÍˆÀS‚µ‚½‚æ‚¤‚¾‚Á‚½‚ªB
-... Needless to say when she learned the truth, she looked quite relieved.
-
+#ccŒë‰ğ‚¾‚Æ•ª‚©‚é‚ÆA‰½‚©‚â‚¯‚É‚©‚è‚ñ‚ÍˆÀS‚µ‚½‚æ‚¤‚¾‚Á‚½‚ªB
+@... Needless to say when she learned the truth, she looked quite relieved.
 
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 
 ##############################################################################
 # 05 : Šæ’£‚Á‚Ä‚¨•×‹­’†i‚©‚è‚ñ•Ò
@@ -1140,23 +971,18 @@ return
 #------------------------------------------------------------
 label	ep_karin_05
 
-
 #¡BGi˜L‰ºj
 @chara_clear		#•ÛŒ¯
 @bg_rouka
 
-
 ©º‚É–ß‚é“r’†A}‘º‚Ì‘O‚Å‚Ó‚Æ‘«‚ğ~‚ß‚½B
 
-
 @bgm12			#‰‰F‰¼‚a‚f‚l
-
 
 —÷
 u‚»‚¤‚¢‚¦‚ÎA“Ç‚İ‚©‚¯‚Ì–{‚ª‚ ‚Á‚½‚Á‚¯ccv
 
 ‚¿‚å‚¤‚ÇŠÔ‚à‹ó‚¢‚Ä‚é‚µA­‚µ“Ç‚ñ‚Å‚¢‚­‚±‚Æ‚É‚µ‚æ‚¤B
-
 
 @chara_clear		#•ÛŒ¯
 @bg_black
@@ -1167,17 +993,14 @@ wait		1000
 @chara_clear		#•ÛŒ¯
 @bg_library
 
-
 —‚©‚è‚ñ,P01830
 u‚ñcHv
 
 ’†‚É“ü‚é‚ÆA‚·‚Å‚É‚»‚±‚É‚Íæ‹q‚ª‚¢‚½B
 
-
 @karin_small
 @karin_shifuku
 @karin_odoroki		#‹Á
-
 
 —‚©‚è‚ñ,P01831
 u‚¤‚íA÷B‰½‚µ‚É—ˆ‚½‚Ìv
@@ -1185,9 +1008,7 @@ wait		1000
 —÷
 u‚»‚ñ‚È•s–‚»‚¤‚É‚·‚é‚È‚æB‹ô‘R–{‚ğ“Ç‚İ‚É—ˆ‚½‚¾‚¯‚¾‚©‚çv
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01832
 u‚È‚ç‚¢‚¢‚¯‚ÇB‘I‚ñ‚¾‚ç©•ª‚Ì•”‰®‚É‚Á‚Äs‚Á‚Ä“Ç‚ñ‚Å‚æ‚Ëv
@@ -1199,18 +1020,14 @@ wait		1000
 —÷
 u‚»‚¤‚·‚é‚æBƒIƒŒ‚Æ‹‚é‚Ì‚È‚ñ‚ÄƒCƒ„‚¾‚ë‚¤‚µ‚Èv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01833
 ucc‚¥A‚ v
 
 v‚¢‚Ì‚Ù‚©A‚»‚ÌƒIƒŒ‚ÌŒ¾—t‚Í‹C—‚¿‚µ‚½Š´‚¶‚É‚È‚Á‚Ä‚µ‚Ü‚Á‚½B
 
-
 @karin_kanashimi	#ˆ£
-
 
 —‚©‚è‚ñ,P01834
 u‚ÈA‰½‚æ•Ê‚ÉA‚»‚ñ‚È‚É—‚¿‚Ü‚È‚­‚½‚Á‚Ä‚¢‚¢‚Å‚µ‚åccv
@@ -1224,9 +1041,7 @@ wait		1000
 —‚©‚è‚ñ,P01836
 u‚»‚ê‚ÍA‚Ü‚ŸccŒ™‚¢‚©‚à‚µ‚ê‚È‚¢‚¯‚Çv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01837
 u‚Å‚à¡‚Íó‹µ‚ª‚»‚ê‚Æˆá‚¤‚ÌB‚Ù‚çA‚±‚ê‚æv
@@ -1244,32 +1059,24 @@ wait		1000
 —÷
 u‚»‚¤‚¢‚¤–‚È‚ç×–‚‚Ío—ˆ‚ñ‚ÈBŠæ’£‚ê‚æv
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01839
 uŒ¾‚í‚ê‚È‚­‚Ä‚àA‚ ‚È‚½‚ª—ˆ‚é‘O‚©‚ç‚¿‚á‚ñ‚ÆŠæ’£‚Á‚Ä‚½‚ív
 
-
 #@karin			#•’Ê
 @karin_
-
 
 —‚©‚è‚ñ,P01840
 u‚Á‚Æcc‚ A‚¿‚å‚Á‚Æ‘Ò‚Á‚Äv
 
-
 #@karin_
 
-
 ‘ål‚µ‚­–ß‚ë‚¤‚Æ‚µ‚½ƒIƒŒ‚¾‚Á‚½‚ªAŒÄ‚Ñ~‚ß‚ç‚ê‚ÄU‚è•Ô‚éB
-
 
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01841
 u–{‚ğ’T‚µ‚É—ˆ‚½‚Ì‚æ‚ËB‰É‚È‚ÌHv
@@ -1277,9 +1084,7 @@ wait		1000
 —÷
 u‚Ü‚Ÿ‚ÈB‹}‚®—p–‚Í–³‚¢‚ªv
 
-
 @karin_niko		#‚É‚±
-
 
 —‚©‚è‚ñ,P01842
 u‚¾‚Á‚½‚çA„‚à‚ ‚È‚½‚Å‰ä–‚µ‚Ä‚ ‚°‚é‚©‚çA•×‹­è“`‚Á‚Ä‚à‚ç‚¦‚È‚¢‚©‚µ‚çv
@@ -1290,16 +1095,12 @@ wait		1000
 —÷
 u‚»‚ê‚ÉˆÃ‹L‚·‚é‚Ì‚Í‚©‚è‚ñ‚È‚ñ‚¾‚©‚çAƒIƒŒ‚Íè“`‚¦‚È‚¢‚¾‚ëHv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01843
 u‚ A‚»‚¤‚ËccB‚¾‚Á‚½‚ç”Šw‚Å‚à‚¢‚¢‚ív
 
-
 @karin_niko		#‚É‚±
-
 
 —‚©‚è‚ñ,P01844
 u‚Ù‚çA‚±‚ê‚È‚ç‚ ‚È‚½‚¾‚Á‚Äè“`‚¦‚é‚Å‚µ‚å‚¤Hv
@@ -1307,9 +1108,7 @@ wait		1000
 —÷
 u¡‚â‚Á‚Ä‚éˆÃ‹L‹³‰È‚Í‚¢‚¢‚Ì‚©Hv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01845
 uƒoƒJ‚ËB‚»‚ñ‚È‚Ìˆêl‚Ì‚É‚¢‚­‚ç‚Å‚ào—ˆ‚é‚¶‚á‚È‚¢Bl”‹‚½‚Á‚Ä×–‚‚¾‚ív
@@ -1319,20 +1118,16 @@ wait		1000
 —‚©‚è‚ñ,P01846
 u‚³A‚â‚è‚Ü‚µ‚åv
 
-
 @karin_
-
 
 ‚©‚è‚ñ‚Í‚·‚Å‚É‹C•ª‚ğØ‚è‘Ö‚¦A–â‘èW‚ğL‚°‚Ä‚¢‚½B
 
 —÷
 i‚½‚Ü‚És“®‚ª‚æ‚­•ª‚©‚ç‚ñccB‚´‚­‚ë‚Æ‚Í•Ê‚ÌˆÓ–¡‚Åj
 
-
 @karin_middle		# ’†ŠÔ
 @karin_shifuku
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01847
 u‚Ç‚¤‚µ‚½‚ÌB‚à‚µ‚©‚µ‚Ä•ª‚©‚ç‚È‚¢Hv
@@ -1340,9 +1135,7 @@ wait		1000
 —÷
 u‚¢‚âA‚Ü‚³‚©B‚±‚ê‚­‚ç‚¢‚È‚çQ‚Ú‚¯‚Ä‚Ä‚à‰ğ‚¯‚év
 
-
 @karin_niko		#‚É‚±
-
 
 —‚©‚è‚ñ,P01848
 u‚Ó`‚ñAŒ¾‚¤‚¶‚á‚È‚¢Bˆê‰Šú‘Ò‚µ‚Ä‚¨‚¢‚Ä‚ ‚°‚é‚ív
@@ -1351,17 +1144,11 @@ wait		1000
 
 ‚Æ‚è‚ ‚¦‚¸—Š‚ç‚ê‚é‚Ì‚ÍŠğ‚µ‚¢‚Ì‚ÅA¡“ú‚Í‚©‚è‚ñ‚ª–‘«‚·‚é‚Ü‚Å•×‹­‚ğŒ©‚Ä‚ ‚°‚é‚±‚Æ‚É‚µ‚½B
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
-
-
-
-
 
 ##############################################################################
 # 06 : ˆêl‚Ú‚Á‚¿‚Ì‚¨‚â‚ÂŠÔi‚©‚è‚ñ•Ò
@@ -1370,7 +1157,6 @@ wait		1000
 #ƒQ[ƒ€“àŠÔF’‹ŠÔ
 #------------------------------------------------------------
 label	ep_karin_06
-
 
 #¡BGi˜L‰ºj
 @chara_clear		#•ÛŒ¯
@@ -1384,36 +1170,29 @@ wait		1000
 @chara_clear		#•ÛŒ¯
 @bg_dining
 
-
 —‚©‚è‚ñ,P01849
 u‚Í‚Şccc‚Ş‚®cv
 
 —÷
 uccHv
 
-
 @bgm12			#‰‰F‰¼‚a‚f‚l
-
 
 ‚Ó‚Æ—§‚¿Šñ‚Á‚½H“°‚ÅA‚©‚è‚ñ‚ªˆêlƒvƒŠƒ“‚ğH‚×‚Ä‚¢‚éê–Ê‚Éo‚­‚í‚µ‚½B
 
 —÷
 u‚©‚è‚ñH@¡ ‚¨‚â‚Â‚©Hv
 
-
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01850
 u‚¦‚ÁH@‚ ‚ŸA‰½‚¾÷‚È‚Ìccv
 
 U‚è•Ô‚Á‚Äº‚Ìå‚ªƒIƒŒ‚¾‚Æ’m‚é‚ÆA‚©‚è‚ñ‚©‚ç—­‚ß‘§‚ª˜R‚ê‚éB
 
-
 @karin_kanashimi	#ˆ£
-
 
 —‚©‚è‚ñ,P01851
 u‚¦‚¥A‚»‚¤‚æB’N‚©‚³‚ñ‚ÌƒXƒPƒWƒ…[ƒ‹‚Ì‚¹‚¢‚ÅA‚İ‚ñ‚È‚ÆŠÔ‚ª‡‚í‚È‚©‚Á‚½‚©‚çv
@@ -1424,16 +1203,12 @@ wait		1000
 —÷
 u‚¯‚Ç•Ê‚É’‹ŠÔ‚Ìd–‚ÍA¡“ú‚ª‰‚ß‚Ä‚¶‚á‚È‚¢‚¾‚ë‚¤Hv
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01852
 ucc‚»‚¤‚¾‚¯‚ÇB‚»‚ñ‚È“–‘R‚Ì‚æ‚¤‚ÉŒ¾‚í‚ê‚é‚Ì‚àß‘R‚Æ‚µ‚È‚¢‚í‚Ëv
 
-
 @karin_kanashimi	#ˆ£
-
 
 —‚©‚è‚ñ,P01853
 u‚¢‚Â‚à‚Í’N‚©‚Æˆê‚¾‚¯‚ÇA¡‚Í‚¿‚å‚¤‚Ç’N‚à‹‚È‚¢‚Ì‚æv
@@ -1448,9 +1223,7 @@ wait		1000
 
 Œ’N–Ê‚¾‚¯‚Å‚È‚­A‚à‚Á‚Æ‚±‚¤‚¢‚¤ƒƒ“ƒ^ƒ‹–Ê‚àl‚¦‚Ä‚ ‚°‚È‚¢‚Æ‚¢‚¯‚È‚¢‚©B
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01854
 u‚È‚ÉA‚Ü‚¾—p‚ª‚ ‚é‚ÌHv
@@ -1458,26 +1231,20 @@ wait		1000
 —÷
 uƒIƒŒ‚àˆê‚É‚¨‚â‚Â‚É‚µ‚æ‚¤‚©‚ÈB¬• ‚ª‹ó‚¢‚½‚µv
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01855
 u‚Í‚ Hv
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
 
-
 ƒIƒŒ‚Íˆê“xƒLƒbƒ`ƒ“‚É“ü‚èAè‘‚­ƒWƒ…[ƒX‚Æ“E‚İ‚ğ‚Á‚Äˆø‚«•Ô‚µ‚Ä‚­‚éB
-
 
 @karin_middle		# ’†ŠÔ
 @karin_shifuku
 @karin_keno		#Œ™ˆ«
 @bg_dining
-
 
 —‚©‚è‚ñ,P01856
 u‚ÈA‰½‚Å‚ ‚È‚½‚Æ“ñl‚Å‚¨‚â‚Â‚É‚µ‚È‚¢‚Æ‚¢‚¯‚È‚¢‚Ì‚æv
@@ -1488,16 +1255,12 @@ wait		1000
 —÷
 u‚Ù‚çA‚©‚è‚ñ‚Ì•ª‚ÌƒWƒ…[ƒX‚Èv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01857
 u‚ ‚ŸA‚¤‚ñB‚ ‚è‚ª‚Æcv
 
-
 @karin_ikari		#“{
-
 
 —‚©‚è‚ñ,P01858
 ucc‚Á‚Ä‚»‚¤‚¶‚á‚È‚­‚ÄA‚ ‚Á‚¿s‚Á‚Ä‚æv
@@ -1512,9 +1275,7 @@ wait		1000
 
 ‚ªAƒvƒŠƒ“‚ğ‚Á‚Ä—§‚¿‹‚ê‚Î‚¢‚¢‚Ì‚ÉA‚»‚ê‚ğ‚·‚é–‚Í‚È‚©‚Á‚½B
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01860
 u‚Ü‚Á‚½‚­B”æ‚ê‚Ä‹A‚Á‚Ä‚«‚½‚çˆêl‚¾‚µcc‚¨‚Ü‚¯‚É÷‚Éœß‚è•t‚©‚ê‚é‚µAÅ’á‚¾‚íccv
@@ -1533,22 +1294,15 @@ wait		1000
 
 ‚æ‚­•ª‚©‚ç‚È‚¢——R‚¾‚ªcc‚±‚ê‚Í‚Ü‚ŸA‹–‰Â‚Íæ‚ê‚½‚ñ‚¾‚ë‚¤B
 
-
 bgm_stop
 #¡BGi•j
 @chara_clear		#•ÛŒ¯
 @bg_black
 
-
 ‚»‚ê‚©‚ç‚àA‰ï˜b‚ª’e‚Ş–‚Í‚È‚©‚Á‚½‚ªAÅŒã‚Ü‚Å‚©‚è‚ñ‚ªH“°‚©‚ç‹‚é‚±‚Æ‚Í–³‚©‚Á‚½B
-
 
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 
 ##############################################################################
 # 07 : ‚Ü‚³‚©‚Ì”ü‰J–é”‡‚¢Œ»êIHi‚©‚è‚ñ•Ò
@@ -1558,20 +1312,16 @@ return
 #------------------------------------------------------------
 label	ep_karin_07
 
-
 #¡BGi˜L‰ºEÁ“”j
 @chara_clear		#•ÛŒ¯
 @bg_rouka_nn
-
 
 ƒqƒ^cƒqƒ^cc
 
 —÷
 ucccv
 
-
 @bgmk04			#BGM K04 : Q‚é‘O‚Ìƒe[ƒ}
-
 
 q‹Ÿ’B‚ÌQÃ‚Ü‚Á‚½Œß‘O“ñB
 
@@ -1584,7 +1334,6 @@ label	ep_karin_07
 
 ‚¾‚©‚ç–Úw‚·‚Í”ü‰J‚Ì•”‰®‚¾B
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
 wait	1000
@@ -1592,24 +1341,19 @@ wait	1000
 @chara_clear		#•ÛŒ¯
 @bg_rouka_nn
 
-
 ‚â‚ª‚Ä‰½–‚à–³‚­A”ü‰J‚Ì•”‰®‚Ì‘O‚É“’…‚·‚éB
 
 —÷
 ucc‹N‚«‚Ä‚é‚©‚ÈA”ü‰JBQ‚Ä‚½‚ç‚Ç‚¤‚µ‚æ‚¤‚©v
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
 
-
 ƒmƒu‚ğ‰ñ‚·‚ÆAƒKƒ`ƒƒƒŠ‚ÆŠJ‚­‰¹B
-
 
 #¡BGi”ü‰J‚Ì•”‰®EÁ“”j
 @chara_clear		#•ÛŒ¯
 @bg_miu_nn
-
 
 ’†‚ÍŠù‚É“d‹C‚ª—‚¿A^‚ÁˆÃ‚É‚È‚Á‚Ä‚¢‚½B
 
@@ -1619,15 +1363,11 @@ wait	1000
 —÷
 i–°‚Á‚Ä‚éA‚©ccj
 
-
 #screen_vibration	500,16,16,16
-
 
 ƒYƒLƒ“ƒYƒLƒ“cci“ª’É‚Ì”ß–Âj
 
-
 screen_vibration	500,16,16,16
-
 
 —÷
 u‚®A‚ªƒbccv
@@ -1642,11 +1382,9 @@ screen_vibration	500,16,16,16
 —÷
 u‚Í‚Ÿ‚Ác‚Í‚Ÿƒbcc”ü‰Jccv
 
-
 window_close
 #bgm_stop
 wait		1000
-
 
 “ª‚ğ‰Ÿ‚³‚¦‚È‚ª‚çAQ‚Ä‚¢‚é”ü‰J‚Ì‘¤‚Ü‚ÅŠñ‚Á‚½B
 
@@ -1681,21 +1419,16 @@ wait		1000
 —”ü‰J,B01505
 u‚ñ‚ŸA‚Í‚Ÿcc‚Ó‚£‚ñAƒ_ƒA‚Å‚·cc‚ñ‚ñv
 
-
 #SE24@•¨‰¹iƒKƒ^ƒ“ƒbj
 @SE24			#SE24@•¨‰¹iƒKƒ^ƒ“ƒbj
-
 
 —÷
 ucc‚¦Hv
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
 
-
 ‚»‚Ì‚Æ‚«”wŒã‚Ì˜L‰º‚©‚ç•¨‰¹‚ª‚µ‚ÄAƒIƒŒ‚ÍŠÉ–‚ÉU‚è•Ô‚Á‚½B
-
 
 #¡BGi˜L‰ºEÁ“”j
 #CHi‚©‚è‚ñEƒpƒWƒƒƒ}pj
@@ -1703,7 +1436,6 @@ wait		1000
 @karin_pajama
 @karin_kanashimi	#ˆ£
 @bg_rouka_nn
-
 
 —‚©‚è‚ñ,P01863
 uccccv
@@ -1732,9 +1464,7 @@ wait		1000
 
 ƒYƒLƒ“ƒbAƒYƒLƒ“ƒbcc
 
-
 screen_vibration	500,16,16,16
-
 
 “ª’É‚ª“‚­‚ÄA³’¼‚ ‚Ü‚èl‚¦‚½‚­‚È‚¢B
 
@@ -1744,19 +1474,15 @@ screen_vibration	500,16,16,16
 —‚©‚è‚ñ,P01867
 u‚¤A‚¤‚ñB‚¶‚á‚ ‚¨‹x‚İccv
 
-
 @karin_
 
-
 ÅŒã‚Ü‚Å¢˜f‚ÆA‚»‚µ‚Ä‹Í‚©‚Èˆ£‚ê‚İ‚Ì‘Ô“x‚Ì‚Ü‚ÜA–é‚Ì˜L‰º‚Ö‹‚Á‚Ä‚¢‚­B
-
 
 #@bg_black
 #wait		1000
 #¡BGi”ü‰J‚Ì•”‰®EÁ“”j
 @chara_clear		#•ÛŒ¯
 @bg_miu_nn
-
 
 ‚³‚ÄA”ü‰J‚Ícc
 
@@ -1784,33 +1510,24 @@ screen_vibration	500,16,16,16
 
 ƒYƒLƒ“ƒbAƒYƒLƒ“ƒbccIi“ª’É‚Ì”ß–Âj
 
-
 screen_vibration	500,16,16,16
-
 
 —÷
 u‚®ƒbcc‚Í‚£Iv
 
 ’Ç‚¢‚©‚¯‚æ‚¤‚É‚à’Ç‚¢‚©‚¯‚ç‚ê‚È‚¢cc
 
-
 bgm_stop
 #¡BGi•j
 @chara_clear		#•ÛŒ¯
 @bg_black
 
-
 Œ‹‹ÇƒIƒŒ‚Í‹ƒ‚­‹ƒ‚­”ü‰J‚ğ‹N‚±‚µA–ò‚ğ–á‚Á‚Ä‹ƒ‚«‚È‚ª‚çAQB
 
 —‚’©ˆ£‚ê‚Ş‚æ‚¤‚È‚©‚è‚ñ‚Ì“µ‚ÉAƒIƒhƒIƒh‚µ‚È‚ª‚ç‰½“x‚àà–¾‚·‚é‰H–Ú‚É‚È‚é‚Ì‚¾‚Á‚½B
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 
 ##############################################################################
 # 08 : ‰Ä‚Ì–é‚Ì˜Io‹¶i‚©‚è‚ñ•Ò
@@ -1820,15 +1537,12 @@ return
 #------------------------------------------------------------
 label	ep_karin_08
 
-
 #¡BGi—ºj
 @chara_clear		#•ÛŒ¯
 @bg_bathroom_n
 
-
 #SE22@…‚ğ—‚Ñ‚é‰¹iƒoƒVƒƒƒAƒ@ƒ@ƒ“Ij
 @SE22			#SE22@…‚ğ—‚Ñ‚é‰¹iƒoƒVƒƒƒAƒ@ƒ@ƒ“Ij
-
 
 —÷
 u‚Ó‚¡`B—Ç‚¢‚¨“’‚¾‚Á‚½v
@@ -1847,11 +1561,9 @@ label	ep_karin_08
 
 “ü‚é‚Æ‚«‚É’E‚¢‚¾•‚Í‚·‚Å‚ÉAô‘ó‹@‚Ì’†‚Å…ô‚¢‚³‚ê‚Ä‚¢‚½B
 
-
 #¡BGi•j
 @chara_clear		#•ÛŒ¯
 @bg_black
-
 
 cccB
 
@@ -1859,17 +1571,13 @@ label	ep_karin_08
 
 cccccccB
 
-
 #¡BGi˜L‰ºj
 @chara_clear		#•ÛŒ¯
 @bg_rouka_n
 
-
 ƒyƒ^ƒyƒ^ƒyƒ^cc‚ÆA—‡‘«‚Ì•à‚İ‚ª¬‚³‚­‰¹‚ğ—§‚Ä‚Ä‚¢‚­B
 
-
 @bgm12			#‰‰F‰¼‚a‚f‚l
-
 
 #—÷
 #u‚â‚ê‚â‚êcc¡‚ª‰Ä‚Å‚æ‚©‚Á‚½v
@@ -1883,12 +1591,10 @@ label	ep_karin_08
 
 ‚»‚ñ‚È–‚ğv‚¢‚È‚ª‚çAÅ‰‚ÌŠp‚ğ‹È‚ª‚Á‚½B
 
-
 #CHi‚´‚­‚ëEƒpƒWƒƒƒ}j
 @zakuro_small
 @zakuro_pajama
 @zakuro			#•
-
 
 —‚´‚­‚ë,Q01086
 uccHv
@@ -1920,9 +1626,7 @@ label	ep_karin_08
 —÷
 u‚¢‚âA‚¶‚á‚ ‚Æ‚©Œ¾‚¤ˆÓ–¡‚ª•ª‚©‚ñ‚È‚¢‚ñ‚¾‚ªccv
 
-
 @zakuro_metoji		#•Â
-
 
 —‚´‚­‚ë,Q01090
 u‚»‚ÌŠiD‚Å–u‹N‚µ‚½‚ç’p‚¸‚©‚µ‚¢‚©‚çA‹C‚ğ‚Â‚¯‚Ä‚Ëv
@@ -1930,9 +1634,7 @@ label	ep_karin_08
 l‚¦‚È‚¢‚æ‚¤‚É‚µ‚Ä‚½‚Ì‚ÉccB
 ƒXƒPƒXƒPƒpƒWƒƒƒ}‚Ì‚´‚­‚ë‚ª•seØ‚ÉŒ¾‚Á‚Ä‚­‚ê‚éB
 
-
 @zakuro			#•
-
 
 —‚´‚­‚ë,Q01091
 us‚±‚Â‚Á‚¿[v
@@ -1940,9 +1642,7 @@ label	ep_karin_08
 —÷
 u‚¤A‚ ‚ ccv
 
-
 @zakuro_
-
 
 ƒgƒgƒgƒb‚Æ—×‚É•À‚ñ‚ÅA‚Ç‚¤‚â‚ç–{“–‚É‚Â‚¢‚Ä‚­‚é‹C‚Ì‚æ‚¤‚¾cc
 
@@ -1963,12 +1663,10 @@ label	ep_karin_08
 
 ‚¾‚ª‚Â‚¢‚Ä‚È‚¢‚Í‚Æ‚±‚Æ‚ñ•s‰^‚Æ‚Í‘±‚­‚à‚Ì‚ÅA
 
-
 #CHi‚©‚è‚ñEƒpƒWƒƒƒ}E‹Á‚«Ô–Êj
 @karin_small
 @karin_pajama
 @karin_odoroki		#‹Á
-
 
 —‚©‚è‚ñ,P01868
 uccc‚Áv
@@ -1978,11 +1676,9 @@ label	ep_karin_08
 —‚©‚è‚ñ,P01869
 u‚È‚ÁA‚¥ccv
 
-
 @zakuro_small
 @zakuro_pajama
 @zakuro			#•
-
 
 —‚´‚­‚ë,Q01094
 u‚Â‚Á‚¿[A‚©‚è‚ñ‚ª‹‚év
@@ -2004,33 +1700,25 @@ label	ep_karin_08
 
 ¡‚ÌŒ¾—t‚Íâ‘ÎA‚©‚è‚ñ‚ğŠ¨ˆá‚¢‚³‚¹‚Ä‚¢‚éB
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01872
 u‚Í‚Ÿcc‚ ‚È‚½‚ªƒXƒPƒx‚È‚Ì‚Í\•ª’m‚Á‚Ä‚é‚¯‚ÇB—‡‚Åo•à‚­‚Ì‚Í‚â‚ß‚Ä‚æ‚Ëv
 
-
 @zakuro_metoji		#•Â
-
 
 —‚´‚­‚ë,Q01096
 u‚²‚ß‚ñ‚È‚³‚¢v
 
-
 #SE66@Œø‰Ê‰¹‚PiƒrƒVƒbIj
 @SE66			#Œø‰Ê‰¹‚PiƒrƒVƒbIj¦ê–Ê‚ğ‹­’²‚µ‚½‚è‚·‚éŒø‰Ê‰¹
-
 
 —÷
 u‚±‚ç‚ÁI@m’è‚·‚éƒ^ƒCƒ~ƒ“ƒO‚ÅÓ‚ñ‚È‚Á‚Äƒbv
 
 ƒnƒ‰ƒŠcc
 
-
 @karin_odoroki		#‹Á
-
 
 —‚©‚è‚ñ,P01873
 u‚¦ƒbccv
@@ -2038,9 +1726,7 @@ label	ep_karin_08
 —÷
 u‚°ƒbcv
 
-
 @zakuro			#•
-
 
 —‚´‚­‚ë,Q01097
 ucc‚Áv
@@ -2049,9 +1735,7 @@ label	ep_karin_08
 
 “ñl‚Ì‹ü‚ªŠ®‘S‚ÉƒIƒŒ‚ÌŒÒŠÔ‚Ìƒ‚ƒm‚Ö‚ÆW’†‚·‚éB
 
-
 @karin_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
-
 
 —‚©‚è‚ñ,P01874
 u‚«‚á‚ ‚ ƒbI@‚¿‚åA‚¿‚å‚Á‚Æ÷ƒbI@‰½Œ©‚¹‚Ä‚é‚Ì‚æ‚§ƒbv
@@ -2059,10 +1743,8 @@ label	ep_karin_08
 —÷
 u‚¤‚§‚ ƒbA‚íAˆ«‚¢I@ƒ^ƒIƒ‹ƒbcc‚ ‚êAƒ^ƒIƒ‹‚ÍIHv
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
-
 
 ¡—‚¿‚½‚Í‚¸‚Ìƒ^ƒIƒ‹‚ªA‰½ŒÌ‚©‘«Œ³‚É‚È‚¢IH
 
@@ -2091,7 +1773,6 @@ label	ep_karin_08
 
 ”•ªŒãcc
 
-
 @zakuro_small
 @zakuro_pajama
 @karin_small
@@ -2100,7 +1781,6 @@ label	ep_karin_08
 @zakuro			#•
 @karin_keno		#Œ™ˆ«
 @bg_rouka_n
-
 
 —÷
 u‚Í‚Ÿcc‚Í‚Ÿccv
@@ -2112,20 +1792,15 @@ label	ep_karin_08
 
 ¡v‚¦‚ÎƒIƒŒ‚à‚©‚è‚ñ‚àA‚³‚Á‚³‚Æ•ª‚©‚ê‚Ä‚¢‚ê‚Î‚æ‚©‚Á‚½‚Ì‚¾‚ªcc
 
-
 @zakuro_niko		#‚É‚±
-
 
 —‚´‚­‚ë,Q01101
 uŒ©‚ê‚Ä–ğ“¾‚¾‚Á‚½‚í‚ËA‚©‚è‚ñv
 
-
 @karin_ikari		#“{
-
 
 —‚©‚è‚ñ,P01877
 u‚ÈA‚ÈƒbA‘S‘R—Ç‚­‚È‚¢‚í‚æƒbA‚à‚¤Iv
-
 
 window_close
 @karin_
@@ -2133,12 +1808,9 @@ wait		1000
 #SE18@˜L‰º‚ğ•à‚«‹‚é‰¹@¦™X‚É¬‚³‚­
 @SE18			#˜L‰º‚ğ•à‚«‹‚é‰¹
 
-
 Ô‚­‚È‚è‚È‚ª‚çˆêŠ…‚µA“¦‚°‚é‚æ‚¤‚É‚±‚Ìê‚ğ‹‚Á‚Ä‚¢‚Á‚½B
 
-
 @zakuro_metoji		#•Â
-
 
 —‚´‚­‚ë,Q01102
 u“{‚è‚È‚ª‚ç‚àA‚¿‚á‚ñ‚ÆÅŒã‚Ü‚ÅŒ©‚Ä‚©‚çs‚Á‚¿‚á‚¤‚Ì‚Ëv
@@ -2148,18 +1820,12 @@ wait		1000
 
 cc‚à‚¤‰½‚Å‚à‚¢‚¢‚©‚çA‘‚­•‚ğ’…‚½‚©‚Á‚½B
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
 wait		1000
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 
 ###############################################################################
 # 09 : q‹Ÿ‚½‚¿‚Ìè—¿—‘›“®i‚©‚è‚ñ•Ò
@@ -2169,15 +1835,12 @@ return
 #------------------------------------------------------------
 label	ep_karin_09
 
-
 #¡BGi©ºj
 @chara_clear		#•ÛŒ¯
 @bg_itsuki
 
-
 #SE13@‚¨• ‚Ì‰¹EãiƒLƒ…ƒ‹ƒ‹ccj
 @SE13			#‚¨• ‚Ì‰¹EãiƒLƒ…ƒ‹ƒ‹ccj
-
 
 —÷
 ucc• Œ¸‚Á‚½‚Èv
@@ -2190,7 +1853,6 @@ label	ep_karin_09
 u‚¢‚Â‚à‚È‚ç”ü‰J‚ªŒÄ‚Ñ‚É—ˆ‚Ä‚­‚ê‚é‚Í‚¸‚È‚ñ‚¾‚ªccv
 
 ‚à‚¤­‚µ‘Ò‚Æ‚¤‚©–À‚Á‚½‚ªAŒ‹‹Ç‹ó• ‚É•‰‚¯‚ÄƒIƒŒ‚ÍÈ‚ğ—§‚ÂB
-
 
 @chara_clear		#•ÛŒ¯
 @bg_black
@@ -2205,13 +1867,10 @@ wait	2000
 @chara_clear		#•ÛŒ¯
 @bg_dining
 
-
 —÷
 u”ü‰JccHv
 
-
 @bgm12			#‰‰F‰¼‚a‚f‚l
-
 
 H“°‚É“ü‚Á‚Ä–¼‘O‚ğŒÄ‚Ô‚ªA”ü‰J‚Ìp‚Í–³‚¢B
 
@@ -2222,22 +1881,18 @@ wait	2000
 
 ƒtƒ‰ƒtƒ‰‚ÆA—U‚¢Šñ‚¹‚ç‚ê‚é‚æ‚¤‚ÉƒLƒbƒ`ƒ“‚É“ü‚Á‚½B
 
-
 #¡BGiƒLƒbƒ`ƒ“j
 @chara_clear		#•ÛŒ¯
 @bg_kitchen
-
 
 —‚©‚è‚ñ,P01878
 u``ô@‚ñ‚ñ``ôv
 
 ƒgƒ“Aƒgƒ“Aƒgƒ“cci©•ï’š‚Ì‰¹j
 
-
 #¡BGiH“°j
 @chara_clear		#•ÛŒ¯
 @bg_dining
-
 
 —÷
 ucccv
@@ -2253,12 +1908,10 @@ wait	2000
 
 –Ú“ª‚ğŒy‚­‰Ÿ‚³‚¦‚ÄA‚à‚¤ˆê“xƒLƒbƒ`ƒ“‚Ì’†‚ÖB
 
-
 #’F‘¼‚ÌƒV[ƒ““¯—lA—¿—’†‚ÍƒLƒƒƒ‰‚È‚µ‚É‚µ‚Ä‚Ü‚·
 #¡BGiƒLƒbƒ`ƒ“j
 @chara_clear		#•ÛŒ¯
 @bg_kitchen
-
 
 —‚©‚è‚ñ,P01879
 u‚¤`‚ñA‚¿‚å‚Á‚Æ”–‚¢‚©‚µ‚çB‚Ü‚¾‹ï‚ª“ü‚é‚µv
@@ -2288,16 +1941,13 @@ wait	2000
 —‚©‚è‚ñ,P01881
 u‚«‚á‚ ‚ ƒb\\\IHIHv
 
-
 #SE14@¬•¨‚ªŒÊ‚ğ•`‚«”ò‚Ô‚±‚Æiƒqƒ…[ƒ“j
 @SE14			#¬•¨‚ªŒÊ‚ğ•`‚«”ò‚Ô‚±‚Æ
-
 
 ƒrƒNƒDƒbI‚Æ‚©‚è‚ñ‚ª‹Á‚¢‚ÄA‚»‚Ìè‚©‚ç•ï’š‚ª•‘‚¢ã‚ª‚Á‚½II
 
 —÷
 u‚Ì‚í‚Ÿ‚ ƒbIHv
-
 
 #SE37@‹à‘®Õ“Ë‰¹iƒJƒLƒBƒ“ƒbIj
 #EF@”’ƒtƒ‰ƒbƒVƒ…
@@ -2306,30 +1956,23 @@ screen_flash		500
 #@SE37			#SE37@‹à‘®Õ“Ë‰¹iƒJƒLƒBƒ“ƒbIj¦Œ•‚Å‘Å‚¿‡‚Á‚½Š´‚¶B‹[‰¹“I‚È–ğŠ„‚Å”Ä—p“I‚Ég
 se		0,	"sound\se\SE37_‹à‘®Õ“Ë‰¹.WAV",play_wait
 
-
 ŠÔˆê”¯‚Ì‚Æ‚±‚ë‚ÅA‚»‚Ìn•¨‚Ì‹OÕ‚©‚çg‚ğ‚©‚í‚·II
-
 
 @karin_small
 @karin_shifuku
 @karin_ikari		#“{
 
-
 —‚©‚è‚ñ,P01882
 u‚ÈA‚ÈƒbccƒrƒbƒNƒŠ‚·‚é‚¶‚á‚È‚¢‚ÌA‹}‚ÉIv
 
-
 screen_vibration	500,16,16,16
-
 
 —÷
 uƒhƒAƒzƒHƒbI@ƒIƒŒ‚Ì‘äŒ‚¶‚áIIv
 
 ‚¢‚«‚È‚è¶€‚Ì‚©‚©‚Á‚½ˆêu‚ÉA”ğ‚¯‚½¡‚àS‘Ÿ‚ªƒoƒNƒoƒN‚Æ‚–Â‚Á‚Ä‚¢‚éB
 
-
 @karin_odoroki		#‹Á
-
 
 —‚©‚è‚ñ,P01883
 u‚ A‚ ‚çH@•ï’š‚Í‚Ç‚±s‚Á‚½‚Ì‚©‚µ‚çv
@@ -2337,25 +1980,19 @@ screen_vibration	500,16,16,16
 —÷
 u‚±A‚±‚±‚¾‚±‚±B‚¯‚Ç‚»‚¤ŠÈ’P‚É‚Í•Ô‚¹‚ñ‚¼ccv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01884
 u‚ÖH@‰½‚©—â‚âŠ¾‚©‚¢‚Ä‚é‚í‚æ÷A‚Ç‚¤‚µ‚½‚Ìv
 
-
 @karin_odoroki		#‹Á
-
 
 —‚©‚è‚ñ,P01885
 u‚Á‚Äcc‚¢A÷ƒbIHv
 
 ¡‚³‚çƒIƒŒ‚ğ”F¯‚µ‚½‚æ‚¤‚ÉA‚Ü‚½‹Á‚¢‚ÄŒã‚¸‚³‚Á‚½B
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01886
 u‚ÈA‰½‚Å‹‚é‚Ì‚±‚±‚É‚ÁB•”‰®‚É‹‚½‚ñ‚¶‚á‚È‚¢‚ÌIHv
@@ -2372,9 +2009,7 @@ screen_vibration	500,16,16,16
 —÷
 uŒ©‚é‚Á‚ÄA‰½‚ğB‚»‚ñ‚È—]—T–³‚©‚Á‚½‚Á‚Ä‚Ìccv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01888
 u‚Í‚Ÿcc‚»‚¤B‚¢‚¢‚¦AŒ©‚Ä‚È‚¢‚È‚ç‚»‚ê‚Å‚¢‚¢‚Ì‚æv
@@ -2384,13 +2019,10 @@ screen_vibration	500,16,16,16
 —÷
 u‚Ü‚Ÿ‚»‚ê‚Í‚Æ‚à‚©‚­A‚Ç‚¤‚µ‚½‚ñ‚¾B•@‰S‚È‚ñ‚Ä‰Ì‚¢‚È‚ª‚ç—¿—‚È‚ñ‚ÄHv
 
-
 @karin_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
-
 
 —‚©‚è‚ñ,P01889
 u‚µ‚Á‚©‚èŒ©‚Ä‚é‚¶‚á‚È‚¢‚Ì[[[IIv
-
 
 #SE38@‰£‚é‰¹iƒoƒLƒbIj
 #EF@”’ƒtƒ‰ƒbƒVƒ…
@@ -2402,13 +2034,10 @@ wait		500
 #EF@”’ƒtƒ‰ƒbƒVƒ…
 @SE38			#‰£‚é‰¹iƒoƒLƒbIj
 
-
 —÷
 u‚®‚ÍƒbA‚¢‚Ä‚¥ƒbI@‰½‚¾AƒIƒŒ‚ª‰½‚ğ‚µ‚½‚Á‚ÄŒ¾‚¤‚ñ‚¾ƒbIHv
 
-
 @karin_komikaru_ikari2	#ƒRƒ~ƒJƒ‹“{2
-
 
 —‚©‚è‚ñ,P01890
 u‚¢‚¢‚±‚ÆA‚±‚ê‚Í•Ê‚ÉA‚½‚¾„‚ª‚¨• ‹ó‚¢‚Ä©†‚µ‚Ä‚¢‚½‚¾‚¯‚È‚ñ‚¾‚©‚ç‚Ëƒbv
@@ -2419,9 +2048,7 @@ wait		500
 —÷
 u©†ccH@‰½‚¾A”ü‰J‚Í‹‚È‚¢‚Ì‚©Hv
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01892
 u‚¦A‚¦‚¦ccH@‹‚È‚¢‚©‚Á‚ÄAo‚©‚¯‚½‚¶‚á‚È‚¢v
@@ -2434,9 +2061,7 @@ wait		500
 —÷
 u‚ ‚ A‚¶‚á‚ ‚ ‚ê‚©Bƒwƒbƒhƒzƒ“‚µ‚Ä‚½‚©‚ç‚Èccv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01894
 u­‚µ‘O‚ÉA’¬“à‚Ì‰ï‡‚ª“ü‚Á‚½‚Á‚Äo‚Äs‚Á‚½‚Ì‚æv
@@ -2444,9 +2069,7 @@ wait		500
 —÷
 u‚È‚é‚Ù‚ÇA‚»‚ê‚Å©†‚©BƒIƒŒ‚Ì•ª‚Ü‚ÅHv
 
-
 @karin_komikaru_ikari2	#ƒRƒ~ƒJƒ‹“{2
-
 
 —‚©‚è‚ñ,P01895
 u‚ÓA‚Ó‚ñ‚ÁBŒ™X‚ÉŒˆ‚Ü‚Á‚Ä‚é‚Å‚µ‚åI@‰½‚Å„‚ª÷‚ÌƒGƒT‚È‚ñ‚©v
@@ -2458,9 +2081,7 @@ wait		500
 —÷
 u‚µ‚©‚µA‚©‚è‚ñ‚Á‚Ä—¿—‚Å‚«‚½‚ñ‚¾‚ÈBˆÓŠO‚¾v
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01896
 u‚Ü‚ŸŠm‚©‚ÉAÌ‚©‚ç‰Æ–‚âH–‚ÍƒƒCƒh‚ª‘S•”—pˆÓ‚µ‚Ä‚¢‚½‚í‚Ëv
@@ -2476,9 +2097,7 @@ wait		500
 —÷
 u‚È‚ŸA‚¿‚å‚Á‚Æ–¡Œ©‚µ‚Ä‚à‚¢‚¢‚©Hv
 
-
 @karin_ikari		#“{
-
 
 —‚©‚è‚ñ,P01898
 uƒ_ƒBˆÓ’n‰˜‚¢‚Ü‚Ë‚Í‚â‚ß‚È‚³‚¢v
@@ -2486,33 +2105,26 @@ wait		500
 —‚©‚è‚ñ,P01899
 u‚»‚à‚»‚à‚ ‚È‚½‚ª~–[‚É“ü‚Á‚Ä‚­‚é©‘ÌA‹–‰Â‚µ‚½Šo‚¦‚Í‚È‚¢‚í‚æv
 
-
 #SE13@‚¨• ‚Ì‰¹EãiƒLƒ…ƒ‹ƒ‹ccj
 @SE13			#‚¨• ‚Ì‰¹EãiƒLƒ…ƒ‹ƒ‹ccj
 #ƒOƒEƒDƒDccƒLƒ…ƒ‹ƒ‹cc
 
-
 #CHi‚©‚è‚ñE‹Á‚«j
 @karin_odoroki		#‹Á
-
 
 ‚¿‚å‚¤‚Ç‚»‚ñ‚Èƒ^ƒCƒ~ƒ“ƒO‚ÅAƒIƒŒ‚Ì‚¨• ‚Ì’‚ª·‘å‚É–Â‚è‹¿‚­B
 
 —÷
 ucc‚ ‚ŸA• Œ¸‚Á‚½‚Ÿv
 
-
 @karin_niko		#‚É‚±
-
 
 —‚©‚è‚ñ,P01900
 uccƒvƒbv
 
 ‚»‚Ì‰¹‚ğ•·‚¢‚ÄAv‚í‚¸‚©‚è‚ñ‚ª¬‚³‚­‚Ó‚«o‚µ‚½B
 
-
 @karin_warai		#Î
-
 
 —‚©‚è‚ñ,P01901
 u‚Ó‚Ó‚ÁA‚È‚Ÿ‚É¡‚ÌA‚¨• ‚Ì‰¹ccHv
@@ -2539,20 +2151,16 @@ wait		500
 —‚©‚è‚ñ,P01904
 uo—ˆ‚½‚çŒÄ‚Ô‚©‚çB‚ ‚ÆŒÜ•ª‚­‚ç‚¢‚Ëv
 
-
 @chara_clear		#•ÛŒ¯
 @bg_black
-
 
 ‚©‚è‚ñ‚Ì“š‚¦‚Éèõ‚¢‚ÄAƒIƒŒ‚ÍƒLƒbƒ`ƒ“‚ğŒã‚É‚µ‚½B
 
 ‚©‚è‚ñ‚É‚Íˆ«‚¢‚ªA—¿—‚Æ‚©˜r‘O‚Æ‚©‚æ‚è‚àA‚»‚ÌÎŠç‚Ì•û‚ª‚Í‚é‚©‚ÉŠğ‚µ‚¢‹C‚¿‚É‚³‚¹‚Ä‚­‚ê‚½B
 
-
 #¡BGiH“°j
 @chara_clear		#•ÛŒ¯
 @bg_dining		# H“°
-
 
 —÷
 u‚»‚ê‚¶‚áA‚¢‚½‚¾‚«‚Ü‚·v
@@ -2567,12 +2175,10 @@ wait		500
 —÷
 u‚¨‚¨c–¡‚à•’Ê‚É”ü–¡‚¢v
 
-
 #@karin_small
 @karin_middle		# ’†ŠÔ
 @karin_shifuku
 @karin_niko		#‚É‚±
-
 
 —‚©‚è‚ñ,P01906
 u“–‘R‚Å‚µ‚åB‚¶‚á‚È‚¢‚Æì‚ç‚È‚¢‚í‚æv
@@ -2588,9 +2194,7 @@ wait		500
 —÷
 u‚µ‚©‚µì‚ê‚é‚Ì‚ÉA•’i‚Í—¿—‚µ‚È‚¢‚Ì‚ÈHv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01908
 u‚¦H@‚¾‚Á‚Ä‚±‚±‚É‚Í”ü‰J‚ª‹‚é‚¶‚á‚È‚¢v
@@ -2603,9 +2207,7 @@ wait		500
 
 ƒJƒ`ƒƒƒJƒ`ƒƒ‚Æ”¢‚âƒXƒv[ƒ“‚ğ“®‚©‚µ‚ÄAŸX‚Æ—¿—‚ğ–¡‚í‚Á‚Ä‚¢‚­B
 
-
 @karin_niko		#‚É‚±
-
 
 —‚©‚è‚ñ,P01910
 uè—¿—‚È‚ñ‚Ä‚»‚¤ˆÕX‚Æo‚³‚È‚¢‚à‚Ì‚æB‚±‚±‚¼‚ÆŒ¾‚¤‘å–‚È‚Æ‚±‚ë‚ÅA‚³‚è‹C‚È‚­o‚·‚Ìv
@@ -2616,9 +2218,7 @@ wait		500
 —÷
 ucc‚ñH@‚¶‚á‚ A¡‚Á‚ÄB‰½‚©‚©‚è‚ñ‚É‚Æ‚Á‚Ä‘å–‚È‚Ì‚©Hv
 
-
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01911
 u‚¦Hv
@@ -2627,9 +2227,7 @@ wait		500
 
 ‚ªA‚©‚è‚ñ‚ÍˆêuŒÅ‚Ü‚é‚ÆA‚³‚Á‚«‚Ü‚Å‚Ì‰¸‚â‚©‚³‚ğÁ‚µ‚È‚ª‚ç–Ú‚ğ×‚ß‚éB
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01912
 ucc‚¿‚å‚Á‚Æ‘Ò‚Á‚ÄB‰½‚Å‚ ‚È‚½‚Æ‚±‚ñ‚È˜a‚â‚©‚É˜b‚³‚È‚¢‚Æ‚¢‚¯‚È‚¢‚Ìv
@@ -2649,9 +2247,7 @@ wait		500
 —‚©‚è‚ñ,P01915
 u‚à‚¤‚Ácc•Ğ•t‚¯‚Íè“`‚Á‚Ä‚à‚ç‚¤‚©‚çA‚¿‚á‚ñ‚Æc‚Á‚Ä‚È‚³‚¢‚æIv
 
-
 @karin_
-
 
 v‚¢o‚µ‚½‚æ‚¤‚É•s‹@Œ™‚É‚È‚Á‚ÄA‚©‚è‚ñ‚ÍH–‚ğÄŠJ‚µ‚½B
 
@@ -2660,11 +2256,9 @@ wait		500
 —÷
 u‚¦‚Á‚ÆccƒX[ƒv‚¨‚©‚í‚è–á‚Á‚Ä‚à‚¢‚¢‚©cHv
 
-
 @karin_middle		# ’†ŠÔ
 @karin_shifuku
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01916
 u‚¦‚¦BƒLƒbƒ`ƒ“‚Ì‚¨“ç‚æB©•ª‚Å“ü‚ê‚Ä‚«‚Ä‚æ‚Ëv
@@ -2676,22 +2270,15 @@ wait		500
 
 ‚æ‚­•ª‚©‚ç‚È‚¢q‚¾B
 
-
 bgm_stop
 #¡BGi•j
 @chara_clear		#•ÛŒ¯
 @bg_black
 
-
 ‚»‚ÌŒã‚à•s‹@Œ™‚»‚¤‚¾‚Á‚½‚ªAŒ‹‹Ç‚©‚è‚ñ‚Í•Ğ•t‚¯‚ğÏ‚Ü‚·‚Ü‚Å‚¸‚Á‚Æˆê‚É‚¢‚½‚Ì‚¾‚Á‚½B
-
 
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 
 ###############################################################################
 # 10 : ƒGƒbƒ`‚ÌŒ»ê‚ğŒ©‚ç‚ê‚Ä‚µ‚Ü‚Á‚½IHi¡Xji‚©‚è‚ñ•Ò
@@ -2701,26 +2288,21 @@ return
 #------------------------------------------------------------
 label	ep_karin_10
 
-
 #¡BGi©ºj
 @chara_clear		#•ÛŒ¯
 @bg_itsuki
-
 
 •½“ú‚Ì’‹‰º‚ª‚èB
 •”‰®‚Ì’†‚É”S–¨‚È‘Á‰t‚Ì‰¹‚ª–Â‚è‹¿‚¢‚Ä‚¢‚éB
 
 ccƒIƒŒ‚Í‚Ü‚½’¦‚è‚¸‚ÉA‚±‚ñ‚Èó‹µ‚É—‚Æ‚³‚ê‚Ä‚µ‚Ü‚Á‚Ä‚¢‚½B
 
-
 @bgm10			#BGM 10 : ƒGƒbƒ`ƒV[ƒ“‚Ìƒe[ƒ}
-
 
 #¡EViEV_ZAK_010-01j
 layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
 screen_transition	1000
 voice_bg		"Q90001"
-
 
 —‚´‚­‚ë,Q01164
 u‚ñ‚Ó‚£A‚­‚Õ‚¿‚ãƒbcc‚É‚è‚ã‚ŞA‚¿‚ã‚­‚£ƒbc‚ñA‚è‚ã‚£‚Şccv
@@ -2740,11 +2322,9 @@ voice_bg		"Q90001"
 —‚´‚­‚ë,Q01167
 u‚ê‚è‚ã‚£A‚¿‚ã‚Ï‚Ÿ‚Ácc‚ ‚Óc‚¢‚¢‚ÌA¡‚³‚ç‚â‚ß‚Ä‚àcHv
 
-
 #¡EViEV_ZAK_010-02j
 event		"event\EV_ZAK_010-02A.png"
 voice_bg_stop
-
 
 ƒlƒgƒŠ‚Æ”Z‚¢‘Á‰t‚Ì…‚ğˆø‚«‚È‚ª‚çA™ø‚¦‚Ä‚¢‚½‹T“ª‚ğ•ú‚·‚´‚­‚ëB
 
@@ -2765,12 +2345,10 @@ voice_bg_stop
 —‚´‚­‚ë,Q01171
 uƒGƒbƒ`‚Íí¯‚¶‚á‚È‚­‚ÄA–{”\‚Å‚·‚é‚à‚Ì‚æccB³’¼‚È‚±‚Ì‚¨‚¿‚ñ‚¿‚ñ‚İ‚½‚¢‚Év
 
-
 #¡EViEV_ZAK_010-01j
 layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
 screen_transition	1000
 voice_bg		"Q90001"
-
 
 —‚´‚­‚ë,Q01172
 u‚­‚Õ‚ŞƒbA‚ê‚è‚ã‚£cc‚¸‚¸ƒbA‚¸‚À‚ãƒbc‚À‚ã‚Ô‚Ôƒbcv
@@ -2851,9 +2429,7 @@ voice_bg		"Q90001"
 
 ƒIƒŒ‚Ì“®‚«‚É‡‚í‚¹‚ÄA‚´‚­‚ë‚ÍŒÀŠE‹ß‚¢“{’£‚Ö‚³‚ç‚ÉƒtƒFƒ‰ƒ`ƒI‚ğŒƒ‚µ‚­‚µ‚Ä‚«‚½B
 
-
 voice_bg		"Q90002"
-
 
 —‚´‚­‚ë,Q01188
 u‚é‚À‚ã‚£ƒbA‚®‚À‚ã‚À‚ãƒbcI@‚Ó‚Ş‚£ƒbcv‚¢‚Á‚«‚èo‚µ‚ÄA‚Â‚Á‚¿[cc‚Ò‚À‚ã‚éƒbA‚À‚ã‚Ş‚£ƒbI@‚ñ‚è‚ã‚À‚ãƒbv
@@ -2882,16 +2458,13 @@ voice_bg		"Q90002"
 
 ‚»‚ÌuŠÔAŠç‚ğ—£‚µ‚Ä“{’£‚ğŒû‚ÌŠO‚Ö‚Æ‰ğ•ú‚·‚é‚´‚­‚ëB
 
-
 #SE06@•”‰®‚ÌƒhƒAŠJ‚­‰¹iƒKƒ`ƒƒj
 @SE06			#•”‰®‚ÌƒhƒAŠJ‚­‰¹iƒKƒ`ƒƒj
-
 
 ‚¾‚ªƒIƒŒ‚Í[‚­l‚¦‚¸AŠçË‚¾‚Æv‚Á‚ÄA‚»‚Ì‚Ü‚ÜÕ“®‚ğ‹ì‚¯ã‚ª‚ç‚¹‚½I
 
 —‚©‚è‚ñ,P01917
 u‚Ç‚¤‚©‚µ‚½‚Ì÷A‰½‚¾‚©º‚ª\\\v
-
 
 bgm_stop
 #EF@”’ƒtƒ‰ƒbƒVƒ…
@@ -2902,19 +2475,16 @@ voice_bg_stop
 @bg_itsuki
 screen_flash		500
 
-
 ƒaƒ…ƒrƒ…ƒDƒbI@ƒhƒNƒhƒNƒbAƒhƒNƒ“ƒbccƒhƒrƒ…ƒDƒbI
 
 —­‚Ü‚èŸö‚Á‚½”’‘÷‚ÍAƒtƒFƒ‰ƒ`ƒI‚É‚æ‚Á‚Ä¨‚¢‚æ‚­“f‚«o‚³‚¹‚ç‚ê‚½B
 
 “–‘R‚»‚ê‚ÍA–Ú‚Ì‘O‚É‚ ‚é‚´‚­‚ë‚ÌŠç‚Ö‚Æ‘S‚Ä’‚ª‚ê‚Äccc
 
-
 #CHi‚©‚è‚ñE”’‘÷·•ªj
 @karin_small
 @karin_shifuku
 @karin			#•’Ê
-
 
 —‚©‚è‚ñ,P01918
 ucccv
@@ -2927,70 +2497,52 @@ screen_flash		500
 
 cc’‚ª‚ê‚Ä–³‚©‚Á‚½B
 
-
 #EF@”’ƒtƒ‰ƒbƒVƒ…
 screen_flash		500
 
-
 ƒhƒNƒ“ƒbAƒhƒNƒhƒNƒbcI@ƒhƒrƒ…ƒbAƒaƒ…ƒrƒ…ƒDƒbcI
 
-
 @karin_odoroki		#‹Á
-
 
 —‚©‚è‚ñ,P01920
 u‚Ğ‚ ƒbcIHv
 
-
 screen_flash		500
-
 
 ‚µ‚©‚à’Ç‚¢“¢‚¿‚ğ‚©‚¯‚é‚æ‚¤‚ÉA“ñ“xO“x‚Æˆì‚ê‚é¸‰t‚ª‚©‚è‚ñ‚Ö‚Æ•ú‚½‚ê‚éB
 
 —‚©‚è‚ñ,P01921
 u‚Èƒbcc‚¦A‚¦ƒbcIHv
 
-
 @karin_kanashimi	#ˆ£
-
 
 —‚©‚è‚ñ,P01922
 u‚¿‚å‚Á‚ÆA‚à‚µ‚©‚µ‚Ä‚±‚ê‚Á‚Äccv
 
-
 @bgm12			#‰‰F‰¼‚a‚f‚l
-
 
 “Ë‘R‚Ì‚±‚Æ‚É¢˜f‚µ‚È‚ª‚çA‚©‚è‚ñ‚ª©•ª‚É‚©‚©‚Á‚½”’‘÷‚ğw‚Å@‚¢Šm”F‚µ‚½B
 
 —÷
 u‚©A‚©‚è‚ñƒbIH@‰½‚Å‚©‚è‚ñ‚ª¸‰t‚ğIHv
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01923
 u\\\ƒbIHv
 
-
 @karin_komikaru_ikari	#ƒRƒ~ƒJƒ‹“{
-
 
 —‚©‚è‚ñ,P01924
 u‚»A‚»‚ê‚Í„‚Ì‘äŒ‚æƒbA‚±‚ÌƒXƒPƒx[[[[ƒbIIv
-
 
 #EF@”’ƒtƒ‰ƒbƒVƒ…
 #SE38@‰£‚é‰¹iƒoƒLƒbIj
 @SE38			#‰£‚é‰¹iƒoƒLƒbIj
 
-
 ‚½‚Á‚Õ‚è‚Æ—­‚ß‚Ì“ü‚Á‚½ƒpƒ“ƒ`‚ÉAƒIƒŒ‚Ìg‘Ì‚ª‚Á”ò‚Î‚³‚ê‚éI
 
-
 @karin_kanashimi	#ˆ£
-
 
 —‚©‚è‚ñ,P01925
 u‚¹A¸‰t‚Á‚Ä‚¥ccƒEƒ\‚Å‚µ‚åA‰½‚Å„‚ª‚©‚¯‚ç‚ê‚Ä‚é‚Ì‚æƒbHv
@@ -2998,35 +2550,27 @@ screen_flash		500
 —÷
 u‚¤A‚®ccƒIƒŒ‚ª’m‚è‚½‚¢cc‚´‚­‚ëv
 
-
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#•
 
-
 —‚´‚­‚ë,Q01194
 u‚²‚ß‚ñ‚ËA‚Â‚Á‚¿[B‚Â‚¢”ğ‚¯‚¿‚á‚Á‚½‚Ìv
-
 
 #SE66@Œø‰Ê‰¹‚PiƒrƒVƒbIj
 @SE66			#Œø‰Ê‰¹‚PiƒrƒVƒbIj¦ê–Ê‚ğ‹­’²‚µ‚½‚è‚·‚éŒø‰Ê‰¹
 
-
 —÷
 u”ğ‚¯‚ñ‚È‚æƒbA‚¿‚á‚ñ‚ÆŠçË‚³‚¹‚ë‚Á‚Ä‚æƒbIv
-
 
 @karin_ikari		#“{
 #SE66@Œø‰Ê‰¹‚PiƒrƒVƒbIj
 @SE66			#Œø‰Ê‰¹‚PiƒrƒVƒbIj¦ê–Ê‚ğ‹­’²‚µ‚½‚è‚·‚éŒø‰Ê‰¹
 
-
 —‚©‚è‚ñ,P01926
 u“{‚é‚Ì‚Í‚»‚±‚¶‚á‚È‚­‚ÄA•Ï‚È‚à‚Ìo‚µ‚Ä‚é÷‚ÌÓ”C‚Å‚µ‚åƒbIv
 
-
 @karin_kanashimi	#ˆ£
-
 
 —‚©‚è‚ñ,P01927
 u‚Í‚ ‚ŸA‚à‚¤``c‚·‚²‚¢ƒxƒgƒxƒg‚·‚é‚£‚Ácc‚Ç‚¤‚·‚é‚Ì‚æ‚§ccv
@@ -3039,16 +2583,12 @@ screen_flash		500
 —÷
 u‚¦cHv
 
-
 @zakuro_niko		#‚É‚±
-
 
 —‚´‚­‚ë,Q01195
 u‚©‚è‚ñ‚É‚©‚¯‚Ä‚©‚çA‚Ü‚½V‚µ‚­–u‹N‚µ‚Ä‚é‚İ‚½‚¢‚Ëv
 
-
 @karin_ikari		#“{
-
 
 —‚©‚è‚ñ,P01929
 u‚¢AŒ¾‚í‚È‚­‚Ä‚¢‚¢‚í‚æƒbA‚í‚´‚í‚´‚»‚ñ‚È–‚ÍƒbcIv
@@ -3063,9 +2603,7 @@ screen_flash		500
 —÷
 u‚ÆA‚Æ‚è‚ ‚¦‚¸‚Ù‚çAƒeƒBƒbƒVƒ…ccv
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01930
 uR‹ÛƒeƒBƒbƒVƒ…‚Í‚È‚¢‚ÌcHv
@@ -3073,23 +2611,17 @@ screen_flash		500
 —÷
 u–³‚¢‚Èv
 
-
 @zakuro			#•
-
 
 —‚´‚­‚ë,Q01196
 u„‚ªär‚ß‚Ä‚ ‚°‚æ‚¤‚©Hv
 
-
 @karin_ikari		#“{
-
 
 —‚©‚è‚ñ,P01931
 u‚»‚ê‚ª‰½‚Ì‘ã‚í‚è‚É‚È‚é‚Á‚ÄŒ¾‚¤‚Ì‚æƒbv
 
-
 @karin_kanashimi	#ˆ£
-
 
 —‚©‚è‚ñ,P01932
 u‚Ü‚Á‚½‚­A’†‚Ì—lq‚ª‚¨‚©‚µ‚©‚Á‚½‚©‚ç”`‚¢‚Ä‚ ‚°‚½‚Ì‚ÉccÅ’á‚¾‚í‚Áv
@@ -3099,9 +2631,7 @@ screen_flash		500
 —÷
 uS”z‚µ‚Ä’†‚ğ”`‚¢‚Ä‚­‚ê‚½‚Ì‚©Hv
 
-
 @karin_ikari		#“{
-
 
 —‚©‚è‚ñ,P01933
 u‚Ó‚ñ‚ÁA’m‚ç‚È‚¢‚í‚æBŒ‹‹Ç‚´‚­‚ë‚ÆƒGƒbƒ`‚È–‚ğ‚µ‚Ä‚½‚¾‚¯‚¾‚Á‚½‚ñ‚Å‚µ‚åv
@@ -3109,10 +2639,8 @@ screen_flash		500
 —‚´‚­‚ë,Q01197
 u‚»‚¤‚ËB‘Š•Ï‚í‚ç‚¸d‚³‚à‘å‚«‚³‚à\‚µ•ª‚È‚©‚Á‚½‚ív
 
-
 #CHi‚©‚è‚ñE•s‹@Œ™ƒWƒg–Ú{¸‰tj
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01934
 uccccv
@@ -3120,9 +2648,7 @@ screen_flash		500
 —÷
 u‚±A‚±‚ç‚´‚­‚ë‚ÁA‚¢‚¿‚¢‚¿•ñ‚µ‚È‚¢‚Å‚¢‚¢‚Á‚Ä‚Ìƒbv
 
-
 @karin_bubetsu		#••Ì
-
 
 —‚©‚è‚ñ,P01935
 u‚¢‚¢‚¶‚á‚È‚¢AŠy‚µ‚­‰ß‚²‚¹‚Ä‚é‚İ‚½‚¢‚ÅHv
@@ -3133,16 +2659,12 @@ screen_flash		500
 —÷
 uãè‚³‚ª‘S‚Ä‚¶‚á‚È‚¢‚¼B‚©‚è‚ñ‚Æ‚ÌƒGƒbƒ`‚Í‚Ü‚½•Ê‚Ì—Ç‚³‚ª‚ ‚é‚¶‚á‚È‚¢‚©v
 
-
 @karin_keno		#Œ™ˆ«
-
 
 —‚©‚è‚ñ,P01937
 ucc‚Áv
 
-
 @karin_ikari		#“{
-
 
 —‚©‚è‚ñ,P01938
 u‚ÆA‚Æ‚É‚©‚­B‚ ‚ñ‚Ü‚èŒyX‚µ‚­‚»‚±‚©‚µ‚±‚Å•Ï‚È‚±‚Æ‚Í‚µ‚È‚¢‚Å‚æ‚Ëƒbv
@@ -3150,22 +2672,18 @@ screen_flash		500
 —‚©‚è‚ñ,P01939
 u–¼–Úã‚Íd–‚È‚Ì‚©‚à‚µ‚ê‚È‚¢‚¯‚ÇA„’B‚É‚àƒvƒ‰ƒCƒoƒV[‚Æ‚©¶Šˆ‚ª‚ ‚é‚ñ‚¾‚©‚çƒbv
 
-
 window_close
 @karin_
 wait		1000
 #SE07@•”‰®‚ÌƒhƒA•Â‚Ü‚é‰¹iƒpƒ^ƒ“j
 @SE07			#•”‰®‚ÌƒhƒA•Â‚Ü‚é‰¹iƒpƒ^ƒ“j
 
-
 ­‚µQ‚Ä‚é‚æ‚¤‚ÉŒ¾—t‚ğ“Ë‚«o‚µ‚ÄA‚©‚è‚ñ‚Í•”‰®‚ğo‚Äs‚Á‚Ä‚µ‚Ü‚Á‚½B
 
 —÷
 u‚Í‚ ‚ŸccB‚Ü‚½‚©‚è‚ñ‚Æ‚Ìa‚ªL‚ª‚Á‚½‚æA‚´‚­‚ëv
 
-
 @zakuro_niko		#‚É‚±
-
 
 —‚´‚­‚ë,Q01198
 u‚»‚¤H@‡’²‚Éƒtƒ‰ƒO‚ªi‚ñ‚Å‚é‚æ‚¤‚ÉŒ©‚¦‚é‚¯‚Çv
@@ -3176,29 +2694,20 @@ wait		1000
 —÷
 u‚Ü‚Ÿ‚Æ‚É‚©‚­A‚à‚¤ˆê“xÓ‚è‚És‚±‚¤B‚¿‚á‚ñ‚Æ‹–‚µ‚Ä‚à‚ç‚í‚È‚¢‚Æ‚Èv
 
-
 @zakuro			#•
-
 
 —‚´‚­‚ë,Q01199
 u‚Â‚Á‚¿[‚ª‚»‚¤Œ¾‚¤‚È‚çv
-
 
 bgm_stop
 #¡BGi•j
 @chara_clear		#•ÛŒ¯
 @bg_black
 
-
 ‚»‚Ì‚ ‚ÆƒIƒŒ‚Í‚´‚­‚ë‚ğ˜A‚ê‚ÄÓ‚èA‚©‚è‚ñ‚É‹–‚µ‚Ä‚à‚ç‚¦‚½‚Ì‚¾‚Á‚½B
 
 cc‚µ‚Ä‚µ‚Ü‚Á‚½sˆ×‚ÌŠ„‚É‚ÍAˆÄŠO‚·‚®‹–‚µ‚Ä‚­‚ê‚Ä‚Ì‚ÍˆÓŠO‚¾‚Á‚½‚ªB
 
-
 #iƒXƒPƒWƒ…[ƒ‹‚Öj
 return
-
-
-
-
 

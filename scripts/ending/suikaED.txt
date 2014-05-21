@@ -9,10 +9,8 @@ label	suika_end
 # イメージ的には、壁際で同人ソフトを売るすいかの絵をバックに、立ちポーズとかはナシで。
 #重要：素材、条件分岐全く不明
 
-
 @bg_sky			# 空
 @bgm17			#BGM 17 : のんびりのテーマ
-
 
 #ちなみに、すいかはこの前、作っていたゲームを完成させて、同人ソフトとしてネットで発売した。
 #SCRIPT ADD KANJI
@@ -51,7 +49,6 @@ event		"event\ED_SUI_010.png"
 #SCRIPT ADD KANJI
 Ｓuika said many things like this, but I think it's actually because of Suika's talent and hard effort.
 
-
 #--------------------------------------------------
 #デバッグ用
 #pay_debts = 1
@@ -63,7 +60,6 @@ if pay_debts = 0 then goto suika_ep_f01_a
 #（借金を返せた場合）
 #--------------------------------------------------
 
-
 #施設の借金もなくなったので、すいかは設けたお金をどう使うのも自由だった。
 #SCRIPT ADD KANJI
 Ｔhe institution's debts were gone, so Suika was free to use the money she raised however she wanted.
@@ -73,7 +69,6 @@ if pay_debts = 0 then goto suika_ep_f01_a
 Ｏr should I say, she raised too much money that (?)
 
 #@suika_yorokobi		#喜
-
 
 ＠Suika,R00866
 「しょうがないんで、法人化しようと思うんです」
@@ -88,9 +83,7 @@ if pay_debts = 0 then goto suika_ep_f01_a
 ＠Itsuki
 「Well, if it's something I can do......」
 
-
 #@suika_warai		#笑
-
 
 #＠すいか,R00868
 #「あと、新作のテストプレイもお願いしますね」
@@ -112,21 +105,15 @@ wait			3000
 @bg_white		# 白
 screen_whitein		1
 
-
 #（続きへ）
 return
-
-
-
 
 #--------------------------------------------------
 #（借金を返せなかった場合）
 #--------------------------------------------------
 label		suika_ep_f01_a
 
-
 #@suika_yorokobi		#喜
-
 
 #＠すいか,R00869
 #「今度の儲けは、全額寄付しますね」
@@ -142,9 +129,7 @@ label		suika_ep_f01_a
 #SCRIPT ADD KANJI
 Ａnd Suika aimed to get out of our debt life with great determination.
 
-
 #@suika_warai		#笑
-
 
 #＠すいか,R00871
 #「次の新作も考えてるんで、またテストプレイはお願いしますね」
@@ -169,11 +154,6 @@ wait			3000
 @bg_white		# 白
 screen_whitein		1
 
-
 #（続きへ）
 return
-
-
-
-
 

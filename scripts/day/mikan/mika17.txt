@@ -7,23 +7,19 @@ bgm_stop
 #発生時期：みかんが養子に出された以降
 #--------------------------------------------------
 
-
 #■BG（商店街）
 @bgm01			#BGM 01 : さすらいのテーマ
 @bg_syoutengai		# 商店街
-
 
 みかんを探しに商店街にやって来た。
 
 ＠樹
 「今日こそ見つかるといいけど」
 
-
 #@zakuro_small
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
-
 
 ＠ざくろ,Q00917
 「……どうして私がいるの」
@@ -33,9 +29,7 @@ bgm_stop
 ＠樹
 「目的無く歩いてそうだったから。ついでに探してくれると助かる」
 
-
 @zakuro_akire		#呆
-
 
 ＠ざくろ,Q00918
 「いいけど、人が多い」
@@ -45,11 +39,9 @@ bgm_stop
 
 とりあえず歩き始める。
 
-
 #■BG（黒）
 bgm_stop
 @bg_black
-
 
 ………
 
@@ -57,20 +49,16 @@ bgm_stop
 
 …………………
 
-
 #■BG（商店街）
 @bgm12			#BGM 12 : メインテーマ
 @bg_syoutengai		# 商店街
 
-
 半時間ほど歩いただろうか。
-
 
 #@zakuro_middle		# 中間
 @zakuro_small
 @zakuro_shifuku
 @zakuro_ikari		#怒
-
 
 ＠ざくろ,Q00919
 「あ。つっちー、見つけた」
@@ -96,13 +84,11 @@ bgm_stop
 ＠ざくろ,Q00921
 「行きたい。行かなくちゃ」
 
-
 window_close
 @zakuro_
 wait		1000
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
-
 
 ＠樹
 「あっ、おい！　行かなくちゃってッ……」
@@ -112,47 +98,37 @@ wait		1000
 ＠樹
 「……仕方ない。一人で捜索を続けるか……」
 
-
 #SE33　外で走ってくる音
-
 
 ＠ざくろ,Q00922
 「……っ」
 
-
 #@SE33			#SE33　外で走ってくる音
 se		0,	"sound\se\SE20_足音2～走ってくる.wav",	play_once
-
 
 だが、すぐに戻ってくる。
 
 ＠樹
 「お？　みかんを探す気になったか？」
 
-
 se_stop		0
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
-
 ＠ざくろ,Q00923
 「お一人様３袋まで。来て、つっちー」
 
-
 screen_vibration	500,16,16,16
-
 
 グイッ、グイグイッ…
 
 ＠樹
 「こ、こら引っ張るな！　オレはみかんを」
 
-
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_iya		#嫌
-
 
 ＠ざくろ,Q00924
 「来てくれないと変態」
@@ -164,15 +140,9 @@ screen_vibration	500,16,16,16
 
 結局捜索を中断して、青ノリ購入に付き合わされてしまった。
 
-
 @bg_black
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 

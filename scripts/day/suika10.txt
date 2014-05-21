@@ -5,17 +5,13 @@ label	suika_10
 #発生時期：シューティング３回目から約１ヶ月後？　できれば12月に入ってから
 #--------------------------------------------------
 
-
 #■BG（１階リビング）
 @bg_living		# リビング
-
 
 ＠Itsuki
 「これはひどい……」
 
-
 @bgm02			#BGM 02 : 朝のテーマ
-
 
 #リビングで新聞を読んでいたオレは、思わずつぶいやた。
 #SCRIPT ADD KANJI
@@ -81,11 +77,9 @@ label	suika_10
 
 @SE06			#部屋のドア開く音（ガチャ）
 
-
 #リビングのドアが開き、そちらに目をやると、すいかが入ってきた。
 #SCRIPT ADD KANJI
 Ｔhe living room door opens, and I look towards it, and Suika enters.
-
 
 window_close
 @SE07			#部屋のドア閉まる音（パタン）
@@ -93,7 +87,6 @@ wait		1000
 @suika_small
 @suika_heyagi
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00727
 #「あ、院長先生。ここにいらしたんですか」
@@ -104,20 +97,16 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｏur eyes meet, and Suika's face becomes happy.
 
-
 @suika_
-
 
 #＠樹
 #「おう、どうした？」
 ＠Itsuki
 「Oh, what's up?」
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00728
 #「あ、いえ……。またゲームの続きを作りましたので、遊んでいただけないかと……」
@@ -129,27 +118,21 @@ wait		1000
 ＠Itsuki
 「Oh, I see. It's strange, at this time.」
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00729
 #「あはは……。昨日は遅くまで調整してましたから……」
 ＠Suika,R00729
 「Ahaha...... Because yesterday I stayed up adjusting it......」
 
-
 @suika			#普
-
 
 #＠すいか,R00730
 #「さすがに遅かったんで、昨日はそのまま寝ちゃったんです」
 ＠Suika,R00730
 「It was really late, so yesterday I ended up falling asleep like that.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00731
 #「それで、今日の夜まで待とうかとも思ったんですけど、待ちきれなくて」
@@ -178,15 +161,12 @@ wait		1000
 ＠Itsuki
 「Well then, let's go......」
 
-
 bgm_stop
 @chara_clear	#保険
-
 
 #と、オレが言いかけたそのときだった。
 #SCRIPT ADD KANJI
 Ｔhen, right when I started to say that.
-
 
 #--------------------------------------------------
 #注：デバッグ用
@@ -200,7 +180,6 @@ if mikan_miryoku > karin_miryoku and mikan_miryoku > ichigo_miryoku then goto su
 #--------------------------------------------------
 #（いちご、みかん、かりんの中でいちごの好感度が高い）
 #--------------------------------------------------
-
 
 window_close
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
@@ -216,25 +195,20 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠いちご,O02316
 #「あーッ、パパ、こんなところにいた！」
 ＠Ichigo,O02316
 「A-h, Papa, you were here!」
 
-
 #@ichigo_ikari		#怒
 @ichigo_komikaru_odoroki	#コミカル驚
-
 
 #＠いちご,O02317
 #「大変なんだよッ！　いちごの部屋にあいつが出たの！」
 ＠Ichigo,O02317
 「It's terrible! That guy appeared in Ichigo's room!」
 
-
 @bgm03			#BGM 03 : いちごのテーマ
-
 
 #いちごが息せき切ってリビングに飛び込んできた。
 #SCRIPT ADD KANJI
@@ -244,7 +218,6 @@ layer_movepass_play	l_ichigo,0,play_once
 #「あいつ……？」
 ＠Itsuki
 「"That guy"......?」
-
 
 @ichigo_komaru		#困
 wait	500
@@ -259,7 +232,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠いちご,O02318
 #「あいつだよ！　あの黒くて素早くてギトギトしてるアレ……！」
 ＠Ichigo,O02318
@@ -269,7 +241,6 @@ layer_movepass_play	l_ichigo,0,play_once
 #「……ゴキブリか？」
 ＠Itsuki
 「......A cockroach?」
-
 
 @ichigo_ikari		#怒
 wait	500
@@ -281,12 +252,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠いちご,O02319
 #「そう、いわゆるそれ！」
 ＠Ichigo,O02319
 「Yeah, that's it!」
-
 
 @ichigo_
 wait		1000
@@ -308,7 +277,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠いちご,O02320
 #「どうにかして、パパッ！」
 ＠Ichigo,O02320
@@ -318,9 +286,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #SCRIPT ADD KANJI
 Ｉchigo clung to me and cried.
 
-
 @ichigo_
-
 
 #＠樹
 #「しょうがないなぁ……」
@@ -332,20 +298,16 @@ layer_movepass_play	l_ichigo,0,play_once
 ＠Itsuki
 「Sorry, Suika, I'll play it later.」
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika			#普
-
 
 #＠すいか,R00732
 #「あ、はい……」
 ＠Suika,R00732
 「Ah, yes......」
 
-
 @suika_
-
 
 #すいかに断りを入れて、俺は立ち上がる。
 #SCRIPT ADD KANJI
@@ -367,7 +329,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠いちご,O02321
 #「パパ～ッ、早く早くッ！」
 ＠Ichigo,O02321
@@ -380,39 +341,29 @@ layer_movepass_play	l_ichigo,0,play_once
 #（統合へ）
 goto		suika10_togo1
 
-
-
-
-
 #--------------------------------------------------
 #（いちご、みかん、かりんの中でみかんの好感度が高い）
 #--------------------------------------------------
 label		suika10_f01_mikan
 
-
 @mikan_small
 @mikan_shifuku
 @mikan_odoroki		#驚
-
 
 #＠みかん,A01961
 #「あ、ここにいたぁっ！」
 ＠Mikan,A01961
 「Ah, you were here!」
 
-
 @mikan_
 se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
-
 
 #＠みかん,A01962
 #「お兄ちゃ～んっ……！」
 ＠Mikan,A01962
 「Onii-cha~n......!」
 
-
 @bgm12			#BGM 12 : メインテーマ
-
 
 #泣きそうな顔でみかんがリビングに飛び込んできた。
 #SCRIPT ADD KANJI
@@ -422,7 +373,6 @@ se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
 #「どうした……？」
 ＠Itsuki
 「What's wrong......?」
-
 
 se_stop		0
 @mikan_large		# 近い
@@ -442,7 +392,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠みかん,A01963
 #「あのね、みかんの部屋に……出たの～っ……」
 ＠Mikan,A01963
@@ -457,16 +406,13 @@ layer_movepass_play	l_mikan,0,play_once
 #SCRIPT ADD KANJI
 Ａ monster or something like that......?
 
-
 layer_movepass_init	l_mikan,0	#演出初期化
 #@mikan_komikaru_kanashimi	#コミカル哀
-
 
 #＠みかん,A01964
 #「ゴキブリ～っ！」
 ＠Mikan,A01964
 「Cockroach~!」
-
 
 #///////////////////////////////////////////////////////
 #演：だだこね
@@ -482,15 +428,12 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠みかん,A01965
 #「助けてお兄ちゃん！　なんとかして～ッ！」
 ＠Mikan,A01965
 「Save me Onii-chan! Do something~!」
 
-
 @chara_clear		#保険
-
 
 #今にも泣き出しそうな勢いで、みかんは俺にすがりついてくる。
 #SCRIPT ADD KANJI
@@ -506,20 +449,16 @@ layer_movepass_play	l_mikan,0,play_once
 ＠Itsuki
 「Sorry, Suika, I'll play it later.」
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika			#普
-
 
 #＠すいか,R00733
 #「あ、はい……」
 ＠Suika,R00733
 「Ah, yes......」
 
-
 @suika_
-
 
 #すいかに断りを入れて、俺は立ち上がる。
 #SCRIPT ADD KANJI
@@ -529,7 +468,6 @@ layer_movepass_play	l_mikan,0,play_once
 #「行くぞ、みかん」
 ＠Itsuki
 「Let's go, Mikan.」
-
 
 @mikan_large		# 近い
 @mikan_shifuku
@@ -543,7 +481,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠みかん,A01966
 #「ありがとう、お兄ちゃん！」
 ＠Mikan,A01966
@@ -555,12 +492,10 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_warai2		#笑2
 
-
 #＠みかん,A01967
 #「やっぱりお兄ちゃんは頼りになるな……」
 ＠Mikan,A01967
 「Onii-chan is reliable after all......」
-
 
 #＠樹
 #「ほらほら、早く行かないとどこにいるのかわからなくなるだろ？」
@@ -571,43 +506,32 @@ layer_movepass_play	l_mikan,0,play_once
 #SCRIPT ADD KANJI
 Ｉ hurry Mikan, who is on my arm, and I go to the room's exit.
 
-
 #（統合へ）
 goto		suika10_togo1
-
-
-
-
 
 #--------------------------------------------------
 #（いちご、みかん、かりんの中でかりんの好感度が高い）
 #--------------------------------------------------
 label		suika10_f01_karin
 
-
 @karin_small
 @karin_shifuku
 @karin_odoroki		#驚
-
 
 #＠かりん,P02693
 #「樹！　こんなところにいたのね！」
 ＠Karin,P02693
 「Itsuki! You were here!」
 
-
 @karin_ikari		#怒
-
 
 #＠かりん,P02694
 #「肝心なときに役に立たないんだから、もう！」
 ＠Karin,P02694
 「Ugh, you're so useless at crucial times!」
 
-
 @karin_
 @bgm12			#BGM 12 : メインテーマ
-
 
 #いつになく慌てた様子で、かりんがリビングに入ってきた。
 #SCRIPT ADD KANJI
@@ -618,11 +542,9 @@ label		suika10_f01_karin
 ＠Itsuki
 「What happened?」
 
-
 @karin_middle		# 中間
 @karin_shifuku
 @karin_kanashimi	#哀
-
 
 #＠かりん,P02695
 #「うぅ、それが……」
@@ -656,9 +578,7 @@ label		suika10_f01_karin
 ＠Itsuki
 「You mean a cockroach?」
 
-
 @karin_ikari		#怒
-
 
 #＠かりん,P02699
 #「そ、そんな言葉を口に出さないで。樹の口が汚れるわ」
@@ -672,9 +592,7 @@ label		suika10_f01_karin
 
 いちいち別の言葉に言い換えてたら会話が進まないじゃんか。
 
-
 @karin_kanashimi	#哀
-
 
 #＠かりん,P02700
 #「いいから早くアレを退治しなさい。あなたの仕事でしょう？」
@@ -686,49 +604,39 @@ label		suika10_f01_karin
 ＠Itsuki
 「I don't have a choice, do I......?」
 
-
 @chara_clear		#保険
-
 
 #＠樹
 #「悪い、すいか、またあとで」
 ＠Itsuki
 「Sorry, Suika, I'll play it later.」
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika			#普
-
 
 #＠すいか,R00734
 #「あ、はい……」
 ＠Suika,R00734
 「Ah, yes......」
 
-
 @suika_
-
 
 #すいかに断りを入れて、俺は立ち上がる。
 #SCRIPT ADD KANJI
 Ｉ get up after refusing to Suika.
-
 
 @karin_large		# 近い
 @karin_shifuku
 #@karin_tere		#照れ（笑いを兼用？）
 @karin_warai		#笑
 
-
 #＠かりん,P02701
 #「さすがね、樹。頼もしいわ」
 ＠Karin,P02701
 「You're great, Itsuki. You're reliable.」
 
-
 @karin_
-
 
 #リビングの出口に向かおうとすると、かりんはさりげなく俺に寄り添い、俺の腕を取った。
 #SCRIPT ADD KANJI
@@ -740,14 +648,10 @@ label		suika10_f01_karin
 #SCRIPT ADD KANJI
 Ｉ felt like I could feel Karin's tension from the arm she was touching.
 
-
-
-
 #--------------------------------------------------
 #■（統合）
 #--------------------------------------------------
 label		suika10_togo1
-
 
 bgm_stop
 #■BG（黒）
@@ -757,8 +661,4 @@ wait		1000
 @suika_evup
 #（スケジュールへ）
 return
-
-
-
-
 

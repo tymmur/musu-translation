@@ -9,7 +9,6 @@ event	"event\text_04.png"
 wait		1000
 @bg_white
 
-
 #個別エンド　みかん、かりん、いちごの順で表示
 #↓
 #スタッフロール
@@ -52,7 +51,6 @@ wait		1000
 
 これから生まれる命と、この笑顔を、オレがこれから守っていこう。
 
-
 window_close
 bgm_stop
 screen_whiteout		3000
@@ -65,7 +63,6 @@ screen_whitein		1
 mikan_kekkonend_flag=1
 
 return
-
 
 label	ED_kekkon_karin
 ########################################
@@ -107,7 +104,6 @@ wait			3000
 screen_whitein		1
 
 karin_kekkonend_flag=1
-
 
 return
 #条件を満たしているいちごのエンドへ
@@ -214,8 +210,6 @@ wait			3000
 @bg_white		# 白
 screen_whitein		1
 
-
-
 return
 
 #条件を満たしているかりんのエンドへ
@@ -241,7 +235,6 @@ window_close
 event	"event\ED_KAR_008.png"
 wait		1000
 
-
 ＠かりん,P04727
 「あら、樹。どうしたの？今日はもう終わりだけど……樹なら特別に相手してあげてもいいわよ」
 
@@ -259,10 +252,8 @@ wait			3000
 @bg_white		# 白
 screen_whitein		1
 
-
 return
 #条件を満たしているいちごのエンドへ
-
 
 label	ED_syoufu_ichigo
 ########################################
@@ -285,13 +276,11 @@ window_close
 event	"event\ED_ICH_008.png"
 wait		1000
 
-
 ＠いちご,O03989
 「あ♪パパだぁ♪どうしたの？様子を見に来たの？」
 
 ＠いちご,O03990
 「いちご、パパとなら1回だけ無料でしてあげちゃう♪おチンチン出して～♪足コキ？手コキ？何がいい？えへへ」
-
 
 ちょっと育て方を間違えたかも知れないが……、まあ、本人が望んでいることだし、これはこれでいいだろう……。いろんな意味で。
 
@@ -303,7 +292,6 @@ screen_whiteout		3000
 wait			3000
 @bg_white		# 白
 screen_whitein		1
-
 
 return
 #当てはまらない場合はエンドロールへ。
@@ -339,7 +327,6 @@ wait		1000
 
 ＠樹
 「…………か、考えておくよ」
-
 
 もうすっかりプロの女王様の貫禄だ。
 
@@ -477,7 +464,6 @@ window_close
 event	"event\ED_MIK_001.png"
 wait		1000
 
-
 ＠みかん,A04267
 「あ♪お兄ちゃ～ん♪いらっしゃい♪どう？お兄ちゃんも一杯」
 
@@ -525,7 +511,6 @@ window_close
 event	"event\ED_KAR_001.png"
 wait		1000
 
-
 ＠かりん,P04730
 「あら……樹。飲みに来たの？ふふっ。さ、座って座って。……ピンドン入りまーす！」
 
@@ -571,7 +556,6 @@ window_close
 event	"event\ED_ICH_001.png"
 wait		1000
 
-
 ＠いちご,O03993
 「あれ～？パパだ！こっちこっち～！パパもお酒飲もうよ！さあ、飲んで飲んで～！」
 
@@ -582,7 +566,6 @@ wait		1000
 
 これからも、精進していって欲しい。
 
-
 window_close
 bgm_stop
 screen_whiteout		3000
@@ -591,7 +574,6 @@ wait			3000
 screen_whitein		1
 
 return
-
 
 ###############################################################################
 #【007】あたま＋こころ系
@@ -609,7 +591,6 @@ label	ED_atakoko_mikan
 行くところもないので、とりあえず、オレたちは一緒に暮らしている。
 
 いろいろ勉強するうちに、どうやら、保母さんの道を目指すことに決めたらしい。
-
 
 @bg_white
 wait	100
@@ -631,7 +612,6 @@ wait		500
 
 これからも、夢に向かってまっすぐ伸びていってくれることを願おう。
 
-
 window_close
 bgm_stop
 screen_whiteout		3000
@@ -642,7 +622,6 @@ screen_whitein		1
 #条件を満たしているかりんのエンドへ
 mikan_normalend_flag=1
 return
-
 
 label	ED_atakoko_karin
 ########################################
@@ -656,7 +635,6 @@ label	ED_atakoko_karin
 行くところもないので、とりあえず、オレたちは一緒に暮らしている。
 
 いろいろ勉強するうちに、どうやら、ニュースキャスターへの道を目指すことに決めたらしい。
-
 
 @bg_white
 wait	100
@@ -674,7 +652,6 @@ wait		500
 きりっとした表情でニュースを読み上げるかりんは、とても輝いている。
 
 これからも、夢に向かってまっすぐ伸びていってくれることを願おう。
-
 
 window_close
 bgm_stop
@@ -722,7 +699,6 @@ wait		500
 
 これからも、夢に向かってまっすぐ伸びていってくれることを願おう。
 
-
 window_close
 bgm_stop
 screen_whiteout		3000
@@ -752,7 +728,6 @@ label	ED_atama_mikan
 
 いろいろ勉強するうちに、どうやら、科学者への道を目指すことに決めたらしい。
 
-
 @bg_white
 wait	100
 window_close
@@ -781,7 +756,6 @@ wait	500
 失敗しても、頑張り屋のみかんならきっとできるさ。
 
 これからも、夢に向かってまっすぐ伸びていってくれることを願おう。
-
 
 window_close
 bgm_stop
@@ -828,7 +802,6 @@ wait		500
 
 これからも、夢に向かってまっすぐ伸びていってくれることを願おう。
 
-
 window_close
 bgm_stop
 
@@ -836,7 +809,6 @@ screen_whiteout		3000
 wait			3000
 @bg_white		# 白
 screen_whitein		1
-
 
 karin_normalend_flag=1
 
@@ -904,11 +876,9 @@ label	ED_karada_mikan
 
 いろいろ勉強するうちに、どうやら、パティシエへの道を目指すことに決めたらしい。
 
-
 『フランス語で書かれたレシピが読めない～、もっと勉強しておけば良かったよぉ……』
 
 と、毎日苦労しながらも頑張っているようだ。
-
 
 @bg_white
 wait	100
@@ -963,7 +933,6 @@ label	ED_karada_karin
 
 と、毎日苦労しながらも頑張っているようだ。
 
-
 @bg_white
 wait	100
 window_close
@@ -992,7 +961,6 @@ wait			3000
 screen_whitein		1
 
 karin_normalend_flag=1
-
 
 return
 #条件を満たしているいちごのエンドへ
@@ -1036,7 +1004,6 @@ screen_whiteout		3000
 wait			3000
 @bg_white		# 白
 screen_whitein		1
-
 
 ichigo_normalend_flag=1
 
@@ -1082,7 +1049,6 @@ wait			3000
 screen_whitein		1
 
 mikan_normalend_flag=1
-
 
 return
 #条件を満たしているかりんのエンドへ
@@ -1176,7 +1142,6 @@ screen_whitein		1
 
 ichigo_normalend_flag=1
 
-
 return
 
 #エンドロールへ。
@@ -1190,7 +1155,6 @@ label	ED_av_karin
 ########################################
 @bg_black
 @bgm11			#BGM 11: 暗いエッチのテーマ
-
 
 借金を返済し、自由の身になったはずのかりん。
 
@@ -1328,7 +1292,6 @@ screen_whitein		1
 
 return
 #エンドロールへ。
-
 
 #######################################
 #必要フラグメモ

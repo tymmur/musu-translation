@@ -9,13 +9,11 @@ bgm_stop
 #※調教開始コメントは発生しない
 #--------------------------------------------------
 
-
 #■BG（自室・夜）
 @shizuku_small
 @shizuku_shifuku
 @shizuku		#普通
 @bg_itsuki_n		# 自室(夜)
-
 
 ＠Itsuki
 「はぁぁ～……」
@@ -28,30 +26,23 @@ bgm_stop
 ＠Itsuki
 「Well, nothing in particular. Maybe it's about the training...」 
 
-
 @bgmk04			#BGM K04 : 寝る前のテーマ
-
 
 #Hikariと暮らし始めて、何か平和になった気がするが、こればっかりは変わらない。
 #SCRIPT ADD KANJI
 Ｓince Hikari began her life here, I thought things would become more peaceful, but only this thing didn't change.
 
-
 #もう慣れたつもりだったが、改めて思い返してしまった。
 #SCRIPT ADD KANJI
 Ａlthough I was already used to it, I needed to reconsider it once more.
 
-
 @shizuku_akire		#呆
-
 
 #「はぁ。Hikariのことかい？」
 ＠Shizuku,S01205
 「はぁ. Is it about Hikari?」
 
-
 @shizuku		#普通
-
 
 #「ま、和やかっぽくなってたみたいだけど、所詮表面だけってことだよ」
 ＠Shizuku,S01206
@@ -73,29 +64,23 @@ bgm_stop
 ＠Itsuki
 「よしッ, it can't be helped if I get worried. There's nothing I can do beside continuing what I'm doing up until now.」
 
-
 @shizuku_yorokobi	#喜
-
 
 #「そうそう。やることやってりゃ気も紛れるさ」
 ＠Shizuku,S01207
 「That's right. You must not be confused between what you must do and your feelings.」
 
-
 @shizuku_akire		#呆
-
 
 #「それじゃ、今日は誰とする――――」
 ＠Shizuku,S01208
 「Well then, whom are you going to do with----」
-
 
 #SE05　物にぶつかる音（ガンッ！）
 #EF　画面シェイク
 #@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
 se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
 screen_vibration	500,16,16,16
-
 
 @shizuku		#普通
 #///////////////////////////////////////////////////////
@@ -107,7 +92,6 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #「ッと！？　な、なに？」
 ＠Shizuku,S01209
 「ッと!? W, what was that?」
@@ -116,9 +100,7 @@ layer_movepass_play	l_shizuku,0,play_once
 #SCRIPT ADD KANJI
 Ｓuddenly, a loud sound could be heard from the door of the room.
 
-
 #CH（Hikariは立ち絵なし）
-
 
 #「うぅっ、んぅぅ～～ッ……いたい、痛いのぉっ……」
 ＠Hikari,N00280
@@ -128,24 +110,19 @@ layer_movepass_play	l_shizuku,0,play_once
 ＠Itsuki
 「...Isn't it Hikari.」
 
-
 @shizuku_chousyou	#怒笑
-
 
 #「話には聞いてたけど、豪快なぶつかり方だねぇ……」
 ＠Shizuku,S01210
 「Although I only hear about this from others, it seems she is truly a person with a energetic strike...」
 
-
 @bg_black
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
-
 #少ししてドアが開き、Hikariが入ってきた。
 #SCRIPT ADD KANJI
 Ｔhe door was opened a little, and Hikari entered the room.
-
 
 #CH（ここからHikari立ち絵あり）
 @hikari_large		# 近い
@@ -179,7 +156,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #「うぅ～…お父しゃん、おでこぶちゅけた……痛いのぉ…」
 ＠Hikari,N00281
 「うぅ～... Otou-shan, I hit my forehead.... It hurts...」
@@ -188,29 +164,22 @@ layer_movepass_play	l_hikari,0,play_once
 ＠Itsuki
 「Where?... Let me look at it.」
 
-
 @bg_black
-
 
 #前髪を上げて見ると、真っ白なおでこの一部が赤くなっている。
 #SCRIPT ADD KANJI
 Ｓhe showed up her forehead, and I could see some red part on her sparkling white skin.
-
-
 
 @shizuku_small
 @shizuku_shifuku
 @shizuku		#普通
 @bg_itsuki_n		# 自室(夜)
 
-
 #「特に腫れも無いし、大丈夫でしょ」
 ＠Shizuku,S01211
 「There is no particular swelling, so I think it should be okay.」
 
-
 @shizuku_yorokobi	#喜
-
 
 #「しかしドアにぶつかるのは……。ちゃんと気をつけるんだよ」
 ＠Shizuku,S01212
@@ -224,44 +193,34 @@ layer_movepass_play	l_hikari,0,play_once
 #SCRIPT ADD KANJI
 Ｈikari who entered the room, looked around the room restlessly just like that.
 
-
 @hikari_small
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
-
 
 #「お父しゃんとShizukuしゃん、何してゆの……？」
 ＠Hikari,N00283
 「Otou-shan and Shizuku-shan, what are you doing...?」
 
-
 @shizuku_akire		#呆
-
 
 #「Itsukiの仕事だよ。これから子供達を調教するのさ」
 ＠Shizuku,S01213
 「It's Itsuki's job. After this, he will train the children.」
 
-
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
-
 
 #「ちょぉおッ！？　サラリと当然のように答えないでくださいッ！」
 ＠Itsuki
 「Whaa!? Please don't answer as if it is natural!」
 
-
 @hikari			#普.png
-
 
 #「ちょーきょー？　なぁに？」
 ＠Hikari,N00284
 「Trae-nin-? What is it?」     {It's training. But i've changed it to match Hikari's mindset}
 
-
 @shizuku_chousyou	#怒笑
-
 
 #「ははっ。心配しなくても、Hikariはまだ関係ないことさね」
 ＠Shizuku,S01214
@@ -279,39 +238,31 @@ layer_movepass_play	l_hikari,0,play_once
 #SCRIPT ADD KANJI
 Ｍiu who came inside the room to check it out, let out a sound when she found Hikari.
 
-
 @chara_clear		#保険
 wait		500
 @miu_small
 @miu_maid
 @miu_komaru		#開_困
 
-
 #「ひ、ひーちゃん、今はここに来ちゃダメって言ったでしょ」
 ＠Miu,B01616
 「Hi, Hi-chan, I've told you not to enter this room right now!」
-
 
 @hikari_small
 @hikari_shifuku
 @hikari			#普.png
 
-
 #「ねぇお母しゃん、ちょーきょーってなぁに？」
 ＠Hikari,N00285
 「Hey okaa-shan, what is trae-nin?」    {It's training. But i've changed it to match Hikari's mindset}
 
-
 @miu_ikari2		#開_怒
-
 
 #「え゛ッ……」
 ＠Miu,B01617
 「Ee...」
 
-
 @hikari_yorokobi	#喜.png
-
 
 #「お父しゃん、こえからちょーきょーでお仕事すゆんだって。なぁに？」
 ＠Hikari,N00286
@@ -321,9 +272,7 @@ wait		500
 ＠Itsuki
 「A, well, like I've said Hikari... That is...」
 
-
 @miu_ikari		#閉_怒
-
 
 ＠Miu,B01618
 「…………」
@@ -340,22 +289,17 @@ wait		500
 #SCRIPT ADD KANJI
 Ｔhat question was not aimed for anyone. A word was thrown to the empty space who demanded an aswer to spin this conversation.
 
-
 @hikari			#普.png
-
 
 #「Shizukuしゃんから聞いたの。ちょーきょーってなぁに？」
 ＠Hikari,N00287
 「I heard that from Shizuku-shan. What is trae-nin?」
 
-
 @miu_ikari2		#開_怒
-
 
 #「そう、Shizukuさんが」
 ＠Miu,B01620
 「I see, Shizuku-san did.」
-
 
 @chara_clear		#保険
 wait		500
@@ -363,32 +307,25 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
-
 #「いやまぁ、内容は話してないよ。はは、事故事故」
 ＠Shizuku,S01215
 「Well, we were not talking about that topic. Accident accident.」
-
 
 @miu_small
 @miu_maid
 @miu			#閉_にこ
 
-
 #「事故。うふふふ♪」
 ＠Miu,B01621
 「Accident.うふふふ♪」
 
-
 @shizuku_chousyou	#怒笑
-
 
 #「そう、事故。ははははっ」
 ＠Shizuku,S01216
 「Yeah, accident. Hahahahaa.」
 
-
 @miu2			#開_にこ
-
 
 #「Itsukiさん、ひーちゃん。今何時かしら？」
 ＠Miu,B01622
@@ -401,25 +338,20 @@ wait		500
 ＠Hikari,N00288
 「……？」
 
-
 #■BG（黒）
 @bg_black
-
 
 #二人して部屋の時計へ振り返る。
 #SCRIPT ADD KANJI
 Ｔhe two of us turned our head towards the clock inside the room.
 
-
 screen_flash		500
 #SE95　人を殴る音
 @SE95			#SE95　人を殴る音　※リアル
 
-
 #特に何がある訳でもなく、普通に針は９時過ぎを指している。
 #SCRIPT ADD KANJI
 Ｔhere was not any particular significance, the needle of the clock normally indicated that it was now pass 9:00 o'clock.
-
 
 #■BG（自室・夜）
 @miu_small
@@ -431,19 +363,15 @@ screen_flash		500
 @hikari			#普.png
 @bg_itsuki_n		# 自室(夜)
 
-
 #「ん？　今何か鈍い音が」
 ＠Itsuki
 「Hm? Just now I could hear a blunt voice.」
 
-
 @miu2			#開_にこ
-
 
 #「あ、もうこんな時間。ひーちゃん、一緒にお風呂に入りましょうか」
 ＠Miu,B01623
 「A, it's already this time. Hi-chan, let us have a bath together.」
-
 
 @hikari_warai		#笑.png
 #///////////////////////////////////////////////////////
@@ -458,14 +386,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #「わーいっ♪　おふよおふよー！」
 ＠Hikari,N00289
 「Wa-ii♪ Bath bath-!」
 
-
 @miu			#閉_にこ
-
 
 #「それではItsukiさん、後はよろしくお願いします」
 ＠Miu,B01624
@@ -475,13 +400,11 @@ layer_movepass_play	l_hikari,0,play_once
 ＠Itsuki
 「Eh...? Aa, yes.」
 
-
 window_close
 @chara_clear		#保険
 wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
-
 
 何事も無かったように、MiuはHikariを連れて部屋を出て行った。
 
@@ -489,15 +412,12 @@ wait		1000
 ＠Itsuki
 「... What was happening just now, exactly.」
 
-
 window_close
 #CH（Shizuku立ち絵なし）
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-
 ＠Shizuku,S01217
 「ぐッ……うぅ、ぉぐぅっ……」
-
 
 #「って、あれ……？　Shizukuさん、何してるんですか」
 ＠Itsuki
@@ -527,7 +447,6 @@ window_close
 ＠Shizuku,S01221
 「...So, I ask you to do it alone later...うぅッ... My stomach...」
 
-
 window_close
 #CH（Shizuku立ち絵なし）
 @SE70			#SE70　衣擦れ音（シュルシュル）
@@ -535,7 +454,6 @@ wait		100
 @SE06			#部屋のドア開く音（ガチャ）
 wait		100
 @SE07			#部屋のドア閉まる音（パタン）
-
 
 #さっきまでの元気はどうしたのか、うずくまったまま部屋を出て行った。
 #SCRIPT ADD KANJI
@@ -548,7 +466,6 @@ wait		100
 #元が変わり者なので、たいていはその一言で済んでしまうのだった。
 #SCRIPT ADD KANJI
 Ｌike a protagonist, leaving the scene with a single word ended everything. 
-
 
 @bg_black
 return

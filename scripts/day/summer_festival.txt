@@ -8,7 +8,6 @@ label	natsumatsuri
 #■BG（玄関・日中）
 @bg_genkan
 
-
 ＠樹
 「……ん？」
 
@@ -40,10 +39,8 @@ label	natsumatsuri
 
 が、その姿が、
 
-
 #CH（みかん・浴衣姿）
 @mikan_warai
-
 
 ＠みかん,A00351
 「見て見て、お兄ちゃん！　浴衣だよ～♪」
@@ -166,17 +163,14 @@ wait	1000
 ＠ゆず,F00046
 「お祭りかー、浴衣着ていけるなんて、すごく楽しみ♪」
 
-
 ＠いちご,O00364
 「今年こそは、頑張って屋台の食べ物全種制覇を目指すよ！」
-
 
 ＠ざくろ,Q00300
 「そんなお金あるの？」
 
 ＠いちご,O00365
 「その為に、今年はパパがいるんだよ♪」
-
 
 @ichigo_
 @yuzu_
@@ -190,20 +184,16 @@ wait	1000
 ＠すいか,R00160
 「あ、あれ？　かりんちゃん、どうかしたの？」
 
-
 ＠かりん,P00413
 「い、いいえ……ちょっと蓄積されたダメージが………はぁっ、はぁぁっ」
 
-
 ＠みかん,A00357
 「……みかんの浴衣を見てからだよね。似合ってなかったかなぁ」
-
 
 ＠かりん,P00414
 「そんなこと無いわッ、似合いすぎてダメージが………いけない、ヂュルルッ！」
 
 一部お祭り以外のことで盛り上がっているが。
-
 
 @karin_
 @suika_
@@ -228,7 +218,6 @@ wait	1000
 
 ＠樹
 「う～ん……何かしかし、みんな純粋なような不純なような……」
-
 
 @chara_clear
 wait	1000
@@ -277,10 +266,8 @@ wait	1000
 ＠美雨,B00186
 「そうして頂けると助かります。すみません」
 
-
 @chara_clear
 wait	1000
-
 
 @karin
 
@@ -356,7 +343,6 @@ wait	1000
 @bgm08
 #■EVCG（夏祭りCG）
 @bg_matsuri
-
 
 という事で、一行は勇ましくかしましく、屋台の群の中へ飛び込むのだった。
 
@@ -455,7 +441,6 @@ event	"event\cutin_06-02.png"
 相変わらず……ざくろはマイペースって言うか、行動が不明だ。
 
 event	"event\cutin_06-03.png"
-
 
 ＠ゆず,F00049
 「樹先生、どうぞ。リンゴ飴です」
@@ -597,10 +582,8 @@ event	"event\cutin_06-05.png"
 
 とりあえずは、まぁ楽しいのでＯＫとしておこう。
 
-
 #一拍
 @bg_black
-
 
 #■（好感度分岐。３人とも好感度が足りないときは、共通へ）
 
@@ -611,7 +594,6 @@ if miryoku_chara_max<checkpoint2_miryoku then goto	matsuri_skip
 if miryoku_chara=0 then goto matsuri_mikan
 if miryoku_chara=1 then goto matsuri_ichigo
 if miryoku_chara=2 then goto matsuri_karin
-
 
 label	matsuri_mikan
 #■（みかん）
@@ -657,8 +639,6 @@ label	matsuri_mikan
 ただでさえ目立つ子達がこれだけ集団で動いてるんだから、それは人目につく。
 
 サービスを受けて引き止められるのも分かる気がした。
-
-
 
 ＠みかん,A00372
 「お兄ちゃん、しゃがんで、しゃがんでっ」
@@ -745,16 +725,13 @@ label	matsuri_mikan
 return
 #（スケジュール）
 
-
 #■（かりん）
 label	matsuri_karin
-
 
 #■BG（夜空）
 @bg_sky_n
 @karin_yukata
 @karin_middle
-
 
 その後も色々と夜店の中をうろつく。
 
@@ -843,8 +820,6 @@ label	matsuri_karin
 
 いきなりだったみかんのインパクトで薄れてしまったが、かりんの浴衣姿もよく似合っていた。
 
-
-
 #CH（かりん・表情・照れ）
 @karin_tere
 
@@ -866,7 +841,6 @@ label	matsuri_karin
 
 #CH（かりん立ち絵・一端消去）
 @karin_
-
 
 #SE82　外を歩き去る音
 @se82
@@ -907,22 +881,18 @@ label	matsuri_karin
 
 子供達の中で楽しそうに話すかりんを見ながら、小さく呟いた。
 
-
 @bg_black
 return
 
 #（スケジュール）
 
-
 #■（いちご）
 label	matsuri_ichigo
-
 
 #■BG（夜空）
 @bg_sky_n
 @ichigo_yukata
 @ichigo_middle
-
 
 色々と屋台を巡って、みんな思い思いにお祭りを楽しんでいた。
 
@@ -930,7 +900,6 @@ label	matsuri_ichigo
 
 #■BG（住宅街・夜）
 @bg_jyuutakugai_n
-
 
 #CH（いちご・浴衣立ち絵）
 @ichigo_ikari
@@ -1035,7 +1004,6 @@ label	matsuri_ichigo
 「ははは、そうかもな。ありがと、いちご」
 
 それを受け取ると、オレもいちごと並びながら、たこ焼きを食べ歩くのだった。
-
 
 @bg_black
 

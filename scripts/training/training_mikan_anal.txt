@@ -7,33 +7,45 @@ if t_mikan_anal_cnt=2 then gosub training_mikan_anal_03
 if t_mikan_anal_cnt>2 then gosub training_mikan_anal_04
 t_mikan_anal_cnt=t_mikan_anal_cnt+1
 
+window_close
+
+add_karada=10*t_mikan_anal_cnt
+add_miryoku=20*t_mikan_anal_cnt
+
+tairyoku=tairyoku-70*t_mikan_anal_cnt
+seishin=seishin-90*t_mikan_anal_cnt
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
 return
 
 # アナル01 ###################################################################
 label	training_mikan_anal_01
 #【00】
 #################ボンデージ部分ここから
-#???＠みかん,A03276
-#???「うぅん…、このお洋服、どうしてこんなにきついの…？　ねえお兄ちゃん」
 
-#???そういって少しぐずるみかんにボンデージを着せ、首輪を付け、仕上げに鎖で繋いだ。
+if t_mikan_bondage_flag=0 then goto training_mikan_anal_01_a
 
-#(I don't know why these last two lines didn't show up while I was playing the game. something about bondage.)
+＠みかん,A03276
+「うぅん…、このお洋服、どうしてこんなにきついの…？　ねえお兄ちゃん」
 
-#yes this script is different from the game I have. I'll add #??? before all the lines I don't see in-game
-
+label	training_mikan_anal_01_a
 #################ボンデージ部分ここまで
 
+layer_load_overlap	l_insert,"event\ev_mik_050\EV_MIK_050_soto_chinko.png"
+layer_position		l_insert,780,60
+layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
+
+#「……さて、じゃあ、今日は……お尻の穴を『これ』が入るように広げる」
 ＠Itsuki
-「……さて、じゃあ、今日は……お尻の穴を『これ』が入るように広げる」
 「...... So today I'm going to spread your butt so "this" can go in.」
 
+#「ええっ？　お兄ちゃん、う、うそでしょ？　……お尻の、穴に……？」
 ＠Mikan,A03277
-「ええっ？　お兄ちゃん、う、うそでしょ？　……お尻の、穴に……？」
 「What? Onii-chan, y-you're joking right? ...... My butt's, what......?」
 
-みかんが大きな声を上げる。
-Mikan raises her voice in alarm.
+#みかんが大きな声を上げる。
+　Mikan raises her voice in alarm.
 
 ＠Mikan,A03278
 「だって……だって無理だよ……っ、　お兄ちゃんの……その、おちん……ちんをお尻に挿れるなんてぇっ。　入るわけないよぉっ」
@@ -47,8 +59,8 @@ Mikan raises her voice in alarm.
 「お尻に挿れる事もその一つさ。　そう言う趣味の人間もいる……、俺達はその要求に応えなきゃならない。　だからこれも必要な事なんだよ」
 「Going in the butt is one of those. There are people of such tastes out there......, we have to respond to our desires. That's why it's essential.」
 
+#「う、うん……、お兄ちゃんの言いたい事はわかったけど……。　けどみかんちょっと怖いよ……、だってそんな大きなもの入れた事ないもの……」
 ＠Mikan,A03279
-「う、うん……、お兄ちゃんの言いたい事はわかったけど……。　けどみかんちょっと怖いよ……、だってそんな大きなもの入れた事ないもの……」
 「う、うん......, I understand what Onii-chan is trying to say...... But Mikan's scared...... Such a big thing going in isn't going to happen......」
 
 ＠Itsuki
@@ -63,39 +75,46 @@ Mikan raises her voice in alarm.
 「……で、でも、……優しくしてね？　お兄ちゃん、お願い……」
 「...... B-but, ...... Take it easy alright? Please Onii-chan......」
 
-小首をかしげてみかんが言った。
-Slanting her head to the side looking doubtful Mikan said that.
+#小首をかしげてみかんが言った。
+　Slanting her head to the side looking doubtful Mikan said that.
 
 ＠Itsuki
 「ああ、わかった。　優しくするよ、みかん」
 「Ahh, got it. I'll take it easy, Mikan.」
 
-そう言ったオレはローションを手に、みかんのアヌスを広げるように慣らし始めた。
-Saying that lotion in my hand, I start accustoming Mikan's anus spreading it out.
+#そう言ったオレはローションを手に、みかんのアヌスを広げるように慣らし始めた。
+　Saying that lotion in my hand, I start accustoming Mikan's anus spreading it out.
 
-チュルッ、クチュ、チュ……。
-*churu, kuchu, chu......*
+#ここからバックグラウンド喘ぎ声（スロー）
+@SEH22
+@mikan_motion_normal1
 
+#チュルッ、クチュ、チュ……。
+　*churu, kuchu, chu......*
+
+#「んくぅ……ふぁあああ……っ。　んん……っ、お、お兄ちゃん……っ、みかんのお尻の穴……にぃ……っ、入ってくるぅ……っ、入ってくるよぉ……っ」
 ＠Mikan,A03282
-「んくぅ……ふぁあああ……っ。　んん……っ、お、お兄ちゃん……っ、みかんのお尻の穴……にぃ……っ、入ってくるぅ……っ、入ってくるよぉ……っ」
 「んくぅ……ふぁあああ……っ。　んん……っ, O-Onii-chan, the hole in Mikan's butt...... It's going in...... It's going in......」
 
 ＠Itsuki
 「どうした、みかん。　まだ指一本しか挿れてないのに、この位で音を上げてたら、お尻に挿れる事もできないぞ」
 「What's up, Mikan. I've still only put in one finger, but if you make so much noise I won't be able to do it.」
 
+#「あぁ……ん、そんなぁ……っ！　み、みかん、がんばるもん、がんばるからぁ……っ！」
 ＠Mikan,A03283
-「あぁ……ん、そんなぁ……っ！　み、みかん、がんばるもん、がんばるからぁ……っ！」
 「あぁ……ん, that's......! M-Mikan, will do her best, I'll do my best so......!」
 
+#「そうだな、その意気だ、みかん」
 ＠Itsuki
-「そうだな、その意気だ、みかん」
 「That's the spirit, Mikan.」
 
-【08】
+##【08】
 
-オレはみかんのアヌスに差し込んだ指を更に増やし、時間をかけゆっくりゆっくり慣らしていく。
-Livening up my finger which I inserted in Mikan's anus even more, spending time slowly, slowly it will accustom.
+@mikan_motion_normal1
+@SEH22
+
+#オレはみかんのアヌスに差し込んだ指を更に増やし、時間をかけゆっくりゆっくり慣らしていく。
+　Livening up my finger which I inserted in Mikan's anus even more, spending time slowly, slowly it will accustom.
 
 ＠Mikan,A03284
 「あふぅ……っ、うくぅ……っ！　み、みかん……っ、みかん、なんかじりじりするよう……、お尻の穴……、ヘンな感じ……するぅ……っ」
@@ -111,9 +130,9 @@ Livening up my finger which I inserted in Mikan's anus even more, spending time 
 「あぁん……っ、素質、……素質なんてぇ……っ。　ただヘンな感じがするだけだよぉ……、うぁああ……っ。　お兄ちゃん……っ、あぅんっ！」
 「あぁん……っ, Potential, ...... what potential...... You're just giving me a weird feeling......, うぁああ……っ. Onii-chan...... っ、あぅんっ！」
 
+#「そろそろ頃合いかな、挿れるぞ、みかん」
 ＠Itsuki
 #???「さて、指三本まで入ったが……、そろそろ頃合いかな、挿れるぞ、みかん」
-「そろそろ頃合いかな、挿れるぞ、みかん」
 「Soon it'll be a good time, I'll go in, Mikan.」
 
 #################ボンデージ部分ここから
@@ -125,66 +144,91 @@ Livening up my finger which I inserted in Mikan's anus even more, spending time 
 #???イヤと言ったところで、みかんの逃げ場はない。
 
 #################ボンデージ部分ここまで
+if t_mikan_bondage_flag=0 then goto training_mikan_anal_01_b
 
+＠みかん,A03286
+「そ、そんな……もう……挿れちゃうの……？」
+
+身じろぎするみかん。拘束している鎖が、みかんを制止するようにジャラッ！と鳴った。
+
+イヤと言ったところで、みかんの逃げ場はない。
+
+label	training_mikan_anal_01_b
+
+#################ボンデージ部分ここまで
+
+#「あうぅぅぅ……っ、うん……っ、わかった……みかんがんばる……がんばれるもん……」
 ＠Mikan,A03287
-「あうぅぅぅ……っ、うん……っ、わかった……みかんがんばる……がんばれるもん……」
 「あうぅぅぅ……っ、Yeah...... Got it...... Mikan will do her best...... Because I can......」
 
-オレは己の肉棒を取り出しみかんのアヌスへあてがった。
-Taking my penis out I fit it to Mikan's anus.
+#オレは己の肉棒を取り出しみかんのアヌスへあてがった。
+　Taking my penis out I fit it to Mikan's anus.
 
-そしてゆっくり、しかし確実に腰を進めていく……。
-And slowly but surely my hips go forward......
+#そしてゆっくり、しかし確実に腰を進めていく……。
+　And slowly but surely my hips go forward......
 
-クチュ……ジュムッ……。
-*kuchu*...... *jumu*......
+layer_load_overlap	l_insert,"event\ev_mik_050\ev_mik_050_anal01.png"
+layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
+@mikan_motion_pain1
+voice_bg	"A90011"
 
+screen_flash	500
+@SEH22
+
+#クチュ……ジュムッ……。
+　*kuchu*...... *jumu*......
+
+#「うくぅ……っ、あくぅ……っ！　ふ……、ふぁぁああっ！　い、痛い……っ！　痛い、痛いよ……！」
 ＠Mikan,A03288
-「うくぅ……っ、あくぅ……っ！　ふ……、ふぁぁああっ！　い、痛い……っ！　痛い、痛いよ……！」
 「うくぅ……っ、あくぅ……っ！　ふ……、ふぁぁああっ！ I-It hurts......! It hurts, it hurts......!」
 
-びくん、びくんと震えるみかんが叫ぶ。
-Flinching and shaking, *bikun, bikun*, Mikan cries out
+#びくん、びくんと震えるみかんが叫ぶ。
+　Flinching and shaking, *bikun, bikun*, Mikan cries out
 
+#「大丈夫か、みかん。　まだ、少ししか入っていないが……、やっぱり痛いか」
 ＠Itsuki
-「大丈夫か、みかん。　まだ、少ししか入っていないが……、やっぱり痛いか」
 「Are you okay, Mikan? So far it's only going in a little......, does it still hurt though?」
+
+@mikan_motion_pain1
 
 ＠Mikan,A03289
 「ふぇぇぇ……っ！　痛いよぉ……っ！　お兄ちゃん、無理だよぉ……っ！　お願い……、抜いてぇ……っ！　お願いぃ……っ！」
 「ふぇぇぇ……っ！ It hurts......! Onii-chan, it's too much......! Please......, take it out......! Please......!」
 
+#「そうか……、今抜くからな、みかん」
 ＠Itsuki
-「そうか……、今抜くからな、みかん」
 「Is that so......, I'll take it out now, Mikan.」
 
-オレはみかんの中から肉棒を引き出す。
-I pull out my penis from inside Mikan.
+layer_fadeout	l_insert
+voice_bg_stop
+@SEH06
+@mikan_motion_pain1
 
-出血はしていないようだが、みかんのアヌスは痛みでかたく閉じてしまっている。
-I didn't cause bleeding, but Mikan's anus is closing tightly with pain.
+#オレはみかんの中から肉棒を引き出す。
+　I pull out my penis from inside Mikan.
 
+#出血はしていないようだが、みかんのアヌスは痛みでかたく閉じてしまっている。
+　I didn't cause bleeding, but Mikan's anus is closing tightly with pain.
+
+#「痛かったよう……、ひどい……、お兄ちゃんひどすぎるよぉ……っ！」
 ＠Mikan,A03290
-「痛かったよう……、ひどい……、お兄ちゃんひどすぎるよぉ……っ！」
 「It hurt......, it's awful....., Onii-chan is too cruel......!」
 
+#「ごめんなみかん、なるべく痛くないようにしたつもりだったんだが……」
 ＠Itsuki
-「ごめんなみかん、なるべく痛くないようにしたつもりだったんだが……」
 「Sorry Mikan, my intent was for it to hurt as little as possible......」
 
+#「ひっく……、うっく……っ、わかってる、わかってるけど……、でも痛かったのぉ……っ」
 ＠Mikan,A03291
-「ひっく……、うっく……っ、わかってる、わかってるけど……、でも痛かったのぉ……っ」
 「ひっく……、うっく……っ, I understand, I know......, but it hurt......」
 
-＃■BG　（ブラックアウト）　
+#■BG　（ブラックアウト）　
 return
-
-
 
 # アナル02 ###################################################################
 label	training_mikan_anal_02
 #二回目
-【00】
+#【00】
 ＠樹
 「じゃあ、みかん。　お尻の穴に挿れるの、またするぞ」
 
@@ -205,7 +249,8 @@ label	training_mikan_anal_02
 ＠みかん,A03294
 「う、うん……、ちょっと気が進まないけど……、お兄ちゃんがそんなに言ってくれるなら……、みかんがんばってみるね」
 
-【08】
+@SEH22
+#【08】
 ＠樹
 「よしお尻の穴を慣らすのはこの位でいいだろう……、どうだ、みかん、いけそうか？」
 
@@ -220,12 +265,20 @@ label	training_mikan_anal_02
 
 オレはみかんのアヌスに肉棒を押しつけた……。
 
+layer_load_overlap	l_insert,"event\ev_mik_050\ev_mik_050_anal01.png"
+layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
+@mikan_motion_pain1
+voice_bg	"A90011"
+screen_flash	500
+@SEH22
 ニュル……ニュヂュヂュッ……。
 
 前回よりも少なからずみかんのアヌスは、あまり抵抗感を感じさせずにオレを呑み込んでいく。
 
 ＠樹
 「……とはいうものの……っ、やはりきついな……！　どうだ、みかん、痛むか？」
+
+@mikan_motion_normal1
 
 ＠みかん,A03297
 「ふくぅぅぅぅっ、ああぁぁぁぁぁんっ！　い、痛い、けどぉ……、ガマンできない程じゃないよぉ……っ。　でも、でも、やっぱり痛いよぉ……っ、く、うぅんっ！！」
@@ -237,6 +290,10 @@ label	training_mikan_anal_02
 「え、ええええっ、う、動くの！？　ま、まって、お兄ちゃんちょっとまって……あぁあああっ！」
 
 ヂュッ、ヂュヂュッ、ニヂュッ、グリュッ……。
+
+@mikan_motion_insert1
+@seh23
+voice_bg	"A90012"
 
 オレはゆっくりストロークを開始した。
 
@@ -258,6 +315,8 @@ label	training_mikan_anal_02
 ＠樹
 （これはいけるかもな……）
 
+se 1,"sound\se\SEH24_ピストン普通.wav",play_loop
+
 オレは少し力を込めながら、少しずつストロークを早めていく。
 
 ＠みかん,A03302
@@ -268,7 +327,7 @@ label	training_mikan_anal_02
 ＠みかん,A03303
 「あくぅ……っ、うく……っ！　そ、そんなに激しく動かないでぇっ！　あぁん、いやぁっ、ま、まだ痛いよぉ……っ、まだ痛いのにィ……っ」
 
-【11】
+#【11】
 
 ヂュブッ、ジュッ、ジュブゥッ、ジュプッ、チュジュブッ！
 
@@ -297,12 +356,42 @@ label	training_mikan_anal_02
 
 #//フラッシュ
 
+#バックグラウンドボイスここまで
+se_stop	1
+se_stop	2
+@SEH08
+@effect_iku
+@mikan_motion_pain1
+#//フラッシュ
+@effect_iku
+layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_soto_chinko.png"
+layer_position		l_insert+1,780,60
+layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
+
+layer_load 		l_insert,"event\ev_mik_050\ev_mik_050_insert01_soto01.png"
+layer_position_set 	l_insert,-64,-48
+@mikan_motion_pain1
+
+passspeed=100
+@set_motion_speed
+voice_bg_stop
+
 ドビュッ！　ビュクッ！　ドクドクン！！　ドクン！
 
 オレはみかんのアヌスから達する瞬間に肉棒を抜いていた。
 
 ＠みかん,A03307
 「んくぅんっ！？　あっ、ふ、あああああああっ！！」
+
+screen_flash	2000
+layer_release		l_insert
+layer_load 		l_leg+1,"event\ev_mik_050\ev_mik_050_insert01_soto02l.png"
+layer_reference_set	l_leg+1,l_leg		# 頭のレイヤーに連結
+layer_load 		l_body+1,"event\ev_mik_050\ev_mik_050_insert01_soto02b.png"
+layer_reference_set	l_body+1,l_body		# 頭のレイヤーに連結
+layer_load 		l_hair_front+1,"event\ev_mik_050\ev_mik_050_insert01_soto02h.png"
+layer_reference_set	l_hair_front+1,l_head		# 頭のレイヤーに連結
+layer_release		l_insert+1
 
 ＠みかん,A03308
 「あぁあああ……っ！　熱い……っ！　お兄ちゃんのセイエキ……っ！　みかんにかかるぅ！　熱いよぉぉっ！」
@@ -313,11 +402,16 @@ label	training_mikan_anal_02
 「はぁ……はぁ……っ、みかん、みかん……っ」
 
 #################ボンデージ部分ここから
+if t_mikan_bondage_flag=0 then goto training_mikan_anal_02_a
+
 ＠みかん,A03310
 「はぁ……はぁ……っ、痛かったよ……、みかん痛かったよぉ……！」
 
+@SEH07
+
 がくりと力を失った体が、ボンデージを軋ませ、鎖を鳴らす。
 
+label	training_mikan_anal_02_a
 #################ボンデージ部分ここまで
 
 ＠樹
@@ -334,11 +428,8 @@ label	training_mikan_anal_02
 
 みかんはぎこちない笑みを浮かべ、その体を撫でてオレはなにもない空を仰いだ。
 
-＃■BG　（ブラックアウト）　
+#■BG　（ブラックアウト）　
 return
-
-
-
 
 # アナル03 ###################################################################
 label	training_mikan_anal_03
@@ -346,7 +437,7 @@ label	training_mikan_anal_03
 #【00】
 #################ボンデージ部分ここから
 
-ボンデージを身にまとい、鎖につながれたみかんが、きしきしとその革を軋ませながら尋ねてきた。
+#ボンデージを身にまとい、鎖につながれたみかんが、きしきしとその革を軋ませながら尋ねてきた。
 
 #################ボンデージ部分ここまで
 
@@ -376,7 +467,19 @@ label	training_mikan_anal_03
 ＠みかん,A03317
 「うん、みかん、やってみたいな、お兄ちゃん」
 
-【08】
+＠樹
+「よし、じゃあ、ケツ穴を慣らすぞ……お尻をあげて」
+
+@SEH22
+オレはいつものようにアヌスにローションを塗りたくり、指で慣らし始めた。
+
+#ここからバックグラウンド喘ぎ声（スロー）
+se 2,"sound\se\SEH27_手マン遅い.wav",play_loop
+排泄する為のその器官は、もうすっかり異物を受け入れることに抵抗がなく、オレの指を誘い込むように蠢く。
+
+@mikan_motion_normal1
+
+#【08】
 ＠みかん,A03318
 「はぁ……っ、ああ……っ、あうぅぅぅう……っ」
 
@@ -387,6 +490,8 @@ label	training_mikan_anal_03
 「いやぁんっ、ち、ちがうよぉ……っ！　お、お兄ちゃんがみかんのお尻の穴えっちに触るからだよぉ……っ！」
 
 首を振ってみかんは反論する。
+
+se_stop	2
 
 ＠樹
 「お尻の穴が口を開けてるぞ、みかん。　挿れて欲しいって言ってるみたいだな」
@@ -427,7 +532,15 @@ label	training_mikan_anal_03
 ＠樹
 「じゃあ、挿れてやる……。　覚悟しろよ、みかん」
 
+layer_load_overlap	l_insert,"event\ev_mik_050\ev_mik_050_anal01.png"
+layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
+@mikan_motion_pain1
+voice_bg	"A90011"
+@SEH22
+screen_flash	500
 ツプッ…………ヂュッ、ジュブヂュゥッ！！
+
+screen_flash	500
 
 ＠みかん,A03326
 「ひぁ……っ！　あぁ……、ひぁああああああっ！」
@@ -441,6 +554,13 @@ label	training_mikan_anal_03
 
 ぐにぐにとみかんのナカがうねる。　まるでアヌス全体で、オレの肉棒の形をとらえようとしているかのようだ。
 
+ヂュブブッ！ジュプッ、ヂュブルッ！チュジュブッ！チュッ、ジュブヂュルゥッ！
+
+@mikan_motion_insert1
+@seh23
+voice_bg	"A90012"
+
+#	se 2,"sound\se\SEH24_ピストン普通.wav",play_loop
 ヂュブブッ！ジュプッ、ヂュブルッ！チュジュブッ！チュッ、ジュブヂュルゥッ！
 
 ＠みかん,A03328
@@ -458,6 +578,8 @@ label	training_mikan_anal_03
 「はぁぅ……っ、う……うん……、もっと気持ちイイのが集まれば……イけそうな……気がするぅっ……　ふぁああああ……んっ！」
 
 相づちを打ったオレは、ストロークを繰り返していく。
+
+se 2,"sound\se\SEH25_ピストン速い.wav",play_loop
 
 ＠みかん,A03331
 「うくぅううっ！　ああぁん……っ！　お、お兄ちゃん……っ！　そんなに激しく……かきまわさないでぇ……っ！　ああ…あああ…っ、おちんちんが擦れて……ああっ」
@@ -485,7 +607,10 @@ label	training_mikan_anal_03
 ジュッ、ニュグヂュッ！ジュブルッ！ジュプッ、ヂュッ！ジュムゥッ、ジュッ、ジュプルゥッ！
 
 ####ここからボンデージ部分
+if t_mikan_bondage_flag=0 then goto training_mikan_anal_03_a
 鎖、皮の軋む音。
+
+label	training_mikan_anal_03_a
 ####ここまでボンデージ部分
 肉の打ち付け合う音が響く。
 
@@ -495,21 +620,36 @@ label	training_mikan_anal_03
 ＠みかん,A03336
 「ひぁぁぁ、ぁあぁぁあ！　アアアアアアアッ！」
 
-みかんの体が絶頂に反り返る！
+みかんの体が絶頂に反り返り、絶頂に収縮する筋肉は、そのままオレの射精を促そうかというような、肉のうねりに変わっていく。
 
-絶頂に収縮する筋肉は、そのままオレの射精を促そうかというような、肉のうねりに変わっていく。
-
-【11】
+#【11】
 ＠樹
 「うぉ……っ！　うぐ……っ！」
 
 #//フラッシュ
+se_stop	1
+se_stop	2
+@SEH08
+screen_flash	2000
+layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_anal01_naka01.png"
+layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
+@mikan_motion_pain1
+
+passspeed=100
+@set_motion_speed
+voice_bg_stop
 
 ビュクッ！　ドクドクン！　ドクッ！　ドブッ！
 
 みかんのアヌスの中に、オレは射精していた。
 
 アヌスからあふれ出した精液がみかんを濡らす。
+
+screen_flash	2000
+layer_release	l_insert+1
+layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_anal01_naka03.png"
+layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
+voice_bg	"A04246"
 
 ＠みかん,A03337
 「ああ……、はぁ……はぁ……っ、お兄ちゃんのセイエキが……みかんのお尻の中に……いっぱい……」
@@ -526,6 +666,8 @@ label	training_mikan_anal_03
 ＠樹
 「そうか、よかったな、みかん」
 
+voice_bg	"A04244"
+
 ＠みかん,A03340
 「お兄ちゃんは……？　お兄ちゃんはどうだった……？　みかんで気持ちよくなれた……？」
 
@@ -535,9 +677,8 @@ label	training_mikan_anal_03
 ＠みかん,A03341
 「そっか……、エヘヘ……。みかん、お尻でお兄ちゃんといっしょに気持ちよくなれたんだね……。よかった……」
 
-＃■BG　（ブラックアウト）
+#■BG　（ブラックアウト）
 return
-
 
 # アナル04 ###################################################################
 label	training_mikan_anal_04
@@ -545,6 +686,9 @@ label	training_mikan_anal_04
 
 #【00】
 #####################ここからボンデージ部分
+if t_mikan_bondage_flag=0 then goto training_mikan_anal_04_a
+@SEH07
+
 ＠みかん,A03342
 「ふぅぅぅ…っ、ねえ、お兄ちゃん。　このボンデージね、最初の頃はすごいきつかったんだけど、最近はそんなにきつく感じなくなってきたんだ……」
 
@@ -553,10 +697,17 @@ label	training_mikan_anal_04
 
 ＠みかん,A03343
 「もうっ………お兄ちゃん……　みかん、そんないやらしい子じゃないよぉ……」
+
 #####################ここまでボンデージ部分
+label	training_mikan_anal_04_a
 
 ＠樹
-「さて……と、みかんもだいぶ上手にお尻でイけるようになってきたなしな。　今日はどうする、みかん。　またお尻に挿れるの、するか？」
+「さて……と、みかんもだいぶ上手にお尻でイけるようになってきたしな」
+
+みかんは少し顔を赤らめて俯く。ここまで調教が進んでいるとはいえ、まだ恥ずかしさは残っているのだろう。
+
+＠樹
+「今日はどうする、みかん……またお尻に挿れるの、するか？」
 
 ＠みかん,A03344
 「お兄ちゃん、……お、お尻に挿れるんだね……？　みかん、ちょっとどきどきしてきちゃったよ……」
@@ -569,6 +720,14 @@ label	training_mikan_anal_04
 ＠みかん,A03345
 「うん……だからね、みかんすごく楽しみなんだ、楽しみでどきどきしちゃうの……っ」
 
+……素直で幼いみかんにはこの言葉責めは効かなかったらしい。
+
+すんなりと『自分はいやらしいです』という内容の返事が返ってきた。
+
+みかん自身はそんな言葉を口にしたことに気づいていないだろうが。
+
+『オレはみかんの身体を調教で変えている』……そんな喜びと罪悪感が混ざり合った実感が、胸の奥でじわりと広がった。
+
 ＠樹
 「そりゃよかった。　みかんのご期待に添えるように、オレもがんばらなくちゃな」
 
@@ -577,8 +736,13 @@ label	training_mikan_anal_04
 
 そう言ってみかんはにっこりとオレに笑って見せた。
 
-【08】
+＠樹
+「じゃ、始めるぞ」
 
+@SEH22
+screen_flash	500
+se 2,"sound\se\SEH27_手マン遅い.wav",play_loop
+@mikan_motion_normal1
 チュプッ、チュ、チュッ……。
 
 ＠みかん,A03347
@@ -598,8 +762,11 @@ label	training_mikan_anal_04
 
 オレはもう一方の手でその尻を撫でる。
 
+se_stop	2
+@mikan_motion_normal1
+
 ＠樹
-「冗談だよ……、ちゃんと入れてやるさ……。　さあ、今日はどんな風に乱れてくれるのかな、みかんは」
+「冗談だよ、ちゃんと入れてやる。さあ、今日はどんな風に乱れてくれるのかな、みかんは」
 
 ＠みかん,A03349
 「はう……っ、あうぅぅ……っ。　あ……、あん……っ、も、もう我慢できないよぉ……っ！　挿れて、くださいっ……！　お兄ちゃんのおちんちん、みかんのお尻の穴にいれて欲しいよぉ……」
@@ -615,21 +782,36 @@ label	training_mikan_anal_04
 ＠樹
 「ほんとにえっちな子になったなぁ、みかん」
 
+@SEH22
+screen_flash	500
+layer_load_overlap	l_insert,"event\ev_mik_050\ev_mik_050_anal01.png"
+layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
+@mikan_motion_pain1
+voice_bg	"A90011"
 ジュプッ、……ニュヂュヂュッ！
 
 オレは肉棒をみかんのアヌスに突き入れた。
 
 ＠みかん,A03351
-「ひゃうぅぅぅぅううっ！　入る……っ！　入ってくるぅぅぅぅっ！　お兄ちゃんのおちんちんが、みかんのナカに入ってくるよぉぉぉっ！　はぁあんっ！」
+「ひゃうぅぅううっ！　入る……っ！　入ってくるぅぅっ！　お兄ちゃんのおちんちんが、みかんのナカに入ってくるよぉっ！　はぁあんっ！」
+
+@mikan_motion_insert1
+@seh23
+voice_bg	"A90012"
+
+#バックグラウンド喘ぎ声（ミドル）
+@SEH23	#ピストン遅い
 
 ずぶずぶと腰を進めると、みかんの声が一段跳ね上がる。
 
+@mikan_motion_pain1
 ＠みかん,A03352
 「あぁう…っ、あう！　お兄ちゃんのおちんちんがあたってくるぅっ。　みかんのお尻、お兄ちゃんのおちんちんでいっぱいだようっ！　あっ、ああっ！」
 
 ＠樹
-「そうか、気持ちイイか、みかん」
+「そうか、気持ちいいか、みかん」
 
+@mikan_motion_insert1
 ＠みかん,A03353
 「気持ちイイ……っ、気持ちイイよぉ……っ！　もっと、もっとちょうだい、お兄ちゃん……っ！　みかんをお兄ちゃんでいっぱいにしてぇっ！」
 
@@ -638,13 +820,16 @@ label	training_mikan_anal_04
 ジュクッ、ジュブルッ！ニュグッ、ジュプッ、ヂュムッ！ジュチッ、ジュッ、ジュゥッ！
 
 ＠みかん,A03354
-「お尻……っ、お尻の穴が熱いぃぃっ！　お兄ちゃんのおちんちんで、みかんのお尻がどんどん熱くなるよぉ……っ、ああぁ……っ。　熱い……とけちゃう……、みかんとけちゃうよぉぉぉ……！　あぁう……っ！」
+「お尻……お尻の穴が熱ぃっ！お兄ちゃんのおちんちんで、みかんのお尻がどんどん熱くなるよぉっ、熱い、とけちゃう、みかんとけちゃうよぉ！あぁうっ！」
 
 ＠みかん,A03355
-「んくぅ……っ、あ、あはぁ……っ！　気持ちイイのが高まってぇ……っ、みかん……イきそう……っ、イっちゃいそう……っ！　お兄ちゃん……っ、もっと！　もっとぉっ！」
+「んくぅ……っ、あ、あはぁ……っ！気持ちイイのが高まってぇ……っ、みかん……イきそう……っ、イっちゃいそうっ！お兄ちゃんっ、もっと！もっとぉっ！」
 
 みかんは快楽に潤んだ瞳を虚空に向けて、しきりにもっと、もっとと叫んだ。
 
+@SEH24	#ピストン普通
+passspeed=200
+@set_motion_speed
 オレはみかんの望み通り、更に激しくストロークを繰り返す。
 
 プヂュルッ、チュルッ！ニュグッ、ジュチッ、ジュプッ、ヂュムッ！ニヂュジュッ！ジュプルルゥッ！
@@ -652,29 +837,50 @@ label	training_mikan_anal_04
 ＠みかん,A03356
 「ひぎぃ……っ、いぁあああああっ！　イくぅ……っ！　イっちゃう……っ！　みかんイっちゃうよぉぉぉぉっ、ふぁああ！　ぁぁああああんっ！」
 
+se_stop	1
+screen_flash	500
 ＠みかん,A03357
 「くぁああああっ！　あああ、ぁぁああああ……っ！！！」
 
 びくん、びくんとみかんの体が絶頂に痙攣する！
 
-【11】
-ぎゅうっとみかんの中がオレの肉棒を搾りあげ、オレはつま先から脳天にまで響くような射精感に襲われた！
+#【11】
+ぎゅうっとみかんの中がオレの肉棒を搾りあげ、オレはつま先から脳天にまで響くような射精感に襲われた。
 
 ＠樹
 「うぐ……っ、くぅっ！　出るぞ、みかんっ！」
 
-#//フラッシュ
+@SEH09	#射精音
+screen_flash	2000
+layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_anal01_naka01.png"
+layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
+@mikan_motion_pain1
+
+passspeed=100
+@set_motion_speed
+voice_bg_stop
+se_stop 0
+se_stop 1
+se_stop 2
 
 ドク！　ドブブ！　ビュクンッ！　ビュククン！
 
 みかんの体内に収まり切れず、オレの精液が溢れて飛び散る。
 
 ＠みかん,A03358
-「あふ……っ、あふぅ……っ！　熱い……っ！　お兄ちゃんのセイエキ……熱いよぉぉ……っ！」
+「あふ……っ、あふぅ……っ！熱い……っ！お兄ちゃんのセイエキ……熱いよぉぉ……っ！」
+
+screen_flash	2000
+layer_release	l_insert+1
+layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_anal01_naka03.png"
+layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
+voice_bg	"A04246"
 
 みかんの尻や体にオレの飛び散った精液がべっとりとかかっている。
 
-それをひとすくい、みかんは手に取ると、うっとりと目を細めた。
+#それをひとすくい、みかんは手に取ると、うっとりと目を細めた。
+
+voice_bg	"A04244"
 
 ＠みかん,A03359
 「お兄ちゃん……お兄ちゃんのセイエキ……、みかんのお尻、気持ちよかった……？　ねえ、お兄ちゃん……」
@@ -688,7 +894,7 @@ label	training_mikan_anal_04
 ＠樹
 「そうだな、オレも気持ちよかったよ、みかん……これで、立派な尻穴奴隷だな」
 
-＃■BG　（ブラックアウト）
+#■BG　（ブラックアウト）
 
 #----------------------
 #ここまで

@@ -8,19 +8,15 @@ bgm_stop
 #発生期間：いちごの処女喪失時点～８月末まで
 #--------------------------------------------------
 
-
 #■BG（商店街）
 @bgm12			#BGM 12 : メインテーマ
 @bg_syoutengai		# 商店街
 
-
 商店街まで、いちごと一緒に買い物に出かけていた。
-
 
 @ichigo_middle		# 中間
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
-
 
 ＠いちご,O00786
 「えへへー♪　ありがと、パパ！」
@@ -28,18 +24,14 @@ bgm_stop
 ＠樹
 「いいけど、他の子には内緒だぞ？」
 
-
 @ichigo_warai		#笑
-
 
 ＠いちご,O00787
 「うん！」
 
 買ってあげたお菓子を手にして、いちごは喜色満面の笑みを浮かべている。
 
-
 @ichigo_takurami	#企み
-
 
 ＠いちご,O00788
 「この『練乳いちご味』ね、期間限定だから今しか食べれないんだよ」
@@ -47,25 +39,19 @@ bgm_stop
 ＠樹
 「甘ったるそうな名前だな」
 
-
 @ichigo_yorokobi	#喜
-
 
 ＠いちご,O00789
 「パパも食べる？　はい！」
 
 いちごが差し出すスティック菓子を受け取り、口に含む。
 
-
 screen_vibration	500,16,16,16
-
 
 ＠樹
 「ぶふッ！！」
 
-
 @ichigo_warai		#笑
-
 
 ＠いちご,O00790
 「その味以外にも、ハチミツとシナモンシュガーがお菓子の中に入ってるの」
@@ -73,16 +59,12 @@ screen_vibration	500,16,16,16
 ＠樹
 「先に言えッ！　これは無理だ！」
 
-
 @ichigo_komaru		#困
-
 
 ＠いちご,O00791
 「えー、美味しいのに」
 
-
 @ichigo_
-
 
 ポリポリッ、カリカリカリ……
 
@@ -91,11 +73,9 @@ screen_vibration	500,16,16,16
 
 まぁ本人が満足してるんだから、オレがわざわざ水を差すこともない。
 
-
 @ichigo_middle		# 中間
 @ichigo_shifuku
 @ichigo			#普通
-
 
 ＠いちご,O00792
 「パパの用事はもう終わったの？」
@@ -103,9 +83,7 @@ screen_vibration	500,16,16,16
 ＠樹
 「雫さんに言われてた買い物だけだから。あとは帰るだけだ」
 
-
 @ichigo_yorokobi	#喜
-
 
 ＠いちご,O00793
 「それじゃ、一緒に遊んでから帰ろうよ！」
@@ -113,18 +91,14 @@ screen_vibration	500,16,16,16
 ＠樹
 「残念だけど、いちごは宿題をやってからな」
 
-
 #@ichigo_komaru		#困
 @ichigo_ase		#汗
-
 
 ＠いちご,O00794
 「もーっ、また宿題宿題って。ノリが悪いよぉパパ」
 
-
 bgm_stop
 @ichigo_
-
 
 いちごをなだめ、オレは用事も済んだ商店街を後にしようとした。
 
@@ -133,11 +107,9 @@ bgm_stop
 ＠樹
 「……？」
 
-
 #@ichigo_small
 #@ichigo_shifuku
 #@ichigo_yorokobi	#喜
-
 
 ＠いちご,O00795
 「ん？　何パパ？　やっぱり遊んで帰るのっ？」
@@ -145,29 +117,23 @@ bgm_stop
 ＠樹
 「そうじゃない、何か視線が……あっ」
 
-
 #CH（いちご父・一瞬立ち絵）
 @houkou_small
 @houkou_shifuku
 #@houkou			# 普通
 @houkou_kage		# 影
 
-
 一瞬、チラッとこちらを窺っているらしい人影を見つけた。
-
 
 @houkou_
 
-
 が、声をかける間もなく人並みに消えてしまう。
-
 
 @bgm03			#BGM 03 : いちごのテーマ
 #CH（いちご・企み）
 @ichigo_middle		# 中間
 @ichigo_shifuku
 @ichigo_takurami	#企み
-
 
 ＠いちご,O00796
 「それはきっと、商店街の誘惑だよ」
@@ -181,7 +147,6 @@ bgm_stop
 しかし今のは一体なんだったのか。
 
 そういえば、ちょっと前にも同じように視線を感じたことがあったな。
-
 
 @ichigo_yorokobi	#喜
 wait		500
@@ -199,17 +164,13 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O00798
 「『遊んでー、遊んでってよぉー』」
 
-
 #layer_movepass_init	l_ichigo,0	#演出初期化
-
 
 ＠樹
 「ダメだ、帰るぞ。何か嫌な感じもしたし」
-
 
 @ichigo_odoroki		#驚
 #///////////////////////////////////////////////////////
@@ -220,30 +181,20 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O00799
 「えっ？　わわっ、待ってよパパ」
 
-
 #layer_movepass_init	l_ichigo,0	#演出初期化
 
-
 念のため、オレはいちごの手を取って足早にその場を離れたのだった。
-
 
 #■BG（黒）
 bgm_stop
 @bg_black		# 黒
 wait		1000
 
-
 結局あの視線は、商店街で例の人影が消えてから、ついてくることは無かった。
-
 
 #（スケジュール）
 return
-
-
-
-
 

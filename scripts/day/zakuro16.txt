@@ -5,16 +5,13 @@ label	zakuro_16
 #発生時期：未定　ただし、時間は夜
 #--------------------------------------------------
 
-
 #■BG12 １階 食堂 時間差分【夜】 
 @bg_dining_n		# 食堂(夜)
 @bgm12			#BGM 12 : メインテーマ
 
-
 その日の夕食。
 
 メニューはハヤシライスだった。
-
 
 @ichigo_middle		# 中間
 @ichigo_shifuku
@@ -28,10 +25,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O03211
 「いっただっきまーす♪」
-
 
 @chara_clear		#保険
 wait		500
@@ -56,13 +51,11 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A03120
 「ハグハグハグ……あれ？　このハヤシライス、なんかいつもと味が違う」
 
 ＠樹
 「あ……ほんとだ、ちょっと酸っぱいか？」
-
 
 @chara_clear		#保険
 wait		500
@@ -77,10 +70,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O03212
 「まさか腐ってるの？　いちご、もう飲み込んじゃったよぉ！」
-
 
 @chara_clear		#保険
 wait		500
@@ -88,10 +79,8 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
-
 ＠かりん,P03533
 「なに言ってるのよ、これはビーフストロガノフ。酸っぱいのはサワークリームの味よ」
-
 
 @chara_clear		#保険
 wait		500
@@ -99,10 +88,8 @@ wait		500
 @ichigo_shifuku
 @ichigo_gimon		#コミカル疑問
 
-
 ＠いちご,O03213
 「びーふすとろがのふ？」
-
 
 @chara_clear		#保険
 wait		500
@@ -110,10 +97,8 @@ wait		500
 @suika_shifuku
 @suika_yorokobi		#喜
 
-
 ＠すいか,R01309
 「私、聞いたことはあったけど、食べるのは初めて」
-
 
 @chara_clear		#保険
 wait		500
@@ -121,10 +106,8 @@ wait		500
 @karin_shifuku
 @karin_niko		#にこ
 
-
 ＠かりん,P03534
 「ちゃんと作ってあるわね。デミグラスソースでお手軽に作ったんじゃなくて……うん、美味しいわ」
-
 
 @chara_clear		#保険
 wait		500
@@ -132,20 +115,17 @@ wait		500
 @mikan_shifuku
 @mikan_warai2		#笑2
 
-
 ＠みかん,A03121
 「これってご飯にバターの味もするんだね。美味しい、美味しい♪」
 
 ＠樹
 「美雨は本当に料理がうまいな。いけるよこれ」
 
-
 @chara_clear		#保険
 wait		500
 @miu_middle
 @miu_maid
 @miu_komaru		#開_困
-
 
 ＠美雨,B03275
 「あ、いえ……これは私じゃなくて」
@@ -158,13 +138,11 @@ wait		500
 
 美雨は曖昧な表情になって、チラリとざくろを見る。
 
-
 @chara_clear		#保険
 wait		500
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_iya		#嫌
-
 
 ＠ざくろ,Q01915
 「……………………」
@@ -178,19 +156,14 @@ wait		500
 ＠樹
 「どうした、ざくろ？　食べないのか？」
 
-
 @zakuro_metoji		#閉
-
 
 ＠ざくろ,Q01916
 「……食べる」
 
-
 @SE35			#ティーカップを置く音（カチャ）
 
-
 ざくろは言い、スプーンを手に取った。
-
 
 @chara_clear		#保険
 wait		500
@@ -198,10 +171,8 @@ wait		500
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-
 ＠いちご,O03214
 「はい、青ノリ」
-
 
 @chara_clear		#保険
 wait		500
@@ -209,12 +180,10 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-
 ＠ざくろ,Q01917
 「ありがと」
 
 いちごから青ノリの瓶を受け取るが、蓋を開けずにそのまま横に置いた。
-
 
 @chara_clear		#保険
 wait		500
@@ -222,10 +191,8 @@ wait		500
 @ichigo_shifuku
 @ichigo			#普通
 
-
 ＠いちご,O03215
 「あれ？　かけないの？」
-
 
 @chara_clear		#保険
 wait		500
@@ -233,10 +200,8 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-
 ＠ざくろ,Q01918
 「………いい」
-
 
 @chara_clear		#保険
 wait		500
@@ -244,26 +209,21 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
-
 ＠かりん,P03535
 「珍しいわね。ま、この味に青ノリは全然合わないしね。他の料理もそうだけど」
 
 ＠ざくろ,Q01919
 「……………………」
 
-
 @SE35			#ティーカップを置く音（カチャ）
 
-
 かりんが混ぜっ返したが、ざくろは何も言わずにスプーンで料理をすくい、ゆっくりと口に運んだ。
-
 
 @chara_clear		#保険
 wait		500
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
-
 
 ＠ざくろ,Q01920
 「…………あ」
@@ -272,28 +232,21 @@ wait		500
 
 美味しいものを食べたとき特有のふわっと優しい顔になったが、
 
-
 @zakuro_iya		#嫌
-
 
 ＠ざくろ,Q01921
 「…………っ」
 
-
 @SE35			#ティーカップを置く音（カチャ）
-
 
 すぐにその顔を強ばらせて、カチャリとスプーンを放した。
 
-
 @zakuro_ikari		#怒
-
 
 ＠ざくろ,Q01922
 「美雨、あの人がこれを作ったの？」
 
 美雨を見上げ、固い表情で尋ねる。
-
 
 @chara_clear		#保険
 wait		500
@@ -301,10 +254,8 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
-
 ＠美雨,B03277
 「う、うん……今日ざくろちゃんが接待に行ってる時に来てね、それでお料理をさせてほしいって」
-
 
 @chara_clear		#保険
 wait		500
@@ -312,10 +263,8 @@ wait		500
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
-
 ＠ざくろ,Q01923
 「そう言われたからさせたの？　なんでそんなこと勝手に……」
-
 
 @chara_clear		#保険
 wait		500
@@ -323,17 +272,14 @@ wait		500
 @miu_maid
 @miu_kanashimi		#開_哀
 
-
 ＠美雨,B03278
 「ごめんなさい。私はどうかと思ったんだけど、どうしても作ってあげたいからって……それで」
-
 
 @chara_clear		#保険
 wait		500
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_ikari		#怒
-
 
 ＠ざくろ,Q01924
 「………………」
@@ -344,17 +290,14 @@ wait		500
 
 幼い頃に作ってもらった記憶か。
 
-
 @chara_clear		#保険
 wait		500
 @shizuku_middle		# 中間
 @shizuku_shifuku
 @shizuku		#普通
 
-
 ＠雫,S01664
 「あたしが許したんだよ。別に構わないだろうってね」
-
 
 @chara_clear		#保険
 wait		500
@@ -362,12 +305,10 @@ wait		500
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
-
 ＠ざくろ,Q01925
 「雫………」
 
 ざくろは雫さんを睨み付ける。
-
 
 @chara_clear		#保険
 wait		500
@@ -375,26 +316,20 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
-
 ＠雫,S01665
 「いいじゃないか、料理ぐらいつくらせてやったって」
 
-
 @shizuku		#普通
-
 
 ＠雫,S01666
 「あんたの好物だってね。なんか言ってたよ、梅干しを入れるのが隠し味とかなんとか」
 
-
 @shizuku_yorokobi	#喜
-
 
 ＠雫,S01667
 「どこに入ってるんだか知らないけど、なかなか美味いじゃないか。あたしは気に入ったよ」
 
 雫さんは何でもないことのように言って、もう話は終わったとばかりに食事の続きを始めた。
-
 
 @chara_clear		#保険
 wait		500
@@ -402,12 +337,10 @@ wait		500
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
-
 ＠ざくろ,Q01926
 「……………………」
 
 ざくろは無言で、母親が作った料理を睨み付けている。
-
 
 @chara_clear		#保険
 wait		500
@@ -415,10 +348,8 @@ wait		500
 @suika_shifuku
 @suika			#普
 
-
 ＠すいか,R01310
 「ざくろちゃん……？」
-
 
 @chara_clear		#保険
 wait		500
@@ -426,10 +357,8 @@ wait		500
 @ichigo_shifuku
 @ichigo			#普通
 
-
 ＠いちご,O03216
 「食べないの？　美味しいよ」
-
 
 @chara_clear		#保険
 wait		500
@@ -437,10 +366,8 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-
 ＠かりん,P03536
 「どうしちゃったの？　あの人って誰よ」
-
 
 @chara_clear		#保険
 wait		500
@@ -448,14 +375,12 @@ wait		500
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
-
 ＠みかん,A03122
 「大丈夫、ざくろちゃん？」
 
 ただならぬざくろの気配に、他の子達も食事の手を止めてしまっていた。
 
 雫さんが鳴らす食器の音だけが、食堂に響く。
-
 
 @chara_clear		#保険
 wait		500
@@ -471,19 +396,14 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ざくろ,Q01927
 「…………はぁ」
 
-
 @zakuro_
-
 
 ざくろは大きく溜息を吐いて、肩を落とした。
 
-
 @SE35			#ティーカップを置く音（カチャ）
-
 
 そしてスプーンを持ち直すと、いつもの表情に戻ってそれを――母親の料理を食べ始めた。
 
@@ -497,17 +417,14 @@ layer_movepass_play	l_zakuro,0,play_once
 
 オレもまた、今の一件が何もなかったかのような顔をして、パクパクとそれを食べていく。
 
-
 @chara_clear		#保険
 wait		500
 @ichigo_middle		# 中間
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-
 ＠いちご,O03217
 「ま、いっか……食～べよっ♪」
-
 
 @chara_clear		#保険
 wait		500
@@ -515,18 +432,14 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-
 ＠かりん,P03537
 「何なのよ、まったく……」
 
-
 @karin_
-
 
 首をかしげつつ、他の子達も食事を再開した。
 
 ぎこちなくなっていた食卓も、すぐに普段の喧噪を取り戻していく。
-
 
 @chara_clear		#保険
 wait		500
@@ -555,10 +468,8 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A03123
 「はぐ……んっ……はぐはぐ……う～～ん、美味しい」
-
 
 @chara_clear		#保険
 wait		500
@@ -566,10 +477,8 @@ wait		500
 @suika_shifuku
 @suika_warai		#笑
 
-
 ＠すいか,R01311
 「うん、ほんとに美味しいね」
-
 
 @chara_clear		#保険
 wait		500
@@ -584,10 +493,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O03218
 「おかわり～～～！　それとパパ、マヨネーズちょうだい！！」
-
 
 @chara_clear		#保険
 wait		500
@@ -595,10 +502,8 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-
 ＠かりん,P03538
 「あんた、これにもかけるつもり？　今日くらいざくろを見習ったら？」
-
 
 @chara_clear		#保険
 wait		500
@@ -606,10 +511,8 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-
 ＠ざくろ,Q01929
 「別に見習わなくていい」
-
 
 @chara_clear		#保険
 wait		500
@@ -617,10 +520,8 @@ wait		500
 @karin_shifuku
 @karin_niko		#にこ
 
-
 ＠かりん,P03539
 「なんでよ、青ノリなしで食べてるじゃない？　普通に美味しいんじゃないの？」
-
 
 @chara_clear		#保険
 wait		500
@@ -628,10 +529,8 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-
 ＠ざくろ,Q01930
 「違う。こんな料理にかけたら、青ノリがもったいない」
-
 
 @chara_clear		#保険
 wait		500
@@ -639,20 +538,16 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
-
 ＠かりん,P03540
 「なに？　まずいの？」
 
 ＠ざくろ,Q01931
 「青ノリをかけるに値しないだけ……ぱくっ……はぐ……ぱくぱくっ」
 
-
 @karin_kanashimi	#哀
-
 
 ＠かりん,P03541
 「はぁ、相変わらずよく分からないわね。まあいいわ……美雨、おかわり」
-
 
 @chara_clear		#保険
 wait		500
@@ -667,17 +562,14 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A03124
 「みかんもーー。ざくろちゃんはおかわりしないの？」
-
 
 @chara_clear		#保険
 wait		500
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_iya		#嫌
-
 
 ＠ざくろ,Q01932
 「……………………」
@@ -689,16 +581,12 @@ wait		500
 
 ざくろはオレをチラリと見て、小さく溜息を吐き、
 
-
 @zakuro_akire		#呆
-
 
 ＠ざくろ,Q01933
 「言われないでも分かってる……おかわり」
 
-
 @zakuro_
-
 
 と、いつものように無表情で空皿を差し出した。
 
@@ -711,18 +599,12 @@ wait		500
 
 二杯目をパクパクと食べる姿を見ながら、オレはそんなことを考えていた。
 
-
 bgm_stop
 @bg_black
 wait		1000
-
 
 @zakuro_evup
 
 #ここまで
 return
-
-
-
-
 

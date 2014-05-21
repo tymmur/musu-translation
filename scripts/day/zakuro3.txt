@@ -5,11 +5,9 @@ label	zakuro_03
 #発生時期：未定
 #--------------------------------------------------
 
-
 #■BG（廊下・日中）
 @bg_rouka		# 廊下
 @bgm12			#BGM 12 : メインテーマ
-
 
 #またある一日のこと。
 #SCRIPT ADD KANJI
@@ -33,7 +31,6 @@ label	zakuro_03
 @zakuro			#普
 @bg_door		# ドア前
 
-
 #「あ、つっちー発見」
 ＠Zakuro,Q00523
 「Aah, I found Tsucchi.」
@@ -43,7 +40,6 @@ label	zakuro_03
 Ａs I am about to enter, Zakuro showed up from inside in instance.
 
 @zakuro_akire		#呆
-
 
 #「図書室に用事？」
 ＠Zakuro,Q00524
@@ -73,7 +69,6 @@ label	zakuro_03
 
 @zakuro_niko		#にこ
 
-
 #「面白そうなのみつけたから、ちょっと嬉しい」
 ＠Zakuro,Q00526
 「If I find something interesting, it makes me happy.」
@@ -86,9 +81,7 @@ label	zakuro_03
 ＠Itsuki
 「......No, thanks. I'm already stuffed with real sex life here.」
 
-
 @zakuro_metoji		#閉
-
 
 #「そう、残念。これならつっちーも受けの気分を味わえるのに」
 ＠Zakuro,Q00528
@@ -108,9 +101,7 @@ label	zakuro_03
 ＠Itsuki
 「I will never read it......」
 
-
 @zakuro			#普
-
 
 #「あと、日記書いてた」
 ＠Zakuro,Q00529
@@ -130,14 +121,11 @@ label	zakuro_03
 ＠Zakuro,Q00530
 「Well then, I'll go to my room and read this once more.」
 
-
 @zakuro_akire		#呆
-
 
 #「つっちーも一緒にくる？」
 ＠Zakuro,Q00531
 「Do Tsucchi want to come along too?」
-
 
 #--------------------------------------------------
 #■選択肢
@@ -149,17 +137,14 @@ if sel=0 then goto youzyo_zaku3_q01_a
 if sel=1 then goto youzyo_zaku3_q01_b
 #--------------------------------------------------
 
-
 #--------------------------------------------------
 #（１．選択時）
 #--------------------------------------------------
 label		youzyo_zaku3_q01_a
 
-
 @bg_black		# 黒
 wait		100
 @bg_rouka		# 廊下
-
 
 #「絶対イヤだッ、行きたくない！」
 ＠Itsuki
@@ -171,7 +156,6 @@ wait		100
 ＠Zakuro,Q00532
 「..........? Who're you talking to?」
 
-
 @bg_black		# 黒
 wait		100
 @zakuro_middle		# 中間
@@ -179,22 +163,17 @@ wait		100
 @zakuro			#普
 @bg_door		# ドア前
 
-
 #「……とりあえず、それは一人で楽しんでくれ。周りに迷惑かけないようにな」
 ＠Itsuki
 「......For the time being, Please enjoy that alone. I don't want to get in your reading.」
 
-
 @zakuro_metoji		#閉
-
 
 #「うん、残念……」
 ＠Zakuro,Q00533
 「Kay, it's unfortunate.....」
 
-
 @zakuro_akire		#呆
-
 
 #「部屋にさえ入れたら、後は無理やりアナルプレイに誘う自信があったのに」
 ＠Zakuro,Q00534
@@ -204,13 +183,11 @@ wait		100
 ＠Itsuki
 「Don't tell that now, that kind of thing......」
 
-
 #SE18　廊下を歩き去る音　※徐々に小さく
 window_close
 @zakuro_
 wait		1000
 @SE18			#廊下を歩き去る音
-
 
 #心持ち残念そうに本を抱え、Zakuroは部屋に戻っていく。
 #SCRIPT ADD KANJI
@@ -224,7 +201,6 @@ bgm_stop
 #■BG（黒）
 @bg_rouka		# 廊下
 
-
 #何か改めて卑猥本が眠る図書室に入る気も失せ、オレも部屋に引き返した。
 #SCRIPT ADD KANJI
 Ｉt seems checking some ero book sobers me up and I return to my room.
@@ -232,19 +208,13 @@ bgm_stop
 @bg_black
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 
 #--------------------------------------------------
 #（２．選択時）
 #--------------------------------------------------
 label		youzyo_zaku3_q01_b
-
 
 #「悪いけど、遠慮する。絶対何かありそうだ」
 ＠Itsuki
@@ -252,17 +222,13 @@ label		youzyo_zaku3_q01_b
 
 #Ummm can't think off any better, need rephrase
 
-
 @zakuro_iya		#嫌
-
 
 #「……鋭い」
 ＠Zakuro,Q00535
 「.......Sharp.」
 
-
 @zakuro_metoji		#閉
-
 
 #「分かった。アナルプレイしようと思ったけど、今日は諦める」
 ＠Zakuro,Q00536
@@ -272,21 +238,17 @@ label		youzyo_zaku3_q01_b
 ＠Itsuki
 「Aah.., please do so.」
 
-
 @zakuro			#普
-
 
 #「じゃ」
 ＠Zakuro,Q00537
 「Later.」
-
 
 #SE18　廊下を歩き去る音　※徐々に小さく
 window_close
 @zakuro_
 wait		1000
 @SE18			#廊下を歩き去る音
-
 
 #本を抱え、トコトコと廊下を歩いていく。
 #SCRIPT ADD KANJI
@@ -296,13 +258,11 @@ wait		1000
 ＠Itsuki
 「......As I thought if it's with Zakuro, it won't be just a simple reading.」
 
-
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 #■BG（黒）
 bgm_stop
 @bg_black		# 黒
 @SE06			#部屋のドア開く音（ガチャ）
-
 
 #妙な興味を振り切り、代わりに図書室へ入る。
 #SCRIPT ADD KANJI
@@ -310,7 +270,6 @@ bgm_stop
 
 #■BG（図書室）
 @bg_library		# 図書室
-
 
 #「日記書いてたって言ったな」
 ＠Itsuki
@@ -322,7 +281,6 @@ bgm_stop
 
 @bgm08
 #@bgmk12			#BGM K12 : 興味津々のテーマ
-
 
 #『Zakuroだらけvol.4』
 #SCRIPT ADD KANJI
@@ -341,18 +299,15 @@ bgm_stop
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
-
 #（１月７日、『Zakuroダラけ～』の日）
 #SCRIPT ADD KANJI
 　  (January 7th, 'Zakuro darake~' day)
 
 #下記は台本用表記。ゲーム内ではネームプレートを無くして二重カギカッコ扱い
 
-
 #『雫に言われて、新しい院長のつっちーにフェラチオをした』
 ＠　,Q00538
-  'I gave the new director, Tsucchi, a blow job because Shizuku told me to.'
-
+'I gave the new director, Tsucchi, a blow job because Shizuku told me to.'
 
 #「お……オレが出てきた。新しいな」
 ＠Itsuki
@@ -363,14 +318,13 @@ bgm_stop
 
 #『全然素人、あっという間に射精した腰抜け。でも濃さとサイズはよかったから、７９点』
 ＠　,Q00539
-  'He's a noob, after ejaculating it went limp. But for the thickness and the size , 79 point' (note: alternative translation in comments)
+'He's a noob, after ejaculating it went limp. But for the thickness and the size , 79 point' (note: alternative translation in comments)
 
 #or 
 #  'He's a complete amateur, it went limp just like that after ejaculating. But the thickness and the size I'll say it's 79 point'
 
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
-
 
 #「こ、腰抜け……」
 ＠Itsuki
@@ -397,17 +351,13 @@ bgm_stop
 ＠Itsuki
 「Haha.... I'm so immature...」
 
-
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
-
 wait		500
-
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
-
 
 ＠Itsuki
 「ぐふぁッ!?」
@@ -430,13 +380,11 @@ wait		500
 
 #No bgm sound of turning paper, so i assume just in one paper.
 
-
 #下記は台本用表記。ゲーム内ではネームプレートを無くして二重カギカッコ扱い
-
 
 #『つっちーのおちんちん。太さも硬さも一生懸命。後は我慢強さだけ覚えたら高得点かも』
 ＠　,Q00540
-  'Tsucchi's penis. It's hard, thick, and lively (?). After that his endurance might also get high score. (?)
+'Tsucchi's penis. It's hard, thick, and lively (?). After that his endurance might also get high score. (?)
 
 #「人の性器を批評するなよッ……」
 ＠Itsuki
@@ -456,7 +404,6 @@ wait		500
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
-
 #（２月２４日、『白血球ＶＳZakuroだらけ』の日）
 #SCRIPT ADD KANJI
 　  (February 24th, 'White Blood Cell Vs Zakuro darake' Day)
@@ -475,7 +422,7 @@ wait		500
 
 #『快感に素直に悶えるいちごはペットみたいで可愛い。気持ちよかったし、いちごとエッチするの好きになるかも』
 ＠　,Q00542
- 'Easy to worry Ichigo is very cute just like pet. I felt good, I might take a liking to have sex with Ichigo.
+'Easy to worry Ichigo is very cute just like pet. I felt good, I might take a liking to have sex with Ichigo.
 
 #「……そんなことしてたのか。気付かなかった」
 ＠Itsuki
@@ -485,17 +432,13 @@ wait		500
 ＠Itsuki
 「Well if its this two kid, there might be such an unexpected combination.....」
 
-
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
-
 wait		500
-
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
-
 
 #「ぎはッ！？」
 ＠Itsuki
@@ -529,10 +472,8 @@ wait		500
 ＠Itsuki
 「Let's see the others.... the others...」
 
-
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
-
 
 #（３月２日、『ワゴンセールに群がるZakuroだらけ』の日）
 #SCRIPT ADD KANJI
@@ -552,7 +493,6 @@ wait		500
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
-
 
 #（３月３日、『反乱軍はZakuroだらけ』の日）
 #SCRIPT ADD KANJI
@@ -576,7 +516,6 @@ wait		500
 
 bgm_stop
 
-
 #「……『あんな夢』か。何か含みある言い方だな」
 ＠Itsuki
 「....... 'That dream' ? It's like there a hidden message when she put it that way.」
@@ -591,16 +530,10 @@ bgm_stop
 
 @bg_black
 
-
 wait		1000
 
 @zakuro_evup
 
-
 #（スケジュール）
 return
-
-
-
-
 

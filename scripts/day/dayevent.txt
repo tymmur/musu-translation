@@ -269,7 +269,6 @@ if miryoku_chara=2 and karin_kenkou_count<2 then route_chara=3	#かりん
 
 sel=0
 
-
 #"みかんルートに入る","みかんルートに入らない"
 #"いちごルートに入る","いちごルートに入らない"
 #"かりんルートに入る","かりんルートに入らない"
@@ -277,14 +276,12 @@ if GLOBAL(100)=1 and route_chara=1 then select sel,"Enter Mikan's route", "Don't
 if GLOBAL(101)=1 and route_chara=2 then select sel,"Enter Ichigo's route","Don't enter Ichigo's route"
 if GLOBAL(102)=1 and route_chara=3 then select sel,"Enter Karin's route", "Don't enter Karin's route"
 
-
 if sel=1 then route_chara=0
 #if route_chara=0 then goto date_hikari
 if route_chara=1 then goto mikan_dateflag
 if route_chara=3 then goto karin_dateflg
 
 return
-
 
 label	date_hikari
 sel=0
@@ -296,7 +293,6 @@ if sel=1 then return
 route_chara=4
 
 label	date_check_skip
-
 
 return
 
@@ -311,22 +307,20 @@ label	day_debug
 
 gosub trpg	#1117 TRPG4
 
-
 #gosub	day_debug2
 goto	day_debug
-
 
 #label	day_debug2
 
 @chara_init
 
- @chara_init
+@chara_init
 gosub suika_01	#0120 すいか1
- @chara_init
+@chara_init
 gosub mikan_00	#0121 みかん処女喪失翌日
- @chara_init
+@chara_init
 gosub miu_01	#0127 美雨1
- @chara_init
+@chara_init
 gosub seiji_01	#0128 誠司1
 
 @chara_init
@@ -345,8 +339,6 @@ gosub seiji_03	#0218 誠司3
 gosub erocute_01	#0224 エロキュート1
 @chara_init
 gosub ichigo_e01	#0225 いちご1
-
-
 
 @chara_init
 gosub shizuku_01		#0302 雫1 (体験版終了)	平日
@@ -424,8 +416,6 @@ gosub zakuro_05	#0624 ざくろ5
 
 #7月
 
-
-
 @chara_init
 gosub tanabata			#0707 七夕
 @chara_init
@@ -470,7 +460,6 @@ gosub date				#0916 デート
 
 #label	day_debug2
 
-
 #ひかりルート---------------------------------------------------------------------------------------------------------
 @chara_init
 gosub hikari_01		#ひかりルートへの序章１
@@ -484,33 +473,33 @@ gosub hikari_04		#週末のアレ
 gosub hikari_05		#親密イベント１
 @chara_init
 gosub hikari_06		#親密イベント２
- @chara_init
+@chara_init
 gosub hikari_07		#もう一波乱
- @chara_init
+@chara_init
 gosub hikari_08		#親密イベント３
- @chara_init
+@chara_init
 gosub hikari_09		#親密イベント４
- @chara_init
+@chara_init
 gosub hikari_10		#かりんと仲直り？
- @chara_init
+@chara_init
 gosub hikari_11		#親密イベント５
- @chara_init
+@chara_init
 gosub hikari_12		#親密イベント６
 @chara_init
 gosub hikari_13		#親密イベント７
 @chara_init
 gosub hikari_14		#親密イベント８
- @chara_init
+@chara_init
 gosub hikari_20		#ひかりの両親のこと
- @chara_init
+@chara_init
 gosub hikari_21		#謎の調査書
- @chara_init
+@chara_init
 gosub hikari_22		#みかんに聞き込み
- @chara_init
+@chara_init
 gosub hikari_23		#かりんに聞き込み
- @chara_init
+@chara_init
 gosub hikari_24		#すいかに聞き込み
- @chara_init
+@chara_init
 gosub hikari_25		#ざくろの情報
 @chara_init
 gosub hikari_26		#ひかりと美雨と家族
@@ -520,22 +509,20 @@ gosub hikari_28		#夫婦の営み？
 gosub hikari_27_1	#ひかりとサンタクロース
 @chara_init
 gosub hikari_29		#美雨への指令
- @chara_init
+@chara_init
 gosub hikari_29a	#挙動不審な美雨
- @chara_init
+@chara_init
 gosub hikari_30		#美雨と再び
- @chara_init
+@chara_init
 gosub hikari_31		#本当は嬉しい美雨
- @chara_init
+@chara_init
 gosub hikari_33		#刺客の催促
- @chara_init
+@chara_init
 gosub hikari_27_3	#クリスマスイベント
- @chara_init
+@chara_init
 gosub hikari_34		#ひかり誘拐(調教無し)
- @chara_init
+@chara_init
 gosub hikari_35		#ひかりEND
-
-
 
 #label	day_debug2
 
@@ -558,11 +545,11 @@ gosub mikan_08	#かりん崩壊イベント
 gosub mikan_09	#デザートはいちご
 @chara_init
 gosub mikan_10	#みかんの気持ち
- @chara_init
+@chara_init
 gosub mikan_11	#みかんの結論
- @chara_init
+@chara_init
 gosub mikan_12	#みかんの別れ前日
- @chara_init
+@chara_init
 gosub mikan_13	#みかんの別れ
 @chara_init
 gosub mikan_14	#みかん捜索・涼海とるあ
@@ -572,40 +559,36 @@ gosub mikan_17	#みかん捜索汎用・ざくろ
 gosub mikan_18	#みかん捜索汎用・すいか
 @chara_init
 gosub mikan_19	#みかん捜索汎用・ゆず
- @chara_init
+@chara_init
 gosub mikan_20	#みかん捜索汎用・いちご
- @chara_init
+@chara_init
 gosub mikan_21	#雫の忠告
- @chara_init
+@chara_init
 gosub mikan_16	#美雨
- @chara_init
+@chara_init
 gosub mikan_23	#みかん発見イベント
- @chara_init
+@chara_init
 gosub mikan_24	#施設帰還イベント
-
-
 
 #いちごルート----------------------------------------------------------------------------------------------------------
 @chara_init
 gosub ichigo_01	#いちご1
- @chara_init
+@chara_init
 gosub ichigo_05				#いちご5
- @chara_init
+@chara_init
 gosub ichigo_06a				#いちご6
- @chara_init
+@chara_init
 gosub ichigo_07a				#いちご7a
- @chara_init
+@chara_init
 gosub ichigo_07b				#いちご7b
- @chara_init
+@chara_init
 gosub ichigo_08a				#いちご8a
- @chara_init
+@chara_init
 gosub ichigo_08b				#いちご8b
- @chara_init
+@chara_init
 gosub ichigo_08c				#いちご8c
- @chara_init
+@chara_init
 gosub ichigo_09b	#いつきBAD
-
-
 
 #かりんルート---------------------------------------------------------------------------------------------------------
 @chara_init
@@ -616,30 +599,29 @@ gosub karin_02	#かりん2
 gosub karin_03_1	#かりん3-1
 @chara_init
 gosub karin_03_2	#かりん3-2
- @chara_init
+@chara_init
 gosub karin_03_3	#かりん3-3
- @chara_init
+@chara_init
 gosub karin_03_4	#かりん3-4
- @chara_init
+@chara_init
 #gosub karin_03_6	#かりん3-6
 
 @chara_init
 gosub karin_05	#かりん5
- @chara_init
+@chara_init
 gosub karin_06	#かりん6
 @chara_init
 gosub karin_07	#かりん7-8
 @chara_init
 gosub karin_09	#かりん9
- @chara_init
+@chara_init
 gosub karin_10	#かりん10
- @chara_init
+@chara_init
 gosub karin_11	#かりん11
- @chara_init
+@chara_init
 gosub karin_12	#かりん12
 
 #9月
-
 
 label	day_debug2
 
@@ -649,49 +631,44 @@ gosub shukudai #0902 宿題
 gosub shigyou_02		#0903 始業式2	平日
 @chara_init
 #gosub suika_06	#0908 すいか6
- @chara_init
- @chara_init
+@chara_init
+@chara_init
 gosub zakuro_09	#0909 ざくろ9
 
-
- @chara_init
+@chara_init
 gosub yuzu_08	#0923 ゆず8
-
 
 #10月
 
- @chara_init
+@chara_init
 gosub suika_07	#1007 すいか7
- @chara_init
+@chara_init
 
-
-
- @chara_init
+@chara_init
 gosub suika_08	#1013 すいか8
- @chara_init
- @chara_init
+@chara_init
+@chara_init
 gosub zakuro_10	#1007 ざくろ10
-
 
 @chara_init
 gosub yuzu_09	#1020 ゆず9
 @chara_init
 gosub yuzu_10	#1021 ゆず10
- @chara_init
+@chara_init
 gosub zakuro_11	#1027 ざくろ11
- @chara_init
+@chara_init
 gosub zakuro_12	#1028 ざくろ12
 
 #11月
 
- @chara_init
+@chara_init
 gosub zakuro_13	#1111 ざくろ13
 @chara_init
 gosub suika_09	#1117 すいか9
- @chara_init
- @chara_init
+@chara_init
+@chara_init
 gosub zakuro_14	#1118 ざくろ14
- @chara_init
+@chara_init
 gosub zakuro_15	#1124 ざくろ15
 @chara_init
 gosub yuzu_11	#1125 ゆず11
@@ -700,25 +677,19 @@ gosub yuzu_11	#1125 ゆず11
 
 @chara_init
 gosub yuzu_12	#1202 ゆず12
- @chara_init
+@chara_init
 gosub zakuro_16	#1208 ざくろ16
- @chara_init
+@chara_init
 gosub zakuro_17	#1209 ざくろ17
 @chara_init
 gosub suika_10	#1215 すいか10
- @chara_init
+@chara_init
 gosub suika_11	#1216 すいか11
 
 @chara_init
 gosub item_ichigo_bansoukou
 
-
 dayevent_flag=0
 
-
-
 return
-
-
-
 

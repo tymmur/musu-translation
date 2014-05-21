@@ -8,7 +8,6 @@ bgm_stop
 #発生時期：１月１４日に強制発生
 #--------------------------------------------------
 
-
 #■BG（青空）
 #@bg_sky		# 空
 @bg_gate		# 孤児院前
@@ -18,12 +17,10 @@ wait		2000
 @bgm02			#BGM 02 : 朝のテーマ
 @bg_dining		# 食堂
 
-
 ＠樹
 「おはよう」
 
 朝。オレはいつもどおり身支度を整えて食堂に降りてきた。
-
 
 @hikari_middle		# 中間
 @hikari_shifuku
@@ -36,10 +33,8 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00557
 「お父しゃん、おはよー！」
-
 
 @chara_clear		#保険
 wait		500
@@ -54,10 +49,8 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ゆず,F00323
 「おはようございます、樹先生」
-
 
 @chara_clear		#保険
 wait		500
@@ -65,13 +58,11 @@ wait		500
 @ichigo_shifuku
 @ichigo_komaru		#困
 
-
 ＠いちご,O02215
 「おはよ～～……」
 
 ＠樹
 「どうした、いちごは元気が無いな」
-
 
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
@@ -84,12 +75,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O02216
 「お腹空いたんだよぉ～……」
 
 見ると、この時間にはもう用意されているはずの朝食が、今日は影も形も無かった。
-
 
 @chara_clear		#保険
 wait		500
@@ -97,20 +86,17 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-
 ＠ざくろ,Q01343
 「美雨がまだ起きてこないの」
 
 ＠樹
 「え？　寝坊か……？」
 
-
 @chara_clear		#保険
 wait		500
 @suika_middle		# 中間
 @suika_shifuku
 @suika			#普
-
 
 ＠すいか,R00408
 「今までそんなこと、一度も無かったんですけど……」
@@ -119,7 +105,6 @@ wait		500
 「今、みかんちゃん達が部屋まで見に行ってくれています」
 
 そう説明してくれたところで、ちょうど廊下を走ってくる足音がした。
-
 
 @bg_black
 wait		100
@@ -141,12 +126,10 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠美雨,B01974
 「すみません、遅れましたッ」
 
 慌てて美雨が入ってくる。
-
 
 @miu_komaru		#開_困
 #///////////////////////////////////////////////////////
@@ -158,13 +141,11 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠美雨,B01975
 「あっ、樹さんも。おはようございますっ」
 
 ＠樹
 「ああ、おはよう。みんなも」
-
 
 @chara_clear		#保険
 wait		500
@@ -183,10 +164,8 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A01907
 「うん。おはよ、お兄ちゃん」
-
 
 #///////////////////////////////////////////////////////
 #演：うなずき
@@ -196,10 +175,8 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠かりん,P02393
 「おはよう」
-
 
 @chara_clear		#保険
 wait		500
@@ -207,23 +184,19 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
-
 ＠美雨,B01976
 「えっと、すぐ朝食の用意を始めますから」
 
 ＠樹
 「無理するな。体調でも悪いんじゃないのか？」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B01977
 「いえ、そんなことは……寝過ごしただけですから」
 
 ＠かりん,P02394
 「まぁ本人がこう言ってるんだから、大丈夫でしょう」
-
 
 @chara_clear		#保険
 wait		500
@@ -244,10 +217,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O02217
 「美雨、朝食～……。もう食べ物なら何でもいいよぉ」
-
 
 window_close
 #SE13　お腹の音・弱（キュルル……）
@@ -258,10 +229,8 @@ wait		500
 @yuzu_shifuku
 @yuzu_yorokobi		#喜
 
-
 ＠ゆず,F00324
 「いちごちゃん、さっきから凄いお腹が鳴ってるもんね」
-
 
 @chara_clear		#保険
 wait		500
@@ -273,10 +242,8 @@ wait		500
 @karin_kanashimi	#哀
 @mikan_kanashimi	#哀
 
-
 ＠みかん,A01908
 「あ、ぅ……ごめん、今のみかんの音……」
-
 
 @chara_clear		#保険
 wait		500
@@ -284,19 +251,15 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-
 ＠ざくろ,Q01344
 「残念だけど、タイムリミットね」
 
 時計を見つめていたざくろがそう告げる。
 
-
 @zakuro_metoji		#閉
-
 
 ＠ざくろ,Q01345
 「今から用意するのを待ってたら遅刻する」
-
 
 @chara_clear		#保険
 wait		500
@@ -314,10 +277,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O02218
 「えーッ、朝ごはん抜き…！？」
-
 
 @chara_clear		#保険
 wait		500
@@ -325,10 +286,8 @@ wait		500
 @suika_shifuku
 @suika			#普
 
-
 ＠すいか,R00410
 「……もうこんな時間。行く準備しないと」
-
 
 @chara_clear		#保険
 wait		500
@@ -336,10 +295,8 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
-
 ＠美雨,B01978
 「あ……ごめんね、みんな。晩御飯は美味しい物を作っておくから」
-
 
 window_close
 @chara_clear		#保険
@@ -366,10 +323,8 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A01909
 「うん、楽しみにしてるねっ♪」
-
 
 #///////////////////////////////////////////////////////
 #演：ためいき
@@ -379,10 +334,8 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠かりん,P02395
 「はぁ…笑顔とお腹の虫のギャップが痛々しいわ、みかん……」
-
 
 bgm_stop
 @bg_black
@@ -393,9 +346,7 @@ wait		1000
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 @bg_genkan		# 玄関
 
-
 慌しく登校準備を済ませた子供達が玄関に集合した。
-
 
 @mikan_small
 @mikan_seifuku
@@ -412,10 +363,8 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A01910
 「行ってきますっ」
-
 
 #///////////////////////////////////////////////////////
 #演：うなずき
@@ -426,20 +375,16 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠かりん,P02396
 「それじゃ、行ってくるわ」
-
 
 window_close
 @chara_clear		#保険
 wait		1000
 @SE30			#SE30　玄関のドアが開く音
 
-
 ＠樹
 「気をつけてな」
-
 
 @ichigo_small
 @ichigo_seifuku
@@ -462,24 +407,18 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O02219
 「行ってきます～……」
 
-
 @suika_kanashimi	#哀
-
 
 ＠すいか,R00411
 「大丈夫、いちごちゃん。ふらふらしてるよ」
 
-
 @chara_clear		#保険
-
 
 ＠樹
 「すいか、いちごが途中で倒れないように頼むな……」
-
 
 @yuzu_small
 @yuzu_seifuku
@@ -489,10 +428,8 @@ layer_movepass_play	l_ichigo,0,play_once
 @zakuro			#普
 @yuzu_yorokobi		#喜
 
-
 ＠ざくろ,Q01346
 「行ってきます」
-
 
 #///////////////////////////////////////////////////////
 #演：うなずき
@@ -503,17 +440,13 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ゆず,F00325
 「樹先生っ、行ってきます！」
 
-
 @chara_clear		#保険
-
 
 ＠樹
 「ああ、勉強がんばってこい」
-
 
 @bg_black
 wait		100
@@ -526,10 +459,8 @@ wait		100
 @miu2			#開_にこ
 @bg_hiroma		# 広間
 
-
 ＠美雨,B01979
 「みんな、ごめんね。明日からはこんな事ないようにするから」
-
 
 @hikari_warai		#笑.png
 #///////////////////////////////////////////////////////
@@ -544,29 +475,22 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00558
 「いってらっしゃ～い！」
 
-
 #SE31　玄関のドアが閉まる音
 @SE31			#SE31　玄関のドアが閉まる音
-
 
 にぎやかに子供たちは手を振り、登校して行った。
 
 ＠樹
 「ふぅ……」
 
-
 @bgm12			#BGM 12 : メインテーマ
-
 
 住人の過半数が家を空けた後は、一気に静けさが訪れる。
 
-
 @hikari_yorokobi	#喜.png
-
 
 ＠ひかり,N00559
 「みんなご飯食べてなくても元気いっぱいなの」
@@ -574,27 +498,20 @@ layer_movepass_play	l_hikari,0,play_once
 ＠樹
 「はは。何だかんだで騒がしさは変わらないからな」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B01980
 「…………」
 
-
 @hikari			#普.png
-
 
 ＠ひかり,N00560
 「お母しゃん？　どうしたの？」
 
-
 @miu			#閉_にこ
-
 
 ＠美雨,B01981
 「あ、ううん……。すぐ樹さんとひーちゃんの朝ごはん、作りますね」
-
 
 #一拍
 bgm_stop
@@ -604,32 +521,25 @@ wait		1000
 @bg_dining		# 食堂
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-
 食事をしている間も、やはり美雨は会話半分で、物思いにふけることが多かった。
-
 
 #@hikari_middle		# 中間
 #@hikari_shifuku
 #@hikari_yorokobi	#喜.png
 
-
 ＠ひかり,N00561
 「ごちそうさまー！」
 
-
 #@hikari_
-
 
 そんな中、最初に朝食を終えたひかりが、食器を片して席を降りる。
 
 ＠樹
 「ん？　どうした、ひかり」
 
-
 @hikari_small
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
-
 
 ＠ひかり,N00562
 「ひーちゃん、お皿だいどこよに片ぢゅけてくるの」
@@ -637,16 +547,12 @@ wait		1000
 ＠美雨,B01982
 「……えッ。あ、いいのよひーちゃん、私がやるから」
 
-
 @hikari			#普.png
-
 
 ＠ひかり,N00563
 「ううん。お母しゃん疲えてゆみたいらから、ひーちゃんもお手ちゅだいするの」
 
-
 @hikari_
-
 
 ＠美雨,B01983
 「あっ、でも……」
@@ -669,11 +575,9 @@ wait		1000
 ＠樹
 「美雨、何かあった？」
 
-
 @miu_middle		# 中間
 @miu_maid
 @miu_mu			#開_普通（無表情）
-
 
 ＠美雨,B01985
 「えっ……？」
@@ -681,9 +585,7 @@ wait		1000
 ＠樹
 「今朝から様子がおかしいからさ。どうかした？」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B01986
 「いえ、別に……。おかしいですか？」
@@ -691,9 +593,7 @@ wait		1000
 ＠樹
 「ひかりでさえも、そう思って今もお手伝いしてるんだろう」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B01987
 「…………」
@@ -717,18 +617,14 @@ wait		1000
 ＠樹
 「オレに出来る事や、話すだけでも楽になることなら、遠慮なくいつでも話してくれよ」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B01990
 「樹さん……」
 
 申し訳無さそうにオレを見つめる。
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B01991
 「すみません……ご心配をおかけして……」
@@ -736,16 +632,12 @@ wait		1000
 ＠樹
 「……いいさ。普段からオレの方が迷惑かけっぱなしなんだから」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B01992
 「そ、そんなっ、迷惑だなんてッ！」
 
-
 @miu_ikari2		#開_怒
-
 
 ＠美雨,B01993
 「私にとって樹さんとひーちゃんが居てくれることが、どれだけ嬉しいか」
@@ -754,9 +646,7 @@ wait		1000
 
 だがその勢いも束の間、すぐハッとしたように、声のトーンを落とす。
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B01994
 「……嬉しいから、こんなにも答えが出せずに迷ってる」
@@ -764,49 +654,38 @@ wait		1000
 ＠樹
 「………」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B01995
 「樹さん、私は―――」
 
-
 bgm_stop
 #CH（ひかりは立ち絵なし）
-
 
 ＠ひかり,N00565
 「あーーーーッ！」
 
-
 #SE99　お皿などを大量に割った音（ガシャガシャッ、ガシャーン！）
 @SE99			#SE99　お皿などを大量に割った音（ガシャガシャッ、ガシャーン！）
-
 
 ＠樹
 「うおッ！？」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B01996
 「きゃあッ」
 
 口火を切った美雨の言葉を掻き消すように、ひかりの声と激しい割れ音がした。
 
-
 se_stop		0
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B01997
 「ひーちゃんッ！？」
 
 ＠樹
 「やったか」
-
 
 #SE19　廊下を走る音
 #@SE19			#SE19　廊下を走る音
@@ -833,25 +712,19 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00566
 「うう～……いっぱい割れちゃったの……」
 
-
 @bgm12			#BGM 12 : メインテーマ
 
-
 キッチンへ走り込むと、案の定、床は皿やグラスの破片まみれになっていた。
-
 
 @miu_small
 @miu_maid
 @miu_kanashimi		#開_哀
 
-
 ＠美雨,B01998
 「ひーちゃんっ、大丈夫！？　怪我してない！？」
-
 
 @hikari_kanashimi	#哀.png
 #///////////////////////////////////////////////////////
@@ -863,7 +736,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00567
 「んぅ、うん……ごめんなしゃい」
 
@@ -873,9 +745,7 @@ layer_movepass_play	l_hikari,0,play_once
 ＠樹
 「相変わらずの不思議遭遇率だ」
 
-
 @miu2			#開_にこ
-
 
 ＠美雨,B01999
 「掃除は私がやるから。ひーちゃんは怪我しないように離れてて」
@@ -883,9 +753,7 @@ layer_movepass_play	l_hikari,0,play_once
 ＠樹
 「いや、オレが掃除する。美雨は一応ひかりに怪我が無いか見てやってくれ」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B02000
 「え…？」
@@ -893,7 +761,6 @@ layer_movepass_play	l_hikari,0,play_once
 正直、今の美雨も、オレからするとどこか危なっかしいのだ。
 
 美雨もそんなオレの意図を汲んで頷いてくれた。
-
 
 #@miu2			#開_にこ
 #///////////////////////////////////////////////////////
@@ -904,18 +771,14 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠美雨,B02001
 「分かりました……それではお願いします」
-
 
 #@miu			#閉_にこ
 @miu2			#開_にこ
 
-
 ＠美雨,B02002
 「ひーちゃん、リビングに来て。怪我が無いか見てみましょうね」
-
 
 @hikari_komaru		#困.png
 #///////////////////////////////////////////////////////
@@ -926,17 +789,14 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00569
 「うん……。お父しゃん、ごめんなしゃいの」
 
 ＠樹
 「気にするな。怪我が無さそうでよかった」
 
-
 bgm_stop
 @chara_clear		#保険
-
 
 申し訳無さそうなひかりをつれ、美雨は一礼してキッチンを後にする。
 
@@ -956,15 +816,9 @@ bgm_stop
 
 とりあえず、オレからも美雨のことは気にかけてあげた方が良さそうだ。
 
-
 @bg_black
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 

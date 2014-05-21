@@ -11,11 +11,9 @@ bgm_stop
 #※他のどのルートよる、このイベントの優先度の方が高い
 #--------------------------------------------------
 
-
 #■BG（雨空）
 #SE90　雨音（ザアァァ！）
 @bg_sky_ame		# 雨空
-
 
 #この日は、朝からずっと分厚い雲が空を覆い隠していた。
 #SCRIPT ADD KANJI
@@ -25,21 +23,17 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｉt was damp, the rain which fell from the sky created a mist. 
 
-
 #■BG（商店街・雨）
 @bg_syoutengai_a	# 商店街 (雨)
 @bgm17			#BGM 17 : のんびりのテーマ
-
 
 #商店街のファミリーレストランから、ひかりは両親と一緒に出てきた。
 #SCRIPT ADD KANJI
 Ｈikari with her parents came out from the family restaurant in the shopping district.
 
-
 @hikari_middle		# 中間
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
-
 
 #「美味しかったね、ハンバーグ！」
 ＠Hikari,N00197
@@ -58,14 +52,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #「うん！」
 ＠Hikari,N00198
 「Un!」
 
-
 @hikari_yorokobi	#喜.png
-
 
 #「ねぇお父しゃん、今日こえからどこか行くんだよね？　どこに行くの？」
 ＠Hikari,N00199
@@ -79,9 +70,7 @@ layer_movepass_play	l_hikari,0,play_once
 ＠母親,V21007
 「........」
 
-
 @hikari			#普.png
-
 
 #「……？　お父しゃん？　お母しゃん？　どうしたの？」
 ＠Hikari,N00200
@@ -131,14 +120,12 @@ layer_movepass_play	l_hikari,0,play_once
 ＠母親,V21009
 「..... Hi-chan.」
 
-
 @hikari_yorokobi	#喜.png
 
 #★
 #「ああ、すぐに迎えに来るよ。行っておいで」
 ＠Father
 「Yeah, we will come back here to pick you up as soon as we can. Go on.」
-
 
 @hikari_warai		#笑.png
 #///////////////////////////////////////////////////////
@@ -149,11 +136,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #「うん！」
 ＠Hikari,N00203
 「Un!」
-
 
 #CH（立ち絵消去）
 window_close
@@ -168,9 +153,7 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｈikari was innocently happy, running between the shops.
 
-
 se_stop		0
-
 
 #両親はそれを見送ると、反対方向へ歩いていく。
 #SCRIPT ADD KANJI
@@ -180,7 +163,6 @@ se_stop		0
 #SCRIPT ADD KANJI
 Ｓomehow they seemed exhausted, but walked as if they were liberalized. (realeased?)
 
-
 #「あとで、施設の人がひかりを迎えに来ることになってる」
 ＠Father
 「People from the institution will come and pick her up after.」
@@ -189,11 +171,9 @@ se_stop		0
 ＠母親,V21010
 「Yes... As suspected, we don't have the confidence to raise a child who we don't know.」 
 
-
 bgm_stop
 #■BG（雨空）
 @bg_sky_ame		# 雨空
-
 
 #降りしきる雨の中、二人の足音が遠ざかる。
 #SCRIPT ADD KANJI
@@ -203,15 +183,9 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ａnd never again, returned for Hikari again.
 
-
 @bg_black
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 

@@ -30,7 +30,6 @@ lifebar_setmax	life_tairyoku,tairyoku_max
 lifebar_set	life_seishin,seishin
 lifebar_setmax	life_seishin,seishin_max
 
-
 macro	training_mikan_load
 window_close
 screen_blackout	1000
@@ -129,7 +128,6 @@ if t_mikan_bondage_flag=0 then layer_load 		l_arm_back,"event\ev_mik_050\ev_mik_
 #layer_position_set 	l_arm_back,-64,-48
 layer_reference_set	l_arm_back,l_arm		# 頭のレイヤーに連結
 
-
 #レイヤー31　腕
 if t_mikan_bondage_flag=0 then layer_load 		l_arm,"event\ev_mik_050\ev_mik_050_arm_left_front.png"
 layer_position_set 	l_arm,-64,-48
@@ -140,7 +138,6 @@ if t_mikan_bondage_flag=1 then layer_load 		l_leg,"event\ev_mik_050\ev_mik_050_l
 layer_position_set 	l_leg,-64,-48
 
 #layer_movepass_clear	all
-
 
 # -- アニメーション定義 ------------------------------------------------------
 # -- 瞼			セット0
@@ -157,7 +154,6 @@ layer_anime_add		l_eye_f,0,	70,	1
 layer_anime_add		l_eye_f,0,	100,	2
 layer_anime_add		l_eye_f,0,	70,	1
 layer_anime_play	l_eye_f,0,	PLAY_LOOP
-
 
 # -- 眉
 layer_anime_add		l_eyeblow,0,	1000,	0
@@ -430,7 +426,6 @@ layer_scalepass_add	l_leg,2,	250,4,0
 layer_scalepass_add	l_leg,2,	250,4,0
 layer_scalepass_play	l_leg,2,	PLAY_LOOP
 
-
 #--セット3 (感じてる)---------------------------------------------------------
 
 #表情
@@ -497,20 +492,15 @@ lifebar_open	life_seishin
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
-
 if mikan_command_cnt<15 then voice "A02544"	#「お兄ちゃん……優しくしてね……」
 if mikan_command_cnt>=15 then voice "A02546"	#「っ、ふ……お兄ちゃん……」
 
 window_close
 
-
-
 voice_bg	"A04241"
 label ev_mik_050_loop
 if tairyoku<=0 then goto ev_mik_050_end
 if seishin<=0 then goto ev_mik_050_end
-
-
 
 #-- アイコン選択 --------------------------------------------------------------
 window_close
@@ -531,8 +521,6 @@ if _ITEM(200)=1 then	select_icon_add		8,"system\iconselect\icon_muchi.png","鞭を
 
 if t_mikan_bondage_flag=0 and _ITEM(303)=1 then select_icon_add	9,"system\iconselect\icon_bondage.png","ボンデージ服を着せる"
 if t_mikan_bondage_flag=1 and _ITEM(303)=1 then select_icon_add	9,"system\iconselect\icon_nude.png","裸にする"
-
-
 
 if _ITEM(208)=1 then select_icon_add		10,"system\iconselect\icon_schoolware.png","スクール水着を使う"
 
@@ -580,7 +568,6 @@ if tairyoku<=0 then goto ev_mik_050_end
 if seishin<=0 then goto ev_mik_050_end
 
 goto ev_mik_050_loop_b
-
 
 #-- ■愛撫■ ----------------------------------------------------------------
 label ev_mik_050_aibu
@@ -637,7 +624,6 @@ add_miryoku=add_miryoku+1
 wait	500
 return
 
-
 #-- ■バラ鞭■ ----------------------------------------------------------------
 label ev_mik_050_baramuchi
 #-- 体ではないレイヤーかどうか判定する ----------------------------------------
@@ -681,7 +667,6 @@ lifebar_setauto	life_seishin,seishin
 
 add_miryoku=add_miryoku+3
 
-
 for j=0 to 5
 rand rnd,0,128
 _x=_x+rnd-64
@@ -698,36 +683,35 @@ next
 wait	500
 return
 
-
 #-- ■アナル■ ---------------------------------------------------------
 label	t_mikan_anal
-	gosub	training_mikan_anal
-	goto	ev_mik_050_loop
+gosub	training_mikan_anal
+goto	ev_mik_050_loop
 #-- ■アナルバイブ■ ---------------------------------------------------------
 label	t_mikan_analvibe
-	gosub	training_mikan_analpearl
-	goto	ev_mik_050_loop
+gosub	training_mikan_analpearl
+goto	ev_mik_050_loop
 #-- ■バイブ■ ---------------------------------------------------------
 label	t_mikan_vibe
-	gosub	training_mikan_vibe
-	goto	ev_mik_050_loop
+gosub	training_mikan_vibe
+goto	ev_mik_050_loop
 #-- ■アナル拡張ベルト■ -----------------------------------------------------
 label t_mikan_hardanal
-	gosub	mikan_training_hardanal
-	goto	ev_mik_050_loop
+gosub	mikan_training_hardanal
+goto	ev_mik_050_loop
 #-- ■スクール水着■ -----------------------------------------------------
 label t_mikan_mizugi
-	gosub	mikan_training_mizugi
-	goto	ev_mik_050_loop
+gosub	mikan_training_mizugi
+goto	ev_mik_050_loop
 
 #-- ■ボンテージ服■ ---------------------------------------------------------
 label t_mikan_bondage
-	@training_anime_release
-	if t_mikan_bondage_flag=0 then t_mikan_bondage_flag=1;goto t_mikan_bondage_skip
-	if t_mikan_bondage_flag=1 then t_mikan_bondage_flag=0
+@training_anime_release
+if t_mikan_bondage_flag=0 then t_mikan_bondage_flag=1;goto t_mikan_bondage_skip
+if t_mikan_bondage_flag=1 then t_mikan_bondage_flag=0
 label t_mikan_bondage_skip
-	@training_mikan_load
-	goto	ev_mik_050_loop
+@training_mikan_load
+goto	ev_mik_050_loop
 
 #voice	"A02572"	#「ひっ……！」
 #voice	"A02573"	#「いやぁっ！」
@@ -747,27 +731,26 @@ if tairyoku<(tairyoku_max/3) then goto mikan_training_bgv_03
 if tairyoku<(tairyoku_max/2) then goto mikan_training_bgv_02
 
 label	mikan_training_bgv_01
-	voice_bg "A02559"
-	passspeed=100
-	goto	mikan_training_bgv_05
+voice_bg "A02559"
+passspeed=100
+goto	mikan_training_bgv_05
 label	mikan_training_bgv_02
-	voice_bg "A02559_A"
-	passspeed=130
-	goto	mikan_training_bgv_05
+voice_bg "A02559_A"
+passspeed=130
+goto	mikan_training_bgv_05
 label	mikan_training_bgv_03
-	voice_bg "A02559_B"
-	passspeed=160
-	goto	mikan_training_bgv_05
+voice_bg "A02559_B"
+passspeed=160
+goto	mikan_training_bgv_05
 label	mikan_training_bgv_04
-	voice_bg "A02559_C"
-	passspeed=190
-	goto	mikan_training_bgv_05
+voice_bg "A02559_C"
+passspeed=190
+goto	mikan_training_bgv_05
 label	mikan_training_bgv_05
-	layer_allpass_speed	l_body,passspeed
-	layer_allpass_speed	l_arm,passspeed
-	layer_allpass_speed	l_head,passspeed
-	layer_allpass_speed	l_leg,passspeed
-
+layer_allpass_speed	l_body,passspeed
+layer_allpass_speed	l_arm,passspeed
+layer_allpass_speed	l_head,passspeed
+layer_allpass_speed	l_leg,passspeed
 
 wait	300
 
@@ -802,7 +785,6 @@ mva_ki=mva_ki+1
 if mva_ki>5 then mva_ki=0
 
 endm
-
 
 #マンコ（指で愛撫から)
 macro	mikan_voice_aibu_manko
@@ -875,8 +857,6 @@ if mva_sp=5 then voice_bg "A04247"
 if mva_sp>7 then mva_sp=0
 endm
 
-
-
 #-- みかん　「痛い」--------------------------------------------------------
 macro	mikan_voice_itai
 if mva_it=0 then voice "A03461"	#「ひぁぁああっ！　痛い、痛いよ、お兄ちゃん！？」
@@ -915,21 +895,20 @@ mikan_rousoku_count=mikan_rousoku_count+1
 
 endm
 
-
 #コマンド 蝋燭
 macro	command_mikan_rousoku
-	@bgm11
+@bgm11
 #	se	0,"system\TrainingSystem\item.wav",play_once
-	mousecursor_set "system\TrainingSystem\cur_rousoku.png",100,160
-	gosub mikan_training_rousoku
+mousecursor_set "system\TrainingSystem\cur_rousoku.png",100,160
+gosub mikan_training_rousoku
 endm
 
 #コマンド バラ鞭
 macro	command_mikan_baramuchi
-	@bgm11
+@bgm11
 #	se	0,"system\TrainingSystem\item.wav",play_once
-	mousecursor_set "system\TrainingSystem\cur_muchi.png",420,40
-	gosub mikan_training_baramuchi
+mousecursor_set "system\TrainingSystem\cur_muchi.png",420,40
+gosub mikan_training_baramuchi
 endm
 #-- 痛がる --------------------------------------------------------------------
 macro	mikan_motion_pain1
@@ -964,12 +943,9 @@ seishin=seishin-5
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
-
 endm
 
-
 macro	mikan_motion_insert1
-
 
 # -- 背景		セット0
 layer_movepass_push	l_back,2,	PLAY_LOOP
@@ -1006,7 +982,6 @@ layer_scalepass_push	l_leg,2,	PLAY_LOOP
 layer_anime_push	l_eyeblow,2,	PLAY_LOOP
 layer_anime_push	l_mouth,2,	PLAY_ONCE
 layer_anime_push	l_eye_f,2,	PLAY_LOOP
-
 
 tairyoku=tairyoku-10
 seishin=seishin-15
@@ -1048,9 +1023,7 @@ seishin=seishin-5
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
-
 endm
-
 
 #-- 気絶 --------------------------------------------------------------------
 label ev_mik_050_end
@@ -1065,7 +1038,6 @@ lifebar_setauto	life_seishin,seishin
 
 #screen_blackout	4000
 
-
 #どうやら気を失ってしまったようだ。
 
 これ以上続けることはできなさそうだ。
@@ -1077,7 +1049,6 @@ add_atama=add_atama/2
 
 mikan_kizetsu_cnt=mikan_kizetsu_cnt+1
 
-
 goto	ev_mik_050_exit2
 
 #-- 終了 --------------------------------------------------------------------
@@ -1086,7 +1057,6 @@ label ev_mik_050_exit
 #"調教を終了する","やっぱりやめる"
 select	sel,"End training","On second thought..."
 if sel=1 then goto ev_mik_050_loop_a
-
 
 if mikan_command_cnt<15 then voice "A02545"	#「……もっと、お兄ちゃんのお役に立てるようになれるといいな……頑張るね」
 if mikan_command_cnt>=15 then voice "A02547"	#「はぁ……っ……もっと頑張るから、また……みかんに、いっぱい……してね……」
@@ -1111,35 +1081,33 @@ voice_bg_stop
 if add_miryoku>10 then mikan_command_cnt=mikan_command_cnt+1
 
 #--------------------------------------------------------------------------
-	@mikan_set
-	lifebar_open	life_atama
-	lifebar_open	life_karada
-	lifebar_open	life_kokoro
-	wait	500
+@mikan_set
+lifebar_open	life_atama
+lifebar_open	life_karada
+lifebar_open	life_kokoro
+wait	500
 
-	mikan_atama=mikan_atama+add_atama
-	mikan_karada=mikan_karada+add_karada
-	mikan_kokoro=mikan_kokoro+add_kokoro
+mikan_atama=mikan_atama+add_atama
+mikan_karada=mikan_karada+add_karada
+mikan_kokoro=mikan_kokoro+add_kokoro
 
-	lifebar_setauto	life_karada,mikan_karada
-	lifebar_setauto	life_kokoro,mikan_kokoro
-	lifebar_setauto	life_karada,mikan_karada
-	@mikan_check
-	wait	1000
+lifebar_setauto	life_karada,mikan_karada
+lifebar_setauto	life_kokoro,mikan_kokoro
+lifebar_setauto	life_karada,mikan_karada
+@mikan_check
+wait	1000
 
-	lifebar_close	life_atama
-	lifebar_close	life_karada
-	lifebar_close	life_kokoro
-	wait	500
+lifebar_close	life_atama
+lifebar_close	life_karada
+lifebar_close	life_kokoro
+wait	500
 #------------------------------------------------------------------------
 
 if add_miryoku>0 then @mikan_add_miryoku
 
-
 if mikan_reception_level=1 and t_mikan_fellatio_cnt1>3 then gosub t_mikan_up
 if mikan_reception_level=2 and mikan_insert_count>3 then gosub t_mikan_up
 if mikan_reception_level=3 and t_mikan_hardanal_cnt>3 then gosub t_mikan_up
-
 
 return
 

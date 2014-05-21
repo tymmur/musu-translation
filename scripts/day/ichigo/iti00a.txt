@@ -9,17 +9,14 @@ bgm_stop
 #天気：晴れ
 #--------------------------------------------------
 
-
 #■BG（青空）
 @bg_sky			# 空
-
 
 天気のいい日に、いちごを連れて散歩に出かけた。
 
 ずっと家に居ると身体がなまる………と言うが、雫さんは別の意味で身体を使ってるから平気とか言う。
 
 ……それはそれで不健康だ。
-
 
 @bgm12			#BGM 12 : メインテーマ
 #■BG（堤防）
@@ -40,27 +37,20 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O00773
 「見て、パパ！　あそこ船が浮いてるよ」
 
-
 #layer_movepass_init	l_ichigo,0	#演出初期化
-
 
 ＠樹
 「あれは漁に出るボートだな。遊びじゃなくてお仕事だ」
 
-
 @ichigo			#普通
-
 
 ＠いちご,O00774
 「ふーん、お仕事用かぁ」
 
-
 @ichigo_odoroki		#驚
-
 
 ＠いちご,O00775
 「あ、あそこで誰か釣りしてるよ」
@@ -70,9 +60,7 @@ layer_movepass_play	l_ichigo,0,play_once
 
 前に住んでいた都会方面と違い、川の水は魚がいて当然のような綺麗な色をしている。
 
-
 @ichigo_komaru		#困
-
 
 ＠いちご,O00776
 「いちごも釣りしたいなぁ」
@@ -80,16 +68,13 @@ layer_movepass_play	l_ichigo,0,play_once
 ＠樹
 「やったことはあるのか？」
 
-
 @ichigo_yorokobi	#喜
-
 
 ＠いちご,O00777
 「ザリガニ釣りならしたことあるよ♪　いちごが友達の中で一番上手なの」
 
 ＠樹
 「なら今度、道具があるか美雨に聞いてみようか」
-
 
 @ichigo_warai		#笑
 wait		500
@@ -101,13 +86,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O00778
 「うん！　みんなで一緒にやろやろー！」
 
-
 layer_movepass_init	l_ichigo,0	#演出初期化
-
 
 いちごのはしゃぎ声に釣り人が振り返る。
 
@@ -115,7 +97,6 @@ layer_movepass_init	l_ichigo,0	#演出初期化
 
 ＠樹
 「そろそろひき帰すか。海の方まで出てしまうぞ」
-
 
 @ichigo_komaru		#困
 wait		500
@@ -133,24 +114,18 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O00779
 「えー。海行きたいよぉ、海ー」
 
-
 #layer_movepass_init	l_ichigo,0	#演出初期化
-
 
 ＠樹
 「また今度な。宿題があるんだろう？」
 
-
 @ichigo_ase		#汗
-
 
 ＠いちご,O00780
 「うー。何であるんだろう、宿題なんか」
-
 
 bgm_stop
 @bg_black
@@ -158,17 +133,14 @@ wait		1000
 #■BG（住宅街）
 @bg_jyuutakugai		# 住宅街
 
-
 ＠樹
 「……ん？」
 
 帰り道、ふと気配を感じて立ち止まった。
 
-
 @ichigo_middle		# 中間
 @ichigo_shifuku
 @ichigo			#普通
-
 
 ＠いちご,O00781
 「どうしたの？」
@@ -178,18 +150,15 @@ wait		1000
 
 振り返るが誰もいない。
 
-
 @bgm03			#BGM 03 : いちごのテーマ
 #CH（いちご・企み）
 @ichigo_takurami	#企み
-
 
 ＠いちご,O00782
 「それはきっと海だよ」
 
 ＠樹
 「……海？」
-
 
 #///////////////////////////////////////////////////////
 #演：うなずき
@@ -199,10 +168,8 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O00783
 「うん。いちご達を呼んでるんだよ。『海に来てー、海に来てー』って」
-
 
 @ichigo_yorokobi	#喜
 wait		500
@@ -220,20 +187,15 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠いちご,O00784
 「だからパパ、海に行こうよぉ。遊びたいよぉ」
 
-
 #layer_movepass_init	l_ichigo,0	#演出初期化
-
 
 ＠樹
 「美雨にしかられるぞ、宿題しないと。オレは庇ってあげないからな？」
 
-
 @ichigo_ase		#汗
-
 
 ＠いちご,O00785
 「むぅー、何でみんな二言目には宿題宿題ーって言うんだろう……」
@@ -241,10 +203,8 @@ layer_movepass_play	l_ichigo,0,play_once
 ＠樹
 「やるべきことをやったら、また遊んでやる。頑張れいちご」
 
-
 bgm_stop
 @ichigo_
-
 
 名残惜しそうないちごの頭を撫でながら、帰路を辿る。
 
@@ -255,15 +215,9 @@ bgm_stop
 
 結局家に帰りつくまで、不審な人影を見ることは無かった。
 
-
 @bg_black
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 

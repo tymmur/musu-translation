@@ -20,7 +20,6 @@ add_karada=0
 add_atama=0
 add_kokoro=0
 
-
 #-- ライフ -------------------------------------------------------------------
 tairyoku=karin_kenkou_max
 seishin=karin_kiryoku_max
@@ -30,8 +29,6 @@ lifebar_set	life_tairyoku,tairyoku
 lifebar_setmax	life_tairyoku,tairyoku_max
 lifebar_set	life_seishin,seishin
 lifebar_setmax	life_seishin,seishin_max
-
-
 
 macro	training_karin_load
 window_close
@@ -136,7 +133,6 @@ if t_karin_bondage_flag=1 then layer_load l_leg,"event\ev_kar_070\ev_kar_070_leg
 layer_position_set 	l_leg,-64,-48
 
 #layer_movepass_clear	all
-
 
 # -- アニメーション定義 ------------------------------------------------------
 # -- 瞼			セット0
@@ -296,7 +292,6 @@ layer_anime_add		l_mouth,1,	500,	3
 layer_anime_add		l_mouth,1,	500,	2
 layer_anime_add		l_mouth,1,	500,	1
 
-
 #layer_anime_add		l_eye_f,1,	5000,	3
 #layer_anime_add		l_eye_f,1,	50,	1
 #layer_anime_add		l_eyeblow,1,	500,	1
@@ -440,7 +435,6 @@ layer_scalepass_add	l_leg,2,	250,3,0
 layer_scalepass_add	l_leg,2,	250,2,0
 layer_scalepass_play	l_leg,2,	PLAY_LOOP
 
-
 #--セット3 (感じてる)---------------------------------------------------------
 
 #表情
@@ -495,7 +489,6 @@ layer_movepass_add	l_leg,3,	300,0,0
 layer_scalepass_add	l_leg,3,	200,-3,-2
 layer_scalepass_add	l_leg,3,	300,0,0
 
-
 screen_blackin		1000
 
 #-- 定義ここまで --------------------------------------------------------------
@@ -507,7 +500,6 @@ lifebar_open	life_tairyoku
 lifebar_open	life_seishin
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
-
 
 if karin_command_cnt<15 then voice "P03596"	#
 if karin_command_cnt>=15 then voice "P03598"	#
@@ -601,8 +593,6 @@ t_karin_muchi_cnt_l=0
 t_karin_spanking_cnt_l=0
 endm
 
-
-
 #-- ■愛撫■ ----------------------------------------------------------------
 label t_karin_aibu
 if _COLOR=0 then return
@@ -672,7 +662,6 @@ add_miryoku=add_miryoku+1
 
 wait	500
 
-
 return
 
 #-- ■バラ鞭■ ----------------------------------------------------------------
@@ -695,7 +684,6 @@ if t_karin_maso_flag=1 then voicetable	t_karin_muchi_cnt_l,"P04919","P04920","P0
 
 if _COLOR=130 then voicetable	t_karin_muchi_cnt_l,"P03649","P03660","P03661","P03662","P03663","P03664"
 if _COLOR=130 then screen_vibration 500,16,16,16
-
 
 t_karin_muchi_cnt_l=t_karin_muchi_cnt_l+1
 t_karin_muchi_cnt=t_karin_muchi_cnt+1
@@ -727,16 +715,16 @@ return
 
 #-- ■バラ鞭■ ----------------------------------------------------------------
 label t_karin_command_baramuchi
-	@bgm11
-	mousecursor_set "system\TrainingSystem\cur_muchi.png",420,40
-	#初回
-	if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt=0 then voice "P03607";return
-	#1-50回目
-	if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt<50 then voice "P03608";return
-	#51-100回目
-	if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt<100 then voice "P03609";return
-	#それ以降
-	if t_karin_muchi_cnt_l=0 then voice "P03610";return
+@bgm11
+mousecursor_set "system\TrainingSystem\cur_muchi.png",420,40
+#初回
+if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt=0 then voice "P03607";return
+#1-50回目
+if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt<50 then voice "P03608";return
+#51-100回目
+if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt<100 then voice "P03609";return
+#それ以降
+if t_karin_muchi_cnt_l=0 then voice "P03610";return
 return
 
 #-- ■蝋燭■ ----------------------------------------------------------------
@@ -748,16 +736,13 @@ mousecursor_reset
 #-- 蝋燭エフェクト
 @rousoku_effect
 
-
 #1段階目
 if t_karin_maso_flag=0 then voicetable	t_karin_rousoku_cnt_l,"P04945","P04946","P04947","P04948","P04949","P04950","P04951","P04952","P04953","P04954","P04955","P04956","P04957"
 #2段階目
 if t_karin_maso_flag=1 then voicetable	t_karin_rousoku_cnt_l,"P04960","P04961","P04962","P04963","P04964","P04965","P04966","P04967","P04968","P04969","P04970","P04971"
 
-
 if _COLOR=130 then voicetable	t_karin_rousoku_cnt_l,"P03649","P03653","P03654","P03655","P03656","P03657","P03658"
 if _COLOR=130 then screen_vibration 500,16,16,16
-
 
 for j=0 to 5
 rand rnd,0,128
@@ -769,9 +754,6 @@ if _LAYER=l_leg then @rousoku_effect_big		# 蝋燭痕(大)
 if _LAYER<>l_leg then @rousoku_effect_small		# 蝋燭痕(小)
 wait	50
 next
-
-
-
 
 t_karin_rousoku_cnt_l=t_karin_rousoku_cnt_l+1
 t_karin_rousoku_cnt=t_karin_rousoku_cnt+1
@@ -801,14 +783,13 @@ passspeed=200
 
 return
 
-
 #-- ■蝋燭■ ----------------------------------------------------------------
 label t_karin_command_rousoku
-	@bgm11
-	mousecursor_set "system\TrainingSystem\cur_rousoku.png",100,160
-	#初回
-	if t_karin_rousoku_cnt_l=0 and t_karin_rousoku_cnt=0 then goto t_karin_command_rousoku_1
-	return
+@bgm11
+mousecursor_set "system\TrainingSystem\cur_rousoku.png",100,160
+#初回
+if t_karin_rousoku_cnt_l=0 and t_karin_rousoku_cnt=0 then goto t_karin_command_rousoku_1
+return
 
 label t_karin_command_rousoku_1
 
@@ -844,50 +825,46 @@ window_close
 
 return
 
-
-
 #-- ■バイブ■ -----------------------------------------------
 label t_karin_vibe
-	gosub	training_karin_vibe
+gosub	training_karin_vibe
 goto t_karin_loop
 
 #-- ■アナルバイブ■ -----------------------------------------------
 label t_karin_analvibe
-	gosub	training_karin_analvibe
+gosub	training_karin_analvibe
 goto t_karin_loop
 
 #-- ■フィイスクラッチマスク■ -----------------------------------------------
 label t_karin_facemask
-	gosub	training_karin_facemask
+gosub	training_karin_facemask
 goto t_karin_loop
 
 #-- ■ボンデージ■ ---------------------------------------------------------
 label t_karin_bondage
-	@training_anime_release
-	if t_karin_bondage_flag=0 then t_karin_bondage_flag=1;goto t_karin_bondage_skip
-	if t_karin_bondage_flag=1 then t_karin_bondage_flag=0
+@training_anime_release
+if t_karin_bondage_flag=0 then t_karin_bondage_flag=1;goto t_karin_bondage_skip
+if t_karin_bondage_flag=1 then t_karin_bondage_flag=0
 label t_karin_bondage_skip
-	@training_karin_load
+@training_karin_load
 goto t_karin_loop
 
 #-- ■眼鏡■ ---------------------------------------------------------
 label t_karin_megane
-	@training_anime_release
-	if t_karin_megane_flag=0 then t_karin_megane_flag=1;goto t_karin_megane_skip
-	if t_karin_megane_flag=1 then t_karin_megane_flag=0
+@training_anime_release
+if t_karin_megane_flag=0 then t_karin_megane_flag=1;goto t_karin_megane_skip
+if t_karin_megane_flag=1 then t_karin_megane_flag=0
 label t_karin_megane_skip
-	@training_karin_load
+@training_karin_load
 goto t_karin_loop
 
 #-- ■ビデオカメラ■ ---------------------------------------------------------
 label t_karin_video
-	gosub	training_karin_video
+gosub	training_karin_video
 goto t_karin_loop
-
 
 #-- 鞭後をつける---------------------------------------------------------------
 rnd=rnd+1
-
 
 #大きい鞭痕かどうか判定する
 if _LAYER=l_leg then goto kar070_muchi_large
@@ -900,19 +877,18 @@ if rnd=3 then goto kar070_muchi04
 #-- 鞭痕(小)
 label kar070_muchi_small
 label kar070_muchi01
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato01s.png",_X-25,_Y-32
-	goto kar070_muchi_skip
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato01s.png",_X-25,_Y-32
+goto kar070_muchi_skip
 label kar070_muchi02
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato02s.png",_X-25,_Y-32
-	goto kar070_muchi_skip
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato02s.png",_X-25,_Y-32
+goto kar070_muchi_skip
 label kar070_muchi03
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato03s.png",_X-25,_Y-32
-	goto kar070_muchi_skip
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato03s.png",_X-25,_Y-32
+goto kar070_muchi_skip
 label kar070_muchi04
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato04s.png",_X-25,_Y-32
-	rnd=0
-	goto kar070_muchi_skip
-
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato04s.png",_X-25,_Y-32
+rnd=0
+goto kar070_muchi_skip
 
 #-- 鞭痕(大)
 label kar070_muchi_large
@@ -923,26 +899,23 @@ if rnd=2 then goto kar070_muchi07
 if rnd=3 then goto kar070_muchi08
 
 label kar070_muchi05
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato01l.png",_X-50,_Y-75
-	goto kar070_muchi_skip
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato01l.png",_X-50,_Y-75
+goto kar070_muchi_skip
 label kar070_muchi06
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato02l.png",_X-50,_Y-75
-	goto kar070_muchi_skip
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato02l.png",_X-50,_Y-75
+goto kar070_muchi_skip
 label kar070_muchi07
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato03l.png",_X-50,_Y-75
-	goto kar070_muchi_skip
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato03l.png",_X-50,_Y-75
+goto kar070_muchi_skip
 label kar070_muchi08
-	layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato04l.png",_X-50,_Y-75
-	rnd=0
-	goto kar070_muchi_skip
-
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato04l.png",_X-50,_Y-75
+rnd=0
+goto kar070_muchi_skip
 
 label kar070_muchi_skip
 #if rnd>4 then rnd=0
 
-
 #------------------------------------------------------------------------------
-
 
 # 痛がるモーション #########################################################
 macro	karin_motion_pain1
@@ -973,7 +946,6 @@ layer_anime_push	l_eyeblow,1,	PLAY_ONCE
 layer_anime_push	l_mouth,1,	PLAY_ONCE
 layer_anime_push	l_eye_f,1,	PLAY_ONCE
 
-
 tairyoku=tairyoku-3*t_karin_damagefix
 seishin=seishin-5*t_karin_damagefix
 lifebar_setauto	life_tairyoku,tairyoku
@@ -981,10 +953,7 @@ lifebar_setauto	life_seishin,seishin
 
 endm
 
-
-
 macro	karin_motion_insert1
-
 
 # -- 背景		セット0
 layer_movepass_push	l_back,2,	PLAY_LOOP
@@ -1021,7 +990,6 @@ layer_scalepass_push	l_leg,2,	PLAY_LOOP
 layer_anime_push	l_eyeblow,2,	PLAY_LOOP
 layer_anime_push	l_mouth,2,	PLAY_ONCE
 layer_anime_push	l_eye_f,2,	PLAY_LOOP
-
 
 tairyoku=tairyoku-10*t_karin_damagefix
 seishin=seishin-15*t_karin_damagefix
@@ -1063,16 +1031,7 @@ seishin=seishin-5*t_karin_damagefix
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
-
 endm
-
-
-
-
-
-
-
-
 
 #-- 気絶 --------------------------------------------------------------------
 label t_karin_end
@@ -1087,7 +1046,6 @@ lifebar_setauto	life_seishin,seishin
 
 @training_anime_release
 
-
 どうやら気を失ってしまったようだ。
 
 これ以上続けることはできない。
@@ -1099,7 +1057,6 @@ add_atama=add_atama/2
 
 karin_kizetsu_cnt=karin_kizetsu_cnt+1
 
-
 goto	t_karin_exit2
 
 #-- 終了 --------------------------------------------------------------------
@@ -1109,10 +1066,8 @@ label t_karin_exit
 select	sel,"End training","On second thought..."
 if sel=1 then goto t_karin_loop
 
-
 if karin_command_cnt<15 then voice "P03595"	#「はぁっ…………こんなこと……おかしいわよ……」
 if karin_command_cnt>=15 then voice "P03597"	#「っふ……なんで……わたし……こんなに……あぁっ……」
-
 
 @training_anime_release
 label t_karin_exit2
@@ -1127,29 +1082,27 @@ mousecursor_reset
 
 voice_bg_stop
 
-
-
 #--------------------------------------------------------------------------
-	@karin_set
-	lifebar_open	life_atama
-	lifebar_open	life_karada
-	lifebar_open	life_kokoro
-	wait	500
+@karin_set
+lifebar_open	life_atama
+lifebar_open	life_karada
+lifebar_open	life_kokoro
+wait	500
 
-	karin_atama=karin_atama+add_atama
-	karin_karada=karin_karada+add_karada
-	karin_kokoro=karin_kokoro+add_kokoro
+karin_atama=karin_atama+add_atama
+karin_karada=karin_karada+add_karada
+karin_kokoro=karin_kokoro+add_kokoro
 
-	lifebar_setauto	life_karada,karin_karada
-	lifebar_setauto	life_kokoro,karin_kokoro
-	lifebar_setauto	life_karada,karin_karada
-	@karin_check
-	wait	1000
+lifebar_setauto	life_karada,karin_karada
+lifebar_setauto	life_kokoro,karin_kokoro
+lifebar_setauto	life_karada,karin_karada
+@karin_check
+wait	1000
 
-	lifebar_close	life_atama
-	lifebar_close	life_karada
-	lifebar_close	life_kokoro
-	wait	500
+lifebar_close	life_atama
+lifebar_close	life_karada
+lifebar_close	life_kokoro
+wait	500
 #------------------------------------------------------------------------
 
 if add_miryoku>10 then karin_command_cnt=karin_command_cnt+1
@@ -1168,5 +1121,4 @@ label	t_karin_up
 karin_reception_level=karin_reception_level+1
 
 return
-
 

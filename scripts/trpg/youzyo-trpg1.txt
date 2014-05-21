@@ -1,19 +1,11 @@
 label	trpg
-	@bg_black
-	if trpg_event=3 then gosub trpg5
-	if trpg_event=2 then gosub trpg3
-	if trpg_event=1 then gosub trpg2
-	if trpg_event=0 then gosub trpg1
-
-
+@bg_black
+if trpg_event=3 then gosub trpg5
+if trpg_event=2 then gosub trpg3
+if trpg_event=1 then gosub trpg2
+if trpg_event=0 then gosub trpg1
 
 return
-
-
-
-
-
-
 
 #すいかイベント（ＴＲＰＧ１）
 #発生条件：平日に、みかん・かりん・いちご・すいかの四人が家に居て、すいかの好感##度が一定値以上
@@ -682,10 +674,8 @@ screen_vibration	1000,16,16,16
 
 やがて砂埃が止むと、そこに緑色のブヨブヨした物体のイメージが出来上がった。
 
-
 chara	l_trpg_monster,"chara\モンスター\slime.png",-128,111
 layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
-
 
 @trpg_battle_start
 
@@ -735,11 +725,9 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 ＠すいか,R00945
 「１の目。攻撃ミスでカウンターです」
 
-
-	l_layer=l_trpg_itsuki
-	@trpg_damage
-	@trpg_itsuki_damage
-
+l_layer=l_trpg_itsuki
+@trpg_damage
+@trpg_itsuki_damage
 
 ＠樹
 「えッ……ぐはッ！？」
@@ -765,10 +753,9 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 
 その隙を狙い、スライムが身体から毒々しい色の液体が吐き出してきた！
 
-	l_layer=l_trpg_mikan
-	@trpg_damage
-	@trpg_mikan_damage
-
+l_layer=l_trpg_mikan
+@trpg_damage
+@trpg_mikan_damage
 
 ＠みかん,A02670
 「きゃあッ！」
@@ -781,10 +768,9 @@ screen_flash	500
 
 ビシュゥウウウッ！！
 
-	l_layer=l_trpg_karin
-	@trpg_damage
-	@trpg_karin_damage
-
+l_layer=l_trpg_karin
+@trpg_damage
+@trpg_karin_damage
 
 ＠かりん,P02762
 「きゃああッ！！」
@@ -842,10 +828,9 @@ screen_flash	500
 「くるなッ、バカ！」
 
 #SE38　殴る音（バキッ！）
-	l_layer=l_trpg_itsuki
-	@trpg_damage
-	@trpg_itsuki_damage
-
+l_layer=l_trpg_itsuki
+@trpg_damage
+@trpg_itsuki_damage
 
 ＠樹
 「がふッ！！」
@@ -961,7 +946,6 @@ screen_flash	500
 #■BG（図書室）
 @bg_library
 
-
 目を開けると、同時に頭の中も現実へと意識を戻してきた。
 
 ＠樹
@@ -1027,7 +1011,6 @@ screen_flash	500
 
 ＠すいか,R00957
 「それと、四人で一組のパーティだから、全員がそろってる状態でプレイに来てね」
-
 
 @karin_kanashimi
 

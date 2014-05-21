@@ -1,6 +1,5 @@
 label	trpg3b
 
-
 #■BG（黒）
 @bg_black
 bgm_stop
@@ -57,7 +56,6 @@ bgm_stop
 ＠いちご,O02846
 「ぐぐぅ～…がぐぐ……ぐぴゅるる～～」
 
-
 #@trpg_karin_ikari
 
 ＠かりん,P02863
@@ -106,7 +104,6 @@ bgm_stop
 
 @trpg_karin_warai
 
-
 ＠かりん,P02868
 「んん～ッ、いい風ね」
 
@@ -147,7 +144,6 @@ bgm_stop
 
 @trpg_karin_ikari
 
-
 ＠かりん,P02873
 「うるさいわねッ、一人で熱く過ごしてなさいっ！」
 
@@ -162,7 +158,6 @@ screen_flash	1000
 
 @trpg_karin_ikari
 
-
 ＠かりん,P02874
 「人が考えごとをしてるって言うのに、邪魔するからよ」
 
@@ -174,7 +169,6 @@ screen_flash	1000
 すぐ側で、鬼気迫るような女性の悲鳴が聞こえた。
 
 @trpg_karin_odoroki
-
 
 ＠かりん,P02876
 「え、なにっ？　悲鳴！？」
@@ -188,7 +182,6 @@ chara	l_trpg_monster,"chara\モンスター\tree2.png",-164,-211
 layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 
 @trpg_karin_ikari
-
 
 ＠かりん,P02877
 「な、何なのこいつらっ…」
@@ -215,7 +208,6 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 ＠女性,V14001
 「ああッ！？　た、助けてぇッ！　モンスターがッ！！」
 
-
 @trpg_karin_ikari
 
 ＠かりん,P02878
@@ -226,10 +218,7 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 ＠かりん,P02879
 「くらえッ、魔炎連弾ッ！！」
 
-	@trpg_karin_attack
-
-
-
+@trpg_karin_attack
 
 ＠モンスター,V08009
 「シュグウゥゥゥッッ！？」
@@ -239,12 +228,9 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 ＠かりん,P02880
 「たああッ！！」
 
-
-	@trpg_karin_attack
-
+@trpg_karin_attack
 
 @trpg_karin_ikari
-
 
 かりんの放った火球が直撃し、植物モンスターは身を怯ませる。
 
@@ -328,7 +314,6 @@ screen_flash	1000
 蕾のようなモンスターの頭上から、ヌルヌルの蔦が無数に飛び出した！
 
 @trpg_karin_ikari
-
 
 ＠かりん,P02891
 「気持ち悪いわねッ、もう！」
@@ -851,14 +836,12 @@ event	"event\EV_ETC_030-02.png"
 @effect_iku
 event	"event\EV_ETC_030-03.png"
 
-
 グビュルウゥッ！！　ドビュゥウウッ、ドクドクッ！　ドクンッ！
 
 ＠かりん,P02986
 「えぼおおぉおおおぉッ！？　あひいぃいいッ！　あひいぃいいッ！！」
 
 screen_flash	1000
-
 
 ズヂュヂュゥッ！！　ビュルルッ、ヂュグゥッ！　ビュビュルッ！
 
@@ -869,14 +852,12 @@ screen_flash	1000
 
 二度三度と脈動し、それでもまだ衰えない量が触手の中から吐き出され続ける。
 
-
 screen_flash	1000
 
 ドビュウッ！！　ドクドクッ、グビュゥッ！　ドビュルッ、ドクンッ！　ドクドクッ！
 
 ＠かりん,P02988
 「はぐうぅうッ！！　うへぇええッ！　ま、まだ出るのぉッ…もう止めてぇえッ！！」
-
 
 screen_flash	1000
 
@@ -889,7 +870,6 @@ screen_flash	1000
 「えはあぁあッ！　ふぐぅううッ！　お、お腹に溜まっていくぅッ……妊娠しちゃうぅぅッ！！」
 
 人ではありえない量の射精をされて、かりんのお腹はまるで孕んでいるように膨れていく。
-
 
 screen_flash	1000
 
@@ -904,7 +884,6 @@ screen_flash	1000
 
 #■HCG（差分・射精後１）
 event	"event\EV_ETC_030-04.png"
-
 
 ＠かりん,P02992
 「はああぁぁッ、うッ、おぐうぅぅッ！　えうぅうッ……や、やっと、終わったのぉ…」
@@ -1077,7 +1056,6 @@ event	"event\EV_ETC_030-04.png"
 #■HCG（差分・尻挿入一段階）
 event	"event\EV_ETC_030-05.png"
 @seh24
-
 
 ズズッ！　ヌヂュゥッ！　ヂュヌヌッ…！
 
@@ -1465,7 +1443,6 @@ event	"event\EV_ETC_030-08.png"
 
 event	"event\EV_ETC_030-07.png"
 
-
 ＠かりん,P03095
 「あぐうぅッ！　うう゛ぅうああッ、ああぁあッ！　なぁあッ！？　なああぁあッ！？」
 
@@ -1816,7 +1793,6 @@ screen_flash	1000
 
 口の中へ落ちてくる精液のドロリと苦い味も、吐き出す事すら出来ずに広がっていく。
 
-
 screen_flash	1000
 
 ドクドクッ！　ドクンッ！　ドピュブッ、ドクンッ…！
@@ -1885,7 +1861,6 @@ screen_flash	1000
 event	"event\EV_ETC_030-12.png"
 
 screen_flash	1000
-
 
 ドビュアアアァッ！　ドビュビュゥッ！　ビュヂュブッ、ヂュヴアァァッ！
 
@@ -2016,7 +1991,6 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 「グギイイイイィッ！！　ガアアアッ！！」
 
 蔦の数本と、かりんの口を塞いでいた触手をまとめてきり飛ばす！
-
 
 ＠樹
 「かりんッ！！　大丈夫かッ！！」

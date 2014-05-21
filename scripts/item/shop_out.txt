@@ -42,15 +42,14 @@ gosub	shop_out_h
 #（shop_Hへ）
 goto	shop_out_message_exit
 
-
 # 以降、条件が同じ場合の各パターンはランダムで選択
 
 #（今回の来店でアイテムを売買した場合１） ####################################
 label	shop_out_message_1
 if shop_buy_count>2 then goto shop_out_message_3
 
+#「ありがとうございました……」
 ＠Subuta,H00258
-「ありがとうございました……」
 「Thank you......」
 
 #（統合へ）
@@ -60,8 +59,8 @@ goto	shop_out_message_exit
 label	shop_out_message_2
 if shop_buy_count>2 then goto shop_out_message_3
 
+#「ありがとうございました。またのご利用をお待ちしております……」
 ＠Subuta,H00259
-「ありがとうございました。またのご利用をお待ちしております……」
 「Thank you. I look forward to doing business with you again......」
 
 #（統合へ）
@@ -70,8 +69,8 @@ goto	shop_out_message_exit
 #（今回の来店でアイテムを売買した場合３・これまで２回以上アイテムを買っている場合のみ）
 label	shop_out_message_3
 
+#「いつもありがとうございます……」
 ＠Subuta,H00260
-「いつもありがとうございます……」
 「Thank you for your patronage......」
 
 #（統合へ）
@@ -80,8 +79,8 @@ goto	shop_out_message_exit
 #（今回の来店で売買をしなかった場合）########################################
 label	shop_out_message_4
 
+#「ありがとうございました。またのご来店をお待ちしております……」
 ＠Subuta,H00261
-「ありがとうございました。またのご来店をお待ちしております……」
 「Thank you. I look forward to doing business with you again......」
 
 #（統合へ）
@@ -90,8 +89,8 @@ goto	shop_out_message_exit
 #（今回、前回の来店で売買をしなかった場合）##################################
 label	shop_out_message_5
 
+#「ありがとう……ございました……」
 ＠Subuta,H00262
-「ありがとう……ございました……」
 「Thank...... you......」
 
 #（統合へ）
@@ -100,8 +99,8 @@ goto	shop_out_message_exit
 #（３回連続売買をしなかった場合）############################################
 label	shop_out_message_6
 
+#「またのご来店をお待ちしております……」
 ＠Subuta,H00263
-「またのご来店をお待ちしております……」
 「I'm looking forward to doing business with you again......」
 
 #（統合へ）
@@ -110,8 +109,8 @@ goto	shop_out_message_exit
 #（４回連続売買をしなかった場合）############################################
 label	shop_out_message_7
 
+#「たまには……何か買ってください……」
 ＠Subuta,H00264
-「たまには……何か買ってください……」
 「Please...... Buy something sometimes......」
 
 #（統合へ）
@@ -120,8 +119,8 @@ goto	shop_out_message_exit
 #（５回連続売買をしなかった場合）#############################################
 label	shop_out_message_8
 
+#「はぁ……」
 ＠Subuta,H00265
-「はぁ……」
 「Haa......」
 
 #（統合へ）
@@ -130,8 +129,8 @@ goto	shop_out_message_exit
 #（６回連続売買をしなかった場合）#############################################
 label	shop_out_message_9
 
+#「また冷やかしですか……」
 ＠Subuta,H00266
-「また冷やかしですか……」
 「Just window-shopping again......」
 
 #（統合へ）
@@ -140,12 +139,12 @@ goto	shop_out_message_exit
 #（７回以上連続売買をしなかった場合）########################################
 label	shop_out_message_10
 
+#「…………」
 ＠Subuta,H00267
-「…………」
 「... ... ... ...」
 
 goto	shop_out_message_exit
 #■（統合）
 label	shop_out_message_exit
-	return
+return
 #（スケジュールへ）

@@ -13,612 +13,600 @@ label	nomi
 #「はーぅっ、喉渇いた～～」
 ＠Ichigo,O00114
 「Haau, I’m thirsty~」 
- 
+
 #パタパタとお風呂上りのいちごが食堂へ現れた。
 #SCRIPT ADD KANJI
 パタパタ After her bath, Ichigo appeared in the dining hall. 
- 
+
 #「ジュースないかなぁ、ジュース」
 ＠Ichigo,O00115
 「Juice, juice would be good.」 
- 
+
 @ichigo_
- 
+
 #冷蔵庫を開けてガサゴソと漁る。
 #SCRIPT ADD KANJI
 Ｓhe opens the refrigerator and rummages around. 
- 
+
 #「う～ん、と」
 ＠Ichigo,O00116
 「Yeah, got it.」 
- 
+
 @ichigo_warai
 
 #「あッ♪　ブドウの絵が描いてあるジュース缶みっけ！」
 ＠Ichigo,O00117
 「あッ♪ There is a picture of grapes on the juice bottle!」 
- 
+
 #「えっと………『ジュース…のお……』？」
 ＠Ichigo,O00118
 「Let me see ... 『Juice...from...』?」
- 
+
 #「漢字読めないけど、まぁいいや。いただきま～す♪」
 ＠Ichigo,O00119
 「I cannot read these kanji, oh well. Itadakima~su♪」 
- 
+
 #プシュッ！と開栓すると、微かにアルコール臭を漂わすそれを飲み始めた。
 #SCRIPT ADD KANJI
 プシュッ! She opens the bottle, releasing the faint odor of alcohol, and begins drinking.
 
 #{{maybe it should be "begins drinking despite the faint smell of alcohol."}} 
- 
+
 @bg_black
 wait	1000
 #一拍
- 
- 
+
 #■BG（自室・夜） 
 @bg_itsuki_n
- 
- 
+
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
 #「ん……？」
 ＠Itsuki
 「Hm...?」 
- 
+
 #「お兄ちゃぁ～ん、みかん～～、みかんだよぉ～～」
 ＠Mikan,A00247
 「Onii-chaa~n, Mikan~, Mikan is~」 
- 
+
 #「……え？」
 ＠Itsuki
 「...eh?」 
- 
+
 #のんびり横になっていたベッドから、身体を起こす。
 #SCRIPT ADD KANJI
 Ｉ was awoken from my peaceful slumber. {{Doesn't sound right}} 
- 
+
 #SE06　部屋のドア開く音（ガチャ） 
 @se06
- 
+
 @mikan_yokujyou
- 
+
 #「えへへぇ～～♪　お邪魔しま～す」
 ＠Mikan,A00248
 「Hehee~~♪Excuse~ me.」 
- 
+
 #妙にテンションの間延びしたみかんが入ってきた。
 #SCRIPT ADD KANJI
 Ａ weird tension developed as Mikan quietly entered. 
- 
+
 #「……ど、どうかしたのか、みかん？」
 ＠Itsuki
 「... Is, is something wrong Mikan?」 
- 
- 
+
 #「え～？　どうもしな………あーッ！」
 ＠Mikan,A00249
 「Eh~? Thank you... あーッ!」 
- 
+
 #「……ッ！？（ビクッ）」
 ＠Itsuki
 「… hm!? (ビクッ) 」
- 
+
 @mikan_yokujyou2
- 
+
 #「ベッドに寝てるぅ～！　エッチだ～お兄ちゃん、エッチ～～！」
 ＠Mikan,A00250
 「Sleep together~! Naughty,big brother is naughty~~!」 
- 
+
 #「もぉ、またみかんとエッチなことしようと思って待ってたんでしょぉ～」
 ＠Mikan,A00251
 「Also, Mikan and ecchi think wait ~」 {{Not sure where to go with this.}} 
- 
+
 #「…………」
 ＠Itsuki
 「... ...」 
- 
+
 @mikan_yokujyou
- 
+
 #「………ヒック」
 ＠Mikan,A00252
 「... ヒック」 {{Ohh cute, a hickup}} 
- 
+
 #「……もしかして、みかん」
 ＠Itsuki
 「... by any chance, Mikan.」 
- 
+
 #「何か酔ってるのか……？」
 ＠Itsuki
 「Are you drunk...?」 
- 
+
 @mikan_yokujyou2
- 
- 
+
 #「みかん……ヒック、乗り物酔いなんかしないよぉ～？」
 ＠Mikan,A00253
 「Mikan... ヒック, might have motion sickness~?」 
- 
+
 #「でもねぇ～？　いちごちゃんからジュース貰ってから……何か頭がクラクラするのぉ…」
 ＠Mikan,A00254
 「Maybe~? Ichigo-chan's juice... caused my dizziness...」 
- 
+
 #トロンとした目で、声も表情も少し熱っぽい。
 #SCRIPT ADD KANJI
 Ｔhe drunkeness was evident from her eyes; as well as her voice, facial expression, and slight fever. 
- 
+
 #間違いなく酒に酔っているソレだった。
 #SCRIPT ADD KANJI
 Ｔhere's no mistaking the intoxication due to alcohol. 
- 
+
 #「と、とりあえず、状況がしりたい」
 ＠Itsuki
 「Oh, now, I understand the situation.」 
- 
+
 #「いちごにジュースを貰ったって………いちごは今どこに居るんだ？」
 ＠Itsuki
 「Where did you get Ichigo's juice... Where is Ichigo right now?」 
- 
+
 #「え～？　いちごちゃんはねぇ……トイレー…」
 ＠Mikan,A00255
 「E~? Ichigo-chan is using... the toilet...」 
- 
+
 #「トイレか、分かった」
 ＠Itsuki
 「Toilet, all right.」 
- 
+
 #「ぇーから戻ってきてぇ………中庭に行くってー…」
 ＠Mikan,A00256
 「Eh-I want to go back...to the courtyard...」 
- 
+
 #「中庭だな、よし」
 ＠Itsuki
 「The courtyard, that's good.」 
- 
+
 @mikan_yokujyou
- 
+
 #「でも止めてぇ………自分の部屋ー…」
 ＠Mikan,A00257
 「But I'll stop... by my room...」 
- 
+
 #「……部屋に戻ったんだな？」
 ＠Itsuki
 「...Are you going back to your room?」 
- 
+
 #「ううんー……あのねぇ～……部屋から戻ってぇ、リビングにいるの～」
 ＠Mikan,A00258
 「Uum... excuse me~... I should return to the living room~」
 
 #{{「ううんー……あのねぇ～……部屋から戻ってぇ、リビングにいるの～」}} 
- 
+
 #「……か、完全に酔っ払ってるぞ、みかん」
 ＠Itsuki
 「...You're complete drunk, Mikan.」 
- 
- 
+
 @mikan_yokujyou2
- 
- 
+
 #「えへへ～♪　一緒に行こぉよ、お兄ちゃん～……フルーチュチューチュ美味しいよぉ～」
 ＠Mikan,A00259
 「Hehee～♪ Go with  me, Onii-chan~... Fru-juju-ju was delicious~」
 
 #{{I hope I got the slurred speech correct}} 
- 
+
 #「フルーツジュースな。言えてないから」
 ＠Itsuki
 「Don't you mean fruit juice.」 
- 
+
 #「………な、何が起こってるんだ？　一体…」
 ＠Itsuki
 「Huh, what in the world is going on? 」 
- 
+
 #■BG（黒） 
 @bg_black
- 
+
 #不安に狩られながら、お酒臭いみかんに先導されてリビングへ向かう。
 #SCRIPT ADD KANJI
 Ｗhile on our uneasy hunt, Mikan, who smells of liquor, leades me toward the livving room.
 
 #{{Not sure how to begin this.}} 
- 
+
 #……………
 #SCRIPT ADD KANJI
 　... ... 
- 
+
 #………
 #SCRIPT ADD KANJI
 　... 
- 
+
 #だが、その道中も………
 #SCRIPT ADD KANJI
 Ｈowever, on the way there... 
- 
+
 #■BG（廊下・夜） 
 @bg_rouka_n
- 
+
 #「こっちこっち～～」
 ＠Mikan,A00260
 「In here, in here~」 
- 
+
 #「こ、こらみかんッ、壁！　壁！」
 ＠Itsuki
 「H-hey Mikan, wall! wall!」 
- 
+
 #SE05　物にぶつかる音（ガンッ！） 
 @se05
- 
+
 @mikan_kanashimi_c
 
 #「ぎゃんっ！」
 ＠Mikan,A00261
 「Gyann!」 
- 
+
 #「い、痛いよぉ……」
 ＠Mikan,A00262
 「Ow, it hurts...」
 
 #{{Oh poor Mikan}} 
- 
+
 #「はぁ……」
 ＠Itsuki
 「Haa...」 
- 
+
 #先導って言うより、介抱しながらだ。
 #SCRIPT ADD KANJI
 Ｉ think I better lead the way, so that I can watch out for her.
 
 #{{Might be right?}} 
- 
- 
+
 #SE06　部屋のドア開く音（ガチャ） 
 @se06
 @mikan_
- 
+
 #■BG（リビング・夜） 
 @bg_living_n
- 
+
 #そうして、ようやくオレはリビングへ足を踏み入れる。
 #SCRIPT ADD KANJI
 Ｓo, I finally set foot in the living room. 
- 
+
 #「うわっ……」
 ＠Itsuki
 「Whaa...」 
- 
+
 #■EVCG（酔っ払い子供達） 
 event	"event\EV_ALL_010-00.png"
- 
+
 #酔っ払いのたまり場だった。
 #SCRIPT ADD KANJI
 Ｅverybody here is drunk. 
- 
+
 #「う～……こんなに想ってるのに、樹先生は振り向いてくれないんですよぉ……」
 ＠Yuzu,F00000
 「U~... When I think about Itsuki-sensei my face turns red...」 {{I think I am way off on this.}} 
- 
+
 #「そりゃ、ボクは男ですよ。でもソレが何なんですか？　愛は性別を超えないんですかっ？」
 ＠Yuzu,F00001
 「I am very much a guy.  But what does that mean? Doesn't love goes beyond gender?」 
- 
+
 #「片道で想い続けるのも、一つの純な愛の形」
 ＠Zakuro,Q00134
 「Unrequited love, a form of pure love.」 
- 
+
 #「はい、おかわり注ぐわ、ゆず」
 ＠Zakuro,Q00135
 「Hey, Let me pour you another drink, Yuzu.」 
- 
+
 #「うぅ……ありがとうございます、ざくろさん。ボクが女なら惚れてるところですよぉ」
 ＠Yuzu,F00002
 「Uu... Thank you very much, Zakuro-san. Even if I were female I woud have fallen in love.」 
- 
+
 #「結局同性愛なのね」
 ＠Zakuro,Q00136
 「After all it is homosexuality isn't it.」 
- 
+
 #クダを巻いてるゆずと、一見酔いは無さそうに酒を注ぐざくろ。
 #SCRIPT ADD KANJI
 Ｙuzu is rolling a tube and Zakuro, who seems to be sober, is pouring sake.  {{I dunno, but I tried...}} 
- 
+
 event	"event\EV_ALL_010-01.png"
- 
+
 #「うわぁああんッ！　バカだもん！　いちごはどうせバカだもんー！！」
 ＠Ichigo,O00120
 「Uwaaan!  So stupid! Ichigo is such an idiot!!」 
- 
+
 #「この前だって国語の授業で、いちご一人だけ数学の教科書開いてたもんー！　うわぁああん！」
 ＠Ichigo,O00121
 「However, a while ago, in Japanese language class, Ichigo was the only one to open a math textbook!  Uwhaan!」 
- 
+
 #「あはは♪　でも見てる方って、実は面白いんだよぉいちごちゃん～」
 ＠Suika,R00115
 「Ahaha♪ But watchng you do that really would be funny, Ichigo-chan~」 
- 
+
 #「どんなゲームでも一人はバカがいるんだから、気にしない気にしない～～、あははははは♪」
 ＠Suika,R00116
 「What kind of game but a person play with an idiot to go in the expectationis that because, to worry toworry~~, ahahahahaha♪」 {{I have no idea just used a word for word.}} 
- 
+
 #「ひーーんッ！　ざくろぉ、すいかが虐めるよぉ！」
 ＠Ichigo,O00122
 「Hi-nn! Zakuro-o, Suika is make fun of me!」 
- 
+
 #「まぁまぁ。抑えて抑えて」
 ＠Zakuro,Q00137
 「Well well. It will stop, it will stop.」 {{???}} 
- 
+
 #「はい、注ぐわ。いちごにすいか」
 ＠Zakuro,Q00138
 「Okay, I'll pour. Suika is on Ichigo.」{{???}} 
- 
+
 #号泣するいちごと、楽しそうに笑うすいか。そしてここでも冷静に酒を注ぐざくろ。
 #SCRIPT ADD KANJI
 Ｉchigo is crying and Suika is happily laughing.  
- 
+
 event	"event\EV_ALL_010-02.png"
- 
+
 #「こらーッ、樹！　部屋に行ったみかんに、何か変なことしなかったでしょうねー！」
 ＠Karin,P00002
 「Hey, Itsuki! Mikan went to your room, nothing strange happened, right!」 
- 
+
 #「大丈夫だよぉ、かりんちゃん～……お兄ちゃんにそんな度胸あるはずないも～～ん♪」
 ＠Mikan,A00263
 「It's alright Karin-chan~... Onii-chan does have that sort of courage mo~n♪」 
- 
+
 #「えへへ～♪　それよりかりんちゃん、何か縮んじゃったねぇ～……ベコベコしてるぅ…」
 ＠Mikan,A00264
 「Ehehe~♪ However, Karin-chan, something shrinks~... I am getting hungry...」 {{???}} 
- 
+
 #「な～～ッ、何もしないですってぇ～～！　すぉれって、みかんに魅力が無いってことぉ～！　樹ーッ！」
 ＠Karin,P00003
 「Na~~, not doing anything~~! ~! Itsuki!」 {{Don't know the second sentance}} 
- 
+
 #いつの間にか輪に混ざって、空き缶に話しかけるみかんと、がむしゃらに絡んでくるかりん。
 #SCRIPT ADD KANJI
 Ｂefore I knew it we had joined the crowd, talking in an empty cup Mikan, recklessly began to quarrel with Karin. {{I don't getting the part about talking in an empty cup.}} 
- 
+
 #「お客さんは美少女だわ。つっちーが腰抜けなだけ」
 ＠Zakuro,Q00139
 「A beautiful female customer. Itsuki is just a coward.」 
- 
+
 #「はい。飲んで」
 ＠Zakuro,Q00140
 「Okay. Drink up.」 
- 
+
 #「そうよ、分かってるじゃないゴスロリ！　伊達にゴスってないわね！」
 ＠Karin,P00004
 「So, I don't really understand Gothic Lolita! Goth is not sophisticated!」
 
 #{{Not sure about second sentance}} 
- 
+
 #「………ゴスる」
 ＠Zakuro,Q00140a
 「......Goth.」 
- 
+
 #そしてここでもまた、平然と酒を注ぐざくろ。
 #SCRIPT ADD KANJI
 Ａnd once again Zakura calmly pours the sake. 
- 
+
 #「こ、これは……カクテル？」
 ＠Itsuki
 「This, is this... a cocktail?」 
- 
+
 #「あ～っ、ダメぇお兄ちゃん～！　かりんちゃんを取り上げないでぇ～！！」
 ＠Mikan,A00265
 「A~h, It's useless Onii-chan~! Karin-chan will not be deprived~!!」
 
 #{{Don't know if it should be your useless or it's useless}} 
- 
+
 #みかんが語りかけている空き缶を手にとって、品を見調べる。
 #SCRIPT ADD KANJI
 Ｍikan is looking in the empty glass in her hands while speaking. 
- 
+
 #『ジュース感覚のお酒・不思議超濃度』
 #SCRIPT ADD KANJI
 『Juice sensation of alcohol; mysteriously super-concentrated』
 
 #{{Not sure how to translate this, I think it's the label on the bottle, though. Also what do I do about the wierd brackets?}} 
- 
+
 #……とか書いてあった。
 #SCRIPT ADD KANJI
 　...as it was writen 
- 
+
 #「みんな、いちご経由でそれを飲んだみたい。ジュースだと思って」
 ＠Zakuro,Q00141
 「Everyone, it is because of Ichigo that we drink this. I think it is juice.」 {{???}} 
- 
+
 #「お酒って書いてあるのに。超濃度とか」
 ＠Itsuki
 「It is alcohol as wirten there. It's even super-concentrated.」 
- 
+
 #「読めなかったんでしょ。漢字」
 ＠Zakuro,Q00142
 「I guess she could not read kanji.」{{Why is there a period before the word kanji? Oh, well.}} 
- 
+
 #「うえぇぇぇええんッ！　またバカ扱いされたぁ！　いちご、パッパラパーじゃないもんー！」
 ＠Ichigo,O00123
 「UEeeeee! Again I'm treated like a fool! Ichigo ! 」 {{Sorry I have no idea what パッパラパー means}} 
- 
+
 #「大丈夫よ。私はそんなバカないちごが大好きだから」
 ＠Zakuro,Q00143
 「It's alright. Because Ichigo is such a fool is why I love her.」 
- 
+
 #「ざくろは飲まなかったのか？」
 ＠Itsuki
 「Zakura, are you not drinking?」 
- 
+
 #「ううん。たぶん、みんなよりずっと多く飲んでると思う」
 ＠Zakuro,Q00144
 「No. Probably, I drank much more than anybode else.」 
- 
+
 #「すごく酔ってて、今にも倒れそう」
 ＠Zakuro,Q00145
 「I am extremely dunk, and at any time may collapse.」 
- 
+
 #全然そうは見えないが。
 #SCRIPT ADD KANJI
 Ｉt is not at all obvious. 
- 
+
 #「雫は案の定いないけど、美雨はそろそろお風呂から上がると思うわ」
 ＠Zakuro,Q00146
 「Shizuku is not expected; however, Miu is expected to finish her bath soon.」 
- 
+
 #「思うわって……この惨状……」
 ＠Itsuki
 「What willo she think... of this terrible scene...」 
- 
+
 #SE06　部屋のドア開く音（ガチャ） 
 @se06
- 
+
 #「………え？」
 ＠Miu,B00119
 「...e?」 
- 
+
 #とか言ってる間に、何も知らない美雨がリビングへ戻ってきた。
 #SCRIPT ADD KANJI
 Ｗhile I was speeking, Miu, not knowing anything, returned to the living room. 
- 
+
 #■BG（リビング・夜） 
 @bg_living_n
- 
+
 @miu_odoroki
- 
+
 #「きゃあっ！　ど、どうしたんですか、これ！？」
 ＠Miu,B00120
 「Kyaa! What's wrong here?」 
- 
+
 #「いらっしゃい。隠れＢＡＲ『つっちー樹』へようこそ」
 ＠Zakuro,Q00147
 「Welcome. It's the hidden BAR 『Tsuchi-Itski』, it's nice to see you.」 
- 
+
 #SE66　効果音１（ビシッ！） 
 @se66
- 
+
 #「さもオレが主犯格みたいに言うなッ！」
 ＠Itsuki
 「Saying that I sound like the orchistrator of this!」 
- 
+
 @miu_ase
- 
+
 #「ＢＡＲって……うッ、すごいアルコールの匂い…」
 ＠Miu,B00121
 「A BAR...Hu, what a horrible alcohol smell... 」 
- 
+
 @miu_odoroki
- 
- 
- 
+
 #「もしかしてみんな、お酒飲んでるのっ！？」
 ＠Miu,B00122
 「Is it possible, everyone has been drinking alcohol!?」 
- 
+
 @miu_
 event	"event\EV_ALL_010-02.png"
- 
- 
+
 #「別に問題はないでしょ？　当然みんな１８歳以上なんだから」
 ＠Zakuro,Q00148
 「What's the problem? Everyone here is overy the age of 18」 
- 
+
 #「おい」
 ＠Itsuki
 「Hey.」 
- 
+
 #「ダメよざくろちゃん、お酒は２０歳になってからでしょう！」
 ＠Miu,B00123
 「This is no good Zakuro-chan, Ithink you should be over 20 to drink alcohol!」 
- 
+
 #「……いや、今のツッコむとこってソコ？」
 ＠Itsuki
 「...No, is it time to jump into bed?」{{???}} 
- 
+
 #「何してるの樹ーッ、早く注ぎなさいッ！　が、我慢してあんたのお酌、飲んであげるから！」
 ＠Karin,P00005
 「Anyway Itsuki-, you'll have your drink soon enough! But, you'll have to be patient while it's poured, drink up!」 
- 
+
 #「ほ、本当はイヤなんだからねッ！」
 ＠Karin,P00006
 「O, in reality I hate this a little!」 
- 
+
 #「ツンデレ」
 ＠Zakuro,Q00149
 「Tsudere.」 
- 
+
 #「……勘弁してくれ。ゆずは？」
 ＠Itsuki
 「Excuse me. Where is Yuzu?」 
- 
+
 #「潰れてる」
 ＠Zakuro,Q00150
 「He's smashed.」 
- 
+
 #「ぐ～～……うぅん、おちんちん～……おちんちんさえ無かったらぁ…」
 ＠Yuzu,F00003
 「Gu~...uh, penis~... penis, is only it where absent...」 
- 
+
 @miu_
 event	"event\EV_ALL_010-03.png"
- 
- 
+
 #「……ＺｚｚＺＺ」
 ＠Yuzu,F00004
 「... ZzzZZ」 
- 
+
 #見事に酔いどれ姿だった。
 #SCRIPT ADD KANJI
 Ｈis drunken appearance is beautiful. 
- 
+
 #「はぁ……」
 ＠Miu,B00124
 「Haa...」 
- 
+
 #「樹さん、手伝ってください。みんなを介抱しますから」
 ＠Miu,B00125
 「Itsuki-san, please help. Everyone needs to be looked after.」 
- 
+
 #「え～？　あははは♪　まだ全然飲めますよぉ～♪　こう見えて状態異常には強いんです！」
 ＠Suika,R00117
 「Eh~? Ahahaha♪ Still we could drink more~♪ In this way it can be seen the abnormal condition as expected!」{{I just can't get it.}} 
- 
+
 #「……了解、急いだ方がよさそうだ」
 ＠Itsuki
 「... I understand, looks like we had better hurry.」 
- 
+
 #こうして、ずいぶんと酒臭くなった子供達を介抱するのだった。
 #SCRIPT ADD KANJI
 Ｓo, I'll have to look after the children, who reeking of liquor. 
- 
+
 #「あ……」
 ＠Zakuro,Q00151
 「Ah...」 
- 
+
 #「ん……？　どうした」
 ＠Itsuki
 「Hmm, what's wrong?」 
- 
+
 #「……動いたら、酔いが回ってきた」
 ＠Zakuro,Q00152
 「...moving, I've becme tipsy.」 
- 
+
 #SE27　倒れる音（ドサッ） 
 @bg_black
 @se27
- 
+
 #「………マジで酔ってたのな」
 ＠Itsuki
 「...you seriously got drunk.」 
- 
+
 #■BG（黒） 
- 
+
 #当然、翌日全員が二日酔いになったのは言うまでもない。
 #SCRIPT ADD KANJI
 Ｎaturally, it goes without saying, everyone had a hangover the next day. 
- 
- 
+
 #（スケジュールへ） 
- 
+
 @bg_black
 return
 

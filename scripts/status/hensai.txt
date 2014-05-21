@@ -20,7 +20,6 @@ if _MONTH=12 and _DAY=31 and route_chara<>3 then gosub hensai_2
 
 if _WEEK>0 and _WEEK<6  then @open_schedule
 
-
 return
 
 ##借金返済日
@@ -31,23 +30,23 @@ money_open
 
 #途中の借金返済日（初回）######################################################
 @bg_itsuki_n
-@shizuku_warai
+@shizuku_yorokobi
 
 #大仰に、笑顔で
+#「レディス＆ジェントルメン、借金返済のお時間でーす」
 ＠Shizuku,S01704
-「レディス＆ジェントルメン、借金返済のお時間でーす」
 「Ladies and gentlemen, it's time to repay our debt」
 
-
+#「どーれどれ、樹の坊ちゃんは、お金をちゃんと貯められているかねぇ？」
 ＠Shizuku,S01705
-「どーれどれ、樹の坊ちゃんは、お金をちゃんと貯められているかねぇ？」
 「I hope you've saving your money properly, Itsuki」
 
 #SE　ドラムロール
 @se216
+@shizuku
 
+#「ん～～～～と？」
 ＠Shizuku,S01706
-「ん～～～～と？」
 「Hmmmmm」
 
 wait	1000
@@ -55,24 +54,24 @@ wait	1000
 #ここで分岐
 #貯められていた　貯められていない（1回目）　貯められていない(2回目)
 
-
 if hensai_gaku>_MONEY then goto hensai_1b
 
 label	hensai_1a
 #######貯められていた#########################################################
 #SE　ファンファーレ
 @se217
+@shizuku_warai2
 
+#「おーっ、グッジョブ！！」
 ＠Shizuku,S01707
-「おーっ、グッジョブ！！」
 「Oh, good job!!」
 
+#「この調子で、次も頼むよ」
 ＠Shizuku,S01708
-「この調子で、次も頼むよ」
 「I guess I can leave the next one to you as well」
 
+#「じゃあ、お金を頂戴しま～す」
 ＠Shizuku,S01709
-「じゃあ、お金を頂戴しま～す」
 「I'll have your payment then～」
 
 #SE　お金の減る音、お金が減る
@@ -80,16 +79,16 @@ label	hensai_1a
 repayment_sub	hensai_gaku
 money_sub	hensai_gaku
 
+#「はい、しっかり頂いたよ」
 ＠Shizuku,S01710
-「はい、しっかり頂いたよ」
 「I think that's about it」
 
+#「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 ＠Shizuku,S01711
-「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 「I'll deliver this money straight to their hideout」
 
+#「じゃあね～♪」
 ＠Shizuku,S01712
-「じゃあね～♪」
 「See you～♪」
 
 @shizuku_
@@ -97,17 +96,16 @@ money_sub	hensai_gaku
 #SE　ドアの閉まる音
 @se07
 
-ふぅ……なんとかちゃんと借金を返済できた……
-Phew... Somehow I managed to repay it...
+#ふぅ……なんとかちゃんと借金を返済できた……
+　Phew... Somehow I managed to repay it...
 
-次も頑張らないとな……
-Gotta work hard for the next one too...
+#次も頑張らないとな……
+　Gotta work hard for the next one too...
 
 #通常ルートへ
 #@mikan_plate_open
 
 return
-
 
 #######貯められなかった（1回目）#############################################
 label	hensai_1b
@@ -115,50 +113,52 @@ label	hensai_1b
 if chien_count>0 then goto hensai_1c
 
 #SE　がっかりの音
+@shizuku_ikari
 @se219
+#「…………お前」
 ＠Shizuku,S01713
-「…………お前」
 「...... You」
 
+#「これがどういうことか、わかってるんだろうね？」
 ＠Shizuku,S01714
-「これがどういうことか、わかってるんだろうね？」
 「What is the meaning of this, what are you thinking?」
 
+#「……すみません……」
 ＠Itsuki
-「……すみません……」
 「... Sorry...」
 
+#「すみません、で済む問題じゃないだろうに」
 ＠Shizuku,S01715
-「すみません、で済む問題じゃないだろうに」
 「You can't just brush this off with an apology」
 
+#「……まあ、今回は何とかしてあげるよ。仏の顔も３度まで、ってね」
 ＠Shizuku,S01716
-「……まあ、今回は何とかしてあげるよ。仏の顔も３度まで、ってね」
 「... Well, I guess I can clean this up for you this time. They say a forgiving person gives you three chances」
 
+#「あたしは仏じゃないから、次はないけど」
 ＠Shizuku,S01717
-「あたしは仏じゃないから、次はないけど」
 「I'm not forgiving though, so I won't let this slide again」
 
+#「とりあえず、今あるお金だけでも頂くとするかね」
 ＠Shizuku,S01718
-「とりあえず、今あるお金だけでも頂くとするかね」
 「I'll have to just take what you have for now」
 
 #SE　お金の減る音、お金が全部減る
+@shizuku_kanashimi
 @se218
 repayment_sub	_MONEY
 money_sub	_MONEY
 
+#「はい、しっかり頂いたよ」
 ＠Shizuku,S01719
-「はい、しっかり頂いたよ」
 「I think that's about it」
 
+#「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 ＠Shizuku,S01720
-「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 「I'll deliver this money straight to their hideout」
 
+#「じゃあ、次は頑張って」
 ＠Shizuku,S01721
-「じゃあ、次は頑張って」
 「Alright, try harder next time」
 
 @shizuku_
@@ -166,74 +166,73 @@ money_sub	_MONEY
 #SE　ドアの閉まる音
 @se07
 
-……借金を返済できなかった……
-... I wasn't able to repay the debt...
+#……借金を返済できなかった……
+　... I wasn't able to repay the debt...
 
-次は、頑張らないとな……
-I better do better next time or else...
+#次は、頑張らないとな……
+　I better do better next time or else...
 
 chien_count=chien_count+1
 #@mikan_plate_open
 
-
 return
-
 
 #######貯められなかった（2回目）#############################################
 label	hensai_1c
 
 #SE　がっかりの音
+@shizuku_kanashimi
+#「…………ハァ……」
 ＠Shizuku,S01722
-「…………ハァ……」
 「...... Ha...」
 
+#「２回目はない、って言ったよね」
 ＠Shizuku,S01723
-「２回目はない、って言ったよね」
 「So this makes twice now」
 
+#「……すみません……」
 ＠Itsuki
-「……すみません……」
 「... Sorry...」
 
+#「すみません、で済む問題じゃなんだって」
 ＠Shizuku,S01724
-「すみません、で済む問題じゃなんだって」
 「I told you, you can't just brush this off with an apology」
 
+#「今回ばっかりは、あたしにもどうにも出来ないよ」
 ＠Shizuku,S01725
-「今回ばっかりは、あたしにもどうにも出来ないよ」
 「I can't do anything to save you this time」
 
+#「……明日、ここを出て行ってもらう」
 ＠Shizuku,S01726
-「……明日、ここを出て行ってもらう」
 「... You have to leave tomorrow」
 
+#「とりあえず、今あるお金だけでも、全額頂くよ」
 ＠Shizuku,S01727
-「とりあえず、今あるお金だけでも、全額頂くよ」
 「I'll have to take all of whatever you have now」
 
 #SE　お金の減る音、お金が全部減る
 @se218
 repayment_sub	_MONEY
 money_sub	_MONEY
-
+@shizuku
+#「はい、しっかり頂いたよ」
 ＠Shizuku,S01728
-「はい、しっかり頂いたよ」
 「I think that's about it」
 
+#「……とりあえず、今日中に、荷物をまとめて出て行きな」
 ＠Shizuku,S01729
-「……とりあえず、今日中に、荷物をまとめて出て行きな」
 「... You must have your bags packed and leave by the end of today」
 
+#「あんたが施設を出て行くことは、誰にも言わないように。そしてわからないようにこっそりと出て行くんだ」
 ＠Shizuku,S01730
-「あんたが施設を出て行くことは、誰にも言わないように。そしてわからないようにこっそりと出て行くんだ」
 「You may not tell anyone that you're leaving, and you must leave discreetly so you are not seen」
 
+#「もちろん、この施設のことは口外しないように」
 ＠Shizuku,S01731
-「もちろん、この施設のことは口外しないように」
 「And don't tell anyone about this place either」
 
+#「いいね」
 ＠Shizuku,S01732
-「いいね」
 「That's settled」
 
 @shizuku_
@@ -241,21 +240,20 @@ money_sub	_MONEY
 #SE　ドアの閉まる音
 @se07
 
-……借金を返済できなかった……
-... I couldn't repay the debt...
+#……借金を返済できなかった……
+　... I couldn't repay the debt...
 
-……これから、どうしよう……
-... What will become of me after this...
+#……これから、どうしよう……
+　... What will become of me after this...
 
-……とりあえず、荷物をまとめるか……
-... I'd better start packing...
+#……とりあえず、荷物をまとめるか……
+　... I'd better start packing...
 
 #（寝ている間に、美雨に殺されるEDへ）
 
 @gameover
 
 return
-
 
 ##借金返済日2 ################################################################
 label	hensai_2
@@ -380,10 +378,8 @@ goto ending
 #娘のノーマルエンドへ
 return
 
-
 #######貯められなかった########################################################
 label	hensai_2b
-
 
 #SE　がっかりの音
 @se219
@@ -458,69 +454,68 @@ return
 ##########################################
 macro	hensai_text
 
-	if _MONTH=oldmonth then goto hensai_text_skip
-	oldmonth=_MONTH
-	if _MONTH=2 then repayment_add 1000000
-	if _MONTH=3 then repayment_add 2000000
-	if _MONTH=4 then repayment_add 3000000
-	if _MONTH=5 then repayment_add 5000000
-	if _MONTH=6 then repayment_add 9000000
-	if _MONTH=7 then repayment_add 12000000
-	if _MONTH=8 then repayment_add 18000000
-	if _MONTH=9 then repayment_add 23000000
-	if _MONTH=10 then repayment_add 35000000
-	if _MONTH=11 then repayment_add 42000000
-	if _MONTH=12 then repayment_add 50000000
+if _MONTH=oldmonth then goto hensai_text_skip
+oldmonth=_MONTH
+if _MONTH=2 then repayment_add 1000000
+if _MONTH=3 then repayment_add 2000000
+if _MONTH=4 then repayment_add 3000000
+if _MONTH=5 then repayment_add 5000000
+if _MONTH=6 then repayment_add 9000000
+if _MONTH=7 then repayment_add 12000000
+if _MONTH=8 then repayment_add 18000000
+if _MONTH=9 then repayment_add 23000000
+if _MONTH=10 then repayment_add 35000000
+if _MONTH=11 then repayment_add 42000000
+if _MONTH=12 then repayment_add 50000000
 
+#さて、今月末の借金の返済額だが……。
+　Now, here is the amount for repayment of the debt for the end of this month......
 
-さて、今月末の借金の返済額だが……。
-Now, here is the amount for repayment of the debt for the end of this month......
-
-	if _MONTH=1 then goto hensai_text_1
-	if _MONTH=12 then goto hensai_text_3
-	goto	hensai_text_2
+if _MONTH=1 then goto hensai_text_1
+if _MONTH=12 then goto hensai_text_3
+goto	hensai_text_2
 
 label	hensai_text_1
-	###1月はじめのテキスト##########################################
+###1月はじめのテキスト##########################################
 
-今月は流石に、赴任最初の月なので、借金の返済はしなくていいらしい。
-This month, as expected, since it's the first day of my new job, it's fitting if I don't have payment.
+#今月は流石に、赴任最初の月なので、借金の返済はしなくていいらしい。
+　This month, as expected, since it's the first day of my new job, it's fitting if I don't have payment.
 
-でも、来月の借金の返済のためにも、今月を頑張らないとな。
-However, for next month's payment, if I don't do my best this month......
+#でも、来月の借金の返済のためにも、今月を頑張らないとな。
+　However, for next month's payment, if I don't do my best this month......
 
-	goto	hensai_text_skip
+goto	hensai_text_skip
 
 label	hensai_text_2
-	###他の月のテキスト##########################################
+###他の月のテキスト##########################################
 
-	#借金の返済額をお金ウィンドウに表示
-	money_open
+#借金の返済額をお金ウィンドウに表示
+money_open
 
-この額を返さなければならないらしい。
-It seems this sum must be returned.
+#この額を返さなければならないらしい。
+　It seems this sum must be returned.
 
-が、頑張ろう……。
-I guess I'll do my best......
+#が、頑張ろう……。
+　I guess I'll do my best......
 
-	goto	hensai_text_skip
+goto	hensai_text_skip
 
 label	hensai_text_3
-	###最終月のテキスト##########################################
+###最終月のテキスト##########################################
 
 今月はいよいよ借金返済の最終月か。
 
-	#借金の返済額をお金ウィンドウに表示
-	money_open
+#借金の返済額をお金ウィンドウに表示
+money_open
 
-この額を返さなければならないらしい。
-It seems this sum must be returned.
+#この額を返さなければならないらしい。
+　It seems this sum must be returned.
 
 ついに最後だ。ここに来るまで長かったな……。
 
 ちゃんと返済できるように、気を引き締めて頑張ろう。
 
-	goto	hensai_text_skip
+goto	hensai_text_skip
 label	hensai_text_skip
 
 endm

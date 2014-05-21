@@ -6,25 +6,21 @@ label	suika_04
 #発生時期：６～７月頃？
 #--------------------------------------------------
 
-
 #■BG（１階廊下）
 #SE　水道で手を洗う→蛇口を閉める→ドアを開ける
 @SE07			#部屋のドア閉まる音（パタン）
 #@bg_rouka		# 廊下
 @bg_door		# ドア前
 
-
 #トイレで用を足して外に出ると、洗面所ですいかが鏡を見て髪を整えていた。
 #SCRIPT ADD KANJI
 Ｉ finished my business in the toilet and went outside, and I saw Suika fixing her hair while looking at the bathroom mirror.
-
 
 #@suika_small
 #@suika_middle		# 中間
 #@suika_shifuku
 #@suika_yorokobi		#喜
 @bg_black
-
 
 #＠すいか,R00447
 #「あ、使いますか？　もう終わりましたから」
@@ -40,38 +36,30 @@ label	suika_04
 ＠Itsuki
 「Ah, no. I washed my hands inside so it's okay.」
 
-
 #@suika			#普
-
 
 #＠すいか,R00448
 #「そうですか……」
 ＠Suika,R00448
 「I see......」
 
-
 #@suika_
-
 
 #オレはすいかの脇を通り過ぎようとするが、もう終わったというのは本当だったらしい。
 #SCRIPT ADD KANJI
 Ｉ passed by Suika, but it looked like she really was finished.
 
-
 #CH（すいか立ちポーズ）
 @SE18			#廊下を歩き去る音
-
 
 #すいかはオレと並んで廊下へ出た。
 #SCRIPT ADD KANJI
 Ｓuika stood with my and we went to the corridor.
 
-
 @bg_black
 wait		1000
 @bg_rouka		# 廊下
 @bgm12			#BGM 12 : メインテーマ
-
 
 #＠樹
 #「どこかに行くのか？」
@@ -89,7 +77,6 @@ wait		1000
 @suika_middle		# 中間
 @suika_shifuku
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00449
 #「ええ。今日はこれから接待の予定が入ってますから」
@@ -117,9 +104,7 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｂut on Suika's expression, there were no pathetic feelings shown of being treated badly by her parents, then entering this institute and becoming a prostitute.
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00450
 #「やっぱり、お客様にはがっかりしてほしくないですから、できるだけ可愛くしたいですよね……」
@@ -131,9 +116,7 @@ wait		1000
 ＠Itsuki
 「Do you?」
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00451
 #「やっぱり、私はこんな身体ですから、あんまり指名もないですし、チェンジとかされると凹みますし」
@@ -149,9 +132,7 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ was at a loss for words because of that.
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00452
 #「お客様には事前に身体のことは言ってあるはずなんですけど、実際に見てイヤな顔をする人もいますから……」
@@ -163,27 +144,21 @@ wait		1000
 ＠Itsuki
 「I see......」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00453
 #「でも、それがイイって言ってくれる人もいるんですよ」
 ＠Suika,R00453
 「But there are also people who say that that's okay.」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00454
 #「まあ変態だとは思いますけど、私みたいな子からすればホントにありがたいです」
 ＠Suika,R00454
 「Well I think that's perverted, but I'm really thankful that they choose someone like me.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00455
 #「……あ、それじゃ、私はこっちですから」
@@ -195,19 +170,15 @@ wait		1000
 ＠Itsuki
 「O, oh.」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00456
 #「頑張ってきますね！」
 ＠Suika,R00456
 「I'm going to work hard!」
 
-
 bgm_stop
 @suika_
-
 
 #にっこりとオレに微笑みかけ、すいかは玄関の方へと向かってしまう。
 #SCRIPT ADD KANJI
@@ -217,9 +188,7 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｉ stopped moving, and couldn't do anything but see her off from behind.
 
-
 @bgmk02			#BGM K02 : しんみりのテーマ
-
 
 #なんだろう、この気持ちは……。
 #SCRIPT ADD KANJI
@@ -235,11 +204,9 @@ bgm_stop
 
 bgm_stop
 
-
 #だけど、すいかは本当にこのままでいいのだろうか……？
 #SCRIPT ADD KANJI
 Ｂut is Suika really okay like this......?
-
 
 #■BG（黒）
 @bg_black
@@ -249,12 +216,6 @@ wait		1000
 
 @suika_evup
 
-
 #（スケジュールへ）
 return
-
-
-
-
-
 

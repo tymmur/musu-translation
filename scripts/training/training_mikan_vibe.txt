@@ -19,7 +19,6 @@ seishin=seishin-60*t_mikan_vibe_cnt
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
-
 return
 
 #みかん　大きなバイブ　一段階目 ###############################################
@@ -115,7 +114,6 @@ se		0,"sound\se\プイッ.WAV",play_once
 @mikan_motion_normal1
 チュルッ、ニュチュルッ……。
 
-
 ＠みかん,A03372
 「ひゃんっ。　冷たい……っ。　ああん…っ、お兄ちゃんの指がみかんのナカに入ってくるぅ…っ」
 
@@ -132,7 +130,7 @@ se		0,"sound\se\プイッ.WAV",play_once
 「ほらみかん、もっと足広げて。　中まで濡らしておかないとな」
 
 @seh22
-	se 2,"sound\se\SEH27_手マン遅い.wav",play_loop
+se 2,"sound\se\SEH27_手マン遅い.wav",play_loop
 @mikan_motion_normal1
 チュッ、チュムッ、チュニュルルッ……。
 
@@ -243,7 +241,6 @@ voice_bg	"A04246"
 
 voice_bg_stop
 return
-
 
 #みかん　大きなバイブ　2段階目 ###############################################
 label	training_mikan_vibe_02
@@ -388,7 +385,7 @@ voice_bg	"A90010"
 
 @seh22
 @mikan_motion_pain1
-	se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
+se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
 ヴヴヴヴヴヴッ！！
 
 ＠みかん,A03400
@@ -700,7 +697,7 @@ voice_bg	"A90012"
 
 screen_flash	500
 voice_bg	"A90021"
-	se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
+se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
 @mikan_motion_normal1
 ＠みかん,A03438
 「ひぁっ！ひぁあぁッ！んんぁあ……ッ！き、気持ちイイよぉ！ぶるぶる振動して、みかんのナカをかきまわして、みかんのおまんこ溶けちゃう……っ！」
@@ -808,7 +805,7 @@ passspeed=200
 
 screen_flash	500
 voice_bg	"A90022"
-	se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
+se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
 ＠みかん,A03450
 「んぁぁああっ、ひあぁぁぁんっ！　イく……、イくぅ！！　お兄ちゃん……っ、みかんイっちゃうよぅ、イっちゃう……っ！　うくぅっ、はぁ、ぁああああんっ」
 
@@ -876,6 +873,7 @@ voice_bg	"A90010"
 「あはは…。　うん…、そうかも…ね………」
 
 汗ばんだ体を撫でて、オレはそれでいい、とつぶやくように言った。
+
 #■BG　（ブラックアウト）
 voice_bg_stop
 #----------------------

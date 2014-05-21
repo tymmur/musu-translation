@@ -5,11 +5,9 @@ label	suika_11
 #発生時期：suika10の直後
 #--------------------------------------------------
 
-
 @bgmk02			#BGM K02 : しんみりのテーマ
 #■BG（１階廊下）
 @bg_rouka		# 廊下
-
 
 #……逃げ回るゴキブリを退治するのに時間を取られ、それが終わったときには夕食の時間になってしまった。
 #SCRIPT ADD KANJI
@@ -31,15 +29,12 @@ label	suika_11
 #SCRIPT ADD KANJI
 Ｉ leave the bath after relaxing a little bit, and make my way to Suika’s room.
 
-
 @bg_black
 wait		1000
 @bg_door		# ドア前
 
-
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
-
 
 #「すいか、悪い。遅くなったな」
 ＠Itsuki
@@ -55,10 +50,8 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ wonder, is she in the middle of a game again?
 
-
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
-
 
 #「おーい、すいか……！」
 ＠Itsuki
@@ -82,23 +75,19 @@ wait		1000
 ＠Itsuki
 「I’m coming in……」
 
-
 bgm_stop
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
 
-
 #仕方ないので、声をかけつつドアを開ける。
 #SCRIPT ADD KANJI
 Ｉt just can’t be helped.  I call out to her as I open the door.
-
 
 #--------------------------------------------------
 #■EVCG EV_SUI_040
 event		"event\EV_SUI_040-00.png"
 @bgmk05			#BGM K05 : 選択時のテーマ? テクノ風
 #--------------------------------------------------
-
 
 #「たぁッ！　ていッ！　喰らえぇッ……！」
 ＠Suika,R00735
@@ -132,11 +121,9 @@ event		"event\EV_SUI_040-00.png"
 #SCRIPT ADD KANJI
 Ｉt receives Suika’s special attack and its life gauge begins to drop.  And with that, it is sent flying and fades away.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_040-02.png"
 #--------------------------------------------------
-
 
 #「クックックッ……。私に逆らうからこういう目に遭うのよ……」
 ＠Suika,R00738
@@ -148,16 +135,13 @@ event		"event\EV_SUI_040-02.png"
 
 bgm_stop
 
-
 #「……ちょ、ちょっと怖いぞ、すいか」
 ＠Itsuki
 「……Tha, that was a little scary, Suika.」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_040-04.png"
 #--------------------------------------------------
-
 
 #「えっ！？　あああぁあッ……！」
 ＠Suika,R00739
@@ -166,7 +150,6 @@ event		"event\EV_SUI_040-04.png"
 #俺に気づき、すいかは大げさに驚く。
 #SCRIPT ADD KANJI
 Ａs she notices me, Suika lets out an exaggerated surprised reaction.
-
 
 @bg_black
 wait		1000
@@ -177,7 +160,6 @@ wait		1000
 @bg_suika		# すいかの部屋
 @bgm12			#BGM 12 : メインテーマ
 
-
 #「い、いつからそこにいたんですか……！？」
 ＠Suika,R00740
 「W, when did you get here……!?」 (maybe, “How long have you been there.”)
@@ -186,9 +168,7 @@ wait		1000
 ＠Itsuki
 「No, I got here just now.」
 
-
 @suika_kanashimi	#哀
-
 
 #「すみません、全然気づかなくて……」
 ＠Suika,R00741
@@ -202,9 +182,7 @@ wait		1000
 ＠Itsuki
 「Anyway, it seems like you are doing considerably better today.」
 
-
 @suika_komariwarai	#困笑
-
 
 #「え？　あははは……」
 ＠Suika,R00742
@@ -214,9 +192,7 @@ wait		1000
 ＠Suika,R00743
 「It’s on the default setting right now, so……」
 
-
 @suika_
-
 
 #引きつった笑いを浮かべ、すいかは目をそらした。
 #SCRIPT ADD KANJI
@@ -242,11 +218,9 @@ wait		1000
 #SCRIPT ADD KANJI
 Ａfter all, I came here to apologize for this evening.
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_komariwarai	#困笑
-
 
 #「あはは、いいんですよ」
 ＠Suika,R00744
@@ -260,9 +234,7 @@ wait		1000
 ＠Suika,R00746
 「Because I’m the only one hogging Inchou-sensei, I’m not going.」 (unsure of last part)
 
-
 bgm_stop
-
 
 #すいかは苦笑し、少し寂しそうにつぶやいた。
 #SCRIPT ADD KANJI
@@ -278,7 +250,6 @@ bgm_stop
 
 @suika_kanashimi	#哀
 @bgmk02			#BGM K02 : しんみりのテーマ
-
 
 #「私、思ったんです。やっぱり私なんて、院長先生には不釣り合いだな、って」
 ＠Suika,R00747
@@ -331,9 +302,7 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｅven though I have no intention of being with her like that, what I am saying is to encourage her.  But, in the future, Suika could end up hurt. (worded weird)
 
-
 @suika_komariwarai	#困笑
-
 
 #「あはは、なんかちょっと、夢を見ていたような気がします」
 ＠Suika,R00748
@@ -363,9 +332,7 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｂut…….
 
-
 @suika_warai		#笑
-
 
 #「いいんですよぉ」
 ＠Suika,R00749
@@ -375,9 +342,7 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｓmiling brightly, she looks at me and denies all of my words.
 
-
 @suika_yorokobi		#喜
-
 
 #「私だって、わかってるんです」
 ＠Suika,R00750
@@ -387,10 +352,8 @@ bgm_stop
 ＠Suika,R00751
 「I……because I am such a strange child, and I’m not cute like everyone else.」
 
-
 #@suika_komariwarai	#困笑
 @suika_kanashimi	#哀
-
 
 #「私はもともと、いらない子でしたから……」
 ＠Suika,R00752
@@ -400,15 +363,12 @@ bgm_stop
 ＠Itsuki
 「That isn’t true……!  Suika isn’t anything like an unwanted child!」 (first part pretty much just says, “It isn’t such a thing!”  But this sounds better)
 
-
 @bg_white		# 白
 #@SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
-
 
 #オレはすいかの肩に手を置いた。
 #SCRIPT ADD KANJI
 Ｉ place my hand on Suika’s shoulder.
-
 
 window_close
 screen_whiteout		100
@@ -419,7 +379,6 @@ screen_whitein		1000
 @suika			#普
 @bg_suika		# すいかの部屋
 wait			1000
-
 
 #「えっ……？」
 ＠Suika,R00753
@@ -452,22 +411,18 @@ wait			1000
 ＠Suika,R00754
 「……」
 
-
 #window_close
 #@suika_tere		#照
 #wait			2000
 #@suika_
 
-
 #「先生……」
 ＠Suika,R00755
 「Sensei……」
 
-
 #@suika_large		# 近い
 #@suika_heyagi
 #@suika			#普
-
 
 #「ホントですか……？」
 ＠Suika,R00756
@@ -501,9 +456,7 @@ wait			1000
 ＠Suika,R00759
 「Please, make me believe it……」
 
-
 @suika_
-
 
 #すいかは目を閉じて顔を上げた。
 #SCRIPT ADD KANJI
@@ -528,7 +481,6 @@ wait			1000
 #SCRIPT ADD KANJI
 Ｉf I refuse here, I’m fairly certain I would really hurt Suika…….
 
-
 #--------------------------------------------------
 #■（選択肢）
 #（１．キスする）
@@ -538,12 +490,10 @@ if sel=0 then goto suika11_q01_a
 if sel=1 then goto suika11_q01_b
 #--------------------------------------------------
 
-
 #--------------------------------------------------
 #（キスする）
 #--------------------------------------------------
 label		suika11_q01_a
-
 
 #仕方ない。ここはやはり態度で示すしかないだろう。
 #SCRIPT ADD KANJI
@@ -553,27 +503,21 @@ label		suika11_q01_a
 #SCRIPT ADD KANJI
 Ｉ truly think Suika is very charming.
 
-
 #--------------------------------------------------
 scene_start	"すいか　信じさせて"
 #--------------------------------------------------
-
 
 #オレは覚悟を決め、すいかの肩を引き寄せるようにして、唇を近づけた。
 #SCRIPT ADD KANJI
 Ｉ make my decision.  I pull Suika’s shoulders toward me so that I can draw her lips nearer.
 
-
 bgm_stop
-
 
 #俺たちの唇が、そっと重なり合う……。
 #SCRIPT ADD KANJI
 Ｏur lips gently overlap each other…….
 
-
 @bg_white		# 白
-
 
 ＠Suika,R00760
 「……」
@@ -582,22 +526,18 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｈer breathing stops, as if she is waiting for more.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-00.png"
 @bgm10			#BGM 10 : エッチシーンのテーマ
 #--------------------------------------------------
 
-
 #オレはそっと舌を伸ばし、すいかの唇を舐めた。
 #SCRIPT ADD KANJI
 Ｉ gently reach out my tongue and lick her lips.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-01.png"
 #--------------------------------------------------
-
 
 #「んっ……」
 ＠Suika,R00761
@@ -635,12 +575,10 @@ event		"event\EV_SUI_050-01.png"
 #SCRIPT ADD KANJI
 Ｓuika puts strength into her hands, and, as if in a daze, sucks on my tongue.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-02.png"
 #voice_bg	"R90001"	#注：合わないかも？
 #--------------------------------------------------
-
 
 ＠Suika,R00763
 「ちゅ……じゅぅッ……ぴちゅるッ……」
@@ -689,10 +627,8 @@ event		"event\EV_SUI_050-02.png"
 #SCRIPT ADD KANJI
 Ｓatisfied, Suika opens her lips.
 
-
 @bg_white		# 白
 #voice_bg_stop
-
 
 #「えへへ……先生……。飲んでくれて……嬉しいです……」
 ＠Suika,R00767
@@ -722,22 +658,18 @@ event		"event\EV_SUI_050-02.png"
 #SCRIPT ADD KANJI
 Ｓuch lust rises inside of me.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-00.png"
 #--------------------------------------------------
-
 
 #「すいか……」
 ＠Itsuki
 「Suika……」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-01.png"
 #voice_bg	"R90001"	#注：合わないかも？
 #--------------------------------------------------
-
 
 #オレは再びすいかを抱き寄せるようにして、唇を重ねる。
 #SCRIPT ADD KANJI
@@ -753,11 +685,9 @@ event		"event\EV_SUI_050-01.png"
 #SCRIPT ADD KANJI
 Ｉ insert my tongue and twist it around with hers.  This time, I also start to accumulate saliva.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-02.png"
 #--------------------------------------------------
-
 
 ＠Suika,R00770
 「ちゅぬっ……んぁ……じゅぅっ……」
@@ -781,11 +711,9 @@ event		"event\EV_SUI_050-02.png"
 #SCRIPT ADD KANJI
 Ｗhile we continue to kiss, my hand slowly moves toward the front of Suika’s chest.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-03.png"
 #--------------------------------------------------
-
 
 #「んっ……」
 ＠Suika,R00772
@@ -834,9 +762,7 @@ event		"event\EV_SUI_050-03.png"
 #SCRIPT ADD KANJI
 Ｉmmediately, my fingertips find their goal, and I begin to undo the zipper.
 
-
 @SEH01			#SEH01_ジッパー下げる
-
 
 ＠Suika,R00774
 「んぁ……じゅるぅっ……んくっ……」
@@ -845,9 +771,7 @@ event		"event\EV_SUI_050-03.png"
 #SCRIPT ADD KANJI
 Ｓuika lets her breathe out of her nose and slurps up my saliva. (a little unsure)
 
-
 se_stop		0
-
 
 #ファスナーを最後まで下ろし、そのまま下の体操服をめくり上げた。
 #SCRIPT ADD KANJI
@@ -864,11 +788,9 @@ se_stop		0
 #SCRIPT ADD KANJI
 Ｉ put my hands into the track suit and explore her chest.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_050-04.png"
 #--------------------------------------------------
-
 
 ＠Suika,R00776
 「んっ……！」
@@ -941,10 +863,8 @@ event		"event\EV_SUI_050-04.png"
 ＠Suika,R00780
 「んっふ、んむぅ……ぷあッ……！」
 
-
 #乳首への執拗な刺激に、すいかはついに耐えられずに唇を離してしまう。
 #voice_bg_stop
-
 
 #「はぁ……はぁ……はぁ……せんせぇ……」
 ＠Suika,R00781
@@ -990,10 +910,8 @@ event		"event\EV_SUI_050-04.png"
 ＠Itsuki
 「Suika……」
 
-
 @bg_white		# 白
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
-
 
 #オレはすいかに抱きつくと、その身体を持ち上げるようにしてベッドに横たえた。
 #SCRIPT ADD KANJI
@@ -1011,11 +929,9 @@ event		"event\EV_SUI_050-04.png"
 #SCRIPT ADD KANJI
 Ａs it is, I lift Suika’s legs up, and search along the waist of her pants.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-00.png"
 #--------------------------------------------------
-
 
 #「ううぅ……恥ずかしいです……」
 ＠Suika,R00785
@@ -1053,11 +969,9 @@ event		"event\EV_SUI_051-00.png"
 ＠Suika,R00788
 「Ah……」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-01.png"
 #--------------------------------------------------
-
 
 #一気に引き下ろすと、飾り気のない白いショーツが露わになる。
 #SCRIPT ADD KANJI
@@ -1153,9 +1067,7 @@ event		"event\EV_SUI_051-01.png"
 ＠Itsuki
 「This too……let’s take it off already……」
 
-
 @bg_white		# 白
-
 
 #オレはショーツのゴムに手をかけ、すいかのお尻を持ち上げるようにしてそれを引き下ろした。
 #SCRIPT ADD KANJI
@@ -1177,11 +1089,9 @@ event		"event\EV_SUI_051-01.png"
 ＠Itsuki
 「It’s beautiful……」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-02.png"
 #--------------------------------------------------
-
 
 #ショーツから片脚を抜き取り、オレは濡れた襞へと手を伸ばした。
 #SCRIPT ADD KANJI
@@ -1241,27 +1151,21 @@ event		"event\EV_SUI_051-02.png"
 ＠Itsuki
 「Suika……」
 
-
 @SEH01			#SEH01_ジッパー下げる
-
 
 #オレはいそいそとベルトを外し、ズボンのファスナーを下ろした。
 #SCRIPT ADD KANJI
 Ｓuika excitedly undoes my belt, and unzips my pants.
 
-
 se_stop		0
-
 
 #トランクスとまとめてズボンを下ろすと、力強く屹立したものがすいかの眼前に晒された。
 #SCRIPT ADD KANJI
 Ｗhen collecting my trousers and pulling my pants down, I stand tall and expose myself before Suika’s eyes.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-03.png"
 #--------------------------------------------------
-
 
 #「うぅ、先生の……大きいです……」
 ＠Suika,R00799
@@ -1322,11 +1226,9 @@ event		"event\EV_SUI_051-03.png"
 ＠Itsuki
 「I’m going to put it in……」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-04.png"
 #--------------------------------------------------
-
 
 #一方的に宣言し、すいかの確認を待たずに腰を進める。
 #SCRIPT ADD KANJI
@@ -1552,11 +1454,9 @@ event		"event\EV_SUI_051-04.png"
 #SCRIPT ADD KANJI
 Ｗhile I continue to move my hips, I again reach out for Suika’s breasts.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-05.png"
 #--------------------------------------------------
-
 
 ＠Suika,R00822
 「あっ……」
@@ -1597,11 +1497,9 @@ event		"event\EV_SUI_051-05.png"
 ＠Itsuki
 「Suika……」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-06.png"
 #--------------------------------------------------
-
 
 #指先でコリコリしているうちにたまらなくなって、オレは身を屈め、今度はそこに唇を近づけた。
 #SCRIPT ADD KANJI
@@ -1739,11 +1637,9 @@ event		"event\EV_SUI_051-06.png"
 ＠Suika,R00836
 「Ahaa, Sensei!  Inside!  あふんッ!」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-07.png"
 #--------------------------------------------------
-
 
 #さらに片手の親指をクリトリスに押しつける。
 #SCRIPT ADD KANJI
@@ -1781,7 +1677,6 @@ event		"event\EV_SUI_051-07.png"
 ＠Suika,R00839
 「Cumming, cummi……nhaa!  Ahaaaaaaaaaaa……!!」
 
-
 #すいかの身体が大きく波打った。
 #SCRIPT ADD KANJI
 Ｓuika’s body shudders immensely.
@@ -1794,15 +1689,12 @@ event		"event\EV_SUI_051-07.png"
 #SCRIPT ADD KANJI
 Ｉn that moment, semen instantly gushes forth and flows into Suika’s womb.
 
-
 #--------------------------------------------------
 screen_flash		500
 event		"event\EV_SUI_051-08.png"
 #--------------------------------------------------
 
-
 ビュクッ、ドプッ！　ドビュルッ……！！
-
 
 #「んああああぁッ！！　んくぅッ！！　あはぁッ……！！」
 ＠Suika,R00840
@@ -1942,11 +1834,9 @@ event		"event\EV_SUI_051-08.png"
 #SCRIPT ADD KANJI
 Ｂecause my thing was already withering inside of Suika, I gently pull back my hips.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-09.png"
 #--------------------------------------------------
-
 
 ＠Suika,R00851
 「んっ……」
@@ -1963,11 +1853,9 @@ event		"event\EV_SUI_051-09.png"
 #SCRIPT ADD KANJI
 Ｉ take a tissue from beside the bed and wipe her crotch.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_051-10.png"
 #--------------------------------------------------
-
 
 #「あっ、ちょ、くすぐったいです、ちょっと……」
 ＠Suika,R00852
@@ -1989,7 +1877,6 @@ event		"event\EV_SUI_051-10.png"
 #SCRIPT ADD KANJI
 Ｉ give up the tissue to Suika.  She wipes her rear in her own, unusual way.
 
-
 #■BG（黒）
 bgm_stop
 @bg_black
@@ -1997,13 +1884,11 @@ bgm_stop
 scene_end
 #--------------------------------------------------
 
-
 #注：ここから夜にするしかないかぁ
 #■BG（１階廊下）
 wait		1000
 @bg_rouka_n		# 廊下(夜)
 @bgmk03			#BGM K03 : 静かの時のテーマ
-
 
 #しばらくして、後始末を終えたオレはすいかに見送られ、部屋を出た。
 #SCRIPT ADD KANJI
@@ -2013,11 +1898,9 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ wanted to play the game too, however, since it’s already late today, it will have to wait for another time.
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_kanashimi	#哀
-
 
 #「今日はすみませんでした、先生……」
 ＠Suika,R00854
@@ -2031,9 +1914,7 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ bow to Suika again, saying that jokingly.
 
-
 @suika_komariwarai	#困笑
-
 
 #「あはは、そう言っていただけると私も嬉しいんですけど」
 ＠Suika,R00855
@@ -2043,9 +1924,7 @@ wait		1000
 ＠Itsuki
 「Well then, see you tomorrow.」
 
-
 @suika_
-
 
 #ぽん、といつものようにすいかの頭を軽く叩いてやり、オレはすいかに背を向けようとした。
 #SCRIPT ADD KANJI
@@ -2063,11 +1942,9 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｓhe calls out to me, and I look back.
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika			# 普
-
 
 #「私……ゲーム作るの、もっと頑張ります」
 ＠Suika,R00857
@@ -2093,9 +1970,7 @@ wait		1000
 ＠Itsuki
 「Do your best.  I’ll root for you too.」
 
-
 @suika_warai		#笑
-
 
 #「はいっ！」
 ＠Suika,R00859
@@ -2105,21 +1980,16 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｓuika takes my words seriously.  Even so, she happily nods.
 
-
 bgm_stop
 suika_end_flag=1
 
 #（統合へ）
 goto			suika11_togo1
 
-
-
-
 #--------------------------------------------------
 #（しない）
 #--------------------------------------------------
 label		suika11_q01_b
-
 
 #いや、やはり安易にそんなことをすべきじゃない……。
 #SCRIPT ADD KANJI
@@ -2145,11 +2015,9 @@ label		suika11_q01_b
 ＠Suika,R00860
 「Sensei……?」
 
-
 @suika_large		# 近い
 @suika_heyagi
 @suika			#普
-
 
 #すいかは目を開けた。
 #SCRIPT ADD KANJI
@@ -2163,9 +2031,7 @@ label		suika11_q01_b
 ＠Itsuki
 「This kind of desire isn’t the relationship we have.  Suika is a good child, and I think you are charming as well.」
 
-
 @suika_kanashimi	#哀
-
 
 #「先生……」
 ＠Suika,R00861
@@ -2175,9 +2041,7 @@ label		suika11_q01_b
 #SCRIPT ADD KANJI
 Ｓuika’s eyes look away for a moment, and then she shows me a smiling face.
 
-
 @suika_warai		#笑
-
 
 #「ありがとう、ございます……」
 ＠Suika,R00862
@@ -2191,9 +2055,7 @@ label		suika11_q01_b
 ＠Itsuki
 「I’ll enjoy myself.」
 
-
 @suika_yorokobi		#喜
-
 
 #「……あ、はい！」
 ＠Suika,R00863
@@ -2203,18 +2065,14 @@ label		suika11_q01_b
 #SCRIPT ADD KANJI
 Ｓuika is becomes flustered and nods in agreement.
 
-
 @suika_warai		#笑
-
 
 #「それじゃ、準備しますね……」
 ＠Suika,R00864
 「Well then, I’ll set it up……」
 
-
 bgm_stop
 @suika_
-
 
 #すいかは机に向かい、パソコンの電源を入れる。
 #SCRIPT ADD KANJI
@@ -2224,25 +2082,15 @@ bgm_stop
 #SCRIPT ADD KANJI
 ……And then we play the game that Suika made like normal, enjoying ourselves.
 
-
-
-
-
 #--------------------------------------------------
 #■（統合）
 #--------------------------------------------------
 label		suika11_togo1
 
-
 #■BG（黒）
 @bg_black
 wait		1000
 
-
 #（スケジュールへ）
 return
-
-
-
-
 

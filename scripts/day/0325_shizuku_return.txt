@@ -7,99 +7,98 @@ shizuku_off=0
 #■BG（青空）
 @bg_sky2
 
-雫さんが捕らえられたあの日から、もう数日が経った。
-Some time has passed since Shizuku was taken.
+#雫さんが捕らえられたあの日から、もう数日が経った。
+　Some time has passed since Shizuku was taken.
 
-あのテープ以降、相手からは何の音沙汰もない。
-Since that tape, there hasn't been any news from her captors.
+#あのテープ以降、相手からは何の音沙汰もない。
+　Since that tape, there hasn't been any news from her captors.
 
 #■BG（リビング）
 @bg_living
 
+#「………それだけに不安だ」
 ＠Itsuki
-「………それだけに不安だ」
 「... which makes me worried」
 
-相手が何をしているのかも分からない。
-I have no idea what they're doing with her.
+#相手が何をしているのかも分からない。
+　I have no idea what they're doing with her.
 
-しかし下賎な話だが、同じ男として本能で分かる。
-It's difficult to accept, but I understand the insticts of men.
+#しかし下賎な話だが、同じ男として本能で分かる。
+　It's difficult to accept, but I understand the insticts of men.
 
-性格はアレだが、雫さんはきれいな人だ。
-あんな好き勝手に出来る状況で、おいそれと解放するとは思えない。
-Her personality is kind of messed up, but Shizuku-san is a beautiful person.
+#性格はアレだが、雫さんはきれいな人だ。
+#あんな好き勝手に出来る状況で、おいそれと解放するとは思えない。
+　Her personality is kind of messed up, but Shizuku-san is a beautiful person.
 
 #SCRIPT ADD DIALOGUE
-In this situation they can have their way with her, so it's hard to imagine them releasing her so easily.
+　In this situation they can have their way with her, so it's hard to imagine them releasing her so easily.
 
+#（せめて自力で逃げ出す手段を取ってくれていれば……）
 ＠Itsuki
-（せめて自力で逃げ出す手段を取ってくれていれば……）
 （I hope she's at least finding a way to escape on her own...）
 
 @miu
 
+#「樹さん……？　どうしたんですか」
 ＠Miu,B00307
-「樹さん……？　どうしたんですか」
 「Itsuki-san...? What's wrong?」
 
 #SE35　ティーカップを置く音（カチャ）
 #SE35　Teacup placing sound（*kacha*）
 @se35
 
-物思いに耽るオレの前に、気を利かせた美雨が紅茶を運んでくれた。
-While I'm lost in my thoughts Miu brings me black tea and asks tactfully.
+#物思いに耽るオレの前に、気を利かせた美雨が紅茶を運んでくれた。
+　While I'm lost in my thoughts Miu brings me black tea and asks tactfully.
 
+#「ん、考え事」
 ＠Itsuki
-「ん、考え事」
 「Um, thinking about things」
 
+#「……雫さん、大丈夫かな」
 ＠Itsuki
-「……雫さん、大丈夫かな」
 「... I wonder if Shizuku-san's OK」
 
-『精神の保障はしない―――』
+#『精神の保障はしない―――』
 『We cannot guarantee her soul will be the same―――』
 
-脅しではなく、実際に犯されていた映像が記憶を過ぎる。
-This is past threatening, as the image of her being raped emerges from my memories.
+#脅しではなく、実際に犯されていた映像が記憶を過ぎる。
+　This is past threatening, as the image of her being raped emerges from my memories.
 
 @miu_warai
 
 bgm_stop
 
+#「あ、その事でしたら。ついさっき帰ってこられましたよ」
 ＠Miu,B00308
-「あ、その事でしたら。ついさっき帰ってこられましたよ」
 「Ah, actually about that. She got back just a short while ago」
 
-
+#「………」
 ＠Itsuki
-「………」
 「......」
 
+#「……まさか」
 ＠Itsuki
-「……まさか」
 「... That's not possible」
 
 @miu
 @bgm09
 
+#「いえ、いま部屋で着替えをしてますから、すぐ下りてくると思いますけど」
 ＠Miu,B00309
-「いえ、いま部屋で着替えをしてますから、すぐ下りてくると思いますけど」
 「Really, she's changing in her room right now, but I think she'll be down soon」
 
+#「き、着替え……だと」
 ＠Itsuki
-「き、着替え……だと」
 「She's... c-changing」
 
-ブルブルと震えた。
-I tremble furiously.
+#ブルブルと震えた。
+　I tremble furiously.
 
-手にしていたカップから零れた紅茶を美雨が甲斐甲斐しく拭いてくれた。
-Miu generously wipes up the tea that spilled from the cup I was holding.
+#手にしていたカップから零れた紅茶を美雨が甲斐甲斐しく拭いてくれた。
+　Miu generously wipes up the tea that spilled from the cup I was holding.
 
+#「っく、こんな状況で着替えなんて……。やっぱりもう精神どころか、恐怖で頭までバグって捨てられてきたんだ……！！」
 ＠Itsuki
-「っく、こんな状況で着替えなんて……。やっぱりもう精神どころか、恐怖で頭までバグって捨てられてきたんだ……！！」
 「Kku, changing clothes at a time like this... I don't need to worry about her soul anymore」 
 
 #SCRIPT ADD DIALOGUE
@@ -114,305 +113,303 @@ bgm_stop
 
 #//フラッシュ
 
+#「あいてッ」
 ＠Itsuki
-「あいてッ」
 「You」
 
 @bgm12
 
 @shizuku_ikari
 
+#「一仕事終えて帰ってきた人間をバグ呼ばわりとは、失礼だね」
 ＠Shizuku,S00436
-「一仕事終えて帰ってきた人間をバグ呼ばわりとは、失礼だね」
 「It's rude to say that about someone who just finished some business and came back」
 
-頭を叩いたままの姿勢の雫さんが背後から現れた。
-Shizuku-san looking insulted appeared behind me.
+#頭を叩いたままの姿勢の雫さんが背後から現れた。
+　Shizuku-san looking insulted appeared behind me.
 
+#「し、仕事って……？　終えた……？　何を……？」
 ＠Itsuki
-「し、仕事って……？　終えた……？　何を……？」
 「"B-Business"...? Finished...? What do you...?」
 
 @miu_warai
 
+#「おつかれさまでした。身体の方は大丈夫ですか？」
 ＠Miu,B00310
-「おつかれさまでした。身体の方は大丈夫ですか？」
 「You worked hard, good job. Is your body feeling OK?」
 
 @shizuku_warai
 
+#「ははは、何あれくらい。別にあたしじゃなくても、美雨にだって楽に捌ける人数だったろ？」
 ＠Shizuku,S00437
-「ははは、何あれくらい。別にあたしじゃなくても、美雨にだって楽に捌ける人数だったろ？」
 「Hahaha, that's nothing for me. Even if it wasn't me, you'd draw a crowd easily Miu」
 
 #CH（美雨赤面）
 
 @miu_tere
 
+#「えっ、えっと……それはちょっと。大勢の方と撮られながらなんて、恥ずかしいですし……」
 ＠Miu,B00311
-「えっ、えっと……それはちょっと。大勢の方と撮られながらなんて、恥ずかしいですし……」
 「Uh, um... That's a little... I'd be embarrassed being filmed with lots of people」
 
 @shizuku_akire
 
+#「は～ぁ、勿体無い。実際あちらさんは、あたしより美雨を抱く方を希望してたって言うのに」
 ＠Shizuku,S00438
-「は～ぁ、勿体無い。実際あちらさんは、あたしより美雨を抱く方を希望してたって言うのに」
 「Haa, what a waste. Actually Achira-san said he'd love to hold Miu in his arms more than me」
 
 @miu_komaru
 
+#「それは聞きましたけど………そんな風に求められても、今は困ります……」
 ＠Miu,B00312
-「それは聞きましたけど………そんな風に求められても、今は困ります……」
 「I heard that but... Even if I'm asked like that, it still bothers me...」
 
 @shizuku_warai
 
+#「ま、実際にやり出したらどっちでも良さそうだったけどね。あんたら猿か、獣かと」
 ＠Shizuku,S00439
-「ま、実際にやり出したらどっちでも良さそうだったけどね。あんたら猿か、獣かと」
 「Well, when it came down to it, they didn't mind who it was. Like they're monkies or animals or something」
 
+#「あの………説明を求めていいですか」
 ＠Itsuki
-「あの………説明を求めていいですか」
 「Umm...... Could I get an explanation please?」
 
-さもありなん出来事であったように会話を交わす二人の中で、一人解せないオレ。
-It looks like they're talking about something they pulled off, and I'm left out not able to piece it together.
+#さもありなん出来事であったように会話を交わす二人の中で、一人解せないオレ。
+　It looks like they're talking about something they pulled off, and I'm left out not able to piece it together.
 
+#「ん～？　分かんない？　つまり、あたしがさらわれたなんていうのは演技だよ、演技」
 ＠Shizuku,S00440
-「ん～？　分かんない？　つまり、あたしがさらわれたなんていうのは演技だよ、演技」
 「Hmm? You don't know? In other words my being kidnapped was staged, we were just acting」
 
+#「エンギ……」
 ＠Itsuki
-「エンギ……」
 「Ac-ting...」
 
+#「………」
 ＠Itsuki
-「………」
 「......」
 
+#「……………」
 ＠Itsuki
-「……………」
 「.........」
 
+#「演技ッ！？」
 ＠Itsuki
-「演技ッ！？」
 「You were acting!?」
 
 @shizuku_ikari
 
+#「あたしがあの程度で懐柔されるはず無いだろ。テープの後はきっちり全員、腰が砕けるまで攻め返してあげたよ」
 ＠Shizuku,S00441
-「あたしがあの程度で懐柔されるはず無いだろ。テープの後はきっちり全員、腰が砕けるまで攻め返してあげたよ」
 「There's obviously no way I would be won over that easily right」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「After the tape I reciprocated by breaking the balls of the lot of them」
 
+#「なッ、ななな……！？」
 ＠Itsuki
-「なッ、ななな……！？」
 「Wha, W-w-w...!?」
 
 @miu_kanashimi
 
+#「あの、すみません樹さん。私も映像を見て、これが演技だと気付いてたんですけど」
 ＠Miu,B00313
-「あの、すみません樹さん。私も映像を見て、これが演技だと気付いてたんですけど」
 「Um, I'm sorry Itsuki-san. I saw the tape too and realized it was staged」
 
+#「同時に目的も分かってしまったので、バラすわけにもいかなくて」
 ＠Miu,B00314
-「同時に目的も分かってしまったので、バラすわけにもいかなくて」
 「But I also realized the purpose and couldn't tell you the truth」
 
+#「も、目的……って」
 ＠Itsuki
-「も、目的……って」
 「Purpose...?」
 
+#「オレは本気でさらわれたと思ったから。だからちゃんとお金を返すように、いちごとかりんにも調教を始めたのに」
 ＠Itsuki
-「オレは本気でさらわれたと思ったから。だからちゃんとお金を返すように、いちごとかりんにも調教を始めたのに」
 「I thought you were really kidnapped, so I started training Ichigo and Karin so I could repay the debt」
 
 @shizuku
 
+#「そ。だから帰ってきたのさ」
 ＠Shizuku,S00442
-「そ。だから帰ってきたのさ」
 「Yeah. And so I was able to come home」
 
 #SE66　効果音１（ビシッ！）
 #SE66　Sound effect 1（*bishi*!）
 @se66
 
+#「それが目的だったんかいッ！！」
 ＠Itsuki
-「それが目的だったんかいッ！！」
 「That was the purpose!!?」
 
-実に単純な目的だった。
-そしてオレも実に単純に罠にかかってしまっていた。
-It was a rather simple objective. And I rather simply fell for it.
+#実に単純な目的だった。
+#そしてオレも実に単純に罠にかかってしまっていた。
+　It was a rather simple objective. And I rather simply fell for it.
 
+#「くぅぅ、怒るに怒れない………いや怒るんだけど、それ以上に自分の浅はかさに凹む……」
 ＠Itsuki
-「くぅぅ、怒るに怒れない………いや怒るんだけど、それ以上に自分の浅はかさに凹む……」
 「Kuuu, I'm so angry... Well I am angry, but even more I can't believe I fell for that...」
 
+#「本気で罪悪感を感じてやったのにッ。かりんにリンチをされながらもやり遂げたのにッ！」
 ＠Itsuki
-「本気で罪悪感を感じてやったのにッ。かりんにリンチをされながらもやり遂げたのにッ！」
 「I really felt guilty over this! Even though I had to bully Karin I managed it all!」
 
 @shizuku_warai
 
+#「ま、そう荒れるんじゃないよ。いずれこうなる運命だったのさ。くふふふふ」
 ＠Shizuku,S00443
-「ま、そう荒れるんじゃないよ。いずれこうなる運命だったのさ。くふふふふ」
 「Well, don't be so upset. It was destined to be like this in the end. Kufufufufu」
 
+#「………オレの中でもう、あなたは今日から狼少年ですよ」
 ＠Itsuki
-「………オレの中でもう、あなたは今日から狼少年ですよ」
 「... From now on you'll always be the boy who cried wolf in my heart」
 
+#「獣だろうと獣みたいな性欲の人間だろうと、誰に襲われてても疑ってかかることにします」
 ＠Itsuki
-「獣だろうと獣みたいな性欲の人間だろうと、誰に襲われてても疑ってかかることにします」
 「Whether you're attacked by some wild animal or men who have desires like animals, I'll always doubt you」
 
 @shizuku_warai2
 
+#「ふふん♪　それに気付くのが少し遅かったみたいだね～」
 ＠Shizuku,S00444
-「ふふん♪　それに気付くのが少し遅かったみたいだね～」
 「Fufun♪　You've caught on to that a little late～」
 
-……なんちゅう人だ。
-... What a difficult person.
+#……なんちゅう人だ。
+　... What a difficult person.
 
 @shizuku
 
+#「ふふ。ちゃんと埋め合わせはしてあげるよ」
 ＠Shizuku,S00445
-「ふふ。ちゃんと埋め合わせはしてあげるよ」
 「Fufu. I'll make sure to compensate you properly」
 
+#「美雨、ちょっとタバコ買って来てもらえる？」
 ＠Shizuku,S00446
-「美雨、ちょっとタバコ買って来てもらえる？」
 「Miu, can you go out and buy some cigarettes?」
 
 @miu_odoroki
 
+#「え……？」
 ＠Miu,B00315
-「え……？」
 「Huh...?」
 
+#「吸わないオレに、そんなもの埋め合わせになりません」
 ＠Itsuki
-「吸わないオレに、そんなもの埋め合わせになりません」
 「I don't smoke, you can't compensate me with that」
 
-美雨はチラッとオレを伺うと、物言いたげな視線を雫さんへ向けた。
-Miu glances quickly at me, and then turns to look at Shizuku like she wants to say something.
+#美雨はチラッとオレを伺うと、物言いたげな視線を雫さんへ向けた。
+　Miu glances quickly at me, and then turns to look at Shizuku like she wants to say something.
 
 @miu_kanashimi
 
+#「でも………」
 ＠Miu,B00316
-「でも………」
 「But...」
 
 @shizuku_ikari
 
+#「心配しなさんな、とりゃしないから。名目上は院長を任せられるかの最終テスト、でどうだい？」
 ＠Shizuku,S00447
-「心配しなさんな、とりゃしないから。名目上は院長を任せられるかの最終テスト、でどうだい？」
 「Don't worry, I won't do it now. How about as the last test of whether he'll be entrusted with the title of director?」
 
+#「良くはありませんけど………」
 ＠Miu,B00317
-「良くはありませんけど………」
 「I'm not happy about it but...」
 
+#「………そう言われるなら分かりました」
 ＠Miu,B00318
-「………そう言われるなら分かりました」
 「... If that's what you tell me then fine」
 
+#「あの、また……当人のオレが全然分からんのですが」
 ＠Itsuki
-「あの、また……当人のオレが全然分からんのですが」
 「Um, again... The person concerned - which is me - doesn't understand what you're saying at all」
 
 @miu_ikari
 
+#「樹さん、それでは行ってきますので。雫さんをお願いします」
 ＠Miu,B00319
-「樹さん、それでは行ってきますので。雫さんをお願いします」
 「Itsuki-san, I'll be on my way now. Please take care of Shizuku-san」
 
+#「はぁ……」
 ＠Itsuki
-「はぁ……」
 「Haa...」
 
+#「はぁ？」
 ＠Itsuki
-「はぁ？」
 「Haa?」
 
 @shizuku_warai2
 
+#「なに、美雨が買い出しに行くだけさ。いってらっしゃ～い」
 ＠Shizuku,S00448
-「なに、美雨が買い出しに行くだけさ。いってらっしゃ～い」
 「What, Miu's just going out to buy something. See you later～」
 
 @miu_kanashimi
 
+#「………いじわる」
 ＠Miu,B00320
-「………いじわる」
 「... bully」
 
 @miu_
 
-ヒラヒラと手を振る雫さんにボソリと拗ねたように呟く美雨が、リビングを出て行った。
-Her hands fluttering Shizuku-san waves at Miu who whispers something looking sulky, and leaves the living room.
+#ヒラヒラと手を振る雫さんにボソリと拗ねたように呟く美雨が、リビングを出て行った。
+　Her hands fluttering Shizuku-san waves at Miu who whispers something looking sulky, and leaves the living room.
 
-何かよく分からないまま、雫さんと二人だけで残される。
-Still not understanding something very well, I'm left alone with Shizuku.
+#何かよく分からないまま、雫さんと二人だけで残される。
+　Still not understanding something very well, I'm left alone with Shizuku.
 
 @shizuku_warai
 
+#「ははは。可愛いやつだね～美雨は」
 ＠Shizuku,S00449
-「ははは。可愛いやつだね～美雨は」
 「Hahaha. Miu's a cute one isn't she」
 
+#「……オレが雫さんをよろしくって、どういうことです？」
 ＠Itsuki
-「……オレが雫さんをよろしくって、どういうことです？」
 「... What did she mean when she said to take care of you?」
 
 @shizuku
 
+#「ん～？　騙したお詫びをね。もう一ヶ月もここで暮らしてたら、意味くらい分かるだろう？」
 ＠Shizuku,S00450
-「ん～？　騙したお詫びをね。もう一ヶ月もここで暮らしてたら、意味くらい分かるだろう？」
 「Hmm? My apology for tricking you. You've been living here for another month, so...」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「You can at least guess what we're going to do now right?」
 
+#「それはまぁ……」
 ＠Itsuki
-「それはまぁ……」
 「Well I suppose...」
 
+#「へ？」
 ＠Itsuki
-「へ？」
 「Huh?」
 
 layer_scale	l_shizuku,1000,0,0,50,50,passtype_tcb
 layer_move	l_shizuku,1000,0,0,0,100,passtype_tcb
 
-間抜けな声を漏らすオレに、雫さんがジリジリと近寄ってきた。
-Shizuku-san closes in on me while I let out a dense voice.
+#間抜けな声を漏らすオレに、雫さんがジリジリと近寄ってきた。
+　Shizuku-san closes in on me while I let out a dense voice.
 
 layer_scale	l_shizuku,1000,50,50,100,100,passtype_tcb
 layer_move	l_shizuku,1000,0,100,0,200,passtype_tcb
 
+#「そんな変な顔しなくても、気軽に考えればいいさ。気持ちよくしてもらえるんだから、大人しく同意しな」
 ＠Shizuku,S00451
-「そんな変な顔しなくても、気軽に考えればいいさ。気持ちよくしてもらえるんだから、大人しく同意しな」
 「It'll be good if you think with a light heart and without making that weird face」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「I can make you feel good, so just be quiet and agree to it」
 
-
-
+#「え、えっと……はい、そういうことなら」
 ＠Itsuki
-「え、えっと……はい、そういうことなら」
 「U-um... OK, if that's how it is」
 
-混乱しながらもここで同意するオレは、ここでの生活で感覚が麻痺してるんだろう……
-My mind's in chaos but I agree, I guess the lifestyle here is numbing my feelings.
+#混乱しながらもここで同意するオレは、ここでの生活で感覚が麻痺してるんだろう……
+　My mind's in chaos but I agree, I guess the lifestyle here is numbing my feelings.
 
 @bg_black
 
@@ -422,24 +419,24 @@ scene_start	"雫その２"
 #■（EV_SIZ_010-00_png）
 event	"event\ev_siz_010-00.png"
 
-ズボンから取り出された肉棒が、雫さん自らはだけた乳房によって挟まれた。
-The cock she took out of my pants is caught between Shizuku's naked breasts.
+#ズボンから取り出された肉棒が、雫さん自らはだけた乳房によって挟まれた。
+　The cock she took out of my pants is caught between Shizuku's naked breasts.
 
-その間にとまどいや無駄な動きは無い。
-There was no confusion or wasted movement in that space of time.
+#その間にとまどいや無駄な動きは無い。
+　There was no confusion or wasted movement in that space of time.
 
-唐突に始まったこの展開で、オレが雫さんの乳房に見とれてしまった一瞬の内だった。
-With the rapid unfolding of events, I'm caught up for a moment looking at Shizuku-san's breasts.
+#唐突に始まったこの展開で、オレが雫さんの乳房に見とれてしまった一瞬の内だった。
+　With the rapid unfolding of events, I'm caught up for a moment looking at Shizuku-san's breasts.
 
+#「子供ら相手じゃ、この感覚は久しぶりだろ？」
 ＠Shizuku,S00452
-「子供ら相手じゃ、この感覚は久しぶりだろ？」
 「Being a partner for the kids, you must miss this feeling」
 
-形のよい豊乳を惜しげもなく押し付けてくる。
-She pushes her shapely breasts against me freely.
+#形のよい豊乳を惜しげもなく押し付けてくる。
+　She pushes her shapely breasts against me freely.
 
-服越し以上の実際のボリュームが、間に挟まれた肉茎をみっちりと圧迫してみせた。
-They're bigger than through her clothes and they put a lot of pressure on my ensnared cock.
+#服越し以上の実際のボリュームが、間に挟まれた肉茎をみっちりと圧迫してみせた。
+　They're bigger than through her clothes and they put a lot of pressure on my ensnared cock.
 
 #＠雫,S00453
 #「聞いてるよ。いちごにもかりんにも、まだ最後までやってないんだろう？」
@@ -450,225 +447,225 @@ They're bigger than through her clothes and they put a lot of pressure on my ens
 #＠雫,S00454
 #「そんな遠慮、あたしにはいらないよ。今は存分にその性欲、たっぷり楽しんで発散しな」
 
-雫さんが自分の胸を緩く揉み始めると、肉棒にかかる柔肉の圧迫がうごめいた。
-Shizuku-san starts massaging her own breasts, and her soft flesh covering my cock squirms around it. 
+#雫さんが自分の胸を緩く揉み始めると、肉棒にかかる柔肉の圧迫がうごめいた。
+　Shizuku-san starts massaging her own breasts, and her soft flesh covering my cock squirms around it. 
 
-男なら誰もが見惚れる美乳が歪む扇情的な光景。
-Her beautiful breasts that would draw the eye of any man being distorted is a lascivious sight.
+#男なら誰もが見惚れる美乳が歪む扇情的な光景。
+　Her beautiful breasts that would draw the eye of any man being distorted is a lascivious sight.
 
-双丘で押し合い谷間を築く乳房の中は、見事なまでの包み込みと温もりと肉棒に与えていた。
-My cock being pushed inside the valley being formed between them is warm and is wrapped up nicely.
+#双丘で押し合い谷間を築く乳房の中は、見事なまでの包み込みと温もりと肉棒に与えていた。
+　My cock being pushed inside the valley being formed between them is warm and is wrapped up nicely.
 
+#「ふふ。なかなか情緒のあるチンポを持ってるね」
 ＠Shizuku,S00455
-「ふふ。なかなか情緒のあるチンポを持ってるね」
 「Fufu. This dick in my hand is quite charming」
 
+#「え………は？」
 ＠Itsuki
-「え………は？」
 「Huh...... What?」
 
-いきなり出た単語とその内容に、一瞬意味が分からない。
-I don't understand right away what she means by that.
+#いきなり出た単語とその内容に、一瞬意味が分からない。
+　I don't understand right away what she means by that.
 
-そんなオレを少し楽しそうに雫さんは見上げながら、
-Shizuku-san looks up at me looking a little amused saying,
+#そんなオレを少し楽しそうに雫さんは見上げながら、
+　Shizuku-san looks up at me looking a little amused saying,
 
+#「これ。お子様チンポってこと」
 ＠Shizuku,S00456
-「これ。お子様チンポってこと」
 「This. I mean it's a childish dick」
 
+#「え゛ッ！？」
 ＠Itsuki
-「え゛ッ！？」
 「Huh!?」
 
-男性器の先端を半分ほど隠す包皮を、その唇に挟んでみせた。
-Shizuku takes the foreskin half covering the penis' tip in her lips.
+#男性器の先端を半分ほど隠す包皮を、その唇に挟んでみせた。
+　Shizuku takes the foreskin half covering the penis' tip in her lips.
 
+#「あんまりこういうの見る機会ないんだよねぇ。男はすぐ見た目を気にして弄っちゃうからさ」
 ＠Shizuku,S00457
-「あんまりこういうの見る機会ないんだよねぇ。男はすぐ見た目を気にして弄っちゃうからさ」
 「I've never encountered one like this before. Men are quick to worry about how it looks, teasing them is fun」
 
+#「ちょッ！？　そんな理由で咥えないでくださいッ」
 ＠Itsuki
-「ちょッ！？　そんな理由で咥えないでくださいッ」
 「Ah--!? You don't need to hold it in your mouth if that's why you're doing it!」
 
+#「おやや？　やっぱり恥ずかしいのかい？」
 ＠Shizuku,S00458
-「おやや？　やっぱり恥ずかしいのかい？」
 「Oh my my. Are you embarrassed after all?」
 
-すぐ側から吹きかかる吐息。反応を愉しむようにソコとオレの表情とを往復する視線。
-I can feel her breath on me. 
+#すぐ側から吹きかかる吐息。反応を愉しむようにソコとオレの表情とを往復する視線。
+　I can feel her breath on me. 
 
 #SCRIPT ADD DIALOGUE
-Her eyes dart back and forth from down there and my facial expression like she's enjoying my reaction.
+　Her eyes dart back and forth from down there and my facial expression like she's enjoying my reaction.
 
-挟んだ乳房を揺らしながら、まだ柔らかい肉棒の角度を好きなように弄りながら刺激を送ってきた。
-She rocks her breasts with it inside back and forth.
+#挟んだ乳房を揺らしながら、まだ柔らかい肉棒の角度を好きなように弄りながら刺激を送ってきた。
+　She rocks her breasts with it inside back and forth.
 
 #SCRIPT ADD DIALOGUE
-And teasing the curves of my still soft penis however she wants, the stimulation increases.
+　And teasing the curves of my still soft penis however she wants, the stimulation increases.
 
+#「ふ～ん。このお子様チンポが子供らをねぇ。ぜひ一度その暴れるさまは見てみたいね？」
 ＠Shizuku,S00459
-「ふ～ん。このお子様チンポが子供らをねぇ。ぜひ一度その暴れるさまは見てみたいね？」
 「Fu～n. And you're doing those kids with this childish dick. I'm going to have to spy that intense action sometime」
 
-実際それは気にしていなかったが、目の前でこんなふうに言われると気が悪くなる。
-I wasn't actually worried about that happening so far...
+#実際それは気にしていなかったが、目の前でこんなふうに言われると気が悪くなる。
+　I wasn't actually worried about that happening so far...
 
 #SCRIPT ADD DIALOGUE
-But having her say it like this in front of me casts a shadow of doubt.
+　But having her say it like this in front of me casts a shadow of doubt.
 
+#「からかうだけなら、もう止めますよオレは」
 ＠Itsuki
-「からかうだけなら、もう止めますよオレは」
 「If you're just going to make fun of me, I'm going to stop here」
 
-この人はいつだってそうだ。
-真剣なのかふざけてるのか、その行動がまるで分からない。
-She's always like this. I can't tell if she's serious or joking, I don't understand her antics.
+#この人はいつだってそうだ。
+#真剣なのかふざけてるのか、その行動がまるで分からない。
+　She's always like this. I can't tell if she's serious or joking, I don't understand her antics.
 
-冷めた視線で見下ろして言った言葉も、まるでオレが今更止めれないのを知ってるように落ち着き払っていた。
-Unmoved by my words and icy gaze, she's calm like she knows I can't stop when we've gone this far.
+#冷めた視線で見下ろして言った言葉も、まるでオレが今更止めれないのを知ってるように落ち着き払っていた。
+　Unmoved by my words and icy gaze, she's calm like she knows I can't stop when we've gone this far.
 
+#「ふふ、いいんだよ？　止めてもさ。樹から行動を起こしてくれればね」
 ＠Shizuku,S00460
-「ふふ、いいんだよ？　止めてもさ。樹から行動を起こしてくれればね」
 「Fufu, you know it's fine right? We can stop. If I'm provoking you」
 
-苦虫を噛み潰すオレの視線と意識が、肉棒を包む乳房の感触に向いているのを見透かされている。
-She sees through my bitter look, as I'm succumbing to the feel of her breasts wrapping up my penis.
+#苦虫を噛み潰すオレの視線と意識が、肉棒を包む乳房の感触に向いているのを見透かされている。
+　She sees through my bitter look, as I'm succumbing to the feel of her breasts wrapping up my penis.
 
-癪な言葉を放ちながらも、左右から捏ね寄せられる柔肉の弾力と温もりは、完全に男を捕らえ慣れていた。
-I fire annoyed words at her, but...
+#癪な言葉を放ちながらも、左右から捏ね寄せられる柔肉の弾力と温もりは、完全に男を捕らえ慣れていた。
+　I fire annoyed words at her, but...
 
 #SCRIPT ADD DIALOGUE
-The warmth and soft elasticity of her flesh kneading from left and right inevitably catches and tames a man.
+　The warmth and soft elasticity of her flesh kneading from left and right inevitably catches and tames a man.
 
+#「ほらほら、どうしたんだい樹？　お子様チンポをからかわれたくないんだろう？」
 ＠Shizuku,S00461
-「ほらほら、どうしたんだい樹？　お子様チンポをからかわれたくないんだろう？」
 「Hey, what's wrong Itsuki? You don't want me to make fun of your childish dick right?」
 
+#「だったら早くおっぱいの間から抜いて、ズボンにしまえばいい。あたしは別に止めないからさ」
 ＠Shizuku,S00462
-「だったら早くおっぱいの間から抜いて、ズボンにしまえばいい。あたしは別に止めないからさ」
 「Then you should quickly take it out from my breasts and put it away in your pants. I'm not going to stop you」
 
-ある意味アウェーでのやり取りで勝てるはずが無かった。
-There's no way to beat her going back and forth like this.
+#ある意味アウェーでのやり取りで勝てるはずが無かった。
+　There's no way to beat her going back and forth like this.
 
-行動を起こさないオレに目を細めると、深く腰へ乳房を押し付け、肉棒への圧迫率を手慣れたように高めていく。
-I'm not spurred into action and smiling fondly at me, she pushes her breasts deep into my groin.
+#行動を起こさないオレに目を細めると、深く腰へ乳房を押し付け、肉棒への圧迫率を手慣れたように高めていく。
+　I'm not spurred into action and smiling fondly at me, she pushes her breasts deep into my groin.
 
 #SCRIPT ADD DIALOGUE
-As if I had gotten used to it, she puts more pressure on my cock.
+　As if I had gotten used to it, she puts more pressure on my cock.
 
+#「ぅっ……くそ」
 ＠Itsuki
-「ぅっ……くそ」
 「Uu... Damn」
 
+#「ふふ、性欲を抑制できない馬鹿チンポ。こんなにからかわれてるのに、もう大きくなってくるのかい？」
 ＠Shizuku,S00463
-「ふふ、性欲を抑制できない馬鹿チンポ。こんなにからかわれてるのに、もう大きくなってくるのかい？」
 「Fufu, you can't contain your lust, silly penis. It's being ridiculed like this, and yet it's still getting bigger?」
 
+#「この程度で我慢できずに勃起していくなんて、ほんと駄目なチンポねぇ」
 ＠Shizuku,S00464
-「この程度で我慢できずに勃起していくなんて、ほんと駄目なチンポねぇ」
 「It's getting this erect without being able to hold back, what a no-good penis」
 
-弄ぶように咥え食んでいた包皮を下へおろし、雫さんは勃起していく亀頭を自ら露出させた。
-Shizuku-san lowers the foreskin held in her mouth as if playing with it, and exposes the swelling head for herself.
+#弄ぶように咥え食んでいた包皮を下へおろし、雫さんは勃起していく亀頭を自ら露出させた。
+　Shizuku-san lowers the foreskin held in her mouth as if playing with it, and exposes the swelling head for herself.
 
-吹きかかる雫さんの吐息が、肉棒をより敏感にする。
-Her breath blowing onto it makes my penis more sensitive.
+#吹きかかる雫さんの吐息が、肉棒をより敏感にする。
+　Her breath blowing onto it makes my penis more sensitive.
 
+#「ほら、駄目な上にお子様なんだから。せめて情けなくないように勃起してみせるんだね」
 ＠Shizuku,S00465
-「ほら、駄目な上にお子様なんだから。せめて情けなくないように勃起してみせるんだね」
 「Look how it's going all the way up like a child's. At least don't show it getting erect so hopelessly」
 
+#「言われなくても、ガキじゃないんだから」
 ＠Itsuki
-「言われなくても、ガキじゃないんだから」
 「That's uncalled for, I'm not a kid」
 
-挑発しながらも色香の漂う雫さんの視線。
-Though provoking me the loveliness of Shizuku-san's gaze floats in the air.
+#挑発しながらも色香の漂う雫さんの視線。
+　Though provoking me the loveliness of Shizuku-san's gaze floats in the air.
 
-綺麗で豊かな乳肉が余裕で肉棒を包み込み、とろけそうな柔らかさの中へ沈めてくる。
-Her abundant, pretty breasts wrap up my cock easily and it sinks into that melty softness.
+#綺麗で豊かな乳肉が余裕で肉棒を包み込み、とろけそうな柔らかさの中へ沈めてくる。
+　Her abundant, pretty breasts wrap up my cock easily and it sinks into that melty softness.
 
 #（//最後のチュパ音は、軽い口付け程度のもので）
 
+#「もっと揉んであげるよ、自制も出来ない淫乱チンポ……。ん、ちゅぷ」
 ＠Shizuku,S00466
-「もっと揉んであげるよ、自制も出来ない淫乱チンポ……。ん、ちゅぷ」
 「I'll massage it more for you, your wild penis that can't control itself... ん、ちゅぷ」
 
+#「……んく！　ぅ」
 ＠Itsuki
-「……んく！　ぅ」
 「... nku! uh」
 
-ふいに触れられた軽い口付けが別の刺激を呼ぶと、その刹那から乳房の圧迫が深まった。
-The unexpected soft kiss gives way to more stimulation, as the pressure of her breasts deepens.
+#ふいに触れられた軽い口付けが別の刺激を呼ぶと、その刹那から乳房の圧迫が深まった。
+　The unexpected soft kiss gives way to more stimulation, as the pressure of her breasts deepens.
 
 ＠Shizuku,S00467
 「んぅ、ふぅ……っん」
 
-乳房に被せた両手を捏ねるように動かしながら、挟んだ肉棒へたっぷりの肉感を押し付ける雫さん。
-She moves both hands on her breasts kneading them, and pushes a lot of fleshy feeling onto my cock between.
+#乳房に被せた両手を捏ねるように動かしながら、挟んだ肉棒へたっぷりの肉感を押し付ける雫さん。
+　She moves both hands on her breasts kneading them, and pushes a lot of fleshy feeling onto my cock between.
 
-勃起を始めてもなお肉茎の全体を包み込む大きさは、他で表せない感触を生み出してきた。
-Her breasts' size still covers my engorging penis completely, and gives rise to a unique sensation.
+#勃起を始めてもなお肉茎の全体を包み込む大きさは、他で表せない感触を生み出してきた。
+　Her breasts' size still covers my engorging penis completely, and gives rise to a unique sensation.
 
-谷間から突き出された亀頭だけは、焦らされるように吐息が触れる。
-Just the head sticking out from between, her breath contacts it agitating it.
+#谷間から突き出された亀頭だけは、焦らされるように吐息が触れる。
+　Just the head sticking out from between, her breath contacts it agitating it.
 
+#「ふふ、ほんとにどんどん勃起してる。そんなにこのチンポを褒めてほしいのかい？」
 ＠Shizuku,S00468
-「ふふ、ほんとにどんどん勃起してる。そんなにこのチンポを褒めてほしいのかい？」
 「Fufu, it's really starting to get big. Do you want me to praise this penis that much?」
 
+#「別にそんな他意なんか……情けないって言われたくらいで」
 ＠Itsuki
-「別にそんな他意なんか……情けないって言われたくらいで」
 「I don't really need that from you... Just not being called hopeless」
 
+#「ま、どちらにしてもいい格好じゃあないかもねぇ。おっぱいに挟まれてチンポを勃起させていく姿なんか」
 ＠Shizuku,S00469
-「ま、どちらにしてもいい格好じゃあないかもねぇ。おっぱいに挟まれてチンポを勃起させていく姿なんか」
 「Well, I think your dick doesn't mind either way. It's getting hard stuck between my breasts」
 
-言葉では否定できない、実際の光景をからかいながら突いてくる。
-I'm unable to say anything back to that, and she teases and picks on me for what she sees in front of her.
+#言葉では否定できない、実際の光景をからかいながら突いてくる。
+　I'm unable to say anything back to that, and she teases and picks on me for what she sees in front of her.
 
-だがふざけ半分な口調で揶揄しながらも、その気持ちよさと興奮を誘う動きや視線はかなり手慣れていた。
-Despite her teasing, I'm falling for her movement and look that incites my excitement and brings pleasure.
+#だがふざけ半分な口調で揶揄しながらも、その気持ちよさと興奮を誘う動きや視線はかなり手慣れていた。
+　Despite her teasing, I'm falling for her movement and look that incites my excitement and brings pleasure.
 
-決して自制できないわけではなくも、刺激を受ける股間は勃起を抑えきれないのだ。
-It's not that I don't have self-control, but my penis being stimulated can't help it of course.
+#決して自制できないわけではなくも、刺激を受ける股間は勃起を抑えきれないのだ。
+　It's not that I don't have self-control, but my penis being stimulated can't help it of course.
 
+#「そろそろ勃起は限界かい、樹？　反応だけ早くて、大きさの勢いはそれほどでもないんだねぇ」
 ＠Shizuku,S00470
-「そろそろ勃起は限界かい、樹？　反応だけ早くて、大きさの勢いはそれほどでもないんだねぇ」
 「It's approaching its limit isn't it, Itsuki? It reacted quickly, but this can't be as big as it gets can it」
 
+#「それは……胸でしかされてないからですよっ。これくらいで限界を見た気になるなんて、どっちがお子様なんだか」
 ＠Itsuki
-「それは……胸でしかされてないからですよっ。これくらいで限界を見た気になるなんて、どっちがお子様なんだか」
 「Well... You've only been using your breasts」 
 
 #SCRIPT ADD DIALOGUE
 ＠Itsuki
 「If you cared to see how big it gets just with this, I wonder which one of us is childish」
 
+#「ふ～ん……ふふ、そんなこと言うの。ならそろそろ、口でしてあげようか？」
 ＠Shizuku,S00471
-「ふ～ん……ふふ、そんなこと言うの。ならそろそろ、口でしてあげようか？」
 「Fu～n... Fufu, That's what you're saying? Then maybe I can start using my mouth for you」
 
-散々言われた鬱積に思わず言い返したオレへ、雫さんはチロリと舌を軽く這わせてきた。
-Out of frustration I uttered a harsh reply without thinking. Shizuku-san lightly runs her tongue over it.
+#散々言われた鬱積に思わず言い返したオレへ、雫さんはチロリと舌を軽く這わせてきた。
+　Out of frustration I uttered a harsh reply without thinking. Shizuku-san lightly runs her tongue over it.
 
-乳房の感触で昂ぶっていた性感のせいで、手付かずだった亀頭の刺激に息が零れる。
-I breathe sharply at her touch of the so far untouched head, already aroused from the feel of her breasts.
+#乳房の感触で昂ぶっていた性感のせいで、手付かずだった亀頭の刺激に息が零れる。
+　I breathe sharply at her touch of the so far untouched head, already aroused from the feel of her breasts.
 
+#「感度のいいお子様チンポじゃ刺激が大きすぎるかもよ～？　大丈夫かな？　樹は」
 ＠Shizuku,S00472
-「感度のいいお子様チンポじゃ刺激が大きすぎるかもよ～？　大丈夫かな？　樹は」
 「I wonder if the stimulation will be too much for this sensitive childish penis? Will you be a alright? Itsuki」
 
+#「オレは、お子様じゃありませんから……っ」
 ＠Itsuki
-「オレは、お子様じゃありませんから……っ」
 「I'm not childish so go ahead...」
 
-ちょっとムキになって返すオレへ目を細めると、胸を押し付けながら本格的に舌を伸ばしてきた。
-She smiles at me who replied a little shamelessly, and while pressing her chest against it fully brings out her tongue.
+#ちょっとムキになって返すオレへ目を細めると、胸を押し付けながら本格的に舌を伸ばしてきた。
+　She smiles at me who replied a little shamelessly, and while pressing her chest against it fully brings out her tongue.
 
 #■（EV_SIZ_010-01_png）
 event	"event\ev_siz_010-01.png"
@@ -681,137 +678,137 @@ voice_bg	"S00473"
 ＠Shizuku,S00474
 「るりゅむ、れろぉ……れりゅっ、れるるッ……ぴちゅぷ、ちゅぅっ、くぷりゅ」
 
-思っていたより熱く弾力を感じさせる舌が亀頭の表面を撫で回す。
-More than I expected I feel the warm suppleness of her tongue caressing over the head.
+#思っていたより熱く弾力を感じさせる舌が亀頭の表面を撫で回す。
+　More than I expected I feel the warm suppleness of her tongue caressing over the head.
 
-半分勢いで言ったオレに、雫さんは本当に遠慮なく舌を被せて舐め上げてきた。
-I only suggested it, but Shizuku-san without restraint covers and laps it up with her tongue.
+#半分勢いで言ったオレに、雫さんは本当に遠慮なく舌を被せて舐め上げてきた。
+　I only suggested it, but Shizuku-san without restraint covers and laps it up with her tongue.
 
 ＠Shizuku,S00475
 「にりゅむ、りゅむっ……れちゅぅ、ちゅっ、ぴちゅむ、れりゅりゅ……」
 
+#「んぅ、んふぅ……我慢しなくていいんだよ？　声を出そうが、腰を動かそうが」
 ＠Shizuku,S00476
-「んぅ、んふぅ……我慢しなくていいんだよ？　声を出そうが、腰を動かそうが」
 「んぅ、んふぅ…… It's fine to not hold back you know? If you feel like letting your voice out and moving your hips」
 
+#「……っ、もちろん、そうしたい時はさせてもらいますよ。まだこの程度くらいで」
 ＠Itsuki
-「……っ、もちろん、そうしたい時はさせてもらいますよ。まだこの程度くらいで」
 「... Ah, yeah of course, when that time comes I'll let it go. It's not that far yet」
 
+#「ふふ、まぁその我慢を信じようかねぇ……ん、れりゅむっ、ぷちゅぅ」
 ＠Shizuku,S00477
-「ふふ、まぁその我慢を信じようかねぇ……ん、れりゅむっ、ぷちゅぅ」
 「Fufu, well as long as that self-restraint means something to you... ん、れりゅむっ、ぷちゅぅ」
 
-本来の目的だったお詫びは既になく、強がりだと見抜き愉しむ雫さんの瞳がこちらを見上げるだけだ。
-Shizuku-san's eyes look up at me enjoying seeing through my bluffing, no trace of the original intent of apology there.
+#本来の目的だったお詫びは既になく、強がりだと見抜き愉しむ雫さんの瞳がこちらを見上げるだけだ。
+　Shizuku-san's eyes look up at me enjoying seeing through my bluffing, no trace of the original intent of apology there.
 
-オレもここまで言われて大人しく流される気はない。
-I don't feel like quietly taking being made fun of like this.
+#オレもここまで言われて大人しく流される気はない。
+　I don't feel like quietly taking being made fun of like this.
 
+#「るりゅちゅっ、にちゅ、ちゅぅむ……おチンチンは正直なのにねぇ。こんなに大きくなって」
 ＠Shizuku,S00478
-「るりゅちゅっ、にちゅ、ちゅぅむ……おチンチンは正直なのにねぇ。こんなに大きくなって」
 「るりゅちゅっ、にちゅ、ちゅぅむ…… Your dick is pretty honest though. Look how big it's got」
 
+#「ちゅぷぅっ、ん、ほら、正直に言ってごらん……スケベなお子様チンポじゃ我慢できないって」
 ＠Shizuku,S00479
-「ちゅぷぅっ、ん、ほら、正直に言ってごらん……スケベなお子様チンポじゃ我慢できないって」
 「ちゅぷぅっ、ん、Look, I'll say it for you honestly... "your lewd childish dick can't hold itself back"」
 
-乳房を揉みしだく肉竿への刺激が勃起によって熱を帯び、また一段とその官能を改めた。
-Her breasts rubbing my cock all over are tinged with heat from the erection, and my lust goes up still more.
+#乳房を揉みしだく肉竿への刺激が勃起によって熱を帯び、また一段とその官能を改めた。
+　Her breasts rubbing my cock all over are tinged with heat from the erection, and my lust goes up still more.
 
-心地よい乳肉に強く押し包まれ、決して咥えない焦らす舌使いが亀頭の全体を舐め回す。
-The pleasant feeling of her fleshy breasts firmly presses down and wraps around it.
+#心地よい乳肉に強く押し包まれ、決して咥えない焦らす舌使いが亀頭の全体を舐め回す。
+　The pleasant feeling of her fleshy breasts firmly presses down and wraps around it.
 
 #SCRIPT ADD DIALOGUE
-Surely teasing, she uses her tongue while avoiding putting it in her mouth as she licks the head completely.
+　Surely teasing, she uses her tongue while avoiding putting it in her mouth as she licks the head completely.
 
+#「早くこのおチンチンを、おっぱいの中にヂュプヂュプ出入りさせたいんだろう？」
 ＠Shizuku,S00480
-「早くこのおチンチンを、おっぱいの中にヂュプヂュプ出入りさせたいんだろう？」
 「Don't you want to hurry up and thrust your dick lewdly in and out of my breasts?」
 
-その揉むだけだった乳房の感触が、竿を擦るように上下に動き出した。
-From just the feeling of her breasts pressing against it, it feels like she's rubbing the shaft.
+#その揉むだけだった乳房の感触が、竿を擦るように上下に動き出した。
+　From just the feeling of her breasts pressing against it, it feels like she's rubbing the shaft.
 
+#「いい加減……人の股間を無節操みたいに言うのは……んッ！　ふぅ」
 ＠Itsuki
-「いい加減……人の股間を無節操みたいに言うのは……んッ！　ふぅ」
 「No thank you... You're making it out like people have no self-respect down there... ngh! Fuu」
 
 ＠Shizuku,S00481
 「れちゅちゅっ、にりゅぅッ……ちゅぅぷ、れろっ、ぷちゅむ、くちゅぅ……」
 
-与えられるムズ痒さは痛痒となって肉棒の付け根へと流れ込まされる。
-The brushing feel she's giving me becomes unbearable and rushes down to the base of my cock.
+#与えられるムズ痒さは痛痒となって肉棒の付け根へと流れ込まされる。
+　The brushing feel she's giving me becomes unbearable and rushes down to the base of my cock.
 
-余裕を見せる舌使いなのに、乳房と合わせて十分にこちらを翻弄する巧さを見せ付けられていた。
-Her tongue use is relaxed, but her skill in toying with me together with her breasts has been diplayed fully.
+#余裕を見せる舌使いなのに、乳房と合わせて十分にこちらを翻弄する巧さを見せ付けられていた。
+　Her tongue use is relaxed, but her skill in toying with me together with her breasts has been diplayed fully.
 
+#「ぅ、ん……たったこれだけで、何で……」
 ＠Itsuki
-「ぅ、ん……たったこれだけで、何で……」
 「Uh, nn... it's up with just this, why...」
 
+#「んぅちゅ、れるぅっ……ふふ、ざくろのフェラチオで早漏だったんだろ？　樹の駄目チンポは」
 ＠Shizuku,S00482
-「んぅちゅ、れるぅっ……ふふ、ざくろのフェラチオで早漏だったんだろ？　樹の駄目チンポは」
 「んぅちゅ、れるぅっ…… Fufu, you had a premature ejaculation with Zakuro didn't you? Itsuki's no-good penis」
 
+#「そのざくろを調教してるのはあたしなんだから、当然でしょう？」
 ＠Shizuku,S00483
-「そのざくろを調教してるのはあたしなんだから、当然でしょう？」
 「It's only natural since I'm the one training Zakuro」
 
-スッと一度舌を口内に戻すのもつかの間、次にまた伸ばした時にはたっぷりと唇に滴る唾液。
-She slips her tongue back in her mouth for a moment.
+#スッと一度舌を口内に戻すのもつかの間、次にまた伸ばした時にはたっぷりと唇に滴る唾液。
+　She slips her tongue back in her mouth for a moment.
 
 #SCRIPT ADD DIALOGUE
-When she brings it out again lots of saliva trickles down her lips.
+　When she brings it out again lots of saliva trickles down her lips.
 
-同じようにすぐ唾液で口内を満たしたざくろのフェラチオを思い出した瞬間には、
-I remembered how in the same way Zakuro would quickly fill her mouth with spit and then...
+#同じようにすぐ唾液で口内を満たしたざくろのフェラチオを思い出した瞬間には、
+　I remembered how in the same way Zakuro would quickly fill her mouth with spit and then...
 
 ＠Shizuku,S00484
 「くぷちゅ……ちゅッ、にゅちゅぅッ！　んんふ……れりゅりゅっ、くぷりゅぅっ」
 
+#「ッん！　ぅ、く……」
 ＠Itsuki
-「ッん！　ぅ、く……」
 「Ngh! Uh, ku...」
 
-口唇から滴る唾汁が、舌の感触と共に亀頭へ塗りつけられていた。
-The saliva trickling from her lips is smeared across the head with the sensation of her tongue.
+#口唇から滴る唾汁が、舌の感触と共に亀頭へ塗りつけられていた。
+　The saliva trickling from her lips is smeared across the head with the sensation of her tongue.
 
 ＠Shizuku,S00485
 「ちゅちゅぅッ、れろぉ、んくぷ……にちゅっ、ちゅくぅっ、んん……りゅぶぅ！」
 
-それに続くように乳房も上下の動きが強くなり、肉棒を付け根から先まで揉むようにして擦りあげる。
-Adding to that the up and down movements of her breasts become stronger.
+#それに続くように乳房も上下の動きが強くなり、肉棒を付け根から先まで揉むようにして擦りあげる。
+　Adding to that the up and down movements of her breasts become stronger.
 
 #SCRIPT ADD DIALOGUE
-Pressing against my cock from the base to the head it's rubbed completely.
+　Pressing against my cock from the base to the head it's rubbed completely.
 
+#「あふぅ、いいんだよ、いつでも腰を突き出して……るるちゅっ、んぷ……にりゅぅッ！　口の中に突っ込んでも……」
 ＠Shizuku,S00486
-「あふぅ、いいんだよ、いつでも腰を突き出して……るるちゅっ、んぷ……にりゅぅッ！　口の中に突っ込んでも……」
 「あふぅ、It's fine you know, you can thrust your hips whenever you want...」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「るるちゅっ、んぷ……にりゅぅッ！　Even if you thrust into my mouth...」
 
+#「我慢できないんだろ、淫乱チンポは……こんなに勃起して、早く口とおっぱいを前後したいってビクビクしてるじゃないか」
 ＠Shizuku,S00487
-「我慢できないんだろ、淫乱チンポは……こんなに勃起して、早く口とおっぱいを前後したいってビクビクしてるじゃないか」
 「Your lewd dick can't hold back after all...」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「It's this hard, and it's pulsing saying it wants to go back and forth in my mouth and breasts right away」
 
-嘲るような言葉をつむぐ舌が亀頭の上で唾液の軌跡に踊る。
-Her tongue spins words making fun of me and hops along the trails of spit on the head.
+#嘲るような言葉をつむぐ舌が亀頭の上で唾液の軌跡に踊る。
+　Her tongue spins words making fun of me and hops along the trails of spit on the head.
 
-言葉に反論したいが、決して単調にならない波のある乳房と舌の刺激が情欲を膨らませた。
-I want to talk back, but her unrelenting stimulation with her tongue and breasts fills me with lust.
+#言葉に反論したいが、決して単調にならない波のある乳房と舌の刺激が情欲を膨らませた。
+　I want to talk back, but her unrelenting stimulation with her tongue and breasts fills me with lust.
 
-射精するような刺激ではないが、気を緩めると勝手に腰を動かしてしまいそうな衝動を起こされる。
-It's not on the verge of coming yet, but as I lose my resolve I start feeling more and more like thrusting my hips.
+#射精するような刺激ではないが、気を緩めると勝手に腰を動かしてしまいそうな衝動を起こされる。
+　It's not on the verge of coming yet, but as I lose my resolve I start feeling more and more like thrusting my hips.
 
+#「んぅ、りゅりゅっ、んくちゅ……ふふ、樹の駄目チンポの味、ちゃんと味わってあげるよ」
 ＠Shizuku,S00488
-「んぅ、りゅりゅっ、んくちゅ……ふふ、樹の駄目チンポの味、ちゃんと味わってあげるよ」
 「んぅ、りゅりゅっ、んくちゅ…… Fufu, I'll make sure to savor the taste of your no-good penis」
 
 event	"event\ev_siz_010-02.png"
@@ -821,99 +818,99 @@ voice_bg	"S00489"
 ＠Shizuku,S00489
 「ちゅくくッ！　ちゅりゅぅッ、くんっ……ぇふ、ぱちゅぅっ……んふッ、んくっ」
 
-そして唾液が広がると一転、蠢かされる舌が、今度はそれを舐め取りながら喉を鳴らす。
-After spreading the saliva around, her wriggling tongue this time licks it up, her throat gulping it down.
+#そして唾液が広がると一転、蠢かされる舌が、今度はそれを舐め取りながら喉を鳴らす。
+　After spreading the saliva around, her wriggling tongue this time licks it up, her throat gulping it down.
 
-粘質な唾液の流れと直接擦れる舌による緩急が性感にもたらされる。
-The flow of her sticky saliva and direct contact with her tongue quickens my arousal.
+#粘質な唾液の流れと直接擦れる舌による緩急が性感にもたらされる。
+　The flow of her sticky saliva and direct contact with her tongue quickens my arousal.
 
+#「んっく、オレは駄目チンポじゃない……ッ」
 ＠Itsuki
-「んっく、オレは駄目チンポじゃない……ッ」
 「Nkuh, my penis isn't no-good...」
 
-オレはほとんど意味のない言葉を返すだけで、あとはそれに耐えるだけだった。
-My reply is almost meaningless, and the rest I just endure.
+#オレはほとんど意味のない言葉を返すだけで、あとはそれに耐えるだけだった。
+　My reply is almost meaningless, and the rest I just endure.
 
-雫さんは笑みを返し、乳房の揉む動きを大きくしながら舌を往復させる。
-Shizuku-san smiles back at me, and rubs her breasts in a big motion while coming and going with her tongue.
+#雫さんは笑みを返し、乳房の揉む動きを大きくしながら舌を往復させる。
+　Shizuku-san smiles back at me, and rubs her breasts in a big motion while coming and going with her tongue.
 
 ＠Shizuku,S00490
 「ちゅるるッ、んくふぅ、にりゅぅ……ちゅぅぷッ、くぷりゅ、んちゅっ、れりゅぅッ」
 
-やがて舐め取り切れない唾液が滴り、擦り合う乳房の間に入ってヌルヌルとした摩擦を作り出してきた。
-The spit which she's not even close to licking up trickles down.
+#やがて舐め取り切れない唾液が滴り、擦り合う乳房の間に入ってヌルヌルとした摩擦を作り出してきた。
+　The spit which she's not even close to licking up trickles down.
 
 #SCRIPT ADD DIALOGUE
-It goes into the cleft of her breasts that she holds together making the rubbing wet.
+　It goes into the cleft of her breasts that she holds together making the rubbing wet.
 
+#「んるちゅ、にゅぷぅッ……そうそう、こっちにはちゃんと別に唾液が必要だったね」
 ＠Shizuku,S00491
-「んるちゅ、にゅぷぅッ……そうそう、こっちにはちゃんと別に唾液が必要だったね」
 「んるちゅ、にゅぷぅッ…… Good, we really need some of that there」
 
-肉棒を挟む谷間に直接唾液をたらす。
-Spit dribbles into the space where my penis is held.
+#肉棒を挟む谷間に直接唾液をたらす。
+　Spit dribbles into the space where my penis is held.
 
-再び動かされる乳房の内側で、ニチュニチュと濡れた感触が増していった。
-The feel of wetness gets more pronounced as the area between her breasts falls into motion again.
+#再び動かされる乳房の内側で、ニチュニチュと濡れた感触が増していった。
+　The feel of wetness gets more pronounced as the area between her breasts falls into motion again.
 
-それが圧迫しながら肉棒を上下にシゴき、舌の動きとリズムを合わせる。
-Putting pressure on it she strokes my cock up and down, and her tongue movement matches in rhythm.
+#それが圧迫しながら肉棒を上下にシゴき、舌の動きとリズムを合わせる。
+　Putting pressure on it she strokes my cock up and down, and her tongue movement matches in rhythm.
 
+#「卑怯だ、アウェーゲーム過ぎる……」
 ＠Itsuki
-「卑怯だ、アウェーゲーム過ぎる……」
 「This isn't fair, this is an away game for me...」
 
+#「くふぅっ、ちゅん……どうしたんだい、舐めたらもっと大きくなるんじゃなかったの？」
 ＠Shizuku,S00492
-「くふぅっ、ちゅん……どうしたんだい、舐めたらもっと大きくなるんじゃなかったの？」
 「くふぅっ、ちゅん…… What's wrong, wasn't it that if I licked it it would get bigger?」
 
+#「それとも……ぢゅぢゅぅッ、にりゅ、ちゅぅ！　やっぱりお子様チンポじゃ、この大きさが限界？」
 ＠Shizuku,S00493
-「それとも……ぢゅぢゅぅッ、にりゅ、ちゅぅ！　やっぱりお子様チンポじゃ、この大きさが限界？」
 「Or maybe... ぢゅぢゅぅッ、にりゅ、ちゅぅ！ I guess this is really is as big as a childish dick can get?」
 
-怒張した肉茎を唾液で熱くなった双乳が隙間無く包み、リズミカルに動かされる。
-Her boobs wrap up tightly around my swollen dick, and move rhythmically.
+#怒張した肉茎を唾液で熱くなった双乳が隙間無く包み、リズミカルに動かされる。
+　Her boobs wrap up tightly around my swollen dick, and move rhythmically.
 
-雫さんの言葉通り、勃起はもう限界だった。
-次ぐのは動かしたいという衝動のみ。
-As Shizuku-san said, my erection was already at its limit. There's nothing else but the urge to start moving. 
+#雫さんの言葉通り、勃起はもう限界だった。
+#次ぐのは動かしたいという衝動のみ。
+　As Shizuku-san said, my erection was already at its limit. There's nothing else but the urge to start moving. 
 
+#「ちゅぁ、んちゅぶぅ……動かしちゃいな、樹……てりゅむっ、れろぉっ、我慢できない駄目チンポだって認めてさ」
 ＠Shizuku,S00494
-「ちゅぁ、んちゅぶぅ……動かしちゃいな、樹……てりゅむっ、れろぉっ、我慢できない駄目チンポだって認めてさ」
 「ちゅぁ、んちゅぶぅ…… Start moving, Itsuki... てりゅむっ、れろぉっ、 You have to start listening to your no-good dick」
 
+#「う、くぅ……ッ」
 ＠Itsuki
-「う、くぅ……ッ」
 「Uh, kuu...」
 
-ビリビリと走る衝動を堪え、ここまできたらもう意地で首だけを振る。
-I fight the urge running through me, when I've come this far I still just stubbornly shake my head.
+#ビリビリと走る衝動を堪え、ここまできたらもう意地で首だけを振る。
+　I fight the urge running through me, when I've come this far I still just stubbornly shake my head.
 
 ＠Shizuku,S00495
 「くぢゅっ、ちゅくん……あふぅっ、んっ、んぅっ……れりゅっ、てりゅぅッ」
 
-何度も肉棒を揉み擦らせる乳肉へ起こる、ピストンさせる誘惑。
-Keenly aware of her soft flesh rubbing and pressing my cock, it allures me to start pistoning in and out.
+#何度も肉棒を揉み擦らせる乳肉へ起こる、ピストンさせる誘惑。
+　Keenly aware of her soft flesh rubbing and pressing my cock, it allures me to start pistoning in and out.
 
-伸ばされる舌の感触と唾液が覗かせる、口腔への誘い。
-The feel of her protruding tongue and spit draws me to look, I see her inviting mouth.
+#伸ばされる舌の感触と唾液が覗かせる、口腔への誘い。
+　The feel of her protruding tongue and spit draws me to look, I see her inviting mouth.
 
-すっかりネトネトになった怒張のがけっぷちで、それら衝動に耐え続ける。
-On the brink with my utterly sticky erection, I keep resisting all of it.
+#すっかりネトネトになった怒張のがけっぷちで、それら衝動に耐え続ける。
+　On the brink with my utterly sticky erection, I keep resisting all of it.
 
+#「ふぅ……ん、やれやれ、妙なところで強情だねぇ」
 ＠Shizuku,S00496
-「ふぅ……ん、やれやれ、妙なところで強情だねぇ」
 「Fuu... nh, oh man, you're being so stubborn for no reason」
 
-そんなオレを、雫さんはまるで駄々っ子に対する保護者みたいな瞳で見つめた。
-Shizuku-san gazes at me with eyes like the parent of a misbehaving child.
+#そんなオレを、雫さんはまるで駄々っ子に対する保護者みたいな瞳で見つめた。
+　Shizuku-san gazes at me with eyes like the parent of a misbehaving child.
 
+#「それじゃ、そろそろ引導を渡してやろうか、樹……」
 ＠Shizuku,S00497
-「それじゃ、そろそろ引導を渡してやろうか、樹……」
 「In that case, I'll have to do away with you, Itsuki...」
 
+#「え……」
 ＠Itsuki
-「え……」
 「Huh...」
 
 #■（EV_SIZ_010-02_png）
@@ -921,97 +918,96 @@ layer_movie_load	0,"movie\EV_SIZ_010-02.mpg",play_loop
 screen_transition	1000
 #event	"event\ev_siz_010-02.png"
 
+#密着していた肢体を僅かに浮かせ、腰と乳房との圧迫を緩めた。
+　Our tightly pressed limbs loosen a little, and the pressure between my midsection and her breasts relaxes.
 
-密着していた肢体を僅かに浮かせ、腰と乳房との圧迫を緩めた。
-Our tightly pressed limbs loosen a little, and the pressure between my midsection and her breasts relaxes.
-
-訝しむこちらを一瞥すると、オレの代わりに雫さんが上下に身体を動かし始める。
-Throwing a quick glance my way as I hesitate, Shizuku-san starts moving her body up and down in place of me.
+#訝しむこちらを一瞥すると、オレの代わりに雫さんが上下に身体を動かし始める。
+　Throwing a quick glance my way as I hesitate, Shizuku-san starts moving her body up and down in place of me.
 
 voice_bg	"S00498"
 
 ＠Shizuku,S00498
 「んぅふ、あふぅ……ちゅくぐっ、ちゅぴ、ちゅぅ……ねりゅっ、くぷむぅっ！」
 
-両側から締め付けた乳房の弾力で身体ごと肉棒をシゴき、舌先が先端の鈴口をくすぐるようにして舐め取る。
-Her supple breasts tightening from both sides stroke my cock and rub against my body.
+#両側から締め付けた乳房の弾力で身体ごと肉棒をシゴき、舌先が先端の鈴口をくすぐるようにして舐め取る。
+　Her supple breasts tightening from both sides stroke my cock and rub against my body.
 
 #SCRIPT ADD DIALOGUE
-She licks the opening of my urethra with the tip of her tongue like she's tickling it.
+　She licks the opening of my urethra with the tip of her tongue like she's tickling it.
 
+#「ぅッ！　ちょ、もうそっちから動いてるじゃないですか……ッ」
 ＠Itsuki
-「ぅッ！　ちょ、もうそっちから動いてるじゃないですか……ッ」
 「Uh! Wait, You're not going to move from there are you...」
 
+#「ちゅぐぅッ！　りゅぶっ、れりゅむ……ふふ、お子様チンポじゃ出ちゃう？　この動きだと」
 ＠Shizuku,S00499
-「ちゅぐぅッ！　りゅぶっ、れりゅむ……ふふ、お子様チンポじゃ出ちゃう？　この動きだと」
 「ちゅぐぅッ！　りゅぶっ、れりゅむ…… Fufu, is your childish dick going to come? If I move like this」
 
-いま雫さんから与えられる刺激は、ほとんど自分からピストンしているものと変わらない。
-Her stimulation right now is practically the same as if I went in and out myself.
+#いま雫さんから与えられる刺激は、ほとんど自分からピストンしているものと変わらない。
+　Her stimulation right now is practically the same as if I went in and out myself.
 
-さっきまでとは別の、今度は直接射精を促す刺激が怒涛の付け根に集まってくる。
-This time it's directly broaching ejaculation and gathers tempestuously at the base.
+#さっきまでとは別の、今度は直接射精を促す刺激が怒涛の付け根に集まってくる。
+　This time it's directly broaching ejaculation and gathers tempestuously at the base.
 
 ＠Shizuku,S00500
 「にちゅるぅッ、くぷぶッ……ちゅぷぁ、あふぅ、ん、にりゅッ、てりゅちゅぅッ！」
 
+#「れにゅぅッ、ちゅ……濃い味がする、ふふ……樹の先走り」
 ＠Shizuku,S00501
-「れにゅぅッ、ちゅ……濃い味がする、ふふ……樹の先走り」
 「れにゅぅッ、ちゅ…… It has a strong taste... Fufu, Itsuku's precum」
 
+#「咥えてもいない内にこんなに濡らしちゃって、ほんとお子様だねぇ……ちゅくるっ、てりゅぅッ、んく」
 ＠Shizuku,S00502
-「咥えてもいない内にこんなに濡らしちゃって、ほんとお子様だねぇ……ちゅくるっ、てりゅぅッ、んく」
 「Even before putting it in my mouth it's leaking out this much, so immature... ちゅくるっ、てりゅぅッ、んく」
 
-揶揄しながらそれを嚥下し、細めた舌先で鈴口を擦る。
-She teases me and swallows it, then rubs the opening of the urethra with the narrowed tip of her tongue.
+#揶揄しながらそれを嚥下し、細めた舌先で鈴口を擦る。
+　She teases me and swallows it, then rubs the opening of the urethra with the narrowed tip of her tongue.
 
-動きに耐えるかどうかではなく、すでにオルガスムスを先とした雫さんの動きに声を震わせる。
-Far from enduring her motions or anything, suddenly a voice before orgasm shakes out from me.
+#動きに耐えるかどうかではなく、すでにオルガスムスを先とした雫さんの動きに声を震わせる。
+　Far from enduring her motions or anything, suddenly a voice before orgasm shakes out from me.
 
+#「くん……ッ、雫さん、これじゃ引導じゃなくて……ッ、出そうとしてる動きですよっ」
 ＠Itsuki
-「くん……ッ、雫さん、これじゃ引導じゃなくて……ッ、出そうとしてる動きですよっ」
 「Kunh... Shizuku-san, this isn't doing away with me... the way you're moving is to make me come」
 
+#「んぅ……？　りゅくちゅッ、れるん……出るの？　樹のおチンチンじゃ、もう出ちゃうのかい？」
 ＠Shizuku,S00503
-「んぅ……？　りゅくちゅッ、れるん……出るの？　樹のおチンチンじゃ、もう出ちゃうのかい？」
 「Hm...?　りゅくちゅッ、れるん…… You're going to come? Itsuki's little penis is already about to come?」
 
+#「エッチなおチンチンだねぇ……ちゅ、にりゅぅっ！　んくふ……動かさないまま出しちゃっても満足なんだ？」
 ＠Shizuku,S00504
-「エッチなおチンチンだねぇ……ちゅ、にりゅぅっ！　んくふ……動かさないまま出しちゃっても満足なんだ？」
 「What a lewd dick... ちゅ、にりゅぅっ！　nkufu... Are you really satisfied coming without moving at all?」
 
-豊満な乳房を上下にゆすり、勃起したまま動きのない怒張を存分に弄り倒してくる。
-She rocks her voluptuous breasts up and down, playing with me and taking over my motionless erect cock as she wants.
+#豊満な乳房を上下にゆすり、勃起したまま動きのない怒張を存分に弄り倒してくる。
+　She rocks her voluptuous breasts up and down, playing with me and taking over my motionless erect cock as she wants.
 
-その刺激に性欲が引きずられる………
-何とか抑えながら、オレは首だけを横に振って否定した。
-The stimulation draws out my lust...... Somehow holding it in, I just shake my head side to side defiant.
+#その刺激に性欲が引きずられる………
+#何とか抑えながら、オレは首だけを横に振って否定した。
+　The stimulation draws out my lust...... Somehow holding it in, I just shake my head side to side defiant.
 
+#「ぅ、ぁ……んくッ、雫さんが、お子様とか言うから……ッ」
 ＠Itsuki
-「ぅ、ぁ……んくッ、雫さんが、お子様とか言うから……ッ」
 「Uh, ah... nku, since you're treating me like a kid...」
 
+#「ちゅくる、れるん……ふぅ、事実をあたしのせいにされちゃ、心外だねぇ……」
 ＠Shizuku,S00505
-「ちゅくる、れるん……ふぅ、事実をあたしのせいにされちゃ、心外だねぇ……」
 「ちゅくる、れるん…… Fuu, so you're really going to blame me, how odd...」
 
+#「悔しかったら射精する前に、もっとおチンチン硬くしてみなさい……んっく、ちゅぶぅっ……ちゅぶぷ！」
 ＠Shizuku,S00506
-「悔しかったら射精する前に、もっとおチンチン硬くしてみなさい……んっく、ちゅぶぅっ……ちゅぶぷ！」
 「If it bothers you then try and get your penis harder before you come... んっく、ちゅぶぅっ……ちゅぶぷ！」
 
-射精感を催す怒張を容赦なく乳房が擦り、衝動を導くように鈴口をほじる舌が亀頭を舐める。
-Her breasts rub my erect cock mercilessly as it shows signs of coming.
+#射精感を催す怒張を容赦なく乳房が擦り、衝動を導くように鈴口をほじる舌が亀頭を舐める。
+　Her breasts rub my erect cock mercilessly as it shows signs of coming.
 
 #SCRIPT ADD DIALOGUE
-Her tongue pecks at my urethra and licks the head leading the urge.
+　Her tongue pecks at my urethra and licks the head leading the urge.
 
-すでに唾液や先走りでグチュグチュになった乳房との摩擦には、僅かに白い泡立ちさえも生まれていた。
-The rubbing with her breasts already making lewd noises with the spit and precum...
+#すでに唾液や先走りでグチュグチュになった乳房との摩擦には、僅かに白い泡立ちさえも生まれていた。
+　The rubbing with her breasts already making lewd noises with the spit and precum...
 
 #SCRIPT ADD DIALOGUE
-Even some white foaminess had started forming.
+　Even some white foaminess had started forming.
 
 ＠Shizuku,S00507
 「ちゅくぅッ、んぷふ、れりゅちゅ……ちゅッ、ちゅくるるッ！　ちゅびッ、れりゅくぅッ」
@@ -1019,83 +1015,83 @@ Even some white foaminess had started forming.
 ＠Shizuku,S00508
 「ちゅぶぢゅ、てろぉ……くきゅるッ！　んちゅるぅッ、ぴちゅ、ぢゅちゅちゅッ、んんふ」
 
-オレの反応は完全に愉しむ対象のように見やるだけで、雫さんは攻めの手を緩めない。
-Staring at my reaction like I'm an object of interest, the onslaught from Shizuku-san's hand doesn't relax.
+#オレの反応は完全に愉しむ対象のように見やるだけで、雫さんは攻めの手を緩めない。
+　Staring at my reaction like I'm an object of interest, the onslaught from Shizuku-san's hand doesn't relax.
 
-唾液が乳肌の表面を滴る光景が、何度も自分の手で揉まれて朱を浮かせる乳房へ、オレの意識を向けさせた。
-The spit trickling down her breasts' bare skin, being rubbed by her hand over and over...
+#唾液が乳肌の表面を滴る光景が、何度も自分の手で揉まれて朱を浮かせる乳房へ、オレの意識を向けさせた。
+　The spit trickling down her breasts' bare skin, being rubbed by her hand over and over...
 
 #SCRIPT ADD DIALOGUE
-And the red of her nipple falling in and out of view pulls me in.
+　And the red of her nipple falling in and out of view pulls me in.
 
+#「っく、ぁ、雫さんだって、乳首が立ってるじゃないですか……」
 ＠Itsuki
-「っく、ぁ、雫さんだって、乳首が立ってるじゃないですか……」
 「Ukuh, ah, your nipples are hard too aren't they...」
 
-今まで自分のことに夢中で気づかなかったが、そこの突起は周りから突き出しているようだった。
-I've been like in a dream so far so I didn't notice, but I can feel something protruding from that area.
+#今まで自分のことに夢中で気づかなかったが、そこの突起は周りから突き出しているようだった。
+　I've been like in a dream so far so I didn't notice, but I can feel something protruding from that area.
 
-呼吸も少し上擦っている。表情は変わらないが、その指摘で雫さんの頬に少し朱が浮いた。
-Her breathing is more excited too. 
+#呼吸も少し上擦っている。表情は変わらないが、その指摘で雫さんの頬に少し朱が浮いた。
+　Her breathing is more excited too. 
 
 #SCRIPT ADD DIALOGUE
-Her expression hasn't changed, but now that I look I see her cheeks a little tinged with red.
+　Her expression hasn't changed, but now that I look I see her cheeks a little tinged with red.
 
+#「ぴちゅむ、あふぅ……ふふ、目の前でこんなおチンチンを見せられていたらね」
 ＠Shizuku,S00509
-「ぴちゅむ、あふぅ……ふふ、目の前でこんなおチンチンを見せられていたらね」
 「ぴちゅむ、あふぅ…… Fufu, if I have this cute penis shown right in front of me...」
 
+#「けどあたしを感じさせるには、まだまだ勃起も先走りも足りないよ」
 ＠Shizuku,S00510
-「けどあたしを感じさせるには、まだまだ勃起も先走りも足りないよ」
 「But to really turn me on, your hardness and precum isn't enough」
 
 layer_movie_speed_set	0,150
 
-その言葉を求めるように乳房の圧迫が上がり、今まで以上に強く肉棒を擦り付ける。
-Putting those words into action her breasts put more pressure, and rub against my cock harder than ever.
+#その言葉を求めるように乳房の圧迫が上がり、今まで以上に強く肉棒を擦り付ける。
+　Putting those words into action her breasts put more pressure, and rub against my cock harder than ever.
 
+#「んぅッ！　けど、これ以上は……ッ」
 ＠Itsuki
-「んぅッ！　けど、これ以上は……ッ」
 「Ngh! But, any more than this and...」
 
-舌の動きがさっき以上に気持ちよさを帯び、先走りを舐め取るように貼りついた。
-Her tongue's motions feel so good, it clings to my cock licking up the precum.
+#舌の動きがさっき以上に気持ちよさを帯び、先走りを舐め取るように貼りついた。
+　Her tongue's motions feel so good, it clings to my cock licking up the precum.
 
-トロトロと滴る唾液や先走りで潤いグジュる乳房が、まるで膣内のように肉棒に絡みつき刺激する。
-Her breasts wet with the spit and precum running onto them, it stimulates and wraps around my cock like a pussy.
+#トロトロと滴る唾液や先走りで潤いグジュる乳房が、まるで膣内のように肉棒に絡みつき刺激する。
+　Her breasts wet with the spit and precum running onto them, it stimulates and wraps around my cock like a pussy.
 
+#「ちゅぐぅッ、ぴちゅぢゅ！　あふ……おチンチンからもっと、お子様汁を滲ませてごらん」
 ＠Shizuku,S00511
-「ちゅぐぅッ、ぴちゅぢゅ！　あふ……おチンチンからもっと、お子様汁を滲ませてごらん」
 「ちゅぐぅッ、ぴちゅぢゅ！　Afu... please make more of your immature cock juice run out」
 
+#「射精を我慢してもっと大きく、樹の淫乱チンポを勃起させるんだよ……ん、くぷちゅぅッ！」
 ＠Shizuku,S00512
-「射精を我慢してもっと大きく、樹の淫乱チンポを勃起させるんだよ……ん、くぷちゅぅッ！」
 「Hold back on coming and get bigger, Itsuki's lewd dick can get more erect... ん、くぷちゅぅッ！」
 
+#「ぁく……ッ、う」
 ＠Itsuki
-「ぁく……ッ、う」
 「Aku... Uh」
 
 layer_movie_speed_set	0,200
 
-雫さんからけなされる言葉が一瞬、内側からさらに勃起を強めた。
-Shizuku's taunting words get my erection stiffer right away.
+#雫さんからけなされる言葉が一瞬、内側からさらに勃起を強めた。
+　Shizuku's taunting words get my erection stiffer right away.
 
-それは肉棒の感度をより高め、強く射精への距離を縮めていく。
-My cock gets more sensitive, and I feel the urge to come approaching strongly.
+#それは肉棒の感度をより高め、強く射精への距離を縮めていく。
+　My cock gets more sensitive, and I feel the urge to come approaching strongly.
 
 ＠Shizuku,S00513
 「ちゅぢゅぢゅッ、ねちゅぅ……くちゅん、ぴちゅぅっ、るちゅ……れりゅる、にちゅぅッ」
 
+#「そう……ん、この中も、ちゃんとね……ちゅちゅぶッ、くりゅぅッ！　れりゅるっ、ちゅぷぅ」
 ＠Shizuku,S00514
-「そう……ん、この中も、ちゃんとね……ちゅちゅぶッ、くりゅぅッ！　れりゅるっ、ちゅぷぅ」
 「That's right... nh, in here too... ちゅちゅぶッ、くりゅぅッ！　れりゅるっ、ちゅぷぅ」
 
-潜り込むように深くほじられる尿道に刺激が走る……！
-The feeling of her tongue poking at it deeply and crawling into my urethra runs through me...!
+#潜り込むように深くほじられる尿道に刺激が走る……！
+　The feeling of her tongue poking at it deeply and crawling into my urethra runs through me...!
 
-その瞬間、射精がリアルに脳内によぎり腰が震えた。
-Suddenly the real impulse to come flashes through my mind and my hips shake.
+#その瞬間、射精がリアルに脳内によぎり腰が震えた。
+　Suddenly the real impulse to come flashes through my mind and my hips shake.
 
 #//フラッシュ
 
@@ -1110,245 +1106,244 @@ screen_transition	1000
 wait	8000
 voice_bg_stop
 
-グビュルッ！　ヂュビュゥゥッ！　ビュルルゥッ、ドクンッ、ドクドクドク！
-*gubyuru*! *jubyuuu*! *byururuu*, *dokun*, *doku doku doku*!
+#グビュルッ！　ヂュビュゥゥッ！　ビュルルゥッ、ドクンッ、ドクドクドク！
+　*gubyuru*! *jubyuuu*! *byururuu*, *dokun*, *doku doku doku*!
 
 ＠Shizuku,S00515
 「ンぷぅッ！？　はぁあぅんッ、くぶぅッ……ちゅぢゅぶっ、ちゅぐぅッ！」
 
-雫さんの攻めについに耐え切れず、溜まっていた精液は一気に怒張から吐き出された。
-Unable to hold off from Shizuku-san's onslaught, the accumulated semen spurts out of my cock all at once.
+#雫さんの攻めについに耐え切れず、溜まっていた精液は一気に怒張から吐き出された。
+　Unable to hold off from Shizuku-san's onslaught, the accumulated semen spurts out of my cock all at once.
 
-唐突なの迸りに雫さんは少し驚いたようだが、すぐそれを口内へと自ら受けとめる。
-Shizuku-san looked a little surprised from the sudden spray, but quickly starts taking it in her mouth herself.
+#唐突なの迸りに雫さんは少し驚いたようだが、すぐそれを口内へと自ら受けとめる。
+　Shizuku-san looked a little surprised from the sudden spray, but quickly starts taking it in her mouth herself.
 
-オレの方も、一度出てしまったものを今さら止められずに打ち放っていった。
-Having let it out once and not able to stop now I come freely in her mouth.
+#オレの方も、一度出てしまったものを今さら止められずに打ち放っていった。
+　Having let it out once and not able to stop now I come freely in her mouth.
 
 ＠Shizuku,S00516
 「あふぅぅ、んぐふッ……ずぢゅぢゅ、ぴぢゅぅッ……くふぅむ」
 
+#「くぁ……ッ、まだ……」
 ＠Itsuki
-「くぁ……ッ、まだ……」
 「Kuah... You're still...」
 
-最後まで自分から動かずに出した衝動の少なさを分かっているように、雫さんは射精中も乳房で怒張をシゴき立てた。
-I don't move of my own will to the end, so...
+#最後まで自分から動かずに出した衝動の少なさを分かっているように、雫さんは射精中も乳房で怒張をシゴき立てた。
+　I don't move of my own will to the end, so...
 
 #SCRIPT ADD DIALOGUE
-Shizuku-san, noticing how little there is urging me to come, keeps working my cock with her breasts the entire time.
+　Shizuku-san, noticing how little there is urging me to come, keeps working my cock with her breasts the entire time.
 
-それは精液を送る肉棒の脈打ちと完全にリズムが合い、ドクドクと射精を続けさせる。
-She does that perfectly in rhythm with the pulse of my cock releasing semen, as I keep ejaculating.
+#それは精液を送る肉棒の脈打ちと完全にリズムが合い、ドクドクと射精を続けさせる。
+　She does that perfectly in rhythm with the pulse of my cock releasing semen, as I keep ejaculating.
 
-勢いよく溢れかえる白濁は目の前の口内からも飛び散り、頬や髪の毛にまで被さっていった。
-The cloudy liquid vigorously scatters out of her mouth in front of me and covers even her cheeks and hair.
+#勢いよく溢れかえる白濁は目の前の口内からも飛び散り、頬や髪の毛にまで被さっていった。
+　The cloudy liquid vigorously scatters out of her mouth in front of me and covers even her cheeks and hair.
 
 ＠Shizuku,S00517
 「んッ、んふぅぅ……くふむッ、ちゅぢゅぶ……ちゅびぃッ」
 
-それでも雫さんは、あんなに貶していた肉棒から飛び散るそれを、求めるように口内へと吐き出させるのだった。
-Even so, that stuff scattering out from my cock which she belittled so much...
+#それでも雫さんは、あんなに貶していた肉棒から飛び散るそれを、求めるように口内へと吐き出させるのだった。
+　Even so, that stuff scattering out from my cock which she belittled so much...
 
 #SCRIPT ADD DIALOGUE
-Shizuku-san makes it spurt into her mouth like she wants it.
+　Shizuku-san makes it spurt into her mouth like she wants it.
 
 #■（EV_SIZ_010-04_png）
 event	"event\ev_siz_010-04.png"
 
-全ての欲汁を吐き出して射精が収まる頃には、雫さんの顔にはドロリと白濁が滴っていた。
-Unleashing all my sexual fluids, once the ejaculation settles down, semen trickles down along Shizuku-san's face.
+#全ての欲汁を吐き出して射精が収まる頃には、雫さんの顔にはドロリと白濁が滴っていた。
+　Unleashing all my sexual fluids, once the ejaculation settles down, semen trickles down along Shizuku-san's face.
 
+#「んんふ、ふぅ……ふふ……ふいぶん出したねぇ」
 ＠Shizuku,S00518
-「んんふ、ふぅ……ふふ……ふいぶん出したねぇ」
 「んんふ、ふぅ…… Fufu... You 'hame quite a bit huh?」
 
-口内にたっぷりの白濁を含んだまま、イタズラっぽいからかいの笑みで肉棒を見下ろす。
-As she holds all that liquid in her mouth, she looks down on my cock with a mischevious smirk.
+#口内にたっぷりの白濁を含んだまま、イタズラっぽいからかいの笑みで肉棒を見下ろす。
+　As she holds all that liquid in her mouth, she looks down on my cock with a mischevious smirk.
 
-亀頭の先から唇に向かって、粘質な汁が伝っていた。
-The sticky cum trails along from the tip of the glans to her lips.
+#亀頭の先から唇に向かって、粘質な汁が伝っていた。
+　The sticky cum trails along from the tip of the glans to her lips.
 
+#「くふぅ……ん、ここまでされて、我慢できる方が……」
 ＠Itsuki
-「くふぅ……ん、ここまでされて、我慢できる方が……」
 「Kufuu... nh, being taken this far, as if I could hold back...」
 
+#「……濃い、スケベな味。口の中じゅうに粘りついてる」
 ＠Shizuku,S00519
-「……濃い、スケベな味。口の中じゅうに粘りついてる」
 「... It tastes strong and perverted. It's sticky and gooey inside my mouth」
 
-そんな言い訳など聞かず、雫さんは味わうようにモゴモゴと口の中を転がしていた。
-Without listening to my complaints, Shizuku-san rolls it around in her mouth to taste it.
+#そんな言い訳など聞かず、雫さんは味わうようにモゴモゴと口の中を転がしていた。
+　Without listening to my complaints, Shizuku-san rolls it around in her mouth to taste it.
 
-その度に量の多さを表すように頬が膨れ、唇の端から薄く中身が零れていく。
-She puffs out her cheeks showing how much of it there is, and a faint bit spills out from her lips.
+#その度に量の多さを表すように頬が膨れ、唇の端から薄く中身が零れていく。
+　She puffs out her cheeks showing how much of it there is, and a faint bit spills out from her lips.
 
 ＠Shizuku,S00520
 「くふぅ……んっ、ごくん……んく、んくっ……」
 
-やがてそれも飽きたのか、ゴクリと飲み下す音と共に喉が波打った。
-At last having enough of that, her throat undulates with the sound of her gulping it down.
+#やがてそれも飽きたのか、ゴクリと飲み下す音と共に喉が波打った。
+　At last having enough of that, her throat undulates with the sound of her gulping it down.
 
+#「……の、飲んだんですか、突然あんなに出したのに」
 ＠Itsuki
-「……の、飲んだんですか、突然あんなに出したのに」
 「... Y-You drank it, even though I came all of a sudden like that」
 
+#「ふふ、あんなにおチンチンを震わせてたら、出そうになってたのくらい分かるさ」
 ＠Shizuku,S00521
-「ふふ、あんなにおチンチンを震わせてたら、出そうになってたのくらい分かるさ」
 「Fufu, when your penis was trembling like that, I knew you were about to come at least」
 
+#「ふぅ……それにしてもずいぶんと吐き出すんだねぇ、この馬鹿チンポは」
 ＠Shizuku,S00522
-「ふぅ……それにしてもずいぶんと吐き出すんだねぇ、この馬鹿チンポは」
 「Fuu... Even so this stupid dick let out quite a lot didn't it」
 
 #■（EV_SIZ_010-05_png）
 event	"event\ev_siz_010-05.png"
 
-嚥下したのを証明するように、口を開いてみせる雫さん。
-Shizuku-san opens her mouth to show that she swallowed it.
+#嚥下したのを証明するように、口を開いてみせる雫さん。
+　Shizuku-san opens her mouth to show that she swallowed it.
 
-まだニチャニチャと糸を作る残滓が見られるが、大量に出した精液はほとんど口腔内に見られない。
-A slimy string of it can still be seen, but the load of semen I shot in her mouth is gone.
+#まだニチャニチャと糸を作る残滓が見られるが、大量に出した精液はほとんど口腔内に見られない。
+　A slimy string of it can still be seen, but the load of semen I shot in her mouth is gone.
 
-ただ、亀頭と唇を繋いでいた粘りが切れて滴り、鎖骨を伝いながら乳房を汚していった。
-The string connecting the head and her mouth is cut and trickles down...
+#ただ、亀頭と唇を繋いでいた粘りが切れて滴り、鎖骨を伝いながら乳房を汚していった。
+　The string connecting the head and her mouth is cut and trickles down...
 
 #SCRIPT ADD DIALOGUE
-It follows the line of her collarbone and sullies her breasts.
+　It follows the line of her collarbone and sullies her breasts.
 
+#「結局我慢も出来ないんだねぇ、このおチンチンは」
 ＠Shizuku,S00523
-「結局我慢も出来ないんだねぇ、このおチンチンは」
 「It really can't hold back at all, this little penis」
 
+#「けどまさか、自分だけ出しておいて、それで終わるつもりじゃないだろうね？」
 ＠Shizuku,S00524
-「けどまさか、自分だけ出しておいて、それで終わるつもりじゃないだろうね？」
 「But, you weren't planning on finishing like this just having come on your own were you?」
 
-射精を終えたことで怒張が収まりかけている肉棒を見下ろすと、おかしそうに首をかしげた。
-She looks down at my cock which has finished coming and is starting to settle down and tilts her head puzzled.
+#射精を終えたことで怒張が収まりかけている肉棒を見下ろすと、おかしそうに首をかしげた。
+　She looks down at my cock which has finished coming and is starting to settle down and tilts her head puzzled.
 
+#「え……」
 ＠Itsuki
-「え……」
 「Huh...」
 
+#「ふふ、お子様チンポじゃないって言うんなら、ちゃぁんとあたしも気持ちよくしないと駄目でしょう？」
 ＠Shizuku,S00525
-「ふふ、お子様チンポじゃないって言うんなら、ちゃぁんとあたしも気持ちよくしないと駄目でしょう？」
 「Fufu, if it's not a childish dick like you say, then you you'll have to make me feel good too」
 
 #■BG（ブラック）
 @bg_black
 
-
+#「えっ、ちょ……！？」
 ＠Itsuki
-「えっ、ちょ……！？」
 「Huh, Just a--!?」
 
-倦怠感をわずらうオレを、立ち上がった雫さんが押し倒してくる。
-I'm worn out and standing up Shizuku-san pushes me to the ground.
+#倦怠感をわずらうオレを、立ち上がった雫さんが押し倒してくる。
+　I'm worn out and standing up Shizuku-san pushes me to the ground.
 
 #■HCGEV_SIZ_030
 event	"event\ev_siz_030-00.png"
 
+#「さぁ、さっきよりももっと大きくしなさいよ」
 ＠Shizuku,S00526
-「さぁ、さっきよりももっと大きくしなさいよ」
 「Now then, you better get bigger than last time」
 
-腰元へまたがると、まだ熱を持つ肉棒を秘裂へ導いてきた。
-She straddles me and guides my still vibrant penis to her pussy.
+#腰元へまたがると、まだ熱を持つ肉棒を秘裂へ導いてきた。
+　She straddles me and guides my still vibrant penis to her pussy.
 
-邪魔になる下半身の衣服は下着ごと外され、前屈みになる乳房の向こう側に恥丘の曲線が伺える。
-Having removed the clothes below her waist that would get in the way, including her underwear...
+#邪魔になる下半身の衣服は下着ごと外され、前屈みになる乳房の向こう側に恥丘の曲線が伺える。
+　Having removed the clothes below her waist that would get in the way, including her underwear...
 
 #SCRIPT ADD DIALOGUE
-The curve of her mound is able to be seen below her loose breasts.
+　The curve of her mound is able to be seen below her loose breasts.
 
-そこへ躊躇なく擦りつけられる肉棒に、また新たな興奮が走った。
-She nuzzles my cock against that spot without hesitation, and a new arousal runs through it.
+#そこへ躊躇なく擦りつけられる肉棒に、また新たな興奮が走った。
+　She nuzzles my cock against that spot without hesitation, and a new arousal runs through it.
 
+#「もっとって……今終わったばかりでしょ……！？　何でまた」
 ＠Itsuki
-「もっとって……今終わったばかりでしょ……！？　何でまた」
 「"Bigger than last time" you say... But we only just finished...! Why again」
 
+#「あたしの方がまだだからに決まってるじゃない。ちゃんと相手も満足させないと駄目でしょう？」
 ＠Shizuku,S00527
-「あたしの方がまだだからに決まってるじゃない。ちゃんと相手も満足させないと駄目でしょう？」
 「Isn't it obvious, I'm not satisfied yet. You have to make your partner feel good too」
 
-手に握られて擦られる肉竿は、すぐにまた思惑通りに勃起させられていく。
-My dick held in her hand and rubbing against her pussy quickly gets hard again as expected.
+#手に握られて擦られる肉竿は、すぐにまた思惑通りに勃起させられていく。
+　My dick held in her hand and rubbing against her pussy quickly gets hard again as expected.
 
-一度出してもなお、目の前の雫さんの誘いに男の本能は正直に求めてしまう。
-I already came once, but Shizuku's tempting look brings out a man's instincts.
+#一度出してもなお、目の前の雫さんの誘いに男の本能は正直に求めてしまう。
+　I already came once, but Shizuku's tempting look brings out a man's instincts.
 
+#「おチンチンは正直ね、樹。今度はちゃんと、焦らさずに入れてあげるよ」
 ＠Shizuku,S00528
-「おチンチンは正直ね、樹。今度はちゃんと、焦らさずに入れてあげるよ」
 「Your penis is honest, Itsuki. This time I'll put it in without fooling around for you」
 
-チュクク……クブッ、ヂュブブッ……！
-*chukuku*... *kubu*, *jububu*...!
+#チュクク……クブッ、ヂュブブッ……！
+　*chukuku*... *kubu*, *jububu*...!
 
-スリットの肉襞、膣口のきつさを亀頭に感じた刹那、そのまま一気に挿入が始まっていった。
-My glans feels the tightness of her pussy at the opening of her slit and begins sliding in.
+#スリットの肉襞、膣口のきつさを亀頭に感じた刹那、そのまま一気に挿入が始まっていった。
+　My glans feels the tightness of her pussy at the opening of her slit and begins sliding in.
 
-既に愛蜜で濡れている淫唇が、熱い摩擦を持って性感帯を迎えてくる。
-Her labia already wet with love juices, they clamp down hard on my cock and take it into her pussy.
+#既に愛蜜で濡れている淫唇が、熱い摩擦を持って性感帯を迎えてくる。
+　Her labia already wet with love juices, they clamp down hard on my cock and take it into her pussy.
 
+#「んっ、ふぅ……どうしたの、ほら。ちゃんと勃起させないと奥まで入らないよ？」
 ＠Shizuku,S00529
-「んっ、ふぅ……どうしたの、ほら。ちゃんと勃起させないと奥まで入らないよ？」
 「んっ、ふぅ…… Hey, wake up. You have to get fully erect so it can go all the way in」
 
-先日のテープでの演技も含め、もう何度も男性を受け入れたことがあるはずの、雫さんの中。
-This is Shizuku's pussy, which has already accepted many men, including from that tape.
+#先日のテープでの演技も含め、もう何度も男性を受け入れたことがあるはずの、雫さんの中。
+　This is Shizuku's pussy, which has already accepted many men, including from that tape.
 
-熟れた熱と感触はその経験の深さを感じさせるも、侵入すべき膣路は未開通のごとくきつい。
-I can feel its experience by how hot and turned on it is, but it's tight like it hasn't been penetrated.
+#熟れた熱と感触はその経験の深さを感じさせるも、侵入すべき膣路は未開通のごとくきつい。
+　I can feel its experience by how hot and turned on it is, but it's tight like it hasn't been penetrated.
 
+#「出したばかりで無茶な……ッ、オレは続ける気無いって」
 ＠Itsuki
-「出したばかりで無茶な……ッ、オレは続ける気無いって」
 「We can't do it right after I came... I told you I don't want to continue」
 
+#「ふふ、本当にそうなのか、樹の駄目チンポに訊いてみようか？」
 ＠Shizuku,S00530
-「ふふ、本当にそうなのか、樹の駄目チンポに訊いてみようか？」
 「Fufu, is that really how it is, maybe I should try asking your good-for-nothing penis」
 
-密着された腰の中で、肉棒がねじ込まされるように深く挿れられた。
-Within our midsections tightly squeezing against each other my cock is inserted deeply and screwed inside.
+#密着された腰の中で、肉棒がねじ込まされるように深く挿れられた。
+　Within our midsections tightly squeezing against each other my cock is inserted deeply and screwed inside.
 
-とたん股間全体に、媚肉に吸い付かれる肉棒からの刺激が駆け抜ける。
-The feeling of the insides of her pussy sticking to my cock assaults my lower body.
+#とたん股間全体に、媚肉に吸い付かれる肉棒からの刺激が駆け抜ける。
+　The feeling of the insides of her pussy sticking to my cock assaults my lower body.
 
+#「どうだい、あたしの中は。お子様チンポでも、ちゃんときつくて気持ちいいだろう？」
 ＠Shizuku,S00531
-「どうだい、あたしの中は。お子様チンポでも、ちゃんときつくて気持ちいいだろう？」
 「How is it inside me? I bet it's tight and feels good even for your childish dick」
 
-男性器に穿たされる秘洞が、きついまま更に収縮を繰り返す。
-Her slit pierced by my member constricts still more.
+#男性器に穿たされる秘洞が、きついまま更に収縮を繰り返す。
+　Her slit pierced by my member constricts still more.
 
-どうやら未開通のようなこのきつさもまた、経験の上での締め付けということらしい。
-The tightness of her pussy, as if undefiled, probably has to do with how experienced she is, being able to clamp down.
+#どうやら未開通のようなこのきつさもまた、経験の上での締め付けということらしい。
+　The tightness of her pussy, as if undefiled, probably has to do with how experienced she is, being able to clamp down.
 
-悔しいが、その蠢きで気持ちよさを感じるオレは、やはり雫さんからみてお子様なのかもしれなかった。
-It's hard to admit, but being so uptight while feeling good must look kind of childish from Shizuku's perspective.
+#悔しいが、その蠢きで気持ちよさを感じるオレは、やはり雫さんからみてお子様なのかもしれなかった。
+　It's hard to admit, but being so uptight while feeling good must look kind of childish from Shizuku's perspective.
 
+#「どこまでも性欲に馬鹿正直なおチンチンだね。入れただけで、中で大きくなってきてる」
 ＠Shizuku,S00532
-「どこまでも性欲に馬鹿正直なおチンチンだね。入れただけで、中で大きくなってきてる」
 「There's no limit to how stupidly expressive of its lust this penis is. Just by putting it in, it's getting bigger inside」
 
+#「オレが変なんじゃない……こんなことされたら、立って当たり前なんだ」
 ＠Itsuki
-「オレが変なんじゃない……こんなことされたら、立って当たり前なんだ」
 「I'm not weird or anything... If you do things like that, of course it'll get excited」
 
+#「別に言い訳しなくても、責めてるわけじゃないさ。馬鹿チンポの扱いも慣れてるからねぇ」
 ＠Shizuku,S00533
-「別に言い訳しなくても、責めてるわけじゃないさ。馬鹿チンポの扱いも慣れてるからねぇ」
 「You don't have to make explanations, I'm not criticizing you. I'm used to servicing stupid dicks too」
 
-密着した腰を浮かせて怒張を大きく引き抜き、また密着するまで腰を落とす雫さん。
-Shizuku-san lifts up her crotch that was pressed against mine and pulls my dick up with it...
+#密着した腰を浮かせて怒張を大きく引き抜き、また密着するまで腰を落とす雫さん。
+　Shizuku-san lifts up her crotch that was pressed against mine and pulls my dick up with it...
 
 #SCRIPT ADD DIALOGUE
-Then she lowers her hips and squeezes against me again.
+　Then she lowers her hips and squeezes against me again.
 
-その１ターンの間に、肉竿に張り付く膣肉が、無数の襞のように摩擦を痺れさせる。
-During that 1 round, the flesh of her pussy stretches against my cock, countless creases rubbing and exciting it.
+#その１ターンの間に、肉竿に張り付く膣肉が、無数の襞のように摩擦を痺れさせる。
+　During that 1 round, the flesh of her pussy stretches against my cock, countless creases rubbing and exciting it.
 
 event	"event\ev_siz_030-01.png"
 
@@ -1357,62 +1352,61 @@ voice_bg	"S00534"
 ＠Shizuku,S00534
 「くふぅ、んっ……はぁ、あふぅっ……」
 
-ヌヂュッ、ヂュッ……ヂュププッ、ヂュチュッ、ニチュッ……
-*nuju*, *ju*... *jupupu*, *juju*, *niju*...
+#ヌヂュッ、ヂュッ……ヂュププッ、ヂュチュッ、ニチュッ……
+　*nuju*, *ju*... *jupupu*, *juju*, *niju*...
 
-腰を振り始めた雫さんは、肉棒をしめつけながら、繰り返し抽挿の刺激を生み出した。
-Shizuku-san rocks her hips and clamps down on my cock, the in and out movement stimulating me again.
+#腰を振り始めた雫さんは、肉棒をしめつけながら、繰り返し抽挿の刺激を生み出した。
+　Shizuku-san rocks her hips and clamps down on my cock, the in and out movement stimulating me again.
 
-みかんらに感じた純粋な『きつさ』ではない。淫らな『締め付け』が、奥まで続く媚肉にたっぷりと詰まっている。
-It's not the true "tightness" I felt with Mikan. Her pussy lewdly clamps down throughout and all the way in.
+#みかんらに感じた純粋な『きつさ』ではない。淫らな『締め付け』が、奥まで続く媚肉にたっぷりと詰まっている。
+　It's not the true "tightness" I felt with Mikan. Her pussy lewdly clamps down throughout and all the way in.
 
+#「あくっ……うっ」
 ＠Itsuki
-「あくっ……うっ」
 「Akuh... Uh」
 
 event	"event\ev_siz_030-00.png"
 
+#「はぁっ、んくふ……いくら感度のいいお子様チンポでも、出したばかりならまだ余裕はあるだろう？」
 ＠Shizuku,S00535
-「はぁっ、んくふ……いくら感度のいいお子様チンポでも、出したばかりならまだ余裕はあるだろう？」
 「はぁっ、んくふ…… However sensitive and immature your dick may be, since you just came you can hold out a bit right?」
 
+#「ふふ……今のうちに、この淫らなおチンチンをもっと堪能させてもらうよ」
 ＠Shizuku,S00536
-「ふふ……今のうちに、この淫らなおチンチンをもっと堪能させてもらうよ」
 「Fufu... I'll satisfy this lewd penis even more inside me」
 
-ズヂュッ、チュブブッ、ヂュッ……ヂュチュゥッ、クヂュッ。
-*zuju*, *chububu*, *ju*... *juchuu*, *kuju*.
+#ズヂュッ、チュブブッ、ヂュッ……ヂュチュゥッ、クヂュッ。
+　*zuju*, *chububu*, *ju*... *juchuu*, *kuju*.
 
-ペースを上げた腰の動きにつられ、中で出入りする肉棒に貼りつく媚肉も締まる。
-She increased her pace and, brought on by her hips' motion...
+#ペースを上げた腰の動きにつられ、中で出入りする肉棒に貼りつく媚肉も締まる。
+　She increased her pace and, brought on by her hips' motion...
 
 #SCRIPT ADD DIALOGUE
-Her pussy tightens and strains against my cock as it goes in and out inside.
+　Her pussy tightens and strains against my cock as it goes in and out inside.
 
-まるでがんじがらめのように怒張に纏わりつきながら、愛液の潤いでヌルヌルの摩擦を上下させてくるのだ。
-Coiling about my cock as if binding it, the moisture from her love juices makes her rubbing up and down wet.
+#まるでがんじがらめのように怒張に纏わりつきながら、愛液の潤いでヌルヌルの摩擦を上下させてくるのだ。
+　Coiling about my cock as if binding it, the moisture from her love juices makes her rubbing up and down wet.
 
 event	"event\ev_siz_030-01.png"
 
+#「くんっ、ん、はぁ……さっきより、大きくなってきてるね……っんんふ」
 ＠Shizuku,S00537
-「くんっ、ん、はぁ……さっきより、大きくなってきてるね……っんんふ」
 「くんっ、ん、はぁ…… It's getting bigger than before... っんんふ」
 
 event	"event\ev_siz_030-00.png"
 
-
+#「いいよ樹、もっと勃起させな、はぁっ、んんぅ……深くまで、あんたのお子様チンポで突き上げるんだよ」
 ＠Shizuku,S00538
-「いいよ樹、もっと勃起させな、はぁっ、んんぅ……深くまで、あんたのお子様チンポで突き上げるんだよ」
 「That's it Itsuki, get more erect, はぁっ、んんぅ…… Thrust deep inside me with your childish dick」
 
-一度達した倦怠感を無視し、さっき以上に勃起を見せる肉棒。
-My cock gets more erect than before ignoring the weakness it reached for a moment.
+#一度達した倦怠感を無視し、さっき以上に勃起を見せる肉棒。
+　My cock gets more erect than before ignoring the weakness it reached for a moment.
 
-またこちらの気持ちよさを引き出しながら、雫さんは自らを責め立てるように腰を振る。
-Shizuku brings out my pleasure again and shakes her hips as if urging herself onward.
+#またこちらの気持ちよさを引き出しながら、雫さんは自らを責め立てるように腰を振る。
+　Shizuku brings out my pleasure again and shakes her hips as if urging herself onward.
 
-さっきのパイズリとの違いは、今度は雫さんからも僅かに乱れる呼吸が漏れていることだ。
-As opposed to her paizuri, this time Shizuku-san's disordered breathing comes out a little.
+#さっきのパイズリとの違いは、今度は雫さんからも僅かに乱れる呼吸が漏れていることだ。
+　As opposed to her paizuri, this time Shizuku-san's disordered breathing comes out a little.
 
 event	"event\ev_siz_030-01.png"
 
@@ -1421,120 +1415,118 @@ event	"event\ev_siz_030-01.png"
 ＠Shizuku,S00539
 「はぁぁっ、あふぅ、ん……んぅっ、はぁぁ……」
 
-だが、まだその乱れ方は緩い。
-But it's still got a long way to go.
+#だが、まだその乱れ方は緩い。
+　But it's still got a long way to go.
 
-オレへ意識させるための演技とも疑えるし、いずれにしても主導権は雫さんが握っている。
-And also suspecting it could be a play to turn me on, in any case Shizuku is commanding the lead.
+#オレへ意識させるための演技とも疑えるし、いずれにしても主導権は雫さんが握っている。
+　And also suspecting it could be a play to turn me on, in any case Shizuku is commanding the lead.
 
 event	"event\ev_siz_030-00.png"
 
-
+#「んん、あふぅっ……ふふ、何か窺ってる目をしてるね……あたしを感じさせたいんなら、樹からも動いたらどう？」
 ＠Shizuku,S00540
-「んん、あふぅっ……ふふ、何か窺ってる目をしてるね……あたしを感じさせたいんなら、樹からも動いたらどう？」
 「んん、あふぅっ…… Fufu, you look like you're examining me... If you want to make me feel good, maybe you could move too?」
 
+#「それともやっぱり、精液が出なくてもイッちゃうのかなぁ……樹のおチンチンは」
 ＠Shizuku,S00541
-「それともやっぱり、精液が出なくてもイッちゃうのかなぁ……樹のおチンチンは」
 「Or is it that your little penis is going to come without shooting out semen after all...」
 
+#「全然、そんなこと……雫さんに遠慮して動いてないんですよ……っ」
 ＠Itsuki
-「全然、そんなこと……雫さんに遠慮して動いてないんですよ……っ」
 「As if it could be that... I'm holding myself back from you and not moving...」
 
-また挑発するような瞳に今度は見下ろされ、雫さんの言葉に肉棒が勃起の硬さを上げる。
-Looking down at me with eyes as if to provoke me again, my cock's erection stiffens at Shizuku's words.
+#また挑発するような瞳に今度は見下ろされ、雫さんの言葉に肉棒が勃起の硬さを上げる。
+　Looking down at me with eyes as if to provoke me again, my cock's erection stiffens at Shizuku's words.
 
-さっきと同じだ………
-その事実を否定したくて、オレは半ば勢いで腰を突き上げた。
-Just like last time...... I want to deny the truth, and half-heartedly thrust my waist up.
+#さっきと同じだ………
+#その事実を否定したくて、オレは半ば勢いで腰を突き上げた。
+　Just like last time...... I want to deny the truth, and half-heartedly thrust my waist up.
 
 event	"event\ev_siz_030-01.png"
 
+#「んくぅッ！　はあぁ、はぁッ……そう、どうせすぐイッちゃう駄目チンポなんだから、思いっきりやりなさい」
 ＠Shizuku,S00542
-「んくぅッ！　はあぁ、はぁッ……そう、どうせすぐイッちゃう駄目チンポなんだから、思いっきりやりなさい」
 「Nkuh! Haa, haa... That's right, it's a no-good penis that'll come soon no matter what, so fuck me with all you've got」
 
-それに合わせるように腰のリズムをつける雫さんの中へ、怒張は深く吸い込まれていく。
-The rhythm of Shizuku's hips follows that, and my cock is sucked in deeply.
+#それに合わせるように腰のリズムをつける雫さんの中へ、怒張は深く吸い込まれていく。
+　The rhythm of Shizuku's hips follows that, and my cock is sucked in deeply.
 
-感覚で尿道から先走りが溢れるのを感じると、次の瞬間には一気に膣内の水気が濃くなっていった。
-I feel the sensation of my precum spilling out, and next moment the moisture in her pussy got thicker.
+#感覚で尿道から先走りが溢れるのを感じると、次の瞬間には一気に膣内の水気が濃くなっていった。
+　I feel the sensation of my precum spilling out, and next moment the moisture in her pussy got thicker.
 
 #voice_bg	"S00543"
 
 ＠Shizuku,S00543
 「っんぅ！　はぁっ、んくふぅッ……ん、ふぅう、あはぅ……ッ」
 
-それは互いに抽挿の感度を上げたのか、雫さんの方からも少し熱っぽい吐息が聞こえ始めた。
-With that, perhaps becoming more sensitive to the movement, a little hotter of a breath is audible from Shizuku.
+#それは互いに抽挿の感度を上げたのか、雫さんの方からも少し熱っぽい吐息が聞こえ始めた。
+　With that, perhaps becoming more sensitive to the movement, a little hotter of a breath is audible from Shizuku.
 
-それでも、揶揄するように見下ろす笑みにはまだ余裕が感じられて、遠い。
-Even so, her smirk looking down and teasing me still feels composed, by far.
+#それでも、揶揄するように見下ろす笑みにはまだ余裕が感じられて、遠い。
+　Even so, her smirk looking down and teasing me still feels composed, by far.
 
 event	"event\ev_siz_030-00.png"
 
+#「はぁふ、くふぅんッ……どうしたの、もうイクのが怖いのかい、樹……っぅん、あふぅ」
 ＠Shizuku,S00544
-「はぁふ、くふぅんッ……どうしたの、もうイクのが怖いのかい、樹……っぅん、あふぅ」
 「はぁふ、くふぅんッ…… What's wrong Itsuki, are you already scared of cumming or something... っぅん、あふぅ」
 
+#「んくっ……何を、雫さんこそ息が乱れてるじゃないですか……っ」
 ＠Itsuki
-「んくっ……何を、雫さんこそ息が乱れてるじゃないですか……っ」
 「Nkuh... I would say your breathing seems to be heavier too doesn't it...」
 
+#「んんふッ、はぁあッ……ふふ、少なくとも、あんたほどじゃないよ」
 ＠Shizuku,S00545
-「んんふッ、はぁあッ……ふふ、少なくとも、あんたほどじゃないよ」
 「んんふッ、はぁあッ…… Fufu, it's not nearly as much as you」
 
-つむがれる言葉が、濡れ始めの吐息にまぎれて上擦りをみせる。
-Her strung-together words slip into breaks of her moist breathing and show her excitement.
+#つむがれる言葉が、濡れ始めの吐息にまぎれて上擦りをみせる。
+　Her strung-together words slip into breaks of her moist breathing and show her excitement.
 
-しかし余裕があるのは本当のようで、ピストンを受ける膣肉を自ら収縮させて摩擦を強めた。
-However her pussy being pumped into constricts of her own will and the rubbing intensifies, like she really is in control.
+#しかし余裕があるのは本当のようで、ピストンを受ける膣肉を自ら収縮させて摩擦を強めた。
+　However her pussy being pumped into constricts of her own will and the rubbing intensifies, like she really is in control.
 
 event	"event\ev_siz_030-01.png"
 
+#「あふぅッ！　くんぅ……はぁっ、どうせ、これ以上は大きく出来ないんでしょう……この駄目チンポ」
 ＠Shizuku,S00546
-「あふぅッ！　くんぅ……はぁっ、どうせ、これ以上は大きく出来ないんでしょう……この駄目チンポ」
 「あふぅッ！　くんぅ……はぁっ、Anyway, it's not like it can get any bigger... This no-good dick」
 
+#「はあッ、んぅ！　だったら突き上げて、せめて気持ちよくしてごらんッ……あふぅ、んはぁあ！」
 ＠Shizuku,S00547
-「はあッ、んぅ！　だったら突き上げて、せめて気持ちよくしてごらんッ……あふぅ、んはぁあ！」
 「はあッ、んぅ！　So then thrust up, at least feel good for me... あふぅ、んはぁあ！」
 
-たき付けながら求める雫さんの艶かしい肢体が、腰の上で弾み踊る。
-Shizuku-san requests it and provokes me as her captivating body bounces atop me.
+#たき付けながら求める雫さんの艶かしい肢体が、腰の上で弾み踊る。
+　Shizuku-san requests it and provokes me as her captivating body bounces atop me.
 
-思わず緩めそうになるこちらのピストンをリードし、腰使いに熱が入っていく。
-My resistance wavers and without thinking I take the lead pistoning in and out, the thrusting of my hips heats up.
+#思わず緩めそうになるこちらのピストンをリードし、腰使いに熱が入っていく。
+　My resistance wavers and without thinking I take the lead pistoning in and out, the thrusting of my hips heats up.
 
+#「っん、く……駄目チンポ……」
 ＠Itsuki
-「っん、く……駄目チンポ……」
 「Ngh, kuh... No-good penis...」
 
-好き勝手に性感を引き出されながら貶され、その言葉を反芻する。
-Having my sexual desires brought out at will and ridiculed, I chew over those words.
+#好き勝手に性感を引き出されながら貶され、その言葉を反芻する。
+　Having my sexual desires brought out at will and ridiculed, I chew over those words.
 
-その間も雫さんの動きは連続し、駄目チンポを貪るように擦り上げた。
-In that span Shizuku continues moving, and rubs it as if filled with lust for my no-good penis.
+#その間も雫さんの動きは連続し、駄目チンポを貪るように擦り上げた。
+　In that span Shizuku continues moving, and rubs it as if filled with lust for my no-good penis.
 
 event	"event\ev_siz_030-00.png"
 
+#「んぅッ、はあぁ！　あふぅんッ……そう、そんな樹のおチンチンが、欲望むき出しにして出入りしてるんだよ」
 ＠Shizuku,S00548
-「んぅッ、はあぁ！　あふぅんッ……そう、そんな樹のおチンチンが、欲望むき出しにして出入りしてるんだよ」
 「んぅッ、はあぁ！　あふぅんッ…… That's it, Itsuki's perverted little penis is going in and out in naked desire」
 
-視線を下げて見える結合部で、打ち合うたびに互いの蜜が音を立てて飛び散っている。
-Lowering my gaze to where we are connected, every time we strike together our mutual juices make sounds and scatter about.
+#視線を下げて見える結合部で、打ち合うたびに互いの蜜が音を立てて飛び散っている。
+　Lowering my gaze to where we are connected, every time we strike together our mutual juices make sounds and scatter about.
 
-今更にしてその光景が肉棒に受ける快感とシンクロして、興奮が昂ぶらされた。
-At last the sight of that synchronizes with the pleasure I feel in my cock, and it works up my arousal.
+#今更にしてその光景が肉棒に受ける快感とシンクロして、興奮が昂ぶらされた。
+　At last the sight of that synchronizes with the pleasure I feel in my cock, and it works up my arousal.
 
-……これは、完全にマズい……！
-... Well isn't this just great...!
+#……これは、完全にマズい……！
+　... Well isn't this just great...!
 
 event	"event\ev_siz_030-01.png"
-
 
 voice_bg	"S00549"
 
@@ -1543,43 +1535,40 @@ voice_bg	"S00549"
 
 event	"event\ev_siz_030-00.png"
 
-
+#「どうしたんだい、あぁふっ、あん！　腰が止まってきてるよ」
 ＠Shizuku,S00550
-「どうしたんだい、あぁふっ、あん！　腰が止まってきてるよ」
 「What's happening, あぁふっ、あん！　Your hips are stopping」
 
-ズヂュブッ！　ニヂュッ、ヂュヂュッ……チュググッ、ヂュブゥッ！
-*zujubu*! *niju*, *juju*... *jugugu*, jubuu*!
+#ズヂュブッ！　ニヂュッ、ヂュヂュッ……チュググッ、ヂュブゥッ！
+　*zujubu*! *niju*, *juju*... *jugugu*, jubuu*!
 
-さっき以上に熱の赤みに貌を彩らせ、そんな艶っぽい姿に一瞬目を奪われる。
-Her expression more flushed than before, that coquettish figure takes my attention instantly.
+#さっき以上に熱の赤みに貌を彩らせ、そんな艶っぽい姿に一瞬目を奪われる。
+　Her expression more flushed than before, that coquettish figure takes my attention instantly.
 
-だがそれも、また急激な勢いでこみ上げてくる新たな射精感の前に霞んでいった。
-But that too fades from view from another sudden stirring of my urge to ejaculate.
+#だがそれも、また急激な勢いでこみ上げてくる新たな射精感の前に霞んでいった。
+　But that too fades from view from another sudden stirring of my urge to ejaculate.
 
+#「っくう！　何で、もう……オレだけっ」
 ＠Itsuki
-「っくう！　何で、もう……オレだけっ」
 「Kku! Why, already... just me」
 
 event	"event\ev_siz_030-01.png"
 
-
+#「くふぅッ、んんふぁッ！　はあぁッ、はぁっ……もうイキそうなのかい、樹」
 ＠Shizuku,S00551
-「くふぅッ、んんふぁッ！　はあぁッ、はぁっ……もうイキそうなのかい、樹」
 「くふぅッ、んんふぁッ！　はあぁッ、はぁっ…… Are you already about to come, Itsuki」
 
 event	"event\ev_siz_030-00.png"
 
-
+#「ふふ……んくっ、安心しな、あんたのお子様チンポは、またあたしが気持ちよく射精させてやるさ……ぃふん！　はぁあッ」
 ＠Shizuku,S00552
-「ふふ……んくっ、安心しな、あんたのお子様チンポは、またあたしが気持ちよく射精させてやるさ……ぃふん！　はぁあッ」
 「Fufu... nkuh, don't worry about it, I'll make your childish dick feel good and come again... ぃふん！　はぁあッ」
 
-本来腹を立てるべきその言葉に、また股間の猛りは強く上がっていく。
-Those words that I should be getting angry at, again fire up the excitement in my crotch.
+#本来腹を立てるべきその言葉に、また股間の猛りは強く上がっていく。
+　Those words that I should be getting angry at, again fire up the excitement in my crotch.
 
-より窮屈さの高まる秘洞が蠢きながら、そんな感度の昂ぶった肉棒をズルズルと熱い媚肉で引きずり擦った。
-Her pussy gets tighter and squirms, while my very sensitive and excited cock pulls along and rubs against her inner flesh. 
+#より窮屈さの高まる秘洞が蠢きながら、そんな感度の昂ぶった肉棒をズルズルと熱い媚肉で引きずり擦った。
+　Her pussy gets tighter and squirms, while my very sensitive and excited cock pulls along and rubs against her inner flesh. 
 
 event	"event\ev_siz_030-01.png"
 
@@ -1588,50 +1577,50 @@ voice_bg	"S00553"
 ＠Shizuku,S00553
 「ッふう！　はあぁッ……はぅん、んんッ、あはぁッ！　はあッ、ひふんッ……」
 
-ヂュブッ！　ニヂュ、ジュブブッ……ニヂュ、ヂュチュッ！
-*jubu*! *niju*, *jububu*... *niju*, *juju*!
+#ヂュブッ！　ニヂュ、ジュブブッ……ニヂュ、ヂュチュッ！
+　*jubu*! *niju*, *jububu*... *niju*, *juju*!
 
-起立した肉棒が何度も膣路へ通され、雫さんの呼吸が荒いでいく。
-My erect cock runs through her vaginal passage over and over, and Shizuku's breathing gets ragged.
+#起立した肉棒が何度も膣路へ通され、雫さんの呼吸が荒いでいく。
+　My erect cock runs through her vaginal passage over and over, and Shizuku's breathing gets ragged.
 
-腿までベトベトに汚れたピストンの蜜もきっと、半分は雫さんのものに違いない。
-Juices run stickily down her thigh from the pistoning, and I'm sure half of it is Shizuku's. 
+#腿までベトベトに汚れたピストンの蜜もきっと、半分は雫さんのものに違いない。
+　Juices run stickily down her thigh from the pistoning, and I'm sure half of it is Shizuku's. 
 
-だが膣内が濡れれば濡れるほど、摩擦を補うように強くなる膣肉の締め付けが、怒張を快感の波から逃がさない。
-But inside as wet as it can be, she squeezes her pussy tight to compensate for it...
+#だが膣内が濡れれば濡れるほど、摩擦を補うように強くなる膣肉の締め付けが、怒張を快感の波から逃がさない。
+　But inside as wet as it can be, she squeezes her pussy tight to compensate for it...
 
 #SCRIPT ADD DIALOGUE
-And the waves of pleasure running through my erection are inescapable. 
+　And the waves of pleasure running through my erection are inescapable. 
 
 event	"event\ev_siz_030-00.png"
 
+#「あふぅッ、くんッ！　イキそうな顔してるね……またやられっぱなしで、出しちゃうんだ……？」
 ＠Shizuku,S00554
-「あふぅッ、くんッ！　イキそうな顔してるね……またやられっぱなしで、出しちゃうんだ……？」
 「Afuuh, kunh!　You're making such a lewd face... Are you going to come again just from being fucked...?」
 
+#「何を……勝手に雫さんが、動いてるからじゃないですか……ッ」
 ＠Itsuki
-「何を……勝手に雫さんが、動いてるからじゃないですか……ッ」
 「I'd say it's because of how you're moving of your own will Shizuku-san...」
 
+#「はふんッ、んふっ……いいんだよ、このお子様チンポから……いっぱい精液を吐き出してごらん」
 ＠Shizuku,S00555
-「はふんッ、んふっ……いいんだよ、このお子様チンポから……いっぱい精液を吐き出してごらん」
 「はふんッ、んふっ…… It doesn't matter, spurt lots of semen... from this childish dick」
 
+#「それなりに頑張ったご褒美に……ッはあ！　んくふッ、全部、中へ吐き出させたげるよ」
 ＠Shizuku,S00556
-「それなりに頑張ったご褒美に……ッはあ！　んくふッ、全部、中へ吐き出させたげるよ」
 「And also as your reward... Haa! Nkufu, I'll let you shoot it all inside」
 
-ヂュヂュッ、クヂュムッ！　ヂュブッ、ジヂュッ、グブゥッ！　チュヂュッ！
-*juju*, *kujumu*! *jubu*, *juju, *gubuu*! *chuju*!
+#ヂュヂュッ、クヂュムッ！　ヂュブッ、ジヂュッ、グブゥッ！　チュヂュッ！
+　*juju*, *kujumu*! *jubu*, *juju, *gubuu*! *chuju*!
 
-そう言うと、止める間もなく、雫さんが腰を振るペースを上げた。
-Saying that, without pause Shizuku-san increases her pace rocking her hips.
+#そう言うと、止める間もなく、雫さんが腰を振るペースを上げた。
+　Saying that, without pause Shizuku-san increases her pace rocking her hips.
 
-普通のピストンで言うスパートに当たる速度に加え、中出しを意識した強烈な締め付け。
-Her pistoning hits a spurt of speed, thinking about me coming inside she tightens up intensely.
+#普通のピストンで言うスパートに当たる速度に加え、中出しを意識した強烈な締め付け。
+　Her pistoning hits a spurt of speed, thinking about me coming inside she tightens up intensely.
 
-既にボロボロになっていた脆弱な我慢の限界など、軽く突破させられてしまった。
-Finally the last crumbling remains of my self-restraint are broken through easily. 
+#既にボロボロになっていた脆弱な我慢の限界など、軽く突破させられてしまった。
+　Finally the last crumbling remains of my self-restraint are broken through easily. 
 
 event	"event\ev_siz_030-01.png"
 voice_bg	"S00557"
@@ -1639,15 +1628,15 @@ voice_bg	"S00557"
 ＠Shizuku,S00557
 「んぁう！　あはぁッ、はふん……んくぅッ！　はあッ、うんッ、っぁん！　ふぁふ……」
 
+#「……ッ！！　ん、っく、これ以上は……ッ」
 ＠Itsuki
-「……ッ！！　ん、っく、これ以上は……ッ」
 「...!! hn, kku, I can't hold out anymore...」
 
-我慢が苦痛に変わった瞬間、抑えていた衝動が全て吸い上げられる感触。
-The moment enduring it becomes unbearable, I feel all of the urge that I was holding back let out.
+#我慢が苦痛に変わった瞬間、抑えていた衝動が全て吸い上げられる感触。
+　The moment enduring it becomes unbearable, I feel all of the urge that I was holding back let out.
 
-オレの言葉に目を細める雫さんが、獲物を逃がさないように腰を一気に押し沈めた！
-Smiling fondly at my words, she sinks down with her waist onto me so her prize won't escape!
+#オレの言葉に目を細める雫さんが、獲物を逃がさないように腰を一気に押し沈めた！
+　Smiling fondly at my words, she sinks down with her waist onto me so her prize won't escape!
 
 #//フラッシュ
 screen_flash	500
@@ -1655,459 +1644,457 @@ event	"event\ev_siz_030-02.png"
 
 voice_bg_stop
 
-ビュグッ！　ドクドクンッ！　ブビュッ、ビュルル……ッ！　ドクン！
-*byugu*! *doku doku*! *bubyu*, *byururu*...! *doku*!
+#ビュグッ！　ドクドクンッ！　ブビュッ、ビュルル……ッ！　ドクン！
+　*byugu*! *doku doku*! *bubyu*, *byururu*...! *doku*!
 
 ＠Shizuku,S00558
 「んんぅッ！　ッはあぁ、あはぁぁあぅぅッ！　んッ、はあぁぁ……ッ」
 
-密着した腰の奥深くへ、込みあがる衝動が流れ込んだ。
-The urge wells up and rushes deep into where our waists are stuck together.
+#密着した腰の奥深くへ、込みあがる衝動が流れ込んだ。
+　The urge wells up and rushes deep into where our waists are stuck together.
 
-迸りを注がれる秘洞が波打つように肉棒に絡みつく。
-Her pussy coils around my dick in pulsing waves as it's filled with the spray.
+#迸りを注がれる秘洞が波打つように肉棒に絡みつく。
+　Her pussy coils around my dick in pulsing waves as it's filled with the spray.
 
+#「んくっ、う……」
 ＠Itsuki
-「んくっ、う……」
 「Nkuh, uh...」
 
-雫さんの嬌声と共に締め付ける媚肉から逃げられず、放たれる精液は全て膣の中へと溢れていった。
-Unable to escape from Shizuku-san's lovely voice and inner flesh tightening...
+#雫さんの嬌声と共に締め付ける媚肉から逃げられず、放たれる精液は全て膣の中へと溢れていった。
+　Unable to escape from Shizuku-san's lovely voice and inner flesh tightening...
 
 #SCRIPT ADD DIALOGUE
-My ejaculation is unleashed, all of it spills out into her pussy.
+　My ejaculation is unleashed, all of it spills out into her pussy.
 
 event	"event\ev_siz_030-03.png"
 
-
+#「ッくふぅ……はあぁっ、ん……二度目なのに、ふふ……こんなに出すんだ」
 ＠Shizuku,S00559
-「ッくふぅ……はあぁっ、ん……二度目なのに、ふふ……こんなに出すんだ」
 「ッくふぅ……はあぁっ、ん…… It's the second time, fufu... but it's cumming this much」
 
-ドクドクと白濁を吐き出す怒張へ、さらに腰をゆっくりと擦りつける雫さん。
-Shizuku-san rubs against my cock that's ejaculating turbid semen again, gently moving her waist.
+#ドクドクと白濁を吐き出す怒張へ、さらに腰をゆっくりと擦りつける雫さん。
+　Shizuku-san rubs against my cock that's ejaculating turbid semen again, gently moving her waist.
 
-膣内に熱く満たされていく感触が広がっていく。
-The feeling of hot liquid inside her pussy spreads.
+#膣内に熱く満たされていく感触が広がっていく。
+　The feeling of hot liquid inside her pussy spreads.
 
+#「はぁ……んく、また雫さんは……」
 ＠Itsuki
-「はぁ……んく、また雫さんは……」
 「Haa... nkuh, again you're...」
 
-
+#「ん、んぅっ、はぁぁ……樹のお子様チンポだけよ、イッたのは」
 ＠Shizuku,S00560
-「ん、んぅっ、はぁぁ……樹のお子様チンポだけよ、イッたのは」
 「ん、んぅっ、はぁぁ…… Your no-good dick is the only one that came」
 
-動かされる腰から、その飛沫がトロトロと滴るのが見えた。
-The sticky spray can be seen trickling down from her moving hips.
+#動かされる腰から、その飛沫がトロトロと滴るのが見えた。
+　The sticky spray can be seen trickling down from her moving hips.
 
-が、それはこちらが一方的に達した証で、雫さんの表情からはまだ色濃い火照りが窺える。
-But, while that might be evidence against me, I can see Shizuku-san's face is still pretty flushed.
+#が、それはこちらが一方的に達した証で、雫さんの表情からはまだ色濃い火照りが窺える。
+　But, while that might be evidence against me, I can see Shizuku-san's face is still pretty flushed.
 
-……二度も、一方的にやられたのだ。
-面白半分の雫さんの言うとおり、これはやはり駄目でありお子様とされるのか。
-... I've been fucked one-sidedly, twice. She's just teasing, but maybe this really is kind of childish.
+#……二度も、一方的にやられたのだ。
+#面白半分の雫さんの言うとおり、これはやはり駄目でありお子様とされるのか。
+　... I've been fucked one-sidedly, twice. She's just teasing, but maybe this really is kind of childish.
 
+#「あふ、んぅ……すっきりした？　あたしはまだだけど、しょうがないわね」
 ＠Shizuku,S00561
-「あふ、んぅ……すっきりした？　あたしはまだだけど、しょうがないわね」
 「あふ、んぅ…… Are you satisfied? I'm not quite yet, but I guess it can't be helped」
 
+#「……オレが、駄目、だからか」
 ＠Itsuki
-「……オレが、駄目、だからか」
 「... I'm no-good after all, right...」
 
+#「でも、あんたのお子様反応はそれなりに楽しかったよ……ん、んぅ」
 ＠Shizuku,S00562
-「でも、あんたのお子様反応はそれなりに楽しかったよ……ん、んぅ」
 「But your childish reactions were kind of pleasing and fun in their own way... ん、んぅ」
 
-腰を浮かせて行為を終わろうとする雫さんから、一瞬濡れた声が零れ落ちる。
-She raises her hips about to call it quits, and for a moment her aroused voice spills out.
+#腰を浮かせて行為を終わろうとする雫さんから、一瞬濡れた声が零れ落ちる。
+　She raises her hips about to call it quits, and for a moment her aroused voice spills out.
 
+#（……！　そうだ、別に雫さんも感じてないわけじゃない。さすがに今からなら）
 ＠Itsuki
-（……！　そうだ、別に雫さんも感じてないわけじゃない。さすがに今からなら）
 （...! That's it, it can't be that she hasn't been feeling anything this whole time. Especially at this point）
 
-攻められた復讐とか、自分だけイッたお詫びなどではなく、ここで止めるのは男の沽券に関わる問題だ……と思う。
-It's not a matter of being angry at being taken advantage or sorry for coming by myself...
+#攻められた復讐とか、自分だけイッたお詫びなどではなく、ここで止めるのは男の沽券に関わる問題だ……と思う。
+　It's not a matter of being angry at being taken advantage or sorry for coming by myself...
 
 #SCRIPT ADD DIALOGUE
-I think... stopping here would hurt my manly pride.
+　I think... stopping here would hurt my manly pride.
 
+#「……雫さん、もう一回しましょう。今度こそ、イカセますから」
 ＠Itsuki
-「……雫さん、もう一回しましょう。今度こそ、イカセますから」
 「... Shizuku-san, let's do it one more time. This time, I will make you come」
 
+#「二度あることは三度ある、ってね。止めときな……また一人イッちゃうよ？」
 ＠Shizuku,S00563
-「二度あることは三度ある、ってね。止めときな……また一人イッちゃうよ？」
 「You can't do any more in 3 tries than you have in 2. Just give it up... You'll come by yourself won't you?」
 
-あっさりと足蹴にして腰を浮かす。
-She plants her feet smoothly and makes to rise.
+#あっさりと足蹴にして腰を浮かす。
+　She plants her feet smoothly and makes to rise.
 
-が、それを追うように、強引にこちらも腰を突き上げた。
-But following her movement, I thrust and force my waist up hard.
+#が、それを追うように、強引にこちらも腰を突き上げた。
+　But following her movement, I thrust and force my waist up hard.
 
+#「ひふんッ！　んんはぁッ……ん、もう、止めなってば……」
 ＠Shizuku,S00564
-「ひふんッ！　んんはぁッ……ん、もう、止めなってば……」
 「ひふんッ！　んんはぁッ……ん、I told you to stop already...」
 
-その一瞬弾ませた嬌声をもちろん聞き逃さなかった。
-I could not fail to hear her moaning come out as I did that.
+#その一瞬弾ませた嬌声をもちろん聞き逃さなかった。
+　I could not fail to hear her moaning come out as I did that.
 
-止めようとしているのはそう……今度は雫さんの強がりに違いない。
-That's why she's trying to stop now... This time it's Shizuku who is not being honest.
+#止めようとしているのはそう……今度は雫さんの強がりに違いない。
+　That's why she's trying to stop now... This time it's Shizuku who is not being honest.
 
 #■BG（ブラック）
 
 @bg_black
 
+#「そういわずに、もう一勝負付き合ってもらいますよ、雫さん……ッ」
 ＠Itsuki
-「そういわずに、もう一勝負付き合ってもらいますよ、雫さん……ッ」
 「No complaining, I'm going to take you up for one more game, Shizuku-san...」
 
 #SE27　倒れる音（ドサッ）
 #SE27　Falling over sound （*dosa*）
 
+#「えッ！？　なっ、だから止めなって……」
 ＠Shizuku,S00565
-「えッ！？　なっ、だから止めなって……」
 「Huh!? Wha, I told you stop...」
 
-さっきとはまるで逆の立場になりながら、今度はオレが雫さんの後ろを取った。
-As if our roles are completely reversed from earlier, this time I grab Shizuku-san from behind.
+#さっきとはまるで逆の立場になりながら、今度はオレが雫さんの後ろを取った。
+　As if our roles are completely reversed from earlier, this time I grab Shizuku-san from behind.
 
 #SE01　ズボンのベルトを外す（カチャカチャ）
 #SE01　Unfastening belt sound （*kacha kacha*）
 
-抵抗の力はほとんど入っていないようだが、念のために手首へベルトを巻きつけて拘束する。
-She doesn't seem to be fighting back much, but I wrap my belt around her wrist to be sure.
+#抵抗の力はほとんど入っていないようだが、念のために手首へベルトを巻きつけて拘束する。
+　She doesn't seem to be fighting back much, but I wrap my belt around her wrist to be sure.
 
 #■HVCG
 event	"event\ev_siz_040-00.png"
 
+#「んッ、っく……何このベルト……！？」
 ＠Shizuku,S00566
-「んッ、っく……何このベルト……！？」
 「んッ、っく…… What's with this belt...!?」
 
+#「逃げないように。別にそれ以上の意味はありませんよ」
 ＠Itsuki
-「逃げないように。別にそれ以上の意味はありませんよ」
 「So you won't escape, that's all」
 
-ソファーに前屈させ、腰をこちらに突き出させる格好。
-I bend her over the sofa so her ass sticks out toward me. 
+#ソファーに前屈させ、腰をこちらに突き出させる格好。
+　I bend her over the sofa so her ass sticks out toward me. 
 
-その体勢で少し慌てる雫さんを後ろから押さえ、揺れるほどに豊かな乳房へ手を伸ばした。
-Shizuku-san is a little flustered at this position. Holding her in place, I reach out my hand to her abundant, swaying breasts.
+#その体勢で少し慌てる雫さんを後ろから押さえ、揺れるほどに豊かな乳房へ手を伸ばした。
+　Shizuku-san is a little flustered at this position. Holding her in place, I reach out my hand to her abundant, swaying breasts.
 
+#「んぅッ、ふ……まったく強引な……その辺が我慢の出来ないお子様なんだよ」
 ＠Shizuku,S00567
-「んぅッ、ふ……まったく強引な……その辺が我慢の出来ないお子様なんだよ」
 「んぅッ、ふ…… How barbaric... This is the type of thing a spoiled child would do」
 
+#「その余裕もこれまでですよ……感じてるのは分かってるんですから」
 ＠Itsuki
-「その余裕もこれまでですよ……感じてるのは分かってるんですから」
 「And that composure of yours ends here... You know how to feel good after all」
 
-さっきは動転して触れることはなかったが、今度は指を沈め乳房を堪能させてもらう。
-I was disoriented earlier and didn't touch her breasts, but this time my finger sinks in and starts satisfying her.
+#さっきは動転して触れることはなかったが、今度は指を沈め乳房を堪能させてもらう。
+　I was disoriented earlier and didn't touch her breasts, but this time my finger sinks in and starts satisfying her.
 
-パイズリで直接体感した柔らかさも、実際に手で揉むと心地よさが違った。
-That softness I experienced with her paizuri, now rubbing them with my hand is pleasant in a different way.
+#パイズリで直接体感した柔らかさも、実際に手で揉むと心地よさが違った。
+　That softness I experienced with her paizuri, now rubbing them with my hand is pleasant in a different way.
 
+#「あふ、くんッ……もう、その程度であたしを落とそうなんて、思い上がりもいいところだよ」
 ＠Shizuku,S00568
-「あふ、くんッ……もう、その程度であたしを落とそうなんて、思い上がりもいいところだよ」
 「あふ、くんッ…… Trying to lower me into such a position... So you're conceited too」
 
+#「ベルト解きな、樹……ふぅ、んくッ、無謀なことして……返り討ちにあうのがオチだからさ……」
 ＠Shizuku,S00569
-「ベルト解きな、樹……ふぅ、んくッ、無謀なことして……返り討ちにあうのがオチだからさ……」
 「Untie this belt, Itsuki... ふぅ、んくッ、You're not thinking straight... I'll acquiesce to meeting you for round 2 so...」
 
-拘束具代わりのベルトを外そうとしているが、オレ自身も意外なくらい、それは隙なく手首を縛り上げていた。
-She tries to undo my makeshift restraint, but with a surprising amount of force I bind it about her wrist.
+#拘束具代わりのベルトを外そうとしているが、オレ自身も意外なくらい、それは隙なく手首を縛り上げていた。
+　She tries to undo my makeshift restraint, but with a surprising amount of force I bind it about her wrist.
 
-身動きできない女性を辱める躊躇はあるが、それでもチャンスとばかりに乳房を揉みしだく。
-I hesitate at the idea of taking advantage of her, but I have to take this chance so I rub and caress her breasts.
+#身動きできない女性を辱める躊躇はあるが、それでもチャンスとばかりに乳房を揉みしだく。
+　I hesitate at the idea of taking advantage of her, but I have to take this chance so I rub and caress her breasts.
 
 熱を持った膨らみは表面に汗を浮かせ、きめ細かな乳肌を手の平に張るり付かせてきた。
 The hot bulges of her tits are streaked with sweat as I take her smooth skin in the palm of my hand and squeeze it.
 
+#「さすが……この胸にさっきオレは射精させられたわけですか」
 ＠Itsuki
-「さすが……この胸にさっきオレは射精させられたわけですか」
 「I guess your chest is like this from making me come earlier」
 
+#「っはぁ、あぅん！　んふ……それをこうして揉んでるんだから、また早く入れたくてしょうがないんじゃないのかい？」
 ＠Shizuku,S00570
-「っはぁ、あぅん！　んふ……それをこうして揉んでるんだから、また早く入れたくてしょうがないんじゃないのかい？」
 「っはぁ、あぅん！ んふ…… It's because you're doing this and rubbing them...」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「I can't help but want you to hurry up and put it in again can I?」
 
+#「もちろん入れますよ……けど、今度はオレが雫さんをイカせる」
 ＠Itsuki
-「もちろん入れますよ……けど、今度はオレが雫さんをイカせる」
 「I will put it in of course... except, this time I'm going to make Shizuku-san come」
 
+#「ん、そう……？　勢いのいいこと言う割りに、ずいぶん慎重じゃないの」
 ＠Shizuku,S00571
-「ん、そう……？　勢いのいいこと言う割りに、ずいぶん慎重じゃないの」
 「Hm, is that so...? Considering those strong words, you're being pretty careful aren't you」
 
-こちらのすぐ腰元へお尻を向ける格好のまま、乳房しか攻めないオレへ余裕を見出す雫さん。
-Shizuku notices my composure in touching only her breasts, despite our position with her ass inches from my crotch.
+#こちらのすぐ腰元へお尻を向ける格好のまま、乳房しか攻めないオレへ余裕を見出す雫さん。
+　Shizuku notices my composure in touching only her breasts, despite our position with her ass inches from my crotch.
 
-さっきまで肉棒を咥えていた秘裂の奥から愛液が滲み出ていた。
-Her love juices ooze out from her pussy which was holding my cock not too long ago.
+#さっきまで肉棒を咥えていた秘裂の奥から愛液が滲み出ていた。
+　Her love juices ooze out from her pussy which was holding my cock not too long ago.
 
-しかしそんな扇情的な光景を見ても、さすがに二度も出した今なら落ち着いたものだ。
-Despite the lascivious view, as one would expect having cummed twice I've calmed down.
+#しかしそんな扇情的な光景を見ても、さすがに二度も出した今なら落ち着いたものだ。
+　Despite the lascivious view, as one would expect having cummed twice I've calmed down.
 
+#「すぐ飛びついたら、またお子様とか言う気だ、雫さんは」
 ＠Itsuki
-「すぐ飛びついたら、またお子様とか言う気だ、雫さんは」
 「If I jumped on you right away, you'd just call me childish again」
 
-反対の手を腿の内側へ差し入れ、トロトロに濡れた恥丘を撫で上げる。
-I take my hand restraining her and insert it between her thighs, caressing her wet, soppy mound.
+#反対の手を腿の内側へ差し入れ、トロトロに濡れた恥丘を撫で上げる。
+　I take my hand restraining her and insert it between her thighs, caressing her wet, soppy mound.
 
+#「あん、はあぁッ……もっともらしいこと言って……ん、攻め手が無いんなら、止めたほうがいいんじゃない……？」
 ＠Shizuku,S00572
-「あん、はあぁッ……もっともらしいこと言って……ん、攻め手が無いんなら、止めたほうがいいんじゃない……？」
 「Ahn, haaa... That sounds about right... nh, so if you've got no strategy, maybe it would be best to stop...?」
 
+#「そっちこそ、こんなに濡らしてて」
 ＠Itsuki
-「そっちこそ、こんなに濡らしてて」
 「Especially since you're getting so wet down there」
 
-周囲へ触れて擦るだけで中心の陰唇がヒクヒクと蠢く。
-Just touching and rubbing the surrounding area, her labia between convulse and squirm.
+#周囲へ触れて擦るだけで中心の陰唇がヒクヒクと蠢く。
+　Just touching and rubbing the surrounding area, her labia between convulse and squirm.
 
-思い切ってそこへ指を沈めながら、同時に硬くなっている乳首も弄り倒した。
-My finger boldly sinks into her slit, while at the same time I tease and take over her hardening nipple. 
+#思い切ってそこへ指を沈めながら、同時に硬くなっている乳首も弄り倒した。
+　My finger boldly sinks into her slit, while at the same time I tease and take over her hardening nipple. 
 
 event	"event\ev_siz_040-01.png"
 
 ＠Shizuku,S00573
 「ッふくう！　んッ、はぁぁ……ッ、はぁぁっ」
 
-突き入れた中指は、付け根まで深く膣肉の中へ潜り込ませていく。
-My middle finger that I thrusted in, slides deep into the flesh of her pussy to the base.
+#突き入れた中指は、付け根まで深く膣肉の中へ潜り込ませていく。
+　My middle finger that I thrusted in, slides deep into the flesh of her pussy to the base.
 
-新たに侵入してきたその異物を、中の秘洞は待ちわびていたように熱く締め付けてきた。
-Inside it tightens up on the newly intruding foreign object like it had been waiting expectantly.
+#新たに侵入してきたその異物を、中の秘洞は待ちわびていたように熱く締め付けてきた。
+　Inside it tightens up on the newly intruding foreign object like it had been waiting expectantly.
 
+#「指くらいじゃ、全然落とせないよ……っん、んくふぅ！」
 ＠Shizuku,S00574
-「指くらいじゃ、全然落とせないよ……っん、んくふぅ！」
 「I won't fall even a bit to just your finger... っん、んくふぅ！」
 
+#「んふふ……もっとも、二度も出した後のお子様チンポなら、指の方がマシなのかもね」
 ＠Shizuku,S00575
-「んふふ……もっとも、二度も出した後のお子様チンポなら、指の方がマシなのかもね」
 「Nfufu... though your finger might be preferable to your childish dick after it's come twice」
 
+#「ぅ……本当に口の減らない人だな、もう」
 ＠Itsuki
-「ぅ……本当に口の減らない人だな、もう」
 「Ugh... you really won't stop yapping」
 
-いいのか悪いのか、結論から言えば、オレの股間は今のこの体勢にまた硬く勃起を見せている。
-Whether good or bad, in the end with my current position my dick is getting harder, and erect again.
+#いいのか悪いのか、結論から言えば、オレの股間は今のこの体勢にまた硬く勃起を見せている。
+　Whether good or bad, in the end with my current position my dick is getting harder, and erect again.
 
-「そんなに言うなら……！」と一瞬言葉に呑まれて挿入しかけるが、すんでのところで抑えが利いた。
-I feel like replying angrily and come dangerously close to putting it in, but my self-restraint prevails.
+#「そんなに言うなら……！」と一瞬言葉に呑まれて挿入しかけるが、すんでのところで抑えが利いた。
+　I feel like replying angrily and come dangerously close to putting it in, but my self-restraint prevails.
 
+#「その代わり、指なら一方的に攻めれますからね」
 ＠Itsuki
-「その代わり、指なら一方的に攻めれますからね」
 「In that case, I'll just have to teach you a lesson with my finger」
 
+#「ん、ふぅ、あたしを攻めるだけの、テクニックがあればだけどね……ふふ」
 ＠Shizuku,S00576
-「ん、ふぅ、あたしを攻めるだけの、テクニックがあればだけどね……ふふ」
 「Nh, fuu, You'll only be able to teach me a lesson, if you have the proper technique... fufu」
 
-奥まで入れた指は、まだ動かさない内から、愛液が手の平まで滴っている。
-I extract my finger from inside and even without moving it's already dripping wet down to my palm.
+#奥まで入れた指は、まだ動かさない内から、愛液が手の平まで滴っている。
+　I extract my finger from inside and even without moving it's already dripping wet down to my palm.
 
-オレは挿入する指を二本に増やして、膣内へ出入りさせて反応を探った。
-I add to that a second finger and insert it, go in and out of her pussy and check her reaction.
+#オレは挿入する指を二本に増やして、膣内へ出入りさせて反応を探った。
+　I add to that a second finger and insert it, go in and out of her pussy and check her reaction.
 
+#「ふぅんッ、はぁっ……はぁぅ、そんな単調じゃ、まだ道具の方が気持ちいいくらいだよ」
 ＠Shizuku,S00577
-「ふぅんッ、はぁっ……はぁぅ、そんな単調じゃ、まだ道具の方が気持ちいいくらいだよ」
 「ふぅんッ、はぁっ……はぁぅ、When you're that uncreative, it'll only feel as good as if I'm using a toy」
 
+#「……手慣らしの軽い動きだったんですけど。そんな言うなら必要ないみたいですね」
 ＠Itsuki
-「……手慣らしの軽い動きだったんですけど。そんな言うなら必要ないみたいですね」
 「... I was just lightly moving to get you acquainted with it. But when you say that I guess there's no need」
 
-膣に沈む指を擦るように曲げながら、捻りを加えるピストンに変えた。
-While bending my finger penetrating her pussy to rub it, I add some twisting to my pumping in and out.
+#膣に沈む指を擦るように曲げながら、捻りを加えるピストンに変えた。
+　While bending my finger penetrating her pussy to rub it, I add some twisting to my pumping in and out.
 
 ＠Shizuku,S00578
 「んはぅッ……はぁッ、ぁっ……くぅふ！　んぅッ、はぁぁッ」
 
-濡れて柔軟な媚肉はそんな指に絡みつきながら、最奥から膣口まで引きずられる。
-My rough fingering runs along her pussy from the depths to the opening, as her soft and wet inner flesh wraps around it.
+#濡れて柔軟な媚肉はそんな指に絡みつきながら、最奥から膣口まで引きずられる。
+　My rough fingering runs along her pussy from the depths to the opening, as her soft and wet inner flesh wraps around it.
 
-掻き出される蜜が溢れるも、それ以上の量が内側から滲み出す。
-An amount matching that, of her overflowing pussy juices that I'm bringing out, seeps out out from inside.
+#掻き出される蜜が溢れるも、それ以上の量が内側から滲み出す。
+　An amount matching that, of her overflowing pussy juices that I'm bringing out, seeps out out from inside.
 
+#「あふぅッ！　くん！　……ッはあ、まさか、これで終わりじゃないだろうね」
 ＠Shizuku,S00579
-「あふぅッ！　くん！　……ッはあ、まさか、これで終わりじゃないだろうね」
 「あふぅッ！　くん！　……ッはあ、This can't be all you've got」
 
+#「こんな程度で抑えられちゃ……っあぁ、んはぁッ、ん！　返ってこっちは辛いくらいだよ」
 ＠Shizuku,S00580
-「こんな程度で抑えられちゃ……っあぁ、んはぁッ、ん！　返ってこっちは辛いくらいだよ」
 「Being held back this much... っあぁ、んはぁッ、ん！　Come back inside, this is really hard to endure」
 
-雫さんからは指の動きに比例した熱っぽい呼吸が荒ぎ続けた。
-Shizuku-san's ragged breathing heats up whenever my finger moves.
+#雫さんからは指の動きに比例した熱っぽい呼吸が荒ぎ続けた。
+　Shizuku-san's ragged breathing heats up whenever my finger moves.
 
-口調こそ挑発的だが、それが更に官能を求めてるものだというのは視線から明らかだ。
-Her tone is sexy to be sure, but it's clear even more from her expression this is what she's lusting after.
+#口調こそ挑発的だが、それが更に官能を求めてるものだというのは視線から明らかだ。
+　Her tone is sexy to be sure, but it's clear even more from her expression this is what she's lusting after.
 
-もちろん、ここでこれ以上の手が無いと、結局またからかわれるループに落ちることは間違いない。
-Of course, if I stop fingering here, I can see this disintegrating into mockery about raping her again.
+#もちろん、ここでこれ以上の手が無いと、結局またからかわれるループに落ちることは間違いない。
+　Of course, if I stop fingering here, I can see this disintegrating into mockery about raping her again.
 
+#「心配なく」
 ＠Itsuki
-「心配なく」
 「Not to worry」
 
-今度は勃起している乳首を握り潰しながら、乳肉を捏ねたくる。
-This time I pinch her erect nipples, while kneading and pulling against her breasts.
+#今度は勃起している乳首を握り潰しながら、乳肉を捏ねたくる。
+　This time I pinch her erect nipples, while kneading and pulling against her breasts.
 
-指の先や間で弄られる先端は、そのまま火照りとろけた乳房に沈むように揉みこまれていく。
-I tease and rub into her teat with the facets of my finger, sinking into her aroused, heated breasts.
+#指の先や間で弄られる先端は、そのまま火照りとろけた乳房に沈むように揉みこまれていく。
+　I tease and rub into her teat with the facets of my finger, sinking into her aroused, heated breasts.
 
 ＠Shizuku,S00581
 「あぁはあっ、んくふぅ……ふぁぁ、はあぁッ、あ、くふぅん！」
 
+#「それとここも……一方的にやられた仕返しですよ」
 ＠Itsuki
-「それとここも……一方的にやられた仕返しですよ」
 「I have to pay you back... for all you did for me earlier」
 
-秘唇の上で充血している鋭敏な突起も、別の指で振動させた。
-I vibrate another finger on the excited sharp protuberance of her clit above her lower lips.
+#秘唇の上で充血している鋭敏な突起も、別の指で振動させた。
+　I vibrate another finger on the excited sharp protuberance of her clit above her lower lips.
 
+#「んくふッ！　ぃんッ、あふぁぁッ……ん、王道だねぇ……まるで教科書に載ってるみたいな触り方だ……」
 ＠Shizuku,S00582
-「んくふッ！　ぃんッ、あふぁぁッ……ん、王道だねぇ……まるで教科書に載ってるみたいな触り方だ……」
 「んくふッ！　ぃんッ、あふぁぁッ……ん、You're taking the easy way out...」 ->
 
-#SCIPT ADD DIALOGUE
+#SCRIPT ADD DIALOGUE
 ＠Shizuku
 「The way you're touching me is like you're pulling it from a textbook」
 
+#「いいんだよ、過激なことしても……んぁうッ！　はふぅぅ、ん……樹に、出来るなら、だけどね」
 ＠Shizuku,S00583
-「いいんだよ、過激なことしても……んぁうッ！　はふぅぅ、ん……樹に、出来るなら、だけどね」
 「It's fine, you know. You can do whatever crazy thing you want... んぁうッ！　はふぅぅ、ん……」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「Unless you're chicken or something...」
 
+#「………」
 ＠Itsuki
-「………」
 「...」
 
-王道・過激に……
-またそれら挑発に、オレの視線が双臀の奥の窄まりを捉える。
-Easy way out, crazy things... 
+#王道・過激に……
+#またそれら挑発に、オレの視線が双臀の奥の窄まりを捉える。
+　Easy way out, crazy things... 
 
 #SCRIPT ADD DIALOGUE
-Once again at her provocations, my gaze settles on the narrow part between her buttcheeks.
+　Once again at her provocations, my gaze settles on the narrow part between her buttcheeks.
 
-乳首を摘む指に爪を立てそうになり、挿入する手がもっと深く大きなピストンを望む。
-I pinch her nipple between my fingers as if clawing with my nails, as my hand at her pussy pistons in and out more deeply.
+#乳首を摘む指に爪を立てそうになり、挿入する手がもっと深く大きなピストンを望む。
+　I pinch her nipple between my fingers as if clawing with my nails, as my hand at her pussy pistons in and out more deeply.
 
-それら思いつきが気持ちいいのか分からないが、しかし雫さんに一矢報いることが出来るのは確かだ。
-I don't know how well that'll work in pleasuring her, but it can probably act to counter her demands.
+#それら思いつきが気持ちいいのか分からないが、しかし雫さんに一矢報いることが出来るのは確かだ。
+　I don't know how well that'll work in pleasuring her, but it can probably act to counter her demands.
 
+#「けど教科書・セオリー、大いに結構。間違ってることはしてないって認めてることですからね」
 ＠Itsuki
-「けど教科書・セオリー、大いに結構。間違ってることはしてないって認めてることですからね」
 「Textbook theory is more than enough for me though. You're admitting that I'm not making any mistakes after all」
 
-その黒い反抗心を奥に封印し、純粋に今のまま動きの力だけを強くしていった。
-A black spirit of defiance burns in my soul, and I strengthen my movements without changing our position.
+#その黒い反抗心を奥に封印し、純粋に今のまま動きの力だけを強くしていった。
+　A black spirit of defiance burns in my soul, and I strengthen my movements without changing our position.
 
 ＠Shizuku,S00584
 「ッはあ、あふくッ！　んッ……はぁぁっ、あはぁぁ、はふんッ！　くふぅぁ」
 
-身体をよじらせると、オレの言動に自嘲するような笑みを向ける。
-She twists her body, and flashes a self-deprecating smile at my conduct.
+#身体をよじらせると、オレの言動に自嘲するような笑みを向ける。
+　She twists her body, and flashes a self-deprecating smile at my conduct.
 
+#「はあぁッ、ぃんッ！　んふぅく……はあぁッ、ちょっと、あたしも遊びすぎたかもね」
 ＠Shizuku,S00585
-「はあぁッ、ぃんッ！　んふぅく……はあぁッ、ちょっと、あたしも遊びすぎたかもね」
 「はあぁッ、ぃんッ！　んふぅく……はあぁッ、Hold on, I think I've played a little too much as well」
 
+#「さっきの射精で……はぁッ、んふぁ！　反撃できないくらい骨抜きにしとくんだったよ……んんく！」
 ＠Shizuku,S00586
-「さっきの射精で……はぁッ、んふぁ！　反撃できないくらい骨抜きにしとくんだったよ……んんく！」
 「Your ejaculation from before... はぁッ、んふぁ！ kind of took it out of me and I can't fight back... んんく！」
 
-騎乗位の時でさえ余裕のあった雫さんだが、さすがに三度連続となるとハンデが大きいのか。
-Shizuku-san seemed pretty at ease even during the cowgirl, but as expected 3 times in succession I have a clear advantage.
+#騎乗位の時でさえ余裕のあった雫さんだが、さすがに三度連続となるとハンデが大きいのか。
+　Shizuku-san seemed pretty at ease even during the cowgirl, but as expected 3 times in succession I have a clear advantage.
 
-返してくる言葉はいつもの調子だが、感度の昂ぶっている性感帯への反応は、隠しきれていない。
-She's replying with her usual wit, but she can't fully hide her reaction to the impulses she's getting from her sexual foci.
+#返してくる言葉はいつもの調子だが、感度の昂ぶっている性感帯への反応は、隠しきれていない。
+　She's replying with her usual wit, but she can't fully hide her reaction to the impulses she's getting from her sexual foci.
 
+#「微妙に卑怯くさいけど、このままイカせますよ」
 ＠Itsuki
-「微妙に卑怯くさいけど、このままイカせますよ」
 「You've played a low game but I'm going to make you come here and now」
 
-コンコンと溢れる蜜を淫核へ、肌に浮く汗を乳首へ塗りつけながら、手を攻め蠢かせる。
-I wriggle my hand at her pussy dripping and overflowing with love juices...
+#コンコンと溢れる蜜を淫核へ、肌に浮く汗を乳首へ塗りつけながら、手を攻め蠢かせる。
+　I wriggle my hand at her pussy dripping and overflowing with love juices...
 
 #SCRIPT ADD DIALOGUE
-While painting her breasts with sweat that clung to her skin.
+　While painting her breasts with sweat that clung to her skin.
 
-さっきオレが雫さんに言われた感度の高い正直な反応が、その上と下の両方で熱くなっていく。
-That sensitive and honest reaction Shizuku called me out on before, ignites in her erogenous zones.
+#さっきオレが雫さんに言われた感度の高い正直な反応が、その上と下の両方で熱くなっていく。
+　That sensitive and honest reaction Shizuku called me out on before, ignites in her erogenous zones.
 
 ＠Shizuku,S00587
 「んくぅふ！　あはぁッ、ん……はあぁ、はぁっ、ぃうんッ！」
 
-そのクネらせる腰が後ろに揺れ、こちらの先走りに濡れた亀頭をヌルリと擦り付けていた。
-Her swaying ass drifts backward and rubs against my glans covered with leaking precum.
+#そのクネらせる腰が後ろに揺れ、こちらの先走りに濡れた亀頭をヌルリと擦り付けていた。
+　Her swaying ass drifts backward and rubs against my glans covered with leaking precum.
 
+#「はふぅ、ん……ふふ、濡れてるのも、あたしだけじゃないみたいだね」
 ＠Shizuku,S00588
-「はふぅ、ん……ふふ、濡れてるのも、あたしだけじゃないみたいだね」
 「はふぅ、ん…… Fufu, looks like I'm not the only one getting wet」
 
-今までのからかいだけではない、官能の艶をのせた笑みが振り返る。
-More than just teasing, she looks back over her shoulder giving me a lust-filled smile.
+#今までのからかいだけではない、官能の艶をのせた笑みが振り返る。
+　More than just teasing, she looks back over her shoulder giving me a lust-filled smile.
 
+#「前戯だってもう必要ないでしょ？　ふぅっ……んく、ちゃんとおチンチンで突いて、感じさせてごらん」
 ＠Shizuku,S00589
-「前戯だってもう必要ないでしょ？　ふぅっ……んく、ちゃんとおチンチンで突いて、感じさせてごらん」
 「There's no need for foreplay anymore right? Fuu... Nkuh, I want to feel you thrust your dick in」
 
+#「………」
 ＠Itsuki
-「………」
 「...」
 
-振り返る視界へ怒張を映すと、同じ土俵に上がることを誘う雫さん。
-In her field of view looking back she spots my dick and incites it to join the fray. 
+#振り返る視界へ怒張を映すと、同じ土俵に上がることを誘う雫さん。
+　In her field of view looking back she spots my dick and incites it to join the fray. 
 
-中に入れる気持ちよさを示すように、指を呑み込んだままの秘肉が包み込んでくる。
-Her pussy flesh wraps up around my finger as it's deep inside to show her delight at being entered.
+#中に入れる気持ちよさを示すように、指を呑み込んだままの秘肉が包み込んでくる。
+　Her pussy flesh wraps up around my finger as it's deep inside to show her delight at being entered.
 
+#「やっぱり自信のない樹はここで逃げて、後でオナニーでもして沈める気なんだろうね」
 ＠Shizuku,S00590
-「やっぱり自信のない樹はここで逃げて、後でオナニーでもして沈める気なんだろうね」
 「I suppose that's your plan after all, without any faith in yourself you'll run away here...」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「And be reduced to fingering me from behind」
 
+#「……いいですよ、その挑発にのりましょう」
 ＠Itsuki
-「……いいですよ、その挑発にのりましょう」
 「... It's fine, I accept your challenge」
 
-一矢報いたい思いとは別に、もう一度この中で動かしたいという本能はある。
-I can feel that she's not being tricky, once again her body shudders wanting to be fucked.
+#一矢報いたい思いとは別に、もう一度この中で動かしたいという本能はある。
+　I can feel that she's not being tricky, once again her body shudders wanting to be fucked.
 
-膣奥を掻き回した指を引き抜くと、光を反射するヌメリが糸を引きながら表れた。
-I pull out my finger that was churning her insides, a string of stretchy liquid gleams in the light.
+#膣奥を掻き回した指を引き抜くと、光を反射するヌメリが糸を引きながら表れた。
+　I pull out my finger that was churning her insides, a string of stretchy liquid gleams in the light.
 
+#「ふぅ……んふ、これであたしより先に出したら、駄目チンポ確定ってことね」
 ＠Shizuku,S00591
-「ふぅ……んふ、これであたしより先に出したら、駄目チンポ確定ってことね」
 「Fuu... Nfuh, if at this stage you come before me, you'll have the very definition of a no-good dick」
 
+#「ありえない………入れますよ」
 ＠Itsuki
-「ありえない………入れますよ」
 「That's not possible... I'm going in」
 
-花弁に怒張の先端を押し当て、一気に竿まで挿入していった。
-I push my dick into her velvet petals, all at once it's inserted even the shaft.
+#花弁に怒張の先端を押し当て、一気に竿まで挿入していった。
+　I push my dick into her velvet petals, all at once it's inserted even the shaft.
 
 #■（挿入
 event	"event\ev_siz_040-02.png"
@@ -2115,32 +2102,32 @@ event	"event\ev_siz_040-02.png"
 ＠Shizuku,S00592
 「ああぁぁっ、んふぅッ！　っふ、はあぁぁッ……あはぁぁっ」
 
-ズブズブと硬い異物を秘洞へ潜り込ませ、侵入を許す限界まで奥を求めていく。
-With a squelching sound my hard dick slides into her slit, her inside hungrily accepts the foreign object.
+#ズブズブと硬い異物を秘洞へ潜り込ませ、侵入を許す限界まで奥を求めていく。
+　With a squelching sound my hard dick slides into her slit, her inside hungrily accepts the foreign object.
 
-たっぷりと濡れた中は抵抗無く、互いの腰を密着させるまで怒張を呑み込んでいった。
-Her well-lubricated interior without any resistance, it devours my cock all the way to the base.
+#たっぷりと濡れた中は抵抗無く、互いの腰を密着させるまで怒張を呑み込んでいった。
+　Her well-lubricated interior without any resistance, it devours my cock all the way to the base.
 
+#「はああっ、あはぅんッ……はぁ、さぁ、動かしてごらん、お子様チンポ」
 ＠Shizuku,S00593
-「はああっ、あはぅんッ……はぁ、さぁ、動かしてごらん、お子様チンポ」
 「はああっ、あはぅんッ……はぁ、Come on, fuck me, childish dick」
 
+#「こんな状態で、あたしより先に出したりするんじゃないよ……ッん、んくぅん」
 ＠Shizuku,S00594
-「こんな状態で、あたしより先に出したりするんじゃないよ……ッん、んくぅん」
 「In these circumstances, there's no way you'll come before me... ッん、んくぅん」
 
-肉茎を包み込む膣肉はさっきより熱く締め付けてきた。
-Her inner flesh wrapping up my cock tightens considerably more than before.
+#肉茎を包み込む膣肉はさっきより熱く締め付けてきた。
+　Her inner flesh wrapping up my cock tightens considerably more than before.
 
-雫さんの官能の高さのせいで濡れる愛蜜も、量と濃さが上がっている。
-From Shizuku's breathless lusts her juices wetting me are also more copious and pungent.
+#雫さんの官能の高さのせいで濡れる愛蜜も、量と濃さが上がっている。
+　From Shizuku's breathless lusts her juices wetting me are also more copious and pungent.
 
+#「雫さんこそ、あっという間にイカないでくださいよ」
 ＠Itsuki
-「雫さんこそ、あっという間にイカないでくださいよ」
 「Shizuku-san, please don't come from just a few strokes」
 
-そんな膣路に沈む肉棒を遠慮なく、思いっきりピストンさせ始めた。
-In that slutty passageway, I start pumping outright and without holding back.
+#そんな膣路に沈む肉棒を遠慮なく、思いっきりピストンさせ始めた。
+　In that slutty passageway, I start pumping outright and without holding back.
 
 layer_movie_load	0,"movie\EV_SIZ_040-03.mpg",play_loop
 screen_transition	1000
@@ -2151,120 +2138,120 @@ voice_bg	"S00595"
 ＠Shizuku,S00595
 「ッんう！　はぁあッ、あはぁふッ……んくぁッ！　はあぁッ、あんッ」
 
-抽挿に合わせて雫さんから新しい声が漏れる。
-In the rhythm of my thrusts a new series of moans escapes Shizuku-san.
+#抽挿に合わせて雫さんから新しい声が漏れる。
+　In the rhythm of my thrusts a new series of moans escapes Shizuku-san.
 
-存分に絡みつく膣肉の具合が、これまでの前戯に興奮を表す怒張を隙間無くシゴき立てた。
-Her pussy busily entwines my cock stroking it perfectly, as my cock reveals its arousal from the foreplay.
+#存分に絡みつく膣肉の具合が、これまでの前戯に興奮を表す怒張を隙間無くシゴき立てた。
+　Her pussy busily entwines my cock stroking it perfectly, as my cock reveals its arousal from the foreplay.
 
+#「はあぁッ、ひふんッ！　んくッ……何だか、出す前より大きい気がする……ぁふうッ！」
 ＠Shizuku,S00596
-「はあぁッ、ひふんッ！　んくッ……何だか、出す前より大きい気がする……ぁふうッ！」
 「はあぁッ、ひふんッ！　んくッ…… Somehow, it feels bigger than last time before you came... ぁふうッ！」
 
+#「前戯からやってるんだから……強引に勃たされるのより、そりゃ大きいですよ……っ」
 ＠Itsuki
-「前戯からやってるんだから……強引に勃たされるのより、そりゃ大きいですよ……っ」
 「Because I'm doing it after foreplay... Instead of forcing it up, this way it's much bigger...」
 
-ズチュヂュッ！　ニヂュッ、クヂュムッ……ズブッ、ニヂュム！
-*zujuju*! *niju*, *kujumu*... *zubu*, *nijumu*!
+#ズチュヂュッ！　ニヂュッ、クヂュムッ……ズブッ、ニヂュム！
+　*zujuju*! *niju*, *kujumu*... *zubu*, *nijumu*!
 
-互いの濡れた性感帯に、ペースの速い摩擦で腰を打ち付ける。
-Our midsections slam against each other with a quickened pace, as we rub our moist genitals together.
+#互いの濡れた性感帯に、ペースの速い摩擦で腰を打ち付ける。
+　Our midsections slam against each other with a quickened pace, as we rub our moist genitals together.
 
-浮き上がる静脈やカリ溝にかかり、大きなストロークが中の膣肉を捲り返した。
-The jutting veins and groove beneath the head coming into view, in a big stroke the tension on her pussy is relieved.
+#浮き上がる静脈やカリ溝にかかり、大きなストロークが中の膣肉を捲り返した。
+　The jutting veins and groove beneath the head coming into view, in a big stroke the tension on her pussy is relieved.
 
-打たれる腰同士に水音が散り、奥からまた新たに潤いが滲み出す。
-Wet noises resound from our hips striking each other, another wave of moisture seeping out from inside.
+#打たれる腰同士に水音が散り、奥からまた新たに潤いが滲み出す。
+　Wet noises resound from our hips striking each other, another wave of moisture seeping out from inside.
 
+#「くぅふん！　はあぁッ、ならもっと、動いて……ッあふぅ！　はあぁッ、駄目チンポでイカせてごらん……ッ」
 ＠Shizuku,S00597
-「くぅふん！　はあぁッ、ならもっと、動いて……ッあふぅ！　はあぁッ、駄目チンポでイカせてごらん……ッ」
 「くぅふん！　はあぁッ、Then keep moving... ッあふぅ！　はあぁッ、Make me come with your no-good dick」
 
+#「はああッ！　はぅんッ！　二度も射精したのに、勃起してるおチンチンで……ッ、いふぅッ、好きなだけ突いてぇ」
 ＠Shizuku,S00598
-「はああッ！　はぅんッ！　二度も射精したのに、勃起してるおチンチンで……ッ、いふぅッ、好きなだけ突いてぇ」
 「はああッ！　はぅんッ！　With your penis even having come twice that's still hard... Fuck me as much as you want」
 
-蔑む言葉で指の時より断然良い反応を返し、身体全体でピストンを求めてくる雫さん。
-Making a far more positive reaction than her scornful words when I used my finger...
+#蔑む言葉で指の時より断然良い反応を返し、身体全体でピストンを求めてくる雫さん。
+　Making a far more positive reaction than her scornful words when I used my finger...
 
 #SCRIPT ADD DIALOGUE
-Shizuku-san pleads for my pistoning with her whole body.
+　Shizuku-san pleads for my pistoning with her whole body.
 
-それは後背位でイニシャティブを取られながらも、肉棒への刺激だけでこちらを追い詰めそうなほどだ。
-While she's lost the initiative in this position, just her stimulation of my cock is enough to drive me crazy.
+#それは後背位でイニシャティブを取られながらも、肉棒への刺激だけでこちらを追い詰めそうなほどだ。
+　While she's lost the initiative in this position, just her stimulation of my cock is enough to drive me crazy.
 
-腰を動かしながら、手の中で弾む乳房をきつく揉み絞る。
-While keeping my hips moving, I squeeze her breasts tightly in my hand.
+#腰を動かしながら、手の中で弾む乳房をきつく揉み絞る。
+　While keeping my hips moving, I squeeze her breasts tightly in my hand.
 
+#「ッあふぅ！　んぁはあッ……はあぁ！　どうしたの、んんッ……突くだけじゃ、先に出ちゃうそう……っ？」
 ＠Shizuku,S00599
-「ッあふぅ！　んぁはあッ……はあぁ！　どうしたの、んんッ……突くだけじゃ、先に出ちゃうそう……っ？」
 「ッあふぅ！　んぁはあッ……はあぁ！　What's wrong, nngh... Do you think you'll come first if you're just fucking me?」
 
+#「ふっ……乳首をこんなに硬くしてる人の台詞じゃないですよ……そっちこそ気持ちいいんでしょう」
 ＠Itsuki
-「ふっ……乳首をこんなに硬くしてる人の台詞じゃないですよ……そっちこそ気持ちいいんでしょう」
 「Fuh... That's not for someone to be saying whose nipples are this hard... I bet it feels really good for you」
 
-しこりのような感触を指で擦り、抽挿の勢いのまま乳房を歪め揺さぶっていく。
-While rubbing the swelling I feel in my fingers, I powerfully sway and distort her breasts. 
+#しこりのような感触を指で擦り、抽挿の勢いのまま乳房を歪め揺さぶっていく。
+　While rubbing the swelling I feel in my fingers, I powerfully sway and distort her breasts. 
 
 voice_bg	"S00600"
 
 ＠Shizuku,S00600
 「あくふぅッ！　んッ、んはぁッ……あぁうんッ！　ひふぅ！　はあぁぁっ……」
 
-嬌声が抜けるように上擦ると、それに続いて熱が高まっていく膣内。
-She gets excited and lets out a lovely voice as I continue and the heat in her pussy increases.
+#嬌声が抜けるように上擦ると、それに続いて熱が高まっていく膣内。
+　She gets excited and lets out a lovely voice as I continue and the heat in her pussy increases.
 
-緩みかけているベルトが微かに金属音を鳴らすが、それをかき消す喘ぎと蜜音の響き。
-The belt dimly makes clinking sounds as it loosens, but it's drowned out by her panting and wet sounds from her pussy.
+#緩みかけているベルトが微かに金属音を鳴らすが、それをかき消す喘ぎと蜜音の響き。
+　The belt dimly makes clinking sounds as it loosens, but it's drowned out by her panting and wet sounds from her pussy.
 
-戸惑い逃れようとしていた最初の意志はもう無く、雫さんの腰はピストンに合わせるように動いている。
-Her flustered attempts at escaping long gone, Shizuku-san moves her hips together with the pace of my thrusts.
+#戸惑い逃れようとしていた最初の意志はもう無く、雫さんの腰はピストンに合わせるように動いている。
+　Her flustered attempts at escaping long gone, Shizuku-san moves her hips together with the pace of my thrusts.
 
-しかしそれは決して堕ちたわけではなく、オレが耐えられるのか挑戦的な目で時おり視線を合わせてきた。
-That by no means suggests she's given up...
+#しかしそれは決して堕ちたわけではなく、オレが耐えられるのか挑戦的な目で時おり視線を合わせてきた。
+　That by no means suggests she's given up...
 
 #SCRIPT ADD DIALOGUE
-As every now and then our eyes meet and she gives me a defiant look like she has to put up with me.
+　As every now and then our eyes meet and she gives me a defiant look like she has to put up with me.
 
+#「あはぁッ、んくん！　はあッ！　はぁぁッ、後ろから動くくらいじゃ、大人しくやられないよあたしは……」
 ＠Shizuku,S00601
-「あはぁッ、んくん！　はあッ！　はぁぁッ、後ろから動くくらいじゃ、大人しくやられないよあたしは……」
 「あはぁッ、んくん！　はあッ！　はぁぁッ、I won't just quietly take it having it done from behind...」
 
+#「ふふ、腰の動きを弱めた瞬間に……くふぅんッ！　んんぁッ、また、今度はバックであたしに攻められるんだよ」
 ＠Shizuku,S00602
-「ふふ、腰の動きを弱めた瞬間に……くふぅんッ！　んんぁッ、また、今度はバックであたしに攻められるんだよ」
 「Fufu, your thrusting got weaker for a second... Kufuun! Nnah, I'm going to fight back again this time」
 
-ヂュブヂュブと床まで散らすほど濡れて感じているにもかかわらず、雫さんは自ら怒張を締め付ける。
-Despite sensing the wetness hitting the floor like a spray, Shizuku-san tightens around my cock herself.
+#ヂュブヂュブと床まで散らすほど濡れて感じているにもかかわらず、雫さんは自ら怒張を締め付ける。
+　Despite sensing the wetness hitting the floor like a spray, Shizuku-san tightens around my cock herself.
 
-一瞬底なしなのかと畏怖するが、オレも今さら引けずに動き続けるしかなかった。
-For a second I'm frozen like my body will desert me, but there's no stopping now and I can only keep moving.
+#一瞬底なしなのかと畏怖するが、オレも今さら引けずに動き続けるしかなかった。
+　For a second I'm frozen like my body will desert me, but there's no stopping now and I can only keep moving.
 
+#「どっちが動こうと、こんなに濡れてる雫さんの方がオレより近そうですよ……っ、絶頂が」
 ＠Itsuki
-「どっちが動こうと、こんなに濡れてる雫さんの方がオレより近そうですよ……っ、絶頂が」
 「Whoever moves, when you're this wet I bet you're closer... to climaxing」
 
-ヌヂュゥッ！　ニヂュッ、ニヂュムッ！　クヂュッ、ヂュチュゥッ！
-*nujuu*! *niju*, *nijumu*! *kuju*, *juchuu*!
+#ヌヂュゥッ！　ニヂュッ、ニヂュムッ！　クヂュッ、ヂュチュゥッ！
+　*nujuu*! *niju*, *nijumu*! *kuju*, *juchuu*!
 
-その締め付けにかまわず、接合部の音を更に響かせるようにピストンを深め穿ち抜いた。
-Not minding the tightening, I plunge my pistoning deeply making the sounds of our union resound even more.
+#その締め付けにかまわず、接合部の音を更に響かせるようにピストンを深め穿ち抜いた。
+　Not minding the tightening, I plunge my pistoning deeply making the sounds of our union resound even more.
 
 voice_bg	"S00603"
 
 ＠Shizuku,S00603
 「はぅんっ！　ぁはあっ！　はふぅっ、んっ！　あはぁっ！　はぁっ、ぁあうっ！」
 
-薄手の服に淫らな汗を染み込ませながら、腰を突かれて前後に揺れる雫さんの肢体。
-Her thin clothes stain through with sweat, as her body is jolted back and forth by my thrusts.
+#薄手の服に淫らな汗を染み込ませながら、腰を突かれて前後に揺れる雫さんの肢体。
+　Her thin clothes stain through with sweat, as her body is jolted back and forth by my thrusts.
 
-濃い性行為の匂いに混ざり、夏の熱に乗った汗の酸いさが中空に香る。
-The thick smell of sex permeates the air, acidic sweat reminiscent of the heat of summer.
+#濃い性行為の匂いに混ざり、夏の熱に乗った汗の酸いさが中空に香る。
+　The thick smell of sex permeates the air, acidic sweat reminiscent of the heat of summer.
 
-それらはピストンさせる肉棒に興奮と快感を与えるが、まだ余裕のあるオレは思うまま腰を動かした。
-This arouses my thrusting dick, but I'm still under control and move my hips freely.
+#それらはピストンさせる肉棒に興奮と快感を与えるが、まだ余裕のあるオレは思うまま腰を動かした。
+　This arouses my thrusting dick, but I'm still under control and move my hips freely.
 
 layer_movie_speed_set	0,150
 
@@ -2273,238 +2260,237 @@ voice_bg	"S00604"
 ＠Shizuku,S00604
 「んはぁっ！　はあっ、はあぅっ！　くふぅんっ、はぁ……っ、んぁくッ！　あはぁッ！」
 
+#「けど、こんなに動いて、っんッ……んくぅ！　中で熱くなってるじゃないか、樹のお子様チンポも……あふぅッ、はああッ！」
 ＠Shizuku,S00605
-「けど、こんなに動いて、っんッ……んくぅ！　中で熱くなってるじゃないか、樹のお子様チンポも……あふぅッ、はああッ！」
 「But, if you move like this, っんッ……んくぅ！ Itsuki's childish dick is getting hotter inside too isn't it... あふぅッ、はああッ！」
 
+#「でもまだ射精は遠い……勝負じゃないけど、雫さんの負けですよ……っ」
 ＠Itsuki
-「でもまだ射精は遠い……勝負じゃないけど、雫さんの負けですよ……っ」
 「I'm still far from coming... This isn't a competition, but Shizuku-san, you're losing...」
 
+#「んふぅッ！　はあぁッ、ふふ……ハンデをつけ過ぎたみたいだね、これは……ぃぅんッ！　はぁあッ」
 ＠Shizuku,S00606
-「んふぅッ！　はあぁッ、ふふ……ハンデをつけ過ぎたみたいだね、これは……ぃぅんッ！　はぁあッ」
 「んふぅッ！　はあぁッ、Fufu... I might have been going too easy on you so far... ぃぅんッ！　はぁあッ」
 
+#「……？　えッ！？　んく！」
 ＠Itsuki
-「……？　えッ！？　んく！」
 「...? Eh!? Nkuh!」
 
-意外な負けの認めに訝しんだ刹那、それは起こる。
-She doubts my assertion that she's losing, and it happens.
+#意外な負けの認めに訝しんだ刹那、それは起こる。
+　She doubts my assertion that she's losing, and it happens.
 
-こちらのピストンのリズムに合わせて突き出される雫さんの腰。
-今まで目いっぱいだと思っていた挿入が、更に深い場所まで入り込んで締め付けられた。
-Shizuku-san moves her rear in rhythm with my pistoning. 
+#こちらのピストンのリズムに合わせて突き出される雫さんの腰。
+#今まで目いっぱいだと思っていた挿入が、更に深い場所まで入り込んで締め付けられた。
+　Shizuku-san moves her rear in rhythm with my pistoning. 
 
 #SCRIPT ADD DIALOGUE
-What seemed like a full insertion entered even more deeply and it gets tighter.
+　What seemed like a full insertion entered even more deeply and it gets tighter.
 
+#「ッあふう！　くぅふん……ッ、はぁあッ！　なら、せめて道連れにはさせてもらうよ……あはぅッ、くふん！！」
 ＠Shizuku,S00607
-「ッあふう！　くぅふん……ッ、はぁあッ！　なら、せめて道連れにはさせてもらうよ……あはぅッ、くふん！！」
 「ッあふう！　くぅふん……ッ、はぁあッ！　In that case, I'll at least take you along for the ride, くふん！！」
 
+#「み、道連れって……んッ！　ぅッ」
 ＠Itsuki
-「み、道連れって……んッ！　ぅッ」
 「T-take me along... ngh! uh」
 
-言葉の意味にちょっと引くが、すぐその意味を悟った。
-I struggle to understand what she means, but it dawns on me pretty quickly.
+#言葉の意味にちょっと引くが、すぐその意味を悟った。
+　I struggle to understand what she means, but it dawns on me pretty quickly.
 
-挿入と摩擦を深める今の腰の動きを、雫さんは自分がイクのを覚悟で連続させてくる。
-Shizuku-san keeps moving her hips heightening my stimulation, resolved she will come herself.
+#挿入と摩擦を深める今の腰の動きを、雫さんは自分がイクのを覚悟で連続させてくる。
+　Shizuku-san keeps moving her hips heightening my stimulation, resolved she will come herself.
 
-っていうか何で、この体勢でこんなに攻め動けるんだこの人は……ッ。
-How can she fight back so aggressively in such a position...
+#っていうか何で、この体勢でこんなに攻め動けるんだこの人は……ッ。
+　How can she fight back so aggressively in such a position...
 
+#「さ、サキュバスですかあなたはッ……！？　動きも情欲も常軌を逸しすぎだッ！！」
 ＠Itsuki
-「さ、サキュバスですかあなたはッ……！？　動きも情欲も常軌を逸しすぎだッ！！」
 「You're a succubus or something...! Your sexual appetite and the way you move isn't human!!」
 
+#「失礼だね……んふぁッ！　ひはぁうッ、はぁぁッ、あんな空想の生き物に、負ける気は無いよ」
 ＠Shizuku,S00608
-「失礼だね……んふぁッ！　ひはぁうッ、はぁぁッ、あんな空想の生き物に、負ける気は無いよ」
 「How rude of you... んふぁッ！　ひはぁうッ、はぁぁッ、I have no intention of losing to such an empty-headed creature」
 
 layer_movie_speed_set	0,200
 @seh24
 
+#そこに張り合うのかよというツッコミを入れる間もなく、互いに動かす腰のストロークが強く肉棒を擦り始めた。
+　Without a chance to put in my retort, the stroking from our hips moving together rubs hard against my cock.
 
-そこに張り合うのかよというツッコミを入れる間もなく、互いに動かす腰のストロークが強く肉棒を擦り始めた。
-Without a chance to put in my retort, the stroking from our hips moving together rubs hard against my cock.
+#その快感に危機を感じて動きを緩めると、雫さんが逆にリードするように腰を押し付ける。
+　In trouble from the pleasure welling up I slacken my pace, and Shizuku presses her ass up against me to take the lead.
 
-その快感に危機を感じて動きを緩めると、雫さんが逆にリードするように腰を押し付ける。
-In trouble from the pleasure welling up I slacken my pace, and Shizuku presses her ass up against me to take the lead.
-
+#「はぁうんッ！　はぁあッ、あふぅッ……ん、ふふ、さっきの言葉……っはあ、そのまま返すよ」
 ＠Shizuku,S00609
-「はぁうんッ！　はぁあッ、あふぅッ……ん、ふふ、さっきの言葉……っはあ、そのまま返すよ」
 「はぁうんッ！　はぁあッ、あふぅッ……ん、Fufu, it's time... haa, to eat your words from before」
 
-＠ShizukuS00610
-「どっちが動こうと、樹のお子様チンポは一緒に射精するよ……んはぁッ、ふぅん！」
+#「どっちが動こうと、樹のお子様チンポは一緒に射精するよ……んはぁッ、ふぅん！」
+＠Shizuku,S00610
 「Whoever takes the lead, Itsuki's childish dick will come with me, んはぁッ、ふぅん！」
 
-感心する腰使いは、まるで自身がピストンしているように自然な抽挿を肉棒に与えてきた。
-I admire how she moves her waist, my dick going in and out as if I were thrusting myself.
+#感心する腰使いは、まるで自身がピストンしているように自然な抽挿を肉棒に与えてきた。
+　I admire how she moves her waist, my dick going in and out as if I were thrusting myself.
 
-雫さん自身も呼吸を弾ませながら、こちらの射精を引き出そうとする。
-Shizuku's breathing is ragged as well, as she tries to bring out my ejaculation.
+#雫さん自身も呼吸を弾ませながら、こちらの射精を引き出そうとする。
+　Shizuku's breathing is ragged as well, as she tries to bring out my ejaculation.
 
+#「ッう、ん！　やることが無茶すぎる……ッ」
 ＠Itsuki
-「ッう、ん！　やることが無茶すぎる……ッ」
 「Uh, nh! This is going too far...」
 
+#「はあぁッ！　くんぅッ、んぁ！　ふふ、今は無茶でも……樹が動かないと、あたしのペースになるよ」
 ＠Shizuku,S00611
-「はあぁッ！　くんぅッ、んぁ！　ふふ、今は無茶でも……樹が動かないと、あたしのペースになるよ」
 「はあぁッ！　くんぅッ、んぁ！　Fufu, that may be so... but if Itsuki doesn't move we'll go at my pace」
 
-こちらの動きの弱まりを感じると、調子を取り戻すように腰を動かす雫さん。
-When she senses me losing speed, she moves more to make up for it.
+#こちらの動きの弱まりを感じると、調子を取り戻すように腰を動かす雫さん。
+　When she senses me losing speed, she moves more to make up for it.
 
-このままでは本当に相手のペースになりかねないので、オレもまた腰を動かし突き上げる。
-At this rate it really will be on her terms, so once again I thrust my hips forcefully.
+#このままでは本当に相手のペースになりかねないので、オレもまた腰を動かし突き上げる。
+　At this rate it really will be on her terms, so once again I thrust my hips forcefully.
 
+#「あはぅッ、んくぅん！　そう、嫌なら頑張ってごらん、駄目チンポで……っ」
 ＠Shizuku,S00612
-「あはぅッ、んくぅん！　そう、嫌なら頑張ってごらん、駄目チンポで……っ」
 「あはぅッ、んくぅん！　That's it, if you don't like it do your best, with your no-good dick...」
 
-律動する腰のタイミングをバッチリと合わせる雫さんの腰使い。
-The rhythm of my hips perfectly matches Shizuku's.
+#律動する腰のタイミングをバッチリと合わせる雫さんの腰使い。
+　The rhythm of my hips perfectly matches Shizuku's.
 
-それは自分だけ動いていたのとは比べられない快美感を生んだ。
-It stirs up sweet pleasure far greater than when I was going by myself.
+#それは自分だけ動いていたのとは比べられない快美感を生んだ。
+　It stirs up sweet pleasure far greater than when I was going by myself.
 
-三度目で余裕のあったはずの衝動が、またジワジワとこみ上げられる
-The urge to come, which should be sated by 3 times, bubbles up a little more.
+#三度目で余裕のあったはずの衝動が、またジワジワとこみ上げられる
+　The urge to come, which should be sated by 3 times, bubbles up a little more.
 
+#「男の面子を立たせるとか、考える気なしですか……」
 ＠Itsuki
-「男の面子を立たせるとか、考える気なしですか……」
 「You weren't even thinking about saving my manly pride at all...」
 
+#「あはぁッ、ひふんッ！　くぅふッ……あたしだけイカせるなんて、十年早いよ……ッあふ、はあぁッ！　諦めてまた出しちゃいな」
 ＠Shizuku,S00613
-「あはぁッ、ひふんッ！　くぅふッ……あたしだけイカせるなんて、十年早いよ……ッあふ、はあぁッ！　諦めてまた出しちゃいな」
 「あはぁッ、ひふんッ！　くぅふッ…… It's 10 years too soon for you to make me come by myself」
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「... ッあふ、はあぁッ！　Just give it up and come already」
 
-クヂュゥッ！　ヌヂュッ、ヂュッ、ニヂュム！　ヂュブブッ、ヂュチュッ！
-*kujuu*! *nujuu*, *ju*, *nijumu*! *jububu*, *juju*!
+#クヂュゥッ！　ヌヂュッ、ヂュッ、ニヂュム！　ヂュブブッ、ヂュチュッ！
+　*kujuu*! *nujuu*, *ju*, *nijumu*! *jububu*, *juju*!
 
-きつい膣肉の密着した摩擦で、ヌルヌルの音を引きながら泡立つ愛液。
-The tight rubbing of her pussy flesh creates a wet sound and foaming love liquid.
+#きつい膣肉の密着した摩擦で、ヌルヌルの音を引きながら泡立つ愛液。
+　The tight rubbing of her pussy flesh creates a wet sound and foaming love liquid.
 
-抵抗したい意思とは別に、根底にある本能が射精を求めて腰が動く。
-My will wants to fight, but my underlying instinct calls for ejaculation and moves my body.
+#抵抗したい意思とは別に、根底にある本能が射精を求めて腰が動く。
+　My will wants to fight, but my underlying instinct calls for ejaculation and moves my body.
 
 ＠Shizuku,S00614
 「はああッ、ぃうぅん！　はぁふッ……あはぁッ、はぁぁッ、ん！　やぁふ！」
 
-それに呼応し、感じている雫さんの中の媚肉も、何度も強く収縮を繰り返した。
-In concert, the inside of Shizuku's aroused pussy constricts strongly and repeatedly.
+#それに呼応し、感じている雫さんの中の媚肉も、何度も強く収縮を繰り返した。
+　In concert, the inside of Shizuku's aroused pussy constricts strongly and repeatedly.
 
+#「はああっ！　ひゃふぁっ、んはあ！　遠慮なく動きな、中に出していいから」
 ＠Shizuku,S00615
-「はああっ！　ひゃふぁっ、んはあ！　遠慮なく動きな、中に出していいから」
 「はああっ！　ひゃふぁっ、んはあ！　Fuck me without holding back, it'll be fine if you come inside」
 
+#「さっきより、だいぶ頑張ってるよ……っぁあん！　んはあ！」
 ＠Shizuku,S00616
-「さっきより、だいぶ頑張ってるよ……っぁあん！　んはあ！」
 「You're doing much better than before... っぁあん！　んはあ！」
 
-秘洞に潤いを増す中でこぼす言葉が、乱れた喘ぎに上擦って濡れる。
-Her ragged breathing interrupts her excited speech, betraying the moistening inside her pussy.
+#秘洞に潤いを増す中でこぼす言葉が、乱れた喘ぎに上擦って濡れる。
+　Her ragged breathing interrupts her excited speech, betraying the moistening inside her pussy.
 
-言われるまでも無く、オレは攻めの限りを尽くすように乳房を搾り、ピストンする肉棒へ不規則な角度を変化させていった。
-Without telling her, I squeeze her breasts while changing the pace of my dick to complete my attack.
+#言われるまでも無く、オレは攻めの限りを尽くすように乳房を搾り、ピストンする肉棒へ不規則な角度を変化させていった。
+　Without telling her, I squeeze her breasts while changing the pace of my dick to complete my attack.
 
 voice_bg	"S00617"
 
 ＠Shizuku,S00617
 「ふぁはあ！　んんくッ……あはぁッ、ううッ！　んッ、はあぁッ、あはぁぁッ！」
 
+#「っくん……オレも、せめて同時くらいには絶頂させますよ」
 ＠Itsuki
-「っくん……オレも、せめて同時くらいには絶頂させますよ」
 「Kkun... And I will at least make sure you climax together with me」
 
+#「んくぅッ！　はぁッ、はぁぁッ、ふふ、目的が下がってるよ……あふぅッ！　っはあ！　やっぱり、駄目チンポには限界かい」
 ＠Shizuku,S00618
-「んくぅッ！　はぁッ、はぁぁッ、ふふ、目的が下がってるよ……あふぅッ！　っはあ！　やっぱり、駄目チンポには限界かい」
 「んくぅッ！　はぁッ、はぁぁッ、Fufu, you've lowered your aim... あふぅッ！　っはあ！　Is this really as far as your no-good dick can go?」
 
+#「その駄目チンポに、雫さんはイカサれるんだ……ッ」
 ＠Itsuki
-「その駄目チンポに、雫さんはイカサれるんだ……ッ」
 「You're going to come from that no-good dick...」
 
-半分開き直ると緊張がほぐれ、こちらから雫さんのリズムを崩すように強引に突いていく。
-Becoming angrier I loosen up and thrust forcefully to wreck Shizuku's rhythm.
- 
-ピストンは互いの絶頂を誘うように絡み合い、性感を震わせた。
-The pistoning comes together bringing out our mutual climaxes, and our sexual desires shake us.
+#半分開き直ると緊張がほぐれ、こちらから雫さんのリズムを崩すように強引に突いていく。
+　Becoming angrier I loosen up and thrust forcefully to wreck Shizuku's rhythm.
 
-勢いと力強さだけを重視した律動が雫さんを絶頂へと追い上げていく。
-I drive Shizuku to climax with my powerful and aggressive thrusting.
+#ピストンは互いの絶頂を誘うように絡み合い、性感を震わせた。
+　The pistoning comes together bringing out our mutual climaxes, and our sexual desires shake us.
 
+#勢いと力強さだけを重視した律動が雫さんを絶頂へと追い上げていく。
+　I drive Shizuku to climax with my powerful and aggressive thrusting.
+
+#「ッんくう！　はふぅあッ、はああ！　このまま、イキそうだよ、こっちも……っ」
 ＠Shizuku,S00619
-「ッんくう！　はふぅあッ、はああ！　このまま、イキそうだよ、こっちも……っ」
 「ッんくう！　はふぅあッ、はああ！　I'm going to come like this too...」
 
+#「くふぅんッ、あふぅッ！　はぁぁッ、ここで……樹だけ先に出したら、洒落じゃ済まさないよ……ッんん！」
 ＠Shizuku,S00620
-「くふぅんッ、あふぅッ！　はぁぁッ、ここで……樹だけ先に出したら、洒落じゃ済まさないよ……ッんん！」
 「くふぅんッ、あふぅッ！　はぁぁッ、If you... come first now, you won't live it down... ngh!」
 
-投げつけるような言葉こそ同じだが、その明らかな艶声に、一気に興奮がうずかされた。
-Her put-down is the same, but her hot voice throbs with moans.
+#投げつけるような言葉こそ同じだが、その明らかな艶声に、一気に興奮がうずかされた。
+　Her put-down is the same, but her hot voice throbs with moans.
 
-求められていることに雄の本能が欣喜し、ピストンする肉棒を膣深くへ更に膨らませる。
-Her inviting moans stimulate my senses, and my thrusting dick swells even more deep in her pussy.
+#求められていることに雄の本能が欣喜し、ピストンする肉棒を膣深くへ更に膨らませる。
+　Her inviting moans stimulate my senses, and my thrusting dick swells even more deep in her pussy.
 
 voice_bg	"S00621"
 
 ＠Shizuku,S00621
 「あはぁっ！　ふあぁっ、はぁっ！　ぃふん……っ、ぅふあっ！　はあっ！　ああぅんっ！」
 
+#「はっ……こうなったら、雫さんのただの女なんですね」
 ＠Itsuki
-「はっ……こうなったら、雫さんのただの女なんですね」
 「Ha... You're acting very feminine now」
 
+#「はぁふッ、んくん！　はあぁッ、とっくに性欲を、剥き出しにしてるあんたに……ふぁんッ！　くふぅッ、言われたくないよ」
 ＠Shizuku,S00622
-「はぁふッ、んくん！　はあぁッ、とっくに性欲を、剥き出しにしてるあんたに……ふぁんッ！　くふぅッ、言われたくないよ」
 「Haa, nkun! Haa, I don't want to be told that by someone... Faan! Kufuu」 ->
 
 #SCRIPT ADD DIALOGUE
 ＠Shizuku
 「... who has already lost his senses to his base instincts a long time ago」
 
-射精するためのピストンとは別に、貪るように夢中にとろけた乳房を揉みしだいていた。
-Unlike my purposeful thrusting to ejaculate, I rubbed and fondled her breasts engrossed as if in a dream.
+#射精するためのピストンとは別に、貪るように夢中にとろけた乳房を揉みしだいていた。
+　Unlike my purposeful thrusting to ejaculate, I rubbed and fondled her breasts engrossed as if in a dream.
 
-なるほど、本能を剥き出しにしているという言葉に反論は出来ない。
-I guess I can't contest that point.
+#なるほど、本能を剥き出しにしているという言葉に反論は出来ない。
+　I guess I can't contest that point.
 
-しかしそれでも、雫さんの方がオレよりも絶頂は近そうだった。
-Even so, Shizuku still seems closer to climaxing than me.
+#しかしそれでも、雫さんの方がオレよりも絶頂は近そうだった。
+　Even so, Shizuku still seems closer to climaxing than me.
 
+#「雫さんのなか、狭まってきてる……っ、イキそうですね」
 ＠Itsuki
-「雫さんのなか、狭まってきてる……っ、イキそうですね」
 「Shizuku-san, it's getting tighter inside... you're about to come aren't you」
 
+#「ッんんく！　あはぁんッ、ああ、深く入れて……もっと駄目チンポを、動かして……ぃうんッ！」
 ＠Shizuku,S00623
-「ッんんく！　あはぁんッ、ああ、深く入れて……もっと駄目チンポを、動かして……ぃうんッ！」
 「ッんんく！　あはぁんッ、ああ、Put in in, deeper... thrust your no-good dick more... ぃうんッ！」
 
 layer_movie_speed_set	0,250
 @seh25
 
-雫さんの絶頂に合わせるように、こちらも動きながら衝動を溜めていく。
-I let my urge to come build up as I move, to match Shizuku's orgasm.
+#雫さんの絶頂に合わせるように、こちらも動きながら衝動を溜めていく。
+　I let my urge to come build up as I move, to match Shizuku's orgasm.
 
-乱れる呼吸の合間を攻めるようなタイミングで突き、要望どおり肉棒を深めてやった。
-My cock demanding for more in the gaps of our breathing, I put it in deeper.
+#乱れる呼吸の合間を攻めるようなタイミングで突き、要望どおり肉棒を深めてやった。
+　My cock demanding for more in the gaps of our breathing, I put it in deeper.
 
+#「んくぅぅッ！　あはぁッ、駄目、樹の駄目チンポにいかされるぅ……ッ」
 ＠Shizuku,S00624
-「んくぅぅッ！　あはぁッ、駄目、樹の駄目チンポにいかされるぅ……ッ」
 「Nkuu! Ahaa, this isn't good, I'm going come from Itsuki's no-good dick...!」
 
-ビクビクと震えて腰使いを弱める雫さんへ、こちらも射精するべく怒張を突き入れた！
-Shizuku's body trembles and her thrusting hips weaken, as I bury my cock to come inside!
+#ビクビクと震えて腰使いを弱める雫さんへ、こちらも射精するべく怒張を突き入れた！
+　Shizuku's body trembles and her thrusting hips weaken, as I bury my cock to come inside!
 
 window_close
 #//フラッシュ
@@ -2514,17 +2500,17 @@ wait	8000
 voice_bg_stop
 se_stop		1
 
-ヂュビュゥッ！　ビュブブッ、グビュゥッ！　ドクンッ！　ドクドクドク！
-*jubyuu*! *byububu*, *gubyuu*! *dokun*! *doku doku doku*!
+#ヂュビュゥッ！　ビュブブッ、グビュゥッ！　ドクンッ！　ドクドクドク！
+　*jubyuu*! *byububu*, *gubyuu*! *dokun*! *doku doku doku*!
 
 ＠Shizuku,S00625
 「んくぅうっっ！　ぁぁあああぅぅぅうんんんッッッ！！！！」
 
-自らの意思で深めた怒張の先から、最奥に向かって精の塊を打ち放つ。
-From my dick that I thrust in deeply of my own will, a gush of semen shoots deep inside.
+#自らの意思で深めた怒張の先から、最奥に向かって精の塊を打ち放つ。
+　From my dick that I thrust in deeply of my own will, a gush of semen shoots deep inside.
 
-図った直後のタイミングで、雫さんが同じように絶頂に身体を強張らせた。
-As intended, next thing Shizuku's body tensed up in orgasm like me.
+#図った直後のタイミングで、雫さんが同じように絶頂に身体を強張らせた。
+　As intended, next thing Shizuku's body tensed up in orgasm like me.
 
 screen_flash	500
 event	"event\ev_siz_040-06.png"
@@ -2532,66 +2518,66 @@ event	"event\ev_siz_040-06.png"
 ＠Shizuku,S00626
 「はあぁぁッ、んくぅ！　ふぁぁッ……はあぁっ、はぁぁッ！」
 
-三度目と思えない量を注ぐ肉棒から、オルガスムスの収縮で精液を吸い上げる膣肉。
-An unbelievable amount flows out for a third time, as her pussy constricts in orgasm and sucks out my semen.
+#三度目と思えない量を注ぐ肉棒から、オルガスムスの収縮で精液を吸い上げる膣肉。
+　An unbelievable amount flows out for a third time, as her pussy constricts in orgasm and sucks out my semen.
 
-騎乗位のときと違い、今は雫さん自身もその蠢きで悦の喘ぎをこぼした。
-Unlike with the cowgirl position, this time Shizuku shows her breathless ecstasy, her body squirming.
+#騎乗位のときと違い、今は雫さん自身もその蠢きで悦の喘ぎをこぼした。
+　Unlike with the cowgirl position, this time Shizuku shows her breathless ecstasy, her body squirming.
 
-一度満たした膣路が、再び熱く白濁で満たされていく。
-Her vagina, satisfied once so far, is satisfied again by the cloudy liquid.
+#一度満たした膣路が、再び熱く白濁で満たされていく。
+　Her vagina, satisfied once so far, is satisfied again by the cloudy liquid.
 
 screen_flash	500
 event	"event\ev_siz_040-07.png"
 
+#「はあぁッ、んく！　んふぅ……また、奥までいっぱい溢れさせたね……」
 ＠Shizuku,S00627
-「はあぁッ、んく！　んふぅ……また、奥までいっぱい溢れさせたね……」
 「はあぁッ、んく！　んふぅ…… You let out so much deep inside me again...」
 
+#「そうするように雫さんが動いたくせに……」
 ＠Itsuki
-「そうするように雫さんが動いたくせに……」
 「It's only because you moved and made me come...」
 
-一度駆け抜けた快感は余韻と倦怠感を残し、もう空っぽになるくらい精液を吐き出しつくした。
-The pleasure ran through me once leaving an afterglow and weariness, and I feel like I've been emptied completely of semen.
+#一度駆け抜けた快感は余韻と倦怠感を残し、もう空っぽになるくらい精液を吐き出しつくした。
+　The pleasure ran through me once leaving an afterglow and weariness, and I feel like I've been emptied completely of semen.
 
-射精しながらグイグイと深める肉棒に押し出された白濁が、膣口からドロリと滴り落ちる。
-I squeezed it out inside her while I was cumming, but now it drips out slowly.
+#射精しながらグイグイと深める肉棒に押し出された白濁が、膣口からドロリと滴り落ちる。
+　I squeezed it out inside her while I was cumming, but now it drips out slowly.
 
-雫さんの絶頂の方が深かったようで、膣肉はギュウギュウと出し終えた怒張も締め付けてきた。
-Shizuku's pussy stays tight around my cock that had finished, like she had a strong orgasm.
+#雫さんの絶頂の方が深かったようで、膣肉はギュウギュウと出し終えた怒張も締め付けてきた。
+　Shizuku's pussy stays tight around my cock that had finished, like she had a strong orgasm.
 
+#「くふぅん、はあぁっ、ん……ふふ、量と濃さは合格だね……おチンチンはまだまだだけど」
 ＠Shizuku,S00628
-「くふぅん、はあぁっ、ん……ふふ、量と濃さは合格だね……おチンチンはまだまだだけど」
 「くふぅん、はあぁっ、ん…… Fufu, the thickness and amount is good enough... but your dick still has a ways to go」
 
+#「四度目も出すなら、また攻めてあげようか……？」
 ＠Shizuku,S00629
-「四度目も出すなら、また攻めてあげようか……？」
 「If you can go 4 times, would you like to take advantage of me again?」
 
-……と、思ったら、意図的に締め付けていたようで、余力ありそうな笑みをこちらへ向けてくる雫さん。
-... Now that I look more closely, Shizuku flashes a composed smile at me, as if she's tightening around my cock on purpose.
+#……と、思ったら、意図的に締め付けていたようで、余力ありそうな笑みをこちらへ向けてくる雫さん。
+　... Now that I look more closely, Shizuku flashes a composed smile at me, as if she's tightening around my cock on purpose.
 
-艶かかった貌へ絶頂の疲労以上に、魔性の誘惑が色を覗かせる……
-Her charming face while fatigued shows a hint of devilish seduction.
+#艶かかった貌へ絶頂の疲労以上に、魔性の誘惑が色を覗かせる……
+　Her charming face while fatigued shows a hint of devilish seduction.
 
+#「……いや、そろそろ美雨が帰ってきたら困るし……」
 ＠Itsuki
-「……いや、そろそろ美雨が帰ってきたら困るし……」
 「... Er, it would be troublesome if Miu comes back soon」
 
+#「そう、んふ……じゃあしょうがないね」
 ＠Shizuku,S00630
-「そう、んふ……じゃあしょうがないね」
 「Yeah, nfuh... it can't be helped then」
 
-窈窕な視線を細めながら、スルリと手首のベルトを自分で解いてしまう。
-She loses her graceful expression and unties her partner's belt on her own.
+#窈窕な視線を細めながら、スルリと手首のベルトを自分で解いてしまう。
+　She loses her graceful expression and unties her partner's belt on her own.
 
+#「………」
 ＠Itsuki
-「………」
 「...」
 
-結局どう転んでも、この人には勝てそうに無かった。
-In the end however I might trip her up, it's unlikely that I could beat her.
+#結局どう転んでも、この人には勝てそうに無かった。
+　In the end however I might trip her up, it's unlikely that I could beat her.
 
 @bg_black
 wait	1000
@@ -2606,125 +2592,125 @@ scene_end
 
 @miu
 
+#「えっと……今帰りました」
 ＠Miu,B00321
-「えっと……今帰りました」
 「Um... I just got back」
 
 @shizuku
 
+#「ん、おかえり～」
 ＠Shizuku,S00631
-「ん、おかえり～」
 「Yeah, welcome back～」
 
-行為の後始末を終えるころ、オズオズと不安そうな美雨がリビングへ顔を覗かせた。
-We had already finished cleaning up when Miu nervously peered into the living room.
+#行為の後始末を終えるころ、オズオズと不安そうな美雨がリビングへ顔を覗かせた。
+　We had already finished cleaning up when Miu nervously peered into the living room.
 
 @shizuku_warai
 
+#「案外早かったねぇ。もしかして見たかった？」
 ＠Shizuku,S00632
-「案外早かったねぇ。もしかして見たかった？」
 「You're strangely early. Did you want to catch us?」
 
 @miu_odoroki
 
+#「えっ！　いえ、そんな……別にわたしは、そのっ」
 ＠Miu,B00322
-「えっ！　いえ、そんな……別にわたしは、そのっ」
 「Huh! No way... I would never, want to...」
 
+#「趣味悪いですよ、雫さん……美雨に限って、そんなことをするはず無いじゃないですか」
 ＠Itsuki
-「趣味悪いですよ、雫さん……美雨に限って、そんなことをするはず無いじゃないですか」
 「You've got bad taste, Shizuku-san... Miu wouldn't do something like that」
 
 @miu_tere
 
+#「………」
 ＠Miu,B00323
-「………」
 「...」
 
 @miu
 
+#「はい……」
 ＠Miu,B00324
-「はい……」
 「Yeah...」
 
-何？　今の間は……？
-What's with that pause...?
+#何？　今の間は……？
+　What's with that pause...?
 
 @shizuku_akire
 
+#「はぁぁ。とりあえずシャワーでも浴びようかね。身体中ベトベトだし」
 ＠Shizuku,S00633
-「はぁぁ。とりあえずシャワーでも浴びようかね。身体中ベトベトだし」
 「Haaa. I'll have to take a shower for now. I feel all sticky」
 
 @miu_tere
 
+#「身体中……ベトベト……」
 ＠Miu,B00325
-「身体中……ベトベト……」
 「All... Sticky...」
 
+#「汗でな、汗」
 ＠Itsuki
-「汗でな、汗」
 「She's talking about sweat」
 
-誤解無いように付け加えておく。
-I preemptively tried to avoid misunderstandings.
+#誤解無いように付け加えておく。
+　I preemptively tried to avoid misunderstandings.
 
+#「ぁ、ぅ、なるほど……そうですか……」
 ＠Miu,B00326
-「ぁ、ぅ、なるほど……そうですか……」
 「Ah, I see... ok...」
 
+#「……なんで余計に赤くなるんだ？」
 ＠Itsuki
-「……なんで余計に赤くなるんだ？」
 「... Why are you getting so red all of a sudden?」
 
 @shizuku
 @miu
 
+#「そりゃあんた、外に出してないって言ったらもう、中出ししたって言ってるようなもんじゃないの」
 ＠Shizuku,S00634
-「そりゃあんた、外に出してないって言ったらもう、中出ししたって言ってるようなもんじゃないの」
 「So basically you're saying that you didn't come outside, but doesn't that mean you came inside?」
 
+#「………」
 ＠Itsuki
-「………」
 「...」
 
-失言だった……
-I missed that...
+#失言だった……
+　I missed that...
 
 @shizuku_warai
 
+#「やーい、セクハラ～」
 ＠Shizuku,S00635
-「やーい、セクハラ～」
 「Please stop the sexual harassment～」
 
+#「たとえ天地がひっくり返ろうと、雫さんだけにはその言葉を言われたくありません」
 ＠Itsuki
-「たとえ天地がひっくり返ろうと、雫さんだけにはその言葉を言われたくありません」
 「You're the last person on earth I want to hear those words from」
 
 @shizuku
 
+#「しっつれいなぁ～～。あたしは相手にも、ちゃんと嫌悪じゃなくて気持ちよさを与えてやってるよ」
 ＠Shizuku,S00636
-「しっつれいなぁ～～。あたしは相手にも、ちゃんと嫌悪じゃなくて気持ちよさを与えてやってるよ」
 「How rude～～. And here I was perfectly good for you in bed」
 
 @shizuku_warai2
 
+#「三回も出したくせに」
 ＠Shizuku,S00637
-「三回も出したくせに」
 「To think you came 3 times」
 
 @miu_tere
 
+#「さ、三回……」
 ＠Miu,B00327
-「さ、三回……」
 「T-Three times...」
 
+#「ちょッ！？　もういいから、さっさとシャワー浴びに消えてください！」
 ＠Itsuki
-「ちょッ！？　もういいから、さっさとシャワー浴びに消えてください！」
 「What-!? OK that's enough out of you, go on take your shower and disappear!」
 
+#「はいはい」
 ＠Shizuku,S00638
-「はいはい」
 「Very well then」
 
 @shizuku_
@@ -2733,65 +2719,63 @@ I missed that...
 #SE07　Door-closing sound（*patan*）
 @se07
 
-何かやることやったら興味を無くしたように、雫さんは気の無い返事でリビングを出て行った。
-Shizuku exited the room with an indifferent reply as if she had tired of thinking of ways she could screw me over.
+#何かやることやったら興味を無くしたように、雫さんは気の無い返事でリビングを出て行った。
+　Shizuku exited the room with an indifferent reply as if she had tired of thinking of ways she could screw me over.
 
 @miu
 
+#「………」
 ＠Miu,B00328
-「………」
 「...」
 
-余計なことを言われたせいで残っている気まずさ。
-An unpleasant feeling hangs in the air from too much information.
+#余計なことを言われたせいで残っている気まずさ。
+　An unpleasant feeling hangs in the air from too much information.
 
+#「………三回は、違う」
 ＠Itsuki
-「………三回は、違う」
 「...... It wasn't really 3 times」
 
+#「え？」
 ＠Miu,B00329
-「え？」
 「Huh?」
 
-しかも混乱して、意味不明な言い訳までしてしまうオレ。
-実際三回出したのに。
-And still I keep ruffling the feathers, making an unconvincing excuse. Even though it really was 3 times.
+#しかも混乱して、意味不明な言い訳までしてしまうオレ。
+#実際三回出したのに。
+　And still I keep ruffling the feathers, making an unconvincing excuse. Even though it really was 3 times.
 
+#「えっと……とりあえず、のど乾いたから。何か淹れてもらえる？」
 ＠Itsuki
-「えっと……とりあえず、のど乾いたから。何か淹れてもらえる？」
 「Er... My throat's kind of dry, for now can you make me something?」
 
+#「あ、はい……分かりました」
 ＠Miu,B00330
-「あ、はい……分かりました」
 「Ah, yes... sure」
 
+#「それと、あの、私は気にしてませんから。ここはそういう場所なので」
 ＠Miu,B00331
-「それと、あの、私は気にしてませんから。ここはそういう場所なので」
 「Also, um, I don't really mind. This is that kind of place after all」
-
 
 @miu_
 #SE18　廊下を歩き去る音　※徐々に小さく
 #SE18　Walking away sound　※Slowly dwindling
 @se18
 
-
+#「……うぅ、やっぱ混乱してたんだろな、オレ」
 ＠Itsuki
-「……うぅ、やっぱ混乱してたんだろな、オレ」
 「... I think I made a bit of a scene」
 
-迷惑かけた美雨にフォローされてしまった。
-I burdened her and she covered for me.
+#迷惑かけた美雨にフォローされてしまった。
+　I burdened her and she covered for me.
 
-しかし何故だろう……囚われていた雫さんが無事に帰ってきたのに、この虚脱感は。
-Why is it that... even though Shizuku's back safely, I'm left feeling so unfulfilled?
+#しかし何故だろう……囚われていた雫さんが無事に帰ってきたのに、この虚脱感は。
+　Why is it that... even though Shizuku's back safely, I'm left feeling so unfulfilled?
 
+#「何かもう、あの人帰ってこない方が平和なような気さえしてきた……」
 ＠Itsuki
-「何かもう、あの人帰ってこない方が平和なような気さえしてきた……」
 「I almost feel like I would have been more peaceful if she had stayed wherever she was...」
 
-聞かれたらまた殴られそうなことを口にしながら、オレも汗だくの服を着替えに行った。
-While saying things that would get me punched if overheard, I headed back to change my sweat-drenched clothes as well.
+#聞かれたらまた殴られそうなことを口にしながら、オレも汗だくの服を着替えに行った。
+　While saying things that would get me punched if overheard, I headed back to change my sweat-drenched clothes as well.
 
 @bg_black
 

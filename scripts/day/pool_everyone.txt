@@ -140,8 +140,6 @@ label	pool
 @suika_
 @bg_living
 
-
-
 #SE02　布団に倒れる・布団を跳ね上げる
 @se02
 
@@ -190,8 +188,6 @@ layer_move	l_ichigo,500,0,600,0,0,passtype_tcb
 @yuzu_mizugi
 @zakuro_small
 @ichigo_small
-
-
 
 ＠樹
 「ああ……場所が変わっただけで、こうも照りつける太陽への感じが変わるんだなぁ」
@@ -273,8 +269,6 @@ layer_move	2,10000,0,-2000,0,00,PASSTYPE_BEZIER_A
 se	0,"sound\se\se222_きらきら.wav",play_once
 wait	4000
 
-
-
 ＠かりん,P00008
 「くぅ……ッ、防水カメラ持ってくれば良かった……」
 
@@ -311,7 +305,6 @@ layer_move	2,10000,0,-2000,0,0,PASSTYPE_BEZIER_A
 se	0,"sound\se\se222_きらきら.wav",play_once
 wait	4000
 
-
 別にスケベではないオレの視線からみかんを守るように、かりんが間に立った。
 
 そういう彼女の水着はワンピース型。
@@ -325,7 +318,6 @@ wait	4000
 
 ＠樹
 「かりんも水着似合ってるなと思って」
-
 
 @bg_waterpark
 #CH（かりん、赤面、慌て）
@@ -347,7 +339,6 @@ layer_position	2,120,0
 layer_move	2,10000,0,-2000,0,0,PASSTYPE_BEZIER_A
 se	0,"sound\se\se222_きらきら.wav",play_once
 wait	4000
-
 
 何か見たことが無い感じの水着。
 私服も特徴的なれば、そのセンスはここでも存分に発揮されていた。
@@ -414,7 +405,6 @@ wait	4000
 
 ＠かりん,P00012
 「もう水着っていうより、紐とか布切れって感じね、それじゃ……」
-
 
 @chara_clear
 @bg_pink
@@ -491,7 +481,6 @@ layer_move	2,10000,0,-2400,0,00,PASSTYPE_BEZIER_A
 se	0,"sound\se\se222_きらきら.wav",play_once
 wait	4000
 
-
 そこには、学校支給のスクール水着のすいかと、競泳水着の美雨。
 
 全然普通のはずなのに、何かギャラリーの視線の一部により熱が篭った気がした。
@@ -505,8 +494,6 @@ layer_position	2,120,0
 layer_move	2,10000,0,-2300,0,00,PASSTYPE_BEZIER_A
 se	0,"sound\se\se222_きらきら.wav",play_once
 wait	4000
-
-
 
 ＠樹
 「美雨、あんまり男の視線………」
@@ -592,7 +579,6 @@ layer_position	2,0,0
 layer_move	2,20000,0,-2000,0,-50,PASSTYPE_BEZIER_A
 se	0,"sound\se\se222_きらきら.wav",play_once
 wait	4000
-
 
 ＠樹
 「えっと……ゆ、ゆずか？」
@@ -922,10 +908,8 @@ if sel=0 then goto pool_b1
 if sel=1 then goto pool_b2
 if sel=2 then goto pool_b3
 
-
 #（１Ｂ）みかん好感度UP######################################################
 label	pool_b1
-
 
 ＠樹
 「分かった分かった、一緒にいちごからサメを奪還するか」
@@ -1017,7 +1001,6 @@ add_miryoku=50
 goto	pool_skip
 
 #（統合へ）
-
 
 #（２Ｂ）いちご好感度UP######################################################
 label	pool_b2
@@ -1176,10 +1159,8 @@ label	pool_c1
 add_miryoku=50
 @ichigo_add_miryoku
 
-
 goto	pool_skip
 #（統合へ）
-
 
 #（２Ｃ）変化なし###########################################################
 label	pool_c2
@@ -1235,10 +1216,8 @@ label	pool_c2
 
 その後しばらく、オレたちは鬼ごっこをして遊んだ。
 
-
 goto	pool_skip
 #（統合へ）
-
 
 label	pool_b3
 #（３Ｂ）かりん好感度ＵＰ####################################################
@@ -1446,13 +1425,11 @@ label	pool_d1
 
 その後しばらく、オレたちは鬼ごっこをして遊んだのだった。
 
-
 #（統合へ）
 goto	pool_skip
 
 #（２Ｄ）かりん好感度UP#######################################################
 label	pool_d2
-
 
 ＠樹
 「まぁ、全く無いとは言い切れないかもな」
@@ -1500,14 +1477,11 @@ label	pool_d2
 #■BG（ブラック）
 @bg_black
 
-
 かりんにせかされながら、その後しばらくオレたちは鬼ごっこをして遊んだのだった。
-
 
 @bg_black
 add_miryoku=50
 @karin_add_miryoku
-
 
 goto	pool_skip
 
@@ -1539,7 +1513,6 @@ label	pool_a2
 #■BG（ウォーターパーク内）
 @bg_waterpark
 
-
 ＠樹
 「………何か人ごみが出来てる気がする」
 
@@ -1569,7 +1542,6 @@ label	pool_a2
 
 @yuzu_warai
 
-
 ＠ゆず,F00013
 「あ、樹先生ー♪」
 
@@ -1587,7 +1559,6 @@ label	pool_a2
 「ふぅ……」
 
 軽く水着のラインを整えてプールから上がると、オレを見つけて近づいてくる。
-
 
 @shizuku_warai
 
@@ -1635,7 +1606,6 @@ wait	2000
 
 子供用の低い飛び込み台ではなく、大人用の最も高い場所にざくろの姿があった。
 
-
 しかも、
 
 event	"event\EV_ALL_030-00a.png"
@@ -1645,7 +1615,6 @@ event	"event\EV_ALL_030-00a.png"
 
 ＠雫,S00318
 「ああ、泳げないんだってさ」
-
 
 layer_load_overlap	0,"event\EV_ALL_030-01.png"
 layer_move	0,4000,0,0,0,-300,PASSTYPE_BEZIER_A
@@ -1671,7 +1640,6 @@ event	"event\EV_ALL_030-02.png"
 地上で揉めていてもざくろが気付くはずも無く、その身体は中空へ。
 
 layer_move	0,4000,0,0,0,-500,PASSTYPE_BEZIER_A
-
 
 ＠ゆず,F00016
 「飛んだ……っていうより、あれは落ちてるって言うんじゃ……」
@@ -1721,7 +1689,6 @@ layer_move	0,1000,0,-500,0,-100,PASSTYPE_BEZIER_A
 
 ＠樹
 「ざくろッ、おい！」
-
 
 ＠ざくろ,Q00174
 「ふふ、面白い……」
@@ -1822,7 +1789,6 @@ layer_move	0,1000,0,-500,0,-100,PASSTYPE_BEZIER_A
 ＠ざくろ,Q00182
 「つっちー、無意味にファイト」
 
-
 ＠樹
 「無意味なのかッ！　分かっててやらせるな！」
 
@@ -1863,7 +1829,6 @@ layer_move	0,1000,0,-500,0,-100,PASSTYPE_BEZIER_A
 
 そして大衆の前で、背中から突き落とされたオレとゆずの悲鳴が響いたのだった。
 
-
 #（統合へ）
 goto	pool_skip
 
@@ -1872,7 +1837,6 @@ label	pool_a3
 #（３Ａ）すいか＆美雨好感度UP
 @bg_black
 @bg_waterpark
-
 
 ＠樹
 「オレもそっちに付き合うよ」
@@ -1902,7 +1866,6 @@ wait	1000
 
 @miu
 
-
 ＠美雨,B00129
 「樹さん、ありがとうございます」
 
@@ -1919,7 +1882,6 @@ wait	1000
 話しをして歩調が遅れるオレ達の少し前にすいかの背中がある。
 
 美雨はそれを見ながらポツリと口を開いた。
-
 
 @miu_kanashimi
 
@@ -1978,7 +1940,6 @@ wait	1000
 
 event	"event\CUTIN_07-00.png"
 
-
 ＠樹
 「どうだ、すいか。これなら気にせず自然に遊べるだろ？」
 
@@ -2002,7 +1963,6 @@ event	"event\CUTIN_07-00.png"
 
 event	"event\CUTIN_07-01.png"
 
-
 ＠すいか,R00131
 「ありがとうございます」
 
@@ -2013,14 +1973,12 @@ event	"event\CUTIN_07-01.png"
 
 event	"event\CUTIN_07-02.png"
 
-
 ＠美雨,B00135
 「樹さん、私は準備大丈夫ですよ」
 
 マットを後ろから支えている美雨がいたずらっぽく笑いかける。
 
 event	"event\CUTIN_07-03.png"
-
 
 ＠すいか,R00132
 「何をするんですか？」
@@ -2033,7 +1991,6 @@ event	"event\CUTIN_07-03.png"
 そして後ろからは美雨のアシストがマットに加わった。
 
 event	"event\CUTIN_07-04.png"
-
 
 ＠すいか,R00133
 「きゃっ！」
@@ -2105,7 +2062,6 @@ label	pool_skip
 
 @chara_init
 
-
 #■BG（青空）
 @bg_sky
 
@@ -2144,7 +2100,6 @@ label	pool_skip
 
 ＠樹
 「う～ん、オレが運動不足なだけか………」
-
 
 @chara_clear
 wait	1000
@@ -2195,7 +2150,6 @@ wait	1000
 
 声を潜めたその分を頬の熱に回しながら、視線でねめつけてきた。
 
-
 @chara_clear
 wait	1000
 
@@ -2220,7 +2174,6 @@ wait	1000
 #SE38　殴る音（バキッ！）
 @se38
 #//フラッシュ
-
 
 ＠樹
 「グブゥッ！！」
@@ -2279,8 +2232,6 @@ if hikari_on=1 then gosub	hikari_e08	#ひかりとあう
 
 if ichigo_love=2 then gosub	pool_ichigo	#いちごH
 
-
-
 @bgmk04
 #■（プールイベントエンド）
 @bg_sky_y
@@ -2292,7 +2243,6 @@ if ichigo_love=2 then gosub	pool_ichigo	#いちごH
 
 #■BG（孤児院前・夕方）
 @bg_gate_y
-
 
 雫さんの車に乗って、オレ達は孤児院に帰って来た。
 
@@ -2364,8 +2314,6 @@ if ichigo_love=2 then gosub	pool_ichigo	#いちごH
 叫びながら元気よく走っていくいちごを見送り、まるで蝉のような、家中うるさく響く声に、オレは少し笑ってしまった。
 
 #本編へ
-
-
 
 @bg_black
 return

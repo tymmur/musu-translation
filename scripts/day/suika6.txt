@@ -11,43 +11,35 @@ suika_item_flag2=0
 @bg_itsuki_n		# 自室(夜)
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-
 #＠すいか,R00467
 #「……すみません、すいかです」
 ＠Suika,R00467
 「......Excuse me, it's Suika.」
 
-
 @bgm12			#BGM 12 : メインテーマ
-
 
 #ノックとともにすいかの声がして、オレは部屋の入り口に向かった。
 #SCRIPT ADD KANJI
 Ｓuika called out while knocking, and I went to the room's entrance.
-
 
 @bg_black
 #wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 @bg_rouka_n		# 廊下(夜)
 
-
 #＠樹
 #「おう、どうした？」
 ＠Itsuki
 「Oh, what's wrong?」
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika			#普
-
 
 #＠すいか,R00468
 #「あ、いえ、今お時間よろしいですか？」
 ＠Suika,R00468
 「Ah, no, is this time okay?」
-
 
 #ドアを開けて尋ねると、すいかは少し緊張した様子で尋ねてくる。
 #SCRIPT ADD KANJI
@@ -58,9 +50,7 @@ suika_item_flag2=0
 ＠Itsuki
 「It's okay but...... What's the matter?」
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00469
 #「いえ、その……」
@@ -91,18 +81,14 @@ suika_item_flag2=0
 #SCRIPT ADD KANJI
 Ｈm, I wonder what kind of game it is?
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00472
 #「……そ、そんなに大したものじゃないですけど」
 ＠Suika,R00472
 「......I, it's not such a big deal.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00473
 #「でも、プレイしてご意見をいただけると嬉しいです……」
@@ -119,9 +105,7 @@ suika_item_flag2=0
 ＠Itsuki
 「Is the computer......in your room?」
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00474
 #「あ、ええ……」
@@ -151,9 +135,7 @@ suika_item_flag2=0
 ＠Itsuki
 「Then, shall we go to your room?」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00476
 #「はい、お願いします！」
@@ -164,13 +146,11 @@ suika_item_flag2=0
 #SCRIPT ADD KANJI
 Ｓuika nodded, and we went to Suika's room.
 
-
 #■BG（黒）
 #■BG（すいかたん部屋）
 @bg_black
 wait		1000
 @bg_suika_n		# すいかの部屋(夜)
-
 
 #すいかの部屋にはいると、当のパソコンは、電源が入ったまま机の上に置かれていた。
 #SCRIPT ADD KANJI
@@ -181,15 +161,12 @@ wait		1000
 @suika_heyagi
 @suika_yorokobi		#喜
 
-
 #＠すいか,R00477
 #「今、起動しますね」
 ＠Suika,R00477
 「I'm going to start it up now.」
 
-
 @suika_
-
 
 #すいかはそう言って椅子に座り、パソコンを操作する。
 #SCRIPT ADD KANJI
@@ -198,7 +175,6 @@ wait		1000
 #すぐにゲームが立ち上がり、小さなスピーカーから賑やかなＢＧＭが流れ始めた。
 #SCRIPT ADD KANJI
 Ｔhe game started up immediately, and from the small speakers, lively BGM flowed.
-
 
 #＠樹
 #「本格的だな」
@@ -210,11 +186,9 @@ wait		1000
 ＠Suika,R00478
 「I got the music from the internet though......」
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00479
 #「……どうぞ、先生」
@@ -230,10 +204,8 @@ wait		1000
 ＠Itsuki
 「Yeah.」
 
-
 bgm_stop
 @suika_
-
 
 #オレはうなずいて、空いた椅子に腰掛けた。
 #SCRIPT ADD KANJI
@@ -248,7 +220,6 @@ bgm_stop
 @suika_yorokobi		#喜
 @bgmk05			#BGM K05 : 選択時のテーマ? テクノ風
 
-
 #＠すいか,R00480
 #「操作方法は、カーソルキーで自機の移動、Ｚでショット、Ｘでボムです」
 ＠Suika,R00480
@@ -259,9 +230,7 @@ bgm_stop
 ＠Suika,R00481
 「The shots are rapid-fire and wide shots, and if you keep pressing, it will turn into a laser.」
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00482
 #「ゲームパッドがあれば、それも使えるはずなんですけど……」
@@ -273,24 +242,19 @@ bgm_stop
 ＠Itsuki
 「Well, the keyboard is fine for now.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00483
 #「敵を倒すと小判になりますから、頑張って高得点を目指してください」
 ＠Suika,R00483
 「When you defeat an enemy, it turns into a koban, so try hard to get a high score.」 (*koban-> http://en.wikipedia.org/wiki/Koban_(Japanese_gold_coin) )
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00484
 #「ＥＮＴＥＲかスペースキーでゲーム開始です！」
 ＠Suika,R00484
 「You can start the game by pressing ENTER or the space key!」
-
 
 #--------------------------------------------------
 # 入力待ち。ＥＮＴＥＲかスペースでゲームへ？
@@ -301,15 +265,10 @@ bgm_stop
 @bg_black
 wait		1000
 
-
 #//////////////////////////////////////////
 #注：suika_game_check　ファイルへジャンプ
 #//////////////////////////////////////////
 goto		suika_game_check_game1_1
-
-
-
-
 
 #--------------------------------------------------
 #■（条件分岐）
@@ -317,13 +276,11 @@ goto		suika_game_check_game1_1
 #--------------------------------------------------
 label		suika_game_check_game1_1_fastdead
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika			#普
 @bg_suika_n		# すいかの部屋(夜)
 @bgm12			#BGM 12 : メインテーマ
-
 
 #＠すいか,R00485
 #「あ、あれ？　難しすぎましたか？」
@@ -335,9 +292,7 @@ label		suika_game_check_game1_1_fastdead
 ＠Itsuki
 「Ahaha...... I'm not very good at shooting......」
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00486
 #「そうですか……」
@@ -354,19 +309,13 @@ label		suika_game_check_game1_1_fastdead
 #＠Suika,R00488
 #「It might be better to lower the difficulty in the options.」
 
-
 #（統合１へ）
 goto		suika6_togo1
-
-
-
-
 
 #--------------------------------------------------
 #（普通の点）
 #--------------------------------------------------
 label		suika_game_check_game1_1_normalscore
-
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -374,15 +323,12 @@ label		suika_game_check_game1_1_normalscore
 @bg_suika_n		# すいかの部屋(夜)
 @bgm12			#BGM 12 : メインテーマ
 
-
 #＠すいか,R00489
 #「うーん、惜しいっ……！」
 ＠Suika,R00489
 「Hm, so close......!」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00490
 #「でも、わりといいセン行ってますよ、先生！」
@@ -394,28 +340,20 @@ label		suika_game_check_game1_1_normalscore
 ＠Itsuki
 「Really? I'm not very good at shooting......」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00491
 #「そんなことないですよ。初めてでこれなら、上手い方だと思います」
 ＠Suika,R00491
 「That's not true. I think you're quite good for this being your first time playing.」
 
-
 #（統合１へ）
 goto	suika6_togo1
-
-
-
-
 
 #--------------------------------------------------
 #（高得点）
 #--------------------------------------------------
 label		suika_game_check_game1_1_highscore
-
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -423,15 +361,12 @@ label		suika_game_check_game1_1_highscore
 @bg_suika_n		# すいかの部屋(夜)
 @bgm12			#BGM 12 : メインテーマ
 
-
 #＠すいか,R00492
 #「すごいです、先生っ！」
 ＠Suika,R00492
 「Amazing, Sensei!」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00493
 #「いきなりこんな高得点が出るなんて、ちょっと予想外でした」
@@ -443,18 +378,14 @@ label		suika_game_check_game1_1_highscore
 ＠Itsuki
 「Oh, really?」
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00494
 #「ちょっと簡単すぎでしたか……？」
 ＠Suika,R00494
 「Was it too easy......?」
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00495
 #「オプションで難易度を上げた方がいいかもしれませんね」
@@ -464,15 +395,10 @@ label		suika_game_check_game1_1_highscore
 #（統合１へ）
 goto	suika6_togo1
 
-
-
-
-
 #--------------------------------------------------
 #（ステージクリア）
 #--------------------------------------------------
 label		suika_game_check_game1_1_stclear
-
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -480,15 +406,12 @@ label		suika_game_check_game1_1_stclear
 @bg_suika_n		# すいかの部屋(夜)
 @bgm12			#BGM 12 : メインテーマ
 
-
 #＠すいか,R00496
 #「すごいすごいっ！」
 ＠Suika,R00496
 「Wow wow!」
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00497
 #「１回で面クリアなんて……。うーん、ちょっと簡単すぎましたかね？」
@@ -500,39 +423,28 @@ label		suika_game_check_game1_1_stclear
 ＠Itsuki
 「Hahaha, I used to play shooting games a lot a long time ago.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00498
 #「それじゃぜひ、次は難易度を上げてみてください」
 #＠Suika,R00498
 #「Then, do try the next difficult.」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00499
 #「自分用にハードモードも作ってありますから♪」
 #＠Suika,R00499
 #「I made a hard mode too for personal use.♪」
 
-
 goto	suika6_togo1
-
-
-
-
 
 #--------------------------------------------------
 #■（統合１）
 #--------------------------------------------------
 label	suika6_togo1
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00500
 #「ちなみに、子猫はオプションなので、拾うと味方になってくれますよ」
@@ -544,13 +456,10 @@ label	suika6_togo1
 ＠Suika,R00501
 「Also, if you pick up bells, the number of remaining bombs will increase.」
 
-
 #＠すいか,R00502
 #「どうですか？　もう一度プレイしますか？」
 ＠Suika,R00502
 「How was it? Want to play again?」
-
-
 
 #--------------------------------------------------
 #■（選択肢Ａ）
@@ -563,7 +472,6 @@ if sel=0 then goto suika6_q01_a
 if sel=1 then goto suika6_q01_b
 #--------------------------------------------------
 
-
 #--------------------------------------------------
 #（する）
 # すいか好感度＋１
@@ -571,21 +479,17 @@ if sel=1 then goto suika6_q01_b
 label		suika6_q01_a
 #suika_love = suika_love+1
 
-
 #＠樹
 #「もちろんだぜ！」
 ＠Itsuki
 「Of course!」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00503
 #「それじゃ、ＥＮＴＥＲかスペースでスタートです！」
 ＠Suika,R00503
 「Then, start by pressing ENTER or space!」
-
 
 #--------------------------------------------------
 # ゲーム開始。オプションで難易度が変更できる
@@ -595,15 +499,10 @@ bgm_stop
 @bg_black
 wait		1000
 
-
 #//////////////////////////////////////////
 #注：suika_game_check　ファイルへジャンプ
 #//////////////////////////////////////////
 goto		suika_game_check_game1_2over
-
-
-
-
 
 #--------------------------------------------------
 #■（条件分岐）
@@ -611,13 +510,11 @@ goto		suika_game_check_game1_2over
 #--------------------------------------------------
 label		suika_game_check_game1_2_stclear
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_odoroki		#驚
 @bg_suika_n		# すいかの部屋(夜)
 @bgm12			#BGM 12 : メインテーマ
-
 
 #＠すいか,R00504
 #「お見事！　さすが院長先生です！」
@@ -629,9 +526,7 @@ label		suika_game_check_game1_2_stclear
 ＠Itsuki
 「Ahaha, this isn't that big of a deal.」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00505
 #「うーん、こんなに簡単にクリアされちゃうと、早く次の面を作らなきゃいけない気になりますね」
@@ -648,35 +543,26 @@ label		suika_game_check_game1_2_stclear
 ＠Itsuki
 「If you don't sleep a lot because it's fun, your health will decrease.」
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00506
 #「え、ええ……。気をつけます」
 ＠Suika,R00506
 「E, eeh...... I'll take care.」
 
-
 #（統合２へ）
 goto		suika6_togo2
-
-
-
-
 
 #--------------------------------------------------
 #（さっきよりいい点）
 #--------------------------------------------------
 label		suika_game_check_game1_2_goodscore
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_yorokobi		#喜
 @bg_suika_n		# すいかの部屋(夜)
 @bgm12			#BGM 12 : メインテーマ
-
 
 #＠すいか,R00507
 #「院長先生、さっきより上手くなったんじゃないですか？」
@@ -688,26 +574,19 @@ label		suika_game_check_game1_2_goodscore
 ＠Itsuki
 「Really? I think I probably gradually got the hang of it......」
 
-
 #（統合２へ）
 goto		suika6_togo2
-
-
-
-
 
 #--------------------------------------------------
 #（さっきより悪い点）
 #--------------------------------------------------
 label		suika_game_check_game1_2_badscore
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_kanashimi	#哀
 @bg_suika_n		# すいかの部屋(夜)
 @bgm12			#BGM 12 : メインテーマ
-
 
 #＠すいか,R00508
 #「あーっ、残念……」
@@ -719,27 +598,19 @@ label		suika_game_check_game1_2_badscore
 ＠Itsuki
 「Damn it......」
 
-
 #@suika_komariwarai	#困笑
-
 
 #＠すいか,R00509
 #「やっぱり、難易度を下げた方がいいんじゃないですか？」
 #＠Suika,R00509
 #「I think it would be better to lower the difficulty, wouldn't it?」
 
-
 goto		suika6_togo2
-
-
-
-
 
 #--------------------------------------------------
 #■（統合２）
 #--------------------------------------------------
 label		suika6_togo2
-
 
 #--------------------------------------------------
 #■（条件分岐）
@@ -748,9 +619,7 @@ if game1_playcount=3 then goto suika6_game1_playcount3
 #--------------------------------------------------
 #label		suika6_game1_playcount2
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00510
 #「ぶるにゃんマンは見た目より当り判定が小さいですから、結構弾に近づいても大丈夫ですよ」
@@ -758,7 +627,6 @@ if game1_playcount=3 then goto suika6_game1_playcount3
 「BurunyanMan has smaller collision detection than it look like, so he can go quite close to bullets and still be okay.」
 
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00511
 #「かすると得点も入りますし、そばに弾が来るとアドレナリンが通常の３倍出てパワーアップするんです」
@@ -770,9 +638,7 @@ if game1_playcount=3 then goto suika6_game1_playcount3
 ＠Itsuki
 「BurunyanMan?」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00512
 #「あ、このゲームの主人公の名前です」
@@ -788,9 +654,7 @@ if game1_playcount=3 then goto suika6_game1_playcount3
 #SCRIPT ADD KANJI
 Ｓuika has questionable naming sense......
 
-
 @suika_yorokobi		#喜
-
 
 ＠Suika,R00513
 「あと、レーザーは接近して撃った方が威力が増します。これも攻略のポイントですね」
@@ -800,26 +664,16 @@ if game1_playcount=3 then goto suika6_game1_playcount3
 ＠Suika,R00514
 「Want to play again, Sensei?」
 
-
 #（選択肢Ａへ戻る）
 goto		suika6_q01
-
-
-
-
 
 #--------------------------------------------------
 #（３回プレイした）
 #--------------------------------------------------
 label		suika6_game1_playcount3
 
-
 #（統合３へ）
 goto		suika6_togo3
-
-
-
-
 
 #----------------------------------------------------------------------------------------------------
 # 自発的にやめない限り何度もプレイできるようにする手もあるが、セリフ部分が同じ繰り返しになってしまうので、
@@ -832,7 +686,6 @@ goto		suika6_togo3
 #--------------------------------------------------
 label		suika6_q01_b
 
-
 #＠樹
 #「いや、今日はこのへんにしておこう」
 ＠Itsuki
@@ -842,27 +695,19 @@ label		suika6_q01_b
 #SCRIPT ADD KANJI
 Ｉf I play too much today, it will affect me tomorrow.
 
-
 @suika			#普
-
 
 #＠すいか,R00515
 #「そうですか……」
 ＠Suika,R00515
 「I see......」
 
-
-
-
-
 #--------------------------------------------------
 #■（統合３）
 #--------------------------------------------------
 label		suika6_togo3
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00516
 #「それで、その……」
@@ -873,15 +718,12 @@ label		suika6_togo3
 #SCRIPT ADD KANJI
 Ａnd, Suika looked at me a bit hesitatingly.
 
-
 @suika			#普
-
 
 #＠すいか,R00517
 #「どうでしたか、プレイしてみて？」
 ＠Suika,R00517
 「How was it?」
-
 
 #--------------------------------------------------
 #■（選択肢Ｂ）
@@ -893,7 +735,6 @@ if sel=0 then goto suika6_q02_a
 if sel=1 then goto suika6_q02_b
 if sel=2 then goto suika6_q02_c
 #--------------------------------------------------
-
 
 #--------------------------------------------------
 #（面白かった）
@@ -907,9 +748,7 @@ label		suika6_q02_a
 ＠Itsuki
 「Seriously, it was quite interesting.」
 
-
 @suika_odoroki		#驚
-
 
 #＠すいか,R00518
 #「ホントですか？」
@@ -926,9 +765,7 @@ label		suika6_q02_a
 ＠Itsuki
 「Suika, you really have a lot of talent......」
 
-
 @suika_tere		#照
-
 
 #＠すいか,R00519
 #「そ、それは褒めすぎですよ……」
@@ -944,18 +781,14 @@ label		suika6_q02_a
 #SCRIPT ADD KANJI
 Ｓhe turned a bit red, but Suika really looked happy.
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00521
 #「今はまだ１面しかないですけど、また続きも作りますね」
 ＠Suika,R00521
 「Right now there is only 1 screen, but I'll continue making it.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00522
 #「そしたらまた遊んでください」
@@ -972,9 +805,7 @@ label		suika6_q02_a
 ＠Itsuki
 「I'll be looking forward to it.」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00523
 #「はい」
@@ -985,16 +816,10 @@ label		suika6_q02_a
 #SCRIPT ADD KANJI
 Ｓuika nodded with a happy looking smile that I had never seen before.
 
-
 @suika_evup
-
 
 #（統合４へ）
 goto		suika6_togo4
-
-
-
-
 
 #--------------------------------------------------
 #（なかなかだった）
@@ -1002,7 +827,6 @@ goto		suika6_togo4
 #--------------------------------------------------
 label		suika6_q02_b
 @suika_love_up
-
 
 #＠樹
 #「うーん、まだ作り込みが甘い部分もあるかもしれないけど……」
@@ -1014,9 +838,7 @@ label		suika6_q02_b
 ＠Itsuki
 「But, it's quite good for your first attempt.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00524
 #「ホントですか？　嬉しいです……」
@@ -1027,9 +849,7 @@ label		suika6_q02_b
 #SCRIPT ADD KANJI
 Ｉ lightly praised her, and Suika smiled and seemed happy.
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00525
 #「今はまだ１面しかないですけど、また続きも作りますね」
@@ -1037,7 +857,6 @@ label		suika6_q02_b
 「Right now there is only 1 screen, but I'll continue making it.」
 
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00526
 #「もっと面白くなるように頑張ります」
@@ -1058,9 +877,7 @@ label		suika6_q02_b
 ＠Itsuki
 「But make sure to get enough sleep.」
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00527
 #「あはは、はい」
@@ -1071,21 +888,15 @@ label		suika6_q02_b
 #SCRIPT ADD KANJI
 Ｓuika nodded with a slightly bitter smile.
 
-
 @suika_evup
 
 #（統合４へ）
 goto		suika6_togo4
 
-
-
-
-
 #--------------------------------------------------
 #（微妙だった）
 #--------------------------------------------------
 label		suika6_q02_c
-
 
 #＠樹
 #「うーん、正直微妙ではあるが……」
@@ -1097,9 +908,7 @@ label		suika6_q02_c
 ＠Itsuki
 「But well, it's your first time so this kind of thing is well...」
 
-
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00528
 #「そ、そうですか……」
@@ -1138,7 +947,6 @@ label		suika6_q02_c
 
 @suika_komariwarai	#困笑
 
-
 #＠すいか,R00530
 #「あはは、ありがとうございます」
 ＠Suika,R00530
@@ -1153,26 +961,16 @@ label		suika6_q02_c
 #SCRIPT ADD KANJI
 Ｓuika forced a smile while looking still a bit regretful.
 
-
-
-
-
 #--------------------------------------------------
 #■（統合４）
 #--------------------------------------------------
 label	suika6_togo4
-
 
 #■BG（黒）
 bgm_stop
 @bg_black
 wait		1000
 
-
 #（スケジュールへ）
 return
-
-
-
-
 

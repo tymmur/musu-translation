@@ -1,7 +1,7 @@
 #みかん　からだエピソード #####################################################
 label	mikan_karada_ep
 if mikan_karada_ep_count=7 then return
-
+if shizuku_off=1 then return
 @close_schedule
 @bg_black
 @chara_init
@@ -10,11 +10,11 @@ if mikan_karada_ep_count=0 then gosub	ep_mikan_01	#昼 クッキーは誰の物？
 if mikan_karada_ep_count=1 then gosub	mikan_qa10	#ふとんにジュースをこぼす
 if mikan_karada_ep_count=2 then gosub	ep_mikan_06	#昼 一人ぼっちのおやつ時間
 if mikan_karada_ep_count=3 then gosub	mikan_qa09	#ブラジャー
-if mikan_karada_ep_count=4 then gosub	ep_mikan_09	#昼 子供たちの手料理騒動if mikan_karada_ep_count=5 then gosub	mikan_qa05	#今日一緒の布団で寝てもいい…？
+if mikan_karada_ep_count=4 then gosub	ep_mikan_09	#昼 子供たちの手料理騒動
+if mikan_karada_ep_count=5 then gosub	mikan_qa05	#今日一緒の布団で寝てもいい…？
 if mikan_karada_ep_count=6  then gosub	ep_mikan_10	#昼 エッチの現場を見られてしまった！？（今更）
 
-mikan_karada_levelup_flag=0
-
+mikan_karada_levelup_flag=mikan_karada_levelup_flag-1
 mikan_karada_ep_count=mikan_karada_ep_count+1
 @open_schedule
 return
@@ -22,7 +22,7 @@ return
 #みかん　あたまエピソード ####################################################
 label	mikan_atama_ep
 if mikan_atama_ep_count=7 then return
-
+if shizuku_off=1 then return
 @close_schedule
 @bg_black
 @chara_init
@@ -35,8 +35,7 @@ if mikan_atama_ep_count=4 then gosub	ep_mikan_11	#昼 頑張ってお勉強中
 if mikan_atama_ep_count=5 then gosub	mikan_qa08	#クロスワード2
 if mikan_atama_ep_count=6 and karin_on=1 then gosub	mikan_qa04	#ベルマーク　かりんゆず登場後
 
-
-mikan_atama_levelup_flag=0
+mikan_atama_levelup_flag=mikan_atama_levelup_flag-1
 
 mikan_atama_ep_count=mikan_atama_ep_count+1
 @open_schedule
@@ -45,7 +44,7 @@ return
 #みかん　こころエピソード ####################################################
 label	mikan_kokoro_ep
 if mikan_kokoro_ep_count=7 then return
-
+if shizuku_off=1 then return
 @close_schedule
 @bg_black
 @chara_init
@@ -58,25 +57,11 @@ if mikan_kokoro_ep_count=4 then gosub	ep_mikan_07	#夜 まさかの美雨夜這い現場！？
 if mikan_kokoro_ep_count=5 then gosub	mikan_qa07	#スワッピング
 if mikan_kokoro_ep_count=6 then gosub	ep_mikan_02	#夜 お風呂現場でばったり！？
 
-
-
-mikan_kokoro_levelup_flag=0
+mikan_kokoro_levelup_flag=mikan_kokoro_levelup_flag-1
 
 mikan_kokoro_ep_count=mikan_kokoro_ep_count+1
 @open_schedule
 return
-
-
-
-
-
-
-
-
-
-
-
-
 
 ##############################################################################
 # 01:クッキーは誰の物？（みかん編 ############################################
@@ -90,134 +75,114 @@ label	ep_mikan_01
 @mikan_small
 @mikan_shifuku
 
-
 #■BG（玄関）
 @SE31			#SE31　玄関のドアが閉まる音
 @bg_genkan
 
-
+#「ただいま、っと」
 ＠Itsuki
-「ただいま、っと」
 「I'm back」
 
 #■BG（食堂）
 @bg_dining
 
-
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
-
+#「美雨、買い物済ませてきたよ………あれ？」
 ＠Itsuki
-「美雨、買い物済ませてきたよ………あれ？」
 「Miu, I went shopping...... huh?」
-
 
 @bgm12			#演：仮ＢＧＭ
 
+#夕食の買出しから帰って来たが、そこに美雨の姿は無い。
+　I bought things for dinner, but Miu wasn't around.
 
-夕食の買出しから帰って来たが、そこに美雨の姿は無い。
-I bought things for dinner, but Miu wasn't around.
+#何か別の用事でも出来たのだろうか？
+　Maybe she's busy with something else.
 
-何か別の用事でも出来たのだろうか？
-Maybe she's busy with something else.
-
+#「ま、じきに戻ってくるだろ」
 ＠Itsuki
-「ま、じきに戻ってくるだろ」
 「I'm sure she'll be back soon」
 
-買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
-I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
+#買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
+　I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
-キャンペーン中のお店でサービスに貰った物だ。
-I got it for free from the store.
+#キャンペーン中のお店でサービスに貰った物だ。
+　I got it for free from the store.
 
-なので困った事に、子供達のおやつにするには量が少ない。
-It's kind of a bother that there isn't enough to give to all of the kids.
-
+#なので困った事に、子供達のおやつにするには量が少ない。
+　It's kind of a bother that there isn't enough to give to all of the kids.
 
 @mikan
 
-
+#「おかえりなさい、お兄ちゃん。買い物してきてたの？」
 ＠Mikan,A01528
-「おかえりなさい、お兄ちゃん。買い物してきてたの？」
 「Hey Onii-chan. Did you go shopping?」
 
+#「ああ、夕食のな」
 ＠Itsuki
-「ああ、夕食のな」
 「Yeah, food for dinner」
 
+#「そうだ。みかん今一人か？」
 ＠Itsuki
-「そうだ。みかん今一人か？」
 「Wait, is it just you here?」
 
+#「…？　うん、みんな出かけてるよ」
 ＠Mikan,A01529
-「…？　うん、みんな出かけてるよ」
 「...? Yeah, everyone's out」
 
-なら都合がいい。他の子には悪いけど。
-Good timing. Too bad for the others though.
+#なら都合がいい。他の子には悪いけど。
+　Good timing. Too bad for the others though.
 
+#「これ、みかんにあげるよ。量が少ないから他の子には内緒な」
 ＠Itsuki
-「これ、みかんにあげるよ。量が少ないから他の子には内緒な」
 「Here, this is for you. There's only a little so let's not tell the others」
 
+#「え？　うん」
 ＠Mikan,A01530
-「え？　うん」
 「Huh? OK」
-
 
 @mikan_odoroki		#驚
 
-
+#「あっ、クッキーだ～っ♪」
 ＠Mikan,A01531
-「あっ、クッキーだ～っ♪」
 「Aha! It's a cookie!～♪」
 
-受け取った袋の中身を確認して、喜びの声をあげるみかん。
-She discovers what's inside and exclaims happily.
-
+#受け取った袋の中身を確認して、喜びの声をあげるみかん。
+　She discovers what's inside and exclaims happily.
 
 @mikan_warai		#笑
 
-
+#「お兄ちゃんが買ってきたの？」
 ＠Mikan,A01532
-「お兄ちゃんが買ってきたの？」
 「Did you buy this?」
 
+#「お店のサービスで貰った物だよ。だから全員の分が無いんだけど」
 ＠Itsuki
-「お店のサービスで貰った物だよ。だから全員の分が無いんだけど」
 「I got it for free from the store. That's why there isn't enough for everyone」
 
+#「これ、みかんがもらってもいいのっ？」
 ＠Mikan,A01533
-「これ、みかんがもらってもいいのっ？」
 「Is it really OK for me to have this?」
 
+#「他の子、特にいちごは羨むから内緒でな」
 ＠Itsuki
-「他の子、特にいちごは羨むから内緒でな」
 「The others especially Ichigo are going to be jealous so let's keep it hush-hush」
-
 
 @mikan_komikaru_warai	#コミカル笑
 
-
+#「うんッ。わ～いクッキだー♪」
 ＠Mikan,A01534
-「うんッ。わ～いクッキだー♪」
 「OK. Yay A cookieー♪」
 
-そのままここで包みを広げるみかんと一緒に、クッキーを摘みながら過ごした。
-Mikan unwrapped it, and so cookie in hand together we passed the time.
-
+#そのままここで包みを広げるみかんと一緒に、クッキーを摘みながら過ごした。
+　Mikan unwrapped it, and so cookie in hand together we passed the time.
 
 @bg_black
 
-
 #（スケジュールへ）
 return
-
-
-
-
 
 #############################################################################
 # 02:お風呂現場でばったり！？（みかん編）####################################
@@ -230,10 +195,8 @@ label	ep_mikan_02
 @mikan_middle
 @mikan_hadaka
 
-
 #■BG（浴室）
 @bg_bathroom_n
-
 
 ＠樹
 「ふぅ～～」
@@ -243,9 +206,7 @@ label	ep_mikan_02
 ＠樹
 「いい湯だ」
 
-
 @bgmk03			#BGM K03 : 静かの時のテーマ
-
 
 一日の疲れが癒えていく。
 
@@ -253,58 +214,45 @@ label	ep_mikan_02
 
 この生活の賑やかさもあって、こうして静かな時間は貴重でもあった。
 
-
 window_close
 bgm_stop
 wait		1000
 
-
 ＠樹
 「さてと。名残惜しいけど、長湯したら後がつかえてるからな」
-
 
 #SE22　水を浴びる音（バシャアァァン！）
 @se22
 
-
 一度湯船から出て、オレはシャワーとシャンプーに手を伸ばす。
-
 
 #SE112　浴室のドアスライド（カラカラカラ）
 @se112
 
-
 ＠樹
 「ん？」
-
 
 #CH（みかん裸）
 @mikan_middle
 @mikan_hadaka
 @mikan
 
-
 ＠みかん,A01535
 「え？」
 
-
 @bgm12			#演：仮ＢＧＭ
-
 
 いきなり風呂場のドアが開いた。
 
 お風呂に入ろうとしていたのだろう、裸のみかんがそこに居る。
 
-
 @mikan_odoroki
-
 
 ＠みかん,A01536
 「わ、わぁッ！？　入ってたのお兄ちゃんっ！？」
 
 ＠樹
 「お、おお、ついさっきな。まだもう少しかかりそうだ」
-
 
 @mikan_komikaru_kanashimi	#コミカル哀
 #///////////////////////////////////////////////////////
@@ -315,10 +263,8 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A01537
 「ご、ごめんなさい～～！」
-
 
 window_close
 @mikan_
@@ -326,14 +272,11 @@ wait		1000
 #SE112　浴室のドアスライド（カラカラカラ）
 @se112
 
-
 ピシャンッ！　と慌ててドアを閉める。
-
 
 @mikan_middle
 @mikan_hadaka
 @mikan_kanashimi
-
 
 ＠みかん,A01538
 「はぅ～……び、ビックリしたよ～」
@@ -341,29 +284,23 @@ wait		1000
 ＠樹
 「……それはいいが。何でまだ中に居るんだ？」
 
-
 @mikan_odoroki
-
 
 ＠みかん,A01539
 「え……？」
 
 閉めたドアのこちら側にみかんが居た。
 
-
 @mikan_komikaru_kanashimi	#コミカル哀
-
 
 ＠みかん,A01540
 「わぁあっ、ま、間違えたー！　みかんは出て行かないと～～！！」
-
 
 window_close
 @mikan_
 wait		1000
 #SE112　浴室のドアスライド（カラカラカラ）
 @se112
-
 
 ＠樹
 「……だいぶ混乱してるな」
@@ -390,16 +327,10 @@ wait		1000
 
 今度何か応用してやってみるのもありかもしれない。
 
-
 @bg_black
-
 
 #（スケジュールへ）
 return
-
-
-
-
 
 ##############################################################################
 # 03:遊戯室お掃除中（みかん編 ################################################
@@ -410,71 +341,57 @@ return
 #------------------------------------------------------------
 label	ep_mikan_03
 
-
 @bgm12			#演：仮ＢＧＭ
 #■BG（廊下）
 @bg_rouka
 
-
-美雨と一緒に段取りを話しながら、廊下を進んでいた。
-I walked with Miu through the hall discussing some plans.
-
+#美雨と一緒に段取りを話しながら、廊下を進んでいた。
+　I walked with Miu through the hall discussing some plans.
 
 @miu			#閉_にこ
 
-
-＠美雨,B01490
-「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
+#「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 ＠Miu,B01490
 「So I'll be in the library room next door, you can call if you need anything」
 
-＠樹
-「分かった。終わったらオレもそっちを手伝うから」
+#「分かった。終わったらオレもそっちを手伝うから」
 ＠Itsuki
 「Okay. If I finish early I'll come and help」
 
-＠美雨,B01491
-「はい。すみませんけれど、よろしくお願いします」
+#「はい。すみませんけれど、よろしくお願いします」
 ＠Miu,B01491
 「Ok, thanks so much」
 
-
 @miu_
 
-
-ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
-We part before the door, and Miu enters the library room while I enter the game room.
-
-
+#ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
+　We part before the door, and Miu enters the library room while I enter the game room.
 
 #■BG（娯楽室）
 @bg_goraku
 
-
-＠樹
-「さて、と」
+#「さて、と」
 ＠Itsuki
 「Now then...」
 
-部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
-Miu had already left a bucket and house-cloth inside.
+#部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
+　Miu had already left a bucket and house-cloth inside.
 
-さっきの段取りと言うのは、掃除の手伝いのことだ。
-We'd been talking about helping her with cleaning.
+#さっきの段取りと言うのは、掃除の手伝いのことだ。
+　We'd been talking about helping her with cleaning.
 
-遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
-I had to almost force myself into volunteering to help out as Miu was quite hesitant.
+#遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
+　I had to almost force myself into volunteering to help out as Miu was quite hesitant.
 
-＠樹
-「こうして落ち着いて見ると、けっこう汚れてるものだな」
+#「こうして落ち着いて見ると、けっこう汚れてるものだな」
 ＠Itsuki
 「When I take the time to look closely like this, it's actually quite dirty」
 
-遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
-When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
+#遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
+　When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
-後はもう、出しっぱなしで片付けてないカードとかも……
-And there's some cards and stuff that haven't been put away...
+#後はもう、出しっぱなしで片付けてないカードとかも……
+　And there's some cards and stuff that haven't been put away...
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
@@ -483,86 +400,69 @@ wait		1000
 @mikan_shifuku
 @mikan			#普通
 
-
-＠みかん,A01543
-「お兄ちゃん……？」
+#「お兄ちゃん……？」
 ＠Mikan,A01543
 「Onii-chan...?」
 
-ドアが開き、そこからみかんが顔を出した。
-The door opens and Mikan appears.
+#ドアが開き、そこからみかんが顔を出した。
+　The door opens and Mikan appears.
 
-＠樹
-「みかんか。そうだ、ドアそのまま開けておいてくれるか」
+#「みかんか。そうだ、ドアそのまま開けておいてくれるか」
 ＠Itsuki
 「Oh Mikan? Can you leave the door open?」
 
-＠みかん,A01544
-「え？　いいけど、何してるの？」
+#「え？　いいけど、何してるの？」
 ＠Mikan,A01544
 「Huh? Sure, what are you doing?」
 
-＠樹
-「散らかってるから、美雨の掃除の手伝いだよ」
+#「散らかってるから、美雨の掃除の手伝いだよ」
 ＠Itsuki
 「It's kind of messy so I'm helping Miu with cleaning」
 
-
 @mikan_odoroki		#驚
 
-
-＠みかん,A01545
-「あ、そっかぁ。けっこう汚れてるもんね、この部屋」
+#「あ、そっかぁ。けっこう汚れてるもんね、この部屋」
 ＠Mikan,A01545
 「Oh, I see... It's pretty dirty in here isn't it」
 
-
 @mikan_warai		#笑
 
-
+#「うん。だったらみかん、お手伝いするよ」
 ＠Mikan,A01546
-「うん。だったらみかん、お手伝いするよ」
 「Right. Then I'll help you out」
 
+#「いいのか？　みかんはせっかくの休暇じゃないか」
 ＠Itsuki
-「いいのか？　みかんはせっかくの休暇じゃないか」
 「Are you sure? It's your day off」
 
+#「うん。お兄ちゃんと一緒に遊ぼうって思ってたから。お掃除でも楽しいよ」
 ＠Mikan,A01547
-「うん。お兄ちゃんと一緒に遊ぼうって思ってたから。お掃除でも楽しいよ」
 「Yeah. I wanted to do something with you. Cleaning will be fun too」
-
 
 @mikan_
 
-
-パタパタと部屋の中を走ると、窓を開けて空気を入れ替えていくみかん。
-Mikan runs across the room, and opening a window lets some fresh air in.
-
+#パタパタと部屋の中を走ると、窓を開けて空気を入れ替えていくみかん。
+　Mikan runs across the room, and opening a window lets some fresh air in.
 
 @mikan			#普通
 
-
-＠みかん,A01548
-「お手伝いしていいでしょ？」
+#「お手伝いしていいでしょ？」
 ＠Mikan,A01548
 「I can help too right」
 
+#「そういうことなら、頼もうかな」
 ＠Itsuki
-「そういうことなら、頼もうかな」
 「In that case I'll enlist your help」
 
-一人だと大変でも、二人なら早く終わるはずだ。
-This would be lengthy alone, but with 2 people it should be done pretty quickly.
+#一人だと大変でも、二人なら早く終わるはずだ。
+　This would be lengthy alone, but with 2 people it should be done pretty quickly.
 
-そうすれば美雨の手伝いにも行けるし。
-Then we can go help Miu too.
+#そうすれば美雨の手伝いにも行けるし。
+　Then we can go help Miu too.
 
-＠樹
-「ありがと。お利口だな、みかんは」
+#「ありがと。お利口だな、みかんは」
 ＠Itsuki
 「Thanks. You're on the ball, Mikan.」
-
 
 window_close
 @mikan_
@@ -570,31 +470,22 @@ wait		1000
 @mikan_middle		# 中間
 @mikan_warai2		#笑2
 
-
-＠みかん,A01549
-「えへへ♪　頑張って綺麗にしようね」
+#「えへへ♪　頑張って綺麗にしようね」
 ＠Mikan,A01549
 「Ehehe♪ Let's work hard and get it nice and tidy」
 
-側によってきたみかんの頭を撫でてやる。
-I pat Mikan on the head who came to my side.
-
+#側によってきたみかんの頭を撫でてやる。
+　I pat Mikan on the head who came to my side.
 
 bgm_stop
 #■BG（黒）
 @bg_black
 
-
-二人ですると掃除はすぐに終わり、その後は美雨を手伝い三人で施設を掃除していった。
-With the 2 of us we quickly finished, and went on to help Miu clean the institution with 3 people.
-
+#二人ですると掃除はすぐに終わり、その後は美雨を手伝い三人で施設を掃除していった。
+　With the 2 of us we quickly finished, and went on to help Miu clean the institution with 3 people.
 
 #（スケジュールへ）
 return
-
-
-
-
 
 ##############################################################################
 # 04:エロ本産卵事件！？（みかん編 ############################################
@@ -605,95 +496,86 @@ return
 #------------------------------------------------------------
 label	ep_mikan_04
 
-
 #■BG（黒）
 @bg_black
 
+#改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
+　I don't need to say it again, but Shizuku really loves doing useless things.
 
-改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
-I don't need to say it again, but Shizuku really loves doing useless things.
-
-とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
-She can't ever calm down, and is always amusing herself at the expense of the people around her.
-
+#とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
+　She can't ever calm down, and is always amusing herself at the expense of the people around her.
 
 #■BG（自室・夜）
 @bg_itsuki_n
 
-
+#「や、やられたぁッ……！！」
 ＠Itsuki
-「や、やられたぁッ……！！」
 「W-What the hell...」
-
 
 @bgm12			#演：仮ＢＧＭ
 
+#お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
+　Returning from the bath I was dumbstruck at the scene before me.
 
-お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
-Returning from the bath I was dumbstruck at the scene before me.
+#部屋の中には曲者の侵入の痕跡が残っていた。
+　Someone had intruded in my room and left a mess all over the place.
 
-部屋の中には曲者の侵入の痕跡が残っていた。
-Someone had intruded in my room and left a mess all over the place.
+#いや、残っているどころか、
+　No, not just a mess...
 
-いや、残っているどころか、
-No, not just a mess...
-
+#「部屋中の本がエロ本にすり替わってる！！」
 ＠Itsuki
-「部屋中の本がエロ本にすり替わってる！！」
 「All my books have been switched with porn magazines!!」
 
-本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
-Everything from my bookshelf to my nightstand, an overflowing sexual deviance scattered about.
+#本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
+　Everything from my bookshelf to my nightstand, an overflowing sexual deviance scattered about.
 
-むしろ産卵しているかもしれない。
-Or perhaps planted there.
+#むしろ産卵しているかもしれない。
+　Or perhaps planted there.
 
+#「こんなくだらない事に労力を使うのは、雫さんだな……」
 ＠Itsuki
-「こんなくだらない事に労力を使うのは、雫さんだな……」
 「Only Shizuku would go to so much trouble...」
 
-図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
-They're probably from the library room. I don't think this is all the work of one person though.
+#図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
+　They're probably from the library room. I don't think this is all the work of one person though.
 
+#「手伝ったのはざくろだろうな。未だに行動が読めないし」
 ＠Itsuki
-「手伝ったのはざくろだろうな。未だに行動が読めないし」
 「Zakuro probably helped. She seems pretty fishy too」
 
+#「……ったく」
 ＠Itsuki
-「……ったく」
 「... Ugh」
 
-放っておくわけにもいかないので、とりあえず片付け始める。
-I can't just leave it like this, so I start cleaning it up.
-
+#放っておくわけにもいかないので、とりあえず片付け始める。
+　I can't just leave it like this, so I start cleaning it up.
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 #コンコン。
 
-
+#「ん？　ざくろか。雫さんですか？　どうぞ」
 ＠Itsuki
-「ん？　ざくろか。雫さんですか？　どうぞ」
 「Is that you, Zakuro? Shizuku-san? Come in」
 
+#「ううん、みかんだよ。入るね～」
 ＠Mikan,A01550
-「ううん、みかんだよ。入るね～」
 「No, it's Mikan. I'm coming in～」
 
-………え。
-...... Huh.
+#………え。
+　...... Huh.
 
+#「……え゛！？」
 ＠Itsuki
-「……え゛！？」
 「... Huh!?」
 
-地の文と合わせて二回驚いてしまった。
-My surprise blended together with the narration.
+#地の文と合わせて二回驚いてしまった。
+　My surprise blended together with the narration.
 
+#「ちょ、ま、待てみかんッ。入るな！」
 ＠Itsuki
-「ちょ、ま、待てみかんッ。入るな！」
 「W-wait, don't come in yet Mikan!」
-
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
@@ -703,69 +585,61 @@ wait		1000
 @mikan_small		# 遠い
 @mikan_warai2		#笑2
 
-
+#「あのね、今国語の宿題をやってて分からない言葉があるんだけど―――」
 ＠Mikan,A01551
-「あのね、今国語の宿題をやってて分からない言葉があるんだけど―――」
 「Um, I'm doing language homework and there's a word I don't―――」
 
+#「……『哀れみの視線』っていう………意味が…」
 ＠Mikan,A01552
-「……『哀れみの視線』っていう………意味が…」
 「... It says "eyes of pity"...... what does that... mean」
 
-入って来たみかんから、徐々に笑顔が消えていく。
-Mikan's smile when she came in slowly fades.
-
+#入って来たみかんから、徐々に笑顔が消えていく。
+　Mikan's smile when she came in slowly fades.
 
 @mikan			#普通
 
-
+#「………」
 ＠Mikan,A01553
-「………」
 「...」
-
 
 @mikan_kanashimi	#哀
 
-
+#「は、はは……意味か。実演は出来てるな……」
 ＠Itsuki
-「は、はは……意味か。実演は出来てるな……」
 「Ha, haha... What does it mean? You're doing a stage show right...」
 
-まさに今のみかんのソレが、哀れみの視線だった。
-That's exactly what Mikan just showed me, eyes of pity.
+#まさに今のみかんのソレが、哀れみの視線だった。
+　That's exactly what Mikan just showed me, eyes of pity.
 
+#「お兄ちゃん……部屋の中にエッチな本がいっぱい……」
 ＠Mikan,A01554
-「お兄ちゃん……部屋の中にエッチな本がいっぱい……」
 「Onii-chan... There's a lot of dirty books in your room...」
 
+#「こ、これはオレじゃないぞッ。きっと雫さんが！」
 ＠Itsuki
-「こ、これはオレじゃないぞッ。きっと雫さんが！」
 「T-They're not mine! I'm sure Shizuku-san put them here!」
 
+#「ううん。お兄ちゃんのお仕事だもんね。みかん分かってるよ」
 ＠Mikan,A01555
-「ううん。お兄ちゃんのお仕事だもんね。みかん分かってるよ」
 「No, I get it. This is your job after all right」
 
+#「でも、お兄ちゃんこういうのが好きなんだ……」
 ＠Mikan,A01556
-「でも、お兄ちゃんこういうのが好きなんだ……」
 「But you really like it this much...」
 
+#「全然分かってないじゃないか……」
 ＠Itsuki
-「全然分かってないじゃないか……」
 「You really don't understand this at all do you...」
-
 
 @mikan_kusyou		#苦笑
 
-
+#「宿題は美雨さんに聞いてくるから。お仕事の邪魔してごめんね」
 ＠Mikan,A01557
-「宿題は美雨さんに聞いてくるから。お仕事の邪魔してごめんね」
 「I'll go ask Miu for help. Sorry for interrupting your work」
 
+#「それと、みかんとする時は、この本みたいに痛そうなことはしないでね……？」
 ＠Mikan,A01558
-「それと、みかんとする時は、この本みたいに痛そうなことはしないでね……？」
 「But don't do those painful-looking things like in that book with me OK...?」
-
 
 window_close
 @mikan_
@@ -773,32 +647,24 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#不安や羞恥や哀れみの表情を漂わせて、みかんがドアの向こうに消えた。
+　Looking tensed up, embarrassed, and showing me eyes of pity, Mikan vanished behind the door.
 
-不安や羞恥や哀れみの表情を漂わせて、みかんがドアの向こうに消えた。
-Looking tensed up, embarrassed, and showing me eyes of pity, Mikan vanished behind the door.
+#オレの手には、片付けようと思った本格ハードＳＭ本。
+　I notice the hard SM book I'd been holding in my hand meaning to put away.
 
-オレの手には、片付けようと思った本格ハードＳＭ本。
-I notice the hard SM book I'd been holding in my hand meaning to put away.
-
+#「うわあああああーー！！」
 ＠Itsuki
-「うわあああああーー！！」
 「Uwahhhhhh!!」
-
 
 #■BG（黒）
 @bg_black
 
-
-雫さんを連れて誤解を解くまで（結局犯人だった）、みかんから微妙な距離を保たれてしまった。
-I had to keep well away from Mikan until I took Shizuku (the real offender) to clear this up.
-
+#雫さんを連れて誤解を解くまで（結局犯人だった）、みかんから微妙な距離を保たれてしまった。
+　I had to keep well away from Mikan until I took Shizuku (the real offender) to clear this up.
 
 #（スケジュールへ）
 return
-
-
-
-
 
 ##############################################################################
 # 05:頑張ってお勉強中（みかん編 ##############################################
@@ -812,25 +678,20 @@ label	ep_mikan_05
 @mikan_small
 @mikan_shifuku
 
-
 #■BG（廊下）
 @bg_rouka
 
-
-自室に戻る途中、図書室の前でふと足を止めた。
-Heading back to my room I stop suddenly in front of the library room.
-
+#自室に戻る途中、図書室の前でふと足を止めた。
+　Heading back to my room I stop suddenly in front of the library room.
 
 @bgm12			#演：仮ＢＧＭ
 
-
+#「そういえば、読みかけの本があったっけ……」
 ＠Itsuki
-「そういえば、読みかけの本があったっけ……」
 「Oh yeah, there was that book I wanted to read...」
 
-ちょうど時間も空いてるし、少し読んでいくことにしよう。
-I've got nothing to do, may as well read for a while.
-
+#ちょうど時間も空いてるし、少し読んでいくことにしよう。
+　I've got nothing to do, may as well read for a while.
 
 @bg_black
 wait		1000
@@ -840,234 +701,207 @@ wait		1000
 #SE06　部屋のドア開く音（ガチャ）
 @bg_library
 
-
+#「…？」
 ＠Mikan,A01559
-「…？」
 「...?」
 
-中に入ると、先にいた先客が顔を上げた。
-The previous occupant lifts her gaze as I come in.
-
+#中に入ると、先にいた先客が顔を上げた。
+　The previous occupant lifts her gaze as I come in.
 
 @mikan_warai		#笑
 
-
+#「あ、お兄ちゃん」
 ＠Mikan,A01560
-「あ、お兄ちゃん」
 「Ah, Onii-chan」
 
+#「あれ、図書室に居たのかみかん。一人か？」
 ＠Itsuki
-「あれ、図書室に居たのかみかん。一人か？」
 「Oh, it's you Mikan. Are you here by yourself?」
-
 
 @mikan_warai2		#笑2
 
-
+#「うん。宿題やってるの」
 ＠Mikan,A01561
-「うん。宿題やってるの」
 「Yeah. Homework」
 
+#「いつもは部屋でしてるんだけど、昨日新しい漫画を買ってきちゃったから」
 ＠Mikan,A01562
-「いつもは部屋でしてるんだけど、昨日新しい漫画を買ってきちゃったから」
 「I usually do it in my room, but I bought a new manga yesterday」
 
+#「ん、うん……？」
 ＠Itsuki
-「ん、うん……？」
 「Oh Ok...」
 
-会話の流れで頷きかけたが、今の何が原因なのかよく分からない。
-I nod in the flow of the conversation, but don't really understand what she means.
-
+#会話の流れで頷きかけたが、今の何が原因なのかよく分からない。
+　I nod in the flow of the conversation, but don't really understand what she means.
 
 @mikan_kusyou		#苦笑
 
-
+#「部屋に居たら、つい漫画の続きが気になって読んじゃいそうなの」
 ＠Mikan,A01563
-「部屋に居たら、つい漫画の続きが気になって読んじゃいそうなの」
 「When I'm in my room I can't help but feel like reading it」
 
+#「ああ、なるほど。ははっ、確かにあるな」
 ＠Itsuki
-「ああ、なるほど。ははっ、確かにあるな」
 「Oh, I see. Haha, that happens」
-
 
 @mikan			#普通
 
-
+#「ねぇお兄ちゃん、いま勉強見てもらってもいい？」
 ＠Mikan,A01564
-「ねぇお兄ちゃん、いま勉強見てもらってもいい？」
 「So Onii-chan, can you look at my work for me?」
 
+#「いいけど、どこか分からないところでもあったか？」
 ＠Itsuki
-「いいけど、どこか分からないところでもあったか？」
 「Sure, is there something you didn't understand?」
 
+#「ううん、答え合わせ」
 ＠Mikan,A01565
-「ううん、答え合わせ」
 「No, just checking my answers」
 
+#「こっちの計算ドリルの３ページなんだけど。解答集はみんな先生に提出しちゃってるんだ」
 ＠Mikan,A01566
-「こっちの計算ドリルの３ページなんだけど。解答集はみんな先生に提出しちゃってるんだ」
 「It's these 3 pages of math drills. We have to hand in our answers to the teacher」
 
+#「どれどれ」
 ＠Itsuki
-「どれどれ」
 「Let's see...」
 
-みかんの指すドリルのページを開いてみる。
-I open to the page of drills Mikan is pointing to.
+#みかんの指すドリルのページを開いてみる。
+　I open to the page of drills Mikan is pointing to.
 
-そこには丸っこい綺麗な字で、式と答えが書き込まれていた。
-She has the formulas and answers filled in, in tidy round handwriting.
+#そこには丸っこい綺麗な字で、式と答えが書き込まれていた。
+　She has the formulas and answers filled in, in tidy round handwriting.
 
+#「結構たくさんあるんだけど」
 ＠Mikan,A01567
-「結構たくさんあるんだけど」
 「There's a lot though」
 
+#「ふむ。これは全部、今日解いた宿題か？」
 ＠Itsuki
-「ふむ。これは全部、今日解いた宿題か？」
 「Mhm. Did you solve all these today?」
 
+#「うん。習ったばかりの復習問題だよ」
 ＠Mikan,A01568
-「うん。習ったばかりの復習問題だよ」
 「Yeah. It's all review of stuff we learned before」
 
+#「そっか。頑張ったんだな、みかん」
 ＠Itsuki
-「そっか。頑張ったんだな、みかん」
 「I see. You've been working hard, Mikan」
 
-まずはそれを褒めて、みかんのことを軽く撫でてあげる。
-I praise her first and gently pat her head.
-
+#まずはそれを褒めて、みかんのことを軽く撫でてあげる。
+　I praise her first and gently pat her head.
 
 @mikan_warai2		#笑2
 
-
+#「えへへ。でもまだ、正解してるか分からないよ」
 ＠Mikan,A01569
-「えへへ。でもまだ、正解してるか分からないよ」
 「Ehehe. I don't know if it's right yet though」
 
+#「よし。さっそく採点しようか」
 ＠Itsuki
-「よし。さっそく採点しようか」
 「Alright, I'd better get to marking it」
 
-みかんの隣に座って、ルーズリーフへ計算を写し解きなおす。
-Taking a seat beside Mikan, I copy the problems to a loose-leaf and solve them over again.
+#みかんの隣に座って、ルーズリーフへ計算を写し解きなおす。
+　Taking a seat beside Mikan, I copy the problems to a loose-leaf and solve them over again.
 
 @mikan_
 
+#一問目、
+　First question,
 
-一問目、
-First question,
+#……二問目、
+　... Second question,
 
-……二問目、
-... Second question,
-
-…………三問目、
-...... Third question,
-
+#…………三問目、
+　...... Third question,
 
 @mikan_middle		# 中間
 @mikan_odoroki		#驚
 
-
+#「わ。すごいお兄ちゃん、解くの早い～♪」
 ＠Mikan,A01570
-「わ。すごいお兄ちゃん、解くの早い～♪」
 「Wow Onii-chan, you're so quick～♪」
 
+#「はは、まぁ採点者が悩んでたらダメだからな」
 ＠Itsuki
-「はは、まぁ採点者が悩んでたらダメだからな」
 「Haha, well the marker shouldn't have issues with it」
 
-正解続きで問題は半分を越え、そのまま三分の二も過ぎる。
-I get past halfway with all checkmarks, and still 2 thirds.
+#正解続きで問題は半分を越え、そのまま三分の二も過ぎる。
+　I get past halfway with all checkmarks, and still 2 thirds.
 
-が、そこで、
-But, right here,
+#が、そこで、
+　But, right here,
 
+#「……ん？　ここはちょっとおかしいな」
 ＠Itsuki
-「……ん？　ここはちょっとおかしいな」
 「... Hm? This doesn't make sense」
-
 
 @mikan			#普通
 
-
+#「え。どこどこ…？」
 ＠Mikan,A01571
-「え。どこどこ…？」
 「Huh. Where where...?」
 
+#「ここ、オレの解答とみかんの解答が違うだろ」
 ＠Itsuki
-「ここ、オレの解答とみかんの解答が違うだろ」
 「Here, our answers are different」
 
-ドリルを見つめるみかんの身体が、自然とオレの方へ寄り添ってくる。
-Mikan staring fixedly at the drills, she suddenly drifts closer.
+#ドリルを見つめるみかんの身体が、自然とオレの方へ寄り添ってくる。
+　Mikan staring fixedly at the drills, she suddenly drifts closer.
 
+#「ほんとだ……えっと、こうかな……」
 ＠Mikan,A01572
-「ほんとだ……えっと、こうかな……」
 「You're right... Um, maybe if I do this...」
 
-そのまま、うんうんと悩みながら問題を解きなおす。
-Like that Mikan talking to herself sets about solving it again.
+#そのまま、うんうんと悩みながら問題を解きなおす。
+　Like that Mikan talking to herself sets about solving it again.
 
-それは別に何でもないことだが、一生懸命な姿は妙に可愛かった。
-That's as expected, but the way she puts all her effort into is super cute.
+#それは別に何でもないことだが、一生懸命な姿は妙に可愛かった。
+　That's as expected, but the way she puts all her effort into is super cute.
 
+#「みかん、上手くとけたら膝の上で抱っこしてやるぞ」
 ＠Itsuki
-「みかん、上手くとけたら膝の上で抱っこしてやるぞ」
 「Mikan, if you solve it correctly you can sit on my lap」
-
 
 @mikan_kanashimi	#哀
 
-
+#「あ。やっぱりおんなじ答えになっちゃうよ……」
 ＠Mikan,A01573
-「あ。やっぱりおんなじ答えになっちゃうよ……」
 「Ah. I got the same answer...」
 
-コンマ２秒で返事が返ってきた。
-She replied in less than half a second.
+#コンマ２秒で返事が返ってきた。
+　She replied in less than half a second.
 
-って言うか、問題に集中してみかんは聞こえてなかったみたいだ。
-She must have been focusing on the problem and didn't hear what I said.
-
+#って言うか、問題に集中してみかんは聞こえてなかったみたいだ。
+　She must have been focusing on the problem and didn't hear what I said.
 
 @mikan_odoroki		#驚
 
-
+#「あれ。お兄ちゃん今みかんに何か言った？」
 ＠Mikan,A01574
-「あれ。お兄ちゃん今みかんに何か言った？」
 「Wait, did you say something?」
 
+#「いや、何でもない。気にするな」
 ＠Itsuki
-「いや、何でもない。気にするな」
 「No, it's nothing. Don't worry about it」
 
+#「間違いの原因は公式の使い方だな。慣れてないと良くあるミスだ」
 ＠Itsuki
-「間違いの原因は公式の使い方だな。慣れてないと良くあるミスだ」
 「It has to do with how you're using the formula. It's a pretty common mistake if you're not used to it」
-
 
 @mikan			#普通
 
+#みかんの前で問題を解きながら、説明を加える。
+　I solve it in front of Mikan, explaining as I go.
 
-みかんの前で問題を解きながら、説明を加える。
-I solve it in front of Mikan, explaining as I go.
-
-そうやってみかんの宿題が終わるまで、一緒に勉強を見てあげて過ごした。
-And so I helped her with her homework until we were done.
+#そうやってみかんの宿題が終わるまで、一緒に勉強を見てあげて過ごした。
+　And so I helped her with her homework until we were done.
 
 @bg_black
 
-
 #（スケジュールへ）
 return
-
-
-
-
 
 ##############################################################################
 # 06:一人ぼっちのおやつ時間（みかん編 ########################################
@@ -1082,29 +916,25 @@ label	ep_mikan_06
 #■BG（廊下）
 @bg_rouka
 
-
+#「おや……？」
 ＠Itsuki
-「おや……？」
 「Hm...?」
 
-食堂に続く廊下でみかんの後ろ姿を見つけた。
-I saw Mikan heading to the dining room.
+#食堂に続く廊下でみかんの後ろ姿を見つけた。
+　I saw Mikan heading to the dining room.
 
-そのまま気付かずに食堂へ入っていく。
-She entered without noticing me.
+#そのまま気付かずに食堂へ入っていく。
+　She entered without noticing me.
 
+#「さては、夕食前につまみ食いだな」
 ＠Itsuki
-「さては、夕食前につまみ食いだな」
 「I bet she wants to sneak some food before dinner」
-
 
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 
-
-……そう言えばオレも小腹が空いた。
-... Actually I'm pretty hungry too.
-
+#……そう言えばオレも小腹が空いた。
+　... Actually I'm pretty hungry too.
 
 @bg_black
 wait		1000
@@ -1114,135 +944,114 @@ wait		1000
 @bg_dining
 @bgm12			#演：仮ＢＧＭ
 
+#中に入ると、ちょうどみかんが背を向けるように座り、モグモグと何かを食べていた。
+　Sure enough when I go in Mikan is turned away munching on something.
 
-中に入ると、ちょうどみかんが背を向けるように座り、モグモグと何かを食べていた。
-Sure enough when I go in Mikan is turned away munching on something.
-
+#「みかん、つまみ食いはほどほどにしろよ？」
 ＠Itsuki
-「みかん、つまみ食いはほどほどにしろよ？」
 「Mikan, go easy on it before dinner」
-
 
 @mikan_small
 @mikan_shifuku
 @mikan_komikaru_kanashimi	#コミカル哀
 
-
+#「わぁッ！？　ご、ごめんなさい～っ」
 ＠Mikan,A01575
-「わぁッ！？　ご、ごめんなさい～っ」
 「Ahh!? S-Sorry～」
-
 
 @mikan_odoroki		#驚
 
-
+#「……って、お兄ちゃんか～。ビックリした」
 ＠Mikan,A01576
-「……って、お兄ちゃんか～。ビックリした」
 「... Oh, it's you Onii-chan. You startled me」
 
+#「ははっ、みかんは無防備だなぁ。ちゃんと周りに注意を払わないと」
 ＠Itsuki
-「ははっ、みかんは無防備だなぁ。ちゃんと周りに注意を払わないと」
 「Haha, you're so defenseless, you have to be more aware of your surroundings」
-
 
 @mikan_kanashimi	#哀
 
-
+#「うぅ～……だからって、急に見つかったら驚いちゃうよぉ、も～」
 ＠Mikan,A01577
-「うぅ～……だからって、急に見つかったら驚いちゃうよぉ、も～」
 「Uu... No, of course people will be surprised if you sneak up on them, geez～」
-
 
 @mikan_
 
+#安堵するみかんの隣へ並び、その摘んでいる物を確認する。
+　I look more closely at the thing she was so coveting, lined up next to her.
 
-安堵するみかんの隣へ並び、その摘んでいる物を確認する。
-I look more closely at the thing she was so coveting, lined up next to her.
-
+#「……あれ。プリンだ」
 ＠Itsuki
-「……あれ。プリンだ」
 「... Oh, it's pudding」
 
+#「豆腐プリン……？」
 ＠Itsuki
-「豆腐プリン……？」
 「Tofu pudding...?」
-
 
 @mikan_middle		# 中間
 @mikan			#普通
 
-
+#「え？　普通のプリンだよ、たぶん」
 ＠Mikan,A01578
-「え？　普通のプリンだよ、たぶん」
 「Huh? I think it's just regular pudding」
 
+#「だよな……」
 ＠Itsuki
-「だよな……」
 「Yeah...」
 
-まぁ豆腐プリンがオカズなのかどうかは微妙だが。
-That's an odd side dish to have prepared for dinner.
+#まぁ豆腐プリンがオカズなのかどうかは微妙だが。
+　That's an odd side dish to have prepared for dinner.
 
+#「みかん今日、三時におやつ食べてなかったから。これがそうなの」
 ＠Mikan,A01579
-「みかん今日、三時におやつ食べてなかったから。これがそうなの」
 「I didn't have my snack at 3 today, this is it」
 
+#「何だ、そうか。てっきり夕食のつまみ食いかと思った」
 ＠Itsuki
-「何だ、そうか。てっきり夕食のつまみ食いかと思った」
 「Oh, I see. I thought you were stealing some food Miu had made」
-
 
 @mikan_odoroki		#驚
 
-
+#「えーっ、つまみ食いなんて酷いよ。みかんを疑ってたの？」
 ＠Mikan,A01580
-「えーっ、つまみ食いなんて酷いよ。みかんを疑ってたの？」
 「Huh, that's really mean. Is that why you followed me?」
 
+#「はは、悪い。オレも小腹が空いてたからな」
 ＠Itsuki
-「はは、悪い。オレも小腹が空いてたからな」
 「Haha, sorry. Actually I was pretty hungry myself」
 
-けどそれなら別に見つかっても、驚いて謝ることは無いだろうに。
-If that's the case, she didn't need to be surprised and apologize when I found her.
-
+#けどそれなら別に見つかっても、驚いて謝ることは無いだろうに。
+　If that's the case, she didn't need to be surprised and apologize when I found her.
 
 @mikan_warai2		#笑2
 
-
+#「えへへ……。実はつまみ食いに来て、おやつのことを思い出したの」
 ＠Mikan,A01581
-「えへへ……。実はつまみ食いに来て、おやつのことを思い出したの」
 「Ehehe... Actually I came to sneak some food, but I remembered my snack」
 
-
+#「やっぱり常習犯だったか」
 ＠Itsuki
-「やっぱり常習犯だったか」
 「So you are doing it after all」
-
 
 @mikan			#普通
 
-
+#「うぅん、別にいつもってわけじゃないんだけど……」
 ＠Mikan,A01582
-「うぅん、別にいつもってわけじゃないんだけど……」
 「Well, I don't do it all the time...」
-
 
 @mikan_warai		#笑
 
-
+#「えっと～、夕食でみかんのおかずが少ない時は、つまみ食いが見つかって引かれちゃってる時かな」
 ＠Mikan,A01583
-「えっと～、夕食でみかんのおかずが少ない時は、つまみ食いが見つかって引かれちゃってる時かな」
 「Um～, I can't help but want to grab some when there's not a lot of side dish for my rice」
 
+#「あぁ、三日に一度くらい、微妙にみかんのおかずが少ない日があるな」
 ＠Itsuki
-「あぁ、三日に一度くらい、微妙にみかんのおかずが少ない日があるな」
 「Oh, that happens once every few days doesn't it」
 
+#「ほとんど毎日じゃん」
 ＠Itsuki
-「ほとんど毎日じゃん」
 「That's pretty often though」
-
 
 @mikan_kusyou		#苦笑
 #///////////////////////////////////////////////////////
@@ -1259,38 +1068,32 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
+#「あはは……だって、美雨さんのご飯美味しくて待ちきれないんだもん～」
 ＠Mikan,A01584
-「あはは……だって、美雨さんのご飯美味しくて待ちきれないんだもん～」
 「Ahaha... but Miu's food is so tasty I can't wait～」
 
-しかもそれは〝見つかってる時〟だから、実行数はもっと多いはずだ。
-And that's just how often she finds some, so she's probably spending even more time looking for it. 
+#しかもそれは〝見つかってる時〟だから、実行数はもっと多いはずだ。
+　And that's just how often she finds some, so she's probably spending even more time looking for it. 
 
+#「やれやれ。みかんの身体のどこにそれだけ入るんだか」
 ＠Itsuki
-「やれやれ。みかんの身体のどこにそれだけ入るんだか」
 「Oh man. Where does that all go in your tiny body」
-
 
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 
-
-夕食の話に釣られて、ついまたお腹がなってしまう。
-My stomach rumbles again with all the talk of food.
-
+#夕食の話に釣られて、ついまたお腹がなってしまう。
+　My stomach rumbles again with all the talk of food.
 
 @mikan			#普通
 
-
+#「お兄ちゃん、お腹空いてるの？」
 ＠Mikan,A01585
-「お兄ちゃん、お腹空いてるの？」
 「Are you hungry Onii-chan?」
 
+#「ああ。まぁな」
 ＠Itsuki
-「ああ。まぁな」
 「Yeah, a little」
-
 
 window_close
 @mikan_
@@ -1298,89 +1101,74 @@ wait		1000
 @mikan_large
 @mikan_warai2		#笑2
 
-
+#「じゃあ、はい♪」
 ＠Mikan,A01586
-「じゃあ、はい♪」
 「Then, here you go♪」
 
-みかんはスプーンですくったプリンを、こちらに差し出してくれた。
-Mikan scoops out some pudding with a spoon, and shoves it toward me.
+#みかんはスプーンですくったプリンを、こちらに差し出してくれた。
+　Mikan scoops out some pudding with a spoon, and shoves it toward me.
 
+#「ありがとう。でもこれはみかんのおやつじゃないか」
 ＠Itsuki
-「ありがとう。でもこれはみかんのおやつじゃないか」
 「Thanks, but this is your snack isn't it」
-
 
 @mikan_yorokobi		#喜
 
-
+#「いいよ、一緒に食べよ。一人でおやつなのも寂しかったもん」
 ＠Mikan,A01587
-「いいよ、一緒に食べよ。一人でおやつなのも寂しかったもん」
 「It's fine, let's both have some. It's lonely snacking on my own」
 
+#「そっか。じゃあ少しだけ貰うな」
 ＠Itsuki
-「そっか。じゃあ少しだけ貰うな」
 「Ok, just a little then」
 
-パクッとスプーンを口に含む。
-I take the spoon in my mouth.
+#パクッとスプーンを口に含む。
+　I take the spoon in my mouth.
 
-スプーンが引き抜かれて残ったプリンからは、どこか懐かしい味と感触がした。
-She removes the spoon and from the pudding that remained, I get a much longed for taste.
+#スプーンが引き抜かれて残ったプリンからは、どこか懐かしい味と感触がした。
+　She removes the spoon and from the pudding that remained, I get a much longed for taste.
 
 @mikan_warai		#笑
 
-
+#「美味しい？」
 ＠Mikan,A01588
-「美味しい？」
 「Is it good?」
 
+#「うん、美味い」
 ＠Itsuki
-「うん、美味い」
 「Yeah, it's good」
-
 
 @mikan_warai2		#笑2
 
-
+#「それじゃあもう一口、はい♪」
 ＠Mikan,A01589
-「それじゃあもう一口、はい♪」
 「Then here's another one♪」
 
-さっきより大きめのプリンも、パクリと一口で口に運んだ。
-I accept another dollop of pudding in my mouth, bigger than the last one.
+#さっきより大きめのプリンも、パクリと一口で口に運んだ。
+　I accept another dollop of pudding in my mouth, bigger than the last one.
 
+#「貸してごらん。今度はオレがみかんにしてあげるから」
 ＠Itsuki
-「貸してごらん。今度はオレがみかんにしてあげるから」
 「Pass it here. I'll feed you some too」
-
 
 @mikan_odoroki		#驚
 
-
+#「ほんとっ？　じゃあ下のソースのところ、たくさんすくってね♪」
 ＠Mikan,A01590
-「ほんとっ？　じゃあ下のソースのところ、たくさんすくってね♪」
 「Really? Make sure to scoop out a lot of sauce from the bottom♪」
 
-仲良くそんな風に、夕食までの時間をみかんと過ごした。
-Getting along well with her like so, we passed the time until dinner.
-
+#仲良くそんな風に、夕食までの時間をみかんと過ごした。
+　Getting along well with her like so, we passed the time until dinner.
 
 bgm_stop
 #■BG（黒）
 @bg_black
 
-
-……後にそれを聞いたかりんから、みかんと過ごしたことに激しい嫉妬を買ったのだが。
-... It caused Karin some consternation when she heard about it afterward.
-
+#……後にそれを聞いたかりんから、みかんと過ごしたことに激しい嫉妬を買ったのだが。
+　... It caused Karin some consternation when she heard about it afterward.
 
 #（スケジュールへ）
 return
-
-
-
-
 
 ##############################################################################
 # 07:まさかの美雨夜這い現場！？（みかん編 ####################################
@@ -1393,19 +1181,15 @@ label	ep_mikan_07
 @mikan_small
 @mikan_pajama
 
-
 #■BG（廊下・消灯）
 @bg_rouka_nn
-
 
 ヒタ…ヒタ……
 
 ＠樹
 「………」
 
-
 @bgmk04			#BGM K04 : 寝る前のテーマ
-
 
 子供達の寝静まった午前二時。
 
@@ -1418,29 +1202,23 @@ label	ep_mikan_07
 
 だから目指すは美雨の部屋だ。
 
-
 #一拍
 @bg_black
 wait	1000
 #■BG（廊下・消灯）
 @bg_rouka_nn
 
-
 やがて何事も無く、美雨の部屋の前に到着する。
 
 ＠樹
 「……起きてるかな、美雨。寝てたらどうしようか」
 
-
 @bg_black
-
 
 ノブを回すと、ガチャリと開く音。
 
-
 #■BG（美雨の部屋・消灯）
 @bg_miu_nn
-
 
 中は既に電気が落ち、真っ暗になっていた。
 
@@ -1450,15 +1228,11 @@ wait	1000
 ＠樹
 （眠ってる、か……）
 
-
 #screen_vibration	500,16,16,16
-
 
 ゴロゴロゴロ……（腹痛の悲鳴）
 
-
 screen_vibration	500,16,16,16
-
 
 ＠樹
 「ぐ、がッ……」
@@ -1475,28 +1249,21 @@ screen_vibration	500,16,16,16
 
 お腹を押さえて前かがみになりながら、ジリジリと美雨のベッドへ。
 
-
 window_close
 #bgm_stop
 wait		1000
 
-
 ＠みかん,A01591
 「お、お兄ちゃん……何してるの？」
 
-
 screen_vibration	500,16,16,16
-
 
 ＠樹
 「――ッ！？」
 
-
 @bg_black
 
-
 突然背後から声がして振り返る！！
-
 
 #■BG（廊下・消灯）
 #CH（みかん・パジャマ姿）
@@ -1504,7 +1271,6 @@ screen_vibration	500,16,16,16
 @mikan_pajama
 @mikan_kanashimi	#哀
 @bg_rouka_nn
-
 
 ＠みかん,A01592
 「…………」
@@ -1520,9 +1286,7 @@ screen_vibration	500,16,16,16
 ＠樹
 「そ、そうか……。悪いけどオレはついていってやれない、気をつけていけよ」
 
-
 @mikan_naki		#泣
-
 
 ＠みかん,A01594
 「う、うん、それはいいけど……」
@@ -1535,20 +1299,16 @@ screen_vibration	500,16,16,16
 ＠みかん,A01595
 「そ、それじゃあね……お兄ちゃん」
 
-
 @mikan_
-
 
 ＠樹
 「あぁ、うん……」
 
 そそくさと退散するみかん。
 
-
 @bg_black
 wait		1000
 @bg_miu_nn
-
 
 再びオレは荒い呼吸で前かがみのまま、寝ている美雨へと近づいていく。
 
@@ -1571,38 +1331,27 @@ wait		1000
 
 これじゃ間違いなく、夜這いの現行犯じゃないかッ！？
 
-
 #screen_vibration	500,16,16,16
-
 
 ゴロゴロゴロ！（腹痛の悲鳴）
 
-
 screen_vibration	500,16,16,16
-
 
 ＠樹
 「は、ぐッ……みかん…」
 
 追いかけようにも追いかけられない……
 
-
 bgm_stop
 #■BG（黒）
 @bg_black
-
 
 結局オレは泣く泣く美雨を起こし、薬を貰って泣きながら就寝。
 
 翌朝の、悲しいみかんの瞳に、オドオドしながら何度も説明する羽目になるのだった。
 
-
 #（スケジュールへ）
 return
-
-
-
-
 
 ###############################################################################
 # 08:夏の夜の露出狂（みかん編 #################################################
@@ -1615,14 +1364,11 @@ label	ep_mikan_08
 @zakuro_pajama
 @mikan_pajama
 
-
 #■BG（浴室）
 @bg_bathroom_n
 
-
 #SE22　水を浴びる音（バシャアァァン！）
 @SE22			#SE22　水を浴びる音（バシャアァァン！）
-
 
 ＠樹
 「ふぃ～。良いお湯だった」
@@ -1641,10 +1387,8 @@ label	ep_mikan_08
 
 入るときに脱いだ服はすでに、洗濯機の中で水洗いされていた。
 
-
 #■BG（黒）
 @bg_black
-
 
 ………。
 
@@ -1652,19 +1396,15 @@ label	ep_mikan_08
 
 …………………。
 
-
 #■BG（廊下）
 @bg_rouka_n
 
-
 ペタペタペタ……と、裸足の歩みが小さく音を立てていく。
-
 
 @bgm12			#演：仮ＢＧＭ
 
-
-＠樹
-「やれやれ……今が夏でよかった」
+#＠樹
+#「やれやれ……今が夏でよかった」
 
 他に手段もなく、オレは腰にバスタオル姿で部屋へ戻っていた。
 
@@ -1675,12 +1415,10 @@ label	ep_mikan_08
 
 そんな事を思いながら、最初の角を曲がった。
 
-
 #CH（ざくろ・パジャマ）
 @zakuro_small
 @zakuro_pajama
 @zakuro			#普
-
 
 ＠ざくろ,Q01103
 「……？」
@@ -1712,9 +1450,7 @@ label	ep_mikan_08
 ＠樹
 「いや、じゃあとか言う意味が分かんないんだが……」
 
-
 @zakuro_metoji		#閉
-
 
 ＠ざくろ,Q01107
 「その格好で勃起したら恥ずかしいから、気をつけてね」
@@ -1722,9 +1458,7 @@ label	ep_mikan_08
 考えないようにしてたのに……。
 スケスケパジャマのざくろが不親切に言ってくれる。
 
-
 @zakuro			#普
-
 
 ＠ざくろ,Q01108
 「行こつっちー」
@@ -1732,9 +1466,7 @@ label	ep_mikan_08
 ＠樹
 「う、ああ……」
 
-
 @zakuro_
-
 
 トトトッと隣に並んで、どうやら本当についてくる気のようだ……
 
@@ -1755,21 +1487,17 @@ label	ep_mikan_08
 
 だがついてない時はとことん不運とは続くもので、
 
-
 #CH（みかん・パジャマ）
 @mikan_small		# 遠い
 @mikan_pajama
 @mikan
-
 
 ＠みかん,A01596
 「お兄ちゃ――――あれ？」
 
 廊下の先から声を掛けてきたみかんが、顔に困惑を浮かべた。
 
-
 @mikan_kusyou		#苦笑
-
 
 ＠みかん,A01597
 「えっと、お兄ちゃんどうして裸なの……？」
@@ -1780,9 +1508,7 @@ label	ep_mikan_08
 ＠樹
 「こら、意味深に言うな……。風呂上りの着替えを忘れただけなんだから」
 
-
 @mikan_kanashimi	#哀
-
 
 ＠みかん,A01598
 「寒くないの？　みかんが着替え持ってきてあげようか？」
@@ -1790,16 +1516,12 @@ label	ep_mikan_08
 ＠樹
 「すぐそこだから大丈夫だよ。じゃあな」
 
-
 @mikan			#普通
-
 
 ＠みかん,A01599
 「うんっ」
 
-
 @mikan_warai		#笑
-
 
 ＠みかん,A01600
 「みかん達リビングで映画見てるから。ざくろちゃんも良かったら来てね」
@@ -1810,24 +1532,20 @@ label	ep_mikan_08
 ＠樹
 「別にオレは引きとめてもないんだが……」
 
-
 window_close
 @mikan_
 wait		1000
 #SE18　廊下を歩き去る音　※徐々に小さく
 @SE18			#廊下を歩き去る音
 
-
 オレ達と別れたみかんは廊下を折れて、リビングへと向かっていった。
 
 ＠樹
 「行って良いんだぞ、ざくろ」
 
-
 @zakuro_middle		# 中間
 @zakuro_pajama
 @zakuro			#普
-
 
 ＠ざくろ,Q01113
 「後でいい。こっちの方がモザイクも無いし」
@@ -1836,7 +1554,6 @@ wait		1000
 「……はぁ」
 
 まぁ着いてくるだけなら、断る事もないが。
-
 
 #一拍
 @bg_black
@@ -1850,15 +1567,12 @@ wait		2000
 #■BG（自室）
 @bg_itsuki_n
 
-
 ＠樹
 「ほら、もう着いたぞ」
-
 
 @zakuro_middle		# 中間
 @zakuro_pajama
 @zakuro_akire		#呆
-
 
 ＠ざくろ,Q01114
 「……ショック。何も無かった」
@@ -1866,9 +1580,7 @@ wait		2000
 ＠樹
 「いいじゃんか。やっぱり何か変な期待してたんだな……」
 
-
 @zakuro			#普
-
 
 ＠ざくろ,Q01115
 「うん」
@@ -1876,9 +1588,7 @@ wait		2000
 ＠ざくろ,Q01116
 「みかんじゃ無かったら面白かったかも」
 
-
 @zakuro_metoji		#閉
-
 
 ＠ざくろ,Q01117
 「それじゃあ、私もリビングで映画見てくる」
@@ -1886,13 +1596,11 @@ wait		2000
 ＠樹
 「……え？　ああ」
 
-
 window_close
 @zakuro_
 wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
-
 
 もう興味が無くなったのか、あっさりとみんなの元へ引き上げるざくろ。
 
@@ -1908,16 +1616,10 @@ wait		1000
 
 オレも服を着て、何事もなくリビングへ合流しに行った。
 
-
 @bg_black
-
 
 #（スケジュールへ）
 return
-
-
-
-
 
 ##############################################################################
 # 09:子供たちの手料理騒動（みかん編 ##########################################
@@ -1932,10 +1634,8 @@ label	ep_mikan_09
 #■BG（自室）
 @bg_itsuki
 
-
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
-
 
 ＠樹
 「……腹減ったな」
@@ -1949,7 +1649,6 @@ label	ep_mikan_09
 
 もう少し待とうか迷ったが、結局空腹に負けてオレは席を立つ。
 
-
 @bg_black
 #■BG（廊下）
 @bg_rouka
@@ -1959,13 +1658,10 @@ wait	2000
 #■BG（食堂）
 @bg_dining
 
-
 ＠樹
 「美雨……？」
 
-
 @bgm12			#演：仮ＢＧＭ
-
 
 食堂に入って名前を呼ぶが、美雨の姿は無い。
 
@@ -1977,25 +1673,19 @@ wait	2000
 ＠樹
 「みかんか？　何をしてるんだ？」
 
-
 #■BG（キッチン）
 @bg_kitchen
 
-
 キッチンへ顔を出すと、そこは食欲をそそる匂いが香っていた。
-
 
 @mikan_small
 @mikan_shifuku
 @mikan_warai2		#笑2
 
-
 ＠みかん,A01602
 「～～♪　あとは、オーブンに入れて焼くだけっと」
 
-
 @mikan_warai		#笑
-
 
 ＠みかん,A01603
 「待っててね、お兄ちゃん。もうすぐ出来るから」
@@ -2003,16 +1693,12 @@ wait	2000
 ＠樹
 「出来るって……？　あれ、美雨は？」
 
-
 @mikan			#普通
-
 
 ＠みかん,A01604
 「美雨さんね、町内の何か用事でさっき出かけちゃったの」
 
-
 @mikan_yorokobi		#喜
-
 
 ＠みかん,A01605
 「だから代わりに、今日はみかんが作ってあげるね」
@@ -2022,9 +1708,7 @@ wait	2000
 
 まさか……と思いながら、テーブルのホットプレートの蓋を開ける。
 
-
 @mikan_warai		#笑
-
 
 ＠みかん,A01606
 「どう？　お兄ちゃんホットケーキ好き？」
@@ -2035,16 +1719,12 @@ wait	2000
 ＠樹
 「そのオーブンの中のちっちゃいのは？」
 
-
 @mikan_warai2		#笑2
-
 
 ＠みかん,A01607
 「クッキー♪　美雨さんに教えてもらったの」
 
-
 @mikan_warai		#笑
-
 
 ＠みかん,A01608
 「お兄ちゃんお腹すいてると思ったから、いっぱい作ってあるよ」
@@ -2052,9 +1732,7 @@ wait	2000
 ＠樹
 「これも良い匂いだ。すごいな、みかん」
 
-
 @mikan_warai2		#笑2
-
 
 ＠みかん,A01609
 「あははっ。頑張ったんだよっ♪」
@@ -2068,9 +1746,7 @@ wait	2000
 ＠樹
 「デザートはすごく美味しそうなんだが。肝心のお昼ご飯はどこにあるんだろう？」
 
-
 @mikan_odoroki		#驚
-
 
 ＠みかん,A01610
 「え…？　ご飯？」
@@ -2078,9 +1754,7 @@ wait	2000
 ＠樹
 「ああ、これとは別に美雨が用意してくれてるんだろう？　ご飯」
 
-
 @mikan			#普通
-
 
 ＠みかん,A01611
 「ううん、急いでたから無いよ。ここにあるのだけ」
@@ -2091,9 +1765,7 @@ wait	2000
 ＠樹
 「……ああ、あれか。ヘッドホンしてたからかな」
 
-
 @mikan_kanashimi	#哀
-
 
 ＠みかん,A01613
 「お兄ちゃん、やっぱりお菓子嫌いだった……？」
@@ -2111,9 +1783,7 @@ wait	2000
 
 ただお菓子だけって言うのが微妙なだけで。
 
-
 @mikan_warai		#笑
-
 
 ＠みかん,A01615
 「よかった～♪　あとヨーグルトもあるから、フルーツ乗せて食べようね」
@@ -2123,11 +1793,9 @@ wait	2000
 
 お菓子だけと知りながらも、その匂いに食欲だけは掻き立てられていった。
 
-
 bgm_stop
 #■BG（黒）
 @bg_black
-
 
 ………。
 
@@ -2135,18 +1803,14 @@ bgm_stop
 
 …………………。
 
-
 #■BG（食堂）
 @bg_dining
 
-
 やがて、テーブルの上に見事なお菓子オンパレードが並んだ。
-
 
 @bgm12			#演：仮ＢＧＭ
 @mikan_large		# 近い
 @mikan_warai2		#笑2
-
 
 ＠みかん,A01616
 「いただきまーす！」
@@ -2158,9 +1822,7 @@ bgm_stop
 
 モグモグ……
 
-
 @mikan			#普通
-
 
 ＠みかん,A01617
 「どうかな？」
@@ -2168,9 +1830,7 @@ bgm_stop
 ＠樹
 「ん、美味い。香りで想像していたよりずっと美味しいよ」
 
-
 @mikan_warai2		#笑2
-
 
 ＠みかん,A01618
 「あははっ。良かったー♪」
@@ -2179,9 +1839,7 @@ bgm_stop
 
 少し甘めだが、まぁ全然問題ない範囲だ。
 
-
 @mikan_warai		#笑
-
 
 ＠みかん,A01619
 「おかわりたくさんあるから遠慮なく食べてね」
@@ -2192,25 +1850,17 @@ bgm_stop
 ＠樹
 「今度また、このお礼はしてあげないとな」
 
-
 @mikan_warai2		#笑2
-
 
 ＠みかん,A01620
 「うんっ、楽しみにしてるね」
 
 少し変わった昼食になったが、みかんと一緒に談笑しながら過ごした。
 
-
 @bg_black
-
 
 #（スケジュールへ）
 return
-
-
-
-
 
 ##############################################################################
 # 10:エッチの現場を見られてしまった！？（今更）（みかん編
@@ -2221,25 +1871,20 @@ return
 #------------------------------------------------------------
 label	ep_mikan_10
 
-
 #■BG（自室）
 @bg_itsuki
-
 
 平日の昼下がり。
 部屋の中に粘蜜な唾液の音が鳴り響いている。
 
 ……オレはまた懲りずに、こんな状況に落とされてしまっていた。
 
-
 @bgm10			#BGM 10 : エッチシーンのテーマ
-
 
 #■EV（EV_ZAK_010-01）
 layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
 screen_transition	1000
 voice_bg		"Q90001"
-
 
 ＠ざくろ,Q01200
 「んふぅ、くぷちゅッ……にりゅむ、ちゅくぅッ…ん、りゅぅむ……」
@@ -2259,11 +1904,9 @@ voice_bg		"Q90001"
 ＠ざくろ,Q01203
 「れりゅぅ、ちゅぱぁっ……あふ…いいの、今さらやめても…？」
 
-
 #■EV（EV_ZAK_010-02）
 event		"event\EV_ZAK_010-02A.png"
 voice_bg_stop
-
 
 ネトリと濃い唾液の糸を引きながら、咥えていた亀頭を放すざくろ。
 
@@ -2284,12 +1927,10 @@ voice_bg_stop
 ＠ざくろ,Q01207
 「エッチは常識じゃなくて、本能でするものよ……。正直なこのおちんちんみたいに」
 
-
 #■EV（EV_ZAK_010-01）
 layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
 screen_transition	1000
 voice_bg		"Q90001"
-
 
 ＠ざくろ,Q01208
 「くぷむッ、れりゅぅ……ずずッ、ずぢゅッ…ぢゅぶぶッ…」
@@ -2370,9 +2011,7 @@ voice_bg		"Q90001"
 
 オレの動きに合わせて、ざくろは限界近い怒張へさらにフェラチオを激しくしてきた。
 
-
 voice_bg		"Q90002"
-
 
 ＠ざくろ,Q01224
 「るぢゅぅッ、ぐぢゅぢゅッ…！　ふむぅッ…思いっきり出して、つっちー……ぴぢゅるッ、ぢゅむぅッ！　んりゅぢゅッ」
@@ -2401,16 +2040,13 @@ voice_bg		"Q90002"
 
 その瞬間、顔を離して怒張を口の外へと解放するざくろ。
 
-
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
-
 
 だがオレは深く考えず、顔射だと思って、そのまま衝動を駆け上がらせた！
 
 ＠みかん,A01621
 「お兄ちゃん、一緒に――――え？」
-
 
 #bgm_stop
 #EF　白フラッシュ
@@ -2420,20 +2056,17 @@ voice_bg_stop
 @bg_itsuki
 screen_flash		500
 
-
 ヂュビュゥッ！　ドクドクッ、ドクンッ……ドビュゥッ！
 
 溜まり滾った白濁は、フェラチオによって勢いよく吐き出させられた。
 
 当然それは、目の前にあるざくろの顔へと全て注がれて………
 
-
 #注＠普通の立ちキャラなのでシーンに合わないかも
 #CH（みかん・白濁差分）
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
-
 
 ＠みかん,A01622
 「…………」
@@ -2443,19 +2076,15 @@ screen_flash		500
 
 ……注がれて無かった。
 
-
 #EF　白フラッシュ
 screen_flash		500
-
 
 ドクンッ、ドクドクッ…！　ドビュッ、ヂュビュゥッ…！
 
 ＠みかん,A01623
 「……っ！？」
 
-
 screen_flash		500
-
 
 しかも追い討ちをかけるように、二度三度と溢れる精液がみかんへと放たれる。
 
@@ -2464,9 +2093,7 @@ screen_flash		500
 
 事態が分からず、一瞬固まっていたみかんだが、
 
-
 @mikan_odoroki		#驚
-
 
 ＠みかん,A01625
 「わぁあああっ！？　お、お兄ちゃんのが出てるーーッ！？」
@@ -2474,11 +2101,9 @@ screen_flash		500
 ＠樹
 「えええッ！？　み、みかんッ、何で、ざくろは……！？」
 
-
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
-
 
 ＠ざくろ,Q01230
 「こっち」
@@ -2489,17 +2114,14 @@ screen_flash		500
 ＠ざくろ,Q01231
 「避けちゃったの」
 
-
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
-
 
 ＠樹
 「えぇえーーッ！？　避けちゃったじゃないだろッ！」
 
 ＠ざくろ,Q01232
 「誰か入ってきそうだったから、おすそ分けしようと思って」
-
 
 #///////////////////////////////////////////////////////
 layer_movepass_add	l_mikan,0,	300,	0,32
@@ -2508,13 +2130,10 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A01626
 「お、おすそ分けッ…！？　お兄ちゃんの、え、えっと～～…」
 
-
 @mikan_komikaru_kanashimi	#コミカル哀
-
 
 ＠みかん,A01627
 「わぁんッ！　み、みかんどうすればいいのッ、お口に入れればいいの～～！？」
@@ -2525,20 +2144,16 @@ layer_movepass_play	l_mikan,0,play_once
 ＠ざくろ,Q01233
 「その前に半分ちょうだい」
 
-
 @mikan_odoroki		#驚
-
 
 ＠みかん,A01628
 「えっ、半分って………わぁあっ！？」
-
 
 @mikan_
 @zakuro_
 wait		500
 #SE36　勢いよく抱きつく音（バフッ！）
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
-
 
 ＠ざくろ,Q01234
 「るりゅ、ちゅぅッ…！　れろれろ、ちゅちゅぅ、んぅふッ…」
@@ -2556,9 +2171,7 @@ wait		500
 
 放っておくとエスカレートしそうなので、強引にざくろ引き剥がした。
 
-
 @zakuro			#普
-
 
 ＠ざくろ,Q01236
 「待って。まだ舐めたりないの……」
@@ -2569,9 +2182,7 @@ wait		500
 ＠樹
 「はぁ……みかん、えっと、色々と大丈夫か……？」
 
-
 @mikan_komikaru_kanashimi	#コミカル哀
-
 
 ＠みかん,A01630
 「うぇ～～んッ……ざくろちゃんの唾でもベトベトだよぉ…」
@@ -2579,13 +2190,10 @@ wait		500
 ＠樹
 「ほら、ティッシュ……」
 
-
 @zakuro_niko		#にこ
-
 
 ＠ざくろ,Q01237
 「唾と精液でベトベトなんて、すごくエッチに見えるわ」
-
 
 #///////////////////////////////////////////////////////
 #演：だだこね
@@ -2601,62 +2209,50 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A01631
 「嬉しくないよぉ～っ。みかん、お兄ちゃんと一緒にお菓子を食べに来ただけなのに～～」
 
 ……オレにも責任があるとはいえ。可哀想を通り越して哀れだった。
 
-
 bgm_stop
 #■BG（黒）
 @bg_black
-
 
 そのあと何とかオレは罪の意識の無かったざくろと謝り、みかんに許してもらえたのだった。
 
 ……最後までざくろは、何が悪いのか分かってなかったみたいだが。
 
-
 #（スケジュールへ）
 return
-
 
 label	ep_mikan_11
 #------------------------------------------------------------
 #あたまパラメータ依存
 #------------------------------------------------------------
 
-
 #■BG（自室）
 #SE19　廊下を走る音
 @bg_itsuki		# 自室
 @SE19			#SE19　廊下を走る音
 
-
 ＠樹
 「ん……？」
 
-
 se_stop		0
-
 
 部屋で本を読んでいると、廊下で騒がしく走る音がした。
 
 ＠樹
 「またいちごか……」
 
-
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
-
 
 ＠みかん,A01522
 「お兄ちゃん、みかんだよ！　居る！？」
 
 ＠樹
 「え、みかん……？　開いてるけど」
-
 
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @SE08			#SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
@@ -2675,21 +2271,16 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠みかん,A01523
 「見て、お兄ちゃん！　二枚とも百点だよ！」
 
-
 @bgm12			#演：仮ＢＧＭ
-
 
 オレの応答を聞いて中へ飛び込んでくるみかん。
 
 その手に、二枚の答案が握られていた。
 
-
 @mikan_warai2		#笑2
-
 
 ＠みかん,A01524
 「どうッ！？　すごいでしょ～♪」
@@ -2699,9 +2290,7 @@ layer_movepass_play	l_mikan,0,play_once
 ＠樹
 「おおッ、二枚同時か！　すごいじゃないかみかん」
 
-
 @mikan_warai		#笑
-
 
 ＠みかん,A01525
 「あははっ、うん！　だって勉強がんばったもん！」
@@ -2709,13 +2298,10 @@ layer_movepass_play	l_mikan,0,play_once
 ＠みかん,A01526
 「早くお兄ちゃんに見せたくて、急いで走ってきたんだよ！」
 
-
 @mikan_odoroki		#驚
-
 
 ＠みかん,A01527
 「そうだッ、次は美雨さんにも見せてくる！」
-
 
 window_close
 bgm_stop
@@ -2726,7 +2312,6 @@ wait		100
 #SE21　廊下を走り去る音　※徐々に小さく
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
-
 息をつく間もなくまくし立てると、すぐにＵターンして部屋を出て行くみかん。
 
 もともと成績の悪い子じゃなかったけど、二枚同時に満点ならオレだってはしゃぎ回るくらい嬉しいだろう。
@@ -2736,19 +2321,9 @@ wait		100
 
 みかんの嬉しそうな声を遠くに聞きながら、そんなことを考えるのだった。
 
-
 se_stop		0
 @bg_black
 
-
 #（スケジュール）
 return
-
-
-
-
-
-
-
-
 

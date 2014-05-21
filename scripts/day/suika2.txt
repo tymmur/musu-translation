@@ -130,7 +130,6 @@ event	"event\EV_SUI_040-00.png"
 #SCRIPT ADD KANJI
 Ｅven now, she was completely absorbed in the game, and did not notice me entering the room at all.
 
-
 #＠すいか,R00190
 #「んぅッ、攻めが強いよ……何とか相手に被さって、こっちのペースで動かないとッ」
 ＠Suika,R00190
@@ -174,7 +173,6 @@ event	"event\EV_SUI_040-01.png"
 #しかしすいかの叫びも無慈悲なコンピューターに届くはずも無く。
 #SCRIPT ADD KANJI
 Ｂut Suika's cry won't reach the ruthless computer.
-
 
 #＠すいか,R00193
 #「落ちちゃうッ、出さないでぇッ！　ふぁッ、ああぁああううぅぅッッッ！！！」
@@ -324,7 +322,6 @@ event	"event\EV_SUI_040-01.png"
 ＠Suika,R00203
 「And...... Umm, there are many mistakes which are embarrassing to talk about that I have made......」
 
-
 #＠樹
 #「ゲームが待ちきれずに、学校へカバンを忘れて来たりとか？」
 ＠Itsuki
@@ -440,7 +437,6 @@ event	"event\EV_SUI_041-02.png"
 ＠Itsuki
 「I'll say this, fighting games are generally my specialty.」
 
-
 #＠すいか,R00211
 #「それじゃ、私も本気で行きます。ちょっと設定を戻しますねー♪」
 ＠Suika,R00211
@@ -487,8 +483,8 @@ event	"event\EV_SUI_041-02.png"
 
 #SE62　中ラッシュ１　※ゲームブックで使用
 #@se62
-	se	0,	"sound\se\SE62_中ラッシュ１.wav",	play_wait
-	se	0,	"sound\se\SE62_中ラッシュ１.wav",	play_wait
+se	0,	"sound\se\SE62_中ラッシュ１.wav",	play_wait
+se	0,	"sound\se\SE62_中ラッシュ１.wav",	play_wait
 
 @bg_black
 
@@ -496,6 +492,4 @@ event	"event\EV_SUI_041-02.png"
 
 #（スケジュール）
 return
-
-
 

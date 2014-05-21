@@ -150,7 +150,6 @@ label	trpg2
 ＠かりん,P02786
 「……この前は屈辱的な敗北だったわ。また出ないかしら」
 
-
 @trpg_itsuki
 ＠樹
 「ヤル気満々なのはいいけど、今度は前衛職のみかんを庇ったりしないでくれよ」
@@ -294,7 +293,6 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 
 @monster_effect_1
 
-
 ＠モンスター,V08001
 「き、キ～～…！？」
 
@@ -403,7 +401,6 @@ trpg2_flag=0
 
 @trpg_mikan_warai
 
-
 ＠みかん,A02693
 「え、なぁに？　これをみかんにくれるの？」
 
@@ -439,7 +436,6 @@ trpg2_flag=0
 
 ＠樹
 「まぁまぁ。手当てしたのもみかんだし」
-
 
 そのモンスターはお辞儀のように頭のつぼみを下げると、テケテケと草むらへ走っていった。
 
@@ -515,8 +511,6 @@ if trpg_gameover_flag=1 then goto trpg_dead
 
 #敗北時（youzyo-TRPG(die)へ）
 
-
-
 #エンドタイミング
 
 #戦闘勝利
@@ -533,16 +527,13 @@ if trpg_gameover_flag=1 then goto trpg_dead
 #＠いちご,O02814
 #「えっへーん♪　だーい勝利～！！」
 
-
 ＠全員,Z90008
 「やったッ、勝ったーー！！」
-
 
 #------------------------------------------------------------
 
 #（以下、戦闘勝利）
 @bg_black
-
 
 #■BG（草原）
 @bg_trpg_sougen
@@ -610,7 +601,6 @@ if trpg_gameover_flag=1 then goto trpg_dead
 「あはは…もうすぐ町だからね、いちごちゃん」
 
 #（統合へ）
-
 
 #（統合）
 label	trpg2_03
@@ -832,7 +822,6 @@ label	trpg2_03
 
 ＠女性店員,V10001
 「こちらがメニューです。ドリンクはサービスしますね」
-
 
 @trpg_mikan_warai
 
@@ -1154,7 +1143,6 @@ goto	trpg2_skip
 
 ……いや、やっぱり気のせいかもしれない。
 
-
 #■BG（黒）
 @bg_black
 
@@ -1165,7 +1153,6 @@ goto	trpg2_skip
 …………………。
 
 label	trpg2_skip
-
 
 ＠すいか,R00988
 「はい。それでは今日はここまでですね」
@@ -1234,7 +1221,6 @@ label	trpg2_skip
 #それに、
 
 #@karin_tere
-
 
 #＠かりん,P02850
 #「な、何よ。ジロジロといやらしいわね」

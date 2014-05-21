@@ -5,11 +5,9 @@ label	suika_03
 #発生時期：５～６月頃？　あまり早くパソコンを買えると、後半にイベントがなくなってしまう。
 #--------------------------------------------------
 
-
 #■BG（１階廊下）
 @bgm12			#BGM 12 : メインテーマ
 @bg_rouka		# 廊下
-
 
 #図書室の前を通りかかると、珍しく人の気配がした。
 #SCRIPT ADD KANJI
@@ -29,13 +27,11 @@ wait		1000
 #■BG（図書室）
 @bg_library		# 図書室
 
-
 @SE07			#部屋のドア閉まる音（パタン）
 #wait		1000
 @suika_small
 @suika_shifuku
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00432
 #「あ、院長先生……」
@@ -47,9 +43,7 @@ wait		1000
 ＠Itsuki
 「So it is Suika. What are you reading today?」
 
-
 @suika			#普
-
 
 #＠すいか,R00433
 #「あ、えーと……」
@@ -64,18 +58,14 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｏn the cover of the book, written in large letters is "First Time C".
 
-
 # 一応、本当にあった本は『はじめてのＣ』のはずなので、違う。
-
 
 #＠樹
 #「うーん、仕事熱心だな……。でも、そんな初心者向けの本でいいのか？」
 ＠Itsuki
 「U-n, you like work don't you...... But, is that kind of beginner book okay?」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00434
 #「あ、いえ、これは仕事の本では……」
@@ -105,9 +95,7 @@ wait		1000
 ＠Itsuki
 「But, what is it, so suddenly?」
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00435
 #「え？　えへへ……」
@@ -138,9 +126,7 @@ wait		1000
 ＠Itsuki
 「U-n, Suika is amazing.」
 
-
 @suika_tere		#照
-
 
 #＠すいか,R00438
 #「そ、そんな大したことじゃないですよ。せっかくこういう本があるんだし、ちょっと読んでみただけです」
@@ -176,21 +162,17 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｂut if there are computers, I wonder if I can study a bit more?
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00439
 #「ありがとうございます、先生」
 ＠Suika,R00439
 「Thank you very much, sensei.」
 
-
 window_close
 @suika			#普
 wait		3000
 @suika_kanashimi	#哀
-
 
 #＠すいか,R00440
 #「……すみません、ちょっとお願いしてもいいですか？」
@@ -206,9 +188,7 @@ wait		3000
 ＠Itsuki
 「What is it? If it's something I can do, I'd be glad to help.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00441
 #「ホントですか？　それじゃ、この本、本棚に戻していただけないでしょうか？」
@@ -224,9 +204,7 @@ wait		3000
 #SCRIPT ADD KANJI
 　......It must be hard to move the book with crutches.
 
-
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00443
 #「それで、今ちょうど、誰かを呼びに行こうと思ってたところなんです」
@@ -242,9 +220,7 @@ wait		3000
 #SCRIPT ADD KANJI
 Ｉ immediately lifted the book from the desk and asked Suika.
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00444
 #「あ、そこの上から２段目の棚です」
@@ -256,9 +232,7 @@ wait		3000
 ＠Itsuki
 「There?」
 
-
 @suika_
-
 
 #見ると、その棚にはコンピューター関係や、ネットワークなどのよくわからない技術的な本が並んでいる。
 #SCRIPT ADD KANJI
@@ -285,11 +259,9 @@ wait		3000
 #SCRIPT ADD KANJI
 Ｉ put back the book Suika read where books that looked like they were related to programming were lined up.
 
-
 @suika_small
 @suika_shifuku
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00445
 #「あ、はい」
@@ -309,9 +281,7 @@ wait		3000
 ＠Itsuki
 「If there's a book you want to read, ask me okay? I'll get it for you.」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00446
 #「あ、はい。ありがとうございます、院長先生」
@@ -322,7 +292,6 @@ wait		3000
 #SCRIPT ADD KANJI
 Ｓuika happily lowered her head to me.
 
-
 #bgm_stop
 #■BG（黒）
 @bg_black
@@ -332,5 +301,4 @@ wait		1000
 
 #（スケジュールへ）
 return
-
 

@@ -29,7 +29,6 @@ gosub schedule_setsumei
 
 label	skip
 
-
 date_set	2007,1,14
 
 item_on		=	0			#デバッグ用
@@ -51,7 +50,6 @@ shizuku_off	=	0
 ############################################################
 
 if GLOBAL(110)=1 then hikari_on=1
-
 
 if GLOBAL(120)=1 then ITEM_GET 113
 
@@ -77,13 +75,10 @@ money_open
 
 @hensai_text
 
-
 if debug=1 then goto	debug_skip01			#デバッグ用
 
-
-日曜日だ。何をしようか？
-It's Sunday. What do you want to do?
-
+#日曜日だ。何をしようか？
+　It's Sunday. What do you want to do?
 
 label	mainloop2_0
 
@@ -91,7 +86,7 @@ window_close
 money_close
 minimoney_open
 
-	clearbutton
+clearbutton
 #	# setbutton ボタン番号,X,Y,エフェクト
 setbutton 5,150,82,0,"system\Schedule\select_save.png","system\Schedule\select_save.png"
 setbutton 6,457,82,0,"system\Schedule\select_load.png","system\Schedule\select_load.png"
@@ -101,10 +96,10 @@ setbutton 2,457,235,0,"system\Schedule\select_status.png","system\Schedule\selec
 if item_on=1 then setbutton 3,150,390,0,"system\Schedule\select_item.png","system\Schedule\select_item.png"
 if item_on=1 and item_go=0 then setbutton 4,457,390,0,"system\Schedule\select_shop.png","system\Schedule\select_shop.png"
 
-	getbutton sel
+getbutton sel
 
-	se	0,"sound\se\クインッ.wav",play_once
-	clearbutton
+se	0,"sound\se\クインッ.wav",play_once
+clearbutton
 
 if sel=1 then 	goto mainloop2_skip
 if sel=2 then 	goto mainloop2_status
@@ -138,7 +133,6 @@ if sel=3 then gosub	mainloop2_status_karin
 @bg_itsuki_n
 goto	mainloop2_0
 
-
 #ステータス　みかん###########################################################
 label	mainloop2_status_mikan
 #@bg_black
@@ -166,10 +160,6 @@ keywait
 #@bg_black
 goto	mainloop2_status
 
-
-
-
-
 label	mainloop2_itemuse
 # アイテムを使う #############################################################
 gosub	item_use
@@ -184,23 +174,17 @@ if _ITEM(500)=1 and suika_item_flag2=0 then gosub suika_05
 
 goto	mainloop2
 
-
 # スケジュール ##############################################################
 label	mainloop2_skip
 minimoney_close
 
-
-
-
 money_open
-
-
 
 if mikan_on=0 then goto schedule_mikan_skip
 
 #みかんのスケジュール設定######################################################
-来週のみかんのスケジュールを決めるか
-What will Mikan's schedule be next week?
+#来週のみかんのスケジュールを決めるか
+　What will Mikan's schedule be next week?
 
 window_close
 @mikan_set
@@ -211,7 +195,7 @@ voice	"A02524"
 schedule	mikan_study_level,mikan_work_level,mikan_reception_level,mikan_rest_level,mikan_special_level
 #みかんのスケジュールを待避する
 for j=0 to 4
-	_mikan_command(j)=_schedule_command(j)
+_mikan_command(j)=_schedule_command(j)
 next
 @mikan_plate_close
 @lifebar_fullclose
@@ -220,8 +204,8 @@ label	schedule_mikan_skip
 if ichigo_on=0 then goto schedule_ichigo_skip
 
 #いちごのスケジュール設定#####################################################
-来週のいちごのスケジュールを決めるか
-What will Ichigo's schedule be next week?
+#来週のいちごのスケジュールを決めるか
+　What will Ichigo's schedule be next week?
 
 window_close
 @ichigo_set
@@ -232,7 +216,7 @@ voice	"O03710"
 schedule	ichigo_study_level,ichigo_work_level,ichigo_reception_level,ichigo_rest_level,ichigo_special_level
 #みかんのスケジュールを待避する
 for j=0 to 4
-	_ichigo_command(j)=_schedule_command(j)
+_ichigo_command(j)=_schedule_command(j)
 next
 @ichigo_plate_close
 @lifebar_fullclose
@@ -242,8 +226,8 @@ label	schedule_ichigo_skip
 if karin_on=0 then goto schedule_karin_skip
 
 #かりんのスケジュール設定#####################################################
-来週のかりんのスケジュールを決めるか
-What will Karin's schedule be next week?
+#来週のかりんのスケジュールを決めるか
+　What will Karin's schedule be next week?
 
 window_close
 @karin_set
@@ -254,7 +238,7 @@ voice	"P03574"
 schedule	karin_study_level,karin_work_level,karin_reception_level,karin_rest_level,karin_special_level
 #かりんのスケジュールを待避する
 for j=0 to 4
-	_karin_command(j)=_schedule_command(j)
+_karin_command(j)=_schedule_command(j)
 next
 @lifebar_fullclose
 @karin_plate_close
@@ -263,17 +247,10 @@ label	schedule_karin_skip
 
 label	debug_skip01
 
-
-
-
-
-
 #@mikan_plate_close
-
 
 #いちごのスケジュール
 #かりんのスケジュール
-
 
 @bg_black
 wait	1000
@@ -287,97 +264,96 @@ day_count=0
 @initial_set
 
 for j=0 to 4
-	schedule_on=1
+schedule_on=1
 
-	date_add	1
+date_add	1
 
 #	gosub	dayevent2		#日付固定イベント呼び出し
 
-	chara_count=mikan_on+ichigo_on+karin_on
-	layer_move	0,3500*chara_count,0,-1500,0,0,passtype_tcb
-	#朝のイベント
+chara_count=mikan_on+ichigo_on+karin_on
+layer_move	0,3500*chara_count,0,-1500,0,0,passtype_tcb
+#朝のイベント
 
 if debug=1 then goto	debug_skip02			#デバッグ用
 
-	# みかんのスケジュール実行--------------------------------------------
-	if mikan_on=0 then goto mikan_schedule_skip
-	schedule_chara	=	1	#みかん
-	@mikan_plate_open
-	@mikan_set				#みかんのパラメータセット
-	@lifebar_fullopen
-	#wait	500
-	command = _mikan_command(j)
-	gosub work
-	# みかん体力チェック
-	gosub mikan_status_check
-	#みかんエピソード
-	if mikan_karada_levelup_flag>0 then gosub	mikan_karada_ep
-	if mikan_kokoro_levelup_flag>0 then gosub	mikan_kokoro_ep
-	if mikan_atama_levelup_flag>0 then gosub	mikan_atama_ep
-	if chara_count>1 then @mikan_plate_close
-	if chara_count>1 then @lifebar_fullclose
-	if chara_count>1 then wait	500
-	label	mikan_schedule_skip
+# みかんのスケジュール実行--------------------------------------------
+if mikan_on=0 then goto mikan_schedule_skip
+schedule_chara	=	1	#みかん
+@mikan_plate_open
+@mikan_set				#みかんのパラメータセット
+@lifebar_fullopen
+#wait	500
+command = _mikan_command(j)
+gosub work
+# みかん体力チェック
+gosub mikan_status_check
+#みかんエピソード
+if mikan_karada_levelup_flag>0 then gosub	mikan_karada_ep
+if mikan_kokoro_levelup_flag>0 then gosub	mikan_kokoro_ep
+if mikan_atama_levelup_flag>0 then gosub	mikan_atama_ep
+if chara_count>1 then @mikan_plate_close
+if chara_count>1 then @lifebar_fullclose
+if chara_count>1 then wait	500
+label	mikan_schedule_skip
 
-	# いちごのスケジュール実行--------------------------------------------
-	if ichigo_on=0 then goto ichigo_schedule_skip
-	schedule_chara	=	2	#いちご
-	@ichigo_plate_open
-	@ichigo_set				#いちごのパラメータセット
-	@lifebar_fullopen
+# いちごのスケジュール実行--------------------------------------------
+if ichigo_on=0 then goto ichigo_schedule_skip
+schedule_chara	=	2	#いちご
+@ichigo_plate_open
+@ichigo_set				#いちごのパラメータセット
+@lifebar_fullopen
 #	wait	500
-	command = _ichigo_command(j)
-	gosub work
-	# いちご体力チェック
-	gosub ichigo_status_check
-	# いちごエピソード
-	if ichigo_karada_levelup_flag>0 then gosub	ichigo_karada_ep
-	if ichigo_kokoro_levelup_flag>0 then gosub	ichigo_kokoro_ep
-	if ichigo_atama_levelup_flag>0 then gosub	ichigo_atama_ep
-	@ichigo_plate_close
-	@lifebar_fullclose
-	wait	500
-	rand rnd,0,5
-	if _ITEM(401)=1 and command=33 and rnd=0 then gosub settai_ichigo_buruma
-	label	ichigo_schedule_skip
+command = _ichigo_command(j)
+gosub work
+# いちご体力チェック
+gosub ichigo_status_check
+# いちごエピソード
+if ichigo_karada_levelup_flag>0 then gosub	ichigo_karada_ep
+if ichigo_kokoro_levelup_flag>0 then gosub	ichigo_kokoro_ep
+if ichigo_atama_levelup_flag>0 then gosub	ichigo_atama_ep
+@ichigo_plate_close
+@lifebar_fullclose
+wait	500
+rand rnd,0,5
+if _ITEM(401)=1 and command=33 and rnd=0 then gosub settai_ichigo_buruma
+label	ichigo_schedule_skip
 
-	# かりんのスケジュール実行--------------------------------------------
-	if karin_on=0 then goto karin_schedule_skip
-	schedule_chara	=	3	#かりん
-	@karin_plate_open
-	@karin_set				#かりんのパラメータセット
-	@lifebar_fullopen
+# かりんのスケジュール実行--------------------------------------------
+if karin_on=0 then goto karin_schedule_skip
+schedule_chara	=	3	#かりん
+@karin_plate_open
+@karin_set				#かりんのパラメータセット
+@lifebar_fullopen
 #	wait	500
-	command = _karin_command(j)
-	gosub work
-	# かりん体力チェック
-	gosub karin_status_check
-	# かりんエピソード
-	if karin_karada_levelup_flag>0 then gosub	karin_karada_ep
-	if karin_kokoro_levelup_flag>0 then gosub	karin_kokoro_ep
-	if karin_atama_levelup_flag>0 then gosub	karin_atama_ep
-	@karin_plate_close
-	@lifebar_fullclose
-	wait	500
-	rand rnd,0,5
-	if _ITEM(400)=1 and command=33 and rnd=0 then gosub settai_karin_bunny
-	label	karin_schedule_skip
+command = _karin_command(j)
+gosub work
+# かりん体力チェック
+gosub karin_status_check
+# かりんエピソード
+if karin_karada_levelup_flag>0 then gosub	karin_karada_ep
+if karin_kokoro_levelup_flag>0 then gosub	karin_kokoro_ep
+if karin_atama_levelup_flag>0 then gosub	karin_atama_ep
+@karin_plate_close
+@lifebar_fullclose
+wait	500
+rand rnd,0,5
+if _ITEM(400)=1 and command=33 and rnd=0 then gosub settai_karin_bunny
+label	karin_schedule_skip
 
 label	debug_skip02			#デバッグ用
 
-	if j<4 then gosub dayevent
+if j<4 then gosub dayevent
 
-	gosub	hensai			#返済チェック
+gosub	hensai			#返済チェック
 
-	schedule_on=0
-	day_count=day_count+1		#週明けからの日数
+schedule_on=0
+day_count=day_count+1		#週明けからの日数
 next
 money_close
 @mikan_plate_close
 @lifebar_fullclose
 
-	gosub	dayevent		#日付固定イベント呼び出し
-
+gosub	dayevent		#日付固定イベント呼び出し
 
 date_close
 wait	1000
@@ -385,38 +361,38 @@ date_add	1
 #土曜日
 @calendar
 
-	gosub	dayevent		#日付固定イベント呼び出し
+gosub	dayevent		#日付固定イベント呼び出し
 
 #	if dayevent_flag=0 then 	#日付固定イベントが何もなかった場合
 
-	if _MONTH=4 and _DAY=14  then goto main_satday_skip	#気絶の為調教しなし
-	if _MONTH=12 and _DAY>=1 and route_chara=3 then goto main_satday_skip #かりんおそわれの為調教無し
+if _MONTH=4 and _DAY=14  then goto main_satday_skip	#気絶の為調教しなし
+if _MONTH=12 and _DAY>=1 and route_chara=3 then goto main_satday_skip #かりんおそわれの為調教無し
 
-	if _MONTH=12 and _DAY=29 and route_chara=4 then goto main_satday_skip #ひかりおそわれの為調教無し
+if _MONTH=12 and _DAY=29 and route_chara=4 then goto main_satday_skip #ひかりおそわれの為調教無し
 
-	if _MONTH=11 and _DAY=24 and route_chara=1 then goto main_satday_skip #みかんと寝ている為調教無し
+if _MONTH=11 and _DAY=24 and route_chara=1 then goto main_satday_skip #みかんと寝ている為調教無し
 
-	#調教
-	gosub	training_in		#調教開始前会話
-	if training_chara=1 then gosub	training_mikan		#みかん調教
-	if training_chara=2 then gosub	training_ichigo		#いちご調教
-	if training_chara=3 then gosub	training_karin		#かりん調教
+#調教
+gosub	training_in		#調教開始前会話
+if training_chara=1 then gosub	training_mikan		#みかん調教
+if training_chara=2 then gosub	training_ichigo		#いちご調教
+if training_chara=3 then gosub	training_karin		#かりん調教
 
-	gosub	hensai			#返済チェック
+gosub	hensai			#返済チェック
 
-	label	main_satday_skip
+label	main_satday_skip
 
-	date_close
-	@bg_black
-	date_add	1
+date_close
+@bg_black
+date_add	1
 label	main_sunday
 #日曜日 ---------------------------------------------------------------------
-	@calendar
+@calendar
 
-	gosub	dayevent		#日付固定イベント呼び出し
+gosub	dayevent		#日付固定イベント呼び出し
 #	if dayevent_flag=0 then 	#日付固定イベントが何もなかった場合
 
-	gosub	hensai			#返済チェック
+gosub	hensai			#返済チェック
 
 turn = turn + 1			#ターンを追加
 

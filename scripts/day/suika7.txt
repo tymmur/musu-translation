@@ -5,11 +5,9 @@ label	suika_07
 #発生時期：シューティングゲームプレイ後、約１ヶ月後？
 #--------------------------------------------------
 
-
 #■BG（樹の部屋）
 @bgmk04			#BGM K04 : 寝る前のテーマ
 @bg_itsuki_n		# 自室(夜)
-
 
 #さて……今日はもうすることもないし、そろそろ寝るかな？
 #SCRIPT ADD KANJI
@@ -24,7 +22,6 @@ label	suika_07
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-
 #……などと考えていると、ノックがあった。
 #SCRIPT ADD KANJI
 ……While I’m thinking, I hear a knock.
@@ -37,21 +34,17 @@ label	suika_07
 ＠Itsuki
 「Oh, what is it……?」
 
-
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
-
 
 #返事をしつつ入り口に向かい、ドアを開けてやる。
 #SCRIPT ADD KANJI
 Ｉ reply to her from the other side of the door and open it.
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_kanashimi	#哀
 @bg_rouka_n		# 廊下(夜)
-
 
 #「すみません、こんな時間に……」
 ＠Suika,R00533
@@ -65,9 +58,7 @@ label	suika_07
 ＠Itsuki
 「No, it’s alright.  Anyway, is something the matter?」
 
-
 @suika			#普
-
 
 #「あ、そ、その……。少しお願いしたいことがありまして……」
 ＠Suika,R00535
@@ -77,9 +68,7 @@ label	suika_07
 ＠Itsuki
 「Sure.  I will if I can.」
 
-
 @suika_tere		#照
-
 
 #「あ、はい。入ってもいいでしょうか？」
 ＠Suika,R00536
@@ -105,9 +94,7 @@ label	suika_07
 ＠Suika,R00537
 「Excuse me.」
 
-
 @suika_
-
 
 #すいかが部屋に入ったのを確認し、オレは入り口のドアを閉める。
 #SCRIPT ADD KANJI
@@ -117,16 +104,13 @@ label	suika_07
 @SE07			#部屋のドア閉まる音（パタン）
 @bg_itsuki_n		# 自室(夜)
 
-
 #「えーと、それで……？」
 ＠Itsuki
 「Uuuum, so……?」
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika			#普
-
 
 #「あ、いえ、大したことじゃないんですけど……」
 ＠Suika、,R00538
@@ -148,9 +132,7 @@ label	suika_07
 #SCRIPT ADD KANJI
 Ｂut, can I really skillfully teach her?
 
-
 @suika_kanashimi	#哀
-
 
 #「えーと……。まあ、参考書といえば参考書なんですけど」
 ＠Suika,R00540
@@ -164,9 +146,7 @@ label	suika_07
 ＠Itsuki
 「What kind of reference book is it?」
 
-
 @suika_komariwarai	#困笑
-
 
 #「あはは……その、学校の勉強のための参考書じゃなくてですね……」
 ＠Suika,R00541
@@ -175,9 +155,7 @@ label	suika_07
 ＠Itsuki
 「……？」
 
-
 @suika_kanashimi	#哀
-
 
 #「その、お仕事の参考書と言いますか……」
 ＠Suika,R00542
@@ -187,9 +165,7 @@ label	suika_07
 ＠Itsuki
 「A reference book for your job?  What you’re trying to say is, it is a book of techniques……?」
 
-
 @suika_tere		#照
-
 
 #「あはは、そ、そんなところです……」
 ＠Suika,R00543
@@ -209,22 +185,17 @@ label	suika_07
 
 @suika			#普
 
-
 #「あ、別に質問に答えてもらおうというわけじゃないんです」
 ＠Suika,R00544
 「Ah, I didn’t mean that I needed an answer to any particular question.」
 
-
 @suika_kanashimi	#哀
-
 
 #「どうも、実際に手や身体を動かしてみないと感覚がつかめなくて……」
 ＠Suika,R00545
 「Thank you, when I don’t try to move my arms and body, I don’t have any sensation……」
 
-
 @suika_tere		#照
-
 
 #「なので、院長先生はただ、おちんちんを勃たせていただければ」
 ＠Suika,R00546
@@ -262,9 +233,7 @@ label	suika_07
 ＠Suika,R00547
 「Well then, take off your clothes, ok?」
 
-
 @suika_
-
 
 #どうやら、オレが練習台になることは確定事項らしい。
 #SCRIPT ADD KANJI
@@ -276,7 +245,6 @@ label	suika_07
 
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
-
 
 #まあ、拒む理由もないか……。
 #SCRIPT ADD KANJI
@@ -350,20 +318,16 @@ bgm_stop
 @bg_black
 wait		1000
 
-
 #--------------------------------------------------
 scene_start	"すいかの自習"
 #--------------------------------------------------
-
 
 #「それじゃ、失礼しますね……」
 ＠Suika,R00553
 「Well, excuse me……」
 
-
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
-
 
 #すいかは腰掛けたベッドから滑り降りるようにして、片脚を投げ出して床に座った。
 #SCRIPT ADD KANJI
@@ -385,12 +349,10 @@ window_close
 ＠Suika,R00556
 「Aaaaaan……はむっ」 (aaaaaan is opening her mouth, like opening your mouth and saying “aaaaaaaah”)
 
-
 #--------------------------------------------------
 @bgm10			#BGM 10 : エッチシーンのテーマ
 event		"event\EV_SUI_020-00.png"
 #--------------------------------------------------
-
 
 #勃起もしていないオレのものを、すいかは構わず一気に口に含む。
 #SCRIPT ADD KANJI
@@ -406,9 +368,7 @@ event		"event\EV_SUI_020-00.png"
 ＠Suika,R00557
 「ぴちゅ……ちゅる……ちゅむっ……」
 
-
 voice_bg	"R90001"
-
 
 #飴でも舐めるように、すいかは口の中でオレのものを転がす。
 #SCRIPT ADD KANJI
@@ -706,11 +666,9 @@ voice_bg	"R90001"
 #SCRIPT ADD KANJI
 Ｓuddenly, Suika’s hand reaches behind.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_020-01.png"
 #--------------------------------------------------
-
 
 ＠Itsuki
 「んくッ……」
@@ -777,11 +735,9 @@ event		"event\EV_SUI_020-01.png"
 #SCRIPT ADD KANJI
 Ｄamn……this, good feeling…….
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_020-02.png"
 #--------------------------------------------------
-
 
 ＠Suika,R00592
 「ぢゅちゅぅぶッ……じゅぬるッ……んぢゅるぶぅッ！」
@@ -823,12 +779,10 @@ event		"event\EV_SUI_020-02.png"
 ＠Itsuki
 「Cu, cumming……!  Suika……!!」
 
-
 #--------------------------------------------------
 screen_flash		500
 event		"event\EV_SUI_020-03.png"
 #--------------------------------------------------
-
 
 #ビュクッ、ビュルッ……！　ドビュルッ……！！
 #SCRIPT ADD KANJI
@@ -849,11 +803,9 @@ event		"event\EV_SUI_020-03.png"
 #SCRIPT ADD KANJI
 Ｂecause it was very sudden, I am strangely worried.  My hips move on their own. (unsure of first part)
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_020-04.png"
 #--------------------------------------------------
-
 
 ＠Suika,R00595
 「んぶぅッ、じゅぶぼッ……ゴホッ、ゴホッ……！」
@@ -870,20 +822,16 @@ event		"event\EV_SUI_020-04.png"
 ＠Suika,R00596
 「んッ……んくッ……Haa……aaaaah……」
 
-
 voice_bg_stop
 @bg_black		# 黒
-
 
 #口の中に出されたものを飲み干し、すいかは陶酔したようにつぶやいた。
 #SCRIPT ADD KANJI
 Ｗhat still fits inside of her mouth after I came, she drinks down.  She mutters like she was intoxicated. (a little unsure)
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_020-05.png"
 #--------------------------------------------------
-
 
 #「はぁ……はぁ……んッ……はぁっ……！」
 ＠Itsuki
@@ -961,11 +909,9 @@ event		"event\EV_SUI_020-05.png"
 #SCRIPT ADD KANJI
 Ａnd so, I thank Suika.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_020-06.png"
 #--------------------------------------------------
-
 
 #「お詫びに……もう一回しますね……」
 ＠Suika,R00604
@@ -1013,11 +959,9 @@ event		"event\EV_SUI_020-06.png"
 ＠Itsuki
 「んくッ……」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_021-00.png"
 #--------------------------------------------------
-
 
 #わけのわからないことを言いながら、すいかはオレのものを口に含んでしまう。
 #SCRIPT ADD KANJI
@@ -1026,9 +970,7 @@ event		"event\EV_SUI_021-00.png"
 ＠Suika,R00608
 「ちゅぶッ……じゅぷぅッ……ちゅじゅるッ……！」
 
-
 voice_bg	"R90001"
-
 
 #ムリヤリ勃起させたオレのものを、すいかは舌と唇でしごき上げる。
 #SCRIPT ADD KANJI
@@ -1080,11 +1022,9 @@ voice_bg	"R90001"
 ＠Suika,R00612
 「にぢゅッ……ぢゅぢゅぶッ……ぢゅぐぶッ……！」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_021-01.png"
 #--------------------------------------------------
-
 
 #舌と唇の動きとともに、オレの中ですいかの指も動き続けている。
 #SCRIPT ADD KANJI
@@ -1174,12 +1114,10 @@ event		"event\EV_SUI_021-01.png"
 ＠Itsuki
 「んくッ, I’m cumming!  Haaa……!」
 
-
 #--------------------------------------------------
 screen_flash		500
 event		"event\EV_SUI_021-00.png"
 #--------------------------------------------------
-
 
 ビュクンッ……！！
 
@@ -1202,12 +1140,10 @@ event		"event\EV_SUI_021-00.png"
 #SCRIPT ADD KANJI
 Ｓemen shoots out repeatedly, my hips still moving on their own.
 
-
 #--------------------------------------------------
 voice_bg_stop
 event		"event\EV_SUI_021-02.png"
 #--------------------------------------------------
-
 
 ＠Suika,R00620
 「んぅッ……んぶぅッ……！」
@@ -1224,11 +1160,9 @@ event		"event\EV_SUI_021-02.png"
 #SCRIPT ADD KANJI
 Ｔhe cloudy liquid covers her face in many places.  She swallows what remains in her mouth, ecstasy rising in her voice.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_021-03.png"
 #--------------------------------------------------
-
 
 #「はぁッ、くぅッ！　んッ！　はぁっ、はぁっ……！」
 ＠Itsuki
@@ -1242,11 +1176,9 @@ event		"event\EV_SUI_021-03.png"
 #SCRIPT ADD KANJI
 Ｔogether with the ending of my ejaculation, the strength in my entire body leaves me.
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_021-04.png"
 #--------------------------------------------------
-
 
 #「はぁ……はぁ……すいか……。たのむ……もう……抜いてくれ……」
 ＠Itsuki
@@ -1256,11 +1188,9 @@ event		"event\EV_SUI_021-04.png"
 ＠Suika,R00622
 「Ah, yes……!  Sorry……」
 
-
 #--------------------------------------------------
 event		"event\EV_SUI_021-05.png"
 #--------------------------------------------------
-
 
 #懇願すると、すいかはようやくオレの中から指を抜いてくれた。
 #SCRIPT ADD KANJI
@@ -1298,11 +1228,9 @@ event		"event\EV_SUI_021-05.png"
 #SCRIPT ADD KANJI
 Ｓemen smeared on her face, Suika smiles cheerfully.
 
-
 #--------------------------------------------------
 scene_end
 #--------------------------------------------------
-
 
 #「クリアした～ぁ、って気がします」
 ＠Suika,R00625
@@ -1395,19 +1323,15 @@ scene_end
 ＠Itsuki
 「Look, let’s wipe your face off for now……」
 
-
 bgm_stop
 @bg_black
-
 
 #オレはベッドの脇からティッシュを取って、そっとすいかの顔を拭いてやる。
 #SCRIPT ADD KANJI
 Ｉ take a tissue from beside the bed and gently wipe Suika’s face.
 
-
 @bg_itsuki_n		# 自室(夜)
 @bgmk02			#BGM K02 : しんみりのテーマ
-
 
 #「あ、院長先生……」
 ＠Suika,R00629
@@ -1421,7 +1345,6 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｓuika thanks me happily.  I suppose that those values that have been ingrained in her over the many years wouldn’t change instantly.
 
-
 #--------------------------------------------------
 #■（選択肢）
 #（１．どうにかしてやりたい）
@@ -1431,12 +1354,10 @@ if sel=0 then goto suika7_q01_a
 if sel=1 then goto suika7_q01_b
 #--------------------------------------------------
 
-
 #--------------------------------------------------
 #（どうにかしてやりたい）
 #--------------------------------------------------
 label		suika7_q01_a
-
 
 #やっぱり、今の状況が良いとは思えないし、どうにかしてやりたいな……。
 #SCRIPT ADD KANJI
@@ -1454,27 +1375,19 @@ label		suika7_q01_a
 #SCRIPT ADD KANJI
 Ｒight now, I was only thinking of that thing. (a little unsure)
 
-
 bgm_stop
 @bg_black
 wait		1000
 
-
 @suika_evup
-
 
 #（スケジュールへ）
 return
-
-
-
-
 
 #--------------------------------------------------
 #（まあ仕方ないか）
 #--------------------------------------------------
 label		suika7_q01_b
-
 
 #まあ、仕方ないか……。
 #SCRIPT ADD KANJI
@@ -1488,16 +1401,10 @@ label		suika7_q01_b
 #SCRIPT ADD KANJI
 Ｉ convince myself to think like that.
 
-
 bgm_stop
 @bg_black
 wait		1000
 
-
 #（スケジュールへ）
 return
-
-
-
-
 

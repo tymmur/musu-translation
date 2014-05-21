@@ -15,7 +15,6 @@ seishin=seishin-30*t_ichigo_insert_cnt
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
-
 return
 
 macro	t_ichigo_sotochinpo
@@ -30,7 +29,6 @@ layer_reference_set	l_insert,l_body_back	# 頭のレイヤーに連結
 layer_move		l_insert,500,300,0,0,0,passtype_tcb
 endm
 
-
 macro	t_ichigo_ugoku
 layer_movepass_init	l_insert,0
 layer_movepass_add 	l_insert,0,	100,-16,0
@@ -40,14 +38,11 @@ layer_movepass_add 	l_insert,0,	100,0,0
 layer_movepass_play	l_insert,0,	PLAY_LOOP
 endm
 
-
-
 macro	t_ichigo_sotoshasei1
 layer_load_overlap	l_insert,"event\EV_ICH_140\EV_ICH_140_soto_chinko.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 layer_load_overlap	l_seieki,"event\EV_ICH_140\EV_ICH_140_insert01_soto01.png"
 endm
-
 
 macro	t_ichigo_sotoshasei2
 layer_fadeout		l_seieki
@@ -81,7 +76,6 @@ passspeed=100
 #layer_release	l_insert
 endm
 
-
 macro	t_ichigo_nakashasei2
 @effect_iku
 #layer_release		l_insert
@@ -95,7 +89,6 @@ macro	t_ichigo_nakashasei2_anal
 layer_load_overlap	l_seieki,"event\EV_ICH_140\EV_ICH_140_anal01_naka03.png"
 layer_reference_set	l_seieki,l_body_back	# 頭のレイヤーに連結
 endm
-
 
 label	training_ichigo_insert_01
 #挿入ーマンコ（初回）
@@ -519,7 +512,6 @@ passspeed=200
 
 また今度、ともう１度囁いてから、俺は子宮を叩くように体の最奥へと怒張を突きつける。
 
-
 ＠いちご,O04521
 「あぅうんんんっ！　んはぁっ！　はっ、はひぁああああっ！　んくっ、んっ！　んぅーっ！」
 
@@ -626,7 +618,6 @@ voice_bg	"O03965"
 
 それを少しでも拭ってやろうと、精液がかかっていない範囲で頭にキスの雨を降らせた。
 
-
 layer_fadeout	l_insert
 return
 label	training_ichigo_insert_02
@@ -679,8 +670,8 @@ label	training_ichigo_insert_02
 
 #ピッタリとフィットしたボンテージ越しに撫でると、いちごの口から艶やかな声が漏れる。
 
-#＠いちご,O04538
-「んっ、ふぁあ…なんだか、不思議な気分。ゴワゴワするのに、気持ちいいよ」
+#「んっ、ふぁあ…なんだか、不思議な気分。ゴワゴワするのに、気持ちいいよ」
+＠いちご,O04538
 ####################ここまでボンデージ装着時テキスト
 
 voice_bg	"O03966"

@@ -141,7 +141,6 @@ wait	500
 ＠Itsuki
 「First of all, good morning.」
 
-
 #layer_load	l_ichigo,"chara\いちご大\いちご_私服_大_喜.png"
 #layer_position_set	l_ichigo,80,0
 #layer_load	l_ichigo,"chara\いちご大\いちご_私服_大_喜.png"
@@ -287,8 +286,6 @@ se_stop		0
 @bg_living
 @mikan_small
 @ichigo_small
-
-
 
 #＠樹
 #「はぁぁ、はぁ……まったく、何で朝からボディーブローを受けた上に全力疾走しないといけないんだ……」
@@ -443,7 +440,7 @@ se_stop		0
 ＠Shizuku,S00061
 「Wai-」
 
-	screen_vibration	500,16,16,16
+screen_vibration	500,16,16,16
 
 #――ガシッ
 #SCRIPT ADD KANJI
@@ -876,7 +873,6 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｓuddenly I felt like it would have been better if I had reconsidered that……but it's too late. Shizuku-san began talking in her element.
 
-
 @shizuku
 #★
 #＠雫,S00075
@@ -1069,7 +1065,6 @@ wait	1000
 
 #CH（美雨立ち絵笑顔）
 @miu_niko
-
 
 #モグモグと口に運ぶオレを見て、嬉しそうに美雨が新しいクッキーを置いてくれた。
 #SCRIPT ADD KANJI
@@ -1286,7 +1281,6 @@ label youzyo3_02_03 ##########################################################
 ＠Itsuki
 （Like I can say that！　That's basically masturbation！！）
 
-
 #＠美雨,B00074
 #「……？　どうかしました？　急に頭を振ったりして」
 ＠Miu,B00074
@@ -1351,8 +1345,5 @@ date_close
 wait		1000
 screen_blackin	100
 
-
 #■（youzyoG S-1へ）
-
-
 

@@ -6,11 +6,9 @@ label	suika_05
 #発生時期：パソコンを買った直後。shop_outに続いて発生
 #--------------------------------------------------
 
-
 #■BG（樹の部屋）
 @bgm12			#BGM 12 : メインテーマ
 @bg_itsuki_n		# 自室(夜)
-
 
 #さて、パソコンを買ったのはいいけど、どうしたもんか……。
 #SCRIPT ADD KANJI
@@ -40,13 +38,11 @@ label	suika_05
 #SCRIPT ADD KANJI
 Ｉ bought it just a while ago, but it's probably better if it wasn't used......
 
-
 #■BG（黒）
 @bg_black
 wait		1000
 #■BG（１階廊下）
 @bg_rouka_n		# 廊下(夜)
-
 
 #みんなの風呂が終わったぐらいの時間まで待って、オレはすいかの部屋に行ってみた。
 #SCRIPT ADD KANJI
@@ -58,7 +54,6 @@ wait		1000
 @bg_door_n		# ドア前(夜)
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-
 #＠樹
 #「すいか、今、いいか？」
 ＠Itsuki
@@ -69,17 +64,14 @@ wait		1000
 ＠Suika,R00457
 「......Ah, yes.」
 
-
 #すいかの返事を確認し、オレはすいかの部屋のドアを開ける。
 #SCRIPT ADD KANJI
 Ｉ opened the door to Suika's room after confirming her reply.
-
 
 @bg_black
 #wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 @bg_suika_n		# すいかの部屋(夜)
-
 
 #＠樹
 #「今日は、ゲームじゃなかったんだな」
@@ -90,12 +82,10 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ didn't knock again because I thought it was useless, so it was kind of unexpected.
 
-
 @suika_small
 #@suika_shifuku
 @suika_heyagi
 @suika_komariwarai	#困笑
-
 
 #＠すいか,R00458
 #「あはは……。今日はちょっと、宿題が多くて」
@@ -112,7 +102,6 @@ wait		1000
 
 @suika			#普
 
-
 #＠すいか,R00459
 #「……あれ、院長先生、それは？」
 ＠Suika,R00459
@@ -123,9 +112,7 @@ wait		1000
 ＠Itsuki
 「Just as it looks like, it's a laptop.」
 
-
 @suika_odoroki		#驚
-
 
 #＠すいか,R00460
 #「ええっ？　院長先生、パソコンなんて持ってたんですか？」
@@ -142,9 +129,7 @@ wait		1000
 ＠Itsuki
 「I just immediately bought it, but I don't use it at all.」
 
-
 @suika			#普
-
 
 #＠樹
 #「けど、この前すいかがプログラムの勉強してただろ？　それでちょっと、思い出してな……」
@@ -156,10 +141,8 @@ wait		1000
 ＠Itsuki
 「I don't use it, so if you'd like, do you want to use it?」
 
-
 #@suika_odoroki		#驚
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00461
 #「ええっ……？　ホントに、いいんですか……？」
@@ -194,7 +177,6 @@ wait		1000
 
 @suika_warai		#笑
 
-
 #＠すいか,R00462
 #「はい、そのときはすぐにお返しします」
 ＠Suika,R00462
@@ -205,28 +187,22 @@ wait		1000
 ＠Itsuki
 「Here, take it.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00463
 #「あ、はい……」
 ＠Suika,R00463
 「Ah, yes......」
 
-
 @suika_
-
 
 #すいかは俺の手からノートパソコンを受け取ると、幸せそうにそれを胸に抱きしめた。
 #SCRIPT ADD KANJI
 Ｓuika happily took the laptop from my hands and held it to her chest.
 
-
 @suika_middle		# 中間
 @suika_heyagi
 @suika_warai		#笑
-
 
 #＠すいか,R00464
 #「ありがとう……ございます……！」
@@ -238,9 +214,7 @@ wait		1000
 ＠Itsuki
 「Hahaha, don't exaggerate. I don't use it so I'm just lending it.」
 
-
 @suika_yorokobi		#喜
-
 
 #＠すいか,R00465
 #「でも、ホントに嬉しいんです……！」
@@ -260,9 +234,7 @@ wait		1000
 ＠Itsuki
 「If you program something, show me okay?」
 
-
 @suika_warai		#笑
-
 
 #＠すいか,R00466
 #「はい！　一番に院長先生に見せますね！」
@@ -272,7 +244,6 @@ wait		1000
 #すいかは嬉しそうにうなずき、俺に約束した。
 #SCRIPT ADD KANJI
 Ｓuika happily nodded and made a promise with me.
-
 
 #■BG（黒）
 bgm_stop
@@ -286,6 +257,4 @@ ITEM_DELETE 500
 _ITEM(500)=0
 #（スケジュールへ）
 return
-
-
 

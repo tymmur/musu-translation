@@ -6,22 +6,18 @@ label	zakuro_08
 #発生時期：未定
 #--------------------------------------------------
 
-
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 @bgm12			#BGM 12 : メインテーマ
-
 
 #その日、商店街でざくろとばったり出会った。
 #SCRIPT ADD KANJI
 Ｔhat day, I unexpectedly bet Zakuro in the shopping district.
 
-
 #@zakuro_small
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
-
 
 #＠ざくろ,Q01485
 #「あ、つっちー見つけた」
@@ -33,7 +29,6 @@ label	zakuro_08
 ＠Itsuki
 「Zakuro, were you shopping by yourself?」
 
-
 #///////////////////////////////////////////////////////
 #演：うなずき
 layer_movepass_add	l_zakuro,0,	300,	0,16
@@ -41,7 +36,6 @@ layer_movepass_add	l_zakuro,0,	300,	0,0
 layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
-
 
 #＠ざくろ,Q01486
 #「そう、ちょっと空き時間ができたから」
@@ -57,9 +51,7 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「What did you buy that's so big? ......Wait, I don't need to ask. Is it aonori again?」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01487
 #「うん。青ノリ分が不足したから、大量補給」
@@ -71,9 +63,7 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「But that's a lot.」
 
-
 @zakuro_niko		#にこ
-
 
 #＠ざくろ,Q01488
 #「いつも買ってるのの他に、今日はちょっと吉野川産のと、四万十川産のも奮発してみた。すごい楽しみ」
@@ -89,11 +79,9 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Ehh, there are aonori from different places?」
 
-
 se_bg_stop
 bgm_stop
 @zakuro_iya		#嫌
-
 
 #＠ざくろ,Q01489
 #「つっちー……」
@@ -107,38 +95,30 @@ bgm_stop
 ＠Itsuki
 「あ……ゴメン。そりゃあるよな、どこそこ産くらい」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01490
 #「あるに決まってる。つっちー、不勉強すぎ」
 ＠Zakuro,Q01490
 「It's obvious there are. Tsuchii, you're too neglective of these things.」
 
-
 @zakuro			#普
 @bgmk12			#BGM K12 : 興味津々のテーマ
 wait		1000
-
 
 #＠ざくろ,Q01491
 #「青ノリには１級から５級まであるの。同じ河でとれた一番いいのが１級。でも、そもそも河ごとに味も匂いも食感も違ってる」
 ＠Zakuro,Q01491
 「Aonori has levels 1-5. Level 1 is taken from the same river and tastes the best. But from different rivers, the taste, smell, and texture are different.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01492
 #「全国数ある青ノリの中でも、四万十川の１級、『すじあおのり』が最高だってことは、青ノリ好きには常識」
 ＠Zakuro,Q01492
 「There are many aonoris throughout the country, but it is common sense to those who like aonori that Shimantogawa's level 1 "Suji Aonori" is the best.」
 
-
 @zakuro_niko		#にこ
-
 
 #＠ざくろ,Q01493
 #「宝石みたいな緑で、絹糸のように細くて、口の中でさらりと溶けて味はもちろん、その香りといったら、あぁ、素敵すぎる、最高」
@@ -152,7 +132,6 @@ wait		1000
 #このまま歌でも歌い始めそうだ。
 #SCRIPT ADD KANJI
 Ｌike this it seems like she is about to start singing or something.
-
 
 window_close
 @zakuro_
@@ -171,36 +150,29 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠ざくろ,Q01494
 #「諸君、私は青ノリが好き。諸君、私は青ノリが大好き」
 ＠Zakuro,Q01494
 「Ladies and Gentlemen, I like aonori. Ladies and Gentlemen, I love aonori.」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q01495
 #「すじあおのりが好き、ひらあおのりが好き、ぼうあおのりが好き、うすばあおのりが好き、あなあおさが好き、おおあおさが好き」
 ＠Zakuro,Q01495
 「I like Suji Aonori, I like Hira Aonori, I like Bou Aonori, I like Usuba Aonori, I like Ana Aonori, I like Oo Aonori.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01496
 #「ご飯で、焼き肉で、お刺身で、卵焼きで、カツ丼で、天ぷらで、肉じゃがで、焼き魚で、お好み焼きで、焼きそばで」
 ＠Zakuro,Q01496
 「On rice, on yakiniku, on omelet, on katsudon, on tempura, on nikujaga, on yakizakana, on okonomiyaki, on yakisoba.」
 
-
 #注：ちょっと試しにやってみた
 @bg_sky			# 空
 @zakuro_niko		#にこ
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
-
 
 #＠ざくろ,Q01497
 #「この地上で振りかけられる、ありとあらゆる青ノリが大好き」
@@ -212,10 +184,8 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Wa, wai, wait wait wait, Zakuro!」
 
-
 bgm_stop
 @bg_black
-
 
 #歌どころか演説を始めたざくろを慌てて制止する。
 #SCRIPT ADD KANJI
@@ -225,21 +195,17 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｗhat lieutenant commander are you?
 
-
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_akire		#呆
 @bg_syoutengai		# 商店街
-
 
 #＠ざくろ,Q01498
 #「なに？」
 ＠Zakuro,Q01498
 「What?」
 
-
 @bgm12			#BGM 12 : メインテーマ
-
 
 #人目を気にした風もなく、平然とこちらを見返すざくろ。
 #SCRIPT ADD KANJI
@@ -254,9 +220,7 @@ bgm_stop
 ＠Itsuki
 「N, no, well, uh, ......today you got those Shimantogawa high quality products. I'm looking forward to dinner.」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01499
 #「うん、でもこっちは『良いことがあった時』用にちょっと熟成させるつもり」
@@ -268,9 +232,7 @@ bgm_stop
 ＠Itsuki
 「Ripen?」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q01500
 #「すぐに食べたいのは吉野川の方。食事よりは気分転換向きだけど」
@@ -282,27 +244,21 @@ bgm_stop
 ＠Itsuki
 「Huh, change of pace......?」
 
-
 @zakuro_iya		#嫌
-
 
 #＠ざくろ,Q01501
 #「吉野川の『ぼうあおのり』は、幅広で口溶けは今ひとつなんだけど、その分、滋味に溢れてるわ」
 ＠Zakuro,Q01501
 「Yoshinokawa's "Bou Aonori" is wide and melts in your mouth but I only have one. But that one is overflowing with nutrition.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01502
 #「口の中でじっくり噛んでると、じわ～～っと香りが鼻に抜けていって、気持ちが落ちつくの」
 ＠Zakuro,Q01502
 「When you carefully chew it in your mouth, the scent leaves your nose with a "jiwa~~~" and you calm down.」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01503
 #「ああ、青ノリ、青ノリ、あなたはどうして青ノリなの？　それは青ノリだから」
@@ -318,9 +274,7 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｓhe looked like she was about to start talking like that again so I interrupted.
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q01504
 #「つっちーも食べたい？」
@@ -332,9 +286,7 @@ bgm_stop
 ＠Itsuki
 「Well, you mean those high quality Shimantogawa products? I'm kind of interested in that.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01505
 #「それは人として当然。でも、すぐには駄目」
@@ -346,9 +298,7 @@ bgm_stop
 ＠Itsuki
 「I know.」
 
-
 @zakuro_niko		#にこ
-
 
 #＠ざくろ,Q01506
 #「そうね、つっちーが私をちゃんとイカせられたら、一口だけ食べさせてあげる。口移しで」
@@ -360,9 +310,7 @@ bgm_stop
 ＠Itsuki
 「That's kind of......a high hurdle.」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01507
 #「下の口移しの方がいいの？」
@@ -374,9 +322,7 @@ bgm_stop
 ＠Itsuki
 「As if! Anyways, what kind of way of eating is lower mouth to mouth feeding? It doesn't sound good.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01508
 #「そう。残念」
@@ -392,9 +338,7 @@ bgm_stop
 ＠Itsuki
 「Well if there's no other place you want to visit, let's go home. I'll carry that bag for you.」
 
-
 @zakuro_niko		#にこ
-
 
 #＠ざくろ,Q01509
 #「いい。青ノリを持ってるだけで幸せ」
@@ -406,10 +350,8 @@ bgm_stop
 ＠Itsuki
 「Haha, I see......」
 
-
 bgm_stop
 @bg_black
-
 
 #笑いながら家路につくオレとざくろ。
 #SCRIPT ADD KANJI
@@ -419,10 +361,8 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ａnd, someone was running beside us.
 
-
 @bg_jyuutakugai		# 住宅街
 @bgm17			#BGM 17 : のんびりのテーマ
-
 
 #＠女の子,V22006
 #「ママぁ～～～～～、まってぇ～～～～～」
@@ -447,10 +387,8 @@ bgm_stop
 ＠Girl,V22007
 「Mamaa...... Fuah!」
 
-
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
-
 
 #急いでいた女の子は足をもつれさせて、べちゃっとかなり盛大に転んでしまった。
 #SCRIPT ADD KANJI
@@ -534,7 +472,6 @@ bgm_stop
 @zakuro_shifuku
 @zakuro			#普
 
-
 #＠ざくろ,Q01510
 #「つっちー、何してるの？」
 ＠Zakuro,Q01510
@@ -549,20 +486,16 @@ bgm_stop
 ＠Itsuki
 「Eh? A, ah...... sorry.」
 
-
 @bg_black
 wait		1000
 @bg_jyuutakugai		# 住宅街
-
 
 #＠ざくろ,Q01511
 #「………………」
 ＠Zakuro,Q01511
 「..................」
 
-
 @bgmk02			#BGM K02 : しんみりのテーマ
-
 
 #ざくろに追いつきながら、その横顔をチラリと見た。
 #SCRIPT ADD KANJI
@@ -596,7 +529,6 @@ wait		1000
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-
 #＠ざくろ,Q01512
 #「何を見てるの？」
 ＠Zakuro,Q01512
@@ -607,9 +539,7 @@ wait		1000
 ＠Itsuki
 「Ah......Nothing......」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01513
 #「別にあんなの気にしてない。いちいち気にしてたら身が持たない」
@@ -633,9 +563,7 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ was kind of unsure of how to respond, but I just said what I thought.
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01514
 #「つっちーも？」
@@ -653,7 +581,6 @@ wait		1000
 
 @zakuro_akire		#呆
 
-
 #＠ざくろ,Q01515
 #「聞いてない。……そうなんだ。お父さんは？　うちの前の院長？」
 ＠Zakuro,Q01515
@@ -664,9 +591,7 @@ wait		1000
 ＠Itsuki
 「Ah, that......」
 
-
 @bg_white		# 白
-
 
 #父親……そう呼ばれるべきあの男への記憶がふっと蘇る。
 #SCRIPT ADD KANJI
@@ -676,12 +601,10 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｂut, in those memories, I was not reflected in the eyes of that man.
 
-
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_akire		#呆
 @bg_jyuutakugai		# 住宅街
-
 
 #＠ざくろ,Q01516
 #「……つっちー？」
@@ -703,9 +626,7 @@ wait		1000
 ＠Itsuki
 「Well, even then I ended up succeeding him...... It's ironic.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01518
 #「ごめんなさい、つっちー」
@@ -721,9 +642,7 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ looked at Zakuro who spoke in an unusually meek voice, and her head hung low,
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q01519
 #「全然聞かなくていいこと聞いた。私らしくない。反省」
@@ -735,7 +654,6 @@ wait		1000
 ＠Itsuki
 「Don't worry about it. It's not a big deal.」
 
-
 #///////////////////////////////////////////////////////
 #演：うなずき
 layer_movepass_add	l_zakuro,0,	300,	0,24
@@ -744,15 +662,12 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠ざくろ,Q01520
 #「…………うん」
 ＠Zakuro,Q01520
 「............Okay.」
 
-
 @zakuro_
-
 
 #ざくろはコクンと頷き、それからしばらく無言のまま歩き続ける。
 #SCRIPT ADD KANJI
@@ -767,8 +682,6 @@ layer_movepass_play	l_zakuro,0,play_once
 #「……ん？」
 ＠Itsuki
 「......Yeah?」
-
-
 
 #また、前を向いたままざくろが話し始める。
 #SCRIPT ADD KANJI
@@ -814,11 +727,9 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「............? That "wait until you can stand up by yourself" mother, isn't that common?」
 
-
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q01526
 #「違う。そんな話じゃない。というか、つっちーがそんな悪意を持って見てたことに驚き」
@@ -830,9 +741,7 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「No...... I wasn't really looking at her with ill will but......」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01527
 #「冗談。気にしないで」
@@ -843,9 +752,7 @@ layer_movepass_play	l_zakuro,0,play_once
 #SCRIPT ADD KANJI
 Ｚakuro, like always, without even smiling,
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01528
 #「私が思ってたのは、あの人は今はああやってちゃんと母親をやってるけど、それがいつまで続くのかって」
@@ -857,18 +764,14 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Did it look like it wouldn't continue to you?」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01529
 #「一目でそんなことが分かったら、私、超能力者」
 ＠Zakuro,Q01529
 「If I could understand that just by looking, I would be psychic.」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01530
 #「今はちゃんとした母親に見える。でも、一年後は違うかも知れない、二年後は？　三年後は？　もっと先は？」
@@ -880,27 +783,21 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「I don't know how she will change......」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q01531
 #「そう、あの子が大きくなって、自分の思う通りにならなくなったら、急にイヤになるかもしれない」
 ＠Zakuro,Q01531
 「That's right, when that child becomes older, she might not want to become like she thinks and might become bad.」
 
-
 @zakuro_iya		#嫌
-
 
 #＠ざくろ,Q01532
 #「父親が死ぬか別れるか、他に男ができるか、理由はなんでもいいけど、あの子が邪魔になるかも知れない」
 ＠Zakuro,Q01532
 「If the father dies or gets separated from her, or another man comes, the reason doesn't really matter, but that child might become a nuisance.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01533
 #「いつ何時、母親をやる気がなくなるかもしれない」
@@ -924,18 +821,14 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Humans hearts are things that change. Whether they're fathers or mothers.」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01534
 #「そう、特に女は男と違って、子供を産むと、自然と愛情が生まれるとか言うけど、そんなのファンタジー、遺伝子とか知らない」
 ＠Zakuro,Q01534
 「Right, but women in particular are different from men, giving birth to children, and naturally loving them, I don't know that kind of fantasy and genes.」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01535
 #「ううん、逆に女の心はすぐ変わる。女だから分かる。誰だって母親である前に女」
@@ -943,7 +836,6 @@ layer_movepass_play	l_zakuro,0,play_once
 「No, on the contrary, women's hearts change immediately. I know because I'm a girl. Any girl before becoming a mother knows.」
 
 @zakuro			#普
-
 
 #＠ざくろ,Q01536
 #「親は自分の意志で親になる。それを続けていく。そうできるのが本当の親。そう思う」
@@ -968,7 +860,6 @@ layer_movepass_play	l_zakuro,0,play_once
 Ｔhere was a small gap when I nodded,
 
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q01537
 #「……聞かないの？」
@@ -1002,7 +893,6 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Zakuro's mother couldn't become a good mother?」
 
-
 #///////////////////////////////////////////////////////
 #演：うなずき
 layer_movepass_add	l_zakuro,0,	300,	0,16
@@ -1011,23 +901,18 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #ざくろは小さく頷く。
 #SCRIPT ADD KANJI
 Ｚakuro nodded lightly.
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01539
 #「あの人は結局、女だった。今なら分かる。流されやすくて、だらしなくて、だから男がいつも寄ってきてた」
 ＠Zakuro,Q01539
 「That person was after all, a woman. Now I understand. She was easily carried away and loose, so men were always visiting her.」
 
-
 @zakuro_iya		#嫌
-
 
 #＠ざくろ,Q01540
 #「自分では良い親のつもりで、でも本当は自分のことしか考えてない。そういう人。だから、私を捨てた」
@@ -1039,9 +924,7 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Thrown away?」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q01541
 #「どの男かもう忘れたけど、二人でどこかに行った。最後は女であることを選んだ。それがあの人。私を産んだ女」
@@ -1065,9 +948,7 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Zakuro......」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q01542
 #「なに？」
@@ -1079,9 +960,7 @@ layer_movepass_play	l_zakuro,0,play_once
 ＠Itsuki
 「Do you want to see her now?」
 
-
 @zakuro_iya		#嫌
-
 
 #＠ざくろ,Q01543
 #「……………」
@@ -1094,16 +973,13 @@ layer_movepass_play	l_zakuro,0,play_once
 
 @zakuro_metoji		#閉
 
-
 #＠ざくろ,Q01544
 #「あの人は私と関係なく、好きに生きて好きに死ぬ。だからどうでもいい」
 ＠Zakuro,Q01544
 「That person has nothing to do with me. She can go live if she wants or die if she wants. I don't care.」
 
-
 bgm_stop
 @zakuro_
-
 
 #会いたいとも、会いたくないとも言わず、ざくろはそれだけを口にした。
 #SCRIPT ADD KANJI
@@ -1113,17 +989,11 @@ bgm_stop
 #SCRIPT ADD KANJI
 Ｕntil we returned home, Zakuro and I did not say anything.
 
-
 @bg_black
 wait		1000
-
 
 @zakuro_evup
 
 #ここまで
 return
-
-
-
-
 

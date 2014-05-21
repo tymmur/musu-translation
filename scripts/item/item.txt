@@ -45,13 +45,9 @@ if itemuse_chara=3 then add_kokoro=karin_kokoro_max/10*3
 if itemuse_chara=3 then @karin_set
 if itemuse_chara=3 then @status_open_karin
 
-
 wait	1000
 
-
 item_delete	_ITEMNO
-
-
 
 if _ITEM=100	then	goto	itemuse_cake
 if _ITEM=101	then	goto	itemuse_drink
@@ -141,7 +137,6 @@ goto	itemuse_skip
 #（パソコン）#################################################################
 label	itemuse_computer
 
-
 #（統合へ）
 goto	itemuse_skip
 
@@ -160,13 +155,11 @@ goto	itemuse_skip
 #（一本ムチ）#################################################################
 label	itemuse_whip2
 
-
 #（統合へ）
 goto	itemuse_skip
 
 #（ろうそく）#################################################################
 label	itemuse_candle
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -174,13 +167,11 @@ goto	itemuse_skip
 #（アナルビーズ）##############################################################
 label	itemuse_analbead
 
-
 #（統合へ）
 goto	itemuse_skip
 
 #（アナルバイブ）#############################################################
 label	itemuse_analvibe
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -194,20 +185,17 @@ goto	itemuse_skip
 #（極太バイブ）###############################################################
 label	itemuse_bigvibe
 
-
 #（統合へ）
 goto	itemuse_skip
 
 #（かりんのおしゃれ眼鏡）#####################################################
 label	itemuse_grass
 
-
 #（統合へ）
 goto	itemuse_skip
 
 #（ボンデージ服）#############################################################
 label	itemuse_bondage
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -237,7 +225,6 @@ wait	1000
 #SCRIPT ADD KANJI
 Ｓtamina replenished by [ADD_KENKOU]!
 
-
 #（統合へ）
 goto	itemuse_skip
 
@@ -264,7 +251,6 @@ wait	1000
 
 #SCRIPT ADD KANJI
 Ｓtamina replenished by [ADD_KENKOU]!
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -293,10 +279,8 @@ wait	1000
 #SCRIPT ADD KANJI
 Ｓtamina replenished by [ADD_KENKOU]!
 
-
 #（統合へ）
 goto	itemuse_skip
-
 
 #（ぬいぐるみ）###############################################################
 label	itemuse_doll
@@ -348,7 +332,6 @@ wait	1000
 
 #SCRIPT ADD KANJI
 Ｗillpower replenished by [ADD_KIRYOKU]!
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -404,7 +387,6 @@ wait	1000
 #SCRIPT ADD KANJI
 Ｉntelligence up by [ADD_ATAMA]!
 
-
 #（統合へ）
 goto	itemuse_skip
 
@@ -431,7 +413,6 @@ wait	1000
 
 #SCRIPT ADD KANJI
 Ｉntelligence up by [ADD_ATAMA]!
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -460,7 +441,6 @@ wait	1000
 
 #SCRIPT ADD KANJI
 Ｂody up by [ADD_KARADA]!
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -632,14 +612,12 @@ goto	itemuse_skip
 #（ボールギャグ）
 label	itemuse_ballgag
 
-
 #（統合へ）
 goto	itemuse_skip
 
 ###########################################
 #（ペニスバンド）
 label itemuse_penisband
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -648,14 +626,12 @@ goto	itemuse_skip
 #（ねこみみ）
 label	itemuse_nekomimi
 
-
 #（統合へ）
 goto	itemuse_skip
 
 ###########################################
 #（三角木馬）
 label	itemuse_mokuba
-
 
 #（統合へ）
 goto	itemuse_skip
@@ -664,7 +640,6 @@ goto	itemuse_skip
 #（フック針）
 label	itemuse_fookniddle
 
-
 #（統合へ）
 goto	itemuse_skip
 
@@ -672,10 +647,8 @@ goto	itemuse_skip
 #汎用
 label	itemuse_hanyou
 
-
 #（統合へ）
 goto	itemuse_skip
-
 
 # 共通部
 label	itemuse_skip
@@ -683,7 +656,6 @@ label	itemuse_skip
 if itemuse_chara=1 then @status_close_mikan
 if itemuse_chara=2 then @status_close_ichigo
 if itemuse_chara=3 then @status_close_karin
-
 
 @mikan_
 @karin_
@@ -694,14 +666,10 @@ if itemuse_chara=3 then @status_close_karin
 
 goto	itemuse_end
 
-
-
 # 終わり
 label	itemuse_end
 
 return
-
-
 
 macro	itemuse_charasel
 
@@ -710,19 +678,19 @@ macro	itemuse_charasel
 
 itemuse_chara=0
 
-	window_close
-	minimoney_close
-	date_close
+window_close
+minimoney_close
+date_close
 
-	layer_load	60,"system\Schedule\select_who_item.png"
-	layer_move	60,1000,0,-128,0,0,passtype_tcb
-	wait	500
+layer_load	60,"system\Schedule\select_who_item.png"
+layer_move	60,1000,0,-128,0,0,passtype_tcb
+wait	500
 @character_select
-	layer_move	60,1000,0,0,0,-128,passtype_tcb
-	wait	1000
-	layer_release	60
+layer_move	60,1000,0,0,0,-128,passtype_tcb
+wait	1000
+layer_release	60
 
-	date_open
+date_open
 
 itemuse_chara=sel
 
@@ -730,54 +698,53 @@ endm
 
 macro	item_effect_b
 se	0,"sound\se\アイテム使用2.wav",play_once
-	layer_movie_load 62,"system\movie\効果2.mpg",play_once
-	layer_position_set	62,250,280
-	layer_scale_set		62,500,500
-	layer_drawmode_set	62,DRAW_ADD
+layer_movie_load 62,"system\movie\効果2.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
 #screen_effect_stardust	240,128,350,480
 endm
 
 macro	item_effect_y
 se	0,"sound\se\アイテム使用2.wav",play_once
-	layer_movie_load 62,"system\movie\効果4.mpg",play_once
-	layer_position_set	62,250,280
-	layer_scale_set		62,500,500
-	layer_drawmode_set	62,DRAW_ADD
+layer_movie_load 62,"system\movie\効果4.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
 #screen_effect_stardust	240,128,350,480
 endm
 
 macro	item_effect_2
 se	0,"sound\se\アイテム使用2.wav",play_once
-	layer_movie_load 62,"system\movie\炎1.mpg",play_once
-	layer_position_set	62,250,280
-	layer_scale_set		62,500,500
-	layer_drawmode_set	62,DRAW_ADD
+layer_movie_load 62,"system\movie\炎1.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
 #screen_effect_stardust	240,128,350,480
 endm
 
 macro	item_effect_1
 se	0,"sound\se\アイテム使用2.wav",play_once
-	layer_movie_load 62,"system\movie\効果5.mpg",play_once
-	layer_position_set	62,250,280
-	layer_scale_set		62,500,500
-	layer_drawmode_set	62,DRAW_ADD
+layer_movie_load 62,"system\movie\効果5.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
 #screen_effect_stardust	240,128,350,480
 endm
 
 macro	mikan_item_up
-	@mikan_setauto
-	@mikan_check
-	@status_chara_mikan
+@mikan_setauto
+@mikan_check
+@status_chara_mikan
 endm
 macro	ichigo_item_up
-	@ichigo_setauto
-	@ichigo_check
-	@status_chara_ichigo
+@ichigo_setauto
+@ichigo_check
+@status_chara_ichigo
 endm
 macro	karin_item_up
-	@karin_setauto
-	@karin_check
-	@status_chara_karin
+@karin_setauto
+@karin_check
+@status_chara_karin
 endm
-
 

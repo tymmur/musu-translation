@@ -9,10 +9,8 @@ label		hika30_5
 @bg_living		# リビング
 @SE72			#SE72　軽く叩く音（ポカッ）
 
-
 ＠樹
 「いてッ！？」
-
 
 #@hikari_large		# 近い
 @hikari_middle		# 中間
@@ -30,24 +28,18 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00590
 「メェッ！　お父しゃん、お母しゃんを苛めたらダメなの！」
-
 
 @bgm12			#BGM 12 : メインテーマ
 @hikari_ikari		#怒
 
-
 幸せに浸る間もなく、お怒りのひかりに殴られた。
-
 
 #layer_movepass_init	l_hikari,0	#演出初期化
 
-
 ＠樹
 「……ま、待てひかり、これは苛めてる訳じゃないんだぞ」
-
 
 @hikari_komaru		#困.png
 #///////////////////////////////////////////////////////
@@ -64,13 +56,10 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00591
 「う～……。だってお母しゃん、お父しゃんの下で辛そうにしてゆの」
 
-
 #CH（美雨の立ち絵なし）
-
 
 ＠美雨,B02344
 「あ、あのね、えっと……。これは辛いわけじゃなくて……」
@@ -81,14 +70,11 @@ layer_movepass_play	l_hikari,0,play_once
 ＠美雨,B02345
 「あ、はい……ですね」
 
-
 @bg_black
 #SE70　衣擦れ音（シュルシュル）
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-
 美雨が服を直している間に、オレはひかりの説得に一杯一杯だった。
-
 
 #CH（ひかり・涙）
 @hikari_middle		# 中間
@@ -114,22 +100,18 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠ひかり,N00592
 「お父しゃん嫌い～っ、嫌いなの～！」
 
 ＠樹
 （説明のしようが無いだろ、こんなこと……）
 
-
 #一拍
 bgm_stop
 @bg_black
 wait		1000
 
-
 何とか再び、ひかりを宥め寝かせることに成功した。
-
 
 #CH（ここから美雨に立ち絵あり）
 @miu_small
@@ -145,16 +127,13 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠美雨,B02346
 「ふぅ～……。後のトラウマになったりしないかしら……」
 
 ＠樹
 「大丈夫だろ。納得して寝てくれたし」
 
-
 @bgmk02			#BGM K02 : しんみりのテーマ
-
 
 そう願うしかない……。
 
@@ -162,9 +141,7 @@ layer_movepass_play	l_miu,0,play_once
 
 改めて美雨が、行為に及ぶ前の話題を掘り出してくる。
 
-
 @miu_ikari2		#開_怒
-
 
 ＠美雨,B02347
 「……樹さん、私も身を挺して、ひーちゃんの全てを守ります」
@@ -183,16 +160,12 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「やっぱり根源を何とかしないとダメだろうか」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B02350
 「……他には」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02351
 「例えば、三人で遠くに逃げて、全て忘れて暮らすということも……」
@@ -200,9 +173,7 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「美雨……」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02352
 「そんなこと、無理ですよね。すみません……」
@@ -229,9 +200,7 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「美雨、この施設の秘密って、何か知ってるか？」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02354
 「……秘密？」
@@ -239,9 +208,7 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「こうして売春行為をする裏で、本当は別の大きな目的があるとか。知らないか？」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B02355
 「いえ、初耳ですが……。なぜそのような事を…？」
@@ -257,16 +224,12 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「実は、雫さんの部屋で妙な調査書を見つけたんだ」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02356
 「調査書？」
 
-
 @bg_black
-
 
 何の裏づけも無く話すのは浅はかかもしれない。
 
@@ -274,12 +237,10 @@ layer_movepass_play	l_miu,0,play_once
 
 書類の内容。そしてざくろの話などを、一通り美雨に話して聞かせる。
 
-
 @miu_small
 @miu_maid
 @miu_komaru		#開_困
 @bg_living		# リビング
-
 
 ＠美雨,B02357
 「二年前の事件……」
@@ -293,23 +254,18 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「実際に何かあったはずなんだ。ここで、二年前に何かが」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02359
 「かりんちゃんが……まさか……」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02360
 「……いえ、でももう、今の私にその情報を知らせる義務は……」
 
 ＠樹
 「美雨……？」
-
 
 @miu_komaru		#開_困
 #///////////////////////////////////////////////////////
@@ -319,7 +275,6 @@ layer_movepass_add	l_miu,0,	200,	0,0
 layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
-
 
 ＠美雨,B02361
 「……えっ！？　あ、はい！」
@@ -336,9 +291,7 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「美雨なら知ってるはずだ。二年前、オレの知らない時間に、何があったんだ」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02363
 「……それは」
@@ -347,9 +300,7 @@ layer_movepass_play	l_miu,0,play_once
 
 だがそれは明らかに知っている者の反応だ。
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02364
 「樹さん、それは……今の私たちには関係の無いことです……」
@@ -359,9 +310,7 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「本当に関係ないか？」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02365
 「はい……」
@@ -371,7 +320,6 @@ layer_movepass_play	l_miu,0,play_once
 
 ＠樹
 「まだ不可解な点は多いけど、きっと父さんはその時に―――」
-
 
 bgm_stop
 @miu_kanashimi2		#閉_哀
@@ -386,7 +334,6 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-
 ＠美雨,B02366
 「ッ！　いやッ、やめてくださいッ！」
 
@@ -394,7 +341,6 @@ layer_movepass_play	l_miu,0,play_once
 
 ＠樹
 「美雨……？」
-
 
 @miu_komaru		#開_困
 #///////////////////////////////////////////////////////
@@ -404,7 +350,6 @@ layer_movepass_add	l_miu,0,	200,	0,0
 layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
-
 
 ＠美雨,B02367
 「あっ……す、すみません、私……」
@@ -416,9 +361,7 @@ layer_movepass_play	l_miu,0,play_once
 
 話が途切れ、気まずい空気が流れた。
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02368
 「………」
@@ -429,9 +372,7 @@ layer_movepass_play	l_miu,0,play_once
 
 ……真相を話せるほど、オレは美雨に心を開いてもらえていないのだろうか。
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02369
 「……知りたいですか？」
@@ -439,42 +380,32 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「え…？」
 
-
 #@miu_ikari2		#開_怒
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02370
 「………二年前、そういった人たちがここに来たのは確かです」
 
-
 #@miu_ikari		#閉_怒
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02371
 「でもその事で、樹さんが想像されているようなことはありませんでした」
 
-
 @bgmk07			#BGM K07 : 深刻なテーマ
-
 
 冷静さを取り戻した美雨が、ポツポツと言葉を選ぶようにして話し始めた。
 
 ＠樹
 「じゃあ、そいつらは一体……？」
 
-
 #@miu_ikari2		#開_怒
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02372
 「ここが国家権力に関与されないというのは、最初の日に説明を受けたと思います」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02373
 「あの人たちはそれを善しとしない、民間団体の過激派の方達でした」
@@ -484,17 +415,13 @@ layer_movepass_play	l_miu,0,play_once
 
 ここで、あの調査書の言葉が一つ明らかになった。
 
-
 #@miu_ikari2		#開_怒
 @miu_komaru		#開_困
-
 
 ＠美雨,B02374
 「前院長、耕平さんの死というのは、きっとその時の情報の混乱ではないでしょうか」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02375
 「事実、その後もここで院長として過ごされていた事は、樹さんもご存知だと思います」
@@ -505,17 +432,13 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「しかし、すいかが言っていた。あの時期に一度、父さんの様子に違和感を感じたって」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02376
 「それも、あの事件のショックが相当大きかったせいです」
 
-
 #@miu_ikari2		#開_怒
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02377
 「前院長の様子があの日を境に少しおかしく感じたのは、私も同じでしたから」
@@ -526,10 +449,8 @@ layer_movepass_play	l_miu,0,play_once
 ＠美雨,B02378
 「みかんちゃんのお父さんが何故、それを調べていたのかは分かりません」
 
-
 #@miu_ikari		#閉_怒
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02379
 「かりんちゃんのことは初耳で、私自身が驚いたくらいです……」
@@ -545,10 +466,8 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「いや、待て……」
 
-
 #@miu_ikari2		#開_怒
 @miu_komaru		#開_困
-
 
 ＠美雨,B02380
 「え……？」
@@ -558,10 +477,8 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「それが真相なら、何で美雨、さっきあんなに取り乱した」
 
-
 #@miu_komaru		#開_困
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02381
 「あ……」
@@ -569,17 +486,13 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「最初にそう言ってくれれば良かったんじゃないか？」
 
-
 #@miu_kanashimi		#開_哀
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02382
 「その……あれは」
 
-
 #@miu_kanashimi2	#閉_哀
-
 
 ＠美雨,B02383
 「当時のことを思い出すのが、怖かったからです……」
@@ -587,16 +500,12 @@ layer_movepass_play	l_miu,0,play_once
 ＠樹
 「……怖かった？」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02384
 「はい……」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02385
 「だって、あんな人たちが乗り込んできた事件なんて……。普通は怖くて思い出したくありませんし」
@@ -607,9 +516,7 @@ layer_movepass_play	l_miu,0,play_once
 
 あの拒絶するような過剰な反応は……それだけか？
 
-
 bgm_stop
-
 
 ＠樹
 「分かった」
@@ -617,9 +524,7 @@ bgm_stop
 ＠樹
 「怯えさせてたんだな。ごめん」
 
-
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02386
 「あ、いえ……そんな」
@@ -627,17 +532,13 @@ bgm_stop
 ＠樹
 「正直に話してくれてありがとう。おかげで少しすっきりしたよ」
 
-
 #@miu2			#開_にこ
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02387
 「樹さん……」
 
-
 @bgmk02			#BGM K02 : しんみりのテーマ
-
 
 その言葉に、美雨が安堵を見せて胸を撫で下ろす。
 
@@ -645,18 +546,14 @@ bgm_stop
 
 単純な売春組織ではなく、まだ裏に何かが隠れている。
 
-
 #CH（ひかり立ち絵なし）
-
 
 ＠ひかり,N00593
 「……くしゅんっ」
 
-
 #@miu			#閉_にこ
 #@miu2			#開_にこ
 @miu_kanashimi		#開_哀
-
 
 ＠美雨,B02388
 「あ……私、ひーちゃんを部屋に運んできます」
@@ -664,9 +561,7 @@ bgm_stop
 ＠樹
 「それならオレが行こう。美雨は疲れてるだろ」
 
-
 @miu_komaru		#開_困
-
 
 ＠美雨,B02389
 「……でも、それは樹さんも」
@@ -674,10 +569,8 @@ bgm_stop
 ＠樹
 「いいから。もう娘同然の子なんだ。これからはちゃんと面倒も見るよ」
 
-
 @bg_white		# 白
 @SE70			#SE70　衣擦れ音（シュルシュル）
-
 
 眠っているひかりを抱き上げる。
 
@@ -688,7 +581,6 @@ bgm_stop
 
 そう気持ちを改めるだけで、心が温かく、ひかりが愛おしくなってくる。
 
-
 @miu_small
 @miu_maid
 #@miu2			#開_にこ
@@ -696,13 +588,11 @@ bgm_stop
 @miu_kanashimi		#開_哀
 @bg_living		# リビング
 
-
 ＠美雨,B02390
 「では、お願いします。ひーちゃんのこと」
 
 ＠樹
 「ああ」
-
 
 bgm_stop
 @bg_black		# 黒
@@ -710,9 +600,7 @@ bgm_stop
 wait		100
 @SE07			#部屋のドア閉まる音（パタン）
 
-
 美雨に見送られて、部屋を後にした。
-
 
 @miu_middle		# 中間
 @miu_maid
@@ -720,17 +608,13 @@ wait		100
 @bg_living		# リビング
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
-
 ＠美雨,B02391
 「すみません、樹さん………今はまだ……」
 
-
 @miu_kanashimi2		#閉_哀
-
 
 ＠美雨,B02392
 「全ての決着が付いて、気持ちを整理できた時は。必ず本当のことをお話しますから……」
-
 
 #一拍
 bgm_stop
@@ -738,7 +622,6 @@ bgm_stop
 wait		1000
 #■BG（廊下）
 @bg_rouka		# 廊下
-
 
 ＠樹
 「……これからのことを考えないとな」
@@ -752,15 +635,9 @@ wait		1000
 
 この生活を抜け出さないと、オレ達三人に普通の生活は訪れないのだ。
 
-
 @bg_black
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 

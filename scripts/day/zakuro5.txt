@@ -7,10 +7,8 @@ label	zakuro_05
 #発生時期：未定
 #--------------------------------------------------
 
-
 #■BG（廊下）
 @bg_rouka		# 廊下
-
 
 #特別な事などなく、普通に廊下を歩いていたある日のこと。
 #SCRIPT ADD KANJI
@@ -21,28 +19,22 @@ label	zakuro_05
 ＠Zakuro,Q00841
 「Tsuchii, found you.」
 
-
 @SE17			#SE17　廊下を歩いてくる音　※徐々に大きく
-
 
 #非番で施設にいたざくろに捕まった。
 #SCRIPT ADD KANJI
 Ｉ was caught by Zakuro, who was off duty and in the institution.
 
-
 se_stop		0
-
 
 #＠樹
 #「どうした、ざくろ。オレを探してたのか？」
 ＠Itsuki
 「What's wrong, Zakuro? Were you looking for me?」
 
-
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
-
 
 #＠ざくろ,Q00842
 #「うん。大事な用事があるから、来て」
@@ -54,9 +46,7 @@ se_stop		0
 ＠Itsuki
 「......For me to do?」
 
-
 @bgm12			#BGM 12 : メインテーマ
-
 
 #ざくろの用事って……。いつも不安なんだが。
 #SCRIPT ADD KANJI
@@ -67,9 +57,7 @@ se_stop		0
 ＠Itsuki
 「Are you in a hurry?」
 
-
 @zakuro_iya		#嫌
-
 
 #＠ざくろ,Q00843
 #「別に今じゃなくてもいいけど、早い方がいい。大事なことだから」
@@ -81,37 +69,30 @@ se_stop		0
 ＠Itsuki
 「I see.」
 
-
 #『大事』といわれれば、保護者として付き合ってあげるべきだろう。
 #SCRIPT ADD KANJI
 Ｉf it's something "important", it's my responsibility as a guardian to do it.
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00844
 #「私の部屋に来て」
 ＠Zakuro,Q00844
 「Come to my room.」
 
-
 window_close
 @zakuro_
 wait		1000
 @SE18			#廊下を歩き去る音
-
 
 #＠樹
 #「……待て。用事ってなんなんだ」
 ＠Itsuki
 「......Wait. What exactly do you want me to do?」
 
-
 @zakuro_small		# 遠い
 @zakuro_shifuku
 @zakuro			#普
-
 
 #＠ざくろ,Q00845
 #「エッチしたらダメな小さい子たち。私たちは大丈夫」
@@ -123,18 +104,14 @@ wait		1000
 ＠Itsuki
 「Not infants. I mean what you want me to do. Why are we going to your room?」*(a pun... 幼児 = youji = infant, 用事 = youji = task/thing to do
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00846
 #「…………」
 ＠Zakuro,Q00846
 「............」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q00847
 #「……大事な用事」
@@ -154,20 +131,16 @@ wait		1000
 ＠Itsuki
 「......It can't be helped. Your room, is it?」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q00848
 #「うん。行こ」
 ＠Zakuro,Q00848
 「Yup. Let' go.」
 
-
 #CH（ざくろ立ち絵、いったん消去）
 #SE16　廊下を歩く音
 @bg_black
-
 
 #歩き出すざくろの横に並んで、部屋までついて行く。
 #SCRIPT ADD KANJI
@@ -177,9 +150,7 @@ wait		1000
 #SCRIPT ADD KANJI
 　......This is kind of foolish after all.
 
-
 @bg_rouka		# 廊下
-
 
 #＠ざくろ,Q00849
 #「用事……幼児……」
@@ -205,14 +176,12 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｉ'm still kind of worried about how I should react to this girl.
 
-
 #一拍
 @bg_black
 wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 #■BG（ざくろの部屋）
 @bg_zakuro		# ざくろの部屋
-
 
 #ともあれ、こうしてざくろの部屋へとやって来たオレ。
 #SCRIPT ADD KANJI
@@ -223,11 +192,9 @@ wait		1000
 ＠Itsuki
 「So, what did you want me to do? It seems important.」
 
-
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
-
 
 #＠ざくろ,Q00851
 #「つっちーに見ててほしいの」
@@ -239,9 +206,7 @@ wait		1000
 ＠Itsuki
 「See what?」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q00852
 #「着替え」
@@ -253,15 +218,12 @@ wait		1000
 ＠Itsuki
 「.........Ha?」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00853
 #「これから着替えるから、脱ぐところと着るところをちゃんと見てて」
 ＠Zakuro,Q00853
 「I'm going to change now, so watch carefully and see me taking off and putting on clothes.」
-
 
 window_close
 #CH（立ち絵消去）
@@ -269,7 +231,6 @@ window_close
 wait		1000
 #SE70　衣擦れ音（シュルシュル）
 @SE70			#SE70　衣擦れ音（シュルシュル）
-
 
 #唐突にそんなことを言い出したかと思えば、本当に服を脱ごうとするざくろ。
 #SCRIPT ADD KANJI
@@ -280,9 +241,7 @@ wait		1000
 ＠Itsuki
 「Whaa-!? Waitwaitwait!!」
 
-
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
-
 
 #＠ざくろ,Q00854
 #「？」
@@ -293,11 +252,9 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｗhile unconsciously saying that with a strange voice, I flusteredly stopped that.
 
-
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
-
 
 #＠ざくろ,Q00855
 #「何？」
@@ -309,16 +266,12 @@ wait		1000
 ＠Itsuki
 「That's my line! What do you mean suddenly "changing"!?」
 
-
 @zakuro_akire		#呆
-
 
 ＠Zakuro,Q00856
 「この前のエッチで、つっちーこの服の脱がし方が分かってなかったから」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q00857
 #「次にまた興奮したとき、破かれないように実演しておこうと思ったの」
@@ -329,9 +282,7 @@ wait		1000
 #SCRIPT ADD KANJI
 　......That reminds me, I remember they were hard to take off so I did it forcibly.
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q00858
 #「……破きたい人？　なら、いいけど」
@@ -343,11 +294,9 @@ wait		1000
 ＠Itsuki
 「It's okay? ......I mean, I don't have such hobbies!」
 
-
 @bg_black
 #SE10　鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
 @SE10			#鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
-
 
 #＠樹
 #「って、何だ！？　開かないぞドアが！」
@@ -362,12 +311,10 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｗhen I did, Zakuro naturally said to me.
 
-
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
 @bg_zakuro		# ざくろの部屋
-
 
 #＠ざくろ,Q00859
 #「鍵かけたから」
@@ -381,18 +328,14 @@ wait		1000
 #SCRIPT ADD KANJI
 Ａnd this is a child room, yet there is a keyhole on this side.
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q00860
 #「これがこの部屋の鍵」
 ＠Zakuro,Q00860
 「This is this room's key.」
 
-
 @zakuro_
-
 
 #＠樹
 #「貸せッ。ああ！」
@@ -403,26 +346,20 @@ wait		1000
 #SCRIPT ADD KANJI
 Ｓhe rolls up her skirt, and in the same way as the first day, she puts it in her underwear.
 
-
 @zakuro_small
 @zakuro_shifuku
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00861
 #「着替えを見るか、服を破ってでも鍵を奪い取るかの二択よ」
 ＠Zakuro,Q00861
 「There are two choices to get the key. Watch me changing, or rip my clothes.」
 
-
 bgm_stop
-
 
 しかも初日より、さらに後者の鬼畜度が上がっている……
 
-
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
-
 
 #この状況に思わず膝をつくオレ。
 #SCRIPT ADD KANJI
@@ -433,15 +370,12 @@ bgm_stop
 ＠Itsuki
 「......」
 
-
 @zakuro_niko		#にこ
-
 
 #＠ざくろ,Q00862
 #「伏せってないで、脱ぐから良く見てて」
 ＠Zakuro,Q00862
 「Don't face down, I'm changing now so look carefully.」
-
 
 #--------------------------------------------------
 #■EVCG（デフォCG・ざくろの着替え）EV_ZAK_080
@@ -455,7 +389,6 @@ screen_whitein		1000
 wait			1000
 @bgmk12			#BGM K12 : 興味津々のテーマ
 #--------------------------------------------------
-
 
 #＠ざくろ,Q00863
 #「まず、一番上はボレロ」
@@ -485,18 +418,14 @@ wait			1000
 ＠Zakuro,Q00865
 「Next is the jumper skirt. Actually, there is a zipper here.」
 
-
 #@SEH01			#SEH01_ジッパー下げる
-
 
 #＠ざくろ,Q00866
 #「これを下ろして、肩紐に肩を通せばスカートが落ちるから」
 ＠Zakuro,Q00866
 「If I unfasten this and put my shoulder through the shoulder string, the skirt will fall.」
 
-
 #se_stop		0
-
 
 #パサッ…
 #SCRIPT ADD KANJI
@@ -568,38 +497,30 @@ wait		1000
 #■BG（ざくろの部屋）
 @bg_zakuro		# ざくろの部屋
 
-
 #とりあえず、ざくろの用事はこれで終わったようだ。
 #SCRIPT ADD KANJI
 Ｆor now, what Zakuro wanted me to do ended here.
 
-
 #CH（立ち絵なし）
-
 
 #＠ざくろ,Q00873
 #「ん、しょ……」
 ＠Zakuro,Q00873
 「N, sho......」
 
-
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-
 @bgm12			#BGM 12 : メインテーマ
-
 
 脱ぎながら律儀にたたんでいた服を、ざくろがさっきとは逆に着こなしていく。
 
 ……脱衣よりも、幾分か冷静に見れた。
 
-
 #--------------------------------------------------
 #■EVCG（デフォCG・ざくろの着替え）
 event		"event\EV_ZAK_080-00.png"
 #--------------------------------------------------
-
 
 #＠樹
 #「しかし、改めてみると、着込んでるのが分かるな。夏が暑くないのか？」
@@ -635,12 +556,10 @@ event		"event\EV_ZAK_080-00.png"
 #SCRIPT ADD KANJI
 Ｉsn't that see-through though......
 
-
 @bg_black
 wait		1000
 #■BG（ざくろの部屋）
 @bg_zakuro		# ざくろの部屋
-
 
 #などと雑談の間に、ざくろの着衣が終わった。
 #SCRIPT ADD KANJI
@@ -651,11 +570,9 @@ wait		1000
 ＠Itsuki
 「Well, hurry up and unlock it.」
 
-
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
-
 
 #＠ざくろ,Q00877
 #「…？　もう帰るの？」
@@ -672,9 +589,7 @@ wait		1000
 ＠Zakuro,Q00878
 「Yeah...... But, is it okay?」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00879
 #「せっかく、密室で二人っきりなのに？」
@@ -688,15 +603,12 @@ wait		1000
 ＠Itsuki
 「Zakuro......」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q00880
 #「ちゃんと服を脱がせられるか、忘れないうちにテストするのもいいと思う」
 ＠Zakuro,Q00880
 「You should test if you can take the clothes off properly before you forget.」
-
 
 #--------------------------------------------------
 #■（選択肢）
@@ -707,12 +619,10 @@ if sel=0 then goto youzyo_zaku5_q01_a
 if sel=1 then goto youzyo_zaku5_q01_b
 #--------------------------------------------------
 
-
 #--------------------------------------------------
 #（やってみる）
 #--------------------------------------------------
 label		youzyo_zaku5_q01_a
-
 
 #……それは、全く期待していなかったかと言えば嘘になる。
 #SCRIPT ADD KANJI
@@ -722,9 +632,7 @@ label		youzyo_zaku5_q01_a
 #SCRIPT ADD KANJI
 Ｉt's Zakuro after all. She's kind of different from the others.
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q00881
 #「最初に脱がせるの、覚えてる？」
@@ -736,9 +644,7 @@ label		youzyo_zaku5_q01_a
 ＠Itsuki
 「......Aah, the bolero......」
 
-
 @zakuro_
-
 
 #ざくろに見つめられながら、ふらふらと吸い寄せられ、服に手を伸ばす。
 #SCRIPT ADD KANJI
@@ -746,7 +652,6 @@ label		youzyo_zaku5_q01_a
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
-
 
 #＠樹
 #「ッ！？」
@@ -757,19 +662,15 @@ label		youzyo_zaku5_q01_a
 #SCRIPT ADD KANJI
 Ｊust before that, there was a knock on the door.
 
-
 #CH（雫は立ち絵無し）
-
 
 #＠雫,S00875
 #「おーい、ざくろ、居る？」
 ＠Shizuku,S00875
 「He-y, Zakuro, you there?」
 
-
 #SE10　鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
 @SE10			#鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
-
 
 #＠雫,S00876
 #「あれ、鍵がかかってる」
@@ -780,11 +681,9 @@ label		youzyo_zaku5_q01_a
 #SCRIPT ADD KANJI
 Ｉt was Shizuku-san's voice.
 
-
 @zakuro_large		# 近い
 @zakuro_shifuku
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q00882
 #「雫が来た」
@@ -796,18 +695,14 @@ label		youzyo_zaku5_q01_a
 ＠Itsuki
 「A, aa...... Seems like it.」
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q00883
 #「大丈夫。鍵してるから入ってこれないわ」
 ＠Zakuro,Q00883
 「It's okay. It's locked so she can't come in.」
 
-
 @zakuro_niko		#にこ
-
 
 ＠Zakuro,Q00884
 「それより、この状況で、気付かれないようにエッチするの。興奮するかも」
@@ -828,9 +723,7 @@ label		youzyo_zaku5_q01_a
 ＠Itsuki
 「Strange. Shizuku-san got a souvenir.」
 
-
 @zakuro			#普
-
 
 ＠Zakuro,Q00885
 「いらない。今はつっちーのおちんちんが一番欲しい」
@@ -840,9 +733,7 @@ label		youzyo_zaku5_q01_a
 ＠Itsuki
 「I see......」
 
-
 @bg_white		# 白
-
 
 雫さんの声に背を向け、オレとざくろはそのままベッドに……
 
@@ -851,9 +742,7 @@ label		youzyo_zaku5_q01_a
 ＠Shizuku,S00878
 「I finally got your favourite, "Aonori Leftovers", Zakuro.」
 
-
 bgm_stop
-
 
 #＠ざくろ,Q00886
 #「……ッ！」
@@ -868,7 +757,6 @@ wait			100
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @bg_black
 screen_blackin		1
-
 
 もう十分な欲情を抑えることなく、オレはベッドへ倒れ込んだ。
 
@@ -890,16 +778,13 @@ screen_blackin		1
 #SCRIPT ADD KANJI
 Ｚakuro's warmth, which was there until a while ago......
 
-
 @SE09			#部屋のドアの鍵を掛ける音（カチャ）
 #■BG（ざくろの部屋）
 #SE06　部屋のドア開く音（ガチャ）
 
-
 #顔を上げると………何事もなかったように、ざくろが部屋の鍵を開けていた。
 #SCRIPT ADD KANJI
 Ｗhen I raised my head.........As if nothing happened, Zakuro unlocked the door.
-
 
 @SE06			#部屋のドア開く音（ガチャ）
 @shizuku_small
@@ -908,26 +793,21 @@ screen_blackin		1
 @bg_zakuro		# ざくろの部屋
 @bgm12			#BGM 12 : メインテーマ
 
-
 #＠雫,S00879
 #「何だ、やっぱり居たんじゃないの」
 ＠Shizuku,S00879
 「What, so you were there after all.」
 
-
 @zakuro_small
 @zakuro_shifuku
 @zakuro_iya		#嫌
-
 
 #＠ざくろ,Q00887
 #「雫、今言ったお土産」
 ＠Zakuro,Q00887
 「Shizuku, the souvenir you said just now.」
 
-
 @shizuku_yorokobi	#喜
-
 
 #＠雫,S00880
 #「あぁ、これこれ。確かそうだったよね」
@@ -938,18 +818,14 @@ screen_blackin		1
 #SCRIPT ADD KANJI
 Ｓhizuku gives the goods in her hand to Zakuro.
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q00888
 #「うん……『青ノリの残り物』」
 ＠Zakuro,Q00888
 「Yup...... "Aonori Leftovers"」
 
-
 @zakuro_niko		#にこ
-
 
 #＠ざくろ,Q00889
 #「……嬉しい。ありがとう、雫」
@@ -965,9 +841,7 @@ screen_blackin		1
 ＠Itsuki
 「.........」
 
-
 @shizuku		#普通
-
 
 #＠雫,S00881
 #「……で、樹は何してるんだい？　ベッドに転がって」
@@ -979,9 +853,7 @@ screen_blackin		1
 ＠Itsuki
 「That's what I would like to know......」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00890
 #「今度にしよ、つっちー。今はそんなのより青ノリが食べたい」
@@ -995,7 +867,6 @@ screen_blackin		1
 #まぁ分かってたが………
 #SCRIPT ADD KANJI
 Ｗell, I knew it.........
-
 
 @zakuro_niko		#にこ
 #///////////////////////////////////////////////////////
@@ -1014,15 +885,12 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠ざくろ,Q00891
 #「青ノリ、青ノリ……。つっちー、食堂に行こ」
 ＠Zakuro,Q00891
 「Aonori, aonori...... Tsuchii, let's go to the dining room.」
 
-
 @zakuro_
-
 
 #＠樹
 #「はい……」
@@ -1039,19 +907,13 @@ bgm_stop
 
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 
 #--------------------------------------------------
 #（やらない）
 #--------------------------------------------------
 label		youzyo_zaku5_q01_b
-
 
 #……落ち着け。節操を持つのも大事だぞ、オレ。
 #SCRIPT ADD KANJI
@@ -1062,18 +924,14 @@ label		youzyo_zaku5_q01_b
 ＠Itsuki
 「Let's do it some other time. That wasn't what you wanted me to do today right?」
 
-
 @zakuro_akire		#呆
-
 
 #＠ざくろ,Q00892
 #「………」
 ＠Zakuro,Q00892
 「.........」
 
-
 @zakuro_metoji		#閉
-
 
 #＠ざくろ,Q00893
 #「……分かった。じゃあ今度にする」
@@ -1088,31 +946,25 @@ label		youzyo_zaku5_q01_b
 #SCRIPT ADD KANJI
 　......Next time. It will happen, for sure.
 
-
 @zakuro			#普
-
 
 #＠ざくろ,Q00894
 #「はい、じゃあこれ部屋の鍵」
 ＠Zakuro,Q00894
 「Yes, here's the key for the door.」
 
-
 @SE35			#ティーカップを置く音（カチャ）
 @bg_black
 wait		1000
 @bg_zakuro		# ざくろの部屋
-
 
 #＠樹
 #「……こほん」
 ＠Itsuki
 「......*cough*」
 
-
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @SE09			#部屋のドアの鍵を掛ける音（カチャ）
-
 
 #手渡された鍵を、変に意識しないようにしながら使った。
 #SCRIPT ADD KANJI
@@ -1123,11 +975,9 @@ wait		1000
 ＠Itsuki
 「Zakuro, today's your break right? If you're free, why don't you take a walk?」
 
-
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
-
 
 #＠ざくろ,Q00895
 #「つっちーがいいなら行きたい。いいの？」
@@ -1139,7 +989,6 @@ wait		1000
 ＠Itsuki
 「Ah. Then, let's meet in the living room when you're ready. I'll prepare too.」
 
-
 #CH（ざくろ表情・にこ）
 @zakuro_niko		#にこ
 #///////////////////////////////////////////////////////
@@ -1150,7 +999,6 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-
 #＠ざくろ,Q00896
 #「うん、分かった。なるべく急ぐから」
 ＠Zakuro,Q00896
@@ -1160,16 +1008,10 @@ layer_movepass_play	l_zakuro,0,play_once
 #SCRIPT ADD KANJI
 Ａfter confirming that she smiled at me, I also left Zakuro's room.
 
-
 bgm_stop
 @bg_black
 wait		1000
 
-
 #（スケジュール）
 return
-
-
-
-
 

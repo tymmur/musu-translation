@@ -12,11 +12,11 @@ label	shizuku_02
 #SE15　Sound of the alarm clock（*jiriririri!*）
 @se15
 
-…………………
-... ... ... ... ... ... ...
+#…………………
+　... ... ... ... ... ... ...
 
-……………
-... ... ... ... ...
+#……………
+　... ... ... ... ...
 
 #■BG（自室・昼）
 #■BG（Own room・daytime）
@@ -26,22 +26,22 @@ label	shizuku_02
 #SE71　Alarm clock turning off sound（*rin*）
 @se71
 
+#「………う」
 ＠Itsuki
-「………う」
 「... ... ... Ugh」
 
-目覚ましの音で強制的に目覚めた。
-The noise of the alarm clock jars me awake.
+#目覚ましの音で強制的に目覚めた。
+　The noise of the alarm clock jars me awake.
 
-あまり寝た気がしない。
-I didn't really feel like sleeping anyway.
+#あまり寝た気がしない。
+　I didn't really feel like sleeping anyway.
 
+#「いちごが来る前に起きるか………あのテンションに付き合えそうに無い」
 ＠樹
-「いちごが来る前に起きるか………あのテンションに付き合えそうに無い」
 「I got up before Ichigo came... ... ... Won't have to deal with that stress today」
 
-完全に昨夜の気分をそのまま引きずってきていた。
-I carry the weight of last night on my shoulders undisturbed.
+#完全に昨夜の気分をそのまま引きずってきていた。
+　I carry the weight of last night on my shoulders undisturbed.
 
 #■BG（食堂）
 #■BG（dining room）
@@ -50,46 +50,46 @@ I carry the weight of last night on my shoulders undisturbed.
 
 @miu
 
+#「おはようございます、樹さん。今日は早いんですね」
 ＠Miu,B00138
-「おはようございます、樹さん。今日は早いんですね」
 「Good morning, Itsuki-san. You're up early today」
 
+#「ああ、おはよう。寝てないって言う方が正しいだろうね、この場合は」
 ＠樹
-「ああ、おはよう。寝てないって言う方が正しいだろうね、この場合は」
 「'Morning. In this case I would say I didn't really sleep」
 
 #CH（美雨・心配表情）
 #CH（Miu・Worried expression）
 @miu_kanashimi
 
+#「………そうみたいですね」
 ＠Miu,B00139
-「………そうみたいですね」
 「... ... ... I guess you're right」
 
+#「お疲れのところすみませんが、子供達には気付かれないようにお願いします、樹さん」
 ＠Miu,B00140
-「お疲れのところすみませんが、子供達には気付かれないようにお願いします、樹さん」
 「I'm sorry that you're tired, but please make it so the children don't notice, Itsuki-san」
 
+#「あぁ、分かってる」
 ＠Itsuki
-「あぁ、分かってる」
 「Yeah, I know」
 
 #SE35　ティーカップを置く音（カチャ）
 #SE35　Sound of placing teacups（*kacha*）
 @se35
 
-美雨が淹れてくれたコーヒーを無糖であおり、強引に眠気を霧散させる。
-I force my tired eyes awake while stirring coffee Miu made for me without any sugar.
+#美雨が淹れてくれたコーヒーを無糖であおり、強引に眠気を霧散させる。
+　I force my tired eyes awake while stirring coffee Miu made for me without any sugar.
 
+#（気遣ってはくれてるけど、美雨は自然だな………）
 ＠Itsuki
-（気遣ってはくれてるけど、美雨は自然だな………）
 （She's worrying about me, but she's fine... ... ...）
 
-昨日のビデオを見終わって逡巡してからだ。
-It's ever since we finished watching that video and she hesitated.
+#昨日のビデオを見終わって逡巡してからだ。
+　It's ever since we finished watching that video and she hesitated.
 
-やっぱり美雨は何かに気付いてるんじゃないかと思う。
-I think she must have figured something out.
+#やっぱり美雨は何かに気付いてるんじゃないかと思う。
+　I think she must have figured something out.
 
 @bg_black
 
@@ -97,182 +97,180 @@ I think she must have figured something out.
 #■EVCG（Everyone at meal）※No Shizuku or Yuzu
 event	"event\ev_all_020-04.png"
 
+#「ふあぁ……んぅ……休みの日なのに、何でここはいつもどおりに起床してるのよ」
 ＠Karin,P00068
-「ふあぁ……んぅ……休みの日なのに、何でここはいつもどおりに起床してるのよ」
 「ふあぁ……んぅ……Today's our day off, why am I here so early?」
 
+#「かりんちゃんって朝弱かったっけ？　最近いつも眠そうだけど」
 ＠Mikan,A00305
-「かりんちゃんって朝弱かったっけ？　最近いつも眠そうだけど」
 「Were you never a morning person, Karin-chan? You always seem tired lately」
 
+#「特別そんなことはないんだけど……ここが早いのよ」
 ＠Karin,P00069
-「特別そんなことはないんだけど……ここが早いのよ」
 「It's nothing in particular... ... But it's early right now」
 
+#「頼んでも無いのに、人力目覚ましが廊下を走り回ってるし……あ、美雨。コーヒーは無糖でお願い」
 ＠Karin,P00070
-「頼んでも無いのに、人力目覚ましが廊下を走り回ってるし……あ、美雨。コーヒーは無糖でお願い」
 「I have a natural alarm clock that runs around the hall even though I didn't ask for one... ... Ah, Miu. No sugar in my coffee please」
 
+#「え、目覚ましが走ってるの？　いちご全然見たこと無いよ」
 ＠Ichigo,O00170
-「え、目覚ましが走ってるの？　いちご全然見たこと無いよ」
 「What, an alarm clock running in the hall? I've never seen such a thing」
 
+#「はぁぁ……眠くて突っ込む気にもなれないわ」
 ＠Karin,P00071
-「はぁぁ……眠くて突っ込む気にもなれないわ」
 「Haaa... ... too tired to respond」
 
 #SE35　ティーカップを置く音（カチャ）
 #SE35　Sound of placing teacups（*kacha*）
 
+#「はい、かりんちゃん。ミルクは？」
 ＠Miu,B00141
-「はい、かりんちゃん。ミルクは？」
 「Here, Karin-chan. Would you like some milk?」
 
+#「それは欲しいぃ……入れて」
 ＠Karin,P00072
-「それは欲しいぃ……入れて」
 「I waant it... ... Put some」
 
+#「ねぇねぇ！　目覚ましって何？　どこ走ってるの！？　いちごも見たいよー！」
 ＠Ichigo,O00171
-「ねぇねぇ！　目覚ましって何？　どこ走ってるの！？　いちごも見たいよー！」
 「Hey! What woke you up? Where was it running!? I wanna see it!」
 
+#「元気だよね、いちごちゃんっていつも。ちょっと羨ましいくらい」
 ＠Suika,R00141
-「元気だよね、いちごちゃんっていつも。ちょっと羨ましいくらい」
 「You're so energetic, Ichigo-chan. I'm a little jealous」
 
+#「いちごは遊ぶのも寝るのも全力だから。燃費がいいのよね」
 ＠Zakuro,Q00184
-「いちごは遊ぶのも寝るのも全力だから。燃費がいいのよね」
 「Ichigo playing or sleeping is always full blast. Her gas mileage is pretty low」
 
 #SE23　青ノリを振り掛ける音（ザッザッザッ）
 #SE23　Sound of sprinkling aonori（*za za za*）
 
+#「ふ、それはうらやましい限り………って！　何入れてるのよ私のコーヒーに！」
 ＠Karin,P00073
-「ふ、それはうらやましい限り………って！　何入れてるのよ私のコーヒーに！」
 「I'm super jealous... ... ... Hey! What are you putting in my coffee!?」
 
+#「青ノリ。目が覚めるでしょ？」
 ＠Zakuro,Q00185
-「青ノリ。目が覚めるでしょ？」
 「Aonori. Can't you see?」
 
 #SE66　効果音１（ビシッ！）
 #SE66　Sound effect 1（*bishi!*）
 
+#「絶句して覚めたわよッ、これじゃ飲めないでしょうが！」
 ＠Karin,P00074
-「絶句して覚めたわよッ、これじゃ飲めないでしょうが！」
 「I can see, I was just lost for words! I won't be able to drink this!」
 
-これはこれでいつもどおりの朝。
-The usual morning routine.
+#これはこれでいつもどおりの朝。
+　The usual morning routine.
 
-もともと雫さんは居ない事も多いので疑問は上がらないが、黙ってたらいずれ気付かれるだろう。
-Shizuku-san is often absent so nobody would say anything, but they would notice eventually if I stay silent.
+#もともと雫さんは居ない事も多いので疑問は上がらないが、黙ってたらいずれ気付かれるだろう。
+　Shizuku-san is often absent so nobody would say anything, but they would notice eventually if I stay silent.
 
+#「みんな、雫さんのことで話しがあるんだけど」
 ＠Itsuki
-「みんな、雫さんのことで話しがあるんだけど」
 「Everyone, I have an announcement about Shizuku-san」
 
 #■BG（食堂）
 #■BG（Dining room）
 
+#会話の途切れに声を掛け、みんなの注目を集めた。
+　I got everyone's attention, speaking in a pause in the conversation.
 
-
-会話の途切れに声を掛け、みんなの注目を集めた。
-I got everyone's attention, speaking in a pause in the conversation.
-
+#「はぁぁ……コーヒーが」
 ＠Karin,P00075
-「はぁぁ……コーヒーが」
 「Haaa... ... My coffee」
 
+#「雫さん、何か急な用事があるとかでしばらく帰ってこないらしいから」
 ＠Itsuki
-「雫さん、何か急な用事があるとかでしばらく帰ってこないらしいから」
 「Shizuku-san had some urgent business to attend to so she won't be back for a while」
 
+#「え？　ずいぶん急なんですね。全然そんなことは話してませんでしたけど」
 ＠Suika,R00142
-「え？　ずいぶん急なんですね。全然そんなことは話してませんでしたけど」
 「What? That must have been pretty urgent. I never heard anything about this」
 
+#「いちごも聞いてないよー。言ってくれたらお土産頼みたかったのにぃ」
 ＠Ichigo,O00172
-「いちごも聞いてないよー。言ってくれたらお土産頼みたかったのにぃ」
 「Neither did I. If you had told me I would have asked her to get me a souvenir.」
 
+#「っていうか、私はあの人が仕事していたことの方が驚きだけど」
 ＠Karin,P00076
-「っていうか、私はあの人が仕事していたことの方が驚きだけど」
 「I'm more surprised that she even has a job」
 
+#「は、ははは……」
 ＠Itsuki
-「は、ははは……」
 「Ha, hahaha... ...」
 
-散々ですよ、雫さん……
-You left quite the loose end, Shizuku-san... ...
+#散々ですよ、雫さん……
+　You left quite the loose end, Shizuku-san... ...
 
+#「……まぁ、そういうわけで。しばらくは帰ってこないけど心配しないでいいからな」
 ＠Itsuki
-「……まぁ、そういうわけで。しばらくは帰ってこないけど心配しないでいいからな」
 「... ... So that's how it is. She won't be back for a while but you don't need to worry about her」
 
+#「うん、分かった」
 ＠Mikan,A00306
-「うん、分かった」
 「Alright」
 
+#「………」
 ＠Zakuro,Q00186
-「………」
 「... ... ...」
 
+#「……つっちー、何か隠してる？」
 ＠Zakuro,Q00187
-「……つっちー、何か隠してる？」
 「... ... Tsuchiー, are you hiding something?」
 
-ギクッ！
-*urk*!
+#ギクッ！
+　*urk*!
 
+#「え゛ッ！？　な、何で……？」
 ＠Itsuki
-「え゛ッ！？　な、何で……？」
 「What!? W-Why... ...?」
 
+#「何か、そう改まって念を押すのが引っかかったから」
 ＠Zakuro,Q00188
-「何か、そう改まって念を押すのが引っかかったから」
 「Something about the way you're telling us this is strange」
 
+#「そ、そうか……？　えっと」
 ＠Itsuki
-「そ、そうか……？　えっと」
 「R-Really... ...? Um」
 
+#「それはね、私達も昨日の遅くに聞いたばかりで驚いてるからよ、ざくろちゃん」
 ＠Miu,B00142
-「それはね、私達も昨日の遅くに聞いたばかりで驚いてるからよ、ざくろちゃん」
 「Well you know, we only heard about this late last night so we're also surprised, Zakuro-chan」
 
-キッチンから再度かりんのコーヒーを持ってきた美雨が、ベストタイミングでフォローを挟んだ。
-Miu, coming from the kitchen again with Karin's coffee, covers for me at just the right moment.
+#キッチンから再度かりんのコーヒーを持ってきた美雨が、ベストタイミングでフォローを挟んだ。
+　Miu, coming from the kitchen again with Karin's coffee, covers for me at just the right moment.
 
+#「雫さんが家を空けるのは初めてじゃないし、みんな大丈夫ね？」
 ＠Miu,B00143
-「雫さんが家を空けるのは初めてじゃないし、みんな大丈夫ね？」
 「It's not the first time she's been gone from the house, you guys will be fine right?」
 
+#「はーいッ♪」
 ＠Ichigo,O00173
-「はーいッ♪」
 「Yup♪」
 
+#「ん、分かった」
 ＠Zakuro,Q00189
-「ん、分かった」
 「Alright」
 
-そうまとめると、訝しんだざくろをはじめ、子供達は素直に頷くのだった。
-After wrapping it up, the children nod their heads obediently starting from Zakuro.
+#そうまとめると、訝しんだざくろをはじめ、子供達は素直に頷くのだった。
+　After wrapping it up, the children nod their heads obediently starting from Zakuro.
 
+#「ま、別に居ても居なくてもどっちでもいいしね」
 ＠Karin,P00077
-「ま、別に居ても居なくてもどっちでもいいしね」
 「Well, it doesn't really matter whether she's here or not does it.」
 
+#「はは……キツいな」
 ＠Itsuki
-「はは……キツいな」
 「Haha... ... That's harsh」
 
-本当のことを知るオレはそんな気軽になれないが。
-I can't be so carefree about this since I know the truth.
+#本当のことを知るオレはそんな気軽になれないが。
+　I can't be so carefree about this since I know the truth.
 
-何はともあれ、今日からまた新たな問題を抱え込んだ日々が始まるのだ。
-At any rate, new days with new problems to be resolved are ahead of us.
+#何はともあれ、今日からまた新たな問題を抱え込んだ日々が始まるのだ。
+　At any rate, new days with new problems to be resolved are ahead of us.
 
 #（スケジュール）
 #（Schedule）
@@ -280,5 +278,4 @@ At any rate, new days with new problems to be resolved are ahead of us.
 @bg_black
 
 return
-
 

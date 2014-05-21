@@ -48,7 +48,6 @@ if command=90 then goto schedule_down
 #ここにきてはいけない
 goto	scheduke_skip
 
-
 #------------------------------------------------------------------------------
 #  勉強(やさしい)
 #------------------------------------------------------------------------------
@@ -103,7 +102,6 @@ add_atama=study2_atama+rnd
 @work_rnd1
 add_karada=study2_karada+rnd
 
-
 goto	scheduke_skip
 
 #------------------------------------------------------------------------------
@@ -114,7 +112,6 @@ label	schedule_study3
 if schedule_chara=1 then @mikan_study3_load
 if schedule_chara=2 then @ichigo_study3_load
 if schedule_chara=3 then @karin_study3_load
-
 
 #アニメセットの定義
 layer_position_set	l_work-1,4,40
@@ -143,7 +140,6 @@ label	schedule_study4
 if schedule_chara=1 then @mikan_study4_load
 if schedule_chara=2 then @ichigo_study4_load
 if schedule_chara=3 then @karin_study4_load
-
 
 #アニメセットの定義
 layer_position_set	l_work-1,4,40
@@ -312,7 +308,6 @@ if ojisan_count=0 then goto scheduke_skip
 add_money=add_money*3
 goto	scheduke_skip
 
-
 #------------------------------------------------------------------------------
 #  せったい
 #------------------------------------------------------------------------------
@@ -464,7 +459,6 @@ if schedule_chara=1 then @mikan_rest2_load
 if schedule_chara=2 then @ichigo_rest2_load
 if schedule_chara=3 then @karin_rest2_load
 
-
 #アニメセットの定義
 layer_position_set	l_work-1,4,40
 layer_reference_set	l_work-1,l_work
@@ -478,7 +472,6 @@ add_kiryoku=kiryoku_max/3
 add_money=_MONEY/30*-1
 
 goto	scheduke_skip
-
 
 #------------------------------------------------------------------------------
 #  お習字
@@ -562,7 +555,6 @@ add_karada=lesson3_karada+rnd
 add_kokoro=lesson3_kokoro+rnd
 add_money=lesson3_price
 
-
 goto	scheduke_skip
 #------------------------------------------------------------------------------
 #  バレエ（ハード）
@@ -591,9 +583,7 @@ add_karada=lesson4_karada+rnd
 add_kokoro=lesson4_kokoro+rnd
 add_money=lesson4_price
 
-
 goto	scheduke_skip
-
 
 #------------------------------------------------------------------------------
 #  病気
@@ -619,7 +609,6 @@ add_atama=-amata_max/50
 
 goto	scheduke_skip
 
-
 #------------------------------------------------------------------------------
 #  加算
 #------------------------------------------------------------------------------
@@ -634,80 +623,78 @@ if ojisan_count>0 then ojisan_count=ojisan_count-1
 
 # パラメータの加算 ##########################################################
 for imikan=0 to 2
-	#けんこう
-	kenkou	=	kenkou+add_kenkou*kenkou_hosei
-	#きりょく
-	kiryoku	=	kiryoku+add_kiryoku*kiryoku_hosei
-	rand	rnd,0,kiryoku_max
-	#お休みの場合をミスしない
-	if command=40 or command=90 then rnd=0
-	if rnd>kiryoku*2 then goto schedule_work_miss
-	if _MONEY+add_money<0 then goto schedule_work_miss2
-	#成功-----------------------------------------------------------
-	#あたま
-	atama	=	atama+add_atama*atama_hosei
-	#からだ
-	karada	=	karada+add_karada*karada_hosei
-	#こころ
-	kokoro	=	kokoro+add_kokoro*kokoro_hosei
-	#パラメータ範囲チェック
-	#お金
-	money_add 	add_money*money_hosei
-	goto	schedule_work_skip
+#けんこう
+kenkou	=	kenkou+add_kenkou*kenkou_hosei
+#きりょく
+kiryoku	=	kiryoku+add_kiryoku*kiryoku_hosei
+rand	rnd,0,kiryoku_max
+#お休みの場合をミスしない
+if command=40 or command=90 then rnd=0
+if rnd>kiryoku*2 then goto schedule_work_miss
+if _MONEY+add_money<0 then goto schedule_work_miss2
+#成功-----------------------------------------------------------
+#あたま
+atama	=	atama+add_atama*atama_hosei
+#からだ
+karada	=	karada+add_karada*karada_hosei
+#こころ
+kokoro	=	kokoro+add_kokoro*kokoro_hosei
+#パラメータ範囲チェック
+#お金
+money_add 	add_money*money_hosei
+goto	schedule_work_skip
 label	schedule_work_miss2
-	layer_load_overlap	l_work+2,"schedule\nomoney.png"
-	layer_reference_set	l_work+2,l_work
-	#お金
-	money_add 	add_money*money_hosei
-	if schedule_chara=1 then voice	"A03136"
-	if schedule_chara=2 then voice	"O00085sys"
-	if schedule_chara=3 then voice	"P01883sys"
-	se	0,"schedule\失敗.wav",play_once
-	goto	schedule_work_skip
+layer_load_overlap	l_work+2,"schedule\nomoney.png"
+layer_reference_set	l_work+2,l_work
+#お金
+money_add 	add_money*money_hosei
+if schedule_chara=1 then voice	"A03136"
+if schedule_chara=2 then voice	"O00085sys"
+if schedule_chara=3 then voice	"P01883sys"
+se	0,"schedule\失敗.wav",play_once
+goto	schedule_work_skip
 
 label	schedule_work_miss
-	#失敗-----------------------------------------------------------
-	if schedule_chara=1 then voice	"A03136"
-	if schedule_chara=2 then voice	"O00085sys"
-	if schedule_chara=3 then voice	"P01883sys"
-	se	0,"schedule\失敗.wav",play_once
-	money_add 	add_money*money_hosei/2
-	goto	schedule_work_skip
+#失敗-----------------------------------------------------------
+if schedule_chara=1 then voice	"A03136"
+if schedule_chara=2 then voice	"O00085sys"
+if schedule_chara=3 then voice	"P01883sys"
+se	0,"schedule\失敗.wav",play_once
+money_add 	add_money*money_hosei/2
+goto	schedule_work_skip
 label	schedule_work_skip
-	lifebar_setauto		life_kiryoku,kiryoku
-	lifebar_setauto		life_kenkou,kenkou
-	lifebar_setauto		life_kokoro,kokoro
-	lifebar_setauto		life_atama,atama
-	lifebar_setauto		life_karada,karada
+lifebar_setauto		life_kiryoku,kiryoku
+lifebar_setauto		life_kenkou,kenkou
+lifebar_setauto		life_kokoro,kokoro
+lifebar_setauto		life_atama,atama
+lifebar_setauto		life_karada,karada
 
-	if schedule_chara=1 then @mikan_schedule_paramget
-	if schedule_chara=2 then @ichigo_schedule_paramget
-	if schedule_chara=3 then @karin_schedule_paramget
+if schedule_chara=1 then @mikan_schedule_paramget
+if schedule_chara=2 then @ichigo_schedule_paramget
+if schedule_chara=3 then @karin_schedule_paramget
 
-	if schedule_chara=1 then @mikan_check
-	if schedule_chara=2 then @ichigo_check
-	if schedule_chara=3 then @karin_check
+if schedule_chara=1 then @mikan_check
+if schedule_chara=2 then @ichigo_check
+if schedule_chara=3 then @karin_check
 
-	if schedule_chara=1 then @mikan_schedule_paramset
-	if schedule_chara=2 then @ichigo_schedule_paramset
-	if schedule_chara=3 then @karin_schedule_paramset
+if schedule_chara=1 then @mikan_schedule_paramset
+if schedule_chara=2 then @ichigo_schedule_paramset
+if schedule_chara=3 then @karin_schedule_paramset
 
-	lifebar_setauto		life_kiryoku,kiryoku
-	lifebar_setauto		life_kenkou,kenkou
-	lifebar_setauto		life_kokoro,kokoro
-	lifebar_setauto		life_atama,atama
-	lifebar_setauto		life_karada,karada
-	
-	wait		700
-	layer_fadeout	l_work+2
+lifebar_setauto		life_kiryoku,kiryoku
+lifebar_setauto		life_kenkou,kenkou
+lifebar_setauto		life_kokoro,kokoro
+lifebar_setauto		life_atama,atama
+lifebar_setauto		life_karada,karada
+
+wait		700
+layer_fadeout	l_work+2
 next								#繰り返し
-
 
 #時給アップチェック 
 if schedule_chara=1 then @mikan_work_check
 if schedule_chara=2 then @ichigo_work_check
 if schedule_chara=3 then @karin_work_check
-
 
 #終了エフェクト
 
@@ -734,14 +721,11 @@ layer_release		l_work
 
 return
 
-
 # randomの生成 ##############################################################
 macro	work_rnd1
-	rand	rnd,1,4
-	rnd=rnd-2
+rand	rnd,1,4
+rnd=rnd-2
 endm
-
-
 
 # みかん画像読み込み用 #######################################################
 # みかん勉強(やさしい) -------------------------------------------------------
@@ -1070,199 +1054,198 @@ endm
 #みかんパラメータセット---------------------------------------------------
 macro	mikan_schedule_paramset
 
-	kenkou_max=mikan_kenkou_max
-	kiryoku_max=mikan_kiryoku_max
-	atama_max=mikan_atama_max
-	karada_max=mikan_karada_max
-	kokoro_max=mikan_kokoro_max
+kenkou_max=mikan_kenkou_max
+kiryoku_max=mikan_kiryoku_max
+atama_max=mikan_atama_max
+karada_max=mikan_karada_max
+kokoro_max=mikan_kokoro_max
 
-	kenkou=mikan_kenkou
-	kiryoku=mikan_kiryoku
-	atama=mikan_atama
-	karada=mikan_karada
-	kokoro=mikan_kokoro
-	@calc_mikan_miryoku
-	miryoku=mikan_miryoku
+kenkou=mikan_kenkou
+kiryoku=mikan_kiryoku
+atama=mikan_atama
+karada=mikan_karada
+kokoro=mikan_kokoro
+@calc_mikan_miryoku
+miryoku=mikan_miryoku
 
-	kenkou_hosei=mikan_kenkou_hosei
-	kiryoku_hosei=mikan_kiryoku_hosei
-	atama_hosei=mikan_atama_hosei
-	karada_hosei=mikan_karada_hosei
-	kokoro_hosei=mikan_kokoro_hosei
+kenkou_hosei=mikan_kenkou_hosei
+kiryoku_hosei=mikan_kiryoku_hosei
+atama_hosei=mikan_atama_hosei
+karada_hosei=mikan_karada_hosei
+kokoro_hosei=mikan_kokoro_hosei
 
-	money_hosei=mikan_money_hosei
-	ojisan_count=mikan_ojisan_count
-	work1_price=mikan_work1_price
-	work2_price=mikan_work2_price
-	work3_price=mikan_work3_price
-	work4_price=mikan_work4_price
+money_hosei=mikan_money_hosei
+ojisan_count=mikan_ojisan_count
+work1_price=mikan_work1_price
+work2_price=mikan_work2_price
+work3_price=mikan_work3_price
+work4_price=mikan_work4_price
 
 endm
 #ゲット
 macro	mikan_schedule_paramget
-	mikan_kenkou_max=kenkou_max
-	mikan_kiryoku_max=kiryoku_max
-	mikan_atama_max=atama_max
-	mikan_karada_max=karada_max
-	mikan_kokoro_max=kokoro_max
+mikan_kenkou_max=kenkou_max
+mikan_kiryoku_max=kiryoku_max
+mikan_atama_max=atama_max
+mikan_karada_max=karada_max
+mikan_kokoro_max=kokoro_max
 
-	mikan_kenkou=kenkou
-	mikan_kiryoku=kiryoku
-	mikan_atama=atama
-	mikan_karada=karada
-	mikan_kokoro=kokoro
+mikan_kenkou=kenkou
+mikan_kiryoku=kiryoku
+mikan_atama=atama
+mikan_karada=karada
+mikan_kokoro=kokoro
 
-	mikan_kenkou_hosei=kenkou_hosei
-	mikan_kiryoku_hosei=kiryoku_hosei
-	mikan_atama_hosei=atama_hosei
-	mikan_karada_hosei=karada_hosei
-	mikan_kokoro_hosei=kokoro_hosei
+mikan_kenkou_hosei=kenkou_hosei
+mikan_kiryoku_hosei=kiryoku_hosei
+mikan_atama_hosei=atama_hosei
+mikan_karada_hosei=karada_hosei
+mikan_kokoro_hosei=kokoro_hosei
 
-	mikan_money_hosei=money_hosei
-	mikan_ojisan_count=ojisan_count
-	mikan_work1_price=work1_price
-	mikan_work2_price=work2_price
-	mikan_work3_price=work3_price
-	mikan_work4_price=work4_price
+mikan_money_hosei=money_hosei
+mikan_ojisan_count=ojisan_count
+mikan_work1_price=work1_price
+mikan_work2_price=work2_price
+mikan_work3_price=work3_price
+mikan_work4_price=work4_price
 
 endm
 
 #いちごパラメータセット
 macro	ichigo_schedule_paramset
-	kenkou_max=ichigo_kenkou_max
-	kiryoku_max=ichigo_kiryoku_max
-	atama_max=ichigo_atama_max
-	karada_max=ichigo_karada_max
-	kokoro_max=ichigo_kokoro_max
+kenkou_max=ichigo_kenkou_max
+kiryoku_max=ichigo_kiryoku_max
+atama_max=ichigo_atama_max
+karada_max=ichigo_karada_max
+kokoro_max=ichigo_kokoro_max
 
-	kenkou=ichigo_kenkou
-	kiryoku=ichigo_kiryoku
-	atama=ichigo_atama
-	karada=ichigo_karada
-	kokoro=ichigo_kokoro
-	@calc_ichigo_miryoku
-	miryoku=ichigo_miryoku
+kenkou=ichigo_kenkou
+kiryoku=ichigo_kiryoku
+atama=ichigo_atama
+karada=ichigo_karada
+kokoro=ichigo_kokoro
+@calc_ichigo_miryoku
+miryoku=ichigo_miryoku
 
-	kenkou_hosei=ichigo_kenkou_hosei
-	kiryoku_hosei=ichigo_kiryoku_hosei
-	atama_hosei=ichigo_atama_hosei
-	karada_hosei=ichigo_karada_hosei
-	kokoro_hosei=ichigo_kokoro_hosei
+kenkou_hosei=ichigo_kenkou_hosei
+kiryoku_hosei=ichigo_kiryoku_hosei
+atama_hosei=ichigo_atama_hosei
+karada_hosei=ichigo_karada_hosei
+kokoro_hosei=ichigo_kokoro_hosei
 
-	money_hosei=ichigo_money_hosei
-	ojisan_count=ichigo_ojisan_count
-	work1_price=ichigo_work1_price
-	work2_price=ichigo_work2_price
-	work3_price=ichigo_work3_price
-	work4_price=ichigo_work4_price
+money_hosei=ichigo_money_hosei
+ojisan_count=ichigo_ojisan_count
+work1_price=ichigo_work1_price
+work2_price=ichigo_work2_price
+work3_price=ichigo_work3_price
+work4_price=ichigo_work4_price
 endm
 
 macro	ichigo_schedule_paramget
-	ichigo_kenkou_max=kenkou_max
-	ichigo_kiryoku_max=kiryoku_max
-	ichigo_atama_max=atama_max
-	ichigo_karada_max=karada_max
-	ichigo_kokoro_max=kokoro_max
+ichigo_kenkou_max=kenkou_max
+ichigo_kiryoku_max=kiryoku_max
+ichigo_atama_max=atama_max
+ichigo_karada_max=karada_max
+ichigo_kokoro_max=kokoro_max
 
-	ichigo_kenkou=kenkou
-	ichigo_kiryoku=kiryoku
-	ichigo_atama=atama
-	ichigo_karada=karada
-	ichigo_kokoro=kokoro
+ichigo_kenkou=kenkou
+ichigo_kiryoku=kiryoku
+ichigo_atama=atama
+ichigo_karada=karada
+ichigo_kokoro=kokoro
 
-	ichigo_kenkou_hosei=kenkou_hosei
-	ichigo_kiryoku_hosei=kiryoku_hosei
-	ichigo_atama_hosei=atama_hosei
-	ichigo_karada_hosei=karada_hosei
-	ichigo_kokoro_hosei=kokoro_hosei
+ichigo_kenkou_hosei=kenkou_hosei
+ichigo_kiryoku_hosei=kiryoku_hosei
+ichigo_atama_hosei=atama_hosei
+ichigo_karada_hosei=karada_hosei
+ichigo_kokoro_hosei=kokoro_hosei
 
-	ichigo_money_hosei=money_hosei
-	ichigo_ojisan_count=ojisan_count
-	ichigo_work1_price=work1_price
-	ichigo_work2_price=work2_price
-	ichigo_work3_price=work3_price
-	ichigo_work4_price=work4_price
+ichigo_money_hosei=money_hosei
+ichigo_ojisan_count=ojisan_count
+ichigo_work1_price=work1_price
+ichigo_work2_price=work2_price
+ichigo_work3_price=work3_price
+ichigo_work4_price=work4_price
 endm
 
 #かりんパラメータセット
 macro	karin_schedule_paramset
-	kenkou_max=karin_kenkou_max
-	kiryoku_max=karin_kiryoku_max
-	atama_max=karin_atama_max
-	karada_max=karin_karada_max
-	kokoro_max=karin_kokoro_max
-	@calc_karin_miryoku
-	miryoku=karin_miryoku
+kenkou_max=karin_kenkou_max
+kiryoku_max=karin_kiryoku_max
+atama_max=karin_atama_max
+karada_max=karin_karada_max
+kokoro_max=karin_kokoro_max
+@calc_karin_miryoku
+miryoku=karin_miryoku
 
-	kenkou=karin_kenkou
-	kiryoku=karin_kiryoku
-	atama=karin_atama
-	karada=karin_karada
-	kokoro=karin_kokoro
+kenkou=karin_kenkou
+kiryoku=karin_kiryoku
+atama=karin_atama
+karada=karin_karada
+kokoro=karin_kokoro
 
-	kenkou_hosei=karin_kenkou_hosei
-	kiryoku_hosei=karin_kiryoku_hosei
-	atama_hosei=karin_atama_hosei
-	karada_hosei=karin_karada_hosei
-	kokoro_hosei=karin_kokoro_hosei
+kenkou_hosei=karin_kenkou_hosei
+kiryoku_hosei=karin_kiryoku_hosei
+atama_hosei=karin_atama_hosei
+karada_hosei=karin_karada_hosei
+kokoro_hosei=karin_kokoro_hosei
 
-	money_hosei=karin_money_hosei
-	ojisan_count=karin_ojisan_count
-	work1_price=karin_work1_price
-	work2_price=karin_work2_price
-	work3_price=karin_work3_price
-	work4_price=karin_work4_price
+money_hosei=karin_money_hosei
+ojisan_count=karin_ojisan_count
+work1_price=karin_work1_price
+work2_price=karin_work2_price
+work3_price=karin_work3_price
+work4_price=karin_work4_price
 endm
 
 #かりんパラメータセット
 macro	karin_schedule_paramget
-	karin_kenkou_max=kenkou_max
-	karin_kiryoku_max=kiryoku_max
-	karin_atama_max=atama_max
-	karin_karada_max=karada_max
-	karin_kokoro_max=kokoro_max
+karin_kenkou_max=kenkou_max
+karin_kiryoku_max=kiryoku_max
+karin_atama_max=atama_max
+karin_karada_max=karada_max
+karin_kokoro_max=kokoro_max
 
-	karin_kenkou=kenkou
-	karin_kiryoku=kiryoku
-	karin_atama=atama
-	karin_karada=karada
-	karin_kokoro=kokoro
+karin_kenkou=kenkou
+karin_kiryoku=kiryoku
+karin_atama=atama
+karin_karada=karada
+karin_kokoro=kokoro
 
-	karin_kenkou_hosei=kenkou_hosei
-	karin_kiryoku_hosei=kiryoku_hosei
-	karin_atama_hosei=atama_hosei
-	karin_karada_hosei=karada_hosei
-	karin_kokoro_hosei=kokoro_hosei
+karin_kenkou_hosei=kenkou_hosei
+karin_kiryoku_hosei=kiryoku_hosei
+karin_atama_hosei=atama_hosei
+karin_karada_hosei=karada_hosei
+karin_kokoro_hosei=kokoro_hosei
 
-	karin_money_hosei=money_hosei
-	karin_ojisan_count=ojisan_count
-	karin_work1_price=work1_price
-	karin_work2_price=work2_price
-	karin_work3_price=work3_price
-	karin_work4_price=work4_price
+karin_money_hosei=money_hosei
+karin_ojisan_count=ojisan_count
+karin_work1_price=work1_price
+karin_work2_price=work2_price
+karin_work3_price=work3_price
+karin_work4_price=work4_price
 endm
 
 macro	mikan_work_check
-	if mikan_work1=mikan_work1_max then gosub mikan_work1_up
-	if mikan_work2=mikan_work2_max then gosub mikan_work2_up
-	if mikan_work3=mikan_work3_max then gosub mikan_work3_up
-	if mikan_work4=mikan_work4_max then gosub mikan_work4_up
+if mikan_work1=mikan_work1_max then gosub mikan_work1_up
+if mikan_work2=mikan_work2_max then gosub mikan_work2_up
+if mikan_work3=mikan_work3_max then gosub mikan_work3_up
+if mikan_work4=mikan_work4_max then gosub mikan_work4_up
 endm
 
 macro	ichigo_work_check
-	if ichigo_work1=ichigo_work1_max then gosub ichigo_work1_up
-	if ichigo_work2=ichigo_work2_max then gosub ichigo_work2_up
-	if ichigo_work3=ichigo_work3_max then gosub ichigo_work3_up
-	if ichigo_work4=ichigo_work4_max then gosub ichigo_work4_up
+if ichigo_work1=ichigo_work1_max then gosub ichigo_work1_up
+if ichigo_work2=ichigo_work2_max then gosub ichigo_work2_up
+if ichigo_work3=ichigo_work3_max then gosub ichigo_work3_up
+if ichigo_work4=ichigo_work4_max then gosub ichigo_work4_up
 endm
 
 macro	karin_work_check
-	if karin_work1=karin_work1_max then gosub karin_work1_up
-	if karin_work2=karin_work2_max then gosub karin_work2_up
-	if karin_work3=karin_work3_max then gosub karin_work3_up
-	if karin_work4=karin_work4_max then gosub karin_work4_up
+if karin_work1=karin_work1_max then gosub karin_work1_up
+if karin_work2=karin_work2_max then gosub karin_work2_up
+if karin_work3=karin_work3_max then gosub karin_work3_up
+if karin_work4=karin_work4_max then gosub karin_work4_up
 endm
-
 
 #みかん仕事1　時給アップ ####################################################
 label	mikan_work1_up
@@ -1300,7 +1283,6 @@ mikan_work4_price=mikan_work4_price*1.5
 voice	"A02526"
 return
 
-
 #いちご仕事1　時給アップ ####################################################
 label	ichigo_work1_up
 voice	"O03706sys"
@@ -1337,7 +1319,6 @@ ichigo_work4_price=ichigo_work4_price*1.5
 voice	"O03712"
 return
 
-
 #かりん仕事1　時給アップ ####################################################
 label	karin_work1_up
 voice	"P03557"
@@ -1373,8 +1354,4 @@ karin_work4_max=karin_work4_max+16
 karin_work4_price=karin_work4_price*1.5
 voice	"P02800sys"
 return
-
-
-
-
 

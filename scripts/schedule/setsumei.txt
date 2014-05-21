@@ -7,38 +7,31 @@ date_open
 
 @shizuku
 
-＠雫,S00093
-「じゃあ実際にスケジュールを組む過程で説明をするって話だってけど」
 ＠Shizuku,S00093
 「So, now I will give you an explanation of the process of constructing the schedule.」
 
-＠雫,S00094
-「とりあえず注意してほしいのは、調教とは言っても子供達の健康状態やメンタル面でも気を使ってもらいたいってこと」
+#「とりあえず注意してほしいのは、調教とは言っても子供達の健康状態やメンタル面でも気を使ってもらいたいってこと」
 ＠Shizuku,S00094
 「Firstly I want you to take this piece of advice: although called training you will want to concern yourself with the children's health and mental levels among other things.」
 
 @shizuku_ikari
 
-
-＠雫,S00095
-「調教は手段であって目的じゃないからね。肝心の売春に支障が出るようになったら困る」
+#「調教は手段であって目的じゃないからね。肝心の売春に支障が出るようになったら困る」
 ＠Shizuku,S00095
 「The training has a method but you don't know the goal, right? I'm worried about how you will deal with the obstacles.」
 
 @shizuku
 
-＠雫,S00096
-「それらを踏まえた上でのスケジュール調整だけど……説明、した方がいいかい？」
+#「それらを踏まえた上でのスケジュール調整だけど……説明、した方がいいかい？」
 ＠Shizuku,S00096
 「So the schedule adjustment that is based on these things...... Had I better explain it?」
-
 
 #■（選択肢）
 #■（１．お願いする）（youzyoG S-1-1へ）
 #■（２．大体分かる）（youzyoG S-2へ）
-select	sel,"お願いする","大体分かる"
-if sel=0 then goto youzyos_01
-if sel=1 then goto youzyos_02
+#select	sel,"お願いする","大体分かる"
+#if sel=0 then goto youzyos_01
+#if sel=1 then goto youzyos_02
 
 #■（Choice）
 #■（１．Please do.）（youzyoG S-1-1へ）
@@ -55,8 +48,7 @@ label youzyos_01 ##############################################################
 
 @shizuku_akire
 
-＠雫,S00097
-「世話が焼けるねぇ……じゃあ、ざっくりと説明させて貰うよ」
+#「世話が焼けるねぇ……じゃあ、ざっくりと説明させて貰うよ」
 ＠Shizuku,S00097
 「How troublesome...... Then, I will give you a brief overview.」
 
@@ -71,13 +63,11 @@ wait	500
 
 @shizuku_ikari
 
-＠雫,S00098
-「樹にはまずはみかんの調教を担当してもらおうか。他の娘はだいたいこっちで調教を進めているからね」
+#「樹にはまずはみかんの調教を担当してもらおうか。他の娘はだいたいこっちで調教を進めているからね」
 ＠Shizuku,S00098
 「To start with, shall we put you in charge of Mikan? Since the other girls are already advanced in their training.」
 
-＠雫,S00099
-「慣れてきたら他の娘も担当してもらうから、ぼさっとしてないで早めに覚えるんだよ」
+#「慣れてきたら他の娘も担当してもらうから、ぼさっとしてないで早めに覚えるんだよ」
 ＠Shizuku,S00099
 「Once you get a feel for it you will be in charge of the other girls as well, so commit to memory now not to be lazy.」
 
@@ -88,63 +78,52 @@ layer_load		2,"cg\setumei\setumei_01.png"
 layer_position_set	2,0,64
 layer_move		2,1000,800,0,300,0,passtype_neville_a
 
-
 @shizuku
-＠雫,S00100
-「期間は一年間。調教は土曜日に行ってもらう」
+#「期間は一年間。調教は土曜日に行ってもらう」
 ＠Shizuku,S00100
 「A term lasts one year. You will do the training on Saturdays.」
 
-＠雫,S00101
-「あんたにチンポが何本もあるわけじゃなし」
+#「あんたにチンポが何本もあるわけじゃなし」
 ＠Shizuku,S00101
 「It doesn't mean you'll have any number of dicks.」
 
-＠雫,S00102
-「複数同時に……ってわけには行かないから、何人かをできるようになっても、好きな娘をひとり選んで調教してもらうよ」
+#「複数同時に……ってわけには行かないから、何人かをできるようになっても、好きな娘をひとり選んで調教してもらうよ」
 ＠Shizuku,S00102
 「Because you're not allowed to do...... several at once, even though they have to take up with other people, you will choose one girl you like and train her.」
 
+#「何本もあったら、ヒュドラみたいですね」
 ＠Itsuki
-「何本もあったら、ヒュドラみたいですね」
 「If I had any number of dicks, I'd be like a hydra eh?」
 
 @shizuku_warai
 
-＠雫,S00103
-「まあ最初はどの数値が～とか小難しく考えないで、ヤりたい娘とやる位の認識で進めていったらいいんじゃないかい？」
+#「まあ最初はどの数値が～とか小難しく考えないで、ヤりたい娘とやる位の認識で進めていったらいいんじゃないかい？」
 ＠Shizuku,S00103
 「However, don't think too torturously at the outset about things like numbers, isn't it enough just to advance doing the one you want to do?」
 
 @shizuku_ikari
-＠雫,S00104
-「でもゆくゆくは、あの娘たちを『使える』用にして貰わないと……だけどね」
+#「でもゆくゆくは、あの娘たちを『使える』用にして貰わないと……だけどね」
 ＠Shizuku,S00104
 「However, when one day the girls will no longer do this service that is so "useful"...... consider that.」
 
-＠樹
-「どっ……努力します」
+#「どっ……努力します」
 ＠Itsuki
 「I...... I'll do my very best.」
 
 @shizuku
-＠雫,S00105
-「さっきも言ったけど、女の子達にあまり無理をさせるんじゃないよ」
+#「さっきも言ったけど、女の子達にあまり無理をさせるんじゃないよ」
 ＠Shizuku,S00105
 「You said that already, but I'm glad to hear your concern for the girls.」
 
-＠雫,S00106
-「あの娘たちは『商品』なんだから、壊してしまったら大損だ。そんなわけで、体力やなんかにも気を配って、ね」
+#「あの娘たちは『商品』なんだから、壊してしまったら大損だ。そんなわけで、体力やなんかにも気を配って、ね」
 ＠Shizuku,S00106
 「Since these lolis are a "prized commodity", if they're damaged it would be a heavy loss. For that reason, be watchful of their physical strength among other things.」
 
-＠樹
-「もちろんですよ。壊すなんて……」
+#「もちろんですよ。壊すなんて……」
 ＠Itsuki
 「Of course. Things like being damaged......」
 
-＠雫,S00107
-「その言葉、忘れないでおくよ」
+#「その言葉、忘れないでおくよ」
 ＠Shizuku,S00107
 「That word, don't you forget it.」
 
@@ -189,13 +168,11 @@ goto	setsumei_skip
 label	setsumei_skip
 #体験版用テキストここまで
 
-＠樹
-「ところで、調教が土曜日、と言うことは……他の日は何をすればいいんでしょうか？」
+#「ところで、調教が土曜日、と言うことは……他の日は何をすればいいんでしょうか？」
 ＠Itsuki
 「By the way, you said training is on Saturdays...... What should I do on the other days?」
 
-＠雫,S00115
-「ん、まあいろいろだよ。これを見な」
+#「ん、まあいろいろだよ。これを見な」
 ＠Shizuku,S00115
 「Well, various things, you might say. Look at this.」
 
@@ -206,58 +183,47 @@ layer_load		1,"cg\setumei\setumei_02.png"
 layer_position_set	1,0,64
 layer_move		1,1000,800,0,300,0,passtype_neville_a
 
-＠雫,S00116
-「月曜日から金曜日までは、こんな感じの画面で、スケジュールを決定してもらう」
+#「月曜日から金曜日までは、こんな感じの画面で、スケジュールを決定してもらう」
 ＠Shizuku,S00116
 「From Monday to Friday, on the screen shown you will decide your schedule.」
 
-＠雫,S00117
-「この『お勉強』『バイト』『せったい』『おやすみ』『とくべつ』ってのが、大きい分類」
+#「この『お勉強』『バイト』『せったい』『おやすみ』『とくべつ』ってのが、大きい分類」
 ＠Shizuku,S00117
 「Here we have "Study", "Work", "Entertainment", "Day off", and "Special", a large selection.」
 
-＠雫,S00118
-「この文字をクリックすると、下の枠に実行できるコマンドが現れる。たとえば、『お勉強』をクリックしたなら、『お勉強（やさしい）』が現れる、とかね」
+#「この文字をクリックすると、下の枠に実行できるコマンドが現れる。たとえば、『お勉強』をクリックしたなら、『お勉強（やさしい）』が現れる、とかね」
 ＠Shizuku,S00118
 「When you click a choice, commands that let you participate appear in a preliminary frame. For example, if you click "Study", "Study (easy)" shows up, among other things.」
 
-＠雫,S00119
-「そしてさらにまたそれをクリックすると、コマンドが選択されてスケジュールに組み込まれる」
+#「そしてさらにまたそれをクリックすると、コマンドが選択されてスケジュールに組み込まれる」
 ＠Shizuku,S00119
 「And furthermore when you click again, the command is selected and inserted into the schedule.」
 
-＠樹
-「なんだか頭が痛くなってきました……」
+#「なんだか頭が痛くなってきました……」
 ＠Itsuki
 「My head has started hurting a little bit......」
 
-＠雫,S00120
-「ああもう、言葉だけで説明するのは難しいねぇ……そんなに難しいことじゃないから、後でやってみればいいよ」
+#「ああもう、言葉だけで説明するのは難しいねぇ……そんなに難しいことじゃないから、後でやってみればいいよ」
 ＠Shizuku,S00120
 「Ah, but explaining with words is difficult...... It's really not that difficult, so it'll be fine when you try it later.」
 
-＠雫,S00121
-「今できることは少ないけど、ゆくゆくはいろいろ出来るようになっていくよ」
+#「今できることは少ないけど、ゆくゆくはいろいろ出来るようになっていくよ」
 ＠Shizuku,S00121
 「Although your knowledge is scarce right now, you'll be able to do plenty of things in the future.」
 
-＠雫,S00122
-「もっとも、あんたの力量次第だけどね」
+#「もっとも、あんたの力量次第だけどね」
 ＠Shizuku,S00122
 「Of course, it all depends on your ability.」
 
-＠樹
-「うっ、しょ、精進いたします……」
+#「うっ、しょ、精進いたします……」
 ＠Itsuki
 「Mhm, I-I'll be diligent......」
 
-＠樹
-「んーと？『せったい』……は接待ですよね？それは解るとして、『お勉強』『バイト』『おやすみ』『とくべつ』ってなんですか？」
+#「んーと？『せったい』……は接待ですよね？それは解るとして、『お勉強』『バイト』『おやすみ』『とくべつ』ってなんですか？」
 ＠Itsuki
 「Hmm? "Entertainment"...... is just like wining and dining and talking, right? I understand that, but can you explain "Study", "Work", "Day off", and "Special"?」
 
-＠雫,S00123
-「じゃあ順を追って説明していこうかね」
+#「じゃあ順を追って説明していこうかね」
 ＠Shizuku,S00123
 「Let's go through them one by one.」
 
@@ -268,40 +234,32 @@ layer_load		2,"cg\setumei\setumei_03.png"
 layer_position_set	2,0,64
 layer_move		2,1000,800,0,300,0,passtype_neville_a
 
-
-＠雫,S00124
-「まずは『お勉強』」
+#「まずは『お勉強』」
 ＠Shizuku,S00124
 「First, "Study."」
 
 @shizuku_akire
 
-＠雫,S00125
-「……チンポしゃぶるだけならアホでも出来だろう？」
+#「……チンポしゃぶるだけならアホでも出来だろう？」
 ＠Shizuku,S00125
 「...... If they do nothing but suck dicks they'd become stupid, don't you think?.」
 
 @shizuku_warai
 
-＠雫,S00126
-「だけど、教養のある娼婦は魅力がある。そうすると、客に高く買ってもらえる」
+#「だけど、教養のある娼婦は魅力がある。そうすると、客に高く買ってもらえる」
 ＠Shizuku,S00126
 「However, a prostitute that has cultivation also holds charm. Having done that, you will be able to attract more expensive customers.」
 
-＠雫,S00127
-「勉強させたりすることは、長い目で見れば、それだけここで得られる収入が多くなるってことさ」
+#「勉強させたりすることは、長い目で見れば、それだけここで得られる収入が多くなるってことさ」
 ＠Shizuku,S00127
 「Fact is, making the girls study, if you're looking in the long-term, is the only way for our revenue to grow.」
 
-＠樹
-「簡単に言うと」
+#「簡単に言うと」
 ＠Itsuki
 「Simple enough.」
 
-
 @shizuku_akire
-＠雫,S00128
-「……これだからゲーム脳はいやだねぇ」
+#「……これだからゲーム脳はいやだねぇ」
 ＠Shizuku,S00128
 「...... It's because of this I don't like game memory.」
 
@@ -314,61 +272,48 @@ layer_move		1,1000,800,0,300,0,passtype_neville_a
 
 @shizuku
 
-＠雫,S00129
-「『お勉強』させたり、『習いごと』をさせたりしてパラメーターを上げる。そうすると」
+#「『お勉強』させたり、『習いごと』をさせたりしてパラメーターを上げる。そうすると」
 ＠Shizuku,S00129
 「Having selected studying, a lesson unfolds and raises a parameter.」
 
-＠雫,S00130
-「お客を取らせた時……つまり、『せったい』をした時に得られるお金が多くなる……これでわかったかい？」
+#「お客を取らせた時……つまり、『せったい』をした時に得られるお金が多くなる……これでわかったかい？」
 ＠Shizuku,S00130
 「The time that is spent on studying...... In short, it raises the money earned from the time spent on "Entertainment"...... Understand?」
 
-＠樹
-「あ、すごくよくよくわかりました」
+#「あ、すごくよくよくわかりました」
 ＠Itsuki
 「Yeah, I got it real good.」
 
-＠雫,S00131
-「……ハァ……大丈夫なのかねぇ？」
+#「……ハァ……大丈夫なのかねぇ？」
 ＠Shizuku,S00131
 「...... Haa...... So we're good with this?」
 
-＠樹
-「で、『お勉強』って誰が教えるんですか？……もしかして雫さん？」
+#「で、『お勉強』って誰が教えるんですか？……もしかして雫さん？」
 ＠Itsuki
 「So, who is it that will be teaching...... maybe, Shizuku-san?」
 
-＠雫,S00132
-「この絵を見てわかんないのかい？」
+#「この絵を見てわかんないのかい？」
 ＠Shizuku,S00132
 「Look at this picture, is it not clear?」
 
-＠樹
-「うわーすごいイケメンがいるーだれかなーこれ」
-＠樹
-「うわーすごいイケメンがいるーだれかなーこれ」
+#「うわーすごいイケメンがいるーだれかなーこれ」
 ＠Itsuki
 「Uwah! What a good-looking guy. I wonder who it could be, this.」
 
 @shizuku_ikari
 
-＠雫,S00133
-「あ・ん・た。……腐っても大学生だろ？土屋樹」
+#「あ・ん・た。……腐っても大学生だろ？土屋樹」
 ＠Shizuku,S00133
 「Y-o-u. ...... Seems like a spoiled college student. Tsuchiya Itsuki.」
 
-＠樹
-「……かなって思ってましたけど……やっぱりオレなんですね」
+#「……かなって思ってましたけど……やっぱりオレなんですね」
 ＠Itsuki
 「...... It's as I thought...... It really is me.」
 
 @shizuku_warai
-＠雫,S00134
-「あんたの『お勉強』にもなって一石二鳥だろ？」
+#「あんたの『お勉強』にもなって一石二鳥だろ？」
 ＠Shizuku,S00134
 「You'll be doing the tutoring too. Killing two birds with one stone eh?」
-
 
 #■setumei_05
 layer_move		1,500,300,0,800,0,passtype_neville_a
@@ -379,17 +324,13 @@ layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 @shizuku
 ＠雫,S00135
-「あとはお金を稼ぐ……『バイト』や、『せったい』なんかもできるよ。たまにはアルバイトでまっとうに金を稼ぐのもいいんじゃないかい？」
-＠雫,S00135
 「After that are the money-earning activities...... Work and entertainment among other things. It's fine even to earn money respectably with an odd job sometimes, isn't it?」
 
-＠雫,S00136
-「収入は客の相手をする『せったい』に比べたら、微々たるもんだけどね」
+#「収入は客の相手をする『せったい』に比べたら、微々たるもんだけどね」
 ＠Shizuku,S00136
 「If you compare the income in "Entertainment" in which the girls make company with the customer, it's kind of insignificant.」 (not sure which)
 
-＠雫,S00137
-「社会勉強にはなると思うよ。社会を知ってる娼婦は客にも人気があるからね」
+#「社会勉強にはなると思うよ。社会を知ってる娼婦は客にも人気があるからね」
 ＠Shizuku,S00137
 「I think social learning grows here. A prostitute that is acquainted with society is also popular with the customers.」
 
@@ -400,18 +341,15 @@ layer_load		1,"cg\setumei\setumei_06.png"
 layer_position_set	1,0,64
 layer_move		1,1000,800,0,300,0,passtype_neville_a
 
-＠雫,S00138
-「一応、『バイト』にも『せったい』にもあんたについていってもらうよ」
+#「一応、『バイト』にも『せったい』にもあんたについていってもらうよ」
 ＠Shizuku,S00138
 「Just in case, you will accompany them to work and entertainment.」
 
-＠雫,S00139
-「あの娘たちだけだといろいろ心配だしね」
+#「あの娘たちだけだといろいろ心配だしね」
 ＠Shizuku,S00139
 「If those girls are there all alone I would have many concerns.」
 
-＠樹
-「わかりました……『せったい』って、早い話、あの娘たちがお客さんの相手をする、ってことですよね？」
+#「わかりました……『せったい』って、早い話、あの娘たちがお客さんの相手をする、ってことですよね？」
 ＠Itsuki
 「I see...... So long story short, you mean this "entertainment" is a way for the customer to get to know the girls.」
 
@@ -422,108 +360,90 @@ layer_load		2,"cg\setumei\setumei_07.png"
 layer_position_set	2,0,64
 layer_move		2,1000,800,0,300,0,passtype_neville_a
 
-＠雫,S00140
-「そうだよ。まあ、『せったい』にもいろいろあって、お酒をついで話し相手になるだけの接待から、身体を使った接待までいろいろあるけどね」
+#「そうだよ。まあ、『せったい』にもいろいろあって、お酒をついで話し相手になるだけの接待から、身体を使った接待までいろいろあるけどね」
 ＠Shizuku,S00140
 「That's right. Well, it has various attractions. We pour the guest some sake and although they start out talking, eventually they use their bodies in different ways.」
 
 ＠Itsuki
 「………………」
 
-＠雫,S00141
-「あ、なんだいその顔は」
+#「あ、なんだいその顔は」
 ＠Shizuku,S00141
 「What a face.」
 
 @shizuku_ikari
 
-＠雫,S00142
-「もしかして、『あの娘たちを誰にも触らせたくない！』とか思ってないだろうねぇ？」
+#「もしかして、『あの娘たちを誰にも触らせたくない！』とか思ってないだろうねぇ？」
 ＠Shizuku,S00142
 「Seems like you're thinking, "I don't want to let those children be touched by just anyone," aren't you?」
 
 @shizuku_akire
 
-＠雫,S00143
-「やめておくれよ、そういう私情を挟むのは」
+#「やめておくれよ、そういう私情を挟むのは」
 ＠Shizuku,S00143
 「Let it go, in that way you impose your own self-interest.」
 
-＠雫,S00144
-「どうしてもイヤだって言うんなら、まあせいぜい死ぬほど頑張ってみることだね。もしかしたら奇跡が起こるかも知れないしねぇ」
+#「どうしてもイヤだって言うんなら、まあせいぜい死ぬほど頑張ってみることだね。もしかしたら奇跡が起こるかも知れないしねぇ」
 ＠Shizuku,S00144
 「Even if I said a year, the situation is such that we keep trying until death, you could say. Maybe some miracle will happen, but I doubt it.」
 
-＠樹
-「奇跡、ですか……」
+#「奇跡、ですか……」
 ＠Itsuki
 「Miracle......?」
 
 @shizuku_warai
 
-＠雫,S00145
-「『人の一年岩をも通す』ってね」
+#「『人の一年岩をも通す』ってね」
 ＠Shizuku,S00145
 「So we say "Make way for the men for another year, at least."」
 
-＠樹
-「それを言うなら『人の一念』でしょう……」
+#「それを言うなら『人の一念』でしょう……」
 ＠Itsuki
 「You mean "Men will have their way"......」
 
 @shizuku
 
-＠雫,S00146
-「期間は一年間だからあながち間違いでも無いじゃないか」
+#「期間は一年間だからあながち間違いでも無いじゃないか」
 ＠Shizuku,S00146
 「Well, a term is one year so it's not necessarily wrong to say that, is it?」
 
-＠樹
-「本当に適当だなぁ………」
+#「本当に適当だなぁ………」
 ＠Itsuki
 「Is that really appropriate.........」 (not sure)
 
-＠雫,S00147
-「適当が一番！ガチガチに生きてたら、楽しくないだろ？」
+#「適当が一番！ガチガチに生きてたら、楽しくないだろ？」
 ＠Shizuku,S00147
 「It's approprate 100%! If I lived frozen solid, where would be the fun?」
 
-＠樹
-「そういうもんですかね……」
+#「そういうもんですかね……」
 ＠Itsuki
 「I can't accept this......」
 
 @shizuku_ikari
 
-＠雫,S00148
-「そうそう、樹のチンポみたいにふにゃふにゃに生きるんだ。こんなふうに」
+#「そうそう、樹のチンポみたいにふにゃふにゃに生きるんだ。こんなふうに」
 ＠Shizuku,S00148
 「Hmmm, Itsuki's dick appears to be functioning limply at the moment. Then......」
 
 #効果音ｶﾞｯ
 @se38
 
-＠樹
-「ギャー！」
 ＠Itsuki
 「ギャー！」
 
 @shizuku_warai
 
-＠雫,S00149
-「あれ、思ったよりふにゃふにゃじゃないねぇ。前言撤回」
+#「あれ、思ったよりふにゃふにゃじゃないねぇ。前言撤回」
 ＠Shizuku,S00149
 「There, now you won't be thinking so limply down there. I can take it back.」
 
 @shizuku
 
-＠雫,S00150
-「『樹の根性みたいにふにゃふにゃ』にしておく」
+#「『樹の根性みたいにふにゃふにゃ』にしておく」
 ＠Shizuku,S00150
 「"Itsuki's guts are limp though" I will maintain.」
 
-＠樹
-「ううう……もう、好きにしてください……」
+#「ううう……もう、好きにしてください……」
 ＠Itsuki
 「Ugh...... Fine, just do what you want......」
 
@@ -534,14 +454,11 @@ layer_load		1,"cg\setumei\setumei_08.png"
 layer_position_set	1,0,64
 layer_move		1,1000,800,0,300,0,passtype_neville_a
 
-
-＠雫,S00151
-「あとは『おやすみ』……休息だね」
+#「あとは『おやすみ』……休息だね」
 ＠Shizuku,S00151
 「After that is "Day off"...... It's rest, of course.」
 
-＠雫,S00152
-「あの娘たちが疲れているようだったら適当に休ませてやるといい」
+#「あの娘たちが疲れているようだったら適当に休ませてやるといい」
 ＠Shizuku,S00152
 「If those children appear to be getting tired it would be good if you let them get some rest.」
 
@@ -552,16 +469,14 @@ layer_load		2,"cg\setumei\setumei_09.png"
 layer_position_set	2,0,64
 layer_move		2,1000,800,0,300,0,passtype_neville_a
 
-＠雫,S00153
-「他に『とくべつ』っていうのがあるけど……」
+#「他に『とくべつ』っていうのがあるけど……」
 ＠Shizuku,S00153
 「In addition we have "Special" like I said, but......」
 
 #＠雫,S00155
 #「その名の通り、なんか特別な条件がそろえば、できるようになるんじゃないかい？」
 
-＠樹
-「これは、さっき言ってた『習いごと』……お金を使って能力を上げるコマンドみたいですね」
+#「これは、さっき言ってた『習いごと』……お金を使って能力を上げるコマンドみたいですね」
 ＠Itsuki
 「This, like the "lessons" you mentioned before...... seems to be a command that raises ability and spends money.」
 
@@ -572,13 +487,11 @@ layer_load		1,"cg\setumei\setumei_10.png"
 layer_position_set	1,0,64
 layer_move		1,1000,800,0,300,0,passtype_neville_a
 
-＠雫,S00156
-「ちなみに、各コマンドの詳しい説明はカーソルを合わせると下に出るから、それを参考に」
+#「ちなみに、各コマンドの詳しい説明はカーソルを合わせると下に出るから、それを参考に」
 ＠Shizuku,S00156
 「When your cursor moves to the protractor, the command's detailed explanation appears below, and you can use it as a reference.」
 
-＠雫,S00157
-「あ、もちろん、働いたり、何かを鍛えれば、何かが疎かになったり、疲れたり……なんてこともあるから、注意が必要だよ」
+#「あ、もちろん、働いたり、何かを鍛えれば、何かが疎かになったり、疲れたり……なんてこともあるから、注意が必要だよ」
 ＠Shizuku,S00157
 「Naturally, when practicing, drilling a skill and something gets unclear, or your lolis tire...... For things like that, advice is essential.」
 
@@ -589,8 +502,7 @@ layer_load		2,"cg\setumei\setumei_11.png"
 layer_position_set	2,0,64
 layer_move		2,1000,800,0,300,0,passtype_neville_a
 
-＠雫,S00158
-「そして、日曜日。この日は出かけたり休んだり。まあ好きに過ごしな」
+#「そして、日曜日。この日は出かけたり休んだり。まあ好きに過ごしな」
 ＠Shizuku,S00158
 「And Sunday. This is a day for excursions and rest. To your taste, isn't it?」
 
@@ -605,119 +517,98 @@ money_open
 
 @shizuku_small
 
-＠雫,S00159
-「あとは……肝心の、お金。ゼニー。借金だね」
+#「あとは……肝心の、お金。ゼニー。借金だね」
 ＠Shizuku,S00159
 「And then...... That vital money. It's a debt you know.」
 
 @se_shock
-＠樹
-「あああああ」
+#「あああああ」
 ＠Itsuki
 「Ahhhhh」
 
-＠雫,S00160
-「どうしたんだい、樹」
+#「どうしたんだい、樹」
 ＠Shizuku,S00160
 「Something wrong, Itsuki?」
 
-＠樹
-「いや……こう、数字になると……なんていうか……現実味が増すっていうか」
+#「いや……こう、数字になると……なんていうか……現実味が増すっていうか」
 ＠Itsuki
 「No...... I-If you show me those numbers...... How should I put it...... I mean to say my sense of reality is increasing.」
 
 @shizuku_warai
 
-＠雫,S00161
-「ははっ。まあ、たまには現実を直視することも大事だよ。うん」
+#「ははっ。まあ、たまには現実を直視することも大事だよ。うん」
 ＠Shizuku,S00161
 「Haha. Well, sometimes looking reality straight in the face is also valuable, yes.」
 
-＠樹
-「心が折れそうです……」
+#「心が折れそうです……」
 ＠Itsuki
 「I've heard stories of mind breakage......」
 
 @shizuku
 
-＠雫,S00162
-「本題に戻るけど、この赤い枠に表示されているのが『借金の残り』……すごい額だねぇ」
+#「本題に戻るけど、この赤い枠に表示されているのが『借金の残り』……すごい額だねぇ」
 ＠雫,S00162
 「Returning to the issue at hand however, the display on the red slide reads "Debt remaining"...... An amazing sum isn't it?」
 
-＠雫,S00163
-「あんたには、これを一年間で返済してもらう」
+#「あんたには、これを一年間で返済してもらう」
 ＠Shizuku,S00163
 「This is what you have to repay in a span of 1 year.」
 
-＠樹
-「ああああああ」
+#「ああああああ」
 ＠Itsuki
 「Ahhhhh」
 
-＠雫,S00164
-「全額一気に返せって言うんじゃなくて、毎月決まった額を返済してくれたら、それでいいから」
+#「全額一気に返せって言うんじゃなくて、毎月決まった額を返済してくれたら、それでいいから」
 ＠Shizuku,S00164
 「I'm not telling you "Return it at once", but if you repay a certain amount each month, it'll be fine.」
 
-＠樹
-「もっとひどくないですか？それ」
+#「もっとひどくないですか？それ」
 ＠Itsuki
 「Does that make it less severe?」
 
-＠雫,S00165
-「まあまあ、たまには現実を直視しないスキルも必要だよ」
+#「まあまあ、たまには現実を直視しないスキルも必要だよ」
 ＠Shizuku,S00165
 「You could say that. Sometimes the skill of not looking reality straight in the face is necessary.」
 
-＠樹
-「ダブル・スタンダードだ！大人って汚い……」
+#「ダブル・スタンダードだ！大人って汚い……」
 ＠Itsuki
 「That's a double standard! What a dirty adult......」
 
 @shizuku_akire
 
-＠雫,S00166
-「あんたも大人だろうに……」
+#「あんたも大人だろうに……」
 ＠Shizuku,S00166
 「Aren't you an adult too......」
 
 @shizuku
 
-＠雫,S00167
-「ま、それはそれとして、この『次の返済日まで』っていうのが、その名の通り、次の返済日まで何日かっていうのを示しているわけ」
+#「ま、それはそれとして、この『次の返済日まで』っていうのが、その名の通り、次の返済日まで何日かっていうのを示しているわけ」
 ＠Shizuku,S00167
 「Anyway, this middle slide that says "Next Payment Date" points out how many days remain until you have to pay the remaining debt.」
 
-＠雫,S00168
-「そんで緑色の枠の、『所持金』あんたが持っているお金ね」
+#「そんで緑色の枠の、『所持金』あんたが持っているお金ね」
 ＠Shizuku,S00168
 「And the green slide on the top, "Your money", shows you the money you possess.」
 
-＠雫,S00169
-「一応、自由に使うことが出来るよ。買い物なんかも出来る」
+#「一応、自由に使うことが出来るよ。買い物なんかも出来る」
 ＠Shizuku,S00169
 「For now, you may spend it freely on shopping goods or things like that.」
 
-＠樹
-「借金があるのに使っていいんですか？」
+#「借金があるのに使っていいんですか？」
 ＠Itsuki
 「You're telling me it's okay to be thrifty even when there's a debt?」
 
-＠雫,S00170
-「全然大丈夫だよ。調教に役立ちそうなものやら何やら、好きに使いな」
+#「全然大丈夫だよ。調教に役立ちそうなものやら何やら、好きに使いな」
 ＠Shizuku,S00170
 「It's perfectly fine. If you see something that can help out with training or something, consume as you wish.」
 
 @shizuku_ikari
 
-＠雫,S00171
-「……もっとも、借金の返済日までに決められた金額を所持していないと……」
+#「……もっとも、借金の返済日までに決められた金額を所持していないと……」
 ＠Shizuku,S00171
 「...... But then, if you do not have sufficient funds by the repayment date......」
 
-＠樹
-「い、いないと……？」
+#「い、いないと……？」
 ＠Itsuki
 「D-don't have......?」
 
@@ -726,28 +617,23 @@ money_open
 ＠雫,S00172
 「ふふーん♪」
 
-＠樹
-「なんなんですかぁ！！」
+#「なんなんですかぁ！！」
 ＠Itsuki
 「What is it exactly!!」
 
-＠雫,S00173
-「まぁ、ひどいことになるのは確かだろうねぇ」
+#「まぁ、ひどいことになるのは確かだろうねぇ」
 ＠Shizuku,S00173
 「Well, something awful would happen, that's for sure.」
 
-＠樹
-「や、やっぱり、スマキにして海に沈められるとか……」
+#「や、やっぱり、スマキにして海に沈められるとか……」
 ＠Itsuki
 「I-it's as I thought, somebody will wrap me in a bamboo mat and throw me into the sea.」
 
-＠雫,S00174
-「それで済めばいいねぇ」
+#「それで済めばいいねぇ」
 ＠Shizuku,S00174
 「That would be less severe than expected.」
 
-＠樹
-「ええええええ…………」
+#「ええええええ…………」
 ＠Itsuki
 「Ehhhhhhh............」
 
@@ -768,280 +654,225 @@ wait	500
 
 @shizuku
 
-＠雫,S00175
-「次に、パラメーターの説明だけど」
+#「次に、パラメーターの説明だけど」
 ＠Shizuku,S00175
 「Next, an explanation of the parameters.」
 
-＠雫,S00176
-「今表示されてるのが、『ステータスバー』」
+#「今表示されてるのが、『ステータスバー』」
 ＠Shizuku,S00176
 「This indicated now, is the status bar.」
 
-＠雫,S00177
-「娘のパラメーターや育成状態を表すパーだね」
+#「娘のパラメーターや育成状態を表すパーだね」
 ＠Shizuku,S00177
 「It's a percentage that shows the current state of the parameter cultivation of the lolis.」
 
-＠雫,S00178
-「まずは一番上、ピンク色の『けんこう』」
+#「まずは一番上、ピンク色の『けんこう』」
 ＠Shizuku,S00178
 「Firstly topmost, in the pink colour is "health".」
 
-＠雫,S00179
-「これは娘たちの健康状態を数値にしたもの。左の数値が今の娘の健康状態。右が上限値」
+#「これは娘たちの健康状態を数値にしたもの。左の数値が今の娘の健康状態。右が上限値」
 ＠Shizuku,S00179
 「This serves as the health reading. The left number shows their current state while the right number is the limit.」
 
-＠雫,S00180
-「まぁゲームで言うHP（ヒットポイント）みたいなやつさ」
+#「まぁゲームで言うHP（ヒットポイント）みたいなやつさ」
 ＠Shizuku,S00180
 「It appears as HP (hit point) in-game.」
 
-＠雫,S00181
-「何かすれば下がり、休めば回復する」
+#「何かすれば下がり、休めば回復する」
 ＠Shizuku,S00181
 「If something happens to make it go down, you can rest and it'll restore.」
 
-＠雫,S00182
-「少なくなると病気になっちまうから気をつけて」
+#「少なくなると病気になっちまうから気をつけて」
 ＠Shizuku,S00182
 「If the reading goes low your lolis get sick so take care, alright?」
 
-＠樹
-「無くなるとどうなるんですか？」
+#「無くなるとどうなるんですか？」
 ＠Itsuki
 「If it goes down all the way then what?」
 
-＠雫,S00183
-「どうなるんだろうねぇ……あたしはそんなひどい事したことないからちょっとわかりかねるね」
+#「どうなるんだろうねぇ……あたしはそんなひどい事したことないからちょっとわかりかねるね」
 ＠Shizuku,S00183
 「I guess what would happen is...... Well, I've never done such a hideous thing so I wouldn't know.」
 
-＠樹
-「気をつけます……」
+#「気をつけます……」
 ＠Itsuki
 「I'll be careful......」
 
-＠雫,S00184
-「次にその下、水色の『きりょく』」
+#「次にその下、水色の『きりょく』」
 ＠Shizuku,S00184
 「Next just below, in light blue we have "Energy".」
 
-＠雫,S00185
-「こっちは娘たちの精神状態を数値にしたもの。同様に左の数値が今の娘の気力の状態。右が上限値」
+#「こっちは娘たちの精神状態を数値にしたもの。同様に左の数値が今の娘の気力の状態。右が上限値」
 ＠Shizuku,S00185
 「Here is represented a reading of their state of mind. In the same way on the left we have their current state while the right is the limit.」
 
-＠樹
-「じゃあ、こちらはゲームで言うMP（マジックポイント）ですか？」
+#「じゃあ、こちらはゲームで言うMP（マジックポイント）ですか？」
 ＠Itsuki
 「So in-game this would be MP (magic point) wouldn't it?」
 
-＠雫,S00186
-「んー、ちょっと違うかな」
+#「んー、ちょっと違うかな」
 ＠Shizuku,S00186
 「Mmm, it differs a bit.」
 
-＠雫,S00187
-「『きりょく』の数値が高いと、実行しているコマンドの成功率が上がり、低いと成功率が下がる」
+#「『きりょく』の数値が高いと、実行しているコマンドの成功率が上がり、低いと成功率が下がる」
 ＠Shizuku,S00187
 「When the "Energy" reading is high, the command's success rate which she is performing goes up, while if it's low it goes down.」
 
-＠雫,S00188
-「こっちも、少なくなると……気をつけるんだよ」
+#「こっちも、少なくなると……気をつけるんだよ」
 ＠Shizuku,S00188
 「Here also, if the reading becomes very low...... Be careful.」
 
-＠樹
-「何が起こるんですかッ！！」
+#「何が起こるんですかッ！！」
 ＠Itsuki
 「What's going to happen!!」
 
-＠雫,S00189
-「んで、その下。『みりょく』ね」
+#「んで、その下。『みりょく』ね」
 ＠Shizuku,S00189
 「So, beneath that: "Charm".」
 
-＠雫,S00190
-「これは、いろいろな値を複合的に見た数値……らしいんだよねぇ」
+#「これは、いろいろな値を複合的に見た数値……らしいんだよねぇ」
 ＠Shizuku,S00190
 「It's a reading that judges a complex association of merits...... it seems to me.」
 
-＠樹
-「『らしい』って……」
+#「『らしい』って……」
 ＠Itsuki
 「"Seems", you say......」
 
-＠雫,S00191
-「さっき言ったとおり、勉強させたり、習い事させたり……」
+#「さっき言ったとおり、勉強させたり、習い事させたり……」
 ＠Shizuku,S00191
 「As I said before, having them study, having them do lessons and stuff......」
 
-＠雫,S00192
-「いろいろな能力を高めると、『みりょく』が上がるみたいなんだけど」
+#「いろいろな能力を高めると、『みりょく』が上がるみたいなんだけど」
 ＠Shizuku,S00192
 「If various other abilities are enhanced, the reason is that "Charm" raises them.」
 
-＠雫,S00193
-「詳しいことはあたしもわかんないんだよね、ははは」
+#「詳しいことはあたしもわかんないんだよね、ははは」
 ＠Shizuku,S00193
 「I don't have a detailed knowledge of its effects either, hahaha.」
 
-＠樹
-「しっかりしてくださいよ」
+#「しっかりしてくださいよ」
 ＠Itsuki
 「Please learn it better.」
 
-＠雫,S00194
-「細かいことは気にしなーい。まあ、いろいろやってみて」
+#「細かいことは気にしなーい。まあ、いろいろやってみて」
 ＠Shizuku,S00194
 「I don't care about details. Try different things and learn it yourself.」
 
-＠雫,S00195
-「『みりょく』が高いイイ女は、『せったい』なんかで高く買ってもらえる。これ重要ね」
+#「『みりょく』が高いイイ女は、『せったい』なんかで高く買ってもらえる。これ重要ね」
 ＠Shizuku,S00195
 「A girl with high "Charm" is able to attract more expensive customers in "Entertainment". That's important.」
 
-＠樹
-「あ、さっきもそんなこと言ってましたね」
+#「あ、さっきもそんなこと言ってましたね」
 ＠Itsuki
 「Ah, you said something like that before too.」
 
-＠雫,S00196
-「大事なことなので2回言いました」
+#「大事なことなので2回言いました」
 ＠Shizuku,S00196
 「Well it's an important matter so I said it twice.」
 
-＠樹
-「心に刻みました」
+#「心に刻みました」
 ＠Itsuki
 「I'll remember it well.」
 
-＠雫,S00197
-「そして、下に行って、黄色の『からだ』。ここから、娘の『能力値』になるよ」
+#「そして、下に行って、黄色の『からだ』。ここから、娘の『能力値』になるよ」
 ＠Shizuku,S00197
 「And, below that, "Body" in yellow. From here, the attribute values begin.」
 
-＠雫,S00198
-「こっちは、娘の身体の強さだ。レベルが上がると、『けんこう』の上限値が上がる」
+#「こっちは、娘の身体の強さだ。レベルが上がると、『けんこう』の上限値が上がる」
 ＠Shizuku,S00198
 「Here, is the strength of your loli's bodies. When the level goes up, the upper limit of health increases.」
 
-＠樹
-「なるほど。最大HPが増えるというわけですね」
+#「なるほど。最大HPが増えるというわけですね」
 ＠Itsuki
 「I see. So what you mean is that the maximum HP rises.」
 
-＠雫,S00199
-「まぁ……そういうことかな。他にも、色々出来ることが増えたりすることもある」
+#「まぁ……そういうことかな。他にも、色々出来ることが増えたりすることもある」
 ＠Shizuku,S00199
 「You've got it. In addition, various other things you can do are increased as well.」
 
-＠雫,S00200
-「上ふたつのバーとは違って、ここからは、『レベル』というものがある」
+#「上ふたつのバーとは違って、ここからは、『レベル』というものがある」
 ＠Shizuku,S00200
 「As far as the difference between the two bars is concerned, the bottom has something called "Level".」
 
-＠樹
-「レベル？」
+#「レベル？」
 ＠Itsuki
 「Level?」
 
-＠雫,S00201
-「まあどれくらい鍛えられたか、と言う目安だね」
+#「まあどれくらい鍛えられたか、と言う目安だね」
 ＠Shizuku,S00201
 「It's an objective statement of how far your lolis have been trained.」
 
-＠雫,S00202
-「そして、上ふたつのバーは、右の数値が【現在の数値/最大値】だったけど、こちらは違う」
+#「そして、上ふたつのバーは、右の数値が【現在の数値/最大値】だったけど、こちらは違う」
 ＠Shizuku,S00202
 「And concerning these two bars, the right side for both reads "Present number/Maximum", but the bottom one differs.」
 
-＠雫,S00203
-「【経験値/次のレベルまでの数値】になる」
+#「【経験値/次のレベルまでの数値】になる」
 ＠Shizuku,S00203
 「It becomes "Experience point/Next level value".」
 
-＠雫,S00204
-「色々な行動をして、『経験値』を上げ、『次のレベルまでの数値』まで到達すると、レベルが上がる、というわけだ」
+#「色々な行動をして、『経験値』を上げ、『次のレベルまでの数値』まで到達すると、レベルが上がる、というわけだ」
 ＠Shizuku,S00204
 「This means that when you reach the "Next level value" by doing various actions and raising exp, your level goes up.」
 
-＠樹
-「なるほど」
+#「なるほど」
 ＠Itsuku
 「mhm.」
 
-＠樹
-「こっちの、『こころ』っていうのはなんですか？」
+#「こっちの、『こころ』っていうのはなんですか？」
 ＠Itsuku
 「What does the "Spirit" mean in the second-last slide?」
 
-＠雫,S00205
-「娘の心の強さだね。こっちはレベルを上げると『きりょく』の上限値が上がる、と」
+#「娘の心の強さだね。こっちはレベルを上げると『きりょく』の上限値が上がる、と」
 ＠Shizuku,S00205
 「That's the lolis' mind strength. When the level goes up here "Spirit" increases.」
 
-＠樹
-「最大MPが増えるというわけですね」
+#「最大MPが増えるというわけですね」
 ＠Itsuki
 「Which means that the maximum MP goes up, right?」
 
-＠雫,S00206
-「だからMPじゃないと言うに！！」
+#「だからMPじゃないと言うに！！」
 ＠Shizuku,S00206
 「I didn't say MP would go up!!」 (......?)
 
-＠雫,S00207
-「次。『あたま』」
+#「次。『あたま』」
 ＠Shizuku,S00207
 「Next, "Mind".」
 
-＠雫,S00208
-「まあそのまんま。娘の頭の良さだよ。レベルが高ければ頭がいいし、低ければ馬鹿」
+#「まあそのまんま。娘の頭の良さだよ。レベルが高ければ頭がいいし、低ければ馬鹿」
 ＠Shizuku,S00208
 「It's the same story. This is the merit of the girls' intellect. If it's high they're smart but if low they're idiots.」
 
-＠樹
-「ストレートですね」
+#「ストレートですね」
 ＠Itsuki
 「You don't pull any punches, do you?」
 
-＠雫,S00209
-「『あたま』は主に『お勉強』で上がる」
+#「『あたま』は主に『お勉強』で上がる」
 ＠Shizuku,S00209
 「"Mind" rises mainly by "Study"」
 
-＠雫,S00210
-「さっき、『お勉強』の説明の時にも言ったけど、『あたま』のレベルが高いと、得られる収入が高くなる」
+#「さっき、『お勉強』の説明の時にも言ったけど、『あたま』のレベルが高いと、得られる収入が高くなる」
 ＠Shizuku,S00210
 「Like I said in the explanation of "Study", if "Mind's" level is high, then the income we obtain will grow larger.」
 
-＠樹
-「『みりょく』が上がるから、『せったい』での収入が増えるということですね」
+#「『みりょく』が上がるから、『せったい』での収入が増えるということですね」
 ＠Itsuki
 「You said that since "Charm" rises, profits with "Entertainment" rise.」
 
-＠樹
-「あとは……『あたま』を上げていくと、コマンドが増えるみたいですね」
+#「あとは……『あたま』を上げていくと、コマンドが増えるみたいですね」
 ＠Itsuki
 「And then...... As "Mind" rises, the command increases in the same way.」
 
-＠雫,S00211
-「得になるか損になるかは、あんたしだいだね」
+#「得になるか損になるかは、あんたしだいだね」
 ＠Shizuku,S00211
 「Whether the outcome turns to the good or proves to be a loss, depends on you.」
 
 @shizuku_ikari
 
-＠雫,S00212
-「目指せ！一流大学合格！」
+#「目指せ！一流大学合格！」
 ＠Shizuku,S00212
 「Eye on the prize! Get them into top-notch Universities!」
 
-＠雫,S00213
-「それ、違うゲームですから！」
+#「それ、違うゲームですから！」
 ＠Shizuku,S00213
 「Because that is a different game!」
 
@@ -1051,68 +882,56 @@ layer_move	l_shizuku,1000,0,0,200,0,passtype_neville_a
 wait	500
 #######################################パラメータ説明ここまで。説明画面消し、雫横井動
 
-
 @shizuku
-＠雫,S00214
-「こんな感じで、1年間。長いようで短い間だけど、よろしく頼むよ」
+#「こんな感じで、1年間。長いようで短い間だけど、よろしく頼むよ」
 ＠Shizuku,S00214
 「That's how it'll be for one year. It's a time shorter than you think though, and I leave it to you with my regards.」
 
-＠雫,S00215
-「わからなくなったら、また詳しく解説してあげるからさ」
+#「わからなくなったら、また詳しく解説してあげるからさ」
 ＠Shizuku,S00215
 「If you're confused about something, I will explain it all to you again」
 
-＠樹
-「そんなにいろいろ出来るかなぁ……不安だ………」
+#「そんなにいろいろ出来るかなぁ……不安だ………」
 ＠Itsuki
 「There's so many things I can do, I don't think...... I'm scared.........」
 
 @shizuku_ikari
 
-＠雫,S00216
-「『出来るかな』じゃなくて『やる』んだよ、樹・く・ん」
+#「『出来るかな』じゃなくて『やる』んだよ、樹・く・ん」
 ＠Shizuku,S00216
 「I can't do "it" for you, Itsuki-k-u-n.」 (not really sure lol)
 
-＠樹
-「わ、わかりました……（雫さん怖ぇ！！）」
+#「わ、わかりました……（雫さん怖ぇ！！）」
 ＠Itsuki
 「O-okay, okay...... (Shizuku-san frightening!!)」
 
 @shizuku
 
-＠雫,S00217
-「お望みとあらばあたしがマンツーマンで経営と調教のなんたるかをビシビシとたたき込んであげるけど」
+#「お望みとあらばあたしがマンツーマンで経営と調教のなんたるかをビシビシとたたき込んであげるけど」
 ＠Shizuku,S00217
 「If you so wish I will throw myself relentlessly into the training and administration man-to-man with you.」 (double message I think hehe)
 
-＠樹
-「あ、そうそう、そうだ、そういえば、用事があったんだ……というわけで、また！」
+#「あ、そうそう、そうだ、そういえば、用事があったんだ……というわけで、また！」
 ＠Itsuki
 「Ah, yes, I see, which reminds me, I have things to do...... Bye then!」
 
 #■走り去る音
 @bg_black
 
-＠雫,S00218
-「あちゃー。ちょっといろいろ言い過ぎたかね？」
+#「あちゃー。ちょっといろいろ言い過ぎたかね？」
 ＠Shizuku,S00218
 「Ah, see youー. Did I say a little too much for your taste?」
 
-＠雫,S00219
-「………でも」
+#「………でも」
 ＠Shizuku,S00219
 「......... Even so......」
 
-＠雫,S00220
-「……ほんとに、頼んだよ……樹」
+#「……ほんとに、頼んだよ……樹」
 ＠Shizuku,S00220
 「...... Really, I'm counting on you...... Itsuki.」
 
 layer_release	1
 layer_release	2
-
 
 date_close
 
@@ -1129,69 +948,55 @@ goto	youzyos_03
 label youzyos_02 ##############################################################
 #だいたいわかる
 
-＠雫,S00221
-「ん。わかった。じゃああんたに一から十まで、頭からしっぽまで、まるっと、ぜーんぶ任せたよ」
+#「ん。わかった。じゃああんたに一から十まで、頭からしっぽまで、まるっと、ぜーんぶ任せたよ」
 ＠Shizuku,S00221
 「OK, I see. Then, from 1 to 10, from head to tail, completely, I leave it all to you.」
 
-＠樹
-「なんか軽いですけど重いしますね」
 ＠Itsuki
 「You're speaking very seriously about this but it's actually simple.」
 
 ＠雫,S00222
 「It's just your imagination. Well, please take care of itー」
 
-＠樹
-「............ まあ頑張りますけど」
 ＠Itsuki
 「............ You could give me some encouragement you know.」
 
-＠雫,S00223
-「頑張ってくれないと困るよ、性少年」
+#「頑張ってくれないと困るよ、性少年」
 ＠Shizuku,S00223
 「I'm afraid it is absolutely necessary that you do your best, sexy little boy.」
 
-＠樹
-「『せい』の字、違いませんか」
+#「『せい』の字、違いませんか」
 ＠Itsuki
 「Does it make a difference if you call me "sexy" or not?」
 
-＠雫,S00224
-「気にしない気にしない。ま、なんかあったらお姉様が助けてあげてもいいよ」
+#「気にしない気にしない。ま、なんかあったらお姉様が助けてあげてもいいよ」
 ＠Shizuku,S00224
 「Do I look like I care? Anyway, if something happens you can call for help from onee-sama, alright?」
 
-＠樹
-「……その時はよろしくお願いします」
+#「……その時はよろしくお願いします」
 ＠Itsuki
 「...... Please treat me well when the time comes.」
 
-＠雫,S00225
-「高く付くけど」
+#「高く付くけど」
 ＠雫,S00225
 「It'll cost you though」
 
-＠樹
-「遠慮します」
+#「遠慮します」
 ＠Itsuki
 「I'll be tactful.」
 
 ＠Shizuku,S00226
 「ふーん？」
 
-＠樹
-「うっ……で、出来るだけひとりで頑張ってみたいなー、なんて……」
+#「うっ……で、出来るだけひとりで頑張ってみたいなー、なんて……」
 ＠Itsuki
 「うっ...... Okay, I-I'll try and do my best to take care of things on my own.」
 
-＠雫,S00227
-「うんうん、いい心がけだよ樹。おねーさんは影ながら応援させて貰うよ」
+#「うんうん、いい心がけだよ樹。おねーさんは影ながら応援させて貰うよ」
 ＠Shizuku,S00227
 「うんうん, I like your attitude, Itsuki. Now you can help me even if I'm not there.」
 
-＠樹
-「あ、ありがとうございます」
+#「あ、ありがとうございます」
 ＠Itsuki
 「Th-thank you.」
 
@@ -1212,8 +1017,7 @@ label youzyos_02 ##############################################################
 ＠樹
 「............... W-well then, I'll...... I'll be quietly going now......」
 
-＠雫,S00231
-「いっぱつきめてやれー♪おー♪」
+#「いっぱつきめてやれー♪おー♪」
 ＠Shizuku,S00231
 「Go pull the winning move! ー♪おー♪」
 
@@ -1223,8 +1027,7 @@ label youzyos_02 ##############################################################
 「Excuse me......」
 
 #BG廊下。遠くから聞こえるような声で
-＠雫,S00232
-「頑張れ頑張れい・つ・き♪包茎克服だ♪おー♪」
+#「頑張れ頑張れい・つ・き♪包茎克服だ♪おー♪」
 ＠Shizuku,S00232
 「Keep it up, keep it up! ・つ・き♪ Let loose and beat your phimosis,♪おー♪」
 

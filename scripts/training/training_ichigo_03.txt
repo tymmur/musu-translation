@@ -37,8 +37,6 @@ lifebar_setmax	life_tairyoku,tairyoku_max
 lifebar_set	life_seishin,seishin
 lifebar_setmax	life_seishin,seishin_max
 
-
-
 macro	training_ichigo_load
 window_close
 screen_blackout	1000
@@ -119,11 +117,9 @@ layer_load_parts	l_mouth,6,"event\ev_ich_140\ev_ich_140_mouth7.png"
 layer_load_parts	l_mouth,7,"event\ev_ich_140\ev_ich_140_mouth8.png"
 layer_reference_set	l_mouth,l_head			# 頭のレイヤーに連結
 
-
 #レイヤー20　前髪重ね
 #layer_load 		20,"event\ev_ich_140\ev_ich_140_hair_front.png"
 #layer_position_set 	20,-32,-24
-
 
 #レイヤー30　胴体
 if t_ichigo_bondage_flag=0 then layer_load l_body_back,"event\ev_ich_140\ev_ich_140_body_back.png"
@@ -140,7 +136,6 @@ layer_reference_set 		l_body,l_body_back
 #layer_position_set 	l_leg,-32,-24
 
 #layer_movepass_clear	all
-
 
 # -- アニメーション定義 ------------------------------------------------------
 # -- 瞼			セット0
@@ -260,7 +255,6 @@ layer_scalepass_add	l_arm,0,	700,3,0
 layer_scalepass_add	l_arm,0,	300,0,0
 layer_scalepass_play	l_arm,0,	PLAY_LOOP
 
-
 # -- 胴体
 layer_movepass_add	l_body_back,0,	600,0,6
 layer_movepass_add	l_body_back,0,	400,0,0
@@ -300,7 +294,6 @@ layer_anime_add		l_eyeblow,1,	10000,	1
 layer_anime_add		l_mouth,1,	500,	3
 layer_anime_add		l_mouth,1,	500,	2
 layer_anime_add		l_mouth,1,	500,	1
-
 
 #layer_anime_add		l_eye_f,1,	5000,	3
 #layer_anime_add		l_eye_f,1,	50,	1
@@ -349,7 +342,6 @@ layer_scalepass_add	l_leg,1,	200,-10,-8
 layer_scalepass_add	l_leg,1,	300,0,0
 
 # -- セット2(入れられてる) ---------------------------------------------------
-
 
 #表情
 layer_anime_add		l_eye_f,2,	5000,	3
@@ -429,8 +421,6 @@ layer_scalepass_add	l_arm,2,	350,-2,2
 layer_scalepass_add	l_arm,2,	150,2,-2
 layer_scalepass_play	l_arm,2,	PLAY_LOOP
 
-
-
 # -- 胴体
 layer_movepass_add	l_body_back,2,	300,-8,6
 layer_movepass_add	l_body_back,2,	200,0,0
@@ -456,7 +446,6 @@ layer_scalepass_add	l_leg,2,	250,4,0
 layer_scalepass_add	l_leg,2,	250,3,0
 layer_scalepass_add	l_leg,2,	250,2,0
 layer_scalepass_play	l_leg,2,	PLAY_LOOP
-
 
 #--セット3 (感じてる)---------------------------------------------------------
 
@@ -513,7 +502,6 @@ layer_movepass_add	l_leg,3,	300,0,0
 layer_scalepass_add	l_leg,3,	200,-3,-2
 layer_scalepass_add	l_leg,3,	300,0,0
 
-
 screen_blackin		1000
 
 #-- 定義ここまで --------------------------------------------------------------
@@ -525,7 +513,6 @@ lifebar_open	life_tairyoku
 lifebar_open	life_seishin
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
-
 
 if ichigo_command_cnt<15 then voice "O03728"	#
 if ichigo_command_cnt>=15 then voice "O03732"	#
@@ -610,8 +597,6 @@ t_ichigo_maso_flag=1
 t_ichigo_muchi_cnt_l=0
 t_ichigo_spanking_cnt_l=0
 endm
-
-
 
 #-- ■愛撫■ ----------------------------------------------------------------
 label t_ichigo_aibu
@@ -710,8 +695,6 @@ if t_ichigo_maso_flag=1 then voicetable	t_ichigo_muchi_cnt_l,"O04177","O04178","
 
 if _COLOR=130 then voicetable	t_ichigo_muchi_cnt_l,"O03764","O03765","O03766","O03767"
 
-
-
 t_ichigo_muchi_cnt_l=t_ichigo_muchi_cnt_l+1
 t_ichigo_muchi_cnt=t_ichigo_muchi_cnt+1
 t_ichigo_maso_cnt=t_ichigo_maso_cnt+1
@@ -735,18 +718,14 @@ voice_bg	"O03967"
 
 return
 
-
-
-
-
 #-- ■バラ鞭■ ----------------------------------------------------------------
 label t_ichigo_command_baramuchi
-	@bgm11
-	mousecursor_set "system\TrainingSystem\cur_muchi.png",420,40
-	#初回
-	if t_ichigo_muchi_cnt_l=0 and t_ichigo_muchi_cnt=0 then goto t_ichigo_command_baramuchi_1
+@bgm11
+mousecursor_set "system\TrainingSystem\cur_muchi.png",420,40
+#初回
+if t_ichigo_muchi_cnt_l=0 and t_ichigo_muchi_cnt=0 then goto t_ichigo_command_baramuchi_1
 
-	return
+return
 label t_ichigo_command_baramuchi_1
 
 t_ichigo_muchi_cnt=t_ichigo_muchi_cnt+1
@@ -822,7 +801,6 @@ window_close
 
 return
 
-
 #-- ■蝋燭■ ----------------------------------------------------------------
 label t_ichigo_rousoku
 #-- 体ではないレイヤーかどうか判定する ----------------------------------------
@@ -832,12 +810,10 @@ mousecursor_reset
 #-- 蝋燭エフェクト
 @rousoku_effect
 
-
 #1段階目
 if t_ichigo_maso_flag=0 then voicetable	t_ichigo_rousoku_cnt_l,"O04241","O04205","O04206","O04207","O04211","O04212","O04213"
 #2段階目
 if t_ichigo_maso_flag=1 then voicetable	t_ichigo_rousoku_cnt_l,"O04222","O04255","O04226","O04227","O04228","O04223","O04235"
-
 
 if _COLOR=130 then screen_vibration 500,16,16,16
 
@@ -853,9 +829,6 @@ if _LAYER=l_leg then @rousoku_effect_big		# 蝋燭痕(大)
 if _LAYER<>l_leg then @rousoku_effect_small		# 蝋燭痕(小)
 wait	50
 next
-
-
-
 
 t_ichigo_rousoku_cnt_l=t_ichigo_rousoku_cnt_l+1
 t_ichigo_rousoku_cnt=t_ichigo_rousoku_cnt+1
@@ -885,15 +858,14 @@ passspeed=200
 
 return
 
-
 #-- ■蝋燭■ ----------------------------------------------------------------
 label t_ichigo_command_rousoku
-	@bgm11
-	mousecursor_set "system\TrainingSystem\cur_rousoku.png",100,160
-	#初回
-	if t_ichigo_rousoku_cnt_l=0 and t_ichigo_rousoku_cnt=0 then goto t_ichigo_command_rousoku_1
+@bgm11
+mousecursor_set "system\TrainingSystem\cur_rousoku.png",100,160
+#初回
+if t_ichigo_rousoku_cnt_l=0 and t_ichigo_rousoku_cnt=0 then goto t_ichigo_command_rousoku_1
 
-	return
+return
 label t_ichigo_command_rousoku_1
 
 t_ichigo_rousoku_cnt=t_ichigo_rousoku_cnt+1
@@ -928,50 +900,43 @@ t_ichigo_rousoku_cnt=t_ichigo_rousoku_cnt+1
 
 俺は意を決すると、ゆっくりとろうそくをいちごの体へと傾けた。
 
-
 window_close
 
 return
 
-
-
-
 #-- ■アナル■ -----------------------------------------------
 label t_ichigo_anal
-	gosub	training_ichigo_anal
+gosub	training_ichigo_anal
 goto t_ichigo_loop
 
 #-- ■バイブ■ -----------------------------------------------
 label t_ichigo_vibe
-	gosub	training_ichigo_vibe
+gosub	training_ichigo_vibe
 goto t_ichigo_loop
 
 #-- ■アナルバイブ■ -----------------------------------------------
 label t_ichigo_analvibe
-	gosub	training_ichigo_analvibe
+gosub	training_ichigo_analvibe
 goto t_ichigo_loop
-
 
 #-- ■フィイスクラッチマスク■ -----------------------------------------------
 label t_ichigo_facemask
-	gosub	training_ichigo_facemask
+gosub	training_ichigo_facemask
 goto t_ichigo_loop
 
 #-- ■ボンデージ■ ---------------------------------------------------------
 label t_ichigo_bondage
-	@training_anime_release
-	if t_ichigo_bondage_flag=0 then t_ichigo_bondage_flag=1;goto t_ichigo_bondage_skip
-	if t_ichigo_bondage_flag=1 then t_ichigo_bondage_flag=0
+@training_anime_release
+if t_ichigo_bondage_flag=0 then t_ichigo_bondage_flag=1;goto t_ichigo_bondage_skip
+if t_ichigo_bondage_flag=1 then t_ichigo_bondage_flag=0
 label t_ichigo_bondage_skip
-	@training_ichigo_load
+@training_ichigo_load
 goto t_ichigo_loop
 
 #-- ■ビデオカメラ■ ---------------------------------------------------------
 label t_ichigo_video
-	gosub	training_ichigo_video
+gosub	training_ichigo_video
 goto t_ichigo_loop
-
-
 
 # 痛がるモーション #########################################################
 macro	ichigo_motion_pain1
@@ -992,8 +957,6 @@ layer_scalepass_push	l_hair_side,1,	PLAY_ONCE
 layer_movepass_push	l_hair_front,1,	PLAY_ONCE
 layer_scalepass_push	l_hair_front,1,	PLAY_ONCE
 
-
-
 layer_movepass_push	l_body_back,1,	PLAY_ONCE
 layer_scalepass_push	l_body_back,1,	PLAY_ONCE
 
@@ -1004,7 +967,6 @@ layer_anime_push	l_eyeblow,1,	PLAY_ONCE
 layer_anime_push	l_mouth,1,	PLAY_ONCE
 layer_anime_push	l_eye_f,1,	PLAY_ONCE
 
-
 tairyoku=tairyoku-3*t_ichigo_damagefix
 seishin=seishin-5*t_ichigo_damagefix
 lifebar_setauto	life_tairyoku,tairyoku
@@ -1012,10 +974,7 @@ lifebar_setauto	life_seishin,seishin
 
 endm
 
-
-
 macro	ichigo_motion_insert1
-
 
 # -- 背景		セット0
 layer_movepass_push	l_back,2,	PLAY_LOOP
@@ -1039,8 +998,6 @@ layer_movepass_push	l_arm,2,	PLAY_LOOP
 
 layer_scalepass_push	l_arm,2,	PLAY_LOOP
 
-
-
 # -- 胴体
 layer_movepass_push	l_body_back,2,	PLAY_LOOP
 
@@ -1054,7 +1011,6 @@ layer_scalepass_push	l_leg,2,	PLAY_LOOP
 layer_anime_push	l_eyeblow,2,	PLAY_LOOP
 layer_anime_push	l_mouth,2,	PLAY_ONCE
 layer_anime_push	l_eye_f,2,	PLAY_LOOP
-
 
 tairyoku=tairyoku-10*t_ichigo_damagefix
 seishin=seishin-15*t_ichigo_damagefix
@@ -1081,7 +1037,6 @@ layer_scalepass_push	l_hair_side,3,	PLAY_ONCE
 layer_movepass_push	l_hair_front,3,	PLAY_ONCE
 layer_scalepass_push	l_hair_front,3,	PLAY_ONCE
 
-
 layer_movepass_push	l_body_back,3,	PLAY_ONCE
 layer_scalepass_push	l_body_back,3,	PLAY_ONCE
 
@@ -1097,16 +1052,7 @@ seishin=seishin-5*t_ichigo_damagefix
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
-
 endm
-
-
-
-
-
-
-
-
 
 #-- 気絶 --------------------------------------------------------------------
 label t_ichigo_end
@@ -1121,7 +1067,6 @@ lifebar_setauto	life_seishin,seishin
 
 @training_anime_release
 
-
 どうやら気を失ってしまったようだ。
 
 これ以上続けることはできない。
@@ -1133,7 +1078,6 @@ add_atama=add_atama/2
 
 ichigo_kizetsu_cnt=ichigo_kizetsu_cnt+1
 
-
 goto	t_ichigo_exit2
 
 #-- 終了 --------------------------------------------------------------------
@@ -1143,10 +1087,8 @@ label t_ichigo_exit
 select	sel,"End training","On second thought..."
 if sel=1 then goto t_ichigo_loop
 
-
 if ichigo_command_cnt<15 then voice "O03731"	#「はぁっ…………こんなこと……おかしいわよ……」
 if ichigo_command_cnt>=15 then voice "O03733"	#「っふ……なんで……わたし……こんなに……あぁっ……」
-
 
 @training_anime_release
 label t_ichigo_exit2
@@ -1161,28 +1103,27 @@ mousecursor_reset
 
 voice_bg_stop
 
-
 #--------------------------------------------------------------------------
-	@ichigo_set
-	lifebar_open	life_atama
-	lifebar_open	life_karada
-	lifebar_open	life_kokoro
-	wait	500
+@ichigo_set
+lifebar_open	life_atama
+lifebar_open	life_karada
+lifebar_open	life_kokoro
+wait	500
 
-	ichigo_atama=ichigo_atama+add_atama
-	ichigo_karada=ichigo_karada+add_karada
-	ichigo_kokoro=ichigo_kokoro+add_kokoro
+ichigo_atama=ichigo_atama+add_atama
+ichigo_karada=ichigo_karada+add_karada
+ichigo_kokoro=ichigo_kokoro+add_kokoro
 
-	lifebar_setauto	life_karada,ichigo_karada
-	lifebar_setauto	life_kokoro,ichigo_kokoro
-	lifebar_setauto	life_karada,ichigo_karada
-	@ichigo_check
-	wait	1000
+lifebar_setauto	life_karada,ichigo_karada
+lifebar_setauto	life_kokoro,ichigo_kokoro
+lifebar_setauto	life_karada,ichigo_karada
+@ichigo_check
+wait	1000
 
-	lifebar_close	life_atama
-	lifebar_close	life_karada
-	lifebar_close	life_kokoro
-	wait	500
+lifebar_close	life_atama
+lifebar_close	life_karada
+lifebar_close	life_kokoro
+wait	500
 #------------------------------------------------------------------------
 
 if add_miryoku>10 then ichigo_command_cnt=ichigo_command_cnt+1
@@ -1191,7 +1132,6 @@ if add_miryoku>0 then @ichigo_add_miryoku
 if ichigo_reception_level=1 and t_ichigo_fera_cnt>3 then gosub t_ichigo_up
 if ichigo_reception_level=2 and t_ichigo_insert_cnt>3 then gosub t_ichigo_up
 if ichigo_reception_level=3 and t_ichigo_maso_cnt>100 then gosub t_ichigo_up
-
 
 return
 
@@ -1202,5 +1142,4 @@ label	t_ichigo_up
 ichigo_reception_level=ichigo_reception_level+1
 
 return
-
 

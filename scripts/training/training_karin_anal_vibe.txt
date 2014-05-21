@@ -18,8 +18,6 @@ lifebar_setauto	life_seishin,seishin
 
 return
 
-
-
 label	training_karin_analvibe_01
 
 #かりんアナルバイブ
@@ -50,8 +48,6 @@ if t_karin_megane_flag=0 then goto training_karin_analvibe_01_b
 label	training_karin_analvibe_01_b
 ############ ここまで眼鏡
 
-
-
 ＠かりん,P04832
 「そ、それにこの間あなたの……ソレ、おしりにいれられてひどい目にあったばかりですもの……っ、イヤよ、私！」
 
@@ -73,10 +69,8 @@ layer_load_overlap	l_insert,"event\ev_kar_070\EV_KAR_070_analvive01.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @karin_motion_pain1
 
-
 ＠かりん,P04834
 「んくっ……、あ、ああ……っ」
-
 
 固い蕾をこじ開けるように、オレはゆっくりゆっくりとバイブをかりんのアヌスへ沈めていく……。
 
@@ -97,7 +91,6 @@ voice_bg	"P90003"
 「体の力を抜け、かりん。　このままじゃ全部入らない」
 
 @karin_motion_pain1
-
 
 ＠かりん,P04837
 「んくうっ、はぁ、はぁああ！　や、やってるわよ……っ、やってるけど、これ以上は無理……っ」
@@ -161,7 +154,6 @@ mousecursor_reset
 layer_load_overlap	l_insert,"event\ev_kar_070\EV_KAR_070_analvive01.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @karin_motion_pain1
-
 
 voice_bg	"P04709"
 ＠かりん,P04845
@@ -248,7 +240,6 @@ if t_karin_megane_flag=0 then goto training_karin_analvibe_03_b
 label	training_karin_analvibe_03_b
 ############ ここまで眼鏡
 
-
 ＠樹
 「いや、オレだって、調教に変化をつけようと一生懸命考えているんだぜ？　かりんはだいぶお尻の調教も進んでいるから、たまにはこれもどうかと思ってな」
 
@@ -260,7 +251,6 @@ label	training_karin_analvibe_03_b
 
 ＠かりん,P04855
 「そんなに言うなら……いいわ、その安っぽいオモチャで我慢してあげる」
-
 
 mousecursor_reset
 @seh22

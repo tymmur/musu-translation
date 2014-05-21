@@ -150,7 +150,6 @@ wait	1000
 @zakuro_middle
 @zakuro
 
-
 ＠ざくろ,Q00350
 「心配ないわ」
 
@@ -185,7 +184,6 @@ wait	1000
 「それよりいちご、七夕で、彦星と織姫のお話は知ってるの？」
 
 @zakuro_
-
 
 @ichigo_odoroki
 @karin
@@ -265,7 +263,6 @@ wait	1000
 「かりんは、一人ロマンを堪能するらしいけど」
 
 @karin_ikari
-
 
 ＠かりん,P00483
 「一人でするわけないでしょー！　やるならみかんと一緒にするわ！」
@@ -409,8 +406,6 @@ label	tanabata_00
 
 笹は二本あるが……
 
-
-
 #■選択肢Ａ（選んだ短冊の子の好感度ＵＰ）
 #（１．右の笹）
 #（２．左の笹）
@@ -516,7 +511,6 @@ goto	tanabata_skip
 
 #（統合へ）
 
-
 #（かりん）##################################################################
 label	tanabata_karin
 
@@ -589,7 +583,6 @@ label	tanabata_karin
 goto	tanabata_skip
 #（統合へ）
 
-
 #（いちご）#################################################################
 
 label	tanabata_ichigo
@@ -624,7 +617,6 @@ label	tanabata_ichigo
 
 ＠いちご,O00480
 「えへへ～♪」
-
 
 #（統合へ）
 goto	tanabata_skip
@@ -668,7 +660,6 @@ label	tanabata_zakuro
 
 goto	tanabata_skip
 #（統合へ）
-
 
 #（すいか）##################################################################
 label	tanabata_suika
@@ -723,7 +714,6 @@ label	tanabata_suika
 「……そ、そうなのか」
 
 てっきり新作ゲームの物欲かと思ったが………完全攻略とは。
-
 
 #（統合へ）
 goto	tanabata_skip
@@ -782,13 +772,11 @@ label	tanabata_yuzu
 
 オレのが普通の感性だと思うが。
 
-
 #（統合へ）
 goto	tanabata_skip
 
 #（美雨）###################################################################
 label	tanabata_miu
-
 
 ＠樹
 「どれどれ……」
@@ -827,12 +815,10 @@ label	tanabata_miu
 
 次の瞬間にはもう、美雨はいつもの穏やかな笑みを浮かべている。
 
-
 @miu_warai
 
 ＠美雨,B00362
 「ですから樹さん、これからもよろしく頑張ってくださいね」
-
 
 #（統合へ）
 goto	tanabata_skip
@@ -886,10 +872,8 @@ label	tanabata_shizuku
 ＠樹
 「それもいらんからッ」
 
-
 #（統合へ）
 goto	tanabata_skip
-
 
 #■（統合）
 label	tanabata_skip
@@ -1098,7 +1082,6 @@ label	tanabata_mikan2
 ＠いちご,O00484
 「みかんーッ、一緒に笹食べてみようよー！　………にがッ！　ペッ、ペッ！」
 
-
 ＠みかん,A00445
 「あはは……」
 
@@ -1127,7 +1110,6 @@ add_miryoku=20
 return
 
 #（スケジュール）
-
 
 #■（かりん）
 label	tanabata_karin2
@@ -1252,7 +1234,6 @@ label	tanabata_karin2
 
 @karin_
 @bg_sky_amaanogawa
-
 
 満天の星空。
 
@@ -1395,7 +1376,6 @@ label	tanabata_karin2
 
 何か駆け引きがおかしい気がするが……まぁいいか。
 
-
 ＠みかん,A00447
 「お兄ちゃん、かりんちゃん？　二人で何してるの？」
 
@@ -1450,7 +1430,6 @@ add_miryoku=20
 return
 
 #（スケジュール）
-
 
 #■（いちご）
 label	tanabata_ichigo2
@@ -1696,7 +1675,6 @@ label	tanabata_ichigo2
 @bg_black
 add_miryoku=20
 @ichigo_add_miryoku
-
 
 return
 #（スケジュール）
