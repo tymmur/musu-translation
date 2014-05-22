@@ -35,6 +35,9 @@ my $byte_count = 0;
 my $translated_byte_count = 0;
 my $byte_count_block = 0;
 
+
+# setup table to convert to wide characters
+
 my %toWideTable;
 
 for (my $value=0x20; $value < 0x7F; $value++)
@@ -102,6 +105,31 @@ $toWideTable{ '|' } = 0x8162;
 $toWideTable{ '}' } = 0x8170;
 $toWideTable{ '~' } = 0x8160;
 
+# setup table to convert to regular characters
+# this is in reality a reversed hash of %toWideTable
+
+my %toRegularCharacters;
+
+# first fill the hash with wide characters.
+# That way we will not run into characters not present in the hash.
+for (my $major = 0x81; $major < 0x83; $major++)
+{
+	for (my $minor = 0x40; $minor <= 0xFF; $minor++)
+	{
+		my $char = sprintf("%c%c", $major, $minor);
+		$toRegularCharacters{ $char } = $char;
+	}
+}
+
+while (my ($key, $value) = each(%toWideTable))
+{
+	my $char = sprintf("%c%c", $value >> 8, $value & 0xFF);
+	$toRegularCharacters{ $char } = $key;
+}
+
+# both start and end " should convert to "
+$toRegularCharacters{ sprintf("%c%c", 0x81, 0x68) } = "\"";
+
 
 sub toWideChar
 {
@@ -156,6 +184,38 @@ sub toWideChar
 	return $new;
 }
 
+sub toRegularChar
+{
+	my ($line) = @_;
+	
+	my $new = "";
+	
+	while (length($line) > 0)
+	{
+		my $value = ord(substr($line, 0, 1));
+		
+		if ($value < 0x80)
+		{
+			# already regular
+			$new = $new . substr($line, 0, 1);
+			$line = substr($line, 1);
+			next;
+		}
+			
+
+		my $char = substr($line, 0, 2);
+		$line = substr($line, 2);
+		
+		if ($value == 0x81 or $value == 0x82)
+		{
+			$char = $toRegularCharacters{$char};
+		}
+		
+		$new = $new . $char;
+	}
+	return $new;
+}
+
 sub convertLine
 {
 	my ($line) = @_;
@@ -166,8 +226,7 @@ sub convertLine
 	}
 	if ($to_short_char == 1)
 	{
-		# TODO
-		#return toWideChar($line);
+		return toRegularChar($line);
 	}
 	return $line;
 }
@@ -222,16 +281,16 @@ sub readFile
 	{
 		$line =~ s/[\x0D]//g;
 		$line =~ s/[\x0A]//g;
-		while (substr($line, 0, 1) eq " " or substr($line, 0, 1) eq "	")
+		while (substr($line, 0, 1) eq " " or substr($line, 0, 1) eq "	" or substr($line, 0, 2) eq $empty)
 		{
-			$line = substr($line, 1);
-		}
-		if ($line eq $empty)
-		{
-			# don't treat completely blank lines as anything else than empty
-			# this can combine two different screens into one if we are unlucky
-			# the Japanese script has stray blank lines, though no harmful ones
-			$line = "";
+			if (substr($line, 0, 2) eq $empty)
+			{
+				$line = substr($line, 2);
+			}
+			else
+			{
+				$line = substr($line, 1);
+			}
 		}
 		
 		push(@array, $line);
