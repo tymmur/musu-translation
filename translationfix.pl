@@ -395,8 +395,10 @@ sub convertSpeakerLine
 		my $index = index($line, ",");
 		$audio = substr($line, $index);
 	}
-	
-	$name = convertLine($name);
+	if ($name ne $japanese_name)
+	{
+		$name = convertLine($name);
+	}
 	
 	my $japanese_audio = $japanese[$japanese_index];
 	if ($use_extra_dialogue)
