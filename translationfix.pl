@@ -36,6 +36,24 @@ my $translated_byte_count = 0;
 my $byte_count_block = 0;
 
 
+# table for auto translate names
+my %name_translation;
+
+foreach (readFile("../names.txt"))
+{
+	my $japanese = $_;
+	my $english = "";
+	if (index ($_, " ") != -1)
+	{
+		$japanese = substr($_, 0, index($_, " "));
+		$english  = substr($_,1 + index($_, " "));
+	}
+	$name_translation{$japanese} = $english;
+}
+
+# there are empty names. Force them to be empty with throwing warnings or errors
+$name_translation{$empty} = $empty;
+
 # setup table to convert to wide characters
 
 my %toWideTable;
@@ -347,19 +365,35 @@ sub convertSpeakerLine
 {
 	my($line, $use_extra_dialogue) = @_;
 	
-	if (substr($line, 0, 1) eq "@")
+	my $japanese_name = substr($japanese[$japanese_index], 2);
+	if (index($japanese_name, ",") != -1)
 	{
-		$line = $speaker_add . substr($line, 1);
+		$japanese_name = substr($japanese_name, 0, index($japanese_name, ","));
 	}
 	
-	my $name = substr($line, 2);
+	my $name = $name_translation{$japanese_name};
+	
+	
+	if (length $name == 0)
+	{
+		if (substr($line, 0, 1) eq "@")
+		{
+			$line = $speaker_add . substr($line, 1);
+		}
+		$name = substr($line, 2);
+		
+		my $index = index($name, ",");
+		if ($index != -1)
+		{
+			$name = substr($name, 0, $index);
+		}
+	}
 		
 	my $audio = "";
-	if (index($name, ",") != -1)
+	if (index($line, ",") != -1)
 	{
-		my $index = index($name, ",");
-		$audio = substr($name, $index);
-		$name = substr($name, 0, $index);
+		my $index = index($line, ",");
+		$audio = substr($line, $index);
 	}
 	
 	$name = convertLine($name);
