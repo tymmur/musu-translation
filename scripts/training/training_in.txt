@@ -294,7 +294,7 @@ label	training_in_1_b
 
 @mikan_odoroki
 #「あっ、何かあったよ！」
-＠みかん,A00239
+＠Mikan,A00239
 「Ah, what's this!」
 
 #「ん？　……げッ！」
@@ -833,7 +833,7 @@ label	training_in_6
 「ふふ. Well then, who would you like to torment today?」
 
 #「綺麗にまとまったところで、さぁ、選ぼうか」
-＠雫,S00267
+＠Shizuku,S00267
 「We have a pretty selection, come on, shall you choose?」
 
 #「全然綺麗じゃない全然綺麗じゃない」
@@ -858,7 +858,7 @@ if training_chara=0 then return
 #（選択後）
 @shizuku_yorokobi
 #「よし、これでいいんだね？」
-＠雫,S00269
+＠Shizuku,S00269
 「All right, this is good right?」
 
 #（確認画面表示）
@@ -1150,7 +1150,7 @@ label	training_in_8
 「I do, there is something I participate in」
 
 #「樹が小さい子を相手に、あんな事やこんな事をしてるのかって想像しててねぇ……」
-＠Itsuki,S00291
+＠Shizuku,S00291
 「I imagine what sorts of things you're doing with those little girls...」
 
 @shizuku_ikari
@@ -1296,10 +1296,10 @@ if sel=1 then goto hika04_qa01_b
 #--------------------------------------------------
 label		hika04_qa01_a
 
-＠樹
+＠Itsuki
 「よし、今日はこれで行こうか」
 
-＠樹
+＠Itsuki
 「……っと、今日は先にオレが相手を呼んでおかないといけないのか」
 
 bgm_stop

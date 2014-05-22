@@ -37,43 +37,43 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00773
+＠Ichigo,O00773
 「見て、パパ！　あそこ船が浮いてるよ」
 
 #layer_movepass_init	l_ichigo,0	#演出初期化
 
-＠樹
+＠Itsuki
 「あれは漁に出るボートだな。遊びじゃなくてお仕事だ」
 
 @ichigo			#普通
 
-＠いちご,O00774
+＠Ichigo,O00774
 「ふーん、お仕事用かぁ」
 
 @ichigo_odoroki		#驚
 
-＠いちご,O00775
+＠Ichigo,O00775
 「あ、あそこで誰か釣りしてるよ」
 
-＠樹
+＠Itsuki
 「綺麗な川だから、何か釣れるんだろうな」
 
 前に住んでいた都会方面と違い、川の水は魚がいて当然のような綺麗な色をしている。
 
 @ichigo_komaru		#困
 
-＠いちご,O00776
+＠Ichigo,O00776
 「いちごも釣りしたいなぁ」
 
-＠樹
+＠Itsuki
 「やったことはあるのか？」
 
 @ichigo_yorokobi	#喜
 
-＠いちご,O00777
+＠Ichigo,O00777
 「ザリガニ釣りならしたことあるよ♪　いちごが友達の中で一番上手なの」
 
-＠樹
+＠Itsuki
 「なら今度、道具があるか美雨に聞いてみようか」
 
 @ichigo_warai		#笑
@@ -86,7 +86,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00778
+＠Ichigo,O00778
 「うん！　みんなで一緒にやろやろー！」
 
 layer_movepass_init	l_ichigo,0	#演出初期化
@@ -95,7 +95,7 @@ layer_movepass_init	l_ichigo,0	#演出初期化
 
 いちごが嬉しそうに手を振るので、向こうも苦笑しながら会釈を返していた。
 
-＠樹
+＠Itsuki
 「そろそろひき帰すか。海の方まで出てしまうぞ」
 
 @ichigo_komaru		#困
@@ -114,17 +114,17 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00779
+＠Ichigo,O00779
 「えー。海行きたいよぉ、海ー」
 
 #layer_movepass_init	l_ichigo,0	#演出初期化
 
-＠樹
+＠Itsuki
 「また今度な。宿題があるんだろう？」
 
 @ichigo_ase		#汗
 
-＠いちご,O00780
+＠Ichigo,O00780
 「うー。何であるんだろう、宿題なんか」
 
 bgm_stop
@@ -133,7 +133,7 @@ wait		1000
 #■BG（住宅街）
 @bg_jyuutakugai		# 住宅街
 
-＠樹
+＠Itsuki
 「……ん？」
 
 帰り道、ふと気配を感じて立ち止まった。
@@ -142,10 +142,10 @@ wait		1000
 @ichigo_shifuku
 @ichigo			#普通
 
-＠いちご,O00781
+＠Ichigo,O00781
 「どうしたの？」
 
-＠樹
+＠Itsuki
 「何か視線を感じた気がする」
 
 振り返るが誰もいない。
@@ -154,10 +154,10 @@ wait		1000
 #CH（いちご・企み）
 @ichigo_takurami	#企み
 
-＠いちご,O00782
+＠Ichigo,O00782
 「それはきっと海だよ」
 
-＠樹
+＠Itsuki
 「……海？」
 
 #///////////////////////////////////////////////////////
@@ -168,7 +168,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00783
+＠Ichigo,O00783
 「うん。いちご達を呼んでるんだよ。『海に来てー、海に来てー』って」
 
 @ichigo_yorokobi	#喜
@@ -187,20 +187,20 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00784
+＠Ichigo,O00784
 「だからパパ、海に行こうよぉ。遊びたいよぉ」
 
 #layer_movepass_init	l_ichigo,0	#演出初期化
 
-＠樹
+＠Itsuki
 「美雨にしかられるぞ、宿題しないと。オレは庇ってあげないからな？」
 
 @ichigo_ase		#汗
 
-＠いちご,O00785
+＠Ichigo,O00785
 「むぅー、何でみんな二言目には宿題宿題ーって言うんだろう……」
 
-＠樹
+＠Itsuki
 「やるべきことをやったら、また遊んでやる。頑張れいちご」
 
 bgm_stop
@@ -210,7 +210,7 @@ bgm_stop
 
 もう一度振り返るが、やはり人影は無かった。
 
-＠樹
+＠Itsuki
 （気のせいだったのかな……）
 
 結局家に帰りつくまで、不審な人影を見ることは無かった。

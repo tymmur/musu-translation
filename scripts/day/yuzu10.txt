@@ -31,7 +31,7 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-＠みかん,A01968
+＠Mikan,A01968
 「遅いよ～、お兄ちゃん」
 
 @chara_clear		#保険
@@ -53,10 +53,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02326
+＠Ichigo,O02326
 「お腹が空いて死にそうだよ～」
 
-＠樹
+＠Itsuki
 「すまんすまん。待たせたな」
 
 @chara_clear		#保険
@@ -68,7 +68,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #event		"event\EV_ALL_020-03.png"
 #--------------------------------------------------
 
-＠樹
+＠Itsuki
 「それじゃ、早く食べよう。いただきます」
 
 #--------------------------------------------------
@@ -126,7 +126,7 @@ layer_movepass_play	l_ichigo,0,play_once
 
 だけど、奉仕のはずがオレより先に射精してしまい、ゆずは少し落ち込んでいる様子だった。
 
-＠樹
+＠Itsuki
 「……」
 
 オレはパンをちぎりながら、さりげなくゆずの様子をうかがってみる。
@@ -136,7 +136,7 @@ layer_movepass_play	l_ichigo,0,play_once
 @yuzu_kanashimi		#哀
 #@bg_dining		# 食堂
 
-＠ゆず,F00537
+＠Yuzu,F00537
 「……」
 
 ゆずはうつむいて、黙ってスープを飲んでいた。
@@ -149,10 +149,10 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
-＠かりん,P02703
+＠Karin,P02703
 「どうしたの？　ゆずのことじっと見つめて」
 
-＠樹
+＠Itsuki
 「え、あ、いや……」
 
 @karin_
@@ -165,7 +165,7 @@ wait		500
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-＠雫,S01451
+＠Shizuku,S01451
 「樹は昨日、ゆずにフェラチオしてもらったのさ」
 
 ごまかす間もなく、雫さんが説明する。
@@ -176,7 +176,7 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-＠かりん,P02704
+＠Karin,P02704
 「そ、そうなんだ……」
 
 @chara_clear		#保険
@@ -185,14 +185,14 @@ wait		500
 @suika_shifuku
 @suika_yorokobi		#喜
 
-＠すいか,R00880
+＠Suika,R00880
 「ホントですか？」
 
 やや引き気味のかりんと、なぜか目を輝かせているすいか。
 
 @suika_
 
-＠樹
+＠Itsuki
 「そ、そんな露骨に言うことないでしょう……」
 
 この施設にはプライバシーというものはないのか？
@@ -203,7 +203,7 @@ wait		500
 @zakuro_shifuku
 @zakuro_niko		#にこ
 
-＠ざくろ,Q01409
+＠Zakuro,Q01409
 「おめでとう、ゆず」
 
 @chara_clear		#保険
@@ -212,12 +212,12 @@ wait		500
 @yuzu_middle		# 中間
 @yuzu			#普
 
-＠ゆず,F00538
+＠Yuzu,F00538
 「え？　あ、ありがとうございます……」
 
 ざくろに祝福され、ゆずは少し困ったように笑う。
 
-＠ざくろ,Q01410
+＠Zakuro,Q01410
 「これ、ご褒美」
 
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
@@ -226,40 +226,40 @@ wait		500
 
 @yuzu_kanashimi		#哀
 
-＠ゆず,F00539
+＠Yuzu,F00539
 「あ、ありがとうございます……」
 
 ゆずはますます顔を引きつらせて礼を言う。
 
-＠ゆず,F00540
+＠Yuzu,F00540
 「でもボク、あんまり上手くできなくて……」
 
-＠ざくろ,Q01411
+＠Zakuro,Q01411
 「練習あるのみ。あとは、青ノリの力に頼る」
 
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
 ざくろは青ノリをさらにゆずのスープに振りかける。
 
-＠ゆず,F00541
+＠Yuzu,F00541
 「うぅ……」
 
-＠すいか,R00881
+＠Suika,R00881
 「大丈夫だって。きっと上手くなるよ」
 
 @yuzu			#普
 
-＠ゆず,F00542
+＠Yuzu,F00542
 「そ、そうでしょうか？」
 
 すいかもゆずを励ますが、ゆずはやっぱりうかない顔だ。
 
 @yuzu_kanashimi		#哀
 
-＠ゆず,F00543
+＠Yuzu,F00543
 「ボクは、みんなとは違うから……」
 
-＠樹
+＠Itsuki
 「あんまり気にするなって。気持ちよかったぞ」
 
 やはり落ち込んでいるらしいゆずに、オレも励ましの言葉をかける。
@@ -270,7 +270,7 @@ wait		500
 @suika_shifuku
 @suika_yorokobi		#喜
 
-＠すいか,R00882
+＠Suika,R00882
 「気持ちよかったんだ……」
 
 @chara_clear		#保険
@@ -279,17 +279,17 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-＠ざくろ,Q01412
+＠Zakuro,Q01412
 「つっちーは変態。だから安心して、ゆず」
 
 @zakuro_
 
 うーん、この二人はここではオレより先輩なせいか、少し雫さんに毒されている気もしてきた。
 
-＠樹
+＠Itsuki
 「お前ら、いいから早く朝ご飯を食べろよ……」
 
-＠樹
+＠Itsuki
 「あんまりのんびりしてると学校に遅れるぞ」
 
 @ichigo_middle		# 中間
@@ -303,12 +303,12 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02328
+＠Ichigo,O02328
 「はーい、パパ♪」
 
 オレの言葉に、いちごが元気に返事をする。
 
-＠樹
+＠Itsuki
 「いちごはさっきから、脇目もふらずに食ってただろ……」
 
 #■BG（黒）

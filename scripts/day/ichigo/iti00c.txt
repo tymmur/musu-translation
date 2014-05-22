@@ -11,7 +11,7 @@ bgm_stop
 #■BG（住宅街）
 @bg_jyuutakugai		# 住宅街
 
-＠樹
+＠Itsuki
 （……まただ）
 
 いつか感じた視線を、またどこかから感じた。
@@ -20,10 +20,10 @@ bgm_stop
 @ichigo_shifuku
 @ichigo_komaru		#困
 
-＠いちご,O00800
+＠Ichigo,O00800
 「うー、どうしたのパパ……お腹すいたよぉ」
 
-＠樹
+＠Itsuki
 「ああ、悪い悪い。帰ろう」
 
 @bgm12			#BGM 12 : メインテーマ
@@ -42,38 +42,38 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00801
+＠Ichigo,O00801
 「はぁ。ずっとお腹がグゥグゥ鳴ってるよぉ」
 
 #layer_movepass_init	l_ichigo,0	#演出初期化
 
-＠樹
+＠Itsuki
 「なぁいちご。何か最近変なこととかないか？」
 
 @ichigo_komaru		#困
 
-＠いちご,O00802
+＠Ichigo,O00802
 「え……？　変なこと？」
 
-＠樹
+＠Itsuki
 「誰かに追いかけられたとか」
 
 オレには視線だけだが、いちごに害が出ているとなると放置は出来ない。
 
 @ichigo			#普通
 
-＠いちご,O00803
+＠Ichigo,O00803
 「美雨に追いかけられたよ。テストの点が悪かったから」
 
-＠樹
+＠Itsuki
 「そうじゃなくて、知らない人にだ」
 
 @ichigo_komaru		#困
 
-＠いちご,O00804
+＠Ichigo,O00804
 「うーん、無いと思うよ。どうして？」
 
-＠樹
+＠Itsuki
 「いや、それならいいんだ。気にするな」
 
 仕事が仕事だけに、変な男が寄ってくる可能性は十分にある。
@@ -84,10 +84,10 @@ layer_movepass_play	l_ichigo,0,play_once
 @SE13			#お腹の音・弱（キュルル……）
 @ichigo_kanashimi	#哀
 
-＠いちご,O00805
+＠Ichigo,O00805
 「お腹すいた……死んじゃうかも」
 
-＠樹
+＠Itsuki
 「死ぬのか。それは一大事だ」
 
 #///////////////////////////////////////////////////////
@@ -98,7 +98,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00806
+＠Ichigo,O00806
 「うん……」
 
 @ichigo_
@@ -115,10 +115,10 @@ wait		1000
 @houkou_kage		# 影
 @bg_jyuutakugai		# 住宅街
 
-＠？？？,E00000
+＠???,E00000
 「………まさかこんなところにいるとはな」
 
-＠？？？,E00001
+＠???,E00001
 「さぁて、どうしてやろうか……いちご」
 
 @bg_black

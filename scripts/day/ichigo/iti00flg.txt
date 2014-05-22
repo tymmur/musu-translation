@@ -13,12 +13,12 @@ bgm_stop
 
 #平日……微妙にすることがなく、暇だった。
 
-＠樹
+＠Itsuki
 「することがない……」
 
 #根底は子供達の世話が仕事なので、みんなが学校に行っている日は、こんなこともある。
 
-＠樹
+＠Itsuki
 「美雨の手伝いをしよう。足手まといにならないように」
 
 ぶっちゃけて美雨一人の方が、手慣れていて効率が良いことの方が多い。
@@ -35,13 +35,13 @@ wait		1000
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-＠いちご,O00807
+＠Ichigo,O00807
 「あっ、パパだ♪」
 
 #＠樹
 #「そういえばいちご、今日は休息日だったな」
 
-＠樹
+＠Itsuki
 「いちご、どうした？」
 
 #///////////////////////////////////////////////////////
@@ -52,7 +52,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00808
+＠Ichigo,O00808
 「うん！　パパは？　ずっと部屋に居たけど、もうお仕事終わったの？」
 
 #layer_movepass_init	l_ichigo,0	#演出初期化
@@ -63,10 +63,10 @@ layer_movepass_play	l_ichigo,0,play_once
 
 @ichigo_warai		#笑
 
-＠いちご,O00809
+＠Ichigo,O00809
 「じゃあいちごと遊ぼうよッ！　部屋に行こ」
 
-＠樹
+＠Itsuki
 「いちごの部屋か……」
 
 時間的に問題はないが、別の意味で疲労する展開になりかねない。
@@ -89,15 +89,15 @@ label	iti00flg_01_a
 
 休息日にそれはちょっと違うよな。お互いに。
 
-＠樹
+＠Itsuki
 「悪い、いちご。他にすることがあるから」
 
 @ichigo_komaru		#困
 
-＠いちご,O00810
+＠Ichigo,O00810
 「えー……。いちごと遊ぶより大事なことー……？」
 
-＠樹
+＠Itsuki
 「また今度な。ほら、お小遣いあげるから、遊んでおいで」
 
 @ichigo_
@@ -117,15 +117,15 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00811
+＠Ichigo,O00811
 「うん！　また今度の約束ね！」
 
-＠樹
+＠Itsuki
 「はは……ああ」
 
 @ichigo_warai		#笑
 
-＠いちご,O00812
+＠Ichigo,O00812
 「いちご、遊びに行ってこようっとーッ♪」
 
 window_close
@@ -134,18 +134,18 @@ wait		1000
 #SE21　廊下を走り去る音　※徐々に小さく
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
-＠樹
+＠Itsuki
 「無駄遣いするんじゃないぞー」
 
 se_stop		0
 #CH（立ち絵なし）
 
-＠いちご,O00813
+＠Ichigo,O00813
 「はーいッ」
 
 一目散に外へ駆け出してしまった。
 
-＠樹
+＠Itsuki
 「単純だなぁ……」
 
 bgm_stop
@@ -167,7 +167,7 @@ return
 #--------------------------------------------------
 label	iti00flg_01_b
 
-＠樹
+＠Itsuki
 「よし、行くか」
 
 #///////////////////////////////////////////////////////
@@ -178,7 +178,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00814
+＠Ichigo,O00814
 「うんっ、来て来てーっ♪」
 
 @ichigo_
@@ -198,15 +198,15 @@ wait		1000
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-＠いちご,O00815
+＠Ichigo,O00815
 「ゲームにする？　それとも一緒に漫画読む？」
 
-＠樹
+＠Itsuki
 「どっちもオレは何があるのか分からないから。任せる」
 
 @ichigo			#普通
 
-＠いちご,O00816
+＠Ichigo,O00816
 「んっと、じゃぁね～……」
 
 window_close
@@ -223,36 +223,36 @@ se_stop		0
 @ichigo_shifuku
 @ichigo			#普通
 
-＠いちご,O00817
+＠Ichigo,O00817
 「あれ……？　昨日買った漫画がない。どこにしまったんだろ」
 
-＠樹
+＠Itsuki
 「部屋の散らかりは少ないけど、整理整頓は出来てないな」
 
 @ichigo_warai		#笑
 
-＠いちご,O00818
+＠Ichigo,O00818
 「だって片付けはしないとすぐ怒られるけど、整理はしなくてもバレないんだもん」
 
-＠樹
+＠Itsuki
 「なるほど―――ん？」
 
 巡らせていた視線が、大事そうに置かれた人形を見て止まった。
 
-＠樹
+＠Itsuki
 「この人形だけ、他よりちょっと地味だな」
 
 @ichigo			#普通
 
-＠いちご,O00819
+＠Ichigo,O00819
 「え？」
 
 @ichigo_yorokobi	#喜
 
-＠いちご,O00820
+＠Ichigo,O00820
 「あ、そのお人形？　だってそれ、いちごがここに来る前から持ってるお人形だもん」
 
-＠樹
+＠Itsuki
 「へぇ～」
 
 それ以前に、古さよりも他の人形とは趣味が違う気がする。
@@ -265,33 +265,33 @@ se_stop		0
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-＠いちご,O00821
+＠Ichigo,O00821
 「えへへ。これね、パパが買ってくれたんだよ」
 
-＠樹
+＠Itsuki
 「ん？　そうだったか？」
 
 bgm_stop
 #@ichigo_komaru		#困
 
-＠いちご,O00822
+＠Ichigo,O00822
 「あ、パパじゃないよ。いちごの本当のパパだよ」
 
 @ichigo_kanashimi	#哀
 
-＠いちご,O00823
+＠Ichigo,O00823
 「今はお仕事で遠くに行っちゃってて会えないけど」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 前に雫さんから聞いた、服役中の父のことか。
 
-＠樹
+＠Itsuki
 「それで大事にしてるのか」
 
 @ichigo_yorokobi	#喜
 
-＠いちご,O00824
+＠Ichigo,O00824
 「これね、秘密があるんだよ。見てて」
 
 @ichigo_
@@ -305,7 +305,7 @@ bgm_stop
 
 screen_vibration	500,16,16,16
 
-＠樹
+＠Itsuki
 「うぉッ！？　な、なんだ！」
 
 突然人形から、なぜか中年男の声が聞こえてきた。
@@ -314,29 +314,29 @@ screen_vibration	500,16,16,16
 @ichigo_shifuku
 @ichigo_warai		#笑
 
-＠いちご,O00825
+＠Ichigo,O00825
 「えへへ～、喋るお人形だよ」
 
-＠樹
+＠Itsuki
 「しゃ、喋る……？」
 
 @ichigo_yorokobi	#喜
 
-＠いちご,O00826
+＠Ichigo,O00826
 「お人形の中にテープが入ってるの」
 
 ＠人形,E00003
 「いちごちゃんは笑顔が一番かわいいよ。わらって、わらって」
 
-＠樹
+＠Itsuki
 「なるほど、テープか……。しかし、なんでおっさんの声なんだ」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
-＠いちご,O00827
+＠Ichigo,O00827
 「おっさんじゃないよっ、いちごのパパなの」
 
-＠いちご,O00828
+＠Ichigo,O00828
 「いちごがお願いして、お人形にパパの声を入れてもらったんだもん」
 
 ＠人形,E00004
@@ -344,10 +344,10 @@ screen_vibration	500,16,16,16
 
 @ichigo_yorokobi	#喜
 
-＠いちご,O00829
+＠Ichigo,O00829
 「ほら、いちごのことを励ましてくれてるんだよ」
 
-＠樹
+＠Itsuki
 「……へぇ～」
 
 どうコメントすればいいのか。
@@ -359,13 +359,13 @@ screen_vibration	500,16,16,16
 #@ichigo_komaru		#困
 @ichigo_yorokobi	#喜
 
-＠いちご,O00830
+＠Ichigo,O00830
 「いちごね、学校とかで嫌なことがあっても、このお人形のおかげで元気なんだよ」
 
 #@ichigo_yorokobi	#喜
 @ichigo_warai		#笑
 
-＠いちご,O00831
+＠Ichigo,O00831
 「パパが今もお仕事を頑張ってて、それでいちごを励ましてくれてるって」
 
 いちごはそう思っているらしい。
@@ -374,10 +374,10 @@ screen_vibration	500,16,16,16
 
 @ichigo_yorokobi	#喜
 
-＠いちご,O00832
+＠Ichigo,O00832
 「いちごの髪型もね、このお人形をまねしてるんだよ」
 
-＠樹
+＠Itsuki
 「人形………いや、父親が好きなんだな、いちごは」
 
 @ichigo_warai		#笑
@@ -390,7 +390,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O00833
+＠Ichigo,O00833
 「うんッ、優しくて大好き！　早く帰ってきてくれないかなぁ～♪」
 
 @ichigo_
@@ -399,10 +399,10 @@ layer_movepass_play	l_ichigo,0,play_once
 
 だがすぐにそんな考えは振り払う。
 
-＠いちご,O00834
+＠Ichigo,O00834
 「あ、パパ、漫画見つかったよ。一緒に読もう」
 
-＠樹
+＠Itsuki
 「ああ、そだな」
 
 bgm_stop

@@ -15,7 +15,7 @@ bgm_stop
 @bg_itsuki		# 自室
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-＠樹
+＠Itsuki
 「早いな、月日が経つのは……」
 
 もう一年になる慣れ親しんだ部屋にオレは居た。
@@ -25,10 +25,10 @@ bgm_stop
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-＠美雨,B02905
+＠Miu,B02905
 「樹さん、子供たちの準備が出来ました」
 
-＠樹
+＠Itsuki
 「分かった。すぐ行く」
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -48,34 +48,34 @@ wait		100
 @miu_kuruma		# 普（車いす専用）
 @bg_rouka		# 廊下
 
-＠樹
+＠Itsuki
 「お待たせ、時間取らせたな」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02906
+＠Miu,B02906
 「身支度をされていたんですね。服も髪も整って素敵ですよ」
 
 ドアの外で待ってくれていた美雨が、オレを見て微笑んでくれる。
 
 だがその姿は、入院していた頃と同じ、車椅子のまま……
 
-＠樹
+＠Itsuki
 「………」
 
 何発も夜行の銃弾を受けた美雨の両足……
 
 誰も口にしないが、あの病室で察しがついていた通り、美雨の足はおそらくもう……
 
-＠美雨,B02907
+＠Miu,B02907
 「急がないと、子供たちが騒いでいますよ。樹さんはどこかって」
 
 @miu_kuruma		# 普（車いす専用）
 
-＠美雨,B02908
+＠Miu,B02908
 「………どうかしましたか？」
 
-＠樹
+＠Itsuki
 「なんでもないよ。急がないと大変だな」
 
 今日の日がいつかは来ると分かっていた……そう、子供たちの転院する日だ。
@@ -87,21 +87,21 @@ wait		100
 #注：押しているので立ちキャラ表示不可
 @bg_rouka		# 廊下
 
-＠美雨,B02909
+＠Miu,B02909
 「えっ？　あ、あの、一人で動かせますから、樹さん」
 
-＠樹
+＠Itsuki
 「いいって。今はオレが居るんだから、これが普通だろう」
 
-＠美雨,B02910
+＠Miu,B02910
 「でも、そんな労力を樹さんに……。それなりに力も要りますし」
 
-＠樹
+＠Itsuki
 「……だったらいっそ、抱き上げて運んだりしてみるか……？」
 
 screen_vibration	500,16,16,16
 
-＠美雨,B02911
+＠Miu,B02911
 「へッ…？　きゃッ！？」
 
 慌てる美雨を乗せたまま、少し押す速度を上げて歩く。
@@ -128,14 +128,14 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ゆず,F00336
+＠Yuzu,F00336
 「あっ、樹先生が来たよ！」
 
 @ichigo_small
 @ichigo_shifuku
 @ichigo_komikaru_ikari	#コミカル怒
 
-＠いちご,O02245
+＠Ichigo,O02245
 「パパ遅いよー！」
 
 @bgm12			#BGM 12 : メインテーマ
@@ -148,10 +148,10 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-＠ざくろ,Q01381
+＠Zakuro,Q01381
 「つっちー、服と髪が綺麗になってる」
 
-＠樹
+＠Itsuki
 「ああ、整えてたら時間がかかってな。今まで」
 
 @chara_clear		#保険
@@ -160,7 +160,7 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-＠かりん,P02671
+＠Karin,P02671
 「見送りの樹が身支度に時間をかけてどうするのよ、まったく……」
 
 #@chara_clear		#保険
@@ -169,7 +169,7 @@ wait		500
 @suika_shifuku
 @suika_yorokobi		#喜
 
-＠すいか,R00426
+＠Suika,R00426
 「でも院長先生らしくて良いですよ、律儀なところ」
 
 #--------------------------------------------------
@@ -192,7 +192,7 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ゆず,F00337a
+＠Yuzu,F00337a
 「はい、惚れ直します！」
 
 @yuzu_kanashimi		#哀
@@ -205,7 +205,7 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ゆず,F00337b
+＠Yuzu,F00337b
 「……あぁ……なのに今日で最後なんて……」
 
 #--------------------------------------------------
@@ -216,19 +216,19 @@ layer_movepass_play	l_yuzu,0,play_once
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-＠ざくろ,Q01382
+＠Zakuro,Q01382
 「最後くらいなら、つっちー優しいから挿れてくれるかもしれないわよ」
 
 @yuzu_odoroki		#驚
 #@suika_odoroki		#驚
 
-＠すいか,R00427
+＠Suika,R00427
 「ええッ！？　あわわッ……」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
-＠樹
+＠Itsuki
 「挿れんぞッ！　すいかも、慌てて携帯で撮ろうとするんじゃないッ！」
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -249,14 +249,14 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-＠雫,S01412
+＠Shizuku,S01412
 「はぁ～。いつもより一段と賑やかだねぇ、今日は」
 
 姿の見えなかった雫さんが、騒がしさを増すリビングの中に入って来た。
 
 @shizuku		#普通
 
-＠雫,S01413
+＠Shizuku,S01413
 「えーっと、もう全員そろってるかい？　一、二の三匹四匹、五、六、七匹と……」
 
 @chara_clear		#保険
@@ -277,7 +277,7 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-＠かりん,P02672
+＠Karin,P02672
 「ひ、匹ッ！？」
 
 @karin_kanashimi	#哀
@@ -293,7 +293,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02246
+＠Ichigo,O02246
 「酷いー！　いちご達、動物じゃないのにーッ！」
 
 @chara_clear		#保険
@@ -302,13 +302,13 @@ wait		500
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-＠雫,S01414
+＠Shizuku,S01414
 「ははっ、賑やかな頭数が揃ってたから、つい出るんだよね」
 
 bgm_stop
 @shizuku		#普通
 
-＠雫,S01415
+＠Shizuku,S01415
 「さてと。車の用意も出来たから、お別れして行くよ」
 
 #@chara_clear		#保険
@@ -324,18 +324,18 @@ wait		100
 @hikari_kanashimi	#哀
 @bg_living		# リビング
 
-＠みかん,A01949
+＠Mikan,A01949
 「…………」
 
-＠ひかり,N00720
+＠Hikari,N00720
 「う～……」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-＠樹
+＠Itsuki
 「どうした、みかんにひかり。お腹でも空いたか」
 
-＠みかん,A01950
+＠Mikan,A01950
 「分かってたけど。やっぱりみかん、みんなと離れるの寂しいよ」
 
 @hikari_naki		#泣
@@ -353,7 +353,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00721
+＠Hikari,N00721
 「ひっぐ……ひーちゃんも、お姉しゃんとお別れすゆのヤなのぉ……ぐすッ」
 
 @chara_clear		#保険
@@ -362,7 +362,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
-＠美雨,B02912
+＠Miu,B02912
 「みかんちゃん、ひーちゃん……」
 
 @chara_clear		#保険
@@ -375,10 +375,10 @@ wait		500
 @suika_kanashimi	#哀
 @karin_kanashimi	#哀
 
-＠かりん,P02673
+＠Karin,P02673
 「みかん……」
 
-＠すいか,R00428
+＠Suika,R00428
 「………」
 
 @bg_black
@@ -396,10 +396,10 @@ wait		500
 @hikari_naki		#泣
 @bg_living		# リビング
 
-＠樹
+＠Itsuki
 「みかん、ひかり。寂しいのは分かるよ」
 
-＠樹
+＠Itsuki
 「でもここで別れたからって、もう会えなくなるわけじゃないんだぞ」
 
 @chara_clear		#保険
@@ -408,10 +408,10 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02913
+＠Miu,B02913
 「ええ。お休みの日に約束して、いつでも会いに行くことが出来るから」
 
-＠美雨,B02914
+＠Miu,B02914
 「それに電話もメールも、みんな連絡先が分かるからいつでもお話が出来るのよ」
 
 @chara_clear		#保険
@@ -425,13 +425,13 @@ wait		500
 @mikan_kanashimi	#哀
 #@hikari_kanashimi	#哀
 
-＠みかん,A01951
+＠Mikan,A01951
 「うん……そうだけど」
 
-＠みかん,A01952
+＠Mikan,A01952
 「でもこれからは毎日、お話の後はバイバイって別れるようになるんだもんっ……」
 
-＠樹
+＠Itsuki
 「みかん……」
 
 @mikan_naki		#泣
@@ -449,7 +449,7 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-＠みかん,A01953
+＠Mikan,A01953
 「みかん、そんなのヤダよぉッ！　ずっとお兄ちゃん達と一緒に居たかったのにぃ」
 
 #@bg_black		# 黒
@@ -500,7 +500,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00722
+＠Hikari,N00722
 「ぐすッ、ふぇええんッ！　ひーちゃんも寂しいのぉッ、お父しゃあんッ！」
 
 window_close
@@ -515,15 +515,15 @@ wait			100
 @bg_white		# 白
 screen_whitein		1
 
-＠樹
+＠Itsuki
 「おっとと、ひかりまで……。ひかりはオレ達と一緒だろう？」
 
 釣られて泣き出すひかりも入れて二人、腕の中で頭を撫でてやる。
 
-＠樹
+＠Itsuki
 「寂しいだろうけど、これはみかん達みんなの、大事な門出なんだよ」
 
-＠樹
+＠Itsuki
 「オレが言うのも変だけど、ここを出て普通の暮らしに戻って欲しいんだ」
 
 window_close
@@ -534,16 +534,16 @@ window_close
 @mikan_naki		#泣
 @bg_living		# リビング
 
-＠みかん,A01954
+＠Mikan,A01954
 「……お兄ちゃん」
 
-＠みかん,A01955
+＠Mikan,A01955
 「お兄ちゃん……もうみかんのこと、側にいて守ってくれないの……？」
 
-＠樹
+＠Itsuki
 「もちろん守ってやるよ」
 
-＠樹
+＠Itsuki
 「みかんだけじゃなくみんな、困ってるときは助けてやる」
 
 @bg_black		# 黒
@@ -560,10 +560,10 @@ window_close
 @hikari_naki		#泣
 @bg_living		# リビング
 
-＠樹
+＠Itsuki
 「今までみたいにずっと側には居られなくなったけど、オレはみんなの味方だよ」
 
-＠みかん,A01956
+＠Mikan,A01956
 「…お兄ちゃんっ……」
 
 #///////////////////////////////////////////////////////
@@ -580,7 +580,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00723
+＠Hikari,N00723
 「うぐぅ…、お父しゃんんん～～ッ……」
 
 @chara_clear		#保険
@@ -589,7 +589,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02915
+＠Miu,B02915
 「さ、二人とも元気出して。笑顔で出掛けましょ」
 
 @chara_clear		#保険
@@ -598,29 +598,29 @@ wait		500
 @shizuku_shifuku
 @shizuku_yorokobi	#喜
 
-＠雫,S01416
+＠Shizuku,S01416
 「みかん、借金はこっちで綺麗にしておいたから、もう取り立てがくる心配はないからね」
 
 @shizuku		#普通
 
-＠雫,S01417
+＠Shizuku,S01417
 「それと、かりんの分も支払いは終わってるはずだ」
 
 @karin_small
 @karin_shifuku
 @karin_odoroki		#驚
 
-＠かりん,P02674
+＠Karin,P02674
 「えっ、私のも！？　会社が倒産した大損害だったのよッ？」
 
 @shizuku_yorokobi	#喜
 
-＠雫,S01418
+＠Shizuku,S01418
 「まぁ細かい事は気にしなくていいさ。良かっただろ？」
 
 @karin_kanashimi	#哀
 
-＠かりん,P02675
+＠Karin,P02675
 「ええ、まぁ……。何かしっくり来ないけれど……」
 
 #bgm_stop
@@ -633,7 +633,7 @@ wait		500
 @shizuku		#普通
 @bg_living		# リビング
 
-＠雫,S01419
+＠Shizuku,S01419
 「さて。それじゃそろそろ時間だから行くよ」
 
 #@chara_clear		#保険
@@ -645,7 +645,7 @@ wait		100
 @yuzu_kanashimi		#哀
 @bg_living		# リビング
 
-＠ゆず,F00338
+＠Yuzu,F00338
 「はい……」
 
 window_close
@@ -655,7 +655,7 @@ wait		1000
 @ichigo_shifuku
 @ichigo_komaru		#困
 
-＠いちご,O02247
+＠Ichigo,O02247
 「は～い……」
 
 window_close
@@ -665,7 +665,7 @@ wait		1000
 @suika_shifuku
 @suika_kanashimi	#哀
 
-＠すいか,R00429
+＠Suika,R00429
 「分かりました……」
 
 window_close
@@ -680,7 +680,7 @@ wait		1000
 @zakuro_shifuku
 @zakuro_kanashimi	#哀しみ
 
-＠ざくろ,Q01383
+＠Zakuro,Q01383
 「………」
 
 @zakuro_
@@ -691,7 +691,7 @@ wait		1000
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02916
+＠Miu,B02916
 「さ。行きましょ、ひーちゃん、みかんちゃん」
 
 @chara_clear		#保険
@@ -704,7 +704,7 @@ wait		500
 @mikan_kanashimi	#哀
 @hikari_naki		#泣
 
-＠みかん,A01957
+＠Mikan,A01957
 「うん……」
 
 #///////////////////////////////////////////////////////
@@ -721,14 +721,14 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00724
+＠Hikari,N00724
 「ぐすッ……ぅん」
 
 @chara_clear		#保険
 
 美雨がみかんとひかりをつれて、見送りへとついて行く。
 
-＠樹
+＠Itsuki
 「ん？　どうした、かりん……？」
 
 @karin_small
@@ -743,32 +743,32 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-＠かりん,P02676
+＠Karin,P02676
 「はぁ……別に、ただ感慨に浸ってたのよ」
 
-＠かりん,P02677
+＠Karin,P02677
 「ようやくこの日が来たのね……。長かったわ」
 
-＠樹
+＠Itsuki
 「ああ、いろいろ悪かったな。悪気は無かったとはいえ酷い事をした」
 
-＠かりん,P02678
+＠Karin,P02678
 「………言葉で謝って済むことだと思ってるの？」
 
-＠樹
+＠Itsuki
 「いや、もう時間は無いが出来ることをするよ。どうすればいい？」
 
 @karin			#普通
 
-＠かりん,P02679
+＠Karin,P02679
 「…………」
 
 @karin_kanashimi	#哀
 
-＠かりん,P02680
+＠Karin,P02680
 「……じゃあ、そうね。顔に手が届かないんだから腰を下ろしてよ」
 
-＠樹
+＠Itsuki
 「はは……この際だ、平手じゃなくてグーでも構わないぞ。遠慮なくこい」
 
 bgm_stop
@@ -776,7 +776,7 @@ bgm_stop
 
 オレは腰を下ろして目を閉じ、かりんからの制裁の痛みに気持ちを備えた。
 
-＠かりん,P02681
+＠Karin,P02681
 「……ッ」
 
 #EF　白フラッシュ
@@ -784,32 +784,32 @@ bgm_stop
 screen_flash		500
 @SE108			#SE108　女性のビンタ（パシンッ！）
 
-＠樹
+＠Itsuki
 「ッつ…！」
 
 そして、左頬に手加減無しのビンタが入った。
 
 @bg_living		# リビング
 
-＠樹
+＠Itsuki
 「く～～、いいビンタだな……。すっげぇ痛いわ」
 
 @karin_large		# 近い
 @karin_shifuku
 @karin_keno		#嫌悪
 
-＠かりん,P02682
+＠Karin,P02682
 「……ケジメとして当然でしょ。それだけの事をしたんだから」
 
 #@karin_kanashimi	#哀
 @karin			#普通
 
-＠かりん,P02683
+＠Karin,P02683
 「…いつき……」
 
 @karin_
 
-＠樹
+＠Itsuki
 「はは……いいよ、分かってる。こんな痛みくらいでみんな―――」
 
 #■BG（黒）
@@ -817,20 +817,20 @@ screen_flash		500
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @bg_white		# 白
 
-＠かりん,P02684
+＠Karin,P02684
 「…っん……んぅ…」
 
-＠樹
+＠Itsuki
 （えっ……？）
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
 かりんが突然、唇同士を重ね合わせてきた。
 
-＠かりん,P02685
+＠Karin,P02685
 「ちゅ……ぁふ…」
 
-＠かりん,P02686
+＠Karin,P02686
 「ん……ふぅ」
 
 エッチの時のような舌のせめぎ合いではなく、ただ唇を合わせるだけのキス。
@@ -843,29 +843,29 @@ screen_vibration	500,16,16,16
 
 それもこちらが反応する前に、すぐかりんは離れた。
 
-＠樹
+＠Itsuki
 「え、えっと……？　今のは……」
 
 @karin_middle		# 中間
 @karin_shifuku
 @karin_kanashimi	#哀
 
-＠かりん,P02687
+＠Karin,P02687
 「せ、餞別よ。この生活も最後なんだし……」
 
 #@karin_tere		#照れ（笑いを兼用？）
 @karin_ikari		#怒
 
-＠かりん,P02688
+＠Karin,P02688
 「それよりも、エッチする機会が減ったからって、誰彼構わず手を出したりしたらダメよ」
 
-＠樹
+＠Itsuki
 「言われなくてもするかっ、そんなこと」
 
 #@karin_warai		#笑
 @karin_bubetsu		#侮蔑
 
-＠かりん,P02689
+＠Karin,P02689
 「ふ～ん、どうかしら。まぁ三面記事にあなたが載らないことを祈ってるわ」
 
 window_close
@@ -883,7 +883,7 @@ wait		1000
 
 ……まぁ行状もあって言い返せないオレだが。
 
-＠樹
+＠Itsuki
 「かりんとも、もっと上手くやっていきたかったな……」
 
 #一拍
@@ -906,12 +906,12 @@ wait		1000
 @ichigo			#普通
 @bg_gate		# 孤児院前
 
-＠いちご,O02248
+＠Ichigo,O02248
 「雫、いちごとざくろは？」
 
 @shizuku_yorokobi	#喜
 
-＠雫,S01420
+＠Shizuku,S01420
 「二人も一緒だよ。降ろすのは最後になるけどさ」
 
 @chara_clear		#保険
@@ -920,10 +920,10 @@ wait		500
 @suika_shifuku
 @suika_kanashimi	#哀
 
-＠すいか,R00430
+＠Suika,R00430
 「これで本当に、もうこの施設とはお別れなんですね……」
 
-＠樹
+＠Itsuki
 「施設は閉めてしまうからな。オレ達もいずれ出て行くんだよ」
 
 @chara_clear		#保険
@@ -932,20 +932,20 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-＠ざくろ,Q01384
+＠Zakuro,Q01384
 「すごくもったいない……」
 
 @zakuro_metoji		#閉
 
-＠ざくろ,Q01385
+＠Zakuro,Q01385
 「せっかく、珍しい道具とか妖しい部屋とかいっぱいあるのに……」
 
-＠樹
+＠Itsuki
 「残念だがざくろ、それを抹殺するために潰すんだってよ」
 
 @zakuro_kanashimi	#哀しみ
 
-＠ざくろ,Q01386
+＠Zakuro,Q01386
 「……どうせなら、もっと餞別に欲しかったの」
 
 @bg_black		# 黒
@@ -968,7 +968,7 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ゆず,F00339
+＠Yuzu,F00339
 「そうだっ。記念にここで、みんな一緒に写真を写すのってどうかな？」
 
 @ichigo_small
@@ -983,7 +983,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02249
+＠Ichigo,O02249
 「あッ、それ良いよゆず！　撮ろう撮ろう！」
 
 @mikan_small
@@ -998,16 +998,16 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-＠みかん,A01958
+＠Mikan,A01958
 「うんッ、良い記念になるね！」
 
 @mikan_yorokobi		#喜
 @yuzu_yorokobi		#喜
 
-＠みかん,A01959
+＠Mikan,A01959
 「お兄ちゃん、お別れする前に一緒に撮っても良いでしょ？」
 
-＠樹
+＠Itsuki
 「写真か……。いいけど美雨、カメラってすぐ用意できるかい？」
 
 @chara_clear		#保険
@@ -1016,7 +1016,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02917
+＠Miu,B02917
 「ふふ。はい、大丈夫ですよ。実は……」
 
 @bg_black
@@ -1028,7 +1028,7 @@ wait		500
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @bg_gate		# 孤児院前
 
-＠美雨,B02918
+＠Miu,B02918
 「私もみんなを写そうと思って、もう用意して持ってきていたんです」
 
 @chara_clear		#保険
@@ -1049,14 +1049,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02250
+＠Ichigo,O02250
 「わーいッ！　さすが美雨、用意がいーいッ♪」
 
 @karin_small
 @karin_shifuku
 @karin_niko		#にこ
 
-＠かりん,P02690
+＠Karin,P02690
 「ええ、いいわね写真。美雨も思ってたなら早く言ってくれれば良かったのに」
 
 @chara_clear		#保険
@@ -1065,7 +1065,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02919
+＠Miu,B02919
 「それは……どちらかと言うと、私がみんなと撮りたいっていう希望の方が強かったから、遠慮しちゃってて」
 
 @chara_clear		#保険
@@ -1082,12 +1082,12 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-＠雫,S01421
+＠Shizuku,S01421
 「ふぅ。ま、それくらいの時間なら構わないか」
 
 @shizuku_yorokobi	#喜
 
-＠雫,S01422
+＠Shizuku,S01422
 「じゃあみんな並びな。あたしがシャッター押してあげるから」
 
 @chara_clear		#保険
@@ -1100,18 +1100,18 @@ wait		500
 @zakuro			#普
 @suika			#普
 
-＠すいか,R00431
+＠Suika,R00431
 「雫さんは入らないんですか？」
 
 @zakuro_metoji		#閉
 
-＠ざくろ,Q01387
+＠Zakuro,Q01387
 「雫は写真が嫌いだから。年とってから見ると欝になるからって」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
-＠雫,S01423
+＠Shizuku,S01423
 「失礼な捏造するんじゃないよッ！　自分でも微妙に納得しかけたし！」
 
 @chara_clear		#保険
@@ -1120,7 +1120,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02920
+＠Miu,B02920
 「雫さんも撮りましょう。タイマーセット出来ますから」
 
 @miu_
@@ -1135,7 +1135,7 @@ wait		500
 @shizuku		#普通
 #@bg_gate		# 孤児院前
 
-＠雫,S01424
+＠Shizuku,S01424
 「しょうがないね。じゃあセットするから、みんなそこに並びな」
 
 #@chara_clear		#保険
@@ -1155,7 +1155,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02251
+＠Ichigo,O02251
 「はーいっ」
 
 #@chara_clear		#保険
@@ -1167,7 +1167,7 @@ wait		100
 @mikan_warai		#笑
 @bg_gate		# 孤児院前
 
-＠みかん,A01960
+＠Mikan,A01960
 「雫さんの場所、ここに空けておくね」
 
 @mikan_
@@ -1195,7 +1195,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00725
+＠Hikari,N00725
 「お父しゃんお母しゃん、ひーちゃんの隣に来て～♪」
 
 #@chara_clear		#保険
@@ -1207,10 +1207,10 @@ wait		100
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @bg_gate		# 孤児院前
 
-＠美雨,B02921
+＠Miu,B02921
 「ええ、それじゃひーちゃんは私たちの間に入ってね」
 
-＠樹
+＠Itsuki
 「ん…？　かりんはオレの隣か？」
 
 #@chara_clear		#保険
@@ -1233,7 +1233,7 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-＠かりん,P02691
+＠Karin,P02691
 「しょ、しょうがないでしょ、他に場所が無いんだからッ」
 
 #@chara_clear		#保険
@@ -1245,7 +1245,7 @@ wait		100
 @ichigo_yorokobi	#喜
 @bg_gate		# 孤児院前
 
-＠いちご,O02252
+＠Ichigo,O02252
 「あるよぉ～ッ、だったらいちごもパパの隣がいい～！」
 
 #@chara_clear		#保険
@@ -1257,10 +1257,10 @@ wait		100
 @shizuku_chousyou	#怒笑
 @bg_gate		# 孤児院前
 
-＠雫,S01425
+＠Shizuku,S01425
 「まるでハーレム状態ねぇ。どうせなら記念で、みんなとやってるシーンも撮っとくかい？」
 
-＠樹
+＠Itsuki
 「何の記念ですかッ！」
 
 #@chara_clear		#保険
@@ -1273,10 +1273,10 @@ wait		100
 @hikari			#普
 @bg_gate		# 孤児院前
 
-＠ひかり,N00726
+＠Hikari,N00726
 「はぁれむ……？　お父しゃんと何かすゆの？」
 
-＠美雨,B02922
+＠Miu,B02922
 「……ひーちゃん、そういう言葉は覚えなくて良いから」
 
 @bg_black		# 黒
@@ -1302,15 +1302,15 @@ se_stop		0
 @bg_black
 #screen_blackin		1
 
-＠雫,S01426
+＠Shizuku,S01426
 「はっは～♪　だ～れだ～～？」
 
-＠樹
+＠Itsuki
 「ちょッ！？　ぬあッ！！？」
 
 感傷に浸ってたら、いきなり目の前が真っ暗になった。
 
-＠樹
+＠Itsuki
 「な、何バカやってんすかッ！　目を隠さないでください！！」
 
 #SE01　ズボンのベルトを外す（カチャカチャ）
@@ -1319,12 +1319,12 @@ wait		100
 @SEH01			#SEH01_ジッパー下げる
 wait		500
 
-＠樹
+＠Itsuki
 「って、誰だッ、ズボン脱がそうとしてる奴はッ！！」
 
 se_stop		0
 
-＠ざくろ,Q01388
+＠Zakuro,Q01388
 「かりん」
 
 #SE66　効果音１（ビシッ！）
@@ -1334,7 +1334,7 @@ se_stop		0
 #＠樹＆かりん,P02692
 #「ざくろだろうがッ／ざくろでしょッ！」
 
-＠かりん,P02692
+＠Karin,P02692
 「ざくろでしょッ！」
 
 @bg_sky			# 空
@@ -1344,14 +1344,14 @@ wait		2000
 
 何とか二人のイタズラを跳ねのける。
 
-＠樹
+＠Itsuki
 「この大事な時に、どうやったらそんなにふざけられるのかッ！？」
 
 @shizuku_middle		# 中間
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-＠雫,S01427
+＠Shizuku,S01427
 「怒んない怒んない。ちゃんとそれ計算してタイマー回してるんだから」
 
 #SE110　カメラのタイマーの音（ジイィィ……）
@@ -1361,15 +1361,15 @@ wait		2000
 
 @shizuku		#普通
 
-＠雫,S01428
+＠Shizuku,S01428
 「どうせ大事に考えてるんだろうと思って、気を解してあげたのさ」
 
 @shizuku_akire		#呆
 
-＠雫,S01429
+＠Shizuku,S01429
 「だいたい、そんな湿っぽい顔で写真を撮られたら、他の子たちが可哀想でしょ」
 
-＠樹
+＠Itsuki
 「………」
 
 そっか。子供たちを慰めておきながら、オレ自身がこんな気持ちだった。
@@ -1380,7 +1380,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-＠美雨,B02923
+＠Miu,B02923
 「樹さん。自然体で撮りましょう」
 
 @chara_clear		#保険
@@ -1397,10 +1397,10 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00727
+＠Hikari,N00727
 「お父しゃん、笑顔でうちゅるの♪」
 
-＠樹
+＠Itsuki
 「ああ、そうだったな……。悪い、深刻になってて」
 
 bgm_stop

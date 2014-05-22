@@ -20,14 +20,14 @@ bgm_stop
 @suzumi_shifuku
 @suzumi_ikari		#怒
 
-＠涼海,L00323
+＠Suzumi,L00323
 「だいたい誠司は二言目には美雨さん美雨さんって。ちょっとは私達のことも考えなさいよ～！」
 
 @rua_small
 @rua_shifuku
 @rua_ikari		#怒
 
-＠るあ,M00341
+＠Rua,M00341
 「そうですよ、最後にはグレちゃいますよっ。こっちから襲っちゃいますよッ」
 
 @chara_clear		#保険
@@ -36,7 +36,7 @@ bgm_stop
 #@seiji_shifuku
 #@seiji_odoroki		#驚
 
-＠誠司,D00215
+＠Seiji,D00215
 「ま、まぁ待ててお前ら。息がめっちゃ酒臭いで………あでッ！！」
 
 #SE38　殴る音（バキッ！）
@@ -46,7 +46,7 @@ bgm_stop
 #@suika_ikari		#怒
 @suika_shinkenikari	#真剣怒り
 
-＠すいか,R00407
+＠Suika,R00407
 「ダメですよ誠司さんっ。女の子に向かって臭いなんて～！」
 
 window_close
@@ -59,7 +59,7 @@ wait		1000
 #@SE38			#殴る音（バキッ！）
 @SE41			#SE41　暴れる音（ドタンッバタンッ！）
 
-＠誠司,D00216
+＠Seiji,D00216
 「いたッ、痛いッ！　ちょッ……松葉杖で脛を叩くなや～～！！」
 
 @bg_black
@@ -73,20 +73,20 @@ wait		1000
 @miu2			#開_にこ
 @bg_living_n		# リビング(夜) 
 
-＠美雨,B01880
+＠Miu,B01880
 「樹さん、グラスが空ですよ」
 
-＠樹
+＠Itsuki
 「ああ、ありがとう」
 
 @miu_
 
 美雨からシャンパンの注がれたグラスを受け取る。
 
-＠ゆず,F00322
+＠Yuzu,F00322
 「くぅ～……樹せんせぇ～～……むにゅ…ＺＺＺｚｚ」
 
-＠樹
+＠Itsuki
 「予想はしてたが……。聖夜の欠片もないグダグダさだな」
 
 #@miu_small
@@ -94,7 +94,7 @@ wait		1000
 @miu_maid
 @miu			#閉_にこ
 
-＠美雨,B01881
+＠Miu,B01881
 「私はこういう、にぎやかなのは楽しいですけど」
 
 @bg_black
@@ -104,7 +104,7 @@ wait		100
 @seiji_kanashimi	#哀
 @bg_living_n		# リビング(夜) 
 
-＠誠司,D00217
+＠Seiji,D00217
 「た、助けてくださいッ、美雨さん～！！」
 
 @chara_clear		#保険
@@ -124,7 +124,7 @@ layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_rua,0,play_once
 #///////////////////////////////////////////////////////
 
-＠るあ,M00342
+＠Rua,M00342
 「あ～っ、また言ったぁ！」
 
 @rua_ikari		#怒
@@ -139,7 +139,7 @@ layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_rua,0,play_once
 #///////////////////////////////////////////////////////
 
-＠るあ,M00343
+＠Rua,M00343
 「誠司先生～っ、どうして私たちのことを見てくれないんですか～！」
 
 @suzumi_small
@@ -154,7 +154,7 @@ layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suzumi,0,play_once
 #///////////////////////////////////////////////////////
 
-＠涼海,L00324
+＠Suzumi,L00324
 「しかたない、もうこうなったら力ずくしかないわね」
 
 @suzumi_comical_ikari	#コミカル怒
@@ -169,10 +169,10 @@ layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suzumi,0,play_once
 #///////////////////////////////////////////////////////
 
-＠涼海,L00325
+＠Suzumi,L00325
 「るあ、この場でこのバカをフルチンにして一緒に犯すのよッ」
 
-＠誠司,D00218
+＠Seiji,D00218
 「な、なにぃッ！？　冗談やないッ！　……って、何やこの拘束はぁ！？」
 
 @chara_clear		#保険
@@ -181,7 +181,7 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-＠ざくろ,Q01342
+＠Zakuro,Q01342
 「逃げちゃダメ。ここは空気を読んで犯されましょう」
 
 @bg_black
@@ -192,33 +192,33 @@ wait		500
 
 @bg_living_n		# リビング(夜) 
 
-＠樹
+＠Itsuki
 「………み、見苦しい」
 
 @miu_middle		# 中間
 @miu_maid
 @miu			#閉_にこ
 
-＠美雨,B01882
+＠Miu,B01882
 「あ、あはは……。とりあえず、あちらはあちらということで……」
 
 @miu2			#開_にこ
 
-＠美雨,B01883
+＠Miu,B01883
 「そういえば、ひーちゃんやみかんちゃん達はどこに行ったんですか？」
 
-＠樹
+＠Itsuki
 「え……？」
 
 見渡すと、リビングの中にその二人と、そしてかりんといちごの姿も無かった。
 
-＠樹
+＠Itsuki
 「オレはてっきり、ひかりは美雨が知ってるものだと……」
 
 #@miu_komaru		#開_困
 @miu_mu			#開_普通（無表情）
 
-＠美雨,B01884
+＠Miu,B01884
 「えッ…」
 
 オレの答えに、美雨がサァッと表情を曇らせる。
@@ -226,16 +226,16 @@ wait		500
 #@miu_kanashimi		#開_哀
 @miu_komaru		#開_困
 
-＠美雨,B01885
+＠Miu,B01885
 「いえ、私も樹さんが知っていると……」
 
 #@miu_komaru		#開_困
 @miu_kanashimi		#開_哀
 
-＠美雨,B01886
+＠Miu,B01886
 「ッ、まさか、外に出て行っちゃったんじゃ……！？」
 
-＠樹
+＠Itsuki
 「まさか。みかんやかりんも居るんだし、そんなことは……」
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -247,10 +247,10 @@ wait		100
 @hikari			#普.png
 @bg_living_n		# リビング(夜) 
 
-＠ひかり,N00522
+＠Hikari,N00522
 「…？」
 
-＠美雨,B01887
+＠Miu,B01887
 「あっ……」
 
 美雨が心配した矢先、リビングにひかりが入って来た。
@@ -260,33 +260,33 @@ wait		100
 #@miu_komaru		#開_困
 @miu2			#開_にこ
 
-＠美雨,B01888
+＠Miu,B01888
 「ひーちゃんっ……良かった。どこに行ってたの」
 
 @hikari_komaru		#困.png
 
-＠ひかり,N00523
+＠Hikari,N00523
 「え？　ちょっとお部屋なの。どうしたのお母しゃん？」
 
 @miu			#閉_にこ
 
-＠美雨,B01889
+＠Miu,B01889
 「そう……。ううん、何でもないの。今度からはちゃんと行く場所を言ってからにしてね」
 
 @hikari			#普.png
 
-＠ひかり,N00524
+＠Hikari,N00524
 「？　うん。でもお部屋だよ？」
 
-＠樹
+＠Itsuki
 「ははっ。美雨、心配はいいけどちょっと過保護すぎだよ」
 
 @miu_ikari2		#開_怒
 
-＠美雨,B01890
+＠Miu,B01890
 「いいえ。ひーちゃんはまだ小さいんですから、誰かが見ててあげないといけないんですっ」
 
-＠樹
+＠Itsuki
 「ぅ……あ、ああ、そう……」
 
 @bg_black
@@ -298,14 +298,14 @@ wait		100
 @mikan			#普通
 @bg_living_n		# リビング(夜) 
 
-＠みかん,A01900
+＠Mikan,A01900
 「あれ、どうしたのひーちゃん。それにお兄ちゃんと美雨さんも」
 
 @karin_small
 @karin_shifuku
 @karin			#普通
 
-＠かりん,P02381
+＠Karin,P02381
 「ん？　何してるの、ドアの前で」
 
 @ichigo_small
@@ -320,15 +320,15 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02209
+＠Ichigo,O02209
 「あっ。よかったー、まだお料理もお菓子も残ってるー♪」
 
-＠樹
+＠Itsuki
 「みかん、それにかりんにいちご。どこに行ってたんだ？」
 
 @karin_warai		#笑
 
-＠かりん,P02382
+＠Karin,P02382
 「うふふ、聞きたい？　聖夜らしく、みかんと二人のクリスマスを―――」
 
 @ichigo_warai		#笑
@@ -340,7 +340,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02210
+＠Ichigo,O02210
 「今までひーちゃんと一緒に、部屋までついて行ってたんだよ」
 
 @hikari_small
@@ -355,12 +355,12 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00525
+＠Hikari,N00525
 「うん、お姉しゃんたちと一緒だったの！」
 
 @karin_kanashimi	#哀
 
-＠かりん,P02383
+＠Karin,P02383
 「……クリスマスを、過ごしたかった」
 
 うなだれるかりん。
@@ -374,10 +374,10 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-＠みかん,A01901
+＠Mikan,A01901
 「でも二人より、みんなで過ごすほうが楽しいよ、かりんちゃん」
 
-＠樹
+＠Itsuki
 「届かないな、かりん」
 
 @karin_komikaru_yoku_n	#コミカル欲ｎ
@@ -389,7 +389,7 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-＠かりん,P02384
+＠Karin,P02384
 「はぁ……。妄想だけが、どんどん過激に膨らんでいくわ」
 
 ……いずれ、どっかで昇華させないと危ないかもしれない。
@@ -401,16 +401,16 @@ wait		500
 @miu_maid
 @miu2			#開_にこ
 
-＠美雨,B01891
+＠Miu,B01891
 「部屋で何をしていたの？」
 
-＠ひかり,N00526
+＠Hikari,N00526
 「んっとねー。はいっ、お母しゃん！」
 
 bgm_stop
 @miu_mu			#開_普通（無表情）
 
-＠美雨,B01892
+＠Miu,B01892
 「え？」
 
 @bg_black
@@ -423,15 +423,15 @@ bgm_stop
 @hikari_yorokobi	#喜.png
 @bg_living_n		# リビング(夜) 
 
-＠ひかり,N00527
+＠Hikari,N00527
 「こっち、お父しゃんの！」
 
-＠樹
+＠Itsuki
 「あ、うん……」
 
 色違いの同じ包みが、オレの方にも手渡された。
 
-＠美雨,B01893
+＠Miu,B01893
 「……ひーちゃん、これ」
 
 @hikari_warai		#笑.png
@@ -443,16 +443,16 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00528
+＠Hikari,N00528
 「開けてっ♪　お父しゃんとお母しゃんに、クイスマシュプエジェントなの」
 
 #@bgmk03			#BGM K03 : 静かの時のテーマ
 @bgm17			#BGM 17 : のんびりのテーマ
 
-＠樹
+＠Itsuki
 「ひかりが……？」
 
-＠美雨,B01894
+＠Miu,B01894
 「………」
 
 @bg_white		# 白
@@ -475,7 +475,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00529
+＠Hikari,N00529
 「キーホルラーの字、ひーちゃんが書いたのっ」
 
 @chara_clear
@@ -483,17 +483,17 @@ window_close
 event	"event\EV_MIU_092-00.png"
 wait	500
 
-＠美雨,B01895
+＠Miu,B01895
 「ぁ……」
 
 それはストーンプレートになっていて、そこに不慣れな字体で文字が刻まれていた。
 
-＠樹
+＠Itsuki
 「『お父さん、大好き』、か」
 
 event	"event\EV_MIU_092-01.png"
 
-＠美雨,B01896
+＠Miu,B01896
 「……私のも、『お母さん、大好き』って……」
 
 @bg_white
@@ -501,7 +501,7 @@ wait	100
 @bg_living_n		# リビング(夜) 
 @hikari_warai		#笑.png
 
-＠ひかり,N00530
+＠Hikari,N00530
 「えへへ～♪　お姉しゃんにも、お小ぢゅかい出してもらったの」
 
 @chara_clear		#保険
@@ -525,15 +525,15 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-＠みかん,A01902
+＠Mikan,A01902
 「うん。みかんと、かりんちゃんといちごちゃんの共同出資だよ」
 
-＠かりん,P02385
+＠Karin,P02385
 「私は、別に……。ひーちゃんがどうしても、樹と美雨にもプレゼントを貰ってほしいって言うものだから」
 
 @ichigo_takurami	#企み
 
-＠いちご,O02211
+＠Ichigo,O02211
 「でも、最初にひーちゃんに提案したのもかりんだよね～♪」
 
 #@karin_keno		#嫌悪
@@ -546,14 +546,14 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-＠かりん,P02386
+＠Karin,P02386
 「い、いちごッ。またあなた余計なことをッ」
 
 ……かりん。この前出掛けたときに何か気付いたのは、これだったのか……。
 
 @karin			#普通
 
-＠かりん,P02387
+＠Karin,P02387
 「私達はお金を出しただけよ。プレゼントを作ったのはひーちゃんなんだから」
 
 @chara_clear		#保険
@@ -563,13 +563,13 @@ wait		500
 #@miu_tere		#開_照
 @miu_kanashimi		#開_哀
 
-＠美雨,B01897
+＠Miu,B01897
 「ひーちゃん……みんな……」
 
 #@miu_tere2		#閉_照
 @miu_kanashimi2		#閉_哀
 
-＠美雨,B01898
+＠Miu,B01898
 「私なんかに、こんな……」
 
 @chara_clear		#保険
@@ -579,7 +579,7 @@ wait		500
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
-＠ひかり,N00531
+＠Hikari,N00531
 「ひーちゃん、お母しゃんもお父しゃんも大しゅきなのッ」
 
 @hikari_warai		#笑.png
@@ -591,10 +591,10 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00532
+＠Hikari,N00532
 「だから、サンタしゃんの代わりに、ひーちゃん達からプレジェントすゆのッ」
 
-＠美雨,B01899
+＠Miu,B01899
 「……ッ」
 
 @SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
@@ -603,20 +603,20 @@ layer_movepass_play	l_hikari,0,play_once
 
 @hikari			#普.png
 
-＠ひかり,N00533
+＠Hikari,N00533
 「えっ…？」
 
-＠樹
+＠Itsuki
 「どうした、美雨っ？」
 
 #CH（美雨・立ち絵なし）
 
-＠美雨,B01900
+＠Miu,B01900
 「うッ……うぅッ、んくッ……」
 
 @hikari_komaru		#困.png
 
-＠ひかり,N00534
+＠Hikari,N00534
 「……お母しゃん、泣いてゆの……？」
 
 @chara_clear		#保険
@@ -632,16 +632,16 @@ wait		500
 @karin_kanashimi	#哀
 @mikan_kanashimi	#哀
 
-＠みかん,A01903
+＠Mikan,A01903
 「プレゼント、嬉しくなかったのかな……」
 
-＠かりん,P02388
+＠Karin,P02388
 「だからって、何も貰ったその場で泣かなくったって……」
 
-＠美雨,B01901
+＠Miu,B01901
 「んっく……ううん、違うの………嬉しくて」
 
-＠美雨,B01902
+＠Miu,B01902
 「ありがとう、ひーちゃん……みんな……」
 
 心底から感激するように、キーホルダーを胸に抱きしめる美雨。
@@ -662,7 +662,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00535
+＠Hikari,N00535
 「うんっ、どういたまして！」
 
 @chara_clear		#保険
@@ -685,7 +685,7 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-＠みかん,A01904
+＠Mikan,A01904
 「良かったぁ、気に入ってくれて」
 
 @karin_warai		#笑
@@ -697,7 +697,7 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-＠かりん,P02389
+＠Karin,P02389
 「ふぅ。これからも、メイドとしてよろしくね」
 
 @ichigo_warai		#笑
@@ -709,7 +709,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02212
+＠Ichigo,O02212
 「美味しいご飯、いっぱい作ってね♪」
 
 子供たちはそれぞれ、そんな美雨に照れるが、安心したように言葉を返した。
@@ -722,10 +722,10 @@ wait		500
 #@hikari_yorokobi	#喜.png
 @hikari			#普.png
 
-＠ひかり,N00536
+＠Hikari,N00536
 「お父しゃんは？」
 
-＠樹
+＠Itsuki
 「もちろん大事にするよ。ありがとうな、みんな」
 
 window_close
@@ -744,15 +744,15 @@ wait		500
 @karin_kanashimi	#哀
 @mikan_yorokobi		#喜
 
-＠みかん,A01905
+＠Mikan,A01905
 「字を入れたのはひーちゃんだけど、みかんもお兄ちゃん大好きだから」
 
-＠かりん,P02390
+＠Karin,P02390
 「わ、私は………言っておくけど、あなたは美雨のついでなんだからね」
 
 @ichigo_takurami	#企み
 
-＠いちご,O02213
+＠Ichigo,O02213
 「そんなこと言って。パパのプレートの字、ずっと書きたがってたのかりんなんだよ～」
 
 @mikan_kusyou		#苦笑
@@ -768,17 +768,17 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-＠かりん,P02391
+＠Karin,P02391
 「なッ……あ、あなたはさっきからッ！　粛清するわよッ！」
 
 @bg_black
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
-＠いちご,O02214
+＠Ichigo,O02214
 「ひゃあッ！？　ひあああ～～！　な、何で何で～～ッ」
 
-＠かりん,P02392
+＠Karin,P02392
 「脱ぎなさいーッ、身体にあなたの愚かさを刻んであげるわ！」
 
 @bg_living_n		# リビング(夜) 
@@ -788,21 +788,21 @@ wait		1000
 @mikan_shifuku
 @mikan_odoroki		#驚
 
-＠みかん,A01906
+＠Mikan,A01906
 「わあッ！？　かりんちゃん、まだお酒が残ってるよぉッ」
 
 @mikan_
 
 結局また、こっちもグダグダになっていく。
 
-＠樹
+＠Itsuki
 「ははっ……。最後はこうなるのか」
 
 @miu_middle		# 中間
 @miu_maid
 @miu_tere2		#閉_照
 
-＠美雨,B01903
+＠Miu,B01903
 「ええ……でも私、ここに戻ってきてよかった……」
 
 そんなリビングのドタバタを見つめながら、美雨は嬉しそうに目を細めた。

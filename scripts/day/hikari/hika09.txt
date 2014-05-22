@@ -27,10 +27,10 @@ bgm_stop
 @hikari			#普.png
 @bg_living_n		# リビング(夜) 
 
-＠いちご,O02179
+＠Ichigo,O02179
 「ねぇすいか、今年はどのくらい雪が降るかなぁ」
 
-＠すいか,R00352
+＠Suika,R00352
 「今の予想だったら、去年よりまだ少ないみたいだけど」
 
 @hikari_odoroki		#驚.png
@@ -42,7 +42,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00323
+＠Hikari,N00323
 「えっ、雪が降ゆの？　積もるっ？」
 
 @bg_black
@@ -68,17 +68,17 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02180
+＠Ichigo,O02180
 「スキー出来るくらい積もるといいね」
 
 @ichigo_yorokobi	#喜
 
-＠いちご,O02181
+＠Ichigo,O02181
 「ひーちゃんは、スキーしたことある？」
 
 @hikari			#普.png
 
-＠ひかり,N00324
+＠Hikari,N00324
 「……？」
 
 @hikari_warai		#笑.png
@@ -104,10 +104,10 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00325
+＠Hikari,N00325
 「ひーちゃんね、お父しゃんもお母しゃんもしゅきー♪」
 
-＠樹
+＠Itsuki
 「スキーって言うのは、スポーツのことだよ、ひかり」
 
 @chara_clear		#保険
@@ -120,13 +120,13 @@ wait		500
 @zakuro_akire		#呆
 @suika			#普
 
-＠ざくろ,Q01265
+＠Zakuro,Q01265
 「スキー旅行は定番のイベントなのに、雪が積もるせいで私達は縁がないわね」
 
 #@suika_kanashimi	#哀
 @suika_komariwarai	#困笑
 
-＠すいか,R00353
+＠Suika,R00353
 「ああ、そういう言い方をしたらいちごちゃんが……」
 
 @chara_clear		#保険
@@ -152,7 +152,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02182
+＠Ichigo,O02182
 「うぅう～、いちごもスキー旅行行きたーい！　パパ！」
 
 @hikari_warai		#笑.png
@@ -168,10 +168,10 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00326
+＠Hikari,N00326
 「ひーちゃんも行きたい！　しゅきーよこうっ、しゅきーよこう♪」
 
-＠樹
+＠Itsuki
 「……ただでさえ寒いのに。よけい寒いところに行くのはやだなぁ」
 
 @chara_clear		#保険
@@ -184,10 +184,10 @@ wait		500
 @zakuro_metoji		#閉
 @suika_komariwarai	#困笑
 
-＠ざくろ,Q01266
+＠Zakuro,Q01266
 「ジジくさい」
 
-＠樹
+＠Itsuki
 「なぬッ！？」
 
 @ichigo_small
@@ -205,15 +205,15 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02183
+＠Ichigo,O02183
 「パパジジくさーい！　行こうよ、旅行ー」
 
 @suika_yorokobi		#喜
 
-＠すいか,R00354
+＠Suika,R00354
 「普段見慣れてる雪でも、旅行だと気分が変わるかもしれませんよ」
 
-＠樹
+＠Itsuki
 「オレの一存じゃ決められんからな。まぁ考えておこう」
 
 @bg_black
@@ -233,7 +233,7 @@ wait		100
 @miu			#閉_にこ
 @bg_living_n		# リビング(夜) 
 
-＠美雨,B01679
+＠Miu,B01679
 「みんな話が弾んで、楽しそうですね」
 
 #@ichigo_small
@@ -247,15 +247,15 @@ wait		100
 #layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02184
+＠Ichigo,O02184
 「うん。今旅行のスケジュールを組んでるんだよ！」
 
 @miu2			#開_にこ
 
-＠美雨,B01680
+＠Miu,B01680
 「旅行？　行かれるんですか？」
 
-＠樹
+＠Itsuki
 「勝手に決定事項にするなって。案な、案」
 
 @chara_clear		#保険
@@ -271,28 +271,28 @@ wait		500
 @ichigo_yorokobi	#喜
 @zakuro_akire		#呆
 
-＠ざくろ,Q01267
+＠Zakuro,Q01267
 「つっちーがジジくさいから無理なの」
 
-＠樹
+＠Itsuki
 「別にそれが原因で決定を渋ってるわけじゃねぇってよ！」
 
-＠美雨,B01681
+＠Miu,B01681
 「お風呂が沸いたので声を掛けに来たんだけど。みんな後にする？」
 
 @suika_yorokobi		#喜
 
-＠すいか,R00355
+＠Suika,R00355
 「私はどちらでも。空いた時に入ります」
 
 @ichigo_warai		#笑
 
-＠いちご,O02185
+＠Ichigo,O02185
 「いちごも～」
 
 @zakuro_metoji		#閉
 
-＠ざくろ,Q01268
+＠Zakuro,Q01268
 「ん……」
 
 @chara_clear		#保険
@@ -314,28 +314,28 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00327
+＠Hikari,N00327
 「ひーちゃん入る！　おふよおふよ！」
 
 @miu_small
 @miu_maid
 @miu			#閉_にこ
 
-＠美雨,B01682
+＠Miu,B01682
 「じゃあ、着替えを用意しておくわね。はしゃがないように気をつけるのよ」
 
 @hikari_yorokobi	#喜.png
 
-＠ひかり,N00328
+＠Hikari,N00328
 「やー、お母しゃんとお父しゃんも一緒に入ゆの♪」
 
 #@miu2			#開_にこ
 @miu_mu			#開_普通（無表情）
 
-＠美雨,B01683
+＠Miu,B01683
 「え……？」
 
-＠樹
+＠Itsuki
 「なっ……」
 
 その言葉に、オレと美雨が目を合わせた。
@@ -344,10 +344,10 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu_komaru		#開_困
 
-＠美雨,B01684
+＠Miu,B01684
 「ひ、ひーちゃん、それは」
 
-＠樹
+＠Itsuki
 「美雨と入れ。オレは後にするから」
 
 @chara_clear		#保険
@@ -356,12 +356,12 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-＠ざくろ,Q01269
+＠Zakuro,Q01269
 「つっちー、臭いから入った方がいい」
 
 screen_vibration	500,16,16,16
 
-＠樹
+＠Itsuki
 「ジジくさい、だろ！　風呂は関係ないッ」
 
 @chara_clear		#保険
@@ -381,13 +381,13 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00329
+＠Hikari,N00329
 「ねー、お父しゃんも入るのーッ。おふよ行くのー！」
 
-＠樹
+＠Itsuki
 「……そう言われても」
 
-＠美雨,B01685
+＠Miu,B01685
 「…………」
 
 赤面している美雨からの返事は無い。
@@ -407,7 +407,7 @@ wait		500
 @ichigo_yorokobi	#喜
 @zakuro			#普
 
-＠すいか,R00356
+＠Suika,R00356
 「……親子同士っていうことで、入ってあげて良いと思いますけど」
 
 @ichigo_warai		#笑
@@ -419,20 +419,20 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-＠いちご,O02186
+＠Ichigo,O02186
 「あ、でもそれならいちごも入りたいなー。面白そうだし」
 
 @zakuro_niko		#にこ
 
-＠ざくろ,Q01270
+＠Zakuro,Q01270
 「私も入る。他の子も誘って」
 
 screen_vibration	500,16,16,16
 
-＠樹
+＠Itsuki
 「そんなに入れるかっ、浴槽がギュウギュウだ！」
 
-＠樹
+＠Itsuki
 「……どうする美雨？　このままじゃ、子供全員が風呂に集中しかねないぞ」
 
 @chara_clear		#保険
@@ -445,17 +445,17 @@ wait		500
 @hikari_yorokobi	#喜.png
 @miu_tere		#開_照
 
-＠美雨,B01686
+＠Miu,B01686
 「えっ？　そ、そうですね……」
 
 @miu_tere2		#閉_照
 
-＠美雨,B01687
+＠Miu,B01687
 「えっと……私は構いませんけど。その、親子で入るのは普通だと思いますし……」
 
 ……親子なら、そんなに照れないと思うんだが。
 
-＠樹
+＠Itsuki
 「じゃあ、入るか……。一緒に」
 
 @hikari_warai		#笑.png
@@ -478,7 +478,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00330
+＠Hikari,N00330
 「ほんとっ！？　わーい！　三人でおふよーっ♪」
 
 こんな幸運………いやいや、ハプニング。
@@ -487,7 +487,7 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu2			#開_にこ
 
-＠美雨,B01688
+＠Miu,B01688
 「では着替えを用意しておきますから、お二人で先に入っててください」
 
 @chara_clear		#保険
@@ -503,28 +503,28 @@ wait		500
 @ichigo_yorokobi	#喜
 @zakuro			#普
 
-＠ざくろ,Q01271
+＠Zakuro,Q01271
 「それは私が用意してあげる。三人でお風呂に行って」
 
 @suika_warai		#笑
 
-＠すいか,R00357
+＠Suika,R00357
 「そうですよ。私たちも少しは美雨さんの仕事のお手伝いをしないと」
 
-＠美雨,B01689
+＠Miu,B01689
 「そ、そう。ありがとう」
 
-＠樹
+＠Itsuki
 「着替えは『普通』の服を、ちゃんと『下着も一緒』に用意しておいてくれよ」
 
 @zakuro_akire		#呆
 
-＠ざくろ,Q01272
+＠Zakuro,Q01272
 「…………」
 
 @zakuro_metoji		#閉
 
-＠ざくろ,Q01273
+＠Zakuro,Q01273
 「もちろん」
 
 ……やっぱり何かする気だったな。今の間は。
@@ -547,7 +547,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-＠ひかり,N00331
+＠Hikari,N00331
 「行こうーっ、お父しゃん、お母しゃん！」
 
 #一拍
@@ -567,10 +567,10 @@ wait		1000
 @SE22			#SE22　水を浴びる音（バシャアァァン！）
 wait		2500
 
-＠樹
+＠Itsuki
 「さ、そこに座ってごらんひかり。頭洗ってやるから」
 
-＠ひかり,N00332
+＠Hikari,N00332
 「うん！　頭あやうあやう～♪」
 
 se_stop		0
@@ -583,56 +583,56 @@ se_stop		0
 
 バスチェアーに腰掛けるひかりの髪へ、シャンプーを泡立てていく。
 
-＠ひかり,N00333
+＠Hikari,N00333
 「あはは♪　お父しゃんの手、おっきい～」
 
-＠ひかり,N00334
+＠Hikari,N00334
 「見て見て、お母しゃん。ひーちゃんの頭ぜんぶ包んでゆの」
 
-＠美雨,B01690
+＠Miu,B01690
 「ふふ、良かったわねひーちゃん。お父さんに髪の毛洗ってもらえて」
 
-＠樹
+＠Itsuki
 「少し顔、上に向けてろよ。シャンプーが垂れちゃうぞ」
 
-＠ひかり,N00335
+＠Hikari,N00335
 「はーい」
 
 シャンプーの泡を使い、ワシワシと頭を洗っていく。
 
 強くし過ぎないように加減し、指の腹で付け根も満遍なく綺麗にする。
 
-＠ひかり,N00336
+＠Hikari,N00336
 「気持ち良い～～♪　ゴシゴシ～、ゴシゴシ～♪」
 
-＠樹
+＠Itsuki
 「ひかりの髪の毛は、サラサラして柔らかいな」
 
-＠ひかり,N00337
+＠Hikari,N00337
 「柔らかいの？　お父しゃんしゅき？」
 
-＠樹
+＠Itsuki
 「ああ。良いと思うぞ」
 
-＠美雨,B01691
+＠Miu,B01691
 「ひーちゃんの髪は、念入りに手入れをすればするほど綺麗になるわよ」
 
-＠美雨,B01692
+＠Miu,B01692
 「もう少し伸ばしてみたら、もっと似合うかもしれないわね」
 
-＠ひかり,N00338
+＠Hikari,N00338
 「お母しゃんみたいに？」
 
-＠美雨,B01693
+＠Miu,B01693
 「ええ。ひーちゃんの方がもっと綺麗になれるわよ」
 
-＠ひかり,N00339
+＠Hikari,N00339
 「えへへ～♪」
 
-＠ひかり,N00340
+＠Hikari,N00340
 「ねぇお父しゃん。ひーちゃんもお母しゃんみたいに綺麗になえたら、お父しゃんのお嫁しゃんになれゆ？」
 
-＠樹
+＠Itsuki
 「ん？　お嫁さんか～」
 
 @bg_black
@@ -642,7 +642,7 @@ wait		100
 @miu_tere		#開_照
 @bg_bathroom_n		# 浴室(夜)
 
-＠美雨,B01694
+＠Miu,B01694
 「えっ…？　えっと……」
 
 ドキリとして美雨を見ると、同じように美雨と視線が合った。
@@ -653,47 +653,47 @@ wait		100
 
 @miu			#閉_にこ
 
-＠美雨,B01695
+＠Miu,B01695
 「そうね。ひーちゃんだったら私より綺麗なお嫁さんになれるわよ」
 
-＠ひかり,N00341
+＠Hikari,N00341
 「ほんとっ♪　お父しゃんは？」
 
 @bg_black
 wait		100
 @bg_bathroom_n		# 浴室(夜)
 
-＠樹
+＠Itsuki
 「はは。ああ、ひかりならなれるかもな」
 
-＠樹
+＠Itsuki
 「でも美雨より綺麗になろうと思うなら、それはすごく努力しないといけないな」
 
-＠ひかり,N00342
+＠Hikari,N00342
 「んぅ～、どうしゅればいいの？」
 
-＠樹
+＠Itsuki
 「ちゃんと良い子にして、よく食べてよく遊んで、勉強もしていれば大丈夫だ」
 
-＠ひかり,N00343
+＠Hikari,N00343
 「いっぱいあゆ～……大変そうなの」
 
-＠美雨,B01696
+＠Miu,B01696
 「ふふ、そんなに頑張らなくても、私なんかよりずっと可愛くなれるわよ、ひーちゃんは」
 
-＠美雨,B01697
+＠Miu,B01697
 「ただ一つだけ。元気で明るく、これからも健康に育ってくれればそれでいいの」
 
-＠ひかり,N00344
+＠Hikari,N00344
 「えへへっ、だったらひーちゃん頑張れゆよ！　ずっと元気だもん！」
 
-＠樹
+＠Itsuki
 「そうだな。健康第一。他の事は全部それからだ」
 
-＠樹
+＠Itsuki
 「じゃ、流すぞひかり。目を閉じて」
 
-＠ひかり,N00345
+＠Hikari,N00345
 「は～い♪」
 
 #■BG（黒）
@@ -725,17 +725,17 @@ wait		100
 @bg_living_n		# リビング(夜) 
 @bgmk04			#BGM K04 : 寝る前のテーマ
 
-＠樹
+＠Itsuki
 「ふぅ～、さっぱりした」
 
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
 
-＠ざくろ,Q01274
+＠Zakuro,Q01274
 「おかえり」
 
-＠樹
+＠Itsuki
 「着替え、ありがとうな。こんなものまで親切に」
 
 @bg_black
@@ -747,10 +747,10 @@ wait		100
 @zakuro_iya		#嫌
 @bg_living_n		# リビング(夜) 
 
-＠ざくろ,Q01275
+＠Zakuro,Q01275
 「……使った形跡が無い」
 
-＠樹
+＠Itsuki
 「使うかッ！！」
 
 @ichigo_small
@@ -758,43 +758,43 @@ wait		100
 #@ichigo_ase		#汗
 @ichigo_komikaru_ikari	#コミカル怒
 
-＠いちご,O02187
+＠Ichigo,O02187
 「えー、ひどいよパパ。せっかくざくろがビデオまで仕掛けてたのにー」
 
 @zakuro_metoji		#閉
 
-＠ざくろ,Q01276
+＠Zakuro,Q01276
 「親子ドンブリ……」
 
 @suika_small
 @suika_shifuku
 @suika_kanashimi	#哀
 
-＠すいか,R00358
+＠Suika,R00358
 「す、すいません院長先生ッ。私は止めたんです！　止めたんですけどっ」
 
-＠樹
+＠Itsuki
 「いや、いいよ……。今に始まったことじゃないしな」
 
 @zakuro			#普
 
-＠ざくろ,Q01277
+＠Zakuro,Q01277
 「ごめんね、つっちー。親子ドンブリがどうしても見たかったの」
 
-＠樹
+＠Itsuki
 「ははは……。普段無気力なのに、変なところで行動力があるよな、ざくろって」
 
 @ichigo_akire		#呆れ
 
-＠いちご,O02188
+＠Ichigo,O02188
 「じゃあざくろ、ビデオも消しちゃう？」
 
 @zakuro_akire		#呆
 
-＠ざくろ,Q01278
+＠Zakuro,Q01278
 「そうね。美雨の裸を映してるだけの映像なんて、意味が無いし」
 
-＠樹
+＠Itsuki
 「…………」
 
 ちょっと勿体無いとか思ってしまった……いやいや。

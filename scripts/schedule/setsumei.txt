@@ -129,40 +129,40 @@ layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 goto	setsumei_skip
 #体験版用限定の台詞
-＠雫,S00108
+＠Shizuku,S00108
 「で、だ。今回は……そのあれだ。お試し版だから……」
 
-＠樹
+＠Itsuki
 「……調教ができないんですね。わかります」
 
-＠雫,S00109
+＠Shizuku,S00109
 「おおっ、樹にしては察しがいいねぇ。お姉さん助かっちゃうよ」
 
-＠雫,S00110
+＠Shizuku,S00110
 「けど、画面なんかはちょろっと後で見れるから、それを見て期待に胸ふくらませて本編を待つように」
 
-＠雫,S00111
+＠Shizuku,S00111
 「……あ、この場合、ふくらませるのはチンポかねぇ？」
 
-＠樹
+＠Itsuki
 「……雫さん、下品です……」
 
-＠雫,S00112
+＠Shizuku,S00112
 「なんだい、生娘みたいなこと言っちゃってぇ。別に胸ふくらましちゃってもいいけどさ」
 
-＠樹
+＠Itsuki
 「……豊胸？」
 
-＠雫,S00113
+＠Shizuku,S00113
 「うへぁ」
 
-＠樹
+＠Itsuki
 「なんですかその声…………ハッ！別に豊胸をしたい訳じゃないですからね！想像しないでくださいよ！！」
 
-＠雫,S00114
+＠Shizuku,S00114
 「えぇー……つまんないねぇ」
 
-＠樹
+＠Itsuki
 「どっちなんですか！！！」
 
 label	setsumei_skip
@@ -323,7 +323,7 @@ layer_position_set	2,0,64
 layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 @shizuku
-＠雫,S00135
+＠Shizuku,S00135
 「After that are the money-earning activities...... Work and entertainment among other things. It's fine even to earn money respectably with an odd job sometimes, isn't it?」
 
 #「収入は客の相手をする『せったい』に比べたら、微々たるもんだけどね」
@@ -547,7 +547,7 @@ money_open
 @shizuku
 
 #「本題に戻るけど、この赤い枠に表示されているのが『借金の残り』……すごい額だねぇ」
-＠雫,S00162
+＠Shizuku,S00162
 「Returning to the issue at hand however, the display on the red slide reads "Debt remaining"...... An amazing sum isn't it?」
 
 #「あんたには、これを一年間で返済してもらう」
@@ -614,7 +614,7 @@ money_open
 
 @shizuku_warai
 
-＠雫,S00172
+＠Shizuku,S00172
 「ふふーん♪」
 
 #「なんなんですかぁ！！」
@@ -815,11 +815,11 @@ wait	500
 「This means that when you reach the "Next level value" by doing various actions and raising exp, your level goes up.」
 
 #「なるほど」
-＠Itsuku
+＠Itsuki
 「mhm.」
 
 #「こっちの、『こころ』っていうのはなんですか？」
-＠Itsuku
+＠Itsuki
 「What does the "Spirit" mean in the second-last slide?」
 
 #「娘の心の強さだね。こっちはレベルを上げると『きりょく』の上限値が上がる、と」
@@ -955,7 +955,7 @@ label youzyos_02 ##############################################################
 ＠Itsuki
 「You're speaking very seriously about this but it's actually simple.」
 
-＠雫,S00222
+＠Shizuku,S00222
 「It's just your imagination. Well, please take care of itー」
 
 ＠Itsuki
@@ -978,7 +978,7 @@ label youzyos_02 ##############################################################
 「...... Please treat me well when the time comes.」
 
 #「高く付くけど」
-＠雫,S00225
+＠Shizuku,S00225
 「It'll cost you though」
 
 #「遠慮します」
@@ -1008,13 +1008,13 @@ label youzyos_02 ##############################################################
 
 #SE（あれば）野球の応援のような音
 
-＠雫,S00229
+＠Shizuku,S00229
 「Hurrah, Hurrah! い・つ・き♪」
 
-＠雫,S00230
+＠Shizuku,S00230
 「Knock it out of the park! い・つ・き♪」
 
-＠樹
+＠Itsuki
 「............... W-well then, I'll...... I'll be quietly going now......」
 
 #「いっぱつきめてやれー♪おー♪」
@@ -1034,7 +1034,7 @@ label youzyos_02 ##############################################################
 ＠Itsuki
 「……………………………………」
 
-＠樹
+＠Itsuki
 「..................... Was she born like this......」
 
 label youzyos_03 ##############################################################

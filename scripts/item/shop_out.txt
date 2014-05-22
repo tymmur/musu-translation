@@ -49,7 +49,7 @@ label	shop_out_message_1
 if shop_buy_count>2 then goto shop_out_message_3
 
 #「ありがとうございました……」
-＠Subuta,H00258
+＠Subuta-san,H00258
 「Thank you......」
 
 #（統合へ）
@@ -60,7 +60,7 @@ label	shop_out_message_2
 if shop_buy_count>2 then goto shop_out_message_3
 
 #「ありがとうございました。またのご利用をお待ちしております……」
-＠Subuta,H00259
+＠Subuta-san,H00259
 「Thank you. I look forward to doing business with you again......」
 
 #（統合へ）
@@ -70,7 +70,7 @@ goto	shop_out_message_exit
 label	shop_out_message_3
 
 #「いつもありがとうございます……」
-＠Subuta,H00260
+＠Subuta-san,H00260
 「Thank you for your patronage......」
 
 #（統合へ）
@@ -80,7 +80,7 @@ goto	shop_out_message_exit
 label	shop_out_message_4
 
 #「ありがとうございました。またのご来店をお待ちしております……」
-＠Subuta,H00261
+＠Subuta-san,H00261
 「Thank you. I look forward to doing business with you again......」
 
 #（統合へ）
@@ -90,7 +90,7 @@ goto	shop_out_message_exit
 label	shop_out_message_5
 
 #「ありがとう……ございました……」
-＠Subuta,H00262
+＠Subuta-san,H00262
 「Thank...... you......」
 
 #（統合へ）
@@ -100,7 +100,7 @@ goto	shop_out_message_exit
 label	shop_out_message_6
 
 #「またのご来店をお待ちしております……」
-＠Subuta,H00263
+＠Subuta-san,H00263
 「I'm looking forward to doing business with you again......」
 
 #（統合へ）
@@ -110,7 +110,7 @@ goto	shop_out_message_exit
 label	shop_out_message_7
 
 #「たまには……何か買ってください……」
-＠Subuta,H00264
+＠Subuta-san,H00264
 「Please...... Buy something sometimes......」
 
 #（統合へ）
@@ -120,7 +120,7 @@ goto	shop_out_message_exit
 label	shop_out_message_8
 
 #「はぁ……」
-＠Subuta,H00265
+＠Subuta-san,H00265
 「Haa......」
 
 #（統合へ）
@@ -130,7 +130,7 @@ goto	shop_out_message_exit
 label	shop_out_message_9
 
 #「また冷やかしですか……」
-＠Subuta,H00266
+＠Subuta-san,H00266
 「Just window-shopping again......」
 
 #（統合へ）
@@ -140,7 +140,7 @@ goto	shop_out_message_exit
 label	shop_out_message_10
 
 #「…………」
-＠Subuta,H00267
+＠Subuta-san,H00267
 「... ... ... ...」
 
 goto	shop_out_message_exit
