@@ -61,22 +61,46 @@ for (my $value=0x20; $value < 0x7F; $value++)
 }
 
 $toWideTable{ ' ' } = 0x8140;
-$toWideTable{ ',' } = 0x8143;
-$toWideTable{ '.' } = 0x8144;
-$toWideTable{ '?' } = 0x8148;
 $toWideTable{ '!' } = 0x8149;
-$toWideTable{ '\''} = 0x814C;
-$toWideTable{ '~' } = 0x8160;
 $toWideTable{ '"' } = 0x8167;
+$toWideTable{ '#' } = 0x8194;
+$toWideTable{ '%' } = 0x8193;
+$toWideTable{ '&' } = 0x8195;
+$toWideTable{ '\''} = 0x818C;
 $toWideTable{ '(' } = 0x8169;
 $toWideTable{ ')' } = 0x816A;
-$toWideTable{ '[' } = 0x816D;
-$toWideTable{ ']' } = 0x816E;
-$toWideTable{ '-' } = 0x817C;
-$toWideTable{ '%' } = 0x8193;
 $toWideTable{ '*' } = 0x819A;
+$toWideTable{ '+' } = 0x817B;
+$toWideTable{ ',' } = 0x8143;
+$toWideTable{ '-' } = 0x817C;
+$toWideTable{ '.' } = 0x8144;
+$toWideTable{ '/' } = 0x815E;
 
+# numbers
 
+$toWideTable{ ':' } = 0x8146;
+$toWideTable{ ';' } = 0x8147;
+$toWideTable{ '<' } = 0x8183;
+$toWideTable{ '=' } = 0x8181;
+$toWideTable{ '>' } = 0x8184;
+$toWideTable{ '?' } = 0x8148;
+$toWideTable{ '@' } = 0x8197;
+
+# upper case
+
+$toWideTable{ '[' } = 0x816D;
+$toWideTable{ '\''} = 0x814C;
+$toWideTable{ ']' } = 0x816E;
+$toWideTable{ '^' } = 0x814F;
+$toWideTable{ '_' } = 0x8151;
+$toWideTable{ '`' } = 0x814D;
+
+# lower case
+
+$toWideTable{ '{' } = 0x816F;
+$toWideTable{ '|' } = 0x8162;
+$toWideTable{ '}' } = 0x8170;
+$toWideTable{ '~' } = 0x8160;
 
 
 sub toWideChar
