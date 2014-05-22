@@ -457,7 +457,7 @@ bgm_stop
 #■（選択肢）
 #（１．似合ってるよ）
 #（２．やめたほうがいい）
-select	sel,"Looks good,"It would be good to stop"
+select	sel,"Looks good","It would be good to stop"
 if sel=0 then goto yuzu5_q01_a
 if sel=1 then goto yuzu5_q01_b
 #--------------------------------------------------
