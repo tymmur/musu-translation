@@ -168,6 +168,14 @@ sub toWideChar
 			next;
 		}
 		
+		if (substr($line, 0, 4) eq "<br>")
+		{
+			# don't convert line breaks to widechar (they will stop working)
+			$line = substr($line, 4);
+			$new = $new . "<br>";
+			next;
+		}
+		
 		my $newvalue = 0;
 		
 		if ($value >= 0x20 and $value < 0x7F)
