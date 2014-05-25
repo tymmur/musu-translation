@@ -11,6 +11,8 @@ my $to_short_char = 0;
 
 my $allow_new_dialogue = 0;
 
+my $max_lines_in_translation = 1;
+
 # end of setup
 
 # set end of line to always print CLRF
@@ -39,6 +41,8 @@ my $translated_line_count = 0;
 my $byte_count = 0;
 my $translated_byte_count = 0;
 my $byte_count_block = 0;
+
+my $line_number = 0;
 
 
 # table for auto translate names
@@ -474,6 +478,8 @@ sub handleScreenLines
 	my $has_translation = 0;
 	my $i = 0;
 	
+	my $translated_lines = 0;
+	
 	$line_count++;
 	
 	my $type = getType($input[0]);
@@ -519,6 +525,7 @@ sub handleScreenLines
 			}
 			else
 			{
+				$translated_lines++;
 				$newline = convertLine($newline);
 			}
 			
@@ -554,6 +561,16 @@ sub handleScreenLines
 	
 	if ($has_translation == 1)
 	{
+		if ($max_lines_in_translation < $translated_lines)
+		{
+			print "Too many lines at " . $line_number . " (estimated)\n";
+			foreach (@lines)
+			{
+				print $_ . $CLRF;
+			}
+			die;
+		}
+	
 		$translated_line_count++;
 		$translated_byte_count += $byte_count_block;
 	}
@@ -631,9 +648,9 @@ sub handleFile
 	my $last_was_blank = 0;
 	my $dialogue_added = 0;
 	
-	for (my $i=0; $i < scalar @translated; $i++)
+	for ($line_number =0; $line_number < scalar @translated; $line_number++)
 	{
-		my $line = $translated[$i];
+		my $line = $translated[$line_number];
 		my $type = getType($line);
 		my $add_kanji_to_text = 0;
 		
@@ -687,7 +704,7 @@ sub handleFile
 				{
 					print "mismatched lines in " . $file . "\n";
 					print "jap " .$jap_type . "	" . "	" . ($japanese_index + 1) . "	" . $japanese[$japanese_index] . "\n";
-					print "eng " .$type . "	" . "	" . ($i + 1) . "	" . $line . "\n";
+					print "eng " .$type . "	" . "	" . ($line_number + 1) . "	" . $line . "\n";
 			
 					exit();
 				}
@@ -702,13 +719,13 @@ sub handleFile
 			if ($type eq "SPEAKER")
 			{
 				push(@lines, $line);
-				$i++;
+				$line_number++;
 			}
 			
-			while (getType($translated[$i]) ne "BLANK")
+			while (getType($translated[$line_number]) ne "BLANK" and getType($translated[$line_number]) ne "COMMENT")
 			{
-				push(@lines, $translated[$i]);
-				$i++;
+				push(@lines, $translated[$line_number]);
+				$line_number++;
 			}
 			
 			foreach((handleScreenLines($dialogue_added, @lines)))
@@ -744,7 +761,7 @@ sub handleFile
 		{
 			print "mismatched lines in " . $file . "\n";
 			print "expected " . "	" . ($japanese_index + 1) . "	" .  $japanese[$japanese_index] . "\n";
-			print "found    " . "	" . ($i + 1) . "	" .  $line . "\n";
+			print "found    " . "	" . ($line_number + 1) . "	" .  $line . "\n";
 			
 			exit();
 		}
