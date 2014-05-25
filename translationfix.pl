@@ -4,9 +4,14 @@ use strict;
 use warnings;
 
 
+# setup options
+
 my $to_wide_char = 0;
 my $to_short_char = 0;
 
+my $allow_new_dialogue = 0;
+
+# end of setup
 
 # set end of line to always print CLRF
 my $CLRF = "\r\n";
@@ -631,7 +636,7 @@ sub handleFile
 			
 			if ($line eq "#SCRIPT ADD DIALOGUE")
 			{
-				$dialogue_added = 1;
+				$dialogue_added = $allow_new_dialogue;
 			}
 			next;
 		}
