@@ -37,20 +37,13 @@ label	training_karin_insert_01
 
 #「失礼ねっ、怖じ気づいてなんかいないわよっ！　い、樹っ、言っておくけどこんな事、私本意じゃないっ！　でも、みかんの事を思ったら……っ」
 ＠Karin,P04973
-「How insulting, I'm not losing my nerve or anything!」 ->
-
-#SCRIPT ADD DIALOGUE
-＠Karin
-「I-Itsuki, I told you before that this isn't what I wanted from the start, but when I think of Mikan...」
+「How insulting, I'm not losing my nerve or anything! I-Itsuki, I told you before that this isn't what I wanted from the start, but when I think of Mikan...」
 
 #みかんの名前を口にしたかりんの目に、うっすら涙が浮かんでいる。
 　Her mouth forming Mikan's name a faint tear floats in her eye.
 
 #それを指摘したところでかりんは認めないだろうが、これからする行為に戸惑いと不安、恐怖の気持ちがあるに違いない。
-　She wouldn't admit it if I pointed it out to her. 
-
-#SCRIPT ADD DIALOGUE
-　But, what lies ahead must hold confusion and anxiety, feelings of dismay for Karin.
+　She wouldn't admit it if I pointed it out to her. But, what lies ahead must hold confusion and anxiety, feelings of dismay for Karin.
 
 #「本当にかりんはみかんが好き、なんだな」
 ＠Itsuki
@@ -58,11 +51,7 @@ label	training_karin_insert_01
 
 #「当たり前じゃないっ、本当は、本当なら私みかんと、みかんとこうしていたかったわっ。　それなのに、なんでこんな事に……っ」
 ＠Karin,P04974
-「Of course. The truth is... the truth is that I wanted to do this kind of thing with Mikan」 ->
-
-#SCRIPT ADD DIALOGUE
-＠Karin
-「So why did it have to be like this...」
+「Of course. The truth is... the truth is that I wanted to do this kind of thing with Mikan. So why did it have to be like this...」
 
 ############ ここからボンテージ
 if t_karin_bondage_flag=0 then goto training_karin_insert_01_a
@@ -74,11 +63,7 @@ label training_karin_insert_01_a
 ############ ここまでボンテージ
 #「まあ、そういうな。　オレを嫌うのは勝手だけどな、みかんのためを思うなら、オレとの事も納得してくれないとな」
 ＠Itsuki
-「Well, that's how it is. You can dislike me as much as you want」
-
-#SCRIPT ADD DIALOGUE
-＠Itsuki
-「But if you're thinking for Mikan's sake, you'll have to come to terms with me too」
+「Well, that's how it is. You can dislike me as much as you want. But if you're thinking for Mikan's sake, you'll have to come to terms with me too」
 
 #「わ、分かっているわよ、するのなら、して。　そして早く終わらせて。　私の願いはそれだけよ！」
 ＠Karin,P04976
