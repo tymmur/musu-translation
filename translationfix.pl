@@ -744,83 +744,90 @@ sub makeStatusLine
 {
 	my ($file, $translated, $total, $byte_translated, $byte_total) = @_;
 	
-	my $percentage = 1;
+	my $percentage = 10000;
 	
 	if ($total > 0)
 	{
-		$percentage = $translated / $total;
+		use integer;
+		$percentage = (10000 * $translated) / $total;
 	}
 	
 	$file = $file . "\t\t" . $percentage . "\t" . $translated . "\t" . $total . "\t\t";
 	
-	$percentage = 1;
+	$percentage = 10000;
 	if ($byte_total > 0)
 	{
-		$percentage = $byte_translated / $byte_total;
+		use integer;
+		$percentage = (10000 * $byte_translated) / $byte_total;
 	}
+	
 	$file = $file . $percentage . "\t" . $byte_translated . "\t" . $byte_total;
 	
 	return $file . $CLRF;
 }
 
-my $total_lines = 0;
-my $total_translated_lines = 0;
-my $total_byte_count = 0;
-my $total_translated_byte_count = 0;
-my @file_status;
 
-sub handleDir
+
+sub loadFromScriptsInc
 {
-	my ($dirname, $level) = @_;
-	opendir my($dh), $dirname or die "Couldn't open dir '$dirname': $!";
-	my @files = grep { !/^\.\.?$/ } readdir $dh;
-	closedir $dh;
-	
 	my $status_file = "../translation_status.txt";
+	
+	my @file_status;
+	my @group_status;
+	
+	my $group = "main";
+	my $group_lines = 0;
+	my $group_translated_lines = 0;
+	my $group_byte_count = 0;
+	my $group_translated_byte_count = 0;
+	
+	my $total_lines = 0;
+	my $total_translated_lines = 0;
+	my $total_byte_count = 0;
+	my $total_translated_byte_count = 0;
 	
 	if (-e $status_file)
 	{
 		unlink($status_file);
 	}
 
-	
-	foreach (@files)
+	foreach (readFile("scripts.ini"))
 	{
-		next if (substr ($_, 0, 1) eq ".");
-	
-		my $filename = $dirname . "/" . $_;
-		
-		if ($dirname eq ".")
+		if (substr($_, 0, 7) eq "scripts")
 		{
-			$filename = $_;
+			my $file = substr($_, 8);
+			$file =~ s/\\/\//g;
+			handleFile $file;
+			
+			push(@file_status, makeStatusLine("$file", $translated_line_count, $line_count, $translated_byte_count, $byte_count));
+				
+			$group_lines                 += $line_count;
+			$group_translated_lines      += $translated_line_count;
+			$group_byte_count            += $byte_count;
+			$group_translated_byte_count += $translated_byte_count;
+				
+			$line_count = 0;
+			$translated_line_count = 0;
+			$byte_count = 0;
+			$translated_byte_count = 0;
 		}
-		
-		if (-d $filename)
+		elsif (substr($_, 0, 13) eq "#SCRIPT GROUP")
 		{
-			handleDir($filename, ($level + 1));
-		}
-		else
-		{
-			if (substr($filename, -4) eq ".txt")
-			{
-				handleFile $filename;
-				
-				push(@file_status, makeStatusLine("$filename", $translated_line_count, $line_count, $translated_byte_count, $byte_count));
-				
-				$total_lines                 += $line_count;
-				$total_translated_lines      += $translated_line_count;
-				$total_byte_count            += $byte_count;
-				$total_translated_byte_count += $translated_byte_count;
-				
-				$line_count = 0;
-				$translated_line_count = 0;
-				$byte_count = 0;
-				$translated_byte_count = 0;
-			}
+			push(@group_status, makeStatusLine($group, $group_translated_lines, $group_lines, $group_translated_byte_count, $group_byte_count));
+			
+			$total_lines                 += $group_lines;
+			$total_translated_lines      += $group_translated_lines;
+			$total_byte_count            += $group_byte_count;
+			$total_translated_byte_count += $group_translated_byte_count;
+			
+			$group_lines = 0;
+			$group_translated_lines = 0;
+			$group_byte_count = 0;
+			$group_translated_byte_count = 0;
+			
+			$group = substr($_, 14);
 		}
 	}
-	
-	return if $level > 0;
 	
 	open FILE, ">", $status_file or die $!;
 	
@@ -828,6 +835,11 @@ sub handleDir
 	print FILE "File\t\tpercentage\ttranslated\ttotal\t\tpercentage\ttranslated\ttotal" . $CLRF;
 	
 	print FILE makeStatusLine("TOTAL", $total_translated_lines, $total_lines, $total_translated_byte_count, $total_byte_count);
+	
+	foreach (@group_status)
+	{
+		print FILE $_;
+	}
 	
 	foreach (@file_status)
 	{
@@ -842,5 +854,5 @@ if ($#ARGV >= 0)
 }
 else
 {
-	handleDir(".", 0);
+	loadFromScriptsInc;
 }
