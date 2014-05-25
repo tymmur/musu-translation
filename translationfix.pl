@@ -722,7 +722,7 @@ sub handleFile
 				$line_number++;
 			}
 			
-			while (getType($translated[$line_number]) ne "BLANK" and getType($translated[$line_number]) ne "COMMENT")
+			while (getType($translated[$line_number]) ne "BLANK")
 			{
 				push(@lines, $translated[$line_number]);
 				$line_number++;
