@@ -20,7 +20,8 @@ if global(130)=1 then goto skip_prologue1
 gosub youzyo_00
 goto	skip_prologue2
 label	skip_prologue1
-select sel,"プロローグを見る","プロローグを見ない"
+#select sel,"プロローグを見る","プロローグを見ない"
+select sel,"See Prologue","Skip Prologue"
 if sel=0 then gosub youzyo_00
 label	skip_prologue2
 global(130)=1
