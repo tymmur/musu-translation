@@ -59,6 +59,25 @@ foreach (readFile("../names.txt"))
 # there are empty names. Force them to be empty with throwing warnings or errors
 $name_translation{$empty} = $empty;
 
+sub removeLeadingWhitespace
+{
+	my ($line) = @_;
+	
+	while (substr($line, 0, 1) eq " " or substr($line, 0, 1) eq "	" or substr($line, 0, 2) eq $empty)
+	{
+		if (substr($line, 0, 2) eq $empty)
+		{
+			$line = substr($line, 2);
+		}
+		else
+		{
+			$line = substr($line, 1);
+		}
+	}
+	
+	return $line;
+}
+
 # setup table to convert to wide characters
 
 my %toWideTable;
@@ -705,15 +724,20 @@ sub handleFile
 		
 		$dialogue_added = 0;
 		
-		if ($type eq "TEXT" and index($line, "select") != -1 and index($line, "sel") != -1)
+		if ($type eq "TEXT" and index($line, "select") != -1)
 		{
-			$line_count++;
-			if ($line ne $japanese[$japanese_index])
+			my $temp_line = substr($line, index($line, "select") + 6);
+			$temp_line = removeLeadingWhitespace($temp_line);
+			if (substr($temp_line, 0, 3) eq "sel")
 			{
-				$translated_line_count++;
+				$line_count++;
+				if ($line ne $japanese[$japanese_index])
+				{
+					$translated_line_count++;
+				}
+				push(@output, $line);
+				next;
 			}
-			push(@output, $line);
-			next;
 		}
 		
 		if ($line ne $japanese[$japanese_index])
