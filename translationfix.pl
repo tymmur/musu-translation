@@ -27,6 +27,8 @@ if( $^O eq 'MSWin32' )
 # move to the correct working directory
 chdir "scripts";
 
+my $last_file_file = "../last_file.txt";
+my $active_file = "main.txt";
 
 my $empty = sprintf("%c%c", 0x81, 0x40);
 my $star_prefix = sprintf("%c%c", 0x81, 0x99);
@@ -43,6 +45,16 @@ my $translated_byte_count = 0;
 my $byte_count_block = 0;
 
 my $line_number = 0;
+
+
+sub die_local
+{
+	open FILE, ">", $last_file_file or die $!;
+	print FILE $active_file . $CLRF;
+	close FILE;
+	
+	die @_;
+}
 
 
 # table for auto translate names
@@ -319,14 +331,14 @@ sub getType
 	
 	print "numbers: " . $value . " " . ord(substr($line, 1, 1)) . "\n";
 	
-	die "can't figure out type for line $line";
+	die_local "can't figure out type for line $line";
 }
 
 sub readFile
 {
 	my ($file) = @_;
 	
-	open FILE, "<", $file or die $!;
+	open FILE, "<", $file or die_local $!;
 	
 	my @array = ();
 	
@@ -458,7 +470,7 @@ sub convertSpeakerLine
 		print "audio mismatch\n";
 		print "found:    " . $line . "\n";
 		print "expected: " . $japanese[$japanese_index] . "\n";
-		die;
+		die_local;
 	}
 
 	return $speaker_add . $name . $audio;
@@ -568,7 +580,7 @@ sub handleScreenLines
 			{
 				print $_ . $CLRF;
 			}
-			die;
+			die_local;
 		}
 	
 		$translated_line_count++;
@@ -635,6 +647,8 @@ sub getNextJapType
 sub handleFile
 {
 	my ($file) = @_;
+	
+	$active_file = $file;
 	
 	print $file . "\n";
 	
@@ -771,13 +785,18 @@ sub handleFile
 	
 	if (1)
 	{
-		open FILE, ">", $file or die $!;
+		open FILE, ">", $file or die_local $!;
 	
 		foreach (@output)
 		{
 			print FILE $_ . $CLRF;
 		}
 		close FILE;
+	}
+	
+	if (-e $last_file_file)
+	{
+		unlink($last_file_file);
 	}
 }
 
@@ -827,6 +846,11 @@ sub loadFromScriptsInc
 	my $total_byte_count = 0;
 	my $total_translated_byte_count = 0;
 	
+	$line_count = 0;
+	$translated_line_count = 0;
+	$byte_count = 0;
+	$translated_byte_count = 0;
+	
 	if (-e $status_file)
 	{
 		unlink($status_file);
@@ -870,7 +894,7 @@ sub loadFromScriptsInc
 		}
 	}
 	
-	open FILE, ">", $status_file or die $!;
+	open FILE, ">", $status_file or die_local $!;
 	
 	print FILE "\t\t\tLINES\t\t\t\tBYTES" . $CLRF;
 	print FILE "File\t\tpercentage\ttranslated\ttotal\t\tpercentage\ttranslated\ttotal" . $CLRF;
@@ -895,5 +919,9 @@ if ($#ARGV >= 0)
 }
 else
 {
+	if (-e $last_file_file)
+	{
+		handleFile(readFile($last_file_file));
+	}
 	loadFromScriptsInc;
 }
