@@ -14,23 +14,18 @@ label	suika_10
 @bgm02			#BGM 02 : 朝のテーマ
 
 #リビングで新聞を読んでいたオレは、思わずつぶいやた。
-#SCRIPT ADD KANJI
 Ｉ was reading the newspaper in the living room, and I sighed without realizing it.
 
 #ひどい事件があったわけではない。社説の内容があまりにひどいのだ。
-#SCRIPT ADD KANJI
 Ｔhere's no way such a horrible incident could have happened. The editorial's contents are too horrible.
 
 #仮にも大新聞がこんな社説を書いて恥ずかしくないのだろうか？
-#SCRIPT ADD KANJI
 Ｅven if a big newspaper wrote this kind of editorial as a joke, isn't it embarassing?
 
 #はっきり言って、こんな社説を載せている新聞の記事なんて信用できないんだが……。
-#SCRIPT ADD KANJI
 Ｔo say it clearly, I can't really place confidence in the articles in a newspaper that has this kind of editorial......
 
 #やっぱりもう新聞なんて終わったメディアなんだろうか？
-#SCRIPT ADD KANJI
 Ｉs the newspaper already a finished media?
 
 とはいえ、こんな仕事をしているとどうしても情報に疎くなりがちなので、やはり新聞は必要だしなぁ……。
@@ -41,19 +36,15 @@ label	suika_10
 （But if you think about it, can't you also check the news on the net?）
 
 #パソコンはすいかに貸してるけど……。
-#SCRIPT ADD KANJI
 Ｉ lent my computer to Suika though......
 
 #前に雫さんがパソコンを使ってるのも見たし、すいかもＢＧＭをネットから拾ってきたとか言っていたはず。
-#SCRIPT ADD KANJI
 Ｉ saw Shizuku-san using the computer earlier, and Suika said that she got BGM from the net.
 
 #ということは、無線LANか何かあるんだよな、ここ。
-#SCRIPT ADD KANJI
 Ｗhich means we have wireless LAN or something here.
 
 #だったら、パソコンがあればネットでニュースを見ることもできるはずだった。
-#SCRIPT ADD KANJI
 Ｉf so, you should be able to check the news on the net.
 
 #＠樹
@@ -62,23 +53,19 @@ label	suika_10
 （Which reminds me, Suika is using the computer）
 
 #せっかく喜んで使ってるんだし、わざわざ返してもらう道理はない。
-#SCRIPT ADD KANJI
 Ｓhe is finally happily using it, so I don't want to force her to give it back.
 
 #すいかのためなら、オレはまあ新聞で我慢するさ……。
-#SCRIPT ADD KANJI
 Ｉf it's for Suika's sake, I'll just endure reading this newspaper......
 
 偏ってはいるけれど、一応右寄りと左寄りの新聞を取っているので、見比べて情報を整理することも出来るしな。
 
 #……と、そんなことを考えていたときだった。
-#SCRIPT ADD KANJI
 　......So, I thought about that.
 
 @SE06			#部屋のドア開く音（ガチャ）
 
 #リビングのドアが開き、そちらに目をやると、すいかが入ってきた。
-#SCRIPT ADD KANJI
 Ｔhe living room door opens, and I look towards it, and Suika enters.
 
 window_close
@@ -94,7 +81,6 @@ wait		1000
 「Ah, Inchou-sensei. You were here.」
 
 #オレと目が合うと、すいかはとたんに嬉しそうな顔になる。
-#SCRIPT ADD KANJI
 Ｏur eyes meet, and Suika's face becomes happy.
 
 @suika_
@@ -140,7 +126,6 @@ wait		1000
 「So then, I was thinking whether I should wait until tonight, but I couldn't wait.」
 
 #キラキラと目を輝かせるようにオレを見つめるすいか。
-#SCRIPT ADD KANJI
 Ｓuika looks at me with sparkling eyes.
 
 #＠樹
@@ -149,11 +134,9 @@ wait		1000
 「I, I see.」
 
 #やっぱりなんとなく、惚れられかけているような気がする……。
-#SCRIPT ADD KANJI
 Ｉ have a feeling she really has fallen in love with me......
 
 #でもまあ、一緒にゲームをやるくらい、何の問題もないよな？
-#SCRIPT ADD KANJI
 Ｂut well, there are no problems with playing a game together right?
 
 #＠樹
@@ -165,7 +148,6 @@ bgm_stop
 @chara_clear	#保険
 
 #と、オレが言いかけたそのときだった。
-#SCRIPT ADD KANJI
 Ｔhen, right when I started to say that.
 
 #--------------------------------------------------
@@ -211,7 +193,6 @@ layer_movepass_play	l_ichigo,0,play_once
 @bgm03			#BGM 03 : いちごのテーマ
 
 #いちごが息せき切ってリビングに飛び込んできた。
-#SCRIPT ADD KANJI
 Ｉchigo jumped in the living room, panting.
 
 #＠樹
@@ -283,7 +264,6 @@ layer_movepass_play	l_ichigo,0,play_once
 「Please do something, papa!」
 
 #いちごは俺に泣きついてくる。
-#SCRIPT ADD KANJI
 Ｉchigo clung to me and cried.
 
 @ichigo_
@@ -310,7 +290,6 @@ layer_movepass_play	l_ichigo,0,play_once
 @suika_
 
 #すいかに断りを入れて、俺は立ち上がる。
-#SCRIPT ADD KANJI
 Ｉ get up after refusing to Suika.
 
 @ichigo_large		# 近い
@@ -335,7 +314,6 @@ layer_movepass_play	l_ichigo,0,play_once
 「Papa~, hurry hurry!」
 
 #せかすいちごに手を引かれ、俺はリビングを出たのだった。
-#SCRIPT ADD KANJI
 Ｉchigo pulled my arm to hurry me, and I left the living room.
 
 #（統合へ）
@@ -366,7 +344,6 @@ se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
 @bgm12			#BGM 12 : メインテーマ
 
 #泣きそうな顔でみかんがリビングに飛び込んできた。
-#SCRIPT ADD KANJI
 Ｍikan jumped into the living room, looking as if she were about to cry.
 
 #＠樹
@@ -403,7 +380,6 @@ layer_movepass_play	l_mikan,0,play_once
 「What appeared?」
 
 #お化けとかそういう話か……？
-#SCRIPT ADD KANJI
 Ａ monster or something like that......?
 
 layer_movepass_init	l_mikan,0	#演出初期化
@@ -436,7 +412,6 @@ layer_movepass_play	l_mikan,0,play_once
 @chara_clear		#保険
 
 #今にも泣き出しそうな勢いで、みかんは俺にすがりついてくる。
-#SCRIPT ADD KANJI
 Ｍikan clung to me with force looking like she would burst into tears.
 
 #＠樹
@@ -461,7 +436,6 @@ layer_movepass_play	l_mikan,0,play_once
 @suika_
 
 #すいかに断りを入れて、俺は立ち上がる。
-#SCRIPT ADD KANJI
 Ｉ get up after refusing to Suika.
 
 #＠樹
@@ -487,7 +461,6 @@ layer_movepass_play	l_mikan,0,play_once
 「Thanks, Onii-chan!」
 
 #みかんは嬉しそうに俺の腕に抱きついてきた。
-#SCRIPT ADD KANJI
 Ｍikan clung to my arm happily.
 
 @mikan_warai2		#笑2
@@ -503,7 +476,6 @@ layer_movepass_play	l_mikan,0,play_once
 「Hey hey, if you don't hurry, you don't know where it might go!」
 
 #腕に絡みつくみかんを急かし、俺は部屋の出口へ向かった。
-#SCRIPT ADD KANJI
 Ｉ hurry Mikan, who is on my arm, and I go to the room's exit.
 
 #（統合へ）
@@ -534,7 +506,6 @@ label		suika10_f01_karin
 @bgm12			#BGM 12 : メインテーマ
 
 #いつになく慌てた様子で、かりんがリビングに入ってきた。
-#SCRIPT ADD KANJI
 Ｋarin entered the living room, unusually flustered.
 
 #＠樹
@@ -557,7 +528,6 @@ label		suika10_f01_karin
 「Appeared, that.」
 
 #少し困ったように口ごもりつつ、かりんはつぶやく。
-#SCRIPT ADD KANJI
 Ｋarin murmured while mumbling a bit worriedly.
 
 #＠樹
@@ -623,7 +593,6 @@ label		suika10_f01_karin
 @suika_
 
 #すいかに断りを入れて、俺は立ち上がる。
-#SCRIPT ADD KANJI
 Ｉ get up after refusing to Suika.
 
 @karin_large		# 近い
@@ -639,13 +608,11 @@ label		suika10_f01_karin
 @karin_
 
 #リビングの出口に向かおうとすると、かりんはさりげなく俺に寄り添い、俺の腕を取った。
-#SCRIPT ADD KANJI
 Ｉ was going to the living room's exit, and Karin casually gets closer to me and takes my arm.
 
 #初めてゴキブリを見て、やはりかなり驚いたのだろうか？
 
 #触れた腕から、かりんの緊張が伝わってきた気がした。
-#SCRIPT ADD KANJI
 Ｉ felt like I could feel Karin's tension from the arm she was touching.
 
 #--------------------------------------------------
