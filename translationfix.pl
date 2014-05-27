@@ -13,6 +13,11 @@ my $allow_new_dialogue = 0;
 
 my $max_lines_in_translation = 1;
 
+# WARNING: this action can't be reverted
+# do NOT commit the output to git
+# the output will not be accepted again by the script!
+my $split_lines = 0;
+
 # end of setup
 
 # set end of line to always print CLRF
@@ -23,6 +28,11 @@ if( $^O eq 'MSWin32' )
 	$CLRF = "\n";
 }
 
+if ($split_lines == 1)
+{
+	# split lines only works on wide chars
+	$to_wide_char = 1
+}
 
 # move to the correct working directory
 chdir "scripts";
@@ -33,6 +43,9 @@ my $active_file = "main.txt";
 my $empty = sprintf("%c%c", 0x81, 0x40);
 my $star_prefix = sprintf("%c%c", 0x81, 0x99);
 my $speaker_add = sprintf("%c%c", 0x81, 0x97);
+my $period = sprintf("%c%c", 0x81, 0x44);
+my $question_mark = sprintf("%c%c", 0x81, 0x48);
+my $explanation_mark = sprintf("%c%c", 0x81, 0x49);
 
 
 my @japanese;
@@ -405,6 +418,194 @@ sub getJapaneseLines
 	return @array;
 }
 
+sub splitSentence
+{
+	my ($line) = @_;
+	
+	my @output;
+	
+	my $buffer;
+	
+	while (length $line > 66)
+	{
+		my $buffer = substr($line, 0, 66);
+		
+		my $index = rindex($buffer, $empty);
+		
+		push (@output, substr($line, 0, $index));
+		$line = substr($line, $index + 2);
+	}
+	
+	if (length $line > 0)
+	{
+		push (@output, $line);
+	}
+	
+	return @output;
+}
+
+sub splitLine
+{
+	my ($speaker, $text) = @_;
+
+	my @lines;
+	
+	my $string = "";
+	my $last_char = "";
+	
+	
+	if (index($speaker, ",") != -1)
+	{
+		$speaker = substr($speaker, 0, index($speaker, ","));
+	}
+	
+	while (length $text > 0)
+	{
+		my $char = substr($text, 0, 2);
+		$text = substr($text, 2);
+		
+		
+		if ($char eq $empty)
+		{
+			if ($last_char eq $period or $last_char eq $question_mark or $last_char eq $explanation_mark)
+			{
+				push(@lines, $string);
+				$string = "";
+				$last_char = $empty;
+				next;
+			}
+		}
+		
+		if (length($string) > 0 or $char ne $empty)
+		{
+			$string .= $char;
+			
+		}
+		$last_char = $char;
+	}
+	
+	if (length($string) > 0)
+	{
+		push(@lines, $string);
+	}
+	
+	my $line = "";
+		
+	my @buffer;
+	
+	foreach my $input (@lines)
+	{
+		if (length $line > 0 and length $line < 66)
+		{
+			$line .= $empty;
+		}
+		
+		if (length($input) + length($line) <= 66)
+		{
+			$line .= $input;
+			next;
+		}
+		
+		if (length $line > 0)
+		{
+			push(@buffer, $line);
+			$line = "";
+		}
+		
+		my $num_lines = scalar @buffer;
+		
+		foreach (splitSentence($input))
+		{
+			push(@buffer, $_);
+		}
+		
+		$line = pop(@buffer);
+	}
+	
+	if (length ($line) > 0)
+	{
+		push(@buffer, $line);
+	}
+	
+	
+	if (scalar @buffer > 4)
+	{
+		# failed to fit text
+		# try again while not caring about splitting sentences, just words
+		
+		@buffer = ();
+		$line = "";
+		
+		foreach my $input (@lines)
+		{
+			my $line_at_start = $line;
+			
+			if (length $line > 0)
+			{
+				$line .= $empty;
+			}
+			
+			$line .= $input;
+			
+			my @previous_buffer = (@buffer);
+			
+			foreach (splitSentence($line))
+			{
+				push(@buffer, $_);
+			}
+			
+			if (scalar @buffer > 4 and scalar @previous_buffer < 4)
+			{
+				if (@previous_buffer > 2)
+				{
+					@buffer = (@previous_buffer);
+					push(@buffer, $line_at_start);
+					push(@buffer, $speaker);
+					foreach (splitSentence($input))
+					{
+						push(@buffer, $_);
+					}
+				}
+				else
+				{
+					# sentence is too long and is has to be split
+					splice @buffer, 4, 0, $speaker;
+				}
+			}
+			$line = pop(@buffer);
+		}
+		
+		if (length ($line) > 0)
+		{
+			push(@buffer, $line);
+		}
+	}
+	
+	
+	my @output;
+	
+	my $prev_line = "temp";
+	
+	foreach (@buffer)
+	{
+		if (length($_) > 0 and substr($_, 0, 2) ne $speaker_add)
+		{
+			if (length($prev_line) > 0 and substr($prev_line, 0, 2) ne $speaker_add)
+			{
+				$prev_line .= "<br>";
+			}
+		}
+		push(@output, $prev_line);
+		$prev_line = $_;
+	}
+	
+	push(@output, $prev_line);
+	
+	shift @output;
+	
+	return @output;
+}
+
 # ensure that speaker has the right @
 # converts name
 # ensures that audio fits the original
@@ -492,6 +693,8 @@ sub handleScreenLines
 	
 	my $translated_lines = 0;
 	
+	my $speaker = "";
+	
 	$line_count++;
 	
 	my $type = getType($input[0]);
@@ -501,6 +704,7 @@ sub handleScreenLines
 		$first_line = convertSpeakerLine($input[0], $use_extra_dialogue);
 		push(@lines, $first_line);
 		$i = 1;
+		$speaker = $first_line;
 	}
 	
 	# put modified lines into @lines
@@ -534,6 +738,7 @@ sub handleScreenLines
 				@lines = ();
 				$newline = convertSpeakerLine($newline, $use_extra_dialogue);
 				$has_translation = 0;
+				$speaker = $newline;
 			}
 			else
 			{
@@ -585,6 +790,15 @@ sub handleScreenLines
 	
 		$translated_line_count++;
 		$translated_byte_count += $byte_count_block;
+		
+		if ($split_lines)
+		{
+			my $text = pop(@lines);
+			foreach (splitLine($speaker, $text))
+			{
+				push(@lines, $_);
+			}
+		}
 	}
 	
 	foreach (@lines)
