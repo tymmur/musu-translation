@@ -203,7 +203,7 @@ goto	itemuse_skip
 #（ケーキ）###################################################################
 label	itemuse_cake
 
-Ｇave her some cake<br>She ate it happily.
+　Gave her some cake<br>She ate it happily.
 
 add_kenkou=add_kenkou*1
 window_close
@@ -220,7 +220,7 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｓtamina replenished by [ADD_KENKOU]!
+　Stamina replenished by [ADD_KENKOU]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -228,7 +228,7 @@ goto	itemuse_skip
 #（栄養ドリンク）#############################################################
 label	itemuse_drink
 
-Ｇave her a Nutrient drink. <br>She said it tasted funny but still finished it.
+　Gave her a Nutrient drink. <br>She said it tasted funny but still finished it.
 
 add_kenkou=add_kenkou*2
 window_close
@@ -245,7 +245,7 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｓtamina replenished by [ADD_KENKOU]!
+　Stamina replenished by [ADD_KENKOU]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -253,7 +253,7 @@ goto	itemuse_skip
 #（成長の実）#################################################################
 label	itemuse_seichounomi
 
-Ｇave her the fruit of growth <br>
+　Gave her the fruit of growth <br>
 
 add_kenkou=add_kenkou*10
 window_close
@@ -270,7 +270,7 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｓtamina replenished by [ADD_KENKOU]!
+　Stamina replenished by [ADD_KENKOU]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -278,7 +278,7 @@ goto	itemuse_skip
 #（ぬいぐるみ）###############################################################
 label	itemuse_doll
 
-Ｇave her an adorable stuffed animal <br>she seems very happy.
+　Gave her an adorable stuffed animal <br>she seems very happy.
 
 add_kiryoku=add_kiryoku*1
 window_close
@@ -295,7 +295,7 @@ if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｗillpower replenished by [ADD_KIRYOKU]!
+　Willpower replenished by [ADD_KIRYOKU]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -303,7 +303,7 @@ goto	itemuse_skip
 #（ぁゃιぃクスリ）###########################################################
 label	itemuse_drug
 
-Ｇave her some suspicious medicine. <br>She took it with much resistance.
+　Gave her some suspicious medicine. <br>She took it with much resistance.
 
 add_kiryoku=add_kiryoku*2
 window_close
@@ -320,7 +320,7 @@ if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｗillpower replenished by [ADD_KIRYOKU]!
+　Willpower replenished by [ADD_KIRYOKU]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -329,7 +329,7 @@ goto	itemuse_skip
 label	itemuse_book1
 add_atama=add_atama*1
 
-Ｇave her some easy drills.
+　Gave her some easy drills.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -345,7 +345,7 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｉntelligence up by [ADD_ATAMA]!
+　Intelligence up by [ADD_ATAMA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -354,7 +354,7 @@ goto	itemuse_skip
 label	itemuse_book2
 add_atama=add_atama*2
 
-Ｇave her some basic drills.
+　Gave her some basic drills.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -370,7 +370,7 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｉntelligence up by [ADD_ATAMA]!
+　Intelligence up by [ADD_ATAMA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -379,7 +379,7 @@ goto	itemuse_skip
 label	itemuse_book3
 add_atama=add_atama*3
 
-Ｇave her some really hard drills. <br>She would be a genius if she could solve them.
+　Gave her some really hard drills. <br>She would be a genius if she could solve them.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -395,7 +395,7 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｉntelligence up by [ADD_ATAMA]!
+　Intelligence up by [ADD_ATAMA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -403,7 +403,7 @@ goto	itemuse_skip
 #（おなかでふるえるベルト）###################################################
 label	itemuse_belt
 
-Ｇave her a belt which gives you muscles if you vibrate your belly with it. <br>I wonder if it works...?
+　Gave her a belt which gives you muscles if you vibrate your belly with it. <br>I wonder if it works...?
 
 add_karada=add_karada*1
 
@@ -421,7 +421,7 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｂody up by [ADD_KARADA]!
+　Body up by [ADD_KARADA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -429,7 +429,7 @@ goto	itemuse_skip
 #（元軍人さんの体操ビデオ）###################################################
 label	itemuse_sportsvideo
 
-Ｇave her a military video where you can have fun working out with soldiers. <br>It may even be good for a diet.
+　Gave her a military video where you can have fun working out with soldiers. <br>It may even be good for a diet.
 
 add_karada=add_karada*2
 
@@ -447,7 +447,7 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｂody up by [ADD_KARADA]!
+　Body up by [ADD_KARADA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -455,7 +455,7 @@ goto	itemuse_skip
 #（なにかの養成ギプス）#######################################################
 label	itemuse_gibusu
 
-Ｇave her a body training suit with extremly strong springs. <br>If she continues to wear it maybe she'll become some sort of star.....
+　Gave her a body training suit with extremly strong springs. <br>If she continues to wear it maybe she'll become some sort of star.....
 
 add_karada=add_karada*3
 
@@ -473,7 +473,7 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｂody up by [ADD_KARADA]!
+　Body up by [ADD_KARADA]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -481,7 +481,7 @@ goto	itemuse_skip
 #（きれいな手鏡）#############################################################
 label	itemuse_mirror
 
-Ｇave her a mirror with shiny things attached to it. <br>she seems very happy.
+　Gave her a mirror with shiny things attached to it. <br>she seems very happy.
 
 add_kokoro=add_kokoro*1
 
@@ -499,7 +499,7 @@ if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｍind up by [ADD_KOKORO]!
+　Mind up by [ADD_KOKORO]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -507,7 +507,7 @@ goto	itemuse_skip
 #（アイドル写真集「ジ・アイドルマイスター写真集」）##########################
 label	itemuse_photobook
 
-Ｇave her a gravure photobook of a girl about the same age as her. <br>She's reading it with alot of interest.
+　Gave her a gravure photobook of a girl about the same age as her. <br>She's reading it with alot of interest.
 
 add_kokoro=add_kokoro*2
 
@@ -525,7 +525,7 @@ if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
-Ｍind up by [ADD_KOKORO]!
+　Mind up by [ADD_KOKORO]!
 
 #（統合へ）
 goto	itemuse_skip
@@ -533,7 +533,7 @@ goto	itemuse_skip
 #（エッチな本「SMドエロ大魔神」）#############################################
 label	itemuse_erobook
 
-Ｉ gave her some pretty maniac and harsh pornography. <br>She said she didn't need it at first, but apparently ended up sneaking it into her room.
+　I gave her some pretty maniac and harsh pornography. <br>She said she didn't need it at first, but apparently ended up sneaking it into her room.
 
 add_kokoro=add_kokoro*3
 
@@ -560,7 +560,7 @@ goto	itemuse_skip
 # ショップでは買えない？　一応入れておきます。
 label	itemuse_visualbook
 
-Ｉ gave her a picture book talking about the enjoyment of working. <br>She seems excessively hyped up, seems to be moved by the book.
+　I gave her a picture book talking about the enjoyment of working. <br>She seems excessively hyped up, seems to be moved by the book.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -573,7 +573,7 @@ wait	2000
 @item_effect_2
 wait	1000
 
-Ｐayrise!
+　Payrise!
 
 #（統合へ）
 goto	itemuse_skip
@@ -643,7 +643,7 @@ return
 
 macro	itemuse_charasel
 
-Ｗho should I use it on...
+　Who should I use it on...
 
 itemuse_chara=0
 
