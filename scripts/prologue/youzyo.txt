@@ -51,29 +51,29 @@ event		"event\ev_miu_010-00.png"
 
 #「お父さんっ。これ見て！」
 ＠Itsuki
-「Father, look at this!」
+「Dad, look at this!」
 
 #「樹……あまりここには来るなと言ってるだろ？」
 ＠Father,X00000
-「Itsuki…Didn’t I tell you not to come in here?」
+「Itsuki... Didn’t I tell you not to come in here?」
 
 #「見てよ、このテスト、九十二点！　クラスで三人だけなんだよ、九十点取ってるの！」
 ＠Itsuki
-「Look, I scored a 92 on my test!  Only three kids in my class scored a 90!」
+「Look, I scored a 92 on my test! Only three kids in my class scored a 90!」
 
 #「九十二？　この前は九十八だと言って喜んでいたな。下がってるじゃないか」
 ＠Father,X00001
-「A 92?  Before, you were happy when you said you got 98.  It went down, didn’t it?」
+「A 92? Before you were happy when you said you got 98. It went down, didn’t it?」
 
 event_fast	"event\ev_miu_010-01.png"
 
 #「で、でもっ、このテスト、難しかったんだ。それにこの問題見てよ、もうちょっとで……」
 ＠Itsuki
-「Bu, but, this test was hard.  Look at this problem right here, I almost…」
+「B-but, this test was hard. Look at this problem right here, I almost got it...」
 
 #「分かった分かった、あとで見てやるから。今は忙しいんだ」
 ＠Father,X00002
-「Alright, alright, I’ll look at it later.  I’m busy right now.」
+「Fine, fine. I’ll look at it later. I’m busy right now.」
 
 #ドアノック音
 
@@ -87,19 +87,19 @@ event		"event\ev_miu_010-02.png"
 
 #「院長先生………今日汚れた部屋の掃除、終わりました……」
 ＠Miu,B00000
-「Inchou-sensei…I cleaned the dirty rooms.  I’m finished…」
+「Inchou-sensei... I finished cleaning the dirty rooms for today...」
 
 #「あ………」
 ＠Itsuki
-「Ah…」
+「Ah...」
 
 #「もう終わったのか、早いな。ちょうどいい。美雨、また樹と遊んでやっててくれないか」
 ＠Father,X00003
-「You’ve already finished?  That was fast.  You’re just in time.  Miu, play with Itsuki, alright?」
+「You're already done? That was fast. You’re just in time. Miu, could you play with Itsuki?」
 
 #「中には入るな、外で遊べ。分かってると思うが、外といっても施設の敷地から外には出るなよ？」
 ＠Father,X00004
-「Don’t come in here, play outside.  I think you understand, but when I say play outside, I mean on the institution grounds.  Don’t leave the grounds.」
+「Don’t come in here, play outside. You probably already know, but you can't leave our institution's property」
 
 #足音
 se	0,	"sound\se\足音_絨毯男性.wav",	play_once
@@ -109,69 +109,67 @@ event		"event\ev_miu_010-03.png"
 
 #「あ、お父さん！　待ってよ！」
 ＠Itsuki
-「Ah, father!  Wait!」
+「Ah, Dad! Wait!」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「入っちゃダメ！　樹くん、外で遊ぼうよ……」
 ＠Miu,B00001
-「Stop, don’t go in there!  Itsuki-kun, let’s play outside…」
+「You can't go in there! Itsuki-kun, let’s play outside...」
 
 event_fast	"event\ev_miu_010-04.png"
 
+#「………」
 ＠Itsuki
-「………」
+「...」
 
 #「……分かったから、袖を離してよ。美雨の服についてるその変なのが、僕の服にもついちゃってる」
 ＠Itsuki
-「I know that, so let go of my sleeve.  This stuff stuck on your clothes, it’s stuck on mine too now.」
+「... Fine, let go of my sleeve. This weird stuff stuck on your clothes, it’s stuck on mine too now」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「あ、ごめん………」
 ＠Miu,B00002
-「Ah, sorry…」
+「Oh, sorry...」
 
 event_fast	"event\ev_miu_010-04.png"
 
 #「別にいいけど。何、これ……白くて、粘っこい……のり？」
 ＠Itsuki
-「I don’t care.  What is this?  White, sticky... glue?」
+「It's OK. What is this?  White, sticky... glue?」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「そ、それは………えっと、ごめん……」
 ＠Miu,B00003
-「Th, that is…cum, sorry…」
+「T-that is... um, sorry...」
 
 event_fast	"event\ev_miu_010-04.png"
 
 #「また僕には内緒なんだ。お父さんに言われたから……？」
 ＠Itsuki
-「It’s kept secret from me again. Is it because father told you to……?」
+「Nobody wants to tell me anything. Did Dad tell you not to...?」
 
+#「………」
 ＠Miu,B00004
-「………」
+「...」
 
 #お父さんは、僕のお父さんなのに………
-　Father... even though he's my father...
+　Dad... He's my father but...
 
 #どうしてこの子達ばっかり。
-　Why just these children?
-
-#Why is it always these kids.
+　There's always these kids.
 
 #「今日はもう、帰る。他の友達と遊ぶから」
 ＠Itsuki
-「Let’s go back for today.  I’ll play with my other friends.」
-
-#「I'm going back today.  I’ll play with my other friends.」
+「I'm going back for today. I’ll play with my other friends」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「えっ、そんな……樹くんっ」
 ＠Miu,B00005
-「Eh, um... Itsuki-kun.」
+「Huh, no way... Itsuki-kun」
 
 #SE34　外で走り去る音
 
@@ -187,9 +185,7 @@ event_fast	"cg\black.png"
 
 #「……ヤダよ、樹くん。一人にしないで………」
 ＠Miu,B00007
-「…no, Itsuki-kun.  Don’t do it alone……」
-
-#「…no, Itsuki-kun.  Don’t leave me alone……」
+「... Please don't, Itsuki-kun. Don't go off on your own......」
 
 event	"cg\black.png"
 
@@ -259,20 +255,20 @@ voice_bg		b90004
 
 #「はあぁうッ、あはぁッ！　もっと動いて、樹くん……！　深くまでッ、あッ！　ひゃぁあうんッ！！」
 ＠Miu,B00008
-「はあぁうッ, あはぁッ! Move it around more, Itsuki-kun……! Deeper, あッ! ひゃぁあうんッ!!」
+「はあぁうッ, あはぁッ! Keep going, Itsuki-kun...! Deeper, あッ! ひゃぁあうんッ!!」
 
 #「もらってほしぃのッ、美雨の初めてぇ……ッ！　はあぁッ、んぁあうッ……樹くんにぃ……ッ！」
 ＠Miu,B00009
-「I want you to give it to me.  This is my first time…!  はあぁッ, んぁあうッ……Itsuki-kunにぃ……!」
+「I want to give my first time to you...! はあぁッ, んぁあうッ…… Itsuki-kun...!」
 
 #初めての感触。
-　This is the first time I have felt like this.
+　My first contact.
 
 #初めて見る、女の子の身体。
-　This is my first time seeing a girl’s body.
+　My first time seeing a girl’s body.
 
 #それは想像していたよりも柔らかくて、綺麗で、そして……淫らに気持ちよくて。
-　I could only guess how soft and tender this felt.  It’s beautiful, and then, this lewd feeling.
+　It's more soft and pretty than I ever imagined, and... It feels so good it must be a crime.
 
 se			1,"sound\se\zuba.wav",	play_once
 screen_flash		500
@@ -281,7 +277,7 @@ layer_position	0,-100,-100
 
 #「っく！　うぅぅッ、出るッ、美雨……！！」
 ＠Itsuki
-「っく! うぅぅッ, I’m cumming, Miu…!!」
+「っく! うぅぅッ, I’m cumming, Miu...!!」
 
 se			1,"sound\se\zuba.wav",	play_once
 screen_flash		500
@@ -290,7 +286,7 @@ layer_position_set	0,100,100
 
 #「んくふぅッ！　はあっ、あぁう！　うん、いいのっ、出して！」
 ＠Miu,B00010
-「んくふぅッ! はあっ, あぁう! Yes, it’s alright, cum!」
+「んくふぅッ! はあっ, あぁう! Yes, go ahead, cum!」
 
 se			1,"sound\se\zuba.wav",	play_once
 screen_flash		500
@@ -301,7 +297,7 @@ layer_position_set	0,-100,-100
 
 #「全部、出していいんだよ……んぅッ！　ひゃあふ！　お腹の中に、いっぱいにぃ……ッ！」
 ＠Miu,B00011
-「Together!  Let’s cum together……んぅッ! ひゃあふ! My belly, fill me up……ッ!」 (maybe edit the last part a little bit)
+「Let it all out... んぅッ! ひゃあふ! Fill up my belly...!」 
 
 se			1,"sound\se\zuba.wav",	play_once
 screen_flash		500
@@ -312,7 +308,7 @@ layer_position_set	0,100,100
 
 #「美雨は……ッ、他の人のなんか……くひぅッ、んんはあ！　ほしくないのぉ……！」
 ＠Miu,B00012
-「Miu……ッ, you belong to somebody else……くひぅッ, んんはあ! I don’t want that……!」
+「I don't want to be with anyone else... くひぅッ, んんはあ! But you...!」
 
 ## TG Ver. ####################################################################
 if global(110)=0 then  goto	skip_tgver
@@ -321,7 +317,7 @@ if global(110)=0 then  goto	skip_tgver
 
 #「樹くん、出してぇ！　美雨の中に出してぇぇ！！　美雨を樹くんで、いっぱいにしてほしいのぉ…！！」
 ＠Miu,B00022
-「Itsuki-kun, cum!  Cum inside of Miu!!  Do it to Miu, I want you to fill me up…!!」
+「Itsuki-kun, cum! Cum inside of Miu!! Miu wants to be filled up by Itsuki-kun...!!」
 
 #美雨の懇願する様な声をオレは遠くに聞いていた。
 　I hear Miu’s request, her voice sounding distant.
