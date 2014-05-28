@@ -432,8 +432,16 @@ sub splitSentence
 		
 		my $index = rindex($buffer, $empty);
 		
+		my $offset = 2;
+		
+		if ($index == -1)
+		{
+			$index = 66;
+			$offset = 0;
+		}
+		
 		push (@output, substr($line, 0, $index));
-		$line = substr($line, $index + 2);
+		$line = substr($line, $index + $offset);
 	}
 	
 	if (length $line > 0)
@@ -560,6 +568,7 @@ sub splitLine
 				{
 					@buffer = (@previous_buffer);
 					push(@buffer, $line_at_start);
+					push(@buffer, "");
 					push(@buffer, $speaker);
 					foreach (splitSentence($input))
 					{
@@ -569,7 +578,7 @@ sub splitLine
 				else
 				{
 					# sentence is too long and is has to be split
-					splice @buffer, 4, 0, $speaker;
+					splice @buffer, 4, 0, "", $speaker;
 				}
 			}
 			$line = pop(@buffer);
