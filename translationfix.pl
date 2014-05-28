@@ -18,6 +18,10 @@ my $max_lines_in_translation = 1;
 # the output will not be accepted again by the script!
 my $split_lines = 0;
 
+# auto newline setup
+my $NUM_LINES = 4;
+my $NUM_CHARS = 39;
+
 # end of setup
 
 # set end of line to always print CLRF
@@ -426,9 +430,9 @@ sub splitSentence
 	
 	my $buffer;
 	
-	while (length $line > 66)
+	while (length $line > ($NUM_CHARS * 2))
 	{
-		my $buffer = substr($line, 0, 66);
+		my $buffer = substr($line, 0, ($NUM_CHARS * 2));
 		
 		my $index = rindex($buffer, $empty);
 		
@@ -436,7 +440,7 @@ sub splitSentence
 		
 		if ($index == -1)
 		{
-			$index = 66;
+			$index = ($NUM_CHARS * 2);
 			$offset = 0;
 		}
 		
@@ -503,12 +507,12 @@ sub splitLine
 	
 	foreach my $input (@lines)
 	{
-		if (length $line > 0 and length $line < 66)
+		if (length $line > 0 and length $line < ($NUM_CHARS * 2))
 		{
 			$line .= $empty;
 		}
 		
-		if (length($input) + length($line) <= 66)
+		if (length($input) + length($line) <= ($NUM_CHARS * 2))
 		{
 			$line .= $input;
 			next;
@@ -536,7 +540,7 @@ sub splitLine
 	}
 	
 	
-	if (scalar @buffer > 4)
+	if (scalar @buffer > $NUM_LINES)
 	{
 		# failed to fit text
 		# try again while not caring about splitting sentences, just words
@@ -562,9 +566,9 @@ sub splitLine
 				push(@buffer, $_);
 			}
 			
-			if (scalar @buffer > 4 and scalar @previous_buffer < 4)
+			if (scalar @buffer > $NUM_LINES and scalar @previous_buffer < $NUM_LINES)
 			{
-				if (@previous_buffer > 2)
+				if (@previous_buffer > ($NUM_LINES - 2))
 				{
 					@buffer = (@previous_buffer);
 					push(@buffer, $line_at_start);
@@ -578,7 +582,7 @@ sub splitLine
 				else
 				{
 					# sentence is too long and is has to be split
-					splice @buffer, 4, 0, "", $speaker;
+					splice @buffer, $NUM_LINES, 0, "", $speaker;
 				}
 			}
 			$line = pop(@buffer);
