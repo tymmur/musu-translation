@@ -876,7 +876,8 @@ if training_chara=0 then return
 #■（選択肢）
 #（１．いいよ）
 #（２．考え直す）
-select	sel,"いいよ","考え直す"
+#select	sel,"いいよ","考え直す"
+select	sel,"It's good","I want to reconsider"
 if sel=0 then goto training_in_6_b
 if sel=1 then goto training_in_6_c
 
