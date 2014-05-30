@@ -35,7 +35,7 @@ goto	shop_in_message_exit
 label	shop_in_message_1
 
 #「いらっしゃいませ……あ、また来てくださったんですね……」
-＠Shopkeeper,H00233
+＠Attendant,H00233
 「Welcome...... Ah, you came again......」
 
 #エロキュートに入ると、店員さんはオレを覚えていたようで、少し嬉しそうな顔になる。
@@ -49,7 +49,7 @@ label	shop_in_message_1
 　Normally I'd be pleased to be remembered, but for adult shops I'm a little more hesitant.
 
 #「ま、まあ、貴重なお客様ですから……」
-＠Shopkeeper,H00234
+＠Attendant,H00234
 「W-Well, you're a prized customer......」
 
 #「確かにな……」
@@ -66,7 +66,7 @@ label	shop_in_message_1
 　I'm happy to be able to quietly go about my business today, while others do theirs.
 
 #「本日は、何がご入り用でしょうか……？」
-＠Shopkeeper,H00235
+＠Attendant,H00235
 「What would you like today, sir......?」
 
 #「そうだな……」
@@ -202,10 +202,10 @@ goto	shop_in_message_exit
 #（巣蓋さんと呼ぶことにしていない場合１）####################################
 label	shop_in_message_5
 
-＠店員さん,H00246
+＠Attendant,H00246
 「いらっしゃいませ……」
 
-＠店員さん,H00247
+＠Attendant,H00247
 「本日は、何をお探しでしょうか？」
 
 #（統合へ）
@@ -214,7 +214,7 @@ goto	shop_in_message_exit
 #（巣蓋さんと呼ぶことにしていない場合２）####################################
 label	shop_in_message_6
 
-＠店員さん,H00248
+＠Attendant,H00248
 「いらっしゃいませ。エロキュートへようこそ……」
 
 #（統合へ）

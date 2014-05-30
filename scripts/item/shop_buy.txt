@@ -2,6 +2,9 @@
 #アイテムショップメインメニュー～アイテム購入
 #------------------------------------------------------------
 label	shop_buy_message
+#SCRIPT IGNORE
+if shop_talk_count<2 then goto shop_buy_message_unnamed
+#SCRIPT IGNORE END
 
 #■■■注■■■
 # 巣蓋さんの名前表示は、名前を訊くまでは「店員さん」になりますが、いちいち書くのが鬱陶しいので、シナリオ上は以降「巣蓋さん」で統一しておきます。
