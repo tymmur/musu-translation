@@ -206,6 +206,9 @@ while (my ($key, $value) = each(%toWideTable))
 $toRegularCharacters{ sprintf("%c%c", 0x81, 0x68) } = "\"";
 
 
+my @last_read_file;
+
+
 sub toWideChar
 {
 	my ($line) = @_;
@@ -358,12 +361,16 @@ sub readFile
 	open FILE, "<", $file or die_local $!;
 	
 	my @array = ();
+	@last_read_file = ();
 	
 
 	while (my $line = <FILE>)
 	{
 		$line =~ s/[\x0D]//g;
 		$line =~ s/[\x0A]//g;
+		
+		push(@last_read_file, $line);
+		
 		while (substr($line, 0, 1) eq " " or substr($line, 0, 1) eq "	" or substr($line, 0, 2) eq $empty)
 		{
 			if (substr($line, 0, 2) eq $empty)
@@ -382,6 +389,25 @@ sub readFile
 	close FILE;
 	
 	return @array;
+}
+
+sub isFileModified
+{
+	my(@new_lines) = @_;
+	
+	if (scalar @new_lines != scalar @last_read_file)
+	{
+		return 1;
+	}
+	
+	for (my $line_number =0; $line_number < scalar @last_read_file; $line_number++)
+	{
+		if ($new_lines[$line_number] ne $last_read_file[$line_number])
+		{
+			return 1;
+		}
+	}
+	return 0;
 }
 
 sub getJapaneseLines
@@ -1010,7 +1036,7 @@ sub handleFile
 		push(@output, $line);
 	}
 	
-	if (1)
+	if (isFileModified(@output) == 1)
 	{
 		open FILE, ">", $file or die_local $!;
 	
