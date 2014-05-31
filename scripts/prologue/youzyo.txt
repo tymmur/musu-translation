@@ -95,11 +95,11 @@ event		"event\ev_miu_010-02.png"
 
 #「もう終わったのか、早いな。ちょうどいい。美雨、また樹と遊んでやっててくれないか」
 ＠Father,X00003
-「You're already done? That was fast. Perfect timing. Miu, could you play with Itsuki?」
+「You're already done? That was fast. Perfect timing. Miu, could you play with Itsuki again?」
 
 #「中には入るな、外で遊べ。分かってると思うが、外といっても施設の敷地から外には出るなよ？」
 ＠Father,X00004
-「You can't run around around inside, play outside. Also I'm sure you know by now, but don't leave the institution property」
+「Don't come in here, play outside. Also I'm sure you know by now, but don't leave the institution property」
 
 #足音
 se	0,	"sound\se\足音_絨毯男性.wav",	play_once
@@ -159,7 +159,7 @@ event_fast	"event\ev_miu_010-04.png"
 　Dad... You're my father but...
 
 #どうしてこの子達ばっかり。
-　... Why are you with these kids all the time?
+　Why are you with these kids all the time?
 
 #「今日はもう、帰る。他の友達と遊ぶから」
 ＠Itsuki
@@ -268,7 +268,7 @@ voice_bg		b90004
 　My first time seeing a girl’s body.
 
 #それは想像していたよりも柔らかくて、綺麗で、そして……淫らに気持ちよくて。
-　It's more soft and pretty than I ever imagined, and... It feels so good it must be a crime.
+　It's more soft and pretty than I ever imagined, and... It feels so indecently good.
 
 se			1,"sound\se\zuba.wav",	play_once
 screen_flash		500
@@ -703,7 +703,7 @@ label youzyo_02	##############################################################
 
 #「パパーッ！　起きろーーー！！！」
 ＠???,O00000
-「Papaa!  Wake uuuup!!!」
+「Papaa! Wake uuuup!!!」
 
 #■BG（ブラック）※瞬間表示
 
@@ -711,15 +711,16 @@ label youzyo_02	##############################################################
 @se65
 screen_flash		2000
 
+#「ぐふぅぅッ！！？」
 ＠Itsuki
-「ぐふぅぅッ！！？」
+「Gufu!!?」
 
 #今にも霞掛かりそうだった光景が、唐突な衝撃によって雲散霧消した。
-　Soon, it seemed like the haze was coming into focus.  But a sudden impact causes it to vanish.
+　My vision was still kind of blurry, but a sudden impact disperses the haze.
 
 #「えへへぇ～、起きた？　パパ、うなされてたよ」
 ＠???,O00001
-「Eheheh~, Are you awake?  Papa, you were having a nightmare.」
+「Ehehe～, are you awake? Papa, you sounded like you were having a nightmare」
 
 @bgm03
 
@@ -733,73 +734,74 @@ wait			1000
 ＠Ichigo,O00002
 「Morning, Papa♪」
 
+#「………」
 ＠Itsuki
-「………」
+「...」
 
 ＠Itsuki
-「……………」
+「......」
 
 #「……おはよ」
 ＠Itsuki
-「……Morning.」
+「...Morning」
 
 #人のお腹の上で嬉しそうな笑みに返事を返す。
-　The person on top of my stomach returns my greeting with a bright smile.
+　I reply to the brightly smiling girl on top of me.
 
 #長い三つ編みを両側でクルリと巻き上げたハイテンション少女いちごが、マウントポジションを取っていた。
-　Long braids on both sides of the head, curled and rolled up, adorn the head of the small girl, Ichigo.  I go to lift her off of me.
+　Long braids are curled up in a roll on both sides of the exuberant Ichigo, who has mounted me.
 
 #「で、何だ『パパ』って。娘を持った覚えはないんだが」
 ＠Itsuki
-「Huh, what’s with you saying "Papa."  I don’t remember having a daughter.」
+「So, what’s with "Papa". I don’t remember having a daughter」
 
 #「だってパパが昨日、好きなように呼んでいいって言ってたもん」
 ＠Ichigo,O00003
-「But Papa, yesterday you said, "Call me whatever you like."」
+「But Papa, yesterday you said we can call you whatever we want」
 
 #「あぁ、確かに。けどそれは互いに初対面の堅苦しさを解さんとする決まり文句だろ」
 ＠Itsuki
-「Aah, right.  I understand, I said that when we first met.  It just seems a bit cliche.」
+「Oh yeah. But I said that more just to break the ice a little」
 
 #「えへへ～♪　いちご、ずっとパパが欲しかったんだもん」
 ＠Ichigo,O00004
-「Eheheh~♪ I has always wanted a Papa.」
+「Ehehe～♪ I always wanted a Papa」
 
 #聞いちゃいないよ、この子は。
-　This kid just won’t listen.
+　She won't listen to me.
 
 #まぁ昨日からずっと、誰もオレの話に耳を傾ける気が無いのは同じなのだが。
-　(Sigh) It’s been like this since yesterday.  Everybody that I talk to is the same.  Whenever I try to talk to them, they seem uninterested.  (maybe change to "They don’t listen to what I am saying," or something similar)
+　Well I guess ever since yesterday, I feel like nobody has been listening to what I have to say.
 
 #「早く起きようよ、パパ～。お腹すいた～～」
 ＠Ichigo,O00005
-「Hurry and get up, Papa~.  I’m hungry~~」
+「Come on Papa, get up～. I’m hungry～～」
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
 
 #「あぐぅッ！！　わ、分かったから乗りなおすなッ、中身が出るだろッ」
 ＠Itsuki
-「あぐぅッ!!  I understand, but if you continue to sit on top of me, my insides are going to come out.」 (maybe change to, "throw up.")
+「Aguh!! F-fine I get it so stop jumping on me, my filling's going to come out」
 
 #「中身？　中身って何ッ？　さてはパパ、いちごに内緒で何か食べたんだー！？」
 ＠Ichigo,O00006
-「Insides?  What insides?  Did you eat something without me!?」
+「Filling? What filling? Did you eat something without me!?」
 
 #「いちごなんてお腹ぺこぺこで、こんなに軽くなってるのにッ」
 ＠Ichigo,O00007
-「My’s stomach is completely empty, so that means I’m really light right now.」
+「But look how light I am when my belly's starving like this」
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
 
 #「ぐッ、グリグリと動くな……ッ、起きるから。のけッ！」
 ＠Itsuki
-「ぐッ, You’re grinding against me…, I’m getting up.  Get off!」
+「Guh, stop jumping up and down... I'm awake. Move!」
 
 #「はぅぅ～～……お腹空き過ぎて、フラフラするぅ～」
 ＠Ichigo,O00008
-「はぅぅ~~……My stomach is too empty, I don’t think I can get up~」 (literally, she is unsteady on her feet, has trouble walking)
+「はぅぅ～～…… My belly's so empty, I'm dizzy～」 
 
 window_close
 #SE13　お腹の音・弱
@@ -807,11 +809,11 @@ window_close
 
 #「いちごが退かないと起きれないだろ。それとも、朝飯やめてここで倒れてるか？」
 ＠Itsuki
-「Ichigo, if you don’t get off of me, I can’t get up.  If that happens, then breakfast will end while we lie here, won’t it?」
+「I can't get up if you're on top of me. Or would you rather skip breakfast and die here?」
 
 #「う～～、ヤダ。朝ご飯食べるぅ」
 ＠Ichigo,O00009
-「う~~, No.  I’m gonna eat breakfast.」
+「う～～、I don't want that. I'll eat breakfast」
 
 label youzyo_03	##############################################################
 
@@ -822,43 +824,43 @@ date_open
 @ichigo_large
 
 #物足りなそうに口を尖らせながら、ようやくいちごが腹の上から退散する。
-　The idea does not seem pleasing to her.  She gets off of my stomach with a sour look on her face.
+　Pouting and looking hard-done-by, Ichigo mercifully removes herself from my abdomen.
 
 @ichigo_akire
 
 #「よし、良い子だ。先に食堂に下りてろ。オレもすぐ行くから」
 ＠Itsuki
-「Alright, good girl.  Why don’t you go on ahead of me?  I will be down shortly.」
+「Alright, good girl. Why don’t you head down to the dining room? I'll be down in a bit」
 
 @ichigo_gimon
 
 #「どして？　一緒に行こうよ、パパ」
 ＠Ichigo,O00010
-「Why?  Let’s go down together, Papa.」
+「Why? Let’s go together, Papa.」
 
 @ichigo
 
 #「……着替えるんだから。ここで見てく気か？」
 ＠Itsuki
-「……Because I’m going to change.  Do you want to watch here?」
+「... Because I have to change. Do you want to stay here and watch?」
 
 @ichigo_warai
 
 #「うん」
 ＠Ichigo,O00011
-「Uh-huh.」
+「Yeah」
 
 @ichigo
 
 #「えとねー。ざくろがね、男の人は朝ああやって起こされると嬉しくて萌えるんだって言ってたの」
 ＠Ichigo,O00012
-「Umm.  Zakuro said that if you wake up a man in the morning like that, they will fall in love with you.」
+「Umm you know... Zakuro said that if you wake up a man in the morning like that, they'll be happy and have the hots for you」
 
 @ichigo_warai
 
 #「だから、パパが喜んでるかどうかちゃんと確認しなさいって。パパのおチン―――」
 ＠Ichigo,O00013
-「But, whether or not you say you are happy, I have the truth right here.  Papa’s peni…」
+「So, she said you have to check whether Papa is satisfied or not by looking at his penis―――」
 
 #CH（中央立ち絵から、ドア側端へ立ち絵表示移動）
 @ichigo_odoroki
@@ -866,7 +868,7 @@ layer_move	l_ichigo,2000,0,0,-800,0,passtype_tcb
 
 #「えっ、うわ！？　わわわッ！？」
 ＠Ichigo,O00014
-「Eh, uwa!?  Wawawa!?」
+「Eh, uwah!? Wawawa!?」
 
 #SE07　部屋のドア閉まる音（パタン）
 screen_vibration	500,8,32,32
@@ -876,7 +878,7 @@ screen_vibration	500,8,32,32
 
 #「……出てろ」
 ＠Itsuki
-「……Get out.」
+「...Get out」
 
 #圧し掛かられるのとは全く無関係に、男には抗えない生理現象があるんだ。
 　My bending over is truly unrelated.  There is no fighting the way the male body works.  (first part doesn’t sound quite right)
