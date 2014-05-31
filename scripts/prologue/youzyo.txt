@@ -297,7 +297,7 @@ layer_position_set	0,-100,-100
 
 #「全部、出していいんだよ……んぅッ！　ひゃあふ！　お腹の中に、いっぱいにぃ……ッ！」
 ＠Miu,B00011
-「Let it all out... んぅッ! ひゃあふ! Fill up my belly...!」 
+「Let it all out... んぅッ！　ひゃあふ！ Fill up my belly...!」 
 
 se			1,"sound\se\zuba.wav",	play_once
 screen_flash		500
@@ -306,7 +306,7 @@ layer_position_set	0,100,100
 
 #「美雨は……ッ、他の人のなんか……くひぅッ、んんはあ！　ほしくないのぉ……！」
 ＠Miu,B00012
-「I don't want to be with anyone else... くひぅッ, んんはあ! But you...!」
+「I don't want to be with anyone else but you... くひぅッ、んんはあ！」
 
 ## TG Ver. ####################################################################
 if global(110)=0 then  goto	skip_tgver
@@ -761,14 +761,14 @@ wait			1000
 
 #「あぁ、確かに。けどそれは互いに初対面の堅苦しさを解さんとする決まり文句だろ」
 ＠Itsuki
-「Oh yeah. But I said that more just to break the ice a little」
+「Oh yeah. But I said that just to break the ice a little」
 
 #「えへへ～♪　いちご、ずっとパパが欲しかったんだもん」
 ＠Ichigo,O00004
 「Ehehe～♪ I always wanted a Papa」
 
 #聞いちゃいないよ、この子は。
-　She won't listen to me.
+　Did she hear what I said?
 
 #まぁ昨日からずっと、誰もオレの話に耳を傾ける気が無いのは同じなのだが。
 　Well I guess ever since yesterday, I feel like nobody has been listening to what I have to say.
@@ -790,14 +790,14 @@ wait			1000
 
 #「いちごなんてお腹ぺこぺこで、こんなに軽くなってるのにッ」
 ＠Ichigo,O00007
-「But look how light I am when my belly's starving like this」
+「But look how light I am when my I'm starving like this」
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
 
 #「ぐッ、グリグリと動くな……ッ、起きるから。のけッ！」
 ＠Itsuki
-「Guh, stop jumping up and down... I'm awake. Move!」
+「Guh, don't grind against me like that... I'm awake. Move!」
 
 #「はぅぅ～～……お腹空き過ぎて、フラフラするぅ～」
 ＠Ichigo,O00008
@@ -824,7 +824,7 @@ date_open
 @ichigo_large
 
 #物足りなそうに口を尖らせながら、ようやくいちごが腹の上から退散する。
-　Pouting and looking hard-done-by, Ichigo mercifully removes herself from my abdomen.
+　Pouting and looking hard-done-by, Ichigo mercifully removes herself from my stomach.
 
 @ichigo_akire
 
@@ -854,13 +854,13 @@ date_open
 
 #「えとねー。ざくろがね、男の人は朝ああやって起こされると嬉しくて萌えるんだって言ってたの」
 ＠Ichigo,O00012
-「Umm you know... Zakuro said that if you wake up a man in the morning like that, they'll be happy and have the hots for you」
+「Cause you know... Zakuro said that if you wake up a man in the morning like that, they'll be happy and have the hots for you」
 
 @ichigo_warai
 
 #「だから、パパが喜んでるかどうかちゃんと確認しなさいって。パパのおチン―――」
 ＠Ichigo,O00013
-「So, she said you have to check whether Papa is satisfied or not by looking at his penis―――」
+「So, she said I should check whether Papa is pleased. Your dick―――」
 
 #CH（中央立ち絵から、ドア側端へ立ち絵表示移動）
 @ichigo_odoroki
