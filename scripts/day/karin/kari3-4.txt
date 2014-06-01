@@ -715,7 +715,7 @@ window_close
 layer_movie_load	0,"movie\EV_KAR_010-06.mpg",play_once
 screen_transition	1000
 wait	7000
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ヂュビュゥッ！　ドクドクドクッ……ブビュルッ、ビュブゥゥッ！！
 

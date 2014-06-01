@@ -332,7 +332,7 @@ label	training_ichigo_anal2_a
 ＠Itsuki
 「息を吐いて…体の力を抜くんだ…そう、そのまま……」
 
-screen_flash	800
+if disable_screen_flash=0 then screen_flash	800
 voice_bg	"O90002"
 @ichigo_motion_normal1
 @seh22
@@ -726,7 +726,7 @@ voice_bg	"O03966"
 ＠Itsuki
 「本番はここからだ。力を抜くんだぞ、いちご」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @ichigo_motion_normal1
 @seh22
 voice_bg	"O90002"
@@ -1023,7 +1023,7 @@ voice_bg	"O03967"
 「じゃあ、ちゃんとご褒美をあげようかな」
 
 @t_ichigo_nakachinpo_anal
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 voice_bg	"O03970"
 @ichigo_motion_normal1
 @seh22
@@ -1166,7 +1166,7 @@ voice_bg	"O90002"
 「ひゃぅっ！？　ぅっ、はっ…ぁああああっ！」
 
 @SEH31
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ゴリュゴリュゥッ！
 
 ＠Ichigo,O04451

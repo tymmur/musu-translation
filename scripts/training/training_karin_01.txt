@@ -1791,7 +1791,7 @@ event	"event\EV_KAR_050-02.png"
 #■HCG（差分）
 #■HCG（increment）
 screen_vibration	500,16,16,16
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 event	"event\EV_KAR_050-03.png"
 
 #ブツッ―――チュグゥッ！
@@ -2052,7 +2052,7 @@ voice_bg	"P90002"
 #■HCG（差分）※白フラッシュ
 #■HCG（increment）※white flash
 voice_bg_stop
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\EV_KAR_050-04.png"
 voice_bg_stop
 se_stop	1
@@ -2069,7 +2069,7 @@ se_stop	1
 ＠Karin,P00311
 「んくぅッ！　あはぁああッ、はあぁぁッ……はぁぅぅッ！」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 #ビュルルッ、ドビュゥッ！　ドクンッ、ドクドクッ……ドクッ、ドクンッ！
 　*byururu*, *dobyuu*! *dokun*, *doku doku*... *doku*, *dokun*!
@@ -2081,7 +2081,7 @@ screen_flash	500
 #奥の子宮やお腹の中へ一気に精を放たれ、かりんはビクビクと身体をわななかせる。
 　Karin's body trembles from the semen released all at once inside her belly and into her womb.
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\EV_KAR_050-05.png"
 
 #ドクドクッ……ドクンッ！　ドクンッ…ドクッ、ドクドクッ……

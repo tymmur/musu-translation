@@ -361,7 +361,7 @@ voice_bg	"O90001"
 「んっ…いいよ、パパ。いつでもいちごの中に、きて」
 
 @SEH31
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @t_ichigo_nakachinpo
 @ichigo_motion_pain1
 voice_bg	"O03971"
@@ -778,7 +778,7 @@ voice_bg	"O03966"
 
 その言葉に頷くと、じっとりと汗ばんだ体を掴み、ゆっくり腰を落としていった。
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 @t_ichigo_nakachinpo
 voice_bg	"O03971"
@@ -814,7 +814,7 @@ voice_bg	"O03966"
 
 そのタイミングに合わせて、そのまま一気に中へと押し込んでいく。
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 @ichigo_motion_pain1
 グググッ……グヂュッ！　ヂュプッ…ヂュプッ！
@@ -826,7 +826,7 @@ screen_flash	500
 
 その震えが止まるのを待ってから、ゆっくりと腰を押し進めていった。
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 @ichigo_motion_pain1
 ヌヂュッ、ヂュッ…ヂュブッ！　ヂュブッ！
@@ -900,7 +900,7 @@ voice_bg	"O90002"
 
 @SEH08
 @t_ichigo_nakashasei1
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ビュクッ！　ビュルルルッ！　ドクッ！　ドクンッ！
 
 ＠Ichigo,O04564
@@ -913,7 +913,7 @@ screen_flash	500
 その感触に背筋を震わせ、またも止まることを知らない下半身がドクンと脈打った。
 
 @SEH09
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ブピュッ！　ビュッ！　ビュクッ、ビュクッ！
 
 voice_bg	"O90007"
@@ -1107,7 +1107,7 @@ voice_bg	"O03966"
 俺は隆起した自身の肉棒の根元を掴むと、いちごの小さな秘裂へと押し当てた。
 
 @SEH31
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @t_ichigo_nakachinpo
 ＠Ichigo,O04585
 「はぁあああんっ！　パパのおちんちん、はいってきたよぉおおっ！」
@@ -1483,7 +1483,7 @@ voice_bg	"O03967"
 passspeed=200
 @set_motion_speed
 voice_bg	"O90002"
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ＠Ichigo,O04631
 「パパのおちんちんが、いちごのおまんこに入ってるよぉおっ！　はふっ、ふぁあ！」
 
@@ -1646,7 +1646,7 @@ passspeed=250
 「くっ…出る……ッ！」
 
 @t_ichigo_nakashasei1
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH08
 ビュルルルッ！　ヂュビュッ！　ビュクッ！　ビュクンッ！　ドプッ、ドプッ
 
@@ -1663,7 +1663,7 @@ screen_flash	500
 ＠Itsuki
 「うっ、まだ…」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH09
 ドクンッ！　ドクッ、ドクッ……ビュルルッ！
 

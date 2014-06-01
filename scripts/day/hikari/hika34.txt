@@ -155,7 +155,7 @@ wait		1000
 #SE05　物にぶつかる音（ガンッ！）
 #@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
 se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 そして、やっぱり最後は物にぶつかっていた。
 
@@ -1318,7 +1318,7 @@ se_stop		0
 #EF　白フラッシュ
 #SE94　銃声
 @SE94			#SE94　銃声
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #screen_vibration	500,16,16,16
 
 ＠Itsuki

@@ -1545,7 +1545,7 @@ voice_bg	"S00557"
 　Smiling fondly at my words, she sinks down with her waist onto me so her prize won't escape!
 
 #//フラッシュ
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\ev_siz_030-02.png"
 
 voice_bg_stop
@@ -2373,7 +2373,7 @@ se_stop		1
 #図った直後のタイミングで、雫さんが同じように絶頂に身体を強張らせた。
 　As intended, next thing Shizuku's body tensed up in orgasm like me.
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\ev_siz_040-06.png"
 
 ＠Shizuku,S00626
@@ -2388,7 +2388,7 @@ event	"event\ev_siz_040-06.png"
 #一度満たした膣路が、再び熱く白濁で満たされていく。
 　Her vagina, satisfied once so far, is satisfied again by the cloudy liquid.
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\ev_siz_040-07.png"
 
 #「はあぁッ、んく！　んふぅ……また、奥までいっぱい溢れさせたね……」

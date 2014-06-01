@@ -2121,7 +2121,7 @@ voice_bg		"Q90002"
 voice_bg_stop
 #■BG（自室）
 @bg_itsuki
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ヂュビュゥッ！　ドクドクッ、ドクンッ……ドビュゥッ！
 
@@ -2144,14 +2144,14 @@ screen_flash		500
 ……注がれて無かった。
 
 #EF　白フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ドクンッ、ドクドクッ…！　ドビュッ、ヂュビュゥッ…！
 
 ＠Mikan,A01623
 「……っ！？」
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 しかも追い討ちをかけるように、二度三度と溢れる精液がみかんへと放たれる。
 

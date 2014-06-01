@@ -362,7 +362,7 @@ window_close
 「えいッ！」
 
 #EF　白フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 グシャアッ！！
 
@@ -429,7 +429,7 @@ wait		1000
 まな板に置いた人参に、包丁の刃をグッと押し込んだ。
 
 #EF　白フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ベキッ！　ゴトンッ……！
 

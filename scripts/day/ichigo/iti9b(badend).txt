@@ -310,7 +310,7 @@ event		"event\EV_ICH_080-02.png"
 #SE80　人を刺す音（グシュッ！）
 layer_scale	0,500,10,10,20,20,passtype_tcb
 wait		400
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 screen_vibration	500,16,16,16
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
 @bg_red			# 赤
@@ -329,7 +329,7 @@ screen_vibration	500,16,16,16
 
 #SE80　人を刺す音（グシュッ！）
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #screen_vibration	500,16,16,16
 
 #→包丁が引き抜かれ、オレは身体中が冷たくなっていくのを感じながら、いちごを見つめた。

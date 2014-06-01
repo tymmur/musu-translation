@@ -382,7 +382,7 @@ voice_bg_stop
 #噴き上げ吐き出される精液が、みかんを白く染めていく。
 　The semen that erupts and is spouted into the air colours Mikan white.
 
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release		l_insert
 layer_load 		l_leg+1,"event\ev_mik_050\ev_mik_050_insert01_soto02l.png"
 layer_reference_set	l_leg+1,l_leg		# 頭のレイヤーに連結
@@ -748,7 +748,7 @@ passspeed=300
 「Mikan... It's coming out...!!」
 
 #//フラッシュ
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_insert01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -780,7 +780,7 @@ voice_bg_stop
 ＠Mikan,A02474
 「ふぇぇぇぇ…、I-I'm fine... I-It's just, it still hurts a little so it wasn't so easy... Onii-chan」
 
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_insert01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
@@ -1017,7 +1017,7 @@ passspeed=300
 #//フラッシュ
 
 #//フラッシュ
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_insert01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -1047,7 +1047,7 @@ voice_bg_stop
 ＠Itsuki
 「抜くぞ、みかん」
 
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_insert01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
@@ -1256,7 +1256,7 @@ passspeed=300
 #//フラッシュ
 
 #//フラッシュ
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_insert01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -1291,7 +1291,7 @@ voice_bg_stop
 #【05】
 ずるりと肉棒を引き抜く。
 
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_insert01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結

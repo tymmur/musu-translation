@@ -1185,7 +1185,7 @@ bgm_stop
 
 #EF　白フラッシュ
 #SE50　風を切る音（ヒュンッ）
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 

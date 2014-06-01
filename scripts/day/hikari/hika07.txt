@@ -269,7 +269,7 @@ window_close
 #SE05　物にぶつかる音（ガンッ！）
 #@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
 se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
 ＠Hikari,N00317

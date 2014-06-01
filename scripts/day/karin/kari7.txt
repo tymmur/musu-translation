@@ -1388,7 +1388,7 @@ event		"event\EV_KAR_121-03.png"
 「えッ……！？　やッ！　やだッ、ちょっとッ……！！」
 
 #EF　白フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #■HCG（差分・アナルに精液を流し込む。
 #--------------------------------------------------
 event		"event\EV_KAR_121-04.png"
@@ -1464,7 +1464,7 @@ event		"event\EV_KAR_121-05.png"
 
 #■HCG（差分・さらに二人が精液をかける。一人は顔、一人は背中。お尻は継続して）
 #--------------------------------------------------
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 event		"event\EV_KAR_121-06.png"
 #--------------------------------------------------
 
@@ -1946,10 +1946,10 @@ event		"event\EV_KAR_121-10.png"
 「あぐぅッ！！　んぁああぁぁああぁーーーッッ！！！」
 
 #EF　フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #■HCG（かりん・絶頂＋男二人の射精）
 #--------------------------------------------------
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 event		"event\EV_KAR_121-11.png"
 voice_bg		"P90003"
 #--------------------------------------------------
@@ -1961,7 +1961,7 @@ voice_bg		"P90003"
 ＠Karin,P01112
 「んはぁぁあぁあッ！！　あぁぁッ、あはぁあぁぁッ……！」
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ビュビュルゥッ！　ドピュビュッ……ドビュルッ、ドクンッ！　ドクンッ！
 
@@ -1970,7 +1970,7 @@ screen_flash		500
 
 ベットリと汚れている肌の上に、射精直後の熱い白濁が塗り被さっていく。
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ブビュルゥッ……ドクドクッ、ドクンッ…ドクンッ……ドクンッ…
 
@@ -2185,7 +2185,7 @@ scene_end
 #SE80　人を刺す音（グシュッ！）
 #EF　フラッシュ
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @bg_kekkon		# 血痕
 
 ＠使用人の男２
@@ -2236,7 +2236,7 @@ screen_blackin		1
 #SE80　人を刺す音（グシュッ！）
 #EF　フラッシュ
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ＠使用人の男１
 「ぐぶぅッ！」
@@ -2278,7 +2278,7 @@ screen_blackin		1
 #SE80　人を刺す音（グシュッ！）
 #EF　フラッシュ
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @bg_kekkon		# 血痕
 bgm_stop
 
@@ -2424,7 +2424,7 @@ se_stop		0
 ここまで来て手を拱けない……それしかないなら、ぶつかるまでだ！
 
 #EF　フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @SE35			#ティーカップを置く音（カチャ）
 
 ＠Itsuki

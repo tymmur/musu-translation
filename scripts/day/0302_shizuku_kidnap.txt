@@ -534,7 +534,7 @@ voice_bg	"s00411"
 「ちゅぶぅッ！　くぶぅぅぅううんんんッッッ！！！」
 
 #■HCG（射精差分・精液汚れ）
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 event	"event\EV_SIZ_020-01.png"
 
 #//フラッシュ
@@ -558,7 +558,7 @@ event	"event\EV_SIZ_020-01.png"
 #画面外の男たちは気配だけをチラつかせながら、雫さんのあらゆる箇所へ欲望を吐き出していく。
 　The men off-screen let out the product of their lust all over Shizuku.
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ＠Shizuku,S00423
 「ふぶぅぅッ、んッ！　んくぅぅ……ッ、ちゅりゅ、んぐふぅッ！」

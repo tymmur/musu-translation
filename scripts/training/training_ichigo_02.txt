@@ -212,7 +212,7 @@ event	"event\ev_ich_060-01.png"
 #やがて、ブツッ―――と膜を破る感触がして、怒張が深くめり込まされた。
 　Finally, with a violent heave I feel it tear through her hymen and my erection sinks in deeply.
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 screen_vibration	500,16,16,16
 event	"event\ev_ich_060-02.png"
 voice_bg		"O90001"
@@ -472,7 +472,7 @@ wait	7000
 voice_bg_stop
 se_stop	1
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 voice	"O00263"
 
 #ヂュビュルゥッ！　ビュルルッ、ドビュゥゥッ！　ドクンッ！　ドククッ！
@@ -483,7 +483,7 @@ voice	"O00263"
 #秘部の最奥で絶頂した肉茎が、爆ぜたように白濁をいちごの中へ注ぎこんだ。
 　My penis climaxes deep inside her pussy, bursting with the cloudy liquid and pouring it inside Ichigo.
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 #ビュルルッ！　ドクドクッ…ドクンッ！　ドビュゥッ…ドクッ、ドクッ！
 　*byururu*! *doku doku*... *dokun*! *dobyuu*... *doku*, *doku*!
 
@@ -501,7 +501,7 @@ screen_flash	500
 ＠Ichigo,O00265
 「はあぁぁっ、んくんッ…! Your penis is throbbing while letting out semen...」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\ev_ich_060-03.png"
 
 #ドクッ、ドクンッ……ドクドクッ、ドクッ…ドクンッ…

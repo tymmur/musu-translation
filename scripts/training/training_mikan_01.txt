@@ -1517,7 +1517,7 @@ screen_vibration	500,16,16,16
 #■HCG（射精差分）
 
 #EF　白フラッシュ
-screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 event	"event\EV_MIK_020-05.png"
 voice_bg_stop
 se_stop		1
@@ -1534,7 +1534,7 @@ wait	1000
 　She's surprised at the ejaculation and though Mikan, pulling her body back, is pitiful I hold her down and continue shooting it all inside.
 
 #EF　白フラッシュ
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 #ズビュゥッ、ビュルルッ！　ビュクゥッ…ドクッ、ドクドクドクッ！
 　*zubuu, bururu!* *buku*... *doku, doku doku doku*!
@@ -1547,7 +1547,7 @@ screen_flash	500
 「あぁふぅうッ! はぁあッ...... Your ochinchin is ejaculating lots inside Mikan......!」
 
 #EF　白フラッシュ
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 #ドビュゥッ…ドクンッ……ドプッ、ドプドプッ…ドクンッ……ドクンッ…
 　*dobuu*... *dokun*...... *dobu, dobu dobu*... *dokun*...... *dokun*...

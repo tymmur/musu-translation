@@ -73,7 +73,7 @@ date_open
 #//フラッシュ
 @bgm03
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @ichigo_large
 #@ichigo_yorokobi
 layer_load	l_ichigo,"chara\いちご\大\私服\喜.png"
@@ -1952,19 +1952,19 @@ event	"event\EV_SUI_020-02.png"
 　The sensuality caused by Suika's movement together with arousal from the violation welled up, and my ejaculation arose!
 
 #//フラッシュ
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\EV_SUI_020-03.png"
 voice_bg_stop
 
 #ジュビュゥッ！　ドビュルッ、ビュグゥッ！　ドクッ、ドクドクッ！　ドクンッ！
 　*jubuu!* *doburu, buguu!* *doku, doku doku!* *dokun!*
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 ＠Suika,R00095
 「んんふぁぁああッッ！！　はぁふぅ……んっ、んんくぅ……！」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 #吐き出された大量の白濁が小さな口内を熱く埋め尽くす。
 　A large amount of hot white cloudiness was spit out and filled up her little mouth until there was no room left.

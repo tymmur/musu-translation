@@ -1235,7 +1235,7 @@ voice_bg	"Q90003"
 
 #--------------------------------------------------
 #■（差分・口内射精）※フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 event		"event\EV_ZAK_060-03.png"
 #--------------------------------------------------
 
@@ -1246,14 +1246,14 @@ event		"event\EV_ZAK_060-03.png"
 
 衝動が抑え切れなくなった刹那、オレはZakuroの喉の奥へ怒張を突き入れて射精する。
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ビュビュルッ...ドクドクッ! ドクンッ! ヂュビュゥッ...ヂュビュビュッ!
 
 ＠Zakuro,Q00695
 「ぐぢゅむぅッ! んぅッ......んぅぶふッ! ぢゅふぅッ、んぢゅるるッ!」
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ドクドクッ...ビュビュゥッ......ドクンッ...ドクッ、ドクンッ......
 
@@ -1940,7 +1940,7 @@ voice_bg	"Q90007"
 #--------------------------------------------------
 #EF　フラッシュ
 #■HCG（差分・中出し）
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #event		"event\EV_ZAK_070-05.png"
 window_close
 layer_movie_load	0,"movie\EV_ZAK_070_05.mpg",play_once
@@ -1959,7 +1959,7 @@ voice_bg_stop
 ＠Zakuro,Q00804
 「はぁぁッ、んぅ! つっちーの精液、一番奥でぇ......赤ちゃんが出来るっ...」
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ドクドクンッ...ドビュッ、ビュビュルゥッ! ドクッ、ドクッ!
 
@@ -1974,7 +1974,7 @@ screen_flash		500
 ＠Zakuro,Q00807
 「...二度目なのに、おチンポからこんなに出るなんて......んん! あはぁぅッ」
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ドクドクッ......ドクン! ドクンッ...ドクッ、ドクッ......!
 

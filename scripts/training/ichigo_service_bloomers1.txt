@@ -592,7 +592,7 @@ screen_vibration	500,16,16,16
 #//フラッシュ？
 voice_bg_stop
 se_stop	1
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\ev_ich_170-03.png"
 
 ＠Ichigo,O03288
@@ -606,7 +606,7 @@ event	"event\ev_ich_170-03.png"
 
 肉門がうねり締め付けると、太幹は収縮を繰り返し、秘裂の奥へと濁液を注ぎ込む。
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ビュクッ！　どくどくっ！　びゅるるるるるぅっ！
 

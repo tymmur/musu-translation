@@ -529,13 +529,13 @@ wait		100
 #EF　白フラッシュ
 #SE94　銃声
 @SE94			#SE94　銃声
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 wait		1000
 
 #SE94　銃声
 @SE94			#SE94　銃声
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 本物の火薬の音が白煙と共に響く。
 
@@ -556,7 +556,7 @@ se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 #SE95　人を殴る音　※リアル
 #EF　白フラッシュ
 @SE95			#SE95　人を殴る音　※リアル
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
 銃弾の軌跡から最小限に身をかわし、一直線に迫った勢いで男の急所を打ち抜く。
@@ -586,18 +586,18 @@ wait		250
 #EF　白フラッシュ
 #SE94　銃声
 @SE94			#SE94　銃声
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 wait		1000
 
 #SE94　銃声
 @SE94			#SE94　銃声
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 至近距離で銃声が響く。
 
 @SE95			#SE95　人を殴る音　※リアル
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
 ＠Miu,B02433
@@ -662,7 +662,7 @@ layer_movepass_play	l_miu,0,play_once
 #EF　白フラッシュ
 #SE94　銃声
 @SE94			#SE94　銃声
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @miu_ikari		#閉_怒
 #///////////////////////////////////////////////////////
 #演：ふるえ
@@ -797,7 +797,7 @@ bgm_stop
 #EF　白フラッシュ
 #SE95　人を殴る音　※リアル
 @SE95			#SE95　人を殴る音　※リアル
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ＠男３,V28083
 「んぶッ！！」

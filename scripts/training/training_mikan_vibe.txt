@@ -166,7 +166,7 @@ mousecursor_reset
 layer_load_overlap	l_insert,"event\ev_mik_050\EV_MIK_050_vive01.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 ジュムッ……ジュプッ……。
 
@@ -340,7 +340,7 @@ layer_load_overlap	l_insert,"event\ev_mik_050\EV_MIK_050_vive01.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
 voice_bg	"A90011"
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 クチュッ………ヂュッ、ヂュムッ……ヂュブルルルッ……。
 
@@ -450,7 +450,7 @@ passspeed=200
 se_stop	1
 se_stop	2
 voice_bg_stop
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @effect_iku
 @mikan_motion_pain1
 ＠Mikan,A03408
@@ -462,7 +462,7 @@ screen_flash	500
 @mikan_motion_normal1
 ズニュルルルルッ！！！
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @mikan_motion_normal1
 ＠Mikan,A03409
 「……く、は、ぁ……………っ！！」
@@ -659,7 +659,7 @@ mousecursor_reset
 layer_load_overlap	l_insert,"event\ev_mik_050\EV_MIK_050_vive01.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 
 ズブ、ズブッ！ズニュルルルッ！！
@@ -695,7 +695,7 @@ voice_bg	"A90012"
 ＠Itsuki
 「よし、よく言えました。……これはご褒美だ、みかん」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 voice_bg	"A90021"
 se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
 @mikan_motion_normal1
@@ -726,7 +726,7 @@ se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
 オレはバイブの柄を握るとみかんの膣から抜き差しを始める。
 
 @mikan_motion_insert1
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH24
 ズチュブッ！ズチュブッ！ズチュブッ！
 
@@ -738,7 +738,7 @@ screen_flash	500
 ＠Itsuki
 「ここはどうだ、みかん？　ん？」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH27
 @mikan_motion_pain1
 最奥に突き入れ、ぐりぐりと押しつけた途端、悲鳴のようなみかんの声が上がる。
@@ -750,7 +750,7 @@ SE_STOP	1
 ＠Itsuki
 「ご要望の多いお嬢さんだな、みかんは。じゃあココはどうだ」
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH28
 passspeed=200
 @set_motion_speed
@@ -781,7 +781,7 @@ voice_bg	"A90010"
 
 @SEH22
 voice_bg	"A90012"
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ＠Mikan,A03447
 「はぁっ…………あくっ、ふ……」
 
@@ -803,7 +803,7 @@ passspeed=200
 
 オレはそれを後押しするように、バイブのスイッチを入れてやる。
 
-screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 voice_bg	"A90022"
 se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
 ＠Mikan,A03450
@@ -826,7 +826,7 @@ se 2,"sound\se\SEH04_バイブ（低い）.wav",play_loop
 voice_bg_stop
 se_stop	1
 se_stop	2
-screen_flash	800
+if disable_screen_flash=0 then screen_flash	800
 @effect_iku
 @mikan_motion_pain1
 passspeed=100

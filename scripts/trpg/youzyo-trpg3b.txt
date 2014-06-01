@@ -148,7 +148,7 @@ bgm_stop
 「うるさいわねッ、一人で熱く過ごしてなさいっ！」
 
 #EF　赤フラッシュ
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 #SE54　火球音
 @se54
@@ -301,7 +301,7 @@ layer_move	l_trpg_monster,1000,-320,0,0,0,PASSTYPE_BEZIER_A
 「コノ恨ミタップリ晴ラシテヤルッ！！」
 
 #EF　白フラッシュ
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 #SE122　何かが弾け飛び出る音？（バシュッ！シュルルル！）
 @se122
@@ -329,7 +329,7 @@ screen_flash	1000
 「なッ、しまッ……！？」
 
 #EF　白フラッシュ
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 @bg_black
 
 #SE100　服を破る（ビリビリッ！）
@@ -548,7 +548,7 @@ event	"event\EV_ETC_030-00.png"
 @se100
 
 #EF　白フラッシュ
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 event	"event\EV_ETC_030-01.png"
 
 ＠Karin,P02930
@@ -841,7 +841,7 @@ event	"event\EV_ETC_030-03.png"
 ＠Karin,P02986
 「えぼおおぉおおおぉッ！？　あひいぃいいッ！　あひいぃいいッ！！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ズヂュヂュゥッ！！　ビュルルッ、ヂュグゥッ！　ビュビュルッ！
 
@@ -852,14 +852,14 @@ screen_flash	1000
 
 二度三度と脈動し、それでもまだ衰えない量が触手の中から吐き出され続ける。
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ドビュウッ！！　ドクドクッ、グビュゥッ！　ドビュルッ、ドクンッ！　ドクドクッ！
 
 ＠Karin,P02988
 「はぐうぅうッ！！　うへぇええッ！　ま、まだ出るのぉッ…もう止めてぇえッ！！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ズヂュゥッ！　ビュルルッ！　ドクンッ、ドクドクッ！　ドビュゥッ！
 
@@ -871,7 +871,7 @@ screen_flash	1000
 
 人ではありえない量の射精をされて、かりんのお腹はまるで孕んでいるように膨れていく。
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ビュルルッ…ドクンッ！　ドクッ…ドクンッ！　ドクッ…ドクドクッ…！
 
@@ -1322,14 +1322,14 @@ event	"event\EV_ETC_030-05.png"
 @effect_iku
 event	"event\EV_ETC_030-06.png"
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ビュバアアァッ！　グビュルルッ！　ドビュゥッ！　ドクンッ！　ドクドクッ！
 
 ＠Karin,P03077
 「おごおおおおおぅッ！？　えおぉッ！　おおがぁッ……あぁおおッ！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ヂュブビュゥッ！　ビュヂュウッ、ドビュルッ！　グビュウゥッ！　グブブッ！
 
@@ -1343,7 +1343,7 @@ screen_flash	1000
 ＠Karin,P03079
 「えぐッ！！　えごおッ！　おぉおッ、お腹があぁッ……もう入らなひからあぁッ！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 グビュゥッ！　ビュグルッ！　ドピュウッ、ドピュブッ！　ドクドクドクッ！
 
@@ -1357,7 +1357,7 @@ screen_flash	1000
 ＠Karin,P03081
 「んぐううぅッ！　あはあぁッ！　はああぁッ、まだ出るのおぉッ……無理ひいぃッ、あああぁッ…！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ズビュルッ！　ビュルルゥッ！　ドビュウゥッ…ドクンッ、ドクンッ…ドクンッ…！
 
@@ -1749,7 +1749,7 @@ event	"event\EV_ETC_030-10.png"
 ＠Karin,P03154
 「ぐぶっべえええええええええぇッ！！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ヂュブウゥッ！　ドブドブッ、ドクンッ！　ビュヂュブッ！　ドビュルゥッ！
 
@@ -1763,7 +1763,7 @@ screen_flash	1000
 ＠Karin,P03156
 「えげええええええぇッ！？　げぶッ、げぶううぅッ！！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ヂュビュウウッ！　ドピュルゥッ、グビュッ、ドクンッ！　ドクドクドクッ！
 
@@ -1782,7 +1782,7 @@ screen_flash	1000
 ＠Karin,P03159
 「（…もう入らないぃッ……内臓がグチャグチャになるッ、止めてぇッ……！）」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 グビュブゥッ！　ドビュビュッ、ドビュゥッ！　ヂュブブッ！　ヂュビュゥッ！　ビュルルッ！
 
@@ -1793,7 +1793,7 @@ screen_flash	1000
 
 口の中へ落ちてくる精液のドロリと苦い味も、吐き出す事すら出来ずに広がっていく。
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ドクドクッ！　ドクンッ！　ドピュブッ、ドクンッ…！
 
@@ -1855,12 +1855,12 @@ event	"event\EV_ETC_030-11.png"
 ずっと切望して陵辱のフィナーレに、秘裂から一気に触手性器が抜き放たれた！
 
 #EF　白フラッシュ
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 #■HCG（差分・精液噴射）
 event	"event\EV_ETC_030-12.png"
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ドビュアアアァッ！　ドビュビュゥッ！　ビュヂュブッ、ヂュヴアァァッ！
 
@@ -1877,7 +1877,7 @@ screen_flash	1000
 ＠Karin,P03171
 「えがああああぁッ！　ひがああああああぁッ！！」
 
-screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ヂュババッ！　ビュヂュウウゥッ！　ドビュブッ、ビュバアァッ！
 

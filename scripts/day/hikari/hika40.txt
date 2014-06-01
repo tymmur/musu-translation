@@ -480,7 +480,7 @@ layer_movepass_play	l_hikari,0,play_once
 
 #EF　白フラッシュ
 #SE67　食事を噴き出す音（ブゥゥッ！！）
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @SE67			#食事を噴き出す音（ブゥゥッ！！）
 
 ＠Seiji,D00254

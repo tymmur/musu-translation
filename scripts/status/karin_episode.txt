@@ -384,7 +384,7 @@ wait		1000
 ＠Itsuki
 「ガン見しながら言うなッ………って、うわッ！？」
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ブンッ！と、まるで漫画のように洗面器が飛んでくる。
 
@@ -398,11 +398,11 @@ screen_flash		500
 「お風呂くらいゆっくり入らせないよーッ！！」
 
 window_close
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 wait		1000
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 wait		1000
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 シャンプーやら石鹸やら次々と飛んでくるのを、全て間一髪で避けていく。
 
@@ -1952,7 +1952,7 @@ wait	2000
 #SE37　金属衝突音（カキィンッ！）
 #EF　白フラッシュ
 window_close
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #@SE37			#SE37　金属衝突音（カキィンッ！）※剣で打ち合った感じ。擬音的な役割で汎用的に使
 se		0,	"sound\se\SE37_金属衝突音.WAV",play_wait
 
@@ -2473,7 +2473,7 @@ voice_bg_stop
 #■BG（自室）
 @chara_clear		#保険
 @bg_itsuki
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ヂュビュゥッ！　ドクドクッ、ドクンッ……ドビュゥッ！
 
@@ -2498,7 +2498,7 @@ screen_flash		500
 ……注がれて無かった。
 
 #EF　白フラッシュ
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 ドクンッ、ドクドクッ…！　ドビュッ、ヂュビュゥッ…！
 
@@ -2507,7 +2507,7 @@ screen_flash		500
 ＠Karin,P01920
 「ひあッ…！？」
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 しかも追い討ちをかけるように、二度三度と溢れる精液がかりんへと放たれる。
 

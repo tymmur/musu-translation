@@ -271,7 +271,7 @@ voice_bg		b90004
 　It's more soft and pretty than I ever imagined, and... It feels so indecently good.
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,-100,-100
 
@@ -280,7 +280,7 @@ layer_position	0,-100,-100
 「Kuh! Uuu, I’m cumming, Miu...!!」
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale		0,100,40,40,50,50,passtype_tcb
 layer_position_set	0,100,100
 
@@ -289,7 +289,7 @@ layer_position_set	0,100,100
 「んくふぅッ! はあっ, あぁう! Yes, go ahead, cum!」
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale		0,100,50,50,60,60,passtype_tcb
 layer_position_set	0,-100,-100
 
@@ -300,7 +300,7 @@ layer_position_set	0,-100,-100
 「Let it all out... んぅッ！　ひゃあふ！ Fill up my belly...!」 
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,60,60,70,70,passtype_tcb
 layer_position_set	0,100,100
 
@@ -345,7 +345,7 @@ layer_movepass_add	0,0,350,-4,-4
 layer_movepass_add	0,0,350,0,0
 layer_movepass_play	0,0,play_loop
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,100
 
@@ -446,7 +446,7 @@ layer_movepass_play	0,0,play_loop
 　Not pausing for a moment, Miu takes my dick in to her lovely lips.
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,-100,-100
 
@@ -473,7 +473,7 @@ voice_bg		b90007
 「ちゅぷうんっ……！　ぷちゅんっ、れるっ、ぴちゅ…れらるるる……！！　…くゅちゅちゅん、…くちゅっ！　ちゅゅば…っ、んぢゅっ、ぢゅぢゅるるんっ！！」
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,100
 
@@ -512,7 +512,7 @@ layer_position	0,100,100
 「むぐぅ…ッ！くぷぷうっ！　くちゅぱっ！　んちゅるぅ…っ、……るれぅ…！　くぷりっ……くちゅううん…！　ぷちゅんっ！！　ねぢゅぢゅぅぅうう！！」
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,-100,100
 
@@ -524,7 +524,7 @@ layer_position	0,-100,100
 　I shout without holding anything back.
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,-100
 
@@ -539,7 +539,7 @@ layer_position	0,100,-100
 　Her hot tongue entangling itself with my penis, she sucks on me hard.
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 #「ううぁ…！！　出る…ッ！」
 ＠Itsuki
@@ -572,7 +572,7 @@ layer_movepass_add	0,0,350,-4,-4
 layer_movepass_add	0,0,350,0,0
 layer_movepass_play	0,0,play_loop
 
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #ビュクッ！　ビュルル！！　ドク！　ドクドク！！
 　*spray*! *splatter*!! *gush*! *gush gush*!!
 
@@ -602,7 +602,7 @@ layer_movepass_add	0,0,350,0,0
 layer_movepass_play	0,0,play_loop
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 #「ふぁぁあぁぁあッ！！　ああ…ンッ！　出た…ッ！！　樹くんの精液がまた…ッ！！　美雨の顔に…、美雨の体に…、美雨の全部に降ってくるぅぅぅぅ…！！！」
 ＠Miu,B00037
@@ -619,7 +619,7 @@ screen_flash		500
 　In that state she slurps up my semen that I bestowed her as if she were tasting honey.
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,-100
 
@@ -651,7 +651,7 @@ scene_end
 window_close
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_position_set	0,0,0
 
 chara		1,"cg\text\text_07.png"
@@ -671,29 +671,29 @@ se_stop		0
 bgm_stop
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_load	1,"cg\text\text_11.png"
 wait	2500
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_load	1,"cg\text\text_12.png"
 wait	2000
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_load	1,"cg\text\text_13.png"
 wait	1000
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_load	1,"cg\text\text_14.png"
 wait	1000
 
 #EF（徐々にホワイトイン）
 
 se			1,"sound\se\zuba.wav",	play_once
-screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_release	0
 layer_release	1
 layer_release	2
@@ -709,7 +709,7 @@ label youzyo_02	##############################################################
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
-screen_flash		2000
+if disable_screen_flash=0 then screen_flash		2000
 
 #「ぐふぅぅッ！！？」
 ＠Itsuki
@@ -881,17 +881,17 @@ screen_vibration	500,8,32,32
 「...Get out」
 
 #圧し掛かられるのとは全く無関係に、男には抗えない生理現象があるんだ。
-　My bending over is truly unrelated.  There is no fighting the way the male body works.  (first part doesn’t sound quite right)
+　Having nothing to do with being ridden, men have unrestrainable physiological occurences.
 
 #「夢見も悪いし、朝は騒がしいし、最悪だもう」
 ＠Itsuki
-「Having that bad dream, and such a noisy morning.  Today is already the worst.」
+「First having that bad dream, and then all that fuss first thing in the morning. This is the worst」
 
 #夢は、おそらくこの施設へ戻ってきたことが原因だろう。
-　The dream… In all likelihood, this institution is heading back to its origin.  (needs reviewing)
+　The dream was probably brought on because of coming back to this institution.
 
 #まったく、一日目からこの調子じゃ、先が思いやられるだけだ。
-　Geez, it’s only the first day, and taking from this experience, I can already tell that this is going to be difficult.
+　Oh man, if it's like this from the very first day, this is going to be tough times.
 
 label youzyo_04	##############################################################
 #BGM切り替え
@@ -905,66 +905,63 @@ label youzyo_04	##############################################################
 
 #「あ、お兄ちゃん。おはよう」
 ＠Mikan,A00000
-「Ah, Onii-chan, morning.」
+「Ah, Onii-chan. Good morning」
 
 #「あぁ、おはよう。ざくろも」
 ＠Itsuki
-「Ah, morning.  Zakuro too.」 (maybe, "Ah, morning, Mikan, Zakuro.")
+「Morning Mikan. Hey Zakuro」 
 
 #「おはよう」
 ＠Zakuro,Q00000
-「Morning.」
+「Morning」
 
 #着替えを済ませて食堂へ赴く廊下で、この施設の二人の子と出会った。
-　After finishing changing, I make my way down a corridor toward the dining room.  Along the way, I run into two of the institution’s children.
+　Having finished changing, I met a couple of kids in the institution in the hallway on the way to the dining room.
 
 #明るい笑顔を元気に零して挨拶をするのはみかん。
-　*Mikan greets me with a bright smile and is full of energy.
-
-#With a bright smile and plenty of energy, Mikan greets me.
+　Mikan is the one who is smiling cheerfully and greeted me energetically.
 
 #そして抑揚も表情も希薄な子が、さっきいちごが言ったざくろだ。
-　And then, this weak child with the both the accent and unique facial expression… Ichigo spoke of Zakuro. (unsure)
+　And also this girl with soft intonation and expression, Zakuro who Ichigo mentioned earlier.
 
 #ざくろは……左手の包帯が意味深に痛々しい。
-　Zakuro……the meaning of the bandages on her left hand is pitiful.
+　The bandages on Zakuro's left hand... look a little disturbing.
 
 #気にはなるが、そこから想像できるものが危なげなだけに話題に上げられないのだ。
-　It makes me worried.  From there, cutting comes to mind, but there isn’t a safe way to bring up the topic.
+　It's on my mind, but the implications are kind of dicey so I'd rather not bring it up.
 
+#「………」
 ＠Zakuro,Q00001
-「………」
+「......」
 
 #「どうした？」
 ＠Itsuki
-「What?」
+「What's up?」
 
 #「……みかんが、樹をお兄ちゃんって呼んでる」
 ＠Zakuro,Q00002
-「……Mikan calls Itsuki, "Onii-chan."」
+「...Mikan is calling you "Onii-chan"」
 
 #「そこは流してよかったんだが………。どうせ、ずっとお兄ちゃんが欲しかったから、だろう？」
 ＠Itsuki
-「I’m glad that you asked.  Anyway, you want to keep calling me "Onii-chan," right?」 (first part unsure)
+「Everyone knows that by now... She probably always wanted an older brother after all right?」
 
 @mikan_odoroki
 
 #「わ。すごい！　どうして分かったの！？」
 ＠Mikan,A00001
-「Wa.  Yea!  Is it really ok!?」 (kinda guessing on last part)
+「Wah. Whoa! How did you know that!?」 
 
 #「ずっと義妹が欲しかったっていう樹の妄想と合致したから？」
 ＠Zakuro,Q00003
-*「"I’ve always wanted a little sister." Is that a part of Itsuki’s wildest dreams?」
-
-#「“I’ve always wanted a little sister.”  Is it because this agrees with Itsuki’s wildest ideas?」
+「Are you sure it's not because it matches up with your fantasies of having a little sister?」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
 #「変な妄想癖を偽装するな！　今朝もいちごに同じ理由から〝パパ〟って呼ばれたばかりだからだよッ」
 ＠Itsuki
-「You’re making up strange fantasies!  This morning as well, Ichigo just called me "Papa," for the same reason.」 (unsure about last part)
+「Don't make me out as having weird fantasies! This morning Ichigo called me "Papa" too for the same reason」
 
 #いちごを含めこの子達は身寄りがない。
 #当然昨日ここへ来た時が初対面で、血の繋がりどころか面識すらなかった。
@@ -2351,7 +2348,7 @@ layer_movie_speed_set	0,220
 voice_bg_stop
 layer_movie_load	0,"movie\EV_ZAK_010-03.mpg",play_once
 screen_transition	1000
-screen_flash		1000
+if disable_screen_flash=0 then screen_flash		1000
 wait			2000
 
 ビュルルッ！　ブビュゥッ！　ビュビュッ、ヂュブッ、ドクドクドクッ！
@@ -2381,7 +2378,7 @@ wait			2000
 ドクドクッ！　ビュクンッ……ドクッ、ドクッ……
 
 #■ＣＧ射精後
-screen_flash		2000
+if disable_screen_flash=0 then screen_flash		2000
 event			"event\EV_ZAK_010-04.png"
 
 #やがて溢れる精液が、人形のように整った顔を無残なまでに穢していった。
