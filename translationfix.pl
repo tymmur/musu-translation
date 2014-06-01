@@ -1153,6 +1153,12 @@ sub handleFile
 			}
 		}
 		
+		if (substr($japanese[$japanese_index], 0, 12) eq "screen_flash" and index($line, "screen_flash") != -1)
+		{
+			push(@output, "if disable_screen_flash=0 then " . $japanese[$japanese_index]);
+			next;
+		}
+		
 		if ($line ne $japanese[$japanese_index])
 		{
 			print "mismatched lines in " . $file . "\n";

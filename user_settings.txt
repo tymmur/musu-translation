@@ -1,0 +1,19 @@
+# This file contains the setup of optional features included in the translation.
+# options are enabled and disabled by assigning numbers
+# 0 = disabled
+# 1 = enabled
+# setting a disable feature to 1 will enable the disable condition.
+# This mean setting disable_screen_flash to 1 will remove the flashes while
+# setting it to 0 will make the game flash
+
+# the default values for all settings are 0.
+# The default conditions are the ones closest to the original game.
+
+
+# disable white flashing screens.
+# They are best known for climax at H scenes, though they can also be used elsewhere.
+# This will only disable the common way the game script makes the screen flash.
+# Nobody knows if it flashes elsewhere using different script commands.
+# Do not read this as "flash free game" if you have a medical reason to avoid flashes.
+# 
+disable_screen_flash=0
