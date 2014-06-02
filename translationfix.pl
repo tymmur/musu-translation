@@ -22,6 +22,11 @@ my $split_lines = 0;
 my $NUM_LINES = 4;
 my $NUM_CHARS = 37;
 
+# debug options
+# make the game print whenever it passes a new label
+
+my $add_label_text = 0;
+
 # end of setup
 
 # set end of line to always print CLRF
@@ -110,6 +115,33 @@ sub removeLeadingWhitespace
 	
 	return $line;
 }
+
+sub removeTrailingWhitespace
+{
+	my ($line) = @_;
+	
+	$line = removeLeadingWhitespace($line);
+	
+	if (index ($line, " ") != -1)
+	{
+		$line = substr($line, 0, index($line, " "));
+	}
+	if (index ($line, "	") != -1)
+	{
+		$line = substr($line, 0, index($line, "	"));
+	}
+	if (index ($line, $empty) != -1)
+	{
+		$line = substr($line, 0, index($line, $empty));
+	}
+	if (index ($line, ";") != -1)
+	{
+		$line = substr($line, 0, index($line, ";"));
+	}
+	
+	return $line;
+}
+
 
 # setup table to convert to wide characters
 
@@ -1169,6 +1201,15 @@ sub handleFile
 		}
 		
 		push(@output, $line);
+		
+		if ($add_label_text == 1 and substr($line, 0, 5) eq "label")
+		{
+			my $label_string = "label " . removeTrailingWhitespace(substr($line, 5));
+			$label_string = toWideChar($label_string);
+			push(@output, "");
+			push(@output, $label_string);
+			push(@output, "");
+		}
 	}
 	
 	if (isFileModified(@output) == 1)
