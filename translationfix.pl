@@ -11,6 +11,8 @@ my $to_short_char = 0;
 
 my $allow_new_dialogue = 0;
 
+my $count_kana_lines = 0;
+
 my $max_lines_in_translation = 1;
 
 # WARNING: this action can't be reverted
@@ -86,7 +88,7 @@ push(@common_route_files, "day/summer_festival.txt");
 push(@common_route_files, "day/school_day3.txt");
 push(@common_route_files, "day/yuzu7.txt");
 
-
+my $count_this_line = $count_kana_lines;
 
 # set end of line to always print CLRF
 my $CLRF = "\r\n";
@@ -528,6 +530,25 @@ sub isFileModified
 	return 0;
 }
 
+sub checkLineForKanji
+{
+	my ($line) = @_;
+	return if $count_this_line == 1;
+	
+	while (length $line > 0)
+	{
+		my $value = ord(substr($line, 0, 1));
+		if ($value > 0x84)
+		{
+			$count_this_line = 1;
+			return;
+		}
+		my $length = 1;
+		$length = 2 if $value >= 0x80;
+		$line = substr($line, $length);
+	}
+}
+
 sub getJapaneseLines
 {
 	my($use_extra_dialogue) = @_;
@@ -546,19 +567,22 @@ sub getJapaneseLines
 	
 	$byte_count_block = 0;
 	
+	$count_this_line = $count_kana_lines;
+	
 	while ($i < $max and getType($japanese[$i]) eq "KANJI")
 	{
 		my $line = $japanese[$i];
 		$byte_count_block += length($line);
 		push(@array, $line);
 		$i++;
+		checkLineForKanji($line);
 	}
 	
 	if ($use_extra_dialogue == 1)
 	{
 		$byte_count_block = 0;
 	}
-	else
+	elsif ($count_this_line == 1)
 	{
 		$byte_count += $byte_count_block;
 	}
@@ -860,8 +884,6 @@ sub handleScreenLines
 	
 	my $speaker = "";
 	
-	$line_count++;
-	
 	my $type = getType($input[0]);
 	
 	if ($type eq "SPEAKER" or $type eq "COMMAND")
@@ -941,6 +963,8 @@ sub handleScreenLines
 		$lines[0] = $empty . $lines[0];
 	}
 	
+	$line_count++ if ($count_this_line == 1);
+	
 	if ($has_translation == 1)
 	{
 		if ($max_lines_in_translation < $translated_lines)
@@ -953,8 +977,11 @@ sub handleScreenLines
 			die_local;
 		}
 	
-		$translated_line_count++;
-		$translated_byte_count += $byte_count_block;
+		if ($count_this_line == 1)
+		{
+			$translated_line_count++;
+			$translated_byte_count += $byte_count_block;
+		}
 		
 		if ($split_lines)
 		{
