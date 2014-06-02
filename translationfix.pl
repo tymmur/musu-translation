@@ -29,6 +29,65 @@ my $add_label_text = 0;
 
 # end of setup
 
+my @common_route_files;
+
+push(@common_route_files, "prologue/youzyo.txt");
+push(@common_route_files, "prologue/youzyo2.txt");
+push(@common_route_files, "prologue/youzyo3.txt");
+push(@common_route_files, "prologue/youzyoG.txt");
+push(@common_route_files, "schedule/setsumei.txt");
+push(@common_route_files, "day/suika1.txt");
+push(@common_route_files, "training/training_in.txt");
+push(@common_route_files, "training/training_mikan_01.txt");
+push(@common_route_files, "day/0121_mikan_virginity_lose_day_after.txt");
+push(@common_route_files, "day/miu1.txt");
+push(@common_route_files, "day/seiji1.txt");
+push(@common_route_files, "day/zakuro1.txt");
+push(@common_route_files, "day/seiji2.txt");
+push(@common_route_files, "day/suika2.txt");
+push(@common_route_files, "day/seiji3.txt");
+push(@common_route_files, "day/erocute.txt");
+push(@common_route_files, "day/0302_shizuku_kidnap.txt");
+push(@common_route_files, "day/0303_shizuku_kidnap_day_after.txt");
+push(@common_route_files, "day/suika3.txt");
+push(@common_route_files, "day/seiji4.txt");
+push(@common_route_files, "day/zakuro2.txt");
+push(@common_route_files, "day/0325_shizuku_return.txt");
+push(@common_route_files, "day/closing_ceremony1.txt");
+push(@common_route_files, "day/new_school_term1.txt");
+push(@common_route_files, "day/yuzu1.txt");
+push(@common_route_files, "day/yuzu2.txt");
+push(@common_route_files, "day/zakuro3.txt");
+push(@common_route_files, "day/seiji5.txt");
+push(@common_route_files, "day/miu2.txt");
+push(@common_route_files, "day/golden_week1.txt");
+push(@common_route_files, "day/golden_week2.txt");
+push(@common_route_files, "day/yuzu3.txt");
+push(@common_route_files, "day/mothers_day.txt");
+push(@common_route_files, "day/suika4.txt");
+push(@common_route_files, "day/miu3.txt");
+push(@common_route_files, "day/zakuro4.txt");
+push(@common_route_files, "day/seiji6.txt");
+push(@common_route_files, "day/yuzu4.txt");
+push(@common_route_files, "day/zakuro5.txt");
+push(@common_route_files, "day/tanabata.txt");
+push(@common_route_files, "day/yuzu5.txt");
+push(@common_route_files, "day/zakuro6.txt");
+push(@common_route_files, "day/zakuro7.txt");
+push(@common_route_files, "day/closing_ceremony2.txt");
+push(@common_route_files, "day/radio_exercise.txt");
+push(@common_route_files, "day/school_day1.txt");
+push(@common_route_files, "day/yuzu6.txt");
+push(@common_route_files, "day/zakuro8.txt");
+push(@common_route_files, "day/school_day2.txt");
+push(@common_route_files, "day/pool_everyone.txt");
+push(@common_route_files, "day/game_seal_(suika).txt");
+push(@common_route_files, "day/summer_festival.txt");
+push(@common_route_files, "day/school_day3.txt");
+push(@common_route_files, "day/yuzu7.txt");
+
+
+
 # set end of line to always print CLRF
 my $CLRF = "\r\n";
 
@@ -1231,9 +1290,15 @@ sub handleFile
 	}
 }
 
+my %file_status_hash;
+
 sub makeStatusLine
 {
-	my ($file, $translated, $total, $byte_translated, $byte_total) = @_;
+	my ($filename, $translated, $total, $byte_translated, $byte_total, $is_file) = @_;
+
+	my $file = $filename;
+
+	my @file_array;
 	
 	my $percentage = 10000;
 	
@@ -1245,6 +1310,10 @@ sub makeStatusLine
 	
 	$file = $file . "\t\t" . $percentage . "\t" . $translated . "\t" . $total . "\t\t";
 	
+	push(@file_array, $percentage);
+	push(@file_array, $translated);
+	push(@file_array, $total);
+	
 	$percentage = 10000;
 	if ($byte_total > 0)
 	{
@@ -1254,9 +1323,57 @@ sub makeStatusLine
 	
 	$file = $file . $percentage . "\t" . $byte_translated . "\t" . $byte_total;
 	
+	push(@file_array, $byte_translated);
+	push(@file_array, $byte_total);
+	
+	$file_status_hash{$filename} = [@file_array];
+	
 	return $file . $CLRF;
 }
 
+sub getCommonRouteStatus
+{
+	my @total = (0, 0, 0, 0, 0);
+	my @top   = (@total);
+	
+	my $in_translated = 1;
+	
+	my @output;
+	
+	foreach my $file (@common_route_files)
+	{
+		if ($in_translated == 1 and $file_status_hash{$file}[0] == 0)
+		{
+			$in_translated = 0;
+			@top = (@total);
+			push(@output, "First untranslated file: " . $file . $CLRF);
+		}
+	
+		for (my $i=1; $i < 5; $i++)
+		{
+			$total[$i] += $file_status_hash{$file}[$i];
+		}
+	}
+	
+	
+	
+	if ($top[1] > 0)
+	{
+		push(@output, makeStatusLine("translated common route", $top[1], $top[2], $top[3], $top[4], 0));
+		push(@output, makeStatusLine("top vs total common route", $top[1], $total[2], $top[3], $total[4], 0));
+	}
+	
+	push(@output, makeStatusLine("translated total common route", $total[1], $total[2], $total[3], $total[4], 0));
+	
+	push(@output, "Common route files:" . $CLRF);
+	foreach my $file (@common_route_files)
+	{
+		push(@output, makeStatusLine($file, $file_status_hash{$file}[1], $file_status_hash{$file}[2], $file_status_hash{$file}[3], $file_status_hash{$file}[4], 0));
+	}
+	push(@output, $CLRF. $CLRF);
+	
+	return @output;
+}
 
 
 sub loadFromScriptsInc
@@ -1295,7 +1412,7 @@ sub loadFromScriptsInc
 			$file =~ s/\\/\//g;
 			handleFile $file;
 			
-			push(@file_status, makeStatusLine("$file", $translated_line_count, $line_count, $translated_byte_count, $byte_count));
+			push(@file_status, makeStatusLine("$file", $translated_line_count, $line_count, $translated_byte_count, $byte_count, 1));
 				
 			$group_lines                 += $line_count;
 			$group_translated_lines      += $translated_line_count;
@@ -1309,7 +1426,7 @@ sub loadFromScriptsInc
 		}
 		elsif (substr($_, 0, 13) eq "#SCRIPT GROUP")
 		{
-			push(@group_status, makeStatusLine($group, $group_translated_lines, $group_lines, $group_translated_byte_count, $group_byte_count));
+			push(@group_status, makeStatusLine($group, $group_translated_lines, $group_lines, $group_translated_byte_count, $group_byte_count, 0));
 			
 			$total_lines                 += $group_lines;
 			$total_translated_lines      += $group_translated_lines;
@@ -1332,12 +1449,19 @@ sub loadFromScriptsInc
 	print FILE "\t\t\tLINES\t\t\t\tBYTES" . $CLRF;
 	print FILE "File\t\tpercentage\ttranslated\ttotal\t\tpercentage\ttranslated\ttotal" . $CLRF;
 	
-	print FILE makeStatusLine("TOTAL", $total_translated_lines, $total_lines, $total_translated_byte_count, $total_byte_count);
+	print FILE makeStatusLine("TOTAL", $total_translated_lines, $total_lines, $total_translated_byte_count, $total_byte_count, 0);
 	
 	foreach (@group_status)
 	{
 		print FILE $_;
 	}
+	
+	foreach (getCommonRouteStatus())
+	{
+		print FILE $_;
+	}
+	
+	print FILE "All individual files: (even those already printed)" . $CLRF;
 	
 	foreach (@file_status)
 	{
