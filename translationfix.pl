@@ -1337,10 +1337,6 @@ sub makeStatusLine
 	
 	$file = $file . "\t\t" . $percentage . "\t" . $translated . "\t" . $total . "\t\t";
 	
-	push(@file_array, $percentage);
-	push(@file_array, $translated);
-	push(@file_array, $total);
-	
 	$percentage = 10000;
 	if ($byte_total > 0)
 	{
@@ -1350,6 +1346,9 @@ sub makeStatusLine
 	
 	$file = $file . $percentage . "\t" . $byte_translated . "\t" . $byte_total;
 	
+	push(@file_array, $percentage);
+	push(@file_array, $translated);
+	push(@file_array, $total);
 	push(@file_array, $byte_translated);
 	push(@file_array, $byte_total);
 	
