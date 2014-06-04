@@ -881,7 +881,7 @@ screen_vibration	500,8,32,32
 「...Get out」
 
 #圧し掛かられるのとは全く無関係に、男には抗えない生理現象があるんだ。
-　Having nothing to do with being ridden, men can have unmanageable physiological occurences.
+　Having nothing to do with being ridden, men can have unforeseeable physiological occurences.
 
 #「夢見も悪いし、朝は騒がしいし、最悪だもう」
 ＠Itsuki
@@ -916,7 +916,7 @@ label youzyo_04	##############################################################
 「Morning」
 
 #着替えを済ませて食堂へ赴く廊下で、この施設の二人の子と出会った。
-　Having finished changing, I met a couple of kids from the institution in the hallway heading to the dining room.
+　Having finished changing, I met a couple of kids from the institution in the hallway on my way to the dining room.
 
 #明るい笑顔を元気に零して挨拶をするのはみかん。
 　Mikan is the one who is smiling cheerfully and greeted me energetically.
@@ -982,14 +982,14 @@ label youzyo_04	##############################################################
 
 #「きじょうい……？」
 ＠Mikan,A00002
-「Cowgirl...?」
+「Cowgirl position...?」
 
 #生憎と、同じように昨日ここへ来たばかりのみかんにはその言葉の意味は分からない。
-　Unfortunately, Mikan also came here just yesterday and doesn’t know the word.
+　Unfortunately, Mikan also came here just yesterday and doesn’t know what that means.
 
 #「調教が始まれば、分かると思う」
 ＠Zakuro,Q00005
-「I'm sure you'll find out when training begins」
+「You'll find out when training begins」
 
 @mikan_warai
 
@@ -1107,6 +1107,8 @@ event		"event\ev_all_020-00.png"
 ＠Zakuro,Q00007
 「Adorable, I'll call you Tsu-chi」
 
+#TL note: Boku Tsucchii is a tsuchinoko character from the Japanese stationery company San-X, who creates and markets cute characters. San-X characters can be found on stationery sets and pencils, as small figurines, keychains, and stuffed toys. The tsuchinoko is a mythical snake-like creature.
+
 #「なんでそんな結論に行き着くんですかッ！？」
 ＠Itsuki
 「How did you come to that conclusion!?」
@@ -1119,7 +1121,7 @@ event		"event\ev_all_020-00.png"
 「It doesn't matter... let’s hurry up and eat! My stomach's so empty I'm gonna die, it's killing me!!」
 
 #実も無い会話を続けるオレ達に、ついにいちごが声とお腹の両方で訴えてきた。
-　Finally Ichigo's stomach and complaint interrupted our senseless conversation.
+　Finally Ichigo's stomach and complaint interrupted our baseless conversation.
 
 #「いちご、殺しといえば取調べの室のカツ丼が定番よ」
 ＠Zakuro,Q00008
@@ -1172,7 +1174,7 @@ event		"event\ev_all_020-00.png"
 　Miu doesn't seem to be worrying about it.
 
 #……そう振舞おうとしているのか。
-　... Or at least, that's the act she's putting up.
+　...Or at least, that's the act she's putting up.
 
 #どちらにしても、オレだけドギマギしていても仕方ない。
 　Whatever the case is, as much as I sweat about it, it can't be helped.
@@ -1214,7 +1216,7 @@ event		"event\ev_all_020-00.png"
 @se14
 
 #負けじといちごが勢い良く掲げる皿の上から、まだ残っていたおかずが飛び散っていく。
-　Ichigo fervently hoists her plate in the air, and the remaining food on her plate goes flying.
+　Ichigo demandingly hoists her plate in the air, and the remaining food on her plate goes flying.
 
 #「いちご、ウィンナーが飛んでる」
 ＠Zakuro,Q00010
@@ -1225,11 +1227,11 @@ event		"event\ev_all_020-00.png"
 「Eh?」
 
 se	0,"sound\se\水～ポチャ、チャ….wav",play_once
-……ポチャンッ。
-...*Plunk*
+#……ポチャンッ。
+　...*Plunk*
 
+#「………」
 ＠Itsuki
-「………」
 「......」
 
 #それは見事な弧を描きながら、綺麗にオレのコーヒーへカップインした。
@@ -1242,6 +1244,8 @@ se	0,"sound\se\水～ポチャ、チャ….wav",play_once
 #「これがほんとのウインナーコーヒー」
 ＠Zakuro,Q00011
 「It's not Viennese coffee anymore, it's wiener coffee」
+
+#TL note: Viennese and wiener sound the same in Japanese. She literally says: "Now you've got actual wiinaa (Viennese/wiener) coffee"
 
 #「飲めるか……ッ」
 ＠Itsuki
@@ -1266,7 +1270,7 @@ event		"event\ev_all_020-01.png"
 
 #「しっかしいちごは朝からよく食べるねぇ。胃にもたれないのが不思議なもんだ」
 ＠Shizuku,S00007
-「Ichigo ate a lot this morning though. It's a wonder she's not even groggy」
+「Ichigo ate a lot this morning though. It's a wonder she's not even full」
 
 #「まだ若いから」
 ＠Zakuro,Q00012
@@ -1299,8 +1303,8 @@ event		"event\ev_all_020-01.png"
 ＠Itsuki
 「D-did you say something, Zakuro!?」
 
+#「…………」
 ＠Zakuro,Q00014
-「…………」
 「......」
 
 #SE23　青ノリを振り掛ける音（ザッザッザッ）
@@ -1324,22 +1328,24 @@ event		"event\ev_all_020-01.png"
 @se23
 
 #答えながらも振り続ける手の中の袋から、青々としたノリがザクザクと溢れ出している。
-　Even while answering, she continues to shake the container in her hand.  The green nori begins to overflow on the plate.
+　Even while answering she continues shaking the pouch in her hand, the nori overflows in a lush pile.
 
 #「そ、それ食べるの……？　完全に埋もれちゃってるけど」
 ＠Mikan,A00007
-「You, you’re going to eat that……?  But it is completely covered.」
+「A-are you really going to eat that...? It's completely covered」
 
 #「こいつの好物なんだよ、青ノリは。何にでも振り掛けて食うんだから」
 ＠Shizuku,S00009
-「Nori is this person’s favorite food.  It’s because she sprinkles it over everything she eats.」
+「Aonori is her favourite food. She puts it on everything she eats」
 
 #「うん、美味。海○先生も真っ青」
 ＠Zakuro,Q00016
-「Yes, it has a good flavor.  Sea (circle) sensei is deep blue too.」 (don’t know what the circle is.  Maybe seaweed?)
+「Yeah, it's delectable. Even Kaibara-sensei would be blue in the face」
+
+#TL note: Zakuro is referring to Kaibara-sensei from Oishinbo, a long-running cooking manga. This expression is used to indicate proficiency in cooking or describe high-class dishes.
 
 #そりゃその光景見たら別の意味で真っ青になりそうだが。
-　If I look at the scene right now, it looks like there is a particular significance to deep blue or something. (unsure)
+　Well looking at her dish, I'd say there's more than enough blue already.
 
 #「いちごはマヨラーだよッ♪」
 ＠Ichigo,O00023
