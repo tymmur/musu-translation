@@ -1,11 +1,13 @@
 #‚İ‚©‚ñ@‘}“ü
 label	training_mikan_insert
 
+skip_untranslated_training=0
 if mikan_insert_count=0 then gosub	training_mikan_insert_01
 if mikan_insert_count=1 then gosub	training_mikan_insert_02
 if mikan_insert_count=2 then gosub	training_mikan_insert_03
 if mikan_insert_count>2 then gosub	training_mikan_insert_04
 
+if skip_untranslated_training=1 then return
 mikan_insert_count=mikan_insert_count+1
 
 window_close
@@ -442,6 +444,7 @@ return
 
 # ‚İ‚©‚ñ‘}“ü2‰ñ ############################################################
 label	training_mikan_insert_02
+@remove_this_line_when_translating
 #‘}“ü@“ñ‰ñ–Ú@’†o‚µ
 
 #y00z
@@ -819,6 +822,7 @@ return
 
 # ‚İ‚©‚ñ‘}“ü3‰ñ ############################################################
 label	training_mikan_insert_03
+@remove_this_line_when_translating
 #3’iŠK–Ú@‚İ‚©‚ñ@’†‚¾‚µ
 #y00z
 #ƒIƒŒ‚ª’²‹³•”‰®‚É“ü‚Á‚Ä—ˆ‚½‚É‚ÍA‚İ‚©‚ñ‚Í‚·‚Å‚É—‡‚Åƒxƒbƒh‚Ìã‚É‚¢‚½B
@@ -1076,6 +1080,7 @@ return
 
 # ‚İ‚©‚ñ‘}“ü4‰ñ ############################################################
 label	training_mikan_insert_04
+@remove_this_line_when_translating
 #‘}“ü@ÅI’iŠK@’†‚¾‚µ
 #y00z
 #—÷

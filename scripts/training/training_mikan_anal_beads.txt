@@ -3,10 +3,12 @@ label	training_mikan_analpearl
 
 mousecursor_set "stg\analbeads.png",170,200
 
+skip_untranslated_training=0
 if t_mikan_analpearl_cnt=0 then gosub	training_mikan_analpearl_01
 if t_mikan_analpearl_cnt=1 then gosub	training_mikan_analpearl_02
 if t_mikan_analpearl_cnt>1 then gosub	training_mikan_analpearl_03
 
+if skip_untranslated_training=1 then return
 t_mikan_analpearl_cnt=t_mikan_analpearl_cnt+1
 
 window_close
@@ -23,6 +25,7 @@ return
 
 #アナルパール　初回 ###########################################################
 label	training_mikan_analpearl_01
+@remove_this_line_when_translating
 ##【00】
 #################ボンデージ部分ここから
 if t_mikan_bondage_flag=0 then goto training_mikan_analpearl_01_a
@@ -145,6 +148,7 @@ return
 
 #みかん　アナルパール　二段階目　裸 ##########################################
 label	training_mikan_analpearl_02
+@remove_this_line_when_translating
 ＠Itsuki
 「よし、みかん。　またこれに挑戦してみるぞ」
 
@@ -394,6 +398,7 @@ return
 
 #アナルパール　3段階目　裸 ####################################################
 label	training_mikan_analpearl_03
+@remove_this_line_when_translating
 ##【00】
 ＠Mikan,A03252
 「わ。　お兄ちゃん、それ……アナルパール、だよね……？」

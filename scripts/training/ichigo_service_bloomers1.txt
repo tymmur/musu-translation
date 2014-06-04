@@ -1,13 +1,17 @@
 label	settai_ichigo_buruma
 
+skip_untranslated_training=0
 if settai_ichigo_buruma_cnt=0 then gosub settai_ichigo_buruma1
 if settai_ichigo_buruma_cnt=1 then gosub settai_ichigo_buruma2
 if settai_ichigo_buruma_cnt=2 then gosub settai_ichigo_buruma3;ITEM_DELETE 401
+
+if skip_untranslated_training=1 then return
 settai_ichigo_buruma_cnt=settai_ichigo_buruma_cnt+1
 
 return
 
 label	settai_ichigo_buruma1
+@remove_this_line_when_translating
 @close_schedule
 #EV_ICH_170 いちごアイテムイベント・ブルマ
 #条件：体操服入手、挿入の調教レベルがある程度上がっている

@@ -2,10 +2,12 @@ label	training_karin_analvibe
 
 mousecursor_set "stg\analvive.png",40,100
 
+skip_untranslated_training=0
 if t_karin_analvibe_cnt=0 then gosub training_karin_analvibe_01
 if t_karin_analvibe_cnt=1 then gosub training_karin_analvibe_02
 if t_karin_analvibe_cnt>1 then gosub training_karin_analvibe_03
 
+if skip_untranslated_training=1 then return
 t_karin_analvibe_cnt=t_karin_analvibe_cnt+1
 
 add_kokoro=30*t_karin_analvibe_cnt
@@ -19,6 +21,7 @@ lifebar_setauto	life_seishin,seishin
 return
 
 label	training_karin_analvibe_01
+@remove_this_line_when_translating
 
 #かりんアナルバイブ
 #一段階目
@@ -125,6 +128,7 @@ voice_bg_stop
 return
 
 label	training_karin_analvibe_02
+@remove_this_line_when_translating
 
 #2段階目
 #■
@@ -221,6 +225,7 @@ voice_bg_stop
 return
 
 label	training_karin_analvibe_03
+@remove_this_line_when_translating
 #三段階目
 #■
 ＠Itsuki

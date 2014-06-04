@@ -216,3 +216,9 @@ macro	all_layerrelease
 	next
 endm
 
+# macro to avoid untranslated training
+# 
+macro	remove_this_line_when_translating
+	select skip_untranslated_training,"Goto untranslated activity","Pick something else"
+	if skip_untranslated_training=1 then return
+endm

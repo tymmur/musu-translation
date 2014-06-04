@@ -1,14 +1,18 @@
 
 label	settai_karin_bunny
 
+skip_untranslated_training=0
 if settai_karin_bunny_cnt=0 then gosub settai_karin_bunny1
 if settai_karin_bunny_cnt=1 then gosub settai_karin_bunny2
 if settai_karin_bunny_cnt=2 then gosub settai_karin_bunny3
+
+if skip_untranslated_training=1 then return
 settai_karin_bunny_cnt=settai_karin_bunny_cnt+1
 
 return
 
 label	settai_karin_bunny1
+@remove_this_line_when_translating
 
 #「かりんバニーガール接待」　一回目：EV_KAR_110_1
 #室内/かりん・モブ男・樹（見ている）

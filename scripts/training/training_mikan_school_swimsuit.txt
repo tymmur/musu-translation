@@ -3,10 +3,12 @@ label	mikan_training_mizugi
 
 @training_anime_release
 
+skip_untranslated_training=0
 if t_mikan_mizugi_cnt=0 then gosub	mikan_training_schoolware_01
 if t_mikan_mizugi_cnt>0 then gosub	mikan_training_schoolware_02
 #if t_mikan_mizugi_cnt>1 then gosub	mikan_training_schoolware_03
 
+if skip_untranslated_training=1 then return
 t_mikan_mizugi_cnt=t_mikan_mizugi_cnt+1
 
 @bg_black
@@ -26,6 +28,7 @@ return
 
 #ˆê’iŠK–Ú####################################################################
 label	mikan_training_schoolware_01
+@remove_this_line_when_translating
 
 scene_start	"‚İ‚©‚ñƒXƒN[ƒ‹…’…‚P"
 @bgm11
@@ -530,6 +533,7 @@ return
 
 #2’iŠK–Ú####################################################################
 label	mikan_training_schoolware_02
+@remove_this_line_when_translating
 #“ñ’iŠK–Ú
 #¡12
 scene_start	"‚İ‚©‚ñƒXƒN[ƒ‹…’…‚Q"

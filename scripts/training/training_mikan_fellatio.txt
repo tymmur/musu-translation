@@ -6,10 +6,13 @@ sel=0
 if _COLOR=228 then sel=0	#口
 if _COLOR=86  then sel=1	#顔
 
+skip_untranslated_training=0
 if t_mikan_fellatio_cnt1=0 then gosub training_mikan_fellatio_01
 if t_mikan_fellatio_cnt1=1 then gosub training_mikan_fellatio_02
 if t_mikan_fellatio_cnt1=2 then gosub training_mikan_fellatio_03
 if t_mikan_fellatio_cnt1>2 then gosub training_mikan_fellatio_04
+
+if skip_untranslated_training=1 then return
 t_mikan_fellatio_cnt1=t_mikan_fellatio_cnt1+1
 
 add_karada=3*t_mikan_fellatio_cnt1
@@ -1315,6 +1318,7 @@ return
 
 # みかんフェラチオ調教3段階目 #####################################################
 label	training_mikan_fellatio_04
+@remove_this_line_when_translating
 
 @training_anime_release
 scene_start	"みかんフェラチオ調教４"

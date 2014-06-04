@@ -1,10 +1,12 @@
 label	training_ichigo_anal
 
+skip_untranslated_training=0
 if t_ichigo_anal_cnt=0 then gosub training_ichigo_anal1
 if t_ichigo_anal_cnt=1 then gosub training_ichigo_anal2
 if t_ichigo_anal_cnt=2 then gosub training_ichigo_anal3
 if t_ichigo_anal_cnt>2 then gosub training_ichigo_anal4
 
+if skip_untranslated_training=1 then return
 t_ichigo_anal_cnt=t_ichigo_anal_cnt+1
 
 add_karada=3*t_ichigo_anal_cnt
@@ -25,6 +27,7 @@ layer_move		l_insert,500,300,0,0,0,passtype_tcb
 endm
 
 label	training_ichigo_anal1
+@remove_this_line_when_translating
 #挿入ーアナル（初回）--------------------------------------------------------
 ＠Itsuki
 「いちご、今日はコレをお前の…アナルに、入れるぞ」
@@ -227,6 +230,7 @@ return
 
 #挿入ーアナル（2回目）---------------------------------------------------
 label	training_ichigo_anal2
+@remove_this_line_when_translating
 
 ＠Ichigo,O04346
 「うぅー、おチンチン…お尻に入れるんだね」
@@ -578,6 +582,8 @@ return
 
 #挿入ーアナル（3回目）------------------------------------------------
 label	training_ichigo_anal3
+@remove_this_line_when_translating
+
 ＠Itsuki
 「いちご、またお尻を使うけど…いいか？」
 
@@ -943,7 +949,10 @@ voice_bg	"O03965"
 
 layer_fadeout	l_insert
 return
+
 label	training_ichigo_anal4
+@remove_this_line_when_translating
+
 #アナル（4回目）--------------------------------------------------
 voice_bg	"O03966"
 ＠Ichigo,O04426

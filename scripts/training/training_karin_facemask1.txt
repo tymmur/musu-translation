@@ -1,9 +1,11 @@
 label	training_karin_facemask
 
+skip_untranslated_training=0
 if training_karin_facemask_cnt=0 then gosub training_karin_facemask1
 if training_karin_facemask_cnt=1 then gosub training_karin_facemask2
 if training_karin_facemask_cnt>1 then gosub training_karin_facemask3
 
+if skip_untranslated_training=1 then return
 training_karin_facemask_cnt=training_karin_facemask_cnt+1
 
 add_karada=15*training_karin_facemask_cnt
@@ -19,6 +21,7 @@ lifebar_setauto	life_seishin,seishin
 return
 
 label	training_karin_facemask1
+@remove_this_line_when_translating
 
 #「かりん口鼻虐」 一回目：EV_KAR_090
 #人物：かりん(ボンデージ、フェイスクラッチマスク）、樹（裸）

@@ -1,11 +1,13 @@
 label	training_karin_anal
 #‚©‚è‚ñ@ƒAƒkƒX‚É‘}“ü
 
+skip_untranslated_training=0
 if t_karin_anal_cnt=0 then gosub training_karin_anal_01
 if t_karin_anal_cnt=1 then gosub training_karin_anal_02
 if t_karin_anal_cnt=2 then gosub training_karin_anal_03
 if t_karin_anal_cnt>2 then gosub training_karin_anal_04
 
+if skip_untranslated_training=1 then return
 t_karin_anal_cnt=t_karin_anal_cnt+1
 
 add_kokoro=30*t_karin_anal_cnt
@@ -19,6 +21,7 @@ lifebar_setauto	life_seishin,seishin
 return
 
 label	training_karin_anal_01
+@remove_this_line_when_translating
 #‰‰ñ
 #y00z
 
@@ -159,6 +162,7 @@ voice_bg_stop
 return
 
 label	training_karin_anal_02
+@remove_this_line_when_translating
 #¡2‰ñ–ÚiŠOo‚µj##########################################################
 #y00z
 —Itsuki
@@ -370,6 +374,7 @@ voice_bg_stop
 return
 
 label	training_karin_anal_03
+@remove_this_line_when_translating
 #3’iŠK–Ú######################################################################
 #y00z
 ############ ‚±‚±‚©‚çŠá‹¾
@@ -565,6 +570,7 @@ voice_bg_stop
 return
 
 label	training_karin_anal_04
+@remove_this_line_when_translating
 #ÅI’iŠK#####################################################################
 #y00z
 voice_bg	"P04705"

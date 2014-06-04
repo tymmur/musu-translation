@@ -2,6 +2,7 @@ label	training_karin_fera
 
 @training_anime_release
 
+skip_untranslated_training=0
 if t_karin_fera_cnt=0 then gosub training_karin_bukkake
 if t_karin_fera_cnt=1 then gosub training_karin_kamikoki
 if t_karin_fera_cnt=2 then gosub training_karin_hanasya
@@ -11,6 +12,7 @@ if t_karin_fera_cnt=5 then gosub training_karin_fera3
 if t_karin_fera_cnt=6 then gosub training_karin_fera4
 if t_karin_fera_cnt>6 then gosub training_karin_fera5
 
+if skip_untranslated_training=1 then return
 t_karin_fera_cnt=t_karin_fera_cnt+1
 
 add_karada=3*t_karin_fera_cnt
@@ -404,6 +406,7 @@ return
 #// END
 
 label	training_karin_fera2
+@remove_this_line_when_translating
 #// 08/09/05
 #// Kobayashi
 #// かりんシナリオ_フェラチオ_一段階目#########################################
@@ -768,6 +771,7 @@ return
 #// END
 
 label	training_karin_fera3
+@remove_this_line_when_translating
 #// 08/09/15
 #// Kobayashi
 #// かりんシナリオ_フェラチオ_二段階目#########################################
@@ -1097,6 +1101,7 @@ return
 #// END
 
 label	training_karin_fera4
+@remove_this_line_when_translating
 #// 08/09/17
 #// Kobayashi
 #// かりんシナリオ_フェラチオ_三段階目#######################################
@@ -1484,6 +1489,7 @@ return
 #// END
 
 label	training_karin_fera5
+@remove_this_line_when_translating
 #// 08/09/17
 #// Kobayashi
 #// かりんシナリオ_フェラチオ_四段階目########################################

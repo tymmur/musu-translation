@@ -1,10 +1,12 @@
 label	training_ichigo_insert
 
+skip_untranslated_training=0
 if t_ichigo_insert_cnt=0 then gosub training_ichigo_insert_01
 if t_ichigo_insert_cnt=1 then gosub training_ichigo_insert_02
 if t_ichigo_insert_cnt=2 then gosub training_ichigo_insert_03
 if t_ichigo_insert_cnt>2 then gosub training_ichigo_insert_04
 
+if skip_untranslated_training=1 then return
 t_ichigo_insert_cnt=t_ichigo_insert_cnt+1
 
 add_karada=10*t_ichigo_insert_cnt
@@ -91,6 +93,7 @@ layer_reference_set	l_seieki,l_body_back	# 頭のレイヤーに連結
 endm
 
 label	training_ichigo_insert_01
+@remove_this_line_when_translating
 #挿入ーマンコ（初回）
 
 ####################ここからボンデージ装着時テキスト
@@ -621,6 +624,7 @@ voice_bg	"O03965"
 layer_fadeout	l_insert
 return
 label	training_ichigo_insert_02
+@remove_this_line_when_translating
 #-----------------------------------------------------
 #挿入ーマンコ（２回目）
 
@@ -968,6 +972,7 @@ layer_fadeout	l_insert
 return
 
 label	training_ichigo_insert_03
+@remove_this_line_when_translating
 #-----------------------------------------------------
 #挿入ーマンコ（３段階目）
 
@@ -1335,6 +1340,7 @@ voice_bg	"O03965"
 layer_fadeout	l_insert
 return
 label	training_ichigo_insert_04
+@remove_this_line_when_translating
 #挿入ーマンコ（最終段階）-----------------------------------------------------
 
 まだなにもしていないのに、いちごはすでに荒い息を吐いている。

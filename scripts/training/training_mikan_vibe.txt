@@ -3,10 +3,12 @@ label	training_mikan_vibe
 
 mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
 
+skip_untranslated_training=0
 if t_mikan_vibe_cnt=0 then gosub training_mikan_vibe_01
 if t_mikan_vibe_cnt=1 then gosub training_mikan_vibe_02
 if t_mikan_vibe_cnt>1 then gosub training_mikan_vibe_03
 
+if skip_untranslated_training=1 then return
 t_mikan_vibe_cnt=t_mikan_vibe_cnt+1
 
 window_close
@@ -23,6 +25,7 @@ return
 
 #みかん　大きなバイブ　一段階目 ###############################################
 label	training_mikan_vibe_01
+@remove_this_line_when_translating
 #################ボンデージ部分ここから
 if t_mikan_bondage_flag=0 then goto training_mikan_vibe_01a
 ＠Mikan,A03361
@@ -244,6 +247,7 @@ return
 
 #みかん　大きなバイブ　2段階目 ###############################################
 label	training_mikan_vibe_02
+@remove_this_line_when_translating
 ##【00】
 #################ボンデージ部分ここから
 if t_mikan_bondage_flag=0 then goto training_mikan_vibe_02a
@@ -498,6 +502,7 @@ layer_fadeout	l_insert
 return
 #みかん　大きなバイブ　3段階目 ###############################################
 label	training_mikan_vibe_03
+@remove_this_line_when_translating
 
 #################ボンデージ部分ここから
 if t_mikan_bondage_flag=0 then goto training_mikan_vibe_03a

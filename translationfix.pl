@@ -1157,7 +1157,7 @@ sub handleFile
 		my $type = getType($line);
 		my $add_kanji_to_text = 0;
 		
-		if ($script_ignore)
+		if ($script_ignore or $line eq 'skip_untranslated_training=0' or $line eq 'if skip_untranslated_training=1 then return' or $line eq '@remove_this_line_when_translating')
 		{
 			push(@output, $line);
 			$script_ignore = 0 if ($line eq "#SCRIPT IGNORE END");

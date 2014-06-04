@@ -2,10 +2,12 @@ label	training_ichigo_vibe
 
 mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
 
+skip_untranslated_training=0
 if t_ichigo_vibe_cnt=0 then gosub training_ichigo_vibe1
 if t_ichigo_vibe_cnt=1 then gosub training_ichigo_vibe2
 if t_ichigo_vibe_cnt>1 then gosub training_ichigo_vibe3
 
+if skip_untranslated_training=1 then return
 t_ichigo_vibe_cnt=t_ichigo_vibe_cnt+1
 
 add_karada=3*t_ichigo_vibe_cnt
@@ -20,6 +22,7 @@ lifebar_setauto	life_seishin,seishin
 return
 
 label	training_ichigo_vibe1
+@remove_this_line_when_translating
 #アイテムーバイブ（１段階目）###############################################
 
 #■EVCG(EV_ICH_140-00)
@@ -187,6 +190,7 @@ voice_bg	"O03965"
 return
 
 label	training_ichigo_vibe2
+@remove_this_line_when_translating
 #-----------------------------------------------------
 
 バイブを引き出しから取り出すと、いちごの体が硬直した。
@@ -485,6 +489,7 @@ voice_bg	"O03965"
 return
 
 label	training_ichigo_vibe3
+@remove_this_line_when_translating
 #-----------------------------------------------------
 ＠Ichigo,O04122
 「あ！　おもちゃだー♪」

@@ -2,10 +2,12 @@ label	training_karin_vibe
 
 mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
 
+skip_untranslated_training=0
 if t_karin_vibe_cnt=0 then gosub training_karin_vibe_01
 if t_karin_vibe_cnt=1 then gosub training_karin_vibe_02
 if t_karin_vibe_cnt>1 then gosub training_karin_vibe_03
 
+if skip_untranslated_training=1 then return
 t_karin_vibe_cnt=t_karin_vibe_cnt+1
 
 add_karada=30*t_karin_vibe_cnt
@@ -19,6 +21,7 @@ lifebar_setauto	life_seishin,seishin
 return
 
 label	training_karin_vibe_01
+@remove_this_line_when_translating
 
 #かりん　大きなバイブ
 #一段階目
@@ -157,6 +160,7 @@ voice_bg_stop
 return
 
 label	training_karin_vibe_02
+@remove_this_line_when_translating
 #2段階目
 #■
 
@@ -323,6 +327,7 @@ voice_bg_stop
 return
 
 label	training_karin_vibe_03
+@remove_this_line_when_translating
 
 #三段階目
 #■

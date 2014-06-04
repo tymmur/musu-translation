@@ -2,10 +2,12 @@ label	training_ichigo_analvibe
 
 mousecursor_set "stg\analvive.png",40,100
 
+skip_untranslated_training=0
 if t_ichigo_analvibe_cnt=0 then gosub training_ichigo_analvibe1
 if t_ichigo_analvibe_cnt=1 then gosub training_ichigo_analvibe2
 if t_ichigo_analvibe_cnt>1 then gosub training_ichigo_analvibe3
 
+if skip_untranslated_training=1 then return
 t_ichigo_analvibe_cnt=t_ichigo_analvibe_cnt+1
 
 add_karada=3*t_ichigo_analvibe_cnt
@@ -20,6 +22,7 @@ lifebar_setauto	life_seishin,seishin
 return
 
 label	training_ichigo_analvibe1
+@remove_this_line_when_translating
 #アイテムーアナルバイブ（１段階目）
 
 voice_bg_stop
@@ -195,6 +198,7 @@ voice_bg_stop
 return
 
 label	training_ichigo_analvibe2
+@remove_this_line_when_translating
 #アイテムーアナルバイブ（２段階目）
 
 前回はものすごく痛がっていたが……慣らす為にも、試してみるか。
@@ -422,6 +426,7 @@ layer_fadeout	l_insert
 return
 
 label	training_ichigo_analvibe3
+@remove_this_line_when_translating
 #アイテムーアナルバイブ（３段階目）
 
 引き出しからアナルバイブを取り出すと、いちごの目がキラリと光った。

@@ -1,10 +1,13 @@
 #‚İ‚©‚ñ@ƒAƒkƒX‚É‘}“ü
 label	training_mikan_anal
 
+skip_untranslated_training=0
 if t_mikan_anal_cnt=0 then gosub training_mikan_anal_01
 if t_mikan_anal_cnt=1 then gosub training_mikan_anal_02
 if t_mikan_anal_cnt=2 then gosub training_mikan_anal_03
 if t_mikan_anal_cnt>2 then gosub training_mikan_anal_04
+
+if skip_untranslated_training=1 then return
 t_mikan_anal_cnt=t_mikan_anal_cnt+1
 
 window_close
@@ -226,6 +229,7 @@ return
 
 # ƒAƒiƒ‹02 ###################################################################
 label	training_mikan_anal_02
+@remove_this_line_when_translating
 #“ñ‰ñ–Ú
 #y00z
 —Itsuki
@@ -432,6 +436,7 @@ return
 
 # ƒAƒiƒ‹03 ###################################################################
 label	training_mikan_anal_03
+@remove_this_line_when_translating
 #3’iŠK–Ú
 #y00z
 #################ƒ{ƒ“ƒf[ƒW•”•ª‚±‚±‚©‚ç
@@ -681,6 +686,7 @@ return
 
 # ƒAƒiƒ‹04 ###################################################################
 label	training_mikan_anal_04
+@remove_this_line_when_translating
 ##ÅI’iŠK
 
 #y00z

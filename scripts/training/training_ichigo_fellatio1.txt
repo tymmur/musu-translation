@@ -1,11 +1,13 @@
 label	training_ichigo_fera
 @training_anime_release
 
+skip_untranslated_training=0
 if t_ichigo_fera_cnt=0 then gosub training_ichigo_fera1
 if t_ichigo_fera_cnt=1 then gosub training_ichigo_fera2
 if t_ichigo_fera_cnt=2 then gosub training_ichigo_fera3
 if t_ichigo_fera_cnt>2 then gosub training_ichigo_fera4
 
+if skip_untranslated_training=1 then return
 t_ichigo_fera_cnt=t_ichigo_fera_cnt+1
 
 add_karada=3*t_ichigo_fera_cnt
@@ -22,6 +24,7 @@ lifebar_setauto	life_seishin,seishin
 return
 
 label	training_ichigo_fera1
+@remove_this_line_when_translating
 
 #EV_ICH_150 いちごフェラチオ調教
 #条件：調教の「おくち」コマンド実行
