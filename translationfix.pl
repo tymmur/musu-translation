@@ -117,6 +117,7 @@ my $period = sprintf("%c%c", 0x81, 0x44);
 my $question_mark = sprintf("%c%c", 0x81, 0x48);
 my $explanation_mark = sprintf("%c%c", 0x81, 0x49);
 
+my @file_list;
 
 my @japanese;
 my $japanese_index;
@@ -1140,6 +1141,8 @@ sub handleFile
 	
 	print $file . "\n";
 	
+	push(@file_list, $file);
+	
 	$japanese_index = -1;
 	
 	@japanese = readFile("../original/" . $file);
@@ -1352,9 +1355,42 @@ sub makeStatusLine
 	push(@file_array, $byte_translated);
 	push(@file_array, $byte_total);
 	
-	$file_status_hash{$filename} = [@file_array];
+	$file_status_hash{$filename} = [@file_array] if $is_file == 1;
 	
 	return $file . $CLRF;
+}
+
+sub getAllReachable
+{
+	my ($translated_lines, $byte_translated) = @_;
+	
+	my @total = (0, $translated_lines, 0, $byte_translated, 0);
+	
+	foreach my $file (@file_list)
+	{
+		$total[2] += $file_status_hash{$file}[2];
+		$total[4] += $file_status_hash{$file}[4];
+		
+		if (substr($file, 0, 8) eq "training")
+		{
+			if ($file eq "training/training_in.txt" or $file eq "training/training_mikan_01.txt")
+			{
+				# already part of common route. Don't count twice.
+				next;
+			}
+		}
+		elsif (substr($file, 0, 6) ne "status")
+		{
+			next;
+		}
+		
+		# training or status. Assume those files to be reachable from start.
+		
+		$total[1] += $file_status_hash{$file}[1];
+		$total[3] += $file_status_hash{$file}[3];
+	}
+	
+	return makeStatusLine("All reachable", $total[1], $total[2], $total[3], $total[4], 0);
 }
 
 sub getCommonRouteStatus
@@ -1388,6 +1424,13 @@ sub getCommonRouteStatus
 		push(@output, makeStatusLine("translated common route", $top[1], $top[2], $top[3], $top[4], 0));
 		push(@output, makeStatusLine("top vs total common route", $top[1], $total[2], $top[3], $total[4], 0));
 	}
+	else
+	{
+		# looks like all files are translated. We assume top to contain the files reachable from start, which would now be all of them
+		@top = (@total);
+	}
+	
+	unshift(@output, getAllReachable($top[1], $top[3]));
 	
 	push(@output, makeStatusLine("translated total common route", $total[1], $total[2], $total[3], $total[4], 0));
 	
