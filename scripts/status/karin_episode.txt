@@ -22,7 +22,8 @@ if karin_karada_ep_count=0 then gosub	ep_karin_01	#昼 クッキーは誰の物？
 if karin_karada_ep_count=1 then gosub	karin_qa02	#へ、部屋の中にッ……あれがッ、あいつがッ
 if karin_karada_ep_count=2 then gosub	ep_karin_06	#昼 一人ぼっちのおやつ時間
 if karin_karada_ep_count=3 then gosub	karin_qa08	#樹、折りたたみの傘って持ってない？
-if karin_karada_ep_count=4 then gosub	ep_karin_09	#昼 子供たちの手料理騒動if karin_karada_ep_count=5 then gosub	karin_qa09	#（かりんのパジャマ……モロにお尻の部分が破れてる……）
+if karin_karada_ep_count=4 then gosub	ep_karin_09	#昼 子供たちの手料理騒動
+if karin_karada_ep_count=5 then gosub	karin_qa09	#（かりんのパジャマ……モロにお尻の部分が破れてる……）
 if karin_karada_ep_count=6  then gosub	ep_karin_10	#昼 エッチの現場を見られてしまった！？（今更）
 
 karin_karada_levelup_flag=karin_karada_levelup_flag-1
