@@ -1349,73 +1349,74 @@ event		"event\ev_all_020-01.png"
 
 #「いちごはマヨラーだよッ♪」
 ＠Ichigo,O00023
-「I'm a mayonnaise lover♪」
+「I'm a mayo lover♪」
 
 #こっちはこっちで、ウニョニョニョ～っと目玉焼きにマヨネーズを塗りたくっている。
-　As for this one here, with a unyonyonyo, the fried eggs are coated heavily with mayonnaise.
+　As for this one, she gleefully slathers mayonnaise all over her fried eggs.
 
 #■EVCG（差分で美雨を追加）
 event		"event\ev_all_020-00.png"
 
 #「お待たせしました」
 ＠Miu,B00018
-「Thank you very much for waiting.」
+「Thanks for waiting」
 
 #SE35　ティーカップを置く音（カチャ）
 @se35
 
 #「お、ありがとう」
 ＠Itsuki
-「Oh, thank you.」
+「Oh, thanks」
 
 #そっち側の騒ぎはもう置いといて。
 #とりあえず朝はコーヒーを飲まないと頭が冴えない。
-　The disturbance next to me has already been left behind.  (edit) More importantly, if I don’t drink coffee in the morning, I can’t clear my head.
+　Putting aside the distraction over there, I can't think straight unless I have my morning coffee.
 
 #「そんないちごに、青ノリとの夢のハーモニーをプレゼント」
 ＠Zakuro,Q00017
-「To Ichigo, I present the harmonious dream of fresh green nori.」
+「Ichigo, I'll gift you the dreamy harmony of Aonori, you'll never go back」
 
 #SE23　青ノリを振り掛ける音（ザッザッザッ）
 @se23
 
-#SCRIPT IGNORE 3RD PERSON
-
 #「うわわわー！？　いッ、いちごの目玉焼きが！！」
 ＠Ichigo,O00024
-「Uwawawa!?  I, Ichigo’s fried eggs!!」
+「Uwawawah!? M-my fried eggs!!」
 
 #「あっ、いちごちゃん！？　振り回したら……ッ」
 ＠Suika,R00003
-「Ah, Ichigo-chan!?  If you wave that around……」
+「Ah, Ichigo-chan!? If you wave that around...」
 
 #SE14　小物が弧を描き飛ぶこと
 @se14
-ウニュニュニュ～～～～！
+#ウニュニュニュ～～～～！
+　*Splurt splurt squeeze*～～～～!
 
 se	0,"sound\se\水～ポチャ、チャ….wav",play_once
-………ビチャビチャ！！
+#………ビチャビチャ！！
+　......*Splish splash*!!
 
+#「………」
 ＠Itsuki
-「………」
+「...」
 
 #いちごが振り回すマヨネーズが、綺麗な帯を成しながらカップへと被さっていく。
-　Ichigo brandishes the mayonnaise.  As a beautiful ring forms, it covers my cup.  (second part is a bit awkward.  It pretty much is the same as last time.  The spray of mayo was to the point of art, and it landed in his cup again.  That’s the idea, at least.)
+　The mayonnaise that Ichigo swung around forms an eye-catching stream in the air and lands all over my cup of coffee.
 
 #「お、おお！？　ナイスイン！！」
 ＠Ichigo,O00025
-「Oh, oooh!?  Nice in!!」
+「Oh, oooh!? Nice in!!」
 
 #「むしろつっちーがナイスキャッチ。ミルク代わりだと思えば」
 ＠Zakuro,Q00018
-「More like Tsu-chi had a nice catch.  It looks like a milk substitute.」
+「More like Tsu-chi had a nice catch. If you were looking for a milk substitute」
 
 #「思えるか……ッ」
 ＠Itsuki
-「Does it look like that……?」
+「Like I would want that...!」
 
 #結局朝食は始終こんな感じで過ぎていった。
-　Eventually, breakfast continues, and these feelings pass.
+　In this fashion we went through breakfast from beginning to end.
 
 se_stop		1
 
@@ -1428,70 +1429,71 @@ label youzyo_06	##############################################################
 
 #「はぁぁ～……」
 ＠Itsuki
-「Haaa~……」
+「Haaa～...」
 
 #またうやむやのうちに、子供らのテンションに巻き込まれてしまった。
-　Once again, in this so-called home of mine, I was dragged into the children’s argument.
+　Once again in this uncertain home, I found myself wrapped up in the children's antics.
 
 #まぁ、ずっと一人暮らしだったから、こういう団欒も楽しいといえば楽しいが。
-　Hmm, so far I have lived a single man’s life.  But because of that, sitting together around the table like this… it’s fun.
+　Well I've always lived alone, so this sitting together at a meal is kind of fun, if I can call it that.
 
 #「いやいやッ、何言ってるんだオレは！　今日出て行くんだから関係ない」
 ＠Itsuki
-「No no, what am I saying!?  Because I’m leaving today, I have nothing to do with this.」
+「No, what am I saying!? I’m leaving today, so I have nothing to do with this」
 
 @zakuro
 
 #「つっちー」
 ＠Zakuro,Q00019
-「Tsu-chi.」
+「Tsu-chi」
 
 #食事を終えたオレをざくろが追いかけてきた。
-　Having finished her meal, Zakuro chases after me.
+　Zakuro came chasing after me when I finished my meal.
 
 #「……その呼び名は、結局決定なのか」
 ＠Itsuki
-「……You’ve decided on that nickname after all.」
+「...Did you actually decide on that name?」
 
+#「………」
 ＠Zakuro,Q00020
-「………」
+「...」
 
 @zakuro_niko
 
 #「……やっぱり、豚とか犬がいい？」
 ＠Zakuro,Q00021
-「……I thought so, would pig or dog or something be better?」
+「...I guess you wanted dog or pig after all」
 
 #「そこに帰結させるな、話を」
 ＠Itsuki
-「Finish what you were saying.」
+「Don't put words in my mouth」
 
 #「まぁいい……で、どうした？」
 ＠Itsuki
-「It’s alright……what is it?」
+「It doesn't matter... well, what is it?」
 
 @zakuro
 
 #「雫に言われて、話があるの。ついてきて」
 ＠Zakuro,Q00022
-「Shizuku mentioned it in the conversation.  I’m here because of it.」
+「Shizuku told me to talk you about something. Follow me」
 
 #さっきの青ノリもそうだが、出会ってからずっと謎行動が多いざくろ。
-　From earlier, the way she was used the green nori seemed strange.  But, since I first met her, she has been behaving strangely.
+　It's not just her Aonori from before, everything Zakuro does since I met her is an enigma.
 
 #しかも騒ぎの元凶、雫さんが関係しているという。
-　And what’s more, the leader of the disturbance, Shizuku-san, is related somehow.
+　Adding to that Shizuku is at the root of this latest development.
 
 #これは何も無い方がおかしい。
-　This, in no way, is funny.
+　There's something fishy going on.
 
 #「用事があるんだ。悪いな」
 ＠Itsuki
-「I have things to do.  Sorry.」
+「I have stuff to do. Sorry」
 
 #「この部屋でいいから」
 ＠Zakuro,Q00023
-「This room is good.」
+「This room is good, come on」
 
 #CH（立ち絵消す）
 @zakuro_
@@ -1501,7 +1503,7 @@ label youzyo_06	##############################################################
 
 #「って、ほんとに人の話し聞かないな、どいつもこいつも」
 ＠Itsuki
-「You really don’t listen when other people talk, do you?」
+「Hmph, nobody listens to me at all, no matter who it is」
 
 #■BG（空き部屋）
 @bg_akibeya
@@ -1509,22 +1511,24 @@ label youzyo_06	##############################################################
 
 #「で、まぁノコノコと入ってくるオレも相当のお人よしだと思うが」
 ＠Itsuki
-「Knocking before coming in, I think that is befitting of a good person.」 (I guess it kinda makes sense.)
+「Well, I guess I'll come in too, but I hope you know I'm going out of my way」
 
 #「ざくろ……？」
 ＠Itsuki
-「Zakuro……?」
+「Zakuro...?」
 
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-…………
+#…………
+　......
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @se09
 
+#「………」
 ＠Zakuro,Q00024
-「………」
+「...」
 
 #ドアの影に隠れていたざくろが、後ろ手に鍵を掛けた。
 　Zakuro has hidden in the door’s shadow.  Hands behind her, she locks the door.
