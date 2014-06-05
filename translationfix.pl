@@ -1379,12 +1379,12 @@ sub getAllReachable
 				next;
 			}
 		}
-		elsif (substr($file, 0, 6) ne "status")
+		elsif (substr($file, 0, 6) ne "status" and substr($file, 0, 4) ne "item")
 		{
 			next;
 		}
 		
-		# training or status. Assume those files to be reachable from start.
+		# shop, training or status. Assume those files to be reachable from start.
 		
 		$total[1] += $file_status_hash{$file}[1];
 		$total[3] += $file_status_hash{$file}[3];
