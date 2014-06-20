@@ -2923,23 +2923,23 @@ wait	2000
 「Nh... I fell asleep before I knew it」
 
 #外を見ると、もう夜の帳が下りていた。
-　When I look outside it’s already dark.
+　I look outside and it’s already dark.
 
 #あれから部屋に戻ってベッドに横になり……そこから記憶が途切れている。
-　After that, I went back to my room and lied down on the bed.  And then, my memories were interrupted.
+　After that I'd returned to my room and lied down on my bed... and don't remember anything after that.
 
 #だが、ざくろとのフェラが心地よい疲れになっていた感じは否めない。
-　However, Zakuro’s fellatio was very pleasant and I was worn out.  I can’t deny that it felt good.
+　But I can't deny the pleasant tired feeling I'd gotten after Zakuro's fellatio.
 
 #SE13　お腹の音・弱（キュルル……）
 @se13
 
 #「……腹減ったな」
 ＠Itsuki
-「……I’m hungry.」
+「...I’m hungry」
 
 #昨日の夕食もこれくらいの時間だったし。
-　Yesterday’s dinner was at about this time too.
+　Yesterday, dinner was about this time too.
 
 #もそもそと起き上がると、食堂へと降りていった。
 　I reluctantly get out of bed and go down to the dining room.
@@ -2954,24 +2954,23 @@ event	"event\ev_all_021-01.png"
 
 #「お、今日の夕食はエビフライか」
 ＠Itsuki
-「Oh, so today’s dinner is fried shrimp.」
+「Oh, we're having fried shrimp today?」
 
 #「ううん、違うよ」
 ＠Ichigo,O00028
-「Yeah, it’s unusual.」
+「No, not actually」
 
+#「………」
 ＠Itsuki
-「………」
-
-#SCRIPT IGNORE 3RD PERSON
+「...」
 
 #「でも歌ってたら気分だけでも味わえるでしょ～？」
 ＠Ichigo,O00029
-「But if I sing, do you think I can savor the feeling and stuff?」 (not really sure, but given Ichigo’s personality, I don’t entirely doubt it.)
+「But if I sing, you can taste it just by the mood right～」
 
 #「紛らわしい」
 ＠Itsuki
-「That’s confusing.」
+「That's misleading」
 
 #■EVCG（みんなで夕食）※ゆずとかりんと雫がいない
 
@@ -2979,104 +2978,106 @@ event	"event\ev_all_021-01.png"
 
 #「いただきまーす」
 ＠Everybody,Z90001
-「Itadakimaaasu!」
+「Let's eat」
 
 se	1,	"sound\se\食事中1.wav",play_loop
 
 #用意が整い、全員の挨拶で食事が始まる。
-　The preparations are in order, and with everybody’s response, the meal begins.
+　Everything is in order, and we say our formality together to start the meal.
 
 #「あれ、雫さんはいないんですか？」
 ＠Itsuki
-「My my, Shizuku-san isn’t here?」
+「Wait, is Shizuku-san not coming?」
 
 #「ええ、昼前に出かけたきり、帰ってきていません」
 ＠Miu,B00020
-「Yes, she left just before noon, and hasn’t come back.」
+「Yes, she left before noon and hasn’t come back」
 
 #そういえばあの話の後、用事があるって言って出て行ったな。
-　Come to think of it, after that conversation, she left, saying that she had things to do.
+　That's right, she said she had something to do after our conversation and left.
 
 #「仕事の関係で、雫さんは居ないことの方が多いんですよ」
 ＠Miu,B00021
-「It was business related.  Shizuku-san not being here is a common occurrence.」
+「Shizuku-san's often out with work-related matters」
 
 #「そうなのか」
 ＠Itsuki
-「Is that so?」
+「I see」
 
 #居ても居なくても可も不可も無い人なので、話半分に聞き流す。
-　Whether or not she was here, she is neither an acceptable nor unacceptable person.  She would ignore half the story.  (unsure)
+　Whether she's here or not I don't love or detest her presence so I don't pay much attention.
 
 #むしろあんな行為をさせられた後だから、返って気まずくなくていいかもな。
-　Rather, because she was able to make someone do such an act, it would only be awkward if she returned now.
+　Actually, it works out pretty nicely not having her around to make things unpleasant for me after what happened.
 
 #「パパ、今日ざくろとフェラチオしたんだよね？」
 ＠Ichigo,O00031
-「Papa, Zakuro gave you fellatio today, didn’t she?」
+「Papa, Zakuro gave you a blowjob today right?」
 
 #SE67　食事を噴き出す音（ブゥゥッ！！）
 @se67
 
-ブウゥゥーーーッッ！！！
+#ブウゥゥーーーッッ！！！
+　*Cough* *Sputter*!!!
 
 #「うわ！？　パパ汚いー！！」
 ＠Ichigo,O00032
-「Uwa!?  Papa’s dirty!!」
+「Uwah!? Papa that's gross!!」
 
 #「大丈夫ですか、院長先生！？」
 ＠Suika,R00005
-「Are you alright, Inchou-sensei!?」
+「Are you OK, Inchou-sensei!?」
 
 #「うッ！　ゲホゲホッ、ゴホ！　な、何で知ってるんだ……ざくろか？」
 ＠Itsuki
-「Uuu!  (coughing and sputtering noises, perhaps?)  H, how do you know about that?……Zakuro?」
+「Uh! *choke*, *cough cough*! H-how do you know about that... from Zakuro?」
 
 #「雫が言いふらしてた」
 ＠Zakuro,Q00110
-「Shizuku told them.」
+「Shizuku told them all about it」
 
 #うなつなッ、居なくても何かと迷惑を残していく人だ！
-　Grrrrr, even though she isn’t here, she manages to find a way to be a troublesome person!
+　Grrrr, even while she's gone she managed to leave behind a bundle of misery for me!
+
+#うなつなッ, I couldn't find this one anywhere. Just guessing as Grrrr.
 
 #「ふぇらちお……って何？」
 ＠Mikan,A00009
-「"Ferachio"……what’s that?」
+「What's a blowjob?」
 
 #「……知らなくてもいい」
 ＠Itsuki
-「……You don’t need to know that.」
+「...You don’t need to know that」
 
 #「後でつっちーが実践で教えてくれるって」
 ＠Zakuro,Q00111
-「Later, Tsu-chi is going to help me practice.」 (who he is going to help practice is beyond me.)
+「Tsu-chi told me he'll give you hands-on training later on」
 
 #「言うかッ！」
 ＠Itsuki
-「What did you say!」
+「As if!」
 
 #「う……」
 ＠Itsuki
-「Uu……」
+「*Sigh*...」
 
+#「…………」
 ＠Mikan,A00010
-「…………」
+「......」
 
 #すっげぇ興味深そうな目でこっち見てるし。
-　She’s watching this scene with great interest.
-
-#SCRIPT IGNORE 3RD PERSON
+　She's looking at me with rapt attention.
 
 #「う～、何かみかんだけ仲間はずれみたいだよ……」
 ＠Mikan,A00011
-「Uuu, it looks like I'm being treated differently than everybody else…….!」 (didn’t really stick to the original wording, but it’s the same idea.  Original is more like, "It’s just something with Mikan, there seems to be a gap concerning the group of friends.")
+「Uuh, it's like I'm missing something everybody else knows...」
 
 #「……わ、分かった。まぁそういう機会が今後もしあれば、な」
 ＠Itsuki
-「……al, alright.  We’ll do it together if we get a chance to.」
+「...A-alright. We might get a chance sometime in the future...」
 
 #あぁ、こうやってまた流されていくんだろうな。
-　Aaah, like this, I guess it’s going to happen again.  (流 is being a pain in the ass.  Can’t figure out how to interpret it.)
+　Yeah, looks like I'm getting swept up in it again.
 
 se_stop		1
 
@@ -3091,17 +3092,17 @@ wait	1000
 
 #「ふぅ～……やっぱり今日もここで寝泊りするのか」
 ＠Itsuki
-「Fuuu……As I thought, I’m going to be staying here today as well.」
+「Fuu～... looks like I'm staying here tonight as well」
 
 #今日一日で、この施設の切迫した状況を知ってしまった。
-　It’s only the first day, and now I regrettably know about the urgent circumstances of this institution.
+　In one day I've come to know the pressing situation of this institution.
 
 #安易に帰るとは言えない状況になっている。
-　Even though I didn’t come here easily, the situation is progressing. (a little unsure)
+　It's becoming difficult to just go back without a second thought.
 
 #「……おっと、今朝みたいにいちごに起こされないようにしないとな」
 ＠Itsuki
-「……Oops, so that Ichigo isn’t able go wake me up like she did this morning……」(last "shinai" stumps me)
+「...Oh, I'd better make it so that Ichigo doesn't wake me up like she did this morning」
 
 #SE68　電気のスイッチ（パチッ）
 @se68
