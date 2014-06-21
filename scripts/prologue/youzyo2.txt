@@ -180,7 +180,7 @@ se	1,	"sound\se\食事中1.wav",play_loop
 
 #「水子」
 ＠Zakuro,Q00113
-「Aborted fetus」
+「Aborted pregnancy」
 
 #SE69　物をこかす音（ガシャン）
 @se69
@@ -199,53 +199,58 @@ se	1,	"sound\se\食事中1.wav",play_loop
 
 #「水子って何……？　お兄ちゃん、それに祟られてるの？」
 ＠Mikan,A00012
-「What's an aborted fetus...? Onii-chan, are you cursed by that?」
+「What's an aborted pregnancy...? Onii-chan, are you cursed by that?」
 
 #SE53　傷つく言葉（グサッ！）
 @se53
 
 #「う……」
 ＠Itsuki
-「Urgh...」
+「Uh...」
 
 #「え、『うっ』って……も、もしかして院長先生、本当に……？」
 ＠Suika,R00007
-「Huh, that's your reply... d-don't tell me Inchou-sensei, you really are...?」
+「Huh, "uh"... d-don't tell me Inchou-sensei, you really did...?」
 
 #「ふふふ。いや、むしろそういう経験が無いことの方にショックを受けてると見た」
 ＠Shizuku,S00051
-「Fufufu. No, he's actually being shocked by lack of such experience」
+「Fufufu. No, he's actually at a loss saying that he doesn't have much in the way of experience」
 
 #「あんたはエスパーかッ！？」
 ＠Itsuki
-「Are you a mind-reader!?」
+「Are you psychic!?」
 
+#「顔に出てるのさ、顔に♪　やる時も顔に出してるから孕まないんじゃないの～？」
 ＠Shizuku,S00052
-「顔に出てるのさ、顔に♪　やる時も顔に出してるから孕まないんじゃないの～？」
+「I can tell by your expression♪ And when you do you come on their face, of course they won't get pregnant～」
 
 #うッ、くく……ッ！
 #そんなつまらない親父ギャグにさえ言い返せれない自分が情けない……！
-　Uh, kuku......!
+　Uh, damn...! I can't even talk back to such an inane old man's joke, I hate this...!
 
 #「ごめんなさい、つっちー。男の尊厳を傷つけること言ったみたい」
 ＠Zakuro,Q00114
-「Sorry, Tsuchii. It looks like I said something that hurt your man's pride.」
+「Sorry, Tsu-chi. It looks like I said something that hurt your man's pride」
 
+#「あ、謝るな……返って止めを刺されてるみたいだ」
 ＠Itsuki
-「あ、謝るな……返って止めを刺されてるみたいだ」
+「D-don't apologize... I guess my hopes of going back have received the final blow」
 
-そりゃ、確かに経験は多くない上……直接中に出したことなんかは一度も………
+#そりゃ、確かに経験は多くない上……直接中に出したことなんかは一度も………
+　It's true, I haven't done it much... and of that I can't recall coming inside even once...
 
+#（あれ？　でも美雨とのエッチは……）
 ＠Itsuki
-（あれ？　でも美雨とのエッチは……）
+（Wait, except when I had sex with Miu...）
 
-初めてのエッチの興奮で細部まで覚えてないが………直接中に出したような気がしないでもない。
+#初めてのエッチの興奮で細部まで覚えてないが………直接中に出したような気がしないでもない。
+　I was so aroused from my first time I can hardly remember the details but... I feel like I did come inside.
 
 #■BG（食堂）
 
 #「……お茶、替えてきますね」
 ＠Miu,B00043
-「......I'll refill the tea.」
+「...I'll get some more tea」
 
 #SE18　廊下を歩き去る音（実際は食堂の歩きですが、音に違和感があれば無音で）
 
@@ -253,10 +258,10 @@ event		"event\ev_all_020-01.png"
 @se18
 
 #美雨は先ほど零したカップを片し、キッチンの方へ慌しく去って行った。
-　A while ago, Miu took the spilled cup to the kitchen in a flurry.
+　Miu heads back to the kitchen a little out of sorts with the cup she spilled a moment ago.
 
 #ま、まさかな……
-　N, no way......
+　T-there's no way...
 
 #BGM切り替え
 
@@ -272,22 +277,24 @@ wait	1000
 
 #「ああ～～……」
 ＠Itsuki
-「Ah~~......」
+「Ah~~...」
 
 #「疲れる……精神的に」
 ＠Itsuki
-「I'm tired...... mentally.」
+「I'm mentally exhausted...」
 
 #身体はむしろ好調……なのだが、考えることが多すぎる。
-　My body was in a better shape, but there are too many things to think about.
+　My body's just fine, but there are too many things to think about.
 
-しかも問題提示をした人（雫さん）自らが、ノリの延長上で事態を楽しんでるから始末に終えない。
+#しかも問題提示をした人（雫さん）自らが、ノリの延長上で事態を楽しんでるから始末に終えない。
+　And the person who presented me with this issue (Shizuku-san), is enjoying the situation quite a bit so there's no end in sight.
 
 #「うぅ……つい先日のことなのに、普通の生活が懐かしいな～」
 ＠Itsuki
-「Uu...... It was just a few days ago, but I already miss my normal life~」
+「Uu... It was just a few days ago, but I already miss my normal life~」
 
-まぁ日中から黄昏ていても余計気分が暗くなるだけだ。
+#まぁ日中から黄昏ていても余計気分が暗くなるだけだ。
+　It may be approaching dusk now but it's just my mood that is gloomy.
 
 #■（選択肢）
 #■１．本でも読む（youzyo2 S-2-itiへ
