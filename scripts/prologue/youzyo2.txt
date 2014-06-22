@@ -637,22 +637,22 @@ wait	1000
 @mikan
 #「う～ん、空き部屋みたい。何も無いね」
 ＠Mikan,A00019
-「U~n, it looks like an empty room. There's nothing.」
+「Hmm, it looks like a guest room. There's nothing」
 
 #「ふぅ……」
 ＠Itsuki
-「Fuu......」
+「Phew...」
 
 #あからさまな道具が趣味悪く飾ってあるのを想像したが、中は意外と普通の部屋で安心した。
-　I was relieved to find that it was a normal looking room, when I had been expecting it to be decorated by tools and bad taste things.
+　I'd been expecting there to be tools in bad taste openly adorning it, but I was relieved to find that it was a suprisingly normal-looking room.
 
 #「だから言ったろ……。さ、出るぞ」
 ＠Itsuki
-「That's what I said...... Come, let's leave.」
+「That's what I kept telling you... come on, let's go」
 
 #「ちょっと待って、探検だからいろいろ見て行ってるの」
 ＠Mikan,A00020
-「Wait a bit, I'm exploring, so I'm going to see various things.」
+「Wait a bit, I'm exploring so I have to look some stuff」
 
 #CH（中央のみかんの立ち絵を端に移動）
 layer_move	l_mikan,1000,0,0,-200,0,passtype_tcb
@@ -660,13 +660,13 @@ wait		500
 
 #「う～ん……」
 ＠Mikan,A00021
-「U~n......」
+「Hmm...」
 
 layer_move	l_mikan,1000,-200,0,200,0,passtype_tcb
 wait		500
 
 #――キョロキョロ
-――*Looking around*
+――*Turn turn*
 
 #CH（立ち絵を中央に戻す）
 layer_move	l_mikan,1000,200,0,0,0,passtype_tcb
@@ -674,28 +674,29 @@ wait		500
 
 #「んっと～……」
 ＠Mikan,A00022
-「Nnto~......」
+「Hmm~...」
 
 @se70
 #――ゴソゴソゴソ
 ――*Rummage rummage rummage*
 
+#「………」
 ＠Itsuki
-「………」
+「...」
 
 #「やっぱり何もないのかなぁ」
 ＠Mikan,A00023
 「There really is nothing...」
 
 #……何かはあるだろう。きっとこの部屋に。
-　......There is something. Definitely in this room.
+　...There must be something. Definitely, in this room.
 
 #見つける前にさっさと退室してしまわないと。
-　We have to get out before she finds it.
+　We have to leave quickly before she finds it.
 
 #「じゃあ出よう。部屋は他にあるんだろう？」
 ＠Itsuki
-「Well, let's go. There are other rooms right?」
+「Then let's go. There are other rooms right?」
 
 #「うん。あ、机の中とかは？」
 ＠Mikan,A00024
@@ -708,14 +709,14 @@ wait		500
 @se28
 
 #ガタッ、ゴソゴソ……
-　*Open*, *rummage rummage*......
+　*Open*, *rummage rummage*...
 
 #「ん～？　お？」
 ＠Mikan,A00025
 「Hm~? Oh?」
 
 #何か興味を惹かれる物があったらしく、みかんが腕を引き出した。
-　There seemed to be something that caught her attention, and Mikan pulled her arm.
+　There seemed to be something that caught her attention, and Mikan takes her arm out.
 
 #CH（みかんの立ち絵表示）
 @mikan
@@ -724,7 +725,7 @@ wait		500
 
 #「………何だろう、これ？」
 ＠Mikan,A00026
-「.........What's this?」
+「...What could this be?」
 
 #「ガッ！」
 ＠Itsuki
@@ -735,15 +736,15 @@ wait		500
 (She ended up finding it---!!!)
 
 #無垢なみかんの手の中に、野太いアレの形をした大人の玩具が握られていた。
-　In pure Mikan's hand, "that" adult's toy was held.
+　Mikan innocently held that unmistakeable outline of an adult toy in her hand.
 
 @mikan_odoroki
 #「お兄ちゃんっ、何か変な物みつけたよっ。キノコみたいな形してる～！」
 ＠Mikan,A00027
-「Onii-chan, I found something weird. It looks like a mushroom~!」
+「Onii-chan, I found something weird. It's shaped like a mushroom~!」
 
 #クンクン……
-　*Sniff sniff*......
+　*Sniff sniff*...
 
 #「嗅ぐな～ッ！　形はキノコでも食い物じゃないぞみかんッ」
 ＠Itsuki
@@ -752,35 +753,37 @@ wait		500
 @mikan_warai
 #「あ、何かお兄ちゃんの中で、みかんが食いしんぼうキャラみたいになってる……」
 ＠Mikan,A00028
-「Ah, Mikan is starting to look like a character that likes to eat to Onii-chan......」
+「Ah, in your mind I'm starting to look like a character who only thinks about eating stuff...」
 
 @mikan_kanashimi
 #「でもそっか。食べ物じゃないのかぁ」
 ＠Mikan,A00029
-「But I see. It's not a food...」
+「But I see. It's not food...」
 
 #あっさり興味を無くすみかん。
 　Mikan quickly lost interest.
 
+#「………」
 ＠Itsuki
-「………」
+「...」
 
 #「さ、そんな変な物を見てても面白くないし。他の部屋へ探検に行こう」
 ＠Itsuki
-「Come, looking at something weird like that isn't interesting. Let's go explore some other room.」
+「Come on, you found something weird and you're still not interested. Let's go explore some other room」
 
 #「ん～……、うん～？　あ、何かスイッチがある」
 ＠Mikan,A00030
-「Hm~......, hm~? Ah, there's a switch.」
+「Hm~... let's see~? Ah, there's a switch.」
 
-カチッ（←スイッチを入れる音）
+#カチッ（←スイッチを入れる音）
+　*Click*
 
 #「な……ッ！？」
 ＠Itsuki
-「Wha-......!?」
+「Wh-...!?」
 
 #その脈絡の無い動きを止める間などなかった。
-　There was no chance to stop that unreasonable movement.
+　There was no chance to stop her thoughtless motion.
 
 #SE29　バイブが動く音（ウィィンウィィン）
 @se29
@@ -788,52 +791,54 @@ wait		500
 @mikan_odoroki
 #「………ッ！？」
 ＠Mikan,A00031
-「.........!?」
+「.....!?」
 
 #「…………ッッ！！！」
 ＠Mikan,A00032
-「............!!!」
+「........!!!」
 
 #「う、動き出したッ！？　何これ！　食べ物の動きじゃないよお兄ちゃんッ！！」
 ＠Mikan,A00033
-「I, it moved!? What is this! It's not the movement of a food, Onii-chan!!」
+「I-it's moving!? What is this! Food doesn't move like this, Onii-chan!!」
 
 #「……だから違うと言っている」
 ＠Itsuki
-「......That's why I'm saying you're wrong.」
+「...I keep telling you it's not food」
 
 @mikan
 #「生き物みたい……変な動き」
 ＠Mikan,A00034
-「It looks alive...... It moves strangely.」
+「It's like it's alive... It's moving weirdly」
 
-妖しげな動きを見せ付けるバイブを横にしたり逆さにしたり。
+#妖しげな動きを見せ付けるバイブを横にしたり逆さにしたり。
+　She puts the vibrator that's moving in a suspicious way sideways and upside down.
 
 #用途なんて尋ねられたら、どう誤魔化せばいいんだろう。
-　If she asks what it's used for, how should I trick her?
+　If she asks what it's used for, I wonder how I should trick her.
 
 #「ねぇお兄ちゃん、これ何に使う道具なの？」
 ＠Mikan,A00035
-「Hey Onii-chan, what use is this tool for?」
+「Hey Onii-chan, what's this tool used for?」
 
 #「食べ物じゃない。それが全て」
 ＠Itsuki
-「It's not food. That's all.」
+「It's not food. That's all」
 
 #「だよねぇ。何か変な匂いもしたし」
 ＠Mikan,A00036
-「Right. Something also smells weird.」
+「Yeah I know right. It kind of smells weird too」
 
 se_stop		0
 
-ポイッとあっさり引き出しへバイブを放り入れた。
+#ポイッとあっさり引き出しへバイブを放り入れた。
+　She tosses it back inside the drawer.
 
 #決定。みかんは食いしんぼうキャラだ。
-　It's decided. Mikan is a character that likes to eat.
+　In conclusion, Mikan is a character who only thinks about food.
 
 #「よし、別の部屋へ行こうみかん。つまみ食い出来るおやつを探しに」
 ＠Itsuki
-「Okay, let's go to another room, Mikan. Let's look for a snack you can eat with your fingers.」
+「Okay, let's go to another room Mikan. In search of snacks and whether we can steal something to eat」
 
 @mikan_warai
 #「うん♪」
@@ -843,10 +848,10 @@ se_stop		0
 @mikan_odoroki
 #「……って、別にそんなの探してたわけじゃないよ」
 ＠Mikan,A00038
-「......I mean, I'm not really looking for something like that.」
+「...I mean, it's not like I was looking for something like that in particular」
 
 #一瞬本気で頷いた目だった。
-　That moment, she nodded with serious eyes.
+　She nodded for a moment looking serious.
 
 #■（youzyo2 S-3へ）
 @mikan_
