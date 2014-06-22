@@ -496,7 +496,7 @@ label youzyo2_01 #############################################################
 「Wawa... yup! Definitely!」
 
 #ガシガシと頭を撫でるオレに驚きながらも、いちごは嬉しそうに声を弾ませた。
-　Surprised when I nuzzle her head roughly, she exclaims in delight.
+　Surprised when I nuzzle her head roughly, she cries out in delight.
 
 @ichigo_
 #（youzyo2 S-3）
@@ -511,10 +511,10 @@ label youzyo2_02 #############################################################
 youzyo2_flag1=1
 
 #調教部屋と言うのは、名前どおりの行為をするところ……らしい。
-　The training room, like the name, is a place where those things are done...... Or it seems like that.
+　The so-called training room, as the name suggests is where it's done... it seems.
 
 #まだ半信半疑だった初日に、美雨の案内でそういう区画の説明も受けていた。
-　I'm still half doubtful because on the first day, I received the information about this section from Miu.
+　Miu told me about that area when she showed me around the place, on the first day when I was still doubtful.
 
 #SE06　部屋のドア開く音（ガチャ）
 
@@ -523,10 +523,10 @@ youzyo2_flag1=1
 
 #「まぁ、全く興味が無いわけじゃないからな……」
 ＠Itsuki
-「Well, it's not like I have no interest at all......」
+「Well, it's not like I'm not interested at all...」
 
 #怖いもの見たさというやつか。
-　It's like wanting to see something scary just because it's scary.
+　Maybe it's like I want to get a thrill out of seeing something scary.
 
 #■BG（ブラック）
 
@@ -538,20 +538,20 @@ youzyo2_flag1=1
 
 #「今来ると、やっぱり微妙な緊張感があるな……」
 ＠Itsuki
-「If I come now, I feel a little nervous......」
+「Now that I'm here, I'm feeling pretty nervous...」
 
 #一見すると他と変わらないこの辺りが、調教部屋区画。
-　At a glance, it's not different from the other places, the training room section.
+　At first glance, the training room area is pretty similar to everywhere else.
 
 #その実態を信じている今では、初日のような気軽さは無い。
-　Now that I believe that reality, I don't have the kind of carefree-ness from the first day.
+　Now that I believe what they told me, I don't feel nearly as relaxed as the first day.
 
 #「事前確認で、今は誰も入っていないって言ってたけど………」
 ＠Itsuki
-「I confirmed before, but now there is no one inside.........」
+「But she told me there wouldn't be anyone in here at this time......」
 
 #興味があったような、控えたいような……
-　I was interested, so I wanted to hold back......
+　I'm kind of curious, I also kind of want to stay away...
 
 bgm_stop
 #「あれ？　お兄ちゃん？」
@@ -571,50 +571,50 @@ screen_vibration	500,16,16,16
 
 #「……な、なんだみかんか。よかった」
 ＠Itsuki
-「......O, oh, it's Mikan. Thank goodness.」
+「...O-oh, it's just Mikan. Thank goodness」
 
 @bgm12
 #この子なら、別にここで会っても調教現場という心配は無い。
-　If it's this child, I don't really have any worry about meeting her at the training scene.
+　If it's her, I don't have to worry about being caught here by the training rooms.
 
 #「オレは別に。みかんこそ、何の用だったんだ？」
 ＠Itsuki
-「Nothing much. Mikan too, what are you doing?」
+「Nothing much. What are you up to?」
 
 #「みかんはね、この家広いから探検中だったんだよ」
 ＠Mikan,A00015
-「Mikan was well, this house is wide, so she was exploring.」
+「This place is pretty big so I was exploring」
 
 #「いっぱい部屋があるから全部見てって、後はこの辺だけなの」
 ＠Mikan,A00016
-「There are a lot of rooms, so I wanted to look at them all and ended up here.」
+「There's so many rooms, I wanna see them all. Is there anything interesting in here?」
 
 #「この辺は何も無いぞ………うん、見ても意味無い。さぁ行こう」
 ＠Itsuki
-「There's nothing here......... Yeah, even if you look, there is no meaning. Come, let's go.」
+「There's nothing around here... there's not really any point in looking. Come on, let's go.」
 
 #CH（みかん中央の立ち絵を、端の壁側へ移動）
 layer_move	l_mikan,1000,0,0,800,0,passtype_tcb
 
 #「えッ、うわわ！？　お、押さないでよお兄ちゃん……みかん、全部の部屋見るって決めたもん」
 ＠Mikan,A00017
-「Eh, uwawa!? Do-, don't push, Onii-chan...... Mikan decided she was going to see all the rooms.」
+「Eh, uwawah!? D-don't push, Onii-chan... I said I wanted to see all the rooms for myself」
 
 #「いや、だからなみかん、この部屋は………あっ」
 ＠Itsuki
-「No, that's why, Mikan, this room is.........Ah-」
+「No, I told you Mikan, there's nothing in... Ah」
 
 #CH（反対側の端、部屋のドア側へ立ち絵表示を移動）
 layer_move	l_mikan,2000,-800,0,-150,0,passtype_tcb
 wait	1000
 
 #言葉を選ぶその隙に、みかんはスルリと手の中から逃げてしまう。
-　When I was choosing my words, Mikan slipped out of my hands and ran away.
+　When I was deciding what to say, Mikan slipped out of my hands and ran away.
 
 @mikan_warai
 #「えへへ、入っちゃうもんね～♪」
 ＠Mikan,A00018
-「Ehehe, I'm entering~♪」
+「Ehehe, I'm going in~♪」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -622,14 +622,14 @@ wait	1000
 @mikan_
 
 #そのまま中に入っていく。
-　She went inside like that.
+　And just like that she went inside.
 
 #まったく、無知とは恐ろしい………
-　Really, she's scarily ignorant.........
+　Oh man, she's so ignorant it's scary...
 
 #「はぁぁ……一人にはさせられないか……」
 ＠Itsuki
-「*Sigh*...... I can't leave her by herself......」
+「*Sigh*... I can't leave her by herself...」
 
 #■BG（調教部屋１）
 @bg_choukyou
