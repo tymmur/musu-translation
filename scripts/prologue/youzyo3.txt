@@ -27,7 +27,7 @@ date_open
 #＠樹
 #「うぅ、まだ眠い……昨日の疲れが……」
 ＠Itsuki
-「Uuh, I'm still tired... from yesterday...」
+「Uuh, I'm still tired... from everything that happened yesterday...」
 
 #SE71　目覚ましが止まる音（リンッ）
 @se71
@@ -64,12 +64,12 @@ screen_whitein		2000
 #＠いちご,O00069
 #「もう、目覚ましなんか掛けちゃだめだよ～。いちごがせっかく起こしに来てるのにぃ」
 ＠Ichigo,O00069
-「Aww, you can't set the alarm clock~. I even went out of my way to come wake you.」
+「You shouldn't set the alarm clock~. I went out of my way to come wake you.」
 
 #＠樹
 #「と、止めたのはいちごか……」
 ＠Itsuki
-「W, were you the one who stopped it...?」
+「Y-you stopped it...?」
 
 #こうならないための目覚ましセットだったのに……
 　I had set the alarm clock so this wouldn't happen...
@@ -77,7 +77,7 @@ screen_whitein		2000
 #＠いちご,O00070
 #「そだよ。ほらぁ、朝なんだからもっとテンション上げていこうよー」
 ＠Ichigo,O00070
-「Yup. Come on, it's morning, so be a little happierー.」
+「Yup. Come on, it's morning, so be a little more energetic」
 
 #SE65　寝ている人の上に飛び乗る音
 @se65
@@ -86,12 +86,12 @@ screen_whitein		2000
 #＠樹
 #「うぐぅッ！　や、やめれ……朝からこれはマジきついから……ッ！」
 ＠Itsuki
-「Uguh! St, stop... This is a lot to take first thing in the morning...!」
+「Uguh! S-stop... This is too much to take first thing in the morning...!」
 
 #＠いちご,O00071
 #「むーっ。いちごはそんなに重くないよ。せーてき体重だもん」
 ＠Ichigo,O00071
-「Awwー. I'm not THAT heavy. I'm at a "seiteki" (sexual) weight.」
+「Come on, I'm not that heavy. I'm at a "seiteki" (sexual) weight.」
 
 #＠樹
 #「どんな体重だよ性的！？　適正だろッ！」
@@ -101,7 +101,7 @@ screen_whitein		2000
 #＠いちご,O00072
 #「そんなことよりパパ。今朝は興奮した？」
 ＠Ichigo,O00072
-「Forget that, Papa. Are you excited this morning?」
+「Forget that, Papa. Are you excited today?」
 
 #サワサワ……
 　*Rustle*...
@@ -131,12 +131,12 @@ wait	500
 #＠樹
 #「はぁぁ……まったく」
 ＠Itsuki
-「*Pant*...Sheesh.」
+「Haaa...Sheesh.」
 
 #＠樹
 #「とりあえず、おはよ」
 ＠Itsuki
-「First of all, good morning.」
+「Good morning to you too」
 
 #layer_load	l_ichigo,"chara\いちご大\いちご_私服_大_喜.png"
 #layer_position_set	l_ichigo,80,0
@@ -152,7 +152,7 @@ layer_move	l_ichigo,2000,0,600,0,0,passtype_linear
 #＠樹
 #「変なことしようとするからだ……前にも言ったとおり、踏まれて興奮する趣味はないッ」
 ＠Itsuki
-「You were about to do something weird...I told you before, I don't get excited at being jumped on」
+「You were about to do something weird...I told you before, I don't get excited being jumped on」
 
 @ichigo_naki
 #layer_movepass_add	l_ichigo,0,250,0,4
@@ -186,7 +186,7 @@ layer_move	l_ichigo,2000,0,600,0,0,passtype_linear
 
 #ヤバい、泣き止まない。
 #もしかして結構危ない落ち方したんじゃないのか……？
-　Oh no, she won't stop crying. Maybe she got hurt when she fell...?
+　This isn't good, she won't stop crying. Maybe she got hurt when she fell...?
 
 #CH（いちごの立ち絵表示大）
 layer_scale	l_ichigo,1000,0,0,20,20,passtype_tcb
@@ -194,12 +194,12 @@ layer_scale	l_ichigo,1000,0,0,20,20,passtype_tcb
 #＠樹
 #「お、おい、いちご、どうした。大丈夫か？」
 ＠Itsuki
-「He, hey, Ichigo, what's wrong? Are you okay?」
+「H-hey, Ichigo, what's wrong? Are you okay?」
 
 #＠いちご,O00078
 #「うぅ～～、パパ、もっとこっち来てよぉ」
 ＠Ichigo,O00078
-「Uu~~、Papa、come a bit closer.」
+「Uu~~、Papa, come a little closer.」
 
 layer_scale	l_ichigo,1000,20,20,40,40,passtype_tcb
 
@@ -243,7 +243,7 @@ layer_scale	l_ichigo,1000,20,20,40,40,passtype_tcb
 #＠樹
 #「なッ！？　何触ってるんだコラッ！　って、ウソ泣きかいちご！？」
 ＠Itsuki
-「Wha-!? Where do you think you're touching, hey! Wait, you were just faking!?」
+「Wha-!? Where do you think you're touching, hey! So you were just faking!?」
 
 #CH（立ち絵大表示から、通常表示へ変更）
 
@@ -263,7 +263,7 @@ wait		1000
 #＠樹
 #「待ていちごッ！！　朝こうなるのは仕方ないことなんだよッ！！」
 ＠Itsuki
-「Wait, Ichigo!! It's usually like this in the morning!!」
+「Wait, Ichigo!! It's not what you think, it's usually like this in the morning!!」
 
 #SE21　廊下を走り去る音　※徐々に小さく
 @se21
@@ -286,14 +286,14 @@ se_stop		0
 #＠樹
 #「はぁぁ、はぁ……まったく、何で朝からボディーブローを受けた上に全力疾走しないといけないんだ……」
 ＠Itsuki
-「*Pant*, *pant*... Sheesh, why do I have to take a body blow first thing in the morning and then run like my life depends on it...」
+「*Pant*, *pant*... Sheesh, why do I have to take a body blow first thing in the morning and then run full speed...」
 
 @mikan
 
 #＠みかん,A00047
 #「どうしたのお兄ちゃん？　息が上がってるよ？」
 ＠Mikan,A00047
-「What's wrong, Onii-chan? You're breathing heavily」 
+「What's wrong, Onii-chan? You're panting」 
 
 #＠樹
 #「いちごを捕まえてた」
@@ -318,7 +318,7 @@ se_stop		0
 #＠樹
 #「いや、何でもないんだ。済んだことだし」
 ＠Itsuki
-「It's nothing, don't worry about it. It's over now anyways.」
+「It's nothing worth mentioning. It's over now anyways.」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -332,18 +332,18 @@ se_stop		0
 #＠美雨,B00048
 #「樹さん、おはようございます。もうすぐ朝ご飯ですから来てくださいね」
 ＠Miu,B00048
-「Itsuki-san, good morning. We'll have breakfast soon so come along」
+「Itsuki-san, good morning. We're having breakfast soon so come with us」
 
 #＠樹
 #「はぁ……おはよ」
 ＠Itsuki
-「*Pant*... 'morning.」
+「Haa... 'morning.」
 
 @miu
 #＠美雨,B00049
 #「あら、息が上がってますけど、どうかしたんですか？」
 ＠Miu,B00049
-「Oh, you're panting, what happened?」
+「Oh, you're breathing heavily, what happened?」
 
 @ichigo_yorokobi
 #＠いちご,O00083
@@ -362,7 +362,7 @@ se_stop		0
 #＠樹
 #「してないッ！　朝立ちっていうんだあれはッ！！」
 ＠Itsuki
-「I'm not! It's morning wood!!」
+「I'm not! That was morning wood!!」
 
 #＠樹
 #「………あ」
@@ -394,10 +394,10 @@ se_stop		0
 #＠樹
 #「み、美雨！？」
 ＠Itsuki
-「Mi, Miu!?」
+「M-Miu!?」
 
 #おおお……朝から何ちゅうことを叫んで聞かれてるんだオレは……
-　Oh no... I can't believe I said that out loud for everyone to hear first thing in the morning...
+　Nooo... I can't believe I said that out loud for everyone to hear right away like this...
 
 #＠樹
 #「いや、けどすいかにあんな事をさせてるだろうに。言葉くらいで照れるなんて……」
@@ -409,7 +409,7 @@ se_stop		0
 #＠雫,S00060
 #「ちっちっち、ダメだよ樹。この生活に慣れてるとはいえ、美雨は結構ウブなところがあるんだから」
 ＠Shizuku,S00060
-「Tsk tsk tsk, you can't do that, Itsuki. Even though she's getting used to this kind of lifestyle, Miu is still kind of naive.」
+「Tsk tsk tsk, you can't do that, Itsuki. She's getting used to this lifestyle, but Miu is still a little naive」
 
 #＠樹
 #「そう、なんですか？」
@@ -417,7 +417,7 @@ se_stop		0
 「R,really?」
 
 #それはそれでまぁ、情緒があるというか可愛らしいというか……微妙にホッとしたが。
-　Well in any case, I'm pretty relieved to see her cute and emotional side.
+　Well at any rate, It was nice to see her cute and emotional side.
 
 #SE13　お腹の音・弱（キュルル……）
 @se13
@@ -431,7 +431,7 @@ se_stop		0
 #＠雫,S00061
 #「待ちな」
 ＠Shizuku,S00061
-「Wai-」
+「Wait」
 
 screen_vibration	500,16,16,16
 
@@ -470,28 +470,28 @@ bg	"cg\bg\bg09.png"
 @ichigo_seifuku		#いちご制服
 #★
 #朝食も終えて、初登校のみかんを交えて子供達が学校へ行く。
-　Breakfast was finished. The children exchanged words with Mikan, who was new to going to school and then they set off for school.
+　We finished breakfast, and the kids are going to school with Mikan joining them for the first time.
 
 @miu
 
 #＠美雨,B00053
 #「みんな、忘れ物はない？　お弁当は持ったかしら？」
 ＠Miu,B00053
-「Everyone, have you forgotten anything? Do you have your bentous?」 (*could change bentou to lunch box)
+「Everyone, did you remember to take everything? Do you have your bentous?」
 
 @ichigo_warai
 
 #＠いちご,O00084
 #「うん！　いちごがお弁当を忘れるわけないよー♪」
 ＠Ichigo,O00084
-「Yup! There's no way I would forget my bentouー♪」
+「Yup! I would never forget my bentouー♪」
 
 @suika_odoroki
 
 #＠すいか,R00108
 #「……いちごちゃん、カバンは？」
 ＠Suika,R00108
-「……Ichigo-chan, where's your bag?」
+「...Ichigo-chan, where's your bag?」
 
 @ichigo_gimon
 
@@ -505,7 +505,7 @@ bg	"cg\bg\bg09.png"
 #＠いちご,O00086
 #「あーっ！　どっか置いてきたッ！　探してくる」
 ＠Ichigo,O00086
-「Ahーっ! I left it somewhere! I'll go look for it.」
+「Ahー! I left it somewhere! I'll go look for it.」
 
 layer_move	l_ichigo,500,0,0,800,0,passtype_tcb
 wait	500
@@ -517,55 +517,55 @@ wait	500
 #＠樹
 #「何をしに学校に行く気だったんだよ」
 ＠Itsuki
-「What was she planning to do at school like that?」
+「What kind of school does she think she's going to?」
 
 #入れ違うようにみかんが玄関へやってくる。
-　Mikan came into the entranceway and we passed each other.
+　Mikan showed up in the entryway after Ichigo.
 
 @mikan
 
 #＠みかん,A00049
 #「……いちごちゃんどうかしたの？　逆走して行ったけど」
 ＠Mikan,A00049
-「……Ichigo-chan, what's wrong? You came running backwards.」
+「...What happened to Ichigo? She was running the other way」
 
 @zakuro
 
 #＠ざくろ,Q00122
 #「ほとんど日課の運動だから。気にしないで」
 ＠Zakuro,Q00122
-「It's practically her daily routine. Don't worry about it.」
+「It's like her daily exercise routine. Don't worry about it.」
 
 @mikan
 
 #＠みかん,A00050
 #「そうなんだ？　朝のジョギングなら外でやればいいのに」
 ＠Mikan,A00050
-「Really? She should do her morning jogging outside though.」
+「Really? It would be nicer if she jogged outside though.」
 
 @mikan_kanashimi
 
 #＠みかん,A00051
 #「あ、それより美雨さん、みかんのお弁当が見つからないの～……探してるんだけど」
 ＠Mikan,A00051
-「Ah, more importantly, Miu-san, I can't find my bentou~……I looked for it but…」
+「Ah, more importantly Miu-san, I can't find my bentou~...I've been looking for it...」
 
 @miu_komaru
 
 #＠美雨,B00054
 #「みかんちゃんの？　えっと……」
 ＠Miu,B00054
-「Mikan-chan's bentou? Umm……」
+「Mikan-chan's bentou? Hmm...」
 
 @miu_warai
 
 #＠美雨,B00055
 #「あ、そうそう。ハンバーグが好きって言っていたから余分に入れてあげて、食堂に―――」
 ＠Miu,B00055
-「Ah, yes yes. You said you liked hamburger meat so I was going to give you extra. It's in the dining room―――」
+「Oh, that's right. You said you liked hamburger patties so I put some extra for you. It's in the dining room―――」
 
 #スッとその場の全員の視線が食堂の方へと向かれる。
-　Suddenly, everyone's gaze shifted towards the direction the dining room was in.
+　Suddenly, everyone's attention was diverted toward the dining room.
 
 #//立ち絵なし
 
@@ -575,29 +575,29 @@ wait	500
 #＠いちご,O00087
 #「ないよーー！！　どこにもいちごのカバンがないーー！！」
 ＠Ichigo,O00087
-「It's not hereーー!! My bag is nowhere to be foundーー!!」
+「It's not hereーー!! I can't find my bag anywhereーー!!」
 
 #中でいちごが暴れていた。
-　Inside, Ichigo ran amock.
+　Ichigo could be heard running around panic-stricken inside.
 
 #＠いちご,O00088
 #「うわッ、何か誰かのお弁当ひっくり返したーー！！」
 ＠Ichigo,O00088
-「Uwah, I think I knocked over someone's bentouーー!!」
+「Uwah, I knocked over someone's bentouーー!!」
 
 @miu
 
 #＠美雨,B00056
 #「……そのまま食堂に置いたままだったかしら」
 ＠Miu,B00056
-「……I wonder if it's still in the dining room like I left it.」
+「...I think I left it in the dining room」
 
 @mikan_komikaru_ikari
 
 #＠みかん,A00052
 #「………！！！」
 ＠Mikan,A00052
-「………！！！」
+「...!!!」
 
 layer_move	l_mikan,500,0,0,800,0,passtype_tcb
 wait	500
@@ -609,12 +609,12 @@ wait	500
 #＠みかん,A00053
 #「ふにーーーーーーー！！！！！（激怒」
 ＠Mikan,A00053
-「Funiーーーーーーー!!!!!(rage.」
+「Funiーーーーーーー!!!!!*rage*」
 
 #＠いちご,O00089
 #「ぴあッ！？　何ッ、何で怒ってるのみかん！？　ひーーーーん！！」
 ＠Ichigo,O00089
-「Piah!? Wh, why are you mad, Mikan!? Hiiiin (eek)!!」
+「Piah!? W-why are you mad, Mikan!? Hiiiin!!」
 
 #SE41　暴れる音（ドタンッバタンッ！）
 @se41
@@ -622,20 +622,20 @@ wait	500
 #＠樹
 #「………」
 ＠Itsuki
-「………」
+「...」
 
 #★
 @zakuro
 #＠ざくろ,Q00123
 #「日記に新たな１ページが追加」
 ＠Zakuro,Q00123
-「A new page added in my diary.」
+「A new page for my diary.」
 
 @suika
 #＠すいか,R00109
 #「はぁぁ……あんまり遅刻したくないなぁ」
 ＠Suika,R00109
-「*Pant*……I don't want to be too late.」
+「Haaa...I don't want to be too late.」
 
 @suika_
 @zakuro_
@@ -657,12 +657,12 @@ label youzyo3_02 ##############################################################
 #＠雫,S00063
 #「ふふ、昨日よりも随分と上がってるね……予想通りだ」
 ＠Shizuku,S00063
-「Fufu, they've gone up quite a bit since yesterday……like I expected.」
+「Fufu, they've gone up quite a bit since yesterday... just like I thought」
 
 #＠樹
 #「雫さん？　珍しいですね、家にいるなんて」
 ＠Itsuki
-「Shizuku-san? How rare, for you to be inside the house.」
+「Shizuku-san? How rare to see you at home.」
 
 #＠雫,S00064
 #「いや、すぐ出かけないといけない。ちょっと新聞の確認をね」
@@ -672,14 +672,14 @@ label youzyo3_02 ##############################################################
 #＠樹
 #「ふ～ん。上がってるって、株か何かですか………って、降雪確立？」
 ＠Itsuki
-「Hmm. "Gone up", is she talking about stocks or something………? Wait, 'snow establishment'?」
+「Hmm. "Gone up", do you mean stocks or something... Wait, 'Snowfall probability'?」
 
 @shizuku_chousyou
 
 #＠雫,S00065
 #「ああ。昨日よりもずいぶん上がってるだろ」
 ＠Shizuku,S00065
-「Aah. They've gone up quite a bit since yesterday.」
+「Yeah. It's gone up quite a bit since yesterday you know.」
 
 #SE66　効果音１（ビシッ！）
 @se66
@@ -687,35 +687,35 @@ label youzyo3_02 ##############################################################
 #＠樹
 #「外見てください外！　今も思いっきり降ってますから！」
 ＠Itsuki
-「Please look outside, outside! It's snowing very heavily right now!」
+「Just look outside! It's snowing pretty heavily right now!」
 
 @shizuku
 #★
 #「ムキになりなさんな。同じ天気予報でもこう呟くと、頭よさそうに見えるだろ？」
 ＠Shizuku,S00066
-「Dont be so mad, if you murmur like this, the same whether report looks more intelligent right?」
+「Don't get your panties in a bunch. It looks smarter if I sit here quietly and read the weather report doesn't it」
 
 #さすがここの子達の保護者、変わり者っぷりも普通じゃない。
-　Like I thought, the guardian of the children here is an eccentric person and not normal.
+　As you'd expect, the guardian of the children here is a strange and unusual character.
 
 #＠雫,S00067
 #「さて、じゃあ今日も出かけますか」
 ＠Shizuku,S00067
-「Then, are you going out again today?」
+「I guess I'll head out for today too」
 
 #＠樹
 #「あ、ちょっとその前に話があるんですけど」
 ＠Itsuki
-「Ah, I have something to say before that.」
+「Ah, there's something I have to talk to you about first」
 
 #＠雫,S00068
 #「んん？　何、忙しいんだから手短に、有意義なことしか聞かないよ？」
 ＠Shizuku,S00068
-「What? I'm busy so make it brief and I don't listen to anything that isn't worthwhile, alright?」
+「Hmm? I'm busy so make it short and I won't listen to anything that isn't worthwhile」
 
 #★
 #さっき天気予報でアホな事を呟いていた人の台詞とは思えないが。
-　It dosent sound like words coming out from the idiot who reported the weather just then.
+　That doesn't sound like something someone who idiotically reported the weather just now would say.
 
 #BGM/STOP
 bgm_stop
@@ -723,11 +723,11 @@ bgm_stop
 @bg_black
 
 #これはオレの一大決心。
-　This is my crucial decision.
+　This is my big decision.
 
 #★
 #漠然と考えていたことの答えを………告げる。
-　I said my answer after given much thought to this question.
+　I'll give her my answer after much deliberation.
 
 @bg_living
 @shizuku
@@ -735,36 +735,36 @@ bgm_stop
 #＠樹
 #「唐突なんですけど、オレ……」
 ＠Itsuki
-「This is kind of sudden, but I……」
+「This is kind of sudden, but I...」
 
 #＠樹
 #「ずっと考えてたこと、ようやく答えが出ました」
 ＠Itsuki
-「I've always thought about it, but I've finally got an answer.」
+「I've been thinking about it, and I finally know what I'm going to do.」
 
 #＠樹
 #「オレは、この施設を継ごうと思います」
 ＠Itsuki
-「I'm thinking about succeeding this institution.」
+「I'd like to succeed this institution.」
 
 #＠雫,S00069
 #「………」
 ＠Shizuku,S00069
-「………」
+「...」
 
 #＠樹
 #「…………」
 ＠Itsuki
-「…………」
+「......」
 
 #……言った。
-……I said it。
+...I said it。
 
 #答えてしまった。
-　I replied.
+　I answered.
 
 #これでもう、オレは今までの生活に戻ることは出来ない。
-　Now, I can't return to living my life the way I was before.
+　With this I won't be able go back to living my life the way I was before.
 
 #未練が無いとは言えないが………しかし後悔もない。
 　It's not like I'm not reluctant………but it's not like I don't have any regrets either.
