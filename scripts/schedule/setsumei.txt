@@ -7,24 +7,25 @@ date_open
 
 @shizuku
 
+#「じゃあ実際にスケジュールを組む過程で説明をするって話だったけど」
 ＠Shizuku,S00093
-「So, now I will give you an explanation of the process of constructing the schedule.」
+「So I'll explain to you now how to go about making the schedule」
 
 #「とりあえず注意してほしいのは、調教とは言っても子供達の健康状態やメンタル面でも気を使ってもらいたいってこと」
 ＠Shizuku,S00094
-「Firstly I want you to take this piece of advice: although called training you will want to concern yourself with the children's health and mental levels among other things.」
+「Firstly take this to heart: although you're "training" them you have to pay attention to the kids' health and mental state」
 
 @shizuku_ikari
 
 #「調教は手段であって目的じゃないからね。肝心の売春に支障が出るようになったら困る」
 ＠Shizuku,S00095
-「The training has a method but you don't know the goal, right? I'm worried about how you will deal with the obstacles.」
+「Training is the process but it's not the final goal. I'm worried you won't know how to deal with prostituting them」
 
 @shizuku
 
 #「それらを踏まえた上でのスケジュール調整だけど……説明、した方がいいかい？」
 ＠Shizuku,S00096
-「So the schedule adjustment that is based on these things...... Had I better explain it?」
+「Should I explain how to adjust the schedule and account for these things?」
 
 #■（選択肢）
 #■（１．お願いする）（youzyoG S-1-1へ）
@@ -36,7 +37,7 @@ date_open
 #■（Choice）
 #■（１．Please do.）（youzyoG S-1-1へ）
 #■（２．I get the main points.）（youzyoG S-2へ）
-select	sel,"Please do.","I get the main points."
+select	sel,"Please do","I get it mostly"
 if sel=0 then goto youzyos_01
 if sel=1 then goto youzyos_02
 
@@ -50,7 +51,7 @@ label youzyos_01 ##############################################################
 
 #「世話が焼けるねぇ……じゃあ、ざっくりと説明させて貰うよ」
 ＠Shizuku,S00097
-「How troublesome...... Then, I will give you a brief overview.」
+「How troublesome... I'll go over it quickly then」
 
 #■setumei_00
 layer_load	1,"cg\setumei\setumei_00.png"
@@ -65,11 +66,11 @@ wait	500
 
 #「樹にはまずはみかんの調教を担当してもらおうか。他の娘はだいたいこっちで調教を進めているからね」
 ＠Shizuku,S00098
-「To start with, shall we put you in charge of Mikan? Since the other girls are already advanced in their training.」
+「You'll be in charge of Mikan for now. The other girls are already more advanced in their training」
 
 #「慣れてきたら他の娘も担当してもらうから、ぼさっとしてないで早めに覚えるんだよ」
 ＠Shizuku,S00099
-「Once you get a feel for it you will be in charge of the other girls as well, so commit to memory now not to be lazy.」
+「Once you've learned the ropes you'll be in charge of the other girls as well, so no slacking off」
 
 #■setumei_01
 layer_move		1,500,300,0,800,0,passtype_neville_a
@@ -81,51 +82,51 @@ layer_move		2,1000,800,0,300,0,passtype_neville_a
 @shizuku
 #「期間は一年間。調教は土曜日に行ってもらう」
 ＠Shizuku,S00100
-「A term lasts one year. You will do the training on Saturdays.」
+「A term lasts one year. You will do the training on Saturdays」
 
 #「あんたにチンポが何本もあるわけじゃなし」
 ＠Shizuku,S00101
-「It doesn't mean you'll have any number of dicks.」
+「You've only got one dick right」
 
 #「複数同時に……ってわけには行かないから、何人かをできるようになっても、好きな娘をひとり選んで調教してもらうよ」
 ＠Shizuku,S00102
-「Because you're not allowed to do...... several at once, even though they have to take up with other people, you will choose one girl you like and train her.」
+「You're not allowed to do... several of them at once. Some people might be able to pull it off, but you'll choose one girl you like and train her」
 
 #「何本もあったら、ヒュドラみたいですね」
 ＠Itsuki
-「If I had any number of dicks, I'd be like a hydra eh?」
+「If I had more than one dick, I'd be like a hydra」
 
 @shizuku_warai
 
 #「まあ最初はどの数値が～とか小難しく考えないで、ヤりたい娘とやる位の認識で進めていったらいいんじゃないかい？」
 ＠Shizuku,S00103
-「However, don't think too torturously at the outset about things like numbers, isn't it enough just to advance doing the one you want to do?」
+「But don't worry about stats too much at the beginning, it's enough to progress with the one you want to do right」
 
 @shizuku_ikari
 #「でもゆくゆくは、あの娘たちを『使える』用にして貰わないと……だけどね」
 ＠Shizuku,S00104
-「However, when one day the girls will no longer do this service that is so "useful"...... consider that.」
+「Still, I would try and have them all be "of service to you" down the line...」
 
 #「どっ……努力します」
 ＠Itsuki
-「I...... I'll do my very best.」
+「I... I'll be mindful of that」
 
 @shizuku
 #「さっきも言ったけど、女の子達にあまり無理をさせるんじゃないよ」
 ＠Shizuku,S00105
-「You said that already, but I'm glad to hear your concern for the girls.」
+「I said it before, but make sure not to overdo it with them」
 
 #「あの娘たちは『商品』なんだから、壊してしまったら大損だ。そんなわけで、体力やなんかにも気を配って、ね」
 ＠Shizuku,S00106
-「Since these lolis are a "prized commodity", if they're damaged it would be a heavy loss. For that reason, be watchful of their physical strength among other things.」
+「These girls are our "merchandise", it's a big deal if they get damaged. So be sure to take care of their physical status and other stuff」
 
 #「もちろんですよ。壊すなんて……」
 ＠Itsuki
-「Of course. Things like being damaged......」
+「Of course I'll do that. Getting damaged, my gosh...」
 
 #「その言葉、忘れないでおくよ」
 ＠Shizuku,S00107
-「That word, don't you forget it.」
+「That word, don't you forget it」
 
 goto	setsumei_skip
 #体験版用限定の台詞
@@ -170,11 +171,11 @@ label	setsumei_skip
 
 #「ところで、調教が土曜日、と言うことは……他の日は何をすればいいんでしょうか？」
 ＠Itsuki
-「By the way, you said training is on Saturdays...... What should I do on the other days?」
+「You said training is on Saturdays... what should they do on the other days?」
 
 #「ん、まあいろいろだよ。これを見な」
 ＠Shizuku,S00115
-「Well, various things, you might say. Look at this.」
+「Well, all sorts of things. Take a look at this」
 
 #■setumei_02
 layer_move		2,500,300,0,800,0,passtype_neville_a
@@ -185,47 +186,47 @@ layer_move		1,1000,800,0,300,0,passtype_neville_a
 
 #「月曜日から金曜日までは、こんな感じの画面で、スケジュールを決定してもらう」
 ＠Shizuku,S00116
-「From Monday to Friday, on the screen shown you will decide your schedule.」
+「On the screen shown you'll decide their schedule from Monday to Friday」
 
 #「この『お勉強』『バイト』『せったい』『おやすみ』『とくべつ』ってのが、大きい分類」
 ＠Shizuku,S00117
-「Here we have "Study", "Work", "Entertainment", "Day off", and "Special", a large selection.」
+「There is "Study", "Work", "Service", "Rest", and "Special", a number of choices」
 
 #「この文字をクリックすると、下の枠に実行できるコマンドが現れる。たとえば、『お勉強』をクリックしたなら、『お勉強（やさしい）』が現れる、とかね」
 ＠Shizuku,S00118
-「When you click a choice, commands that let you participate appear in a preliminary frame. For example, if you click "Study", "Study (easy)" shows up, among other things.」
+「When you click a tab, choices appear in the frame below. For example, if you click "Study", "Study (easy)" shows up as an option」
 
 #「そしてさらにまたそれをクリックすると、コマンドが選択されてスケジュールに組み込まれる」
 ＠Shizuku,S00119
-「And furthermore when you click again, the command is selected and inserted into the schedule.」
+「And when you click that, the command is selected and put into the schedule」
 
 #「なんだか頭が痛くなってきました……」
 ＠Itsuki
-「My head has started hurting a little bit......」
+「I'm getting a little dizzy...」
 
 #「ああもう、言葉だけで説明するのは難しいねぇ……そんなに難しいことじゃないから、後でやってみればいいよ」
 ＠Shizuku,S00120
-「Ah, but explaining with words is difficult...... It's really not that difficult, so it'll be fine when you try it later.」
+「Aw jeez, explaining it like this is difficult... it's pretty easy, you won't have any issues when you try it later」
 
 #「今できることは少ないけど、ゆくゆくはいろいろ出来るようになっていくよ」
 ＠Shizuku,S00121
-「Although your knowledge is scarce right now, you'll be able to do plenty of things in the future.」
+「There's not a lot you can do right now, but you'll be able to do plenty of things in the future」
 
 #「もっとも、あんたの力量次第だけどね」
 ＠Shizuku,S00122
-「Of course, it all depends on your ability.」
+「Of course, it all depends on how well you've been doing」
 
 #「うっ、しょ、精進いたします……」
 ＠Itsuki
-「Mhm, I-I'll be diligent......」
+「Um, I-I'll keep at it」
 
 #「んーと？『せったい』……は接待ですよね？それは解るとして、『お勉強』『バイト』『おやすみ』『とくべつ』ってなんですか？」
 ＠Itsuki
-「Hmm? "Entertainment"...... is just like wining and dining and talking, right? I understand that, but can you explain "Study", "Work", "Day off", and "Special"?」
+「Hmm? "Service"... is service right? I know that one, but what's "Study", "Work", "Rest", and "Special"?」
 
 #「じゃあ順を追って説明していこうかね」
 ＠Shizuku,S00123
-「Let's go through them one by one.」
+「Let's go through them one by one」
 
 #■setumei_03
 layer_move		1,500,300,0,800,0,passtype_neville_a
@@ -236,32 +237,32 @@ layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 #「まずは『お勉強』」
 ＠Shizuku,S00124
-「First, "Study."」
+「First, "Study"」
 
 @shizuku_akire
 
 #「……チンポしゃぶるだけならアホでも出来だろう？」
 ＠Shizuku,S00125
-「...... If they do nothing but suck dicks they'd become stupid, don't you think?.」
+「...If they do nothing but suck dicks they'd become stupid, don't you think?」
 
 @shizuku_warai
 
 #「だけど、教養のある娼婦は魅力がある。そうすると、客に高く買ってもらえる」
 ＠Shizuku,S00126
-「However, a prostitute that has cultivation also holds charm. Having done that, you will be able to attract more expensive customers.」
+「But a cultivated prostitute holds charm. With that, you'll be able to attract more expensive customers」
 
 #「勉強させたりすることは、長い目で見れば、それだけここで得られる収入が多くなるってことさ」
 ＠Shizuku,S00127
-「Fact is, making the girls study, if you're looking in the long-term, is the only way for our revenue to grow.」
+「Having the girls study, if you're looking in the long-term, is the only way for our revenue to grow」
 
 #「簡単に言うと」
 ＠Itsuki
-「Simple enough.」
+「Simple enough」
 
 @shizuku_akire
 #「……これだからゲーム脳はいやだねぇ」
 ＠Shizuku,S00128
-「...... It's because of this I don't like game memory.」
+「...It's because of this I don't like being able to save」
 
 #■setumei_04
 layer_move		2,500,300,0,800,0,passtype_neville_a
@@ -274,46 +275,46 @@ layer_move		1,1000,800,0,300,0,passtype_neville_a
 
 #「『お勉強』させたり、『習いごと』をさせたりしてパラメーターを上げる。そうすると」
 ＠Shizuku,S00129
-「Having selected studying, a lesson unfolds and raises a parameter.」
+「You have her study and teach her lessons, and this raises a parameter. Once that's done...」
 
 #「お客を取らせた時……つまり、『せったい』をした時に得られるお金が多くなる……これでわかったかい？」
 ＠Shizuku,S00130
-「The time that is spent on studying...... In short, it raises the money earned from the time spent on "Entertainment"...... Understand?」
+「Basically the more time you spend on studying... the more money you'll be able to earn from "Service"... make sense?」
 
 #「あ、すごくよくよくわかりました」
 ＠Itsuki
-「Yeah, I got it real good.」
+「Yeah, perfectly」
 
 #「……ハァ……大丈夫なのかねぇ？」
 ＠Shizuku,S00131
-「...... Haa...... So we're good with this?」
+「...Haa... I wonder about that」
 
 #「で、『お勉強』って誰が教えるんですか？……もしかして雫さん？」
 ＠Itsuki
-「So, who is it that will be teaching...... maybe, Shizuku-san?」
+「So, who will be doing the teaching... you?」
 
 #「この絵を見てわかんないのかい？」
 ＠Shizuku,S00132
-「Look at this picture, is it not clear?」
+「Is it not clear looking at the picture?」
 
 #「うわーすごいイケメンがいるーだれかなーこれ」
 ＠Itsuki
-「Uwah! What a good-looking guy. I wonder who it could be, this.」
+「Uwah! What a good-looking guy. Whoever could it be」
 
 @shizuku_ikari
 
 #「あ・ん・た。……腐っても大学生だろ？土屋樹」
 ＠Shizuku,S00133
-「Y-o-u. ...... Seems like a spoiled college student. Tsuchiya Itsuki.」
+「Y-o-u. He's corrupted but he is a university student after all. Tsuchiya Itsuki」
 
 #「……かなって思ってましたけど……やっぱりオレなんですね」
 ＠Itsuki
-「...... It's as I thought...... It really is me.」
+「...That's what I thought too. So it's me after all」
 
 @shizuku_warai
 #「あんたの『お勉強』にもなって一石二鳥だろ？」
 ＠Shizuku,S00134
-「You'll be doing the tutoring too. Killing two birds with one stone eh?」
+「Maybe you can learn a thing or two as well. Killing two birds with one stone」
 
 #■setumei_05
 layer_move		1,500,300,0,800,0,passtype_neville_a
@@ -323,16 +324,17 @@ layer_position_set	2,0,64
 layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 @shizuku
+#「あとはお金を稼ぐ行為……『バイト』や、『せったい』なんかもできるよ。たまにはアルバイトでまっとうに金を稼ぐのもいいんじゃないかい？」
 ＠Shizuku,S00135
-「After that are the money-earning activities...... Work and entertainment among other things. It's fine even to earn money respectably with an odd job sometimes, isn't it?」
+「After that are activities that earn money... "Work" and "Service". Sometimes it's nice earning money properly with a job」
 
 #「収入は客の相手をする『せったい』に比べたら、微々たるもんだけどね」
 ＠Shizuku,S00136
-「If you compare the income in "Entertainment" in which the girls make company with the customer, it's kind of insignificant.」 (not sure which)
+「But compared to the amount earned with "Service", it's kind of insignificant」
 
 #「社会勉強にはなると思うよ。社会を知ってる娼婦は客にも人気があるからね」
 ＠Shizuku,S00137
-「I think social learning grows here. A prostitute that is acquainted with society is also popular with the customers.」
+「You can up their social skills with this one. A prostitute that is well-versed with society is also popular with the customers」
 
 #■setumei_06
 layer_move		2,500,300,0,800,0,passtype_neville_a
@@ -343,15 +345,15 @@ layer_move		1,1000,800,0,300,0,passtype_neville_a
 
 #「一応、『バイト』にも『せったい』にもあんたについていってもらうよ」
 ＠Shizuku,S00138
-「Just in case, you will accompany them to work and entertainment.」
+「Just in case, you'll go with them them for "Work" and "Service"」
 
 #「あの娘たちだけだといろいろ心配だしね」
 ＠Shizuku,S00139
-「If those girls are there all alone I would have many concerns.」
+「I'd be concerned leaving them there all alone」
 
 #「わかりました……『せったい』って、早い話、あの娘たちがお客さんの相手をする、ってことですよね？」
 ＠Itsuki
-「I see...... So long story short, you mean this "entertainment" is a way for the customer to get to know the girls.」
+「OK... for "Service", it's basically the girls making company for the guests right?」
 
 #■setumei_07
 layer_move		1,500,300,0,800,0,passtype_neville_a
@@ -362,80 +364,82 @@ layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 #「そうだよ。まあ、『せったい』にもいろいろあって、お酒をついで話し相手になるだけの接待から、身体を使った接待までいろいろあるけどね」
 ＠Shizuku,S00140
-「That's right. Well, it has various attractions. We pour the guest some sake and although they start out talking, eventually they use their bodies in different ways.」
+「Yup. Well, there's different things, it starts with serving drinks and talking, and then it goes on to more sexual things」
 
+#「………………」
 ＠Itsuki
-「………………」
+「......」
 
 #「あ、なんだいその顔は」
 ＠Shizuku,S00141
-「What a face.」
+「Ah, what's with that face」
 
 @shizuku_ikari
 
 #「もしかして、『あの娘たちを誰にも触らせたくない！』とか思ってないだろうねぇ？」
 ＠Shizuku,S00142
-「Seems like you're thinking, "I don't want to let those children be touched by just anyone," aren't you?」
+「I hope you're not thinking "I don't want to let anyone touch them!"」
 
 @shizuku_akire
 
 #「やめておくれよ、そういう私情を挟むのは」
 ＠Shizuku,S00143
-「Let it go, in that way you impose your own self-interest.」
+「We don't need you imposing your own selfish interests」
 
 #「どうしてもイヤだって言うんなら、まあせいぜい死ぬほど頑張ってみることだね。もしかしたら奇跡が起こるかも知れないしねぇ」
 ＠Shizuku,S00144
-「Even if I said a year, the situation is such that we keep trying until death, you could say. Maybe some miracle will happen, but I doubt it.」
+「If you refuse no matter what, you won't pay it off until you're dead. Unless some miracle happens」
 
 #「奇跡、ですか……」
 ＠Itsuki
-「Miracle......?」
+「Miracle...?」
 
 @shizuku_warai
 
 #「『人の一年岩をも通す』ってね」
 ＠Shizuku,S00145
-「So we say "Make way for the men for another year, at least."」
+「Like "men having their year"」
 
 #「それを言うなら『人の一念』でしょう……」
 ＠Itsuki
-「You mean "Men will have their way"......」
+「The saying goes "men having their way"...」
 
 @shizuku
 
 #「期間は一年間だからあながち間違いでも無いじゃないか」
 ＠Shizuku,S00146
-「Well, a term is one year so it's not necessarily wrong to say that, is it?」
+「Well, a term is one year so it's not necessarily wrong to say that is it?」
 
 #「本当に適当だなぁ………」
 ＠Itsuki
-「Is that really appropriate.........」 (not sure)
+「I guess it's the right thing to do...」
 
 #「適当が一番！ガチガチに生きてたら、楽しくないだろ？」
 ＠Shizuku,S00147
-「It's approprate 100%! If I lived frozen solid, where would be the fun?」
+「Of course it is! If I lived frozen solid, where would be the fun?」
 
 #「そういうもんですかね……」
 ＠Itsuki
-「I can't accept this......」
+「Is that how it is...」
 
 @shizuku_ikari
 
 #「そうそう、樹のチンポみたいにふにゃふにゃに生きるんだ。こんなふうに」
 ＠Shizuku,S00148
-「Hmmm, Itsuki's dick appears to be functioning limply at the moment. Then......」
+「Hmmm, Itsuki's dick appears to be limp and non-functional at the moment. Just look at this」
 
 #効果音ｶﾞｯ
 @se38
 
+#「ギャー！」
 ＠Itsuki
-「ギャー！」
+「Gyah!」
 
 @shizuku_warai
 
 #「あれ、思ったよりふにゃふにゃじゃないねぇ。前言撤回」
 ＠Shizuku,S00149
-「There, now you won't be thinking so limply down there. I can take it back.」
+「Huh, it's not as soft as I thought. I take it back」
 
 @shizuku
 
