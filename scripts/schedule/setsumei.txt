@@ -1,3 +1,4 @@
+#TLSTATUS File is edited by RaurosFalls 22/07/14
 label	schedule_setsumei
 date_set	2007,1,14
 date_open
@@ -9,23 +10,23 @@ date_open
 
 #「じゃあ実際にスケジュールを組む過程で説明をするって話だったけど」
 ＠Shizuku,S00093
-「So now I'll explain to you how to go about making the schedule」
+「So I'll explain to you how to go about making the schedule now」
 
 #「とりあえず注意してほしいのは、調教とは言っても子供達の健康状態やメンタル面でも気を使ってもらいたいってこと」
 ＠Shizuku,S00094
-「Firstly hear this: you're "training" them but you have to pay attention to the kids' health and mental state」
+「Firstly hear this: you're "training" them but you have to pay attention to things like the kids' health and mental state」
 
 @shizuku_ikari
 
 #「調教は手段であって目的じゃないからね。肝心の売春に支障が出るようになったら困る」
 ＠Shizuku,S00095
-「Training is the process but it's not our final goal after all. I'm worried you won't know how to deal with prostituting them」
+「Training is the process but it's not our final goal after all. I'm not sure if you're going to know how to deal with prostituting them」
 
 @shizuku
 
 #「それらを踏まえた上でのスケジュール調整だけど……説明、した方がいいかい？」
 ＠Shizuku,S00096
-「With this in mind do you want me explain how to work the schedule?」
+「With this in mind do you want me explain how to manage the schedule?」
 
 #■（選択肢）
 #■（１．お願いする）（youzyoG S-1-1へ）
@@ -171,11 +172,11 @@ label	setsumei_skip
 
 #「ところで、調教が土曜日、と言うことは……他の日は何をすればいいんでしょうか？」
 ＠Itsuki
-「You said training is on Saturdays... what should they do on the other days?」
+「You said training is on Saturdays... what will they do on the other days?」
 
 #「ん、まあいろいろだよ。これを見な」
 ＠Shizuku,S00115
-「Well, all sorts of things. Take a look at this」
+「Hm? Well, all sorts of things. Take a look at this」
 
 #■setumei_02
 layer_move		2,500,300,0,800,0,passtype_neville_a
@@ -283,7 +284,7 @@ layer_move		1,1000,800,0,300,0,passtype_neville_a
 
 #「あ、すごくよくよくわかりました」
 ＠Itsuki
-「Ah, yup I get it totally」
+「Ah, yup I get it, crystal clear」
 
 #「……ハァ……大丈夫なのかねぇ？」
 ＠Shizuku,S00131
@@ -295,7 +296,7 @@ layer_move		1,1000,800,0,300,0,passtype_neville_a
 
 #「この絵を見てわかんないのかい？」
 ＠Shizuku,S00132
-「Is it not clear looking at the picture?」
+「Is it not obvious looking at the picture?」
 
 #「うわーすごいイケメンがいるーだれかなーこれ」
 ＠Itsuki
@@ -314,7 +315,7 @@ layer_move		1,1000,800,0,300,0,passtype_neville_a
 @shizuku_warai
 #「あんたの『お勉強』にもなって一石二鳥だろ？」
 ＠Shizuku,S00134
-「Maybe you can learn a thing or two as well. Killing two birds with one stone」
+「Maybe you can learn a thing or two as well. You can kill two birds with one stone」
 
 #■setumei_05
 layer_move		1,500,300,0,800,0,passtype_neville_a
@@ -398,7 +399,7 @@ layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 #「『人の一年岩をも通す』ってね」
 ＠Shizuku,S00145
-「Like "the people taking their year"」
+「Like "the people having their year"」
 
 #「それを言うなら『人の一念』でしょう……」
 ＠Itsuki
@@ -482,7 +483,7 @@ layer_move		2,1000,800,0,300,0,passtype_neville_a
 
 #「これは、さっき言ってた『習いごと』……お金を使って能力を上げるコマンドみたいですね」
 ＠Itsuki
-「This is those "art lessons" you mentioned before... it looks like it raises ability and spends money」
+「This is those "art classes" you mentioned before... it looks like it raises ability and spends money」
 
 #setumei_10.png
 layer_move		2,500,300,0,800,0,passtype_neville_a
@@ -523,7 +524,7 @@ money_open
 
 #「あとは……肝心の、お金。ゼニー。借金だね」
 ＠Shizuku,S00159
-「After that... the most important thing, money. We have a debt」
+「After that... the most important thing, money. Coin. It's a debt」
 
 @se_shock
 #「あああああ」
@@ -546,7 +547,7 @@ money_open
 
 #「心が折れそうです……」
 ＠Itsuki
-「This could break somebody's spirit...」
+「You could lose your will to live seeing this...」
 
 @shizuku
 
@@ -596,7 +597,7 @@ money_open
 
 #「一応、自由に使うことが出来るよ。買い物なんかも出来る」
 ＠Shizuku,S00169
-「You may spend it on shopping goods and stuff as you wish」
+「You may spend it on shopping and stuff as you wish」
 
 #「借金があるのに使っていいんですか？」
 ＠Itsuki
@@ -673,15 +674,15 @@ wait	500
 
 #「まずは一番上、ピンク色の『けんこう』」
 ＠Shizuku,S00178
-「Firstly topmost, in the pink colour is "Stamina"」
+「Firstly topmost, in the red colour is "Stamina"」
 
 #「これは娘たちの健康状態を数値にしたもの。左の数値が今の娘の健康状態。右が上限値」
 ＠Shizuku,S00179
-「This serves to tell you their physical state. The left number shows their current state while the right number is the max limit」
+「This tells you their physical state. The left number shows their current state while the right number is the max limit」
 
 #「まぁゲームで言うHP（ヒットポイント）みたいなやつさ」
 ＠Shizuku,S00180
-「It's like HP (hit point) in other games」
+「It's like HP (hit points) in other games」
 
 #「何かすれば下がり、休めば回復する」
 ＠Shizuku,S00181
@@ -717,7 +718,7 @@ wait	500
 
 #「んー、ちょっと違うかな」
 ＠Shizuku,S00186
-「Mmm, it differs a bit」
+「Mmm, it's a little different」
 
 #「『きりょく』の数値が高いと、実行しているコマンドの成功率が上がり、低いと成功率が下がる」
 ＠Shizuku,S00187
@@ -725,7 +726,7 @@ wait	500
 
 #「こっちも、少なくなると……気をつけるんだよ」
 ＠Shizuku,S00188
-「And here too, be careful that the reading doesn't get too low」
+「And here too, if the reading gets too low... be careful」
 
 #「何が起こるんですかッ！！」
 ＠Itsuki
@@ -757,11 +758,11 @@ wait	500
 
 #「しっかりしてくださいよ」
 ＠Itsuki
-「Please learn it better」
+「Well get to know it better」
 
 #「細かいことは気にしなーい。まあ、いろいろやってみて」
 ＠Shizuku,S00194
-「I don't care about details. Try different things and learn it yourself」
+「Don't worry about details. Try different things and learn it yourself」
 
 #「『みりょく』が高いイイ女は、『せったい』なんかで高く買ってもらえる。これ重要ね」
 ＠Shizuku,S00195
@@ -769,7 +770,7 @@ wait	500
 
 #「あ、さっきもそんなこと言ってましたね」
 ＠Itsuki
-「Ah, you mentioned that before too」
+「Ah, you said something like that before too」
 
 #「大事なことなので2回言いました」
 ＠Shizuku,S00196
@@ -825,7 +826,7 @@ wait	500
 
 #「こっちの、『こころ』っていうのはなんですか？」
 ＠Itsuki
-「What does "Mind" mean in the second-last slide?」
+「What does "Mind" mean in the second-last one?」
 
 #「娘の心の強さだね。こっちはレベルを上げると『きりょく』の上限値が上がる、と」
 ＠Shizuku,S00205
@@ -875,8 +876,9 @@ wait	500
 
 #「目指せ！一流大学合格！」
 ＠Shizuku,S00212
-「Eye on the prize! Get them into top-notch Universities!」
+「Eye on the prize! Get them into top Universities!」
 
+#TL note: This line does not appear to be voiced, but the line above doesn't make sense without it so I'll leave it in.
 #「それ、違うゲームですから！」
 ＠Shizuku,S00213
 「That's a game for another day!」
@@ -925,7 +927,7 @@ wait	500
 
 #「あちゃー。ちょっといろいろ言い過ぎたかね？」
 ＠Shizuku,S00218
-「Oh no. I might have offended him or something」
+「Oh no. I might have offended him」
 
 #「………でも」
 ＠Shizuku,S00219
@@ -1011,7 +1013,7 @@ label youzyos_02 ##############################################################
 
 #「では早速」
 ＠Shizuku,S00228
-「Then get to it」
+「Then let's get to it」
 
 #「……は？」
 ＠Itsuki
@@ -1052,7 +1054,7 @@ label youzyos_02 ##############################################################
 
 #「……………真性じゃないし……」
 ＠Itsuki
-「...It's not impossible to fix after all」
+「...It's not inborn after all」
 
 label youzyos_03 ##############################################################
 @shizuku_

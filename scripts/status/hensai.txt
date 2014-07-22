@@ -469,7 +469,8 @@ if _MONTH=11 then repayment_add 42000000
 if _MONTH=12 then repayment_add 50000000
 
 #さて、今月末の借金の返済額だが……。
-　Now, here is the amount for repayment of the debt for the end of this month......
+　Alright, taking a look at the debt I have to repay by the end of this month...
+
 
 if _MONTH=1 then goto hensai_text_1
 if _MONTH=12 then goto hensai_text_3
@@ -479,10 +480,10 @@ label	hensai_text_1
 ###1月はじめのテキスト##########################################
 
 #今月は流石に、赴任最初の月なので、借金の返済はしなくていいらしい。
-　This month, as expected, since it's the first day of my new job, it's fitting if I don't have payment.
+　Since I'm just starting here, looks like I won't have to repay anything.
 
 #でも、来月の借金の返済のためにも、今月を頑張らないとな。
-　However, for next month's payment, if I don't do my best this month......
+　But should do my best and get a headstart for next month...
 
 goto	hensai_text_skip
 
