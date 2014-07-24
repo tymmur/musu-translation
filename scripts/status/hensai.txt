@@ -471,7 +471,6 @@ if _MONTH=12 then repayment_add 50000000
 #さて、今月末の借金の返済額だが……。
 　Alright, taking a look at the debt I have to repay by the end of this month...
 
-
 if _MONTH=1 then goto hensai_text_1
 if _MONTH=12 then goto hensai_text_3
 goto	hensai_text_2
