@@ -85,24 +85,24 @@ label	training_in_1
 
 #「週末の調教か」
 ＠Itsuki
-「Is it time for the weekend's training?」
+「Weekend training huh」
 
 #まだちょっと憂鬱だ。
-　I'm still a bit melancholy though.
+　I'm still getting a little depressed over it.
 
 #この前は部屋にみかんを呼んで行ったが、今日から専用の調教部屋でするらしい。
-　I summoned Mikan to this room last time, but from today it seems appropriate to use the training room meant for this.
+　Last time we called Mikan to my room, but from now on it looks like we'll be doing it in the training room.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
 #「樹さん、準備出来ましたか？」
 ＠Miu,B00088
-「Itsuki-san, have you finished preparing?」
+「Itsuki-san, are you ready?」
 
 #「ん、ああ……」
 ＠Itsuki
-「Yeah, umm......」
+「Er, yeah...」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -113,7 +113,7 @@ label	training_in_1
 
 #「それでは、部屋まで案内します」
 ＠Miu,B00089
-「In that case I'll take you to the room.」
+「I'll show you to the room then」
 
 @miu_
 @bg_black
@@ -123,7 +123,7 @@ wait	1000
 @miu
 
 #口頭で場所は聞いていたが、あまり近寄らない区画に入る。
-　Though I'd heard about this room, we go into an area I haven't been in very often.
+　Even though I've heard about this place, we go into an area I haven't been in very much.
 
 #＠美雨,B00090
 #「調教をする部屋には二種類があります」
@@ -149,7 +149,7 @@ wait	1000
 @bg_choukyou_n
 
 #手前にある、簡素な内装の部屋へ通された。
-　We stood on this side, and the plain upholstery drew no attention.
+　We came to a room with a plain-looking interior in front of us. 
 
 @miu
 #＠美雨,B00094
@@ -166,25 +166,25 @@ wait	1000
 @miu
 #「何か分からない事はありますか？」
 ＠Miu,B00096
-「Is there anything that's not clear?」
+「Is there anything you're unsure about?」
 
 #「さぁ……」
 ＠Itsuki
-「Hmm......」
+「Well...」
 
 #「まぁ、何とかやっていくしかないんじゃないか」
 ＠Itsuki
-「Well, I don't really have much of a choice but to live with it, one way or another.」
+「I think I'll just have to manage it one way or the other」
 
 #「慣れるまでは戸惑われるかもしれませんが、頑張ってくださいね」
 ＠Miu,B00097
-「You might be confused until you get used to it, but hang in there, alright?」
+「I'm sure this is still a lot to get used to, but hang in there, okay?」
 
 @miu_warai
 
 #「それでは、みかんちゃんを呼んできます」
 ＠Miu,B00098
-「Then, I'll go get Mikan.」
+「I'm off to get Mikan then」
 
 @miu_
 
@@ -193,27 +193,27 @@ wait	1000
 
 #「……調教部屋、ねぇ………」
 ＠Itsuki
-「...... Training room, eh... ... ...」
+「...So this is the training room」
 
 #専用部屋と言うことは、他の子もここでそういう事をしているのだろう。
-　I guess that means in this exclusive room, the rest of the girls do things like that too.
+　This room is reserved for training, so the other girls probably do that here too.
 
 #確か現在、ざくろといちごを雫さん。すいかを美雨が担当と聞く。
-　If I remember correctly, they said that Zakuro and Ichigo are with Shizuku and Miu is in charge of Suika.
+　I think right now that Zakuro and Ichigo are with Shizuku, and Miu is in charge of Suika.
 
 #「女の子同士で性行為って………やっぱりレズっぽい系になるんだろうか」
 ＠Itsuki
-「Female bonding by intercourse... ... ... As I thought, maybe it's a system of lesbianism.」
+「The females are having intercourse with each other... it's a pretty lesbian group isn't it」
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
 #「お兄ちゃん……？」
 ＠Mikan,A00232
-「Onii-chan......?」
+「Onii-chan...?」
 
 #くだらない事を考えているうちに、みかんがやって来た。
-　Mikan showed up while I was considering trivial matters.
+　Mikan showed up while I was thinking about useless things.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -225,14 +225,15 @@ wait	1000
 
 #「美雨さんに、これからはココに来るようにって言われたんだけど」
 ＠Mikan,A00234
-「I was told by Miu-san to come here.」
+「Miu-san told me to come here from now on」
 
 #「ああ、今週からはしばらくここで調教をする」
 ＠Itsuki
-「Ahh, starting this week we'll be doing training here for some time.」
+「Yeah, we'll be doing our training here for some time」
 
 ＠Mikan,A00235
 「へぇ～」
+「Really」
 
 #■（自動分岐）
 if youzyo2_flag1=0 then goto training_in_1_b
@@ -243,14 +244,14 @@ label	training_in_1_a
 
 #「ここって、みかんとお兄ちゃんが前に探検した部屋に似てるね」
 ＠Mikan,A00236
-「This is like that room we visited last time」
+「This looks like that room we visited last time」
 
 #CH（立ち絵消去）
 @mikan_
 
 #「……そういえば、そんなこともあったな」
 ＠Itsuki
-「... Actually that's true now that you mention it」
+「...That's true now that you mention it」
 
 #SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 #SE28　Rummaging in desk and drawers sound （*gata*, *goso goso goso*...）
@@ -258,7 +259,7 @@ label	training_in_1_a
 
 #「……って、こら！」
 ＠Itsuki
-「... Hey, wait a minute!」
+「...Hey, wait a minute!」
 
 #また前のように、机の中をガサゴソと漁りだすみかん。
 　Mikan starts rummaging around inside the desk like last time.
@@ -266,11 +267,11 @@ label	training_in_1_a
 @mikan
 #「あ、やっぱりあった。キノコみたいな変なやつ！」
 ＠Mikan,A00237
-「Ah, there it is. The weird one that looks like a mushroom!」
+「Ah, it's here after all. The weird one that looks like a mushroom!」
 
 #「それはもう、食べ物じゃないっていう結論が出てるだろ」
 ＠Itsuki
-「I keep telling you it's not food」
+「How many times do I have to tell you it's not food」
 
 #「さ、よそ事をしてないで始めよう」
 ＠Itsuki
@@ -300,48 +301,49 @@ label	training_in_1_b
 @se28
 
 #興味津々に、机の中を漁ったりするみかん。
-　Immensely curious, Mikan rummaged about in the desk.
+　Her curiousity piqued, Mikan rummaged around inside the desk.
 
 @mikan_odoroki
 #「あっ、何かあったよ！」
 ＠Mikan,A00239
-「Ah, what's this!」
+「Ah, I found something!」
 
 #「ん？　……げッ！」
 ＠Itsuki
-「Hm? ...... Huh!」
+「Hm? ...Geh!」
 
 #ずいぶんとご立派なバイブを見つけていた。
-　She discovered an extremely handsome vibrator.
+　She found a really handsome vibrator.
 
 @mikan
 
 #「なんだろう、これ。キノコみたい」
 ＠Mikan,A00240
-「What is this? It looks like a mushroom.」
+「What the heck is this? It looks like a mushroom」
 
 #「食べ物じゃないよね？」
 ＠Mikan,A00241
-「Can I eat it?」
+「It's not food right」
 
 #「全然違うぞ。それはまだ早いから、置いといていい」
 ＠Itsuki
-「It's completely different. It's still too soon for this so you should put it aside.」
+「Definitely not. It's still too soon to be using that so just put it aside」
 
 @mikan_odoroki
 
 ＠Mikan,A00242
 「うん………わっ！？」
+「Sure... wah!?」
 
 #SE29　バイブが動く音（ウィィンウィィン）
 @se29
 
 #弾みでスイッチが入り、その物体が怪しくクネり始める。
-　With a bounce the switch going in, it starts bending loosely back and forth in a dubious way.
+　She jolted the switch, and it starts bending loosely back and forth in a dubious way.
 
 #「……ッ！？　な、なに！？　変な動きしてる！！」
 ＠Mikan,A00243
-「......!? W-what is this!? It's moving weirdly!!」
+「...!? W-what the!? It's moving weirdly!!」
 
 #「す、スイッチを切れッ、みかん！」
 ＠Itsuki
@@ -349,34 +351,35 @@ label	training_in_1_b
 
 #「えっ、スイッチ！？　スイッチってどれ！？」
 ＠Mikan,A00244
-「S-switch!? What switch!?」
+「Huh, switch!? Where's the switch!?」
 
 @se68
 #カチッ。
-　*Click*
+　*Click*.
 
 @se_keitai1
 #ブブブブブブブッ……
-　*bububububububu*......
+　*vrrrrrrrrr*...
 
 #「うわわっ！？　し、振動し出したっ、何で！？」
 ＠Mikan,A00245
-「うわわっ!? Why's it moving outwards!?」
+「Uwawa!? W-why did it start vibrating!?」
 
 @se68
 
 #バタバタしながらバイブを止める。
-　Clattering around, the vibrator finally stopped.
+　Clattering around, we managed to stop the vibrator.
 
 #まるで初心者な二人だった。
-　It was as if there were two beginners here.
+　It's as if there were two beginners here.
 
 #「ふぅ………あまり無闇に、物に触れないように」
 ＠Itsuki
-「Hau... ... ... That was too reckless, let's not touch it again.」
+「Phew... That was reckless, let's not touch anymore stuff」
 
 ＠Mikan,A00246
 「は～い……」
+「O～K...」
 
 @mikan_
 @bg_black
