@@ -65,7 +65,7 @@ sub setupStrings
 	
 	#お習字で心を磨きます
 	#「こころ」↑「おかね」↓
-	$line = "Practice writing";
+	$line = "Practice stylish writing";
 	$line .= $newline . $skill_start . $mind . $skill_up . $skill_start . $money . $skill_down;
 	push(@tasks, $line);
 	
