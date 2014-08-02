@@ -53,7 +53,7 @@ sub setupStrings
 	
 	#お習字で心を磨きます（上級）
 	#「こころ」↑「おかね」↓
-	$line = "Refine penmanship (advanced)";
+	$line = "Refine writing (advanced)";
 	$line .= $newline . $skill_start . $mind . $skill_up . $skill_start . $money . $skill_down;
 	push(@tasks, $line);
 	
@@ -65,7 +65,7 @@ sub setupStrings
 	
 	#お習字で心を磨きます
 	#「こころ」↑「おかね」↓
-	$line = "Improve penmanship";
+	$line = "Practice writing";
 	$line .= $newline . $skill_start . $mind . $skill_up . $skill_start . $money . $skill_down;
 	push(@tasks, $line);
 	
