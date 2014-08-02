@@ -47,25 +47,25 @@ sub setupStrings
 
 	#バレエで心を磨きます（上級）
 	#「こころ」↑「おかね」↓
-	$line = "Refine mind (advanced)";
+	$line = "Take ballet lesson (advanced)";
 	$line .= $newline . $skill_start . $mind . $skill_up . $skill_start . $money . $skill_down;
 	push(@tasks, $line);
 	
 	#お習字で心を磨きます（上級）
 	#「こころ」↑「おかね」↓
-	$line = "Refine mind (advanced)";
+	$line = "Refine penmanship (advanced)";
 	$line .= $newline . $skill_start . $mind . $skill_up . $skill_start . $money . $skill_down;
 	push(@tasks, $line);
 	
 	#バレエで心を磨きます
 	#「こころ」↑「おかね」↓
-	$line = "Refine mind with dance";
+	$line = "Take a ballet class";
 	$line .= $newline . $skill_start . $mind . $skill_up . $skill_start . $money . $skill_down;
 	push(@tasks, $line);
 	
 	#お習字で心を磨きます
 	#「こころ」↑「おかね」↓
-	$line = "Refine penmanship";
+	$line = "Improve penmanship";
 	$line .= $newline . $skill_start . $mind . $skill_up . $skill_start . $money . $skill_down;
 	push(@tasks, $line);
 	
@@ -77,7 +77,7 @@ sub setupStrings
 	
 	#家でお休みします
 	#「けんこう」↑「きりょく」↑
-	$line = "Rest at home";
+	$line = "Relax at home";
 	$line .= $newline . $skill_start . $stamina . $skill_up . $skill_start . $willpower . $skill_up;
 	push(@tasks, $line);
 	
@@ -95,7 +95,7 @@ sub setupStrings
 	
 	#お客様にご奉仕します
 	#「おかね」↑「こころ」↓
-	$line = "Service a guest";
+	$line = "Perform a sexual favour";
 	$line .= $newline . $skill_start . $money . $skill_up . $skill_start . $mind . $skill_down;
 	push(@tasks, $line);
 	
