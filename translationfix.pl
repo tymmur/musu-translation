@@ -957,6 +957,16 @@ sub handleScreenLines
 		}
 	}
 	
+	if ($type eq "SPEAKER" and (scalar @lines )< 2)
+	{
+		print "Speaker without text at line " . $line_number . " (estimated)\n";
+		foreach (@input)
+		{
+			print $_ . "\n";
+		}
+		die_local
+	}
+	
 	if (scalar @lines > 0 and getType($lines[0]) eq "TEXT")
 	{
 		# kanji line starting with text
@@ -1239,7 +1249,7 @@ sub handleFile
 				$line_number++;
 			}
 			
-			while (getType($translated[$line_number]) ne "BLANK")
+			while (getType($translated[$line_number]) ne "BLANK" and getType($translated[$line_number]) ne "COMMENT")
 			{
 				push(@lines, $translated[$line_number]);
 				$line_number++;
@@ -1252,6 +1262,7 @@ sub handleFile
 
 			$last_was_blank = 1;
 			$dialogue_added = 0;
+			$line_number--; # prevent deleting comments
 			next;
 		}
 		
