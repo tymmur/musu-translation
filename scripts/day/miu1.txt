@@ -1,3 +1,4 @@
+#TLSTATUS File is edited by RaurosFalls 19/08/14
 label	miu_01
 
 #■美雨EV1
@@ -13,11 +14,11 @@ date_close
 　...I'm dreaming again.
 
 #あの日の出来事。
-　The events of that day.
+　The events of that fateful day.
 
 #とても忘れられない、
 #当時のオレにはまだ、現実味の薄かった行為。
-　They are unforgettable, The me of that time had (actual) (taste) (weak) (event). (Just can’t figure out what it says) IT all seemed unreal for me at that time.
+　I'll never forget it; doing that still felt unreal to me at the time.
 
 #■（美雨とのエッチCG・プロローグ回想と同じもの）
 se			1,"sound\se\zuba.wav",	play_once
@@ -58,41 +59,38 @@ wait			2000
 voice_bg		b90004
 
 ＠Miu,B00188
-「ひぅんッ! んくぁッ,はあぁぁッ! あぅんッ......んんふぅッ,はぁッ! ふぁあッ!」
+「ひぅんッ！　んくぁッ、はあぁぁッ！　あぅんッ……んんふぅッ、はぁッ！　ふぁあッ！」
 
-#「はぁあんッ,ふぁあッ!　はあぁッ,樹くんッ......んんくッ,あはぁあッ!」
+#「はぁあんッ、ふぁあッ！　はあぁッ、樹くんッ……んんくッ、あはぁあッ！」
 ＠Miu,B00189
-「はぁあんッ,ふぁあッ! はあぁッ, Itsuki-kun......んんくッ,あはぁあッ!」
+「はぁあんッ、ふぁあッ！　はあぁッ、Itsuki-kun... んんくッ、あはぁあッ！」
 
 ＠Itsuki
-「くうぅッ,んん! はぁぁッ,Miu!」
+「くうぅッ、んん！　はぁぁッ、美雨ッ！」
+「Kuuh, nnh! Haaa, Miu!」
 
-#共に深く繋がり,絡みあう温もり.
+共に深く繋がり、絡みあう温もり。
 　We're deeply connected, entangled in each other's warmth.
 
-#喘ぎ合う嬌声と,美雨の艶かしい吐息.
-　She gasps, sighing seductively.
+喘ぎ合う嬌声と、美雨の艶かしい吐息。
+　She moans and gasps, her breathing seductive.
 
-#これが,オレと美雨の男の女の始まりだった.
-　This is, how Miu and I became Man and Woman.
+これが、オレと美雨の男の女の始まりだった。
+　This is how Miu and I came of age.
 
-#This is, Miu and I (still can’t figure this out).
-
-#「んはぁッ,あはぁぁッ!　樹くんのが,美雨の奥にゴリゴリ当たってるッ...」
+#「んはぁッ、あはぁぁッ！　樹くんのが、美雨の奥にゴリゴリ当たってるッ…」
 ＠Miu,B00190
-「んはぁッ,あはぁぁッ! Itsuki-kun's is rubbing against Miu’s insides...」
-
-#「んはぁッ,あはぁぁッ!　Itsuki-kun is making Miu’s insides go ゴリゴリ...」
+「んはぁッ、あはぁぁッ！　Itsuki-kun, it's grinding against me inside...」
 
 #「…気持ちいいよぉッ、樹くんの大きくて……んんぅッ、はぁあッ！　あはぅん！　ズンズンッて中をかき回してるぅ…」
 ＠Miu,B00191
-「...feels so good, Itsuki-kun's big...んんぅッ,はぁあッ! あはぅん! It's going so fast inside me...」
+「...It feels good, Itsuki-kun's big thing... んんぅッ、はぁあッ！　あはぅん！ It's thumping so fast and churning me up inside...」
 
 ＠Miu,B00192
-「あふぁッ,あぁんッ! はあぁぁッ,くはぁッ......ふぁあッ! あはぁあッ」
+「あふぁッ、あぁんッ！　はあぁぁッ、くはぁッ……ふぁあッ！　あはぁあッ」
 
-#もしくは,これが終わりだったのかも知れない.
-　This might be the end.
+#もしくは、これが終わりだったのかも知れない。
+　It was also the end of something else.
 
 se_stop			0
 voice_bg_stop
@@ -106,14 +104,17 @@ layer_release	3
 #■BG（ブラック）
 bgm_stop
 
-#父親の事で嫉妬して,それでも抱いていた淡い恋心を見失ってしまった日.
-　Father is jealous, but even so, our love is so that we do not notice the passing of the day. I was jelous of my father, but even so, I still want to remember the day I lost the faint love.
+#父親の事で嫉妬して、それでも抱いていた淡い恋心を見失ってしまった日。
+　I was jealous because of my father, but that was the day a faint, budding attraction disappeared from my life.
 
-　.....................
+…………………
+　............
 
-　...............
-
+……………
 　.........
+
+………
+　......
 
 #■BG（自室・昼）
 @bg_itsuki
@@ -121,14 +122,14 @@ date_open
 
 #「はぁぁ......」
 ＠Itsuki
-「Haa......」
+「Haaa...」
 
 #「最近よく見るな,この夢......」
 ＠Itsuki
-「Lately, I’ve been having that dream quite often......」
+「Lately I’ve been having that dream quite often...」
 
 #やはり,こうして同じ場所で暮らしているのが原因なのだろうか.
-　And now I'm living in the place where it happened. It must be because we are living at the same place.
+　I guess it's because I'm living here again after all.
 
 #■BG（リビング）
 @bgm08
@@ -137,244 +138,203 @@ date_open
 
 #「おはようございます,樹さん」
 ＠Miu,B00193
-「Good morning, Itsuki-san.」
+「Good morning, Itsuki-san」
 
 #「おはよう.子供達は?」
 ＠Itsuki
-「Morning. How are the children?」
+「Morning. Where are the girls?」
 
 @miu
 #「今さっき学校に行きましたよ.雫さんもお仕事で出かけてます」
 ＠Miu,B00194
-「They just left for school. Shizuku-san has gone to work as well.」
+「They just left for school. Shizuku-san's out on business too」
 
 #「そう......」
 ＠Itsuki
-「I see……」
+「Oh...」
 
 #「今,朝食の用意しますね」
 ＠Miu,B00195
-「I’ve prepared some breakfast for you.」
+「I'll prepare breakfast for you」
 
 @miu_
 
 #穏やかに微笑みながら,綺麗に拭き終えたテーブルの上に朝食を並べる美雨.
-　She says so with a gentle smile, setting up breakfast on the sparkling clean table.
-
-#She says so with a gentle smile, clearing the table and setting the food down.
+　Miu smiles sweetly and sets the table that she'd wiped clean with the meal.
 
 ＠Itsuki
-「.........」
+「………」
+「...」
 
 #（あの日のこと......忘れたわけじゃないよな.........）
 ＠Itsuki
-(The events on that day... couldn't be forgotten can it...)
-
-#(That day, I can’t get it out of my head……)
+(She wouldn't have forgotten what happened back then...)
 
 ＠Miu,B00196
 「～♪　～～♪」
 
 カチャカチャ...
+*clink clink*...
 
 #（何事もなかったように楽しそうに食器を並べてる......）
 ＠Itsuki
-(She sets the table happily as if nothing had happened...)
-
-#(She looks so happy quietly arranging the dishes and silverware……)
+(She's setting the table at ease as if it never happened...)
 
 @miu
 
 #「......?　どうかしましたか?」
 ＠Miu,B00197
-「.....?  Is something the matter?」
+「...? Is something the matter?」
 
 #「いや,ちょっと今朝の夢を思い出して......」
 ＠Itsuki
-「Uh, just remembering a dream from this morning……」
+「No, just remembering a dream from this morning...」
 
 #「夢......?」
 ＠Miu,B00198
-「Dream……?」
+「Dream...?」
 
 #「あ......」
 ＠Itsuki
-「Ah……」
+「Ah...」
 
 #（しまった......つい何となくで応えてしまった......）
 ＠Itsuki
-(Dammit.... I answered without thinking...)
-
-#(Dammit……I can’t tell her the truth, dammit……)
+(Oh no... I replied without thinking...)
 
 #CH（美雨・少し照れ表情）
 @miu_tere
 
 #「えっと......樹さんの夢に,私が出て来ていたんですか?」
 ＠Miu,B00199
-「Um.... Itsuki-san’s dream, was I in it?」
+「Um... was I in your dream?」
 
 #少し照れ恥ずかしそうに,こちらを見やる.
-　She looks at me, apparenlty a little shy.
-
-#She seems shy, looking at me.
+　She looks at me blushing a little.
 
 #「その,まぁ出てたって言えば出てたんだけど......」
 ＠Itsuki
-「Well, you could say that you were in it....」
+「Well, yeah kind of...」
 
 #......この際だから,聞いておくのもいいかもしれない.
-　.....I should take this opportunity to ask her.
-
-#.....I should probably ask her about it first.
+　...I may as well ask her about it now.
 
 #結果や現状がどうであれ,あの時オレが美雨を襲い犯した事実は変わらないのだし.
-　The fact of the matter is, I raped her that time. Regardless of the results or the current situation, the fact that I violated Miu back then is an unchanging truth.
+　Whatever the result or our current situation, the fact remains that I attacked and raped her back then.
 
 #「美雨,あの夜のこと.覚えてるよね」
 ＠Itsuki
-「Miu, you remember that night. Right?」
-
-#「Miu, that night, you remember it, right?」
+「Miu, you remember that night... right?」
 
 #「あの夜......?」
 ＠Miu,B00200
-「That night……?」
+「That night...?」
 
 @miu_kanashimi
 
 #「あ......」
 ＠Miu,B00201
-「Ah……」
+「Ah...」
 
 #すぐに察した美雨の表情に影が落ちる.
-　A shadow befalls Mio's expression as she realises what I was talking about.
-
-#Her expression immediately falls, so I guess she realized what I was talking about.
+　A shadow falls on Miu's face as she realizes what I was talking about.
 
 #「今さらだけど,謝ろうと思って」
 ＠Itsuki
-「It's a bit late, but i was thinking of apologizing.」
-
-#「Let me try that again.  I think I should apologize.」
+「It's a bit late, but I thought I should apologize」
 
 #「悪い事をした......あんな事までするつもりは,無かったんだ」
 ＠Itsuki
-「I did a terrible thing... I didn't plan to do that.」
-
-#「I did a terrible thing... I hadn't planned to do that from the beggining.」
-#「I did a terrible thing……up until planning a thing like that, it was nothing.」
+「I was in the wrong... I didn't mean to do that to you」
 
 @miu_ikari2
 
 ＠Miu,B00202
-「............」
+「…………」
+「......」
 
 #「樹さん,今の私はあなたのメイドです.だから謝ったりしないでください」
 ＠Miu,B00203
-「Itsuki-san, I am your maid now.  So, please, do not apologize.」
+「Itsuki-san, I'm your maid now, so please don't apologize or anything」
 
 #「......それに私,あの時のこと後悔はしていませんから」
 ＠Miu,B00204
-「... Also, I have not regretted what we did that time.」
-
-#「And I, that time I do not regret.」
+「...Also, I don't regret what happened back then」
 
 #「え......?」
 ＠Itsuki
-「Eh……?」
+「Huh...?」
 
 #「あの時の私,一度でも叫んだり助けを求めたりしましたか?」
 ＠Miu,B00205
-「During that time, did I even once cry or call for help?」
+「Did you hear me even once cry out or call for help?」
 
 #「.........してない」
 ＠Itsuki
-「……You didn’t.」
+「...You didn't」
 
 #そう,美雨は突然の事に驚いただけで,後は抵抗らしい抵抗はしなかった.
-　Thats right, Miu was surprised at the sudden turn of events, but didn't seem to have put up any resistance.
-
-#Miu really surprised me with this unexpected news.  What had seemed like resistance before really wasn’t at all.
+　It's true, Miu was surprised at the sudden turn of events, but she didn't really try to fight back.
 
 #「だから,オレはそのまま......」
 ＠Itsuki
-「That's why I, continued...」
-
-#「So, I’ll leave it at that……」
+「Yeah, and so I took advantage of you...」
 
 #初めは少し脅かしてやるだけのつもりだった.
-　At first I was only planning to intimidate her a little.
-
-#At first, I only planned to threaten her a little bit.
+　I'd meant only to scare her a little bit.
 
 #オレよりも父親に構ってもらっていた美雨に,嫉妬する気持ちが抑えきれなかったのだ.
-　I was jealous of Miu who would get more attention from my father. I couldn't suppress my jealousy.
-
-#I was also concerned with father over Miu, because he would get jealous and take her away.
+　I couldn't suppress my jealousy of Miu who would get more attention from my father.
 
 #「当時の私の生活も,今のみかんちゃん達と同じ.........いえ,もっと過酷なものでした」
 ＠Miu,B00206
-「My life back then, was the same as Mikan-chan and the others... no, it was harsher.」
-
-#「My life back then, Mikan-chan and the others are the same……no, it was more harsh.」
+「My life back then was the same as Mikan-chan and the others... no, it was harsher」
 
 #「だから最後までする初めての人が赤の他人ではなく,樹さんだったことが,私は嬉しかったんです」
 ＠Miu,B00207
-「It made me happy that it was Itsuki-san and not a stranger, who took my first time.」
-
-#「So in the end, the one who took my first time being no stranger, instead being Itsuki-san made me happy.」
-#「So from the beginning, my first was a complete stranger.  But, Itsuki-san, the thing is, I was happy.」
+「It made me happy that it was Itsuki-san and not a stranger who took my first time going all the way」
 
 @miu_warai
 
 #「なので後悔はしていませんよ」
 ＠Miu,B00208
-「And so, I have no regrets.」
-
-#「And so, don’t feel remorseful.」
+「So I have no regrets」
 
 @miu_komaru
 
 #「......謝られても困ってしまいます」
 ＠Miu,B00209
-「...I would feel troubled if you apologised.」
-
-#「……You would be hard pressed to apologize.」 (not quite sure this is exactly right)
+「...I wouldn't feel right if you apologized to me」
 
 #「......美雨」
 ＠Itsuki
-「……Miu.」
+「...Miu」
 
 #「さ,朝食が冷めない内に召し上がってください」
 ＠Miu,B00210
-「Now, please, eat breakfast before it gets cold.」
+「Come on, have your breakfast before it gets cold」
 
 #相好を崩す.
-　A radiant smile appears on her face.
+　She beams at me.
 
 #正直,まだ聞きたいことはいっぱいあった.
-　Still, I want to ask her about it. In truth, theres still alot I still wanted to ask.
+　To be honest, there's still a lot more I want to ask her.
 
 #どういう経緯を経て今,美雨がここでこんな風に働いているのか......など.
-　Questions such as what experiences she gone through, allowing her to be working here like this...
-
-#How can she skip over the details and work here like this and everything.
+　Like how she ended up working here like this...
 
 #「そうだな.いただきます」
 ＠Itsuki
-「Alright. Itadakimasu.」
+「Alright. Thanks for the meal」
 
 @miu_warai
 
 #「はい」
 ＠Miu,B00211
-「Yes.」
+「Yup」
 
 #でも今は,こうして笑顔を見せてくれる美雨に,素直に喜んでおこう.
-　But for now, I should just feel happy for Miu who shows me her bright smile.
-
-#But now, she gives off her bright smile, being cheerfully obedient.
+　But for now, I think I'll just settle for pleasing Miu who smiles happily at me.
 
 #→☆体験版では,ここで当時の回想が入る.
 @bg_black
