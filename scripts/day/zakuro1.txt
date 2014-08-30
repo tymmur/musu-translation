@@ -9,25 +9,26 @@ label	zakuro_01
 
 #「あれ？　ざくろがいる」
 ＠Itsuki
-「Eh? Zakuro is here.」
+「Huh? It's Zakuro」
 
 @zakuro
 
 #廊下を歩いていると、特徴的な服の後ろ姿を見つけた。
-　I see the back of her unique clothes while walking down the corridor.
+　I was walking down the hall when I spotted her characteristic clothes from behind.
 
 #まぁこの家の住人なので、居て当然なんだけど。
-　Well... As this house's resident, it's natural for her to be here.
+　Well, she lives here, so she can walk around where she wants to.
 
 ＠Zakuro,Q00485
 「…………」
+「......」
 
 #一人でどこか歩いてるざくろの行動が気になってしまう。
 　I'm a bit curious where she is going to by herself.
 
 #（……付いてってみるか？）
 ＠Itsuki
-(...... Shall I follower her for a while?)
+(...Maybe I can follow her for a bit?)
 
 #■選択肢
 #（１．もちろん追跡）（ざくろ好感度UP）
@@ -37,8 +38,8 @@ label	zakuro_01
 #if	sel=1 then goto day_0128_2
 
 #■選択肢 Choice
-# (1. Of course, let's stalk her a bit) (Zakuro's intimacy up)
-# (2.  That's a bad thing to do)
+# (1. I'll pursue her)(Zakuro intimacy up)
+# (2. That's a bad pastime)
 select	sel,"Of course, let's stalk her a bit","That's a bad thing to do"
 if	sel=0 then goto day_0128_1
 if	sel=1 then goto day_0128_2
@@ -50,10 +51,10 @@ label	day_0128_1
 
 #（どこに行くつもりなのか……）
 ＠Itsuki
-(Where is she going to?.....)
+(Where's she going I wonder...?)
 
 #探究心が罪悪感に勝り、バレないように後をつける。
-　As my curiousity is overwhelming the sense of guilt, I carefully follow her from behind. 
+　My curiousity overcomes my guilty feelings, so I carefully follow her from behind. 
 
 #一拍
 @bg_black
@@ -63,45 +64,45 @@ wait	1000
 
 #「…………」
 ＠Zakuro,Q00486
-「..............」
+「......」
 
 #SE16　廊下を歩く音 
 @se16
 #★
 #まっすぐ正面を見つめながら、一定間隔で歩みを進めていくざくろ。
-　Looking straight ahead, I followed with at a distance. 
+　Zakuro walks down the hallway confidently at a regular pace.
 
 #（トイレ、でもないか……）
 ＠Itsuki
-(Toilet ? No, it isn't.....)
+(Washroom? No, not that...)
 
 #今トイレの前を通過し、これで食堂も階段も自室も通り過ぎていた。
-　Just now she passed the toilet, and keep passing the dining room, stairs, and her own room. 
+　She just passed by the washroom, and continues on past the dining room, stairs, and her own room. 
 
 #「……？」
 ＠Zakuro,Q00487
-「........?」
+「...?」
 
 #■BG（黒）
 @bg_black
 
 #（おっと……）
 ＠Itsuki
-(woops...)
+(Whoops...)
 
 #振り向きそうになったので、とっさに曲がり角に身を隠す。
-　I quicky hid in the coner as Zakuro seems to turn her head.
+　She looked like she was about to turn her head, so I quickly hid behind the corner.
 
 #「…………」
 ＠Itsuki
-「............」
+「......」
 
 #「……何か、だんだんバカらしくなってきたぞ…」
 ＠Itsuki
-「...Somehow, it's starting to get a little stupid...」
+「...I'm starting to feel a little stupid doing this...」
 
 #今さらだが、ここまでして後をつけてどうしようと言うのだろうか。
-　It's too late to say these things when I've come this far.
+　I wouldn't have been able to explain why I've been following her for so long though.
 
 #■BG（廊下・日中）
 @zakuro
@@ -109,17 +110,17 @@ wait	1000
 
 #「………」
 ＠Zakuro,Q00488
-「.........」
+「......」
 
 #SE16　廊下を歩く音
 @se16
 
 #「やれやれ……」
 ＠Itsuki
-「Well, well....」
+「Oh man...」
 
 #でもここまで附けたのだから、やっぱり気になる。
-　But I've stalked her up until now, I'm still curious. 
+　But since I've followed her this far, I really am curious. 
 
 #一拍
 @bg_black
@@ -129,30 +130,31 @@ wait	1000
 
 ＠Zakuro,Q00489
 「…………」
+「......」
 
 #……ピタッ。
-　....... Stop.
+　...*halt*.
 
 #（お、ようやく立ち止まった）
 ＠Itsuki
-(Ooo, at last she stopped.)
+(Oh, she finally stopped walking)
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 @zakuro_
 
 #そこが目的地らしく、ざくろは側にある部屋へ入っていった。
-　Seems like it is her destination, she walks in into the room beside her.
+　Zakuro walks into a room on the side as if she'd reached her destination.
 
 #……けど、まだ、確かそこは空き室だった気がする。
-　......however, If I'm not mistaken that room is empty. So I'm still curious.
+　...But I think that's just an empty room.
 
 #「はぁ………見たいような、見てはいけないような」
 ＠Itsuki
-「Haa.......... I want to see, but I can't see.」
+「Haa... I want to take a look, but I don't think that's a good idea」
 
 #結局、最後まで気になってしまう……
-　In the end, I'm curious all over my body.....
+　In the end I've gotten really curious...
 
 #■BG（黒）
 @bg_black
@@ -161,151 +163,149 @@ wait	1000
 @se06
 
 #オレもそれに続いて、ゆっくりとドアを開けて中を覗いて見た。
-　And I continue what I was doing, slowly open the door and peep inside.
+　So following that, I slowly open the door and peek inside.
 
 #■BG（空き室）
 @bg_akibeya
 
 #果たして、そこに今まで附け続けたざくろの姿は無くなっている。
-　But, there's no trace of Zakuro inside.
+　Sure enough, I don't see a trace of Zakuro after following her all the way here.
 
 #「えッ……あれ…？」
 ＠Itsuki
-「Eeh.... What....?」
+「Huh... what the...?」
 
 #「……つっちー、こっち」
 ＠Zakuro,Q00490
-「...... Tsucchi, over here.」
+「...Tsu-chi, over here」
 
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
 #慌てて部屋の中へ入ると、死角に隠れていたざくろがドアを閉めた。
-　While confused, I come inside the room, and I found Zakuro is hiding behind the door.
-
-#Confused, I come inside the room, and found Zakuro hiding behind the door.
+　Confused I stumbled into the room, and Zakuro who had hidden in a blind spot closed the door.
 
 @zakuro
 
 #「後ろ附けてたの、誰かなって思ってたら。つっちー？」
 ＠Zakuro,Q00491
-「I felt someone is following me from behind. I wonder who, is it you tsucchi?」
+「I felt like someone was following me. It was you Tsu-chi?」
 
 #「あ……悪い、気付いてたのか」
 ＠Itsuki
-「Ah.... I'm sorry, Did you realize?」
+「Ah... sorry, you realized huh」
 
 #「うん」
 ＠Zakuro,Q00492
-「Yeah.」
+「Yeah」
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @se09
 
 #後ろ手に鍵をかけられる。
-　The door behind is locked.
+　She locks the door with her hands behind her back.
 
 #「え……」
 ＠Itsuki
-「Ee.......」
+「Huh...」
 
 #「な、何でカギ……？」
 ＠Itsuki
-「Wha-, Why do you lock it......?」
+「W-why did you lock it...?」
 
 #「……？　違うの？」
 ＠Zakuro,Q00493
-「........? Am I mistaken?」
+「...? You don't want me to?」
 
 #「会話が繋がってないが……とりあえず違うと応えておく」
 ＠Itsuki
-「Well, the conversation isn't conne-........ Umm, for the time being, It is wrong.」
+「You didn't answer my question... but for now I'll just say no I don't want you to」
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @se09
 
 #初日の反省点を生かし、念のためカギを開ける。
-　Disappointed she open the door.
+　Remembering how the first day went, I make sure the door's unlocked.
 
 #「……そう」
 ＠Zakuro,Q00494
-「....... I see.」
+「...I see」
 
 #「トイレに行こうとしてたのに、つっちーが附いてくるから行きそびれた」
 ＠Zakuro,Q00495
-「I was going to toilet but Tsucchi followed me so I missed it.」
+「I was trying to go to the washroom but I couldn't because you were following me Tsu-chi」
 
 #「お……それで辞めて、ここに退避か？」
 ＠Itsuki
-「O...... After that, you hide in here?」 
+「Oh... so you gave up and holed up in here?」 
 
 #「うん」
 ＠Zakuro,Q00496
-「Yeah.」
+「Yeah」
 
 #それは、やっぱり恥ずかしかったからだろうか。
-　It seems that going to toilet is an embarassing thing.
+　I guess she was embarrassed after all.
 
 #（ふふ。何だ、やっぱりざくろも、人並みの羞恥心くらいは―――）
 ＠Itsuki
-(Giggle. What the,  As I thought, even Zakuro has some sha------)
+(Fufu. Wow, I guess Zakuro gets as embarrassed as the next―――)
 
 @zakuro_warai
 
 #「トイレしてるところ、見たいのかと思ったから」
 ＠Zakuro,Q00497
-「I thought you wanted to see the place where I pee.」
+「Because I thought you wanted to see me pee」
 
 #「……持ってないか……」
 ＠Itsuki
-「........I take back my word.....」 / 「.......or she doesn't.......」
+「...I guess not...」
 
 #表情一つ変えずに、そんなことを言うざくろ。
-　She says that without batting an eyeleash. / She says that casually.
+　She says that without changing her expression at all.
 
 #まぁこの子が、「トイレに入るのを見られると恥ずかしい」なんて言う方が、むしろ異常のような気もする。
-　Well I can't imagine this kid  saying [I can die from embarassment if I was seen entering the toilet] or anything like that.
+　Actually when it comes to her, it would be weird to hear her say "I was embarrassed about being seen going to the washroom".
 
 #「…………」
 ＠Zakuro,Q00498
-「.............」
+「......」
 
 @zakuro_
 
 #ゴソゴソ……
-　Rustle... Rustle.....
+　*rustle rustle*...
 
 #「って、やめやめッ！　無言で下着を下ろすな！」
 ＠Itsuki
-「Wha-, Stop it ! Don't lower your underwear here / Don't lower your underwear without saying it!」
+「Wait, stop! Don't lower your underwear without saying anything!」
 
 #「これ、下着じゃなくてドロワーズ」
 ＠Zakuro,Q00499
-「This isn't underwear you know, it's drawers.」
+「This isn't underwear, they're drawers」
 
 #ゴソゴソ……ズリッ、ズリリッ…
-　Rustle....Rustle........Stagger.......
+　*rustle rustle*... *slip, slide*....
 
 #スカートに入れた手が、ズルズルと中の生地をズリ下げていく。
-　With her hand inside the skirt, she is undoing it.
+　She slides down the undergarments with her hand inside.
 
 #「……？　ドロワーズも下着？」
 ＠Zakuro,Q00500
-「.......? Drawers are also underwear?」
+「...? There, my drawers and my underwear?」
 
 #「そんなのどっちでも構わんッ！　ここでするのも、そんな姿を人に見せるのもダメだッ」
 ＠Itsuki
-「Like I care about those things ! Doing it in here, You can't show those things to others.」
+「I don't care about either of those! You can't do it here or show yourself like this to someone!」
 
 @zakuro
 
 #「……やっぱり、トイレじゃないと嫌だった？」
 ＠Zakuro,Q00501
-「.......So if it isn't toilet, you don't like it?」 
+「...I guess you don't like if it's not at a toilet?」 
 
 #「あぁ……もういい。口で言うより直すのが先だ」
 ＠Itsuki
-「Argh.... Oh well. It'll be forever to tell you.」
+「Aah.... I've had enough. Instead of telling you I'll just put them back myself」
 
 #慌てて自らが手を伸ばし、ざくろの下着をズリ上げ直してやる。
 　I stretched my hand and fix her underwear in haste.
