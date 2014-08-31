@@ -690,32 +690,32 @@ label	training_in_5
 @bg_itsuki_n
 
 #また週末の夜がやって来た。
-　Again the weekend's training reared its ugly head.
+　It's Saturday night again.
 
 @shizuku_yorokobi
 
 #「それじゃ恒例の、お楽しみタイムの時間だ」
 ＠Shizuku,S00255
-「Well then, it's time for your customary fun time.」
+「Well then, The hour of your routine fun time has come」
 
 #「タイムと時間の意味が被ってますよ」
 ＠Itsuki
-「You said time twice there bubs (jikan and taimu). They mean the same thing.」
+「Hour and time mean the same thing」
 
 #「そんなのノリじゃない。細かいことは気にしないの」
 ＠Shizuku,S00256
-「There's no such nori (rules). I don't bother about trifles.」
+「That's not the spirit I'm looking for. Don't bother about the details」
 
 #「ほら、今日はだれの果肉を味わうんだい～？」
 ＠Shizuku,S00257
-「Haha, I wonder whose sweet flesh you'll be savouring today~?」
+「Come on, which fruit will you pick and savour the flesh of today~?」
 
 #「…………」
 ＠Itsuki
-「... ... ... ...」
+「......」
 
 #何でこの人は、こんないつも嬉しそうなんだが。
-　What's with her? How can she seem so jovial all the time.
+　Why's she so happy about this all the time?
 
 label	training_in_5_a
 #■（キャラ選択）
@@ -734,7 +734,7 @@ if training_chara=0 then return
 
 #「それじゃ、これで始めるよ」
 ＠Shizuku,S00259
-「Then, let's start with this.」
+「Alright, you can start now」
 
 #（確認画面表示）
 
@@ -742,7 +742,7 @@ if training_chara=0 then return
 #（１．分かった）
 #（２．考え直す）
 
-select	sel,"I'll do it","On second thoughts......"
+select	sel,"Sounds good","On second thought..."
 if	sel=0 then goto training_in_5_b
 if	sel=1 then goto training_in_5_c
 label	training_in_5_b
@@ -751,11 +751,11 @@ label	training_in_5_b
 
 #「相手の子はあたしが呼びに行ってあげるから、樹は先に部屋に行ってな」
 ＠Shizuku,S00260
-「I'll go call your partner, so you go to the room from last time.」
+「I'll go call your partner, so you go ahead to the room」
 
 #「ええ、お願いします」
 ＠Itsuki
-「Right, please.」
+「Sure, thanks」
 
 @shizuku_
 @bg_black
@@ -769,7 +769,7 @@ label	training_in_5_c
 
 #「しょうがないね……じゃあ誰にする？」
 ＠Shizuku,S00261
-「If you insist...... who will it be then?」
+「If you insist... who will it be then?」
 
 goto	training_in_5_a
 
