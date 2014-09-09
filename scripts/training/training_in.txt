@@ -787,13 +787,13 @@ label	training_in_6
 
 #「ふぅ……また一週間経ったのか」
 ＠Itsuki
-「*Sigh*...... Has another week passed again?」
+「*Sigh*... another week's passed already」
 
 #子供らを調教する、避けて通れない時間だ。
-　We're training the children, it's a time that can't be avoided.
+　It's the unavoidable time where I have to train the kids again.
 
 #そろそろいつものように雫さんがやってくるだろう。
-　Soon it'll be Shizuku's habitual arrival.
+　Shizuku's going to be here soon as usual.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
@@ -802,15 +802,15 @@ label	training_in_6
 
 #「樹～、今週の性欲処理の時間だよ～」
 ＠Shizuku,S00262
-「Itsuki~, It's time to deal with your sexual desires this week~」
+「Itsuki~, It's time to deal with your sexual urges this week～」
 
 #「吸って揉んで舐って食んで、たっぷり肉欲を満たせる時間が来たよ」
 ＠Shizuku,S00263
-「Sucking and rubbing and licking and drinking, a time that will arouse many lusts has come.」
+「It's time for you to satisfy your animal lusts, all that sucking rubbing licking and partaking」
 
 #「そんな時間なら存在しませんッ、お引き取りを！」
 ＠Itsuki
-「If it's a time like that I won't do it!」
+「If that's all you care about then I won't do it!」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -821,37 +821,37 @@ label	training_in_6
 
 #「はぁ……シャレじゃないか。お茶目なジョークだよ」
 ＠Shizuku,S00264
-「*Sigh*...... It's a joke you know. A playful joke.」
+「*Sigh*... you know I'm horsing around. It's a playful joke」
 
 #「全然茶目っ気なんかないですから。ただの下ネタですから」
 ＠Itsuki
-「This is no time for playfulness and it's a dirty joke.」
+「You're not being playful at all. It's just a dirty joke」
 
 #「だいたい、仮にオレがシャレに乗って、『分かった』とか言ったらどうします？」
 ＠Itsuki
-「And generally, if I were to join in your joke and say "alright" or something how would that be?」
+「And otherwise, say if I were to join in and say "sure", what would you do?」
 
 @shizuku_warai2
 
 #「それはもう、樹のドロドロした欲情の本心として、明日の朝には施設中を噂が駆け回ってるさ」
 ＠Shizuku,S00265
-「Then rumours of Itsuki's dripping sexual desires and true feelings would be running about the place the next morning.」
+「At that point, talk of Itsuki's drooling cravings would be rampant by the next morning」
 
 #「それもうシャレの域じゃないですから！　イジメって言いますから！」
 ＠Itsuki
-「That's not even a joke anymore! That's just tormenting!」
+「That's no longer a joke! That's called bullying!」
 
 #「ふふ。それじゃそろそろ、今日あんたが虐めたい子は誰なのか」
 ＠Shizuku,S00266
-「ふふ. Well then, who would you like to torment today?」
+「Fufu. Well then, who would you like to take advantage of today?」
 
 #「綺麗にまとまったところで、さぁ、選ぼうか」
 ＠Shizuku,S00267
-「We have a pretty selection, come on, shall you choose?」
+「They're all arranged nicely, so, who'll it be?」
 
 #「全然綺麗じゃない全然綺麗じゃない」
 ＠Itsuki
-「There's nothing pretty about this, there isn't.」
+「There's nothing nice about it」
 
 label	training_in_6_a
 
@@ -872,7 +872,7 @@ if training_chara=0 then return
 @shizuku_yorokobi
 #「よし、これでいいんだね？」
 ＠Shizuku,S00269
-「All right, this is good right?」
+「Alight, this is good right?」
 
 #（確認画面表示）
 
@@ -880,7 +880,7 @@ if training_chara=0 then return
 #（１．いいよ）
 #（２．考え直す）
 #select	sel,"いいよ","考え直す"
-select	sel,"It's good","I want to reconsider"
+select	sel,"Yes","I changed my mind"
 if sel=0 then goto training_in_6_b
 if sel=1 then goto training_in_6_c
 
@@ -889,11 +889,11 @@ label	training_in_6_b
 
 #「樹は先に行ってな。あたしがこの子を呼んできてあげるから」
 ＠Shizuku,S00270
-「Go to the place from last time. I'll call this child for you.」
+「You can go on ahead. I'll call your partner for you」
 
 #「ええ、お願いします」
 ＠Itsuki
-「Thanks.」
+「Yes, thank you」
 
 @shizuku_
 @bg_black
@@ -906,7 +906,7 @@ label	training_in_6_c
 
 #「だったら選び直しなさい。ほら、早く」
 ＠Shizuku,S00271
-「Then choose again. Hurry up already.」
+「Then choose again. Hurry up already」
 
 #（キャラ選択へ）→以下ループ
 goto	training_in_6_a
