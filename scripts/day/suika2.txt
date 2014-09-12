@@ -9,35 +9,35 @@ label	suika_02
 #＠女の子,V22000
 #「それじゃ、すいかちゃんによろしくお願いします」
 ＠Girl,V22000
-「Then, give it to Suika-chan.」
+「Alright, pass it along to Suika-chan for me」
 
 #＠樹
 #「ああ、分かった」
 ＠Itsuki
-「Aah, I understand.」
+「Yeah, sure」
 
 #SE31　玄関のドアが閉まる音
 @se31
 
 #丁寧に一礼して帰るすいかのクラスメートの背を見送り、ホッと息を吐いた。
-　After I saw off Suika's classmate who politely bowed, I breathed a sigh of relief.
+　She makes a polite gesture and seeing Suika's classmate head off, I breathe a sigh of relief.
 
 #知らない子がやってきたら、入院しに来た子かとビックリする……
-　An unknown child came, so I was surprised thinking it was someone to take her to the hospital......
+　A girl I didn't know came by, and I had a scare thinking she might be here to join the institution...
 
 #まぁ結局、単にすいかの忘れ物を届けてくれただけなのだが。
-　Well, they were actually just returning something Suika forgot.
+　In the end, she was just returning something that Suika left behind.
 
 #＠樹
 #「しかし、カバンを忘れるか、普通……？」
 ＠Itsuki
-「But, forgetting your bag, is that normal......?」
+「But it's not usual for her to forget her backpack, is it...?」
 
 #■BG（廊下）
 @bg_rouka
 
 #疑問はともあれ本人に渡さねばならないので、すいかの部屋へとやってきた。
-　I should ask that question to the person themself, so I go to Suika's room.
+　For now I'll just have to bring it back to her, so I went to Suika's room.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
@@ -48,13 +48,13 @@ label	suika_02
 「Suika, do you have a moment?」
 
 #……………
-　...............
-
-#………
 　.........
 
+#………
+　......
+
 #……返事が無い。
-　......No reply.
+　...No reply.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
@@ -62,18 +62,18 @@ label	suika_02
 #＠樹
 #「すいか、友達が忘れ物を持ってきてくれたぞ」
 ＠Itsuki
-「Suika, your friend brought something you forgot.」
+「Suika, your friend came to return something you forgot」
 
 #ノックして声を掛けるが、中からは何の反応も無い。
-　I knocked on the door and called out to her, but there was no reaction from inside.
+　I knocked on the door and called to her, but there was no reaction from inside.
 
 #微妙に物音や声はするので留守ではないはずだが。
-　I can slightly hear some noises and a voice so she can't not be here.
+　I can pick out some sounds and a voice so she's got to be there.
 
 #＠樹
 #「……入るぞ？」
 ＠Itsuki
-「......I'm coming in?」
+「...I'm coming in」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -82,19 +82,19 @@ label	suika_02
 @bg_suika
 
 #カギの掛かっていないドアを開けて、中を覗き込んでみた。
-　I opened the unlocked door, and peeked inside.
+　I opened the door that was unlocked, and peeked inside.
 
 #すいかの部屋に入るのはこれが初めてだ。
-　This is the first time I'm going in Suika's room.
+　This is my first time going into Suika's room.
 
 #本人の好みなのか、部屋の中は案外あっさりとしていて、物も少ない。
-　I don't know if it's because she likes it, but the inside of the room was unexpectedly simple, with few objects.
+　Maybe it's to her taste; the interior of her room is surprisingly plain, with not a lot of stuff.
 
 #代わりに壁に貼られたゲームのポスターや、部屋の隅に置かれたテレビとスピーカー。
-　Instead, posted on the walls were game posters, and in the corner of the room, a television and speakers.
+　Instead, there's some game posters on the wall, and a TV and speakers stuck in a corner of the room.
 
 #そして、
-　And then,
+　And also...
 
 #■EVCG EV_SUI_040
 event	"event\EV_SUI_040-00.png"
@@ -102,75 +102,75 @@ event	"event\EV_SUI_040-00.png"
 #＠すいか,R00189
 #「うう～～ッ、このッ！　ていッ！！　……あッ」
 ＠Suika,R00189
-「Uu~~, why you! Hey!! ......Ah-」
+「Uuh～～, why you! Hey!! ...Ah!」
 
 #そこに繋がったゲーム機のコントローラーを握り締め、ヘッドホンを装着したすいかが白熱していた。
-　There, holding on to the connected game controller and wearing headphones, Suika was having a heated game. (*as in heated discussion, etc)
+　Suika's in the throes of a game, equipped with headphones and clutching a controller for a console she's got hooked up.
 
 #だからノックや声にも返事が無かったのか……
-　Is that why there was no response to my knock or voice......
+　I guess that's why she didn't hear me before...
 
 #今も完全にゲームにのめり込んで、オレの入室にも気付いていない。
-　Even now, she was completely absorbed in the game, and did not notice me entering the room at all.
+　Even now she's totally absorbed in the game and didn't notice me come in.
 
 #＠すいか,R00190
 #「んぅッ、攻めが強いよ……何とか相手に被さって、こっちのペースで動かないとッ」
 ＠Suika,R00190
-「Nnu-, the attack is strong......I have to cover the opponent and move at this pace-」
+「Ngh, what a strong attack... I have to somehow get on top of him and move at my own pace」
 
 #＠すいか,R00191
 #「えッ、ウソ、そんな体勢で後ろからなんて……ッ！　あんッ、止まらないッ、止まらないよ！」
 ＠Suika,R00191
-「Eh, no way, attacking from behind......-! An, I won't stop, I won't stop!」
+「Huh, no way, doing it like that from behind...! Anh, he won't stop, he won't stop!」
 
 #＠樹
 #「……健全な格闘ゲームのくせに、この台詞のエロさは何だ」
 ＠Itsuki
-「......It's a healthy fighting game, but what are these erotic lines?」
+「...It looks like a fun fighting game, but what's with the sexual commentary?」
 
 #まぁ画面を見る限り、すいかの言葉は間違ってないんだが……
-　But as much as I can see the screen, Suika's words are not wrong......
+　Well I guess it is matching up with what's on the screen though...
 
 #要するに聞いてるオレがエロいからってオチか。
-　In short, listening to it, I ended up thinking that it was erotic.
+　Maybe it just means I've got a dirty mind.
 
 event	"event\EV_SUI_040-01.png"
 
 #＠すいか,R00192
 #「あぁッ！　ダメ、もうそんなに溜まってる……ッ、出ちゃうの！　お願い、休ませてぇッ」
 ＠Suika,R00192
-「Aah-! This is not good, it's already collecting so much...... It's going to come! Please, let me rest!!」
+「Ahh! No good, it's accumulated so much already... it's going to come! Please ease up a bit!!」
 
 #（訳）
 #相手の気力が〝溜まり〟、必殺技が〝出そう〟になって死にそうだから、何とか〝休ませて〟ほしい。
-　(Translation) The opponent's energy is "collecting", and the special move "seems to be coming" and going to kill her, so she wants it to "let her rest".
+　(Meaning) The opponent's energy has "accumulated" and his special move is on the verge of "coming", so she wants it to "ease up a bit".
 
 #＠樹
 #「うわ～～……」
 ＠Itsuki
-「Uwah~~......」
+「Uwah～～...」
 
 #しかしすいかの叫びも無慈悲なコンピューターに届くはずも無く。
-　But Suika's cry won't reach the ruthless computer.
+　But Suika's cries have no effect on the remorseless computer.
 
 #＠すいか,R00193
 #「落ちちゃうッ、出さないでぇッ！　ふぁッ、ああぁああううぅぅッッッ！！！」
 ＠Suika,R00193
-「I'm going to f-fall-, don't come-! ふぁッ、ああぁああううぅぅッッッ!!!」
+「I'm going to be defeated, don't come! ふぁッ、ああぁああううぅぅッッッ！！！」
 
 #カットインから一気にラッシュが走り、すいかは嬌声と共に落ちてしまった。
-　(? I don't know what it means by a "cut in" and "rush" @_@), Suika fell with a sweet voice.
+　Suddenly something rushes out from a character cut-in, and Suika was defeated while making a lovely moan.
 
 #画面が切り替わると、相手の勝ち誇った台詞と満足げな笑みが映る。
-　The screen changed, and the opponent's winning speech and satisfied smile were shown.
+　The screen changed showing the opponent's winning speech and satisfied smile.
 
 #＠すいか,R00194
 #「はぁぁ……んく、こんな一方的にやられちゃうなんて……もっと沢山やって上手くならないと……」
 ＠Suika,R00194
-「Haa...... Nku, I was beat so one-sidedly...... I have to get better......」
+「Haaa... guh, being screwed so one-sidedly... I have to do it a lot more and get better...」
 
 #まぁ、エロシーンの締めの台詞としては及第点じゃないだろうか。
-　Well, if those lines were in an ero-scene, I would give her a passing mark.
+　Hmm, as the concluding remark of for an H-scene, it works pretty well.
 
 #■BG（すいかの部屋）
 @bg_suika
@@ -187,20 +187,20 @@ event	"event\EV_SUI_040-01.png"
 #＠すいか,R00195
 #「……え？」
 ＠Suika,R00195
-「......Eh?」
+「...Huh?」
 
 #ゲームが一段落したのを見計らって声を掛けると、今度はしっかりとこちらに振り返った。
-　This time she got through the first part to a part where she could pause, and looked in this direction.
+　Having completed the run-through I call out to her again, and she turns and looks right at me.
 
 #＠樹
 #「ずいぶん白熱してたな」
 ＠Itsuki
-「That was very heated.」 (*think of another word XD)
+「You were really into it」
 
 #＠すいか,R00196
 #「………」
 ＠Suika,R00196
-「.........」
+「...」
 
 #＠樹
 #「すいか？」
@@ -212,32 +212,32 @@ event	"event\EV_SUI_040-01.png"
 #＠すいか,R00197
 #「きゃああッ！！！　いッ、いいッ、院長先生ッ！？　な、何でここにッ！！」
 ＠Suika,R00197
-「Kyaa-!!! I-, Ii-, Inchou-sensei-!? Wh, why are you here-!!」
+「Kyaaa!!! I-I-Inchou-sensei!? W-why are you here!!」
 
 #＠樹
 #「ノックはしたんだが、まぁああいう状況だったんで勝手に入らせてもらった」
 ＠Itsuki
-「I knocked, but well, you were like that, so I just came in by myself.」
+「I knocked, but you were busy with that so I just let myself in」
 
 @suika_odoroki
 
 #＠すいか,R00198
 #「あッ、あああッ！　えっと、いつからそこに……ッ！？　じゃなくて、これはそのッ、違うんです！！」
 ＠Suika,R00198
-「Ah-, aaah-! Uhh, since when were you here......!? I mean, this is-, not what you think!!」
+「Ah, ahhh! Um, how long were you...!? I mean, this is, it's not what you think!!」
 
 @suika_
 
 #バッサバッサと本やら衣類やらをゲーム機の上に被せだす。
-　She quickly covered the game machine with books and clothes.
+　She clattered around covering the game console with books and clothes.
 
 #＠樹
 #（もしかして今さら、しかもそれで隠してるつもりなんだろうか……）
 ＠Itsuki
-(Don't tell me she was planning to hide it even now......)
+(Don't tell me she's planning to hide it after all that...)
 
 #ここまで取り乱すすいかを見るのは初めてだ。
-　This is the first time I've seen Suika distracted like this.
+　This is the first time I've seen Suika lose her cool like this.
 
 #SE66　効果音１（ビシッ！）
 @se66
@@ -247,51 +247,51 @@ event	"event\EV_SUI_040-01.png"
 #＠すいか,R00199
 #「これはビデオですッ」
 ＠Suika,R00199
-「This is a video.」
+「This is a video」
 
 #＠樹
 #「別に隠すこと無いだろ？　健全な格闘ゲームをしてただけじゃないか」
 ＠Itsuki
-「There isn't really anything to hide you know? It's just that you were playing a healthy fighting game.」
+「There's nothing really to hide you know? It's just a fun fighting game」
 
 #叫んでた台詞は別として。
-　Except for the lines she was shouting.
+　The lines she was shouting are another matter.
 
 @suika_kanashimi
 
 #＠すいか,R00200
 #「うぅ、そうなんですけど………でも、女の子であんなにゲームに熱中するのって、おかしいですよ……」
 ＠Suika,R00200
-「Uu, that's right but......... but, isn't is weird for a girl to be so enthusiastic about such a game......」
+「Uuh, that's true... but it's weird for a girl to go so nuts over a game...」
 
 #＠樹
 #「そうかな。面白いものは誰がやっても面白いんだから、性別は関係ないだろ」
 ＠Itsuki
-「I wonder. Something interesting is interesting no matter who does it, it has nothing to do with your gender.」
+「Hmm well. Being interested in something doesn't discriminate whether you're a girl or a boy」
 
 @suika_odoroki
 
 #＠すいか,R00201
 #「ほ、ほんとですか……？」
 ＠Suika,R00201
-「Re, really......?」
+「Y-you think so...?」
 
 @suika
 
 #＠すいか,R00202
 #「外で友達に会うのをエンカウントって言ったり、つい勢いで男の子にゲーム知識の薀蓄を小一時間語りつくしてもですか……？」
 ＠Suika,R00202
-「Even calling my meetings with friends "encounters", and talking enthusiastically to boys for almost an hour about my vast amount of information about games......?」
+「So even like calling it an "encounter" when I meet with friends outside, or getting caught up with boys talking about all our gaming knowledge for nearly an hour...?」
 
 #そ、そんなことまでやってるんだ……
-　Sh, she even does that......
+　S-she does stuff like that too...
 
 @suika_tere
 
 #＠すいか,R00203
 #「他にも……えっと、いろいろと語るに恥ずかしい失態の数々が……」
 ＠Suika,R00203
-「And...... Umm, there are many mistakes which are embarrassing to talk about that I have made......」
+「And also... um, there's a lot of embarrassing mistakes I've made that I could tell you about」
 
 #＠樹
 #「ゲームが待ちきれずに、学校へカバンを忘れて来たりとか？」
@@ -303,95 +303,95 @@ event	"event\EV_SUI_040-01.png"
 #＠すいか,R00204
 #「え……カバン？」
 ＠Suika,R00204
-「Eh......Bag?」
+「Huh... bag?」
 
 #キョロキョロと辺りを見回す。
-　She looks around.
+　She glances around her room.
 
 @suika_odoroki
 
 #＠すいか,R00205
 #「ああッ、カバンッ！　学校に忘れてきてますッ！！」
 ＠Suika,R00205
-「Aah-, my bag-! I forgot it at school-!!」
+「Aah, my bag! I forgot it at school!!」
 
 #＠樹
 #「ほら、さっきクラスの子が持ってきてくれたよ」
 ＠Itsuki
-「Hey, just a while ago, a child from your class came and brought it.」
+「Here, a classmate of yours came and brought it just now」
 
 @suika_komariwarai
 
 #＠すいか,R00206
 #「ど、どうも……はぁぁ。どうして私ってこうなんだろう」
 ＠Suika,R00206
-「Th, thanks...... Haa. Why am I like this?」
+「T-thanks... *sigh*. Why am I like this?」
 
 #＠すいか,R00207
 #「今日このゲームの発売日で、ずっと待ち遠しくて……。改めて思うと、確かに下校してくるまでの記憶が全然ありません……」
 ＠Suika,R00207
-「Today was the day this game went on sale, and I was always waiting for it...... And I can't remember anything from before I came back home from school......」
+「This game went on sale today, I'd been looking forward to it... I can't even remember anything from before I got home from school...」
 
 #＠樹
 #「……う、う～ん、まぁそれだけ熱中できる物があるのは、いいことじゃないか？」
 ＠Itsuki
-「......Y, yea~h, well if you have something you can be so enthusiastic about, isn't it a good thing?」
+「...O-oh okay, well it's good that you've good something that you're so passionate about right?」
 
 #＠樹
 #「ほら、そんな気を落とすな。これから気をつければいいことなんだから」
 ＠Itsuki
-「Hey, don't be so discouraged. It would be good if you take care from now on.」
+「Come on, don't get so down on yourself. Just be a little more careful from now on」
 
 @suika_kanashimi
 
 #＠すいか,R00208
 #「はい………もう知らない人にゲーム買ってあげるからって言われても、迷ったりせずに断ります……」
 ＠Suika,R00208
-「Yes.........Now I won't buy games for people I don't know, even if I'm told, and without hesitating I will refuse......」
+「Okay... I'll stand firm and refuse to buy games for people I don't know even if they ask me to...」
 
 #＠樹
 #「それは当たり前だ」
 ＠Itsuki
-「That's reasonable.」
+「That's just common sense」
 
 #……ひょっとするとこの子、ある意味いちごより心配な子なのかもしれない。
-　......Maybe this child should be worried about more than Ichigo for some reason.
+　...I think somehow I might even have to be more concerned about this girl than Ichigo.
 
 @suika_warai
 
 #＠すいか,R00209
 #「そうだ、院長先生、よければ対戦しませんか？」
 ＠Suika,R00209
-「Oh, Inchou-sensei, if you don't mind, would you like to have a competition?」
+「Oh yeah, Inchou-sensei, we can have a fight if you want」
 
 #気落ちしていたすいかだが、話がゲームに戻るとすぐ顔を明るくほころばせた。
-　Suika was disappointed, but when the topic returned to games, she broke into a bright smile.
+　Suika was disappointed, but when the topic returned to games she smiled brightly right away.
 
 #＠樹
 #「よし、やっぱりゲームはそう楽しまないとな」
 ＠Itsuki
-「Okay, I guess I'll have fun with the game.」
+「Alright, I'll have to get in on this」
 
 #＠すいか,R00210
 #「はい。やっぱり対人戦の方がＣＰＵより燃えますよね」
 ＠Suika,R00210
-「Yes. And playing against a person makes me fired up more than playing against the CPU.」
+「Great. Playing against a real person fires me up more than playing against the CPU」
 
 @suika_
 
 #オレがコントローラーを受け取ると、すいかは嬉しそうに対人戦でゲームを再開させた。
-　I took the controller, and Suika happily restarted the game as player vs. player.
+　I took the controller, and happily Suika restarted the game as player vs. player.
 
 #今日発売のソフトだって言ってたし、こっちはさっき敵から一方的にやられていたすいかも見ている。
-　She said today was the day it went on sale, but (?)
+　She said the game just got released today, and I glance over at Suika who just got one-sidedly clobbered.
 
 #＠樹
 #（場合によっては手を抜いて負けてあげるのも必要だな）
 ＠Itsuki
-(Depending on the situation, I might have to purposely lose.)
+(If it comes to it, I should probably take it easy and lose on purpose)
 
 #などと軽く思ってすいかの隣に腰を下ろした。
-　Lightly thinking about that kind of stuff, I sat down next to Suika.
+　Entertaining such dainty thoughts, I sat down next to Suika.
 
 @suika_
 
@@ -400,20 +400,20 @@ event	"event\EV_SUI_041-02.png"
 #＠樹
 #「言っておくが、格ゲーは全般に得意だぞ」
 ＠Itsuki
-「I'll say this, fighting games are generally my specialty.」
+「I should probably tell you, fighting games are generally my specialty」
 
 #＠すいか,R00211
 #「それじゃ、私も本気で行きます。ちょっと設定を戻しますねー♪」
 ＠Suika,R00211
-「Then, I'll be serious too. I'm going to reset the settings, okay--♪」
+「In that case, I'll be serious too. I'll reset the settings, okay♪」
 
 #＠樹
 #「設定？」
 ＠Itsuki
-「Settings?」
+「What settings?」
 
 #すいかの動かすカーソルがコンフィグを開き、今までこの子が対戦していたキャラデータを映し出した。
-　The cursor Suika moved opened the config, and showed the chara data she was using to fight with until now.
+　Suika moved the cursor opening the configuration screen, and showed the character data she was using to fight with until now.
 
 #１Ｐ側：初期ＨＰ・５０％　殲滅力・４０％　スピード・５０％　ＥＸチャージ率・４０％
 　1P Initial HP- 50% Annihilation Power- 40% Speed- 50% EX Charge Ratio- 40%
@@ -424,20 +424,20 @@ event	"event\EV_SUI_041-02.png"
 #＠樹
 #「……マジ？　今までこれで戦ってたの？」
 ＠Itsuki
-「......Seriously? You were fighting like this until now?」
+「...You're kidding. You were fighting like this until now?」
 
 #＠すいか,R00212
 #「うふふ、格闘ゲームでハンデ無しの勝負は久しぶりです♪　院長先生、行きますよー！」
 ＠Suika,R00212
-「Ufufu, it's been a while since I played a fighting game without a handicap♪ Inchou-sensei, here I go-!」
+「Ufufu, it's been so long since I played a fighting game without a handicap♪ Inchou-sensei, here we go!」
 
 #それら数字は全部１００％に統一され、ハンデ無しの対戦が始まる。
-　All of those numbers became 100%, and the fight without handicaps began.
+　All the values got changed to 100%, and the fight without handicaps began.
 
 #＠樹
 #「ちょッ、ま―――！？」
 ＠Itsuki
-「Wa-, are you ser---!?」
+「Hold on, wait―――!?」
 
 #■BG（ブラック）
 @bg_black
