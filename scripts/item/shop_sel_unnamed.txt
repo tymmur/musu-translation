@@ -17,16 +17,16 @@ label	shop_sell_message_5_unnamed
 ＠Itsuki
 「そういえば、ここって使用済下着とかも売ってるんだよな？」
 
-＠Attendant,H00268
+＠Shopkeeper,H00268
 「あ、はい……。買っていかれますか？」
 
 ＠Itsuki
 「あ、いや……。売ることとかも、できるのか？」
 
-＠Attendant,H00269
+＠Shopkeeper,H00269
 「売りたいのですか……？」
 
-＠Attendant,H00270
+＠Shopkeeper,H00270
 「男性のものは取り扱っておりませんが……」
 
 ＠Itsuki
@@ -39,15 +39,15 @@ label	shop_sell_message_5_unnamed
 
 オレはビニール袋に入れたエッチなしみつきパンツを取り出し、巣蓋さんに差し出した。
 
-＠Attendant,H00271
+＠Shopkeeper,H00271
 「拝見いたします……」
 
 巣蓋さんはビニール袋を受け取り、袋越しに真剣な目で品定めする。
 
-＠Attendant,H00272
+＠Shopkeeper,H00272
 「これは……子供っぽいデザイン……しかもなかなかの汚れ具合……」
 
-＠Attendant,H00273
+＠Shopkeeper,H00273
 「あえてどこで入手したかは尋ねませんが……ホンモノですね、これ……」
 
 goto	shop_sell_message2_unnamed
@@ -57,7 +57,7 @@ label	shop_sell_message_6_unnamed
 ＠Itsuki
 「そういえば、ここって自主製作のビデオとかも売ってるんだよな？」
 
-＠Attendant,H00275
+＠Shopkeeper,H00275
 「あ、はい……。マニアの方が自分で撮影したものを、当店で買い取って販売しております」
 
 ＠Itsuki
@@ -65,13 +65,13 @@ label	shop_sell_message_6_unnamed
 
 オレはポケットに忍ばせてあったＤＶＤ－ＲＯＭを取り出した。
 
-＠Attendant,H00276
+＠Shopkeeper,H00276
 「はい……。少々お時間をいただきますが、よろしいでしょうか？」
 
 ＠Itsuki
 「まあ、ある程度見てもらわないと売り物になるかわからないだろうしな」
 
-＠Attendant,H00277
+＠Shopkeeper,H00277
 「それでは、少々お待ちください……」
 
 @subuta_
@@ -88,7 +88,7 @@ wait	2000
 
 ずいぶん時間が経って、ようやく巣蓋さんが出てきた。
 
-＠Attendant,H00278
+＠Shopkeeper,H00278
 「はぁ……はぁ……これなら……売れるでしょう……」
 
 巣蓋さんの頬を上気し、目をとろんとしている。
@@ -103,7 +103,7 @@ goto	shop_sell_message2_unnamed
 
 label	shop_sell_message2_unnamed
 
-＠Attendant,H00279
+＠Shopkeeper,H00279
 「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
 
 select	sel,"Sell","On second thought..."
@@ -119,10 +119,10 @@ item_delete	_ITEMNO
 if _ITEM=601 then karin_video_sell_flag=1
 _ITEM(_ITEM)=0
 
-＠Attendant,H00280
+＠Shopkeeper,H00280
 「ありがとうございます……」
 
-＠Attendant,H00281
+＠Shopkeeper,H00281
 「他には何かありますか……？」
 
 goto	shop_sell_message_exit_unnamed
@@ -132,7 +132,7 @@ label	shop_sell_message4_unnamed
 ＠Itsuki
 「やっぱり、それはいいや……」
 
-＠Attendant,H00282
+＠Shopkeeper,H00282
 「そうですか……。残念です……」
 
 goto	shop_sell_message_exit_unnamed
