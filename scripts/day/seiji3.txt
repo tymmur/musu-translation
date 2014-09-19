@@ -23,7 +23,7 @@ label	seiji_03
 「And the weather forecast said it looked okay too」
 
 #窓から見える曇天を見上げながら、世間話の延長上で呟く美雨。
-　Miu looks up at the cloudy skies through the window, and mutters that out of the blue.
+　Miu looks up at the cloudy skies through the window, and mutters that continuing our convesation.
 
 #「そういえば……」
 ＠Itsuki
@@ -34,7 +34,7 @@ label	seiji_03
 
 #「この前、商店街で会った涼海ちゃん、そこの施設の院長ってやつと会ったよ」
 ＠Itsuki
-「Not too long ago, I met the guy who's in charge of the institution Suzumi-chan from the shopping district is in」
+「Not too long ago, I met the guy who's in charge of the institution Suzumi-chan who we met at the shopping district is in」
 
 @miu_odoroki
 
@@ -53,7 +53,7 @@ label	seiji_03
 「...? Like what?」
 
 #誠司という男は真剣なのかふざけてるのか、騒ぐだけ騒いで帰ってしまった。
-　Whether this Seiji character is in earnest or screwing around, all he managed to was make a fuss before going back home.
+　Whether this Seiji character is in earnest or screwing around, all he managed to was make a scene before going back home.
 
 #美雨は首を傾げるが、オレとしても曖昧な言い方しか出来ずに肩を落とす。
 　Miu tilts her head puzzled, but I can't say it any less ambiguously and slump my shoulders.
@@ -70,18 +70,18 @@ label	seiji_03
 
 #「お客さんかしら。ちょっと失礼します」
 ＠Miu,B00256
-「It might be a guest. Excuse me for a bit」
+「I wonder if it's a guest. Excuse me for a bit」
 
 #「ああ、オレの方は大した話じゃないから」
 ＠Itsuki
-「Sure, it's nothing important anyway」
+「Sure, I had nothing important to talk about anyway」
 
 @miu_
 #SE18　廊下を歩き去る音　※徐々に小さく
 @se18
 
 #美雨の姿が玄関の方へ消えると、あの時のことが思い出される。
-　Miu's figure disappears toward the entranceway, and I remember what happened.
+　Miu's figure disappears in the direction of the entranceway, and I remember what happened.
 
 #■EVCG（涼海しりもち・雪上）EV_SEI_020
 screen_transition_rule_set 	"system\transition\円形(中から外へ).png"
@@ -110,7 +110,7 @@ event_wait_set			1000
 「...?」
 
 #美雨が応対に出た玄関の方から、かすかに聞き覚えのあるイントネーションの話し声がした。
-　I hear a familiar intonation talking from the entranceway where Miu went to meet them.
+　I hear a familiar intonation talking from the entranceway where Miu went to meet our guest.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -179,7 +179,7 @@ event_wait_set			1000
 
 #「あ、すみません、気が付かずに。さ、どうぞ二人とも中へ」
 ＠Miu,B00260
-「Ah, excuse me, how thoughtless of me. Come, please make yourself at home」
+「Ah, excuse me, how thoughtless of me. Come the two of you, please make yourself at home」
 
 #二人……？
 　The two of them...?
@@ -203,14 +203,14 @@ event_wait_set			1000
 
 #「少なくとも不審感はかなりあるが………で、誰かいるのか、そこに？」
 ＠Itsuki
-「I'm certainly not awash with trust for you... so, who is that over there?」
+「I'm certainly not awash with trust for you... so, who's that over there?」
 
 #「………！」
 ＠Girl,M00019
 「...!」
 
 #美雨に言われて気付いたが、誠司の隣。
-　Someone spoken to and recognized by Miu, at Seiji's side. 
+　Miu mentioned it and I noticed someone beside Seiji.
 
 #リビングの入り口に隠れるようにしている小さい人影があった。
 　There was a small figure concealing itself at the living room entrance.
@@ -218,95 +218,95 @@ event_wait_set			1000
 @seiji2
 #「ん、ああ。今日はこいつの用件で来たんや。ほらるあ、緊張せんと出てきぃ」
 ＠Seiji,D00051
-「Oh, yeah. Today I came on her business. Hey Rua, if you're not nervous come out here.」
+「Oh, yeah. Today I came on her business. Hey Rua, don't be so nervous and quit hiding」
 
 @rua
 
 #「あ、はい……」
 ＠Rua,M00020
-「Ah, okay......」
+「Ah, okay...」
 
 #人影がゴソリと動き、そこから女の子が一人現れる。
-　The figure moving with a rustling sound, a lone girl comes into sight from there.
+　The figure rustles around and a lone girl appears from the doorway.
 
 #涼海と同い年くらい………というより、外見や目の色とかそっくりな子だ。
-　Rather than just being the same age as Suzumi... ... ... she's her splitting image with things like appearance and eye colour.
+　Rather than just being the same age as Suzumi... the resemblance in appearance and eye colour is striking.
 
 #「涼海から樹の話を聞いたらしいてな。どうしても自分も会いたい言うて聞かんかったんや」
 ＠Seiji,D00052
-「It seems she heard about Itsuki from Suzumi. She said she wanted to meet you herself too and wouldn't take no for an answer.」
+「It looks like she heard about you from Suzumi. She said she wanted to meet you herself too and wouldn't take no for an answer」
 
 #「涼お姉ちゃんの妹の、るあです。よろしくお願いします樹先生」
 ＠Rua,M00021
-「I'm Suzu's younger sister, Rua. Pleased to meet you, Itsuki.」
+「I'm Suzu Onee-chan's younger sister, Rua. Pleased to meet you, Itsuki-sensei」
 
 #控えめな声で告げるとペコリと一礼し、長い髪が肩口を抜けるようにサラサラと揺れる。
-　When informing me with a mild voice quickly bowing, her long hair sways silky so that it falls off her shoulders.
+　She informs me shyly and quickly bowing her head, her long silky hair sways and falls off her shoulders.
 
 #不安そうに窺う瞳で、こちらへ上目遣いに見上げてきた。
-　Nervously peering, she looks up at me with upturned eyes.
+　She nervously peeks and turns her eyes up to look at me.
 
 #「姉妹か、確かに見た感じは似過ぎるくらい似過ぎてるけど………妹？」
-＠Itsuki
-「Sisters huh, surely the impression I got is too similar though... ... ... younger sister?」
+＠Itsuki」
+「Sisters huh, you look way too much alike though... even for a younger sister」
 
 #「あ、妹と言っても双子ですから。年は同じなんです」
 ＠Rua,M00022
-「Ah, even if I say younger sister we're twins. We're the same age.」
+「Ah, even though I say younger sister we're twins. We're the same age」
 
 #「外見以外はあまり似てないってよく言われますけど」
 ＠Rua,M00023
-「Lots of people say that except for our appearance we're not really much alike.」
+「Lots of people say that except for our appearance we're not really much alike」
 
 #うん、似てないどころかまるで正反対の気がする。
-　No kidding. Far from not being alike I'm getting the sense they're like north and south.
+　No kidding, much more than just not being alike I'm getting the impression they're polar opposites.
 
 #しかし二人で一つとバランスを取るならちょうどいいのかも……とか変な解釈で納得してみたり。
-　However if together they keep each other balanced maybe it's just right...... I try to grasp it with such weird interpretations.
+　But as a pair they might balance each other out just right... is the strange explanation I come up with.
 
 #CH（立ち絵消去）
 @rua_
 
 #「………で、何でお前まで一緒に来てるんだ？」
 ＠Itsuki
-「... ... ... So, why did you come with her?」
+「...So why did you want to come with her?」
 
 @seiji2_warai
 #「あぁ、ええなぁ……ああやって甲斐甲斐しく働いてくれるメイドさん」
 ＠Seiji,D00053
-「あぁ、ええなぁ...... Ahh, because of a certain maid who bravely works for you.」
+「Oh, look at her... that lovely maid toiling away for you」
 
 #全くこっちなど見ていないその男は、キッチンでお茶の用意している美雨の後ろ姿を追っていた。
-　This man soundly ignoring the likes of me, he follows Miu's back as she prepares tea in the kitchen.
+　He hardly even pays any attention to me and eyes Miu from behind preparing tea in the kitchen.
 
 #「せ、誠司先生、ダメです。涼お姉ちゃんがいるのに、他の人のこと……」
 ＠Rua,M00024
-「S-Seiji, that's no good. You have Suzu, but still fantasizing about others......」
+「S-Seiji-sensei, that's no good. You have Suzu Onee-chan, and yet you're thinking about someone else...」
 
 @seiji2
 #「涼海～？　何でそこであいつが出てくんねん」
 ＠Seiji,D00054
-「Suzumi~? Why would you put her in such company?」
+「Suzumi～? What's she got to do with this?」
 
 #「それにあないなぺったんこ、何人おったかて美雨さんに遠く及ばへんで～」
 ＠Seiji,D00055
-「Besides, such flat-chested girls, however many there are they're no match for Miu~」
+「Anyway I have no need for such flat-chested girls, they're all no match for Miu～」
 
 #「ん、ぅ……ぺったんこ……」
 ＠Rua,M00025
-「ん、ぅ...... Flat-chested girls......」
+「Nh, uuh... flat-chested...」
 
 #少し寂しそうに自分の胸元を見下ろす。
-　Looking a little lonely she looks down to her chest.
+　She looks down at her chest a little stricken.
 
 @seiji2_warai
 #「すばらしいやろ、あのスペック。揉みたい。くぅ～～ッ、揉みたい！　揉む以外にもいろいろしたいッ！」
 ＠Seiji,D00056
-「Isn't it wonderful, that spec. I want to rub them. Kuuu~~, I want to rub them! And other than rubbing all sorts of things I want to do!」
+「Aren't those assets just wonderful? I wanna rub them. Oh yes, I wanna rub them! And all sorts of other things too!」
 
 #「おい美雨、電話どこだ。警察に連絡しよう」
 ＠Itsuki
-「Oi Miu, where's the telephone. I think I'll call the police.」
+「Hey Miu, where's the telephone? I think I need to call the police」
 
 #SE66　効果音１（ビシッ！）
 @se66
@@ -314,23 +314,23 @@ event_wait_set			1000
 @seiji2_ikari
 #「そんな美雨さんと一つ屋根の下！　うらやましすぎる土屋樹！！」
 ＠Seiji,D00057
-「You're under the same roof as someone like Miu! You're too jealous Itsuki Tsuchiya!!」
+「And you're living under the same roof as her! I'm seething with jealousy Itsuki Tsuchiya!!」
 
 #「あ～……」
 ＠Itsuki
-「Aa~......」
+「Uh-huh...」
 
 #……人間、ここまで直情的に生きられたら幸せだろうなぁ。
-　...... Someone who could simply make a living like this probably would consider himself lucky.
+　...Someone who can live so blinded by his desires must be a happy man.
 
 #「そんなに言うんならオレが頼んでやろう」
 ＠Itsuki
-「If you say it like that I'll request for you.」
+「When you're that insistent I'll ask her for you」
 
 @seiji2_odoroki
 #「な、なに……？」
 ＠Seiji,D00058
-「W-What......?」
+「W-What...?」
 
 #SE17　廊下を歩いてくる音　※徐々に大きく
 @se17
@@ -339,27 +339,25 @@ wait	1000
 @miu
 #「お待たせしました。あら、どうしたんですか、立ったままで」
 ＠Miu,B00261
-「Thank you for waiting. Oh, what's wrong, you're still standing.」
+「Thanks for waiting. Oh my, what's wrong, you're still up」
 
 @seiji2_ase
 #「たたたッ！？　勃ってへんで！！」
 ＠Seiji,D00059
-「たたたッ!? It's not standing!!」
+「U-u-up!? It's not up!!」
 
 #「美雨、こいつが美雨のスペックを揉んで舐めてしゃぶって味わいたいんだと」
 ＠Itsuki
-「Miu, this one here says he wants to rub and lick and suck and taste Miu's specs.」
+「Miu, this guy says he wants to rub lick suck and taste your assets」
 
 #「判断は任すからさっさと返事してやってもらえるか」
 ＠Itsuki
-「I'll leave the decision to you so could you please quickly reply for him?」
+「I'll leave it up to you so would you please give him a reply soon?」
 
 @seiji2_goukyuu
 #「ひーーーー！！！　やめれ、いじめかっこ悪いやんかー！！」
 ＠Seiji,D00060
-「ひーーーー!!! Stop, you're doing irreperable damageー!!」 
-
-#(your torment is seriously ugly)
+「Hiiiii!!! Stop, you're doing irreparable damageー!!」 
 
 #BGM切り替え
 @bg_black
@@ -371,18 +369,18 @@ wait	1000
 
 #「今日は、涼海ちゃんはいらっしゃらないんですか？」
 ＠Miu,B00262
-「Suzumi didn't come today?」
+「Suzumi-chan didn't come today?」
 
 #「ああ、あいつやったら家で飯作っとりますわ。家事全般はあいつとるあの当番制やさかい」
 ＠Seiji,D00061
-「Ahh, As for her she's preparing food at home. Her and Rua take turns doing the housework.」
+「Yeah, as for her she's preparing food at home. Her and Rua deal with all the housework」
 
 #並べられた紅茶とクッキーに手を伸ばしながら、とりあえずオレ達は騒動も落ち着いてまったりしていた。
-　While reaching out to the black tea and cookies set up, for now the turmoil settled down and we relaxed.
+　We managed to stop bickering and settled down, and help ourselves to tea and cookies arranged on the table.
 
 #「留守番で家事って……預かってる子にそんなことをさせてるのか？」
 ＠Itsuki
-「Caretaking housework...... you're making the child you're looking after do that?」
+「Having her stay at home to do housework... you're making the child you're looking after do that?」
 
 @seiji2_kanashimi
 #「しょうがないやろ、オレが台所に入ったら涼海が怒るんやから。な、るあ？」
@@ -392,262 +390,260 @@ wait	1000
 @rua
 #「………（ジィっ）」
 ＠Rua,M00026
-「... ... ... (*Stare*)」
+「...(*Stare*)」
 
 @seiji2
 #「………るあ？」
 ＠Seiji,D00063
-「... ... ... Rua?」
+「...Rua?」
 
 #「……？　どうかしたの、るあちゃん？」
 ＠Miu,B00263
-「......? Is something the matter, Rua?」
+「...? Is something the matter, Rua-chan?」
 
 @rua_odoroki
 #「え……っ！？」
 ＠Rua,M00027
-「Huh......!?」
+「Huh...!?」
 
 #美雨の声で視線を上げる。
-　With Miu's voice she raises her gaze.
+　Miu's voice snaps her back to alertness.
 
 @rua_warai
 #「あ、えっと……はいッ、私もそう思いますっ」
 ＠Rua,M00028
-「Ah, um...... Yeah, I think so too.」
+「Ah, um... yeah, I think so too」
 
 #「……そう思うって。ちゃんと話聞いてたんか？」
 ＠Seiji,D00064
-「...... You think so too huh. Did you even hear what we were saying?」
+「...You think so too huh. Did you even hear what we were saying?」
 
 @rua_kanashimi
 #「う……す、すみません……ちょっと考え事を……」
 ＠Rua,M00029
-「uh...... E-Excuse me...... Thinking a little bit......」
+「Uuh... s-sorry... got caught thinking about stuff...」
 
 #正面に座る美雨の胸を、ジッと見つめていたようだった。
-　Miu sitting in front of her, it looked like she'd been gazing intently at Miu's chest.
+　With Miu sitting in front of her, it looked like she'd been gazing intently at her chest.
 
 #（……この辺の興味、やっぱり涼海ちゃんの双子だな）
 ＠Itsuki
-(...... The interest in this area, she's still Suzumi's twin after all.)
+(...She really is Suzumi-chan's twin after all, with that particular interest)
 
 #美雨も首を傾げるだけで、まるで視線の先には気付いてないみたいだし……
-　Miu only tilting her head to one side confused, it looks like she didn't perceive the stare a moment ago at all......
+　Miu just tilts her head puzzled; it looks like she didn't notice the stare just now at all...
 
 @seiji2_kanashimi
 #「ったく……オレが料理出来へんから、涼海に台所から追い出されるっちゅう話や」
 ＠Seiji,D00065
-「Ugh...... I can't cook so Suzumi kicks me out of the kitchen is what we were talking about.」
+「Ugh... I can't cook so Suzumi kicks me out of the kitchen is what we were talking about」
 
 @rua
 #「……それは」
 ＠Rua,M00030
-「...... That.」
+「...Oh that」
 
 #「誠司先生は出来ないっていうより、作り方を分かってないだけだと思いますけど」
 ＠Rua,M00031
-「I think it's more that he doesn't know the recipe than that he can't cook as he says though.」
+「I think it's more that he doesn't know any recipes than that he can't cook though」
 
 #「分からない料理をどう作ってるんだ……？」
 ＠Itsuki
-「How would you prepare meals if you don't know how......?」
+「How would you cook a meal without a recipe...?」
 
 @seiji2
 #「そんなん、元は食材なんや。毒でもかけん限り、どない調理しようと食い物に違いないやろ」
 ＠Seiji,D00066
-「Of course the most important thing is the ingredients. Unless I add poison, how I make it probably isn't different from any other food.」
-
-#guessing a little bit
+「All that matters is the ingredients. Unless I add poison, how I make it probably doesn't make a difference」
 
 #CH（るあ・悲しそうor困る）
 @rua_kanashimi
 
 #「………ヨーグルトは焼くと苦いです」
 ＠Rua,M00032
-「... ... ... If you cook yogurt it's bitter.」
+「...If you bake yogurt it's bitter」
 
 #「無茶するのな、お前」
 ＠Itsuki
-「You're being unreasonable.」
+「You're being unreasonable」
 
 @seiji2_ikari
 #「何を言う。どないな料理かて、誰ぞが初めて試した調理法から完成されとるんやないか」
 ＠Seiji,D00067
-「What are you saying. However it turns out, it's from someone who cooks for the first time that greatness is attained isn't it?」
+「What are you saying. Whatever cooking method you find, it started with someone testing out and mastering it for the first time」
 
 #「これはいわば、新しい料理への探究心や！　そやんな、美雨さん？」
 ＠Seiji,D00068
-「This being so, it's my spirit of inquiry to fresh cooking! Isn't that so, Miu?」
+「In light of this, it's my spirit of inquiry into fresh cooking! Isn't that so, Miu?」
 
 #CH（困り笑顔）
 @miu_komaru
 
 #「…えっと……そう、でしょうか……」
 ＠Miu,B00264
-「... Umm...... Yeah, I guess......」
+「Umm... yeah, I guess...」
 
 #さすがに美雨も同意しかねて困っている。
-　As expected Miu is finding it difficult to agree and looks troubled.
+　As you'd expect Miu is finding it difficult to agree and looks troubled.
 
 #「そんなことばかりしてるから、涼お姉ちゃんが怒っちゃうんですよ、誠司先生」
 ＠Rua,M00033
-「Suzu gets angry because you're always doing those kinds of things, Seiji-sensei.」
+「Suzu Onee-chan gets angry because you're always pulling stuff like that, Seiji-sensei」
 
 #「ふ～ん、けどあの子が料理か」
 ＠Itsuki
-「Humph, so she's cooking is she?」
+「Hmmm, so she's cooking is she?」
 
 #失礼だが、あんまりイメージできない。
-　It's rude but somehow I just can't picture that.
+　It's not very nice, but somehow I just can't picture that.
 
 #るあちゃんなら台所に立つ姿は似合いそうだが。
-　But when it comes to Rua her figure seems well-suited standing in the kitchen.
+　But when it comes to Rua she seems well suited to being in the kitchen.
 
 #「今度あったらこの間のこと、謝ろうと思ってたんだけどな」
 ＠Itsuki
-「I was hoping to apologize to her for the other day you know.」
+「I was hoping to apologize to her for the other day you know」
 
 @seiji2_ikari
 #「なッ！？　こ、このアホッ！」
 ＠Seiji,D00069
-「Wha-!? Fool!」
+「Wha-!? You fool!」
 
 #「え？　あ……」
 ＠Itsuki
-「Huh? Ah......」
+「Huh? Ah...」
 
 @miu
 #「この間のこと……？」
 ＠Miu,B00265
-「What happened the other day......?」
+「What happened the other day...?」
 
 @rua
 #「………？」
 ＠Rua,M00034
-「... ... ...?」
+「...?」
 
 #「いや、何でもない何でもない」
 ＠Itsuki
-「No, it's nothing it's nothing.」
+「Never mind, it's nothing」
 
 @seiji2_ase
 #「せやせや。オレは関係ない関係ない」
 ＠Seiji,D00070
-「Right right. I have nothing to do with it.」
+「That's right. And I had nothing to do with it either」
 
 #（いや、原因はお前だろうッ！）
 ＠Itsuki
-(No, I think you were the cause!)
+(Actually, you're what caused it!)
 
 #と叫びたかったが、話が深みにはまっていくので何とか抑える。
-　I wanted cry that out but I'm waiting to tell the story in detail so I manage to restrain myself.
+　I wanted to shout that, but manage to restrain myself lest we get trapped in a long discussion.
 
 @miu_warai
 #「涼海ちゃんも学校がありますし、あまり負担をかけないで上げてくださいね、誠司さん」
 ＠Miu,B00266
-「Suzumi also has school so I hope you're not too much of a burden on her, Seiji.」
+「Suzumi-chan also has school, so please don't burden her too much, Seiji-san」
 
 @seiji2_odoroki
 #「ああ、いやっ、違うんです美雨さん。あいつが勝手にやってることやさかい！」
 ＠Seiji,D00071
-「Ahh, no, it's not like that Miu. She's doing it of her own will!」
+「Ahh, no, it's not like that Miu-san. She's doing it of her own will!」
 
 @seiji2_kanashimi
 #「それにこの間も洗濯物を洗うてやったら、めっちゃ怒りよるし」
 ＠Seiji,D00072
-「Besides, lately if I'm doing the laundry she gets really angry at me.」
+「Besides, last time I was doing the laundry and she got really pissed at me」
 
 #「洗濯物……？　この二人の分もお前がか？」
 ＠Itsuki
-「The laundry......? You do their share too?」
+「The laundry...? You were doing theirs too?」
 
 @rua_odoroki
 #「え……それは私、初耳ですけど」
 ＠Rua,M00035
-「Huh...... That's news to me.」
+「Huh... that's news to me」
 
 @seiji2
 #「いやな、涼海のやつ、種類に分けて何回も洗濯機回しよるんや」
 ＠Seiji,D00073
-「It's annoying, I divide Suzumi's things and I've been having to cycle things over and over.」
+「Yeah, when I put Suzumi's things separately I had to do so many cycles in the washer」
 
 #「せやから効率悪い思て全員分の汚れ物を一緒にまわしたら、真っ赤になって怒りよった」
 ＠Seiji,D00074
-「So in the interest of efficiency I cycled everyone's dirty clothes together and she got bright red and angry.」
+「So for efficiency's sake I put everyone's dirty clothes together in the same cycle, and she went bright red and got angry at me」
 
 #あー、何かそのイメージはすぐ頭の中に思い浮かぶな。
-　Ahh, somehow that image easily materialized in my mind.
+　Indeed, somehow that image easily comes to mind.
 
 @seiji2_kanashimi
 #「パンツが恥ずかしい言うて怒るわ、オレのと一緒やと汚い言うて暴れるわ」
 ＠Seiji,D00075
-「Says panties are embarassing and gets mad, says together with my stuff is dirty and gets violent.」
+「She got mad saying panties are embarrassing, and raged at me about how it's gross putting it with my stuff」
 
 #「んなもん、洗濯なんやから当たり前のことやないか。なあ？」
 ＠Seiji,D00076
-「Well I mean it's laundry so it seems like a pretty normal thing to do, don't you think?」
+「Weird, it's just laundry so it seems like a pretty normal thing to do. Don't you think so?」
 
 @rua_odoroki
 #「えっ！？　えっと、あの……でも、知らないところで下着を見られるの、恥ずかしいかも……」
 ＠Rua,M00036
-「えっ!? えっと、あの...... I wouldn't know but underwear being seen might be embarassing......」
+「Huh!? Um, er... but it might be embarrassing if someone's looking at your underwear when you're not there...」
 
 @miu_kanashimi
 #「……涼海ちゃんもるあちゃんも女の子ですから、その辺りは少し、誠司さんが気を使った方がいいかもしれませんね」
 ＠Miu,B00267
-「...... Suzumi and Rua are girls so that area is a little. It might be best if you take care about that, alright?」
+「...Suzumi-chan and Rua-chan are girls, so it would be good to be a little tactful about stuff like that, Seiji-san」
 
 @seiji2
 #「ん～～……そういうもんですか？　普段から中身を見せたり触ったりしとるのに、今さらパンツくらいで」
 ＠Seiji,D00077
-「nn~~...... Is that how it is? Since always they show the contents and touch and stuff, but now panties.」
+「Hmm... is that so? They're always showing themselves and being touched there, but panties are off-limits」
 
 @rua_kanashimi
 #「………」
 ＠Rua,M00037
-「... ... ...」
+「...」
 
 @seiji2_odoroki
 #「って、何でるあまで泣きそうな目でオレを見るん！？」
 ＠Seiji,D00078
-「Huh, why is Rua now looking at me with those teary eyes!?」
+「What the, why's Rua looking at me so upset now!?」
 
 #「お前、デリカシーって言葉辞書で調べて来い」
 ＠Itsuki
-「Go look up "delicacy" in the dictionary and come back.」
+「Go look up "delicacy" in the dictionary and come back」
 
 @seiji2_ikari
 #「知っとるわッ、宅配サービスのことやろうが！」
 ＠Seiji,D00079
-「I know that, it's home delivery service isn't it!」
+「I know that one, that means a home "delivery" service!」
 
 #そりゃデリバリーだろ。
-　In that case delivery it is. (derikashii, deribarii)
+　No, that's "delivery".
 
 @miu_komaru
 #「誠司さんの子供達への優しさは十分に分かってますが、気遣いに関してはもう少し勉強かもしませんね……」
 ＠Miu,B00268
-「I don't doubt your affection for your children is plenty but your consideration might need a little more diligence......」
+「I know you have lots of affection for them, but you might need to learn to be a little more considerate...」
 
 @seiji2_kanashimi
 #「とほほー……」
 ＠Seiji,D00080
-「boohoohooー......」
+「Oh noー...」
 
 #憧れの美雨に（自明）たしなめられ、漫画みたいな涙の滝を流す誠司だった。
-　Chided by his longed for Miu for obvious reasons Seiji shed a manga-like waterfall of tears.
+　Chided by his longed-for Miu for obvious reasons, Seiji shed a manga-like waterfall of tears.
 
 #穏やかな平日の時間は、そうやって平和に過ぎていく。
-　The time in the quiet ordinary day passes peacefully like that.
+　We pass the quiet day in that manner peacefully.
 
 #「………」
 ＠Itsuki
-「... ... ...」
+「...」
 
 #「……で、一体何だったんだよ、オチもないのか」
 ＠Itsuki
-「...... So, what the heck was that, is there not a punchline either?」
+「...What a half-baked way to conclude it」
 
 @bg_black
 wait	1000
