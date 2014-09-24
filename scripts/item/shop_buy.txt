@@ -77,14 +77,14 @@ goto	shopitem_end
 #（スクール水着）#############################################################
 label	shopitem_schoolware
 
-＠Subuta-san,H00030
+＠Subuta,H00030
 「スクール水着ですね……」
 
-＠Subuta-san,H00031
+＠Subuta,H00031
 「個人的にはスク水は、ピチピチよりちょっとブカブカぐらいがいいと思います……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00032
+＠Subuta,H00032
 「お値段は[_PRICE]円になります……」
 
 goto	shopitem_buy
@@ -92,14 +92,14 @@ goto	shopitem_buy
 #（デジタルビデオカメラ）#####################################################
 label	shopitem_videocamera
 
-＠Subuta-san,H00033
+＠Subuta,H00033
 「デジタルビデオカメラですね……」
 
-＠Subuta-san,H00034
+＠Subuta,H00034
 「やっぱり、いいセックスはいつまでも記録に残しておきたいですよね……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00035
+＠Subuta,H00035
 「お値段は[_PRICE]円になります……」
 
 goto	shopitem_buy
@@ -107,33 +107,33 @@ goto	shopitem_buy
 #（バニースーツ）############################################################
 label	shopitem_bunny
 
-＠Subuta-san,H00036
+＠Subuta,H00036
 「バニースーツですね……」
 
-＠Subuta-san,H00037
+＠Subuta,H00037
 「たまにはこういう、レトロでミッドセンチュリーな味わいもよろしいかもしれません……」
 
-＠Subuta-san,H00038
+＠Subuta,H00038
 「お値段は[_PRICE]円になります……」
 
 goto	shopitem_buy
 #（体操服）###################################################################
 label	shopitem_buruma
 
-＠Subuta-san,H00039
+＠Subuta,H00039
 「体操服ですね……」
 
-＠Subuta-san,H00040
+＠Subuta,H00040
 「下はブルマになりますが、よろしいでしょうか？」
 
 ＠Itsuki
 「え？　ああ……」
 
-＠Subuta-san,H00041
+＠Subuta,H00041
 「個人的にはスパッツなども好きなのですが、まだまだ一般的ではないようです……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00042
+＠Subuta,H00042
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -142,20 +142,20 @@ goto	shopitem_buy
 #（アナル拡張ベルト）#########################################################
 label	shopitem_analbelt
 
-＠Subuta-san,H00043
+＠Subuta,H00043
 「アナル拡張ベルト……」
 
-＠Subuta-san,H00044
+＠Subuta,H00044
 「やっぱり、拡張されたいんですね……」
 
 ＠Itsuki
 「い、いや、オレが拡張されるわけじゃ……」
 
-＠Subuta-san,H00045
+＠Subuta,H00045
 「恥ずかしがらなくてもいいです。みんな気持ちいいんですから……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00046
+＠Subuta,H00046
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -167,19 +167,19 @@ label	shopitem_facemask
 rand	rnd,0,1
 if rnd=1 then goto	shopitem_facemask2
 
-＠Subuta-san,H00047
+＠Subuta,H00047
 「フェイスクラッチマスクですね……」
 
-＠Subuta-san,H00048
+＠Subuta,H00048
 「これさえあれば、嫌がる女の子にも精液を飲ませられます……」
 
-＠Subuta-san,H00049
+＠Subuta,H00049
 「わたしは……最近飲んでないですが……」
 
 巣蓋さんは少し寂しそうにつぶやいた。
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00050
+＠Subuta,H00050
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -189,17 +189,17 @@ goto	shopitem_buy
 #（フェイスクラッチマスク）
 label	shopitem_facemask2
 
-＠Subuta-san,H00361
+＠Subuta,H00361
 「フェイスクラッチマスク、ですね……」
 
-＠Subuta-san,H00362
+＠Subuta,H00362
 「これをはめたら、自由に口も閉じられない、ただの肉穴と化してしまいます……」
 
-＠Subuta-san,H00363
+＠Subuta,H00363
 「考えただけでゾクゾクしますね……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00364
+＠Subuta,H00364
 「お値段は[_PRICE]円になります……」
 
 goto	shopitem_buy
@@ -207,17 +207,17 @@ goto	shopitem_buy
 #（パソコン）#################################################################
 label	shopitem_computer
 
-＠Subuta-san,H00051
+＠Subuta,H00051
 「パソコンですね……」
 
-＠Subuta-san,H00052
+＠Subuta,H00052
 「やっぱり、変態サイトを見たりとか、変態写真をネットにアップしたりとか、いろいろ便利ですよ……」
 
-＠Subuta-san,H00053
+＠Subuta,H00053
 「サービスでエロゲも３本プリインストールしてあります」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00054
+＠Subuta,H00054
 「お値段は、[_PRICE]円です……」
 
 #（統合へ）
@@ -229,19 +229,19 @@ label	shopitem_teisoutai
 ＠Itsuki
 「それじゃ、注文しておいた貞操帯を……」
 
-＠Subuta-san,H00055
+＠Subuta,H00055
 「あ、はい。ご用意してございます」
 
 巣蓋さんはカウンターの裏から黒い紙袋を取り出した。
 
-＠Subuta-san,H00056
+＠Subuta,H00056
 「大変だと思いますが、頑張ってくださいね……」
 
-＠Subuta-san,H00057
+＠Subuta,H00057
 「頑張ったぶんだけ、愛情も深まりますから……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00058
+＠Subuta,H00058
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -250,13 +250,13 @@ goto	shopitem_buy
 #（バラムチ）#################################################################
 label	shopitem_whip1
 
-＠Subuta-san,H00059
+＠Subuta,H00059
 「バラムチですね……」
 
-＠Subuta-san,H00060
+＠Subuta,H00060
 「派手な音がするわりに力は分散されますから、入門者には最適です……」
 
-＠Subuta-san,H00061
+＠Subuta,H00061
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -265,14 +265,14 @@ goto	shopitem_buy
 #（一本ムチ）#################################################################
 label	shopitem_whip2
 
-＠Subuta-san,H00062
+＠Subuta,H00062
 「一本ムチですね……」
 
-＠Subuta-san,H00063
+＠Subuta,H00063
 「本格アイテムですから、取り扱いには十分注意してください……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00064
+＠Subuta,H00064
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -281,14 +281,14 @@ goto	shopitem_buy
 #（ろうそく）#################################################################
 label	shopitem_candle
 
-＠Subuta-san,H00065
+＠Subuta,H00065
 「ろうそくですね……」
 
-＠Subuta-san,H00066
+＠Subuta,H00066
 「一般的なものより低温で溶けますから、火傷の心配はないと思います……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00067
+＠Subuta,H00067
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -297,20 +297,20 @@ goto	shopitem_buy
 #（アナルビーズ）##############################################################
 label	shopitem_analbead
 
-＠Subuta-san,H00068
+＠Subuta,H00068
 「アナルビーズですね……」
 
-＠Subuta-san,H00069
+＠Subuta,H00069
 「やっぱり、拡張されたいんですね……」
 
 ＠Itsuki
 「い、いや、オレが拡張されるわけじゃ……」
 
-＠Subuta-san,H00070
+＠Subuta,H00070
 「恥ずかしがらなくてもいいです。これを一気に抜かれるのは最高ですよ……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00071
+＠Subuta,H00071
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -319,20 +319,20 @@ goto	shopitem_buy
 #（アナルバイブ）#############################################################
 label	shopitem_analvibe
 
-＠Subuta-san,H00072
+＠Subuta,H00072
 「やっぱり、アナルバイブを購入されるんですね……」
 
-＠Subuta-san,H00073
+＠Subuta,H00073
 「頑張ってください……」
 
 ＠Itsuki
 「じ、自分で使うわけじゃないんだが……」
 
-＠Subuta-san,H00074
+＠Subuta,H00074
 「恥ずかしがらなくてもいいです。みんな気持ちいいんですから……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00075
+＠Subuta,H00075
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -341,14 +341,14 @@ goto	shopitem_buy
 #（バイブ）###################################################################
 label	shopitem_vibe
 
-＠Subuta-san,H00076
+＠Subuta,H00076
 「普通のバイブですね……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00077
+＠Subuta,H00077
 「クリバイブも付いてこちらのお値段、大変お買い得になっております……」
 
-＠Subuta-san,H00075
+＠Subuta,H00075
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -357,13 +357,13 @@ goto	shopitem_buy
 #（極太バイブ）###############################################################
 label	shopitem_bigvibe
 
-＠Subuta-san,H00078
+＠Subuta,H00078
 「極太バイブですか……」
 
-＠Subuta-san,H00079
+＠Subuta,H00079
 「男の方も、いろいろ大変ですよね……」
 
-＠Subuta-san,H00080
+＠Subuta,H00080
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -372,14 +372,14 @@ goto	shopitem_buy
 #（かりんのおしゃれ眼鏡）#####################################################
 label	shopitem_grass
 
-＠Subuta-san,H00081
+＠Subuta,H00081
 「眼鏡ですね……」
 
-＠Subuta-san,H00082
+＠Subuta,H00082
 「わたしも好きです、眼鏡男子……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00083
+＠Subuta,H00083
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -388,14 +388,14 @@ goto	shopitem_buy
 #（ボンデージ服）#############################################################
 label	shopitem_bondage
 
-＠Subuta-san,H00084
+＠Subuta,H00084
 「ボンデージ服ですね……」
 
-＠Subuta-san,H00085
+＠Subuta,H00085
 「この光沢感は最高の仕上がりですよ……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00086
+＠Subuta,H00086
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -405,20 +405,20 @@ goto	shopitem_buy
 label	shopitem_cake
 
 #「ケーキですね……」
-＠Subuta-san,H00087
-「A cake......」
+＠Subuta,H00087
+「A cake...?」
 
 #「生クリームは使用しておりませんし、窒素充填包装ですので日持ちします……」
-＠Subuta-san,H00088
-「We freeze it in nitrogen so we can keep it for days, because we don't use fresh cream......」
+＠Subuta,H00088
+「Since we don't use fresh cream, it's kept in a nitrogen-infused package so it'll last longer...」
 
 #「プレイの合間のおやつに最適だと思います……」
-＠Subuta-san,H00089
-「I think it's most suitable as a snack between playing......」
+＠Subuta,H00089
+「It's a great snack to have while taking a break from playing I think...」
 
 #「お値段は[_PRICE]円になります……」
-＠Subuta-san,H00090
-「It comes to 円[_PRICE]......」
+＠Subuta,H00090
+「It costs 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -427,15 +427,15 @@ goto	shopitem_buy
 label	shopitem_drink
 
 #「栄養ドリンクですね……」
-＠Subuta-san,H00091
-「That's a nutrient drink...」
+＠Subuta,H00091
+「A nutrient drink...?」
 
 #「Ｈには体力が必要ですからね……」
-＠Subuta-san,H00092
-「It's important for stamina in H isn't it...」
+＠Subuta,H00092
+「Stamina is important when it comes to H after all...」
 
 #「お値段は[_PRICE]円になります……」
-＠Subuta-san,H00093
+＠Subuta,H00093
 「The price comes to 円[_PRICE]...」
 
 #（統合へ）
@@ -445,24 +445,24 @@ goto	shopitem_buy
 label	shopitem_doll
 
 #「ぬいぐるみですね……」
-＠Subuta-san,H00094
-「That's a stuffed animal...」
+＠Subuta,H00094
+「A stuffed animal...?」
 
 #「ハードなことをしすぎて嫌われたら、物で釣るのも良いかと思います……」
-＠Subuta-san,H00095
-「If you do too many hard things and they dislike you, I think luring them in with something is a good idea...」
+＠Subuta,H00095
+「If you do too many hard things and they dislike you, it might be a good idea to rope them in with this...」
 
 #「相手が幼くないと有効ではない気もしますが……」
-＠Subuta-san,H00096
+＠Subuta,H00096
 「If your partner isn't childish I don't think it'll work though...」
 
 #「精神的に幼ければたぶん大丈夫でしょう……」
-＠Subuta-san,H00097
+＠Subuta,H00097
 「If they're kind of immature it's probably fine...」
 
 #「お値段は[_PRICE]円です……」
-＠Subuta-san,H00098
-「The price comes to 円[_PRICE]...」
+＠Subuta,H00098
+「The price is 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -471,30 +471,30 @@ goto	shopitem_buy
 label	shopitem_drug
 
 #「ぁゃιぃクスリですね……」
-＠Subuta-san,H00099
-「That's strange medicine...」
+＠Subuta,H00099
+「You want some strange medicine...?」
 
 #「……商品名なのか、それ？」
 ＠Itsuki
-「... Is it a brand name?」
+「...Is it a brand name?」
 
 #「どうなのでしょう……？　よくわかりません……」
-＠Subuta-san,H00100
-「I wonder. I can't really tell...」
+＠Subuta,H00100
+「Let's see here... I'm not sure...」
 
 #「どんな効果があるんだ？」
 ＠Itsuki
 「What effects does it have?」
 
 #「さあ……？　あ、でもここに『インカ帝国で媚薬として使われていた』と書いてあります」
-＠Subuta-san,H00101
-「Let's see... Ah, it says "Used as an aphrodisiac in the Incan Empire".」
+＠Subuta,H00101
+「Hmm... ah, it says "Used as an aphrodisiac in the Incan Empire"」
 
 #テキストでは、正規の値段を表示
 #In the text the proper price is shown
 #「お値段は[_PRICE]円になりますが、どうしますか……？」
-＠Subuta-san,H00102
-「The price is 円[_PRICE], what will you do...?」
+＠Subuta,H00102
+「The price comes to 円[_PRICE], what do you think...?」
 
 #（統合へ）
 goto	shopitem_buy
@@ -503,39 +503,39 @@ goto	shopitem_buy
 label	shopitem_book1
 
 #「やさしいドリルですね……」
-＠Subuta-san,H00103
-「Those are easy drills...」
+＠Subuta,H00103
+「These are easy drills...」
 
 #「Ｈのしすぎでバカにならないよう、たまにはこういうのも必要かもしれません……」
-＠Subuta-san,H00104
-「Sometimes you have to this kind of thing to not get stupid from too much H...」
+＠Subuta,H00104
+「Sometimes you have to do this kind of thing to not get stupid from too much H...」
 
 #「個人的には、バカになったほうが楽しいと思いますが……」
-＠Subuta-san,H00105
+＠Subuta,H00105
 「Personally, I think getting stupid is fun...」
 
 #「……っていうか、なんでそんなもの売ってるんだ？」
 ＠Itsuki
-「... Why are you selling something like that then?」
+「...Why are you selling something like that then?」
 
 #「売れる物はなんでも売らないと、経営が……」
-＠Subuta-san,H00106
+＠Subuta,H00106
 「If I don't sell anything that will sell, management is going to...」
 
 #よく見ると、ドリルには微妙に使用感がある。
 　When I look closely, I notice the drills are somewhat difficult.
 
 #「わたしも昔は、優等生だったんですが……」
-＠Subuta-san,H00107
-「There was a time when I was an honors student...」
+＠Subuta,H00107
+「There was a time when I was an honours student...」
 
 #「やっぱり、お勉強よりエッチのほうが楽しいです……」
-＠Subuta-san,H00108
+＠Subuta,H00108
 「Perverted things are much more fun than studying though...」
 
 #In the text the proper price is shown
 #「お値段は[_PRICE]円になります……」
-＠Subuta-san,H00109
+＠Subuta,H00109
 「The price comes to 円[_PRICE]...」
 
 #（統合へ）
@@ -545,20 +545,20 @@ goto	shopitem_buy
 label	shopitem_book2
 
 #「ふつうのドリルですね……」
-＠Subuta-san,H00110
-「Those are regular drills...」
+＠Subuta,H00110
+「These are regular drills...」
 
 #「ドリルといっても穴を開ける道具ではありません……」
-＠Subuta-san,H00111
-「But they're not that thing you use to open up holes...」
+＠Subuta,H00111
+「But they're not that thing you use to dig up holes...」
 
 #「いくらプレイでも、そんなことをしたら捕まってしまいますから……」
-＠Subuta-san,H00112
+＠Subuta,H00112
 「Even if you're playing around, you'd get arrested...」
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
-＠Subuta-san,H00113
+＠Subuta,H00113
 「The price comes to [_PRICE]...」
 
 #（統合へ）
@@ -567,18 +567,22 @@ goto	shopitem_buy
 #（むずかしいドリル）#########################################################
 label	shopitem_book3
 
-＠Subuta-san,H00114
-「むずかしいドリルですね……」
+#「むずかしいドリルですね……」
+＠Subuta,H00114
+「These are hard drills...」
 
-＠Subuta-san,H00115
-「やっぱり、ドリルは男のロマンなのでしょうか……？」
+#「やっぱり、ドリルは男のロマンなのでしょうか……？」
+＠Subuta,H00115
+「These really are drills for the manliest of men」
 
+#「いや、そういうドリルはちょっと」
 ＠Itsuki
-「いや、そういうドリルはちょっと」
+「That might be a little bit much」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00116
-「お値段は[_PRICE]円になります……」
+#「お値段は[_PRICE]円になります……」
+＠Subuta,H00116
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -587,23 +591,23 @@ goto	shopitem_buy
 label	shopitem_belt
 
 #「おなかでふるえるベルトですね……」
-＠Subuta-san,H00117
-「A vibrating belt is it...」
+＠Subuta,H00117
+「A vibrating belt...?」
 
 #「知り合いがこれで１０キロ痩せました……」
-＠Subuta-san,H00118
+＠Subuta,H00118
 「Someone I know lost 10 kilos with this...」
 
 #「ちょうどノロウィルスに感染していたというのもあるようですが……」
-＠Subuta-san,H00119
+＠Subuta,H00119
 「It seems he'd just got over a bout of norovirus though...」
 
 #……それじゃこのベルトのおかげなのかわからんがな。
-　... So you don't actually know how useful it is.
+　...So you don't actually know how useful it is.
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
-＠Subuta-san,H00120
+＠Subuta,H00120
 「The price comes to 円[_PRICE]...」
 
 #（統合へ）
@@ -612,18 +616,22 @@ goto	shopitem_buy
 #（元軍人さんの体操ビデオ）###################################################
 label	shopitem_sportsvideo
 
-＠Subuta-san,H00121
-「元軍人さんの体操ビデオですね……」
+#「元軍人さんの体操ビデオですね……」
+＠Subuta,H00121
+「This an exercise video of former military members...」
 
-＠Subuta-san,H00122
-「隊長が……ステキなのです……」
+#「隊長が……ステキなのです……」
+＠Subuta,H00122
+「I love the commanding officer...」
 
-＠Subuta-san,H00123
-「ワンモアセッ！」
+#「ワンモアセッ！」
+＠Subuta,H00123
+「"One more set!"」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00124
-「ごほん……お値段は[_PRICE]円になります」
+#「ごほん……お値段は[_PRICE]円になります」
+＠Subuta,H00124
+「*Ahem*... The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -631,15 +639,18 @@ goto	shopitem_buy
 #（なにかの養成ギプス）#######################################################
 label	shopitem_gibusu
 
-＠Subuta-san,H00125
-「なにかの養成ギプスですね……」
+#「なにかの養成ギプスですね……」
+＠Subuta,H00125
+「This is some kind of muscle suit...」
 
-＠Subuta-san,H00126
-「頑張ってエロスの星を目指してください……」
+#「頑張ってエロスの星を目指してください……」
+＠Subuta,H00126
+「Go for it and aim for the star of Eros...」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00127
-「お値段は、[_PRICE]円になります……」
+#「お値段は、[_PRICE]円になります……」
+＠Subuta,H00127
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -648,16 +659,16 @@ goto	shopitem_buy
 label	shopitem_mirror
 
 #「手鏡ですね……」
-＠Subuta-san,H00128
-「That's a hand mirror...」
+＠Subuta,H00128
+「A hand mirror...?」
 
 #「やっぱり、美容とＨは切り離せません……」
-＠Subuta-san,H00129
-「You can't separate being pretty from H after all...」
+＠Subuta,H00129
+「Beauty and H are inseparable after all...」
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
-＠Subuta-san,H00130
+＠Subuta,H00130
 「The price comes to 円[_PRICE]...」
 
 #（統合へ）
@@ -668,16 +679,16 @@ goto	shopitem_buy
 label	shopitem_photobook
 
 #「『ジ・アイドルマイスター』の写真集ですね……」
-＠Subuta-san,H00131
-「That's a gravure magazine "The IdolMeister"」
+＠Subuta,H00131
+「This is a gravure magazine 『The IdolMeister』」
 
 #「女の子にも人気がありますよ、これ……」
-＠Subuta-san,H00132
+＠Subuta,H00132
 「People find this kind of stuff interesting, girls too...」
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
-＠Subuta-san,H00133
+＠Subuta,H00133
 「The price comes to 円[_PRICE]...」
 
 #（統合へ）
@@ -686,18 +697,22 @@ goto	shopitem_buy
 #（エッチな本「SMドエロ大魔神」）#############################################
 label	shopitem_erobook
 
-＠Subuta-san,H00134
-「『ＳＭドエロ大魔神』ですね……」
+#「『ＳＭドエロ大魔神』ですね……」
+＠Subuta,H00134
+「You want this 『SM Devil Erotica Extreme』...?」
 
-＠Subuta-san,H00135
-「見ているだけでバカになっちゃいそうな本です……」
+#「見ているだけでバカになっちゃいそうな本です……」
+＠Subuta,H00135
+「You can lose your mind just from looking at stuff like this...」
 
-＠Subuta-san,H00136
-「でも、バカになれば世の中のイヤなことを忘れられますよ……」
+#「でも、バカになれば世の中のイヤなことを忘れられますよ……」
+＠Subuta,H00136
+「But if you lose your mind you can forget about the miserable world out there...」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00137
-「お値段は[_PRICE]円になります……」
+#「お値段は[_PRICE]円になります……」
+＠Subuta,H00137
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -706,17 +721,21 @@ goto	shopitem_buy
 # ショップでは買えない？　一応入れておきます。
 label	shopitem_visualbook
 
-＠Subuta-san,H00138
-「絵本『はたらくおじさん』ですね……」
+#「絵本『はたらくおじさん』ですね……」
+＠Subuta,H00138
+「It's a picture book called 『The Nefarious Old Man』...」
 
-＠Subuta-san,H00139
-「わたしも読みましたが、かなり興奮しました……」
+#「わたしも読みましたが、かなり興奮しました……」
+＠Subuta,H00139
+「I've read it and I got pretty turned on...」
 
-って、どんな本だよ！？
+#って、どんな本だよ！？
+　Wait, what kind of book is this!?
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00140
-「お値段は[_PRICE]円になります……」
+#「お値段は[_PRICE]円になります……」
+＠Subuta,H00140
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -725,17 +744,17 @@ goto	shopitem_buy
 #（ボールギャグ）
 label	shopitem_ballgag
 
-＠Subuta-san,H00350
+＠Subuta,H00350
 「ボールギャグ、ですね……」
 
 #不明瞭部分「～……このように、何を言っているのか解らなくなります……」
-＠Subuta-san,H00351
+＠Subuta,H00351
 「こちら、装着いたしますと……ほほほうひ、はひをひっへひふほはわはははふはひはふ……ぷはぁっ、羞恥プレイに最適です……どうぞ」
 
 その今はめたやつを売るんかい。あ、よだれついてる……。
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00352
+＠Subuta,H00352
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -745,16 +764,16 @@ goto	shopitem_buy
 #（ペニスバンド）
 label shopitem_penisband
 
-＠Subuta-san,H00343
+＠Subuta,H00343
 「ペニスバンド、ですね……」
 
-＠Subuta-san,H00344
+＠Subuta,H00344
 「こちら、少々特殊で凶悪な作りとなっておりまして……こんなので犯されたら……私……」
 
 ど、どんな作りなんだ？
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00345
+＠Subuta,H00345
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -764,19 +783,19 @@ goto	shopitem_buy
 #（ねこみみ）
 label	shopitem_nekomimi
 
-＠Subuta-san,H00346
+＠Subuta,H00346
 「ねこみみ、ですね……」
 
-＠Subuta-san,H00347
+＠Subuta,H00347
 「これを付けるだけで、どんな方でも『ねこみみもーど』に大変身です……」
 
-＠Subuta-san,H00348
+＠Subuta,H00348
 「こちら、私も愛用させていただいております……いえ、愛用させられていただいております……」
 
 その猫耳は付け耳だったのか……。
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00349
+＠Subuta,H00349
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -786,17 +805,17 @@ goto	shopitem_buy
 #（三角木馬）
 label	shopitem_mokuba
 
-＠Subuta-san,H00353
+＠Subuta,H00353
 「三角木馬、ですね……」
 
-＠Subuta-san,H00354
+＠Subuta,H00354
 「このシャープな三角の頂点が、私の心の何かを刺激してやまないのです……」
 
-＠Subuta-san,H00355
+＠Subuta,H00355
 「はぁ……じゅる……いけない、よだれが……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00356
+＠Subuta,H00356
 「お値段は、ちょっとお高めの[_PRICE]円になります……」
 
 #（統合へ）
@@ -806,17 +825,17 @@ goto	shopitem_buy
 #（フック針）
 label	shopitem_fookniddle
 
-＠Subuta-san,H00357
+＠Subuta,H00357
 「フック針、ですね……」
 
-＠Subuta-san,H00358
+＠Subuta,H00358
 「一般的に『フック針』といえば、魚釣りに使われますが……こちらはもっと太く、頑丈な作りとなっております……」
 
-＠Subuta-san,H00359
+＠Subuta,H00359
 「その気になれば、人間も釣れますね……」
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00360
+＠Subuta,H00360
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -827,7 +846,7 @@ goto	shopitem_buy
 label	shopitem_hanyou
 
 #テキストでは、正規の値段を表示
-＠Subuta-san,H00360
+＠Subuta,H00360
 「お値段は[_PRICE]円になります……」
 
 #（統合へ）
@@ -848,12 +867,12 @@ goto	shopitem_buy
 #（買う）
 
 #「お買い上げありがとうございます……」
-＠Subuta-san,H00141
+＠Subuta,H00141
 「Thank you for your patronage...」
 
 #「他にも何か買われますか……？」
-＠Subuta-san,H00142
-「Will you buy something else...?」
+＠Subuta,H00142
+「Would you like to buy something else...?」
 
 #（統合２へ）
 
@@ -864,12 +883,12 @@ goto	shopitem_buy
 「Actually, maybe not that...」
 
 #「そうですか……」
-＠Subuta-san,H00143
+＠Subuta,H00143
 「Is that so...」
 
 #「できれば……何か買ってください……」
-＠Subuta-san,H00144
-「If you can... Please buy something...」
+＠Subuta,H00144
+「If you can... please buy something...」
 
 #■（統合２）
 
@@ -888,12 +907,10 @@ goto	shopitem_buy
 #（shop_outへ）
 
 # 買うかどうか？
-#label	shopitem_buy
+label	shopitem_buy
 #（１．買う）
 #（２．やっぱりやめる）
-
 # How does buying sit with you?
-label	shopitem_buy
 #（１．Buy）
 #（２．Never mind）
 
@@ -916,12 +933,12 @@ if _ITEM>=200 then item_soldout	_ITEM,_TRUE
 if _ITEM=500 then @suika_love_up
 
 #「お買い上げありがとうございます……」
-＠Subuta-san,H00141
+＠Subuta,H00141
 「Thank you for your patronage...」
 
 #「他にも何か買われますか……？」
-＠Subuta-san,H00142
-「Was there anything else you wanted...?」
+＠Subuta,H00142
+「Would you like to buy something else...?」
 
 goto	shopitem_end
 
@@ -933,12 +950,12 @@ label	shopitem_buy2
 「Actually, maybe not that...」
 
 #「そうですか……」
-＠Subuta-san,H00143
+＠Subuta,H00143
 「Is that so...」
 
 #「できれば……何か買ってください……」
-＠Subuta-san,H00144
-「If you can... Please buy something...」
+＠Subuta,H00144
+「If you can... please buy something...」
 
 goto	shopitem_end
 
@@ -957,12 +974,12 @@ label	shopitem_buy4
 「Actually, maybe not...」
 
 #「そうですか……」
-＠Subuta-san,H00143
+＠Subuta,H00143
 「Is that so...」
 
 #「できれば……何か買ってください……」
-＠Subuta-san,H00144
-「If you can... Please buy something...」
+＠Subuta,H00144
+「If you can... please buy something...」
 
 goto	shopitem_end
 
