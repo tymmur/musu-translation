@@ -202,12 +202,12 @@ goto	shop_in_message_exit
 #（巣蓋さんと呼ぶことにしていない場合１）####################################
 label	shop_in_message_5
 
+#「いらっしゃいませ……」
 ＠Shop worker,H00246
-「いらっしゃいませ……」
 「Welcome...」
 
+#「本日は、何をお探しでしょうか？」
 ＠Shop worker,H00247
-「本日は、何をお探しでしょうか？」
 「What are you looking for today?」
 
 #（統合へ）
@@ -216,8 +216,8 @@ goto	shop_in_message_exit
 #（巣蓋さんと呼ぶことにしていない場合２）####################################
 label	shop_in_message_6
 
+#「いらっしゃいませ。エロキュートへようこそ……」
 ＠Shop worker,H00248
-「いらっしゃいませ。エロキュートへようこそ……」
 「Welcome to EroCute shop...」
 
 #（統合へ）

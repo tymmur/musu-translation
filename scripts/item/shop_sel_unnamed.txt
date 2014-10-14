@@ -104,7 +104,7 @@ goto	shop_sell_message2_unnamed
 label	shop_sell_message2_unnamed
 
 ＠Shop worker,H00279
-「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
+「I'll buy that for 円[_PRICE], how does that sound?」
 
 select	sel,"Sell","On second thought..."
 
@@ -120,20 +120,20 @@ if _ITEM=601 then karin_video_sell_flag=1
 _ITEM(_ITEM)=0
 
 ＠Shop worker,H00280
-「ありがとうございます……」
+「Thank you...」
 
 ＠Shop worker,H00281
-「他には何かありますか……？」
+「Is there anything else...?」
 
 goto	shop_sell_message_exit_unnamed
 
 label	shop_sell_message4_unnamed
 
 ＠Itsuki
-「やっぱり、それはいいや……」
+「I think I changed my mind...」
 
 ＠Shop worker,H00282
-「そうですか……。残念です……」
+「Is that so... that's too bad...」
 
 goto	shop_sell_message_exit_unnamed
 
