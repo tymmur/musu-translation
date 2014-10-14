@@ -123,6 +123,7 @@ label	shop_sell_message2
 #テキストでは、正規の値段を表示
 ＠Subuta,H00279
 「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
+「I'll buy that for 円[_PRICE], how does that sound?」
 
 select	sel,"Sell","On second thought..."
 
@@ -142,9 +143,11 @@ _ITEM(_ITEM)=0
 
 ＠Subuta,H00280
 「ありがとうございます……」
+「Thank you...」
 
 ＠Subuta,H00281
 「他には何かありますか……？」
+「Is there anything else...?」
 
 #（統合２へ）
 goto	shop_sell_message_exit
@@ -154,9 +157,11 @@ label	shop_sell_message4
 
 ＠Itsuki
 「やっぱり、それはいいや……」
+「I think I changed my mind...」
 
 ＠Subuta,H00282
 「そうですか……。残念です……」
+「Is that so... that's too bad...」
 
 goto	shop_sell_message_exit
 #■（統合２）

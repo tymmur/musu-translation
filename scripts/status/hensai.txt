@@ -39,7 +39,7 @@ money_open
 
 #「どーれどれ、樹の坊ちゃんは、お金をちゃんと貯められているかねぇ？」
 ＠Shizuku,S01705
-「I hope you've saving your money properly, Itsuki」
+「Let's see here, I hope you've been saving your money properly, little Itsuki」
 
 #SE　ドラムロール
 @se216
@@ -47,7 +47,7 @@ money_open
 
 #「ん～～～～と？」
 ＠Shizuku,S01706
-「Hmmmmm」
+「Annnnnd～～～～」
 
 wait	1000
 
@@ -72,7 +72,7 @@ label	hensai_1a
 
 #「じゃあ、お金を頂戴しま～す」
 ＠Shizuku,S01709
-「I'll have your payment then~」
+「I'll have your payment then～」
 
 #SE　お金の減る音、お金が減る
 @se218
@@ -89,7 +89,7 @@ money_sub	hensai_gaku
 
 #「じゃあね～♪」
 ＠Shizuku,S01712
-「See you~♪」
+「See you～♪」
 
 @shizuku_
 
@@ -97,7 +97,7 @@ money_sub	hensai_gaku
 @se07
 
 #ふぅ……なんとかちゃんと借金を返済できた……
-　Phew... Somehow I managed to repay it...
+　Phew... somehow I managed to repay it...
 
 #次も頑張らないとな……
 　Gotta work hard for the next one too...
@@ -117,15 +117,15 @@ if chien_count>0 then goto hensai_1c
 @se219
 #「…………お前」
 ＠Shizuku,S01713
-「...... You」
+「...Hey you」
 
 #「これがどういうことか、わかってるんだろうね？」
 ＠Shizuku,S01714
-「What is the meaning of this, what are you thinking?」
+「You know what's at stake here, don't you?」
 
 #「……すみません……」
 ＠Itsuki
-「... Sorry...」
+「Sorry...」
 
 #「すみません、で済む問題じゃないだろうに」
 ＠Shizuku,S01715
@@ -133,7 +133,7 @@ if chien_count>0 then goto hensai_1c
 
 #「……まあ、今回は何とかしてあげるよ。仏の顔も３度まで、ってね」
 ＠Shizuku,S01716
-「... Well, I guess I can clean this up for you this time. They say a forgiving person gives you three chances」
+「...Well, I'll make up for it somehow this time. They say a forgiving person gives you three chances」
 
 #「あたしは仏じゃないから、次はないけど」
 ＠Shizuku,S01717
@@ -167,7 +167,7 @@ money_sub	_MONEY
 @se07
 
 #……借金を返済できなかった……
-　... I wasn't able to repay the debt...
+　I wasn't able to repay the debt...
 
 #次は、頑張らないとな……
 　I better do better next time or else...
@@ -184,19 +184,19 @@ label	hensai_1c
 @shizuku_kanashimi
 #「…………ハァ……」
 ＠Shizuku,S01722
-「...... Ha...」
+「......*sigh*...」
 
 #「２回目はない、って言ったよね」
 ＠Shizuku,S01723
-「So this makes twice now」
+「I told you to not let this happen again, didn't I」
 
 #「……すみません……」
 ＠Itsuki
-「... Sorry...」
+「Sorry...」
 
 #「すみません、で済む問題じゃなんだって」
 ＠Shizuku,S01724
-「I told you, you can't just brush this off with an apology」
+「I said you can't just brush this off with an apology」
 
 #「今回ばっかりは、あたしにもどうにも出来ないよ」
 ＠Shizuku,S01725
@@ -204,7 +204,7 @@ label	hensai_1c
 
 #「……明日、ここを出て行ってもらう」
 ＠Shizuku,S01726
-「... You have to leave tomorrow」
+「...You have to leave tomorrow」
 
 #「とりあえず、今あるお金だけでも、全額頂くよ」
 ＠Shizuku,S01727
@@ -221,7 +221,7 @@ money_sub	_MONEY
 
 #「……とりあえず、今日中に、荷物をまとめて出て行きな」
 ＠Shizuku,S01729
-「... You must have your bags packed and leave by the end of today」
+「...You must have your bags packed and leave by the end of today」
 
 #「あんたが施設を出て行くことは、誰にも言わないように。そしてわからないようにこっそりと出て行くんだ」
 ＠Shizuku,S01730
@@ -229,7 +229,7 @@ money_sub	_MONEY
 
 #「もちろん、この施設のことは口外しないように」
 ＠Shizuku,S01731
-「And don't tell anyone about this place either」
+「And it goes without saying, don't tell anyone about this place either」
 
 #「いいね」
 ＠Shizuku,S01732
@@ -241,13 +241,13 @@ money_sub	_MONEY
 @se07
 
 #……借金を返済できなかった……
-　... I couldn't repay the debt...
+　I couldn't repay the debt...
 
 #……これから、どうしよう……
-　... What will become of me after this...
+　What will become of me after this...
 
 #……とりあえず、荷物をまとめるか……
-　... I'd better start packing...
+　I guess I should start packing...
 
 #（寝ている間に、美雨に殺されるEDへ）
 
