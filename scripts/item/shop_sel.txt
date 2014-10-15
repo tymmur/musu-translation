@@ -121,8 +121,9 @@ goto	shop_sell_message2
 label	shop_sell_message2
 
 #テキストでは、正規の値段を表示
+#「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
 ＠Subuta,H00279
-「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
+「I'll buy that for 円[_PRICE], how does that sound?」
 
 select	sel,"Sell","On second thought..."
 
@@ -140,11 +141,13 @@ item_delete	_ITEMNO
 if _ITEM=601 then karin_video_sell_flag=1
 _ITEM(_ITEM)=0
 
+#「ありがとうございます……」
 ＠Subuta,H00280
-「ありがとうございます……」
+「Thank you...」
 
+#「他には何かありますか……？」
 ＠Subuta,H00281
-「他には何かありますか……？」
+「Is there anything else...?」
 
 #（統合２へ）
 goto	shop_sell_message_exit
@@ -152,11 +155,13 @@ goto	shop_sell_message_exit
 #（やっぱりやめる）
 label	shop_sell_message4
 
+#「やっぱり、それはいいや……」
 ＠Itsuki
-「やっぱり、それはいいや……」
+「I think I changed my mind...」
 
+#「そうですか……。残念です……」
 ＠Subuta,H00282
-「そうですか……。残念です……」
+「Is that so... that's too bad...」
 
 goto	shop_sell_message_exit
 #■（統合２）
