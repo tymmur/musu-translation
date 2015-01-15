@@ -475,6 +475,20 @@ sub getType
 	die_local "can't figure out type for line $line";
 }
 
+sub toKanji
+{
+	my ($line) = @_;
+	
+	$line = convertLine($line);
+	
+	if (getType($line) ne "KANJI")
+	{
+		$line = $empty . $line;
+	}
+	
+	return $line;
+}
+
 sub readFile
 {
 	my ($file) = @_;
@@ -1293,11 +1307,34 @@ sub handleFile
 		
 		if ($line ne $japanese[$japanese_index])
 		{
-			print "mismatched lines in " . $file . "\n";
-			print "expected " . "	" . ($japanese_index + 1) . "	" .  $japanese[$japanese_index] . "\n";
-			print "found    " . "	" . ($line_number + 1) . "	" .  $line . "\n";
+			my $mismatch = 1;
+					
+			# handle if then (translated text)
+			if (substr($line, 0, 2) eq "if" and substr($japanese[$japanese_index], 0, 2) eq "if")
+			{
+				my $offset = index($japanese[$japanese_index], "then");
+				if ($offset != -1)
+				{
+					$offset = $offset + 4;
+					if (substr($line, 0, $offset) eq substr($japanese[$japanese_index], 0, $offset))
+					{
+						if (getType(removeLeadingWhitespace(substr($japanese[$japanese_index], $offset))) eq "KANJI")
+						{
+							$line = substr($line, 0, $offset) . " " . toKanji(removeLeadingWhitespace(substr($line, $offset)));
+							$mismatch = 0;
+						}
+					}
+				}
+			}
+					
+			if ($mismatch == 1)
+			{
+				print "mismatched lines in " . $file . "\n";
+				print "expected " . "	" . ($japanese_index + 1) . "	" .  $japanese[$japanese_index] . "\n";
+				print "found    " . "	" . ($line_number + 1) . "	" .  $line . "\n";
 			
-			exit();
+				exit();
+			}
 		}
 		
 		push(@output, $line);
