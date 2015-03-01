@@ -924,7 +924,7 @@ label	ep_mikan_06
 　I saw Mikan heading to the dining room.
 
 #そのまま気付かずに食堂へ入っていく。
-　She entered without noticing me.
+　She went in without noticing me.
 
 #「さては、夕食前につまみ食いだな」
 ＠Itsuki
@@ -934,7 +934,7 @@ label	ep_mikan_06
 @SE13			#お腹の音・弱（キュルル……）
 
 #……そう言えばオレも小腹が空いた。
-　... Actually I'm pretty hungry too.
+　...Actually I'm pretty hungry too.
 
 @bg_black
 wait		1000
@@ -945,7 +945,7 @@ wait		1000
 @bgm12			#演：仮ＢＧＭ
 
 #中に入ると、ちょうどみかんが背を向けるように座り、モグモグと何かを食べていた。
-　Sure enough when I go in Mikan is turned away munching on something.
+　Sure enough, when I go in Mikan is turned away munching on something.
 
 #「みかん、つまみ食いはほどほどにしろよ？」
 ＠Itsuki
@@ -957,13 +957,13 @@ wait		1000
 
 #「わぁッ！？　ご、ごめんなさい～っ」
 ＠Mikan,A01575
-「Ahh!? S-Sorry~」
+「Ahh!? S-sorry～」
 
 @mikan_odoroki		#驚
 
 #「……って、お兄ちゃんか～。ビックリした」
 ＠Mikan,A01576
-「... Oh, it's you Onii-chan. You startled me」
+「...Oh, it's you Onii-chan. You startled me」
 
 #「ははっ、みかんは無防備だなぁ。ちゃんと周りに注意を払わないと」
 ＠Itsuki
@@ -973,7 +973,7 @@ wait		1000
 
 #「うぅ～……だからって、急に見つかったら驚いちゃうよぉ、も～」
 ＠Mikan,A01577
-「Uu... No, of course people will be surprised if you sneak up on them, geez~」
+「Uuh～... No, anyone would be surprised getting snuck up on, jeez～」
 
 @mikan_
 
@@ -982,7 +982,7 @@ wait		1000
 
 #「……あれ。プリンだ」
 ＠Itsuki
-「... Oh, it's pudding」
+「...Oh, it's pudding」
 
 #「豆腐プリン……？」
 ＠Itsuki
@@ -993,7 +993,7 @@ wait		1000
 
 #「え？　普通のプリンだよ、たぶん」
 ＠Mikan,A01578
-「Huh? I think it's just regular pudding」
+「Huh? It's just pudding, I think」
 
 #「だよな……」
 ＠Itsuki
@@ -1008,13 +1008,13 @@ wait		1000
 
 #「何だ、そうか。てっきり夕食のつまみ食いかと思った」
 ＠Itsuki
-「Oh, I see. I thought you were stealing some food Miu had made」
+「Oh, I see. I thought you were sneaking some food Miu had made」
 
 @mikan_odoroki		#驚
 
 #「えーっ、つまみ食いなんて酷いよ。みかんを疑ってたの？」
 ＠Mikan,A01580
-「Huh, that's really mean. Is that why you followed me?」
+「Huh, how could you say that. Is that why you followed me?」
 
 #「はは、悪い。オレも小腹が空いてたからな」
 ＠Itsuki
@@ -1043,11 +1043,11 @@ wait		1000
 
 #「えっと～、夕食でみかんのおかずが少ない時は、つまみ食いが見つかって引かれちゃってる時かな」
 ＠Mikan,A01583
-「Um~, I can't help but want to grab some when there's not a lot of side dish for my rice」
+「Um～, so like when I didn't have much side dish for my rice at dinner, it's because I found it before and couldn't hold back」
 
 #「あぁ、三日に一度くらい、微妙にみかんのおかずが少ない日があるな」
 ＠Itsuki
-「Oh, that happens once every few days doesn't it」
+「Oh, that's probably about once every 3 days, it seems like your portion's pretty small」
 
 #「ほとんど毎日じゃん」
 ＠Itsuki
@@ -1070,14 +1070,14 @@ layer_movepass_play	l_mikan,0,play_once
 
 #「あはは……だって、美雨さんのご飯美味しくて待ちきれないんだもん～」
 ＠Mikan,A01584
-「Ahaha... but Miu's food is so tasty I can't wait~」
+「Ahaha... but Miu's food is so tasty I can't wait～」
 
 #しかもそれは〝見つかってる時〟だから、実行数はもっと多いはずだ。
-　And that's just how often she finds some, so she's probably spending even more time looking for it. 
+　And that's just how often she finds some, so the actual number is probably more. 
 
 #「やれやれ。みかんの身体のどこにそれだけ入るんだか」
 ＠Itsuki
-「Oh man. Where does that all go in your tiny body」
+「Oh man. Where does that all go inside you」
 
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
@@ -1089,7 +1089,7 @@ layer_movepass_play	l_mikan,0,play_once
 
 #「お兄ちゃん、お腹空いてるの？」
 ＠Mikan,A01585
-「Are you hungry Onii-chan?」
+「Are you hungry, Onii-chan?」
 
 #「ああ。まぁな」
 ＠Itsuki
@@ -1120,13 +1120,13 @@ wait		1000
 
 #「そっか。じゃあ少しだけ貰うな」
 ＠Itsuki
-「Ok, just a little then」
+「Alright, just a little then」
 
 #パクッとスプーンを口に含む。
 　I take the spoon in my mouth.
 
 #スプーンが引き抜かれて残ったプリンからは、どこか懐かしい味と感触がした。
-　She removes the spoon and from the pudding that remained, I get a much longed for taste.
+　She takes the spoon out, and the pudding gives a nostalgic flavour.
 
 @mikan_warai		#笑
 
@@ -1158,14 +1158,14 @@ wait		1000
 「Really? Make sure to scoop out a lot of sauce from the bottom♪」
 
 #仲良くそんな風に、夕食までの時間をみかんと過ごした。
-　Getting along well with her like so, we passed the time until dinner.
+　Cozying up to each other like so, we passed the time until dinner.
 
 bgm_stop
 #■BG（黒）
 @bg_black
 
 #……後にそれを聞いたかりんから、みかんと過ごしたことに激しい嫉妬を買ったのだが。
-　... It caused Karin some consternation when she heard about it afterward.
+　...It caused Karin some consternation when she heard about it afterward.
 
 #（スケジュールへ）
 return

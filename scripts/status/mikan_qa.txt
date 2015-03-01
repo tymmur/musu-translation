@@ -201,7 +201,7 @@ label	mikan_qa02
 
 #「お兄ちゃん、今ちょっといい？」
 ＠Mikan,A01643
-「Onii-chan, are you busy?」
+「Onii-chan, are you busy right now?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 wait		1000
@@ -216,18 +216,18 @@ wait		1000
 
 #「お兄ちゃんって、みかんのことどう思う？」
 ＠Mikan,A01644
-「What do you think of me? Onii-chan」
+「What do you think of me, Onii-chan?」
 
 #「……唐突だな、急に。大事な家族だと思ってるよ」
 ＠Itsuki
-「... That's really sudden. You're a treasured member of my family」
+「...That's pretty out of the blue. You're like family to me」
 
 #「う～ん、と……他にもっと無い…？　みかんのこと」
 ＠Mikan,A01645
 「No, I mean... do you feel anything more than that, toward me?」
 
 #家族より、もっと何かか……
-　Anything more than just family...?
+　Something besides just part of the household...?
 
 #--------------------------------------------------
 #選択肢
@@ -236,10 +236,10 @@ wait		1000
 #（３．恋人だと思ってる）
 #--------------------------------------------------
 #Choices
-#（1. Like a younger sister）
-#（2. As a cute loli girl）
+#（1. As a younger sister）
+#（2. As a loli-girl）
 #（3. As a lover）
-select sel,"Like a younger sister","As a cute loli girl","As a girlfriend"
+select sel,"As a younger sister","As a loli-girl","As a lover"
 if sel=0 then goto mikan_qa02_a
 if sel=1 then goto mikan_qa02_b
 if sel=2 then goto mikan_qa02_c
@@ -261,23 +261,21 @@ label	mikan_qa02_a
 
 #「もちろん、みかんみたいな妹なら大歓迎だよ」
 ＠Itsuki
-「Of course, I'd be happy to have a little sister like you」
+「Of course, I'd love to have a little sister like you」
 
 @mikan_warai		#笑
 
 #「よかった～♪　あのね、ちょっとだけ心配だったの」
 ＠Mikan,A01647
-「I'm so happy~♪ I was a little worried you know」
+「Awesome～♪ You know, I was just a bit worried」
 
 #「みかんが無理言ってお兄ちゃんってお願いしたから、本当はお兄ちゃん嫌じゃないのかなって」
 ＠Mikan,A01648
-「I kept saying I can't do it and asking you things, I was wondering if you were getting annoyed」
+「You asked me to do something and I couldn't, so I thought you might not be happy」
 
 #「まぁ最初は戸惑ったけどな。でも今はそれが一番だよ」
 ＠Itsuki
-「Well it's true I was a little taken aback at first, but it's my favorite thing now」
-
-#TL note: untranslateable double meaning: "It's true you were confused at first, but now you're the best at it"
+「Well it's true you were a little confused at first. But you're the best at it now」
 
 @mikan_warai2		#笑2
 
@@ -299,13 +297,13 @@ label	mikan_qa02_b
 
 #「ロリッ娘だ！」
 ＠Itsuki
-「A cute loli girl!」
+「A loli-girl!」
 
 @mikan_odoroki		#驚
 
 #「ふえっ…！？　ろ、ロリッこ？」
 ＠Mikan,A01650
-「Huh...!? C-cute loli...?」
+「Huh...!? L-loli-girl...?」
 
 #SE66　効果音１（ビシッ！）
 #SE66　Sound effect 1 （*bishi*!）
@@ -324,7 +322,7 @@ label	mikan_qa02_b
 
 #「この小柄な体型！　プニプニした感触！　オレを慕ってくれる純粋さと可愛さ！」
 ＠Itsuki
-「Your petite figure! Your soft squishy feel! Your pure adoration of me and cuteness!」
+「Your petite figure! Your soft squishy feel! Your pure and honest love for me and your cuteness!」
 
 #「そして『お兄ちゃん』ときたらもう、キング・オブ・ロリだぞみかんーー！！」
 ＠Itsuki
@@ -332,7 +330,7 @@ label	mikan_qa02_b
 
 #「え、ええッ…！？　ど、どうしたのお兄ちゃん、何か変だよぉ～っ」
 ＠Mikan,A01652
-「Eh, eeh...!? What's going on Onii-chan, you're acting strange~」
+「Eh, eeh...!? What's going on Onii-chan, you're acting strange～」
 
 @mikan_kanashimi	#哀
 
@@ -352,10 +350,10 @@ screen_vibration	500,16,16,16
 
 #「ひゃうぅッ！？　お、お兄ちゃん～～～！？」
 ＠Mikan,A01654
-「Hyauu!? O-Onii-chan~~~!?」
+「Hyauu!? O-Onii-chan～～～!?」
 
 #抱きしめてベッドへ押し倒すと………そのままオレは眠ってしまっていた。
-　Holding her close I push her down onto the bed...... And fall asleep like that.
+　Holding her tight we fell to the bed...... and I went to sleep like that.
 
 #正直、この日の暴走は自分でも意味が分からないが……。
 　I don't really understand what got into me today but...
@@ -365,7 +363,7 @@ bgm_stop
 @bg_black
 
 #翌日、オレが謝るまで最初、みかんが少し脅えていたのがショックだった……。
-　Next day, before I could make to apologize, I was shocked to see Mikan a little frightened.
+　Next day, at first before I could apologize, it was a shock to see Mikan looking a little frightened.
 
 window_close
 #（スケジュールへ）
@@ -402,7 +400,7 @@ label	mikan_qa02_c
 
 #「小粋っ…？！」
 ＠Mikan,A01657
-「Cool...?!」
+「Fashionable...?!」
 
 #やはりその驚きぶりは、みかんも予想外の答えだったようだ。
 　Mikan looks surprised at my unexpected reply as well.
@@ -413,13 +411,13 @@ label	mikan_qa02_c
 
 #「いや、どうだろう……。自分で言っておいて変だと思う」
 ＠Itsuki
-「No, never mind... I thought it was weird before I said it」
+「Well, maybe not... that's probably kind of weird」
 
 @mikan_kusyou		#苦笑
 
 #「……そもそもみかん、あんまり意味も知らないような言葉だよ…」
 ＠Mikan,A01659
-「... Ok firstly, I don't even know what that means...」
+「...First things first, I don't even know what that means...」
 
 @mikan			#普通
 
@@ -429,7 +427,7 @@ label	mikan_qa02_c
 
 #「……みかんには何か、しっくり来ないイメージだな」
 ＠Itsuki
-「... Yeah, that doesn't suit you at all」
+「...Yeah, that doesn't suit you at all」
 
 @mikan_kanashimi	#哀
 
@@ -1245,58 +1243,73 @@ label	mikan_qa06
 wait		1000
 @mikan			#普通
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+　I was relaxing in my room when Mikan came to ask me something.
 
+#「うん？　どうした」
 ＠Itsuki
-「うん？　どうした」
+「Hm? What is it」
 
 @mikan_yorokobi		#喜
 
+#「今日クラスでね、友達とお話してたんだけど……」
 ＠Mikan,A01724
-「今日クラスでね、友達とお話してたんだけど……」
+「I was talking to some friends in class today...」
 
+#「みんなキスをした事があるか無いかっていう話になったの」
 ＠Mikan,A01725
-「みんなキスをした事があるか無いかっていう話になったの」
+「We were talking about whether we'd ever kissed or not」
 
+#「ファーストキスか。みかんの年代の子が話しそうな内容だな」
 ＠Itsuki
-「ファーストキスか。みかんの年代の子が話しそうな内容だな」
+「First kiss, huh. That's like something girls your age would talk about」
 
 @mikan			#普通
 
+#「ん……そうかな」
 ＠Mikan,A01726
-「ん……そうかな」
+「Yeah... I guess so」
 
+#「それで、その話がどうかしたのか？」
 ＠Itsuki
-「それで、その話がどうかしたのか？」
+「So, did something happen there?」
 
+#「うん……キスした事のある子が居て、みんなその話を聞いて盛り上がってたから…」
 ＠Mikan,A01727
-「うん……キスした事のある子が居て、みんなその話を聞いて盛り上がってたから…」
+「Yeah... everyone got all hyped up, wanting to hear stories from people who'd kissed」
 
 @mikan_kanashimi	#哀
 
+#「……キス以上のエッチもたくさんしてるみかんは、もうみんなと違うのかな」
 ＠Mikan,A01728
-「……キス以上のエッチもたくさんしてるみかんは、もうみんなと違うのかな」
+「...I'm already way different from everyone else, since I've done all sorts of pervy things」
 
+#「………」
 ＠Itsuki
-「………」
+「...」
 
-……そういうことか。
+#……そういうことか。
+　...So that's what it's about.
 
-エッチの有無は微妙だが、みかんほど経験過多な子は他にいないだろう。
+#エッチの有無は微妙だが、みかんほど経験過多な子は他にいないだろう。
+　Sex is tough to talk about, and it's unlikely there would be another girl with so much experience as Mikan.
 
+#「………」
 ＠Mikan,A01729
-「………」
+「...」
 
-自分とは違う世界の話題の中で、みかんが溶け込めなかった寂しさが伝わってくる。
+#自分とは違う世界の話題の中で、みかんが溶け込めなかった寂しさが伝わってくる。
+　Her loneliness is clear to me, not being able to fit into a conversation of a world different from her own.
 
+#（みかんをみんなから引き離したのは、オレだからな……）
 ＠Itsuki
-（みかんをみんなから引き離したのは、オレだからな……）
+（It's because of me she got isolated from everyone...）
 
 #--------------------------------------------------
 #■（選択肢）
-#（１．謝るべきだ）
-#（２．謝るべきではない）
-select sel,"謝るべきだ","謝るべきではない"
+#（１．Apologize）
+#（２．Don't apologize）
+select sel,"Apologize","Don't apologize"
 if sel=0 then goto mikan_qa06_a
 if sel=1 then goto mikan_qa06_b
 #--------------------------------------------------
@@ -1305,38 +1318,47 @@ if sel=1 then goto mikan_qa06_b
 label	mikan_qa06_a
 #--------------------------------------------------
 
+#「ごめんな、みかん。オレのせいで」
 ＠Itsuki
-「ごめんな、みかん。オレのせいで」
+「Sorry, Mikan. It's my fault」
 
 @mikan			#普通
 
+#「えっ……」
 ＠Mikan,A01730
-「えっ……」
+「Huh...」
 
 @mikan_kusyou		#苦笑
 
+#「あ、ううん。みかんこそごめんね、困らせちゃって」
 ＠Mikan,A01731
-「あ、ううん。みかんこそごめんね、困らせちゃって」
+「Ah, no. I'm sorry for troubling you」
 
 @mikan_yorokobi		#喜
 
+#「お兄ちゃんはみかんを守るために、色々してくれてるんだもんね……」
 ＠Mikan,A01732
-「お兄ちゃんはみかんを守るために、色々してくれてるんだもんね……」
+「You're doing so much to protect me after all...」
 
 @mikan_kanashimi	#哀
 
-みかんはそう言って納得しようとしているが、やはり声は少し沈んでいく。
+#みかんはそう言って納得しようとしているが、やはり声は少し沈んでいく。
+　Saying that Mikan tries to come to terms with it, but her voice trails off sadly.
 
-オレが謝ったせいで、余計にみんなとの違いを意識させてしまったようだ。
+#オレが謝ったせいで、余計にみんなとの違いを意識させてしまったようだ。
+　Having apologized, I may have just drew attention to the distinction between her and everyone else even more.
 
+#「そうじゃなくて、みかん、別にみかんがみんなと違うなんてことは無いぞ」
 ＠Itsuki
-「そうじゃなくて、みかん、別にみかんがみんなと違うなんてことは無いぞ」
+「I didn't mean that, Mikan. You're not really different from anyone else」
 
+#「うん、でもみかん気にしないから。平気だよ……」
 ＠Mikan,A01733
-「うん、でもみかん気にしないから。平気だよ……」
+「Sure, don't worry about me though. I'm fine...」
 
+#「これからもよろしくね、お兄ちゃん」
 ＠Mikan,A01734
-「これからもよろしくね、お兄ちゃん」
+「Thanks, Onii-chan」
 
 window_close
 bgm_stop
@@ -1344,10 +1366,12 @@ bgm_stop
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-みかんは寂しそうに、自分の部屋に戻っていってしまった。
+#みかんは寂しそうに、自分の部屋に戻っていってしまった。
+　Looking downcast, Mikan went back to her room.
 
+#「……まずったな。軽率に謝るべきじゃなかったか」
 ＠Itsuki
-「……まずったな。軽率に謝るべきじゃなかったか」
+「...Messed that one up. I shouldn't have apologized so hastily」
 
 #（スケジュールへ）
 goto	mikan_qa_exit
@@ -1356,47 +1380,60 @@ goto	mikan_qa_exit
 label	mikan_qa06_b
 #--------------------------------------------------
 
-でもここで謝ることは、みかんの境遇をオレが肯定してしまう事になる。
+#でもここで謝ることは、みかんの境遇をオレが肯定してしまう事になる。
+　But apologizing here, I'd just end up reinforcing her lot in life.
 
+#「みかんはちゃんと、オレが守ってやる。約束する」
 ＠Itsuki
-「みかんはちゃんと、オレが守ってやる。約束する」
+「Mikan, I'm going to protect you. That I promise you」
 
+#「……お兄ちゃん」
 ＠Mikan,A01735
-「……お兄ちゃん」
+「...Onii-chan」
 
+#「それに、オレが言うのも変だけど、どんな生活をしていようとみかんはみかんじゃないか」
 ＠Itsuki
-「それに、オレが言うのも変だけど、どんな生活をしていようとみかんはみかんじゃないか」
+「Also, it might be strange coming from me, but you'll always be the same Mikan no matter your lifestyle」
 
+#「だから気にせずにみんなと仲良くしていればいいよ」
 ＠Itsuki
-「だから気にせずにみんなと仲良くしていればいいよ」
+「So don't mind it and just have fun with your friends」
 
 @mikan_odoroki		#驚
 
+#「ほんと？　みかん、今までどおりみんなと遊んでで大丈夫？」
 ＠Mikan,A01736
-「ほんと？　みかん、今までどおりみんなと遊んでで大丈夫？」
+「Really? It's OK if I just play with them like I have been?」
 
-みかんの言葉に、オレは大きく頷いて返してやった。
+#みかんの言葉に、オレは大きく頷いて返してやった。
+　I give a big nod back at Mikan's words.
 
-その返事に安心したみかんが、ようやく笑顔を取り戻してくれる。
+#その返事に安心したみかんが、ようやく笑顔を取り戻してくれる。
+　Relieved at my reply, at last a smile makes its way back onto her face.
 
 @mikan_warai		#笑
 
+#「うんッ。それじゃ、明日誘われてるお買い物もみんなと一緒に行って来る！」
 ＠Mikan,A01737
-「うんッ。それじゃ、明日誘われてるお買い物もみんなと一緒に行って来る！」
+「OK! Then, I'll go shopping that I got invited to together with everyone tomorrow!」
 
+#「えへへ、ありがとうお兄ちゃん。みかん元気でたよ」
 ＠Mikan,A01738
-「えへへ、ありがとうお兄ちゃん。みかん元気でたよ」
+「Ehehe, thanks Onii-chan. I feel a lot better」
 
+#「そうか。良かった、楽しんでこい」
 ＠Itsuki
-「そうか。良かった、楽しんでこい」
+「Alright. That's good to hear, have fun」
 
+#「お兄ちゃんも、また今度みかんと一緒にお出かけしようねっ」
 ＠Mikan,A01739
-「お兄ちゃんも、また今度みかんと一緒にお出かけしようねっ」
+「Let's go out together again sometime too, Onii-chan」
 
 bgm_stop
 @mikan_
 
-吹っ切れたように元気になって、みかんは部屋に戻って行った。
+#吹っ切れたように元気になって、みかんは部屋に戻って行った。
+　Mikan headed back to her room, cheerful and allayed of worry.
 
 window_close
 #（スケジュールへ）
