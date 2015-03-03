@@ -1010,10 +1010,12 @@ label	karin_qa04
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-部屋で休んでいると、ドアのノックの音がした。
+#部屋で休んでいると、ドアのノックの音がした。
+　I was relaxing in my room when I heard a knock on my door.
 
+#「入るわよ」
 ＠Karin,P02033
-「入るわよ」
+「I'm coming in」
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
@@ -1023,17 +1025,21 @@ wait		1000
 @karin_pajama
 @karin
 
+#「かりんか。珍しいじゃないか」
 ＠Itsuki
-「かりんか。珍しいじゃないか」
+「Oh, Karin. Don't see you here too often」
 
+#「宿題で分からないところがあるから、仕方なく来たのよ」
 ＠Karin,P02034
-「宿題で分からないところがあるから、仕方なく来たのよ」
+「There's something I don't understand in my homework, so I had to come and ask」
 
+#「……時間、大丈夫よね？」
 ＠Karin,P02035
-「……時間、大丈夫よね？」
+「...It's not too late, is it?」
 
+#「ああ、いいぞ。どの問題だ」
 ＠Itsuki
-「ああ、いいぞ。どの問題だ」
+「Yeah, no problem. What's the question?」
 
 window_close
 @karin_
@@ -1042,64 +1048,77 @@ wait		1000
 @karin_pajama
 @karin			#普通
 
+#「じゃあ早速だけどこの問題……解ける？」
 ＠Karin,P02036
-「じゃあ早速だけどこの問題……解ける？」
+「Then let's get to it... can you figure this one out?」
 
-かりんが出してきた問題を見た。
+#かりんが出してきた問題を見た。
+　I looked at the question Karin showed me.
 
-『問い１：「いっこうに」を使って短文を作りなさい』
+#『問い１：「いっこうに」を使って短文を作りなさい』
+『Problem 1: Make a sentence that uses the word "incredibly"』
 
+#（……ん？　そんな難しい問題じゃないような）
 ＠Itsuki
-（……ん？　そんな難しい問題じゃないような）
+（...Huh? That's not too difficult, is it?）
 
+#「………」
 ＠Karin,P02037
-「………」
+「...」
 
-問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
+#問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
+　Trying to bring the problem set closer, Karin ended up right beside me.
 
-不思議だがとりあえず、ここはバシッと問題に答えてやろう。
-
-# note: these questions don't work when translated literally.
+#不思議だがとりあえず、ここはバシッと問題に答えてやろう。
+　It's odd, but for now I guess I'll just whiff through them.
 
 #--------------------------------------------------
 #■（選択肢Ａ）
 #（１．『ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！』）
 #（２．『約束の時間を過ぎても、いっこうに彼が来る気配はなかった』）
-select sel,"『Master's completely hard cock feels good!』","『He is completely late.』"
+select sel,"『Master's hard cock feels incredibly good!』","『He was late, yet incredibly unbothered』"
 sel1=sel
 #--------------------------------------------------
 
+#「ふむ。こんな感じだな」
 ＠Itsuki
-「ふむ。こんな感じだな」
+「Yeah. Something like this」
 
+#「えっと、次の問題もなんだけど」
 ＠Karin,P02038
-「えっと、次の問題もなんだけど」
+「Um, can you do the next one too?」
 
-『問い２：「～～なので、～～ます」を使って短文を作りなさい』
+#『問い２：「～～なので、～～ます」を使って短文を作りなさい』
+『Problem 2： Make a sentence that uses "With ～～, then ～～"』
 
 #--------------------------------------------------
 #■（選択肢Ｂ）
 #（１．『今日はデートなので、とても楽しみにしてます』）
 #（２．『もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！』）
-select sel,"『I have a big, hot date tonight』","『Only a big hot one satisfies Karin tonight』"
+select sel,"『I'm super excited with my date tonight』","『Karin can't get satisfied without my big, hot pole!』"
 sel2=sel
 #--------------------------------------------------
 
+#「ばっちりだ。ほら」
 ＠Itsuki
-「ばっちりだ。ほら」
+「Perfect. Here」
 
+#「あっ、待って。最後の問題も教えてもらえる…？」
 ＠Karin,P02039
-「あっ、待って。最後の問題も教えてもらえる…？」
+「Ah, wait a minute. Can you do me the last one too...?」
 
-『問い３：「どうにか」を使って短文を作りなさい』
+#『問い３：「どうにか」を使って短文を作りなさい』
+『Problem 3: Make a sentence that uses "somehow"』
 
 #--------------------------------------------------
 #■（選択肢Ｃ）
 #（１．『おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！』）
 #（２．『どうにかして、今日は彼との仲を進展させたいです』）
-select sel,"『Amazing cock, somehow I have to get it deeper！』","『Somehow I have to form a deeper relationship with him』"
+select sel,"『Your cock's amazing... somehow, it's growing on me』","『I want to deepen my relationship with him today somehow』"
 sel3=sel
 #--------------------------------------------------
+
+#TL note: I realized at this point I translated the wrong one. Will continue later.
 
 ＠Itsuki
 「よし、と。これで大丈夫か？」
@@ -1620,10 +1639,12 @@ label	karin_qa06
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-部屋で休んでいると、ドアのノックの音がした。
+#部屋で休んでいると、ドアのノックの音がした。
+　I was relaxing in my room when I heard a knock on my door.
 
+#「入るわよ」
 ＠Karin,P02094
-「入るわよ」
+「I'm coming in」
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
@@ -1633,64 +1654,81 @@ wait		1000
 @karin_pajama
 @karin
 
+#「かりんか。珍しいじゃないか」
 ＠Itsuki
-「かりんか。珍しいじゃないか」
+「Oh, Karin. Don't see you here too often」
 
+#「ええ、ちょっとね。聞きたいことがあって」
 ＠Karin,P02095
-「ええ、ちょっとね。聞きたいことがあって」
+「Yeah, let me bother you for a bit. I have a question」
 
+#「ジュウカンって何のこと？」
 ＠Karin,P02096
-「ジュウカンって何のこと？」
+「What is "bestiality"?」
 
+#「え゛ッ……」
 ＠Itsuki
-「え゛ッ……」
+「What...」
 
-ビシッ！と、一瞬時間が止まったように固まってしまった。
+#ビシッ！と、一瞬時間が止まったように固まってしまった。
+　I froze in place for a moment like time had stood still.
 
 @karin_kanashimi	#哀
 
+#「ジュウカンよ、ジュウカン。やっぱり樹も知らないかしら…？」
 ＠Karin,P02097
-「ジュウカンよ、ジュウカン。やっぱり樹も知らないかしら…？」
+「Bestiality, I said bestiality. Do you not know either...?」
 
+#「その前に、かりん……獣姦なんてどこで仕入れた言葉なんだ」
 ＠Itsuki
-「その前に、かりん……獣姦なんてどこで仕入れた言葉なんだ」
+「First of all, Karin... where did you learn that word?」
 
 @karin			#普通
 
+#「ん…？　ざくろがテレビを見ながら呟いてたのよ」
 ＠Karin,P02098
-「ん…？　ざくろがテレビを見ながら呟いてたのよ」
+「Hm...? Zakuro mumbled it while she was watching TV」
 
+#「ジュウカン、ジュウカンしてって」
 ＠Karin,P02099
-「ジュウカン、ジュウカンしてって」
+「"Come on, bestiality, bestiality" is what she said」
 
+#「ざくろ……何でテレビ見ながらそんな言葉が出るんだよ…」
 ＠Itsuki
-「ざくろ……何でテレビ見ながらそんな言葉が出るんだよ…」
+「Zakuro... why would she say that while watching TV...」
 
+#「あれは確か、愛犬を紹介してる番組中だったかしら」
 ＠Karin,P02100
-「あれは確か、愛犬を紹介してる番組中だったかしら」
+「I'm pretty sure it was during a pet dog referral show」
 
+#「飼い主の女の子が芝生の上で楽しそうに、数匹の犬にじゃれ付かれていた場面よ」
 ＠Karin,P02101
-「飼い主の女の子が芝生の上で楽しそうに、数匹の犬にじゃれ付かれていた場面よ」
+「A girl who owned a bunch of dogs was playing with them on a lawn」
 
-……あ。その言葉で何となく発想の根幹は分かった。
+#……あ。その言葉で何となく発想の根幹は分かった。
+　...Oh. I can sort of understand where she got the idea from.
 
+#「そうか。ざくろは獣姦を期待して動物番組を見てたのか……」
 ＠Itsuki
-「そうか。ざくろは獣姦を期待して動物番組を見てたのか……」
+「I see. Zakuro was watching a show about animals hoping for bestiality...」
 
 @karin_kanashimi	#哀
 
+#「ねぇ、だからそのジュウカンってなんなのよ…？」
 ＠Karin,P02102
-「ねぇ、だからそのジュウカンってなんなのよ…？」
+「Yeah, so what is "bestiality"...?」
 
-一人分かってないかりんが余計に知りたがった。
+#一人分かってないかりんが余計に知りたがった。
+　Karin being the only one not knowing what it meant is eager to find out.
 
-獣姦か……どう教えようかな。
+#獣姦か……どう教えようかな。
+　Bestiality huh... how am I supposed to explain this?
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．正確に教える）
 #（２．言うと危険な香りがする！）
-select sel,"Explain fully","This smells dangerous！"
+select sel,"Explain it fully","This smells dangerous!"
 if sel=0 then goto karin_qa06_a
 if sel=1 then goto karin_qa06_b
 #--------------------------------------------------
@@ -1700,69 +1738,91 @@ if sel=1 then goto karin_qa06_b
 #--------------------------------------------------
 label	karin_qa06_a
 
+#「ジュウとは〝獣〟と書く。そしてカンは女三つの〝姦〟だ」
 ＠Itsuki
-「ジュウとは〝獣〟と書く。そしてカンは女三つの〝姦〟だ」
+「Bestiality is written with the characters for "animal" (獣), and the one with 3 women (姦)」 TL note: "adultery"
 
+#「うん………ん？」
 ＠Karin,P02103
-「うん………ん？」
+「OK... huh?」
 
-さすがかりん、その字面で妖しい空気を感じて眉を寄せた。
+#さすがかりん、その字面で妖しい空気を感じて眉を寄せた。
+　Of course, Karin could tell from the word's written impression this was fishy and frowned.
 
-だが、オレはあえて説明を続ける。
+#だが、オレはあえて説明を続ける。
+　But I ventured on boldly explaining it.
 
+#「つまり獣姦とは字のごとく、獣とエッチする行為のことを言うんだ」
 ＠Itsuki
-「つまり獣姦とは字のごとく、獣とエッチする行為のことを言うんだ」
+「So as you'd expect from the characters, bestiality means having sex with animals」
 
+#「けものと……」
 ＠Karin,P02104
-「けものと……」
+「Wait, what...」
 
 @karin_odoroki		#驚
 
+#「け、獣とーーーッ！？」
 ＠Karin,P02105
-「け、獣とーーーッ！？」
+「W-with animalsーーー!?」
 
+#「そうだ。それが獣姦というものだ」
 ＠Itsuki
-「そうだ。それが獣姦というものだ」
+「Yeah. That's what bestiality means」
 
+#「獣ってッ、その、犬とかネコとかの…ッ！？」
 ＠Karin,P02106
-「獣ってッ、その、犬とかネコとかの…ッ！？」
+「Animals, a-as in like, cats or dogs...!?」
 
+#「エッチするってッ、そんな動物と何をどうするっていうのッ…！？」
 ＠Karin,P02107
-「エッチするってッ、そんな動物と何をどうするっていうのッ…！？」
+「H-How and what are you supposed to do, to even do that with animals!?」
 
+#「もちろん、ナニをどうするに決まってるだろう」
 ＠Itsuki
-「もちろん、ナニをどうするに決まってるだろう」
+「Well, it should be pretty obvious what you do and how」
 
+#「ちなみに、ネコは小さいな。犬とか豚とか、あと馬とか」
 ＠Itsuki
-「ちなみに、ネコは小さいな。犬とか豚とか、あと馬とか」
+「Anyway, cats are pretty small. It's more like dogs, pigs, and even horses」
 
+#「な、なぁなッ…！？」
 ＠Karin,P02108
-「な、なぁなッ…！？」
+「Wha, wh-wha...!?」
 
-想像を絶する世界に、かりんの衝撃は大きいようだ。
+#想像を絶する世界に、かりんの衝撃は大きいようだ。
+　This having been previously unimaginable for her, Karin's shock was great.
 
-話題が話題だけに羞恥で頬は染まっているが、すでに照れるとかいう言動の次元ではない。
+#話題が話題だけに羞恥で頬は染まっているが、すでに照れるとかいう言動の次元ではない。
+　The topic itself embarrassing her cheeks went red, but she's hardly acting shy about it at all.
 
+#「ぶ、豚や馬のおちんちんを入れて、中に射精されるって言うのッ！？」
 ＠Karin,P02109
-「ぶ、豚や馬のおちんちんを入れて、中に射精されるって言うのッ！？」
+「S-so that means putting a pig or horse's dick in and having it coming inside!?」
 
-……錯乱して、そんなモロ発言まで飛び出すのだ。
+#……錯乱して、そんなモロ発言まで飛び出すのだ。
+　...She lost her cool, and went and blurted out such an obscene remark.
 
+#「心配しなくても希少なシチュエーションだ。かりんにはきっと無縁だよ」
 ＠Itsuki
-「心配しなくても希少なシチュエーションだ。かりんにはきっと無縁だよ」
+「Don't worry, it's pretty rare for that to happen. I'm sure you'll have nothing to do with it」
 
 @karin_komikaru_ikari	#コミカル怒
 
+#「きっとなんかじゃなくて、何があろうと無縁よッ！」
 ＠Karin,P02110
-「きっとなんかじゃなくて、何があろうと無縁よッ！」
+「Don't say "I'm sure", it's no matter what!」
 
+#「お客の相手でもウンザリなのに、この上豚や馬みたいな家畜のおちんちんにまで犯されたくないわよッ！」
 ＠Karin,P02111
-「お客の相手でもウンザリなのに、この上豚や馬みたいな家畜のおちんちんにまで犯されたくないわよッ！」
+「I'm sick of spending time with guests, let alone being violated by dicks of domesticated animals like pigs or horses!」
 
+#「わ、分かってるって、うん。だから落ち着け、な？」
 ＠Itsuki
-「わ、分かってるって、うん。だから落ち着け、な？」
+「O-OK, I get it, okay. Calm down a bit, would you?」
 
-かりんのボルテージが上がるにつれて、何かオレが獣姦を狙ってるみたいになっていってる。
+#かりんのボルテージが上がるにつれて、何かオレが獣姦を狙ってるみたいになっていってる。
+　As Karin kept getting more and more worked up, for some reason it started to look like I'm planning on bestiality.
 
 @karin_kanashimi	#哀
 #///////////////////////////////////////////////////////
@@ -1773,41 +1833,51 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#「はぁッ……ええ。でもまさかそんな世界があるだなんて……」
 ＠Karin,P02112
-「はぁッ……ええ。でもまさかそんな世界があるだなんて……」
+「Haa... fine. But to think such a thing existed...」
 
 layer_movepass_init	l_karin,0	#演出初期化
 
+#「何かもう、ペットを可愛がってる人を純粋な目で見れなくなりそうよ……」
 ＠Karin,P02113
-「何かもう、ペットを可愛がってる人を純粋な目で見れなくなりそうよ……」
+「I feel like I won't be able to look at someone playing with their pet in the same way again...」
 
+#「大丈夫だよ、まず居ないからさ」
 ＠Itsuki
-「大丈夫だよ、まず居ないからさ」
+「No worries, it's not like we have any anyway」
 
+#「……お客の中には？　そんな性癖の人が絶対無いって言い切れる？」
 ＠Karin,P02114
-「……お客の中には？　そんな性癖の人が絶対無いって言い切れる？」
+「...And the guests? Can you state definitely that there will not be someone like that?」
 
+#「もし居ても、そんな無茶からはちゃんとオレが守ってやる。安心しろ」
 ＠Itsuki
-「もし居ても、そんな無茶からはちゃんとオレが守ってやる。安心しろ」
+「If there is one, I'll protect you from doing something so crazy. You can relax」
 
+#「ん……まぁ、それならいいわ。どうにも少し頼りない気もするけど」
 ＠Karin,P02115
-「ん……まぁ、それならいいわ。どうにも少し頼りない気もするけど」
+「Hm... I guess I'll accept that. I hope I can trust you」
 
+#「とりあえず、用はそれだけだから。もう戻るわね」
 ＠Karin,P02116
-「とりあえず、用はそれだけだから。もう戻るわね」
+「I guess that's it for now. I'm heading back」
 
+#「ああ、湯冷めして風邪引かないようにしろよ」
 ＠Itsuki
-「ああ、湯冷めして風邪引かないようにしろよ」
+「Alright, keep warm so you don't catch a cold after your bath」
 
 @karin			#普通
 
+#「分かってるわ、大きなお世話よ」
 ＠Karin,P02117
-「分かってるわ、大きなお世話よ」
+「I know, mind your own business」
 
 bgm_stop
 @karin_
 
-オレの言葉で安心したように、かりんはいつもの調子に戻って部屋を出て行った。
+#オレの言葉で安心したように、かりんはいつもの調子に戻って部屋を出て行った。
+　Looking relieved at my words, Karin in her usual manner went back and left the room.
 
 @chara_clear		#保険
 @bg_black
@@ -1822,44 +1892,57 @@ return
 #--------------------------------------------------
 label	karin_qa06_b
 
-あんまりかりんに話して良い内容とは思えなかった。
+#あんまりかりんに話して良い内容とは思えなかった。
+　This doesn't seem like a discussion I'd want to have with Karin.
 
+#「いや、なんだろうな……実はオレも知らないから」
 ＠Itsuki
-「いや、なんだろうな……実はオレも知らないから」
+「Hmm, let's see... actually, I don't know myself...」
 
 @karin_keno		#嫌悪
 
+#「………」
 ＠Karin,P02118
-「………」
+「...」
 
-当然だが、めちゃくちゃ疑ってる視線で見てくるかりん。
+#当然だが、めちゃくちゃ疑ってる視線で見てくるかりん。
+　I should have expected it, but Karin gives me a withering, doubtful look.
 
+#「さっき知ってるっぽい反応をしてたじゃない」
 ＠Karin,P02119
-「さっき知ってるっぽい反応をしてたじゃない」
+「You seemed like you knew, judging from your reaction before」
 
+#「そうだったか…？　誤解だそれは」
 ＠Itsuki
-「そうだったか…？　誤解だそれは」
+「Did I...? It probably just looked like that」
 
+#「ウソ、それは知ってる反応よっ」
 ＠Karin,P02120
-「ウソ、それは知ってる反応よっ」
+「Liar, I bet you know」
 
+#「何なのジュウカンって。隠さないで教えてくれてもいいじゃないっ」
 ＠Karin,P02121
-「何なのジュウカンって。隠さないで教えてくれてもいいじゃないっ」
+「What's bestiality? What's the point in hiding it and not telling me?」
 
-……言えばきっと、かりんを不安にさせてしまう。
+#……言えばきっと、かりんを不安にさせてしまう。
+　...If I told her, I'd probably just make her worried.
 
-お客がそういう性癖を絶対持っていないとは、言い切れないからだ。
+#お客がそういう性癖を絶対持っていないとは、言い切れないからだ。
+　I can't claim definitely that no guests will have such an inclination, after all.
 
+#「本当に知らないんだよ、悪いけど」
 ＠Itsuki
-「本当に知らないんだよ、悪いけど」
+「I really don't know, sorry」
 
+#「うぅう～～ッ…」
 ＠Karin,P02122
-「うぅう～～ッ…」
+「Uurrgh～～...」
 
 @karin_ikari		#怒
 
+#「ふんッ。ならいいわよ、最初からあてになんてしてないから」
 ＠Karin,P02123
-「ふんッ。ならいいわよ、最初からあてになんてしてないから」
+「Hmph. Fine then, I knew I couldn't rely on you from the start」
 
 window_close
 bgm_stop
@@ -1868,12 +1951,15 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-嘘もバレバレで機嫌を損ね、かりんは部屋を出て行ってしまった。
+#嘘もバレバレで機嫌を損ね、かりんは部屋を出て行ってしまった。
+　Offended at being lied to, Karin left the room.
 
+#「機嫌を悪くしたか……。しょうがないよな」
 ＠Itsuki
-「機嫌を悪くしたか……。しょうがないよな」
+「I guess I hurt her feelings... oh well」
 
-無用な世界を知って、かりんを不安にさせてしまうよりはマシだ。
+#無用な世界を知って、かりんを不安にさせてしまうよりはマシだ。
+　It's better than telling her things she doesn't need to know, and causing her to worry.
 
 @chara_clear		#保険
 @bg_black

@@ -261,91 +261,112 @@ label	ichigo_qa02
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#「パパ～、まだ起きてる？」
 ＠Ichigo,O01946
-「パパ～、まだ起きてる？」
+「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
-部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+　I was relaxing in my room when Ichigo came to ask me something.
 
+#「ああ、どうしたいちご？」
 ＠Itsuki
-「ああ、どうしたいちご？」
+「Yeah, what is it Ichigo?」
 
 @ichigo			#普通
 
+#「いちご分からないことがあって、パパに聞きに来たんだけど」
 ＠Ichigo,O01947
-「いちご分からないことがあって、パパに聞きに来たんだけど」
+「I came to ask you because there's something I don't understand」
 
+#「〝アナル〟と〝アヌス〟ってどう違うの？」
 ＠Ichigo,O01948
-「〝アナル〟と〝アヌス〟ってどう違うの？」
+「What's the difference between "anal" and "anus"?」
 
 #SE69　物をこかす音（ガシャン）
 @SE69			#SE69　物をこかす音（ガシャン）
 screen_vibration	500,16,16,16
 
+#「ぶッ！？」
 ＠Itsuki
-「ぶッ！？」
+「Bugh!?」
 
-いきなり変なことを尋ねられて、思いっきりずっこけた。
+#いきなり変なことを尋ねられて、思いっきりずっこけた。
+　With the sudden weird question, I jerked out of my seat.
 
+#「な、何だよ急にアナルって……てっきり宿題とかと思ったのに」
 ＠Itsuki
-「な、何だよ急にアナルって……てっきり宿題とかと思ったのに」
+「W-why are you asking that all of a sudden... I thought this was about homework」
 
 @ichigo_ase		#汗
 
+#「宿題でアナルを調べるなんて出たこと無いよ？」
 ＠Ichigo,O01949
-「宿題でアナルを調べるなんて出たこと無いよ？」
+「We never had anything anal-related for homework, you know?」
 
-そんなの当たり前だ……
+#そんなの当たり前だ……
+　No kidding...
 
+#「はぁ……で、何だって？」
 ＠Itsuki
-「はぁ……で、何だって？」
+「*Sigh*... so, what was yout question?」
 
 @ichigo			#普通
 
+#「えっとね、〝アナル〟と〝アヌス〟」
 ＠Ichigo,O01950
-「えっとね、〝アナル〟と〝アヌス〟」
+「Umm, "anal" and "anus"」
 
+#「どっちもお尻のことじゃないの？　どうして同じような言葉が二つあるの？」
 ＠Ichigo,O01951
-「どっちもお尻のことじゃないの？　どうして同じような言葉が二つあるの？」
+「Both of them are talking about butt, right? Why's there 2 words that mean the same thing?」
 
+#「……それはだな」
 ＠Itsuki
-「……それはだな」
+「...As for that」
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．アヌスが名詞、アナルが形容詞だ）
 #（２．アヌスが形容詞、アナルが名詞だ）
-select sel,"Ass is a noun, anal's an adjective","Ass is an adjective, anal's a noun"
+select sel,"Anus is a noun, anal's an adjective","Anus is an adjective, anal's a noun"
 sel1=sel
 #--------------------------------------------------
 #（どちらも分岐なし）
 
 @ichigo_odoroki		#驚
 
+#「へぇ～、そうだったんだ」
 ＠Ichigo,O01952
-「へぇ～、そうだったんだ」
+「Ohh～, so that's how it is」
 
+#「でも何で急にそんな事を訊きだすんだ……？」
 ＠Itsuki
-「でも何で急にそんな事を訊きだすんだ……？」
+「But why'd you want to know that out of the blue...?」
 
 @ichigo_yorokobi	#喜
 
+#「うん、あのね、雫が新しい調教のアイディアを話しててね―――」
 ＠Ichigo,O01953
-「うん、あのね、雫が新しい調教のアイディアを話しててね―――」
+「Well, um, Shizuku was talking about a new idea for training―――」
 
+#「あ、うん、分かったもういい。やっぱりあの人が原因なんだな」
 ＠Itsuki
-「あ、うん、分かったもういい。やっぱりあの人が原因なんだな」
+「Oh, OK, I understand now. She's the one behind this, of course」
 
-無駄だろうけど、あとで気をつけるように言っておこう。
+#無駄だろうけど、あとで気をつけるように言っておこう。
+　It's likely pointless, but I ought to tell her to be more careful.
 
 @ichigo_warai		#笑
 
+#「それじゃパパ、おやすみなさ～い♪」
 ＠Ichigo,O01954
-「それじゃパパ、おやすみなさ～い♪」
+「Alrighty Papa, good night～♪」
 
+#「ああ、おやすみ」
 ＠Itsuki
-「ああ、おやすみ」
+「Yeah, good night」
 
 window_close
 bgm_stop
@@ -353,7 +374,8 @@ bgm_stop
 wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
-答えを聞いてすっきりしたいちごは、満足そうに部屋へ戻って行った。
+#答えを聞いてすっきりしたいちごは、満足そうに部屋へ戻って行った。
+　Having gotten my answer, Ichigo went back to her room looking satisfied.
 
 #■BG（黒）
 @chara_clear		#保険
@@ -365,7 +387,8 @@ if sel1=1 then goto ichigo_qa02_b
 #（１）※好感度アップ
 #--------------------------------------------------
 
-後日、オレの答えは合っていたようで、改めていちごからお礼を言われた。
+#後日、オレの答えは合っていたようで、改めていちごからお礼を言われた。
+　Later on, seeing as I gave her the right answer, Ichigo thanked me once again.
 
 @bg_black
 
@@ -379,7 +402,8 @@ return
 #--------------------------------------------------
 label	ichigo_qa02_b
 
-後日、オレの答えは間違っていたようで、いちごに不満を言われてしまった。
+#後日、オレの答えは間違っていたようで、いちごに不満を言われてしまった。
+　Later on, seeing as I gave her the wrong answer, Ichigo came to me displeased.
 
 @bg_black
 @ichigo_atama_down
