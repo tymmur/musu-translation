@@ -363,36 +363,44 @@ label	ichigo_kenkou_a2
 @chara_clear		#保険
 @bg_kitchen		# キッチン
 
+#「ん？　何してるんだいちご？」
 ＠Itsuki
-「ん？　何してるんだいちご？」
+「Hm? What are you doing, Ichigo?」
 
-キッチンに顔を出すと、いちごがグラスの水をゴクゴクと呷っていた。
+#キッチンに顔を出すと、いちごがグラスの水をゴクゴクと呷っていた。
+　When I showed up in the kitchen, Ichigo was gulping down a glass of water.
 
 @ichigo_small
 @ichigo_shifuku
 @ichigo_kanashimi	#哀
 
+#「んぅ～……頭が痛いから、薬飲んでたの」
 ＠Ichigo,O01548
-「んぅ～……頭が痛いから、薬飲んでたの」
+「Nhh～... My head hurts, so I took a medicine」
 
 @ichigo_naki		#泣
 
+#「粉薬、苦いから嫌い～～」
 ＠Ichigo,O01549
-「粉薬、苦いから嫌い～～」
+「Powder medicine's bitter, and I don't like it～～」
 
+#「ま、苦いからこその薬であって」
 ＠Itsuki
-「ま、苦いからこその薬であって」
+「Well, it has to be for it to be medicine」
 
+#「それより、大丈夫なのか？」
 ＠Itsuki
-「それより、大丈夫なのか？」
+「Anyway, are you okay?」
 
 @ichigo_kanashimi	#哀
 
+#「首ブンブン振ったら頭がガンガンする……」
 ＠Ichigo,O01550
-「首ブンブン振ったら頭がガンガンする……」
+「If I shake my head, my headache gets worse...」
 
+#「……それは当たり前だ」
 ＠Itsuki
-「……それは当たり前だ」
+「...No kidding」
 
 window_close
 @ichigo_
@@ -400,46 +408,59 @@ wait		1000
 @ichigo_middle		# 中間
 @ichigo_kanashimi	#哀
 
-あまり参考にならない会話をしながら、いちごのおでこに手を当ててみる。
+#あまり参考にならない会話をしながら、いちごのおでこに手を当ててみる。
+　Our conversation not incredibly informative, I put my hand to her forehead.
 
-熱は無いようだ。
+#熱は無いようだ。
+　She doesn't seem to have a fever.
 
-頭痛っていうのは結構気分に左右されることが多いからな。
+#頭痛っていうのは結構気分に左右されることが多いからな。
+　But when you've got a headache, your mood will be down in the dumps.
 
 @ichigo_ikari		#怒
 
+#「久しぶりに宿題を頑張ってやろうと思ったら、頭痛になったの……。宿題のせいだー」
 ＠Ichigo,O01551
-「久しぶりに宿題を頑張ってやろうと思ったら、頭痛になったの……。宿題のせいだー」
+「I thought I'd work hard on my homework for once, and I got a headache... it's all homework's faultー」
 
+#「久しぶりじゃなくて、毎日やろうな、宿題は」
 ＠Itsuki
-「久しぶりじゃなくて、毎日やろうな、宿題は」
+「Homework's meant to be done every day, not once in a while」
 
 @ichigo_komaru		#困
 
+#「毎日頭痛になるよー」
 ＠Ichigo,O01552
-「毎日頭痛になるよー」
+「I'd get a headache every dayー」
 
-本気で困ったように言う。
+#本気で困ったように言う。
+　She seems genuinely concerned about this.
 
-いちごはグラスを片付けると、いつもの元気さを欠いた声で続けた。
+#いちごはグラスを片付けると、いつもの元気さを欠いた声で続けた。
+　Ichigo puts her glass away, and continues in a voice lacking her usual punch.
 
 @ichigo			#普通
 
+#「いちご、もう部屋に戻ろうかな」
 ＠Ichigo,O01553
-「いちご、もう部屋に戻ろうかな」
+「I think I'll go back to my room now」
 
+#「そうしろ。ゆっくり眠るか、何か気分転換でもしたら治るだろ」
 ＠Itsuki
-「そうしろ。ゆっくり眠るか、何か気分転換でもしたら治るだろ」
+「Good idea. Rest up, or do something else to take you mind off it, and you'll feel better」
 
+#「治ったら、ちゃんと宿題もやるように」
 ＠Itsuki
-「治ったら、ちゃんと宿題もやるように」
+「And once you feel better, try to keep up with homework too」
 
 @ichigo_komaru		#困
 
+#「うぅ。は～い………」
 ＠Ichigo,O01554
-「うぅ。は～い………」
+「Ugh. Fine～」
 
-ちょっと不満そうに口を尖らせ、部屋へ引き上げていった。
+#ちょっと不満そうに口を尖らせ、部屋へ引き上げていった。
+　With a bit of a displeased pout, she retreated to her room.
 
 @chara_clear		#保険
 @bg_black
@@ -859,30 +880,38 @@ label	ichigo_kenkou_c2
 #■BG（玄関）
 @bg_genkan		# 玄関
 
-いちごがトントンと靴のつま先を叩いていた。
+#いちごがトントンと靴のつま先を叩いていた。
+　The toes of Ichigo's shoes tapped along the ground.
 
+#「パパ、ちょっと出かけてくるね……ケホッ、んん」
 ＠Ichigo,O01577
-「パパ、ちょっと出かけてくるね……ケホッ、んん」
+「Papa, I'm going out for a bit... *cough*, nhh」
 
+#「ああ。……朝からちょっと咳が出てるみたいだが、大丈夫なのか？」
 ＠Itsuki
-「ああ。……朝からちょっと咳が出てるみたいだが、大丈夫なのか？」
+「Sure... you've got a bit of a cough today. Are you sure you're okay?」
 
 @ichigo			#普通
 
+#「平気平気♪　ちょっと喉がイガイガするだけで、熱もないもん」
 ＠Ichigo,O01578
-「平気平気♪　ちょっと喉がイガイガするだけで、熱もないもん」
+「I'm fine, fine♪　My throat's a little sore, but I don't have a fever」
 
-朝食の時から、いちごの会話の端に咳が混じって気になっていた。
+#朝食の時から、いちごの会話の端に咳が混じって気になっていた。
+　Ever since breakfast, Ichigo's sentences having coughs interspersed are worrisome.
 
-が、確かに顔色は良いし、元気もあるようだ。
+#が、確かに顔色は良いし、元気もあるようだ。
+　But, her complexion's good, and she seems healthy otherwise.
 
+#「遅くならないようにな。帰ってきたら、ちゃんとうがいしろよ？」
 ＠Itsuki
-「遅くならないようにな。帰ってきたら、ちゃんとうがいしろよ？」
+「Try not to go too far. When you get back, make sure to gargle some water」
 
 @ichigo_yorokobi	#喜
 
+#「分かってる。じゃ、行ってきまーすッ♪」
 ＠Ichigo,O01579
-「分かってる。じゃ、行ってきまーすッ♪」
+「Got it. Then, I'm offー♪」
 
 #@bg_black
 window_close

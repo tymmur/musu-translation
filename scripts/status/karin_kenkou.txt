@@ -320,60 +320,74 @@ label	karin_kenkou_a2
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-ちょうど自室に戻ろうとしていたかりんと出くわした。
+#ちょうど自室に戻ろうとしていたかりんと出くわした。
+　I came across Karin heading back to her own room.
 
+#「どうしたかりん。他のみんなとは一緒にいないのか？」
 ＠Itsuki
-「どうしたかりん。他のみんなとは一緒にいないのか？」
+「What's wrong, Karin? You don't want to be with everyone else?」
 
 @karin_small		# 遠い
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#「気分が悪いの……部屋で休む」
 ＠Karin,P01622
-「気分が悪いの……部屋で休む」
+「I feel under the weather... I'll rest in my room」
 
 @karin_
 
-億劫そうに応え、そのまま部屋へ入ろうとする。
+#億劫そうに応え、そのまま部屋へ入ろうとする。
+　With an annoyed response, she makes to go into her room.
 
+#「薬持ってきてやろうか？」
 ＠Itsuki
-「薬持ってきてやろうか？」
+「Can I get you a medicine?」
 
 @karin_small		# 遠い
 @karin_shifuku
 @karin_keno		#嫌悪
 
+#「いらないわよ、何であなたになんか……」
 ＠Karin,P01623
-「いらないわよ、何であなたになんか……」
+「I don't need one. Like I'd want one from...」
 
-そのいつもの言葉も、途中で眉をひそめて止まってしまった。
+#そのいつもの言葉も、途中で眉をひそめて止まってしまった。
+　In the middle of her usual comments, she frowned and trailed off.
 
 @karin_kanashimi	#哀
 
+#「………やっぱり貰おうかしら」
 ＠Karin,P01624
-「………やっぱり貰おうかしら」
+「...Maybe I will take you up on that after all」
 
+#「本気で辛そうだな」
 ＠Itsuki
-「本気で辛そうだな」
+「It must really be tough on you, huh」
 
+#「寝てれば治るわ………誰かさんが変なことでもしに来ない限りわね」
 ＠Karin,P01625
-「寝てれば治るわ………誰かさんが変なことでもしに来ない限りわね」
+「I'll get over it by resting... unless a certain someone comes by asking weird things」
 
+#「ほほぉ？　そんな懸念があるんなら、オレが部屋の中でずっと居てやろうか」
 ＠Itsuki
-「ほほぉ？　そんな懸念があるんなら、オレが部屋の中でずっと居てやろうか」
+「Ohh? If you're worried about that, I can stay by your side all the time」
 
 @karin_ikari		#怒
 
+#「い・や！　入ってきたら殴り飛ばすわよ」
 ＠Karin,P01626
-「い・や！　入ってきたら殴り飛ばすわよ」
+「No thanks! I'll knock you off your feet if you come in」
 
+#「それが元お嬢様の言葉か……かなり元気じゃん」
 ＠Itsuki
-「それが元お嬢様の言葉か……かなり元気じゃん」
+「That's more like you... you're not too bad off then」
 
 @karin_keno		#嫌悪
 
+#「ふん……薬のときはノックして。そのときだけ入室を許可してあげるから」
 ＠Karin,P01627
-「ふん……薬のときはノックして。そのときだけ入室を許可してあげるから」
+「Huff... knock when you bring medicine. That's the only time I'll allow you to come in」
 
 window_close
 bgm_stop
@@ -382,12 +396,15 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-それだけ言うと用は済んだと部屋に入ってしまった。
+#それだけ言うと用は済んだと部屋に入ってしまった。
+　With that her business with me finished, she went into her room.
 
-まぁ具合が悪そうなのは本当なので、これ以上からかうのも悪いか。
+#まぁ具合が悪そうなのは本当なので、これ以上からかうのも悪いか。
+　Considering she really did seem unwell, I shouldn't tease her anymore.
 
+#「薬を持っていった時に殴られるようなら、そのまま元気になるまでからかってやろう」
 ＠Itsuki
-「薬を持っていった時に殴られるようなら、そのまま元気になるまでからかってやろう」
+「If when I bring her medicine she wants to punch me, I'll conclude she's recovered and tease her like usual」
 
 @chara_clear		#保険
 @bg_black
@@ -973,100 +990,122 @@ label	karin_kenkou_c2
 @chara_clear		#保険
 @bg_dining		# 食堂
 
-今日も食事の時間は、いちごの食欲がうなりを上げる。
+#今日も食事の時間は、いちごの食欲がうなりを上げる。
+　Today, as usual, Ichigo had a roaring appetite during breakfast.
 
 @ichigo_small
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
+#「おかわりッ！」
 ＠Ichigo,O01704
-「おかわりッ！」
+「More please!」
 
+#「ごめんなさい、いちごちゃん。もうさっきのが最後の分よ」
 ＠Miu,B01452
-「ごめんなさい、いちごちゃん。もうさっきのが最後の分よ」
+「Sorry, Ichigo-chan. You just had the last of it」
 
 #SE75　ショック音（ガーーン！）
 @SE75			#SE75　ショック音（ガーーン！）
 @ichigo_kanashimi	#哀
 
+#「ガーーーンッ！！」
 ＠Ichigo,O01705
-「ガーーーンッ！！」
+「*Shock*！！」
 
-少々食べ過ぎのような気もするが。
+#少々食べ過ぎのような気もするが。
+　I can't help but feel she overate, anyway.
 
 @karin_small
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#「いいわよ、いちご。私のをあげるから」
 ＠Karin,P01671
-「いいわよ、いちご。私のをあげるから」
+「Very well, Ichigo. You can have mine」
 
 @ichigo			#普通
 
+#「えッ！？」
 ＠Ichigo,O01706
-「えッ！？」
+「Huh!?」
 
+#「え……」
 ＠Itsuki
-「え……」
+「Huh...」
 
-腹ペコ魔人の要望に応えたのは、意外すぎることにかりんだった。
+#腹ペコ魔人の要望に応えたのは、意外すぎることにかりんだった。
+　It was a very strange sight for Karin to acquiesce to the hunger demon's demands.
 
+#「いいの？　何で？」
 ＠Ichigo,O01707
-「いいの？　何で？」
+「I can? How come?」
 
+#「何か入ってるんじゃない？　髪の毛とか」
 ＠Zakuro,Q01028
-「何か入ってるんじゃない？　髪の毛とか」
+「Did you find a hair in it, or something?」
 
 @ichigo_ase		#汗
 
+#「い、いちごに呪い！？」
 ＠Ichigo,O01708
-「い、いちごに呪い！？」
+「D-did you curse it?」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
+#「私は呪術師かッ！　単に調子が良くないだけよッ！」
 ＠Karin,P01672
-「私は呪術師かッ！　単に調子が良くないだけよッ！」
+「Am I a witch now!? I'm just not feeling that great!」
 
+#「まぁかりんが進んでいちごにおかずを上げる時点で、何かしら異常っぽいことは分かるけど」
 ＠Itsuki
-「まぁかりんが進んでいちごにおかずを上げる時点で、何かしら異常っぽいことは分かるけど」
+「Well, I mean it is kind of strange, to see you going so far as to give her your dish...」
 
 #SE38　殴る音（バキッ！）
 #//フラッシュ
 @SE38			#殴る音（バキッ！）
 
+#「いって！！」
 ＠Itsuki
-「いって！！」
+「Ouch!!」
 
 @karin_komikaru_ikari	#コミカル怒
 
+#「異常って言うなッ！　おかずあげたくらいで異常扱いされたら、普段がどれだけ意地汚いのよッ」
 ＠Karin,P01673
-「異常って言うなッ！　おかずあげたくらいで異常扱いされたら、普段がどれだけ意地汚いのよッ」
+「Don't say it's strange! If it's strange for me to be giving someone else food, just how greedy do you think I am!?」
 
+#「っく、脛を蹴るなッ……何も調子なんか悪くなさそうじゃないか」
 ＠Itsuki
-「っく、脛を蹴るなッ……何も調子なんか悪くなさそうじゃないか」
+「Ugh, don't kick me in the shin... you seem to pretty lively to me」
 
+#「じゃ、やっぱり呪いなんじゃない？」
 ＠Zakuro,Q01029
-「じゃ、やっぱり呪いなんじゃない？」
+「Then, it has to be a curse, right?」
 
 @ichigo_kanashimi	#哀
 
 ＠Ichigo,O01709
-「ガクガクブルブル」
+「*shiver shiver*」
 
 @karin_keno		#嫌悪
 
+#「……いらないなら捨てるわよ」
 ＠Karin,P01674
-「……いらないなら捨てるわよ」
+「...I'll throw it away if you don't want it」
 
+#「ただ食欲が無いだけよ。樹の足を蹴るくらいなら、別に問題ないわ」
 ＠Karin,P01675
-「ただ食欲が無いだけよ。樹の足を蹴るくらいなら、別に問題ないわ」
+「I just lost my appetite. But I don't have any problems with kicking Itsuki in the shin」
 
 @chara_clear		#保険
 @bg_black
 
-言いながらゴツゴツとこっちにつま先をぶつけてくる。
+#言いながらゴツゴツとこっちにつま先をぶつけてくる。
+　Saying that, with a whack, her toe connected with my leg again.
 
-……何でこんなに蹴られてるんだ、オレ。
+#……何でこんなに蹴られてるんだ、オレ。
+　...What did I do to deserve getting kicked like this?
 
 @mikan_small
 @mikan_shifuku
@@ -1077,23 +1116,29 @@ label	karin_kenkou_c2
 @karin_niko		#にこ
 @bg_dining		# 食堂
 
+#「食欲が無いって、気分が悪いの、かりんちゃん？」
 ＠Mikan,A01253
-「食欲が無いって、気分が悪いの、かりんちゃん？」
+「You don't have your appetite... are you feeling sick, Karin-chan?」
 
+#「ううん、そんな大したことはないのよ」
 ＠Karin,P01676
-「ううん、そんな大したことはないのよ」
+「Nope, it's not that big of a deal」
 
+#「今だけだろうし、お昼にはまたお腹が空くんじゃないかしら」
 ＠Karin,P01677
-「今だけだろうし、お昼にはまたお腹が空くんじゃないかしら」
+「It's probably just for now, and I'll end up feeling hungry by lunchtime」
 
 @mikan_kanashimi	#哀
 
+#「……だったらいいけど」
 ＠Mikan,A01254
-「……だったらいいけど」
+「...I hope so」
 
-みかんが不安そうにオレを見る。
+#みかんが不安そうにオレを見る。
+　Mikan looks at me a little worried.
 
-オレも確かに心配だが、けどかりんはオレが言っても聞かないからな。
+#オレも確かに心配だが、けどかりんはオレが言っても聞かないからな。
+　I'm concerned too, but she wouldn't listen to what I have to say anyway.
 
 @mikan_
 @karin_
@@ -1103,25 +1148,30 @@ wait		500
 @ichigo_shifuku
 @ichigo			#普通
 
+#「………ねぇ、結局そのおかず、もらっていいの？」
 ＠Ichigo,O01710
-「………ねぇ、結局そのおかず、もらっていいの？」
+「...Hey, so can I have your food then?」
 
-いちごだけが、未練がましくかりんの分を狙っていた。
+#いちごだけが、未練がましくかりんの分を狙っていた。
+　Ichigo, on the other hand, resolutely eyed Karin's side dish.
 
+#「どうぞ、呪いなんて信じてないなら遠慮なく食べなさい」
 ＠Karin,P01678
-「どうぞ、呪いなんて信じてないなら遠慮なく食べなさい」
+「Go ahead. If you don't believe in curses, you can have all you want」
 
 @ichigo_yorokobi	#喜
 
+#「やったッ、いちご信じてないよ！　いっただきまーす♪」
 ＠Ichigo,O01711
-「やったッ、いちご信じてないよ！　いっただきまーす♪」
+「Alright! I don't believe in them! I'm digging in♪」
 
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
 
+#「でも、私が信じる」
 ＠Zakuro,Q01030
-「でも、私が信じる」
+「But, I believe in curses」
 
 #SE23　青ノリを振り掛ける音（ザッザッザッ）※擬音
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
@@ -1129,78 +1179,96 @@ wait		500
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#「うわーーーッ！！　い、いちごのおかずがッ！！」
 ＠Ichigo,O01712
-「うわーーーッ！！　い、いちごのおかずがッ！！」
+「Uwahhhh!! M-my food!!」
 
+#「浄化した。召し上がれ」
 ＠Zakuro,Q01031
-「浄化した。召し上がれ」
+「I've purified it. Eat up」
 
 @ichigo_naki		#泣
 
+#「こんな青ノリまみれ、食べれないよぉ～」
 ＠Ichigo,O01713
-「こんな青ノリまみれ、食べれないよぉ～」
+「I can't eat it when it's all covered with nori like this～」
 
 @zakuro_niko		#にこ
 
+#「なら、私がもらう」
 ＠Zakuro,Q01032
-「なら、私がもらう」
+「Then I'll have it」
 
 @chara_clear		#保険
 @bg_black
 
-狙っていたように代わりに食べ始めるざくろに、いちごが対抗して騒ぎ出す。
+#狙っていたように代わりに食べ始めるざくろに、いちごが対抗して騒ぎ出す。
+　A struggle breaks out between Ichigo and Zakuro, who began eating it instead like she wanted it for herself.
 
-そんな騒ぎの中で、かりんは食事を終えて席を立っていた。
+#そんな騒ぎの中で、かりんは食事を終えて席を立っていた。
+　In the middle of the commotion, Karin finished her meal and stood up.
 
 @chara_clear		#保険
 @bg_dining		# 食堂
 
+#「調子が悪くなったら無理するなよ？」
 ＠Itsuki
-「調子が悪くなったら無理するなよ？」
+「Don't push yourself if you feel unwell」
 
 @karin_small
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#「分かってる……」
 ＠Karin,P01679
-「分かってる……」
+「I know...」
 
 @karin_
 
-それだけはポツリと素直に呟くと、食堂を後にしていった。
+#それだけはポツリと素直に呟くと、食堂を後にしていった。
+　Mutting that quietly, she put off the meal for later.
 
-ま、何だかんだでしっかりしてる子だから心配いるまい。
-……みかんさえ関わってなかったら。
+#ま、何だかんだでしっかりしてる子だから心配いるまい。
+#……みかんさえ関わってなかったら。
+　Well, she seems like she knows how to take care of herself, so I shouldn't fuss... she's not Mikan, after all.
 
+#「……さて、え？」
 ＠Itsuki
-「……さて、え？」
+「Now then...huh?」
 
-テーブルに向き直ると、オレのおかずが青ノリに埋もれていた。
+#テーブルに向き直ると、オレのおかずが青ノリに埋もれていた。
+　When I turned back to the table, my side dish was buried in a pile of nori.
 
 @zakuro_small
 @zakuro_shifuku
 @zakuro			#普
 
+#「浄化祭り・青緑の乱れ桜。美雨、新しい青ノリ頂戴」
 ＠Zakuro,Q01033
-「浄化祭り・青緑の乱れ桜。美雨、新しい青ノリ頂戴」
+「Cleansing festival: the scattered blue-green cherry blossoms. Miu, I'd like some new Aonori please」
 
 @miu_ikari		#閉_怒
 
+#「もう、ダメよざくろちゃん、無駄遣いしたら」
 ＠Miu,B01453
-「もう、ダメよざくろちゃん、無駄遣いしたら」
+「Jeez, you mustn't just throw it away, Zakuro-chan」
 
+#「買い置きもそれで最後だから、罰として買ってくるまで我慢すること」
 ＠Miu,B01454
-「買い置きもそれで最後だから、罰として買ってくるまで我慢すること」
+「That was the last of our stock, so as your punishment you'll have to wait until I buy some more」
 
 @zakuro_metoji		#閉
 
+#「ショック」
 ＠Zakuro,Q01034
-「ショック」
+「This is distressing news」
 
+#「……オレがショックだ」
 ＠Itsuki
-「……オレがショックだ」
+「...I'm the one that's distressed here」
 
-まだほとんど箸つけてなかったのに……トホホ。
+#まだほとんど箸つけてなかったのに……トホホ。
+　I hadn't even picked up my chopsticks... *boo hoo hoo*.
 
 @chara_clear		#保険
 @bg_black

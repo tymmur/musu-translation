@@ -408,52 +408,64 @@ label	mikan_kenkou_a2
 
 @mikan			#普通
 
+#「ごちそうさま……」
 ＠Mikan,A01470
-「ごちそうさま……」
+「Thanks for the meal...」
 
-朝食を食べ初めて半ば、食事の大半を残したまま、みかんが箸を置いた。
+#朝食を食べ初めて半ば、食事の大半を残したまま、みかんが箸を置いた。
+　As we'd started having breakfast, Mikan put aside her chopsticks with a good amount food left on the plate.
 
 @mikan_kanashimi	#哀
 
+#「何か、食欲ないの……」
 ＠Mikan,A01471
-「何か、食欲ないの……」
+「I think I lost my appetite...」
 
+#「大丈夫？　風邪かしら……ちょっと体温計を持ってくるわね」
 ＠Miu,B01473
-「大丈夫？　風邪かしら……ちょっと体温計を持ってくるわね」
+「Are you alright? Maybe you have a cold... hang on, I'll get a thermometer」
 
-パタパタと美雨がリビングの方へ消えていく。
+#パタパタと美雨がリビングの方へ消えていく。
+　The sound of Miu's footsteps recedes toward the living room.
 
+#「体調悪いなら、学校休むか？」
 ＠Itsuki
-「体調悪いなら、学校休むか？」
+「If you're not in good shape, why not take a break from school?」
 
 @mikan_kusyou		#苦笑
 
+#「ううん、そこまでじゃないから。平気」
 ＠Mikan,A01472
-「ううん、そこまでじゃないから。平気」
+「Nope, it's not that bad. I'm fine」
 
 #window_close
 #@mikan_
 #wait		1000
 @ichigo_yorokobi	#喜
 
+#「いちごが治してあげようか。痛いの痛いの飛んでいけー♪」
 ＠Ichigo,O01787
-「いちごが治してあげようか。痛いの痛いの飛んでいけー♪」
+「I've got the magic cure for you. Fly away, aches and painsー♪」
 
 @zakuro			#普
 
+#「残念、イタイのはいちごの方でした」
 ＠Zakuro,Q01059
-「残念、イタイのはいちごの方でした」
+「Sorry, but it's painful listening to you, Ichigo」
 
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 @ichigo_ikari		#怒
 
+#「ぐぅッ！！　ざ、ざくろ酷いー……」
 ＠Ichigo,O01788
-「ぐぅッ！！　ざ、ざくろ酷いー……」
+「Ghh!! Z-Zakuro, that's meanー...」
 
-まぁこの二人はいつものやり取りだから置いとくとしても。
+#まぁこの二人はいつものやり取りだから置いとくとしても。
+　May as well leave them to it, having their usual exchange.
 
-みかんは気になるな………必要そうなら休みを入れてやった方がいいかもしれない。
+#みかんは気になるな………必要そうなら休みを入れてやった方がいいかもしれない。
+　I'm worried about Mikan though... I ought to give her a break, if she looks like she needs one.
 
 @bg_black
 @open_schedule
@@ -825,30 +837,37 @@ label	mikan_kenkou_c2
 #■BG（リビング）
 @bg_living		# リビング
 
-リビングの背もたれに身体を沈め、みかんが眠そうに伸びていた。
+#リビングの背もたれに身体を沈め、みかんが眠そうに伸びていた。
+　Sinking into the living room chair, Mikan stretched looking sleepy.
 
+#「珍しいな、みかんがこんな所で」
 ＠Itsuki
-「珍しいな、みかんがこんな所で」
+「Unusual finding you here, Mikan」
 
 @mikan_small
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#「ん……風邪引いちゃうかな」
 ＠Mikan,A01494
-「ん……風邪引いちゃうかな」
+「Mhh... I wonder if I'm gonna catch a cold」
 
+#「あぁ、寝るなら部屋で寝た方がいい。けど、具合悪そうだぞ。平気か？」
 ＠Itsuki
-「あぁ、寝るなら部屋で寝た方がいい。けど、具合悪そうだぞ。平気か？」
+「Yeah, it's best to go to sleep in your room. You don't look so good, though. Are you okay?」
 
-ただ眠くて伸びているのと違い、ちょっと顔色が悪い。
+#ただ眠くて伸びているのと違い、ちょっと顔色が悪い。
+　Rather than just stretching sleepily, her complexion's a bit pale.
 
 @mikan_kusyou		#苦笑
 
+#「何だろ……ちょっと身体がダルいの……」
 ＠Mikan,A01495
-「何だろ……ちょっと身体がダルいの……」
+「Why does my body... feel so heavy...」
 
+#「顔色も悪いな……」
 ＠Itsuki
-「顔色も悪いな……」
+「You look kind of pale too...」
 
 #window_close
 @mikan_
@@ -856,35 +875,44 @@ wait		500
 @mikan_middle		# 中間
 @mikan_kanashimi	#哀
 
-ピトッとおでこに手を当ててみるが、熱は無いようだ。
+#ピトッとおでこに手を当ててみるが、熱は無いようだ。
+　I put my hand gently to her forehead, and it looks like she doesn't have a fever.
 
+#「風邪の引き始めかもしれないな……。なおさらこんな場所じゃなく、部屋に戻った方がいいぞ」
 ＠Itsuki
-「風邪の引き始めかもしれないな……。なおさらこんな場所じゃなく、部屋に戻った方がいいぞ」
+「It might be a cold coming on... all the more reason for you to head back to your room, instead of being here」
 
 @mikan			#普通
 
+#「う～ん……でもお兄ちゃんの組んでくれた予定があるし」
 ＠Mikan,A01496
-「う～ん……でもお兄ちゃんの組んでくれた予定があるし」
+「Mhhm... but I have  things to do that Onii-chan planned for me」
 
-ソファーから身を起こし立ち上がる。足取りはしっかりしてるようだが……
+#ソファーから身を起こし立ち上がる。足取りはしっかりしてるようだが……
+　She rouses herself from the sofa and stands up. She looks steady on her feet, but...
 
+#「無理はするなよ？　ダメそうだったら気にせず休んでいいんだから」
 ＠Itsuki
-「無理はするなよ？　ダメそうだったら気にせず休んでいいんだから」
+「Don't push yourself too hard. If it feels like too much, you can go rest without worrying about it」
 
 @mikan_warai2		#笑2
 
+#「ありがと。じゃぁね、お兄ちゃん」
 ＠Mikan,A01497
-「ありがと。じゃぁね、お兄ちゃん」
+「Thanks. See you, Onii-chan」
 
 bgm_stop
 @mikan_
 
-平気さをアピールするように笑顔を見せると、みかんがリビングから出て行った。
+#平気さをアピールするように笑顔を見せると、みかんがリビングから出て行った。
+　Giving a smile to show that she's okay, Mikan left the living room.
 
+#「オレの立てた予定か……」
 ＠Itsuki
-「オレの立てた予定か……」
+「The things I planned for her, huh...」
 
-次の休息はいつになってたかな……無ければ入れてやった方がいいだろう。
+#次の休息はいつになってたかな……無ければ入れてやった方がいいだろう。
+　When's her next break, again... I should put one in if I haven't already.
 
 @bg_black
 #（スケジュール）
