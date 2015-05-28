@@ -23,6 +23,7 @@ my $split_lines = 0;
 # auto newline setup
 my $NUM_LINES = 4;
 my $NUM_CHARS = 37;
+my $LINE_WIDTH = 720;
 
 # debug options
 # make the game print whenever it passes a new label
@@ -156,7 +157,7 @@ foreach (readFile("../names.txt"))
 	$name_translation{$japanese} = $english;
 }
 
-# there are empty names. Force them to be empty with throwing warnings or errors
+# there are empty names. Force them to be empty without throwing warnings or errors
 $name_translation{$empty} = $empty;
 
 sub removeLeadingWhitespace
@@ -204,6 +205,95 @@ sub removeTrailingWhitespace
 	return $line;
 }
 
+sub getCharWidth
+{
+	my ($char) = @_;
+	
+	$char = toRegularChar($char);
+	
+	# return the width of the character
+	# if a character isn't listed, then it is assumed to have the maximum known character width (30)
+	# this appears to be the width of more or less all characters in the untranslated scripts
+	# the translated will likely contain alpha-numberic and a few others
+	# there is a risk that some narrow character is missed, but odds are that it will be rare enough to not really be noticed
+	
+	return 23 if $char eq "A";
+	return 24 if $char eq "B";
+	return 23 if $char eq "C";
+	return 24 if $char eq "D";
+	return 22 if $char eq "E";
+	return 20 if $char eq "F";
+	return 24 if $char eq "G";
+	return 24 if $char eq "H";
+	return 11 if $char eq "I";
+	return 20 if $char eq "J";
+	return 24 if $char eq "K";
+	return 20 if $char eq "L";
+	return 28 if $char eq "M";
+	return 24 if $char eq "N";
+	return 25 if $char eq "O";
+	return 22 if $char eq "P";
+	return 25 if $char eq "Q";
+	return 24 if $char eq "R";
+	return 23 if $char eq "S";
+	return 20 if $char eq "T";
+	return 24 if $char eq "U";
+	return 23 if $char eq "V";
+	return 29 if $char eq "W";
+	return 21 if $char eq "X";
+	return 21 if $char eq "Y";
+	return 21 if $char eq "Z";
+	
+	return 19 if $char eq "a";
+	return 20 if $char eq "b";
+	return 19 if $char eq "c";
+	return 20 if $char eq "d";
+	return 19 if $char eq "e";
+	return 12 if $char eq "f";
+	return 19 if $char eq "g";
+	return 20 if $char eq "h";
+	return 11 if $char eq "i";
+	return 11 if $char eq "j";
+	return 19 if $char eq "k";
+	return 11 if $char eq "l";
+	return 28 if $char eq "m";
+	return 20 if $char eq "n";
+	return 20 if $char eq "o";
+	return 20 if $char eq "p";
+	return 20 if $char eq "q";
+	return 14 if $char eq "r";
+	return 19 if $char eq "s";
+	return 13 if $char eq "t";
+	return 20 if $char eq "u";
+	return 17 if $char eq "v";
+	return 24 if $char eq "w";
+	return 18 if $char eq "x";
+	return 17 if $char eq "y";
+	return 17 if $char eq "z";
+	
+	return 22 if $char eq "0";
+	return 22 if $char eq "1";
+	return 22 if $char eq "2";
+	return 22 if $char eq "3";
+	return 22 if $char eq "4";
+	return 22 if $char eq "5";
+	return 22 if $char eq "6";
+	return 22 if $char eq "7";
+	return 22 if $char eq "8";
+	return 22 if $char eq "9";
+	
+	return 21 if $char eq " ";
+	return 21 if $char eq ".";
+	return 21 if $char eq ",";
+	return 17 if $char eq "'";
+	
+	# chars with 30 width: ?!-
+	# those are intentionally skipped they would not change the return value anyway
+	
+	return 30;
+}
+
+my $empty_width = 21;
 
 # setup table to convert to wide characters
 
@@ -643,10 +733,16 @@ sub splitLine
 {
 	my ($speaker, $text) = @_;
 
-	my @lines;
+	my @lines = ();
 	
-	my $string = "";
-	my $last_char = "";
+	foreach (@control_words)
+	{
+		if (index($text, $_) != -1)
+		{
+			return ($text);
+		}
+	}
+	
 	
 	
 	if (index($speaker, ",") != -1)
@@ -654,160 +750,88 @@ sub splitLine
 		$speaker = substr($speaker, 0, index($speaker, ","));
 	}
 	
+	my $word = "";
+	my $word_width = 0;
+	my $line = "";
+	my $line_width = 0;
+	
+	my $print_debug_length = 0;
+	
 	while (length $text > 0)
 	{
-		my $length = getControlLength($text);
-		if ($length > 0)
-		{
-			$string = $string . substr($text, 0, $length);
-			$text = substr($text, $length);
-			next;
-		}
+		my $char = substr($text, 0, 1);
+		$text = substr($text, 1);
+		my $value = ord($char);
 	
-		my $char = substr($text, 0, 2);
-		$text = substr($text, 2);
+		if ($value >= 0x80)
+		{
+			$char = $char . substr($text, 0, 1);
+			$text = substr($text, 1);
+		}
 		
+		my $char_width = getCharWidth($char);
 		
 		if ($char eq $empty)
 		{
-			if ($last_char eq $period or $last_char eq $question_mark or $last_char eq $explanation_mark)
+			# append word to line
+			if (($word_width + $line_width + $empty_width) < $LINE_WIDTH)
 			{
-				push(@lines, $string);
-				$string = "";
-				$last_char = $empty;
-				next;
-			}
-		}
-		
-		if (length($string) > 0 or $char ne $empty)
-		{
-			$string .= $char;
-			
-		}
-		$last_char = $char;
-	}
-	
-	if (length($string) > 0)
-	{
-		push(@lines, $string);
-	}
-	
-	my $line = "";
-		
-	my @buffer;
-	
-	foreach my $input (@lines)
-	{
-		if (length $line > 0 and length $line < ($NUM_CHARS * 2))
-		{
-			$line .= $empty;
-		}
-		
-		if (length($input) + length($line) <= ($NUM_CHARS * 2))
-		{
-			$line .= $input;
-			next;
-		}
-		
-		if (length $line > 0)
-		{
-			push(@buffer, $line);
-			$line = "";
-		}
-		
-		my $num_lines = scalar @buffer;
-		
-		foreach (splitSentence($input))
-		{
-			push(@buffer, $_);
-		}
-		
-		$line = pop(@buffer);
-	}
-	
-	if (length ($line) > 0)
-	{
-		push(@buffer, $line);
-	}
-	
-	
-	if (scalar @buffer > $NUM_LINES)
-	{
-		# failed to fit text
-		# try again while not caring about splitting sentences, just words
-		
-		@buffer = ();
-		$line = "";
-		
-		foreach my $input (@lines)
-		{
-			my $line_at_start = $line;
-			
-			if (length $line > 0)
-			{
-				$line .= $empty;
-			}
-			
-			$line .= $input;
-			
-			my @previous_buffer = (@buffer);
-			
-			foreach (splitSentence($line))
-			{
-				push(@buffer, $_);
-			}
-			
-			if (scalar @buffer > $NUM_LINES and scalar @previous_buffer < $NUM_LINES)
-			{
-				if (@previous_buffer > ($NUM_LINES - 2))
+				if ($line_width > 0)
 				{
-					@buffer = (@previous_buffer);
-					push(@buffer, $line_at_start);
-					push(@buffer, "");
-					push(@buffer, $speaker);
-					foreach (splitSentence($input))
-					{
-						push(@buffer, $_);
-					}
+					$line = $line . $empty;
+					$line_width = $line_width + $empty_width;
 				}
-				else
-				{
-					# sentence is too long and is has to be split
-					splice @buffer, $NUM_LINES, 0, "", $speaker;
-				}
+				$line = $line . $word;
+				$line_width = $line_width + $word_width;
 			}
-			$line = pop(@buffer);
-		}
-		
-		if (length ($line) > 0)
-		{
-			push(@buffer, $line);
-		}
-	}
-	
-	
-	my @output;
-	
-	my $prev_line = "temp";
-	
-	foreach (@buffer)
-	{
-		if (length($_) > 0 and substr($_, 0, 2) ne $speaker_add)
-		{
-			if (length($prev_line) > 0 and substr($prev_line, 0, 2) ne $speaker_add)
+			else
 			{
-				$prev_line .= "<br>";
+				if ($line_width > 0)
+				{
+					push(@lines, $line . "<br>");
+					push(@lines, $line_width) if $print_debug_length > 0;
+				}
+				$line = $word;
+				$line_width = $word_width;
 			}
+			$word = "";
+			$word_width = 0;
 		}
-		push(@output, $prev_line);
-		$prev_line = $_;
+		else
+		{
+			$word = $word . $char;
+			$word_width = $word_width + $char_width;
+		}
 	}
 	
-	push(@output, $prev_line);
+	if ($word_width > 0)
+	{
+		if (($word_width + $line_width + $empty_width) < $LINE_WIDTH)
+		{
+			if ($line_width > 0)
+			{
+				$line = $line . $empty;
+				$line_width = $line_width + $empty_width;
+			}
+			$line = $line . $word;
+			$line_width = $line_width + $word_width;
+		}
+		else
+		{
+			push(@lines, $line . "<br>");
+			push(@lines, $line_width) if $print_debug_length > 0;
+			$line = $word;
+			$line_width = $word_width;
+		}
+	}
 	
-	shift @output;
+	if ($line_width > 0)
+	{
+		push(@lines, $line);
+		push(@lines, $line_width) if $print_debug_length > 0;
+	}
 	
-	return @output;
+	return @lines;
 }
 
 # ensure that speaker has the right @
