@@ -23,7 +23,7 @@ my $split_lines = 0;
 # auto newline setup
 my $NUM_LINES = 4;
 my $NUM_CHARS = 37;
-my $LINE_WIDTH = 720;
+my $LINE_WIDTH = 700;
 
 # debug options
 # make the game print whenever it passes a new label
@@ -115,6 +115,7 @@ my $empty = sprintf("%c%c", 0x81, 0x40);
 my $star_prefix = sprintf("%c%c", 0x81, 0x99);
 my $speaker_add = sprintf("%c%c", 0x81, 0x97);
 my $period = sprintf("%c%c", 0x81, 0x44);
+my $comma = sprintf("%c%c", 0x81, 0x43);
 my $question_mark = sprintf("%c%c", 0x81, 0x48);
 my $explanation_mark = sprintf("%c%c", 0x81, 0x49);
 
@@ -757,6 +758,8 @@ sub splitLine
 	
 	my $print_debug_length = 0;
 	
+	my $line_count = 0;
+	
 	while (length $text > 0)
 	{
 		my $char = substr($text, 0, 1);
@@ -788,9 +791,45 @@ sub splitLine
 			{
 				if ($line_width > 0)
 				{
-					push(@lines, $line . "<br>");
-					push(@lines, $line_width) if $print_debug_length > 0;
+					$line_count = $line_count + 1;
+					if ($line_count == $NUM_LINES)
+					{
+						my $index = rindex($line, $period);
+						
+						if ($index == -1)
+						{
+							# no period in the line. Look for a comma to split on
+							# presumably a comma is a better break than a random space
+							$index = rindex($line, $comma);
+						}
+						
+						if ($index != -1)
+						{
+							$index = $index + 2;
+							$text = substr($line, $index) . $empty . $word . $empty . $text;
+							$line = substr($line, 0, $index);
+							$word = "";
+							$word_width = 0;
+						}
+					}
+					else
+					{
+						$line = $line . "<br>";
+					}
+					if ($line_width > 0)
+					{
+						push(@lines, $line);
+						push(@lines, $line_width) if $print_debug_length > 0;
+					}
+
 				}
+				if ($line_count == $NUM_LINES)
+				{
+					$line_count = 0;
+					push(@lines, "");
+					push(@lines, $speaker);
+				}
+				
 				$line = $word;
 				$line_width = $word_width;
 			}
@@ -818,10 +857,38 @@ sub splitLine
 		}
 		else
 		{
-			push(@lines, $line . "<br>");
-			push(@lines, $line_width) if $print_debug_length > 0;
+			$line_count = $line_count + 1;
+			if ($line_count == $NUM_LINES)
+			{
+				my $index = rindex($line, $period);
+				if ($index == -1)
+				{
+					$index = rindex($line, $comma);
+				}
+				if ($index != -1)
+				{
+					$index = $index + 2;
+					$word = substr($line, $index) . $empty . $word;
+					$line = substr($line, 0, $index);
+				}
+			}
+			else
+			{
+				$line = $line . "<br>";
+			}
+			if ($line_width > 0)
+			{
+				push(@lines, $line);
+				push(@lines, $line_width) if $print_debug_length > 0;
+			}
 			$line = $word;
 			$line_width = $word_width;
+			if ($line_count == $NUM_LINES)
+			{
+				$line_count = 0;
+				push(@lines, "");
+				push(@lines, $speaker);
+			}
 		}
 	}
 	
@@ -1013,6 +1080,9 @@ sub handleScreenLines
 	}
 	
 	$line_count++ if ($count_this_line == 1);
+	
+	# debug code
+	#push(@lines, "has translation: " . $has_translation);
 	
 	if ($has_translation == 1)
 	{
