@@ -1,6 +1,9 @@
 label	training_karin_vibe
 
-mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE
+#mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT SKIP JAPANESE LINES 1
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_karin_vibe_cnt=0 then gosub training_karin_vibe_01
@@ -22,6 +25,9 @@ return
 
 label	training_karin_vibe_01
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE END
 
 #かりん　大きなバイブ
 #一段階目
@@ -163,6 +169,10 @@ label	training_karin_vibe_02
 @remove_this_line_when_translating
 #2段階目
 #■
+
+#SCRIPT IGNORE
+mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE END
 
 ＠Karin,P05101
 「う……っ、樹……、それっ。　またやる気なのね……っ」
@@ -328,6 +338,10 @@ return
 
 label	training_karin_vibe_03
 @remove_this_line_when_translating
+
+#SCRIPT IGNORE
+mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE END
 
 #三段階目
 #■

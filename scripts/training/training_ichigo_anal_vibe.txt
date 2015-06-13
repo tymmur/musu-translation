@@ -1,6 +1,10 @@
 label	training_ichigo_analvibe
 
-mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE
+#mousecursor_set "stg\analvive.png",40,100
+#SCRIPT SKIP JAPANESE LINES 1
+select_icon_init
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_ichigo_analvibe_cnt=0 then gosub training_ichigo_analvibe1
@@ -23,6 +27,10 @@ return
 
 label	training_ichigo_analvibe1
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE END
+
 #アイテムーアナルバイブ（１段階目）
 
 voice_bg_stop
@@ -199,6 +207,10 @@ return
 
 label	training_ichigo_analvibe2
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE END
+
 #アイテムーアナルバイブ（２段階目）
 
 前回はものすごく痛がっていたが……慣らす為にも、試してみるか。
@@ -427,6 +439,10 @@ return
 
 label	training_ichigo_analvibe3
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE END
+
 #アイテムーアナルバイブ（３段階目）
 
 引き出しからアナルバイブを取り出すと、いちごの目がキラリと光った。

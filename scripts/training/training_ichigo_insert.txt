@@ -1,5 +1,9 @@
 label	training_ichigo_insert
 
+#SCRIPT IGNORE
+select_icon_init
+#SCRIPT IGNORE END
+
 skip_untranslated_training=0
 if t_ichigo_insert_cnt=0 then gosub training_ichigo_insert_01
 if t_ichigo_insert_cnt=1 then gosub training_ichigo_insert_02

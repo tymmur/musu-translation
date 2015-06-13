@@ -565,6 +565,10 @@ if command=11 then	goto t_ichigo_video
 #-- アイコン選択 --------------------------------------------------------------
 select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
 label t_ichigo_loop_b
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
 #-- カーソルの変更 ------------------------------------------------------------
 if command=2 then mousecursor_set "system\TrainingSystem\cur_nikubou.png",25,30
 if command=3 then mousecursor_set "system\TrainingSystem\cur_hand.png",25,30
@@ -572,6 +576,11 @@ if command=7 then gosub t_ichigo_command_rousoku		#蝋燭
 if command=8 then gosub t_ichigo_command_baramuchi		#バラ鞭
 
 #目線
+
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
 
 select_mouseclick	"event\ev_ich_140\ev_ich_140_mask.png"
 if _SELECT=0 then goto t_ichigo_loop
@@ -728,6 +737,10 @@ if t_ichigo_muchi_cnt_l=0 and t_ichigo_muchi_cnt=0 then goto t_ichigo_command_ba
 return
 label t_ichigo_command_baramuchi_1
 
+#SCRIPT IGNORE
+select_icon_init
+#SCRIPT IGNORE END
+
 t_ichigo_muchi_cnt=t_ichigo_muchi_cnt+1
 
 ＠Ichigo,O04150
@@ -867,6 +880,10 @@ if t_ichigo_rousoku_cnt_l=0 and t_ichigo_rousoku_cnt=0 then goto t_ichigo_comman
 
 return
 label t_ichigo_command_rousoku_1
+
+#SCRIPT IGNORE
+select_icon_init
+#SCRIPT IGNORE END
 
 t_ichigo_rousoku_cnt=t_ichigo_rousoku_cnt+1
 

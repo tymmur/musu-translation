@@ -1,7 +1,11 @@
 #みかんスクール水着
 label	mikan_training_mizugi
 
-@training_anime_release
+#SCRIPT IGNORE
+#@training_anime_release
+#SCRIPT SKIP JAPANESE LINES 1
+select_icon_init
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_mikan_mizugi_cnt=0 then gosub	mikan_training_schoolware_01
@@ -29,6 +33,9 @@ return
 #一段階目####################################################################
 label	mikan_training_schoolware_01
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 
 scene_start	"みかんスクール水着１"
 @bgm11
@@ -534,6 +541,9 @@ return
 #2段階目####################################################################
 label	mikan_training_schoolware_02
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 #二段階目
 #■12
 scene_start	"みかんスクール水着２"

@@ -1,6 +1,9 @@
 label	training_karin_analvibe
 
-mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE
+#mousecursor_set "stg\analvive.png",40,100
+#SCRIPT SKIP JAPANESE LINES 1
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_karin_analvibe_cnt=0 then gosub training_karin_analvibe_01
@@ -22,6 +25,10 @@ return
 
 label	training_karin_analvibe_01
 @remove_this_line_when_translating
+
+#SCRIPT IGNORE
+mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE END
 
 #かりんアナルバイブ
 #一段階目
@@ -130,6 +137,10 @@ return
 label	training_karin_analvibe_02
 @remove_this_line_when_translating
 
+#SCRIPT IGNORE
+mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE END
+
 #2段階目
 #■
 ＠Itsuki
@@ -226,6 +237,11 @@ return
 
 label	training_karin_analvibe_03
 @remove_this_line_when_translating
+
+#SCRIPT IGNORE
+mousecursor_set "stg\analvive.png",40,100
+#SCRIPT IGNORE END
+
 #三段階目
 #■
 ＠Itsuki

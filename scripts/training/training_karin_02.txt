@@ -560,6 +560,10 @@ if command=11 then	goto t_karin_video
 #-- アイコン選択 --------------------------------------------------------------
 select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
 label t_karin_loop_b
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
 #-- カーソルの変更 ------------------------------------------------------------
 if command=2 then mousecursor_set "system\TrainingSystem\cur_nikubou.png",25,30
 if command=3 then mousecursor_set "system\TrainingSystem\cur_hand.png",25,30
@@ -567,6 +571,11 @@ if command=7 then gosub t_karin_command_rousoku			#蝋燭
 if command=8 then gosub t_karin_command_baramuchi		#バラ鞭
 
 #目線
+
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
 
 select_mouseclick	"event\ev_kar_070\EV_KAR_070_mask.png"
 if _SELECT=0 then goto t_karin_loop

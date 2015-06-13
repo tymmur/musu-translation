@@ -1,6 +1,10 @@
 label	training_ichigo_vibe
 
-mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE
+#mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT SKIP JAPANESE LINES 1
+select_icon_init
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_ichigo_vibe_cnt=0 then gosub training_ichigo_vibe1
@@ -23,6 +27,10 @@ return
 
 label	training_ichigo_vibe1
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE END
+
 #アイテムーバイブ（１段階目）###############################################
 
 #■EVCG(EV_ICH_140-00)
@@ -191,6 +199,9 @@ return
 
 label	training_ichigo_vibe2
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE END
 #-----------------------------------------------------
 
 バイブを引き出しから取り出すと、いちごの体が硬直した。
@@ -490,6 +501,9 @@ return
 
 label	training_ichigo_vibe3
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "event\ev_kar_070\ev_kar_070_vive.png",75,170
+#SCRIPT IGNORE END
 #-----------------------------------------------------
 ＠Ichigo,O04122
 「あ！　おもちゃだー♪」

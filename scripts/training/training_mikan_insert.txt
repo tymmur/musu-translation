@@ -1,6 +1,10 @@
 #‚İ‚©‚ñ@‘}“ü
 label	training_mikan_insert
 
+#SCRIPT IGNORE
+select_icon_init
+#SCRIPT IGNORE END
+
 skip_untranslated_training=0
 if mikan_insert_count=0 then gosub	training_mikan_insert_01
 if mikan_insert_count=1 then gosub	training_mikan_insert_02
@@ -443,7 +447,6 @@ return
 
 # ‚İ‚©‚ñ‘}“ü2‰ñ ############################################################
 label	training_mikan_insert_02
-@remove_this_line_when_translating
 #‘}“ü@“ñ‰ñ–Ú@’†o‚µ
 
 #y00z

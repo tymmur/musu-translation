@@ -1,7 +1,11 @@
 #みかん　アナルパール
 label	training_mikan_analpearl
 
-mousecursor_set "stg\analbeads.png",170,200
+#SCRIPT IGNORE
+#mousecursor_set "stg\analbeads.png",170,200
+#SCRIPT SKIP JAPANESE LINES 1
+select_icon_init
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_mikan_analpearl_cnt=0 then gosub	training_mikan_analpearl_01
@@ -26,6 +30,9 @@ return
 #アナルパール　初回 ###########################################################
 label	training_mikan_analpearl_01
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "stg\analbeads.png",170,200
+#SCRIPT IGNORE END
 ##【00】
 #################ボンデージ部分ここから
 if t_mikan_bondage_flag=0 then goto training_mikan_analpearl_01_a
@@ -149,6 +156,9 @@ return
 #みかん　アナルパール　二段階目　裸 ##########################################
 label	training_mikan_analpearl_02
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "stg\analbeads.png",170,200
+#SCRIPT IGNORE END
 ＠Itsuki
 「よし、みかん。　またこれに挑戦してみるぞ」
 
@@ -399,6 +409,9 @@ return
 #アナルパール　3段階目　裸 ####################################################
 label	training_mikan_analpearl_03
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+mousecursor_set "stg\analbeads.png",170,200
+#SCRIPT IGNORE END
 ##【00】
 ＠Mikan,A03252
 「わ。　お兄ちゃん、それ……アナルパール、だよね……？」

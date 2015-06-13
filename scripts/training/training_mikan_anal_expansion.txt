@@ -1,6 +1,10 @@
 label	mikan_training_hardanal
 
-@training_anime_release
+#SCRIPT IGNORE
+#@training_anime_release
+#SCRIPT SKIP JAPANESE LINES 1
+select_icon_init
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_mikan_hardanal_cnt=0 then gosub	mikan_training_hardanal_01
@@ -27,6 +31,9 @@ return
 #みかんハードアナル拡張1 ######################################################
 label	mikan_training_hardanal_01
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 
 scene_start	"みかんハードアナル拡張１"
 @bgm11
@@ -284,6 +291,9 @@ return
 #みかんハードアナル拡張2 ######################################################
 label	mikan_training_hardanal_02
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 
 scene_start	"みかんハードアナル拡張２"
 @bgm11
@@ -483,6 +493,9 @@ return
 #みかんハードアナル拡張3 ######################################################
 label	mikan_training_hardanal_03
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 
 scene_start	"みかんハードアナル拡張３"
 @bgm11
@@ -773,6 +786,9 @@ return
 #みかんハードアナル拡張4 ######################################################
 label	mikan_training_hardanal_04
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 
 scene_start	"みかんハードアナル拡張４"
 @bgm11

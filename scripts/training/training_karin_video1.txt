@@ -1,7 +1,9 @@
 label	training_karin_video
 
-@bgm11
-
+#SCRIPT IGNORE
+#@bgm11
+#SCRIPT SKIP JAPANESE LINES 1
+#SCRIPT IGNORE END
 skip_untranslated_training=0
 if t_karin_video_cnt=0 then gosub training_karin_video1
 if t_karin_video_cnt=1 then gosub training_karin_video2
@@ -27,6 +29,9 @@ return
 
 label	training_karin_video1
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@bgm11
+#SCRIPT IGNORE END
 
 #「かりんAV撮影」 一回目：EV_KAR_100 
 #人物：かりん(裸にニーソ、首輪）、樹（裸）

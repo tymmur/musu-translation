@@ -547,6 +547,10 @@ if command=10 then goto t_mikan_mizugi
 #-- アイコン選択 --------------------------------------------------------------
 select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
 label ev_mik_050_loop_b
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
 #-- カーソルの変更 ------------------------------------------------------------
 if command=2 then mousecursor_set "system\TrainingSystem\cur_nikubou.png",25,30
 if command=3 then mousecursor_set "system\TrainingSystem\cur_hand.png",25,30
@@ -554,6 +558,11 @@ if command=7 then @command_mikan_rousoku		#蝋燭
 if command=8 then @command_mikan_baramuchi		#バラ鞭
 
 #目線
+
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
 
 select_mouseclick	"event\ev_mik_050\EV_MIK_050_mask.png"
 if _SELECT=0 then goto ev_mik_050_loop

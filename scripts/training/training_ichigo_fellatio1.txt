@@ -1,5 +1,9 @@
 label	training_ichigo_fera
-@training_anime_release
+#SCRIPT IGNORE
+#@training_anime_release
+#SCRIPT SKIP JAPANESE LINES 1
+select_icon_init
+#SCRIPT IGNORE END
 
 skip_untranslated_training=0
 if t_ichigo_fera_cnt=0 then gosub training_ichigo_fera1
@@ -25,6 +29,9 @@ return
 
 label	training_ichigo_fera1
 @remove_this_line_when_translating
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 
 #EV_ICH_150 いちごフェラチオ調教
 #条件：調教の「おくち」コマンド実行
