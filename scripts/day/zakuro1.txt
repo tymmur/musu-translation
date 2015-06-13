@@ -15,7 +15,7 @@ label	zakuro_01
 @zakuro
 
 #廊下を歩いていると、特徴的な服の後ろ姿を見つけた。
-　I was walking down the hall when I spotted her characteristic clothes from behind.
+　I was walking down the hall when I spotted her trademark clothes from behind.
 
 #まぁこの家の住人なので、居て当然なんだけど。
 　Well, she lives here, so she can walk around where she wants to.
@@ -41,7 +41,7 @@ label	zakuro_01
 #■選択肢 Choice
 # (1. I'll pursue her)(Zakuro intimacy up)
 # (2. That's a bad idea)
-select	sel,"Of course, let's stalk her a bit","That's a bad thing to do"
+select	sel,"Of course, I'll follow her","That's a creepy thing to do"
 if	sel=0 then goto day_0128_1
 if	sel=1 then goto day_0128_2
 
@@ -55,7 +55,7 @@ label	day_0128_1
 (Where's she going I wonder...?)
 
 #探究心が罪悪感に勝り、バレないように後をつける。
-　My curiousity overcomes my guilty feelings, so I discreetly follow her from behind. 
+　My curiosity overcomes my sense of guilt, so I discreetly follow her from behind. 
 
 #一拍
 @bg_black
@@ -71,7 +71,7 @@ wait	1000
 @se16
 #★
 #まっすぐ正面を見つめながら、一定間隔で歩みを進めていくざくろ。
-　Zakuro walks down the hallway confidently at a regular pace.
+　Zakuro keeps her eyes straight ahead, as she progresses down the hall at a regular pace.
 
 #（トイレ、でもないか……）
 ＠Itsuki
@@ -100,7 +100,7 @@ wait	1000
 
 #「……何か、だんだんバカらしくなってきたぞ…」
 ＠Itsuki
-「I'm starting to feel a little stupid doing this...」
+「This is starting to get a little out of hand...」
 
 #今さらだが、ここまでして後をつけてどうしようと言うのだろうか。
 　I wouldn't have been able to explain why I've been following her for so long though.
@@ -118,7 +118,7 @@ wait	1000
 
 #「やれやれ……」
 ＠Itsuki
-「Oh man...」
+「Sheesh...」
 
 #でもここまで附けたのだから、やっぱり気になる。
 　But since I've followed her this far, I've gotten pretty curious by now. 
@@ -134,7 +134,7 @@ wait	1000
 「......」
 
 #……ピタッ。
-　...*halt*.
+　...Halt.
 
 #（お、ようやく立ち止まった）
 ＠Itsuki
@@ -152,7 +152,7 @@ wait	1000
 
 #「はぁ………見たいような、見てはいけないような」
 ＠Itsuki
-「Haa... I want to take a look, but I don't think that's a good idea」
+「Sigh... I want to take a look, but I don't think that's a good idea」
 
 #結局、最後まで気になってしまう……
 　In the end I've gotten really curious...
@@ -190,7 +190,7 @@ wait	1000
 
 #「後ろ附けてたの、誰かなって思ってたら。つっちー？」
 ＠Zakuro,Q00491
-「I felt like someone was following me. It was you Tsu-chi?」
+「I felt like someone was following me, and was wondering who it might be. It was you, Tsu-chi?」
 
 #「あ……悪い、気付いてたのか」
 ＠Itsuki
@@ -216,11 +216,11 @@ wait	1000
 
 #「……？　違うの？」
 ＠Zakuro,Q00493
-「...? You don't want me to?」
+「...? You didn't want me to?」
 
 #「会話が繋がってないが……とりあえず違うと応えておく」
 ＠Itsuki
-「You didn't answer my question... but for now I'll just say no I don't want you to」
+「I don't see how that follows... but for now I'll just say, no I didn't want you to」
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @se09
@@ -234,7 +234,7 @@ wait	1000
 
 #「トイレに行こうとしてたのに、つっちーが附いてくるから行きそびれた」
 ＠Zakuro,Q00495
-「I was trying to go to the washroom but I couldn't because you were following me Tsu-chi」
+「I meant to go to the washroom but I couldn't because you were following me, Tsu-chi」
 
 #「お……それで辞めて、ここに退避か？」
 ＠Itsuki
@@ -255,7 +255,7 @@ wait	1000
 
 #「トイレしてるところ、見たいのかと思ったから」
 ＠Zakuro,Q00497
-「Because I thought you wanted to see me pee」
+「I thought you wanted to see me pee」
 
 #「……持ってないか……」
 ＠Itsuki
@@ -265,7 +265,7 @@ wait	1000
 　She says that without changing her expression at all.
 
 #まぁこの子が、「トイレに入るのを見られると恥ずかしい」なんて言う方が、むしろ異常のような気もする。
-　Actually when it comes to her, it would be pretty weird to hear her say "I was embarrassed about being seen going to the washroom".
+　Actually, it would be quite strange to hear her say "I was embarrassed about being seen going to the washroom".
 
 #「…………」
 ＠Zakuro,Q00498
@@ -274,18 +274,18 @@ wait	1000
 @zakuro_
 
 #ゴソゴソ……
-　*rustle rustle*...
+　Rustle rustle...
 
 #「って、やめやめッ！　無言で下着を下ろすな！」
 ＠Itsuki
-「Wait, stop! Don't lower your underwear without saying anything!」
+「Wait, stop! Don't lower your underwear without even saying anything!」
 
 #「これ、下着じゃなくてドロワーズ」
 ＠Zakuro,Q00499
 「This isn't underwear, they're drawers」
 
 #ゴソゴソ……ズリッ、ズリリッ…
-　*rustle rustle*... *slip, slide*....
+　Rustle rustle... slip, slide....
 
 #スカートに入れた手が、ズルズルと中の生地をズリ下げていく。
 　She slides down the material with her hand that was inside her skirt.
@@ -296,17 +296,17 @@ wait	1000
 
 #「そんなのどっちでも構わんッ！　ここでするのも、そんな姿を人に見せるのもダメだッ」
 ＠Itsuki
-「I don't care whether it's either of those! You can't show yourself doing something like that to someone here!」
+「I don't care whether it's either of those! You can't show yourself doing that to someone here!」
 
 @zakuro
 
 #「……やっぱり、トイレじゃないと嫌だった？」
 ＠Zakuro,Q00501
-「...I guess you don't like if it's not at a toilet?」 
+「...I guess, you don't like if it's not at a toilet?」 
 
 #「あぁ……もういい。口で言うより直すのが先だ」
 ＠Itsuki
-「Aah.... I've had enough. Instead of telling you I'll just put them back myself」
+「Aargh.... I've had enough. Instead of telling you I'll just put them back myself」
 
 #慌てて自らが手を伸ばし、ざくろの下着をズリ上げ直してやる。
 　Flustered I reach out my hand and pull Zakuro's undergarments back up.
@@ -326,7 +326,7 @@ wait	1000
 「And whose fault is that?」
 
 #ゴソゴソとスカートの中で手を動かしている様は、傍で見たら変態以外の何者でもない。
-　If someone saw me rustling my hand around inside her skirt like this, I'd probably look like a pervert.
+　If an outside observer were to see me rustling my hand around inside her skirt like this, I'd look like a total pervert.
 
 #「ん、何だこの紐」
 ＠Itsuki
@@ -343,7 +343,7 @@ wait	1000
 「Uwah... that's dangerous!」
 
 #ゴソゴソッ…
-　*rustle rustle*...
+　Rustle rustle...
 
 @zakuro_akire
 
@@ -362,7 +362,7 @@ wait	1000
 「Will you be able to see if I do this?」
 
 #バサッ…
-　*Ta-dah*...
+　Ta-dah...
 
 #「捲るなッて！　うわッ、ちょっ…見え、見えてるッ！？」
 ＠Itsuki
@@ -382,7 +382,7 @@ wait	1000
 
 #「え……？」
 ＠Miu,B01159
-「Huh...?」
+「Eh...?」
 
 #ちょうどそんなバッドタイミングで、美雨が部屋に入ってきてしまった。
 　Miu entered the room with dreadful timing.
@@ -420,7 +420,7 @@ wait	1000
 
 #「話をこじれさすなッ！　何もしてないだろ！？」
 ＠Itsuki
-「Hey, don't complicate matters! We're not doing anything are we!?」
+「Hey, don't complicate matters! We're not doing anything, are we!?」
 
 #「つっちーが私にスカートを捲らせて、アソコを覗き込んでる現場にしか思えない」
 ＠Zakuro,Q00508
@@ -441,7 +441,7 @@ wait	1000
 
 #「待て待て美雨ッ、こいつも一緒に連れて行ってくれッ！」
 ＠Itsuki
-「Wait! Wait, Miu! Don't leave me alone with her!」
+「Wait! Wait, Miu! Take this one with you!」
 
 #嘆願むなしく、出て行ってしまう美雨。
 　My appeals are in vain, as Miu leaves the room.
@@ -524,7 +524,7 @@ wait	1000
 「Yet again, I've opened the forbidden door...」
 
 #キュッキュッ……
-　*squeeze squeeze*...
+　Squeeze, squeeze...
 
 @zakuro
 
@@ -551,7 +551,7 @@ wait	1000
 
 #「はぁぁ……い、嫌過ぎる…」
 ＠Itsuki
-「Haaa... t-this is just too awful...」
+「Groan... t-this is just too awful...」
 
 #口の中にまで、今まで味わった事のない甘酸っぱさが広がっていた……
 　A bittersweet flavour that I've never tasted before spread around even in my mouth.
@@ -582,10 +582,10 @@ label	day_0128_2
 
 #「はぁぁ……」
 ＠Itsuki
-「*Sigh*...」
+「Phew...」
 
 #附いて行ってたら、危うく変な趣味にされてしまうところだった。
-　I narrowly escaped being plunged into a weird hobby if I followed her.
+　I could have easily ended up being a total creep if I followed her.
 
 #（スケジュール）
 @bg_black
