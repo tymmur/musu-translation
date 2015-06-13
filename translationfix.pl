@@ -1282,6 +1282,14 @@ sub handleFile
 		{
 			push(@output, $line);
 			$script_ignore = 0 if ($line eq "#SCRIPT IGNORE END");
+			if (substr($line, 0, 27) eq "#SCRIPT SKIP JAPANESE LINES")
+			{
+				my $num_lines_skipped = substr($line, 27);
+				for (my $i=0; $i < $num_lines_skipped; $i++)
+				{
+					getNextJapType();
+				}
+			}
 			next;
 		}
 		

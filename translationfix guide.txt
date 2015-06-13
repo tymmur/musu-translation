@@ -1,0 +1,64 @@
+Translationfix.pl is a script to do just what the name indicates: fix the translation.
+The problem is that the game engine is rather picky regarding how to handle the text files.
+Failure to meet the requirements will result in the game crashing when the broken line is reached.
+Also the text files contain both text to be translated as well as code to handle mouse clicks, option selection,
+sprite movement and so on. This opens up for another type of bugs, which is translators breaking the game code without knowing it.
+
+Summary of fixes/checks:
+-fail if control code is modified
+-fail if speaker is wrong (it gains translated names from names.txt)
+-autotranslate names if untranslated
+-fail if wrong audio file for dialogue
+-converts between normal and wide characters as needed (starting a line with a or ÇÅ will not do the same and failures will likely crash)
+-converts between @ and Åó (both are used and using the wrong one will crash)
+
+In addition to this, only text using wide characters will be displayed in the backlog.
+Also words are split between two lines as there is no check for this issue.
+
+Because of this, the top of the script has the flags $to_wide_char, $to_short_char and $split_lines
+This can make the script convert the text to wide characters and insert newlines to not splilt words.
+
+Changing back into narrow text after splitting lines is buggy and will not work for the time being.
+Also the script identifies newlines as errors. Be careful not to break the text files with this.
+
+
+
+In some cases the translation needs to divert from the untranslated files. Normally that is an error and the script will not allow it.
+A few flags has been added to tell translationfix that the divertion is intentional. Note that they all start with #SCRIPT.
+Any line starting with # is viewed as comment by the game itself and will be ignored.
+
+#SCRIPT ADD DIALOGUE
+The following translated line will be treated as a dialogue without being compared to the untranslated script.
+The problem this is trying to solve is that kanji takes up less screen space than translated text.
+This mean a screen full of kanji is likely to require two screens of translated text to be displayed.
+
+#SCRIPT ADD KANJI
+REMOVED
+It used to be used to correct encoding issues. Now the script can automatically identify the problem lines
+without human guidance and convert narrow to wide chars if needed.
+
+The following commands shouldn't be used by translators as they are more aimed at programming.
+
+#SCRIPT IGNORE
+#SCRIPT IGNORE END
+The lines between those two lines are ignored by the error correcting part of the script.
+As a result, the lines are written to the resulting file without any modifications.
+
+WARNING: this can really screw up dialogues
+Use #SCRIPT ADD DIALOGUE for new dialogues instead. The ignore feature is intended for script bug fixing
+
+#SCRIPT SKIP JAPANESE LINES x
+Can only be used inside ignored blocks of code.
+This will skip x untranslated lines. This allows replacing code rather than just adding code.
+
+WARNING: this is potientially even more dangerous than just adding ignored code. Use with care.
+
+#SCRIPT GROUP
+Used exclusively in scripts.ini
+It's unlikely that more needs to be added.
+It sets a group name, which is only used for translation statistics
+When a file is read by the script, it adds the number of lines and number of translated lines to the current group.
+This mean by setting #SCRIPT GROUP Karin day, the next files will count towards statistics of Karin day,
+which happens to be Karin related events other than training.
+The stats file will then tell how complete Karin's route is translated.
+All groups listed in the statistics are defined this way.
