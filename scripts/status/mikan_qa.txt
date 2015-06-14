@@ -59,7 +59,7 @@ wait		1000
 
 #「うん？　どうした」
 ＠Itsuki
-「Hm? What is it」
+「Hm? What is it?」
 
 #「あのね、分からない事があるの」
 ＠Mikan,A01633
@@ -67,15 +67,15 @@ wait		1000
 
 #「空にある宇宙って、真っ暗なんだよね？　どうして青空が見えるの？」
 ＠Mikan,A01634
-「It's really dark in space right? So why does the sky look blue?」
+「It's really dark in space, right? So why does the sky look blue?」
 
 #「唐突だな……宿題か？」
 ＠Itsuki
-「Why... are you doing homework or something?」
+「That's out of the blue... are you doing homework?」
 
 #「うん。理科のグループ研究で空について調べてることになったの」
 ＠Mikan,A01635
-「Yeah, my group's science project is about space」
+「Yeah, my group's science project is researching about space」
 
 #「そうか。う～ん……」
 ＠Itsuki
@@ -109,11 +109,11 @@ label	mikan_qa01_a
 
 #「あぅ…ごめんなさい……よく分からなかった…」
 ＠Mikan,A01637
-「Auh... Not really... sorry...」
+「Auh... not really... sorry...」
 
 #「そうか……まだみかんには難しかったかな」
 ＠Itsuki
-「Hm... I guess it's too much for you to grasp yet」
+「I see... I guess it's too much for you to grasp just yet」
 
 #「ごめんね、せっかく説明してくれたのに……」
 ＠Mikan,A01638
@@ -128,10 +128,10 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #ションボリとして、みかんは自分の部屋に戻っていった。
-　Mikan returned to her room looking unsatisfied.
+　Mikan went back to her room looking disappointed.
 
 #……う～ん。もっと分かりやすく言ってあげるべきだったな。
-　...Yeah, I should have made it easier to understand for her.
+　...Hmm, I ought to have made it easier to understand for her.
 
 #（スケジュールへ）
 goto	mikan_qa_exit
@@ -158,11 +158,11 @@ layer_movepass_play	l_mikan,0,play_once
 
 #「うんっ、すごく分かりやすかった～っ♪」
 ＠Mikan,A01639
-「Yeah, that was really easy to understand~♪」
+「Yeah, that was really easy to understand～♪」
 
 #「すぐ答えてくれるなんて、お兄ちゃんって物知りなんだねっ」
 ＠Mikan,A01640
-「The way you reply quickly for me, you must be really knowledgeable」
+「You answered my question so fast, you must be really knowledgeable」
 
 #嬉しそうに笑うみかん。どうやら上手く伝わったようだ。
 　Mikan smiles looking pleased. I guess I managed to communicate it successfully.
@@ -185,7 +185,7 @@ bgm_stop
 @mikan_
 
 #満足して、みかんは自分の部屋に戻っていった。
-　Bouncy, Mikan went back to her own room.
+　Satisfied, Mikan went back to her own room.
 
 window_close
 #（スケジュールへ）
@@ -212,7 +212,7 @@ wait		1000
 
 #「うん？　どうした」
 ＠Itsuki
-「Hm? What is it」
+「Hm? What is it?」
 
 #「お兄ちゃんって、みかんのことどう思う？」
 ＠Mikan,A01644
@@ -1248,7 +1248,7 @@ wait		1000
 
 #「うん？　どうした」
 ＠Itsuki
-「Hm? What is it」
+「Hm? What is it?」
 
 @mikan_yorokobi		#喜
 
