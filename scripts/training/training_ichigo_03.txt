@@ -533,7 +533,10 @@ select_icon_init
 select_icon_add	0,"system\iconselect\icon_quit.png","調教をやめる"
 #select_icon_add	1,"system\iconselect\icon_aibu.png","愛撫する"
 select_icon_add	2,"system\iconselect\icon_nikubou.png","肉棒を使う"
-select_icon_add	3,"system\iconselect\icon_spanking.png","スパンキングする"
+#SCRIPT IGNORE
+if disable_sm=0 then select_icon_add	3,"system\iconselect\icon_spanking.png","スパンキングする"
+#SCRIPT SKIP JAPANESE LINES 1
+#SCRIPT IGNORE END
 if _ITEM(206)=1 then select_icon_add	4,"system\iconselect\icon_vibe.png","大きなバイブでマンコを開発する"
 if _ITEM(205)=1 then select_icon_add	5,"system\iconselect\icon_analvibe.png","アナルバイブでアナルを開発する"
 if _ITEM(203)=1 then select_icon_add	7,"system\iconselect\icon_rousoku.png","蝋燭を使う"
