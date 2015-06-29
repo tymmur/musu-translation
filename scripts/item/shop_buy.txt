@@ -473,7 +473,7 @@ label	shopitem_drug
 
 #「ぁゃιぃクスリですね……」
 ＠Subuta,H00099
-「You want some strange medicine...?」
+「That's some strange medicine...」
 
 #「……商品名なのか、それ？」
 ＠Itsuki
@@ -495,7 +495,7 @@ label	shopitem_drug
 #In the text the proper price is shown
 #「お値段は[_PRICE]円になりますが、どうしますか……？」
 ＠Subuta,H00102
-「The price comes to 円[_PRICE], what do you think...?」
+「The price comes to 円[_PRICE], what would you like to do...?」
 
 #（統合へ）
 goto	shopitem_buy
@@ -517,14 +517,14 @@ label	shopitem_book1
 
 #「……っていうか、なんでそんなもの売ってるんだ？」
 ＠Itsuki
-「...Why are you selling something like that then?」
+「...Why are you selling something like that?」
 
 #「売れる物はなんでも売らないと、経営が……」
 ＠Subuta,H00106
 「If I don't sell anything that will sell, management is going to...」
 
 #よく見ると、ドリルには微妙に使用感がある。
-　When I look closely, I notice the drills are somewhat difficult.
+　When I look closely, I notice the drills are fairly difficult.
 
 #「わたしも昔は、優等生だったんですが……」
 ＠Subuta,H00107
@@ -532,7 +532,7 @@ label	shopitem_book1
 
 #「やっぱり、お勉強よりエッチのほうが楽しいです……」
 ＠Subuta,H00108
-「Perverted things are much more fun than studying though...」
+「Naughty things are much more fun than studying though...」
 
 #In the text the proper price is shown
 #「お値段は[_PRICE]円になります……」
@@ -560,7 +560,7 @@ label	shopitem_book2
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
 ＠Subuta,H00113
-「The price comes to [_PRICE]...」
+「The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -574,7 +574,9 @@ label	shopitem_book3
 
 #「やっぱり、ドリルは男のロマンなのでしょうか……？」
 ＠Subuta,H00115
-「These really are drills for the manliest of men」
+「They seem to be a man's dream, after all...?」
+
+#TL note: The phrase "man's dream/romance" or "otoko no roman", refers to a culture of values of based on manliness, such as going on a quest, being a hero, and accomplishing something great.
 
 #「いや、そういうドリルはちょっと」
 ＠Itsuki
@@ -601,10 +603,10 @@ label	shopitem_belt
 
 #「ちょうどノロウィルスに感染していたというのもあるようですが……」
 ＠Subuta,H00119
-「It seems he'd just got over a bout of norovirus though...」
+「I think she'd just got over a bout of norovirus, though...」
 
 #……それじゃこのベルトのおかげなのかわからんがな。
-　...So you don't actually know how useful it is.
+　...So you don't know if it's useful or not.
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
@@ -619,7 +621,7 @@ label	shopitem_sportsvideo
 
 #「元軍人さんの体操ビデオですね……」
 ＠Subuta,H00121
-「This an exercise video of former military members...」
+「This is an exercise video of ex-military soldiers...」
 
 #「隊長が……ステキなのです……」
 ＠Subuta,H00122
@@ -632,7 +634,7 @@ label	shopitem_sportsvideo
 #テキストでは、正規の値段を表示
 #「ごほん……お値段は[_PRICE]円になります」
 ＠Subuta,H00124
-「*Ahem*... The price comes to 円[_PRICE]...」
+「Ahem... The price comes to 円[_PRICE]...」
 
 #（統合へ）
 goto	shopitem_buy
@@ -665,7 +667,7 @@ label	shopitem_mirror
 
 #「やっぱり、美容とＨは切り離せません……」
 ＠Subuta,H00129
-「Beauty and H are inseparable after all...」
+「Beauty and H are inseparable, after all...」
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
@@ -681,11 +683,11 @@ label	shopitem_photobook
 
 #「『ジ・アイドルマイスター』の写真集ですね……」
 ＠Subuta,H00131
-「This is a gravure magazine 『The IdolMeister』」
+「This is a gravure magazine, 『The IdolMeister』」
 
 #「女の子にも人気がありますよ、これ……」
 ＠Subuta,H00132
-「People find this kind of stuff interesting, girls too...」
+「People find this interesting, girls too...」
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
@@ -704,11 +706,11 @@ label	shopitem_erobook
 
 #「見ているだけでバカになっちゃいそうな本です……」
 ＠Subuta,H00135
-「You can lose your mind just from looking at stuff like this...」
+「You can lose your mind just from looking at something like this...」
 
 #「でも、バカになれば世の中のイヤなことを忘れられますよ……」
 ＠Subuta,H00136
-「But if you lose your mind you can forget all about society and how miserable it makes you...」
+「But if you lose your mind, you can forget all about the miserable world out there...」
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」
@@ -724,14 +726,14 @@ label	shopitem_visualbook
 
 #「絵本『はたらくおじさん』ですね……」
 ＠Subuta,H00138
-「It's a picture book called 『The Nefarious Old Man』...」
+「It's a picture book called 『Uncle's Labours』...」
 
 #「わたしも読みましたが、かなり興奮しました……」
 ＠Subuta,H00139
-「I've read it and I got pretty turned on...」
+「I read it and I got pretty turned on...」
 
 #って、どんな本だよ！？
-　Wait, what kind of book is this!?
+　Wait, just what kind of book is this!?
 
 #テキストでは、正規の値段を表示
 #「お値段は[_PRICE]円になります……」

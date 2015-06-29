@@ -297,7 +297,7 @@ screen_vibration	500,16,16,16
 
 #「な、何だよ急にアナルって……てっきり宿題とかと思ったのに」
 ＠Itsuki
-「W-why are you asking that all of a sudden... I thought this was about homework」
+「W-why are you asking that all of a sudden...? I thought this was about homework」
 
 @ichigo_ase		#汗
 
@@ -310,7 +310,7 @@ screen_vibration	500,16,16,16
 
 #「はぁ……で、何だって？」
 ＠Itsuki
-「*Sigh*... so, what was yout question?」
+「Sigh... so, what was it again?」
 
 @ichigo			#普通
 
@@ -403,7 +403,7 @@ return
 label	ichigo_qa02_b
 
 #後日、オレの答えは間違っていたようで、いちごに不満を言われてしまった。
-　Later on, seeing as I gave her the wrong answer, Ichigo came to me displeased.
+　Later on, seeing as I gave her the wrong answer, Ichigo voiced her displeasure.
 
 @bg_black
 @ichigo_atama_down
@@ -423,54 +423,64 @@ label	ichigo_qa03
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#「パパ～、まだ起きてる？」
 ＠Ichigo,O01955
-「パパ～、まだ起きてる？」
+「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 
+#「ああ、どうしたいちご？」
 ＠Itsuki
-「ああ、どうしたいちご？」
+「Yeah, what is it Ichigo?」
 
 @ichigo_takurami	#企み
 
+#「えへへ～……実はお小遣いが残り少なくなっちゃったの」
 ＠Ichigo,O01956
-「えへへ～……実はお小遣いが残り少なくなっちゃったの」
+「Ehehe～... actually, I'm almost out of pocket money」
 
+#「そうかそうか。じゃあ次のお小遣いまで頑張るんだぞ」
 ＠Itsuki
-「そうかそうか。じゃあ次のお小遣いまで頑張るんだぞ」
+「Oh, is that so? Then you'd better work hard until your next allowance」
 
 @ichigo_ase		#汗
 
+#「うぅ～、そんなぁ……」
 ＠Ichigo,O01957
-「うぅ～、そんなぁ……」
+「Uuh～, no way...」
 
 @ichigo_komaru		#困
 
+#「パパ、少しだけでいいからお小遣い欲しいよぉ」
 ＠Ichigo,O01958
-「パパ、少しだけでいいからお小遣い欲しいよぉ」
+「Papa, I just want a bit more」
 
+#「来月分の前借か？」
 ＠Itsuki
-「来月分の前借か？」
+「Like, an advance on next month?」
 
 @ichigo_kanashimi	#哀
 
+#「……そしたら、今度は来月に足りなくなっちゃう」
 ＠Ichigo,O01959
-「……そしたら、今度は来月に足りなくなっちゃう」
+「...But then, I won't have enough next month」
 
+#「特別に欲しいってことか。う～ん……」
 ＠Itsuki
-「特別に欲しいってことか。う～ん……」
+「You want a special donation, huh. Hmm～...」
 
-さて、どうするか。
-甘やかすと癖になるかもしれないぞ。
+#さて、どうするか。
+#甘やかすと癖になるかもしれないぞ。
+　What should I do? I could end up spoiling her.
 
 if _MONEY<18000 then goto ichigo_qa03_b
 #--------------------------------------------------
 #■（選択肢）
 #（１．お小遣いをあげる）
 #（２．我慢させる）
-select sel,"Give pocket money","Show some restraint"
+select sel,"Give pocket money","Make her wait"
 if sel=0 then goto ichigo_qa03_a
 if sel=1 then goto ichigo_qa03_b
 #--------------------------------------------------
@@ -480,17 +490,21 @@ if sel=1 then goto ichigo_qa03_b
 #--------------------------------------------------
 label	ichigo_qa03_a
 
-けど、結局オレは甘やかしてしまう。
+#けど、結局オレは甘やかしてしまう。
+　But, I ended up going soft on her.
 
+#「仕方ないな。無駄遣いするんじゃないぞ？」
 ＠Itsuki
-「仕方ないな。無駄遣いするんじゃないぞ？」
+「Oh well. Don't throw it away on nothing, okay?」
 
 @ichigo_odoroki		#驚
 
+#「くれるのッ？」
 ＠Ichigo,O01960
-「くれるのッ？」
+「You'll give it to me!?」
 
-財布を開けて、そこから臨時小遣いをいちごにあげた。
+#財布を開けて、そこから臨時小遣いをいちごにあげた。
+　I open my wallet, and hand over a temporary allowance to Ichigo.
 
 @ichigo_yorokobi	#喜
 #///////////////////////////////////////////////////////
@@ -505,29 +519,37 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#「わぁいッ！！　あははッ、パパありがとう～！」
 ＠Ichigo,O01961
-「わぁいッ！！　あははッ、パパありがとう～！」
+「Yayy!!　Ahaha, thanks Papa～！」
 
+#「次からは、計算して使うんだぞ？」
 ＠Itsuki
-「次からは、計算して使うんだぞ？」
+「From now on, make sure to use it wisely」
 
 @ichigo_warai		#笑
 
+#「うんッ！　なくならないように気をつけるよ～！」
 ＠Ichigo,O01962
-「うんッ！　なくならないように気をつけるよ～！」
+「Yeah! I'll be careful not to run out～!」
 
+#「パパッ。いちご、パパのこと大好きだよ！」
 ＠Ichigo,O01963
-「パパッ。いちご、パパのこと大好きだよ！」
+「Papa... I love you so much, Papa!」
 
+#「はは、ありがとう。オレもいちごの事は大好きだよ」
 ＠Itsuki
-「はは、ありがとう。オレもいちごの事は大好きだよ」
+「Haha, thanks. I love you too, Ichigo」
 
-文字通り現金なものだが、そう言われて嬉しいオレは甘い人間だ。
+#文字通り現金なものだが、そう言われて嬉しいオレは甘い人間だ。
+　It may be over money, but I have a soft spot when I'm told that.
 
+#（けど、後で他の子の分のお小遣いも計算しないとな）
 ＠Itsuki
-（けど、後で他の子の分のお小遣いも計算しないとな）
+（Although, I'll have to recalculate everyone's allowances later）
 
-出費になるが、やはりみんなにも平等にあげるべきだろう。
+#出費になるが、やはりみんなにも平等にあげるべきだろう。
+　It'll be an expense, but I ought to give them all fair treatment.
 
 @chara_clear		#保険
 @bg_black
@@ -547,56 +569,71 @@ return
 #--------------------------------------------------
 label	ichigo_qa03_b
 
-そうだな。しつけはきっちりしておかないと。
+#そうだな。しつけはきっちりしておかないと。
+　Right. I'll have to show her some discipline.
 
+#「いちご、お小遣いは―――」
 ＠Itsuki
-「いちご、お小遣いは―――」
+「Ichigo, allowances―――」
 
 @ichigo_naki		#泣
 
+#「えうぅ……パパぁ」
 ＠Ichigo,O01964
-「えうぅ……パパぁ」
+「Euhh... Papaa」
 
-ウルウルウル……（←いちごの瞳
+#ウルウルウル……（←いちごの瞳
+　Ichigo's eyes began tearing up... 
 
+#「うぐッ、そんな切なそうな目で見るな……」
 ＠Itsuki
-「うぐッ、そんな切なそうな目で見るな……」
+「Ack, don't look at me like that...」
 
+#「とにかく、使っちゃったものは仕方ないな。来月まで我慢しないと」
 ＠Itsuki
-「とにかく、使っちゃったものは仕方ないな。来月まで我慢しないと」
+「Anyway, it's too bad that you used it all up. You'll have to wait until next month」
 
 @ichigo_kanashimi	#哀
 
+#「ダメなの……？　お小遣い…」
 ＠Ichigo,O01965
-「ダメなの……？　お小遣い…」
+「You won't give me any pocket money...?」
 
+#「ああ。ダメだ」
 ＠Itsuki
-「ああ。ダメだ」
+「Nope, sorry」
 
-ここは躾のため、はっきりと告げた。
+#ここは躾のため、はっきりと告げた。
+　I told her clearly, for the sake of discipline.
 
 @ichigo_komikaru_ikari	#コミカル怒
 
+#「ぶぅッ」
 ＠Ichigo,O01966
-「ぶぅッ」
+「Bfh」
 
-そしてムクれるいちご。
+#そしてムクれるいちご。
+　Ichigo was displeased.
 
+#「お小遣いは無理だけど、今度一緒にケーキでも食べに行こう」
 ＠Itsuki
-「お小遣いは無理だけど、今度一緒にケーキでも食べに行こう」
+「I can't give you any allowance, but we can go together for cake」
 
 @ichigo_odoroki		#驚
 
+#「ケーキ……」
 ＠Ichigo,O01967
-「ケーキ……」
+「Cake...」
 
 @ichigo_takurami	#企み
 
+#「いちご、スポンジの中にも苺が入ってる苺ショートが良い……」
 ＠Ichigo,O01968
-「いちご、スポンジの中にも苺が入ってる苺ショートが良い……」
+「I want a strawberry shortcake, the one that has strawberries in the spongey part...」
 
+#「ああいいぞ。他の子も一緒にな」
 ＠Itsuki
-「ああいいぞ。他の子も一緒にな」
+「Yeah, that'll do. We can bring the other kids too」
 
 @ichigo_warai		#笑
 #///////////////////////////////////////////////////////
@@ -607,24 +644,30 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#「うんっ。それならいちご、我慢できるよっ♪」
 ＠Ichigo,O01969
-「うんっ。それならいちご、我慢できるよっ♪」
+「Sure. I can wait, then ♪」
 
 @ichigo_yorokobi	#喜
 
+#「パパ、わがまま言ってごめんなさい」
 ＠Ichigo,O01970
-「パパ、わがまま言ってごめんなさい」
+「Papa, sorry for being selfish」
 
+#「来月からは気をつけるんだぞ」
 ＠Itsuki
-「来月からは気をつけるんだぞ」
+「Be more careful, when you get it next month」
 
+#「は～い！」
 ＠Ichigo,O01971
-「は～い！」
+「OK～!」
 
-とりあえず、いちごのご機嫌は損ねずに済んだようだ。
+#とりあえず、いちごのご機嫌は損ねずに済んだようだ。
+　For now, it looks like I didn't end up hurting her feelings.
 
+#（……しかしオレには、お小遣いよりも出費が大きいよな）
 ＠Itsuki
-（……しかしオレには、お小遣いよりも出費が大きいよな）
+（...As for me, I have bigger money problems than pocket change）
 
 @chara_clear		#保険
 @bg_black
