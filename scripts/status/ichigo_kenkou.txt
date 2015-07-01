@@ -368,7 +368,7 @@ label	ichigo_kenkou_a2
 「Hm? What are you doing, Ichigo?」
 
 #キッチンに顔を出すと、いちごがグラスの水をゴクゴクと呷っていた。
-　When I showed up in the kitchen, Ichigo was gulping down a glass of water.
+　Ichigo was gulping down a glass of water when I showed up in the kitchen.
 
 @ichigo_small
 @ichigo_shifuku
@@ -396,7 +396,7 @@ label	ichigo_kenkou_a2
 
 #「首ブンブン振ったら頭がガンガンする……」
 ＠Ichigo,O01550
-「If I shake my head, my headache gets worse...」
+「If I shake my head, my headache gets worse...!」
 
 #「……それは当たり前だ」
 ＠Itsuki
@@ -885,7 +885,7 @@ label	ichigo_kenkou_c2
 
 #「パパ、ちょっと出かけてくるね……ケホッ、んん」
 ＠Ichigo,O01577
-「Papa, I'm going out for a bit... *cough*, nhh」
+「Papa, I'm going out for a bit... cough, nnh」
 
 #「ああ。……朝からちょっと咳が出てるみたいだが、大丈夫なのか？」
 ＠Itsuki
@@ -923,9 +923,11 @@ wait		2000
 #SE31　玄関のドアが閉まる音
 @SE31			#SE31　玄関のドアが閉まる音
 
-かかとを整えながら、弾むようにして玄関を飛び出して行くいちご。
+#かかとを整えながら、弾むようにして玄関を飛び出して行くいちご。
+　Adjusting the heel of her shoes, Ichigo leaps and bounds across the entryway.
 
-元気であればいいが、風邪なんか引かないようにこっちでも考えてやらないとな。
+#元気であればいいが、風邪なんか引かないようにこっちでも考えてやらないとな。
+　It's good she's so energetic, but I'll have to think about not letting her catch a cold.
 
 se_stop		0
 @chara_clear		#保険

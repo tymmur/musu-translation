@@ -32,49 +32,60 @@ label	ichigo_qa01
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#「パパ～、まだ起きてる？」
 ＠Ichigo,O01930
-「パパ～、まだ起きてる？」
+「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
-部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+　I was relaxing in my room, when Ichigo came to ask me something.
 
+#「ああ、どうしたいちご？」
 ＠Itsuki
-「ああ、どうしたいちご？」
+「Yeah, what is it Ichigo?」
 
 @ichigo			#普通
 
+#「えっとね、この人形が急に動かなくなっちゃったの」
 ＠Ichigo,O01931
-「えっとね、この人形が急に動かなくなっちゃったの」
+「Um, this doll stopped moving all of a sudden」
 
+#「昨日まではちゃんと動いてたのに……壊れちゃったのかな」
 ＠Ichigo,O01932
-「昨日まではちゃんと動いてたのに……壊れちゃったのかな」
+「It was moving just yesterday... I think it broke」
 
+#「ふむ。どれどれ」
 ＠Itsuki
-「ふむ。どれどれ」
+「Mhm. Let's see here...」
 
 @chara_clear		#保険
 @bg_black
 
-いちごが持って来たのは、片腕に抱えるほどのウサギのヌイグルミだった。
+#いちごが持って来たのは、片腕に抱えるほどのウサギのヌイグルミだった。
+　I was a stuffed bunny Ichigo brought clutched in her arm.
 
-触ると中に機械の感触がして、動くようになっているのが分かる。
+#触ると中に機械の感触がして、動くようになっているのが分かる。
+　Taking a look, I feel inside the device and find it's on.
 
 @ichigo_small
 @ichigo_pajama
 @ichigo			#普通
 @bg_itsuki_n		# 自室(夜)
 
+#「スイッチは………反応なしか」
 ＠Itsuki
-「スイッチは………反応なしか」
+「The switch... doesn't work」
 
 @ichigo_komaru		#困
 
+#「いちご、それ大事にしてたのに……。それでも壊れちゃったの？」
 ＠Ichigo,O01933
-「いちご、それ大事にしてたのに……。それでも壊れちゃったの？」
+「Ichigo took such good care of it... but it still broke?」
 
+#「う～ん」
 ＠Itsuki
-「う～ん」
+「Hmm～」
 
 #--------------------------------------------------
 #■（選択肢）
@@ -90,41 +101,53 @@ if sel=1 then goto ichigo_qa01_b
 #--------------------------------------------------
 label	ichigo_qa01_a
 
-大事にしていた物が、そう易々と壊れるはずが無い。
+#大事にしていた物が、そう易々と壊れるはずが無い。
+　It's unlikely for it to break, if she was taking good care of it.
 
+#「ん？　これは……」
 ＠Itsuki
-「ん？　これは……」
+「Hm? This here...」
 
 @ichigo			#普通
 
+#「分かったのっ…？」
 ＠Ichigo,O01934
-「分かったのっ…？」
+「Did you figure it out...?」
 
-見つけたのは、電池をセットする場所だった。
+#見つけたのは、電池をセットする場所だった。
+　I found the spot where the battery goes.
 
-……もしかして。
+#……もしかして。
+　...Just maybe.
 
+#「…？」
 ＠Ichigo,O01935
-「…？」
+「...?」
 
 #SE28　机や引き出しを漁る音
 @SE28			#SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 
-突然立ち上がって机を漁りだすオレに、いちごが不思議そうな視線を向ける。
+#突然立ち上がって机を漁りだすオレに、いちごが不思議そうな視線を向ける。
+　Ichigo looks on at me astonished, as I get up and start rummaging inside the desk.
 
-引き出しから予備の電池を出して、オレはヌイグルミにセットした。
+#引き出しから予備の電池を出して、オレはヌイグルミにセットした。
+　I took out a spare battery from the drawer, and replaced the one in the plushie.
 
+#「どうだ……」
 ＠Itsuki
-「どうだ……」
+「How's that...?」
 
-そして、再びスイッチを入れると……
+#そして、再びスイッチを入れると……
+　And giving the switch another flip...
 
 @ichigo_yorokobi	#喜
 
+#「あッ！　動いたッ、動いたよパパ～！」
 ＠Ichigo,O01936
-「あッ！　動いたッ、動いたよパパ～！」
+「Ah! Papa, it moved, it moved～!」
 
-ヌイグルミの身体が軽く前後に揺れ、耳がピコピコと動きを見せた。
+#ヌイグルミの身体が軽く前後に揺れ、耳がピコピコと動きを見せた。
+　Its body swayed gently back and forth, and the ears twitched delicately.
 
 #///////////////////////////////////////////////////////
 #演：感激：上下版
@@ -138,24 +161,30 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#「わあいッ！　良かったッ、ちゃんと動いた～！」
 ＠Ichigo,O01937
-「わあいッ！　良かったッ、ちゃんと動いた～！」
+「Yayy! I'm so happy, it's moving again～!」
 
+#「ふぅ。どうやらただの電池切れだったみたいだぞ」
 ＠Itsuki
-「ふぅ。どうやらただの電池切れだったみたいだぞ」
+「Phew. Looks like the battery just ran out」
 
-原因を解明して、いちごにヌイグルミを返してあげる。
+#原因を解明して、いちごにヌイグルミを返してあげる。
+　I explained the problem, and gave the plushie back to Ichigo.
 
 @ichigo_warai		#笑
 
+#「ありがとうパパ！　この人形、いちごのお気に入りのだったの♪」
 ＠Ichigo,O01938
-「ありがとうパパ！　この人形、いちごのお気に入りのだったの♪」
+「Thanks, Papa! I sure liked this doll a lot, you know♪」
 
+#「そっかぁ電池か～、いちご壊れたのかと思っちゃった」
 ＠Ichigo,O01939
-「そっかぁ電池か～、いちご壊れたのかと思っちゃった」
+「So it was the battery, huh～, I thought I broke it or something」
 
+#「ははは、慌てんぼだな。でも良かった」
 ＠Itsuki
-「ははは、慌てんぼだな。でも良かった」
+「Hahaha, you got worried over nothing. But it was all good in the end」
 
 @ichigo_yorokobi	#喜
 #///////////////////////////////////////////////////////
@@ -166,18 +195,22 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#「うんッ、いちごじゃ気付かなかったもん。パパどうもありがとう！」
 ＠Ichigo,O01940
-「うんッ、いちごじゃ気付かなかったもん。パパどうもありがとう！」
+「Yeah, I didn't figure that out. Thanks so much, Papa!」
 
+#「どういたしまして」
 ＠Itsuki
-「どういたしまして」
+「You're very welcome」
 
 bgm_stop
 @ichigo_
 
-元気に動くヌイグルミを抱えてはしゃぐいちご。
+#元気に動くヌイグルミを抱えてはしゃぐいちご。
+　Ichigo is overjoyed, hugging her happily moving stuffed toy.
 
-夜の時間に少々騒がしくもあったが、その喜びように、今だけは許してあげることにした。
+#夜の時間に少々騒がしくもあったが、その喜びように、今だけは許してあげることにした。
+　Though my quiet evening was broken, I'll let her off the hook this time, being so pleased.
 
 @chara_clear		#保険
 @bg_black
@@ -192,40 +225,51 @@ return
 #--------------------------------------------------
 label	ichigo_qa01_b
 
+#「じゃあ、新しいのを買ってやろうか」
 ＠Itsuki
-「じゃあ、新しいのを買ってやろうか」
+「Then, maybe I can buy you a new one」
 
+#「ううん、それもう売ってないってお店の人が言ってたから……」
 ＠Ichigo,O01941
-「ううん、それもう売ってないってお店の人が言ってたから……」
+「Nope, you can't buy them anymore, the store person said...」
 
 @ichigo_kanashimi	#哀
 
+#「やっぱり大事にしてても、いちごの遊び方が乱暴だったのかな……」
 ＠Ichigo,O01942
-「やっぱり大事にしてても、いちごの遊び方が乱暴だったのかな……」
+「I thought I took good care of it, but I might've been too rough playing with it...」
 
+#「う～ん……そんなことは無いと思うけど」
 ＠Itsuki
-「う～ん……そんなことは無いと思うけど」
+「Hmm～... I'm not so sure about that」
 
-フォローしようとは思うが、実際に壊れた玩具があって、上手く言葉が出てこない。
+#フォローしようとは思うが、実際に壊れた玩具があって、上手く言葉が出てこない。
+　I meant to follow up, but what's broke was broken, so I couldn't come up with anything.
 
 @ichigo_komaru		#困
 
+#「ごめんねパパ。部屋に持って帰るよ」
 ＠Ichigo,O01943
-「ごめんねパパ。部屋に持って帰るよ」
+「Sorry, Papa. I'll take it back to my room」
 
+#「いいのか……？」
 ＠Itsuki
-「いいのか……？」
+「Are you sure...?」
 
+#「うん。ヌイグルミとして持っておくから……」
 ＠Ichigo,O01944
-「うん。ヌイグルミとして持っておくから……」
+「Yeah. I'll keep it just as a stuffed animal...」
 
-オレからヌイグルミを受け取ると、しょんぼりしてそれを抱きしめる。
+#オレからヌイグルミを受け取ると、しょんぼりしてそれを抱きしめる。
+　She takes the doll back from me, and shoulders slumped hugs it close.
 
+#「おやすみなさい、パパ」
 ＠Ichigo,O01945
-「おやすみなさい、パパ」
+「Have a good night, Papa」
 
+#「……おやすみ」
 ＠Itsuki
-「……おやすみ」
+「...Good night」
 
 window_close
 bgm_stop
@@ -234,12 +278,15 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-いちごはトボトボと部屋へ帰っていった。
+#いちごはトボトボと部屋へ帰っていった。
+　Ichigo trudged back to her room.
 
+#（きっと、オレに頼めば何とかなるって思ってくれてたんだろうな）
 ＠Itsuki
-（きっと、オレに頼めば何とかなるって思ってくれてたんだろうな）
+（She probably thought, asking me, I would be able to figure something out）
 
-可哀想だけど、済んだ物は仕方ないと諦めるしかなかった。
+#可哀想だけど、済んだ物は仕方ないと諦めるしかなかった。
+　It's unfortunate, but its time had come so there was nothing I could do but give up.
 
 @chara_clear		#保険
 @bg_black
@@ -268,7 +315,7 @@ label	ichigo_qa02
 @SE07			#部屋のドア閉まる音（パタン）
 
 #部屋で休んでいるオレの元へ、いちごが尋ねてきた。
-　I was relaxing in my room when Ichigo came to ask me something.
+　I was relaxing in my room, when Ichigo came to ask me something.
 
 #「ああ、どうしたいちご？」
 ＠Itsuki
@@ -339,7 +386,7 @@ sel1=sel
 
 #「へぇ～、そうだったんだ」
 ＠Ichigo,O01952
-「Ohh～, so that's how it is」
+「Ohh～, so that's what it was」
 
 #「でも何で急にそんな事を訊きだすんだ……？」
 ＠Itsuki
@@ -429,7 +476,8 @@ label	ichigo_qa03
 
 @SE07			#部屋のドア閉まる音（パタン）
 
-部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+　I was relaxing in my room, when Ichigo came to ask me something.
 
 #「ああ、どうしたいちご？」
 ＠Itsuki
@@ -687,23 +735,30 @@ label	ichigo_qa04
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#「パパ～、まだ起きてる？」
 ＠Ichigo,O01972
-「パパ～、まだ起きてる？」
+「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
-部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+　I was relaxing in my room, when Ichigo came to ask me something.
 
+#「ああ、どうしたいちご？」
 ＠Itsuki
-「ああ、どうしたいちご？」
+「Yeah, what is it Ichigo?」
 
 @ichigo_yorokobi	#喜
 
+#「突然だけど、いちごクイズだよ！」
 ＠Ichigo,O01973
-「突然だけど、いちごクイズだよ！」
+「It's out of the blue, but I have a quiz for you!」
 
+#「バスの中に四人の乗客が居ます。途中で二人乗ってきて、次で三人降りて一人乗りました」
 ＠Ichigo,O01974
-「バスの中に四人の乗客が居ます。途中で二人乗ってきて、次で三人降りて一人乗りました」
+「There are 4 people riding a bus. Along the way, 2 people got on, then 3 people got off and 1 more got on」
+
+#TL note: started this episode by mistake, don't want to delete it.
 
 ＠Ichigo,O01975
 「さて、今バスの中には何人居るでしょう！」

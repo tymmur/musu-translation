@@ -366,7 +366,8 @@ label	karin_qa02
 
 @bgmk04			#BGM K04 : 寝る前のテーマ
 
-廊下から、突然騒がしい足音がこちらに近づいてきた。
+#廊下から、突然騒がしい足音がこちらに近づいてきた。
+　I heard frantic footsteps from the hall, heading toward my room.
 
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @SE08			#SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
@@ -380,7 +381,7 @@ label	karin_qa02
 「Itsuki, are you there!? Can I come in!?」
 
 #足音の主のかりんが、思いっきりドアを開けて現れた。
-　Karin, the source of the footsteps, appeared throwing the door open.
+　Karin, the source of the footsteps, showed up throwing the door open.
 
 #「……もう入ってるじゃん」
 ＠Itsuki
@@ -390,11 +391,11 @@ label	karin_qa02
 
 #「はぁっ……よかった、居たわね」
 ＠Karin,P01973
-「Haa... thank goodness you're here」
+「Haa... thank goodness, you're here」
 
 #「いくら樹が最低と言っても、さすがにこの緊急事態に部屋に居ないなんて非常識な行動はなかったのね」
 ＠Karin,P01974
-「As much as I say you're the worst, you wouldn't be so senseless as to not be available during an emergency」
+「As much as I say you're the worst, you wouldn't be so senseless as to not be here during an emergency」
 
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
@@ -427,15 +428,15 @@ label	karin_qa02
 
 #「へ、部屋の中にッ……あれがッ、あいつがッ」
 ＠Karin,P01977
-「I-in my room, there's... THAT, and THEM」
+「I-in my room, there's... T-T-THAT!!」
 
 #「あいつ？　誰か居るのか部屋に！？」
 ＠Itsuki
-「Them? Who's in your room!?」
+「What? What's in your room!?」
 
 #「ええ……最初は気付かなかったんだけど、ふと振り返ったらすぐ背後に居てッ」
 ＠Karin,P01978
-「That's right... I didn't notice at first, but when I looked behind me they were right there!」
+「That's right... I didn't notice at first, but when I looked behind me he was right there!」
 
 #この子達の仕事柄、怪しい男や変質者などには細心の注意を払う必要がある。
 　There are suspicious, degenerate types you have to be careful with, in this line of work.
@@ -459,7 +460,7 @@ wait		500
 「Karin, it'll be OK... it must have been scary...」
 
 #小さく震えるかりんを守るように、オレはそっと肩を抱き寄せた。
-　I put my arm around Karin's shoulder, trembling softly, to keep her safe.
+　I put my arm around Karin's softly trembling shoulder, to keep her safe.
 
 #「ぁ……いつき…」
 ＠Karin,P01980
@@ -489,18 +490,18 @@ wait		500
 
 #「どうしてっ………何でこの世の中にゴキブリなんているのよぉっ」
 ＠Karin,P01983
-「Why... why are there cockroaches in this world?」
+「Why... why are there cockroaches in this world!?」
 
 #「そうか、ゴキブリか。そんな怖い思いをかりんに………」
 ＠Itsuki
-「Oh, a cockroach, huh? It must have scared you to...」
+「Right, a cockroach, huh? It must have scared you to...」
 
 #「……ごきぶり？」
 ＠Itsuki
 「...Cockroach?」
 
 #その単語で頭の中に浮かぶイメージは、一つしかなかった。
-　There was only one image that word pointed to in my head.
+　There was but one image that word pointed to in my head.
 
 #「ゴキブリって、あの黒くてゴキゴキしてるやるか……？」
 ＠Itsuki
@@ -563,7 +564,7 @@ label	karin_qa02_a
 「Yeah. I'll be with you until you're not scared anymore」
 
 #それが一番無難な案だと思った。
-　That seemed like the safest option.
+　That seemed like the most prudent option.
 
 @karin_kanashimi	#哀
 
@@ -590,13 +591,13 @@ label	karin_qa02_a
 「Staying here doesn't solve my problem at all」
 
 #寄り添っていたかりんの温もりが、あっさりと離れていく。
-　Karin, who had snuggled up close, quickly distanced herself.
+　Karin, who had snuggled up close, quickly distanced herself from me.
 
 @karin_keno		#嫌悪
 
 #「思えばだいたい、どうして樹の部屋に駆け込んできたのか……。屈辱だわ」
 ＠Karin,P01991
-「Now that I think about it, why did I rush to your room, anyway...? Disgraceful」
+「Now that I think about it, why did I rush to your room, anyway...? How disgraceful」
 
 #「ソコまで言われるのか……」
 ＠Itsuki
@@ -624,7 +625,7 @@ wait		1000
 「What the heck... was that?」
 
 #たかがゴキブリで、慌しい夜だった。
-　It was a frenzied night, over a cockroach.
+　It was a confusing night, over a cockroach.
 
 @chara_clear		#保険
 @bg_black
@@ -639,27 +640,33 @@ return
 #--------------------------------------------------
 label	karin_qa02_b
 
+#「分かった。オレが退治してやる」
 ＠Itsuki
-「分かった。オレが退治してやる」
+「Alright. I'll get rid of it for you」
 
 @karin_koufun		#興奮
 
+#「ほんとっ…？　いつき、いいの？」
 ＠Karin,P01993
-「ほんとっ…？　いつき、いいの？」
+「Really...? You'd do that for me, Itsuki?」
 
+#「ああ。どんな相手だろうと、かりんを守るためなら二言は無い」
 ＠Itsuki
-「ああ。どんな相手だろうと、かりんを守るためなら二言は無い」
+「Yeah. No matter what it is that I have to protect you from, I won't go back on my word」
 
-この場合の『どんな』は『どんな強大な相手』でもではなく、
-『どんなくだらないもの相手』でもという意味だ。
+#この場合の『どんな』は『どんな強大な相手』でもではなく、
+#『どんなくだらないもの相手』でもという意味だ。
+　This time, rather than having to overcome a mighty foe, I'll have to tidy up an icky bug.
 
 @karin_niko		#にこ
 
+#「良かった……ありがとう樹。きっとまだ部屋に居ると思うわ」
 ＠Karin,P01994
-「良かった……ありがとう樹。きっとまだ部屋に居ると思うわ」
+「Oh my gosh... thank you, Itsuki. I think it's probably still there」
 
+#「よし行くか」
 ＠Itsuki
-「よし行くか」
+「Let's go take a look」
 
 @chara_clear		#保険
 @bg_black
@@ -667,39 +674,48 @@ label	karin_qa02_b
 #■BG（廊下・夜）
 #@bg_rouka_n		# 廊下(夜)
 
-そうして出向いたゴキブリ討伐隊。（動くのはオレ一人だが）
+#そうして出向いたゴキブリ討伐隊。（動くのはオレ一人だが）
+　Our cockroach suppression campaign set off. (Though I may be the only one taking action.）
 
-そして数分もしないうちに目標を撃破してその役目を終えた。
+#そして数分もしないうちに目標を撃破してその役目を終えた。
+　And within the span of a few minutes, we sealed our victory, and the deed was done.
 
 @karin_small		# 遠い
 @karin_pajama
 @karin_niko		#にこ
 @bg_rouka_n		# 廊下(夜)
 
+#「あ、ありがと……」
 ＠Karin,P01995
-「あ、ありがと……」
+「T-thanks...」
 
-ようやくさっきまでの自分を見直したのか、かりんは恥ずかしさでばつが悪そうだった。
+#ようやくさっきまでの自分を見直したのか、かりんは恥ずかしさでばつが悪そうだった。
+　Karin looks at me awkwardly, having re-evaluated her opinion of me recently.
 
+#「まぁ大したことじゃなかったけど。かりんのレアな姿が見れたからイーブンだな」
 ＠Itsuki
-「まぁ大したことじゃなかったけど。かりんのレアな姿が見れたからイーブンだな」
+「Well, it's no big deal. I got a rare visit from you, so we'll call it even」
 
 @karin_kanashimi	#哀
 
+#「う……さ、さっきまでのはゴキブリのせいよ」
 ＠Karin,P01996
-「う……さ、さっきまでのはゴキブリのせいよ」
+「Ugh... t-this is all the cockroach's fault」
 
 @karin_keno		#嫌悪
 
+#「別にあなたを許したとか、そういうことは無いんだから気安くしないでよね」
 ＠Karin,P01997
-「別にあなたを許したとか、そういうことは無いんだから気安くしないでよね」
+「I haven't forgiven you, or anything like that so don't act too friendly」
 
 bgm_stop
 @karin_
 
-結局かりんの対応は、すぐに改善されそうにはなかったが。
+#結局かりんの対応は、すぐに改善されそうにはなかったが。
+　My interactions with Karin suddenly seem not to have improved much.
 
-少し、信頼は得られたように感じた夜だった。
+#少し、信頼は得られたように感じた夜だった。
+　It was a night where I felt I gained just a little bit of her trust.
 
 @chara_clear		#保険
 @bg_black
@@ -1119,7 +1135,7 @@ wait		1000
 
 #「………」
 ＠Karin,P02037
-「...」
+「......」
 
 #問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
 　Trying to bring the problem set closer, Karin ended up right beside me.
@@ -1381,10 +1397,12 @@ label	karin_qa05
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-部屋で休んでいると、ドアのノックの音がした。
+#部屋で休んでいると、ドアのノックの音がした。
+　I was relaxing in my room, when I heard a knock on my door.
 
+#「入るわよ」
 ＠Karin,P02059
-「入るわよ」
+「I'm coming in」
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
@@ -1394,86 +1412,109 @@ wait		1000
 @karin_pajama
 @karin
 
+#「かりんか。珍しいじゃないか」
 ＠Itsuki
-「かりんか。珍しいじゃないか」
+「Karin? How rare to see you here」
 
+#「ええ、ちょっと今日は真剣な話があって来たの」
 ＠Karin,P02060
-「ええ、ちょっと今日は真剣な話があって来たの」
+「Yeah, I came to have a heart to heart talk with you today」
 
 @karin_keno		#嫌悪
 
+#「……って、最初にちゃんとこう言ったんだから、それでエッチなことをしようとしたら本当に幻滅するわよ」
 ＠Karin,P02061
-「……って、最初にちゃんとこう言ったんだから、それでエッチなことをしようとしたら本当に幻滅するわよ」
+「...Hold up, if you try anything funny I'm going to be very disappointed, so don't say I didn't warn you」
 
+#「しねぇよ。心配するな」
 ＠Itsuki
-「しねぇよ。心配するな」
+「I won't. Calm yourself」
 
 @karin			#普通
 
+#「そう……まぁ信用しておくわ」
 ＠Karin,P02062
-「そう……まぁ信用しておくわ」
+「Very well... I'll trust you」
 
 @karin_
 
-当然のように信用は無いが、かりんは部屋の中へ歩いてくる。
+#当然のように信用は無いが、かりんは部屋の中へ歩いてくる。
+　She sure doesn't seem very trusting, but Karin walks into my room.
 
 @karin_middle		# 中間
 @karin_pajama
 @karin_kanashimi	#哀
 
+#「話ってみかんのことよ」
 ＠Karin,P02063
-「話ってみかんのことよ」
+「It's about Mikan」
 
+#「こんな生活をさせて、一応はみかんのことを守ってあげてるのかもしれないけど」
 ＠Karin,P02064
-「こんな生活をさせて、一応はみかんのことを守ってあげてるのかもしれないけど」
+「Putting her through this life, I suppose you mean to protect her, but...」
 
+#「実際のところ、あなたはみかんのことをどう思ってるの…？」
 ＠Karin,P02065
-「実際のところ、あなたはみかんのことをどう思ってるの…？」
+「From the bottom of your heart, how do you feel about Mikan...?」
 
+#「どうって、みんな今では同じように大事な家族だぞ」
 ＠Itsuki
-「どうって、みんな今では同じように大事な家族だぞ」
+「Feel about her? I think of everyone here as family」
 
+#「ほんとうにそれだけ？」
 ＠Karin,P02066
-「ほんとうにそれだけ？」
+「Is that all?」
 
+#「エッチまでして接待にも出して。それでも家族っていう言葉でひとくくりにするの？」
 ＠Karin,P02067
-「エッチまでして接待にも出して。それでも家族っていう言葉でひとくくりにするの？」
+「You had sex with her, and have her service guests. But still, you'll lump it all together in the word "family"?」
 
+#「……不満か？」
 ＠Itsuki
-「……不満か？」
+「...That's no good?」
 
+#「もちろん、普通の家族愛以上にみんなを大事にする気持ちはあるつもりだ」
 ＠Itsuki
-「もちろん、普通の家族愛以上にみんなを大事にする気持ちはあるつもりだ」
+「Of course, I mean to love and cherish you all like a real family」
 
+#「……今はじゃあ、それでもいい。質問を変えるわ」
 ＠Karin,P02068
-「……今はじゃあ、それでもいい。質問を変えるわ」
+「...Fine, I'll accept that. Let me rephrase the question」
 
-みかんのことになるとやはり、かりんは真剣だ。
+#みかんのことになるとやはり、かりんは真剣だ。
+　When it comes to Mikan, Karin won't be satisfied easily.
 
-その下心の純不純はアレだが、みかんのことを大事に思っているのは伝わってくる。
+#その下心の純不純はアレだが、みかんのことを大事に思っているのは伝わってくる。
+　She may also have ulterior motives, but Karin's made it clear how much treasures Mikan.
 
+#「いずれみかんも私も、それに他の子達も成長して大人になるわ」
 ＠Karin,P02069
-「いずれみかんも私も、それに他の子達も成長して大人になるわ」
+「Mikan, me, and the rest of the kids will grow up and turn into adults one day」
 
+#「そして、今は埋めれないあなたとの年の差も、少しずつ関係なくなっていく」
 ＠Karin,P02070
-「そして、今は埋めれないあなたとの年の差も、少しずつ関係なくなっていく」
+「And, even if she can't get involved with you right now, over time the age gap won't matter as much」
 
+#「そうなった時、あなたはみかんにどう接するの…？」
 ＠Karin,P02071
-「そうなった時、あなたはみかんにどう接するの…？」
+「How will you approach Mikan then...?」
 
+#「これまでどおりの家族か、それとも、それまで散々エッチしたみかんに責任をとるのか」
 ＠Karin,P02072
-「これまでどおりの家族か、それとも、それまで散々エッチしたみかんに責任をとるのか」
+「As mere family, or will you take responsibility for the hideous things you did to her by then?」
 
-真剣な瞳で問われ、オレはその未来を考えた。
+#真剣な瞳で問われ、オレはその未来を考えた。
+　Her eyes probing me deliberately, I thought about the future.
 
-そんなに先のことじゃない。
-きっとこの子達の成長なんてすぐだろう。
+#そんなに先のことじゃない。
+#きっとこの子達の成長なんてすぐだろう。
+　Things aren't quite like she said. These girls will "grow up" quite soon, I think. 
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．責任をとる）
 #（２．分からない）
-select sel,"I take responsibility","I know nothing"
+select sel,"I'll take responsibility","I'm not sure"
 if sel=0 then goto karin_qa05_a
 if sel=1 then goto karin_qa05_b
 #--------------------------------------------------
@@ -1483,38 +1524,47 @@ if sel=1 then goto karin_qa05_b
 #--------------------------------------------------
 label	karin_qa05_a
 
+#「その時は……責任を取る」
 ＠Itsuki
-「その時は……責任を取る」
+「Once that happens... I'll take responsibility」
 
+#「そう。もちろん意味は分かってるのよね」
 ＠Karin,P02073
-「そう。もちろん意味は分かってるのよね」
+「Well, you know what that means, don't you?」
 
+#「ああ。でもそれまでに、みんなにはみんなの幸せを探してあげるつもりだ」
 ＠Itsuki
-「ああ。でもそれまでに、みんなにはみんなの幸せを探してあげるつもりだ」
+「Yeah. But until then, I'll try and find a way to make everyone happy」
 
+#「今の生活が決して望ましいモノじゃない事は、言われなくても分かってる」
 ＠Itsuki
-「今の生活が決して望ましいモノじゃない事は、言われなくても分かってる」
+「You're right, I know this lifestyle can't be very desirable」
 
+#「言葉だけなら好きなように言えるわね」
 ＠Karin,P02074
-「言葉だけなら好きなように言えるわね」
+「You can throw out all the empty words you like」
 
 @karin			#普通
 
+#「でも、まぁいいわ。答えは聞けたから」
 ＠Karin,P02075
-「でも、まぁいいわ。答えは聞けたから」
+「It doesn't matter, though. I got my answer」
 
+#「努力するさ。そして実現してみせる」
 ＠Itsuki
-「努力するさ。そして実現してみせる」
+「I'll help out. You'll see by my actions」
 
 @karin_keno		#嫌悪
 
+#「その言葉、忘れないでよ。みかんや私達のためにも」
 ＠Karin,P02076
-「その言葉、忘れないでよ。みかんや私達のためにも」
+「Don't you forget those words. For the sake of Mikan, and the rest of us」
 
 @karin_niko		#にこ
 
+#「それじゃ、邪魔したわね。おやすみなさい」
 ＠Karin,P02077
-「それじゃ、邪魔したわね。おやすみなさい」
+「Well then, pardon me for intruding. Good night」
 
 window_close
 bgm_stop
@@ -1523,9 +1573,11 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-納得した答えは得られたようで、かりんは部屋に戻って行った。
+#納得した答えは得られたようで、かりんは部屋に戻って行った。
+　Karin went back to her room, having obtained a serviceable reply.
 
-オレも改めて、今の生活の維持ではなく、改善に努めるように心がけないとな。
+#オレも改めて、今の生活の維持ではなく、改善に努めるように心がけないとな。
+　As for me, it's time I focused not just keeping the status quo, but improving their lot here.
 
 @chara_clear		#保険
 @bg_black
@@ -1539,54 +1591,68 @@ return
 #--------------------------------------------------
 label	karin_qa05_b
 
+#「正直、先のことは分からないな」
 ＠Itsuki
-「正直、先のことは分からないな」
+「To be honest, I'm not sure what I would do」
 
 @karin_odoroki		#驚
 
+#「わ…分からないですって……？」
 ＠Karin,P02078
-「わ…分からないですって……？」
+「Y-you say you're not sure...?」
 
-その答えに驚いて、そして徐々にかりんの目が険しくなっていく。
+#その答えに驚いて、そして徐々にかりんの目が険しくなっていく。
+　Taken aback my reply, Karin's eyes steadily acquire a severe look.
 
 @karin_keno		#嫌悪
 
+#「言うに事欠いて、そんないい加減な考えでみかんや私達をっ……！」
 ＠Karin,P02079
-「言うに事欠いて、そんないい加減な考えでみかんや私達をっ……！」
+「That was uncalled for, you're looking after Mikan and us with a total lack of...!」
 
+#「ちょま、待てッ……誤解だ！　まずはちょっと聞いてくれ！」
 ＠Itsuki
-「ちょま、待てッ……誤解だ！　まずはちょっと聞いてくれ！」
+「W-wait... you've misunderstood! Hear me out first!」
 
 #@karin_komikaru_ikari	#コミカル怒
 @karin_ikari		#怒
 
+#「誤解ねぇ……いいわ、聞こうじゃない～～～～～ッ（ガルルルッ」
 ＠Karin,P02080
-「誤解ねぇ……いいわ、聞こうじゃない～～～～～ッ（ガルルルッ」
+「Misunderstood, huh...? fine, I simply must hear this one out～～～～～ (growl)」
 
-ヤベ、シリアスなのにすげぇ唸ってる………下手を言うと喉笛を噛み切られそうだ。
+#ヤベ、シリアスなのにすげぇ唸ってる………下手を言うと喉笛を噛み切られそうだ。
+　Crap, even with the serious mood, she's really growling... she could rip my throat off if I say the wrong thing.
 
+#「さっきかりんが言った〝責任〟っていうのは、もちろんオレが背負っていくものだ」
 ＠Itsuki
-「さっきかりんが言った〝責任〟っていうのは、もちろんオレが背負っていくものだ」
+「It's true, like you said, that a certain "responsibility" will fall to my shoulders」
 
+#「でも未来のことを考えたとき、真っ先にその答えを出すのはダメだと思ってる」
 ＠Itsuki
-「でも未来のことを考えたとき、真っ先にその答えを出すのはダメだと思ってる」
+「But thinking about the future, I wouldn't be able to provide such an answer up front」
 
 @karin_keno		#嫌悪
 
+#「…………」
 ＠Karin,P02081
-「…………」
+「......」
 
+#「責任を取るために暮らしてるわけじゃないからな」
 ＠Itsuki
-「責任を取るために暮らしてるわけじゃないからな」
+「I don't live out every day here for the sake of taking responsibility」
 
+#「こんな生活でも、みんなにはそれぞれの幸せな生活を見つけて欲しいって思ってるんだ」
 ＠Itsuki
-「こんな生活でも、みんなにはそれぞれの幸せな生活を見つけて欲しいって思ってるんだ」
+「Even with this lifestyle, I want everyone here to be able to find their own happiness」
 
+#「……具体的にどうするつもりよ」
 ＠Karin,P02082
-「……具体的にどうするつもりよ」
+「...What will you do, realistically speaking?」
 
+#「いや、それはまだ、模索中かな……」
 ＠Itsuki
-「いや、それはまだ、模索中かな……」
+「Well, I'm still looking for an answer...」
 
 @karin_kanashimi	#哀
 #///////////////////////////////////////////////////////
@@ -1597,67 +1663,85 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#「はぁ……」
 ＠Karin,P02083
-「はぁ……」
+「Sigh...」
 
-その答えに、かりんが溜め息を吐いた。
+#その答えに、かりんが溜め息を吐いた。
+　Karin heaved a drawn-out sigh at my reply.
 
 layer_movepass_init	l_karin,0	#演出初期化
 
+#「それって結局、何も考えてないのと変わらないじゃない」
 ＠Karin,P02084
-「それって結局、何も考えてないのと変わらないじゃない」
+「In the end, that's the same as if you hadn't thought about it at all」
 
+#「はは……でも心構えがあるかないかの違いはあるぞ」
 ＠Itsuki
-「はは……でも心構えがあるかないかの違いはあるぞ」
+「Haha... but at least my heart's ready for it」
 
+#「ノミの差ね」
 ＠Karin,P02085
-「ノミの差ね」
+「That's besides the point」
 
 @karin_niko		#にこ
 
+#「でもまぁ、そんな風に向上心があるのは感心してあげるわ」
 ＠Karin,P02086
-「でもまぁ、そんな風に向上心があるのは感心してあげるわ」
+「But, I guess I can admire having such lofty ambitions」
 
+#「確かに初めから責任を取る覚悟で生活をされてるのも、あんまりいい気はしないものね」
 ＠Karin,P02087
-「確かに初めから責任を取る覚悟で生活をされてるのも、あんまりいい気はしないものね」
+「I suppose that living with a resolve to take responsibility from the start, doesn't seem all that swell」
 
+#「それはどうも……。満足してくれたか？」
 ＠Itsuki
-「それはどうも……。満足してくれたか？」
+「I appreciate that... now, are you satisfied?」
 
+#「ええ」
 ＠Karin,P02088
-「ええ」
+「Yes」
 
-満足した答えを得られたようで、「ガルルル」唸りから一転安堵をみせるかりん。
+#満足した答えを得られたようで、「ガルルル」唸りから一転安堵をみせるかりん。
+　Taking a full turn from her beast-like growl, Karin looked relieved with the reply she got.
 
+#「あとは、ちゃんと有言実行をしてもらうだけね」
 ＠Karin,P02089
-「あとは、ちゃんと有言実行をしてもらうだけね」
+「Just don't forget to put your words into action」
 
+#「努力するよ。大切なかりん達の将来のためだからな」
 ＠Itsuki
-「努力するよ。大切なかりん達の将来のためだからな」
+「I'll do my best. It's for my dear girls' future, after all」
 
 @karin_warai		#笑
 
+#「ん……」
 ＠Karin,P02090
-「ん……」
+「Mh...」
 
 #（//恥ずかしさと嬉しさで漏れた吐息）
 
 @karin			#普通
 
+#「それじゃ、私はもう部屋に戻るわよ。あなたに襲われない内に」
 ＠Karin,P02091
-「それじゃ、私はもう部屋に戻るわよ。あなたに襲われない内に」
+「Well then, I'll head back to my room. Before you can lay your hands on me」
 
+#「やっぱ信用ゼロだな……。本当に襲ってしまうぞ」
 ＠Itsuki
-「やっぱ信用ゼロだな……。本当に襲ってしまうぞ」
+「You have absolutely zero faith in me... I really will do it, you know」
 
+#「残念、イヤよ。眠いからもう今日は大人しく寝かせて」
 ＠Karin,P02092
-「残念、イヤよ。眠いからもう今日は大人しく寝かせて」
+「Sorry, but no thanks. I'm sleepy so let me rest peacefully tonight」
 
+#「それじゃ、おやすみなさい」
 ＠Karin,P02093
-「それじゃ、おやすみなさい」
+「Well then, good night」
 
+#「ん、おやすみ、かりん」
 ＠Itsuki
-「ん、おやすみ、かりん」
+「Yeah, good night, Karin」
 
 window_close
 bgm_stop
@@ -1666,14 +1750,18 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-挨拶を残して、かりんは自分の部屋に戻って行った。
+#挨拶を残して、かりんは自分の部屋に戻って行った。
+　Waving good night, Karin went back to her own room.
 
-最初真剣な剣幕だったけど、安心させられたようでオレもホッとした。
+#最初真剣な剣幕だったけど、安心させられたようでオレもホッとした。
+　I breathed a sigh of relief that I was able put her at ease, after her initial stern look.
 
+#「……眠いからイヤって、眠くなかったらＯＫだったのか？」
 ＠Itsuki
-「……眠いからイヤって、眠くなかったらＯＫだったのか？」
+「...So, if she didn't want to since she was sleepy, would it have been OK if she wasn't?」
 
-今さらそんな事を思ったが、当然答えは返ってこなかった。
+#今さらそんな事を思ったが、当然答えは返ってこなかった。
+　I ponder that a little late, no clear reply forthcoming.
 
 @chara_clear		#保険
 @bg_black
