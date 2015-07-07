@@ -3,6 +3,7 @@ label	training_karin_fera
 #SCRIPT IGNORE
 #@training_anime_release
 #SCRIPT SKIP JAPANESE LINES 1
+select_icon_init
 #SCRIPT IGNORE END
 
 skip_untranslated_training=0
@@ -27,6 +28,10 @@ seishin=seishin-40*t_karin_fera_cnt
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
+
 @training_karin_load
 
 return
@@ -36,6 +41,10 @@ label	training_karin_fera1
 #// 08/09/06
 #// Kobayashi
 #// かりんシナリオ_フェラチオ-初回
+
+#SCRIPT IGNORE
+@training_anime_release
+#SCRIPT IGNORE END
 
 scene_start	"かりんフェラチオ１"
 @bgm10
