@@ -12,7 +12,10 @@ if _MONTH=9 and _DAY=29  and route_chara=4 then goto training_in_hikari
 if training_count=0 then gosub	training_in_1	#みかん2回目の調教
 if training_count=1 then gosub	training_in_2	#みかん3回目の調教
 if training_count=2 then gosub	training_in_5	#みかん4回目の調教
-if training_count=3 then gosub	training_in_6	#みかん5回目の調教
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 1
+if training_count=3 then gosub	training_in_9	#みかん5回目の調教
+#SCRIPT IGNORE END
 if training_count=4 then gosub	training_in_7	#みかん6回目の調教
 if training_count=5 then gosub	training_in_8	#みかん7回目の調教
 if training_count=6 then gosub	training_in_3	#雫さらわれ後 いちごかりん選択調教
@@ -470,7 +473,7 @@ label	training_in_2
 
 #「……とりあえず今の会話、どこをツッコめばいいんでしょ」
 ＠Itsuki
-「...How would you like rudely sticking into the conversation today?」
+「...How would you like to rudely stick your remarks into the conversation today?」
 
 #「んふふ、気持ちは分かるけど、突っ込むのはみかんにしてあげな。それが仕事なんだから」
 ＠Shizuku,S00252
@@ -672,7 +675,7 @@ label	training_in_4
 
 #「子供達には私から声をかけておきますから、樹さんは部屋の方に行っていてください」
 ＠Miu,B00112
-「I'll call the children, so you can go ahead to the training room」
+「I'll call the kids, so you can go ahead to the training room」
 
 #「分かった。頼むよ」
 ＠Itsuki
@@ -1291,6 +1294,20 @@ label	training_in_8_c
 
 #（キャラ選択へ）→以下ループ
 goto	training_in_8_a
+
+############################################################################
+#Modification to remove redundant training_in scene
+#Time of occurence: February 10
+#------------------------------------------------------------
+
+#SCRIPT IGNORE
+label	training_in_9
+
+@bg_black
+@training_charasel
+if training_chara=0 then return
+return
+#SCRIPT IGNORE END
 
 #ひかり用####################################################################
 label	training_in_hikari
