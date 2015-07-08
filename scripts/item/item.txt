@@ -228,7 +228,7 @@ goto	itemuse_skip
 #（栄養ドリンク）#############################################################
 label	itemuse_drink
 
-　Gave her a nutrient drink. <br>She said it tasted funny, but still finished it.
+　Gave her a nutrient drink. She said it tasted funny, but still finished it.
 
 add_kenkou=add_kenkou*2
 window_close
@@ -253,7 +253,7 @@ goto	itemuse_skip
 #（成長の実）#################################################################
 label	itemuse_seichounomi
 
-　Gave her the fruit of growth. <br>
+　Gave her the fruit of growth.
 
 add_kenkou=add_kenkou*10
 window_close
@@ -278,7 +278,7 @@ goto	itemuse_skip
 #（ぬいぐるみ）###############################################################
 label	itemuse_doll
 
-　Gave her an adorable stuffed animal.<br>She seems very happy.
+　Gave her an adorable stuffed animal. She seems very happy.
 
 add_kiryoku=add_kiryoku*1
 window_close
@@ -303,7 +303,7 @@ goto	itemuse_skip
 #（ぁゃιぃクスリ）###########################################################
 label	itemuse_drug
 
-　Gave her some strange medicine.<br>She drank it with much resistance.
+　Gave her some strange medicine. She drank it with much resistance.
 
 add_kiryoku=add_kiryoku*2
 window_close
@@ -379,7 +379,7 @@ goto	itemuse_skip
 label	itemuse_book3
 add_atama=add_atama*3
 
-　Gave her a super hard problem set.<br>She'll be a genius if she solves them.
+　Gave her a super hard problem set. She'll be a genius if she solves them.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -403,7 +403,7 @@ goto	itemuse_skip
 #（おなかでふるえるベルト）###################################################
 label	itemuse_belt
 
-　Gave her a vibrating belt to make some sick abs.<br>I wonder if it works...?
+　Gave her a vibrating belt to make some sick abs. I wonder if it works...?
 
 add_karada=add_karada*1
 
@@ -429,7 +429,7 @@ goto	itemuse_skip
 #（元軍人さんの体操ビデオ）###################################################
 label	itemuse_sportsvideo
 
-　Gave her a fun exercise video with the military.<br>It might work well with a diet.
+　Gave her a fun exercise video with the military. It might work well with a diet.
 
 add_karada=add_karada*2
 
@@ -455,7 +455,7 @@ goto	itemuse_skip
 #（なにかの養成ギプス）#######################################################
 label	itemuse_gibusu
 
-　Gave her a muscle suit fitted with awfully tight springs.<br>She'll be a star of sorts if she wears it a lot...
+　Gave her a training suit fitted with awfully tight springs. She'll be a star of sorts if she wears it a lot...
 
 add_karada=add_karada*3
 
@@ -481,7 +481,7 @@ goto	itemuse_skip
 #（きれいな手鏡）#############################################################
 label	itemuse_mirror
 
-　Gave her a mirror with shiny ornaments.<br>She seems very happy.
+　Gave her a mirror with shiny ornaments. She seems very happy.
 
 add_kokoro=add_kokoro*1
 
@@ -507,7 +507,7 @@ goto	itemuse_skip
 #（アイドル写真集「ジ・アイドルマイスター写真集」）##########################
 label	itemuse_photobook
 
-　Gave her a gravure magazine of girls about the same age.<br>She's reading it very interested.
+　Gave her a gravure magazine of girls about the same age. She's reading it very interested.
 
 add_kokoro=add_kokoro*2
 
@@ -533,7 +533,7 @@ goto	itemuse_skip
 #（エッチな本「SMドエロ大魔神」）#############################################
 label	itemuse_erobook
 
-　Gave her a pretty maniacal porn magazine.<br>She said she didn't want it at first, but ended up taking it back to her room.
+　Gave her a pretty maniacal porn magazine. She said she didn't want it at first, but ended up taking it back to her room.
 
 add_kokoro=add_kokoro*3
 
@@ -560,7 +560,7 @@ goto	itemuse_skip
 # ショップでは買えない？　一応入れておきます。
 label	itemuse_visualbook
 
-　Gave her a picture book about the joys of hard work.<br>She starts spouting keener nonsense, seemingly moved by the book.
+　Gave her a picture book about the joys of labour. She starts spouting keener nonsense, seemingly moved by the book.
 
 window_close
 if itemuse_chara=1 then voice "A01692sys"
@@ -573,7 +573,7 @@ wait	2000
 @item_effect_2
 wait	1000
 
-　Payrise for part-time work!
+　Pay rise for part-time work!
 
 #（統合へ）
 goto	itemuse_skip
@@ -643,7 +643,7 @@ return
 
 macro	itemuse_charasel
 
-　Who should I use it on...
+　Who to use it on...?
 
 itemuse_chara=0
 
