@@ -413,7 +413,7 @@ label	mikan_kenkou_a2
 「Thanks for the meal...」
 
 #朝食を食べ初めて半ば、食事の大半を残したまま、みかんが箸を置いた。
-　As we'd started having breakfast, Mikan put aside her chopsticks with a good amount food left on the plate.
+　Mikan put aside her chopsticks, most of the food left half-eaten on her plate.
 
 @mikan_kanashimi	#哀
 
@@ -423,7 +423,7 @@ label	mikan_kenkou_a2
 
 #「大丈夫？　風邪かしら……ちょっと体温計を持ってくるわね」
 ＠Miu,B01473
-「Are you alright? Maybe you have a cold... hang on, I'll get a thermometer」
+「Are you alright? Maybe you have a cold... hold on, I'll get a thermometer」
 
 #パタパタと美雨がリビングの方へ消えていく。
 　The sound of Miu's footsteps recedes toward the living room.
@@ -465,7 +465,7 @@ label	mikan_kenkou_a2
 　May as well leave them to it, having their usual exchange.
 
 #みかんは気になるな………必要そうなら休みを入れてやった方がいいかもしれない。
-　I'm worried about Mikan though... I ought to give her a break if she needs it.
+　I'm worried about Mikan, though... I should give her a break next time.
 
 @bg_black
 @open_schedule
@@ -695,37 +695,48 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#「はぁぁ……」
 ＠Mikan,A01481
-「はぁぁ……」
+「Haaa...」
 
-廊下に出ると、いきなりため息をつくみかんが目に付いた。
+#廊下に出ると、いきなりため息をつくみかんが目に付いた。
+　Stepping into the hallyway, I found Mikan sighing.
 
+#「どうした、みかん。元気無さそうだぞ」
 ＠Itsuki
-「どうした、みかん。元気無さそうだぞ」
+「What's wrong, Mikan? You don't look so great」
 
+#「……お兄ちゃん。うん、何かね、頭が痛いの……」
 ＠Mikan,A01482
-「……お兄ちゃん。うん、何かね、頭が痛いの……」
+「...Onii-chan. Yeah, my head hurts a bit...」
 
+#「頭が……？」
 ＠Itsuki
-「頭が……？」
+「Your head...?」
 
-少し辛そうな表情で眉を寄せると、頭を押さえるみかんが俯いた。
+#少し辛そうな表情で眉を寄せると、頭を押さえるみかんが俯いた。
+　Mikan looked down, holding her head with her hand, and grimacing.
 
+#「熱は？」
 ＠Itsuki
-「熱は？」
+「Do you have a fever?」
 
 @mikan_kusyou		#苦笑
 
+#「大丈夫……あ、だから心配しないで。さっきお薬飲んだから、すぐ治ると思う」
 ＠Mikan,A01483
-「大丈夫……あ、だから心配しないで。さっきお薬飲んだから、すぐ治ると思う」
+「I'm OK... ah, so don't worry. I just took some medicine, I'll be better soon」
 
+#「そうか？　無理しないようにな」
 ＠Itsuki
-「そうか？　無理しないようにな」
+「You did? Don't push yourself」
 
+#「うん、分かった………」
 ＠Mikan,A01484
-「うん、分かった………」
+「Yeah, I know...」
 
-頼りない足取りで歩いていった。
+#頼りない足取りで歩いていった。
+　She walked away unsteadily.
 
 @bg_black
 @open_schedule
@@ -838,11 +849,11 @@ label	mikan_kenkou_c2
 @bg_living		# リビング
 
 #リビングの背もたれに身体を沈め、みかんが眠そうに伸びていた。
-　Sinking into the living room chair, Mikan stretched looking sleepy.
+　Mikan stretched out groggily, sinking into the living room chair.
 
 #「珍しいな、みかんがこんな所で」
 ＠Itsuki
-「Unusual finding you here, Mikan」
+「What are you doing here, Mikan?」
 
 @mikan_small
 @mikan_shifuku
@@ -850,14 +861,14 @@ label	mikan_kenkou_c2
 
 #「ん……風邪引いちゃうかな」
 ＠Mikan,A01494
-「Mhh... I wonder if I'm gonna catch a cold」
+「Nh... I wonder if I'm gonna catch a cold」
 
 #「あぁ、寝るなら部屋で寝た方がいい。けど、具合悪そうだぞ。平気か？」
 ＠Itsuki
 「Yeah, it's best to go to sleep in your room. You don't look so good, though. Are you okay?」
 
 #ただ眠くて伸びているのと違い、ちょっと顔色が悪い。
-　Rather than just stretching sleepily, her complexion's a bit pale.
+　She's not just stretching, her complexion's also a bit pale.
 
 @mikan_kusyou		#苦笑
 
@@ -867,7 +878,7 @@ label	mikan_kenkou_c2
 
 #「顔色も悪いな……」
 ＠Itsuki
-「You look kind of pale too...」
+「You look a little pale too...」
 
 #window_close
 @mikan_
@@ -876,24 +887,24 @@ wait		500
 @mikan_kanashimi	#哀
 
 #ピトッとおでこに手を当ててみるが、熱は無いようだ。
-　I put my hand gently to her forehead, and it looks like she doesn't have a fever.
+　I put my hand gently to her forehead, but she doesn't seem to have a fever.
 
 #「風邪の引き始めかもしれないな……。なおさらこんな場所じゃなく、部屋に戻った方がいいぞ」
 ＠Itsuki
-「It might be a cold coming on... all the more reason for you to head back to your room, instead of being here」
+「It might be a cold coming on... all the more reason for you to go back to your room」
 
 @mikan			#普通
 
 #「う～ん……でもお兄ちゃんの組んでくれた予定があるし」
 ＠Mikan,A01496
-「Mhhm... but I have things to do that Onii-chan planned for me」
+「Mhhm～... but I have so much stuff to do, that Onii-chan planned for me」
 
 #ソファーから身を起こし立ち上がる。足取りはしっかりしてるようだが……
-　She rouses herself from the sofa and stands up. She looks steady on her feet, but...
+　She rouses herself from the sofa and gets up. She looks steady on her feet, but...
 
 #「無理はするなよ？　ダメそうだったら気にせず休んでいいんだから」
 ＠Itsuki
-「Don't push yourself too hard. If it feels like too much, you can go rest without worrying about it」
+「Don't push yourself. If it's too hard, you can go rest and don't worry about it」
 
 @mikan_warai2		#笑2
 
@@ -909,10 +920,10 @@ bgm_stop
 
 #「オレの立てた予定か……」
 ＠Itsuki
-「The things I planned for her, huh...」
+「So much stuff to do, huh...」
 
 #次の休息はいつになってたかな……無ければ入れてやった方がいいだろう。
-　When's her next break, again...? I should put one in if I haven't already.
+　When's her next break, again...? I should put one in, if I didn't already.
 
 @bg_black
 #（スケジュール）
@@ -933,37 +944,46 @@ label	mikan_kenkou_d1
 #■BG（みかんの部屋）
 @bg_mikan		# みかんの部屋
 
-出かけ先でみかんが倒れ、急遽部屋へと運ばれて来た。
+#出かけ先でみかんが倒れ、急遽部屋へと運ばれて来た。
+　We rushed Mikan to her room, after she fainted just before going out.
 
 @miu_komaru		#閉_困
 @mikan_kanashimi	#哀
 
+#「……熱があるみたいね。今日は一日ゆっくり休んだ方がいいわ」
 ＠Miu,B01481
-「……熱があるみたいね。今日は一日ゆっくり休んだ方がいいわ」
+「...She has a fever. She should take it easy and rest for today」
 
+#「うん……ごめんなさい、心配かけて」
 ＠Mikan,A01505
-「うん……ごめんなさい、心配かけて」
+「Sure... Sorry for all the trouble」
 
-幸い医者はただの疲労だと言ってくれた。
-しかしそれは直接、オレがみかんを働かせすぎたことに起因する。
+#幸い医者はただの疲労だと言ってくれた。
+#しかしそれは直接、オレがみかんを働かせすぎたことに起因する。
+　Thankfully, the doctor said it's just fatigue. But that meant I'd overworked her.
 
+#「お兄ちゃんも……心配かけてごめんなさい」
 ＠Mikan,A01506
-「お兄ちゃんも……心配かけてごめんなさい」
+「Onii-chan too... sorry for making you worry」
 
+#「大事じゃなくて良かったよ。そんなこと気にせずに、ゆっくり休め」
 ＠Itsuki
-「大事じゃなくて良かったよ。そんなこと気にせずに、ゆっくり休め」
+「Good thing it wasn't serious. Don't worry about that, just rest」
 
-枕元でみかんを看病する美雨と目配せする。
+#枕元でみかんを看病する美雨と目配せする。
+　I catch Miu's eye, who's nursing Mikan at her bedside.
 
 @miu			#閉_にこ
 
+#「それじゃみかんちゃん、私たちはもう行くから、何かあったら呼んでね」
 ＠Miu,B01482
-「それじゃみかんちゃん、私たちはもう行くから、何かあったら呼んでね」
+「Then Mikan, we'll be going now, call us if you need something」
 
 @mikan_yorokobi		#喜
 
+#「うん。ありがと、美雨さん、お兄ちゃん」
 ＠Mikan,A01507
-「うん。ありがと、美雨さん、お兄ちゃん」
+「Sure. Thanks, Miu-san. Onii-chan」
 
 #■BG（廊下）
 #SE07　部屋のドア閉まる音（パタン）
@@ -972,47 +992,58 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 @bg_rouka		# 廊下
 
-ベッドに入るみかんを見届けて、美雨と二人で部屋を出る。
+#ベッドに入るみかんを見届けて、美雨と二人で部屋を出る。
+　Taking a last look at Mikan in bed, I left the room with Miu.
 
 @miu_komaru		#閉_困
 
+#「樹さん、あまり子供たちに無理はさせないでください」
 ＠Miu,B01483
-「樹さん、あまり子供たちに無理はさせないでください」
+「Itsuki-san, please don't work the kids too hard」
 
 @miu_kanashimi		#閉_哀
 
+#「それでなくても、やってる行為自体が、みかんちゃんにはかなりの負担になってると思いますから……」
 ＠Miu,B01484
-「それでなくても、やってる行為自体が、みかんちゃんにはかなりの負担になってると思いますから……」
+「Beyond that, the thing itself you asked her to do, seems to have burdened her quite a bit...」
 
+#「悪かった……オレのせいだな。体調が悪そうなのは分かってたのに……」
 ＠Itsuki
-「悪かった……オレのせいだな。体調が悪そうなのは分かってたのに……」
+「Sorry... it's my fault. I knew that she was getting worn-out...」
 
+#「幸い大事にはなりませんでしたら、安心しましたけど」
 ＠Miu,B01485
-「幸い大事にはなりませんでしたら、安心しましたけど」
+「Luckily it didn't turn out to be serious, but I was worried」
 
 @miu_ikari		#閉_怒
 
+#「樹さんも大変だとは思いますが、もう少し注意をお願いします」
 ＠Miu,B01486
-「樹さんも大変だとは思いますが、もう少し注意をお願いします」
+「I know it's important to you, but please be a little more careful」
 
-いつになく真剣な美雨。
-本当の娘のような心配ぶりに、原因のオレは謝ることしか出来ない。
+#いつになく真剣な美雨。
+#本当の娘のような心配ぶりに、原因のオレは謝ることしか出来ない。
+　Miu's quite stern. I could only apologize, at her honest girlish heartache.
 
+#「分かった」
 ＠Itsuki
-「分かった」
+「Understood」
 
+#「後はオレに任せて美雨は用事に戻っていいよ。みかんの看病は責任を持ってやるから」
 ＠Itsuki
-「後はオレに任せて美雨は用事に戻っていいよ。みかんの看病は責任を持ってやるから」
+「I'll take it from here, you can get back to your duties. I'll cover for nursing Mikan」
 
 @miu			#閉_にこ
 
+#「はい。それでは、あとのことはお願いします」
 ＠Miu,B01487
-「はい。それでは、あとのことはお願いします」
+「OK. Well then, I'll leave the rest to you」
 
 bgm_stop
 @miu_
 
-いつもの穏やかな表情に戻ると、美雨は家事の人へと戻っていった。
+#いつもの穏やかな表情に戻ると、美雨は家事の人へと戻っていった。
+　Her usual serene features return, and Miu gets back to being the house-lady.
 
 @bg_black
 @open_schedule
@@ -1030,53 +1061,68 @@ label	mikan_kenkou_d2
 #■BG（廊下）
 @bg_rouka		# 廊下
 
-みかんが倒れたと聞いて部屋へ向かっていると、途中美雨と鉢合わせた。
+#みかんが倒れたと聞いて部屋へ向かっていると、途中美雨と鉢合わせた。
+　I heard Mikan fainted and was on my way to her room, when I ran into Miu.
 
 @miu_ikari		#閉_怒
 
+#「樹さん……」
 ＠Miu,B01477
-「樹さん……」
+「Itsuki-san...」
 
-その手の中にみかんが抱かれている。
+#その手の中にみかんが抱かれている。
+　She's holding Mikan in her arms.
 
+#「大丈夫、眠ってるだけですから」
 ＠Miu,B01478
-「大丈夫、眠ってるだけですから」
+「Don't worry, she's just asleep」
 
+#「そ、そっか……良かった」
 ＠Itsuki
-「そ、そっか……良かった」
+「O-oh... that's a relief」
 
+#「とりあえず病院で診てもらってきました。疲労による貧血だそうです」
 ＠Miu,B01479
-「とりあえず病院で診てもらってきました。疲労による貧血だそうです」
+「I took her to the hospital to see a doctor. She had anemia brought on by fatigue」
 
+#「………」
 ＠Itsuki
-「………」
+「......」
 
-言葉には出さないが、美雨の視線で思っていることは分かる。
-みかんが疲労で倒れたのは今回が初めてじゃない。
+#言葉には出さないが、美雨の視線で思っていることは分かる。
+#みかんが疲労で倒れたのは今回が初めてじゃない。
+　She doesn't say it, but I know what Miu's thinking. This isn't the first time Mikan's collapsed from fatigue.
 
+#「悪い、美雨。あとはオレがやるよ」
 ＠Itsuki
-「悪い、美雨。あとはオレがやるよ」
+「Sorry, Miu. I'll take it from here」
 
 @bg_black
 wait		1000
 
-眠ったままのみかんを慎重に美雨から受け取った。
+#眠ったままのみかんを慎重に美雨から受け取った。
+　I carefully took Mikan, sound asleep, from Miu.
 
+#「ん、ぅん……」
 ＠Mikan,A01504
-「ん、ぅん……」
+「Nh, uhn...」
 
-軽い体重がオレの腕の中でモゾモゾと寝返りを打つ。
+#軽い体重がオレの腕の中でモゾモゾと寝返りを打つ。
+　Her lightweight body stirs a bit sleepily in my arms.
 
 #CH（美雨・真剣）
 @miu_ikari2		#開_怒
 @bg_rouka		# 廊下
 
+#「樹さん、よろしくお願いします」
 ＠Miu,B01480
-「樹さん、よろしくお願いします」
+「Itsuki-san, please take care of her」
 
-真剣なその言葉は、看病の事だけでなく、体調管理の事も含められているだろう。
+#真剣なその言葉は、看病の事だけでなく、体調管理の事も含められているだろう。
+　Her deliberate words refer not just to nursing her back to health, but also managing her physical condition.
 
-オレは頭の中でみかんのスケジュールを考え直しながら部屋まで運んでいった。
+#オレは頭の中でみかんのスケジュールを考え直しながら部屋まで運んでいった。
+　I carried her along to the room, while rethinking Mikan's schedule in my head.
 
 @bg_black
 @open_schedule
@@ -1289,22 +1335,27 @@ label	mikan_kenkou_e2
 #■BG（リビング）
 @bg_living		# リビング
 
-リビングのテレビの前でみかんが座り込んでいた。
+#リビングのテレビの前でみかんが座り込んでいた。
+　Mikan was plopped down in front of the living room TV.
 
+#「ん？　何をそんなに見てるんだ、みかん？」
 ＠Itsuki
-「ん？　何をそんなに見てるんだ、みかん？」
+「Hm? What's so interesting there, Mikan?」
 
 @mikan_small
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#「………え？」
 ＠Mikan,A01508
-「………え？」
+「...Eh?」
 
-呼びかけに応じてこちらを見上げる表情には、いつもの元気さが無かった。
+#呼びかけに応じてこちらを見上げる表情には、いつもの元気さが無かった。
+　Her expression, upon looking up at my call, lacked its usual energy.
 
+#「あ、別にテレビを見てたんじゃないんだけど……ちょっと身体が寒いの」
 ＠Mikan,A01509
-「あ、別にテレビを見てたんじゃないんだけど……ちょっと身体が寒いの」
+「Ah, I wasn't really watching anything... I feel kind of cold」
 
 #///////////////////////////////////////////////////////
 layer_movepass_add	l_mikan,0,	50,	-4,0
@@ -1319,42 +1370,52 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-自分の腕を抱くようにして身体に手を回す。
+#自分の腕を抱くようにして身体に手を回す。
+　She hugs herself and rubs her hand around her body.
 
+#「いつからだ？」
 ＠Itsuki
-「いつからだ？」
+「Since when?」
 
+#「……んと、朝起きたときから……」
 ＠Mikan,A01510
-「……んと、朝起きたときから……」
+「...Erm, ever since I woke up...」
 
+#「何で早く言わないんだ」
 ＠Itsuki
-「何で早く言わないんだ」
+「You should've said something」
 
 @mikan_
 
-頬やおでこに手を当てて体温を測る。
-……何か微妙だが、少なくとも顔色はちょっと悪いな。
+#頬やおでこに手を当てて体温を測る。
+#……何か微妙だが、少なくとも顔色はちょっと悪いな。
+　I put my hand to her cheek and forehead to check her temperature. I can't say for sure, but her complexion doesn't look good.
 
 @mikan_middle		# 中間
 @mikan_kusyou		#苦笑
 
+#「平気だよ……」
 ＠Mikan,A01511
-「平気だよ……」
+「I'll be OK...」
 
+#「平気な内に休んでおかないと、本格的に悪くなってからじゃ辛いぞ？」
 ＠Itsuki
-「平気な内に休んでおかないと、本格的に悪くなってからじゃ辛いぞ？」
+「If you don't take it easy and rest now, it'll get worse later on」
 
 @mikan_yorokobi		#喜
 
+#「うん……無理しないようする。ありがと、お兄ちゃん」
 ＠Mikan,A01512
-「うん……無理しないようする。ありがと、お兄ちゃん」
+「Sure... I'll take it easy. Thanks, Onii-chan」
 
 @mikan_
 
-先週末に割り振ったスケジュールに従い、みかんはリビングを後にして行く。
+#先週末に割り振ったスケジュールに従い、みかんはリビングを後にして行く。
+　As per her assigned schedule, Mikan takes off from the living room.
 
-風邪の引き始めだろうか。
-……注意して見てやってた方がいいな。
+#風邪の引き始めだろうか。
+#……注意して見てやってた方がいいな。
+　She's coming down with a cold... I should be more careful.
 
 @bg_black
 

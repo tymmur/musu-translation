@@ -1011,7 +1011,7 @@ label	karin_kenkou_c2
 
 #「ガーーーンッ！！」
 ＠Ichigo,O01705
-「Shock！！」
+「Nooooo!!」
 
 #少々食べ過ぎのような気もするが。
 　I can't help but feel she overate, anyway.
@@ -1077,7 +1077,7 @@ label	karin_kenkou_c2
 
 #「っく、脛を蹴るなッ……何も調子なんか悪くなさそうじゃないか」
 ＠Itsuki
-「Ugh, don't kick me in the shin... you seem to pretty lively to me」
+「Ugh, don't kick me in the shin... you seem pretty lively to me」
 
 #「じゃ、やっぱり呪いなんじゃない？」
 ＠Zakuro,Q01029
@@ -1203,7 +1203,7 @@ wait		500
 @bg_black
 
 #狙っていたように代わりに食べ始めるざくろに、いちごが対抗して騒ぎ出す。
-　A struggle breaks out between Ichigo and Zakuro, who instead begean eating it like she wanted it for herself.
+　A struggle breaks out between Ichigo and Zakuro, who instead began eating it as if she'd wanted it for herself.
 
 #そんな騒ぎの中で、かりんは食事を終えて席を立っていた。
 　In the middle of the commotion, Karin finished her meal and stood up.
@@ -1623,30 +1623,38 @@ label	karin_kenkou_e1
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-日も高い内から、廊下の角の向こうで熱っぽい声が聞こえた。
+#日も高い内から、廊下の角の向こうで熱っぽい声が聞こえた。
+　It was the middle of the day, when I heard a feverish voice behind the hallway corner.
 
+#「はぁっ、ん……みかん、ごめんね……私…」
 ＠Karin,P01710
-「はぁっ、ん……みかん、ごめんね……私…」
+「Haa, nh... Mikan, sorry... but I...」
 
+#「かりんちゃん……ん、みかんも、もう……」
 ＠Mikan,A01259
-「かりんちゃん……ん、みかんも、もう……」
+「Karin-chan... nh, me too, I can't...」
 
+#「あぅッ！　んんぅッ…はぁっ、はふぅッ…」
 ＠Mikan,A01260
-「あぅッ！　んんぅッ…はぁっ、はふぅッ…」
+「Auh! Nnhh... haa, hafh...」
 
+#「………」
 ＠Itsuki
-「………」
+「......」
 
+#「……な」
 ＠Itsuki
-「……な」
+「...Wha」
 
 #SE75　ショック音（ガーーン！）
 @SE75			#SE75　ショック音（ガーーン！）
 
-ヤッちまったーーーーーッッ！！！！
+#ヤッちまったーーーーーッッ！！！！
+　Now they've done itーーーー!!!!
 
+#（バカなッ！　冗談で流れる展開とばかり思ってたのにッ、こんな真っ昼間から、しかも廊下でッ！！）
 ＠Itsuki
-（バカなッ！　冗談で流れる展開とばかり思ってたのにッ、こんな真っ昼間から、しかも廊下でッ！！）
+（Unreal! It seemed like a funny implication, but to do it in broad daylight, and in the hallway!!）
 
 #SE19　廊下を走る音
 #■BG（ブラック）
@@ -1656,198 +1664,261 @@ label	karin_kenkou_e1
 wait		2000
 se_stop		0
 
+#「おいッ、二人とも何やって――――！！」
 ＠Itsuki
-「おいッ、二人とも何やって――――！！」
+「Hey, what are you two up――――！！」
 
 #注：立ち絵で表現できません！
 #■BG（廊下）
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
+#「って、ぉぉおおッッッ！！！」
 ＠Itsuki
-「って、ぉぉおおッッッ！！！」
+「Wait, ohhhhhhh!!!」
 
-角を曲がってみると、そこには床に倒れ伏したみかんに、かりんが覆い被さっている図！？
+#角を曲がってみると、そこには床に倒れ伏したみかんに、かりんが覆い被さっている図！？
+　I round the corner to find Karin sprawled out on top of Mikan on the ground!?
 
+#「みかん……んぅ、はぁぁっ……」
 ＠Karin,P01711
-「みかん……んぅ、はぁぁっ……」
+「Mikan... nhh, haaa...」
 
-＠Karin,P01712
-「あぅっ、ん！　あッ、お兄ちゃん……お願い、助けてぇ……ひぅんッ！」
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 1
+#＠Karin,P01712
+#「あぅっ、ん！　あッ、お兄ちゃん……お願い、助けてぇ……ひぅんッ！」
+#「Auh, nh! Ah, Onii-chan... please, help... hyun!」
+#Comment: Mikan should be speaking, and no sound file exists.
 
+Ｓｐｏｔｔｉｎｇ　ｍｅ，　Ｍｉｋａｎ　ｍｏａｎｓ　ａｎｄ　ｃｒｉｅｓ<br>
+ｏｕｔ　ｆｏｒ　ｈｅｌｐ．
+
+#SCRIPT IGNORE END
+
+#「血迷ったかかりんッ！！」
 ＠Itsuki
-「血迷ったかかりんッ！！」
+「Karin, are you out of your mind!?」
 
-張り付いたかりんをベリッ！と剥がし、下でもがいていたみかんを救出する。
+#張り付いたかりんをベリッ！と剥がし、下でもがいていたみかんを救出する。
+　Flipping off a clingy Karin, I extricated Mikan who'd been struggling underneath.
 
+#「んくッ！　はぁッ…」
 ＠Karin,P01713
-「んくッ！　はぁッ…」
+「Nkh! Haa...」
 
-その際にゴロンと転がったかりんは、そのまましりもちをついて熱い溜め息を吐いた。
+#その際にゴロンと転がったかりんは、そのまましりもちをついて熱い溜め息を吐いた。
+　Karin, who'd rolled over at that point, lay on her backside and took a hot breath.
 
+#「大丈夫か、みかん！？」
 ＠Itsuki
-「大丈夫か、みかん！？」
+「Are you okay, Mikan!?」
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
+#「う、うん、ありがとお兄ちゃん。でもかりんちゃんが」
 ＠Mikan,A01261
-「う、うん、ありがとお兄ちゃん。でもかりんちゃんが」
+「Y-yeah, thanks Onii-chan. But, Karin-chan is...」
 
+#「はぁぁ、ん……身体が熱いわ……」
 ＠Karin,P01714
-「はぁぁ、ん……身体が熱いわ……」
+「Haaa, nh... my body's so hot...」
 
+#「まだ何か危険なこと言ってるじゃないか……近寄るなみかん」
 ＠Itsuki
-「まだ何か危険なこと言ってるじゃないか……近寄るなみかん」
+「She's still spouting loony stuff... stay away from her, Mikan」
 
 @mikan_
 
-衣服の乱れたまま近寄ろうとするみかんを制し、代わりにかりんの側に屈み込む。
+#衣服の乱れたまま近寄ろうとするみかんを制し、代わりにかりんの側に屈み込む。
+　I hold off Mikan, trying to get closer her clothes a mess, and lean over Karin instead.
 
+#「おいかりん、冗談にしてもこれは度が………ん？」
 ＠Itsuki
-「おいかりん、冗談にしてもこれは度が………ん？」
+「Hey, Karin. If you meant this as a joke, I hope you know... hm?」
 
+#「………」
 ＠Karin,P01715
-「………」
+「......」
 
-赤い顔でこっちを睨み上げるかりんの息が、僅かに切れている。
+#赤い顔でこっちを睨み上げるかりんの息が、僅かに切れている。
+　With flushed cheeks Karin glares up at me, her breathing shallow.
 
-熱っぽい、というか、本気で熱があるようだ。
+#熱っぽい、というか、本気で熱があるようだ。
+　Feverish, or should I say, she really might have a fever.
 
+#「かりんちゃん、熱を出しちゃったから、みかんが部屋まで運んでたの」
 ＠Mikan,A01262
-「かりんちゃん、熱を出しちゃったから、みかんが部屋まで運んでたの」
+「Karin started feeling sick, so I was helping her to her room」
 
+#「その途中で足がもつれて、倒れこんじゃったんだけど……」
 ＠Mikan,A01263
-「その途中で足がもつれて、倒れこんじゃったんだけど……」
+「We were walking, and our legs got tangled up and we fell...」
 
+#「あぁ、なるほど……それであの体勢なわけか」
 ＠Itsuki
-「あぁ、なるほど……それであの体勢なわけか」
+「Ohh, I see... that's why you were in that position」
 
 #@karin_small
 @karin_middle		# 中間
 @karin_shifuku
 @karin_keno		#嫌悪
 
+#「むぅ……あなた、何だと思ったのよ」
 ＠Karin,P01716
-「むぅ……あなた、何だと思ったのよ」
+「Mhh... what did you think was happening?」
 
+#「さては私とみかんに対して、不純な妄想を働かせていたわね」
 ＠Karin,P01717
-「さては私とみかんに対して、不純な妄想を働かせていたわね」
+「I guess you were entertaining wild fantasies about us」
 
+#「え、いや……」
 ＠Itsuki
-「え、いや……」
+「Huh, no...」
 
+#「あれ？　けど何でそれでみかんの服が乱れてるんだ」
 ＠Itsuki
-「あれ？　けど何でそれでみかんの服が乱れてるんだ」
+「Wait a minute. Then why are Mikan's clothes out of order?」
 
-とりあえず今はもう服を直しているみかん。
+#とりあえず今はもう服を直しているみかん。
+　By now Mikan's already fixing them up.
 
-確認するようにかりんを問い詰めるのだが、
+#確認するようにかりんを問い詰めるのだが、
+　I pressed Karin for an answer to be sure, but...
 
 @karin_kanashimi	#哀
 
+#「う～ん、身体がダルいわぁ……話をするのも億劫で」
 ＠Karin,P01718
-「う～ん、身体がダルいわぁ……話をするのも億劫で」
+「Unngh～, my body's so sluggish... it's tiring to speak」
 
+#「………すげぇ怪しいんだが」
 ＠Itsuki
-「………すげぇ怪しいんだが」
+「...That's pretty suspicious」
 
-とまれ、まぁ熱があるのは違えようのない事態なわけだ。
+#とまれ、まぁ熱があるのは違えようのない事態なわけだ。
+　Anyway, in the end the fact remains she does have a fever.
 
+#「しょうがない、みかんは美雨に言って冷やすものを貰ってこい。かりんはオレが連れて行くから」
 ＠Itsuki
-「しょうがない、みかんは美雨に言って冷やすものを貰ってこい。かりんはオレが連れて行くから」
+「Oh well. Mikan, go ask Miu for some ice. I'll take Karin with me」
 
 @karin_odoroki		#驚
 
+#「なッ！？　何勝手なこと言ってるのよあんたッ！」
 ＠Karin,P01719
-「なッ！？　何勝手なこと言ってるのよあんたッ！」
+「Wha!? You can't just order us around like that!」
 
+#「……熱は？」
 ＠Itsuki
-「……熱は？」
+「...Your fever?」
 
 @karin_
 
+#「ぅう～ッ、げほっ、ごほごほッ……セキまで出てきたみたい～」
 ＠Karin,P01720
-「ぅう～ッ、げほっ、ごほごほッ……セキまで出てきたみたい～」
+「Urrgh～, cough, cough cough... I'm coughing now too～」
 
+#「………」
 ＠Itsuki
-「………」
+「......」
 
-……まぁいい。とりあえず今日一日、部屋に寝かしつけておけば心配ないだろ。
+#……まぁいい。とりあえず今日一日、部屋に寝かしつけておけば心配ないだろ。
+　...Well, no problem. Just for today, I can help put her to sleep with a nice lullaby.
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
+#「それじゃお兄ちゃん、かりんちゃんよろしくね」
 ＠Mikan,A01264
-「それじゃお兄ちゃん、かりんちゃんよろしくね」
+「Then Onii-chan, Karin-chan. Good luck」
 
 @mikan_
 
-素直なみかんはオレに従い、そのまま美雨を探し去って行った。
+#素直なみかんはオレに従い、そのまま美雨を探し去って行った。
+　Obedient Mikan, like I instructed her, went to look for Miu.
 
+#「さて……」
 ＠Itsuki
-「さて……」
+「Now then...」
 
 @karin_middle		# 中間
 @karin_shifuku
 @karin_komikaru_yoku	#コミカル欲
 
+#「はぁぁ……もうちょっとだったのにぃ……」
 ＠Karin,P01721
-「はぁぁ……もうちょっとだったのにぃ……」
+「Haa... I was so close...」
 
-すがるように目をウルウルさせながら、かりんはその後ろ姿を目で追っていた。
+#すがるように目をウルウルさせながら、かりんはその後ろ姿を目で追っていた。
+　Looking deeply regretful, Karin's eyes followed Mikan's retreating figure.
 
+#「何してたんだ、結局」
 ＠Itsuki
-「何してたんだ、結局」
+「Just what did happen, anyway」
 
 @karin_kanashimi	#哀
 
+#「……見てのとおりよ。熱が出てダルかったから、みかんに付き添ってもらってたの」
 ＠Karin,P01722
-「……見てのとおりよ。熱が出てダルかったから、みかんに付き添ってもらってたの」
+「...What it looked like. I was feverish and sluggish, so Mikan was helping me along」
 
+#「そしたら偶然足が絡まっちゃって、そのままみかんに体重を掛けて床にドーンと」
 ＠Karin,P01723
-「そしたら偶然足が絡まっちゃって、そのままみかんに体重を掛けて床にドーンと」
+「And then, by chance our legs got tangled up, and I fell on Mikan and shoved her to the floor」
 
+#「……そこまでは分かるんだが、それ以降は」
 ＠Itsuki
-「……そこまでは分かるんだが、それ以降は」
+「...I get that part, but what about after that?」
 
 @karin_komikaru_yoku	#コミカル欲
 
+#「だって、ねぇ？　目の前にみかんの戸惑った顔。そしてみかんの匂い」
 ＠Karin,P01724
-「だって、ねぇ？　目の前にみかんの戸惑った顔。そしてみかんの匂い」
+「Well, you know. Mikan's troubled face before my eyes. And her smell」
 
+#「密着した身体は服越しでも互いの体温を感じさせたわ。手もちょうどみかんの胸の辺りをまさぐっていたし」
 ＠Karin,P01725
-「密着した身体は服越しでも互いの体温を感じさせたわ。手もちょうどみかんの胸の辺りをまさぐっていたし」
+「Our bodies pressed up against each other felt warm. My hand was groping right along her chest, too」
 
+#「これで何もしないなんて、女じゃないじゃないッ！」
 ＠Karin,P01726
-「これで何もしないなんて、女じゃないじゃないッ！」
+「A woman can only contain herself so much, am I right!?」
 
-男の欲望だろうが、それじゃ。
+#男の欲望だろうが、それじゃ。
+　I think, in that case, she meant a man's desires.
 
+#「とにかく、熱で理性が回っていないのは良く分かった……部屋に行くぞ」
 ＠Itsuki
-「とにかく、熱で理性が回っていないのは良く分かった……部屋に行くぞ」
+「Well, your fever's obviously clouding your judgment... come on, let's go」
 
 @karin_koufun		#興奮
 
+#「ふふっ、熱は熱でも、これはみかんに対する情欲の熱よ！」
 ＠Karin,P01727
-「ふふっ、熱は熱でも、これはみかんに対する情欲の熱よ！」
+「Fufu, fever as it may be, it's a passionate fever for Mikan」
 
+#「だったら余計に冷ませ、そんなもん」
 ＠Itsuki
-「だったら余計に冷ませ、そんなもん」
+「Go cool yourself off from that for a while」
 
 bgm_stop
 #■BG（ブラック）
 @chara_clear		#保険
 @bg_black
 
-ブツブツと文句を言うかりんを部屋に連れて行き、強引に寝かしつけた。
+#ブツブツと文句を言うかりんを部屋に連れて行き、強引に寝かしつけた。
+　Taking a grumbling Karin with me to her room, I forced her to bed.
 
-頭が沸いているせいで後半のやり取りは意味不明だが、熱が出てるのは間違いない。
+#頭が沸いているせいで後半のやり取りは意味不明だが、熱が出てるのは間違いない。
+　Due to her addled mind, the last half of our exchange was uncertain, but she certainly has a fever coming on. 
 
+#（最近予定を入れすぎたか……みかんの貞操を守るためにも、かりんには健康でいてもらわなければ）
 ＠Itsuki
-（最近予定を入れすぎたか……みかんの貞操を守るためにも、かりんには健康でいてもらわなければ）
+（Did I plan too much for her recently? ...I'll have to keep Karin healthy, to protect Mikan's virtue too）
 
 @open_schedule
 
