@@ -28,7 +28,7 @@ macro	muchi_effect
 #	layer_drawmode_set	l_effect,DRAW_ADD
 #	layer_scale		l_effect,200,200,200,-100,-100,passtype_tcb
 #	layer_position_set	l_effect,	_X-400,_Y-150
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 endm
 
 #-- 鞭痕エフェクト(小)--------------------------------------------------------
@@ -123,7 +123,7 @@ macro	rousoku_effect
 #	layer_drawmode_set	l_effect,DRAW_ADD
 #	layer_scale		l_effect,200,200,200,-100,-100,passtype_tcb
 #	layer_position_set	l_effect,	_X-400,_Y-150
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 endm
 
 #-- 蝋燭エフェクト(小)--------------------------------------------------------
@@ -191,7 +191,7 @@ endm
 
 #イク時のエフェクト
 macro	effect_iku
-	screen_flash	1000
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
 	voice_bg_stop
 	se_stop	0
 	se_stop	1

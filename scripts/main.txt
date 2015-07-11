@@ -3,6 +3,10 @@
 
 @bg_black
 
+#SCRIPT IGNORE
+gosub translator_intro
+#SCRIPT IGNORE END
+
 #select sel,"メイン","プロローグ","調教","調教2","シューティング"
 #if sel=0 then goto main
 #if sel=1 then goto youzyo_00

@@ -216,13 +216,13 @@ ENDMACRO
 MACRO	SE37
 	window_close
 	screen_vibration	500,16,16,16
-	screen_flash	500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 	se	0,	"sound\se\SE37_金属衝突音.WAV",play_wait
 ENDMACRO
 
 #殴る音（バキッ！）
 MACRO	SE38
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 	screen_vibration	500,16,16,16
 	se		0,"sound\se\なぐる2～強く.WAV",play_wait
 ENDMACRO
@@ -322,7 +322,7 @@ ENDM
 
 #SE53　傷つく言葉（グサッ！）
 MACRO	SE53
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 	screen_vibration	500,16,16,16
 	se	0,	"sound\se\SE53_ズビシ.WAV",			play_once
 ENDMACRO
@@ -359,7 +359,7 @@ ENDM
 
 #SE60　斬激　※ゲームブックで使用
 MACRO	SE60
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 	screen_vibration	500,16,16,16
 	se	0,	"sound\se\SE60_斬激.WAV",	play_once
 ENDM
@@ -431,7 +431,7 @@ ENDMACRO
 #SE72　軽く叩く音（ポカッ）
 macro	SE72
 	window_close
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 	screen_vibration	500,8,8,8
 	se 0,"sound\se\SE72_軽く叩く音.wav",play_once
 endm
@@ -791,7 +791,7 @@ endm
 #SEH02_スパンキング１
 macro	SEH02
 	screen_vibration	500,16,16,16
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 	se 0,"sound\se\SEH02_スパンキング１.wav",play_once
 endm
 
@@ -975,7 +975,7 @@ endm
 
 macro	SE_HIRATEUCHI
 	se	0,	"sound\se\平手打ち.wav",play_once
-	screen_flash		500
+	if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 	screen_vibration	500,16,16,16
 endm
 

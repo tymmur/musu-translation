@@ -1862,7 +1862,7 @@ label	karin_tachi_9
 #SE66　効果音１（ビシッ！）
 #白フラッシュ
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @karin_odoroki		#驚
 
 腰をクネクネさせるかりんから、問答無用でバイブを奪い取った。
@@ -2146,7 +2146,7 @@ window_close
 @suika_
 @chara_clear		#保険
 wait		500
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #SE47　テーブルを叩く音（バンッ！）
 @SE47			#SE47　テーブルを叩く音（バンッ！）
 @ichigo_small

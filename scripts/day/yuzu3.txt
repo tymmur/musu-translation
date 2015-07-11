@@ -101,7 +101,7 @@ bgm_stop
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 #白フラッシュ
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
 ＠Itsuki
@@ -127,7 +127,7 @@ screen_vibration	500,16,16,16
 @yuzu_
 wait			500
 #SE36　勢いよく抱きつく音（バフッ！）
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
 ＠Itsuki
@@ -258,7 +258,7 @@ wait		1000
 ＠Yuzu,F00256
 「樹先生ー♪」
 
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #SE36　勢いよく抱きつく音（バフッ！）
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 

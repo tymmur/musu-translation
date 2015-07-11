@@ -270,7 +270,7 @@ bgm_stop
 #SE05　物にぶつかる音（ガンッ！）
 #@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
 se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ＠Hikari,N00548
 「ぴぎゃッ！！」

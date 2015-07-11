@@ -915,7 +915,7 @@ se_stop			1
 #--------------------------------------------------
 #■HCG（差分・中出し）※白フラッシュ
 voice_bg_stop
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_KAR_031-03.png"
 #--------------------------------------------------
 
@@ -929,7 +929,7 @@ event		"event\EV_KAR_031-03.png"
 ＠Karin,P05857
 「んぅふッ、はあぁぁッ！　あはあぁぁぁッ……！」
 
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ドクドクッ！　ビュヂュゥッ！　ドクンッ、ドクンッ！
 
@@ -945,7 +945,7 @@ if disable_screen_flash=0 then screen_flash		500
 ＠Karin,P05859
 「んんぅッ！　んはぁあッ…！」
 
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ドブブッ…ヂュブゥッ！　ドクンッ…ドクッ、ドクンッ……
 

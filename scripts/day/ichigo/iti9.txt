@@ -1775,7 +1775,7 @@ window_close
 
 #SE80　人を刺す音（グシュッ！）
 #■BG（赤）※瞬間表示
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
 #@bg_red			# 赤
@@ -1805,7 +1805,7 @@ screen_vibration	500,16,16,16
 ＠Houkou,E00135
 「こいつはオレのものだ。邪魔なんだよ、お前はっ」
 
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 #SE80　人を刺す音（グシュッ！）
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
@@ -2106,7 +2106,7 @@ bgm_stop
 「ッ！　いちご………絶対に行かないッ！　今のパパのところに帰るもんッ！」
 
 #EF　白フラッシュ
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 @SE108			#SE108　女性のビンタ（パシンッ！）
 
@@ -2193,7 +2193,7 @@ bgm_stop
 
 #SE（銃声・狙撃）
 #@SE93			#SE93　銃の乱射音（ダダダダダダッ！）
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @SE94			#SE94　銃声
 
 ―――――――！！

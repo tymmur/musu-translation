@@ -123,7 +123,7 @@ bgm_stop
 
 オレは扉から離れると、勢いをつけて体当たりした。
 
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #SE　扉に体当たりする音
 @SE27			#SE27　倒れる音（ドサッ）
 
@@ -138,10 +138,10 @@ if disable_screen_flash=0 then screen_flash		500
 「ちっっ！！」
 
 window_close
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @SE27			#SE27　倒れる音（ドサッ）
 wait		2000
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @SE27			#SE27　倒れる音（ドサッ）
 
 体当たりを繰り返す。
@@ -152,7 +152,7 @@ if disable_screen_flash=0 then screen_flash		500
 「ざくろっっっ！！！」
 
 bgm_stop
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @SE27			#SE27　倒れる音（ドサッ）
 
 そして、４回目の体当たり。
