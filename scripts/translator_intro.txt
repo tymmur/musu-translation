@@ -1,15 +1,35 @@
 label translator_intro
 
 ÅóTranslator
-insert intro here
+Welcome to the translation patch for musumaker.
 
 ÅóTranslator
-some text about choices
+This patch translates the story up until April 2nd in the game.
 
 ÅóTranslator
-There are some scenes, which would be classified as strong BDSM, possibly even gore. Disable those?
+Please note that anything dealing with training items buyable in the shop, has not yet been translated.
 
-select sel,"Don't hurt my babies","Let the torture commence"
+-Translator
+This patch uses translation notes to help explain references, and Japanese articles.
+
+-Translator
+Hover your mouse over to the button on the top left of the screen.
+
+#TL note: This is a TL note.
+
+-Translator
+The patch also includes optional modifications to the game, as follows.
+
+ÅóTranslator
+There are certain buttons, items, and choices in the game with strong BDSM content, that may make some audiences feel uncomfortable.
+
+ÅóTranslator
+These include: spanking hand, whip, candle, face mask, bondage suits, and a character route.
+
+ÅóTranslator
+These features can be disabled. Would you like to disable them?
+
+select sel,"Disable hard S&M","Leave unmodified"
 
 if sel=0 then goto translator_option_sm_off
 if sel=1 then goto translator_option_sm_on
@@ -17,7 +37,7 @@ if sel=1 then goto translator_option_sm_on
 label translator_option_sm_on
 _TRANSLATOR_OPTION_DISABLE_SM=0
 ÅóTranslator
-Ok, you sadistic creep. The torture champers has been unlocked and the maid has been told to clean up the blood.
+The game will be left to its original version.
 
 
 goto translator_option_sm_done
@@ -25,10 +45,10 @@ goto translator_option_sm_done
 label translator_option_sm_off
 _TRANSLATOR_OPTION_DISABLE_SM=1
 ÅóTranslator
-The girls cheer for your sanity.
+S&M features disabled.
 
 ÅóTranslator
-Due to technical limitations, disabled items will be sold out rather than removed.
+Due to technical limitations, disabled items will appear as sold out, rather than removed.
 
 item_soldout	200,_TRUE # whip
 item_soldout	203,_TRUE # candle
@@ -45,7 +65,7 @@ goto translator_option_sm_done
 label translator_option_sm_done
 
 ÅóTranslator
-Disable flashes at sexual climax?
+Disable screen flashes at sexual climax?
 
 select sel,"Flash me","No flashes"
 
@@ -55,7 +75,7 @@ if sel=1 then goto translator_option_flash_off
 label translator_option_flash_on
 _TRANSLATOR_OPTION_DISABLE_FLASHES=0
 ÅóTranslator
-Flashing is on. Sadly it's the screen and not the girls, who will do the flashing.
+Screen flashes are on.
 
 
 goto translator_option_flash_done
@@ -63,7 +83,7 @@ goto translator_option_flash_done
 label translator_option_flash_off
 _TRANSLATOR_OPTION_DISABLE_FLASHES=1
 ÅóTranslator
-No distrubing effects while watching the act. Got it.
+Screen flashes are off.
 
 goto translator_option_flash_done
 
