@@ -626,7 +626,7 @@ event_fast	"event\EV_ICH_020-05.png"
 #SE50　風を切る音（ヒュンッ）
 #//フラッシュ
 @bg_itsuki_n		# 自室(夜)
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
@@ -957,7 +957,7 @@ label	ichigo_atama01_a
 #SE37　金属衝突音（カキィンッ！
 #//フラッシュ
 window_close
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #@SE37			#SE37　金属衝突音（カキィンッ！）※剣で打ち合った感じ。擬音的な役割で汎用的に使
 se		0,	"sound\se\SE37_金属衝突音.WAV",play_wait
 
@@ -1145,7 +1145,7 @@ label	ichigo_atama01_c
 
 #SE50　風を切る音（ヒュンッ）
 #//フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
@@ -1313,7 +1313,7 @@ event		"event\EV_ALL_021-yakiniku.png"
 「無理」
 
 #//フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 
 バキッ！
 

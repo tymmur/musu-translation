@@ -318,7 +318,7 @@ voice_bg	"P90002"
 オレはバイブの振動を更に強める。
 
 @se29
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ヴィイイイイイッ！！
 
 voice_bg	"P90003"

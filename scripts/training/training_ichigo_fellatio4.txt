@@ -543,7 +543,7 @@ if t_ichigo_bondage_flag=1 then event	"event\ev_ich_151-05.png"
 #04：口内射精←06:口内射精？
 #■EVCG(EV_ICH_150-06：口内射精)
 #//フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 voice_bg_stop
 if t_ichigo_bondage_flag=0 then event	"event\ev_ich_150-06.png"
 if t_ichigo_bondage_flag=1 then event	"event\ev_ich_151-06.png"

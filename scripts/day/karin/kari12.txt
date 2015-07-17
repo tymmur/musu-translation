@@ -257,7 +257,7 @@ screen_blackin		1
 #@bg_black
 #SE80　人を刺す音（グシュッ！）
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @bg_kekkon		# 血痕
 
 至近距離で、肉を貫く鈍い音と感触がした。
@@ -1358,7 +1358,7 @@ wait		500
 #@bg_red			# 赤
 bgm_stop
 @chara_clear		#保険
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @SE80			#SE80　人を刺す音（グシュッ！）　※シリアス系です。バッドエンドとか、刺されるときに使用。
 screen_blackout		100
 wait			100
@@ -1633,7 +1633,7 @@ wait		1000
 
 @miu_
 wait		500
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
 ＠Itsuki

@@ -546,7 +546,7 @@ voice_bg	"s00411"
 「Blurch! Huurrgggghhhnnn!!!」
 
 #■HCG（射精差分・精液汚れ）
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 event	"event\EV_SIZ_020-01.png"
 
 #//フラッシュ
@@ -571,7 +571,7 @@ event	"event\EV_SIZ_020-01.png"
 #画面外の男たちは気配だけをチラつかせながら、雫さんのあらゆる箇所へ欲望を吐き出していく。
 　Shadowy figures flit about mostly out of sight, and release the product of their lust all over Shizuku.
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 #「ふぶぅぅッ、んッ！　んくぅぅ……ッ、ちゅりゅ、んぐふぅッ！」
 ＠Shizuku,S00423

@@ -1818,7 +1818,7 @@ event	"event\EV_KAR_050-02.png"
 #■HCG（差分）
 #■HCG（increment）
 screen_vibration	500,16,16,16
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 event	"event\EV_KAR_050-03.png"
 
 #ブツッ―――チュグゥッ！
@@ -2089,7 +2089,7 @@ voice_bg	"P90002"
 #■HCG（差分）※白フラッシュ
 #■HCG（increment）※white flash
 voice_bg_stop
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\EV_KAR_050-04.png"
 voice_bg_stop
 se_stop	1
@@ -2108,7 +2108,7 @@ se_stop	1
 ＠Karin,P00311
 「Nrgh! Ahaaaa, haaaa...haauu!」
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 #ビュルルッ、ドビュゥッ！　ドクンッ、ドクドクッ……ドクッ、ドクンッ！
 　Splutter, gusssh! Pulse, throb, throb... gush, gush!
@@ -2120,7 +2120,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 #奥の子宮やお腹の中へ一気に精を放たれ、かりんはビクビクと身体をわななかせる。
 　Karin's body trembles from the seed released suddenly inside her belly and into her womb.
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\EV_KAR_050-05.png"
 
 #ドクドクッ……ドクンッ！　ドクンッ…ドクッ、ドクドクッ……

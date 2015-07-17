@@ -178,7 +178,7 @@ layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
 voice_bg	"A90011"
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 
 #クチュ……ジュムッ……。
@@ -287,7 +287,7 @@ layer_load_overlap	l_insert,"event\ev_mik_050\ev_mik_050_anal01.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
 voice_bg	"A90011"
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @SEH22
 #ニュル……ニュヂュヂュッ……。
 　Squip... squelch smulch...
@@ -433,7 +433,7 @@ voice_bg_stop
 ＠Mikan,A03307
 「Nrrgghn!? Ah, fuh, ahhhhhhhh!!」
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release		l_insert
 layer_load 		l_leg+1,"event\ev_mik_050\ev_mik_050_insert01_soto02l.png"
 layer_reference_set	l_leg+1,l_leg		# 頭のレイヤーに連結
@@ -598,10 +598,10 @@ layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
 voice_bg	"A90011"
 @SEH22
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ツプッ…………ヂュッ、ジュブヂュゥッ！！
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 ＠Mikan,A03326
 「ひぁ……っ！　あぁ……、ひぁああああああっ！」
@@ -691,7 +691,7 @@ label	training_mikan_anal_03_a
 se_stop	1
 se_stop	2
 @SEH08
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_anal01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -706,7 +706,7 @@ voice_bg_stop
 
 アヌスからあふれ出した精液がみかんを濡らす。
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_anal01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
@@ -802,7 +802,7 @@ label	training_mikan_anal_04_a
 「じゃ、始めるぞ」
 
 @SEH22
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 se 2,"sound\se\SEH27_手マン遅い.wav",play_loop
 @mikan_motion_normal1
 チュプッ、チュ、チュッ……。
@@ -845,7 +845,7 @@ se_stop	2
 「ほんとにえっちな子になったなぁ、みかん」
 
 @SEH22
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 layer_load_overlap	l_insert,"event\ev_mik_050\ev_mik_050_anal01.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -900,7 +900,7 @@ passspeed=200
 「ひぎぃ……っ、いぁあああああっ！　イくぅ……っ！　イっちゃう……っ！　みかんイっちゃうよぉぉぉぉっ、ふぁああ！　ぁぁああああんっ！」
 
 se_stop	1
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 ＠Mikan,A03357
 「くぁああああっ！　あああ、ぁぁああああ……っ！！！」
 
@@ -913,7 +913,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 「うぐ……っ、くぅっ！　出るぞ、みかんっ！」
 
 @SEH09	#射精音
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_anal01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -932,7 +932,7 @@ se_stop 2
 ＠Mikan,A03358
 「あふ……っ、あふぅ……っ！熱い……っ！お兄ちゃんのセイエキ……熱いよぉぉ……っ！」
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_anal01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結

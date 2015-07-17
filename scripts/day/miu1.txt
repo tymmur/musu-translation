@@ -22,7 +22,7 @@ date_close
 
 #■（美雨とのエッチCG・プロローグ回想と同じもの）
 se			1,"sound\se\zuba.wav",	play_once
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		1000
+if disable_screen_flash=0 then screen_flash		1000
 event_fast "event\ev_miu_020-00.png"
 layer_scale	0,8000,20,20,10,10,passtype_tcb
 layer_movepass_add	0,0,250,4,4
@@ -97,7 +97,7 @@ voice_bg		b90004
 se_stop			0
 voice_bg_stop
 se			1,"sound\se\zuba.wav",	play_once
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_release	0
 layer_release	1
 layer_release	2

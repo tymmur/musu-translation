@@ -387,7 +387,7 @@ voice_bg_stop
 #噴き上げ吐き出される精液が、みかんを白く染めていく。
 　The semen that erupted and spurted out paints Mikan white.
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release		l_insert
 layer_load 		l_leg+1,"event\ev_mik_050\ev_mik_050_insert01_soto02l.png"
 layer_reference_set	l_leg+1,l_leg		# 頭のレイヤーに連結
@@ -756,7 +756,7 @@ passspeed=300
 「Mikan... It's coming out...!!」
 
 #//フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_insert01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -788,7 +788,7 @@ voice_bg_stop
 ＠Mikan,A02474
 「Fuehh... I-I'm fine... i-it's just, it still hurts a bit, so it was tough... Onii-chan」
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_insert01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
@@ -1026,7 +1026,7 @@ passspeed=300
 #//フラッシュ
 
 #//フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_insert01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -1056,7 +1056,7 @@ voice_bg_stop
 ＠Itsuki
 「抜くぞ、みかん」
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_insert01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結
@@ -1266,7 +1266,7 @@ passspeed=300
 #//フラッシュ
 
 #//フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_load 		l_insert+1,"event\ev_mik_050\EV_MIK_050_insert01_naka01.png"
 layer_reference_set	l_insert+1,l_leg		# 頭のレイヤーに連結
 @mikan_motion_pain1
@@ -1301,7 +1301,7 @@ voice_bg_stop
 #【05】
 ずるりと肉棒を引き抜く。
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	2000
+if disable_screen_flash=0 then screen_flash	2000
 layer_release	l_insert+1
 layer_load 		l_insert,"event\ev_mik_050\EV_MIK_050_insert01_naka03.png"
 layer_reference_set	l_insert,l_leg		# 頭のレイヤーに連結

@@ -333,7 +333,7 @@ wait		500
 #二人して部屋の時計へ振り返る。
 　The two of us turned our head towards the clock inside the room.
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 #SE95　人を殴る音
 @SE95			#SE95　人を殴る音　※リアル
 

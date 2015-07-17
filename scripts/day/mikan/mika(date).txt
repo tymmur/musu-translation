@@ -683,7 +683,7 @@ layer_load	2,"event\CUTIN_03-02.png"
 「そういうやつは決まって、後で鹿にケツを突かれてるがな……」
 
 #■（水被り）#EF　白フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 layer_load	2,"event\CUTIN_03-03.png"
 
 バシャッ！　パシャッ！

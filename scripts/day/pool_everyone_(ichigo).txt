@@ -330,7 +330,7 @@ event	"event\EV_ICH_070-02.png"
 
 ”š”­‚µ‚»‚¤‚È‚Ù‚Ç‚½‚Ü‚Á‚½Ë¸Š´‚ªˆê‹C‚É”A“¹‚É‰Ÿ‚µŠñ‚¹‚ÄAŒû‚Ì’†‚Å“÷Œs‚ª–\‚ê‚Ü‚í‚Á‚½B
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 event	"event\EV_ICH_070-03.png"
 
 —Ichigo,O03910

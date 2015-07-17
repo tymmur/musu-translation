@@ -119,7 +119,7 @@ label	trpg3a
 「行きますね。みかんちゃんが不安そうなので」
 
 #EF　白フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 その言葉を最後に、今まで側に感じていたすいかの気配のような物が消えた。
 
@@ -177,7 +177,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
 その言葉で、光を放つ実に視線を落とした刹那、
 
 #EF　白フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 
 #SE122　何かが弾け飛び出る音？（バシュッ！シュルルル！）
 @se122
@@ -707,14 +707,14 @@ event	"event\ev_etc_010-02.png"
 「んんぐッ、あはあぁぁッ！　い、いっぱい中に出てるぅッ……外にまでぇッ…！」
 
 #EF　白フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ドクドクドクッ、グビュゥッ！　ドクンッ、ドクンッ、ドビュルゥッ！
 
 ＠Mikan,A02811
 「あうぅぅんッ！　えはあぁッ、ふえぇッ……んはあぁぁッ！」
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ドビュルッ、ドクドクッ！　ドクンッ！　ドクッ、ドクッ、ドクッ…！
 
@@ -948,7 +948,7 @@ trpg_seichounomi_flag=1
 「―――と思う反面で私も希望が持てて興奮させられたし、そういう意味ですいかＧＪッ！」
 
 #EF　赤フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 @karin_
 
 ビュハァアッ！！（←噴鼻血）

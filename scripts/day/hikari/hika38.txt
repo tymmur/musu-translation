@@ -781,7 +781,7 @@ bgm_stop
 
 #EF　白フラッシュ
 #SE108　女性のビンタ（パシンッ！）
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @SE108			#SE108　女性のビンタ（パシンッ！）
 
 ＠Itsuki

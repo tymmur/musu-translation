@@ -801,7 +801,7 @@ layer_movepass_play	l_hikari,0,play_once
 
 #@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
 se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 @ichigo_
 screen_vibration	500,16,16,16
 

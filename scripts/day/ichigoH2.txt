@@ -563,14 +563,14 @@ voice_bg	"O90002"
 
 その直後、膀胱の中の衝動が尿道を駆け上がり、痺れさせた。
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 se_stop	1
 voice_bg_stop
 #■HCG（EV_ICH_030_05）
 event	"event\ev_ich_030-05.png"
 
 #EF　白フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
+if disable_screen_flash=0 then screen_flash	500
 @seh21
 
 プシャッ！　プシュウゥッ！　ピシャアアァァァッ！

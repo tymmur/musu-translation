@@ -575,7 +575,7 @@ event	"event\ev_ich_172-05.png"
 
 #■EVCG(EV_ICH_172-06：全員絶頂）
 #//フラッシュ
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 se_stop	1
 voice_bg_stop
 event	"event\ev_ich_172-06.png"
@@ -583,7 +583,7 @@ event	"event\ev_ich_172-06.png"
 ＠Ichigo,O03477
 「んぅうっ！　あん、ぁはあああんっ！」
 
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 
 ドク、ドクドクッ！　びゅるるっ！！！
 
@@ -628,7 +628,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
 「ぁはぅ、んふぅ……れ、れんにゅ～……」
 
 #■EVCG(EV_ICH_172-07：うつろな目をしたいちご）
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
+if disable_screen_flash=0 then screen_flash	1000
 event	"event\ev_ich_172-07.png"
 
 ＠Ichigo,O03485

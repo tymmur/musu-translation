@@ -674,12 +674,12 @@ label	karin_kenkou_b2
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#「はい、どうぞ～」
 ＠Itsuki
-「はい、どうぞ～」
 「Yeah, come in～」
 
-部屋で自主学習をしながら、声だけで来客へ応対する。
-Buried in some independent study in my room, I called out to a visitor.
+#部屋で自主学習をしながら、声だけで来客へ応対する。
+　Buried in some independent study in my room, I called out to a visitor.
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
@@ -687,68 +687,68 @@ Buried in some independent study in my room, I called out to a visitor.
 @karin_shifuku
 @karin			#普通
 
+#「樹……美雨を探してるんだけど、あなた知らない？」
 ＠Karin,P01642
-「樹……美雨を探してるんだけど、あなた知らない？」
 「Itsuki... I'm looking for Miu. Any idea where she is?」
 
-意外な訪問者だった。
-An unexpected visitor.
+#意外な訪問者だった。
+　An unexpected visitor.
 
+#「さぁ。もしかしたら買い物に出てるかもしれないな」
 ＠Itsuki
-「さぁ。もしかしたら買い物に出てるかもしれないな」
 「Don't know. Maybe she's out shopping」
 
 @karin_kanashimi	#哀
 
+#「………」
 ＠Karin,P01643
-「………」
 「......」
 
-苦虫を噛み潰したみたいな表情でこっちを見る。
-が、知らないものは知らないのでどうしようもない。
-She looks at me with a sour face. But, I really don't know after all.
+#苦虫を噛み潰したみたいな表情でこっちを見る。
+#が、知らないものは知らないのでどうしようもない。
+　She looks at me with a sour face. But, I really don't know after all.
 
+#「美雨じゃないとダメな用事か？」
 ＠Itsuki
-「美雨じゃないとダメな用事か？」
 「Is there anything I can do to help?」
 
+#「頭痛薬がほしいのよ。場所が分かるなら誰でもいいわ」
 ＠Karin,P01644
-「頭痛薬がほしいのよ。場所が分かるなら誰でもいいわ」
 「I want medicine for headache pain. Just tell me where it is」
 
+#「頭痛って、大丈夫なのか？」
 ＠Itsuki
-「頭痛って、大丈夫なのか？」
 「Headache... are you feeling OK?」
 
+#「……大丈夫なら薬なんて探してないわよ」
 ＠Karin,P01645
-「……大丈夫なら薬なんて探してないわよ」
 「...If I was OK, I wouldn't be looking for medicine」
 
 @karin_
 
-頭を押さえながら、部屋を出て行こうとするかりん。
-Holding her head, she makes to leave my room.
+#頭を押さえながら、部屋を出て行こうとするかりん。
+　Holding her head, she makes to leave my room.
 
+#「部屋にいろ、持って行ってやるから」
 ＠Itsuki
-「部屋にいろ、持って行ってやるから」
 「Stay in your room, I'll go get you some」
 
 @karin_small
 @karin_shifuku
 @karin_keno		#嫌悪
 
+#「樹が……？　変な薬じゃないでしょうね」
 ＠Karin,P01646
-「樹が……？　変な薬じゃないでしょうね」
 「You will...? I hope it's not some weird "medicine"」
 
+#「信用ないな……普通の家庭常備薬だよ」
 ＠Itsuki
-「信用ないな……普通の家庭常備薬だよ」
 「You don't trust me, huh... it's just household medicine」
 
 @karin_kanashimi	#哀
 
+#「冗談よ。いいから早く持ってきてよね」
 ＠Karin,P01647
-「冗談よ。いいから早く持ってきてよね」
 「I'm joking. It's okay, hurry up and get it」
 
 window_close
@@ -758,21 +758,21 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-抑揚の無い声で言い捨て、部屋を後にする。
-She speaks off-hand over her shoulder, and leaves the room.
+#抑揚の無い声で言い捨て、部屋を後にする。
+　She speaks off-hand over her shoulder, and leaves the room.
 
-相変わらずものを頼む態度の片鱗も無いが……
-As usual, she's not enthusiastic about asking for things, but...
+#相変わらずものを頼む態度の片鱗も無いが……
+　As usual, she's not enthusiastic about asking for things, but...
 
+#「体調管理はオレの領分だからな……」
 ＠Itsuki
-「体調管理はオレの領分だからな……」
 「It's up to me to manage her physical condition...」
 
-健康を崩す前に何とかするべきなのだ、本来は。
-I ought to do something, before I worsen her condition.
+#健康を崩す前に何とかするべきなのだ、本来は。
+　I ought to do something, before I worsen her condition.
 
-近い内に休息日も入れてやらないと。
-I'll have to give her a rest day before long.
+#近い内に休息日も入れてやらないと。
+　I'll have to give her a rest day before long.
 
 @chara_clear		#保険
 @bg_black
@@ -1390,8 +1390,8 @@ label	karin_kenkou_d1
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#「かりん、入るぞ」
 ＠Itsuki
-「かりん、入るぞ」
 「Karin, I'm coming in」
 
 #注：指定は昼だが台詞で夜這いとある。微妙。
@@ -1404,8 +1404,8 @@ wait		1000
 @chara_clear		#保険
 @bg_karin		# かりんの部屋
 
-体調が悪く倒れたかりんの部屋へ、そっと見舞いに顔を覗かせる。
-I tentatively poke my head into Karin's room, ill and bed-ridden.
+#体調が悪く倒れたかりんの部屋へ、そっと見舞いに顔を覗かせる。
+　I tentatively poke my head into Karin's room, ill and bed-ridden.
 
 @bgm06			#BGM 06 : 不安のテーマ
 #@karin_small
@@ -1413,144 +1413,144 @@ I tentatively poke my head into Karin's room, ill and bed-ridden.
 @karin_pajama
 @karin_kanashimi	#哀
 
+#「……何の用？　病人へ夜這いに来るなんて、悪趣味もいいとこじゃないの」
 ＠Karin,P01696
-「……何の用？　病人へ夜這いに来るなんて、悪趣味もいいとこじゃないの」
 「...What do you want? Sneaking into a sick person's room to molest them is a new low for you」
 
+#「口調に力が無いな。迷惑なら帰るが？」
 ＠Itsuki
-「口調に力が無いな。迷惑なら帰るが？」
 「You sound sick. I can go back, if I'm bothering you」
 
+#「別にいいわ。変なことさえしなければ」
 ＠Karin,P01697
-「別にいいわ。変なことさえしなければ」
 「I don't care. As long as you keep your hands to yourself」
 
+#「それも珍しい。すぐ邪魔の一言で追い返されると思ったのに」
 ＠Itsuki
-「それも珍しい。すぐ邪魔の一言で追い返されると思ったのに」
 「That's unusual. I thought you'd call me a nuisance and send me packing」
 
 @karin_bubetsu		#侮蔑
 
+#「ふん……風邪らしいし、あなたにうつした方が私も早く治るでしょう？」
 ＠Karin,P01698
-「ふん……風邪らしいし、あなたにうつした方が私も早く治るでしょう？」
 「Hmph... I seem to have a cold, so if I pass it on to you I'll get better」
 
-あしらうように言うと、ひずんだ笑みを浮かべるかりん。
-Karin gives a crinkly smile, after trifling with me.
+#あしらうように言うと、ひずんだ笑みを浮かべるかりん。
+　Karin gives a crinkly smile, after trifling with me.
 
-おそらく本気なのだろうが、まぁ一緒に居てやることは吝かではない。
-She may well mean that, but I guess I don't mind staying with her.
+#おそらく本気なのだろうが、まぁ一緒に居てやることは吝かではない。
+　She may well mean that, but I guess I don't mind staying with her.
 
+#「薬は飲んだか？」
 ＠Itsuki
-「薬は飲んだか？」
 「Did you drink your medicine?」
 
 @karin			#普通
 
+#「ええ。ゆっくり寝てなさいって美雨に言われたわ」
 ＠Karin,P01699
-「ええ。ゆっくり寝てなさいって美雨に言われたわ」
 「Yes. Miu told me to take it easy and rest」
 
 @karin_kanashimi	#哀
 
+#「はぁ……けど退屈ね…」
 ＠Karin,P01700
-「はぁ……けど退屈ね…」
 「Sigh... I'm bored...」
 
+#「うつすといけないから、みかんとも居られないし」
 ＠Karin,P01701
-「うつすといけないから、みかんとも居られないし」
 「I'm contagious, so I can't be with Mikan」
 
+#「ま、贅沢言うな。だからこそ休めるんだろ」
 ＠Itsuki
-「ま、贅沢言うな。だからこそ休めるんだろ」
 「Well, don't be spoiled. You've got to rest up now」
 
 @karin_bubetsu		#侮蔑
 
+#「どっかの誰かが、その休息の時間の邪魔してるけどね」
 ＠Karin,P01702
-「どっかの誰かが、その休息の時間の邪魔してるけどね」
 「There's a certain someone who's interfering with my rest time, though」
 
-また同じような笑みを浮かべると、こちらを見やる。
-She gives the same wry smile, and looks on at me.
+#また同じような笑みを浮かべると、こちらを見やる。
+　She gives the same wry smile, and looks on at me.
 
-口調こそいつもの勢いは無いが、喜ぶべきか否かいつものかりんに違いはなかった。
-Though lacking her usual force, for better or worse it's the same old Karin.
+#口調こそいつもの勢いは無いが、喜ぶべきか否かいつものかりんに違いはなかった。
+　Though lacking her usual force, for better or worse it's the same old Karin.
 
+#「うつせるならうつしてほしいもんだ。それでかりんが治るなら安いもんだしな」
 ＠Itsuki
-「うつせるならうつしてほしいもんだ。それでかりんが治るなら安いもんだしな」
 「If you plan to infect me go ahead. That's a small price to pay so you'll get better」
 
 @karin_keno		#嫌悪
 
+#「……出来ないと思ってバカにしてるの？」
 ＠Karin,P01703
-「……出来ないと思ってバカにしてるの？」
 「...Are you making a fool of me, you think I can't?」
 
+#「それとも、うつす方法とか理屈言って、また変なことさせる気なのかしら？」
 ＠Karin,P01704
-「それとも、うつす方法とか理屈言って、また変なことさせる気なのかしら？」
 「Or is it that, by way of infecting you, you still plan to make me do weird things?」
 
+#「どこまで下衆なんだよ、それ」
 ＠Itsuki
-「どこまで下衆なんだよ、それ」
 「Just how sleazy do you think I am?」
 
+#「そうじゃなくて、風邪はきっとオレのせいだからな」
 ＠Itsuki
-「そうじゃなくて、風邪はきっとオレのせいだからな」
 「It's not that, I mean your cold's probably my fault」
 
+#「無理させすぎたか。悪かった……」
 ＠Itsuki
-「無理させすぎたか。悪かった……」
 「I think I pushed you too hard. Sorry...」
 
+#「……ふん。結果が出てからの謝罪くらい、猿でも出来るわ」
 ＠Karin,P01705
-「……ふん。結果が出てからの謝罪くらい、猿でも出来るわ」
 「...Hmph. Even a monkey's capable of apologizing after the fact」
 
 @karin_
 
-ゴロンと背を向けるように寝返りを打った。
-She rolls away, turning her back to me.
+#ゴロンと背を向けるように寝返りを打った。
+　She rolls away, turning her back to me.
 
+#「これから気をつけてくれればいいわよ」
 ＠Karin,P01706
-「これから気をつけてくれればいいわよ」
 「I hope you will be more careful from now on」
 
+#「もう行って、やっぱり邪魔よあなた」
 ＠Karin,P01707
-「もう行って、やっぱり邪魔よあなた」
 「Just go, you really are a nuisance」
 
-話す気が失せたように告げられると、あとはここに居ても仕方ない。
-Even if I stay there's nothing I could do, after being told I'm not wanted.
+#話す気が失せたように告げられると、あとはここに居ても仕方ない。
+　Even if I stay there's nothing I could do, after being told I'm not wanted.
 
-退室しようと席を立った。
-I stood up and made to leave.
+#退室しようと席を立った。
+　I stood up and made to leave.
 
+#「待って」
 ＠Karin,P01708
-「待って」
 「Wait up」
 
+#「ん？」
 ＠Itsuki
-「ん？」
 「Hm?」
 
-その気配に、またかりんがこちらに向き直っていた。
-Upon hearing me leave, Karin turned back this way.
+#その気配に、またかりんがこちらに向き直っていた。
+　Upon hearing me leave, Karin turned back this way.
 
 @karin_middle		# 中間
 @karin_pajama
 @karin_keno		#嫌悪
 
+#「みかんの体調には、絶対に気をつけてよね。何かあったら許さないわよ」
 ＠Karin,P01709
-「みかんの体調には、絶対に気をつけてよね。何かあったら許さないわよ」
 「You mustn't not lose track of Mikan's health. If something happens, I won't forgive you」
 
+#「ああ」
 ＠Itsuki
-「ああ」
 「Yeah」
 
+#「かりんもな」
 ＠Itsuki
-「かりんもな」
 「For you too」
 
 #■BG（廊下）
@@ -1563,15 +1563,15 @@ wait		1000
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
+#「はぁ」
 ＠Itsuki
-「はぁ」
 「Sigh」
 
-思ったより元気そうで良かったが、倒れたっていうのは穏やかじゃない。
-She looked in better shape than I thought, but fainting is no small matter.
+#思ったより元気そうで良かったが、倒れたっていうのは穏やかじゃない。
+　She looked in better shape than I thought, but fainting is no small matter.
 
-オレが気をつけてやらないと。
-I'll have to be more careful.
+#オレが気をつけてやらないと。
+　I'll have to be more careful.
 
 @chara_clear		#保険
 @bg_black
@@ -1595,12 +1595,12 @@ label	karin_kenkou_d2
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#「はい」
 ＠Miu,B01461
-「はい」
 「Come in」
 
-かりんの部屋から美雨の返事がした。
-Miu replied from within Karin's room.
+#かりんの部屋から美雨の返事がした。
+　Miu replied from within Karin's room.
 
 #SE06　部屋のドア開く音（ガチャ）
 #■BG（かりんの部屋）
@@ -1611,42 +1611,42 @@ wait		1000
 @chara_clear		#保険
 @bg_karin		# かりんの部屋
 
+#「かりん、倒れたって聞いたけど」
 ＠Itsuki
-「かりん、倒れたって聞いたけど」
 「I heard Karin fainted」
 
 @miu_komaru		#閉_困
 
+#「ええ、今は眠ってます」
 ＠Miu,B01462
-「ええ、今は眠ってます」
 「Yes, she's asleep now」
 
-そう言って視線を下ろす先には、ベッドで寝息を立てるかりん。
-She looks in front of her at Karin breathing softly in bed.
+#そう言って視線を下ろす先には、ベッドで寝息を立てるかりん。
+　She looks in front of her at Karin breathing softly in bed.
 
-この部屋に入る度に言われる憎まれ口も、今は閉ざされていた。
-There was no bad-mouthing when I came into her room today.
+#この部屋に入る度に言われる憎まれ口も、今は閉ざされていた。
+　There was no bad-mouthing when I came into her room today.
 
+#「幸い、ただの疲労ということですけど………」
 ＠Miu,B01463
-「幸い、ただの疲労ということですけど………」
 「Thankfully, it was just fatigue, but...」
 
+#「分かってる……」
 ＠Itsuki
-「分かってる……」
 「Oh, I see...」
 
-ただの疲労でホッとする反面、しかしそれは原因がオレであるということ。
-With the relief that it was just fatigue, also came blame on my shoulders.
+#ただの疲労でホッとする反面、しかしそれは原因がオレであるということ。
+　With the relief that it was just fatigue, also came blame on my shoulders.
 
-前にも一度倒れたって言うのに……
-She'd already collapsed once before...
+#前にも一度倒れたって言うのに……
+　She'd already collapsed once before...
 
+#「……すぅ………ん」
 ＠Karin,P01695
-「……すぅ………ん」
 「...Snooze...nh」
 
+#「……出ましょう、樹さん」
 ＠Miu,B01464
-「……出ましょう、樹さん」
 「Let's go out, Itsuki-san」
 
 #■BG（廊下）
@@ -1658,20 +1658,20 @@ wait		1000
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-起こさないように部屋を出て、美雨に声を掛けられた。
-We left the room to not wake her, and Miu spoke to me.
+#起こさないように部屋を出て、美雨に声を掛けられた。
+　We left the room to not wake her, and Miu spoke to me.
 
 @miu_komaru		#閉_困
 
+#「無理のかかることをさせているのは承知ですが……子供達のこと、お願いします樹さん」
 ＠Miu,B01465
-「無理のかかることをさせているのは承知ですが……子供達のこと、お願いします樹さん」
 「I know you're pushing the kids too hard, but... they're all yours, Itsuki-san」
 
-それは責める口調ではなく、申し訳なさそうな言葉だった。
-Her tone of voice wasn't accusing, just regretful.
+#それは責める口調ではなく、申し訳なさそうな言葉だった。
+　Her tone of voice wasn't accusing, just regretful.
 
+#「いや、オレの都合ばかり考えてたから、こんなことになったんだ。気をつけるよ」
 ＠Itsuki
-「いや、オレの都合ばかり考えてたから、こんなことになったんだ。気をつけるよ」
 「No, this happened because I was too focused on myself. I'll be more careful」
 
 bgm_stop
@@ -1679,8 +1679,8 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-美雨と別れると、オレはさっそくかりんの予定をすべて休息に振り替えた。
-After parting with Miu, I hastily went to fill Karin's schedule with rest days.
+#美雨と別れると、オレはさっそくかりんの予定をすべて休息に振り替えた。
+　After parting with Miu, I hastily went to fill Karin's schedule with rest days.
 
 @open_schedule
 

@@ -696,7 +696,7 @@ event		"event\EV_SUI_020-02.png"
 「Cu, cumming……!  Suika……!!」
 
 #--------------------------------------------------
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 event		"event\EV_SUI_020-03.png"
 #--------------------------------------------------
 
@@ -993,7 +993,7 @@ event		"event\EV_SUI_021-01.png"
 「んくッ, I’m cumming!  Haaa……!」
 
 #--------------------------------------------------
-if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+if disable_screen_flash=0 then screen_flash		500
 event		"event\EV_SUI_021-00.png"
 #--------------------------------------------------
 
