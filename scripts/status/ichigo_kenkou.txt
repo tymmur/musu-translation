@@ -898,14 +898,14 @@ label	ichigo_kenkou_c2
 「I'm fine, fine♪　My throat's a little sore, but I don't have a fever」
 
 #朝食の時から、いちごの会話の端に咳が混じって気になっていた。
-　Ever since breakfast, Ichigo's sentences having coughs interspersed are worrisome.
+　Ever since breakfast, Ichigo's cough-riddled sentences have been worrisome.
 
 #が、確かに顔色は良いし、元気もあるようだ。
 　But, her complexion's good, and she seems healthy otherwise.
 
 #「遅くならないようにな。帰ってきたら、ちゃんとうがいしろよ？」
 ＠Itsuki
-「Try not to go too far. When you get back, make sure to gargle some water」
+「Make sure not to go too far. When you get back, go gargle some water」
 
 @ichigo_yorokobi	#喜
 
@@ -927,7 +927,7 @@ wait		2000
 　Adjusting the heel of her shoes, Ichigo leaps and bounds across the entryway.
 
 #元気であればいいが、風邪なんか引かないようにこっちでも考えてやらないとな。
-　It's good she's so energetic, but I'll have to think about not letting her catch a cold.
+　It's good she's so energetic, but I'll have to ponder how not to let her catch a cold.
 
 se_stop		0
 @chara_clear		#保険
@@ -1139,6 +1139,7 @@ label	ichigo_kenkou_d2
 
 ＠Ichigo,O01588
 「うぅ～、心配かけてごめんなさい」
+「Uurgh～, sorry for all the trouble」
 
 体調を崩して倒れたいちごが、ベッドの上で力無い声を上げる。
 
@@ -1372,6 +1373,7 @@ label	ichigo_kenkou_e2
 
 ＠Ichigo,O01601
 「………」
+「......」
 
 #///////////////////////////////////////////////////////
 #演：歩き
@@ -1421,47 +1423,61 @@ wait		1000
 #///////////////////////////////////////////////////////
 
 玄関で、いちごがウロウロと行ったり来たりを繰り返していた。
+Ichigo kept going back and forth aimlessly in the entryway.
 
 ＠Itsuki
 「何してるんだ、いちご？」
+「What are you doing, Ichigo?」
 
 ＠Ichigo,O01602
 「……えっと、遊びに行こうかどうか迷ってるんだけど」
+「...Umm, I'm not sure if I should go out to play or not」
 
 ＠Itsuki
 「迷う？　何で」
+「Not sure... why's that?」
 
 @ichigo_ase		#汗
 
 ＠Ichigo,O01603
 「う～～……パパに言っちゃうと、絶対に止められるし～」
+「Urhh～～... if I tell Papa, then I definitely won't be allowed～」
 
 ためらいながらも、そこまで口にしてしまうのがいちごらしい。
+It's like Ichigo to let that much slip, even while hesitating.
 
 ＠Itsuki
 「危ない場所に行くつもりなら止めるぞ」
+「I'm not letting you go anywhere dangerous」
 
 @ichigo_komaru		#困
 
 ＠Ichigo,O01604
 「ううん、友達の家なんだけどね……」
+「Nope, just to my friend's place...」
 
 ＠Ichigo,O01605
 「何かいちご、今日ちょっと身体がダルいの」
+「For some reason, I feel kind of sluggish today」
 
 ＠Itsuki
 「ダルい……？」
+「Sluggish...?」
 
 表情を曇らせるいちごのおでこに手を当ててみる。
+Ichigo frowned as I put my hand to her forehead.
 
 ＠Ichigo,O01606
 「熱なんかないよ。でも、いつもみたいな元気もないからどうしようかなぁって」
+「It's no fever. But I don't feel so good as usual, I wasn't sure what to do」
 
 ＠Itsuki
 「ふむ……」
+「Mhm...」
 
 ＠Itsuki
 「いちご、オレが何を言おうとしてるか、分かるな？」
+「Ichigo, you know what I'm about to tell you, right?」
 
 @ichigo_kanashimi	#哀
 #///////////////////////////////////////////////////////
@@ -1474,36 +1490,46 @@ layer_movepass_play	l_ichigo,0,play_once
 
 ＠Ichigo,O01607
 「……部屋でゆっくり休むんでしょぉ」
+「...Take it easy and rest in my room, yeah」
 
 はぁ……とげんなりした溜め息を零す。
+She heaves a sigh, looking dejected.
 
 それが分かっていてさっさと出かけ逃げてしまわないのは、体調が悪いせいだろう。
+It's because she knew that, that she didn't make a hasty escape in the first place.
 
 @ichigo_komaru		#困
 
 ＠Ichigo,O01608
 「分かった～、部屋で休んでるよ」
+「Fine～, I'll go rest in my room」
 
 ＠Itsuki
 「元気になってから存分に遊べ。いちごならちょっと寝てればすぐ治る」
+「Play all you want, after you get well. A bit of sleep will do just the trick for you, Ichigo」
 
 @ichigo_ase		#汗
 
 ＠Ichigo,O01609
 「んぅ～～……今寝たら、今度は夜に寝らんなくなって、退屈になっちゃうのにぃ」
+「Nmghh～～... if I sleep now, I won't be able to sleep at night, and I'll get soo bored」
 
 bgm_stop
 @ichigo_
 
 そうはぼやきながらも、案外素直に部屋へ引き上げて行ってくれた。
+She went along with me to her room surprisingly meek, though grumbling that.
 
 ＠Itsuki
 「いちごのことだし………昼間から寝るなんて、本気で退屈なんだろうな」
+「Well, for Ichigo... going to sleep in the middle of the day must be a pain」
 
 体調を崩したのは初めてじゃない。
 今回もオレのせいだろう。
+This isn't the first time I've made her sick. It's my fault, again.
 
 これ以上悪くならないうちに、少し考え直さないと。
+I'd better rethink things, before it gets any worse.
 
 @chara_clear		#保険
 @bg_black

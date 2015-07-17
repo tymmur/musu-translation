@@ -24,15 +24,15 @@ The patch also includes optional modifications to the game, as follows.
 There are certain buttons, items, and choices in the game with strong BDSM content, that may make some audiences feel uncomfortable.
 
 ÅóTranslator
-These include: spanking hand, whip, candle, face mask, bondage suits, and a character route.
+These include: spanking hand, whip, candle, face mask, bondage suits, and the Zakuro character route.
 
 ÅóTranslator
 These features can be disabled. Would you like to disable them?
 
-select sel,"Disable hard S&M","Leave unmodified"
+select sel,"Leave the game as is","Disable hard S&M"
 
-if sel=0 then goto translator_option_sm_off
-if sel=1 then goto translator_option_sm_on
+if sel=0 then goto translator_option_sm_on
+if sel=1 then goto translator_option_sm_off
 
 label translator_option_sm_on
 _TRANSLATOR_OPTION_DISABLE_SM=0
