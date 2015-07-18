@@ -878,10 +878,16 @@ wait	500
 ＠Shizuku,S00212
 「Eye on the prize! Get them into top Universities!」
 
-#TL note: This line does not appear to be voiced, but the line above doesn't make sense without it so I'll leave it in.
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 1
 #「それ、違うゲームですから！」
-＠Shizuku,S00213
-「That's a game for another day!」
+#＠Shizuku,S00213
+#「That's a game for another day!」
+#Comment: No sound file exists.
+
+（Ｔｈａｔ’ｓ　ａ　ｇａｍｅ　ｆｏｒ　ａｎｏｔｈｅｒ　ｄａｙ）
+
+#SCRIPT IGNORE END
 
 layer_move	1,1000,300,0,800,0,passtype_neville_a
 layer_move	l_shizuku,1000,0,0,200,0,passtype_neville_a

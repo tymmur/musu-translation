@@ -14,7 +14,6 @@ if shop_talk_count<2 then goto shop_buy_message_unnamed
 #■■■Explanatory note■■■
 # "Subuta"'s name display, until you hear it, will remain "Attendant". It's annoying to have to write them out separately, so upon that scenario "Subuta" will consolidate.
 # For now the character string variable "Attendant" is entered, the occasion where it's presented references the character string variable, that no matter where you hear the name the character string variable changes to "Subuta" is good I think.
-#TL note: I hope this doesn't cause issues... I'll try and do the same thing. Basically Subuta is written everywhere here but in the game is displayed as attendant. I'll just write Subuta too.
 
 #■BG（アダルトショップ）
 #■BG（Adult shop）
@@ -575,8 +574,6 @@ label	shopitem_book3
 #「やっぱり、ドリルは男のロマンなのでしょうか……？」
 ＠Subuta,H00115
 「They seem to be a man's dream, after all...?」
-
-#TL note: The phrase "man's dream/romance" or "otoko no roman", refers to a culture of values of based on manliness, such as going on a quest, being a hero, and accomplishing something great.
 
 #「いや、そういうドリルはちょっと」
 ＠Itsuki
