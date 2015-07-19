@@ -59,13 +59,13 @@ clearbutton
 #SCRIPT IGNORE
 #SCRIPT SKIP JAPANESE LINES 3
 #	# setbutton ボタン番号,X,Y,エフェクト
-if mikan_on=1 and _ITEM(303)=1 then setbutton 1,290,96,0,"system\TrainingSystem\select_mikan.png","system\TrainingSystem\select_mikan.png"
-if ichigo_on=1 and _ITEM(304)=1 then setbutton 2,32,96,0,"system\TrainingSystem\select_ichigo.png","system\TrainingSystem\select_ichigo.png"
-if karin_on=1 and _ITEM(305)=1 then setbutton 3,540,96,0,"system\TrainingSystem\select_karin.png","system\TrainingSystem\select_karin.png"
+if mikan_on=1 and _TRANSLATOR_OPTION_DISABLE_SM=0 then setbutton 1,290,96,0,"system\TrainingSystem\select_mikan.png","system\TrainingSystem\select_mikan.png"
+if ichigo_on=1 and _TRANSLATOR_OPTION_DISABLE_SM=0 then setbutton 2,32,96,0,"system\TrainingSystem\select_ichigo.png","system\TrainingSystem\select_ichigo.png"
+if karin_on=1 and _TRANSLATOR_OPTION_DISABLE_SM=0 then setbutton 3,540,96,0,"system\TrainingSystem\select_karin.png","system\TrainingSystem\select_karin.png"
 
-if mikan_on=1 and _ITEM(303)=0 then setbutton 1,290,96,0,"system\Schedule\select_mikan.png","system\Schedule\select_mikan.png"
-if ichigo_on=1 and _ITEM(304)=0 then setbutton 2,32,96,0,"system\Schedule\select_ichigo.png","system\Schedule\select_ichigo.png"
-if karin_on=1 and _ITEM(305)=0 then setbutton 3,540,96,0,"system\Schedule\select_karin.png","system\Schedule\select_karin.png"
+if mikan_on=1 and _TRANSLATOR_OPTION_DISABLE_SM=1 then setbutton 1,290,96,0,"system\Schedule\select_mikan.png","system\Schedule\select_mikan.png"
+if ichigo_on=1 and _TRANSLATOR_OPTION_DISABLE_SM=1 then setbutton 2,32,96,0,"system\Schedule\select_ichigo.png","system\Schedule\select_ichigo.png"
+if karin_on=1 and _TRANSLATOR_OPTION_DISABLE_SM=1 then setbutton 3,540,96,0,"system\Schedule\select_karin.png","system\Schedule\select_karin.png"
 
 #SCRIPT IGNORE END
 
