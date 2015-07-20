@@ -382,7 +382,7 @@ label	ichigo_kenkou_a2
 
 #「粉薬、苦いから嫌い～～」
 ＠Ichigo,O01549
-「Powder medicine's bitter, and I don't like it～～」
+「Powder medicine's bitter, I don't like it～～」
 
 #「ま、苦いからこその薬であって」
 ＠Itsuki
@@ -661,6 +661,7 @@ label	ichigo_kenkou_b2
 @bg_living		# リビング
 
 リビングで美雨と世間話に興じていると、いちごがノロノロと入ってきた。
+I was chatting with Miu in the living room, when Ichigo walked in bedraggled.
 
 @ichigo_small
 @ichigo_shifuku
@@ -668,61 +669,79 @@ label	ichigo_kenkou_b2
 
 ＠Ichigo,O01564
 「美雨～、あ、パパもいる～……」
+「Miu～... ah, Papa's here too～...」
 
 ＠Itsuki
 「お、どうしたいちご？　お菓子の匂いにつられてきたか？」
+「Oh, what is it, Ichigo? Did the smell of sweets draw you here?」
 
 @ichigo_kanashimi	#哀
 
 ＠Ichigo,O01565
 「お菓子………う～、それも欲しいけど、今は何か寒気がするの」
+「Sweets... uhh～、I want that too, but I feel kind of chilly right now」
 
 @miu_komaru		#閉_困
 
 ＠Miu,B01426
 「寒気……？」
+「Chilly...?」
 
 穏やかな笑みでオレ達のやり取りを見ていた美雨に、不安そうな表情が走る。
+Miu's gentle smile from our conversation, was replaced with a look of concern.
 
 ＠Miu,B01427
 「風邪かしら。咳が出たり、頭が痛かったりする？」
+「It might be a cold. Are you coughing, or does your head hurt?」
 
 ＠Ichigo,O01566
 「ううん、ちょっと寒いだけ」
+「Nope, I just feel a bit cold」
 
 ＠Itsuki
 「だったら、悪くなる前に休んだ方がいいぞ。悪化したら嫌だろう？」
+「Then, why don't you go rest in your room? You don't want it to get worse」
 
 @ichigo_komaru		#困
 
 ＠Ichigo,O01567
 「だってぇ……部屋でジッとしてても退屈だもん～。寒気がするのはどこにいても同じだよ」
+「But... it's boring doing nothing in my room～. And I feel chilly no matter where I am」
 
 @miu			#閉_にこ
 
 ＠Miu,B01428
 「大丈夫、熱は無いみたいだから、少し休めばすぐ良くなると思うわ」
+「It's OK, you don't seem to have a fever, I think you just need a little rest to get better」
 
 ＠Miu,B01429
 「いちごちゃんも、寒気がするまま遊ぶより、元気になって思いっきり遊びたいでしょ？」
+「Ichigo-chan, it's more fun playing while you feel your best than feeling cold, right?」
 
 優しく諭すような美雨の言葉に、渋っていたいちごも返事に詰まる。
+Ichigo, though unenthused, was stumped at Miu's gentle admonishment.
 
 ＠Miu,B01430
 「後で温かい飲み物持って行ってあげるから。一緒に部屋に行きましょうか」
+「I'll brink something warm to drink later. Shall we go to your room?」
 
 ＠Ichigo,O01568
 「はぁ……は～い」
+「Sigh... fine～」
 
 ダダをこねそうになり始めてから、およそ数十秒。
+She was a hair's breadth away from having a tantrum.
 
 下手すると返って意固地になってしまういちごを、あっさり部屋に戻らせる美雨はさすがと言える。
+Ichigo tensed up when Miu took her by the arm, but it was no surprise for Miu to easily lead her away.
 
 ＠Ichigo,O01569
 「パパ、治ったらいちごと遊ぼうね」
+「Papa, play with me when I get better」
 
 ＠Itsuki
 「ああ、分かった。休んで来い」
+「Yeah, I will. Come back after resting up」
 
 bgm_stop
 @miu_
@@ -730,10 +749,13 @@ bgm_stop
 @chara_clear		#保険
 
 リビングから二人が出て行った。
+The two of them left the living room.
 
 まだ寒気くらいしか訴えてないけど、調子は悪そうだったな……
+It may have just been a case of the chills, but she didn't look great...
 
 気をつけてやらないと。
+I'll have to be careful.
 
 @chara_clear		#保険
 @bg_black
@@ -927,7 +949,7 @@ wait		2000
 　Adjusting the heel of her shoes, Ichigo leaps and bounds across the entryway.
 
 #元気であればいいが、風邪なんか引かないようにこっちでも考えてやらないとな。
-　It's good she's so energetic, but I'll have to ponder how not to let her catch a cold.
+　It's good she's so energetic, but I'll have to think about not letting her catch a cold.
 
 se_stop		0
 @chara_clear		#保険
@@ -953,44 +975,59 @@ label	ichigo_kenkou_d1
 @bg_ichigo		# いちごの部屋
 
 体調を崩したいちごが倒れ、部屋へ見舞いにやってきていた。
+Ichigo having fallen over from exhaustion, I was paying a visit in her room.
 
 ＠Ichigo,O01592
 「熱があるんだってぇ……ちょっと身体もダルくて、フラフラしちゃった」
+「So I had a fever, and... my body felt heavy and I couldn't keep my balance」
 
 ＠Itsuki
 「そっか……。まぁ思ったよりは元気そうでよかった」
+「Oh, OK... well, I'm glad you look better than I thought」
 
 いちごが倒れるなんて大事かと思ったが、普通に会話の中に笑顔は見せてくれた。
+Ichigo falling over seemed like a big deal, but she smiled brightly as usual during our conversation.
 
 ただ、やはり頬は熱っぽくて身体もダルそうだ。
+Having said that, her face looks feverish and her body sluggish.
 
 ＠Ichigo,O01593
 「薬飲んだから、ちょっと眠いかも～……」
+「I drank my medicine, now I feel sleepy～...」
 
 ＠Itsuki
 「ああ、休んだ方がいい。オレはもう行くから」
+「Yeah, you should get some rest. I'll be going now」
 
 ＠Ichigo,O01594
 「えへへ……パパ、治ったら一緒に遊ぼうね」
+「Ehehe... Papa, let's play when I get better」
 
 @ichigo_	#ベッドにはいるので以下立ちキャラなし
 
 オレは頷くと、ベッドに入りながらはにかむいちごの髪を撫でてやる。
+I give a nod, and stroke Ichigo's hair as she shyly gets into bed.
 
 いつもの笑顔に破棄が無いのが罪悪感を感じさせた。
+Her smile, untarnished as always, filled me with guilt.
 
 ＠Itsuki
 「悪かったな、いちご」
+「I'm sorry, Ichigo」
 
 休みを与えなかったオレのせいだ。
+It's my fault for not giving her rest.
 
 ＠Ichigo,O01595
 「え？　何でパパが謝るの？」
+「Eh? Why's Papa apologizing?」
 
 ＠Itsuki
 「いや、何でもない。早く治せよ」
+「It's nothing. Get well soon」
 
 無事な姿も見れたので、見舞いも終いだ。
+I'd seen her safe and sound, so my visit was concluded.
 
 @chara_clear		#保険
 @bg_black
@@ -998,6 +1035,7 @@ label	ichigo_kenkou_d1
 @SE06			#部屋のドア開く音（ガチャ）
 
 話よりも寝かせてやろうと、部屋を出ようとした。
+Thinking I'd let her sleep, I made to leave the room.
 
 @karin_small
 @karin_shifuku
@@ -1006,9 +1044,11 @@ label	ichigo_kenkou_d1
 
 ＠Karin,P01436
 「え……？　あッ」
+「Eh...? Ah!」
 
 ＠Itsuki
 「……かりん？」
+「...Karin!」
 
 部屋の前……ドアに密着するくらいすぐ近くにかりんの姿があった。
 
@@ -1142,43 +1182,56 @@ label	ichigo_kenkou_d2
 「Uurgh～, sorry for all the trouble」
 
 体調を崩して倒れたいちごが、ベッドの上で力無い声を上げる。
+Ichigo, sick and bed-ridden, spoke with a feeble voice.
 
 ＠Miu,B01431
 「体調が悪くなったら、もっと早めに言って休まないとダメよ」
+「If you're getting sick, you should tell us sooner and rest」
 
 @ichigo_kanashimi	#哀
 
 ＠Ichigo,O01589
 「でもぉ、パパが……」
+「But, Papa said...」
 
 ＠Itsuki
 「………」
+「......」
 
 ＠Itsuki
 （……そう、いちごが倒れたのは、オレが割り当てたスケジュールのせいだ）
+（...Right, Ichigo collapsed because of the schedule I assigned for her）
 
 今日も休みではなく働いている最中だった。
+Today, she was busy working with no rest again.
 
 ＠Itsuki
 「いちごは悪くない。オレがもっと気をつけて休みを入れてやるべきだったんだ」
+「It's not your fault. I should've been more careful and given you a day off」
 
 ＠Ichigo,O01590
 「う～ん……あはは、確かに、ちょっと最近疲れたかも～」
+「Oh yeah～... ahaha, I have been feeling pretty tired out lately～」
 
 いちごから疲れた何て言葉、しかも調子悪そうな姿は滅多にない。
+For Ichigo to say she was tired, and look so beat, is a rare sight.
 
 ＠Itsuki
 「今日は休みにするから、ゆっくり休むんだぞ」
+「We'll make it a rest day today, so take it easy and rest」
 
 ＠Ichigo,O01591
 「は～い。ずっとベッドで寝てるのって退屈だけど」
+「Fine～. Lying in bed all the time is boring, though」
 
 @ichigo_
 
 ＠Miu,B01432
 「何かあったら呼ぶのよ。また後で様子も見に来てあげるから」
+「Call if you need anything. I'll come see how you're feeling later on」
 
 ベッドへ横になるいちごがウトウトとし始めたのを見て、オレと美雨は部屋を後にする。
+Giving a last look at Ichigo dozing on her side in bed, Miu and I left the room.
 
 @chara_clear		#保険
 @bg_black
@@ -1193,30 +1246,39 @@ wait		1000
 
 ＠Zakuro,Q00987
 「いちご、平気なの？」
+「Is Ichigo alright?」
 
 同じく様子を見舞いに来たのであろう、ざくろが部屋の前にいた。
+Zakuro, who'd wanted to pay a visit to Ichigo as well, waited outside.
 
 ＠Miu,B01433
 「ええ。今はもう寝ようとしてたみたいだから、静かにしてあげててね」
+「Yes. She's going to sleep now, so give her some peace and quiet」
 
 ＠Zakuro,Q00988
 「分かった」
+「Fine」
 
 @zakuro_
 
 チラリと一度オレを見上げると、ざくろは相変わらず無駄なく立ち去っていく。
+She casts a glance at me, then as usual curtly takes her leave.
 
 あの視線は、きっといちごを倒れさせたことに対してなんだろうな。
+That look she gave me, is because I made Ichigo collapse.
 
 @miu			#閉_にこ
 
 ＠Miu,B01434
 「それじゃあ樹さん。私も仕事に戻りますから」
+「See you, Itsuki-san. I'm going back to work」
 
 ＠Itsuki
 「オレもまた後で様子を見に来るよ」
+「I'll come see how she's doing too」
 
 いちごのスケジュールを練り直すため、オレも部屋へ戻った。
+I went back to my room to rework Ichigo's schedule.
 
 @chara_clear		#保険
 @bg_black
@@ -1444,7 +1506,7 @@ wait		1000
 「Urhh～～... if I tell Papa, then I definitely won't be allowed～」
 
 #ためらいながらも、そこまで口にしてしまうのがいちごらしい。
-　It's like Ichigo to let that much slip, even while hesitating.
+　It's just like Ichigo to let that much slip, even when hesitating.
 
 #「危ない場所に行くつもりなら止めるぞ」
 ＠Itsuki
@@ -1506,7 +1568,7 @@ layer_movepass_play	l_ichigo,0,play_once
 
 #「元気になってから存分に遊べ。いちごならちょっと寝てればすぐ治る」
 ＠Itsuki
-「Play all you want, after you get well. A bit of sleep will do just the trick for you, Ichigo」
+「Play all you want, after you get well. A bit of sleep will be just the trick for you, Ichigo」
 
 @ichigo_ase		#汗
 
