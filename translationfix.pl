@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 
+use File::Copy;
 
 # setup options
 
@@ -1493,7 +1494,7 @@ sub makeStatusLine
 	$percentage = 10000;
 	if ($byte_total > 0)
 	{
-		use integer;
+		use bigint;
 		$percentage = (10000 * $byte_translated) / $byte_total;
 	}
 	
@@ -1689,6 +1690,53 @@ sub loadFromScriptsInc
 	close FILE;
 }
 
+sub CopyDir
+{
+	my ($source, $dest) = @_;
+	
+	mkdir $dest unless (-e $dest);
+	
+	opendir DIR, $source or die "cannot open dir $source: $!";
+	my @files= readdir DIR;
+	closedir DIR;
+	
+	foreach (@files)
+	{
+		next if substr($_, 0, 1) eq ".";
+		my $file = $source . "/" . $_;
+		my $dest_file = $dest . "/" . $_;
+		if (-d $file)
+		{
+			CopyDir($file, $dest_file);
+		}
+		else
+		{
+			copy($file, $dest_file);
+		}
+	}
+}
+
+sub CopyToGame
+{
+	chdir "..";
+	die "path to game.txt not found" unless (-e "path to game.txt");
+	open my $handle, '<', "path to game.txt";
+	chomp(my @lines = <$handle>);
+	close $handle;
+	
+	my $path = shift @lines;
+	
+	die $path . " not found" unless (-e $path);
+	die "Game not found" unless (-e $path . "/taskforce.xml");
+	print "Copying files to " . $path . "\n";
+	
+	CopyDir("musume",  $path . "/musume");
+	CopyDir("scripts", $path . "/musume/scripts");
+	
+	copy("taskforce.xml", $path . "/taskforce.xml");
+	
+}
+
 if ($#ARGV >= 0)
 {
 	handleFile $ARGV[0];
@@ -1700,4 +1748,5 @@ else
 		handleFile(readFile($last_file_file));
 	}
 	loadFromScriptsInc;
+	CopyToGame;
 }

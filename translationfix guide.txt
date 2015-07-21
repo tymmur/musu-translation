@@ -22,6 +22,13 @@ Changing back into narrow text after splitting lines is buggy and will not work 
 Also the script identifies newlines as errors. Be careful not to break the text files with this.
 
 
+Copying files into the game
+The script has the ability to copy files from git into the game itself. To do so, add a file called "path to game.txt"
+This file should contain the path to the game. Nothing else.
+Once the script validation is done, all files from scripts and musume are copied to the game (if found).
+
+It is recommended to work on the git version of the files and then use thes script to copy to the game to test. This will work best with git.
+
 
 In some cases the translation needs to divert from the untranslated files. Normally that is an error and the script will not allow it.
 A few flags has been added to tell translationfix that the divertion is intentional. Note that they all start with #SCRIPT.
