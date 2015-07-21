@@ -1,32 +1,32 @@
 label translator_intro
 
-—Translator
+—TL
 Welcome to the translation patch for musumaker.
 
-—Translator
-This patch translates the story up until April 2nd in the game.
+—TL
+This patch translates the story up until April 1st in the game.
 
-—Translator
+—TL
 Please note that anything dealing with training items buyable in the shop, has not yet been translated.
 
--Translator
+—TL
 This patch uses translation notes to help explain references, and Japanese articles.
 
--Translator
+—TL
 Hover your mouse over to the button on the top left of the screen.
 
-#TL note: This is a TL note.
+#TL note 1: This is a TL note.
 
--Translator
+—TL
 The patch also includes optional modifications to the game, as follows.
 
-—Translator
+—TL
 There are certain buttons, items, and choices in the game with strong BDSM content, that may make some audiences feel uncomfortable.
 
-—Translator
+—TL
 These include: spanking hand, whip, candle, face mask, bondage suits, and the Zakuro character route.
 
-—Translator
+—TL
 These features can be disabled. Would you like to disable them?
 
 select sel,"Leave the game as is","Disable hard S&M"
@@ -36,7 +36,7 @@ if sel=1 then goto translator_option_sm_off
 
 label translator_option_sm_on
 _TRANSLATOR_OPTION_DISABLE_SM=0
-—Translator
+—TL
 The game will be left to its original version.
 
 
@@ -44,10 +44,10 @@ goto translator_option_sm_done
 
 label translator_option_sm_off
 _TRANSLATOR_OPTION_DISABLE_SM=1
-—Translator
+—TL
 S&M features disabled.
 
-—Translator
+—TL
 Due to technical limitations, disabled items will appear as sold out, rather than removed.
 
 item_soldout	200,_TRUE # whip
@@ -64,7 +64,7 @@ goto translator_option_sm_done
 
 label translator_option_sm_done
 
-—Translator
+—TL
 Disable screen flashes at sexual climax?
 
 select sel,"Flash me","No flashes"
@@ -74,7 +74,7 @@ if sel=1 then goto translator_option_flash_off
 
 label translator_option_flash_on
 _TRANSLATOR_OPTION_DISABLE_FLASHES=0
-—Translator
+—TL
 Screen flashes are on.
 
 
@@ -82,14 +82,14 @@ goto translator_option_flash_done
 
 label translator_option_flash_off
 _TRANSLATOR_OPTION_DISABLE_FLASHES=1
-—Translator
+—TL
 Screen flashes are off.
 
 goto translator_option_flash_done
 
 label translator_option_flash_done
 
-—Translator
+—TL
 Done. Now enjoy yourself.
 
 @bg_black
