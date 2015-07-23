@@ -694,7 +694,7 @@ sub getJapaneseLines
 	}
 	elsif ($count_this_line == 1)
 	{
-		$byte_count += $byte_count_block;
+		$byte_count += $byte_count_block if $to_wide_char == 0;
 	}
 	
 	return @array;
@@ -1083,7 +1083,7 @@ sub handleScreenLines
 		$lines[0] = $empty . $lines[0];
 	}
 	
-	$line_count++ if ($count_this_line == 1);
+	$line_count++ if ($count_this_line == 1 and $to_wide_char == 0);
 	
 	# debug code
 	#push(@lines, "has translation: " . $has_translation);
@@ -1100,7 +1100,7 @@ sub handleScreenLines
 			die_local;
 		}
 	
-		if ($count_this_line == 1)
+		if ($count_this_line == 1 and $to_wide_char == 0)
 		{
 			$translated_line_count++;
 			$translated_byte_count += $byte_count_block;
