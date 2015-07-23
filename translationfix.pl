@@ -7,6 +7,9 @@ use File::Copy;
 
 # setup options
 
+my $make_widechar_copy = 1;
+
+# ignore the rest of the setup. It can't be used, but has to be there for the script to work
 my $to_wide_char = 0;
 my $to_short_char = 0;
 
@@ -1173,7 +1176,14 @@ sub makeUnnamedShop
 {
 	my ($file) = @_;
 	
-	return if ($file ne "item/shop_buy.txt" and $file ne "item/shop_sel.txt");
+	my $index = rindex($file, "/");
+	my $filename = substr($file, $index+1) if $index != -1;
+	$index = rindex($filename, "\\");
+	$filename = substr($filename, $index+1) if $index != -1;
+	
+	return if ($filename ne "shop_buy.txt" and $filename ne "shop_sel.txt");
+	
+	print "Generating " . $filename . "\n";
 	
 	# use byte values for Subuta-san's names as that will keep the script working in the ASCII area and avoid charset issues.
 	my $to_name   = $speaker_add . $name_translation{sprintf( "%c%c%c%c%c%c%c%c", 147, 88,  136, 245, 130, 179, 130, 241)};
@@ -1187,7 +1197,7 @@ sub makeUnnamedShop
 
 	my $name_length = length $from_name;
 	
-	my $out_file = substr($file, 0, 13) . "_unnamed.txt";
+	my $out_file = substr($file, 0, rindex($file, ".")) . "_unnamed.txt";
 	
 	my @output = ();
 	push(@output, "###");
@@ -1268,6 +1278,7 @@ sub handleFile
 	my @translated = readFile($file);
 	
 	my @output;
+	my @output_wide;
 	
 	my $last_was_blank = 0;
 	my $dialogue_added = 0;
@@ -1282,6 +1293,7 @@ sub handleFile
 		if ($script_ignore or $line eq 'skip_untranslated_training=0' or $line eq 'if skip_untranslated_training=1 then return' or $line eq '@remove_this_line_when_translating')
 		{
 			push(@output, $line);
+			push(@output_wide, $line);
 			$script_ignore = 0 if ($line eq "#SCRIPT IGNORE END");
 			if (substr($line, 0, 27) eq "#SCRIPT SKIP JAPANESE LINES")
 			{
@@ -1299,6 +1311,7 @@ sub handleFile
 			if ($last_was_blank == 0)
 			{
 				push(@output, $line);
+				push(@output_wide, $line);
 			}
 			$last_was_blank = 1;
 			next;
@@ -1309,6 +1322,7 @@ sub handleFile
 		if ($type eq "COMMENT")
 		{
 			push(@output, $line);
+			push(@output_wide, $line);
 			
 			if ($line eq "#SCRIPT ADD DIALOGUE")
 			{
@@ -1372,11 +1386,24 @@ sub handleFile
 				$line_number++;
 			}
 			
+			$to_wide_char = 0;
+			$split_lines = 0;
+			
 			foreach((handleScreenLines($dialogue_added, @lines)))
 			{
 				push(@output, $_);
 			}
-
+			
+			$to_wide_char = 1;
+			$split_lines = 1;
+			
+			if ($make_widechar_copy == 1)
+			{
+				foreach((handleScreenLines($dialogue_added, @lines)))
+				{
+					push(@output_wide, $_);
+				}
+			}
 			$last_was_blank = 1;
 			$dialogue_added = 0;
 			$line_number--; # prevent deleting comments
@@ -1398,13 +1425,16 @@ sub handleFile
 					$translated_line_count++;
 				}
 				push(@output, $line);
+				push(@output_wide, $line);
 				next;
 			}
 		}
 		
 		if (substr($japanese[$japanese_index], 0, 12) eq "screen_flash" and index($line, "screen_flash") != -1)
 		{
-			push(@output, "if disable_screen_flash=0 then " . $japanese[$japanese_index]);
+			push(@output, "if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then " . $japanese[$japanese_index]);
+			push(@output_wide, "if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then " . $japanese[$japanese_index]);
+			
 			next;
 		}
 		
@@ -1441,6 +1471,7 @@ sub handleFile
 		}
 		
 		push(@output, $line);
+		push(@output_wide, $line);
 		
 		if ($add_label_text == 1 and substr($line, 0, 5) eq "label")
 		{
@@ -1463,7 +1494,18 @@ sub handleFile
 		close FILE;
 	}
 	
-	makeUnnamedShop($file);
+	my $file_wide = "../musume/scripts/" . $file;
+	if ($make_widechar_copy == 1 and -e $file_wide)
+	{
+		open FILE, ">", $file_wide or die_local $!;
+	
+		foreach (@output_wide)
+		{
+			print FILE $_ . $CLRF;
+		}
+		close FILE;
+		makeUnnamedShop($file_wide);
+	}
 	
 	if (-e $last_file_file)
 	{
@@ -1731,7 +1773,6 @@ sub CopyToGame
 	print "Copying files to " . $path . "\n";
 	
 	CopyDir("musume",  $path . "/musume");
-	CopyDir("scripts", $path . "/musume/scripts");
 	
 	copy("taskforce.xml", $path . "/taskforce.xml");
 	
@@ -1747,6 +1788,7 @@ else
 	{
 		handleFile(readFile($last_file_file));
 	}
+	CopyDir(".", "../musume/scripts") if $make_widechar_copy == 1;
 	loadFromScriptsInc;
 	CopyToGame;
 }
