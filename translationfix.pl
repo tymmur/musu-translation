@@ -1283,12 +1283,35 @@ sub handleFile
 	my $last_was_blank = 0;
 	my $dialogue_added = 0;
 	my $script_ignore = 0;
+	my $added_button = 0;
 	
 	for ($line_number =0; $line_number < scalar @translated; $line_number++)
 	{
 		my $line = $translated[$line_number];
 		my $type = getType($line);
-		my $add_kanji_to_text = 0;
+		my $add_kanji_to_text = 0; 
+		
+		# handle TL notes
+		if ($type eq "TEXT") 
+		{
+			if (substr($line, 0, 29) eq "setbutton 2,18,220,0,\"TLnotes")
+			{
+				push(@output, $line);
+				push(@output_wide, $line);
+				$added_button = 1;
+				$last_was_blank = 0;
+				next;
+			}
+			if ($added_button and substr($line, 0, 11) eq "clearbutton")
+			{
+				push(@output, $line);
+				push(@output_wide, $line);
+				$added_button = 0;
+				$last_was_blank = 0;
+				next;
+			}
+		}
+		
 		
 		if ($script_ignore or $line eq 'skip_untranslated_training=0' or $line eq 'if skip_untranslated_training=1 then return' or $line eq '@remove_this_line_when_translating')
 		{
