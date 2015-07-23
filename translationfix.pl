@@ -1755,6 +1755,50 @@ sub loadFromScriptsInc
 	close FILE;
 }
 
+sub convertForewords
+{
+	print "Generating widechar version of TL forewords";
+	my @wide;
+	
+	my $state = 0;
+	my $speaker;
+	
+	$to_wide_char = 1;
+	$split_lines = 1;
+	
+	foreach (readFile("translator_intro.txt"))
+	{
+		my $type = getType($_);
+		if ($type eq "SPEAKER")
+		{
+			$speaker = convertLine($_);
+			push(@wide, $speaker);
+			$state = 1;
+		}
+		elsif ($state == 1)
+		{
+			my $text = convertLine($_);
+			foreach((splitLine($speaker, $text)))
+			{
+				push(@wide, $_);
+			}
+			$state = 0;
+		}
+		else
+		{
+			push(@wide, $_);
+		}
+	}
+	
+	open FILE, ">../musume/scripts/translator_intro.txt" or die_local $!;
+	
+	foreach (@wide)
+	{
+		print FILE $_ . $CLRF;
+	}
+	close FILE;
+}
+
 sub CopyDir
 {
 	my ($source, $dest) = @_;
@@ -1813,5 +1857,6 @@ else
 	}
 	CopyDir(".", "../musume/scripts") if $make_widechar_copy == 1;
 	loadFromScriptsInc;
+	convertForewords if $make_widechar_copy == 1;
 	CopyToGame;
 }
