@@ -361,7 +361,7 @@ se_stop		0
 
 ある意味一番隙だらけのざくろが、パンパンといちごに銀玉を命中させる。
 
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @ichigo_kurushii	#苦
 
 ＠Ichigo,O01449
@@ -742,7 +742,7 @@ wait		500
 ＠Itsuki
 「ちょッ！　今さらそんな詭弁で―――」
 
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #SE47　テーブルを叩く音（バンッ！）
 @SE47			#SE47　テーブルを叩く音（バンッ！）
 @yuzu_small

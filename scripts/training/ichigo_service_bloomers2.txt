@@ -593,7 +593,7 @@ event	"event\ev_ich_171-03.png"
 
 #■EVCG(EV_ICH_171-04：全員絶頂)
 #//フラッシュ
-if disable_screen_flash=0 then screen_flash	500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 voice_bg_stop
 se_stop	1
 event	"event\ev_ich_171-04.png"
@@ -616,7 +616,7 @@ event	"event\ev_ich_171-04.png"
 ＠Ichigo,O03387
 「（熱くて苦いの……うぅっ、鼻まであふれちゃいそう、うぅうっ、うくっ……）」
 
-if disable_screen_flash=0 then screen_flash	1000
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	1000
 ドクドクっ、ドプッ！！！
 
 ＠Ichigo,O03388

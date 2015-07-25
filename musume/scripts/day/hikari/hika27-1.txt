@@ -1,0 +1,1507 @@
+label	hikari_27_1
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#ひかりルート（ひかりとサンタクロース）
+#発生条件：みかん・かりん・いちごの好感度が一定以上＆かりんと仲直りイベント済
+#発生時期：１２月１０日～１２月２０日
+#天気　晴れ
+#--------------------------------------------------
+
+#■BG（自室）
+@bg_itsuki		# 自室
+@bgm12			#BGM 12 : メインテーマ
+
+平日の日中。
+
+何となく時間を持て余し、商店街の方へ出てみようと思い立った。
+
+＠Ｉｔｓｕｋｉ
+「一人で行ってもつまらないし、誰かに声をかけて行こうか」
+
+@bg_black
+wait		100
+#SE06　部屋のドア開く音（ガチャ）
+@SE06			#部屋のドア開く音（ガチャ）
+wait		100
+@SE07			#部屋のドア閉まる音（パタン）
+@bg_door		# ドア前
+
+リビングへ行けば誰か居るだろう。
+
+@bg_rouka		# 廊下
+#SE16　廊下を歩く音
+#@SE16			#SE16　廊下を歩く音
+
+身なり、財布、携帯、もろもろを手探りで確認しながら、廊下を歩く。
+
+#se_stop		0
+#一拍
+@bg_black
+wait		1000
+#SE06　部屋のドア開く音（ガチャ）
+@SE06			#部屋のドア開く音（ガチャ）
+#■BG（リビング）
+@bg_living		# リビング
+
+すぐリビングに到着。
+
+少なくても一人、手ごろな人数だと二人くらい、連れが出来ればいい。
+
+＠Ｉｔｓｕｋｉ
+「おーい。商店街に出かけるけど、誰か一緒に行くか？」
+
+@mikan_small
+@mikan_shifuku
+@mikan_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01874
+「あ、うん！　行く行くッ」
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_warai		#笑
+wait		100
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02189
+「いちごも行くー！」
+
+@karin_small
+@karin_shifuku
+@karin_niko		#にこ
+
+＠Ｋａｒｉｎ,P02352
+「みかんが行くなら一緒するわ」
+
+@hikari_small
+@hikari_shifuku
+@hikari_warai		#笑.png
+wait		100
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00488
+「ひーちゃんも！　お父しゃんと一緒に行くのー♪」
+
+中に居た子供達が、いっせいに手を挙げた。
+
+＠Ｉｔｓｕｋｉ
+「え……四人、みんなか？」
+
+#@mikan_yorokobi		#喜
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01875
+「うん。そうみたい」
+
+まさか、平日なのに四人も居るとは思わなかった。
+
+@karin_bubetsu		#侮蔑
+
+＠Ｋａｒｉｎ,P02353
+「あら。イヤならいいのよ、樹は残ってれば？」
+
+＠Ｉｔｓｕｋｉ
+「それじゃオレが声を掛けた意味が無いだろうが」
+
+@ichigo_yorokobi	#喜
+
+＠Ｉｃｈｉｇｏ,O02190
+「ちょうど今、みんなで外に遊びに行こうって言ってたところなんだよ」
+
+@karin_niko		#にこ
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_karin,0,	300,	0,16
+layer_movepass_add	l_karin,0,	300,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02354
+「ええ。いい財布が出来たわ」
+
+@hikari			#普.png
+@mikan_kusyou		#苦笑
+@ichigo_takurami	#企み
+
+＠Ｈｉｋａｒｉ,N00489
+「へ？　お父しゃんお財布なの？」
+
+＠Ｉｔｓｕｋｉ
+「違う……が、まぁ誘った手前、少しだけだからな」
+
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_mikan,0,	200,	0,16
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_add	l_mikan,0,	200,	0,16
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_add	l_mikan,0,	200,	0,16
+layer_movepass_add	l_mikan,0,	200,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01876
+「やったぁ♪　みかん、出かける準備してくるね」
+
+ちょっと出かけるだけの予定が、このメンツだとにぎやかになりそうだ。
+
+#一拍
+bgm_stop
+@bg_black
+wait		1000
+#■BG（施設前）
+#@bg_gate		# 孤児院前
+@bg_sky			# 空
+
+＠Ｍｉｋａｎ,A01877
+「はぁ～。今日も寒いね～」
+
+＠Ｋａｒｉｎ,P02355
+「やっぱり前の町より北なだけあって、冬は半端じゃないわね」
+
+＠Ｉｃｈｉｇｏ,O02191
+「えへへ。いちごポケットカイロ持ってきたよ～」
+
+@bgm17			#BGM 17 : のんびりのテーマ
+
+子供達のはしゃぐ声が、白い息となって中空へと吐き出される。
+
+@bg_gate		# 孤児院前
+
+＠Ｉｔｓｕｋｉ
+「ひかり、大丈夫か？」
+
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,16
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00490
+「うん。ちょっと寒いけど平気なの」
+
+@karin_small
+@karin_shifuku
+#@karin			#普通
+@karin_niko		#にこ
+
+＠Ｋａｒｉｎ,P02356
+「じゃ、早く行きましょ。ジッとしてるとよけいに寒いわ」
+
+@chara_clear		#保険
+wait		500
+@ichigo_small
+@ichigo_shifuku
+@mikan_small
+@mikan_shifuku
+
+@ichigo_warai		#笑
+@mikan_warai		#笑
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_ichigo,0,	200,	16,0
+layer_movepass_add	l_ichigo,0,	200,	-16,0
+layer_movepass_add	l_ichigo,0,	200,	16,0
+layer_movepass_add	l_ichigo,0,	200,	-16,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02192
+「お菓子食べ歩きツアに出発ー！」
+
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01878
+「おー！」
+
+＠Ｉｔｓｕｋｉ
+「……やめてくれ。君ら二人が言うと財布が泣きそうだ」
+
+@bg_black
+wait		1000
+#■BG（住宅街）
+@bg_jyuutakugai		# 住宅街
+wait		100
+
+screen_vibration	500,16,16,16
+
+＠Ｉｃｈｉｇｏ,O02193
+「んひゃぁあぁああ～～～！？」
+
+＠Ｍｉｋａｎ,A01879
+「うわッ？　なに、どうしたのッ？」
+
+歩き始めてすぐ、いちごが妙に上擦った悲鳴を上げた。
+
+＠Ｉｔｓｕｋｉ
+「どうした、いちご？」
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ふるえ２
+layer_movepass_add	l_ichigo,0,	100,	4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02194
+「か、カイロが～……いちごが持ってきたカイロ～……」
+
+@chara_clear		#保険
+wait		500
+@mikan_small
+@mikan_shifuku
+@karin_small
+@karin_shifuku
+
+@mikan			#普通
+@karin			#普通
+
+＠Ｍｉｋａｎ,A01880
+「カイロがどうかした………あれ？」
+
+@karin_kanashimi	#哀
+
+＠Ｋａｒｉｎ,P02357
+「いちご……これ、カイロじゃなくてパンチアイスじゃない……」
+
+@chara_clear		#保険
+@bg_sky			# 空
+@SE73			#SE73　風が吹きぬける音（ヒュゥゥウ）※擬音系。場が冷めた時とかに使う場面効果。
+
+ガチガチと震えながらいちごが取り出した物体に、みかんが首を傾げ、かりんが呆れた顔を返す。
+
+@hikari_small
+@hikari_shifuku
+@hikari			#普.png
+@bg_jyuutakugai		# 住宅街
+
+＠Ｈｉｋａｒｉ,N00491
+「パンチあいしゅ？」
+
+＠Ｉｔｓｕｋｉ
+「持ってみれば分かるよ」
+
+window_close
+@hikari_
+wait		1000
+
+＠Ｈｉｋａｒｉ,N00492
+「んぅ……？　ひゃあッ、ちゅめたいの！」
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ふるえ２
+layer_movepass_add	l_ichigo,0,	100,	4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-4,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02195
+「ざ、ざくろが……ぶるぶる……叩くと暖かくなるよってぇ～」
+
+@chara_clear		#保険
+wait		500
+@mikan_small
+@mikan_shifuku
+@karin_small
+@karin_shifuku
+
+@mikan_kusyou		#苦笑
+@karin_kanashimi	#哀
+
+＠Ｍｉｋａｎ,A01881
+「叩いちゃったんだ……」
+
+#///////////////////////////////////////////////////////
+#演：ためいき
+#layer_movepass_add	l_karin,0,	550,	0,32
+#layer_movepass_add	l_karin,0,	550,	0,0
+#layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+#layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02358
+「何で引っかかるの、そんなものに……」
+
+@chara_clear		#保険
+wait		500
+@ichigo_small
+@ichigo_shifuku
+@ichigo_komikaru_odoroki	#コミカル驚
+wait		100
+#SE75　ショック音（ガーーン！）
+@SE75			#SE75　ショック音（ガーーン！）
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_ichigo,0,	200,	0,32
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02196
+「いちご、また騙されたんだぁ！」
+
+@ichigo_
+
+＠Ｉｔｓｕｋｉ
+「……ざくろが面白がるのも分かる気がするな」
+
+ポイポイッ！とポケットからいくつもパンチアイスを捨てるいちご。
+
+@mikan_small
+@mikan_shifuku
+@karin_small
+@karin_shifuku
+
+@mikan_kusyou		#苦笑
+@karin_kanashimi	#哀
+
+＠Ｋａｒｉｎ,P02359
+「いくつ騙されて持ってきてるのよ……」
+
+……まったくだ。
+
+bgm_stop
+@bg_black
+wait		1000
+#■BG（商店街）
+@bg_syoutengai		# 商店街
+
+道中いろいろとあったが、とりあえず商店街に到着した。
+
+@bgmk12			#BGM K12 : 興味津々のテーマ
+
+＠Ｉｔｓｕｋｉ
+「さて、ついたぞ。どうする子供達」
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_warai		#笑
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02197
+「いちご、タイヤキがいいー！」
+
+@mikan_small
+@mikan_shifuku
+@mikan_komikaru_warai	#コミカル笑
+
+＠Ｍｉｋａｎ,A01882
+「みかんはクレープ！」
+
+＠Ｉｔｓｕｋｉ
+「いきなり奢りの話か……」
+
+@bg_black
+
+軽く出歩いて店を冷やかすくらいで、時間を潰したかったのだが。
+
+まぁこのメンバーで出費を無くすというのは不可能だろう。
+
+#@hikari_small
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+@bg_syoutengai		# 商店街
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,16
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00493
+「お父しゃん、見て。お店のガヤスに絵が描いてあゆよ」
+
+＠Ｉｔｓｕｋｉ
+「ん？」
+
+#@hikari_warai		#笑.png
+
+＠Ｈｉｋａｒｉ,N00494
+「白いので、お髭のオジさんと鹿さんが描いてゆの」
+
+@bg_white		# 白
+
+ひかりの指す先には、スノースプレーで絵を描いた店のガラスがあった。
+
+＠Ｉｔｓｕｋｉ
+「ああ、サンタとトナカイか。もうすぐクリスマスだからな」
+
+#@hikari_small
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari			#普.png
+@bg_syoutengai		# 商店街
+
+＠Ｈｉｋａｒｉ,N00495
+「クイスマシュ……？」
+
+＠Ｉｔｓｕｋｉ
+「ひかりは良い子にしてたから、きっとプレゼントがもらえるぞ」
+
+#@hikari_odoroki		#驚.png
+#///////////////////////////////////////////////////////
+#演：おどろき
+#layer_movepass_add	l_hikari,0,	200,	0,16
+#layer_movepass_add	l_hikari,0,	200,	0,0
+#layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+#layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00496
+「プレジェント？　ひーちゃんが貰えゆの？」
+
+不思議そうにガラスの絵を見ていたひかりへ頷き、頭を撫でてやる。
+
+@chara_clear		#保険
+wait		500
+@ichigo_small
+@ichigo_shifuku
+@mikan_small
+@mikan_shifuku
+
+@ichigo_yorokobi	#喜
+@mikan_yorokobi		#喜
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02198
+「いいなぁッ。パパ、いちごも良い子にしてたよ！」
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01883
+「お兄ちゃん、みかんも頑張ったよ。今年もプレゼント貰えるかな」
+
+＠Ｉｔｓｕｋｉ
+「もちろん。タイヤキとクレープだっけ？」
+
+@ichigo_ase		#汗
+@mikan_komikaru_ikari	#コミカル怒
+
+＠Ｍｉｋａｎ,A01884
+「違うよーッ、それはサンタさんへのお願いじゃないよッ」
+
+@ichigo_komikaru_warai	#コミカル笑
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_ichigo,0,	200,	16,0
+layer_movepass_add	l_ichigo,0,	200,	-16,0
+layer_movepass_add	l_ichigo,0,	200,	16,0
+layer_movepass_add	l_ichigo,0,	200,	-16,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02199
+「いちごはね、『彩羽屋』の限定アイス５０個を全部一人で食べたいってお願いするんだよ」
+
+@chara_clear		#保険
+wait		500
+@karin_small
+@karin_shifuku
+@karin_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_karin,0,	550,	0,24
+layer_movepass_add	l_karin,0,	550,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02360
+「はぁ、子供ねぇ。そんなのわざわざお願いするものでもないじゃない」
+
+@mikan_small
+@mikan_shifuku
+@mikan_yorokobi		#喜
+
+＠Ｍｉｋａｎ,A01885
+「かりんちゃんは何が欲しいの？」
+
+@karin_niko		#にこ
+
+＠Ｋａｒｉｎ,P02361
+「うん？　私はねぇ」
+
+@karin_komikaru_yoku_n	#コミカル欲ｎ
+#SE74　目の輝き（キラーン）
+@SE74			#SE74　目の輝き（キラーン）
+
+みかんを見て、妖しく瞳が光る。
+
+@mikan			#普通
+
+＠Ｍｉｋａｎ,A01886
+「え？」
+
+@karin_komikaru_yoku	#コミカル欲
+
+＠Ｋａｒｉｎ,P02362
+「うふふふふ。もちろん、み・か・ん、よ」
+
+＠Ｉｔｓｕｋｉ
+「無茶言うな。可愛く言ってもダメだ」
+
+@mikan_kanashimi	#哀
+
+＠Ｍｉｋａｎ,A01887
+「みかん……？」
+
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01888
+「あ、お蜜柑のこと？　コタツで食べたら美味しいよねぇ♪」
+
+@karin_warai		#笑
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_karin,0,	200,	0,16
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_add	l_karin,0,	200,	0,16
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_add	l_karin,0,	200,	0,16
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02363
+「そうねぇ。コタツで食べちゃうのもいいわねぇ～」
+
+＠Ｉｔｓｕｋｉ
+「話かみ合ってねぇってよ」
+
+bgm_stop
+@chara_clear		#保険
+
+……まぁ。いつものことなので放っておこう。
+
+＠Ｉｔｓｕｋｉ
+「ひかりは、サンタさんから何が欲しいんだ？」
+
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_kanashimi	#哀.png
+
+＠Ｈｉｋａｒｉ,N00497
+「えぅ……お父しゃん～……」
+
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+ひかりは何故か悲しそうな顔をした。
+
+＠Ｉｔｓｕｋｉ
+「ん？　ひかり？」
+
+＠Ｋａｒｉｎ,P02364
+「どうしたの、ひーちゃん？　樹に何かされたのっ？」
+
+＠Ｉｔｓｕｋｉ
+「……二言目にはオレを疑うの、止めてくれないかな」
+
+@hikari_naki		#泣.png
+
+＠Ｈｉｋａｒｉ,N00498
+「ぐすっ……違うの。あのね……ひーちゃん、サンタしゃんっていう人知らないのぉ」
+
+＠Ｍｉｋａｎ,A01889
+「え？」
+
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00499
+「ひっく……だから、ひーちゃんだけきっとプレジェントもらえないのぉ……ぐすっ、えぅぅ…」
+
+＠Ｋａｒｉｎ,P02365
+「ひーちゃん……」
+
+＠Ｉｔｓｕｋｉ
+「前の家………いや、今まで何も無かったのか、クリスマスに？」
+
+@hikari_kanashimi	#哀.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	900,	0,0
+layer_movepass_add	l_hikari,0,	300,	0,16
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00500
+「うん……。クイスマシュ、ぐしゅっ…聞いたこと無いの……」
+
+@hikari_naki		#泣.png
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,8
+layer_movepass_add	l_hikari,0,	100,	0,4
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00501
+「ふぇぇ……ひーちゃんだけプレジェント貰えないのぉ～……うわぁあん！」
+
+@hikari_
+
+＠Ｉｔｓｕｋｉ
+「ひかり……」
+
+そうだった。この子は……
+
+完全にオレが浅はかで、そして軽率な発言で、ひかりを傷つけてしまったのだ。
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_warai		#笑
+
+＠Ｉｃｈｉｇｏ,O02200
+「あはははッ♪　ひーちゃんお子様～、サンタさんなんてほんとは―――」
+
+#@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
+se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+@ichigo_
+screen_vibration	500,16,16,16
+
+＠Ｉｃｈｉｇｏ,O02201
+「ぴぎゃんッ！！」
+
+@karin_small
+@karin_shifuku
+@karin_komikaru_ikari_n	#コミカル怒ｎ
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02366
+「ちょっとは空気読みなさいよッ、このバカいちご～ッ！」
+
+window_close
+@karin_
+wait		1000
+@SE36			#SE36　勢いよく抱きつく音（バフッ！）
+
+＠Ｉｃｈｉｇｏ,O02202
+「ひひゃぁあぁ～！！　つ、冷たい冷たい～ッ、パンチアイス押し付けないでかりん～～！」
+
+bgm_stop
+@bg_black
+
+……何か隅でドタバタやってるが、今は無視だ。
+
+@bg_syoutengai		# 商店街
+
+＠Ｈｉｋａｒｉ,N00502
+「うえぇええんッ！　んぅぐ、ぐしゅッ……ひんんんぅッ！」
+
+＠Ｉｔｓｕｋｉ
+「ひかり、オレが悪かった。大丈夫だよ」
+
+@bg_white		# 白
+@bgmk03			#BGM K03 : 静かの時のテーマ
+
+涙を流すひかりの前にしゃがみ、優しく抱きしめた。
+
+＠Ｈｉｋａｒｉ,N00503
+「んぐうぅ…ぐしゅッ、お父しゃんっ……ひーちゃん、サンタしゃんの知らない子なのぉ……ぐすッ」
+
+＠Ｉｔｓｕｋｉ
+「そんなことない。サンタさんはひかりのこと、ちゃんと知ってるよ」
+
+@hikari_large		# 近い
+@hikari_shifuku
+@hikari_naki		#泣.png
+@bg_syoutengai		# 商店街
+
+＠Ｈｉｋａｒｉ,N00504
+「んっく、ひんぅッ……ほんと…？」
+
+＠Ｉｔｓｕｋｉ
+「ひかりみたいな良い子のこと、サンタが知らないはず無いじゃないか」
+
+＠Ｉｔｓｕｋｉ
+「だから大丈夫。きっとクリスマスには、プレゼントを届けてくれるよ」
+
+@SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
+@bg_white		# 白
+
+悲しそうに嗚咽で震える身体を、いっぱいに抱きしめる。
+
+今まで恵まれなかった分、今はオレが出来ることを全てしてやりたい。
+
+＠Ｈｉｋａｒｉ,N00505
+「えへ……ぐすッ、うん。よかったの……」
+
+瞼を濡らしながらも、ひかりはオレの言葉を信じて微笑んでくれるのだった。
+
+bgm_stop
+@bg_black
+wait		1000
+
+…………………
+
+……………
+
+………
+
+@bg_sky			# 空
+
+ひかりが完全に泣き止むまで、ずっとそうしていた。
+
+町中でそんな時間が続いたので、オレ達は周りの視線をいっぱいに浴びていた。
+
+@bg_black
+wait		1000
+#■BG（商店街）
+@bg_syoutengai		# 商店街
+
+＠Ｉｔｓｕｋｉ
+「悪かったな、ひかり。大丈夫か……？」
+
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00506
+「うん！　へーき、ありがとうお父しゃん」
+
+@bgm12			#BGM 12 : メインテーマ
+
+腕の中から離すと、ひかりはいつも通り明るい笑顔を見せてくれた。
+
+@chara_clear		#保険
+wait		500
+@karin_small
+@karin_shifuku
+@karin_kanashimi	#哀
+
+＠Ｋａｒｉｎ,P02367
+「まったく、町中なのに。恥ずかしいんだから」
+
+＠Ｉｔｓｕｋｉ
+「はは……悪かった。オレが浅はかだったせいだ」
+
+@karin_keno		#嫌悪
+
+＠Ｋａｒｉｎ,P02368
+「当然よ。悪いのは樹で、ひーちゃんは被害者よ」
+
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+
+＠Ｈｉｋａｒｉ,N00507
+「ひーちゃんもう大丈夫なの。泣かないよ！」
+
+@karin_warai		#笑
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_karin,0,	200,	16,0
+layer_movepass_add	l_karin,0,	200,	-16,0
+layer_movepass_add	l_karin,0,	200,	16,0
+layer_movepass_add	l_karin,0,	200,	-16,0
+layer_movepass_add	l_karin,0,	100,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02369
+「んーッ♪　偉いわひーちゃん！」
+
+@chara_clear		#保険
+wait		500
+@mikan_small
+@mikan_shifuku
+@mikan_yorokobi		#喜
+
+＠Ｍｉｋａｎ,A01890
+「あ、ひーちゃんもお兄ちゃんも、もう大丈夫なの？」
+
+＠Ｉｔｓｕｋｉ
+「ああ、迷惑かけたな。………みかんは何してたんだ？」
+
+@mikan			#普通
+
+＠Ｍｉｋａｎ,A01891
+「え……」
+
+@karin_small
+@karin_shifuku
+@karin_keno		#嫌悪
+
+＠Ｋａｒｉｎ,P02370
+「樹ッ、一番の功労者に何てこと言うのよッ！」
+
+@karin_ikari		#怒
+
+＠Ｋａｒｉｎ,P02371
+「みかんはね、小さい子に抱きついて変態にしか見えないあなたのために、近づいてくる警官みんなにフォローしてくれてたのよッ！」
+
+＠Ｉｔｓｕｋｉ
+「お、おぉお……そうだったのか……」
+
+@mikan_kanashimi	#哀
+
+＠Ｍｉｋａｎ,A01892
+「お兄ちゃん、もう少しで連行されそうだったんだよ」
+
+何だかかなり、危ない構図になっていたようだ。
+
+＠Ｉｔｓｕｋｉ
+「……んっと、じゃあとりあえず今日のところは出なおすか」
+
+#@karin_keno		#嫌悪
+@karin_bubetsu		#侮蔑
+
+＠Ｋａｒｉｎ,P02372
+「何を言うの。迷惑をかけたお詫びをしてもらうに決まってるじゃない」
+
+@mikan_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01893
+「うん。みかんもお菓子食べ歩きに行きたいな」
+
+＠Ｉｔｓｕｋｉ
+「え……マジで？」
+
+#@karin_bubetsu		#侮蔑
+
+＠Ｋａｒｉｎ,P02373
+「恥ずかしい思いをさせられた分、返してもらうわよ」
+
+@chara_clear		#保険
+
+ひかりの件もあって、オレはすっかり帰宅モードだったんだが。
+
+＠Ｉｔｓｕｋｉ
+「って言うか、ひかりは？　やっぱり一度帰りたいよな？」
+
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：感激
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	200,	16,0
+layer_movepass_add	l_hikari,0,	200,	-16,0
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00508
+「ううん、大丈夫。まだ一緒にお出かけ続けたいの！」
+
+＠Ｉｔｓｕｋｉ
+「うぐッ……」
+
+@mikan_small
+@mikan_shifuku
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01894
+「行こ、お兄ちゃん」
+
+bgm_stop
+@chara_clear		#保険
+@bg_sky			# 空
+
+最後の良心、ひかりもかりん側で、どうやら奢り歩くはめになりそうだ。
+
+……あれ。でも何か忘れてるような。
+
+#@ichigo_small
+@ichigo_middle		# 中間
+@ichigo_shifuku
+#@ichigo_komaru		#困
+@ichigo_kanashimi	#哀
+@bg_syoutengai		# 商店街
+@SE73			#SE73　風が吹きぬける音（ヒュゥゥウ）※擬音系。場が冷めた時とかに使う場面効果。
+#///////////////////////////////////////////////////////
+#演：ふるえ２
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02203
+「ブルブルっ…うぅぅ……いちごを忘れないで、パパ～」
+
+＠Ｉｔｓｕｋｉ
+「ん？　おわッ、どうしたいちご！？」
+
+＠Ｈｉｋａｒｉ,N00509
+「ひゃあッ！　いちごお姉しゃん、ちゅめたいの」
+
+さっきかりんにお仕置きされていたいちごが、ブルブル震えながら復帰してきた。
+
+@ichigo_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ふるえ２
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02204
+「パンチアイス……き、危険だよ、冷たくて……」
+
+＠Ｋａｒｉｎ,P02374
+「あ～、ちょっと強くやりすぎたかしら……」
+
+＠Ｉｔｓｕｋｉ
+「どんな使い方をしたら、こんなに冷たくなるんだッ」
+
+#@ichigo_takurami	#企み
+@ichigo_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ふるえ２
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_add	l_ichigo,0,	100,	-8,0
+layer_movepass_add	l_ichigo,0,	100,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02205
+「た、タイヤキ……食べて暖まらないと……」
+
+@ichigo_
+
+＠Ｍｉｋａｎ,A01895
+「お兄ちゃんっ、いちごちゃんが凍死しちゃう！？」
+
+＠Ｉｔｓｕｋｉ
+「凍死はないだろうが……。仕方ないな」
+
+何だかよく分からない状態のまま、結局商店街で食べまわることになる……。
+
+#一拍
+bgm_stop
+@bg_black
+wait		1000
+#■BG（商店街）
+@bg_syoutengai		# 商店街
+@bgm17			#BGM 17 : のんびりのテーマ
+
+店を数件回り、そして子供たち行きつけの食べ歩きの屋台へ足を運んだ。
+
+商店街を歩く間、初めて知ったクリスマスについて、ひかりは興味津々だった。
+
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+
+＠Ｈｉｋａｒｉ,N00510
+「あのね、冬になったら、飾りは見たことあゆの。何かなって」
+
+クリスマス色の飾りを見ながら話すひかり。
+
+＠Ｈｉｋａｒｉ,N00511
+「あれ全部、クイスマシュの飾りなの？」
+
+@mikan_small
+@mikan_shifuku
+@mikan_yorokobi		#喜
+
+＠Ｍｉｋａｎ,A01896
+「うん。でもイブになったら、きっと電飾とかもっと綺麗になるんじゃないかな」
+
+＠Ｉｔｓｕｋｉ
+「ひかり、サンタへのプレゼント考えておくんだぞ」
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00512
+「うん！　そしたらお父しゃんがサンタしゃんに伝えてくえゆんだよね」
+
+＠Ｉｔｓｕｋｉ
+「そうだ。オレはサンタと知り合いだからな」
+
+@karin_small
+@karin_shifuku
+#@karin_bubetsu		#侮蔑
+@karin_niko		#にこ
+
+＠Ｋａｒｉｎ,P02375
+「遠慮しないで沢山頼んだ方がいいわよ、ひーちゃん」
+
+@mikan			#普通
+@hikari			#普.png
+
+＠Ｈｉｋａｒｉ,N00513
+「たくさん？　いいの？」
+
+@ichigo_small
+@ichigo_shifuku
+@ichigo_warai		#笑
+wait		100
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02206
+「いちごもクリスマスまでに、もっと欲しいプレゼント増やしておくんだ～♪」
+
+@mikan_kusyou		#苦笑
+@karin_kanashimi	#哀
+
+……いや待て、いちごよ。お前はさっきサンタの正体を知ってるって言ってたじゃないか。
+
+@bg_black
+wait		1000
+@bg_syoutengai		# 商店街
+
+＠Ｈｉｋａｒｉ,N00514
+「お父しゃんは何を頼むの？」
+
+＠Ｉｔｓｕｋｉ
+「オレか？　ははっ、オレは貰えないんだよ」
+
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_odoroki		#驚.png
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_hikari,0,	200,	0,32
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00515
+「………え」
+
+そう笑って応えると、ひかりが驚いてオレを見上げた。
+
+@hikari			#普.png
+
+＠Ｈｉｋａｒｉ,N00516
+「お父しゃん、サンタしゃんからプレジェント貰えないの……？」
+
+＠Ｉｔｓｕｋｉ
+「ああ。大人は貰えないんだ」
+
+@hikari_komaru		#困.png
+
+＠Ｈｉｋａｒｉ,N00517
+「どうしてっ？　ひーちゃん達は貰えゆのに、何で大人はくえないの？」
+
+＠Ｉｔｓｕｋｉ
+「はは、そういう決まりなんだよ。気にしないでいいから」
+
+@chara_clear		#保険
+wait		500
+@karin_small
+@karin_shifuku
+@mikan_small
+@mikan_shifuku
+
+@karin_niko		#にこ
+@mikan			#普通
+
+＠Ｋａｒｉｎ,P02376
+「サンタさんも、大人まで全員に配ってたら大変でしょう？」
+
+＠Ｈｉｋａｒｉ,N00518
+「う～……でもひーちゃん、みんな一緒にプレジェント貰いたいの」
+
+@mikan_yorokobi		#喜
+
+＠Ｍｉｋａｎ,A01897
+「優しいね、ひーちゃん。みかんも本当はお兄ちゃんと一緒がいいけど」
+
+@chara_clear		#保険
+
+まぁサンタの正体を考えると、オレが貰うというのは不可能だし。
+
+＠Ｉｔｓｕｋｉ
+「ありがとうな。気持ちだけ貰っておくよ」
+
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_komaru		#困.png
+
+＠Ｈｉｋａｒｉ,N00519
+「………」
+
+@hikari_kanashimi	#哀.png
+
+＠Ｈｉｋａｒｉ,N00520
+「サンタしゃん、優しいけどちょっと意地悪なの……」
+
+@chara_clear		#保険
+wait		500
+@karin_small
+@karin_shifuku
+@mikan_small
+@mikan_shifuku
+
+@karin_odoroki		#驚
+@mikan_yorokobi		#喜
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_karin,0,	200,	0,16
+layer_movepass_add	l_karin,0,	200,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02377
+「あっ……」
+
+@mikan			#普通
+
+＠Ｍｉｋａｎ,A01898
+「…？　どうしたの、かりんちゃん？」
+
+#@karin			#普通
+@karin_niko		#にこ
+
+＠Ｋａｒｉｎ,P02378
+「……あ、あぁ、ううん。何でもない」
+
+＠Ｉｃｈｉｇｏ,O02207
+「えっ、気になるよー。どうしたの」
+
+＠Ｉｔｓｕｋｉ
+「何なんだ、今の『あっ』って」
+
+@karin_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_add	l_karin,0,	150,	0,16
+layer_movepass_add	l_karin,0,	150,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02379
+「な、何でもないって言ってるでしょッ、もう！」
+
+@mikan_kanashimi	#哀
+
+＠Ｉｔｓｕｋｉ
+「うおッ、何で怒ってんだ……」
+
+よく分からないが一喝され、何だったのか聞けずじまいだった。
+
+bgm_stop
+@bg_black
+wait		1000
+#■BG（夕方）
+@bg_sky_y		# 夕方の空
+
+その後も色々お店を回って、五人で時間を忘れて過ごした。
+
+財布の軽さは……ちょっと泣けるが、その分楽しめたからよしとしておく。
+
+@bg_black
+wait		1000
+#■BG（商店街・夕方）
+@mikan_small
+@mikan_shifuku
+@ichigo_small
+@ichigo_shifuku
+@karin_small
+@karin_shifuku
+
+@mikan_yorokobi		#喜
+@ichigo_warai		#笑
+@karin_niko		#にこ
+@bg_syoutengai_y	# 商店街 (夕方)
+@bgm12			#BGM 12 : メインテーマ
+wait		100
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_ichigo,0,	550,	0,32
+layer_movepass_add	l_ichigo,0,	550,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O02208
+「はぁ～、楽しくて美味しかった～♪　ごちそうさま、パパ」
+
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A01899
+「ありがとう、お兄ちゃん。みかん、こんなにお菓子食べたの久しぶり～♪」
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_karin,0,	2800,	0,0
+layer_movepass_add	l_karin,0,	300,	0,16
+layer_movepass_add	l_karin,0,	300,	0,0
+layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_karin,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｋａｒｉｎ,P02380
+「恥ずかしさの償いとしては、上々ね。ごちそうさま」
+
+@chara_clear		#保険
+
+＠Ｉｔｓｕｋｉ
+「ふぅ。それじゃあ、帰るか。……もう財布の中も１円と埃くらいしか入ってないしな」
+
+まるで銭を直接貪られたみたいにスッキリだ。
+
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00521
+「またみんなで出かけてこようねっ、お父しゃん」
+
+色々食べて口を甘くしたひかりが、嬉しそうにはしゃぐ。
+
+＠Ｉｔｓｕｋｉ
+「頻繁だと破産するが……。まぁたまにならいいか」
+
+bgm_stop
+@chara_clear		#保険
+@bg_sky_y		# 夕方の空
+
+ひかりのクリスマスのことも含め、今日は出かけてきて良かったと思う。
+
+@bg_black
+wait		1000
+
+#（スケジュール）
+return
+

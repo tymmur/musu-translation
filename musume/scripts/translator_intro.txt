@@ -1,0 +1,115 @@
+label translator_intro
+
+＠ＴＬ
+Ｗｅｌｃｏｍｅ　ｔｏ　ｔｈｅ　ｔｒａｎｓｌａｔｉｏｎ　ｐａｔｃｈ　ｆｏｒ<br>
+ｍｕｓｕｍａｋｅｒ．
+
+＠ＴＬ
+Ｔｈｉｓ　ｐａｔｃｈ　ｔｒａｎｓｌａｔｅｓ　ｔｈｅ　ｓｔｏｒｙ　ｕｐ<br>
+ｕｎｔｉｌ　Ａｐｒｉｌ　１ｓｔ　ｉｎ　ｔｈｅ　ｇａｍｅ．
+
+＠ＴＬ
+Ｐｌｅａｓｅ　ｎｏｔｅ　ｔｈａｔ　ａｎｙｔｈｉｎｇ　ｄｅａｌｉｎｇ　ｗｉｔｈ<br>
+ｔｒａｉｎｉｎｇ　ｉｔｅｍｓ　ｂｕｙａｂｌｅ　ｉｎ　ｔｈｅ　ｓｈｏｐ，<br>
+ｈａｓ　ｎｏｔ　ｙｅｔ　ｂｅｅｎ　ｔｒａｎｓｌａｔｅｄ．
+
+＠ＴＬ
+Ｔｈｉｓ　ｐａｔｃｈ　ｕｓｅｓ　ｔｒａｎｓｌａｔｉｏｎ　ｎｏｔｅｓ　ｔｏ<br>
+ｈｅｌｐ　ｅｘｐｌａｉｎ　ｒｅｆｅｒｅｎｃｅｓ，　ａｎｄ　Ｊａｐａｎｅｓｅ<br>
+ａｒｔｉｃｌｅｓ．
+
+＠ＴＬ
+Ｈｏｖｅｒ　ｙｏｕｒ　ｍｏｕｓｅ　ｏｖｅｒ　ｔｏ　ｔｈｅ　ｂｕｔｔｏｎ<br>
+ｏｎ　ｔｈｅ　ｔｏｐ　ｌｅｆｔ　ｏｆ　ｔｈｅ　ｓｃｒｅｅｎ．
+
+#TL note 1: This is a TL note.
+
+＠ＴＬ
+Ｔｈｅ　ｐａｔｃｈ　ａｌｓｏ　ｉｎｃｌｕｄｅｓ　ｏｐｔｉｏｎａｌ<br>
+ｍｏｄｉｆｉｃａｔｉｏｎｓ　ｔｏ　ｔｈｅ　ｇａｍｅ，　ａｓ　ｆｏｌｌｏｗｓ．
+
+＠ＴＬ
+Ｔｈｅｒｅ　ａｒｅ　ｃｅｒｔａｉｎ　ｂｕｔｔｏｎｓ，　ｉｔｅｍｓ，　ａｎｄ<br>
+ｃｈｏｉｃｅｓ　ｉｎ　ｔｈｅ　ｇａｍｅ　ｗｉｔｈ　ｓｔｒｏｎｇ　ＢＤＳＭ<br>
+ｃｏｎｔｅｎｔ，　ｔｈａｔ　ｍａｙ　ｍａｋｅ　ｓｏｍｅ<br>
+ａｕｄｉｅｎｃｅｓ　ｆｅｅｌ　ｕｎｃｏｍｆｏｒｔａｂｌｅ．
+
+＠ＴＬ
+Ｔｈｅｓｅ　ｉｎｃｌｕｄｅ：　ｓｐａｎｋｉｎｇ　ｈａｎｄ，　ｗｈｉｐ，<br>
+ｃａｎｄｌｅ，　ｆａｃｅ　ｍａｓｋ，　ｂｏｎｄａｇｅ　ｓｕｉｔｓ，<br>
+ａｎｄ　ｔｈｅ　Ｚａｋｕｒｏ　ｃｈａｒａｃｔｅｒ　ｒｏｕｔｅ．
+
+＠ＴＬ
+Ｔｈｅｓｅ　ｆｅａｔｕｒｅｓ　ｃａｎ　ｂｅ　ｄｉｓａｂｌｅｄ．　Ｗｏｕｌｄ<br>
+ｙｏｕ　ｌｉｋｅ　ｔｏ　ｄｉｓａｂｌｅ　ｔｈｅｍ？
+
+select sel,"Leave the game as is","Disable hard S&M"
+
+if sel=0 then goto translator_option_sm_on
+if sel=1 then goto translator_option_sm_off
+
+label translator_option_sm_on
+_TRANSLATOR_OPTION_DISABLE_SM=0
+＠ＴＬ
+Ｔｈｅ　ｇａｍｅ　ｗｉｌｌ　ｂｅ　ｌｅｆｔ　ｔｏ　ｉｔｓ　ｏｒｉｇｉｎａｌ<br>
+ｖｅｒｓｉｏｎ．
+
+
+goto translator_option_sm_done
+
+label translator_option_sm_off
+_TRANSLATOR_OPTION_DISABLE_SM=1
+＠ＴＬ
+Ｓ＆Ｍ　ｆｅａｔｕｒｅｓ　ｄｉｓａｂｌｅｄ．
+
+＠ＴＬ
+Ｄｕｅ　ｔｏ　ｔｅｃｈｎｉｃａｌ　ｌｉｍｉｔａｔｉｏｎｓ，　ｄｉｓａｂｌｅｄ<br>
+ｉｔｅｍｓ　ｗｉｌｌ　ａｐｐｅａｒ　ａｓ　ｓｏｌｄ　ｏｕｔ，　ｒａｔｈｅｒ<br>
+ｔｈａｎ　ｒｅｍｏｖｅｄ．
+
+item_soldout	200,_TRUE # whip
+item_soldout	203,_TRUE # candle
+
+item_soldout	210,_TRUE # anal belt
+item_soldout	211,_TRUE # face mask
+
+item_soldout	303,_TRUE # bondage suit
+item_soldout	304,_TRUE # bondage suit
+item_soldout	305,_TRUE # bondage suit
+
+goto translator_option_sm_done
+
+label translator_option_sm_done
+
+＠ＴＬ
+Ｄｉｓａｂｌｅ　ｓｃｒｅｅｎ　ｆｌａｓｈｅｓ　ａｔ　ｓｅｘｕａｌ<br>
+ｃｌｉｍａｘ？
+
+select sel,"Flash me","No flashes"
+
+if sel=0 then goto translator_option_flash_on
+if sel=1 then goto translator_option_flash_off
+
+label translator_option_flash_on
+_TRANSLATOR_OPTION_DISABLE_FLASHES=0
+＠ＴＬ
+Ｓｃｒｅｅｎ　ｆｌａｓｈｅｓ　ａｒｅ　ｏｎ．
+
+
+goto translator_option_flash_done
+
+label translator_option_flash_off
+_TRANSLATOR_OPTION_DISABLE_FLASHES=1
+＠ＴＬ
+Ｓｃｒｅｅｎ　ｆｌａｓｈｅｓ　ａｒｅ　ｏｆｆ．
+
+goto translator_option_flash_done
+
+label translator_option_flash_done
+
+＠ＴＬ
+Ｄｏｎｅ．　Ｎｏｗ　ｅｎｊｏｙ　ｙｏｕｒｓｅｌｆ．
+
+@bg_black
+
+return

@@ -1,0 +1,263 @@
+#--------------------------------------------------
+#すいかたん	ゲーム関連処理ファイル（仮）
+#--------------------------------------------------
+label	suika_game_check_start
+
+#//////////////////////////////////////////////////////////////
+#各種ローカルフラグ（仮）
+#_SCORE			#今回のゲームスコア（結果）
+
+#gameclear		#今回のゲームでクリアまで言ったかどうか（suika6 時点の完成度でのゲームクリア　1でクリアと仮定）
+#gameclear2		#今回のゲームでクリアまで言ったかどうか（suika8 時点の完成度でのゲームクリア　1でクリアと仮定）
+#gameclear3		#今回のゲームでクリアまで言ったかどうか（suika9 時点の完成度でのゲームクリア　1でクリアと仮定）
+#game_1ststage_clear	#１面クリア（suika8で使用：1でクリアと仮定）
+
+#game_old_score		#直前の記録として保存（いらなくなるかも）
+
+#game1_1_score		#suika6での１回目のスコア
+#game1_2_score		#suika6での２回目のスコア
+#game1_3_score		#suika6での３回目のスコア
+#game1_playcount	#suika6でのゲームプレイのカウント
+
+#game2_1_score		#suika8での１回目のスコア
+#game2_2_score		#suika8での２回目のスコア
+#game2_3_score		#suika8での３回目のスコア
+#game2_playcount	#suika8でのゲームプレイのカウント
+
+#game3_1_score		#suika8での１回目のスコア
+#game3_2_score		#suika8での２回目のスコア
+#game3_3_score		#suika8での３回目のスコア
+#game3_playcount	#suika8でのゲームプレイのカウント
+
+#//////////////////////////////////////////////////////////////
+
+#--------------------------------------------------
+#suika6.txt	関連処理
+#--------------------------------------------------
+label	suika_game_check_game1_1
+
+gameclear = 0				#今回のゲームでクリアまで言ったかどうか（suika6 時点の完成度でのゲームクリア　1でクリアと仮定）
+game1_playcount = 1			#ゲームカウント
+
+#--------------------------------------------------
+#注：デバッグ用
+#_SCORE = 1500
+#gameclear = 0
+#--------------------------------------------------
+
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+#call	
+event	"stg\load.png"
+wait	100
+shooting_horizonal	1
+layer_release	0
+
+#注：以下結果ごとに分岐（現在数値はうそっぱち）
+game1_1_score = _SCORE			#分岐前に今回の記録を残す
+game_old_score = _SCORE			#直前の記録として保存（いらなくなるかも）
+gameclear=_STGCLEAR
+
+if gameclear = 1 then goto suika_game_check_game1_1_stclear		#（ステージクリア）
+if _SCORE < 50000 then goto suika_game_check_game1_1_fastdead		#（すぐ死んだ）=ロースコア？
+if _SCORE > 150000 then goto suika_game_check_game1_1_highscore		#（高得点）
+goto suika_game_check_game1_1_normalscore				#（普通の点）
+
+label	suika_game_check_game1_2over		#2回目＆3回目
+
+gameclear = 0				#今回のゲームでクリアまで言ったかどうか（suika6 時点の完成度でのゲームクリア　1でクリアと仮定）
+game1_playcount = game1_playcount+1	#ゲームカウント
+
+#--------------------------------------------------
+#注：デバッグ用
+#_SCORE = 0
+#gameclear = 0
+#--------------------------------------------------
+
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+#call	
+event	"stg\load.png"
+wait	100
+shooting_horizonal	1
+layer_release	0
+
+#分岐前に今回の記録を残す為の分岐処理（不要になるかも）
+if game1_playcount = 3 then goto suika_game_check_playcount3		#プレイ回数調査
+
+game1_2_score = _SCORE		#分岐前に今回の記録を残す
+game_old_score = _SCORE		#直前の記録として保存（いらなくなるかも）
+
+gameclear=_STGCLEAR
+if gameclear = 1 then goto suika_game_check_game1_2_stclear		#（クリアした）
+if _SCORE > game1_1_score then goto suika_game_check_game1_2_goodscore	#（さっきよりいい点）
+goto	suika_game_check_game1_2_badscore				#（さっきより悪い点）
+
+label	suika_game_check_playcount3	#プレイ3回目の場合
+
+game1_3_score = _SCORE		#分岐前に今回の記録を残す
+game_old_score = _SCORE		#直前の記録として保存（いらなくなるかも）
+
+if gameclear = 1 then goto suika_game_check_game1_2_stclear		#（クリアした）
+if _SCORE > game1_2_score then goto suika_game_check_game1_2_goodscore	#（さっきよりいい点）
+goto	suika_game_check_game1_2_badscore				#（さっきより悪い点）
+
+#--------------------------------------------------
+#suika8.txt	関連処理
+#--------------------------------------------------
+label	suika_game_check_game2_1		#イベント２　１回目
+
+gameclear2 = 0				#今回のゲームでクリアまで言ったかどうか（suika8 時点の完成度でのゲームクリア　1でクリアと仮定）
+game2_playcount = 1			#ゲームカウント（今回必要ないけど）
+game_1ststage_clear = 0			#１面クリア（suika8で使用：1でクリアと仮定）
+
+#--------------------------------------------------
+#注：デバッグ用
+#gameclear2 = 0
+#game_1ststage_clear = 0		#１面クリア（suika8で使用：1でクリアと仮定）
+#--------------------------------------------------
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+event	"stg\load.png"
+wait	100
+shooting_horizonal	2
+layer_release	0
+
+#注：以下結果ごとに分岐
+game2_1_score = _SCORE			#分岐前に今回の記録を残す
+game_old_score = _SCORE			#直前の記録として保存（いらなくなるかも）
+gameclear2=_STGCLEAR
+if gameclear2 = 2 then goto suika_game_check_game2_1_allclear				#（今回出来るゲームの最後まで進んだ）
+if gameclear2 = 1 then goto suika_game_check_game2_1_1ststage_clear		#（最後までは行かなかったが、１面はクリアした）
+goto suika_game_check_game2_1_1ststage_gameover						#（１面でゲームオーバー）
+
+label	suika_game_check_game2_2		#イベント２　２回目
+
+gameclear2 = 0				#今回のゲームでクリアまで言ったかどうか（suika8 時点の完成度でのゲームクリア　1でクリアと仮定）
+game2_playcount = game2_playcount+1	#ゲームカウント（今回必要ないけど）
+game_1ststage_clear = 0			#１面クリア（suika8で使用：1でクリアと仮定）
+
+#--------------------------------------------------
+#注：デバッグ用
+#gameclear2 = 0
+#game_1ststage_clear = 1		#１面クリア（suika8で使用：1でクリアと仮定）
+#--------------------------------------------------
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+event	"stg\load.png"
+wait	100
+shooting_horizonal	2
+layer_release	0
+gameclear2=_STGCLEAR
+#注：以下結果ごとに分岐（現在数値はうそっぱち）
+game2_2_score = _SCORE			#分岐前に今回の記録を残す
+game_old_score = _SCORE			#直前の記録として保存（いらなくなるかも）
+
+if gameclear2 = 2 then goto suika_game_check_game2_2_allclear				#（今回出来るゲームの最後まで進んだ）
+if gameclear2 = 1 then goto suika_game_check_game2_2_1ststage_clear		#（最後までは行かなかったが、１面はクリアした）
+goto suika_game_check_game2_2_1ststage_gameover						#（１面でゲームオーバー）
+
+label	suika_game_check_game2_3		#イベント２　３回目
+
+gameclear2 = 0				#今回のゲームでクリアまで言ったかどうか（suika8 時点の完成度でのゲームクリア　1でクリアと仮定）
+game2_playcount = game2_playcount+1	#ゲームカウント（今回必要ないけど）
+game_1ststage_clear = 0			#１面クリア（suika8で使用：1でクリアと仮定）
+
+#--------------------------------------------------
+#注：デバッグ用
+#gameclear2 = 1
+#game_1ststage_clear = 1		#１面クリア（suika8で使用：1でクリアと仮定）
+#--------------------------------------------------
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+event	"stg\load.png"
+wait	100
+shooting_horizonal	2
+layer_release	0
+gameclear2=_STGCLEAR
+#注：以下結果ごとに分岐（現在数値はうそっぱち）
+game2_3_score = _SCORE			#分岐前に今回の記録を残す
+game_old_score = _SCORE			#直前の記録として保存（いらなくなるかも）
+
+if gameclear2 = 2 then goto suika_game_check_game2_3_allclear				#（今回出来るゲームの最後まで進んだ）
+if gameclear2 = 1  then goto suika_game_check_game2_3_1ststage_clear		#（最後までは行かなかったが、１面はクリアした）
+goto suika_game_check_game2_3_1ststage_gameover						#（１面でゲームオーバー）
+
+#--------------------------------------------------
+#suika9.txt	関連処理
+#重要：前回の範囲というのをゲームステージを仮定。よって２面以上かどうかとする
+#--------------------------------------------------
+label	suika_game_check_game3_1		#イベント３　１回目
+
+gameclear3 = 0				#今回のゲームでクリアまで言ったかどうか（suika9 時点の完成度でのゲームクリア　1でクリアと仮定）
+game3_playcount = 1			#ゲームカウント（今回必要ないけど）
+game_1ststage_clear = 0			#１面クリア（suika8で使用：1でクリアと仮定）
+game_2ndstage_clear = 0			#２面クリア（suika9で使用：1でクリアと仮定）
+
+#--------------------------------------------------
+#注：デバッグ用
+#gameclear3 = 1
+#game_1ststage_clear = 1		#１面クリア（suika8で使用：1でクリアと仮定）
+#game_2ndstage_clear = 1		#２面クリア（suika9で使用：1でクリアと仮定）
+#--------------------------------------------------
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+event	"stg\load.png"
+wait	100
+shooting_horizonal	3
+layer_release	0
+gameclear3=_STGCLEAR
+#注：以下結果ごとに分岐
+game3_1_score = _SCORE			#分岐前に今回の記録を残す
+game_old_score = _SCORE			#直前の記録として保存（いらなくなるかも）
+
+if gameclear3 = 3 then goto suika_game_check_game3_1_allclear		#（今回出来るゲームの最後まで進んだ）
+if gameclear3 = 2 then goto suika_game_check_game3_1_good	#（前回の範囲まではクリアした）
+goto suika_game_check_game3_1_bad					#（前回の範囲で死んだ）
+
+label	suika_game_check_game3_2		#イベント３　２回目
+
+gameclear3 = 0				#今回のゲームでクリアまで言ったかどうか（suika9 時点の完成度でのゲームクリア　1でクリアと仮定）
+game3_playcount = game3_playcount+1	#ゲームカウント（今回必要ないけど）
+game_1ststage_clear = 0			#１面クリア（suika8で使用：1でクリアと仮定）
+game_2ndstage_clear = 0			#２面クリア（suika9で使用：1でクリアと仮定）
+
+#--------------------------------------------------
+#注：デバッグ用
+#gameclear3 = 1
+#game_1ststage_clear = 1		#１面クリア（suika8で使用：1でクリアと仮定）
+#game_2ndstage_clear = 1		#２面クリア（suika9で使用：1でクリアと仮定）
+#--------------------------------------------------
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+event	"stg\load.png"
+wait	100
+shooting_horizonal	3
+layer_release	0
+gameclear3=_STGCLEAR
+#注：以下結果ごとに分岐
+game3_2_score = _SCORE			#分岐前に今回の記録を残す
+game_old_score = _SCORE			#直前の記録として保存（いらなくなるかも）
+
+if gameclear3 = 3 then goto suika_game_check_game3_2_allclear	#（今回出来るゲームの最後まで進んだ）
+goto suika_game_check_game3_2_noclear	#（途中でゲームオーバー）
+
+label	suika_game_check_game3_3		#イベント３　３回目
+
+gameclear3 = 0				#今回のゲームでクリアまで言ったかどうか（suika9 時点の完成度でのゲームクリア　1でクリアと仮定）
+game3_playcount = game3_playcount+1	#ゲームカウント（今回必要ないけど）
+game_1ststage_clear = 0			#１面クリア（suika8で使用：1でクリアと仮定）
+game_2ndstage_clear = 0			#２面クリア（suika9で使用：1でクリアと仮定）
+
+#--------------------------------------------------
+#注：デバッグ用
+#gameclear3 = 1
+#game_1ststage_clear = 0		#１面クリア（suika8で使用：1でクリアと仮定）
+#game_2ndstage_clear = 0		#２面クリア（suika9で使用：1でクリアと仮定）
+#--------------------------------------------------
+#重要：ここでゲームをCALLする？そして直下に戻ってくる？（未処理）
+event	"stg\load.png"
+wait	100
+shooting_horizonal	3
+layer_release	0
+gameclear3=_STGCLEAR
+#注：以下結果ごとに分岐
+game3_3_score = _SCORE			#分岐前に今回の記録を残す
+game_old_score = _SCORE			#直前の記録として保存（いらなくなるかも）
+
+if gameclear3 = 3 then goto suika_game_check_game3_3_allclear	#（今回出来るゲームの最後まで進んだ）
+goto suika_game_check_game3_3_noclear	#（途中でゲームオーバー）
+

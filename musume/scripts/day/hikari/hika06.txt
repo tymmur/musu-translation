@@ -1,0 +1,372 @@
+label	hikari_06
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#ひかりルート５（親密イベント２）
+#発生条件：『ひかりとの新生活イベント』が終了＆ゆずが家にいる平日
+#発生時期：上記イベント～１月５日（未定）
+#--------------------------------------------------
+
+#■BG（廊下）
+#@bg_rouka		# 廊下
+@bg_gate		# 孤児院前
+@bgm12			#BGM 12 : メインテーマ
+
+オレが平和に廊下を歩いていた、日のこと。
+
+@bg_rouka		# 廊下
+#window_close
+#SE20　廊下を走ってくる音　※徐々に大きく
+#@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+#CH（まだ立ち絵無し）
+
+＠Ｙｕｚｕ,F00309
+「うわ～～～ん！　樹せんせ～！」
+
+＠Ｉｔｓｕｋｉ
+「え？」
+
+振り返ると、ゆずがベソを掻きながら走ってきた。
+
+window_close
+#SE20　廊下を走ってくる音　※徐々に大きく
+@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+#CH（ここから立ち絵あり）
+@yuzu_small
+#@yuzu_shifuku
+@yuzu_jyosou
+@yuzu_kanashimi		#哀
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_yuzu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｙｕｚｕ,F00310
+「樹せんせ～、助けてください。ひーちゃんがいじめるんです～～！」
+
+＠Ｉｔｓｕｋｉ
+「い、いじめる……？？」
+
+＠Ｈｉｋａｒｉ,N00300
+「待てーっ♪　あ、お父しゃんもいるーっ♪」
+
+layer_movepass_init	l_yuzu,0	#演出初期化
+
+ゆずが逃げてきた先からは、確かにひかりがトテトテと走ってきていた。
+
+……何か服がよれて、汚れている。
+
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_yuzu,0,	150,	-16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_add	l_yuzu,0,	150,	16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_add	l_yuzu,0,	150,	-16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_add	l_yuzu,0,	150,	16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_yuzu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｙｕｚｕ,F00311
+「いろんな物にぶつかりながら、強引に追ってくるんです～！」
+
+@yuzu_
+
+＠Ｈｉｋａｒｉ,N00301
+「わーいッ！　お父しゃ―――ぷぎゃんッ！」
+
+#SE05　物にぶつかる音（ガンッ！）
+#@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
+se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+screen_vibration	500,16,16,16
+
+言った側から、受け身も無く壁にぶつかるひかり。
+
+＠Ｉｔｓｕｋｉ
+「……服の汚れはこのせいか」
+
+＠Ｉｔｓｕｋｉ
+「ひかり、走らないでも逃げないから。ゆっくりおいで」
+
+＠Ｈｉｋａｒｉ,N00302
+「んんぅ～っ…また痛いのぉ～……すぐぶちゅかゆの～」
+
+走るのをやめて、鼻と額を撫でながらトコトコと歩いてきた。
+
+@yuzu_small
+@yuzu_jyosou
+@yuzu_odoroki		#驚
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_yuzu,0,	200,	0,32
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_yuzu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｙｕｚｕ,F00312
+「うわっ、わっ！　樹先生、ひーちゃんが来ますよぉ～」
+
+＠Ｉｔｓｕｋｉ
+「ゆず、そのいじめって……状況が分からないんだが」
+
+@yuzu			#普
+
+＠Ｙｕｚｕ,F00313
+「ボクがやめてって言ってる事、ひーちゃんがやめてくれないんです～！」
+
+＠Ｉｔｓｕｋｉ
+「……そうなのか、ひかり？」
+
+@hikari_small
+@hikari_shifuku
+@hikari			#普.png
+
+＠Ｈｉｋａｒｉ,N00303
+「う…？　なぁに？」
+
+＠Ｉｔｓｕｋｉ
+「ゆずが止めてって言ってることを止めないで、ゆずを困らせてるのか？」
+
+@hikari_komaru		#困.png
+
+＠Ｈｉｋａｒｉ,N00304
+「うー……ひーちゃんよく分かんないの。どうして逃げゆの、ゆずお兄しゃん…」
+
+『ゆずお兄しゃん』
+
+@yuzu_kanashimi		#哀
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_yuzu,0,	150,	-16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_add	l_yuzu,0,	150,	16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_add	l_yuzu,0,	150,	-16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_add	l_yuzu,0,	150,	16,0
+layer_movepass_add	l_yuzu,0,	150,	0,0
+layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_yuzu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｙｕｚｕ,F00314
+「うわーーん！」
+
+＠Ｉｔｓｕｋｉ
+「ああー……なるほど」
+
+あっさり状況が分かってしまった。
+
+＠Ｙｕｚｕ,F00315
+「樹せんせ～っ、ずっとひーちゃんが『お兄ちゃん』って言うんです！」
+
+＠Ｉｔｓｕｋｉ
+「しかし……それは間違いじゃないしなぁ」
+
+@yuzu_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_yuzu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｙｕｚｕ,F00316
+「それじゃボクがこの格好をしてる意味が無いじゃないですかーー」
+
+layer_movepass_init	l_yuzu,0	#演出初期化
+
+＠Ｈｉｋａｒｉ,N00305
+「ねぇゆずお兄しゃん。どうしてお兄しゃんは女の子の格好してゆの？」
+
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_add	l_yuzu,0,	200,	0,16
+layer_movepass_add	l_yuzu,0,	200,	0,0
+layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_yuzu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｙｕｚｕ,F00317
+「ほっといてよーー！」
+
+@bg_black
+wait		500
+@miu_small
+@miu_maid
+@miu_komaru		#開_困
+@bg_door		# ドア前
+
+＠Ｍｉｕ,B01639
+「……。……あの、樹さん」
+
+＠Ｍｉｕ,B01640
+「ひーちゃんとゆずちゃん、一体何の騒ぎですか……？」
+
+騒動を聞いてやって来た美雨が、ゆずの様子に戸惑っていた。
+
+＠Ｉｔｓｕｋｉ
+「ひかりが、ゆずをお兄ちゃんって言っていじめるんだってさ」
+
+@miu_mu			#開_普通（無表情）
+
+＠Ｍｉｕ,B01641
+「ひーちゃんが……？」
+
+＠Ｙｕｚｕ,F00318
+「うぅ～。そうじゃないって説明してください～」
+
+＠Ｉｔｓｕｋｉ
+「……で、どう言えば分かりよいかと。女の子とは言えないし」
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01642
+「はぁ、なるほど……」
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01643
+「えっと、ひーちゃん？　ゆずちゃんのことは、お姉ちゃんって呼んであげましょうね」
+
+＠Ｈｉｋａｒｉ,N00306
+「どうして？　男の子じゃらいの？」
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01644
+「その人が嫌がってる事は、しないようにするのが良い子よ」
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01645
+「ひーちゃんは良い子だから守れるのよね？」
+
+@bg_black
+wait		500
+@hikari_small
+@hikari_shifuku
+@yuzu_small
+#@yuzu_shifuku
+@yuzu_jyosou
+
+@hikari			#普.png
+@yuzu_ikari		#怒
+@bg_rouka		# 廊下
+
+＠Ｈｉｋａｒｉ,N00307
+「ゆずお兄しゃん、『お兄しゃん』って言われゆの嫌なの？」
+
+@yuzu_kanashimi		#哀
+
+＠Ｙｕｚｕ,F00319
+「ずっとそう言ってるよ～～」
+
+＠Ｉｔｓｕｋｉ
+「そもそも分からないんだが、何でゆずを男だって思ったんだ？」
+
+実際、ゆずの女装は下手すると、本当の女の子より女の子している。
+
+ひかりはオレの質問に元気よく答えた。
+
+@hikari_warai		#笑.png
+
+＠Ｈｉｋａｒｉ,N00308
+「雫しゃんが言ったの！　おもしよいからって♪」
+
+＠Ｉｔｓｕｋｉ
+「ま・た・あの人か！」
+
+@yuzu_ikari		#怒
+
+＠Ｙｕｚｕ,F00320
+「人の身体で遊ばないでほしいですーー！」
+
+@bg_black
+wait		500
+@miu_small
+@miu_maid
+@miu_ikari		#閉_怒
+@bg_door		# ドア前
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_miu,0,	550,	0,16
+layer_movepass_add	l_miu,0,	550,	0,0
+layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_miu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｕ,B01646
+「ふぅ……。後で私の方から注意しておきます」
+
+＠Ｉｔｓｕｋｉ
+「ああ、悪いけどそうしてくれ」
+
+@miu_ikari2		#開_怒
+
+＠Ｍｉｕ,B01647
+「そんな理由でひーちゃんに変な誤解を与えるのは、納得いきません」
+
+＠Ｙｕｚｕ,F00321
+「え…」
+
+＠Ｉｔｓｕｋｉ
+「そっちなのか」
+
+@bg_black
+wait		500
+@hikari_small
+@hikari_shifuku
+@yuzu_small
+#@yuzu_shifuku
+@yuzu_jyosou
+
+@hikari_warai		#笑.png
+@yuzu			#普
+@bg_rouka		# 廊下
+
+＠Ｈｉｋａｒｉ,N00309
+「あはははっ♪　じゃあひーちゃん、ゆずお兄しゃんのことはお姉しゃんって呼ぶの！」
+
+何か、あんまり解決しているような気はしないが。
+
+とりあえず呼称だけは、めでたく『お姉ちゃん』になってくれたようだ。
+
+#■BG（黒）
+bgm_stop
+@bg_black
+wait		1000
+@bg_gate		# 孤児院前
+
+………。
+
+……その後、なぜかやつれた感じの雫さんがいたが、見なかったことにする。
+
+@bg_black
+wait		1000
+
+#（スケジュール）
+return
+

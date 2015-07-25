@@ -781,7 +781,7 @@ event		"event\EV_ZAK_030-01.png"
 #ざくろが鞭で打たれる　ちょっと痛そう
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_ZAK_030-02.png"
 #--------------------------------------------------
 
@@ -805,7 +805,7 @@ event		"event\EV_ZAK_030-02.png"
 
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ＠Zakuro,Q01985
 「くぅうっっっ！！　ンッッっ……ひぐううっっっ！！」
@@ -887,7 +887,7 @@ if disable_screen_flash=0 then screen_flash		500
 #さらにざくろが鞭で打たれる　体に赤い痕　痛そう
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_ZAK_030-03.png"
 #--------------------------------------------------
 
@@ -908,7 +908,7 @@ event		"event\EV_ZAK_030-03.png"
 
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ＠Zakuro,Q01991
 「いぎっ……あっッ……あ゛ううっ……ウッ、ぅうううっっ……」
@@ -942,7 +942,7 @@ if disable_screen_flash=0 then screen_flash		500
 
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ざくろが擦れた声で礼を言う暇も与えずに、オレはタクトを振るうように鞭を動かした。
 
@@ -1055,7 +1055,7 @@ if disable_screen_flash=0 then screen_flash		500
 #さらにざくろが鞭で打たれる　赤い痕が増える　かなり痛そう
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_ZAK_030-04.png"
 #--------------------------------------------------
 
@@ -1078,7 +1078,7 @@ event		"event\EV_ZAK_030-04.png"
 
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ＠Zakuro,Q02011
 「いぎっ！　イッ、イイ゛ぃいいいいい！！　あ゛ぐぅううっっ！！」
@@ -1090,7 +1090,7 @@ if disable_screen_flash=0 then screen_flash		500
 
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ＠Zakuro,Q02012
 「あ゛ぁあっっ、ご、ごひゅじんさまあ゛ぁあっっ……もっともっとスゴくしてっ、痛くしてくださあいっ、痛いの好ぎぃいっ」
@@ -1149,7 +1149,7 @@ if disable_screen_flash=0 then screen_flash		500
 #SE　鞭が肌を叩く音
 #■HCG　ざくろの表情　痛そうな顔に
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #--------------------------------------------------
 
 ＠Zakuro,Q02016
@@ -1163,7 +1163,7 @@ if disable_screen_flash=0 then screen_flash		500
 #SE　鞭が肌を叩く音
 #■HCG　蓮の表情　痛そうな顔に。蓮の体に鞭の痕
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #--------------------------------------------------
 
 ＠Ren,T00333
@@ -1181,7 +1181,7 @@ if disable_screen_flash=0 then screen_flash		500
 
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 ＠Ren,T00335
 「ひぎっ……あ゛っっっ、あっ……アァアアアアアッ！！！」
@@ -1202,7 +1202,7 @@ if disable_screen_flash=0 then screen_flash		500
 #■HCG　ざくろの表情　さらに痛そうな顔に
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #--------------------------------------------------
 
 ＠Zakuro,Q02017
@@ -1260,7 +1260,7 @@ if disable_screen_flash=0 then screen_flash		500
 
 #SE　鞭が肌を叩く音
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 気がついた時には、オレの手は勝手に動いて、突き出されたざくろの秘所を鞭打っていた。
 
@@ -1326,7 +1326,7 @@ event		"event\EV_ZAK_030-06.png"
 #蓮痛そうな顔
 #■HCG　蓮の表情　さらに痛そうな顔に
 @SEH15			#SEH15_鞭か何かで叩かれる２.wav
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_ZAK_030-07.png"
 #--------------------------------------------------
 

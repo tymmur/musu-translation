@@ -10,8 +10,9 @@ bgm_stop
 #SE15　目覚ましの音（ジリリリリッ！）
 @se15
 
+#「………ん、ぅ～～」
 ＠Itsuki
-「………ん、ぅ～～」
+「......Nh, uhhh～～」
 
 #■BG（自室・昼）
 
@@ -22,50 +23,47 @@ bgm_stop
 @se71
 
 #カチッ……
-　Creak.......
+　Ding...
 
 #「眠い………」
 ＠Itsuki
-「Man, I'm sleepy......」
+「I'm sleepy...」
 
 #鳴り響く目覚ましを止めて、針の示す時間を確認する。
-　I stopped the alarm clock and the clock's hands are showing the time.
+　I stopped the alarm clock ringing, and take a look at the time.
 
 #窓から差す光の眩しさにも負けない朝の眠気。
-　Even the dazzling light can't beat the drowsiness.
+　Even the light streaming in from the window can't beat the drowsiness.
 
-ここで二度寝をするのは最高に贅沢な時間の過ごし方だが、
+#ここで二度寝をするのは最高に贅沢な時間の過ごし方だが、
+　I enjoy spending this luxurious time to let myself doze off again, but...
 
 #SE19　廊下を走る音
 @se19
 
 #「朝だーーーッ！！　お腹空いたーーーッ！！」
 ＠Ichigo,O00395
-「IT'S MORNING~~~!! AND I'M STARVING~~~!!」
+「It's morningーーー!! And I'm starvingーーー!!」
 
 #スイッチ一つでベルを止める目覚ましよりもよっぽど強力ないちごの発声。
-　Ichigo's sound kicks in more than one alarm's ring.
+　Ichigo proclaimed more loudly than the alarm clock, which I could just switch off.
 
 #元気いっぱいに廊下を走り、それは周りを起こしながらこちらへ近づいてくる。
-　She storms down to the hall way energicly, and that's the way she wakes the neighbors as she approaches.
+　She ran down the hallway full of energy, waking everyone and approaching this way.
 
 #SE12　部屋のドアを乱暴にノック（ダンダンダン！）
 @se12
 
 #「パパ起きてーッ、朝ご飯食べよーー♪」
 ＠Ichigo,O00396
-「Papa wakes up, Let's eat some breakfast~~♪」
+「Papa, wake upー. Let's eat breakfastーー♪」
 
 #「分かったー、すぐ行く」
 ＠Itsuki
-「I know, I'll get going.」
-
-#or
-#「Uhn~ I know, I'll be right there.」
-#Not sure right here, I like the second better under those circumstances.
+「Alright, comingー」
 
 #そう、今日から子供達は新学期だ。
-　Yeah, Today is the kids' new semester.
+　Right, today's the start of the new school semester.
 
 @bg_black
 #■BG（食堂）
@@ -73,95 +71,86 @@ event	"event\EV_ALL_020-04.png"
 
 #「おはよう」
 ＠Itsuki
-「Morning.」
+「'Morning」
 
 #「おはようございます」
 ＠Miu,B00269
-「Good morning.」
+「Good morning」
 
 #「早くないっ、いちごお腹空いたよー」
 ＠Ichigo,O00397
-「It's not fast at all, Ichigo's starving you know~」
+「You're late, I'm so hungryー」
 
 #「ほんと、あなたが揃ってからだって美雨が聞かないから、もうペコペコよ」
 ＠Karin,P00441
-「」
+「It's true, Miu wouldn't let us start until you got here, I'm starved by now」
 
 #「前にも言ったけど、別にオレを待つことないのに」
 ＠Itsuki
-「Well I've told you all before, there's no need to wait for me you know.」
+「I've told you before, there's no need to wait for me」
 
 #「いえ、樹さんはここの院長なんですから、ちゃんと揃ってからいただくのが普通ですよ」
 ＠Miu,B00270
-「No, Itsuki is the director here, so waiting for you is an usual thing.」
-
-#or
-#「No, it can't. Itsuki is the head here, so waiting for you is the appropriate things to do.」
-#Hmm this one is tricky, because seeing Miu's characters I'm not sure about the first translation, so i spiced
-#some at the second.
+「No Itsuki-san, you're the head here, so we're supposed to wait for you before eating」
 
 #ここでの食事は院長のオレ抜きでは始められない。
-　The rules in here that they can't begin eating without the director presence which is me.
+　The meals here can't begin without my presence as the institution head.
 
 #それは美雨が決めたことで、別に構わないと言っても譲ってくれないのだ。
-　That what Miu has decided, I just can't tell her that she shouldn't care much about it.
+　With that as Miu's decision, she won't yield even when I say it doesn't matter.
 
 #■EVCG（みんなで食事。雫・ゆず抜き）
 
 #「今日からまた学校かー。楽しいけど、休みが終わるのもったいないなぁ」
 ＠Ichigo,O00398
-「So it's school from today~. It's fun but holiday isn't bad either.」
+「So it's time for school again, huhー. It's exciting, but it's too bad the holiday's over」
 
 #「うん、そうだね。宿題が無いのは嬉しいけど、やっぱり春休みは短いかも」
 ＠Suika,R00170
-「Yeah, you're right. I'm happy there is no homework but I still think spring break is too short.」
+「Yeah, I know. I'm glad there's no homework, but spring break still feels kind of short」
 
 #食事中、カチャカチャと食器を鳴らしながら、いちごが残念そうな愚痴をこぼす。
-　While eating, the sound of tableware clashing, and Ichigo is still grumbling complaints.
+　Among the clinks of cutlery, Ichigo lets spill her wistful complaint during the meal.
 
 #「いちごは授業中も寝てるんだから、大差ないんじゃない？」
 ＠Zakuro,Q00311
-「Ichigo is sleeping in the class anyway, so what's the difference?」
+「Ichigo you sleep in class anyway, so what do you care?」
 
 #「あははっ、それもそっかー♪」
 ＠Ichigo,O00399
-「Ahahaaha.., that's true~♪」
+「Ahaha... that's true, I guessー♪」
 
 #「そんな嬉しそうに同意するのも、どうかと思うぞ」
 ＠Itsuki
-「」
+「I'm not sure you should be smiling and agreeing with that」
 
 #「いちごちゃん～？　そんなことだと、また通知表悪くなっちゃうわよ」
 ＠Miu,B00271
-「Ichigo-chan~? If you do things like that, you're report will all fire in red you know.」
+「Ichigo-chan～? Your report card will be poor again, if you pull that stunt」
 
 #「う……が、頑張る……」
 ＠Ichigo,O00400
-「Uuu.... I'll study hard.」
+「Urgh.... I-I'll do my best...」
 
 #「かりんちゃんも、今日は一緒に登校だよね？」
 ＠Mikan,A00390
-「Karin-chan too, You're going to school with us right?」
+「Karin-chan, we'll be going to school together, right?」
 
 #「ええ。ちゃんとみかんと同じクラスになれるように根回ししておいたわ」
 ＠Karin,P00442
-「Yeah. I've made sure to be in the same class with you guys.」
-
-#Please help me express these words into something friendlier
+「Yeah. I've made sure that we'll be put in the same class」
 
 #「あぁ、クラスメート……昼は同じ教室、帰る場所も同じ家……私の一日はずっとみかんみかんみかんのみかんだらけ……」
 ＠Karin,P00443
-「Aa, Classmate...... Daytime in the same class, we go home to the same place.... My day is always filled with Mikan Mikan Mikan Mikan Mikan.....」
-
-#At the Mikan mikan mikan part she is implying it negatively some please help me convey it.
+「Ahh, classmates... same class during the day, same house at night... my entire day is filled with Mikan Mikan Mikan and more Mikan.....」
 
 #「嫌なんだって」
 ＠Zakuro,Q00312
-「So you hate it.」
+「I guess you don't like it」
 
 #「えっ！？　あ……そっか、ずっと一緒に居るのも迷惑だよね……」
 ＠Mikan,A00391
-「Eeh!? Aa.... I get it, always being together with me is annoying right....」
+「Eh!? Ah.... I get it, always being together with me is annoying right....」
 
 #「ちょっとッ、変なこと言わないでゴスロリッ！　みかんとだったら私、どこまででも堕ちていけるわ！！」
 ＠Karin,P00444

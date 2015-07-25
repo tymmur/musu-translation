@@ -726,11 +726,11 @@ voice_bg	"H90003"
 ＠Itsuki
 「んッ、くぅッ……で、出るッ……！　はあぁッ……！！」
 
-if disable_screen_flash=0 then screen_flash	500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 
 ビュルッ、ビュクンッ……！！
 
-if disable_screen_flash=0 then screen_flash	500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 event	"event\ev_sub_010-02.png"
 voice_bg	"H90004"
 

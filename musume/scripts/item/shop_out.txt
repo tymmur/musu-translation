@@ -1,0 +1,153 @@
+#アイテムショップを出る
+#------------------------------------------------------------
+label	shop_out_message
+
+#■■■注■■■
+# 巣蓋さんの名前表示は、名前を訊くまでは「店員さん」になりますが、いちいち書くのが鬱陶しいので、シナリオ上は以降「巣蓋さん」で統一しておきます。
+# とりあえず文字列変数に「店員さん」を入れておき、表示する際は文字列変数を参照、名前を訊いたところで文字列変数を「巣蓋さん」にするのが良いと思います。
+
+#■■■Explanatory note■■■
+# "Subuta"'s name display, until you hear it, will remain "Attendant". It's annoying to have to write them out separately, so upon that scenario "Subuta" will consolidate.
+# For now the character string variable "Attendant" is entered, the occasion where it's presented references the character string variable, that no matter where you hear the name the character string variable changes to "Subuta" is good I think.
+if shop_talk_count>10 	then	goto shop_out_message_0
+label	shop_out_message_skip
+
+if shop_buy_count_work=1 then 	goto shop_out_message_1
+if shop_buy_count_work>1 then 	goto shop_out_message_2
+
+if shop_nobuy_count=1 	then 	goto shop_out_message_4
+if shop_nobuy_count=2 	then 	goto shop_out_message_5
+if shop_nobuy_count=3 	then 	goto shop_out_message_6
+if shop_nobuy_count=4 	then 	goto shop_out_message_7
+if shop_nobuy_count=5 	then 	goto shop_out_message_8
+if shop_nobuy_count=6 	then 	goto shop_out_message_9
+if shop_nobuy_count>6 	then 	goto shop_out_message_10
+
+#■BG（Adult shop）
+goto	shop_out_message_exit
+
+#■（条件分岐）
+#■（Fork in the road or conditional divergence or something）
+
+#（巣蓋さんと１０回話をしていて、今回の来店でアイテムを買った場合。すでにＨしている場合は除く）
+#（I think something like: in the case that you talked to Subuta 10 times and bought an item you go to an H scene. Just the verb at the end confuses me.）
+label	shop_out_message_0
+
+if shop_buy_count_work=0 then goto shop_out_message_skip
+if shop_h_event=1 then goto shop_out_message_skip
+
+gosub	shop_out_h
+
+#（shop_Hへ）
+goto	shop_out_message_exit
+
+# 以降、条件が同じ場合の各パターンはランダムで選択
+
+#（今回の来店でアイテムを売買した場合１） ####################################
+label	shop_out_message_1
+if shop_buy_count>2 then goto shop_out_message_3
+
+#「ありがとうございました……」
+＠Ｓｕｂｕｔａ,H00258
+「Ｔｈａｎｋ　ｙｏｕ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（今回の来店でアイテムを売買した場合２）#####################################
+label	shop_out_message_2
+if shop_buy_count>2 then goto shop_out_message_3
+
+#「ありがとうございました。またのご利用をお待ちしております……」
+＠Ｓｕｂｕｔａ,H00259
+「Ｔｈａｎｋ　ｙｏｕ．　Ｉ　ｌｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ　ｄｏｉｎｇ<br>
+ｂｕｓｉｎｅｓｓ　ｗｉｔｈ　ｙｏｕ　ａｇａｉｎ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（今回の来店でアイテムを売買した場合３・これまで２回以上アイテムを買っている場合のみ）
+label	shop_out_message_3
+
+#「いつもありがとうございます……」
+＠Ｓｕｂｕｔａ,H00260
+「Ｔｈａｎｋｓ　ａｓ　ａｌｗａｙｓ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（今回の来店で売買をしなかった場合）########################################
+label	shop_out_message_4
+
+#「ありがとうございました。またのご来店をお待ちしております……」
+＠Ｓｕｂｕｔａ,H00261
+「Ｔｈａｎｋ　ｙｏｕ．　Ｉ　ｌｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ　ｓｅｅｉｎｇ<br>
+ｙｏｕ　ａｇａｉｎ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（今回、前回の来店で売買をしなかった場合）##################################
+label	shop_out_message_5
+
+#「ありがとう……ございました……」
+＠Ｓｕｂｕｔａ,H00262
+「Ｔｈａｎｋｓ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（３回連続売買をしなかった場合）############################################
+label	shop_out_message_6
+
+#「またのご来店をお待ちしております……」
+＠Ｓｕｂｕｔａ,H00263
+「Ｉ　ｈｏｐｅ　ｔｏ　ｓｅｅ　ｙｏｕ　ｈｅｒｅ　ａｇａｉｎ<br>
+ｓｏｏｎ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（４回連続売買をしなかった場合）############################################
+label	shop_out_message_7
+
+#「たまには……何か買ってください……」
+＠Ｓｕｂｕｔａ,H00264
+「Ｐｌｅａｓｅ．．．　ｂｕｙ　ｓｏｍｅｔｈｉｎｇ<br>
+ｓｏｍｅｔｉｍｅｓ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（５回連続売買をしなかった場合）#############################################
+label	shop_out_message_8
+
+#「はぁ……」
+＠Ｓｕｂｕｔａ,H00265
+「Ｈａａ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（６回連続売買をしなかった場合）#############################################
+label	shop_out_message_9
+
+#「また冷やかしですか……」
+＠Ｓｕｂｕｔａ,H00266
+「Ｊｕｓｔ　ｗｉｎｄｏｗ－ｓｈｏｐｐｉｎｇ　ａｇａｉｎ．．．」
+
+#（統合へ）
+goto	shop_out_message_exit
+
+#（７回以上連続売買をしなかった場合）########################################
+label	shop_out_message_10
+
+#「…………」
+＠Ｓｕｂｕｔａ,H00267
+「．．．．．．」
+
+goto	shop_out_message_exit
+#■（統合）
+label	shop_out_message_exit
+return
+#（スケジュールへ）

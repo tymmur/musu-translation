@@ -1465,7 +1465,7 @@ wait		1000
 「すわっぴんぐってなに？」
 
 #SE69　物をこかす音（ガシャン）
-if disable_screen_flash=0 then screen_flash		500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 @SE69			#SE69　物をこかす音（ガシャン）
 

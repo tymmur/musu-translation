@@ -1,0 +1,223 @@
+label	ichigo_00a
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#いちご純愛フラグイベント１（怪しげな気配）
+#発生条件：いちごの好感度
+#発生期間：いちごの処女喪失時点～８月末まで
+#天気：晴れ
+#--------------------------------------------------
+
+#■BG（青空）
+@bg_sky			# 空
+
+天気のいい日に、いちごを連れて散歩に出かけた。
+
+ずっと家に居ると身体がなまる………と言うが、雫さんは別の意味で身体を使ってるから平気とか言う。
+
+……それはそれで不健康だ。
+
+@bgm12			#BGM 12 : メインテーマ
+#■BG（堤防）
+@ichigo_small
+@ichigo_shifuku
+@ichigo_yorokobi	#喜
+@bg_teibou		# 堤防
+wait		500
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_add	l_ichigo,0,	200,	0,16
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O00773
+「見て、パパ！　あそこ船が浮いてるよ」
+
+#layer_movepass_init	l_ichigo,0	#演出初期化
+
+＠Ｉｔｓｕｋｉ
+「あれは漁に出るボートだな。遊びじゃなくてお仕事だ」
+
+@ichigo			#普通
+
+＠Ｉｃｈｉｇｏ,O00774
+「ふーん、お仕事用かぁ」
+
+@ichigo_odoroki		#驚
+
+＠Ｉｃｈｉｇｏ,O00775
+「あ、あそこで誰か釣りしてるよ」
+
+＠Ｉｔｓｕｋｉ
+「綺麗な川だから、何か釣れるんだろうな」
+
+前に住んでいた都会方面と違い、川の水は魚がいて当然のような綺麗な色をしている。
+
+@ichigo_komaru		#困
+
+＠Ｉｃｈｉｇｏ,O00776
+「いちごも釣りしたいなぁ」
+
+＠Ｉｔｓｕｋｉ
+「やったことはあるのか？」
+
+@ichigo_yorokobi	#喜
+
+＠Ｉｃｈｉｇｏ,O00777
+「ザリガニ釣りならしたことあるよ♪　いちごが友達の中で一番上手なの」
+
+＠Ｉｔｓｕｋｉ
+「なら今度、道具があるか美雨に聞いてみようか」
+
+@ichigo_warai		#笑
+wait		500
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_ichigo,0,	300,	0,32
+layer_movepass_add	l_ichigo,0,	300,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O00778
+「うん！　みんなで一緒にやろやろー！」
+
+layer_movepass_init	l_ichigo,0	#演出初期化
+
+いちごのはしゃぎ声に釣り人が振り返る。
+
+いちごが嬉しそうに手を振るので、向こうも苦笑しながら会釈を返していた。
+
+＠Ｉｔｓｕｋｉ
+「そろそろひき帰すか。海の方まで出てしまうぞ」
+
+@ichigo_komaru		#困
+wait		500
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O00779
+「えー。海行きたいよぉ、海ー」
+
+#layer_movepass_init	l_ichigo,0	#演出初期化
+
+＠Ｉｔｓｕｋｉ
+「また今度な。宿題があるんだろう？」
+
+@ichigo_ase		#汗
+
+＠Ｉｃｈｉｇｏ,O00780
+「うー。何であるんだろう、宿題なんか」
+
+bgm_stop
+@bg_black
+wait		1000
+#■BG（住宅街）
+@bg_jyuutakugai		# 住宅街
+
+＠Ｉｔｓｕｋｉ
+「……ん？」
+
+帰り道、ふと気配を感じて立ち止まった。
+
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo			#普通
+
+＠Ｉｃｈｉｇｏ,O00781
+「どうしたの？」
+
+＠Ｉｔｓｕｋｉ
+「何か視線を感じた気がする」
+
+振り返るが誰もいない。
+
+@bgm03			#BGM 03 : いちごのテーマ
+#CH（いちご・企み）
+@ichigo_takurami	#企み
+
+＠Ｉｃｈｉｇｏ,O00782
+「それはきっと海だよ」
+
+＠Ｉｔｓｕｋｉ
+「……海？」
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_ichigo,0,	300,	0,32
+layer_movepass_add	l_ichigo,0,	300,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O00783
+「うん。いちご達を呼んでるんだよ。『海に来てー、海に来てー』って」
+
+@ichigo_yorokobi	#喜
+wait		500
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	-16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_add	l_ichigo,0,	150,	16,0
+layer_movepass_add	l_ichigo,0,	150,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O00784
+「だからパパ、海に行こうよぉ。遊びたいよぉ」
+
+#layer_movepass_init	l_ichigo,0	#演出初期化
+
+＠Ｉｔｓｕｋｉ
+「美雨にしかられるぞ、宿題しないと。オレは庇ってあげないからな？」
+
+@ichigo_ase		#汗
+
+＠Ｉｃｈｉｇｏ,O00785
+「むぅー、何でみんな二言目には宿題宿題ーって言うんだろう……」
+
+＠Ｉｔｓｕｋｉ
+「やるべきことをやったら、また遊んでやる。頑張れいちご」
+
+bgm_stop
+@ichigo_
+
+名残惜しそうないちごの頭を撫でながら、帰路を辿る。
+
+もう一度振り返るが、やはり人影は無かった。
+
+＠Ｉｔｓｕｋｉ
+（気のせいだったのかな……）
+
+結局家に帰りつくまで、不審な人影を見ることは無かった。
+
+@bg_black
+wait		1000
+
+#（スケジュール）
+return
+

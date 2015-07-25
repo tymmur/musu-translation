@@ -1,0 +1,610 @@
+label	zakuro_16
+#--------------------------------------------------
+#ざくろイベント１６　蓮の料理を食べるざくろ
+#発生条件：『youzyo-zaku15』が終了していること
+#発生時期：未定　ただし、時間は夜
+#--------------------------------------------------
+
+#■BG12 １階 食堂 時間差分【夜】 
+@bg_dining_n		# 食堂(夜)
+@bgm12			#BGM 12 : メインテーマ
+
+その日の夕食。
+
+メニューはハヤシライスだった。
+
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo_yorokobi	#喜
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_ichigo,0,	400,	0,0
+layer_movepass_add	l_ichigo,0,	300,	0,32
+layer_movepass_add	l_ichigo,0,	300,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O03211
+「いっただっきまーす♪」
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 中間
+@mikan_shifuku
+@mikan			#普通
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	400,	0,16
+layer_movepass_add	l_mikan,0,	400,	0,0
+layer_movepass_add	l_mikan,0,	600,	0,16
+layer_movepass_add	l_mikan,0,	600,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A03120
+「ハグハグハグ……あれ？　このハヤシライス、なんかいつもと味が違う」
+
+＠Ｉｔｓｕｋｉ
+「あ……ほんとだ、ちょっと酸っぱいか？」
+
+@chara_clear		#保険
+wait		500
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo_komikaru_odoroki	#コミカル驚
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_ichigo,0,	200,	0,32
+layer_movepass_add	l_ichigo,0,	200,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O03212
+「まさか腐ってるの？　いちご、もう飲み込んじゃったよぉ！」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin			#普通
+
+＠Ｋａｒｉｎ,P03533
+「なに言ってるのよ、これはビーフストロガノフ。酸っぱいのはサワークリームの味よ」
+
+@chara_clear		#保険
+wait		500
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo_gimon		#コミカル疑問
+
+＠Ｉｃｈｉｇｏ,O03213
+「びーふすとろがのふ？」
+
+@chara_clear		#保険
+wait		500
+@suika_middle
+@suika_shifuku
+@suika_yorokobi		#喜
+
+＠Ｓｕｉｋａ,R01309
+「私、聞いたことはあったけど、食べるのは初めて」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_niko		#にこ
+
+＠Ｋａｒｉｎ,P03534
+「ちゃんと作ってあるわね。デミグラスソースでお手軽に作ったんじゃなくて……うん、美味しいわ」
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 中間
+@mikan_shifuku
+@mikan_warai2		#笑2
+
+＠Ｍｉｋａｎ,A03121
+「これってご飯にバターの味もするんだね。美味しい、美味しい♪」
+
+＠Ｉｔｓｕｋｉ
+「美雨は本当に料理がうまいな。いけるよこれ」
+
+@chara_clear		#保険
+wait		500
+@miu_middle
+@miu_maid
+@miu_komaru		#開_困
+
+＠Ｍｉｕ,B03275
+「あ、いえ……これは私じゃなくて」
+
+＠Ｉｔｓｕｋｉ
+「違うの？」
+
+＠Ｍｉｕ,B03276
+「え、ええ……」
+
+美雨は曖昧な表情になって、チラリとざくろを見る。
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_iya		#嫌
+
+＠Ｚａｋｕｒｏ,Q01915
+「……………………」
+
+つられて顔を向けると、ざくろはまだ食べ始めていなかった。
+
+じっとビーフストロガノフの皿を見つめている。
+
+この様子じゃ、ざくろが作ったというわけでもなさそうだが。
+
+＠Ｉｔｓｕｋｉ
+「どうした、ざくろ？　食べないのか？」
+
+@zakuro_metoji		#閉
+
+＠Ｚａｋｕｒｏ,Q01916
+「……食べる」
+
+@SE35			#ティーカップを置く音（カチャ）
+
+ざくろは言い、スプーンを手に取った。
+
+@chara_clear		#保険
+wait		500
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo_yorokobi	#喜
+
+＠Ｉｃｈｉｇｏ,O03214
+「はい、青ノリ」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_akire		#呆
+
+＠Ｚａｋｕｒｏ,Q01917
+「ありがと」
+
+いちごから青ノリの瓶を受け取るが、蓋を開けずにそのまま横に置いた。
+
+@chara_clear		#保険
+wait		500
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo			#普通
+
+＠Ｉｃｈｉｇｏ,O03215
+「あれ？　かけないの？」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_metoji		#閉
+
+＠Ｚａｋｕｒｏ,Q01918
+「………いい」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin			#普通
+
+＠Ｋａｒｉｎ,P03535
+「珍しいわね。ま、この味に青ノリは全然合わないしね。他の料理もそうだけど」
+
+＠Ｚａｋｕｒｏ,Q01919
+「……………………」
+
+@SE35			#ティーカップを置く音（カチャ）
+
+かりんが混ぜっ返したが、ざくろは何も言わずにスプーンで料理をすくい、ゆっくりと口に運んだ。
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro			#普
+
+＠Ｚａｋｕｒｏ,Q01920
+「…………あ」
+
+ざくろの目が驚きに見開かれる。
+
+美味しいものを食べたとき特有のふわっと優しい顔になったが、
+
+@zakuro_iya		#嫌
+
+＠Ｚａｋｕｒｏ,Q01921
+「…………っ」
+
+@SE35			#ティーカップを置く音（カチャ）
+
+すぐにその顔を強ばらせて、カチャリとスプーンを放した。
+
+@zakuro_ikari		#怒
+
+＠Ｚａｋｕｒｏ,Q01922
+「美雨、あの人がこれを作ったの？」
+
+美雨を見上げ、固い表情で尋ねる。
+
+@chara_clear		#保険
+wait		500
+@miu_middle
+@miu_maid
+@miu_komaru		#開_困
+
+＠Ｍｉｕ,B03277
+「う、うん……今日ざくろちゃんが接待に行ってる時に来てね、それでお料理をさせてほしいって」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_ikari		#怒
+
+＠Ｚａｋｕｒｏ,Q01923
+「そう言われたからさせたの？　なんでそんなこと勝手に……」
+
+@chara_clear		#保険
+wait		500
+@miu_middle
+@miu_maid
+@miu_kanashimi		#開_哀
+
+＠Ｍｉｕ,B03278
+「ごめんなさい。私はどうかと思ったんだけど、どうしても作ってあげたいからって……それで」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_ikari		#怒
+
+＠Ｚａｋｕｒｏ,Q01924
+「………………」
+
+あの人――じゃあ、これはざくろの母親が作ったのか？
+
+ざくろはたった一口食べて、それに気付いた。
+
+幼い頃に作ってもらった記憶か。
+
+@chara_clear		#保険
+wait		500
+@shizuku_middle		# 中間
+@shizuku_shifuku
+@shizuku		#普通
+
+＠Ｓｈｉｚｕｋｕ,S01664
+「あたしが許したんだよ。別に構わないだろうってね」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_ikari		#怒
+
+＠Ｚａｋｕｒｏ,Q01925
+「雫………」
+
+ざくろは雫さんを睨み付ける。
+
+@chara_clear		#保険
+wait		500
+@shizuku_middle		# 中間
+@shizuku_shifuku
+@shizuku_akire		#呆
+
+＠Ｓｈｉｚｕｋｕ,S01665
+「いいじゃないか、料理ぐらいつくらせてやったって」
+
+@shizuku		#普通
+
+＠Ｓｈｉｚｕｋｕ,S01666
+「あんたの好物だってね。なんか言ってたよ、梅干しを入れるのが隠し味とかなんとか」
+
+@shizuku_yorokobi	#喜
+
+＠Ｓｈｉｚｕｋｕ,S01667
+「どこに入ってるんだか知らないけど、なかなか美味いじゃないか。あたしは気に入ったよ」
+
+雫さんは何でもないことのように言って、もう話は終わったとばかりに食事の続きを始めた。
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_ikari		#怒
+
+＠Ｚａｋｕｒｏ,Q01926
+「……………………」
+
+ざくろは無言で、母親が作った料理を睨み付けている。
+
+@chara_clear		#保険
+wait		500
+@suika_middle
+@suika_shifuku
+@suika			#普
+
+＠Ｓｕｉｋａ,R01310
+「ざくろちゃん……？」
+
+@chara_clear		#保険
+wait		500
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo			#普通
+
+＠Ｉｃｈｉｇｏ,O03216
+「食べないの？　美味しいよ」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_kanashimi	#哀
+
+＠Ｋａｒｉｎ,P03536
+「どうしちゃったの？　あの人って誰よ」
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 中間
+@mikan_shifuku
+@mikan_kanashimi	#哀
+
+＠Ｍｉｋａｎ,A03122
+「大丈夫、ざくろちゃん？」
+
+ただならぬざくろの気配に、他の子達も食事の手を止めてしまっていた。
+
+雫さんが鳴らす食器の音だけが、食堂に響く。
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_akire		#呆
+wait		500
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_zakuro,0,	550,	0,16
+layer_movepass_add	l_zakuro,0,	550,	0,0
+layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_zakuro,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｚａｋｕｒｏ,Q01927
+「…………はぁ」
+
+@zakuro_
+
+ざくろは大きく溜息を吐いて、肩を落とした。
+
+@SE35			#ティーカップを置く音（カチャ）
+
+そしてスプーンを持ち直すと、いつもの表情に戻ってそれを――母親の料理を食べ始めた。
+
+＠Ｚａｋｕｒｏ,Q01928
+「ぱく……ぱくぱく……ぱく……ぱく……ごくん」
+
+そうだな……ざくろ。
+
+＠Ｉｔｓｕｋｉ
+「みんな、どうしたんだ？　せっかくの美味い料理が冷めるぞ」
+
+オレもまた、今の一件が何もなかったかのような顔をして、パクパクとそれを食べていく。
+
+@chara_clear		#保険
+wait		500
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo_yorokobi	#喜
+
+＠Ｉｃｈｉｇｏ,O03217
+「ま、いっか……食～べよっ♪」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_kanashimi	#哀
+
+＠Ｋａｒｉｎ,P03537
+「何なのよ、まったく……」
+
+@karin_
+
+首をかしげつつ、他の子達も食事を再開した。
+
+ぎこちなくなっていた食卓も、すぐに普段の喧噪を取り戻していく。
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 中間
+@mikan_shifuku
+@mikan_warai2		#笑2
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	300,	0,16
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_add	l_mikan,0,	400,	0,16
+layer_movepass_add	l_mikan,0,	400,	0,0
+layer_movepass_add	l_mikan,0,	600,	0,16
+layer_movepass_add	l_mikan,0,	600,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A03123
+「はぐ……んっ……はぐはぐ……う～～ん、美味しい」
+
+@chara_clear		#保険
+wait		500
+@suika_middle
+@suika_shifuku
+@suika_warai		#笑
+
+＠Ｓｕｉｋａ,R01311
+「うん、ほんとに美味しいね」
+
+@chara_clear		#保険
+wait		500
+@ichigo_middle		# 中間
+@ichigo_shifuku
+@ichigo_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_ichigo,0,	300,	0,32
+layer_movepass_add	l_ichigo,0,	300,	0,0
+layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_ichigo,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｉｃｈｉｇｏ,O03218
+「おかわり～～～！　それとパパ、マヨネーズちょうだい！！」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_kanashimi	#哀
+
+＠Ｋａｒｉｎ,P03538
+「あんた、これにもかけるつもり？　今日くらいざくろを見習ったら？」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_akire		#呆
+
+＠Ｚａｋｕｒｏ,Q01929
+「別に見習わなくていい」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin_niko		#にこ
+
+＠Ｋａｒｉｎ,P03539
+「なんでよ、青ノリなしで食べてるじゃない？　普通に美味しいんじゃないの？」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_metoji		#閉
+
+＠Ｚａｋｕｒｏ,Q01930
+「違う。こんな料理にかけたら、青ノリがもったいない」
+
+@chara_clear		#保険
+wait		500
+@karin_middle
+@karin_shifuku
+@karin			#普通
+
+＠Ｋａｒｉｎ,P03540
+「なに？　まずいの？」
+
+＠Ｚａｋｕｒｏ,Q01931
+「青ノリをかけるに値しないだけ……ぱくっ……はぐ……ぱくぱくっ」
+
+@karin_kanashimi	#哀
+
+＠Ｋａｒｉｎ,P03541
+「はぁ、相変わらずよく分からないわね。まあいいわ……美雨、おかわり」
+
+@chara_clear		#保険
+wait		500
+@mikan_middle		# 中間
+@mikan_shifuku
+@mikan_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_mikan,0,	300,	0,32
+layer_movepass_add	l_mikan,0,	300,	0,0
+layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_mikan,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｋａｎ,A03124
+「みかんもーー。ざくろちゃんはおかわりしないの？」
+
+@chara_clear		#保険
+wait		500
+@zakuro_middle		# 中間
+@zakuro_shifuku
+@zakuro_iya		#嫌
+
+＠Ｚａｋｕｒｏ,Q01932
+「……………………」
+
+空になった皿を見て、ざくろが少し考え込む。
+
+＠Ｉｔｓｕｋｉ
+「ざくろ、ちゃんと食っておけよ。調教には体力がいるからな」
+
+ざくろはオレをチラリと見て、小さく溜息を吐き、
+
+@zakuro_akire		#呆
+
+＠Ｚａｋｕｒｏ,Q01933
+「言われないでも分かってる……おかわり」
+
+@zakuro_
+
+と、いつものように無表情で空皿を差し出した。
+
+＠Ｚａｋｕｒｏ,Q01934
+「はぐ……んっ……はぐはぐ……ぱく……」
+
+子供の頃に食べたものの記憶は、大人になってもずっと覚えていると聞いたことがある。
+
+あんな母親の料理といえども、ざくろにとっては懐かしい味なのだろう。
+
+二杯目をパクパクと食べる姿を見ながら、オレはそんなことを考えていた。
+
+bgm_stop
+@bg_black
+wait		1000
+
+@zakuro_evup
+
+#ここまで
+return
+

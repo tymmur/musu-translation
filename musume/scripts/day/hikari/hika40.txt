@@ -1,0 +1,2684 @@
+#--------------------------------------------------
+label		hika40
+#--------------------------------------------------
+bgm_stop
+@bg_black
+
+#■BG（青空）
+#@bg_sky		# 空
+@bg_gate		# 孤児院前
+
+それからさらに数日が過ぎた。
+
+施設を閉める日が目の前に近づいてきた、ある日のこと。
+
+#■BG（玄関）
+@bg_black
+se		0,	"sound\se\SE30_木製ドア～あける１.WAV",	play_wait
+wait		500
+se		0,	"sound\se\SE31_木製ドア～しめる１.WAV",	play_wait
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+@rua_niko		#にこ
+@suzumi_niko		#にこ
+@bg_genkan		# 玄関
+@bgm12			#BGM 12 : メインテーマ
+
+＠Ｓｕｚｕｍｉ,L00333
+「こんにちはっ、樹さん」
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_rua,0,	300,	0,16
+layer_movepass_add	l_rua,0,	300,	0,0
+layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_rua,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｒｕａ,M00351
+「おじゃまします」
+
+＠Ｉｔｓｕｋｉ
+「いらっしゃい、二人とも。よくきてくれたね」
+
+@bg_black
+wait		100
+@hikari_small
+@hikari_shifuku
+@hikari_warai		#笑
+@bg_hiroma		# 広間
+wait		100
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00749
+「わぁいっ♪　いらっしゃい涼お姉しゃん、るあお姉しゃーん！」
+
+ひかりと約束していたらしく、涼海ちゃんとるあちゃんが施設へ遊びに来た。
+
+@bg_black
+wait		100
+#@suzumi_small
+#@suzumi_shifuku
+#@rua_small
+#@rua_shifuku
+@seiji_small
+@seiji_shifuku
+
+#@rua_niko		#にこ
+#@suzumi_niko		#にこ
+@seiji_niko		#にこ
+@bg_genkan		# 玄関
+
+＠Ｓｅｉｊｉ,D00245
+「オレもおるで、三人やッ」
+
+そしてもう一人。
+
+＠Ｉｔｓｕｋｉ
+「何でいっつも、二人の後をついて来てるんだお前は……？」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00246
+「そんなん、保護者なんやから当然やろ」
+
+@chara_clear		#保険
+wait		500
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+@rua			#普
+@suzumi_kanashimi	#哀
+wait		100
+#///////////////////////////////////////////////////////
+#演：ためいき
+#layer_movepass_add	l_suzumi,0,	100,	0,0
+#layer_movepass_add	l_suzumi,0,	550,	0,32
+#layer_movepass_add	l_suzumi,0,	550,	0,0
+#layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+#layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｕｚｕｍｉ,L00334
+「って、理屈だけはもっともらしいのよね」
+
+＠Ｒｕａ,M00352
+「もう私も涼お姉ちゃんも、保護者同伴が必要な年じゃないですよ……？」
+
+@chara_clear		#保険
+wait		500
+@seiji_small
+@seiji_shifuku
+@seiji_ikari		#怒
+
+＠Ｓｅｉｊｉ,D00247
+「こいつに油断したらあかん。調教や言うていやらしい事をしてる男なんやで」
+
+#@suzumi_comical_ikari	#コミカル怒
+#SE66　効果音１（ビシッ！）
+@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+
+#--------------------------------------------------
+#注：なんか変なのでとりあえずコメント
+#--------------------------------------------------
+
+#＠樹＆涼海,L00335
+#「お前も同じだろうがッ！／バカ誠司だって同じでしょッ」
+
+＠Ｓｕｚｕｍｉ,L00335
+「バカ誠司だって同じでしょッ」
+
+#--------------------------------------------------
+
+@chara_clear		#保険
+wait		500
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+@rua			#普
+#@suzumi_kanashimi	#哀
+@suzumi_comical_ikari	#コミカル怒
+
+＠Ｒｕａ,M00353
+「あ。でもそれなら、少しは私たちのことも心配してくれているのが理由で……？」
+
+@suzumi_kanashimi	#哀
+
+＠Ｓｕｚｕｍｉ,L00337
+「甘いわよ、るあ。そんなの建前で、どうせ本音は……」
+
+@bg_black
+wait		100
+@miu_small_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@bg_hiroma		# 広間
+
+＠Ｍｉｕ,B03000
+「あら、二人ともいらっしゃい。それに誠司さんも」
+
+騒がしい玄関の様子を聞き、美雨が自分で車椅子を動かしてやってきた。
+
+＠Ｓｅｉｊｉ,D00248
+「…！　おお、美雨さんっ、お久しぶりです！」
+
+＠Ｓｕｚｕｍｉ,L00338
+「はぁ……」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03001
+「すみませんでした、お出迎えも出来なくて」
+
+@bg_black
+wait		100
+@seiji_small
+@seiji_shifuku
+@seiji_warai		#笑
+@bg_genkan		# 玄関
+
+＠Ｓｅｉｊｉ,D00249
+「いえいえ、その身体で無理せんといてください。お気持ちだけでええですから」
+
+@chara_clear		#保険
+wait		500
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+#@rua_niko		#にこ
+@rua			#普
+@suzumi_niko		#にこ
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_suzumi,0,	300,	0,16
+layer_movepass_add	l_suzumi,0,	300,	0,0
+layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｕｚｕｍｉ,L00339
+「おじゃまします、美雨さん。すみません騒がしいのがくっついてきて」
+
+＠Ｒｕａ,M00354
+「今お二人とも忙しいんですよね。遊びに来て大丈夫でしたか？」
+
+@bg_black
+wait		100
+@hikari_small
+@hikari_shifuku
+@miu_small_kuruma
+@miu_kurumaisu		#メイド服・車イス
+
+@hikari_yorokobi	#喜
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@bg_hiroma		# 広間
+
+＠Ｍｉｕ,B03002
+「ううん、歓迎するわ。ひーちゃんと約束して来てくれたのよね」
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00750
+「うんッ！　お姉しゃん達と中であしょぶのっ」
+
+@hikari_yorokobi	#喜
+
+＠Ｍｉｕ,B03003
+「さぁ、遠慮なく奥へどうぞ。すぐお茶を用意しますから」
+
+＠Ｉｔｓｕｋｉ
+「待って、オレがやるよ。美雨はみんなとリビングに居ていいから」
+
+@miu_kuruma		# 普（車いす専用）
+
+＠Ｍｉｕ,B03004
+「え、でも」
+
+＠Ｓｅｉｊｉ,D00250
+「ふぅ、まぁこの際しゃあないな。樹の茶で我慢したるわ」
+
+@hikari_ikari		#怒
+
+＠Ｈｉｋａｒｉ,N00751
+「お母しゃん、ひーちゃんもてちゅだうから、無理はメェっなの」
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03005
+「そうね……。なら、お願いしようかしら」
+
+@hikari			#普
+
+みんなの気持ちを汲んで、いつもは譲らない美雨があっさりと言葉を収めた。
+
+＠Ｉｔｓｕｋｉ
+「よし。一緒に美雨に負けない美味しいお茶を淹れるぞ、ひかり」
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00752
+「わぁいッ♪」
+
+@bg_black
+wait		100
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+#@rua_niko		#にこ
+@rua			#普
+@suzumi_niko		#にこ
+@bg_genkan		# 玄関
+
+＠Ｓｕｚｕｍｉ,L00340
+「あまりお気遣いはいりませんから、樹さん」
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_rua,0,	300,	0,16
+layer_movepass_add	l_rua,0,	300,	0,0
+layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_rua,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｒｕａ,M00355
+「お手間を取らせてすみません」
+
+#■BG（黒）
+@bg_black
+wait		1000
+@bg_kitchen		# キッチン
+
+そうして、オレとひかりはキッチンに入った。
+
+美雨が淹れるほど手際は良くないが、二人で不器用に作業して数をそろえる。
+
+@bg_black
+#wait		1000
+#■BG（リビング）
+#@bg_living		# リビング
+
+リビングに運んだお茶を、涼海ちゃんやるあちゃん達の前に出した。
+
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+@bg_living		# リビング
+
+＠Ｓｅｉｊｉ,D00251
+「何でこない、オレの茶だけ茶色いん」
+
+＠Ｉｔｓｕｋｉ
+「茶だけにな」
+
+＠Ｓｕｚｕｍｉ,L00341
+「あはっ、樹さん上手い♪」
+
+＠Ｉｔｓｕｋｉ
+「まぁ実際は茶葉の分量を間違えたんだ。最後の茶だけムチャクチャ濃くなってな」
+
+@seiji_ikari		#怒
+
+＠Ｓｅｉｊｉ,D00252
+「薄ぅなるんは聞くけど、どないしたら最後の茶が濃くなんねん！」
+
+@chara_clear		#保険
+wait		500
+@rua_middle		# 中間
+@rua_shifuku
+@rua_niko		#にこ
+
+＠Ｒｕａ,M00356
+「はふぅ……美味しいですよ、樹先生」
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+
+@hikari_yorokobi	#喜
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03006
+「ん……ほんと、ひーちゃんも上手く淹れられたわね。偉いわ」
+
+@hikari_tere		#照
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00753
+「えへへ～♪」
+
+#@chara_clear		#保険
+@bg_black
+wait		100
+@bg_living		# リビング
+
+＠Ｓｕｚｕｍｉ,L00342
+「ふぅ、ふぅ……ん…ん、こくん…」
+
+＠Ｉｔｓｕｋｉ
+「涼海ちゃんどう？　大丈夫かな」
+
+@suzumi_middle		# 中間
+@suzumi_shifuku
+@suzumi_niko		#にこ
+
+＠Ｓｕｚｕｍｉ,L00343
+「ん、ぁふ……はい、濃さもちょうど良いし。飲みやすくて美味しいです」
+
+みんな誠司をスルーして、各自の湯飲みを啜っていた。
+
+＠Ｓｅｉｊｉ,D00253
+「ふっふ。今の台詞はエロいで、涼海」
+
+@suzumi_comical_ikari	#コミカル怒
+
+＠Ｓｕｚｕｍｉ,L00344
+「どこがよッ！　年中変なことを考えてるからそう聞こえるんでしょッ、バカ誠司！」
+
+……ごめん、涼海ちゃん。実はオレもちょっとそう聞こえてた。
+
+#@chara_clear		#保険
+#wait		500
+@bg_black
+wait		100
+@rua_middle		# 中間
+@rua_shifuku
+@rua			#普
+@bg_living		# リビング
+
+＠Ｒｕａ,M00357
+「……？」
+
+一方、るあちゃんは椅子に座ったままキョロキョロと辺りを見回していた。
+
+＠Ｒｕａ,M00358
+「部屋の中の様子、あんまり変わってないんですね」
+
+＠Ｒｕａ,M00359
+「お引っ越しの準備中って聞いてたから、もっと色々変わってると思ってたんですけど」
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+
+@hikari_yorokobi	#喜
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03007
+「ええ、普通みたいに家具や内装品は持ち出さないから。見た感じは今までと同じね」
+
+＠Ｓｕｚｕｍｉ,L00345
+「もう新しい部屋は決まったんですか？」
+
+＠Ｉｔｓｕｋｉ
+「それがまだなんだ。希望ばかりで、具体的な場所がね……」
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00754
+「ひーちゃんはね、海の近くの家がいいの♪」
+
+#EF　白フラッシュ
+#SE67　食事を噴き出す音（ブゥゥッ！！）
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+@SE67			#食事を噴き出す音（ブゥゥッ！！）
+
+＠Ｓｅｉｊｉ,D00254
+「ぐへぁあッ、何やこの茶はッ！！　苦ッ、不味ぅッ！！」
+
+@chara_clear		#保険
+wait		500
+@rua_middle		# 中間
+@rua_shifuku
+#@rua_niko		#にこ
+@rua_warai		#笑
+
+＠Ｒｕａ,M00360
+「わぁ、いいなぁ海の近く。私も海が見える場所に住みたかったんですよ」
+
+@chara_clear		#保険
+wait		500
+@suzumi_middle		# 中間
+@suzumi_shifuku
+@suzumi			#普
+
+＠Ｓｕｚｕｍｉ,L00346
+「でもそうなると、この近くってわけにはいかないですね」
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+
+@hikari			#普
+#@miu_kuruma_kanashimi	# 哀（車いす専用）
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03008
+「まだ決まってはないけれど、やっぱり少し遠い引っ越しにはなっちゃうわね」
+
+@hikari_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00755
+「う～……海はいいけど、涼お姉しゃん達と離れゆのはヤなの……」
+
+bgm_stop
+@bg_black		# 黒
+
+＠Ｓｅｉｊｉ,D00255
+「げほッ、がはッ！　お、オレは放ったらかしかいッ……！」
+
+＠Ｉｔｓｕｋｉ
+「……淹れたオレが言うのも変だが、本気で飲むなよ」
+
+とりあえず咽ている誠司には布巾を投げ渡しておく。
+
+@bg_living		# リビング
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+＠Ｉｔｓｕｋｉ
+「そういえば、誠司の方の施設の後処理とか、大丈夫なのか？」
+
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,8
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,0
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,8
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,0
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,8
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,0
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,8
+layer_movepass_add	l_seiji,0,	100,	0,4
+layer_movepass_add	l_seiji,0,	100,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00256
+「ンげふッ……も、もちろん続けられへんから、潰す予定やで」
+
+＠Ｉｔｓｕｋｉ
+「じゃあ、涼海ちゃんとるあちゃんの事をちゃんと考えてあげないと……」
+
+#--------------------------------------------------
+
+#＠涼海,L00347
+#「…？」
+#（//本編ではこの一文削除）
+
+#＠るあ,M00361
+#「…？」
+#（//本編ではこの一文削除）
+
+#@chara_clear		#保険
+#wait		500
+#@suzumi_middle		# 中間
+#@suzumi_shifuku
+#@rua_middle		# 中間
+#@rua_shifuku
+
+#@suzumi			#普
+#@rua			#普
+
+＠涼海＆るあ,Z90007
+「…？」
+
+#--------------------------------------------------
+
+＠Ｉｔｓｕｋｉ
+「寂しいのは分かるけど、せっかく二人を普通の生活に戻してあげられる機会じゃないか」
+
+#@chara_clear		#保険
+#wait		500
+#@suzumi_middle		# 中間
+#@suzumi_shifuku
+
+#@rua_kanashimi		#哀
+#@rua_odoroki		#驚
+#@suzumi_odoroki		#驚
+
+＠Ｓｕｚｕｍｉ,L00349
+「あ、樹さん、私たちは……」
+
+#@chara_clear		#保険
+#wait		500
+#@seiji_middle		# 中間
+#@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00257
+「心配しな。他の子らはとっくに、他所の真っ当な施設へ送り出してるで」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00258
+「ただこの二人だけは、これからもオレが面倒見ることになったんや」
+
+＠Ｉｔｓｕｋｉ
+「えっ……？」
+
+それはＹＥＳでもＮＯでもない、予想外の答えだった。
+
+今までの誠司たちの生活を知っているので、同時に不信感と焦りが生まれる。
+
+＠Ｉｔｓｕｋｉ
+「まさかお前、まだこれからも二人にそういうことを……」
+
+@chara_clear		#保険
+wait		500
+@rua_middle		# 中間
+@rua_shifuku
+#@rua			#普
+@rua_odoroki		#驚
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_rua,0,	200,	0,16
+layer_movepass_add	l_rua,0,	200,	0,0
+layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_rua,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｒｕａ,M00363
+「あっ……違うんです。私たちからお願いしたことなんです」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00259
+「ああ、お前が勘ぐってるような目的やない。二人の意思や」
+
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00260
+「それでもオレかて、二人を他所に送ろうと三日三晩説得し続けたんやで」
+
+＠Ｉｔｓｕｋｉ
+「なるほど。ほとんど根気比べだったわけだ」
+
+＠Ｍｉｕ,B03009
+「ふふ。それだけ誠司さんと一緒に居たかったのね、二人とも」
+
+@chara_clear		#保険
+wait		500
+@suzumi_middle		# 中間
+@suzumi_shifuku
+@rua_middle		# 中間
+@rua_shifuku
+
+@rua_odoroki		#驚
+@suzumi_odoroki		#驚
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_suzumi,0,	200,	0,32
+layer_movepass_add	l_suzumi,0,	200,	0,0
+layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｕｚｕｍｉ,L00350
+「み、美雨さんッ、違いますよッ！　ただこのバカを一人野放しにするのが心配だったからっ」
+
+＠Ｒｕａ,M00364
+「さ、寂しいのはすごくありましたけど……でもまだ、そんなストレートな気持ちとかはっ…」
+
+＠Ｉｔｓｕｋｉ
+「ははっ、良かったじゃん誠司。こんな可愛い子たちにここまで想われてさ」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00261
+「………ったく」
+
+@seiji_kanashimi	#哀
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_seiji,0,	550,	0,32
+layer_movepass_add	l_seiji,0,	550,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00262
+「は～ぁ……まだ独り身やのに。何の祟りでこんなツルペタ二人を引き取らなあかんねや」
+
+@chara_clear		#保険
+wait		500
+@suzumi_middle		# 中間
+@suzumi_shifuku
+@rua_middle		# 中間
+@rua_shifuku
+
+@suzumi_odoroki		#驚
+@rua_kanashimi		#哀
+
+＠Ｒｕａ,M00365
+「う……ぺ、ペタじゃないもんっ……少しだけど…」
+
+@suzumi_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_suzumi,0,	200,	0,32
+layer_movepass_add	l_suzumi,0,	200,	0,0
+layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｕｚｕｍｉ,L00351
+「ふんッ、私だって本当はイヤなんだから！　せめて一人でご飯くらい作れるようになってよねッ！」
+
+＠Ｉｔｓｕｋｉ
+「ま、何だかんだで仲良く過ごせるパートナーだろうな」
+
+@chara_clear		#保険
+wait		500
+@hikari_middle		# 中間
+@hikari_shifuku
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+
+@hikari			#普
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｈｉｋａｒｉ,N00756
+「いっぱい言い合ってゆのに……？」
+
+＠Ｍｉｕ,B03010
+「ええ。三人とも仲のいい証拠なのよ」
+
+@hikari_komaru		#困
+
+まだひかりにはちょっと分からないようで、小首を傾げているが。
+
+#@chara_clear		#保険
+#wait		500
+@bg_black
+wait		100
+#@suzumi_middle		# 中間
+@suzumi_large		# 近い
+@suzumi_shifuku
+@suzumi_comical_ikari	#コミカル怒
+@bg_living		# リビング
+wait		100
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_add	l_suzumi,0,	150,	0,16
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_add	l_suzumi,0,	150,	0,16
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｕｚｕｍｉ,L00352
+「またもうッ、るあを悲しませないでよッ！　バカ誠司！」
+
+@bg_black		# 黒
+#EF　白フラッシュ
+#SE38　殴る音（バキッ！）
+@SE38			#殴る音（バキッ！）
+wait		1500
+@SE27			#SE27　倒れる音（ドサッ）
+@rua_middle		# 中間
+@rua_shifuku
+@rua_odoroki		#驚
+@bg_living		# リビング
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_rua,0,	200,	0,32
+layer_movepass_add	l_rua,0,	200,	0,0
+layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_rua,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｒｕａ,M00366
+「ひゃあ！　す、涼お姉ちゃんッ…誠司先生が！？」
+
+@rua_
+
+またパンチで誠司を沈める涼海ちゃんと、それを見て慌てるるあちゃん。
+
+この子達にとって一番幸せな形に落ち着いたのを知って、オレはホッとしていた。
+
+#一拍
+bgm_stop
+@bg_black
+wait		1000
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+@bg_living		# リビング
+wait		100
+#///////////////////////////////////////////////////////
+#演：ためいき
+layer_movepass_add	l_seiji,0,	550,	0,32
+layer_movepass_add	l_seiji,0,	550,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00263
+「はぁ……。ようやく痛みが引いてきたわ」
+
+しばらくして、誠司が安堵の息をついた。
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00264
+「涼海のやつ、日々強暴になっていきよる。将来は女子プロ決定やな」
+
+＠Ｉｔｓｕｋｉ
+「そんなこと言ってると、またパンチが飛んでくるぞ」
+
+@seiji_niko		#にこ
+
+＠Ｓｅｉｊｉ,D00265
+「はは、もちろん本人の前では言わんけどな………」
+
+@seiji_
+
+涼海ちゃんとるあちゃんは、あれからひかりと一緒に部屋へ遊びに行って、この場に居なかった。
+
+オレと美雨と誠司、何となく三人がリビングに残っている。
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03011
+「……誠司さん」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00266
+「そうですね、話すなら今が一番かもしれん」
+
+＠Ｉｔｓｕｋｉ
+「ん…？」
+
+だが、どうやらオレ達がここに残ったのは意図的なモノだったようだ。
+
+＠Ｉｔｓｕｋｉ
+「どうしたんだ、二人とも急に」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00267
+「これは二人に関係する事やから、よう聞いてほしい」
+
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00268
+「美雨さんはもう感付かれてるみたいやけど、警察の捜査が徐々に迫ってきてる」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00269
+「今までは隠蔽する事実が多すぎて警察も混乱しとったけど、それも収まってきてるみたいや」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03012
+「……そうですか。そろそろ来るころと思ってました」
+
+@bgmk07			#BGM K07 : 深刻なテーマ
+
+＠Ｉｔｓｕｋｉ
+「えッ！？　ちょ、ちょっと待て、捜査って何のことだ…！？」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00270
+「何て、ここやオレんとこでしとった売春斡旋、その他諸々のことに決まってるやん」
+
+いきなりの言葉に驚くオレだが、誠司は平然と答えた。
+
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00271
+「まぁ堂々とやっとったから、罪やいうんを失念しそうな気持ちは分かるけどな」
+
+＠Ｉｔｓｕｋｉ
+「そうじゃない……けど。でも何で、今さら急に警察がッ」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03013
+「樹さん……仕方ないんです」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03014
+「今まで私たちが裁かれなかったのは、全て夜行が裏で圧力をかけていたからに過ぎません」
+
+＠Ｍｉｕ,B03015
+「彼ら警察は初めから、決して私たちの味方だったわけではないのです」
+
+＠Ｉｔｓｕｋｉ
+「……！」
+
+そうか……。オレはすっかり勘違いしていた。
+
+夜行と敵対するとき、警察も障害となったため、彼らも施設を容認している側と錯覚していたのだ。
+
+＠Ｉｔｓｕｋｉ
+「でも何で誠司が、警察の捜査状況なんかを……」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03016
+「実は誠司さんには、施設の経営者とは別に、もう一つの立場があるんです」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03017
+「それが国家公安委員会、今でも現役での職をもたれています」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+wait		500
+#SE66　効果音１（ビシッ！）
+@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+
+＠Ｉｔｓｕｋｉ
+「こ、こいつが…ッ！？　公安の人間ッ！？」
+
+@seiji_niko		#にこ
+
+＠Ｓｅｉｊｉ,D00272
+「ふっふ～ん。どうや、驚いたやろ」
+
+＠Ｉｔｓｕｋｉ
+「……ダメだ。日本終わったな」
+
+@seiji_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_seiji,0,	150,	0,0
+layer_movepass_add	l_seiji,0,	150,	0,16
+layer_movepass_add	l_seiji,0,	150,	0,0
+layer_movepass_add	l_seiji,0,	150,	0,16
+layer_movepass_add	l_seiji,0,	150,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00273
+「何やとッ！！」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03018
+「誠司さんは夜行の意思とは関係なく、公安の指示で今まで施設を動かしていたんです」
+
+＠Ｉｔｓｕｋｉ
+「何でだ。逆らえなかっただけで、警察は犯罪を許してたわけじゃないんだろ」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00274
+「夜行の弱みを探るため幅の広い捜査、っちゅうんが上の提示した理由やったけどな」
+
+@seiji_niko		#にこ
+
+＠Ｓｅｉｊｉ,D00275
+「まぁ本音は、今の内に自分らも独自で私腹を肥やしたろう言うことやろ」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00276
+「けどあの男が居らんようなって、今まで黙認してた頭の固い奴らが騒ぎ始めたんや」
+
+＠Ｉｔｓｕｋｉ
+「それが今の状況なのか」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03019
+「すみません。本当は私から先にお伝えする事だったのですが……」
+
+＠Ｍｉｕ,B03020
+「まだ確証が無かった段階で、不安にさせては悪いと思ってしまって……」
+
+＠Ｉｔｓｕｋｉ
+「分かってる。美雨に何かを責めるつもりはないさ」
+
+＠Ｉｔｓｕｋｉ
+「けど、そうか。オレは警察に捕まるのか……」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+#@seiji_niko		#にこ
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00277
+「どないした？　やけに落ち着いてるやん」
+
+＠Ｉｔｓｕｋｉ
+「罪は罪だからな。確かに、オレは裁かれる事をしたんだ」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+#@miu_kuruma_kanashimi	# 哀（車いす専用）
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03021
+「でもッ、樹さんは私たちがここにお呼びしたのが原因でッ……」
+
+＠Ｉｔｓｕｋｉ
+「原因が何であれ、行動に移したのはオレの意思だった」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00278
+「大人しく捕まる、いう事か？」
+
+＠Ｉｔｓｕｋｉ
+「けど別に、どうでもよくなって投げ出しているわけじゃないぜ」
+
+＠Ｉｔｓｕｋｉ
+「……ただこの罪は、逃げたり言い訳したりしちゃいけないんだ」
+
+#--------------------------------------------------
+#■EVCG（みんなで食事風景・回想ver）
+@bg_white		# 白
+screen_whiteout		1
+wait			1
+@chara_clear		#保険
+event		"event\EV_MIU_090-15.png"
+screen_whitein		1000
+wait			1000
+#--------------------------------------------------
+
+ここで一緒に暮らしていたみんな。
+
+その楽しかった生活の中には、確かに罪に問われる事も少なくなかった。
+
+でもだからと言って、子供たちとの思い出を取捨選択なんて出来ない。
+
+＠Ｉｔｓｕｋｉ
+「犯した罪も含めて、子供たちと過ごした一年間だった……」
+
+#■BG（リビング）
+@bg_white		# 白
+screen_whiteout		1
+wait			1
+@bg_living		# リビング
+screen_whitein		1000
+wait			1000
+
+＠Ｉｔｓｕｋｉ
+「罪を問われるなら潔く償って、今度こそ後ろめたさの無い綺麗な思い出を残しておくさ」
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03022
+「樹さん……」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00279
+「なるほど、それがお前の考えか……」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00280
+「けど勝手に盛り上がってるとこに水を差すけど、まだ話に続きがあるで」
+
+しんみりした場に誠司の言葉は続く。
+
+それが決して良い内容ではないのは、彼の神妙な様子から容易に分かってしまう。
+
+＠Ｓｅｉｊｉ,D00281
+「さっきチラッと言うたけど、今回の一連の事件は、その大半が隠蔽される動きにある」
+
+＠Ｉｔｓｕｋｉ
+「隠蔽……？」
+
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00282
+「ああ。なんせ国側にとっても、あんまり世に流しとうない事実が多いよってにな」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00283
+「例えばお前が客として接待しとった連中一人とっても、政界の権力持ち言う輩が仰山おるわ」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03023
+「夜行一人に、ここまで事を大きくしてしまった国の失態も問われますね……」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_seiji,0,	300,	0,16
+layer_movepass_add	l_seiji,0,	300,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00284
+「ええ。連中が一番避けたがってるのがソコですわ」
+
+＠Ｉｔｓｕｋｉ
+「それってつまり、結局は……」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00285
+「夜行に関すること大半が、表ざたに出来ず隠すしかないっちゅうことや」
+
+@seiji_niko		#にこ
+
+＠Ｓｅｉｊｉ,D00286
+「加えてオレ自身も、元々罪を問われる立場やあらへんしな」
+
+＠Ｉｔｓｕｋｉ
+「……何だ。そうなのか」
+
+話が一転二転したが、その結論にオレは緊張を緩めた。
+
+＠Ｉｔｓｕｋｉ
+「じゃあ夜行に躍らされてたオレや美雨も、安全圏じゃないか」
+
+@seiji			#普
+
+もちろんそれで、罪を逃れようという気は無い。
+
+だが、追われているか否かというのは、思っている以上に精神的な苦痛が大きかった。
+
+＠Ｓｅｉｊｉ,D00287
+「………」
+
+#@chara_clear		#保険
+#wait		500
+#@miu_middle_kuruma
+#@miu_kurumaisu		#メイド服・車イス
+#@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03024
+「……誠司さん、違うんですね？」
+
+＠Ｉｔｓｕｋｉ
+「え…？」
+
+#@chara_clear		#保険
+#wait		500
+#@seiji_middle		# 中間
+#@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00288
+「樹、いくら隠蔽工作をしても、現実に事件は起こってるんや」
+
+＠Ｓｅｉｊｉ,D00289
+「金が動き、人の人生が狂い、命を落とした者までおる」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00290
+「それら目に見えてる被害については、犯人を挙げんと世間が黙っとらんやろ」
+
+＠Ｉｔｓｕｋｉ
+「……だから、それは夜行で良いじゃないか」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03025
+「彼だとダメなんです。結局、政府側の人間の失態になってしまいますから」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00291
+「それに、『既に犯人は死んでいます』では、やっぱり人は納得してくれへん」
+
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00292
+「その問題のせいで、今までずっと警察も公安も捜査しあぐねとったんや」
+
+＠Ｉｔｓｕｋｉ
+「それが、今になって動き出した。つまり……」
+
+…………。
+
+意味深に、誠司が会話の呼吸に一拍の間をあける。
+
+bgm_stop
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00293
+「美雨さん……」
+
+＠Ｍｉｕ,B03026
+「………」
+
+＠Ｓｅｉｊｉ,D00294
+「公安も警察も、あなたが犯人っちゅうことで収束しました」
+
+#SE47　テーブルを叩く音（バンッ！）
+#EF　画面シェイク
+@SE47			#SE47　テーブルを叩く音（バンッ！）
+
+＠Ｉｔｓｕｋｉ
+「バカなッ！！」
+
+@bgm05			#BGM 05 : 悲しいシーンの曲
+
+誠司の告げた結論に、オレはテーブルを叩いて立ち上がった。
+
+＠Ｓｅｉｊｉ,D00295
+「まだ令状は出てませんけど、今は美雨さんの罪と証拠を揃えている段階です」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03027
+「……そうですか」
+
+＠Ｉｔｓｕｋｉ
+「おいッ、何で美雨なんだッ！　さっき全て隠蔽されるって言ったじゃないかッ！？」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_ikari		#怒
+
+＠Ｓｅｉｊｉ,D00296
+「全てとは言っとらん。夜行と、国の不利になることだけや」
+
+＠Ｉｔｓｕｋｉ
+「それだって同じ事だッ！」
+
+＠Ｉｔｓｕｋｉ
+「第一、美雨一人が犯人なんておかしいだろう！　オレだって同じ罪を問われるはずだッ！」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03028
+「樹さんっ……違うんです」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03029
+「たった一つだけ。この状況で何の枷も無く裁ける罪状が、私にはあるんです」
+
+＠Ｉｔｓｕｋｉ
+「な……何だって…美雨に……？」
+
+＠Ｍｉｕ,B03030
+「樹さんもご存知のことですよ。もっとも身近なことで」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03031
+「そして、ここに招かれた最初の理由になった事件です……」
+
+＠Ｉｔｓｕｋｉ
+「……まさか」
+
+＠Ｉｔｓｕｋｉ
+「父さんの一件……。それが理由で……？」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03032
+「私の事件の被害者は、昔のも含めて全て、政府と関わりある権力者の人達です」
+
+＠Ｍｉｕ,B03033
+「でも樹さんのお父さんだけは、何も知らない普通の民間人でした」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03034
+「そんな夜行の野望などに関係ない人にまで、私は手をかけているんです……」
+
+＠Ｉｔｓｕｋｉ
+「それは……事実関係だけ見たらそうかもしれないけど……」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00297
+「警察側が見てるんは、その事実だけや」
+
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00298
+「そして、他の公に出来ん被害も全て、それに乗じて美雨さんに罪を被せようとしてる」
+
+#SE47　テーブルを叩く音（バンッ！）
+@SE47			#SE47　テーブルを叩く音（バンッ！）
+
+＠Ｉｔｓｕｋｉ
+「そんな勝手な話があるかッ！」
+
+＠Ｉｔｓｕｋｉ
+「今回の一連の事件の一番の被害者は、美雨なんだぞッ！」
+
+＠Ｉｔｓｕｋｉ
+「なのにその罪まで、美雨に全部背負わせるつもりなのかお前らはッ！！」
+
+@seiji_ikari		#怒
+
+＠Ｓｅｉｊｉ,D00299
+「オレかて納得はしてへんッ！　してるかいッ！」
+
+＠Ｓｅｉｊｉ,D00300
+「けどな。この一件に楯突く言う事は、今度こそ正真正銘、国家権力全てが敵になるんやぞッ！」
+
+＠Ｉｔｓｕｋｉ
+「バカバカしい！　たかが国一つを敵に回すくらい、美雨と天秤にかけるまでも無いッ！」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+#@miu_kuruma_shinken	# 真剣（車いす専用）
+@miu_kuruma_ikari	# 怒（車いす専用）
+#wait		100
+#///////////////////////////////////////////////////////
+#演：ふるえ
+#layer_movepass_add	l_miu,0,	100,	0,4
+#layer_movepass_add	l_miu,0,	100,	0,8
+#layer_movepass_add	l_miu,0,	100,	0,4
+#layer_movepass_add	l_miu,0,	100,	0,0
+#layer_movepass_add	l_miu,0,	100,	0,4
+#layer_movepass_add	l_miu,0,	100,	0,8
+#layer_movepass_add	l_miu,0,	100,	0,4
+#layer_movepass_add	l_miu,0,	100,	0,0
+#layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
+#layer_movepass_play	l_miu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｕ,B03035
+「樹さんッ…誠司さんッ…！」
+
+激情のまま言葉をぶつけるオレと誠司に、美雨から悲愴な声で歯止めが掛かった。
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03036
+「私のことなら構いませんから……。お二人ともどうか落ち着いてください」
+
+＠Ｉｔｓｕｋｉ
+「あ……ぅ。ああ…そうだな、悪かった……」
+
+＠Ｓｅｉｊｉ,D00301
+「……すみません、美雨さん。オレもちょっと熱ぅなってましたわ……」
+
+誠司が激しく感情を出したのは、オレの知る限り今のが初めてかもしれない。
+
+それだけこいつも、理不尽な鬱憤が溜まっていたのだろう。
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03037
+「心配してくださってありがとうございます」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03038
+「でも、私もこうなることは薄々と予想出来ていましたから」
+
+＠Ｉｔｓｕｋｉ
+「美雨……。やっぱり、こんなことは理不尽すぎるよ」
+
+＠Ｉｔｓｕｋｉ
+「もしものときは、オレも一緒に出頭する。美雨一人に罪は被せないからな」
+
+@miu_kuruma_ikari	# 怒（車いす専用）
+
+＠Ｍｉｕ,B03039
+「それはダメですッ、樹さん！」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03040
+「私たちが二人とも居なくなってしまったら、ひーちゃんは誰が守ってあげるんですか」
+
+＠Ｉｔｓｕｋｉ
+「それは……ひかりは、オレ達が出てくるまで――」
+
+＠Ｍｉｕ,B03041
+「あの子はもう二度も、両親と離れる辛さを受けているんです……」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03042
+「なのに。今度はまた私たちが離れてしまうようなことになったら……ひーちゃんは」
+
+＠Ｉｔｓｕｋｉ
+「…………」
+
+ひかりを一人残しては行けない。
+
+どちらかが残って、ひかりの事を守ってあげないといけない。
+
+そう……どちらかが……
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00302
+「美雨さんは、オレや雫さんと違うて、どこの組織にも属してない無防備な状態なんや」
+
+＠Ｓｅｉｊｉ,D00303
+「向こうにしてみたら、まさに罪を着せるのに打ってつけっちゅう扱いになっとる」
+
+＠Ｉｔｓｕｋｉ
+「………」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03043
+「誠司さん。それで時間は、あとどのくらい猶予があるんでしょうか」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00304
+「……猶予いう程のもんは、正直もう残ってません」
+
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00305
+「もしかすると明日か、あさってか………遅くとも今週中には動きがある思います」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03044
+「…っ、そうですか……」
+
+＠Ｉｔｓｕｋｉ
+「夜行が死んだからか……」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00306
+「ん？」
+
+＠Ｉｔｓｕｋｉ
+「夜行が死んだから、こんな目まぐるしい変化が起こっているのか」
+
+＠Ｉｔｓｕｋｉ
+「そしてお前の言うとおり、美雨が立場上無防備なのも、夜行が居なくなったから」
+
+＠Ｍｉｕ,B03045
+「……樹さん…？」
+
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_seiji,0,	300,	0,16
+layer_movepass_add	l_seiji,0,	300,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00307
+「ああ、結果だけ見ていったらその通りやけど。どないした……？」
+
+＠Ｉｔｓｕｋｉ
+「……夜行が死に際に言ったのは、まさかこの事なのか？」
+
+#--------------------------------------------------
+#■EVCG（屋上の夜行・回想ver.）
+#EF　回想
+window_close
+screen_whiteout		1000
+wait			1000
+@chara_clear		#保険
+@bg_white		# 白
+@kaisou			#演：回想フィルタ
+screen_whitein 		1000
+@yakou_small
+@yakou_shifuku_damage	#私服(出血)
+@yakou			#普通 
+@bg_sky_y		# 夕方の空
+wait			1000
+#--------------------------------------------------
+
+＠夜行,C00203
+「そう、お前の言うとおり、このゲームの敗者は生きて全ての罪を償うことになるだろう」
+
+@yakou_yorokobi		#喜び 
+
+＠夜行,C00204
+「だがここで私が死ねば、どうなると思う」
+
+＠Ｉｔｓｕｋｉ
+「……な、何を言っているんだ、お前は」
+
+@yakou			#普通 
+
+＠夜行,C00205
+「敗者の条件を満たさずに死ねば、もう私が負けることなどはありえない」
+
+@yakou_yorokobi		#喜び 
+
+＠夜行,C00206
+「そして最後に、私はこのゲームの結果を大きく左右させたお前達の絆を断つのだ！」
+
+＠夜行,C00207
+「孤独の辛さに嘆き苦しむがいい。その時はもう罪を問うべき私はこの世に居ないのだからな！」
+
+＠Ｉｔｓｕｋｉ
+「絆を断つ、だと……。まさかお前、まだ何か仕組んでるっていうのかッ！？」
+
+@yakou_warai		#笑い 
+
+＠夜行,C00208
+「くくッ、すぐに分かるさ。イヤと言うほどな」
+
+#--------------------------------------------------
+#EF　回想終了
+window_close
+screen_whiteout		1000
+wait			1000
+@chara_clear		#保険
+@bg_white		# 白
+@kaisou_off		#演：回想フィルタ終了
+screen_whitein 		1000
+#■BG（リビング）
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_shinken	# 真剣（車いす専用）
+@bg_living		# リビング
+wait			1000
+#--------------------------------------------------
+
+……生きて罪を償う。それが敗者と夜行は言った。
+
+そしてオレ達の絆を断つと……
+
+＠Ｍｉｕ,B03046
+「夜行が、最後にそんなことを……」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00308
+「こうなるんを見越して死んだわけか。執念深い奴やのぉ」
+
+＠Ｉｔｓｕｋｉ
+「美雨だけが罪に問われるのも計算の内だったんだ。だから、絆を断つなんてことを」
+
+＠Ｉｔｓｕｋｉ
+「くそッ、そんな思い通りに行くと思うなよ！」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03047
+「樹さん……」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji			#普
+
+＠Ｓｅｉｊｉ,D00309
+「美雨さん、力になれんですみません……」
+
+@seiji_kanashimi	#哀
+
+＠Ｓｅｉｊｉ,D00310
+「本当はオレも、何を捨ててでも美雨さんを庇いたいんですけど………今は…」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03048
+「ええ、分かってます。誠司さんは涼海ちゃん達を守ってあげてください」
+
+＠Ｉｔｓｕｋｉ
+「オレ達よりあの二人の方が、間違いなくお前を一番に必要としているからな」
+
+＠Ｉｔｓｕｋｉ
+「って言うか、この状況でまだ美雨を選んで庇う何て言ってたら、本気で説教タイムだったが」
+
+@chara_clear		#保険
+wait		500
+@seiji_middle		# 中間
+@seiji_shifuku
+@seiji_ikari		#怒
+
+＠Ｓｅｉｊｉ,D00311
+「アホ。あいつらの一生の問題で冗談が言えるかい」
+
+＠Ｍｉｕ,B03049
+「色々と上辺でおっしゃっていても、本当は二人のことが大事なんですね」
+
+@seiji_niko		#にこ
+
+＠Ｓｅｉｊｉ,D00312
+「はは、まぁその辺は……想像に任せておくっちゅうことで、一つ」
+
+涼海ちゃんとるあちゃん、そしてこいつも。
+
+いつももう少し素直になっていれば、もっと上手くいくだろうに……と思う。
+
+bgm_stop
+@bg_black		# 黒
+#SE20　廊下を走ってくる音　※徐々に大きく
+@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+wait		100
+@SE06			#部屋のドア開く音（ガチャ）
+#wait		1000
+@rua_small
+@rua_shifuku
+#@rua_odoroki		#驚
+@rua			#普
+@bg_living		# リビング
+
+＠Ｒｕａ,M00367
+「誠司先生―――あっ、お話中でしたか？」
+
+＠Ｓｅｉｊｉ,D00313
+「うん？　ああ、何でもないで。話っちゅうんは……」
+
+＠Ｍｉｕ,B03050
+「お話ももう終わったから大丈夫よ。どうしたの？」
+
+@bg_black
+
+子供たちが来ると、美雨も誠司も今までの神妙な雰囲気を霧散させた。
+
+@bgm17			#BGM 17 : のんびりのテーマ
+
+@seiji_small
+@seiji_shifuku
+@suzumi_small
+@suzumi_shifuku
+
+@seiji			#普
+@suzumi_niko		#にこ
+@bg_living		# リビング
+
+＠Ｓｕｚｕｍｉ,L00353
+「誠司、ひーちゃんとかくれんぼするの。付き合って」
+
+@seiji_odoroki		#驚
+
+＠Ｓｅｉｊｉ,D00314
+「かくれんぼて……。この年になって」
+
+#@chara_clear		#保険
+#wait		500
+@bg_black
+wait		100
+#@hikari_small
+@hikari_middle		# 中間
+@hikari_shifuku
+@hikari_yorokobi	#喜
+@bg_living		# リビング
+wait		100
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00757
+「お父しゃんも一緒にやよー♪」
+
+＠Ｉｔｓｕｋｉ
+「え。ああ……家の中でやるのか？」
+
+@hikari_warai		#笑
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00758
+「うんっ。お母しゃんは、ひーちゃんと一緒に隠えゆのっ♪」
+
+@chara_clear		#保険
+wait		500
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03051
+「そうね。それじゃ混ぜてもらおうかしら」
+
+@bg_black
+wait		100
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+@suzumi_niko		#にこ
+@rua_niko		#にこ
+@bg_living		# リビング
+
+＠Ｒｕａ,M00368
+「樹先生と美雨さんもやってくれますし、誠司先生もやりましょうよ」
+
+@suzumi_warai		#笑
+
+＠Ｓｕｚｕｍｉ,L00354
+「イヤならこのまま、誠司を鬼にしてみんなで隠れちゃうわよ？」
+
+window_close
+@chara_clear		#保険
+wait		500
+@seiji_small
+@seiji_shifuku
+@seiji_odoroki		#驚
+wait		100
+#SE75　ショック音（ガーーン！）
+@SE75			#SE75　ショック音（ガーーン！）
+wait		1000
+
+＠Ｓｅｉｊｉ,D00315
+「それって独り残されるオレがめっちゃ寂しいやんッ！」
+
+まだ話のショックが抜けないオレを置いて、二人はもういつもどおりだった。
+
+もっともそれは、ある種の達観なのかもしれない。
+
+結末は変わらないから、今の思い出を作ろうという……
+
+@seiji_niko		#にこ
+
+＠Ｓｅｉｊｉ,D00316
+「よっしゃ、なら覚悟せぇよ。もし最初にお前らを見つけたら、その場でイヤラシイ刑やからな！」
+
+#SE66　効果音１（ビシッ！）
+#@SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
+@chara_clear		#保険
+wait		500
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+@rua_odoroki		#驚
+@suzumi_comical_ikari	#コミカル怒
+wait		100
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_suzumi,0,	300,	0,0
+layer_movepass_add	l_suzumi,0,	150,	0,16
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_add	l_suzumi,0,	150,	0,16
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_add	l_suzumi,0,	150,	0,16
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｕｚｕｍｉ,L00355
+「な、なんでよッ！　人の家でくらい自重しなさいよッ、エロバカ誠司！」
+
+@rua_kanashimi		#哀
+#///////////////////////////////////////////////////////
+#演：ふるえ
+layer_movepass_add	l_rua,0,	100,	0,4
+layer_movepass_add	l_rua,0,	100,	0,8
+layer_movepass_add	l_rua,0,	100,	0,4
+layer_movepass_add	l_rua,0,	100,	0,0
+layer_movepass_add	l_rua,0,	100,	0,4
+layer_movepass_add	l_rua,0,	100,	0,8
+layer_movepass_add	l_rua,0,	100,	0,4
+layer_movepass_add	l_rua,0,	100,	0,0
+layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_rua,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｒｕａ,M00369
+「はぅ……涼お姉ちゃん、本気で隠れないと誠司先生は実行しちゃうよっ……」
+
+@bg_black
+wait		100
+#@hikari_small
+@hikari_middle		# 中間
+@hikari_shifuku
+#@miu_small_kuruma
+#@miu_kurumaisu		#メイド服・車イス
+
+#@miu_kuruma_odoroki	# 驚（車いす専用）
+@hikari			#普
+@bg_living		# リビング
+
+＠Ｈｉｋａｒｉ,N00759
+「…？　いあらし、ってなぁに？」
+
+@chara_clear		#保険
+wait		500
+#CH（美雨・笑顔）
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03052
+「誠司さん……子供の前ではもう少し発言にご注意くださいね」
+
+#--------------------------------------------------
+#注：テスト中
+@SE104			#SE104　火が燃える音
+@bg_red			# 赤
+
+ゴゴゴゴゴ…………
+
+se_stop		0
+#--------------------------------------------------
+
+#@chara_clear		#保険
+#wait		500
+@bg_black
+wait		100
+@seiji_small
+@seiji_shifuku
+@seiji_odoroki		#驚
+@bg_living		# リビング
+wait		100
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_seiji,0,	200,	0,32
+layer_movepass_add	l_seiji,0,	200,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00317
+「ひぃッ！　す、すみませんッ……！」
+
+@seiji_
+
+笑顔なのに効果音が聞こえるくらい、美雨の内なる怒りは怖かった。
+
+＠Ｉｔｓｕｋｉ
+「ふぅ……」
+
+オレも今は、そんなみんなの輪の中に溶け込むことにする。
+
+絶望的なショックは大きいが、それで今ある思い出を暗いものには出来ない。
+
+＠Ｉｔｓｕｋｉ
+「……さて。じゃあ鬼発言をしてくれたことだし。誠司が鬼で始めるか」
+
+@miu_small_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@hikari_small
+@hikari_shifuku
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@hikari_yorokobi	#喜
+wait		100
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	100,	0,0
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00760
+「わぁい♪　お母しゃん隠えよ～ッ」
+
+＠Ｍｉｕ,B03053
+「ええ。どこにしましょうか」
+
+@chara_clear		#保険
+wait		500
+@seiji_small
+@seiji_shifuku
+@seiji_odoroki		#驚
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_seiji,0,	200,	0,16
+layer_movepass_add	l_seiji,0,	200,	0,0
+layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_seiji,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｅｉｊｉ,D00318
+「へッ？　ちょ、待ってくれ冗談や、ジャンケンで決めるんがセオリーやろ！？」
+
+@chara_clear		#保険
+wait		500
+@suzumi_small
+@suzumi_shifuku
+@rua_small
+@rua_shifuku
+
+@rua			#普
+@suzumi_ikari		#怒
+
+＠Ｓｕｚｕｍｉ,L00356
+「じゃあ誠司、本当に何かしたら、晩御飯は抜きだからね」
+
+@rua_kanashimi		#哀
+
+＠Ｒｕａ,M00370
+「……家に居るときみたいなのは、ここじゃ遠慮してくださいね？」
+
+@chara_clear		#保険
+
+＠Ｓｅｉｊｉ,D00319
+「おほっ。じゃあ家やったらええんか―――ぐはッ！」
+
+window_close
+#SE38　殴る音（バキッ！）
+#@SE38			#殴る音（バキッ！）
+#@SE27			#SE27　倒れる音（ドサッ）
+screen_vibration	500,16,16,16
+se			0,	"sound\se\落ちた衝撃音～ゴトンッ.WAV",	play_wait
+wait		1000
+@suzumi_large		# 近い
+@suzumi_shifuku
+@suzumi_comical_ikari	#コミカル怒
+wait		100
+#///////////////////////////////////////////////////////
+#演：怒り：上下版
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_add	l_suzumi,0,	150,	0,16
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_add	l_suzumi,0,	150,	0,16
+layer_movepass_add	l_suzumi,0,	150,	0,0
+layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_suzumi,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｓｕｚｕｍｉ,L00357
+「２０数えるまでそこで伸びてなさいッ、バカッ！」
+
+@suzumi_
+
+＠Ｉｔｓｕｋｉ
+「今日だけで二回目か……」
+
+本当に２０秒で起き上がれるかは疑問だが……
+
+bgm_stop
+@bg_black
+wait		1000
+#■BG（青空）
+@bg_sky			# 空
+
+それからは久しぶりに忙しさから解放されて、涼海ちゃんやるあちゃん達と過ごしたのだった。
+
+頭の片隅に、一つの結論を抱かせたまま……
+
+#■BG（黒）
+@bg_black
+
+………
+
+……………
+
+…………………
+
+@bg_sky_n		# 夜空
+#■BG（自室・夜）
+#@bg_itsuki_n		# 自室(夜)
+#@bg_itsuki_nn		# 自室(消灯)
+
+その夜。
+
+やはりオレは寝付けずに、色々な事を考えていた。
+
+@bg_itsuki_nn		# 自室(消灯)
+@SE70			#SE70　衣擦れ音（シュルシュル）
+
+＠Ｍｉｕ,B03054
+「樹さん……？」
+
+＠Ｉｔｓｕｋｉ
+「ん…？　美雨も起きていたのか」
+
+＠Ｍｉｕ,B03055
+「はい。昼間のことで色々と……」
+
+＠Ｍｉｕ,B03056
+「すみませんが、車椅子に移動させてもらってもよろしいでしょうか」
+
+＠Ｉｔｓｕｋｉ
+「……ああ。ちょっと待って」
+
+@bg_black		# 黒
+@SE70			#SE70　衣擦れ音（シュルシュル）
+
+ひかりを起こさないように、そっと美雨の身体を車椅子へと乗せた。
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+@bg_itsuki_nn		# 自室(消灯)
+
+＠Ｉｔｓｕｋｉ
+「どうしたの、喉でも渇いたのか？」
+
+#@miu_kuruma_shinken	# 真剣（車いす専用）
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03057
+「いえ、樹さんに少しお話がありまして……」
+
+＠Ｍｉｕ,B03058
+「お互い考える事があって寝付けないみたいですし、下におりませんか？」
+
+＠Ｉｔｓｕｋｉ
+「そうだな……。ずっとここに居ても寝られそうにもないし」
+
+@bg_black
+#SE06　部屋のドア開く音（ガチャ）
+@SE06			#部屋のドア開く音（ガチャ）
+wait		100
+@SE07			#部屋のドア閉まる音（パタン）
+#■BG（廊下・夜）
+#@bg_rouka_n		# 廊下(夜)
+@bg_rouka_nn		# 廊下(消灯)
+
+＠Ｉｔｓｕｋｉ
+「食堂でいいか？」
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03059
+「そうですね。何か飲みながらお話しましょう」
+
+#素材なし：ＢＧ：食堂・消灯
+#■BG（食堂・消灯）
+#WAIT
+#wait		2000
+#SE68　電気のスイッチ（パチッ）
+#@SE68			# 電気のスイッチ
+#■BG（食堂・点灯）
+@bg_black
+wait		1000
+@bg_dining_n		# 食堂(夜)
+@bgmk04			#BGM K04 : 寝る前のテーマ
+
+食堂に入るとオレは一度美雨を待たせて、キッチンで飲み物を用意してから戻ってきた。
+
+＠Ｉｔｓｕｋｉ
+「お待たせ。レモンティーとミルクティー、どっちがいい？」
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03060
+「ありがとうございます。ではミルクで」
+
+＠Ｉｔｓｕｋｉ
+「はい、熱いから気をつけてな」
+
+#SE35　ティーカップを置く音（カチャ）
+@SE35			#ティーカップを置く音（カチャ）
+
+美雨の所望したカップを前においた。
+
+@bg_white		# 白
+
+＠Ｍｉｕ,B03061
+「ふぅ、ふぅ……ん…コクっ……」
+
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+@bg_dining_n		# 食堂(夜)
+
+＠Ｍｉｕ,B03062
+「はぁ…温かくて美味しいです……」
+
+＠Ｉｔｓｕｋｉ
+「はは、ありがとう……と言ってもインスタントなんだけどね」
+
+オレも一口、自分の分をすすってから一息ついた。
+
+@miu_kuruma		# 普（車いす専用）
+
+＠Ｍｉｕ,B03063
+「………」
+
+＠Ｉｔｓｕｋｉ
+「…………」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03064
+「……樹さん、やっぱり怒られてますか？」
+
+＠Ｉｔｓｕｋｉ
+「え、オレが……？　どうして」
+
+＠Ｍｉｕ,B03065
+「昼間のこと、こんなギリギリになるまで私が話さなかったからです」
+
+……そういえば美雨はあの時、予想できていたって言ったな。
+
+＠Ｉｔｓｕｋｉ
+「そんなことで責めたりしないよ。もちろん驚いたけど」
+
+＠Ｉｔｓｕｋｉ
+「でもどうして、あらかじめ言っておいてくれなかったの……？」
+
+＠Ｍｉｕ,B03066
+「とても相談できることではありませんでしたから……」
+
+＠Ｍｉｕ,B03067
+「私は樹さんを信頼して、頼りにもしていますけど。こればかりはもう……」
+
+＠Ｍｉｕ,B03068
+「……しんみりとしてしまうくらいなら、今までの生活を少しでも続けていたかったんです」
+
+それでも、オレは相談して欲しかった。
+
+だが、美雨も美雨の気遣いがあって黙っていたんだろう。それは分かってあげたい。
+
+bgm_stop
+
+＠Ｉｔｓｕｋｉ
+「それで、オレに話って言うのは？」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03069
+「それは……」
+
+言い辛そうに一度、言葉を飲み込む美雨。
+
+＠Ｍｉｕ,B03070
+「……ひーちゃんのことです」
+
+＠Ｉｔｓｕｋｉ
+「ああ……ひかりを、どう育てるかって事だな」
+
+@bgmk02			#BGM K02 : しんみりのテーマ
+
+オレも釣られて緊張したが、その話題は大方想定の範囲だった。
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03071
+「いえ、それもありますけど………あの子の出生の話です」
+
+＠Ｉｔｓｕｋｉ
+「……え？」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03072
+「ひーちゃんの両親に、樹さんは何度かお会いしたことがあると仰いましたね」
+
+＠Ｉｔｓｕｋｉ
+「町中でね。でもそれが一体……？」
+
+＠Ｍｉｕ,B03073
+「あの方々は、ひーちゃんの本当の親ではありません」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03074
+「ひーちゃんは一度捨てられて、あの夫妻に養子に出された子なんです」
+
+＠Ｉｔｓｕｋｉ
+「あの両親に、養子……！？」
+
+＠Ｉｔｓｕｋｉ
+「いや、しかし……」
+
+今にして思えば、あの二人のひかりへの態度は、少し不自然な感じもあった。
+
+大事に思われていたようだが、余所余所しい気遣いも感じられたから。
+
+＠Ｉｔｓｕｋｉ
+「だからひかりを捨てたのか、本当の親子じゃなかったからッ」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03075
+「ええ。お金の問題か、単に気疲れなのかは分かりませんが」
+
+＠Ｍｉｕ,B03076
+「いずれにしても、ひーちゃんへの情より子育ての心痛が大きかったんでしょう」
+
+＠Ｉｔｓｕｋｉ
+「だから捨てるなんて、酷い話だ……」
+
+＠Ｉｔｓｕｋｉ
+「でもどうして、そんな話を今？」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03077
+「私が捕まってしまったら、もう、打ち明ける機会は来ないかもしれませんから」
+
+＠Ｍｉｕ,B03078
+「ひーちゃんの本当の出生について」
+
+＠Ｉｔｓｕｋｉ
+「本当の……？　まさか、美雨はひかりの本当の親を知っているのか！」
+
+＠Ｍｉｕ,B03079
+「知っています……」
+
+＠Ｍｉｕ,B03080
+「自分の都合であの子を出産して捨てた、最低の親のこと……」
+
+＠Ｍｉｕ,B03081
+「一度は捨てたくせに、今、のうのうと親のフリをして一緒に過ごしている人のこと……」
+
+bgm_stop
+
+＠Ｉｔｓｕｋｉ
+「え……」
+
+＠Ｉｔｓｕｋｉ
+「親のフリをして、今一緒に……？」
+
+真相に興奮して乗り出した身が、一瞬で固まる。
+
+だって言うまでも無く、いま親の代わりをしてるのは、オレと……
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03082
+「親子ごっこなんかじゃなく、あの子を産んだのは私なんです……」
+
+＠Ｉｔｓｕｋｉ
+「美雨がッ……まさか、そんなッ！」
+
+@bgmk07			#BGM K07 : 深刻なテーマ
+
+それ以外には無かったが、やはり口にされると衝撃でしかない。
+
+＠Ｉｔｓｕｋｉ
+「だって産んだって……いつッ！？」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03083
+「夜行に引き取られる前……」
+
+＠Ｍｉｕ,B03084
+「契約破棄で怒りを買って、最初に身売りされた人のところに居た時です」
+
+＠Ｍｉｕ,B03085
+「まだ私が、大罪を犯していない頃でした……」
+
+＠Ｉｔｓｕｋｉ
+「じゃあ……ひかりはその男との……」
+
+@miu_kuruma_ikari	# 怒（車いす専用）
+
+＠Ｍｉｕ,B03086
+「いいえッ。それは違います……！」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03087
+「あの男は普通じゃない性癖があって………。自分が出すより、女性を弄ぶことを楽しんでいたんです」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03088
+「無理やりされ始めた時期もありましたけど、その頃にはもう生理はなくなっていました」
+
+＠Ｉｔｓｕｋｉ
+「ま、待ってくれ、それまで美雨はずっと本番をしたことが―――」
+
+＠Ｉｔｓｕｋｉ
+「え……」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03089
+「………」
+
+そう。一つだけ可能性があった。
+
+いや、話が全て真実だとするなら、これしか考えられない。
+
+＠Ｉｔｓｕｋｉ
+「まさか………美雨…」
+
+＠Ｍｉｕ,B03090
+「はい…。樹さんに初めてを貰っていただいたあの夜……」
+
+＠Ｍｉｕ,B03091
+「私はお腹の中に、ひーちゃんを身ごもったんです」
+
+#--------------------------------------------------
+#■EVCG（美雨の処女喪失・回想ver）
+window_close
+screen_whiteout		1000
+wait			1000
+@chara_clear		#保険
+@bg_white		# 白
+#@kaisou		#演：回想フィルタ
+screen_whitein 		1000
+event		"event\EV_MIU_020-01.png"
+wait			1000
+#--------------------------------------------------
+
+＠Ｉｔｓｕｋｉ
+「あの時のッ……！」
+
+記憶がフラッシュバックする。
+
+あの時オレも夢中で、美雨の中へ精を放ったのを覚えている。
+
+＠Ｍｉｕ,B03092
+「樹さんの熱い精子が、お腹の奥に入ってきてました……」
+
+#--------------------------------------------------
+#EF　回想終了
+window_close
+screen_whiteout		1000
+wait			1000
+@chara_clear		#保険
+@bg_white		# 白
+@kaisou_off		#演：回想フィルタ終了
+screen_whitein 		1000
+#■BG（食堂・夜）
+@miu_middle_kuruma
+@miu_kurumaisu		#メイド服・車イス
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+@bg_dining_n		# 食堂(夜)
+wait			1000
+#--------------------------------------------------
+
+＠Ｉｔｓｕｋｉ
+「美雨はじゃあ、そんな辛い時期でもひかりを産んで……」
+
+＠Ｍｉｕ,B03093
+「はい。あの男も自分の子供だと勘違いして、産まそうとしてきましたから」
+
+＠Ｍｉｕ,B03094
+「でも自分の子では無かったと知った時……男は腹いせに私へさらに酷い事を……」
+
+＠Ｉｔｓｕｋｉ
+「だから、ひかりをあの夫妻に養子に出したのか」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03095
+「私が出したんですッ……」
+
+＠Ｍｉｕ,B03096
+「こんな私の手元に置いていたら、いずれひーちゃんも同じ目に遭ってしまうからッ……」
+
+美雨の声がその時の悲愴感で震える。
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03097
+「本当は手放したくなんてなかったッ……。樹さんとの子供を……」
+
+＠Ｉｔｓｕｋｉ
+「ひかりが、本当のオレと美雨の娘……」
+
+確かに美雨のひかりに対する愛情は、少し過剰に見えるくらい大きかった。
+
+日常生活然り。夜行にさらわれたとき、そして夜行と対面したときも、常にひかりを必死に庇っていたのは我が子の為だったのか。
+
+＠Ｉｔｓｕｋｉ
+「オレは……美雨の初めてを奪っただけじゃなく、そんなことまで」
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03098
+「私は感謝しているんですよ、樹さん」
+
+＠Ｍｉｕ,B03099
+「ひーちゃんと樹さんの存在が、あの絶望的な生活を耐え抜く心の支えになっていたんですから」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03100
+「だからあの日、樹さんがひーちゃんを運んでこられた時は、本当にビックリしました」
+
+＠Ｉｔｓｕｋｉ
+「オレもだ。まさか自分の娘だなんて、想像もしなかった」
+
+＠Ｉｔｓｕｋｉ
+「本当にすまない！　まさかオレの知らないところで、美雨がそんな苦労をしていたなんてッ…！」
+
+無論、美雨への罪がそんな言葉だけで許されるとは思っていない。
+
+だが、美雨はオレに怒りとは正反対の微笑みを向けてくれた。
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03101
+「樹さん。私はこの一年間、お二人のおかげで幸せでした」
+
+＠Ｍｉｕ,B03102
+「だからどうかそのことで頭を下げないでください」
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03103
+「……ただ、一つだけ、お願いがあるんです」
+
+＠Ｉｔｓｕｋｉ
+「ああ何だ、何でも言ってくれ」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03104
+「最初に樹さんも心配してくださった、ひーちゃんのことです」
+
+＠Ｍｉｕ,B03105
+「私が居なくなった後も、どうかあの子に親の愛情を注いであげてもらえないでしょうか」
+
+＠Ｍｉｕ,B03106
+「それが今何よりも、ひーちゃんには必要なものだと思うんです」
+
+＠Ｉｔｓｕｋｉ
+「オレが……親の愛情を……？」
+
+出来るのだろうか……そんなことが……
+
+オレ自身が親の愛情とは何なのか、受けた事がないので理解できない。
+
+@miu_kuruma_yorokobi	# 喜（車いす専用）
+
+＠Ｍｉｕ,B03107
+「樹さんならきっと大丈夫です」
+
+＠Ｉｔｓｕｋｉ
+「でも美雨、まさかそのお願いをするために、ひかりの話を……？」
+
+今までの衝撃的な告白に次いで、美雨の話は改めてソコへ帰結した。
+
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03108
+「本当のところ……言おうか言うまいか、ずっと迷っていました」
+
+＠Ｍｉｕ,B03109
+「樹さんの知らないところで娘がいたなんて、もしかすると迷惑かもしれないと思って……」
+
+＠Ｍｉｕ,B03110
+「でもそれは、私に言う勇気がないのを他の責任に転化していただけなんですね」
+
+＠Ｉｔｓｕｋｉ
+「美雨……」
+
+@miu_kuruma_shinken	# 真剣（車いす専用）
+
+＠Ｍｉｕ,B03111
+「あの子のこと、よろしくお願いします」
+
+＠Ｉｔｓｕｋｉ
+「まさか、美雨……」
+
+もうひかりの元へ、戻ってこないつもりなのか……
+
+#@miu_kuruma_yorokobi	# 喜（車いす専用）
+@miu_kuruma_kanashimi	# 哀（車いす専用）
+
+＠Ｍｉｕ,B03112
+「大好きな樹さんとひーちゃんに、幸せになってほしいですから……」
+
+＠Ｍｉｕ,B03113
+「その為には、私みたいな殺人犯が一緒に居てはいけないんです」
+
+＠Ｉｔｓｕｋｉ
+「……美雨」
+
+やっぱり……そうか。
+
+オレは、美雨の頼みなら何でも聞いてあげたい。
+
+たとえ不可能なものでも、美雨が望むなら粉骨砕身の思いで努力するつもりだよ……
+
+でも……それだけは、約束できない。
+
+＠Ｍｉｕ,B03114
+「樹さん……」
+
+＠Ｉｔｓｕｋｉ
+「分かってる……分かってるよ……」
+
+@bg_white		# 白
+
+涙声の美雨をソッと抱きしめる。
+
+美雨は大人しくこちらへ体重を預けてくる。
+
+＠Ｍｉｕ,B03115
+「ひーちゃんのこと、よろしくお願いしますっ……」
+
+＠Ｍｉｕ,B03116
+「…だって…私はもう、一度あの子を捨てて……今さらそんな資格のない母親なんです」
+
+＠Ｉｔｓｕｋｉ
+「……美雨、オレに任せて……何とかしてみせるよ……」
+
+#■BG（夜空）
+@bg_sky_n		# 夜空
+
+愛して止まないのに、望み叶わぬ失意と悲愴に搾り出される美雨の涙声。
+
+約束は出来ないが、オレは何度も美雨を慰めた。
+
+自分の中の決心がさらに色濃くなりながら、夜は更けていった……。
+
+bgm_stop
+@bg_black
+wait		1000
+
+#（『hika41』へ）
+#return
+goto		hika41
+

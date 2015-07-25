@@ -1,0 +1,570 @@
+label	hikari_12
+bgm_stop
+@bg_black
+
+#--------------------------------------------------
+#ひかりルート９（親密イベント６）
+#発生条件：『ひかりとの新生活イベント』が終了
+#発生時期：上記イベント～１月５日（未定）の平日
+#--------------------------------------------------
+
+#■BG（食堂・夕方）
+#@bg_dining_n		# 食堂(夜)
+#@bg_dining		# 食堂
+@bg_kitchen		# キッチン
+
+＠Ｉｔｓｕｋｉ
+「あれ……」
+
+@bgm12			#BGM 12 : メインテーマ
+
+キッチンで見慣れない光景があった。
+
+@miu_small
+@miu_maid
+@miu2			#開_にこ
+#@bg_kitchen		# キッチン
+
+＠Ｍｉｕ,B01722
+「樹さん、どうかしましたか？」
+
+@hikari_small
+@hikari_shifuku
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：おどろき
+layer_movepass_add	l_hikari,0,	200,	0,32
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00384
+「あッ、お父しゃんだーッ♪」
+
+＠Ｉｔｓｕｋｉ
+「いや、何してるのかなって……」
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01723
+「みんなの夕食の準備中です」
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00385
+「ひーちゃんはそのお手伝いなのー♪」
+
+＠Ｉｔｓｕｋｉ
+「手伝い……。ひかりが？」
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01724
+「ええ。どうしても何か手伝わせてほしい、と言ってくれたので」
+
+＠Ｉｔｓｕｋｉ
+「……美雨、ちょっと日本語が変だ」
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01725
+「あは……本当はちょっと嬉しかったんです」
+
+@hikari_yorokobi	#喜.png
+
+＠Ｈｉｋａｒｉ,N00386
+「お母しゃん毎日大変だから、ひーちゃんもご飯ちゅくるのお手伝いするの」
+
+＠Ｉｔｓｕｋｉ
+「うん。立派だひかり。ブラブラしてるオレなんかよりずっと」
+
+＠Ｉｔｓｕｋｉ
+「っていうか……オレが手伝うって言っても遠慮するし、美雨は」
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01726
+「え、だってそれは………これは私のお仕事ですから、樹さんに手伝いをさせてしまうわけには」
+
+＠Ｉｔｓｕｋｉ
+「なるほど……ひかりは良くてオレはダメなのか。ショックだ」
+
+@miu_komaru		#開_困
+
+＠Ｍｉｕ,B01727
+「あ、いえっ、えっと……そういうわけでは……」
+
+#@hikari_ikari		#怒.png
+@hikari_ikari2		#怒（口開け）
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00387
+「あーッ、お父しゃん、お母しゃんを困らせたらメェッなの！」
+
+落ち込むオレに美雨が慌てると、すかさずひかりから叱責が飛んできた。
+
+@hikari_ikari		#怒
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00388
+「そんなこと言うお父しゃんは、ひーちゃんから夕食抜きなのー」
+
+＠Ｉｔｓｕｋｉ
+「はは、それは困るな。今のは軽い冗談だよ」
+
+＠Ｍｉｕ,B01728
+「すみません、樹さん……厚意はいつも嬉しいんですけど」
+
+＠Ｍｉｕ,B01729
+「ただ、ひーちゃんは何て言うか……またそれとは違った嬉しさがあって……」
+
+＠Ｉｔｓｕｋｉ
+「いいよいいよ、それに怒るなんて筋違いだろう。美雨には感謝してる」
+
+＠Ｉｔｓｕｋｉ
+「だから、ひかりにオレの夕食を抜きにされる前に、笑顔に戻ってほしいな」
+
+@miu_mu			#開_普通（無表情）
+
+＠Ｍｉｕ,B01730
+「え…？」
+
+＠Ｈｉｋａｒｉ,N00389
+「うーっ……」
+
+美雨をいじめていると思って、ひかりが怒ったようにオレを見ていた。
+
+それを見て、美雨はすぐ微笑ましそうに笑顔を作る。
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01731
+「あら……ふふ、本当。味方してくれてありがとう、ひーちゃん」
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01732
+「でも、今のは冗談だったから大丈夫なのよ。心配させちゃってごめんね」
+
+@hikari			#普.png
+
+＠Ｈｉｋａｒｉ,N00390
+「……本当？　お父しゃん、お母しゃんのことしゅき？」
+
+＠Ｉｔｓｕｋｉ
+「あぁ、もちろん好きだよ」
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01733
+「えっ…」
+
+@hikari_yorokobi	#喜.png
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00391
+「あははっ、良かったー♪　お母しゃんもお父しゃんのこと大しゅきだよね？」
+
+@miu_tere		#開_照
+
+＠Ｍｉｕ,B01734
+「え、えっと………ええ、もちろん好きよ、大好き」
+
+＠Ｉｔｓｕｋｉ
+「………」
+
+@miu_tere2		#閉_照
+
+＠Ｍｉｕ,B01735
+「…………」
+
+……あんまり意識されたら、わざとアッサリ答えたオレまで恥ずかしいんだが。
+
+しかも大好きって……。
+
+演技だと分かってても嬉しすぎる。
+
+@hikari_warai		#笑.png
+
+＠Ｈｉｋａｒｉ,N00392
+「えへへ～♪　ひーちゃんもお父しゃんとお母しゃんが大しゅき！　みんなおそろいなの！」
+
+＠Ｉｔｓｕｋｉ
+「そうだな………で、何の話だっけか」
+
+@miu_mu			#開_普通（無表情）
+
+＠Ｍｉｕ,B01736
+「えっ？　あ……何でしたっけ……」
+
+@hikari_yorokobi	#喜.png
+
+＠Ｈｉｋａｒｉ,N00393
+「ひーちゃんがお手伝いすゆ話なのっ！」
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01737
+「あっ…そ、そうだったわね、ごめんなさい」
+
+緊張したせいで素で忘れ、ひかりにツッコまれてしまった。
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01738
+「じゃあひーちゃん、一緒に晩御飯の用意をしましょうか」
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_hikari,0,	300,	0,32
+layer_movepass_add	l_hikari,0,	300,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00394
+「はーい♪」
+
+＠Ｉｔｓｕｋｉ
+「……で、結局オレは居ない方がいいんだろうか？」
+
+#@hikari_ikari		#怒.png
+@hikari_ikari2		#怒（口開け）
+#///////////////////////////////////////////////////////
+#演：だだこね
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	-16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_add	l_hikari,0,	150,	16,0
+layer_movepass_add	l_hikari,0,	150,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00395
+「やーっ、お父しゃんも一緒にお手伝いしゅるのー！」
+
+@miu2			#開_にこ
+@hikari_ikari		#怒
+
+＠Ｍｉｕ,B01739
+「では、申し訳ありませんが樹さんも……。構いませんか？」
+
+＠Ｉｔｓｕｋｉ
+「いいよ。足手まといにならない程度に頑張る」
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00396
+「わーいッ、三人でお料理ー♪」
+
+bgm_stop
+@bg_black
+
+こうして、はしゃぐひかりのヤル気に促され、そのまま三人で夕食作りが始まった。
+
+@miu_middle		# 中間
+@miu_maid
+@miu			#閉_にこ
+@bg_kitchen		# キッチン
+@bgmk12			#BGM K12 : 興味津々のテーマ
+
+＠Ｍｉｕ,B01740
+「ひーちゃんはそのボールに、卵を５つ割ってもらえる？」
+
+＠Ｈｉｋａｒｉ,N00397
+「うん！　たまごって冷じょう庫だよね。取ってくゆー」
+
+@SE21			#SE21　廊下を走り去る音　※徐々に小さく
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01741
+「樹さんはそこのザルに入っている野菜を、一口大に切っていってもらえますか？」
+
+se_stop		0
+@miu_
+
+＠Ｉｔｓｕｋｉ
+「了解。この野菜だな」
+
+window_close
+@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+
+＠Ｈｉｋａｒｉ,N00398
+「～～♪」
+
+オレの隣を、卵を抱えたひかりが通り過ぎた。
+
+ボールを椅子に置き、卵を両手で持って割る構えだ。
+
+＠Ｈｉｋａｒｉ,N00399
+「行くのーっ♪」
+
+＠Ｉｔｓｕｋｉ
+「……両手？」
+
+＠Ｈｉｋａｒｉ,N00400
+「えいッ！」
+
+#EF　白フラッシュ
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+
+グシャアッ！！
+
+＠Ｈｉｋａｒｉ,N00401
+「きゃあッ！？」
+
+卵はひかりの両手の中で、グシャグシャに握り潰された。
+
+＠Ｉｔｓｕｋｉ
+「……そりゃそうだ」
+
+#window_close
+#@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
+@miu_small
+@miu_maid
+#@miu2			#開_にこ
+@miu_komaru		#開_困
+
+＠Ｍｉｕ,B01742
+「大丈夫っ？　ひーちゃん！？」
+
+＠Ｈｉｋａｒｉ,N00402
+「うぅー……ベチョベチョになったのぉ～」
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01743
+「こっち向いて、拭いてあげるから」
+
+window_close
+@miu_
+wait		1000
+@SE70			#SE70　衣擦れ音（シュルシュル）
+
+すぐにキッチンタオルで、ひかりの手や袖を拭く美雨。
+
+＠Ｉｔｓｕｋｉ
+「両手で持ったらそうなるぞ、ひかり」
+
+@hikari_small
+@hikari_shifuku
+@hikari_komaru		#困.png
+
+＠Ｈｉｋａｒｉ,N00403
+「んぅ……ひーちゃん、慎重にしようと思って両手で持ってたの……」
+
+@miu_small
+@miu_maid
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01744
+「そう……。でも卵を割るときは、慎重でも両手はダメなのよ」
+
+@hikari_kanashimi	#哀.png
+
+＠Ｈｉｋａｒｉ,N00404
+「ごめんなしゃい……」
+
+＠Ｉｔｓｕｋｉ
+「はは、どんまいどんまい。その分オレが頑張ってやるから」
+
+@bg_black
+
+まな板に置いた人参に、包丁の刃をグッと押し込んだ。
+
+#EF　白フラッシュ
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
+
+ベキッ！　ゴトンッ……！
+
+@hikari_small
+@hikari_shifuku
+@miu_small
+@miu_maid
+
+@hikari_odoroki		#驚.png
+@miu_mu			#開_普通（無表情）
+@bg_kitchen		# キッチン
+
+＠Ｉｔｓｕｋｉ
+「………」
+
+＠Ｍｉｕ,B01745
+「…………」
+
+@hikari_warai		#笑.png
+#///////////////////////////////////////////////////////
+#演：感激：上下版
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_add	l_hikari,0,	200,	0,16
+layer_movepass_add	l_hikari,0,	200,	0,0
+layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_hikari,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｈｉｋａｒｉ,N00405
+「わ～……人参が飛んでったの。お父しゃんしゅごいー！」
+
+ぶつ切れた勢いで吹っ飛んだ人参は、流しの中へ錐揉みしながら滑り込んだ。
+
+＠Ｍｉｕ,B01746
+「………えっと」
+
+@miu			#閉_にこ
+
+＠Ｍｉｕ,B01747
+「あ、でもすごいですよっ、力が無いとこうはなりませんからっ」
+
+＠Ｉｔｓｕｋｉ
+「はは、ありがとう……いいフォローを」
+
+@bg_black
+
+ひかりと同レベルの足手まといだった。
+
+@bg_kitchen		# キッチン
+
+＠Ｉｔｓｕｋｉ
+「いや待て。昔は自炊してたんだから、すぐ感覚が戻るさ」
+
+@miu_middle		# 中間
+@miu_maid
+#@miu2			#開_にこ
+@miu_komaru		#開_困
+
+＠Ｍｉｕ,B01748
+「あっ、樹さんっ……！」
+
+再度包丁を構えるオレを、寸前で美雨が呼び止める。
+
+#@miu			#閉_にこ
+#@miu_komaru		#開_困
+@miu_kanashimi2		#閉_哀
+
+＠Ｍｉｕ,B01749
+「……出来れば、その……皮を剥いてから切っていただけると……」
+
+＠Ｉｔｓｕｋｉ
+「…………」
+
+@bg_black
+
+めっちゃくちゃ素人レベルだった。
+
+@miu_middle		# 中間
+@miu_maid
+@miu2			#開_にこ
+@bg_kitchen		# キッチン
+
+＠Ｍｉｕ,B01750
+「あの、どうぞ。ピーラーです」
+
+＠Ｉｔｓｕｋｉ
+「信じてくれ、美雨。昔はりんごの皮も細長く切っていけてたんだ」
+
+@miu			#閉_にこ
+#///////////////////////////////////////////////////////
+#演：うなずき
+layer_movepass_add	l_miu,0,	1100,	0,0
+layer_movepass_add	l_miu,0,	300,	0,16
+layer_movepass_add	l_miu,0,	300,	0,0
+layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_miu,0,play_once
+#///////////////////////////////////////////////////////
+
+＠Ｍｉｕ,B01751
+「ええ、大丈夫です樹さん。私はいつも樹さんを信じてますから」
+
+真剣に訴えるオレに、聖母のような微笑みを向けて頷いてくれる美雨。
+
+……何か、よけい虚しい気がするのはなぜだろう。
+
+@miu2			#開_にこ
+
+＠Ｍｉｕ,B01752
+「それと、包丁を使うときはクマさんの手の方が安全ですから」
+
+＠Ｉｔｓｕｋｉ
+「はい……」
+
+＠Ｈｉｋａｒｉ,N00406
+「あははっ♪　お母しゃん、卵５つ割れたのー！」
+
+ひかりが両手をベトベトにしながら、文字通り〝割っただけ〟の卵を嬉しそうに持っていた。
+
+bgm_stop
+@bg_black
+wait		1000
+#■BG（夜空）
+#@bg_sky_n		# 夜空
+@bg_gate_n		# 孤児院前(夜)
+
+この日の夕食は、いつもの倍近く遅れてブーイングの嵐だった。
+
+それでもひかり、そしてオレも美雨も、終始楽しく料理できたので、これはこれで良かったのだと思う。
+
+@bg_black
+wait		1000
+
+#（スケジュール）
+return
+

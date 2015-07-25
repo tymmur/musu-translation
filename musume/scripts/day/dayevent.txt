@@ -1,0 +1,695 @@
+label	dayevent
+
+#_WEEKの内容
+#0 = 日曜
+#6 = 土曜
+
+@chara_init
+dayevent_flag=1
+
+if _MONTH=1 and _DAY=20 then goto suika_01	#0120 すいか1
+if _MONTH=1 and _DAY=21 then goto mikan_00	#0121 みかん処女喪失翌日
+if _MONTH=1 and _DAY=27 then goto miu_01	#0127 美雨1
+if _MONTH=1 and _DAY=28 then goto seiji_01	#0128 誠司1
+
+#2月
+
+if _MONTH=2 and _DAY=03 and zakuro_event=0 then goto zakuro_01	#0121 ざくろ1
+if _MONTH=2 and _DAY=04 then goto karin_e01	#0204 かりん1
+if _MONTH=2 and _DAY=10 then goto karin_e02	#0210 かりん2
+if _MONTH=2 and _DAY=11 then goto seiji_02	#0211 誠司2
+if _MONTH=2 and _DAY=17 and suika_event=1 then goto suika_02	#0217 すいか2
+if _MONTH=2 and _DAY=18 then goto seiji_03	#0218 誠司3
+if _MONTH=2 and _DAY=24 then goto erocute_01	#0224 エロキュート1
+if _MONTH=2 and _DAY=25 then goto ichigo_e01	#0225 いちご1
+#if _MONTH=2 and _DAY=28 then goto hensai	#0228 返済日
+
+#3月
+
+if _MONTH=3 and _DAY=02 then goto shizuku_01		#0302 雫1 (体験版終了)	平日
+if _MONTH=3 and _DAY=03 then goto shizuku_02		#0303 雫2
+if _MONTH=3 and _DAY=04 and suika_event=2 then goto suika_03	#0304 すいか3
+if _MONTH=3 and _DAY=10 then goto seiji_04		#0310 誠司4
+if _MONTH=3 and _DAY=11 and zakuro_event=1 then goto zakuro_02	#0311 ざくろ2
+if _MONTH=3 and _DAY=17 and hikari_on=1 then goto hikari_e01	#0317 ひかりE1
+if _MONTH=3 and _DAY=25 then goto shizuku_03		#0325 雫03
+if _MONTH=3 and _DAY=31 then goto shuugyou_01		#0331 終業式
+#if _MONTH=3 and _DAY=31 then goto hensai		#0331 返済日
+
+#4月
+
+if _MONTH=4 and _DAY=9  then goto shigyou_01		#0409 始業式	平日
+if _MONTH=4 and _DAY=14 and yuzu_event=0 then goto yuzu_01	#0414 ゆず1
+if _MONTH=4 and _DAY=15 and yuzu_event=1 then goto yuzu_02	#0415 ゆず2
+if _MONTH=4 and _DAY=21 and hikari_on=1 then goto hikari_e02	#0421 ひかりE2
+if _MONTH=4 and _DAY=22 and zakuro_event=2 then goto zakuro_03	#0422 ざくろ3
+if _MONTH=4 and _DAY=28 then goto seiji_05		#0428 誠司5
+if _MONTH=4 and _DAY=29 then goto miu_02		#0429 美雨2
+
+#5月
+
+if _MONTH=5 and _DAY=3  then goto goldenweek_01	#0503 ゴールデンウィーク1　平日
+if _MONTH=5 and _DAY=5  then goto goldenweek_02	#0505 ゴールデンウィーク2
+if _MONTH=5 and _DAY=12 and yuzu_event=2 then goto yuzu_03	#0512 ゆず3
+if _MONTH=5 and _DAY=13 then goto hahanohi			#0513 母の日
+if _MONTH=5 and _DAY=19 and suika_event=3 then goto suika_04	#0519 すいか4
+if _MONTH=5 and _DAY=20 then goto miu_03			#0520 美雨3
+if _MONTH=5 and _DAY=26 and hikari_on=1 then goto hikari_e03	#0526 ひかりE3
+if _MONTH=5 and _DAY=27 and zakuro_event=3 then goto zakuro_04	#0527 ざくろ4
+
+#6月
+
+if _MONTH=6 and _DAY=03 and mikan_miryoku>check_oosama and karin_miryoku>check_oosama and ichigo_miryoku>check_oosama then goto oosama			#0603 王様ゲー
+if _MONTH=6 and _DAY=09 then goto seiji_06			#0609 誠司6
+#if _MONTH=6 and _DAY=10 then goto miu_birth			#0610 美雨誕生
+if _MONTH=6 and _DAY=10 and mikan_miryoku>check_nomi and karin_miryoku>check_nomi and ichigo_miryoku>check_nomi then goto nomi			#0610 飲み
+if _MONTH=6 and _DAY=16 and yuzu_event=3 then goto yuzu_04	#0616 ゆず4(アイテム)
+if _MONTH=6 and _DAY=17 and mikan_miryoku>check_chichinohi and karin_miryoku>check_chichinohi and ichigo_miryoku>check_chichinohi  then goto chichinohi			#0617 父の日
+if _MONTH=6 and _DAY=23 and hikari_on=1 then goto hikari_e04	#0623 ひかりE4
+if _MONTH=6 and _DAY=24 and zakuro_event=4 then goto zakuro_05	#0624 ざくろ5
+
+#7月
+
+#if _MONTH=7 and _DAY=1 then goto miu_04			#0701 美雨4
+if _MONTH=7 and _DAY=7 then goto tanabata			#0707 七夕
+if _MONTH=7 and _DAY=8 and yuzu_event=4 then goto yuzu_05	#0708 ゆず5
+if _MONTH=7 and _DAY=14 and hikari_on=1 then goto hikari_e05	#0714 ひかりE5
+if _MONTH=7 and _DAY=15 and zakuro_event=5 then goto zakuro_06	#0715 ざくろ6/7
+if _MONTH=7 and _DAY=21 then goto shuugyou_02			#0721 終業式
+if _MONTH=7 and _DAY=22 then goto radio				#0722 ラジオ体
+if _MONTH=7 and _DAY=28 then goto toukoubi_01			#0728 登校日1
+if _MONTH=7 and _DAY=29 and yuzu_event=5 then goto yuzu_06	#0729 ゆず6
+
+#8月
+
+if _MONTH=8 and _DAY=4 and hikari_on=1 then goto hikari_e06	#0804 ひかりE6
+if _MONTH=8 and _DAY=5  and zakuro_event=7 then goto zakuro_08	#0805 ざくろ8
+if _MONTH=8 and _DAY=10 and suika_event=4 then goto toukoubi_02	#0811 登校日2
+if _MONTH=8 and _DAY=12 then goto pool			#0812 プール
+if _MONTH=8 and _DAY=18 and suika_event=4 then goto suika_bad	#0818 すいかbad
+if _MONTH=8 and _DAY=19 then goto natsumatsuri		#0819 夏祭り
+if _MONTH=8 and _DAY=25 then goto toukoubi_03		#0825 登校日3
+if _MONTH=8 and _DAY=26 and _ITEM(501)=1 and yuzu_event=6 then goto yuzu_07	#0826 ゆず7
+
+#デート(ルート決定)---------------------------------------------------------------------------------------------------
+if _MONTH=9 and _DAY=8 then goto date_check			#0916 デート約束
+if _MONTH=9 and _DAY=16 then goto date				#0916 デート
+
+#ひかりルート---------------------------------------------------------------------------------------------------------
+if _MONTH=9 and _DAY=21  and route_chara=4 then goto hikari_01		#ひかりルートへの序章１
+if _MONTH=9 and _DAY=22  and route_chara=4 then goto hikari_02		#ひかりルート１
+if _MONTH=9 and _DAY=23  and route_chara=4 then goto hikari_03		#ひかりとの新生活
+if _MONTH=9 and _DAY=29  and route_chara=4 then goto hikari_04		#週末のアレ
+if _MONTH=10 and _DAY=6  and route_chara=4 then goto hikari_05		#親密イベント１
+if _MONTH=10 and _DAY=7  and route_chara=4 then goto hikari_06		#親密イベント２
+if _MONTH=10 and _DAY=13  and route_chara=4 then goto hikari_07		#もう一波乱
+if _MONTH=10 and _DAY=14  and route_chara=4 then goto hikari_08		#親密イベント３
+if _MONTH=10 and _DAY=20  and route_chara=4 then goto hikari_09		#親密イベント４
+if _MONTH=10 and _DAY=21  and route_chara=4 then goto hikari_10		#かりんと仲直り？
+if _MONTH=10 and _DAY=27  and route_chara=4 then goto hikari_11		#親密イベント５
+if _MONTH=10 and _DAY=28  and route_chara=4 then goto hikari_12		#親密イベント６
+if _MONTH=11 and _DAY=3  and route_chara=4 then goto hikari_13		#親密イベント７
+if _MONTH=11 and _DAY=4  and route_chara=4 then goto hikari_14		#親密イベント８
+if _MONTH=11 and _DAY=10  and route_chara=4 then goto hikari_20		#ひかりの両親のこと
+if _MONTH=11 and _DAY=11  and route_chara=4 then goto hikari_21		#謎の調査書
+if _MONTH=11 and _DAY=17  and route_chara=4 then goto hikari_22		#みかんに聞き込み
+if _MONTH=11 and _DAY=18  and route_chara=4 then goto hikari_23		#かりんに聞き込み
+if _MONTH=11 and _DAY=24  and route_chara=4 then goto hikari_24		#すいかに聞き込み
+if _MONTH=11 and _DAY=25  and route_chara=4 then goto hikari_25		#ざくろの情報
+if _MONTH=12 and _DAY=1  and route_chara=4 then goto hikari_26		#ひかりと美雨と家族
+if _MONTH=12 and _DAY=2  and route_chara=4 then goto hikari_28		#夫婦の営み？
+if _MONTH=12 and _DAY=8  and route_chara=4 then goto hikari_27_1	#ひかりとサンタクロース
+if _MONTH=12 and _DAY=9  and route_chara=4 then goto hikari_29		#美雨への指令
+if _MONTH=12 and _DAY=15  and route_chara=4 then goto hikari_29a	#挙動不審な美雨
+if _MONTH=12 and _DAY=16  and route_chara=4 then goto hikari_30		#美雨と再び
+if _MONTH=12 and _DAY=22  and route_chara=4 then goto hikari_31		#本当は嬉しい美雨
+if _MONTH=12 and _DAY=23  and route_chara=4 then goto hikari_33		#刺客の催促
+if _MONTH=12 and _DAY=24  and route_chara=4 then goto hikari_27_3	#クリスマスイベント
+if _MONTH=12 and _DAY=29  and route_chara=4 then goto hikari_34		#ひかり誘拐(調教無し)
+if _MONTH=12 and _DAY=30  and route_chara=4 then goto hikari_35		#ひかりEND
+
+#みかんルート----------------------------------------------------------------------------------------------------------
+if _MONTH=9 and _DAY=22  and route_chara=1 then goto mikan_01	#みかんルートへの序章１
+if _MONTH=9 and _DAY=23  and route_chara=1 then goto mikan_02	#みかん2
+if _MONTH=9 and _DAY=29  and route_chara=1 then goto mikan_03	#雫の催促 ステータスを見るか？
+if _MONTH=9 and _DAY=30  and route_chara=1 then goto mikan_04	#接待時イベント 本当にステータスだけにするか
+if _MONTH=10 and _DAY=28 and route_chara=1 then goto mikan_05	#養子縁組イベント
+if _MONTH=11 and _DAY=3  and route_chara=1 then goto mikan_06	#号泣かりん
+if _MONTH=11 and _DAY=4  and route_chara=1 then goto mikan_08	#かりん崩壊イベント
+if _MONTH=11 and _DAY=10 and route_chara=1 then goto mikan_09	#デザートはいちご
+if _MONTH=11 and _DAY=11 and route_chara=1 then goto mikan_10	#みかんの気持ち
+if _MONTH=11 and _DAY=17  and route_chara=1 then goto mikan_11	#みかんの結論
+if _MONTH=11 and _DAY=24  and route_chara=1 then goto mikan_12	#みかんの別れ前日
+if _MONTH=11 and _DAY=25  and route_chara=1 then goto mikan_13	#みかんの別れ
+if _MONTH=12 and _DAY=1  and route_chara=1 then goto mikan_14	#みかん捜索・涼海とるあ
+if _MONTH=12 and _DAY=2  and route_chara=1 then goto mikan_17	#みかん捜索汎用・ざくろ
+if _MONTH=12 and _DAY=8  and route_chara=1 then goto mikan_18	#みかん捜索汎用・すいか
+if _MONTH=12 and _DAY=9  and route_chara=1 then goto mikan_19	#みかん捜索汎用・ゆず
+if _MONTH=12 and _DAY=15  and route_chara=1 then goto mikan_20	#みかん捜索汎用・いちご
+if _MONTH=12 and _DAY=16  and route_chara=1 then goto mikan_21	#雫の忠告
+if _MONTH=12 and _DAY=23  and route_chara=1 then goto mikan_16	#美雨
+if _MONTH=12 and _DAY=29  and route_chara=1 then goto mikan_23	#みかん発見イベント
+if _MONTH=12 and _DAY=30  and route_chara=1 then goto mikan_24	#施設帰還イベント
+
+#いちごルート----------------------------------------------------------------------------------------------------------
+if _MONTH=9 and _DAY=22  and route_chara=2 then goto ichigo_01	#いちご1
+if ichigo_event=4 then goto ichigo_05				#いちご5
+if ichigo_event=6 then goto ichigo_06a				#いちご6
+if ichigo_event=8 then goto ichigo_07a				#いちご7a
+if ichigo_event=9 then goto ichigo_07b				#いちご7b
+if ichigo_event=11 then goto ichigo_08a				#いちご8a
+if ichigo_event=12 then goto ichigo_08b				#いちご8b
+if ichigo_event=13 then goto ichigo_08c				#いちご8c
+if _MONTH=12 and _DAY=30 and ichigo_event>9 then goto ichigo_09b	#いつきBAD
+
+#かりんルート---------------------------------------------------------------------------------------------------------
+if _MONTH=9 and _DAY=22  and route_chara=3 then goto karin_01	#かりん1
+if _MONTH=9 and _DAY=23  and route_chara=3 then goto karin_02	#かりん2
+if _MONTH=9 and _DAY=30  and route_chara=3 then goto karin_03_1	#かりん3-1
+if _MONTH=10 and _DAY=7  and route_chara=3 then goto karin_03_2	#かりん3-2
+if _MONTH=10 and _DAY=14  and route_chara=3 then goto karin_03_3	#かりん3-3
+if _MONTH=10 and _DAY=21  and route_chara=3 then goto karin_03_4	#かりん3-4
+if _MONTH=10 and _DAY=28 and route_chara=3 then goto karin_03_6	#かりん3-6
+
+if _MONTH=11 and _DAY=4  and route_chara=3 then goto karin_05	#かりん5
+if _MONTH=11 and _DAY=11  and route_chara=3 then goto karin_06	#かりん6
+if _MONTH=12 and _DAY=1  and route_chara=3 then goto karin_07	#かりん7-8
+if _MONTH=12 and _DAY=8  and route_chara=3 then goto karin_09	#かりん9
+if _MONTH=12 and _DAY=15  and route_chara=3 then goto karin_10	#かりん10
+if _MONTH=12 and _DAY=22  and route_chara=3 then goto karin_11	#かりん11
+if _MONTH=12 and _DAY=23  and route_chara=3 then goto karin_12	#かりん12
+
+#9月
+
+if _MONTH=9 and _DAY=2 and ichigo_atama_level<3 then goto shukudai #0902 宿題
+if _MONTH=9 and _DAY=3 then goto shigyou_02		#0903 始業式2	平日
+if suika_item_flag2=1 then suika_event=5
+if _MONTH=9 and _DAY=15 and suika_event=5 then goto suika_06	#0908 シューティング1
+if _MONTH=9 and _DAY=15  and suika_event=4 and trpg_event=0 and suika_love>1 then goto trpg	#0908 TRPG1
+if _MONTH=9 and _DAY=9 and zakuro_event=8 then goto zakuro_09	#0909 ざくろ9
+#if _MONTH=9 and _DAY=15 then goto shokuyoku_no_aki 	#0915 食欲の秋
+if _MONTH=9 and _DAY=23 and yuzu_event=7 then goto yuzu_08	#0923 ゆず8
+
+#10月以降、ルートに入っていたら発生しないようにするか？
+if route_chara>0 then return
+
+#10月
+
+if _MONTH=10 and _DAY=07 and suika_event=6 then goto suika_07	#1007 チェックポイント
+if _MONTH=10 and _DAY=07 and suika_event=4 and trpg_event=1  and suika_love>1  then goto trpg	#1007 TRPG2
+if _MONTH=10 and _DAY=13 and suika_event=7 then goto suika_08	#1013 シューティング2
+if _MONTH=10 and _DAY=13 and suika_event=4 and trpg_event=2  and suika_love>1  then goto trpg	#1013 TRPG3
+if _MONTH=10 and _DAY=14 and zakuro_event=9 then goto zakuro_10	#1007 ざくろ10
+if _MONTH=10 and _DAY=20 and yuzu_event=8 then goto yuzu_09	#1020 ゆず9
+if _MONTH=10 and _DAY=21 and yuzu_event=9 then goto yuzu_10	#1021 ゆず10
+if _MONTH=10 and _DAY=27 and zakuro_event=10 then goto zakuro_11	#1027 ざくろ11
+if _MONTH=10 and _DAY=28 and zakuro_event=11 then goto zakuro_12	#1028 ざくろ12
+
+#11月
+
+if _MONTH=11 and _DAY=11 and zakuro_event=12 then goto zakuro_13	#1111 ざくろ13
+if _MONTH=11 and _DAY=17 and suika_event=8  then goto suika_09	#1117 シューティング3
+if _MONTH=11 and _DAY=17 and suika_event=4 and trpg_event=3  and suika_love>1  then goto trpg	#1117 TRPG4
+if _MONTH=11 and _DAY=18 and zakuro_event=13 then goto zakuro_14	#1118 ざくろ14
+if _MONTH=11 and _DAY=24 and zakuro_event=14 then goto zakuro_15	#1124 ざくろ15
+if _MONTH=11 and _DAY=25 and yuzu_event=10 then goto yuzu_11	#1125 ゆず11
+
+#12月
+
+if _MONTH=12 and _DAY=02 and yuzu_event=11 then goto yuzu_12	#1202 ゆず12
+if _MONTH=12 and _DAY=8 and zakuro_event=15 then goto zakuro_16	#1208 ざくろ16
+if _MONTH=12 and _DAY=9 and zakuro_event=16 then goto zakuro_17	#1209 ざくろ17
+if _MONTH=12 and _DAY=15 and suika_event=9 then goto suika_10	#1215 すいか10
+if _MONTH=12 and _DAY=16 and suika_event=10 then goto suika_11	#1216 すいか11
+
+__WEEK=0
+if _WEEK=0 or _WEEK=6 then __WEEK=1
+
+#いちご絆創膏
+rand rnd,0,1
+if __WEEK=1 and _ITEM(504)=1 and rnd=0 then goto item_ichigo_bansoukou
+
+#いちご発作1
+if __WEEK=1  and ichigo_notraining_cnt>8 and ichigo_love=0 and ichigo_bad_flag=0 then goto ichigo_h1
+#いちご発作2
+if __WEEK=1  and ichigo_notraining_cnt>16 and ichigo_love=1 and ichigo_bad_flag=0  then goto ichigo_h2
+#いちごBAD
+if __WEEK=1  and ichigo_notraining_cnt>24 and ichigo_love=2 and ichigo_bad_flag=0  then goto ichigo_bad2
+
+#その他のイベント--------------------------------------------------------------
+
+#みかん魅力イベント
+temp=mikan_miryoku_event_cnt+2
+if _WEEK=0 and mikan_miryoku>temp*100 and shizuku_off=0 and mikan_miryoku_event_cnt<15 then goto mikan_miryoku_event
+
+#いちご魅力イベント
+temp=ichigo_miryoku_event_cnt+2
+if _WEEK=0 and ichigo_miryoku>temp*100 and shizuku_off=0 and ichigo_miryoku_event_cnt<13 then goto ichigo_miryoku_event
+
+#かりん魅力イベント
+temp=karin_miryoku_event_cnt+2
+if _WEEK=0 and karin_miryoku>temp*100 and shizuku_off=0 and karin_miryoku_event_cnt<11 then goto karin_miryoku_event
+
+dayevent_flag=0
+
+return
+
+label	date_check
+
+#デートチェック(ここでルートが決まる)
+@miryoku_charasel
+
+if checkpoint3_miryoku>miryoku_chara_max then route_chara=0
+if checkpoint3_miryoku>miryoku_chara_max and hikari_on=1 then goto date_hikari
+if checkpoint3_miryoku>miryoku_chara_max then return
+
+if miryoku_chara=0 and mikan_kenkou_count<2 then route_chara=1	#みかん
+if miryoku_chara=1 and ichigo_kenkou_count<2 and ichigo_love>0 then route_chara=2	#いちご
+if miryoku_chara=2 and karin_kenkou_count<2 then route_chara=3	#かりん
+
+sel=0
+
+#"みかんルートに入る","みかんルートに入らない"
+#"いちごルートに入る","いちごルートに入らない"
+#"かりんルートに入る","かりんルートに入らない"
+if GLOBAL(100)=1 and route_chara=1 then select sel,"Enter Mikan's route", "Don't enter Mikan's route"
+if GLOBAL(101)=1 and route_chara=2 then select sel,"Enter Ichigo's route","Don't enter Ichigo's route"
+if GLOBAL(102)=1 and route_chara=3 then select sel,"Enter Karin's route", "Don't enter Karin's route"
+
+if sel=1 then route_chara=0
+#if route_chara=0 then goto date_hikari
+if route_chara=1 then goto mikan_dateflag
+if route_chara=3 then goto karin_dateflg
+
+return
+
+label	date_hikari
+sel=0
+#"ひかりルートに入る","ひかりルートに入らない"
+if GLOBAL(107)=1 then select sel,"Enter Hikari's route","Don't enter Hikari's route"
+
+if sel=1 then return
+
+route_chara=4
+
+label	date_check_skip
+
+return
+
+label	date
+if route_chara=1 then goto mikan_date		#みかん
+if route_chara=2 then goto ichigo_dateflag	#いちご
+if route_chara=3 then goto karin_date		#かりん
+return
+
+#デバッグ用
+label	day_debug
+
+gosub trpg	#1117 TRPG4
+
+#gosub	day_debug2
+goto	day_debug
+
+#label	day_debug2
+
+@chara_init
+
+@chara_init
+gosub suika_01	#0120 すいか1
+@chara_init
+gosub mikan_00	#0121 みかん処女喪失翌日
+@chara_init
+gosub miu_01	#0127 美雨1
+@chara_init
+gosub seiji_01	#0128 誠司1
+
+@chara_init
+gosub zakuro_01	#0121 ざくろ1
+@chara_init
+gosub karin_e01	#0204 かりん1
+@chara_init
+gosub karin_e02	#0210 かりん2
+@chara_init
+gosub seiji_02	#0211 誠司2
+@chara_init
+gosub suika_02	#0217 すいか2
+@chara_init
+gosub seiji_03	#0218 誠司3
+@chara_init
+gosub erocute_01	#0224 エロキュート1
+@chara_init
+gosub ichigo_e01	#0225 いちご1
+
+@chara_init
+gosub shizuku_01		#0302 雫1 (体験版終了)	平日
+@chara_init
+gosub shizuku_02		#0303 雫2
+@chara_init
+gosub suika_03	#0304 すいか3
+@chara_init
+gosub seiji_04		#0310 誠司4
+@chara_init
+gosub zakuro_02	#0311 ざくろ2
+@chara_init
+gosub hikari_e01	#0317 ひかりE1
+@chara_init
+gosub shizuku_03		#0325 雫03
+@chara_init
+gosub shuugyou_01		#0331 終業式
+
+#4月
+
+@chara_init
+gosub shigyou_01		#0409 始業式	平日
+@chara_init
+gosub yuzu_01	#0414 ゆず1
+@chara_init
+gosub yuzu_02	#0415 ゆず2
+@chara_init
+gosub hikari_e02	#0421 ひかりE2
+@chara_init
+gosub zakuro_03	#0422 ざくろ3
+@chara_init
+gosub seiji_05		#0428 誠司5
+@chara_init
+gosub miu_02		#0429 美雨2
+
+#5月
+
+@chara_init
+gosub goldenweek_01	#0503 ゴールデンウィーク1　平日
+@chara_init
+gosub goldenweek_02	#0505 ゴールデンウィーク2
+@chara_init
+gosub ichigo_h1	#いちご発作1
+@chara_init
+gosub yuzu_03	#0512 ゆず3
+@chara_init
+gosub hahanohi			#0513 母の日
+@chara_init
+gosub suika_04	#0519 すいか4
+@chara_init
+gosub miu_03			#0520 美雨3
+@chara_init
+gosub hikari_e03	#0526 ひかりE3
+@chara_init
+gosub zakuro_04	#0527 ざくろ4
+
+#6月
+
+@chara_init
+gosub ichigo_h2	#いちご発作2
+@chara_init
+gosub oosama			#
+@chara_init
+gosub seiji_06			#0609 誠司6
+@chara_init
+gosub nomi			#0610 飲み
+@chara_init
+gosub yuzu_04	#0616 ゆず4(アイテム)
+@chara_init
+gosub chichinohi			#0617 父の日
+@chara_init
+gosub hikari_e04	#0623 ひかりE4
+@chara_init
+gosub zakuro_05	#0624 ざくろ5
+
+#7月
+
+@chara_init
+gosub tanabata			#0707 七夕
+@chara_init
+gosub yuzu_05	#0708 ゆず5
+@chara_init
+gosub hikari_e05	#0714 ひかりE5
+@chara_init
+gosub zakuro_06	#0715 ざくろ6/7
+@chara_init
+gosub shuugyou_02			#0721 終業式
+@chara_init
+gosub radio				#0722 ラジオ体
+@chara_init
+gosub toukoubi_01			#0728 登校日1
+@chara_init
+gosub yuzu_06	#0729 ゆず6
+
+#8月
+
+@chara_init
+gosub hikari_e06	#0804 ひかりE6
+@chara_init
+gosub zakuro_08	#0805 ざくろ8
+@chara_init
+gosub toukoubi_02	#0811 登校日2
+@chara_init
+gosub pool			#0812 プール
+@chara_init
+gosub suika_bad	#0818 すいかbad
+@chara_init
+gosub natsumatsuri		#0819 夏祭り
+@chara_init
+gosub toukoubi_03		#0825 登校日3
+@chara_init
+gosub yuzu_07	#0826 ゆず7
+
+#デート(ルート決定)---------------------------------------------------------------------------------------------------
+@chara_init
+gosub date_check			#0916 デート約束
+@chara_init
+gosub date				#0916 デート
+
+#label	day_debug2
+
+#ひかりルート---------------------------------------------------------------------------------------------------------
+@chara_init
+gosub hikari_01		#ひかりルートへの序章１
+@chara_init
+gosub hikari_02		#ひかりルート１
+@chara_init
+gosub hikari_03		#ひかりとの新生活
+@chara_init
+gosub hikari_04		#週末のアレ
+@chara_init
+gosub hikari_05		#親密イベント１
+@chara_init
+gosub hikari_06		#親密イベント２
+@chara_init
+gosub hikari_07		#もう一波乱
+@chara_init
+gosub hikari_08		#親密イベント３
+@chara_init
+gosub hikari_09		#親密イベント４
+@chara_init
+gosub hikari_10		#かりんと仲直り？
+@chara_init
+gosub hikari_11		#親密イベント５
+@chara_init
+gosub hikari_12		#親密イベント６
+@chara_init
+gosub hikari_13		#親密イベント７
+@chara_init
+gosub hikari_14		#親密イベント８
+@chara_init
+gosub hikari_20		#ひかりの両親のこと
+@chara_init
+gosub hikari_21		#謎の調査書
+@chara_init
+gosub hikari_22		#みかんに聞き込み
+@chara_init
+gosub hikari_23		#かりんに聞き込み
+@chara_init
+gosub hikari_24		#すいかに聞き込み
+@chara_init
+gosub hikari_25		#ざくろの情報
+@chara_init
+gosub hikari_26		#ひかりと美雨と家族
+@chara_init
+gosub hikari_28		#夫婦の営み？
+@chara_init
+gosub hikari_27_1	#ひかりとサンタクロース
+@chara_init
+gosub hikari_29		#美雨への指令
+@chara_init
+gosub hikari_29a	#挙動不審な美雨
+@chara_init
+gosub hikari_30		#美雨と再び
+@chara_init
+gosub hikari_31		#本当は嬉しい美雨
+@chara_init
+gosub hikari_33		#刺客の催促
+@chara_init
+gosub hikari_27_3	#クリスマスイベント
+@chara_init
+gosub hikari_34		#ひかり誘拐(調教無し)
+@chara_init
+gosub hikari_35		#ひかりEND
+
+#label	day_debug2
+
+#みかんルート----------------------------------------------------------------------------------------------------------
+@chara_init
+gosub mikan_01	#みかんルートへの序章１
+@chara_init
+gosub mikan_02	#みかん2
+@chara_init
+gosub mikan_03	#雫の催促 ステータスを見るか？
+@chara_init
+gosub mikan_04	#接待時イベント 本当にステータスだけにするか
+@chara_init
+gosub mikan_05	#養子縁組イベント
+@chara_init
+gosub mikan_06	#号泣かりん
+@chara_init
+gosub mikan_08	#かりん崩壊イベント
+@chara_init
+gosub mikan_09	#デザートはいちご
+@chara_init
+gosub mikan_10	#みかんの気持ち
+@chara_init
+gosub mikan_11	#みかんの結論
+@chara_init
+gosub mikan_12	#みかんの別れ前日
+@chara_init
+gosub mikan_13	#みかんの別れ
+@chara_init
+gosub mikan_14	#みかん捜索・涼海とるあ
+@chara_init
+gosub mikan_17	#みかん捜索汎用・ざくろ
+@chara_init
+gosub mikan_18	#みかん捜索汎用・すいか
+@chara_init
+gosub mikan_19	#みかん捜索汎用・ゆず
+@chara_init
+gosub mikan_20	#みかん捜索汎用・いちご
+@chara_init
+gosub mikan_21	#雫の忠告
+@chara_init
+gosub mikan_16	#美雨
+@chara_init
+gosub mikan_23	#みかん発見イベント
+@chara_init
+gosub mikan_24	#施設帰還イベント
+
+#いちごルート----------------------------------------------------------------------------------------------------------
+@chara_init
+gosub ichigo_01	#いちご1
+@chara_init
+gosub ichigo_05				#いちご5
+@chara_init
+gosub ichigo_06a				#いちご6
+@chara_init
+gosub ichigo_07a				#いちご7a
+@chara_init
+gosub ichigo_07b				#いちご7b
+@chara_init
+gosub ichigo_08a				#いちご8a
+@chara_init
+gosub ichigo_08b				#いちご8b
+@chara_init
+gosub ichigo_08c				#いちご8c
+@chara_init
+gosub ichigo_09b	#いつきBAD
+
+#かりんルート---------------------------------------------------------------------------------------------------------
+@chara_init
+gosub karin_01	#かりん1
+@chara_init
+gosub karin_02	#かりん2
+@chara_init
+gosub karin_03_1	#かりん3-1
+@chara_init
+gosub karin_03_2	#かりん3-2
+@chara_init
+gosub karin_03_3	#かりん3-3
+@chara_init
+gosub karin_03_4	#かりん3-4
+@chara_init
+#gosub karin_03_6	#かりん3-6
+
+@chara_init
+gosub karin_05	#かりん5
+@chara_init
+gosub karin_06	#かりん6
+@chara_init
+gosub karin_07	#かりん7-8
+@chara_init
+gosub karin_09	#かりん9
+@chara_init
+gosub karin_10	#かりん10
+@chara_init
+gosub karin_11	#かりん11
+@chara_init
+gosub karin_12	#かりん12
+
+#9月
+
+label	day_debug2
+
+@chara_init
+gosub shukudai #0902 宿題
+@chara_init
+gosub shigyou_02		#0903 始業式2	平日
+@chara_init
+#gosub suika_06	#0908 すいか6
+@chara_init
+@chara_init
+gosub zakuro_09	#0909 ざくろ9
+
+@chara_init
+gosub yuzu_08	#0923 ゆず8
+
+#10月
+
+@chara_init
+gosub suika_07	#1007 すいか7
+@chara_init
+
+@chara_init
+gosub suika_08	#1013 すいか8
+@chara_init
+@chara_init
+gosub zakuro_10	#1007 ざくろ10
+
+@chara_init
+gosub yuzu_09	#1020 ゆず9
+@chara_init
+gosub yuzu_10	#1021 ゆず10
+@chara_init
+gosub zakuro_11	#1027 ざくろ11
+@chara_init
+gosub zakuro_12	#1028 ざくろ12
+
+#11月
+
+@chara_init
+gosub zakuro_13	#1111 ざくろ13
+@chara_init
+gosub suika_09	#1117 すいか9
+@chara_init
+@chara_init
+gosub zakuro_14	#1118 ざくろ14
+@chara_init
+gosub zakuro_15	#1124 ざくろ15
+@chara_init
+gosub yuzu_11	#1125 ゆず11
+
+#12月
+
+@chara_init
+gosub yuzu_12	#1202 ゆず12
+@chara_init
+gosub zakuro_16	#1208 ざくろ16
+@chara_init
+gosub zakuro_17	#1209 ざくろ17
+@chara_init
+gosub suika_10	#1215 すいか10
+@chara_init
+gosub suika_11	#1216 すいか11
+
+@chara_init
+gosub item_ichigo_bansoukou
+
+dayevent_flag=0
+
+return
+

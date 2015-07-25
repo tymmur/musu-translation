@@ -1,0 +1,79 @@
+## ショップ
+label shop
+date_open
+shop_buy_count_work 	= 0
+shop_talk_count_work 	= 0
+
+#shop_count	= 2				#テスト用
+
+#はじめてショップにきた時
+if shop_count	= 0 then gosub shop_1st		#初めてショップにきたとき
+shop_count	= shop_count+1
+
+minimoney_open
+
+#入る
+@bgm14
+if shop_count	>1 then @bg_erocute
+@subuta_right
+@subuta
+if shop_count	>1 then gosub shop_in_message	#ショップインメッセージ
+
+#■（選択肢Ａ）
+#（１．アイテムを買う）
+#（２．アイテムを売る）（あれば）
+#（３．話をする）（（月－話した回数）＞０以上の場合のみ。１度の来店で話ができるのは１回のみ）
+#（４．店を出る）
+
+#■（Choices Ａ）
+#（１．Buy an item）
+#（２．Sell an item）（If you have one）
+#（３．Talk）（（月－話した回数）＞０以上の場合のみ。１度の来店で話ができるのは１回のみ）
+#（４．Leave the store）
+
+label	shop_loop
+window_close
+#minimoney_close
+if shop_talk_count_work>0 then 	goto shop_skip1
+if shop_talk_count>11	then	goto shop_skip1
+select	sel,"Buy an item","Sell an item","Talk","Leave the shop"
+if sel=0 then goto shop_buy
+if sel=1 then goto shop_sell
+if sel=2 then goto shop_talk
+if sel=3 then goto shop_exit
+goto	shop_loop
+
+label	shop_skip1
+select	sel,"Buy an item","Sell an item","Leave the shop"
+if sel=0 then goto shop_buy
+if sel=1 then goto shop_sell
+if sel=2 then goto shop_exit
+goto	shop_loop
+
+#買う
+label shop_buy
+shopmode_buy
+if _ITEM=0	then 	goto	shop_loop
+gosub	shop_buy_message
+goto	shop_buy
+#売る
+label	shop_sell
+shopmode_sell
+if _ITEM=0	then 	goto	shop_loop
+gosub	shop_sell_message
+goto	shop_sell
+#話す
+label	shop_talk
+shop_talk_count_work=shop_talk_count_work+1
+gosub	shop_talk_in
+goto	shop_loop
+#出る
+label	shop_exit
+if shop_buy_count_work=0 then shop_nobuy_count=shop_nobuy_count+1
+if shop_buy_count_work>0 then shop_nobuy_count=0
+gosub	shop_out_message
+minimoney_close
+@subuta_
+@bg_black
+return
+

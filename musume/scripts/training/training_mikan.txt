@@ -1,0 +1,13 @@
+label	training_mikan
+
+if _MONTH>10 and _DAY>28  and route_chara=1 then goto mikan_07	#みかんルート用
+
+#みかん調教コマンド
+#処女喪失
+if training_mikan_count=0 then gosub	training_mikan_01
+if training_mikan_count>0 then gosub	training_mikan_02
+
+training_mikan_count=training_mikan_count+1
+
+return
+

@@ -1,0 +1,1140 @@
+label training_karin_02
+
+@bgm10
+date_close
+@all_layerrelease
+#karin_dere_flag=1		#デバッグ用
+
+#-- 初期化 --------------------------------------------------------------------
+t_karin_spanking_cnt_l=0
+t_karin_muchi_cnt_l=0
+t_karin_rousoku_cnt_l=0
+t_karin_aibu_cnt_l=0
+t_karin_bondage_flag=0
+t_karin_megane_flag=0
+t_karin_damagefix=1.2
+
+add_miryoku=0
+
+add_karada=0
+add_atama=0
+add_kokoro=0
+
+#-- ライフ -------------------------------------------------------------------
+tairyoku=karin_kenkou_max
+seishin=karin_kiryoku_max
+tairyoku_max=tairyoku
+seishin_max=seishin
+lifebar_set	life_tairyoku,tairyoku
+lifebar_setmax	life_tairyoku,tairyoku_max
+lifebar_set	life_seishin,seishin
+lifebar_setmax	life_seishin,seishin_max
+
+macro	training_karin_load
+window_close
+screen_blackout	1000
+wait		1000
+#--
+all			= -1				# すべて
+
+#-- レイヤー定義
+l_back			= 0				# 背景
+l_hair_back		= 5				# 後ろ髪
+l_head			= 10				# 頭
+l_hair_side		= 11				# もみあげ
+l_eye			= 12				# 瞳
+l_eye_hi		= 13				# 瞳ハイライト
+l_eye_f			= 14				# 瞼
+l_eyeblow		= 15				# 眉
+l_mouth			= 16				# 口
+l_megane		= 17				# 眼鏡
+l_hair_front		= 20				# 前髪
+l_arm			= 25				# 腕
+l_body			= 30				# 胴体
+l_leg			= 35				# 足
+l_insert		= 40				# ちんこ
+l_effect		= 45				# エフェクト
+
+#レイヤー0　背景
+layer_load 		l_back,"event\ev_kar_070\ev_kar_070_back.png"
+layer_position_set 	l_back,-64,-48
+
+#レイヤー5　髪の後ろ
+layer_load 		l_hair_back,"event\ev_kar_070\ev_kar_070_hair_back.png"
+layer_position_set 	l_hair_back,-64,-48
+
+#レイヤー10　頭
+layer_load 		l_head,"event\ev_kar_070\ev_kar_070_head.png"
+layer_load_parts	l_head,1,"event\ev_kar_070\ev_kar_070_eye_back.png"
+layer_position_set 	l_head,-64,-48
+
+#レイヤー11　もみあげ
+layer_load 		l_hair_side,"event\ev_kar_070\ev_kar_070_hair_side.png"
+layer_reference_set	l_hair_side,l_head		# 頭のレイヤーに連結
+
+#レイヤー20　前髪
+layer_load 		l_hair_front,"event\ev_kar_070\ev_kar_070_hair.png"
+layer_reference_set	l_hair_front,l_head		# 頭のレイヤーに連結
+
+#レイヤー12  瞳
+layer_load 		l_eye,"event\ev_kar_070\ev_kar_070_eye.png"
+layer_position_set	l_eye,325+2,128+2
+layer_reference_set	l_eye,l_head			# 頭のレイヤーに連結
+
+#レイヤー13　瞳のハイライト
+layer_load 		l_eye_hi,"event\ev_kar_070\ev_kar_070_eye_hi.png"
+layer_reference_set	l_eye_hi,l_head			# 頭のレイヤーに連結
+
+#レイヤー14　瞼
+layer_load 		l_eye_f,"event\ev_kar_070\ev_kar_070_eye_front.png"
+layer_reference_set	l_eye_f,l_head			# 頭のレイヤーに連結
+layer_load_parts	l_eye_f,1,"event\ev_kar_070\ev_kar_070_eye_front3.png"
+layer_load_parts	l_eye_f,2,"event\ev_kar_070\ev_kar_070_eye_front4.png"
+layer_load_parts	l_eye_f,3,"event\ev_kar_070\ev_kar_070_eye2_front.png"
+
+#レイヤー15　眉
+layer_load 		l_eyeblow,"event\ev_kar_070\ev_kar_070_eyeblow.png"
+layer_load_parts	l_eyeblow,1,"event\ev_kar_070\ev_kar_070_eyeblow2.png"
+layer_reference_set	l_eyeblow,l_head		# 頭のレイヤーに連結
+
+#レイヤー16　口
+layer_load 		l_mouth,"event\ev_kar_070\ev_kar_070_mouth.png"
+layer_load_parts	l_mouth,1,"event\ev_kar_070\ev_kar_070_mouth2.png"
+layer_load_parts	l_mouth,2,"event\ev_kar_070\ev_kar_070_mouth3.png"
+layer_load_parts	l_mouth,3,"event\ev_kar_070\ev_kar_070_mouth4.png"
+layer_load_parts	l_mouth,4,"event\ev_kar_070\ev_kar_070_mouth5.png"
+layer_load_parts	l_mouth,5,"event\ev_kar_070\ev_kar_070_mouth6.png"
+layer_load_parts	l_mouth,6,"event\ev_kar_070\ev_kar_070_mouth7.png"
+layer_load_parts	l_mouth,7,"event\ev_kar_070\ev_kar_070_mouth8.png"
+layer_load_parts	l_mouth,8,"event\ev_kar_070\ev_kar_070_mouth9.png"
+layer_reference_set	l_mouth,l_head			# 頭のレイヤーに連結
+
+#かりんめがね
+if t_karin_megane_flag=1 then layer_load		l_megane,"event\ev_kar_070\EV_KAR_070_megane.png"
+if t_karin_megane_flag=1 then layer_reference_set	l_megane,l_head		# 頭のレイヤーに連結
+
+#レイヤー20　前髪重ね
+#layer_load 		20,"event\ev_kar_070\ev_kar_070_hair_front.png"
+#layer_position_set 	20,-64,-48
+
+#レイヤー25　腕
+if t_karin_bondage_flag=0 then layer_load l_arm,"event\ev_kar_070\ev_kar_070_arm.png"
+if t_karin_bondage_flag=1 then layer_load l_arm,"event\ev_kar_070\ev_kar_070_arm_b.png"
+layer_position_set 	l_arm,-64,-48
+
+#レイヤー30　胴体
+if t_karin_bondage_flag=0 then layer_load l_body,"event\ev_kar_070\ev_kar_070_body.png"
+if t_karin_bondage_flag=1 then layer_load l_body,"event\ev_kar_070\ev_kar_070_body_b.png"
+layer_position_set 		l_body,-64,-48
+
+#レイヤー35 足
+if t_karin_bondage_flag=0 then layer_load l_leg,"event\ev_kar_070\ev_kar_070_leg.png"
+if t_karin_bondage_flag=1 then layer_load l_leg,"event\ev_kar_070\ev_kar_070_leg_b.png"
+layer_position_set 	l_leg,-64,-48
+
+#layer_movepass_clear	all
+
+# -- アニメーション定義 ------------------------------------------------------
+# -- 瞼			セット0
+layer_anime_add		l_eye_f,0,	5000,	0
+layer_anime_add		l_eye_f,0,	70,	1
+layer_anime_add		l_eye_f,0,	100,	2
+layer_anime_add		l_eye_f,0,	70,	1
+layer_anime_add		l_eye_f,0,	5000,	0
+layer_anime_add		l_eye_f,0,	70,	1
+layer_anime_add		l_eye_f,0,	100,	2
+layer_anime_add		l_eye_f,0,	70,	1
+layer_anime_add		l_eye_f,0,	100,	0
+layer_anime_add		l_eye_f,0,	70,	1
+layer_anime_add		l_eye_f,0,	100,	2
+layer_anime_add		l_eye_f,0,	70,	1
+layer_anime_play	l_eye_f,0,	PLAY_LOOP
+
+# -- 眉
+layer_anime_add		l_eyeblow,0,	1000,	0
+layer_anime_play	l_eyeblow,0,	PLAY_LOOP
+
+#口
+layer_anime_add		l_mouth,0,	100,	5
+layer_anime_add		l_mouth,0,	100,	2
+layer_anime_add		l_mouth,0,	100,	4
+layer_anime_add		l_mouth,0,	100,	2
+layer_anime_add		l_mouth,0,	100,	5
+layer_anime_add		l_mouth,0,	50,	2
+layer_anime_add		l_mouth,0,	50,	4
+layer_anime_add		l_mouth,0,	50,	8
+layer_anime_add		l_mouth,0,	50,	4
+layer_anime_add		l_mouth,0,	50,	2
+layer_anime_add		l_mouth,0,	100,	5
+layer_anime_lipsync	l_mouth,0,	_TRUE
+
+# -- モーション定義 ----------------------------------------------------------
+# -- セット0(通常) -----------------------------------------------------------
+# -- 瞳			セット0
+layer_movepass_add 	l_eye,0,	5000,	0,	0
+layer_movepass_add 	l_eye,0,	50,	4,	-1
+layer_movepass_add 	l_eye,0,	500,	4,	-1
+layer_movepass_add 	l_eye,0,	50,	0,	0
+layer_movepass_add 	l_eye,0,	5000,	0,	0
+layer_movepass_add 	l_eye,0,	50,	-4,	1
+layer_movepass_add 	l_eye,0,	500,	-4,	1
+layer_movepass_add 	l_eye,0,	50,	0,	0
+layer_movepass_add 	l_eye,0,	5000,	0,	0
+layer_movepass_add 	l_eye,0,	50,	1,	2
+layer_movepass_add 	l_eye,0,	500,	1,	2
+layer_movepass_add 	l_eye,0,	50,	0,	0
+layer_movepass_add 	l_eye,0,	5000,	0,	0
+layer_movepass_add 	l_eye,0,	50,	-1,	-2
+layer_movepass_add 	l_eye,0,	500,	-1,	-2
+layer_movepass_add 	l_eye,0,	50,	0,	0
+layer_movepass_add 	l_eye,0,	5000,	0,	0
+layer_movepass_play	l_eye,0,	PLAY_LOOP
+
+# -- 瞳ハイライト	セット0
+layer_movepass_add 	l_eye_hi,0,	25,	2,	0
+layer_movepass_add 	l_eye_hi,0,	25,	0,	0
+layer_movepass_add 	l_eye_hi,0,	25,	-2,	0
+layer_movepass_add 	l_eye_hi,0,	25,	0,	0
+layer_movepass_type	l_eye_hi,0,	PASSTYPE_LINEAR
+layer_movepass_play	l_eye_hi,0,	PLAY_LOOP
+
+# -- 背景		セット0
+layer_movepass_add 	l_back,0,	500,0,-2
+layer_movepass_add 	l_back,0,	500,0,0
+layer_movepass_add 	l_back,0,	500,0,2
+layer_movepass_add 	l_back,0,	500,0,0
+layer_movepass_play	l_back,0,	PLAY_LOOP
+
+# -- 髪の後ろ		セット0
+layer_movepass_add 	l_hair_back,0,	500,0,-2
+layer_movepass_add 	l_hair_back,0,	500,0,0
+layer_movepass_add 	l_hair_back,0,	500,0,2
+layer_movepass_add 	l_hair_back,0,	500,0,0
+layer_movepass_play	l_hair_back,0,	PLAY_LOOP
+
+# -- 頭			セット0
+layer_movepass_add 	l_head,0,	500,2,3
+layer_movepass_add 	l_head,0,	500,0,0
+layer_movepass_add 	l_head,0,	500,-2,-3
+layer_movepass_add 	l_head,0,	500,0,0
+layer_movepass_play	l_head,0,	PLAY_LOOP
+
+# -- もみあげ		セット0
+layer_scalepass_add 	l_hair_side,0,	800,-2,4
+layer_scalepass_add 	l_hair_side,0,	200,0,0
+layer_scalepass_add 	l_hair_side,0,	800,2,-4
+layer_scalepass_add 	l_hair_side,0,	200,0,0
+layer_scalepass_play	l_hair_side,0,	PLAY_LOOP
+
+#レイヤー20　前髪
+layer_movepass_add 	l_hair_front,0,	700,-2,4
+layer_movepass_add 	l_hair_front,0,	300,0,0
+layer_movepass_add 	l_hair_front,0,	700,2,-4
+layer_movepass_add 	l_hair_front,0,	300,0,0
+layer_movepass_play	l_hair_front,0,	PLAY_LOOP
+
+layer_scalepass_add 	l_hair_front,0,	700,0,4
+layer_scalepass_add 	l_hair_front,0,	300,0,0
+layer_scalepass_add 	l_hair_front,0,	700,0,-4
+layer_scalepass_add 	l_hair_front,0,	300,0,0
+layer_scalepass_play	l_hair_front,0,	PLAY_LOOP
+
+# -- 腕			セット0
+layer_movepass_add	l_arm,0,	700,0,4
+layer_movepass_add	l_arm,0,	300,0,0
+layer_movepass_add	l_arm,0,	700,0,-4
+layer_movepass_add	l_arm,0,	300,0,0
+layer_movepass_play	l_arm,0,	PLAY_LOOP
+
+layer_scalepass_add	l_arm,0,	700,-3,0
+layer_scalepass_add	l_arm,0,	300,0,0
+layer_scalepass_add	l_arm,0,	700,3,0
+layer_scalepass_add	l_arm,0,	300,0,0
+layer_scalepass_play	l_arm,0,	PLAY_LOOP
+
+# -- 胴体
+layer_movepass_add	l_body,0,	600,0,6
+layer_movepass_add	l_body,0,	400,0,0
+layer_movepass_add	l_body,0,	600,0,-6
+layer_movepass_add	l_body,0,	400,0,0
+layer_movepass_play	l_body,0,	PLAY_LOOP
+
+layer_scalepass_add	l_body,0,	600,0,4
+layer_scalepass_add	l_body,0,	400,0,0
+layer_scalepass_add	l_body,0,	600,0,-4
+layer_scalepass_add	l_body,0,	400,0,0
+layer_scalepass_play	l_body,0,	PLAY_LOOP
+
+#レイヤー35 足
+layer_movepass_add	l_leg,0,	500,0,-6
+layer_movepass_add	l_leg,0,	500,0,0
+layer_movepass_add	l_leg,0,	500,0,6
+layer_movepass_add	l_leg,0,	500,0,0
+layer_movepass_play	l_leg,0,	PLAY_LOOP
+
+layer_scalepass_add	l_leg,0,	500,-3,0
+layer_scalepass_add	l_leg,0,	500,0,0
+layer_scalepass_add	l_leg,0,	500,3,0
+layer_scalepass_add	l_leg,0,	500,0,0
+layer_scalepass_play	l_leg,0,	PLAY_LOOP
+
+#--セット1 (痛がる)-----------------------------------------------------------
+
+#表情
+layer_anime_add		l_eye_f,1,	5000,	3
+layer_anime_add		l_eye_f,1,	200,	1
+layer_anime_add		l_eye_f,1,	100,	0
+layer_anime_add		l_eye_f,1,	100,	1
+layer_anime_add		l_eye_f,1,	100,	3
+layer_anime_add		l_eye_f,1,	200,	1
+layer_anime_add		l_eyeblow,1,	10000,	1
+layer_anime_add		l_mouth,1,	500,	3
+layer_anime_add		l_mouth,1,	500,	2
+layer_anime_add		l_mouth,1,	500,	1
+
+#layer_anime_add		l_eye_f,1,	5000,	3
+#layer_anime_add		l_eye_f,1,	50,	1
+#layer_anime_add		l_eyeblow,1,	500,	1
+#layer_anime_add		l_mouth,1,	300,	1
+
+#背景
+layer_movepass_add	l_back,1,	100,0,-8
+layer_movepass_add	l_back,1,	100,0,8
+#layer_movepass_add	l_back,1,	100,0,-4
+#layer_movepass_add	l_back,1,	100,0,4
+layer_movepass_add	l_back,1,	300,0,0
+
+#後ろ髪
+layer_movepass_add	l_hair_back,1,	200,0,-16
+layer_movepass_add	l_hair_back,1,	300,0,0
+layer_scalepass_add	l_hair_back,1,	200,-5,-10
+layer_scalepass_add	l_hair_back,1,	300,0,0
+
+#もみあげ
+layer_scalepass_add	l_hair_side,1,	200,0,-12
+layer_scalepass_add	l_hair_side,1,	300,0,12
+
+#前髪
+layer_movepass_add	l_hair_front,1,	200,-4,-8
+layer_movepass_add	l_hair_front,1,	200,3,0
+layer_movepass_add	l_hair_front,1,	100,0,0
+
+#頭
+layer_movepass_add	l_head,1,	200,6,24
+layer_movepass_add	l_head,1,	300,0,0
+#腕
+layer_movepass_add	l_arm,1,	200,0,12
+layer_movepass_add	l_arm,1,	300,0,0
+layer_scalepass_add	l_arm,1,	200,-8,0
+layer_scalepass_add	l_arm,1,	300,0,0
+#胴体
+layer_movepass_add	l_body,1,	200,0,8
+layer_movepass_add	l_body,1,	300,0,0
+layer_scalepass_add	l_body,1,	200,0,-10
+layer_scalepass_add	l_body,1,	300,0,0
+#足
+layer_movepass_add	l_leg,1,	200,0,-8
+layer_movepass_add	l_leg,1,	300,0,0
+layer_scalepass_add	l_leg,1,	200,-10,-8
+layer_scalepass_add	l_leg,1,	300,0,0
+
+# -- セット2(入れられてる) ---------------------------------------------------
+#表情
+layer_anime_add		l_eye_f,2,	5000,	3
+layer_anime_add		l_eye_f,2,	500,	1
+layer_anime_add		l_eye_f,2,	100,	0
+layer_anime_add		l_eye_f,2,	100,	1
+layer_anime_add		l_eye_f,2,	100,	3
+layer_anime_add		l_eye_f,2,	5000,	3
+layer_anime_add		l_eyeblow,2,	10000,	1
+layer_anime_add		l_mouth,2,	500,	3
+#layer_anime_add		l_mouth,2,	250,	2
+#layer_anime_add		l_mouth,2,	250,	1
+layer_anime_add		l_mouth,2,	300,	0
+layer_anime_add		l_mouth,2,	100,	2
+layer_anime_add		l_mouth,2,	100,	5
+layer_anime_add		l_mouth,2,	100,	2
+
+# -- 背景		セット0
+layer_movepass_add 	l_back,2,	250,4,-2
+layer_movepass_add 	l_back,2,	250,0,0
+layer_movepass_add 	l_back,2,	250,-4,2
+layer_movepass_add 	l_back,2,	250,0,0
+layer_movepass_play	l_back,2,	PLAY_LOOP
+
+# -- 髪の後ろ		セット0
+layer_movepass_add 	l_hair_back,2,	250,8,-4
+layer_movepass_add 	l_hair_back,2,	250,0,0
+layer_movepass_add 	l_hair_back,2,	250,-8,4
+layer_movepass_add 	l_hair_back,2,	250,0,0
+layer_movepass_play	l_hair_back,2,	PLAY_LOOP
+
+# -- 頭			セット0
+layer_movepass_add 	l_head,2,	250,2,8
+layer_movepass_add 	l_head,2,	250,0,16
+layer_movepass_add 	l_head,2,	250,-2,-3
+layer_movepass_add 	l_head,2,	250,0,4
+layer_movepass_play	l_head,2,	PLAY_LOOP
+
+# -- もみあげ		セット0
+layer_scalepass_add 	l_hair_side,2,	400,-4,4
+layer_scalepass_add 	l_hair_side,2,	100,0,0
+layer_scalepass_add 	l_hair_side,2,	400,4,-4
+layer_scalepass_add 	l_hair_side,2,	100,0,0
+layer_scalepass_play	l_hair_side,2,	PLAY_LOOP
+
+#レイヤー20　前髪
+layer_movepass_add 	l_hair_front,2,	350,-4,4
+layer_movepass_add 	l_hair_front,2,	150,0,0
+layer_movepass_add 	l_hair_front,2,	350,0,-4
+layer_movepass_add 	l_hair_front,2,	150,0,0
+layer_movepass_play	l_hair_front,2,	PLAY_LOOP
+
+layer_scalepass_add 	l_hair_front,2,	350,2,2
+layer_scalepass_add 	l_hair_front,2,	150,0,0
+layer_scalepass_add 	l_hair_front,2,	350,2,-2
+layer_scalepass_add 	l_hair_front,2,	150,0,0
+layer_scalepass_play	l_hair_front,2,	PLAY_LOOP
+
+# -- 腕			セット0
+layer_movepass_add	l_arm,2,	350,-4,4
+layer_movepass_add	l_arm,2,	150,0,0
+layer_movepass_add	l_arm,2,	350,4,-4
+layer_movepass_add	l_arm,2,	150,0,0
+layer_movepass_play	l_arm,2,	PLAY_LOOP
+
+layer_scalepass_add	l_arm,2,	350,-2,2
+layer_scalepass_add	l_arm,2,	150,2,-2
+layer_scalepass_add	l_arm,2,	350,-2,2
+layer_scalepass_add	l_arm,2,	150,2,-2
+layer_scalepass_play	l_arm,2,	PLAY_LOOP
+
+# -- 胴体
+layer_movepass_add	l_body,2,	300,-4,6
+layer_movepass_add	l_body,2,	200,0,0
+layer_movepass_add	l_body,2,	300,4,-6
+layer_movepass_add	l_body,2,	200,0,0
+layer_movepass_play	l_body,2,	PLAY_LOOP
+
+layer_scalepass_add	l_body,2,	300,2,2
+layer_scalepass_add	l_body,2,	200,0,0
+layer_scalepass_add	l_body,2,	300,2,-2
+layer_scalepass_add	l_body,2,	200,0,0
+layer_scalepass_play	l_body,2,	PLAY_LOOP
+
+#レイヤー35 足
+layer_movepass_add	l_leg,2,	250,4,-6
+layer_movepass_add	l_leg,2,	250,0,0
+layer_movepass_add	l_leg,2,	250,-4,6
+layer_movepass_add	l_leg,2,	250,0,0
+layer_movepass_play	l_leg,2,	PLAY_LOOP
+
+layer_scalepass_add	l_leg,2,	250,-6,0
+layer_scalepass_add	l_leg,2,	250,4,0
+layer_scalepass_add	l_leg,2,	250,3,0
+layer_scalepass_add	l_leg,2,	250,2,0
+layer_scalepass_play	l_leg,2,	PLAY_LOOP
+
+#--セット3 (感じてる)---------------------------------------------------------
+
+#表情
+layer_anime_add		l_eye_f,3,	5000,	3
+layer_anime_add		l_eye_f,3,	500,	1
+layer_anime_add		l_eye_f,3,	100,	0
+layer_anime_add		l_eye_f,3,	100,	1
+layer_anime_add		l_eye_f,3,	100,	3
+layer_anime_add		l_eye_f,3,	5000,	1
+layer_anime_add		l_eyeblow,3,	10000,	1
+layer_anime_add		l_mouth,3,	500,	2
+layer_anime_add		l_mouth,3,	500,	1
+
+#背景
+layer_movepass_add	l_back,3,	100,0,-4
+layer_movepass_add	l_back,3,	100,0,4
+#layer_movepass_add	l_back,3,	100,0,-2
+#layer_movepass_add	l_back,3,	100,0,2
+layer_movepass_add	l_back,3,	300,0,0
+
+#後ろ髪
+layer_movepass_add	l_hair_back,3,	200,0,-8
+layer_movepass_add	l_hair_back,3,	300,0,0
+layer_scalepass_add	l_hair_back,3,	200,-2,-5
+layer_scalepass_add	l_hair_back,3,	300,0,0
+
+#もみあげ
+layer_scalepass_add	l_hair_side,3,	200,0,-6
+layer_scalepass_add	l_hair_side,3,	300,0,6
+
+#前髪
+layer_movepass_add	l_hair_front,3,	200,-2,-4
+layer_movepass_add	l_hair_front,3,	200,3,0
+layer_movepass_add	l_hair_front,3,	100,0,0
+
+#頭
+layer_movepass_add	l_head,3,	200,3,12
+layer_movepass_add	l_head,3,	300,0,0
+#腕
+layer_movepass_add	l_arm,3,	200,0,3
+layer_movepass_add	l_arm,3,	300,0,0
+layer_scalepass_add	l_arm,3,	200,-2,0
+layer_scalepass_add	l_arm,3,	300,0,0
+#胴体
+layer_movepass_add	l_body,3,	200,0,2
+layer_movepass_add	l_body,3,	300,0,0
+layer_scalepass_add	l_body,3,	200,0,-3
+layer_scalepass_add	l_body,3,	300,0,0
+#足
+layer_movepass_add	l_leg,3,	200,0,-2
+layer_movepass_add	l_leg,3,	300,0,0
+layer_scalepass_add	l_leg,3,	200,-3,-2
+layer_scalepass_add	l_leg,3,	300,0,0
+
+screen_blackin		1000
+
+#-- 定義ここまで --------------------------------------------------------------
+endm
+
+@training_karin_load
+
+lifebar_open	life_tairyoku
+lifebar_open	life_seishin
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+if karin_command_cnt<15 then voice "P03596"	#
+if karin_command_cnt>=15 then voice "P03598"	#
+
+window_close
+
+voice_bg	"P04704"
+label t_karin_loop
+if tairyoku<=0 then goto t_karin_end
+if seishin<=0 then goto t_karin_end
+
+passspeed=100
+@set_motion_speed
+#-- アイコン選択 --------------------------------------------------------------
+window_close
+#カーソルをデフォルトに
+mousecursor_set "system\TrainingSystem\cur_aibu.png",25,30
+layer_lockmouse_set	l_eye,_ON
+select_icon_init
+select_icon_add	0,"system\iconselect\icon_quit.png","調教をやめる"
+#select_icon_add	1,"system\iconselect\icon_aibu.png","愛撫する"
+select_icon_add	2,"system\iconselect\icon_nikubou.png","肉棒を使う"
+#SCRIPT IGNORE
+if _TRANSLATOR_OPTION_DISABLE_SM=0 then select_icon_add	3,"system\iconselect\icon_spanking.png","スパンキングする"
+#SCRIPT SKIP JAPANESE LINES 1
+#SCRIPT IGNORE END
+if _ITEM(206)=1 then select_icon_add	4,"system\iconselect\icon_vibe.png","大きなバイブでマンコを開発する"
+if _ITEM(205)=1 then select_icon_add	5,"system\iconselect\icon_analvibe.png","アナルバイブでアナルを開発する"
+if _ITEM(211)=1  then select_icon_add	6,"system\iconselect\icon_facemask.png","フェイスクラッチマスクを使用する"
+
+if _ITEM(203)=1 then select_icon_add	7,"system\iconselect\icon_rousoku.png","蝋燭を使う"
+if _ITEM(200)=1 then select_icon_add	8,"system\iconselect\icon_muchi.png","鞭を使う"
+
+if t_karin_bondage_flag=0 and _ITEM(305)=1 then select_icon_add	9,"system\iconselect\icon_bondage.png","ボンデージ服を着せる"
+if t_karin_bondage_flag=1 and _ITEM(305)=1 then select_icon_add	9,"system\iconselect\icon_nude.png","裸にする"
+if t_karin_megane_flag=0 and _ITEM(306)=1 then select_icon_add	10,"system\iconselect\icon_glass.png","眼鏡をかける"
+if t_karin_megane_flag=1 and _ITEM(306)=1 then select_icon_add	10,"system\iconselect\icon_glass.png","眼鏡を外す"
+if _ITEM(207)=1 then select_icon_add	11,"system\iconselect\icon_video.png","ビデオカメラを使う"
+
+label t_karin_loop_a
+#コマンド選択
+select_mouseclick	"event\ev_kar_070\EV_KAR_070_mask.png"
+if _SELECT=-1 then gosub t_karin_aibu
+if tairyoku<=0 then goto t_karin_end
+if seishin<=0 then goto t_karin_end
+
+if _SELECT=-1 then goto t_karin_loop_a
+if _SELECT= 0  then goto t_karin_exit
+command=_SELECT
+
+select_icon_init
+mousecursor_reset
+#-- クリックしないコマンド ----------------------------------------------------
+if command=4 then 	goto t_karin_vibe
+if command=5 then 	goto t_karin_analvibe
+if command=6 then 	goto t_karin_facemask
+if command=9 then 	goto t_karin_bondage
+if command=10 then	goto t_karin_megane
+if command=11 then	goto t_karin_video
+
+#-- アイコン選択 --------------------------------------------------------------
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
+label t_karin_loop_b
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
+#-- カーソルの変更 ------------------------------------------------------------
+if command=2 then mousecursor_set "system\TrainingSystem\cur_nikubou.png",25,30
+if command=3 then mousecursor_set "system\TrainingSystem\cur_hand.png",25,30
+if command=7 then gosub t_karin_command_rousoku			#蝋燭
+if command=8 then gosub t_karin_command_baramuchi		#バラ鞭
+
+#目線
+
+#SCRIPT IGNORE
+select_icon_init
+select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
+#SCRIPT IGNORE END
+
+select_mouseclick	"event\ev_kar_070\EV_KAR_070_mask.png"
+if _SELECT=0 then goto t_karin_loop
+
+#if command=1 then gosub t_karin_aibu			#愛撫
+if command=2 then gosub t_karin_chinpo			#ちんぽ
+if command=3 then gosub t_karin_spanking		#スパンキング
+if command=7 then gosub t_karin_rousoku			#蝋燭
+if command=8 then gosub t_karin_baramuchi		#バラ鞭
+
+if tairyoku<=0 then goto t_karin_end
+if seishin<=0 then goto t_karin_end
+if t_karin_damagefix<0.5 then t_karin_damagefix=0.5
+
+#マゾになるか？
+if t_karin_maso_cnt=80 then @karin_masomode
+
+goto t_karin_loop_b
+
+#マゾモード-------------------------------------------------------------------
+macro	karin_masomode
+t_karin_maso_flag=1
+t_karin_muchi_cnt_l=0
+t_karin_spanking_cnt_l=0
+endm
+
+#-- ■愛撫■ ----------------------------------------------------------------
+label t_karin_aibu
+if _COLOR=0 then return
+se		0,"sound\se\プイッ.WAV",play_once
+@karin_motion_normal1
+
+if _COLOR=130 then voicetable t_karin_aibu_cnt_l,"P03816","P03817","P03818","P03819","P03820","P03821","P03822","P03823","P03824","P03825"
+if _COLOR=145 or _COLOR=69 then voicetable t_karin_aibu_cnt_l,"P03809","P03810","P03811","P03812","P03813","P03814","P03815"
+if _COLOR=220 then voicetable t_karin_aibu_cnt_l,"P03832","P03833","P03834","P03835","P03836","P03837","P03838"
+if _COLOR=228 then voicetable t_karin_aibu_cnt_l,"P03839","P03840","P03841","P03842","P03845","P03846","P03847"
+if _COLOR=249 then voicetable t_karin_aibu_cnt_l,"P03826","P03827","P03828","P03829","P03830","P03831"
+
+t_karin_aibu_cnt_l=t_karin_aibu_cnt_l+1
+#t_karin_damagefix=t_karin_damagefix-0.01
+return
+
+#-- ■ちんぽ■ ----------------------------------------------------------------
+label t_karin_chinpo
+if _COLOR=0 then return
+#カーソルを消す
+mousecursor_reset
+
+if _COLOR=228 then gosub training_karin_fera		#フェラ
+if _COLOR=86  then gosub training_karin_fera		#フェラ
+
+if _COLOR=220 then gosub training_karin_anal		#アナル
+
+if _COLOR=130 then gosub training_karin_insert		#挿入
+
+if _COLOR=145 or _COLOR=69 or _COLOR=249 then gosub t_karin_aibu
+
+t_karin_damagefix=t_karin_damagefix-0.01
+
+window_close
+return
+
+#-- ■スパンキング■ ---------------------------------------------------------
+label t_karin_spanking
+#-- 体ではないレイヤーかどうか判定する ----------------------------------------
+if _LAYER < 25 then return
+#カーソルを消す
+mousecursor_reset
+#-- 鞭エフェクト---------------------------------------------------------------
+@muchi_effect
+#-- 鞭後をつける---------------------------------------------------------------
+#大きい鞭痕かどうか判定する
+if _LAYER=l_leg then @spanking_effect_big		# 鞭痕(大)
+if _LAYER<>l_leg then @spanking_effect_small		# 鞭痕(小)
+
+#1段階目
+if t_karin_maso_flag=0 then voicetable	t_karin_spanking_cnt_l,"P04869","P04870","P04871","P04872","P04873","P04874","P04875","P04876","P04877","P04878","P04879","P04880","P04881"
+#2段階目
+if t_karin_maso_flag=1 then voicetable	t_karin_spanking_cnt,"P04882","P04883","P04884","P04885","P04886","P04887","P04888","P04889","P04890","P04891","P04892","P04893"
+
+t_karin_spanking_cnt_l=t_karin_spanking_cnt_l+1
+t_karin_spanking_cnt=t_karin_spanking_cnt+1
+t_karin_maso_cnt=t_karin_maso_cnt+1
+
+@karin_motion_pain1
+tairyoku=tairyoku-15*t_karin_damagefix
+seishin=seishin-20*t_karin_damagefix
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+add_karada=add_karada+1
+add_miryoku=add_miryoku+1
+
+wait	500
+
+return
+
+#-- ■バラ鞭■ ----------------------------------------------------------------
+label t_karin_baramuchi
+#-- 体ではないレイヤーかどうか判定する ----------------------------------------
+if _LAYER < 25 then return
+#カーソルを消す
+mousecursor_reset
+#-- 鞭エフェクト---------------------------------------------------------------
+@muchi_effect
+#-- 鞭後をつける---------------------------------------------------------------
+#大きい鞭痕かどうか判定する
+if _LAYER=l_leg then @muchiato_effect_big		# 鞭痕(大)
+if _LAYER<>l_leg then @muchiato_effect_small		# 鞭痕(小)
+
+#1段階目
+if t_karin_maso_flag=0 then voicetable	t_karin_muchi_cnt_l,"P04898","P04899","P04900","P04901","P04905","P04906","P04907","P04908","P04912","P04913","P04914","P04915"
+#2段階目
+if t_karin_maso_flag=1 then voicetable	t_karin_muchi_cnt_l,"P04919","P04920","P04921","P04922","P04926","P04927","P04928","P04929","P04933","P04934","P04935","P04936","P04937"
+
+if _COLOR=130 then voicetable	t_karin_muchi_cnt_l,"P03649","P03660","P03661","P03662","P03663","P03664"
+if _COLOR=130 then screen_vibration 500,16,16,16
+
+t_karin_muchi_cnt_l=t_karin_muchi_cnt_l+1
+t_karin_muchi_cnt=t_karin_muchi_cnt+1
+t_karin_maso_cnt=t_karin_maso_cnt+1
+
+@karin_motion_pain1
+tairyoku=tairyoku-35*t_karin_damagefix
+seishin=seishin-20*t_karin_damagefix
+
+if _COLOR=130 then tairyoku=tairyoku-35*t_karin_damagefix
+if _COLOR=130 then seishin=seishin-20*t_karin_damagefix
+
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+add_karada=add_karada+2
+add_miryoku=add_miryoku+2
+
+wait	500
+
+voice_bg	"P04706"
+
+#if _COLOR=130 then voice_bg	"P04710"
+
+passspeed=200
+@set_motion_speed
+
+return
+
+#-- ■バラ鞭■ ----------------------------------------------------------------
+label t_karin_command_baramuchi
+@bgm11
+mousecursor_set "system\TrainingSystem\cur_muchi.png",420,40
+#初回
+if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt=0 then voice "P03607";return
+#1-50回目
+if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt<50 then voice "P03608";return
+#51-100回目
+if t_karin_muchi_cnt_l=0 and t_karin_muchi_cnt<100 then voice "P03609";return
+#それ以降
+if t_karin_muchi_cnt_l=0 then voice "P03610";return
+return
+
+#-- ■蝋燭■ ----------------------------------------------------------------
+label t_karin_rousoku
+#-- 体ではないレイヤーかどうか判定する ----------------------------------------
+if _LAYER < 25 then return
+#カーソルを消す
+mousecursor_reset
+#-- 蝋燭エフェクト
+@rousoku_effect
+
+#1段階目
+if t_karin_maso_flag=0 then voicetable	t_karin_rousoku_cnt_l,"P04945","P04946","P04947","P04948","P04949","P04950","P04951","P04952","P04953","P04954","P04955","P04956","P04957"
+#2段階目
+if t_karin_maso_flag=1 then voicetable	t_karin_rousoku_cnt_l,"P04960","P04961","P04962","P04963","P04964","P04965","P04966","P04967","P04968","P04969","P04970","P04971"
+
+if _COLOR=130 then voicetable	t_karin_rousoku_cnt_l,"P03649","P03653","P03654","P03655","P03656","P03657","P03658"
+if _COLOR=130 then screen_vibration 500,16,16,16
+
+for j=0 to 5
+rand rnd,0,128
+_x=_x+rnd-64
+rand rnd,0,128
+_y=_y+rnd-64
+
+if _LAYER=l_leg then @rousoku_effect_big		# 蝋燭痕(大)
+if _LAYER<>l_leg then @rousoku_effect_small		# 蝋燭痕(小)
+wait	50
+next
+
+t_karin_rousoku_cnt_l=t_karin_rousoku_cnt_l+1
+t_karin_rousoku_cnt=t_karin_rousoku_cnt+1
+t_karin_maso_cnt=t_karin_maso_cnt+1
+
+@karin_motion_pain1
+tairyoku=tairyoku-20*t_karin_damagefix
+seishin=seishin-35*t_karin_damagefix
+
+if _COLOR=130 then tairyoku=tairyoku-20*t_karin_damagefix
+if _COLOR=130 then seishin=seishin-35*t_karin_damagefix
+
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+add_karada=add_karada+3
+add_miryoku=add_miryoku+3
+
+wait	500
+
+voice_bg	"P04706"
+
+if _COLOR=130 then voice_bg	"P04710"
+
+passspeed=200
+@set_motion_speed
+
+return
+
+#-- ■蝋燭■ ----------------------------------------------------------------
+label t_karin_command_rousoku
+@bgm11
+mousecursor_set "system\TrainingSystem\cur_rousoku.png",100,160
+#初回
+if t_karin_rousoku_cnt_l=0 and t_karin_rousoku_cnt=0 then goto t_karin_command_rousoku_1
+return
+
+label t_karin_command_rousoku_1
+
+t_karin_rousoku_cnt=t_karin_rousoku_cnt+1
+
+＠Ｋａｒｉｎ,P04941
+「な、なに、それろうそくじゃない。　それもそんな大きい……っ」
+
+＠Ｉｔｓｕｋｉ
+「そう、ろうそく。　今日はコレを使おうと思ってな」
+
+＠Ｋａｒｉｎ,P04942
+「まさか、それを挿れるんじゃ……っ」
+
+＠Ｉｔｓｕｋｉ
+「うーん、残念。　ちょっと違う。　ろうそくの本来の使い方をするのさ」
+
+＠Ｋａｒｉｎ,P04943
+「え……、それってまさか……。　火をつけてって……、事……？」
+
+＠Ｉｔｓｕｋｉ
+「ご名答。　火をつけて使う」
+
+オレはろうそくに火をつけ、かりんの目の前にその火をかざしてみせる。
+
+＠Ｋａｒｉｎ,P04944
+「ちょ、ちょっとっ、冗談じゃないわっ。　まさかろうそくの火で、私をあぶる気じゃないでしょうねっ！」
+
+＠Ｉｔｓｕｋｉ
+「まさか！　これはそんな風に使うんじゃないよ……こうやって……」
+
+window_close
+
+return
+
+#-- ■バイブ■ -----------------------------------------------
+label t_karin_vibe
+gosub	training_karin_vibe
+goto t_karin_loop
+
+#-- ■アナルバイブ■ -----------------------------------------------
+label t_karin_analvibe
+gosub	training_karin_analvibe
+goto t_karin_loop
+
+#-- ■フィイスクラッチマスク■ -----------------------------------------------
+label t_karin_facemask
+gosub	training_karin_facemask
+goto t_karin_loop
+
+#-- ■ボンデージ■ ---------------------------------------------------------
+label t_karin_bondage
+@training_anime_release
+if t_karin_bondage_flag=0 then t_karin_bondage_flag=1;goto t_karin_bondage_skip
+if t_karin_bondage_flag=1 then t_karin_bondage_flag=0
+label t_karin_bondage_skip
+@training_karin_load
+goto t_karin_loop
+
+#-- ■眼鏡■ ---------------------------------------------------------
+label t_karin_megane
+@training_anime_release
+if t_karin_megane_flag=0 then t_karin_megane_flag=1;goto t_karin_megane_skip
+if t_karin_megane_flag=1 then t_karin_megane_flag=0
+label t_karin_megane_skip
+@training_karin_load
+goto t_karin_loop
+
+#-- ■ビデオカメラ■ ---------------------------------------------------------
+label t_karin_video
+gosub	training_karin_video
+goto t_karin_loop
+
+#-- 鞭後をつける---------------------------------------------------------------
+rnd=rnd+1
+
+#大きい鞭痕かどうか判定する
+if _LAYER=l_leg then goto kar070_muchi_large
+
+if rnd=0 then goto kar070_muchi01
+if rnd=1 then goto kar070_muchi02
+if rnd=2 then goto kar070_muchi03
+if rnd=3 then goto kar070_muchi04
+
+#-- 鞭痕(小)
+label kar070_muchi_small
+label kar070_muchi01
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato01s.png",_X-25,_Y-32
+goto kar070_muchi_skip
+label kar070_muchi02
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato02s.png",_X-25,_Y-32
+goto kar070_muchi_skip
+label kar070_muchi03
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato03s.png",_X-25,_Y-32
+goto kar070_muchi_skip
+label kar070_muchi04
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato04s.png",_X-25,_Y-32
+rnd=0
+goto kar070_muchi_skip
+
+#-- 鞭痕(大)
+label kar070_muchi_large
+
+if rnd=0 then goto kar070_muchi05
+if rnd=1 then goto kar070_muchi06
+if rnd=2 then goto kar070_muchi07
+if rnd=3 then goto kar070_muchi08
+
+label kar070_muchi05
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato01l.png",_X-50,_Y-75
+goto kar070_muchi_skip
+label kar070_muchi06
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato02l.png",_X-50,_Y-75
+goto kar070_muchi_skip
+label kar070_muchi07
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato03l.png",_X-50,_Y-75
+goto kar070_muchi_skip
+label kar070_muchi08
+layer_load_paste	_LAYER,"system\TrainingSystem\muchi_ato04l.png",_X-50,_Y-75
+rnd=0
+goto kar070_muchi_skip
+
+label kar070_muchi_skip
+#if rnd>4 then rnd=0
+
+#------------------------------------------------------------------------------
+
+# 痛がるモーション #########################################################
+macro	karin_motion_pain1
+
+layer_movepass_push	l_back,1,	PLAY_ONCE	#頭
+
+layer_movepass_push	l_head,1,	PLAY_ONCE	#頭
+
+layer_movepass_push	l_arm,1,	PLAY_ONCE	#腕
+layer_scalepass_push	l_arm,1,	PLAY_ONCE	#腕
+
+layer_movepass_push	l_hair_back,1,	PLAY_ONCE	#後ろ髪
+layer_scalepass_push	l_hair_back,1,	PLAY_ONCE
+
+layer_movepass_push	l_hair_side,1,	PLAY_ONCE
+layer_scalepass_push	l_hair_side,1,	PLAY_ONCE
+
+layer_movepass_push	l_hair_front,1,	PLAY_ONCE
+layer_scalepass_push	l_hair_front,1,	PLAY_ONCE
+
+layer_movepass_push	l_body,1,	PLAY_ONCE
+layer_scalepass_push	l_body,1,	PLAY_ONCE
+
+layer_movepass_push	l_leg,1,	PLAY_ONCE
+layer_scalepass_push	l_leg,1,	PLAY_ONCE
+
+layer_anime_push	l_eyeblow,1,	PLAY_ONCE
+layer_anime_push	l_mouth,1,	PLAY_ONCE
+layer_anime_push	l_eye_f,1,	PLAY_ONCE
+
+tairyoku=tairyoku-3*t_karin_damagefix
+seishin=seishin-5*t_karin_damagefix
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+endm
+
+macro	karin_motion_insert1
+
+# -- 背景		セット0
+layer_movepass_push	l_back,2,	PLAY_LOOP
+
+# -- 髪の後ろ		セット0
+layer_movepass_push	l_hair_back,2,	PLAY_LOOP
+
+# -- 頭			セット0
+layer_movepass_push	l_head,2,	PLAY_LOOP
+
+# -- もみあげ		セット0
+layer_scalepass_push	l_hair_side,2,	PLAY_LOOP
+
+#レイヤー20　前髪
+layer_movepass_push	l_hair_front,2,	PLAY_LOOP
+
+layer_scalepass_push	l_hair_front,2,	PLAY_LOOP
+
+# -- 腕			セット0
+layer_movepass_push	l_arm,2,	PLAY_LOOP
+
+layer_scalepass_push	l_arm,2,	PLAY_LOOP
+
+# -- 胴体
+layer_movepass_push	l_body,2,	PLAY_LOOP
+
+layer_scalepass_push	l_body,2,	PLAY_LOOP
+
+#レイヤー35 足
+layer_movepass_push	l_leg,2,	PLAY_LOOP
+
+layer_scalepass_push	l_leg,2,	PLAY_LOOP
+
+layer_anime_push	l_eyeblow,2,	PLAY_LOOP
+layer_anime_push	l_mouth,2,	PLAY_ONCE
+layer_anime_push	l_eye_f,2,	PLAY_LOOP
+
+tairyoku=tairyoku-10*t_karin_damagefix
+seishin=seishin-15*t_karin_damagefix
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+endm
+
+#-- 感じる --------------------------------------------------------------------
+macro	karin_motion_normal1
+layer_movepass_push	l_back,3,	PLAY_ONCE	#頭
+
+layer_movepass_push	l_head,3,	PLAY_ONCE	#頭
+
+layer_movepass_push	l_arm,3,	PLAY_ONCE	#腕
+layer_scalepass_push	l_arm,3,	PLAY_ONCE	#腕
+
+layer_movepass_push	l_hair_back,3,	PLAY_ONCE	#後ろ髪
+layer_scalepass_push	l_hair_back,3,	PLAY_ONCE
+
+layer_movepass_push	l_hair_side,3,	PLAY_ONCE
+layer_scalepass_push	l_hair_side,3,	PLAY_ONCE
+
+layer_movepass_push	l_hair_front,3,	PLAY_ONCE
+layer_scalepass_push	l_hair_front,3,	PLAY_ONCE
+
+layer_movepass_push	l_body,3,	PLAY_ONCE
+layer_scalepass_push	l_body,3,	PLAY_ONCE
+
+layer_movepass_push	l_leg,3,	PLAY_ONCE
+layer_scalepass_push	l_leg,3,	PLAY_ONCE
+
+layer_anime_push	l_eyeblow,3,	PLAY_ONCE
+layer_anime_push	l_mouth,3,	PLAY_ONCE
+layer_anime_push	l_eye_f,3,	PLAY_ONCE
+
+tairyoku=tairyoku-3*t_karin_damagefix
+seishin=seishin-5*t_karin_damagefix
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+endm
+
+#-- 気絶 --------------------------------------------------------------------
+label t_karin_end
+karin_kenkou=0
+karin_kiryoku=0
+
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+#「もう……無理だわ……」
+＠Ｋａｒｉｎ,P03604
+「Ｉｔ´ｓ．．．　ｊｕｓｔ　ｔｏｏ　ｍｕｃｈ．．．」
+
+@training_anime_release
+
+#どうやら気を失ってしまったようだ。
+Ｓｈｅ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｌｏｓｔ<br>
+ｃｏｎｓｃｉｏｕｓｎｅｓｓ．
+
+#これ以上続けることはできない。
+Ｓｈｅ　ｃａｎ´ｔ　ｇｏ　ｏｎ　ｆｏｒ　ｔｏｄａｙ．
+
+add_miryoku=add_miryoku/2
+add_karada=add_karada/2
+add_kokoro=add_kokoro/2
+add_atama=add_atama/2
+
+karin_kizetsu_cnt=karin_kizetsu_cnt+1
+
+goto	t_karin_exit2
+
+#-- 終了 --------------------------------------------------------------------
+label t_karin_exit
+
+#"調教を終了する","やっぱりやめる"
+select	sel,"End training","On second thought..."
+if sel=1 then goto t_karin_loop
+
+if karin_command_cnt<15 then voice "P03595"	#「はぁっ…………こんなこと……おかしいわよ……」
+if karin_command_cnt>=15 then voice "P03597"	#「っふ……なんで……わたし……こんなに……あぁっ……」
+
+@training_anime_release
+label t_karin_exit2
+
+select_icon_init
+window_close
+
+lifebar_close	life_tairyoku
+lifebar_close	life_seishin
+
+mousecursor_reset
+
+voice_bg_stop
+
+#--------------------------------------------------------------------------
+@karin_set
+lifebar_open	life_atama
+lifebar_open	life_karada
+lifebar_open	life_kokoro
+wait	500
+
+karin_atama=karin_atama+add_atama
+karin_karada=karin_karada+add_karada
+karin_kokoro=karin_kokoro+add_kokoro
+
+lifebar_setauto	life_karada,karin_karada
+lifebar_setauto	life_kokoro,karin_kokoro
+lifebar_setauto	life_karada,karin_karada
+@karin_check
+wait	1000
+
+lifebar_close	life_atama
+lifebar_close	life_karada
+lifebar_close	life_kokoro
+wait	500
+#------------------------------------------------------------------------
+
+if add_miryoku>10 then karin_command_cnt=karin_command_cnt+1
+if add_miryoku>0 then @karin_add_miryoku
+
+if karin_reception_level=1 and t_karin_fera_cnt>7 then gosub t_karin_up
+if karin_reception_level=2 and t_karin_insert_cnt>3 then gosub t_karin_up
+if karin_reception_level=3 and training_karin_facemask_cnt>2 then gosub t_karin_up
+
+return
+
+#コマンドアップ
+label	t_karin_up
+
+@status_atamalevelup2
+karin_reception_level=karin_reception_level+1
+
+return
+

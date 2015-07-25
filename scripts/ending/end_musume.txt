@@ -746,7 +746,7 @@ wait		500
 
 window_close
 @bg_black
-if disable_screen_flash=0 then screen_flash	500
+if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 @SE57		”š”­‰¹
 wait	500
 

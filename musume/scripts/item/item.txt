@@ -1,0 +1,737 @@
+label	item_use
+
+#------------------------------------------------------------
+#アイテムを使う
+#------------------------------------------------------------
+#アイテム画面を開く
+itemmode
+
+if _ITEM=0	then 	return
+
+@itemuse_charasel
+
+if itemuse_chara=0 then goto item_use
+
+@bg_black
+
+add_atama=0
+add_karada=0
+add_kokoro=0
+add_kiryoku=0
+add_kenkou=0
+
+#みかん
+if itemuse_chara=1 then add_kenkou=mikan_kenkou_max/10*3
+if itemuse_chara=1 then add_kiryoku=mikan_kiryoku_max/10*3
+if itemuse_chara=1 then add_atama=mikan_atama_max/10*3
+if itemuse_chara=1 then add_karada=mikan_karada_max/10*3
+if itemuse_chara=1 then add_kokoro=mikan_kokoro_max/10*3
+if itemuse_chara=1 then @mikan_set
+if itemuse_chara=1 then @status_open_mikan
+
+if itemuse_chara=2 then add_kenkou=ichigo_kenkou_max/10*3
+if itemuse_chara=2 then add_kiryoku=ichigo_kiryoku_max/10*3
+if itemuse_chara=2 then add_atama=ichigo_atama_max/10*3
+if itemuse_chara=2 then add_karada=ichigo_karada_max/10*3
+if itemuse_chara=2 then add_kokoro=ichigo_kokoro_max/10*3
+if itemuse_chara=2 then @ichigo_set
+if itemuse_chara=2 then @status_open_ichigo
+
+if itemuse_chara=3 then add_kenkou=karin_kenkou_max/10*3
+if itemuse_chara=3 then add_kiryoku=karin_kiryoku_max/10*3
+if itemuse_chara=3 then add_atama=karin_atama_max/10*3
+if itemuse_chara=3 then add_karada=karin_karada_max/10*3
+if itemuse_chara=3 then add_kokoro=karin_kokoro_max/10*3
+if itemuse_chara=3 then @karin_set
+if itemuse_chara=3 then @status_open_karin
+
+wait	1000
+
+item_delete	_ITEMNO
+
+if _ITEM=100	then	goto	itemuse_cake
+if _ITEM=101	then	goto	itemuse_drink
+if _ITEM=102	then	goto	itemuse_doll
+if _ITEM=103	then	goto	itemuse_drug
+if _ITEM=104	then	goto	itemuse_book1
+if _ITEM=105	then	goto	itemuse_book2
+if _ITEM=106	then	goto	itemuse_book3
+if _ITEM=107	then	goto	itemuse_belt
+if _ITEM=108	then	goto	itemuse_sportsvideo
+if _ITEM=109	then	goto	itemuse_gibusu
+if _ITEM=110	then	goto	itemuse_mirror
+if _ITEM=111	then	goto	itemuse_photobook
+if _ITEM=112	then	goto	itemuse_erobook
+if _ITEM=113	then	goto	itemuse_visualbook
+if _ITEM=114	then	goto	itemuse_seichounomi
+
+if _ITEM=200	then	goto	itemuse_whip1
+if _ITEM=201	then	goto	itemuse_whip2
+if _ITEM=202	then	goto	itemuse_analbead
+if _ITEM=203	then	goto	itemuse_candle
+if _ITEM=204	then	goto	itemuse_vibe
+if _ITEM=205	then	goto	itemuse_analvibe
+if _ITEM=206	then	goto	itemuse_bigvibe
+if _ITEM=207	then	goto	itemuse_videocamera
+if _ITEM=208	then 	goto	itemuse_schoolware
+if _ITEM=209	then	goto	itemuse_fookniddle
+if _ITEM=210	then	goto	itemuse_analbelt
+if _ITEM=211	then	goto	itemuse_facemask
+if _ITEM=212	then	goto	itemuse_mokuba
+
+if _ITEM=300	then	goto	itemuse_ballgag
+if _ITEM=301	then	goto	itemuse_ballgag
+if _ITEM=302	then	goto	itemuse_ballgag
+if _ITEM=303	then	goto	itemuse_bondage
+if _ITEM=304	then	goto	itemuse_bondage
+if _ITEM=305	then	goto	itemuse_bondage
+if _ITEM=306	then	goto	itemuse_grass
+
+if _ITEM=400	then	goto	itemuse_bunny
+if _ITEM=401	then	goto	itemuse_buruma
+
+if _ITEM=500	then	goto	itemuse_computer
+if _ITEM=501	then	goto	itemuse_teisoutai
+if _ITEM=502	then	goto	itemuse_penisband
+if _ITEM=503	then	goto	itemuse_hanyou
+if _ITEM=504	then	goto	itemuse_hanyou
+
+return
+
+#（アイテムを買う）
+
+#■売っているアイテムのリストを表示し、そこから選択
+
+#（スクール水着）#############################################################
+label	itemuse_schoolware
+
+goto	itemuse_skip
+
+#（デジタルビデオカメラ）#####################################################
+label	itemuse_videocamera
+
+goto	itemuse_skip
+
+#（バニースーツ）############################################################
+label	itemuse_bunny
+
+goto	itemuse_skip
+#（体操服）###################################################################
+label	itemuse_buruma
+
+#（統合へ）
+goto	itemuse_skip
+
+#（アナル拡張ベルト）#########################################################
+label	itemuse_analbelt
+
+#（統合へ）
+goto	itemuse_skip
+
+#（フェイスクラッチマスク）###################################################
+label	itemuse_facemask
+
+#（統合へ）
+goto	itemuse_skip
+
+#（パソコン）#################################################################
+label	itemuse_computer
+
+#（統合へ）
+goto	itemuse_skip
+
+#（貞操帯）##################################################################
+label	itemuse_teisoutai
+
+#（統合へ）
+goto	itemuse_skip
+
+#（バラムチ）#################################################################
+label	itemuse_whip1
+
+#（統合へ）
+goto	itemuse_skip
+
+#（一本ムチ）#################################################################
+label	itemuse_whip2
+
+#（統合へ）
+goto	itemuse_skip
+
+#（ろうそく）#################################################################
+label	itemuse_candle
+
+#（統合へ）
+goto	itemuse_skip
+
+#（アナルビーズ）##############################################################
+label	itemuse_analbead
+
+#（統合へ）
+goto	itemuse_skip
+
+#（アナルバイブ）#############################################################
+label	itemuse_analvibe
+
+#（統合へ）
+goto	itemuse_skip
+
+#（バイブ）###################################################################
+label	itemuse_vibe
+
+#（統合へ）
+goto	itemuse_skip
+
+#（極太バイブ）###############################################################
+label	itemuse_bigvibe
+
+#（統合へ）
+goto	itemuse_skip
+
+#（かりんのおしゃれ眼鏡）#####################################################
+label	itemuse_grass
+
+#（統合へ）
+goto	itemuse_skip
+
+#（ボンデージ服）#############################################################
+label	itemuse_bondage
+
+#（統合へ）
+goto	itemuse_skip
+
+#（ケーキ）###################################################################
+label	itemuse_cake
+
+Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｃａｋｅ．<br>Ｓｈｅ　ａｔｅ　ｉｔ　ｈａｐｐｉｌｙ．
+
+add_kenkou=add_kenkou*1
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_1
+if itemuse_chara=1 then mikan_kenkou=mikan_kenkou+add_kenkou
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kenkou=ichigo_kenkou+add_kenkou
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｓｔａｍｉｎａ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KENKOU]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（栄養ドリンク）#############################################################
+label	itemuse_drink
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｎｕｔｒｉｅｎｔ　ｄｒｉｎｋ．　Ｓｈｅ　ｓａｉｄ　ｉｔ<br>
+ｔａｓｔｅｄ　ｆｕｎｎｙ，　ｂｕｔ　ｓｔｉｌｌ　ｆｉｎｉｓｈｅｄ　ｉｔ．
+
+add_kenkou=add_kenkou*2
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_1
+if itemuse_chara=1 then mikan_kenkou=mikan_kenkou+add_kenkou
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kenkou=ichigo_kenkou+add_kenkou
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｓｔａｍｉｎａ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KENKOU]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（成長の実）#################################################################
+label	itemuse_seichounomi
+
+Ｇａｖｅ　ｈｅｒ　ｔｈｅ　ｆｒｕｉｔ　ｏｆ　ｇｒｏｗｔｈ．
+
+add_kenkou=add_kenkou*10
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_1
+if itemuse_chara=1 then mikan_kenkou=mikan_kenkou+add_kenkou
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kenkou=ichigo_kenkou+add_kenkou
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｓｔａｍｉｎａ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KENKOU]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（ぬいぐるみ）###############################################################
+label	itemuse_doll
+
+Ｇａｖｅ　ｈｅｒ　ａｎ　ａｄｏｒａｂｌｅ　ｓｔｕｆｆｅｄ　ａｎｉｍａｌ．<br>
+Ｓｈｅ　ｔｏｏｋ　ｉｔ　ｈａｐｐｉｌｙ．
+
+add_kiryoku=add_kiryoku*1
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_2
+if itemuse_chara=1 then mikan_kiryoku=mikan_kiryoku+add_kiryoku
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kiryoku=ichigo_kiryoku+add_kiryoku
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｗｉｌｌｐｏｗｅｒ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KIRYOKU]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（ぁゃιぃクスリ）###########################################################
+label	itemuse_drug
+
+Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｓｔｒａｎｇｅ　ｍｅｄｉｃｉｎｅ．　Ｓｈｅ<br>
+ｄｒａｎｋ　ｉｔ　ｗｉｔｈ　ｍｕｃｈ　ｒｅｓｉｓｔａｎｃｅ．
+
+add_kiryoku=add_kiryoku*2
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_2
+if itemuse_chara=1 then mikan_kiryoku=mikan_kiryoku+add_kiryoku
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kiryoku=ichigo_kiryoku+add_kiryoku
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｗｉｌｌｐｏｗｅｒ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KIRYOKU]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（やさしいドリル）############################################################
+label	itemuse_book1
+add_atama=add_atama*1
+
+Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｅａｓｙ　ｄｒｉｌｌｓ．
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_b
+if itemuse_chara=1 then mikan_atama=mikan_atama+add_atama
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_atama=ichigo_atama+add_atama
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_atama=karin_atama+add_atama
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｉｎｔｅｌｌｉｇｅｎｃｅ　ｕｐ　ｂｙ　[ADD_ATAMA]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（ふつうのドリル）##########################################################
+label	itemuse_book2
+add_atama=add_atama*2
+
+Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｓｔａｎｄａｒｄ　ｄｒｉｌｌｓ．
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_b
+if itemuse_chara=1 then mikan_atama=mikan_atama+add_atama
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_atama=ichigo_atama+add_atama
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_atama=karin_atama+add_atama
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｉｎｔｅｌｌｉｇｅｎｃｅ　ｕｐ　ｂｙ　[ADD_ATAMA]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（むずかしいドリル）#########################################################
+label	itemuse_book3
+add_atama=add_atama*3
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｓｕｐｅｒ　ｈａｒｄ　ｐｒｏｂｌｅｍ　ｓｅｔ．<br>
+Ｓｈｅ´ｌｌ　ｂｅ　ａ　ｇｅｎｉｕｓ　ｉｆ　ｓｈｅ　ｓｏｌｖｅｓ<br>
+ｔｈｅｍ．
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_b
+if itemuse_chara=1 then mikan_atama=mikan_atama+add_atama
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_atama=ichigo_atama+add_atama
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_atama=karin_atama+add_atama
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｉｎｔｅｌｌｉｇｅｎｃｅ　ｕｐ　ｂｙ　[ADD_ATAMA]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（おなかでふるえるベルト）###################################################
+label	itemuse_belt
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｖｉｂｒａｔｉｎｇ　ｂｅｌｔ　ｔｈａｔ　ｗｈｉｒｓ　ｏｎ<br>
+ｏｎｅ´ｓ　ｂｅｌｌｙ．　Ｉ　ｗｏｎｄｅｒ　ｉｆ　ｉｔ　ｗｏｒｋｓ．．．？
+
+add_karada=add_karada*1
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_b
+if itemuse_chara=1 then mikan_karada=mikan_karada+add_karada
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_karada=ichigo_karada+add_karada
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_karada=karin_karada+add_karada
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｂｏｄｙ　ｕｐ　ｂｙ　[ADD_KARADA]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（元軍人さんの体操ビデオ）###################################################
+label	itemuse_sportsvideo
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｆｕｎ　ｅｘｅｒｃｉｓｅ　ｖｉｄｅｏ　ｗｉｔｈ　ｔｈｅ<br>
+ｍｉｌｉｔａｒｙ．　Ｉｔ　ｗｏｕｌｄ　ｇｏ　ｗｅｌｌ　ｗｉｔｈ　ａ　ｄｉｅｔ．
+
+add_karada=add_karada*2
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_b
+if itemuse_chara=1 then mikan_karada=mikan_karada+add_karada
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_karada=ichigo_karada+add_karada
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_karada=karin_karada+add_karada
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｂｏｄｙ　ｕｐ　ｂｙ　[ADD_KARADA]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（なにかの養成ギプス）#######################################################
+label	itemuse_gibusu
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｔｒａｉｎｉｎｇ　ｓｕｉｔ　ｆｉｔｔｅｄ　ｗｉｔｈ<br>
+ａｗｆｕｌｌｙ　ｔｉｇｈｔ　ｓｐｒｉｎｇｓ．　Ｓｈｅ´ｌｌ　ｂｅ　ａ　ｓｔａｒ<br>
+ｏｆ　ｓｏｒｔｓ　ｉｆ　ｓｈｅ　ｗｅａｒｓ　ｉｔ　ａ　ｌｏｔ．．．
+
+add_karada=add_karada*3
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_b
+if itemuse_chara=1 then mikan_karada=mikan_karada+add_karada
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_karada=ichigo_karada+add_karada
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_karada=karin_karada+add_karada
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｂｏｄｙ　ｕｐ　ｂｙ　[ADD_KARADA]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（きれいな手鏡）#############################################################
+label	itemuse_mirror
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｍｉｒｒｏｒ　ｗｉｔｈ　ｓｈｉｎｙ<br>
+ｏｒｎａｍｅｎｔｓ．　Ｓｈｅ　ｔｏｏｋ　ｉｔ　ｈａｐｐｉｌｙ．
+
+add_kokoro=add_kokoro*1
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_1
+if itemuse_chara=1 then mikan_kokoro=mikan_kokoro+add_kokoro
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kokoro=ichigo_kokoro+add_kokoro
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｍｉｎｄ　ｕｐ　ｂｙ　[ADD_KOKORO]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（アイドル写真集「ジ・アイドルマイスター写真集」）##########################
+label	itemuse_photobook
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｇｒａｖｕｒｅ　ｍａｇａｚｉｎｅ　ｏｆ　ｇｉｒｌｓ<br>
+ａｂｏｕｔ　ｔｈｅ　ｓａｍｅ　ａｇｅ．　Ｓｈｅ´ｓ　ｒｅａｄｉｎｇ　ｉｔ<br>
+ｖｅｒｙ　ｉｎｔｅｒｅｓｔｅｄ．
+
+add_kokoro=add_kokoro*2
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_1
+if itemuse_chara=1 then mikan_kokoro=mikan_kokoro+add_kokoro
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kokoro=ichigo_kokoro+add_kokoro
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+Ｍｉｎｄ　ｕｐ　ｂｙ　[ADD_KOKORO]！
+
+#（統合へ）
+goto	itemuse_skip
+
+#（エッチな本「SMドエロ大魔神」）#############################################
+label	itemuse_erobook
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｐｒｅｔｔｙ　ｍａｎｉａｃａｌ　ｐｏｒｎ<br>
+ｍａｇａｚｉｎｅ．　Ｓｈｅ　ｓａｉｄ　ｓｈｅ　ｄｉｄｎ´ｔ　ｗａｎｔ　ｉｔ<br>
+ａｔ　ｆｉｒｓｔ，　ｂｕｔ　ｅｎｄｅｄ　ｕｐ　ｔａｋｉｎｇ　ｉｔ　ｂａｃｋ<br>
+ｔｏ　ｈｅｒ　ｒｏｏｍ．
+
+add_kokoro=add_kokoro*3
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+wait	2000
+@item_effect_1
+if itemuse_chara=1 then mikan_kokoro=mikan_kokoro+add_kokoro
+if itemuse_chara=1 then @mikan_item_up
+if itemuse_chara=2 then ichigo_kokoro=ichigo_kokoro+add_kokoro
+if itemuse_chara=2 then @ichigo_item_up
+if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
+if itemuse_chara=3 then @karin_item_up
+wait	1000
+
+#Mind up by [ADD_KOKORO]!
+
+#（統合へ）
+goto	itemuse_skip
+
+#（絵本「はたらくおじさん」）################################################
+# ショップでは買えない？　一応入れておきます。
+label	itemuse_visualbook
+
+Ｇａｖｅ　ｈｅｒ　ａ　ｐｉｃｔｕｒｅ　ｂｏｏｋ　ａｂｏｕｔ　ｔｈｅ<br>
+ｊｏｙｓ　ｏｆ　ｌａｂｏｕｒ．　Ｓｈｅ　ｓｔａｒｔｓ　ｓｐｏｕｔｉｎｇ<br>
+ｋｅｅｎｅｒ　ｎｏｎｓｅｎｓｅ，　ｓｅｅｍｉｎｇｌｙ　ｍｏｖｅｄ　ｂｙ<br>
+ｔｈｅ　ｂｏｏｋ．
+
+window_close
+if itemuse_chara=1 then voice "A01692sys"
+if itemuse_chara=2 then voice "O02142sys"
+if itemuse_chara=3 then voice "P01791sys"
+if itemuse_chara=1 then mikan_ojisan_count=5*400
+if itemuse_chara=2 then ichigo_ojisan_count=5*400
+if itemuse_chara=3 then karin_ojisan_count=5*400
+wait	2000
+@item_effect_2
+wait	1000
+
+Ｐａｙ　ｒｉｓｅ　ｆｏｒ　ｐａｒｔ－ｔｉｍｅ　ｗｏｒｋ！
+
+#（統合へ）
+goto	itemuse_skip
+
+###########################################
+#（ボールギャグ）
+label	itemuse_ballgag
+
+#（統合へ）
+goto	itemuse_skip
+
+###########################################
+#（ペニスバンド）
+label itemuse_penisband
+
+#（統合へ）
+goto	itemuse_skip
+
+###########################################
+#（ねこみみ）
+label	itemuse_nekomimi
+
+#（統合へ）
+goto	itemuse_skip
+
+###########################################
+#（三角木馬）
+label	itemuse_mokuba
+
+#（統合へ）
+goto	itemuse_skip
+
+###########################################
+#（フック針）
+label	itemuse_fookniddle
+
+#（統合へ）
+goto	itemuse_skip
+
+###########################################
+#汎用
+label	itemuse_hanyou
+
+#（統合へ）
+goto	itemuse_skip
+
+# 共通部
+label	itemuse_skip
+
+if itemuse_chara=1 then @status_close_mikan
+if itemuse_chara=2 then @status_close_ichigo
+if itemuse_chara=3 then @status_close_karin
+
+@mikan_
+@karin_
+@ichigo_
+
+@bg_black
+@bg_itsuki_n
+
+goto	itemuse_end
+
+# 終わり
+label	itemuse_end
+
+return
+
+macro	itemuse_charasel
+
+Ｗｈｏ　ｔｏ　ｕｓｅ　ｉｔ　ｏｎ．．．？
+
+itemuse_chara=0
+
+window_close
+minimoney_close
+date_close
+
+layer_load	60,"system\Schedule\select_who_item.png"
+layer_move	60,1000,0,-128,0,0,passtype_tcb
+wait	500
+@character_select
+layer_move	60,1000,0,0,0,-128,passtype_tcb
+wait	1000
+layer_release	60
+
+date_open
+
+itemuse_chara=sel
+
+endm
+
+macro	item_effect_b
+se	0,"sound\se\アイテム使用2.wav",play_once
+layer_movie_load 62,"system\movie\効果2.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
+#screen_effect_stardust	240,128,350,480
+endm
+
+macro	item_effect_y
+se	0,"sound\se\アイテム使用2.wav",play_once
+layer_movie_load 62,"system\movie\効果4.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
+#screen_effect_stardust	240,128,350,480
+endm
+
+macro	item_effect_2
+se	0,"sound\se\アイテム使用2.wav",play_once
+layer_movie_load 62,"system\movie\炎1.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
+#screen_effect_stardust	240,128,350,480
+endm
+
+macro	item_effect_1
+se	0,"sound\se\アイテム使用2.wav",play_once
+layer_movie_load 62,"system\movie\効果5.mpg",play_once
+layer_position_set	62,250,280
+layer_scale_set		62,500,500
+layer_drawmode_set	62,DRAW_ADD
+#screen_effect_stardust	240,128,350,480
+endm
+
+macro	mikan_item_up
+@mikan_setauto
+@mikan_check
+@status_chara_mikan
+endm
+macro	ichigo_item_up
+@ichigo_setauto
+@ichigo_check
+@status_chara_ichigo
+endm
+macro	karin_item_up
+@karin_setauto
+@karin_check
+@status_chara_karin
+endm
+
