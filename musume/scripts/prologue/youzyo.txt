@@ -159,7 +159,7 @@ event_fast	"event\ev_miu_010-04.png"
 
 #「別にいいけど。何、これ……白くて、粘っこい……のり？」
 ＠Ｉｔｓｕｋｉ
-「Ｉｔ　ｄｏｎ´ｔ　ｒｅａｌｌｙ　ｍｉｎｄ　ｂｕｔ．．．　ｗｈａｔ　ｉｓ<br>
+「Ｉ　ｄｏｎ´ｔ　ｒｅａｌｌｙ　ｍｉｎｄ，　ｂｕｔ．．．　ｗｈａｔ　ｉｓ<br>
 ｔｈｉｓ？　　Ｗｈｉｔｅ，　ｓｔｉｃｋｙ．．．　ｇｌｕｅ？」
 
 event_fast	"event\ev_miu_010-05.png"
@@ -1341,10 +1341,13 @@ event		"event\ev_all_020-00.png"
 ｐｌｅａｓｅｄ　ｉｆ　ｙｏｕ　ｔｏｏｋ　ｉｔ　ｔｏ　ｈｉｍ　ｍｏｒｅ　ｂｙ<br>
 ｃａｌｌｉｎｇ　ｈｉｍ　“ｄｏｇ”　ｏｒ　“ｐｉｇ”」
 
+setbutton 2,18,220,0,"TLnotes\TLnote3.png","system\backlog\voicesw.png"
+
 #「可愛らしく、つっちーで」
 ＠Ｚａｋｕｒｏ,Q00007
 「Ａｄｏｒａｂｌｅ，　Ｉ´ｌｌ　ｃａｌｌ　ｙｏｕ　Ｔｓｕ－ｃｈｉ」
 
+clearbutton
 #TL note 3: Tsu-chi is a cute character figure from Japan.
 
 #「なんでそんな結論に行き着くんですかッ！？」
@@ -1597,11 +1600,14 @@ event		"event\ev_all_020-01.png"
 「．．．Ｗａｉｔ　ｕｐ，　ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓｐｒｉｎｋｌｉｎｇ<br>
 ｔｈｅｒｅ，　Ｚａｋｕｒｏ？」
 
+setbutton 2,18,220,0,"TLnotes\TLnote4.png","system\backlog\voicesw.png"
+
 #「……？　目玉焼きに青ノリをかけてる」
 ＠Ｚａｋｕｒｏ,Q00015
 「．．．？　Ｉ’ｍ　ｓｐｒｉｎｋｌｉｎｇ　Ａｏｎｏｒｉ　ｏｎ　ｍｙ<br>
 ｆｒｉｅｄ　ｅｇｇｓ」
 
+clearbutton
 #TL note 4: Aonori is a type of edible green seaweed, used to flavour dishes.
 
 #SE23　青ノリを振り掛ける音（ザッザッザッ）
@@ -1622,11 +1628,14 @@ event		"event\ev_all_020-01.png"
 「Ａｏｎｏｒｉ　ｉｓ　ｈｅｒ　ｆａｖｏｕｒｉｔｅ　ｆｏｏｄ．　Ｓｈｅ<br>
 ｐｕｔｓ　ｉｔ　ｏｎ　ｅｖｅｒｙｔｈｉｎｇ　ｓｈｅ　ｅａｔｓ」
 
+setbutton 2,18,220,0,"TLnotes\TLnote5.png","system\backlog\voicesw.png"
+
 #「うん、美味。海○先生も真っ青」
 ＠Ｚａｋｕｒｏ,Q00016
 「Ｙｅａｈ，　ｉｔ´ｓ　ｄｅｌｅｃｔａｂｌｅ．　Ｅｖｅｎ<br>
 Ｋａｉｂａｒａ－ｓｅｎｓｅｉ　ｗｏｕｌｄ　ｂｅ　ｐａｌｅ」
 
+clearbutton
 #TL note 5: This is an expression that describes high-class dishes, originating from a cooking manga.
 
 #そりゃその光景見たら別の意味で真っ青になりそうだが。
