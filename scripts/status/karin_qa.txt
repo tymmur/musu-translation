@@ -1881,10 +1881,13 @@ if sel=1 then goto karin_qa06_b
 #--------------------------------------------------
 label	karin_qa06_a
 
+setbutton 2,18,220,0,"TLnotes\TLnote8.png","system\backlog\voicesw.png"
+
 #「ジュウとは〝獣〟と書く。そしてカンは女三つの〝姦〟だ」
 ＠Itsuki
 「Bestiality is written with the characters for "animal" (獣), and the one with 3 women (姦)」
 
+clearbutton
 #TL note 8: 姦 means "adultery"
 
 #「うん………ん？」
