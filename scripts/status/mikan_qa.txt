@@ -456,28 +456,35 @@ label	mikan_qa03
 #CH（みかん・パジャマ）
 @bg_itsuki_n		# 自室(夜)
 
+#「お兄ちゃん、今ちょっといい？」
 ＠Mikan,A01662
-「お兄ちゃん、今ちょっといい？」
+「Onii-chan, are you busy right now?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 wait		1000
 @mikan			#普通
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+　Mikan came to ask me something, as I was relaxing in my room.
 
+#「うん？　どうした」
 ＠Itsuki
-「うん？　どうした」
+「Yeah? What is it」
 
+#「今クロスワードを解いてたんだけど、どうしても分からないところがあって」
 ＠Mikan,A01663
-「今クロスワードを解いてたんだけど、どうしても分からないところがあって」
+「I was working on a crossword just now, but there’s a part I just can’t get」
 
+#「ここの縦と横なんだけど、お兄ちゃん分かる……？」
 ＠Mikan,A01664
-「ここの縦と横なんだけど、お兄ちゃん分かる……？」
+「It’s these columns and rows, do you know them...?」
 
+#「ふむ。どれどれ」
 ＠Itsuki
-「ふむ。どれどれ」
+「Mhm. Let’s see here」
 
-みかんの指差した問題に目を落とした。
+#みかんの指差した問題に目を落とした。
+　My eyes fall on the questions Mikan’s pointing to.
 
 （ヨコ２３）
 『その棒状の物をしっかり咥えて、口内でゴシゴシ擦りましょう』
@@ -1901,44 +1908,57 @@ label	mikan_qa09
 #CH（みかん・パジャマ）
 @bg_itsuki_n		# 自室(夜)
 
+#「お兄ちゃん、今ちょっといい？」
 ＠Mikan,A01779
-「お兄ちゃん、今ちょっといい？」
+「Onii-chan, are you busy right now?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 wait		1000
 @mikan			#普通
 
-部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+#部屋で休んでいるオレの元へ、みかんが尋ねてきた。
+　I was relaxing in my room, when Mikan came to ask me something.
 
+#「うん？　どうした」
 ＠Itsuki
-「うん？　どうした」
+「Yeah? What is it」
 
+#「体育の着替えの時間にね、クラスにブラジャー着けてる子がいたの」
 ＠Mikan,A01780
-「体育の着替えの時間にね、クラスにブラジャー着けてる子がいたの」
+「During PE when we were changing, there was a girl who had a bra on」
 
+#「みかんはまだしてないけど、ブラジャーって必要なのかなぁ…」
 ＠Mikan,A01781
-「みかんはまだしてないけど、ブラジャーって必要なのかなぁ…」
+「I don’t wear them yet, but I wonder if I need one...」
 
+#「お兄ちゃんどう思う…？」
 ＠Mikan,A01782
-「お兄ちゃんどう思う…？」
+「What do you think, Onii-chan...?」
 
+#「う～ん。みかんにブラジャーか……」
 ＠Itsuki
-「う～ん。みかんにブラジャーか……」
+「Hmm～. A bra for Mikan, huh...」
 
+#「その子はみかんよりお胸が大きいの」
 ＠Mikan,A01783
-「その子はみかんよりお胸が大きいの」
+「That girl had a bigger bust than me, though」
 
+#「みかんは小さいから、まだ無くても大丈夫なの…？」
 ＠Mikan,A01784
-「みかんは小さいから、まだ無くても大丈夫なの…？」
+「I’m still small, so maybe it’s OK if I don’t have one...?」
 
-尋ねながら、パジャマ越しに自分の胸をペタペタと触るみかん。
+#尋ねながら、パジャマ越しに自分の胸をペタペタと触るみかん。
+　Mikan prods at her chest through the pajama as she asks.
 
-小さいとは言っても、やはりそこにあるのは女の子の膨らみだ。
+#小さいとは言っても、やはりそこにあるのは女の子の膨らみだ。
+　Though small, there is in fact a girlish bulge there.
 
-みかんにとっても大事でデリケートな場所だ。
+#みかんにとっても大事でデリケートな場所だ。
+　It’s a very delicate and vital place for Mikan.
 
+#「美雨とか雫さんには相談した？」
 ＠Itsuki
-「美雨とか雫さんには相談した？」
+「Have you discussed it with Miu or Shizuku-san?」
 
 #///////////////////////////////////////////////////////
 #演：だだこね
@@ -1954,23 +1974,27 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#「ううん、まだしてないの」
 ＠Mikan,A01785
-「ううん、まだしてないの」
+「Nope, I haven’t yet」
 
 @mikan_warai2		#笑2
 
+#「えへへ。みかん一番にお兄ちゃんに聞いて考えたかったから」
 ＠Mikan,A01786
-「えへへ。みかん一番にお兄ちゃんに聞いて考えたかったから」
+「Ehehe. The one I wanted to ask most was you, Onii-chan」
 
-オレを見ながら、みかんははにかみ笑った。
+#オレを見ながら、みかんははにかみ笑った。
+　Mikan smiles shyly as she looks at me.
 
-そう言われるとオレも照れくさいが、しかしみかんには大事なことだからな。
+#そう言われるとオレも照れくさいが、しかしみかんには大事なことだからな。
+　I feel a bit awkward being told that, but it’s important to Mikan, after all.
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．オレよりも女性陣に）
 #（２．みかんの自由でいい）
-select sel,"オレよりも女性陣に","みかんの自由でいい"
+select sel,"Send her to the women","Do whatever you like"
 if sel=0 then goto mikan_qa09_a
 if sel=1 then goto mikan_qa09_b
 #--------------------------------------------------
@@ -1979,53 +2003,66 @@ if sel=1 then goto mikan_qa09_b
 label	mikan_qa09_a
 #--------------------------------------------------
 
+#「嬉しいけど、でもやっぱりそういうのは女の人が詳しいと思うぞ」
 ＠Itsuki
-「嬉しいけど、でもやっぱりそういうのは女の人が詳しいと思うぞ」
+「I’m glad, but in the end women will know best when it comes to this」
 
 @mikan			#普通
 
+#「ん～ぅ、そうかな…」
 ＠Mikan,A01787
-「ん～ぅ、そうかな…」
+「Hmm～, you think so...?」
 
+#「ああ。何しろ、女性はみんな経験したことだろうからな」
 ＠Itsuki
-「ああ。何しろ、女性はみんな経験したことだろうからな」
+「Yeah. I figure, since it’s something they’ve all been through」
 
+#「う～ん……」
 ＠Mikan,A01788
-「う～ん……」
+「Right～...」
 
-みかんは逡巡するが、でもやっぱりオレの浅知恵で判断させたくない事だ。
+#みかんは逡巡するが、でもやっぱりオレの浅知恵で判断させたくない事だ。
+　Mikan’s unsure, but in the end it’s not something I want to decide with my simple thinking.
 
 @mikan_kanashimi	#哀
 
+#「みかん、お兄ちゃんの意見が聞きたかったな……」
 ＠Mikan,A01789
-「みかん、お兄ちゃんの意見が聞きたかったな……」
+「I wanted to hear Onii-chan’s opinion, you know...」
 
+#「はは、オレはどっちでもいいと思うよ。だから気にしないでいい」
 ＠Itsuki
-「はは、オレはどっちでもいいと思うよ。だから気にしないでいい」
+「Haha, I don’t think it matters either way. So don’t fret about that」
 
 @mikan_yorokobi		#喜
 
+#「うん。じゃあ分かった、みんなに聞いてみる」
 ＠Mikan,A01790
-「うん。じゃあ分かった、みんなに聞いてみる」
+「Yeah. Alright then, I’ll go ask everyone else」
 
 @mikan_warai2		#笑2
 
+#「もしみかんがブラジャーしたら、一番にお兄ちゃんに見せに来るねっ♪」
 ＠Mikan,A01791
-「もしみかんがブラジャーしたら、一番にお兄ちゃんに見せに来るねっ♪」
+「If I do get a bra, the first thing I’m going to do is show it to you♪」
 
+#「うん、楽しみにしてるよ」
 ＠Itsuki
-「うん、楽しみにしてるよ」
+「Sure, I look forward to it」
 
-だがかなり変態チックな会話だ。
+#だがかなり変態チックな会話だ。
+　It’s quite the perverted agreement though.
 
 bgm_stop
 #■BG（黒）
 @bg_black
 wait		1000
 
-その後の報告で、美雨や雫さんもみかんの意思が一番ということらしく、
+#その後の報告で、美雨や雫さんもみかんの意思が一番ということらしく、
+　Later on, I found out that both Miu and Shizuku-san said what’s best for Mikan...
 
-結局みかんはこれまでどおり、まだしばらくはブラジャー無しを選択したとの事だ。
+#結局みかんはこれまでどおり、まだしばらくはブラジャー無しを選択したとの事だ。
+　In the end, was to leave things as is, and chose for her to go without a bra for the time being.
 
 #（スケジュールへ）
 goto	mikan_qa_exit
@@ -2034,30 +2071,37 @@ goto	mikan_qa_exit
 label	mikan_qa09_b
 #--------------------------------------------------
 
+#「たしかブラジャーって、胸の大きさは関係ないらしいな」
 ＠Itsuki
-「たしかブラジャーって、胸の大きさは関係ないらしいな」
+「I think it doesn’t matter how big your breasts are, if you want to wear a bra」
 
 @mikan			#普通
 
+#「そうなの？」
 ＠Mikan,A01792
-「そうなの？」
+「Is that so?」
 
+#「いずれ着ける物だから、早めにつけて慣れておくのも一つらしい」
 ＠Itsuki
-「いずれ着ける物だから、早めにつけて慣れておくのも一つらしい」
+「For another thing, you’ll wear it eventually anyway, so you may as well get used to it」
 
+#「まぁなんか小さい時の方がデザインを選べて楽しいんだそうだ」
 ＠Itsuki
-「まぁなんか小さい時の方がデザインを選べて楽しいんだそうだ」
+「And, I guess, it seems like fun picking out a design for when you’re so small」
 
+#「へぇ～、じゃあ着けた方がいいのかな」
 ＠Mikan,A01793
-「へぇ～、じゃあ着けた方がいいのかな」
+「Whoa～, then it might be a good idea if I wore one」
 
 @mikan_kusyou		#苦笑
 
+#「実はみかん、まだ恥ずかしいから、どうしようか迷ってるんだけど」
 ＠Mikan,A01794
-「実はみかん、まだ恥ずかしいから、どうしようか迷ってるんだけど」
+「Actually, I was kind of embarrassed, so I wasn’t really sure what to do」
 
+#「なら、着けなくても変じゃないよ。みかんの好きな方でいいんだから」
 ＠Itsuki
-「なら、着けなくても変じゃないよ。みかんの好きな方でいいんだから」
+「In that case, it isn’t weird not to wear it either. You can choose however you like」
 
 @mikan_warai		#笑
 #///////////////////////////////////////////////////////
@@ -2068,23 +2112,28 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#「うんッ！　もう少しこのままがいいっ」
 ＠Mikan,A01795
-「うんッ！　もう少しこのままがいいっ」
+「Alright! I don’t need it just yet」
 
 @mikan_warai2		#笑2
 
+#「あはは♪　良かった、お兄ちゃんにそう言ってもらえて」
 ＠Mikan,A01796
-「あはは♪　良かった、お兄ちゃんにそう言ってもらえて」
+「Ahaha♪　Thank goodness, you were a big help to me, Onii-chan」
 
-無くても変じゃないと言われ、安心したように微笑むみかん。
+#無くても変じゃないと言われ、安心したように微笑むみかん。
+　Mikan smiles wide relaxing a bit, upon telling her it isn’t weird not to.
 
-まぁ結局、みかん本人が良いと思えるのが一番だろう。
+#まぁ結局、みかん本人が良いと思えるのが一番だろう。
+　I guess, in the end, the person who gets the final say should be Mikan herself.
 
 bgm_stop
 #■BG（黒）
 @bg_black
 
-この子がブラジャーという成長の階梯を上るのは、もう少し先になりそうだ。
+#この子がブラジャーという成長の階梯を上るのは、もう少し先になりそうだ。
+　It’ll still be a little while longer, before she matures to take the step of putting on a bra.
 
 window_close
 #（スケジュールへ）
