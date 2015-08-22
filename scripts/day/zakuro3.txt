@@ -10,17 +10,17 @@ label	zakuro_03
 @bgm12			#BGM 12 : メインテーマ
 
 #またある一日のこと。
-　And there's another day like this.
+　Another tale from a certain day.
 
 #少し出来た暇な時間を潰そうと、オレは図書室に足を運んでいた。
-　There is some free times and I was dragged to library by my legs 
+　Wanting to kill some free time I had, my legs carried me to the library room.
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
 #「ん……?」
 ＠Itsuki
-「Nn.....?」
+「Hm...?」
 
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
@@ -31,100 +31,98 @@ label	zakuro_03
 
 #「あ、つっちー発見」
 ＠Zakuro,Q00523
-「Aah, I found Tsucchi.」
+「Ah, Tsu-chi sighting」
 
 #入ろうとした矢先、入れ替わるように、中からZakuroが出てきた。
-　As I am about to enter, Zakuro showed up from inside in instance.
+　As I was about to enter, Zakuro stepped out from inside, trading places with me.
 
 @zakuro_akire		#呆
 
 #「図書室に用事？」
 ＠Zakuro,Q00524
-「Have some business here?」
+「Got stuff to do in the library?」
 
 #「ちょっとした時間つぶしでな。Zakuroもか？」
 ＠Itsuki
-「Well I'm just hanging around a bit. you too?」
+「Just killing some time I have on my hands. You too?」
 
 @zakuro			#普
 
 #「うん。春画本を熟読してたの」
 ＠Zakuro,Q00525
-「Yeah. I'm gonna carefully read some obsence picture book.」
+「Yeah. I was perusing a shunga book」
+
+#TL note: Shunga is a Japanese erotic art style, that’s usually executed on woodblock prints.
 
 #「しゅん………そ、そうか」
 ＠Itsuki
-「Porn.........I-, I see.」
+「Shun... I-I see」
 
 #春画本とは、すなわちエロ本。
-　When I say obsence picture book, litterally it means ero book.
+　A shunga book is, in others words, a porn book.
 
 #ここの図書室には専用のコーナーがあるくらい、そっち系の本も充実している。
-　Well, this library even has some private corner in it, and we also have a good collection of those books.
+　Our library room is rich with those types of books, tucked away in the private corners.
 
 @zakuro_niko		#にこ
 
 #「面白そうなのみつけたから、ちょっと嬉しい」
 ＠Zakuro,Q00526
-「If I find something interesting, it makes me happy.」
+「I’m a bit pleased, since I found an interesting one」
 
 #「つっちーも読む？」
 ＠Zakuro,Q00527
-「Do Tsucchi want to join?」
+「Want to read it too?」
 
 #「……いや、結構。もうリアル性生活だけでお腹いっぱいだから」
 ＠Itsuki
-「......No, thanks. I'm already stuffed with real sex life here.」
+「...No, thanks. I've already had my fill of the real sex life I have here」
 
 @zakuro_metoji		#閉
 
 #「そう、残念。これならつっちーも受けの気分を味わえるのに」
 ＠Zakuro,Q00528
-「Ah I see, what a waste. 」
+「Oh, that’s too bad. With this, you’d be able to enjoy it from the sub’s point of view」
 
 #「…………」
 ＠Itsuki
-「.............」
+「......」
 
 #『背徳のアナルプレイⅥ～お兄ちゃん、お尻の中が気持ちいいよぉ～』
-　'Corrupted Anal Play VI ~Oniichan, My bottom feels really good~' 
-
-#Argh this one sounds lame need some correction. 
+『Corrupted Anal Play VI  ～ Onii-chan, it feels good inside my butt ～』
 
 #「絶対に読みたくねぇ……」
 ＠Itsuki
-「I will never read it......」
+「I never want to read that...」
 
 @zakuro			#普
 
 #「あと、日記書いてた」
 ＠Zakuro,Q00529
-「Then, I'll write a diary.」
+「I also wrote in my diary」
 
 #「日記………あ」
 ＠Itsuki
-「Diary........Ah!?」
-
-#Well the sign to show itsu realize sumthin.
+「Diary... ah」
 
 #あの『Zakuroだらけ』か。
-　That 'Zakuro darake' thingy...
+　Is it the “Riddled with Zakuro”?
 
 #「それじゃ、部屋でまたこれ読み返してくるけど」
 ＠Zakuro,Q00530
-「Well then, I'll go to my room and read this once more.」
+「Well then, I'm going back to my room to read this over again」
 
 @zakuro_akire		#呆
 
 #「つっちーも一緒にくる？」
 ＠Zakuro,Q00531
-「Do Tsucchi want to come along too?」
+「Tsu-chi, wanna come too?」
 
 #--------------------------------------------------
 #■選択肢
 #（１．Come along）
 #（２．Refuse）
-select sel,"Come along","Refuse"
+select sel,"I’ll go","I won’t go"
 #Well change the opt if you dont like it. Cos it may sound wierd or lame.
 if sel=0 then goto youzyo_zaku3_q01_a
 if sel=1 then goto youzyo_zaku3_q01_b
@@ -141,13 +139,11 @@ wait		100
 
 #「絶対イヤだッ、行きたくない！」
 ＠Itsuki
-「I won't go, I don't want to go!」
-
-#Don't know the harsher way to say refusing oneself to go --'
+「No, I refuse! I don’t want to go!」
 
 #「………？　誰に向かって言ってるの？」
 ＠Zakuro,Q00532
-「..........? Who're you talking to?」
+「...? Who exactly are you talking to?」
 
 @bg_black		# 黒
 wait		100
@@ -158,23 +154,23 @@ wait		100
 
 #「……とりあえず、それは一人で楽しんでくれ。周りに迷惑かけないようにな」
 ＠Itsuki
-「......For the time being, Please enjoy that alone. I don't want to get in your reading.」
+「...For now, just go ahead and enjoy it on your own. And try not to be too troublesome」
 
 @zakuro_metoji		#閉
 
 #「うん、残念……」
 ＠Zakuro,Q00533
-「Kay, it's unfortunate.....」
+「Sure, that’s too bad...」
 
 @zakuro_akire		#呆
 
 #「部屋にさえ入れたら、後は無理やりアナルプレイに誘う自信があったのに」
 ＠Zakuro,Q00534
-「If you had accepted, I'd have force you to some anal play later .」
+「If you’d set foot into my room, I was sure I could have forcibly lured you into some anal play」
 
 #「サラッと言うな、そんなこと……」
 ＠Itsuki
-「Don't tell that now, that kind of thing......」
+「Don’t say that so matter-of-factly...」
 
 #SE18　廊下を歩き去る音　※徐々に小さく
 window_close
@@ -183,18 +179,18 @@ wait		1000
 @SE18			#廊下を歩き去る音
 
 #心持ち残念そうに本を抱え、Zakuroは部屋に戻っていく。
-　With some dissapointment, she hold her books and return to her room.
+　Zakuro went back to her room, cradling the book looking slightly disappointed.
 
 #「危うく捕獲されるところだった……」
 ＠Itsuki
-「I almost get caught in something dangerous....」
+「I narrowly escaped being captured there...」
 
 bgm_stop
 #■BG（黒）
 @bg_rouka		# 廊下
 
 #何か改めて卑猥本が眠る図書室に入る気も失せ、オレも部屋に引き返した。
-　It seems checking some ero book sobers me up and I return to my room.
+　I retraced my way back to my room, losing the will to check out the library rife with obscene books.
 
 @bg_black
 wait		1000
@@ -209,31 +205,29 @@ label		youzyo_zaku3_q01_b
 
 #「悪いけど、遠慮する。絶対何かありそうだ」
 ＠Itsuki
-「I'm sorry, not this time. I sense something in it.」
-
-#Ummm can't think off any better, need rephrase
+「I'm sorry, but not this time. I can sense something’s amiss」
 
 @zakuro_iya		#嫌
 
 #「……鋭い」
 ＠Zakuro,Q00535
-「.......Sharp.」
+「...Sharp」
 
 @zakuro_metoji		#閉
 
 #「分かった。アナルプレイしようと思ったけど、今日は諦める」
 ＠Zakuro,Q00536
-「I'll tell you. I've been thinking about some anal play, but I'll let you go for today.」
+「Fine. I thought we could do some anal play, but I’ll give up for today」
 
 #「あぁ、そうしてくれ……」
 ＠Itsuki
-「Aah.., please do so.」
+「Yeah... please do...」
 
 @zakuro			#普
 
 #「じゃ」
 ＠Zakuro,Q00537
-「Later.」
+「Later」
 
 #SE18　廊下を歩き去る音　※徐々に小さく
 window_close
@@ -242,11 +236,11 @@ wait		1000
 @SE18			#廊下を歩き去る音
 
 #本を抱え、トコトコと廊下を歩いていく。
-　While holding the book, she walks down the hallway.
+　She walks briskly down the hall, cradling the book.
 
 #「……やっぱZakuroの事だから、ただ読むだけじゃ済まないんだろうな」
 ＠Itsuki
-「......As I thought if it's with Zakuro, it won't be just a simple reading.」
+「...It’s Zakuro after all, so you can’t expect it to end with just reading」
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 #■BG（黒）
@@ -255,56 +249,55 @@ bgm_stop
 @SE06			#部屋のドア開く音（ガチャ）
 
 #妙な興味を振り切り、代わりに図書室へ入る。
-　After escaping from bad things, I enter the library.
+　Shaking off the strange allure, I went into the library room instead.
 
 #■BG（図書室）
 @bg_library		# 図書室
 
 #「日記書いてたって言ったな」
 ＠Itsuki
-「She wrote the diary she said.」
+「She said she was writing in her diary」
 
 #そっちへの探究心は抑えきれず、件の本棚を開けてみた。
-　With some motivation, I search it down at the aisle.
+　I tried looking up the usual shelf, unable to contain my curiosity.
 
 @bgm08
 #@bgmk12			#BGM K12 : 興味津々のテーマ
 
 #『Zakuroだらけvol.4』
-　'Zakuro darake vol.4'
+『Riddled with Zakuro vol. 4』
 
 #「ふ、増えてる………３までだったのに」
 ＠Itsuki
-「Fuh, it increased...... it was only 3 before.」
-
-#Err if you can make the last phrase into something more like a complain.
+「Hmph, there’s more... it was only 3 before」
 
 #とりあえず最新の物を出して、広げてみる。
-　Well for the time being let's just open the newest.
+　I settle on taking the latest one, and open it up.
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 #（１月７日、『Zakuroダラけ～』の日）
-　(January 7th, 'Zakuro darake~' day)
+　(January 7th, “RiDdLeD WiTh ZaKuRo～” day)
 
 #下記は台本用表記。ゲーム内ではネームプレートを無くして二重カギカッコ扱い
 
 #『雫に言われて、新しい院長のつっちーにフェラチオをした』
 ＠　,Q00538
-'I gave the new director, Tsucchi, a blow job because Shizuku told me to.'
+『I gave the new director, Tsu-chi, a blowjob today, after Shizuku said to』
 
 #「お……オレが出てきた。新しいな」
 ＠Itsuki
-「Oh..... I'm in it. It's new.」 (note: alternative translation in comments)
+「Oh... she mentioned me. It’s recent」
 
 #or
 #「Oh..... I'm being mentioned. So refreshing.」
 
 #『全然素人、あっという間に射精した腰抜け。でも濃さとサイズはよかったから、７９点』
 ＠　,Q00539
-'He's a noob, after ejaculating it went limp. But for the thickness and the size , 79 point' (note: alternative translation in comments)
+『He’s a total amateur, a coward who came in the blink of an eye. But I liked his size and virility, so he gets a 79』
 
+#'He's a noob, after ejaculating it went limp. But for the thickness and the size , 79 point' (note: alternative translation in comments)
 #or 
 #  'He's a complete amateur, it went limp just like that after ejaculating. But the thickness and the size I'll say it's 79 point'
 
@@ -313,20 +306,21 @@ bgm_stop
 
 #「こ、腰抜け……」
 ＠Itsuki
-「Li-,Limp.......」
+「C-coward...」
 
 #「……確かに、Zakuroに比べたら全然青かっただろうけど」
 ＠Itsuki
-「......Certainly, I'm a complete amateur if compared to Zakuro'」
+「It’s true that I was a complete amateur compared to Zakuro, but...」
 
 #腰抜けは傷ついた……
-　I'm hurt to be said like that......
+　It hurts to be called a coward...
 
 #Don't know how to put the real jap into eng....
 
 #名誉のためにもこれは、リベンジの機会を図った方がいいのだろうか。
-　For my honour, maybe I should take a chance for revenge. (note. alternative translation in comments)
+　For the sake of my honour, maybe I ought to plot my revenge over this.
 
+#For my honour, maybe I should take a chance for revenge. (note. alternative translation in comments)
 #or
 #Maybe I should plan to take a revenge for the sake of my honour.
 
@@ -342,40 +336,48 @@ wait		500
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#「ぐふぁッ！？」
 ＠Itsuki
-「ぐふぁッ!?」
+「Gufah!?」
 
 #次のページを見て噴いた。
-　I was startled when I see the next page.
+　I blurted out at the next page.
 
 #（図解：『つっちーのペニス』）
-　(Illustration : 'Tsucchi's Penis')
+　(Illustration: 'Tsu-chi's Penis')
 
 #「え、絵日記になっとるッ！」
 ＠Itsuki
-「Eh? It becomes a picture diary!」
+「Huh, it became a picture diary!」
 
 #ページいっぱいに、おそらくオレの興奮状態の局部がかなりリアルに描かれていた。
-　By taking a lot of spaces, I think she had drawn my 'thing' quite realistic.
+　Over the entire page, she’d drawn my privates in an aroused state, in quite a realistic fashion.
 
+#By taking a lot of spaces, I think she had drawn my 'thing' quite realistic.
 #No bgm sound of turning paper, so i assume just in one paper.
 
 #下記は台本用表記。ゲーム内ではネームプレートを無くして二重カギカッコ扱い
 
 #『つっちーのおちんちん。太さも硬さも一生懸命。後は我慢強さだけ覚えたら高得点かも』
 ＠　,Q00540
-'Tsucchi's penis. It's hard, thick, and lively (?). After that his endurance might also get high score. (?)
+‘Tsu-chi’s dick. At greatest thickness and hardness. It might score high, if it could get more patient’
+
+#'Tsucchi's penis. It's hard, thick, and lively (?). After that his endurance might also get high score. (?)
 
 #「人の性器を批評するなよッ……」
 ＠Itsuki
-「Please don't make a review/analysis/comment on other's genital/vital place/private place..... 」
+「Don’t critique my genitals...!」
 
 #「そしてすげー上手い絵がイヤ過ぎる……」
 ＠Itsuki
-「And with this splendid drawing annoys me so much......」
+「And I can’t stand how well-drawn it is...」
+
+#「And with this splendid drawing annoys me so much......」
 
 #色んな意味で目を背けたいので、とっとと別のページへ。
-　I want to avert my eyes in many meaning, quickly turn into another page. (note: alternative translation in comments)
+　For various reasons I want to avert my eyes, so I speedily flip to another page.
+
+#I want to avert my eyes in many meaning, quickly turn into another page. (note: alternative translation in comments)
 
 #or
 #I don't want to look at it by many reasons, so I hurriedly turn into another page.
@@ -384,29 +386,29 @@ wait		500
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 #（２月２４日、『白血球ＶＳZakuroだらけ』の日）
-　(February 24th, 'White Blood Cell Vs Zakuro darake' Day)
+　(February 24th, 'White blood cells vs. Zakuro riddled everywhere' Day)
 
 #…………。
-　.............
+　.........
 
 #………ばい菌？
-　........... Germ?
+　......As in, germs?
 
 #『今日の調教はいちごと一緒だった。前よりいちごは上達している。まだ私が上だけど、こっちも何度かイカされた』
 ＠　,Q00541
-'Today's training is with Ichigo. She progressed a lot more than before. She's still not in my level yet but I've been trained a lot too (?).
+‘Today's training was with Ichigo. She progressed a a lot from before. She's still not at my level yet, but I came several times too.’
 
 #『快感に素直に悶えるいちごはペットみたいで可愛い。気持ちよかったし、いちごとエッチするの好きになるかも』
 ＠　,Q00542
-'Easy to worry Ichigo is very cute just like pet. I felt good, I might take a liking to have sex with Ichigo.
+‘Ichigo, who’s easily derailed by the pleasure, is like a cute pet. It felt good, I might take a liking to having sex with Ichigo.’
 
 #「……そんなことしてたのか。気付かなかった」
 ＠Itsuki
-「......Such a thing happened. I didn't know about it.」
+「...They were doing that. I didn't even know about it」
 
 #「まぁこの二人なら、案外コンビとしてはアリかもな……」
 ＠Itsuki
-「Well if its this two kid, there might be such an unexpected combination.....」
+「Well with these two, they might not make for such a bad combo...」
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
@@ -421,80 +423,91 @@ wait		500
 「Geh!?」
 
 #絵の代わりに、いちごとZakuroが半裸で乱れ合っている写真が貼ってあった。
-　Instead of pictures, they put some photo of Ichigo and Zakuro half naked together.
+　Rather than a drawing, there’s a pasted photo of Ichigo and Zakuro tangled up half-naked together.
 
 #Zakuroがいちごに被さって攻め、いちごも感じながら反撃している様子が手に取るように伝わってくる。
-　Zakuro cover Ichigo, and Ichigo also felt her so she connects her arm against Zakuro. (?) (note: plenty of comments here)
+　It’s a perfect display of Zakuro on top feeling up Ichigo, and a pleasured Ichigo returning the favour.
 
+#Zakuro cover Ichigo, and Ichigo also felt her so she connects her arm against Zakuro. (?) (note: plenty of comments here)
 #or
 #Zakuro was on top, and Ichigo connected her arm with Zakuro as a proof of pleasure.
 #Well hit me on these, don't know bout these. So i just put in what is in my mind.
 
 #「……し、しかもなんて際どいアングルで……」
 ＠Itsuki
-「......B-, but why in a such dangerous angle..........」
+「...A-and what a risque angle to take it...」
 
 #撮ったのは雫さんだろう。
-　It is Shizuku who took it, isn't it.
+　Shizuku’s the one who took it, I presume.
 
 #当然、モザイクなんかが入っているはずも無く…
-　Naturally, this is a reason why there's no need of sensor.
+　Of course, there wouldn’t be any sort of censoring...
 
 #「他に行こう……他に…」
 ＠Itsuki
-「Let's see the others.... the others...」
+「Let’s find something else... something else...」
+
+#「Let's see the others.... the others...」
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 #（３月２日、『ワゴンセールに群がるZakuroだらけ』の日）
-　( March 2nd, 'To swarm the wagon sale Zakuro darake' day
+　(March 2nd, 'Zakuro riddled and swarming at a wagon sale' day)
 
 #『てるてるぼ～ず、てるぼ～ず。今夜もいい夢見せてくれ～♪』
 ＠　,Q00543
-'Teru teru Bo~Zu, Teru Bo~Zu. Please give me a good dream tonight~♪'
+‘Teru-teru-bozu, teru bozu. Do give me a good dream tonight～♪’
+
+#TL note: Zakuro sings a nursery rhyme to a teru teru bozu doll, traditionally hung outside a window to ask for sunshine the next day.
+
+#'Teru teru Bo~Zu, Teru Bo~Zu. Please give me a good dream tonight~♪'
 
 #「……急に平和になったな」
 ＠Itsuki
-「......so it was suddenly becoming peaceful.」
+「...Much more peaceful all of a sudden」
+
+#「......so it was suddenly becoming peaceful.」
 
 #「とりあえず、それはてるてるぼーずの役目じゃないが……」
 ＠Itsuki
-「First of all, That is not a Teru Teru Bo-Zu's role you know.....」
+「First of all, that’s not a teru teru bozu’s actual role...」
+
+#「First of all, That is not a Teru Teru Bo-Zu's role you know.....」
 
 #SE79　ページを捲る音（ペラッ）
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 #（３月３日、『反乱軍はZakuroだらけ』の日）
-　( March 3rd 'Rebel army is Zakuro darake' day)
+　(March 3rd 'The rebel army is riddled with Zakuro' day)
 
 #『……ぼーず役に立たない。ヤな夢を見た』
 ＠　,Q00544
-'.........Bo-Zu is useless. I saw a bad dream'
+'...The bozu is useless. I had a bad dream'
 
 #『あんな夢、今更見ても仕方ないのに………』
 ＠　,Q00545
-' That kind of dream, It is no use to see it right now.....'
+'Even if I dream about that now, there’s nothing I can do about it...'
 
 #「そりゃてるてるぼーずだしなぁ……」
 ＠Itsuki
-「Don't take that out at Teru Teru Bo-Zu....」
+「Well, what do you expect from a teru teru bozu...」
 
 #そこまで読んで、日記を閉じた。
-　I read it until that segment, and I close the book.
+　I read up until that point, and close the book.
 
 bgm_stop
 
 #「……『あんな夢』か。何か含みある言い方だな」
 ＠Itsuki
-「....... 'That dream' ? It's like there a hidden message when she put it that way.」
+「...'Dreaming about what'? It's like there’s a deeper meaning behind it」
 
 #気にはなったが、まさか勝手に読んだ日記の内容を本人に問う事も出来ない。
-　I'm curious about it though, but I can't ask the real person about it when I read her diary without permission.
+　I'm curious about it, but I can't ask her about it when I read her diary without permission.
 
 #「さて、結構時間も経ってるし。そろそろ戻るか……」
 ＠Itsuki
-「Well then, a lot of time have passed. Let's go back....」
+「Alright then, a lot of time has passed. I guess I’ll go back...」
 
 @bg_black
 
