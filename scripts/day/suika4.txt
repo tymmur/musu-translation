@@ -1,3 +1,4 @@
+#TLSTATUS: File is edited by RaurosFalls
 label	suika_04
 
 #--------------------------------------------------
@@ -13,7 +14,7 @@ label	suika_04
 @bg_door		# ドア前
 
 #トイレで用を足して外に出ると、洗面所ですいかが鏡を見て髪を整えていた。
-　I finished my business in the toilet and went outside, and I saw Suika fixing her hair while looking at the bathroom mirror.
+　I finish my business at the toilet, and find Suika fixing her hair in front of the bathroom mirror.
 
 #@suika_small
 #@suika_middle		# 中間
@@ -24,33 +25,37 @@ label	suika_04
 #＠すいか,R00447
 #「あ、使いますか？　もう終わりましたから」
 ＠Suika,R00447
-「Ah, do you want to use it? I'm done.」
+「Ah, do you want to use it? I'm done now」
 
 #オレの姿を認め、すいかはスッと鏡の前からどいた。
-　Noticing me, Suika quickly stepped away from the mirror.
+　She noticed me and moved away from the mirror.
 
 #＠樹
 #「あ、いや。中で手は洗ったから、大丈夫だ」
 ＠Itsuki
-「Ah, no. I washed my hands inside so it's okay.」
+「Ah, no. It’s OK, I washed my hands inside」
 
 #@suika			#普
 
 #＠すいか,R00448
 #「そうですか……」
 ＠Suika,R00448
-「I see......」
+「Oh, you did...」
 
 #@suika_
 
 #オレはすいかの脇を通り過ぎようとするが、もう終わったというのは本当だったらしい。
-　I passed by Suika, but it looked like she really was finished.
+　I make to pass beside Suika, but it looks like she meant that was she was done.
+
+#I passed by Suika, but it looked like she really was finished.
 
 #CH（すいか立ちポーズ）
 @SE18			#廊下を歩き去る音
 
 #すいかはオレと並んで廊下へ出た。
-　Suika stood with me and we went to the corridor.
+　Suika went out to the hall alongside me.
+
+#Suika stood with me and we went to the corridor.
 
 @bg_black
 wait		1000
@@ -60,13 +65,19 @@ wait		1000
 #＠樹
 #「どこかに行くのか？」
 ＠Itsuki
-「Where are you going?」
+「Going somewhere?」
+
+#「Where are you going?」
 
 #すいかが髪を整えているところなんて、初めて見たな。
-　It's the first time I've seen Suika fixing her hair.
+　I’ve never come upon Suika fixing her hair before.
+
+#It's the first time I've seen Suika fixing her hair.
 
 #普段はジャージで生活してたりするけど、やっぱり女の子、ということだろうか。
-　Normally she lives her life wearing a jersey, but she is a girl after all.
+　She’ll often be seen wearing her track suit, but she is a girl after all.
+
+#Normally she lives her life wearing a jersey, but she is a girl after all.
 
 @suika_middle		# 中間
 @suika_shifuku
@@ -75,36 +86,48 @@ wait		1000
 #＠すいか,R00449
 #「ええ。今日はこれから接待の予定が入ってますから」
 ＠Suika,R00449
-「Yeah, today I have plans for doing service.」
+「Yeah. I have some service to do soon today」
+
+#「Yeah, today I have plans for doing service.」
 
 #すいかはそう言って、穏やかに微笑む。
-　Suika said that and calmly smiled.
+　Suika says that and smiles sweetly.
+
+#Suika said that and calmly smiled.
 
 #＠樹
 #「……そうか」
 ＠Itsuki
-「......I see.」
+「...Oh, OK」
 
 #あまりに普通に言うものだから、一瞬、なんのことか考えてしまった。
-　She said it normally, so for a moment I had to think about what it really was.
+　She said it so normally, for a moment I didn’t realize what she was talking about.
 
 #ここで接待といえば、売春のことなのだ。
-　Here, what is called "service" is actually prostitution.
+　To say “service” here, means to say prostitution.
+
+#Here, what is called "service" is actually prostitution.
 
 #しかし、すいかの表情からは、親に虐待されて施設に入り、売春をしているという悲愴感はうかがえない。
-　But on Suika's expression, there were no pathetic feelings shown of being treated badly by her parents, then entering this institute and becoming a prostitute.
+　But for Suika, who came here after being abused by her parents, there was no sorrow in her expression at being prostituted.
+
+#But on Suika's expression, there were no pathetic feelings shown of being treated badly by her parents, then entering this institute and becoming a prostitute.
 
 @suika_warai		#笑
 
 #＠すいか,R00450
 #「やっぱり、お客様にはがっかりしてほしくないですから、できるだけ可愛くしたいですよね……」
 ＠Suika,R00450
-「I don't want to disappoint the customer, so I want to be as cute as I can......」
+「‘Cause you know, I don’t want the customer to be disappointed, so I want to be as cute as possible...」
+
+#「I don't want to disappoint the customer, so I want to be as cute as I can......」
 
 #＠樹
 #「そんなもんか」
 ＠Itsuki
-「Do you?」
+「Is that how it is?」
+
+#「Do you?」
 
 @suika_komariwarai	#困笑
 
@@ -115,80 +138,100 @@ wait		1000
 #「……」
 
 #すいかの声にやはり悲愴な響きはなく、そんな現実を淡々と受け入れている様子だった。
-　There was no ring of sadness in Suika's voice, she lightly accepted that reality.
+　There was no note of sorrow in Suika's voice, as she lived that reality like it was nothing.
+
+#There was no ring of sadness in Suika's voice, she lightly accepted that reality.
 
 #それだけに、オレは言葉に詰まってしまう。
-　I was at a loss for words because of that.
+　Because of that, I was at a loss for words.
+
+#I was at a loss for words because of that.
 
 @suika_kanashimi	#哀
 
 #＠すいか,R00452
 #「お客様には事前に身体のことは言ってあるはずなんですけど、実際に見てイヤな顔をする人もいますから……」
 ＠Suika,R00452
-「The customers are probably told about my body beforehand, but there are some who have a disgusted face when they look at me anyways......」
+「Usually the customer’s told about my body beforehand, but some people look disgusted when they see me anyway...」
+
+#「The customers are probably told about my body beforehand, but there are some who have a disgusted face when they look at me anyways......」
 
 #＠樹
 #「そうか……」
 ＠Itsuki
-「I see......」
+「Oh, I see...」
 
 @suika_yorokobi		#喜
 
 #＠すいか,R00453
 #「でも、それがイイって言ってくれる人もいるんですよ」
 ＠Suika,R00453
-「But there are also people who say that that's okay.」
+「But there’s also people who say they don’t mind」
+
+#「But there are also people who say that that's okay.」
 
 @suika_warai		#笑
 
 #＠すいか,R00454
 #「まあ変態だとは思いますけど、私みたいな子からすればホントにありがたいです」
 ＠Suika,R00454
-「Well I think that's perverted, but I'm really thankful that they choose someone like me.」
+「Well, they may be perverts, but I appreciate that they’d get off to a kid like me」
+
+#「Well I think that's perverted, but I'm really thankful that they choose someone like me.」
 
 @suika_yorokobi		#喜
 
 #＠すいか,R00455
 #「……あ、それじゃ、私はこっちですから」
 ＠Suika,R00455
-「......Ah, well, I'll be going this way.」
+「...Ah, well then, I'm going this way」
 
 #＠樹
 #「お、おう」
 ＠Itsuki
-「O, oh.」
+「S-sure」
 
 @suika_warai		#笑
 
 #＠すいか,R00456
 #「頑張ってきますね！」
 ＠Suika,R00456
-「I'm going to work hard!」
+「I'll do my best!」
 
 bgm_stop
 @suika_
 
 #にっこりとオレに微笑みかけ、すいかは玄関の方へと向かってしまう。
-　Suika smiled at me, and went to the entranceway.
+　Suika gives me a broad grin, and heads off to the entranceway.
+
+#Suika smiled at me, and went to the entranceway.
 
 #オレは足を止め、その後ろ姿を見送ることしかできなかった。
-　I stopped moving, and couldn't do anything but see her off from behind.
+　I came to a halt, unable to do anything but watch her walk away.
+
+#I stopped moving, and couldn't do anything but see her off from behind.
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 #なんだろう、この気持ちは……。
-　What is this feeling......?
+　What is this feeling...?
 
 #すいかにとってはやっぱり、この生活が幸せなのだろうか？
-　Is this life really happiness for Suika?
+　Has Suika really found happiness in this life?
+
+#Is this life really happiness for Suika?
 
 #それはまあ、親に虐待されていたときに比べればマシに決まってるだろうけど――。
-　But that's obvious if you compare it to when she was treated badly by her parents---.
+　Well obviously it’s better than the abuse she suffered under her parents, but――.
+
+#But that's obvious if you compare it to when she was treated badly by her parents---.
 
 bgm_stop
 
 #だけど、すいかは本当にこのままでいいのだろうか……？
-　But is Suika really okay like this......?
+　Still, is Suika really OK with this...?
+
+#But is Suika really okay like this......?
 
 #■BG（黒）
 @bg_black
