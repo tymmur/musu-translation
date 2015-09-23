@@ -17,9 +17,12 @@ t_mikan_mizugi_cnt=t_mikan_mizugi_cnt+1
 
 @bg_black
 
-add_karada=15*t_mikan_mizugi_cnt
-add_kokoro=25*t_mikan_mizugi_cnt
-add_miryoku=35*t_mikan_mizugi_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 3
+add_karada=add_karada+15*t_mikan_mizugi_cnt
+add_kokoro=add_kokoro+25*t_mikan_mizugi_cnt
+add_miryoku=add_miryoku+35*t_mikan_mizugi_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-500*t_mikan_mizugi_cnt
 seishin=seishin-500*t_mikan_mizugi_cnt

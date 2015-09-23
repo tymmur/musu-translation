@@ -13,8 +13,11 @@ if t_ichigo_insert_cnt>2 then gosub training_ichigo_insert_04
 if skip_untranslated_training=1 then return
 t_ichigo_insert_cnt=t_ichigo_insert_cnt+1
 
-add_karada=10*t_ichigo_insert_cnt
-add_miryoku=20*t_ichigo_insert_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 2
+add_karada=add_karada+10*t_ichigo_insert_cnt
+add_miryoku=add_miryoku+20*t_ichigo_insert_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-40*t_ichigo_insert_cnt
 seishin=seishin-30*t_ichigo_insert_cnt

@@ -14,8 +14,11 @@ if t_karin_anal_cnt>2 then gosub training_karin_anal_04
 if skip_untranslated_training=1 then return
 t_karin_anal_cnt=t_karin_anal_cnt+1
 
-add_kokoro=30*t_karin_anal_cnt
-add_miryoku=10*t_karin_anal_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 2
+add_kokoro=add_kokoro+30*t_karin_anal_cnt
+add_miryoku=add_miryoku+10*t_karin_anal_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-45*t_karin_anal_cnt
 seishin=seishin-60*t_karin_anal_cnt
