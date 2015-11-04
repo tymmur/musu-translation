@@ -1,17 +1,23 @@
 label	oosama
 
 #双子イベント
+#Twins event
 #発生条件：未定（もしくは強制イベント）
+#Condition for occurrence: undecided (might be a compulsory event)
 #発生期間：６月初頭～７月２０日（終業式）までの、雨の平日。
+#Time for occurence: a rainy day between start of June to 20th July (closing ceremony)
 #※梅雨期間です
+#The time of the rainy season
 #------------------------------------------------------------
 bgm_stop
 #■BG（雨空）
 @bg_gate_a
 
-今日も外は雨が降り続いていた。
+#今日も外は雨が降り続いていた。
+　It was raining outside all day today as usual.
 
-世間で言う梅雨の季節なので、それが明けるまではジメジメした天気が続くだろう。
+#世間で言う梅雨の季節なので、それが明けるまではジメジメした天気が続くだろう。
+　It’s termed the rainy season for a reason, as I’m sure it’ll stay gloomy until it’s over.
 
 #■BG（リビング）
 @bgm12
@@ -20,89 +26,110 @@ bgm_stop
 @ichigo
 @karin_ikari
 
+#「あー、退屈ーー……」
 ＠Ichigo,O00736
-「あー、退屈ーー……」
+「Ahh, so bored...」
 
-窓の外に向けて、いちごは恨み言を呟いていた。
+#窓の外に向けて、いちごは恨み言を呟いていた。
+　Ichigo whispered reproachful words, looking out the window.
 
+#「屋内でも構わずはしゃいでるじゃない。あなたは」
 ＠Karin,P00573
-「屋内でも構わずはしゃいでるじゃない。あなたは」
+「You’re able to gallivant perfectly fine indoors, aren’t you?」
 
 @ichigo_ikari
 
+#「もう飽きちゃったの。この前は花瓶を倒しちゃったし」
 ＠Ichigo,O00737
-「もう飽きちゃったの。この前は花瓶を倒しちゃったし」
+「I got tired of it by now. I knocked over a vase a little while ago」
 
 @mikan
 
+#「割れてたら怪我してたよ。あんまり家の中で走り回らないようにしないと」
 ＠Mikan,A00684
-「割れてたら怪我してたよ。あんまり家の中で走り回らないようにしないと」
+「I got hurt after it smashed. We have to make sure not to run around inside too much」
 
 @ichigo_kanashimi
 
+#「ジッとしてるのかぁ……」
 ＠Ichigo,O00738
-「ジッとしてるのかぁ……」
+「We have to stay put, huh...」
 
-同じことを美雨にも怒られ、さすがにいちごは懲りているようだ。
+#同じことを美雨にも怒られ、さすがにいちごは懲りているようだ。
+　Ichigo looks like she learned her lesson, after Miu got angry at her for doing that.
 
-……まぁ何日持つか分からないが。
+#……まぁ何日持つか分からないが。
+　...Well, I’m not sure how long that’ll last.
 
 @karin
 
+#「普段騒がしいんだから、たまにはいいわ」
 ＠Karin,P00574
-「普段騒がしいんだから、たまにはいいわ」
+「You’re always making a ruckus, it would do you good」
 
 @ichigo_ikari
 
+#「もう、せっかくリビング居るんだから、かりんもお茶なんか飲んでないで遊ぼうよぉ！」
 ＠Ichigo,O00739
-「もう、せっかくリビング居るんだから、かりんもお茶なんか飲んでないで遊ぼうよぉ！」
+「Jeez, I finally saw you in the living room, so stop drinking tea and come play, Karin!」
 
 @karin_niko
 
+#「結構よ。私はこうしてみかんといるだけで、十分有意義な時間を過ごしてるもの」
 ＠Karin,P00575
-「結構よ。私はこうしてみかんといるだけで、十分有意義な時間を過ごしてるもの」
+「No thanks. I’m perfectly fine like this, just spending time together with Mikan」
 
 @mikan_komaru
 
+#「そ、そうなんだ……。でもみかん、かりんちゃんの前で座ってるだけだけど……」
 ＠Mikan,A00685
-「そ、そうなんだ……。でもみかん、かりんちゃんの前で座ってるだけだけど……」
+「I-is that so...? But all I’m doing is sitting in front of you, Karin-chan...」
 
 @karin_warai
 
+#「あぁ…それが何よりの至福よねぇ。外野が居なければ」
 ＠Karin,P00576
-「あぁ…それが何よりの至福よねぇ。外野が居なければ」
+「Right... there’s no greater bliss than that. I don’t want intruders」
 
 @mikan
 
+#「でも、いちごちゃんの気持ち分かるよ。外に出れないの、やっぱりちょっと退屈だもん」
 ＠Mikan,A00686
-「でも、いちごちゃんの気持ち分かるよ。外に出れないの、やっぱりちょっと退屈だもん」
+「But I understand how Ichigo-chan feels. It’s pretty boring when you can’t go outside, you know」
 
-みかんが居れば満足なかりんと違い、この二人にとってジッとしている時間は退屈らしい。
+#みかんが居れば満足なかりんと違い、この二人にとってジッとしている時間は退屈らしい。
+　As opposed to Karin who’s fine if Mikan’s there, the other two seem bored with having to stay put.
 
-テレビも面白い番組はやっていないし、
-ビデオもこの梅雨期間にほとんど見尽くしてしまっている。
+#テレビも面白い番組はやっていないし、
+#ビデオもこの梅雨期間にほとんど見尽くしてしまっている。
+　There’s nothing interesting on TV, and we’ve practically gone through all our videos through the rainy season.
 
 @ichigo_takurami
 
+#「んふふ～♪」
 ＠Ichigo,O00740
-「んふふ～♪」
+「Mfufuh～♪」
 
 @karin_keno
 
+#「……？　なによ、変な笑いかたして……」
 ＠Karin,P00577
-「……？　なによ、変な笑いかたして……」
+「...? What? Don’t laugh weird like that...」
 
-遊ぶ対象の無かったいちごが、紅茶とみかんで時間を潰すかりんの元へ擦り寄っていった。
+#遊ぶ対象の無かったいちごが、紅茶とみかんで時間を潰すかりんの元へ擦り寄っていった。
+　Ichigo, having no one to play with, drew closer to Karin who was killing time with Mikan and tea.
 
 @ichigo_warai
 
+#「かりんっ、遊ぼッ♪」
 ＠Ichigo,O00741
-「かりんっ、遊ぼッ♪」
+「Karin, let’s play! ♪」
 
 @karin_odoroki
 
+#「え……？　きゃあ！？」
 ＠Karin,P00578
-「え……？　きゃあ！？」
+「Eh...? Kyahh!?」
 
 @ichigo_
 @karin_
@@ -110,70 +137,92 @@ bgm_stop
 #SE36　勢いよく抱きつく音（バフッ！）
 @se36
 
-不意打ち気味に、いちごがかりんを背後から抱きしめた。
+#不意打ち気味に、いちごがかりんを背後から抱きしめた。
+　Ichigo hugged Karin from behind, lunging with a surprise attack.
 
+#「ちょ、ちょっと危ないでしょっ。紅茶を持ってたらヤケドしてた………えっ」
 ＠Karin,P00579
-「ちょ、ちょっと危ないでしょっ。紅茶を持ってたらヤケドしてた………えっ」
+「H-hey, watch it, that’s dangerous! I’ll spill my tea and get burned... huh!」
 
+#「かりんが遊んでくれないから、いちごがかりん〝で〟遊ぼうっと♪」
 ＠Ichigo,O00742
-「かりんが遊んでくれないから、いちごがかりん〝で〟遊ぼうっと♪」
+「Karin doesn’t want to play with me, so I’m going to “play” with Karin ♪」
 
-手がわき腹や内腿の方に下がっていく。
+#手がわき腹や内腿の方に下がっていく。
+　Her hands fall to her flank and inner thighs.
 
+#「い、いちご、やめっ……んくっ……あはは！　あはははっ！」
 ＠Karin,P00580
-「い、いちご、やめっ……んくっ……あはは！　あはははっ！」
+「I-Ichigo, stop... nrgh... ahaha! Ahahaha!」
 
+#「えいっ、こちょこちょこちょ～～♪」
 ＠Ichigo,O00743
-「えいっ、こちょこちょこちょ～～♪」
+「Hey, cootchy cootchy coo～～♪」
 
 @mikan_komaru
 
+#「……いちごちゃん……？　何してるの」
 ＠Mikan,A00687
-「……いちごちゃん……？　何してるの」
+「...Ichigo-chan...? What are you doing?」
 
+#「あはははっ、くふふっ……そ、そうよ、やめっ……あふふっ、あはは！」
 ＠Karin,P00581
-「あはははっ、くふふっ……そ、そうよ、やめっ……あふふっ、あはは！」
+「Ahahaha, krfufuh... s-she’s right, stop... afufh, ahaha!」
 
-背後を取ったいちごは完全にかりんに組み付き、こそばい場所を撫で回していく。
+#背後を取ったいちごは完全にかりんに組み付き、こそばい場所を撫で回していく。
+　Ichigo, fully grappling Karin draped over her from behind, feels up her ticklish spots.
 
+#「だって退屈なんだもん～。何か面白いことしたいよぉ」
 ＠Ichigo,O00744
-「だって退屈なんだもん～。何か面白いことしたいよぉ」
+「Come on, I’m bored you know～. I want to do something fun」
 
+#「だ、だからって……あはははっ。く、くすぐるのは違うでしょぉ……んくっ、くふふ！」
 ＠Karin,P00582
-「だ、だからって……あはははっ。く、くすぐるのは違うでしょぉ……んくっ、くふふ！」
+「I-I told you... ahahaha! T-that’s not a reason to tickle mee... ngh, kufufuh!」
 
+#「えいっ、もっといっぱい撫で摩っちゃうよ！」
 ＠Ichigo,O00745
-「えいっ、もっといっぱい撫で摩っちゃうよ！」
+「Come on now, I’ll rub and stroke you some more!」
 
-身体を捩るかりんの服を緩めながら、いちごはスカートも大きく捲り上げる。
+#身体を捩るかりんの服を緩めながら、いちごはスカートも大きく捲り上げる。
+　As Karin struggles Ichigo loosens up her clothes, and rolls up her skirt very high.
 
+#「や、やめっ、あははは！　ははっ、くふふっ……だ、だめ、力が入らないぃ～、あはははっ」
 ＠Karin,P00583
-「や、やめっ、あははは！　ははっ、くふふっ……だ、だめ、力が入らないぃ～、あはははっ」
+「S-stop, ahahaha! Haha, snicker... oh n-noo, I can’t moveee～, ahahaha!」
 
+#「うりうり～♪　あ、かりんお胸ちょっと大きい～。見ちゃえ見ちゃえ～♪」
 ＠Ichigo,O00746
-「うりうり～♪　あ、かりんお胸ちょっと大きい～。見ちゃえ見ちゃえ～♪」
+「There ya go～♪　Ah, Karin’s got pretty big boobs～. Let’s have a look～♪」
 
+#「ひゃふふふ！　あははっ、だ、ダメよぉ、あははは！　い、いいかげんにぃ……んくくぅ！」
 ＠Karin,P00584
-「ひゃふふふ！　あははっ、だ、ダメよぉ、あははは！　い、いいかげんにぃ……んくくぅ！」
+「Hyafufufuh! Ahaha, no you c-can’t, ahahaha! Q-quit it... chuckle!」
 
 @mikan_kanashimi
 
+#「いちごちゃん、内容が変わってきてるよぉ………どうしよ、お兄ちゃん」
 ＠Mikan,A00688
-「いちごちゃん、内容が変わってきてるよぉ………どうしよ、お兄ちゃん」
+「Ichigo-chan, you started doing something else... what do we do, Onii-chan?」
 
+#「ん……？」
 ＠Itsuki
-「ん……？」
+「Hm...?」
 
-みかんに言葉を向けられ、オレはこの間もずっと読んでいた新聞から顔を上げた。
+#みかんに言葉を向けられ、オレはこの間もずっと読んでいた新聞から顔を上げた。
+　At Mikan’s word, I looked up from the newspaper that I’d been reading all this time.
 
+#「あはははっ、あはは！　や、やぁっ……ちょっと見ないでぇ～、くふふっ！　し、下着が……あははっ、はははっ！」
 ＠Karin,P00585
-「あはははっ、あはは！　や、やぁっ……ちょっと見ないでぇ～、くふふっ！　し、下着が……あははっ、はははっ！」
+「Ahahaha, ahaha! N-noo... stop don’t look～, snicker! M-my bra’s... ahaha, hahaha!」
 
+#「パパとみかんもやろー！　足の方は任せるから」
 ＠Ichigo,O00747
-「パパとみかんもやろー！　足の方は任せるから」
+「Join in, Papa and Mikan! You can do the legs!」
 
+#「う、う～～っ、みかんはいいけど樹は屈辱～～あははっ、あははは！」
 ＠Karin,P00586
-「う、う～～っ、みかんはいいけど樹は屈辱～～あははっ、あははは！」
+「Uh, urrghh～～, Mikan’s OK but Itsuki’s a shame～～ ahaha, ahahaha!」
 
 いちごの責めに身を捩るしかないため、かりんの服はかなり乱れ露出している。
 
