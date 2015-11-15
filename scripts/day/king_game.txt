@@ -1427,79 +1427,99 @@ wait	500
 #言葉ほど抵抗はせず、かりんはオレの前に立った。
 　Karin stood up in front me, compromising her words at least.
 
+#「しかし、本人が嫌がってるんだからやめてやろう。あくまでもゲームなんだから、愉しまないと」
 ＠Itsuki
-「しかし、本人が嫌がってるんだからやめてやろう。あくまでもゲームなんだから、愉しまないと」
+「But I mean, if the lady herself is distressed about it, I won’t do it. In the end the game’s about having fun」
 
+#「そ、そうですね。直接的なものは控える感じで。いいかしらるあちゃん？」
 ＠Miu,B00772
-「そ、そうですね。直接的なものは控える感じで。いいかしらるあちゃん？」
+「Y-you’re right. Best to go easy on the heavy stuff. Is that OK with you, Rua-chan?」
 
+#「残念ですけど、分かりました。それじゃぁ……」
 ＠Rua,M00101
-「残念ですけど、分かりました。それじゃぁ……」
+「It’s too bad, but I understand. In that case...」
 
 @karin_ikari
 
+#「…………」
 ＠Karin,P00610
-「…………」
+「......」
 
 @karin_
 
 #SE72　軽く叩く音（ポカッ）
 @se72
 
+#「いてっ！？　な、何でぶたれるんだオレがっ」
 ＠Itsuki
-「いてっ！？　な、何でぶたれるんだオレがっ」
+「Ouch!? W-what did I do to deserve getting hit!?」
 
 @karin_ikari
 
+#「ふんっ」
 ＠Karin,P00611
-「ふんっ」
+「Hmph!」
 
-……な、何を不機嫌になってるんだ。
-せっかく弁護してやったって言うのに。
+#……な、何を不機嫌になってるんだ。
+#せっかく弁護してやったって言うのに。
+　...W-what’s she so upset about? I just defended her, didn’t I?
 
+#「じゃあ代わりに、３番の人を２番の人が軽く叩くっていうのは」
 ＠Rua,M00102
-「じゃあ代わりに、３番の人を２番の人が軽く叩くっていうのは」
+「Then instead, player 2 will have to give player 3 a light knock」
 
+#「いや、待て。何か知らんが今オレ叩かれた。だからそれは終了だ」
 ＠Itsuki
-「いや、待て。何か知らんが今オレ叩かれた。だからそれは終了だ」
+「Hey, wait. I got hit just now, right? So that’s over and done with」
 
 @karin_warai
 
+#「………」
 ＠Karin,P00612
-「………」
+「......」
 
 #SE38　殴る音（バキッ！）
 @se38
 
+#「いてッ！　いてぇッ！　もういいってのッ、軽くじゃないし！！」
 ＠Itsuki
-「いてッ！　いてぇッ！　もういいってのッ、軽くじゃないし！！」
+「Ouch! Owww! Hey stop, that’s enough! That’s not light at all!!」
 
 @karin_akire
 
+#「次行きましょ。全く無駄な時間だったわ」
 ＠Karin,P00613
-「次行きましょ。全く無駄な時間だったわ」
+「Let’s move on. What an utter waste of time」
 
-さっさとクジを回収して、次の準備を始めるかりん。
+#さっさとクジを回収して、次の準備を始めるかりん。
+　She promptly retrieves the lottery bag, and begins setting up the next one.
 
-……理不尽すぎる。
+#……理不尽すぎる。
+　...Totally unreasonable.
 
 @karin_
 
+#「さぁ、引いて」
 ＠Karin,P00614
-「さぁ、引いて」
+「Come on, draw」
 
+#「妙なネタ禁止な」
 ＠Itsuki
-「妙なネタ禁止な」
+「No weird sayings this time」
 
+#「うっ……酷い、まだみかん一度も言ってないのに」
 ＠Mikan,A00700
-「うっ……酷い、まだみかん一度も言ってないのに」
+「Ugh... this sucks, I haven’t come up once yet」
 
+#「そんなつっちーは、ずっとオレのターン。どうぞ」
 ＠Zakuro,Q00418
-「そんなつっちーは、ずっとオレのターン。どうぞ」
+「Tsu-chi always wants it to be his turn. Go ahead」
 
-ざくろがオレに譲り、何か知らないが先行を得てしまったようだ。
+#ざくろがオレに譲り、何か知らないが先行を得てしまったようだ。
+　Passing it over to me, it looks like she was able to procure the first draw.
 
-さて、そろそろオレも王様を引きたいが……
+#さて、そろそろオレも王様を引きたいが……
+　Alright then, I would like to draw the king, but...
 
 @chara_clear
 wait	500
@@ -1510,7 +1530,7 @@ wait	500
 #（１．真ん中のクジ）
 #（２．少し汚れているクジ）
 #（３．ノリっぽいクジ）Draw nori-like (law?)(paste?)(seaweed?)(?)
-select	sel,"Draw from the middle","Play a little dirty","Play fair"
+select	sel,"Draw the middle one","Draw one that’s a bit dirty","Draw a seaweed-like one"
 if sel=0 then goto	oosama_01
 if sel=1 then goto	oosama_02
 if sel=2 then goto	oosama_03
@@ -1518,62 +1538,79 @@ if sel=2 then goto	oosama_03
 #（１）
 label	oosama_01
 
-無難に目に付いた真ん中のクジを引いた。
+#無難に目に付いた真ん中のクジを引いた。
+　I safely pulled out the middle one I caught sight of.
 
+#（ふむ……）
 ＠Itsuki
-（ふむ……）
+(Right...)
 
-それに続いて、三回戦目のクジが、みんなの手で引かれていった。
+#それに続いて、三回戦目のクジが、みんなの手で引かれていった。
+　Following that, the third contest went along as everyone drew their lots.
 
+#「王様だーれだ！」
 ＠Everyone,Z90012
-「王様だーれだ！」
+「And the king is...!」
 
-王冠マークを掲げたのは……
+#王冠マークを掲げたのは……
+　The one flashing the crown mark was...
 
 @yuzu_warai
 
+#「やったッ、ボクだ！　王様引けたーーッ♪」
 ＠Yuzu,F00237
-「やったッ、ボクだ！　王様引けたーーッ♪」
+「Yes, it’s me! I pulled out the kiiing! ♪」
 
-ゆずだった。
+#ゆずだった。
+　It was Yuzu.
 
+#「………」
 ＠Itsuki
-「………」
+「......」
 
+#「……？　何でお兄ちゃん、コソコソ後ろに下がってるの？」
 ＠Mikan,A00702
-「……？　何でお兄ちゃん、コソコソ後ろに下がってるの？」
+「...? Why are you backing away slowly, Onii-chan?」
 
+#「いや……言っておくがゆず、さっき決めたとおり直接的なことは禁止だぞ。いいな？」
 ＠Itsuki
-「いや……言っておくがゆず、さっき決めたとおり直接的なことは禁止だぞ。いいな？」
+「It’s nothing... I’ll tell you now Yuzu, direct stuff is off-limits like we said. Alright?」
 
 @yuzu_odoroki
 
+#「う……は、はい。分かってます」
 ＠Yuzu,F00238
-「う……は、はい。分かってます」
+「Aw... s-sure. I know」
 
 @yuzu_kanashimi
 
+#「はあぁぁぁ………」
 ＠Yuzu,F00239
-「はあぁぁぁ………」
+「Sighhhh...」
 
-すごく重い溜め息を吐く。
-やっぱり、そんなつもりだったか。
+#すごく重い溜め息を吐く。
+#やっぱり、そんなつもりだったか。
+　She heaves a very long sigh. I guess she wanted that, after all.
 
 @yuzu_warai
 
+#「それじゃあ、５番が６番をくすぐる、ということで」
 ＠Yuzu,F00240
-「それじゃあ、５番が６番をくすぐる、ということで」
+「Alright then. Number 5 will have to tickle number 6」
 
+#「く、くすぐっ………はぁ」
 ＠Karin,P00616
-「く、くすぐっ………はぁ」
+「T-tickle...! ...Phew」
 
-敏感に反応したかりんだが、自分の番号に安堵。
+#敏感に反応したかりんだが、自分の番号に安堵。
+　Karin gives a big start, but is relieved at her number.
 
 @yuzu_
 @miu
 
+#「５番は私です」
 ＠Miu,B00774
-「５番は私です」
+「I’m number 5」
 
 @miu_
 wait	500
@@ -1581,17 +1618,21 @@ wait	500
 @ichigo_odoroki
 @suika_kanashimi
 
+#「えっ……美雨がくすぐりっ？」
 ＠Ichigo,O00762
-「えっ……美雨がくすぐりっ？」
+「Eh... Miu’ll do the tickling!?」
 
+#「……６番の人、ちょっと気の毒ですね」
 ＠Suika,R00260
-「……６番の人、ちょっと気の毒ですね」
+「...Number 6 is kind of in for it」
 
+#「何で。何かあるのか？」
 ＠Itsuki
-「何で。何かあるのか？」
+「Why’s that? Did I miss something?」
 
+#「美雨はくすぐるの上手いんだよぉ。昔はお仕置き代わりにされてたもん」
 ＠Ichigo,O00763
-「美雨はくすぐるの上手いんだよぉ。昔はお仕置き代わりにされてたもん」
+「Miu’s really good at tickling. She did it to punish me in the past」
 
 @ichigo_
 @suika_
@@ -1600,16 +1641,20 @@ wait	500
 @karin_odoroki
 @mikan
 
+#「やられ過ぎて、いちごも上手くなったのよね」
 ＠Zakuro,Q00420
-「やられ過ぎて、いちごも上手くなったのよね」
+「You were tickled so much, that you got good at it yourself」
 
+#「う……それは身をもって知ってるわ」
 ＠Karin,P00617
-「う……それは身をもって知ってるわ」
+「Ugh... I learned that firsthand」
 
+#「ところで、６番ってだれ？」
 ＠Mikan,A00703
-「ところで、６番ってだれ？」
+「Anyway, who’s number 6?」
 
-美雨が名乗りを上げてから、その相方の６番が出てこなかった。
+#美雨が名乗りを上げてから、その相方の６番が出てこなかった。
+　After Miu revealed herself, her partner who was number 6 didn’t show.
 
 @zakuro_
 @karin_
@@ -1618,18 +1663,22 @@ wait	500
 @suzumi_odoroki
 @rua
 
+#「あれ……？　ここに一つ余ってるよ。これが６番みたい。どうして？」
 ＠Suzumi,L00083
-「あれ……？　ここに一つ余ってるよ。これが６番みたい。どうして？」
+「Huh...? There’s one left in here. Looks like it’s number 6. What happened?」
 
+#「あ、それって誠司先生の分じゃないかな……？」
 ＠Rua,M00103
-「あ、それって誠司先生の分じゃないかな……？」
+「Ah, I guess that would’ve been Seiji’s card, right...?」
 
-るあの言葉で、全員の視線が、床に転がったままの誠司に注がれた。
+#るあの言葉で、全員の視線が、床に転がったままの誠司に注がれた。
+　At Rua’s words, everyone turned to look at Seiji, who was still sprawled on the floor.
 
 @suzumi_kanashimi
 
+#「はぁ……。ほら誠司、おきて。あなたのクジ。指名されたわよ」
 ＠Suzumi,L00084
-「はぁ……。ほら誠司、おきて。あなたのクジ。指名されたわよ」
+「Sigh... hey Seiji, get up. It’s your lot. You’ve been chosen」
 
 @suzumi_
 @rua_
@@ -1637,66 +1686,84 @@ wait	500
 
 #CH（誠司には立ち絵なし）
 
+#「う、うぅ………え？　な、何や？　何でみんなしてオレを見てるんや……？」
 ＠Seiji,D00110
-「う、うぅ………え？　な、何や？　何でみんなしてオレを見てるんや……？」
+「Ugh, urrgh... eh? What’s up? Why’s everyone lookin’ at me...?」
 
 @miu_warai
 
+#「ふふ。それじゃあ誠司さん、覚悟してくださいね♪」
 ＠Miu,B00775
-「ふふ。それじゃあ誠司さん、覚悟してくださいね♪」
+「Fufu. Alright then Seiji-san, prepare yourself, okay?」
 
-ようやく意識が回復した誠司に、美雨が嬉しそうににじり寄る。
+#ようやく意識が回復した誠司に、美雨が嬉しそうににじり寄る。
+　Looking enthused Miu encroached on Seiji, who’d at last regained his senses.
 
 @seiji2_odoroki
 
+#「へ……？　え？　そ、そんな美雨さん、こんな場所で」
 ＠Seiji,D00111
-「へ……？　え？　そ、そんな美雨さん、こんな場所で」
+「What...? Eh? N-no way Miu-san, in a place like this」
 
+#「何勘違いしてるのよ、バカ……」
 ＠Suzumi,L00085
-「何勘違いしてるのよ、バカ……」
+「You’ve got it wrong, dufus...」
 
-腰を下ろして伸ばした美雨の手が、わき腹や首筋に当てられた。
+#腰を下ろして伸ばした美雨の手が、わき腹や首筋に当てられた。
+　Crouching down Miu put out her hand, and touched his flank and nape of neck.
 
 @miu_
 @seiji_
 
+#「ぐふッ！？　うははははッ！！　ははッ！　あははははははッ！！」
 ＠Seiji,D00112
-「ぐふッ！？　うははははッ！！　ははッ！　あははははははッ！！」
+「Grfh!? Uhahahaha!! Haha! Ahahahahahaha!!」
 
+#「あら、なかなかいい感度♪」
 ＠Miu,B00776
-「あら、なかなかいい感度♪」
+「Oh my, he’s pretty sensitive ♪」
 
+#「み、美雨ひゃん、何を……ぐふぅっ！？　ぐははははッ！！　ふはッ！　あはははっ！！」
 ＠Seiji,D00113
-「み、美雨ひゃん、何を……ぐふぅっ！？　ぐははははッ！！　ふはッ！　あはははっ！！」
+「M-Miu-hyan, what are you...? Grfhh!? Grhahahaha!! Fuha! Ahahaha!!」
 
 @zakuro
 @suika_warai
 
+#「ダメね、火がついたわ」
 ＠Zakuro,Q00421
-「ダメね、火がついたわ」
+「It’s over, she’s provoked now」
 
+#「美雨さんのくすぐり攻撃、久しぶりに見たよ」
 ＠Suika,R00261
-「美雨さんのくすぐり攻撃、久しぶりに見たよ」
+「It’s been a long time since I saw Miu’s tickle attack」
 
+#「ひははははッ！！　や、ヤバイでこれッ、あははは！　死ぬッ、幸せすぎて死ぬぅッ！　ふははははッ！！」
 ＠Seiji,D00114
-「ひははははッ！！　や、ヤバイでこれッ、あははは！　死ぬッ、幸せすぎて死ぬぅッ！　ふははははッ！！」
+「Eehahahaha!! T-this is messed up, ahahaha! I’m dying, I’m so happy I’m gonna die! Fuhahahaha!!」
 
+#「うふふ。ちょっと服の中も失礼しますね」
 ＠Miu,B00777
-「うふふ。ちょっと服の中も失礼しますね」
+「Ufufh. Allow me into your clothes a bit, please」
 
+#「いひひひひッ！　そ、そんらッ、美雨ひゃんの手が、くははははッ！　あはッ、ひはぁああッ！」
 ＠Seiji,D00115
-「いひひひひッ！　そ、そんらッ、美雨ひゃんの手が、くははははッ！　あはッ、ひはぁああッ！」
+「Eehihihihih! N-no wayy, Miu’s hand is... Krhahahaha! Ahah, hihaaaaa!」
 
-ドタドタと笑いながらもがく誠司に、熟練の手遣いで責める美雨。
+#ドタドタと笑いながらもがく誠司に、熟練の手遣いで責める美雨。
+　Miu’s hand proficiently attacks Seiji, who’s writhing and laughing uncontrollably.
 
-本人達は受け攻めに夢中で気付かないのだろうが、
-近すぎる距離で、誠司の腕が美雨の身体や胸に当たったり触ったりしている。
+#本人達は受け攻めに夢中で気付かないのだろうが、
+#近すぎる距離で、誠司の腕が美雨の身体や胸に当たったり触ったりしている。
+　They’re probably not aware of it in the frenzy, but Seiji’s arm is touching against Miu’s body parts and chest, with the close quarters.
 
+#「さぁ、王様の命令ですから、どんどん本格的にしていきますよ」
 ＠Miu,B00778
-「さぁ、王様の命令ですから、どんどん本格的にしていきますよ」
+「Right, it’s the king’s order, so I’m going to ramp it up and go all-out」
 
+#「ひはははッ！　す、涼海ッ、携帯や！　携帯で写真撮ってくれ～ッ、ふひゃははははッ！！」
 ＠Seiji,D00116
-「ひはははッ！　す、涼海ッ、携帯や！　携帯で写真撮ってくれ～ッ、ふひゃははははッ！！」
+「Eehahaha! S-Suzumi, get your phone! Take a picture with your phone～, fyahahahaha!!」
 
 @suika_
 @zakuro_
@@ -1704,42 +1771,53 @@ wait	500
 @suzumi
 @rua
 
+#「……何か、見てて複雑な気分」
 ＠Suzumi,L00086
-「……何か、見てて複雑な気分」
+「...I’m getting mixed feelings watching this」
 
+#「私も……」
 ＠Rua,M00104
-「私も……」
+「Me too...」
 
-そしてオレもだった。
+#そしてオレもだった。
+　Same here.
 
-……美雨との距離が近すぎるぞ。
-気付いてないんだろうが、胸を触るな胸を。
+#……美雨との距離が近すぎるぞ。
+#気付いてないんだろうが、胸を触るな胸を。
+　...Just too up close and dirty with Miu. I guess he doesn’t realize he needs to stop touching her boobs.
 
 @suzumi_
 @rua_
 wait	500
 @yuzu_odoroki
 
+#「しまった……ボクが樹先生にくすぐってもらうことも出来たのにっ……」
 ＠Yuzu,F00241
-「しまった……ボクが樹先生にくすぐってもらうことも出来たのにっ……」
+「Shoot... I could have gotten Itsuki-sensei to do the tickling, though...」
 
+#「まぁ遊びでその程度なら普通にしてやるけどな」
 ＠Itsuki
-「まぁ遊びでその程度なら普通にしてやるけどな」
+「Well if we’re just doing it for fun, I wouldn’t mind」
 
+#「えいっ、えいっ♪」
 ＠Miu,B00779
-「えいっ、えいっ♪」
+「Here, here ♪」
 
+#「ぐはははッ！　うはははは！！　あかんッ、果てるぅ！　人生が絶頂するッ……あははははッ！！」
 ＠Seiji,D00117
-「ぐはははッ！　うはははは！！　あかんッ、果てるぅ！　人生が絶頂するッ……あははははッ！！」
+「Grhahaha! Uhahahaha!! That’s it, I’m done! My life’s reached its pinnacle... ahahahaha!!」
 
-……あんなレベルには到達は出来ないだろうな。したくないし。
+#……あんなレベルには到達は出来ないだろうな。したくないし。
+　...Though, I’m not sure I’d be able to go that far. Wouldn’t want to.
 
 #■BG（黒）
 @bg_black
 
-その後、誠司が酸欠で人生を逝きそうになったりもしたが、
+#その後、誠司が酸欠で人生を逝きそうになったりもしたが、
+　After that, Seiji looked like he was at death’s door from oxygen deprivation, and...
 
-しばらくゲームを続け、梅雨の一日が楽しく終了したのだった。
+#しばらくゲームを続け、梅雨の一日が楽しく終了したのだった。
+　We continued on with the game for a while, finishing the rainy day on a high note.
 
 #（スケジュールへ）
 @bg_black
@@ -1749,68 +1827,86 @@ return
 #（２）
 label	oosama_02
 
+#（何かこのクジだけ薄汚れてるな）
 ＠Itsuki
-（何かこのクジだけ薄汚れてるな）
+(For some reason, this one card’s a bit dirty)
 
-気になったので引いてみた。
+#気になったので引いてみた。
+　It caught my eye and I drew it out.
 
-それに続き、みんながクジを引いていく。
+#それに続き、みんながクジを引いていく。
+　Following that, everyone drew their cards.
 
+#「王様だーれだ！」
 ＠Everyone,Z90012
-「王様だーれだ！」
+「And the king is...!」
 
-王冠マークを掲げたのは……
+#王冠マークを掲げたのは……
+　The one flashing the crowned mark was...
 
 @seiji2_goukyuu
 
+#「よっしゃー！　来たッ、来たでオレの時代がーー！！」
 ＠Seiji,D00118
-「よっしゃー！　来たッ、来たでオレの時代がーー！！」
+「Yeehaaw! I got it, the time for Seiji has come!!」
 
-クジを掲げながら、誠司が欣喜した。
+#クジを掲げながら、誠司が欣喜した。
+　Seiji was electrified as he showed his card.
 
+#「って言うかお前、復活してたのな」
 ＠Itsuki
-「って言うかお前、復活してたのな」
+「You should say, you managed to revive」
 
 @seiji2_ikari
 
+#「そもそも死んどらん！」
 ＠Seiji,D00119
-「そもそも死んどらん！」
+「I wasn’t dead to begin with!」
 
+#「誠司先生、さっき決まったんですけど、いやらしい事とかは禁止ですよ」
 ＠Rua,M00105
-「誠司先生、さっき決まったんですけど、いやらしい事とかは禁止ですよ」
+「Seiji-sensei, you should know that perverted stuff is off-limits, like we decided」
 
 @seiji2_warai
 
+#「ふはははッ、甘いでるあ！　そんな小細工、王には通用せんッ！！」
 ＠Seiji,D00120
-「ふはははッ、甘いでるあ！　そんな小細工、王には通用せんッ！！」
+「Muhahaha, you’re naive Rua! Petty tactics like that don’t work on the king!!」
 
+#「バカなこと言わないのっ、バカ誠司！　ルールなんだから守りなさいよね」
 ＠Suzumi,L00087
-「バカなこと言わないのっ、バカ誠司！　ルールなんだから守りなさいよね」
+「Don’t make a fool of yourself, stupid Seiji! You’d better stay in line with the rule」
 
+#「だいいち、誰がどの番号を持ってるか誠司には分からないでしょ」
 ＠Suzumi,L00088
-「だいいち、誰がどの番号を持ってるか誠司には分からないでしょ」
+「First of all, you don’t even know who’s holding what number anyway, right?」
 
+#「ふっふふふ。どんな障害も愛の前では無いも同然。服やって裸も同然！」
 ＠Seiji,D00121
-「ふっふふふ。どんな障害も愛の前では無いも同然。服やって裸も同然！」
+「Mfufufufh. No barrier can get in the way of love. Clothed or naked, it’s all the same!」
 
+#「向こう行け。美雨を見んな」
 ＠Itsuki
-「向こう行け。美雨を見んな」
+「Turn the other way. Don’t look at Miu」
 
 #SE66　効果音１（ビシッ！）
 @se66
 
+#「美雨さんッ！　ズバリ２番が！」
 ＠Seiji,D00122
-「美雨さんッ！　ズバリ２番が！」
+「Miu-san! I’ll put my money on number 2!」
 
-無駄にテンションの高い誠司が、美雨を指差して宣言した。
+#無駄にテンションの高い誠司が、美雨を指差して宣言した。
+　Seiji, who was acting up madly excited, pointed at Miu and declared.
 
 @seiji_
 wait	500
 @miu_middle
 @miu
 
+#「あの、私２番じゃないんですけど……」
 ＠Miu,B00781
-「あの、私２番じゃないんですけど……」
+「Err, I’m afraid I’m not number 2...」
 
 @miu_
 wait	500
@@ -1819,42 +1915,54 @@ wait	500
 @se53
 @seiji2_odoroki
 
+#「ぐぁぁあああッ！　そんなバカなッ！」
 ＠Seiji,D00123
-「ぐぁぁあああッ！　そんなバカなッ！」
+「Graaahhhhh!! No way, that’s impossible!」
 
+#「お約束だな」
 ＠Itsuki
-「お約束だな」
+「You can’t go back」
 
+#「お約束ですね……」
 ＠Suika,R00263
-「お約束ですね……」
+「You can’t go back now...」
 
+#「とりあえずこれで、ルールを破るつもりはなくなったでしょ」
 ＠Suzumi,L00089
-「とりあえずこれで、ルールを破るつもりはなくなったでしょ」
+「Well with that, I guess now you lost your will to break the rule」
 
-一転して床にくずおれた誠司を、涼海が呆れたように見下ろして言った。
+#一転して床にくずおれた誠司を、涼海が呆れたように見下ろして言った。
+　Suzumi spoke, looking down in disgust at Seiji, who’d gone full circle lying on the floor again.
 
-誠司がプルプル震えている。
+#誠司がプルプル震えている。
+　Seiji quivers and trembles slightly.
 
 @seiji2_goukyuu
 
+#「何でや……世界は愛に満ちてなかったんかッ…」
 ＠Seiji,D00124
-「何でや……世界は愛に満ちてなかったんかッ…」
+「Why is it that... the world didn’t satisfy my love...?」
 
+#「あの、誠司先生、とりあえず２番の人に何か命令はありますか……？」
 ＠Rua,M00106
-「あの、誠司先生、とりあえず２番の人に何か命令はありますか……？」
+「Umm, Seiji-sensei, won’t you give it a rest and tell us the order for player 2...?」
 
+#「とほほ……何でもええ、こんなオレを慰めてくれ」
 ＠Seiji,D00125
-「とほほ……何でもええ、こんなオレを慰めてくれ」
+「Boohoohoo... it doesn’t matter how, just comfort me now」
 
+#「ん、まぁ頑張れ。お前らしいオチじゃないか。安心した」
 ＠Itsuki
-「ん、まぁ頑張れ。お前らしいオチじゃないか。安心した」
+「Yes, keep at it. I’m relieved we reached a fitting end for you」
 
 @seiji2_ikari
 
+#「しかも己が２番かッ！　一番同情してほしぃない奴に！　しかも慰めてもない！」
 ＠Seiji,D00126
-「しかも己が２番かッ！　一番同情してほしぃない奴に！　しかも慰めてもない！」
+「And you’re number 2!? The last person I want sympathy from! And he’s not comforting, either!」
 
-薄汚れていた正体は、さっきかりんが２番を放り投げたものだった。
+#薄汚れていた正体は、さっきかりんが２番を放り投げたものだった。
+　The slightly dirty card turned out to be the one Karin flung away earlier.
 
 @seiji_
 wait	500
@@ -1862,22 +1970,26 @@ wait	500
 @suzumi_ikari
 @rua
 
+#「はぁ。もう、そんなに夢中になられたらこっちまで恥ずかしいのに……」
 ＠Suzumi,L00090
-「はぁ。もう、そんなに夢中になられたらこっちまで恥ずかしいのに……」
+「Sigh. Jeez, when you’re getting so out of it, even I start to feel ashamed...」
 
+#「ほら誠司、その……代わりに私が、次の調教で色々とさせてあげるから」
 ＠Suzumi,L00091
-「ほら誠司、その……代わりに私が、次の調教で色々とさせてあげるから」
+「Here Seiji, umm... I’ll do lots of things for you next training instead, okay?」
 
+#「あ、私も……えっと、そのとき呼んでくれたら、涼お姉ちゃんと一緒に」
 ＠Rua,M00107
-「あ、私も……えっと、そのとき呼んでくれたら、涼お姉ちゃんと一緒に」
+「Ah, me too... umm, when you come calling next time, be sure to get both of us」
 
 @suzumi_
 @rua_
 wait	500
 @seiji2_kanashimi
 
+#「涼海……るあ……」
 ＠Seiji,D00127
-「涼海……るあ……」
+「Suzumi... Rua...」
 
 @seiji_
 wait	500
@@ -1886,42 +1998,51 @@ wait	500
 @karin_akire
 @zakuro
 
+#「いい話ですね」
 ＠Suika,R00264
-「いい話ですね」
+「What a nice conversation」
 
+#「情けない話じゃない？」
 ＠Karin,P00619
-「情けない話じゃない？」
+「Isn’t it a pitiful conversation?」
 
+#「卑猥な話だと思う」
 ＠Zakuro,Q00423
-「卑猥な話だと思う」
+「I’d say it’s a lewd conversation」
 
 @chara_clear
 wait	500
 
 @seiji2_ikari
 
+#「気持ちは嬉しいけど、全然スペック不足やっ」
 ＠Seiji,D00128
-「気持ちは嬉しいけど、全然スペック不足やっ」
+「Thanks for being nice, but your assets aren’t that great」
 
+#「贅沢言うなッ／贅沢はダメですッ」
 ＠Suzumi & Rua,Z90014
-「贅沢言うなッ／贅沢はダメですッ」
+「Don’t be so picky / Don’t be so choosy!」
 
 #SE38　殴る音（バキッ！）
 @se38
 layer_move	l_seiji,500,0,0,800,0,passtype_tcb
 
+#「がふッ！！」
 ＠Seiji,D00129
-「がふッ！！」
+「Gafuh!!」
 
+#「結局、周りに溢れた愛に気付いてないのはお前の方だよな」
 ＠Itsuki
-「結局、周りに溢れた愛に気付いてないのはお前の方だよな」
+「In the end, you’re the one who didn’t notice the love that’s around you」
 
-綺麗にオチもついたところで、再びあの男は生ゴミ扱いだ。
+#綺麗にオチもついたところで、再びあの男は生ゴミ扱いだ。
+　Once again, as things were about to end nicely, he butchered it.
 
 #■BG（黒）
 @bg_black
 
-その後もしばらくゲームを続け、梅雨の一日が楽しく終了したのだった。
+#その後もしばらくゲームを続け、梅雨の一日が楽しく終了したのだった。
+　We continued on with the game for a while, ending the rainy day with some fun.
 
 @bg_black
 return
@@ -1930,64 +2051,85 @@ return
 #（３）
 label	oosama_03
 
-何だノリっぽいって。
+#何だノリっぽいって。
+　What does that even mean, “seaweed-like”?
 
-まぁ青ノリっぽいってことなんだが、それでも意味不明に変わりない。
+#まぁ青ノリっぽいってことなんだが、それでも意味不明に変わりない。
+　I guess it must mean it’s Aonori-like, but still it doesn’t make sense.
 
+#「何してるの。早く引いて」
 ＠Karin,P00620
-「何してるの。早く引いて」
+「What are you doing? Draw already」
 
-怪訝そうに急かされて、結局オレはノリっぽいクジを引くことにした。
+#怪訝そうに急かされて、結局オレはノリっぽいクジを引くことにした。
+　Urged on with a dubious look, I ended up taking the seaweed-like lot.
 
-それに続き、みんながクジを引いていく。
+#それに続き、みんながクジを引いていく。
+　Following that, everyone drew their cards.
 
+#「王様だーれだ！」
 ＠Everyone,Z90012
-「王様だーれだ！」
+「And the king is...!」
 
-王冠マークを掲げたのは……
+#王冠マークを掲げたのは……
+　The one flashing crown mark was...
 
 @suika_warai
 
+#「私が王様みたいです」
 ＠Suika,R00266
-「私が王様みたいです」
+「Looks like I’m the king」
 
+#「すいかか」
 ＠Itsuki
-「すいかか」
+「Suika, huh」
 
-濃い二人が続いた後なので、自然にホッと安堵した。
+#濃い二人が続いた後なので、自然にホッと安堵した。
+　I breathed a sigh of relief, naturally after a tough previous two.
 
+#「命令は？」
 ＠Zakuro,Q00425
-「命令は？」
+「Who gets the order?」
 
+#「ん～……それじゃあ、１番の人が」
 ＠Suika,R00267
-「ん～……それじゃあ、１番の人が」
+「Hmm～... I’ll go with player number 1」
 
+#（１番……）
 ＠Itsuki
-（１番……）
+(Number 1...)
 
-クジを見ると、オレが１番だった。
+#クジを見ると、オレが１番だった。
+　Taking a look at my lot, I was number 1.
 
-確かにこの１番の誠司が青ノリでダウンしたが………何がノリっぽかったんだ？
+#確かにこの１番の誠司が青ノリでダウンしたが………何がノリっぽかったんだ？
+　It’s true that this number 1 downed Seiji with Aonori, but... what was seaweed-like about it?
 
+#「王様の肩を揉む、でお願いします」
 ＠Suika,R00268
-「王様の肩を揉む、でお願いします」
+「Rub the king’s shoulder, pretty please」
 
+#「お胸を揉む方が面白いよ」
 ＠Ichigo,O00766
-「お胸を揉む方が面白いよ」
+「It’s more fun rubbing your chest」
 
+#「じゃあ胸を揉む、で」
 ＠Suika,R00269
-「じゃあ胸を揉む、で」
+「Then rub my chest, it is」
 
 @suika_odoroki
 
+#「……って、ええー！？　む、胸って意味が変わっちゃうよ！？」
 ＠Suika,R00270
-「……って、ええー！？　む、胸って意味が変わっちゃうよ！？」
+「...Wait, whattt!? T-that sounds a bit wrong, doesn’t it!?」
 
+#「だって肩よりお胸を揉まれる方が気持ちいいよ」
 ＠Ichigo,O00767
-「だって肩よりお胸を揉まれる方が気持ちいいよ」
+「But it feels better to have your chest rubbed than your shoulder」
 
+#「そ、そんな足とか腰と同じ位置で話していい場所じゃないよぉ、胸はっ」
 ＠Suika,R00271
-「そ、そんな足とか腰と同じ位置で話していい場所じゃないよぉ、胸はっ」
+「Y-you can’t talk about the chest in the same way as the legs, for example」
 
 @suika_
 wait	500
@@ -1995,27 +2137,34 @@ wait	500
 @karin
 @mikan
 
+#「ところで誰、１番って。みかん？」
 ＠Karin,P00622
-「ところで誰、１番って。みかん？」
+「By the way, who’s number 1? Mikan?」
 
+#「ううん、みかん５番」
 ＠Mikan,A00706
-「ううん、みかん５番」
+「Nope, I’m number 5」
 
+#「いや……１番はオレなんだが」
 ＠Itsuki
-「いや……１番はオレなんだが」
+「Right... I’m number 1, actually」
 
-微妙な空気の中で、名乗り出たオレに視線が集まった。
+#微妙な空気の中で、名乗り出たオレに視線が集まった。
+　Everyone’s gazes centered on me after I spoke, with the delicate atmosphere.
 
+#「さぁ、肩だな。肩出せすいか。揉んでやる」
 ＠Itsuki
-「さぁ、肩だな。肩出せすいか。揉んでやる」
+「Alright, shoulder it is. Give me your shoulder, Suika. I’ll rub it」
 
 @ichigo
 
+#「え～～っ、お胸だってばパパ」
 ＠Ichigo,O00768
-「え～～っ、お胸だってばパパ」
+「Ehhh～～. But it has to be the chest, Papa」
 
+#「無茶言うな」
 ＠Itsuki
-「無茶言うな」
+「Don’t say crazy stuff」
 
 @chara_clear
 
@@ -2023,23 +2172,29 @@ wait	500
 @rua
 @yuzu
 
+#「あ、でも私、樹さんがどんな風に胸を揉むのか見て見たいかも。ね、るあ？」
 ＠Suzumi,L00093
-「あ、でも私、樹さんがどんな風に胸を揉むのか見て見たいかも。ね、るあ？」
+「Ah, but I’d kind of like to see how Itsuki-san rubs her chest. Right, Rua?」
 
+#「えっ、ええええ～～！？」
 ＠Suika,R00272
-「えっ、ええええ～～！？」
+「Eh, ehhhhh～～!?」
 
+#「うん。やっぱり誠司先生とは違うのかな」
 ＠Rua,M00109
-「うん。やっぱり誠司先生とは違うのかな」
+「Yeah. I wonder if it’s different from Seiji-sensei」
 
+#「胸じゃなくて、肩！　肩だってば～っ！」
 ＠Suika,R00273
-「胸じゃなくて、肩！　肩だってば～っ！」
+「Not the chest, shoulder! Shoulder, I tell you～!」
 
+#「す、すいかちゃん、変わろっか……？」
 ＠Yuzu,F00242
-「す、すいかちゃん、変わろっか……？」
+「S-Suika-chan, why don’t you change your mind...?」
 
+#「こらこら、ゆずも期待するな」
 ＠Itsuki
-「こらこら、ゆずも期待するな」
+「Hey come on, don’t you too get excited, Yuzu」
 
 @chara_clear
 wait	500
@@ -2047,43 +2202,52 @@ wait	500
 @zakuro_warai
 @suika_tere
 
+#「でも、気持ち良い場所でしょ？」
 ＠Zakuro,Q00426
-「でも、気持ち良い場所でしょ？」
+「But it’s a spot that’ll feel good, right?」
 
+#「そそっ、それ以前に恥ずかしいよっ、こんな場所で！」
 ＠Suika,R00274
-「そそっ、それ以前に恥ずかしいよっ、こんな場所で！」
+「B-b-besides that, it’s embarrassing, out here in the open!」
 
+#「公開羞恥プレイが十八番のすいかの台詞とは思えない」
 ＠Zakuro,Q00427
-「公開羞恥プレイが十八番のすいかの台詞とは思えない」
+「I never thought you’d say that when exhibitionism’s your forte」
 
 @suika_odoroki
 
+#「十八番じゃないってばッ。二番目！　ちょっと迷うけど二番目くらいだよっ」
 ＠Suika,R00275
-「十八番じゃないってばッ。二番目！　ちょっと迷うけど二番目くらいだよっ」
+「It’s not my forte, it’s a close second! I’m not entirely sure, but I’d say it’s second!」
 
-……二番目。しかも迷うのか。
+#……二番目。しかも迷うのか。
+　...A close second. And not too sure, to boot.
 
 @suika_
 @zakuro_
 wait	500
 @miu
 
+#「二人とも、さっきルールで決めたでしょ。そういうことは無しって」
 ＠Miu,B00783
-「二人とも、さっきルールで決めたでしょ。そういうことは無しって」
+「The both of you, our rule from before is set in stone. We’ll have none of that」
 
 @miu_
 wait	500
 @zakuro
 @karin
 
+#「つまり、つっちーはきっといやらしく胸を触るからタブーなのね」
 ＠Zakuro,Q00428
-「つまり、つっちーはきっといやらしく胸を触るからタブーなのね」
+「In other words, Tsu-chi would surely feel her up pervertedly, so it’s a taboo」
 
+#「公認でスケベ扱いに決定ね」
 ＠Karin,P00623
-「公認でスケベ扱いに決定ね」
+「Yeah, official recognition as a lecher」
 
+#「はぁ。すいか、王様なんだからすいかが決めろ。肩でも胸でも好きな方を出して」
 ＠Itsuki
-「はぁ。すいか、王様なんだからすいかが決めろ。肩でも胸でも好きな方を出して」
+「Sigh. Suika, you decide since you’re the king. Shoulder or chest, choose whatever you like」
 
 @zakuro_
 @karin_
@@ -2091,18 +2255,23 @@ wait	500
 
 @suika_tere
 
+#「か、肩ですっ。肩を揉んでください！」
 ＠Suika,R00276
-「か、肩ですっ。肩を揉んでください！」
+「S-shoulder. Rub my shoulder, please!」
 
-真っ赤になって慌てながら、こちらに肩を差し出した。
+#真っ赤になって慌てながら、こちらに肩を差し出した。
+　Going bright red and flustered, she stuck her shoulder out to me.
 
+#「お胸の方が気持ちいいのにー」
 ＠Ichigo,O00769
-「お胸の方が気持ちいいのにー」
+「It’d feel better if you did her chest」
 
+#「せっかくの機会なのに、残念です」
 ＠Rua,M00110
-「せっかくの機会なのに、残念です」
+「These chances don’t come often, that’s too bad」
 
-ギャラリーのブーイングはすごいが、無難に肩を揉んでやった。
+#ギャラリーのブーイングはすごいが、無難に肩を揉んでやった。
+　Though the spectator’s booing was raucous, I innocently rubbed her shoulder.
 
 @suika_
 wait	500
@@ -2111,33 +2280,42 @@ wait	500
 
 @suika_warai
 
+#「……っていうか、普通に凝ってるな」
 ＠Itsuki
-「……っていうか、普通に凝ってるな」
+「...Actually, you hold them stiff usually, right」
 
+#「松葉杖を使ってると、どうしてもそうなってしまって……んんん～～」
 ＠Suika,R00277
-「松葉杖を使ってると、どうしてもそうなってしまって……んんん～～」
+「Whatever I do they get like that, after using my crutches... nmmmh～～」
 
-凝りを解され、気持ち良さそうな声を漏らす。
+#凝りを解され、気持ち良さそうな声を漏らす。
+　She moans comfortably, as I loosen up the stiffness.
 
+#「ふぅ……他の人がいなければ、胸でも良かったんですけど」
 ＠Suika,R00278
-「ふぅ……他の人がいなければ、胸でも良かったんですけど」
+「Sigh... if there weren’t people around, I wouldn’t have minded my chest」
 
+#「……ん？」
 ＠Itsuki
-「……ん？」
+「...Hm?」
 
 @suika
 
+#「いえ、もう大丈夫です。続きやりましょう」
 ＠Suika,R00279
-「いえ、もう大丈夫です。続きやりましょう」
+「Nothing, that’s good now. Shall we continue?」
 
-すいかの命令が終わり、再びゲームが開始される。
+#すいかの命令が終わり、再びゲームが開始される。
+　We resumed our game, after finishing up Suika’s order.
 
 #■BG（黒）
 @bg_black
 
-そうやってしばらくゲームを続け、梅雨の一日は楽しく終了したのだった。
+#そうやってしばらくゲームを続け、梅雨の一日は楽しく終了したのだった。
+　We continued it for some time, and managed to have some fun on a rainy day.
 
-……誠司は、結局オチたままだったが。
+#……誠司は、結局オチたままだったが。
+　...Though Seiji was down the entire time.
 
 #（スケジュール）
 
