@@ -69,3 +69,9 @@ This mean by setting #SCRIPT GROUP Karin day, the next files will count towards 
 which happens to be Karin related events other than training.
 The stats file will then tell how complete Karin's route is translated.
 All groups listed in the statistics are defined this way.
+
+#SCRIPT ORIGINAL
+Lines starting with this keyword will be ignored by translationfix and as such not placed in the resulting file. In other words these lines will be removed.
+Translationscript will add these lines itself whenever it encounters a line in the original Japanese script, which needs translating.
+The idea is that lines starting with this keyword will be the original Japanese lines and any attempt to change them will be reverted.
+This should remove the risk of translations based on "corrupted" Japanese lines.

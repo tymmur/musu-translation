@@ -1010,6 +1010,12 @@ sub handleScreenLines
 		$speaker = $first_line;
 	}
 	
+	# add the original lines as comments
+	foreach (@jap_lines)
+	{
+		push(@output, "#SCRIPT ORIGINAL " . $_);
+	}
+	
 	# put modified lines into @lines
 	# ignore unmodified lines
 	# store if modified and unmodified lines are found
@@ -1055,20 +1061,12 @@ sub handleScreenLines
 	}
 	
 	
-	# place Japanese files in comments
-	# or print them unmodified if no translation has been found
-	if ($has_japanese == 1)
+	# print Japanese lines if no translation has been found
+	if ($has_japanese == 1 and $has_translation != 1)
 	{
 		foreach (@jap_lines)
 		{
-			if ($has_translation == 1)
-			{
-				push(@output, "#" . $_);
-			}
-			else
-			{
-				push(@lines, $_);
-			}
+			push(@lines, $_);
 		}
 	}
 	
@@ -1350,6 +1348,7 @@ sub handleFile
 		
 		if ($type eq "COMMENT")
 		{
+			next if (substr($line, 0, 16) eq "#SCRIPT ORIGINAL");
 			push(@output, $line);
 			push(@output_wide, $line);
 			
@@ -1444,6 +1443,7 @@ sub handleFile
 		
 		if ($type eq "TEXT" and index($line, "select") != -1)
 		{
+			push(@output, "#SCRIPT ORIGINAL " . $japanese[$japanese_index]);
 			my $temp_line = substr($line, index($line, "select") + 6);
 			$temp_line = removeLeadingWhitespace($temp_line);
 			if (substr($temp_line, 0, 3) eq "sel")
