@@ -99,6 +99,42 @@ push(@common_route_files, "day/summer_festival.txt");
 push(@common_route_files, "day/school_day3.txt");
 push(@common_route_files, "day/yuzu7.txt");
 
+my %status = (
+	i => { # ichigo
+		karada => [ "ep_ichigo_01", "ichigo_qa03", "ep_ichigo_06", "ichigo_qa08", "ep_ichigo_09", "ichigo_qa07", "ep_ichigo_10" ],
+		atama  => [ "ep_ichigo_03", "ichigo_qa02", "ep_ichigo_05", "ichigo_qa04", "ichigo_qa05" , "ichigo_qa06", "ichigo_atama_1", "ichigo_atama_2", "ichigo_atama_3", "ichigo_atama_4" ],
+		kokoro => [ "ep_ichigo_04", "ichigo_qa01", "ep_ichigo_08", "ichigo_qa09", "ep_ichigo_07", "ichigo_qa10", "ep_ichigo_02" ]
+	},
+
+	m => { # mikan
+		karada => [ "ep_mikan_01", "mikan_qa10", "ep_mikan_06", "mikan_qa09", "ep_mikan_09", "mikan_qa05", "ep_mikan_10" ],
+		atama  => [ "ep_mikan_03", "mikan_qa01", "ep_mikan_05", "mikan_qa03", "ep_mikan_11", "mikan_qa08", "mikan_qa04"  ],
+		kokoro => [ "ep_mikan_04", "mikan_qa02", "ep_mikan_08", "mikan_qa06", "ep_mikan_07", "mikan_qa07", "ep_mikan_02" ]
+	},
+	
+	k => { # karin
+		karada => [ "ep_karin_01", "karin_qa02", "ep_karin_06", "karin_qa08", "ep_karin_09", "karin_qa09", "ep_karin_10" ],
+		atama  => [ "ep_karin_03", "karin_qa06", "ep_karin_05", "karin_qa04", "karin_qa07", "karin_qa10" ],
+		kokoro => [ "ep_karin_04", "karin_qa05", "ep_karin_08", "karin_qa01", "ep_karin_07", "karin_qa03", "ep_karin_02" ]
+	}
+);
+
+my %status_labels = ();
+
+
+foreach my $name (keys %status)
+{
+	foreach my $skill (keys %{$status{$name}})
+	{
+		for (my $i=0; $i < scalar @{$status{$name}{$skill}}; $i++)
+		{
+			$status_labels{$status{$name}{$skill}[$i]} = $name . $i . $skill;
+		}
+	}
+}
+
+my $is_status_group = 1;
+
 my $count_this_line = $count_kana_lines;
 
 # set end of line to always print CLRF
@@ -1289,6 +1325,10 @@ sub handleFile
 	my $script_ignore = 0;
 	my $added_button = 0;
 	
+	my $label_translated = 0;
+	my $label_total = 0;
+	my $last_label = "";
+	
 	for ($line_number =0; $line_number < scalar @translated; $line_number++)
 	{
 		my $line = $translated[$line_number];
@@ -1502,13 +1542,50 @@ sub handleFile
 		push(@output, $line);
 		push(@output_wide, $line);
 		
-		if ($add_label_text == 1 and substr($line, 0, 5) eq "label")
+		if (substr($line, 0, 5) eq "label")
 		{
-			my $label_string = "label " . removeTrailingWhitespace(substr($line, 5));
-			$label_string = toWideChar($label_string);
-			push(@output, "");
-			push(@output, $label_string);
-			push(@output, "");
+			my $label_string = removeTrailingWhitespace(substr($line, 5));
+			
+			if ($is_status_group)
+			{
+				my $local_translated = $translated_line_count - $label_translated;
+				my $local_total = $line_count - $label_total;
+				if (($local_translated * 2) > $local_total and exists $status_labels{$last_label})
+				{
+					my $label_key   = $status_labels{$last_label};
+					my $label_name  = substr($label_key, 0, 1);
+					my $label_index = substr($label_key, 1, 1);
+					my $label_stat  = substr($label_key, 2);
+					${$status{$label_name}{$label_stat}}[$label_index] = "";
+				}
+				$label_translated = $translated_line_count;
+				$label_total = $line_count;
+				$last_label = $label_string;
+			}
+			
+			if ($add_label_text == 1)
+			{
+				$label_string = "label " . $label_string;
+				$label_string = toWideChar($label_string);
+				push(@output, "");
+				push(@output, $label_string);
+				push(@output, "");
+			}
+		}
+	}
+	
+	# ensure last label is also included
+	if ($is_status_group)
+	{
+		my $local_translated = $translated_line_count - $label_translated;
+		my $local_total = $line_count - $label_total;
+		if (($local_translated * 2) > $local_total and exists $status_labels{$last_label})
+		{
+			my $label_key   = $status_labels{$last_label};
+			my $label_name  = substr($label_key, 0, 1);
+			my $label_index = substr($label_key, 1, 1);
+			my $label_stat  = substr($label_key, 2);
+			${$status{$label_name}{$label_stat}}[$label_index] = "";
 		}
 	}
 	
@@ -1730,6 +1807,7 @@ sub loadFromScriptsInc
 			$group_translated_byte_count = 0;
 			
 			$group = substr($_, 14);
+			$is_status_group = 0 if $group eq "prologue";
 			
 			last if $group eq "END";
 		}
@@ -1758,6 +1836,45 @@ sub loadFromScriptsInc
 	{
 		print FILE $_;
 	}
+	
+	print FILE "\n\nStatus episodes\n";
+	print FILE "\tIchigo\tMikan\tKarin\n";
+	foreach my $skill (keys %{$status{k}})
+	{
+		print FILE $skill;
+		foreach my $name ("i", "m", "k")
+		{
+			my $i = 0;
+			while ((scalar @{$status{$name}{$skill}}) > $i)
+			{
+				last if $status{$name}{$skill}[$i] ne "";
+				$i ++;
+			}
+			print FILE "\t" . $i;
+			
+		}
+		print FILE "\n";
+	}
+	
+	print FILE "Next file\n";
+	foreach my $skill (keys %{$status{k}})
+	{
+		print FILE $skill;
+		foreach my $name ("i", "m", "k")
+		{
+			my $i = 0;
+			while ((scalar @{$status{$name}{$skill}}) > $i)
+			{
+				last if $status{$name}{$skill}[$i] ne "";
+				$i ++;
+			}
+			print FILE "\t";
+			print FILE $status{$name}{$skill}[$i] if ((scalar @{$status{$name}{$skill}}) > $i);
+			
+		}
+		print FILE "\n";
+	}
+	
 	close FILE;
 }
 
