@@ -119,6 +119,7 @@ wait		100
 @bgm12			#演：仮ＢＧＭ
 
 #「ただいま、っと」
+#SCRIPT ORIGINAL 「ただいま、っと」
 ＠Itsuki
 「I'm back」
 
@@ -130,18 +131,22 @@ wait		1000
 @bg_dining		# 食堂
 
 #「美雨、買い物済ませてきたよ………あれ？」
+#SCRIPT ORIGINAL 「美雨、買い物済ませてきたよ………あれ？」
 ＠Itsuki
 「Miu, I went shopping...... huh?」
 
 #@bgm12			#演：仮ＢＧＭ
 
 #夕食の買出しから帰って来たが、そこに美雨の姿は無い。
+#SCRIPT ORIGINAL 夕食の買出しから帰って来たが、そこに美雨の姿は無い。
 　I bought things for dinner, but Miu wasn't around.
 
 #何か別の用事でも出来たのだろうか？
+#SCRIPT ORIGINAL 何か別の用事でも出来たのだろうか？
 　Maybe she's busy with something else.
 
 #「ま、じきに戻ってくるだろ」
+#SCRIPT ORIGINAL 「ま、じきに戻ってくるだろ」
 ＠Itsuki
 「I'm sure she'll be back soon」
 
@@ -149,12 +154,15 @@ bgm_stop
 @bg_black		# 黒
 
 #買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
+#SCRIPT ORIGINAL 買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
 　I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
 #キャンペーン中のお店でサービスに貰った物だ。
+#SCRIPT ORIGINAL キャンペーン中のお店でサービスに貰った物だ。
 　I got it for free from the store.
 
 #なので困った事に、子供達のおやつにするには量が少ない。
+#SCRIPT ORIGINAL なので困った事に、子供達のおやつにするには量が少ない。
 　It's kind of a bother that there isn't enough to give to all of the kids.
 
 @bgm03			#BGM 03 : いちごのテーマ
@@ -172,10 +180,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「おかえりなさい、パパ。何してるの？」
+#SCRIPT ORIGINAL 「おかえりなさい、パパ。何してるの？」
 ＠Ichigo,O01800
 「Welcome back, Papa. What are you doing?」
 
 #「ああ、ただいまいちご。ちょっとこれをな」
+#SCRIPT ORIGINAL 「ああ、ただいまいちご。ちょっとこれをな」
 ＠Itsuki
 「Hey, Ichigo. I'm wondering what to do with this」
 
@@ -190,10 +200,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「…？　あっ、クッキーだー！」
+#SCRIPT ORIGINAL 「…？　あっ、クッキーだー！」
 ＠Ichigo,O01801
 「...? Oh, a cookieー!」
 
 #手の中の包みを見て、いちごがはしゃいだ声を上げた。
+#SCRIPT ORIGINAL 手の中の包みを見て、いちごがはしゃいだ声を上げた。
 　She sees the wrapper in my hand and exclaims happily.
 
 @ichigo_warai		#笑
@@ -210,14 +222,17 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「美味しそう～♪　パパが買ってきたのっ？」
+#SCRIPT ORIGINAL 「美味しそう～♪　パパが買ってきたのっ？」
 ＠Ichigo,O01802
 「That looks good～♪ Did you buy it?」
 
 #「お店のサービスで貰ったんだよ」
+#SCRIPT ORIGINAL 「お店のサービスで貰ったんだよ」
 ＠Itsuki
 「I got it for free from the store」
 
 #「そうだ。よかったらいちご食べるか？」
+#SCRIPT ORIGINAL 「そうだ。よかったらいちご食べるか？」
 ＠Itsuki
 「Actually, why don't you have it?」
 
@@ -231,10 +246,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「えっ、いいのッ？」
+#SCRIPT ORIGINAL 「えっ、いいのッ？」
 ＠Ichigo,O01803
 「Eh, can I?」
 
 #「とてもみんなの分は無いからな。内緒だぞ」
+#SCRIPT ORIGINAL 「とてもみんなの分は無いからな。内緒だぞ」
 ＠Itsuki
 「There's not enough for everyone. Let's keep it our secret」
 
@@ -248,12 +265,14 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うん！　わぁいッ♪」
+#SCRIPT ORIGINAL 「うん！　わぁいッ♪」
 ＠Ichigo,O01804
 「OK! Yay♪」
 
 @ichigo_
 
 #いちごはクッキーを受け取り、その場で嬉しそうに包みを広げ始めた。
+#SCRIPT ORIGINAL いちごはクッキーを受け取り、その場で嬉しそうに包みを広げ始めた。
 　Ichigo takes the cookie and starts unwrapping it right away.
 
 @ichigo_middle		# 中間
@@ -267,14 +286,17 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「パパも一緒に食べよっ」
+#SCRIPT ORIGINAL 「パパも一緒に食べよっ」
 ＠Ichigo,O01805
 「You can have some too」
 
 #「そだな。少し摘ませてもらうか」
+#SCRIPT ORIGINAL 「そだな。少し摘ませてもらうか」
 ＠Itsuki
 「Sure, give me a piece」
 
 #二人でクッキーを摘みながら、談笑して過ごすことにした。
+#SCRIPT ORIGINAL 二人でクッキーを摘みながら、談笑して過ごすことにした。
 　Cookies in hand for both of us, we ended up chatting for a bit.
 
 bgm_stop
@@ -299,40 +321,49 @@ label	ep_ichigo_02
 #@SE22			#SE22　水を浴びる音（バシャアァァン！）
 @bg_bathroom_n
 
+#SCRIPT ORIGINAL 「ふぅ～～」
 ＠Itsuki
 「ふぅ～～」
 
+#SCRIPT ORIGINAL 熱い湯船にリラックスした声が漏れる。
 熱い湯船にリラックスした声が漏れる。
 
 se_stop		0
 
+#SCRIPT ORIGINAL 「いい湯だ」
 ＠Itsuki
 「いい湯だ」
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
+#SCRIPT ORIGINAL 一日の疲れが癒えていく。
 一日の疲れが癒えていく。
 
+#SCRIPT ORIGINAL 毎度お湯に浸かるだけで癒されるのだから、お風呂を考えた人類は偉いものだ。
 毎度お湯に浸かるだけで癒されるのだから、お風呂を考えた人類は偉いものだ。
 
+#SCRIPT ORIGINAL この生活の賑やかさもあって、こうして静かな時間は貴重でもあった。
 この生活の賑やかさもあって、こうして静かな時間は貴重でもあった。
 
 window_close
 bgm_stop
 wait		1000
 
+#SCRIPT ORIGINAL 「さてと。名残惜しいけど、長湯したら後がつかえてるからな」
 ＠Itsuki
 「さてと。名残惜しいけど、長湯したら後がつかえてるからな」
 
 #SE22　水を浴びる音（バシャアァァン！）
 @SE22			#SE22　水を浴びる音（バシャアァァン！）
 
+#SCRIPT ORIGINAL 一度湯船から出て、オレはシャワーとシャンプーに手を伸ばす。
 一度湯船から出て、オレはシャワーとシャンプーに手を伸ばす。
 
 window_close
 #SE112　浴室のドアスライド（カラカラカラ）
 @SE112			#SE112　浴室のドアスライド（カラカラカラ）
 
+#SCRIPT ORIGINAL 「ん？」
 ＠Itsuki
 「ん？」
 
@@ -342,15 +373,19 @@ window_close
 #@ichigo_hadaka
 #@ichigo			#普通
 
+#SCRIPT ORIGINAL 「あれ…？」
 ＠Ichigo,O01806
 「あれ…？」
 
+#SCRIPT ORIGINAL いきなり風呂場のドアが開いた。
 いきなり風呂場のドアが開いた。
 
 se_stop		0
 
+#SCRIPT ORIGINAL そこに居たのは、お風呂に入りに来た裸のいちごだった。
 そこに居たのは、お風呂に入りに来た裸のいちごだった。
 
+#SCRIPT ORIGINAL 「おわッ！？　い、いちごっ」
 ＠Itsuki
 「おわッ！？　い、いちごっ」
 
@@ -368,50 +403,62 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「あ、パパも入ってたんだー♪」
 ＠Ichigo,O01807
 「あ、パパも入ってたんだー♪」
 
+#SCRIPT ORIGINAL 「ああ、悪いな。出たら呼びに行くから」
 ＠Itsuki
 「ああ、悪いな。出たら呼びに行くから」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「え、何で？　だったら一緒に入ろうよー♪」
 ＠Ichigo,O01808
 「え、何で？　だったら一緒に入ろうよー♪」
 
 @ichigo_
 
+#SCRIPT ORIGINAL 突然の事態なのにあっさりと言い、いちごが近寄ってくる。
 突然の事態なのにあっさりと言い、いちごが近寄ってくる。
 
+#SCRIPT ORIGINAL そうか。いちごはこういう子だった。
 そうか。いちごはこういう子だった。
 
 @ichigo_middle		# 中間
 @ichigo_hadaka
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「パパ身体洗うの？　いちごが洗ってあげるよ～」
 ＠Ichigo,O01809
 「パパ身体洗うの？　いちごが洗ってあげるよ～」
 
+#SCRIPT ORIGINAL 「はぁ……いや、後でいいよ。先にいちごが洗うだろう？」
 ＠Itsuki
 「はぁ……いや、後でいいよ。先にいちごが洗うだろう？」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「うん。早くお湯に浸かりたいもん～」
 ＠Ichigo,O01810
 「うん。早くお湯に浸かりたいもん～」
 
 @ichigo_
 
+#SCRIPT ORIGINAL オレが湯船に戻って場所を譲ると、いちごは無警戒で嬉しそうに身体を洗い始めた。
 オレが湯船に戻って場所を譲ると、いちごは無警戒で嬉しそうに身体を洗い始めた。
 
+#SCRIPT ORIGINAL 「見てパパ、新しい水鉄砲だよ。後でこれで遊ぼうね」
 ＠Ichigo,O01811
 「見てパパ、新しい水鉄砲だよ。後でこれで遊ぼうね」
 
+#SCRIPT ORIGINAL 「はは……仕方ないな」
 ＠Itsuki
 「はは……仕方ないな」
 
 bgm_stop
 
+#SCRIPT ORIGINAL 静かな癒しの時間ではなくなったが。これはこれで満足だった。
 静かな癒しの時間ではなくなったが。これはこれで満足だった。
 
 @bg_black
@@ -434,6 +481,7 @@ label	ep_ichigo_03
 @bg_rouka
 
 #美雨と一緒に段取りを話しながら、廊下を進んでいた。
+#SCRIPT ORIGINAL 美雨と一緒に段取りを話しながら、廊下を進んでいた。
 　I walked with Miu through the hall discussing our arrangement.
 
 @bg_black
@@ -444,10 +492,12 @@ wait		100
 @bg_door		# ドア前
 
 #「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
+#SCRIPT ORIGINAL 「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 ＠Miu,B01488
 「Well then, I'll be in the library room next door, call me if you need anything」
 
 #「分かった。終わったらオレもそっちを手伝うから」
+#SCRIPT ORIGINAL 「分かった。終わったらオレもそっちを手伝うから」
 ＠Itsuki
 「Sure. If I finish early I'll come and help」
 
@@ -461,12 +511,14 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 #「はい。すみませんけれど、よろしくお願いします」
+#SCRIPT ORIGINAL 「はい。すみませんけれど、よろしくお願いします」
 ＠Miu,B01489
 「OK, thanks so much」
 
 @miu_
 
 #ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
+#SCRIPT ORIGINAL ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
 　We part in front of the door. Miu goes into the library room and I go into the game room.
 
 @bg_black
@@ -477,26 +529,33 @@ wait		100
 @bg_goraku
 
 #「さて、と」
+#SCRIPT ORIGINAL 「さて、と」
 ＠Itsuki
 「Now then...」
 
 #部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
+#SCRIPT ORIGINAL 部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
 　Miu had already left a bucket and house-cloth inside.
 
 #さっきの段取りと言うのは、掃除の手伝いのことだ。
+#SCRIPT ORIGINAL さっきの段取りと言うのは、掃除の手伝いのことだ。
 　We'd been talking about helping her with cleaning the household.
 
 #遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
+#SCRIPT ORIGINAL 遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
 　I had to almost force myself into volunteering to help out, as Miu was hesitant.
 
 #「こうして落ち着いて見ると、けっこう汚れているものだな」
+#SCRIPT ORIGINAL 「こうして落ち着いて見ると、けっこう汚れているものだな」
 ＠Itsuki
 「If I take the time to look closely like this, it's gotten pretty dirty」
 
 #遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
+#SCRIPT ORIGINAL 遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
 　When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
 #後はもう、出しっぱなしで片付けていないカードとかも……
+#SCRIPT ORIGINAL 後はもう、出しっぱなしで片付けていないカードとかも……
 　And there's some cards and stuff that haven't been put away...
 
 bgm_stop
@@ -516,15 +575,18 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「あ。やっぱりパパだ♪」
+#SCRIPT ORIGINAL 「あ。やっぱりパパだ♪」
 ＠Ichigo,O01812
 「Oh, it is you, Papa♪」
 
 @bgm03			#BGM 03 : いちごのテーマ
 
 #どこから手をつけようか迷っていると、いちごが部屋に入ってきた。
+#SCRIPT ORIGINAL どこから手をつけようか迷っていると、いちごが部屋に入ってきた。
 　Ichigo showed up as I was wondering where to start.
 
 #「いちごか。そう言えば今日はお休みだったな」
+#SCRIPT ORIGINAL 「いちごか。そう言えば今日はお休みだったな」
 ＠Itsuki
 「Ichigo? You have your day off today, right?」
 
@@ -538,6 +600,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うん。それで、パパがここに入るのが見えたから追ってきたんだよ」
+#SCRIPT ORIGINAL 「うん。それで、パパがここに入るのが見えたから追ってきたんだよ」
 ＠Ichigo,O01813
 「Yeah. I saw you go in here so I followed you」
 
@@ -557,23 +620,28 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「ねぇねぇ、いちご暇なの～。何かして遊ぼうよ～」
+#SCRIPT ORIGINAL 「ねぇねぇ、いちご暇なの～。何かして遊ぼうよ～」
 ＠Ichigo,O01814
 「I've got nothing to do. Let's play something～」
 
 #「はは、残念だが遊びじゃないよ。掃除しに来たんだ」
+#SCRIPT ORIGINAL 「はは、残念だが遊びじゃないよ。掃除しに来たんだ」
 ＠Itsuki
 「Haha, sorry but I came here to clean the place, not play」
 
 @ichigo			#普通
 
 #「え。掃除……？」
+#SCRIPT ORIGINAL 「え。掃除……？」
 ＠Ichigo,O01815
 「Eh? Cleaning...?」
 
 #遊戯室に入ったので、てっきり遊ぶとばかり思っていたのだろう。
+#SCRIPT ORIGINAL 遊戯室に入ったので、てっきり遊ぶとばかり思っていたのだろう。
 　It appears she had nothing but the thought of playing on her mind.
 
 #「そうだ。いちご暇なら一緒に―――」
+#SCRIPT ORIGINAL 「そうだ。いちご暇なら一緒に―――」
 ＠Itsuki
 「Actually, if you've got time, maybe you could―――」
 
@@ -587,23 +655,28 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「あ、思い出したー！　いちごそう言えば用事があるんだった～！」
+#SCRIPT ORIGINAL 「あ、思い出したー！　いちごそう言えば用事があるんだった～！」
 ＠Ichigo,O01816
 「Ah, I just remembered! I had something to do today too～!」
 
 @ichigo_ase		#汗
 
 #「えっと、だからお手伝いしたくても、忙しくていちごちょっと無理かな～」
+#SCRIPT ORIGINAL 「えっと、だからお手伝いしたくても、忙しくていちごちょっと無理かな～」
 ＠Ichigo,O01817
 「Um, so as much as I'd like to help you, I'm busy and can't spare the time～」
 
 #……分かりやすいな。
+#SCRIPT ORIGINAL ……分かりやすいな。
 　...She's so easy to read.
 
 #「そんなに急ぐ用事って一体何だ？」
+#SCRIPT ORIGINAL 「そんなに急ぐ用事って一体何だ？」
 ＠Itsuki
 「What on earth do you have to do all of a sudden?」
 
 #「え。えっと、それは……分からないけど、何かあったような～」
+#SCRIPT ORIGINAL 「え。えっと、それは……分からないけど、何かあったような～」
 ＠Ichigo,O01818
 「Eh? Um... I don't know exactly what, but there was something～, I'm sure of it」
 
@@ -617,10 +690,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「あ、そうだッ。いつもざくろがね、いちごは頭の中が大変だって言うの！　だから、大変で忙しいの～！」
+#SCRIPT ORIGINAL 「あ、そうだッ。いつもざくろがね、いちごは頭の中が大変だって言うの！　だから、大変で忙しいの～！」
 ＠Ichigo,O01819
 「Oh, I know. Zakuro always tells me my head is a major issue! So I'm majorly busy right now～!」
 
 #「分かったから、ほら布巾。いちごはテーブルを頼むな」
+#SCRIPT ORIGINAL 「分かったから、ほら布巾。いちごはテーブルを頼むな」
 ＠Itsuki
 「I've heard enough, here's a rag. I'll leave the table to you」
 
@@ -640,17 +715,21 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うわーん、本当に大変なのに～！」
+#SCRIPT ORIGINAL 「うわーん、本当に大変なのに～！」
 ＠Ichigo,O01820
 「Oh no, but this is a really major issue～!」
 
 #「……まぁ、確かに大変そうだ」
+#SCRIPT ORIGINAL 「……まぁ、確かに大変そうだ」
 ＠Itsuki
 「...Yeah, it must be by the sounds of it」
 
 #何か、『頭が悪いから早退します』とか学生が言うのと同レベルだ。
+#SCRIPT ORIGINAL 何か、『頭が悪いから早退します』とか学生が言うのと同レベルだ。
 　This is in the same vein as a student saying "I'm a blockhead, so I'm going for early dismissal".
 
 #「手伝ってくれたら、後で出かけよう。お菓子でも買ってあげるからさ」
+#SCRIPT ORIGINAL 「手伝ってくれたら、後で出かけよう。お菓子でも買ってあげるからさ」
 ＠Itsuki
 「If you help out, I'll take you out later and buy you some candy」
 
@@ -665,20 +744,25 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「お菓子！？　うんッ、それならいいよ！」
+#SCRIPT ORIGINAL 「お菓子！？　うんッ、それならいいよ！」
 ＠Ichigo,O01821
 「Candy!? Then I'll help out!」
 
 #「はやッ」
+#SCRIPT ORIGINAL 「はやッ」
 ＠Itsuki
 「That was quick!」
 
 #……大変すぎるぞいちご。
+#SCRIPT ORIGINAL ……大変すぎるぞいちご。
 　...It really is a major issue, Ichigo.
 
 #まぁ、おかげでこうして貴重な戦力を得たわけだが……
+#SCRIPT ORIGINAL まぁ、おかげでこうして貴重な戦力を得たわけだが……
 　Well, this means I've acquired a deadly asset to assist me now, but...
 
 #「いちご。くれぐれも知らない人に、お菓子なんかでついて行っちゃダメだぞ」
+#SCRIPT ORIGINAL 「いちご。くれぐれも知らない人に、お菓子なんかでついて行っちゃダメだぞ」
 ＠Itsuki
 「Please Ichigo, don't follow a stranger if he tells you he has candy」
 
@@ -692,12 +776,14 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「は～い♪」
+#SCRIPT ORIGINAL 「は～い♪」
 ＠Ichigo,O01822
 「Sure～♪」
 
 bgm_stop
 
 #その笑顔が、そこはかとなく不安を感じさせてくれた。
+#SCRIPT ORIGINAL その笑顔が、そこはかとなく不安を感じさせてくれた。
 　Somehow, that smile makes me feel uneasy.
 
 @bg_black
@@ -718,9 +804,11 @@ label	ep_ichigo_04
 @bg_black
 
 #改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
+#SCRIPT ORIGINAL 改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
 　I don't need to say it again, but Shizuku really loves doing useless things.
 
 #とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
+#SCRIPT ORIGINAL とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
 　She can't ever calm down, and is always amusing herself at the expense of others.
 
 #■BG（自室・夜）
@@ -730,6 +818,7 @@ label	ep_ichigo_04
 screen_vibration	500,8,8,8
 
 #「や、やられたぁッ……！！」
+#SCRIPT ORIGINAL 「や、やられたぁッ……！！」
 ＠Itsuki
 「W-what the hell...」
 
@@ -737,40 +826,51 @@ screen_vibration	500,8,8,8
 se_stop		0
 
 #お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
+#SCRIPT ORIGINAL お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
 　Returning from the bath, I was dumbstruck at the scene before me.
 
 #部屋の中には曲者の侵入の痕跡が残っていた。
+#SCRIPT ORIGINAL 部屋の中には曲者の侵入の痕跡が残っていた。
 　Someone had intruded in my room and left a mess all over the place.
 
 #いや、残っているどころか、
+#SCRIPT ORIGINAL いや、残っているどころか、
 　No, not just a mess...
 
 #「部屋中の本がエロ本にすり替わってる！！」
+#SCRIPT ORIGINAL 「部屋中の本がエロ本にすり替わってる！！」
 ＠Itsuki
 「All my books have been switched with porn magazines!!」
 
 #本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
+#SCRIPT ORIGINAL 本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
 　Everything from my bookshelf to my nightstand, an overflowing sexual deviance was scattered about.
 
 #むしろ産卵しているかもしれない。
+#SCRIPT ORIGINAL むしろ産卵しているかもしれない。
 　Or perhaps planted there.
 
 #「こんなくだらない事に労力を使うのは、雫さんだな……」
+#SCRIPT ORIGINAL 「こんなくだらない事に労力を使うのは、雫さんだな……」
 ＠Itsuki
 「Only Shizuku would go to so much trouble...」
 
 #図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
+#SCRIPT ORIGINAL 図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
 　They're probably from the library room. I don't think this is all the work of one person, though.
 
 #「手伝ったのはざくろだろうな。未だに行動が読めないし」
+#SCRIPT ORIGINAL 「手伝ったのはざくろだろうな。未だに行動が読めないし」
 ＠Itsuki
 「Zakuro probably helped. She seems pretty fishy too」
 
 #「……ったく」
+#SCRIPT ORIGINAL 「……ったく」
 ＠Itsuki
 「...Ugh」
 
 #放っておくわけにもいかないので、とりあえず片付け始める。
+#SCRIPT ORIGINAL 放っておくわけにもいかないので、とりあえず片付け始める。
 　I can't just leave it like this, so I start cleaning it up.
 
 #SE11　部屋のドアをノック（コンコン）
@@ -778,6 +878,7 @@ se_stop		0
 #コンコン。
 
 #「ん？　ざくろか。雫さんですか？　どうぞ」
+#SCRIPT ORIGINAL 「ん？　ざくろか。雫さんですか？　どうぞ」
 ＠Itsuki
 「Is that you, Zakuro? Shizuku-san? Come in」
 
@@ -808,12 +909,14 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「ブブー、ハズレ～！　正解はいちごだよ」
+#SCRIPT ORIGINAL 「ブブー、ハズレ～！　正解はいちごだよ」
 ＠Ichigo,O01823
 「Beep beep, wrong～! The correct answer is Ichigo」
 
 @bgm03			#BGM 03 : いちごのテーマ
 
 #「げッ…！？」
+#SCRIPT ORIGINAL 「げッ…！？」
 ＠Itsuki
 「Ack...!」
 
@@ -828,33 +931,40 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「…？　ああーー！」
+#SCRIPT ORIGINAL 「…？　ああーー！」
 ＠Ichigo,O01824
 「...? Ahhーー!」
 
 #完全に不意を付かれて、部屋の現状がいちごに見つかってしまった。
+#SCRIPT ORIGINAL 完全に不意を付かれて、部屋の現状がいちごに見つかってしまった。
 　I'm caught completely off-guard, and Ichigo discovers the state of my room.
 
 #「すごーい！　エッチな本がいっぱいある～。どうしたの？」
+#SCRIPT ORIGINAL 「すごーい！　エッチな本がいっぱいある～。どうしたの？」
 ＠Ichigo,O01825
 「Wow! There's so many dirty books～. What's with that?」
 
 #「どうもこうも、オレのじゃないぞ。雫さんがやったんだ」
+#SCRIPT ORIGINAL 「どうもこうも、オレのじゃないぞ。雫さんがやったんだ」
 ＠Itsuki
 「Nothing, they're not mine. This is Shizuku-san's doing」
 
 @ichigo_yorokobi	#喜
 
 #「ふ～ん。あ、見てパパ。これすごい格好でエッチしてるよー♪」
+#SCRIPT ORIGINAL 「ふ～ん。あ、見てパパ。これすごい格好でエッチしてるよー♪」
 ＠Ichigo,O01826
 「Hmmm. Oh, look at the crazy position they're doing it in, Papaー♪」
 
 @ichigo			#普通
 
 #「こっちの本の人は、すごいおっぱいだし。美雨とどっちが大きいかな～」
+#SCRIPT ORIGINAL 「こっちの本の人は、すごいおっぱいだし。美雨とどっちが大きいかな～」
 ＠Ichigo,O01827
 「This girl has really big boobs. I wonder which are bigger, her's or Miu's～」
 
 #「いや～、美雨だろ。メイド服の上からあのボリュームだしな」
+#SCRIPT ORIGINAL 「いや～、美雨だろ。メイド服の上からあのボリュームだしな」
 ＠Itsuki
 「I'd say Miu. You can tell how big they are through her maid outfit」
 
@@ -874,52 +984,64 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「あははッ、やっぱりそうだよね。雫なら同じくらいかな」
+#SCRIPT ORIGINAL 「あははッ、やっぱりそうだよね。雫なら同じくらいかな」
 ＠Ichigo,O01828
 「Ahaha, I guess you're right. Probably closer to Shizuku's then」
 
 #「けどこのモデル、大きさはあっても形がなぁ」
+#SCRIPT ORIGINAL 「けどこのモデル、大きさはあっても形がなぁ」
 ＠Itsuki
 「But this model's got a nice shape even when they're so big」
 
 #……って、何のんきに品評してるんだオレも。
+#SCRIPT ORIGINAL ……って、何のんきに品評してるんだオレも。
 　...Wait, why am I commenting along with her?
 
 #とりあえずいちごはあっという間に状況に順応し、それは不幸中の幸いだった。
+#SCRIPT ORIGINAL とりあえずいちごはあっという間に状況に順応し、それは不幸中の幸いだった。
 　Actually, now that she knows I might be able to use her to my advantage.
 
 #「悪いけどいちご、片付け手伝ってくれないか」
+#SCRIPT ORIGINAL 「悪いけどいちご、片付け手伝ってくれないか」
 ＠Itsuki
 「Ichigo, could you help me clean this up?」
 
 @ichigo			#普通
 
 #「え、どうして？　もっと一緒に見ようよ」
+#SCRIPT ORIGINAL 「え、どうして？　もっと一緒に見ようよ」
 ＠Ichigo,O01829
 「Eh, why? Let's let look at them together some more」
 
 #「いやいやいや」
+#SCRIPT ORIGINAL 「いやいやいや」
 ＠Itsuki
 「OK, just hold on a bit」
 
 #「百歩譲って見るにしても、まずはこの部屋の惨劇は何とかしたい」
+#SCRIPT ORIGINAL 「百歩譲って見るにしても、まずはこの部屋の惨劇は何とかしたい」
 ＠Itsuki
 「I might agree to that, but first we have to do something about this disaster in my room」
 
 @ichigo_yorokobi	#喜
 
 #「ふ～ん。あ、パパ見てこの人、大人なのにお股の毛が生えてないよ」
+#SCRIPT ORIGINAL 「ふ～ん。あ、パパ見てこの人、大人なのにお股の毛が生えてないよ」
 ＠Ichigo,O01830
 「Hmmm. Oh, Papa look, this lady's an adult but she doesn't have any hair down there」
 
 #「ん？　ほぉ、パイパンだな。剃った後も無いし天然物だ」
+#SCRIPT ORIGINAL 「ん？　ほぉ、パイパンだな。剃った後も無いし天然物だ」
 ＠Itsuki
 「Hm? Yeah, you're right. There's no residual, so it must be naturally like that」
 
 #「こっちの人はお股の毛も無いし胸も小さいよ」
+#SCRIPT ORIGINAL 「こっちの人はお股の毛も無いし胸も小さいよ」
 ＠Ichigo,O01831
 「She doesn't have any hair, and her boobs are small too」
 
 #「ふむ。良きかな良きかな」
+#SCRIPT ORIGINAL 「ふむ。良きかな良きかな」
 ＠Itsuki
 「Mhm. Very nice」
 
@@ -929,6 +1051,7 @@ bgm_stop
 wait		1000
 
 #……結局遅くまで、いっこうに片付けの効率は上がらなかった。
+#SCRIPT ORIGINAL ……結局遅くまで、いっこうに片付けの効率は上がらなかった。
 　...And so, we didn't start cleaning up until much later.
 
 #（スケジュールへ）
@@ -948,13 +1071,16 @@ label	ep_ichigo_05
 #■BG（廊下）
 @bg_rouka
 
+#SCRIPT ORIGINAL 自室に戻る途中、図書室の前でふと足を止めた。
 自室に戻る途中、図書室の前でふと足を止めた。
 
 @bgm12			#演：仮ＢＧＭ
 
+#SCRIPT ORIGINAL 「そういえば、読みかけの本があったっけ……」
 ＠Itsuki
 「そういえば、読みかけの本があったっけ……」
 
+#SCRIPT ORIGINAL ちょうど時間も空いてるし、少し読んでいくことにしよう。
 ちょうど時間も空いてるし、少し読んでいくことにしよう。
 
 @bg_black
@@ -964,14 +1090,18 @@ wait		1000
 #SE06　部屋のドア開く音（ガチャ）
 @bg_library
 
+#SCRIPT ORIGINAL 「う～～……うぅ～」
 ＠Ichigo,O01832
 「う～～……うぅ～」
 
+#SCRIPT ORIGINAL 「ん？」
 ＠Itsuki
 「ん？」
 
+#SCRIPT ORIGINAL 中に入ると、そこで意外な人物が本を広げていた。
 中に入ると、そこで意外な人物が本を広げていた。
 
+#SCRIPT ORIGINAL 「いちごじゃないか。どうしたんだ図書室で」
 ＠Itsuki
 「いちごじゃないか。どうしたんだ図書室で」
 
@@ -989,24 +1119,30 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「え…？　あ、パパだ～！」
 ＠Ichigo,O01833
 「え…？　あ、パパだ～！」
 
+#SCRIPT ORIGINAL 声を掛けてようやくオレの方に気付く。
 声を掛けてようやくオレの方に気付く。
 
+#SCRIPT ORIGINAL 「ずいぶん唸ってたけど、本を読んでるのか？」
 ＠Itsuki
 「ずいぶん唸ってたけど、本を読んでるのか？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「んっと、宿題。たくさんあって困ってるの」
 ＠Ichigo,O01834
 「んっと、宿題。たくさんあって困ってるの」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「部屋に居たら遊んじゃうから、図書室でやろうとしたんだけど～……」
 ＠Ichigo,O01835
 「部屋に居たら遊んじゃうから、図書室でやろうとしたんだけど～……」
 
+#SCRIPT ORIGINAL 「なるほど。ヘロヘロなわけだ」
 ＠Itsuki
 「なるほど。ヘロヘロなわけだ」
 
@@ -1019,27 +1155,34 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「あぁ～…疲れた～、遊びたいよぉパパ～…」
 ＠Ichigo,O01836
 「あぁ～…疲れた～、遊びたいよぉパパ～…」
 
 @ichigo_takurami	#企み
 
+#SCRIPT ORIGINAL 「ここにある本全部使って、長いドミノ倒し作ろうよ～」
 ＠Ichigo,O01837
 「ここにある本全部使って、長いドミノ倒し作ろうよ～」
 
+#SCRIPT ORIGINAL 「怒られるぞ、美雨に」
 ＠Itsuki
 「怒られるぞ、美雨に」
 
+#SCRIPT ORIGINAL 「じゃあ美雨も共犯にしようよ～……」
 ＠Ichigo,O01838
 「じゃあ美雨も共犯にしようよ～……」
 
+#SCRIPT ORIGINAL 「……はぁ」
 ＠Itsuki
 「……はぁ」
 
 @bg_black		# 黒
 
+#SCRIPT ORIGINAL 溜め息を吐きながら、オレは広げられていた宿題のドリルを確認してみた。
 溜め息を吐きながら、オレは広げられていた宿題のドリルを確認してみた。
 
+#SCRIPT ORIGINAL 「ん…？」
 ＠Itsuki
 「ん…？」
 
@@ -1048,18 +1191,23 @@ layer_movepass_play	l_ichigo,0,play_once
 @ichigo			#普通
 @bg_library
 
+#SCRIPT ORIGINAL 「んぅ、なぁに…？　間違いだらけ～？」
 ＠Ichigo,O01839
 「んぅ、なぁに…？　間違いだらけ～？」
 
+#SCRIPT ORIGINAL 「確かに間違いはあるが。そうじゃなくて」
 ＠Itsuki
 「確かに間違いはあるが。そうじゃなくて」
 
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
+#SCRIPT ORIGINAL ペラペラと数ページ戻った場所に、数日前の教師の検印の判を確認する。
 ペラペラと数ページ戻った場所に、数日前の教師の検印の判を確認する。
 
+#SCRIPT ORIGINAL そこから今のページまで、ずっと同じ字が続いていた。
 そこから今のページまで、ずっと同じ字が続いていた。
 
+#SCRIPT ORIGINAL 「もしかしていちご、この判のページからここまで、ずっとやってたのか？」
 ＠Itsuki
 「もしかしていちご、この判のページからここまで、ずっとやってたのか？」
 
@@ -1071,72 +1219,92 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん。だって宿題だもん……」
 ＠Ichigo,O01840
 「うん。だって宿題だもん……」
 
+#SCRIPT ORIGINAL てっきり、始めてすぐ根を上げているのだと思った。
 てっきり、始めてすぐ根を上げているのだと思った。
 
+#SCRIPT ORIGINAL けどいちごは、苦手な図書室で、こんなにページを解いていたんだ。
 けどいちごは、苦手な図書室で、こんなにページを解いていたんだ。
 
+#SCRIPT ORIGINAL 「すごいじゃないか、いちご。よく頑張ってるな！」
 ＠Itsuki
 「すごいじゃないか、いちご。よく頑張ってるな！」
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Ichigo,O01841
 「え……？」
 
+#SCRIPT ORIGINAL 「全部自分で解いたんだろう？」
 ＠Itsuki
 「全部自分で解いたんだろう？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「う、うん。でも間違いあるんでしょ……？」
 ＠Ichigo,O01842
 「う、うん。でも間違いあるんでしょ……？」
 
+#SCRIPT ORIGINAL 「まぁ少なくはないが。でも頑張って解いてるのは見て分かるよ」
 ＠Itsuki
 「まぁ少なくはないが。でも頑張って解いてるのは見て分かるよ」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「そ、そっかな……あはは」
 ＠Ichigo,O01843
 「そ、そっかな……あはは」
 
+#SCRIPT ORIGINAL 間違ってる答えで褒められたのが意外なのか、いちごに少し笑顔が戻る。
 間違ってる答えで褒められたのが意外なのか、いちごに少し笑顔が戻る。
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「えっとね、分からないところは何回も教科書を見ながらやったんだよ」
 ＠Ichigo,O01844
 「えっとね、分からないところは何回も教科書を見ながらやったんだよ」
 
+#SCRIPT ORIGINAL 「自力で考えたのか。偉いぞ」
 ＠Itsuki
 「自力で考えたのか。偉いぞ」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「それでも間違えてるところ、パパ教えてくれる？」
 ＠Ichigo,O01845
 「それでも間違えてるところ、パパ教えてくれる？」
 
+#SCRIPT ORIGINAL 「もちろんだ。でもこれだけやったんだし、少し休憩するか？」
 ＠Itsuki
 「もちろんだ。でもこれだけやったんだし、少し休憩するか？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「う～ん……」
 ＠Ichigo,O01846
 「う～ん……」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ううん、いい。パパに褒めてもらったら、元気が出てきたよっ」
 ＠Ichigo,O01847
 「ううん、いい。パパに褒めてもらったら、元気が出てきたよっ」
 
+#SCRIPT ORIGINAL さっきまでヘロヘロだったのに、すっかり気力を回復できたようだ。
 さっきまでヘロヘロだったのに、すっかり気力を回復できたようだ。
 
+#SCRIPT ORIGINAL まずはそんな頑張ったご褒美に、いちごの頭を撫でてあげる。
 まずはそんな頑張ったご褒美に、いちごの頭を撫でてあげる。
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「えへへ～♪」
 ＠Ichigo,O01848
 「えへへ～♪」
 
+#SCRIPT ORIGINAL 「それじゃ、一つずつ解こうか。疲れたら言うんだぞ」
 ＠Itsuki
 「それじゃ、一つずつ解こうか。疲れたら言うんだぞ」
 
@@ -1149,9 +1317,11 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「は～い♪」
 ＠Ichigo,O01849
 「は～い♪」
 
+#SCRIPT ORIGINAL そうしていちごの宿題が終わるまで、図書室での勉強会は楽しく続けられるのだった。
 そうしていちごの宿題が終わるまで、図書室での勉強会は楽しく続けられるのだった。
 
 @chara_clear		#保険
@@ -1173,11 +1343,14 @@ label	ep_ichigo_06
 @chara_clear		#保険
 @bg_rouka
 
+#SCRIPT ORIGINAL 食堂の前を通りかかると、そこのドアが少し浮いているのに気付いた。
 食堂の前を通りかかると、そこのドアが少し浮いているのに気付いた。
 
+#SCRIPT ORIGINAL 「ん…？」
 ＠Itsuki
 「ん…？」
 
+#SCRIPT ORIGINAL 誰か居るのかと思って中を覗く。
 誰か居るのかと思って中を覗く。
 
 @chara_clear		#保険
@@ -1190,93 +1363,119 @@ wait		1000
 @ichigo_yorokobi	#喜
 @bg_dining
 
+#SCRIPT ORIGINAL 「んぅ？　あ、パパだーっ♪」
 ＠Ichigo,O01850
 「んぅ？　あ、パパだーっ♪」
 
 @bgm12			#演：仮ＢＧＭ
 
+#SCRIPT ORIGINAL 「いちごか。一人で何をしてるんだ？」
 ＠Itsuki
 「いちごか。一人で何をしてるんだ？」
 
+#SCRIPT ORIGINAL 「おやつ食べるの。今日はプリンなんだよ」
 ＠Ichigo,O01851
 「おやつ食べるの。今日はプリンなんだよ」
 
+#SCRIPT ORIGINAL 「いつものおやつの時間は、今日はいちごお仕事だったから」
 ＠Ichigo,O01852
 「いつものおやつの時間は、今日はいちごお仕事だったから」
 
+#SCRIPT ORIGINAL 「あぁ、そういうことか」
 ＠Itsuki
 「あぁ、そういうことか」
 
+#SCRIPT ORIGINAL 客に合わせた仕事なので、他のみんなと時間がずれる事は少なくない。
 客に合わせた仕事なので、他のみんなと時間がずれる事は少なくない。
 
+#SCRIPT ORIGINAL まぁ食事に関しては、極力気をつけてはいるが。
 まぁ食事に関しては、極力気をつけてはいるが。
 
+#SCRIPT ORIGINAL 「そっか。おやつの時間も一人じゃ寂しいな」
 ＠Itsuki
 「そっか。おやつの時間も一人じゃ寂しいな」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「だからパパ、一緒に食べよ。いちごの分けてあげるから」
 ＠Ichigo,O01853
 「だからパパ、一緒に食べよ。いちごの分けてあげるから」
 
+#SCRIPT ORIGINAL 「ふむ。ちょっと待ってな」
 ＠Itsuki
 「ふむ。ちょっと待ってな」
 
 @chara_clear		#保険
 @bg_kitchen		# キッチン
 
+#SCRIPT ORIGINAL 一度キッチンに入り、美雨に教えてもらった秘密の戸棚を開ける。
 一度キッチンに入り、美雨に教えてもらった秘密の戸棚を開ける。
 
+#SCRIPT ORIGINAL そこに常備されている子供達用の予備のお菓子を一つ取り、戻ってきた。
 そこに常備されている子供達用の予備のお菓子を一つ取り、戻ってきた。
 
 @ichigo_middle		# 中間
 @ichigo			#普通
 @bg_dining
 
+#SCRIPT ORIGINAL 「何してたの？」
 ＠Ichigo,O01854
 「何してたの？」
 
+#SCRIPT ORIGINAL 「ふっふっふ。これを持って来たのさ」
 ＠Itsuki
 「ふっふっふ。これを持って来たのさ」
 
+#SCRIPT ORIGINAL ジャーン！という効果音でもあるように、袋菓子をいちごに見せ付けた。
 ジャーン！という効果音でもあるように、袋菓子をいちごに見せ付けた。
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「あーッ、新しいお菓子だ！　どこっ？　どこにあったの！？」
 ＠Ichigo,O01855
 「あーッ、新しいお菓子だ！　どこっ？　どこにあったの！？」
 
+#SCRIPT ORIGINAL 「それは言えんな。秘密だ」
 ＠Itsuki
 「それは言えんな。秘密だ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「わあッ、気になるよー！　秘密ってことはまだあるんだーッ！？」
 ＠Ichigo,O01856
 「わあッ、気になるよー！　秘密ってことはまだあるんだーッ！？」
 
+#SCRIPT ORIGINAL 「いちごが良い子にしてたら、そこからお菓子が出てくるんだ」
 ＠Itsuki
 「いちごが良い子にしてたら、そこからお菓子が出てくるんだ」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「ウソだー！　絶対どこかに隠してるんだよ、お菓子ッ」
 ＠Ichigo,O01857
 「ウソだー！　絶対どこかに隠してるんだよ、お菓子ッ」
 
+#SCRIPT ORIGINAL 夢中になって問い詰めるいちごの前に、Ｔ字破りしたお菓子を広げてやる。
 夢中になって問い詰めるいちごの前に、Ｔ字破りしたお菓子を広げてやる。
 
+#SCRIPT ORIGINAL 「さぁほら、せっかくなんだから食べようよ、いちご」
 ＠Itsuki
 「さぁほら、せっかくなんだから食べようよ、いちご」
 
+#SCRIPT ORIGINAL 「う～……絶対後で探して見つけるもん～」
 ＠Ichigo,O01858
 「う～……絶対後で探して見つけるもん～」
 
+#SCRIPT ORIGINAL まだ訝しんでいるが。まさかあんな場所とは思いもしないだろうな。
 まだ訝しんでいるが。まさかあんな場所とは思いもしないだろうな。
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「これ、あんまり近くじゃ見たこと無いお菓子だけど……？」
 ＠Ichigo,O01859
 「これ、あんまり近くじゃ見たこと無いお菓子だけど……？」
 
+#SCRIPT ORIGINAL ポリポリ、モグモグ……
 ポリポリ、モグモグ……
 
 @ichigo_yorokobi	#喜
@@ -1291,12 +1490,15 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「美味しいー！　美味しいよ、どこにあるのーー！」
 ＠Ichigo,O01860
 「美味しいー！　美味しいよ、どこにあるのーー！」
 
+#SCRIPT ORIGINAL 「はは、どこだろうなぁ」
 ＠Itsuki
 「はは、どこだろうなぁ」
 
+#SCRIPT ORIGINAL こうして補充されたお菓子を加え、いちごと二人で遅めのおやつを楽しんだ。
 こうして補充されたお菓子を加え、いちごと二人で遅めのおやつを楽しんだ。
 
 @chara_clear		#保険
@@ -1320,22 +1522,29 @@ label	ep_ichigo_07
 #■BG（廊下・消灯）
 @bg_rouka_nn
 
+#SCRIPT ORIGINAL ヒタ…ヒタ……
 ヒタ…ヒタ……
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
 @bgmk04			#BGM K04 : 寝る前のテーマ
 
+#SCRIPT ORIGINAL 子供達の寝静まった午前二時。
 子供達の寝静まった午前二時。
 
+#SCRIPT ORIGINAL 消灯した静かな廊下を、オレは物音を立てないように歩いていた。
 消灯した静かな廊下を、オレは物音を立てないように歩いていた。
 
+#SCRIPT ORIGINAL （うぅ…気分が悪い……風邪かな）
 ＠Itsuki
 （うぅ…気分が悪い……風邪かな）
 
+#SCRIPT ORIGINAL こんな時間に目を覚まし、クスリを探そうにも場所が分からなかった。
 こんな時間に目を覚まし、クスリを探そうにも場所が分からなかった。
 
+#SCRIPT ORIGINAL だから目指すは美雨の部屋だ。
 だから目指すは美雨の部屋だ。
 
 @chara_clear		#保険
@@ -1345,44 +1554,56 @@ wait	1000
 @chara_clear		#保険
 @bg_rouka_nn
 
+#SCRIPT ORIGINAL やがて何事も無く、美雨の部屋の前に到着する。
 やがて何事も無く、美雨の部屋の前に到着する。
 
+#SCRIPT ORIGINAL 「……起きてるかな、美雨。寝てたらどうしようか」
 ＠Itsuki
 「……起きてるかな、美雨。寝てたらどうしようか」
 
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL ノブを回すと、ガチャリと開く音。
 ノブを回すと、ガチャリと開く音。
 
 #■BG（美雨の部屋・消灯）
 @chara_clear		#保険
 @bg_miu_nn
 
+#SCRIPT ORIGINAL 中は既に電気が落ち、真っ暗になっていた。
 中は既に電気が落ち、真っ暗になっていた。
 
+#SCRIPT ORIGINAL 「……すぅ…ん」
 ＠Miu,B01494
 「……すぅ…ん」
 
+#SCRIPT ORIGINAL （眠ってる、か……）
 ＠Itsuki
 （眠ってる、か……）
 
 #screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL ドクッ、ドクッ……（嘔吐感の鼓動）
 ドクッ、ドクッ……（嘔吐感の鼓動）
 
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「う、うぅッ……」
 ＠Itsuki
 「う、うぅッ……」
 
+#SCRIPT ORIGINAL もしかして、歩き回らずに寝てた方が良かっただろうか。
 もしかして、歩き回らずに寝てた方が良かっただろうか。
 
+#SCRIPT ORIGINAL でもここまで来たなら、薬を飲んで休みたい。
 でもここまで来たなら、薬を飲んで休みたい。
 
+#SCRIPT ORIGINAL 「ん……くぅ…」
 ＠Miu,B01495
 「ん……くぅ…」
 
+#SCRIPT ORIGINAL 「はぁっ…はぁッ……美雨……」
 ＠Itsuki
 「はぁっ…はぁッ……美雨……」
 
@@ -1390,6 +1611,7 @@ window_close
 #bgm_stop
 wait		1000
 
+#SCRIPT ORIGINAL 肺に呼吸を送りながら、フラフラと美雨を求めて近寄っていく。
 肺に呼吸を送りながら、フラフラと美雨を求めて近寄っていく。
 
 #CH（いちご・パジャマ）
@@ -1397,9 +1619,11 @@ wait		1000
 #@ichigo_pajama
 #@ichigo			#普通
 
+#SCRIPT ORIGINAL 「美雨に何かするの？　パパ」
 ＠Ichigo,O01861
 「美雨に何かするの？　パパ」
 
+#SCRIPT ORIGINAL 「え……？　うおッ！？」
 ＠Itsuki
 「え……？　うおッ！？」
 
@@ -1407,88 +1631,114 @@ wait		1000
 @ichigo_pajama
 @ichigo			#普通
 
+#SCRIPT ORIGINAL ふと見ると、パジャマ姿のいちごがすぐ隣に立っていた。
 ふと見ると、パジャマ姿のいちごがすぐ隣に立っていた。
 
+#SCRIPT ORIGINAL 「ぅ、ぅん……すぅ……」
 ＠Miu,B01496
 「ぅ、ぅん……すぅ……」
 
 @ichigo_ikari		#怒
 
+#SCRIPT ORIGINAL 「しーッ。パパ、美雨が起きちゃうよ」
 ＠Ichigo,O01862
 「しーッ。パパ、美雨が起きちゃうよ」
 
+#SCRIPT ORIGINAL 「いや、むしろ起こそうとしてるんだが……」
 ＠Itsuki
 「いや、むしろ起こそうとしてるんだが……」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「え。そうなの？」
 ＠Ichigo,O01863
 「え。そうなの？」
 
+#SCRIPT ORIGINAL 「いちごこそ、こんな時間に何をしてるんだ……？」
 ＠Itsuki
 「いちごこそ、こんな時間に何をしてるんだ……？」
 
 @ichigo_tere		#照れ
 
+#SCRIPT ORIGINAL 「えへへ、おトイレ。ジュース飲み過ぎちゃったから」
 ＠Ichigo,O01864
 「えへへ、おトイレ。ジュース飲み過ぎちゃったから」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「パパは今から美雨を夜這いするんでしょ？」
 ＠Ichigo,O01865
 「パパは今から美雨を夜這いするんでしょ？」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「ぶッ――！？！？」
 ＠Itsuki
 「ぶッ――！？！？」
 
+#SCRIPT ORIGINAL トンでもないその言葉に、思わず状況を忘れて呻き噴いてしまった。
 トンでもないその言葉に、思わず状況を忘れて呻き噴いてしまった。
 
+#SCRIPT ORIGINAL 「？」
 ＠Ichigo,O01866
 「？」
 
+#SCRIPT ORIGINAL 「よ、夜這いっていちごッ……そんなの考えるわけが」
 ＠Itsuki
 「よ、夜這いっていちごッ……そんなの考えるわけが」
 
+#SCRIPT ORIGINAL 「すぅ……ん…」
 ＠Miu,B01497
 「すぅ……ん…」
 
+#SCRIPT ORIGINAL よほど寝つきが良いのか、今の声にも美雨は穏やかな寝顔を保っている。
 よほど寝つきが良いのか、今の声にも美雨は穏やかな寝顔を保っている。
 
+#SCRIPT ORIGINAL あどけなさを残した端整な顔。
+#SCRIPT ORIGINAL そして、規則正しく上下する豊満な胸。
 あどけなさを残した端整な顔。
 そして、規則正しく上下する豊満な胸。
 
+#SCRIPT ORIGINAL パジャマなのか、はたまた下着姿なのか。肩口に少し肌が覗いている。
 パジャマなのか、はたまた下着姿なのか。肩口に少し肌が覗いている。
 
+#SCRIPT ORIGINAL 「…ん……ふぅ…」
 ＠Miu,B01498
 「…ん……ふぅ…」
 
+#SCRIPT ORIGINAL 「……いや、まぁそれは考えない方がおかしいかもしれないけど」
 ＠Itsuki
 「……いや、まぁそれは考えない方がおかしいかもしれないけど」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「じゃあしようよ、パパなら怒られないよ」
 ＠Ichigo,O01867
 「じゃあしようよ、パパなら怒られないよ」
 
+#SCRIPT ORIGINAL 「あのな、いちご。そもそもオレが来た目的は………あれ？」
 ＠Itsuki
 「あのな、いちご。そもそもオレが来た目的は………あれ？」
 
+#SCRIPT ORIGINAL いちごの登場と一連の騒ぎで、嘔吐感はいつの間にか無くなっていた。
 いちごの登場と一連の騒ぎで、嘔吐感はいつの間にか無くなっていた。
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「う～ん。夜這いじゃなかったら何なの？」
 ＠Ichigo,O01868
 「う～ん。夜這いじゃなかったら何なの？」
 
+#SCRIPT ORIGINAL 「はぁ。とりあえず出よう。悪かったな美雨」
 ＠Itsuki
 「はぁ。とりあえず出よう。悪かったな美雨」
 
+#SCRIPT ORIGINAL 「むにゅ……白い液……熱いです…」
 ＠Miu,B01499
 「むにゅ……白い液……熱いです…」
 
+#SCRIPT ORIGINAL ……別れ際の寝言は、聞かなかったことにしよう。
 ……別れ際の寝言は、聞かなかったことにしよう。
 
 @chara_clear		#保険
@@ -1498,6 +1748,7 @@ wait		1000
 @chara_clear		#保険
 @bg_rouka_nn		# 廊下(消灯)
 
+#SCRIPT ORIGINAL 「それじゃ、いちごももう部屋に戻って休むんだぞ」
 ＠Itsuki
 「それじゃ、いちごももう部屋に戻って休むんだぞ」
 
@@ -1505,21 +1756,27 @@ wait		1000
 @ichigo_pajama
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「は～い。でも結局、美雨の部屋で何をしてたの？」
 ＠Ichigo,O01869
 「は～い。でも結局、美雨の部屋で何をしてたの？」
 
+#SCRIPT ORIGINAL 「たいしたことのない理由だよ。だから、今日のことは他の人に内緒だぞ」
 ＠Itsuki
 「たいしたことのない理由だよ。だから、今日のことは他の人に内緒だぞ」
 
+#SCRIPT ORIGINAL 本当のことを言うと、美雨に心配をかけてしまう。
 本当のことを言うと、美雨に心配をかけてしまう。
 
+#SCRIPT ORIGINAL 内緒にしておかないと、雫さんなどはどんなネタにするか想像も出来ない。
 内緒にしておかないと、雫さんなどはどんなネタにするか想像も出来ない。
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「うん、それじゃお休みパパ～♪」
 ＠Ichigo,O01870
 「うん、それじゃお休みパパ～♪」
 
+#SCRIPT ORIGINAL 「ああ、お休み」
 ＠Itsuki
 「ああ、お休み」
 
@@ -1530,17 +1787,23 @@ wait		1000
 #SE18　廊下を歩き去る音　※徐々に小さく
 @SE18			#廊下を歩き去る音
 
+#SCRIPT ORIGINAL 部屋の方へ向かっていちごが帰っていく。
 部屋の方へ向かっていちごが帰っていく。
 
+#SCRIPT ORIGINAL こうして、真夜中の小事件は何事もなく無事に終わりを告げた。
 こうして、真夜中の小事件は何事もなく無事に終わりを告げた。
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
+#SCRIPT ORIGINAL 夜這い……？
 夜這い……？
 
+#SCRIPT ORIGINAL 美雨って、一度寝たら意外と起きないタイプなのかな。
 美雨って、一度寝たら意外と起きないタイプなのかな。
 
+#SCRIPT ORIGINAL （って、何を考えてるんだ……。さっさと寝よう）
 ＠Itsuki
 （って、何を考えてるんだ……。さっさと寝よう）
 
@@ -1566,37 +1829,48 @@ label	ep_ichigo_08
 #SE22　水を浴びる音（バシャアァァン！）
 @SE22			#SE22　水を浴びる音（バシャアァァン！）
 
+#SCRIPT ORIGINAL 「ふぃ～。良いお湯だった」
 ＠Itsuki
 「ふぃ～。良いお湯だった」
 
+#SCRIPT ORIGINAL 一日の疲れをお風呂で洗い流す。
 一日の疲れをお風呂で洗い流す。
 
+#SCRIPT ORIGINAL オレは少しのぼせ気味に長湯を楽しんで、脱衣所に上がった。
 オレは少しのぼせ気味に長湯を楽しんで、脱衣所に上がった。
 
+#SCRIPT ORIGINAL 「ん？」
 ＠Itsuki
 「ん？」
 
+#SCRIPT ORIGINAL バスタオルを除けて、もう一度確認する。
 バスタオルを除けて、もう一度確認する。
 
+#SCRIPT ORIGINAL 「しまった……。着替え用意するのを忘れた」
 ＠Itsuki
 「しまった……。着替え用意するのを忘れた」
 
+#SCRIPT ORIGINAL 入るときに脱いだ服はすでに、洗濯機の中で水洗いされていた。
 入るときに脱いだ服はすでに、洗濯機の中で水洗いされていた。
 
 #■BG（黒）
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL ………。
 ………。
 
+#SCRIPT ORIGINAL ……………。
 ……………。
 
+#SCRIPT ORIGINAL …………………。
 …………………。
 
 #■BG（廊下）
 @chara_clear		#保険
 @bg_rouka_n
 
+#SCRIPT ORIGINAL ペタペタペタ……と、裸足の歩みが小さく音を立てていく。
 ペタペタペタ……と、裸足の歩みが小さく音を立てていく。
 
 @bgm12			#演：仮ＢＧＭ
@@ -1604,13 +1878,17 @@ label	ep_ichigo_08
 #＠樹
 #「やれやれ……今が夏でよかった」
 
+#SCRIPT ORIGINAL 他に手段もなく、オレは腰にバスタオル姿で部屋へ戻っていた。
 他に手段もなく、オレは腰にバスタオル姿で部屋へ戻っていた。
 
+#SCRIPT ORIGINAL 誰かに着替えを頼むことも考えたが、それはこの姿で人前に出ることを意味する。
 誰かに着替えを頼むことも考えたが、それはこの姿で人前に出ることを意味する。
 
+#SCRIPT ORIGINAL （ならいっそ、誰にも会わない内に部屋に帰った方が無難だしな）
 ＠Itsuki
 （ならいっそ、誰にも会わない内に部屋に帰った方が無難だしな）
 
+#SCRIPT ORIGINAL そんな事を思いながら、最初の角を曲がった。
 そんな事を思いながら、最初の角を曲がった。
 
 #CH（ざくろ・パジャマ）
@@ -1618,71 +1896,95 @@ label	ep_ichigo_08
 @zakuro_pajama
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「……？」
 ＠Zakuro,Q01063
 「……？」
 
+#SCRIPT ORIGINAL 「うわ……」
 ＠Itsuki
 「うわ……」
 
+#SCRIPT ORIGINAL ……いきなり曲がった先で見つかってしまった。
 ……いきなり曲がった先で見つかってしまった。
 
+#SCRIPT ORIGINAL しかも、雫さんに次いで見つかりたくなかった人物の一人。ざくろだ。
 しかも、雫さんに次いで見つかりたくなかった人物の一人。ざくろだ。
 
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q01064
 「………」
 
+#SCRIPT ORIGINAL 「や、やぁ、ざくろ……」
 ＠Itsuki
 「や、やぁ、ざくろ……」
 
+#SCRIPT ORIGINAL 「つっちー、そこ裸なの？」
 ＠Zakuro,Q01065
 「つっちー、そこ裸なの？」
 
+#SCRIPT ORIGINAL 抑揚のないざくろの視線が、腰のバスタオルへと向いて問われた。
 抑揚のないざくろの視線が、腰のバスタオルへと向いて問われた。
 
+#SCRIPT ORIGINAL 「まぁな。風呂に入ってたから」
 ＠Itsuki
 「まぁな。風呂に入ってたから」
 
+#SCRIPT ORIGINAL 「じゃあ、私も着いていく」
 ＠Zakuro,Q01066
 「じゃあ、私も着いていく」
 
+#SCRIPT ORIGINAL 「いや、じゃあとか言う意味が分かんないんだが……」
 ＠Itsuki
 「いや、じゃあとか言う意味が分かんないんだが……」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「その格好で勃起したら恥ずかしいから、気をつけてね」
 ＠Zakuro,Q01067
 「その格好で勃起したら恥ずかしいから、気をつけてね」
 
+#SCRIPT ORIGINAL 考えないようにしてたのに……。
+#SCRIPT ORIGINAL スケスケパジャマのざくろが不親切に言ってくれる。
 考えないようにしてたのに……。
 スケスケパジャマのざくろが不親切に言ってくれる。
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「行こつっちー」
 ＠Zakuro,Q01068
 「行こつっちー」
 
+#SCRIPT ORIGINAL 「う、ああ……」
 ＠Itsuki
 「う、ああ……」
 
 @zakuro_
 
+#SCRIPT ORIGINAL トトトッと隣に並んで、どうやら本当についてくる気のようだ……
 トトトッと隣に並んで、どうやら本当についてくる気のようだ……
 
+#SCRIPT ORIGINAL 見ない見ない。意識もしない。
 見ない見ない。意識もしない。
 
+#SCRIPT ORIGINAL 「誰の部屋に行くの？」
 ＠Zakuro,Q01069
 「誰の部屋に行くの？」
 
+#SCRIPT ORIGINAL 「自分の部屋しかないだろ。服を着たいんだから」
 ＠Itsuki
 「自分の部屋しかないだろ。服を着たいんだから」
 
+#SCRIPT ORIGINAL 「その格好、似合ってるのに」
 ＠Zakuro,Q01070
 「その格好、似合ってるのに」
 
+#SCRIPT ORIGINAL ……どの世界に、バスタオル一枚姿が似合って嬉しい男が居るだろうか。
 ……どの世界に、バスタオル一枚姿が似合って嬉しい男が居るだろうか。
 
+#SCRIPT ORIGINAL 少し足早に歩いて、それほど離れていない自室へと向かう。
 少し足早に歩いて、それほど離れていない自室へと向かう。
 
+#SCRIPT ORIGINAL だがついてない時はとことん不運とは続くもので、
 だがついてない時はとことん不運とは続くもので、
 
 #その後の距離感がおかしくなるのでここはコメントアウト
@@ -1691,6 +1993,7 @@ label	ep_ichigo_08
 #@ichigo_pajama
 #@ichigo_odoroki	#驚
 
+#SCRIPT ORIGINAL 「あっ、パパとざくろだー♪」
 ＠Ichigo,O01871
 「あっ、パパとざくろだー♪」
 
@@ -1699,18 +2002,22 @@ label	ep_ichigo_08
 #@SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
 
+#SCRIPT ORIGINAL ざくろに次いでいちごにまで見つかり、こちらに走ってくる。
 ざくろに次いでいちごにまで見つかり、こちらに走ってくる。
 
 @zakuro_small
 @zakuro_pajama
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「恥ずかしさで盛り上がってきた？」
 ＠Zakuro,Q01071
 「恥ずかしさで盛り上がってきた？」
 
+#SCRIPT ORIGINAL 「盛り上がってない、って、どこ見て言ってるんだ……」
 ＠Itsuki
 「盛り上がってない、って、どこ見て言ってるんだ……」
 
+#SCRIPT ORIGINAL 「つっちーのおちんちん」
 ＠Zakuro,Q01072
 「つっちーのおちんちん」
 
@@ -1719,65 +2026,82 @@ se_stop		0
 @ichigo_pajama
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「あれ…？　何でパパ裸で廊下を歩いてるの？」
 ＠Ichigo,O01872
 「あれ…？　何でパパ裸で廊下を歩いてるの？」
 
+#SCRIPT ORIGINAL 側まで来たいちごが、当然この不自然な状況を尋ねてきた。
 側まで来たいちごが、当然この不自然な状況を尋ねてきた。
 
+#SCRIPT ORIGINAL 「さすがにいちごも変に思うか。そうだろうな」
 ＠Itsuki
 「さすがにいちごも変に思うか。そうだろうな」
 
+#SCRIPT ORIGINAL 「これからざくろとエッチするの？」
 ＠Ichigo,O01873
 「これからざくろとエッチするの？」
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「そうなの？」
 ＠Zakuro,Q01073
 「そうなの？」
 
+#SCRIPT ORIGINAL 「そうじゃないだろ。着替えに戻るんだってよ」
 ＠Itsuki
 「そうじゃないだろ。着替えに戻るんだってよ」
 
+#SCRIPT ORIGINAL 「分からないわ。私が部屋でつっちーを襲うかもしれない」
 ＠Zakuro,Q01074
 「分からないわ。私が部屋でつっちーを襲うかもしれない」
 
+#SCRIPT ORIGINAL 「どんな犯行予告だよそれは……」
 ＠Itsuki
 「どんな犯行予告だよそれは……」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「最初の日みたいに、つっちーを閉じ込めておちんちんをしゃぶるの」
 ＠Zakuro,Q01075
 「最初の日みたいに、つっちーを閉じ込めておちんちんをしゃぶるの」
 
+#SCRIPT ORIGINAL 「嫌々でもつっちーは、気持ちよくて逃げられない」
 ＠Zakuro,Q01076
 「嫌々でもつっちーは、気持ちよくて逃げられない」
 
+#SCRIPT ORIGINAL 「私も服を脱いで裸になりながら、硬くなっていくつっちーの射精した精液を全部飲み尽くすの」
 ＠Zakuro,Q01077
 「私も服を脱いで裸になりながら、硬くなっていくつっちーの射精した精液を全部飲み尽くすの」
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「想像した？」
 ＠Zakuro,Q01078
 「想像した？」
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「あれ？　パパ、何かバスタオルの中で動いたよっ」
 ＠Ichigo,O01874
 「あれ？　パパ、何かバスタオルの中で動いたよっ」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「わざとそういう言い方をするからだろッ！」
 ＠Itsuki
 「わざとそういう言い方をするからだろッ！」
 
+#SCRIPT ORIGINAL これ以上長話をすると不味そうなので、早々に切り上げることにする。
 これ以上長話をすると不味そうなので、早々に切り上げることにする。
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「そうね。早く部屋に戻ろ、つっちー」
 ＠Zakuro,Q01079
 「そうね。早く部屋に戻ろ、つっちー」
 
@@ -1785,11 +2109,13 @@ se_stop		0
 wait		1000
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「いちご達リビングに居るから、終わったらパパとざくろも来てねー♪」
 ＠Ichigo,O01875
 「いちご達リビングに居るから、終わったらパパとざくろも来てねー♪」
 
 @ichigo_
 
+#SCRIPT ORIGINAL ……何かもう、することになってしまってるし。
 ……何かもう、することになってしまってるし。
 
 #■BG（黒）
@@ -1797,10 +2123,13 @@ wait		1000
 @bg_black
 wait		1000
 
+#SCRIPT ORIGINAL …………………。
 …………………。
 
+#SCRIPT ORIGINAL ……………。
 ……………。
 
+#SCRIPT ORIGINAL ………。
 ………。
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -1809,54 +2138,68 @@ wait		1000
 @chara_clear		#保険
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL それから無事、誰にも会うことなく部屋へと戻ってこれた。
 それから無事、誰にも会うことなく部屋へと戻ってこれた。
 
 @zakuro_small
 @zakuro_pajama
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「いちごだけだった。ちょっと残念……」
 ＠Zakuro,Q01080
 「いちごだけだった。ちょっと残念……」
 
+#SCRIPT ORIGINAL そしてざくろも結局、部屋まで着いて来てる。
 そしてざくろも結局、部屋まで着いて来てる。
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「じゃあ、私もリビングに帰る」
 ＠Zakuro,Q01081
 「じゃあ、私もリビングに帰る」
 
+#SCRIPT ORIGINAL 「……え？」
 ＠Itsuki
 「……え？」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「…？　どうしたの？」
 ＠Zakuro,Q01082
 「…？　どうしたの？」
 
+#SCRIPT ORIGINAL 「あぁ、いや。別にいいんだが」
 ＠Itsuki
 「あぁ、いや。別にいいんだが」
 
+#SCRIPT ORIGINAL てっきり本気かと、さっきの話を少し警戒していたのだが。
 てっきり本気かと、さっきの話を少し警戒していたのだが。
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「もしかして、襲って欲しかった？」
 ＠Zakuro,Q01083
 「もしかして、襲って欲しかった？」
 
+#SCRIPT ORIGINAL 「欲しがってたら襲うことにならんだろうが……」
 ＠Itsuki
 「欲しがってたら襲うことにならんだろうが……」
 
+#SCRIPT ORIGINAL 「ほら、バカなこと言ってないでリビングに行ってな」
 ＠Itsuki
 「ほら、バカなこと言ってないでリビングに行ってな」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「しゃぶってもいいけど、向こうはアイスがおやつにあるから。ごめんね」
 ＠Zakuro,Q01084
 「しゃぶってもいいけど、向こうはアイスがおやつにあるから。ごめんね」
 
+#SCRIPT ORIGINAL 「あぁ、しゃぶるならアイスの方にしろ。子供らしく」
 ＠Itsuki
 「あぁ、しゃぶるならアイスの方にしろ。子供らしく」
 
+#SCRIPT ORIGINAL 「うん。しゃぶってくる」
 ＠Zakuro,Q01085
 「うん。しゃぶってくる」
 
@@ -1867,13 +2210,17 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 興味はもうアイスに移り、あっさりとみんなの元へ引き上げるざくろ。
 興味はもうアイスに移り、あっさりとみんなの元へ引き上げるざくろ。
 
+#SCRIPT ORIGINAL ……まぁ別に期待していたわけじゃないが。
 ……まぁ別に期待していたわけじゃないが。
 
+#SCRIPT ORIGINAL 「へっくしゅッ！」
 ＠Itsuki
 「へっくしゅッ！」
 
+#SCRIPT ORIGINAL どこか気落ちした気分を感じながら、オレは服を着替え始めた。
 どこか気落ちした気分を感じながら、オレは服を着替え始めた。
 
 @chara_clear		#保険
@@ -1898,16 +2245,21 @@ label	ep_ichigo_09
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 
+#SCRIPT ORIGINAL 「……腹減ったな」
 ＠Itsuki
 「……腹減ったな」
 
+#SCRIPT ORIGINAL 腹の虫の訴えに、一度仕事の手を止めて時計を確認する。
 腹の虫の訴えに、一度仕事の手を止めて時計を確認する。
 
+#SCRIPT ORIGINAL 朝食を食べたきりのまま、既に針は１時を通り過ぎていた。
 朝食を食べたきりのまま、既に針は１時を通り過ぎていた。
 
+#SCRIPT ORIGINAL 「いつもなら美雨が呼びに来てくれるはずなんだが……」
 ＠Itsuki
 「いつもなら美雨が呼びに来てくれるはずなんだが……」
 
+#SCRIPT ORIGINAL もう少し待とうか迷ったが、結局空腹に負けてオレは席を立つ。
 もう少し待とうか迷ったが、結局空腹に負けてオレは席を立つ。
 
 @chara_clear		#保険
@@ -1923,13 +2275,16 @@ wait	2000
 @chara_clear		#保険
 @bg_dining
 
+#SCRIPT ORIGINAL 「美雨……？」
 ＠Itsuki
 「美雨……？」
 
 @bgm12			#演：仮ＢＧＭ
 
+#SCRIPT ORIGINAL 食堂に入って名前を呼ぶが、美雨の姿は無い。
 食堂に入って名前を呼ぶが、美雨の姿は無い。
 
+#SCRIPT ORIGINAL 「うわっ、わ～～～！」
 ＠Ichigo,O01876
 「うわっ、わ～～～！」
 
@@ -1937,15 +2292,18 @@ wait	2000
 @SE99			#SE99　お皿などを大量に割った音（ガシャガシャッ、ガシャーン！）
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「うおッ！？　な、何だ何だ！？」
 ＠Itsuki
 「うおッ！？　な、何だ何だ！？」
 
+#SCRIPT ORIGINAL キッチンの方からだ！
 キッチンの方からだ！
 
 #■BG（キッチン）
 @chara_clear		#保険
 @bg_kitchen
 
+#SCRIPT ORIGINAL 「どうしたッ、何の音だ今のッ――――うわぁ…」
 ＠Itsuki
 「どうしたッ、何の音だ今のッ――――うわぁ…」
 
@@ -1953,66 +2311,84 @@ screen_vibration	500,16,16,16
 @ichigo_shifuku
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「はぁ……うぅ、パパ～～」
 ＠Ichigo,O01877
 「はぁ……うぅ、パパ～～」
 
+#SCRIPT ORIGINAL キッチンの中でいちごが、悲しそうに項垂れている。
 キッチンの中でいちごが、悲しそうに項垂れている。
 
+#SCRIPT ORIGINAL 何事か問うまでもなく、床には割れた皿やグラスの破片が散乱していた。
 何事か問うまでもなく、床には割れた皿やグラスの破片が散乱していた。
 
+#SCRIPT ORIGINAL 「ごめんなさい、お皿割っちゃったよぉ……」
 ＠Ichigo,O01878
 「ごめんなさい、お皿割っちゃったよぉ……」
 
+#SCRIPT ORIGINAL 「あ、ああ、見れば分かるが……。それより大丈夫か、怪我してないか？」
 ＠Itsuki
 「あ、ああ、見れば分かるが……。それより大丈夫か、怪我してないか？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「う、うん。それは平気……」
 ＠Ichigo,O01879
 「う、うん。それは平気……」
 
+#SCRIPT ORIGINAL 「そうか。じゃあそれはいいとして、この現状はどうしたんだ……」
 ＠Itsuki
 「そうか。じゃあそれはいいとして、この現状はどうしたんだ……」
 
+#SCRIPT ORIGINAL 「えっと……。ご飯を作ろうと思ったんだけど、上手く出来なくて……」
 ＠Ichigo,O01880
 「えっと……。ご飯を作ろうと思ったんだけど、上手く出来なくて……」
 
+#SCRIPT ORIGINAL 「まさか、怒って割っちゃったのか？」
 ＠Itsuki
 「まさか、怒って割っちゃったのか？」
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#SCRIPT ORIGINAL 「ち、違うよぉ。手が滑ってお皿が床に落ちそうになったのっ」
 ＠Ichigo,O01881
 「ち、違うよぉ。手が滑ってお皿が床に落ちそうになったのっ」
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「それで、それを拾おうとしたら、つまずいて全部落としちゃったの……」
 ＠Ichigo,O01882
 「それで、それを拾おうとしたら、つまずいて全部落としちゃったの……」
 
+#SCRIPT ORIGINAL 「はぁ……。まるで漫画みたいな展開だな」
 ＠Itsuki
 「はぁ……。まるで漫画みたいな展開だな」
 
+#SCRIPT ORIGINAL けどまぁ、感心している場合じゃないか……。
 けどまぁ、感心している場合じゃないか……。
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「すぐ片付けるねっ…」
 ＠Ichigo,O01883
 「すぐ片付けるねっ…」
 
+#SCRIPT ORIGINAL 「あぁ、危ないからいちごはいいよ。オレがやるから」
 ＠Itsuki
 「あぁ、危ないからいちごはいいよ。オレがやるから」
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「で、でもいちごのせいだもん」
 ＠Ichigo,O01884
 「で、でもいちごのせいだもん」
 
+#SCRIPT ORIGINAL 「それなら掃除機を頼む。細かい破片までは、手で拾えないからな」
 ＠Itsuki
 「それなら掃除機を頼む。細かい破片までは、手で拾えないからな」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「うんッ。分かった、持って来る！」
 ＠Ichigo,O01885
 「うんッ。分かった、持って来る！」
 
@@ -2022,11 +2398,14 @@ wait		1000
 #SE21　廊下を走り去る音　※徐々に小さく
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
+#SCRIPT ORIGINAL 「さてと。すごい事態だなこれは……」
 ＠Itsuki
 「さてと。すごい事態だなこれは……」
 
+#SCRIPT ORIGINAL しかしこの音でもここに来ないということは、美雨は居ないのだろうか？
 しかしこの音でもここに来ないということは、美雨は居ないのだろうか？
 
+#SCRIPT ORIGINAL とりあえずは破片の後始末だ。
 とりあえずは破片の後始末だ。
 
 #■BG（黒）
@@ -2034,10 +2413,13 @@ wait		1000
 @bg_black
 wait		1000
 
+#SCRIPT ORIGINAL ………。
 ………。
 
+#SCRIPT ORIGINAL ……………。
 ……………。
 
+#SCRIPT ORIGINAL …………………。
 …………………。
 
 @ichigo_small
@@ -2054,64 +2436,82 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はぁ……終わったぁ～……」
 ＠Ichigo,O01886
 「はぁ……終わったぁ～……」
 
+#SCRIPT ORIGINAL 数分後、すっかり床も綺麗になり、いちごがやっと安堵の息を零した。
 数分後、すっかり床も綺麗になり、いちごがやっと安堵の息を零した。
 
+#SCRIPT ORIGINAL 「で。ご飯を作ってたって言ったけど、いちご一人でか？」
 ＠Itsuki
 「で。ご飯を作ってたって言ったけど、いちご一人でか？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「うん。美雨はさっき近所の集まりで呼ばれて出かけちゃったから」
 ＠Ichigo,O01887
 「うん。美雨はさっき近所の集まりで呼ばれて出かけちゃったから」
 
+#SCRIPT ORIGINAL 「そうなのか……？　何も聞いてないが」
 ＠Itsuki
 「そうなのか……？　何も聞いてないが」
 
+#SCRIPT ORIGINAL 「伝えに言ったよ、美雨と一緒に」
 ＠Ichigo,O01888
 「伝えに言ったよ、美雨と一緒に」
 
+#SCRIPT ORIGINAL 「ドア越しだったけど、中に入る前にちゃんとパパも『うん』って言ってくれたもん」
 ＠Ichigo,O01889
 「ドア越しだったけど、中に入る前にちゃんとパパも『うん』って言ってくれたもん」
 
+#SCRIPT ORIGINAL 「ああ、あれか……。ヘッドホンしてたから、よく聞こえてなかったんだ」
 ＠Itsuki
 「ああ、あれか……。ヘッドホンしてたから、よく聞こえてなかったんだ」
 
+#SCRIPT ORIGINAL 「なるほど、それでいちごが昼食を……」
 ＠Itsuki
 「なるほど、それでいちごが昼食を……」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「うん。パパに食べてもらいたかったの」
 ＠Ichigo,O01890
 「うん。パパに食べてもらいたかったの」
 
+#SCRIPT ORIGINAL 「そうか。ちょっといちごには、まだ早いかもしれないな……」
 ＠Itsuki
 「そうか。ちょっといちごには、まだ早いかもしれないな……」
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「しゅん……。ごめんなさい」
 ＠Ichigo,O01891
 「しゅん……。ごめんなさい」
 
+#SCRIPT ORIGINAL 「いや、気持ちは嬉しいよ。だけど無理をされたら心配だからな」
 ＠Itsuki
 「いや、気持ちは嬉しいよ。だけど無理をされたら心配だからな」
 
+#SCRIPT ORIGINAL 「まぁインスタントにするか、出来合い物で済ますかが無難だろうけど……」
 ＠Itsuki
 「まぁインスタントにするか、出来合い物で済ますかが無難だろうけど……」
 
+#SCRIPT ORIGINAL 「………」
 ＠Ichigo,O01892
 「………」
 
+#SCRIPT ORIGINAL 「せっかくのいちごの案だし、一緒に作ろうか」
 ＠Itsuki
 「せっかくのいちごの案だし、一緒に作ろうか」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「えっ？　いいの！？」
 ＠Ichigo,O01893
 「えっ？　いいの！？」
 
+#SCRIPT ORIGINAL 「その代わり、ちゃんと食える物が出来る保障はないんだぞ？」
 ＠Itsuki
 「その代わり、ちゃんと食える物が出来る保障はないんだぞ？」
 
@@ -2124,11 +2524,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ！　それでもいいよッ、作ろ！」
 ＠Ichigo,O01894
 「うんッ！　それでもいいよッ、作ろ！」
 
+#SCRIPT ORIGINAL 食にうるさいいちごが、それを捨ててまでこんなに嬉しそうなんだし。
 食にうるさいいちごが、それを捨ててまでこんなに嬉しそうなんだし。
 
+#SCRIPT ORIGINAL 「仕方ない。奮闘してみるか」
 ＠Itsuki
 「仕方ない。奮闘してみるか」
 
@@ -2145,6 +2548,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「やったぁ！　頑張って作ろうね！」
 ＠Ichigo,O01895
 「やったぁ！　頑張って作ろうね！」
 
@@ -2152,78 +2556,102 @@ layer_movepass_play	l_ichigo,0,play_once
 @bg_black
 wait		1000
 
+#SCRIPT ORIGINAL こうして、料理とは無縁の二人がキッチンに立つことになったのだった。
 こうして、料理とは無縁の二人がキッチンに立つことになったのだった。
 
 @chara_clear		#保険
 @bg_kitchen		# キッチン
 
+#SCRIPT ORIGINAL 「まずはキュウリ切ってサラダ作ろうよ」
 ＠Ichigo,O01896
 「まずはキュウリ切ってサラダ作ろうよ」
 
+#SCRIPT ORIGINAL 「それより先に、包丁を逆手で持つのはやめろ。危ないって」
 ＠Itsuki
 「それより先に、包丁を逆手で持つのはやめろ。危ないって」
 
+#SCRIPT ORIGINAL 「そう？　こっちの方がカッコいいよ」
 ＠Ichigo,O01897
 「そう？　こっちの方がカッコいいよ」
 
+#SCRIPT ORIGINAL 道のりは苦難そうだ……
 道のりは苦難そうだ……
 
 #■BG（黒）
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL 包丁を扱う…
 包丁を扱う…
 
+#SCRIPT ORIGINAL トントントン……トシュッ！
 トントントン……トシュッ！
 
+#SCRIPT ORIGINAL 「いたーーいッ！　指切ったぁ～！」
 ＠Ichigo,O01898
 「いたーーいッ！　指切ったぁ～！」
 
+#SCRIPT ORIGINAL 時に火も扱った…
 時に火も扱った…
 
+#SCRIPT ORIGINAL ヂュウゥゥ、グツグツグツ……ボンッ！！
 ヂュウゥゥ、グツグツグツ……ボンッ！！
 
+#SCRIPT ORIGINAL 「わぁあーーッ！　お鍋が爆発したぁ！」
 ＠Ichigo,O01899
 「わぁあーーッ！　お鍋が爆発したぁ！」
 
+#SCRIPT ORIGINAL 出来たものを盛るお皿を用意する…
 出来たものを盛るお皿を用意する…
 
 #SE99　お皿などを大量に割った音
 @SE99			#SE99　お皿などを大量に割った音（ガシャガシャッ、ガシャーン！）
 
+#SCRIPT ORIGINAL ガシャガシャッ、ガシャーーン！
 ガシャガシャッ、ガシャーーン！
 
+#SCRIPT ORIGINAL 「うえーーーんッ！」
 ＠Ichigo,O01900
 「うえーーーんッ！」
 
+#SCRIPT ORIGINAL ………。
 ………。
 
+#SCRIPT ORIGINAL ……………。
 ……………。
 
+#SCRIPT ORIGINAL …………………。
 …………………。
 
 #■BG（食堂）
 @chara_clear		#保険
 @bg_dining		# 食堂
 
+#SCRIPT ORIGINAL そうやって出来た料理が、テーブルにデロデロと並んでいった。
 そうやって出来た料理が、テーブルにデロデロと並んでいった。
 
+#SCRIPT ORIGINAL ……この場合、まぁ『デロデロ』と表現した方が似合いだと思う。
 ……この場合、まぁ『デロデロ』と表現した方が似合いだと思う。
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
 @ichigo_middle		# 中間
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「うぐ……美味しくない～…」
 ＠Ichigo,O01901
 「うぐ……美味しくない～…」
 
+#SCRIPT ORIGINAL 一口食べて、その世界にいちごが正直な感想を漏らした。
 一口食べて、その世界にいちごが正直な感想を漏らした。
 
+#SCRIPT ORIGINAL 「む～ん、よく食材をここまで変質させられたな」
 ＠Itsuki
 「む～ん、よく食材をここまで変質させられたな」
 
+#SCRIPT ORIGINAL 「このお肉も、外は焦げてるのに中が焼けてないよ……」
 ＠Ichigo,O01902
 「このお肉も、外は焦げてるのに中が焼けてないよ……」
 
@@ -2235,30 +2663,38 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はぁ。大失敗しちゃったね、パパ……」
 ＠Ichigo,O01903
 「はぁ。大失敗しちゃったね、パパ……」
 
+#SCRIPT ORIGINAL 「とても成功とは言えんなぁ」
 ＠Itsuki
 「とても成功とは言えんなぁ」
 
+#SCRIPT ORIGINAL ガリガリと歯ごたえの良い玉子焼きをかじる。
 ガリガリと歯ごたえの良い玉子焼きをかじる。
 
+#SCRIPT ORIGINAL 「まぁでも失敗は分かってたし、楽しめたならいいんじゃないか？」
 ＠Itsuki
 「まぁでも失敗は分かってたし、楽しめたならいいんじゃないか？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「お料理は楽しかったよッ。でも、パパのご飯が……」
 ＠Ichigo,O01904
 「お料理は楽しかったよッ。でも、パパのご飯が……」
 
+#SCRIPT ORIGINAL 「なら良かったよ。味は今後の課題にしておけばいい」
 ＠Itsuki
 「なら良かったよ。味は今後の課題にしておけばいい」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「課題？　また作ってもいいの？」
 ＠Ichigo,O01905
 「課題？　また作ってもいいの？」
 
+#SCRIPT ORIGINAL 「その代わり、今度からはちゃんと最初にオレに言うんだぞ。心配だから」
 ＠Itsuki
 「その代わり、今度からはちゃんと最初にオレに言うんだぞ。心配だから」
 
@@ -2270,19 +2706,24 @@ wait		1000
 #SE36　勢いよく抱きつく音（バフッ！）
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
+#SCRIPT ORIGINAL 「わぁいッ！　ありがとパパーッ♪」
 ＠Ichigo,O01906
 「わぁいッ！　ありがとパパーッ♪」
 
+#SCRIPT ORIGINAL いちごは身体全体でその喜びを見せて、元気よく飛び付いてきた。
 いちごは身体全体でその喜びを見せて、元気よく飛び付いてきた。
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「次はいちご、ちゃんとガリガリしてない玉子焼きにするね！」
 ＠Ichigo,O01907
 「次はいちご、ちゃんとガリガリしてない玉子焼きにするね！」
 
+#SCRIPT ORIGINAL 「はは……出来ればもう少し目標を高く持って欲しいけど」
 ＠Itsuki
 「はは……出来ればもう少し目標を高く持って欲しいけど」
 
+#SCRIPT ORIGINAL 料理自体は失敗したが、それでも楽しく過ごせた昼食になった。
 料理自体は失敗したが、それでも楽しく過ごせた昼食になった。
 
 @chara_clear		#保険
@@ -2304,9 +2745,12 @@ label	ep_ichigo_10
 @chara_clear		#保険
 @bg_itsuki
 
+#SCRIPT ORIGINAL 平日の昼下がり。
+#SCRIPT ORIGINAL 部屋の中に粘蜜な唾液の音が鳴り響いている。
 平日の昼下がり。
 部屋の中に粘蜜な唾液の音が鳴り響いている。
 
+#SCRIPT ORIGINAL ……オレはまた懲りずに、こんな状況に落とされてしまっていた。
 ……オレはまた懲りずに、こんな状況に落とされてしまっていた。
 
 @bgm10			#BGM 10 : エッチシーンのテーマ
@@ -2316,21 +2760,27 @@ layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
 screen_transition	1000
 voice_bg		"Q90001"
 
+#SCRIPT ORIGINAL 「んふぅ、くぷちゅッ……にりゅむ、ちゅくぅッ…ん、りゅぅむ……」
 ＠Zakuro,Q01118
 「んふぅ、くぷちゅッ……にりゅむ、ちゅくぅッ…ん、りゅぅむ……」
 
+#SCRIPT ORIGINAL 「ぷぁっ……はむぅ、くちゅりゅッ…ずぢゅぢゅ、ぢゅぶッ……んちゅぅッ」
 ＠Zakuro,Q01119
 「ぷぁっ……はむぅ、くちゅりゅッ…ずぢゅぢゅ、ぢゅぶッ……んちゅぅッ」
 
+#SCRIPT ORIGINAL 「う……あのな、ざくろ…前にも言ったけどさ……」
 ＠Itsuki
 「う……あのな、ざくろ…前にも言ったけどさ……」
 
+#SCRIPT ORIGINAL 「ちゅぅむ…ちゅぱッ、れりゅッ…りゅむちゅぅ……ふぅん、なぁに…？」
 ＠Zakuro,Q01120
 「ちゅぅむ…ちゅぱッ、れりゅッ…りゅむちゅぅ……ふぅん、なぁに…？」
 
+#SCRIPT ORIGINAL 「…毎回そうなんだが、こう、強引にするのやめないか……」
 ＠Itsuki
 「…毎回そうなんだが、こう、強引にするのやめないか……」
 
+#SCRIPT ORIGINAL 「れりゅぅ、ちゅぱぁっ……あふ…いいの、今さらやめても…？」
 ＠Zakuro,Q01121
 「れりゅぅ、ちゅぱぁっ……あふ…いいの、今さらやめても…？」
 
@@ -2338,22 +2788,29 @@ voice_bg		"Q90001"
 event		"event\EV_ZAK_010-02A.png"
 voice_bg_stop
 
+#SCRIPT ORIGINAL ネトリと濃い唾液の糸を引きながら、咥えていた亀頭を放すざくろ。
 ネトリと濃い唾液の糸を引きながら、咥えていた亀頭を放すざくろ。
 
+#SCRIPT ORIGINAL もうかれこれ十分近く、ずっとそれはざくろの口内で責められ続けていた。
 もうかれこれ十分近く、ずっとそれはざくろの口内で責められ続けていた。
 
+#SCRIPT ORIGINAL 「んっ…出した途端、名残惜しそうにヒクヒクしてる……つっちーのおちんちん…」
 ＠Zakuro,Q01122
 「んっ…出した途端、名残惜しそうにヒクヒクしてる……つっちーのおちんちん…」
 
+#SCRIPT ORIGINAL 「熱くて固くて、先っぽから精液みたいに濃い涎がいっぱい流れ出てるわよ……」
 ＠Zakuro,Q01123
 「熱くて固くて、先っぽから精液みたいに濃い涎がいっぱい流れ出てるわよ……」
 
+#SCRIPT ORIGINAL 「っん……ぁふ、つっちーはこの涎、舐めてほしくないの？　吸い出して欲しくない…？」
 ＠Zakuro,Q01124
 「っん……ぁふ、つっちーはこの涎、舐めてほしくないの？　吸い出して欲しくない…？」
 
+#SCRIPT ORIGINAL 「……そ、そういう本能的なことじゃなくて、もっと常識的な話だよっ……」
 ＠Itsuki
 「……そ、そういう本能的なことじゃなくて、もっと常識的な話だよっ……」
 
+#SCRIPT ORIGINAL 「エッチは常識じゃなくて、本能でするものよ……。正直なこのおちんちんみたいに」
 ＠Zakuro,Q01125
 「エッチは常識じゃなくて、本能でするものよ……。正直なこのおちんちんみたいに」
 
@@ -2362,119 +2819,162 @@ layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
 screen_transition	1000
 voice_bg		"Q90001"
 
+#SCRIPT ORIGINAL 「くぷむッ、れりゅぅ……ずずッ、ずぢゅッ…ぢゅぶぶッ…」
 ＠Zakuro,Q01126
 「くぷむッ、れりゅぅ……ずずッ、ずぢゅッ…ぢゅぶぶッ…」
 
+#SCRIPT ORIGINAL すっかり興奮状態の怒張が、再び口内の深くまでズッポリと咥えられる。
 すっかり興奮状態の怒張が、再び口内の深くまでズッポリと咥えられる。
 
+#SCRIPT ORIGINAL 「ぢゅぷッ、くぢゅるッ……んぅふ…るちゅぢゅッ、くぢゅぅッ、ずずぢゅッ…！」
 ＠Zakuro,Q01127
 「ぢゅぷッ、くぢゅるッ……んぅふ…るちゅぢゅッ、くぢゅぅッ、ずずぢゅッ…！」
 
+#SCRIPT ORIGINAL 「くぢゅぅッ…ん、おちんちんから、ネトネトの先走りがどんどん出てきてる……しゅぶちゅッ、にぢゅぅッ…！」
 ＠Zakuro,Q01128
 「くぢゅぅッ…ん、おちんちんから、ネトネトの先走りがどんどん出てきてる……しゅぶちゅッ、にぢゅぅッ…！」
 
+#SCRIPT ORIGINAL 「んぁふッ…もっとして欲しそうに、ビクビク暴れまわってるわよ、つっちーのおちんちん……ぢゅくぶッ、ぬぢゅぅッ…ぢゅるちゅッ！」
 ＠Zakuro,Q01129
 「んぁふッ…もっとして欲しそうに、ビクビク暴れまわってるわよ、つっちーのおちんちん……ぢゅくぶッ、ぬぢゅぅッ…ぢゅるちゅッ！」
 
+#SCRIPT ORIGINAL ざくろの巧みな舌使いと粘膜の絡み付きに、怒張全体へ言い知れぬ快感が走りあがる。
 ざくろの巧みな舌使いと粘膜の絡み付きに、怒張全体へ言い知れぬ快感が走りあがる。
 
+#SCRIPT ORIGINAL 目の前に部屋のドアはあった。
+#SCRIPT ORIGINAL だが、本能の方が強く引き出されて、振り切れない。
 目の前に部屋のドアはあった。
 だが、本能の方が強く引き出されて、振り切れない。
 
+#SCRIPT ORIGINAL 「んぅぢゅッ、ちゅばぁッ……ずッ、ずぢゅぢゅッ、あふぅッ…にちゅむッ、くぶぢゅぅッ！」
 ＠Zakuro,Q01130
 「んぅぢゅッ、ちゅばぁッ……ずッ、ずぢゅぢゅッ、あふぅッ…にちゅむッ、くぶぢゅぅッ！」
 
+#SCRIPT ORIGINAL 「んぢゅるッ…ぢゅりゅぅッ！　んふぅ…どう、おちんちんのいやらしい本能、分からない…？」
 ＠Zakuro,Q01131
 「んぢゅるッ…ぢゅりゅぅッ！　んふぅ…どう、おちんちんのいやらしい本能、分からない…？」
 
+#SCRIPT ORIGINAL 「…それは、分かるが……ざくろの場合それを無理に押し出させてくるじゃないか…」
 ＠Itsuki
 「…それは、分かるが……ざくろの場合それを無理に押し出させてくるじゃないか…」
 
+#SCRIPT ORIGINAL 「ぢゅるむッ、くぢゅぅッ……ぅん、つっちーより、おちんちんの方が素直だからつい……ぢゅぶぶッ！　ぬちゅぅッ」
 ＠Zakuro,Q01132
 「ぢゅるむッ、くぢゅぅッ……ぅん、つっちーより、おちんちんの方が素直だからつい……ぢゅぶぶッ！　ぬちゅぅッ」
 
+#SCRIPT ORIGINAL しかもざくろは、それが上手いからよけい始末が悪い……
 しかもざくろは、それが上手いからよけい始末が悪い……
 
+#SCRIPT ORIGINAL ネロネロと動き回る舌は裏筋を舐め上げ、亀頭とカリの間を幾度もしゃぶり立てた。
 ネロネロと動き回る舌は裏筋を舐め上げ、亀頭とカリの間を幾度もしゃぶり立てた。
 
+#SCRIPT ORIGINAL 「あふぅッ、にぢゅむ…！　こんな大きさと硬さを、すぐ勃起させちゃうの……ぢゅるるッ！　くぢゅぅッ…」
 ＠Zakuro,Q01133
 「あふぅッ、にぢゅむ…！　こんな大きさと硬さを、すぐ勃起させちゃうの……ぢゅるるッ！　くぢゅぅッ…」
 
+#SCRIPT ORIGINAL 「ぐむぅッ、ぢゅぅぶッ…！　れちゅるッ、ぬぢゅッ、ぢゅぢゅぅッ…くむぶッ…！」
 ＠Zakuro,Q01134
 「ぐむぅッ、ぢゅぅぶッ…！　れちゅるッ、ぬぢゅッ、ぢゅぢゅぅッ…くむぶッ…！」
 
+#SCRIPT ORIGINAL 「えふぅッ、んんぅッ…ヤラシイお汁も、吸えば吸うだけ濃くなって量が増えてくる……ぢゅりゅッぅ、にぢゅむッ！」
 ＠Zakuro,Q01135
 「えふぅッ、んんぅッ…ヤラシイお汁も、吸えば吸うだけ濃くなって量が増えてくる……ぢゅりゅッぅ、にぢゅむッ！」
 
+#SCRIPT ORIGINAL 「こんなおちんちん、つっちーの以外じゃ見たこと無い……ッくぶ、ぢゅぅるッ…どうしてこんなにいやらしいの…」
 ＠Zakuro,Q01136
 「こんなおちんちん、つっちーの以外じゃ見たこと無い……ッくぶ、ぢゅぅるッ…どうしてこんなにいやらしいの…」
 
+#SCRIPT ORIGINAL 「はむぅッ、んんッ……ぢゅるるッ、ぬぢゅッ、ぢゅッ…ぢゅぶぶ！　くちゅぅッ」
 ＠Zakuro,Q01137
 「はむぅッ、んんッ……ぢゅるるッ、ぬぢゅッ、ぢゅッ…ぢゅぶぶ！　くちゅぅッ」
 
+#SCRIPT ORIGINAL 淫らな言葉を紡ぎ、ざくろは唾液でベトベトの肉茎を泡立てながら、指と口唇のピストンを繰り返す。
 淫らな言葉を紡ぎ、ざくろは唾液でベトベトの肉茎を泡立てながら、指と口唇のピストンを繰り返す。
 
+#SCRIPT ORIGINAL 焦らさず急かさず、最も自然に恍惚が昂ぶるようなペースで刺激は強くされていく。
 焦らさず急かさず、最も自然に恍惚が昂ぶるようなペースで刺激は強くされていく。
 
+#SCRIPT ORIGINAL 「ずぢゅッ、ぢゅぶぶぅッ…！　んぅッ…つっちーの、また熱くなってきてる……るるぶッ、ちゅぅぶッ…！」
 ＠Zakuro,Q01138
 「ずぢゅッ、ぢゅぶぶぅッ…！　んぅッ…つっちーの、また熱くなってきてる……るるぶッ、ちゅぅぶッ…！」
 
+#SCRIPT ORIGINAL 「くぶぶッ、ぬぢゅッ、ぢゅるるッ！　ちゅぶぅッ……んるむッ、りゅぶッ、ちゅぅるッ…！」
 ＠Zakuro,Q01139
 「くぶぶッ、ぬぢゅッ、ぢゅるるッ！　ちゅぶぅッ……んるむッ、りゅぶッ、ちゅぅるッ…！」
 
+#SCRIPT ORIGINAL 「んはむぅッ、んぢゅるッ…ぢゅぅるッ！　イキそうよ、つっちー……思いっきり出したくないの…？」
 ＠Zakuro,Q01140
 「んはむぅッ、んぢゅるッ…ぢゅぅるッ！　イキそうよ、つっちー……思いっきり出したくないの…？」
 
+#SCRIPT ORIGINAL 射精の衝動は、すでに抑えるには限界近くまで高まっていた。
 射精の衝動は、すでに抑えるには限界近くまで高まっていた。
 
+#SCRIPT ORIGINAL そして言うまでも無く、中途半端に出してしまうと後味が悪いだけだ。
 そして言うまでも無く、中途半端に出してしまうと後味が悪いだけだ。
 
+#SCRIPT ORIGINAL 「……まったく、毎度しょうがないやつだなざくろは…」
 ＠Itsuki
 「……まったく、毎度しょうがないやつだなざくろは…」
 
+#SCRIPT ORIGINAL その小さい口の中へ、オレからも怒張を深く突き入れ始めた。
 その小さい口の中へ、オレからも怒張を深く突き入れ始めた。
 
+#SCRIPT ORIGINAL 「んッ、ちゅぐぅッ…！　はぁむ、んぅふッ、ちゅぶぶッ……！」
 ＠Zakuro,Q01141
 「んッ、ちゅぐぅッ…！　はぁむ、んぅふッ、ちゅぶぶッ……！」
 
+#SCRIPT ORIGINAL ざくろの熱い舌と口腔粘膜の舐めしゃぶりが、さらに肉茎に強く感じさせられる。
 ざくろの熱い舌と口腔粘膜の舐めしゃぶりが、さらに肉茎に強く感じさせられる。
 
+#SCRIPT ORIGINAL オレの動きに合わせて、ざくろは限界近い怒張へさらにフェラチオを激しくしてきた。
 オレの動きに合わせて、ざくろは限界近い怒張へさらにフェラチオを激しくしてきた。
 
 voice_bg		"Q90002"
 
+#SCRIPT ORIGINAL 「るぢゅぅッ、ぐぢゅぢゅッ…！　ふむぅッ…思いっきり出して、つっちー……ぴぢゅるッ、ぢゅむぅッ！　んりゅぢゅッ」
 ＠Zakuro,Q01142
 「るぢゅぅッ、ぐぢゅぢゅッ…！　ふむぅッ…思いっきり出して、つっちー……ぴぢゅるッ、ぢゅむぅッ！　んりゅぢゅッ」
 
+#SCRIPT ORIGINAL 「ぢゅぢゅッ、くぷりゅぅッ！　この硬いおちんちんの先から、たくさんいやらしい精液が出てくるから……んぅむ、ぢゅるぅッ！」
 ＠Zakuro,Q01143
 「ぢゅぢゅッ、くぷりゅぅッ！　この硬いおちんちんの先から、たくさんいやらしい精液が出てくるから……んぅむ、ぢゅるぅッ！」
 
+#SCRIPT ORIGINAL 「くぶぅッ、ぢゅぢゅぅッ！　あふぅッ、ぴちゅる…ぢゅぶぶッ！　にぢゅぅッ！」
 ＠Zakuro,Q01144
 「くぶぅッ、ぢゅぢゅぅッ！　あふぅッ、ぴちゅる…ぢゅぶぶッ！　にぢゅぅッ！」
 
+#SCRIPT ORIGINAL 「じゅぷるッ…んぅッ、つっちーの、他の人よりずっと濃い精液……ぬぢゅむッ！　れちゅぅッ、くぶぶッ……また出して見せて…」
 ＠Zakuro,Q01145
 「じゅぷるッ…んぅッ、つっちーの、他の人よりずっと濃い精液……ぬぢゅむッ！　れちゅぅッ、くぶぶッ……また出して見せて…」
 
+#SCRIPT ORIGINAL 「んぅふッ、ぴちゅぅッ…ちゅぢゅぅッ！　くぷりゅッ、はぁむッ…ぴぢゅぅッ！　ちゅくぶッ、るぢゅぅッ！」
 ＠Zakuro,Q01146
 「んぅふッ、ぴちゅぅッ…ちゅぢゅぅッ！　くぷりゅッ、はぁむッ…ぴぢゅぅッ！　ちゅくぶッ、るぢゅぅッ！」
 
+#SCRIPT ORIGINAL その卑猥な言葉通り、射精を求めるように淫らに怒張へ咥え付いてくるざくろ。
 その卑猥な言葉通り、射精を求めるように淫らに怒張へ咥え付いてくるざくろ。
 
+#SCRIPT ORIGINAL 的確な責めとピストンの快感が、すぐにもゾクゾクと強い射精感を走らせてきた。
 的確な責めとピストンの快感が、すぐにもゾクゾクと強い射精感を走らせてきた。
 
+#SCRIPT ORIGINAL 「……ッ、出るぞ、ざくろの求めてる精液が」
 ＠Itsuki
 「……ッ、出るぞ、ざくろの求めてる精液が」
 
+#SCRIPT ORIGINAL 「くぢゅむッ…りゅむぅッ！　つっちー……んッ…！」
 ＠Zakuro,Q01147
 「くぢゅむッ…りゅむぅッ！　つっちー……んッ…！」
 
+#SCRIPT ORIGINAL その瞬間、顔を離して怒張を口の外へと解放するざくろ。
 その瞬間、顔を離して怒張を口の外へと解放するざくろ。
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
+#SCRIPT ORIGINAL だがオレは深く考えず、顔射だと思って、そのまま衝動を駆け上がらせた！
 だがオレは深く考えず、顔射だと思って、そのまま衝動を駆け上がらせた！
 
+#SCRIPT ORIGINAL 「ねぇパパ～、暇だから一緒に遊ぼう～！」
 ＠Ichigo,O01908
 「ねぇパパ～、暇だから一緒に遊ぼう～！」
 
@@ -2487,10 +2987,13 @@ voice_bg_stop
 @bg_itsuki
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
+#SCRIPT ORIGINAL ヂュビュゥッ！　ドクドクッ、ドクンッ……ドビュゥッ！
 ヂュビュゥッ！　ドクドクッ、ドクンッ……ドビュゥッ！
 
+#SCRIPT ORIGINAL 溜まり滾った白濁は、フェラチオによって勢いよく吐き出させられた。
 溜まり滾った白濁は、フェラチオによって勢いよく吐き出させられた。
 
+#SCRIPT ORIGINAL 当然それは、目の前にあるざくろの顔へと全て注がれて………
 当然それは、目の前にあるざくろの顔へと全て注がれて………
 
 #CH（いちご・白濁差分）
@@ -2498,47 +3001,59 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @ichigo_shifuku
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「わぷッ！？　うわわわッ……！？」
 ＠Ichigo,O01909
 「わぷッ！？　うわわわッ……！？」
 
+#SCRIPT ORIGINAL 「……え」
 ＠Itsuki
 「……え」
 
+#SCRIPT ORIGINAL ……注がれて無かった。
 ……注がれて無かった。
 
 #EF　白フラッシュ
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
+#SCRIPT ORIGINAL ドクンッ、ドクドクッ…！　ドビュッ、ヂュビュゥッ…！
 ドクンッ、ドクドクッ…！　ドビュッ、ヂュビュゥッ…！
 
+#SCRIPT ORIGINAL 「んんぅッ……あうぅ！」
 ＠Ichigo,O01910
 「んんぅッ……あうぅ！」
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
+#SCRIPT ORIGINAL しかも追い討ちをかけるように、二度三度と溢れる精液がいちごへと放たれる。
 しかも追い討ちをかけるように、二度三度と溢れる精液がいちごへと放たれる。
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#SCRIPT ORIGINAL 「ッえ……な、なぁにこれ、パパの精液っ？」
 ＠Ichigo,O01911
 「ッえ……な、なぁにこれ、パパの精液っ？」
 
+#SCRIPT ORIGINAL 「い、いちごッ！？　え……何でいちごがッ！？」
 ＠Itsuki
 「い、いちごッ！？　え……何でいちごがッ！？」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「うぅ～、いちごが聞きたいよぉ～……あぅんっ！」
 ＠Ichigo,O01912
 「うぅ～、いちごが聞きたいよぉ～……あぅんっ！」
 
 #EF　白フラッシュ
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
+#SCRIPT ORIGINAL 状況が掴めないまま、結局全ての精液がいちごの顔へ注がれていった。
 状況が掴めないまま、結局全ての精液がいちごの顔へ注がれていった。
 
+#SCRIPT ORIGINAL 「っはあ、いっぱい出てるぅ……酷いよぉ、急にベトベトにするなんて……」
 ＠Ichigo,O01913
 「っはあ、いっぱい出てるぅ……酷いよぉ、急にベトベトにするなんて……」
 
+#SCRIPT ORIGINAL 「いや、それはざくろのフェラチオが………っていうか、ざくろは！？」
 ＠Itsuki
 「いや、それはざくろのフェラチオが………っていうか、ざくろは！？」
 
@@ -2546,188 +3061,236 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @zakuro_shifuku
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「こっちよ」
 ＠Zakuro,Q01148
 「こっちよ」
 
+#SCRIPT ORIGINAL すぐ斜め前で、本人は白濁の汚れも無く立っていた。
 すぐ斜め前で、本人は白濁の汚れも無く立っていた。
 
+#SCRIPT ORIGINAL 「誰か入ってきたから、つい避けちゃったの」
 ＠Zakuro,Q01149
 「誰か入ってきたから、つい避けちゃったの」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「だったらダメじゃんか、避けたらッ！」
 ＠Itsuki
 「だったらダメじゃんか、避けたらッ！」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「そうだよざくろ～。そのせいで、いちご顔中が精液だらけだよ……」
 ＠Ichigo,O01914
 「そうだよざくろ～。そのせいで、いちご顔中が精液だらけだよ……」
 
+#SCRIPT ORIGINAL さすがのいちごも、この唐突な仕打ちには不機嫌なようだ。
 さすがのいちごも、この唐突な仕打ちには不機嫌なようだ。
 
+#SCRIPT ORIGINAL 「ざくろが避けるなら、いちごがパパのおちんちん咥えてたかったのに～！」
 ＠Ichigo,O01915
 「ざくろが避けるなら、いちごがパパのおちんちん咥えてたかったのに～！」
 
+#SCRIPT ORIGINAL 「……そこに怒るのか」
 ＠Itsuki
 「……そこに怒るのか」
 
+#SCRIPT ORIGINAL 「いちご、ティッシュ使う？」
 ＠Zakuro,Q01150
 「いちご、ティッシュ使う？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「え？　う～んと、どうしようかな……。いつも飲んでるし…」
 ＠Ichigo,O01916
 「え？　う～んと、どうしようかな……。いつも飲んでるし…」
 
+#SCRIPT ORIGINAL 「拭け。拭いてくれよ」
 ＠Itsuki
 「拭け。拭いてくれよ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「うん、そうだね。やっぱりちゃんといちごがした時に出るパパの精液の方がいいもん」
 ＠Ichigo,O01917
 「うん、そうだね。やっぱりちゃんといちごがした時に出るパパの精液の方がいいもん」
 
+#SCRIPT ORIGINAL ……そういう意味で懇願したんじゃないんだよ。
 ……そういう意味で懇願したんじゃないんだよ。
 
+#SCRIPT ORIGINAL でもいちごはティッシュを受け取り、とりあえずは拭いてくれるようだ。
 でもいちごはティッシュを受け取り、とりあえずは拭いてくれるようだ。
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「わっ、ざくろの時もすごく濃いのが出てるんだね。ネバネバしてる～」
 ＠Ichigo,O01918
 「わっ、ざくろの時もすごく濃いのが出てるんだね。ネバネバしてる～」
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「うん、まだまだいちごには負けられないから」
 ＠Zakuro,Q01151
 「うん、まだまだいちごには負けられないから」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「むぅ…でもいちごだっていっぱい、パパのベトベトの精液出せるもん」
 ＠Ichigo,O01919
 「むぅ…でもいちごだっていっぱい、パパのベトベトの精液出せるもん」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「それに、ちゃんとおちんちんもすごく大きくして、硬く出来るんだよっ」
 ＠Ichigo,O01920
 「それに、ちゃんとおちんちんもすごく大きくして、硬く出来るんだよっ」
 
+#SCRIPT ORIGINAL 「今私がしたときは、その状態のおちんちんがさらに、喉の奥で激しくビクビクってしていたわ」
 ＠Zakuro,Q01152
 「今私がしたときは、その状態のおちんちんがさらに、喉の奥で激しくビクビクってしていたわ」
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「えっ……そうなの…？」
 ＠Ichigo,O01921
 「えっ……そうなの…？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「いちごは、そんなに激しくパパのおちんちんをビクビクってさせたこと無いかも……」
 ＠Ichigo,O01922
 「いちごは、そんなに激しくパパのおちんちんをビクビクってさせたこと無いかも……」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「つっちーが乗ってくるまで、徹底的におちんちんに快感を溜め込ませておくのがポイントよ」
 ＠Zakuro,Q01153
 「つっちーが乗ってくるまで、徹底的におちんちんに快感を溜め込ませておくのがポイントよ」
 
+#SCRIPT ORIGINAL 「そうしたら、つっちーがその気になったとき、おちんちんがビクビクしながら、また大きく硬くなるの」
 ＠Zakuro,Q01154
 「そうしたら、つっちーがその気になったとき、おちんちんがビクビクしながら、また大きく硬くなるの」
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#SCRIPT ORIGINAL 「まだいつもより大きくなるのっ？　パパのおちんちんッ」
 ＠Ichigo,O01923
 「まだいつもより大きくなるのっ？　パパのおちんちんッ」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「うん。でもそうなると敏感だから、あんまり気持ちよくしちゃうと射精して終わっちゃうの」
 ＠Zakuro,Q01155
 「うん。でもそうなると敏感だから、あんまり気持ちよくしちゃうと射精して終わっちゃうの」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「だからおちんちんの勃起と動きの様子を確認しながら、上手に責めないと難しいわ」
 ＠Zakuro,Q01156
 「だからおちんちんの勃起と動きの様子を確認しながら、上手に責めないと難しいわ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「そっか～。やっぱりざくろは詳しくて凄いねっ♪」
 ＠Ichigo,O01924
 「そっか～。やっぱりざくろは詳しくて凄いねっ♪」
 
+#SCRIPT ORIGINAL 「あとつっちーのおちんちんは、先走りも濃いから参考になるわ」
 ＠Zakuro,Q01157
 「あとつっちーのおちんちんは、先走りも濃いから参考になるわ」
 
+#SCRIPT ORIGINAL 「あっ、それはいちごも知ってるよ！　精液みたいにヌルヌルになるんだよね」
 ＠Ichigo,O01925
 「あっ、それはいちごも知ってるよ！　精液みたいにヌルヌルになるんだよね」
 
+#SCRIPT ORIGINAL 「その時のパパのおちんちんってすごく硬くなってて、もう出ちゃいそうって思っちゃうもん」
 ＠Ichigo,O01926
 「その時のパパのおちんちんってすごく硬くなってて、もう出ちゃいそうって思っちゃうもん」
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「うん。見せる反応全部がいやらしいから、つっちーのおちんちんは」
 ＠Zakuro,Q01158
 「うん。見せる反応全部がいやらしいから、つっちーのおちんちんは」
 
+#SCRIPT ORIGINAL 「興奮と刺激に素直で、すぐ勃起してくれるし。お手軽に楽しめて便利」
 ＠Zakuro,Q01159
 「興奮と刺激に素直で、すぐ勃起してくれるし。お手軽に楽しめて便利」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「うんッ。パパみたいにすぐ硬くて大きくなるおちんちんの方が、一緒に色々出来て面白いもんね♪」
 ＠Ichigo,O01927
 「うんッ。パパみたいにすぐ硬くて大きくなるおちんちんの方が、一緒に色々出来て面白いもんね♪」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「少し早漏なのが玉に傷だけど。それ以外のいやらしさは十分のおちんちんね」
 ＠Zakuro,Q01160
 「少し早漏なのが玉に傷だけど。それ以外のいやらしさは十分のおちんちんね」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「だよね～♪　……って、あれ？　パパ？」
 ＠Ichigo,O01928
 「だよね～♪　……って、あれ？　パパ？」
 
+#SCRIPT ORIGINAL ………。
 ………。
 
+#SCRIPT ORIGINAL ……………。
 ……………。
 
+#SCRIPT ORIGINAL …………………。
 …………………。
 
+#SCRIPT ORIGINAL 「……ん？　何だ、やっと終わったのか」
 ＠Itsuki
 「……ん？　何だ、やっと終わったのか」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「つっちー、ずっと耳ふさいでたの…？　褒めてたのに」
 ＠Zakuro,Q01161
 「つっちー、ずっと耳ふさいでたの…？　褒めてたのに」
 
+#SCRIPT ORIGINAL 「当たり前じゃ。聞きたくないわそんな話」
 ＠Itsuki
 「当たり前じゃ。聞きたくないわそんな話」
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「えーーッ、どうして。すごいねって言ってたんだよっ」
 ＠Ichigo,O01929
 「えーーッ、どうして。すごいねって言ってたんだよっ」
 
+#SCRIPT ORIGINAL 「今の会話、ちゃんとテープに録音しておいたから。後でこっそり聞いていいわよ」
 ＠Zakuro,Q01162
 「今の会話、ちゃんとテープに録音しておいたから。後でこっそり聞いていいわよ」
 
+#SCRIPT ORIGINAL 「録音するなよ……。いらないってそんなの」
 ＠Itsuki
 「録音するなよ……。いらないってそんなの」
 
 #SE113　アイテムゲット（ピロリロリン！）
 @SE113			#SE113　アイテムゲット（ピロリロリン！）
 
+#SCRIPT ORIGINAL 『肉棒品評会テープＡ』を手に入れた。
 『肉棒品評会テープＡ』を手に入れた。
 
+#SCRIPT ORIGINAL 「おまッ…いらないっての！」
 ＠Itsuki
 「おまッ…いらないっての！」
 
+#SCRIPT ORIGINAL 「どうしても要らないなら、ショップで売ってお金に出来るわ」
 ＠Zakuro,Q01163
 「どうしても要らないなら、ショップで売ってお金に出来るわ」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「たとえシステム上で出来ても、こんなテープを売れるかッ！！」
 ＠Itsuki
 「たとえシステム上で出来ても、こんなテープを売れるかッ！！」
 
@@ -2737,6 +3300,7 @@ bgm_stop
 @bg_black
 wait		1000
 
+#SCRIPT ORIGINAL 結局グダグダで、いちごに精液をかけた事なんてどうでもよくなってしまっていた。
 結局グダグダで、いちごに精液をかけた事なんてどうでもよくなってしまっていた。
 
 #（スケジュールへ）

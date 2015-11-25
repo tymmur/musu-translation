@@ -507,28 +507,40 @@ window_close
 #カーソルをデフォルトに
 mousecursor_set "system\TrainingSystem\cur_aibu.png",25,30
 layer_lockmouse_set	l_eye,_ON
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
+#SCRIPT ORIGINAL select_icon_add		0,"system\iconselect\icon_quit.png","調教をやめる"
 select_icon_add		0,"system\iconselect\icon_quit.png","調教をやめる"
 #select_icon_add	1,"system\iconselect\icon_aibu.png","愛撫する"
+#SCRIPT ORIGINAL select_icon_add		2,"system\iconselect\icon_nikubou.png","肉棒を使う"
 select_icon_add		2,"system\iconselect\icon_nikubou.png","肉棒を使う"
 #SCRIPT IGNORE
 if _TRANSLATOR_OPTION_DISABLE_SM=0 then select_icon_add		3,"system\iconselect\icon_spanking.png","スパンキングする"
 #SCRIPT SKIP JAPANESE LINES 1
 #SCRIPT IGNORE END
+#SCRIPT ORIGINAL if _ITEM(206)=1 then select_icon_add		4,"system\iconselect\icon_vibe.png","大きなバイブでマンコを開発する"
 if _ITEM(206)=1 then select_icon_add		4,"system\iconselect\icon_vibe.png","大きなバイブでマンコを開発する"
+#SCRIPT ORIGINAL if _ITEM(202)=1 then select_icon_add		5,"system\iconselect\icon_analbeads.png","アナルビーズでアナルを開発する"
 if _ITEM(202)=1 then select_icon_add		5,"system\iconselect\icon_analbeads.png","アナルビーズでアナルを開発する"
+#SCRIPT ORIGINAL if _ITEM(210)=1 then 	 select_icon_add		6,"system\iconselect\icon_analexpand.png","アナル拡張ベルトでアナルを開発する"
 if _ITEM(210)=1 then 	 select_icon_add		6,"system\iconselect\icon_analexpand.png","アナル拡張ベルトでアナルを開発する"
+#SCRIPT ORIGINAL if _ITEM(203)=1 then 	 select_icon_add		7,"system\iconselect\icon_rousoku.png","蝋燭を使う"
 if _ITEM(203)=1 then 	 select_icon_add		7,"system\iconselect\icon_rousoku.png","蝋燭を使う"
 
+#SCRIPT ORIGINAL if _ITEM(200)=1 then	select_icon_add		8,"system\iconselect\icon_muchi.png","鞭を使う"
 if _ITEM(200)=1 then	select_icon_add		8,"system\iconselect\icon_muchi.png","鞭を使う"
 
+#SCRIPT ORIGINAL if t_mikan_bondage_flag=0 and _ITEM(303)=1 then select_icon_add	9,"system\iconselect\icon_bondage.png","ボンデージ服を着せる"
 if t_mikan_bondage_flag=0 and _ITEM(303)=1 then select_icon_add	9,"system\iconselect\icon_bondage.png","ボンデージ服を着せる"
+#SCRIPT ORIGINAL if t_mikan_bondage_flag=1 and _ITEM(303)=1 then select_icon_add	9,"system\iconselect\icon_nude.png","裸にする"
 if t_mikan_bondage_flag=1 and _ITEM(303)=1 then select_icon_add	9,"system\iconselect\icon_nude.png","裸にする"
 
+#SCRIPT ORIGINAL if _ITEM(208)=1 then select_icon_add		10,"system\iconselect\icon_schoolware.png","スクール水着を使う"
 if _ITEM(208)=1 then select_icon_add		10,"system\iconselect\icon_schoolware.png","スクール水着を使う"
 
 label ev_mik_050_loop_a
 #コマンド選択
+#SCRIPT ORIGINAL select_mouseclick	"event\ev_mik_050\EV_MIK_050_mask.png"
 select_mouseclick	"event\ev_mik_050\EV_MIK_050_mask.png"
 gosub	ev_mik_050_aibu
 if tairyoku<=0 then goto ev_mik_050_end
@@ -538,6 +550,7 @@ if _SELECT=-1 then goto ev_mik_050_loop_a
 if _SELECT= 0  then goto ev_mik_050_exit
 command=_SELECT
 
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
 mousecursor_reset
 #-- クリックしないコマンド ----------------------------------------------------
@@ -548,6 +561,7 @@ if command=9 then goto t_mikan_bondage
 if command=10 then goto t_mikan_mizugi
 
 #-- アイコン選択 --------------------------------------------------------------
+#SCRIPT ORIGINAL select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
 select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
 label ev_mik_050_loop_b
 #SCRIPT IGNORE
@@ -567,6 +581,7 @@ select_icon_init
 select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
 #SCRIPT IGNORE END
 
+#SCRIPT ORIGINAL select_mouseclick	"event\ev_mik_050\EV_MIK_050_mask.png"
 select_mouseclick	"event\ev_mik_050\EV_MIK_050_mask.png"
 if _SELECT=0 then goto ev_mik_050_loop
 
@@ -1046,6 +1061,7 @@ lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
 #「も、もう……だめぇ……」
+#SCRIPT ORIGINAL 「も、もう……だめぇ……」
 ＠Mikan,A02548
 「I-I can't... anymore...」
 
@@ -1054,6 +1070,7 @@ lifebar_setauto	life_seishin,seishin
 #どうやら気を失ってしまったようだ。
 
 #これ以上続けることはできなさそうだ。
+#SCRIPT ORIGINAL これ以上続けることはできなさそうだ。
 　It doesn't look like she'll be able to keep going.
 
 add_miryoku=add_miryoku/2
@@ -1069,6 +1086,7 @@ goto	ev_mik_050_exit2
 label ev_mik_050_exit
 
 #"調教を終了する","やっぱりやめる"
+#SCRIPT ORIGINAL select	sel,"調教を終了する","やっぱりやめる"
 select	sel,"End training","On second thought..."
 if sel=1 then goto ev_mik_050_loop_a
 
@@ -1080,6 +1098,7 @@ wait	2000
 
 label ev_mik_050_exit2
 
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
 window_close
 

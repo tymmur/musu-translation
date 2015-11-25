@@ -11,58 +11,76 @@ bgm_stop
 #■BG（夕空）
 @bg_sky_y		# 夕方の空
 
+#SCRIPT ORIGINAL ある日の夕方。
 ある日の夕方。
 
+#SCRIPT ORIGINAL 久しぶりに雫さんも交え、みんなで夕食を囲む機会があった。
 久しぶりに雫さんも交え、みんなで夕食を囲む機会があった。
 
 @bgm12			#BGM 12 : メインテーマ
 #■EVCG（みんなで食事・夕食）※ひかりがいない
 event		"event\EV_ALL_021-02.png"
 
+#SCRIPT ORIGINAL 「わーいッ、炊き込みご飯だー！」
 ＠Ichigo,O01368
 「わーいッ、炊き込みご飯だー！」
 
+#SCRIPT ORIGINAL 「いただきます」をしてすぐ、いちごがお茶碗にお箸を運び始める。
 「いただきます」をしてすぐ、いちごがお茶碗にお箸を運び始める。
 
+#SCRIPT ORIGINAL 「美味しい～！　ご飯も柔らかくて、味がいっぱいするよ」
 ＠Mikan,A00838
 「美味しい～！　ご飯も柔らかくて、味がいっぱいするよ」
 
+#SCRIPT ORIGINAL 「ふふ、ありがとう。いちごちゃんからのリクエストで作ってみたの」
 ＠Miu,B01165
 「ふふ、ありがとう。いちごちゃんからのリクエストで作ってみたの」
 
+#SCRIPT ORIGINAL 「こう毎日美味しかったら、外食したりする気も起こらないですよ」
 ＠Suika,R00308
 「こう毎日美味しかったら、外食したりする気も起こらないですよ」
 
+#SCRIPT ORIGINAL 「言えてるね。外で食べるみたいに、気も遣わないでいいし」
 ＠Shizuku,S00965
 「言えてるね。外で食べるみたいに、気も遣わないでいいし」
 
+#SCRIPT ORIGINAL 「うはは」
 ＠Itsuki
 「うはは」
 
+#SCRIPT ORIGINAL 「雫が気なんか遣うのかって……つっちーが」
 ＠Zakuro,Q00902
 「雫が気なんか遣うのかって……つっちーが」
 
+#SCRIPT ORIGINAL 「何も言ってないってのッ！　笑っただけだッ、笑っただけッ」
 ＠Itsuki
 「何も言ってないってのッ！　笑っただけだッ、笑っただけッ」
 
+#SCRIPT ORIGINAL 「……あんまりフォローになってないような」
 ＠Suika,R00309
 「……あんまりフォローになってないような」
 
+#SCRIPT ORIGINAL 「ほほぉ、何か面白いこと言ったかね、あたし。出来れば教えて欲しいモンだ」
 ＠Shizuku,S00966
 「ほほぉ、何か面白いこと言ったかね、あたし。出来れば教えて欲しいモンだ」
 
+#SCRIPT ORIGINAL 「っぐ！　えっと……」
 ＠Itsuki
 「っぐ！　えっと……」
 
+#SCRIPT ORIGINAL 「美雨、ふりかけ頂戴。青ノリで」
 ＠Zakuro,Q00903
 「美雨、ふりかけ頂戴。青ノリで」
 
+#SCRIPT ORIGINAL 「また、あなたねぇ……別物よ、青ノリとふりかけは」
 ＠Karin,P01374
 「また、あなたねぇ……別物よ、青ノリとふりかけは」
 
+#SCRIPT ORIGINAL 「しかも人を陥れておいて、あっさりと他人事のように……」
 ＠Itsuki
 「しかも人を陥れておいて、あっさりと他人事のように……」
 
+#SCRIPT ORIGINAL 「うぅ、可哀想です樹先生……頑張ってください」
 ＠Yuzu,F00267
 「うぅ、可哀想です樹先生……頑張ってください」
 
@@ -72,12 +90,14 @@ wait		1000
 #■BG（食堂・夕食時）
 @bg_dining		# 食堂
 
+#SCRIPT ORIGINAL いつもどおりの騒がしさで、食事は進んでいった。
 いつもどおりの騒がしさで、食事は進んでいった。
 
 @shizuku_middle		# 中間
 @shizuku_shifuku
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ふぅ、食べた食べた。ごちそうさま」
 ＠Shizuku,S00967
 「ふぅ、食べた食べた。ごちそうさま」
 
@@ -87,6 +107,7 @@ wait		500
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「いちごはまだ食べるよ！　おかわりー！」
 ＠Ichigo,O01369
 「いちごはまだ食べるよ！　おかわりー！」
 
@@ -96,9 +117,11 @@ wait		500
 @mikan_shifuku
 @mikan_warai		#笑
 
+#SCRIPT ORIGINAL 「美雨さんっ、みかんも！　おかわり！」
 ＠Mikan,A00839
 「美雨さんっ、みかんも！　おかわり！」
 
+#SCRIPT ORIGINAL 「……二人とも相変わらず、不思議なくらい健啖だな」
 ＠Itsuki
 「……二人とも相変わらず、不思議なくらい健啖だな」
 
@@ -108,6 +131,7 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「いちごが四杯目。みかんが五杯目ね」
 ＠Zakuro,Q00904
 「いちごが四杯目。みかんが五杯目ね」
 
@@ -117,11 +141,14 @@ wait		500
 @ichigo_shifuku
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「むむっ、負けない！」
 ＠Ichigo,O01370
 「むむっ、負けない！」
 
+#SCRIPT ORIGINAL バチバチと無意味に空中で視線の火花を散らす。
 バチバチと無意味に空中で視線の火花を散らす。
 
+#SCRIPT ORIGINAL それもまた、いつもどおりの光景だったのだが、
 それもまた、いつもどおりの光景だったのだが、
 
 @chara_clear		#保険
@@ -130,33 +157,43 @@ wait		500
 @shizuku_shifuku
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「食べたところで、そろそろいいかい？」
 ＠Shizuku,S00968
 「食べたところで、そろそろいいかい？」
 
+#SCRIPT ORIGINAL いつもは居ない雫さんが言葉を挟む。
 いつもは居ない雫さんが言葉を挟む。
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「みかん、養子の件、どうするか結論はでた？」
 ＠Shizuku,S00969
 「みかん、養子の件、どうするか結論はでた？」
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Mikan,A00840
 「え……？」
 
+#SCRIPT ORIGINAL 「あ……」
 ＠Itsuki
 「あ……」
 
+#SCRIPT ORIGINAL 「うっ」
 ＠Karin,P01375
 「うっ」
 
+#SCRIPT ORIGINAL 「あ～……」
 ＠Suika,R00310
 「あ～……」
 
+#SCRIPT ORIGINAL 「ん……？」
 ＠Shizuku,S00970
 「ん……？」
 
+#SCRIPT ORIGINAL 一瞬の短い視線のやり取りで、それぞれ硬直や驚き、疑問が交差した。
 一瞬の短い視線のやり取りで、それぞれ硬直や驚き、疑問が交差した。
 
+#SCRIPT ORIGINAL 直後、
 直後、
 
 @chara_clear		#保険
@@ -178,17 +215,22 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「びぇぇぇえええええッ！！！（泣」
 ＠Karin,P01376
 「びぇぇぇえええええッ！！！（泣」
 
+#SCRIPT ORIGINAL 「うわッ！？」
 ＠Shizuku,S00971
 「うわッ！？」
 
+#SCRIPT ORIGINAL 再び、かりん号泣。かなり涙腺が緩い。
 再び、かりん号泣。かなり涙腺が緩い。
 
+#SCRIPT ORIGINAL 「えっ、な、何！？　どうしたのさ急に、この子は！？」
 ＠Shizuku,S00972
 「えっ、な、何！？　どうしたのさ急に、この子は！？」
 
+#SCRIPT ORIGINAL 「雫、泣～かした」
 ＠Zakuro,Q00905
 「雫、泣～かした」
 
@@ -198,20 +240,25 @@ wait		500
 @shizuku_shifuku
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「っていうか、あたしが泣かしたの！？」
 ＠Shizuku,S00973
 「っていうか、あたしが泣かしたの！？」
 
+#SCRIPT ORIGINAL 「えっと、今のかりんちゃん、この話題に敏感なんですよ。みかんちゃんと別れるのが悲しいらしくて」
 ＠Miu,B01166
 「えっと、今のかりんちゃん、この話題に敏感なんですよ。みかんちゃんと別れるのが悲しいらしくて」
 
+#SCRIPT ORIGINAL 「ぶびぇええ！！　びーーーーー！！！（泣」
 ＠Karin,P01377
 「ぶびぇええ！！　びーーーーー！！！（泣」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「キャラが壊れるくらい泣くかねぇ……いや、ある意味忠実なのか」
 ＠Shizuku,S00974
 「キャラが壊れるくらい泣くかねぇ……いや、ある意味忠実なのか」
 
+#SCRIPT ORIGINAL 「あたしはてっきり、ご飯に変なキノコでも入ってたのかと思ったよ」
 ＠Shizuku,S00975
 「あたしはてっきり、ご飯に変なキノコでも入ってたのかと思ったよ」
 
@@ -221,14 +268,17 @@ wait		500
 @karin_shifuku
 @karin_komikaru_namida	#コミカル涙
 
+#SCRIPT ORIGINAL 「離れたくないわっ、みかん！！　今すぐ一つになるのぉーー！！」
 ＠Karin,P01378
 「離れたくないわっ、みかん！！　今すぐ一つになるのぉーー！！」
 
 @karin_
 
+#SCRIPT ORIGINAL 「うわっ！　わわわッ！！　待って待ってっ、かりんちゃん！」
 ＠Mikan,A00841
 「うわっ！　わわわッ！！　待って待ってっ、かりんちゃん！」
 
+#SCRIPT ORIGINAL 「いちごガード」
 ＠Zakuro,Q00906
 「いちごガード」
 
@@ -236,6 +286,7 @@ wait		500
 @ichigo_shifuku
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#SCRIPT ORIGINAL 「へ？　ええ！？」
 ＠Ichigo,O01371
 「へ？　ええ！？」
 
@@ -254,17 +305,22 @@ wait		1
 #CH（かりんといちごに立ち絵無し）
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 「みかんッ、みかんーー！！　ぐしゅッ！　グスグスッ、もうこのまま何もかもやり終えてやるぅ～～！！」
 ＠Karin,P01379
 「みかんッ、みかんーー！！　ぐしゅッ！　グスグスッ、もうこのまま何もかもやり終えてやるぅ～～！！」
 
+#SCRIPT ORIGINAL 「わぁああッ！　かりんっ、いちごだよ、いちご！　みかんじゃないよぉ！！」
 ＠Ichigo,O01372
 「わぁああッ！　かりんっ、いちごだよ、いちご！　みかんじゃないよぉ！！」
 
+#SCRIPT ORIGINAL 「えぐっ、ぐしゅぐしゅッ！　パンツなんかもう、不要よみかんッ……上着も捲って胸を出すの～～！！」
 ＠Karin,P01380
 「えぐっ、ぐしゅぐしゅッ！　パンツなんかもう、不要よみかんッ……上着も捲って胸を出すの～～！！」
 
+#SCRIPT ORIGINAL バサバサッ！　ズリッ、ズリリッ……！
 バサバサッ！　ズリッ、ズリリッ……！
 
+#SCRIPT ORIGINAL 「ひーーーん！！　やだっ、乱暴に脱がさないでぇ～～っ！」
 ＠Ichigo,O01373
 「ひーーーん！！　やだっ、乱暴に脱がさないでぇ～～っ！」
 
@@ -273,6 +329,7 @@ wait		1
 @zakuro_shifuku
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「錯乱して強引なのに、器用に脱がしてる」
 ＠Zakuro,Q00907
 「錯乱して強引なのに、器用に脱がしてる」
 
@@ -280,6 +337,7 @@ wait		1
 @suika_shifuku
 @suika_komariwarai	#困笑
 
+#SCRIPT ORIGINAL 「こ、これはちょっと見習うべき技術があるかもっ」
 ＠Suika,R00311
 「こ、これはちょっと見習うべき技術があるかもっ」
 
@@ -287,24 +345,30 @@ wait		1
 @mikan_shifuku
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「そ、そんなことよりいいの、助けなくてっ？」
 ＠Mikan,A00842
 「そ、そんなことよりいいの、助けなくてっ？」
 
+#SCRIPT ORIGINAL 「助けたら、みかんがいちごと同じ目に遭うことになるぞ」
 ＠Itsuki
 「助けたら、みかんがいちごと同じ目に遭うことになるぞ」
 
 @mikan_ikari		#怒
 
+#SCRIPT ORIGINAL 「う、う～～……」
 ＠Mikan,A00843
 「う、う～～……」
 
+#SCRIPT ORIGINAL 襲われているいちごは、もう胸も秘部も裸にされて、かりんに弄られまくっていた。
 襲われているいちごは、もう胸も秘部も裸にされて、かりんに弄られまくっていた。
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「ご、ごめん、いちごちゃん……」
 ＠Mikan,A00844
 「ご、ごめん、いちごちゃん……」
 
+#SCRIPT ORIGINAL 「あくまーーー！！」
 ＠Ichigo,O01374
 「あくまーーー！！」
 
@@ -314,6 +378,7 @@ wait		500
 @shizuku_shifuku
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「で、話を戻すけど、結論は出たのかい？」
 ＠Shizuku,S00976
 「で、話を戻すけど、結論は出たのかい？」
 
@@ -321,69 +386,88 @@ wait		500
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「ん、えっと………まだ」
 ＠Mikan,A00845
 「ん、えっと………まだ」
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「そう。まぁ悩まずとも、行った方があたしはいいと思うけどね」
 ＠Shizuku,S00977
 「そう。まぁ悩まずとも、行った方があたしはいいと思うけどね」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「樹もそう思うだろう？　ここにいるよりはマシだって」
 ＠Shizuku,S00978
 「樹もそう思うだろう？　ここにいるよりはマシだって」
 
+#SCRIPT ORIGINAL 「え？」
 ＠Itsuki
 「え？」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Mikan,A00846
 「…………」
 
+#SCRIPT ORIGINAL みかんがすがるような視線を向けてくる。
 みかんがすがるような視線を向けてくる。
 
+#SCRIPT ORIGINAL が、こんな時にオレは全然別のことを考えていた。
 が、こんな時にオレは全然別のことを考えていた。
 
+#SCRIPT ORIGINAL （この話が出てから、やけに雫さんが真っ当な意見を言ってるんだよな……）
 ＠Itsuki
 （この話が出てから、やけに雫さんが真っ当な意見を言ってるんだよな……）
 
+#SCRIPT ORIGINAL 本人に言ったら怒るだろうから、口には出さないけど。
 本人に言ったら怒るだろうから、口には出さないけど。
 
+#SCRIPT ORIGINAL てっきりオレは、雫さんはみかんを残らせ、仕事を続けさせようとすると思っていた。
 てっきりオレは、雫さんはみかんを残らせ、仕事を続けさせようとすると思っていた。
 
+#SCRIPT ORIGINAL 「決められない？」
 ＠Shizuku,S00979
 「決められない？」
 
+#SCRIPT ORIGINAL 「ん……うん……」
 ＠Mikan,A00847
 「ん……うん……」
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「そっか。でも早めに頼むよ。向こうは今か今かと返事を待ちわびてるからね」
 ＠Shizuku,S00980
 「そっか。でも早めに頼むよ。向こうは今か今かと返事を待ちわびてるからね」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「さて、と。それじゃ、あたしは仕事に戻るとするか」
 ＠Shizuku,S00981
 「さて、と。それじゃ、あたしは仕事に戻るとするか」
 
 @shizuku_
 
+#SCRIPT ORIGINAL 用件を話し終えると、雫さんはさっさと食堂を出て行った。
 用件を話し終えると、雫さんはさっさと食堂を出て行った。
 
 @miu_small
 @miu_maid
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「大丈夫？　みかんちゃん」
 ＠Miu,B01167
 「大丈夫？　みかんちゃん」
 
+#SCRIPT ORIGINAL 「うん……」
 ＠Mikan,A00848
 「うん……」
 
+#SCRIPT ORIGINAL 「大事な事だから、慌てないでいいのよ。ゆっくり考えれば」
 ＠Miu,B01168
 「大事な事だから、慌てないでいいのよ。ゆっくり考えれば」
 
+#SCRIPT ORIGINAL 「ん、ありがと、美雨さん」
 ＠Mikan,A00849
 「ん、ありがと、美雨さん」
 
@@ -391,6 +475,7 @@ window_close
 @miu_
 wait		1000
 
+#SCRIPT ORIGINAL 「………お兄ちゃん」
 ＠Mikan,A00850
 「………お兄ちゃん」
 
@@ -401,28 +486,37 @@ wait		1000
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「お兄ちゃんも、みかんはここを出た方がいいって思ってる？」
 ＠Mikan,A00851
 「お兄ちゃんも、みかんはここを出た方がいいって思ってる？」
 
+#SCRIPT ORIGINAL 「オレか……？」
 ＠Itsuki
 「オレか……？」
 
+#SCRIPT ORIGINAL 正直なところ、オレも戸惑っている。
 正直なところ、オレも戸惑っている。
 
+#SCRIPT ORIGINAL 自分の中で理性と気持ちが、まるで正反対の答えを向き合わせているのだ。
 自分の中で理性と気持ちが、まるで正反対の答えを向き合わせているのだ。
 
+#SCRIPT ORIGINAL 「迷うのは分かるけど………親戚の家に行くのも良いと思うな」
 ＠Itsuki
 「迷うのは分かるけど………親戚の家に行くのも良いと思うな」
 
+#SCRIPT ORIGINAL 「………っ」
 ＠Mikan,A00852
 「………っ」
 
+#SCRIPT ORIGINAL 「………みかん、迷ってないもん……」
 ＠Mikan,A00853
 「………みかん、迷ってないもん……」
 
+#SCRIPT ORIGINAL 「え？」
 ＠Itsuki
 「え？」
 
+#SCRIPT ORIGINAL 「…お兄ちゃんが、居て良いよって言ってくれたら……もう決まってるのに……」
 ＠Mikan,A00854
 「…お兄ちゃんが、居て良いよって言ってくれたら……もう決まってるのに……」
 
@@ -432,32 +526,41 @@ wait		500
 @yuzu_shifuku
 @yuzu_kanashimi		#哀
 
+#SCRIPT ORIGINAL 「あの……樹先生、真剣な話途中でごめんなさい」
 ＠Yuzu,F00268
 「あの……樹先生、真剣な話途中でごめんなさい」
 
+#SCRIPT ORIGINAL 「ん？」
 ＠Itsuki
 「ん？」
 
+#SCRIPT ORIGINAL 「いちごちゃんとかりんちゃん、いいんですか、放っておいて……」
 ＠Yuzu,F00269
 「いちごちゃんとかりんちゃん、いいんですか、放っておいて……」
 
+#SCRIPT ORIGINAL 「え？　うわっ！」
 ＠Itsuki
 「え？　うわっ！」
 
+#SCRIPT ORIGINAL おもちゃとか、体位とか、アナルとか、ロープとか、粘膜どうしとか。
 おもちゃとか、体位とか、アナルとか、ロープとか、粘膜どうしとか。
 
+#SCRIPT ORIGINAL 台詞、状況等は割愛するが、凄い事になっていた。
 台詞、状況等は割愛するが、凄い事になっていた。
 
 @zakuro_small
 @zakuro_shifuku
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「一枚絵が無いのが残念」
 ＠Zakuro,Q00908
 「一枚絵が無いのが残念」
 
+#SCRIPT ORIGINAL 「っていうか、さすがに止めろ！　どっから持ってきたんだ、このおもちゃ！」
 ＠Itsuki
 「っていうか、さすがに止めろ！　どっから持ってきたんだ、このおもちゃ！」
 
+#SCRIPT ORIGINAL いちごからかりんを引き剥がし、時間をかけて落ち着かせた。
 いちごからかりんを引き剥がし、時間をかけて落ち着かせた。
 
 #■BG（黒）
@@ -465,8 +568,10 @@ bgm_stop
 @bg_black
 wait		1000
 
+#SCRIPT ORIGINAL その時にはもう、みかんも、さっきの話を他所に置いていつもどおり。
 その時にはもう、みかんも、さっきの話を他所に置いていつもどおり。
 
+#SCRIPT ORIGINAL 最後に何か言いたそうだったのだが、聞けず終いだった。
 最後に何か言いたそうだったのだが、聞けず終いだった。
 
 #（スケジュール）

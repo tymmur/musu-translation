@@ -518,29 +518,43 @@ window_close
 #カーソルをデフォルトに
 mousecursor_set "system\TrainingSystem\cur_aibu.png",25,30
 layer_lockmouse_set	l_eye,_ON
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
+#SCRIPT ORIGINAL select_icon_add	0,"system\iconselect\icon_quit.png","調教をやめる"
 select_icon_add	0,"system\iconselect\icon_quit.png","調教をやめる"
 #select_icon_add	1,"system\iconselect\icon_aibu.png","愛撫する"
+#SCRIPT ORIGINAL select_icon_add	2,"system\iconselect\icon_nikubou.png","肉棒を使う"
 select_icon_add	2,"system\iconselect\icon_nikubou.png","肉棒を使う"
 #SCRIPT IGNORE
 if _TRANSLATOR_OPTION_DISABLE_SM=0 then select_icon_add	3,"system\iconselect\icon_spanking.png","スパンキングする"
 #SCRIPT SKIP JAPANESE LINES 1
 #SCRIPT IGNORE END
+#SCRIPT ORIGINAL if _ITEM(206)=1 then select_icon_add	4,"system\iconselect\icon_vibe.png","大きなバイブでマンコを開発する"
 if _ITEM(206)=1 then select_icon_add	4,"system\iconselect\icon_vibe.png","大きなバイブでマンコを開発する"
+#SCRIPT ORIGINAL if _ITEM(205)=1 then select_icon_add	5,"system\iconselect\icon_analvibe.png","アナルバイブでアナルを開発する"
 if _ITEM(205)=1 then select_icon_add	5,"system\iconselect\icon_analvibe.png","アナルバイブでアナルを開発する"
+#SCRIPT ORIGINAL if _ITEM(211)=1  then select_icon_add	6,"system\iconselect\icon_facemask.png","フェイスクラッチマスクを使用する"
 if _ITEM(211)=1  then select_icon_add	6,"system\iconselect\icon_facemask.png","フェイスクラッチマスクを使用する"
 
+#SCRIPT ORIGINAL if _ITEM(203)=1 then select_icon_add	7,"system\iconselect\icon_rousoku.png","蝋燭を使う"
 if _ITEM(203)=1 then select_icon_add	7,"system\iconselect\icon_rousoku.png","蝋燭を使う"
+#SCRIPT ORIGINAL if _ITEM(200)=1 then select_icon_add	8,"system\iconselect\icon_muchi.png","鞭を使う"
 if _ITEM(200)=1 then select_icon_add	8,"system\iconselect\icon_muchi.png","鞭を使う"
 
+#SCRIPT ORIGINAL if t_karin_bondage_flag=0 and _ITEM(305)=1 then select_icon_add	9,"system\iconselect\icon_bondage.png","ボンデージ服を着せる"
 if t_karin_bondage_flag=0 and _ITEM(305)=1 then select_icon_add	9,"system\iconselect\icon_bondage.png","ボンデージ服を着せる"
+#SCRIPT ORIGINAL if t_karin_bondage_flag=1 and _ITEM(305)=1 then select_icon_add	9,"system\iconselect\icon_nude.png","裸にする"
 if t_karin_bondage_flag=1 and _ITEM(305)=1 then select_icon_add	9,"system\iconselect\icon_nude.png","裸にする"
+#SCRIPT ORIGINAL if t_karin_megane_flag=0 and _ITEM(306)=1 then select_icon_add	10,"system\iconselect\icon_glass.png","眼鏡をかける"
 if t_karin_megane_flag=0 and _ITEM(306)=1 then select_icon_add	10,"system\iconselect\icon_glass.png","眼鏡をかける"
+#SCRIPT ORIGINAL if t_karin_megane_flag=1 and _ITEM(306)=1 then select_icon_add	10,"system\iconselect\icon_glass.png","眼鏡を外す"
 if t_karin_megane_flag=1 and _ITEM(306)=1 then select_icon_add	10,"system\iconselect\icon_glass.png","眼鏡を外す"
+#SCRIPT ORIGINAL if _ITEM(207)=1 then select_icon_add	11,"system\iconselect\icon_video.png","ビデオカメラを使う"
 if _ITEM(207)=1 then select_icon_add	11,"system\iconselect\icon_video.png","ビデオカメラを使う"
 
 label t_karin_loop_a
 #コマンド選択
+#SCRIPT ORIGINAL select_mouseclick	"event\ev_kar_070\EV_KAR_070_mask.png"
 select_mouseclick	"event\ev_kar_070\EV_KAR_070_mask.png"
 if _SELECT=-1 then gosub t_karin_aibu
 if tairyoku<=0 then goto t_karin_end
@@ -550,6 +564,7 @@ if _SELECT=-1 then goto t_karin_loop_a
 if _SELECT= 0  then goto t_karin_exit
 command=_SELECT
 
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
 mousecursor_reset
 #-- クリックしないコマンド ----------------------------------------------------
@@ -561,6 +576,7 @@ if command=10 then	goto t_karin_megane
 if command=11 then	goto t_karin_video
 
 #-- アイコン選択 --------------------------------------------------------------
+#SCRIPT ORIGINAL select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
 select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ --------------------------------------------------------------------
 label t_karin_loop_b
 #SCRIPT IGNORE
@@ -580,6 +596,7 @@ select_icon_init
 select_icon_add		0,"system\iconselect\icon_back.png","アイコン選択に戻る"#-- ループ
 #SCRIPT IGNORE END
 
+#SCRIPT ORIGINAL select_mouseclick	"event\ev_kar_070\EV_KAR_070_mask.png"
 select_mouseclick	"event\ev_kar_070\EV_KAR_070_mask.png"
 if _SELECT=0 then goto t_karin_loop
 
@@ -807,29 +824,38 @@ label t_karin_command_rousoku_1
 
 t_karin_rousoku_cnt=t_karin_rousoku_cnt+1
 
+#SCRIPT ORIGINAL 「な、なに、それろうそくじゃない。　それもそんな大きい……っ」
 ＠Karin,P04941
 「な、なに、それろうそくじゃない。　それもそんな大きい……っ」
 
+#SCRIPT ORIGINAL 「そう、ろうそく。　今日はコレを使おうと思ってな」
 ＠Itsuki
 「そう、ろうそく。　今日はコレを使おうと思ってな」
 
+#SCRIPT ORIGINAL 「まさか、それを挿れるんじゃ……っ」
 ＠Karin,P04942
 「まさか、それを挿れるんじゃ……っ」
 
+#SCRIPT ORIGINAL 「うーん、残念。　ちょっと違う。　ろうそくの本来の使い方をするのさ」
 ＠Itsuki
 「うーん、残念。　ちょっと違う。　ろうそくの本来の使い方をするのさ」
 
+#SCRIPT ORIGINAL 「え……、それってまさか……。　火をつけてって……、事……？」
 ＠Karin,P04943
 「え……、それってまさか……。　火をつけてって……、事……？」
 
+#SCRIPT ORIGINAL 「ご名答。　火をつけて使う」
 ＠Itsuki
 「ご名答。　火をつけて使う」
 
+#SCRIPT ORIGINAL オレはろうそくに火をつけ、かりんの目の前にその火をかざしてみせる。
 オレはろうそくに火をつけ、かりんの目の前にその火をかざしてみせる。
 
+#SCRIPT ORIGINAL 「ちょ、ちょっとっ、冗談じゃないわっ。　まさかろうそくの火で、私をあぶる気じゃないでしょうねっ！」
 ＠Karin,P04944
 「ちょ、ちょっとっ、冗談じゃないわっ。　まさかろうそくの火で、私をあぶる気じゃないでしょうねっ！」
 
+#SCRIPT ORIGINAL 「まさか！　これはそんな風に使うんじゃないよ……こうやって……」
 ＠Itsuki
 「まさか！　これはそんな風に使うんじゃないよ……こうやって……」
 
@@ -1054,15 +1080,18 @@ lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
 #「もう……無理だわ……」
+#SCRIPT ORIGINAL 「もう……無理だわ……」
 ＠Karin,P03604
 「It's... just too much...」
 
 @training_anime_release
 
 #どうやら気を失ってしまったようだ。
+#SCRIPT ORIGINAL どうやら気を失ってしまったようだ。
 　She seems to have lost consciousness.
 
 #これ以上続けることはできない。
+#SCRIPT ORIGINAL これ以上続けることはできない。
 　She can't go on for today.
 
 add_miryoku=add_miryoku/2
@@ -1078,6 +1107,7 @@ goto	t_karin_exit2
 label t_karin_exit
 
 #"調教を終了する","やっぱりやめる"
+#SCRIPT ORIGINAL select	sel,"調教を終了する","やっぱりやめる"
 select	sel,"End training","On second thought..."
 if sel=1 then goto t_karin_loop
 
@@ -1087,6 +1117,7 @@ if karin_command_cnt>=15 then voice "P03597"	#「っふ……なんで……わたし……こん
 @training_anime_release
 label t_karin_exit2
 
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
 window_close
 

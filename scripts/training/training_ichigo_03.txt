@@ -529,23 +529,33 @@ window_close
 #ƒJ[ƒ\ƒ‹‚ğƒfƒtƒHƒ‹ƒg‚É
 mousecursor_set "system\TrainingSystem\cur_aibu.png",25,30
 layer_lockmouse_set	l_eye,_ON
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
+#SCRIPT ORIGINAL select_icon_add	0,"system\iconselect\icon_quit.png","’²‹³‚ğ‚â‚ß‚é"
 select_icon_add	0,"system\iconselect\icon_quit.png","’²‹³‚ğ‚â‚ß‚é"
 #select_icon_add	1,"system\iconselect\icon_aibu.png","ˆ¤•‚·‚é"
+#SCRIPT ORIGINAL select_icon_add	2,"system\iconselect\icon_nikubou.png","“÷–_‚ğg‚¤"
 select_icon_add	2,"system\iconselect\icon_nikubou.png","“÷–_‚ğg‚¤"
 #SCRIPT IGNORE
 if _TRANSLATOR_OPTION_DISABLE_SM=0 then select_icon_add	3,"system\iconselect\icon_spanking.png","ƒXƒpƒ“ƒLƒ“ƒO‚·‚é"
 #SCRIPT SKIP JAPANESE LINES 1
 #SCRIPT IGNORE END
+#SCRIPT ORIGINAL if _ITEM(206)=1 then select_icon_add	4,"system\iconselect\icon_vibe.png","‘å‚«‚ÈƒoƒCƒu‚Åƒ}ƒ“ƒR‚ğŠJ”­‚·‚é"
 if _ITEM(206)=1 then select_icon_add	4,"system\iconselect\icon_vibe.png","‘å‚«‚ÈƒoƒCƒu‚Åƒ}ƒ“ƒR‚ğŠJ”­‚·‚é"
+#SCRIPT ORIGINAL if _ITEM(205)=1 then select_icon_add	5,"system\iconselect\icon_analvibe.png","ƒAƒiƒ‹ƒoƒCƒu‚ÅƒAƒiƒ‹‚ğŠJ”­‚·‚é"
 if _ITEM(205)=1 then select_icon_add	5,"system\iconselect\icon_analvibe.png","ƒAƒiƒ‹ƒoƒCƒu‚ÅƒAƒiƒ‹‚ğŠJ”­‚·‚é"
+#SCRIPT ORIGINAL if _ITEM(203)=1 then select_icon_add	7,"system\iconselect\icon_rousoku.png","˜XC‚ğg‚¤"
 if _ITEM(203)=1 then select_icon_add	7,"system\iconselect\icon_rousoku.png","˜XC‚ğg‚¤"
+#SCRIPT ORIGINAL if _ITEM(200)=1 then select_icon_add	8,"system\iconselect\icon_muchi.png","•Ú‚ğg‚¤"
 if _ITEM(200)=1 then select_icon_add	8,"system\iconselect\icon_muchi.png","•Ú‚ğg‚¤"
+#SCRIPT ORIGINAL if _ITEM(304)=1 and t_ichigo_bondage_flag=0 then select_icon_add	9,"system\iconselect\icon_bondage.png","ƒ{ƒ“ƒf[ƒW•‚ğ’…‚¹‚é"
 if _ITEM(304)=1 and t_ichigo_bondage_flag=0 then select_icon_add	9,"system\iconselect\icon_bondage.png","ƒ{ƒ“ƒf[ƒW•‚ğ’…‚¹‚é"
+#SCRIPT ORIGINAL if _ITEM(304)=1 and t_ichigo_bondage_flag=1 then select_icon_add	9,"system\iconselect\icon_nude.png","—‡‚É‚·‚é"
 if _ITEM(304)=1 and t_ichigo_bondage_flag=1 then select_icon_add	9,"system\iconselect\icon_nude.png","—‡‚É‚·‚é"
 
 label t_ichigo_loop_a
 #ƒRƒ}ƒ“ƒh‘I‘ğ
+#SCRIPT ORIGINAL select_mouseclick	"event\ev_ich_140\ev_ich_140_mask.png"
 select_mouseclick	"event\ev_ich_140\ev_ich_140_mask.png"
 if _SELECT=-1 then gosub t_ichigo_aibu
 if tairyoku<=0 then goto t_ichigo_end
@@ -555,6 +565,7 @@ if _SELECT=-1 then goto t_ichigo_loop_a
 if _SELECT= 0  then goto t_ichigo_exit
 command=_SELECT
 
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
 mousecursor_reset
 #-- ƒNƒŠƒbƒN‚µ‚È‚¢ƒRƒ}ƒ“ƒh ----------------------------------------------------
@@ -566,6 +577,7 @@ if command=10 then	goto t_ichigo_megane
 if command=11 then	goto t_ichigo_video
 
 #-- ƒAƒCƒRƒ“‘I‘ğ --------------------------------------------------------------
+#SCRIPT ORIGINAL select_icon_add		0,"system\iconselect\icon_back.png","ƒAƒCƒRƒ“‘I‘ğ‚É–ß‚é"#-- ƒ‹[ƒv --------------------------------------------------------------------
 select_icon_add		0,"system\iconselect\icon_back.png","ƒAƒCƒRƒ“‘I‘ğ‚É–ß‚é"#-- ƒ‹[ƒv --------------------------------------------------------------------
 label t_ichigo_loop_b
 #SCRIPT IGNORE
@@ -585,6 +597,7 @@ select_icon_init
 select_icon_add		0,"system\iconselect\icon_back.png","ƒAƒCƒRƒ“‘I‘ğ‚É–ß‚é"#-- ƒ‹[ƒv
 #SCRIPT IGNORE END
 
+#SCRIPT ORIGINAL select_mouseclick	"event\ev_ich_140\ev_ich_140_mask.png"
 select_mouseclick	"event\ev_ich_140\ev_ich_140_mask.png"
 if _SELECT=0 then goto t_ichigo_loop
 
@@ -746,71 +759,97 @@ select_icon_init
 
 t_ichigo_muchi_cnt=t_ichigo_muchi_cnt+1
 
+#SCRIPT ORIGINAL u‚¦cIH@ƒpƒpA‚»‚ê‚Á‚Äcv
 —Ichigo,O04150
 u‚¦cIH@ƒpƒpA‚»‚ê‚Á‚Äcv
 
+#SCRIPT ORIGINAL ”ûŠÔ‚Éá°‚ğŠñ‚¹A–¾‚ç‚©‚ÈŒ™ˆ«Š´‚ğ¦‚µ‚Ä‚¢‚éB
 ”ûŠÔ‚Éá°‚ğŠñ‚¹A–¾‚ç‚©‚ÈŒ™ˆ«Š´‚ğ¦‚µ‚Ä‚¢‚éB
 
+#SCRIPT ORIGINAL ‚Ü‚ A•’Ê‚Í‚»‚¤‚¢‚¤”½‰‚¾‚æ‚ÈB
 ‚Ü‚ A•’Ê‚Í‚»‚¤‚¢‚¤”½‰‚¾‚æ‚ÈB
 
+#SCRIPT ORIGINAL uƒ€ƒ`‚¾‚æB‚±‚ê‚Å¡‚©‚ç‚¢‚¿‚²‚ğcv
 —Itsuki
 uƒ€ƒ`‚¾‚æB‚±‚ê‚Å¡‚©‚ç‚¢‚¿‚²‚ğcv
 
+#SCRIPT ORIGINAL uŒ™‚¾‚æIv
 —Ichigo,O04151
 uŒ™‚¾‚æIv
 
+#SCRIPT ORIGINAL Œ¾—t‚ğÕ‚é‘åº‚É¨‚ğÇ‚¬A‚±‚¿‚ç‚ğáÉ‚İ‚Â‚¯‚é‚¢‚¿‚²‚ğŒ©‰º‚ë‚µ‚½B
 Œ¾—t‚ğÕ‚é‘åº‚É¨‚ğÇ‚¬A‚±‚¿‚ç‚ğáÉ‚İ‚Â‚¯‚é‚¢‚¿‚²‚ğŒ©‰º‚ë‚µ‚½B
 
+#SCRIPT ORIGINAL u‚»‚ê‚Á‚ÄA’@‚­‚â‚Â‚Å‚µ‚åB‚¢‚¿‚²A’@‚©‚ê‚é‚ÌŒ™Iv
 —Ichigo,O04152
 u‚»‚ê‚Á‚ÄA’@‚­‚â‚Â‚Å‚µ‚åB‚¢‚¿‚²A’@‚©‚ê‚é‚ÌŒ™Iv
 
+#SCRIPT ORIGINAL ¡‚É‚à“¦‚°o‚·ŠoŒå‚Í‚ ‚éA‚Æ‚Î‚©‚è‚Ì‘Ô“x‚ÉAv‚í‚¸—­‚ß‘§‚ª˜R‚ê‚éB
 ¡‚É‚à“¦‚°o‚·ŠoŒå‚Í‚ ‚éA‚Æ‚Î‚©‚è‚Ì‘Ô“x‚ÉAv‚í‚¸—­‚ß‘§‚ª˜R‚ê‚éB
 
 ####################‚±‚±‚©‚çƒ{ƒ“ƒf[ƒW‘•’…ƒeƒLƒXƒg
 if t_ichigo_bondage_flag=0 then goto t_ichigo_command_baramuchi_2
 
+#SCRIPT ORIGINAL ‚Ü‚ ½‚Åñ‚ğŒq‚ª‚ê‚½‚¢‚¿‚²‚ÉA‚»‚ê‚Ío—ˆ‚È‚¢‚¯‚Ç‚ÈB
 ‚Ü‚ ½‚Åñ‚ğŒq‚ª‚ê‚½‚¢‚¿‚²‚ÉA‚»‚ê‚Ío—ˆ‚È‚¢‚¯‚Ç‚ÈB
 
+#SCRIPT ORIGINAL ‚¾‚¯‚Ç½‚ğˆø‚«çØ‚è‚»‚¤‚È‹­‹C‚Ì–Ú‚ÉA¢‚è‰Ê‚Ä‚Ä‚µ‚Ü‚¤B
 ‚¾‚¯‚Ç½‚ğˆø‚«çØ‚è‚»‚¤‚È‹­‹C‚Ì–Ú‚ÉA¢‚è‰Ê‚Ä‚Ä‚µ‚Ü‚¤B
 
 label t_ichigo_command_baramuchi_2
 ####################‚±‚±‚Ü‚Åƒ{ƒ“ƒf[ƒW‘•’…ƒeƒLƒXƒg
 
+#SCRIPT ORIGINAL ‚ ‚Ü‚è‹­ˆø‚È’²‹³‚ÍA‚µ‚½‚­‚È‚¢‚ñ‚¾‚¯‚Ç‚È‚ B
 ‚ ‚Ü‚è‹­ˆø‚È’²‹³‚ÍA‚µ‚½‚­‚È‚¢‚ñ‚¾‚¯‚Ç‚È‚ B
 
+#SCRIPT ORIGINAL uŠm‚©‚ÉÅ‰‚Í’É‚¢‚©‚à‚µ‚ê‚È‚¢‚¯‚Çc‹C‚¿‚æ‚­‚È‚él‚à‚¢‚é‚ç‚µ‚¢‚¼v
 —Itsuki
 uŠm‚©‚ÉÅ‰‚Í’É‚¢‚©‚à‚µ‚ê‚È‚¢‚¯‚Çc‹C‚¿‚æ‚­‚È‚él‚à‚¢‚é‚ç‚µ‚¢‚¼v
 
+#SCRIPT ORIGINAL ‹C‚¿‚¢‚¢A‚Æ‚¢‚¤’PŒê‚ÉA‚¢‚¿‚²‚Ì•\î‚ª˜a‚ç‚¢‚¾B
 ‹C‚¿‚¢‚¢A‚Æ‚¢‚¤’PŒê‚ÉA‚¢‚¿‚²‚Ì•\î‚ª˜a‚ç‚¢‚¾B
 
+#SCRIPT ORIGINAL ucc–{“–Hv
 —Ichigo,O04153
 ucc–{“–Hv
 
+#SCRIPT ORIGINAL ‹^‚¢‚ÆDŠïS‚ª‚¢‚¿‚²‚ÌS‚ğ“®‚©‚µ‚½I
+#SCRIPT ORIGINAL ‚æ‚µI@¡‚Ì‚¤‚¿‚Éô‚İŠ|‚¯‚é‚µ‚©‚È‚¢I
 ‹^‚¢‚ÆDŠïS‚ª‚¢‚¿‚²‚ÌS‚ğ“®‚©‚µ‚½I
 ‚æ‚µI@¡‚Ì‚¤‚¿‚Éô‚İŠ|‚¯‚é‚µ‚©‚È‚¢I
 
+#SCRIPT ORIGINAL ‚©‚È‚è‹­ˆø‚È‚ª‚çAƒ€ƒ`‚ğè‚É‚µ‚½‚Ü‚Ü––Ê‚ÌÎ‚İ‚ğ•‚‚©‚×‚Ä‚İ‚¹‚½B
 ‚©‚È‚è‹­ˆø‚È‚ª‚çAƒ€ƒ`‚ğè‚É‚µ‚½‚Ü‚Ü––Ê‚ÌÎ‚İ‚ğ•‚‚©‚×‚Ä‚İ‚¹‚½B
 
+#SCRIPT ORIGINAL u‚ ‚ A–{“–‚³B‚à‚Á‚Æ’@‚¢‚Ä‰º‚³‚¢[A‚È‚ñ‚ÄŒ¾‚¤l‚à‚¢‚é‚­‚ç‚¢‚¾‚©‚ç‚Èv
 —Itsuki
 u‚ ‚ A–{“–‚³B‚à‚Á‚Æ’@‚¢‚Ä‰º‚³‚¢[A‚È‚ñ‚ÄŒ¾‚¤l‚à‚¢‚é‚­‚ç‚¢‚¾‚©‚ç‚Èv
 
+#SCRIPT ORIGINAL Œ™ˆ«‚Íˆê“]A‚¢‚¿‚²‚ÌŠç‚Í‚·‚Á‚©‚èDŠïS‚É–‚¿‚Ä‚¢‚éB
 Œ™ˆ«‚Íˆê“]A‚¢‚¿‚²‚ÌŠç‚Í‚·‚Á‚©‚èDŠïS‚É–‚¿‚Ä‚¢‚éB
 
+#SCRIPT ORIGINAL ©•ª‚Ì’m‚ç‚È‚¢‚±‚ÆA©•ª‚Ì’m‚ç‚È‚¢‰õŠ´‚ÉA‹»–¡ä‚©‚ê‚é‚æ‚¤‚¾B
 ©•ª‚Ì’m‚ç‚È‚¢‚±‚ÆA©•ª‚Ì’m‚ç‚È‚¢‰õŠ´‚ÉA‹»–¡ä‚©‚ê‚é‚æ‚¤‚¾B
 
+#SCRIPT ORIGINAL u‚¢‚¿‚²‚ª‚·‚²‚­’É‚ª‚Á‚½‚ç~‚ß‚Ä‚â‚é‚©‚çc‚P‰ñA‚â‚Á‚Ä‚İ‚æ‚¤v
 —Itsuki
 u‚¢‚¿‚²‚ª‚·‚²‚­’É‚ª‚Á‚½‚ç~‚ß‚Ä‚â‚é‚©‚çc‚P‰ñA‚â‚Á‚Ä‚İ‚æ‚¤v
 
+#SCRIPT ORIGINAL u‚¤[‚ñcc•ª‚©‚Á‚½I@ƒpƒp‚ª‚»‚ñ‚È‚ÉŒ¾‚¤‚È‚çA‚¢‚¿‚²‚â‚Á‚Ä‚İ‚é‚æv
 —Ichigo,O04154
 u‚¤[‚ñcc•ª‚©‚Á‚½I@ƒpƒp‚ª‚»‚ñ‚È‚ÉŒ¾‚¤‚È‚çA‚¢‚¿‚²‚â‚Á‚Ä‚İ‚é‚æv
 
+#SCRIPT ORIGINAL ‚Ó‚¤A‚È‚ñ‚Æ‚©“¯ˆÓ‚Ìã‚Å’²‹³o—ˆ‚»‚¤‚¾B
 ‚Ó‚¤A‚È‚ñ‚Æ‚©“¯ˆÓ‚Ìã‚Å’²‹³o—ˆ‚»‚¤‚¾B
 
+#SCRIPT ORIGINAL •·‚±‚¦‚È‚¢‚æ‚¤‚Éƒzƒb‚Æ‘§‚ğ“f‚«o‚µAƒ€ƒ`‚Ì•¿‚ğˆ¬‚è’¼‚µ‚½B
 •·‚±‚¦‚È‚¢‚æ‚¤‚Éƒzƒb‚Æ‘§‚ğ“f‚«o‚µAƒ€ƒ`‚Ì•¿‚ğˆ¬‚è’¼‚µ‚½B
 
+#SCRIPT ORIGINAL u‚Å‚àA‚¢‚¿‚²‚ª~‚ß‚Ä‚Á‚ÄŒ¾‚Á‚½‚çA‚â‚ß‚Ä‚Ëv
 —Ichigo,O04155
 u‚Å‚àA‚¢‚¿‚²‚ª~‚ß‚Ä‚Á‚ÄŒ¾‚Á‚½‚çA‚â‚ß‚Ä‚Ëv
 
+#SCRIPT ORIGINAL Œ`‚¾‚¯èõ‚¢‚Ä‚¨‚¢‚ÄAƒXƒb‚Æè‚ğã‚°ƒ€ƒ`‚ğU‚èã‚°‚½B
 Œ`‚¾‚¯èõ‚¢‚Ä‚¨‚¢‚ÄAƒXƒb‚Æè‚ğã‚°ƒ€ƒ`‚ğU‚èã‚°‚½B
 
 window_close
@@ -890,34 +929,47 @@ select_icon_init
 
 t_ichigo_rousoku_cnt=t_ichigo_rousoku_cnt+1
 
+#SCRIPT ORIGINAL ‚ë‚¤‚»‚­‚ğ–Ú‚É‚µ‚½uŠÔA‚¢‚¿‚²‚ÌŠçF‚ªƒTƒb‚Æ‘“‚­‚È‚Á‚½B
 ‚ë‚¤‚»‚­‚ğ–Ú‚É‚µ‚½uŠÔA‚¢‚¿‚²‚ÌŠçF‚ªƒTƒb‚Æ‘“‚­‚È‚Á‚½B
 
+#SCRIPT ORIGINAL u‚»‚êcc‚Ç‚¤‚·‚é‚ÌHv
 —Ichigo,O04198
 u‚»‚êcc‚Ç‚¤‚·‚é‚ÌHv
 
+#SCRIPT ORIGINAL ‚¢‚Â‚à‚ÌŒ³‹C‚ª‚È‚­A–¾‚ç‚©‚É‹¯‚¦‚Ä‚¢‚é‚Ì‚ªŒ©‚Ä‚Æ‚ê‚éB
 ‚¢‚Â‚à‚ÌŒ³‹C‚ª‚È‚­A–¾‚ç‚©‚É‹¯‚¦‚Ä‚¢‚é‚Ì‚ªŒ©‚Ä‚Æ‚ê‚éB
 
+#SCRIPT ORIGINAL ‰´‚à‚ ‚Ü‚è‚â‚è‚½‚­‚È‚¢‚ªA‚±‚ê‚à’²‹³‚¾‚©‚ç‚ÈB
 ‰´‚à‚ ‚Ü‚è‚â‚è‚½‚­‚È‚¢‚ªA‚±‚ê‚à’²‹³‚¾‚©‚ç‚ÈB
 
+#SCRIPT ORIGINAL u‚à‚¿‚ë‚ñAƒƒE‚ğ‚¢‚¿‚²‚Ì‘Ì‚É‚‚ç‚·‚ñ‚¾‚æv
 —Itsuki
 u‚à‚¿‚ë‚ñAƒƒE‚ğ‚¢‚¿‚²‚Ì‘Ì‚É‚‚ç‚·‚ñ‚¾‚æv
 
+#SCRIPT ORIGINAL ƒnƒbƒLƒŠŒ¾—t‚É‚·‚é‚ÆA‚¢‚¿‚²‚Ì‘Ì‚ÍƒrƒNƒb‚Æ‘å‚«‚­—h‚ê‚½B
 ƒnƒbƒLƒŠŒ¾—t‚É‚·‚é‚ÆA‚¢‚¿‚²‚Ì‘Ì‚ÍƒrƒNƒb‚Æ‘å‚«‚­—h‚ê‚½B
 
+#SCRIPT ORIGINAL ‘å‚«‚È“µ‚É‚Í—Ü‚ª•‚‚©‚ÑA¡‚É‚à‹ƒ‚«o‚µ‚Ä‚µ‚Ü‚¢‚»‚¤‚¾B
 ‘å‚«‚È“µ‚É‚Í—Ü‚ª•‚‚©‚ÑA¡‚É‚à‹ƒ‚«o‚µ‚Ä‚µ‚Ü‚¢‚»‚¤‚¾B
 
+#SCRIPT ORIGINAL u”M‚­c‚È‚¢A‚æ‚ËH@‘åä•vA‚¾‚æ‚ËcHv
 —Ichigo,O04199
 u”M‚­c‚È‚¢A‚æ‚ËH@‘åä•vA‚¾‚æ‚ËcHv
 
+#SCRIPT ORIGINAL ãv‚é‚æ‚¤‚ÉŒ©‚Â‚ß‚Ä‚­‚é‚ªA•Ô–‚ğ‚¹‚¸‚É‰Ÿ‚µ–Ù‚éB
 ãv‚é‚æ‚¤‚ÉŒ©‚Â‚ß‚Ä‚­‚é‚ªA•Ô–‚ğ‚¹‚¸‚É‰Ÿ‚µ–Ù‚éB
 
+#SCRIPT ORIGINAL ŒoŒ±‚µ‚½‚±‚Æ‚ª‚È‚¢‰´‚ªA—]Œv‚È‚±‚Æ‚ğŒ¾‚í‚È‚¢•û‚ª‚¢‚¢‚¾‚ë‚¤B
 ŒoŒ±‚µ‚½‚±‚Æ‚ª‚È‚¢‰´‚ªA—]Œv‚È‚±‚Æ‚ğŒ¾‚í‚È‚¢•û‚ª‚¢‚¢‚¾‚ë‚¤B
 
+#SCRIPT ORIGINAL u‚Ë‚¥Aƒpƒp‚Ÿc‚»‚êA‚â‚ß‚æ‚¤H@‚¢‚¿‚²A•|‚¢‚æ‚§v
 —Ichigo,O04200
 u‚Ë‚¥Aƒpƒp‚Ÿc‚»‚êA‚â‚ß‚æ‚¤H@‚¢‚¿‚²A•|‚¢‚æ‚§v
 
+#SCRIPT ORIGINAL ‚Ù‚Æ‚ñ‚Ç”¼ƒxƒ\‚©‚¢‚Ä‚é‚ªAd•û‚È‚¢B
 ‚Ù‚Æ‚ñ‚Ç”¼ƒxƒ\‚©‚¢‚Ä‚é‚ªAd•û‚È‚¢B
 
+#SCRIPT ORIGINAL ‰´‚ÍˆÓ‚ğŒˆ‚·‚é‚ÆA‚ä‚Á‚­‚è‚Æ‚ë‚¤‚»‚­‚ğ‚¢‚¿‚²‚Ì‘Ì‚Ö‚ÆŒX‚¯‚½B
 ‰´‚ÍˆÓ‚ğŒˆ‚·‚é‚ÆA‚ä‚Á‚­‚è‚Æ‚ë‚¤‚»‚­‚ğ‚¢‚¿‚²‚Ì‘Ì‚Ö‚ÆŒX‚¯‚½B
 
 window_close
@@ -1082,13 +1134,16 @@ ichigo_kiryoku=0
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
+#SCRIPT ORIGINAL u‚Í‚¤‚£`A‚à‚¤ƒMƒuƒAƒbƒv`v
 —Ichigo,O03734
 u‚Í‚¤‚£`A‚à‚¤ƒMƒuƒAƒbƒv`v
 
 @training_anime_release
 
+#SCRIPT ORIGINAL ‚Ç‚¤‚â‚ç‹C‚ğ¸‚Á‚Ä‚µ‚Ü‚Á‚½‚æ‚¤‚¾B
 ‚Ç‚¤‚â‚ç‹C‚ğ¸‚Á‚Ä‚µ‚Ü‚Á‚½‚æ‚¤‚¾B
 
+#SCRIPT ORIGINAL ‚±‚êˆÈã‘±‚¯‚é‚±‚Æ‚Í‚Å‚«‚È‚¢B
 ‚±‚êˆÈã‘±‚¯‚é‚±‚Æ‚Í‚Å‚«‚È‚¢B
 
 add_miryoku=add_miryoku/2
@@ -1104,6 +1159,7 @@ goto	t_ichigo_exit2
 label t_ichigo_exit
 
 #"’²‹³‚ğI—¹‚·‚é","‚â‚Á‚Ï‚è‚â‚ß‚é"
+#SCRIPT ORIGINAL select	sel,"’²‹³‚ğI—¹‚·‚é","‚â‚Á‚Ï‚è‚â‚ß‚é"
 select	sel,"End training","On second thought..."
 if sel=1 then goto t_ichigo_loop
 
@@ -1113,6 +1169,7 @@ if ichigo_command_cnt>=15 then voice "O03733"	#u‚Á‚Ócc‚È‚ñ‚Åcc‚í‚½‚µcc‚±‚
 @training_anime_release
 label t_ichigo_exit2
 
+#SCRIPT ORIGINAL select_icon_init
 select_icon_init
 window_close
 

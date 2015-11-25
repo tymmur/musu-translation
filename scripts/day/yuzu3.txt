@@ -14,15 +14,19 @@ label	yuzu_03
 @SE15			#SE15　目覚ましの音（ジリリリリッ！）
 
 #…………………
+#SCRIPT ORIGINAL …………………
 　............
 
 #……………
+#SCRIPT ORIGINAL ……………
 　.........
 
 #………
+#SCRIPT ORIGINAL ………
 　......
 
 #「ん、くぅ……」
+#SCRIPT ORIGINAL 「ん、くぅ……」
 ＠Itsuki
 「Nh, urgh...」
 
@@ -39,9 +43,11 @@ wait			2000
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
 #眠りから半分寝ぼけた頭で、目覚ましのスイッチを切る。
+#SCRIPT ORIGINAL 眠りから半分寝ぼけた頭で、目覚ましのスイッチを切る。
 　I turned off the alarm clock, feeling dazed and half-asleep.
 
 #「ねむ……夜更かしし過ぎたか」
+#SCRIPT ORIGINAL 「ねむ……夜更かしし過ぎたか」
 ＠Itsuki
 「I’m tired... I might’ve stayed up too late」
 
@@ -49,17 +55,21 @@ wait			2000
 @SE48			#SE48　柔肉音１（ムニュッ）
 
 #「ん、んぅ……」
+#SCRIPT ORIGINAL 「ん、んぅ……」
 ＠Voice,F00243
 「Nh, nhh...」
 
 #身体を伸ばそうとすると、すぐ側の柔らかい物に触れた。
+#SCRIPT ORIGINAL 身体を伸ばそうとすると、すぐ側の柔らかい物に触れた。
 　I made to stretch, and touched something soft right by my side.
 
 #「………？」
+#SCRIPT ORIGINAL 「………？」
 ＠Itsuki
 「...?」
 
 #「何だ、これ……こんな枕買ったかな……」
+#SCRIPT ORIGINAL 「何だ、これ……こんな枕買ったかな……」
 ＠Itsuki
 「Huh, what’s this... did I buy this sort of pillow...?」
 
@@ -67,58 +77,72 @@ wait			2000
 @SE48			#SE48　柔肉音１（ムニュッ）
 
 #「はぅ、ん……くぅ～…」
+#SCRIPT ORIGINAL 「はぅ、ん……くぅ～…」
 ＠Voice,F00244
 「Hau, nh... snooze～...」
 
 #（……何だいちごか…）
+#SCRIPT ORIGINAL （……何だいちごか…）
 ＠Itsuki
 （...Oh, maybe it’s Ichigo?）
 
 #程よい温もりと柔らかさに誘われ、それを枕代わりに再び眠ろうとする。
+#SCRIPT ORIGINAL 程よい温もりと柔らかさに誘われ、それを枕代わりに再び眠ろうとする。
 　Drawn to the gentle warmth and softness, I make to sleep once again using it as a pillow.
 
 #SE70　衣擦れ音（シュルシュル）※シーツでモゾモゾ動く音代わり。違和感があれば無音で。
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 #「んくぅ……ん…あれ……？」
+#SCRIPT ORIGINAL 「んくぅ……ん…あれ……？」
 ＠Voice,F00245
 「Nnghh... nh... huh...?」
 
 #「あ……いつの間にかボクまで寝ちゃってる…」
+#SCRIPT ORIGINAL 「あ……いつの間にかボクまで寝ちゃってる…」
 ＠Voice,F00246
 「Ah... I ended up falling asleep here too...」
 
 #「って……わッ、樹先生！？」
+#SCRIPT ORIGINAL 「って……わッ、樹先生！？」
 ＠Voice,F00247
 「What the... wah! Itsuki-sensei!?」
 
 #「………モゾモゾ動くなよ、いちご～」
+#SCRIPT ORIGINAL 「………モゾモゾ動くなよ、いちご～」
 ＠Itsuki
 「...Don’t squirm around, Ichigo～」
 
 #「樹先生……ボクいちごちゃんじゃないですよ…」
+#SCRIPT ORIGINAL 「樹先生……ボクいちごちゃんじゃないですよ…」
 ＠Voice,F00248
 「Itsuki-sensei... I’m not Ichigo-chan...」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #眠すぎてもう、むしろ誰でもよかったが……
+#SCRIPT ORIGINAL 眠すぎてもう、むしろ誰でもよかったが……
 　I’m so tired, I don’t mind who it is, but...
 
 #（……今この子、ボクって言ったか…？）
+#SCRIPT ORIGINAL （……今この子、ボクって言ったか…？）
 ＠Itsuki
 （...Whose voice does that sound like...?）
 
 #心当たりに不安を覚え、今一度ソレを見つめ直した。
+#SCRIPT ORIGINAL 心当たりに不安を覚え、今一度ソレを見つめ直した。
 　A certain dread taking hold, I try groping for IT again.
 
 #「はぅ……樹先生、朝からこんなこと～……」
+#SCRIPT ORIGINAL 「はぅ……樹先生、朝からこんなこと～……」
 ＠Yuzu,F00249
 「Hau... Itsuki-sensei, first thing in the morning～...」
 
 #「…………」
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
 
@@ -130,10 +154,12 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
 #「うわぁあああッ！！」
+#SCRIPT ORIGINAL 「うわぁあああッ！！」
 ＠Itsuki
 「Uwaaahhhhhh!!」
 
 #「ゆゆッ、ゆずッ！？　何してるんだ人の布団の中で！？」
+#SCRIPT ORIGINAL 「ゆゆッ、ゆずッ！？　何してるんだ人の布団の中で！？」
 ＠Itsuki
 「Is that you, Y-Y-Yuzu!? What are you doing in my bed!?」
 
@@ -144,12 +170,14 @@ screen_vibration	500,16,16,16
 @bgm02			#BGM 02 : 朝のテーマ
 
 #「はい、樹先生を起こしに来たんです。つい一緒に眠ってしまいましたけど……」
+#SCRIPT ORIGINAL 「はい、樹先生を起こしに来たんです。つい一緒に眠ってしまいましたけど……」
 ＠Yuzu,F00250
 「Yes, I came to wake you up. But I fell asleep with you by accident...」
 
 @yuzu_warai		#笑
 
 #「でも樹先生が、朝からこんなに積極的にしてくれるなんて……嬉しいですッ！」
+#SCRIPT ORIGINAL 「でも樹先生が、朝からこんなに積極的にしてくれるなんて……嬉しいですッ！」
 ＠Yuzu,F00251
 「But Itsuki-sensei, I’m happy that you’re so forward first thing in the morning!」
 
@@ -160,6 +188,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
 #「こ、こらッ、抱きつくんじゃない！　寝ぼけてただけだッ」
+#SCRIPT ORIGINAL 「こ、こらッ、抱きつくんじゃない！　寝ぼけてただけだッ」
 ＠Itsuki
 「H-hey! Don’t hug me! I was just dazed and half-asleep!」
 
@@ -169,20 +198,24 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @yuzu_yorokobi		#喜
 
 #「いいんです、朝から突然でも。ボクの心の準備はいつでも出来ていますからッ」
+#SCRIPT ORIGINAL 「いいんです、朝から突然でも。ボクの心の準備はいつでも出来ていますからッ」
 ＠Yuzu,F00252
 「You can go ahead, even in the morning suddenly. My heart is ready for you anytime!」
 
 @yuzu_warai		#笑
 
 #「だから遠慮しないでください！」
+#SCRIPT ORIGINAL 「だから遠慮しないでください！」
 ＠Yuzu,F00253
 「Don’t feel a need to be so reserved!」
 
 #「っく……ここの施設の奴らは人の話を聞かないのが習いかッ！」
+#SCRIPT ORIGINAL 「っく……ここの施設の奴らは人の話を聞かないのが習いかッ！」
 ＠Itsuki
 「Tch... is it normal for everyone to not listen to you in this place!?」
 
 #「離れ―――」
+#SCRIPT ORIGINAL 「離れ―――」
 ＠Itsuki
 「Get off―――」
 
@@ -191,6 +224,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @bg_black		# 黒
 
 #「はっ……！」
+#SCRIPT ORIGINAL 「はっ……！」
 ＠Itsuki
 「Wha...!?」
 
@@ -204,24 +238,30 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @bg_itsuki		# 自室
 
 #「……………」
+#SCRIPT ORIGINAL 「……………」
 ＠Zakuro,Q00429
 「......」
 
 #「…………」
+#SCRIPT ORIGINAL 「…………」
 ＠Ichigo,O00770
 「......」
 
 #物音に顔を上げると、部屋の入り口で、いちごとざくろがこちらを見つめていた。
+#SCRIPT ORIGINAL 物音に顔を上げると、部屋の入り口で、いちごとざくろがこちらを見つめていた。
 　I look up at a noise, and there stood Ichigo and Zakuro staring at me from the doorway. 
 
 #ざくろはともかく、いちごは明らかに何か誤解してそうな雰囲気で。
+#SCRIPT ORIGINAL ざくろはともかく、いちごは明らかに何か誤解してそうな雰囲気で。
 　Zakuro the same as ever, Ichigo obviously giving off some big misunderstanding. 
 
 #「おはようございますッ、いちごちゃん、ざくろさん」
+#SCRIPT ORIGINAL 「おはようございますッ、いちごちゃん、ざくろさん」
 ＠Yuzu,F00254
 「Good morning! Ichigo-chan, Zakuro-san」
 
 #「……さ、最悪のタイミングと組み合わせだ…」
+#SCRIPT ORIGINAL 「……さ、最悪のタイミングと組み合わせだ…」
 ＠Itsuki
 「...W-what an awful timing and combo」
 
@@ -236,12 +276,14 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うわー！　パパとゆずがベッドで抱き合ってるー！！」
+#SCRIPT ORIGINAL 「うわー！　パパとゆずがベッドで抱き合ってるー！！」
 ＠Ichigo,O00771
 「Uwahー! Papa and Yuzu are snuggling up in bedー!!」
 
 @zakuro_metoji		#閉
 
 #「……越えたの？」
+#SCRIPT ORIGINAL 「……越えたの？」
 ＠Zakuro,Q00430
 「...Did you put it through?」
 
@@ -253,6 +295,7 @@ wait		500
 @yuzu_warai		#笑
 
 #「はい、今からです！」
+#SCRIPT ORIGINAL 「はい、今からです！」
 ＠Yuzu,F00255
 「Yeah, we’re just about to!」
 
@@ -260,6 +303,7 @@ wait		500
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 #「今にも先にも越えんッ！　先走るなッ」
+#SCRIPT ORIGINAL 「今にも先にも越えんッ！　先走るなッ」
 ＠Itsuki
 「Not now, nor before did I put it through! Don’t be rude!」
 
@@ -285,12 +329,14 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「ざくろ、すいかが楽しみにしてたから教えてあげないと！」
+#SCRIPT ORIGINAL 「ざくろ、すいかが楽しみにしてたから教えてあげないと！」
 ＠Ichigo,O00772
 「Zakuro, Suika’s been looking forward to this, we’ve got to tell her!」
 
 @zakuro_niko		#にこ
 
 #「むしろ面白いから全員に広めないと」
+#SCRIPT ORIGINAL 「むしろ面白いから全員に広めないと」
 ＠Zakuro,Q00431
 「Actually, it’s funny so we should spread the news」
 
@@ -300,10 +346,12 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #「ちょッ、やめーーー！！」
+#SCRIPT ORIGINAL 「ちょッ、やめーーー！！」
 ＠Itsuki
 「Hold it, stop―――!!」
 
 #「樹先生ー♪」
+#SCRIPT ORIGINAL 「樹先生ー♪」
 ＠Yuzu,F00256
 「Itsuki-senseiー♪」
 
@@ -312,6 +360,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
 #「は、離せゆずッ！　うわッ、お前の何か当たってるって！」
+#SCRIPT ORIGINAL 「は、離せゆずッ！　うわッ、お前の何か当たってるって！」
 ＠Itsuki
 「L-let go, Yuzu! Uwah, I felt something of yours graze against me!」
 
@@ -321,20 +370,24 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @yuzu_warai		#笑
 
 #「そんな、ヤですよぉ先生………目覚めの生理現象じゃないですかぁ」
+#SCRIPT ORIGINAL 「そんな、ヤですよぉ先生………目覚めの生理現象じゃないですかぁ」
 ＠Yuzu,F00257
 「Don’t be like that, Itsuki-sensei... it’s a physiological occurence upon waking, right?」
 
 #「ひーーー！！」
+#SCRIPT ORIGINAL 「ひーーー！！」
 ＠Itsuki
 「Eeeeeek!!」
 
 #その間に広められていく嘘の既成事実。
+#SCRIPT ORIGINAL その間に広められていく嘘の既成事実。
 　A seed of truth in the lies that were spreading just then.
 
 #■BG（黒）
 #@bg_black
 
 #すいか達の誤解を解くのに、朝から一日分のエネルギーを使い切ってしまった……
+#SCRIPT ORIGINAL すいか達の誤解を解くのに、朝から一日分のエネルギーを使い切ってしまった……
 　I cleared up the misunderstanding with Suika and them, but I’d used up all my day’s energy first thing in the morning...
 
 bgm_stop

@@ -13,8 +13,10 @@ wait			2000
 screen_whitein		100
 wait			100
 
+#SCRIPT ORIGINAL まぶしい朝日に照らされ、ゆっくりと眠りから目覚めた朝。
 まぶしい朝日に照らされ、ゆっくりと眠りから目覚めた朝。
 
+#SCRIPT ORIGINAL 開けた窓から心地よい風と鳥の声が、部屋の中へ入ってくる。
 開けた窓から心地よい風と鳥の声が、部屋の中へ入ってくる。
 
 window_close
@@ -35,14 +37,17 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「おはよ、お父しゃん♪」
 ＠Hikari,N00761
 「おはよ、お父しゃん♪」
 
 #@bgm02			#BGM 02 : 朝のテーマ
 @bgm17			#BGM 17 : のんびりのテーマ
 
+#SCRIPT ORIGINAL すでに起きていたひかりが、ベッドの側でオレに微笑みかけた。
 すでに起きていたひかりが、ベッドの側でオレに微笑みかけた。
 
+#SCRIPT ORIGINAL 「おはよう、ひかり」
 ＠Itsuki
 「おはよう、ひかり」
 
@@ -59,9 +64,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「あははっ、お父しゃんお寝坊なの。もうひーちゃんもお母しゃんも起きてゆよ」
 ＠Hikari,N00762
 「あははっ、お父しゃんお寝坊なの。もうひーちゃんもお母しゃんも起きてゆよ」
 
+#SCRIPT ORIGINAL 「そっか。美雨は朝ごはんかい？」
 ＠Itsuki
 「そっか。美雨は朝ごはんかい？」
 
@@ -74,9 +81,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん。今だいどこよで用意してくれてゆの」
 ＠Hikari,N00763
 「うん。今だいどこよで用意してくれてゆの」
 
+#SCRIPT ORIGINAL 「ならオレも手伝わないと」
 ＠Itsuki
 「ならオレも手伝わないと」
 
@@ -93,11 +102,13 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「わぁい♪　ひーちゃんもご飯のお手ちゅだいするのっ」
 ＠Hikari,N00764
 「わぁい♪　ひーちゃんもご飯のお手ちゅだいするのっ」
 
 @hikari_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ひーちゃん先に下いてゆから、早くお父しゃんも来てねーっ」
 ＠Hikari,N00765
 「ひーちゃん先に下いてゆから、早くお父しゃんも来てねーっ」
 
@@ -111,28 +122,37 @@ window_close
 wait		500
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
+#SCRIPT ORIGINAL 朝から元気に走って行った。
 朝から元気に走って行った。
 
+#SCRIPT ORIGINAL まるでミニチュアのいちごみたいな子だ。
 まるでミニチュアのいちごみたいな子だ。
 
 #SE05　物にぶつかる音（ガンッ！）
 #@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
 se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
 
+#SCRIPT ORIGINAL 「きゅぶぅッ！」
 ＠Hikari,N00766
 「きゅぶぅッ！」
 
+#SCRIPT ORIGINAL ……また物にぶつかったな。
 ……また物にぶつかったな。
 
+#SCRIPT ORIGINAL 「騒がしさがなくなって、結局残ったのはあの子だけなんだよな……」
 ＠Itsuki
 「騒がしさがなくなって、結局残ったのはあの子だけなんだよな……」
 
+#SCRIPT ORIGINAL オレと美雨の実の娘、ひかり。
 オレと美雨の実の娘、ひかり。
 
+#SCRIPT ORIGINAL 今まで美雨がひかりに過保護だったのも、母親としての娘への愛しさからだろう。
 今まで美雨がひかりに過保護だったのも、母親としての娘への愛しさからだろう。
 
+#SCRIPT ORIGINAL 最初、ひかりをつれて来た時の美雨の様子も、そのためだったのか……
 最初、ひかりをつれて来た時の美雨の様子も、そのためだったのか……
 
+#SCRIPT ORIGINAL 「家族で一緒に暮らすなんて……他の人たちはみんな、普通にしてることなのに」
 ＠Itsuki
 「家族で一緒に暮らすなんて……他の人たちはみんな、普通にしてることなのに」
 
@@ -140,12 +160,14 @@ se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
 bgm_stop
 @bg_black
 
+#SCRIPT ORIGINAL そんなささやかな幸せが、また美雨から逃げようとしている……
 そんなささやかな幸せが、また美雨から逃げようとしている……
 
 #■BG（食堂）
 #@bg_dining		# 食堂
 @bg_gate		# 孤児院前
 
+#SCRIPT ORIGINAL ひかりと二人で美雨を手伝って、食堂で朝食になった。
 ひかりと二人で美雨を手伝って、食堂で朝食になった。
 
 @bg_black
@@ -176,19 +198,24 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ふぁ～…コーンシュープ、トロトロしてて美味しいの♪」
 ＠Hikari,N00767
 「ふぁ～…コーンシュープ、トロトロしてて美味しいの♪」
 
+#SCRIPT ORIGINAL 「あらあら、落ち着いて飲まないと口元についてるわよ。ほら」
 ＠Miu,B03117
 「あらあら、落ち着いて飲まないと口元についてるわよ。ほら」
 
 @bg_white		# 白
 
+#SCRIPT ORIGINAL 「あははっ、ごめんなしゃい～」
 ＠Hikari,N00768
 「あははっ、ごめんなしゃい～」
 
+#SCRIPT ORIGINAL 美雨に口を拭ってもらいながら、上機嫌のひかり。
 美雨に口を拭ってもらいながら、上機嫌のひかり。
 
+#SCRIPT ORIGINAL その美雨とはやはり、昨日の話題もあってチラチラと視線が交わった。
 その美雨とはやはり、昨日の話題もあってチラチラと視線が交わった。
 
 @miu_middle_kuruma
@@ -200,9 +227,11 @@ layer_movepass_play	l_hikari,0,play_once
 #@hikari_yorokobi	#喜
 @bg_dining		# 食堂
 
+#SCRIPT ORIGINAL 「…えっと。樹さん、サラダのおかわりどうですか……？」
 ＠Miu,B03118
 「…えっと。樹さん、サラダのおかわりどうですか……？」
 
+#SCRIPT ORIGINAL 「ああ、うん。じゃあ少しだけ……」
 ＠Itsuki
 「ああ、うん。じゃあ少しだけ……」
 
@@ -212,16 +241,19 @@ wait		500
 @hikari_shifuku
 @hikari			#普
 
+#SCRIPT ORIGINAL 「……？」
 ＠Hikari,N00769
 「……？」
 
 @hikari_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ねぇお母しゃん、このコリコリしたのもっと入えてい～い？」
 ＠Hikari,N00770
 「ねぇお母しゃん、このコリコリしたのもっと入えてい～い？」
 
 #@miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「ええ、クルトンね。このお皿にあるから、食べたい分だけ入れてね」
 ＠Miu,B03119
 「ええ、クルトンね。このお皿にあるから、食べたい分だけ入れてね」
 
@@ -234,20 +266,26 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「わぁい！　こえお菓子みたいで、ひーちゃん大しゅきなの！」
 ＠Hikari,N00771
 「わぁい！　こえお菓子みたいで、ひーちゃん大しゅきなの！」
 
+#SCRIPT ORIGINAL ひかりはそんなオレ達の様子を不思議そうに小首を傾げたが、すぐ食事へと関心が戻った。
 ひかりはそんなオレ達の様子を不思議そうに小首を傾げたが、すぐ食事へと関心が戻った。
 
 @bg_black
 
+#SCRIPT ORIGINAL （……美雨は今日、行動を起こすんだろうか）
 ＠Itsuki
 （……美雨は今日、行動を起こすんだろうか）
 
+#SCRIPT ORIGINAL 誠司は猶予は無いと言った。
 誠司は猶予は無いと言った。
 
+#SCRIPT ORIGINAL そして美雨は昨夜、オレに全てを話してひかりを託した。
 そして美雨は昨夜、オレに全てを話してひかりを託した。
 
+#SCRIPT ORIGINAL 美雨は未練を引きずるような子じゃない。だとすれば……
 美雨は未練を引きずるような子じゃない。だとすれば……
 
 @miu_middle_kuruma
@@ -260,14 +298,17 @@ layer_movepass_play	l_hikari,0,play_once
 #@hikari_yorokobi	#喜
 @bg_dining		# 食堂
 
+#SCRIPT ORIGINAL 「樹さん……？　どうぞ」
 ＠Miu,B03120
 「樹さん……？　どうぞ」
 
+#SCRIPT ORIGINAL 「あ、うん。ありがとう」
 ＠Itsuki
 「あ、うん。ありがとう」
 
 @bg_black		# 黒
 
+#SCRIPT ORIGINAL 美雨が差し出してくれたサラダの器を受け取った。
 美雨が差し出してくれたサラダの器を受け取った。
 
 bgm_stop
@@ -280,6 +321,7 @@ bgm_stop
 #@hikari_yorokobi	#喜
 @bg_dining		# 食堂
 
+#SCRIPT ORIGINAL 「ひーちゃん、お話があるの。ちょっといい？」
 ＠Miu,B03121
 「ひーちゃん、お話があるの。ちょっといい？」
 
@@ -289,6 +331,7 @@ wait		500
 @hikari_shifuku
 @hikari			#普
 
+#SCRIPT ORIGINAL 「うん、なぁに？」
 ＠Hikari,N00772
 「うん、なぁに？」
 
@@ -298,6 +341,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「実は私ね、今夜から少し、遠いところに出かけないといけなくなっちゃったの」
 ＠Miu,B03122
 「実は私ね、今夜から少し、遠いところに出かけないといけなくなっちゃったの」
 
@@ -315,12 +359,14 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「えーっ！」
 ＠Hikari,N00773
 「えーっ！」
 
 #@bgmk02		#BGM K02 : しんみりのテーマ
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
+#SCRIPT ORIGINAL （……やっぱり。美雨はもう今日自ら…）
 ＠Itsuki
 （……やっぱり。美雨はもう今日自ら…）
 
@@ -339,6 +385,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「お母しゃん一人で行くのっ？　いちゅ帰ってくゆのー！？」
 ＠Hikari,N00774
 「お母しゃん一人で行くのっ？　いちゅ帰ってくゆのー！？」
 
@@ -348,11 +395,13 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「それはまだ分からないのよ……。ごめんねひーちゃん」
 ＠Miu,B03123
 「それはまだ分からないのよ……。ごめんねひーちゃん」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「だから私が帰ってくるまで、樹さんと仲良く一緒に居てほしいの」
 ＠Miu,B03124
 「だから私が帰ってくるまで、樹さんと仲良く一緒に居てほしいの」
 
@@ -377,6 +426,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「えぅ……みんなのちゅぎは、お母しゃんまで居なくなっちゃうのっ……そんなのやぁなのぉっ」
 ＠Hikari,N00775
 「えぅ……みんなのちゅぎは、お母しゃんまで居なくなっちゃうのっ……そんなのやぁなのぉっ」
 
@@ -396,6 +446,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「寂しいよぉッ……ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいのっ…！」
 ＠Hikari,N00776
 「寂しいよぉッ……ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいのっ…！」
 
@@ -405,20 +456,26 @@ layer_movepass_play	l_hikari,0,play_once
 #@miu_kurumaisu		#メイド服・車イス
 #@miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「ひーちゃん……」
 ＠Miu,B03125
 「ひーちゃん……」
 
+#SCRIPT ORIGINAL さっきまで嬉しそうだった笑顔が、一気に泣きべそ顔に変わるひかり。
 さっきまで嬉しそうだった笑顔が、一気に泣きべそ顔に変わるひかり。
 
+#SCRIPT ORIGINAL 無理もない。まだひかりは幼いんだ。
 無理もない。まだひかりは幼いんだ。
 
+#SCRIPT ORIGINAL 家族同然だったみんなに次いで、美雨まで居なくなろうとしているのだから。
 家族同然だったみんなに次いで、美雨まで居なくなろうとしているのだから。
 
+#SCRIPT ORIGINAL 「いちゅ帰ってくゆのっ…？　明日？　明日の明日ッ？」
 ＠Hikari,N00777
 「いちゅ帰ってくゆのっ…？　明日？　明日の明日ッ？」
 
 #@miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「……もっとかかっちゃうわ」
 ＠Miu,B03126
 「……もっとかかっちゃうわ」
 
@@ -438,9 +495,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ぐすッ……一週しゃん……？」
 ＠Hikari,N00778
 「ぐすッ……一週しゃん……？」
 
+#SCRIPT ORIGINAL 「ううん。ごめんね……もっと何年もかかっちゃうの……」
 ＠Miu,B03127
 「ううん。ごめんね……もっと何年もかかっちゃうの……」
 
@@ -467,6 +526,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ひっく、ふぇッ……うぇええぇぇええんッ！」
 ＠Hikari,N00779
 「ひっく、ふぇッ……うぇええぇぇええんッ！」
 
@@ -479,19 +539,25 @@ wait			100
 @bg_white		# 白
 screen_whitein		1
 
+#SCRIPT ORIGINAL その言葉でついにひかりは泣き出し、美雨へ飛び込んだ。
 その言葉でついにひかりは泣き出し、美雨へ飛び込んだ。
 
+#SCRIPT ORIGINAL 「お母しゃん行っちゃヤなのぉッ……ひーちゃんみんなと一緒がいいよぉッ！」
 ＠Hikari,N00780
 「お母しゃん行っちゃヤなのぉッ……ひーちゃんみんなと一緒がいいよぉッ！」
 
+#SCRIPT ORIGINAL 「ぐすッ…ひーちゃん、ずっと良い子にすゆからッ……お母しゃん居なくなやないでぇッ…！」
 ＠Hikari,N00781
 「ぐすッ…ひーちゃん、ずっと良い子にすゆからッ……お母しゃん居なくなやないでぇッ…！」
 
+#SCRIPT ORIGINAL 「……ひーちゃん」
 ＠Miu,B03128
 「……ひーちゃん」
 
+#SCRIPT ORIGINAL 車椅子に座る美雨の膝の上に顔を押しつけてくるひかり。
 車椅子に座る美雨の膝の上に顔を押しつけてくるひかり。
 
+#SCRIPT ORIGINAL そんなひかりを、美雨は優しく撫でてあげた。
 そんなひかりを、美雨は優しく撫でてあげた。
 
 @miu_middle_kuruma
@@ -499,27 +565,35 @@ screen_whitein		1
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 @bg_dining		# 食堂
 
+#SCRIPT ORIGINAL 「うん、寂しいのよね、ひーちゃん……みんなが居なくなって…」
 ＠Miu,B03129
 「うん、寂しいのよね、ひーちゃん……みんなが居なくなって…」
 
+#SCRIPT ORIGINAL 「それでも、私は行かないといけないの……。それが決まりだから」
 ＠Miu,B03130
 「それでも、私は行かないといけないの……。それが決まりだから」
 
+#SCRIPT ORIGINAL 「～～～ッ」
 ＠Hikari,N00782
 「～～～ッ」
 
+#SCRIPT ORIGINAL ひかりはグシグシと押し付けた顔を左右に振った。
 ひかりはグシグシと押し付けた顔を左右に振った。
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「電話は無理だけど、でもお手紙は書くわ。だから、ね……？」
 ＠Miu,B03131
 「電話は無理だけど、でもお手紙は書くわ。だから、ね……？」
 
+#SCRIPT ORIGINAL 「～～～～ッ」
 ＠Hikari,N00783
 「～～～～ッ」
 
+#SCRIPT ORIGINAL 駄々っ子のように、また顔を押し付けてグシグシと擦る。
 駄々っ子のように、また顔を押し付けてグシグシと擦る。
 
+#SCRIPT ORIGINAL 「たくさんお土産を持って……帰ってきてあげるから……」
 ＠Miu,B03132
 「たくさんお土産を持って……帰ってきてあげるから……」
 
@@ -545,6 +619,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「お母しゃんと一緒の方がいいのぉ……！」
 ＠Hikari,N00784
 「お母しゃんと一緒の方がいいのぉ……！」
 
@@ -563,6 +638,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ぐすッ……じぇったい、行かないといけないの……？」
 ＠Hikari,N00785
 「ぐすッ……じぇったい、行かないといけないの……？」
 
@@ -573,14 +649,17 @@ wait		500
 #@miu_kuruma_kanashimi	# 哀（車いす専用）
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「ええ……」
 ＠Miu,B03133
 「ええ……」
 
 #@miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「ひーちゃんが良い子で待っていてくれたら、私も向こうで頑張れるわ」
 ＠Miu,B03134
 「ひーちゃんが良い子で待っていてくれたら、私も向こうで頑張れるわ」
 
+#SCRIPT ORIGINAL 「早く用事を済ませて帰ってくるから……。ね…？」
 ＠Miu,B03135
 「早く用事を済ませて帰ってくるから……。ね…？」
 
@@ -605,6 +684,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「んぐぅっ……お母しゃぁん…ッ」
 ＠Hikari,N00786
 「んぐぅっ……お母しゃぁん…ッ」
 
@@ -615,12 +695,16 @@ wait			100
 @bg_white		# 白
 screen_whitein		1
 
+#SCRIPT ORIGINAL もう一度、美雨の膝に顔を埋めるひかり……
 もう一度、美雨の膝に顔を埋めるひかり……
 
+#SCRIPT ORIGINAL ひかりは寂しがりやで泣き虫な面もあるが、素直で良い子だ。
 ひかりは寂しがりやで泣き虫な面もあるが、素直で良い子だ。
 
+#SCRIPT ORIGINAL 美雨に諭される内に少しずつ納得し、泣き声を静め始めた。
 美雨に諭される内に少しずつ納得し、泣き声を静め始めた。
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
@@ -631,23 +715,30 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 @bg_rouka		# 廊下
 
+#SCRIPT ORIGINAL オレは一言も発せないまま、二人を残してソッと廊下へと出た。
 オレは一言も発せないまま、二人を残してソッと廊下へと出た。
 
+#SCRIPT ORIGINAL （美雨は今日、出頭する……）
 ＠Itsuki
 （美雨は今日、出頭する……）
 
+#SCRIPT ORIGINAL ひかりには戻ってくると言っていたが、おそらくこの場での慰めの言葉だろう。
 ひかりには戻ってくると言っていたが、おそらくこの場での慰めの言葉だろう。
 
+#SCRIPT ORIGINAL （ならオレも、行く準備をしないとな……）
 ＠Itsuki
 （ならオレも、行く準備をしないとな……）
 
+#SCRIPT ORIGINAL この物語は、そんな結末で終わらせてはいけない。
 この物語は、そんな結末で終わらせてはいけない。
 
+#SCRIPT ORIGINAL たとえ三人のハッピーエンドへの道は無くとも、選ぶべき道筋は存在するはずだ。
 たとえ三人のハッピーエンドへの道は無くとも、選ぶべき道筋は存在するはずだ。
 
 #■BG（黒）
 @bg_black
 
+#SCRIPT ORIGINAL オレは一人、自室へと戻って行った。
 オレは一人、自室へと戻って行った。
 
 #■BG（青空）
@@ -659,22 +750,27 @@ wait			2500
 @bg_itsuki		# 自室
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL それからしばらく部屋でペンを動かし作業に没頭していた。
 それからしばらく部屋でペンを動かし作業に没頭していた。
 
+#SCRIPT ORIGINAL 間に昼食を挟んだりもしたが、その後もかなりの時間集中している……
 間に昼食を挟んだりもしたが、その後もかなりの時間集中している……
 
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 wait		500
 
+#SCRIPT ORIGINAL 「よし、出来た……」
 ＠Itsuki
 「よし、出来た……」
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 「樹さん……？　よろしいですか」
 ＠Miu,B03136
 「樹さん……？　よろしいですか」
 
+#SCRIPT ORIGINAL 「ああ、どうぞ」
 ＠Itsuki
 「ああ、どうぞ」
 
@@ -689,25 +785,31 @@ wait		1000
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma		# 普（車いす専用）
 
+#SCRIPT ORIGINAL 「失礼します。お仕事中でしたか……？」
 ＠Miu,B03137
 「失礼します。お仕事中でしたか……？」
 
+#SCRIPT ORIGINAL 「うん、仕事って言うか………それより美雨、それ」
 ＠Itsuki
 「うん、仕事って言うか………それより美雨、それ」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「あ、はい、よければどうぞ。お茶とお菓子をお持ちしました」
 ＠Miu,B03138
 「あ、はい、よければどうぞ。お茶とお菓子をお持ちしました」
 
+#SCRIPT ORIGINAL 「昼食を取られてからずっと部屋で作業をされていたみたいですし」
 ＠Miu,B03139
 「昼食を取られてからずっと部屋で作業をされていたみたいですし」
 
+#SCRIPT ORIGINAL 「ありがとう。でも美雨も大変なんだから、無理しないで」
 ＠Itsuki
 「ありがとう。でも美雨も大変なんだから、無理しないで」
 
 @bg_black
 
+#SCRIPT ORIGINAL 美雨が運んできてくれたティーセットを受け取った。
 美雨が運んできてくれたティーセットを受け取った。
 
 #@miu_small_kuruma
@@ -716,54 +818,69 @@ wait		1000
 @miu_kuruma		# 普（車いす専用）
 @bg_itsuki		# 自室
 
+#SCRIPT ORIGINAL 「お手紙を書かれていたんですか…？」
 ＠Miu,B03140
 「お手紙を書かれていたんですか…？」
 
+#SCRIPT ORIGINAL 「まぁね。みかん達にさ」
 ＠Itsuki
 「まぁね。みかん達にさ」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「電話だとみんな、新しい生活でも元気そうでしたね。安心しました」
 ＠Miu,B03141
 「電話だとみんな、新しい生活でも元気そうでしたね。安心しました」
 
 @miu_kuruma		# 普（車いす専用）
 
+#SCRIPT ORIGINAL 「そういえばかりんちゃんがこの前、樹さんの新しい引っ越し先の住所が知りたいって言ってましたよ」
 ＠Miu,B03142
 「そういえばかりんちゃんがこの前、樹さんの新しい引っ越し先の住所が知りたいって言ってましたよ」
 
+#SCRIPT ORIGINAL 「何だろうな。不幸の手紙でも送ってくる気か……」
 ＠Itsuki
 「何だろうな。不幸の手紙でも送ってくる気か……」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「ふふ。住む場所が決まったら、みんなに連絡をお願いします」
 ＠Miu,B03143
 「ふふ。住む場所が決まったら、みんなに連絡をお願いします」
 
+#SCRIPT ORIGINAL それをわざわざオレに頼む。
 それをわざわざオレに頼む。
 
+#SCRIPT ORIGINAL 美雨はもうその頃には、住所を教えられる状態じゃなくなっているということだろう。
 美雨はもうその頃には、住所を教えられる状態じゃなくなっているということだろう。
 
+#SCRIPT ORIGINAL 「……美雨の紅茶、美味しいな」
 ＠Itsuki
 「……美雨の紅茶、美味しいな」
 
+#SCRIPT ORIGINAL 「これからしばらく飲めなくなると思うと、名残惜しいよ」
 ＠Itsuki
 「これからしばらく飲めなくなると思うと、名残惜しいよ」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「私も……この時間がなくなるのは、すごく寂しいです」
 ＠Miu,B03144
 「私も……この時間がなくなるのは、すごく寂しいです」
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
 @bg_black
 
+#SCRIPT ORIGINAL 手紙をそれぞれ封筒に入れると、オレはお皿の上のクッキーを摘んだ。
 手紙をそれぞれ封筒に入れると、オレはお皿の上のクッキーを摘んだ。
 
+#SCRIPT ORIGINAL これも美雨の手作りだ。
 これも美雨の手作りだ。
 
+#SCRIPT ORIGINAL 最後に、カップの中の紅茶を一気に呷る。
 最後に、カップの中の紅茶を一気に呷る。
 
 #@miu_small_kuruma
@@ -772,30 +889,38 @@ wait		1000
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @bg_itsuki		# 自室
 
+#SCRIPT ORIGINAL 「時間まで何をしようか。三人での思い出作り」
 ＠Itsuki
 「時間まで何をしようか。三人での思い出作り」
 
 @miu_kuruma		# 普（車いす専用）
 
+#SCRIPT ORIGINAL 「そうですね……。お菓子作りなんてどうでしょう」
 ＠Miu,B03145
 「そうですね……。お菓子作りなんてどうでしょう」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「クッキーの作り方を、前からひーちゃんにせがまれていましたから」
 ＠Miu,B03146
 「クッキーの作り方を、前からひーちゃんにせがまれていましたから」
 
+#SCRIPT ORIGINAL 「うん。いいんじゃないかな」
 ＠Itsuki
 「うん。いいんじゃないかな」
 
+#SCRIPT ORIGINAL 「クッキーだけと言わず、後先考えないで色々一緒に作りまくろう」
 ＠Itsuki
 「クッキーだけと言わず、後先考えないで色々一緒に作りまくろう」
 
+#SCRIPT ORIGINAL 「はいっ。今日は全部のメニューを出し尽くします」
 ＠Miu,B03147
 「はいっ。今日は全部のメニューを出し尽くします」
 
+#SCRIPT ORIGINAL する事は決まった。
 する事は決まった。
 
+#SCRIPT ORIGINAL 時間までオレ達は、それぞれの思惑を胸に思い出を積み上げていく。
 時間までオレ達は、それぞれの思惑を胸に思い出を積み上げていく。
 
 bgm_stop
@@ -804,6 +929,7 @@ wait		1000
 #■BG（ひかりの部屋）
 #@bg_hikari		# ひかりの部屋
 
+#SCRIPT ORIGINAL 美雨と一緒に、部屋でお絵かきをしていたひかりに声を掛けた。
 美雨と一緒に、部屋でお絵かきをしていたひかりに声を掛けた。
 
 #@hikari_small
@@ -823,9 +949,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「クッキー作ゆの！？　行く行くーっ！」
 ＠Hikari,N00787
 「クッキー作ゆの！？　行く行くーっ！」
 
+#SCRIPT ORIGINAL 「材料は他に沢山あるから、三人一緒に色々作りましょうね」
 ＠Miu,B03148
 「材料は他に沢山あるから、三人一緒に色々作りましょうね」
 
@@ -838,6 +966,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ！　わぁいッ♪」
 ＠Hikari,N00788
 「うんッ！　わぁいッ♪」
 
@@ -848,10 +977,13 @@ wait		1000
 @bg_kitchen		# キッチン
 @bgm17			#BGM 17 : のんびりのテーマ
 
+#SCRIPT ORIGINAL それからオレ達三人は、キッチンにこもりお菓子作りを楽しんだ。
 それからオレ達三人は、キッチンにこもりお菓子作りを楽しんだ。
 
+#SCRIPT ORIGINAL 正直オレもひかりも素人なので失敗は多かったが、今の目的は思い出作り。
 正直オレもひかりも素人なので失敗は多かったが、今の目的は思い出作り。
 
+#SCRIPT ORIGINAL 失敗したときは笑いあい、成功したときは喜び合う。それで十分だった。
 失敗したときは笑いあい、成功したときは喜び合う。それで十分だった。
 
 @miu_middle_kuruma
@@ -862,9 +994,11 @@ wait		1000
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @hikari_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「お母しゃん、混ぜてゆのトロトロになってきたの」
 ＠Hikari,N00789
 「お母しゃん、混ぜてゆのトロトロになってきたの」
 
+#SCRIPT ORIGINAL 「うん、上手いわよ。じゃあ次はそこに、メレンゲを入れて混ぜるの」
 ＠Miu,B03149
 「うん、上手いわよ。じゃあ次はそこに、メレンゲを入れて混ぜるの」
 
@@ -877,16 +1011,19 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はーい♪　れめんげ、れめんげー」
 ＠Hikari,N00790
 「はーい♪　れめんげ、れめんげー」
 
 @miu_kuruma		# 普（車いす専用）
 
+#SCRIPT ORIGINAL 「樹さん、そちらはどうですか？」
 ＠Miu,B03150
 「樹さん、そちらはどうですか？」
 
 @hikari_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「見てくれ美雨！　噛まずに済むボロボロのホットケーキが出来上がった！」
 ＠Itsuki
 「見てくれ美雨！　噛まずに済むボロボロのホットケーキが出来上がった！」
 
@@ -894,6 +1031,7 @@ layer_movepass_play	l_hikari,0,play_once
 #@miu_kuruma_odoroki	# 驚（車いす専用）
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「あ、あは……えっと、焼きあがるまでにタネを弄りすぎたみたいですね……」
 ＠Miu,B03151
 「あ、あは……えっと、焼きあがるまでにタネを弄りすぎたみたいですね……」
 
@@ -910,23 +1048,28 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ボロボロでも美味ししょうな匂いなのー♪」
 ＠Hikari,N00791
 「ボロボロでも美味ししょうな匂いなのー♪」
 
+#SCRIPT ORIGINAL 「次は甘いのが苦手な人でも食べられる、しょっぱいシュークリームでも作るか」
 ＠Itsuki
 「次は甘いのが苦手な人でも食べられる、しょっぱいシュークリームでも作るか」
 
 @hikari			#普
 @miu_kuruma_odoroki	# 驚（車いす専用）
 
+#SCRIPT ORIGINAL 「あぁあ、樹さんっ。メレンゲにはお塩じゃなく砂糖をお願いします～」
 ＠Miu,B03152
 「あぁあ、樹さんっ。メレンゲにはお塩じゃなく砂糖をお願いします～」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @hikari_warai		#笑
 
+#SCRIPT ORIGINAL どんな工程で何を作っても、その一緒にいる時間がかけがえのない宝物になる。
 どんな工程で何を作っても、その一緒にいる時間がかけがえのない宝物になる。
 
+#SCRIPT ORIGINAL 談笑した数だけ、お菓子の数だけ、過ぎた時間だけ、記憶の中へ刻み付ける。
 談笑した数だけ、お菓子の数だけ、過ぎた時間だけ、記憶の中へ刻み付ける。
 
 #■BG（白）
@@ -938,24 +1081,34 @@ wait			2000
 screen_whitein		100
 wait			100
 
+#SCRIPT ORIGINAL ……オレは過ぎた一年間を振り返っていた。
 ……オレは過ぎた一年間を振り返っていた。
 
+#SCRIPT ORIGINAL ……想像もしていなかった濃い生活と、慌しい日々。
 ……想像もしていなかった濃い生活と、慌しい日々。
 
+#SCRIPT ORIGINAL ……まるで一生分の出来事が、この一年間に凝縮されていたような生活だった。
 ……まるで一生分の出来事が、この一年間に凝縮されていたような生活だった。
 
+#SCRIPT ORIGINAL ……たくさん笑った。
 ……たくさん笑った。
 
+#SCRIPT ORIGINAL ……たくさん苦しんだ。
 ……たくさん苦しんだ。
 
+#SCRIPT ORIGINAL ……たくさん悩んだ。
 ……たくさん悩んだ。
 
+#SCRIPT ORIGINAL ……たくさん努力した。
 ……たくさん努力した。
 
+#SCRIPT ORIGINAL ……そして、たくさん幸せを感じた。
 ……そして、たくさん幸せを感じた。
 
+#SCRIPT ORIGINAL ……もう、未練も後悔もない。
 ……もう、未練も後悔もない。
 
+#SCRIPT ORIGINAL 一生分の苦楽を過ごした一年間の思い出を胸に、オレは生涯の終幕に立つ。
 一生分の苦楽を過ごした一年間の思い出を胸に、オレは生涯の終幕に立つ。
 
 bgm_stop
@@ -964,15 +1117,19 @@ wait		1000
 #■BG（夕焼け）
 @bg_sky_y		# 夕方の空
 
+#SCRIPT ORIGINAL 「……樹さん」
 ＠Miu,B03153
 「……樹さん」
 
+#SCRIPT ORIGINAL 「うん…？」
 ＠Itsuki
 「うん…？」
 
+#SCRIPT ORIGINAL 「何を考えてるんですか……？」
 ＠Miu,B03154
 「何を考えてるんですか……？」
 
+#SCRIPT ORIGINAL 「分からない。色々すぎて、言葉では言えないよ」
 ＠Itsuki
 「分からない。色々すぎて、言葉では言えないよ」
 
@@ -981,8 +1138,10 @@ wait		1000
 @bg_living		# リビング
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL お菓子作りの時間も終わって、オレと美雨は二人で窓から外を眺めている。
 お菓子作りの時間も終わって、オレと美雨は二人で窓から外を眺めている。
 
+#SCRIPT ORIGINAL 時折、前庭で遊ぶひかりが横切るたびに、手を振って答えてあげた。
 時折、前庭で遊ぶひかりが横切るたびに、手を振って答えてあげた。
 
 @miu_small_kuruma
@@ -990,25 +1149,32 @@ wait		1000
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「部屋の中が甘い匂いでいっぱいですね……」
 ＠Miu,B03155
 「部屋の中が甘い匂いでいっぱいですね……」
 
+#SCRIPT ORIGINAL 「明らかに作りすぎだな。食べ残してるし……」
 ＠Itsuki
 「明らかに作りすぎだな。食べ残してるし……」
 
+#SCRIPT ORIGINAL 「でも、楽しかったです」
 ＠Miu,B03156
 「でも、楽しかったです」
 
+#SCRIPT ORIGINAL 「最後に楽しい思い出がたくさん出来て」
 ＠Miu,B03157
 「最後に楽しい思い出がたくさん出来て」
 
 @miu_
 
+#SCRIPT ORIGINAL キィキィと、美雨が車椅子の向きを変えた。
 キィキィと、美雨が車椅子の向きを変えた。
 
+#SCRIPT ORIGINAL 「そろそろ行きますね。未練が出てしまう前に」
 ＠Miu,B03158
 「そろそろ行きますね。未練が出てしまう前に」
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
@@ -1020,166 +1186,212 @@ wait		100
 @miu_kuruma		# 普（車いす専用）
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「……樹さん？」
 ＠Miu,B03159
 「……樹さん？」
 
+#SCRIPT ORIGINAL 車椅子を押さえて、静かに美雨の前へ回り込んだ。
 車椅子を押さえて、静かに美雨の前へ回り込んだ。
 
+#SCRIPT ORIGINAL 「美雨。最後に二つ、頼みを聞いてくれないか」
 ＠Itsuki
 「美雨。最後に二つ、頼みを聞いてくれないか」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「はい……いいですよ、今からで出来る事になってしまいますけど…」
 ＠Miu,B03160
 「はい……いいですよ、今からで出来る事になってしまいますけど…」
 
+#SCRIPT ORIGINAL 「何でしょう……？」
 ＠Miu,B03161
 「何でしょう……？」
 
+#SCRIPT ORIGINAL これから濡れ衣を被ろうと言うのに、美雨は穏やかな微笑みを絶やさない。
 これから濡れ衣を被ろうと言うのに、美雨は穏やかな微笑みを絶やさない。
 
+#SCRIPT ORIGINAL オレは……
 オレは……
 
 bgm_stop
 
+#SCRIPT ORIGINAL 「ひかりのことを、よろしく頼むよ」
 ＠Itsuki
 「ひかりのことを、よろしく頼むよ」
 
 @miu_kuruma		# 普（車いす専用）
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Miu,B03162
 「え……？」
 
+#SCRIPT ORIGINAL 「……あの、それはどういう」
 ＠Miu,B03163
 「……あの、それはどういう」
 
+#SCRIPT ORIGINAL 「一つ目の頼みだよ」
 ＠Itsuki
 「一つ目の頼みだよ」
 
+#SCRIPT ORIGINAL 「警察へは、オレが出頭する」
 ＠Itsuki
 「警察へは、オレが出頭する」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「……ッ！」
 ＠Miu,B03164
 「……ッ！」
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
+#SCRIPT ORIGINAL その言葉に美雨が、息を呑んで身体を強張らせた。
 その言葉に美雨が、息を呑んで身体を強張らせた。
 
 @miu_kuruma_ikari	# 怒（車いす専用）
 
+#SCRIPT ORIGINAL 「な、何を言い出すんですかッ、樹さん！？」
 ＠Miu,B03165
 「な、何を言い出すんですかッ、樹さん！？」
 
+#SCRIPT ORIGINAL 「一連の事件の犯人は私です！　警察もそう捜査して、もう決まっていることなんですッ」
 ＠Miu,B03166
 「一連の事件の犯人は私です！　警察もそう捜査して、もう決まっていることなんですッ」
 
+#SCRIPT ORIGINAL 「あいつらは、自分達の不利にならない犯人なら誰でもいいんだよ」
 ＠Itsuki
 「あいつらは、自分達の不利にならない犯人なら誰でもいいんだよ」
 
+#SCRIPT ORIGINAL 「今日、誠司に話して確認した」
 ＠Itsuki
 「今日、誠司に話して確認した」
 
+#SCRIPT ORIGINAL 「オレが自首をすれば、誠司が内部からそう取り計らってくれるって」
 ＠Itsuki
 「オレが自首をすれば、誠司が内部からそう取り計らってくれるって」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「そ、そんなことをッ……！？」
 ＠Miu,B03167
 「そ、そんなことをッ……！？」
 
 @miu_kuruma_ikari	# 怒（車いす専用）
 
+#SCRIPT ORIGINAL 「ダメですッ、樹さんにそんなのッ！　認められませんッ！」
 ＠Miu,B03168
 「ダメですッ、樹さんにそんなのッ！　認められませんッ！」
 
+#SCRIPT ORIGINAL 「美雨。君はもう十分に苦しんだ。辛い目に遭った」
 ＠Itsuki
 「美雨。君はもう十分に苦しんだ。辛い目に遭った」
 
+#SCRIPT ORIGINAL 「それはオレのせいだから、その罪を今から償いに行くんだよ」
 ＠Itsuki
 「それはオレのせいだから、その罪を今から償いに行くんだよ」
 
+#SCRIPT ORIGINAL 「樹さんのせいじゃありません！　樹さんは被害者じゃないですかッ」
 ＠Miu,B03169
 「樹さんのせいじゃありません！　樹さんは被害者じゃないですかッ」
 
+#SCRIPT ORIGINAL 「オレは美雨の心に、そして身体に傷を負わせた。立派な加害者だ」
 ＠Itsuki
 「オレは美雨の心に、そして身体に傷を負わせた。立派な加害者だ」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「そんな………そんなことで自首なんてッ…」
 ＠Miu,B03170
 「そんな………そんなことで自首なんてッ…」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「私は今まで、たくさんの人を殺めましたッ」
 ＠Miu,B03171
 「私は今まで、たくさんの人を殺めましたッ」
 
+#SCRIPT ORIGINAL 「樹さんのお父さんも、この手にかけているんですッ！」
 ＠Miu,B03172
 「樹さんのお父さんも、この手にかけているんですッ！」
 
+#SCRIPT ORIGINAL 「それは例えどんな事情があろうと、罪として私が償わなければなりませんッ」
 ＠Miu,B03173
 「それは例えどんな事情があろうと、罪として私が償わなければなりませんッ」
 
 @miu_kuruma_ikari	# 怒（車いす専用）
 
+#SCRIPT ORIGINAL 「樹さんッ……お願いですから、バカな真似はやめてくださいっ…！」
 ＠Miu,B03174
 「樹さんッ……お願いですから、バカな真似はやめてくださいっ…！」
 
+#SCRIPT ORIGINAL 「美雨……」
 ＠Itsuki
 「美雨……」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「冗談だって言ってください……樹さんっ…」
 ＠Miu,B03175
 「冗談だって言ってください……樹さんっ…」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「今ならギリギリでまだ………その言葉を、受け止めていませんからッ…」
 ＠Miu,B03176
 「今ならギリギリでまだ………その言葉を、受け止めていませんからッ…」
 
+#SCRIPT ORIGINAL 衝撃から動転、困惑と焦り………
 衝撃から動転、困惑と焦り………
 
+#SCRIPT ORIGINAL そんな様々な感情を理解した先にあるのが、大きな絶望と悲しみというのが分かっているから。
 そんな様々な感情を理解した先にあるのが、大きな絶望と悲しみというのが分かっているから。
 
+#SCRIPT ORIGINAL だから美雨は今、手を震わせながらここで踏みとどまっているのだ……
 だから美雨は今、手を震わせながらここで踏みとどまっているのだ……
 
+#SCRIPT ORIGINAL 「ごめんよ、美雨……」
 ＠Itsuki
 「ごめんよ、美雨……」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「そ、んな……」
 ＠Miu,B03177
 「そ、んな……」
 
+#SCRIPT ORIGINAL オレはもう、美雨を守るという決意を変えるつもりはない。
 オレはもう、美雨を守るという決意を変えるつもりはない。
 
+#SCRIPT ORIGINAL 「……美雨。前にオレが言った事、覚えてる？」
 ＠Itsuki
 「……美雨。前にオレが言った事、覚えてる？」
 
 #@miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「例え国だろうが世界だろうが敵に回しても、美雨と天秤にかけるなんて出来ない」
 ＠Itsuki
 「例え国だろうが世界だろうが敵に回しても、美雨と天秤にかけるなんて出来ない」
 
+#SCRIPT ORIGINAL 「……オレは美雨を守りたいんだ」
 ＠Itsuki
 「……オレは美雨を守りたいんだ」
 
 bgm_stop
 @bg_black
 
+#SCRIPT ORIGINAL 「あっ……！」
 ＠Miu,B03178
 「あっ……！」
 
+#SCRIPT ORIGINAL オレは美雨に背を向け、ゆっくりと歩き出した。
 オレは美雨に背を向け、ゆっくりと歩き出した。
 
+#SCRIPT ORIGINAL 背後で息を呑む美雨。
 背後で息を呑む美雨。
 
 #@bg_living		# リビング
 
+#SCRIPT ORIGINAL 「樹さんッ……私でも、同じ事が出来ますかッ！」
 ＠Miu,B03179
 「樹さんッ……私でも、同じ事が出来ますかッ！」
 
@@ -1189,10 +1401,13 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
+#SCRIPT ORIGINAL その瞬間、風を切るような音と共に頬に痛みが走った。
 その瞬間、風を切るような音と共に頬に痛みが走った。
 
+#SCRIPT ORIGINAL 放たれた果物ナイフが頬をかすめていた。
 放たれた果物ナイフが頬をかすめていた。
 
+#SCRIPT ORIGINAL オレは静かに、美雨の方へと振り返る……
 オレは静かに、美雨の方へと振り返る……
 
 @miu_small_kuruma
@@ -1200,68 +1415,88 @@ se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 @miu_kuruma_ikari	# 怒（車いす専用）
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「樹さんが本気でしたら……私も本気で樹さんを止めますッ…」
 ＠Miu,B03180
 「樹さんが本気でしたら……私も本気で樹さんを止めますッ…」
 
+#SCRIPT ORIGINAL 「樹さんが守ると言ってくださった私自身も、樹さんの敵に回りますからッ」
 ＠Miu,B03181
 「樹さんが守ると言ってくださった私自身も、樹さんの敵に回りますからッ」
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
 @bgm05			#BGM 05 : 悲しいシーンの曲
 
+#SCRIPT ORIGINAL 瞳に涙を滲ませた、激しい美雨の怒りだった。
 瞳に涙を滲ませた、激しい美雨の怒りだった。
 
+#SCRIPT ORIGINAL 自分のことでオレを犠牲にさせたくないと言う、想いのこもった怒り……
 自分のことでオレを犠牲にさせたくないと言う、想いのこもった怒り……
 
+#SCRIPT ORIGINAL 「そう……」
 ＠Itsuki
 「そう……」
 
+#SCRIPT ORIGINAL 「本気、ですよッ……」
 ＠Miu,B03182
 「本気、ですよッ……」
 
+#SCRIPT ORIGINAL でも、想いが分かるから、オレは美雨の怒りを前にしても冷静でいられた。
 でも、想いが分かるから、オレは美雨の怒りを前にしても冷静でいられた。
 
+#SCRIPT ORIGINAL 逆に嬉しくさえ思う。
 逆に嬉しくさえ思う。
 
+#SCRIPT ORIGINAL 「美雨。もしこのナイフが、オレじゃなくて美雨自身に向けられていたものだとしたら」
 ＠Itsuki
 「美雨。もしこのナイフが、オレじゃなくて美雨自身に向けられていたものだとしたら」
 
+#SCRIPT ORIGINAL 「オレが思いとどまっていたのは、分かっていたはずだ」
 ＠Itsuki
 「オレが思いとどまっていたのは、分かっていたはずだ」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「……ッ！」
 ＠Miu,B03183
 「……ッ！」
 
+#SCRIPT ORIGINAL 「でも美雨は、そんな強引な解決策より、オレを納得させようとしてくれたね」
 ＠Itsuki
 「でも美雨は、そんな強引な解決策より、オレを納得させようとしてくれたね」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「だって、それは………そんな事をしても樹さんは……」
 ＠Miu,B03184
 「だって、それは………そんな事をしても樹さんは……」
 
+#SCRIPT ORIGINAL 「きっと、後々抵抗して、ひかりとおとなしく過ごすような事はないだろうな……」
 ＠Itsuki
 「きっと、後々抵抗して、ひかりとおとなしく過ごすような事はないだろうな……」
 
+#SCRIPT ORIGINAL 「だから美雨は自分のことより、ひかりの事を案じてくれた」
 ＠Itsuki
 「だから美雨は自分のことより、ひかりの事を案じてくれた」
 
+#SCRIPT ORIGINAL さっきのが、今の美雨が取れる最後の手段だったはずだ。
 さっきのが、今の美雨が取れる最後の手段だったはずだ。
 
+#SCRIPT ORIGINAL そしてオレはそれも振り切って、美雨に背を向ける。
 そしてオレはそれも振り切って、美雨に背を向ける。
 
 #■BG（黒）
 @bg_black
 
+#SCRIPT ORIGINAL 「い、いや……樹さんッ！！」
 ＠Miu,B03185
 「い、いや……樹さんッ！！」
 
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
+#SCRIPT ORIGINAL 「いやぁッ、待ってッ！　行かないで樹さんッ！！」
 ＠Miu,B03186
 「いやぁッ、待ってッ！　行かないで樹さんッ！！」
 
@@ -1270,6 +1505,7 @@ se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 @SE27			#SE27　倒れる音（ドサッ）
 wait		500
 
+#SCRIPT ORIGINAL 身を乗り出した美雨はバランスを崩し、床へと投げ出された。
 身を乗り出した美雨はバランスを崩し、床へと投げ出された。
 
 #素材なし：ＥＶ
@@ -1281,79 +1517,102 @@ wait		500
 @bg_living		# リビング
 #--------------------------------------------------
 
+#SCRIPT ORIGINAL 「どうしてッ……！」
 ＠Miu,B03187
 「どうしてッ……！」
 
+#SCRIPT ORIGINAL 「どうして私とひーちゃんを置いていくんですかッ！」
 ＠Miu,B03188
 「どうして私とひーちゃんを置いていくんですかッ！」
 
 @miu_kanashimi2		#閉_哀
 
+#SCRIPT ORIGINAL 「樹さんは何も悪くないッ……全部、私が犯したことなのにぃッ！」
 ＠Miu,B03189
 「樹さんは何も悪くないッ……全部、私が犯したことなのにぃッ！」
 
+#SCRIPT ORIGINAL もう取れる手段もない、悲愴な声がオレの鼓膜を打ちつける。
 もう取れる手段もない、悲愴な声がオレの鼓膜を打ちつける。
 
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「お願いしますッ、樹さん！　私を庇って自首なんて、バカな真似は止めてくださいッ！」
 ＠Miu,B03190
 「お願いしますッ、樹さん！　私を庇って自首なんて、バカな真似は止めてくださいッ！」
 
+#SCRIPT ORIGINAL 「穢れてる私なんか……ひーちゃんの側にいる資格なんてないんですッ」
 ＠Miu,B03191
 「穢れてる私なんか……ひーちゃんの側にいる資格なんてないんですッ」
 
+#SCRIPT ORIGINAL 「美雨。君は穢れてなんかいない」
 ＠Itsuki
 「美雨。君は穢れてなんかいない」
 
+#SCRIPT ORIGINAL 「ずっと淀んだ世界で自分を顧みてたから、そう見えていただけだよ」
 ＠Itsuki
 「ずっと淀んだ世界で自分を顧みてたから、そう見えていただけだよ」
 
+#SCRIPT ORIGINAL 「だから、そんな世界に君を置いてしまったオレが、全ての罪を償うべきなんだ」
 ＠Itsuki
 「だから、そんな世界に君を置いてしまったオレが、全ての罪を償うべきなんだ」
 
 @miu_kanashimi2		#閉_哀
 
+#SCRIPT ORIGINAL 「分かりませんッ、そんな勝手な理屈！　分かりたくないッ！」
 ＠Miu,B03192
 「分かりませんッ、そんな勝手な理屈！　分かりたくないッ！」
 
+#SCRIPT ORIGINAL 「私はただ………ただッ……」
 ＠Miu,B03193
 「私はただ………ただッ……」
 
+#SCRIPT ORIGINAL 「樹さんとひーちゃんが大好きで、何よりも大事なだけなのにぃッ…！」
 ＠Miu,B03194
 「樹さんとひーちゃんが大好きで、何よりも大事なだけなのにぃッ…！」
 
+#SCRIPT ORIGINAL 「美雨……」
 ＠Itsuki
 「美雨……」
 
+#SCRIPT ORIGINAL 結局、オレのしていることは、自己満足でしかないのかもしれない。
 結局、オレのしていることは、自己満足でしかないのかもしれない。
 
+#SCRIPT ORIGINAL こうして美雨を悲しませ、泣かせているオレ。
 こうして美雨を悲しませ、泣かせているオレ。
 
+#SCRIPT ORIGINAL 誰にだって、日陰ではなく、日向の人生を歩む権利があって当然じゃないか。
 誰にだって、日陰ではなく、日向の人生を歩む権利があって当然じゃないか。
 
+#SCRIPT ORIGINAL 「これからはひかりと、この淀んだ世界を出て、澄んだ世界を歩んでほしい」
 ＠Itsuki
 「これからはひかりと、この淀んだ世界を出て、澄んだ世界を歩んでほしい」
 
+#SCRIPT ORIGINAL 「美雨ならもっと楽しい事、嬉しい事、幸せな事を、たくさん見つけられるはずだ」
 ＠Itsuki
 「美雨ならもっと楽しい事、嬉しい事、幸せな事を、たくさん見つけられるはずだ」
 
+#SCRIPT ORIGINAL 「それがオレの、二つ目のお願いだよ」
 ＠Itsuki
 「それがオレの、二つ目のお願いだよ」
 
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「そんな……いやですッ……」
 ＠Miu,B03195
 「そんな……いやですッ……」
 
+#SCRIPT ORIGINAL 「そんなお願いなんて聞けませんッ、樹さんッ！　行かないでぇッ！」
 ＠Miu,B03196
 「そんなお願いなんて聞けませんッ、樹さんッ！　行かないでぇッ！」
 
 @bg_black
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
+#SCRIPT ORIGINAL 「あッ……」
 ＠Miu,B03197
 「あッ……」
 
+#SCRIPT ORIGINAL 届かぬと思った美雨の手が、オレのズボンの裾を掴んでいた。
 届かぬと思った美雨の手が、オレのズボンの裾を掴んでいた。
 
 @miu_large		# 近い
@@ -1361,14 +1620,17 @@ wait		500
 @miu_kanashimi2		#閉_哀
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「樹さん……幸せになってくださいッ、私なんていいですから…」
 ＠Miu,B03198
 「樹さん……幸せになってくださいッ、私なんていいですから…」
 
+#SCRIPT ORIGINAL 「心配ないよ、美雨。オレは今、すごく幸せだから」
 ＠Itsuki
 「心配ないよ、美雨。オレは今、すごく幸せだから」
 
 @bg_black
 
+#SCRIPT ORIGINAL 腰をかがめると、オレはその美雨の手にキスをして、ズボンの裾からそっと離した。
 腰をかがめると、オレはその美雨の手にキスをして、ズボンの裾からそっと離した。
 
 @miu_large		# 近い
@@ -1376,36 +1638,47 @@ wait		500
 @miu_kanashimi		#開_哀
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「大好きだ。美雨」
 ＠Itsuki
 「大好きだ。美雨」
 
+#SCRIPT ORIGINAL 「ッ、いつき……さっ……」
 ＠Miu,B03199
 「ッ、いつき……さっ……」
 
+#SCRIPT ORIGINAL 「それじゃあ、元気で」
 ＠Itsuki
 「それじゃあ、元気で」
 
 @bg_black
 
+#SCRIPT ORIGINAL 再び美雨に背を向け、オレはリビングを後にする。
 再び美雨に背を向け、オレはリビングを後にする。
 
+#SCRIPT ORIGINAL 「―――ッ！？　い、樹さんッ……」
 ＠Miu,B03200
 「―――ッ！？　い、樹さんッ……」
 
 @SE06			#部屋のドア開く音（ガチャ）
 
+#SCRIPT ORIGINAL リビングのドアを開けて、廊下に一歩を足を踏み出す。
 リビングのドアを開けて、廊下に一歩を足を踏み出す。
 
+#SCRIPT ORIGINAL 「いやッ、いやあぁぁ………行かないで、樹さんッ……樹さんッ…」
 ＠Miu,B03201
 「いやッ、いやあぁぁ………行かないで、樹さんッ……樹さんッ…」
 
+#SCRIPT ORIGINAL 「……っ」
 ＠Itsuki
 「……っ」
 
+#SCRIPT ORIGINAL 美雨の哀しみに沈んだ声で、オレは咄嗟に背中越しに口を開く。
 美雨の哀しみに沈んだ声で、オレは咄嗟に背中越しに口を開く。
 
+#SCRIPT ORIGINAL ……が、
 ……が、
 
+#SCRIPT ORIGINAL 「いつき…さん……」
 ＠Miu,B03202
 「いつき…さん……」
 
@@ -1417,13 +1690,17 @@ bgm_stop
 #@bg_black
 @bg_rouka		# 廊下
 
+#SCRIPT ORIGINAL 何も言葉を発することなく、リビングのドアを閉じた。
 何も言葉を発することなく、リビングのドアを閉じた。
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
+#SCRIPT ORIGINAL その直後、リビングから聞こえる美雨の慟哭を、ドアの前にたたずんで耳に残す。
 その直後、リビングから聞こえる美雨の慟哭を、ドアの前にたたずんで耳に残す。
 
+#SCRIPT ORIGINAL それが声の枯れそうな嗚咽になるまで、その場でオレはジッと立っていた。
 それが声の枯れそうな嗚咽になるまで、その場でオレはジッと立っていた。
 
 @bg_black
@@ -1433,6 +1710,7 @@ wait		1000
 #■BG（庭／施設外観）
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL 外に出ると、遊んでいたひかりがオレの姿を見て寄って来た。
 外に出ると、遊んでいたひかりがオレの姿を見て寄って来た。
 
 @hikari_small		# 遠い
@@ -1440,9 +1718,11 @@ wait		1000
 @hikari			#普
 @bg_gate_y		# 孤児院前(夕方)
 
+#SCRIPT ORIGINAL 「…？　お父しゃん、お出かけすゆのっ？」
 ＠Hikari,N00792
 「…？　お父しゃん、お出かけすゆのっ？」
 
+#SCRIPT ORIGINAL 「ああ、ちょっと遠くに出かけてくる。しばらく帰って来れないな……」
 ＠Itsuki
 「ああ、ちょっと遠くに出かけてくる。しばらく帰って来れないな……」
 
@@ -1455,9 +1735,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ふぇぇッ……帰ららいのッ！？　ぐすッ…お父しゃんまで居なくなっちゃうのぉッ…！」
 ＠Hikari,N00793
 「ふぇぇッ……帰ららいのッ！？　ぐすッ…お父しゃんまで居なくなっちゃうのぉッ…！」
 
+#SCRIPT ORIGINAL 「代わりに美雨が居てくれるよ。ずっと」
 ＠Itsuki
 「代わりに美雨が居てくれるよ。ずっと」
 
@@ -1476,21 +1758,26 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「えうぅッ……どっちも居なくなるのがやぁなのぉッ！」
 ＠Hikari,N00794
 「えうぅッ……どっちも居なくなるのがやぁなのぉッ！」
 
 @hikari_naki		#泣
 
+#SCRIPT ORIGINAL 「ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいよぉッ…！　ふえぇぇええんッ！」
 ＠Hikari,N00795
 「ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいよぉッ…！　ふえぇぇええんッ！」
 
 @hikari_
 
+#SCRIPT ORIGINAL 「はは……甘えんぼさんだなぁ、ひかりは」
 ＠Itsuki
 「はは……甘えんぼさんだなぁ、ひかりは」
 
+#SCRIPT ORIGINAL また寂しくて泣き出してしまったひかりの前に屈み、視線を合わせる。
 また寂しくて泣き出してしまったひかりの前に屈み、視線を合わせる。
 
+#SCRIPT ORIGINAL 「ひかりが笑っていてくれないと、中々帰って来られなくなっちゃうよ」
 ＠Itsuki
 「ひかりが笑っていてくれないと、中々帰って来られなくなっちゃうよ」
 
@@ -1521,12 +1808,15 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ひっく、ぐしゅッ……ん、ひーちゃん、泣いてゆとダメなの……？」
 ＠Hikari,N00796
 「ひっく、ぐしゅッ……ん、ひーちゃん、泣いてゆとダメなの……？」
 
+#SCRIPT ORIGINAL 「そうだよ。ひかりが強い子でいてくれたら、オレも早く戻って来られるんだ」
 ＠Itsuki
 「そうだよ。ひかりが強い子でいてくれたら、オレも早く戻って来られるんだ」
 
+#SCRIPT ORIGINAL 「だから、ほら。笑顔になって」
 ＠Itsuki
 「だから、ほら。笑顔になって」
 
@@ -1556,9 +1846,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「んぐっ……ひっく、うん……だったらひーちゃん、泣からいの…」
 ＠Hikari,N00797
 「んぐっ……ひっく、うん……だったらひーちゃん、泣からいの…」
 
+#SCRIPT ORIGINAL 「ははっ、よし。良い子だ。今ので少し帰るのが早くなったぞ」
 ＠Itsuki
 「ははっ、よし。良い子だ。今ので少し帰るのが早くなったぞ」
 
@@ -1588,19 +1880,23 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ぐすッ、すんっ……うん！　ちゅよい子になるの…」
 ＠Hikari,N00798
 「ぐすッ、すんっ……うん！　ちゅよい子になるの…」
 
+#SCRIPT ORIGINAL 「それじゃあ。元気でな、ひかり」
 ＠Itsuki
 「それじゃあ。元気でな、ひかり」
 
 bgm_stop
 @bg_white		# 白
 
+#SCRIPT ORIGINAL 頭を撫でると、前髪を上げたその額にキスをして、オレは立ち上がった。
 頭を撫でると、前髪を上げたその額にキスをして、オレは立ち上がった。
 
 @bg_gate_y		# 孤児院前(夕方)
 
+#SCRIPT ORIGINAL 「美雨が中で寂しがっているんだ。慰めてあげてくれるかい？」
 ＠Itsuki
 「美雨が中で寂しがっているんだ。慰めてあげてくれるかい？」
 
@@ -1618,6 +1914,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「…うん！　お母しゃんも、笑ってゆのがいいの……」
 ＠Hikari,N00799
 「…うん！　お母しゃんも、笑ってゆのがいいの……」
 
@@ -1632,6 +1929,7 @@ event		"event\EV_HIK_020-00.png"
 screen_whitein		1500
 wait			1500
 
+#SCRIPT ORIGINAL 「あ……」
 ＠Itsuki
 「あ……」
 
@@ -1645,6 +1943,7 @@ wait		100
 @hikari_tere		#照
 @bg_gate_y		# 孤児院前(夕方)
 
+#SCRIPT ORIGINAL 「お父しゃん、早く帰ってきてね……！」
 ＠Hikari,N00800
 「お父しゃん、早く帰ってきてね……！」
 
@@ -1653,8 +1952,10 @@ wait		500
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
 
+#SCRIPT ORIGINAL 少し照れたような笑顔を見せて、ひかりは美雨の元へと元気に走っていく。
 少し照れたような笑顔を見せて、ひかりは美雨の元へと元気に走っていく。
 
+#SCRIPT ORIGINAL そんな後ろ姿に目を細めると、ジワリと視界が滲んでしまった。
 そんな後ろ姿に目を細めると、ジワリと視界が滲んでしまった。
 
 #一拍
@@ -1665,20 +1966,26 @@ wait		1000
 #@bg_jyuutakugai	# 住宅街
 @bg_jyuutakugai_y	# 住宅街 (夕方) 
 
+#SCRIPT ORIGINAL 施設を出て最後の用事、書き上げた手紙をポストへ入れて、オレは息を吐いた。
 施設を出て最後の用事、書き上げた手紙をポストへ入れて、オレは息を吐いた。
 
+#SCRIPT ORIGINAL 「ふぅ……」
 ＠Itsuki
 「ふぅ……」
 
+#SCRIPT ORIGINAL 「終わったのか……」
 ＠Itsuki
 「終わったのか……」
 
 @bgm17			#BGM 17 : のんびりのテーマ
 
+#SCRIPT ORIGINAL やるべき事は全てやった。
 やるべき事は全てやった。
 
+#SCRIPT ORIGINAL 後は町へ出て、警察署で事情を話せば全てが終わる。
 後は町へ出て、警察署で事情を話せば全てが終わる。
 
+#SCRIPT ORIGINAL その先のことは、正直、考えても想像はつかなかった。
 その先のことは、正直、考えても想像はつかなかった。
 
 #--------------------------------------------------
@@ -1693,15 +2000,20 @@ screen_whitein		1000
 wait			1000
 #--------------------------------------------------
 
+#SCRIPT ORIGINAL 「色んなことがあった一年だったな……」
 ＠Itsuki
 「色んなことがあった一年だったな……」
 
+#SCRIPT ORIGINAL オレは唯一つの持ち物、思い出の写真をポケットから出して見つめていた。
 オレは唯一つの持ち物、思い出の写真をポケットから出して見つめていた。
 
+#SCRIPT ORIGINAL そこに写っている人達はみんな、離れ離れになった、今もかけがえのない大事な家族だ。
 そこに写っている人達はみんな、離れ離れになった、今もかけがえのない大事な家族だ。
 
+#SCRIPT ORIGINAL みんなそれぞれの道を歩んで、幸せに暮らしてほしいと願う。
 みんなそれぞれの道を歩んで、幸せに暮らしてほしいと願う。
 
+#SCRIPT ORIGINAL 「それじゃあみんな、行ってくるよ」
 ＠Itsuki
 「それじゃあみんな、行ってくるよ」
 
@@ -1710,19 +2022,26 @@ wait			1000
 #@SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 @bg_sky_y		# 夕方の空
 
+#SCRIPT ORIGINAL 挨拶を残してオレは空を見上げた。
 挨拶を残してオレは空を見上げた。
 
+#SCRIPT ORIGINAL 何があろうと、みんなとの思い出があれば、心が折れることなんてない。
 何があろうと、みんなとの思い出があれば、心が折れることなんてない。
 
+#SCRIPT ORIGINAL だからこそオレは言える。
 だからこそオレは言える。
 
+#SCRIPT ORIGINAL 誰が何と言おうと、みんなと過ごしたこの一年間は、最高に幸せで満たされた日々だったと。
 誰が何と言おうと、みんなと過ごしたこの一年間は、最高に幸せで満たされた日々だったと。
 
+#SCRIPT ORIGINAL これからの事の不安も、その気持ちで一掃された。
 これからの事の不安も、その気持ちで一掃された。
 
+#SCRIPT ORIGINAL 「さぁ、行こうか」
 ＠Itsuki
 「さぁ、行こうか」
 
+#SCRIPT ORIGINAL たくさんの思い出を持って、オレは物語の終点へと踏み出した。
 たくさんの思い出を持って、オレは物語の終点へと踏み出した。
 
 window_close

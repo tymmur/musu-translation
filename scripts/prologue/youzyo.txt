@@ -18,6 +18,7 @@ window_close
 #if sel=4 then goto endloop
 
 #"プロローグ1","プロローグ2","プロローグ3","プロローグ4","スケジュール","調教（テスト）","エンド"
+#SCRIPT ORIGINAL select sel,"プロローグ1","プロローグ2","プロローグ3","プロローグ4","スケジュール","調教（テスト）","エンド"
 select sel,"Prologue 1","Prologue 2","Prologue 3","Prologue 4","Schedule","Training（test）","End"
 if sel=0 then goto youzyo_00
 if sel=1 then goto youzyo2_00
@@ -51,28 +52,34 @@ wait		1000
 event		"event\ev_miu_010-00.png"
 
 #「お父さんっ。これ見て！」
+#SCRIPT ORIGINAL 「お父さんっ。これ見て！」
 ＠Itsuki
 「Dad, look at this!」
 
 #「樹……あまりここには来るなと言ってるだろ？」
+#SCRIPT ORIGINAL 「樹……あまりここには来るなと言ってるだろ？」
 ＠Father,X00000
 「Itsuki... don't I keep telling you not to come in here?」
 
 #「見てよ、このテスト、九十二点！　クラスで三人だけなんだよ、九十点取ってるの！」
+#SCRIPT ORIGINAL 「見てよ、このテスト、九十二点！　クラスで三人だけなんだよ、九十点取ってるの！」
 ＠Itsuki
 「Look, I scored a 92 on my test! Only three kids in my class scored a 90!」
 
 #「九十二？　この前は九十八だと言って喜んでいたな。下がってるじゃないか」
+#SCRIPT ORIGINAL 「九十二？　この前は九十八だと言って喜んでいたな。下がってるじゃないか」
 ＠Father,X00001
 「A 92? Last time you were so proud of yourself when you a got 98. It went down didn’t it...」
 
 event_fast	"event\ev_miu_010-01.png"
 
 #「で、でもっ、このテスト、難しかったんだ。それにこの問題見てよ、もうちょっとで……」
+#SCRIPT ORIGINAL 「で、でもっ、このテスト、難しかったんだ。それにこの問題見てよ、もうちょっとで……」
 ＠Itsuki
 「B-but, this test was hard. Look at this problem right here, I almost got it...」
 
 #「分かった分かった、あとで見てやるから。今は忙しいんだ」
+#SCRIPT ORIGINAL 「分かった分かった、あとで見てやるから。今は忙しいんだ」
 ＠Father,X00002
 「Fine, fine. I’ll look at it later. I’m busy right now」
 
@@ -89,6 +96,7 @@ event		"event\ev_miu_010-02.png"
 setbutton 2,18,220,0,"TLnotes\TLnote2.png","system\backlog\voicesw.png"
 
 #「院長先生………今日汚れた部屋の掃除、終わりました……」
+#SCRIPT ORIGINAL 「院長先生………今日汚れた部屋の掃除、終わりました……」
 ＠Miu,B00000
 「Inchou-sensei... I finished cleaning the dirty rooms from today...」
 
@@ -96,14 +104,17 @@ clearbutton
 #TL note 2: Inchou is a title meaning "Institute leader".
 
 #「あ………」
+#SCRIPT ORIGINAL 「あ………」
 ＠Itsuki
 「Ah...」
 
 #「もう終わったのか、早いな。ちょうどいい。美雨、また樹と遊んでやっててくれないか」
+#SCRIPT ORIGINAL 「もう終わったのか、早いな。ちょうどいい。美雨、また樹と遊んでやっててくれないか」
 ＠Father,X00003
 「You're already done? That was fast. Perfect timing. Miu, could you play with Itsuki again?」
 
 #「中には入るな、外で遊べ。分かってると思うが、外といっても施設の敷地から外には出るなよ？」
+#SCRIPT ORIGINAL 「中には入るな、外で遊べ。分かってると思うが、外といっても施設の敷地から外には出るなよ？」
 ＠Father,X00004
 「Don't come in here, play outside. Also I'm sure you know by now, but don't leave the institution property」
 
@@ -114,66 +125,79 @@ se	0,	"sound\se\足音_絨毯男性.wav",	play_once
 event		"event\ev_miu_010-03.png"
 
 #「あ、お父さん！　待ってよ！」
+#SCRIPT ORIGINAL 「あ、お父さん！　待ってよ！」
 ＠Itsuki
 「Ah, Dad! Wait!」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「入っちゃダメ！　樹くん、外で遊ぼうよ……」
+#SCRIPT ORIGINAL 「入っちゃダメ！　樹くん、外で遊ぼうよ……」
 ＠Miu,B00001
 「You can't go in there! Itsuki-kun, let’s play outside...」
 
 event_fast	"event\ev_miu_010-04.png"
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「……分かったから、袖を離してよ。美雨の服についてるその変なのが、僕の服にもついちゃってる」
+#SCRIPT ORIGINAL 「……分かったから、袖を離してよ。美雨の服についてるその変なのが、僕の服にもついちゃってる」
 ＠Itsuki
 「...Fine I get it, so let go of my sleeve. This weird stuff stuck on your clothes, it’s stuck on mine now too」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「あ、ごめん………」
+#SCRIPT ORIGINAL 「あ、ごめん………」
 ＠Miu,B00002
 「Oh, sorry...」
 
 event_fast	"event\ev_miu_010-04.png"
 
 #「別にいいけど。何、これ……白くて、粘っこい……のり？」
+#SCRIPT ORIGINAL 「別にいいけど。何、これ……白くて、粘っこい……のり？」
 ＠Itsuki
 「I don't really mind, but... what is this?  White, sticky... glue?」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「そ、それは………えっと、ごめん……」
+#SCRIPT ORIGINAL 「そ、それは………えっと、ごめん……」
 ＠Miu,B00003
 「T-that is... er, sorry...」
 
 event_fast	"event\ev_miu_010-04.png"
 
 #「また僕には内緒なんだ。お父さんに言われたから……？」
+#SCRIPT ORIGINAL 「また僕には内緒なんだ。お父さんに言われたから……？」
 ＠Itsuki
 「Nobody wants to tell me anything. Is it because Dad told you not to...?」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Miu,B00004
 「......」
 
 #お父さんは、僕のお父さんなのに………
+#SCRIPT ORIGINAL お父さんは、僕のお父さんなのに………
 　Dad... you're my father but...
 
 #どうしてこの子達ばっかり。
+#SCRIPT ORIGINAL どうしてこの子達ばっかり。
 　Why are you with these kids all the time?
 
 #「今日はもう、帰る。他の友達と遊ぶから」
+#SCRIPT ORIGINAL 「今日はもう、帰る。他の友達と遊ぶから」
 ＠Itsuki
 「I'm going back for today. I’ll play with my other friends」
 
 event_fast	"event\ev_miu_010-05.png"
 
 #「えっ、そんな……樹くんっ」
+#SCRIPT ORIGINAL 「えっ、そんな……樹くんっ」
 ＠Miu,B00005
 「Huh, no way... Itsuki-kun」
 
@@ -183,6 +207,7 @@ se	0,	"sound\se\足音_学校廊下女性（駆け足）.wav",	play_once
 event		"event\ev_miu_010-06.png"
 
 #「樹くん………」
+#SCRIPT ORIGINAL 「樹くん………」
 ＠Miu,B00006
 「Itsuki-kun...」
 
@@ -190,6 +215,7 @@ event_fast	"cg\black.png"
 #screen_blackout		4000
 
 #「……ヤダよ、樹くん。一人にしないで………」
+#SCRIPT ORIGINAL 「……ヤダよ、樹くん。一人にしないで………」
 ＠Miu,B00007
 「...Please don't, Itsuki-kun. Don't go off by yourself......」
 
@@ -260,20 +286,25 @@ wait			2000
 voice_bg		b90004
 
 #「はあぁうッ、あはぁッ！　もっと動いて、樹くん……！　深くまでッ、あッ！　ひゃぁあうんッ！！」
+#SCRIPT ORIGINAL 「はあぁうッ、あはぁッ！　もっと動いて、樹くん……！　深くまでッ、あッ！　ひゃぁあうんッ！！」
 ＠Miu,B00008
 「Haau, ahaa! Keep going, Itsuki-kun...! Deeper, Ah! Hyaaun!!」
 
 #「もらってほしぃのッ、美雨の初めてぇ……ッ！　はあぁッ、んぁあうッ……樹くんにぃ……ッ！」
+#SCRIPT ORIGINAL 「もらってほしぃのッ、美雨の初めてぇ……ッ！　はあぁッ、んぁあうッ……樹くんにぃ……ッ！」
 ＠Miu,B00009
 「I want to give my first time to you...! Haaa, nhaau... Itsuki-kun...!」
 
 #初めての感触。
+#SCRIPT ORIGINAL 初めての感触。
 　My first time feeling this.
 
 #初めて見る、女の子の身体。
+#SCRIPT ORIGINAL 初めて見る、女の子の身体。
 　My first time seeing a girl’s body.
 
 #それは想像していたよりも柔らかくて、綺麗で、そして……淫らに気持ちよくて。
+#SCRIPT ORIGINAL それは想像していたよりも柔らかくて、綺麗で、そして……淫らに気持ちよくて。
 　It's more soft and pretty than I ever imagined, and... it feels so good it's criminal.
 
 se			1,"sound\se\zuba.wav",	play_once
@@ -282,6 +313,7 @@ layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,-100,-100
 
 #「っく！　うぅぅッ、出るッ、美雨……！！」
+#SCRIPT ORIGINAL 「っく！　うぅぅッ、出るッ、美雨……！！」
 ＠Itsuki
 「Ugh! Uuuh, I’m cumming, Miu...!!」
 
@@ -291,6 +323,7 @@ layer_scale		0,100,40,40,50,50,passtype_tcb
 layer_position_set	0,100,100
 
 #「んくふぅッ！　はあっ、あぁう！　うん、いいのっ、出して！」
+#SCRIPT ORIGINAL 「んくふぅッ！　はあっ、あぁう！　うん、いいのっ、出して！」
 ＠Miu,B00010
 「Guha! Haa, aauh! Yes, go ahead, cum!」
 
@@ -302,6 +335,7 @@ layer_position_set	0,-100,-100
 #event "event\ev_miu_020-01.png"
 
 #「全部、出していいんだよ……んぅッ！　ひゃあふ！　お腹の中に、いっぱいにぃ……ッ！」
+#SCRIPT ORIGINAL 「全部、出していいんだよ……んぅッ！　ひゃあふ！　お腹の中に、いっぱいにぃ……ッ！」
 ＠Miu,B00011
 「Let it all out... hn! Hyaa, fah! Fill up my belly...!」 
 
@@ -311,6 +345,7 @@ layer_scale	0,100,60,60,70,70,passtype_tcb
 layer_position_set	0,100,100
 
 #「美雨は……ッ、他の人のなんか……くひぅッ、んんはあ！　ほしくないのぉ……！」
+#SCRIPT ORIGINAL 「美雨は……ッ、他の人のなんか……くひぅッ、んんはあ！　ほしくないのぉ……！」
 ＠Miu,B00012
 「I don't want to be with anyone else... higuh, mmhaa! ...but you...」
 
@@ -318,13 +353,16 @@ layer_position_set	0,100,100
 if global(110)=0 then  goto	skip_tgver
 
 #「樹くん、出してぇ！　美雨の中に出してぇぇ！！　美雨を樹くんで、いっぱいにしてほしいのぉ…！！」
+#SCRIPT ORIGINAL 「樹くん、出してぇ！　美雨の中に出してぇぇ！！　美雨を樹くんで、いっぱいにしてほしいのぉ…！！」
 ＠Miu,B00022
 「Itsuki-kun, cum! Cum inside of me!! I want to be filled up by you Itsuki-kun...!!」
 
 #美雨の懇願する様な声をオレは遠くに聞いていた。
+#SCRIPT ORIGINAL 美雨の懇願する様な声をオレは遠くに聞いていた。
 　I heard Miu’s pleading voice as if from far away.
 
 #叩きつける様なオレの最後のストローク、射精を悟った美雨の甲高い声が響いていく…。
+#SCRIPT ORIGINAL 叩きつける様なオレの最後のストローク、射精を悟った美雨の甲高い声が響いていく…。
 　I lunge with my last stroke and Miu's shrill voice sensing my ejaculation rings out.
 
 event_fast	"event\ev_miu_020-01.png"
@@ -356,58 +394,74 @@ layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,100
 
 #ドクッ！！　ドククン！！　ビュゥッ、ビュル！！
+#SCRIPT ORIGINAL ドクッ！！　ドククン！！　ビュゥッ、ビュル！！
 　gush!! gush gush!! squirt, splurt!!
 
 #「んあぁぁ！！　ひぁあぁぁああ！！！　イくぅ…っ！！　イっちゃうぅ！！　樹くんで、樹くんで、美雨イっちゃうよぉぉぉぉ！！」
+#SCRIPT ORIGINAL 「んあぁぁ！！　ひぁあぁぁああ！！！　イくぅ…っ！！　イっちゃうぅ！！　樹くんで、樹くんで、美雨イっちゃうよぉぉぉぉ！！」
 ＠Miu,B00023
 「Nhaaaa!! Hyaaaaaaa!!! Cumming!! I’m cumming!! Itsuki-kun, you're making me cum!!」
 
 #「うぐ…、うあ…っ！！」
+#SCRIPT ORIGINAL 「うぐ…、うあ…っ！！」
 ＠Itsuki
 「Uguh... uah...!!」
 
 #最後の一滴まで絞り出す様に、オレは自分の精液を美雨の胎に注ぎ込んだ。
+#SCRIPT ORIGINAL 最後の一滴まで絞り出す様に、オレは自分の精液を美雨の胎に注ぎ込んだ。
 　I pumped all of my semen into Miu’s womb, squeezing it out to the last drop.
 
 #柔らかな女の子の肉が、オレを締め付け、時折ビクリ、ビクリと痙攣していた。
+#SCRIPT ORIGINAL 柔らかな女の子の肉が、オレを締め付け、時折ビクリ、ビクリと痙攣していた。
 　Her soft girl's flesh squeezes tight around me, and twitches every now and then...
 
 #「ああ…、樹くん…樹くんを感じるよ…、美雨の中に流れ込んでくる…、美雨のナカに熱い、樹くんの熱い精液がいっぱいに…っ！！」
+#SCRIPT ORIGINAL 「ああ…、樹くん…樹くんを感じるよ…、美雨の中に流れ込んでくる…、美雨のナカに熱い、樹くんの熱い精液がいっぱいに…っ！！」
 ＠Miu,B00024
 「Aaah... Itsuki-kun... I can feel you... pouring it into me... it's so hot, so much of your hot semen inside me...!!」
 
 #美雨の声は歓喜に震え、オレは美雨の胎内からオレ自身の肉棒を引き抜いた。
+#SCRIPT ORIGINAL 美雨の声は歓喜に震え、オレは美雨の胎内からオレ自身の肉棒を引き抜いた。
 　Miu’s voice shaking in delight, I pull my dick out from within her womb. 
 
 #淫らな水音と、美雨の喘ぎが漏れる。
+#SCRIPT ORIGINAL 淫らな水音と、美雨の喘ぎが漏れる。
 　It makes a lewd wet noise together with Miu's panting.
 
 voice_bg_stop
 
 #「ああ…っ」
+#SCRIPT ORIGINAL 「ああ…っ」
 ＠Miu,B00025
 「Aaah...」
 
 #美雨のすべすべの太ももへ、オレが吐き出した精液が一筋、二筋と伝っていく。
+#SCRIPT ORIGINAL 美雨のすべすべの太ももへ、オレが吐き出した精液が一筋、二筋と伝っていく。
 　My semen that I spurted out trickles down in 1, then 2 lines along Miu's upper thigh and butt.
 
 #そしてオレはそれに血が混じっている事に気がついた。
+#SCRIPT ORIGINAL そしてオレはそれに血が混じっている事に気がついた。
 　And then I notice there is blood mixed in with it.
 
 #美雨の処女はオレによって奪われたのだ。
+#SCRIPT ORIGINAL 美雨の処女はオレによって奪われたのだ。
 　I have robbed Miu of her virginity.
 
 #「樹くん…、樹くん…、美雨のナカ、樹くんでいっぱいだよ…。美雨、うれしい…」
+#SCRIPT ORIGINAL 「樹くん…、樹くん…、美雨のナカ、樹くんでいっぱいだよ…。美雨、うれしい…」
 ＠Miu,B00026
 「Itsuki-kun... Itsuki-kun... I'm filled up inside with your love... I'm so happy...」
 
 #両腕で自身をかき抱きながら、美雨はオレにそう言った。
+#SCRIPT ORIGINAL 両腕で自身をかき抱きながら、美雨はオレにそう言った。
 　Saying that Miu wraps herself in her arms.
 
 #その瞳に涙さえ浮かばせて。
+#SCRIPT ORIGINAL その瞳に涙さえ浮かばせて。
 　Tears are even forming in her eyes.
 
 #「美雨…」
+#SCRIPT ORIGINAL 「美雨…」
 ＠Itsuki
 「Miu...」
 
@@ -438,17 +492,21 @@ layer_movepass_add	0,0,350,0,0
 layer_movepass_play	0,0,play_loop
 
 #「樹くんのおちんちん…、美雨の血で汚れちゃったね…。美雨がきれいにしてあげる…」
+#SCRIPT ORIGINAL 「樹くんのおちんちん…、美雨の血で汚れちゃったね…。美雨がきれいにしてあげる…」
 ＠Miu,B00027
 「Itsuki-kun’s penis... is dirty with my blood... I'll clean it up for you...」
 
 #そう言って美雨は立っているオレの足下にひざまずき、先ほどまで自分の体内に埋まっていた肉棒を手に取った。
+#SCRIPT ORIGINAL そう言って美雨は立っているオレの足下にひざまずき、先ほどまで自分の体内に埋まっていた肉棒を手に取った。
 　Saying that Miu kneels at my feet, and takes my dick that was buried inside her not too long ago in her hand.
 
 #「い、いいよ！　いいんだよ、美雨！　そんな事しなくて、そんなこと……うぁ…ッ！！」
+#SCRIPT ORIGINAL 「い、いいよ！　いいんだよ、美雨！　そんな事しなくて、そんなこと……うぁ…ッ！！」
 ＠Itsuki
 「I-It's fine! It's fine, Miu! You don't need to do that, really... uah...!!」
 
 #止める間もなかった、美雨はオレの肉棒をその可憐な唇にくわえたのだ。
+#SCRIPT ORIGINAL 止める間もなかった、美雨はオレの肉棒をその可憐な唇にくわえたのだ。
 　Not pausing for a moment, Miu takes my dick in to her lovely lips.
 
 se			1,"sound\se\zuba.wav",	play_once
@@ -458,25 +516,31 @@ layer_position	0,-100,-100
 
 voice_bg		b90007
 #「ちゅ、ちゅぅ…、れるぅ…ちゅぷん…っ！」
+#SCRIPT ORIGINAL 「ちゅ、ちゅぅ…、れるぅ…ちゅぷん…っ！」
 ＠Miu,B00028
 「suck, suck... lick... shlurp...!」
 
 #「美雨の初めて…美雨の血と、樹くんの精液の味がするよ…？　んちゅ…れろぅ…っ！　くちゅん、にちゅぅ…！！」
+#SCRIPT ORIGINAL 「美雨の初めて…美雨の血と、樹くんの精液の味がするよ…？　んちゅ…れろぅ…っ！　くちゅん、にちゅぅ…！！」
 ＠Miu,B00029
 「My blood from my first time... and Itsuki-kun's cum... is what it tastes like... suck... mmhrr...! splip, shlurk...!!」
 
 #「ちょ、ちょっと美雨…！！　やめてよ…！　汚いよ…！！　そんな事しなくていい、しなくたっていいのに…！！」
+#SCRIPT ORIGINAL 「ちょ、ちょっと美雨…！！　やめてよ…！　汚いよ…！！　そんな事しなくていい、しなくたっていいのに…！！」
 ＠Itsuki
 「W-wait, Miu...!! Stop...! It’s dirty...!! You don't need to do that, really you don't...!!」
 
 #「ぢゅぷっ、くちゅぅ！　ちゅううっ…！　汚くらんからいよ…、樹くんの精液の味…、美雨の、美雨のもろなの…！　くぷんっ…ちゅっぷぅ…！　ぢゅぢゅん！！」
+#SCRIPT ORIGINAL 「ぢゅぷっ、くちゅぅ！　ちゅううっ…！　汚くらんからいよ…、樹くんの精液の味…、美雨の、美雨のもろなの…！　くぷんっ…ちゅっぷぅ…！　ぢゅぢゅん！！」
 ＠Miu,B00030
 「jlurp, slurp! shlrrrr...! It' not 'irty... The taste of your semen... is all mi'e... plurp... shlurp...! julck jurp!」
 
 #美雨はそう言いながら、慣れたようにオレの肉棒をくわえ、オレの精液を舐め取っていった。
+#SCRIPT ORIGINAL 美雨はそう言いながら、慣れたようにオレの肉棒をくわえ、オレの精液を舐め取っていった。
 　While speaking, Miu deftly holds my dick in her mouth and licks up the semen with her tongue.
 
 #「ちゅぷうんっ……！　ぷちゅんっ、れるっ、ぴちゅ…れらるるる……！！　…くゅちゅちゅん、…くちゅっ！　ちゅゅば…っ、んぢゅっ、ぢゅぢゅるるんっ！！」
+#SCRIPT ORIGINAL 「ちゅぷうんっ……！　ぷちゅんっ、れるっ、ぴちゅ…れらるるる……！！　…くゅちゅちゅん、…くちゅっ！　ちゅゅば…っ、んぢゅっ、ぢゅぢゅるるんっ！！」
 ＠Miu,B00031
 「shlip...! shlurk, rrmha, squip... mmhhrrrr...!! ...kershlick... slurp! blurch... jurck, julp jlurrrrp!!」
 
@@ -486,38 +550,48 @@ layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,100
 
 #「うあ…、うああ…っ、美雨…っ、美雨…ッ！！」
+#SCRIPT ORIGINAL 「うあ…、うああ…っ、美雨…っ、美雨…ッ！！」
 ＠Itsuki
 「Uah... aah... Miu... Miu...!!」
 
 #オレの肉棒は美雨の舌によって、再び熱を帯び始めていたのだ。
+#SCRIPT ORIGINAL オレの肉棒は美雨の舌によって、再び熱を帯び始めていたのだ。
 　My dick starts feeling hot again from Miu's tongue.
 
 #「…くゅちゅ…、れるぅ…、はぁっ…ちゅぷっ！　大きくらってきた…樹くんのおちんちん…っ！　　ちゅあっ！！　くぽんっ！！　はぁ…っ、ふぁ…っ！」
+#SCRIPT ORIGINAL 「…くゅちゅ…、れるぅ…、はぁっ…ちゅぷっ！　大きくらってきた…樹くんのおちんちん…っ！　　ちゅあっ！！　くぽんっ！！　はぁ…っ、ふぁ…っ！」
 ＠Miu,B00032
 「...suck...mmhrm... haa... shlup! Itsuki-kun's 'ick... has gotten big... suck, ah! plurp!! Haa... faah...!」
 
 #「れろ…、れらぁ…っ！　私達ろ…血と精液…、二つが混じり合ってる…。　私たひ混じり合ってるんら…。　ちゅちゅっ……んちゅっ！」
+#SCRIPT ORIGINAL 「れろ…、れらぁ…っ！　私達ろ…血と精液…、二つが混じり合ってる…。　私たひ混じり合ってるんら…。　ちゅちゅっ……んちゅっ！」
 ＠Miu,B00033
 「rrmmh... hurrmm...! Our... 'lood and se'en... are mixing together... We're mixed together... suck squip... shulk!」 
 
 #完全に勃起したオレの肉棒をなおも美雨は舐め、深くくわえていく。
+#SCRIPT ORIGINAL 完全に勃起したオレの肉棒をなおも美雨は舐め、深くくわえていく。
 　Miu keeps licking my penis that has gotten fully erect even more, and takes it in her mouth deeply.
 
 #「うう…っ、あぅ…っ！！」
+#SCRIPT ORIGINAL 「うう…っ、あぅ…っ！！」
 ＠Itsuki
 「Uuh... auh...!!」
 
 #美雨の舌技は絶妙だった。
+#SCRIPT ORIGINAL 美雨の舌技は絶妙だった。
 　Miu's tongue technique is sublime.
 
 #他人とのこんなにも深い交わりをした事が無かったオレは、簡単に絶頂へ追い上げられていく。
+#SCRIPT ORIGINAL 他人とのこんなにも深い交わりをした事が無かったオレは、簡単に絶頂へ追い上げられていく。
 　Not having had this kind of intense sexual intercourse with anyone before, I'm easily brought to climax.
 
 #「くちゅちゅ…！！　…うちゅう…っ、くちゅう…っ！！　ちゅるぁ…っ！　れるら…っ！　ぴちゃあ…、ぴちゅん…っ！」
+#SCRIPT ORIGINAL 「くちゅちゅ…！！　…うちゅう…っ、くちゅう…っ！！　ちゅるぁ…っ！　れるら…っ！　ぴちゃあ…、ぴちゅん…っ！」
 ＠Miu,B00034
 「shlurp shlip...!! ...slurch... shulk...! shlurr... ah! rrmmhh...! plurpp... splurp...!」
 
 #「むぐぅ…ッ！くぷぷうっ！　くちゅぱっ！　んちゅるぅ…っ、……るれぅ…！　くぷりっ……くちゅううん…！　ぷちゅんっ！！　ねぢゅぢゅぅぅうう！！」
+#SCRIPT ORIGINAL 「むぐぅ…ッ！くぷぷうっ！　くちゅぱっ！　んちゅるぅ…っ、……るれぅ…！　くぷりっ……くちゅううん…！　ぷちゅんっ！！　ねぢゅぢゅぅぅうう！！」
 ＠Miu,B00035
 「mmguh...! purp plurk! pershulk! shlurp...... rrmmhuu...! shulp... slurppp...! chulp!! julch jlrrrp!!」
 
@@ -527,10 +601,12 @@ layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,-100,100
 
 #「美雨…っ、出る…！！　また出るよ…！　美雨…！！」
+#SCRIPT ORIGINAL 「美雨…っ、出る…！！　また出るよ…！　美雨…！！」
 ＠Itsuki
 「Miu... I’m cumming...!! I’m cumming again...!  Miu...!!」
 
 #全く余裕の無くなった声でオレは叫ぶ。
+#SCRIPT ORIGINAL 全く余裕の無くなった声でオレは叫ぶ。
 　I shout without holding anything back.
 
 se			1,"sound\se\zuba.wav",	play_once
@@ -539,19 +615,23 @@ layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,-100
 
 #「出しれ…！！　樹くぅんっ！！　美雨に樹くんを頂戴……ッ！！　ちゅば…っ、ぢゅぷぷっ！！　ぐぽっ、ぐぱっ！！　ぢゅぅぅぅぅぅ！！！」
+#SCRIPT ORIGINAL 「出しれ…！！　樹くぅんっ！！　美雨に樹くんを頂戴……ッ！！　ちゅば…っ、ぢゅぷぷっ！！　ぐぽっ、ぐぱっ！！　ぢゅぅぅぅぅぅ！！！」
 ＠Miu,B00036
 「Cum...!! Itsuki-kun!! Please give it to me...!! blurch... julp jurp!! glorp, plurgh!! suckkkk!!!」
 
 #射精を促すかの様に美雨の頭がオレの股間で上下に動く。
+#SCRIPT ORIGINAL 射精を促すかの様に美雨の頭がオレの股間で上下に動く。
 　Miu moves her head back and forth at my crotch to bring out my climax.
 
 #熱い舌が肉棒に絡まり、美雨は強くオレを吸い上げた。
+#SCRIPT ORIGINAL 熱い舌が肉棒に絡まり、美雨は強くオレを吸い上げた。
 　Her hot tongue entangling itself with my penis, she sucks on me hard.
 
 se			1,"sound\se\zuba.wav",	play_once
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 #「ううぁ…！！　出る…ッ！」
+#SCRIPT ORIGINAL 「ううぁ…！！　出る…ッ！」
 ＠Itsuki
 「Uuah...!! Cumming...!」
 
@@ -584,6 +664,7 @@ layer_movepass_play	0,0,play_loop
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #ビュクッ！　ビュルル！！　ドク！　ドクドク！！
+#SCRIPT ORIGINAL ビュクッ！　ビュルル！！　ドク！　ドクドク！！
 　spray! splatter!! gush! gush gush!!
 
 event_fast	"event\ev_miu_021-02.png"
@@ -615,17 +696,21 @@ se			1,"sound\se\zuba.wav",	play_once
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 #「ふぁぁあぁぁあッ！！　ああ…ンッ！　出た…ッ！！　樹くんの精液がまた…ッ！！　美雨の顔に…、美雨の体に…、美雨の全部に降ってくるぅぅぅぅ…！！！」
+#SCRIPT ORIGINAL 「ふぁぁあぁぁあッ！！　ああ…ンッ！　出た…ッ！！　樹くんの精液がまた…ッ！！　美雨の顔に…、美雨の体に…、美雨の全部に降ってくるぅぅぅぅ…！！！」
 ＠Miu,B00037
 「Faaahhhhh!! Aaa...ahn! You came...!! Your semen again...!! It's covering my face... and body... everywhere...!!!」
 
 #「はぁッ…、はぁ…ッ！　はぁ…ッ！！」
+#SCRIPT ORIGINAL 「はぁッ…、はぁ…ッ！　はぁ…ッ！！」
 ＠Itsuki
 「Haa... haa...! Haa...!!」
 
 #美雨の表情は感極まり、その瞳は恍惚と見開かれている。
+#SCRIPT ORIGINAL 美雨の表情は感極まり、その瞳は恍惚と見開かれている。
 　Miu's expression is overcome... her eyes are wide with ecstasy.
 
 #そうして美雨は受け止めた精液を、まるで蜜でも舐めるかの様に啜った。
+#SCRIPT ORIGINAL そうして美雨は受け止めた精液を、まるで蜜でも舐めるかの様に啜った。
 　In that state she slurps up my semen that I bestowed her as if she were tasting honey.
 
 se			1,"sound\se\zuba.wav",	play_once
@@ -634,23 +719,29 @@ layer_scale	0,100,30,30,40,40,passtype_tcb
 layer_position	0,100,-100
 
 #「…ッ！！　み、美雨…ッ！！」
+#SCRIPT ORIGINAL 「…ッ！！　み、美雨…ッ！！」
 ＠Itsuki
 「...!! M-Miu...!!」
 
 #「…美味しい…、樹くんの精液…とっても美味しいよ…？」
+#SCRIPT ORIGINAL 「…美味しい…、樹くんの精液…とっても美味しいよ…？」
 ＠Miu,B00038
 「It's so tasty... Itsuki-kun's semen... is delicious...」
 
 #美雨の全身はオレの精液でベトベトにまみれていた。
+#SCRIPT ORIGINAL 美雨の全身はオレの精液でベトベトにまみれていた。
 　Miu's whole body is smeared and dripping with my semen.
 
 #だが美雨は気持ち悪がるどころか、むしろ嬉しそうにその精液を体中に擦り付けているのだ。
+#SCRIPT ORIGINAL だが美雨は気持ち悪がるどころか、むしろ嬉しそうにその精液を体中に擦り付けているのだ。
 　Far from showing disgust, she happily rubs it all over her body.
 
 #ぽろぽろと涙をこぼし、美雨は嬉しそうに、しかしどこか悲愴さをにじませて、オレの精液を大事そうにその手の中に握り込んでいた。
+#SCRIPT ORIGINAL ぽろぽろと涙をこぼし、美雨は嬉しそうに、しかしどこか悲愴さをにじませて、オレの精液を大事そうにその手の中に握り込んでいた。
 　Tears of joy spill down her face, but also looking a little sad she grips my semen in her hand as if it's precious to her.
 
 #「樹くん…樹くん…、忘れないで…。　美雨の初めての人が樹くんだったってコト…。　お願い…、絶対に忘れないでね…」
+#SCRIPT ORIGINAL 「樹くん…樹くん…、忘れないで…。　美雨の初めての人が樹くんだったってコト…。　お願い…、絶対に忘れないでね…」
 ＠Miu,B00039
 「Itsuki-kun... Itsuki-kun... don't forget... you were my first... please... don't ever forget...」
 
@@ -712,6 +803,7 @@ layer_release	3
 label youzyo_02	##############################################################
 
 #「パパーッ！　起きろーーー！！！」
+#SCRIPT ORIGINAL 「パパーッ！　起きろーーー！！！」
 ＠???,O00000
 「Papaa! Wake uuuup!!!」
 
@@ -722,13 +814,16 @@ label youzyo_02	##############################################################
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		2000
 
 #「ぐふぅぅッ！！？」
+#SCRIPT ORIGINAL 「ぐふぅぅッ！！？」
 ＠Itsuki
 「Gufu!!?」
 
 #今にも霞掛かりそうだった光景が、唐突な衝撃によって雲散霧消した。
+#SCRIPT ORIGINAL 今にも霞掛かりそうだった光景が、唐突な衝撃によって雲散霧消した。
 　The hazy, dreamy scene vanishes like mist from a sudden impact.
 
 #「えへへぇ～、起きた？　パパ、うなされてたよ」
+#SCRIPT ORIGINAL 「えへへぇ～、起きた？　パパ、うなされてたよ」
 ＠???,O00001
 「Ehehe～, are you awake? Papa, you sounded like you were having a nightmare」
 
@@ -741,50 +836,63 @@ layer_release		2
 wait			1000
 
 #「おはよ、パパ♪」
+#SCRIPT ORIGINAL 「おはよ、パパ♪」
 ＠Ichigo,O00002
 「Good morning, Papa♪」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「……………」
+#SCRIPT ORIGINAL 「……………」
 ＠Itsuki
 「.........」
 
 #「……おはよ」
+#SCRIPT ORIGINAL 「……おはよ」
 ＠Itsuki
 「...Morning」
 
 #人のお腹の上で嬉しそうな笑みに返事を返す。
+#SCRIPT ORIGINAL 人のお腹の上で嬉しそうな笑みに返事を返す。
 　I reply to the brightly smiling girl on top of me.
 
 #長い三つ編みを両側でクルリと巻き上げたハイテンション少女いちごが、マウントポジションを取っていた。
+#SCRIPT ORIGINAL 長い三つ編みを両側でクルリと巻き上げたハイテンション少女いちごが、マウントポジションを取っていた。
 　Long braids are curled up in a roll on both sides of the exuberant Ichigo, who has mounted me.
 
 #「で、何だ『パパ』って。娘を持った覚えはないんだが」
+#SCRIPT ORIGINAL 「で、何だ『パパ』って。娘を持った覚えはないんだが」
 ＠Itsuki
 「So, what’s with "Papa". I don’t remember having a daughter」
 
 #「だってパパが昨日、好きなように呼んでいいって言ってたもん」
+#SCRIPT ORIGINAL 「だってパパが昨日、好きなように呼んでいいって言ってたもん」
 ＠Ichigo,O00003
 「But Papa, yesterday you said we can call you whatever we want」
 
 #「あぁ、確かに。けどそれは互いに初対面の堅苦しさを解さんとする決まり文句だろ」
+#SCRIPT ORIGINAL 「あぁ、確かに。けどそれは互いに初対面の堅苦しさを解さんとする決まり文句だろ」
 ＠Itsuki
 「Oh yeah. But I said that just to break the ice a little」
 
 #「えへへ～♪　いちご、ずっとパパが欲しかったんだもん」
+#SCRIPT ORIGINAL 「えへへ～♪　いちご、ずっとパパが欲しかったんだもん」
 ＠Ichigo,O00004
 「Ehehe～♪ I always wanted a Papa」
 
 #聞いちゃいないよ、この子は。
+#SCRIPT ORIGINAL 聞いちゃいないよ、この子は。
 　Did she hear what I said?
 
 #まぁ昨日からずっと、誰もオレの話に耳を傾ける気が無いのは同じなのだが。
+#SCRIPT ORIGINAL まぁ昨日からずっと、誰もオレの話に耳を傾ける気が無いのは同じなのだが。
 　Well I guess ever since yesterday, I feel like nobody has been listening to me.
 
 #「早く起きようよ、パパ～。お腹すいた～～」
+#SCRIPT ORIGINAL 「早く起きようよ、パパ～。お腹すいた～～」
 ＠Ichigo,O00005
 「Come on Papa, get up～. I’m hungry～～」
 
@@ -792,14 +900,17 @@ wait			1000
 @se65
 
 #「あぐぅッ！！　わ、分かったから乗りなおすなッ、中身が出るだろッ」
+#SCRIPT ORIGINAL 「あぐぅッ！！　わ、分かったから乗りなおすなッ、中身が出るだろッ」
 ＠Itsuki
 「Aguh!! F-fine I get it so stop jumping on me, my filling's going to come out」
 
 #「中身？　中身って何ッ？　さてはパパ、いちごに内緒で何か食べたんだー！？」
+#SCRIPT ORIGINAL 「中身？　中身って何ッ？　さてはパパ、いちごに内緒で何か食べたんだー！？」
 ＠Ichigo,O00006
 「Filling? What filling? Did you eat something without me!?」
 
 #「いちごなんてお腹ぺこぺこで、こんなに軽くなってるのにッ」
+#SCRIPT ORIGINAL 「いちごなんてお腹ぺこぺこで、こんなに軽くなってるのにッ」
 ＠Ichigo,O00007
 「But look how light I am when I'm starving like this」
 
@@ -807,10 +918,12 @@ wait			1000
 @se65
 
 #「ぐッ、グリグリと動くな……ッ、起きるから。のけッ！」
+#SCRIPT ORIGINAL 「ぐッ、グリグリと動くな……ッ、起きるから。のけッ！」
 ＠Itsuki
 「Guh, don't grind against me like that... I'm awake. Move!」
 
 #「はぅぅ～～……お腹空き過ぎて、フラフラするぅ～」
+#SCRIPT ORIGINAL 「はぅぅ～～……お腹空き過ぎて、フラフラするぅ～」
 ＠Ichigo,O00008
 「Hauu～～... My belly's so empty, I'm dizzy～」 
 
@@ -819,10 +932,12 @@ window_close
 @se13
 
 #「いちごが退かないと起きれないだろ。それとも、朝飯やめてここで倒れてるか？」
+#SCRIPT ORIGINAL 「いちごが退かないと起きれないだろ。それとも、朝飯やめてここで倒れてるか？」
 ＠Itsuki
 「I can't get up if you're on top of me. Or would you rather skip breakfast and die here?」
 
 #「う～～、ヤダ。朝ご飯食べるぅ」
+#SCRIPT ORIGINAL 「う～～、ヤダ。朝ご飯食べるぅ」
 ＠Ichigo,O00009
 「Uuh～～, I don't want that. I'll eat breakfast」
 
@@ -835,41 +950,48 @@ date_open
 @ichigo_large
 
 #物足りなそうに口を尖らせながら、ようやくいちごが腹の上から退散する。
+#SCRIPT ORIGINAL 物足りなそうに口を尖らせながら、ようやくいちごが腹の上から退散する。
 　Pouting and looking hard-done-by, Ichigo mercifully removes herself from my stomach.
 
 @ichigo_akire
 
 #「よし、良い子だ。先に食堂に下りてろ。オレもすぐ行くから」
+#SCRIPT ORIGINAL 「よし、良い子だ。先に食堂に下りてろ。オレもすぐ行くから」
 ＠Itsuki
 「Alright, good girl. Why don’t you head down to the dining room? I'll be down in a bit」
 
 @ichigo_gimon
 
 #「どして？　一緒に行こうよ、パパ」
+#SCRIPT ORIGINAL 「どして？　一緒に行こうよ、パパ」
 ＠Ichigo,O00010
 「Why? Let’s go together, Papa」
 
 @ichigo
 
 #「……着替えるんだから。ここで見てく気か？」
+#SCRIPT ORIGINAL 「……着替えるんだから。ここで見てく気か？」
 ＠Itsuki
 「...Because I have to change. Do you want to stay here and watch?」
 
 @ichigo_warai
 
 #「うん」
+#SCRIPT ORIGINAL 「うん」
 ＠Ichigo,O00011
 「Yeah」
 
 @ichigo
 
 #「えとねー。ざくろがね、男の人は朝ああやって起こされると嬉しくて萌えるんだって言ってたの」
+#SCRIPT ORIGINAL 「えとねー。ざくろがね、男の人は朝ああやって起こされると嬉しくて萌えるんだって言ってたの」
 ＠Ichigo,O00012
 「Cause you know... Zakuro said that if you wake up a man in the morning like this, they'll be happy and have the hots for you」
 
 @ichigo_warai
 
 #「だから、パパが喜んでるかどうかちゃんと確認しなさいって。パパのおチン―――」
+#SCRIPT ORIGINAL 「だから、パパが喜んでるかどうかちゃんと確認しなさいって。パパのおチン―――」
 ＠Ichigo,O00013
 「So, she said I should check whether Papa is pleased. Papa's dick―――」
 
@@ -878,6 +1000,7 @@ date_open
 layer_move	l_ichigo,2000,0,0,-800,0,passtype_tcb
 
 #「えっ、うわ！？　わわわッ！？」
+#SCRIPT ORIGINAL 「えっ、うわ！？　わわわッ！？」
 ＠Ichigo,O00014
 「Eh, uwah!? Wawawa!?」
 
@@ -888,20 +1011,25 @@ screen_vibration	500,8,32,32
 @se07
 
 #「……出てろ」
+#SCRIPT ORIGINAL 「……出てろ」
 ＠Itsuki
 「...Get out」
 
 #圧し掛かられるのとは全く無関係に、男には抗えない生理現象があるんだ。
+#SCRIPT ORIGINAL 圧し掛かられるのとは全く無関係に、男には抗えない生理現象があるんだ。
 　Having nothing to do with being ridden, men can have irrepressible physiological occurences.
 
 #「夢見も悪いし、朝は騒がしいし、最悪だもう」
+#SCRIPT ORIGINAL 「夢見も悪いし、朝は騒がしいし、最悪だもう」
 ＠Itsuki
 「First having that bad dream, and then all that fuss first thing in the morning. This is the worst」
 
 #夢は、おそらくこの施設へ戻ってきたことが原因だろう。
+#SCRIPT ORIGINAL 夢は、おそらくこの施設へ戻ってきたことが原因だろう。
 　The dream was probably brought on because of coming back to this institution.
 
 #まったく、一日目からこの調子じゃ、先が思いやられるだけだ。
+#SCRIPT ORIGINAL まったく、一日目からこの調子じゃ、先が思いやられるだけだ。
 　Oh man, if it's like this from the very first day, this is going to be tough times.
 
 label youzyo_04	##############################################################
@@ -915,55 +1043,69 @@ label youzyo_04	##############################################################
 @zakuro
 
 #「あ、お兄ちゃん。おはよう」
+#SCRIPT ORIGINAL 「あ、お兄ちゃん。おはよう」
 ＠Mikan,A00000
 「Ah, Onii-chan. Good morning」
 
 #「あぁ、おはよう。ざくろも」
+#SCRIPT ORIGINAL 「あぁ、おはよう。ざくろも」
 ＠Itsuki
 「Morning Mikan. Hey Zakuro」 
 
 #「おはよう」
+#SCRIPT ORIGINAL 「おはよう」
 ＠Zakuro,Q00000
 「Morning」
 
 #着替えを済ませて食堂へ赴く廊下で、この施設の二人の子と出会った。
+#SCRIPT ORIGINAL 着替えを済ませて食堂へ赴く廊下で、この施設の二人の子と出会った。
 　Having finished changing, I met a couple of kids from the institution in the hallway on my way to the dining room.
 
 #明るい笑顔を元気に零して挨拶をするのはみかん。
+#SCRIPT ORIGINAL 明るい笑顔を元気に零して挨拶をするのはみかん。
 　Mikan is the one who is smiling cheerfully and greeted me energetically.
 
 #そして抑揚も表情も希薄な子が、さっきいちごが言ったざくろだ。
+#SCRIPT ORIGINAL そして抑揚も表情も希薄な子が、さっきいちごが言ったざくろだ。
 　And the girl with soft intonation and expression is Zakuro, who Ichigo mentioned earlier.
 
 #ざくろは……左手の包帯が意味深に痛々しい。
+#SCRIPT ORIGINAL ざくろは……左手の包帯が意味深に痛々しい。
 　The bandages on Zakuro's left hand... look a little disturbing.
 
 #気にはなるが、そこから想像できるものが危なげなだけに話題に上げられないのだ。
+#SCRIPT ORIGINAL 気にはなるが、そこから想像できるものが危なげなだけに話題に上げられないのだ。
 　I'm worried about it, but the implications are kind of dicey so I'd rather not bring it up.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00001
 「......」
 
 #「どうした？」
+#SCRIPT ORIGINAL 「どうした？」
 ＠Itsuki
 「What's wrong?」
 
 #「……みかんが、樹をお兄ちゃんって呼んでる」
+#SCRIPT ORIGINAL 「……みかんが、樹をお兄ちゃんって呼んでる」
 ＠Zakuro,Q00002
 「...Mikan is calling you "Onii-chan"」
 
 #「そこは流してよかったんだが………。どうせ、ずっとお兄ちゃんが欲しかったから、だろう？」
+#SCRIPT ORIGINAL 「そこは流してよかったんだが………。どうせ、ずっとお兄ちゃんが欲しかったから、だろう？」
 ＠Itsuki
 「Everyone knows that by now... she probably always wanted an older brother after all, right?」
 
 @mikan_odoroki
 
 #「わ。すごい！　どうして分かったの！？」
+#SCRIPT ORIGINAL 「わ。すごい！　どうして分かったの！？」
 ＠Mikan,A00001
 「Wah. Whoa! How did you know that!?」 
 
 #「ずっと義妹が欲しかったっていう樹の妄想と合致したから？」
+#SCRIPT ORIGINAL 「ずっと義妹が欲しかったっていう樹の妄想と合致したから？」
 ＠Zakuro,Q00003
 「Are you sure it's not because it matches up with your fantasies of having a little sister?」
 
@@ -971,44 +1113,55 @@ label youzyo_04	##############################################################
 @se66
 
 #「変な妄想癖を偽装するな！　今朝もいちごに同じ理由から〝パパ〟って呼ばれたばかりだからだよッ」
+#SCRIPT ORIGINAL 「変な妄想癖を偽装するな！　今朝もいちごに同じ理由から〝パパ〟って呼ばれたばかりだからだよッ」
 ＠Itsuki
 「Don't make me out as having weird fantasies! This morning Ichigo called me "Papa" for the same reason」
 
 #いちごを含めこの子達は身寄りがない。
 #当然昨日ここへ来た時が初対面で、血の繋がりどころか面識すらなかった。
+#SCRIPT ORIGINAL いちごを含めこの子達は身寄りがない。
+#SCRIPT ORIGINAL 当然昨日ここへ来た時が初対面で、血の繋がりどころか面識すらなかった。
 　Including Ichigo, these children have no relatives. I came here and met them for the first time just yesterday, so far from being related by blood I’m barely even an acquaintance.
 
 #なのにこの気軽さというか砕け方には感心する。
+#SCRIPT ORIGINAL なのにこの気軽さというか砕け方には感心する。
 　Even so, I appreciate their light-hearted ways, and talking with them so casually.
 
 #「いちごの騎乗位、どうだった？」
+#SCRIPT ORIGINAL 「いちごの騎乗位、どうだった？」
 ＠Zakuro,Q00004
 「How was Ichigo's cowgirl position?」
 
 #「ざくろ……朝からいちごに変なことを吹き込まないでくれ。全部本気にするだろ、あの子は」
+#SCRIPT ORIGINAL 「ざくろ……朝からいちごに変なことを吹き込まないでくれ。全部本気にするだろ、あの子は」
 ＠Itsuki
 「Zakuro... Could you please not tell Ichigo to do weird things in the morning? She takes everything too seriously」
 
 @mikan
 
 #「きじょうい……？」
+#SCRIPT ORIGINAL 「きじょうい……？」
 ＠Mikan,A00002
 「Cowgirl position...?」
 
 #生憎と、同じように昨日ここへ来たばかりのみかんにはその言葉の意味は分からない。
+#SCRIPT ORIGINAL 生憎と、同じように昨日ここへ来たばかりのみかんにはその言葉の意味は分からない。
 　Unfortunately, Mikan also came here just yesterday and doesn’t know what that means.
 
 #「調教が始まれば、分かると思う」
+#SCRIPT ORIGINAL 「調教が始まれば、分かると思う」
 ＠Zakuro,Q00005
 「You'll find out when training begins, I think」
 
 @mikan_warai
 
 #「……？　うん」
+#SCRIPT ORIGINAL 「……？　うん」
 ＠Mikan,A00003
 「...? OK」
 
 #調教の意味すら分かっていないようだった。
+#SCRIPT ORIGINAL 調教の意味すら分かっていないようだった。
 　Apparently she doesn't even know what training means.
 
 @mikan_
@@ -1022,55 +1175,70 @@ label youzyo_05	##############################################################
 event		"event\ev_all_020-00.png"
 
 #「あ～、やっと来たー！　パパ遅いよ」
+#SCRIPT ORIGINAL 「あ～、やっと来たー！　パパ遅いよ」
 ＠Ichigo,O00015
 「Ah～, finally! Papa you're slow」
 
 #「おはようございます、院長先生」
+#SCRIPT ORIGINAL 「おはようございます、院長先生」
 ＠Suika,R00000
 「Good morning, Inchou-sensei」
 
 #食堂には、既に昨日紹介されたメンバー全員が揃っていた。
+#SCRIPT ORIGINAL 食堂には、既に昨日紹介されたメンバー全員が揃っていた。
 　Everyone's already in the dining room. We introduced ourselves yesterday.
 
 #今朝も騒がしく起こしに来たいちごと、もう一人。
 #大人しそうな義足の子はすいかと言う。
+#SCRIPT ORIGINAL 今朝も騒がしく起こしに来たいちごと、もう一人。
+#SCRIPT ORIGINAL 大人しそうな義足の子はすいかと言う。
 　There's Ichigo, who rambunctiously woke me up this morning, and another one. The quiet girl with the prosthetic leg is Suika.
 
 #「すいかは院長先生か………。一番普通であるような、物申したいというか」
+#SCRIPT ORIGINAL 「すいかは院長先生か………。一番普通であるような、物申したいというか」
 ＠Itsuki
 「You're calling me Inchou-sensei... That's so standard I almost want to object」
 
 #「普通だから、不満？」
+#SCRIPT ORIGINAL 「普通だから、不満？」
 ＠Zakuro,Q00006
 「Are you disappointed that it's normal?」
 
 #「パパにお兄ちゃんと来てるからね。これ以上はどんなコアな呼称をご希望かい？」
+#SCRIPT ORIGINAL 「パパにお兄ちゃんと来てるからね。これ以上はどんなコアな呼称をご希望かい？」
 ＠Shizuku,S00000
 「He's got a thing for Papa and Onii-chan. Beyond this what kind of debauched names were you hoping for?」
 
 #「〝院長〟であることに不満なんですよッ！　まだここを継ぐなんて返事して無いですし」
+#SCRIPT ORIGINAL 「〝院長〟であることに不満なんですよッ！　まだここを継ぐなんて返事して無いですし」
 ＠Itsuki
 「I just don't think I should be called the institution head! I haven't even said I'm going to take over yet」
 
 #「あんたの父、前の院長が亡くなったんだから、その息子が継ぐのは当然だろう？」
+#SCRIPT ORIGINAL 「あんたの父、前の院長が亡くなったんだから、その息子が継ぐのは当然だろう？」
 ＠Shizuku,S00001
 「Your father was in charge of this place before he died, it's only natural that his son take over」
 
 #「こんな立派な施設に可愛い子供達。そして何億もの借金なんて、そうそう受け継げるものじゃないよ」
+#SCRIPT ORIGINAL 「こんな立派な施設に可愛い子供達。そして何億もの借金なんて、そうそう受け継げるものじゃないよ」
 ＠Shizuku,S00002
 「This first-rate institution with these cute children. And this debt in the hundreds of millions, it's not your everyday inheritance」
 
 #「う、っく………！　お、オレの平穏な生活と輝かしい希望の未来を返してください……」
+#SCRIPT ORIGINAL 「う、っく………！　お、オレの平穏な生活と輝かしい希望の未来を返してください……」
 ＠Itsuki
 「Ugh, clench...! I want my peaceful life and dreams for my future back...」
 
 #この人は雫さん。
+#SCRIPT ORIGINAL この人は雫さん。
 　This person is Shizuku.
 
 #まぁ見て分かるとおり『孤児』ではない。そんな年齢は当に越してしまっているし。
+#SCRIPT ORIGINAL まぁ見て分かるとおり『孤児』ではない。そんな年齢は当に越してしまっているし。
 　As you can see she's not "orphaned". She's way too old for that.
 
 #独り者という意味では、ある意味『孤児』であると言っても間違いじゃ無さそうだが―――
+#SCRIPT ORIGINAL 独り者という意味では、ある意味『孤児』であると言っても間違いじゃ無さそうだが―――
 　Although, being "orphaned" can also mean you're single, in this case it wouldn't be wrong―――
 
 #SE38　殴る音（バキッ！）
@@ -1079,44 +1247,55 @@ event		"event\ev_all_020-00.png"
 @se38
 
 #「いてぇッ！！　な、何するんですか！？」
+#SCRIPT ORIGINAL 「いてぇッ！！　な、何するんですか！？」
 ＠Itsuki
 「Ouch!! W-what do you think you're doing!?」
 
 #「あんた今、かなり失礼なことを考えてたろう。いけないねぇ、あたしを怒らせるなんざ」
+#SCRIPT ORIGINAL 「あんた今、かなり失礼なことを考えてたろう。いけないねぇ、あたしを怒らせるなんざ」
 ＠Shizuku,S00003
 「You were thinking something really rude just now weren't you. That's no good, you'll make me angry」
 
 #「ひ、人のナレーションにツッコミを入れないでください……」
+#SCRIPT ORIGINAL 「ひ、人のナレーションにツッコミを入れないでください……」
 ＠Itsuki
 「Y-you're not allowed to butt in on the narration...」 
 
 #一見姉御肌だが傍若無人、綺麗な人だけどかなりのズボラ。
+#SCRIPT ORIGINAL 一見姉御肌だが傍若無人、綺麗な人だけどかなりのズボラ。
 　At first glance she may appear to be mature and refined, but she's indecent and totally lacking in manners.
 
 #この雫さんが、今回オレを騙してここに呼びつけてきた張本人である。
+#SCRIPT ORIGINAL この雫さんが、今回オレを騙してここに呼びつけてきた張本人である。
 　Shizuku is the real driving force behind this place who manipulated me into coming here.
 
 #もっとも父親の代からここの経営を手伝っていたという履歴は本当で、目的はオレにここを継がせること。
+#SCRIPT ORIGINAL もっとも父親の代からここの経営を手伝っていたという履歴は本当で、目的はオレにここを継がせること。
 　Seeing as she was actually helping out my father back in the day, her plan is to have me succeed this place.
 
 #借金と………そして未だ半信半疑の『調教』と『売春』をオレに手伝わせることだ。
+#SCRIPT ORIGINAL 借金と………そして未だ半信半疑の『調教』と『売春』をオレに手伝わせることだ。
 　And that debt... I'm supposed to help with "training" and "prostituting" the girls which still seems unreal to me.
 
 #「っく……冗談じゃない。昨日は終電も無くて泊まりましたが、今日はもう帰りますよ」
+#SCRIPT ORIGINAL 「っく……冗談じゃない。昨日は終電も無くて泊まりましたが、今日はもう帰りますよ」
 ＠Itsuki
 「Urgh... I'm not joking. Yesterday there was no late train so I stayed here, but I'm leaving today」
 
 #「あ、あの、すみません……私が勝手に院長先生なんて呼んじゃったから……」
+#SCRIPT ORIGINAL 「あ、あの、すみません……私が勝手に院長先生なんて呼んじゃったから……」
 ＠Suika,R00001
 「U-um, sorry... I called you Inchou-sensei without asking you...」
 
 #「あぁ、もっと過激なのがいいんだとさ。犬とか豚とか言ってなじってやればいいんじゃないの？」
+#SCRIPT ORIGINAL 「あぁ、もっと過激なのがいいんだとさ。犬とか豚とか言ってなじってやればいいんじゃないの？」
 ＠Shizuku,S00004
 「Yeah, he said he wants it to be more extreme. I'm sure he'd be pleased if you took it to him more by calling him "dog" or "pig"」
 
 setbutton 2,18,220,0,"TLnotes\TLnote3.png","system\backlog\voicesw.png"
 
 #「可愛らしく、つっちーで」
+#SCRIPT ORIGINAL 「可愛らしく、つっちーで」
 ＠Zakuro,Q00007
 「Adorable, I'll call you Tsu-chi」
 
@@ -1124,6 +1303,7 @@ clearbutton
 #TL note 3: Tsu-chi is a cute character figure from Japan.
 
 #「なんでそんな結論に行き着くんですかッ！？」
+#SCRIPT ORIGINAL 「なんでそんな結論に行き着くんですかッ！？」
 ＠Itsuki
 「How did you come to that conclusion!?」
 
@@ -1131,75 +1311,95 @@ clearbutton
 @se13
 
 #「いいよーもぉ……早く食べよッ！　いちごお腹空いて死ぬーッ、殺されるー！！」
+#SCRIPT ORIGINAL 「いいよーもぉ……早く食べよッ！　いちごお腹空いて死ぬーッ、殺されるー！！」
 ＠Ichigo,O00016
 「It doesn't matter... let’s hurry up and eat! My stomach's so empty I'm gonna die, it's killing me!!」
 
 #実も無い会話を続けるオレ達に、ついにいちごが声とお腹の両方で訴えてきた。
+#SCRIPT ORIGINAL 実も無い会話を続けるオレ達に、ついにいちごが声とお腹の両方で訴えてきた。
 　Finally Ichigo's stomach and complaint interrupted our fruitless conversation.
 
 #「いちご、殺しといえば取調べの室のカツ丼が定番よ」
+#SCRIPT ORIGINAL 「いちご、殺しといえば取調べの室のカツ丼が定番よ」
 ＠Zakuro,Q00008
 「Ichigo, did you know that they serve Katsudon in the investigation room if you kill someone?」
 
 #「カツ丼！？　いちごも犯人になってカツ丼食べたーいッ！！」
+#SCRIPT ORIGINAL 「カツ丼！？　いちごも犯人になってカツ丼食べたーいッ！！」
 ＠Ichigo,O00017
 「Katsudon!? I'd be a criminal if I could get some Katsudon!!」
 
 #「はいはい。樹、早く座って食事を始めないと、こいつは本気でカツ丼目当てに実行しかねないよ」
+#SCRIPT ORIGINAL 「はいはい。樹、早く座って食事を始めないと、こいつは本気でカツ丼目当てに実行しかねないよ」
 ＠Shizuku,S00005
 「Indeed. Itsuki, hurry up and sit down so we can start, there's no telling what she'll do to get some Katsudon」
 
 #「やっぱターゲットはオレなわけですね……」
+#SCRIPT ORIGINAL 「やっぱターゲットはオレなわけですね……」
 ＠Itsuki
 「She's after me, isn't she...」
 
 #いちごがカツ丼を見るような目（？）でオレを見てるので、そそくさと席に着いた。
+#SCRIPT ORIGINAL いちごがカツ丼を見るような目（？）でオレを見てるので、そそくさと席に着いた。
 　Ichigo's looking at me as if seeing a bowl of Katsudon (?), I hurriedly take my seat.
 
 #■EVCG（みんなで食事風景）※ゆず・かりんがいない
 
 #「おはようございます、樹さん。よく眠れましたか？」
+#SCRIPT ORIGINAL 「おはようございます、樹さん。よく眠れましたか？」
 ＠Miu,B00013
 「Good morning, Itsuki-san. Did you sleep well?」
 
 #「おはよう………美雨」
+#SCRIPT ORIGINAL 「おはよう………美雨」
 ＠Itsuki
 「Morning...... Miu」
 
 #この施設にやってきて、一番衝撃の再会………それが彼女、美雨だ。
+#SCRIPT ORIGINAL この施設にやってきて、一番衝撃の再会………それが彼女、美雨だ。
 　Coming back here, this is the most shocking reunion...... It's her, Miu. 
 
 #夢でも見たあの出来事以降、全く連絡を取り合っていなかった。
+#SCRIPT ORIGINAL 夢でも見たあの出来事以降、全く連絡を取り合っていなかった。
 　After the event in that dream, I never spoke to her again.
 
 #当然だ。拒絶されなかったといえ、襲い掛かったのはオレ。
 #あれは完全に強姦という犯罪行為。
+#SCRIPT ORIGINAL 当然だ。拒絶されなかったといえ、襲い掛かったのはオレ。
+#SCRIPT ORIGINAL あれは完全に強姦という犯罪行為。
 　Of course I wouldn't. She may not have refused, but I attacked her. It was entirely rape and a criminal offence.
 
 #「……？　樹さん、どうしました？」
+#SCRIPT ORIGINAL 「……？　樹さん、どうしました？」
 ＠Miu,B00014
 「...? Itsuki-san, is something wrong?」
 
 #「あ、いや別に……」
+#SCRIPT ORIGINAL 「あ、いや別に……」
 ＠Itsuki
 「Oh, not really...」
 
 #美雨は気にしていないようだ。
+#SCRIPT ORIGINAL 美雨は気にしていないようだ。
 　Miu doesn't seem too fazed by it.
 
 #……そう振舞おうとしているのか。
+#SCRIPT ORIGINAL ……そう振舞おうとしているのか。
 　...Or at least, that's the act she's putting up.
 
 #どちらにしても、オレだけドギマギしていても仕方ない。
+#SCRIPT ORIGINAL どちらにしても、オレだけドギマギしていても仕方ない。
 　Whatever the case is, as much as I sweat about it, nothing's going to change now.
 
 #「いただきます」
+#SCRIPT ORIGINAL 「いただきます」
 ＠Itsuki
 「Let's eat」
 
 #（//全キャラ分を収録。ただし居るキャラと居ないキャラの差分があるので、素材段階では統合しないように）
 
 #「いただきまーす！」
+#SCRIPT ORIGINAL 「いただきまーす！」
 ＠Everyone,Z90000
 「Let's eat!」
 
@@ -1211,18 +1411,22 @@ wait	2000
 event		"event\ev_all_020-00.png"
 
 #「朝ご飯もおいしーっ♪　美雨さんってすごい、昨日の夕食も美味しかったし」
+#SCRIPT ORIGINAL 「朝ご飯もおいしーっ♪　美雨さんってすごい、昨日の夕食も美味しかったし」
 ＠Mikan,A00005
 「This breakfast is so tasty♪ Miu you're an awesome cook, dinner last night was so good too」
 
 #「ありがとう、みかんちゃん。おかわりもあるから沢山食べてね」
+#SCRIPT ORIGINAL 「ありがとう、みかんちゃん。おかわりもあるから沢山食べてね」
 ＠Miu,B00016
 「Thanks Mikan-chan. There's plenty so have as much as you like」
 
 #「うんっ」
+#SCRIPT ORIGINAL 「うんっ」
 ＠Mikan,A00006
 「Sure」
 
 #「ダメーッ、いちごもする！　おかわり！！」
+#SCRIPT ORIGINAL 「ダメーッ、いちごもする！　おかわり！！」
 ＠Ichigo,O00019
 「Heyyy, me too! Seconds!!」
 
@@ -1230,44 +1434,55 @@ event		"event\ev_all_020-00.png"
 @se14
 
 #負けじといちごが勢い良く掲げる皿の上から、まだ残っていたおかずが飛び散っていく。
+#SCRIPT ORIGINAL 負けじといちごが勢い良く掲げる皿の上から、まだ残っていたおかずが飛び散っていく。
 　Ichigo demandingly hoists her plate in the air, and the remaining food on her plate goes flying.
 
 #「いちご、ウィンナーが飛んでる」
+#SCRIPT ORIGINAL 「いちご、ウィンナーが飛んでる」
 ＠Zakuro,Q00010
 「Ichigo, your wiener is flying」
 
 #「え？」
+#SCRIPT ORIGINAL 「え？」
 ＠Ichigo,O00020
 「Eh?」
 
 se	0,"sound\se\水～ポチャ、チャ….wav",play_once
 #……ポチャンッ。
+#SCRIPT ORIGINAL ……ポチャンッ。
 　...Plunk.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #それは見事な弧を描きながら、綺麗にオレのコーヒーへカップインした。
+#SCRIPT ORIGINAL それは見事な弧を描きながら、綺麗にオレのコーヒーへカップインした。
 　It traced a beautiful arc through the air, and lands right into my cup of coffee. 
 
 #「おお、ナイスショット」
+#SCRIPT ORIGINAL 「おお、ナイスショット」
 ＠Ichigo,O00021
 「Ooh, nice shot」
 
 #「これがほんとのウインナーコーヒー」
+#SCRIPT ORIGINAL 「これがほんとのウインナーコーヒー」
 ＠Zakuro,Q00011
 「It's not Viennese coffee anymore, it's wiener coffee」
 
 #「飲めるか……ッ」
+#SCRIPT ORIGINAL 「飲めるか……ッ」
 ＠Itsuki
 「Can I drink this...」
 
 #「とりかえますか？」
+#SCRIPT ORIGINAL 「とりかえますか？」
 ＠Miu,B00017
 「Would you like me to get you a new one?」
 
 #「……頼む」
+#SCRIPT ORIGINAL 「……頼む」
 ＠Itsuki
 「...Please」
 
@@ -1278,21 +1493,26 @@ se	0,"sound\se\水～ポチャ、チャ….wav",play_once
 event		"event\ev_all_020-01.png"
 
 #美雨がエセコーヒーをキッチンへ下げていく。
+#SCRIPT ORIGINAL 美雨がエセコーヒーをキッチンへ下げていく。
 　Miu takes the false coffee back to the kitchen.
 
 #「しっかしいちごは朝からよく食べるねぇ。胃にもたれないのが不思議なもんだ」
+#SCRIPT ORIGINAL 「しっかしいちごは朝からよく食べるねぇ。胃にもたれないのが不思議なもんだ」
 ＠Shizuku,S00007
 「Ichigo's eating a lot this morning though. It's a wonder she's not even full」
 
 #「まだ若いから」
+#SCRIPT ORIGINAL 「まだ若いから」
 ＠Zakuro,Q00012
 「It's 'cause she's still young」
 
 #「うんッ！　若いもん！」
+#SCRIPT ORIGINAL 「うんッ！　若いもん！」
 ＠Ichigo,O00022
 「Yeah! I’m young!」
 
 #「若いからでしょうね」
+#SCRIPT ORIGINAL 「若いからでしょうね」
 ＠Itsuki
 「It must be because you're young」
 
@@ -1300,22 +1520,27 @@ event		"event\ev_all_020-01.png"
 @se38
 
 #「いって！！　な、何でオレだけッ！？」
+#SCRIPT ORIGINAL 「いって！！　な、何でオレだけッ！？」
 ＠Itsuki
 「Ouch!! W-why are you only hitting me!?」
 
 #「この子らとは実際離れてるけど、あんたとじゃそう差はないだろう。心外だよっ」
+#SCRIPT ORIGINAL 「この子らとは実際離れてるけど、あんたとじゃそう差はないだろう。心外だよっ」
 ＠Shizuku,S00008
 「You're really going to abandon these children, and yet it makes no difference to you. How heartless」 
 
 #「ふふ……目糞鼻屎を笑う」
+#SCRIPT ORIGINAL 「ふふ……目糞鼻屎を笑う」
 ＠Zakuro,Q00013
 「Fufu... look at the pot calling the kettle black」
 
 #「なッ、何か言いましたよッ、今ざくろが！？」
+#SCRIPT ORIGINAL 「なッ、何か言いましたよッ、今ざくろが！？」
 ＠Itsuki
 「D-did you say something just now, Zakuro!?」
 
 #「…………」
+#SCRIPT ORIGINAL 「…………」
 ＠Zakuro,Q00014
 「......」
 
@@ -1323,18 +1548,22 @@ event		"event\ev_all_020-01.png"
 @se23
 
 #何事も無かったかのように食事を続けている。
+#SCRIPT ORIGINAL 何事も無かったかのように食事を続けている。
 　She continues eating like nothing had happened.
 
 #……き、きたねぇ。
+#SCRIPT ORIGINAL ……き、きたねぇ。
 　...Eww, t-that's nasty.
 
 #「……って、何をかけてるんだ、ざくろ」
+#SCRIPT ORIGINAL 「……って、何をかけてるんだ、ざくろ」
 ＠Itsuki
 「...Wait up, what are you sprinkling there, Zakuro?」
 
 setbutton 2,18,220,0,"TLnotes\TLnote4.png","system\backlog\voicesw.png"
 
 #「……？　目玉焼きに青ノリをかけてる」
+#SCRIPT ORIGINAL 「……？　目玉焼きに青ノリをかけてる」
 ＠Zakuro,Q00015
 「...? I’m sprinkling Aonori on my fried eggs」
 
@@ -1345,19 +1574,23 @@ clearbutton
 @se23
 
 #答えながらも振り続ける手の中の袋から、青々としたノリがザクザクと溢れ出している。
+#SCRIPT ORIGINAL 答えながらも振り続ける手の中の袋から、青々としたノリがザクザクと溢れ出している。
 　Even while answering she continues shaking the container in her hand, the seaweed overflows in a lush pile.
 
 #「そ、それ食べるの……？　完全に埋もれちゃってるけど」
+#SCRIPT ORIGINAL 「そ、それ食べるの……？　完全に埋もれちゃってるけど」
 ＠Mikan,A00007
 「A-are you really going to eat that...? It's completely covered」
 
 #「こいつの好物なんだよ、青ノリは。何にでも振り掛けて食うんだから」
+#SCRIPT ORIGINAL 「こいつの好物なんだよ、青ノリは。何にでも振り掛けて食うんだから」
 ＠Shizuku,S00009
 「Aonori is her favourite food. She puts it on everything she eats」
 
 setbutton 2,18,220,0,"TLnotes\TLnote5.png","system\backlog\voicesw.png"
 
 #「うん、美味。海○先生も真っ青」
+#SCRIPT ORIGINAL 「うん、美味。海○先生も真っ青」
 ＠Zakuro,Q00016
 「Yeah, it's delectable. Even Kaibara-sensei would be pale」
 
@@ -1365,19 +1598,23 @@ clearbutton
 #TL note 5: This is an expression that describes high-class dishes, originating from a cooking manga.
 
 #そりゃその光景見たら別の意味で真っ青になりそうだが。
+#SCRIPT ORIGINAL そりゃその光景見たら別の意味で真っ青になりそうだが。
 　Well, looking at her dish, I'd go pale for another reason.
 
 #「いちごはマヨラーだよッ♪」
+#SCRIPT ORIGINAL 「いちごはマヨラーだよッ♪」
 ＠Ichigo,O00023
 「I'm a mayo lover♪」
 
 #こっちはこっちで、ウニョニョニョ～っと目玉焼きにマヨネーズを塗りたくっている。
+#SCRIPT ORIGINAL こっちはこっちで、ウニョニョニョ～っと目玉焼きにマヨネーズを塗りたくっている。
 　As for this one, she gleefully slathers mayonnaise all over her fried eggs.
 
 #■EVCG（差分で美雨を追加）
 event		"event\ev_all_020-00.png"
 
 #「お待たせしました」
+#SCRIPT ORIGINAL 「お待たせしました」
 ＠Miu,B00018
 「Thanks for waiting」
 
@@ -1385,14 +1622,18 @@ event		"event\ev_all_020-00.png"
 @se35
 
 #「お、ありがとう」
+#SCRIPT ORIGINAL 「お、ありがとう」
 ＠Itsuki
 「Oh, thanks」
 
 #そっち側の騒ぎはもう置いといて。
 #とりあえず朝はコーヒーを飲まないと頭が冴えない。
+#SCRIPT ORIGINAL そっち側の騒ぎはもう置いといて。
+#SCRIPT ORIGINAL とりあえず朝はコーヒーを飲まないと頭が冴えない。
 　Putting aside that distraction, I can't think straight unless I have my morning coffee.
 
 #「そんないちごに、青ノリとの夢のハーモニーをプレゼント」
+#SCRIPT ORIGINAL 「そんないちごに、青ノリとの夢のハーモニーをプレゼント」
 ＠Zakuro,Q00017
 「Ichigo that won't do, I'll gift you the dreamy harmony of Aonori」
 
@@ -1400,42 +1641,52 @@ event		"event\ev_all_020-00.png"
 @se23
 
 #「うわわわー！？　いッ、いちごの目玉焼きが！！」
+#SCRIPT ORIGINAL 「うわわわー！？　いッ、いちごの目玉焼きが！！」
 ＠Ichigo,O00024
 「Uwawawah!? M-my fried eggs!!」
 
 #「あっ、いちごちゃん！？　振り回したら……ッ」
+#SCRIPT ORIGINAL 「あっ、いちごちゃん！？　振り回したら……ッ」
 ＠Suika,R00003
 「Ah, Ichigo-chan!? If you wave that around...」
 
 #SE14　小物が弧を描き飛ぶこと
 @se14
 #ウニュニュニュ～～～～！
+#SCRIPT ORIGINAL ウニュニュニュ～～～～！
 　Splurt splurt squeeze～～～～!
 
 se	0,"sound\se\水～ポチャ、チャ….wav",play_once
 #………ビチャビチャ！！
+#SCRIPT ORIGINAL ………ビチャビチャ！！
 　......Splish splash!!
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #いちごが振り回すマヨネーズが、綺麗な帯を成しながらカップへと被さっていく。
+#SCRIPT ORIGINAL いちごが振り回すマヨネーズが、綺麗な帯を成しながらカップへと被さっていく。
 　The mayonnaise that Ichigo swung around forms an eye-catching stream in the air and lands all over my cup of coffee.
 
 #「お、おお！？　ナイスイン！！」
+#SCRIPT ORIGINAL 「お、おお！？　ナイスイン！！」
 ＠Ichigo,O00025
 「Oh, oooh!? Nice in!!」
 
 #「むしろつっちーがナイスキャッチ。ミルク代わりだと思えば」
+#SCRIPT ORIGINAL 「むしろつっちーがナイスキャッチ。ミルク代わりだと思えば」
 ＠Zakuro,Q00018
 「More like Tsu-chi had a nice catch. If you were looking for a milk substitute」
 
 #「思えるか……ッ」
+#SCRIPT ORIGINAL 「思えるか……ッ」
 ＠Itsuki
 「Like I would want that...!」
 
 #結局朝食は始終こんな感じで過ぎていった。
+#SCRIPT ORIGINAL 結局朝食は始終こんな感じで過ぎていった。
 　In this fashion we went through breakfast from beginning to end.
 
 se_stop		1
@@ -1448,70 +1699,87 @@ label youzyo_06	##############################################################
 @bgm12
 
 #「はぁぁ～……」
+#SCRIPT ORIGINAL 「はぁぁ～……」
 ＠Itsuki
 「Haaa～...」
 
 #またうやむやのうちに、子供らのテンションに巻き込まれてしまった。
+#SCRIPT ORIGINAL またうやむやのうちに、子供らのテンションに巻き込まれてしまった。
 　Once again in this uncertain home, I found myself taken in by the children's antics.
 
 #まぁ、ずっと一人暮らしだったから、こういう団欒も楽しいといえば楽しいが。
+#SCRIPT ORIGINAL まぁ、ずっと一人暮らしだったから、こういう団欒も楽しいといえば楽しいが。
 　Well I've always lived alone, so this sitting together at a meal is kind of fun, if I can call it that.
 
 #「いやいやッ、何言ってるんだオレは！　今日出て行くんだから関係ない」
+#SCRIPT ORIGINAL 「いやいやッ、何言ってるんだオレは！　今日出て行くんだから関係ない」
 ＠Itsuki
 「No, what am I saying!? I’m leaving today, so I have nothing to do with this」
 
 @zakuro
 
 #「つっちー」
+#SCRIPT ORIGINAL 「つっちー」
 ＠Zakuro,Q00019
 「Tsu-chi」
 
 #食事を終えたオレをざくろが追いかけてきた。
+#SCRIPT ORIGINAL 食事を終えたオレをざくろが追いかけてきた。
 　Zakuro came chasing after me when I finished my meal.
 
 #「……その呼び名は、結局決定なのか」
+#SCRIPT ORIGINAL 「……その呼び名は、結局決定なのか」
 ＠Itsuki
 「...Did you actually decide on that name?」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00020
 「......」
 
 @zakuro_niko
 
 #「……やっぱり、豚とか犬がいい？」
+#SCRIPT ORIGINAL 「……やっぱり、豚とか犬がいい？」
 ＠Zakuro,Q00021
 「...I guess you wanted dog or pig after all」
 
 #「そこに帰結させるな、話を」
+#SCRIPT ORIGINAL 「そこに帰結させるな、話を」
 ＠Itsuki
 「Don't put words in my mouth」
 
 #「まぁいい……で、どうした？」
+#SCRIPT ORIGINAL 「まぁいい……で、どうした？」
 ＠Itsuki
 「It doesn't matter... well, what is it?」
 
 @zakuro
 
 #「雫に言われて、話があるの。ついてきて」
+#SCRIPT ORIGINAL 「雫に言われて、話があるの。ついてきて」
 ＠Zakuro,Q00022
 「Shizuku told me to talk to you about something. Follow me」
 
 #さっきの青ノリもそうだが、出会ってからずっと謎行動が多いざくろ。
+#SCRIPT ORIGINAL さっきの青ノリもそうだが、出会ってからずっと謎行動が多いざくろ。
 　It's not just her Aonori from before, everything Zakuro does since I met her is a mystery.
 
 #しかも騒ぎの元凶、雫さんが関係しているという。
+#SCRIPT ORIGINAL しかも騒ぎの元凶、雫さんが関係しているという。
 　Adding to that Shizuku is at the root of this latest development.
 
 #これは何も無い方がおかしい。
+#SCRIPT ORIGINAL これは何も無い方がおかしい。
 　There's something fishy going on.
 
 #「用事があるんだ。悪いな」
+#SCRIPT ORIGINAL 「用事があるんだ。悪いな」
 ＠Itsuki
 「I have stuff to do. Sorry」
 
 #「この部屋でいいから」
+#SCRIPT ORIGINAL 「この部屋でいいから」
 ＠Zakuro,Q00023
 「This room is good, come on」
 
@@ -1522,6 +1790,7 @@ label youzyo_06	##############################################################
 @se06
 
 #「って、ほんとに人の話し聞かないな、どいつもこいつも」
+#SCRIPT ORIGINAL 「って、ほんとに人の話し聞かないな、どいつもこいつも」
 ＠Itsuki
 「Hmph, nobody listens to me at all, no matter who it is」
 
@@ -1530,10 +1799,12 @@ label youzyo_06	##############################################################
 @bgm10
 
 #「で、まぁノコノコと入ってくるオレも相当のお人よしだと思うが」
+#SCRIPT ORIGINAL 「で、まぁノコノコと入ってくるオレも相当のお人よしだと思うが」
 ＠Itsuki
 「Well, I guess I'll come in too, but I hope you know I'm going out of my way」
 
 #「ざくろ……？」
+#SCRIPT ORIGINAL 「ざくろ……？」
 ＠Itsuki
 「Zakuro...?」
 
@@ -1541,59 +1812,73 @@ label youzyo_06	##############################################################
 @se07
 
 #…………
+#SCRIPT ORIGINAL …………
 　......
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @se09
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00024
 「......」
 
 #ドアの影に隠れていたざくろが、後ろ手に鍵を掛けた。
+#SCRIPT ORIGINAL ドアの影に隠れていたざくろが、後ろ手に鍵を掛けた。
 　Zakuro who had hidden in the door's shadow locked the door from behind me.
 
 #「………何で鍵を掛ける」
+#SCRIPT ORIGINAL 「………何で鍵を掛ける」
 ＠Itsuki
 「...Why are you locking the door?」
 
 @zakuro
 
 #「つっちーが昨日の話を信じていないから、実力行使に出ろって雫が言ったの」
+#SCRIPT ORIGINAL 「つっちーが昨日の話を信じていないから、実力行使に出ろって雫が言ったの」
 ＠Zakuro,Q00025
 「Tsu-chi, you didn't believe what she told you yesterday, so Shizuku told me to be a little more persuasive」
 
 #「到着早々に言われた、あの売春とか調教とかの話か？」
+#SCRIPT ORIGINAL 「到着早々に言われた、あの売春とか調教とかの話か？」
 ＠Itsuki
 「This is about what she talked to me about right after I came here: training and prostitution, right?」
 
 #「うん」
+#SCRIPT ORIGINAL 「うん」
 ＠Zakuro,Q00026
 「Yeah」
 
 #「やっぱりそれか……」
+#SCRIPT ORIGINAL 「やっぱりそれか……」
 ＠Itsuki
 「So it is...」
 
 #「あのな、普通に考えてありえないだろ。あの人の性格からして、オレをからかってるんだよ」
+#SCRIPT ORIGINAL 「あのな、普通に考えてありえないだろ。あの人の性格からして、オレをからかってるんだよ」
 ＠Itsuki
 「You know, just from common sense I know it's not real. She's just teasing me, that's the kind of thing she does」
 
 #「どうせ遺産の相続をオレが決めたら、『エッチ目的だー♪』とか言って揶揄するつもりなんだろう」
+#SCRIPT ORIGINAL 「どうせ遺産の相続をオレが決めたら、『エッチ目的だー♪』とか言って揶揄するつもりなんだろう」
 ＠Itsuki
 「And if I were to accept the inheritance, she'd just make fun of me saying that I've got perverted ideas and stuff」
 
 #「……つっちー、なかなか鋭い。雫だったら言いそう」
+#SCRIPT ORIGINAL 「……つっちー、なかなか鋭い。雫だったら言いそう」
 ＠Zakuro,Q00027
 「...Tsu-chi, how perceptive of you. Shizuku would say that」
 
 #認めた。
+#SCRIPT ORIGINAL 認めた。
 　She agreed.
 
 #ってことは、これで話はもう終わりだ。
+#SCRIPT ORIGINAL ってことは、これで話はもう終わりだ。
 　I guess that's the end of that.
 
 #「もう行くぞ？　……あれ」
+#SCRIPT ORIGINAL 「もう行くぞ？　……あれ」
 ＠Itsuki
 「Can I go now? ...Huh?」
 
@@ -1601,22 +1886,27 @@ label youzyo_06	##############################################################
 @se10
 
 #「カギ掛けてるのよ？」
+#SCRIPT ORIGINAL 「カギ掛けてるのよ？」
 ＠Zakuro,Q00028
 「You know it's locked, right?」
 
 #「それは分かってる、何で部屋の内側なのに抓みじゃなくて鍵穴なんだよ！？」
+#SCRIPT ORIGINAL 「それは分かってる、何で部屋の内側なのに抓みじゃなくて鍵穴なんだよ！？」
 ＠Itsuki
 「I can see that. Why is there a keyhole on the inside of the room with no knob!?」
 
 #「調教のために、邪魔が出入りできないようにどっちも鍵穴なの」
+#SCRIPT ORIGINAL 「調教のために、邪魔が出入りできないようにどっちも鍵穴なの」
 ＠Zakuro,Q00029
 「For training, so there are no intrusions coming or going both sides have keyholes」
 
 #「それは手の込んだことで……。話はもう終わったんだろ？」
+#SCRIPT ORIGINAL 「それは手の込んだことで……。話はもう終わったんだろ？」
 ＠Itsuki
 「That’s pretty elaborate, but... we're done here, right?」
 
 #「雫がどんなからかい方をするのかは関係ない。今は、それを証明するの」
+#SCRIPT ORIGINAL 「雫がどんなからかい方をするのかは関係ない。今は、それを証明するの」
 ＠Zakuro,Q00030
 「Shizuku wasn't teasing you about this. Now I’ll prove it to you」
 
@@ -1624,145 +1914,182 @@ label youzyo_06	##############################################################
 @se70
 
 #スルスル……
+#SCRIPT ORIGINAL スルスル……
 　Slide...
 
 #「げ……」
+#SCRIPT ORIGINAL 「げ……」
 ＠Itsuki
 「Geh...」
 
 event		"event\EV_ZAK_001-00.png"
 
 #裾の長いスカートを持ち上げ、普段は見えないその奥のドロワーズを晒す。
+#SCRIPT ORIGINAL 裾の長いスカートを持ち上げ、普段は見えないその奥のドロワーズを晒す。
 　Pulling up the hem of her long skirt, her normally hidden drawers are exposed.
 
 #それすらもグイッと前を持ち上げて僅かに下ろし、内側のショーツの一部を覗かせた。
+#SCRIPT ORIGINAL それすらもグイッと前を持ち上げて僅かに下ろし、内側のショーツの一部を覗かせた。
 　With a jerk holding those up in front of her as well and lowering herself a little, her panties come entirely into view.
 
 #「見たい？」
+#SCRIPT ORIGINAL 「見たい？」
 ＠Zakuro,Q00031
 「Do you want to see?」
 
 #「見るかッ！　これ以上あの人が喜ぶネタを提供する気はないッ！」
+#SCRIPT ORIGINAL 「見るかッ！　これ以上あの人が喜ぶネタを提供する気はないッ！」
 ＠Itsuki
 「As if! There's no way I'd give that person any more material to amuse herself with!」
 
 #「これが、この部屋のカギ」
+#SCRIPT ORIGINAL 「これが、この部屋のカギ」
 ＠Zakuro,Q00032
 「This is the key to this room」
 
 #やっぱりオレの話なんか聞いてねぇし。
+#SCRIPT ORIGINAL やっぱりオレの話なんか聞いてねぇし。
 　She's not listening to me at all.
 
 event		"event\EV_ZAK_001-01.png"
 
 #―――ポトッ。
+#SCRIPT ORIGINAL ―――ポトッ。
 ―――Drop.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「取れる？」
+#SCRIPT ORIGINAL 「取れる？」
 ＠Zakuro,Q00033
 「Think you can take it?」
 
 #何と、ショーツの中にカギを入れてしまった。
+#SCRIPT ORIGINAL 何と、ショーツの中にカギを入れてしまった。
 　Why... did she put it in her panties?
 
 @bg_akibeya
 @zakuro
 
 #パッパッとスカートを整えるざくろにもう、オレは溜め息を吐くしか出来ない。
+#SCRIPT ORIGINAL パッパッとスカートを整えるざくろにもう、オレは溜め息を吐くしか出来ない。
 　I can only sigh at Zakuro who lowers and readjusts her skirt.
 
 #「はぁぁ……分かったよ。で、何をどうやって証明する気なんだ」
+#SCRIPT ORIGINAL 「はぁぁ……分かったよ。で、何をどうやって証明する気なんだ」
 ＠Itsuki
 「Haaa... fine, I get it. What exactly did you want to prove to me?」
 
 @zakuro_niko
 #「簡単。つっちーをここで射精させる」
+#SCRIPT ORIGINAL 「簡単。つっちーをここで射精させる」
 ＠Zakuro,Q00034
 「Simple. I'll make you come, here and now」
 
 #「だな。ああオレもそれが基本だと思う」
+#SCRIPT ORIGINAL 「だな。ああオレもそれが基本だと思う」
 ＠Itsuki
 「Indeed. I guess that's not such a bad idea」
 
 #「さ、好きなようにやってみてくれ」
+#SCRIPT ORIGINAL 「さ、好きなようにやってみてくれ」
 ＠Itsuki
 「Fine, let's see what you can do」
 
 #どうせオレが戸惑う様をどこかで見ているに違いない。
+#SCRIPT ORIGINAL どうせオレが戸惑う様をどこかで見ているに違いない。
 　I don't see her determination wavering at all.
 
 #だったらもう勝手にさせて、ざくろの手が無くなり諦めるのを待とう。
+#SCRIPT ORIGINAL だったらもう勝手にさせて、ざくろの手が無くなり諦めるのを待とう。
 　So I'll let her do as she pleases, and wait for her to give up and be done with me.
 
 #「立ったままでいいのか？」
+#SCRIPT ORIGINAL 「立ったままでいいのか？」
 ＠Itsuki
 「Is it fine if I'm standing like this?」
 
 #「うん。任せる」
+#SCRIPT ORIGINAL 「うん。任せる」
 ＠Zakuro,Q00035
 「Yeah. It's up to you」
 
 @zakuro_
 
 #ざくろがいつもの無感情な表情でオレのそばに寄ってくる。
+#SCRIPT ORIGINAL ざくろがいつもの無感情な表情でオレのそばに寄ってくる。
 　Zakuro with her always expressionless face comes closer.
 
 #背丈の違いから、その深い緋色の瞳が吸い寄せるようにこちらを見上げてきた。
+#SCRIPT ORIGINAL 背丈の違いから、その深い緋色の瞳が吸い寄せるようにこちらを見上げてきた。
 　From our height difference, her scarlet red eyes look up at me as if drawing me in.
 
 @zakuro_middle
 @zakuro
 
 #「………ッ！？」
+#SCRIPT ORIGINAL 「………ッ！？」
 ＠Itsuki
 「...!?」
 
 @zakuro
 
 #「それじゃ、始める」
+#SCRIPT ORIGINAL 「それじゃ、始める」
 ＠Zakuro,Q00036
 「Then, I'll start」
 
 #そのままごく自然に、ズボン越しに股間を握りこんで揉み動かしてきた。
+#SCRIPT ORIGINAL そのままごく自然に、ズボン越しに股間を握りこんで揉み動かしてきた。
 　Just like that she smoothly reaches for my crotch through my pants, rubbing and massaging it.
 
 #突然で驚くが、まぁ何とか平静を保つ。
+#SCRIPT ORIGINAL 突然で驚くが、まぁ何とか平静を保つ。
 　I'm surprised by how sudden it is, but somehow manage to stay calm.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00037
 「......」
 
 #その手を両足の間にいれ、ふぐりごと袋を下から揉みながら撫で上げてくるざくろ。
+#SCRIPT ORIGINAL その手を両足の間にいれ、ふぐりごと袋を下から揉みながら撫で上げてくるざくろ。
 　Placing her hand between my legs, she caresses me rubbing my balls through the sack from underneath.
 
 #それを繰り返されながら、まだ反応前の竿は勃起しやすいように上へと向かせられ、上下に擦られる。
+#SCRIPT ORIGINAL それを繰り返されながら、まだ反応前の竿は勃起しやすいように上へと向かせられ、上下に擦られる。
 　As she continues with that, my limp dick heads upward easily getting erect, and she rubs it up and down.
 
 #（こ、これはやりすぎじゃないのか……！？）
+#SCRIPT ORIGINAL （こ、これはやりすぎじゃないのか……！？）
 ＠Itsuki
 (I-isn't this going too far...!?)
 
 #動きが積極的過ぎる。
 #まるで本当に経験があるかのように思わせてくるが……
+#SCRIPT ORIGINAL 動きが積極的過ぎる。
+#SCRIPT ORIGINAL まるで本当に経験があるかのように思わせてくるが……
 　She's way too assertive. It's making me wonder if she actually does have experience with this...
 
 #このままオレが平然としていれば、いずれざくろも行き詰って止めるだろう。
+#SCRIPT ORIGINAL このままオレが平然としていれば、いずれざくろも行き詰って止めるだろう。
 　If I can just be stoic, I'm sure she'll reach her limit eventually and stop.
 
 #「つっちー、何か考えごとしてる」
+#SCRIPT ORIGINAL 「つっちー、何か考えごとしてる」
 ＠Zakuro,Q00038
 「Tsu-chi, you're thinking about something」
 
 #「……いつ終わるのかなって」
+#SCRIPT ORIGINAL 「……いつ終わるのかなって」
 ＠Itsuki
 「...When are we going to be done?」
 
 #「早く終わりたいの？　分かった」
+#SCRIPT ORIGINAL 「早く終わりたいの？　分かった」
 ＠Zakuro,Q00039
 「You want to finish quickly? Sure」
 
@@ -1772,14 +2099,17 @@ event		"event\EV_ZAK_001-01.png"
 @se01
 
 #「おッ！？　おおお！！　何やってるんだざくろッ！？」
+#SCRIPT ORIGINAL 「おッ！？　おおお！！　何やってるんだざくろッ！？」
 ＠Itsuki
 「Oh!? Ohhh!! What are you doing, Zakuro!?」
 
 #「……？　何って。ズボンを下げるの」
+#SCRIPT ORIGINAL 「……？　何って。ズボンを下げるの」
 ＠Zakuro,Q00040
 「...? What? I’m taking your pants down」
 
 #「あ……衣類の中で出してベトベトになるのが好き？」
+#SCRIPT ORIGINAL 「あ……衣類の中で出してベトベトになるのが好き？」
 ＠Zakuro,Q00041
 「Ah... Do you like cumming inside clothes and making them all sticky?」
 
@@ -1787,24 +2117,29 @@ event		"event\EV_ZAK_001-01.png"
 @se66
 
 #「そんな趣味はないッ！」
+#SCRIPT ORIGINAL 「そんな趣味はないッ！」
 ＠Itsuki
 「I don't get off to that!」
 
 #「あ、いや趣味じゃなくて！　もういいッ、分かったオレの負けだ！　どうせ雫さんがどこかで見てるんだろ？」
+#SCRIPT ORIGINAL 「あ、いや趣味じゃなくて！　もういいッ、分かったオレの負けだ！　どうせ雫さんがどこかで見てるんだろ？」
 ＠Itsuki
 「I mean, this isn't about that! Fine I lose, I admit it! Shizuku-san's watching us somewhere, isn't she?」
 
 @zakuro_large
 @zakuro_niko
 #「雫……？　もしかして、見られながらの方が興奮する？」
+#SCRIPT ORIGINAL 「雫……？　もしかして、見られながらの方が興奮する？」
 ＠Zakuro,Q00042
 「Shizuku...? By any chance, do you get excited thinking about other people watching you?」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00043
 「......」
 
@@ -1812,44 +2147,55 @@ event		"event\EV_ZAK_001-01.png"
 @se01
 
 #な、何かさっきから話が噛み合ってないぞ………
+#SCRIPT ORIGINAL な、何かさっきから話が噛み合ってないぞ………
 　Our level of communication seems to have fallen off recently.
 
 #「って、ちょっと待て脱がすなッ！　止めろッ！」
+#SCRIPT ORIGINAL 「って、ちょっと待て脱がすなッ！　止めろッ！」
 ＠Itsuki
 「Hey, wait a minute, don't take my pants off! Stop!」
 
 @zakuro
 #「大丈夫、笑わないから」
+#SCRIPT ORIGINAL 「大丈夫、笑わないから」
 ＠Zakuro,Q00044
 「It’s fine, I won’t laugh」
 
 #「バカッ、自信が無くて見せたくないわけじゃねぇよ！！　って、コラ、聞けよおい！」
+#SCRIPT ORIGINAL 「バカッ、自信が無くて見せたくないわけじゃねぇよ！！　って、コラ、聞けよおい！」
 ＠Itsuki
 「Stupid, I'm not saying that because I'm uncomfortable with being seen!! Hey, hold it, listen to me!」
 
 #意に介さずベルトを抜き取り、前をはだけようとするざくろ。
+#SCRIPT ORIGINAL 意に介さずベルトを抜き取り、前をはだけようとするざくろ。
 　Paying no attention Zakuro pulls out my belt and tries to expose my front.
 
 #（っく、こうなったら力づくで……！！）
+#SCRIPT ORIGINAL （っく、こうなったら力づくで……！！）
 ＠Itsuki
 (Ugh, in this situation I'll have to resort to...!!) 
 
 @zakuro_akire
 #「カギ、強引にショーツを脱がして取るつもりなの？」
+#SCRIPT ORIGINAL 「カギ、強引にショーツを脱がして取るつもりなの？」
 ＠Zakuro,Q00045
 「Do you intend to strip my panties and take the key by force?」
 
 #「う……」
+#SCRIPT ORIGINAL 「う……」
 ＠Itsuki
 「Urck...」
 
 #読まれてる………
+#SCRIPT ORIGINAL 読まれてる………
 　She saw right through me...
 
 #しかもそれは何としても避けたい事態なんだが……
+#SCRIPT ORIGINAL しかもそれは何としても避けたい事態なんだが……
 　I'd rather avoid that scenario at all costs...
 
 #「………！」
+#SCRIPT ORIGINAL 「………！」
 ＠Itsuki
 「...!」
 
@@ -1863,31 +2209,39 @@ scene_start	"ざくろフェラチオ"
 event		"event\EV_ZAK_010-00.png"
 
 #「出てきた、つっちーのおチンチン」
+#SCRIPT ORIGINAL 「出てきた、つっちーのおチンチン」
 ＠Zakuro,Q00046
 「It’s out, Tsu-chi’s penis」
 
 #対処に戸惑っている間に、ざくろははだけさせたズボンからイチモツを取り出していた。
+#SCRIPT ORIGINAL 対処に戸惑っている間に、ざくろははだけさせたズボンからイチモツを取り出していた。
 　As I try to think of how to resolve this, Zakuro takes out my dick from my undone pants.
 
 #それはさっきズボン越しに揉まれただけで、少し血が集まりつつある。
+#SCRIPT ORIGINAL それはさっきズボン越しに揉まれただけで、少し血が集まりつつある。
 　With her rubbing through my pants from before, it's slowly swelling up.
 
 #「別に恥ずかしいサイズでもないし、匂いもしないと思う」
+#SCRIPT ORIGINAL 「別に恥ずかしいサイズでもないし、匂いもしないと思う」
 ＠Zakuro,Q00047
 「Your size is nothing to be embarrassed about, and I don't think it smells either」
 
 #「だから違うって言って――――え」
+#SCRIPT ORIGINAL 「だから違うって言って――――え」
 ＠Itsuki
 「I told you, that's not what this is――wait」
 
 #つまりそれは、今までにも実物を見たことがあるから言える事で………
+#SCRIPT ORIGINAL つまりそれは、今までにも実物を見たことがあるから言える事で………
 　In other words, she must have seen the real thing before to be able to say that...
 
 #「でも入れた事は無いから大丈夫。ちゃんと初物の挿入を楽しめるから」
+#SCRIPT ORIGINAL 「でも入れた事は無いから大丈夫。ちゃんと初物の挿入を楽しめるから」
 ＠Zakuro,Q00048
 「Don't worry, you don't have to put it in. You'll be able to properly enjoy your first insertion」
 
 #「そこまで深く考えてないッ！」
+#SCRIPT ORIGINAL 「そこまで深く考えてないッ！」
 ＠Itsuki
 「I'm not even considering things like that!」
 
@@ -1895,181 +2249,233 @@ event		"event\EV_ZAK_010-02.png"
 voice_bg	"Q90004"
 
 #「ん、ちゅぶ……っぷ、んふぅ……っ」
+#SCRIPT ORIGINAL 「ん、ちゅぶ……っぷ、んふぅ……っ」
 ＠Zakuro,Q00049
 「Mh, squip... mh, shlip, nfh...」
 
 #薄く開いた唇から出された舌が唾液をまといながら踊り、肉茎の先端を舐め始めた。
+#SCRIPT ORIGINAL 薄く開いた唇から出された舌が唾液をまといながら踊り、肉茎の先端を舐め始めた。
 　Her tongue protruding from her thinly parted lips wiggles as she coats it with saliva, and starts licking the tip of my cock.
 
 #そこに躊躇は感じさせない。
+#SCRIPT ORIGINAL そこに躊躇は感じさせない。
 　I don't see any signs of hesitation.
 
 #「にる、ぷちゅぅ……ぴくちゅっ、ちゅ……ん、にちゅ、ちゅっ」
+#SCRIPT ORIGINAL 「にる、ぷちゅぅ……ぴくちゅっ、ちゅ……ん、にちゅ、ちゅっ」
 ＠Zakuro,Q00050
 「nh, slurp slurp... shlip... mh, suck, suck」
 
 #「んむぅ、あふ……ぺろ、れるむっ……ちゅくむっ、ぴちゅっ、ちゅ……ちゅぴる」
+#SCRIPT ORIGINAL 「んむぅ、あふ……ぺろ、れるむっ……ちゅくむっ、ぴちゅっ、ちゅ……ちゅぴる」
 ＠Zakuro,Q00051
 「nmuh, afuh... lick, rnmmh... shlurp, shlip... shlurk」
 
 #ざくろの舌は単調には動かず、何度も唾液を湿らせながら亀頭をネトネトに仕立て上げる。
+#SCRIPT ORIGINAL ざくろの舌は単調には動かず、何度も唾液を湿らせながら亀頭をネトネトに仕立て上げる。
 　Zakuro's tongue moves vibrantly, and soaking the head with saliva over and over makes it wet and sticky.
 
 #鈴口やカリなど、分かっているような的確なタイミングで責めてきていた。
+#SCRIPT ORIGINAL 鈴口やカリなど、分かっているような的確なタイミングで責めてきていた。
 　She attacks my glans and the area underneath with precise timing like she knows what she's doing.
 
 #「くりゅっ、れるれる……ちゅぅむっ……んぷ、どうしたの、顔が固まってる」
+#SCRIPT ORIGINAL 「くりゅっ、れるれる……ちゅぅむっ……んぷ、どうしたの、顔が固まってる」
 ＠Zakuro,Q00052
 「mh, rmmnh, lick... shlrm, nhpuh, what’s wrong? You're grimacing」
 
 #「……あ、いや」
+#SCRIPT ORIGINAL 「……あ、いや」
 ＠Itsuki
 「...Oh, nothing」
 
 #確かに……一瞬なのかもう少し長い間なのか、オレは固まっていたのだろう。
+#SCRIPT ORIGINAL 確かに……一瞬なのかもう少し長い間なのか、オレは固まっていたのだろう。
 　It's true... it may have been for an instant or a little longer than that, but I did tense up.
 
 #「やっぱり……初めてじゃないんだな、こういうの……」
+#SCRIPT ORIGINAL 「やっぱり……初めてじゃないんだな、こういうの……」
 ＠Itsuki
 「So... this isn't your first time doing this after all...」
 
 #現実を捉えたその言葉に、ざくろはせせら笑うように妖しく瞳を細めた。
+#SCRIPT ORIGINAL 現実を捉えたその言葉に、ざくろはせせら笑うように妖しく瞳を細めた。
 　When I realize the truth saying that, Zakuro narrows her eyes mischievously as if mocking me.
 
 #口淫だけじゃない。その瞳もまたゾッとする色香と熱を滲ませている。
+#SCRIPT ORIGINAL 口淫だけじゃない。その瞳もまたゾッとする色香と熱を滲ませている。
 　It's not just her oral sex, her eyes give me shivers again with their passion and charm spreading to me.
 
 #「大きくなってきた……遠慮しないでいいのよ、もっと興奮して……れりゅっ、ぴちゅぅ」
+#SCRIPT ORIGINAL 「大きくなってきた……遠慮しないでいいのよ、もっと興奮して……れりゅっ、ぴちゅぅ」
 ＠Zakuro,Q00053
 「It's gotten bigger... There's no need to hold back, get more aroused... lick, shlurp」
 
 #「……年下の子に舐められてるのに、恥ずかしげも無く男性器の本能をむき出しにしたいんでしょ」
+#SCRIPT ORIGINAL 「……年下の子に舐められてるのに、恥ずかしげも無く男性器の本能をむき出しにしたいんでしょ」
 ＠Zakuro,Q00054
 「...Even if you're being licked by a child much younger than you, you want to openly show your penis's true instinct, don't you?」
 
 #硬くなりつつある竿に指先を回しながら、こちらの羞恥心を煽るような言葉を並べ見上げてくる。
+#SCRIPT ORIGINAL 硬くなりつつある竿に指先を回しながら、こちらの羞恥心を煽るような言葉を並べ見上げてくる。
 　As she runs her finger over my hardening cock, she looks up at me wih a remark that incites my shame.
 
 #情けないがその通りだ。
 #図星を言い当てられた焦燥と背徳感が、興奮を増加させていく。
+#SCRIPT ORIGINAL 情けないがその通りだ。
+#SCRIPT ORIGINAL 図星を言い当てられた焦燥と背徳感が、興奮を増加させていく。
 　It's sad but it's true. Her guessing right at my fears and fall from virtue makes me even more aroused.
 
 #「んんふっ……くちゅっ、ちゅむぅっ……手でも、擦ってほしい？」
+#SCRIPT ORIGINAL 「んんふっ……くちゅっ、ちゅむぅっ……手でも、擦ってほしい？」
 ＠Zakuro,Q00055
 「Mmfh... shluck, slurp... do you want me to stroke it with my hand?」
 
 #「う………」
+#SCRIPT ORIGINAL 「う………」
 ＠Itsuki
 「Ugh...」
 
 #起伏のない口調だが見透かしたような言葉を向けられた。
+#SCRIPT ORIGINAL 起伏のない口調だが見透かしたような言葉を向けられた。
 　Her voice is emotionless but the words she directed at me were like she read my mind.
 
 #舌遣いを一時やめると、反応を見せていく肉棒を正面から見つめている。
+#SCRIPT ORIGINAL 舌遣いを一時やめると、反応を見せていく肉棒を正面から見つめている。
 　She stops using her tongue momentarily, and observes my cock in front of her showing its reaction.
 
 #とっさに否定も肯定も出来ずにいると、ざくろは肉茎の付け根を握り込んだまま、再び舌を這わせてきた。
+#SCRIPT ORIGINAL とっさに否定も肯定も出来ずにいると、ざくろは肉茎の付け根を握り込んだまま、再び舌を這わせてきた。
 　When I'm unable to refuse or allow her right away, she makes her tongue crawl over my cock once again, still holding it at the base.
 
 #「くちるっ……れるっ、ちゅちゅぅ……ねる、ねるんっ、ちゅぷぅ……くちゅむ」
+#SCRIPT ORIGINAL 「くちるっ……れるっ、ちゅちゅぅ……ねる、ねるんっ、ちゅぷぅ……くちゅむ」
 ＠Zakuro,Q00056
 「shlurck...lick, suck... urnfh, rnmh, shlip... shlick」
 
 #「ちゅちゅるっ、じゅるぅ……くりゅっ、んん……ちゅぷっ、ぷちゅむっ」
+#SCRIPT ORIGINAL 「ちゅちゅるっ、じゅるぅ……くりゅっ、んん……ちゅぷっ、ぷちゅむっ」
 ＠Zakuro,Q00057
 「suck suck, jlrrp... shlick, mmh... shulck, nhh, shulp」
 
 #顔の向きを変えながら、興奮で膨らむ亀頭へあらゆる角度から舌責めを施してくるざくろ。
+#SCRIPT ORIGINAL 顔の向きを変えながら、興奮で膨らむ亀頭へあらゆる角度から舌責めを施してくるざくろ。
 　Turning her face, she uses her tongue to attack my glans swelling with excitement from every angle.
 
 #生暖かな唾液と舌の弾力が慣れたように滑り、それが怒張にゾクゾクと性行為の刺激を走らせてくる。
+#SCRIPT ORIGINAL 生暖かな唾液と舌の弾力が慣れたように滑り、それが怒張にゾクゾクと性行為の刺激を走らせてくる。
 　It's so slippery with her spit it's like her tongue is more flexible, and the sexual stimulation sends shivers through my erection.
 
 #竿を握った手は動かない。
 #それが気持ちよさに混じってじれったさを生み出していた。
+#SCRIPT ORIGINAL 竿を握った手は動かない。
+#SCRIPT ORIGINAL それが気持ちよさに混じってじれったさを生み出していた。
 　Her hand holding the shaft doesn't move. It creates feelings of impatience mixed in with the pleasure.
 
 #これも、ざくろの意図した手淫の一つなのだろうか。
+#SCRIPT ORIGINAL これも、ざくろの意図した手淫の一つなのだろうか。
 　This must be another one of her perverted tricks.
 
 #「ちゅぶ、じゅぶぶ……ちゅるぅ、んっ、フッ……」
+#SCRIPT ORIGINAL 「ちゅぶ、じゅぶぶ……ちゅるぅ、んっ、フッ……」
 ＠Zakuro,Q00058
 「shlip, jrrble... slurp, nh, heh...」
 
 #「……？」
+#SCRIPT ORIGINAL 「……？」
 ＠Itsuki
 「...?」
 
 #……何だ？　笑ったのか？
+#SCRIPT ORIGINAL ……何だ？　笑ったのか？
 　...What was that? Did she just laugh?
 
 #と言っても年相応の子が浮かべるような無邪気な笑みとは程遠いものだが。
+#SCRIPT ORIGINAL と言っても年相応の子が浮かべるような無邪気な笑みとは程遠いものだが。
 　Even if it was, it's a far cry from the innocent smile you'd expect for a child her age.
 
 #「……どうした？」
+#SCRIPT ORIGINAL 「……どうした？」
 ＠Itsuki
 「...What's funny?」
 
 #「んっ、ふぅむ……別に」
+#SCRIPT ORIGINAL 「んっ、ふぅむ……別に」
 ＠Zakuro,Q00059
 「Mh, haumh, hehe... it's nothing」
 
 #「止めようとしてたのに……いざ舐めたら、もうこんなに無抵抗になってるから」
+#SCRIPT ORIGINAL 「止めようとしてたのに……いざ舐めたら、もうこんなに無抵抗になってるから」
 ＠Zakuro,Q00060
 「You kept trying to stop me... but now that I'm licking it, it's completely helpless」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #オレはまだ、驚きの渦中に居て、次の行動に移れないでいるのか……？
+#SCRIPT ORIGINAL オレはまだ、驚きの渦中に居て、次の行動に移れないでいるのか……？
 　I'm still totally confused and at a loss, do I even want to change what's happening...?
 
 #……いや、それだけじゃない。
+#SCRIPT ORIGINAL ……いや、それだけじゃない。
 　...No, it's not just that.
 
 #ざくろの舌使いは、今まで多くは無くも経験したフェラチオのどれよりも手馴れ、落ち着いたものだった。
+#SCRIPT ORIGINAL ざくろの舌使いは、今まで多くは無くも経験したフェラチオのどれよりも手馴れ、落ち着いたものだった。
 　Zakuro's tongue use is the best out of the few blowjobs I've had, so I settled down.
 
 #常識や理性が生み出す疑問と抵抗を、刹那の気持ちよさで押し流させる……その期待をさせる焦らし方。
+#SCRIPT ORIGINAL 常識や理性が生み出す疑問と抵抗を、刹那の気持ちよさで押し流させる……その期待をさせる焦らし方。
 　My reason and common sense that finds fault with this is being swept away by the pleasure of the moment... it's the way she teases me heightening my anticipation.
 
 #「大丈夫、おチンチンはそういうものだって教えてもらってる」
+#SCRIPT ORIGINAL 「大丈夫、おチンチンはそういうものだって教えてもらってる」
 ＠Zakuro,Q00061
 「It's fine, I'm teaching you that this is the way dicks are」
 
 #「んっ、ちゅく……ちゅぷぅっ、こういう時って、出したいんでしょ」
+#SCRIPT ORIGINAL 「んっ、ちゅく……ちゅぷぅっ、こういう時って、出したいんでしょ」
 ＠Zakuro,Q00062
 「Mh, squip... slurpp, in a situation like this, it wants to come, doesn't it?」
 
 #こちらの心情を読み切ったように言うと、唇を開くざくろ。
+#SCRIPT ORIGINAL こちらの心情を読み切ったように言うと、唇を開くざくろ。
 　Speaking as if she's seen through me completely, Zakuro opens her lips.
 
 #チロリと見える小さく真っ白な歯並びの向こう側へ、ためらい無く怒張を含み始める。
+#SCRIPT ORIGINAL チロリと見える小さく真っ白な歯並びの向こう側へ、ためらい無く怒張を含み始める。
 　Beyond the row of small white teeth that flickered into view, she starts taking in my cock without halting.
 
 event		"event\EV_ZAK_010-01.png"
 
 #「ふぅっ……んぅ、ちゅぅむ……んぐふっ……」
+#SCRIPT ORIGINAL 「ふぅっ……んぅ、ちゅぅむ……んぐふっ……」
 ＠Zakuro,Q00063
 「Fuh... nhh, shlrrsh... nhh, gulp」
 
 #喉を突く亀頭にむせると、一瞬その息苦しさに恍惚とした熱を頬に浮かせた。
+#SCRIPT ORIGINAL 喉を突く亀頭にむせると、一瞬その息苦しさに恍惚とした熱を頬に浮かせた。
 　The head prods the back of her throat choking her, and the for a moment the difficulty breathing makes her cheeks flush with ecstasy.
 
 #「……苦しいんだろ、無理するな」
+#SCRIPT ORIGINAL 「……苦しいんだろ、無理するな」
 ＠Itsuki
 「...It’s hard to breathe, isn’t it? Don't push yourself」
 
 #「……（ふるふる）」
+#SCRIPT ORIGINAL 「……（ふるふる）」
 ＠Zakuro,Q00064
 「...（shake shake）」
 
 #「ぢゅるるっ、ちゅ……りゅぶぅ、んんふ……ちゅるっ、じゅッ、くぷぅッ」
+#SCRIPT ORIGINAL 「ぢゅるるっ、ちゅ……りゅぶぅ、んんふ……ちゅるっ、じゅッ、くぷぅッ」
 ＠Zakuro,Q00065
 「jrrble, shlip... suck, mmfh... shlurp, jlip, glurp」
 
 #ざくろは咥える深さを緩めようとせず、首を前後へと動かし始めた。
+#SCRIPT ORIGINAL ざくろは咥える深さを緩めようとせず、首を前後へと動かし始めた。
 　Without trying to slacken the depth of my cock inside her mouth, she starts moving her head back and forth.
 
 layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
@@ -2077,181 +2483,230 @@ screen_transition	1000
 voice_bg		"Q90001"
 
 #熱い唾液が舌と共にねっとりと亀頭から塗りつけられ、竿の方へぬちゅぬちゅと擦られる。
+#SCRIPT ORIGINAL 熱い唾液が舌と共にねっとりと亀頭から塗りつけられ、竿の方へぬちゅぬちゅと擦られる。
 　She smears hot saliva along from the glans using her tongue, and works the shaft squishily.
 
 #感度の高い部分に刺激を受け、それが間断なく往復される摩擦感が襲い掛かってきた。
+#SCRIPT ORIGINAL 感度の高い部分に刺激を受け、それが間断なく往復される摩擦感が襲い掛かってきた。
 　Stimulating the most sensitive areas, the feeling of her constantly rubbing them back and forth assails me.
 
 #「ぢゅぅぅッ、じゅぶ、くぷりゅっ……じゅるっ、んぷぅっ……んっ、ぐぶッ」
+#SCRIPT ORIGINAL 「ぢゅぅぅッ、じゅぶ、くぷりゅっ……じゅるっ、んぷぅっ……んっ、ぐぶッ」
 ＠Zakuro,Q00066
 「shlrrr, shlurk, shluck... shlip, mph... nh, glub」
 
 #「ぐぅぶッ……ぢゅぶぅ、どう……足りないなら、ん……もっと強くするけど」
+#SCRIPT ORIGINAL 「ぐぅぶッ……ぢゅぶぅ、どう……足りないなら、ん……もっと強くするけど」
 ＠Zakuro,Q00067
 「glub... jlurp, how is it... if it's not enough, nh... I'll do it harder」
 
 #また肉棒の大きさに咽ながら、艶やかに流れるような黒髪を揺らし見上げる。
+#SCRIPT ORIGINAL また肉棒の大きさに咽ながら、艶やかに流れるような黒髪を揺らし見上げる。
 　Choking on the length of my cock again, her smoothly flowing black hair sways while she looks up at me.
 
 #話しながらも咥えたままの竿が舌に擦られ、柔らかそうなほっぺを内側から歪に膨らませた。
+#SCRIPT ORIGINAL 話しながらも咥えたままの竿が舌に擦られ、柔らかそうなほっぺを内側から歪に膨らませた。
 　She held my cock in her mouth even while speaking, and as she rubs it with tongue, her delicate-looking cheeks jut out from inside.
 
 #……ここまでくると何かもう、色々と諦めた。脱力だけでなく、そう思わせる気持ちよさがある。
+#SCRIPT ORIGINAL ……ここまでくると何かもう、色々と諦めた。脱力だけでなく、そう思わせる気持ちよさがある。
 　...When it's come this far, I've already kind of given up. It's not just loss of will to fight, the pleasure is making me think this way.
 
 #「手も動かしてくれ……いつまでも続けるわけにいかないからな……」
+#SCRIPT ORIGINAL 「手も動かしてくれ……いつまでも続けるわけにいかないからな……」
 ＠Itsuki
 「Can you start using your hand...? You can't keep going like this forever...」
 
 #「ん、ふぅむ……分かった」
+#SCRIPT ORIGINAL 「ん、ふぅむ……分かった」
 ＠Zakuro,Q00068
 「Nh, umfh... sure」
 
 layer_movie_speed_set	0,120
 
 #滴る唾液でヌルヌルになった肉茎に小さな手の平が纏わりつく。
+#SCRIPT ORIGINAL 滴る唾液でヌルヌルになった肉茎に小さな手の平が纏わりつく。
 　Her small hand wraps around my dick, slippery from her dribbling saliva.
 
 #ふぐりの奥まで潜るように根本から擦り、強弱をつけながらズルズルとシゴき始めた。
+#SCRIPT ORIGINAL ふぐりの奥まで潜るように根本から擦り、強弱をつけながらズルズルとシゴき始めた。
 　At first she feels up my ballsack sliding her fingers into it, and then holding the shaft firmly begins stroking it.
 
 #「ぢゅぢゅぢゅッ、ぷちゅぅッ……ちゅくっ、ちゅぅむっ、じゅるッ……んぷぁっ、あぅふ」
+#SCRIPT ORIGINAL 「ぢゅぢゅぢゅッ、ぷちゅぅッ……ちゅくっ、ちゅぅむっ、じゅるッ……んぷぁっ、あぅふ」
 ＠Zakuro,Q00069
 「Jluck, jlip, shlick... mmh, shlurp, shlip, jlip... mph, aufh」
 
 #さすが手使いもずいぶん慣れている……
+#SCRIPT ORIGINAL さすが手使いもずいぶん慣れている……
 　As you'd expect, she's quite good at using her hand too...
 
 #口内のしゃぶりつく亀頭の性感と見事に溶け合い、具合のいい力加減が肉茎に焦燥を掻き立てた。
+#SCRIPT ORIGINAL 口内のしゃぶりつく亀頭の性感と見事に溶け合い、具合のいい力加減が肉茎に焦燥を掻き立てた。
 　It meshes together incredibly well with the pleasure in my glans which she's sucking, and now that she's using a satisfying amount of force my dick gets really aroused.
 
 #その動きが早くも、少しずつこちらの限界が近づかせてくる。
+#SCRIPT ORIGINAL その動きが早くも、少しずつこちらの限界が近づかせてくる。
 　I start approaching my limit little by little.
 
 #「くちゅぅッ！　くぷっ、ぢゅぅ……れるちゅっ、ちゅぢゅぅ……ぇぷっ、ぢゅるるっ」
+#SCRIPT ORIGINAL 「くちゅぅッ！　くぷっ、ぢゅぅ……れるちゅっ、ちゅぢゅぅ……ぇぷっ、ぢゅるるっ」
 ＠Zakuro,Q00070
 「suck! shlehp, shlip... urph, rmmh, shlrck... aurhp, jlrrp」
 
 #「くちゅぅむっ、じゅぷッ、りゅりゅぅ……くぷりゅっ、じゅぷぅ、んんふ……ちゅぶぅっ」
+#SCRIPT ORIGINAL 「くちゅぅむっ、じゅぷッ、りゅりゅぅ……くぷりゅっ、じゅぷぅ、んんふ……ちゅぶぅっ」
 ＠Zakuro,Q00071
 「shlick, mh, squerp, mrrnph... kershlip, jlup, mmfh... schlub」
 
 #年相応の子がお菓子でも食べているように、ためらい無くざくろの口は何度もストロークを繰り返した。
+#SCRIPT ORIGINAL 年相応の子がお菓子でも食べているように、ためらい無くざくろの口は何度もストロークを繰り返した。
 　Zakuro strokes it with her mouth over and over without faltering, like a child her age would eat candy.
 
 #射出されるものを求め、唾液越しに激しく吸いたてられる。
+#SCRIPT ORIGINAL 射出されるものを求め、唾液越しに激しく吸いたてられる。
 　She sucks it violently through the saliva, demanding what I'm going to shoot out.
 
 #「っく……このままだと、ほんとに出るぞ……いいのか」
+#SCRIPT ORIGINAL 「っく……このままだと、ほんとに出るぞ……いいのか」
 ＠Itsuki
 「Urgh... At this rate, I'm really going to come... are you OK with that?」
 
 #「ぢゅぅっ！　ちゅくるッ……ん、いい。それが仕事だから」
+#SCRIPT ORIGINAL 「ぢゅぅっ！　ちゅくるッ……ん、いい。それが仕事だから」
 ＠Zakuro,Q00072
 「suck! mh, shlrrph... nh, yeah. It's my job after all」
 
 #スッと感情の読めない瞳を細め、肉竿の付け根からふぐりを揉むように握り込むざくろ。
+#SCRIPT ORIGINAL スッと感情の読めない瞳を細め、肉竿の付け根からふぐりを揉むように握り込むざくろ。
 　Zakuro softly narrows her eyes expression unreadable, and takes hold of my dick at the base so she can play with my testes.
 
 #「あふぅっ……興奮してる性器から、ここに溜まってる精液いっぱい出したいんでしょ……
+#SCRIPT ORIGINAL 「あふぅっ……興奮してる性器から、ここに溜まってる精液いっぱい出したいんでしょ……」
 ＠Zakuro,Q00073
 「Afuh... you want to shoot a lot of your semen that's accumulated here, out from your aroused dick don't you...」
 
 #「んっ、ぐぷぷっ……遠慮しなくていい……ぢゅちゅぅっ、あぷっ、ぷちゅぅッ！　出ひて……ぐぶむッ、ぐぶぢゅぅッ！」
+#SCRIPT ORIGINAL 「んっ、ぐぷぷっ……遠慮しなくていい……ぢゅちゅぅっ、あぷっ、ぷちゅぅッ！　出ひて……ぐぶむッ、ぐぶぢゅぅッ！」
 ＠Zakuro,Q00074
 「Mh, glurrpp... you don't have to hold back... shluck, apuh, squerp! Let i' out... glub, glrrbh!」
 
 #気道を塞ぎそうなくらい深いディープスロートが続けられる。
+#SCRIPT ORIGINAL 気道を塞ぎそうなくらい深いディープスロートが続けられる。
 　She continues deepthroating it so far it seems to block her windpipe.
 
 #最初に一瞬見えた恍惚な表情をまた浮かべると、ざくろはわざと咽るように、亀頭に喉を犯させていく。
+#SCRIPT ORIGINAL 最初に一瞬見えた恍惚な表情をまた浮かべると、ざくろはわざと咽るように、亀頭に喉を犯させていく。
 　The look of ecstasy appears on her face again, and she purposely has my glans violate her throat choking her.
 
 #「ぢゅぅるッ！　くぷむッ……ぢゅぶむ、ぢゅちゅぅッ、ん……くぶぅッ！　ぢゅるるッ」
+#SCRIPT ORIGINAL 「ぢゅぅるッ！　くぷむッ……ぢゅぶむ、ぢゅちゅぅッ、ん……くぶぅッ！　ぢゅるるッ」
 ＠Zakuro,Q00075
 「jlurp! squip, pammh... shlrrb, jluck, mhh... shlrrb! jlrrrp」
 
 #「ちゅびちゅッ！　ぷじゅぅッ、くぶむッ！　ぢゅるるッ……んぢゅッ、んぅッ、くぶふぅッ！　にぢゅぢゅッ！」
+#SCRIPT ORIGINAL 「ちゅびちゅッ！　ぷじゅぅッ、くぶむッ！　ぢゅるるッ……んぢゅッ、んぅッ、くぶふぅッ！　にぢゅぢゅッ！」
 ＠Zakuro,Q00076
 「shlrp squerp, mh! squip, shlub! slurrrp... mrgh, nhh, shlrp, fah! shlrrp!」
 
 #「んッ、ふぅっ……強く出来るって言ったな、ざくろ……それで頼む」
+#SCRIPT ORIGINAL 「んッ、ふぅっ……強く出来るって言ったな、ざくろ……それで頼む」
 ＠Itsuki
 「Nh, fuh... Zakuro, you said you can do it harder... I'm leaving it to you」
 
 layer_movie_speed_set	0,140
 
 #「じゅぶぅッ、んぅ……ん、くふぅ」
+#SCRIPT ORIGINAL 「じゅぶぅッ、んぅ……ん、くふぅ」
 ＠Zakuro,Q00077
 「jlrrb, nhh... mh, kufh」
 
 #始まってからおそらく終わるまで、ただ一方的に責められるだけの情けない状況。
+#SCRIPT ORIGINAL 始まってからおそらく終わるまで、ただ一方的に責められるだけの情けない状況。
 　From beginning to end, it looks like she's going to have her way with me... what a miserable situation.
 
 #しかしこちらが口を挟む余地のない、外見に似つかわしくないほどの口淫なのだった。
+#SCRIPT ORIGINAL しかしこちらが口を挟む余地のない、外見に似つかわしくないほどの口淫なのだった。
 　But I have no way to interrupt her oral sex which you wouldn't think she'd be capable of.
 
 #ざくろはオレの言葉に一度息を吐き、
+#SCRIPT ORIGINAL ざくろはオレの言葉に一度息を吐き、
 　She takes a breather to respond to me...
 
 event		"event\EV_ZAK_010-02A.png"
 voice_bg_stop
 
 #「……じゃ、８０％くらいの力にする」
+#SCRIPT ORIGINAL 「……じゃ、８０％くらいの力にする」
 ＠Zakuro,Q00078
 「...Then, I'll use 80% strength」
 
 #そんな答えを返してきた。
+#SCRIPT ORIGINAL そんな答えを返してきた。
 　That's what she told me.
 
 #８０％……いろいろとツッコミどこが満載だが。とりあえず１００％がＭＡＸ、本気ということか？
+#SCRIPT ORIGINAL ８０％……いろいろとツッコミどこが満載だが。とりあえず１００％がＭＡＸ、本気ということか？
 　80%... she's full of clever remarks. For now, I guess that means she'd only be going all out at 100% max.
 
 #「今の冗談は、笑いどころが分からなかった。フェラチオに本気や手加減の違いがあるはずないだろ？」
+#SCRIPT ORIGINAL 「今の冗談は、笑いどころが分からなかった。フェラチオに本気や手加減の違いがあるはずないだろ？」
 ＠Itsuki
 「Is that supposed to be a joke? You don't have levels where you take it easy or go all out on someone doing fellatio, do you?」
 
 #「んく、ちゅ……ある。今はまだ、５０％くらいだから」
+#SCRIPT ORIGINAL 「んく、ちゅ……ある。今はまだ、５０％くらいだから」
 ＠Zakuro,Q00079
 「mgh, suck... I do. I've only been going at 50% so far」
 
 #「……じゃ、その１００％の本気っていうのはやってくれないのか？」
+#SCRIPT ORIGINAL 「……じゃ、その１００％の本気っていうのはやってくれないのか？」
 ＠Itsuki
 「...Then, you won't go all out for me at 100%?」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00080
 「......」
 
 #限界硬度まで勃起した怒張を握りながら、少し考えている。
+#SCRIPT ORIGINAL 限界硬度まで勃起した怒張を握りながら、少し考えている。
 　While grasping my fully hard and erect penis, she thinks for a moment.
 
 #「精液が枯れてもいいなら、やっていいわよ」
+#SCRIPT ORIGINAL 「精液が枯れてもいいなら、やっていいわよ」
 ＠Zakuro,Q00081
 「If you're fine with your semen running dry, I'll do it」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #淡々とした口調は、やっぱり笑えないが……
+#SCRIPT ORIGINAL 淡々とした口調は、やっぱり笑えないが……
 　The way she said that matter-of-factly can hardly be taken as a joke...
 
 #すでにこんな子がフェラチオをしていることが理解を超えてるわけで、これが冗談なのか本気なのかは分かりかねる。
+#SCRIPT ORIGINAL すでにこんな子がフェラチオをしていることが理解を超えてるわけで、これが冗談なのか本気なのかは分かりかねる。
 　Having found such a young girl performing fellatio, I'm not sure if this is for real or a prank anymore.
 
 #「雫からは、まだ様子見だから〝不能〟にさせるなって言われてるけど」
+#SCRIPT ORIGINAL 「雫からは、まだ様子見だから〝不能〟にさせるなって言われてるけど」
 ＠Zakuro,Q00082
 「Shizuku told me this is just a trial run, so don't make him "impotent"」
 
 #「……い、いや、わかった。別にオレも好きで干乾びたいわけじゃない」
+#SCRIPT ORIGINAL 「……い、いや、わかった。別にオレも好きで干乾びたいわけじゃない」
 ＠Itsuki
 「...N-never mind, it's fine. It's not like I want to shrivel up either」
 
 #８０％で妥協する気持ちで否定をしたが、しかし、正直オレは甘くみていた。
+#SCRIPT ORIGINAL ８０％で妥協する気持ちで否定をしたが、しかし、正直オレは甘くみていた。
 　I was a little hesitant on compromising at 80%, but in reality that was naive of me.
 
 #こちらの返事を聞き、ざくろはさっきと同じ再び口内に怒張を含むのだが、
+#SCRIPT ORIGINAL こちらの返事を聞き、ざくろはさっきと同じ再び口内に怒張を含むのだが、
 　Hearing my response, Zakuro brings my cock into her mouth again like last time, but...
 
 layer_movie_load	0,"movie\EV_ZAK_010-01.mpg",play_loop
@@ -2260,105 +2715,134 @@ layer_movie_speed_set	0,180
 voice_bg		"Q90002"
 
 #「ちゅぢゅぷっ！　ちゅりゅぅっ、ぐぷっ、ちゅぷぅッ……ねりゅ、ぢゅぶぶっ！　れりゅぅっ！」
+#SCRIPT ORIGINAL 「ちゅぢゅぷっ！　ちゅりゅぅっ、ぐぷっ、ちゅぷぅッ……ねりゅ、ぢゅぶぶっ！　れりゅぅっ！」
 ＠Zakuro,Q00083
 「shlurck! suck, slurp, glup, chlip... urnnh, shlrrb! shlick!」
 
 #「りゅぶっ！　ちゅぶぅっ！　ぢゅぶっ、ぢゅぶっ！　ぐぶんっ！　ねちゅっ、ちゅぶ……っ、んぐぶっ！」
+#SCRIPT ORIGINAL 「りゅぶっ！　ちゅぶぅっ！　ぢゅぶっ、ぢゅぶっ！　ぐぶんっ！　ねちゅっ、ちゅぶ……っ、んぐぶっ！」
 ＠Zakuro,Q00084
 「shlurb! chlurp! mh, jlub, jlub! glurb, nh! shluck... nh, glub, suck!」
 
 #本人曰く８０％のフェラチオで、どこか愉しむような感じのあった口と手の動きが、一気に加速された。
+#SCRIPT ORIGINAL 本人曰く８０％のフェラチオで、どこか愉しむような感じのあった口と手の動きが、一気に加速された。
 　Starting with her so-called 80% fellatio, she seems to enjoy suddenly increasing the pace of her hands and mouth.
 
 #「ちゅるるッ、ぢゅぷぅッ……ぞぢゅぢゅッ！　ぢゅるるぅッ！」
+#SCRIPT ORIGINAL 「ちゅるるッ、ぢゅぷぅッ……ぞぢゅぢゅッ！　ぢゅるるぅッ！」
 ＠Zakuro,Q00085
 「shlurp, shlipp... julck, jlip! mh, jlrrrp!」
 
 #「うっ！　ちょ……いきなりっ……いつッ！」
+#SCRIPT ORIGINAL 「うっ！　ちょ……いきなりっ……いつッ！」
 ＠Itsuki
 「Ah! Wait... so suddenly... I wasn't...!」
 
 #ざくろの手が痛みを伴うほど強い圧迫を与えてくる。
+#SCRIPT ORIGINAL ざくろの手が痛みを伴うほど強い圧迫を与えてくる。
 　Zakuro holds it so tightly it hurts.
 
 #しかし、これが手淫のミスではないことはすぐに分かった。
+#SCRIPT ORIGINAL しかし、これが手淫のミスではないことはすぐに分かった。
 　However I quickly realize this is not a mistake with her handjob.
 
 #「ぢゅぶッ！　にぢゅぢゅぅッ、んくぅッ！　ぢゅぱッ……れりゅりゅッ、にりゅぅッ、ちゅぶるッ！　くぶッ……ぢゅぐぅッ！」
+#SCRIPT ORIGINAL 「ぢゅぶッ！　にぢゅぢゅぅッ、んくぅッ！　ぢゅぱッ……れりゅりゅッ、にりゅぅッ、ちゅぶるッ！　くぶッ……ぢゅぐぅッ！」
 ＠Zakuro,Q00086
 「mh, shlrrb! nhh, splip, squip, gulp! nh, shlrch, mrhnhhrr... nh, shlip, shluck! glub, ah... sqrrrpp!」
 
 #頬を窄めたピストンを受ける亀頭の快感が、痛みで緩む尿道へ精液を駆け上がらせようとする。
+#SCRIPT ORIGINAL 頬を窄めたピストンを受ける亀頭の快感が、痛みで緩む尿道へ精液を駆け上がらせようとする。
 　My glans pistons inside her narrowed cheeks, pleasuring me, in order to try and make semen run up my urethra, which in turn is loosening up with the pain.
 
 #これは、こちらに射精を我慢させないようにしているのだ。
+#SCRIPT ORIGINAL これは、こちらに射精を我慢させないようにしているのだ。
 　She's making me unable to hold back my ejaculation.
 
 #「くぅッ……ぅ！」
+#SCRIPT ORIGINAL 「くぅッ……ぅ！」
 ＠Itsuki
 「Urgh...ah!」
 
 #「ふぅっ、んちゅむ……この方法、我慢してたら苦しいんでしょ。そう教わった」
+#SCRIPT ORIGINAL 「ふぅっ、んちゅむ……この方法、我慢してたら苦しいんでしょ。そう教わった」
 ＠Zakuro,Q00087
 「mfuh, squip... if you try to hold back while I'm doing this, it hurts, doesn't it? That's what I was taught」
 
 #「ぢゅぶぅッ！　んぅっ、くぶりゅッ……ねぢゅぅッ！　ちゅくッ、ぢゅッ、ぬりゅりゅ……ぢゅぐぅッ！」
+#SCRIPT ORIGINAL 「ぢゅぶぅッ！　んぅっ、くぶりゅッ……ねぢゅぅッ！　ちゅくッ、ぢゅッ、ぬりゅりゅ……ぢゅぐぅッ！」
 ＠Zakuro,Q00088
 「shlip, squerp! nh, ah, shlick...mhh, slurp! suck, urhh, shlrrck... jlurck!」
 
 #男のオレでも初めての経験を、はるか年下のこんな女の子が自称８０％の力で扱ってくる。
+#SCRIPT ORIGINAL 男のオレでも初めての経験を、はるか年下のこんな女の子が自称８０％の力で扱ってくる。
 　A girl like this who is way younger than me is giving me the experience of my life with 80% strength.
 
 #しかも口内では、普通ではない量の唾液が熱く粘質に次々と滲まされていた。
+#SCRIPT ORIGINAL しかも口内では、普通ではない量の唾液が熱く粘質に次々と滲まされていた。
 　And in her mouth, a greater than usual amount of saliva splashes around hotly.
 
 #ネトネトに満ちた粘質な音が、フェラチオに歪む唇から大きく響き渡って鼓膜に響く。
+#SCRIPT ORIGINAL ネトネトに満ちた粘質な音が、フェラチオに歪む唇から大きく響き渡って鼓膜に響く。
 　The sloppy wet sounds coming from her lips bent in performing fellatio resound and echo in my eardrums.
 
 #「あぅむッ、くぶりゅッ……ぷぁッ、唾くらい、基本」
+#SCRIPT ORIGINAL 「あぅむッ、くぶりゅッ……ぷぁッ、唾くらい、基本」
 ＠Zakuro,Q00089
 「Aumh, shluck... paah, the amount of saliva is per usual」
 
 #「もっとネトネトが好きなら……ぢゅるるッ！　れるちゅッ、くちゅぅッ……まだ唾液増やせるけど、いる？」
+#SCRIPT ORIGINAL 「もっとネトネトが好きなら……ぢゅるるッ！　れるちゅッ、くちゅぅッ……まだ唾液増やせるけど、いる？」
 ＠Zakuro,Q00090
 「If you'd like it more slurpy, then... shlrr! lick, suck... I can make it so there's more saliva, would you?」
 
 #「い、いや、それは……ぅッ！」
+#SCRIPT ORIGINAL 「い、いや、それは……ぅッ！」
 ＠Itsuki
 「N-no, that's not...uh!」
 
 #正直、それに答える余裕が無い。
+#SCRIPT ORIGINAL 正直、それに答える余裕が無い。
 　Honestly, I'm so messed up I can't even reply.
 
 #ざくろの方もそれが分かったようで、答えを求めるでもなく行為を再開させる。
+#SCRIPT ORIGINAL ざくろの方もそれが分かったようで、答えを求めるでもなく行為を再開させる。
 　Zakuro seems to have understood that as well, she resumes her activity without waiting for a response.
 
 #「れるりゅッ！　りゅりゅぅッ、ぢゅ、くぶむッ……ぢゅちゅるッ！　くぶぅッ、ぢゅぶッ、ぢゅぢゅ！」
+#SCRIPT ORIGINAL 「れるりゅッ！　りゅりゅぅッ、ぢゅ、くぶむッ……ぢゅちゅるッ！　くぶぅッ、ぢゅぶッ、ぢゅぢゅ！」
 ＠Zakuro,Q00091
 「shlick! shlrrgh, suck, urfbh... jlrrrp! jlub, shlurp, jlurck!」
 
 #「んぅッ、ぢゅぅぶぶッ！　くぶぢゅッ！　にぢゅッ……ぢゅッ、んぅぶ、ぢゅぐぅッ！」
+#SCRIPT ORIGINAL 「んぅッ、ぢゅぅぶぶッ！　くぶぢゅッ！　にぢゅッ……ぢゅッ、んぅぶ、ぢゅぐぅッ！」
 ＠Zakuro,Q00092
 「Nh, jrrble! jlip! ah, suck...nh, shlick, julp!」
 
 #「ふぶぅッ、んくんッ……根本がビクビクしてる……口と顔、どっちに出してもいいから……」
+#SCRIPT ORIGINAL 「ふぶぅッ、んくんッ……根本がビクビクしてる……口と顔、どっちに出してもいいから……」
 ＠Zakuro,Q00093
 「glurb, mghn... it's started twitching... my mouth or my face, you can come on whichever you like」
 
 #怒張を喉の奥へ奥へと送り込むように深く咥え込むざくろ。
+#SCRIPT ORIGINAL 怒張を喉の奥へ奥へと送り込むように深く咥え込むざくろ。
 　Zakuro brings my cock deeply into her mouth sending it far, far down her throat.
 
 #結局最後まで淡々としたままの口調に僅かに現れる、息苦しさへの恍惚の色。
+#SCRIPT ORIGINAL 結局最後まで淡々としたままの口調に僅かに現れる、息苦しさへの恍惚の色。
 　A tinge of ecstasy at the difficulty breathing overlays her indifferent look that she maintained to the end.
 
 #「あぁ、そうさせてもらう。我慢できそうな余裕は無いな……ッ」
+#SCRIPT ORIGINAL 「あぁ、そうさせてもらう。我慢できそうな余裕は無いな……ッ」
 ＠Itsuki
 「Yeah, I'll do it. There's no way I could hold back now...」
 
 #何よりも、こちらの我慢を無理に弛緩させる尿道への圧迫が新鮮で、これ以上は耐え切れそうにない。
+#SCRIPT ORIGINAL 何よりも、こちらの我慢を無理に弛緩させる尿道への圧迫が新鮮で、これ以上は耐え切れそうにない。
 　Even if I wanted to, the renewed pressure she puts squeezing on my urethra makes holding back futile, and I can't take it anymore.
 
 #「ねりゅむッ！　ちゅぶ、ぢゅッ……それじゃ、フィニッシュ……」
+#SCRIPT ORIGINAL 「ねりゅむッ！　ちゅぶ、ぢゅッ……それじゃ、フィニッシュ……」
 ＠Zakuro,Q00094
 「shlickk! suck, julp... then, let's finish this...」
 
@@ -2366,30 +2850,38 @@ layer_movie_speed_set	0,200
 voice_bg		"Q90003"
 
 #「はぶむッ……ぢゅりゅるっ！　れぢゅぶ、くぶぅ！　んぶ……ぢゅりゅる！　くぶちゅっ！　ぢゅぢゅぢゅっ！」
+#SCRIPT ORIGINAL 「はぶむッ……ぢゅりゅるっ！　れぢゅぶ、くぶぅ！　んぶ……ぢゅりゅる！　くぶちゅっ！　ぢゅぢゅぢゅっ！」
 ＠Zakuro,Q00095
 「efh, habh, mh... shlick! jlurp, glub! mbh...shlurck! mh, shlip, ah, ha! jlrrrp!」
 
 #唾液に濡れたその一言の後、ざくろの吸引と手の動きが瞬間的に強まった！
+#SCRIPT ORIGINAL 唾液に濡れたその一言の後、ざくろの吸引と手の動きが瞬間的に強まった！
 　After those words wetly spoken through saliva, in a flash Zakuro's sucking and hand motions get stronger!
 
 #８０％というのはブラフじゃない……
 #本当に、この子はまだ行為に全力を注いでいるわけじゃなかったのか。
+#SCRIPT ORIGINAL ８０％というのはブラフじゃない……
+#SCRIPT ORIGINAL 本当に、この子はまだ行為に全力を注いでいるわけじゃなかったのか。
 　Her 80% claim wasn't a bluff... she really wasn't yet putting all her force into it.
 
 #「んくッ！　これ以上は、我慢がッ……」
+#SCRIPT ORIGINAL 「んくッ！　これ以上は、我慢がッ……」
 ＠Itsuki
 「Ngh! Anymore than this, and I'm going to...」
 
 layer_movie_speed_set	0,220
 
 #「ふぐぅッ……ぢゅぐふっ！　んぐっ……ねぢゅぅっ！　ぞぢゅぢゅッ、ぢゅぶぅッ！　んぐぅ、ぢゅりゅちゅっ！　ねりゅッ、んぐちゅっ！」
+#SCRIPT ORIGINAL 「ふぐぅッ……ぢゅぐふっ！　んぐっ……ねぢゅぅっ！　ぞぢゅぢゅッ、ぢゅぶぅッ！　んぐぅ、ぢゅりゅちゅっ！　ねりゅッ、んぐちゅっ！」
 ＠Zakuro,Q00096
 「Fugh... mbh, suck! glup, nh... suck! jlrrsh, mh, shlrrck! glup, mbh, jlickkk! ah, suck, glurp, shlrp!」
 
 #射精感の駆け上がりを訴えるとさらに吸い付いてくる。
+#SCRIPT ORIGINAL 射精感の駆け上がりを訴えるとさらに吸い付いてくる。
 　When I call out my approaching ejaculation, she sucks on it even more.
 
 #とっさにオレは怒張を口から引き抜いていた。
+#SCRIPT ORIGINAL とっさにオレは怒張を口から引き抜いていた。
 　I quickly pull my dick out of her mouth.
 
 #//フラッシュ
@@ -2400,31 +2892,39 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		1000
 wait			2000
 
 #ビュルルッ！　ブビュゥッ！　ビュビュッ、ヂュブッ、ドクドクドクッ！
+#SCRIPT ORIGINAL ビュルルッ！　ブビュゥッ！　ビュビュッ、ヂュブッ、ドクドクドクッ！
 　splutter! splurt! spurt spurt, splip, gush gush gush!
 
 #「んぷぅッ！！　ふぁッ……はあぁぁぁぁっ」
+#SCRIPT ORIGINAL 「んぷぅッ！！　ふぁッ……はあぁぁぁぁっ」
 ＠Zakuro,Q00097
 「nh, mpah!! Faah... haaaaaa」
 
 #熱を持った怒張の先端から、さんざん快感を溜め込まれた精液が一気に迸る！
+#SCRIPT ORIGINAL 熱を持った怒張の先端から、さんざん快感を溜め込まれた精液が一気に迸る！
 　My accumulated semen suddenly surges out with fearsome intensity from the tip of my swelling cock.
 
 #そのドロドロに濃い白濁が、ざくろの紅潮した顔へと大量に浴びせられていった。
+#SCRIPT ORIGINAL そのドロドロに濃い白濁が、ざくろの紅潮した顔へと大量に浴びせられていった。
 　The thick, gooey and cloudy liquid heaps on and showers Zakuro's flushed face.
 
 #「はぁふ、はぁぁっ……精液……すごい出てる……」
+#SCRIPT ORIGINAL 「はぁふ、はぁぁっ……精液……すごい出てる……」
 ＠Zakuro,Q00098
 「Haafh, haaa... your semen... so much is coming out...」
 
 #冷然としていたざくろの表情に初めて驚きが浮かぶ。
+#SCRIPT ORIGINAL 冷然としていたざくろの表情に初めて驚きが浮かぶ。
 　For the first time, Zakuro’s normally indifferent expression gives way to one of surprise.
 
 #ビクビクと脈打ちながら容赦なく放たれる精液は、髪の毛にまで飛沫を飛ばしながら、顔中へ満遍なく降り注ぐのだ。
+#SCRIPT ORIGINAL ビクビクと脈打ちながら容赦なく放たれる精液は、髪の毛にまで飛沫を飛ばしながら、顔中へ満遍なく降り注ぐのだ。
 　My semen that runs out furiously from my pulsing cock sprays even onto her hair, and rains down thoroughly soaking her face.
 
 #//フラッシュ
 
 #ドクドクッ！　ビュクンッ……ドクッ、ドクッ……
+#SCRIPT ORIGINAL ドクドクッ！　ビュクンッ……ドクッ、ドクッ……
 　gush gush! splort... gush, gush...
 
 #■ＣＧ射精後
@@ -2432,61 +2932,78 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		2000
 event			"event\EV_ZAK_010-04.png"
 
 #やがて溢れる精液が、人形のように整った顔を無残なまでに穢していった。
+#SCRIPT ORIGINAL やがて溢れる精液が、人形のように整った顔を無残なまでに穢していった。
 　In the end my semen spilling out horrendously defiled the delicate features of her doll-like face.
 
 #「んんふ……ふぅ、射精、終わった……？」
+#SCRIPT ORIGINAL 「んんふ……ふぅ、射精、終わった……？」
 ＠Zakuro,Q00099
 「Mmfh...fuh, are you finished coming...?」
 
 #「え、あぁ……まぁ、終わったかな」
+#SCRIPT ORIGINAL 「え、あぁ……まぁ、終わったかな」
 ＠Itsuki
 「Huh, yeah... I think I'm done」
 
 #行為のさなかは昂揚して気にならなかったが……
 #いざ終わってざくろの惨状を見ると、急に気まずさが湧き上がる。
+#SCRIPT ORIGINAL 行為のさなかは昂揚して気にならなかったが……
+#SCRIPT ORIGINAL いざ終わってざくろの惨状を見ると、急に気まずさが湧き上がる。
 　When we were in the middle of doing it I was on a high and I didn't worry about it, but... now that I'm done, looking at Zakuro's awful state I suddenly feel a little guilty.
 
 #「ん……こんなに出るなんて思わなかったから、ちょっと驚いた」
+#SCRIPT ORIGINAL 「ん……こんなに出るなんて思わなかったから、ちょっと驚いた」
 ＠Zakuro,Q00100
 「Nh... I wasn't expecting you to come so much, you caught me by surprise」
 
 #「すっきりした？」
+#SCRIPT ORIGINAL 「すっきりした？」
 ＠Zakuro,Q00101
 「Are you satisfied?」
 
 #唇や鼻頭にかかった精液を指にすくって舐め取りながら、抑揚無く訪ねてくるざくろ。
+#SCRIPT ORIGINAL 唇や鼻頭にかかった精液を指にすくって舐め取りながら、抑揚無く訪ねてくるざくろ。
 　She scoops up some semen coating her lips and the tip of her nose with her finger and licks it up, while asking me that.
 
 #どう応えろと言うのか……
+#SCRIPT ORIGINAL どう応えろと言うのか……
 　I'm not sure how to reply...
 
 #「……まぁ、な。認めたくはないけど」
+#SCRIPT ORIGINAL 「……まぁ、な。認めたくはないけど」
 ＠Itsuki
 「...Yeah, pretty much. I'd rather not take you up on that」
 
 #「でもつっちー、まだ大きいままで連戦したそう」
+#SCRIPT ORIGINAL 「でもつっちー、まだ大きいままで連戦したそう」
 ＠Zakuro,Q00102
 「But Tsu-chi, it's still big, you look like you could go another round」
 
 #あんなに精液を吐き出して絶頂した肉茎はまだ萎えず、ざくろの手の中で熱を帯びている。
+#SCRIPT ORIGINAL あんなに精液を吐き出して絶頂した肉茎はまだ萎えず、ざくろの手の中で熱を帯びている。
 　My dick that climaxed spurting out so much semen still without going limp, rests hotly in Zakuro's hand.
 
 #「いつまでも握ってるからだ……ッ。ほら、離せ」
+#SCRIPT ORIGINAL 「いつまでも握ってるからだ……ッ。ほら、離せ」
 ＠Itsuki
 「You’ve been holding me up for some time now... just let me go」
 
 #「そう……足りないなら、続けてあげようかと思ったけど」
+#SCRIPT ORIGINAL 「そう……足りないなら、続けてあげようかと思ったけど」
 ＠Zakuro,Q00103
 「Really... I was just thinking if it wasn't enough, I could do it some more for you」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #……いや、別に、残念とかは思ってないぞ。
+#SCRIPT ORIGINAL ……いや、別に、残念とかは思ってないぞ。
 　...Nah, it's not like I'd regret not getting more.
 
 #……少ししか。
+#SCRIPT ORIGINAL ……少ししか。
 　...Maybe a little bit.
 
 scene_end
@@ -2497,23 +3014,28 @@ label	youzyo_08
 @bg_akibeya
 
 #ざくろは一度だけ熱っぽい息を吐くと立ち上がり、後は淡々と事後処理を始めた。
+#SCRIPT ORIGINAL ざくろは一度だけ熱っぽい息を吐くと立ち上がり、後は淡々と事後処理を始めた。
 　Zakuro takes just one excited breath and gets up, and then begins cleaning herself up disinterestedly.
 
 #汚れを拭き取ると、手持ち無沙汰のオレに向き直る。
+#SCRIPT ORIGINAL 汚れを拭き取ると、手持ち無沙汰のオレに向き直る。
 　Once she's wiped off the dirty stuff, she turns to me who was standing there with nothing to do.
 
 @zakuro_small
 @zakuro
 
 #「調教と売春をしてるのは、これで信じた？」
+#SCRIPT ORIGINAL 「調教と売春をしてるのは、これで信じた？」
 ＠Zakuro,Q00104
 「Do you believe we're training and prosituting ourselves now?」
 
 #「う、あぁ……不本意ながら………」
+#SCRIPT ORIGINAL 「う、あぁ……不本意ながら………」
 ＠Itsuki
 「Er, yeah... though I wish it were otherwise...」
 
 #「雫さんはこんなことを、これからもオレにやっていけって言ってるのか……」
+#SCRIPT ORIGINAL 「雫さんはこんなことを、これからもオレにやっていけって言ってるのか……」
 ＠Itsuki
 「Is Shizuku-san telling me to carry on doing this kind of thing from now on...?」
 
@@ -2522,28 +3044,34 @@ label	youzyo_08
 bgm_stop
 
 #「そう。この施設では、こうやって得たお金を借金の返済に充ててるんだ」
+#SCRIPT ORIGINAL 「そう。この施設では、こうやって得たお金を借金の返済に充ててるんだ」
 ＠Shizuku,S00010
 「Yes. In this way this institution acquires money to pay off its debt」
 
 #「あんたの父親も、ずっとこうやって施設を運営してきた」
+#SCRIPT ORIGINAL 「あんたの父親も、ずっとこうやって施設を運営してきた」
 ＠Shizuku,S00011
 「This is how your father was running it as well」
 
 #「……そうか。だから生前、死ぬ間際に父さんは―――え」
+#SCRIPT ORIGINAL 「……そうか。だから生前、死ぬ間際に父さんは―――え」
 ＠Itsuki
 「...I see. So when he was alive, just before he died my father―――huh?」
 
 #「………ん？」
+#SCRIPT ORIGINAL 「………ん？」
 ＠Shizuku,S00012
 「...Hm?」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 @shizuku_ikari
 
 #「こら、途中で言って止めるんじゃないよ。勿体つけられるのは一番好きじゃないんだ」
+#SCRIPT ORIGINAL 「こら、途中で言って止めるんじゃないよ。勿体つけられるのは一番好きじゃないんだ」
 ＠Shizuku,S00013
 「Hey, you can't just stop talking midway through. I hate it when people act all important」
 
@@ -2552,40 +3080,50 @@ bgm_stop
 @bgm03
 
 #「なッ！？　何でいるんですかあんたはッ！？」
+#SCRIPT ORIGINAL 「なッ！？　何でいるんですかあんたはッ！？」
 ＠Itsuki
 「What!? Why are you in here!?」
 
 @shizuku_warai
 
 #「は……？　何でって、これに決まってるだろ」
+#SCRIPT ORIGINAL 「は……？　何でって、これに決まってるだろ」
 ＠Shizuku,S00014
 「Ha...? What do you mean, isn't it obvious?」
 
 #当たり前のように、ドアのスペアキーを取り出す雫さん。
+#SCRIPT ORIGINAL 当たり前のように、ドアのスペアキーを取り出す雫さん。
 　Acting as if it were self-evident, Shizuku takes out her spare key.
 
 #は、入ってきてたのか……ッ！？
 #全然気付かなかった！！
+#SCRIPT ORIGINAL は、入ってきてたのか……ッ！？
+#SCRIPT ORIGINAL 全然気付かなかった！！
 　S-she came into the room...!? I didn't notice at all!!
 
 #「つっちー、夢中になりすぎ。半ばごろからずっとドア開けて見てた」
+#SCRIPT ORIGINAL 「つっちー、夢中になりすぎ。半ばごろからずっとドア開けて見てた」
 ＠Zakuro,Q00105
 「Tsu-chi, you were too into it, she opened the door about halfway through and was watching ever since」
 
 #「止めろッ！！　そして見るな！！」
+#SCRIPT ORIGINAL 「止めろッ！！　そして見るな！！」
 ＠Itsuki
 「Don't hide and spy on me!!」
 
 @shizuku_ikariwarai
 #「まぁまぁ、そんなムキになるような恥ずかしい〝モノ〟じゃないし、良いじゃないか」
+#SCRIPT ORIGINAL 「まぁまぁ、そんなムキになるような恥ずかしい〝モノ〟じゃないし、良いじゃないか」
 ＠Shizuku,S00015
 「Well you know, "it" was nothing to be embarrassed over and get so worked up about, so what's the big deal?」
 
 #「むしろ、結構よかったんじゃないかい？　ざくろ？」
+#SCRIPT ORIGINAL 「むしろ、結構よかったんじゃないかい？　ざくろ？」
 ＠Shizuku,S00016
 「Actually, he was pretty good, wouldn't you say Zakuro?」
 
 #「あえて言うなら、ちょっと早すぎるくらい」
+#SCRIPT ORIGINAL 「あえて言うなら、ちょっと早すぎるくらい」
 ＠Zakuro,Q00106
 「If I may, I'd say he was so good it was over a little too quickly」
 
@@ -2593,13 +3131,16 @@ bgm_stop
 #SE53　Wounding words（gusa!）
 @se53
 #グサッ――――
+#SCRIPT ORIGINAL グサッ――――
 　stab――――
 
 #「う、うぅ……覗かれた上に、何でオレこんな扱いなんだよ」
+#SCRIPT ORIGINAL 「う、うぅ……覗かれた上に、何でオレこんな扱いなんだよ」
 ＠Itsuki
 「Uh, uuh... how can you two treat me like this after spying on me」
 
 #「まぁ気にしなさんな。別に早漏でも遅漏でも、出るもの出してりゃ差別しないよ」
+#SCRIPT ORIGINAL 「まぁ気にしなさんな。別に早漏でも遅漏でも、出るもの出してりゃ差別しないよ」
 ＠Shizuku,S00017
 「Don't worry about it too much. It doesn't matter if it's premature ejaculation or late ejaculation, the important thing is you got it out」
 
@@ -2607,15 +3148,18 @@ bgm_stop
 @se66
 
 #「フォローになってないッ！！」
+#SCRIPT ORIGINAL 「フォローになってないッ！！」
 ＠Itsuki
 「That's not what I was looking for!!」
 
 @shizuku
 #「ざくろ、ご苦労だったね。もう行っていいよ」
+#SCRIPT ORIGINAL 「ざくろ、ご苦労だったね。もう行っていいよ」
 ＠Shizuku,S00018
 「Zakuro, well done. You can go」
 
 #「ん」
+#SCRIPT ORIGINAL 「ん」
 ＠Zakuro,Q00107
 「'K」
 
@@ -2624,28 +3168,35 @@ bgm_stop
 @se07
 
 #「あ……」
+#SCRIPT ORIGINAL 「あ……」
 ＠Itsuki
 「Ah...」
 
 #あんな事までしておいて、ざくろはあっさりと部屋を出て行ってしまった。
+#SCRIPT ORIGINAL あんな事までしておいて、ざくろはあっさりと部屋を出て行ってしまった。
 　Having given me a blowjob just moments ago, Zakuro left the room without a second thought.
 
 #別に何か反応が欲しかったわけではないが……
+#SCRIPT ORIGINAL 別に何か反応が欲しかったわけではないが……
 　It's not like I wanted her to say something, but...
 
 #「さて、それじゃ本題に入ろうと思ったんだけど……」
+#SCRIPT ORIGINAL 「さて、それじゃ本題に入ろうと思ったんだけど……」
 ＠Shizuku,S00019
 「Now, I thought we could get to the real issue at hand...」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「濃いのが匂うね？」
+#SCRIPT ORIGINAL 「濃いのが匂うね？」
 ＠Shizuku,S00020
 「It smells strong, doesn't it?」
 
 #「いいですよ、もう。オレは負け犬ですから、何とでも言ってください……」
+#SCRIPT ORIGINAL 「いいですよ、もう。オレは負け犬ですから、何とでも言ってください……」
 ＠Itsuki
 「Alright already. I'm the loser here, so we can talk about what you want to...」
 
@@ -2663,97 +3214,122 @@ bgm_stop
 @shizuku
 
 #場所を変えて、オレ自身も仕切りなおし。
+#SCRIPT ORIGINAL 場所を変えて、オレ自身も仕切りなおし。
 　We move to the living room, and I brace myself for what is to come.
 
 #「で、答えは出た？」
+#SCRIPT ORIGINAL 「で、答えは出た？」
 ＠Shizuku,S00021
 「So, do you have an answer?」
 
 #「その前に、聞きたい事があります」
+#SCRIPT ORIGINAL 「その前に、聞きたい事があります」
 ＠Itsuki
 「Before that, there's something I want to ask you」
 
 #「まだあるのかい……？　もう言葉じゃ説明しきれないことまで証明してやったじゃないか」
+#SCRIPT ORIGINAL 「まだあるのかい……？　もう言葉じゃ説明しきれないことまで証明してやったじゃないか」
 ＠Shizuku,S00022
 「You still have questions...? I've already spelled it out for you better than I could with words alone」
 
 #「後は、あんたが素直なのかむっつりなのかっていう選択だけだろう？」
+#SCRIPT ORIGINAL 「後は、あんたが素直なのかむっつりなのかっていう選択だけだろう？」
 ＠Shizuku,S00023
 「All that's left is asking whether you're going to be a good boy or crawl into your shell」
 
 #……間違いない。
 #やっぱりこの人は『エッチ目的だー♪』とか言ってからかう気だ。
+#SCRIPT ORIGINAL ……間違いない。
+#SCRIPT ORIGINAL やっぱりこの人は『エッチ目的だー♪』とか言ってからかう気だ。
 　...There's no doubt, she really means to make fun of me saying I'm a pervert for doing this.
 
 @bgmk07
 #「オレの父さん……前の院長は、死ぬちょっと前から気が変になってましたね」
+#SCRIPT ORIGINAL 「オレの父さん……前の院長は、死ぬちょっと前から気が変になってましたね」
 ＠Itsuki
 「My father... the previous head of this place, went insane just before he died」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Shizuku,S00024
 「......」
 
 #「へぇー、ほとんど絶縁状態だったっていうのによく知ってるね。さっき言おうとしたのもそれかい？」
+#SCRIPT ORIGINAL 「へぇー、ほとんど絶縁状態だったっていうのによく知ってるね。さっき言おうとしたのもそれかい？」
 ＠Shizuku,S00025
 「What, you said you barely kept in touch, how'd you know that? That's what you were going to say just before, right?」
 
 #「そうです。やっぱり原因は、今の調教とか売春が原因でしょう」
+#SCRIPT ORIGINAL 「そうです。やっぱり原因は、今の調教とか売春が原因でしょう」
 ＠Itsuki
 「Yeah. So, I suppose the cause of that was the training and prostitution here」
 
 #「父さんの事は………正直、好きじゃなかった。けど、人となりは他人以上に理解しているつもりです」
+#SCRIPT ORIGINAL 「父さんの事は………正直、好きじゃなかった。けど、人となりは他人以上に理解しているつもりです」
 ＠Itsuki
 「Honestly... I didn't love my father. But I trust in his character more than a lot of people」
 
 #「酒やギャンブルに狂ったり、女の人に大金をばら撒いたりする人じゃなかった」
+#SCRIPT ORIGINAL 「酒やギャンブルに狂ったり、女の人に大金をばら撒いたりする人じゃなかった」
 ＠Itsuki
 「He wasn't the type to go crazy with booze and gambling, or toss his money away at prostitutes」
 
 #「まぁ、それも原因の一つではあるね。正常なわけ無いだろう？　こんな生活しててさ」
+#SCRIPT ORIGINAL 「まぁ、それも原因の一つではあるね。正常なわけ無いだろう？　こんな生活しててさ」
 ＠Shizuku,S00026
 「Yeah, you could say that's part of why it happened. There's nothing easy or normal about living this life, you know」
 
 #「むしろ気が変になった分、あんたの父親の方があたしらより常識があったんじゃないかねぇ」
+#SCRIPT ORIGINAL 「むしろ気が変になった分、あんたの父親の方があたしらより常識があったんじゃないかねぇ」
 ＠Shizuku,S00027
 「I'd say he's more reasonable than the rest of us for going crazy」
 
 #「あなたは、そんな生活をオレに押し付けようとしてる」
+#SCRIPT ORIGINAL 「あなたは、そんな生活をオレに押し付けようとしてる」
 ＠Itsuki
 「And now you're trying to force that life on me」
 
 #「んー……」
+#SCRIPT ORIGINAL 「んー……」
 ＠Shizuku,S00028
 「Hmm...」
 
 #言葉を選ぶようにこめかみへ手を当てて思案する。
+#SCRIPT ORIGINAL 言葉を選ぶようにこめかみへ手を当てて思案する。
 　She ponders and brings her hand to her temple choosing her words.
 
 #「そんな難しいこと考えないでさ、もうエッチしたいかしたくないかでいいんじゃない～？」
+#SCRIPT ORIGINAL 「そんな難しいこと考えないでさ、もうエッチしたいかしたくないかでいいんじゃない～？」
 ＠Shizuku,S00029
 「Don't wrap your head up in such difficult matters. You can just decide whether you want to do perverted things or not」
 
 #「はぁ……帰りますよ、もう元の生活に」
+#SCRIPT ORIGINAL 「はぁ……帰りますよ、もう元の生活に」
 ＠Itsuki
 「Sigh... I'm leaving, back to my normal life」
 
 #「あ～、分かった分かった。まったく、ノリを解せないやつだねぇ」
+#SCRIPT ORIGINAL 「あ～、分かった分かった。まったく、ノリを解せないやつだねぇ」
 ＠Shizuku,S00030
 「Aah, fine I get it. Oh man, you're so hard to deal with」
 
 #「あたしはね。自分のことより子供らのことも考えてほしいわけよ」
+#SCRIPT ORIGINAL 「あたしはね。自分のことより子供らのことも考えてほしいわけよ」
 ＠Shizuku,S00031
 「As for myself, I try to think more about the children here than my own gain」
 
 #「もしかしてここの子達が、わけも無くこんなことをしてると思ってるのかい？」
+#SCRIPT ORIGINAL 「もしかしてここの子達が、わけも無くこんなことをしてると思ってるのかい？」
 ＠Shizuku,S00032
 「Are you under the impression that the kids here are doing this for no reason at all?」
 
 #「………わけ？」
+#SCRIPT ORIGINAL 「………わけ？」
 ＠Itsuki
 「...Reason?」
 
 #そんなの、雫さんが面白いから適当にやってるんだと思ってるが。
+#SCRIPT ORIGINAL そんなの、雫さんが面白いから適当にやってるんだと思ってるが。
 　It wouldn't surprise me if Shizuku was doing this purely for her own amusement though.
 
 @shizuku_ikari
@@ -2762,122 +3338,154 @@ bgm_stop
 #//フラッシュ
 
 #「ぃでッ！！　だからッ、人のナレーションにツッコまないでくださいよッ！」
+#SCRIPT ORIGINAL 「ぃでッ！！　だからッ、人のナレーションにツッコまないでくださいよッ！」
 ＠Itsuki
 「Ouch!! I told you, you're not allowed to interrupt the narration!」
 
 #「顔に出てるんだよ、あんたはッ」
+#SCRIPT ORIGINAL 「顔に出てるんだよ、あんたはッ」
 ＠Shizuku,S00033
 「It's written all over your face!」
 
 #こほん、と咳払いをしてまた落ち着きを戻す。
+#SCRIPT ORIGINAL こほん、と咳払いをしてまた落ち着きを戻す。
 　She clears her throat and calms herself.
 
 @shizuku
 #「ここに入院してきてる子達は、みんな然るべき事情があるからここに来てるのさ」
+#SCRIPT ORIGINAL 「ここに入院してきてる子達は、みんな然るべき事情があるからここに来てるのさ」
 ＠Shizuku,S00034
 「All the children that have ended up here have a good reason for being here with their own circumstances」
 
 #「ちょっと精神面上、ペラペラ喋るわけにもいかない子もいるんだが………例えばみかん」
+#SCRIPT ORIGINAL 「ちょっと精神面上、ペラペラ喋るわけにもいかない子もいるんだが………例えばみかん」
 ＠Shizuku,S00035
 「Just off the top of my head, there's even kids who you shouldn't go off and talk about carelessly... like Mikan」 
 
 #「あの子の両親は大量の借金を作ったまま死んでしまった。そしてその借金は全部、今はあの子が背負っている」
+#SCRIPT ORIGINAL 「あの子の両親は大量の借金を作ったまま死んでしまった。そしてその借金は全部、今はあの子が背負っている」
 ＠Shizuku,S00036
 「Her parents died while owing a massive debt. And now all of that has fallen on her shoulders」
 
 #「あの子を預かった叔父叔母の所にまで借金取りが押しかける始末でね。暴力団関係で、みかん自身、随分怖い思いをしていたそうだ」
+#SCRIPT ORIGINAL 「あの子を預かった叔父叔母の所にまで借金取りが押しかける始末でね。暴力団関係で、みかん自身、随分怖い思いをしていたそうだ」
 ＠Shizuku,S00037
 「The lenders followed her to her aunt and uncle's place who were taking care of her. Mikan seems to have been quite frightened about encountering the gang members」
 
 #「みかんが……？」
+#SCRIPT ORIGINAL 「みかんが……？」
 ＠Itsuki
 「Mikan...?」
 
 #浮かぶのは昨日も今朝も見せていたあの元気で明るい笑顔。
+#SCRIPT ORIGINAL 浮かぶのは昨日も今朝も見せていたあの元気で明るい笑顔。
 　I think back to how energetic she was and her bright smile from this morning and yesterday.
 
 #昨日来たばかりなのに人見知りもなく打ち解けたあの子に、そんな影があるなんて想像も出来ない。
+#SCRIPT ORIGINAL 昨日来たばかりなのに人見知りもなく打ち解けたあの子に、そんな影があるなんて想像も出来ない。
 　I would never have guessed she carried a shadow like that, after having arrived just yesterday and presenting herself with no fear at all.
 
 #「まぁ信じないなら信じないでいいさ」
+#SCRIPT ORIGINAL 「まぁ信じないなら信じないでいいさ」
 ＠Shizuku,S00038
 「Well, if you don't want to believe me, then go ahead」
 
 #「とにかく、その叔父叔母にしてみればいい迷惑さ。だからその高利貸しからここの話を聞き、借金ごと放り込んだんだ」
+#SCRIPT ORIGINAL 「とにかく、その叔父叔母にしてみればいい迷惑さ。だからその高利貸しからここの話を聞き、借金ごと放り込んだんだ」
 ＠Shizuku,S00039
 「Anyway, this was a big problem for her aunt and uncle too. That's why I'm telling you this, we have to deal with the gangsters and resolve the debt」
 
 #「みかんは、ここに来ればもう怖い借金取りに会わなくてもいいと説明されているらしい。まぁ間違っちゃいないね」
+#SCRIPT ORIGINAL 「みかんは、ここに来ればもう怖い借金取りに会わなくてもいいと説明されているらしい。まぁ間違っちゃいないね」
 ＠Shizuku,S00040
 「I presume Mikan was told that by coming here she wouldn't have to meet those scary lenders again. Seems pretty safe to say」
 
 #「だからあたしたちはあの子を守るためにも、働かせ、金を返させてやる必要がある」
+#SCRIPT ORIGINAL 「だからあたしたちはあの子を守るためにも、働かせ、金を返させてやる必要がある」
 ＠Shizuku,S00041
 「This is about protecting her too, we have to do something so that we can repay the money」
 
 #「そんな理由が…………」
+#SCRIPT ORIGINAL 「そんな理由が…………」
 ＠Itsuki
 「To do it for a reason like that......」
 
 #「みんな初めは嫌がるさ。ざくろも、すいかも、いちごは………あいつは面白がってたけどね」
+#SCRIPT ORIGINAL 「みんな初めは嫌がるさ。ざくろも、すいかも、いちごは………あいつは面白がってたけどね」
 ＠Shizuku,S00042
 「They all complain about it at first. Zakuro, Suika, Ichigo... well, she had fun with it actually」
 
 #最初から施設に居て、すでに調教を受けている三人。
+#SCRIPT ORIGINAL 最初から施設に居て、すでに調教を受けている三人。
 　They were all here well before now, and are already being trained.
 
 #初めは嫌がったざくろとすいか……？
+#SCRIPT ORIGINAL 初めは嫌がったざくろとすいか……？
 　Zakuro and Suika didn’t like it in the beginning...?
 
 #「ま、まさか……すいかの足とざくろの手首って……」
+#SCRIPT ORIGINAL 「ま、まさか……すいかの足とざくろの手首って……」
 ＠Itsuki
 「W-wait, it couldn't be... Suika’s leg and Zakuro’s wrist...」
 
 #二人とも包帯や怪我は見ていて痛々しい。
+#SCRIPT ORIGINAL 二人とも包帯や怪我は見ていて痛々しい。
 　I get goosebumps looking at their injuries and bandages.
 
 #特にざくろは、そこから想像するものが危なげなものだけに触れることも出来ず仕舞いだ。
+#SCRIPT ORIGINAL 特にざくろは、そこから想像するものが危なげなものだけに触れることも出来ず仕舞いだ。
 　Especially Zakuro, with the things I can imagine it's a touchy subject I dare not approach.
 
 #「おいおい、まさか。あの怪我と傷は個人の事情によるものだよ。あたしらとは関係ない」
+#SCRIPT ORIGINAL 「おいおい、まさか。あの怪我と傷は個人の事情によるものだよ。あたしらとは関係ない」
 ＠Shizuku,S00043
 「Hold up there, how could you think that. Those wounds come from their own personal history, we've got nothing to do with them」
 
 #「もっともざくろは未だに救われずに、たまに未遂までしそうになってるけどね」
+#SCRIPT ORIGINAL 「もっともざくろは未だに救われずに、たまに未遂までしそうになってるけどね」
 ＠Shizuku,S00044
 「Although Zakuro still needs some help, sometimes she looks like she's going to try it」
 
 #スッと手首に当てた指を縦にスライドさせてジェスチャーする。
+#SCRIPT ORIGINAL スッと手首に当てた指を縦にスライドさせてジェスチャーする。
 　She makes a quick vertical sliding gesture with her finger over her wrist.
 
 #それだけで生々しい。
+#SCRIPT ORIGINAL それだけで生々しい。
 　That alone makes me nauseous.
 
 #「ああ、おっと。ちょっとあたしはこれから用事があるんだけどね」
+#SCRIPT ORIGINAL 「ああ、おっと。ちょっとあたしはこれから用事があるんだけどね」
 ＠Shizuku,S00045
 「Oh, look at the time. I've got business to attend to after this」
 
 #「え、はい……じゃあこれで」
+#SCRIPT ORIGINAL 「え、はい……じゃあこれで」
 ＠Itsuki
 「Huh, OK... I guess we can leave it at that」
 
 #「これでじゃないだろうッ。返事を忘れてるよ！？」
+#SCRIPT ORIGINAL 「これでじゃないだろうッ。返事を忘れてるよ！？」
 ＠Shizuku,S00046
 「No, we can't leave it at that. What's your answer!?」
 
 #「う………」
+#SCRIPT ORIGINAL 「う………」
 ＠Itsuki
 「Er...」
 
 #話が重くなってすっかり忘れてた。
+#SCRIPT ORIGINAL 話が重くなってすっかり忘れてた。
 　She told me such a serious story, I’d completely forgotten.
 
 #「………今じゃないといけませんか」
+#SCRIPT ORIGINAL 「………今じゃないといけませんか」
 ＠Itsuki
 「...Is it alright if I don't respond right now?」
 
 @shizuku_akire
 #「はあぁ………決断も出来ないむっつり以下か」
+#SCRIPT ORIGINAL 「はあぁ………決断も出来ないむっつり以下か」
 ＠Shizuku,S00047
 「Sigh... So you're worse than a scared turtle, you can't even decide」
 
@@ -2885,11 +3493,13 @@ bgm_stop
 @se53
 
 #「ぐっ……」
+#SCRIPT ORIGINAL 「ぐっ……」
 ＠Itsuki
 「Guh...」
 
 @shizuku_ikari
 #「まぁいい。帰るとか言ってたさっきよりは悩むだけ進歩してるさ。黙っていなくなったりするんじゃないよ」
+#SCRIPT ORIGINAL 「まぁいい。帰るとか言ってたさっきよりは悩むだけ進歩してるさ。黙っていなくなったりするんじゃないよ」
 ＠Shizuku,S00048
 「Whatever, no problem. You've made progress from before when you said you were going to leave, now you're unsure of youself. Just don't disappear without a word」
 
@@ -2902,13 +3512,16 @@ bgm_stop
 @se18
 
 #雫さんが居なくなると、自然と大きな溜め息が漏れた。
+#SCRIPT ORIGINAL 雫さんが居なくなると、自然と大きな溜め息が漏れた。
 　Shizuku leaves and I let out a big sigh.
 
 #「疲れた………まさか、本当にやってたなんて」
+#SCRIPT ORIGINAL 「疲れた………まさか、本当にやってたなんて」
 ＠Itsuki
 「I’m worn out... I can't believe this is for real」
 
 #つまりここに居る全員………昨日入院したみかん以外、みんな調教と売春を経験してるってことか。
+#SCRIPT ORIGINAL つまりここに居る全員………昨日入院したみかん以外、みんな調教と売春を経験してるってことか。
 　In other words, everybody here, with the exception of Mikan who came here yesterday, has experienced training and prostitution.
 
 #■BG（ブラック）
@@ -2916,12 +3529,15 @@ bgm_stop
 @bgmk01
 
 #フッと今朝の夢を思い出す……
+#SCRIPT ORIGINAL フッと今朝の夢を思い出す……
 　I suddenly recall this morning’s dream...
 
 #父さんがそういうことをしていたのは、何となく感づいていたんだ。
+#SCRIPT ORIGINAL 父さんがそういうことをしていたのは、何となく感づいていたんだ。
 　I did start suspecting my father was up to something like that.
 
 #美雨の服に付いていたあの白っぽいものは、当時はなじみ無くとも、今では普通に目にするものだから。
+#SCRIPT ORIGINAL 美雨の服に付いていたあの白っぽいものは、当時はなじみ無くとも、今では普通に目にするものだから。
 　That whitish stuff stuck on Miu’s clothes, at the time I didn't know what it was. But now I'm well acquainted with it.
 
 #■BG（廊下）
@@ -2934,10 +3550,12 @@ bgm_stop
 @bgm03
 
 #「パパ、むっつり以下って何？」
+#SCRIPT ORIGINAL 「パパ、むっつり以下って何？」
 ＠Ichigo,O00026
 「Papa, what's worse than a turtle」
 
 #「……やっぱりへタレじゃない？」
+#SCRIPT ORIGINAL 「……やっぱりへタレじゃない？」
 ＠Zakuro,Q00108
 「...You're not a weakling, are you?」
 
@@ -2945,6 +3563,7 @@ bgm_stop
 @se66
 
 #「ここじゃ人の言動を覗き見るのが習いかッ！？」
+#SCRIPT ORIGINAL 「ここじゃ人の言動を覗き見るのが習いかッ！？」
 ＠Itsuki
 「Is it normal to spy on people's conversations here!?」
 
@@ -2962,29 +3581,36 @@ wait	2000
 @bg_itsuki_nn
 
 #「ん……いつの間にか寝てたのか」
+#SCRIPT ORIGINAL 「ん……いつの間にか寝てたのか」
 ＠Itsuki
 「Nh... I fell asleep before I knew it」
 
 #外を見ると、もう夜の帳が下りていた。
+#SCRIPT ORIGINAL 外を見ると、もう夜の帳が下りていた。
 　Taking a look outside, it’s already dark.
 
 #あれから部屋に戻ってベッドに横になり……そこから記憶が途切れている。
+#SCRIPT ORIGINAL あれから部屋に戻ってベッドに横になり……そこから記憶が途切れている。
 　After that I'd returned to my room and lied down on my bed... and don't remember anything after that.
 
 #だが、ざくろとのフェラが心地よい疲れになっていた感じは否めない。
+#SCRIPT ORIGINAL だが、ざくろとのフェラが心地よい疲れになっていた感じは否めない。
 　But I can't deny I must have been pleasantly tired after Zakuro's fellatio.
 
 #SE13　お腹の音・弱（キュルル……）
 @se13
 
 #「……腹減ったな」
+#SCRIPT ORIGINAL 「……腹減ったな」
 ＠Itsuki
 「...I’m hungry」
 
 #昨日の夕食もこれくらいの時間だったし。
+#SCRIPT ORIGINAL 昨日の夕食もこれくらいの時間だったし。
 　Yesterday, dinner was about this time too.
 
 #もそもそと起き上がると、食堂へと降りていった。
+#SCRIPT ORIGINAL もそもそと起き上がると、食堂へと降りていった。
 　I push myself out of bed and go down to the dining room.
 
 #■BG（食堂・室内灯）
@@ -2992,26 +3618,32 @@ wait	2000
 event	"event\ev_all_021-01.png"
 
 #「エ～ビフライ～♪　エビフライ～っ♪」
+#SCRIPT ORIGINAL 「エ～ビフライ～♪　エビフライ～っ♪」
 ＠Ichigo,O00027
 「Fried shrimp♪ Fried shrimp♪」
 
 #「お、今日の夕食はエビフライか」
+#SCRIPT ORIGINAL 「お、今日の夕食はエビフライか」
 ＠Itsuki
 「Oh, we're having fried shrimp today?」
 
 #「ううん、違うよ」
+#SCRIPT ORIGINAL 「ううん、違うよ」
 ＠Ichigo,O00028
 「No, not actually」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「でも歌ってたら気分だけでも味わえるでしょ～？」
+#SCRIPT ORIGINAL 「でも歌ってたら気分だけでも味わえるでしょ～？」
 ＠Ichigo,O00029
 「But if I sing, you can taste it just by the mood right～」
 
 #「紛らわしい」
+#SCRIPT ORIGINAL 「紛らわしい」
 ＠Itsuki
 「How misleading」
 
@@ -3020,40 +3652,50 @@ event	"event\ev_all_021-01.png"
 #（//使いまわしなので、収録不要）
 
 #「いただきまーす」
+#SCRIPT ORIGINAL 「いただきまーす」
 ＠Everyone,Z90001
 「Let's eat」
 
 se	1,	"sound\se\食事中1.wav",play_loop
 
 #用意が整い、全員の挨拶で食事が始まる。
+#SCRIPT ORIGINAL 用意が整い、全員の挨拶で食事が始まる。
 　Everything is in order, and we say our formality together to start the meal.
 
 #「あれ、雫さんはいないんですか？」
+#SCRIPT ORIGINAL 「あれ、雫さんはいないんですか？」
 ＠Itsuki
 「Wait, is Shizuku-san not here?」
 
 #「ええ、昼前に出かけたきり、帰ってきていません」
+#SCRIPT ORIGINAL 「ええ、昼前に出かけたきり、帰ってきていません」
 ＠Miu,B00020
 「Yes, she left before noon and hasn’t come back」
 
 #そういえばあの話の後、用事があるって言って出て行ったな。
+#SCRIPT ORIGINAL そういえばあの話の後、用事があるって言って出て行ったな。
 　That's right, she said she had something to do after our conversation and left.
 
 #「仕事の関係で、雫さんは居ないことの方が多いんですよ」
+#SCRIPT ORIGINAL 「仕事の関係で、雫さんは居ないことの方が多いんですよ」
 ＠Miu,B00021
 「Shizuku-san's often out with work-related matters」
 
 #「そうなのか」
+#SCRIPT ORIGINAL 「そうなのか」
 ＠Itsuki
 「I see」
 
 #居ても居なくても可も不可も無い人なので、話半分に聞き流す。
+#SCRIPT ORIGINAL 居ても居なくても可も不可も無い人なので、話半分に聞き流す。
 　Whether she's here or not I'm pretty neutral about her presence so I don't pay much attention.
 
 #むしろあんな行為をさせられた後だから、返って気まずくなくていいかもな。
+#SCRIPT ORIGINAL むしろあんな行為をさせられた後だから、返って気まずくなくていいかもな。
 　Actually, it works out nicely not having her around to make things unpleasant for me after what happened.
 
 #「パパ、今日ざくろとフェラチオしたんだよね？」
+#SCRIPT ORIGINAL 「パパ、今日ざくろとフェラチオしたんだよね？」
 ＠Ichigo,O00031
 「Papa, Zakuro gave you a blowjob today right?」
 
@@ -3061,63 +3703,79 @@ se	1,	"sound\se\食事中1.wav",play_loop
 @se67
 
 #ブウゥゥーーーッッ！！！
+#SCRIPT ORIGINAL ブウゥゥーーーッッ！！！
 　cough, sputter!!!
 
 #「うわ！？　パパ汚いー！！」
+#SCRIPT ORIGINAL 「うわ！？　パパ汚いー！！」
 ＠Ichigo,O00032
 「Uwah!? Papa that's gross!!」
 
 #「大丈夫ですか、院長先生！？」
+#SCRIPT ORIGINAL 「大丈夫ですか、院長先生！？」
 ＠Suika,R00005
 「Are you OK, Inchou-sensei!?」
 
 #「うッ！　ゲホゲホッ、ゴホ！　な、何で知ってるんだ……ざくろか？」
+#SCRIPT ORIGINAL 「うッ！　ゲホゲホッ、ゴホ！　な、何で知ってるんだ……ざくろか？」
 ＠Itsuki
 「Uh! choke, cough cough! H-how do you know about that... from Zakuro?」
 
 #「雫が言いふらしてた」
+#SCRIPT ORIGINAL 「雫が言いふらしてた」
 ＠Zakuro,Q00110
 「Shizuku told them all about it」
 
 #うなつなッ、居なくても何かと迷惑を残していく人だ！
+#SCRIPT ORIGINAL うなつなッ、居なくても何かと迷惑を残していく人だ！
 　Grrrr, even while she's gone she managed to leave behind a bundle of misery for me!
 
 #「ふぇらちお……って何？」
+#SCRIPT ORIGINAL 「ふぇらちお……って何？」
 ＠Mikan,A00009
 「What's a blowjob?」
 
 #「……知らなくてもいい」
+#SCRIPT ORIGINAL 「……知らなくてもいい」
 ＠Itsuki
 「...You don’t need to know that」
 
 #「後でつっちーが実践で教えてくれるって」
+#SCRIPT ORIGINAL 「後でつっちーが実践で教えてくれるって」
 ＠Zakuro,Q00111
 「Tsu-chi told me he'll give you hands-on training later on」
 
 #「言うかッ！」
+#SCRIPT ORIGINAL 「言うかッ！」
 ＠Itsuki
 「As if!」
 
 #「う……」
+#SCRIPT ORIGINAL 「う……」
 ＠Itsuki
 「Sigh...」
 
 #「…………」
+#SCRIPT ORIGINAL 「…………」
 ＠Mikan,A00010
 「......」
 
 #すっげぇ興味深そうな目でこっち見てるし。
+#SCRIPT ORIGINAL すっげぇ興味深そうな目でこっち見てるし。
 　She's looking at me immensely curious.
 
 #「う～、何かみかんだけ仲間はずれみたいだよ……」
+#SCRIPT ORIGINAL 「う～、何かみかんだけ仲間はずれみたいだよ……」
 ＠Mikan,A00011
 「Uuh, it's like I'm missing something everybody else knows...」
 
 #「……わ、分かった。まぁそういう機会が今後もしあれば、な」
+#SCRIPT ORIGINAL 「……わ、分かった。まぁそういう機会が今後もしあれば、な」
 ＠Itsuki
 「...A-alright. We might get a chance sometime in the future...」
 
 #あぁ、こうやってまた流されていくんだろうな。
+#SCRIPT ORIGINAL あぁ、こうやってまた流されていくんだろうな。
 　Yeah, looks like I'm getting swept up in it again.
 
 se_stop		1
@@ -3132,16 +3790,20 @@ wait	1000
 @bgmk04
 
 #「ふぅ～……やっぱり今日もここで寝泊りするのか」
+#SCRIPT ORIGINAL 「ふぅ～……やっぱり今日もここで寝泊りするのか」
 ＠Itsuki
 「Phew～... I'm staying here tonight as well」
 
 #今日一日で、この施設の切迫した状況を知ってしまった。
+#SCRIPT ORIGINAL 今日一日で、この施設の切迫した状況を知ってしまった。
 　In one day I've come to know the pressing concerns of this institution.
 
 #安易に帰るとは言えない状況になっている。
+#SCRIPT ORIGINAL 安易に帰るとは言えない状況になっている。
 　It's becoming difficult to just go back without a second thought.
 
 #「……おっと、今朝みたいにいちごに起こされないようにしないとな」
+#SCRIPT ORIGINAL 「……おっと、今朝みたいにいちごに起こされないようにしないとな」
 ＠Itsuki
 「...Oh yeah, I'd better make it so that Ichigo doesn't wake me up like she did this morning」
 
@@ -3150,6 +3812,7 @@ wait	1000
 @bg_itsuki_nn
 
 #目覚ましをセットして眠りに付いた。
+#SCRIPT ORIGINAL 目覚ましをセットして眠りに付いた。
 　I set my alarm clock and fall asleep.
 
 bgm_stop

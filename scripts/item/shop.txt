@@ -36,6 +36,7 @@ window_close
 #minimoney_close
 if shop_talk_count_work>0 then 	goto shop_skip1
 if shop_talk_count>11	then	goto shop_skip1
+#SCRIPT ORIGINAL select	sel,"アイテムを買う","アイテムを売る","話をする","店を出る"
 select	sel,"Buy an item","Sell an item","Talk","Leave the shop"
 if sel=0 then goto shop_buy
 if sel=1 then goto shop_sell
@@ -44,6 +45,7 @@ if sel=3 then goto shop_exit
 goto	shop_loop
 
 label	shop_skip1
+#SCRIPT ORIGINAL select	sel,"アイテムを買う","アイテムを売る","店を出る"
 select	sel,"Buy an item","Sell an item","Leave the shop"
 if sel=0 then goto shop_buy
 if sel=1 then goto shop_sell

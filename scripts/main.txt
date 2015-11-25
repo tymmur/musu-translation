@@ -25,6 +25,7 @@ gosub youzyo_00
 goto	skip_prologue2
 label	skip_prologue1
 #select sel,"プロローグを見る","プロローグを見ない"
+#SCRIPT ORIGINAL select sel,"プロローグを見る","プロローグを見ない"
 select sel,"Start Prologue","Skip Prologue"
 if sel=0 then gosub youzyo_00
 label	skip_prologue2
@@ -83,6 +84,7 @@ money_open
 if debug=1 then goto	debug_skip01			#デバッグ用
 
 #日曜日だ。何をしようか？
+#SCRIPT ORIGINAL 日曜日だ。何をしようか？
 　It's Sunday. What to do...?
 
 label	mainloop2_0
@@ -93,12 +95,18 @@ minimoney_open
 
 clearbutton
 #	# setbutton ボタン番号,X,Y,エフェクト
+#SCRIPT ORIGINAL setbutton 5,150,82,0,"system\Schedule\select_save.png","system\Schedule\select_save.png"
 setbutton 5,150,82,0,"system\Schedule\select_save.png","system\Schedule\select_save.png"
+#SCRIPT ORIGINAL setbutton 6,457,82,0,"system\Schedule\select_load.png","system\Schedule\select_load.png"
 setbutton 6,457,82,0,"system\Schedule\select_load.png","system\Schedule\select_load.png"
 
+#SCRIPT ORIGINAL setbutton 1,150,235,0,"system\Schedule\select_schedule.png","system\Schedule\select_schedule.png"
 setbutton 1,150,235,0,"system\Schedule\select_schedule.png","system\Schedule\select_schedule.png"
+#SCRIPT ORIGINAL setbutton 2,457,235,0,"system\Schedule\select_status.png","system\Schedule\select_status.png"
 setbutton 2,457,235,0,"system\Schedule\select_status.png","system\Schedule\select_status.png"
+#SCRIPT ORIGINAL if item_on=1 then setbutton 3,150,390,0,"system\Schedule\select_item.png","system\Schedule\select_item.png"
 if item_on=1 then setbutton 3,150,390,0,"system\Schedule\select_item.png","system\Schedule\select_item.png"
+#SCRIPT ORIGINAL if item_on=1 and item_go=0 then setbutton 4,457,390,0,"system\Schedule\select_shop.png","system\Schedule\select_shop.png"
 if item_on=1 and item_go=0 then setbutton 4,457,390,0,"system\Schedule\select_shop.png","system\Schedule\select_shop.png"
 
 getbutton sel
@@ -120,6 +128,7 @@ label	mainloop2_status
 
 minimoney_close
 date_close
+#SCRIPT ORIGINAL layer_load	60,"system\Schedule\select_who.png"
 layer_load	60,"system\Schedule\select_who.png"
 layer_move	60,1000,0,-128,0,0,passtype_tcb
 wait	500
@@ -189,6 +198,7 @@ if mikan_on=0 then goto schedule_mikan_skip
 
 #みかんのスケジュール設定######################################################
 #来週のみかんのスケジュールを決めるか
+#SCRIPT ORIGINAL 来週のみかんのスケジュールを決めるか
 　What will Mikan's schedule be next week?
 
 window_close
@@ -210,6 +220,7 @@ if ichigo_on=0 then goto schedule_ichigo_skip
 
 #いちごのスケジュール設定#####################################################
 #来週のいちごのスケジュールを決めるか
+#SCRIPT ORIGINAL 来週のいちごのスケジュールを決めるか
 　What will Ichigo's schedule be next week?
 
 window_close
@@ -232,6 +243,7 @@ if karin_on=0 then goto schedule_karin_skip
 
 #かりんのスケジュール設定#####################################################
 #来週のかりんのスケジュールを決めるか
+#SCRIPT ORIGINAL 来週のかりんのスケジュールを決めるか
 　What will Karin's schedule be next week?
 
 window_close

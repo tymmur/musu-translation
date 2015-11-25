@@ -10,8 +10,10 @@ label	hikari_22
 @bg_itsuki		# 自室
 @bgm12			#BGM 12 : メインテーマ
 
+#SCRIPT ORIGINAL この前の調査書のこと、今日はみかんに訊きに行こうか。
 この前の調査書のこと、今日はみかんに訊きに行こうか。
 
+#SCRIPT ORIGINAL 「みかんには確か、『鮎川』の苗字と施設の関係について訊くんだったな」
 ＠Itsuki
 「みかんには確か、『鮎川』の苗字と施設の関係について訊くんだったな」
 
@@ -21,25 +23,31 @@ wait		1000
 #@bg_rouka		# 廊下
 @bg_door		# ドア前
 
+#SCRIPT ORIGINAL 部屋を出ると、まっすぐみかんの部屋の前までやってきた。
 部屋を出ると、まっすぐみかんの部屋の前までやってきた。
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 「みかん、居るか？」
 ＠Itsuki
 「みかん、居るか？」
 
 #CH（立ち絵なし）
 
+#SCRIPT ORIGINAL 「はーいっ。お兄ちゃん？」
 ＠Mikan,A01842
 「はーいっ。お兄ちゃん？」
 
+#SCRIPT ORIGINAL 「ああ、ちょっと聞きたい事があるんだけど、入って大丈夫か？」
 ＠Itsuki
 「ああ、ちょっと聞きたい事があるんだけど、入って大丈夫か？」
 
+#SCRIPT ORIGINAL 「うんっ、いいよ。入ってー」
 ＠Mikan,A01843
 「うんっ、いいよ。入ってー」
 
+#SCRIPT ORIGINAL 返事を確認して、中へ入る。
 返事を確認して、中へ入る。
 
 @bg_black
@@ -62,11 +70,14 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「あ、でもごめんね、今片づけ中で散らかってるけど」
 ＠Mikan,A01844
 「あ、でもごめんね、今片づけ中で散らかってるけど」
 
+#SCRIPT ORIGINAL 中に入ると、みかんは床いっぱいのボードゲームに囲まれていた。
 中に入ると、みかんは床いっぱいのボードゲームに囲まれていた。
 
+#SCRIPT ORIGINAL 「お……さすがにすごい量だな」
 ＠Itsuki
 「お……さすがにすごい量だな」
 
@@ -79,20 +90,24 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん。一度ゲームの本体を掃除して、並べなおしてるの」
 ＠Mikan,A01845
 「うん。一度ゲームの本体を掃除して、並べなおしてるの」
 
 #@mikan_kusyou		#苦笑
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「よく遊ぶのはそうでもないんだけど、ちょっと前のゲームは中に埃が入ってたりするから」
 ＠Mikan,A01846
 「よく遊ぶのはそうでもないんだけど、ちょっと前のゲームは中に埃が入ってたりするから」
 
+#SCRIPT ORIGINAL 「そう、ちゃんと手入れしてるのか。偉いなみかん」
 ＠Itsuki
 「そう、ちゃんと手入れしてるのか。偉いなみかん」
 
 @mikan_warai2		#笑2
 
+#SCRIPT ORIGINAL 「えへへ～♪」
 ＠Mikan,A01847
 「えへへ～♪」
 
@@ -105,26 +120,32 @@ se_stop		0
 @mikan_shifuku
 @mikan_warai		#笑
 
+#SCRIPT ORIGINAL 「あ、そうだ。みかんに何か訊きたいことがあるんだよね？」
 ＠Mikan,A01848
 「あ、そうだ。みかんに何か訊きたいことがあるんだよね？」
 
+#SCRIPT ORIGINAL 「ちょっと名前を訊きたいんだけどな」
 ＠Itsuki
 「ちょっと名前を訊きたいんだけどな」
 
+#SCRIPT ORIGINAL 「みかんと同じ苗字で、『鮎川瑛麻』っていう名前、聞き覚えあるか？」
 ＠Itsuki
 「みかんと同じ苗字で、『鮎川瑛麻』っていう名前、聞き覚えあるか？」
 
 bgm_stop
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「へ……？　瑛麻？」
 ＠Mikan,A01849
 「へ……？　瑛麻？」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「それだったら、お父さんと同じ名前だよ」
 ＠Mikan,A01850
 「それだったら、お父さんと同じ名前だよ」
 
+#SCRIPT ORIGINAL 「お父さん？」
 ＠Itsuki
 「お父さん？」
 
@@ -136,72 +157,91 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん。みかんのお父さん、『鮎川瑛麻』っていうの」
 ＠Mikan,A01851
 「うん。みかんのお父さん、『鮎川瑛麻』っていうの」
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「……お父さんが、どうかしたの？」
 ＠Mikan,A01852
 「……お父さんが、どうかしたの？」
 
 @bgm06			#BGM 06 : 不安のテーマ
 
+#SCRIPT ORIGINAL 振られた話題に、少しみかんの顔に影が落ちる。
 振られた話題に、少しみかんの顔に影が落ちる。
 
+#SCRIPT ORIGINAL すでに故人となった家族の事なのだから、明るくは語れないだろう。
 すでに故人となった家族の事なのだから、明るくは語れないだろう。
 
+#SCRIPT ORIGINAL 「ごめんな、寂しい事をわざわざ思い出させるみたいで」
 ＠Itsuki
 「ごめんな、寂しい事をわざわざ思い出させるみたいで」
 
+#SCRIPT ORIGINAL 「ううん。でも、急にどうしてお父さんのことを聞くの？」
 ＠Mikan,A01853
 「ううん。でも、急にどうしてお父さんのことを聞くの？」
 
+#SCRIPT ORIGINAL 「それは……」
 ＠Itsuki
 「それは……」
 
+#SCRIPT ORIGINAL 正直に言うと、変に悩ませてしまうかもしれないな。
 正直に言うと、変に悩ませてしまうかもしれないな。
 
+#SCRIPT ORIGINAL 「ちょっと、仕事中に名前を聞いてな。苗字が同じだからもしかしてと思って」
 ＠Itsuki
 「ちょっと、仕事中に名前を聞いてな。苗字が同じだからもしかしてと思って」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「そうなんだ」
 ＠Mikan,A01854
 「そうなんだ」
 
+#SCRIPT ORIGINAL 「じゃあお兄ちゃんも、お父さんの書いた本を読んでたの？」
 ＠Mikan,A01855
 「じゃあお兄ちゃんも、お父さんの書いた本を読んでたの？」
 
+#SCRIPT ORIGINAL 「本……？」
 ＠Itsuki
 「本……？」
 
 @mikan_warai		#笑
 
+#SCRIPT ORIGINAL 「あのね、みかんは難しくて読めなかったんだけど、お父さん本を書いて出してたんだよ」
 ＠Mikan,A01856
 「あのね、みかんは難しくて読めなかったんだけど、お父さん本を書いて出してたんだよ」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「えっと、何とかっていう難しい名前のお仕事だったんだけど……」
 ＠Mikan,A01857
 「えっと、何とかっていう難しい名前のお仕事だったんだけど……」
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「ん～、ジャーン……ジャーリナ……ジャーナ……」
 ＠Mikan,A01858
 「ん～、ジャーン……ジャーリナ……ジャーナ……」
 
+#SCRIPT ORIGINAL そういえば、みかんとは入院が重なって慌しかったので、詳しい家庭状況は聞いていなかったな。
 そういえば、みかんとは入院が重なって慌しかったので、詳しい家庭状況は聞いていなかったな。
 
+#SCRIPT ORIGINAL 「もしかして、ジャーナリストか？」
 ＠Itsuki
 「もしかして、ジャーナリストか？」
 
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「あっ、うん、その名前！」
 ＠Mikan,A01859
 「あっ、うん、その名前！」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「難しい事をいっぱい調べて、いろんな人とお話してたよ」
 ＠Mikan,A01860
 「難しい事をいっぱい調べて、いろんな人とお話してたよ」
 
@@ -210,21 +250,26 @@ layer_movepass_play	l_mikan,0,play_once
 #＠みかん,A01861
 #「お父さんはそのお仕事、誠司ジャーナリストって言ってた」
 
+#SCRIPT ORIGINAL 「お父さんはそのお仕事、政治ジャーナリストって言ってた」
 ＠Mikan,A01861
 「お父さんはそのお仕事、政治ジャーナリストって言ってた」
 
 #＠樹
 #「誠司……？　あぁ、政治ジャーナリストな」
 
+#SCRIPT ORIGINAL 「政治ジャーナリスト……」
 ＠Itsuki
 「政治ジャーナリスト……」
 
 @bg_black
 
+#SCRIPT ORIGINAL だとすると、あの調査記録はどういう意図で作成されたのだろうか。
 だとすると、あの調査記録はどういう意図で作成されたのだろうか。
 
+#SCRIPT ORIGINAL 公安とかそのＮＰＯとか、確かに繋がりそうな単語は文書内にあったが。
 公安とかそのＮＰＯとか、確かに繋がりそうな単語は文書内にあったが。
 
+#SCRIPT ORIGINAL ……それに、不審な死。
 ……それに、不審な死。
 
 @mikan_middle		# 中間
@@ -232,66 +277,83 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_warai		#笑
 @bg_mikan		# みかんの部屋
 
+#SCRIPT ORIGINAL 「……なぁ、みかん。お父さんとお母さんって何で死んだんだ？」
 ＠Itsuki
 「……なぁ、みかん。お父さんとお母さんって何で死んだんだ？」
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「えっ……」
 ＠Mikan,A01862
 「えっ……」
 
+#SCRIPT ORIGINAL 途端にみかんが悲しそうな顔をした。
 途端にみかんが悲しそうな顔をした。
 
+#SCRIPT ORIGINAL 「あ、悪い！　ちょっと無神経すぎたな……」
 ＠Itsuki
 「あ、悪い！　ちょっと無神経すぎたな……」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「あ、ううん……。いいよ、死んでるのは本当だもん……」
 ＠Mikan,A01863
 「あ、ううん……。いいよ、死んでるのは本当だもん……」
 
+#SCRIPT ORIGINAL 「みかんのお父さんとお母さんはね、事故で死んだの」
 ＠Mikan,A01864
 「みかんのお父さんとお母さんはね、事故で死んだの」
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「車を運転してるとき、前から来る車とぶつかったんだって……」
 ＠Mikan,A01865
 「車を運転してるとき、前から来る車とぶつかったんだって……」
 
+#SCRIPT ORIGINAL 「……なるほど」
 ＠Itsuki
 「……なるほど」
 
+#SCRIPT ORIGINAL 不審と言えるほど珍しくは無い、よくあるケースの交通事故だ。
 不審と言えるほど珍しくは無い、よくあるケースの交通事故だ。
 
+#SCRIPT ORIGINAL だがそれだけに、故意に起こされるパターンも少なくはない。
 だがそれだけに、故意に起こされるパターンも少なくはない。
 
 bgm_stop
 
+#SCRIPT ORIGINAL 「最後に一つだけ」
 ＠Itsuki
 「最後に一つだけ」
 
+#SCRIPT ORIGINAL 「みかんはお父さんから、この施設の事を聞いたことってあるかい？」
 ＠Itsuki
 「みかんはお父さんから、この施設の事を聞いたことってあるかい？」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「え……？　ううん、無かったと思うよ」
 ＠Mikan,A01866
 「え……？　ううん、無かったと思うよ」
 
+#SCRIPT ORIGINAL 「みかんここには、怖い人から守ってもらえるようにって、初めて叔父さんと叔母さんに案内されたから」
 ＠Mikan,A01867
 「みかんここには、怖い人から守ってもらえるようにって、初めて叔父さんと叔母さんに案内されたから」
 
 #@mikan_warai		#笑
 @mikan_yorokobi		#喜
 
+#SCRIPT ORIGINAL 「それから、今までずっとお兄ちゃんがみかんの事を守ってくれてるんだよ」
 ＠Mikan,A01868
 「それから、今までずっとお兄ちゃんがみかんの事を守ってくれてるんだよ」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL 「ん、ああ……。それはみかんがお仕事を頑張ってるからさ」
 ＠Itsuki
 「ん、ああ……。それはみかんがお仕事を頑張ってるからさ」
 
+#SCRIPT ORIGINAL 「だからこれからも、ちゃんとみかんを守っていってあげるよ」
 ＠Itsuki
 「だからこれからも、ちゃんとみかんを守っていってあげるよ」
 
@@ -304,51 +366,65 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん！　あははっ、ありがとうお兄ちゃん♪」
 ＠Mikan,A01869
 「うん！　あははっ、ありがとうお兄ちゃん♪」
 
+#SCRIPT ORIGINAL 無理に明るく振舞うように、みかんが楽しそうな笑顔を見せる。
 無理に明るく振舞うように、みかんが楽しそうな笑顔を見せる。
 
+#SCRIPT ORIGINAL さて……訊きたかった事はこれで全部だ。
 さて……訊きたかった事はこれで全部だ。
 
+#SCRIPT ORIGINAL 知らなかったとは言え、ちょっと辛い話をさせてしまったな。
 知らなかったとは言え、ちょっと辛い話をさせてしまったな。
 
+#SCRIPT ORIGINAL 「話っていうのはそれだけだ、みかん」
 ＠Itsuki
 「話っていうのはそれだけだ、みかん」
 
 @mikan_yorokobi		#喜
 
+#SCRIPT ORIGINAL 「それじゃあ、オレも一緒にゲームの掃除と整理をしようか」
 ＠Itsuki
 「それじゃあ、オレも一緒にゲームの掃除と整理をしようか」
 
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「えっ、いいの？」
 ＠Mikan,A01870
 「えっ、いいの？」
 
+#SCRIPT ORIGINAL 「話に付き合ってくれたお礼と、悲しい事を思い出させてしまったお詫びだよ」
 ＠Itsuki
 「話に付き合ってくれたお礼と、悲しい事を思い出させてしまったお詫びだよ」
 
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「ん～……えへへ。実は、ちょっと一人で大変だったの」
 ＠Mikan,A01871
 「ん～……えへへ。実は、ちょっと一人で大変だったの」
 
 @mikan_warai		#笑
 
+#SCRIPT ORIGINAL 「じゃあみかん、お兄ちゃんにお手伝いお願いしてもいいっ？」
 ＠Mikan,A01872
 「じゃあみかん、お兄ちゃんにお手伝いお願いしてもいいっ？」
 
+#SCRIPT ORIGINAL 「ああ、何でも遠慮なく指示してくれよ」
 ＠Itsuki
 「ああ、何でも遠慮なく指示してくれよ」
 
 @mikan_komikaru_warai	#コミカル笑
 
+#SCRIPT ORIGINAL 「あははっ、やった！　お掃除ができて、お兄ちゃんとまで一緒に居られるよ♪」
 ＠Mikan,A01873
 「あははっ、やった！　お掃除ができて、お兄ちゃんとまで一緒に居られるよ♪」
 
+#SCRIPT ORIGINAL 今度は無理の無い、正直に嬉しそうな笑顔を弾けさせるみかん。
 今度は無理の無い、正直に嬉しそうな笑顔を弾けさせるみかん。
 
+#SCRIPT ORIGINAL それからオレ達は二人で、楽しく雑談を挟みながら作業を続けていった。
 それからオレ達は二人で、楽しく雑談を挟みながら作業を続けていった。
 
 bgm_stop

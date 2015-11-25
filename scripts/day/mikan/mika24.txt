@@ -12,39 +12,49 @@ date_close
 #■BG（青空）
 @bg_sky			# 空
 
+#SCRIPT ORIGINAL 翌日、オレは三人に礼を述べて、施設へ戻ることにした。
 翌日、オレは三人に礼を述べて、施設へ戻ることにした。
 
 #■BG（施設前）
 @bgmk02			#BGM K02 : しんみりのテーマ
 @bg_gate		# 孤児院外玄関
 
+#SCRIPT ORIGINAL 帰り着くと、門に入る前にみかんが立ち止まる。
 帰り着くと、門に入る前にみかんが立ち止まる。
 
 @mikan_middle		# 中間
 @mikan_shifuku
 @mikan_yorokobi		#喜
 
+#SCRIPT ORIGINAL 「みかん、帰ってきたんだ……何か懐かしい」
 ＠Mikan,A00973
 「みかん、帰ってきたんだ……何か懐かしい」
 
+#SCRIPT ORIGINAL 数週間ぶりの帰宅。
+#SCRIPT ORIGINAL しかも辛い時間を過ごしていたのだ。
 数週間ぶりの帰宅。
 しかも辛い時間を過ごしていたのだ。
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「でもみかん、ここに帰ってきて良かったのかな」
 ＠Mikan,A00974
 「でもみかん、ここに帰ってきて良かったのかな」
 
+#SCRIPT ORIGINAL 「みんなとお別れしたのに。お兄ちゃんが雫さんに怒られるんじゃないの……？」
 ＠Mikan,A00975
 「みんなとお別れしたのに。お兄ちゃんが雫さんに怒られるんじゃないの……？」
 
+#SCRIPT ORIGINAL 「ははっ、それはいつものことだ。むしろかりんは泣いて喜ぶだろ」
 ＠Itsuki
 「ははっ、それはいつものことだ。むしろかりんは泣いて喜ぶだろ」
 
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 誠司に脅された緊張はあるが、それはここまで来て悩むべきところではない。
 誠司に脅された緊張はあるが、それはここまで来て悩むべきところではない。
 
+#SCRIPT ORIGINAL みかんを連れて、堂々と門をくぐった。
 みかんを連れて、堂々と門をくぐった。
 
 @bg_black
@@ -54,11 +64,13 @@ wait		1000
 @bg_genkan		# 玄関
 @SE31			#SE31　玄関のドアが閉まる音
 
+#SCRIPT ORIGINAL 「ただいま」
 ＠Itsuki
 「ただいま」
 
 #CH（立ち絵なし）
 
+#SCRIPT ORIGINAL 「……ッ、樹さん！？」
 ＠Miu,B01205
 「……ッ、樹さん！？」
 
@@ -66,6 +78,7 @@ window_close
 #SE20　廊下を走ってくる音　※徐々に大きく
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 
+#SCRIPT ORIGINAL 玄関から挨拶すると、待ちわびていたように足音が近づいてくる。
 玄関から挨拶すると、待ちわびていたように足音が近づいてくる。
 
 #CH（ここから立ち絵あり）
@@ -73,26 +86,33 @@ window_close
 @miu_maid
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「おかえりなさい、樹さん。心配したんですよ」
 ＠Miu,B01206
 「おかえりなさい、樹さん。心配したんですよ」
 
+#SCRIPT ORIGINAL 「悪かった。携帯を落としてて、しばらく連絡が出来なかったんだ」
 ＠Itsuki
 「悪かった。携帯を落としてて、しばらく連絡が出来なかったんだ」
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「そうでしたか。とにかく、何事も無かったようで本当に安心しました」
 ＠Miu,B01207
 「そうでしたか。とにかく、何事も無かったようで本当に安心しました」
 
+#SCRIPT ORIGINAL 美雨はオレの姿を確認すると、安堵したように微笑んだ。
 美雨はオレの姿を確認すると、安堵したように微笑んだ。
 
+#SCRIPT ORIGINAL そしてその視線が、ドアの影に隠れたままのもう一人を見つける。
 そしてその視線が、ドアの影に隠れたままのもう一人を見つける。
 
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「……あら？　後ろに誰かいらっしゃるんですか？」
 ＠Miu,B01208
 「……あら？　後ろに誰かいらっしゃるんですか？」
 
+#SCRIPT ORIGINAL 「ん、ああ。色々あって連れて帰ってきたんだ」
 ＠Itsuki
 「ん、ああ。色々あって連れて帰ってきたんだ」
 
@@ -102,27 +122,34 @@ wait		500
 @mikan_shifuku
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「えっと………ただいま、美雨さん」
 ＠Mikan,A00976
 「えっと………ただいま、美雨さん」
 
+#SCRIPT ORIGINAL 「えッ…！？」
 ＠Miu,B01209
 「えッ…！？」
 
+#SCRIPT ORIGINAL ぎこちなく笑顔を見せて、後ろからみかんが入ってきた。
 ぎこちなく笑顔を見せて、後ろからみかんが入ってきた。
 
+#SCRIPT ORIGINAL 「みかんちゃん！？　帰ってきたって……どうしたのっ？」
 ＠Miu,B01210
 「みかんちゃん！？　帰ってきたって……どうしたのっ？」
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「それは、その……」
 ＠Mikan,A00977
 「それは、その……」
 
+#SCRIPT ORIGINAL 「オレが無理に連れて帰ってきたんだ。事情は、雫さんを交えて―――」
 ＠Itsuki
 「オレが無理に連れて帰ってきたんだ。事情は、雫さんを交えて―――」
 
 #CH（かりんに立ち絵なし）
 
+#SCRIPT ORIGINAL 「みかんですってぇぇええーーーーーーー！！！！！！」
 ＠Karin,P01406
 「みかんですってぇぇええーーーーーーー！！！！！！」
 
@@ -132,9 +159,11 @@ screen_vibration	500,16,16,16
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 #ズドドドドドドッッ！！！
 
+#SCRIPT ORIGINAL 「うおっ、地鳴り！？」
 ＠Itsuki
 「うおっ、地鳴り！？」
 
+#SCRIPT ORIGINAL 「あ、この展開って……」
 ＠Mikan,A00978
 「あ、この展開って……」
 
@@ -155,6 +184,7 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「きゃーーーー！！　やっぱりみかんだわッ！　みかんーー！！」
 ＠Karin,P01407
 「きゃーーーー！！　やっぱりみかんだわッ！　みかんーー！！」
 
@@ -168,6 +198,7 @@ layer_move	l_karin,100,-70,4,-140,0,PASSTYPE_LINEAR
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「か、かりんちゃ―――むぎゅぅっ！」
 ＠Mikan,A00979
 「か、かりんちゃ―――むぎゅぅっ！」
 
@@ -175,25 +206,33 @@ layer_move	l_karin,100,-70,4,-140,0,PASSTYPE_LINEAR
 wait		500
 @SE27			#SE27　倒れる音（ドサッ）
 
+#SCRIPT ORIGINAL 「ああ、またこの抱き心地を堪能できるなんて！　幸せすぎるッ！」
 ＠Karin,P01408
 「ああ、またこの抱き心地を堪能できるなんて！　幸せすぎるッ！」
 
+#SCRIPT ORIGINAL 「く、苦しいよぉ、かりんちゃ―――ひゃん！」
 ＠Mikan,A00980
 「く、苦しいよぉ、かりんちゃ―――ひゃん！」
 
+#SCRIPT ORIGINAL 「もう手放さないためには、悪魔に魂を売ってもいいわ！　一緒に堕ちましょう、みかん」
 ＠Karin,P01409
 「もう手放さないためには、悪魔に魂を売ってもいいわ！　一緒に堕ちましょう、みかん」
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
+#SCRIPT ORIGINAL むにっ、むにっ……ズッ、ズリッ…
 むにっ、むにっ……ズッ、ズリッ…
 
+#SCRIPT ORIGINAL 「ひゃうぅぅ～～！　助けてお兄ちゃんっ、揉まれて……脱がされちゃうよぉ」
 ＠Mikan,A00981
 「ひゃうぅぅ～～！　助けてお兄ちゃんっ、揉まれて……脱がされちゃうよぉ」
 
+#SCRIPT ORIGINAL 「あ～……なんか久しぶりだな、この光景も」
 ＠Itsuki
 「あ～……なんか久しぶりだな、この光景も」
 
+#SCRIPT ORIGINAL 助けるのも忘れて懐かしむ。
+#SCRIPT ORIGINAL 帰ってきたんだという実感が湧いた。
 助けるのも忘れて懐かしむ。
 帰ってきたんだという実感が湧いた。
 
@@ -201,19 +240,25 @@ wait		500
 @miu_maid
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「…………」
 ＠Miu,B01211
 「…………」
 
+#SCRIPT ORIGINAL そんな光景を、美雨は困ったように眺めていた。
 そんな光景を、美雨は困ったように眺めていた。
 
+#SCRIPT ORIGINAL そして、
 そして、
 
+#SCRIPT ORIGINAL 「………雫さん」
 ＠Itsuki
 「………雫さん」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Shizuku,S01023
 「…………」
 
+#SCRIPT ORIGINAL 怒りの表情で、雫さんが離れた場所からこちらを睨んでいる。
 怒りの表情で、雫さんが離れた場所からこちらを睨んでいる。
 
 #一拍
@@ -222,12 +267,14 @@ wait		1000
 #■BG（リビング）
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 異様な緊張感の中、オレとみかんはリビングへ通された。
 異様な緊張感の中、オレとみかんはリビングへ通された。
 
 @ichigo_small
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「あーッ！　ほんとにみかんがいる！」
 ＠Ichigo,O01392
 「あーッ！　ほんとにみかんがいる！」
 
@@ -235,20 +282,24 @@ wait		1000
 @yuzu_shifuku
 @yuzu_warai		#笑
 
+#SCRIPT ORIGINAL 「院長先生ー！　心配してたんですよっ、お帰りなさい！」
 ＠Yuzu,F00280
 「院長先生ー！　心配してたんですよっ、お帰りなさい！」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL すぐ話を聞きつけた子供達が揃ってきた。
 すぐ話を聞きつけた子供達が揃ってきた。
 
 @suika_small
 @suika_shifuku
 @suika_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「でも、どうしたの、みかんちゃん？」
 ＠Suika,R00325
 「でも、どうしたの、みかんちゃん？」
 
+#SCRIPT ORIGINAL 「ん、うん……ごめんね、何か色々あって」
 ＠Mikan,A00982
 「ん、うん……ごめんね、何か色々あって」
 
@@ -256,9 +307,11 @@ wait		1000
 @zakuro_shifuku
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「つっちーの略奪愛？」
 ＠Zakuro,Q00925
 「つっちーの略奪愛？」
 
+#SCRIPT ORIGINAL 「いやいや……」
 ＠Itsuki
 「いやいや……」
 
@@ -266,11 +319,13 @@ wait		1000
 @miu_maid
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「みんな、これから私たち少し話があるの。ちょっと席を外してくれる？」
 ＠Miu,B01212
 「みんな、これから私たち少し話があるの。ちょっと席を外してくれる？」
 
 @suika			#普
 
+#SCRIPT ORIGINAL 「あ、はい……」
 ＠Suika,R00326
 「あ、はい……」
 
@@ -280,18 +335,23 @@ wait		500
 @ichigo_shifuku
 @ichigo_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「えーッ、いちごもパパとここに居る！　かりんだって残ってるじゃんー！」
 ＠Ichigo,O01393
 「えーッ、いちごもパパとここに居る！　かりんだって残ってるじゃんー！」
 
+#SCRIPT ORIGINAL 「みかん～～～♪　うふふふ」
 ＠Karin,P01410
 「みかん～～～♪　うふふふ」
 
+#SCRIPT ORIGINAL 「……かりんは、離れないんだ」
 ＠Itsuki
 「……かりんは、離れないんだ」
 
+#SCRIPT ORIGINAL 「うぅ………抱きつくのはもういいけど、変なところは触らないで……」
 ＠Mikan,A00983
 「うぅ………抱きつくのはもういいけど、変なところは触らないで……」
 
+#SCRIPT ORIGINAL 「……ッ」
 ＠Shizuku,S01024
 「……ッ」
 
@@ -299,13 +359,16 @@ wait		500
 #EF　画面シェイク
 @SE47			#SE47　テーブルを叩く音（バンッ！）
 
+#SCRIPT ORIGINAL ダンッ！！
 ダンッ！！
 
+#SCRIPT ORIGINAL 「ひゃんっ！？」
 ＠Mikan,A00984
 「ひゃんっ！？」
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#SCRIPT ORIGINAL 「うわっ！？」
 ＠Ichigo,O01394
 「うわっ！？」
 
@@ -315,28 +378,35 @@ wait		500
 @shizuku_shifuku
 @shizuku_ikari		#怒
 
+#SCRIPT ORIGINAL 「話の邪魔だよ、みんな。少し席を外してな」
 ＠Shizuku,S01025
 「話の邪魔だよ、みんな。少し席を外してな」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL …………。
 …………。
 
+#SCRIPT ORIGINAL 机を殴打した音と怒りに、一瞬辺りが静まり返る。
 机を殴打した音と怒りに、一瞬辺りが静まり返る。
 
+#SCRIPT ORIGINAL 「みかん～～♪」
 ＠Karin,P01411
 「みかん～～♪」
 
+#SCRIPT ORIGINAL （……ここまで来ると流石の域だな、かりん）
 ＠Itsuki
 （……ここまで来ると流石の域だな、かりん）
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「何か雫、怖いよぉ……」
 ＠Ichigo,O01395
 「何か雫、怖いよぉ……」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「………悪いね、ちょっと気が立ってるから」
 ＠Shizuku,S01026
 「………悪いね、ちょっと気が立ってるから」
 
@@ -344,11 +414,13 @@ wait		500
 @zakuro_shifuku
 @zakuro_iya		#嫌
 
+#SCRIPT ORIGINAL 「さ、行くわよいちご。これ以上ここに居たら、いつか机が大破しちゃうわ」
 ＠Zakuro,Q00926
 「さ、行くわよいちご。これ以上ここに居たら、いつか机が大破しちゃうわ」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「は～い……」
 ＠Ichigo,O01396
 「は～い……」
 
@@ -359,6 +431,7 @@ wait		1000
 @yuzu_shifuku
 @yuzu_kanashimi		#哀
 
+#SCRIPT ORIGINAL 「うぅ～……樹先生、それじゃまた後で…」
 ＠Yuzu,F00281
 「うぅ～……樹先生、それじゃまた後で…」
 
@@ -366,25 +439,31 @@ wait		1000
 @suika_shifuku
 @suika_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「……しつれいします」
 ＠Suika,R00327
 「……しつれいします」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL それぞれ困惑を残しながら、子供達がリビングを後にする。
 それぞれ困惑を残しながら、子供達がリビングを後にする。
 
+#SCRIPT ORIGINAL ……かりんは相変わらず、残っているが。
 ……かりんは相変わらず、残っているが。
 
 @miu_small
 @miu_maid
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「かりんちゃんも席を外してもらえる？」
 ＠Miu,B01213
 「かりんちゃんも席を外してもらえる？」
 
+#SCRIPT ORIGINAL 「イヤ」
 ＠Karin,P01412
 「イヤ」
 
+#SCRIPT ORIGINAL 「うふふ、素直で良い子だわ。すぐ済むから待っててね」
 ＠Miu,B01214
 「うふふ、素直で良い子だわ。すぐ済むから待っててね」
 
@@ -392,8 +471,10 @@ window_close
 @miu_
 wait		1000
 
+#SCRIPT ORIGINAL ズリズリズリ……（←引きずられていく）
 ズリズリズリ……（←引きずられていく）
 
+#SCRIPT ORIGINAL 「やッ……やあぁぁ～～、みかん～ッ、みかん～～！！」
 ＠Karin,P01413
 「やッ……やあぁぁ～～、みかん～ッ、みかん～～！！」
 
@@ -401,123 +482,155 @@ bgm_stop
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL 場にそぐわない滑稽な空気を出しながら、かりんは閉め出された。
 場にそぐわない滑稽な空気を出しながら、かりんは閉め出された。
 
 @miu_small
 @miu_maid
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「どうもお待たせしました」
 ＠Miu,B01215
 「どうもお待たせしました」
 
 @miu_
 
+#SCRIPT ORIGINAL 美雨が笑顔で何事も無かったように戻ってくる。
 美雨が笑顔で何事も無かったように戻ってくる。
 
 @shizuku_small
 @shizuku_shifuku
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「さて。それじゃ何か、あたしに訊きたいことがあるみたいだけど」
 ＠Shizuku,S01027
 「さて。それじゃ何か、あたしに訊きたいことがあるみたいだけど」
 
+#SCRIPT ORIGINAL 「あ。ええ。みかんの話、養子だって偽ってたことです」
 ＠Itsuki
 「あ。ええ。みかんの話、養子だって偽ってたことです」
 
 @bgm06			#BGM 06 : 不安のテーマ
 
+#SCRIPT ORIGINAL 何か緊張感が霧散したが、気を改めて問いただした。
 何か緊張感が霧散したが、気を改めて問いただした。
 
+#SCRIPT ORIGINAL 「みかんの現場、はっきりと見ましたよ」
 ＠Itsuki
 「みかんの現場、はっきりと見ましたよ」
 
+#SCRIPT ORIGINAL だが言い捨てるように、雫さんは険悪な口調のまま答える。
 だが言い捨てるように、雫さんは険悪な口調のまま答える。
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ふん、別に偽ってなんかないさ。あたしらの世界じゃ当然の隠語だからね」
 ＠Shizuku,S01028
 「ふん、別に偽ってなんかないさ。あたしらの世界じゃ当然の隠語だからね」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「むしろ責められるのは、知識不足だった樹の方じゃないのかい？」
 ＠Shizuku,S01029
 「むしろ責められるのは、知識不足だった樹の方じゃないのかい？」
 
+#SCRIPT ORIGINAL 「けど、一言いってくれてても良かったじゃないですかッ」
 ＠Itsuki
 「けど、一言いってくれてても良かったじゃないですかッ」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「知らないね、そんなこと」
 ＠Shizuku,S01030
 「知らないね、そんなこと」
 
+#SCRIPT ORIGINAL 「あたしはあんたの教師でも世話係でもないんだ。聞かれないことを一々説明する義務はないよ」
 ＠Shizuku,S01031
 「あたしはあんたの教師でも世話係でもないんだ。聞かれないことを一々説明する義務はないよ」
 
 @shizuku_ikari		#怒
 
+#SCRIPT ORIGINAL 「そんなことより、聞きたいのはこっちだよ」
 ＠Shizuku,S01032
 「そんなことより、聞きたいのはこっちだよ」
 
+#SCRIPT ORIGINAL 「樹、あんた自分が何をしたか分かってるのかい」
 ＠Shizuku,S01033
 「樹、あんた自分が何をしたか分かってるのかい」
 
+#SCRIPT ORIGINAL 「ええ、知ってますよ。この施設の後ろ立てしてる人と、揉めたんでしょう」
 ＠Itsuki
 「ええ、知ってますよ。この施設の後ろ立てしてる人と、揉めたんでしょう」
 
+#SCRIPT ORIGINAL 「……っ」
 ＠Miu,B01216
 「……っ」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「…………」
 ＠Shizuku,S01034
 「…………」
 
+#SCRIPT ORIGINAL この言葉に何故か、美雨の方が強く反応を見せた。
 この言葉に何故か、美雨の方が強く反応を見せた。
 
+#SCRIPT ORIGINAL 雫さんはそんな美雨を冷めた瞳で一瞥すると、またきつい視線をこちらに投げる。
 雫さんはそんな美雨を冷めた瞳で一瞥すると、またきつい視線をこちらに投げる。
 
 @shizuku_ikari		#怒
 
+#SCRIPT ORIGINAL 「いや、分かってないね。分かってたら、ここにノコノコと帰ってこれるはずがないよ」
 ＠Shizuku,S01035
 「いや、分かってないね。分かってたら、ここにノコノコと帰ってこれるはずがないよ」
 
+#SCRIPT ORIGINAL 「………雫さん。オレは、言い争いに来たわけじゃないんです」
 ＠Itsuki
 「………雫さん。オレは、言い争いに来たわけじゃないんです」
 
+#SCRIPT ORIGINAL 「確かにオレがしたのは暴力事件だ。それは謝ります」
 ＠Itsuki
 「確かにオレがしたのは暴力事件だ。それは謝ります」
 
+#SCRIPT ORIGINAL 「けど、一体どんな事情があってした事なのか。その真相と、そして謝罪がほしいだけなんです」
 ＠Itsuki
 「けど、一体どんな事情があってした事なのか。その真相と、そして謝罪がほしいだけなんです」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「ははっ、謝罪ね……あたしに何を謝らせようって言うの」
 ＠Shizuku,S01036
 「ははっ、謝罪ね……あたしに何を謝らせようって言うの」
 
+#SCRIPT ORIGINAL 「オレやみかんを、養子だなんて紛らわしい言い方で騙した事です」
 ＠Itsuki
 「オレやみかんを、養子だなんて紛らわしい言い方で騙した事です」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Mikan,A00985
 「…………」
 
+#SCRIPT ORIGINAL 「オレが見つけたとき、みかんは数人の男に酷い事をされてました」
 ＠Itsuki
 「オレが見つけたとき、みかんは数人の男に酷い事をされてました」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「酷い事か。あんたが言っても、まるで説得力がないよ」
 ＠Shizuku,S01037
 「酷い事か。あんたが言っても、まるで説得力がないよ」
 
+#SCRIPT ORIGINAL 「そうです、オレにも非がある！　けど、あなたの非が０なわけじゃないっ」
 ＠Itsuki
 「そうです、オレにも非がある！　けど、あなたの非が０なわけじゃないっ」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「だから謝れって？」
 ＠Shizuku,S01038
 「だから謝れって？」
 
@@ -525,124 +638,159 @@ bgm_stop
 @miu_maid
 @miu_kanashimi		#閉_哀
 
+#SCRIPT ORIGINAL 「……樹さん、いいですか」
 ＠Miu,B01217
 「……樹さん、いいですか」
 
+#SCRIPT ORIGINAL 話を聞いていた美雨が、悲しそうに言葉を挟む。
 話を聞いていた美雨が、悲しそうに言葉を挟む。
 
+#SCRIPT ORIGINAL 「私たちが謝るのは簡単です。ですが、その後ろ立てをしてくれている方々は、そうはいきません」
 ＠Miu,B01218
 「私たちが謝るのは簡単です。ですが、その後ろ立てをしてくれている方々は、そうはいきません」
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「え……？」
 
+#SCRIPT ORIGINAL 「プライドと、欲望の塊のような方々です」
 ＠Miu,B01219
 「プライドと、欲望の塊のような方々です」
 
+#SCRIPT ORIGINAL 「ここで私たちがいくら謝罪しても、みかんちゃんを手元から奪われ、そして怪我を負わされた報復は必ずあります」
 ＠Miu,B01220
 「ここで私たちがいくら謝罪しても、みかんちゃんを手元から奪われ、そして怪我を負わされた報復は必ずあります」
 
+#SCRIPT ORIGINAL 私、たち……？
 私、たち……？
 
+#SCRIPT ORIGINAL （……まさか、美雨も知っていたのか…？）
 ＠Itsuki
 （……まさか、美雨も知っていたのか…？）
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「と、まぁ美雨は言ってるけど、それでもまだ謝罪を求めるなんて言うのかい？」
 ＠Shizuku,S01039
 「と、まぁ美雨は言ってるけど、それでもまだ謝罪を求めるなんて言うのかい？」
 
+#SCRIPT ORIGINAL 「美雨も、知ってたんだな………みかんのこと……」
 ＠Itsuki
 「美雨も、知ってたんだな………みかんのこと……」
 
+#SCRIPT ORIGINAL 考えてみれば、知ってて不思議な事ではない。
 考えてみれば、知ってて不思議な事ではない。
 
+#SCRIPT ORIGINAL 『養子』がこの世界での隠語ならば、ずっと昔からここに居る美雨が、それを知らないはずがなかった。
 『養子』がこの世界での隠語ならば、ずっと昔からここに居る美雨が、それを知らないはずがなかった。
 
+#SCRIPT ORIGINAL 「……すみません」
 ＠Miu,B01221
 「……すみません」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「美雨を責めるんじゃないよ。この子は、あたしらとは根本的に立場が違う」
 ＠Shizuku,S01040
 「美雨を責めるんじゃないよ。この子は、あたしらとは根本的に立場が違う」
 
+#SCRIPT ORIGINAL 「本人にいくら罪悪感があろうと、上に従う以外に選択はないのさ」
 ＠Shizuku,S01041
 「本人にいくら罪悪感があろうと、上に従う以外に選択はないのさ」
 
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「雫さんッ、そのことは」
 ＠Miu,B01222
 「雫さんッ、そのことは」
 
+#SCRIPT ORIGINAL 「くッ……そうか、みんなして、オレとみかんを陥れようとしてたのかッ」
 ＠Itsuki
 「くッ……そうか、みんなして、オレとみかんを陥れようとしてたのかッ」
 
 #SE47　テーブルを叩く音（バンッ！）
 @SE47			#SE47　テーブルを叩く音（バンッ！）
 
+#SCRIPT ORIGINAL バンッッ！！！
 バンッッ！！！
 
 @miu_kanashimi		#閉_哀
 
+#SCRIPT ORIGINAL 「もういいっ、謝罪もいらない！　その代わり、オレとみかんはここを出て行く！」
 ＠Itsuki
 「もういいっ、謝罪もいらない！　その代わり、オレとみかんはここを出て行く！」
 
+#SCRIPT ORIGINAL 「え！？」
 ＠Mikan,A00986
 「え！？」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「やれやれ。言い合いに負けそうになったら、今度は逆ギレかい？」
 ＠Shizuku,S01042
 「やれやれ。言い合いに負けそうになったら、今度は逆ギレかい？」
 
 @shizuku_ikari		#怒
 
+#SCRIPT ORIGINAL 「あたし達を非難したところで、あんただってもう同罪じゃないか」
 ＠Shizuku,S01043
 「あたし達を非難したところで、あんただってもう同罪じゃないか」
 
+#SCRIPT ORIGINAL 「オレに何かペナルティを課すならそれでもいい」
 ＠Itsuki
 「オレに何かペナルティを課すならそれでもいい」
 
+#SCRIPT ORIGINAL 「けどその時は、あなた達も道連れだ」
 ＠Itsuki
 「けどその時は、あなた達も道連れだ」
 
+#SCRIPT ORIGINAL 「ここでの生活の事を全部吐いて、みかんにも証言してもらう！」
 ＠Itsuki
 「ここでの生活の事を全部吐いて、みかんにも証言してもらう！」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「ふふっ、ペナルティは課させてもらうよ。当然ね」
 ＠Shizuku,S01044
 「ふふっ、ペナルティは課させてもらうよ。当然ね」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「ただ残念ね、あんたが吐いたりみかんが証言したりする場を設けてやるつもりはない」
 ＠Shizuku,S01045
 「ただ残念ね、あんたが吐いたりみかんが証言したりする場を設けてやるつもりはない」
 
+#SCRIPT ORIGINAL 「え……」
 ＠Itsuki
 「え……」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「分かってるって言っただろう？　事件にならないここの生活の実態」
 ＠Shizuku,S01046
 「分かってるって言っただろう？　事件にならないここの生活の実態」
 
+#SCRIPT ORIGINAL 「闇から闇へ」
 ＠Shizuku,S01047
 「闇から闇へ」
 
+#SCRIPT ORIGINAL 「今この瞬間からもう、あんた達が『外』へ向けて言葉を発する機会なんか訪れないんだよ」
 ＠Shizuku,S01048
 「今この瞬間からもう、あんた達が『外』へ向けて言葉を発する機会なんか訪れないんだよ」
 
+#SCRIPT ORIGINAL 「……ッ！」
 ＠Itsuki
 「……ッ！」
 
+#SCRIPT ORIGINAL 雫さんのひずんだ笑みで、ゾクリと背筋に寒気が走る。
 雫さんのひずんだ笑みで、ゾクリと背筋に寒気が走る。
 
+#SCRIPT ORIGINAL ただそれだけなのに、昨日の拳銃を突きつけられた時以上の危機感を、本能が訴えた。
 ただそれだけなのに、昨日の拳銃を突きつけられた時以上の危機感を、本能が訴えた。
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 「みかんッ、ここから出るぞ！」
 ＠Itsuki
 「みかんッ、ここから出るぞ！」
 
@@ -651,15 +799,19 @@ bgm_stop
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「えッ！？　は、話がよく分からないよぉ……！　どこに行くの、お兄ちゃんっ」
 ＠Mikan,A00987
 「えッ！？　は、話がよく分からないよぉ……！　どこに行くの、お兄ちゃんっ」
 
 @mikan_
 
+#SCRIPT ORIGINAL みかんを引きずるように抱え、リビングのドアへ走る！
 みかんを引きずるように抱え、リビングのドアへ走る！
 
+#SCRIPT ORIGINAL ――嫌な予感がするッ。ここに居てはマズイ！
 ――嫌な予感がするッ。ここに居てはマズイ！
 
+#SCRIPT ORIGINAL 「ふふっ、子供づれに逃げられるかってのっ」
 ＠Shizuku,S01049
 「ふふっ、子供づれに逃げられるかってのっ」
 
@@ -669,9 +821,11 @@ bgm_stop
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「えッ！？　あぐッ！」
 ＠Itsuki
 「えッ！？　あぐッ！」
 
+#SCRIPT ORIGINAL 雫さんが蹴り飛ばしたミニテーブルが、逃げようとした足に衝突する。
 雫さんが蹴り飛ばしたミニテーブルが、逃げようとした足に衝突する。
 
 #SE27　倒れる音（ドサッ）
@@ -679,15 +833,18 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #screen_vibration	500,16,16,16
 @SE27			#SE27　倒れる音（ドサッ）
 
+#SCRIPT ORIGINAL 「きゃあッ！　いたッ……」
 ＠Mikan,A00988
 「きゃあッ！　いたッ……」
 
+#SCRIPT ORIGINAL オレに巻き込まれ、みかんも床に尻餅を着かされた。
 オレに巻き込まれ、みかんも床に尻餅を着かされた。
 
 @shizuku_small
 @shizuku_shifuku
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「可哀想に。樹のせいでみかんまで痛そうじゃない」
 ＠Shizuku,S01050
 「可哀想に。樹のせいでみかんまで痛そうじゃない」
 
@@ -695,27 +852,33 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @miu_maid
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「……足癖が悪いですよ、雫さん」
 ＠Miu,B01223
 「……足癖が悪いですよ、雫さん」
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ははっ。あいにくと、美雨ほど綺麗な身のこなしは会得してなくてね」
 ＠Shizuku,S01051
 「ははっ。あいにくと、美雨ほど綺麗な身のこなしは会得してなくてね」
 
+#SCRIPT ORIGINAL 「くそッ……みかん、大丈夫か！？」
 ＠Itsuki
 「くそッ……みかん、大丈夫か！？」
 
+#SCRIPT ORIGINAL 「ん、うん。お尻打っただけだから」
 ＠Mikan,A00989
 「ん、うん。お尻打っただけだから」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「美雨、代わるかい？」
 ＠Shizuku,S01052
 「美雨、代わるかい？」
 
 @miu_kanashimi		#閉_哀
 
+#SCRIPT ORIGINAL 「……私は、他の子達が入ってこないように外に出ています」
 ＠Miu,B01224
 「……私は、他の子達が入ってこないように外に出ています」
 
@@ -724,13 +887,16 @@ window_close
 wait		1000
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「はぁ。手を汚すのはあたしか」
 ＠Shizuku,S01053
 「はぁ。手を汚すのはあたしか」
 
 @shizuku_
 
+#SCRIPT ORIGINAL 美雨が無防備に、オレがいるリビングのドアの方へ歩いてくる。
 美雨が無防備に、オレがいるリビングのドアの方へ歩いてくる。
 
+#SCRIPT ORIGINAL 「美雨っ……」
 ＠Itsuki
 「美雨っ……」
 
@@ -739,15 +905,19 @@ wait		1000
 @miu_maid
 @miu_kanashimi		#閉_哀
 
+#SCRIPT ORIGINAL 「お願いです、樹さん。抵抗しないでください……」
 ＠Miu,B01225
 「お願いです、樹さん。抵抗しないでください……」
 
+#SCRIPT ORIGINAL 「そうすれば雫さんも、乱暴にはなさらないはずです」
 ＠Miu,B01226
 「そうすれば雫さんも、乱暴にはなさらないはずです」
 
+#SCRIPT ORIGINAL 「だ、だったら美雨からも雫さんをッ」
 ＠Itsuki
 「だ、だったら美雨からも雫さんをッ」
 
+#SCRIPT ORIGINAL 「美雨さんっ」
 ＠Mikan,A00990
 「美雨さんっ」
 
@@ -758,13 +928,17 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 「あ……」
 ＠Mikan,A00991
 「あ……」
 
+#SCRIPT ORIGINAL 悲しそうに首を振ると、いつもそうするように一礼し、リビングから退室する。
 悲しそうに首を振ると、いつもそうするように一礼し、リビングから退室する。
 
+#SCRIPT ORIGINAL 誰も入らないように、ドアの向こうに美雨。
 誰も入らないように、ドアの向こうに美雨。
 
+#SCRIPT ORIGINAL だがそれは同時に、オレ達の退路も断たれたことになる。
 だがそれは同時に、オレ達の退路も断たれたことになる。
 
 @bgm09			#BGM 09 : 緊迫したシーンの曲
@@ -772,9 +946,11 @@ wait		1000
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「えっとッ、雫さん！　みかんが帰ってきたことで怒ってるんなら、ごめんなさい！」
 ＠Mikan,A00992
 「えっとッ、雫さん！　みかんが帰ってきたことで怒ってるんなら、ごめんなさい！」
 
+#SCRIPT ORIGINAL 「だからお願い、お兄ちゃんを怒らないで！」
 ＠Mikan,A00993
 「だからお願い、お兄ちゃんを怒らないで！」
 
@@ -784,58 +960,75 @@ wait		1000
 @shizuku_shifuku
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「良い子だねぇ、みかんは」
 ＠Shizuku,S01054
 「良い子だねぇ、みかんは」
 
+#SCRIPT ORIGINAL 「あのまま向こうに居たら、さぞ可愛がってもらえただろうに」
 ＠Shizuku,S01055
 「あのまま向こうに居たら、さぞ可愛がってもらえただろうに」
 
+#SCRIPT ORIGINAL 「……ッ！」
 ＠Itsuki
 「……ッ！」
 
 @mikan_
 
+#SCRIPT ORIGINAL オレはみかんを庇うように、雫さんに向き合った。
 オレはみかんを庇うように、雫さんに向き合った。
 
+#SCRIPT ORIGINAL 「お兄ちゃん！？」
 ＠Mikan,A00994
 「お兄ちゃん！？」
 
+#SCRIPT ORIGINAL 「それ以上言うと、本気で怒りますよ」
 ＠Itsuki
 「それ以上言うと、本気で怒りますよ」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「う～ん……それは困るな。そうすると対処するのが面倒なんだよねぇ」
 ＠Shizuku,S01056
 「う～ん……それは困るな。そうすると対処するのが面倒なんだよねぇ」
 
+#SCRIPT ORIGINAL 「さっきみたいに物を蹴りまわったら、部屋を散らかしたって美雨に怒られるし」
 ＠Shizuku,S01057
 「さっきみたいに物を蹴りまわったら、部屋を散らかしたって美雨に怒られるし」
 
+#SCRIPT ORIGINAL 「………あくまでも、そうやって引く気は無いわけですか」
 ＠Itsuki
 「………あくまでも、そうやって引く気は無いわけですか」
 
+#SCRIPT ORIGINAL 出来れば女性に暴力は振るいたくない。だから逃げたのだ。
 出来れば女性に暴力は振るいたくない。だから逃げたのだ。
 
+#SCRIPT ORIGINAL けど、逃げられないのなら向かっていくしかない。
 けど、逃げられないのなら向かっていくしかない。
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「で、どうするつもり？」
 ＠Shizuku,S01058
 「で、どうするつもり？」
 
+#SCRIPT ORIGINAL 「力づくでいきます！」
 ＠Itsuki
 「力づくでいきます！」
 
+#SCRIPT ORIGINAL こんな経験がそうあるわけではない。
+#SCRIPT ORIGINAL だから勝っている力に頼り、正面から掴みかかる。
 こんな経験がそうあるわけではない。
 だから勝っている力に頼り、正面から掴みかかる。
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ふふっ。威勢だけはいいじゃないの」
 ＠Shizuku,S01059
 「ふふっ。威勢だけはいいじゃないの」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「このまま押し倒されるなら、素直に受けるのも面白そうなんだけどねっ」
 ＠Shizuku,S01060
 「このまま押し倒されるなら、素直に受けるのも面白そうなんだけどねっ」
 
@@ -845,9 +1038,11 @@ wait		500
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
+#SCRIPT ORIGINAL 「ッ！？」
 ＠Itsuki
 「ッ！？」
 
+#SCRIPT ORIGINAL 雫さんが腰元から、ひも状の物を抜き取ってこちらに振るいつけた。
 雫さんが腰元から、ひも状の物を抜き取ってこちらに振るいつけた。
 
 #---------------------------------------------------------------------------------------------------
@@ -866,84 +1061,115 @@ wait			100
 @bg_black
 screen_blackin		1
 
+#SCRIPT ORIGINAL バシィッ！！
 バシィッ！！
 
+#SCRIPT ORIGINAL 「ッづう！　うぐぅッ！！」
 ＠Itsuki
 「ッづう！　うぐぅッ！！」
 
+#SCRIPT ORIGINAL 「――ッ！！　お兄ちゃんッ！！」
 ＠Mikan,A00995
 「――ッ！！　お兄ちゃんッ！！」
 
+#SCRIPT ORIGINAL 油断していたためまともにくらい、バランスをよろけさせる。
 油断していたためまともにくらい、バランスをよろけさせる。
 
+#SCRIPT ORIGINAL 「はーっ、これはまた、ずいぶんとまともに食らったわねぇ」
 ＠Shizuku,S01061
 「はーっ、これはまた、ずいぶんとまともに食らったわねぇ」
 
+#SCRIPT ORIGINAL 「いやあッ、お兄ちゃんッ！　目ですごい音がしたよッ、大丈夫なのッ！？」
 ＠Mikan,A00996
 「いやあッ、お兄ちゃんッ！　目ですごい音がしたよッ、大丈夫なのッ！？」
 
+#SCRIPT ORIGINAL 「ぐくッ……う！　大丈夫だ……」
 ＠Itsuki
 「ぐくッ……う！　大丈夫だ……」
 
+#SCRIPT ORIGINAL 「ダメよぉ、樹。せめて片目くらいは守らないと。周りが見えないでしょう」
 ＠Shizuku,S01062
 「ダメよぉ、樹。せめて片目くらいは守らないと。周りが見えないでしょう」
 
+#SCRIPT ORIGINAL 雫さんの言うとおり、その一撃はまともに眼球を捕え、視界を暗転させた。
 雫さんの言うとおり、その一撃はまともに眼球を捕え、視界を暗転させた。
 
+#SCRIPT ORIGINAL 「うっ、く……」
 ＠Itsuki
 「うっ、く……」
 
+#SCRIPT ORIGINAL 目を開けようとすると激しい痛み。
+#SCRIPT ORIGINAL 仮に薄く開けたとしても、完全にぼやけて何も認識できない。
 目を開けようとすると激しい痛み。
 仮に薄く開けたとしても、完全にぼやけて何も認識できない。
 
+#SCRIPT ORIGINAL 「な、何でッ……腰元になんか、何もなかったはずなのにッ」
 ＠Itsuki
 「な、何でッ……腰元になんか、何もなかったはずなのにッ」
 
+#SCRIPT ORIGINAL 「手癖も悪いんだよねぇ、あたしは」
 ＠Shizuku,S01063
 「手癖も悪いんだよねぇ、あたしは」
 
+#SCRIPT ORIGINAL 「今のでベルト抜いちゃったから、下着丸見え状態よ。見えなくて残念ね」
 ＠Shizuku,S01064
 「今のでベルト抜いちゃったから、下着丸見え状態よ。見えなくて残念ね」
 
+#SCRIPT ORIGINAL 「べ、ベルトっ……！？　今の迎撃、ベルトだったのか！？」
 ＠Itsuki
 「べ、ベルトっ……！？　今の迎撃、ベルトだったのか！？」
 
+#SCRIPT ORIGINAL 「痛いでしょ。高いのよぉ、これ」
 ＠Shizuku,S01065
 「痛いでしょ。高いのよぉ、これ」
 
+#SCRIPT ORIGINAL あんな一瞬の動作で……どんな動きしてるんだ、この人はッ。
 あんな一瞬の動作で……どんな動きしてるんだ、この人はッ。
 
+#SCRIPT ORIGINAL 「見えないのッ、お兄ちゃん！？　目、痛いのッ！？」
 ＠Mikan,A00997
 「見えないのッ、お兄ちゃん！？　目、痛いのッ！？」
 
+#SCRIPT ORIGINAL 「それにしても、頼りないナイト様ねぇ。本気で怒ってから数秒しかたってないのに」
 ＠Shizuku,S01066
 「それにしても、頼りないナイト様ねぇ。本気で怒ってから数秒しかたってないのに」
 
+#SCRIPT ORIGINAL 見えない視界の中で、三者三様の声が耳に届く。
 見えない視界の中で、三者三様の声が耳に届く。
 
+#SCRIPT ORIGINAL 「っく……まだだッ！」
 ＠Itsuki
 「っく……まだだッ！」
 
+#SCRIPT ORIGINAL ブンッ！と、雫さんの居るであろう方に向かって手を伸ばす。
 ブンッ！と、雫さんの居るであろう方に向かって手を伸ばす。
 
+#SCRIPT ORIGINAL 「おっと。もしかして、もう見える？」
 ＠Shizuku,S01067
 「おっと。もしかして、もう見える？」
 
+#SCRIPT ORIGINAL 「この中でタバコの匂いをさせてるのは、雫さんくらいですよ！」
 ＠Itsuki
 「この中でタバコの匂いをさせてるのは、雫さんくらいですよ！」
 
+#SCRIPT ORIGINAL 「それはまた、ずいぶん女性に対して失礼な認識の仕方だこと」
 ＠Shizuku,S01068
 「それはまた、ずいぶん女性に対して失礼な認識の仕方だこと」
 
+#SCRIPT ORIGINAL 「だったら、今度は鼻を潰せばいいってことか」
 ＠Shizuku,S01069
 「だったら、今度は鼻を潰せばいいってことか」
 
+#SCRIPT ORIGINAL 「え……」
 ＠Itsuki
 「え……」
 
+#SCRIPT ORIGINAL 「ッ！！　お兄ちゃんッ、危ない！！」
 ＠Mikan,A00998
 「ッ！！　お兄ちゃんッ、危ない！！」
 
+#SCRIPT ORIGINAL みかんが叫ぶ。
+#SCRIPT ORIGINAL が、視界の利かないオレに、その忠告の効果はなかった。
 みかんが叫ぶ。
 が、視界の利かないオレに、その忠告の効果はなかった。
 
@@ -958,65 +1184,88 @@ se 		0,	"sound\se\SEH15_鞭か何かで叩かれる２.wav",play_once
 
 #ビシュゥッ！　バシッ！
 
+#SCRIPT ORIGINAL 「ンブゥッ！　ぐくッ、ぐぅぅうッッ！！」
 ＠Itsuki
 「ンブゥッ！　ぐくッ、ぐぅぅうッッ！！」
 
+#SCRIPT ORIGINAL さっきと同じ質の痛みが、今度は鼻の二発連続で左右から捕える。
 さっきと同じ質の痛みが、今度は鼻の二発連続で左右から捕える。
 
+#SCRIPT ORIGINAL 「やああッ！　雫さんッ、止めて！　お兄ちゃんが死んじゃうよぉッ！！」
 ＠Mikan,A00999
 「やああッ！　雫さんッ、止めて！　お兄ちゃんが死んじゃうよぉッ！！」
 
+#SCRIPT ORIGINAL 「死にはしないでしょう、ベルトで叩くくらいじゃ。まだね」
 ＠Shizuku,S01070
 「死にはしないでしょう、ベルトで叩くくらいじゃ。まだね」
 
+#SCRIPT ORIGINAL 「はぁぁッ、あ！　うぅッ……」
 ＠Itsuki
 「はぁぁッ、あ！　うぅッ……」
 
+#SCRIPT ORIGINAL さすがに、骨にどうこう問題があるほどではない。
 さすがに、骨にどうこう問題があるほどではない。
 
+#SCRIPT ORIGINAL が、やはり痛みで匂いはおろか、鼻に空気を通すことも出来そうにない。
 が、やはり痛みで匂いはおろか、鼻に空気を通すことも出来そうにない。
 
+#SCRIPT ORIGINAL 「これでもう大人しくなるかな」
 ＠Shizuku,S01071
 「これでもう大人しくなるかな」
 
+#SCRIPT ORIGINAL 「はぁっ、く……クソッ…！」
 ＠Itsuki
 「はぁっ、く……クソッ…！」
 
+#SCRIPT ORIGINAL 情けなくて、さらに涙で視界が滲む。
 情けなくて、さらに涙で視界が滲む。
 
+#SCRIPT ORIGINAL それでも声を頼りに、まだ続けて手を伸ばす。
 それでも声を頼りに、まだ続けて手を伸ばす。
 
+#SCRIPT ORIGINAL 「お兄ちゃんっ、もういいよ！　また他のところ叩かれちゃうよぉ！！」
 ＠Mikan,A01000
 「お兄ちゃんっ、もういいよ！　また他のところ叩かれちゃうよぉ！！」
 
+#SCRIPT ORIGINAL 「そうそう。あんたがＭならともかく、あたしにＳッ気はないんだから。痛いだけよ？」
 ＠Shizuku,S01072
 「そうそう。あんたがＭならともかく、あたしにＳッ気はないんだから。痛いだけよ？」
 
+#SCRIPT ORIGINAL 「そんなわけにはッ！　せめて、みかんだけでも！」
 ＠Itsuki
 「そんなわけにはッ！　せめて、みかんだけでも！」
 
+#SCRIPT ORIGINAL だが腕は何度も中空で踊る。
+#SCRIPT ORIGINAL 方向はあっていても、距離感はまるでつかめない。
 だが腕は何度も中空で踊る。
 方向はあっていても、距離感はまるでつかめない。
 
+#SCRIPT ORIGINAL 「ま、あっけないけど、こんなもんかね。後は威勢だけみたいだし」
 ＠Shizuku,S01073
 「ま、あっけないけど、こんなもんかね。後は威勢だけみたいだし」
 
+#SCRIPT ORIGINAL 「じゃあ、許してくれるの！？　もうお兄ちゃんのこと叩かない！？」
 ＠Mikan,A01001
 「じゃあ、許してくれるの！？　もうお兄ちゃんのこと叩かない！？」
 
+#SCRIPT ORIGINAL 「あたしはもともと叩くつもりなんてなかったよ」
 ＠Shizuku,S01074
 「あたしはもともと叩くつもりなんてなかったよ」
 
+#SCRIPT ORIGINAL 「それにいい加減ベルトも締めたいしね。腰が冷えそうだ」
 ＠Shizuku,S01075
 「それにいい加減ベルトも締めたいしね。腰が冷えそうだ」
 
+#SCRIPT ORIGINAL 雫さんの声と気配がこちらに近寄ってくる。
 雫さんの声と気配がこちらに近寄ってくる。
 
+#SCRIPT ORIGINAL 「とりあえず拘束させてもらうよ、二人とも」
 ＠Shizuku,S01076
 「とりあえず拘束させてもらうよ、二人とも」
 
 bgm_stop
 
+#SCRIPT ORIGINAL その言葉にもう、情けなくも抵抗できる術は無かった。
 その言葉にもう、情けなくも抵抗できる術は無かった。
 
 #一拍
@@ -1024,21 +1273,27 @@ bgm_stop
 @bg_black
 wait		1000
 
+#SCRIPT ORIGINAL ………
 ………
 
+#SCRIPT ORIGINAL ……………
 ……………
 
+#SCRIPT ORIGINAL …………………
 …………………
 
 #■BG（地下調教部屋）
 @bg_choukyou_hard	# ハード調教部屋
 
+#SCRIPT ORIGINAL ……あれからしばらくして、ようやく視界が回復した。
 ……あれからしばらくして、ようやく視界が回復した。
 
+#SCRIPT ORIGINAL その間、施設の中をうろうろと歩かされたのは感覚で分かっている。
 その間、施設の中をうろうろと歩かされたのは感覚で分かっている。
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
+#SCRIPT ORIGINAL 「……どこだここは」
 ＠Itsuki
 「……どこだここは」
 
@@ -1047,11 +1302,14 @@ wait		1000
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「あッ、お兄ちゃん、大丈夫！？」
 ＠Mikan,A01002
 「あッ、お兄ちゃん、大丈夫！？」
 
+#SCRIPT ORIGINAL 見慣れない光景の中で、みかんが心配そうにオレを見つめていた。
 見慣れない光景の中で、みかんが心配そうにオレを見つめていた。
 
+#SCRIPT ORIGINAL 「何とか。目も鼻も機能してるみたいだ………ん？」
 ＠Itsuki
 「何とか。目も鼻も機能してるみたいだ………ん？」
 
@@ -1060,119 +1318,157 @@ window_close
 wait		2000
 se_stop		0
 
+#SCRIPT ORIGINAL 立ち上がろうとして、手首と足首が縛られているのに気付いた。
 立ち上がろうとして、手首と足首が縛られているのに気付いた。
 
+#SCRIPT ORIGINAL 「それ、雫さんが縛って行ったの」
 ＠Mikan,A01003
 「それ、雫さんが縛って行ったの」
 
+#SCRIPT ORIGINAL 「そっか。まぁそうだろうな」
 ＠Itsuki
 「そっか。まぁそうだろうな」
 
+#SCRIPT ORIGINAL 「解こうとしたんだけど、すごく硬くて。切る物とかもないし……」
 ＠Mikan,A01004
 「解こうとしたんだけど、すごく硬くて。切る物とかもないし……」
 
+#SCRIPT ORIGINAL 縛られているのはオレだけで、みかんは無事なようだ。
 縛られているのはオレだけで、みかんは無事なようだ。
 
+#SCRIPT ORIGINAL それは余裕の表れなのか、または、再びみかんを売るつもりで傷を付けたくないのか。
 それは余裕の表れなのか、または、再びみかんを売るつもりで傷を付けたくないのか。
 
+#SCRIPT ORIGINAL 「ここはまだ施設の中だよな……？」
 ＠Itsuki
 「ここはまだ施設の中だよな……？」
 
+#SCRIPT ORIGINAL 「多分……。みかんも目隠しされてたから分からないけど」
 ＠Mikan,A01005
 「多分……。みかんも目隠しされてたから分からないけど」
 
 #@mikan_
 
+#SCRIPT ORIGINAL こんな部屋は見たことがない。
 こんな部屋は見たことがない。
 
+#SCRIPT ORIGINAL おそらく調教用に存在する部屋なのだろうが……
 おそらく調教用に存在する部屋なのだろうが……
 
 #CH（立ち絵・なし）
 
+#SCRIPT ORIGINAL 「ここは施設の地下だよ」
 ＠Shizuku,S01077
 「ここは施設の地下だよ」
 
+#SCRIPT ORIGINAL 「えッ……」
 ＠Itsuki
 「えッ……」
 
+#SCRIPT ORIGINAL ドアの向こうから雫さんの声がした。
 ドアの向こうから雫さんの声がした。
 
+#SCRIPT ORIGINAL 「本当は調教部屋の一つなんだけど、軟禁するにはちょうどいいだろう」
 ＠Shizuku,S01078
 「本当は調教部屋の一つなんだけど、軟禁するにはちょうどいいだろう」
 
+#SCRIPT ORIGINAL 「……これから、オレ達をどうするつもりですか」
 ＠Itsuki
 「……これから、オレ達をどうするつもりですか」
 
+#SCRIPT ORIGINAL 「雫さんっ、悪いのは逃げて来たみかんだよ。だからお兄ちゃんは許して」
 ＠Mikan,A01006
 「雫さんっ、悪いのは逃げて来たみかんだよ。だからお兄ちゃんは許して」
 
+#SCRIPT ORIGINAL 「別に不自由させるような事はない。中で自由にしてていいし、食事だって出すよ」
 ＠Shizuku,S01079
 「別に不自由させるような事はない。中で自由にしてていいし、食事だって出すよ」
 
+#SCRIPT ORIGINAL 「ただ、こっちの状況が整理できるまではずっとこの中だ」
 ＠Shizuku,S01080
 「ただ、こっちの状況が整理できるまではずっとこの中だ」
 
+#SCRIPT ORIGINAL 「騒いだって無駄だよ。一階まで絶対に音は漏れないからね」
 ＠Shizuku,S01081
 「騒いだって無駄だよ。一階まで絶対に音は漏れないからね」
 
 #SE18　廊下を歩き去る音　※徐々に小さく
 @SE18			#廊下を歩き去る音
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL それだけ告げると、姿も見せず足音が遠ざかっていく。
 それだけ告げると、姿も見せず足音が遠ざかっていく。
 
 se_stop		0
 
+#SCRIPT ORIGINAL 「……お兄ちゃん」
 ＠Mikan,A01007
 「……お兄ちゃん」
 
+#SCRIPT ORIGINAL 「まぁ、何か仕打ちを受けるわけじゃ無さそうだな」
 ＠Itsuki
 「まぁ、何か仕打ちを受けるわけじゃ無さそうだな」
 
+#SCRIPT ORIGINAL 「でも、ずっとこの中って……」
 ＠Mikan,A01008
 「でも、ずっとこの中って……」
 
+#SCRIPT ORIGINAL 不安そうに辺りを見渡すみかん。
 不安そうに辺りを見渡すみかん。
 
+#SCRIPT ORIGINAL 「ねぇ………みかんが逃げて来たから、こんなことになってるの……？」
 ＠Mikan,A01009
 「ねぇ………みかんが逃げて来たから、こんなことになってるの……？」
 
+#SCRIPT ORIGINAL 「そんなことない。みかんのせいじゃないから気にするな」
 ＠Itsuki
 「そんなことない。みかんのせいじゃないから気にするな」
 
+#SCRIPT ORIGINAL 「本心を言えば、この軟禁状態にホッとしてもいるんだ」
 ＠Itsuki
 「本心を言えば、この軟禁状態にホッとしてもいるんだ」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「え…？」
 ＠Mikan,A01010
 「え…？」
 
+#SCRIPT ORIGINAL 「オレの思ってた以上に話は大きいみたいだし、昨日は拳銃騒ぎまであった」
 ＠Itsuki
 「オレの思ってた以上に話は大きいみたいだし、昨日は拳銃騒ぎまであった」
 
+#SCRIPT ORIGINAL 「なのに、二人とも身の安全が保証されてるんだからな」
 ＠Itsuki
 「なのに、二人とも身の安全が保証されてるんだからな」
 
+#SCRIPT ORIGINAL 場所も施設の中という事で、緊張を緩めてくれる。
 場所も施設の中という事で、緊張を緩めてくれる。
 
+#SCRIPT ORIGINAL 「でもこんな部屋があったんだね。地下だって」
 ＠Mikan,A01011
 「でもこんな部屋があったんだね。地下だって」
 
+#SCRIPT ORIGINAL 「ベッドがあって、洗面所もあるし。あれって浴室かな……トイレまである」
 ＠Mikan,A01012
 「ベッドがあって、洗面所もあるし。あれって浴室かな……トイレまである」
 
+#SCRIPT ORIGINAL どれも簡素なものだが一通り揃っている。
 どれも簡素なものだが一通り揃っている。
 
+#SCRIPT ORIGINAL 浴室もトイレも、おそらく調教で使うためのものだろうが……
 浴室もトイレも、おそらく調教で使うためのものだろうが……
 
+#SCRIPT ORIGINAL 「とりあえず、事態が掴めるまでは大人しくしておくか」
 ＠Itsuki
 「とりあえず、事態が掴めるまでは大人しくしておくか」
 
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「うん……。ホッとしたら力が抜けちゃった」
 ＠Mikan,A01013
 「うん……。ホッとしたら力が抜けちゃった」
 
@@ -1181,8 +1477,11 @@ window_close
 wait		1000
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
+#SCRIPT ORIGINAL みかんがベッドに腰掛ける。
 みかんがベッドに腰掛ける。
 
+#SCRIPT ORIGINAL オレは……
+#SCRIPT ORIGINAL 手足を縛られたままだが、なんとかなるだろう。
 オレは……
 手足を縛られたままだが、なんとかなるだろう。
 
@@ -1190,20 +1489,25 @@ wait		1000
 @bg_black		# 黒
 wait		2000
 
+#SCRIPT ORIGINAL 時計も携帯も無いため、時間は分からないが。食事は夜の分が用意された。
 時計も携帯も無いため、時間は分からないが。食事は夜の分が用意された。
 
+#SCRIPT ORIGINAL ドアの下に小さい窓があり、そこから受け渡しが可能なようだ。
 ドアの下に小さい窓があり、そこから受け渡しが可能なようだ。
 
 @bg_choukyou_hard	# ハード調教部屋
 
+#SCRIPT ORIGINAL 「他の子達は。どうしてるんです？」
 ＠Itsuki
 「他の子達は。どうしてるんです？」
 
 #CH（立ち絵なし）
 
+#SCRIPT ORIGINAL 「食堂でご飯を食べてるよ。あんた達は用事で出かけてるって言ってある」
 ＠Shizuku,S01082
 「食堂でご飯を食べてるよ。あんた達は用事で出かけてるって言ってある」
 
+#SCRIPT ORIGINAL 「ほらみかん、こっちに残してあったパジャマと下着だよ」
 ＠Shizuku,S01083
 「ほらみかん、こっちに残してあったパジャマと下着だよ」
 
@@ -1211,58 +1515,73 @@ wait		2000
 @mikan_shifuku
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「あ、うん。ありがとう」
 ＠Mikan,A01014
 「あ、うん。ありがとう」
 
 @mikan_
 
+#SCRIPT ORIGINAL 「汚れ物はこの窓から外に放り出しておきな。洗濯したら返すから」
 ＠Shizuku,S01084
 「汚れ物はこの窓から外に放り出しておきな。洗濯したら返すから」
 
+#SCRIPT ORIGINAL 「……ずいぶんと良い待遇ですね」
 ＠Itsuki
 「……ずいぶんと良い待遇ですね」
 
+#SCRIPT ORIGINAL 「別に拷問するつもりも必要も無いからね」
 ＠Shizuku,S01085
 「別に拷問するつもりも必要も無いからね」
 
+#SCRIPT ORIGINAL 「あたしらとしては、あんた達がここで大人しくしといてくれれば問題ない」
 ＠Shizuku,S01086
 「あたしらとしては、あんた達がここで大人しくしといてくれれば問題ない」
 
+#SCRIPT ORIGINAL 「それは、いつまでですか」
 ＠Itsuki
 「それは、いつまでですか」
 
+#SCRIPT ORIGINAL 「さぁね。決めるのはあたしじゃないんだよ」
 ＠Shizuku,S01087
 「さぁね。決めるのはあたしじゃないんだよ」
 
 #SE18　廊下を歩き去る音　※徐々に小さく
 @SE18			#廊下を歩き去る音
 
+#SCRIPT ORIGINAL 話が続く前に、雫さんはドアの前から離れて行った。
 話が続く前に、雫さんはドアの前から離れて行った。
 
 @mikan_middle		# 中間
 @mikan_shifuku
 @mikan_yorokobi		#喜
 
+#SCRIPT ORIGINAL 「見て、お兄ちゃん。ずっと食べてた美雨さんのご飯と一緒だよ」
 ＠Mikan,A01015
 「見て、お兄ちゃん。ずっと食べてた美雨さんのご飯と一緒だよ」
 
+#SCRIPT ORIGINAL 「ああ。本当に不自由はさせないつもりらしいな」
 ＠Itsuki
 「ああ。本当に不自由はさせないつもりらしいな」
 
+#SCRIPT ORIGINAL ……何か裏がありそうな気もするが。
 ……何か裏がありそうな気もするが。
 
 @mikan_warai2		#笑2
 
+#SCRIPT ORIGINAL 「はい。みかんが食べさせてあげる」
 ＠Mikan,A01016
 「はい。みかんが食べさせてあげる」
 
+#SCRIPT ORIGINAL 「ありがとう……手が使えないのは不便だな」
 ＠Itsuki
 「ありがとう……手が使えないのは不便だな」
 
 @mikan_
 
+#SCRIPT ORIGINAL みかんに手伝ってもらいながら食事を済ます。
 みかんに手伝ってもらいながら食事を済ます。
 
+#SCRIPT ORIGINAL 美雨の料理はこんな場所でも、変わらずに美味しかった。
 美雨の料理はこんな場所でも、変わらずに美味しかった。
 
 bgm_stop
@@ -1281,24 +1600,31 @@ wait		1000
 #■BG（黒）
 #@bg_black
 
+#SCRIPT ORIGINAL ………
 ………
 
+#SCRIPT ORIGINAL ……………
 ……………
 
+#SCRIPT ORIGINAL ……そして、
 ……そして、
 
+#SCRIPT ORIGINAL みかんとそんな軟禁生活を始めて、数日が経った。
 みかんとそんな軟禁生活を始めて、数日が経った。
 
 #■BG（地下調教部屋）
 @bg_choukyou_hard	# ハード調教部屋
 
+#SCRIPT ORIGINAL 「…………」
 ＠Mikan,A01017
 「…………」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL 徐々にこの部屋に慣れてきたみかんが、落ち着き無くウロウロしている。
 徐々にこの部屋に慣れてきたみかんが、落ち着き無くウロウロしている。
 
+#SCRIPT ORIGINAL 「どうした、みかん？」
 ＠Itsuki
 「どうした、みかん？」
 
@@ -1306,82 +1632,102 @@ wait		1000
 @mikan_shifuku
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「え？　う、うん……」
 ＠Mikan,A01018
 「え？　う、うん……」
 
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 
+#SCRIPT ORIGINAL 振り返ったみかんのお腹から、空腹を訴える音が鳴いた。
 振り返ったみかんのお腹から、空腹を訴える音が鳴いた。
 
+#SCRIPT ORIGINAL 「……今日のご飯、ちょっと遅いかなって」
 ＠Mikan,A01019
 「……今日のご飯、ちょっと遅いかなって」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL 何か、この生活が自然になりつつある平和さだ。
 何か、この生活が自然になりつつある平和さだ。
 
+#SCRIPT ORIGINAL 「まぁ、用意が遅れることもあるだろう。もう少し待ってみな」
 ＠Itsuki
 「まぁ、用意が遅れることもあるだろう。もう少し待ってみな」
 
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「うん……。もしかして、外食に行ったりして忘れられてないかなぁ」
 ＠Mikan,A01020
 「うん……。もしかして、外食に行ったりして忘れられてないかなぁ」
 
 @mikan_
 bgm_stop
 
+#SCRIPT ORIGINAL そんな、緊張感の無いやり取りをしていた時だった。
 そんな、緊張感の無いやり取りをしていた時だった。
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @SE09			#部屋のドアの鍵を掛ける音（カチャ）
 #カチャッ…
 
+#SCRIPT ORIGINAL 「えっ…」
 ＠Itsuki
 「えっ…」
 
+#SCRIPT ORIGINAL 外からドアの鍵がはずれる音がした。
 外からドアの鍵がはずれる音がした。
 
+#SCRIPT ORIGINAL 「あっ、ご飯来たのかな」
 ＠Mikan,A01021
 「あっ、ご飯来たのかな」
 
+#SCRIPT ORIGINAL 「いや、違うだろ……なんで鍵が」
 ＠Itsuki
 「いや、違うだろ……なんで鍵が」
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
+#SCRIPT ORIGINAL 続いて、今まで開いた事の無かったドアが開いていく。
 続いて、今まで開いた事の無かったドアが開いていく。
 
 @miu_small
 @miu_maid
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「樹さん、みかんちゃん。ご無事ですか？」
 ＠Miu,B01227
 「樹さん、みかんちゃん。ご無事ですか？」
 
+#SCRIPT ORIGINAL 「えっ、美雨さん」
 ＠Mikan,A01022
 「えっ、美雨さん」
 
 @bgm16			#BGM 16 : ミステリアス
 
+#SCRIPT ORIGINAL そこから現れたのは、あの日以降ここにも来なかった美雨だった。
 そこから現れたのは、あの日以降ここにも来なかった美雨だった。
 
 @miu_kanashimi		#閉_哀
 
+#SCRIPT ORIGINAL 「すみません、すぐ迎えに来るつもりだったのですが、準備に手間取りました」
 ＠Miu,B01228
 「すみません、すぐ迎えに来るつもりだったのですが、準備に手間取りました」
 
+#SCRIPT ORIGINAL 「準備……？　いや、そもそも何で美雨が」
 ＠Itsuki
 「準備……？　いや、そもそも何で美雨が」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「樹さんとみかんちゃんが、ここにかくまわれている事が見つかったんです」
 ＠Miu,B01229
 「樹さんとみかんちゃんが、ここにかくまわれている事が見つかったんです」
 
+#SCRIPT ORIGINAL 「私が先導しますから、すぐにここから脱出してください」
 ＠Miu,B01230
 「私が先導しますから、すぐにここから脱出してください」
 
@@ -1392,8 +1738,10 @@ wait		1000
 wait		2000
 se_stop		0
 
+#SCRIPT ORIGINAL 真剣な口調で答えながら、美雨が手際よくオレの手足を縛るロープを解いた。
 真剣な口調で答えながら、美雨が手際よくオレの手足を縛るロープを解いた。
 
+#SCRIPT ORIGINAL 「かくまうって……。これはオレとみかんを逃がさないための軟禁だったんだろ」
 ＠Itsuki
 「かくまうって……。これはオレとみかんを逃がさないための軟禁だったんだろ」
 
@@ -1401,25 +1749,31 @@ se_stop		0
 @miu_maid
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「いいえ」
 ＠Miu,B01231
 「いいえ」
 
+#SCRIPT ORIGINAL 「みかんちゃんを奪われた相手の報復を避けるため、ここに居てもらったんです」
 ＠Miu,B01232
 「みかんちゃんを奪われた相手の報復を避けるため、ここに居てもらったんです」
 
 @miu_komaru		#開_困
 
+#SCRIPT ORIGINAL 「それももう気付かれてしまいましたが」
 ＠Miu,B01233
 「それももう気付かれてしまいましたが」
 
+#SCRIPT ORIGINAL 「ちょ、ま、待ってくれ。じゃあ初めから美雨と雫さんは……」
 ＠Itsuki
 「ちょ、ま、待ってくれ。じゃあ初めから美雨と雫さんは……」
 
+#SCRIPT ORIGINAL 「みかんとお兄ちゃんを、イジワルで閉じ込めてたんじゃなかったの？」
 ＠Mikan,A01023
 「みかんとお兄ちゃんを、イジワルで閉じ込めてたんじゃなかったの？」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「今は説明の時間がありません。とにかく、私についてきてください」
 ＠Miu,B01234
 「今は説明の時間がありません。とにかく、私についてきてください」
 
@@ -1428,8 +1782,10 @@ wait		500
 #SE21　廊下を走り去る音　※徐々に小さく
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
+#SCRIPT ORIGINAL 少しでも時間を惜しむように、話を切って走り出す美雨。
 少しでも時間を惜しむように、話を切って走り出す美雨。
 
+#SCRIPT ORIGINAL 「みかん、走れるか？」
 ＠Itsuki
 「みかん、走れるか？」
 
@@ -1442,9 +1798,11 @@ window_close
 wait		1000
 @mikan_ikari		#怒
 
+#SCRIPT ORIGINAL 「……うん。頑張る」
 ＠Mikan,A01024
 「……うん。頑張る」
 
+#SCRIPT ORIGINAL 事情が分からないオレ達も、とりあえずそれに続いて部屋を後にした。
 事情が分からないオレ達も、とりあえずそれに続いて部屋を後にした。
 
 #■BG（黒）
@@ -1452,20 +1810,26 @@ wait		1000
 #SE19　廊下を走る音
 @SE19			#SE19　廊下を走る音
 
+#SCRIPT ORIGINAL 部屋を出ると、先の短い廊下を走り抜けて、突き当たりの階段を上る。
 部屋を出ると、先の短い廊下を走り抜けて、突き当たりの階段を上る。
 
+#SCRIPT ORIGINAL 「上で人の気配がするな」
 ＠Itsuki
 「上で人の気配がするな」
 
+#SCRIPT ORIGINAL 「ええ、樹さんとみかんちゃんを探しに来ている工作員です」
 ＠Miu,B01235
 「ええ、樹さんとみかんちゃんを探しに来ている工作員です」
 
+#SCRIPT ORIGINAL 「工作員……？」
 ＠Mikan,A01025
 「工作員……？」
 
+#SCRIPT ORIGINAL 「ここから一階に出ます」
 ＠Miu,B01236
 「ここから一階に出ます」
 
+#SCRIPT ORIGINAL 「……どうやら、まだこの向こうには誰もいないみたいですね」
 ＠Miu,B01237
 「……どうやら、まだこの向こうには誰もいないみたいですね」
 
@@ -1477,17 +1841,21 @@ wait		1
 #@bg_akibeya		# 空き部屋
 @bg_akibeya_n		# 空き部屋(夜) 
 
+#SCRIPT ORIGINAL 階段を抜ける美雨に続くと、そこは見たことのある空き部屋だった。
 階段を抜ける美雨に続くと、そこは見たことのある空き部屋だった。
 
 @mikan_small
 @mikan_shifuku
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「ふわ……この部屋にあったんだ。地下室なんか」
 ＠Mikan,A01026
 「ふわ……この部屋にあったんだ。地下室なんか」
 
+#SCRIPT ORIGINAL 振り返ると、今通ったドアは完全に壁と同化して隠れてしまっている。
 振り返ると、今通ったドアは完全に壁と同化して隠れてしまっている。
 
+#SCRIPT ORIGINAL 「すごいな、こんなものまで。他にもこんな部屋があるのか？」
 ＠Itsuki
 「すごいな、こんなものまで。他にもこんな部屋があるのか？」
 
@@ -1495,23 +1863,28 @@ wait		1
 @miu_maid
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「しっ。この部屋に来ます」
 ＠Miu,B01238
 「しっ。この部屋に来ます」
 
 @mikan_ikari		#怒
 
+#SCRIPT ORIGINAL さっきより確実に大きい足音が近づいてくる。
 さっきより確実に大きい足音が近づいてくる。
 
+#SCRIPT ORIGINAL 「雫さん、じゃないよな」
 ＠Itsuki
 「雫さん、じゃないよな」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「こっちへ」
 ＠Miu,B01239
 「こっちへ」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 美雨に誘導され、ドアの引き手の方の壁に隠れるように身を寄せる。
 美雨に誘導され、ドアの引き手の方の壁に隠れるように身を寄せる。
 
 #@miu_small
@@ -1519,33 +1892,41 @@ wait		1
 @miu_maid
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「雫さんの件とは規模が違います。樹さんの言っていた、売春の裏工作をしている人たちですよ」
 ＠Miu,B01240
 「雫さんの件とは規模が違います。樹さんの言っていた、売春の裏工作をしている人たちですよ」
 
+#SCRIPT ORIGINAL 「みかんをあんな目に遭わせた奴らか」
 ＠Itsuki
 「みかんをあんな目に遭わせた奴らか」
 
+#SCRIPT ORIGINAL 「その関係者ですね」
 ＠Miu,B01241
 「その関係者ですね」
 
+#SCRIPT ORIGINAL 「……みかんを、連れ戻しに来たの？」
 ＠Mikan,A01027
 「……みかんを、連れ戻しに来たの？」
 
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「だったら、こんな大掛かりな出迎えは来ないでしょう」
 ＠Miu,B01242
 「だったら、こんな大掛かりな出迎えは来ないでしょう」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「くだらない人たちです。自分たち国のために、人一人くらい平気で殺してしまう」
 ＠Miu,B01243
 「くだらない人たちです。自分たち国のために、人一人くらい平気で殺してしまう」
 
 @miu_
 
+#SCRIPT ORIGINAL 「えっ……」
 ＠Itsuki
 「えっ……」
 
+#SCRIPT ORIGINAL 「……！　来ます、動かないで」
 ＠Miu,B01244
 「……！　来ます、動かないで」
 
@@ -1554,21 +1935,28 @@ wait		1
 @SE06			#部屋のドア開く音（ガチャ）
 #バンッ！
 
+#SCRIPT ORIGINAL 「………」
 ＠男１,V28048
 「………」
 
+#SCRIPT ORIGINAL 「………」
 ＠男２,V28049
 「………」
 
+#SCRIPT ORIGINAL 開いたドアから、妙な防護服で身を包んだ二人が飛び込んできた。
 開いたドアから、妙な防護服で身を包んだ二人が飛び込んできた。
 
+#SCRIPT ORIGINAL 「ここも居ないか。探すぞ！」
 ＠男１,V28050
 「ここも居ないか。探すぞ！」
 
+#SCRIPT ORIGINAL 開いたドアで死角になって、すぐにこちらを発見できない。
 開いたドアで死角になって、すぐにこちらを発見できない。
 
+#SCRIPT ORIGINAL その隙に、
 その隙に、
 
+#SCRIPT ORIGINAL 「―――ッ！！」
 ＠Miu,B01245
 「―――ッ！！」
 
@@ -1576,6 +1964,7 @@ wait		1
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
+#SCRIPT ORIGINAL 美雨がドアの影から飛び出した！
 美雨がドアの影から飛び出した！
 
 #SE80　人を刺す音（グシュッ！）
@@ -1588,29 +1977,37 @@ wait			100
 @bg_black
 screen_blackin		1
 
+#SCRIPT ORIGINAL 「なッ――！？　げぶぅッ！？」
 ＠男１,V28051
 「なッ――！？　げぶぅッ！？」
 
+#SCRIPT ORIGINAL 背後から男の首に触れた美雨の手が、すばやく横にスライドする。
 背後から男の首に触れた美雨の手が、すばやく横にスライドする。
 
 @bg_kekkon		# 血痕
 
+#SCRIPT ORIGINAL 一瞬遅れて、赤い液体が飛沫を床に散らせ落ちた。
 一瞬遅れて、赤い液体が飛沫を床に散らせ落ちた。
 
+#SCRIPT ORIGINAL 「えッ！？」
 ＠Itsuki
 「えッ！？」
 
+#SCRIPT ORIGINAL 「きゃあッ！！」
 ＠Mikan,A01028
 「きゃあッ！！」
 
+#SCRIPT ORIGINAL 首を切られた男の血に、悲鳴をあげるみかん。
 首を切られた男の血に、悲鳴をあげるみかん。
 
+#SCRIPT ORIGINAL 「ぐぶッ！　うッ……ぐぅぅうッ！！」
 ＠男２,V28052
 「ぐぶッ！　うッ……ぐぅぅうッ！！」
 
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
+#SCRIPT ORIGINAL その直後にはもう一人の男も、同じように首から血を流して倒れていた。
 その直後にはもう一人の男も、同じように首から血を流して倒れていた。
 
 #@miu_small
@@ -1620,100 +2017,130 @@ screen_blackin		1
 #@bg_akibeya		# 空き部屋
 @bg_akibeya_n		# 空き部屋(夜) 
 
+#SCRIPT ORIGINAL 「…………」
 ＠Miu,B01246
 「…………」
 
+#SCRIPT ORIGINAL 一瞬の出来事だった。
 一瞬の出来事だった。
 
+#SCRIPT ORIGINAL 二人の男を見下ろす美雨の手に、刃が赤く濡れたナイフが握られている。
 二人の男を見下ろす美雨の手に、刃が赤く濡れたナイフが握られている。
 
+#SCRIPT ORIGINAL 「し、し、死んじゃったの……？　その人……」
 ＠Mikan,A01029
 「し、し、死んじゃったの……？　その人……」
 
+#SCRIPT ORIGINAL 「ええ」
 ＠Miu,B01247
 「ええ」
 
+#SCRIPT ORIGINAL 「『ええ』って………美雨、人を……」
 ＠Itsuki
 「『ええ』って………美雨、人を……」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「見てください。これを」
 ＠Miu,B01248
 「見てください。これを」
 
+#SCRIPT ORIGINAL 落ち着いた真剣な表情で、二人目の男の手を視線で示す。
 落ち着いた真剣な表情で、二人目の男の手を視線で示す。
 
+#SCRIPT ORIGINAL 「じゅ、銃器……？」
 ＠Itsuki
 「じゅ、銃器……？」
 
+#SCRIPT ORIGINAL よく見れば、一人目の男も。
 よく見れば、一人目の男も。
 
+#SCRIPT ORIGINAL 二人とも肩から、現実には一度も見たことのない銃器を下げている。
 二人とも肩から、現実には一度も見たことのない銃器を下げている。
 
+#SCRIPT ORIGINAL 「狙われてるんです。樹さんとみかんちゃんは」
 ＠Miu,B01249
 「狙われてるんです。樹さんとみかんちゃんは」
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
+#SCRIPT ORIGINAL 『狙われている』
 『狙われている』
 
+#SCRIPT ORIGINAL 漠然としたイメージしかなかったその言葉が、急にリアルなものになってくる。
 漠然としたイメージしかなかったその言葉が、急にリアルなものになってくる。
 
 #@mikan_small
 #@mikan_shifuku
 #@mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「そ、そんな……どうして。みかんが逃げてきちゃったから……？」
 ＠Mikan,A01030
 「そ、そんな……どうして。みかんが逃げてきちゃったから……？」
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「いいえ、みかんちゃん。あなたは悪くないわ」
 ＠Miu,B01250
 「いいえ、みかんちゃん。あなたは悪くないわ」
 
+#SCRIPT ORIGINAL フッと、いつもの優しい笑みをみかんに向ける美雨。
 フッと、いつもの優しい笑みをみかんに向ける美雨。
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「悪いのは、人を殺めようとしているこの人たちよ」
 ＠Miu,B01251
 「悪いのは、人を殺めようとしているこの人たちよ」
 
+#SCRIPT ORIGINAL 「仮にみかんちゃんに何か落ち度があっても、こんなことをして良い理由なんかないのよ」
 ＠Miu,B01252
 「仮にみかんちゃんに何か落ち度があっても、こんなことをして良い理由なんかないのよ」
 
 #@miu_ikari		#閉_怒
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「………もちろん、私もね」
 ＠Miu,B01253
 「………もちろん、私もね」
 
+#SCRIPT ORIGINAL 「でも、今の美雨の動き………普通じゃなかったよな？」
 ＠Itsuki
 「でも、今の美雨の動き………普通じゃなかったよな？」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「……それに関しては、詳しく話す時間がありません。まずは逃げましょう」
 ＠Miu,B01254
 「……それに関しては、詳しく話す時間がありません。まずは逃げましょう」
 
+#SCRIPT ORIGINAL 「え……だって、もう」
 ＠Mikan,A01031
 「え……だって、もう」
 
+#SCRIPT ORIGINAL まだまだ当惑気味に、みかんは言葉を濁して男の二人を見る。
 まだまだ当惑気味に、みかんは言葉を濁して男の二人を見る。
 
+#SCRIPT ORIGINAL 「みかんちゃん……」
 ＠Miu,B01255
 「みかんちゃん……」
 
 @miu_
 
+#SCRIPT ORIGINAL それを視界からさえぎるように、そっとみかんの前へ美雨が屈んだ。
 それを視界からさえぎるように、そっとみかんの前へ美雨が屈んだ。
 
+#SCRIPT ORIGINAL 「相手は二人じゃないわ。大勢ってほどじゃないと思うけど、それなりにいるはずよ」
 ＠Miu,B01256
 「相手は二人じゃないわ。大勢ってほどじゃないと思うけど、それなりにいるはずよ」
 
+#SCRIPT ORIGINAL 「怖くなったら私にしがみ付いててもいいから。側から離れないで」
 ＠Miu,B01257
 「怖くなったら私にしがみ付いててもいいから。側から離れないで」
 
+#SCRIPT ORIGINAL 「まだいるって事は、他の子達は……」
 ＠Itsuki
 「まだいるって事は、他の子達は……」
 
@@ -1722,24 +2149,31 @@ screen_blackin		1
 @miu_maid
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「それは大丈夫です。狙いはお二人ですから」
 ＠Miu,B01258
 「それは大丈夫です。狙いはお二人ですから」
 
+#SCRIPT ORIGINAL 「向こうも大事な女の子たちに手はかけないでしょうし、雫さんも附いててくれてます」
 ＠Miu,B01259
 「向こうも大事な女の子たちに手はかけないでしょうし、雫さんも附いててくれてます」
 
 @miu_
 
+#SCRIPT ORIGINAL 美雨は男の腰から拳銃を抜き出すと、それを自分で装備する。
 美雨は男の腰から拳銃を抜き出すと、それを自分で装備する。
 
+#SCRIPT ORIGINAL もう一人からはマガジンだけを慣れた手つきで抜き出していた。
 もう一人からはマガジンだけを慣れた手つきで抜き出していた。
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Miu,B01260
 「…………」
 
+#SCRIPT ORIGINAL オレの困惑する視線に、美雨が悲しそうに表情を伏せる。
 オレの困惑する視線に、美雨が悲しそうに表情を伏せる。
 
 #@miu_small
@@ -1747,9 +2181,11 @@ screen_blackin		1
 @miu_maid
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「……樹さん、今は行きましょう」
 ＠Miu,B01261
 「……樹さん、今は行きましょう」
 
+#SCRIPT ORIGINAL 「絶対にお二人は助けます。それが私の罪滅ぼしですから」
 ＠Miu,B01262
 「絶対にお二人は助けます。それが私の罪滅ぼしですから」
 
@@ -1760,48 +2196,60 @@ wait		1000
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
+#SCRIPT ORIGINAL 美雨は先頭に立ち、人気を確かめて廊下に身を現す。
 美雨は先頭に立ち、人気を確かめて廊下に身を現す。
 
 @miu_small
 @miu_maid
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「ここからだと、玄関が近いですね」
 ＠Miu,B01263
 「ここからだと、玄関が近いですね」
 
+#SCRIPT ORIGINAL 「え。窓から出ればすぐだろ」
 ＠Itsuki
 「え。窓から出ればすぐだろ」
 
 @miu_komaru		#開_困
 
+#SCRIPT ORIGINAL 「いえ、おそらく………」
 ＠Miu,B01264
 「いえ、おそらく………」
 
+#SCRIPT ORIGINAL ガチャッ、ガチャッ……
 ガチャッ、ガチャッ……
 
 #@mikan_small
 #@mikan_shifuku
 #@mikan_shinkenikari	#真剣怒り
 
+#SCRIPT ORIGINAL 「あ、あれ？　開かないよ……」
 ＠Mikan,A01032
 「あ、あれ？　開かないよ……」
 
+#SCRIPT ORIGINAL カギは開いているはずの窓がビクともしない。
 カギは開いているはずの窓がビクともしない。
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「全てロックされています」
 ＠Miu,B01265
 「全てロックされています」
 
+#SCRIPT ORIGINAL 「平時は見た目どおりの普通の窓ですけど、非常時のときは電子ロックがかかるんです」
 ＠Miu,B01266
 「平時は見た目どおりの普通の窓ですけど、非常時のときは電子ロックがかかるんです」
 
+#SCRIPT ORIGINAL 「ガラスも防弾性で、割れないことはありませんが、外にトラップがある可能性を考えるとやはり危険です」
 ＠Miu,B01267
 「ガラスも防弾性で、割れないことはありませんが、外にトラップがある可能性を考えるとやはり危険です」
 
+#SCRIPT ORIGINAL 「……まるで要塞みたいなとこだ」
 ＠Itsuki
 「……まるで要塞みたいなとこだ」
 
+#SCRIPT ORIGINAL 「そうですね……。とにかく行きましょう」
 ＠Miu,B01268
 「そうですね……。とにかく行きましょう」
 
@@ -1810,25 +2258,33 @@ wait		1000
 wait		1000
 @bg_hiroma		# 広間
 
+#SCRIPT ORIGINAL そのまま美雨が先頭に立って、ゆっくりと歩を進める。
 そのまま美雨が先頭に立って、ゆっくりと歩を進める。
 
+#SCRIPT ORIGINAL オレが先頭を替わると何度も進言したのだが、「危険だから」とどうしても譲らなかった。
 オレが先頭を替わると何度も進言したのだが、「危険だから」とどうしても譲らなかった。
 
+#SCRIPT ORIGINAL 代わりにしんがりについて、三人の間にみかんを守るように挟んだ。
 代わりにしんがりについて、三人の間にみかんを守るように挟んだ。
 
+#SCRIPT ORIGINAL 「…………」
 ＠Miu,B01269
 「…………」
 
+#SCRIPT ORIGINAL 一歩進むごとに全方向に神経を張り巡らせ、敵の気配を探る美雨。
 一歩進むごとに全方向に神経を張り巡らせ、敵の気配を探る美雨。
 
+#SCRIPT ORIGINAL その歩みは慎重で、必要以上に遅い。
 その歩みは慎重で、必要以上に遅い。
 
+#SCRIPT ORIGINAL 張り詰めた空気が伝わってくる。
 張り詰めた空気が伝わってくる。
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「誰もいないみたい………もうみんな帰っちゃったのかな」
 ＠Mikan,A01033
 「誰もいないみたい………もうみんな帰っちゃったのかな」
 
@@ -1836,85 +2292,108 @@ wait		1000
 @miu_maid
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「いえ、居るわ。感じ取れる範囲内だけでも五人」
 ＠Miu,B01270
 「いえ、居るわ。感じ取れる範囲内だけでも五人」
 
+#SCRIPT ORIGINAL 「それとさっき、二階の廊下から小さい物音がしたから、そこにも最低二人」
 ＠Miu,B01271
 「それとさっき、二階の廊下から小さい物音がしたから、そこにも最低二人」
 
+#SCRIPT ORIGINAL 「もしかしたら子供達かもしれないけど、七人は居る可能性があるわね」
 ＠Miu,B01272
 「もしかしたら子供達かもしれないけど、七人は居る可能性があるわね」
 
+#SCRIPT ORIGINAL 「……物音、したかな」
 ＠Itsuki
 「……物音、したかな」
 
+#SCRIPT ORIGINAL 「ん、ううん……みかんも聞こえなかった……」
 ＠Mikan,A01034
 「ん、ううん……みかんも聞こえなかった……」
 
 @mikan_yorokobi		#喜
 
+#SCRIPT ORIGINAL 「でも、それだけだったら見つからないかも。もっと多いのかと思ってた」
 ＠Mikan,A01035
 「でも、それだけだったら見つからないかも。もっと多いのかと思ってた」
 
+#SCRIPT ORIGINAL 「数だけならね。その分、一人一人の技量はあるわ」
 ＠Miu,B01273
 「数だけならね。その分、一人一人の技量はあるわ」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「ただ今回の件においては、相手が不利なのは確かよ」
 ＠Miu,B01274
 「ただ今回の件においては、相手が不利なのは確かよ」
 
+#SCRIPT ORIGINAL 「何で……？　少数って言っても、こっちより数は多いだろうに」
 ＠Itsuki
 「何で……？　少数って言っても、こっちより数は多いだろうに」
 
+#SCRIPT ORIGINAL 「あ、えっと………相手には多分リーダーが居ないからです」
 ＠Miu,B01275
 「あ、えっと………相手には多分リーダーが居ないからです」
 
+#SCRIPT ORIGINAL 「普通はこの人数に加え、建物の内情に詳しい人間が一人、リーダーとしてグループに参加するんです」
 ＠Miu,B01276
 「普通はこの人数に加え、建物の内情に詳しい人間が一人、リーダーとしてグループに参加するんです」
 
+#SCRIPT ORIGINAL 「どういうわけか、それが居ないって訳か。ラッキーだな」
 ＠Itsuki
 「どういうわけか、それが居ないって訳か。ラッキーだな」
 
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「………そう、ですね」
 ＠Miu,B01277
 「………そう、ですね」
 
+#SCRIPT ORIGINAL 「どこに行ったんだろうね、その人。遅刻かな」
 ＠Mikan,A01036
 「どこに行ったんだろうね、その人。遅刻かな」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「どうかしらね………さすがに、私もそこまでは分からないわ」
 ＠Miu,B01278
 「どうかしらね………さすがに、私もそこまでは分からないわ」
 
+#SCRIPT ORIGINAL 「どちらにしてもそんな人材は、この後の処遇はもう決まったようなものです」
 ＠Miu,B01279
 「どちらにしてもそんな人材は、この後の処遇はもう決まったようなものです」
 
+#SCRIPT ORIGINAL 「人殺しなんかする奴だ。それくらいは当然の罪滅ぼし………あれ？」
 ＠Itsuki
 「人殺しなんかする奴だ。それくらいは当然の罪滅ぼし………あれ？」
 
 @miu_kanashimi		#閉_哀
 
+#SCRIPT ORIGINAL 「…………」
 ＠Miu,B01280
 「…………」
 
+#SCRIPT ORIGINAL 確か美雨もさっき、聞きそびれたけどそんなことを言っていたような……
 確か美雨もさっき、聞きそびれたけどそんなことを言っていたような……
 
 @bg_black
 
+#SCRIPT ORIGINAL 混乱気味の記憶を辿ろうと、何気なく天井を見上げた。
 混乱気味の記憶を辿ろうと、何気なく天井を見上げた。
 
+#SCRIPT ORIGINAL 「……ッ！？　危ない！！」
 ＠Itsuki
 「……ッ！？　危ない！！」
 
 #SE36　勢いよく抱きつく音（バフッ！）
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
+#SCRIPT ORIGINAL 「えッ？　きゃあッ！！」
 ＠Miu,B01281
 「えッ？　きゃあッ！！」
 
+#SCRIPT ORIGINAL 「ひゃわあっ！？」
 ＠Mikan,A01037
 「ひゃわあっ！？」
 
@@ -1931,21 +2410,27 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 wait		200
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 
+#SCRIPT ORIGINAL 二人を抱えて飛びのいた直後、天井から雨のような散弾がその場に降り注いだ！
 二人を抱えて飛びのいた直後、天井から雨のような散弾がその場に降り注いだ！
 
 @bg_hiroma		# 広間
 
+#SCRIPT ORIGINAL 「て、天井にッ……すみません！」
 ＠Miu,B01282
 「て、天井にッ……すみません！」
 
+#SCRIPT ORIGINAL 「こっちだ！　みかんも！」
 ＠Itsuki
 「こっちだ！　みかんも！」
 
+#SCRIPT ORIGINAL 咄嗟で体勢の整っていない二人の手を引き、反対方向へ逃げようとする。
 咄嗟で体勢の整っていない二人の手を引き、反対方向へ逃げようとする。
 
+#SCRIPT ORIGINAL 「……！　ダメですッ、樹さん！」
 ＠Miu,B01283
 「……！　ダメですッ、樹さん！」
 
+#SCRIPT ORIGINAL 「えッ、うぐ！」
 ＠Itsuki
 「えッ、うぐ！」
 
@@ -1954,6 +2439,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 #screen_vibration	500,16,16,16
 @SE27			#SE27　倒れる音（ドサッ）
 
+#SCRIPT ORIGINAL 今度はオレが、美雨に壁際へと突き飛ばされた。
 今度はオレが、美雨に壁際へと突き飛ばされた。
 
 #SE93　銃の乱射音（ダダダダダダッ！）
@@ -1969,17 +2455,22 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 wait		200
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 
+#SCRIPT ORIGINAL そしてまた銃弾の嵐が、逃げようとした方角からすぐ横を突き抜けていく。
 そしてまた銃弾の嵐が、逃げようとした方角からすぐ横を突き抜けていく。
 
+#SCRIPT ORIGINAL 「きゅぅ～～」
 ＠Mikan,A01038
 「きゅぅ～～」
 
+#SCRIPT ORIGINAL 「樹さんッ、みかんちゃんを！」
 ＠Miu,B01284
 「樹さんッ、みかんちゃんを！」
 
+#SCRIPT ORIGINAL 「はっ、うわッ！？」
 ＠Itsuki
 「はっ、うわッ！？」
 
+#SCRIPT ORIGINAL 美雨が胸に抱えて守っていたみかんを、オレの方へ放り投げる。
 美雨が胸に抱えて守っていたみかんを、オレの方へ放り投げる。
 
 #SE93　銃の乱射音（ダダダダダダッ！）
@@ -1995,8 +2486,10 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 wait		200
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 
+#SCRIPT ORIGINAL キャッチしようとオレが飛んだ直後、今さっきまでいた場所に銃弾が打ち込まれた。
 キャッチしようとオレが飛んだ直後、今さっきまでいた場所に銃弾が打ち込まれた。
 
+#SCRIPT ORIGINAL 「……チッ！」
 ＠男３,V28053
 「……チッ！」
 
@@ -2004,20 +2497,26 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 @miu_maid
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「樹さんを狙う人は、誰であろうと許しませんッ！」
 ＠Miu,B01285
 「樹さんを狙う人は、誰であろうと許しませんッ！」
 
 @miu_
 
+#SCRIPT ORIGINAL 次の瞬間にはもう、驚く反応速度で立ち上がった美雨が、廊下側の敵へ拳銃を向けている。
 次の瞬間にはもう、驚く反応速度で立ち上がった美雨が、廊下側の敵へ拳銃を向けている。
 
+#SCRIPT ORIGINAL バサッ！と長いスカートが大きく翻った。
 バサッ！と長いスカートが大きく翻った。
 
+#SCRIPT ORIGINAL 「……ッ」
 ＠Miu,B01286
 「……ッ」
 
+#SCRIPT ORIGINAL それも一瞬の動作で、太もものホルスターから抜いたハンドガンを、反対の手で天井に構えた。
 それも一瞬の動作で、太もものホルスターから抜いたハンドガンを、反対の手で天井に構えた。
 
+#SCRIPT ORIGINAL 「なんだ、この女ッ！」
 ＠男４,V28054
 「なんだ、この女ッ！」
 
@@ -2025,6 +2524,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 #@miu_maid
 #@miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「目障りですッ！！」
 ＠Miu,B01287
 「目障りですッ！！」
 
@@ -2041,16 +2541,21 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 wait		200
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 
+#SCRIPT ORIGINAL 両手の銃器が砂塵を上げる勢いで火と騒音を吹き上げる！
 両手の銃器が砂塵を上げる勢いで火と騒音を吹き上げる！
 
+#SCRIPT ORIGINAL 「うがぁッ……！」
 ＠男３,V28055
 「うがぁッ……！」
 
+#SCRIPT ORIGINAL 「ぐぅッ！！」
 ＠男,V28056
 「ぐぅッ！！」
 
+#SCRIPT ORIGINAL その爆音の中で、微かに男の息の途切れる声が聞こえた。
 その爆音の中で、微かに男の息の途切れる声が聞こえた。
 
+#SCRIPT ORIGINAL 「ふわ！？　わわわッ！　なに、なに！？」
 ＠Mikan,A01039
 「ふわ！？　わわわッ！　なに、なに！？」
 
@@ -2058,27 +2563,35 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 @miu_maid
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「ふぅッ……」
 ＠Miu,B01288
 「ふぅッ……」
 
+#SCRIPT ORIGINAL それを確認すると、美雨も攻撃の手を止めた。
 それを確認すると、美雨も攻撃の手を止めた。
 
+#SCRIPT ORIGINAL 銃口から漂う煙が美雨を中心に、本当に砂塵のように周囲へ散って消える。
 銃口から漂う煙が美雨を中心に、本当に砂塵のように周囲へ散って消える。
 
+#SCRIPT ORIGINAL 「うわ、わぁ……なんか、すごい……」
 ＠Mikan,A01040
 「うわ、わぁ……なんか、すごい……」
 
+#SCRIPT ORIGINAL 逆さにキャッチされてひっくり返ったまま、みかんが感嘆の声を漏らす。
 逆さにキャッチされてひっくり返ったまま、みかんが感嘆の声を漏らす。
 
+#SCRIPT ORIGINAL ここまでくるともう、殺人だとかの事実を超え、単純にすごいという感想しか出てこない。
 ここまでくるともう、殺人だとかの事実を超え、単純にすごいという感想しか出てこない。
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「早く、こっちへ！」
 ＠Miu,B01289
 「早く、こっちへ！」
 
 @miu_
 
+#SCRIPT ORIGINAL 「えッ！？　っとと！！」
 ＠Itsuki
 「えッ！？　っとと！！」
 
@@ -2086,6 +2599,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 #SE21　廊下を走り去る音　※徐々に小さく
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
+#SCRIPT ORIGINAL すぐに美雨は、玄関とは違う方向へ向かって走り出した。
 すぐに美雨は、玄関とは違う方向へ向かって走り出した。
 
 @mikan_middle		# 中間
@@ -2095,6 +2609,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 @bg_rouka_n		# 廊下(夜)
 se_stop		0
 
+#SCRIPT ORIGINAL 「み、美雨さんっ、こっち玄関じゃないよ！」
 ＠Mikan,A01041
 「み、美雨さんっ、こっち玄関じゃないよ！」
 
@@ -2105,104 +2620,133 @@ wait		500
 @miu_maid
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「今は無理よ。あれだけ騒いだらもう、建物中の敵を呼び寄せてるわ」
 ＠Miu,B01290
 「今は無理よ。あれだけ騒いだらもう、建物中の敵を呼び寄せてるわ」
 
+#SCRIPT ORIGINAL 「出来ればナイフか接近戦だけで、騒がずに逃げるのが理想だったんだけど……」
 ＠Miu,B01291
 「出来ればナイフか接近戦だけで、騒がずに逃げるのが理想だったんだけど……」
 
+#SCRIPT ORIGINAL 「相手の用心も深くなるわ。少しやっかいね」
 ＠Miu,B01292
 「相手の用心も深くなるわ。少しやっかいね」
 
+#SCRIPT ORIGINAL 「今まで、相手は油断してたってことか……？」
 ＠Itsuki
 「今まで、相手は油断してたってことか……？」
 
+#SCRIPT ORIGINAL 「ええ。まさか素人を相手に遅れを取るとは思ってもいなかったでしょう」
 ＠Miu,B01293
 「ええ。まさか素人を相手に遅れを取るとは思ってもいなかったでしょう」
 
+#SCRIPT ORIGINAL 「でも今ので、応戦できる実力がこちらにあることが知られてしまいました」
 ＠Miu,B01294
 「でも今ので、応戦できる実力がこちらにあることが知られてしまいました」
 
 @miu_kanashimi		#閉_哀
 
+#SCRIPT ORIGINAL 「……これは私のせいです、すみません」
 ＠Miu,B01295
 「……これは私のせいです、すみません」
 
+#SCRIPT ORIGINAL 「あの時一瞬、集中が乱れて。天井の気配に気付けずこんなことに……」
 ＠Miu,B01296
 「あの時一瞬、集中が乱れて。天井の気配に気付けずこんなことに……」
 
+#SCRIPT ORIGINAL 「謝ることないって。美雨がいなかったら、地下室の時点でやられてたよ」
 ＠Itsuki
 「謝ることないって。美雨がいなかったら、地下室の時点でやられてたよ」
 
+#SCRIPT ORIGINAL 「うん！　美雨さん、かっこよかったよ！！」
 ＠Mikan,A01042
 「うん！　美雨さん、かっこよかったよ！！」
 
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「樹さん……みかんちゃん………」
 ＠Miu,B01297
 「樹さん……みかんちゃん………」
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「ありがとうございます。お二人には、指一本触れさせませんから」
 ＠Miu,B01298
 「ありがとうございます。お二人には、指一本触れさせませんから」
 
+#SCRIPT ORIGINAL 僅かに、いつものほんわかとした微笑みが美雨の表情に戻る。
 僅かに、いつものほんわかとした微笑みが美雨の表情に戻る。
 
 @bg_black
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 
+#SCRIPT ORIGINAL 「……！　待ってッ！」
 ＠Miu,B01299
 「……！　待ってッ！」
 
 #@bg_rouka		# 廊下
 @bg_rouka_n		# 廊下(夜)
 
+#SCRIPT ORIGINAL だが、それも束の間。
 だが、それも束の間。
 
+#SCRIPT ORIGINAL 走りを止めると、またすぐ戦闘態勢の姿勢をとった。
 走りを止めると、またすぐ戦闘態勢の姿勢をとった。
 
+#SCRIPT ORIGINAL 「挟まれてますッ……前に二人、後ろからも一人」
 ＠Miu,B01300
 「挟まれてますッ……前に二人、後ろからも一人」
 
+#SCRIPT ORIGINAL 「えッ！？」
 ＠Itsuki
 「えッ！？」
 
+#SCRIPT ORIGINAL オレも慌てて前後を見やる。
 オレも慌てて前後を見やる。
 
+#SCRIPT ORIGINAL が、目に見える範囲には人の姿は無い。
 が、目に見える範囲には人の姿は無い。
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「えっ、どこどこ！？」
 ＠Mikan,A01043
 「えっ、どこどこ！？」
 
+#SCRIPT ORIGINAL 「まだ向こうは気付いてないみたいです。けど、このままだとすぐに……」
 ＠Miu,B01301
 「まだ向こうは気付いてないみたいです。けど、このままだとすぐに……」
 
 @mikan_ikari		#怒
 
+#SCRIPT ORIGINAL 「また美雨さん、さっきみたいにバーッ！て鉄砲撃てないの？」
 ＠Mikan,A01044
 「また美雨さん、さっきみたいにバーッ！て鉄砲撃てないの？」
 
+#SCRIPT ORIGINAL 「ばー……って」
 ＠Itsuki
 「ばー……って」
 
+#SCRIPT ORIGINAL すごさに見蕩れて、それがどんな行為か見失ってるみたいだ。
 すごさに見蕩れて、それがどんな行為か見失ってるみたいだ。
 
+#SCRIPT ORIGINAL 「でも、やっぱり難しいよな。一人多いし、警戒してるんだろう？」
 ＠Itsuki
 「でも、やっぱり難しいよな。一人多いし、警戒してるんだろう？」
 
+#SCRIPT ORIGINAL 「……それも、ありますけど。こっちの方がちょっと」
 ＠Miu,B01302
 「……それも、ありますけど。こっちの方がちょっと」
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「え……？」
 
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「ひゃあッ！！　み、美雨さんっ、血！　血が出てる！！」
 ＠Mikan,A01045
 「ひゃあッ！！　み、美雨さんっ、血！　血が出てる！！」
 
@@ -2210,49 +2754,62 @@ wait		500
 @miu_maid_damage	#メイド服(出血)
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 美雨が傾げて見せた左腕には、今もジワジワと広がっている血の染みがあった。
 美雨が傾げて見せた左腕には、今もジワジワと広がっている血の染みがあった。
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL それを見てみかんは、またおたおたと困惑し始める。
 それを見てみかんは、またおたおたと困惑し始める。
 
+#SCRIPT ORIGINAL 「美雨、それ。さっきの迎撃で……」
 ＠Itsuki
 「美雨、それ。さっきの迎撃で……」
 
+#SCRIPT ORIGINAL 「あは……はい、よりによって利き腕に当たっちゃいました……」
 ＠Miu,B01303
 「あは……はい、よりによって利き腕に当たっちゃいました……」
 
+#SCRIPT ORIGINAL 「囲まれて無傷でなんて……やっぱり映画みたいにはいきませんでしたね」
 ＠Miu,B01304
 「囲まれて無傷でなんて……やっぱり映画みたいにはいきませんでしたね」
 
+#SCRIPT ORIGINAL 「て、手当てしないとッ。撃たれたら死んじゃうよぉ！」
 ＠Mikan,A01046
 「て、手当てしないとッ。撃たれたら死んじゃうよぉ！」
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「ありがとう、みかんちゃん。でも大丈夫よ、これくらいなら」
 ＠Miu,B01305
 「ありがとう、みかんちゃん。でも大丈夫よ、これくらいなら」
 
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「と言っても、戦闘に不安が出るのは確かですけど」
 ＠Miu,B01306
 「と言っても、戦闘に不安が出るのは確かですけど」
 
+#SCRIPT ORIGINAL 「隠れるしかないか。部屋はいっぱいあるし。手当ても必要だ」
 ＠Itsuki
 「隠れるしかないか。部屋はいっぱいあるし。手当ても必要だ」
 
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「……でも、個室は見つかったとき追い詰められて危険です」
 ＠Miu,B01307
 「……でも、個室は見つかったとき追い詰められて危険です」
 
+#SCRIPT ORIGINAL だが、そうこう言っている間に、廊下の向こうから人の声が聞こえだした。
 だが、そうこう言っている間に、廊下の向こうから人の声が聞こえだした。
 
+#SCRIPT ORIGINAL 「美雨」
 ＠Itsuki
 「美雨」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「……止むを得ません。ここに」
 ＠Miu,B01308
 「……止むを得ません。ここに」
 
@@ -2262,8 +2819,10 @@ wait		1000
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
+#SCRIPT ORIGINAL すぐ脇にあったドアを開け、すばやく中へ潜り込む。
 すぐ脇にあったドアを開け、すばやく中へ潜り込む。
 
+#SCRIPT ORIGINAL オレとみかんもそれに続いた。
 オレとみかんもそれに続いた。
 
 #■BG（ざくろの部屋）
@@ -2272,57 +2831,72 @@ wait		1000
 #@bg_zakuro		# ざくろの部屋
 @bg_zakuro_n		# ざくろの部屋(夜)
 
+#SCRIPT ORIGINAL 「ふぅ……とりあえず一息か」
 ＠Itsuki
 「ふぅ……とりあえず一息か」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL 緊張のしっぱなしで心臓がバクバクと高鳴っている。
 緊張のしっぱなしで心臓がバクバクと高鳴っている。
 
+#SCRIPT ORIGINAL 本当に、寿命が縮んでもおかしくない出来事ばかりだった。
 本当に、寿命が縮んでもおかしくない出来事ばかりだった。
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「あれ？　お兄ちゃん、この部屋」
 ＠Mikan,A01047
 「あれ？　お兄ちゃん、この部屋」
 
+#SCRIPT ORIGINAL 「ああ……ざくろの部屋か。偶然だな」
 ＠Itsuki
 「ああ……ざくろの部屋か。偶然だな」
 
+#SCRIPT ORIGINAL そういえば、ざくろや他の子達はどうしてるんだろうか。
 そういえば、ざくろや他の子達はどうしてるんだろうか。
 
+#SCRIPT ORIGINAL 安全だろうがなんだろうが、出来れば建物から非難していてほしいが。
 安全だろうがなんだろうが、出来れば建物から非難していてほしいが。
 
 #@zakuro_small
 #@zakuro_shifuku
 #@zakuro			#普
 
+#SCRIPT ORIGINAL 「いらっしゃい、三人とも。ずいぶん賑やかね」
 ＠Zakuro,Q00927
 「いらっしゃい、三人とも。ずいぶん賑やかね」
 
+#SCRIPT ORIGINAL 「えっ？　うおッ！？」
 ＠Itsuki
 「えっ？　うおッ！？」
 
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「きゃっ！？　ざくろちゃん！？」
 ＠Mikan,A01048
 「きゃっ！？　ざくろちゃん！？」
 
+#SCRIPT ORIGINAL ベッドの上で何事も無かったように、ざくろがぺたんと座り込んでいた。
 ベッドの上で何事も無かったように、ざくろがぺたんと座り込んでいた。
 
 #CH（いちご立ち絵・なし）
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「くかーーＺＺＺｚｚｚ……グゥゥ」
 ＠Ichigo,O01397
 「くかーーＺＺＺｚｚｚ……グゥゥ」
 
+#SCRIPT ORIGINAL そして布団の中では、いちごがとても平和そうに寝息を立てている。
 そして布団の中では、いちごがとても平和そうに寝息を立てている。
 
+#SCRIPT ORIGINAL 「………あれ。何かすっごい普段どおりだ」
 ＠Itsuki
 「………あれ。何かすっごい普段どおりだ」
 
+#SCRIPT ORIGINAL 「もしかして、今の銃撃戦とかって夢や幻だったか……？」
 ＠Itsuki
 「もしかして、今の銃撃戦とかって夢や幻だったか……？」
 
@@ -2330,99 +2904,124 @@ wait		1000
 @zakuro_shifuku
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「三人揃ってどうしたの。美雨は怪我までしてる」
 ＠Zakuro,Q00928
 「三人揃ってどうしたの。美雨は怪我までしてる」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「ざ、ざくろちゃんこそ……何してるの？　鉄砲持ってる人がいるんだよ？」
 ＠Mikan,A01049
 「ざ、ざくろちゃんこそ……何してるの？　鉄砲持ってる人がいるんだよ？」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「知ってる。さっきトイレの帰りにすれ違ったから、挨拶してきた」
 ＠Zakuro,Q00929
 「知ってる。さっきトイレの帰りにすれ違ったから、挨拶してきた」
 
+#SCRIPT ORIGINAL 「あ～、もう……何がなんだか。頭痛くなってきた」
 ＠Itsuki
 「あ～、もう……何がなんだか。頭痛くなってきた」
 
+#SCRIPT ORIGINAL 「樹さん、ざくろちゃんの言ってることは本当ですよ」
 ＠Miu,B01309
 「樹さん、ざくろちゃんの言ってることは本当ですよ」
 
+#SCRIPT ORIGINAL 「あの人たちの目的は決まってますから、ざくろちゃん達に危害を加えることはありません」
 ＠Miu,B01310
 「あの人たちの目的は決まってますから、ざくろちゃん達に危害を加えることはありません」
 
+#SCRIPT ORIGINAL 「むしろ何か問題を起こせば、規律により罰せられるので、向こうから避けてくれてるはずです」
 ＠Miu,B01311
 「むしろ何か問題を起こせば、規律により罰せられるので、向こうから避けてくれてるはずです」
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「結構いい人よ。飴くれたし。今日子供の誕生日なんだって言ってた」
 ＠Zakuro,Q00930
 「結構いい人よ。飴くれたし。今日子供の誕生日なんだって言ってた」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL 「ざくろちゃん、他のみんなはどうしてるか知ってる？」
 ＠Miu,B01312
 「ざくろちゃん、他のみんなはどうしてるか知ってる？」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「知らない。いちごはたまたま、部屋に遊びに来てただけだから」
 ＠Zakuro,Q00931
 「知らない。いちごはたまたま、部屋に遊びに来てただけだから」
 
+#SCRIPT ORIGINAL 「つっちー達が狙われてるの？」
 ＠Zakuro,Q00932
 「つっちー達が狙われてるの？」
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「みかんのせいなの………あの人たちから逃げてきたから」
 ＠Mikan,A01050
 「みかんのせいなの………あの人たちから逃げてきたから」
 
+#SCRIPT ORIGINAL 「ざくろちゃん、少しの間だけ、隠れさせてもらってもいい？」
 ＠Mikan,A01051
 「ざくろちゃん、少しの間だけ、隠れさせてもらってもいい？」
 
+#SCRIPT ORIGINAL みかんの言葉に、ざくろは考えるそぶりもなく「うん」と頷いた。
 みかんの言葉に、ざくろは考えるそぶりもなく「うん」と頷いた。
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「十数えて私が探せばいいの？」
 ＠Zakuro,Q00933
 「十数えて私が探せばいいの？」
 
+#SCRIPT ORIGINAL 「かくれんぼじゃねぇってのッ」
 ＠Itsuki
 「かくれんぼじゃねぇってのッ」
 
 bgm_stop
 
+#SCRIPT ORIGINAL 「樹さん、来ました。こっちに近づいてきてます」
 ＠Miu,B01313
 「樹さん、来ました。こっちに近づいてきてます」
 
 @mikan_ikari		#怒
 
+#SCRIPT ORIGINAL 「……っと、こっちはいつもの調子で突っ込んでる場合じゃなかったな」
 ＠Itsuki
 「……っと、こっちはいつもの調子で突っ込んでる場合じゃなかったな」
 
 @mikan_
 
+#SCRIPT ORIGINAL サササッと美雨とみかんが部屋の中に姿を隠す。
 サササッと美雨とみかんが部屋の中に姿を隠す。
 
+#SCRIPT ORIGINAL 「……もーいいかい？」
 ＠Zakuro,Q00934
 「……もーいいかい？」
 
+#SCRIPT ORIGINAL 「にゃむぅ……まだ～だよぉ……くぅーＺＺｚｚｚｚ」
 ＠Ichigo,O01398
 「にゃむぅ……まだ～だよぉ……くぅーＺＺｚｚｚｚ」
 
+#SCRIPT ORIGINAL 「………色々とツッコミたい」
 ＠Itsuki
 「………色々とツッコミたい」
 
 #■BG（黒）
 @bg_black
 
+#SCRIPT ORIGINAL 今は無視して、オレも適当な場所に姿を隠した。
 今は無視して、オレも適当な場所に姿を隠した。
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
+#SCRIPT ORIGINAL 少しして、部屋のドアが開く音がする。
 少しして、部屋のドアが開く音がする。
 
 #■BG（ざくろの部屋）
@@ -2430,9 +3029,11 @@ bgm_stop
 @bgmk07			#BGM K07 : 深刻なテーマ
 @bg_zakuro_n		# ざくろの部屋(夜)
 
+#SCRIPT ORIGINAL 「……ん？」
 ＠男５,V28057
 「……ん？」
 
+#SCRIPT ORIGINAL 「どうした………っと、子供がいるのか」
 ＠男６,V36000
 「どうした………っと、子供がいるのか」
 
@@ -2440,107 +3041,136 @@ bgm_stop
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「子供じゃないわ。１８歳以上よ」
 ＠Zakuro,Q00935
 「子供じゃないわ。１８歳以上よ」
 
+#SCRIPT ORIGINAL 「あ？　あぁー、そうだな。うん」
 ＠男５,V28058
 「あ？　あぁー、そうだな。うん」
 
+#SCRIPT ORIGINAL 「えっと、おじさんたち人を探してるんだけどね。この部屋を調べさせてもらうよ？」
 ＠男６,V36001
 「えっと、おじさんたち人を探してるんだけどね。この部屋を調べさせてもらうよ？」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「いや」
 ＠Zakuro,Q00936
 「いや」
 
+#SCRIPT ORIGINAL 「すぐ済むさ。こっちも仕事なんだけどね」
 ＠男６,V36002
 「すぐ済むさ。こっちも仕事なんだけどね」
 
+#SCRIPT ORIGINAL 「いやなものはいや」
 ＠Zakuro,Q00937
 「いやなものはいや」
 
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「これからこの子とエッチするの。邪魔だから出てって」
 ＠Zakuro,Q00938
 「これからこの子とエッチするの。邪魔だから出てって」
 
 #CH（いちごは立ち絵なし）
 
+#SCRIPT ORIGINAL 「カグゥゥゥ……グピュルルル……ＺＺｚｚｚ」
 ＠Ichigo,O01399
 「カグゥゥゥ……グピュルルル……ＺＺｚｚｚ」
 
+#SCRIPT ORIGINAL 「この子って……どう見ても、熟睡してるんだけどな」
 ＠男６,V36003
 「この子って……どう見ても、熟睡してるんだけどな」
 
+#SCRIPT ORIGINAL 「夜這いするの。だから邪魔」
 ＠Zakuro,Q00939
 「夜這いするの。だから邪魔」
 
+#SCRIPT ORIGINAL 「それじゃ、こうしよう。君達はそういうことしてていいよ。おじさん達は探すだけで邪魔はしないから」
 ＠男５,V28059
 「それじゃ、こうしよう。君達はそういうことしてていいよ。おじさん達は探すだけで邪魔はしないから」
 
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「夜這いプレイに、家捜ししてる男は必要ないわ」
 ＠Zakuro,Q00940
 「夜這いプレイに、家捜ししてる男は必要ないわ」
 
+#SCRIPT ORIGINAL 「……どうするよ。他を探すか？」
 ＠男５,V28060
 「……どうするよ。他を探すか？」
 
+#SCRIPT ORIGINAL 「虱潰しっていうのが指示だ。一部屋でも見逃したらどやされるぞ」
 ＠男６,V36004
 「虱潰しっていうのが指示だ。一部屋でも見逃したらどやされるぞ」
 
+#SCRIPT ORIGINAL 「それは分かってる。けど、この子がなぁ……」
 ＠男５,V28061
 「それは分かってる。けど、この子がなぁ……」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「疼くわ。早くこの子を犯したい」
 ＠Zakuro,Q00941
 「疼くわ。早くこの子を犯したい」
 
+#SCRIPT ORIGINAL 「構わん、ほっといて探そう。どうせすぐ済むんだ」
 ＠男６,V36005
 「構わん、ほっといて探そう。どうせすぐ済むんだ」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「あら……？」
 ＠Zakuro,Q00942
 「あら……？」
 
+#SCRIPT ORIGINAL 「お、おい、構わんって……この子といざこざはごめんだぜ、オレは」
 ＠男５,V28062
 「お、おい、構わんって……この子といざこざはごめんだぜ、オレは」
 
+#SCRIPT ORIGINAL 「ふん、前からその方針は気に入らないのさ。上の人間が儲けたいだけの規律だしよ」
 ＠男６,V36006
 「ふん、前からその方針は気に入らないのさ。上の人間が儲けたいだけの規律だしよ」
 
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「死亡フラグが立ちそうなくらい、素敵な跳ねっ返りキャラね」
 ＠Zakuro,Q00943
 「死亡フラグが立ちそうなくらい、素敵な跳ねっ返りキャラね」
 
 @zakuro_iya		#嫌
 
+#SCRIPT ORIGINAL 「でも、これでも諦めない？」
 ＠Zakuro,Q00944
 「でも、これでも諦めない？」
 
 @zakuro_
 
+#SCRIPT ORIGINAL ざくろは取り出したカッターの刃を、包帯を巻いた手首に押し付けた。
 ざくろは取り出したカッターの刃を、包帯を巻いた手首に押し付けた。
 
+#SCRIPT ORIGINAL 「自分に当ててどうするんだよ？」
 ＠男６,V36007
 「自分に当ててどうするんだよ？」
 
+#SCRIPT ORIGINAL 「おい、ちょっと。この子ってあれじゃないか。本当に手首切って問題になったっていう」
 ＠男５,V28063
 「おい、ちょっと。この子ってあれじゃないか。本当に手首切って問題になったっていう」
 
+#SCRIPT ORIGINAL 「あ……それって前の工作でここに侵入したグループが言ってた……あれか」
 ＠男６,V36008
 「あ……それって前の工作でここに侵入したグループが言ってた……あれか」
 
+#SCRIPT ORIGINAL 「多分私ね。ちょっと前に、似たような状況で本当に切ったことがあるから」
 ＠Zakuro,Q00945
 「多分私ね。ちょっと前に、似たような状況で本当に切ったことがあるから」
 
+#SCRIPT ORIGINAL 「さすがにヤバイって。手首切られたら、どんな事情があってもオレらに罰則で決まりだしな」
 ＠男５,V28064
 「さすがにヤバイって。手首切られたら、どんな事情があってもオレらに罰則で決まりだしな」
 
+#SCRIPT ORIGINAL 「……脅しじゃないなら分が悪いか。仕方ない。行こう」
 ＠男６,V36009
 「……脅しじゃないなら分が悪いか。仕方ない。行こう」
 
@@ -2549,6 +3179,7 @@ bgm_stop
 @zakuro_shifuku
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「飴くれた人によろしく」
 ＠Zakuro,Q00946
 「飴くれた人によろしく」
 
@@ -2563,8 +3194,10 @@ wait		1000
 @bgmk02			#BGM K02 : しんみりのテーマ
 @bg_zakuro_n		# ざくろの部屋(夜)
 
+#SCRIPT ORIGINAL 男達が出て行ったのを見て、オレは隠れ場所から這い出した。
 男達が出て行ったのを見て、オレは隠れ場所から這い出した。
 
+#SCRIPT ORIGINAL 「ふぅ……何とかしのいだな」
 ＠Itsuki
 「ふぅ……何とかしのいだな」
 
@@ -2572,6 +3205,7 @@ wait		1000
 @mikan_shifuku
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「ドキドキしちゃった。危なかったね……」
 ＠Mikan,A01052
 「ドキドキしちゃった。危なかったね……」
 
@@ -2579,15 +3213,19 @@ wait		1000
 @zakuro_shifuku
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「おつかれさま」
 ＠Zakuro,Q00947
 「おつかれさま」
 
+#SCRIPT ORIGINAL 「助かったよ、ざくろ。ヒヤッとしたけど」
 ＠Itsuki
 「助かったよ、ざくろ。ヒヤッとしたけど」
 
+#SCRIPT ORIGINAL 「大丈夫だった？　ざくろちゃん」
 ＠Miu,B01314
 「大丈夫だった？　ざくろちゃん」
 
+#SCRIPT ORIGINAL 「うん。平気」
 ＠Zakuro,Q00948
 「うん。平気」
 
@@ -2598,29 +3236,36 @@ wait		500
 @miu_maid_damage	#メイド服(出血)
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「……それにしても、強引に調べようとする人も居るのね。許せないわ」
 ＠Miu,B01315
 「……それにしても、強引に調べようとする人も居るのね。許せないわ」
 
+#SCRIPT ORIGINAL 「そんなことより、オレは前に侵入したときっていうのが気になったな」
 ＠Itsuki
 「そんなことより、オレは前に侵入したときっていうのが気になったな」
 
+#SCRIPT ORIGINAL 「同じ状況って事は、その時も誰かが狙われたのか？」
 ＠Itsuki
 「同じ状況って事は、その時も誰かが狙われたのか？」
 
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「えっ、ええ……はい」
 ＠Miu,B01316
 「えっ、ええ……はい」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「それより、今のうちです。早く脱出しましょう」
 ＠Miu,B01317
 「それより、今のうちです。早く脱出しましょう」
 
 @miu_
 
+#SCRIPT ORIGINAL 普通に答えてくれると思ったのに、美雨は強引にその話を逸らした。
 普通に答えてくれると思ったのに、美雨は強引にその話を逸らした。
 
+#SCRIPT ORIGINAL 「……それじゃ、えっと」
 ＠Itsuki
 「……それじゃ、えっと」
 
@@ -2628,36 +3273,45 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「私ならいい。いちごもいるし、ここに残るから」
 ＠Zakuro,Q00949
 「私ならいい。いちごもいるし、ここに残るから」
 
+#SCRIPT ORIGINAL 「にゅふふふ……プリン………全部いちごのだよぉ～……ＺＺＺｚｚ」
 ＠Ichigo,O01400
 「にゅふふふ……プリン………全部いちごのだよぉ～……ＺＺＺｚｚ」
 
+#SCRIPT ORIGINAL 「いちごちゃん、早起きなのに。寝てる最中だとこんなに騒いでも起きないんだ」
 ＠Mikan,A01053
 「いちごちゃん、早起きなのに。寝てる最中だとこんなに騒いでも起きないんだ」
 
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「だからこそ夜這い出来るの。早く逃げてつっちー」
 ＠Zakuro,Q00950
 「だからこそ夜這い出来るの。早く逃げてつっちー」
 
+#SCRIPT ORIGINAL 「……夜這いって、あれは演技だろう？」
 ＠Itsuki
 「……夜這いって、あれは演技だろう？」
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「ふふ」
 ＠Zakuro,Q00951
 「ふふ」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL 「さ、樹さん。早く」
 ＠Miu,B01318
 「さ、樹さん。早く」
 
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「お互い頑張りましょ、つっちー」
 ＠Zakuro,Q00952
 「お互い頑張りましょ、つっちー」
 
@@ -2670,6 +3324,7 @@ wait		1000
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
+#SCRIPT ORIGINAL 「どう、美雨？」
 ＠Itsuki
 「どう、美雨？」
 
@@ -2678,18 +3333,23 @@ wait		1000
 @miu_maid_damage	#メイド服(出血)
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「ええ、大丈夫なようです。近くに気配は感じません」
 ＠Miu,B01319
 「ええ、大丈夫なようです。近くに気配は感じません」
 
+#SCRIPT ORIGINAL 「出来れば今のうちに進みましょう」
 ＠Miu,B01320
 「出来れば今のうちに進みましょう」
 
+#SCRIPT ORIGINAL 「あ、美雨さん、ここからだったら裏口の方が近いよ？」
 ＠Mikan,A01054
 「あ、美雨さん、ここからだったら裏口の方が近いよ？」
 
+#SCRIPT ORIGINAL 「そっちは、さっきの人たちが帰って行った方向ね。遭遇する可能性があるわ」
 ＠Miu,B01321
 「そっちは、さっきの人たちが帰って行った方向ね。遭遇する可能性があるわ」
 
+#SCRIPT ORIGINAL 「出来れば戦闘は避けたいから、こっちに行きましょう」
 ＠Miu,B01322
 「出来れば戦闘は避けたいから、こっちに行きましょう」
 
@@ -2701,25 +3361,33 @@ se_stop		0
 #@bg_rouka		# 廊下
 @bg_rouka_n		# 廊下(夜)
 
+#SCRIPT ORIGINAL 玄関に向かう美雨に、オレとみかんも続く。
 玄関に向かう美雨に、オレとみかんも続く。
 
 #美雨の腕にはざくろの部屋で応急手当をした包帯が巻かれていた。
+#SCRIPT ORIGINAL 美雨の腕はざくろの部屋で応急手当をしておいた。
 美雨の腕はざくろの部屋で応急手当をしておいた。
 
+#SCRIPT ORIGINAL 本人は大丈夫と言っているが、明らかに右腕より左腕の方が、ちょっとした動作でも億劫そうだ。
 本人は大丈夫と言っているが、明らかに右腕より左腕の方が、ちょっとした動作でも億劫そうだ。
 
+#SCRIPT ORIGINAL 「痛くない？　左腕」
 ＠Mikan,A01055
 「痛くない？　左腕」
 
+#SCRIPT ORIGINAL 「ええ、手当てしたから随分マシになったわ」
 ＠Miu,B01323
 「ええ、手当てしたから随分マシになったわ」
 
+#SCRIPT ORIGINAL 「みかんちゃんの方も、もう少しだから頑張りましょうね」
 ＠Miu,B01324
 「みかんちゃんの方も、もう少しだから頑張りましょうね」
 
+#SCRIPT ORIGINAL 「うん！」
 ＠Mikan,A01056
 「うん！」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
@@ -2727,38 +3395,50 @@ se_stop		0
 @miu_maid_damage	#メイド服(出血)
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「……樹さん？　どうかしましたか？」
 ＠Miu,B01325
 「……樹さん？　どうかしましたか？」
 
+#SCRIPT ORIGINAL 「ん？　ああ、ごめん。何でもない」
 ＠Itsuki
 「ん？　ああ、ごめん。何でもない」
 
 @miu_
 
+#SCRIPT ORIGINAL ここに来て、どうも頭の中で、色々な単語が整理できずに渦巻いている。
 ここに来て、どうも頭の中で、色々な単語が整理できずに渦巻いている。
 
+#SCRIPT ORIGINAL 美雨が言った、オレ達を守ることによる『罪滅ぼし』。
 美雨が言った、オレ達を守ることによる『罪滅ぼし』。
 
+#SCRIPT ORIGINAL そもそもこんな戦闘を行える美雨自身の謎。
 そもそもこんな戦闘を行える美雨自身の謎。
 
+#SCRIPT ORIGINAL 本来は地理を会得しているはずの、敵のリーダーの不在。
 本来は地理を会得しているはずの、敵のリーダーの不在。
 
+#SCRIPT ORIGINAL まるでこんな状況が想定されているような、施設の隠された設備。
 まるでこんな状況が想定されているような、施設の隠された設備。
 
+#SCRIPT ORIGINAL そして少し前にも、今の同じ工作が行われていたという事実。
 そして少し前にも、今の同じ工作が行われていたという事実。
 
+#SCRIPT ORIGINAL （……つまりその時も、この施設の中の誰かが狙われたってことだ）
 ＠Itsuki
 （……つまりその時も、この施設の中の誰かが狙われたってことだ）
 
+#SCRIPT ORIGINAL 果たして助かったのか、どうなのか。
 果たして助かったのか、どうなのか。
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「お兄ちゃん、玄関こっちだよ」
 ＠Mikan,A01057
 「お兄ちゃん、玄関こっちだよ」
 
+#SCRIPT ORIGINAL 「え？　あ、そうか。またボ～ッとしてたみたいだ」
 ＠Itsuki
 「え？　あ、そうか。またボ～ッとしてたみたいだ」
 
@@ -2770,19 +3450,24 @@ wait		1000
 @miu_maid_damage	#メイド服(出血)
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「どこか具合でも悪いのですか？」
 ＠Miu,B01326
 「どこか具合でも悪いのですか？」
 
+#SCRIPT ORIGINAL 「大丈夫。そうだよな、とりあえず今は、この状況を打破しないと」
 ＠Itsuki
 「大丈夫。そうだよな、とりあえず今は、この状況を打破しないと」
 
+#SCRIPT ORIGINAL 「ええ………あっ！」
 ＠Miu,B01327
 「ええ………あっ！」
 
 @miu_
 
+#SCRIPT ORIGINAL 立ち止まった美雨が、進行方向を睨む。
 立ち止まった美雨が、進行方向を睨む。
 
+#SCRIPT ORIGINAL 「また、今までの人……？」
 ＠Mikan,A01058
 「また、今までの人……？」
 
@@ -2791,46 +3476,58 @@ wait		1000
 @miu_maid_damage	#メイド服(出血)
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「おそらく。でも、一人みたい」
 ＠Miu,B01328
 「おそらく。でも、一人みたい」
 
+#SCRIPT ORIGINAL 「どうする。戦いたくないなら、少し回り道していくとか」
 ＠Itsuki
 「どうする。戦いたくないなら、少し回り道していくとか」
 
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「……いえ、玄関はもう目の前です。後戻りは返って危険かも」
 ＠Miu,B01329
 「……いえ、玄関はもう目の前です。後戻りは返って危険かも」
 
 @miu_komaru		#閉_困
 
+#SCRIPT ORIGINAL 「でも、最低でも二人組みで行動のはず……どうして一人なのかしら」
 ＠Miu,B01330
 「でも、最低でも二人組みで行動のはず……どうして一人なのかしら」
 
+#SCRIPT ORIGINAL 「……トイレに行ってるとか？」
 ＠Mikan,A01059
 「……トイレに行ってるとか？」
 
+#SCRIPT ORIGINAL 「緊張感の無い答えだけど、可能性は０じゃないよな。向こうも人間なんだから」
 ＠Itsuki
 「緊張感の無い答えだけど、可能性は０じゃないよな。向こうも人間なんだから」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「進みましょう。どちらにしても、ここで後退していたらきりがありません」
 ＠Miu,B01331
 「進みましょう。どちらにしても、ここで後退していたらきりがありません」
 
 @miu_
 
+#SCRIPT ORIGINAL 美雨が残り少ないマガジンを吐き出させ、新しい物をセットする。
 美雨が残り少ないマガジンを吐き出させ、新しい物をセットする。
 
+#SCRIPT ORIGINAL 「一対一なら……よほどの悪条件でも重ならない限り……」
 ＠Miu,B01332
 「一対一なら……よほどの悪条件でも重ならない限り……」
 
+#SCRIPT ORIGINAL 敵が居ると分かっている方に向け、慎重に歩を進めていく。
 敵が居ると分かっている方に向け、慎重に歩を進めていく。
 
 #夜の闇は廊下を呑み込むように巣食っていた。
 
+#SCRIPT ORIGINAL 素人のオレでさえ、視界だけでは不安で、気配のようなものを探ってしまう。
 素人のオレでさえ、視界だけでは不安で、気配のようなものを探ってしまう。
 
+#SCRIPT ORIGINAL （この廊下のどこかに、また銃を持った敵が……）
 ＠Itsuki
 （この廊下のどこかに、また銃を持った敵が……）
 
@@ -2838,6 +3535,7 @@ wait		1000
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「お兄ちゃん……」
 ＠Mikan,A01060
 「お兄ちゃん……」
 
@@ -2845,13 +3543,16 @@ wait		1000
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
+#SCRIPT ORIGINAL ヒュンッ…！
 ヒュンッ…！
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Mikan,A01061
 「え……？」
 
+#SCRIPT ORIGINAL 「……ッ！　そこ！！」
 ＠Miu,B01333
 「……ッ！　そこ！！」
 
@@ -2867,51 +3568,66 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 wait		200
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 
+#SCRIPT ORIGINAL 闇の中から飛んできた何かへ、美雨は咄嗟に怪我をした利き腕の銃で応戦した。
 闇の中から飛んできた何かへ、美雨は咄嗟に怪我をした利き腕の銃で応戦した。
 
 #EF　白エフェクト
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
+#SCRIPT ORIGINAL ボンッ！　ボゥンッ！！
 ボンッ！　ボゥンッ！！
 
+#SCRIPT ORIGINAL 空中でそれが打ち抜かれ、前方で白い煙を撒き散らす。
 空中でそれが打ち抜かれ、前方で白い煙を撒き散らす。
 
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「わッ！？　なに、あの煙ッ」
 ＠Mikan,A01062
 「わッ！？　なに、あの煙ッ」
 
+#SCRIPT ORIGINAL 「んッ！　くぅ！！」
 ＠Miu,B01334
 「んッ！　くぅ！！」
 
+#SCRIPT ORIGINAL フルオートで発砲する振動が怪我に響き、美雨が痛みで表情を歪ませた。
 フルオートで発砲する振動が怪我に響き、美雨が痛みで表情を歪ませた。
 
 #■BG（白）
 @bg_white		# 白
 
+#SCRIPT ORIGINAL パシュッ、ジュバァァアアアアア！！！
 パシュッ、ジュバァァアアアアア！！！
 
+#SCRIPT ORIGINAL その瞬間、射抜き損ねた飛来物が、こちらの目の前で白煙を撒き散らす。
 その瞬間、射抜き損ねた飛来物が、こちらの目の前で白煙を撒き散らす。
 
+#SCRIPT ORIGINAL 「しまった！」
 ＠Miu,B01335
 「しまった！」
 
+#SCRIPT ORIGINAL あっという間に、煙が視界を完全に奪っていく。
 あっという間に、煙が視界を完全に奪っていく。
 
+#SCRIPT ORIGINAL 「美雨ッ、これは！？」
 ＠Itsuki
 「美雨ッ、これは！？」
 
+#SCRIPT ORIGINAL 「下がってくださいッ！　煙の無いところまで、早く！！」
 ＠Miu,B01336
 「下がってくださいッ！　煙の無いところまで、早く！！」
 
 #SE93　銃の乱射音（ダダダダダダッ！）
 @SE93			#SE93　銃の乱射音（ダダダダダダッ！）
 
+#SCRIPT ORIGINAL 叫び声と同時に、まるででたらめのような散弾を撃ち始める美雨。
 叫び声と同時に、まるででたらめのような散弾を撃ち始める美雨。
 
+#SCRIPT ORIGINAL 「みかんッ、こっちだ！」
 ＠Itsuki
 「みかんッ、こっちだ！」
 
+#SCRIPT ORIGINAL 「ひゃう！？　わわっ！」
 ＠Mikan,A01063
 「ひゃう！？　わわっ！」
 
@@ -2920,21 +3636,28 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
+#SCRIPT ORIGINAL みかんを抱えると、転がるようにして煙の範囲から後ろへと転がり出る。
 みかんを抱えると、転がるようにして煙の範囲から後ろへと転がり出る。
 
+#SCRIPT ORIGINAL 外から見る白い煙の中に、うっすらと美雨の影が見えた。
 外から見る白い煙の中に、うっすらと美雨の影が見えた。
 
+#SCRIPT ORIGINAL 「美雨ッ！　出たぞ！」
 ＠Itsuki
 「美雨ッ！　出たぞ！」
 
+#SCRIPT ORIGINAL 「ッ、はい！　きゃあッ！」
 ＠Miu,B01337
 「ッ、はい！　きゃあッ！」
 
+#SCRIPT ORIGINAL その影が一度相手の影と交差し、美雨の姿が大きくよろめいた。
 その影が一度相手の影と交差し、美雨の姿が大きくよろめいた。
 
+#SCRIPT ORIGINAL 「美雨さんッ！」
 ＠Mikan,A01064
 「美雨さんッ！」
 
+#SCRIPT ORIGINAL 「くぅッ！　まさかッ！」
 ＠Miu,B01338
 「くぅッ！　まさかッ！」
 
@@ -2950,18 +3673,23 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 wait		200
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 
+#SCRIPT ORIGINAL 悲鳴の後に、銃声が続く。
 悲鳴の後に、銃声が続く。
 
+#SCRIPT ORIGINAL その直後、美雨の影が一気に濃く浮かびあがった。
 その直後、美雨の影が一気に濃く浮かびあがった。
 
 #SE59　衝撃に吹き飛ぶ音
 @SE59			#SE59　衝撃に吹き飛ぶ音　※ゲームブックで使用
 
+#SCRIPT ORIGINAL 「あぅぅッ！　くぅ！」
 ＠Miu,B01339
 「あぅぅッ！　くぅ！」
 
+#SCRIPT ORIGINAL 吹き飛ばされたような勢いで、白煙の中からこちらへ転がり滑る。
 吹き飛ばされたような勢いで、白煙の中からこちらへ転がり滑る。
 
+#SCRIPT ORIGINAL 「美雨ッ！　大丈夫か！？」
 ＠Itsuki
 「美雨ッ！　大丈夫か！？」
 
@@ -2969,32 +3697,41 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		200
 @miu_maid_damage2	#メイド服(さらに出血)
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「はぁっ……ん、すみません。あんな単純な手を防げないなんて」
 ＠Miu,B01340
 「はぁっ……ん、すみません。あんな単純な手を防げないなんて」
 
+#SCRIPT ORIGINAL 「怪我してるよぉッ！　さっきより、美雨さんっ！」
 ＠Mikan,A01065
 「怪我してるよぉッ！　さっきより、美雨さんっ！」
 
+#SCRIPT ORIGINAL 美雨は腕や肩をはじめ、大小合わせると数箇所の切り傷の血を滲ませていた。
 美雨は腕や肩をはじめ、大小合わせると数箇所の切り傷の血を滲ませていた。
 
+#SCRIPT ORIGINAL 持っていた銃も手の中に無く、煙の中をねめつける。
 持っていた銃も手の中に無く、煙の中をねめつける。
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「……なるほど。あなたなら単独行動なわけですね」
 ＠Miu,B01341
 「……なるほど。あなたなら単独行動なわけですね」
 
 bgm_stop
 @bg_white		# 白
 
+#SCRIPT ORIGINAL 「悪いね、不意打ちみたいな真似で。そうでもしないと相手が悪過ぎるからさ」
 ＠???,S01088
 「悪いね、不意打ちみたいな真似で。そうでもしないと相手が悪過ぎるからさ」
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「え……？」
 
+#SCRIPT ORIGINAL 聞き覚えのある声だ。だが、咄嗟には誰だか判断できない。
 聞き覚えのある声だ。だが、咄嗟には誰だか判断できない。
 
+#SCRIPT ORIGINAL やがて白煙が次第に薄れ、中の人物が露になった。
 やがて白煙が次第に薄れ、中の人物が露になった。
 
 window_close
@@ -3008,162 +3745,208 @@ wait			100
 screen_whitein		3000
 wait			3000
 
+#SCRIPT ORIGINAL 「よ。奇遇だね、樹にみかん」
 ＠Shizuku,S01089
 「よ。奇遇だね、樹にみかん」
 
+#SCRIPT ORIGINAL 「えっ？　雫さん！？」
 ＠Mikan,A01066
 「えっ？　雫さん！？」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Miu,B01342
 「…………」
 
 @bgmk09			#BGM K09 : ラスト手前っぽいテーマ
 
 #そこから現れた雫さんは、さっきまでの美雨の得物を両手に持っていた。
+#SCRIPT ORIGINAL そこから現れた雫さんは、さっきまでの美雨の得物を持っていた。
 そこから現れた雫さんは、さっきまでの美雨の得物を持っていた。
 
+#SCRIPT ORIGINAL 「どうしてですか、雫さん。むしろ貴方はこちら側の人間のはずでは……」
 ＠Miu,B01343
 「どうしてですか、雫さん。むしろ貴方はこちら側の人間のはずでは……」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「ああ、どうしてだろうね。現状では中立だったんだけど」
 ＠Shizuku,S01090
 「ああ、どうしてだろうね。現状では中立だったんだけど」
 
+#SCRIPT ORIGINAL 「まだあんた達の方に手を貸せるほど、あたし側の仕事に成果が出てないのさ」
 ＠Shizuku,S01091
 「まだあんた達の方に手を貸せるほど、あたし側の仕事に成果が出てないのさ」
 
+#SCRIPT ORIGINAL 「……雫さんの、仕事？」
 ＠Itsuki
 「……雫さんの、仕事？」
 
+#SCRIPT ORIGINAL 「それが、こんな非日常な銃撃戦の原因なんですか」
 ＠Itsuki
 「それが、こんな非日常な銃撃戦の原因なんですか」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「いやいや、あたしはむしろ止めようとした立場だよ。あんたらを地下に閉じ込めてたのも、そのためさ」
 ＠Shizuku,S01092
 「いやいや、あたしはむしろ止めようとした立場だよ。あんたらを地下に閉じ込めてたのも、そのためさ」
 
+#SCRIPT ORIGINAL ヒラヒラと冗談っぽく手を振るしぐさ。それが事態の焦燥感を募らせる。
 ヒラヒラと冗談っぽく手を振るしぐさ。それが事態の焦燥感を募らせる。
 
+#SCRIPT ORIGINAL 「いったいこの騒ぎは何なんですか！？　他の子は！？　みかんが逃げてきた連中っていうのは誰なんです！？」
 ＠Itsuki
 「いったいこの騒ぎは何なんですか！？　他の子は！？　みかんが逃げてきた連中っていうのは誰なんです！？」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「まぁそう一気に捲くし立てるんじゃないよ」
 ＠Shizuku,S01093
 「まぁそう一気に捲くし立てるんじゃないよ」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「子供達はちゃんと無事さ。ざくろやいちごも、みんな外に逃がしてある」
 ＠Shizuku,S01094
 「子供達はちゃんと無事さ。ざくろやいちごも、みんな外に逃がしてある」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「最後の質問に関しては。あいつらの仲間の美雨の方が詳しいと思うよ」
 ＠Shizuku,S01095
 「最後の質問に関しては。あいつらの仲間の美雨の方が詳しいと思うよ」
 
+#SCRIPT ORIGINAL 「えッ……」
 ＠Itsuki
 「えッ……」
 
+#SCRIPT ORIGINAL 「今までの人たちの仲間、なの……？」
 ＠Mikan,A01067
 「今までの人たちの仲間、なの……？」
 
+#SCRIPT ORIGINAL 「………」
 ＠Miu,B01344
 「………」
 
+#SCRIPT ORIGINAL 美雨は視線をそらし、反論を述べようとはしなかった。
 美雨は視線をそらし、反論を述べようとはしなかった。
 
+#SCRIPT ORIGINAL ……それは、肯定という事だろうか。
 ……それは、肯定という事だろうか。
 
+#SCRIPT ORIGINAL 「けど待てッ。美雨はこうやって、命がけでオレとみかんを助けようとしてくれてる！」
 ＠Itsuki
 「けど待てッ。美雨はこうやって、命がけでオレとみかんを助けようとしてくれてる！」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「まぁ、五分五分の確率でこうなってたさ。美雨にあんたは殺せない」
 ＠Shizuku,S01096
 「まぁ、五分五分の確率でこうなってたさ。美雨にあんたは殺せない」
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「いや、守りたいって言った方が正しいか」
 ＠Shizuku,S01097
 「いや、守りたいって言った方が正しいか」
 
+#SCRIPT ORIGINAL 「……もう、やめてください……」
 ＠Miu,B01345
 「……もう、やめてください……」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「あんたに抱いていた好意が、美雨を迷わせている原因だった」
 ＠Shizuku,S01098
 「あんたに抱いていた好意が、美雨を迷わせている原因だった」
 
+#SCRIPT ORIGINAL 「けどそれ以上に、美雨はあんたに負い目がある」
 ＠Shizuku,S01099
 「けどそれ以上に、美雨はあんたに負い目がある」
 
+#SCRIPT ORIGINAL 「負い目……？」
 ＠Itsuki
 「負い目……？」
 
+#SCRIPT ORIGINAL 「……ッ！？　そ、その話はッ。やめてください、雫さん！」
 ＠Miu,B01346
 「……ッ！？　そ、その話はッ。やめてください、雫さん！」
 
+#SCRIPT ORIGINAL 悲愴な美雨の声が響く。
 悲愴な美雨の声が響く。
 
+#SCRIPT ORIGINAL だが、雫さんはオレと美雨を見ながら言葉を続けた。
 だが、雫さんはオレと美雨を見ながら言葉を続けた。
 
 @shizuku_ikari		#怒
 
+#SCRIPT ORIGINAL 「美雨が殺したんだよ。あんたの父親を。過去にもあった今日と同じ事件の日にね」
 ＠Shizuku,S01100
 「美雨が殺したんだよ。あんたの父親を。過去にもあった今日と同じ事件の日にね」
 
+#SCRIPT ORIGINAL 「ッ！？」
 ＠Itsuki
 「ッ！？」
 
+#SCRIPT ORIGINAL 「う……ぁ、あぁ……」
 ＠Miu,B01347
 「う……ぁ、あぁ……」
 
+#SCRIPT ORIGINAL 美雨から嗚咽のようなか細い声が漏れた。
 美雨から嗚咽のようなか細い声が漏れた。
 
+#SCRIPT ORIGINAL 「美雨が？　……そんな」
 ＠Itsuki
 「美雨が？　……そんな」
 
+#SCRIPT ORIGINAL 一瞬オレは疑いかけて、すぐ話がおかしいことに気付いた。
 一瞬オレは疑いかけて、すぐ話がおかしいことに気付いた。
 
+#SCRIPT ORIGINAL 「い、いや待てッ。父さんの死からはまだ、一年も経っていないんだ」
 ＠Itsuki
 「い、いや待てッ。父さんの死からはまだ、一年も経っていないんだ」
 
+#SCRIPT ORIGINAL 「雫さんの言うその今日と同じ事件っていうのは、そんな最近のものなのか」
 ＠Itsuki
 「雫さんの言うその今日と同じ事件っていうのは、そんな最近のものなのか」
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ふふっ」
 ＠Shizuku,S01101
 「ふふっ」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「それはあんたがここに来た最初の日に、自分で答えを言ったじゃないか」
 ＠Shizuku,S01102
 「それはあんたがここに来た最初の日に、自分で答えを言ったじゃないか」
 
+#SCRIPT ORIGINAL 「酒やギャンブルに狂う人じゃなかった。まるで〝人が変わったように〟って」
 ＠Shizuku,S01103
 「酒やギャンブルに狂う人じゃなかった。まるで〝人が変わったように〟って」
 
+#SCRIPT ORIGINAL 「……まさか」
 ＠Itsuki
 「……まさか」
 
+#SCRIPT ORIGINAL 「じゃあ、その時もう父さんは……」
 ＠Itsuki
 「じゃあ、その時もう父さんは……」
 
 @shizuku_ikari		#怒
 
+#SCRIPT ORIGINAL 「さぁ、おしゃべりはここまでにしよう。こっちも時間がないんでね」
 ＠Shizuku,S01104
 「さぁ、おしゃべりはここまでにしよう。こっちも時間がないんでね」
 
 @shizuku_
 
 #話を途切った雫さんが、改めてこちらに銃を構えた。
+#SCRIPT ORIGINAL 話を途切った雫さんがこちらに銃を構えた。
 話を途切った雫さんがこちらに銃を構えた。
 
+#SCRIPT ORIGINAL 「ま、待てッ！　まだ話が――ッ！」
 ＠Itsuki
 「ま、待てッ！　まだ話が――ッ！」
 
@@ -3172,6 +3955,7 @@ wait			100
 @bg_black
 screen_blackin		1
 
+#SCRIPT ORIGINAL 「ダメですッ、樹さんッ！」
 ＠Miu,B01348
 「ダメですッ、樹さんッ！」
 
@@ -3186,11 +3970,14 @@ wait		1000
 @SE94			#SE94　銃声
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
+#SCRIPT ORIGINAL 美雨がオレを押し倒した刹那、頭上を弾丸が掠めていく。
 美雨がオレを押し倒した刹那、頭上を弾丸が掠めていく。
 
+#SCRIPT ORIGINAL 「きゃあッ！」
 ＠Mikan,A01068
 「きゃあッ！」
 
+#SCRIPT ORIGINAL 「ふッ――！」
 ＠Shizuku,S01105
 「ふッ――！」
 
@@ -3201,17 +3988,21 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #@SE37			#SE37　金属衝突音（カキィンッ！）※剣で打ち合った感じ。擬音的な役割で汎用的に使
 se		0,	"sound\se\SE37_金属衝突音.WAV",play_wait
 
+#SCRIPT ORIGINAL さらに間を置かず飛び掛ってきた雫さんのナイフを、美雨が手首ではじき返した。
 さらに間を置かず飛び掛ってきた雫さんのナイフを、美雨が手首ではじき返した。
 
+#SCRIPT ORIGINAL 「くッ、なに！？」
 ＠Shizuku,S01106
 「くッ、なに！？」
 
+#SCRIPT ORIGINAL 「はッ！！」
 ＠Miu,B01349
 「はッ！！」
 
 #SE95　人を殴る音
 @SE95			#SE95　人を殴る音　※リアル
 
+#SCRIPT ORIGINAL その体勢で強引に蹴りを放ち、雫さんと距離を取らせた。
 その体勢で強引に蹴りを放ち、雫さんと距離を取らせた。
 
 @shizuku_middle		# 中間
@@ -3219,6 +4010,7 @@ se		0,	"sound\se\SE37_金属衝突音.WAV",play_wait
 @shizuku_ikariwarai	#怒笑
 @bg_rouka_n		# 廊下(夜)
 
+#SCRIPT ORIGINAL 「手首に何か仕込んでたんだね」
 ＠Shizuku,S01107
 「手首に何か仕込んでたんだね」
 
@@ -3228,9 +4020,11 @@ wait		500
 @miu_maid_damage2	#メイド服(さらに出血)
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「何の変哲もない、ただのリストガードですよ」
 ＠Miu,B01350
 「何の変哲もない、ただのリストガードですよ」
 
+#SCRIPT ORIGINAL 「雫さんこそ、あのまま銃撃で仕留められたはずでは？」
 ＠Miu,B01351
 「雫さんこそ、あのまま銃撃で仕留められたはずでは？」
 
@@ -3240,27 +4034,33 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「そのつもりだったけど、弾が出ない。イカレちまってるね」
 ＠Shizuku,S01108
 「そのつもりだったけど、弾が出ない。イカレちまってるね」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL プイッと用済みの銃を投げ捨て、腰の後ろから棒のような物を引き取る。
 プイッと用済みの銃を投げ捨て、腰の後ろから棒のような物を引き取る。
 
+#SCRIPT ORIGINAL それを一振りすると、一気に長さが伸びて鞭の形になった。
 それを一振りすると、一気に長さが伸びて鞭の形になった。
 
 @shizuku_middle		# 中間
 @shizuku_shifuku
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「これでお互い、本来の得物同士ってわけだ」
 ＠Shizuku,S01109
 「これでお互い、本来の得物同士ってわけだ」
 
+#SCRIPT ORIGINAL 「……良いんですか、銃器無しで。その方が確実ですよ」
 ＠Miu,B01352
 「……良いんですか、銃器無しで。その方が確実ですよ」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「あれは好きじゃないのさ。あっさりと人の命を奪ってくれちゃうからね」
 ＠Shizuku,S01110
 「あれは好きじゃないのさ。あっさりと人の命を奪ってくれちゃうからね」
 
@@ -3270,31 +4070,39 @@ wait		500
 @miu_maid_damage2	#メイド服(さらに出血)
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「ふふ、それは私も同感です」
 ＠Miu,B01353
 「ふふ、それは私も同感です」
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「樹さん、みかんちゃん。ここは私が引き受けますから、逃げてください」
 ＠Miu,B01354
 「樹さん、みかんちゃん。ここは私が引き受けますから、逃げてください」
 
+#SCRIPT ORIGINAL 「え、でもっ……」
 ＠Mikan,A01069
 「え、でもっ……」
 
+#SCRIPT ORIGINAL みかんが対峙する雫さんを困惑しながら見やる。
 みかんが対峙する雫さんを困惑しながら見やる。
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「大丈夫。雫さんはああ言ってるけど、二人に危害は加えないわ」
 ＠Miu,B01355
 「大丈夫。雫さんはああ言ってるけど、二人に危害は加えないわ」
 
+#SCRIPT ORIGINAL 美雨は警戒しながらも武器を下ろした。
 美雨は警戒しながらも武器を下ろした。
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「……雫さん、私たちと争う覚悟が無いのなら通してください」
 ＠Miu,B01356
 「……雫さん、私たちと争う覚悟が無いのなら通してください」
 
+#SCRIPT ORIGINAL 「ここでのんびり話をしていられるような余裕、私たちにはありません……」
 ＠Miu,B01357
 「ここでのんびり話をしていられるような余裕、私たちにはありません……」
 
@@ -3304,52 +4112,66 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「そう、困ったねぇ……正直、あたしもイマイチ気乗りはしないのさ」
 ＠Shizuku,S01111
 「そう、困ったねぇ……正直、あたしもイマイチ気乗りはしないのさ」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「美雨はともかくとして、樹とみかんはあたし達が保護する立場の子だしね」
 ＠Shizuku,S01112
 「美雨はともかくとして、樹とみかんはあたし達が保護する立場の子だしね」
 
+#SCRIPT ORIGINAL 「えッ！？　狙われてるのは、オレとみかんじゃないのか！？」
 ＠Itsuki
 「えッ！？　狙われてるのは、オレとみかんじゃないのか！？」
 
+#SCRIPT ORIGINAL 「さぁ、どうだろうね。あたしにはその辺の事を話す権限がないもんで」
 ＠Shizuku,S01113
 「さぁ、どうだろうね。あたしにはその辺の事を話す権限がないもんで」
 
+#SCRIPT ORIGINAL 「権限って……」
 ＠Itsuki
 「権限って……」
 
+#SCRIPT ORIGINAL 「い、いや、それはともかく。美雨は怪我してるんですよ！　なのにまだこんな事を続ける気ですかッ」
 ＠Itsuki
 「い、いや、それはともかく。美雨は怪我してるんですよ！　なのにまだこんな事を続ける気ですかッ」
 
+#SCRIPT ORIGINAL 「樹さん……」
 ＠Miu,B01358
 「樹さん……」
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「へぇ。親の敵だって言うのに、まだ心配してあげるんだねぇ」
 ＠Shizuku,S01114
 「へぇ。親の敵だって言うのに、まだ心配してあげるんだねぇ」
 
+#SCRIPT ORIGINAL 「オレは、美雨が父さんを殺したなんて思わない。どんな事情があったとしても」
 ＠Itsuki
 「オレは、美雨が父さんを殺したなんて思わない。どんな事情があったとしても」
 
+#SCRIPT ORIGINAL 「よく分からないけど、ここから出たら、二人にはみっちりと説明をしてもらいますよ」
 ＠Itsuki
 「よく分からないけど、ここから出たら、二人にはみっちりと説明をしてもらいますよ」
 
+#SCRIPT ORIGINAL 「う、うんっ、そうだよ！　みんな一緒に暮らしてたのに……喧嘩するなんてダメだよ」
 ＠Mikan,A01070
 「う、うんっ、そうだよ！　みんな一緒に暮らしてたのに……喧嘩するなんてダメだよ」
 
 @shizuku_ikariwarai	#怒笑
 
+#SCRIPT ORIGINAL 「一緒に、ね」
 ＠Shizuku,S01115
 「一緒に、ね」
 
+#SCRIPT ORIGINAL 自嘲めいた笑みを浮かべる。
 自嘲めいた笑みを浮かべる。
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「遅かれ早かれこうなってたさ。一緒に住むには、あたしらはお互いが背負ってる責任が違いすぎる」
 ＠Shizuku,S01116
 「遅かれ早かれこうなってたさ。一緒に住むには、あたしらはお互いが背負ってる責任が違いすぎる」
 
@@ -3359,66 +4181,88 @@ wait		500
 @miu_maid_damage2	#メイド服(さらに出血)
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「……分かりました。では、私は残ります。樹さんとみかんちゃんだけでも逃がしてください」
 ＠Miu,B01359
 「……分かりました。では、私は残ります。樹さんとみかんちゃんだけでも逃がしてください」
 
+#SCRIPT ORIGINAL 「美雨！」
 ＠Itsuki
 「美雨！」
 
+#SCRIPT ORIGINAL 「やだよっ、美雨さんも一緒に行こう！　ここに居たら危ないよ！」
 ＠Mikan,A01071
 「やだよっ、美雨さんも一緒に行こう！　ここに居たら危ないよ！」
 
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「いいの。それよりごめんね、みかんちゃん。養子の話騙しちゃって」
 ＠Miu,B01360
 「いいの。それよりごめんね、みかんちゃん。養子の話騙しちゃって」
 
+#SCRIPT ORIGINAL 「え……」
 ＠Mikan,A01072
 「え……」
 
+#SCRIPT ORIGINAL 「それを知っていても私、とめることが出来なかった」
 ＠Miu,B01361
 「それを知っていても私、とめることが出来なかった」
 
+#SCRIPT ORIGINAL 「もし最初に樹さんに正直に話していれば、今回みたいなことにはならなかったのに……」
 ＠Miu,B01362
 「もし最初に樹さんに正直に話していれば、今回みたいなことにはならなかったのに……」
 
+#SCRIPT ORIGINAL 美雨は心底、申し訳無さそうに頭を下げて謝罪するのだ。
 美雨は心底、申し訳無さそうに頭を下げて謝罪するのだ。
 
+#SCRIPT ORIGINAL 今、オレとみかんを狙っているのは美雨の仲間らしい。
 今、オレとみかんを狙っているのは美雨の仲間らしい。
 
+#SCRIPT ORIGINAL その張本人である美雨はこうして謝罪し、止める事が出来ないと言う。
 その張本人である美雨はこうして謝罪し、止める事が出来ないと言う。
 
+#SCRIPT ORIGINAL そして、雫さんは美雨とは違う立場の人間で、オレ達を狙っているわけではない。
 そして、雫さんは美雨とは違う立場の人間で、オレ達を狙っているわけではない。
 
+#SCRIPT ORIGINAL ただこうして立ちはだかっている以上、何らかの目的ないしは組織で動いているわけで。
 ただこうして立ちはだかっている以上、何らかの目的ないしは組織で動いているわけで。
 
+#SCRIPT ORIGINAL （……じゃあ一体、この施設は誰が何の目的で動かしている事になるんだ）
 ＠Itsuki
 （……じゃあ一体、この施設は誰が何の目的で動かしている事になるんだ）
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「行ってください。ここに居ても危険なだけです」
 ＠Miu,B01363
 「行ってください。ここに居ても危険なだけです」
 
+#SCRIPT ORIGINAL そう。無力なくらい。
+#SCRIPT ORIGINAL それは思い知らされている。
 そう。無力なくらい。
 それは思い知らされている。
 
+#SCRIPT ORIGINAL 「お兄ちゃん……」
 ＠Mikan,A01073
 「お兄ちゃん……」
 
+#SCRIPT ORIGINAL そしてオレは、このみかんを守ってやらないといけないんだ。
 そしてオレは、このみかんを守ってやらないといけないんだ。
 
+#SCRIPT ORIGINAL 「分かった。先に外で待ってる……」
 ＠Itsuki
 「分かった。先に外で待ってる……」
 
+#SCRIPT ORIGINAL 「ッ！？　お兄ちゃんっ」
 ＠Mikan,A01074
 「ッ！？　お兄ちゃんっ」
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「ええ。ありがとうございます」
 ＠Miu,B01364
 「ええ。ありがとうございます」
 
+#SCRIPT ORIGINAL 安心したように、美雨が微笑んだ。
 安心したように、美雨が微笑んだ。
 
 @chara_clear		#保険
@@ -3428,12 +4272,15 @@ wait		500
 @shizuku_shifuku
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「外に出れば、さっきまでの物騒な奴らを一掃させたあたしの仲間が待機してる」
 ＠Shizuku,S01117
 「外に出れば、さっきまでの物騒な奴らを一掃させたあたしの仲間が待機してる」
 
+#SCRIPT ORIGINAL 「事情を話せば安全なところまで逃げれるから、安心していいよ」
 ＠Shizuku,S01118
 「事情を話せば安全なところまで逃げれるから、安心していいよ」
 
+#SCRIPT ORIGINAL 「分かりました。……美雨」
 ＠Itsuki
 「分かりました。……美雨」
 
@@ -3443,34 +4290,43 @@ wait		500
 @miu_maid_damage2	#メイド服(さらに出血)
 @miu_ikari		#閉_怒
 
+#SCRIPT ORIGINAL 「大丈夫です。すぐに追いつきます」
 ＠Miu,B01365
 「大丈夫です。すぐに追いつきます」
 
+#SCRIPT ORIGINAL 「……ああ」
 ＠Itsuki
 「……ああ」
 
 @miu_komaru		#開_困
 
+#SCRIPT ORIGINAL 「あと、これを。少し汚してしまいましたが」
 ＠Miu,B01366
 「あと、これを。少し汚してしまいましたが」
 
+#SCRIPT ORIGINAL エプロンのポケットから、薄汚れている手紙を取り出した。
 エプロンのポケットから、薄汚れている手紙を取り出した。
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「ご武運をお祈りしています」
 ＠Miu,B01367
 「ご武運をお祈りしています」
 
+#SCRIPT ORIGINAL 「……美雨も」
 ＠Itsuki
 「……美雨も」
 
+#SCRIPT ORIGINAL それを受け取り、しっかりとポケットにしまい込んだ。
 それを受け取り、しっかりとポケットにしまい込んだ。
 
+#SCRIPT ORIGINAL 「美雨さん、雫さんも。絶対に後から来てね。待ってるから」
 ＠Mikan,A01075
 「美雨さん、雫さんも。絶対に後から来てね。待ってるから」
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「ええ」
 ＠Miu,B01368
 「ええ」
 
@@ -3481,23 +4337,30 @@ wait		500
 @shizuku_shifuku
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ああ、分かってるよ」
 ＠Shizuku,S01119
 「ああ、分かってるよ」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL 聞きたいことは山ほどある。
 聞きたいことは山ほどある。
 
+#SCRIPT ORIGINAL おそらくもう、今聞かないと一生分からないような気がする。
 おそらくもう、今聞かないと一生分からないような気がする。
 
+#SCRIPT ORIGINAL だが……オレはみかんを。
 だが……オレはみかんを。
 
+#SCRIPT ORIGINAL 「行こう、みかん」
 ＠Itsuki
 「行こう、みかん」
 
+#SCRIPT ORIGINAL 「うんッ」
 ＠Mikan,A01076
 「うんッ」
 
@@ -3507,6 +4370,7 @@ bgm_stop
 #SE21　廊下を走り去る音　※徐々に小さく
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
+#SCRIPT ORIGINAL みかんの小さな手を引き、すぐ側の玄関を目指して走り出した。
 みかんの小さな手を引き、すぐ側の玄関を目指して走り出した。
 
 #一拍
@@ -3518,6 +4382,7 @@ bgm_stop
 @shizuku_akire		#呆
 @bg_rouka_n		# 廊下(夜)
 
+#SCRIPT ORIGINAL 「やれやれ。やっと行ったねぇ」
 ＠Shizuku,S01120
 「やれやれ。やっと行ったねぇ」
 
@@ -3527,11 +4392,13 @@ wait		500
 @miu_maid_damage2	#メイド服(さらに出血)
 @miu_komaru		#開_困
 
+#SCRIPT ORIGINAL 「…………」
 ＠Miu,B01369
 「…………」
 
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「私のせいですから……」
 ＠Miu,B01370
 「私のせいですから……」
 
@@ -3541,14 +4408,17 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「あんたの境遇は同情するよ、美雨」
 ＠Shizuku,S01121
 「あんたの境遇は同情するよ、美雨」
 
 @shizuku_ikari		#怒
 
+#SCRIPT ORIGINAL 「しかしあたし達も動かなくちゃいけない」
 ＠Shizuku,S01122
 「しかしあたし達も動かなくちゃいけない」
 
+#SCRIPT ORIGINAL 「この混乱に乗じてここを占拠し、あいつらの計画を揺さぶってやる事も視野に入れてるんだよ」
 ＠Shizuku,S01123
 「この混乱に乗じてここを占拠し、あいつらの計画を揺さぶってやる事も視野に入れてるんだよ」
 
@@ -3559,44 +4429,57 @@ wait		500
 #@miu_kanashimi		#開_哀
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「それでいいと思います」
 ＠Miu,B01371
 「それでいいと思います」
 
+#SCRIPT ORIGINAL カシャン、と美雨の手からナイフが零れ落ちた。
 カシャン、と美雨の手からナイフが零れ落ちた。
 
+#SCRIPT ORIGINAL 出血のせいでもう左手には感覚が無くなっている。
 出血のせいでもう左手には感覚が無くなっている。
 
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「散々迷惑をかけてしまいましたけど。やはり樹さんに会えてよかった……」
 ＠Miu,B01372
 「散々迷惑をかけてしまいましたけど。やはり樹さんに会えてよかった……」
 
+#SCRIPT ORIGINAL 「そして望めるなら、あの子も交えて、三人一緒に暮らしたかった」
 ＠Miu,B01373
 「そして望めるなら、あの子も交えて、三人一緒に暮らしたかった」
 
+#SCRIPT ORIGINAL 「あの子……？」
 ＠Shizuku,S01124
 「あの子……？」
 
+#SCRIPT ORIGINAL 誰のことを言っているのか、雫のデータベースにも該当者が無かった。
 誰のことを言っているのか、雫のデータベースにも該当者が無かった。
 
 @miu_ikari2		#開_怒
 
+#SCRIPT ORIGINAL 「私も、選ばれてここの管理を任されている人間です」
 ＠Miu,B01374
 「私も、選ばれてここの管理を任されている人間です」
 
+#SCRIPT ORIGINAL 「一度犯した罪。それを無駄にしないためにも、私はここを守り抜きます」
 ＠Miu,B01375
 「一度犯した罪。それを無駄にしないためにも、私はここを守り抜きます」
 
+#SCRIPT ORIGINAL 残った右手に、血まみれのナイフを強く握り締めた。
 残った右手に、血まみれのナイフを強く握り締めた。
 
 #■BG（黒）
 bgm_stop
 @bg_black
 
+#SCRIPT ORIGINAL …………………
 …………………
 
+#SCRIPT ORIGINAL ……………
 ……………
 
+#SCRIPT ORIGINAL ………
 ………
 
 #■BG（施設前）
@@ -3606,18 +4489,23 @@ bgm_stop
 @kurofuku		# 普通
 @bg_gate_n		# 孤児院前(夜)
 
+#SCRIPT ORIGINAL 「院長の土屋さんですね？」
 ＠スーツ姿の男
 「院長の土屋さんですね？」
 
+#SCRIPT ORIGINAL 「あ、はい……」
 ＠Itsuki
 「あ、はい……」
 
 @bgm01			#BGM 01 : さすらいのテーマ
 
+#SCRIPT ORIGINAL 外に出ると、スーツを着込んだ男が礼儀正しく立っていた。
 外に出ると、スーツを着込んだ男が礼儀正しく立っていた。
 
+#SCRIPT ORIGINAL 今までの非現実的な光景とのギャップに、思わず戸惑って頷く。
 今までの非現実的な光景とのギャップに、思わず戸惑って頷く。
 
+#SCRIPT ORIGINAL 「雫さんから話は聞いています。こちらの子は？」
 ＠スーツ姿の男
 「雫さんから話は聞いています。こちらの子は？」
 
@@ -3628,91 +4516,116 @@ wait		500
 @mikan_shifuku
 @mikan_ikari		#怒
 
+#SCRIPT ORIGINAL 「え、えっと。鮎川みかんですっ」
 ＠Mikan,A01077
 「え、えっと。鮎川みかんですっ」
 
+#SCRIPT ORIGINAL 「鮎川みかん……？　鮎川……」
 ＠スーツ姿の男
 「鮎川みかん……？　鮎川……」
 
+#SCRIPT ORIGINAL 「あぁ、あの鮎川夫妻の……」
 ＠スーツ姿の男
 「あぁ、あの鮎川夫妻の……」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「え、お父さんとお母さんのこと知ってるの……？」
 ＠Mikan,A01078
 「え、お父さんとお母さんのこと知ってるの……？」
 
+#SCRIPT ORIGINAL 「ん？　いや、まぁ少しね。それより安全な場所まで送ろう」
 ＠スーツ姿の男
 「ん？　いや、まぁ少しね。それより安全な場所まで送ろう」
 
 @kurofuku_
 
+#SCRIPT ORIGINAL 男が近くに止めてあった黒塗りの車のドアを開けた。
 男が近くに止めてあった黒塗りの車のドアを開けた。
 
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「あの、かりんちゃん達は……？　大丈夫なんですか？」
 ＠Mikan,A01079
 「あの、かりんちゃん達は……？　大丈夫なんですか？」
 
+#SCRIPT ORIGINAL 「雫さんが逃がしたなら問題ないはずだ。君達も早くここから逃げなさい」
 ＠スーツ姿の男
 「雫さんが逃がしたなら問題ないはずだ。君達も早くここから逃げなさい」
 
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「……？　お兄ちゃん？」
 ＠Mikan,A01080
 「……？　お兄ちゃん？」
 
+#SCRIPT ORIGINAL 「あ、ああ……」
 ＠Itsuki
 「あ、ああ……」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 施設を振り返っていた。
 施設を振り返っていた。
 
+#SCRIPT ORIGINAL まるで何も分からないだらけのまま、ここを離れていいのだろうか。
 まるで何も分からないだらけのまま、ここを離れていいのだろうか。
 
+#SCRIPT ORIGINAL ここでの生活が終わってしまう予感。
 ここでの生活が終わってしまう予感。
 
+#SCRIPT ORIGINAL ……オレはどこかで、真相へたどり着く選択を間違えてしまったのだろうか。
 ……オレはどこかで、真相へたどり着く選択を間違えてしまったのだろうか。
 
 @kurofuku_small
 @kurofuku_shifuku
 @kurofuku		# 普通
 
+#SCRIPT ORIGINAL 「どうかしましたか？」
 ＠スーツ姿の男
 「どうかしましたか？」
 
+#SCRIPT ORIGINAL 「いえ。お願いします」
 ＠Itsuki
 「いえ。お願いします」
 
 #■BG（黒）
 @bg_black
 
+#SCRIPT ORIGINAL みかんと共に、やけに高級そうな車の後部座席へと乗り込んだ。
 みかんと共に、やけに高級そうな車の後部座席へと乗り込んだ。
 
+#SCRIPT ORIGINAL 「ところで、みかんちゃん、だったかな？」
 ＠スーツ姿の男
 「ところで、みかんちゃん、だったかな？」
 
+#SCRIPT ORIGINAL 「えっ？　は、はい」
 ＠Mikan,A01081
 「えっ？　は、はい」
 
+#SCRIPT ORIGINAL 「君は鮎川夫妻から、生前何か受け取ったものや聞いた話はないかな」
 ＠スーツ姿の男
 「君は鮎川夫妻から、生前何か受け取ったものや聞いた話はないかな」
 
+#SCRIPT ORIGINAL 「え…？　えっと………」
 ＠Mikan,A01082
 「え…？　えっと………」
 
+#SCRIPT ORIGINAL 漠然とした質問で、どれが該当するものか分からず、返事に困るみかん。
 漠然とした質問で、どれが該当するものか分からず、返事に困るみかん。
 
+#SCRIPT ORIGINAL 「はは。ごめんよ。何でもないんだ」
 ＠スーツ姿の男
 「はは。ごめんよ。何でもないんだ」
 
+#SCRIPT ORIGINAL 答えの無いみかんに軽く笑みを返すと、男はエンジンを入れて車を走り出させた。
 答えの無いみかんに軽く笑みを返すと、男はエンジンを入れて車を走り出させた。
 
 bgm_stop
 #■BG（夜空）
 @bg_sky_n		# 夜空
 
+#SCRIPT ORIGINAL 道すがら、オレは美雨から受け取った手紙を開いていた。
 道すがら、オレは美雨から受け取った手紙を開いていた。
 
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
@@ -3722,63 +4635,81 @@ bgm_stop
 #//////////////////////////////////////////////////////////////////////////////////
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『最後の最後に、このような内容のお手紙を差し出すことになってしまい、申し訳ありません』
 『最後の最後に、このような内容のお手紙を差し出すことになってしまい、申し訳ありません』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『まず初めに、私たちのせいで、樹さんにこのような生活を強いてしまっていたことを、改めてお詫びいたします』
 『まず初めに、私たちのせいで、樹さんにこのような生活を強いてしまっていたことを、改めてお詫びいたします』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『いつかこのお手紙を読まれている時も、きっと樹さんは詳しい事情を何一つ知らされていないままでしょう』
 『いつかこのお手紙を読まれている時も、きっと樹さんは詳しい事情を何一つ知らされていないままでしょう』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『ですがどうか、勝手なお願いですが、ここでの生活は忘れてください』
 『ですがどうか、勝手なお願いですが、ここでの生活は忘れてください』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『全てを無かった事にして、そこからでも普通の生活へ戻ってください』
 『全てを無かった事にして、そこからでも普通の生活へ戻ってください』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『今の私では、こうして全てを無かった事にするしか、樹さんを助ける術がないのです……』
 『今の私では、こうして全てを無かった事にするしか、樹さんを助ける術がないのです……』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『……もう、会うことは無いでしょう』
 『……もう、会うことは無いでしょう』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『樹さんと過ごせたこの一年。とても楽しく幸せでした』
 『樹さんと過ごせたこの一年。とても楽しく幸せでした』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『それでは。樹さんと、今樹さんの側にいる子との幸せを願っています』
 『それでは。樹さんと、今樹さんの側にいる子との幸せを願っています』
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『ＰＳ　どこかで、みかんちゃん達と同い年くらいの『ひかり』という名の子に出会ったときは』
 『ＰＳ　どこかで、みかんちゃん達と同い年くらいの『ひかり』という名の子に出会ったときは』
 
 #＠美雨（//本編では、二重カギカッコ＋ネームプレート消去）
 #＠　,
+#SCRIPT ORIGINAL 『どうか遠くからでもいいので、その成長を少しだけでも見守ってあげてください』
 『どうか遠くからでもいいので、その成長を少しだけでも見守ってあげてください』
 
 #//////////////////////////////////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 手紙を読み終え、オレは車の中から後ろを振り返る。
 手紙を読み終え、オレは車の中から後ろを振り返る。
 
+#SCRIPT ORIGINAL かすかに見える施設の灯り。
 かすかに見える施設の灯り。
 
+#SCRIPT ORIGINAL 「どうしたの、お兄ちゃん？」
 ＠Mikan,A01083
 「どうしたの、お兄ちゃん？」
 
+#SCRIPT ORIGINAL 「……何でもない」
 ＠Itsuki
 「……何でもない」
 
+#SCRIPT ORIGINAL 遠くなっていくそれを見て、
+#SCRIPT ORIGINAL もうオレ達はソコに戻れないような寂寥感を感じていた。
 遠くなっていくそれを見て、
 もうオレ達はソコに戻れないような寂寥感を感じていた。
 

@@ -9,35 +9,45 @@ label	radio
 #■BG（黒）
 @bg_black
 
+#SCRIPT ORIGINAL 徐々に眠りが浅くなっていく朝方。
 徐々に眠りが浅くなっていく朝方。
 
 #■BG（自室）
 @bg_itsuki
 
+#SCRIPT ORIGINAL 「……ん、んぅ…」
 ＠Itsuki
 「……ん、んぅ…」
 
+#SCRIPT ORIGINAL 何やら廊下が少し騒がしく、いつもより早い時間に目を覚ました。
 何やら廊下が少し騒がしく、いつもより早い時間に目を覚ました。
 
+#SCRIPT ORIGINAL 「……何だ？　みんな今日から休みのはずだけど」
 ＠Itsuki
 「……何だ？　みんな今日から休みのはずだけど」
 
+#SCRIPT ORIGINAL 「はい。だからゆっくり寝ていても全然大丈夫ですよね」
 ＠Yuzu,F00055
 「はい。だからゆっくり寝ていても全然大丈夫ですよね」
 
+#SCRIPT ORIGINAL 「だよな……うん……じゃ、もう少し寝るか……」
 ＠Itsuki
 「だよな……うん……じゃ、もう少し寝るか……」
 
 #■BG（黒）
 @bg_black
 
+#SCRIPT ORIGINAL 「はい♪　おやすみなさい、樹先生」
 ＠Yuzu,F00056
 「はい♪　おやすみなさい、樹先生」
 
+#SCRIPT ORIGINAL ………
 ………
 
+#SCRIPT ORIGINAL ……………
 ……………
 
+#SCRIPT ORIGINAL …………………
 …………………
 
 #■BG（自室）
@@ -50,9 +60,11 @@ label	radio
 @se02
 @bgm03
 
+#SCRIPT ORIGINAL 「―――って、何してるんだ、ゆずッ！」
 ＠Itsuki
 「―――って、何してるんだ、ゆずッ！」
 
+#SCRIPT ORIGINAL 「えっ、うわわッ！？」
 ＠Yuzu,F00057
 「えっ、うわわッ！？」
 
@@ -61,32 +73,40 @@ wait	500
 #SE27　倒れる音（ドサッ）
 @se27
 
+#SCRIPT ORIGINAL 「いっ、たぁ……」
 ＠Yuzu,F00058
 「いっ、たぁ……」
 
+#SCRIPT ORIGINAL 同じ布団に忍び込んでいたゆずが、ベッドから転がり落ちる。
 同じ布団に忍び込んでいたゆずが、ベッドから転がり落ちる。
 
 @yuzu_ikari
 layer_move	l_yuzu,2000,0,800,0,0,passtype_tcb
 
+#SCRIPT ORIGINAL 「まだ添い寝していただけなのに、いきなり酷いですよぉ……」
 ＠Yuzu,F00059
 「まだ添い寝していただけなのに、いきなり酷いですよぉ……」
 
+#SCRIPT ORIGINAL 「ま、まだって何だッ、まだって！」
 ＠Itsuki
 「ま、まだって何だッ、まだって！」
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
+#SCRIPT ORIGINAL 「……樹さん？　どうかしましたか？」
 ＠Miu,B00212
 「……樹さん？　どうかしましたか？」
 
+#SCRIPT ORIGINAL 「美雨か？　何でもない、とりあえず無事だ」
 ＠Itsuki
 「美雨か？　何でもない、とりあえず無事だ」
 
+#SCRIPT ORIGINAL 「………無事って、まるでボクが樹先生に何かするみたいな言い方です……」
 ＠Yuzu,F00060
 「………無事って、まるでボクが樹先生に何かするみたいな言い方です……」
 
+#SCRIPT ORIGINAL 「ゆずちゃん、ここにいるの？」
 ＠Miu,B00213
 「ゆずちゃん、ここにいるの？」
 
@@ -96,82 +116,106 @@ layer_move	l_yuzu,2000,0,800,0,0,passtype_tcb
 wait	1000
 @yuzu_small
 
+#SCRIPT ORIGINAL いつもの服装で、きっちり一日をスタートを切っている美雨が入ってくる。
 いつもの服装で、きっちり一日をスタートを切っている美雨が入ってくる。
 
 @miu
 @yuzu_ikari
 
+#SCRIPT ORIGINAL 「良かった、探したのよ。みんなと一緒に行くんでしょう？」
 ＠Miu,B00214
 「良かった、探したのよ。みんなと一緒に行くんでしょう？」
 
+#SCRIPT ORIGINAL 「う～……せっかくの休みなのに。樹先生と一緒に寝ていたい……」
 ＠Yuzu,F00061
 「う～……せっかくの休みなのに。樹先生と一緒に寝ていたい……」
 
+#SCRIPT ORIGINAL 「休み関係なく、寝ないから」
 ＠Itsuki
 「休み関係なく、寝ないから」
 
+#SCRIPT ORIGINAL 「……で、一緒に行くってのは？　さっきから廊下も騒がしいけど」
 ＠Itsuki
 「……で、一緒に行くってのは？　さっきから廊下も騒がしいけど」
 
+#SCRIPT ORIGINAL 「ゆずちゃん達は今日から、ラジオ体操があるんですよ」
 ＠Miu,B00215
 「ゆずちゃん達は今日から、ラジオ体操があるんですよ」
 
+#SCRIPT ORIGINAL ラジオ体操………
 ラジオ体操………
 
+#SCRIPT ORIGINAL あの夏休み恒例の、ありがた迷惑な目覚めイベントだ。
 あの夏休み恒例の、ありがた迷惑な目覚めイベントだ。
 
+#SCRIPT ORIGINAL 「……懐かしいな」
 ＠Itsuki
 「……懐かしいな」
 
+#SCRIPT ORIGINAL 「前の学校じゃ、自主参加だったのに……」
 ＠Yuzu,F00062
 「前の学校じゃ、自主参加だったのに……」
 
 @ichigo_warai
 
+#SCRIPT ORIGINAL 「ゆずーッ、あ、いたいたー♪」
 ＠Ichigo,O00392
 「ゆずーッ、あ、いたいたー♪」
 
+#SCRIPT ORIGINAL 「早く行かないと、出席カードに遅刻の判子を押されちゃうよ」
 ＠Ichigo,O00393
 「早く行かないと、出席カードに遅刻の判子を押されちゃうよ」
 
+#SCRIPT ORIGINAL 「ええ、頑張って行ってらっしゃい、ゆずちゃん」
 ＠Miu,B00216
 「ええ、頑張って行ってらっしゃい、ゆずちゃん」
 
 @yuzu
 
+#SCRIPT ORIGINAL 「は～い……樹先生、中途半端なままですみません……」
 ＠Yuzu,F00063
 「は～い……樹先生、中途半端なままですみません……」
 
+#SCRIPT ORIGINAL 「いや、まだ何もしてないし………」
 ＠Itsuki
 「いや、まだ何もしてないし………」
 
+#SCRIPT ORIGINAL 「してないよな……？」
 ＠Itsuki
 「してないよな……？」
 
+#SCRIPT ORIGINAL 「それじゃパパ、行ってきまーす！」
 ＠Ichigo,O00394
 「それじゃパパ、行ってきまーす！」
 
 @yuzu_warai
 
+#SCRIPT ORIGINAL 「行ってきます、樹先生♪」
 ＠Yuzu,F00064
 「行ってきます、樹先生♪」
 
 @yuzu_
 @ichigo_
 
+#SCRIPT ORIGINAL 二人して部屋を後にする。
 二人して部屋を後にする。
 
+#SCRIPT ORIGINAL やがて玄関で他の子の声も聞こえると、すぐ外出していった。
 やがて玄関で他の子の声も聞こえると、すぐ外出していった。
 
+#SCRIPT ORIGINAL （……何も無い、と信じておこう）
 ＠Itsuki
 （……何も無い、と信じておこう）
 
+#SCRIPT ORIGINAL 「樹さんも起きられますか？」
 ＠Miu,B00217
 「樹さんも起きられますか？」
 
+#SCRIPT ORIGINAL 「ああ。子供達が早起きしてるのに、オレが寝てたら示しがつかないしな」
 ＠Itsuki
 「ああ。子供達が早起きしてるのに、オレが寝てたら示しがつかないしな」
 
+#SCRIPT ORIGINAL 「それでは、すぐ朝ごはんの用意をしてしまいますね」
 ＠Miu,B00218
 「それでは、すぐ朝ごはんの用意をしてしまいますね」
 
@@ -179,12 +223,15 @@ wait	1000
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
+#SCRIPT ORIGINAL 「ラジオ体操か……」
 ＠Itsuki
 「ラジオ体操か……」
 
+#SCRIPT ORIGINAL 「体操は無理でも、オレもみんなに倣って早起きくらいはしておかないとな」
 ＠Itsuki
 「体操は無理でも、オレもみんなに倣って早起きくらいはしておかないとな」
 
+#SCRIPT ORIGINAL 若干の眠気を振り払い、朝の用意をし始めるのだった。
 若干の眠気を振り払い、朝の用意をし始めるのだった。
 
 #（スケジュール）

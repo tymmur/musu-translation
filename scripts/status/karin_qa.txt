@@ -37,8 +37,10 @@ label	karin_qa01
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 部屋で休んでいると、ドアのノックの音がした。
 
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P01940
 「入るわよ」
 
@@ -50,56 +52,72 @@ wait		1000
 @karin_pajama
 @karin
 
+#SCRIPT ORIGINAL 「かりんか。珍しいな」
 ＠Itsuki
 「かりんか。珍しいな」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「……別に好きで来たわけじゃないわよ」
 ＠Karin,P01941
 「……別に好きで来たわけじゃないわよ」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「実は今日、友達から振られた話があったんだけど。答えられなくて」
 ＠Karin,P01942
 「実は今日、友達から振られた話があったんだけど。答えられなくて」
 
+#SCRIPT ORIGINAL 「ほぉ。どんなだ？」
 ＠Itsuki
 「ほぉ。どんなだ？」
 
+#SCRIPT ORIGINAL 「兄妹がいるって、どんな気分なのかしらって」
 ＠Karin,P01943
 「兄妹がいるって、どんな気分なのかしらって」
 
+#SCRIPT ORIGINAL 「ほら、ウチにはあなたがいるじゃない。だから不本意だけど兄妹だって思われたみたいで」
 ＠Karin,P01944
 「ほら、ウチにはあなたがいるじゃない。だから不本意だけど兄妹だって思われたみたいで」
 
+#SCRIPT ORIGINAL 「だったら誤解を解けば良いじゃないか。不本意なんだったらさ」
 ＠Itsuki
 「だったら誤解を解けば良いじゃないか。不本意なんだったらさ」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「もちろん解いたわよ。そんな寒気がする誤解なんて」
 ＠Karin,P01945
 「もちろん解いたわよ。そんな寒気がする誤解なんて」
 
+#SCRIPT ORIGINAL ……寒気って酷いな。
 ……寒気って酷いな。
 
+#SCRIPT ORIGINAL 「でも答えられないもの情けなかったのっ」
 ＠Karin,P01946
 「でも答えられないもの情けなかったのっ」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「だから、ね……イヤイヤだけど樹にお願いがあるんだけど」
 ＠Karin,P01947
 「だから、ね……イヤイヤだけど樹にお願いがあるんだけど」
 
+#SCRIPT ORIGINAL かりんも言い難そうに言葉をためる。
 かりんも言い難そうに言葉をためる。
 
+#SCRIPT ORIGINAL その時点で、もう嫌な予感がした。
 その時点で、もう嫌な予感がした。
 
+#SCRIPT ORIGINAL 「少しだけあなたの事を兄妹と思って良いかしら」
 ＠Karin,P01948
 「少しだけあなたの事を兄妹と思って良いかしら」
 
+#SCRIPT ORIGINAL 「……お、オレがかりんの兄ってことか！？」
 ＠Itsuki
 「……お、オレがかりんの兄ってことか！？」
 
+#SCRIPT ORIGINAL 「当たり前でしょ……お、お兄様」
 ＠Karin,P01949
 「当たり前でしょ……お、お兄様」
 
@@ -107,51 +125,65 @@ wait		1000
 @SE57			#SE57　爆発音　※ゲームブックで使用
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL お兄様ーーーーーーッ！！！！
 お兄様ーーーーーーッ！！！！
 
+#SCRIPT ORIGINAL 「お、お兄様って……かりんさん……？」
 ＠Itsuki
 「お、お兄様って……かりんさん……？」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「……ちょっと、お兄様。ちゃんとかりんに受け答えしてください」
 ＠Karin,P01950
 「……ちょっと、お兄様。ちゃんとかりんに受け答えしてください」
 
+#SCRIPT ORIGINAL 「あ、ああ、そうだな……」
 ＠Itsuki
 「あ、ああ、そうだな……」
 
+#SCRIPT ORIGINAL 「えっと。何だい、かりん……？」
 ＠Itsuki
 「えっと。何だい、かりん……？」
 
+#SCRIPT ORIGINAL って言うか、オレの方はあまり変化なく普通だな。
 って言うか、オレの方はあまり変化なく普通だな。
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「お兄様、いつもかりん達の為にお仕事を頑張ってくださってありがとうございます」
 ＠Karin,P01951
 「お兄様、いつもかりん達の為にお仕事を頑張ってくださってありがとうございます」
 
+#SCRIPT ORIGINAL 「今日もまだ休まれないのですか？」
 ＠Karin,P01952
 「今日もまだ休まれないのですか？」
 
+#SCRIPT ORIGINAL 「う、うん……まだやることがのこっているのだよかりん」
 ＠Itsuki
 「う、うん……まだやることがのこっているのだよかりん」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「台詞が棒読みですわよ、お兄様。お疲れかしら？」
 ＠Karin,P01953
 「台詞が棒読みですわよ、お兄様。お疲れかしら？」
 
+#SCRIPT ORIGINAL 「げふっ、ごほんッ……」
 ＠Itsuki
 「げふっ、ごほんッ……」
 
+#SCRIPT ORIGINAL 「うん、そうだな。色々疲れたから休む事にする……」
 ＠Itsuki
 「うん、そうだな。色々疲れたから休む事にする……」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「お休みでしたら……お兄様？」
 ＠Karin,P01954
 「お休みでしたら……お兄様？」
 
+#SCRIPT ORIGINAL 「かりん、お兄様にお休みのキスをして………って、しないわよキスなんてぇッ！」
 ＠Karin,P01955
 「かりん、お兄様にお休みのキスをして………って、しないわよキスなんてぇッ！」
 
@@ -159,61 +191,78 @@ screen_vibration	500,16,16,16
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 自分の台詞に、かりん自ら鋭いツッコミが入った。
 自分の台詞に、かりん自ら鋭いツッコミが入った。
 
+#SCRIPT ORIGINAL その手からメモ帳が転げ落ちる。
 その手からメモ帳が転げ落ちる。
 
+#SCRIPT ORIGINAL 「ん、何だこれ………。台本？」
 ＠Itsuki
 「ん、何だこれ………。台本？」
 
 @karin_odoroki		#驚
 
+#SCRIPT ORIGINAL 「はあぁッ……その友達が、理想の兄妹のやり取りを台本にしてきたのよ」
 ＠Karin,P01956
 「はあぁッ……その友達が、理想の兄妹のやり取りを台本にしてきたのよ」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「な、何よお休みのキスって。するわけ無いじゃない兄妹とっ」
 ＠Karin,P01957
 「な、何よお休みのキスって。するわけ無いじゃない兄妹とっ」
 
+#SCRIPT ORIGINAL 「……なんだ、友達の台本だったのか」
 ＠Itsuki
 「……なんだ、友達の台本だったのか」
 
+#SCRIPT ORIGINAL やけに器用に演じられるな、と感心したのだが。
 やけに器用に演じられるな、と感心したのだが。
 
+#SCRIPT ORIGINAL 「とりあえず、これでもう気は済んだか？」
 ＠Itsuki
 「とりあえず、これでもう気は済んだか？」
 
+#SCRIPT ORIGINAL 「ええ、そうね。これ以上続けてキスなんてしたくないし」
 ＠Karin,P01958
 「ええ、そうね。これ以上続けてキスなんてしたくないし」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「……それで、私はともかく、樹はどうだったの」
 ＠Karin,P01959
 「……それで、私はともかく、樹はどうだったの」
 
+#SCRIPT ORIGINAL 「ん？」
 ＠Itsuki
 「ん？」
 
+#SCRIPT ORIGINAL 「台本とはいえ、私にお兄様って呼ばれて何も感じなかったの？」
 ＠Karin,P01960
 「台本とはいえ、私にお兄様って呼ばれて何も感じなかったの？」
 
+#SCRIPT ORIGINAL 「お、オレの感想……？　必要なのかそんなのが」
 ＠Itsuki
 「お、オレの感想……？　必要なのかそんなのが」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「い、いいでしょっ……我慢して言ってあげたんだから、相応の感想があってしかるべきよ」
 ＠Karin,P01961
 「い、いいでしょっ……我慢して言ってあげたんだから、相応の感想があってしかるべきよ」
 
+#SCRIPT ORIGINAL 何か切り返しが強引だし、かりんはちょっと焦ってるし、意味が分からない……
 何か切り返しが強引だし、かりんはちょっと焦ってるし、意味が分からない……
 
+#SCRIPT ORIGINAL まぁ感想を言えと言うのなら、
 まぁ感想を言えと言うのなら、
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．やっぱり止めてほしい）still/anyway stop want (?)
 #（２．むしろお兄様のままで）rather/preferably oniichan remain (?)
+#SCRIPT ORIGINAL select sel,"やっぱり止めてほしい","むしろお兄様のままで"
 select sel,"still want stop","I'd rather remain your older brother"
 if sel=0 then goto karin_qa01_a
 if sel=1 then goto karin_qa01_b
@@ -224,35 +273,43 @@ if sel=1 then goto karin_qa01_b
 #--------------------------------------------------
 label	karin_qa01_a
 
+#SCRIPT ORIGINAL 「かりんは今までのままがいいよ」
 ＠Itsuki
 「かりんは今までのままがいいよ」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「そ、そう……？　ならいいんだけど」
 ＠Karin,P01962
 「そ、そう……？　ならいいんだけど」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「じゃなくて……もしかして樹、人から嫌われて悦ぶようなマゾだったんじゃ」
 ＠Karin,P01963
 「じゃなくて……もしかして樹、人から嫌われて悦ぶようなマゾだったんじゃ」
 
+#SCRIPT ORIGINAL 「違うッ、本気で引くな！　あくまで比較としてだ！」
 ＠Itsuki
 「違うッ、本気で引くな！　あくまで比較としてだ！」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「ふ～ん。そういう事にしてもいいけど」
 ＠Karin,P01964
 「ふ～ん。そういう事にしてもいいけど」
 
+#SCRIPT ORIGINAL 「ま、私も兄妹なんて思われるのはイヤだったし」
 ＠Karin,P01965
 「ま、私も兄妹なんて思われるのはイヤだったし」
 
+#SCRIPT ORIGINAL 「……なら初めっから聞かないで欲しい」
 ＠Itsuki
 「……なら初めっから聞かないで欲しい」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「それじゃ、今までどおりあなたを嫌って対応するわ。邪魔したわね」
 ＠Karin,P01966
 「それじゃ、今までどおりあなたを嫌って対応するわ。邪魔したわね」
 
@@ -263,13 +320,17 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 用件が終わると、かりんは早々に退室して行った。
 用件が終わると、かりんは早々に退室して行った。
 
+#SCRIPT ORIGINAL 去り際は心持ち明るい表情で。
 去り際は心持ち明るい表情で。
 
+#SCRIPT ORIGINAL 「何だったんだろうな、一体……」
 ＠Itsuki
 「何だったんだろうな、一体……」
 
+#SCRIPT ORIGINAL 首を傾げるが、既に出て行ったかりんからは当然答えは得られなかった。
 首を傾げるが、既に出て行ったかりんからは当然答えは得られなかった。
 
 @chara_clear		#保険
@@ -285,38 +346,48 @@ return
 #--------------------------------------------------
 label	karin_qa01_b
 
+#SCRIPT ORIGINAL 「むろん、お兄様だ！」
 ＠Itsuki
 「むろん、お兄様だ！」
 
 @karin_odoroki		#驚
 
+#SCRIPT ORIGINAL 「………へ」
 ＠Karin,P01967
 「………へ」
 
+#SCRIPT ORIGINAL 「違和感なんてきっと最初だけだ。じきに慣れてそれが自然になる！」
 ＠Itsuki
 「違和感なんてきっと最初だけだ。じきに慣れてそれが自然になる！」
 
+#SCRIPT ORIGINAL 「だからこれからもかりんは、お兄様とオレを呼びなさい！」
 ＠Itsuki
 「だからこれからもかりんは、お兄様とオレを呼びなさい！」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「本気で言ってるの……？」
 ＠Karin,P01968
 「本気で言ってるの……？」
 
+#SCRIPT ORIGINAL 「どうして」
 ＠Itsuki
 「どうして」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「いえ……まぁ聞いたのは私だし、人の趣味をとやかくは言わないけど」
 ＠Karin,P01969
 「いえ……まぁ聞いたのは私だし、人の趣味をとやかくは言わないけど」
 
+#SCRIPT ORIGINAL 「でもあんまり外で熱弁してると、人間関係が希薄になるわよ…？」
 ＠Karin,P01970
 「でもあんまり外で熱弁してると、人間関係が希薄になるわよ…？」
 
+#SCRIPT ORIGINAL 思いっきり引かれていた！
 思いっきり引かれていた！
 
+#SCRIPT ORIGINAL 「それじゃ、おやすみ樹」
 ＠Karin,P01971
 「それじゃ、おやすみ樹」
 
@@ -326,14 +397,18 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 「あッ、かりん！」
 ＠Itsuki
 「あッ、かりん！」
 
+#SCRIPT ORIGINAL 可哀想なものを見るような目で、かりんは早々に退室した。
 可哀想なものを見るような目で、かりんは早々に退室した。
 
+#SCRIPT ORIGINAL 「……結局お兄様じゃないのかよ」
 ＠Itsuki
 「……結局お兄様じゃないのかよ」
 
+#SCRIPT ORIGINAL 何をしに来たのか、さっぱり分からなかった。
 何をしに来たのか、さっぱり分からなかった。
 
 bgm_stop
@@ -341,8 +416,10 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL その後かりんは〝お兄様〟どころか、前より冷たくなった気がする。
 その後かりんは〝お兄様〟どころか、前より冷たくなった気がする。
 
+#SCRIPT ORIGINAL ちょっと悲しかった。
 ちょっと悲しかった。
 
 @karin_kokoro_down
@@ -361,12 +438,14 @@ label	karin_qa02
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 
 #「ん……？」
+#SCRIPT ORIGINAL 「ん……？」
 ＠Itsuki
 「Hm...?」
 
 @bgmk04			#BGM K04 : 寝る前のテーマ
 
 #廊下から、突然騒がしい足音がこちらに近づいてきた。
+#SCRIPT ORIGINAL 廊下から、突然騒がしい足音がこちらに近づいてきた。
 　I heard frantic footsteps from the hall, heading toward my room.
 
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
@@ -377,23 +456,28 @@ label	karin_qa02
 @karin_ikari		#怒
 
 #「樹ッ、居るッ！？　入っていいかしらッ！」
+#SCRIPT ORIGINAL 「樹ッ、居るッ！？　入っていいかしらッ！」
 ＠Karin,P01972
 「Itsuki, are you there!? Can I come in!?」
 
 #足音の主のかりんが、思いっきりドアを開けて現れた。
+#SCRIPT ORIGINAL 足音の主のかりんが、思いっきりドアを開けて現れた。
 　Karin, the source of the footsteps, showed up throwing the door open.
 
 #「……もう入ってるじゃん」
+#SCRIPT ORIGINAL 「……もう入ってるじゃん」
 ＠Itsuki
 「...You're already inside, I think」
 
 @karin_keno		#嫌悪
 
 #「はぁっ……よかった、居たわね」
+#SCRIPT ORIGINAL 「はぁっ……よかった、居たわね」
 ＠Karin,P01973
 「Haa... thank goodness, you're here」
 
 #「いくら樹が最低と言っても、さすがにこの緊急事態に部屋に居ないなんて非常識な行動はなかったのね」
+#SCRIPT ORIGINAL 「いくら樹が最低と言っても、さすがにこの緊急事態に部屋に居ないなんて非常識な行動はなかったのね」
 ＠Karin,P01974
 「As much as I say you're the worst, you wouldn't be so senseless as to not be here during an emergency」
 
@@ -401,50 +485,62 @@ label	karin_qa02
 @SE53			#SE53　傷つく言葉（グサッ！）
 
 #「何だ。わざわざオレの心を抉りに走ってきたのか……」
+#SCRIPT ORIGINAL 「何だ。わざわざオレの心を抉りに走ってきたのか……」
 ＠Itsuki
 「What's up? Did you come specially to lay some misery on me...?」
 
 #「そんなどうでも言いことで慌てないわよ」
+#SCRIPT ORIGINAL 「そんなどうでも言いことで慌てないわよ」
 ＠Karin,P01975
 「I wouldn't panic over something pointless like that」
 
 @karin_ikari		#怒
 
 #「それより出たのッ、緊急事態よ！」
+#SCRIPT ORIGINAL 「それより出たのッ、緊急事態よ！」
 ＠Karin,P01976
 「More importantly, there's an emergency!」
 
 #どうでもいいとは酷いが、しかしかりんの慌てぶりの方が気になった。
+#SCRIPT ORIGINAL どうでもいいとは酷いが、しかしかりんの慌てぶりの方が気になった。
 　To say my feelings are pointless is awful, but her panic took my attention.
 
 #本当に大変な事が起こったのかもしれない。
+#SCRIPT ORIGINAL 本当に大変な事が起こったのかもしれない。
 　Something terrible might have actually happened.
 
 #「うん、落ち着いて話すんだ。どうした？」
+#SCRIPT ORIGINAL 「うん、落ち着いて話すんだ。どうした？」
 ＠Itsuki
 「Right, calm down and talk to me. What happened?」
 
 @karin_kanashimi	#哀
 
 #「へ、部屋の中にッ……あれがッ、あいつがッ」
+#SCRIPT ORIGINAL 「へ、部屋の中にッ……あれがッ、あいつがッ」
 ＠Karin,P01977
 「I-in my room, there's... T-T-THAT!!」
 
 #「あいつ？　誰か居るのか部屋に！？」
+#SCRIPT ORIGINAL 「あいつ？　誰か居るのか部屋に！？」
 ＠Itsuki
 「What? What's in your room!?」
 
 #「ええ……最初は気付かなかったんだけど、ふと振り返ったらすぐ背後に居てッ」
+#SCRIPT ORIGINAL 「ええ……最初は気付かなかったんだけど、ふと振り返ったらすぐ背後に居てッ」
 ＠Karin,P01978
 「That's right... I didn't notice at first, but when I looked behind me he was right there!」
 
 #この子達の仕事柄、怪しい男や変質者などには細心の注意を払う必要がある。
+#SCRIPT ORIGINAL この子達の仕事柄、怪しい男や変質者などには細心の注意を払う必要がある。
 　There are suspicious, degenerate types you have to be careful with, in this line of work.
 
 #なのに安全なはずの施設の中にまで、不審者の侵入を許してしまっていたなんて……！
+#SCRIPT ORIGINAL なのに安全なはずの施設の中にまで、不審者の侵入を許してしまっていたなんて……！
 　And yet, to think I'd let one of them invade the sanctity of this institution...!
 
 #「い、いつき……私どうすればっ……」
+#SCRIPT ORIGINAL 「い、いつき……私どうすればっ……」
 ＠Karin,P01979
 「I-Itsuki... what should I do...?」
 
@@ -456,82 +552,103 @@ wait		500
 @karin_kanashimi	#哀
 
 #「かりん、大丈夫だよ……怖かったろう…」
+#SCRIPT ORIGINAL 「かりん、大丈夫だよ……怖かったろう…」
 ＠Itsuki
 「Karin, it'll be OK... it must have been scary...」
 
 #小さく震えるかりんを守るように、オレはそっと肩を抱き寄せた。
+#SCRIPT ORIGINAL 小さく震えるかりんを守るように、オレはそっと肩を抱き寄せた。
 　I put my arm around Karin's softly trembling shoulder, to keep her safe.
 
 #「ぁ……いつき…」
+#SCRIPT ORIGINAL 「ぁ……いつき…」
 ＠Karin,P01980
 「Ah... Itsuki...」
 
 #「いつもあなたに冷たくあたってる、こんな私なのに……」
+#SCRIPT ORIGINAL 「いつもあなたに冷たくあたってる、こんな私なのに……」
 ＠Karin,P01981
 「I always act so cold toward you. That you would help me...」
 
 #「そんなの関係ないよ。かりんだって大事な家族だ」
+#SCRIPT ORIGINAL 「そんなの関係ないよ。かりんだって大事な家族だ」
 ＠Itsuki
 「That doesn't matter. Karin, you're part of this family」
 
 #「こんな仕事をさせてしまってるけど、危険なことからは何があっても守ってやる」
+#SCRIPT ORIGINAL 「こんな仕事をさせてしまってるけど、危険なことからは何があっても守ってやる」
 ＠Itsuki
 「I may have put you in this line of work, but I'll protect you, no matter what」
 
 #「いつきッ……」
+#SCRIPT ORIGINAL 「いつきッ……」
 ＠Karin,P01982
 「Itsuki...!」
 
 #何があったのかは知らないが、オレは真剣に本心をかりんに曝け出した。
+#SCRIPT ORIGINAL 何があったのかは知らないが、オレは真剣に本心をかりんに曝け出した。
 　I don't know what happened, but I laid my true feelings bare for Karin.
 
 #そしてかりんも、今はそんなオレを拒むことなく受け入れてくれる。
+#SCRIPT ORIGINAL そしてかりんも、今はそんなオレを拒むことなく受け入れてくれる。
 　And so, Karin without any disdain lets me in now.
 
 #「どうしてっ………何でこの世の中にゴキブリなんているのよぉっ」
+#SCRIPT ORIGINAL 「どうしてっ………何でこの世の中にゴキブリなんているのよぉっ」
 ＠Karin,P01983
 「Why... why are there cockroaches in this world!?」
 
 #「そうか、ゴキブリか。そんな怖い思いをかりんに………」
+#SCRIPT ORIGINAL 「そうか、ゴキブリか。そんな怖い思いをかりんに………」
 ＠Itsuki
 「Right, a cockroach, huh? It must have scared you to...」
 
 #「……ごきぶり？」
+#SCRIPT ORIGINAL 「……ごきぶり？」
 ＠Itsuki
 「...Cockroach?」
 
 #その単語で頭の中に浮かぶイメージは、一つしかなかった。
+#SCRIPT ORIGINAL その単語で頭の中に浮かぶイメージは、一つしかなかった。
 　There was but one image that word pointed to in my head.
 
 #「ゴキブリって、あの黒くてゴキゴキしてるやるか……？」
+#SCRIPT ORIGINAL 「ゴキブリって、あの黒くてゴキゴキしてるやるか……？」
 ＠Itsuki
 「You mean, those black, creepy crawly things...?」
 
 #「そうよっ……それしかないじゃない」
+#SCRIPT ORIGINAL 「そうよっ……それしかないじゃない」
 ＠Karin,P01984
 「Yeah... what else would it be?」
 
 @karin_komikaru_namida	#コミカル涙
 
 #「うぅ、昔から私、ゴキブリだけは全然ダメなのよぉ～～！」
+#SCRIPT ORIGINAL 「うぅ、昔から私、ゴキブリだけは全然ダメなのよぉ～～！」
 ＠Karin,P01985
 「Uuh, ever since I can remember, the one thing I can't handle is cockroaches～～！」
 
 #「………はぁ」
+#SCRIPT ORIGINAL 「………はぁ」
 ＠Itsuki
 「...Sigh」
 
 #いや、まぁ何ていうかさ。確かに怖いかもしれないけど………と。
+#SCRIPT ORIGINAL いや、まぁ何ていうかさ。確かに怖いかもしれないけど………と。
 　Well, I'm not sure what to say. Some people find them scary, I suppose...
 
 #何か一気にオレの中の緊張感やシリアス感は下降していった。
+#SCRIPT ORIGINAL 何か一気にオレの中の緊張感やシリアス感は下降していった。
 　Somehow, my stress and tension levels plummeted all at once.
 
 #「何とかして、樹っ……」
+#SCRIPT ORIGINAL 「何とかして、樹っ……」
 ＠Karin,P01986
 「Do something, Itsuki...」
 
 #「何とかって………相手はゴキブリだろ」
+#SCRIPT ORIGINAL 「何とかって………相手はゴキブリだろ」
 ＠Itsuki
 「Do something, huh... about the cockroach」
 
@@ -539,6 +656,7 @@ wait		500
 #■（選択肢）
 #（１．しばらく避難させてやる）evacuate(?)
 #（２．退治しに行く）exterminate(?)
+#SCRIPT ORIGINAL select sel,"しばらく避難させてやる","退治しに行く"
 select sel,"Give her a place to stay","Go exterminate the pest"
 if sel=0 then goto karin_qa02_a
 if sel=1 then goto karin_qa02_b
@@ -550,35 +668,42 @@ if sel=1 then goto karin_qa02_b
 label	karin_qa02_a
 
 #「仕方ないな。ならしばらくここで避難していればいいよ」
+#SCRIPT ORIGINAL 「仕方ないな。ならしばらくここで避難していればいいよ」
 ＠Itsuki
 「Oh well. Then, I'll let you evacuate here for a while」
 
 @karin			#普通
 
 #「……避難？」
+#SCRIPT ORIGINAL 「……避難？」
 ＠Karin,P01987
 「...Evacuate?」
 
 #「ああ。かりんが怖くなくなるまで一緒に居てやるから」
+#SCRIPT ORIGINAL 「ああ。かりんが怖くなくなるまで一緒に居てやるから」
 ＠Itsuki
 「Yeah. I'll be with you until you're not scared anymore」
 
 #それが一番無難な案だと思った。
+#SCRIPT ORIGINAL それが一番無難な案だと思った。
 　That seemed like the most prudent option.
 
 @karin_kanashimi	#哀
 
 #「そんな。アレが部屋に居る限り、怖いのが止まるはずないじゃないっ」
+#SCRIPT ORIGINAL 「そんな。アレが部屋に居る限り、怖いのが止まるはずないじゃないっ」
 ＠Karin,P01988
 「No way. I'll just keep being scared, as long as THAT's in my room」
 
 #「はぁ……じゃあいい、他の人に頼んで対処してもらうから」
+#SCRIPT ORIGINAL 「はぁ……じゃあいい、他の人に頼んで対処してもらうから」
 ＠Karin,P01989
 「Sigh... fine then, I'll go ask someone else for help」
 
 @karin_
 
 #「え……あれ、かりん？」
+#SCRIPT ORIGINAL 「え……あれ、かりん？」
 ＠Itsuki
 「Huh... hey, Karin?」
 
@@ -587,23 +712,28 @@ label	karin_qa02_a
 @karin_kanashimi	#哀
 
 #「ここに居たって、何の解決にもならないわ」
+#SCRIPT ORIGINAL 「ここに居たって、何の解決にもならないわ」
 ＠Karin,P01990
 「Staying here doesn't solve my problem at all」
 
 #寄り添っていたかりんの温もりが、あっさりと離れていく。
+#SCRIPT ORIGINAL 寄り添っていたかりんの温もりが、あっさりと離れていく。
 　Karin, who had snuggled up close, quickly distanced herself from me.
 
 @karin_keno		#嫌悪
 
 #「思えばだいたい、どうして樹の部屋に駆け込んできたのか……。屈辱だわ」
+#SCRIPT ORIGINAL 「思えばだいたい、どうして樹の部屋に駆け込んできたのか……。屈辱だわ」
 ＠Karin,P01991
 「Now that I think about it, why did I rush to your room, anyway...? How disgraceful」
 
 #「ソコまで言われるのか……」
+#SCRIPT ORIGINAL 「ソコまで言われるのか……」
 ＠Itsuki
 「You don't need to go that far...」
 
 #「もっと頼りになる人のところに行くわ。それじゃあね」
+#SCRIPT ORIGINAL 「もっと頼りになる人のところに行くわ。それじゃあね」
 ＠Karin,P01992
 「I'll go ask someone more reliable. Bye then」
 
@@ -615,16 +745,20 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #すっかりいつもの調子に戻って、部屋を出て行くかりん。
+#SCRIPT ORIGINAL すっかりいつもの調子に戻って、部屋を出て行くかりん。
 　Back to her usual self, Karin leaves my room.
 
 #そんな後ろ姿を、呆然と眺めていた。
+#SCRIPT ORIGINAL そんな後ろ姿を、呆然と眺めていた。
 　I stared dumbfounded at her retreating figure.
 
 #「な、何だったよ……いったい」
+#SCRIPT ORIGINAL 「な、何だったよ……いったい」
 ＠Itsuki
 「What the heck... was that?」
 
 #たかがゴキブリで、慌しい夜だった。
+#SCRIPT ORIGINAL たかがゴキブリで、慌しい夜だった。
 　It was a confusing night, over a cockroach.
 
 @chara_clear		#保険
@@ -641,30 +775,37 @@ return
 label	karin_qa02_b
 
 #「分かった。オレが退治してやる」
+#SCRIPT ORIGINAL 「分かった。オレが退治してやる」
 ＠Itsuki
 「Alright. I'll get rid of it for you」
 
 @karin_koufun		#興奮
 
 #「ほんとっ…？　いつき、いいの？」
+#SCRIPT ORIGINAL 「ほんとっ…？　いつき、いいの？」
 ＠Karin,P01993
 「Really...? You'd do that for me, Itsuki?」
 
 #「ああ。どんな相手だろうと、かりんを守るためなら二言は無い」
+#SCRIPT ORIGINAL 「ああ。どんな相手だろうと、かりんを守るためなら二言は無い」
 ＠Itsuki
 「Yeah. No matter what it is that I have to protect you from, I won't go back on my word」
 
 #この場合の『どんな』は『どんな強大な相手』でもではなく、
 #『どんなくだらないもの相手』でもという意味だ。
+#SCRIPT ORIGINAL この場合の『どんな』は『どんな強大な相手』でもではなく、
+#SCRIPT ORIGINAL 『どんなくだらないもの相手』でもという意味だ。
 　This time, rather than having to overcome a mighty foe, I'll have to tidy up an icky bug.
 
 @karin_niko		#にこ
 
 #「良かった……ありがとう樹。きっとまだ部屋に居ると思うわ」
+#SCRIPT ORIGINAL 「良かった……ありがとう樹。きっとまだ部屋に居ると思うわ」
 ＠Karin,P01994
 「Oh my gosh... thank you, Itsuki. I think it's probably still there」
 
 #「よし行くか」
+#SCRIPT ORIGINAL 「よし行くか」
 ＠Itsuki
 「Let's go take a look」
 
@@ -675,9 +816,11 @@ label	karin_qa02_b
 #@bg_rouka_n		# 廊下(夜)
 
 #そうして出向いたゴキブリ討伐隊。（動くのはオレ一人だが）
+#SCRIPT ORIGINAL そうして出向いたゴキブリ討伐隊。（動くのはオレ一人だが）
 　Our cockroach suppression campaign set off. (Though I may be the only one taking action.）
 
 #そして数分もしないうちに目標を撃破してその役目を終えた。
+#SCRIPT ORIGINAL そして数分もしないうちに目標を撃破してその役目を終えた。
 　And within the span of a few minutes, we sealed our victory, and the deed was done.
 
 @karin_small		# 遠い
@@ -686,25 +829,30 @@ label	karin_qa02_b
 @bg_rouka_n		# 廊下(夜)
 
 #「あ、ありがと……」
+#SCRIPT ORIGINAL 「あ、ありがと……」
 ＠Karin,P01995
 「T-thanks...」
 
 #ようやくさっきまでの自分を見直したのか、かりんは恥ずかしさでばつが悪そうだった。
+#SCRIPT ORIGINAL ようやくさっきまでの自分を見直したのか、かりんは恥ずかしさでばつが悪そうだった。
 　Karin looks at me awkwardly, having re-evaluated her opinion of me recently.
 
 #「まぁ大したことじゃなかったけど。かりんのレアな姿が見れたからイーブンだな」
+#SCRIPT ORIGINAL 「まぁ大したことじゃなかったけど。かりんのレアな姿が見れたからイーブンだな」
 ＠Itsuki
 「Well, it's no big deal. I got a rare visit from you, so we'll call it even」
 
 @karin_kanashimi	#哀
 
 #「う……さ、さっきまでのはゴキブリのせいよ」
+#SCRIPT ORIGINAL 「う……さ、さっきまでのはゴキブリのせいよ」
 ＠Karin,P01996
 「Ugh... t-this is all the cockroach's fault」
 
 @karin_keno		#嫌悪
 
 #「別にあなたを許したとか、そういうことは無いんだから気安くしないでよね」
+#SCRIPT ORIGINAL 「別にあなたを許したとか、そういうことは無いんだから気安くしないでよね」
 ＠Karin,P01997
 「I haven't forgiven you, or anything like that so don't act too friendly」
 
@@ -712,9 +860,11 @@ bgm_stop
 @karin_
 
 #結局かりんの対応は、すぐに改善されそうにはなかったが。
+#SCRIPT ORIGINAL 結局かりんの対応は、すぐに改善されそうにはなかったが。
 　My interactions with Karin suddenly seem not to have improved much.
 
 #少し、信頼は得られたように感じた夜だった。
+#SCRIPT ORIGINAL 少し、信頼は得られたように感じた夜だった。
 　It was a night where I felt I gained just a little bit of her trust.
 
 @chara_clear		#保険
@@ -738,8 +888,10 @@ label	karin_qa03
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 部屋で休んでいると、ドアのノックの音がした。
 
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P01998
 「入るわよ」
 
@@ -751,47 +903,61 @@ wait		1000
 @karin_pajama
 @karin
 
+#SCRIPT ORIGINAL 「あぁ、かりんか。珍しいじゃないか」
 ＠Itsuki
 「あぁ、かりんか。珍しいじゃないか」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「そうね、もう生涯無いような珍しい行動だって私も思うわ」
 ＠Karin,P01999
 「そうね、もう生涯無いような珍しい行動だって私も思うわ」
 
+#SCRIPT ORIGINAL 「でもただ偶然が重なっただけよ。誤解はしないでよね」
 ＠Karin,P02000
 「でもただ偶然が重なっただけよ。誤解はしないでよね」
 
+#SCRIPT ORIGINAL 来訪早々に、この挨拶だ。
+#SCRIPT ORIGINAL さすがはかりん。
 来訪早々に、この挨拶だ。
 さすがはかりん。
 
+#SCRIPT ORIGINAL 「それで、何の奇跡が起こってオレを尋ねてきたんだ？」
 ＠Itsuki
 「それで、何の奇跡が起こってオレを尋ねてきたんだ？」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「あ、うん……その、えっとね……」
 ＠Karin,P02001
 「あ、うん……その、えっとね……」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「まぁ別にあなたには関係ないし、私にも大したことじゃないんだけど……」
 ＠Karin,P02002
 「まぁ別にあなたには関係ないし、私にも大したことじゃないんだけど……」
 
+#SCRIPT ORIGINAL 話を促すと、何故か途端にかりんの歯切れが悪くなった。
 話を促すと、何故か途端にかりんの歯切れが悪くなった。
 
+#SCRIPT ORIGINAL 「実は今日学校で、男子から告白されたのよ」
 ＠Karin,P02003
 「実は今日学校で、男子から告白されたのよ」
 
+#SCRIPT ORIGINAL 「告白……まさか、好きですって？」
 ＠Itsuki
 「告白……まさか、好きですって？」
 
+#SCRIPT ORIGINAL 「このニュアンスで、それ以外に無いでしょう」
 ＠Karin,P02004
 「このニュアンスで、それ以外に無いでしょう」
 
+#SCRIPT ORIGINAL 「へぇ…それで、返事はしたのか……？」
 ＠Itsuki
 「へぇ…それで、返事はしたのか……？」
 
+#SCRIPT ORIGINAL 「……って、出来てないからここに来たんだな、きっと」
 ＠Itsuki
 「……って、出来てないからここに来たんだな、きっと」
 
@@ -803,90 +969,116 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はぁ……さすが、下世話な話題だと察しがいいわね。そのとおりよ…」
 ＠Karin,P02005
 「はぁ……さすが、下世話な話題だと察しがいいわね。そのとおりよ…」
 
 layer_movepass_init	l_karin,0	#演出初期化
 
+#SCRIPT ORIGINAL 「そこで不本意だけど、同じ男側のあなたに意見を聞きに来たの」
 ＠Karin,P02006
 「そこで不本意だけど、同じ男側のあなたに意見を聞きに来たの」
 
+#SCRIPT ORIGINAL いつもの憎まれ口を言いながらも、「ふぅ…」と溜め息を漏らすかりん。
 いつもの憎まれ口を言いながらも、「ふぅ…」と溜め息を漏らすかりん。
 
+#SCRIPT ORIGINAL 思春期らしく微笑ましい内容だが、かりんは真剣なようだ。
 思春期らしく微笑ましい内容だが、かりんは真剣なようだ。
 
+#SCRIPT ORIGINAL ならオレも真摯に対応してあげなくてはならない。
 ならオレも真摯に対応してあげなくてはならない。
 
+#SCRIPT ORIGINAL 「かりんは、その男子のことをどう思ってるんだ？」
 ＠Itsuki
 「かりんは、その男子のことをどう思ってるんだ？」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「え……？　どうって？」
 ＠Karin,P02007
 「え……？　どうって？」
 
+#SCRIPT ORIGINAL 「告白されたのは急かもしれないけど、答えを急ぐ必要はないんだ」
 ＠Itsuki
 「告白されたのは急かもしれないけど、答えを急ぐ必要はないんだ」
 
+#SCRIPT ORIGINAL 「焦って気持ちを見失うより、大事な事だからじっくり考えて答えてあげないとな」
 ＠Itsuki
 「焦って気持ちを見失うより、大事な事だからじっくり考えて答えてあげないとな」
 
+#SCRIPT ORIGINAL 「………待って。いったい何の話をしてるの？」
 ＠Karin,P02008
 「………待って。いったい何の話をしてるの？」
 
+#SCRIPT ORIGINAL 「は…？　何って、告白されて返事に困ってるんじゃないのか？」
 ＠Itsuki
 「は…？　何って、告白されて返事に困ってるんじゃないのか？」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「バカねぇ、違うわよ。そんなのその場で振ってやって終わったに決まってるじゃない」
 ＠Karin,P02009
 「バカねぇ、違うわよ。そんなのその場で振ってやって終わったに決まってるじゃない」
 
+#SCRIPT ORIGINAL 「私にはみかんが居るんだから」
 ＠Karin,P02010
 「私にはみかんが居るんだから」
 
+#SCRIPT ORIGINAL 「……はあ、そうですか」
 ＠Itsuki
 「……はあ、そうですか」
 
+#SCRIPT ORIGINAL その男子もきっと精一杯の勇気で告白したんだろうにな。何か不憫だ。
 その男子もきっと精一杯の勇気で告白したんだろうにな。何か不憫だ。
 
+#SCRIPT ORIGINAL 「じゃあ、何が訊きたいんだ？」
 ＠Itsuki
 「じゃあ、何が訊きたいんだ？」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「その相手が、私とは違うクラスの男子だったのよ」
 ＠Karin,P02011
 「その相手が、私とは違うクラスの男子だったのよ」
 
+#SCRIPT ORIGINAL 「それにそもそも、私は最近転校して来たわけだから、みんなも私のことはあまり知らないはずでしょ」
 ＠Karin,P02012
 「それにそもそも、私は最近転校して来たわけだから、みんなも私のことはあまり知らないはずでしょ」
 
+#SCRIPT ORIGINAL 「なのに男ってみんな、そんなよく知りもしない相手に平気で告白なんて考えるの……？」
 ＠Karin,P02013
 「なのに男ってみんな、そんなよく知りもしない相手に平気で告白なんて考えるの……？」
 
+#SCRIPT ORIGINAL 「みんなってことは無いだろうけど。そんなに不思議か……？」
 ＠Itsuki
 「みんなってことは無いだろうけど。そんなに不思議か……？」
 
+#SCRIPT ORIGINAL 「だって告白って……もっと深く悩む大事なことでしょう…？」
 ＠Karin,P02014
 「だって告白って……もっと深く悩む大事なことでしょう…？」
 
+#SCRIPT ORIGINAL 「相手のことを知って惹かれて、好きになって、それを伝えたいっていう想いが抑え切れなくなっての行動じゃない」
 ＠Karin,P02015
 「相手のことを知って惹かれて、好きになって、それを伝えたいっていう想いが抑え切れなくなっての行動じゃない」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「なのにそんな安易に………何か、からかわれてるみたい」
 ＠Karin,P02016
 「なのにそんな安易に………何か、からかわれてるみたい」
 
+#SCRIPT ORIGINAL 「う～ん……いや、好きっていうのも、色々なケースはあるけどな」
 ＠Itsuki
 「う～ん……いや、好きっていうのも、色々なケースはあるけどな」
 
+#SCRIPT ORIGINAL 年上の男として、ここはバシッと恋愛感をかりんに言ってやろう！
 年上の男として、ここはバシッと恋愛感をかりんに言ってやろう！
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．本気だったかもしれないぞ）
 #（２．からかわれてたのかもな）
+#SCRIPT ORIGINAL select sel,"本気だったかもしれないぞ","からかわれてたのかもな"
 select sel,"Might have been serious","Maybe teasing"
 if sel=0 then goto karin_qa03_a
 if sel=1 then goto karin_qa03_b
@@ -897,70 +1089,91 @@ if sel=1 then goto karin_qa03_b
 #--------------------------------------------------
 label	karin_qa03_a
 
+#SCRIPT ORIGINAL 「その子の告白を、冗談半分って一蹴するのは可哀想だな」
 ＠Itsuki
 「その子の告白を、冗談半分って一蹴するのは可哀想だな」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「そうかしら。よく知りもしない相手なのに」
 ＠Karin,P02017
 「そうかしら。よく知りもしない相手なのに」
 
+#SCRIPT ORIGINAL 「正直、その子の本心までは分からないけどな」
 ＠Itsuki
 「正直、その子の本心までは分からないけどな」
 
+#SCRIPT ORIGINAL 「でもほら、一目惚れの可能性もあるだろ？　かりんなら、十分ありえるしな」
 ＠Itsuki
 「でもほら、一目惚れの可能性もあるだろ？　かりんなら、十分ありえるしな」
 
+#SCRIPT ORIGINAL 「………えっ」
 ＠Karin,P02018
 「………えっ」
 
+#SCRIPT ORIGINAL ……しかし別に、オレがその男子をフォローしてやる義理もないんだよな。
 ……しかし別に、オレがその男子をフォローしてやる義理もないんだよな。
 
+#SCRIPT ORIGINAL 今の目的は、かりんに恋愛感を伝授（？）することなわけだし。
 今の目的は、かりんに恋愛感を伝授（？）することなわけだし。
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「……ふ、ふんっ。ドサクサに紛れて、変なこと言わないでよね」
 ＠Karin,P02019
 「……ふ、ふんっ。ドサクサに紛れて、変なこと言わないでよね」
 
+#SCRIPT ORIGINAL 「は……？」
 ＠Itsuki
 「は……？」
 
+#SCRIPT ORIGINAL 「別にあなたに一目惚れがありそうとか言われたって、嬉しくもなんともないわっ…」
 ＠Karin,P02020
 「別にあなたに一目惚れがありそうとか言われたって、嬉しくもなんともないわっ…」
 
+#SCRIPT ORIGINAL 「……？　何で急にムクれるんだ。オレは本心から一目惚れって言ったんだぞ？」
 ＠Itsuki
 「……？　何で急にムクれるんだ。オレは本心から一目惚れって言ったんだぞ？」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「う……だ、だから…」
 ＠Karin,P02021
 「う……だ、だから…」
 
+#SCRIPT ORIGINAL 言葉に詰まって、かりんの頬がほんのりと赤くなる。
 言葉に詰まって、かりんの頬がほんのりと赤くなる。
 
+#SCRIPT ORIGINAL ……ヤバイ。オレってそんな紅潮さすほど怒りを買ったのか…？
 ……ヤバイ。オレってそんな紅潮さすほど怒りを買ったのか…？
 
+#SCRIPT ORIGINAL 「あ、あのな。一目惚れがあるっていうのは、要するにかりんが可愛いってことで」
 ＠Itsuki
 「あ、あのな。一目惚れがあるっていうのは、要するにかりんが可愛いってことで」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
+#SCRIPT ORIGINAL 「う、うるさぁい！　もういいっ、この話は終了よッ」
 ＠Karin,P02022
 「う、うるさぁい！　もういいっ、この話は終了よッ」
 
+#SCRIPT ORIGINAL 「とにかくその男子が本気だろうと冗談だろうと、私にはみかんが居るから返事はＮＯよッ」
 ＠Karin,P02023
 「とにかくその男子が本気だろうと冗談だろうと、私にはみかんが居るから返事はＮＯよッ」
 
+#SCRIPT ORIGINAL 「もちろん樹ッ、あなたが相手でも容赦なく振るわよッ！」
 ＠Karin,P02024
 「もちろん樹ッ、あなたが相手でも容赦なく振るわよッ！」
 
+#SCRIPT ORIGINAL 「いえ、気持ち悪いからいっそ埋めるわ！」
 ＠Karin,P02025
 「いえ、気持ち悪いからいっそ埋めるわ！」
 
+#SCRIPT ORIGINAL 「おま…埋めるってそれ、どんな告白の返事だよ」
 ＠Itsuki
 「おま…埋めるってそれ、どんな告白の返事だよ」
 
+#SCRIPT ORIGINAL 「ふんッ、とんだ時間の無駄だったみたいね。おやすみなさい樹ッ」
 ＠Karin,P02026
 「ふんッ、とんだ時間の無駄だったみたいね。おやすみなさい樹ッ」
 
@@ -971,16 +1184,21 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL かりんは意味不明のご立腹状態で、部屋を出て行ってしまった。
 かりんは意味不明のご立腹状態で、部屋を出て行ってしまった。
 
+#SCRIPT ORIGINAL わけも分からず、呆然と一人残るオレ。
 わけも分からず、呆然と一人残るオレ。
 
+#SCRIPT ORIGINAL 「キレ易い若者かよ……」
 ＠Itsuki
 「キレ易い若者かよ……」
 
+#SCRIPT ORIGINAL 「けど、ちゃんと挨拶はしていくのな」
 ＠Itsuki
 「けど、ちゃんと挨拶はしていくのな」
 
+#SCRIPT ORIGINAL かりんがオレに不機嫌なのはいつものことなので、とりあえず気にしない事にした。
 かりんがオレに不機嫌なのはいつものことなので、とりあえず気にしない事にした。
 
 @chara_clear		#保険
@@ -996,33 +1214,41 @@ return
 #--------------------------------------------------
 label	karin_qa03_b
 
+#SCRIPT ORIGINAL 「でもそれはきっと相手の冗談だな。そうに違いない」
 ＠Itsuki
 「でもそれはきっと相手の冗談だな。そうに違いない」
 
+#SCRIPT ORIGINAL 「そうでしょうね。全然イメージと違うもの」
 ＠Karin,P02027
 「そうでしょうね。全然イメージと違うもの」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「……でも、ずいぶんはっきりと言い切るじゃない樹」
 ＠Karin,P02028
 「……でも、ずいぶんはっきりと言い切るじゃない樹」
 
+#SCRIPT ORIGINAL 「ああ、よく知りもしないかりんに告白とか、面白すぎて鼻血が出そうな冗談だしな」
 ＠Itsuki
 「ああ、よく知りもしないかりんに告白とか、面白すぎて鼻血が出そうな冗談だしな」
 
+#SCRIPT ORIGINAL 「いや、むしろ知ってからの方が、無謀さが相まって耳血ぐらいは出そうかも！　ぶふッｗ」
 ＠Itsuki
 「いや、むしろ知ってからの方が、無謀さが相まって耳血ぐらいは出そうかも！　ぶふッｗ」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「っく……あ、あなたねぇ…」
 ＠Karin,P02029
 「っく……あ、あなたねぇ…」
 
+#SCRIPT ORIGINAL 「と言うわけで心配するな、かりん。その告白はただの笑い話だ。ぶふっｗ」
 ＠Itsuki
 「と言うわけで心配するな、かりん。その告白はただの笑い話だ。ぶふっｗ」
 
 @karin_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「そこまで言われると腹立つわよッ！」
 ＠Karin,P02030
 「そこまで言われると腹立つわよッ！」
 
@@ -1030,21 +1256,27 @@ label	karin_qa03_b
 #EF　画面シェイク
 @SE38			#殴る音（バキッ！）
 
+#SCRIPT ORIGINAL 「ぐぶはぁぁあああッーーー！！！」
 ＠Itsuki
 「ぐぶはぁぁあああッーーー！！！」
 
+#SCRIPT ORIGINAL うすら笑うオレに、見事なかりんのパンチが突き刺さった。
 うすら笑うオレに、見事なかりんのパンチが突き刺さった。
 
+#SCRIPT ORIGINAL 「誰がそこまで言って良いって言ったのよッ」
 ＠Karin,P02031
 「誰がそこまで言って良いって言ったのよッ」
 
+#SCRIPT ORIGINAL 「お、オレはただ、かりんの告白エピソードを真剣に……ふがふが」
 ＠Itsuki
 「お、オレはただ、かりんの告白エピソードを真剣に……ふがふが」
 
+#SCRIPT ORIGINAL 冗談じゃないレベルで鼻血が噴き出していた。
 冗談じゃないレベルで鼻血が噴き出していた。
 
 @karin_komikaru_ikari2	#コミカル怒2
 
+#SCRIPT ORIGINAL 「ふんッ、もういいわ！　とんだ時間の無駄になったみたいねッ」
 ＠Karin,P02032
 「ふんッ、もういいわ！　とんだ時間の無駄になったみたいねッ」
 
@@ -1055,11 +1287,14 @@ wait		1000
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @SE08			#SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 
+#SCRIPT ORIGINAL 気性荒くドアを閉め、部屋を出て行ってしまうかりん。
 気性荒くドアを閉め、部屋を出て行ってしまうかりん。
 
+#SCRIPT ORIGINAL 「ふぐぅ～～……か、かりん～…」
 ＠Itsuki
 「ふぐぅ～～……か、かりん～…」
 
+#SCRIPT ORIGINAL 追いかけたくても、痛みと鼻血でそれどころではなかった……
 追いかけたくても、痛みと鼻血でそれどころではなかった……
 
 @chara_clear		#保険
@@ -1082,9 +1317,11 @@ label	karin_qa04
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #部屋で休んでいると、ドアのノックの音がした。
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 　I was relaxing in my room when I heard a knock on my door.
 
 #「入るわよ」
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P02033
 「I'm coming in」
 
@@ -1097,18 +1334,22 @@ wait		1000
 @karin
 
 #「かりんか。珍しいじゃないか」
+#SCRIPT ORIGINAL 「かりんか。珍しいじゃないか」
 ＠Itsuki
 「Oh, Karin. Don't see you here too often」
 
 #「宿題で分からないところがあるから、仕方なく来たのよ」
+#SCRIPT ORIGINAL 「宿題で分からないところがあるから、仕方なく来たのよ」
 ＠Karin,P02034
 「There's something I don't understand in my homework, so I had to come and ask」
 
 #「……時間、大丈夫よね？」
+#SCRIPT ORIGINAL 「……時間、大丈夫よね？」
 ＠Karin,P02035
 「...It's not too late, is it?」
 
 #「ああ、いいぞ。どの問題だ」
+#SCRIPT ORIGINAL 「ああ、いいぞ。どの問題だ」
 ＠Itsuki
 「Yeah, no problem. What's the question?」
 
@@ -1120,85 +1361,105 @@ wait		1000
 @karin			#普通
 
 #「じゃあ早速だけどこの問題……解ける？」
+#SCRIPT ORIGINAL 「じゃあ早速だけどこの問題……解ける？」
 ＠Karin,P02036
 「Then let's get to it... can you figure this one out?」
 
 #かりんが出してきた問題を見た。
+#SCRIPT ORIGINAL かりんが出してきた問題を見た。
 　I looked at the question Karin showed me.
 
 #『問い１：「いっこうに」を使って短文を作りなさい』
+#SCRIPT ORIGINAL 『問い１：「いっこうに」を使って短文を作りなさい』
 『Problem 1: Make a sentence that uses the word "incredibly"』
 
 #（……ん？　そんな難しい問題じゃないような）
+#SCRIPT ORIGINAL （……ん？　そんな難しい問題じゃないような）
 ＠Itsuki
 （...Huh? That's not too difficult, is it?）
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Karin,P02037
 「......」
 
 #問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
+#SCRIPT ORIGINAL 問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
 　Trying to bring the problem set closer, Karin ended up right beside me.
 
 #不思議だがとりあえず、ここはバシッと問題に答えてやろう。
+#SCRIPT ORIGINAL 不思議だがとりあえず、ここはバシッと問題に答えてやろう。
 　It's odd, but for now I guess I'll just whiff through them.
 
 #--------------------------------------------------
 #■（選択肢Ａ）
 #（１．『ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！』）
 #（２．『約束の時間を過ぎても、いっこうに彼が来る気配はなかった』）
+#SCRIPT ORIGINAL select sel,"『ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！』","『約束の時間を過ぎても、いっこうに彼が来る気配はなかった』"
 select sel,"『Master's hard cock feels incredibly good!』","『He was late, yet incredibly unbothered』"
 sel1=sel
 #--------------------------------------------------
 
 #「ふむ。こんな感じだな」
+#SCRIPT ORIGINAL 「ふむ。こんな感じだな」
 ＠Itsuki
 「Yeah. Something like this」
 
 #「えっと、次の問題もなんだけど」
+#SCRIPT ORIGINAL 「えっと、次の問題もなんだけど」
 ＠Karin,P02038
 「Um, can you do the next one too?」
 
 #『問い２：「～～なので、～～ます」を使って短文を作りなさい』
+#SCRIPT ORIGINAL 『問い２：「～～なので、～～ます」を使って短文を作りなさい』
 『Problem 2： Make a sentence that uses "With ～～, then ～～"』
 
 #--------------------------------------------------
 #■（選択肢Ｂ）
 #（１．『今日はデートなので、とても楽しみにしてます』）
 #（２．『もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！』）
+#SCRIPT ORIGINAL select sel,"『今日はデートなので、とても楽しみにしてます』","『もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！』"
 select sel,"『I'm super excited with my date tonight』","『Karin can't get satisfied without my big, hot pole!』"
 sel2=sel
 #--------------------------------------------------
 
 #「ばっちりだ。ほら」
+#SCRIPT ORIGINAL 「ばっちりだ。ほら」
 ＠Itsuki
 「Perfect. Here」
 
 #「あっ、待って。最後の問題も教えてもらえる…？」
+#SCRIPT ORIGINAL 「あっ、待って。最後の問題も教えてもらえる…？」
 ＠Karin,P02039
 「Ah, wait a minute. Can you do me the last one too...?」
 
 #『問い３：「どうにか」を使って短文を作りなさい』
+#SCRIPT ORIGINAL 『問い３：「どうにか」を使って短文を作りなさい』
 『Problem 3: Make a sentence that uses "somehow"』
 
 #--------------------------------------------------
 #■（選択肢Ｃ）
 #（１．『おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！』）
 #（２．『どうにかして、今日は彼との仲を進展させたいです』）
+#SCRIPT ORIGINAL select sel,"『おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！』","『どうにかして、今日は彼との仲を進展させたいです』"
 select sel,"『Your cock's amazing... somehow, it's growing on me』","『I want to deepen my relationship with him today somehow』"
 sel3=sel
 #--------------------------------------------------
 
 #I realized at this point I translated the wrong one. Will continue later.
 
+#SCRIPT ORIGINAL 「よし、と。これで大丈夫か？」
 ＠Itsuki
 「よし、と。これで大丈夫か？」
 
+#SCRIPT ORIGINAL 「何か、ずいぶん早く解き終わっちゃったわね……。いいけど別に」
 ＠Karin,P02040
 「何か、ずいぶん早く解き終わっちゃったわね……。いいけど別に」
 
+#SCRIPT ORIGINAL オレは解答欄を埋めた問題集を、かりんの手の中へ返した。
 オレは解答欄を埋めた問題集を、かりんの手の中へ返した。
 
+#SCRIPT ORIGINAL 「それじゃ、読むわよ」
 ＠Karin,P02041
 「それじゃ、読むわよ」
 
@@ -1208,6 +1469,7 @@ if sel1=1 then goto karin_qa04_1b
 #（Ａが１のとき）
 #------------------------
 
+#SCRIPT ORIGINAL 「ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！」
 ＠Karin,P02042
 「ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！」
 
@@ -1218,6 +1480,7 @@ goto	karin_qa04_1z
 #------------------------
 label	karin_qa04_1b
 
+#SCRIPT ORIGINAL 「約束の時間を過ぎても、いっこうに彼が来る気配はなかった」
 ＠Karin,P02043
 「約束の時間を過ぎても、いっこうに彼が来る気配はなかった」
 
@@ -1228,6 +1491,7 @@ if sel2=1 then goto karin_qa04_2b
 #（Ｂが１のとき）
 #------------------------
 
+#SCRIPT ORIGINAL 「今日はデートなので、とても楽しみにしてます」
 ＠Karin,P02044
 「今日はデートなので、とても楽しみにしてます」
 
@@ -1238,6 +1502,7 @@ goto	karin_qa04_2z
 #------------------------
 label	karin_qa04_2b
 
+#SCRIPT ORIGINAL 「もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！」
 ＠Karin,P02045
 「もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！」
 
@@ -1248,6 +1513,7 @@ if sel3=1 then goto karin_qa04_3b
 #（Ｃが１のとき）
 #------------------------
 
+#SCRIPT ORIGINAL 「おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！」
 ＠Karin,P02046
 「おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！」
 
@@ -1258,6 +1524,7 @@ goto	karin_qa04_3z
 #------------------------
 label	karin_qa04_3b
 
+#SCRIPT ORIGINAL 「どうにかして、今日は彼との仲を進展させたいです」
 ＠Karin,P02047
 「どうにかして、今日は彼との仲を進展させたいです」
 
@@ -1271,53 +1538,67 @@ if sel1=1 and sel2=0 and sel3=1 then goto karin_qa04_a2
 
 @karin_odoroki		#驚
 
+#SCRIPT ORIGINAL 「……って、何なのよこの答えはーーッ！？」
 ＠Karin,P02053
 「……って、何なのよこの答えはーーッ！？」
 
+#SCRIPT ORIGINAL 「いやオレも驚いた。まさかそのまま読み上げるとは」
 ＠Itsuki
 「いやオレも驚いた。まさかそのまま読み上げるとは」
 
 @karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「予想外すぎてつい最後まで気付かずに読んじゃったのよッ」
 ＠Karin,P02054
 「予想外すぎてつい最後まで気付かずに読んじゃったのよッ」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「むしろ今チェックした自分を褒めてあげたいわ。こんなの、間違っても学校に提出なんて出来ないものッ」
 ＠Karin,P02055
 「むしろ今チェックした自分を褒めてあげたいわ。こんなの、間違っても学校に提出なんて出来ないものッ」
 
+#SCRIPT ORIGINAL 解答欄に書かれたオレの短文に、烈火のごとく怒り始めるかりん。
 解答欄に書かれたオレの短文に、烈火のごとく怒り始めるかりん。
 
+#SCRIPT ORIGINAL 「言葉は合ってるんだがなぁ」
 ＠Itsuki
 「言葉は合ってるんだがなぁ」
 
 @karin_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「ぜんッぜん意味が違うでしょッ、意味が！」
 ＠Karin,P02056
 「ぜんッぜん意味が違うでしょッ、意味が！」
 
+#SCRIPT ORIGINAL オレの机から消しゴムを奪い取って、その場でガシガシと消し出した。
 オレの机から消しゴムを奪い取って、その場でガシガシと消し出した。
 
+#SCRIPT ORIGINAL ……ちょっと自信作だったのに。
 ……ちょっと自信作だったのに。
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「はぁッ……もう自分で考えるからいいわよ。それじゃあね」
 ＠Karin,P02057
 「はぁッ……もう自分で考えるからいいわよ。それじゃあね」
 
+#SCRIPT ORIGINAL 「ああ、おやすみかりん。良い夢を」
 ＠Itsuki
 「ああ、おやすみかりん。良い夢を」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
+#SCRIPT ORIGINAL 「見れるわけ無いでしょッ、バカッ！」
 ＠Karin,P02058
 「見れるわけ無いでしょッ、バカッ！」
 
 @karin_
 
+#SCRIPT ORIGINAL さわやかに言ったオレを一蹴して、かりんは憤懣やるかたなく部屋へ戻って行った。
 さわやかに言ったオレを一蹴して、かりんは憤懣やるかたなく部屋へ戻って行った。
 
+#SCRIPT ORIGINAL 「……自分で考えれるなら、結局何をしに来たんだ？」
 ＠Itsuki
 「……自分で考えれるなら、結局何をしに来たんだ？」
 
@@ -1337,33 +1618,41 @@ label	karin_qa04_a2
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「うん、ちゃんと意味のある短文になってるし、大丈夫みたいね」
 ＠Karin,P02048
 「うん、ちゃんと意味のある短文になってるし、大丈夫みたいね」
 
+#SCRIPT ORIGINAL 「当然。しかし、かりんが悩むにしては少し簡単じゃなかったか？」
 ＠Itsuki
 「当然。しかし、かりんが悩むにしては少し簡単じゃなかったか？」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「そ、そう…？　別にここには、本当に問題を聞きに来ただけよっ」
 ＠Karin,P02049
 「そ、そう…？　別にここには、本当に問題を聞きに来ただけよっ」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「こういう短文作りって、私みたいに想像力やボキャブラリーが多いと返ってまとめ辛い問題なのよ」
 ＠Karin,P02050
 「こういう短文作りって、私みたいに想像力やボキャブラリーが多いと返ってまとめ辛い問題なのよ」
 
+#SCRIPT ORIGINAL 「ふ～ん、まぁいいけどな」
 ＠Itsuki
 「ふ～ん、まぁいいけどな」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「とりあえず、簡単とは言え手伝ってくれたんだからお礼を言うわ。ありがとう樹」
 ＠Karin,P02051
 「とりあえず、簡単とは言え手伝ってくれたんだからお礼を言うわ。ありがとう樹」
 
+#SCRIPT ORIGINAL 「……それじゃ、用も済んだから行くわよ。おやすみ」
 ＠Karin,P02052
 「……それじゃ、用も済んだから行くわよ。おやすみ」
 
+#SCRIPT ORIGINAL 「ああ、おやすみ」
 ＠Itsuki
 「ああ、おやすみ」
 
@@ -1374,8 +1663,10 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋に戻っていくかりん。
 部屋に戻っていくかりん。
 
+#SCRIPT ORIGINAL いまいち今夜の意図は分からなかったが、会話の機会になったんだから良かった事だ。
 いまいち今夜の意図は分からなかったが、会話の機会になったんだから良かった事だ。
 
 @chara_clear		#保険
@@ -1398,9 +1689,11 @@ label	karin_qa05
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #部屋で休んでいると、ドアのノックの音がした。
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 　I was relaxing in my room, when I heard a knock on my door.
 
 #「入るわよ」
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P02059
 「I'm coming in」
 
@@ -1413,32 +1706,38 @@ wait		1000
 @karin
 
 #「かりんか。珍しいじゃないか」
+#SCRIPT ORIGINAL 「かりんか。珍しいじゃないか」
 ＠Itsuki
 「Karin? How rare to see you here」
 
 #「ええ、ちょっと今日は真剣な話があって来たの」
+#SCRIPT ORIGINAL 「ええ、ちょっと今日は真剣な話があって来たの」
 ＠Karin,P02060
 「Yeah, I came to have a heart to heart talk with you today」
 
 @karin_keno		#嫌悪
 
 #「……って、最初にちゃんとこう言ったんだから、それでエッチなことをしようとしたら本当に幻滅するわよ」
+#SCRIPT ORIGINAL 「……って、最初にちゃんとこう言ったんだから、それでエッチなことをしようとしたら本当に幻滅するわよ」
 ＠Karin,P02061
 「...Hold up, if you try anything funny I'm going to be very disappointed, so don't say I didn't warn you」
 
 #「しねぇよ。心配するな」
+#SCRIPT ORIGINAL 「しねぇよ。心配するな」
 ＠Itsuki
 「I won't. Calm yourself」
 
 @karin			#普通
 
 #「そう……まぁ信用しておくわ」
+#SCRIPT ORIGINAL 「そう……まぁ信用しておくわ」
 ＠Karin,P02062
 「Very well... I'll trust you」
 
 @karin_
 
 #当然のように信用は無いが、かりんは部屋の中へ歩いてくる。
+#SCRIPT ORIGINAL 当然のように信用は無いが、かりんは部屋の中へ歩いてくる。
 　She sure doesn't seem very trusting, but Karin walks into my room.
 
 @karin_middle		# 中間
@@ -1446,74 +1745,93 @@ wait		1000
 @karin_kanashimi	#哀
 
 #「話ってみかんのことよ」
+#SCRIPT ORIGINAL 「話ってみかんのことよ」
 ＠Karin,P02063
 「It's about Mikan」
 
 #「こんな生活をさせて、一応はみかんのことを守ってあげてるのかもしれないけど」
+#SCRIPT ORIGINAL 「こんな生活をさせて、一応はみかんのことを守ってあげてるのかもしれないけど」
 ＠Karin,P02064
 「Putting her through this life, I suppose you mean to protect her, but...」
 
 #「実際のところ、あなたはみかんのことをどう思ってるの…？」
+#SCRIPT ORIGINAL 「実際のところ、あなたはみかんのことをどう思ってるの…？」
 ＠Karin,P02065
 「From the bottom of your heart, how do you feel about Mikan...?」
 
 #「どうって、みんな今では同じように大事な家族だぞ」
+#SCRIPT ORIGINAL 「どうって、みんな今では同じように大事な家族だぞ」
 ＠Itsuki
 「Feel about her? I think of everyone here as family」
 
 #「ほんとうにそれだけ？」
+#SCRIPT ORIGINAL 「ほんとうにそれだけ？」
 ＠Karin,P02066
 「Is that all?」
 
 #「エッチまでして接待にも出して。それでも家族っていう言葉でひとくくりにするの？」
+#SCRIPT ORIGINAL 「エッチまでして接待にも出して。それでも家族っていう言葉でひとくくりにするの？」
 ＠Karin,P02067
 「You had sex with her, and have her service guests. But still, you'll lump it all together in the word "family"?」
 
 #「……不満か？」
+#SCRIPT ORIGINAL 「……不満か？」
 ＠Itsuki
 「...That's no good?」
 
 #「もちろん、普通の家族愛以上にみんなを大事にする気持ちはあるつもりだ」
+#SCRIPT ORIGINAL 「もちろん、普通の家族愛以上にみんなを大事にする気持ちはあるつもりだ」
 ＠Itsuki
 「Of course, I mean to love and cherish you all like a real family」
 
 #「……今はじゃあ、それでもいい。質問を変えるわ」
+#SCRIPT ORIGINAL 「……今はじゃあ、それでもいい。質問を変えるわ」
 ＠Karin,P02068
 「...Fine, I'll accept that. Let me rephrase the question」
 
 #みかんのことになるとやはり、かりんは真剣だ。
+#SCRIPT ORIGINAL みかんのことになるとやはり、かりんは真剣だ。
 　When it comes to Mikan, Karin won't be satisfied easily.
 
 #その下心の純不純はアレだが、みかんのことを大事に思っているのは伝わってくる。
+#SCRIPT ORIGINAL その下心の純不純はアレだが、みかんのことを大事に思っているのは伝わってくる。
 　She may also have ulterior motives, but it's obvious how much Karin cares for Mikan.
 
 #「いずれみかんも私も、それに他の子達も成長して大人になるわ」
+#SCRIPT ORIGINAL 「いずれみかんも私も、それに他の子達も成長して大人になるわ」
 ＠Karin,P02069
 「Mikan, me, and the rest of the kids will grow up and turn into adults one day」
 
 #「そして、今は埋めれないあなたとの年の差も、少しずつ関係なくなっていく」
+#SCRIPT ORIGINAL 「そして、今は埋めれないあなたとの年の差も、少しずつ関係なくなっていく」
 ＠Karin,P02070
 「And, even if she can't get involved with you right now, over time the age gap won't matter as much」
 
 #「そうなった時、あなたはみかんにどう接するの…？」
+#SCRIPT ORIGINAL 「そうなった時、あなたはみかんにどう接するの…？」
 ＠Karin,P02071
 「How will you approach Mikan then...?」
 
 #「これまでどおりの家族か、それとも、それまで散々エッチしたみかんに責任をとるのか」
+#SCRIPT ORIGINAL 「これまでどおりの家族か、それとも、それまで散々エッチしたみかんに責任をとるのか」
 ＠Karin,P02072
 「As mere family, or will you take responsibility for the hideous things you did to her by then?」
 
 #真剣な瞳で問われ、オレはその未来を考えた。
+#SCRIPT ORIGINAL 真剣な瞳で問われ、オレはその未来を考えた。
 　Her eyes probing me deliberately, I thought about the future.
 
 #そんなに先のことじゃない。
 #きっとこの子達の成長なんてすぐだろう。
+#SCRIPT ORIGINAL そんなに先のことじゃない。
+#SCRIPT ORIGINAL きっとこの子達の成長なんてすぐだろう。
 　Things aren't quite like she said. These girls will "grow up" quite soon, I think. 
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．責任をとる）
 #（２．分からない）
+#SCRIPT ORIGINAL select sel,"責任をとる","分からない"
 select sel,"I'll take responsibility","I'm not sure"
 if sel=0 then goto karin_qa05_a
 if sel=1 then goto karin_qa05_b
@@ -1525,44 +1843,53 @@ if sel=1 then goto karin_qa05_b
 label	karin_qa05_a
 
 #「その時は……責任を取る」
+#SCRIPT ORIGINAL 「その時は……責任を取る」
 ＠Itsuki
 「Once that happens... I'll take responsibility」
 
 #「そう。もちろん意味は分かってるのよね」
+#SCRIPT ORIGINAL 「そう。もちろん意味は分かってるのよね」
 ＠Karin,P02073
 「Well, you know what that means, don't you?」
 
 #「ああ。でもそれまでに、みんなにはみんなの幸せを探してあげるつもりだ」
+#SCRIPT ORIGINAL 「ああ。でもそれまでに、みんなにはみんなの幸せを探してあげるつもりだ」
 ＠Itsuki
 「Yeah. But until then, I'll try and find a way to make everyone happy」
 
 #「今の生活が決して望ましいモノじゃない事は、言われなくても分かってる」
+#SCRIPT ORIGINAL 「今の生活が決して望ましいモノじゃない事は、言われなくても分かってる」
 ＠Itsuki
 「You're right, I know this lifestyle can't be very desirable」
 
 #「言葉だけなら好きなように言えるわね」
+#SCRIPT ORIGINAL 「言葉だけなら好きなように言えるわね」
 ＠Karin,P02074
 「You can throw out all the empty words you like」
 
 @karin			#普通
 
 #「でも、まぁいいわ。答えは聞けたから」
+#SCRIPT ORIGINAL 「でも、まぁいいわ。答えは聞けたから」
 ＠Karin,P02075
 「It doesn't matter, though. I got my answer」
 
 #「努力するさ。そして実現してみせる」
+#SCRIPT ORIGINAL 「努力するさ。そして実現してみせる」
 ＠Itsuki
 「I'll help out. You'll see by my actions」
 
 @karin_keno		#嫌悪
 
 #「その言葉、忘れないでよ。みかんや私達のためにも」
+#SCRIPT ORIGINAL 「その言葉、忘れないでよ。みかんや私達のためにも」
 ＠Karin,P02076
 「Don't you forget those words. For the sake of Mikan, and the rest of us」
 
 @karin_niko		#にこ
 
 #「それじゃ、邪魔したわね。おやすみなさい」
+#SCRIPT ORIGINAL 「それじゃ、邪魔したわね。おやすみなさい」
 ＠Karin,P02077
 「Well then, pardon me for intruding. Good night」
 
@@ -1574,9 +1901,11 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #納得した答えは得られたようで、かりんは部屋に戻って行った。
+#SCRIPT ORIGINAL 納得した答えは得られたようで、かりんは部屋に戻って行った。
 　Karin went back to her room, having obtained a serviceable reply.
 
 #オレも改めて、今の生活の維持ではなく、改善に努めるように心がけないとな。
+#SCRIPT ORIGINAL オレも改めて、今の生活の維持ではなく、改善に努めるように心がけないとな。
 　As for me, it's time I focused on not just keeping the status quo, but improving their lot here.
 
 @chara_clear		#保険
@@ -1592,25 +1921,30 @@ return
 label	karin_qa05_b
 
 #「正直、先のことは分からないな」
+#SCRIPT ORIGINAL 「正直、先のことは分からないな」
 ＠Itsuki
 「To be honest, I'm not sure what I would do」
 
 @karin_odoroki		#驚
 
 #「わ…分からないですって……？」
+#SCRIPT ORIGINAL 「わ…分からないですって……？」
 ＠Karin,P02078
 「Y-you say you're not sure...?」
 
 #その答えに驚いて、そして徐々にかりんの目が険しくなっていく。
+#SCRIPT ORIGINAL その答えに驚いて、そして徐々にかりんの目が険しくなっていく。
 　Taken aback my reply, Karin's eyes steadily acquire a severe look.
 
 @karin_keno		#嫌悪
 
 #「言うに事欠いて、そんないい加減な考えでみかんや私達をっ……！」
+#SCRIPT ORIGINAL 「言うに事欠いて、そんないい加減な考えでみかんや私達をっ……！」
 ＠Karin,P02079
 「That was uncalled for, you're looking after Mikan and us with a total lack of...!」
 
 #「ちょま、待てッ……誤解だ！　まずはちょっと聞いてくれ！」
+#SCRIPT ORIGINAL 「ちょま、待てッ……誤解だ！　まずはちょっと聞いてくれ！」
 ＠Itsuki
 「W-wait... you've misunderstood! Hear me out first!」
 
@@ -1618,39 +1952,48 @@ label	karin_qa05_b
 @karin_ikari		#怒
 
 #「誤解ねぇ……いいわ、聞こうじゃない～～～～～ッ（ガルルルッ」
+#SCRIPT ORIGINAL 「誤解ねぇ……いいわ、聞こうじゃない～～～～～ッ（ガルルルッ」
 ＠Karin,P02080
 「Misunderstood, huh...? Fine, I simply must hear this one out～～～～～ (growl)」
 
 #ヤベ、シリアスなのにすげぇ唸ってる………下手を言うと喉笛を噛み切られそうだ。
+#SCRIPT ORIGINAL ヤベ、シリアスなのにすげぇ唸ってる………下手を言うと喉笛を噛み切られそうだ。
 　Crap, even with the serious mood, she's really growling... she could rip my throat off if I say the wrong thing.
 
 #「さっきかりんが言った〝責任〟っていうのは、もちろんオレが背負っていくものだ」
+#SCRIPT ORIGINAL 「さっきかりんが言った〝責任〟っていうのは、もちろんオレが背負っていくものだ」
 ＠Itsuki
 「It's true, like you said, that a certain "responsibility" will fall to my shoulders」
 
 #「でも未来のことを考えたとき、真っ先にその答えを出すのはダメだと思ってる」
+#SCRIPT ORIGINAL 「でも未来のことを考えたとき、真っ先にその答えを出すのはダメだと思ってる」
 ＠Itsuki
 「But thinking about the future, I wouldn't be able to provide such an answer up front」
 
 @karin_keno		#嫌悪
 
 #「…………」
+#SCRIPT ORIGINAL 「…………」
 ＠Karin,P02081
 「......」
 
 #「責任を取るために暮らしてるわけじゃないからな」
+#SCRIPT ORIGINAL 「責任を取るために暮らしてるわけじゃないからな」
 ＠Itsuki
 「I don't live out every day here for the sake of taking responsibility」
 
 #「こんな生活でも、みんなにはそれぞれの幸せな生活を見つけて欲しいって思ってるんだ」
+#SCRIPT ORIGINAL 「こんな生活でも、みんなにはそれぞれの幸せな生活を見つけて欲しいって思ってるんだ」
 ＠Itsuki
 「Even with this lifestyle, I want everyone here to be able to find their own happiness」
 
 #「……具体的にどうするつもりよ」
+#SCRIPT ORIGINAL 「……具体的にどうするつもりよ」
 ＠Karin,P02082
 「...What will you do, realistically speaking?」
 
 #「いや、それはまだ、模索中かな……」
+#SCRIPT ORIGINAL 「いや、それはまだ、模索中かな……」
 ＠Itsuki
 「Well, I'm still looking for an answer...」
 
@@ -1664,58 +2007,71 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #「はぁ……」
+#SCRIPT ORIGINAL 「はぁ……」
 ＠Karin,P02083
 「Sigh...」
 
 #その答えに、かりんが溜め息を吐いた。
+#SCRIPT ORIGINAL その答えに、かりんが溜め息を吐いた。
 　Karin heaved a drawn-out sigh at my reply.
 
 layer_movepass_init	l_karin,0	#演出初期化
 
 #「それって結局、何も考えてないのと変わらないじゃない」
+#SCRIPT ORIGINAL 「それって結局、何も考えてないのと変わらないじゃない」
 ＠Karin,P02084
 「In the end, that's the same as if you hadn't thought about it at all」
 
 #「はは……でも心構えがあるかないかの違いはあるぞ」
+#SCRIPT ORIGINAL 「はは……でも心構えがあるかないかの違いはあるぞ」
 ＠Itsuki
 「Haha... but at least my heart's ready for it」
 
 #「ノミの差ね」
+#SCRIPT ORIGINAL 「ノミの差ね」
 ＠Karin,P02085
 「That's besides the point」
 
 @karin_niko		#にこ
 
 #「でもまぁ、そんな風に向上心があるのは感心してあげるわ」
+#SCRIPT ORIGINAL 「でもまぁ、そんな風に向上心があるのは感心してあげるわ」
 ＠Karin,P02086
 「But, I guess I can admire having such lofty ambitions」
 
 #「確かに初めから責任を取る覚悟で生活をされてるのも、あんまりいい気はしないものね」
+#SCRIPT ORIGINAL 「確かに初めから責任を取る覚悟で生活をされてるのも、あんまりいい気はしないものね」
 ＠Karin,P02087
 「I suppose that living with a resolve to take responsibility from the start, doesn't seem all that swell」
 
 #「それはどうも……。満足してくれたか？」
+#SCRIPT ORIGINAL 「それはどうも……。満足してくれたか？」
 ＠Itsuki
 「I appreciate that... now, are you satisfied?」
 
 #「ええ」
+#SCRIPT ORIGINAL 「ええ」
 ＠Karin,P02088
 「Yes」
 
 #満足した答えを得られたようで、「ガルルル」唸りから一転安堵をみせるかりん。
+#SCRIPT ORIGINAL 満足した答えを得られたようで、「ガルルル」唸りから一転安堵をみせるかりん。
 　Taking a full turn from her beast-like growl, Karin looked relieved with the reply she got.
 
 #「あとは、ちゃんと有言実行をしてもらうだけね」
+#SCRIPT ORIGINAL 「あとは、ちゃんと有言実行をしてもらうだけね」
 ＠Karin,P02089
 「Just don't forget to put your words into action」
 
 #「努力するよ。大切なかりん達の将来のためだからな」
+#SCRIPT ORIGINAL 「努力するよ。大切なかりん達の将来のためだからな」
 ＠Itsuki
 「I'll do my best. It's for my dear girls' future, after all」
 
 @karin_warai		#笑
 
 #「ん……」
+#SCRIPT ORIGINAL 「ん……」
 ＠Karin,P02090
 「Mh...」
 
@@ -1724,22 +2080,27 @@ layer_movepass_init	l_karin,0	#演出初期化
 @karin			#普通
 
 #「それじゃ、私はもう部屋に戻るわよ。あなたに襲われない内に」
+#SCRIPT ORIGINAL 「それじゃ、私はもう部屋に戻るわよ。あなたに襲われない内に」
 ＠Karin,P02091
 「Well then, I'll head back to my room. Before you can lay your hands on me」
 
 #「やっぱ信用ゼロだな……。本当に襲ってしまうぞ」
+#SCRIPT ORIGINAL 「やっぱ信用ゼロだな……。本当に襲ってしまうぞ」
 ＠Itsuki
 「You have absolutely zero faith in me... I really will do it, you know」
 
 #「残念、イヤよ。眠いからもう今日は大人しく寝かせて」
+#SCRIPT ORIGINAL 「残念、イヤよ。眠いからもう今日は大人しく寝かせて」
 ＠Karin,P02092
 「Sorry, but no thanks. I'm sleepy so let me rest peacefully tonight」
 
 #「それじゃ、おやすみなさい」
+#SCRIPT ORIGINAL 「それじゃ、おやすみなさい」
 ＠Karin,P02093
 「Well then, good night」
 
 #「ん、おやすみ、かりん」
+#SCRIPT ORIGINAL 「ん、おやすみ、かりん」
 ＠Itsuki
 「Yeah, good night, Karin」
 
@@ -1751,16 +2112,20 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #挨拶を残して、かりんは自分の部屋に戻って行った。
+#SCRIPT ORIGINAL 挨拶を残して、かりんは自分の部屋に戻って行った。
 　Waving good night, Karin went back to her own room.
 
 #最初真剣な剣幕だったけど、安心させられたようでオレもホッとした。
+#SCRIPT ORIGINAL 最初真剣な剣幕だったけど、安心させられたようでオレもホッとした。
 　I breathed a sigh of relief that I was able put her at ease, after her initial stern look.
 
 #「……眠いからイヤって、眠くなかったらＯＫだったのか？」
+#SCRIPT ORIGINAL 「……眠いからイヤって、眠くなかったらＯＫだったのか？」
 ＠Itsuki
 「...So, if she didn't want to since she was sleepy, would it have been OK if she wasn't?」
 
 #今さらそんな事を思ったが、当然答えは返ってこなかった。
+#SCRIPT ORIGINAL 今さらそんな事を思ったが、当然答えは返ってこなかった。
 　I ponder that a little late, no clear reply forthcoming.
 
 @chara_clear		#保険
@@ -1783,9 +2148,11 @@ label	karin_qa06
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #部屋で休んでいると、ドアのノックの音がした。
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 　I was relaxing in my room when I heard a knock on my door.
 
 #「入るわよ」
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P02094
 「I'm coming in」
 
@@ -1798,79 +2165,97 @@ wait		1000
 @karin
 
 #「かりんか。珍しいじゃないか」
+#SCRIPT ORIGINAL 「かりんか。珍しいじゃないか」
 ＠Itsuki
 「Oh, Karin. Don't see you here too often」
 
 #「ええ、ちょっとね。聞きたいことがあって」
+#SCRIPT ORIGINAL 「ええ、ちょっとね。聞きたいことがあって」
 ＠Karin,P02095
 「Yeah, let me bother you for a bit. I have a question」
 
 #「ジュウカンって何のこと？」
+#SCRIPT ORIGINAL 「ジュウカンって何のこと？」
 ＠Karin,P02096
 「What is "bestiality"?」
 
 #「え゛ッ……」
+#SCRIPT ORIGINAL 「え゛ッ……」
 ＠Itsuki
 「What...」
 
 #ビシッ！と、一瞬時間が止まったように固まってしまった。
+#SCRIPT ORIGINAL ビシッ！と、一瞬時間が止まったように固まってしまった。
 　I froze in place for a moment like time had stood still.
 
 @karin_kanashimi	#哀
 
 #「ジュウカンよ、ジュウカン。やっぱり樹も知らないかしら…？」
+#SCRIPT ORIGINAL 「ジュウカンよ、ジュウカン。やっぱり樹も知らないかしら…？」
 ＠Karin,P02097
 「Bestiality, I said bestiality. Do you not know either...?」
 
 #「その前に、かりん……獣姦なんてどこで仕入れた言葉なんだ」
+#SCRIPT ORIGINAL 「その前に、かりん……獣姦なんてどこで仕入れた言葉なんだ」
 ＠Itsuki
 「First of all, Karin... where did you learn that word?」
 
 @karin			#普通
 
 #「ん…？　ざくろがテレビを見ながら呟いてたのよ」
+#SCRIPT ORIGINAL 「ん…？　ざくろがテレビを見ながら呟いてたのよ」
 ＠Karin,P02098
 「Hm...? Zakuro mumbled it while she was watching TV」
 
 #「ジュウカン、ジュウカンしてって」
+#SCRIPT ORIGINAL 「ジュウカン、ジュウカンしてって」
 ＠Karin,P02099
 「"Come on, bestiality, bestiality" is what she said」
 
 #「ざくろ……何でテレビ見ながらそんな言葉が出るんだよ…」
+#SCRIPT ORIGINAL 「ざくろ……何でテレビ見ながらそんな言葉が出るんだよ…」
 ＠Itsuki
 「Zakuro... why would she say that while watching TV...?」
 
 #「あれは確か、愛犬を紹介してる番組中だったかしら」
+#SCRIPT ORIGINAL 「あれは確か、愛犬を紹介してる番組中だったかしら」
 ＠Karin,P02100
 「I'm pretty sure it was during a pet dog referral show」
 
 #「飼い主の女の子が芝生の上で楽しそうに、数匹の犬にじゃれ付かれていた場面よ」
+#SCRIPT ORIGINAL 「飼い主の女の子が芝生の上で楽しそうに、数匹の犬にじゃれ付かれていた場面よ」
 ＠Karin,P02101
 「A girl who owned a bunch of dogs was playing with them on a lawn」
 
 #……あ。その言葉で何となく発想の根幹は分かった。
+#SCRIPT ORIGINAL ……あ。その言葉で何となく発想の根幹は分かった。
 　...Oh. I can sort of understand where she got the idea from.
 
 #「そうか。ざくろは獣姦を期待して動物番組を見てたのか……」
+#SCRIPT ORIGINAL 「そうか。ざくろは獣姦を期待して動物番組を見てたのか……」
 ＠Itsuki
 「I see. Zakuro was watching a show about animals hoping for bestiality...」
 
 @karin_kanashimi	#哀
 
 #「ねぇ、だからそのジュウカンってなんなのよ…？」
+#SCRIPT ORIGINAL 「ねぇ、だからそのジュウカンってなんなのよ…？」
 ＠Karin,P02102
 「Yeah, so what is "bestiality"...?」
 
 #一人分かってないかりんが余計に知りたがった。
+#SCRIPT ORIGINAL 一人分かってないかりんが余計に知りたがった。
 　Karin, being the only one not knowing what it meant, is eager to find out.
 
 #獣姦か……どう教えようかな。
+#SCRIPT ORIGINAL 獣姦か……どう教えようかな。
 　Bestiality, huh... how should I explain this?
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．正確に教える）
 #（２．言うと危険な香りがする！）
+#SCRIPT ORIGINAL select sel,"正確に教える","言うと危険な香りがする！"
 select sel,"Explain it fully","This smells dangerous!"
 if sel=0 then goto karin_qa06_a
 if sel=1 then goto karin_qa06_b
@@ -1884,6 +2269,7 @@ label	karin_qa06_a
 setbutton 2,18,220,0,"TLnotes\TLnote8.png","system\backlog\voicesw.png"
 
 #「ジュウとは〝獣〟と書く。そしてカンは女三つの〝姦〟だ」
+#SCRIPT ORIGINAL 「ジュウとは〝獣〟と書く。そしてカンは女三つの〝姦〟だ」
 ＠Itsuki
 「Bestiality is written with the characters for "animal" (獣), and the one with 3 women (姦)」
 
@@ -1891,85 +2277,106 @@ clearbutton
 #TL note 8: 姦 means "adultery"
 
 #「うん………ん？」
+#SCRIPT ORIGINAL 「うん………ん？」
 ＠Karin,P02103
 「OK... huh?」
 
 #さすがかりん、その字面で妖しい空気を感じて眉を寄せた。
+#SCRIPT ORIGINAL さすがかりん、その字面で妖しい空気を感じて眉を寄せた。
 　Of course, Karin could tell from the word's written impression this was fishy and frowned.
 
 #だが、オレはあえて説明を続ける。
+#SCRIPT ORIGINAL だが、オレはあえて説明を続ける。
 　But I ventured on boldly explaining it.
 
 #「つまり獣姦とは字のごとく、獣とエッチする行為のことを言うんだ」
+#SCRIPT ORIGINAL 「つまり獣姦とは字のごとく、獣とエッチする行為のことを言うんだ」
 ＠Itsuki
 「So as you'd expect from the characters, bestiality means having sex with animals」
 
 #「けものと……」
+#SCRIPT ORIGINAL 「けものと……」
 ＠Karin,P02104
 「With animals...」
 
 @karin_odoroki		#驚
 
 #「け、獣とーーーッ！？」
+#SCRIPT ORIGINAL 「け、獣とーーーッ！？」
 ＠Karin,P02105
 「W-with animalsーーー!?」
 
 #「そうだ。それが獣姦というものだ」
+#SCRIPT ORIGINAL 「そうだ。それが獣姦というものだ」
 ＠Itsuki
 「Yeah. That's what bestiality means」
 
 #「獣ってッ、その、犬とかネコとかの…ッ！？」
+#SCRIPT ORIGINAL 「獣ってッ、その、犬とかネコとかの…ッ！？」
 ＠Karin,P02106
 「Animals, a-as in like, cats or dogs...!?」
 
 #「エッチするってッ、そんな動物と何をどうするっていうのッ…！？」
+#SCRIPT ORIGINAL 「エッチするってッ、そんな動物と何をどうするっていうのッ…！？」
 ＠Karin,P02107
 「H-how and what are you supposed to do, to even do that with animals!?」
 
 #「もちろん、ナニをどうするに決まってるだろう」
+#SCRIPT ORIGINAL 「もちろん、ナニをどうするに決まってるだろう」
 ＠Itsuki
 「Well, it should be pretty obvious what you do and how」
 
 #「ちなみに、ネコは小さいな。犬とか豚とか、あと馬とか」
+#SCRIPT ORIGINAL 「ちなみに、ネコは小さいな。犬とか豚とか、あと馬とか」
 ＠Itsuki
 「Anyway, cats are pretty small. It's more like dogs, pigs, and even horses」
 
 #「な、なぁなッ…！？」
+#SCRIPT ORIGINAL 「な、なぁなッ…！？」
 ＠Karin,P02108
 「Wha, wh-wha...!?」
 
 #想像を絶する世界に、かりんの衝撃は大きいようだ。
+#SCRIPT ORIGINAL 想像を絶する世界に、かりんの衝撃は大きいようだ。
 　This having been previously unimaginable for her, Karin's shock was great.
 
 #話題が話題だけに羞恥で頬は染まっているが、すでに照れるとかいう言動の次元ではない。
+#SCRIPT ORIGINAL 話題が話題だけに羞恥で頬は染まっているが、すでに照れるとかいう言動の次元ではない。
 　The topic embarrassing in and of itself, her cheeks went red, but she's hardly acting shy about it at all.
 
 #「ぶ、豚や馬のおちんちんを入れて、中に射精されるって言うのッ！？」
+#SCRIPT ORIGINAL 「ぶ、豚や馬のおちんちんを入れて、中に射精されるって言うのッ！？」
 ＠Karin,P02109
 「S-so that means putting a pig or horse's dick in and having it come inside!?」
 
 #……錯乱して、そんなモロ発言まで飛び出すのだ。
+#SCRIPT ORIGINAL ……錯乱して、そんなモロ発言まで飛び出すのだ。
 　...She lost her cool, and went and blurted out such an obscene remark.
 
 #「心配しなくても希少なシチュエーションだ。かりんにはきっと無縁だよ」
+#SCRIPT ORIGINAL 「心配しなくても希少なシチュエーションだ。かりんにはきっと無縁だよ」
 ＠Itsuki
 「Don't worry, it's pretty rare for that to happen. I'm sure you'll have nothing to do with it」
 
 @karin_komikaru_ikari	#コミカル怒
 
 #「きっとなんかじゃなくて、何があろうと無縁よッ！」
+#SCRIPT ORIGINAL 「きっとなんかじゃなくて、何があろうと無縁よッ！」
 ＠Karin,P02110
 「Don't say "I'm sure", it's no matter what!」
 
 #「お客の相手でもウンザリなのに、この上豚や馬みたいな家畜のおちんちんにまで犯されたくないわよッ！」
+#SCRIPT ORIGINAL 「お客の相手でもウンザリなのに、この上豚や馬みたいな家畜のおちんちんにまで犯されたくないわよッ！」
 ＠Karin,P02111
 「I'm sick of spending time with guests, let alone being violated by dicks of domesticated animals like pigs or horses!」
 
 #「わ、分かってるって、うん。だから落ち着け、な？」
+#SCRIPT ORIGINAL 「わ、分かってるって、うん。だから落ち着け、な？」
 ＠Itsuki
 「O-OK, I get it. Calm down a bit, would you?」
 
 #かりんのボルテージが上がるにつれて、何かオレが獣姦を狙ってるみたいになっていってる。
+#SCRIPT ORIGINAL かりんのボルテージが上がるにつれて、何かオレが獣姦を狙ってるみたいになっていってる。
 　As Karin keeps getting more worked up, for some reason it starts to look like bestiality was my aim all along.
 
 @karin_kanashimi	#哀
@@ -1982,42 +2389,51 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #「はぁッ……ええ。でもまさかそんな世界があるだなんて……」
+#SCRIPT ORIGINAL 「はぁッ……ええ。でもまさかそんな世界があるだなんて……」
 ＠Karin,P02112
 「Haa... fine. But to think such a thing existed...」
 
 layer_movepass_init	l_karin,0	#演出初期化
 
 #「何かもう、ペットを可愛がってる人を純粋な目で見れなくなりそうよ……」
+#SCRIPT ORIGINAL 「何かもう、ペットを可愛がってる人を純粋な目で見れなくなりそうよ……」
 ＠Karin,P02113
 「I feel like I won't be able to look at someone playing with their pet in the same way again...」
 
 #「大丈夫だよ、まず居ないからさ」
+#SCRIPT ORIGINAL 「大丈夫だよ、まず居ないからさ」
 ＠Itsuki
 「Don't worry, it's not like we have any anyway」
 
 #「……お客の中には？　そんな性癖の人が絶対無いって言い切れる？」
+#SCRIPT ORIGINAL 「……お客の中には？　そんな性癖の人が絶対無いって言い切れる？」
 ＠Karin,P02114
 「...And the guests? Can you state definitely that there will not be someone like that?」
 
 #「もし居ても、そんな無茶からはちゃんとオレが守ってやる。安心しろ」
+#SCRIPT ORIGINAL 「もし居ても、そんな無茶からはちゃんとオレが守ってやる。安心しろ」
 ＠Itsuki
 「If there is one, I'll protect you from doing something so crazy. You can relax」
 
 #「ん……まぁ、それならいいわ。どうにも少し頼りない気もするけど」
+#SCRIPT ORIGINAL 「ん……まぁ、それならいいわ。どうにも少し頼りない気もするけど」
 ＠Karin,P02115
 「Hm... I guess I'll accept that. I hope I can trust you」
 
 #「とりあえず、用はそれだけだから。もう戻るわね」
+#SCRIPT ORIGINAL 「とりあえず、用はそれだけだから。もう戻るわね」
 ＠Karin,P02116
 「I guess that's it for now. I'm heading back」
 
 #「ああ、湯冷めして風邪引かないようにしろよ」
+#SCRIPT ORIGINAL 「ああ、湯冷めして風邪引かないようにしろよ」
 ＠Itsuki
 「Alright, keep warm so you don't catch a cold after your bath」
 
 @karin			#普通
 
 #「分かってるわ、大きなお世話よ」
+#SCRIPT ORIGINAL 「分かってるわ、大きなお世話よ」
 ＠Karin,P02117
 「I know, mind your own business」
 
@@ -2025,6 +2441,7 @@ bgm_stop
 @karin_
 
 #オレの言葉で安心したように、かりんはいつもの調子に戻って部屋を出て行った。
+#SCRIPT ORIGINAL オレの言葉で安心したように、かりんはいつもの調子に戻って部屋を出て行った。
 　Looking relieved at my words, Karin in her usual manner went back and left the room.
 
 @chara_clear		#保険
@@ -2041,54 +2458,67 @@ return
 label	karin_qa06_b
 
 #あんまりかりんに話して良い内容とは思えなかった。
+#SCRIPT ORIGINAL あんまりかりんに話して良い内容とは思えなかった。
 　This doesn't seem like a discussion I'd want to have with Karin.
 
 #「いや、なんだろうな……実はオレも知らないから」
+#SCRIPT ORIGINAL 「いや、なんだろうな……実はオレも知らないから」
 ＠Itsuki
 「Hmm, let's see... actually, I don't know myself...」
 
 @karin_keno		#嫌悪
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Karin,P02118
 「......」
 
 #当然だが、めちゃくちゃ疑ってる視線で見てくるかりん。
+#SCRIPT ORIGINAL 当然だが、めちゃくちゃ疑ってる視線で見てくるかりん。
 　I should have expected it, but Karin gives me a withering, doubtful look.
 
 #「さっき知ってるっぽい反応をしてたじゃない」
+#SCRIPT ORIGINAL 「さっき知ってるっぽい反応をしてたじゃない」
 ＠Karin,P02119
 「You seemed like you knew, judging from your reaction before」
 
 #「そうだったか…？　誤解だそれは」
+#SCRIPT ORIGINAL 「そうだったか…？　誤解だそれは」
 ＠Itsuki
 「Did I...? I think you're imagining things」
 
 #「ウソ、それは知ってる反応よっ」
+#SCRIPT ORIGINAL 「ウソ、それは知ってる反応よっ」
 ＠Karin,P02120
 「Liar, I bet you know」
 
 #「何なのジュウカンって。隠さないで教えてくれてもいいじゃないっ」
+#SCRIPT ORIGINAL 「何なのジュウカンって。隠さないで教えてくれてもいいじゃないっ」
 ＠Karin,P02121
 「What's bestiality? What's the point in hiding it and not telling me?」
 
 #……言えばきっと、かりんを不安にさせてしまう。
+#SCRIPT ORIGINAL ……言えばきっと、かりんを不安にさせてしまう。
 　...If I told her, I'd probably just make her worried.
 
 #お客がそういう性癖を絶対持っていないとは、言い切れないからだ。
+#SCRIPT ORIGINAL お客がそういう性癖を絶対持っていないとは、言い切れないからだ。
 　I can't claim definitely that no guests will have such an inclination, after all.
 
 #「本当に知らないんだよ、悪いけど」
+#SCRIPT ORIGINAL 「本当に知らないんだよ、悪いけど」
 ＠Itsuki
 「I really don't know, sorry」
 
 #「うぅう～～ッ…」
+#SCRIPT ORIGINAL 「うぅう～～ッ…」
 ＠Karin,P02122
 「Uurrgh～～...」
 
 @karin_ikari		#怒
 
 #「ふんッ。ならいいわよ、最初からあてになんてしてないから」
+#SCRIPT ORIGINAL 「ふんッ。ならいいわよ、最初からあてになんてしてないから」
 ＠Karin,P02123
 「Hmph. Fine then, I knew I couldn't rely on you from the start」
 
@@ -2100,13 +2530,16 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #嘘もバレバレで機嫌を損ね、かりんは部屋を出て行ってしまった。
+#SCRIPT ORIGINAL 嘘もバレバレで機嫌を損ね、かりんは部屋を出て行ってしまった。
 　Karin left the room, offended at being lied to.
 
 #「機嫌を悪くしたか……。しょうがないよな」
+#SCRIPT ORIGINAL 「機嫌を悪くしたか……。しょうがないよな」
 ＠Itsuki
 「I guess I hurt her feelings... oh well」
 
 #無用な世界を知って、かりんを不安にさせてしまうよりはマシだ。
+#SCRIPT ORIGINAL 無用な世界を知って、かりんを不安にさせてしまうよりはマシだ。
 　It's better than telling her things she doesn't need to know, and causing her to worry.
 
 @chara_clear		#保険
@@ -2128,8 +2561,10 @@ label	karin_qa07
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 部屋で休んでいると、ドアのノックの音がした。
 
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P02124
 「入るわよ」
 
@@ -2141,25 +2576,31 @@ wait		1000
 @karin_pajama
 @karin
 
+#SCRIPT ORIGINAL 「お、かりんか。どうした」
 ＠Itsuki
 「お、かりんか。どうした」
 
+#SCRIPT ORIGINAL 「宿題を訊きに来たの。ちょっと分からないところがあって」
 ＠Karin,P02125
 「宿題を訊きに来たの。ちょっと分からないところがあって」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「用事はそれだけなんだから、変な勘違いはしないでよね」
 ＠Karin,P02126
 「用事はそれだけなんだから、変な勘違いはしないでよね」
 
+#SCRIPT ORIGINAL 「分かってるって……。それでどの問題だ」
 ＠Itsuki
 「分かってるって……。それでどの問題だ」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「あ、今もう大丈夫なのかしら？　忙しいなら時間を空けてまた来るわよ」
 ＠Karin,P02127
 「あ、今もう大丈夫なのかしら？　忙しいなら時間を空けてまた来るわよ」
 
+#SCRIPT ORIGINAL オレは「平気だ」と返事して頷き、かりんから問題集を見せてもらった。
 オレは「平気だ」と返事して頷き、かりんから問題集を見せてもらった。
 
 window_close
@@ -2169,69 +2610,88 @@ wait		1000
 @karin_pajama
 @karin			#普通
 
+#SCRIPT ORIGINAL 「国語の問題なんだけど。ここ」
 ＠Karin,P02128
 「国語の問題なんだけど。ここ」
 
+#SCRIPT ORIGINAL 『問い１：「何やら～～らしい」を使って短文を作りなさい』
 『問い１：「何やら～～らしい」を使って短文を作りなさい』
 
+#SCRIPT ORIGINAL （……ん？　そんな難しい問題じゃないような）
 ＠Itsuki
 （……ん？　そんな難しい問題じゃないような）
 
+#SCRIPT ORIGINAL 「………」
 ＠Karin,P02129
 「………」
 
+#SCRIPT ORIGINAL 問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
 問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
 
+#SCRIPT ORIGINAL 不思議だがとりあえず、ここはバシッと問題に答えてやろう。
 不思議だがとりあえず、ここはバシッと問題に答えてやろう。
 
 #--------------------------------------------------
 #■（選択肢Ａ）
 #（１．『な、何やらせるつもりよっ……こんな汚らしい倉庫に閉じ込めてッ…』）
 #（２．『何やら楽しそうだと思ったら、もうすぐお祭りらしいです』）
+#SCRIPT ORIGINAL select sel,"『な、何やらせるつもりよっ……こんな汚らしい倉庫に閉じ込めてッ…』","『何やら楽しそうだと思ったら、もうすぐお祭りらしいです』"
 select sel,"『Anything could happen, tied up in a dirty warehouse tonight』","『Anything could happen, the summer festival is tonight!』"
 sel1=sel
 #--------------------------------------------------
 
+#SCRIPT ORIGINAL 「こんな感じの文かな」
 ＠Itsuki
 「こんな感じの文かな」
 
+#SCRIPT ORIGINAL 「その下にもあるの。解ける…？」
 ＠Karin,P02130
 「その下にもあるの。解ける…？」
 
+#SCRIPT ORIGINAL 『問い２：「たのしんで」を使って短文を作りなさい』
 『問い２：「たのしんで」を使って短文を作りなさい』
 
 #--------------------------------------------------
 #■（選択肢Ｂ）
 #（１．『やぁあッ、離してぇッ！　あなたの死んでも咥えたくないんだからッ』）
 #（２．『次のデートはそのお祭りの日にして、楽しんで来ようと思います』）
+#SCRIPT ORIGINAL select sel,"『やぁあッ、離してぇッ！　あなたの死んでも咥えたくないんだからッ』","『次のデートはそのお祭りの日にして、楽しんで来ようと思います』"
 select sel,"『AAaa, Let me go！　Please, don't make me suck it!』","『Koyo is tomorrow, I will enjoy the festival!』"
 sel2=sel
 #--------------------------------------------------
 
+#SCRIPT ORIGINAL 「バッチリ過ぎる」
 ＠Itsuki
 「バッチリ過ぎる」
 
+#SCRIPT ORIGINAL 「あ。最後の問題もお願いしていいかしら…？」
 ＠Karin,P02131
 「あ。最後の問題もお願いしていいかしら…？」
 
+#SCRIPT ORIGINAL 『問い３：「夢中」を使って短文を作りなさい』
 『問い３：「夢中」を使って短文を作りなさい』
 
 #--------------------------------------------------
 #■（選択肢Ｃ）
 #（１．『彼との約束も決まって、私はデートの準備に夢中でした』）
 #（２．『んぐぅんッ！？　ちゅむッ、りゅちゅぅッ……ぢゅむッ、むちゅぅッ！』）
+#SCRIPT ORIGINAL select sel,"『彼との約束も決まって、私はデートの準備に夢中でした』","『んぐぅんッ！？　ちゅむッ、りゅちゅぅッ……ぢゅむッ、むちゅぅッ！』"
 select sel,"『I went a little crazy preparing for the date with him』","『MMmpff！？　*glork*, *choke*... *spurt* *gag* *swallow*！』"
 sel3=sel
 #--------------------------------------------------
 
+#SCRIPT ORIGINAL 「早いのね。もう終わっちゃったんだ……」
 ＠Karin,P02132
 「早いのね。もう終わっちゃったんだ……」
 
+#SCRIPT ORIGINAL 「まぁ、この程度なら楽勝だな」
 ＠Itsuki
 「まぁ、この程度なら楽勝だな」
 
+#SCRIPT ORIGINAL オレは解答欄を埋めた問題集を、かりんの手の中へ返した。
 オレは解答欄を埋めた問題集を、かりんの手の中へ返した。
 
+#SCRIPT ORIGINAL 「それじゃ、チェックしてみるわね」
 ＠Karin,P02133
 「それじゃ、チェックしてみるわね」
 
@@ -2241,6 +2701,7 @@ if sel1=1 then goto karin_qa07_1b
 #（Ａが１のとき）
 #--------------------
 
+#SCRIPT ORIGINAL 「な、何やらせるつもりよっ……こんな汚らしい倉庫に閉じ込めてッ…」
 ＠Karin,P02134
 「な、何やらせるつもりよっ……こんな汚らしい倉庫に閉じ込めてッ…」
 
@@ -2251,6 +2712,7 @@ goto	karin_qa07_1z
 #--------------------
 label	karin_qa07_1b
 
+#SCRIPT ORIGINAL 「何やら楽しそうだと思ったら、もうすぐお祭りらしいです」
 ＠Karin,P02135
 「何やら楽しそうだと思ったら、もうすぐお祭りらしいです」
 
@@ -2261,6 +2723,7 @@ if sel2=1 then goto karin_qa07_2b
 #（Ｂが１のとき）
 #--------------------
 
+#SCRIPT ORIGINAL 「やぁあッ、離してぇッ！　あなたの死んでも咥えたくないんだからッ」
 ＠Karin,P02136
 「やぁあッ、離してぇッ！　あなたの死んでも咥えたくないんだからッ」
 
@@ -2271,6 +2734,7 @@ goto	karin_qa07_2z
 #--------------------
 label	karin_qa07_2b
 
+#SCRIPT ORIGINAL 「次のデートはそのお祭りの日にして、楽しんで来ようと思います」
 ＠Karin,P02137
 「次のデートはそのお祭りの日にして、楽しんで来ようと思います」
 
@@ -2281,6 +2745,7 @@ if sel3=1 then goto karin_qa07_3b
 #（Ｃが１のとき）
 #--------------------
 
+#SCRIPT ORIGINAL 「彼との約束も決まって、私はデートの準備に夢中でした」
 ＠Karin,P02138
 「彼との約束も決まって、私はデートの準備に夢中でした」
 
@@ -2291,6 +2756,7 @@ goto	karin_qa07_3z
 #--------------------
 label	karin_qa07_3b
 
+#SCRIPT ORIGINAL 「んぐぅんッ！？　ちゅむッ、りゅちゅぅッ……ぢゅむッ、むちゅぅッ！」
 ＠Karin,P02139
 「んぐぅんッ！？　ちゅむッ、りゅちゅぅッ……ぢゅむッ、むちゅぅッ！」
 
@@ -2303,26 +2769,34 @@ if sel1=1 and sel2=1 and sel3=0 then goto karin_qa07_a2
 
 @karin_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「……って、どう見ても変でしょうがーーッ！！」
 ＠Karin,P02144
 「……って、どう見ても変でしょうがーーッ！！」
 
+#SCRIPT ORIGINAL 「おぉう…しかし結構気合入れて読んでたぞ。それも最後まで」
 ＠Itsuki
 「おぉう…しかし結構気合入れて読んでたぞ。それも最後まで」
 
+#SCRIPT ORIGINAL 「予想外すぎて、つい気付かずに読み上げちゃったのよッ」
 ＠Karin,P02145
 「予想外すぎて、つい気付かずに読み上げちゃったのよッ」
 
+#SCRIPT ORIGINAL 「しかも使い方云々以前にもう、ツッコミどころがありすぎる短文になってるじゃないッ……」
 ＠Karin,P02146
 「しかも使い方云々以前にもう、ツッコミどころがありすぎる短文になってるじゃないッ……」
 
+#SCRIPT ORIGINAL 「ちゃんと指定された言葉は入ってるんだけどなぁ」
 ＠Itsuki
 「ちゃんと指定された言葉は入ってるんだけどなぁ」
 
+#SCRIPT ORIGINAL 「意味が全然違うでしょッ、意味が！」
 ＠Karin,P02147
 「意味が全然違うでしょッ、意味が！」
 
+#SCRIPT ORIGINAL 方向の合わなかった冗談に怒りながら、ガシガシと消しゴムをかけるかりん。
 方向の合わなかった冗談に怒りながら、ガシガシと消しゴムをかけるかりん。
 
+#SCRIPT ORIGINAL ……せっかく作ったのに、勿体無い。
 ……せっかく作ったのに、勿体無い。
 
 @karin_kanashimi	#哀
@@ -2334,6 +2808,7 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はぁッ……もういいわ、自分で考えるから。それじゃあね」
 ＠Karin,P02148
 「はぁッ……もういいわ、自分で考えるから。それじゃあね」
 
@@ -2344,8 +2819,10 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 最後にご立腹の溜め息を残して、かりんは部屋に戻って行った。
 最後にご立腹の溜め息を残して、かりんは部屋に戻って行った。
 
+#SCRIPT ORIGINAL 「……自分で考えれるなら、結局何をしに来たんだ？」
 ＠Itsuki
 「……自分で考えれるなら、結局何をしに来たんだ？」
 
@@ -2365,28 +2842,35 @@ label	karin_qa07_a2
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「うん。使い方も正しいし、ちゃんと短文になってるわね」
 ＠Karin,P02140
 「うん。使い方も正しいし、ちゃんと短文になってるわね」
 
+#SCRIPT ORIGINAL 「当然。しかし、かりんが悩むにしては少し簡単じゃなかったか？」
 ＠Itsuki
 「当然。しかし、かりんが悩むにしては少し簡単じゃなかったか？」
 
 @karin_odoroki		#驚
 
+#SCRIPT ORIGINAL 「えっ、そう…？　えっと、あれよほら、ケアレスミスってやつ」
 ＠Karin,P02141
 「えっ、そう…？　えっと、あれよほら、ケアレスミスってやつ」
 
+#SCRIPT ORIGINAL 「それは答えが間違っている時のことだが」
 ＠Itsuki
 「それは答えが間違っている時のことだが」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「い、いいでしょもう別にっ。とにかく問題を聞きに着ただけなのは間違いないのッ」
 ＠Karin,P02142
 「い、いいでしょもう別にっ。とにかく問題を聞きに着ただけなのは間違いないのッ」
 
+#SCRIPT ORIGINAL 「それじゃ、用も済んだから帰るわよ。おやすみっ…」
 ＠Karin,P02143
 「それじゃ、用も済んだから帰るわよ。おやすみっ…」
 
+#SCRIPT ORIGINAL 「ああ、おやすみ」
 ＠Itsuki
 「ああ、おやすみ」
 
@@ -2397,8 +2881,10 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋に戻っていくかりん。
 部屋に戻っていくかりん。
 
+#SCRIPT ORIGINAL いまいち今夜の意図は分からなかったが、会話の機会になったんだから良かった事だ。
 いまいち今夜の意図は分からなかったが、会話の機会になったんだから良かった事だ。
 
 @chara_clear		#保険
@@ -2420,8 +2906,10 @@ label	karin_qa08
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 部屋で休んでいると、ドアのノックの音がした。
 
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P02149
 「入るわよ」
 
@@ -2433,54 +2921,68 @@ wait		1000
 @karin_pajama
 @karin
 
+#SCRIPT ORIGINAL 「あぁ、かりんか。珍しいじゃないか」
 ＠Itsuki
 「あぁ、かりんか。珍しいじゃないか」
 
+#SCRIPT ORIGINAL 「まぁね…」
 ＠Karin,P02150
 「まぁね…」
 
+#SCRIPT ORIGINAL 「樹、折りたたみの傘って持ってない？」
 ＠Karin,P02151
 「樹、折りたたみの傘って持ってない？」
 
+#SCRIPT ORIGINAL 「傘…？」
 ＠Itsuki
 「傘…？」
 
+#SCRIPT ORIGINAL 「明日出かけるんだけど、降水確率が微妙だから念のためにと思って」
 ＠Karin,P02152
 「明日出かけるんだけど、降水確率が微妙だから念のためにと思って」
 
+#SCRIPT ORIGINAL 「折りたたみ傘なら、施設に備え付けのがあるだろう？」
 ＠Itsuki
 「折りたたみ傘なら、施設に備え付けのがあるだろう？」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「あれはこの前、いちごがどっかに持って行って忘れてきちゃってるのよ」
 ＠Karin,P02153
 「あれはこの前、いちごがどっかに持って行って忘れてきちゃってるのよ」
 
+#SCRIPT ORIGINAL 「……まったく、カバンに入れてた傘をどうやったら忘れてこれるのかしら」
 ＠Karin,P02154
 「……まったく、カバンに入れてた傘をどうやったら忘れてこれるのかしら」
 
+#SCRIPT ORIGINAL 「さすがいちごだな……。やってくれる」
 ＠Itsuki
 「さすがいちごだな……。やってくれる」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「だから、樹が持ってたら借りたいんだけど。あるかしら？」
 ＠Karin,P02155
 「だから、樹が持ってたら借りたいんだけど。あるかしら？」
 
+#SCRIPT ORIGINAL 「ちょっと待ってな。出してやるから」
 ＠Itsuki
 「ちょっと待ってな。出してやるから」
 
 #SE28　机や引き出しを漁る音
 @SE28			#SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 
+#SCRIPT ORIGINAL 普段使わないが、たしか持っていたはずだけどな。
 普段使わないが、たしか持っていたはずだけどな。
 
+#SCRIPT ORIGINAL 傘、傘と……
 傘、傘と……
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．そういえば、みかんに～）
 #（２．問題なく発見）
+#SCRIPT ORIGINAL select sel,"そういえば、みかんに～","問題なく発見"
 select sel,"Oh yeah, it's in Mikan's...","Not a problem."
 if sel=0 then goto karin_qa08_a
 if sel=1 then goto karin_qa08_b
@@ -2491,65 +2993,82 @@ if sel=1 then goto karin_qa08_b
 #--------------------------------------------------
 label	karin_qa08_a
 
+#SCRIPT ORIGINAL 「あ……」
 ＠Itsuki
 「あ……」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「うん？　あった？」
 ＠Karin,P02156
 「うん？　あった？」
 
+#SCRIPT ORIGINAL 「そういえば、みかんに貸したままだったよ。手元には無いな」
 ＠Itsuki
 「そういえば、みかんに貸したままだったよ。手元には無いな」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「え、そうなの…？」
 ＠Karin,P02157
 「え、そうなの…？」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「ならまぁいいわ。みかんに借りればいいのね」
 ＠Karin,P02158
 「ならまぁいいわ。みかんに借りればいいのね」
 
+#SCRIPT ORIGINAL 「ああ、二度手間で悪いけどそうしてくれ」
 ＠Itsuki
 「ああ、二度手間で悪いけどそうしてくれ」
 
+#SCRIPT ORIGINAL 「しかし」
 ＠Itsuki
 「しかし」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「…？」
 ＠Karin,P02159
 「…？」
 
+#SCRIPT ORIGINAL 「まだみかんの所に行ってなかったのか。オレの部屋には来たのに？」
 ＠Itsuki
 「まだみかんの所に行ってなかったのか。オレの部屋には来たのに？」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「…当然でしょ。みかんのを借りちゃったら、みかんに迷惑がかかるじゃない」
 ＠Karin,P02160
 「…当然でしょ。みかんのを借りちゃったら、みかんに迷惑がかかるじゃない」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「その点樹のだったら、どこかに忘れてきても全然気にならないし」
 ＠Karin,P02161
 「その点樹のだったら、どこかに忘れてきても全然気にならないし」
 
+#SCRIPT ORIGINAL 「してくれ。少しでいいから気にしろ」
 ＠Itsuki
 「してくれ。少しでいいから気にしろ」
 
+#SCRIPT ORIGINAL 一瞬、少しでも気を許してくれたのかと思ったが、全然検討違いだった。
 一瞬、少しでも気を許してくれたのかと思ったが、全然検討違いだった。
 
+#SCRIPT ORIGINAL 「まぁ、みかんに親切にしたのは評価してあげるわ」
 ＠Karin,P02162
 「まぁ、みかんに親切にしたのは評価してあげるわ」
 
+#SCRIPT ORIGINAL 「おかげでこの時間に、パジャマ姿のみかんの部屋に行ける口実も出来たし♪」
 ＠Karin,P02163
 「おかげでこの時間に、パジャマ姿のみかんの部屋に行ける口実も出来たし♪」
 
+#SCRIPT ORIGINAL 「変な問題を起こさず帰ってこいよ……」
 ＠Itsuki
 「変な問題を起こさず帰ってこいよ……」
 
+#SCRIPT ORIGINAL 「それじゃ、邪魔したわね」
 ＠Karin,P02164
 「それじゃ、邪魔したわね」
 
@@ -2560,8 +3079,10 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL やはりみかんと聞くと嬉しそうに、かりんは部屋を出て行ってしまった。
 やはりみかんと聞くと嬉しそうに、かりんは部屋を出て行ってしまった。
 
+#SCRIPT ORIGINAL まぁかりんは相変わらず、みかんＬＯＶＥってことか……
 まぁかりんは相変わらず、みかんＬＯＶＥってことか……
 
 @chara_clear		#保険
@@ -2577,33 +3098,41 @@ return
 #--------------------------------------------------
 label	karin_qa08_b
 
+#SCRIPT ORIGINAL 「あったぞ。ほら」
 ＠Itsuki
 「あったぞ。ほら」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「ええ……って、地味な色ね。もっと可愛いのとかないの？」
 ＠Karin,P02165
 「ええ……って、地味な色ね。もっと可愛いのとかないの？」
 
+#SCRIPT ORIGINAL 「そんなもん、オレが持ってたらキショイだろうが」
 ＠Itsuki
 「そんなもん、オレが持ってたらキショイだろうが」
 
+#SCRIPT ORIGINAL 「まぁそうね……たしかに不気味だわ」
 ＠Karin,P02166
 「まぁそうね……たしかに不気味だわ」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「それじゃこれ、借りていくわよ」
 ＠Karin,P02167
 「それじゃこれ、借りていくわよ」
 
+#SCRIPT ORIGINAL 「ああ。使い終わったら玄関に置いといてくれ、勝手に回収するから」
 ＠Itsuki
 「ああ。使い終わったら玄関に置いといてくれ、勝手に回収するから」
 
+#SCRIPT ORIGINAL 「広げて乾かして置けばいいのよね」
 ＠Karin,P02168
 「広げて乾かして置けばいいのよね」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「降るか分からないけど、一応礼は言っておくわ。それじゃあね」
 ＠Karin,P02169
 「降るか分からないけど、一応礼は言っておくわ。それじゃあね」
 
@@ -2614,11 +3143,14 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 貸した傘片手に、かりんは自分の部屋へ戻って行った。
 貸した傘片手に、かりんは自分の部屋へ戻って行った。
 
+#SCRIPT ORIGINAL 「何か、何事もなくあっさり済んでしまったな」
 ＠Itsuki
 「何か、何事もなくあっさり済んでしまったな」
 
+#SCRIPT ORIGINAL まぁ穏やかなのに越した事は無いが。
 まぁ穏やかなのに越した事は無いが。
 
 @chara_clear		#保険
@@ -2641,8 +3173,10 @@ label	karin_qa09
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 部屋で休んでいると、ドアのノックの音がした。
 
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P02170
 「入るわよ」
 
@@ -2654,106 +3188,136 @@ wait		1000
 @karin_pajama
 @karin
 
+#SCRIPT ORIGINAL 「かりんか。珍しいじゃないか」
 ＠Itsuki
 「かりんか。珍しいじゃないか」
 
+#SCRIPT ORIGINAL 「別に。ただこれを返しにきただけよ」
 ＠Karin,P02171
 「別に。ただこれを返しにきただけよ」
 
 @karin_
 
+#SCRIPT ORIGINAL そう言って、見覚えのある本を差し出してくる。
 そう言って、見覚えのある本を差し出してくる。
 
 @karin_middle		# 中間
 @karin_pajama
 @karin			#普通
 
+#SCRIPT ORIGINAL 「すいかに聞いたわ。あなたのなんでしょう？」
 ＠Karin,P02172
 「すいかに聞いたわ。あなたのなんでしょう？」
 
+#SCRIPT ORIGINAL 「ああ、オレが貸してた本だな。かりんに貸したのも聞いてるよ」
 ＠Itsuki
 「ああ、オレが貸してた本だな。かりんに貸したのも聞いてるよ」
 
+#SCRIPT ORIGINAL 「そう。それじゃ、私から確かに返したわよ」
 ＠Karin,P02173
 「そう。それじゃ、私から確かに返したわよ」
 
+#SCRIPT ORIGINAL ポンと、オレの手の中に本を置くかりん。
 ポンと、オレの手の中に本を置くかりん。
 
+#SCRIPT ORIGINAL 「……わざわざこんな時間に持ってきてくれたのか？」
 ＠Itsuki
 「……わざわざこんな時間に持ってきてくれたのか？」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「ええ。………って、変な勘違いしてるんじゃないでしょうね」
 ＠Karin,P02174
 「ええ。………って、変な勘違いしてるんじゃないでしょうね」
 
+#SCRIPT ORIGINAL 「部屋に催促に来られる前に、私から返しに来るほうがマシだったっていうだけよ」
 ＠Karin,P02175
 「部屋に催促に来られる前に、私から返しに来るほうがマシだったっていうだけよ」
 
+#SCRIPT ORIGINAL 「まぁどっちにしろ持ってきてくれたんだ。ありがとう、かりん」
 ＠Itsuki
 「まぁどっちにしろ持ってきてくれたんだ。ありがとう、かりん」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「……ッ」
 ＠Karin,P02176
 「……ッ」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「…ふ、ふんっ、用も済んだし、襲われる前にさっさと帰るべきね」
 ＠Karin,P02177
 「…ふ、ふんっ、用も済んだし、襲われる前にさっさと帰るべきね」
 
 @karin_
 
+#SCRIPT ORIGINAL 少し慌てて踵を返し、かりんは部屋を後にしようとした。
 少し慌てて踵を返し、かりんは部屋を後にしようとした。
 
+#SCRIPT ORIGINAL ……が、そこで思わぬ事態が。
 ……が、そこで思わぬ事態が。
 
+#SCRIPT ORIGINAL 「おわッ！？　かりんッ……」
 ＠Itsuki
 「おわッ！？　かりんッ……」
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Karin,P02178
 「え……？」
 
+#SCRIPT ORIGINAL 思わず声を上げて呼び止めたオレに、かりんが怪訝そうに振り返る。
 思わず声を上げて呼び止めたオレに、かりんが怪訝そうに振り返る。
 
+#SCRIPT ORIGINAL オレは、すごいことに気付いてしまっていた。
 オレは、すごいことに気付いてしまっていた。
 
+#SCRIPT ORIGINAL （かりんのパジャマ……モロにお尻の部分が破れてる……）
 ＠Itsuki
 （かりんのパジャマ……モロにお尻の部分が破れてる……）
 
+#SCRIPT ORIGINAL その小ぶりなお尻を包む下着が、半分近く見えてしまっていた。
 その小ぶりなお尻を包む下着が、半分近く見えてしまっていた。
 
 @karin_middle		# 中間
 @karin_pajama
 @karin			#普通
 
+#SCRIPT ORIGINAL 「なぁに、どうかしたの？」
 ＠Karin,P02179
 「なぁに、どうかしたの？」
 
+#SCRIPT ORIGINAL 「えッ！？　えっと……」
 ＠Itsuki
 「えッ！？　えっと……」
 
+#SCRIPT ORIGINAL 気付いては………無いんだろうな、当然。
 気付いては………無いんだろうな、当然。
 
+#SCRIPT ORIGINAL いちごじゃあるまいし、パンツ丸出しでかりんが出歩くなんて、ありえない。
 いちごじゃあるまいし、パンツ丸出しでかりんが出歩くなんて、ありえない。
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「……何なの？　はっきりしないわね…」
 ＠Karin,P02180
 「……何なの？　はっきりしないわね…」
 
+#SCRIPT ORIGINAL 「用がないんならもう行くわよ、私」
 ＠Karin,P02181
 「用がないんならもう行くわよ、私」
 
+#SCRIPT ORIGINAL 煮え切らないオレに、かりんが部屋を出て行こうとする。
 煮え切らないオレに、かりんが部屋を出て行こうとする。
 
+#SCRIPT ORIGINAL どうしようか……教えると、こっちにとばっちりが来そうな気がするが。
 どうしようか……教えると、こっちにとばっちりが来そうな気がするが。
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．教えてあげないと）
 #（２．触らぬかりんに怒りなし）No anger in Karin, which is not touch (?)
+#SCRIPT ORIGINAL select sel,"教えてあげないと","触らぬかりんに怒りなし"
 select sel,"Say nothing","No anger in Karin, which is not touch"
 if sel=0 then goto karin_qa09_a
 if sel=1 then goto karin_qa09_b
@@ -2764,133 +3328,169 @@ if sel=1 then goto karin_qa09_b
 #--------------------------------------------------
 label	karin_qa09_a
 
+#SCRIPT ORIGINAL うん。やっぱり気付いたなら教えてやら無いと。
 うん。やっぱり気付いたなら教えてやら無いと。
 
+#SCRIPT ORIGINAL 「待てかりんッ、その、パンツが……」
 ＠Itsuki
 「待てかりんッ、その、パンツが……」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「パンツ……？」
 ＠Karin,P02182
 「パンツ……？」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「…あ、分かった……どうせまた変なこと考えてるんでしょうッ」
 ＠Karin,P02183
 「…あ、分かった……どうせまた変なこと考えてるんでしょうッ」
 
+#SCRIPT ORIGINAL 「いや違うって。パンツの後ろが見えてるんだよ、かりんの」
 ＠Itsuki
 「いや違うって。パンツの後ろが見えてるんだよ、かりんの」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「見えるって……樹のその位置から…？」
 ＠Karin,P02184
 「見えるって……樹のその位置から…？」
 
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「あはっ。そんなはず無いじゃない、だってパジャマも着て―――」
 ＠Karin,P02185
 「あはっ。そんなはず無いじゃない、だってパジャマも着て―――」
 
+#SCRIPT ORIGINAL 苦笑しながらお尻を撫でたかりんの手が、その破れ目に触れて止まった。
 苦笑しながらお尻を撫でたかりんの手が、その破れ目に触れて止まった。
 
 @karin_odoroki		#驚
 
+#SCRIPT ORIGINAL 「……あれ？」
 ＠Karin,P02186
 「……あれ？」
 
+#SCRIPT ORIGINAL サワサワ……
 サワサワ……
 
+#SCRIPT ORIGINAL 破れてるところから、かりんが自分のショーツの表面をスリスリ撫でる。
 破れてるところから、かりんが自分のショーツの表面をスリスリ撫でる。
 
+#SCRIPT ORIGINAL 「お尻……？」
 ＠Karin,P02187
 「お尻……？」
 
+#SCRIPT ORIGINAL 「破れてるぞ。そこ完璧に」
 ＠Itsuki
 「破れてるぞ。そこ完璧に」
 
 @karin_
 
+#SCRIPT ORIGINAL 「きゃああぁぁああああッッッ！！」
 ＠Karin,P02188
 「きゃああぁぁああああッッッ！！」
 
 #EF　画面シェイク
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL ダダダダッ！！―――バンッ！！（←壁際ダッシュ！
 ダダダダッ！！―――バンッ！！（←壁際ダッシュ！
 
 @karin_small		# 遠い
 @karin_pajama
 @karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「みッ、みみッ、見たわね樹ッ！　私のお尻！！」
 ＠Karin,P02189
 「みッ、みみッ、見たわね樹ッ！　私のお尻！！」
 
+#SCRIPT ORIGINAL 一瞬でかりんは壁際に走っていって、壁に背を付けてオレを睨んでいた。
 一瞬でかりんは壁際に走っていって、壁に背を付けてオレを睨んでいた。
 
+#SCRIPT ORIGINAL 「お尻じゃなくてパンツだ」
 ＠Itsuki
 「お尻じゃなくてパンツだ」
 
+#SCRIPT ORIGINAL 「どっちも恥ずかしいわよッ！」
 ＠Karin,P02190
 「どっちも恥ずかしいわよッ！」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「しかも普通に見るだけならまだしも、破いてまでこっそり見ようとするなんてッ……」
 ＠Karin,P02191
 「しかも普通に見るだけならまだしも、破いてまでこっそり見ようとするなんてッ……」
 
+#SCRIPT ORIGINAL ……あれ？　待ってくれ。何かオレが破いた事になってる？
 ……あれ？　待ってくれ。何かオレが破いた事になってる？
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「……そ、そこまで見たいなら……言ってくれれば私だって……」
 ＠Karin,P02192
 「……そ、そこまで見たいなら……言ってくれれば私だって……」
 
+#SCRIPT ORIGINAL 「いやいや、何か変だって。オレが破いたんじゃないってよ」
 ＠Itsuki
 「いやいや、何か変だって。オレが破いたんじゃないってよ」
 
+#SCRIPT ORIGINAL 「え……？　じゃあ、誰が破いたの」
 ＠Karin,P02193
 「え……？　じゃあ、誰が破いたの」
 
+#SCRIPT ORIGINAL 「勝手に破れたんじゃないか…？　とりあえず、邪な意思じゃなくて」
 ＠Itsuki
 「勝手に破れたんじゃないか…？　とりあえず、邪な意思じゃなくて」
 
+#SCRIPT ORIGINAL 「……樹が今、見たくて破いたんじゃなくて…？」
 ＠Karin,P02194
 「……樹が今、見たくて破いたんじゃなくて…？」
 
+#SCRIPT ORIGINAL 名誉にかけて、オレは力強く頷いて答えた。
 名誉にかけて、オレは力強く頷いて答えた。
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「そんな強く否定されるのも、それはそれで何か屈辱ね……」
 ＠Karin,P02195
 「そんな強く否定されるのも、それはそれで何か屈辱ね……」
 
+#SCRIPT ORIGINAL 「どないしろとッ」
 ＠Itsuki
 「どないしろとッ」
 
+#SCRIPT ORIGINAL 「だって、結局私は見られたことに変わりないじゃない……」
 ＠Karin,P02196
 「だって、結局私は見られたことに変わりないじゃない……」
 
+#SCRIPT ORIGINAL 「まぁそうだが……とりあえず、その破れ目は広がる前に直した方がいいぞ」
 ＠Itsuki
 「まぁそうだが……とりあえず、その破れ目は広がる前に直した方がいいぞ」
 
+#SCRIPT ORIGINAL 「今ならまだ美雨も起きてると思うからさ」
 ＠Itsuki
 「今ならまだ美雨も起きてると思うからさ」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「そうね、早い方がいいし。頼みには行きたいんだけど……」
 ＠Karin,P02197
 「そうね、早い方がいいし。頼みには行きたいんだけど……」
 
+#SCRIPT ORIGINAL 「………」
 ＠Karin,P02198
 「………」
 
+#SCRIPT ORIGINAL 「ほら、これ使っていいから」
 ＠Itsuki
 「ほら、これ使っていいから」
 
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL 壁を背にしたままのかりんに、シーツを手渡してあげた。
 壁を背にしたままのかりんに、シーツを手渡してあげた。
 
 @karin_small		# 遠い
@@ -2898,52 +3498,68 @@ screen_vibration	500,16,16,16
 @karin			#普通
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「あ……」
 ＠Karin,P02199
 「あ……」
 
+#SCRIPT ORIGINAL 「身体に巻いて行けば、恥ずかしくないだろう？」
 ＠Itsuki
 「身体に巻いて行けば、恥ずかしくないだろう？」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「……樹…あなた…」
 ＠Karin,P02200
 「……樹…あなた…」
 
+#SCRIPT ORIGINAL 「それとも、呼んできてあげようか？　オレは廊下に出てるから」
 ＠Itsuki
 「それとも、呼んできてあげようか？　オレは廊下に出てるから」
 
 @karin_warai		#笑
 
+#SCRIPT ORIGINAL 「……う、ううん、シーツでいい」
 ＠Karin,P02201
 「……う、ううん、シーツでいい」
 
 @karin_
 
+#SCRIPT ORIGINAL 「えっと……ありがとう、樹…」
 ＠Karin,P02202
 「えっと……ありがとう、樹…」
 
+#SCRIPT ORIGINAL シーツに顔を埋めるようにして。
+#SCRIPT ORIGINAL 小さい声だが、かりんはお礼を言ってくれた。
 シーツに顔を埋めるようにして。
 小さい声だが、かりんはお礼を言ってくれた。
 
+#SCRIPT ORIGINAL スゥッと小さく息を吸い込むかりん。
 スゥッと小さく息を吸い込むかりん。
 
+#SCRIPT ORIGINAL （樹の匂い……）
 ＠Karin,P02202A
 （樹の匂い……）
 
+#SCRIPT ORIGINAL （何だか今なら、こうしてると落ち着ける気がする……）
 ＠Karin,P02202B
 （何だか今なら、こうしてると落ち着ける気がする……）
 
+#SCRIPT ORIGINAL 「あ、そうそう。ついでにそのシーツの洗濯も頼んでくれないか」
 ＠Itsuki
 「あ、そうそう。ついでにそのシーツの洗濯も頼んでくれないか」
 
+#SCRIPT ORIGINAL 「いや～、はっは！　この前部屋で調教したとき、汗とか精液とか付いたままでさ～」
 ＠Itsuki
 「いや～、はっは！　この前部屋で調教したとき、汗とか精液とか付いたままでさ～」
 
+#SCRIPT ORIGINAL 「……ッひグ、くッ」
 ＠Karin,P02203
 「……ッひグ、くッ」
 
+#SCRIPT ORIGINAL 温かくなり始めていたかりんの心が、一瞬にして凍りついた。
 温かくなり始めていたかりんの心が、一瞬にして凍りついた。
 
+#SCRIPT ORIGINAL 「ん…？　どうしたかりん、そんな蛙が潰れたみたいな声出して」
 ＠Itsuki
 「ん…？　どうしたかりん、そんな蛙が潰れたみたいな声出して」
 
@@ -2951,14 +3567,17 @@ screen_vibration	500,16,16,16
 @karin_pajama
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「潰れた蛙で悪かったわねぇ～……」
 ＠Karin,P02204
 「潰れた蛙で悪かったわねぇ～……」
 
+#SCRIPT ORIGINAL 「あ、あなたって人はッ……！」
 ＠Karin,P02205
 「あ、あなたって人はッ……！」
 
 @karin_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「やっぱり最低よッ、ブァカーーーーッッ！！！」
 ＠Karin,P02206
 「やっぱり最低よッ、ブァカーーーーッッ！！！」
 
@@ -2970,9 +3589,11 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL 「ぎゃあぁぁああぁぁああーーーーーッ！！！」
 ＠Itsuki
 「ぎゃあぁぁああぁぁああーーーーーッ！！！」
 
+#SCRIPT ORIGINAL たっぷり溜めたかりんのパンチで、この日オレは死んだように眠りに落ちた。
 たっぷり溜めたかりんのパンチで、この日オレは死んだように眠りに落ちた。
 
 @bg_black
@@ -2986,13 +3607,16 @@ return
 #--------------------------------------------------
 label	karin_qa09_b
 
+#SCRIPT ORIGINAL 止めよう。絶対オレに恥ずかしさの八つ当たりがくる……
 止めよう。絶対オレに恥ずかしさの八つ当たりがくる……
 
+#SCRIPT ORIGINAL 「ああ、何でもないんだ。気にしないでくれ」
 ＠Itsuki
 「ああ、何でもないんだ。気にしないでくれ」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「はぁ……」
 ＠Karin,P02207
 「はぁ……」
 
@@ -3001,10 +3625,13 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 溜め息を吐いてパンツが、
 溜め息を吐いてパンツが、
 
+#SCRIPT ORIGINAL じゃなくて、かりんは部屋を出て行った。
 じゃなくて、かりんは部屋を出て行った。
 
+#SCRIPT ORIGINAL 「うん。目の保養にもなったし。これでいいんだ、きっと……」
 ＠Itsuki
 「うん。目の保養にもなったし。これでいいんだ、きっと……」
 
@@ -3013,8 +3640,10 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL だが後日、オレは破れ目に気付いたかりんから、責められることになるのだった。
 だが後日、オレは破れ目に気付いたかりんから、責められることになるのだった。
 
+#SCRIPT ORIGINAL 気付いていたのに教えず、コソコソ下着を盗み見ていたとして……
 気付いていたのに教えず、コソコソ下着を盗み見ていたとして……
 
 @karin_karada_down
@@ -3033,8 +3662,10 @@ label	karin_qa10
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 部屋で休んでいると、ドアのノックの音がした。
 部屋で休んでいると、ドアのノックの音がした。
 
+#SCRIPT ORIGINAL 「入るわよ」
 ＠Karin,P02208
 「入るわよ」
 
@@ -3046,42 +3677,54 @@ wait		1000
 @karin_pajama
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「かりんか。珍しいじゃないか」
 ＠Itsuki
 「かりんか。珍しいじゃないか」
 
+#SCRIPT ORIGINAL 「ええ。ちょっと樹に火急の用事があるの」
 ＠Karin,P02209
 「ええ。ちょっと樹に火急の用事があるの」
 
+#SCRIPT ORIGINAL 「私ついさっきお風呂から上がったんだけど、用意していた下着が無くなってたのよね」
 ＠Karin,P02210
 「私ついさっきお風呂から上がったんだけど、用意していた下着が無くなってたのよね」
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「え……？」
 
+#SCRIPT ORIGINAL 「それも替えだけじゃなくて、脱いだ下着まで」
 ＠Karin,P02211
 「それも替えだけじゃなくて、脱いだ下着まで」
 
+#SCRIPT ORIGINAL 「まぁ誰が盗って行ったのか、検討はついてるんだけど」
 ＠Karin,P02212
 「まぁ誰が盗って行ったのか、検討はついてるんだけど」
 
+#SCRIPT ORIGINAL ジトッと責めるようにオレを見つめるかりんの瞳……
 ジトッと責めるようにオレを見つめるかりんの瞳……
 
+#SCRIPT ORIGINAL これは急展開だ……。しかもオレに身に覚えなんか無いのに。
 これは急展開だ……。しかもオレに身に覚えなんか無いのに。
 
+#SCRIPT ORIGINAL 「お、おい……知らないぞオレは」
 ＠Itsuki
 「お、おい……知らないぞオレは」
 
 @karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「そんなこと言ってもダメよっ。ちょっと付き合って」
 ＠Karin,P02213
 「そんなこと言ってもダメよっ。ちょっと付き合って」
 
+#SCRIPT ORIGINAL 本格的に呼び出されたッ！？
 本格的に呼び出されたッ！？
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．否定しないと）
 #（２．どこに行くのか興味ある）
+#SCRIPT ORIGINAL select sel,"否定しないと","どこに行くのか興味ある"
 select sel,"No, it's not.","I'm curious where you're going"
 if sel=0 then goto karin_qa10_a
 if sel=1 then goto karin_qa10_b
@@ -3092,106 +3735,140 @@ if sel=1 then goto karin_qa10_b
 #--------------------------------------------------
 label	karin_qa10_a
 
+#SCRIPT ORIGINAL 「待て待てッ、かりん！　オレはやってないって！」
 ＠Itsuki
 「待て待てッ、かりん！　オレはやってないって！」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Karin,P02214
 「え……？」
 
+#SCRIPT ORIGINAL 「疑うのも無理はないが、ずっと部屋に居たんだ。無実だ！」
 ＠Itsuki
 「疑うのも無理はないが、ずっと部屋に居たんだ。無実だ！」
 
+#SCRIPT ORIGINAL 「何を言ってるの…？」
 ＠Karin,P02215
 「何を言ってるの…？」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「あなたが犯人じゃない事くらい、最初から分かってるわよ」
 ＠Karin,P02216
 「あなたが犯人じゃない事くらい、最初から分かってるわよ」
 
+#SCRIPT ORIGINAL 「……はい？」
 ＠Itsuki
 「……はい？」
 
+#SCRIPT ORIGINAL 逆にかりんから怪訝そうに見られた。
 逆にかりんから怪訝そうに見られた。
 
+#SCRIPT ORIGINAL 「確かに樹は最低の変態だけど、コソコソ下着を盗っていくような人じゃないでしょ」
 ＠Karin,P02217
 「確かに樹は最低の変態だけど、コソコソ下着を盗っていくような人じゃないでしょ」
 
+#SCRIPT ORIGINAL 「そこは正常に、服より身体に興味があるっていうのは身に染みて知ってるし」
 ＠Karin,P02218
 「そこは正常に、服より身体に興味があるっていうのは身に染みて知ってるし」
 
+#SCRIPT ORIGINAL 「まぁ、そうだな……」
 ＠Itsuki
 「まぁ、そうだな……」
 
+#SCRIPT ORIGINAL 「私が検討をつけてるのはいちごよ」
 ＠Karin,P02219
 「私が検討をつけてるのはいちごよ」
 
+#SCRIPT ORIGINAL 「いちご……」
 ＠Itsuki
 「いちご……」
 
+#SCRIPT ORIGINAL 「お風呂に入る前に、下着のデザインセンスで意見が割れたのよ」
 ＠Karin,P02220
 「お風呂に入る前に、下着のデザインセンスで意見が割れたのよ」
 
+#SCRIPT ORIGINAL 「で、いちごが私の下着を見せて貸してと騒いでたの」
 ＠Karin,P02221
 「で、いちごが私の下着を見せて貸してと騒いでたの」
 
+#SCRIPT ORIGINAL 「だからきっとお風呂に入ってる隙を狙って、いちごが盗っていったんだわ」
 ＠Karin,P02222
 「だからきっとお風呂に入ってる隙を狙って、いちごが盗っていったんだわ」
 
+#SCRIPT ORIGINAL 「話の流れ的にありそうだが……。じゃあ何でオレに？」
 ＠Itsuki
 「話の流れ的にありそうだが……。じゃあ何でオレに？」
 
+#SCRIPT ORIGINAL 「あなたいちごの保護者じゃない……。ちゃんと躾けておいて貰わないと困るからよ」
 ＠Karin,P02223
 「あなたいちごの保護者じゃない……。ちゃんと躾けておいて貰わないと困るからよ」
 
+#SCRIPT ORIGINAL つまり、疑われてるのはいちごで、オレはただのトバッチリなのか。
 つまり、疑われてるのはいちごで、オレはただのトバッチリなのか。
 
+#SCRIPT ORIGINAL それも納得いかないが、濡れ衣よりは遥かにマシで安心した。
 それも納得いかないが、濡れ衣よりは遥かにマシで安心した。
 
+#SCRIPT ORIGINAL 「……どうせ、私が樹を疑ってると思ったんでしょ」
 ＠Karin,P02224
 「……どうせ、私が樹を疑ってると思ったんでしょ」
 
+#SCRIPT ORIGINAL ホッとするオレを見て、かりんが不満そうに目を細める。
 ホッとするオレを見て、かりんが不満そうに目を細める。
 
+#SCRIPT ORIGINAL 「あ……いや、そんなことは」
 ＠Itsuki
 「あ……いや、そんなことは」
 
+#SCRIPT ORIGINAL 「別にいいのよ、私もあなたを完全に信用してるわけじゃないもの」
 ＠Karin,P02225
 「別にいいのよ、私もあなたを完全に信用してるわけじゃないもの」
 
+#SCRIPT ORIGINAL 「今回だって、事前にいちごとのやり取りがあったから確信していただけなんだから」
 ＠Karin,P02226
 「今回だって、事前にいちごとのやり取りがあったから確信していただけなんだから」
 
+#SCRIPT ORIGINAL かりんは、オレが犯人じゃないと分かっていた。
 かりんは、オレが犯人じゃないと分かっていた。
 
+#SCRIPT ORIGINAL なのにこれじゃ、逆にオレの方がかりんを信用していなかったのと同じだ。
 なのにこれじゃ、逆にオレの方がかりんを信用していなかったのと同じだ。
 
+#SCRIPT ORIGINAL 「ほら、いちごの部屋に行くわよ。私が言ってもあの子聞かないんだから」
 ＠Karin,P02227
 「ほら、いちごの部屋に行くわよ。私が言ってもあの子聞かないんだから」
 
+#SCRIPT ORIGINAL 「あ、ああ。逆に疑って悪かったな、かりん」
 ＠Itsuki
 「あ、ああ。逆に疑って悪かったな、かりん」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「……ふぅ」
 ＠Karin,P02228
 「……ふぅ」
 
+#SCRIPT ORIGINAL 「もういいわ、気にしてないって言ったでしょ」
 ＠Karin,P02229
 「もういいわ、気にしてないって言ったでしょ」
 
+#SCRIPT ORIGINAL 「それに考えてみれば、私も言い方が紛らわしかったのは事実だし……」
 ＠Karin,P02230
 「それに考えてみれば、私も言い方が紛らわしかったのは事実だし……」
 
 @karin_
 
+#SCRIPT ORIGINAL そこまで言うと、フイッとかりんがそっぽを向いた。
 そこまで言うと、フイッとかりんがそっぽを向いた。
 
+#SCRIPT ORIGINAL 「さっきはああ言ったけど、本当に信用してなかったら、初めから下着とかは隠してるから」
 ＠Karin,P02231
 「さっきはああ言ったけど、本当に信用してなかったら、初めから下着とかは隠してるから」
 
+#SCRIPT ORIGINAL 「……？　それじゃ」
 ＠Itsuki
 「……？　それじゃ」
 
@@ -3199,6 +3876,7 @@ label	karin_qa10_a
 #@karin_pajama
 #@karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「た、ただし、下着の件だけよッ！　それ以外はエッチ好きの変態で要注意なのは間違いないんだからッ！」
 ＠Karin,P02232
 「た、ただし、下着の件だけよッ！　それ以外はエッチ好きの変態で要注意なのは間違いないんだからッ！」
 
@@ -3206,6 +3884,7 @@ label	karin_qa10_a
 #EF　白フラッシュ
 @SE38			#殴る音（バキッ！）
 
+#SCRIPT ORIGINAL 「いてッ！！　こらッ、背中を蹴るなッ！」
 ＠Itsuki
 「いてッ！！　こらッ、背中を蹴るなッ！」
 
@@ -3213,9 +3892,11 @@ label	karin_qa10_a
 @karin_pajama
 @karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「ほらっ、もう無駄口は良いでしょッ。さっさと動くの！」
 ＠Karin,P02233
 「ほらっ、もう無駄口は良いでしょッ。さっさと動くの！」
 
+#SCRIPT ORIGINAL かりんに急かされ、追い出されるように部屋を後にした。
 かりんに急かされ、追い出されるように部屋を後にした。
 
 bgm_stop
@@ -3223,8 +3904,10 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL その後向かったいちごの部屋で、
 その後向かったいちごの部屋で、
 
+#SCRIPT ORIGINAL 下着はやっぱりいちごが持っていたので、それを咎めて今回の騒動は終了となった。
 下着はやっぱりいちごが持っていたので、それを咎めて今回の騒動は終了となった。
 
 @bg_black
@@ -3237,107 +3920,139 @@ return
 #--------------------------------------------------
 label	karin_qa10_b
 
+#SCRIPT ORIGINAL 「ま、待てッ……行くってどこに！？」
 ＠Itsuki
 「ま、待てッ……行くってどこに！？」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「……？　もちろんいちごの部屋よ」
 ＠Karin,P02234
 「……？　もちろんいちごの部屋よ」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「きっと下着を持っていったのはあの子に間違いないはずよ」
 ＠Karin,P02235
 「きっと下着を持っていったのはあの子に間違いないはずよ」
 
+#SCRIPT ORIGINAL 「へ……い、いちごが…？」
 ＠Itsuki
 「へ……い、いちごが…？」
 
+#SCRIPT ORIGINAL 「実はお風呂に入る前に、下着のデザインについていちごと意見が割れたのよ」
 ＠Karin,P02236
 「実はお風呂に入る前に、下着のデザインについていちごと意見が割れたのよ」
 
+#SCRIPT ORIGINAL 「その時に私の下着を見せて見せてって言ってたから、きっとお風呂の隙を狙って盗ったんだわ」
 ＠Karin,P02237
 「その時に私の下着を見せて見せてって言ってたから、きっとお風呂の隙を狙って盗ったんだわ」
 
+#SCRIPT ORIGINAL 「はぁ……えっと、それでオレの所に…？」
 ＠Itsuki
 「はぁ……えっと、それでオレの所に…？」
 
+#SCRIPT ORIGINAL 「そうよ」
 ＠Karin,P02238
 「そうよ」
 
+#SCRIPT ORIGINAL 当然だと言うように頷くかりん。
 当然だと言うように頷くかりん。
 
+#SCRIPT ORIGINAL そこに至った結論は、
 そこに至った結論は、
 
+#SCRIPT ORIGINAL 「だって樹、あの子の保護者でしょ。ちゃんと躾けておきなさいよ」
 ＠Karin,P02239
 「だって樹、あの子の保護者でしょ。ちゃんと躾けておきなさいよ」
 
+#SCRIPT ORIGINAL 「……ああ。そういうことか」
 ＠Itsuki
 「……ああ。そういうことか」
 
+#SCRIPT ORIGINAL つまりこれは、オレの早とちりだ。
 つまりこれは、オレの早とちりだ。
 
+#SCRIPT ORIGINAL オレが疑われてるんじゃなくて、ただのトバッチリだったというわけか。
 オレが疑われてるんじゃなくて、ただのトバッチリだったというわけか。
 
+#SCRIPT ORIGINAL ……しかし、それって。
 ……しかし、それって。
 
 @karin_odoroki		#驚
 
+#SCRIPT ORIGINAL 「な、なに…？　急に嬉しそうに」
 ＠Karin,P02240
 「な、なに…？　急に嬉しそうに」
 
+#SCRIPT ORIGINAL 「そうかそうか。いや、普通にちょっと嬉しかったからな」
 ＠Itsuki
 「そうかそうか。いや、普通にちょっと嬉しかったからな」
 
+#SCRIPT ORIGINAL 「……何で嬉しいのよ変態。私が下着を盗られてるのにっ」
 ＠Karin,P02241
 「……何で嬉しいのよ変態。私が下着を盗られてるのにっ」
 
+#SCRIPT ORIGINAL 「いや違うっての……。普通こういう場合は、オレが疑われると思ったからさ」
 ＠Itsuki
 「いや違うっての……。普通こういう場合は、オレが疑われると思ったからさ」
 
+#SCRIPT ORIGINAL 「だけどかりんは、そう決め付けなかっただろ？」
 ＠Itsuki
 「だけどかりんは、そう決め付けなかっただろ？」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「そんなの、だって最初から樹はしないだろうって思ってたもの」
 ＠Karin,P02242
 「そんなの、だって最初から樹はしないだろうって思ってたもの」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「あっ……」
 ＠Karin,P02243
 「あっ……」
 
+#SCRIPT ORIGINAL ふっと出たその言葉に、かりん自身が反応を固まらせた。
 ふっと出たその言葉に、かりん自身が反応を固まらせた。
 
 @karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「誤解しないでよねっ。あなたが下着に興味のある人じゃ無いって言うだけの意味よッ」
 ＠Karin,P02244
 「誤解しないでよねっ。あなたが下着に興味のある人じゃ無いって言うだけの意味よッ」
 
+#SCRIPT ORIGINAL 「身体目当ての変態色情魔って言う意味では、完全に要注意なんだから！」
 ＠Karin,P02245
 「身体目当ての変態色情魔って言う意味では、完全に要注意なんだから！」
 
+#SCRIPT ORIGINAL 「……そこはまぁ、否定しきれないな」
 ＠Itsuki
 「……そこはまぁ、否定しきれないな」
 
+#SCRIPT ORIGINAL 実際にそういう事をしているだけに。
 実際にそういう事をしているだけに。
 
+#SCRIPT ORIGINAL 「いいんだよ。オレが嬉しかっただけなんだから」
 ＠Itsuki
 「いいんだよ。オレが嬉しかっただけなんだから」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「………」
 ＠Karin,P02246
 「………」
 
+#SCRIPT ORIGINAL 「まるで信用してなかったら、こんな生活してまであなたと一緒に暮らしてないわよ」
 ＠Karin,P02247
 「まるで信用してなかったら、こんな生活してまであなたと一緒に暮らしてないわよ」
 
+#SCRIPT ORIGINAL 最後のかりんの言葉は小声で、オレにはよく聞き取れなかった。
 最後のかりんの言葉は小声で、オレにはよく聞き取れなかった。
 
 @karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「とにかくもうッ、無駄口してないでさっさといちごの部屋に行くのッ」
 ＠Karin,P02248
 「とにかくもうッ、無駄口してないでさっさといちごの部屋に行くのッ」
 
@@ -3347,17 +4062,22 @@ wait		1000
 #EF　白フラッシュ
 @SE38			#殴る音（バキッ！）
 
+#SCRIPT ORIGINAL 「いてッ！　こら、背中を蹴るなッ……ん？」
 ＠Itsuki
 「いてッ！　こら、背中を蹴るなッ……ん？」
 
+#SCRIPT ORIGINAL ……あれ？　今かりんのスカートの中が。
 ……あれ？　今かりんのスカートの中が。
 
+#SCRIPT ORIGINAL 「それがイヤなら早く行くのッ……くしゅん！」
 ＠Karin,P02249
 「それがイヤなら早く行くのッ……くしゅん！」
 
+#SCRIPT ORIGINAL 「……はぅ、さっきから服の下がスゥスゥして落ち着かないんだから」
 ＠Karin,P02250
 「……はぅ、さっきから服の下がスゥスゥして落ち着かないんだから」
 
+#SCRIPT ORIGINAL 「って、今ノーパンなのかよッ！？」
 ＠Itsuki
 「って、今ノーパンなのかよッ！？」
 
@@ -3365,16 +4085,20 @@ wait		1000
 @karin_pajama
 @karin_ikari		#怒
 
+#SCRIPT ORIGINAL 「う……しょうがないじゃない、そのままの足で着ちゃったのよ！」
 ＠Karin,P02251
 「う……しょうがないじゃない、そのままの足で着ちゃったのよ！」
 
+#SCRIPT ORIGINAL 「とにかく私が言ってもいちごは聞かないんだから、ちゃんと樹から注意してッ」
 ＠Karin,P02252
 「とにかく私が言ってもいちごは聞かないんだから、ちゃんと樹から注意してッ」
 
 @karin_
 
+#SCRIPT ORIGINAL かりんに急かされ、追い出されるように部屋を後にした。
 かりんに急かされ、追い出されるように部屋を後にした。
 
+#SCRIPT ORIGINAL ちなみに、振り返ったときにかりんの秘部を見てしまったのは、内緒だ。
 ちなみに、振り返ったときにかりんの秘部を見てしまったのは、内緒だ。
 
 @chara_clear		#保険
@@ -3384,9 +4108,11 @@ wait		1000
 @chara_clear		#保険
 @bg_rouka_n		# 廊下(夜)
 
+#SCRIPT ORIGINAL 「冷えるんじゃないのか？　今夜は温かくして寝るんだぞ」
 ＠Itsuki
 「冷えるんじゃないのか？　今夜は温かくして寝るんだぞ」
 
+#SCRIPT ORIGINAL 「ええ、そうするわ。ありがとう」
 ＠Karin,P02253
 「ええ、そうするわ。ありがとう」
 
@@ -3395,8 +4121,10 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL その後部屋で、やっぱりいちごがかりんの下着を持っていたので、咎めておいた。
 その後部屋で、やっぱりいちごがかりんの下着を持っていたので、咎めておいた。
 
+#SCRIPT ORIGINAL 翌日かりんに風邪の様子も無く、今回の騒動は終了となった。
 翌日かりんに風邪の様子も無く、今回の騒動は終了となった。
 
 @bg_black

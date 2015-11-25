@@ -12,14 +12,17 @@ bgm_stop
 #■BG（調教部屋）※直前の選択肢で選んだ部屋
 @bg_choukyou		# 調教部屋
 
+#SCRIPT ORIGINAL いつものように、部屋でいちごがやってくるのを待っていた。
 いつものように、部屋でいちごがやってくるのを待っていた。
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 「パパ、来たよ」
 ＠Ichigo,O00913
 「パパ、来たよ」
 
+#SCRIPT ORIGINAL 「ああ、入れ」
 ＠Itsuki
 「ああ、入れ」
 
@@ -31,9 +34,11 @@ wait		1000
 @ichigo_shifuku
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「お待たせ～」
 ＠Ichigo,O00914
 「お待たせ～」
 
+#SCRIPT ORIGINAL 「ちゃんと来たな。それじゃ………ん？」
 ＠Itsuki
 「ちゃんと来たな。それじゃ………ん？」
 
@@ -41,131 +46,164 @@ wait		1000
 @houkou_shifuku
 @houkou			# 普通
 
+#SCRIPT ORIGINAL 「おっと、その前に失礼するぜ」
 ＠Houkou,E00039
 「おっと、その前に失礼するぜ」
 
 @bgm06			#BGM 06 : 不安のテーマ
 
+#SCRIPT ORIGINAL いちごの後ろから宝交が中に入ってきた。
 いちごの後ろから宝交が中に入ってきた。
 
+#SCRIPT ORIGINAL 「……用なら後にしてもらえますか」
 ＠Itsuki
 「……用なら後にしてもらえますか」
 
 @houkou_warai		# 笑い
 
+#SCRIPT ORIGINAL 「へへ、後じゃダメなんだよ。悪いがいちごは借りていくぜ」
 ＠Houkou,E00040
 「へへ、後じゃダメなんだよ。悪いがいちごは借りていくぜ」
 
+#SCRIPT ORIGINAL 「何……？」
 ＠Itsuki
 「何……？」
 
+#SCRIPT ORIGINAL 「これから仲良く親子の語らいさ。な？」
 ＠Houkou,E00041
 「これから仲良く親子の語らいさ。な？」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「うん。パパがね、大事なお話があるんだって」
 ＠Ichigo,O00915
 「うん。パパがね、大事なお話があるんだって」
 
+#SCRIPT ORIGINAL 「だからいちご、今日の調教はお休みが良いって院長せんせーに言いに来たの」
 ＠Ichigo,O00916
 「だからいちご、今日の調教はお休みが良いって院長せんせーに言いに来たの」
 
+#SCRIPT ORIGINAL 「休みって……おい」
 ＠Itsuki
 「休みって……おい」
 
 @houkou			# 普通
 
+#SCRIPT ORIGINAL 「ま、そういうことだ。我慢できねぇんなら一人でマスってな」
 ＠Houkou,E00042
 「ま、そういうことだ。我慢できねぇんなら一人でマスってな」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 「何だとッ。オイ！　待てよッ」
 ＠Itsuki
 「何だとッ。オイ！　待てよッ」
 
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
+#SCRIPT ORIGINAL 勝手に言って去ろうとする宝交を掴みとめる。
 勝手に言って去ろうとする宝交を掴みとめる。
 
 @houkou_small
 @houkou_shifuku
 @houkou_ikari		# 怒り
 
+#SCRIPT ORIGINAL 「邪魔するなよ。オレは男に腕を握られて喜ぶような趣味はねぇぜ」
 ＠Houkou,E00043
 「邪魔するなよ。オレは男に腕を握られて喜ぶような趣味はねぇぜ」
 
+#SCRIPT ORIGINAL 「院長せんせーっ、乱暴は止めて！」
 ＠Ichigo,O00917
 「院長せんせーっ、乱暴は止めて！」
 
+#SCRIPT ORIGINAL 「う、っく……」
 ＠Itsuki
 「う、っく……」
 
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
+#SCRIPT ORIGINAL 言われるままに腕を離す。
 言われるままに腕を離す。
 
+#SCRIPT ORIGINAL 怒りに任せて手を挙げれば、完全にこちらの負けだった。
 怒りに任せて手を挙げれば、完全にこちらの負けだった。
 
+#SCRIPT ORIGINAL 「これはここの生活スタイルなんだ。後から来たあんたにリズムを崩される言われは無い」
 ＠Itsuki
 「これはここの生活スタイルなんだ。後から来たあんたにリズムを崩される言われは無い」
 
 @houkou			# 普通
 
+#SCRIPT ORIGINAL 「知ったことか。どっちがいいかいちごに聞いてみろよ。なぁ？」
 ＠Houkou,E00044
 「知ったことか。どっちがいいかいちごに聞いてみろよ。なぁ？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「……ごめんなさい、院長せんせ。調教よりパパとお話したいの」
 ＠Ichigo,O00918
 「……ごめんなさい、院長せんせ。調教よりパパとお話したいの」
 
+#SCRIPT ORIGINAL 「いちご……」
 ＠Itsuki
 「いちご……」
 
 @houkou_ikari		# 怒り
 
+#SCRIPT ORIGINAL 「ふん。親を前に、よく娘に性欲処理させろなんて言えるもんだぜ」
 ＠Houkou,E00045
 「ふん。親を前に、よく娘に性欲処理させろなんて言えるもんだぜ」
 
+#SCRIPT ORIGINAL 「お前……」
 ＠Itsuki
 「お前……」
 
+#SCRIPT ORIGINAL オレは精一杯の怒気をこめて睨みつけるが、手を出せないのを知っている宝交は、全くひるむ様子はない。
 オレは精一杯の怒気をこめて睨みつけるが、手を出せないのを知っている宝交は、全くひるむ様子はない。
 
 @houkou_yorokobi	# 喜び
 
+#SCRIPT ORIGINAL 「行こうぜ、いちご。これからはオレが、この変態からお前を守ってやるからな」
 ＠Houkou,E00046
 「行こうぜ、いちご。これからはオレが、この変態からお前を守ってやるからな」
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「え、でも……。いちご、次はちゃんと院長せんせーの言いつけ守りたいよ」
 ＠Ichigo,O00919
 「え、でも……。いちご、次はちゃんと院長せんせーの言いつけ守りたいよ」
 
 @houkou			# 普通
 
+#SCRIPT ORIGINAL 「なに……？」
 ＠Houkou,E00047
 「なに……？」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「院長せんせ、またいちごに調教してね。次はちゃんと約束守るから！」
 ＠Ichigo,O00920
 「院長せんせ、またいちごに調教してね。次はちゃんと約束守るから！」
 
+#SCRIPT ORIGINAL 後ろめたさの無い素直な元気さで、いちごがオレに笑顔を向ける。
 後ろめたさの無い素直な元気さで、いちごがオレに笑顔を向ける。
 
+#SCRIPT ORIGINAL その笑顔で、幾分かオレの沈んだ気持ちもすくわれた。
 その笑顔で、幾分かオレの沈んだ気持ちもすくわれた。
 
+#SCRIPT ORIGINAL 「ああ、分かった。また次な」
 ＠Itsuki
 「ああ、分かった。また次な」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「うん！」
 ＠Ichigo,O00921
 「うん！」
 
 @houkou_ikari		# 怒り
 
+#SCRIPT ORIGINAL 「チッ。早く行くぞいちご」
 ＠Houkou,E00048
 「チッ。早く行くぞいちご」
 
@@ -176,13 +214,17 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 面白く無さそうに舌打ちをして、宝交はいちごを連れて行った。
 面白く無さそうに舌打ちをして、宝交はいちごを連れて行った。
 
+#SCRIPT ORIGINAL することも無く一人調教部屋に残される。
 することも無く一人調教部屋に残される。
 
+#SCRIPT ORIGINAL 「他の子はもう、部屋で休んでるだろうな」
 ＠Itsuki
 「他の子はもう、部屋で休んでるだろうな」
 
+#SCRIPT ORIGINAL 今日の調教は、中止にするより仕方なかった。
 今日の調教は、中止にするより仕方なかった。
 
 #一拍
@@ -191,36 +233,46 @@ wait		1000
 #■BG（夜空）
 @bg_sky_n		# 夜空
 
+#SCRIPT ORIGINAL ………
 ………
 
+#SCRIPT ORIGINAL ……………
 ……………
 
+#SCRIPT ORIGINAL …………………
 …………………
 
 #■BG（自室・消灯後）
 @bg_itsuki_nn		# 自室(消灯)
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL ……その日、オレはベッドに入って、一時間近く経っても眠れなかった。
 ……その日、オレはベッドに入って、一時間近く経っても眠れなかった。
 
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「うがぁぁッ！」
 ＠Itsuki
 「うがぁぁッ！」
 
+#SCRIPT ORIGINAL 「……っく、眠れん！」
 ＠Itsuki
 「……っく、眠れん！」
 
 @bgmk04			#BGM K04 : 寝る前のテーマ
 
+#SCRIPT ORIGINAL あの男のいうとおり、調教未遂のせいで溜まっているのだろうか……
 あの男のいうとおり、調教未遂のせいで溜まっているのだろうか……
 
+#SCRIPT ORIGINAL しかしそんなの認めたくない。
 しかしそんなの認めたくない。
 
+#SCRIPT ORIGINAL 「ちょっとうろついてみるか」
 ＠Itsuki
 「ちょっとうろついてみるか」
 
@@ -230,13 +282,17 @@ wait		1000
 #@bg_rouka_n		# 廊下(夜)
 @bg_rouka_nn		# 廊下(消灯)
 
+#SCRIPT ORIGINAL みんな寝入って静かな廊下へと出た。
 みんな寝入って静かな廊下へと出た。
 
+#SCRIPT ORIGINAL 物音で眠りを妨げないように、個室を離れてリビングの方へ向かう。
 物音で眠りを妨げないように、個室を離れてリビングの方へ向かう。
 
+#SCRIPT ORIGINAL 「あれ……？」
 ＠Itsuki
 「あれ……？」
 
+#SCRIPT ORIGINAL 途中、誰も居るはずない廊下で人影を見つけた。
 途中、誰も居るはずない廊下で人影を見つけた。
 
 #CH（いちごパジャマ）
@@ -244,81 +300,104 @@ wait		1000
 @ichigo_pajama
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「え……院長せんせぇ？」
 ＠Ichigo,O00922
 「え……院長せんせぇ？」
 
+#SCRIPT ORIGINAL 「ああ。どうしたんだ、いちご。こんな時間に」
 ＠Itsuki
 「ああ。どうしたんだ、いちご。こんな時間に」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「ん……ううん。おトイレに行ってただけ」
 ＠Ichigo,O00923
 「ん……ううん。おトイレに行ってただけ」
 
+#SCRIPT ORIGINAL 「そうか。暗いから気をつけて戻るんだぞ」
 ＠Itsuki
 「そうか。暗いから気をつけて戻るんだぞ」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「パパ……あ、院長せんせーは？」
 ＠Ichigo,O00924
 「パパ……あ、院長せんせーは？」
 
+#SCRIPT ORIGINAL 「眠れないから、食堂で何か飲もうかと思ってる。来るか？」
 ＠Itsuki
 「眠れないから、食堂で何か飲もうかと思ってる。来るか？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「ううん、行きたいけど、いい。いちご疲れて眠くなってるから……」
 ＠Ichigo,O00925
 「ううん、行きたいけど、いい。いちご疲れて眠くなってるから……」
 
+#SCRIPT ORIGINAL 「ん……？　調教は休んだのにか？」
 ＠Itsuki
 「ん……？　調教は休んだのにか？」
 
+#SCRIPT ORIGINAL 深更に比例した本来の眠気以外にも、いちごからは疲労が窺えた。
 深更に比例した本来の眠気以外にも、いちごからは疲労が窺えた。
 
+#SCRIPT ORIGINAL 「あの人と何を話してたんだ？」
 ＠Itsuki
 「あの人と何を話してたんだ？」
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「えっと……いろいろ。けど忘れちゃった」
 ＠Ichigo,O00926
 「えっと……いろいろ。けど忘れちゃった」
 
+#SCRIPT ORIGINAL 「話だけか？」
 ＠Itsuki
 「話だけか？」
 
+#SCRIPT ORIGINAL 「ん、うん……そうだよ」
 ＠Ichigo,O00927
 「ん、うん……そうだよ」
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Ichigo,O00928
 「…………」
 
+#SCRIPT ORIGINAL 居心地悪そうに、視線をチラチラと逸らしている。
 居心地悪そうに、視線をチラチラと逸らしている。
 
+#SCRIPT ORIGINAL 「本当か？」
 ＠Itsuki
 「本当か？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「ほ、本当だよ。ウソじゃないもん」
 ＠Ichigo,O00929
 「ほ、本当だよ。ウソじゃないもん」
 
+#SCRIPT ORIGINAL 「眠いからもう、いちご部屋に戻っていい……？」
 ＠Ichigo,O00930
 「眠いからもう、いちご部屋に戻っていい……？」
 
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「………」
 
+#SCRIPT ORIGINAL 「ふぅ」と肩を落とした。
 「ふぅ」と肩を落とした。
 
+#SCRIPT ORIGINAL 「分かった。ちゃんと寝て疲れを取るんだぞ？」
 ＠Itsuki
 「分かった。ちゃんと寝て疲れを取るんだぞ？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「うん、ありがと。おやすみ、院長せんせ」
 ＠Ichigo,O00931
 「うん、ありがと。おやすみ、院長せんせ」
 
@@ -328,13 +407,17 @@ wait		1000
 #SE18　廊下を歩き去る音　※徐々に小さく
 @SE18			#廊下を歩き去る音
 
+#SCRIPT ORIGINAL 元気無さそうに、部屋への道を辿っていく。
 元気無さそうに、部屋への道を辿っていく。
 
+#SCRIPT ORIGINAL その影が、廊下の角の向こう側へ消えた。
 その影が、廊下の角の向こう側へ消えた。
 
+#SCRIPT ORIGINAL 「あの男……少しでもいちごが嫌がる事をしていたら、ただじゃおかないぞ」
 ＠Itsuki
 「あの男……少しでもいちごが嫌がる事をしていたら、ただじゃおかないぞ」
 
+#SCRIPT ORIGINAL 今はまだ、確たる根拠も無いまま動くべきではないと分かっている。
 今はまだ、確たる根拠も無いまま動くべきではないと分かっている。
 
 #■BG（黒）
@@ -342,6 +425,7 @@ bgm_stop
 @bg_black		# 黒
 wait		1000
 
+#SCRIPT ORIGINAL しばらく熱を冷ましてから、オレも部屋へ戻った。
 しばらく熱を冷ましてから、オレも部屋へ戻った。
 
 @ichigo_evup

@@ -13,12 +13,15 @@ bgm_stop
 @bgm12			#BGM 12 : メインテーマ
 
 #子供達が居ない日は実に静かだった。
+#SCRIPT ORIGINAL 子供達が居ない日は実に静かだった。
 　The day when the children were not here was very quiet.
 
 #日程上、いつも誰かが居ることが多いからな、ここは。
+#SCRIPT ORIGINAL 日程上、いつも誰かが居ることが多いからな、ここは。
 　Because of the schedule, a lot of people would always be in this place. 
 
 #少し心寂しい気もするが、たまにはこんな時間もあっていいだろう。
+#SCRIPT ORIGINAL 少し心寂しい気もするが、たまにはこんな時間もあっていいだろう。
 　Although I felt a little lonely, it was good to have a time like this once in a while.
 
 @bg_black
@@ -46,6 +49,7 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #「んーっ、美味しいーっ♪」
+#SCRIPT ORIGINAL 「んーっ、美味しいーっ♪」
 ＠Hikari,N00290
 「ん=uっ, Delicious-♪」
 
@@ -53,6 +57,7 @@ layer_movepass_play	l_hikari,0,play_once
 layer_movepass_init	l_hikari,0	#演出初期化
 
 #「そう、良かった。まだあるからたくさん食べていいのよ」
+#SCRIPT ORIGINAL 「そう、良かった。まだあるからたくさん食べていいのよ」
 ＠Miu,B01625
 「Oh, I see. There is still some more, so you can eat as much as you like.」
 
@@ -65,14 +70,17 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うん！」
+#SCRIPT ORIGINAL 「うん！」
 ＠Hikari,N00291
 「Yes!」
 
 #「MiuとHikari、ここに居たのか………おお？」
+#SCRIPT ORIGINAL 「美雨とひかり、ここに居たのか………おお？」
 ＠Itsuki
 「I think Miu and Hikari are supposed to be here.... Oo?」
 
 #テーブルに置かれている豪華なケーキに、思わず感嘆の声を漏らす。
+#SCRIPT ORIGINAL テーブルに置かれている豪華なケーキに、思わず感嘆の声を漏らす。
 　Unintentionally, I let out a word of admiration for the magnificent cake which was put on top of the table.
 
 @hikari_yorokobi	#喜.png
@@ -85,27 +93,33 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #「あっ、お父しゃんー♪」
+#SCRIPT ORIGINAL 「あっ、お父しゃんー♪」
 ＠Hikari,N00292
 「Aa, otou-shan-♪」
 
 @miu2			#開_にこ
 
 #「今ちょうど、ひーちゃんとおやつにしていたんです。Itsukiさんもどうですか？」
+#SCRIPT ORIGINAL 「今ちょうど、ひーちゃんとおやつにしていたんです。樹さんもどうですか？」
 ＠Miu,B01626
 「Just now, Hi-chan and I had an afternoon tea. Would you like to have some too, Itsuki-san?」
 
 #「あ、いや、オレはいいよ」
+#SCRIPT ORIGINAL 「あ、いや、オレはいいよ」
 ＠Itsuki
 「A, no thanks, I'm okay.」
 
 #「しかしそれ手作りケーキか？　すごいな」
+#SCRIPT ORIGINAL 「しかしそれ手作りケーキか？　すごいな」
 ＠Itsuki
 「But, that is a handmade cake, right? That's incredible.」
 
 #まるで祝い事に出されるようなデコレーションケーキだった。
+#SCRIPT ORIGINAL まるで祝い事に出されるようなデコレーションケーキだった。
 　The decorated cake was made as if there was something which was celebrated.
 
 #それが１ホール丸々、Hikariの前に用意されている。
+#SCRIPT ORIGINAL それが１ホール丸々、ひかりの前に用意されている。
 　Inside the entire hall, it was prepared in front of Hikari.
 
 @hikari_warai		#笑.png
@@ -121,59 +135,70 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #「あははっ、甘くて美味しいのーっ♪」
+#SCRIPT ORIGINAL 「あははっ、甘くて美味しいのーっ♪」
 ＠Hikari,N00293
 「Ahaha, it's sweet and delicious-♪」
 
 #「そんなに食べれるか？　Hikari」
+#SCRIPT ORIGINAL 「そんなに食べれるか？　ひかり」
 ＠Itsuki
 「You can eat that much, Hikari?」
 
 @miu			#閉_にこ
 
 #「いえ、もちろんみんなの分のおやつですよ」
+#SCRIPT ORIGINAL 「いえ、もちろんみんなの分のおやつですよ」
 ＠Miu,B01627
 「No, needless to say this is everyone's share of afternoon tea also.」
 
 @miu2			#開_にこ
 
 #「ただ今日は、他の子もまだ帰って来てませんでしたから」
+#SCRIPT ORIGINAL 「ただ今日は、他の子もまだ帰って来てませんでしたから」
 ＠Miu,B01628
 「Today is simply because the other children haven't returned here.」
 
 #「むぅ……。それにしたって、かつて無い豪華なおやつだ」
+#SCRIPT ORIGINAL 「むぅ……。それにしたって、かつて無い豪華なおやつだ」
 ＠Itsuki
 「むぅ...What's more, this is a magnificent cake that I've never seen before.」
 
 @hikari_yorokobi	#喜.png
 
 #「お母しゃん、またいちご乗ってるところほしいの」
+#SCRIPT ORIGINAL 「お母しゃん、またいちご乗ってるところほしいの」
 ＠Hikari,N00294
 「Okaa-shan, I want some more strawberries.」
 
 @miu			#閉_にこ
 
 #「あ、はい。今切ってあげるわね」
+#SCRIPT ORIGINAL 「あ、はい。今切ってあげるわね」
 ＠Miu,B01629
 「A, yes. I will prepare it right now.」
 
 #Hikariが所望する場所を、食べごろのサイズに切り取って皿に盛る。
+#SCRIPT ORIGINAL ひかりが所望する場所を、食べごろのサイズに切り取って皿に盛る。
 　While Hikari was on the place where she made here request, the strawberry was cut down to a bite-size.
 
 @miu2			#開_にこ
 
 #「いちごはこの半分のやつね。後は他のみんなの分だから」
+#SCRIPT ORIGINAL 「いちごはこの半分のやつね。後は他のみんなの分だから」
 ＠Miu,B01630
 「You can only have half of the strawberries, because this is everyone else's share for later.」
 
 @hikari			#普.png
 
 #「んぅ～……。もうちょっと食べたいの。ダメ……？」
+#SCRIPT ORIGINAL 「んぅ～……。もうちょっと食べたいの。ダメ……？」
 ＠Hikari,N00295
 「んぅ~... I want to eat a little bit more. Can I...?」
 
 @miu			#閉_にこ
 
 #「ふふ、なら私の分をあげる。これで最後よ」
+#SCRIPT ORIGINAL 「ふふ、なら私の分をあげる。これで最後よ」
 ＠Miu,B01631
 「ふふ, then I shall give you my share. This is the last, okay?」
 
@@ -191,28 +216,34 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #「わーいっ♪　あいがとぉ！」
+#SCRIPT ORIGINAL 「わーいっ♪　あいがとぉ！」
 ＠Hikari,N00296
 「わ=uいっ♪ Thank you!」
 
 #誰にでも優しいMiuだが、Hikariには特別甘く接している感じだった。
+#SCRIPT ORIGINAL 誰にでも優しい美雨だが、ひかりには特別甘く接している感じだった。
 　Although Miu was very kind to everyone, I felt that she was especially kind to Hikari. 
 
 #まぁそれ自体は悪いことじゃないし、ちゃんと他の子のことも考えてくれてるからいいんだけど。
+#SCRIPT ORIGINAL まぁそれ自体は悪いことじゃないし、ちゃんと他の子のことも考えてくれてるからいいんだけど。
 　Well, that itself was not a bad thing, but it's okay if she also properly thought about the other children. 
 
 #「……やっぱりでかいと思ってる？　そのケーキ」
+#SCRIPT ORIGINAL 「……やっぱりでかいと思ってる？　そのケーキ」
 ＠Itsuki
 「... Still, do you think it's too big? That cake.」
 
 @miu2			#開_にこ
 
 #「あは……そ、そうですね。作りすぎてしまいました」
+#SCRIPT ORIGINAL 「あは……そ、そうですね。作りすぎてしまいました」
 ＠Miu,B01632
 「Aha... I, I think so too. I made too much.」 
 
 @miu			#閉_にこ
 
 #「よければItsukiさんも、手伝っていただけると助かるんですけど……」
+#SCRIPT ORIGINAL 「よければ樹さんも、手伝っていただけると助かるんですけど……」
 ＠Miu,B01633
 「If it is okay for Itsuki-san, it would be very helpful if you would help me but...」 
 
@@ -226,19 +257,23 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うんッ。お父しゃんも一緒に食べよーっ♪」
+#SCRIPT ORIGINAL 「うんッ。お父しゃんも一緒に食べよーっ♪」
 ＠Hikari,N00297
 「うんッ. Let us eat together, otou-shan♪」
 
 #「だな。相伴に預かろうか」
+#SCRIPT ORIGINAL 「だな。相伴に預かろうか」
 ＠Itsuki
 「You're right. I shall partake it.」
 
 @bg_black
 
 #Hikariの隣に腰を下ろし、オレもそのケーキの攻略に取り掛かることにした。
+#SCRIPT ORIGINAL ひかりの隣に腰を下ろし、オレもそのケーキの攻略に取り掛かることにした。
 　I lowered my hip beside Hikari, and me too commenced the capturing of that cake. 
 
 #「どうぞ。いま飲み物も用意します」
+#SCRIPT ORIGINAL 「どうぞ。いま飲み物も用意します」
 ＠Miu,B01634
 「Please. I'm preparing the drink now.」
 
@@ -252,57 +287,69 @@ layer_movepass_play	l_hikari,0,play_once
 @bg_living		# リビング
 
 #「それじゃ、いただきます」
+#SCRIPT ORIGINAL 「それじゃ、いただきます」
 ＠Itsuki
 「Well then, itadakimasu.」
 
 #切り分けられたケーキを一口フォークで運ぶ。
+#SCRIPT ORIGINAL 切り分けられたケーキを一口フォークで運ぶ。
 　I conveyed a small piece of sliced cake into my mouth with a fork.
 
 #その華美なデコレーションから、それなりの甘さは想像していたのだが、
+#SCRIPT ORIGINAL その華美なデコレーションから、それなりの甘さは想像していたのだが、
 　From that grandeur decoration, I could already imagine the sweetness of it but...
 
 #「ん……？　お、美味いよ。これ」
+#SCRIPT ORIGINAL 「ん……？　お、美味いよ。これ」
 ＠Itsuki
 「ん...? T, this is delicious.」
 
 #「よかった。甘さは大丈夫ですか？」
+#SCRIPT ORIGINAL 「よかった。甘さは大丈夫ですか？」
 ＠Miu,B01635
 「Thank goodness. Is the sweetness okay?」
 
 #「ああ。これならいける」
+#SCRIPT ORIGINAL 「ああ。これならいける」
 ＠Itsuki
 「ああ. If it's like this it's okay to me.」 
 
 #クリームは程よい甘さで口の中で溶け、後味もあっさりしている。
+#SCRIPT ORIGINAL クリームは程よい甘さで口の中で溶け、後味もあっさりしている。
 　The not so sweet cream dissolved in the mouth, and the aftertaste was also simple.
 
 @hikari_warai		#笑.png
 
 #「お母しゃん、お菓子ちゅくるの上手なのっ♪」
+#SCRIPT ORIGINAL 「お母しゃん、お菓子ちゅくるの上手なのっ♪」
 ＠Hikari,N00298
 「Okaa-shan is very good in making pastries♪」
 
 @miu			#閉_にこ
 
 #「ふふ、ひーちゃんもありがとう」
+#SCRIPT ORIGINAL 「ふふ、ひーちゃんもありがとう」
 ＠Miu,B01636
 「ふふ, thank you Hi-chan.」
 
 @miu2			#開_にこ
 
 #「だけど頬っぺたにクリームがついてるわよ。取ってあげるから、こっち向いて」
+#SCRIPT ORIGINAL 「だけど頬っぺたにクリームがついてるわよ。取ってあげるから、こっち向いて」
 ＠Miu,B01637
 「But there is cream sticking on your cheek. I will clean it for you, so turn over there.」
 
 #@hikari_yorokobi	#喜.png
 @hikari_tere		#照.png
 
+#SCRIPT ORIGINAL 「えへ…♪　うん！」
 ＠Hikari,N00299
 「えへ…♪　うん！」
 
 @bg_white		# 白
 
 #嬉しそうに顔を向けるHikariから、優しくクリームを拭き取るMiu。
+#SCRIPT ORIGINAL 嬉しそうに顔を向けるひかりから、優しくクリームを拭き取る美雨。
 　From Hikari that happily turned her face, Miu gently wiped off the cream.
 
 @hikari_middle		# 中間
@@ -315,16 +362,19 @@ layer_movepass_play	l_hikari,0,play_once
 @bg_living		# リビング
 
 #「Itsukiさんも、よければどんどんお替りしてくださいね」
+#SCRIPT ORIGINAL 「樹さんも、よければどんどんお替りしてくださいね」
 ＠Miu,B01638
 「Itsuki-san too, if you are fine with it please eat as much as you like.」
 
 #「自然とそうなりそうだな。この味なら」
+#SCRIPT ORIGINAL 「自然とそうなりそうだな。この味なら」
 ＠Itsuki
 「Naturally it would become like that. In case of this taste.」
 
 @miu			#閉_にこ
 
 #お茶とケーキを囲んだおやつの時間は、そうやって三人一緒に過ぎていった。
+#SCRIPT ORIGINAL お茶とケーキを囲んだおやつの時間は、そうやって三人一緒に過ぎていった。
 　The snack time that is surrounded by tea and cake was passed by the three of us together.
 
 bgm_stop

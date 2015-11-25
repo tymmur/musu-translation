@@ -9,8 +9,10 @@ label	zakuro_16
 @bg_dining_n		# 食堂(夜)
 @bgm12			#BGM 12 : メインテーマ
 
+#SCRIPT ORIGINAL その日の夕食。
 その日の夕食。
 
+#SCRIPT ORIGINAL メニューはハヤシライスだった。
 メニューはハヤシライスだった。
 
 @ichigo_middle		# 中間
@@ -25,6 +27,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「いっただっきまーす♪」
 ＠Ｉｃｈｉｇｏ,O03211
 「いっただっきまーす♪」
 
@@ -51,9 +54,11 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ハグハグハグ……あれ？　このハヤシライス、なんかいつもと味が違う」
 ＠Ｍｉｋａｎ,A03120
 「ハグハグハグ……あれ？　このハヤシライス、なんかいつもと味が違う」
 
+#SCRIPT ORIGINAL 「あ……ほんとだ、ちょっと酸っぱいか？」
 ＠Ｉｔｓｕｋｉ
 「あ……ほんとだ、ちょっと酸っぱいか？」
 
@@ -70,6 +75,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「まさか腐ってるの？　いちご、もう飲み込んじゃったよぉ！」
 ＠Ｉｃｈｉｇｏ,O03212
 「まさか腐ってるの？　いちご、もう飲み込んじゃったよぉ！」
 
@@ -79,6 +85,7 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
+#SCRIPT ORIGINAL 「なに言ってるのよ、これはビーフストロガノフ。酸っぱいのはサワークリームの味よ」
 ＠Ｋａｒｉｎ,P03533
 「なに言ってるのよ、これはビーフストロガノフ。酸っぱいのはサワークリームの味よ」
 
@@ -88,6 +95,7 @@ wait		500
 @ichigo_shifuku
 @ichigo_gimon		#コミカル疑問
 
+#SCRIPT ORIGINAL 「びーふすとろがのふ？」
 ＠Ｉｃｈｉｇｏ,O03213
 「びーふすとろがのふ？」
 
@@ -97,6 +105,7 @@ wait		500
 @suika_shifuku
 @suika_yorokobi		#喜
 
+#SCRIPT ORIGINAL 「私、聞いたことはあったけど、食べるのは初めて」
 ＠Ｓｕｉｋａ,R01309
 「私、聞いたことはあったけど、食べるのは初めて」
 
@@ -106,6 +115,7 @@ wait		500
 @karin_shifuku
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「ちゃんと作ってあるわね。デミグラスソースでお手軽に作ったんじゃなくて……うん、美味しいわ」
 ＠Ｋａｒｉｎ,P03534
 「ちゃんと作ってあるわね。デミグラスソースでお手軽に作ったんじゃなくて……うん、美味しいわ」
 
@@ -115,9 +125,11 @@ wait		500
 @mikan_shifuku
 @mikan_warai2		#笑2
 
+#SCRIPT ORIGINAL 「これってご飯にバターの味もするんだね。美味しい、美味しい♪」
 ＠Ｍｉｋａｎ,A03121
 「これってご飯にバターの味もするんだね。美味しい、美味しい♪」
 
+#SCRIPT ORIGINAL 「美雨は本当に料理がうまいな。いけるよこれ」
 ＠Ｉｔｓｕｋｉ
 「美雨は本当に料理がうまいな。いけるよこれ」
 
@@ -127,15 +139,19 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
+#SCRIPT ORIGINAL 「あ、いえ……これは私じゃなくて」
 ＠Ｍｉｕ,B03275
 「あ、いえ……これは私じゃなくて」
 
+#SCRIPT ORIGINAL 「違うの？」
 ＠Ｉｔｓｕｋｉ
 「違うの？」
 
+#SCRIPT ORIGINAL 「え、ええ……」
 ＠Ｍｉｕ,B03276
 「え、ええ……」
 
+#SCRIPT ORIGINAL 美雨は曖昧な表情になって、チラリとざくろを見る。
 美雨は曖昧な表情になって、チラリとざくろを見る。
 
 @chara_clear		#保険
@@ -144,25 +160,32 @@ wait		500
 @zakuro_shifuku
 @zakuro_iya		#嫌
 
+#SCRIPT ORIGINAL 「……………………」
 ＠Ｚａｋｕｒｏ,Q01915
 「……………………」
 
+#SCRIPT ORIGINAL つられて顔を向けると、ざくろはまだ食べ始めていなかった。
 つられて顔を向けると、ざくろはまだ食べ始めていなかった。
 
+#SCRIPT ORIGINAL じっとビーフストロガノフの皿を見つめている。
 じっとビーフストロガノフの皿を見つめている。
 
+#SCRIPT ORIGINAL この様子じゃ、ざくろが作ったというわけでもなさそうだが。
 この様子じゃ、ざくろが作ったというわけでもなさそうだが。
 
+#SCRIPT ORIGINAL 「どうした、ざくろ？　食べないのか？」
 ＠Ｉｔｓｕｋｉ
 「どうした、ざくろ？　食べないのか？」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「……食べる」
 ＠Ｚａｋｕｒｏ,Q01916
 「……食べる」
 
 @SE35			#ティーカップを置く音（カチャ）
 
+#SCRIPT ORIGINAL ざくろは言い、スプーンを手に取った。
 ざくろは言い、スプーンを手に取った。
 
 @chara_clear		#保険
@@ -171,6 +194,7 @@ wait		500
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「はい、青ノリ」
 ＠Ｉｃｈｉｇｏ,O03214
 「はい、青ノリ」
 
@@ -180,9 +204,11 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「ありがと」
 ＠Ｚａｋｕｒｏ,Q01917
 「ありがと」
 
+#SCRIPT ORIGINAL いちごから青ノリの瓶を受け取るが、蓋を開けずにそのまま横に置いた。
 いちごから青ノリの瓶を受け取るが、蓋を開けずにそのまま横に置いた。
 
 @chara_clear		#保険
@@ -191,6 +217,7 @@ wait		500
 @ichigo_shifuku
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「あれ？　かけないの？」
 ＠Ｉｃｈｉｇｏ,O03215
 「あれ？　かけないの？」
 
@@ -200,6 +227,7 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「………いい」
 ＠Ｚａｋｕｒｏ,Q01918
 「………いい」
 
@@ -209,14 +237,17 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
+#SCRIPT ORIGINAL 「珍しいわね。ま、この味に青ノリは全然合わないしね。他の料理もそうだけど」
 ＠Ｋａｒｉｎ,P03535
 「珍しいわね。ま、この味に青ノリは全然合わないしね。他の料理もそうだけど」
 
+#SCRIPT ORIGINAL 「……………………」
 ＠Ｚａｋｕｒｏ,Q01919
 「……………………」
 
 @SE35			#ティーカップを置く音（カチャ）
 
+#SCRIPT ORIGINAL かりんが混ぜっ返したが、ざくろは何も言わずにスプーンで料理をすくい、ゆっくりと口に運んだ。
 かりんが混ぜっ返したが、ざくろは何も言わずにスプーンで料理をすくい、ゆっくりと口に運んだ。
 
 @chara_clear		#保険
@@ -225,27 +256,34 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
+#SCRIPT ORIGINAL 「…………あ」
 ＠Ｚａｋｕｒｏ,Q01920
 「…………あ」
 
+#SCRIPT ORIGINAL ざくろの目が驚きに見開かれる。
 ざくろの目が驚きに見開かれる。
 
+#SCRIPT ORIGINAL 美味しいものを食べたとき特有のふわっと優しい顔になったが、
 美味しいものを食べたとき特有のふわっと優しい顔になったが、
 
 @zakuro_iya		#嫌
 
+#SCRIPT ORIGINAL 「…………っ」
 ＠Ｚａｋｕｒｏ,Q01921
 「…………っ」
 
 @SE35			#ティーカップを置く音（カチャ）
 
+#SCRIPT ORIGINAL すぐにその顔を強ばらせて、カチャリとスプーンを放した。
 すぐにその顔を強ばらせて、カチャリとスプーンを放した。
 
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「美雨、あの人がこれを作ったの？」
 ＠Ｚａｋｕｒｏ,Q01922
 「美雨、あの人がこれを作ったの？」
 
+#SCRIPT ORIGINAL 美雨を見上げ、固い表情で尋ねる。
 美雨を見上げ、固い表情で尋ねる。
 
 @chara_clear		#保険
@@ -254,6 +292,7 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
+#SCRIPT ORIGINAL 「う、うん……今日ざくろちゃんが接待に行ってる時に来てね、それでお料理をさせてほしいって」
 ＠Ｍｉｕ,B03277
 「う、うん……今日ざくろちゃんが接待に行ってる時に来てね、それでお料理をさせてほしいって」
 
@@ -263,6 +302,7 @@ wait		500
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「そう言われたからさせたの？　なんでそんなこと勝手に……」
 ＠Ｚａｋｕｒｏ,Q01923
 「そう言われたからさせたの？　なんでそんなこと勝手に……」
 
@@ -272,6 +312,7 @@ wait		500
 @miu_maid
 @miu_kanashimi		#開_哀
 
+#SCRIPT ORIGINAL 「ごめんなさい。私はどうかと思ったんだけど、どうしても作ってあげたいからって……それで」
 ＠Ｍｉｕ,B03278
 「ごめんなさい。私はどうかと思ったんだけど、どうしても作ってあげたいからって……それで」
 
@@ -281,13 +322,17 @@ wait		500
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「………………」
 ＠Ｚａｋｕｒｏ,Q01924
 「………………」
 
+#SCRIPT ORIGINAL あの人――じゃあ、これはざくろの母親が作ったのか？
 あの人――じゃあ、これはざくろの母親が作ったのか？
 
+#SCRIPT ORIGINAL ざくろはたった一口食べて、それに気付いた。
 ざくろはたった一口食べて、それに気付いた。
 
+#SCRIPT ORIGINAL 幼い頃に作ってもらった記憶か。
 幼い頃に作ってもらった記憶か。
 
 @chara_clear		#保険
@@ -296,6 +341,7 @@ wait		500
 @shizuku_shifuku
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「あたしが許したんだよ。別に構わないだろうってね」
 ＠Ｓｈｉｚｕｋｕ,S01664
 「あたしが許したんだよ。別に構わないだろうってね」
 
@@ -305,9 +351,11 @@ wait		500
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「雫………」
 ＠Ｚａｋｕｒｏ,Q01925
 「雫………」
 
+#SCRIPT ORIGINAL ざくろは雫さんを睨み付ける。
 ざくろは雫さんを睨み付ける。
 
 @chara_clear		#保険
@@ -316,19 +364,23 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「いいじゃないか、料理ぐらいつくらせてやったって」
 ＠Ｓｈｉｚｕｋｕ,S01665
 「いいじゃないか、料理ぐらいつくらせてやったって」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「あんたの好物だってね。なんか言ってたよ、梅干しを入れるのが隠し味とかなんとか」
 ＠Ｓｈｉｚｕｋｕ,S01666
 「あんたの好物だってね。なんか言ってたよ、梅干しを入れるのが隠し味とかなんとか」
 
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「どこに入ってるんだか知らないけど、なかなか美味いじゃないか。あたしは気に入ったよ」
 ＠Ｓｈｉｚｕｋｕ,S01667
 「どこに入ってるんだか知らないけど、なかなか美味いじゃないか。あたしは気に入ったよ」
 
+#SCRIPT ORIGINAL 雫さんは何でもないことのように言って、もう話は終わったとばかりに食事の続きを始めた。
 雫さんは何でもないことのように言って、もう話は終わったとばかりに食事の続きを始めた。
 
 @chara_clear		#保険
@@ -337,9 +389,11 @@ wait		500
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
+#SCRIPT ORIGINAL 「……………………」
 ＠Ｚａｋｕｒｏ,Q01926
 「……………………」
 
+#SCRIPT ORIGINAL ざくろは無言で、母親が作った料理を睨み付けている。
 ざくろは無言で、母親が作った料理を睨み付けている。
 
 @chara_clear		#保険
@@ -348,6 +402,7 @@ wait		500
 @suika_shifuku
 @suika			#普
 
+#SCRIPT ORIGINAL 「ざくろちゃん……？」
 ＠Ｓｕｉｋａ,R01310
 「ざくろちゃん……？」
 
@@ -357,6 +412,7 @@ wait		500
 @ichigo_shifuku
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「食べないの？　美味しいよ」
 ＠Ｉｃｈｉｇｏ,O03216
 「食べないの？　美味しいよ」
 
@@ -366,6 +422,7 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「どうしちゃったの？　あの人って誰よ」
 ＠Ｋａｒｉｎ,P03536
 「どうしちゃったの？　あの人って誰よ」
 
@@ -375,11 +432,14 @@ wait		500
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「大丈夫、ざくろちゃん？」
 ＠Ｍｉｋａｎ,A03122
 「大丈夫、ざくろちゃん？」
 
+#SCRIPT ORIGINAL ただならぬざくろの気配に、他の子達も食事の手を止めてしまっていた。
 ただならぬざくろの気配に、他の子達も食事の手を止めてしまっていた。
 
+#SCRIPT ORIGINAL 雫さんが鳴らす食器の音だけが、食堂に響く。
 雫さんが鳴らす食器の音だけが、食堂に響く。
 
 @chara_clear		#保険
@@ -396,25 +456,32 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「…………はぁ」
 ＠Ｚａｋｕｒｏ,Q01927
 「…………はぁ」
 
 @zakuro_
 
+#SCRIPT ORIGINAL ざくろは大きく溜息を吐いて、肩を落とした。
 ざくろは大きく溜息を吐いて、肩を落とした。
 
 @SE35			#ティーカップを置く音（カチャ）
 
+#SCRIPT ORIGINAL そしてスプーンを持ち直すと、いつもの表情に戻ってそれを――母親の料理を食べ始めた。
 そしてスプーンを持ち直すと、いつもの表情に戻ってそれを――母親の料理を食べ始めた。
 
+#SCRIPT ORIGINAL 「ぱく……ぱくぱく……ぱく……ぱく……ごくん」
 ＠Ｚａｋｕｒｏ,Q01928
 「ぱく……ぱくぱく……ぱく……ぱく……ごくん」
 
+#SCRIPT ORIGINAL そうだな……ざくろ。
 そうだな……ざくろ。
 
+#SCRIPT ORIGINAL 「みんな、どうしたんだ？　せっかくの美味い料理が冷めるぞ」
 ＠Ｉｔｓｕｋｉ
 「みんな、どうしたんだ？　せっかくの美味い料理が冷めるぞ」
 
+#SCRIPT ORIGINAL オレもまた、今の一件が何もなかったかのような顔をして、パクパクとそれを食べていく。
 オレもまた、今の一件が何もなかったかのような顔をして、パクパクとそれを食べていく。
 
 @chara_clear		#保険
@@ -423,6 +490,7 @@ wait		500
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ま、いっか……食～べよっ♪」
 ＠Ｉｃｈｉｇｏ,O03217
 「ま、いっか……食～べよっ♪」
 
@@ -432,13 +500,16 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「何なのよ、まったく……」
 ＠Ｋａｒｉｎ,P03537
 「何なのよ、まったく……」
 
 @karin_
 
+#SCRIPT ORIGINAL 首をかしげつつ、他の子達も食事を再開した。
 首をかしげつつ、他の子達も食事を再開した。
 
+#SCRIPT ORIGINAL ぎこちなくなっていた食卓も、すぐに普段の喧噪を取り戻していく。
 ぎこちなくなっていた食卓も、すぐに普段の喧噪を取り戻していく。
 
 @chara_clear		#保険
@@ -468,6 +539,7 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はぐ……んっ……はぐはぐ……う～～ん、美味しい」
 ＠Ｍｉｋａｎ,A03123
 「はぐ……んっ……はぐはぐ……う～～ん、美味しい」
 
@@ -477,6 +549,7 @@ wait		500
 @suika_shifuku
 @suika_warai		#笑
 
+#SCRIPT ORIGINAL 「うん、ほんとに美味しいね」
 ＠Ｓｕｉｋａ,R01311
 「うん、ほんとに美味しいね」
 
@@ -493,6 +566,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「おかわり～～～！　それとパパ、マヨネーズちょうだい！！」
 ＠Ｉｃｈｉｇｏ,O03218
 「おかわり～～～！　それとパパ、マヨネーズちょうだい！！」
 
@@ -502,6 +576,7 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「あんた、これにもかけるつもり？　今日くらいざくろを見習ったら？」
 ＠Ｋａｒｉｎ,P03538
 「あんた、これにもかけるつもり？　今日くらいざくろを見習ったら？」
 
@@ -511,6 +586,7 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「別に見習わなくていい」
 ＠Ｚａｋｕｒｏ,Q01929
 「別に見習わなくていい」
 
@@ -520,6 +596,7 @@ wait		500
 @karin_shifuku
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「なんでよ、青ノリなしで食べてるじゃない？　普通に美味しいんじゃないの？」
 ＠Ｋａｒｉｎ,P03539
 「なんでよ、青ノリなしで食べてるじゃない？　普通に美味しいんじゃないの？」
 
@@ -529,6 +606,7 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「違う。こんな料理にかけたら、青ノリがもったいない」
 ＠Ｚａｋｕｒｏ,Q01930
 「違う。こんな料理にかけたら、青ノリがもったいない」
 
@@ -538,14 +616,17 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
+#SCRIPT ORIGINAL 「なに？　まずいの？」
 ＠Ｋａｒｉｎ,P03540
 「なに？　まずいの？」
 
+#SCRIPT ORIGINAL 「青ノリをかけるに値しないだけ……ぱくっ……はぐ……ぱくぱくっ」
 ＠Ｚａｋｕｒｏ,Q01931
 「青ノリをかけるに値しないだけ……ぱくっ……はぐ……ぱくぱくっ」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「はぁ、相変わらずよく分からないわね。まあいいわ……美雨、おかわり」
 ＠Ｋａｒｉｎ,P03541
 「はぁ、相変わらずよく分からないわね。まあいいわ……美雨、おかわり」
 
@@ -562,6 +643,7 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「みかんもーー。ざくろちゃんはおかわりしないの？」
 ＠Ｍｉｋａｎ,A03124
 「みかんもーー。ざくろちゃんはおかわりしないの？」
 
@@ -571,32 +653,42 @@ wait		500
 @zakuro_shifuku
 @zakuro_iya		#嫌
 
+#SCRIPT ORIGINAL 「……………………」
 ＠Ｚａｋｕｒｏ,Q01932
 「……………………」
 
+#SCRIPT ORIGINAL 空になった皿を見て、ざくろが少し考え込む。
 空になった皿を見て、ざくろが少し考え込む。
 
+#SCRIPT ORIGINAL 「ざくろ、ちゃんと食っておけよ。調教には体力がいるからな」
 ＠Ｉｔｓｕｋｉ
 「ざくろ、ちゃんと食っておけよ。調教には体力がいるからな」
 
+#SCRIPT ORIGINAL ざくろはオレをチラリと見て、小さく溜息を吐き、
 ざくろはオレをチラリと見て、小さく溜息を吐き、
 
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「言われないでも分かってる……おかわり」
 ＠Ｚａｋｕｒｏ,Q01933
 「言われないでも分かってる……おかわり」
 
 @zakuro_
 
+#SCRIPT ORIGINAL と、いつものように無表情で空皿を差し出した。
 と、いつものように無表情で空皿を差し出した。
 
+#SCRIPT ORIGINAL 「はぐ……んっ……はぐはぐ……ぱく……」
 ＠Ｚａｋｕｒｏ,Q01934
 「はぐ……んっ……はぐはぐ……ぱく……」
 
+#SCRIPT ORIGINAL 子供の頃に食べたものの記憶は、大人になってもずっと覚えていると聞いたことがある。
 子供の頃に食べたものの記憶は、大人になってもずっと覚えていると聞いたことがある。
 
+#SCRIPT ORIGINAL あんな母親の料理といえども、ざくろにとっては懐かしい味なのだろう。
 あんな母親の料理といえども、ざくろにとっては懐かしい味なのだろう。
 
+#SCRIPT ORIGINAL 二杯目をパクパクと食べる姿を見ながら、オレはそんなことを考えていた。
 二杯目をパクパクと食べる姿を見ながら、オレはそんなことを考えていた。
 
 bgm_stop

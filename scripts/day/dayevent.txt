@@ -272,8 +272,11 @@ sel=0
 #"みかんルートに入る","みかんルートに入らない"
 #"いちごルートに入る","いちごルートに入らない"
 #"かりんルートに入る","かりんルートに入らない"
+#SCRIPT ORIGINAL if GLOBAL(100)=1 and route_chara=1 then select sel,"みかんルートに入る","みかんルートに入らない"
 if GLOBAL(100)=1 and route_chara=1 then select sel,"Enter Mikan's route", "Don't enter Mikan's route"
+#SCRIPT ORIGINAL if GLOBAL(101)=1 and route_chara=2 then select sel,"いちごルートに入る","いちごルートに入らない"
 if GLOBAL(101)=1 and route_chara=2 then select sel,"Enter Ichigo's route","Don't enter Ichigo's route"
+#SCRIPT ORIGINAL if GLOBAL(102)=1 and route_chara=3 then select sel,"かりんルートに入る","かりんルートに入らない"
 if GLOBAL(102)=1 and route_chara=3 then select sel,"Enter Karin's route", "Don't enter Karin's route"
 
 if sel=1 then route_chara=0
@@ -286,6 +289,7 @@ return
 label	date_hikari
 sel=0
 #"ひかりルートに入る","ひかりルートに入らない"
+#SCRIPT ORIGINAL if GLOBAL(107)=1 then select sel,"ひかりルートに入る","ひかりルートに入らない"
 if GLOBAL(107)=1 then select sel,"Enter Hikari's route","Don't enter Hikari's route"
 
 if sel=1 then return

@@ -11,25 +11,31 @@ bgm_stop
 #■BG（住宅街）
 @bg_jyuutakugai		# 住宅街
 
+#SCRIPT ORIGINAL （……まただ）
 ＠Itsuki
 （……まただ）
 
+#SCRIPT ORIGINAL いつか感じた視線を、またどこかから感じた。
 いつか感じた視線を、またどこかから感じた。
 
 @ichigo_small
 @ichigo_shifuku
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「うー、どうしたのパパ……お腹すいたよぉ」
 ＠Ichigo,O00800
 「うー、どうしたのパパ……お腹すいたよぉ」
 
+#SCRIPT ORIGINAL 「ああ、悪い悪い。帰ろう」
 ＠Itsuki
 「ああ、悪い悪い。帰ろう」
 
 @bgm12			#BGM 12 : メインテーマ
 
+#SCRIPT ORIGINAL 今はいちごが接待を終え、その迎えに行った帰りだった。
 今はいちごが接待を終え、その迎えに行った帰りだった。
 
+#SCRIPT ORIGINAL お昼をまたいでいるため、いちごはすっかり腹ペコ状態になっている。
 お昼をまたいでいるため、いちごはすっかり腹ペコ状態になっている。
 
 @ichigo_kanashimi	#哀
@@ -42,51 +48,64 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はぁ。ずっとお腹がグゥグゥ鳴ってるよぉ」
 ＠Ichigo,O00801
 「はぁ。ずっとお腹がグゥグゥ鳴ってるよぉ」
 
 #layer_movepass_init	l_ichigo,0	#演出初期化
 
+#SCRIPT ORIGINAL 「なぁいちご。何か最近変なこととかないか？」
 ＠Itsuki
 「なぁいちご。何か最近変なこととかないか？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「え……？　変なこと？」
 ＠Ichigo,O00802
 「え……？　変なこと？」
 
+#SCRIPT ORIGINAL 「誰かに追いかけられたとか」
 ＠Itsuki
 「誰かに追いかけられたとか」
 
+#SCRIPT ORIGINAL オレには視線だけだが、いちごに害が出ているとなると放置は出来ない。
 オレには視線だけだが、いちごに害が出ているとなると放置は出来ない。
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「美雨に追いかけられたよ。テストの点が悪かったから」
 ＠Ichigo,O00803
 「美雨に追いかけられたよ。テストの点が悪かったから」
 
+#SCRIPT ORIGINAL 「そうじゃなくて、知らない人にだ」
 ＠Itsuki
 「そうじゃなくて、知らない人にだ」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「うーん、無いと思うよ。どうして？」
 ＠Ichigo,O00804
 「うーん、無いと思うよ。どうして？」
 
+#SCRIPT ORIGINAL 「いや、それならいいんだ。気にするな」
 ＠Itsuki
 「いや、それならいいんだ。気にするな」
 
+#SCRIPT ORIGINAL 仕事が仕事だけに、変な男が寄ってくる可能性は十分にある。
 仕事が仕事だけに、変な男が寄ってくる可能性は十分にある。
 
+#SCRIPT ORIGINAL 一応雫さんにも報告はしておいた方がいいだろうな。
 一応雫さんにも報告はしておいた方がいいだろうな。
 
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「お腹すいた……死んじゃうかも」
 ＠Ichigo,O00805
 「お腹すいた……死んじゃうかも」
 
+#SCRIPT ORIGINAL 「死ぬのか。それは一大事だ」
 ＠Itsuki
 「死ぬのか。それは一大事だ」
 
@@ -98,11 +117,13 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん……」
 ＠Ichigo,O00806
 「うん……」
 
 @ichigo_
 
+#SCRIPT ORIGINAL オレは視線を振り切るように、いちごは食べ物を求め、足早に歩き出した。
 オレは視線を振り切るように、いちごは食べ物を求め、足早に歩き出した。
 
 #一拍
@@ -115,9 +136,11 @@ wait		1000
 @houkou_kage		# 影
 @bg_jyuutakugai		# 住宅街
 
+#SCRIPT ORIGINAL 「………まさかこんなところにいるとはな」
 ＠???,E00000
 「………まさかこんなところにいるとはな」
 
+#SCRIPT ORIGINAL 「さぁて、どうしてやろうか……いちご」
 ＠???,E00001
 「さぁて、どうしてやろうか……いちご」
 

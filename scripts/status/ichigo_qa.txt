@@ -33,29 +33,35 @@ label	ichigo_qa01
 @bg_itsuki_n		# 自室(夜)
 
 #「パパ～、まだ起きてる？」
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O01930
 「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
 #部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 　I was relaxing in my room, when Ichigo came to ask me something.
 
 #「ああ、どうしたいちご？」
+#SCRIPT ORIGINAL 「ああ、どうしたいちご？」
 ＠Itsuki
 「Yeah, what is it Ichigo?」
 
 @ichigo			#普通
 
 #「えっとね、この人形が急に動かなくなっちゃったの」
+#SCRIPT ORIGINAL 「えっとね、この人形が急に動かなくなっちゃったの」
 ＠Ichigo,O01931
 「Um, this doll stopped moving all of a sudden」
 
 #「昨日まではちゃんと動いてたのに……壊れちゃったのかな」
+#SCRIPT ORIGINAL 「昨日まではちゃんと動いてたのに……壊れちゃったのかな」
 ＠Ichigo,O01932
 「It was moving just yesterday... I think it broke」
 
 #「ふむ。どれどれ」
+#SCRIPT ORIGINAL 「ふむ。どれどれ」
 ＠Itsuki
 「Mhm. Let's see here...」
 
@@ -63,9 +69,11 @@ label	ichigo_qa01
 @bg_black
 
 #いちごが持って来たのは、片腕に抱えるほどのウサギのヌイグルミだった。
+#SCRIPT ORIGINAL いちごが持って来たのは、片腕に抱えるほどのウサギのヌイグルミだった。
 　I was a stuffed bunny Ichigo brought clutched in her arm.
 
 #触ると中に機械の感触がして、動くようになっているのが分かる。
+#SCRIPT ORIGINAL 触ると中に機械の感触がして、動くようになっているのが分かる。
 　Taking a look, I feel inside the device and find it's on.
 
 @ichigo_small
@@ -74,16 +82,19 @@ label	ichigo_qa01
 @bg_itsuki_n		# 自室(夜)
 
 #「スイッチは………反応なしか」
+#SCRIPT ORIGINAL 「スイッチは………反応なしか」
 ＠Itsuki
 「The switch... doesn't work」
 
 @ichigo_komaru		#困
 
 #「いちご、それ大事にしてたのに……。それでも壊れちゃったの？」
+#SCRIPT ORIGINAL 「いちご、それ大事にしてたのに……。それでも壊れちゃったの？」
 ＠Ichigo,O01933
 「Ichigo took such good care of it... but it still broke?」
 
 #「う～ん」
+#SCRIPT ORIGINAL 「う～ん」
 ＠Itsuki
 「Hmm～」
 
@@ -91,6 +102,7 @@ label	ichigo_qa01
 #■（選択肢）
 #（１．もう少し良く調べる）Examine more closely
 #（２．新しい物を買ってあげる）Just get a new one
+#SCRIPT ORIGINAL select sel,"もう少し良く調べる","新しい物を買ってあげる"
 select sel,"Examine more closely","Just get a new one"
 if sel=0 then goto ichigo_qa01_a
 if sel=1 then goto ichigo_qa01_b
@@ -102,25 +114,31 @@ if sel=1 then goto ichigo_qa01_b
 label	ichigo_qa01_a
 
 #大事にしていた物が、そう易々と壊れるはずが無い。
+#SCRIPT ORIGINAL 大事にしていた物が、そう易々と壊れるはずが無い。
 　It's unlikely for it to break, if she was taking good care of it.
 
 #「ん？　これは……」
+#SCRIPT ORIGINAL 「ん？　これは……」
 ＠Itsuki
 「Hm? This here...」
 
 @ichigo			#普通
 
 #「分かったのっ…？」
+#SCRIPT ORIGINAL 「分かったのっ…？」
 ＠Ichigo,O01934
 「Did you figure it out...?」
 
 #見つけたのは、電池をセットする場所だった。
+#SCRIPT ORIGINAL 見つけたのは、電池をセットする場所だった。
 　I found the spot where the battery goes.
 
 #……もしかして。
+#SCRIPT ORIGINAL ……もしかして。
 　...Just maybe.
 
 #「…？」
+#SCRIPT ORIGINAL 「…？」
 ＠Ichigo,O01935
 「...?」
 
@@ -128,25 +146,31 @@ label	ichigo_qa01_a
 @SE28			#SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 
 #突然立ち上がって机を漁りだすオレに、いちごが不思議そうな視線を向ける。
+#SCRIPT ORIGINAL 突然立ち上がって机を漁りだすオレに、いちごが不思議そうな視線を向ける。
 　Ichigo looks on at me astonished, as I get up and start rummaging inside the desk.
 
 #引き出しから予備の電池を出して、オレはヌイグルミにセットした。
+#SCRIPT ORIGINAL 引き出しから予備の電池を出して、オレはヌイグルミにセットした。
 　I took out a spare battery from the drawer, and replaced the one in the plushie.
 
 #「どうだ……」
+#SCRIPT ORIGINAL 「どうだ……」
 ＠Itsuki
 「How's that...?」
 
 #そして、再びスイッチを入れると……
+#SCRIPT ORIGINAL そして、再びスイッチを入れると……
 　And giving the switch another flip...
 
 @ichigo_yorokobi	#喜
 
 #「あッ！　動いたッ、動いたよパパ～！」
+#SCRIPT ORIGINAL 「あッ！　動いたッ、動いたよパパ～！」
 ＠Ichigo,O01936
 「Ah! Papa, it moved, it moved～!」
 
 #ヌイグルミの身体が軽く前後に揺れ、耳がピコピコと動きを見せた。
+#SCRIPT ORIGINAL ヌイグルミの身体が軽く前後に揺れ、耳がピコピコと動きを見せた。
 　Its body swayed gently back and forth, and the ears twitched delicately.
 
 #///////////////////////////////////////////////////////
@@ -162,27 +186,33 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「わあいッ！　良かったッ、ちゃんと動いた～！」
+#SCRIPT ORIGINAL 「わあいッ！　良かったッ、ちゃんと動いた～！」
 ＠Ichigo,O01937
 「Yayy! I'm so happy, it's moving again～!」
 
 #「ふぅ。どうやらただの電池切れだったみたいだぞ」
+#SCRIPT ORIGINAL 「ふぅ。どうやらただの電池切れだったみたいだぞ」
 ＠Itsuki
 「Phew. Looks like the battery just ran out」
 
 #原因を解明して、いちごにヌイグルミを返してあげる。
+#SCRIPT ORIGINAL 原因を解明して、いちごにヌイグルミを返してあげる。
 　I explained the problem, and gave the plushie back to Ichigo.
 
 @ichigo_warai		#笑
 
 #「ありがとうパパ！　この人形、いちごのお気に入りのだったの♪」
+#SCRIPT ORIGINAL 「ありがとうパパ！　この人形、いちごのお気に入りのだったの♪」
 ＠Ichigo,O01938
 「Thanks, Papa! I sure liked this doll a lot, you know♪」
 
 #「そっかぁ電池か～、いちご壊れたのかと思っちゃった」
+#SCRIPT ORIGINAL 「そっかぁ電池か～、いちご壊れたのかと思っちゃった」
 ＠Ichigo,O01939
 「So it was the battery, huh～, I thought I broke it or something」
 
 #「ははは、慌てんぼだな。でも良かった」
+#SCRIPT ORIGINAL 「ははは、慌てんぼだな。でも良かった」
 ＠Itsuki
 「Hahaha, you got worried over nothing. But it was all good in the end」
 
@@ -196,10 +226,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うんッ、いちごじゃ気付かなかったもん。パパどうもありがとう！」
+#SCRIPT ORIGINAL 「うんッ、いちごじゃ気付かなかったもん。パパどうもありがとう！」
 ＠Ichigo,O01940
 「Yeah, I didn't figure that out. Thanks so much, Papa!」
 
 #「どういたしまして」
+#SCRIPT ORIGINAL 「どういたしまして」
 ＠Itsuki
 「You're very welcome」
 
@@ -207,9 +239,11 @@ bgm_stop
 @ichigo_
 
 #元気に動くヌイグルミを抱えてはしゃぐいちご。
+#SCRIPT ORIGINAL 元気に動くヌイグルミを抱えてはしゃぐいちご。
 　Ichigo is overjoyed, hugging her happily moving stuffed toy.
 
 #夜の時間に少々騒がしくもあったが、その喜びように、今だけは許してあげることにした。
+#SCRIPT ORIGINAL 夜の時間に少々騒がしくもあったが、その喜びように、今だけは許してあげることにした。
 　Though my quiet evening was broken, I'll let her off the hook this time, being so pleased.
 
 @chara_clear		#保険
@@ -226,48 +260,59 @@ return
 label	ichigo_qa01_b
 
 #「じゃあ、新しいのを買ってやろうか」
+#SCRIPT ORIGINAL 「じゃあ、新しいのを買ってやろうか」
 ＠Itsuki
 「Then, maybe I can buy you a new one」
 
 #「ううん、それもう売ってないってお店の人が言ってたから……」
+#SCRIPT ORIGINAL 「ううん、それもう売ってないってお店の人が言ってたから……」
 ＠Ichigo,O01941
 「Nope, you can't buy them anymore, the store person said...」
 
 @ichigo_kanashimi	#哀
 
 #「やっぱり大事にしてても、いちごの遊び方が乱暴だったのかな……」
+#SCRIPT ORIGINAL 「やっぱり大事にしてても、いちごの遊び方が乱暴だったのかな……」
 ＠Ichigo,O01942
 「I thought I took good care of it, but I might've been too rough playing with it...」
 
 #「う～ん……そんなことは無いと思うけど」
+#SCRIPT ORIGINAL 「う～ん……そんなことは無いと思うけど」
 ＠Itsuki
 「Hmm～... I'm not so sure about that」
 
 #フォローしようとは思うが、実際に壊れた玩具があって、上手く言葉が出てこない。
+#SCRIPT ORIGINAL フォローしようとは思うが、実際に壊れた玩具があって、上手く言葉が出てこない。
 　I meant to follow up, but what's broke was broken, so I couldn't come up with anything.
 
 @ichigo_komaru		#困
 
 #「ごめんねパパ。部屋に持って帰るよ」
+#SCRIPT ORIGINAL 「ごめんねパパ。部屋に持って帰るよ」
 ＠Ichigo,O01943
 「Sorry, Papa. I'll take it back to my room」
 
 #「いいのか……？」
+#SCRIPT ORIGINAL 「いいのか……？」
 ＠Itsuki
 「Are you sure...?」
 
 #「うん。ヌイグルミとして持っておくから……」
+#SCRIPT ORIGINAL 「うん。ヌイグルミとして持っておくから……」
 ＠Ichigo,O01944
 「Yeah. I'll keep it just as a stuffed animal...」
 
 #オレからヌイグルミを受け取ると、しょんぼりしてそれを抱きしめる。
+#SCRIPT ORIGINAL オレからヌイグルミを受け取ると、しょんぼりしてそれを抱きしめる。
 　She takes the doll back from me, and shoulders slumped hugs it close.
 
 #「おやすみなさい、パパ」
+#SCRIPT ORIGINAL 「おやすみなさい、パパ」
 ＠Ichigo,O01945
 「Have a good night, Papa」
 
 #「……おやすみ」
+#SCRIPT ORIGINAL 「……おやすみ」
 ＠Itsuki
 「...Good night」
 
@@ -279,13 +324,16 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #いちごはトボトボと部屋へ帰っていった。
+#SCRIPT ORIGINAL いちごはトボトボと部屋へ帰っていった。
 　Ichigo trudged back to her room.
 
 #（きっと、オレに頼めば何とかなるって思ってくれてたんだろうな）
+#SCRIPT ORIGINAL （きっと、オレに頼めば何とかなるって思ってくれてたんだろうな）
 ＠Itsuki
 （She probably thought, asking me, I would be able to figure something out）
 
 #可哀想だけど、済んだ物は仕方ないと諦めるしかなかった。
+#SCRIPT ORIGINAL 可哀想だけど、済んだ物は仕方ないと諦めるしかなかった。
 　It's unfortunate, but its time had come so there was nothing I could do but give up.
 
 @chara_clear		#保険
@@ -309,25 +357,30 @@ label	ichigo_qa02
 @bg_itsuki_n		# 自室(夜)
 
 #「パパ～、まだ起きてる？」
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O01946
 「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
 #部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 　I was relaxing in my room, when Ichigo came to ask me something.
 
 #「ああ、どうしたいちご？」
+#SCRIPT ORIGINAL 「ああ、どうしたいちご？」
 ＠Itsuki
 「Yeah, what is it Ichigo?」
 
 @ichigo			#普通
 
 #「いちご分からないことがあって、パパに聞きに来たんだけど」
+#SCRIPT ORIGINAL 「いちご分からないことがあって、パパに聞きに来たんだけど」
 ＠Ichigo,O01947
 「I came to ask you because there's something I don't understand」
 
 #「〝アナル〟と〝アヌス〟ってどう違うの？」
+#SCRIPT ORIGINAL 「〝アナル〟と〝アヌス〟ってどう違うの？」
 ＠Ichigo,O01948
 「What's the difference between "anal" and "anus"?」
 
@@ -336,40 +389,49 @@ label	ichigo_qa02
 screen_vibration	500,16,16,16
 
 #「ぶッ！？」
+#SCRIPT ORIGINAL 「ぶッ！？」
 ＠Itsuki
 「Bugh!?」
 
 #いきなり変なことを尋ねられて、思いっきりずっこけた。
+#SCRIPT ORIGINAL いきなり変なことを尋ねられて、思いっきりずっこけた。
 　With the sudden weird question, I jerked out of my seat.
 
 #「な、何だよ急にアナルって……てっきり宿題とかと思ったのに」
+#SCRIPT ORIGINAL 「な、何だよ急にアナルって……てっきり宿題とかと思ったのに」
 ＠Itsuki
 「W-why are you asking that all of a sudden...? I thought this was about homework」
 
 @ichigo_ase		#汗
 
 #「宿題でアナルを調べるなんて出たこと無いよ？」
+#SCRIPT ORIGINAL 「宿題でアナルを調べるなんて出たこと無いよ？」
 ＠Ichigo,O01949
 「We never had anything anal-related for homework, you know?」
 
 #そんなの当たり前だ……
+#SCRIPT ORIGINAL そんなの当たり前だ……
 　No kidding...
 
 #「はぁ……で、何だって？」
+#SCRIPT ORIGINAL 「はぁ……で、何だって？」
 ＠Itsuki
 「Sigh... so, what was it again?」
 
 @ichigo			#普通
 
 #「えっとね、〝アナル〟と〝アヌス〟」
+#SCRIPT ORIGINAL 「えっとね、〝アナル〟と〝アヌス〟」
 ＠Ichigo,O01950
 「Umm, "anal" and "anus"」
 
 #「どっちもお尻のことじゃないの？　どうして同じような言葉が二つあるの？」
+#SCRIPT ORIGINAL 「どっちもお尻のことじゃないの？　どうして同じような言葉が二つあるの？」
 ＠Ichigo,O01951
 「Both of them are talking about butt, right? Why's there 2 words that mean the same thing?」
 
 #「……それはだな」
+#SCRIPT ORIGINAL 「……それはだな」
 ＠Itsuki
 「...As for that」
 
@@ -377,6 +439,7 @@ screen_vibration	500,16,16,16
 #■（選択肢）
 #（１．アヌスが名詞、アナルが形容詞だ）
 #（２．アヌスが形容詞、アナルが名詞だ）
+#SCRIPT ORIGINAL select sel,"アヌスが名詞、アナルが形容詞だ","アヌスが形容詞、アナルが名詞だ"
 select sel,"Anus is a noun, anal's an adjective","Anus is an adjective, anal's a noun"
 sel1=sel
 #--------------------------------------------------
@@ -385,33 +448,40 @@ sel1=sel
 @ichigo_odoroki		#驚
 
 #「へぇ～、そうだったんだ」
+#SCRIPT ORIGINAL 「へぇ～、そうだったんだ」
 ＠Ichigo,O01952
 「Ohh～, so that's what it was」
 
 #「でも何で急にそんな事を訊きだすんだ……？」
+#SCRIPT ORIGINAL 「でも何で急にそんな事を訊きだすんだ……？」
 ＠Itsuki
 「But why'd you want to know that out of the blue...?」
 
 @ichigo_yorokobi	#喜
 
 #「うん、あのね、雫が新しい調教のアイディアを話しててね―――」
+#SCRIPT ORIGINAL 「うん、あのね、雫が新しい調教のアイディアを話しててね―――」
 ＠Ichigo,O01953
 「Well, um, Shizuku was talking about a new idea for training―――」
 
 #「あ、うん、分かったもういい。やっぱりあの人が原因なんだな」
+#SCRIPT ORIGINAL 「あ、うん、分かったもういい。やっぱりあの人が原因なんだな」
 ＠Itsuki
 「Oh, OK, I understand now. She's the one behind this, of course」
 
 #無駄だろうけど、あとで気をつけるように言っておこう。
+#SCRIPT ORIGINAL 無駄だろうけど、あとで気をつけるように言っておこう。
 　It's likely pointless, but I ought to tell her to be more careful.
 
 @ichigo_warai		#笑
 
 #「それじゃパパ、おやすみなさ～い♪」
+#SCRIPT ORIGINAL 「それじゃパパ、おやすみなさ～い♪」
 ＠Ichigo,O01954
 「Alrighty Papa, good night～♪」
 
 #「ああ、おやすみ」
+#SCRIPT ORIGINAL 「ああ、おやすみ」
 ＠Itsuki
 「Yeah, good night」
 
@@ -422,6 +492,7 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #答えを聞いてすっきりしたいちごは、満足そうに部屋へ戻って行った。
+#SCRIPT ORIGINAL 答えを聞いてすっきりしたいちごは、満足そうに部屋へ戻って行った。
 　Having gotten my answer, Ichigo went back to her room looking satisfied.
 
 #■BG（黒）
@@ -435,6 +506,7 @@ if sel1=1 then goto ichigo_qa02_b
 #--------------------------------------------------
 
 #後日、オレの答えは合っていたようで、改めていちごからお礼を言われた。
+#SCRIPT ORIGINAL 後日、オレの答えは合っていたようで、改めていちごからお礼を言われた。
 　Later on, seeing as I gave her the right answer, Ichigo thanked me once again.
 
 @bg_black
@@ -450,6 +522,7 @@ return
 label	ichigo_qa02_b
 
 #後日、オレの答えは間違っていたようで、いちごに不満を言われてしまった。
+#SCRIPT ORIGINAL 後日、オレの答えは間違っていたようで、いちごに不満を言われてしまった。
 　Later on, seeing as I gave her the wrong answer, Ichigo voiced her displeasure.
 
 @bg_black
@@ -471,56 +544,68 @@ label	ichigo_qa03
 @bg_itsuki_n		# 自室(夜)
 
 #「パパ～、まだ起きてる？」
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O01955
 「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
 #部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 　I was relaxing in my room, when Ichigo came to ask me something.
 
 #「ああ、どうしたいちご？」
+#SCRIPT ORIGINAL 「ああ、どうしたいちご？」
 ＠Itsuki
 「Yeah, what is it Ichigo?」
 
 @ichigo_takurami	#企み
 
 #「えへへ～……実はお小遣いが残り少なくなっちゃったの」
+#SCRIPT ORIGINAL 「えへへ～……実はお小遣いが残り少なくなっちゃったの」
 ＠Ichigo,O01956
 「Ehehe～... actually, I'm almost out of pocket money」
 
 #「そうかそうか。じゃあ次のお小遣いまで頑張るんだぞ」
+#SCRIPT ORIGINAL 「そうかそうか。じゃあ次のお小遣いまで頑張るんだぞ」
 ＠Itsuki
 「Oh, is that so? Then you'd better work hard until your next allowance」
 
 @ichigo_ase		#汗
 
 #「うぅ～、そんなぁ……」
+#SCRIPT ORIGINAL 「うぅ～、そんなぁ……」
 ＠Ichigo,O01957
 「Uuh～, no way...」
 
 @ichigo_komaru		#困
 
 #「パパ、少しだけでいいからお小遣い欲しいよぉ」
+#SCRIPT ORIGINAL 「パパ、少しだけでいいからお小遣い欲しいよぉ」
 ＠Ichigo,O01958
 「Papa, I just want a bit more」
 
 #「来月分の前借か？」
+#SCRIPT ORIGINAL 「来月分の前借か？」
 ＠Itsuki
 「Like, an advance on next month?」
 
 @ichigo_kanashimi	#哀
 
 #「……そしたら、今度は来月に足りなくなっちゃう」
+#SCRIPT ORIGINAL 「……そしたら、今度は来月に足りなくなっちゃう」
 ＠Ichigo,O01959
 「...But then, I won't have enough next month」
 
 #「特別に欲しいってことか。う～ん……」
+#SCRIPT ORIGINAL 「特別に欲しいってことか。う～ん……」
 ＠Itsuki
 「You want a special donation, huh. Hmm～...」
 
 #さて、どうするか。
 #甘やかすと癖になるかもしれないぞ。
+#SCRIPT ORIGINAL さて、どうするか。
+#SCRIPT ORIGINAL 甘やかすと癖になるかもしれないぞ。
 　What should I do? I could end up spoiling her.
 
 if _MONEY<18000 then goto ichigo_qa03_b
@@ -528,6 +613,7 @@ if _MONEY<18000 then goto ichigo_qa03_b
 #■（選択肢）
 #（１．お小遣いをあげる）
 #（２．我慢させる）
+#SCRIPT ORIGINAL select sel,"お小遣いをあげる","我慢させる"
 select sel,"Give pocket money","Make her wait"
 if sel=0 then goto ichigo_qa03_a
 if sel=1 then goto ichigo_qa03_b
@@ -539,19 +625,23 @@ if sel=1 then goto ichigo_qa03_b
 label	ichigo_qa03_a
 
 #けど、結局オレは甘やかしてしまう。
+#SCRIPT ORIGINAL けど、結局オレは甘やかしてしまう。
 　But, I ended up going soft on her.
 
 #「仕方ないな。無駄遣いするんじゃないぞ？」
+#SCRIPT ORIGINAL 「仕方ないな。無駄遣いするんじゃないぞ？」
 ＠Itsuki
 「Oh well. Don't throw it away on nothing, okay?」
 
 @ichigo_odoroki		#驚
 
 #「くれるのッ？」
+#SCRIPT ORIGINAL 「くれるのッ？」
 ＠Ichigo,O01960
 「You'll give it to me!?」
 
 #財布を開けて、そこから臨時小遣いをいちごにあげた。
+#SCRIPT ORIGINAL 財布を開けて、そこから臨時小遣いをいちごにあげた。
 　I open my wallet, and hand over a temporary allowance to Ichigo.
 
 @ichigo_yorokobi	#喜
@@ -568,35 +658,43 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「わぁいッ！！　あははッ、パパありがとう～！」
+#SCRIPT ORIGINAL 「わぁいッ！！　あははッ、パパありがとう～！」
 ＠Ichigo,O01961
 「Yayy!!　Ahaha, thanks Papa～！」
 
 #「次からは、計算して使うんだぞ？」
+#SCRIPT ORIGINAL 「次からは、計算して使うんだぞ？」
 ＠Itsuki
 「From now on, make sure to use it wisely」
 
 @ichigo_warai		#笑
 
 #「うんッ！　なくならないように気をつけるよ～！」
+#SCRIPT ORIGINAL 「うんッ！　なくならないように気をつけるよ～！」
 ＠Ichigo,O01962
 「Yeah! I'll be careful not to run out～!」
 
 #「パパッ。いちご、パパのこと大好きだよ！」
+#SCRIPT ORIGINAL 「パパッ。いちご、パパのこと大好きだよ！」
 ＠Ichigo,O01963
 「Papa... I love you so much, Papa!」
 
 #「はは、ありがとう。オレもいちごの事は大好きだよ」
+#SCRIPT ORIGINAL 「はは、ありがとう。オレもいちごの事は大好きだよ」
 ＠Itsuki
 「Haha, thanks. I love you too, Ichigo」
 
 #文字通り現金なものだが、そう言われて嬉しいオレは甘い人間だ。
+#SCRIPT ORIGINAL 文字通り現金なものだが、そう言われて嬉しいオレは甘い人間だ。
 　It may be over money, but I have a soft spot when I'm told that.
 
 #（けど、後で他の子の分のお小遣いも計算しないとな）
+#SCRIPT ORIGINAL （けど、後で他の子の分のお小遣いも計算しないとな）
 ＠Itsuki
 （Although, I'll have to recalculate everyone's allowances later）
 
 #出費になるが、やはりみんなにも平等にあげるべきだろう。
+#SCRIPT ORIGINAL 出費になるが、やはりみんなにも平等にあげるべきだろう。
 　It'll be an expense, but I ought to give them all fair treatment.
 
 @chara_clear		#保険
@@ -618,68 +716,83 @@ return
 label	ichigo_qa03_b
 
 #そうだな。しつけはきっちりしておかないと。
+#SCRIPT ORIGINAL そうだな。しつけはきっちりしておかないと。
 　Right. I'll have to show her some discipline.
 
 #「いちご、お小遣いは―――」
+#SCRIPT ORIGINAL 「いちご、お小遣いは―――」
 ＠Itsuki
 「Ichigo, allowances―――」
 
 @ichigo_naki		#泣
 
 #「えうぅ……パパぁ」
+#SCRIPT ORIGINAL 「えうぅ……パパぁ」
 ＠Ichigo,O01964
 「Euhh... Papaa」
 
 #ウルウルウル……（←いちごの瞳
+#SCRIPT ORIGINAL ウルウルウル……（←いちごの瞳
 　Ichigo's eyes began tearing up... 
 
 #「うぐッ、そんな切なそうな目で見るな……」
+#SCRIPT ORIGINAL 「うぐッ、そんな切なそうな目で見るな……」
 ＠Itsuki
 「Ack, don't look at me like that...」
 
 #「とにかく、使っちゃったものは仕方ないな。来月まで我慢しないと」
+#SCRIPT ORIGINAL 「とにかく、使っちゃったものは仕方ないな。来月まで我慢しないと」
 ＠Itsuki
 「Anyway, it's too bad that you used it all up. You'll have to wait until next month」
 
 @ichigo_kanashimi	#哀
 
 #「ダメなの……？　お小遣い…」
+#SCRIPT ORIGINAL 「ダメなの……？　お小遣い…」
 ＠Ichigo,O01965
 「You won't give me any pocket money...?」
 
 #「ああ。ダメだ」
+#SCRIPT ORIGINAL 「ああ。ダメだ」
 ＠Itsuki
 「Nope, sorry」
 
 #ここは躾のため、はっきりと告げた。
+#SCRIPT ORIGINAL ここは躾のため、はっきりと告げた。
 　I told her clearly, for the sake of discipline.
 
 @ichigo_komikaru_ikari	#コミカル怒
 
 #「ぶぅッ」
+#SCRIPT ORIGINAL 「ぶぅッ」
 ＠Ichigo,O01966
 「Bfh」
 
 #そしてムクれるいちご。
+#SCRIPT ORIGINAL そしてムクれるいちご。
 　Ichigo was displeased.
 
 #「お小遣いは無理だけど、今度一緒にケーキでも食べに行こう」
+#SCRIPT ORIGINAL 「お小遣いは無理だけど、今度一緒にケーキでも食べに行こう」
 ＠Itsuki
 「I can't give you any allowance, but we can go together for cake」
 
 @ichigo_odoroki		#驚
 
 #「ケーキ……」
+#SCRIPT ORIGINAL 「ケーキ……」
 ＠Ichigo,O01967
 「Cake...」
 
 @ichigo_takurami	#企み
 
 #「いちご、スポンジの中にも苺が入ってる苺ショートが良い……」
+#SCRIPT ORIGINAL 「いちご、スポンジの中にも苺が入ってる苺ショートが良い……」
 ＠Ichigo,O01968
 「I want a strawberry shortcake, the one that has strawberries in the spongey part...」
 
 #「ああいいぞ。他の子も一緒にな」
+#SCRIPT ORIGINAL 「ああいいぞ。他の子も一緒にな」
 ＠Itsuki
 「Yeah, that'll do. We can bring the other kids too」
 
@@ -693,27 +806,33 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #「うんっ。それならいちご、我慢できるよっ♪」
+#SCRIPT ORIGINAL 「うんっ。それならいちご、我慢できるよっ♪」
 ＠Ichigo,O01969
 「Sure. I can wait, then ♪」
 
 @ichigo_yorokobi	#喜
 
 #「パパ、わがまま言ってごめんなさい」
+#SCRIPT ORIGINAL 「パパ、わがまま言ってごめんなさい」
 ＠Ichigo,O01970
 「Papa, sorry for being selfish」
 
 #「来月からは気をつけるんだぞ」
+#SCRIPT ORIGINAL 「来月からは気をつけるんだぞ」
 ＠Itsuki
 「Be more careful, when you get it next month」
 
 #「は～い！」
+#SCRIPT ORIGINAL 「は～い！」
 ＠Ichigo,O01971
 「OK～!」
 
 #とりあえず、いちごのご機嫌は損ねずに済んだようだ。
+#SCRIPT ORIGINAL とりあえず、いちごのご機嫌は損ねずに済んだようだ。
 　For now, it looks like I didn't end up hurting her feelings.
 
 #（……しかしオレには、お小遣いよりも出費が大きいよな）
+#SCRIPT ORIGINAL （……しかしオレには、お小遣いよりも出費が大きいよな）
 ＠Itsuki
 （...As for me, I have bigger money problems than pocket change）
 
@@ -736,41 +855,50 @@ label	ichigo_qa04
 @bg_itsuki_n		# 自室(夜)
 
 #「パパ～、まだ起きてる？」
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O01972
 「Papa～, are you awake?」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
 #部屋で休んでいるオレの元へ、いちごが尋ねてきた。
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 　I was relaxing in my room, when Ichigo came to ask me something.
 
 #「ああ、どうしたいちご？」
+#SCRIPT ORIGINAL 「ああ、どうしたいちご？」
 ＠Itsuki
 「Yeah, what is it Ichigo?」
 
 @ichigo_yorokobi	#喜
 
 #「突然だけど、いちごクイズだよ！」
+#SCRIPT ORIGINAL 「突然だけど、いちごクイズだよ！」
 ＠Ichigo,O01973
 「It's out of the blue, but I have a quiz for you!」
 
 #「バスの中に四人の乗客が居ます。途中で二人乗ってきて、次で三人降りて一人乗りました」
+#SCRIPT ORIGINAL 「バスの中に四人の乗客が居ます。途中で二人乗ってきて、次で三人降りて一人乗りました」
 ＠Ichigo,O01974
 「There are 4 people riding a bus. Along the way, 2 people got on, then 3 people got off and 1 more got on」
 
 #started this episode by mistake, don't want to delete it.
 
+#SCRIPT ORIGINAL 「さて、今バスの中には何人居るでしょう！」
 ＠Ichigo,O01975
 「さて、今バスの中には何人居るでしょう！」
 
+#SCRIPT ORIGINAL 「ほんとに突然だな……」
 ＠Itsuki
 「ほんとに突然だな……」
 
 @ichigo_takurami	#企み
 
+#SCRIPT ORIGINAL 「えへへ、分かる？　いちご自信の問題だよ～」
 ＠Ichigo,O01976
 「えへへ、分かる？　いちご自信の問題だよ～」
 
+#SCRIPT ORIGINAL 確か四人いて、二人乗って、三人降りて一人乗ったんだから……
 確か四人いて、二人乗って、三人降りて一人乗ったんだから……
 
 #--------------------------------------------------
@@ -778,6 +906,7 @@ label	ichigo_qa04
 #（１．４人）
 #（２．５人）
 #（３．３人）
+#SCRIPT ORIGINAL select sel,"４人","５人","３人"
 select sel,"４ people","５ people","３ people"
 if sel=0 then goto ichigo_qa04_a
 if sel=1 then goto ichigo_qa04_b
@@ -789,61 +918,77 @@ if sel=2 then goto ichigo_qa04_c
 #--------------------------------------------------
 label	ichigo_qa04_a
 
+#SCRIPT ORIGINAL 「四人だろ？」
 ＠Itsuki
 「四人だろ？」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ブーッ！　あははっ、パパも引っかかった～♪　正解は五人だよ」
 ＠Ichigo,O01977
 「ブーッ！　あははっ、パパも引っかかった～♪　正解は五人だよ」
 
+#SCRIPT ORIGINAL 「え？　でも４から２を引いて３足して１を引くんだろ？」
 ＠Itsuki
 「え？　でも４から２を引いて３足して１を引くんだろ？」
 
+#SCRIPT ORIGINAL 「最初の四人は乗客の数だよ」
 ＠Ichigo,O01978
 「最初の四人は乗客の数だよ」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「クイズは中に居る人数だから、運転手を入れて五人ッ」
 ＠Ichigo,O01979
 「クイズは中に居る人数だから、運転手を入れて五人ッ」
 
+#SCRIPT ORIGINAL あぁ……思い出した。何か似たようなのを聞いた事があったな。
 あぁ……思い出した。何か似たようなのを聞いた事があったな。
 
+#SCRIPT ORIGINAL 「でもそれだと、ガイドさんがいるかもしれないぞ」
 ＠Itsuki
 「でもそれだと、ガイドさんがいるかもしれないぞ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「居ないよ、ワンマンバスだもん」
 ＠Ichigo,O01980
 「居ないよ、ワンマンバスだもん」
 
+#SCRIPT ORIGINAL 「なら、無賃乗車をする奴はどうだ。そいつは客じゃないから最初にカウントされないぞ」
 ＠Itsuki
 「なら、無賃乗車をする奴はどうだ。そいつは客じゃないから最初にカウントされないぞ」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「それも居ない～～…」
 ＠Ichigo,O01981
 「それも居ない～～…」
 
+#SCRIPT ORIGINAL 「バスに〝乗った〟を上に乗ってるっていう屁理屈で、〝バスの中〟には居ないとかな」
 ＠Itsuki
 「バスに〝乗った〟を上に乗ってるっていう屁理屈で、〝バスの中〟には居ないとかな」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「うぅ～～ッ、パパの意地悪、そんなのクイズにならないよぉ」
 ＠Ichigo,O01982
 「うぅ～～ッ、パパの意地悪、そんなのクイズにならないよぉ」
 
+#SCRIPT ORIGINAL 元々無理のあったクイズの穴を突かれて、どんどん膨れていくいちご。
 元々無理のあったクイズの穴を突かれて、どんどん膨れていくいちご。
 
+#SCRIPT ORIGINAL 「ははは、まぁどれもどこかで聞いたことのあるクイズだってことだ」
 ＠Itsuki
 「ははは、まぁどれもどこかで聞いたことのあるクイズだってことだ」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「はぁ。いちごが騙せたはずなのに、何かスッキリしないよぉ」
 ＠Ichigo,O01983
 「はぁ。いちごが騙せたはずなのに、何かスッキリしないよぉ」
 
+#SCRIPT ORIGINAL 引き分けのような状態に、スッキリしてなさそうないちごだった。
 引き分けのような状態に、スッキリしてなさそうないちごだった。
 
 @chara_clear		#保険
@@ -858,37 +1003,45 @@ return
 #--------------------------------------------------
 label	ichigo_qa04_b
 
+#SCRIPT ORIGINAL 「五人だ」
 ＠Itsuki
 「五人だ」
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#SCRIPT ORIGINAL 「えッ……どど、どうしてっ？」
 ＠Ichigo,O01984
 「えッ……どど、どうしてっ？」
 
+#SCRIPT ORIGINAL 「引っ掛け問題だな。最初の乗客に、運転手も入れないとダメなんだろ？」
 ＠Itsuki
 「引っ掛け問題だな。最初の乗客に、運転手も入れないとダメなんだろ？」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「がーーーんッ、見破られてるッ！？」
 ＠Ichigo,O01985
 「がーーーんッ、見破られてるッ！？」
 
 @ichigo_ikari		#怒
 
+#SCRIPT ORIGINAL 「どうして分かるの～、いちごは最初引っかかったのに～！」
 ＠Ichigo,O01986
 「どうして分かるの～、いちごは最初引っかかったのに～！」
 
+#SCRIPT ORIGINAL 「ふふふ。まぁこの程度ならな」
 ＠Itsuki
 「ふふふ。まぁこの程度ならな」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「悔しいッ、でもやっぱりパパすごーい！！」
 ＠Ichigo,O01987
 「悔しいッ、でもやっぱりパパすごーい！！」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「今度は、もっと難しいクイズ持って来るね」
 ＠Ichigo,O01988
 「今度は、もっと難しいクイズ持って来るね」
 
@@ -899,8 +1052,10 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL ひとしきり感動して、いちごは部屋に帰っていった。
 ひとしきり感動して、いちごは部屋に帰っていった。
 
+#SCRIPT ORIGINAL 「……結局何をしに来たんだろうか」
 ＠Itsuki
 「……結局何をしに来たんだろうか」
 
@@ -917,57 +1072,73 @@ return
 #--------------------------------------------------
 label	ichigo_qa04_c
 
+#SCRIPT ORIGINAL 「三人だ」
 ＠Itsuki
 「三人だ」
 
 @ichigo_gimon		#コミカル疑問
 
+#SCRIPT ORIGINAL 「え……さん？」
 ＠Ichigo,O01989
 「え……さん？」
 
+#SCRIPT ORIGINAL 「えっと……四人じゃなくて？」
 ＠Ichigo,O01990
 「えっと……四人じゃなくて？」
 
+#SCRIPT ORIGINAL 何かいちごから、反応に困ったようなリアクションが返ってきた。
 何かいちごから、反応に困ったようなリアクションが返ってきた。
 
+#SCRIPT ORIGINAL 「素直に計算したら四人だけど、何か引っ掛けがあると思って１引いてみた」
 ＠Itsuki
 「素直に計算したら四人だけど、何か引っ掛けがあると思って１引いてみた」
 
 @ichigo_ikari		#怒
 
+#SCRIPT ORIGINAL 「引っ掛けだけど、引いちゃダメだよ。答えは五人だよ」
 ＠Ichigo,O01991
 「引っ掛けだけど、引いちゃダメだよ。答えは五人だよ」
 
+#SCRIPT ORIGINAL 「最初の人数は乗客だから、バスの中には運転手さんも入れて五人なんだよ」
 ＠Ichigo,O01992
 「最初の人数は乗客だから、バスの中には運転手さんも入れて五人なんだよ」
 
+#SCRIPT ORIGINAL 「なるほど。でも引くと足すの違いだし、オレ超おしかっただろ、いちご」
 ＠Itsuki
 「なるほど。でも引くと足すの違いだし、オレ超おしかっただろ、いちご」
 
 @ichigo_akire		#呆れ
 
+#SCRIPT ORIGINAL 「……答えだけだよパパ。そこに至るロジックは全然違うもん」
 ＠Ichigo,O01993
 「……答えだけだよパパ。そこに至るロジックは全然違うもん」
 
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
+#SCRIPT ORIGINAL めちゃくちゃ呆れられたような目で見られた！
 めちゃくちゃ呆れられたような目で見られた！
 
+#SCRIPT ORIGINAL しかもロジックとか、いちごが何気にしゃれた言葉を使うことに驚いた。
 しかもロジックとか、いちごが何気にしゃれた言葉を使うことに驚いた。
 
+#SCRIPT ORIGINAL 「いちご、また今度別のクイズ持ってくるから、頑張ってねパパ……」
 ＠Ichigo,O01994
 「いちご、また今度別のクイズ持ってくるから、頑張ってねパパ……」
 
+#SCRIPT ORIGINAL 「うん……」
 ＠Itsuki
 「うん……」
 
 @ichigo_
 
+#SCRIPT ORIGINAL さらに慰められるようにして、また次への励ましを得るのだった。
 さらに慰められるようにして、また次への励ましを得るのだった。
 
+#SCRIPT ORIGINAL いちごは本当に優しい子だと思う。
 いちごは本当に優しい子だと思う。
 
+#SCRIPT ORIGINAL ……結局、何のこっちゃ分からん時間だったが。
 ……結局、何のこっちゃ分からん時間だったが。
 
 @chara_clear		#保険
@@ -990,40 +1161,50 @@ label	ichigo_qa05
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O01995
 「パパ～、まだ起きてる？」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 
+#SCRIPT ORIGINAL 「ああ、どうしたいちご？」
 ＠Itsuki
 「ああ、どうしたいちご？」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「突然だけど、いちごクイズだよ！」
 ＠Ichigo,O01996
 「突然だけど、いちごクイズだよ！」
 
+#SCRIPT ORIGINAL 「いちごは大好きな苺の１リットルジュースを、毎日半分だけ飲みます」
 ＠Ichigo,O01997
 「いちごは大好きな苺の１リットルジュースを、毎日半分だけ飲みます」
 
+#SCRIPT ORIGINAL 「さて、五日後にはいくつペットボトルが空いているでしょうか！」
 ＠Ichigo,O01998
 「さて、五日後にはいくつペットボトルが空いているでしょうか！」
 
+#SCRIPT ORIGINAL 「ほんとに突然だな。っていうか、毎日は飲みすぎだいちご」
 ＠Itsuki
 「ほんとに突然だな。っていうか、毎日は飲みすぎだいちご」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「もう、クイズの中のお話だってばぁっ」
 ＠Ichigo,O01999
 「もう、クイズの中のお話だってばぁっ」
 
 @ichigo_takurami	#企み
 
+#SCRIPT ORIGINAL 「それで、パパはいくつペットボトルが空いてると思う？」
 ＠Ichigo,O02000
 「それで、パパはいくつペットボトルが空いてると思う？」
 
+#SCRIPT ORIGINAL 一日半分で五日か。中身が残ってるとカウントしないんなら。
 一日半分で五日か。中身が残ってるとカウントしないんなら。
 
 #--------------------------------------------------
@@ -1031,6 +1212,7 @@ label	ichigo_qa05
 #（１．二本）
 #（２．五本）
 #（３．空いていない）
+#SCRIPT ORIGINAL select sel,"二本","五本","空いていない"
 select sel,"2 parts","5 parts","none of the above"
 if sel=0 then goto ichigo_qa05_a
 if sel=1 then goto ichigo_qa05_b
@@ -1042,35 +1224,44 @@ if sel=2 then goto ichigo_qa05_c
 #--------------------------------------------------
 label	ichigo_qa05_a
 
+#SCRIPT ORIGINAL 「２.５リットル飲んでるから、答えは二本だ」
 ＠Itsuki
 「２.５リットル飲んでるから、答えは二本だ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ブーッ！　あははっ、ハズレだよ～！」
 ＠Ichigo,O02001
 「ブーッ！　あははっ、ハズレだよ～！」
 
+#SCRIPT ORIGINAL 「答えはゼロ本。一本も空っぽになってないの！」
 ＠Ichigo,O02002
 「答えはゼロ本。一本も空っぽになってないの！」
 
+#SCRIPT ORIGINAL オレの答えに、いちごはイタズラが成功した子供のような笑顔で声を弾ませた。
 オレの答えに、いちごはイタズラが成功した子供のような笑顔で声を弾ませた。
 
+#SCRIPT ORIGINAL 「んん…？　でも毎日０.５リットル飲んでて、それが五日だろう？」
 ＠Itsuki
 「んん…？　でも毎日０.５リットル飲んでて、それが五日だろう？」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「えへへ～♪　実は引っ掛け問題なんだよ」
 ＠Ichigo,O02003
 「えへへ～♪　実は引っ掛け問題なんだよ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「いちごは毎日半分飲みますって言ったから、最初は０.５リットルだけど」
 ＠Ichigo,O02004
 「いちごは毎日半分飲みますって言ったから、最初は０.５リットルだけど」
 
+#SCRIPT ORIGINAL 「その次の日はまた半分の０.２５リットル。その次はまた半分って減っていくの」
 ＠Ichigo,O02005
 「その次の日はまた半分の０.２５リットル。その次はまた半分って減っていくの」
 
+#SCRIPT ORIGINAL 「ぬ……何日たっても、計算上は決して空にはならないってことか」
 ＠Itsuki
 「ぬ……何日たっても、計算上は決して空にはならないってことか」
 
@@ -1083,25 +1274,31 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ！」
 ＠Ichigo,O02006
 「うんッ！」
 
+#SCRIPT ORIGINAL 少々ずるい気がしたが。
 少々ずるい気がしたが。
 
+#SCRIPT ORIGINAL まぁちゃんと納得できる理屈だった。
 まぁちゃんと納得できる理屈だった。
 
 layer_movepass_init	l_ichigo,0	#演出初期化
 
+#SCRIPT ORIGINAL 「まんまと引っかかったな……」
 ＠Itsuki
 「まんまと引っかかったな……」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「あははっ。また新しいクイズ持ってくるから、次は頑張ってね、パパ」
 ＠Ichigo,O02007
 「あははっ。また新しいクイズ持ってくるから、次は頑張ってね、パパ」
 
 @ichigo_
 
+#SCRIPT ORIGINAL 満足のいく結果で嬉しかったのか、いちごは楽しそうに部屋に戻って行った。
 満足のいく結果で嬉しかったのか、いちごは楽しそうに部屋に戻って行った。
 
 @chara_clear		#保険
@@ -1116,45 +1313,56 @@ return
 #--------------------------------------------------
 label	ichigo_qa05_b
 
+#SCRIPT ORIGINAL 「五本だ」
 ＠Itsuki
 「五本だ」
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
+#SCRIPT ORIGINAL 「えーッ！？　それじゃいちご、毎日１本飲んでるよッ」
 ＠Ichigo,O02008
 「えーッ！？　それじゃいちご、毎日１本飲んでるよッ」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「もう、答えはゼロ本だよ、パパ」
 ＠Ichigo,O02009
 「もう、答えはゼロ本だよ、パパ」
 
+#SCRIPT ORIGINAL 「ゼロ？　それはまたなんでだ？」
 ＠Itsuki
 「ゼロ？　それはまたなんでだ？」
 
 @ichigo_akire		#呆れ
 
+#SCRIPT ORIGINAL 「いちごが飲むのは毎日半分だけだよ」
 ＠Ichigo,O02010
 「いちごが飲むのは毎日半分だけだよ」
 
+#SCRIPT ORIGINAL 「最初の日は０.５リットル飲むけど、次の日は半分の０.２５リットル、次の日はまた半分って減っていくから」
 ＠Ichigo,O02011
 「最初の日は０.５リットル飲むけど、次の日は半分の０.２５リットル、次の日はまた半分って減っていくから」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「……引っ掛け問題だったのに、パパ全然違う答え言うんだもん……」
 ＠Ichigo,O02012
 「……引っ掛け問題だったのに、パパ全然違う答え言うんだもん……」
 
+#SCRIPT ORIGINAL イタズラ成功でも失敗でもなく、不完全燃焼の子供のように口を尖らせるいちご。
 イタズラ成功でも失敗でもなく、不完全燃焼の子供のように口を尖らせるいちご。
 
+#SCRIPT ORIGINAL 「ははっ、いちごのジュースって聞いて、ついイメージがな」
 ＠Itsuki
 「ははっ、いちごのジュースって聞いて、ついイメージがな」
 
 @ichigo_akire		#呆れ
 
+#SCRIPT ORIGINAL 「また新しいのを持ってきたら、今度はちゃんと考えて答えてね？」
 ＠Ichigo,O02013
 「また新しいのを持ってきたら、今度はちゃんと考えて答えてね？」
 
+#SCRIPT ORIGINAL 「ああ、努力しよう」
 ＠Itsuki
 「ああ、努力しよう」
 
@@ -1171,17 +1379,21 @@ return
 #--------------------------------------------------
 label	ichigo_qa05_c
 
+#SCRIPT ORIGINAL 「答えは、ゼロ本だ」
 ＠Itsuki
 「答えは、ゼロ本だ」
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「ええッ！？　どうして分かったのッ」
 ＠Ichigo,O02014
 「ええッ！？　どうして分かったのッ」
 
+#SCRIPT ORIGINAL 「毎日〝半分〟飲むんだろう？」
 ＠Itsuki
 「毎日〝半分〟飲むんだろう？」
 
+#SCRIPT ORIGINAL 「だったら初日は０.５、次は０.２５と飲む量は減っていくはずだ」
 ＠Itsuki
 「だったら初日は０.５、次は０.２５と飲む量は減っていくはずだ」
 
@@ -1198,33 +1410,41 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「すご～い！　大正解だよパパッ」
 ＠Ichigo,O02015
 「すご～い！　大正解だよパパッ」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「いちご絶対引っかかると思ったのに、さすがはパパだね♪」
 ＠Ichigo,O02016
 「いちご絶対引っかかると思ったのに、さすがはパパだね♪」
 
+#SCRIPT ORIGINAL 驚いて感心するいちご。
+#SCRIPT ORIGINAL いちごの中でオレの評価がグングンと上がったようだ。
 驚いて感心するいちご。
 いちごの中でオレの評価がグングンと上がったようだ。
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「じゃあ、また新しいクイズ持って来るね」
 ＠Ichigo,O02017
 「じゃあ、また新しいクイズ持って来るね」
 
+#SCRIPT ORIGINAL 「クイズもいいけど、宿題もしっかりな」
 ＠Itsuki
 「クイズもいいけど、宿題もしっかりな」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「うぐ……は、は～～い♪」
 ＠Ichigo,O02018
 「うぐ……は、は～～い♪」
 
 bgm_stop
 @ichigo_
 
+#SCRIPT ORIGINAL 最後はちょっと頑張った笑顔で、いちごは部屋に戻って行った。
 最後はちょっと頑張った笑顔で、いちごは部屋に戻って行った。
 
 @chara_clear		#保険
@@ -1247,21 +1467,26 @@ label	ichigo_qa06
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O02019
 「パパ～、まだ起きてる？」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 
+#SCRIPT ORIGINAL 「ああ、どうかしたかいちご？」
 ＠Itsuki
 「ああ、どうかしたかいちご？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「あのね、テレビのアニメってどうやって絵を動かしてるの？」
 ＠Ichigo,O02020
 「あのね、テレビのアニメってどうやって絵を動かしてるの？」
 
+#SCRIPT ORIGINAL 「は……アニメ？」
 ＠Itsuki
 「は……アニメ？」
 
@@ -1273,39 +1498,50 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ」
 ＠Ichigo,O02021
 「うんッ」
 
+#SCRIPT ORIGINAL 何か、また急に突拍子もないことを聞かれた。
 何か、また急に突拍子もないことを聞かれた。
 
 layer_movepass_init	l_ichigo,0	#演出初期化
 
+#SCRIPT ORIGINAL 「ドラマとかって、本当の人をビデオに撮ってるから動くのは当たり前だよね？」
 ＠Ichigo,O02022
 「ドラマとかって、本当の人をビデオに撮ってるから動くのは当たり前だよね？」
 
+#SCRIPT ORIGINAL 「でも漫画の絵って動かないよ。どうやってビデオで動かしてるの？」
 ＠Ichigo,O02023
 「でも漫画の絵って動かないよ。どうやってビデオで動かしてるの？」
 
+#SCRIPT ORIGINAL 「あ～…えっとな、アニメはドラマと全然違うんだ。ビデオの撮影は無い」
 ＠Itsuki
 「あ～…えっとな、アニメはドラマと全然違うんだ。ビデオの撮影は無い」
 
+#SCRIPT ORIGINAL 「そうなの…？」
 ＠Ichigo,O02024
 「そうなの…？」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「じゃあやり方を覚えたら、いちごでも自分のお絵かきってアニメに出来るかな♪」
 ＠Ichigo,O02025
 「じゃあやり方を覚えたら、いちごでも自分のお絵かきってアニメに出来るかな♪」
 
+#SCRIPT ORIGINAL ……なるほど。
+#SCRIPT ORIGINAL 発端は分からないが、いちごがアニメを知りたい理由はそれか。
 ……なるほど。
 発端は分からないが、いちごがアニメを知りたい理由はそれか。
 
+#SCRIPT ORIGINAL 実はこう見えてオレは―――！
 実はこう見えてオレは―――！
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．ちょいとアニメにはうるさいぜ！）The noisy anime To Choi!
 #（２．普通くらいの知識かな）Wonder if knowledge of much ordinary
+#SCRIPT ORIGINAL select sel,"ちょいとアニメにはうるさいぜ！","普通くらいの知識かな"
 select sel,"A noisy anime!","Does she understand much normal stuff?"
 if sel=0 then goto ichigo_qa06_a
 if sel=1 then goto ichigo_qa06_b
@@ -1316,6 +1552,7 @@ if sel=1 then goto ichigo_qa06_b
 #--------------------------------------------------
 label	ichigo_qa06_a
 
+#SCRIPT ORIGINAL 「ふふふ。なら教えてやろうかいちご、アニメという文化を！」
 ＠Itsuki
 「ふふふ。なら教えてやろうかいちご、アニメという文化を！」
 
@@ -1327,19 +1564,24 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「……？　うんッ！」
 ＠Ichigo,O02026
 「……？　うんッ！」
 
+#SCRIPT ORIGINAL 退廃的な笑みのオレに、いちごは無邪気に頷いた。
 退廃的な笑みのオレに、いちごは無邪気に頷いた。
 
 #■BG（黒）
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL ………。
 ………。
 
+#SCRIPT ORIGINAL ……………。
 ……………。
 
+#SCRIPT ORIGINAL ……数分後。
 ……数分後。
 
 #■BG（自室・夜）
@@ -1349,53 +1591,67 @@ layer_movepass_play	l_ichigo,0,play_once
 @ichigo			#普通
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「つまりな、テレビ放送でもＯＶＡクオリティを求める事は十分にできる。だが、現実は厳しい！」
 ＠Itsuki
 「つまりな、テレビ放送でもＯＶＡクオリティを求める事は十分にできる。だが、現実は厳しい！」
 
+#SCRIPT ORIGINAL 「経費もそうだが時間も辛い。いちごが見るアニメも、毎週話が進んでいくだろう？」
 ＠Itsuki
 「経費もそうだが時間も辛い。いちごが見るアニメも、毎週話が進んでいくだろう？」
 
+#SCRIPT ORIGINAL 「う、うん……」
 ＠Ichigo,O02027
 「う、うん……」
 
+#SCRIPT ORIGINAL 「だから製作が進むにつれ、時間に追われてクオリティを下げざるを得なくなる。仕方ないんだ」
 ＠Itsuki
 「だから製作が進むにつれ、時間に追われてクオリティを下げざるを得なくなる。仕方ないんだ」
 
+#SCRIPT ORIGINAL 「いちごも、今見てる話より第一話の方が作画も動きも断然にいいだろう！？」
 ＠Itsuki
 「いちごも、今見てる話より第一話の方が作画も動きも断然にいいだろう！？」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「えっと、どだろー……」
 ＠Ichigo,O02028
 「えっと、どだろー……」
 
+#SCRIPT ORIGINAL 「いいはずだッ！！」
 ＠Itsuki
 「いいはずだッ！！」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「う、うん……」
 ＠Ichigo,O02029
 「う、うん……」
 
+#SCRIPT ORIGINAL 「難しいんだよ。本当は質を下げてでも毎週作るスタッフを労うべきだが、視聴者はやっぱりいいものが見たい！」
 ＠Itsuki
 「難しいんだよ。本当は質を下げてでも毎週作るスタッフを労うべきだが、視聴者はやっぱりいいものが見たい！」
 
+#SCRIPT ORIGINAL 「そだねー……」
 ＠Ichigo,O02030
 「そだねー……」
 
 @ichigo_akire		#呆れ
 
+#SCRIPT ORIGINAL 「えっとね、パパ……いちご絵の動かし方をもっと聞きたいなーって…」
 ＠Ichigo,O02031
 「えっとね、パパ……いちご絵の動かし方をもっと聞きたいなーって…」
 
+#SCRIPT ORIGINAL 「ああ、いちごは作画より動きを重視するタイプか。もちろん大事なことだぞ！」
 ＠Itsuki
 「ああ、いちごは作画より動きを重視するタイプか。もちろん大事なことだぞ！」
 
+#SCRIPT ORIGINAL 「だが最近は、ちょっとエッチぃアングルというのが重要視されつつある。これはどうよ！？」
 ＠Itsuki
 「だが最近は、ちょっとエッチぃアングルというのが重要視されつつある。これはどうよ！？」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「どだろー……パパー…」
 ＠Ichigo,O02032
 「どだろー……パパー…」
 
@@ -1404,8 +1660,10 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL それから一時間近く、アニメについていちごに熱く語ってあげた。
 それから一時間近く、アニメについていちごに熱く語ってあげた。
 
+#SCRIPT ORIGINAL いつの間にかいちごは居なくなっていたが、オレは存分に話せて満足だった！
 いつの間にかいちごは居なくなっていたが、オレは存分に話せて満足だった！
 
 @ichigo_atama_down
@@ -1418,6 +1676,7 @@ return
 #--------------------------------------------------
 label	ichigo_qa06_b
 
+#SCRIPT ORIGINAL 「まぁあんまり詳しくは無いんだけどな……」
 ＠Itsuki
 「まぁあんまり詳しくは無いんだけどな……」
 
@@ -1429,44 +1688,56 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんっ、それでもいいよ。教えて～♪」
 ＠Ichigo,O02033
 「うんっ、それでもいいよ。教えて～♪」
 
+#SCRIPT ORIGINAL と言うわけで、とりあえず、知っていることを教えてあげた。
 と言うわけで、とりあえず、知っていることを教えてあげた。
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「んっと、パラパラアニメと同じなの？」
 ＠Ichigo,O02034
 「んっと、パラパラアニメと同じなの？」
 
+#SCRIPT ORIGINAL 「ああ、昔はまんまセル画だったな。今はＣＧだけど基本は同じだ」
 ＠Itsuki
 「ああ、昔はまんまセル画だったな。今はＣＧだけど基本は同じだ」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「じゃあいちごのお絵かきを動かすのも、たくさん絵が要るんだね」
 ＠Ichigo,O02035
 「じゃあいちごのお絵かきを動かすのも、たくさん絵が要るんだね」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「う～、大変だからちょっと無理だよ～……」
 ＠Ichigo,O02036
 「う～、大変だからちょっと無理だよ～……」
 
+#SCRIPT ORIGINAL 「はは、まぁプロがいるくらいだから大変だな」
 ＠Itsuki
 「はは、まぁプロがいるくらいだから大変だな」
 
+#SCRIPT ORIGINAL その途方も無い作業に、いちごが残念そうに肩を落とした。
 その途方も無い作業に、いちごが残念そうに肩を落とした。
 
+#SCRIPT ORIGINAL でも拙い説明で、何とか分かってくれたようだ。
 でも拙い説明で、何とか分かってくれたようだ。
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「いちごこれからアニメを見るときは、もっと一枚一枚ちゃんと見てあげるね」
 ＠Ichigo,O02037
 「いちごこれからアニメを見るときは、もっと一枚一枚ちゃんと見てあげるね」
 
+#SCRIPT ORIGINAL 「……いや、普通でいいぞ。目が悪くなりそうだしな」
 ＠Itsuki
 「……いや、普通でいいぞ。目が悪くなりそうだしな」
 
+#SCRIPT ORIGINAL この子がテレビを見るときは、ちょっと注意しておいた方が良さそうだ。
 この子がテレビを見るときは、ちょっと注意しておいた方が良さそうだ。
 
 @chara_clear		#保険
@@ -1489,24 +1760,30 @@ label	ichigo_qa07
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O02038
 「パパ～、まだ起きてる？」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 
+#SCRIPT ORIGINAL 「ああ、どうしたいちご？」
 ＠Itsuki
 「ああ、どうしたいちご？」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「えへへ～♪　えっとね、パパお仕事で疲れてないかなって思って」
 ＠Ichigo,O02039
 「えへへ～♪　えっとね、パパお仕事で疲れてないかなって思って」
 
+#SCRIPT ORIGINAL 「いちごでよかったら、パパの肩叩いてあげようかっ？」
 ＠Ichigo,O02040
 「いちごでよかったら、パパの肩叩いてあげようかっ？」
 
+#SCRIPT ORIGINAL 「お、それは嬉しいな。いいのか？」
 ＠Itsuki
 「お、それは嬉しいな。いいのか？」
 
@@ -1519,50 +1796,64 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ」
 ＠Ichigo,O02041
 「うんッ」
 
 @ichigo_
 
+#SCRIPT ORIGINAL 元気よく頷くと、いちごは側まで走ってきて背中に回りこんだ。
 元気よく頷くと、いちごは側まで走ってきて背中に回りこんだ。
 
+#SCRIPT ORIGINAL この心遣いは、何だか本当の父娘みたいで胸が温かくなる。
 この心遣いは、何だか本当の父娘みたいで胸が温かくなる。
 
 @ichigo_large		# 近い
 @ichigo_pajama
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「パパは背中もおっきいね～」
 ＠Ichigo,O02042
 「パパは背中もおっきいね～」
 
+#SCRIPT ORIGINAL 「そうか？　『も』って他はどこだろう」
 ＠Itsuki
 「そうか？　『も』って他はどこだろう」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「おちんちんっ♪」
 ＠Ichigo,O02043
 「おちんちんっ♪」
 
+#SCRIPT ORIGINAL 「……はは、そうか。聞く必要なかったな」
 ＠Itsuki
 「……はは、そうか。聞く必要なかったな」
 
+#SCRIPT ORIGINAL 微妙に父娘からはずれているが……
 微妙に父娘からはずれているが……
 
+#SCRIPT ORIGINAL いちごが叩きやすいように、オレも肩を下げてあげる。
 いちごが叩きやすいように、オレも肩を下げてあげる。
 
+#SCRIPT ORIGINAL そうすると、いちごの拳が両肩をトントンと叩き始めた。
 そうすると、いちごの拳が両肩をトントンと叩き始めた。
 
 @ichigo_komikaru_warai	#コミカル笑
 
+#SCRIPT ORIGINAL 「トントントントン～♪」
 ＠Ichigo,O02044
 「トントントントン～♪」
 
+#SCRIPT ORIGINAL 「どうパパ、気持ちいい～？」
 ＠Ichigo,O02045
 「どうパパ、気持ちいい～？」
 
+#SCRIPT ORIGINAL 「おお～、良い感じだ。やっぱオレ肩こってるな」
 ＠Itsuki
 「おお～、良い感じだ。やっぱオレ肩こってるな」
 
+#SCRIPT ORIGINAL 「パパのお仕事は肩じゃなくて腰が疲れるんじゃないの？」
 ＠Ichigo,O02046
 「パパのお仕事は肩じゃなくて腰が疲れるんじゃないの？」
 
@@ -1570,59 +1861,77 @@ layer_movepass_play	l_ichigo,0,play_once
 @SE69			#SE69　物をこかす音（ガシャン）
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「ぶッ！？」
 ＠Itsuki
 「ぶッ！？」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「って、ざくろが言ってたよ」
 ＠Ichigo,O02047
 「って、ざくろが言ってたよ」
 
+#SCRIPT ORIGINAL 「そ、そうか……うん、ざくろなりに心配してくれてるのか…な？」
 ＠Itsuki
 「そ、そうか……うん、ざくろなりに心配してくれてるのか…な？」
 
+#SCRIPT ORIGINAL ずり落ちそうになった身体を元に戻して、再びいちごに肩を叩いてもらう。
 ずり落ちそうになった身体を元に戻して、再びいちごに肩を叩いてもらう。
 
 @ichigo_komikaru_warai	#コミカル笑
 
+#SCRIPT ORIGINAL 「トントントンッ♪」
 ＠Ichigo,O02048
 「トントントンッ♪」
 
+#SCRIPT ORIGINAL いちご自身もリズムを口ずさみながら楽しそうだ。
 いちご自身もリズムを口ずさみながら楽しそうだ。
 
+#SCRIPT ORIGINAL 「トントン～♪　パパは肩も硬いね～」
 ＠Ichigo,O02049
 「トントン～♪　パパは肩も硬いね～」
 
+#SCRIPT ORIGINAL 「うん。たいぶ凝ってるから、叩いてくれると気持ちいいよ」
 ＠Itsuki
 「うん。たいぶ凝ってるから、叩いてくれると気持ちいいよ」
 
+#SCRIPT ORIGINAL 「『も』って、パパのおちんちんのことだよ」
 ＠Ichigo,O02050
 「『も』って、パパのおちんちんのことだよ」
 
+#SCRIPT ORIGINAL 「いや、分かってるから聞かなかったんだ……」
 ＠Itsuki
 「いや、分かってるから聞かなかったんだ……」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「あははっ。今度おちんちんも凝ってるときに叩いてあげるね～」
 ＠Ichigo,O02051
 「あははっ。今度おちんちんも凝ってるときに叩いてあげるね～」
 
+#SCRIPT ORIGINAL 「か、勘弁してくれそれは……」
 ＠Itsuki
 「か、勘弁してくれそれは……」
 
+#SCRIPT ORIGINAL たまにバカなやり取りがあるのもいちごらしく、肩叩きの時間は続いた。
 たまにバカなやり取りがあるのもいちごらしく、肩叩きの時間は続いた。
 
+#SCRIPT ORIGINAL ……だがさて。どうして急に肩叩きなんだろう。
 ……だがさて。どうして急に肩叩きなんだろう。
 
+#SCRIPT ORIGINAL いちごは良い子に違いは無いが、果たして、進んで肩叩きをしてくれるだろうか。
 いちごは良い子に違いは無いが、果たして、進んで肩叩きをしてくれるだろうか。
 
 @ichigo_komikaru_warai	#コミカル笑
 
+#SCRIPT ORIGINAL 「トントントンッ♪　パパのお肩を叩きましょ～♪」
 ＠Ichigo,O02052
 「トントントンッ♪　パパのお肩を叩きましょ～♪」
 
+#SCRIPT ORIGINAL 今もペースを保ちながら、オレの肩を叩いてくれるいちご。
 今もペースを保ちながら、オレの肩を叩いてくれるいちご。
 
+#SCRIPT ORIGINAL （お約束として、何かおねだりの前兆の可能性が高いよな）
 ＠Itsuki
 （お約束として、何かおねだりの前兆の可能性が高いよな）
 
@@ -1630,6 +1939,7 @@ screen_vibration	500,16,16,16
 #■（選択肢）
 #（１．こっちから聞いてあげる）
 #（２．黙っておく）
+#SCRIPT ORIGINAL select sel,"こっちから聞いてあげる","黙っておく"
 select sel,"I'll hear from here","Keep quiet"
 if sel=0 then goto ichigo_qa07_a
 if sel=1 then goto ichigo_qa07_b
@@ -1640,38 +1950,49 @@ if sel=1 then goto ichigo_qa07_b
 #--------------------------------------------------
 label	ichigo_qa07_a
 
+#SCRIPT ORIGINAL 「いちご、肩叩き以外にも用事があるんじゃないのか？」
 ＠Itsuki
 「いちご、肩叩き以外にも用事があるんじゃないのか？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「え…？　どうして？」
 ＠Ichigo,O02053
 「え…？　どうして？」
 
+#SCRIPT ORIGINAL 「何かおねだりがあって肩を叩いてるんだろう？　聞いてあげるから」
 ＠Itsuki
 「何かおねだりがあって肩を叩いてるんだろう？　聞いてあげるから」
 
+#SCRIPT ORIGINAL 「………」
 ＠Ichigo,O02054
 「………」
 
+#SCRIPT ORIGINAL 不意に、いちごの手の動きが止まった。
 不意に、いちごの手の動きが止まった。
 
+#SCRIPT ORIGINAL 「ん…？　うおっ！？」
 ＠Itsuki
 「ん…？　うおっ！？」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
+#SCRIPT ORIGINAL 「む～～…（怒」
 ＠Ichigo,O02055
 「む～～…（怒」
 
+#SCRIPT ORIGINAL 振り返ると、そこに居たのは頬を膨らませた不機嫌ないちご……
 振り返ると、そこに居たのは頬を膨らませた不機嫌ないちご……
 
+#SCRIPT ORIGINAL 「パパは、いちごがそんな理由で肩を叩いてるって思ってたんだ～っ」
 ＠Ichigo,O02056
 「パパは、いちごがそんな理由で肩を叩いてるって思ってたんだ～っ」
 
+#SCRIPT ORIGINAL 「いちごはただ、お仕事お疲れ様って思って頑張ってだけたのにぃっ」
 ＠Ichigo,O02057
 「いちごはただ、お仕事お疲れ様って思って頑張ってだけたのにぃっ」
 
+#SCRIPT ORIGINAL 「え……そ、そうだったのか。それは悪かったっ」
 ＠Itsuki
 「え……そ、そうだったのか。それは悪かったっ」
 
@@ -1689,23 +2010,30 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「もういいもん～っ。パパはいちごの事そう思ってるってことだもんっ」
 ＠Ichigo,O02058
 「もういいもん～っ。パパはいちごの事そう思ってるってことだもんっ」
 
+#SCRIPT ORIGINAL ……これはマズイ。
 ……これはマズイ。
 
+#SCRIPT ORIGINAL 気を利かせたつもりが、完全に裏目に出てしまったッ。
 気を利かせたつもりが、完全に裏目に出てしまったッ。
 
+#SCRIPT ORIGINAL しかもこれは、いちごの親切心を踏みにじってしまったも同然の言葉だ。
 しかもこれは、いちごの親切心を踏みにじってしまったも同然の言葉だ。
 
+#SCRIPT ORIGINAL 「わ、悪かったいちご……そうだ、今度お詫びに何か買ってやろうかっ？」
 ＠Itsuki
 「わ、悪かったいちご……そうだ、今度お詫びに何か買ってやろうかっ？」
 
 layer_movepass_init	l_ichigo,0	#演出初期化
 
+#SCRIPT ORIGINAL 「いらないッ。いちごおねだりなんかじゃないもんっ」
 ＠Ichigo,O02059
 「いらないッ。いちごおねだりなんかじゃないもんっ」
 
+#SCRIPT ORIGINAL 「せっかく肩叩きしてたのに、もうパパなんてしらないッ」
 ＠Ichigo,O02060
 「せっかく肩叩きしてたのに、もうパパなんてしらないッ」
 
@@ -1715,11 +2043,14 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 物で釣ろうとしたのがさらに不味く、いちごは機嫌を損ねて行ってしまった。
 物で釣ろうとしたのがさらに不味く、いちごは機嫌を損ねて行ってしまった。
 
+#SCRIPT ORIGINAL 「しまったな……せっかくの親切を下心扱いなんて、可哀想な事を」
 ＠Itsuki
 「しまったな……せっかくの親切を下心扱いなんて、可哀想な事を」
 
+#SCRIPT ORIGINAL 根は素直ないちごだけに、ショックだったに違いない。
 根は素直ないちごだけに、ショックだったに違いない。
 
 bgm_stop
@@ -1727,6 +2058,7 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL それからオレは、迷わずいちごの部屋に行って謝り、そして何とか機嫌を直してもらうのだった。
 それからオレは、迷わずいちごの部屋に行って謝り、そして何とか機嫌を直してもらうのだった。
 
 @bg_black
@@ -1740,33 +2072,42 @@ return
 #--------------------------------------------------
 label	ichigo_qa07_b
 
+#SCRIPT ORIGINAL いやいや。やっぱりおねだりなんて決め付けるのは、いちごに失礼だ。
 いやいや。やっぱりおねだりなんて決め付けるのは、いちごに失礼だ。
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「…？　どうかしたの、パパ？」
 ＠Ichigo,O02061
 「…？　どうかしたの、パパ？」
 
+#SCRIPT ORIGINAL 「いや、別に。ありがとういちご」
 ＠Itsuki
 「いや、別に。ありがとういちご」
 
 @ichigo_komikaru_warai	#コミカル笑
 
+#SCRIPT ORIGINAL 「ううんっ。パパこそいつもお仕事お疲れ様～♪」
 ＠Ichigo,O02062
 「ううんっ。パパこそいつもお仕事お疲れ様～♪」
 
+#SCRIPT ORIGINAL 肩を叩きながら労われる、心が温かくなるような言葉。
 肩を叩きながら労われる、心が温かくなるような言葉。
 
+#SCRIPT ORIGINAL その後も談笑しながら心地よい時間が続き、いちごからおねだりが出ることは無かった。
 その後も談笑しながら心地よい時間が続き、いちごからおねだりが出ることは無かった。
 
+#SCRIPT ORIGINAL 「いちご、今度一緒におやつでも食べに出かけようか」
 ＠Itsuki
 「いちご、今度一緒におやつでも食べに出かけようか」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「えっ？　いいのっ？」
 ＠Ichigo,O02063
 「えっ？　いいのっ？」
 
+#SCRIPT ORIGINAL 「ああ。肩を叩いてくれたお礼だよ」
 ＠Itsuki
 「ああ。肩を叩いてくれたお礼だよ」
 
@@ -1783,6 +2124,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「わぁいッ♪　いくいくッ、パパ大好きーーッ！」
 ＠Ichigo,O02064
 「わぁいッ♪　いくいくッ、パパ大好きーーッ！」
 
@@ -1792,14 +2134,18 @@ wait		1000
 #SE36　勢いよく抱きつく音（バフッ！）
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
+#SCRIPT ORIGINAL 「おっと。はは、オレもいちごのこと大好きだよ」
 ＠Itsuki
 「おっと。はは、オレもいちごのこと大好きだよ」
 
+#SCRIPT ORIGINAL 結局奢るのは同じだけど、親切のお礼だからオレもいちごも嬉しいんだろうな。
 結局奢るのは同じだけど、親切のお礼だからオレもいちごも嬉しいんだろうな。
 
+#SCRIPT ORIGINAL 「にゅふふ～♪　パパの身体あったかい～」
 ＠Ichigo,O02065
 「にゅふふ～♪　パパの身体あったかい～」
 
+#SCRIPT ORIGINAL 飛び込んできたいちごの頭を撫でてあげながら、そんな風に思った。
 飛び込んできたいちごの頭を撫でてあげながら、そんな風に思った。
 
 @chara_clear		#保険
@@ -1822,30 +2168,38 @@ label	ichigo_qa08
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O02066
 「パパ～、まだ起きてる？」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 
+#SCRIPT ORIGINAL 「ああ、どうかしたかいちご？」
 ＠Itsuki
 「ああ、どうかしたかいちご？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「うん、あのね、パジャマがちょっとほつれちゃったの……」
 ＠Ichigo,O02067
 「うん、あのね、パジャマがちょっとほつれちゃったの……」
 
+#SCRIPT ORIGINAL 「ここのお腹の横の部分なんだけど……」
 ＠Ichigo,O02068
 「ここのお腹の横の部分なんだけど……」
 
 @ichigo_
 
+#SCRIPT ORIGINAL いちごがパジャマを指で引っ張りながら、その部位を見せる。
 いちごがパジャマを指で引っ張りながら、その部位を見せる。
 
+#SCRIPT ORIGINAL ちょうど脇腹の縫い目の部分に糸が垂れていた。
 ちょうど脇腹の縫い目の部分に糸が垂れていた。
 
+#SCRIPT ORIGINAL 「う～ん。まだ本格的に解けてはないな。心配ない」
 ＠Itsuki
 「う～ん。まだ本格的に解けてはないな。心配ない」
 
@@ -1853,32 +2207,41 @@ label	ichigo_qa08
 @ichigo_pajama
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「ほんとっ？　じゃあパパ直せるのッ？」
 ＠Ichigo,O02069
 「ほんとっ？　じゃあパパ直せるのッ？」
 
+#SCRIPT ORIGINAL 「出来るけど、美雨の方がいいんじゃないか？　きっと上手いぞ」
 ＠Itsuki
 「出来るけど、美雨の方がいいんじゃないか？　きっと上手いぞ」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「うん、美雨は飾りつけもしてくれるし、服を縫うの上手だよ」
 ＠Ichigo,O02070
 「うん、美雨は飾りつけもしてくれるし、服を縫うの上手だよ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「でもいちご、美雨も好きだけど、パパが直せるならパパに縫ってもらいたいな～っ♪」
 ＠Ichigo,O02071
 「でもいちご、美雨も好きだけど、パパが直せるならパパに縫ってもらいたいな～っ♪」
 
+#SCRIPT ORIGINAL 「ね、ダメ？」
 ＠Ichigo,O02072
 「ね、ダメ？」
 
+#SCRIPT ORIGINAL 「裁縫かぁ……」
 ＠Itsuki
 「裁縫かぁ……」
 
+#SCRIPT ORIGINAL おねだりいちごに半分負けた状態で、改めて縫う部位を見る。
 おねだりいちごに半分負けた状態で、改めて縫う部位を見る。
 
+#SCRIPT ORIGINAL 自分に出来なければ、もう断るしか選択はないのだが、
 自分に出来なければ、もう断るしか選択はないのだが、
 
+#SCRIPT ORIGINAL 「これなら出来そうだな。やってみるか」
 ＠Itsuki
 「これなら出来そうだな。やってみるか」
 
@@ -1895,29 +2258,36 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「わぁいッ！　パパが直してくれる～！」
 ＠Ichigo,O02073
 「わぁいッ！　パパが直してくれる～！」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「はいッ、これ、もうお裁縫道具持ってきたんだよっ」
 ＠Ichigo,O02074
 「はいッ、これ、もうお裁縫道具持ってきたんだよっ」
 
+#SCRIPT ORIGINAL 「お。準備いいな。最初からオレを狙ってたか」
 ＠Itsuki
 「お。準備いいな。最初からオレを狙ってたか」
 
 @ichigo_komikaru_warai	#コミカル笑
 
+#SCRIPT ORIGINAL 「えへへ～♪」
 ＠Ichigo,O02075
 「えへへ～♪」
 
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL いちごから裁縫道具を受け取って中を確認する。
 いちごから裁縫道具を受け取って中を確認する。
 
+#SCRIPT ORIGINAL 針と糸とハサミと………まぁ縫うだけならこの三つで十分だ。
 針と糸とハサミと………まぁ縫うだけならこの三つで十分だ。
 
+#SCRIPT ORIGINAL 「それじゃいちご、一度部屋で別の服に着替えてからパジャマを―――」
 ＠Itsuki
 「それじゃいちご、一度部屋で別の服に着替えてからパジャマを―――」
 
@@ -1927,45 +2297,58 @@ layer_movepass_play	l_ichigo,0,play_once
 @ichigo_yorokobi	#喜
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「んぅ？　なぁにパパ」
 ＠Ichigo,O02076
 「んぅ？　なぁにパパ」
 
+#SCRIPT ORIGINAL 顔を上げると、すでにいちごは目の前でショーツ以外すっぽんぽんだった。
 顔を上げると、すでにいちごは目の前でショーツ以外すっぽんぽんだった。
 
+#SCRIPT ORIGINAL 「おわッ！？　こ、こらっ、いきなり脱ぐないちごッ」
 ＠Itsuki
 「おわッ！？　こ、こらっ、いきなり脱ぐないちごッ」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「え？　でも脱がないと縫えないよ。いちごのパジャマ上下繋がってるもん」
 ＠Ichigo,O02077
 「え？　でも脱がないと縫えないよ。いちごのパジャマ上下繋がってるもん」
 
+#SCRIPT ORIGINAL 「はいっ、パパ、パジャマだよ」
 ＠Ichigo,O02078
 「はいっ、パパ、パジャマだよ」
 
+#SCRIPT ORIGINAL 何の疑問もなく素っ裸のいちごから、脱ぎたてのパジャマを手渡される。
 何の疑問もなく素っ裸のいちごから、脱ぎたてのパジャマを手渡される。
 
+#SCRIPT ORIGINAL ……そりゃそうだ。
+#SCRIPT ORIGINAL むしろ驚くオレが不自然だった。いちごはこういう子だ。
 ……そりゃそうだ。
 むしろ驚くオレが不自然だった。いちごはこういう子だ。
 
+#SCRIPT ORIGINAL 「……冷えないように、シーツに包まってるんだぞ」
 ＠Itsuki
 「……冷えないように、シーツに包まってるんだぞ」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「あははっ。この部屋温かいから平気だよ～」
 ＠Ichigo,O02079
 「あははっ。この部屋温かいから平気だよ～」
 
+#SCRIPT ORIGINAL 「それでも念のためだよ。オレも指に針なんて刺したくないからな……」
 ＠Itsuki
 「それでも念のためだよ。オレも指に針なんて刺したくないからな……」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「は～い。よく分からないけど、パパが言うならそうするね」
 ＠Ichigo,O02080
 「は～い。よく分からないけど、パパが言うならそうするね」
 
 @ichigo_komikaru_warai	#コミカル笑
 
+#SCRIPT ORIGINAL 「えへへ～、たあッ！」
 ＠Ichigo,O02081
 「えへへ～、たあッ！」
 
@@ -1976,42 +2359,55 @@ wait		500
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 頷くやいなや、ベッドに向かってダイブするいちご。
 頷くやいなや、ベッドに向かってダイブするいちご。
 
+#SCRIPT ORIGINAL 「むふ～♪　いちごのベッドと匂いが違うね～。パパの匂いがするっ」
 ＠Ichigo,O02082
 「むふ～♪　いちごのベッドと匂いが違うね～。パパの匂いがするっ」
 
+#SCRIPT ORIGINAL 「ははっ。あんまりはしゃいで落ちるんじゃないぞ」
 ＠Itsuki
 「ははっ。あんまりはしゃいで落ちるんじゃないぞ」
 
+#SCRIPT ORIGINAL 「平気っ、いちごはそんなドジしないよ～」
 ＠Ichigo,O02083
 「平気っ、いちごはそんなドジしないよ～」
 
+#SCRIPT ORIGINAL そのままゴロゴロと身体を転がしながら、シーツに包まっていく。
 そのままゴロゴロと身体を転がしながら、シーツに包まっていく。
 
+#SCRIPT ORIGINAL 無防備なことこの上なく、バッチリお尻も秘裂もショーツの隙間から覗けていた。
 無防備なことこの上なく、バッチリお尻も秘裂もショーツの隙間から覗けていた。
 
+#SCRIPT ORIGINAL 「やれやれ……」
 ＠Itsuki
 「やれやれ……」
 
+#SCRIPT ORIGINAL そんな羞恥の薄さもまた、いちごらしい。
 そんな羞恥の薄さもまた、いちごらしい。
 
 #■BG（黒）
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL 縫い物に意識を集中して、オレは針と糸を使い始めた。
 縫い物に意識を集中して、オレは針と糸を使い始めた。
 
+#SCRIPT ORIGINAL ………。
 ………。
 
+#SCRIPT ORIGINAL ……………。
 ……………。
 
+#SCRIPT ORIGINAL …………………。
 …………………。
 
 #■BG（自室・夜）
 @chara_clear		#保険
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 縫い始めて数分後。ほつれていた部位は直りつつあった。
 縫い始めて数分後。ほつれていた部位は直りつつあった。
 
 #CH（いちご・髪下ろしショーツのみ）
@@ -2019,31 +2415,40 @@ screen_vibration	500,16,16,16
 @ichigo_shitagi
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「わぁいッ♪　綺麗に直ってる～、パパも上手だよっ♪」
 ＠Ichigo,O02084
 「わぁいッ♪　綺麗に直ってる～、パパも上手だよっ♪」
 
+#SCRIPT ORIGINAL 「ああ、でも最後まで気は抜けない」
 ＠Itsuki
 「ああ、でも最後まで気は抜けない」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「うんっ、もうちょっとだよっ。頑張ってパパ」
 ＠Ichigo,O02085
 「うんっ、もうちょっとだよっ。頑張ってパパ」
 
+#SCRIPT ORIGINAL 応援しながらじゃれついてくる。
 応援しながらじゃれついてくる。
 
+#SCRIPT ORIGINAL ……結局いちごはいつの間にか、シーツも無く裸で引っ付いてきていた。
 ……結局いちごはいつの間にか、シーツも無く裸で引っ付いてきていた。
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「でも縫うのは上手いけど、何度か針刺しちゃったね……大丈夫？」
 ＠Ichigo,O02086
 「でも縫うのは上手いけど、何度か針刺しちゃったね……大丈夫？」
 
+#SCRIPT ORIGINAL 「ま、まぁな………あんまりくっつかないでくれ」
 ＠Itsuki
 「ま、まぁな………あんまりくっつかないでくれ」
 
+#SCRIPT ORIGINAL 二回……いや、三回か。いちごに気をとられて指を刺していた……
 二回……いや、三回か。いちごに気をとられて指を刺していた……
 
+#SCRIPT ORIGINAL 「よし、最後に糸を結んで………終了っと」
 ＠Itsuki
 「よし、最後に糸を結んで………終了っと」
 
@@ -2060,58 +2465,76 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「やったぁッ、出来たよパパ～！！」
 ＠Ichigo,O02087
 「やったぁッ、出来たよパパ～！！」
 
+#SCRIPT ORIGINAL ほつれていた部分は、何とか違和感無く綺麗に縫い直せていた。
 ほつれていた部分は、何とか違和感無く綺麗に縫い直せていた。
 
+#SCRIPT ORIGINAL 不慣れながらも、我ながらよく出来たと思う。
 不慣れながらも、我ながらよく出来たと思う。
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「すご～いッ！　パパも美雨みたいに何でも出来るんだねッ！」
 ＠Ichigo,O02088
 「すご～いッ！　パパも美雨みたいに何でも出来るんだねッ！」
 
+#SCRIPT ORIGINAL 「美雨レベルじゃないけど、オレなりには頑張ったよ」
 ＠Itsuki
 「美雨レベルじゃないけど、オレなりには頑張ったよ」
 
+#SCRIPT ORIGINAL 「うんッ。ほつれてたのも全然分からなくなってるもん」
 ＠Ichigo,O02089
 「うんッ。ほつれてたのも全然分からなくなってるもん」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「えへへ～♪　いちごのお気に入りのパジャマ、パパに縫ってもらっちゃった～」
 ＠Ichigo,O02090
 「えへへ～♪　いちごのお気に入りのパジャマ、パパに縫ってもらっちゃった～」
 
+#SCRIPT ORIGINAL 身体を弾ませながら、無邪気に喜んで引っ付いてくるいちご。
 身体を弾ませながら、無邪気に喜んで引っ付いてくるいちご。
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「ありがとうパパッ。いちご今までよりずっと、このパジャマ大事にするね」
 ＠Ichigo,O02091
 「ありがとうパパッ。いちご今までよりずっと、このパジャマ大事にするね」
 
+#SCRIPT ORIGINAL 「ん、ああ。そうだな」
 ＠Itsuki
 「ん、ああ。そうだな」
 
+#SCRIPT ORIGINAL 「早く着たいな～♪」
 ＠Ichigo,O02092
 「早く着たいな～♪」
 
+#SCRIPT ORIGINAL いちごは、オレの手の中のパジャマを、手渡されるのが楽しみに見つめている。
 いちごは、オレの手の中のパジャマを、手渡されるのが楽しみに見つめている。
 
+#SCRIPT ORIGINAL 返してあげないと。いちごは裸のままだ。
 返してあげないと。いちごは裸のままだ。
 
+#SCRIPT ORIGINAL 「ねぇパパ、いちごにも早くパジャマ見せてよ～♪」
 ＠Ichigo,O02093
 「ねぇパパ、いちごにも早くパジャマ見せてよ～♪」
 
+#SCRIPT ORIGINAL 「慌てるなくても、ちゃんと返してあげるよ」
 ＠Itsuki
 「慌てるなくても、ちゃんと返してあげるよ」
 
+#SCRIPT ORIGINAL いちごの健康的な肌。裸の薄い胸。
 いちごの健康的な肌。裸の薄い胸。
 
+#SCRIPT ORIGINAL そしてローレグの狭い面積に秘められている秘裂に、ふと意識が向いてしまった。
 そしてローレグの狭い面積に秘められている秘裂に、ふと意識が向いてしまった。
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「……？　パパ？」
 ＠Ichigo,O02094
 「……？　パパ？」
 
@@ -2119,6 +2542,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #■（選択肢）
 #（１．この場でエッチする）I will echi in this place
 #（２．そんなことはしない）I will not do something like that
+#SCRIPT ORIGINAL select sel,"この場でエッチする","そんなことはしない"
 select sel,"I'll some ecchi here","I wouldn't do that"
 if sel=0 then goto ichigo_qa08_a
 if sel=1 then goto ichigo_qa08_b
@@ -2129,39 +2553,50 @@ if sel=1 then goto ichigo_qa08_b
 #--------------------------------------------------
 label	ichigo_qa08_a
 
+#SCRIPT ORIGINAL 強引だが、ここでの生活、そしていちご相手に気にする必要は無いはず。
 強引だが、ここでの生活、そしていちご相手に気にする必要は無いはず。
 
+#SCRIPT ORIGINAL 「返してもいいけど、その前にせっかくだから少しするか、いちご」
 ＠Itsuki
 「返してもいいけど、その前にせっかくだから少しするか、いちご」
 
+#SCRIPT ORIGINAL 「するって、何をするの…？」
 ＠Ichigo,O02095
 「するって、何をするの…？」
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「あッ、分かった！　エッチでしょパパッ」
 ＠Ichigo,O02096
 「あッ、分かった！　エッチでしょパパッ」
 
+#SCRIPT ORIGINAL 「察しがいいな、正解だ。どうする？」
 ＠Itsuki
 「察しがいいな、正解だ。どうする？」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「うんッ、いちごはいいよ～！　エッチしようパパ」
 ＠Ichigo,O02097
 「うんッ、いちごはいいよ～！　エッチしようパパ」
 
+#SCRIPT ORIGINAL 遊びの延長のような気楽さで了解して、オレに擦り寄ってくるいちご。
 遊びの延長のような気楽さで了解して、オレに擦り寄ってくるいちご。
 
+#SCRIPT ORIGINAL だがエッチと聞いて、さっきまでのじゃれつきとは僅かに雰囲気が違っている気もした。
 だがエッチと聞いて、さっきまでのじゃれつきとは僅かに雰囲気が違っている気もした。
 
 @ichigo_yokujyou_yorokobi	#欲情_喜
 
+#SCRIPT ORIGINAL 「パパがしてくれるの？　それともいちごがする？」
 ＠Ichigo,O02098
 「パパがしてくれるの？　それともいちごがする？」
 
+#SCRIPT ORIGINAL 「いちごにしてもらおうか。ズボンも降ろしてな」
 ＠Itsuki
 「いちごにしてもらおうか。ズボンも降ろしてな」
 
+#SCRIPT ORIGINAL 「うんっ、待ってて」
 ＠Ichigo,O02099
 「うんっ、待ってて」
 
@@ -2172,15 +2607,19 @@ wait		1000
 #@SE01			#SE01　ズボンのベルトを外す（カチャカチャ）
 se		0,	"sound\se\SE01_ベルトを外す.wav",play_once
 
+#SCRIPT ORIGINAL 頷くと腰の前にしゃがみ、こちらのベルトを外し始めるいちご。
 頷くと腰の前にしゃがみ、こちらのベルトを外し始めるいちご。
 
+#SCRIPT ORIGINAL オレはその間にいちごの頭を撫でたり、耳たぶや首筋を指先で愛撫する。
 オレはその間にいちごの頭を撫でたり、耳たぶや首筋を指先で愛撫する。
 
 se_stop		0
 
+#SCRIPT ORIGINAL 「あはは。パパ、それくすぐったくて気持ちいい～…もっとして」
 ＠Ichigo,O02100
 「あはは。パパ、それくすぐったくて気持ちいい～…もっとして」
 
+#SCRIPT ORIGINAL スリスリと指に頬を擦り付けながら、いちごの手はベルトをズボンから抜いていった。
 スリスリと指に頬を擦り付けながら、いちごの手はベルトをズボンから抜いていった。
 
 #@ichigo_middle		# 中間
@@ -2188,76 +2627,97 @@ se_stop		0
 @ichigo_shitagi
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「うん、んしょ……ベルト外したよ。おちんちん出すね」
 ＠Ichigo,O02101
 「うん、んしょ……ベルト外したよ。おちんちん出すね」
 
+#SCRIPT ORIGINAL 「ああ。まずはフェラチオで出してくれたら、次はオレがしてやるから」
 ＠Itsuki
 「ああ。まずはフェラチオで出してくれたら、次はオレがしてやるから」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「えへへ～。頑張るよっ………くしゅんッ！」
 ＠Ichigo,O02102
 「えへへ～。頑張るよっ………くしゅんッ！」
 
+#SCRIPT ORIGINAL 「お……？」
 ＠Itsuki
 「お……？」
 
+#SCRIPT ORIGINAL いざ咥える段階で、いちごから小さくクシャミが漏れ出した。
 いざ咥える段階で、いちごから小さくクシャミが漏れ出した。
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「わあッ、今のでパパのおちんちんにいっぱい唾が飛んじゃったッ…」
 ＠Ichigo,O02103
 「わあッ、今のでパパのおちんちんにいっぱい唾が飛んじゃったッ…」
 
 @ichigo_kurushii	#苦
 
+#SCRIPT ORIGINAL 「……くしゅんッ！」
 ＠Ichigo,O02104
 「……くしゅんッ！」
 
+#SCRIPT ORIGINAL 「唾は別にいいが……くしゃみ、二回続いたな」
 ＠Itsuki
 「唾は別にいいが……くしゃみ、二回続いたな」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「ん～～ぅ、何でだろう……鼻もムズムズしてなかったのに」
 ＠Ichigo,O02105
 「ん～～ぅ、何でだろう……鼻もムズムズしてなかったのに」
 
+#SCRIPT ORIGINAL 「言ったのに、裸で居たからだ。冷えたんだよいちご」
 ＠Itsuki
 「言ったのに、裸で居たからだ。冷えたんだよいちご」
 
 @ichigo_kurushii	#苦
 
+#SCRIPT ORIGINAL 「そうなのかなぁ……くしゅんッ！」
 ＠Ichigo,O02106
 「そうなのかなぁ……くしゅんッ！」
 
+#SCRIPT ORIGINAL どうやら本格的に冷えたようだ。エッチどころじゃない。
 どうやら本格的に冷えたようだ。エッチどころじゃない。
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「平気だよ、いちご……喉も頭も痛くないもん…」
 ＠Ichigo,O02107
 「平気だよ、いちご……喉も頭も痛くないもん…」
 
+#SCRIPT ORIGINAL 「そうなってからじゃ遅いんだよ。風邪引く前に注意しないとな」
 ＠Itsuki
 「そうなってからじゃ遅いんだよ。風邪引く前に注意しないとな」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「うぅ～……エッチ止めちゃうの？」
 ＠Ichigo,O02108
 「うぅ～……エッチ止めちゃうの？」
 
+#SCRIPT ORIGINAL 「部屋も温かいし、いちごエッチすると身体がポカポカするから平気だよ……」
 ＠Ichigo,O02109
 「部屋も温かいし、いちごエッチすると身体がポカポカするから平気だよ……」
 
+#SCRIPT ORIGINAL パジャマを手渡すオレを、いちごは残念そうに見つめた。
 パジャマを手渡すオレを、いちごは残念そうに見つめた。
 
+#SCRIPT ORIGINAL そんな目をしなくてももちろん、オレから誘ったんだから当然オレも残念だ。
 そんな目をしなくてももちろん、オレから誘ったんだから当然オレも残念だ。
 
+#SCRIPT ORIGINAL 「…パパ止めちゃって平気なの……？　今から、おちんちん咥えるところだったのに…」
 ＠Ichigo,O02110
 「…パパ止めちゃって平気なの……？　今から、おちんちん咥えるところだったのに…」
 
+#SCRIPT ORIGINAL 「それは残念だけど。でもそれは今じゃなくても出来るだろう？」
 ＠Itsuki
 「それは残念だけど。でもそれは今じゃなくても出来るだろう？」
 
+#SCRIPT ORIGINAL 「性処理よりもオレは、いちごの身体の方が大事なんだよ」
 ＠Itsuki
 「性処理よりもオレは、いちごの身体の方が大事なんだよ」
 
@@ -2265,42 +2725,52 @@ se_stop		0
 @bg_black
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
+#SCRIPT ORIGINAL 渡したパジャマを受け取ると、いちごはそれを着直していった。
 渡したパジャマを受け取ると、いちごはそれを着直していった。
 
 @chara_clear		#保険
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「いちごのことが心配だから、止めてくれるの？」
 ＠Ichigo,O02111
 「いちごのことが心配だから、止めてくれるの？」
 
+#SCRIPT ORIGINAL 「そうだよ。風邪なんか引かせたら可哀想だ」
 ＠Itsuki
 「そうだよ。風邪なんか引かせたら可哀想だ」
 
+#SCRIPT ORIGINAL 「えへへ…♪」
 ＠Ichigo,O02112
 「えへへ…♪」
 
+#SCRIPT ORIGINAL その答えにいちごは顔をほころばせて、そしてすっかりパジャマも着終わった。
 その答えにいちごは顔をほころばせて、そしてすっかりパジャマも着終わった。
 
 @ichigo_middle		# 中間
 @ichigo_pajama
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「パパ、今度今日の分のエッチしてくれるっ？」
 ＠Ichigo,O02113
 「パパ、今度今日の分のエッチしてくれるっ？」
 
+#SCRIPT ORIGINAL 「約束するよ。だから今日は、冷えないうちに休みなさい」
 ＠Itsuki
 「約束するよ。だから今日は、冷えないうちに休みなさい」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「は～いっ♪」
 ＠Ichigo,O02114
 「は～いっ♪」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「おやすみなさい、パパっ。パジャマありがとう」
 ＠Ichigo,O02115
 「おやすみなさい、パパっ。パジャマありがとう」
 
+#SCRIPT ORIGINAL 「どういたしまして。おやすみ」
 ＠Itsuki
 「どういたしまして。おやすみ」
 
@@ -2311,13 +2781,17 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 一波乱あったが、いちごは嬉しそうにして部屋に戻って行った。
 一波乱あったが、いちごは嬉しそうにして部屋に戻って行った。
 
+#SCRIPT ORIGINAL いちごの発作も、エッチを始めていなかったから、平気なはずだし。
 いちごの発作も、エッチを始めていなかったから、平気なはずだし。
 
+#SCRIPT ORIGINAL 「……けど。こっちはどうするかな」
 ＠Itsuki
 「……けど。こっちはどうするかな」
 
+#SCRIPT ORIGINAL オレは一人、ムズムズする衝動を処理し損ねて溜め息を吐いた。
 オレは一人、ムズムズする衝動を処理し損ねて溜め息を吐いた。
 
 @chara_clear		#保険
@@ -2333,33 +2807,41 @@ return
 #--------------------------------------------------
 label	ichigo_qa08_b
 
+#SCRIPT ORIGINAL いちごは、オレを頼ってきてくれたんだぞ。何を考えてるんだ。
 いちごは、オレを頼ってきてくれたんだぞ。何を考えてるんだ。
 
+#SCRIPT ORIGINAL 「ああ悪い。ほら、着てごらん」
 ＠Itsuki
 「ああ悪い。ほら、着てごらん」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「は～いッ！」
 ＠Ichigo,O02116
 「は～いッ！」
 
 @ichigo_
 
+#SCRIPT ORIGINAL 受け取ったパジャマを早速いちごは着直していく。
 受け取ったパジャマを早速いちごは着直していく。
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
+#SCRIPT ORIGINAL 足と腕を通し、ジッパーを上げればもう、いつもどおりのパジャマ姿だ。
 足と腕を通し、ジッパーを上げればもう、いつもどおりのパジャマ姿だ。
 
 @ichigo_middle		# 中間
 @ichigo_pajama
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「えへへ～♪　見てパパっ、縫ってるのなんて分からないよ」
 ＠Ichigo,O02117
 「えへへ～♪　見てパパっ、縫ってるのなんて分からないよ」
 
+#SCRIPT ORIGINAL そんないちごは嬉々としながら、解れていた部位を指で摘んで見せた。
 そんないちごは嬉々としながら、解れていた部位を指で摘んで見せた。
 
+#SCRIPT ORIGINAL 「そうだな。着た感じも大丈夫そうか」
 ＠Itsuki
 「そうだな。着た感じも大丈夫そうか」
 
@@ -2371,17 +2853,21 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ、上手だし大丈夫！　もう解れたりしなさそうだもん」
 ＠Ichigo,O02118
 「うんッ、上手だし大丈夫！　もう解れたりしなさそうだもん」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「どうもありがとうっ、パパ！」
 ＠Ichigo,O02119
 「どうもありがとうっ、パパ！」
 
+#SCRIPT ORIGINAL 「はは、どういたしまして」
 ＠Itsuki
 「はは、どういたしまして」
 
+#SCRIPT ORIGINAL 縫い物だけでこんなに喜んでくれるなら、やった甲斐もあったというものだ。
 縫い物だけでこんなに喜んでくれるなら、やった甲斐もあったというものだ。
 
 bgm_stop
@@ -2389,6 +2875,7 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL こうして、一時別の意味で危うい場面もあったが、何とか平穏無事に済ますことができたのだった。
 こうして、一時別の意味で危うい場面もあったが、何とか平穏無事に済ますことができたのだった。
 
 #（スケジュールへ）
@@ -2406,56 +2893,73 @@ label	ichigo_qa09
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O02120
 「パパ～、まだ起きてる？」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 
+#SCRIPT ORIGINAL 「ああ、どうかしたかいちご？」
 ＠Itsuki
 「ああ、どうかしたかいちご？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「うん、あのね……」
 ＠Ichigo,O02121
 「うん、あのね……」
 
+#SCRIPT ORIGINAL 「パパは、どこまでいちごのパパになってくれるのかなって思っちゃったの」
 ＠Ichigo,O02122
 「パパは、どこまでいちごのパパになってくれるのかなって思っちゃったの」
 
+#SCRIPT ORIGINAL 「ん？　どこまでって……？」
 ＠Itsuki
 「ん？　どこまでって……？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「パパはいちごがパパって呼んでるけど、本当はパパじゃないもん……」
 ＠Ichigo,O02123
 「パパはいちごがパパって呼んでるけど、本当はパパじゃないもん……」
 
+#SCRIPT ORIGINAL 「だからいちご、パパがどれくらいパパになってくれるのかなって心配したの」
 ＠Ichigo,O02124
 「だからいちご、パパがどれくらいパパになってくれるのかなって心配したの」
 
+#SCRIPT ORIGINAL 不安そうにいちごは佇んだ。
 不安そうにいちごは佇んだ。
 
+#SCRIPT ORIGINAL いちごの話は『パパ』と『いちご』が多用され過ぎて分かりにくいが、
 いちごの話は『パパ』と『いちご』が多用され過ぎて分かりにくいが、
 
+#SCRIPT ORIGINAL つまり、どれだけ本当に近い父娘で接してあげれるかということだろう。
 つまり、どれだけ本当に近い父娘で接してあげれるかということだろう。
 
+#SCRIPT ORIGINAL 「でも何でまた、急に？　今まで気にしてなかったじゃないか？」
 ＠Itsuki
 「でも何でまた、急に？　今まで気にしてなかったじゃないか？」
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「………。……前のパパのこと、思い出したの」
 ＠Ichigo,O02125
 「………。……前のパパのこと、思い出したの」
 
+#SCRIPT ORIGINAL 「今はいちごを置いて居ないけど、でもいちご、パパのこと大好きだったから」
 ＠Ichigo,O02126
 「今はいちごを置いて居ないけど、でもいちご、パパのこと大好きだったから」
 
+#SCRIPT ORIGINAL 父親は服役中と知らず、未だに慕っているいちご……。
 父親は服役中と知らず、未だに慕っているいちご……。
 
+#SCRIPT ORIGINAL 今のいちごの中では、やはりオレはいちごの父親の代わりのような役割なのだろう。
 今のいちごの中では、やはりオレはいちごの父親の代わりのような役割なのだろう。
 
+#SCRIPT ORIGINAL 「いちごパパのこと、本当のパパみたいに甘えてもいいよんだね…？」
 ＠Ichigo,O02127
 「いちごパパのこと、本当のパパみたいに甘えてもいいよんだね…？」
 
@@ -2463,6 +2967,7 @@ label	ichigo_qa09
 #■（選択肢）
 #（１．良いに決まっている）It is determined to good. Good ni Kimatteiru.
 #（２．父親ではなく、オレに甘えていい）Not the father, totally dependant on me.
+#SCRIPT ORIGINAL select sel,"良いに決まっている","父親ではなく、オレに甘えていい"
 select sel,"It's obviously good","She's depenent on me, not her father"
 if sel=0 then goto ichigo_qa09_a
 if sel=1 then goto ichigo_qa09_b
@@ -2473,30 +2978,38 @@ if sel=1 then goto ichigo_qa09_b
 #--------------------------------------------------
 label	ichigo_qa09_a
 
+#SCRIPT ORIGINAL 「もちろんだよ。イヤだなんて思ったことは一度だって無いぞ」
 ＠Itsuki
 「もちろんだよ。イヤだなんて思ったことは一度だって無いぞ」
 
+#SCRIPT ORIGINAL 「じゃあパパは、いちごを置いてどこかに行っちゃったりもしないよね？」
 ＠Ichigo,O02128
 「じゃあパパは、いちごを置いてどこかに行っちゃったりもしないよね？」
 
+#SCRIPT ORIGINAL 「それもない。ちゃんといちご達みんなを守ってやるよ」
 ＠Itsuki
 「それもない。ちゃんといちご達みんなを守ってやるよ」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「あはっ……うんッ、よかった！」
 ＠Ichigo,O02129
 「あはっ……うんッ、よかった！」
 
+#SCRIPT ORIGINAL 不安げだったいちごの表情に、いつもの笑顔が戻ってくる。
 不安げだったいちごの表情に、いつもの笑顔が戻ってくる。
 
+#SCRIPT ORIGINAL 「いちごパパのこと、本当のパパと同じくらい大好きだよッ」
 ＠Ichigo,O02130
 「いちごパパのこと、本当のパパと同じくらい大好きだよッ」
 
+#SCRIPT ORIGINAL 「オレもだよ。いちごのことは愛娘のように思ってる」
 ＠Itsuki
 「オレもだよ。いちごのことは愛娘のように思ってる」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「えへへ～♪　パ～パッ」
 ＠Ichigo,O02131
 「えへへ～♪　パ～パッ」
 
@@ -2506,26 +3019,32 @@ wait		1000
 #SE36　勢いよく抱きつく音（バフッ！）
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
+#SCRIPT ORIGINAL 早速甘えモードないちごが飛び込んでくると、オレもそれを受け止めてあげた。
 早速甘えモードないちごが飛び込んでくると、オレもそれを受け止めてあげた。
 
 @ichigo_large		# 近い
 @ichigo_pajama
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「いちごたくさん、パパに甘えちゃうよ～」
 ＠Ichigo,O02132
 「いちごたくさん、パパに甘えちゃうよ～」
 
+#SCRIPT ORIGINAL 「それでいちごからも、お仕事おつかれさま～ってパパにお礼を言うのッ」
 ＠Ichigo,O02133
 「それでいちごからも、お仕事おつかれさま～ってパパにお礼を言うのッ」
 
+#SCRIPT ORIGINAL 「だからパパ、これからもずっといちごと一緒に居てね」
 ＠Ichigo,O02134
 「だからパパ、これからもずっといちごと一緒に居てね」
 
+#SCRIPT ORIGINAL 「ああ、安心しろ、居てあげるから」
 ＠Itsuki
 「ああ、安心しろ、居てあげるから」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL いちごの小柄な身体の温もりを感じながら、優しく抱きしめてあげた。
 いちごの小柄な身体の温もりを感じながら、優しく抱きしめてあげた。
 
 @chara_clear		#保険
@@ -2541,70 +3060,90 @@ return
 #--------------------------------------------------
 label	ichigo_qa09_b
 
+#SCRIPT ORIGINAL 「甘えるのはいいけど、それは父親としてか？」
 ＠Itsuki
 「甘えるのはいいけど、それは父親としてか？」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「え……？」
 ＠Ichigo,O02135
 「え……？」
 
+#SCRIPT ORIGINAL 「オレはいちごを〝いちご〟として大事に思ってる」
 ＠Itsuki
 「オレはいちごを〝いちご〟として大事に思ってる」
 
+#SCRIPT ORIGINAL 「だからいちごも、オレを父親じゃなく〝樹〟と思って甘えてくれると嬉しいんだけどな」
 ＠Itsuki
 「だからいちごも、オレを父親じゃなく〝樹〟と思って甘えてくれると嬉しいんだけどな」
 
 @ichigo_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「ん……んと、ごめんなさい、よく分からないよ……」
 ＠Ichigo,O02136
 「ん……んと、ごめんなさい、よく分からないよ……」
 
+#SCRIPT ORIGINAL 「いちご、やっぱりパパのことパパって思って甘えちゃダメなの…？」
 ＠Ichigo,O02137
 「いちご、やっぱりパパのことパパって思って甘えちゃダメなの…？」
 
+#SCRIPT ORIGINAL いちごの不安が色濃くなる。
 いちごの不安が色濃くなる。
 
+#SCRIPT ORIGINAL ……今のはまだいちごには、時期尚早の話だったかな。
 ……今のはまだいちごには、時期尚早の話だったかな。
 
+#SCRIPT ORIGINAL 「……パパ」
 ＠Ichigo,O02138
 「……パパ」
 
+#SCRIPT ORIGINAL 「いや、今のは忘れてくれ。いちごが望むなら、パパで構わない」
 ＠Itsuki
 「いや、今のは忘れてくれ。いちごが望むなら、パパで構わない」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「ほんとっ……？」
 ＠Ichigo,O02139
 「ほんとっ……？」
 
+#SCRIPT ORIGINAL 「ああ。だからもう不安そうにするな、甘えてきていいぞ」
 ＠Itsuki
 「ああ。だからもう不安そうにするな、甘えてきていいぞ」
 
+#SCRIPT ORIGINAL 前言撤回して、いつもどおりいちごの頭をポンポンと軽く撫でてやった。
 前言撤回して、いつもどおりいちごの頭をポンポンと軽く撫でてやった。
 
+#SCRIPT ORIGINAL ようやく安心したように、いちごは頬を綻ばせる。
 ようやく安心したように、いちごは頬を綻ばせる。
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「うんッ。良かったぁ……パパッ♪」
 ＠Ichigo,O02140
 「うんッ。良かったぁ……パパッ♪」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「じゃあいちご、これからもパパのこと大好きでいいんだよねッ？」
 ＠Ichigo,O02141
 「じゃあいちご、これからもパパのこと大好きでいいんだよねッ？」
 
+#SCRIPT ORIGINAL 「もちろんだ。オレも父親として、いちごは大好きだからな」
 ＠Itsuki
 「もちろんだ。オレも父親として、いちごは大好きだからな」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「えへへ～♪　嬉しいッ、ありがとうパパッ！」
 ＠Ichigo,O02142
 「えへへ～♪　嬉しいッ、ありがとうパパッ！」
 
+#SCRIPT ORIGINAL コロコロと元気に表情が変わって、すっかり笑顔のいちご。
 コロコロと元気に表情が変わって、すっかり笑顔のいちご。
 
+#SCRIPT ORIGINAL やっぱりオレが父親として側に居てあげるのが、今はいちごの一番の幸せなんだ。
 やっぱりオレが父親として側に居てあげるのが、今はいちごの一番の幸せなんだ。
 
 @chara_clear		#保険
@@ -2627,69 +3166,87 @@ label	ichigo_qa10
 #■BG（自室・夜）
 @bg_itsuki_n		# 自室(夜)
 
+#SCRIPT ORIGINAL 「パパ～、まだ起きてる？」
 ＠Ichigo,O02143
 「パパ～、まだ起きてる？」
 
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 部屋で休んでいるオレの元へ、いちごが尋ねてきた。
 
+#SCRIPT ORIGINAL 「どうかしたか、いちご？」
 ＠Itsuki
 「どうかしたか、いちご？」
 
 @ichigo			#普通
 
+#SCRIPT ORIGINAL 「学校の宿題でね、家族の作文を書くの」
 ＠Ichigo,O02144
 「学校の宿題でね、家族の作文を書くの」
 
+#SCRIPT ORIGINAL 「それでいちごパパのことを書きたいから、色々聞いてもいい？」
 ＠Ichigo,O02145
 「それでいちごパパのことを書きたいから、色々聞いてもいい？」
 
+#SCRIPT ORIGINAL 「作文の宿題か」
 ＠Itsuki
 「作文の宿題か」
 
+#SCRIPT ORIGINAL 「別にいいけど、オレのことか？　何か照れるな…」
 ＠Itsuki
 「別にいいけど、オレのことか？　何か照れるな…」
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「えへへ～♪　大丈夫だよ、いちごパパの良いところたくさん書くから」
 ＠Ichigo,O02146
 「えへへ～♪　大丈夫だよ、いちごパパの良いところたくさん書くから」
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「題名はね、『いちごとパパの調教生活』だよっ」
 ＠Ichigo,O02147
 「題名はね、『いちごとパパの調教生活』だよっ」
 
+#SCRIPT ORIGINAL 「………ん？」
 ＠Itsuki
 「………ん？」
 
+#SCRIPT ORIGINAL 「……悪い、何だって？」
 ＠Itsuki
 「……悪い、何だって？」
 
+#SCRIPT ORIGINAL 「『いちごとパパの調教生活』！」
 ＠Ichigo,O02148
 「『いちごとパパの調教生活』！」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「ッてえ！？　こらこらッ！　何を書く気だッ！？」
 ＠Itsuki
 「ッてえ！？　こらこらッ！　何を書く気だッ！？」
 
 @ichigo_gimon		#コミカル疑問
 
+#SCRIPT ORIGINAL 「ふえ…？　パパのお仕事のことだよ」
 ＠Ichigo,O02149
 「ふえ…？　パパのお仕事のことだよ」
 
+#SCRIPT ORIGINAL 普通に分かっていないようで、小首をかしげるいちご。
 普通に分かっていないようで、小首をかしげるいちご。
 
+#SCRIPT ORIGINAL ……これはある意味事件だ。照れている場合じゃないぞ。
 ……これはある意味事件だ。照れている場合じゃないぞ。
 
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「全部書くと長いから、初めていちごがパパとエッチしたところからにするね♪」
 ＠Ichigo,O02150
 「全部書くと長いから、初めていちごがパパとエッチしたところからにするね♪」
 
+#SCRIPT ORIGINAL 「待て待てッ。オレの身が破滅するわ！」
 ＠Itsuki
 「待て待てッ。オレの身が破滅するわ！」
 
@@ -2697,6 +3254,7 @@ label	ichigo_qa10
 #■（選択肢）
 #（１．題材を変えさせる）I make change the subject.
 #（２．オレが最後まで側でチェック）I'll check on the side until the end
+#SCRIPT ORIGINAL select sel,"題材を変えさせる","オレが最後まで側でチェック"
 select sel,"I'll change the subject","I'll check out the ending"
 if sel=0 then goto ichigo_qa10_a
 if sel=1 then goto ichigo_qa10_b
@@ -2707,43 +3265,55 @@ if sel=1 then goto ichigo_qa10_b
 #--------------------------------------------------
 label	ichigo_qa10_a
 
+#SCRIPT ORIGINAL 「いちご、やっぱりオレのことは止めて別の人のことにしろ」
 ＠Itsuki
 「いちご、やっぱりオレのことは止めて別の人のことにしろ」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「どうして……？　いちごパパのことが書きたいよぉ」
 ＠Ichigo,O02151
 「どうして……？　いちごパパのことが書きたいよぉ」
 
+#SCRIPT ORIGINAL 気持ちは嬉しいが、あまりにもリスクが大きすぎる……
 気持ちは嬉しいが、あまりにもリスクが大きすぎる……
 
+#SCRIPT ORIGINAL 「美雨のことはどうだ。いつも世話してくれてるだろう」
 ＠Itsuki
 「美雨のことはどうだ。いつも世話してくれてるだろう」
 
 @ichigo_ase		#汗
 
+#SCRIPT ORIGINAL 「う～……美雨も好きだけど…」
 ＠Ichigo,O02152
 「う～……美雨も好きだけど…」
 
+#SCRIPT ORIGINAL 「でも美雨のことなら、前に作文に書いたことがあるもん……」
 ＠Ichigo,O02153
 「でも美雨のことなら、前に作文に書いたことがあるもん……」
 
+#SCRIPT ORIGINAL 「二回でも三回でも平気だよ、きっと」
 ＠Itsuki
 「二回でも三回でも平気だよ、きっと」
 
+#SCRIPT ORIGINAL 「オレなんかより美雨の方が、よっぽど家族らしい事を書けるだろうしさ」
 ＠Itsuki
 「オレなんかより美雨の方が、よっぽど家族らしい事を書けるだろうしさ」
 
 @ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「うん……パパが言うなら、分かった。そうする…」
 ＠Ichigo,O02154
 「うん……パパが言うなら、分かった。そうする…」
 
+#SCRIPT ORIGINAL いちごは楽しそうだった分だけ、断られたことが残念そうだった。
 いちごは楽しそうだった分だけ、断られたことが残念そうだった。
 
+#SCRIPT ORIGINAL 「悪いな、いちご。また今度頼むよ」
 ＠Itsuki
 「悪いな、いちご。また今度頼むよ」
 
+#SCRIPT ORIGINAL 「うんっ…。じゃあ、美雨に手伝ってもらってくるね」
 ＠Ichigo,O02155
 「うんっ…。じゃあ、美雨に手伝ってもらってくるね」
 
@@ -2754,10 +3324,13 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
+#SCRIPT ORIGINAL 寂しそうな微笑みを見せて、部屋を出て行ってしまった。
 寂しそうな微笑みを見せて、部屋を出て行ってしまった。
 
+#SCRIPT ORIGINAL あんなに楽しそうだったのに、可哀想なことをしたかな……
 あんなに楽しそうだったのに、可哀想なことをしたかな……
 
+#SCRIPT ORIGINAL 「でも仕方ないか……。あの題名じゃ」
 ＠Itsuki
 「でも仕方ないか……。あの題名じゃ」
 
@@ -2774,31 +3347,39 @@ return
 #--------------------------------------------------
 label	ichigo_qa10_b
 
+#SCRIPT ORIGINAL 「いちご、ネタも含めてオレと一緒に考えようか……」
 ＠Itsuki
 「いちご、ネタも含めてオレと一緒に考えようか……」
 
 @ichigo_odoroki		#驚
 
+#SCRIPT ORIGINAL 「え、いいのっ？　パパにも一緒に考えてもらってもッ♪」
 ＠Ichigo,O02156
 「え、いいのっ？　パパにも一緒に考えてもらってもッ♪」
 
+#SCRIPT ORIGINAL 「ああ、まぁしょうがないさ」
 ＠Itsuki
 「ああ、まぁしょうがないさ」
 
+#SCRIPT ORIGINAL 本当は、止めさせるのが一番手っ取り早いのだが……
 本当は、止めさせるのが一番手っ取り早いのだが……
 
 @ichigo_warai		#笑
 
+#SCRIPT ORIGINAL 「あははッ、やったぁ♪　いちご頑張っていっぱい書くよッ！」
 ＠Ichigo,O02157
 「あははッ、やったぁ♪　いちご頑張っていっぱい書くよッ！」
 
+#SCRIPT ORIGINAL 「先生から、大きい花丸たくさん貰おうね～！」
 ＠Ichigo,O02158
 「先生から、大きい花丸たくさん貰おうね～！」
 
 @ichigo_
 
+#SCRIPT ORIGINAL 嬉しそうに机の上に作文用紙を広げ、ヤル気いっぱいのいちご。
 嬉しそうに机の上に作文用紙を広げ、ヤル気いっぱいのいちご。
 
+#SCRIPT ORIGINAL こんなに喜んでるんだから、止めさせたりするのは可哀想だもんな。
 こんなに喜んでるんだから、止めさせたりするのは可哀想だもんな。
 
 bgm_stop
@@ -2806,6 +3387,7 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
+#SCRIPT ORIGINAL それからしばらく、オレはいちごの作文製作に付き合ってあげた。
 それからしばらく、オレはいちごの作文製作に付き合ってあげた。
 
 @bg_black

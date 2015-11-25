@@ -18,30 +18,38 @@ wait			2000
 #■BG（青空）
 @bg_sky			# 空
 
+#SCRIPT ORIGINAL 傷の治療で、オレは入院生活が続いていた。
 傷の治療で、オレは入院生活が続いていた。
 
+#SCRIPT ORIGINAL あれから日付を重ね、早くも新しい月が始まりを迎えている。
 あれから日付を重ね、早くも新しい月が始まりを迎えている。
 
 #■BG（病室）
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 「……ふぅ」
 ＠Itsuki
 「……ふぅ」
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
+#SCRIPT ORIGINAL 窓から目を離して、オレはベッドに腰を投げ下ろした。
 窓から目を離して、オレはベッドに腰を投げ下ろした。
 
+#SCRIPT ORIGINAL ここに来てずっと嘘のように平和だった。
 ここに来てずっと嘘のように平和だった。
 
+#SCRIPT ORIGINAL 傷の回復も順調で、腕に巻かれている包帯ももうすぐ外れると診断されている。
 傷の回復も順調で、腕に巻かれている包帯ももうすぐ外れると診断されている。
 
+#SCRIPT ORIGINAL ……何だかこれで、全て終わったと錯覚してしまいそうだ。
 ……何だかこれで、全て終わったと錯覚してしまいそうだ。
 
 bgm_stop
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
+#SCRIPT ORIGINAL 「ん……？　はい、どうぞ」
 ＠Itsuki
 「ん……？　はい、どうぞ」
 
@@ -64,12 +72,14 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「お父しゃんっ、お見舞いに来たの～！」
 ＠Hikari,N00701
 「お父しゃんっ、お見舞いに来たの～！」
 
 #@bgmk02		#BGM K02 : しんみりのテーマ
 @bgm12			#BGM 12 : メインテーマ
 
+#SCRIPT ORIGINAL 「おっ、今日も来てくれたのか、ひかり。ありがとうな」
 ＠Itsuki
 「おっ、今日も来てくれたのか、ひかり。ありがとうな」
 
@@ -82,9 +92,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんっ、早くお父しゃんに元気なってほしいもん！」
 ＠Hikari,N00702
 「うんっ、早くお父しゃんに元気なってほしいもん！」
 
+#SCRIPT ORIGINAL 「ざくろも。ひかりを連れてきてくれたんだな、ありがとう」
 ＠Itsuki
 「ざくろも。ひかりを連れてきてくれたんだな、ありがとう」
 
@@ -100,18 +112,21 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん。私も前のお見舞いから日が空いたから、そろそろ来たかったし」
 ＠Zakuro,Q01367
 「うん。私も前のお見舞いから日が空いたから、そろそろ来たかったし」
 
 @zakuro			#普
 @hikari_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「これ、お見舞いの品物買ってきた」
 ＠Zakuro,Q01368
 「これ、お見舞いの品物買ってきた」
 
 @SE39			#SE39　積んでいた物が崩れる音（ドシャドシャッ、ガララッ）
 @bg_white		# 白
 
+#SCRIPT ORIGINAL ドサッとテーブルに置くざくろ。
 ドサッとテーブルに置くざくろ。
 
 @zakuro_small
@@ -123,63 +138,76 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro			#普
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 「ありがとう……また青ノリか」
 ＠Itsuki
 「ありがとう……また青ノリか」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「そろそろ切れる頃かと思ったから」
 ＠Zakuro,Q01369
 「そろそろ切れる頃かと思ったから」
 
+#SCRIPT ORIGINAL ……切れるどころか、余りまくって邪魔になっているくらいだ。
 ……切れるどころか、余りまくって邪魔になっているくらいだ。
 
 @hikari_komaru		#困
 
+#SCRIPT ORIGINAL 「お父しゃん、まだ腕が包帯いっぱいなの……」
 ＠Hikari,N00703
 「お父しゃん、まだ腕が包帯いっぱいなの……」
 
+#SCRIPT ORIGINAL 「大丈夫。もう取れて退院できるからな」
 ＠Itsuki
 「大丈夫。もう取れて退院できるからな」
 
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「大変ね。利き腕がそれだと、満足にオナニーも出来ないし」
 ＠Zakuro,Q01370
 「大変ね。利き腕がそれだと、満足にオナニーも出来ないし」
 
 @hikari			#普
 
+#SCRIPT ORIGINAL 「……？　おな……なぁに？」
 ＠Hikari,N00704
 「……？　おな……なぁに？」
 
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「こ、こらざくろッ！　ひかりの前でそういう事を言うんじゃないッ」
 ＠Itsuki
 「こ、こらざくろッ！　ひかりの前でそういう事を言うんじゃないッ」
 
 @zakuro_niko		#にこ
 
+#SCRIPT ORIGINAL 「……必要なときは手伝うから」
 ＠Zakuro,Q01371
 「……必要なときは手伝うから」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「一ヶ月も溜まってる、つっちーのドロドロ濃密な精液ゼリーをドクドクって」
 ＠Zakuro,Q01372
 「一ヶ月も溜まってる、つっちーのドロドロ濃密な精液ゼリーをドクドクって」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「結構だッ！　変な気遣いはイランッ」
 ＠Itsuki
 「結構だッ！　変な気遣いはイランッ」
 
 @bg_black		# 黒
 
+#SCRIPT ORIGINAL 「…？　ざくろお姉しゃん？」
 ＠Hikari,N00705
 「…？　ざくろお姉しゃん？」
 
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
+#SCRIPT ORIGINAL ズリズリとざくろがベッドを昇り、身体を寄せてくる。
 ズリズリとざくろがベッドを昇り、身体を寄せてくる。
 
 @zakuro_large		# 近い
@@ -187,11 +215,13 @@ window_close
 @zakuro_akire		#呆
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 「本当は、私がやってみたいからかも……つっちー」
 ＠Zakuro,Q01373
 「本当は、私がやってみたいからかも……つっちー」
 
 @zakuro_tere		#照れ
 
+#SCRIPT ORIGINAL 「いつも以上に硬くなってビクビク脈打つ大きなおちんちんを堪能して、固形みたいに濃いザーメンゼリーをいっぱいぶちまけて欲しい」
 ＠Zakuro,Q01374
 「いつも以上に硬くなってビクビク脈打つ大きなおちんちんを堪能して、固形みたいに濃いザーメンゼリーをいっぱいぶちまけて欲しい」
 
@@ -201,6 +231,7 @@ wait		500
 
 #＠樹
 #「だ、だから止めろってッ！　絶対オレじゃ無くてざくろが溜まって―――ぐはッ！！」
+#SCRIPT ORIGINAL 「だ、だから止めろってッ！　絶対オレじゃ無くてざくろが溜まって―――」
 ＠Itsuki
 「だ、だから止めろってッ！　絶対オレじゃ無くてざくろが溜まって―――」
 
@@ -211,6 +242,7 @@ wait		100
 #SE38　殴る音（バキッ！）
 @SE38			#殴る音（バキッ！）
 
+#SCRIPT ORIGINAL 「ぐはッ！！」
 ＠Itsuki
 「ぐはッ！！」
 
@@ -228,9 +260,11 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「な、何て会話してるのよッ。ドアを開け放したままで！」
 ＠Karin,P02650
 「な、何て会話してるのよッ。ドアを開け放したままで！」
 
+#SCRIPT ORIGINAL 猛烈な勢いで入って来たかりんが、問答無用でオレを殴り倒していた。
 猛烈な勢いで入って来たかりんが、問答無用でオレを殴り倒していた。
 
 @chara_clear		#保険
@@ -247,6 +281,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「あっ。かりんお姉しゃんだぁッ♪」
 ＠Hikari,N00706
 「あっ。かりんお姉しゃんだぁッ♪」
 
@@ -266,11 +301,13 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「はぁ……ひーちゃん、気をつけないと。こんなメンバーと一緒に居たら悪影響を受けるわよ」
 ＠Karin,P02651
 「はぁ……ひーちゃん、気をつけないと。こんなメンバーと一緒に居たら悪影響を受けるわよ」
 
 @hikari			#普
 
+#SCRIPT ORIGINAL 「う、ぐ……オレは襲われてた側なのに、酷い言い草だ……」
 ＠Itsuki
 「う、ぐ……オレは襲われてた側なのに、酷い言い草だ……」
 
@@ -280,6 +317,7 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「冗談よ、つっちー。溜まって発情するかと思って」
 ＠Zakuro,Q01375
 「冗談よ、つっちー。溜まって発情するかと思って」
 
@@ -288,8 +326,10 @@ window_close
 wait		500
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
+#SCRIPT ORIGINAL ざくろはざくろで、真偽の掴めない言葉でスルーするし。
 ざくろはざくろで、真偽の掴めない言葉でスルーするし。
 
+#SCRIPT ORIGINAL 「で、かりんは何をしに来たんだ」
 ＠Itsuki
 「で、かりんは何をしに来たんだ」
 
@@ -297,17 +337,20 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「別に。ただちょっと通りかかったから、顔を見に来ただけよ」
 ＠Karin,P02652
 「別に。ただちょっと通りかかったから、顔を見に来ただけよ」
 
 #@karin			#普通
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「それと、たまたまお店の前を通りかかったから、これもついでに買ってきてあげたわよ」
 ＠Karin,P02653
 「それと、たまたまお店の前を通りかかったから、これもついでに買ってきてあげたわよ」
 
 @karin_
 
+#SCRIPT ORIGINAL 「あッ、どーなちゅなの～♪」
 ＠Hikari,N00707
 「あッ、どーなちゅなの～♪」
 
@@ -320,19 +363,23 @@ se_stop		0
 @karin_shifuku
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「ひーちゃんのついでに、あなたも食べていいわ」
 ＠Karin,P02654
 「ひーちゃんのついでに、あなたも食べていいわ」
 
+#SCRIPT ORIGINAL 「はは、そうか。ありがとう」
 ＠Itsuki
 「はは、そうか。ありがとう」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「あと花瓶の花、そろそろ新しく買ってきた方がいいわね」
 ＠Karin,P02655
 「あと花瓶の花、そろそろ新しく買ってきた方がいいわね」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「あ、もう。上着は脱ぎ捨てないで、ちゃんとハンガーにかけなさいよ」
 ＠Karin,P02656
 「あ、もう。上着は脱ぎ捨てないで、ちゃんとハンガーにかけなさいよ」
 
@@ -350,26 +397,32 @@ wait		1000
 @karin_niko		#にこ
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 「これでよし、と。皺になるでしょ」
 ＠Karin,P02657
 「これでよし、と。皺になるでしょ」
 
+#SCRIPT ORIGINAL 「え、ああ悪い、ありがとう……」
 ＠Itsuki
 「え、ああ悪い、ありがとう……」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「ティッシュの買い置きももう無いみたいね。切れる前に言ってほしいわ」
 ＠Karin,P02658
 「ティッシュの買い置きももう無いみたいね。切れる前に言ってほしいわ」
 
 #@karin			#普通
 @karin_niko		#にこ
 
+#SCRIPT ORIGINAL 「次来るときに買ってくるから、あとは何か足りない物は無いの？」
 ＠Karin,P02659
 「次来るときに買ってくるから、あとは何か足りない物は無いの？」
 
+#SCRIPT ORIGINAL 「……えっと、特には」
 ＠Itsuki
 「……えっと、特には」
 
+#SCRIPT ORIGINAL 「しかしかりん、お見舞いに来るたびに甲斐甲斐しくなっていくな……」
 ＠Itsuki
 「しかしかりん、お見舞いに来るたびに甲斐甲斐しくなっていくな……」
 
@@ -382,11 +435,13 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「す、好きでやってるんじゃないわよッ！　何言ってるのッ」
 ＠Karin,P02660
 「す、好きでやってるんじゃないわよッ！　何言ってるのッ」
 
 @karin_keno		#嫌悪
 
+#SCRIPT ORIGINAL 「ただこの部屋に不自由があったら、毎日来てるひーちゃんにも不自由になるから。それだけよッ」
 ＠Karin,P02661
 「ただこの部屋に不自由があったら、毎日来てるひーちゃんにも不自由になるから。それだけよッ」
 
@@ -408,11 +463,13 @@ wait		500
 #layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「かりんお姉しゃん、ひーちゃん大丈夫だよ」
 ＠Hikari,N00708
 「かりんお姉しゃん、ひーちゃん大丈夫だよ」
 
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「かりんはツンデレ属性に加えて、世話上手のスキル持ちだったのね」
 ＠Zakuro,Q01376
 「かりんはツンデレ属性に加えて、世話上手のスキル持ちだったのね」
 
@@ -434,22 +491,27 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「その前者も後者もどっちも１ミリたりとも持ってないわよッ！」
 ＠Karin,P02662
 「その前者も後者もどっちも１ミリたりとも持ってないわよッ！」
 
+#SCRIPT ORIGINAL 「はは……まぁどっちにしても助かってるから。礼は言うよ」
 ＠Itsuki
 「はは……まぁどっちにしても助かってるから。礼は言うよ」
 
 @chara_clear		#保険
 @bg_sky			# 空
 
+#SCRIPT ORIGINAL どんな理由であれ、やはりこうして来てくれること自体が嬉しい。
 どんな理由であれ、やはりこうして来てくれること自体が嬉しい。
 
+#SCRIPT ORIGINAL そして何より、場所なんか関係なく明るさを運んできてくれる事が、今オレの一番の楽しみだった。
 そして何より、場所なんか関係なく明るさを運んできてくれる事が、今オレの一番の楽しみだった。
 
 bgm_stop
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 「ところで、そっちはどうなんだ。新しい入院先は決まったのか？」
 ＠Itsuki
 「ところで、そっちはどうなんだ。新しい入院先は決まったのか？」
 
@@ -469,31 +531,38 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「えっ、あ……」
 ＠Karin,P02663
 「えっ、あ……」
 
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q01377
 「………」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL その話題に、ざくろは分からないが、かりんは敏感に反応した。
 その話題に、ざくろは分からないが、かりんは敏感に反応した。
 
+#SCRIPT ORIGINAL 「今はオレも美雨も居なくて、てんやわんやしてるだろうけど。大事なことだからな」
 ＠Itsuki
 「今はオレも美雨も居なくて、てんやわんやしてるだろうけど。大事なことだからな」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「そうね……。みんなポツポツと探してるわ」
 ＠Karin,P02664
 「そうね……。みんなポツポツと探してるわ」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「転院は新学期になる前に済ませる予定だから」
 ＠Zakuro,Q01378
 「転院は新学期になる前に済ませる予定だから」
 
+#SCRIPT ORIGINAL 「と言うことは長くても、あとひと月ちょっとか」
 ＠Itsuki
 「と言うことは長くても、あとひと月ちょっとか」
 
@@ -503,6 +572,7 @@ wait		500
 @hikari_shifuku
 @hikari_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「……お姉しゃんたち、みんな別のところ行っちゃったら寂しいの……」
 ＠Hikari,N00709
 「……お姉しゃんたち、みんな別のところ行っちゃったら寂しいの……」
 
@@ -516,56 +586,72 @@ wait		500
 @zakuro_akire		#呆
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「私も寂しいわ。せっかく妹が出来たみたいで嬉しかったのに……」
 ＠Karin,P02665
 「私も寂しいわ。せっかく妹が出来たみたいで嬉しかったのに……」
 
+#SCRIPT ORIGINAL 「ああ……家族みたいに、ずっと一緒だったのにな」
 ＠Itsuki
 「ああ……家族みたいに、ずっと一緒だったのにな」
 
+#SCRIPT ORIGINAL 夜行が死に、彼の影響下にあった裏の政界は、今かなりの混乱をしていると雫さんは言った。
 夜行が死に、彼の影響下にあった裏の政界は、今かなりの混乱をしていると雫さんは言った。
 
+#SCRIPT ORIGINAL そして同時に、土屋施設のこれまでの所業が明るみに出るのも時間の問題との事だ。
 そして同時に、土屋施設のこれまでの所業が明るみに出るのも時間の問題との事だ。
 
+#SCRIPT ORIGINAL そうなる前に子供達を別の施設へ移し、土屋施設を閉めるのがベストらしい。
 そうなる前に子供達を別の施設へ移し、土屋施設を閉めるのがベストらしい。
 
+#SCRIPT ORIGINAL 施設の借金は、夜行がオレ達を逃がさないようにしていた偽の情報だったのだ。
 施設の借金は、夜行がオレ達を逃がさないようにしていた偽の情報だったのだ。
 
+#SCRIPT ORIGINAL 「……また、みかんとも離れ離れになるなんて」
 ＠Karin,P02666
 「……また、みかんとも離れ離れになるなんて」
 
+#SCRIPT ORIGINAL 「仕方ないよ。みんな同じ施設に移るんじゃ意味が無いから」
 ＠Itsuki
 「仕方ないよ。みんな同じ施設に移るんじゃ意味が無いから」
 
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「いちごと私は例外だけど」
 ＠Zakuro,Q01379
 「いちごと私は例外だけど」
 
+#SCRIPT ORIGINAL 「いいわね、あなた達だけ……。仲良いし」
 ＠Karin,P02667
 「いいわね、あなた達だけ……。仲良いし」
 
+#SCRIPT ORIGINAL ただ、いちごとざくろだけは、雫さんが引き取って面倒をみる事になっていた。
 ただ、いちごとざくろだけは、雫さんが引き取って面倒をみる事になっていた。
 
+#SCRIPT ORIGINAL いちごは発作があり、ざくろも手放しでの社会復帰はまだ出来ないためだ。
 いちごは発作があり、ざくろも手放しでの社会復帰はまだ出来ないためだ。
 
+#SCRIPT ORIGINAL 「まぁ連絡先は分かるんだし。いつでも話せるじゃないか」
 ＠Itsuki
 「まぁ連絡先は分かるんだし。いつでも話せるじゃないか」
 
 @karin_ikari		#怒
 @zakuro_akire		#呆
 
+#SCRIPT ORIGINAL 「何よッ、他人事みたいに！　元はといえば樹が施設を閉めるのが原因じゃないッ！」
 ＠Karin,P02668
 「何よッ、他人事みたいに！　元はといえば樹が施設を閉めるのが原因じゃないッ！」
 
 #@karin_komikaru_yoku	#コミカル欲
 @karin_koufun		#興奮
 
+#SCRIPT ORIGINAL 「もういいわ。こうなったら残った時間で、みかんを私のモノにしてみせるんだから！」
 ＠Karin,P02669
 「もういいわ。こうなったら残った時間で、みかんを私のモノにしてみせるんだから！」
 
 #@zakuro_niko		#にこ
 @zakuro_metoji		#閉
 
+#SCRIPT ORIGINAL 「奇遇ね。私と同じ事を考えてるなんて」
 ＠Zakuro,Q01380
 「奇遇ね。私と同じ事を考えてるなんて」
 
@@ -573,9 +659,11 @@ wait		500
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「あなたまで何サラッと変なこと言ってるのよッ！！」
 ＠Karin,P02670
 「あなたまで何サラッと変なこと言ってるのよッ！！」
 
+#SCRIPT ORIGINAL 「かりんだって十分変だと知ろうな……」
 ＠Itsuki
 「かりんだって十分変だと知ろうな……」
 
@@ -583,8 +671,10 @@ bgm_stop
 @chara_clear		#保険
 @bg_sky			# 空
 
+#SCRIPT ORIGINAL 場所は変わったが、施設に居る時と変わらないにぎやかな時間が過ぎる。
 場所は変わったが、施設に居る時と変わらないにぎやかな時間が過ぎる。
 
+#SCRIPT ORIGINAL 平和になった一日が、今日も何事もなく進んでいった。
 平和になった一日が、今日も何事もなく進んでいった。
 
 #--------------------------------------------------
@@ -596,21 +686,28 @@ wait		1000
 #■BG（病室）
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 翌日。
 翌日。
 
+#SCRIPT ORIGINAL 日中の診察を終えたオレは病室へ戻ってきていた。
 日中の診察を終えたオレは病室へ戻ってきていた。
 
+#SCRIPT ORIGINAL 「つくづく、医者ってのは偉大だな……」
 ＠Itsuki
 「つくづく、医者ってのは偉大だな……」
 
 @bgm12			#BGM 12 : メインテーマ
 
+#SCRIPT ORIGINAL 今日は一度腕の包帯を取って感覚のテストをしてみた。
 今日は一度腕の包帯を取って感覚のテストをしてみた。
 
+#SCRIPT ORIGINAL 結果は、ほぼ全快。
 結果は、ほぼ全快。
 
+#SCRIPT ORIGINAL 怪我する前と変わりなく動かせて、感覚も戻っていた。
 怪我する前と変わりなく動かせて、感覚も戻っていた。
 
+#SCRIPT ORIGINAL 「医大だけに、偉大なんだなぁ」
 ＠Itsuki
 「医大だけに、偉大なんだなぁ」
 
@@ -618,6 +715,7 @@ wait		1000
 @shizuku_shifuku
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「……あんたって。一人になるといつも、そんなこと言ってるのかい……」
 ＠Shizuku,S01391
 「……あんたって。一人になるといつも、そんなこと言ってるのかい……」
 
@@ -625,108 +723,137 @@ wait		1000
 @SE24			#SE24　物音（ガタンッ）
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「うわえッ…！？」
 ＠Itsuki
 「うわえッ…！？」
 
+#SCRIPT ORIGINAL いつから居たのか、雫さんがちょっと冷めた目でオレを見ていた。
 いつから居たのか、雫さんがちょっと冷めた目でオレを見ていた。
 
+#SCRIPT ORIGINAL 「し、雫さんッ……なんで居るんですかッ！？」
 ＠Itsuki
 「し、雫さんッ……なんで居るんですかッ！？」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「そりゃぁ、あんたの見舞いにさ」
 ＠Shizuku,S01392
 「そりゃぁ、あんたの見舞いにさ」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「でも土屋樹、可哀想に早くもセンスに親父臭が漂い始めてるね……」
 ＠Shizuku,S01393
 「でも土屋樹、可哀想に早くもセンスに親父臭が漂い始めてるね……」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「大きなお世話ですッ！」
 ＠Itsuki
 「大きなお世話ですッ！」
 
 bgm_stop
 
+#SCRIPT ORIGINAL 「……っと、そんなことより。雫さんッ」
 ＠Itsuki
 「……っと、そんなことより。雫さんッ」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「ああ、分かってる分かってる。美雨のことだろう？」
 ＠Shizuku,S01394
 「ああ、分かってる分かってる。美雨のことだろう？」
 
 #@bgm06			#BGM 06 : 不安のテーマ
 @bgmk02			#BGM K02 : しんみりのテーマ
 
+#SCRIPT ORIGINAL あの日ヘリで運ばれた美雨とは、ずっと連絡を取りたくても取れなかった。
 あの日ヘリで運ばれた美雨とは、ずっと連絡を取りたくても取れなかった。
 
+#SCRIPT ORIGINAL 重症だった為に違う病院に運ばれ、情報漏洩を防ぐために場所も秘密にされている。
 重症だった為に違う病院に運ばれ、情報漏洩を防ぐために場所も秘密にされている。
 
+#SCRIPT ORIGINAL 何度か顔を見せに来た雫さんに聞いても、いつもはぐらかされていた。
 何度か顔を見せに来た雫さんに聞いても、いつもはぐらかされていた。
 
+#SCRIPT ORIGINAL 「けど今日は引き下がりませんよッ。いい加減、美雨の居場所を教えてください！」
 ＠Itsuki
 「けど今日は引き下がりませんよッ。いい加減、美雨の居場所を教えてください！」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「居場所ねぇ。まぁ訊かれるのはとうぜん予想してたけど」
 ＠Shizuku,S01395
 「居場所ねぇ。まぁ訊かれるのはとうぜん予想してたけど」
 
+#SCRIPT ORIGINAL 「それが出来ない理由は、あんたも知ってるだろう？」
 ＠Shizuku,S01396
 「それが出来ない理由は、あんたも知ってるだろう？」
 
+#SCRIPT ORIGINAL 「なら、話だけでも！　もう意識は回復してるって、前に言いましたよね！」
 ＠Itsuki
 「なら、話だけでも！　もう意識は回復してるって、前に言いましたよね！」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「ああ。怪我の部位以外はもう、ほとんど問題ないくらいだよ」
 ＠Shizuku,S01397
 「ああ。怪我の部位以外はもう、ほとんど問題ないくらいだよ」
 
+#SCRIPT ORIGINAL 「じゃあ、話をッ。声を聞かせてくださいよ！」
 ＠Itsuki
 「じゃあ、話をッ。声を聞かせてくださいよ！」
 
+#SCRIPT ORIGINAL 「教えられない理由は知ってる。けど、雫さんだってオレが知りたがる理由は分かるでしょう！？」
 ＠Itsuki
 「教えられない理由は知ってる。けど、雫さんだってオレが知りたがる理由は分かるでしょう！？」
 
 #@shizuku_yorokobi	#喜
 @shizuku_chousyou	#怒笑
 
+#SCRIPT ORIGINAL 「そりゃあね。あの子が好きだって事くらいは」
 ＠Shizuku,S01398
 「そりゃあね。あの子が好きだって事くらいは」
 
+#SCRIPT ORIGINAL 美雨の様態への心配は、どんなときも頭を離れなかった。
 美雨の様態への心配は、どんなときも頭を離れなかった。
 
+#SCRIPT ORIGINAL 平和で穏やかな日々が過ぎながらも、やはりその事だけは深い不安の闇に閉ざされていた。
 平和で穏やかな日々が過ぎながらも、やはりその事だけは深い不安の闇に閉ざされていた。
 
+#SCRIPT ORIGINAL （出来れば会いたい！　無理ならせめて、声だけでも聞きたい！）
 ＠Itsuki
 （出来れば会いたい！　無理ならせめて、声だけでも聞きたい！）
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「無事だっていう連絡だけじゃ、満足できないかい？」
 ＠Shizuku,S01399
 「無事だっていう連絡だけじゃ、満足できないかい？」
 
+#SCRIPT ORIGINAL 「出来るわけないじゃないですかッ、オレはッ……」
 ＠Itsuki
 「出来るわけないじゃないですかッ、オレはッ……」
 
+#SCRIPT ORIGINAL 「オレは本気で美雨が愛しいから！　心配で心配で、居ても立ってもいられない……」
 ＠Itsuki
 「オレは本気で美雨が愛しいから！　心配で心配で、居ても立ってもいられない……」
 
 @shizuku_chousyou	#怒笑
 
+#SCRIPT ORIGINAL 「困ったねぇ。あたしにそんな愛の告白をされてもねぇ……」
 ＠Shizuku,S01400
 「困ったねぇ。あたしにそんな愛の告白をされてもねぇ……」
 
+#SCRIPT ORIGINAL 「とにかく、今日は教えてくれるまで帰しませんよ！」
 ＠Itsuki
 「とにかく、今日は教えてくれるまで帰しませんよ！」
 
+#SCRIPT ORIGINAL いつにない強気で責める。
 いつにない強気で責める。
 
+#SCRIPT ORIGINAL すると雫さんが、諦めたように溜め息を吐いた。
 すると雫さんが、諦めたように溜め息を吐いた。
 
 @shizuku_akire		#呆
@@ -738,36 +865,45 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「やれやれ、しょうがないね。帰してもらえないのも困るし」
 ＠Shizuku,S01401
 「やれやれ、しょうがないね。帰してもらえないのも困るし」
 
 bgm_stop
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「美雨、もういいよ出ておいでー」
 ＠Shizuku,S01402
 「美雨、もういいよ出ておいでー」
 
+#SCRIPT ORIGINAL 「…………へっ？」
 ＠Itsuki
 「…………へっ？」
 
+#SCRIPT ORIGINAL 予想外に、雫さんは廊下に向けてそんな声を投げる。
 予想外に、雫さんは廊下に向けてそんな声を投げる。
 
+#SCRIPT ORIGINAL 病室のドアの側で、確かに一人の人影があった。
 病室のドアの側で、確かに一人の人影があった。
 
+#SCRIPT ORIGINAL 「…………」
 ＠???,B02878a
 「…………」
 
 #@shizuku_yorokobi	#喜
 @shizuku_chousyou	#怒笑
 
+#SCRIPT ORIGINAL 「ほら、何を照れてるんだい。愛しくて心配してくれてる樹が待ってるよ」
 ＠Shizuku,S01403
 「ほら、何を照れてるんだい。愛しくて心配してくれてる樹が待ってるよ」
 
+#SCRIPT ORIGINAL 「え、ま、まさかッ……そこに居るんですかッ、美雨が！」
 ＠Itsuki
 「え、ま、まさかッ……そこに居るんですかッ、美雨が！」
 
 @bg_black		# 黒
 
+#SCRIPT ORIGINAL 「あ……その…」
 ＠???,B02878b
 「あ……その…」
 
@@ -778,41 +914,54 @@ bgm_stop
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 人影がドアの前に出て、姿を現した。
 人影がドアの前に出て、姿を現した。
 
+#SCRIPT ORIGINAL 「み、美雨ッ……！！」
 ＠Itsuki
 「み、美雨ッ……！！」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「こんにちは、樹さん………来ちゃいました」
 ＠Miu,B02879
 「こんにちは、樹さん………来ちゃいました」
 
 @bgm17			#BGM 17 : のんびりのテーマ
 
+#SCRIPT ORIGINAL やはりそこに居たのは美雨。
 やはりそこに居たのは美雨。
 
+#SCRIPT ORIGINAL 車椅子に乗っているが、正真正銘、ずっと想っていた美雨だった。
 車椅子に乗っているが、正真正銘、ずっと想っていた美雨だった。
 
+#SCRIPT ORIGINAL 「美雨ッ、よく来てくれた！　本当に……」
 ＠Itsuki
 「美雨ッ、よく来てくれた！　本当に……」
 
+#SCRIPT ORIGINAL 「樹さん……。私も会いたかったです、ずっと」
 ＠Miu,B02880
 「樹さん……。私も会いたかったです、ずっと」
 
+#SCRIPT ORIGINAL 「それにその、さっきの言葉も。すごく嬉しかったです……」
 ＠Miu,B02881
 「それにその、さっきの言葉も。すごく嬉しかったです……」
 
+#SCRIPT ORIGINAL 「え？　あ……」
 ＠Itsuki
 「え？　あ……」
 
+#SCRIPT ORIGINAL 出会えた歓喜で一気に忘れてしまっていた。
 出会えた歓喜で一気に忘れてしまっていた。
 
+#SCRIPT ORIGINAL ……そういえば、声を大にして言ったあの言葉、モロに聞かれていた。
 ……そういえば、声を大にして言ったあの言葉、モロに聞かれていた。
 
+#SCRIPT ORIGINAL 「まぁその、うん……。偽りない本心だよ」
 ＠Itsuki
 「まぁその、うん……。偽りない本心だよ」
 
+#SCRIPT ORIGINAL 「……って言うか、雫さん。謀りましたね」
 ＠Itsuki
 「……って言うか、雫さん。謀りましたね」
 
@@ -820,128 +969,159 @@ bgm_stop
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
+#SCRIPT ORIGINAL 「はぁ～、いいねラブラブで。そのまま舐めたり入れたりしていいんじゃない？」
 ＠Shizuku,S01404
 「はぁ～、いいねラブラブで。そのまま舐めたり入れたりしていいんじゃない？」
 
 @miu_kuruma_odoroki	# 驚（車いす専用）
 
+#SCRIPT ORIGINAL 「そ、そんな気持ちで来たんじゃありませんッ。私は純粋にっ……」
 ＠Miu,B02882
 「そ、そんな気持ちで来たんじゃありませんッ。私は純粋にっ……」
 
+#SCRIPT ORIGINAL 「……まったく、相変わらず下ネタ好きな人なんだから」
 ＠Itsuki
 「……まったく、相変わらず下ネタ好きな人なんだから」
 
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「それより美雨、その車椅子は……」
 ＠Itsuki
 「それより美雨、その車椅子は……」
 
 @miu_kuruma		# 普（車いす専用）
 
+#SCRIPT ORIGINAL 「え、はい……。まだ完治はしていないので」
 ＠Miu,B02883
 「え、はい……。まだ完治はしていないので」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「でもそれ以外は、傷も体力もすっかり元気ですから。心配いりませんよ」
 ＠Miu,B02884
 「でもそれ以外は、傷も体力もすっかり元気ですから。心配いりませんよ」
 
+#SCRIPT ORIGINAL 「そっか。それを聞いて安心したよ」
 ＠Itsuki
 「そっか。それを聞いて安心したよ」
 
+#SCRIPT ORIGINAL オレがホッとすると、雫さんはニヤリとほくそ笑んだ。
 オレがホッとすると、雫さんはニヤリとほくそ笑んだ。
 
 @shizuku_chousyou	#怒笑
 
+#SCRIPT ORIGINAL 「美雨はもう大変だったんだよ。あんたに会いたい会いたいって我侭言ってさ」
 ＠Shizuku,S01405
 「美雨はもう大変だったんだよ。あんたに会いたい会いたいって我侭言ってさ」
 
 @miu_kuruma_odoroki	# 驚（車いす専用）
 
+#SCRIPT ORIGINAL 「し、雫さんっ…！？」
 ＠Miu,B02885
 「し、雫さんっ…！？」
 
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「ほんと、数週間前まで生死の境を彷徨ってたなんて思えないほどだったのよ」
 ＠Shizuku,S01406
 「ほんと、数週間前まで生死の境を彷徨ってたなんて思えないほどだったのよ」
 
 @shizuku_chousyou	#怒笑
 
+#SCRIPT ORIGINAL 「樹も美雨美雨って駄々捏ねてたけど、この子はその倍以上はあんたを恋しがってたね」
 ＠Shizuku,S01407
 「樹も美雨美雨って駄々捏ねてたけど、この子はその倍以上はあんたを恋しがってたね」
 
 @miu_kuruma_ikari	# 怒（車いす専用）
 
+#SCRIPT ORIGINAL 「雫さんッ、もう！　そんな事わざわざ言わなくてもいいじゃないですかッ……」
 ＠Miu,B02886
 「雫さんッ、もう！　そんな事わざわざ言わなくてもいいじゃないですかッ……」
 
+#SCRIPT ORIGINAL 「へぇ～、美雨がねぇ」
 ＠Itsuki
 「へぇ～、美雨がねぇ」
 
+#SCRIPT ORIGINAL 嬉しくて勝手にニヤニヤしてしまう。
 嬉しくて勝手にニヤニヤしてしまう。
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「……樹さんまで」
 ＠Miu,B02887
 「……樹さんまで」
 
+#SCRIPT ORIGINAL 「いやいや、オレは嬉しいんだよ」
 ＠Itsuki
 「いやいや、オレは嬉しいんだよ」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「そういう事にしておきます……。私も嬉しいですから」
 ＠Miu,B02888
 「そういう事にしておきます……。私も嬉しいですから」
 
 @miu_kuruma		# 普（車いす専用）
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「それより樹さんの怪我の具合は、いかがですか……？」
 ＠Miu,B02889
 「それより樹さんの怪我の具合は、いかがですか……？」
 
+#SCRIPT ORIGINAL 「ああ、オレはもうすっかり平気さ。包帯なんて飾りですよ」
 ＠Itsuki
 「ああ、オレはもうすっかり平気さ。包帯なんて飾りですよ」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「そうですか。良かった……」
 ＠Miu,B02890
 「そうですか。良かった……」
 
+#SCRIPT ORIGINAL 「じゃあ、ちゃんと完治されるんですね」
 ＠Miu,B02891
 「じゃあ、ちゃんと完治されるんですね」
 
+#SCRIPT ORIGINAL 「……ん？」
 ＠Itsuki
 「……ん？」
 
+#SCRIPT ORIGINAL 「もちろんさ。退院も目の前だし」
 ＠Itsuki
 「もちろんさ。退院も目の前だし」
 
+#SCRIPT ORIGINAL オレは美雨の足を見る。
 オレは美雨の足を見る。
 
+#SCRIPT ORIGINAL 何だか、今の念を押すみたいな言い方だと……
 何だか、今の念を押すみたいな言い方だと……
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
 @shizuku_chousyou	#怒笑
 
+#SCRIPT ORIGINAL 「どうしたの～。そんなエッチなところジッと見つめて」
 ＠Shizuku,S01408
 「どうしたの～。そんなエッチなところジッと見つめて」
 
 @miu_kuruma_odoroki	# 驚（車いす専用）
 
+#SCRIPT ORIGINAL 「えッ…！？」
 ＠Miu,B02892
 「えッ…！？」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
+#SCRIPT ORIGINAL 「目線違いますからッ、絶対！」
 ＠Itsuki
 「目線違いますからッ、絶対！」
 
 bgm_stop
 
+#SCRIPT ORIGINAL その時、部屋の外から中を窺う声が聞こえた。
 その時、部屋の外から中を窺う声が聞こえた。
 
 #CH（ひかり・みかん・いちごに立ち絵なし）
@@ -960,29 +1140,36 @@ bgm_stop
 #＠いちご,O02239
 #「ほんとだ、誰だろ。みんな施設に居たから知らない人かな」
 
+#SCRIPT ORIGINAL 「誰だろ。みんな施設に居たから知らない人かな？」
 ＠???,O02239a
 「誰だろ。みんな施設に居たから知らない人かな？」
 
 #--------------------------------------------------
 
+#SCRIPT ORIGINAL 今日も誰かがお見舞いに来てくれたらしい。
 今日も誰かがお見舞いに来てくれたらしい。
 
 @miu_kuruma		# 普（車いす専用）
 @shizuku_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「お。今日も熱心なお見舞いが来たみたいね」
 ＠Shizuku,S01409
 「お。今日も熱心なお見舞いが来たみたいね」
 
+#SCRIPT ORIGINAL 「お父しゃーん♪　お見舞いなの！」
 ＠Hikari,N00710
 「お父しゃーん♪　お見舞いなの！」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
+#SCRIPT ORIGINAL 「……ッ！？」
 ＠Miu,B02893
 「……ッ！？」
 
+#SCRIPT ORIGINAL ひかりの声で敏感に、美雨が身体をこわばらせた。
 ひかりの声で敏感に、美雨が身体をこわばらせた。
 
+#SCRIPT ORIGINAL そして……
 そして……
 
 #CH（ここからひかり・みかん・いちごにも立ち絵あり）
@@ -1002,6 +1189,7 @@ wait		100
 #@hikari_odoroki		#驚
 @bg_byoushitsu		# 病室
 
+#SCRIPT ORIGINAL 「お兄ちゃ―――あれ？」
 ＠Mikan,A01945
 「お兄ちゃ―――あれ？」
 
@@ -1018,6 +1206,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「あッ、雫と美雨がいるよ！」
 ＠Ichigo,O02240
 「あッ、雫と美雨がいるよ！」
 
@@ -1036,14 +1225,17 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「え……ああーッ！　お母しゃんだッ！」
 ＠Hikari,N00711
 「え……ああーッ！　お母しゃんだッ！」
 
+#SCRIPT ORIGINAL 「ひーちゃんッ！！」
 ＠Miu,B02894
 「ひーちゃんッ！！」
 
 @hikari_naki		#泣
 
+#SCRIPT ORIGINAL 三人が入ってくると、その姿に互いが驚きと欣喜の声を響かせた。
 三人が入ってくると、その姿に互いが驚きと欣喜の声を響かせた。
 
 #--------------------------------------------------
@@ -1051,6 +1243,7 @@ layer_movepass_play	l_hikari,0,play_once
 se	0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
 #--------------------------------------------------
 
+#SCRIPT ORIGINAL 「お母しゃんッ！　お母しゃあああんッ！！」
 ＠Hikari,N00712
 「お母しゃんッ！　お母しゃあああんッ！！」
 
@@ -1063,14 +1256,17 @@ wait			100
 @bg_white
 screen_whitein		1
 
+#SCRIPT ORIGINAL 「ひーちゃんッ！　よかった元気そうで……会いたかったわ」
 ＠Miu,B02895
 「ひーちゃんッ！　よかった元気そうで……会いたかったわ」
 
+#SCRIPT ORIGINAL 「うんッ、ひーちゃんも寂しかったのぉ、お母しゃん」
 ＠Hikari,N00713
 「うんッ、ひーちゃんも寂しかったのぉ、お母しゃん」
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
+#SCRIPT ORIGINAL 飛び込んでくるひかりを受け止めて、美雨は一ヶ月ぶりの再会に感極まって抱きしめる。
 飛び込んでくるひかりを受け止めて、美雨は一ヶ月ぶりの再会に感極まって抱きしめる。
 
 @mikan_small
@@ -1091,12 +1287,15 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「よかったね、ひーちゃん。ずっと寂しがってたから」
 ＠Mikan,A01946
 「よかったね、ひーちゃん。ずっと寂しがってたから」
 
+#SCRIPT ORIGINAL 「うぅう～、ぐすッ……うん…お母しゃん、もうどこにも行っちゃヤなのっ……」
 ＠Hikari,N00714
 「うぅう～、ぐすッ……うん…お母しゃん、もうどこにも行っちゃヤなのっ……」
 
+#SCRIPT ORIGINAL 「あらあら、泣かないでひーちゃん……ごめんね、寂しくさせて」
 ＠Miu,B02896
 「あらあら、泣かないでひーちゃん……ごめんね、寂しくさせて」
 
@@ -1106,6 +1305,7 @@ layer_movepass_play	l_mikan,0,play_once
 #@ichigo_shifuku
 #@ichigo_komaru		#困
 
+#SCRIPT ORIGINAL 「美雨、車椅子に乗ってるよ……。まだ怪我してるの…？」
 ＠Ichigo,O02241
 「美雨、車椅子に乗ってるよ……。まだ怪我してるの…？」
 
@@ -1115,6 +1315,7 @@ wait		500
 @shizuku_shifuku
 @shizuku		#普通
 
+#SCRIPT ORIGINAL 「ああ。だから残念だけど、もう少し入院してもらわないといけないんだよ」
 ＠Shizuku,S01410
 「ああ。だから残念だけど、もう少し入院してもらわないといけないんだよ」
 
@@ -1141,6 +1342,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ひっく、ぐしゅッ……お母しゃん、また行っちゃうのぉ…？」
 ＠Hikari,N00715
 「ひっく、ぐしゅッ……お母しゃん、また行っちゃうのぉ…？」
 
@@ -1151,11 +1353,13 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
+#SCRIPT ORIGINAL 「ええ……。でも少しの間だから」
 ＠Miu,B02897
 「ええ……。でも少しの間だから」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「それにこれからは、私もここに来てひーちゃんに会えるようになるから。ね？」
 ＠Miu,B02898
 「それにこれからは、私もここに来てひーちゃんに会えるようになるから。ね？」
 
@@ -1166,21 +1370,28 @@ wait		500
 #@hikari_komaru		#困
 @hikari_naki		#泣
 
+#SCRIPT ORIGINAL 「んぅ……まいにち会えゆ？」
 ＠Hikari,N00716
 「んぅ……まいにち会えゆ？」
 
+#SCRIPT ORIGINAL 「もちろんよ。私もひーちゃんと樹さんに会いたいもの」
 ＠Miu,B02899
 「もちろんよ。私もひーちゃんと樹さんに会いたいもの」
 
+#SCRIPT ORIGINAL 「オレも歓迎するよ。それなら我慢できるだろ、ひかり？」
 ＠Itsuki
 「オレも歓迎するよ。それなら我慢できるだろ、ひかり？」
 
+#SCRIPT ORIGINAL 美雨の前で不安そうなひかり。
 美雨の前で不安そうなひかり。
 
+#SCRIPT ORIGINAL あの事件の直後から一ヶ月も会えなかったのだから、寂しい気持ちは辛いくらいよく分かっていた。
 あの事件の直後から一ヶ月も会えなかったのだから、寂しい気持ちは辛いくらいよく分かっていた。
 
+#SCRIPT ORIGINAL 実際この病室に来て、何度美雨のことをオレに尋ねただろう。
 実際この病室に来て、何度美雨のことをオレに尋ねただろう。
 
+#SCRIPT ORIGINAL 「ね、ひーちゃん。約束するから」
 ＠Miu,B02900
 「ね、ひーちゃん。約束するから」
 
@@ -1193,11 +1404,13 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ぐすッ………うん…」
 ＠Hikari,N00717
 「ぐすッ………うん…」
 
 bgm_stop
 
+#SCRIPT ORIGINAL ひかりは小さく頷いた。
 ひかりは小さく頷いた。
 
 @chara_clear		#保険
@@ -1208,6 +1421,7 @@ wait		500
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @bgm17			#BGM 17 : のんびりのテーマ
 
+#SCRIPT ORIGINAL 「ふふ、偉いわよ。代わりに今日はいっぱいお話しましょうね」
 ＠Miu,B02901
 「ふふ、偉いわよ。代わりに今日はいっぱいお話しましょうね」
 
@@ -1230,9 +1444,11 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ」
 ＠Ichigo,O02242
 「うんッ」
 
+#SCRIPT ORIGINAL 「みかんちゃんといちごちゃんも。施設のことを色々教えてくれると嬉しいわ」
 ＠Miu,B02902
 「みかんちゃんといちごちゃんも。施設のことを色々教えてくれると嬉しいわ」
 
@@ -1245,6 +1461,7 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ、いいよ！　あのね、ご飯があんまり美味しくないの」
 ＠Mikan,A01947
 「うんッ、いいよ！　あのね、ご飯があんまり美味しくないの」
 
@@ -1263,6 +1480,7 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「やっぱり美雨のご飯がいいよぉ。雫の味つけ変なんだもん～」
 ＠Ichigo,O02243
 「やっぱり美雨のご飯がいいよぉ。雫の味つけ変なんだもん～」
 
@@ -1272,11 +1490,13 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
+#SCRIPT ORIGINAL 「悪かったねッ。言われなくても分かってるよ」
 ＠Shizuku,S01411
 「悪かったねッ。言われなくても分かってるよ」
 
 @shizuku_
 
+#SCRIPT ORIGINAL 「ははッ。オレも入院食だから知らなかったな。ざくろはどうした？」
 ＠Itsuki
 「ははッ。オレも入院食だから知らなかったな。ざくろはどうした？」
 
@@ -1288,6 +1508,7 @@ wait		500
 @mikan_kusyou		#苦笑
 @ichigo_akire		#呆れ
 
+#SCRIPT ORIGINAL 「ざくろのは美味しいけど、いっつも青ノリの味がして飽きちゃうもん」
 ＠Ichigo,O02244
 「ざくろのは美味しいけど、いっつも青ノリの味がして飽きちゃうもん」
 
@@ -1309,9 +1530,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「この前しゅごかったの。青ノリだけでハンバーグちゅくってたの！」
 ＠Hikari,N00718
 「この前しゅごかったの。青ノリだけでハンバーグちゅくってたの！」
 
+#SCRIPT ORIGINAL 「それはそれですごい技術ね」
 ＠Miu,B02903
 「それはそれですごい技術ね」
 
@@ -1326,9 +1549,11 @@ wait		500
 #@mikan_kanashimi	#哀
 @mikan_kusyou		#苦笑
 
+#SCRIPT ORIGINAL 「でもクシャミしたら、全部バラバラに飛んで行っちゃったよ……」
 ＠Mikan,A01948
 「でもクシャミしたら、全部バラバラに飛んで行っちゃったよ……」
 
+#SCRIPT ORIGINAL その現場と子供達のことを想像し、オレも美雨も自然と頬が緩む。
 その現場と子供達のことを想像し、オレも美雨も自然と頬が緩む。
 
 @chara_clear		#保険
@@ -1338,6 +1563,7 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
+#SCRIPT ORIGINAL 「他にはどんな事があったの？」
 ＠Miu,B02904
 「他にはどんな事があったの？」
 
@@ -1355,13 +1581,17 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うんッ、えっとね、いっぱいあゆの！」
 ＠Hikari,N00719
 「うんッ、えっとね、いっぱいあゆの！」
 
+#SCRIPT ORIGINAL 美雨が来てくれたことで、ひかりはいつもより嬉しそうにはしゃいでいた。
 美雨が来てくれたことで、ひかりはいつもより嬉しそうにはしゃいでいた。
 
+#SCRIPT ORIGINAL そしてそれは美雨もオレも、そして他の子たちも同じだった。
 そしてそれは美雨もオレも、そして他の子たちも同じだった。
 
+#SCRIPT ORIGINAL （もうすぐだ。またみんなで施設に戻れるまで）
 ＠Itsuki
 （もうすぐだ。またみんなで施設に戻れるまで）
 
@@ -1369,10 +1599,13 @@ layer_movepass_play	l_hikari,0,play_once
 @chara_clear		#保険
 @bg_sky			# 空
 
+#SCRIPT ORIGINAL それからは毎日、美雨とひかり達が尋ねてくれて、お見舞いはいっそう賑やかになった。
 それからは毎日、美雨とひかり達が尋ねてくれて、お見舞いはいっそう賑やかになった。
 
+#SCRIPT ORIGINAL たまにそこへ、涼海ちゃんとるあちゃん、誠司まで加わることもあり、お祭り状態にもなる。
 たまにそこへ、涼海ちゃんとるあちゃん、誠司まで加わることもあり、お祭り状態にもなる。
 
+#SCRIPT ORIGINAL みんな諸悪の決着がついて、日々を安心して楽しんでいた。
 みんな諸悪の決着がついて、日々を安心して楽しんでいた。
 
 #■BG（施設外観）
@@ -1380,8 +1613,10 @@ layer_movepass_play	l_hikari,0,play_once
 wait		1000
 @bg_gate		# 孤児院前
 
+#SCRIPT ORIGINAL オレと美雨が退院して施設に戻ってからは、さらに輪をかけて賑やかさは増した。
 オレと美雨が退院して施設に戻ってからは、さらに輪をかけて賑やかさは増した。
 
+#SCRIPT ORIGINAL そして、あっという間に日々は流れていった……
 そして、あっという間に日々は流れていった……
 
 #--------------------------------------------------

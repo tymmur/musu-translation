@@ -17,6 +17,7 @@ date_open
 @se15
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
@@ -24,16 +25,20 @@ date_open
 @bg_itsuki
 
 #「っ、ぅ、ん～………？」
+#SCRIPT ORIGINAL 「っ、ぅ、ん～………？」
 ＠Itsuki
 「Uh, huh～...?」
 
 #けたたましい音に急かされて、まだまどろみの中で瞼を開ける。
+#SCRIPT ORIGINAL けたたましい音に急かされて、まだまどろみの中で瞼を開ける。
 　Urged by the shrill noise, I opened my eyes in a daze.
 
 #目覚まし……？
+#SCRIPT ORIGINAL 目覚まし……？
 　My alarm clock...?
 
 #「そっか……いちご対策にかけておいたんだった……」
+#SCRIPT ORIGINAL 「そっか……いちご対策にかけておいたんだった……」
 ＠Itsuki
 「That's right... I set it to counter Ichigo...」
 
@@ -41,14 +46,17 @@ date_open
 @se71
 
 #寝ぼけながらベルを止める。
+#SCRIPT ORIGINAL 寝ぼけながらベルを止める。
 　I stopped the bell, still half asleep.
 
 #朝は強い方なんだが………昨日の精神的な疲労が溜まってるのか……
+#SCRIPT ORIGINAL 朝は強い方なんだが………昨日の精神的な疲労が溜まってるのか……
 　I'm a morning person, but... I must be fatigued from yesterday...
 
 #CH（立ち絵無し）
 
 #「うわっ、わ～っ！」
+#SCRIPT ORIGINAL 「うわっ、わ～っ！」
 ＠Ichigo,O00033
 「Uwah, wah～!」
 
@@ -56,12 +64,15 @@ date_open
 @se21
 
 #何か廊下の方から声が聞こえたが、気にせずまどろむ事にしよう。
+#SCRIPT ORIGINAL 何か廊下の方から声が聞こえたが、気にせずまどろむ事にしよう。
 　I hear a voice from the hallway, but I really ought to ignore it and go back to sleep.
 
 #朝はこの時間が一番幸せである気がする。
+#SCRIPT ORIGINAL 朝はこの時間が一番幸せである気がする。
 　I feel like in the morning early like this is the most blessed time.
 
 #「起きたら全部夢でありますよ～に～～……」
+#SCRIPT ORIGINAL 「起きたら全部夢でありますよ～に～～……」
 ＠Itsuki
 「When I wake up, let this all～ be a dream～～......」
 
@@ -82,18 +93,22 @@ layer_position_set	l_ichigo,80,0
 layer_move	l_ichigo,500,0,600,0,0,passtype_tcb
 
 #「火事はどこだーっ！？」
+#SCRIPT ORIGINAL 「火事はどこだーっ！？」
 ＠Ichigo,O00034
 「Where's the fire--!?」
 
 #「……え？」
+#SCRIPT ORIGINAL 「……え？」
 ＠Itsuki
 「...Huh?」
 
 #さっきどっかに走っていった足音が、たっぷり水の入ったバケツを持って飛び込んできた。
+#SCRIPT ORIGINAL さっきどっかに走っていった足音が、たっぷり水の入ったバケツを持って飛び込んできた。
 　The footsteps I heard running a little while ago jumped in with a bucket full of water.
 
 @ichigo_ikari
 #「くらえ火の元ッ、ハイドロバスター！！」
+#SCRIPT ORIGINAL 「くらえ火の元ッ、ハイドロバスター！！」
 ＠Ichigo,O00035
 「Eat this, burning blaze, Hydro Buster-!!」
 
@@ -109,10 +124,12 @@ wait			1000
 screen_whitein		2000
 
 #「うぎゃぁぁあああああ！！！」
+#SCRIPT ORIGINAL 「うぎゃぁぁあああああ！！！」
 ＠Itsuki
 「Ugyaaaaaaah!!!」
 
 #こうして今日も、世間の常識からは離れたオレの生活が始まる。
+#SCRIPT ORIGINAL こうして今日も、世間の常識からは離れたオレの生活が始まる。
 　And so once again my life here begins totally cut off from society's common sense.
 
 #BGM切り替え
@@ -126,38 +143,47 @@ event		"event\ev_all_020-00.png"
 se	1,	"sound\se\食事中1.wav",play_loop
 
 #ずぶ濡れになった服を着替え、微妙にテンションの低いまま朝食を取った。
+#SCRIPT ORIGINAL ずぶ濡れになった服を着替え、微妙にテンションの低いまま朝食を取った。
 　I changed my soaked clothes and feeling quite dispirited went for breakfast.
 
 #■EVCG（みんなと朝食）※ゆずとかりんがいない
 
 #「え……か、勘違い？」
+#SCRIPT ORIGINAL 「え……か、勘違い？」
 ＠Suika,R00006
 「Eh... a misunderstanding?」
 
 #「うん、この前学校でね、火事の時になるベルが誰かの悪戯で鳴ったんだよ」
+#SCRIPT ORIGINAL 「うん、この前学校でね、火事の時になるベルが誰かの悪戯で鳴ったんだよ」
 ＠Ichigo,O00036
 「Yeah, I heard a fire bell before at school that someone rang as a joke」
 
 #「そうなのか……けど今朝のは目覚ましの音で、火災報知機じゃないからな」
+#SCRIPT ORIGINAL 「そうなのか……けど今朝のは目覚ましの音で、火災報知機じゃないからな」
 ＠Itsuki
 「Right... but this morning that was just my alarm clock, not a fire alarm」
 
 #わけも分からず冷水を浴びせられたオレだったが、結局いちごが火事と勘違いしただけのようだった。
+#SCRIPT ORIGINAL わけも分からず冷水を浴びせられたオレだったが、結局いちごが火事と勘違いしただけのようだった。
 　I didn't understand why I had cold water poured on me, but eventually I found out Ichigo had mistakenly thought it was a fire.
 
 #「でもビックリしました。いちごちゃんが、火事だ火事だって大騒ぎしていて」
+#SCRIPT ORIGINAL 「でもビックリしました。いちごちゃんが、火事だ火事だって大騒ぎしていて」
 ＠Miu,B00040
 「But that really startled me. Ichigo-chan yelling "fire, fire!" all over the place」
 
 #「ハッ………クシュンッ！！」
+#SCRIPT ORIGINAL 「ハッ………クシュンッ！！」
 ＠Itsuki
 「Ah...choo!!」
 
 #「つっちー、朝食に唾飛ばさないで」
+#SCRIPT ORIGINAL 「つっちー、朝食に唾飛ばさないで」
 ＠Zakuro,Q00112
 「Tsu-chi, don't spit while we're having breakfast」
 
 #「あははっ。もう寒いんだから、風邪ひかないようにしなよ～？」
+#SCRIPT ORIGINAL 「あははっ。もう寒いんだから、風邪ひかないようにしなよ～？」
 ＠Ichigo,O00037
 「Ahaha. It's cold by now, so be careful not to catch a cold, okay～?」
 
@@ -165,21 +191,26 @@ se	1,	"sound\se\食事中1.wav",play_loop
 @se66
 
 #「いちごには言われたくないッ！」
+#SCRIPT ORIGINAL 「いちごには言われたくないッ！」
 ＠Itsuki
 「You're not allowed to tell me that!」
 
 #「しかし昨日のコーヒーといい、今朝の水といい、やけに災難に好かれてるね」
+#SCRIPT ORIGINAL 「しかし昨日のコーヒーといい、今朝の水といい、やけに災難に好かれてるね」
 ＠Shizuku,S00050
 「But first your coffee yesterday, and then water today... you've got a thundercloud hanging over you」
 
 #むしろここに居ること事態が災難の元凶だろう。
+#SCRIPT ORIGINAL むしろここに居ること事態が災難の元凶だろう。
 　I'd say the thundercloud is because of being here.
 
 #「ええ、何の祟りなんでしょうね」
+#SCRIPT ORIGINAL 「ええ、何の祟りなんでしょうね」
 ＠Itsuki
 「Yeah, I wonder what the curse is」
 
 #「水子」
+#SCRIPT ORIGINAL 「水子」
 ＠Zakuro,Q00113
 「Aborted pregnancy」
 
@@ -187,18 +218,22 @@ se	1,	"sound\se\食事中1.wav",play_loop
 @se69
 
 #「きゃッ！？　あ、ああ、すいません……」
+#SCRIPT ORIGINAL 「きゃッ！？　あ、ああ、すいません……」
 ＠Miu,B00041
 「Kyah!? Ah, aah, excuse me...」
 
 #「何で美雨が取り乱してんの」
+#SCRIPT ORIGINAL 「何で美雨が取り乱してんの」
 ＠Itsuki
 「Miu, what are you doing fumbling around?」
 
 #「あ、いえ、つい……」
+#SCRIPT ORIGINAL 「あ、いえ、つい……」
 ＠Miu,B00042
 「Ah, no, just by mistake...」
 
 #「水子って何……？　お兄ちゃん、それに祟られてるの？」
+#SCRIPT ORIGINAL 「水子って何……？　お兄ちゃん、それに祟られてるの？」
 ＠Mikan,A00012
 「What's an aborted pregnancy...? Onii-chan, are you cursed by that?」
 
@@ -206,50 +241,63 @@ se	1,	"sound\se\食事中1.wav",play_loop
 @se53
 
 #「う……」
+#SCRIPT ORIGINAL 「う……」
 ＠Itsuki
 「Ugh...」
 
 #「え、『うっ』って……も、もしかして院長先生、本当に……？」
+#SCRIPT ORIGINAL 「え、『うっ』って……も、もしかして院長先生、本当に……？」
 ＠Suika,R00007
 「Huh, "ugh"... d-don't tell me Inchou-sensei, you really did...?」
 
 #「ふふふ。いや、むしろそういう経験が無いことの方にショックを受けてると見た」
+#SCRIPT ORIGINAL 「ふふふ。いや、むしろそういう経験が無いことの方にショックを受けてると見た」
 ＠Shizuku,S00051
 「Fufufu. No, he's actually at a loss saying that he hasn't been around the block much」
 
 #「あんたはエスパーかッ！？」
+#SCRIPT ORIGINAL 「あんたはエスパーかッ！？」
 ＠Itsuki
 「Are you a mind-reader!?」
 
 #「顔に出てるのさ、顔に♪　やる時も顔に出してるから孕まないんじゃないの～？」
+#SCRIPT ORIGINAL 「顔に出てるのさ、顔に♪　やる時も顔に出してるから孕まないんじゃないの～？」
 ＠Shizuku,S00052
 「I can tell by your expression♪ And when you do have a chance you come on their face, of course they won't get pregnant～」
 
 #うッ、くく……ッ！
 #そんなつまらない親父ギャグにさえ言い返せれない自分が情けない……！
+#SCRIPT ORIGINAL うッ、くく……ッ！
+#SCRIPT ORIGINAL そんなつまらない親父ギャグにさえ言い返せれない自分が情けない……！
 　Uh, damn...! I can't even talk back to such an inane old man's joke, I hate this...!
 
 #「ごめんなさい、つっちー。男の尊厳を傷つけること言ったみたい」
+#SCRIPT ORIGINAL 「ごめんなさい、つっちー。男の尊厳を傷つけること言ったみたい」
 ＠Zakuro,Q00114
 「Sorry, Tsu-chi. It looks like I said something that hurt your man's pride」
 
 #「あ、謝るな……返って止めを刺されてるみたいだ」
+#SCRIPT ORIGINAL 「あ、謝るな……返って止めを刺されてるみたいだ」
 ＠Itsuki
 「D-don't apologize... you're basically just giving me the finishing blow」
 
 #そりゃ、確かに経験は多くない上……直接中に出したことなんかは一度も………
+#SCRIPT ORIGINAL そりゃ、確かに経験は多くない上……直接中に出したことなんかは一度も………
 　It's true, I haven't done it much... and of that I can't recall coming inside even once...
 
 #（あれ？　でも美雨とのエッチは……）
+#SCRIPT ORIGINAL （あれ？　でも美雨とのエッチは……）
 ＠Itsuki
 （Wait, except when I had sex with Miu...）
 
 #初めてのエッチの興奮で細部まで覚えてないが………直接中に出したような気がしないでもない。
+#SCRIPT ORIGINAL 初めてのエッチの興奮で細部まで覚えてないが………直接中に出したような気がしないでもない。
 　I was so aroused from my first time I can hardly remember the details, but... I feel like I did come inside.
 
 #■BG（食堂）
 
 #「……お茶、替えてきますね」
+#SCRIPT ORIGINAL 「……お茶、替えてきますね」
 ＠Miu,B00043
 「...I'll get some more tea」
 
@@ -259,9 +307,11 @@ event		"event\ev_all_020-01.png"
 @se18
 
 #美雨は先ほど零したカップを片し、キッチンの方へ慌しく去って行った。
+#SCRIPT ORIGINAL 美雨は先ほど零したカップを片し、キッチンの方へ慌しく去って行った。
 　Miu heads back to the kitchen a little out of sorts with the cup she spilled a moment ago.
 
 #ま、まさかな……
+#SCRIPT ORIGINAL ま、まさかな……
 　T-there's no way...
 
 #BGM切り替え
@@ -277,29 +327,36 @@ wait	1000
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
 #「ああ～～……」
+#SCRIPT ORIGINAL 「ああ～～……」
 ＠Itsuki
 「Ahhh～～...」
 
 #「疲れる……精神的に」
+#SCRIPT ORIGINAL 「疲れる……精神的に」
 ＠Itsuki
 「I'm burnt out...」
 
 #身体はむしろ好調……なのだが、考えることが多すぎる。
+#SCRIPT ORIGINAL 身体はむしろ好調……なのだが、考えることが多すぎる。
 　My body's just fine, but there are too many things to think about.
 
 #しかも問題提示をした人（雫さん）自らが、ノリの延長上で事態を楽しんでるから始末に終えない。
+#SCRIPT ORIGINAL しかも問題提示をした人（雫さん）自らが、ノリの延長上で事態を楽しんでるから始末に終えない。
 　And the person who presented me with this issue (Shizuku), is enjoying the situation quite a bit so there's no end in sight.
 
 #「うぅ……つい先日のことなのに、普通の生活が懐かしいな～」
+#SCRIPT ORIGINAL 「うぅ……つい先日のことなのに、普通の生活が懐かしいな～」
 ＠Itsuki
 「Ugh... It was just a few days ago, but I already miss my normal life～」
 
 #まぁ日中から黄昏ていても余計気分が暗くなるだけだ。
+#SCRIPT ORIGINAL まぁ日中から黄昏ていても余計気分が暗くなるだけだ。
 　The sun may be setting pretty early now, but my mood is even more gloomy.
 
 #■（選択肢）
 #■１．本でも読む（youzyo2 S-2-itiへ
 #■２．調教部屋の方へ行って見る（youzyo2 S-2-mikaへ
+#SCRIPT ORIGINAL select		sel,"本でも読む","調教部屋の方へ行って見る"
 select		sel,"Read a book","Go to the training room"
 if sel=0 then goto youzyo2_01
 if sel=1 then goto youzyo2_02
@@ -313,13 +370,16 @@ label youzyo2_01 #############################################################
 @bg_itsuki
 
 #暇つぶしのための小説を携帯していた。
+#SCRIPT ORIGINAL 暇つぶしのための小説を携帯していた。
 　I brought a novel to while away the time.
 
 #「部屋で大人しくしていよう……」
+#SCRIPT ORIGINAL 「部屋で大人しくしていよう……」
 ＠Itsuki
 「I'll just sit quietly in my room...」
 
 #読みかけに挟んだ栞から読書を再開させる。
+#SCRIPT ORIGINAL 読みかけに挟んだ栞から読書を再開させる。
 　I continue reading from where my bookmark is.
 
 #■BG（自室）※一度場面変換エフェクト
@@ -331,6 +391,7 @@ label youzyo2_01 #############################################################
 @bg_itsuki
 
 #「ん……？　どうぞ～」
+#SCRIPT ORIGINAL 「ん……？　どうぞ～」
 ＠Itsuki
 「Hm...? Come in～」
 
@@ -340,163 +401,202 @@ label youzyo2_01 #############################################################
 @bgm03
 @ichigo_yorokobi
 #「パパ……あッ、部屋で本読んでるー！？」
+#SCRIPT ORIGINAL 「パパ……あッ、部屋で本読んでるー！？」
 ＠Ichigo,O00038
 「Papa... ah, are you reading a book here-!?」
 
 #入ってきたのはいちご。
+#SCRIPT ORIGINAL 入ってきたのはいちご。
 　Ichigo comes into my room.
 
 #「それが、どうかしたか……？」
+#SCRIPT ORIGINAL 「それが、どうかしたか……？」
 ＠Itsuki
 「Is there something wrong with that...?」
 
 @ichigo_akire
 #「ダメだよー、こんないい天気なのにお部屋で本を読むだけなんてー」
+#SCRIPT ORIGINAL 「ダメだよー、こんないい天気なのにお部屋で本を読むだけなんてー」
 ＠Ichigo,O00039
 「That's no good, it's such nice weather but you're just reading a book all alone in your room」
 
 @ichigo_warai
 #「でも暇なんだったら、いちごが遊んであげよっか？」
+#SCRIPT ORIGINAL 「でも暇なんだったら、いちごが遊んであげよっか？」
 ＠Ichigo,O00040
 「But I've got free time, so I can play with you」
 
 #「素直に遊んで欲しいって言え」
+#SCRIPT ORIGINAL 「素直に遊んで欲しいって言え」
 ＠Itsuki
 「Just be honest and tell me you want to play with me」
 
 #「えへへぇ～、実は当たり♪」
+#SCRIPT ORIGINAL 「えへへぇ～、実は当たり♪」
 ＠Ichigo,O00041
 「Ehehe～, actually that's true♪」
 
 @ichigo
 #「ねぇパパ。パパってここに来る前、どこにいたの？」
+#SCRIPT ORIGINAL 「ねぇパパ。パパってここに来る前、どこにいたの？」
 ＠Ichigo,O00042
 「Hey Papa. Where did you live before you came here?」
 
 #「遠い街だ、ここより都会の。ここからじゃ電車で乗り継ぎがいるな」
+#SCRIPT ORIGINAL 「遠い街だ、ここより都会の。ここからじゃ電車で乗り継ぎがいるな」
 ＠Itsuki
 「A different area, much more city-like than here. You can get there by train」
 
 @ichigo_odoroki
 #「都会！？」
+#SCRIPT ORIGINAL 「都会！？」
 ＠Ichigo,O00043
 「A city!?」
 
 #いちごの目がキラーンと輝きを増した。
+#SCRIPT ORIGINAL いちごの目がキラーンと輝きを増した。
 　Ichigo's eyes sparkled and grew larger.
 
 #「都会って、下水道にワニがいるんだよね！？　白いワニ！」
+#SCRIPT ORIGINAL 「都会って、下水道にワニがいるんだよね！？　白いワニ！」
 ＠Ichigo,O00044
 「In cities, there are crocodiles in the sewer right!? White crocodiles!」
 
 #「……あれは都市伝説だ」
+#SCRIPT ORIGINAL 「……あれは都市伝説だ」
 ＠Itsuki
 「...That's an urban myth」
 
 @ichigo_warai
 #「じゃあじゃあ、ビルにゴリラが登ってるんでしょう？」
+#SCRIPT ORIGINAL 「じゃあじゃあ、ビルにゴリラが登ってるんでしょう？」
 ＠Ichigo,O00045
 「Then, there must be gorillas climbing up buildings right?」
 
 #「ゴリラなのかキングコングなのか知らないけど、あれも作り物」
+#SCRIPT ORIGINAL 「ゴリラなのかキングコングなのか知らないけど、あれも作り物」
 ＠Itsuki
 「I don't know if you mean gorillas or King Kong, but that's also made up」
 
 @ichigo
 #「えっと……それじゃあ、ミミズのハンバーガーとかは？」
+#SCRIPT ORIGINAL 「えっと……それじゃあ、ミミズのハンバーガーとかは？」
 ＠Ichigo,O00046
 「Umm... then, what about worm burgers?」
 
 #「実在はしないな」
+#SCRIPT ORIGINAL 「実在はしないな」
 ＠Itsuki
 「They don't exist」
 
 @ichigo_ase
 #「え～……なんだぁ、都会って結構つまんなさそう。何があるの？」
+#SCRIPT ORIGINAL 「え～……なんだぁ、都会って結構つまんなさそう。何があるの？」
 ＠Ichigo,O00047
 「Eh～... what on earth, cities sound so boring. What do they have then?」
 
 #「それで興味を失われちゃあ、あんまりにも都会が可哀想だろうよ……」
+#SCRIPT ORIGINAL 「それで興味を失われちゃあ、あんまりにも都会が可哀想だろうよ……」
 ＠Itsuki
 「If that's all you're interested in, not much, it's pretty dull...」
 
 #「それにオレが居た所も、中程度だ。もっと大きな街はいくらでもあるしな」
+#SCRIPT ORIGINAL 「それにオレが居た所も、中程度だ。もっと大きな街はいくらでもあるしな」
 ＠Itsuki
 「Also where I lived was only medium sized. There are plenty of bigger cities」
 
 @ichigo_yorokobi
 #「あッ！　じゃあそこにいるんだね！？　ワニ♪」
+#SCRIPT ORIGINAL 「あッ！　じゃあそこにいるんだね！？　ワニ♪」
 ＠Ichigo,O00048
 「Ah! Then they're there, right!? Crocodiles♪」
 
 #そんなに出て欲しいのか……大騒ぎだぞ。
+#SCRIPT ORIGINAL そんなに出て欲しいのか……大騒ぎだぞ。
 　Why does she want to find them so much...? that would cause quite a stir.
 
 #「……まぁ、そういう映画があるから、今度借りてきてやるよ」
+#SCRIPT ORIGINAL 「……まぁ、そういう映画があるから、今度借りてきてやるよ」
 ＠Itsuki
 「...Well, there are movies about that, so I'll rent one next time」
 
 @ichigo
 #「うん。それじゃあパパの町は、こことは何が違ってたの？」
+#SCRIPT ORIGINAL 「うん。それじゃあパパの町は、こことは何が違ってたの？」
 ＠Ichigo,O00049
 「Sure. Then, what was different in Papa's town from here?」
 
 #「……う～ん、この町の記憶が新しくないからな」
+#SCRIPT ORIGINAL 「……う～ん、この町の記憶が新しくないからな」
 ＠Itsuki
 「...Hmm, I don't remember much from around here」
 
 #ここ数年、今回のことで帰郷するまで、一度として帰ってきた事はなかった。
+#SCRIPT ORIGINAL ここ数年、今回のことで帰郷するまで、一度として帰ってきた事はなかった。
 　Until I just got back recently, I didn't visit here for years.
 
 #「ここの商店街はねぇ、真ん中の広場に美味しいたこ焼き屋さんがあるの」
+#SCRIPT ORIGINAL 「ここの商店街はねぇ、真ん中の広場に美味しいたこ焼き屋さんがあるの」
 ＠Ichigo,O00050
 「You know, there's a delicious takoyaki shop in the plaza in the middle of the shopping district here」
 
 #「その向かいの通りに入ったら、すぐ右に安いソフトクリーム屋さんがあってぇ」
+#SCRIPT ORIGINAL 「その向かいの通りに入ったら、すぐ右に安いソフトクリーム屋さんがあってぇ」
 ＠Ichigo,O00051
 「And if you go inside on the other side of the street, a bit to the right there's a cheap ice cream shop」
 
 #「隣の通りに出たらクレープ屋さんとかドーナツ屋さんが仲良く並んでるんだよ」
+#SCRIPT ORIGINAL 「隣の通りに出たらクレープ屋さんとかドーナツ屋さんが仲良く並んでるんだよ」
 ＠Ichigo,O00052
 「And if you go out onto the next street, there's crepe shops and donut shops all lined up together」
 
 #「食べ物屋ばっかりだな」
+#SCRIPT ORIGINAL 「食べ物屋ばっかりだな」
 ＠Itsuki
 「It's all food places」
 
 @ichigo_warai
 #「今度パパも一緒に行こうね♪」
+#SCRIPT ORIGINAL 「今度パパも一緒に行こうね♪」
 ＠Ichigo,O00053
 「Next time you can come too, Papa♪」
 
 #聞いてるだけで甘ったるくなるようなツアー要請だが……
+#SCRIPT ORIGINAL 聞いてるだけで甘ったるくなるようなツアー要請だが……
 　I need a tour that won't make my taste buds feel sugary just by listening to it...
 
 #「えへへぇ～♪　出来ればねぇ、いちご月末がいいなぁ～」
+#SCRIPT ORIGINAL 「えへへぇ～♪　出来ればねぇ、いちご月末がいいなぁ～」
 ＠Ichigo,O00054
 「Ehehee～♪ If I can, the end of the month would be nice～」
 
 #「いっつも月初めにお小遣い貰ってるから、月末が空っぽなの」
+#SCRIPT ORIGINAL 「いっつも月初めにお小遣い貰ってるから、月末が空っぽなの」
 ＠Ichigo,O00055
 「I always get pocket money at the beginning of the month, then at the end I'm all out」
 
 #「ふぅ……しょうがない奴だな、そんな嬉しそうに」
+#SCRIPT ORIGINAL 「ふぅ……しょうがない奴だな、そんな嬉しそうに」
 ＠Itsuki
 「Oh... there's really no helping you, you happy-go-lucky」
 
 #まぁここまで嬉しそうにしてくれるのなら、奢りがいもあるというものだ。
+#SCRIPT ORIGINAL まぁここまで嬉しそうにしてくれるのなら、奢りがいもあるというものだ。
 　Well, if she's looking this excited, it'll be worth treating her.
 
 #「機会があればな。連れてってもらうよ」
+#SCRIPT ORIGINAL 「機会があればな。連れてってもらうよ」
 ＠Itsuki
 「If there's a chance, I'll take you」
 
 @ichigo_yorokobi
 #「わわ……っ、うん！　きっとだよ」
+#SCRIPT ORIGINAL 「わわ……っ、うん！　きっとだよ」
 ＠Ichigo,O00056
 「Wawah... yup! Definitely!」
 
 #ガシガシと頭を撫でるオレに驚きながらも、いちごは嬉しそうに声を弾ませた。
+#SCRIPT ORIGINAL ガシガシと頭を撫でるオレに驚きながらも、いちごは嬉しそうに声を弾ませた。
 　Surprised when I nuzzle her head roughly, she exclaims delighted.
 
 @ichigo_
@@ -512,9 +612,11 @@ label youzyo2_02 #############################################################
 youzyo2_flag1=1
 
 #調教部屋と言うのは、名前どおりの行為をするところ……らしい。
+#SCRIPT ORIGINAL 調教部屋と言うのは、名前どおりの行為をするところ……らしい。
 　The "training room", it seems... as the name suggests is where the deed is done.
 
 #まだ半信半疑だった初日に、美雨の案内でそういう区画の説明も受けていた。
+#SCRIPT ORIGINAL まだ半信半疑だった初日に、美雨の案内でそういう区画の説明も受けていた。
 　Miu pointed it out when she showed me around on the first day, when I still found all this hard to believe.
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -523,10 +625,12 @@ youzyo2_flag1=1
 @bg_rouka
 
 #「まぁ、全く興味が無いわけじゃないからな……」
+#SCRIPT ORIGINAL 「まぁ、全く興味が無いわけじゃないからな……」
 ＠Itsuki
 「Well, it's not like I'm not interested at all...」
 
 #怖いもの見たさというやつか。
+#SCRIPT ORIGINAL 怖いもの見たさというやつか。
 　Maybe it's like I want to get a thrill out of seeing something scary.
 
 #■BG（ブラック）
@@ -538,59 +642,73 @@ youzyo2_flag1=1
 @bgm06
 
 #「今来ると、やっぱり微妙な緊張感があるな……」
+#SCRIPT ORIGINAL 「今来ると、やっぱり微妙な緊張感があるな……」
 ＠Itsuki
 「Now that I'm here, I'm feeling pretty nervous...」
 
 #一見すると他と変わらないこの辺りが、調教部屋区画。
+#SCRIPT ORIGINAL 一見すると他と変わらないこの辺りが、調教部屋区画。
 　At first glance, the training room area is pretty similar to everywhere else.
 
 #その実態を信じている今では、初日のような気軽さは無い。
+#SCRIPT ORIGINAL その実態を信じている今では、初日のような気軽さは無い。
 　Now that I know the truth, I don't feel nearly as relaxed as the first day.
 
 #「事前確認で、今は誰も入っていないって言ってたけど………」
+#SCRIPT ORIGINAL 「事前確認で、今は誰も入っていないって言ってたけど………」
 ＠Itsuki
 「But she told me there wouldn't be anyone in here at this time...」
 
 #興味があったような、控えたいような……
+#SCRIPT ORIGINAL 興味があったような、控えたいような……
 　I'm kind of curious, I also kind of want to stay away...
 
 bgm_stop
 #「あれ？　お兄ちゃん？」
+#SCRIPT ORIGINAL 「あれ？　お兄ちゃん？」
 ＠Mikan,A00013
 「Huh? Onii-chan?」
 
 se_stop		0
 screen_vibration	500,16,16,16
 #ビクゥッ！！
+#SCRIPT ORIGINAL ビクゥッ！！
 　Startle!!
 
 @mikan
 
 #「ここで何してるの？」
+#SCRIPT ORIGINAL 「ここで何してるの？」
 ＠Mikan,A00014
 「What are you doing here?」
 
 #「……な、なんだみかんか。よかった」
+#SCRIPT ORIGINAL 「……な、なんだみかんか。よかった」
 ＠Itsuki
 「...O-oh, it's just you, Mikan. Thank goodness」
 
 @bgm12
 #この子なら、別にここで会っても調教現場という心配は無い。
+#SCRIPT ORIGINAL この子なら、別にここで会っても調教現場という心配は無い。
 　If it's her, I don't have to worry about being caught here by the training room.
 
 #「オレは別に。みかんこそ、何の用だったんだ？」
+#SCRIPT ORIGINAL 「オレは別に。みかんこそ、何の用だったんだ？」
 ＠Itsuki
 「Nothing much. What are you up to?」
 
 #「みかんはね、この家広いから探検中だったんだよ」
+#SCRIPT ORIGINAL 「みかんはね、この家広いから探検中だったんだよ」
 ＠Mikan,A00015
 「This place is pretty big so I was exploring」
 
 #「いっぱい部屋があるから全部見てって、後はこの辺だけなの」
+#SCRIPT ORIGINAL 「いっぱい部屋があるから全部見てって、後はこの辺だけなの」
 ＠Mikan,A00016
 「There's so many rooms, I wanna see them all. Is there anything interesting in here?」
 
 #「この辺は何も無いぞ………うん、見ても意味無い。さぁ行こう」
+#SCRIPT ORIGINAL 「この辺は何も無いぞ………うん、見ても意味無い。さぁ行こう」
 ＠Itsuki
 「There's nothing around here... there's really no point in looking. Come on, let's go」
 
@@ -598,10 +716,12 @@ screen_vibration	500,16,16,16
 layer_move	l_mikan,1000,0,0,800,0,passtype_tcb
 
 #「えッ、うわわ！？　お、押さないでよお兄ちゃん……みかん、全部の部屋見るって決めたもん」
+#SCRIPT ORIGINAL 「えッ、うわわ！？　お、押さないでよお兄ちゃん……みかん、全部の部屋見るって決めたもん」
 ＠Mikan,A00017
 「Eh, uwawah!? D-don't push, Onii-chan... I said I wanted to see all the rooms for myself」
 
 #「いや、だからなみかん、この部屋は………あっ」
+#SCRIPT ORIGINAL 「いや、だからなみかん、この部屋は………あっ」
 ＠Itsuki
 「No, I told you Mikan, there's nothing in... Ah」
 
@@ -610,10 +730,12 @@ layer_move	l_mikan,2000,-800,0,-150,0,passtype_tcb
 wait	1000
 
 #言葉を選ぶその隙に、みかんはスルリと手の中から逃げてしまう。
+#SCRIPT ORIGINAL 言葉を選ぶその隙に、みかんはスルリと手の中から逃げてしまう。
 　As I was picking my words, Mikan slipped out of my arms and ran away.
 
 @mikan_warai
 #「えへへ、入っちゃうもんね～♪」
+#SCRIPT ORIGINAL 「えへへ、入っちゃうもんね～♪」
 ＠Mikan,A00018
 「Ehehe, I'm going in～♪」
 
@@ -623,12 +745,15 @@ wait	1000
 @mikan_
 
 #そのまま中に入っていく。
+#SCRIPT ORIGINAL そのまま中に入っていく。
 　And just like that she went inside.
 
 #まったく、無知とは恐ろしい………
+#SCRIPT ORIGINAL まったく、無知とは恐ろしい………
 　Oh man, innocence is scary...
 
 #「はぁぁ……一人にはさせられないか……」
+#SCRIPT ORIGINAL 「はぁぁ……一人にはさせられないか……」
 ＠Itsuki
 「Sigh... I can't leave her by herself...」
 
@@ -637,21 +762,26 @@ wait	1000
 
 @mikan
 #「う～ん、空き部屋みたい。何も無いね」
+#SCRIPT ORIGINAL 「う～ん、空き部屋みたい。何も無いね」
 ＠Mikan,A00019
 「Hmm, it looks like a guest room. There's nothing」
 
 #「ふぅ……」
+#SCRIPT ORIGINAL 「ふぅ……」
 ＠Itsuki
 「Phew...」
 
 #あからさまな道具が趣味悪く飾ってあるのを想像したが、中は意外と普通の部屋で安心した。
+#SCRIPT ORIGINAL あからさまな道具が趣味悪く飾ってあるのを想像したが、中は意外と普通の部屋で安心した。
 　I'd been expecting there to be gaudy devices out in the open, but thankfully it's just a normal-looking room.
 
 #「だから言ったろ……。さ、出るぞ」
+#SCRIPT ORIGINAL 「だから言ったろ……。さ、出るぞ」
 ＠Itsuki
 「Didn't I tell you...? come on, let's go」
 
 #「ちょっと待って、探検だからいろいろ見て行ってるの」
+#SCRIPT ORIGINAL 「ちょっと待って、探検だからいろいろ見て行ってるの」
 ＠Mikan,A00020
 「Wait a bit, I'm exploring so I have to look at some stuff」
 
@@ -660,6 +790,7 @@ layer_move	l_mikan,1000,0,0,-200,0,passtype_tcb
 wait		500
 
 #「う～ん……」
+#SCRIPT ORIGINAL 「う～ん……」
 ＠Mikan,A00021
 「Hmm...」
 
@@ -667,6 +798,7 @@ layer_move	l_mikan,1000,-200,0,200,0,passtype_tcb
 wait		500
 
 #――キョロキョロ
+#SCRIPT ORIGINAL ――キョロキョロ
 ――Turn turn.
 
 #CH（立ち絵を中央に戻す）
@@ -674,32 +806,40 @@ layer_move	l_mikan,1000,200,0,0,0,passtype_tcb
 wait		500
 
 #「んっと～……」
+#SCRIPT ORIGINAL 「んっと～……」
 ＠Mikan,A00022
 「Let's see～...」
 
 @se70
 #――ゴソゴソゴソ
+#SCRIPT ORIGINAL ――ゴソゴソゴソ
 ――Rummage rummage.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「やっぱり何もないのかなぁ」
+#SCRIPT ORIGINAL 「やっぱり何もないのかなぁ」
 ＠Mikan,A00023
 「Maybe there isn't anything after all...」
 
 #……何かはあるだろう。きっとこの部屋に。
+#SCRIPT ORIGINAL ……何かはあるだろう。きっとこの部屋に。
 　...There must be something. Definitely, in this room.
 
 #見つける前にさっさと退室してしまわないと。
+#SCRIPT ORIGINAL 見つける前にさっさと退室してしまわないと。
 　We have to leave quickly before she finds it.
 
 #「じゃあ出よう。部屋は他にあるんだろう？」
+#SCRIPT ORIGINAL 「じゃあ出よう。部屋は他にあるんだろう？」
 ＠Itsuki
 「Then let's go. There are other rooms, right?」
 
 #「うん。あ、机の中とかは？」
+#SCRIPT ORIGINAL 「うん。あ、机の中とかは？」
 ＠Mikan,A00024
 「Yup. Ah, what about inside the desk?」
 
@@ -710,13 +850,16 @@ wait		500
 @se28
 
 #ガタッ、ゴソゴソ……
+#SCRIPT ORIGINAL ガタッ、ゴソゴソ……
 　Open, rummage rummage...
 
 #「ん～？　お？」
+#SCRIPT ORIGINAL 「ん～？　お？」
 ＠Mikan,A00025
 「Hm～? Oh?」
 
 #何か興味を惹かれる物があったらしく、みかんが腕を引き出した。
+#SCRIPT ORIGINAL 何か興味を惹かれる物があったらしく、みかんが腕を引き出した。
 　Something caught her attention, and Mikan takes it out.
 
 #CH（みかんの立ち絵表示）
@@ -725,65 +868,81 @@ wait		500
 #SW（反対の端に小窓・バイブ）
 
 #「………何だろう、これ？」
+#SCRIPT ORIGINAL 「………何だろう、これ？」
 ＠Mikan,A00026
 「...What the heck is this?」
 
 #「ガッ！」
+#SCRIPT ORIGINAL 「ガッ！」
 ＠Itsuki
 「Gah!」
 
 #（ついに見つけちまったーーー！！！）
+#SCRIPT ORIGINAL （ついに見つけちまったーーー！！！）
 ＠Itsuki
 (She found it in the end---!!!)
 
 #無垢なみかんの手の中に、野太いアレの形をした大人の玩具が握られていた。
+#SCRIPT ORIGINAL 無垢なみかんの手の中に、野太いアレの形をした大人の玩具が握られていた。
 　Mikan innocently held that unmistakeable outline of an adult toy in her hand.
 
 @mikan_odoroki
 #「お兄ちゃんっ、何か変な物みつけたよっ。キノコみたいな形してる～！」
+#SCRIPT ORIGINAL 「お兄ちゃんっ、何か変な物みつけたよっ。キノコみたいな形してる～！」
 ＠Mikan,A00027
 「Onii-chan, I found something weird. It's shaped like a mushroom～!」
 
 #クンクン……
+#SCRIPT ORIGINAL クンクン……
 　Sniff sniff...
 
 #「嗅ぐな～ッ！　形はキノコでも食い物じゃないぞみかんッ」
+#SCRIPT ORIGINAL 「嗅ぐな～ッ！　形はキノコでも食い物じゃないぞみかんッ」
 ＠Itsuki
 「Don't smell it! It may look like a mushroom but it's not food, Mikan!」
 
 @mikan_warai
 #「あ、何かお兄ちゃんの中で、みかんが食いしんぼうキャラみたいになってる……」
+#SCRIPT ORIGINAL 「あ、何かお兄ちゃんの中で、みかんが食いしんぼうキャラみたいになってる……」
 ＠Mikan,A00028
 「Ah, in your mind I'm starting to look like a character who only thinks about food...」
 
 @mikan_kanashimi
 #「でもそっか。食べ物じゃないのかぁ」
+#SCRIPT ORIGINAL 「でもそっか。食べ物じゃないのかぁ」
 ＠Mikan,A00029
 「But I see. It's not food...」
 
 #あっさり興味を無くすみかん。
+#SCRIPT ORIGINAL あっさり興味を無くすみかん。
 　Mikan quickly lost interest.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「さ、そんな変な物を見てても面白くないし。他の部屋へ探検に行こう」
+#SCRIPT ORIGINAL 「さ、そんな変な物を見てても面白くないし。他の部屋へ探検に行こう」
 ＠Itsuki
 「Come on, you found something weird and you're still not interested. Let's go explore some other room」
 
 #「ん～……、うん～？　あ、何かスイッチがある」
+#SCRIPT ORIGINAL 「ん～……、うん～？　あ、何かスイッチがある」
 ＠Mikan,A00030
 「Hm～... let's see～? Ah, there's a switch」
 
 #カチッ（←スイッチを入れる音）
+#SCRIPT ORIGINAL カチッ（←スイッチを入れる音）
 　Click.
 
 #「な……ッ！？」
+#SCRIPT ORIGINAL 「な……ッ！？」
 ＠Itsuki
 「Wha...!?」
 
 #その脈絡の無い動きを止める間などなかった。
+#SCRIPT ORIGINAL その脈絡の無い動きを止める間などなかった。
 　There was no chance to stop her senseless motion.
 
 #SE29　バイブが動く音（ウィィンウィィン）
@@ -791,67 +950,83 @@ wait		500
 
 @mikan_odoroki
 #「………ッ！？」
+#SCRIPT ORIGINAL 「………ッ！？」
 ＠Mikan,A00031
 「...!?」
 
 #「…………ッッ！！！」
+#SCRIPT ORIGINAL 「…………ッッ！！！」
 ＠Mikan,A00032
 「......!!!」
 
 #「う、動き出したッ！？　何これ！　食べ物の動きじゃないよお兄ちゃんッ！！」
+#SCRIPT ORIGINAL 「う、動き出したッ！？　何これ！　食べ物の動きじゃないよお兄ちゃんッ！！」
 ＠Mikan,A00033
 「I-it's moving!? What is this! Food doesn't move like this, Onii-chan!!」
 
 #「……だから違うと言っている」
+#SCRIPT ORIGINAL 「……だから違うと言っている」
 ＠Itsuki
 「...I told you it's not food」
 
 @mikan
 #「生き物みたい……変な動き」
+#SCRIPT ORIGINAL 「生き物みたい……変な動き」
 ＠Mikan,A00034
 「It's like it's alive... it's moving weirdly」
 
 #妖しげな動きを見せ付けるバイブを横にしたり逆さにしたり。
+#SCRIPT ORIGINAL 妖しげな動きを見せ付けるバイブを横にしたり逆さにしたり。
 　She holds the vibrator that's moving suspiciously sideways and upside down.
 
 #用途なんて尋ねられたら、どう誤魔化せばいいんだろう。
+#SCRIPT ORIGINAL 用途なんて尋ねられたら、どう誤魔化せばいいんだろう。
 　If she asks what it's used for, I wonder how I should trick her.
 
 #「ねぇお兄ちゃん、これ何に使う道具なの？」
+#SCRIPT ORIGINAL 「ねぇお兄ちゃん、これ何に使う道具なの？」
 ＠Mikan,A00035
 「Hey Onii-chan, what's this thing for?」
 
 #「食べ物じゃない。それが全て」
+#SCRIPT ORIGINAL 「食べ物じゃない。それが全て」
 ＠Itsuki
 「It's not food. That's all」
 
 #「だよねぇ。何か変な匂いもしたし」
+#SCRIPT ORIGINAL 「だよねぇ。何か変な匂いもしたし」
 ＠Mikan,A00036
 「Yeah, I know. It smells kind of weird too」
 
 se_stop		0
 
 #ポイッとあっさり引き出しへバイブを放り入れた。
+#SCRIPT ORIGINAL ポイッとあっさり引き出しへバイブを放り入れた。
 　She tosses it back inside the drawer.
 
 #決定。みかんは食いしんぼうキャラだ。
+#SCRIPT ORIGINAL 決定。みかんは食いしんぼうキャラだ。
 　In conclusion, Mikan is a character who only thinks about food.
 
 #「よし、別の部屋へ行こうみかん。つまみ食い出来るおやつを探しに」
+#SCRIPT ORIGINAL 「よし、別の部屋へ行こうみかん。つまみ食い出来るおやつを探しに」
 ＠Itsuki
 「Okay, let's go to another room Mikan. In search of snacks and whether we can steal something to eat」
 
 @mikan_warai
 #「うん♪」
+#SCRIPT ORIGINAL 「うん♪」
 ＠Mikan,A00037
 「Okay♪」
 
 @mikan_odoroki
 #「……って、別にそんなの探してたわけじゃないよ」
+#SCRIPT ORIGINAL 「……って、別にそんなの探してたわけじゃないよ」
 ＠Mikan,A00038
 「...I mean, it's not like I was looking for something like that in particular」
 
 #一瞬本気で頷いた目だった。
+#SCRIPT ORIGINAL 一瞬本気で頷いた目だった。
 　She nodded for a moment looking serious.
 
 #■（youzyo2 S-3へ）
@@ -873,214 +1048,268 @@ event	"event\ev_all_021-00.png"
 se	1,	"sound\se\食事中1.wav",play_loop
 
 #「パパッ、今日の夕食はエビフライだよ！」
+#SCRIPT ORIGINAL 「パパッ、今日の夕食はエビフライだよ！」
 ＠Ichigo,O00057
 「Papa, we're having fried shrimp for dinner today!」
 
 #「……？　そうなのか」
+#SCRIPT ORIGINAL 「……？　そうなのか」
 ＠Itsuki
 「...? Really?」
 
 #「ああッ、感動が薄いよぉ。いちごが昨日歌ったからだよ♪」
+#SCRIPT ORIGINAL 「ああッ、感動が薄いよぉ。いちごが昨日歌ったからだよ♪」
 ＠Ichigo,O00058
 「Aah, you're not very excited. It's because I was singing yesterday♪」
 
 #そう言えば、意味もなく歌ってたな。
+#SCRIPT ORIGINAL そう言えば、意味もなく歌ってたな。
 　Oh yeah, she was singing that for no reason.
 
 #「あの歌を聞いて今日の献立は決めましたから、いちごちゃんのおかげね」
+#SCRIPT ORIGINAL 「あの歌を聞いて今日の献立は決めましたから、いちごちゃんのおかげね」
 ＠Miu,B00044
 「I heard the song and decided to make it today, all thanks to Ichigo」
 
 #「すごぉいッ、いちごちゃん！　今度からみかんも歌うようにしようっと♪」
+#SCRIPT ORIGINAL 「すごぉいッ、いちごちゃん！　今度からみかんも歌うようにしようっと♪」
 ＠Mikan,A00039
 「Wowww, Ichigo-chan! I'll try singing next time too♪」
 
 #「えへへぇ～♪」
+#SCRIPT ORIGINAL 「えへへぇ～♪」
 ＠Ichigo,O00059
 「Ehehee～♪」
 
 #■EVCG（みんなで食事・夕食）※かりんとゆずがいない
 
 #「あ～、そうそう。みかんは明日からみんなと同じ学校に通ってもらうよ」
+#SCRIPT ORIGINAL 「あ～、そうそう。みかんは明日からみんなと同じ学校に通ってもらうよ」
 ＠Shizuku,S00053
 「Ah～, that's right. Mikan, you can go to school with everyone starting tomorrow」
 
 #「え？　あ、そっか。今まで土日だったから忘れてた」
+#SCRIPT ORIGINAL 「え？　あ、そっか。今まで土日だったから忘れてた」
 ＠Mikan,A00040
 「Eh? Ah, oh yeah. I forgot because it was the weekend」
 
 #「すでに転入の手続きは済ませてあるからね」
+#SCRIPT ORIGINAL 「すでに転入の手続きは済ませてあるからね」
 ＠Shizuku,S00054
 「The arrangements for your moving in here are complete」
 
 #「えへへー、学校でも一緒だね、みかん♪」
+#SCRIPT ORIGINAL 「えへへー、学校でも一緒だね、みかん♪」
 ＠Ichigo,O00060
 「Eheheー, let's be together at school too, Mikan♪」
 
 #「うん♪」
+#SCRIPT ORIGINAL 「うん♪」
 ＠Mikan,A00041
 「Yup♪」
 
 #「いちごは学年が違う」
+#SCRIPT ORIGINAL 「いちごは学年が違う」
 ＠Zakuro,Q00115
 「Ichigo, you're in a different grade」
 
 #「がーーーん！　そ、そうなの！？」
+#SCRIPT ORIGINAL 「がーーーん！　そ、そうなの！？」
 ＠Ichigo,O00061
 「Noooo! R-really!?」
 
 #「そうなんだ……？」
+#SCRIPT ORIGINAL 「そうなんだ……？」
 ＠Mikan,A00042
 「I didn't know that...」
 
 #「いちごちゃんは、私達より一つ下だから」
+#SCRIPT ORIGINAL 「いちごちゃんは、私達より一つ下だから」
 ＠Suika,R00008
 「Ichigo-chan's a year younger than the rest of us」
 
 #「ちくしょーッ、またいちごだけ仲間外れだーー！！　ハグハグハグ！！」
+#SCRIPT ORIGINAL 「ちくしょーッ、またいちごだけ仲間外れだーー！！　ハグハグハグ！！」
 ＠Ichigo,O00062
 「Damn it, I'm the only one left out again--!! Munch munch munch!!」
 
 #八つ当たりするようにエビフライを食い散らかし始める。
+#SCRIPT ORIGINAL 八つ当たりするようにエビフライを食い散らかし始める。
 　In a fit of anger, she starts eating her fried shrimp scattering it all over the place.
 
 #■BG（食堂・夜）
 
 #「あらあら、もったいないわよ、いちごちゃん？」
+#SCRIPT ORIGINAL 「あらあら、もったいないわよ、いちごちゃん？」
 ＠Miu,B00045
 「Hey now, don't waste it, Ichigo-chan?」
 
 #「……可哀想ないちご。私のエビフライもいる？」
+#SCRIPT ORIGINAL 「……可哀想ないちご。私のエビフライもいる？」
 ＠Zakuro,Q00116
 「...Poor Ichigo. Would you like my fried shrimp?」
 
 #「え、いいのッ！？　ありがとざくろーッ♪」
+#SCRIPT ORIGINAL 「え、いいのッ！？　ありがとざくろーッ♪」
 ＠Ichigo,O00063
 「Eh, can I!? Thanks Zakuro--♪」
 
 #「うん、お姉さんは年下の子に優しくしないと」
+#SCRIPT ORIGINAL 「うん、お姉さんは年下の子に優しくしないと」
 ＠Zakuro,Q00117
 「Yup, an older sister has to be nice to the younger one」
 
 #「こんちくしょーー！！」
+#SCRIPT ORIGINAL 「こんちくしょーー！！」
 ＠Ichigo,O00064
 「Damn damn--！！」
 
 #結局食い散らかしてるし。
+#SCRIPT ORIGINAL 結局食い散らかしてるし。
 　She just messed up some more food in the end.
 
 #「あ、でも雫さん。みかんまだ教科書持ってないけど……」
+#SCRIPT ORIGINAL 「あ、でも雫さん。みかんまだ教科書持ってないけど……」
 ＠Mikan,A00043
 「Ah, but Shizuku-san, I don't have any textbooks yet...」
 
 #「まぁ注文したのが届くまで、クラスの誰かから見せてもらうしかないだろうね」
+#SCRIPT ORIGINAL 「まぁ注文したのが届くまで、クラスの誰かから見せてもらうしかないだろうね」
 ＠Shizuku,S00055
 「I guess you'll have to ask to share with someone until the order I put gets in」
 
 #「新しい学校かー。どんな所だろ」
+#SCRIPT ORIGINAL 「新しい学校かー。どんな所だろ」
 ＠Mikan,A00044
 「A new school, huh? I wonder what it'll be like」
 
 #楽しみ半分不安半分といった具合に想像を広げるみかん。
+#SCRIPT ORIGINAL 楽しみ半分不安半分といった具合に想像を広げるみかん。
 　Mikan pictures it in her head looking half excited, half nervous.
 
 #「特に他と違ったところは無いけど、校庭が広いかな。あと、遊具が多いよ」
+#SCRIPT ORIGINAL 「特に他と違ったところは無いけど、校庭が広いかな。あと、遊具が多いよ」
 ＠Suika,R00009
 「It's probably the same as anywhere else, but the schoolyard's pretty big. Also, there's a lot of play equipment」
 
 #「教師にハゲも多い」
+#SCRIPT ORIGINAL 「教師にハゲも多い」
 ＠Zakuro,Q00118
 「And lots of bald teachers」
 
 #「ハグハグッ、ゴクンッ！　あ、でもね、休み時間が短いんだよー。十分しかないの」
+#SCRIPT ORIGINAL 「ハグハグッ、ゴクンッ！　あ、でもね、休み時間が短いんだよー。十分しかないの」
 ＠Ichigo,O00065
 「Munch munch, gulp! Oh, but you know, recess is pretty short. It's over before you know it」
 
 #「………教員の赴任期間も短い。どんどん辞めるか、クビになってる」
+#SCRIPT ORIGINAL 「………教員の赴任期間も短い。どんどん辞めるか、クビになってる」
 ＠Zakuro,Q00119
 「...And the teachers don't stick around for very long. They keep quitting, or being fired」
 
 #「あと、月に一回、お弁当の日があるわね。その日は私がお弁当を作ってあげてるの」
+#SCRIPT ORIGINAL 「あと、月に一回、お弁当の日があるわね。その日は私がお弁当を作ってあげてるの」
 ＠Miu,B00046
 「Also, once a month, there's a bento day. I make bentos for everyone」
 
 #「……忘れて来た子が、みんなからおかずを貰って回るの。あれ嫌」
+#SCRIPT ORIGINAL 「……忘れて来た子が、みんなからおかずを貰って回るの。あれ嫌」
 ＠Zakuro,Q00120
 「...The kids who forget theirs go around taking stuff from everyone else. I don't like that」
 
 #「ざくろ………もしかして学校嫌いなのか……？」
+#SCRIPT ORIGINAL 「ざくろ………もしかして学校嫌いなのか……？」
 ＠Itsuki
 「Zakuro... do you hate school or something...?」
 
 #「別に………」
+#SCRIPT ORIGINAL 「別に………」
 ＠Zakuro,Q00121
 「Not really...」
 
 #青ノリをふり掛けたキャベツをモシャモシャと食べ始める。
+#SCRIPT ORIGINAL 青ノリをふり掛けたキャベツをモシャモシャと食べ始める。
 　She starts munching on her cabbage sprinkled with Aonori.
 
 #（……また青ノリ使ってるし…）
+#SCRIPT ORIGINAL （……また青ノリ使ってるし…）
 ＠Itsuki
 (She really likes that Aonori...)
 
 #「みかん、朝弱いんだ～。起きれるかなぁ」
+#SCRIPT ORIGINAL 「みかん、朝弱いんだ～。起きれるかなぁ」
 ＠Mikan,A00045
 「I'm not a morning person～. I wonder if I'll be able to get up...」
 
 #「だったらいちごが起こしに行くよ。いちご、朝強いから」
+#SCRIPT ORIGINAL 「だったらいちごが起こしに行くよ。いちご、朝強いから」
 ＠Ichigo,O00066
 「I can come wake you up. I'm a morning person」
 
 #「……いちごが？」
+#SCRIPT ORIGINAL 「……いちごが？」
 ＠Itsuki
 「...Ichigo?」
 
 #「ああ、意外だけど、本当にこいつ早起きなんだよ」
+#SCRIPT ORIGINAL 「ああ、意外だけど、本当にこいつ早起きなんだよ」
 ＠Shizuku,S00056
 「Yeah, you wouldn't think so, but she's quite the early bird」
 
 #「それは知ってますがね……」
+#SCRIPT ORIGINAL 「それは知ってますがね……」
 ＠Itsuki
 「I know that already, but...」
 
 #みかんにまで圧し掛かったり、水をぶっ掛けたりする気なのだろうか。
+#SCRIPT ORIGINAL みかんにまで圧し掛かったり、水をぶっ掛けたりする気なのだろうか。
 　I wonder if she plans to straddle Mikan, or throw water on her face.
 
 #「早起きしてこのテンションで騒ぎまわるから、あたしとしてはもう少しゆっくり寝てて欲しいんだけどねぇ」
+#SCRIPT ORIGINAL 「早起きしてこのテンションで騒ぎまわるから、あたしとしてはもう少しゆっくり寝てて欲しいんだけどねぇ」
 ＠Shizuku,S00057
 「If I get up early, I get caught up in this trouble, so I like to take it easy and sleep in a little more」
 
 #「その気持ち、よく分かります………」
+#SCRIPT ORIGINAL 「その気持ち、よく分かります………」
 ＠Itsuki
 「I get that too...」
 
 #「それじゃ、明日はみかんちゃんのお弁当も用意するから、忘れずに持って行ってね」
+#SCRIPT ORIGINAL 「それじゃ、明日はみかんちゃんのお弁当も用意するから、忘れずに持って行ってね」
 ＠Miu,B00047
 「Then, I'll prepare Mikan-chan's bento tomorrow too, so don't forget to take it」
 
 #「やったぁ！　お弁当♪」
+#SCRIPT ORIGINAL 「やったぁ！　お弁当♪」
 ＠Mikan,A00046
 「Yayy! Obentou♪」
 
 #明日から子供達は学校か。
+#SCRIPT ORIGINAL 明日から子供達は学校か。
 　So starting tomorrow the kids will be at school, huh.
 
 #ということは、日中はオレと美雨、それと雫さんだけ……
+#SCRIPT ORIGINAL ということは、日中はオレと美雨、それと雫さんだけ……
 　That means during the day, it'll just be me, Miu, and Shizuku here...
 
 #「ふふふ、大人の時間だね」
+#SCRIPT ORIGINAL 「ふふふ、大人の時間だね」
 ＠Shizuku,S00058
 「Fufufu. Time for the adults」
 
 #「別に何もしませんよ」
+#SCRIPT ORIGINAL 「別に何もしませんよ」
 ＠Itsuki
 「I'm not doing anything」
 
 #「おや？　あたしは酒でも飲もうかって言っただけなんだけど。何をする気なのかねぇ、樹は」
+#SCRIPT ORIGINAL 「おや？　あたしは酒でも飲もうかって言っただけなんだけど。何をする気なのかねぇ、樹は」
 ＠Shizuku,S00059
 「Oh? I was just talking about drinking sake. I don't know what you were planning on, Itsuki」
 
 #お約束だな、その切り返しも。
+#SCRIPT ORIGINAL お約束だな、その切り返しも。
 　Well, at least we agreed on that.
 
 @bg_black
@@ -1100,30 +1329,37 @@ label youzyo2_04 #############################################################
 @bg_itsuki_n
 
 #騒がしい一日が、今日もこれでやっと終わる。
+#SCRIPT ORIGINAL 騒がしい一日が、今日もこれでやっと終わる。
 　I made it through another tiresome day.
 
 #時間を確認するとあくびしてベッドへ向かった。
+#SCRIPT ORIGINAL 時間を確認するとあくびしてベッドへ向かった。
 　After checking the time, I yawn and make to go to bed.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
 #「………ん？」
+#SCRIPT ORIGINAL 「………ん？」
 ＠Itsuki
 「...Hm?」
 
 #こんな時間に誰だ？
+#SCRIPT ORIGINAL こんな時間に誰だ？
 　I wonder who it could be so late.
 
 #「すいかです。もう、休まれましたか？」
+#SCRIPT ORIGINAL 「すいかです。もう、休まれましたか？」
 ＠Suika,R00010
 「It's Suika. Are you sleeping already?」
 
 #「いや、起きてる。どう………」
+#SCRIPT ORIGINAL 「いや、起きてる。どう………」
 ＠Itsuki
 「No, I'm awake. Co...」
 
 #どうぞ、と言いかけて彼女の身体を思い出し、自分でドアを開けに行った。
+#SCRIPT ORIGINAL どうぞ、と言いかけて彼女の身体を思い出し、自分でドアを開けに行った。
 　I was going to say "come in", but I stopped when I remembered her body, and went to open the door myself.
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -1135,21 +1371,26 @@ label youzyo2_04 #############################################################
 @suika
 
 #「あ。どうもすみません」
+#SCRIPT ORIGINAL 「あ。どうもすみません」
 ＠Suika,R00011
 「Ah. Sorry for the bother」
 
 #「どうしたんだ、こんな時間に？」
+#SCRIPT ORIGINAL 「どうしたんだ、こんな時間に？」
 ＠Itsuki
 「It's pretty late, what's up?」
 
 #「ちょっと、いいですか？」
+#SCRIPT ORIGINAL 「ちょっと、いいですか？」
 ＠Suika,R00012
 「Can I come in a bit?」
 
 #チラ、と部屋の中に視線を移してからこちらを見上げた。
+#SCRIPT ORIGINAL チラ、と部屋の中に視線を移してからこちらを見上げた。
 　She takes a glance at my room, and then looks up at me.
 
 #「どうぞ」
+#SCRIPT ORIGINAL 「どうぞ」
 ＠Itsuki
 「Yeah, come in」
 
@@ -1162,58 +1403,73 @@ label youzyo2_04 #############################################################
 @suika
 
 #「何か用事か？　手伝ってほしいことがあるとか」
+#SCRIPT ORIGINAL 「何か用事か？　手伝ってほしいことがあるとか」
 ＠Itsuki
 「Do you need me for something? Like something you'd like me to help you with」
 
 #「えっと……そうではなくて、むしろ手伝うのは私って言いますか………」
+#SCRIPT ORIGINAL 「えっと……そうではなくて、むしろ手伝うのは私って言いますか………」
 ＠Suika,R00013
 「Um... No not really, you could say the one who will be doing the helping is me...」
 
 #何か言い辛そうにモジモジと頬を染めている。
+#SCRIPT ORIGINAL 何か言い辛そうにモジモジと頬を染めている。
 　She looks hard pressed to say something and is fidgety and blushing.
 
 @suika_tere
 #「あの。今夜は私が、院長先生に奉仕します」
+#SCRIPT ORIGINAL 「あの。今夜は私が、院長先生に奉仕します」
 ＠Suika,R00014
 「Um. I'm going to service you tonight, Inchou-sensei」
 
 #「え゛」
+#SCRIPT ORIGINAL 「え゛」
 ＠Itsuki
 「Huh」
 
 #「ざくろちゃんみたいに………その、上手くありませんけど」
+#SCRIPT ORIGINAL 「ざくろちゃんみたいに………その、上手くありませんけど」
 ＠Suika,R00015
 「But... um, I'm not as good at it as Zakuro-chan」
 
 #まぁ、ざくろは上手かったな。
+#SCRIPT ORIGINAL まぁ、ざくろは上手かったな。
 　Well, Zakuro was pretty good.
 
 #「いやいや、別に上手いとか下手とかは気にしてないけどな」
+#SCRIPT ORIGINAL 「いやいや、別に上手いとか下手とかは気にしてないけどな」
 ＠Itsuki
 「No no, I'm not really concerned about how good you are」
 
 #「……また雫さんか」
+#SCRIPT ORIGINAL 「……また雫さんか」
 ＠Itsuki
 「...Was it Shizuku-san who told you again?」
 
 @suika_odoroki
 #「あ、いえ。私を担当してくれてるのは美雨さんなので。今夜も美雨さんに言われて……」
+#SCRIPT ORIGINAL 「あ、いえ。私を担当してくれてるのは美雨さんなので。今夜も美雨さんに言われて……」
 ＠Suika,R00016
 「Ah, no. Miu's the one who is in charge of me. So she's the one who told me tonight...」
 
 #「……！　そ、そっか。美雨にか」
+#SCRIPT ORIGINAL 「……！　そ、そっか。美雨にか」
 ＠Itsuki
 「...! R-really. Miu, huh」
 
 #案外驚きが小さかったのは、それをどこかで予測していたからだ。
+#SCRIPT ORIGINAL 案外驚きが小さかったのは、それをどこかで予測していたからだ。
 　I was actually not too surprised, since I'd thought it was like that.
 
 #子供の頃は売春をしていた側。
 #そして今では売春をさせる側として。
+#SCRIPT ORIGINAL 子供の頃は売春をしていた側。
+#SCRIPT ORIGINAL そして今では売春をさせる側として。
 　She was prostituted when she was a child. Now, she prostitutes others.
 
 @suika
 #「しつれいします。院長先生には、いずれ知られてしまうと思いますので」
+#SCRIPT ORIGINAL 「しつれいします。院長先生には、いずれ知られてしまうと思いますので」
 ＠Suika,R00017
 「Excuse me then, but I think you'd see me sooner or later anyway」
 
@@ -1222,15 +1478,19 @@ label youzyo2_04 #############################################################
 @suika_
 
 #話の合間を見て、すいかが着ているものを脱ぎ始めた。
+#SCRIPT ORIGINAL 話の合間を見て、すいかが着ているものを脱ぎ始めた。
 　Finding a break in the conversation, Suika started taking off her clothes.
 
 #オレは手伝うことも止めることも出来ずに、それをただ見守る。
+#SCRIPT ORIGINAL オレは手伝うことも止めることも出来ずに、それをただ見守る。
 　I just watched, unable to help her or stop her.
 
 #この子にも、やはりこういうことをする理由があるのだろうか。
+#SCRIPT ORIGINAL この子にも、やはりこういうことをする理由があるのだろうか。
 　She must have her own reason for doing this too.
 
 #「……！　すいか、その身体は」
+#SCRIPT ORIGINAL 「……！　すいか、その身体は」
 ＠Itsuki
 「...! Suika, your body」
 
@@ -1238,71 +1498,89 @@ label youzyo2_04 #############################################################
 event	"event\EV_SUI_011.png"
 
 #「院長先生。これが、私の身体です……」
+#SCRIPT ORIGINAL 「院長先生。これが、私の身体です……」
 ＠Suika,R00018
 「Inchou-sensei. This is my body...」
 
 #「ぜんぜん女の子らしくなくて、綺麗でもなくてすみません……」
+#SCRIPT ORIGINAL 「ぜんぜん女の子らしくなくて、綺麗でもなくてすみません……」
 ＠Suika,R00019
 「I'm sorry that it's not pretty like you'd want in a girl...」
 
 #全身に消えない痕となっている傷と痣。
+#SCRIPT ORIGINAL 全身に消えない痕となっている傷と痣。
 　Her whole body is covered with traces of past wounds and injuries that won't go away.
 
 #切り傷、擦り傷、打撲、火傷………これは………
+#SCRIPT ORIGINAL 切り傷、擦り傷、打撲、火傷………これは………
 　Cuts, scratches, bruises, burns...... this is just...
 
 #「私は、お父さんとお母さんから、虐待を受けてました」
+#SCRIPT ORIGINAL 「私は、お父さんとお母さんから、虐待を受けてました」
 ＠Suika,R00020
 「I was abused by my mother and father」
 
 #「嫌われてたんだと思います。いつも叩かれたり、蹴られたり。この足もその時の事故で……」
+#SCRIPT ORIGINAL 「嫌われてたんだと思います。いつも叩かれたり、蹴られたり。この足もその時の事故で……」
 ＠Suika,R00021
 「I think they hated me. They would always hit me and kick me. And then this one time my leg...」
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「でも私、ここの施設に私を捨ててくれたことは感謝してるんです。おかげで私はみんなと会えた」
+#SCRIPT ORIGINAL 「でも私、ここの施設に私を捨ててくれたことは感謝してるんです。おかげで私はみんなと会えた」
 ＠Suika,R00022
 「But I'm glad that they abandoned me here. Thanks to that, I got to meet everyone」
 
 #「ちょっと変わった人たちだけど、でも温かくて優しい人ばかり。だから私は、この生活を続けるためなら、何でもしたいんです」
+#SCRIPT ORIGINAL 「ちょっと変わった人たちだけど、でも温かくて優しい人ばかり。だから私は、この生活を続けるためなら、何でもしたいんです」
 ＠Suika,R00023
 「The people here are a little unusual, but they're all warm and kind. I would do anything to keep living here」
 
 #「こういうことするの、恥ずかしいけど、嫌じゃありません。みんな喜んでくれるし、上手く出来たら誉めてくれるから」
+#SCRIPT ORIGINAL 「こういうことするの、恥ずかしいけど、嫌じゃありません。みんな喜んでくれるし、上手く出来たら誉めてくれるから」
 ＠Suika,R00024
 「Doing this kind of stuff is embarrassing, but I don't dislike it. Everyone is pleased with me, and if I do well I'm praised」
 
 #「………分かった、いいよもう」
+#SCRIPT ORIGINAL 「………分かった、いいよもう」
 ＠Itsuki
 「...I understand, you don't need to say anymore」
 
 #「すいか、オレが悩んでるのを見て話してくれたんだな」
+#SCRIPT ORIGINAL 「すいか、オレが悩んでるのを見て話してくれたんだな」
 ＠Itsuki
 「Suika, you saw that I was fretting about things and came here to talk to me about it」
 
 #「私は、院長先生にもここにいて欲しいんです。ざくろちゃんもいちごちゃんも、美雨さんも、みんなそうだと思います」
+#SCRIPT ORIGINAL 「私は、院長先生にもここにいて欲しいんです。ざくろちゃんもいちごちゃんも、美雨さんも、みんなそうだと思います」
 ＠Suika,R00025
 「I want you to stay here, Inchou-sensei. Zakuro-chan, Ichigo-chan, Miu-san, I think everyone wants that」
 
 #「院長先生と話してるとき、楽しそうですから」
+#SCRIPT ORIGINAL 「院長先生と話してるとき、楽しそうですから」
 ＠Suika,R00026
 「They look like they enjoy talking to you」
 
 #「そうか……」
+#SCRIPT ORIGINAL 「そうか……」
 ＠Itsuki
 「I see...」
 
 #ならばここを継ぐかどうかは後にしても、すいかの奉仕を断る理由はない。
+#SCRIPT ORIGINAL ならばここを継ぐかどうかは後にしても、すいかの奉仕を断る理由はない。
 　If that's how it is, while I may be putting off whether I'm going to succeed this place or not, I have no reason to refuse Suika's service.
 
 #「それじゃ、頼む」
+#SCRIPT ORIGINAL 「それじゃ、頼む」
 ＠Itsuki
 「Then, go for it」
 
 #「はい……」
+#SCRIPT ORIGINAL 「はい……」
 ＠Suika,R00027
 「Yeah...」
 
@@ -1317,210 +1595,269 @@ event	"event\EV_SUI_010-00.png"
 @se01
 
 #ベッドへ仰向けになったオレのベルトを、すいかの指先が緩めていく。
+#SCRIPT ORIGINAL ベッドへ仰向けになったオレのベルトを、すいかの指先が緩めていく。
 　Suika's fingers unfasten my belt while I lay on the bed.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Suika,R00028
 「......」
 
 #その瞬間は言葉がなくなり、すいかの静かな呼吸だけが吹きかかった。
+#SCRIPT ORIGINAL その瞬間は言葉がなくなり、すいかの静かな呼吸だけが吹きかかった。
 　For a moment we stopped talking, and all that I can hear is Suika's soft breathing.
 
 #緊張してるのだろうか。やはり。
+#SCRIPT ORIGINAL 緊張してるのだろうか。やはり。
 　It seems she's nervous in the end.
 
 #「院長先生、失礼します」
+#SCRIPT ORIGINAL 「院長先生、失礼します」
 ＠Suika,R00029
 「Inchou-sensei, excuse me」
 
 event	"event\EV_SUI_010-01.png"
 
 #はだけ終えたズボンから内側のイチモツが取り出された。
+#SCRIPT ORIGINAL はだけ終えたズボンから内側のイチモツが取り出された。
 　She takes my penis out from inside my pants that she unfastened.
 
 #「ざくろと同じように初めてじゃないんだよな？」
+#SCRIPT ORIGINAL 「ざくろと同じように初めてじゃないんだよな？」
 ＠Itsuki
 「You're like Zakuro, this isn't your first time doing this right?」
 
 #「はい……と言っても、練習の方が多くて、本当にするのはまだ数えるくらいしか」
+#SCRIPT ORIGINAL 「はい……と言っても、練習の方が多くて、本当にするのはまだ数えるくらいしか」
 ＠Suika,R00030
 「Yes, but... even though I've practiced it a lot, I've only actually done it a handful of times」
 
 #「……えっと、それじゃ、もう直接初めてもいいでしょうか？」
+#SCRIPT ORIGINAL 「……えっと、それじゃ、もう直接初めてもいいでしょうか？」
 ＠Suika,R00031
 「...Er, then, is it OK if I begin?」
 
 #「あぁ、任せるから好きなように」
+#SCRIPT ORIGINAL 「あぁ、任せるから好きなように」
 ＠Itsuki
 「Yeah, I'm leaving it to you so do as you like」
 
 #「……はい」
+#SCRIPT ORIGINAL 「……はい」
 ＠Suika,R00032
 「...Sure」
 
 #了承を得たすいかの手が、ズボンの内側で温まっていた肉棒を繊細につかみこむ。
+#SCRIPT ORIGINAL 了承を得たすいかの手が、ズボンの内側で温まっていた肉棒を繊細につかみこむ。
 　Receiving my permission, Suika's hand delicately takes hold of my cock that had warmed up inside my pants.
 
 #面映ゆげに注がれる視線。
 #ざくろの感情の見えない瞳と違い、それはこちらにも僅か恥ずかしさを思わせてくる。
+#SCRIPT ORIGINAL 面映ゆげに注がれる視線。
+#SCRIPT ORIGINAL ざくろの感情の見えない瞳と違い、それはこちらにも僅か恥ずかしさを思わせてくる。
 　Her gaze is loaded with self-consciousness. Unlike with Zakuro's unreadable look, it gives the impression she's a tad ashamed.
 
 #「もしかして、もう大きくなってますか？」
+#SCRIPT ORIGINAL 「もしかして、もう大きくなってますか？」
 ＠Suika,R00033
 「Has it already gotten big?」 
 
 #「少しだけな。すいかの身体を見せてもらってからか」
+#SCRIPT ORIGINAL 「少しだけな。すいかの身体を見せてもらってからか」
 ＠Itsuki
 「Yeah, a little. Probably because I can see you naked」
 
 #「私の………。こんな傷だらけの身体なんかで……」
+#SCRIPT ORIGINAL 「私の………。こんな傷だらけの身体なんかで……」
 ＠Suika,R00034
 「My... even though my body's so ugly and covered with marks...」
 
 #「そんな風に卑下するな。女の子らしくて綺麗だぞ」
+#SCRIPT ORIGINAL 「そんな風に卑下するな。女の子らしくて綺麗だぞ」
 ＠Itsuki
 「Don't put yourself down. You're pretty and just what I'd want in a girl」 
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Suika,R00035
 「......」
 
 #その言葉に肉棒を弄る指先が止まり、すいかが吐息を詰まらせた。
+#SCRIPT ORIGINAL その言葉に肉棒を弄る指先が止まり、すいかが吐息を詰まらせた。
 　Her fingertips stop playing with my penis, and she takes a deep breath.
 
 #「………ありがとうございます。私、絶対に院長先生を気持ちよくしますから」
+#SCRIPT ORIGINAL 「………ありがとうございます。私、絶対に院長先生を気持ちよくしますから」
 ＠Suika,R00036
 「...Thank you. I'll definitely make you feel good, Inchou-sensei」
 
 #再び動き始める指は、竿の付け根からカリの方まで上下に擦り始める。
+#SCRIPT ORIGINAL 再び動き始める指は、竿の付け根からカリの方まで上下に擦り始める。
 　Her fingers start moving again, rubbing up and down from the base to the head.
 
 #この子の裸身に血流を溜まらせ始めていたその部分が、敏感に行為の期待を身体中に走らせてきた。
+#SCRIPT ORIGINAL この子の裸身に血流を溜まらせ始めていたその部分が、敏感に行為の期待を身体中に走らせてきた。
 　Blood rushes to my dick at this girl's naked body, and anticipation of what we're about to do runs through my body.
 
 #「もっとおちんちん大きくしてください」
+#SCRIPT ORIGINAL 「もっとおちんちん大きくしてください」
 ＠Suika,R00037
 「Please, make your dick even bigger」
 
 #晒した男性器の全貌を見つめ、頬の朱が色濃くなっていくすいか。
+#SCRIPT ORIGINAL 晒した男性器の全貌を見つめ、頬の朱が色濃くなっていくすいか。
 　Seeing my penis exposed in its full glory, Suika starts blushing fiercely.
 
 #しかしその恥ずかしさとは裏腹な手使いが、施設での調教生活を思わせる。
+#SCRIPT ORIGINAL しかしその恥ずかしさとは裏腹な手使いが、施設での調教生活を思わせる。
 　But you wouldn't think so with her hand service, another reminder of the lifestyle here.
 
 #「オレに遠慮はいらない。だから思うように弄ってみな？」
+#SCRIPT ORIGINAL 「オレに遠慮はいらない。だから思うように弄ってみな？」
 ＠Itsuki
 「You don't have to beat around the bush with me, go ahead and do it which way you think is best」
 
 #「あ、はい……ならこのまま、手から口に繋げていきますね」
+#SCRIPT ORIGINAL 「あ、はい……ならこのまま、手から口に繋げていきますね」
 ＠Suika,R00038
 「Ah, okay... then I'll use my mouth with my hand in a bit」
 
 #キュッと今までよりも力が入って肉竿が握られる。
+#SCRIPT ORIGINAL キュッと今までよりも力が入って肉竿が握られる。
 　She puts some strength in and grips it tighter than before.
 
 #まだ面映ゆそうな視線でこちらを窺いながら、すいかの手は下のふぐりも弄りながら滑り始めた。
+#SCRIPT ORIGINAL まだ面映ゆそうな視線でこちらを窺いながら、すいかの手は下のふぐりも弄りながら滑り始めた。
 　Suika glances at me still with a self-conscious look, and as she plays with my testicles below, my dick starts to get wet.
 
 #「……っ」
+#SCRIPT ORIGINAL 「……っ」
 ＠Itsuki
 「...Ah」
 
 #それにより肉棒の内部の熱さが更に沸き上げられていく。
+#SCRIPT ORIGINAL それにより肉棒の内部の熱さが更に沸き上げられていく。
 　And more and more, the area around my penis emanates with heat.
 
 #「ぁ……これ、いいですか？」
+#SCRIPT ORIGINAL 「ぁ……これ、いいですか？」
 ＠Suika,R00039
 「Ah... is this good?」
 
 #羞恥に熱のこもる吐息を零すすいかは、オレのそんな微妙な表情を捉えて動きを繰り返してきた。
+#SCRIPT ORIGINAL 羞恥に熱のこもる吐息を零すすいかは、オレのそんな微妙な表情を捉えて動きを繰り返してきた。
 　Suika sighs hot with embarrassment, and noticing my pleasured look repeats the motion.
 
 #「これも、教えてもらったのか？」
+#SCRIPT ORIGINAL 「これも、教えてもらったのか？」
 ＠Itsuki
 「Did you learn to do this too?」
 
 #「はい。……すみません、私が先生に奉仕したいのに、よく分からなくて。教えてもらったことでしか動けなくて」
+#SCRIPT ORIGINAL 「はい。……すみません、私が先生に奉仕したいのに、よく分からなくて。教えてもらったことでしか動けなくて」
 ＠Suika,R00040
 「Yeah... sorry, I want to service you, but I'm still learning. I can only do what I know」
 
 #「気にするな。それはこれから覚えていけばいいさ」
+#SCRIPT ORIGINAL 「気にするな。それはこれから覚えていけばいいさ」
 ＠Itsuki
 「Don't worry, I'll help you learn it from here on out」
 
 #「え……？」
+#SCRIPT ORIGINAL 「え……？」
 ＠Suika,R00041
 「Eh...?」
 
 #「……え？　あっ、いや」
+#SCRIPT ORIGINAL 「……え？　あっ、いや」
 ＠Itsuki
 「...Huh? Ah, never mind」
 
 #早くも状況に飲まれ始めてるのかオレは……
 #まるで自分が世話してやるみたいなことが自然に口を付いて慌てた。
+#SCRIPT ORIGINAL 早くも状況に飲まれ始めてるのかオレは……
+#SCRIPT ORIGINAL まるで自分が世話してやるみたいなことが自然に口を付いて慌てた。
 　I'm getting absorbed into this so quickly... I got confused and acted as if I were looking after her without thinking.
 
 #しかしすいかは少しキョトンとした後、僅かに頬を緩めて行為を続けていく。
+#SCRIPT ORIGINAL しかしすいかは少しキョトンとした後、僅かに頬を緩めて行為を続けていく。
 　But Suika, after having a little stage fright at first, her expression relaxed somewhat and she keeps at it more calmly.
 
 #（う……やっぱり上手いな……）
+#SCRIPT ORIGINAL （う……やっぱり上手いな……）
 ＠Itsuki
 (Uuh... She's good actually...)
 
 #緩急つけて動く手から、肉棒の内側に的確な刺激が連続される。
+#SCRIPT ORIGINAL 緩急つけて動く手から、肉棒の内側に的確な刺激が連続される。
 　Her hand picked up the pace and stimulates my cock repeatedly and accurately.
 
 #ざくろの時と同様、オレの抑制の効かないところで、肉棒は躊躇いなく勃起させられていた。
+#SCRIPT ORIGINAL ざくろの時と同様、オレの抑制の効かないところで、肉棒は躊躇いなく勃起させられていた。
 　Like with Zakuro, she hits the irresistible places, and my cock gets erect with little effort.
 
 #「……こんなに、大きくなるんですね。院長先生の」
+#SCRIPT ORIGINAL 「……こんなに、大きくなるんですね。院長先生の」
 ＠Suika,R00042
 「Inchou-sensei's... it gets to be this big」
 
 #「特別オレがってわけじゃないけど、これはこういうもんだ。気持ちよければ大きくなる」
+#SCRIPT ORIGINAL 「特別オレがってわけじゃないけど、これはこういうもんだ。気持ちよければ大きくなる」
 ＠Itsuki
 「It's nothing special about me, this is what they're like. If it feels good, then it'll get big」
 
 #「よかった。もっと擦りますね」
+#SCRIPT ORIGINAL 「よかった。もっと擦りますね」
 ＠Suika,R00043
 「That's good. I'll rub it some more」
 
 #肥大化していく竿に視線を向けながら、その全体に指を這わせていくすいか。
+#SCRIPT ORIGINAL 肥大化していく竿に視線を向けながら、その全体に指を這わせていくすいか。
 　Suika aims her attention at the swelling shaft, and her fingers creep along its length.
 
 #ざくろほど突っ走る展開は無いものの、興奮をあおる動きはこの年の子のものではない。
+#SCRIPT ORIGINAL ざくろほど突っ走る展開は無いものの、興奮をあおる動きはこの年の子のものではない。
 　It's not unfolding at Zakuro's breakneck pace, but her knowledge of how to stimulate me isn't something a child of her age would know.
 
 #「えっと、その……勃起、し終えたら言ってください。口でさせてもらいますから」
+#SCRIPT ORIGINAL 「えっと、その……勃起、し終えたら言ってください。口でさせてもらいますから」
 ＠Suika,R00044
 「Er, um... if you've finished getting e-erect, tell me. I'll use my mouth for you」
 
 #「あ、あぁ」
+#SCRIPT ORIGINAL 「あ、あぁ」
 ＠Itsuki
 「S-sure」
 
 #言葉を恥ずかしそうに紡ぐその口元に、オレは視線を寄せられた。
+#SCRIPT ORIGINAL 言葉を恥ずかしそうに紡ぐその口元に、オレは視線を寄せられた。
 　My gaze drifts to her mouth which stumbled over those embarrassed words.
 
 #「ん……ふぅ」
+#SCRIPT ORIGINAL 「ん……ふぅ」
 ＠Suika,R00045
 「Nh... fuh」
 
 #起立する男性器を見た恥ずかしさで、口唇から乱れるすいかの吐息。
+#SCRIPT ORIGINAL 起立する男性器を見た恥ずかしさで、口唇から乱れるすいかの吐息。
 　Suika's breath escaping her lips is rough with embarrassment from seeing an erect penis.
 
 #生々しく肉棒にかかる吐息に、抑えるべき情欲は倒錯的に膨れ上がる。
+#SCRIPT ORIGINAL 生々しく肉棒にかかる吐息に、抑えるべき情欲は倒錯的に膨れ上がる。
 　With her hot breath on my dick, I can't curb my lust and it takes over my senses.
 
 #「すいか、もう勃起は終わってるから。頼めるか」
+#SCRIPT ORIGINAL 「すいか、もう勃起は終わってるから。頼めるか」
 ＠Itsuki
 「Suika, it's fully erect. Can you do it for me?」
 
 #「……はい。それじゃ、口で。失礼します」
+#SCRIPT ORIGINAL 「……はい。それじゃ、口で。失礼します」
 ＠Suika,R00046
 「...Yeah. I'll go with my mouth. Excuse me」
 
 #オレが求めているのを知ると恥ずかしそうにしながら、そっと口を寄せてきた。
+#SCRIPT ORIGINAL オレが求めているのを知ると恥ずかしそうにしながら、そっと口を寄せてきた。
 　Looking embarrassed at my request, she brings her mouth closer.
 
 #■（フェラ開始）
@@ -1528,479 +1865,612 @@ event		"event\EV_SUI_010-02.png"
 voice_bg	"R90001"
 
 #「ん、ちゅる……ちゅ、くちゅむ……ぴちゅぅ」
+#SCRIPT ORIGINAL 「ん、ちゅる……ちゅ、くちゅむ……ぴちゅぅ」
 ＠Suika,R00047
 「Nh, shlick... suck, slurp... shlup」
 
 #「れる、ちゅぅく……ぴちゅ、ん、ちゅるっ、れちゅる……」
+#SCRIPT ORIGINAL 「れる、ちゅぅく……ぴちゅ、ん、ちゅるっ、れちゅる……」
 ＠Suika,R00048
 「lick, slurp... shlip, nh, shlup, shlurp...」
 
 #しっかりと唾液で湿らされた舌先を躍らせ、すいかが肉竿を亀頭まで舐め上げる。
+#SCRIPT ORIGINAL しっかりと唾液で湿らされた舌先を躍らせ、すいかが肉竿を亀頭まで舐め上げる。
 　Suika's tongue well moistened with saliva swims about, licking up the shaft all the way up to the head.
 
 #くすぐったさが先立った後、すぐにゾクリと心地よさが走った。
+#SCRIPT ORIGINAL くすぐったさが先立った後、すぐにゾクリと心地よさが走った。
 　After the initial ticklishness passed, a throbbing pleasure runs through it.
 
 #「んぅく、ちゅく……ちゅっ、れるん、ぴちゅぅ……ちゅぴ、んっ、ちゅちゅ」
+#SCRIPT ORIGINAL 「んぅく、ちゅく……ちゅっ、れるん、ぴちゅぅ……ちゅぴ、んっ、ちゅちゅ」
 ＠Suika,R00049
 「mgh, shlick... suck, lick, shlip... shlip, nh, shlrp」
 
 #裏の筋を中心に往復を繰り返し、細かな動きを連続させる。
+#SCRIPT ORIGINAL 裏の筋を中心に往復を繰り返し、細かな動きを連続させる。
 　She goes back and forth hitting the sinew on the back, repeating the small movement again and again.
 
 event	"event\EV_SUI_010-03.png"
 
 #下からはさっきまで竿を擦っていた手が、ふぐりと竿の付け根を揉むように刺激していた。
+#SCRIPT ORIGINAL 下からはさっきまで竿を擦っていた手が、ふぐりと竿の付け根を揉むように刺激していた。
 　Her hand working the shaft earlier, switched to feeling up my testicles and base of my cock.
 
 #「ちゅ、ちゅむぅ……ん、どうでしょうか……ちゅるる、れる、何か、希望があれば……」
+#SCRIPT ORIGINAL 「ちゅ、ちゅむぅ……ん、どうでしょうか……ちゅるる、れる、何か、希望があれば……」
 ＠Suika,R00050
 「suck, shlrm... nh, how is it... shlrrp, lick, if there's something you'd like...」
 
 #「いや……大丈夫だ、このまま続けてくれて」
+#SCRIPT ORIGINAL 「いや……大丈夫だ、このまま続けてくれて」
 ＠Itsuki
 「No... it's fine, just keep going as is」
 
 #控えめだが与えてくる刺激に不適なものは無い。
 #『経験』ではなく『知識』を思わせてくるすいかの奉仕。
+#SCRIPT ORIGINAL 控えめだが与えてくる刺激に不適なものは無い。
+#SCRIPT ORIGINAL 『経験』ではなく『知識』を思わせてくるすいかの奉仕。
 　She's low-key but her service is spot-on. It feels more like Suika is knowledgeable than experienced.
 
 #それは、まるで焦らされているような感覚をこちらに与えてくる。
+#SCRIPT ORIGINAL それは、まるで焦らされているような感覚をこちらに与えてくる。
 　It could almost be taken as if she were keeping me in suspense, teasing me.
 
 #「にちゅ、んっ、ちゅるる……もっと、濡らしますね」
+#SCRIPT ORIGINAL 「にちゅ、んっ、ちゅるる……もっと、濡らしますね」
 ＠Suika,R00051
 「shlip, nh, suckk... I'll make it wetter」
 
 event	"event\EV_SUI_010-04.png"
 
 #滴りそうなほど唾液を乗せた舌が、怒張をぬるぬるに仕立てていった。
+#SCRIPT ORIGINAL 滴りそうなほど唾液を乗せた舌が、怒張をぬるぬるに仕立てていった。
 　Suika's tongue dripping with moisture, makes my dick all slimy.
 
 #舐められる感触がさらに熱くなり、こちらの感度を昂ぶらせていく。
+#SCRIPT ORIGINAL 舐められる感触がさらに熱くなり、こちらの感度を昂ぶらせていく。
 　The feel of her licking gets more pronounced, and I get more sensitive.
 
 #「けど、やっぱり慣れてはないんだな」
+#SCRIPT ORIGINAL 「けど、やっぱり慣れてはないんだな」
 ＠Itsuki
 「But, I guess in the end you're not very used to it, are you?」
 
 #「ちゅく、ん………え？」
+#SCRIPT ORIGINAL 「ちゅく、ん………え？」
 ＠Suika,R00052
 「shlick, nh... huh?」
 
 #後一歩、気持ち的な踏み込みが足りていない感じがした。
+#SCRIPT ORIGINAL 後一歩、気持ち的な踏み込みが足りていない感じがした。
 　I get the sense like her feel for this isn't quite there yet.
 
 #「あふ……すみません……ほとんどが、知識と練習だけなので」
+#SCRIPT ORIGINAL 「あふ……すみません……ほとんどが、知識と練習だけなので」
 ＠Suika,R00053
 「Afuh... sorry... It's all just what I've been taught and practice」
 
 #「あ、悪い意味で言ったんじゃない、気持ちいいぞ、ちゃんと」
+#SCRIPT ORIGINAL 「あ、悪い意味で言ったんじゃない、気持ちいいぞ、ちゃんと」
 ＠Itsuki
 「Ah, I didn't mean it in a bad way, it feels just fine」
 
 #「ただ、やっぱり『調教』によるものだって再確認したかな」
+#SCRIPT ORIGINAL 「ただ、やっぱり『調教』によるものだって再確認したかな」
 ＠Itsuki
 「I think I just confirmed again this is coming from your training」
 
 #「……調教に男の人はいませんから。やっぱり美雨さんもやり方の教授になりますし」
+#SCRIPT ORIGINAL 「……調教に男の人はいませんから。やっぱり美雨さんもやり方の教授になりますし」
 ＠Suika,R00054
 「...I don't train with men after all. Miu-san is the one that instructs me how to do it」
 
 #それもそうだ。
 #まさか適当な男性を拾ってきて試すとか、そんなことまでやってるとは思いたくない。
+#SCRIPT ORIGINAL それもそうだ。
+#SCRIPT ORIGINAL まさか適当な男性を拾ってきて試すとか、そんなことまでやってるとは思いたくない。
 　Indeed. I'd hope they weren't doing things like picking out suitable men to try them out.
 
 #もしかして今夜のこれも、そういう意味ですいかをよこしたんじゃないだろうか。
+#SCRIPT ORIGINAL もしかして今夜のこれも、そういう意味ですいかをよこしたんじゃないだろうか。
 　She probably sent Suika here tonight for that same reason as well.
 
 #「それじゃせっかくの機会なんだから、遠慮せずに経験を吸収していかないとな」
+#SCRIPT ORIGINAL 「それじゃせっかくの機会なんだから、遠慮せずに経験を吸収していかないとな」
 ＠Itsuki
 「Well this is a golden opportunity, so you have to take it all in without holding back」
 
 #「え……でも、院長先生のためにやってるのに、私が勝手にしたら……」
+#SCRIPT ORIGINAL 「え……でも、院長先生のためにやってるのに、私が勝手にしたら……」
 ＠Suika,R00055
 「Eh... But I'm doing this for you Inchou-sensei, if I just go as I like I might...」
 
 #「ま、何か間違いがあれば指摘してやるから。そう難しく考えずにやってみな」
+#SCRIPT ORIGINAL 「ま、何か間違いがあれば指摘してやるから。そう難しく考えずにやってみな」
 ＠Itsuki
 「Well, if you make a mistake I'll point it out for you. Don't worry about it and just go for it」
 
 #……何というか、オレには学習能力がないのかもしれない。
+#SCRIPT ORIGINAL ……何というか、オレには学習能力がないのかもしれない。
 　...I don't how much she'll be able to learn from me, though.
 
 #ざくろに対して８０％と軽く妥協し、そして思いっきりイかされたことを、この時のオレは完全に失念していた。
+#SCRIPT ORIGINAL ざくろに対して８０％と軽く妥協し、そして思いっきりイかされたことを、この時のオレは完全に失念していた。
 　It completely slipped my mind just now, how I gave in with Zakuro's 80% and came easily.
 
 #「あ、ありがとうございます……それじゃ、その、いつもの調教のつもりでやらせてもらいますね」
+#SCRIPT ORIGINAL 「あ、ありがとうございます……それじゃ、その、いつもの調教のつもりでやらせてもらいますね」
 ＠Suika,R00056
 「T-thank you... then, um, you'll let me train like usual」
 
 #「あぁ、さっきも言ったように遠慮なくこい」
+#SCRIPT ORIGINAL 「あぁ、さっきも言ったように遠慮なくこい」
 ＠Itsuki
 「Yeah, go for it without holding back like I said」
 
 event	"event\EV_SUI_020-00.png"
 
 #舐めるだけだった肉棒の先をすいかが口に含み、余裕のオレの笑みは、あっさりと引きつることになる。
+#SCRIPT ORIGINAL 舐めるだけだった肉棒の先をすいかが口に含み、余裕のオレの笑みは、あっさりと引きつることになる。
 　She takes the tip of my penis which she'd only licked so far into her mouth, and I quickly lose my composed smile.
 
 #「ぷぢゅぅッ、くぢゅぢゅ……ちゅぶっ、ぢゅ、にぢゅるっ……れりゅぅっ、くちゅぅぶッ」
+#SCRIPT ORIGINAL 「ぷぢゅぅッ、くぢゅぢゅ……ちゅぶっ、ぢゅ、にぢゅるっ……れりゅぅっ、くちゅぅぶッ」
 ＠Suika,R00057
 「jlurp, jlrckk... shlrb, suck, shlurck... lick, shlrrb!」
 
 #「え………グッ！？」
+#SCRIPT ORIGINAL 「え………グッ！？」
 ＠Itsuki
 「Eh...guh!?」
 
 #「んふぅ、ぢゅぶぶっ……にぢゅッ、ぢゅッ、りゅぶぅちゅっ……くちぅぅッ、あふぅ」
+#SCRIPT ORIGINAL 「んふぅ、ぢゅぶぶっ……にぢゅッ、ぢゅッ、りゅぶぅちゅっ……くちぅぅッ、あふぅ」
 ＠Suika,R00058
 「Mfh, jlrrbb... jlip, shluck, shlrrble... suckk, afh」
 
 #いつの間に溜めたのか、すいかの口内にはたっぷりの熱い唾液。
+#SCRIPT ORIGINAL いつの間に溜めたのか、すいかの口内にはたっぷりの熱い唾液。
 　There's so much hot saliva in Suika's mouth, I'm not sure when she had time to save it up.
 
 #その粘質な海の中に放り込まれた亀頭は、主である舌肉に擦られながらしゃぶりつかれていく。
+#SCRIPT ORIGINAL その粘質な海の中に放り込まれた亀頭は、主である舌肉に擦られながらしゃぶりつかれていく。
 　In that sticky sea which my glans was tossed into, she sucks it and her god-like tongue rubs it.
 
 #急に襲い掛かった性感でいきなりイキそうになり、オレは潰れた声を零しながら咄嗟に放射感を抑制した。
+#SCRIPT ORIGINAL 急に襲い掛かった性感でいきなりイキそうになり、オレは潰れた声を零しながら咄嗟に放射感を抑制した。
 　I suddenly feel like coming from the sexual arousal swooping down on me, and I strain my voice trying to hold it back.
 
 #「……んぐ？　あ、もひかして、何かまふかったですか……？」
+#SCRIPT ORIGINAL 「……んぐ？　あ、もひかして、何かまふかったですか……？」
 ＠Suika,R00059
 「...nguh? Ah, did I 'o 'omething wrong?」
 
 #「な、何でもない。ちょっと油断してただけだから、全然大丈夫だ……」
+#SCRIPT ORIGINAL 「な、何でもない。ちょっと油断してただけだから、全然大丈夫だ……」
 ＠Itsuki
 「I-it's nothing. I was just a little unprepared, it's no problem...」
 
 #「……？　ん、ふぁい……ちゅぢゅぢゅっ、にちゅ、れりゅぅっ……ちゅくっ、ぢゅッ、んぶぅッ」
+#SCRIPT ORIGINAL 「……？　ん、ふぁい……ちゅぢゅぢゅっ、にちゅ、れりゅぅっ……ちゅくっ、ぢゅッ、んぶぅッ」
 ＠Suika,R00060
 「...? Nh, sure... jlurp, suck, lick... shlick, suck, mbh」
 
 #そんなオレの様子に首を傾げながらも、すいかは持てる知識を試すように口淫へと戻る。
+#SCRIPT ORIGINAL そんなオレの様子に首を傾げながらも、すいかは持てる知識を試すように口淫へと戻る。
 　Suika looks puzzled at me, but continues her blowjob trying out what she's learned.
 
 #この子もざくろと同じ、外見に騙されてはいけなかった。
 #今度はオレも相応の気持ちでそれを迎え受ける………のだが、
+#SCRIPT ORIGINAL この子もざくろと同じ、外見に騙されてはいけなかった。
+#SCRIPT ORIGINAL 今度はオレも相応の気持ちでそれを迎え受ける………のだが、
 　Like with Zakuro, I shouldn't have been fooled by her appearance. I've been treating her as if I'm more experienced, but...
 
 #「んぅ、ねぢゅぅっ、ちゅぅぶ……ちゅじゅッ、んぐ、にちゅるぅッ！」
+#SCRIPT ORIGINAL 「んぅ、ねぢゅぅっ、ちゅぅぶ……ちゅじゅッ、んぐ、にちゅるぅッ！」
 ＠Suika,R00061
 「Nnh, shluck, shlub... suck, ngh, shlrrck!」
 
 #「くにちゅ、じゅぷぅッ……んぐ、にゅぶぶッ、ちゅりゅぅッ！　ちゅぶッ、りゅりゅちゅッ」
+#SCRIPT ORIGINAL 「くにちゅ、じゅぷぅッ……んぐ、にゅぶぶッ、ちゅりゅぅッ！　ちゅぶッ、りゅりゅちゅッ」
 ＠Suika,R00062
 「shlurp, shlup... ngh, shlrbb, shlurck! squip, shluck」
 
 #すでに手で勃起させられた肉棒は、亀頭への刺激を敏感に付け根まで走らせてきた。
+#SCRIPT ORIGINAL すでに手で勃起させられた肉棒は、亀頭への刺激を敏感に付け根まで走らせてきた。
 　She stimulates my penis already erect from her hand service at the head, and the feeling runs down sensuously to the base.
 
 #滴るほどに溢れさせる唾液と舌の動きは、ざくろと同等の官能を間断なく送り続けてくる。
+#SCRIPT ORIGINAL 滴るほどに溢れさせる唾液と舌の動きは、ざくろと同等の官能を間断なく送り続けてくる。
 　Her dripping saliva and movement of her tongue send incessant pleasure just like Zakuro.
 
 #「さ、さすがだな……ざくろでも驚いたけど、すいかも唾液の粘りとか舌の動きがかなり上手いし」
+#SCRIPT ORIGINAL 「さ、さすがだな……ざくろでも驚いたけど、すいかも唾液の粘りとか舌の動きがかなり上手いし」
 ＠Itsuki
 「Y-you're good at this... Zakuro took me by surprise, but your spit's so sticky and you use your tongue so well too」
 
 #「んぢゅむッ、ぢゅぐぅ、んぅぶ……ありはほうごはいまふ……ちゅれろ、んじゅッ、もっと頑張りまふね」
+#SCRIPT ORIGINAL 「んぢゅむッ、ぢゅぐぅ、んぅぶ……ありはほうごはいまふ……ちゅれろ、んじゅッ、もっと頑張りまふね」
 ＠Suika,R00063
 「shlrm, jlrrgh, mbh... Fank 'hoo... lap lap, suck, I'll keep 'oing my bes'」
 
 #「んぅ……ちゅぷぶっ、くちゅるぅッ！　んふぅむ……ぢゅぢゅっ、くぶぅ、ぢゅくぶッ！　りゅちゅぅッ」
+#SCRIPT ORIGINAL 「んぅ……ちゅぷぶっ、くちゅるぅッ！　んふぅむ……ぢゅぢゅっ、くぶぅ、ぢゅくぶッ！　りゅちゅぅッ」
 ＠Suika,R00064
 「Nnh... shlrrble, shlick! nfhhm... jlurp, shlrb, suck! shlick!」
 
 #シーツまでねっとりと流れていく唾液をすすりながら、脈打つ怒張への口淫を続けていくすいか。
+#SCRIPT ORIGINAL シーツまでねっとりと流れていく唾液をすすりながら、脈打つ怒張への口淫を続けていくすいか。
 　Suika slurps it with saliva that's running all the way down to the sheets, while sucking my pulsing cock.
 
 #早すぎる射精も情けないので、オレとしてはあまり張り切られても困るのだが、
+#SCRIPT ORIGINAL 早すぎる射精も情けないので、オレとしてはあまり張り切られても困るのだが、
 　Another quick shot would be unfortunate, so I can't relax even when she's pushing me to the limit, but...
 
 #「ちゅちゅるッ、ぢゅぶ、んんふッ……こっちの方も、んぅ」
+#SCRIPT ORIGINAL 「ちゅちゅるッ、ぢゅぶ、んんふッ……こっちの方も、んぅ」
 ＠Suika,R00065
 「shlurckk, jlrb, mmfh... this one too, nhh」
 
 #おざなりになっていた手の動きも再開され、いよいよ本格的にフェラチオの濃度が上がっていく。
+#SCRIPT ORIGINAL おざなりになっていた手の動きも再開され、いよいよ本格的にフェラチオの濃度が上がっていく。
 　She resumes her hand service that had slowed down, and the fellatio gets even more intense.
 
 #「うぅ、ちょ、すいか……」
+#SCRIPT ORIGINAL 「うぅ、ちょ、すいか……」
 ＠Itsuki
 「Uuh, Suika, hold on a...」
 
 #「くぢゅぢゅッ！　れりゅぅッ、にぢゅむ……手の動ひも、合わへた方がいいえふよね……くぷぅぢゅッ、りゅりゅッ！」
+#SCRIPT ORIGINAL 「くぢゅぢゅッ！　れりゅぅッ、にぢゅむ……手の動ひも、合わへた方がいいえふよね……くぷぅぢゅッ、りゅりゅッ！」
 ＠Suika,R00066
 「shlrrgh! lick, suck... it's ni'e if I mo'e my hand in rhy'hm, isn' it... shluck, slurp!」
 
 #与えられる刺激に思わず情けない声を上げるオレに、すいかは持てる知識を存分に施してきた。
+#SCRIPT ORIGINAL 与えられる刺激に思わず情けない声を上げるオレに、すいかは持てる知識を存分に施してきた。
 　Suika puts everything she knows into it, as I moan helplessly at the stimulation I'm receiving.
 
 #「んッ……く！」
+#SCRIPT ORIGINAL 「んッ……く！」
 ＠Itsuki
 「Ngh... urgh!」
 
 #それは実際の経験不足も補い、否応無くこちらは射精感が近づけられる。
+#SCRIPT ORIGINAL それは実際の経験不足も補い、否応無くこちらは射精感が近づけられる。
 　With this, supplementing her real world experience as well, I approach coming whether I like it or not.
 
 #「じゅぶぅッ、ねぢゅッ！　ぐぶぶッ、んぅふ……んぐぢゅっ、ちゅぢゅッ、くぷぶッ！　じゅぶちゅッ」
+#SCRIPT ORIGINAL 「じゅぶぅッ、ねぢゅッ！　ぐぶぶッ、んぅふ……んぐぢゅっ、ちゅぢゅッ、くぷぶッ！　じゅぶちゅッ」
 ＠Suika,R00067
 「shlrrb, jlip! glrbbh, mfh... nh, suck, jlrrp, shlurb! kershlip!」
 
 #「きゅぶぅッ、くちゅじゅッ！　んぐぶッ、ぢゅ、ぴちゅぅッ……ちゅぶッ、ぢゅぢゅぅッ！」
+#SCRIPT ORIGINAL 「きゅぶぅッ、くちゅじゅッ！　んぐぶッ、ぢゅ、ぴちゅぅッ……ちゅぶッ、ぢゅぢゅぅッ！」
 ＠Suika,R00068
 「shlurrgh, shlip! nh, glub, suck, jlurp... shluck, squip!」
 
 #すでにヌルヌルになったすいかの手は、口で限界に近い肉棒を付け根からシゴき上げていた。
+#SCRIPT ORIGINAL すでにヌルヌルになったすいかの手は、口で限界に近い肉棒を付け根からシゴき上げていた。
 　Suika's hand, now totally wet, works my cock that's buried in her mouth.
 
 #先端から溢れる先走りが唾液に混ざり、より粘質な音と感触が昇り詰めていく。
+#SCRIPT ORIGINAL 先端から溢れる先走りが唾液に混ざり、より粘質な音と感触が昇り詰めていく。
 　Precum and spit mix together, it gets stickier and the sounds keep getting louder.
 
 #「にぢゅるッ、ぐぶぅ、ちゅじゅじゅッ！　へんへいのからも、もっと濡れてきへまふよ」
+#SCRIPT ORIGINAL 「にぢゅるッ、ぐぶぅ、ちゅじゅじゅッ！　へんへいのからも、もっと濡れてきへまふよ」
 ＠Suika,R00069
 「shlrgh, glub, jlick! There's more wet stuff 'oming out from 'en'ei's thing too...」
 
 #手の刺激が加わったことで快感も増大。間違いなく近づいてくる抑制の限界。
+#SCRIPT ORIGINAL 手の刺激が加わったことで快感も増大。間違いなく近づいてくる抑制の限界。
 　The pleasure increases with her hand stimulating it too. The limit of my restraint approaches unmistakeably.
 
 #完全に受け入れることも拒否することも出来ないまま、またオレはざくろの時のように場に流されていく。
+#SCRIPT ORIGINAL 完全に受け入れることも拒否することも出来ないまま、またオレはざくろの時のように場に流されていく。
 　Without being able to truly accept it or refuse, I'm swept away in the moment like last time.
 
 #「んぅッ、くぷぅちゅ！　ぢゅぢゅぶッ、んぐふ……ずじゅっ、りゅりゅぶ、ちゅくぅッ！」
+#SCRIPT ORIGINAL 「んぅッ、くぷぅちゅ！　ぢゅぢゅぶッ、んぐふ……ずじゅっ、りゅりゅぶ、ちゅくぅッ！」
 ＠Suika,R00070
 「Nhh, shlup! jlrrble, nghfh... jlurck, squerp, suck!」
 
 #すいかは口内でしゃぶっていた亀頭を、今度は口を前後させてピストンまで施した。
+#SCRIPT ORIGINAL すいかは口内でしゃぶっていた亀頭を、今度は口を前後させてピストンまで施した。
 　Suika moves her mouth back and forth on the glans, sucking it like a piston.
 
 #「……っ、すいか、そこまでしなくていい、苦しいだろ」
+#SCRIPT ORIGINAL 「……っ、すいか、そこまでしなくていい、苦しいだろ」
 ＠Itsuki
 「...Ah, Suika, you don't have to go that far, it's hard for you, isn't it...」
 
 #「ひぅえ、大丈夫えふ……ん、ちゅぐッ、続けさへてくだはい……」
+#SCRIPT ORIGINAL 「ひぅえ、大丈夫えふ……ん、ちゅぐッ、続けさへてくだはい……」
 ＠Suika,R00071
 「No, i's fine... mh, squip, 'et me keep 'oing」
 
 #「ちゅぶむッ、ぐぶぶ……ちゅぐッ、れりゅちゅ、ぢゅぢゅぅッ！　ぢゅぐんッ、りゅぶ、ちゅきゅぅッ」
+#SCRIPT ORIGINAL 「ちゅぶむッ、ぐぶぶ……ちゅぐッ、れりゅちゅ、ぢゅぢゅぅッ！　ぢゅぐんッ、りゅぶ、ちゅきゅぅッ」
 ＠Suika,R00072
 「shlrrb, squip... suck, rnmmh, jlrrp! glurp, shlrrb, suck!」
 
 #咥えたまま首を振ると、すいかはさらに深く肉棒を頬張って動いていく。
+#SCRIPT ORIGINAL 咥えたまま首を振ると、すいかはさらに深く肉棒を頬張って動いていく。
 　Suika shakes her head no with it in her mouth, and keeps moving and stuffing it deeper inside.
 
 #小さい口腔内を膨らんだ怒張が満たしては擦れ、亀頭が先走りを滲ませながら喉の奥まで犯していく。
+#SCRIPT ORIGINAL 小さい口腔内を膨らんだ怒張が満たしては擦れ、亀頭が先走りを滲ませながら喉の奥まで犯していく。
 　My swollen cock fills up and rubs her small oral space, and while leaking precum my glans violates her throat.
 
 #「んぐぅッ、ずぢゅぢゅッ！　れぢゅんッ……すごい、院長へんへいの、口の中にいっはい……ぢゅんぅッ」
+#SCRIPT ORIGINAL 「んぐぅッ、ずぢゅぢゅッ！　れぢゅんッ……すごい、院長へんへいの、口の中にいっはい……ぢゅんぅッ」
 ＠Suika,R00073
 「Ngh, jlrrgh! shlick... amazing, Inchou-'en'ei's thing is filling up m' mouth... shlup, mh」
 
 #唾液に濡れたすいかの口唇が、脈浮かせた怒張の表面を何度も前後に擦りあげた。
+#SCRIPT ORIGINAL 唾液に濡れたすいかの口唇が、脈浮かせた怒張の表面を何度も前後に擦りあげた。
 　Suika's lips, wet with spit, rub back and forth along the veiny surface of my cock over and over again.
 
 #その度に口内で舌が蠢き舐めながら、新たな唾液が怒張に塗りつけられる。
+#SCRIPT ORIGINAL その度に口内で舌が蠢き舐めながら、新たな唾液が怒張に塗りつけられる。
 　On each stroke her wriggling tongue licks it, and fresh spit coats my cock.
 
 #これを、この控えめなすいかがやっているのか。
+#SCRIPT ORIGINAL これを、この控えめなすいかがやっているのか。
 　How can mild-mannered Suika be doing this?
 
 #「すごいところなんだな、ここは……すいかみたいな子が、こんなやり方まで」
+#SCRIPT ORIGINAL 「すごいところなんだな、ここは……すいかみたいな子が、こんなやり方まで」
 ＠Itsuki
 「This place is unbelievable... a child like you, Suika, going so far as to do it like this」
 
 #「ぢゅるちゅッ、ちゅぐぅッ……んふ、私みたいな子らからえふよ、へんへい」
+#SCRIPT ORIGINAL 「ぢゅるちゅッ、ちゅぐぅッ……んふ、私みたいな子らからえふよ、へんへい」
 ＠Suika,R00074
 「shlick, slrgh...mfh, ih's because all the kids here are 'ike me, 'en'ei」
 
 #「こうやっへ生活を送るのが……ぢゅちゅ、ちゅきゅぅッ、いまほ私の全へなんえふ……ねくりゅッ、ぢゅぶぅッ！」
+#SCRIPT ORIGINAL 「こうやっへ生活を送るのが……ぢゅちゅ、ちゅきゅぅッ、いまほ私の全へなんえふ……ねくりゅッ、ぢゅぶぅッ！」
 ＠Suika,R00075
 「'eading a life like this... suck, shluck, is every'ing to me right now... mh, shlip!」
 
 #すいかの手がふぐりを揉みながら、怒張の付け根を圧迫するように刺激した。
+#SCRIPT ORIGINAL すいかの手がふぐりを揉みながら、怒張の付け根を圧迫するように刺激した。
 　Suika's hand stimulates my crotch area applying pressure, as she feels up my testicles.
 
 #「っく、そこは……」
+#SCRIPT ORIGINAL 「っく、そこは……」
 ＠Itsuki
 「Ugh, that spot...」
 
 #「出ひてくだはい、へんへい……私も役に立へるって、知りたいんえふ……」
+#SCRIPT ORIGINAL 「出ひてくだはい、へんへい……私も役に立へるって、知りたいんえふ……」
 ＠Suika,R00076
 「'ease come, 'en'ei... I want to fee' what ih's like bein' useful to you」
 
 #際どい刺激で呻くオレを一瞥し、しかしすいかの指はさらに下へと降りていく。
+#SCRIPT ORIGINAL 際どい刺激で呻くオレを一瞥し、しかしすいかの指はさらに下へと降りていく。
 　Suika glances at me moaning at the risque stimulation, but her fingers keep descending.
 
 #「う……すいか、そこは。さすがに冗談だろう？」
+#SCRIPT ORIGINAL 「う……すいか、そこは。さすがに冗談だろう？」
 ＠Itsuki
 「Uuh... Suika, you're joking, right? You're not going there」
 
 #「んちゅっ、ちゅくむ……気持ひいいって教わりまひたから、大丈夫えふ」
+#SCRIPT ORIGINAL 「んちゅっ、ちゅくむ……気持ひいいって教わりまひたから、大丈夫えふ」
 ＠Suika,R00077
 「suck, shlip, nh... I've been 'aught 'hat it feels good, ih'll be fine」
 
 #自ら進んでそれをやる意味を持つすいかは、どこか小悪魔的な笑みで微笑んだ。
+#SCRIPT ORIGINAL 自ら進んでそれをやる意味を持つすいかは、どこか小悪魔的な笑みで微笑んだ。
 　Suika, initiating this by her own will, smiles a bit of a devilish grin.
 
 event	"event\EV_SUI_020-01.png"
 
 #そして閉じられた肛門に………ヌルッと唾液に濡れた中指の先が入ってくる。
+#SCRIPT ORIGINAL そして閉じられた肛門に………ヌルッと唾液に濡れた中指の先が入ってくる。
 　And Suika's middle finger soaked with spit... enters my anus that was shut.
 
 #「いひますね……んぢゅぶッ！　ずぢゅッ、ぢゅ、ちゅぐぅむッ！　じゅにるッ、ねちゅるぅッ！」
+#SCRIPT ORIGINAL 「いひますね……んぢゅぶッ！　ずぢゅッ、ぢゅ、ちゅぐぅむッ！　じゅにるッ、ねちゅるぅッ！」
 ＠Suika,R00078
 「I'll 'eep going... suck! suck, shlip, kershlick! shlup, squip!」
 
 #「ぃ……んぐ！？」
+#SCRIPT ORIGINAL 「ぃ……んぐ！？」
 ＠Itsuki
 「ihh... ngh!?」
 
 #フェラチオも同時に再開しながら、後ろの孔へ入れた指を動かし出すすいか。
+#SCRIPT ORIGINAL フェラチオも同時に再開しながら、後ろの孔へ入れた指を動かし出すすいか。
 　Suika resumes her blowjob, as she starts moving her finger in my butt.
 
 #今まで感じたことのない抽挿感が、ダイレクトに神経へ響いてくる……！
+#SCRIPT ORIGINAL 今まで感じたことのない抽挿感が、ダイレクトに神経へ響いてくる……！
 　The in-and-out motion that I'd never felt before resonates right at my nerve...!
 
 #「にぢゅッ、ぢゅぢゅりゅッ！　ちゅりゅむッ、りゅぶ、くぶぅぅッ！　ちゅぐりゅッ！」
+#SCRIPT ORIGINAL 「にぢゅッ、ぢゅぢゅりゅッ！　ちゅりゅむッ、りゅぶ、くぶぅぅッ！　ちゅぐりゅッ！」
 ＠Suika,R00079
 「nh, shluck, jlrrp! shlrm, nh, squip! kershluck!」
 
 #未知の刺激を受けて鋭敏になる肉棒に、激しいフェラチオは遠慮なく繰り返された。
+#SCRIPT ORIGINAL 未知の刺激を受けて鋭敏になる肉棒に、激しいフェラチオは遠慮なく繰り返された。
 　She goes after my dick, sensitive from the unknown stimulation, with her intense fellatio.
 
 #官能が股間への血流を滾らせ、限界と思っていた怒張がさらに硬度を持って、すいかの口内へ反り返っていく。
+#SCRIPT ORIGINAL 官能が股間への血流を滾らせ、限界と思っていた怒張がさらに硬度を持って、すいかの口内へ反り返っていく。
 　Blood rushes in with the pleasure, and my erection that I thought was at its limit gets even harder, bending back inside Suika's mouth.
 
 #「ぢゅぐッ！　ぶぐぅッ……へんへいのが、んぶぅん！　ぢゅぶむッ、まだ硬くなっへまふぅ……ぢゅぐぶッ、んんぅ！」
+#SCRIPT ORIGINAL 「ぢゅぐッ！　ぶぐぅッ……へんへいのが、んぶぅん！　ぢゅぶむッ、まだ硬くなっへまふぅ……ぢゅぐぶッ、んんぅ！」
 ＠Suika,R00080
 「suck! glup, fugh...'en'ei's thing, mbhn! squip, it's ge'ing even har'er...... shlrb, nnhh!」
 
 #「っく、ん、すいか……やっぱりそっちは……」
+#SCRIPT ORIGINAL 「っく、ん、すいか……やっぱりそっちは……」
 ＠Itsuki
 「Urgh, nh, Suika... doing it there is kind of...」
 
 #「ぢゅぼぶッ、ねぢゅぅッ……嫌、えふか……？」
+#SCRIPT ORIGINAL 「ぢゅぼぶッ、ねぢゅぅッ……嫌、えふか……？」
 ＠Suika,R00081
 「shlrrble, jlick... you 'on't like it...?」
 
 #「……嫌というか、ぅ、やっぱり違和感が。普通は男が触られる場所じゃないし……」
+#SCRIPT ORIGINAL 「……嫌というか、ぅ、やっぱり違和感が。普通は男が触られる場所じゃないし……」
 ＠Itsuki
 「...It's kind of uncomfortable. It's not a place you'd normally touch a man...」
 
 #「りゅぶ、ぢゅちゅぅぶッ！　でひたら大丈夫、ふぐ慣れまふよ……じゅぶぶッ、くぶりゅぅッ！」
+#SCRIPT ORIGINAL 「りゅぶ、ぢゅちゅぅぶッ！　でひたら大丈夫、ふぐ慣れまふよ……じゅぶぶッ、くぶりゅぅッ！」
 ＠Suika,R00082
 「gulch, jlrrb! If you can hol' on a little it'll be o'ay, you'll get use' to it soon... jlub, jlurck!」
 
 #無慈悲なのか無邪気なのか微妙なことを言い放ち、腸内の中指は根元までズブズブと深められていく。
+#SCRIPT ORIGINAL 無慈悲なのか無邪気なのか微妙なことを言い放ち、腸内の中指は根元までズブズブと深められていく。
 　Whether out of mercilessness or innocence, she makes that provocative remark, and her middle finger plunges into my anal passage to the base.
 
 event	"event\EV_SUI_020-02.png"
 
 #そこからピストンが始まり、怒張の裏側から溜まった精液をかき回された。
+#SCRIPT ORIGINAL そこからピストンが始まり、怒張の裏側から溜まった精液をかき回された。
 　She starts pistoning, and my accumulated semen is churned up from the back-side of my dick.
 
 #「ねぢゅぢゅッ！　ちゅぶぅッ、ぢゅりゅッ、ぐぢゅちゅッ！　先ばひり、濃くなっへきへまふ……」
+#SCRIPT ORIGINAL 「ねぢゅぢゅッ！　ちゅぶぅッ、ぢゅりゅッ、ぐぢゅちゅッ！　先ばひり、濃くなっへきへまふ……」
 ＠Suika,R00083
 「shlurp! shlip, shlurp, jlurckkk! The 'aste of the stuff coming ou' of your dick got stronger...」
 
 #「うっ、うぅ……微妙すぎる……こんなことで感じたら、別の趣味の人間みたいだ……んくッ」
+#SCRIPT ORIGINAL 「うっ、うぅ……微妙すぎる……こんなことで感じたら、別の趣味の人間みたいだ……んくッ」
 ＠Itsuki
 「Uh, uuh... this is way too sketchy... if I get aroused with this, it's like I get off to weird things... ngh!」
 
 #「んぢゅぅッ！　ちゅぼッ、ここが気持ちひいのは、みんなそうえふよ……ぢゅッ、ちゅぶりゅぅッ！」
+#SCRIPT ORIGINAL 「んぢゅぅッ！　ちゅぼッ、ここが気持ちひいのは、みんなそうえふよ……ぢゅッ、ちゅぶりゅぅッ！」
 ＠Suika,R00084
 「nh, squip! shlurp, it feels goo' for everyone from here... suck, squerpp, mh!」
 
 #「んぅ、ちゅぐぅッ！　ちゅぢゅるっ……にりゅっ、じゅちゅぅッ！　ちゅくぶっ、んむぅ、ぇふちゅッ！」
+#SCRIPT ORIGINAL 「んぅ、ちゅぐぅッ！　ちゅぢゅるっ……にりゅっ、じゅちゅぅッ！　ちゅくぶっ、んむぅ、ぇふちゅッ！」
 ＠Suika,R00085
 「nhh, mh, shlrgh! suck... nh, slurp! shlip, nmuh, efh, auhh, shlrrp!」
 
 #無邪気な知識ですいかが陥落へと誘惑し、手と口による猛攻を増していく。
+#SCRIPT ORIGINAL 無邪気な知識ですいかが陥落へと誘惑し、手と口による猛攻を増していく。
 　Suika's simple answer tempts me to stop resisting, as her assault with her hand and mouth increases.
 
 #膨れ上がった肉棒を咥えた口が激しく前後に動きながら、淫らな水音をよりいっそう大きく響かせた。
+#SCRIPT ORIGINAL 膨れ上がった肉棒を咥えた口が激しく前後に動きながら、淫らな水音をよりいっそう大きく響かせた。
 　Her mouth holding my swollen cock goes back and forth intensely, and the lewd wet noises resound even louder.
 
 #「ぢゅぶぅッ、ずぢゅぢゅッ！　こんあに硬くなっへる……んんぢゅッ！　ちゅぶりゅぅッ、遠慮ひなひで、出ひてください」
+#SCRIPT ORIGINAL 「ぢゅぶぅッ、ずぢゅぢゅッ！　こんあに硬くなっへる……んんぢゅッ！　ちゅぶりゅぅッ、遠慮ひなひで、出ひてください」
 ＠Suika,R00086
 「jlrrb, jlurckk! You're ge'ing so hard... mmh, suck! nh, shlrck, don' hol' back, please come」
 
 #「ぢゅぢゅぢゅッ、ちゅぐぅッ！　くちゅぷッ、ねりゅッ……んぅく、ぷぐぅっ、ぢゅぢゅッ！」
+#SCRIPT ORIGINAL 「ぢゅぢゅぢゅッ、ちゅぐぅッ！　くちゅぷッ、ねりゅッ……んぅく、ぷぐぅっ、ぢゅぢゅッ！」
 ＠Suika,R00087
 「jlrrrrrp, suck! shlurp, shlick...  glup, shlurp, shlick, mgh!」
 
 #反対の手は肉棒を支えながら、竿の部分を口に合わせて上下にシゴく。まさに怒張全体が蹂躙されていった。
+#SCRIPT ORIGINAL 反対の手は肉棒を支えながら、竿の部分を口に合わせて上下にシゴく。まさに怒張全体が蹂躙されていった。
 　She props up my penis with her other hand, and strokes the shaft in rhythm with her mouth. She's pretty much taken over my entire cock.
 
 #ざくろの淫戯に引けは取らず、とっくに限界を振り切っているオレの我慢は強制的に弛緩される。
+#SCRIPT ORIGINAL ざくろの淫戯に引けは取らず、とっくに限界を振り切っているオレの我慢は強制的に弛緩される。
 　Not to be outdone by Zakuro's play, I'm forced to relax my restraint that's been holding off climaxing for some time.
 
 #「んはぶッ、れりゅりゅ……ぢゅちゅぅッ！　んじゅむッ、んんぅ！　出ほぉ、でふか……？」
+#SCRIPT ORIGINAL 「んはぶッ、れりゅりゅ……ぢゅちゅぅッ！　んじゅむッ、んんぅ！　出ほぉ、でふか……？」
 ＠Suika,R00088
 「mhabh, shlip, shlick... shlrrppp! nh, squip, rmmhauh! Are you abou' to come...?」
 
 #「……ぅ、心情は複雑だけど、そろそろ出そうだ……口を離すんだ、すいか」
+#SCRIPT ORIGINAL 「……ぅ、心情は複雑だけど、そろそろ出そうだ……口を離すんだ、すいか」
 ＠Itsuki
 「...Uh, I have mixed feelings, but I'll come pretty soon... you should take it out of your mouth, Suika」
 
 #「ふぅ、ぢゅぢゅッ！　くぶぅ……いいんえふ、このまま中に……にぢゅっ、ぢゅッ！　ねりゅぢゅぅッ！」
+#SCRIPT ORIGINAL 「ふぅ、ぢゅぢゅッ！　くぶぅ……いいんえふ、このまま中に……にぢゅっ、ぢゅッ！　ねりゅぢゅぅッ！」
 ＠Suika,R00089
 「Fuhh, jlurp! shlub... it's o'ay, just 'eave it insi'e... suck, suck! shlrrgh!」
 
 #怒張を深く咥えたまま、変わらずたっぷりの唾液で快美感を与えてくるすいか。
+#SCRIPT ORIGINAL 怒張を深く咥えたまま、変わらずたっぷりの唾液で快美感を与えてくるすいか。
 　It feels wonderful as Suika holds my cock deeply in her mouth with her endless reserves of saliva.
 
 #せめて外に出してやろうという気遣いもあっさりと却下され、最後の瞬間まですいかの口内で蹂躙を受け続けていく。
+#SCRIPT ORIGINAL せめて外に出してやろうという気遣いもあっさりと却下され、最後の瞬間まですいかの口内で蹂躙を受け続けていく。
 　She quickly dismissed my concern to at least come outside, so I'll take her assault inside her mouth to the very end.
 
 #「ねぢゅりゅぅッ、ちゅぢゅぢゅッ！　くぶッ、んんふッ……しゅぶぅっ、りゅぢゅッ、んにぢゅぅッ！」
+#SCRIPT ORIGINAL 「ねぢゅりゅぅッ、ちゅぢゅぢゅッ！　くぶッ、んんふッ……しゅぶぅっ、りゅぢゅッ、んにぢゅぅッ！」
 ＠Suika,R00090
 「shlurck, jlrck, shlip! shlub... suck, nh, shlick, shlerck, mgh!」
 
 #「ふぅぶ……ん、ぢゅりゅるぅッ！　くちゅぶッ、ねぢゅぅ……ちぢゅッ、ぐぶりゅッ！　んくぅふ！」
+#SCRIPT ORIGINAL 「ふぅぶ……ん、ぢゅりゅるぅッ！　くちゅぶッ、ねぢゅぅ……ちぢゅッ、ぐぶりゅッ！　んくぅふ！」
 ＠Suika,R00091
 「urfbh... mh, shlrpp! suck, shlip... suckk, kershlurckk! mngfh!」
 
 #そのすいかの表情も、行為と共に少しずつ息苦しそうになっていった。
+#SCRIPT ORIGINAL そのすいかの表情も、行為と共に少しずつ息苦しそうになっていった。
 　Suika's expression is also starting to look a bit like she's finding it difficult to breathe from her activity.
 
 #唾液や先走りと共に喉を犯す淫大な亀頭は、激しい動きを見せるすいかの呼吸を断続的に遮っていくのだ。
+#SCRIPT ORIGINAL 唾液や先走りと共に喉を犯す淫大な亀頭は、激しい動きを見せるすいかの呼吸を断続的に遮っていくのだ。
 　The fat glans, along with the spit and precum, violates her throat, and with her intense movements Suika's breathing is obstructed intermittently.
 
 #「んく、もう出そうだから……苦しかったら、無理せずに吐き出すんだぞ……っ」
+#SCRIPT ORIGINAL 「んく、もう出そうだから……苦しかったら、無理せずに吐き出すんだぞ……っ」
 ＠Itsuki
 「Ngh! I'll come soon, so... if it's tough on you, you should spit it out and not force yourself...」
 
 #止めろと言っても止めないだろう、すいか。
 #我慢せずに射精してやる方が、早く彼女を開放してやれるはずだ。
+#SCRIPT ORIGINAL 止めろと言っても止めないだろう、すいか。
+#SCRIPT ORIGINAL 我慢せずに射精してやる方が、早く彼女を開放してやれるはずだ。
 　Even if I told her to stop I doubt she would. If I come without holding back like she wants, I'll be able let her go quickly.
 
 #「ふぢゅむッ、ふぁい……ちゅぐぅッ！　くぢゅぢゅッ、しゅぢゅぅッ！　れるぶッ、にぢゅりゅぅッ！　ぢゅぐぶ！」
+#SCRIPT ORIGINAL 「ふぢゅむッ、ふぁい……ちゅぐぅッ！　くぢゅぢゅッ、しゅぢゅぅッ！　れるぶッ、にぢゅりゅぅッ！　ぢゅぐぶ！」
 ＠Suika,R00092
 「shlurfhm, o'ay... shlurck! shlup, squerp! shlick, nh, shlurch! mh, shulck!」
 
 #頷くすいかがスパートをかけるように口内の抽挿を早め、直腸を大きくこね回した。
+#SCRIPT ORIGINAL 頷くすいかがスパートをかけるように口内の抽挿を早め、直腸を大きくこね回した。
 　Suika nods and quickens the pace of her mouth on a spurt of speed, while churning up my ass.
 
 #唾液とカウパーによる泡立ちが、口と手による肉棒とお尻の内側で熱を上げていく！
+#SCRIPT ORIGINAL 唾液とカウパーによる泡立ちが、口と手による肉棒とお尻の内側で熱を上げていく！
 　With foaming spit and precum her hands and mouth work up my cock and butthole!
 
 #「れぢゅるッ、くびゅるぅッ！　んぁふッ……ぢゅぶぶッ、にぢゅ、ぢゅちゅちゅッ、ねちゅぐッ！」
+#SCRIPT ORIGINAL 「れぢゅるッ、くびゅるぅッ！　んぁふッ……ぢゅぶぶッ、にぢゅ、ぢゅちゅちゅッ、ねちゅぐッ！」
 ＠Suika,R00093
 「shlrrgh, shlarbb! glub... jlubbh, nh, jlick, jlrrghble, nnh!」
 
 event	"event\EV_SUI_020-01.png"
 
 #「出ひてください、へんへい……りゅりゅぢゅッ！　くぶちゅぅ！　口の中に、いっはいぃ……ッ」
+#SCRIPT ORIGINAL 「出ひてください、へんへい……りゅりゅぢゅッ！　くぶちゅぅ！　口の中に、いっはいぃ……ッ」
 ＠Suika,R00094
 「'ease come, 'en'ei... suck, suck! shluck!　Fill up my mouth...!」
 
 event	"event\EV_SUI_020-02.png"
 
 #「……ッ、く、分かった、出すぞすいか……ッ」
+#SCRIPT ORIGINAL 「……ッ、く、分かった、出すぞすいか……ッ」
 ＠Itsuki
 「...! urgh, alright. Suika, I'm coming...!」
 
 #すいかの動きと共に犯す官能と犯される官能の前後の刺激が昂ぶり、射精感が一気に尿道を競りあがった！
+#SCRIPT ORIGINAL すいかの動きと共に犯す官能と犯される官能の前後の刺激が昂ぶり、射精感が一気に尿道を競りあがった！
 　The excitement of violating and being violated with Suika's motion wells up, and suddenly I feel the semen running up my urethra!
 
 #//フラッシュ
@@ -2009,85 +2479,105 @@ event	"event\EV_SUI_020-03.png"
 voice_bg_stop
 
 #ジュビュゥッ！　ドビュルッ、ビュグゥッ！　ドクッ、ドクドクッ！　ドクンッ！
+#SCRIPT ORIGINAL ジュビュゥッ！　ドビュルッ、ビュグゥッ！　ドクッ、ドクドクッ！　ドクンッ！
 　splurch! blurgh, splurt! gush, gush gush! gush!
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 
 #「んんふぁぁああッッ！！　はぁふぅ……んっ、んんくぅ……！」
+#SCRIPT ORIGINAL 「んんふぁぁああッッ！！　はぁふぅ……んっ、んんくぅ……！」
 ＠Suika,R00095
 「Mnnfaahhhhh!! Haafuh... nh, nngh...!」
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash	500
 
 #吐き出された大量の白濁が小さな口内を熱く埋め尽くす。
+#SCRIPT ORIGINAL 吐き出された大量の白濁が小さな口内を熱く埋め尽くす。
 　Lots of hot semen spurted out and fills up her small mouth completely.
 
 #官能の大きさに比例した粘りつくような濃さの迸りに、すいかは息苦しそうに眉をたわめて手を離した。
+#SCRIPT ORIGINAL 官能の大きさに比例した粘りつくような濃さの迸りに、すいかは息苦しそうに眉をたわめて手を離した。
 　Suika releases her hand and her eyebrows bend suffocatingly at the spray, thick and clingy from how aroused I was.
 
 event	"event\EV_SUI_020-04.png"
 
 #「あぁふっ、んちゅぐ……くぶぅッ！　いっぱい、出てきてる……」
+#SCRIPT ORIGINAL 「あぁふっ、んちゅぐ……くぶぅッ！　いっぱい、出てきてる……」
 ＠Suika,R00096
 「Aafh, glorp... mngbh!　So much is coming out...」
 
 #「だから言っただろ……大丈夫かすいか……」
+#SCRIPT ORIGINAL 「だから言っただろ……大丈夫かすいか……」
 ＠Itsuki
 「I told you, didn't I...? are you OK Suika?」
 
 event	"event\EV_SUI_020-05.png"
 
 #「んっ、はい……ふぐむ……んく、こくんっ……こくくっ」
+#SCRIPT ORIGINAL 「んっ、はい……ふぐむ……んく、こくんっ……こくくっ」
 ＠Suika,R00097
 「Nh, yeah... mgh... gulp, gulp... gulpp」
 
 #口から溢れた白濁を拭いながら、中に残っている分を飲み下していく。
+#SCRIPT ORIGINAL 口から溢れた白濁を拭いながら、中に残っている分を飲み下していく。
 　She wipes the semen overflowing from her mouth, while swallowing what was left inside.
 
 #それでも散々の唾液と共に、大半がねっとりと糸を引きながらシーツへと零れていった。
+#SCRIPT ORIGINAL それでも散々の唾液と共に、大半がねっとりと糸を引きながらシーツへと零れていった。
 　Despite that, most of it together with the scattered spit makes sticky threads and falls to the sheets.
 
 event	"event\EV_SUI_010-06.png"
 
 #「はふぅっ……くんっ、ケホッ、コフンッ……すいません、飲むようにって教えられてたんですけど……」
+#SCRIPT ORIGINAL 「はふぅっ……くんっ、ケホッ、コフンッ……すいません、飲むようにって教えられてたんですけど……」
 ＠Suika,R00098
 「Hafh... ngh, cough cough... sorry, I was told I should try to swallow it...」
 
 #「はぁ、謝るな……よく頑張ったよすいかは。ほら、無理するな」
+#SCRIPT ORIGINAL 「はぁ、謝るな……よく頑張ったよすいかは。ほら、無理するな」
 ＠Itsuki
 「Sigh, don't apologize... you did really well, you don't have to force yourself」
 
 #滴る精液をすくい取ろうとしている彼女の手を押さえ、生真面目な姿勢に嘆息する。
+#SCRIPT ORIGINAL 滴る精液をすくい取ろうとしている彼女の手を押さえ、生真面目な姿勢に嘆息する。
 　I stop her hand as she tries to salvage the trickling semen, and sigh at her overzealous behaviour.
 
 #視覚的に分かるくらいドロドロの迸りを吐いた肉茎を、まだすいかは手にしたままだった。
+#SCRIPT ORIGINAL 視覚的に分かるくらいドロドロの迸りを吐いた肉茎を、まだすいかは手にしたままだった。
 　She still held my cock in her hand that had evidently already shot out the sticky spray.
 
 event	"event\EV_SUI_010-07.png"
 
 #「でも、よかった……院長先生、ちゃんと気持ちよくなってくれて」
+#SCRIPT ORIGINAL 「でも、よかった……院長先生、ちゃんと気持ちよくなってくれて」
 ＠Suika,R00099
 「But, I'm glad... Inchou-sensei, you felt good just like I wanted」
 
 #「……まだ、もしかして足りなかったりしますか？」
+#SCRIPT ORIGINAL 「……まだ、もしかして足りなかったりしますか？」
 ＠Suika,R00100
 「...Could it be, that you're still not satisfied?」
 
 #射精の余韻で硬さを残したままの肉棒を弄るすいかが、ホッとした笑みでゆっくりと弄ってくる。
+#SCRIPT ORIGINAL 射精の余韻で硬さを残したままの肉棒を弄るすいかが、ホッとした笑みでゆっくりと弄ってくる。
 　Suika showing a relieved smile, slowly plays with my penis that's still a little hard after ejaculating.
 
 #気持ちいいことは何度でも味わいたいのが普通だが、
+#SCRIPT ORIGINAL 気持ちいいことは何度でも味わいたいのが普通だが、
 　Of course I'd like to enjoy it a little more, but...
 
 #「干からびさせる気か」
+#SCRIPT ORIGINAL 「干からびさせる気か」
 ＠Itsuki
 「Do you want to make me dry up like a prune?」
 
 #「あはは、冗談です。さすがに、ちょっと私も疲れましたし
+#SCRIPT ORIGINAL 「あはは、冗談です。さすがに、ちょっと私も疲れましたし
 ＠Suika,R00101
 「Ahaha, I'm just joking. I'm a little tired too」
 
 #疲労の色を浮かべながら、すいかは亀頭に残った精液を拭い取るのだった。
+#SCRIPT ORIGINAL 疲労の色を浮かべながら、すいかは亀頭に残った精液を拭い取るのだった。
 　Looking a little fatigued, Suika wipes off the semen remaining on the glans.
 
 @bg_black
@@ -2103,60 +2593,74 @@ date_open
 @suika
 
 #「それでは、夜遅くにすみませんでした」
+#SCRIPT ORIGINAL 「それでは、夜遅くにすみませんでした」
 ＠Suika,R00102
 「Well then, sorry for keeping you so late」
 
 #汚れの掃除と着替えを終えると、もう時間もかなり遅くなっていた。
+#SCRIPT ORIGINAL 汚れの掃除と着替えを終えると、もう時間もかなり遅くなっていた。
 　It got quite late by the time we finished cleaning up and changing.
 
 #「送ろうか？」
+#SCRIPT ORIGINAL 「送ろうか？」
 ＠Itsuki
 「Shall I see you off to your room?」
 
 @suika_warai
 #「いえ、大丈夫です。この施設は、もう住み慣れた家ですから」
+#SCRIPT ORIGINAL 「いえ、大丈夫です。この施設は、もう住み慣れた家ですから」
 ＠Suika,R00103
 「No, it's fine. This place is like home to me... I know my way around」
 
 @suika_kanashimi
 #「それより私の虐待のこと………。あれはもう、今の生活では過去の出来事です」
+#SCRIPT ORIGINAL 「それより私の虐待のこと………。あれはもう、今の生活では過去の出来事です」
 ＠Suika,R00104
 「And also... with my lifestyle here, I don't have to worry about that abuse anymore」
 
 @suika_warai
 #「こうして先にお話しましたが、これからも今までどおり同情や遠慮なく接してくれると嬉しいです」
+#SCRIPT ORIGINAL 「こうして先にお話しましたが、これからも今までどおり同情や遠慮なく接してくれると嬉しいです」
 ＠Suika,R00105
 「We've been talking like this already, but I'd be happy if you're uncompromising to me like you've been up until now」
 
 #「今までどおりで遠慮なくとか言われると、まるでオレが無神経みたいだ」
+#SCRIPT ORIGINAL 「今までどおりで遠慮なくとか言われると、まるでオレが無神経みたいだ」
 ＠Itsuki
 「Now you're just making it seem like I'm rude all the time」
 
 @suika_komariwarai
 #「え、あ……えと、そういう意味ではなくて」
+#SCRIPT ORIGINAL 「え、あ……えと、そういう意味ではなくて」
 ＠Suika,R00106
 「Eh, ah... um, that's not what I meant」
 
 #「ははっ、分かってる。任せろ、他の子と分け隔てなくするさ」
+#SCRIPT ORIGINAL 「ははっ、分かってる。任せろ、他の子と分け隔てなくするさ」
 ＠Itsuki
 「Haha, I know. No problem, I won't treat you any differently from the other kids」
 
 #「だからもう部屋で休め。明日は学校だろう？」
+#SCRIPT ORIGINAL 「だからもう部屋で休め。明日は学校だろう？」
 ＠Itsuki
 「So get to bed already. You have school tomorrow, don't you?」
 
 #ポンと頭に手を乗せて緩く促してやる。
+#SCRIPT ORIGINAL ポンと頭に手を乗せて緩く促してやる。
 　I put my hand on her head and gently press her onward.
 
 #このままだといつまでもここに居そうだ。
+#SCRIPT ORIGINAL このままだといつまでもここに居そうだ。
 　It seems like she wouldn't budge otherwise.
 
 @suika_warai
 #「院長先生、ありがとうございます。それじゃ、おやすみなさい」
+#SCRIPT ORIGINAL 「院長先生、ありがとうございます。それじゃ、おやすみなさい」
 ＠Suika,R00107
 「Inchou-sensei, thanks. Then, good night」
 
 #「おやすみ」
+#SCRIPT ORIGINAL 「おやすみ」
 ＠Itsuki
 「'night」
 
@@ -2165,16 +2669,20 @@ date_open
 @se07
 
 #騒がしい一日が終わりと思ったのが数十分前。
+#SCRIPT ORIGINAL 騒がしい一日が終わりと思ったのが数十分前。
 　It was a while ago when I thought this bothersome day had finished.
 
 #あにはからんや、こんなことが最後に待っていたとは。
+#SCRIPT ORIGINAL あにはからんや、こんなことが最後に待っていたとは。
 　But actually, this had been saved for the end.
 
 #「さて、オレも寝るか」
+#SCRIPT ORIGINAL 「さて、オレも寝るか」
 ＠Itsuki
 「I should go to bed too」
 
 #心地よい疲労感が溜まり、ぐっすりと眠れそうだ。
+#SCRIPT ORIGINAL 心地よい疲労感が溜まり、ぐっすりと眠れそうだ。
 　I'd gotten pleasantly tired, and fall asleep soundly.
 
 #■BG（ブラックアウト）

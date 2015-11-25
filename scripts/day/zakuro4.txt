@@ -12,25 +12,30 @@ label	zakuro_04
 @bgm12			#BGM 12 : メインテーマ
 
 #空いた時間を利用して、また図書室へやってきた。
+#SCRIPT ORIGINAL 空いた時間を利用して、また図書室へやってきた。
 　Putting my free time to good use, I went to the library room again.
 
 #Using the free time, I go to the library again.
 
 #（『Zakuroだらけ』が気になる.........半分、中毒だな......）
+#SCRIPT ORIGINAL （『ざくろだらけ』が気になる………半分、中毒だな……）
 ＠Itsuki
 （I want to look up some more “Riddled with Zakuro”... it’s like an addiction...） 
 
 #dont know bout the last, maybe it says half of it is addicting. 
 
 #堂々と本棚に並べてあることもあって、徐々に罪悪感も薄れてきている。
+#SCRIPT ORIGINAL 堂々と本棚に並べてあることもあって、徐々に罪悪感も薄れてきている。
 　Seeing it lined up impressively on the booksehlf, my guilt slowly fades away.
 
 #Seeing the magnificent line up of bookshelf, My sense of guilt slowly fading.
 
 #っていうか、見ても良いもの扱いにしか思えない。
+#SCRIPT ORIGINAL っていうか、見ても良いもの扱いにしか思えない。
 　Actually, I simply can’t imagine not taking a look.
 
 #「どこまで読んだっけ......『vol.4』の......」
+#SCRIPT ORIGINAL 「どこまで読んだっけ……『vol.4』の……」
 ＠Itsuki
 「Where did I leave off again...? Somewhere in 'vol.4'...」
 
@@ -38,10 +43,12 @@ label	zakuro_04
 @SE06			#部屋のドア開く音（ガチャ）
 
 #「ん......?」
+#SCRIPT ORIGINAL 「ん……？」
 ＠Itsuki
 「Hm...?」
 
 #誰か入ってきたドアの方へ視線を向ける。
+#SCRIPT ORIGINAL 誰か入ってきたドアの方へ視線を向ける。
 　I take a look to see who entered the room.
 
 @zakuro_small
@@ -49,6 +56,7 @@ label	zakuro_04
 @zakuro			#普
 
 #「............」
+#SCRIPT ORIGINAL 「…………」
 ＠Zakuro,Q00546
 「......」
 
@@ -57,10 +65,12 @@ label	zakuro_04
 screen_vibration	500,16,16,16
 
 #「うぉあッ! Zakuroッ!?」
+#SCRIPT ORIGINAL 「うぉあッ！　ざくろッ！？」
 ＠Itsuki
 「Whoa! Zakuro!?」
 
 #「......つっちー?」
+#SCRIPT ORIGINAL 「……つっちー？」
 ＠Zakuro,Q00547
 「...Tsu-chi?」
 
@@ -69,6 +79,7 @@ window_close
 @SE17			#SE17　廊下を歩いてくる音　※徐々に大きく
 
 #慌てて棚に伸ばした手を引っ込める。
+#SCRIPT ORIGINAL 慌てて棚に伸ばした手を引っ込める。
 　I hurriedly withdraw my hand from the shelf.
 
 se_stop		0
@@ -77,47 +88,56 @@ se_stop		0
 @zakuro_akire		#呆
 
 #「何してるの?」
+#SCRIPT ORIGINAL 「何してるの？」
 ＠Zakuro,Q00548
 「What are you doing?」
 
 #「な、何って.........えっと」
+#SCRIPT ORIGINAL 「な、何って………えっと」
 ＠Itsuki
 「W-what am I doing... uhh...」
 
 #さすがに本人の前で、「日記読みに来た」とは言えない......
+#SCRIPT ORIGINAL さすがに本人の前で、「日記読みに来た」とは言えない……
 　Of course I can’t tell her “I came to read your diary”...
 
 #As expected I can't say in front of the real person [I come to read your diary]......
 
 #「Zakuroは......?」
+#SCRIPT ORIGINAL 「ざくろは……？」
 ＠Itsuki
 「What about you...?」
 
 @zakuro_metoji		#閉
 
 #「私は、雫に呼ばれて調教の時間だから」
+#SCRIPT ORIGINAL 「私は、雫に呼ばれて調教の時間だから」
 ＠Zakuro,Q00549
 「Shizuku called me, it’s time for training」
 
 #「I was called by Shizuku because it's training time.」
 
 #「......今から、ここで?」
+#SCRIPT ORIGINAL 「……今から、ここで？」
 ＠Itsuki
 「...Right now, here?」
 
 @zakuro			#普
 
 #「うん。今日は趣向を変えるから、ここに来るようにって」
+#SCRIPT ORIGINAL 「うん。今日は趣向を変えるから、ここに来るようにって」
 ＠Zakuro,Q00550
 「Yeah. She said to come here, since there’s a change of plan for today」
 
 @zakuro_akire		#呆
 
 #「つっちーが今日の相手なの?」
+#SCRIPT ORIGINAL 「つっちーが今日の相手なの？」
 ＠Zakuro,Q00551
 「Are you my partner today, Tsu-chi?」
 
 #ブンブンと慌てて首を振る。
+#SCRIPT ORIGINAL ブンブンと慌てて首を振る。
 　Flustered, I shake my head side to side.
 
 # Err dunno what bun2 means, it's translated as swish --'
@@ -125,38 +145,45 @@ se_stop		0
 @zakuro_metoji		#閉
 
 #「なるほど。そういうシチュエーションのプレイなのね」
+#SCRIPT ORIGINAL 「なるほど。そういうシチュエーションのプレイなのね」
 ＠Zakuro,Q00552
 「I see. So it’ll be a bit of a situational fetish, huh」
 
 #「I see. This is that kind of another situation play, isn't it.」
 
 #「だから違うっつの」
+#SCRIPT ORIGINAL 「だから違うっつの」
 ＠Itsuki
 「No, that’s not it at all!」
 
 @zakuro_iya		#嫌
 
 #「......でも、挙動不審」
+#SCRIPT ORIGINAL 「……でも、挙動不審」
 ＠Zakuro,Q00553
 「...But you're acting weird」
 
 @zakuro			#普
 
 #「ここで何をしてたの?」
+#SCRIPT ORIGINAL 「ここで何をしてたの？」
 ＠Zakuro,Q00554
 「What were you doing here?」
 
 #「............いや、それはまぁ」
+#SCRIPT ORIGINAL 「…………いや、それはまぁ」
 ＠Itsuki
 「......Uh well, can’t say for sure」
 
 #「......とりあえず、雫さんもすぐ来ると思うし、オレももう行くから」
+#SCRIPT ORIGINAL 「……とりあえず、雫さんもすぐ来ると思うし、オレももう行くから」
 ＠Itsuki
 「...For now, I think Shizuku-san will come soon, so I’ll be going now」
 
 @zakuro_
 
 #Zakuroの横を過ぎ、図書室を後にしようとする。
+#SCRIPT ORIGINAL ざくろの横を過ぎ、図書室を後にしようとする。
 　I pass beside Zakuro, making to leave the library.
 
 #With her presence, let's return here later.
@@ -164,12 +191,14 @@ se_stop		0
 #dunno about yoko wo sugi.... i think i mean like this
 
 #「待って」
+#SCRIPT ORIGINAL 「待って」
 ＠Zakuro,Q00555
 「Wait」
 
 screen_vibration	500,16,16,16
 
 #腕を引き止められた。
+#SCRIPT ORIGINAL 腕を引き止められた。
 　She pulled me back by the arm.
 
 #She stopped me by pulling my arms.
@@ -179,18 +208,21 @@ screen_vibration	500,16,16,16
 #@zakuro_iya		#嫌
 
 #「このままエッチしないで終わったら、私もつっちーも後で怒られる」
+#SCRIPT ORIGINAL 「このままエッチしないで終わったら、私もつっちーも後で怒られる」
 ＠Zakuro,Q00556
 「If we we end it here without having sex, she’ll get angry at both of us」
 
 #「If this ended just like that without doing any sex, Both of us will get scolded.」 
 
 #「.........さては全然聞いてないな? 人の話」
+#SCRIPT ORIGINAL 「………さては全然聞いてないな？　人の話」
 ＠Itsuki
 「......You really don’t listen to anything I say, do you?」
 
 #my argument seems lame, dont know need rephrase maybe with something what i've said or sumthin
 
 #「オレは違うっての。たまたまここに来ただけだ」
+#SCRIPT ORIGINAL 「オレは違うっての。たまたまここに来ただけだ」
 ＠Itsuki
 「I told you, you’re wrong. I just come by here sometimes」
 
@@ -199,6 +231,7 @@ screen_vibration	500,16,16,16
 #@zakuro_
 
 #「..............」
+#SCRIPT ORIGINAL 「…………」
 ＠Zakuro,Q00557
 「......」
 
@@ -212,20 +245,24 @@ wait		2000
 se_stop		0
 
 #「え......」
+#SCRIPT ORIGINAL 「え……」
 ＠Itsuki
 「Eh...?」
 
 #いつの間にかZakuroが、オレの両手を後ろ手に縛っていた。
+#SCRIPT ORIGINAL いつの間にかざくろが、オレの両手を後ろ手に縛っていた。
 　Before I knew it, Zakuro tied both my hands behind my back.
 
 #Before awaring of it, Zakuro has tied my both hand to the back.
 #err dont know what the better english to the back
 
 #「......って、うそッ!?」
+#SCRIPT ORIGINAL 「……って、うそッ！？」
 ＠Itsuki
 「...Huh, no way!?」
 
 #慌てて解こうとするが、すでに荒縄で固結びにされてどうしようもない。
+#SCRIPT ORIGINAL 慌てて解こうとするが、すでに荒縄で固結びにされてどうしようもない。
 　Panicked I try and get free, but the rope’s in a knot so there’s nothing I could do.
 
 #To solve this in panic, It's already too late as the rope has tied strongly.
@@ -239,12 +276,14 @@ se_stop		0
 @zakuro			#普
 
 #「関節でも外さない限り、一人じゃ解けないわよ?」
+#SCRIPT ORIGINAL 「関節でも外さない限り、一人じゃ解けないわよ？」
 ＠Zakuro,Q00558
 「Short of dislocating your joints, you can’t get out by yourself」
 
 #「I've restricted your joint movement to the extreme, it can't be undo it by yourself you know.」 
 
 #「手早すぎるッ! って言うか、オレは無関係だって言うのに!」
+#SCRIPT ORIGINAL 「手早すぎるッ！　って言うか、オレは無関係だって言うのに！」
 ＠Itsuki
 「That was too quick! I mean, I’m not a part of this at all!」
 
@@ -253,12 +292,14 @@ se_stop		0
 @zakuro_metoji		#閉
 
 #「うん、分かってる」
+#SCRIPT ORIGINAL 「うん、分かってる」
 ＠Zakuro,Q00559
 「Yeah, I get it」
 
 @zakuro			#普
 
 #「今日は逆レイプを希望するお客のための練習ってことでしょ?」
+#SCRIPT ORIGINAL 「今日は逆レイプを希望するお客のための練習ってことでしょ？」
 ＠Zakuro,Q00560
 「You mean, today’s practice for customers who wish for reverse rape, right?」
 
@@ -267,12 +308,14 @@ se_stop		0
 screen_vibration	500,16,16,16
 
 #「分かってねぇ! っていうか、マジでオレは違うんだって! 縄を解け!」
+#SCRIPT ORIGINAL 「分かってねぇ！　っていうか、マジでオレは違うんだって！　縄を解け！」
 ＠Itsuki
 「You don't get it! I mean, seriously I said I’m not here for that! Untie this rope!」
 
 @zakuro_akire		#呆
 
 #「.............」
+#SCRIPT ORIGINAL 「…………」
 ＠Zakuro,Q00561
 「......」
 
@@ -283,15 +326,18 @@ wait		1000
 @SE09			#部屋のドアの鍵を掛ける音（カチャ）
 
 #無機質な音で、部屋の鍵が掛けられる。
+#SCRIPT ORIGINAL 無機質な音で、部屋の鍵が掛けられる。
 　With a cold click, the door is locked.
 
 #With a clack sound being heard, the room's door is locked.
 
 #「......ま、またカギ...」
+#SCRIPT ORIGINAL 「……ま、またカギ…」
 ＠Itsuki
 「...Y-you locked it again」
 
 #この瞬間、最初のフェラチオをされたデジャビュが脳内に走る。
+#SCRIPT ORIGINAL この瞬間、最初のフェラチオをされたデジャビュが脳内に走る。
 　Deja vu of the first blowjob flashes through my mind right now.
 
 #In instance, A dejavu about the first blow job flashes before me.
@@ -301,6 +347,7 @@ wait		1000
 @zakuro			#普
 
 #「間違いだとしても、何かエッチを済ませないと後には引けないの」
+#SCRIPT ORIGINAL 「間違いだとしても、何かエッチを済ませないと後には引けないの」
 ＠Zakuro,Q00562
 「I could be wrong, but I have to do something dirty fast or else」
 
@@ -308,16 +355,19 @@ wait		1000
 #Smack me if this killing the chara :P
 
 #「......え?」
+#SCRIPT ORIGINAL 「……え？」
 ＠Itsuki
 「...Huh?」
 
 #「......な、何で」
+#SCRIPT ORIGINAL 「……な、何で」
 ＠Itsuki
 「...W-why’s that?」
 
 @zakuro_metoji		#閉
 
 #「早く出かけないと、青ノリの特売が終わっちゃうから」
+#SCRIPT ORIGINAL 「早く出かけないと、青ノリの特売が終わっちゃうから」
 ＠Zakuro,Q00563
 「I have to go out before the special sale on Aonori’s over」
 
@@ -327,6 +377,7 @@ wait		1000
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 #「人の操を青ノリより軽く見るなよッ!」
+#SCRIPT ORIGINAL 「人の操を青ノリより軽く見るなよッ！」
 ＠Itsuki
 「Don’t belittle my chastity next to Aonori!」
 
@@ -335,6 +386,7 @@ wait		1000
 @zakuro_niko		#にこ
 
 #「ついでに、つっちーが最初よりどれくらい上達したのか見てみたい」
+#SCRIPT ORIGINAL 「ついでに、つっちーが最初よりどれくらい上達したのか見てみたい」
 ＠Zakuro,Q00564
 「While I’m at it, I want to see how much you improved since the first time」
 
@@ -349,6 +401,7 @@ scene_start	"ざくろの逆レイプ"
 #NOOOOOO THERE IS ERO SCENE IN DAY !!!!
 
 #「ちょッ!? うわッ、やめッ......こっちくんな!」
+#SCRIPT ORIGINAL 「ちょッ！？　うわッ、やめッ……こっちくんな！」
 ＠Itsuki
 「Ack!? Uwah, stop... don’t come any closer!」
 
@@ -356,11 +409,13 @@ scene_start	"ざくろの逆レイプ"
 @SE27			#SE27　倒れる音（ドサッ）
 
 #意外に強いタックルを受けて転ばされると、マウントポジションを取られる。
+#SCRIPT ORIGINAL 意外に強いタックルを受けて転ばされると、マウントポジションを取られる。
 　She takes up a mount on me, after I’m knocked down by a surprisingly strong tackle.
 
 #Unexpectedly I was knocked down by a strong tackle, and i ended up in mounted position / being mounted.
 
 #「全身縛られたくなかったら、大人しくしてて」
+#SCRIPT ORIGINAL 「全身縛られたくなかったら、大人しくしてて」
 ＠Zakuro,Q00565
 「If you don’t want your whole body tied up, stay still」
 
@@ -370,12 +425,14 @@ scene_start	"ざくろの逆レイプ"
 @SE01			#SE01　ズボンのベルトを外す（カチャカチャ）
 
 #「冗談だろッ!? こらッ、ズボンを脱がすなー!!」
+#SCRIPT ORIGINAL 「冗談だろッ！？　こらッ、ズボンを脱がすなー！！」
 ＠Itsuki
 「You’ve gotta be joking! Hey, don’t take my pants offー!!」
 
 #「You're joking right!? Hey, don't take off my trousers!!」
 
 #全く身に覚えのない展開で、Zakuroに犯される。
+#SCRIPT ORIGINAL 全く身に覚えのない展開で、ざくろに犯される。
 　In a completely unforeseen turn of events, I’m violated by Zakuro.
 
 #Without getting horny, Zakuro rape my body.
@@ -393,50 +450,61 @@ event		"event\EV_ZAK_060-00.png"
 #--------------------------------------------------
 
 #「ふふ、もう大きくなり始めてる。元気なおちんちん」
+#SCRIPT ORIGINAL 「ふふ、もう大きくなり始めてる。元気なおちんちん」
 ＠Zakuro,Q00566
 「Fufu, it’s starting to get big already. What a healthy cock」
 
 #取り出した肉茎に微笑すると、ドロワーズを降ろした腰をこちらに押し付けてくる。
+#SCRIPT ORIGINAL 取り出した肉茎に微笑すると、ドロワーズを降ろした腰をこちらに押し付けてくる。
 　She smiles at my cock that she pulled out, and presses up her midsection, with drawers lowered, against me.
 
 #She smiles as my cock came out, she lowers down her drawers and approach me.
 
 #「は、早まるなってッ......すぐ雫さんを呼んで、買い物にも行かせてやるから!」
+#SCRIPT ORIGINAL 「は、早まるなってッ……すぐ雫さんを呼んで、買い物にも行かせてやるから！」
 ＠Itsuki
 「H-hey, don't be rash... I'll call Shizuku right away, and I’ll let you go shopping!」
 
 #「つっちーもイヤじゃないんでしょ?」
+#SCRIPT ORIGINAL 「つっちーもイヤじゃないんでしょ？」
 ＠Zakuro,Q00567
 「Don’t tell me you don’t like this, Tsu-chi」
 
 #「口で言ってるだけで、抵抗が弱い」
+#SCRIPT ORIGINAL 「口で言ってるだけで、抵抗が弱い」
 ＠Zakuro,Q00568
 「I can tell by your tone, your resistance is weak」
 
 #「両手を縛られてるんだよッ! 乗っかられてたら、どうしようもないだろ」
+#SCRIPT ORIGINAL 「両手を縛られてるんだよッ！　乗っかられてたら、どうしようもないだろ」
 ＠Itsuki
 「My hands are tied up! I can’t do anything about you climbing on top of me, can I?」
 
 #「It's because you tied both of my hands! Being mounted/pinned, I can do anything you know.」
 
 #「別にいい。正直な感想は、ココの反応で見させてもらうから」
+#SCRIPT ORIGINAL 「別にいい。正直な感想は、ココの反応で見させてもらうから」
 ＠Zakuro,Q00569
 「Whatever you say. I’ll watch your reaction here to get to know your real feelings」
 
 #両手で肉茎を包み込むと、片方は竿を、もう片方は袋の方へ回され揉み始める。
+#SCRIPT ORIGINAL 両手で肉茎を包み込むと、片方は竿を、もう片方は袋の方へ回され揉み始める。
 　She wraps her hands around my cock: one for the shaft, and the other encircles and massages my balls.
 
 #「ふよふよしてて温かい。枕代わりにしたら気持ちいいかも」
+#SCRIPT ORIGINAL 「ふよふよしてて温かい。枕代わりにしたら気持ちいいかも」
 ＠Zakuro,Q00570
 「It's soft and warm. It might feel good if I used it as a pillow」
 
 #「......あ。でもすぐ硬くなっちゃうから無理ね」
+#SCRIPT ORIGINAL 「……あ。でもすぐ硬くなっちゃうから無理ね」
 ＠Zakuro,Q00571
 「...Ah. But it’ll get hard soon, so it wouldn’t do any good」
 
 #「...Ah. But it seems impossible to make this thing hard in instant.」
 
 #「なるかッ! とにかく一度手を離して、腰をのけるんだ」
+#SCRIPT ORIGINAL 「なるかッ！　とにかく一度手を離して、腰をのけるんだ」
 ＠Itsuki
 「As if it will! Anyway, let go a bit, and move your butt out of the way」
 
@@ -444,108 +512,128 @@ event		"event\EV_ZAK_060-00.png"
 #err need some stronger for the commanding
 
 #「無理。もう問答する時間も惜しいから」
+#SCRIPT ORIGINAL 「無理。もう問答する時間も惜しいから」
 ＠Zakuro,Q00572
 「Not happening. And I don’t have time to quibble with you」
 
 #「Impossible.  Ah I spent my precious time just by answering.」
 
 #「つっちーがイヤがっても、またあの早漏っぷりで強引に射精させるから平気よ」
+#SCRIPT ORIGINAL 「つっちーがイヤがっても、またあの早漏っぷりで強引に射精させるから平気よ」
 ＠Zakuro,Q00573
 「Even if you complain, Tsu-chi, I’m fine with forcibly making you come just like your last premature ejaculation」
 
 #「Even if Tsucchi refuses,  It's fine because I'll make end fast with that strong premature ejaculation, you know.」
 
 #自信たっぷりに宣言した直後、思わず情欲を促されそうな気持ちよさで、肉茎を攻め始めるZakuro。
+#SCRIPT ORIGINAL 自信たっぷりに宣言した直後、思わず情欲を促されそうな気持ちよさで、肉茎を攻め始めるざくろ。
 　Following that bold declaration, Zakuro begins attacking my cock, pleasuring it and threatening to draw out my lust.
 
 #After showing such confidence, instinctively she show her lust, she begins to attack my cock furiously.
 
 #「......ッ! な、ちょッ...Zakuroッ...」
+#SCRIPT ORIGINAL 「……ッ！　な、ちょッ…ざくろッ…」
 ＠Itsuki
 「...! Wha, ack...! Zakuro...!」
 
 #「まずは、おちんちんの勃起から」
+#SCRIPT ORIGINAL 「まずは、おちんちんの勃起から」
 ＠Zakuro,Q00574
 「Let's start with getting you hard first」
 
 #指先の一本一本にまで巧みな強弱がつき、男性器の感じるツボを断続的に刺激される。
+#SCRIPT ORIGINAL 指先の一本一本にまで巧みな強弱がつき、男性器の感じるツボを断続的に刺激される。
 　She expertly controls her strength down to the fingertips, as my cock’s sweet spots are stimulated off and on.
 
 #Using such good strenght control in her fingertip, she stimulate my penis erogenous zone intermittently.
 
 #同時にZakuroは当然のように、さらにこちらへ腰を突き出してきた。
+#SCRIPT ORIGINAL 同時にざくろは当然のように、さらにこちらへ腰を突き出してきた。
 　At the same time, as if it were natural, she stuck her butt out closer toward me.
 
 #At the same as if it is natural, she thrust her hips further. 
 
 #「つっちーも、攻めたかったら攻め返して構わないわよ?」
+#SCRIPT ORIGINAL 「つっちーも、攻めたかったら攻め返して構わないわよ？」
 ＠Zakuro,Q00575
 「Tsu-chi, I don’t mind if you want to service me back」
 
 #「And Tsucchi, If you want to attack, just attack, i dont mind you know.」
 
 #「単純に興奮したいっていう理由だけでも、好きなように吸い付いてくれて可」
+#SCRIPT ORIGINAL 「単純に興奮したいっていう理由だけでも、好きなように吸い付いてくれて可」
 ＠Zakuro,Q00576
 「It’s OK if you suck on it as much as you like, even if it’s just because you’re horny」
 
 #「Even though I told that I just want to arouse you, but you also can play along.」
 
 #「そ、そんな合意エッチみたいなことッ.........状況がおかしいだろ、状況がっ」
+#SCRIPT ORIGINAL 「そ、そんな合意エッチみたいなことッ………状況がおかしいだろ、状況がっ」
 ＠Itsuki
 「T-to do that sort of consensual sex... the situation isn’t quite right, is it!?」
 
 #「Th-, That sort of indecent agreement....... The situation is wierd you know, the situation.」
 
 #「......そう? 別に遠慮しないでいいのに」
+#SCRIPT ORIGINAL 「……そう？　別に遠慮しないでいいのに」
 ＠Zakuro,Q00577
 「...Think so? You don’t need to hold back, though」
 
 #すぐ眼前に見える、ショーツに包まれたZakuroの小ぶりなお尻と、なだらかな丸みを帯びた恥丘。
+#SCRIPT ORIGINAL すぐ眼前に見える、ショーツに包まれたざくろの小ぶりなお尻と、なだらかな丸みを帯びた恥丘。
 　Right before my eyes, was Zakuro’s panties covering her little butt, and the gentle curve of her mound.
 
 #For instance in front of my eyes, there's a shorts which wrap up Zakuro's small butt and her round mound pubis.
 #Err dunno about chikyuu thing
 
 #誘惑や色香とは遠い年齢相応の腰つきだが、調教で他の子を相手しているため、どうしても性的に意識してしまう。
+#SCRIPT ORIGINAL 誘惑や色香とは遠い年齢相応の腰つきだが、調教で他の子を相手しているため、どうしても性的に意識してしまう。
 　It seems much too young to be seductive and alluring, but after training the other kids, I find myself drawn to it sexually.
 
 #Her hips moves without seduction nor taste that suits her age, but because of being partner for other kids' training, I just can't stop neomg concious of her sexuality.
 
 #「熱くなって手触りが変わってきてる。勃起してるわよ、つっちー」
+#SCRIPT ORIGINAL 「熱くなって手触りが変わってきてる。勃起してるわよ、つっちー」
 ＠Zakuro,Q00578
 「It feels different and it’s getting hotter. You’re getting hard, Tsu-chi」
 
 #「It becomes hot as it being touched. And it's erecting too, Tsucchi.」
 
 #「......さ、触られてたら当然だ、反応しない方がおかしいっ」
+#SCRIPT ORIGINAL 「……さ、触られてたら当然だ、反応しない方がおかしいっ」
 ＠Itsuki
 「...S-sure it does if you touch it. It would be weird if it didn’t」
 
 #「......Of, Of course it will, it will be wierd if it doesnt respond.」
 
 #「そうだとしても、他の人より早い部類に入るわ」
+#SCRIPT ORIGINAL 「そうだとしても、他の人より早い部類に入るわ」
 ＠Zakuro,Q00579
 「Even so, I’d say it kicks in more quickly than other people」
 
 #「Even it is like that, it's kicks in more than other people.」
 
 #「今日の下着は気に入ってるやつだから、興奮されるのは嬉しいかも」
+#SCRIPT ORIGINAL 「今日の下着は気に入ってるやつだから、興奮されるのは嬉しいかも」
 ＠Zakuro,Q00580
 「I’ve put on my favourite panties today, so I’m glad you’re getting off to them」
 
 #「I've put on my favorite panties today, I'll be happy if you're getting excited from it.」
 
 #こんな体勢でも余裕そうに、Zakuroは膨らんでいく肉茎をさらに刺激して反応を促してくる。
+#SCRIPT ORIGINAL こんな体勢でも余裕そうに、ざくろは膨らんでいく肉茎をさらに刺激して反応を促してくる。
 　Even in this position, unfettered Zakuro works my swelling cock even more urging it to get hard.
 
 #Even in this position, Zakuro quicken on stimulating my swelling dick.
 
 #意識をそらしても抑えきれず、オレはその手使いで股間に血流を滾らされていく。
+#SCRIPT ORIGINAL 意識をそらしても抑えきれず、オレはその手使いで股間に血流を滾らされていく。
 　I divert my attention, but unable to restrain it her hand makes my blood roil down at my crotch.
 
 #As my conciusness to not look down is cut, I let that hand to gather my blood.
 
 #「この前は見損ねたけど、つっちーのは勃起も堰を切ったみたいに勢いがいいのね」
+#SCRIPT ORIGINAL 「この前は見損ねたけど、つっちーのは勃起も堰を切ったみたいに勢いがいいのね」
 ＠Zakuro,Q00581
 「I didn’t notice it last time, but Tsu-chi’s penis gets hard so well it’s like a dam burst」
 
@@ -553,6 +641,7 @@ event		"event\EV_ZAK_060-00.png"
 #Dunno bout 'seki wo kitta mitai ni ikoi'
 
 #「射精したそうにムクムクって、すごく一生懸命な感じ」
+#SCRIPT ORIGINAL 「射精したそうにムクムクって、すごく一生懸命な感じ」
 ＠Zakuro,Q00582
 「It’s twitching and wants to come. It feels like it’s really giving its all」
 
@@ -560,41 +649,48 @@ event		"event\EV_ZAK_060-00.png"
 # seems wierd maybe change into it's give a very lively feeling?
 
 #「...う、観察するなッ......っていうか、こんなのに違いなんかあるかよ」
+#SCRIPT ORIGINAL 「…う、観察するなッ……っていうか、こんなのに違いなんかあるかよ」
 ＠Itsuki
 「...Ugh, don’t examine it! ...Actually, as if there’d be differences in that...」
 
 #「.....U, Don't do any obersvation of it...... I mean, how it is possible to have such a difference.」
 
 #「あるの。自然な勃起なのか、それとも興奮してるのかくらいはすぐに分かる」
+#SCRIPT ORIGINAL 「あるの。自然な勃起なのか、それとも興奮してるのかくらいはすぐに分かる」
 ＠Zakuro,Q00583
 「There are. I can tell right away whether you’re getting aroused, or just having a normal erection」
 
 #「There is. Like natural erection, or about the excitement. I can notice it immediately.」
 
 #真偽は分からないが、その全てを見透かしているような物言いにドキリとする。
+#SCRIPT ORIGINAL 真偽は分からないが、その全てを見透かしているような物言いにドキリとする。
 　I’m not sure if she’s telling the truth, but she speaks shocked like she’s making out all of that.
 
 #I dont know if its true or not but I was startled at her way of saying all that.
 #Dunno how to say the way she talks about seeing through all --'
 
 #「口で抵抗しても、ココは刺激と視界にちゃんと興奮してるみたい」
+#SCRIPT ORIGINAL 「口で抵抗しても、ココは刺激と視界にちゃんと興奮してるみたい」
 ＠Zakuro,Q00584
 「You may talk back, but you look perfectly aroused down here when I feel it up」
 
 #「Even if your mouth oppose it, I can see it being excited from its reaction and field of vision （?）」
 
 #そんな狼狽するオレに、Zakuroは微笑を零す。
+#SCRIPT ORIGINAL そんな狼狽するオレに、ざくろは微笑を零す。
 　In all my consternation, Zakuro gives me a smile.
 
 #Looking me in a confusion, Zakuro shows a smile.
 
 #風変わり著しいとは言え、客層も厚いこの子の独特の魅力は、オレもよく分かって納得していたことだ。
+#SCRIPT ORIGINAL 風変わり著しいとは言え、客層も厚いこの子の独特の魅力は、オレもよく分かって納得していたことだ。
 　She’s eccentric to say the least, but I understand how she could attract a rich customer base with her unique charm.
 
 #She's eccentric to say the least, however the fact that she attracs a variety of customers with her unique charm is even a thing that I can comprehend.
 #^Genuinely helpful^
 
 #最初のフェラチオによる期待感もあり、本格的な昂揚感が募らされていく。
+#SCRIPT ORIGINAL 最初のフェラチオによる期待感もあり、本格的な昂揚感が募らされていく。
 　With the lingering anticipation from the first fellatio, my excitement totally uprages.
 
 #There is some of expectation due to the first felattio, and my feeling is upraging.
@@ -605,54 +701,64 @@ event		"event\EV_ZAK_060-00.png"
 #--------------------------------------------------
 
 #「おちんちん、すっかり硬くなっちゃった」
+#SCRIPT ORIGINAL 「おちんちん、すっかり硬くなっちゃった」
 ＠Zakuro,Q00585
 「Your cock’s gone completely hard」
 
 #「でもつっちー、一方的過ぎて調教にも訓練にもならないわよ?」
+#SCRIPT ORIGINAL 「でもつっちー、一方的過ぎて調教にも訓練にもならないわよ？」
 ＠Zakuro,Q00586
 「But Tsu-chi, it won’t do for training or practicing if it’s so one-sided」
 
 #「But Tsu-chi, It's bad for this training for being one sidely you know.」
 
 #「当たり前だッ.........Zakuro、本気でもうこれ以上は止めろ...」
+#SCRIPT ORIGINAL 「当たり前だッ………ざくろ、本気でもうこれ以上は止めろ…」
 ＠Itsuki
 「Of course it won’t...! Zakuro, I’ve had enough of this, please...」
 
 #Seem wierd , maybe just change it 'please stop it now' if he doesnt want to continue, 'please no more than this' if he wants the bj to continue.
 
 #「...ほんとに往生際が悪い......勃起までして興奮してるのに」
+#SCRIPT ORIGINAL 「…ほんとに往生際が悪い……勃起までして興奮してるのに」
 ＠Zakuro,Q00587
 「You really don't know when to give up... when you’re this aroused and hard」
 
 #「でもこのまま射精しそうにされたら、イヤでも攻め返すしかなくなるでしょ?」
+#SCRIPT ORIGINAL 「でもこのまま射精しそうにされたら、イヤでも攻め返すしかなくなるでしょ？」
 ＠Zakuro,Q00588
 「But if I make it so you’re about to come, you’ll have no choice but to tease me back」
 
 #「But with this thing looks like going to burst, even you don't want to but you'll lose the chance to attack you know?」
 
 #嘆息しながら告げると、隆起し張り詰めた肉茎を手淫し始めるZakuro。
+#SCRIPT ORIGINAL 嘆息しながら告げると、隆起し張り詰めた肉茎を手淫し始めるざくろ。
 　After informing me with a sigh, Zakuro starts her handjob on my cock that’s stretched upwards.
 
 #She tells this while sighing and begin to tense up her grip.
 
 #巧みな手の動きが絡みつくように竿をシゴき、想像以上の気持ちよさを走らされる。
+#SCRIPT ORIGINAL 巧みな手の動きが絡みつくように竿をシゴき、想像以上の気持ちよさを走らされる。
 　A pleasure beyond what I’d imagined courses through, her expert hand stroking the shaft as if wrapping it up.
 
 #She wrap the rood and begins to stroke it with skillful movement, and a sensation beyond my imagination runs down.
 
 #「この前はいきなり咥えたから、今日は手から」
+#SCRIPT ORIGINAL 「この前はいきなり咥えたから、今日は手から」
 ＠Zakuro,Q00589
 「I’ll start with my hand today, since last time I did my mouth first」
 
 #「Because of the other day are suddenly from mouth, i'm starting from hand today.」
 
 #「んッ...! う...手までこんな.........万能すぎるぞ、Zakuroっ......」
+#SCRIPT ORIGINAL 「んッ…！　う…手までこんな………万能すぎるぞ、ざくろっ……」
 ＠Itsuki
 「Ngh...! Urhh... even your hand is just... you’re too all-encompassing, Zakuro...」
 
 #bannou to be utility or omnipotent seems wierd
 
 #「そう? 一家に一台、欲しい感じ?」
+#SCRIPT ORIGINAL 「そう？　一家に一台、欲しい感じ？」
 ＠Zakuro,Q00590
 「Think so? Like, wanting a house and a car?」
 
@@ -660,6 +766,7 @@ event		"event\EV_ZAK_060-00.png"
 #Hmmm... dont know to put in english .
 
 #「......そ、その感性は分からんが」
+#SCRIPT ORIGINAL 「……そ、その感性は分からんが」
 ＠Itsuki
 「...I-I don’t really get your drift」
 
@@ -669,6 +776,7 @@ event		"event\EV_ZAK_060-00.png"
 #「.......Th-, I don't know that sort of thing.」
 
 #「つっちーのおちんちんも、相変わらず太くて大きいわよ。感心するくらい」
+#SCRIPT ORIGINAL 「つっちーのおちんちんも、相変わらず太くて大きいわよ。感心するくらい」
 ＠Zakuro,Q00591
 「Tsu-chi’s penis is as big and thick as ever too. It’s got my respect」
 
@@ -676,22 +784,26 @@ event		"event\EV_ZAK_060-00.png"
 #dunno kanshin suru kurai
 
 #「手も指も大きく動かしやすいから、その分気持ちいいでしょ?」
+#SCRIPT ORIGINAL 「手も指も大きく動かしやすいから、その分気持ちいいでしょ？」
 ＠Zakuro,Q00592
 「I can move my hand and fingers so far over it. It must feel pretty good, right?」
 
 #「Because it's easy to make you big by finger or hand, just by that part is good, isn't it?」
 
 #指先でさまざまな場所を刺激しながら、Zakuroの手の平はカリ溝までのピストンを、多様なリズムで繰り返す。
+#SCRIPT ORIGINAL 指先でさまざまな場所を刺激しながら、ざくろの手の平はカリ溝までのピストンを、多様なリズムで繰り返す。
 　Zakuro’s hand goes at a sporadic pace, pumping it just up to the head, as her fingers run over many different spots.
 
 #Her fingertip is stimulating me in various area, and her palm strokes like piston in various repeated rythm.
 
 #その複雑な動きは、他で味わった事のない気持ちよさを感じさせる。
+#SCRIPT ORIGINAL その複雑な動きは、他で味わった事のない気持ちよさを感じさせる。
 　Her complex motions pleasure me in a way I didn’t experience anywhere else.
 
 #From that complex way of moving, I can't feel anything except the pleasant feeling that was given.
 
 #「ふふ......これを女の子のアソコの中に入れるなんて、凶器みたい」
+#SCRIPT ORIGINAL 「ふふ……これを女の子のアソコの中に入れるなんて、凶器みたい」
 ＠Zakuro,Q00593
 「Fufu... this is like a deadly weapon to put inside a girl down there」
 
@@ -699,41 +811,48 @@ event		"event\EV_ZAK_060-00.png"
 #or dangerously ultimate weapon :p
 
 #「みかんやいちごも、すごく痛かったでしょうね。この大きさは」
+#SCRIPT ORIGINAL 「みかんやいちごも、すごく痛かったでしょうね。この大きさは」
 ＠Zakuro,Q00594
 「It must have hurt quite a lot for poor Mikan and Ichigo. With this size」
 
 #「It must be very hurt either for Mikan or Ichigo, right. Doing it with this big thing.」
 
 #「......ッそ、そんなこと分かってる......仕事なんだから仕方なかったんだ」
+#SCRIPT ORIGINAL 「……ッそ、そんなこと分かってる……仕事なんだから仕方なかったんだ」
 ＠Itsuki
 「...I-I know that’s true, but... it’s my job, so there was nothing I could do」
 
 #「.........I-, I know that thing for sure....... It can't be helped since It's work.」
 
 #「それでつっちーだけ、そんな未開発の子の中で気持ちよく動いてたんでしょ?」
+#SCRIPT ORIGINAL 「それでつっちーだけ、そんな未開発の子の中で気持ちよく動いてたんでしょ？」
 ＠Zakuro,Q00595
 「And so, Tsu-chi alone got to hump and feel good from those girls’ untouched inner passages」
 
 #「And it's just Tsucchi, that feels good from moving inside of those undeveloped child right?」
 
 #「これだけ勃起してたら、さぞ摩擦も大きくて気持ちいいと思うし」
+#SCRIPT ORIGINAL 「これだけ勃起してたら、さぞ摩擦も大きくて気持ちいいと思うし」
 ＠Zakuro,Q00596
 「If you’ve gotten hard from just this, no doubt it rubbed hard and felt real good」
 
 #「If you erect just by these, certainly you'll feel good from being rubbed, i think.」
 
 #僅かなひずみをほのめかしながら、Zakuroは指の一本を伸ばして亀頭に触れる。
+#SCRIPT ORIGINAL 僅かなひずみをほのめかしながら、ざくろは指の一本を伸ばして亀頭に触れる。
 　Zakuro extends a finger touching it to the head, as she alludes to some crooked fancy.
 
 #While showing a faint hint of twist, Zakuro extends her fingertip to caress the head.
 
 #「この先っちょが、いちご達の膣内を深くついて快感を貪ってたのね」
+#SCRIPT ORIGINAL 「この先っちょが、いちご達の膣内を深くついて快感を貪ってたのね」
 ＠Zakuro,Q00597
 「This tip here, it lusted for the pleasure of thrusting deep inside Ichigo and them」
 
 #「Just right now, You were lusting for the pleasant feeling inside Ichigo and others' vagina right.」
 
 #「つっちーのは先端も大きいから、きっと出入りするたびに膣内が押し広げられて、いっぱいだったと思う」
+#SCRIPT ORIGINAL 「つっちーのは先端も大きいから、きっと出入りするたびに膣内が押し広げられて、いっぱいだったと思う」
 ＠Zakuro,Q00598
 「The tip of your’s is big too, so I’m sure that every time it went in and out, it stretched out their insides, and it was very full」
 
@@ -741,320 +860,383 @@ event		"event\EV_ZAK_060-00.png"
 #stirring or spread out dunno the difference
 
 #「わっ、分かってるなら......Zakuro、ソコは触るな......」
+#SCRIPT ORIGINAL 「わっ、分かってるなら……ざくろ、ソコは触るな……」
 ＠Itsuki
 「I-! I got your point, so... Zakuro, stop touching it there...」
 
 #「If-, If you already know about that..... Zakuro, don't touch it there..」
 
 #「ダメ、ココが一番気持ちいいんでしょ?」
+#SCRIPT ORIGINAL 「ダメ、ココが一番気持ちいいんでしょ？」
 ＠Zakuro,Q00599
 「No. It feels best here, does it not?」
 
 #「I can't, Here's the most pleasant right?」
 
 #「射精しちゃったら終了だし、ギリギリの範囲でやるから大丈夫」
+#SCRIPT ORIGINAL 「射精しちゃったら終了だし、ギリギリの範囲でやるから大丈夫」
 ＠Zakuro,Q00600
 「It’ll be over when you come, so I’ll just play around the edges and it’ll be fine」
 
 #「It would end if you ejaculate, i'll do it to just barely the moment, so it's alright.」
 
 #指の腹で亀頭をくすぐりながら、片手で竿をシゴき、反対の手で袋をやわやわと揉みしだく。
+#SCRIPT ORIGINAL 指の腹で亀頭をくすぐりながら、片手で竿をシゴき、反対の手で袋をやわやわと揉みしだく。
 　With one hand stroking the shaft, while tickling the head with her finger, the other one gently massages the balls.
 
 #While her finger tickle the tip of my penis, one hand stroke the rod/body, and the other hand is gently massaging the ball]
 
 #怒張した性器全体に這わされる快感に、思わず背筋が震わされた。
+#SCRIPT ORIGINAL 怒張した性器全体に這わされる快感に、思わず背筋が震わされた。
 　My back spasmed unconsciously at the pleasure creeping all over my swollen cock.
 
 #My overswelling penis pleasant feeling are crawling all over my body, instinctively electrocuted my muscles.
 #what a wierd description
 
 #「......ッん! んぅ...こ、こらッ......どこがギリギリの範囲だッ...」
+#SCRIPT ORIGINAL 「……ッん！　んぅ…こ、こらッ……どこがギリギリの範囲だッ…」
 ＠Itsuki
 「...Nh! nhh, h-hold it! ...“Just around the edges” is where, exactly...!」
 
 #「........Nnh! Nh... He-,Hey....... How can it be just barely do it......」
 
 #「ちゃんと加減してるわ。本気でやったら全然こんなものじゃないもの」
+#SCRIPT ORIGINAL 「ちゃんと加減してるわ。本気でやったら全然こんなものじゃないもの」
 ＠Zakuro,Q00601
 「I’m regulating it just fine. This is nothing compared to using all my strength」
 
 #「I'm proplery measuring it you know. If i'm doing it serious then it wouldn't be like this.」
 
 #「力加減だってまだバラバラだし、素手で触ってるのもマイナスでしょ?」
+#SCRIPT ORIGINAL 「力加減だってまだバラバラだし、素手で触ってるのもマイナスでしょ？」
 ＠Zakuro,Q00602
 「I’m being pretty lenient, and using nothing but my hands subtracts from it also」
 
 #「I'm hasn't loosened measuring my strenght, it would be a minus if i touch you bare hand right.」 
 
 #「そ...そうなのか...? 末恐ろしすぎ......っん、ぅ...!」
+#SCRIPT ORIGINAL 「そ…そうなのか…？　末恐ろしすぎ……っん、ぅ…！」
 ＠Itsuki
 「You... you don’t say...? How terrifying... nh, ugh...!」
 
 #「ふふ。焦るってことは、これで気持ちいいのね、つっちー」
+#SCRIPT ORIGINAL 「ふふ。焦るってことは、これで気持ちいいのね、つっちー」
 ＠Zakuro,Q00603
 「Fufu. It feels good, doesn’t it Tsu-chi? When you’re this jumpy」
 
 #「Fufu. To be this impatient, is it that pleasant, Tsucchi.」
 
 #オレの様子にほくそ笑むと、Zakuroは竿と亀頭を擦る手の圧迫を〝緩めて〟いく。
+#SCRIPT ORIGINAL オレの様子にほくそ笑むと、ざくろは竿と亀頭を擦る手の圧迫を〝緩めて〟いく。
 　She snickers seeing my condition, and “alleviates” the pressure of her hand rubbing the head and shaft.
 
 #She chuckles seeing my condition and she 'loosen' her stroke on my tip of penis and rod.
 
 #「なら、こうすればもっと敏感になっちゃうはずよ」
+#SCRIPT ORIGINAL 「なら、こうすればもっと敏感になっちゃうはずよ」
 ＠Zakuro,Q00604
 「Why don’t we do this, then? You’ll get even more sensitive」
 
 #「Then, in that case i expect you want to become more sensitive.」
 
 #「え......ッんく、んぅ! ざ、Zakuroッ......!」
+#SCRIPT ORIGINAL 「え……ッんく、んぅ！　ざ、ざくろッ……！」
 ＠Itsuki
 「Huh... ngh, nhh! Z-Zakuro...!」
 
 #「Eh.......Nnh,Guh! Za, Zakuro.......!」
 
 #その緩いくすぐったさが、袋を揉まれる気持ちよさで際立ち、刺激を求めるように股間に血が巡っていく。
+#SCRIPT ORIGINAL その緩いくすぐったさが、袋を揉まれる気持ちよさで際立ち、刺激を求めるように股間に血が巡っていく。
 　The light ticklishness flares up from the pleasure in my sack being rubbed, as blood gathers at my crotch as if demanding more.
 
 #That loosening is ticklish, but the ball massaging feeling is prominent, and like seeking for stimulation the blood is gathering in my lower body]
 
 #「......っ、ビクッてして......また大きくなってる、つっちーのおちんちん」
+#SCRIPT ORIGINAL 「……っ、ビクッてして……また大きくなってる、つっちーのおちんちん」
 ＠Zakuro,Q00605
 「...Ah, it’s twitching and twitching... Tsu-chi’s dick is getting bigger again」
 
 #「.........It, It's still reacting...... and getting bigger, Tsucchi's cock.」
 
 #「これは口でしたときより大きいかも.........ちょっと興味深い...」
+#SCRIPT ORIGINAL 「これは口でしたときより大きいかも………ちょっと興味深い…」
 ＠Zakuro,Q00606
 「It might be bigger than the time when I used my mouth... it’s a bit fascinating...」
 
 #「I think this is bigger than I did it with my mouth........ I'm become more interested....」
 
 #Zakuroの言うとおり敏感になり、自分のモノがさらに張り詰めるように肥大していっているのが、感覚で分かる。
+#SCRIPT ORIGINAL ざくろの言うとおり敏感になり、自分のモノがさらに張り詰めるように肥大していっているのが、感覚で分かる。
 　It gets more sensitive like Zakuro said, and I can feel my cock stretching out ever more and growing fatter.
 
 #As she said it becomes more sensitive, I can feel my thing like tensing up and being larger.s.
 
 #「......つっちー、すごく勃起してる。こんなに大きくしたら、おちんちんの皮膚が裂けちゃうわよ...?」
+#SCRIPT ORIGINAL 「……つっちー、すごく勃起してる。こんなに大きくしたら、おちんちんの皮膚が裂けちゃうわよ…？」
 ＠Zakuro,Q00607
 「...Tsu-chi, it’s gotten really hard. If it gets this big, won’t it rip the skin on your penis...?」
 
 #「...Tsu-chi, immensly erecting. If you become this big, your skin will tear up you know...?」
 
 #「......んッ、っく! す、好きでしてるわけじゃ......今さら、手だけでこんなにッ......」
+#SCRIPT ORIGINAL 「……んッ、っく！　す、好きでしてるわけじゃ……今さら、手だけでこんなにッ……」
 ＠Itsuki
 「...Nh, urgh! I-I’m not doing it because I want to... yet again, just using your hand it’s...」
 
 #「......Nn, kku! It is not in my will.... Up until now, just by using hand this.......」
 
 #「手だけじゃないわ。私のショーツのアソコも見て興奮してるんだから」
+#SCRIPT ORIGINAL 「手だけじゃないわ。私のショーツのアソコも見て興奮してるんだから」
 ＠Zakuro,Q00608
 「Not just my hand. You’re getting turned on by looking at my panties down there, too」
 
 #「Not only by hand. You're also getting aroused by looking my 'that' shorts part.」
 
 #「くす......これが拒否ばっかりしてるつっちーの、正直な性欲なんでしょ?」
+#SCRIPT ORIGINAL 「くす……これが拒否ばっかりしてるつっちーの、正直な性欲なんでしょ？」
 ＠Zakuro,Q00609
 「Giggle... so this is the honest lust of Tsu-chi’s, who will do nothing but deny it」
 
 #「Kusu（?）..... So this is that denying Tsucchi's real sexual desire, isn't it?」
 
 #羞恥を感じさせるように告げると、Zakuroは心持ち愉しそうに腰を浮かせ、クロッチを見せつける。
+#SCRIPT ORIGINAL 羞恥を感じさせるように告げると、ざくろは心持ち愉しそうに腰を浮かせ、クロッチを見せつける。
 　After telling me and provoking my shame, Zakuro, looking like she’s having fun, wags her hips flaunting her crotch.
 
 #As She tell me to make me feel embarassed, While looked enjoying herself she rise her waist, and show her crotch.
 
 #「......えっ」
+#SCRIPT ORIGINAL 「……えっ」
 ＠Itsuki
 「...Huh」
 
 #「ん......つっちーの反応が興味深いから、攻める気が出るまでこうしてる」
+#SCRIPT ORIGINAL 「ん……つっちーの反応が興味深いから、攻める気が出るまでこうしてる」
 ＠Zakuro,Q00610
 「Nh... Tsu-chi, your thing’s super interesting, so I’m like this now waiting to be touched」
 
 #「Nn..... Because of Tsucchi 's reaction is very interesting, thus I'll be doing this until you attack me.」 
 
 #「よく見えるから、こっちの方が興奮するでしょ?」
+#SCRIPT ORIGINAL 「よく見えるから、こっちの方が興奮するでしょ？」
 ＠Zakuro,Q00611
 「You can see it pretty clearly. Do I not look aroused?」
 
 #「Because you can look at it clearly, You feel an urge from this right?」
 
 #「......い、いや......それは...」
+#SCRIPT ORIGINAL 「……い、いや……それは…」
 ＠Itsuki
 「...E-er, well... as for that...」
 
 #肉茎からの快感のせいで、改めて見るZakuroのソコを強く意識してしまう。
+#SCRIPT ORIGINAL 肉茎からの快感のせいで、改めて見るざくろのソコを強く意識してしまう。
 　With the pleasure in my cock, Zakuro’s spot grabs my attention when I take another look.
 
 #Because of the pleasant feeling from my cock, and by looking again I become more concious of her private part.
 
 #まだ未成熟さが漂う幼い腰つきと恥丘。
+#SCRIPT ORIGINAL まだ未成熟さが漂う幼い腰つきと恥丘。
 　Her tender hips and mound still give an air of prepubescence.
 
 #Again with the infacy of the childish posture and mound pubis.
 
 #それゆえに、もう経験過多であることが背徳的に思えてしまう。
+#SCRIPT ORIGINAL それゆえに、もう経験過多であることが背徳的に思えてしまう。
 　From there, I’m able to think immorally of what I’ve come to know so well.
 
 #And so, because of this enermous experience I'm collapsing from reality.
 
 #「私みたいな年端もない子に強引にされて、戸惑うくらいおちんちんが興奮してるなんて」
+#SCRIPT ORIGINAL 「私みたいな年端もない子に強引にされて、戸惑うくらいおちんちんが興奮してるなんて」
 ＠Zakuro,Q00612
 「It’s confusing how aroused your dick is, after being manhandled by a little ol’ girl like me」
 
 #「To be pinned down by a kid like me, confused enough your penis is getting aroused.」
 
 #「つっちー、ほんとはこうやって強引にされるのが好きみたい」
+#SCRIPT ORIGINAL 「つっちー、ほんとはこうやって強引にされるのが好きみたい」
 ＠Zakuro,Q00613
 「Tsu-chi, you really seem to enjoy being forced down like this」
 
 #少しずつリアルになってくる情欲に、オレは何とか逃れようとするも叶わない。
+#SCRIPT ORIGINAL 少しずつリアルになってくる情欲に、オレは何とか逃れようとするも叶わない。
 　Slowly but surely, my attempts to escape can’t hope to match the lust building up in me.
 
 #As My lust become real gradually, somehow i can't even wish to get away.
 
 #それにいくらZakuroが小柄でも、人一人が被さっている上に、自身がこんな格好なのだ。
+#SCRIPT ORIGINAL それにいくらざくろが小柄でも、人一人が被さっている上に、自身がこんな格好なのだ。
 　Besides, as short as Zakuro may be, our bodies are in this position now with her hanging over me.
 
 #No matter how small Zakuro is, To be on top of a person, i'm the proof of that.
 
 #「逃げられないでしょ、つっちー? こんな格好のままで」
+#SCRIPT ORIGINAL 「逃げられないでしょ、つっちー？　こんな格好のままで」
 ＠Zakuro,Q00614
 「You know there’s no way to escape in this position, Tsu-chi」
 
 #「You can't escape right, Tsucchi? With this posture.」
 
 #「興奮してるのなら、このまま射精するしかないと思う」
+#SCRIPT ORIGINAL 「興奮してるのなら、このまま射精するしかないと思う」
 ＠Zakuro,Q00615
 「When you’re aroused, I think there’s no choice but to come like this」
 
 #「If you're aroused, it seem you will ejaculate just like this.」
 
 #強く反応する肉茎を見つめていたZakuroが、再び同じように両手を絡め、竿と袋に擦り付ける。
+#SCRIPT ORIGINAL 強く反応する肉茎を見つめていたざくろが、再び同じように両手を絡め、竿と袋に擦り付ける。
 　Zakuro, who looked on at my cock’s hard reaction, wraps her hands up around it again, nuzzling the balls and shaft.
 
 #「......ッんぅ、うッ...! だ、だからもう、止めろZakuroっ...」
+#SCRIPT ORIGINAL 「……ッんぅ、うッ…！　だ、だからもう、止めろざくろっ…」
 ＠Itsuki
 「...Nnuh, uuuh...! I-I’m telling you Zakuro, enough of this...!」
 
 #「気持ちいいの? ビクビクしながら先走りを出してきてる」
+#SCRIPT ORIGINAL 「気持ちいいの？　ビクビクしながら先走りを出してきてる」
 ＠Zakuro,Q00616
 「Does it feel good? It’s twitching and your precum’s running out」
 
 #「Feels good? While beating its leak some precum.」
 
 #「嫌がりながらこんなになってるなんて、いやらしいおちんちん」
+#SCRIPT ORIGINAL 「嫌がりながらこんなになってるなんて、いやらしいおちんちん」
 ＠Zakuro,Q00617
 「Even while you complain, to become like this... what a perverted dick」
 
 #「It becomes like this despite hating it, what a lewd cock.」
 
 #ショーツ越しとはいえ、アソコを見られていることなど意に介さず、肉茎へ妖しく手を這い回らせるZakuro。
+#SCRIPT ORIGINAL ショーツ越しとはいえ、アソコを見られていることなど意に介さず、肉茎へ妖しく手を這い回らせるざくろ。
 　Zakuro creeps her hand bewitchingly about my cock, not batting an eyelid to being seen down there, though with her panties.
 
 #オレはその刺激とアソコの光景、そして羞恥も相まって、溢れるように先走りが滲まされる。
+#SCRIPT ORIGINAL オレはその刺激とアソコの光景、そして羞恥も相まって、溢れるように先走りが滲まされる。
 　The sight of that and her stimulation, coupled with my embarrassment, makes the precum ooze out and overflow.
 
 #「これ以上できないくらい強い勃起の次は、濡れていくことに必死になるのね」
+#SCRIPT ORIGINAL 「これ以上できないくらい強い勃起の次は、濡れていくことに必死になるのね」
 ＠Zakuro,Q00618
 「The next step, for your massive hard-on that can’t get any harder, is that it’s dying to get wet」
 
 #「......ッぅく、んッ...! ひ、必死なわけっ......Zakuro、刺激するんじゃない...」
+#SCRIPT ORIGINAL 「……ッぅく、んッ…！　ひ、必死なわけっ……ざくろ、刺激するんじゃない…」
 ＠Itsuki
 「...Urgh, ngh...! I-it’s not dying for... Zakuro, don’t feel it up...」
 
 #[......ッぅく、んッ...!
 
 #「仕事で他の人のも見るけど、こんなに激しく勃起してるおちんちんは初めてよ」
+#SCRIPT ORIGINAL 「仕事で他の人のも見るけど、こんなに激しく勃起してるおちんちんは初めてよ」
 ＠Zakuro,Q00619
 「I’ve seen other guys in my work, but this is first cock I’ve seen to get such a violent hard-on」
 
 #「だからつっちーが何て言おうと、すごく気持ちよさそうなのが分かっちゃうの」
+#SCRIPT ORIGINAL 「だからつっちーが何て言おうと、すごく気持ちよさそうなのが分かっちゃうの」
 ＠Zakuro,Q00620
 「So no matter what you try to tell me, I can tell by looking how incredibly good it must feel」
 
 #快感の波に休息を与えないように、Zakuroは裏筋や亀頭をまんべんなく摩り刺激する。
+#SCRIPT ORIGINAL 快感の波に休息を与えないように、ざくろは裏筋や亀頭をまんべんなく摩り刺激する。
 　Zakuro thoroughly rubs and stimulates the glans and back-muscle, giving me no relief from the wave of pleasure.
 
 #すでに肉茎は情けないくらい欲情し切った姿を、Zakuroの目の前に晒していた。
+#SCRIPT ORIGINAL すでに肉茎は情けないくらい欲情し切った姿を、ざくろの目の前に晒していた。
 　My cock is exposed in its desire to a shameful degree before Zakuro’s eyes by now. 
 
 #「出したくなったら言って。すぐにもっと擦ってあげるから」
+#SCRIPT ORIGINAL 「出したくなったら言って。すぐにもっと擦ってあげるから」
 ＠Zakuro,Q00621
 「If you want to come, let me know. I’ll rub it some more for you right away」
 
 #「......ッくぅ...! なら、射精したら......ちゃんと止めるんだな、Zakuro.」
+#SCRIPT ORIGINAL 「……ッくぅ…！　なら、射精したら……ちゃんと止めるんだな、ざくろ」
 ＠Itsuki
 「...Agh...! Then if I were to come... you’ll have to stop, Zakuro」
 
 #「........?」
+#SCRIPT ORIGINAL 「……？」
 ＠Zakuro,Q00622
 「...?」
 
 #オレの言葉が意外そうに、Zakuroが首を傾げて手を緩める。
+#SCRIPT ORIGINAL オレの言葉が意外そうに、ざくろが首を傾げて手を緩める。
 　Zakuro tilts her head and her hand loosens up, unprepared for what I said.
 
 #「もう限界にきちゃった?」
+#SCRIPT ORIGINAL 「もう限界にきちゃった？」
 ＠Zakuro,Q00623
 「You’re almost there?」
 
 #「It this the limit?」 / 「You've reached the limit?」
 
 #「......こんなままより、潔く出した方がマシってだけだ」
+#SCRIPT ORIGINAL 「……こんなままより、潔く出した方がマシってだけだ」
 ＠Itsuki
 「...I’d prefer to come in a more dignified way than this, that’s all」
 
 #「....... Better than this, I only prefer to cum more manly.」
 
 #「だからオレからも攻める......構わないなら腰を下ろしてみな、Zakuro」
+#SCRIPT ORIGINAL 「だからオレからも攻める……構わないなら腰を下ろしてみな、ざくろ」
 ＠Itsuki
 「So I’ll service you too... if you don’t mind, you can lower your butt, Zakuro」
 
 #「So I will attack you too..... If you dont mind about it, you can lower your waist, Zakuro.」
 
 #「.............」
+#SCRIPT ORIGINAL 「…………」
 ＠Zakuro,Q00624
 「......」
 
 #「......楽しかったから、最後までつっちーをからかいながらでもよかったけど...」
+#SCRIPT ORIGINAL 「……楽しかったから、最後までつっちーをからかいながらでもよかったけど…」
 ＠Zakuro,Q00625
 「...I was having fun teasing you, so I would’ve been okay with going like this until the end」
 
 #「........Because it was fun, to make fun of you until the end but.........」
 
 #スッと、Zakuroが自分の腰元へ手を伸ばすのが見えた。
+#SCRIPT ORIGINAL スッと、ざくろが自分の腰元へ手を伸ばすのが見えた。
 　At a moment’s notice, I saw Zakuro reach for her butt.
 
 #In instant, I can saw her hand reaching her own waist.
 
 #「え......?」
+#SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「Huh...?」
 
 #「でも、つっちーがどれくらい出来るのかも興味あるから。いいわよ」
+#SCRIPT ORIGINAL 「でも、つっちーがどれくらい出来るのかも興味あるから。いいわよ」
 ＠Zakuro,Q00626
 「But I’m also interested to see how well you can do, Tsu-chi. Alright, then」
 
 #「But, I'm interest in how far Tsucchi can do. So, It's alright.」
 
 #そのままシュルシュルとショーツの紐を解いていく。
+#SCRIPT ORIGINAL そのままシュルシュルとショーツの紐を解いていく。
 　Just like that, with a rustle she undoes the string of her panties.
 
 #And just like that, her panties came off.
 
 #「ちょッ、Zakuroっ......そんな脱がなくても」
+#SCRIPT ORIGINAL 「ちょッ、ざくろっ……そんな脱がなくても」
 ＠Itsuki
 「Ack, Zakuro...! You don't have to take that off...」
 
 #「遠慮しないで。着たままだと、正確な技量がみれないから」
+#SCRIPT ORIGINAL 「遠慮しないで。着たままだと、正確な技量がみれないから」
 ＠Zakuro,Q00627
 「Don’t be modest. I won’t be able to test your competence with it on」
 
 #「Don't be hesitate. If I'm still dressed, I couldn't see the extent of your abilities.」
 
 #「技量って......、...うっ」
+#SCRIPT ORIGINAL 「技量って……、…うっ」
 ＠Itsuki
 「What competence...... ah!」
 
@@ -1066,93 +1248,112 @@ event		"event\EV_ZAK_060-01.png"
 #--------------------------------------------------
 
 #戸惑うオレをよそに下着を脱ぎ去ると、Zakuroはショーツに覆われていた秘部を露にした。
+#SCRIPT ORIGINAL 戸惑うオレをよそに下着を脱ぎ去ると、ざくろはショーツに覆われていた秘部を露にした。
 　Zakuro’s privates hidden by her panties were exposed, after she took them off next to my confusion.
 
 #The preplexed me ,Zakuro's private place that is hidden by her short is exposed.
 
 #「見える? 私のアソコ」
+#SCRIPT ORIGINAL 「見える？　私のアソコ」
 ＠Zakuro,Q00628
 「See my “spot” down there?」
 
 #「......そ、そりゃ全部、見えるけど......恥ずかしくないのか、Zakuro」
+#SCRIPT ORIGINAL 「……そ、そりゃ全部、見えるけど……恥ずかしくないのか、ざくろ」
 ＠Itsuki
 「...I-I can see all of it, but... aren't you embarrassed, Zakuro?」
 
 #「......? もう慣れてるわ」
+#SCRIPT ORIGINAL 「……？　もう慣れてるわ」
 ＠Zakuro,Q00629
 「...? I'm used to it by now」
 
 #「最近はしてないけど、公衆の面前で青姦したことも何度かあるし」
+#SCRIPT ORIGINAL 「最近はしてないけど、公衆の面前で青姦したことも何度かあるし」
 ＠Zakuro,Q00630
 「I haven’t done it recently, but I’ve had sex in public a few times too」
 
 #「I don't do this recently though, but I've done several outdoor sex.」
 
 #あっさりと告白し、確かに動揺の欠片も見せないZakuro。
+#SCRIPT ORIGINAL あっさりと告白し、確かに動揺の欠片も見せないざくろ。
 　She confesses coolly, and sure enough doesn’t show a trace of agitation.
 
 #Easily confessing that, Zakuro don't even show a bit of agitation.
 
 #だが視界に現れた小さい秘裂は、とてもそんな多経験とは思えない。初々しい肌色の縦筋だった。
+#SCRIPT ORIGINAL だが視界に現れた小さい秘裂は、とてもそんな多経験とは思えない。初々しい肌色の縦筋だった。
 　But her little pussy I could see now wouldn’t suggest that multi-faceted experience at all. No more than a fresh, fleshy slit.
 
 #「しないの? つっちー」
+#SCRIPT ORIGINAL 「しないの？　つっちー」
 ＠Zakuro,Q00631
 「Aren’t you going to do it, Tsu-chi?」
 
 #「Don't you want to do it? Tsucchi.」
 
 #「あ、あぁ......する」
+#SCRIPT ORIGINAL 「あ、あぁ……する」
 ＠Itsuki
 「Y-yeah... I will」
 
 #他の子同様、まだ幼い秘部をクンニする背徳感を感じながら、口を寄せて舌を差し出す。
+#SCRIPT ORIGINAL 他の子同様、まだ幼い秘部をクンニする背徳感を感じながら、口を寄せて舌を差し出す。
 　I bring my mouth closer and stick out my tongue, while feeling corrupted for eating out her young pussy, like the other kids.
 
 #~Identical to other kids, 
 
 #「......っん! っぁふ......はぁっ」
+#SCRIPT ORIGINAL 「……っん！　っぁふ……はぁっ」
 ＠Zakuro,Q00632
 「...Nh! Afh... haa!」
 
 voice_bg	"Q90005"
 
 #ヌルリと触れ合うと、意外だがZakuroから少し熱っぽい吐息が漏れた。
+#SCRIPT ORIGINAL ヌルリと触れ合うと、意外だがざくろから少し熱っぽい吐息が漏れた。
 　After touching it wetly, unexpectedly a soft, hot breath came from Zakuro.
 
 #With some licking and touching, unexpectedly there's some sexy moaning come from Zakuro.
 
 #「っはぁ......つっちー、〝慣らし〟は必要ないから.........もっと思いっきりしていいわよ」
+#SCRIPT ORIGINAL 「っはぁ……つっちー、〝慣らし〟は必要ないから………もっと思いっきりしていいわよ」
 ＠Zakuro,Q00633
 「Haa... Tsu-chi, I don’t need any “warm-ups”, so... you can be more blunt with it」
 
 #「っはぁ......Tsucchi、I dont need some 'warming-ups' so.........you can do something more.」
 
 #浮かせていた腰を下ろすZakuroに、オレの舌の動きの密着度が自然と上がっていく。
+#SCRIPT ORIGINAL 浮かせていた腰を下ろすざくろに、オレの舌の動きの密着度が自然と上がっていく。
 　At Zakuro’s lowering of her waist she’d held up, my tongue naturally latches on more tightly.
 
 #「ん...っはぁ......っぅん、ん......っぁふぅ...」
+#SCRIPT ORIGINAL 「ん…っはぁ……っぅん、ん……っぁふぅ…」
 ＠Zakuro,Q00634
 「Nh... haa... uhn, mh... afuh...」
 
 #「...熱くて、柔らかい感触が......っくん...アソコの表面で動いてる......」
+#SCRIPT ORIGINAL 「…熱くて、柔らかい感触が……っくん…アソコの表面で動いてる……」
 ＠Zakuro,Q00635
 「It feels soft, and hot... ungh... moving on me down there...」
 
 #「...Hot and tender feeling......っくん...It stirring me up......」
 
 #「っあふぅ......つっちーの息も熱くて、なかなかいい感じかも......」
+#SCRIPT ORIGINAL 「っあふぅ……つっちーの息も熱くて、なかなかいい感じかも……」
 ＠Zakuro,Q00636
 「Afuh... Tsu-chi’s breath is hot, too... I guess it’s pretty good...」
 
 #「っあふぅ......Tsucchi's breath is also hot, it's quite plesant......」
 
 #その刺激に声を漏らすZakuroの秘部で、舌先が僅かに甘酸っぱい味を拾った。
+#SCRIPT ORIGINAL その刺激に声を漏らすざくろの秘部で、舌先が僅かに甘酸っぱい味を拾った。
 　As she moans from the stimulus, my tongue-tip picks up a bit of a bittersweet flavour at her privates.
 
 #Zakuro who leaks some moaning from that stimulus, The tip of my tounge tastes some sour and sweet taste from her private place.
 
 #「......愛液の味がする......Zakuroも濡れてたのか...?」
+#SCRIPT ORIGINAL 「……愛液の味がする……ざくろも濡れてたのか…？」
 ＠Itsuki
 「...I can taste your juices... were you getting wet, too...?」
 
@@ -1161,28 +1362,33 @@ voice_bg	"Q90005"
 voice_bg_stop
 
 #「ん、少しだけ.........嬉しい?」
+#SCRIPT ORIGINAL 「ん、少しだけ………嬉しい？」
 ＠Zakuro,Q00637
 「Nh, a little bit... happy now?」
 
 #「まさか。こんなことしてたら、これくらい感じなくても濡れるだろう」
+#SCRIPT ORIGINAL 「まさか。こんなことしてたら、これくらい感じなくても濡れるだろう」
 ＠Itsuki
 「As if. You’ll get this wet doing this, even if you’re not that turned on」
 
 #「You wish. When this kind of thing was done, even if you don't feel it but you will get wet you know.」
 
 #「うん......だったらつっちーが舐めて、本格的に感じさせてみて?」
+#SCRIPT ORIGINAL 「うん……だったらつっちーが舐めて、本格的に感じさせてみて？」
 ＠Zakuro,Q00638
 「Yeah... then lick it Tsu-chi, and try to turn me on for real」
 
 #「Yeah...... Then when Tsucchi is licking, should I show the real feeling?」
 
 #「私もおちんちんに、同じ条件でやらせてもらうから」
+#SCRIPT ORIGINAL 「私もおちんちんに、同じ条件でやらせてもらうから」
 ＠Zakuro,Q00639
 「And allow me to apply the same rule to your penis」
 
 #「I will apply the same thing to your penis.」
 
 #Zakuroの言葉がすぐには理解できないまま、亀頭にヌルリとした感触が走る。
+#SCRIPT ORIGINAL ざくろの言葉がすぐには理解できないまま、亀頭にヌルリとした感触が走る。
 　I fail to register her meaning right away, as a wet sensation runs over my glans.
 
 #--------------------------------------------------
@@ -1192,44 +1398,54 @@ voice_bg	"Q90001"
 #--------------------------------------------------
 
 #「......ッ! ざ、Zakuroッ」
+#SCRIPT ORIGINAL 「……ッ！　ざ、ざくろッ」
 ＠Itsuki
 「...! Z-Zakuro!」
 
 #「んちゅるっ...くぢゅぅっ! んぅ......」
+#SCRIPT ORIGINAL 「んちゅるっ…くぢゅぅっ！　んぅ……」
 ＠Zakuro,Q00640
 「Nh, suck... kershlurp! nuh...」
 
 #静止の声より早く、Zakuroの口の中に、過敏になった肉茎が含まれてしまう。
+#SCRIPT ORIGINAL 静止の声より早く、ざくろの口の中に、過敏になった肉茎が含まれてしまう。
 　Zakuro hardly finished speaking, before taking my sensitized cock into her mouth.
 
 #「ちゅぅむっ...ぴちゅっ、ちゅちゅるっ! ちゅぢゅぅ、ちゅぷっ......んるちゅっ」
+#SCRIPT ORIGINAL 「ちゅぅむっ…ぴちゅっ、ちゅちゅるっ！　ちゅぢゅぅ、ちゅぷっ……んるちゅっ」
 ＠Zakuro,Q00641
 「Shlip, mh... shlip, suck suck! Jlurp, plurp... nh, kershluck!」
 
 #c-「ちゅくるっ、ぴちゅぅっ......んんふっ、ちゅぶぅっ! んぅっ、んちゅっ、ちゅちゅむっ」
+#SCRIPT ORIGINAL 「ちゅくるっ、ぴちゅぅっ……んんふっ、ちゅぶぅっ！　んぅっ、んちゅっ、ちゅちゅむっ」
 ＠Zakuro,Q00642
 「Pershlurp, shlip... nmfhh, shlurb! Nhh, suck, shlip slurp, mh」
 
 #そのまま手で袋も揉まれながら、Zakuroに怒張し切った肉茎をしゃぶられ、一気に快感が駆け上がる。
+#SCRIPT ORIGINAL そのまま手で袋も揉まれながら、ざくろに怒張し切った肉茎をしゃぶられ、一気に快感が駆け上がる。
 　Pleasure runs up all at once, my fully swollen cock sucked on by Zakuro, as like that my balls are massaged by her hand.
 
 #Jut like that she massage/rub my balls, Zakuro sucks my overswelling cock, at once I feel a pleasant feeling.
 
 #「にちゅっ、ちゅむぅっ...! んぅふ......おちんちん、やっぱり前より大きいみたい......ちゅぷっ、ちちゅぅっ...」
+#SCRIPT ORIGINAL 「にちゅっ、ちゅむぅっ…！　んぅふ……おちんちん、やっぱり前より大きいみたい……ちゅぷっ、ちちゅぅっ…」
 ＠Zakuro,Q00643
 「Shlim, shlurm...! Nuh, fh... your dick does seem bigger than last time... splurch, suckk...」
 
 #「ちちゅるっ......くちゅぅっ...どうしたのつっちー、舌が止まってるわよ......?」
+#SCRIPT ORIGINAL 「ちちゅるっ……くちゅぅっ…どうしたのつっちー、舌が止まってるわよ……？」
 ＠Zakuro,Q00644
 「Suckk... shluck... what's wrong, Tsu-chi? How come your tongue stopped...?」
 
 #「......んぅッ、はぁッ...! で、出来るわけないだろっ......こんなことされながらっ...」
+#SCRIPT ORIGINAL 「……んぅッ、はぁッ…！　で、出来るわけないだろっ……こんなことされながらっ…」
 ＠Itsuki
 「...Nhh! Haa...! A-as if I could do that... when you’re doing this to me...」
 
 #「......んぅッ、はぁッ...! As I can do such a thing......when I was given such a thing...」
 
 #「ちゅぅっ、ん...そう......? まだ前より緩いくらいなのに......そんなにいい?」
+#SCRIPT ORIGINAL 「ちゅぅっ、ん…そう……？　まだ前より緩いくらいなのに……そんなにいい？」
 ＠Zakuro,Q00645
 「Suck, nh... that so...? I’m still going more easily than last time... is it that good?」
 
@@ -1237,10 +1453,12 @@ voice_bg	"Q90001"
 #Or maybe the intensity just about as same as before?
 
 #「んぅ......ぴちゅぢゅっ...ちゅるぅっ! んくっ......ぴちゅっ、ちゅびちゅっ、くりゅぅっ」
+#SCRIPT ORIGINAL 「んぅ……ぴちゅぢゅっ…ちゅるぅっ！　んくっ……ぴちゅっ、ちゅびちゅっ、くりゅぅっ」
 ＠Zakuro,Q00646
 「Nhh... kersquip... shlurp! Ngh... shlip, shlib, shlub, kersquick」
 
 #Zakuroは前回同様、巧みに口腔粘膜を使い、喋りながらも舌と手で快感を与え続けてくる。
+#SCRIPT ORIGINAL ざくろは前回同様、巧みに口腔粘膜を使い、喋りながらも舌と手で快感を与え続けてくる。
 　Like last time, Zakuro expertly uses the moist lining of her mouth, and talks through pleasuring me with her hand and mouth.
 
 #Same as before, Zakuro skillfully uses her mouth surface, even while talking, her tounge and hands keep sending the pleasure.
@@ -1250,87 +1468,104 @@ voice_bg	"Q90001"
 #--------------------------------------------------
 
 #「んぅっ、ぴちゅるっ...! たくさんの先走り......唾液が流されちゃいそう...」
+#SCRIPT ORIGINAL 「んぅっ、ぴちゅるっ…！　たくさんの先走り……唾液が流されちゃいそう…」
 ＠Zakuro,Q00647
 「Nhh, kersquip...! So much precum... like it could wash away my saliva...」
 
 #「んぅっ、ぴちゅるっ...! A lot of precum......It seems I spill a lot of saliva...」
 
 #「やっぱりこんなに勃起してたら、おちんちんって敏感になっちゃってるの......?」
+#SCRIPT ORIGINAL 「やっぱりこんなに勃起してたら、おちんちんって敏感になっちゃってるの……？」
 ＠Zakuro,Q00648
 「Your penis must be getting sensitive, when it’s this erect after all...?」
 
 #「As I thought If it is this erect, your thing will be sensitive........?」
 
 #「......ッん! くぅッ......Zakuro、ちゃんとクンニしてやるから......口は後にしろっ...」
+#SCRIPT ORIGINAL 「……ッん！　くぅッ……ざくろ、ちゃんとクンニしてやるから……口は後にしろっ…」
 ＠Itsuki
 「...Nh! Ugh... Zakuro, I’ll service you with my mouth like you want, so... save yours for later...!」
 
 #「......ッん! くぅッ......Zakuro、I will properly do it......so please save the mouth for later...」
 
 #「ん...ちゅむぅ......っふぅ...質問を命令で返すなんて、つっちー失礼過ぎる...」
+#SCRIPT ORIGINAL 「ん…ちゅむぅ……っふぅ…質問を命令で返すなんて、つっちー失礼過ぎる…」
 ＠Zakuro,Q00649
 「Nh... shlrmm... huff... How rude of you Tsu-chi, to order me around after my question...」
 
 #「ちゃんと教えて。おちんちんって、こんなに硬く勃起してたら気持ち良いの......?」
+#SCRIPT ORIGINAL 「ちゃんと教えて。おちんちんって、こんなに硬く勃起してたら気持ち良いの……？」
 ＠Zakuro,Q00650
 「Be honest with me. Does your penis feel good, once it’s this hard and erect...?」
 
 #「Be honest with me. Your penis, If it is this hard, is it good......?」
 
 #オレへの恥辱を孕ませながら、Zakuroは興味深そうに肉茎を両手で擦り、質問を繰り返す。
+#SCRIPT ORIGINAL オレへの恥辱を孕ませながら、ざくろは興味深そうに肉茎を両手で擦り、質問を繰り返す。
 　Fanning my shame, Zakuro repeats her question as she gropes my penis with her hands keenly interested.
 
 #「......そんなの、見れば分かるだろ......」
+#SCRIPT ORIGINAL 「……そんなの、見れば分かるだろ……」
 ＠Itsuki
 「...I’m pretty sure you can tell just by looking...」
 
 #「......That kind of question, don't you know it just by looking......」
 
 #「うん、もちろん分かってる......んちゅ、んんりゅ...でも、ちゃんと言葉で言ってほしいの」
+#SCRIPT ORIGINAL 「うん、もちろん分かってる……んちゅ、んんりゅ…でも、ちゃんと言葉で言ってほしいの」
 ＠Zakuro,Q00651
 「Yeah, of course I know, but... shlurm, rrnnh... I want to hear you say it properly」
 
 #「Yeah、Of course I know......んちゅ、んんりゅ...But, I want to hear it directly/I want the word directly delivered from your mouth.」
 
 #「そうじゃないと......このまま、際限なく射精させ続けちゃうかも」
+#SCRIPT ORIGINAL 「そうじゃないと……このまま、際限なく射精させ続けちゃうかも」
 ＠Zakuro,Q00652
 「If you don’t... I might just keep going like this and not stop until you come」
 
 #抑揚ない調子で言いながら、Zakuroの手がスルスルと肉茎の根元に絡み付いて疼かせてくる。
+#SCRIPT ORIGINAL 抑揚ない調子で言いながら、ざくろの手がスルスルと肉茎の根元に絡み付いて疼かせてくる。
 　As she says that monotonously, Zakuro’s hand smoothly wraps around the base of my cock, making it ache.
 
 #「......うッ、待てZakuroッ......気持ちいいっ...すごくッ......」
+#SCRIPT ORIGINAL 「……うッ、待てざくろッ……気持ちいいっ…すごくッ……」
 ＠Itsuki
 「...Ugh, wait Zakuro! ...It feels really... very good...!」
 
 #「......うッ、Wait Zakuro......It's so good...very......」
 
 #「それじゃダメよ......んぅりゅ、れるちゅっ...ちゃんと言って」
+#SCRIPT ORIGINAL 「それじゃダメよ……んぅりゅ、れるちゅっ…ちゃんと言って」
 ＠Zakuro,Q00653
 「That won't do... nhhrrh, lick slurp... say it properly」
 
 #「...おちんちんが勃起して、気持ち良いって...」
+#SCRIPT ORIGINAL 「…おちんちんが勃起して、気持ち良いって…」
 ＠Zakuro,Q00654
 「Your penis getting erect, is saying it feels good...」
 
 #「...Your penis feels good, when it erects...」
 
 #肉茎の快感を人質にとりながら、もっと恥辱を要求してくるのだった。
+#SCRIPT ORIGINAL 肉茎の快感を人質にとりながら、もっと恥辱を要求してくるのだった。
 　She demands some more humiliation out of me, taking my pleasured cock as bait.
 
 #「...他の子には言わせてるんでしょ? おちんちんって...」
+#SCRIPT ORIGINAL 「…他の子には言わせてるんでしょ？　おちんちんって…」
 ＠Zakuro,Q00655
 「You have your dick say that to the other kids, don’t you...?」
 
 #「...You're telling that to other kids too right? That your penis is...」
 
 #「ば、バカッ......オレが言ってもしょうがないだろ!」
+#SCRIPT ORIGINAL 「ば、バカッ……オレが言ってもしょうがないだろ！」
 ＠Itsuki
 「S-stupid...! There’s no point in me saying it, you know!」
 
 #「St, Stupid......Even I said it, It can't be helped, isn't it!」
 
 #「そう......? なら、別の方法で示してもらうことになるわよ」
+#SCRIPT ORIGINAL 「そう……？　なら、別の方法で示してもらうことになるわよ」
 ＠Zakuro,Q00656
 「Oh yeah...? Then, I’ll have to point it out to you in other ways」
 
@@ -1341,158 +1576,199 @@ voice_bg	"Q90001"
 #--------------------------------------------------
 
 #不気味な静けさで告げられた直後、舌で焦らされていた肉茎が、再び口内の温かい呼気の中に包まれていく。
+#SCRIPT ORIGINAL 不気味な静けさで告げられた直後、舌で焦らされていた肉茎が、再び口内の温かい呼気の中に包まれていく。
 　Her quiet remark unsettling, my cock, that was agitated by her tongue, is enveloped by the warm breath inside her mouth again.
 
 #「くぷちゅっ、ちゅぢゅぅっ...! ぴちゅっ、れちゅるっ......にちゅぅっ、んちゅるっ...」
+#SCRIPT ORIGINAL 「くぷちゅっ、ちゅぢゅぅっ…！　ぴちゅっ、れちゅるっ……にちゅぅっ、んちゅるっ…」
 ＠Zakuro,Q00657
 「Pershlick, jlurck...! Shlip, lick slurp... shlurgh, shlugh...」
 
 voice_bg	"Q90002"
 
 #「...くぅッ! ッはぁ...Zakuroッ......な、何をッ...」
+#SCRIPT ORIGINAL 「…くぅッ！　ッはぁ…ざくろッ……な、何をッ…」
 ＠Itsuki
 「Urgh! Haa... Zakuro... w-what are you...!」
 
 #「ぴぢゅっ! ちぢゅるっ......んぅ、言う気がないから、行動で示してもらうのよ......くちゅむっ、ちゅぅっ!」
+#SCRIPT ORIGINAL 「ぴぢゅっ！　ちぢゅるっ……んぅ、言う気がないから、行動で示してもらうのよ……くちゅむっ、ちゅぅっ！」
 ＠Zakuro,Q00658
 「Shlurck! Slurp slurp... nhh, if you won’t say it, then your body will... smulch, suck!」
 
 #「...つっちーの気持ちよさ、射精の勢いで見せて......るりゅぢゅっ、ちゅぶぅっ! んくちゅっ...」
+#SCRIPT ORIGINAL 「…つっちーの気持ちよさ、射精の勢いで見せて……るりゅぢゅっ、ちゅぶぅっ！　んくちゅっ…」
 ＠Zakuro,Q00659
 「...Come hard and show me how good you feel... rrh, jluck, shlurb! Shlurch...」
 
 #「ちりゅぅっ......ぴちゅぢゅっ、くりゅぅっ...ぴちゅるっ! ちゅぶっ、ちゅぅっ...んちゅぅっ!」
+#SCRIPT ORIGINAL 「ちりゅぅっ……ぴちゅぢゅっ、くりゅぅっ…ぴちゅるっ！　ちゅぶっ、ちゅぅっ…んちゅぅっ！」
 ＠Zakuro,Q00660
 「Lickk... jlup, jlip, shlurck... kershlip! Shlurb, suck... nh, shluck!」
 
 #出来て当然のように言いながら、Zakuroはさらに、口の中いっぱいになるまで肉茎を頬張っていく。
+#SCRIPT ORIGINAL 出来て当然のように言いながら、ざくろはさらに、口の中いっぱいになるまで肉茎を頬張っていく。
 　Saying it in her most matter-of-fact tone, Zakuro stuffs her cheeks even more full of my cock.
 
 #「にちゅぅっ...んぅく、ちゅぷぅっ! ちゅぢゅっ、くぢゅぅっ...ちゅぢゅるっ!」
+#SCRIPT ORIGINAL 「にちゅぅっ…んぅく、ちゅぷぅっ！　ちゅぢゅっ、くぢゅぅっ…ちゅぢゅるっ！」
 ＠Zakuro,Q00661
 「Shlim... nhh, gulch, plurp! Shlurgh, slurpp... shlrrble!」
 
 #「ぴちゅむっ! ちゅじゅぅっ......んぅ、咥えきれらい...大ひくて......くぶっ、ぴちゅぅっ...ぢゅちるっ!」
+#SCRIPT ORIGINAL 「ぴちゅむっ！　ちゅじゅぅっ……んぅ、咥えきれらい…大ひくて……くぶっ、ぴちゅぅっ…ぢゅちるっ！」
 ＠Zakuro,Q00662
 「Pershlup! Surckkk... nhh, it’s so big... I han’t take it all down... glub, shlip... shlipple!」
 
 #「んぢゅるっ、ちゅぶぅっ! んくんっ...んぅりゅっ、ぢゅぶぶっ! くぢゅぅっ!」
+#SCRIPT ORIGINAL 「んぢゅるっ、ちゅぶぅっ！　んくんっ…んぅりゅっ、ぢゅぶぶっ！　くぢゅぅっ！」
 ＠Zakuro,Q00663
 「Jlurckk, shlurb! mnghhh... nmrrrhh, blurchhh! Shlrghh!」
 
 #小さい口腔内で膨れた亀頭を喉の奥まで導くと、熱い唾液まみれの頬肉や舌で隙間なく肉茎を舐め擦り、吸い上げる。
+#SCRIPT ORIGINAL 小さい口腔内で膨れた亀頭を喉の奥まで導くと、熱い唾液まみれの頬肉や舌で隙間なく肉茎を舐め擦り、吸い上げる。
 　My swollen glans reaches down her throat in her small mouth, as her hot spit-coated tongue and cheeks rub my cock and suck it up.
 
 #「くちゅむっ、ちゅぶぅっ! しゅぶちゅっ......にちゅっ、ちゅくるぅっ、ぴちゅぐっ!」
+#SCRIPT ORIGINAL 「くちゅむっ、ちゅぶぅっ！　しゅぶちゅっ……にちゅっ、ちゅくるぅっ、ぴちゅぐっ！」
 ＠Zakuro,Q00664
 「Kershlurp, shlubb! Shlrrble... shlim, kershluck, glurch!」
 
 #「はぅっ、ッくぅ! やめ、Zakuroッ......お前も苦しいだろ、喉の奥までッ...」
+#SCRIPT ORIGINAL 「はぅっ、ッくぅ！　やめ、ざくろッ……お前も苦しいだろ、喉の奥までッ…」
 ＠Itsuki
 「Hau, urgh! Quit it, Zakuro! ...Way down your throat, it’s tough on you too, isn’t it?」
 
 #「ぴぢゅっ、ちゅぢゅぅっ! くぢゅぅっ...ふぇいひ、慣れへるから......ちゅぶぅっ! にりゅっ、ねりゅちゅっ...!」
+#SCRIPT ORIGINAL 「ぴぢゅっ、ちゅぢゅぅっ！　くぢゅぅっ…ふぇいひ、慣れへるから……ちゅぶぅっ！　にりゅっ、ねりゅちゅっ…！」
 ＠Zakuro,Q00665
 「Jlip, jluck! shulgh... I’ fi’he, I’ use’ ‘hoo it... shlurb! shlim, shlrrghle...!」
 
 #「くちゅぅっ! ちゅぢゅっ......ぢゅぶっ、にちゅるっ...ぢゅるぅっ! ぢゅるっ、ぢゅぢゅっ...ぬぢゅぅっ」
+#SCRIPT ORIGINAL 「くちゅぅっ！　ちゅぢゅっ……ぢゅぶっ、にちゅるっ…ぢゅるぅっ！　ぢゅるっ、ぢゅぢゅっ…ぬぢゅぅっ」
 ＠Zakuro,Q00666
 「Suckk! jlurck... julb, shlim shlrr... jlrrp! julch, julp jlip... gulch!」
 
 #オレの心配をよそに舌と口を動かし、咥えきれないところは、唾液で濡れた手がヌヂュヌヂュと上下に擦る。
+#SCRIPT ORIGINAL オレの心配をよそに舌と口を動かし、咥えきれないところは、唾液で濡れた手がヌヂュヌヂュと上下に擦る。
 　Unmindful of my concern, she puts her tongue and mouth to use, and rubs the part she couldn’t take in with her spit-soaked hand.
 
 #Zakuroが本気なのかは分からないが、今のままでは間違いなく、前回よりも快楽が大きかった。
+#SCRIPT ORIGINAL ざくろが本気なのかは分からないが、今のままでは間違いなく、前回よりも快楽が大きかった。
 　I’m not sure if she’s going all-out, but at this rate without a doubt, the pleasure’s even greater than last time.
 
 #「んぅちゅっ......ろぉつっひー、ぼっひひてるフェラチオ...気もひいい......? んぅりゅっ、ちゅりゅっ! にぢゅるぅっ!」
+#SCRIPT ORIGINAL 「んぅちゅっ……ろぉつっひー、ぼっひひてるフェラチオ…気もひいい……？　んぅりゅっ、ちゅりゅっ！　にぢゅるぅっ！」
 ＠Zakuro,Q00667
 「Nh, suck... ‘ome on Tsu-’hi, ‘hoes your har’-on fee’ goo’ being su’hed on...? Nhhrhhh, shlurp! Shlim, shlrr!」
 
 #「......ッく! だから、オレが言っても意味無いって言ってるだろッ、そんな言葉っ......」
+#SCRIPT ORIGINAL 「……ッく！　だから、オレが言っても意味無いって言ってるだろッ、そんな言葉っ……」
 ＠Itsuki
 「...Agh! I’ve told you already, there’s no point in me saying that! To say that is just...」
 
 #「...ごうりょう（強情）......ぢゅぢゅぅっ、くぢゅむっ! ぴぢゅるっ!」
+#SCRIPT ORIGINAL 「…ごうりょう（強情）……ぢゅぢゅぅっ、くぢゅむっ！　ぴぢゅるっ！」
 ＠Zakuro,Q00668
 「You’re sh’ubborn... jurp julck, kershlugh! Pershlick!」
 
 #「もう、イカされる情けなさは覚悟したんだ......後は、Zakuroッ...」
+#SCRIPT ORIGINAL 「もう、イカされる情けなさは覚悟したんだ……後は、ざくろッ…」
 ＠Itsuki
 「That’s it, I’ve got no more pity to spare for this... all that’s left now, Zakuro...!」
 
 #「ちゅぶぅ、んぅ...? ......っふぅッ! んぅふっ」
+#SCRIPT ORIGINAL 「ちゅぶぅ、んぅ…？　……っふぅッ！　んぅふっ」
 ＠Zakuro,Q00669
 「Julch, mh...? ...Ufh! Nhh, afh」
 
 #子供相手に大人気ないという気持ちを捨て、オレはZakuroへのクンニを再開する。
+#SCRIPT ORIGINAL 子供相手に大人気ないという気持ちを捨て、オレはざくろへのクンニを再開する。
 　I go back to eating out Zakuro, throwing aside my disposition of treating her like a child.
 
 #「っんぅ...! ふぅっ......ちゅむぅっ、どうひたのつっひー...急に......っぁふ、っふぅ」
+#SCRIPT ORIGINAL 「っんぅ…！　ふぅっ……ちゅむぅっ、どうひたのつっひー…急に……っぁふ、っふぅ」
 ＠Zakuro,Q00670
 「Nhh...! Fhh... shlurck, wha’ haffened, Tsu-‘hi... all of a su’hen... afh, ufuh」
 
 #「ふぅっ......道連れは無理でも、少しくらい感じさせてやるっ...」
+#SCRIPT ORIGINAL 「ふぅっ……道連れは無理でも、少しくらい感じさせてやるっ…」
 ＠Itsuki
 「Huff... if I have to go along with you, I’ll at least turn you on a bit too...」
 
 #「んぅふっ......っくん...ふふ......いはひのはいごっへ（イタチの最後っ屁）ね...」
+#SCRIPT ORIGINAL 「んぅふっ……っくん…ふふ……いはひのはいごっへ（イタチの最後っ屁）ね…」
 ＠Zakuro,Q00671
 「Nh, ufh... agh... hehe... i’hs your las’ ‘hitch effor’, huh...」
 
 #「............」
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
 
 #何を言ってるのか分からないが、何となくほくそ笑まれた気がした。
+#SCRIPT ORIGINAL 何を言ってるのか分からないが、何となくほくそ笑まれた気がした。
 　I could hardly understand what she said, but either way I felt her snickering at me.
 
 #「ぅんっ...いいわ、やっへみて......くちゅつっ、じゅぶぶっ!」
+#SCRIPT ORIGINAL 「ぅんっ…いいわ、やっへみて……くちゅつっ、じゅぶぶっ！」
 ＠Zakuro,Q00672
 「Ungh... it’s fine, go for i’h... suck smulch, brrblurch!」
 
 #「んぅりゅっ、くちゅぅっ! にぢゅっ、ぢゅぅっ......にちゅむっ! ぢゅちゅるっ!」
+#SCRIPT ORIGINAL 「んぅりゅっ、くちゅぅっ！　にぢゅっ、ぢゅぅっ……にちゅむっ！　ぢゅちゅるっ！」
 ＠Zakuro,Q00673
 「Nhhrmhh, suck! Shluck, julp... kershlim! Shlurp glurck!」
 
 #挑戦的に言うと、肉茎全体に掛けるフェラチオと手の動きが、クンニなどお構いなく加速されていく。
+#SCRIPT ORIGINAL 挑戦的に言うと、肉茎全体に掛けるフェラチオと手の動きが、クンニなどお構いなく加速されていく。
 　She challenges me, as her hand and mouth, entirely covering my cock, speed up without a care to my cunnilingus.
 
 #「ちゅぢゅっ、ぢゅぅっ! ぞじゅじゅッ......ちゅぶちゅっ、きゅぶぅっ!」
+#SCRIPT ORIGINAL 「ちゅぢゅっ、ぢゅぅっ！　ぞじゅじゅッ……ちゅぶちゅっ、きゅぶぅっ！」
 ＠Zakuro,Q00674
 「Jlurck, julp! Julgh glurck... kershlub, burblurch!」
 
 #「......ッんく! うッ、んんぅ...!」
+#SCRIPT ORIGINAL 「……ッんく！　うッ、んんぅ…！」
 ＠Itsuki
 「...Ngh! Ugh, nnhh...!」
 
 #「くぢゅっ、ぢゅりゅぅっ! ろぉひたの、もっと頑張ららいの......くぶむっ、ぢゅるるっ......ぢゅぶぅっ! んくん!」
+#SCRIPT ORIGINAL 「くぢゅっ、ぢゅりゅぅっ！　ろぉひたの、もっと頑張ららいの……くぶむっ、ぢゅるるっ……ぢゅぶぅっ！　んくん！」
 ＠Zakuro,Q00675
 「Suckk, jlurck! Wha’s de ma’her, can’h you do any be’her...? Glub, shlrrrp... jlub! Mngh!」
 
 #「んぅくっ...ぢゅぷぅっ! おひんひんはもう、ビクビクひてるわよ......ぴぢゅるっ、ちゅるぅっ! ねぢゅちゅっ」
+#SCRIPT ORIGINAL 「んぅくっ…ぢゅぷぅっ！　おひんひんはもう、ビクビクひてるわよ……ぴぢゅるっ、ちゅるぅっ！　ねぢゅちゅっ」
 ＠Zakuro,Q00676
 「Mghh... jlip! Your ‘hick’s ‘hwiching by now... kershlip, shlurck! Suck, nngh!」
 
 #オレは恥を捨てて、Zakuroの幼い恥丘に顔を埋め、先ほどより愛液の味が多いスリットを強く舐めまわす。
+#SCRIPT ORIGINAL オレは恥を捨てて、ざくろの幼い恥丘に顔を埋め、先ほどより愛液の味が多いスリットを強く舐めまわす。
 　Putting aside my shame, I buried my face in Zakuro’s young mound, and tasting even more strongly of love juices lick up her slit.
 
 #その熱い女の子の味と香りは、いやがおうにも肉茎の情欲と興奮を促進させるものだ。
+#SCRIPT ORIGINAL その熱い女の子の味と香りは、いやがおうにも肉茎の情欲と興奮を促進させるものだ。
 　The taste and scent of that young girl spurs on my penis’s lust and arousal against my will.
 
 #「......んぅッ! くぅッ...ふぅっ、ふぅっ!」
+#SCRIPT ORIGINAL 「……んぅッ！　くぅッ…ふぅっ、ふぅっ！」
 ＠Itsuki
 「...Nhh! Ungh... pant, pant!」
 
 #「ちゅびるっ、ぢゅちゅぅっ! ねちゅぅっ、んくぢゅっ......れるりゅっ、ぢゅぬっ、ぢゅぶぅっ!」
+#SCRIPT ORIGINAL 「ちゅびるっ、ぢゅちゅぅっ！　ねちゅぅっ、んくぢゅっ……れるりゅっ、ぢゅぬっ、ぢゅぶぅっ！」
 ＠Zakuro,Q00677
 「Slurp suck! Shlorp! Shlip, nh, shurckk... lick lick, lap, grblrr!」
 
 #「ぴぢゅぅっ! ちゅるちゅっ、れぢゅぅっ......これは、圧勝かひら...んぅくっ、ふぢゅるっ、くぶぅっ!」
+#SCRIPT ORIGINAL 「ぴぢゅぅっ！　ちゅるちゅっ、れぢゅぅっ……これは、圧勝かひら…んぅくっ、ふぢゅるっ、くぶぅっ！」
 ＠Zakuro,Q00678
 「Jlip! Shlurp shlrr, glurck... ‘his is a total ’hictory, I ‘hink... unh, fuh, slurp, blurck!」
 
 #それでも舌使いが乱れるオレと違い、
+#SCRIPT ORIGINAL それでも舌使いが乱れるオレと違い、
 　Still, as opposed to my haphazard tongue-licking, Zakuro works up my cock, that’s sticky down to the balls, to the brink of climax. 
 
 #SCRIPT IGNORE
@@ -1501,98 +1777,123 @@ voice_bg	"Q90002"
 #SCRIPT IGNORE END
 
 #「っはぁ! な、何で......全然平気なのかっ...」
+#SCRIPT ORIGINAL 「っはぁ！　な、何で……全然平気なのかっ…」
 ＠Itsuki
 「Haa! W-why is it that... you’re not bothered at all...!」
 
 #「んるちゅっ、ちゅぶぅっ...ううん、濡れれるし、もひろん気持ひいいわよ......くちゅむっ! ぢゅぢゅっ、くりゅぢゅっ!」
+#SCRIPT ORIGINAL 「んるちゅっ、ちゅぶぅっ…ううん、濡れれるし、もひろん気持ひいいわよ……くちゅむっ！　ぢゅぢゅっ、くりゅぢゅっ！」
 ＠Zakuro,Q00679
 「Nhrr, suck, shlurb... nope, obvioushly it feels goo’h since I’rm ge’hing we’... shlurck! Julp, kerjlip!」
 
 #「れも、つっひーのおひんひんの興味が強いから......んちゅるっ! ちゅぢゅぅっ! ぢゅちゅっ! ぬぢゅぅっ...早く、しゃへいが見はいの」
+#SCRIPT ORIGINAL 「れも、つっひーのおひんひんの興味が強いから……んちゅるっ！　ちゅぢゅぅっ！　ぢゅちゅっ！　ぬぢゅぅっ…早く、しゃへいが見はいの」
 ＠Zakuro,Q00680
 「But I’m su’her in’hwested in your co’h right now, so... nh, suck! Shlurp! Shlrrp! Jlich... I wanna see i’h come soon...」
 
 #「れちゅるっ! にりゅぅっ、んぢゅっ! んぢゅるっ! くぶむぅっ......んぅふっ、れりゅむっ!」
+#SCRIPT ORIGINAL 「れちゅるっ！　にりゅぅっ、んぢゅっ！　んぢゅるっ！　くぶむぅっ……んぅふっ、れりゅむっ！」
 ＠Zakuro,Q00681
 「Lick, shlick! Glrrp, nh, suck! Kershluck! Glurbhh... unfh, lick, shlurm!」
 
 #一応それも行為に酔っているのか......微妙に判断に迷う答えを返すZakuro。
+#SCRIPT ORIGINAL 一応それも行為に酔っているのか……微妙に判断に迷う答えを返すざくろ。
 　Perhaps, losing sight and intoxicated with the deed... Zakuro’s response is lacking.
 
 #限界まで硬く勃起した肉茎をピストンさせる口腔内に、前回と同じように熱く濃い唾液を溢れさせていく。
+#SCRIPT ORIGINAL 限界まで硬く勃起した肉茎をピストンさせる口腔内に、前回と同じように熱く濃い唾液を溢れさせていく。
 　Her mouth, pistoning on my fully hard, erect cock, brims over with hot and thick saliva just like last time.
 
 voice_bg	"Q90003"
 
 #「ぞじゅじゅッ! ぢゅるぢゅッ...ぬぢゅぅっ! ぢゅぢゅぶッ、くぢゅっ、くぢゅるぅっ!」
+#SCRIPT ORIGINAL 「ぞじゅじゅッ！　ぢゅるぢゅッ…ぬぢゅぅっ！　ぢゅぢゅぶッ、くぢゅっ、くぢゅるぅっ！」
 ＠Zakuro,Q00682
 「Julch, jrrble! Shlurch... shulp! Julb, shlub, suck suck, kershlick!」
 
 #「にぢゅるッ、ぐぢゅぅっ! じゅぢゅッ、ずぢゅぢゅッ......れちゅるぅッ! くぢゅむ!」
+#SCRIPT ORIGINAL 「にぢゅるッ、ぐぢゅぅっ！　じゅぢゅッ、ずぢゅぢゅッ……れちゅるぅッ！　くぢゅむ！」
 ＠Zakuro,Q00683
 「Glich, shlurb! Sluck, shlarb, glup grrble... lick, shlick! Shlurck!」
 
 #「......ッんぅ! ぅあッ...だ、唾液が、Zakuroッ...今そんなにされたらッ...」
+#SCRIPT ORIGINAL 「……ッんぅ！　ぅあッ…だ、唾液が、ざくろッ…今そんなにされたらッ…」
 ＠Itsuki
 「...Nhh! Uagh... Zakuro, y-your spit’s...! If you do that now, I’ll...!」
 
 #「ぢゅぷるッ! ぢゅぢゅぅっ、んぐちゅッ...ひゅごい、つっひー......ビクイウっれ、まだ硬くなっれる......ふぐむッ、ちゅぢゅぅっ!」
+#SCRIPT ORIGINAL 「ぢゅぷるッ！　ぢゅぢゅぅっ、んぐちゅッ…ひゅごい、つっひー……ビクイウっれ、まだ硬くなっれる……ふぐむッ、ちゅぢゅぅっ！」
 ＠Zakuro,Q00684
 「Plip plurch! Surckk, ngh, gulch... a’whazing, Tsu-‘hi... i’hs ‘hwobbing and ge’hing e’en har’her... glurb, mh, suckk!」
 
 #「...ここはら濃いろ、いっはい出ひれみて......ぢゅつるッ! にじゅぢゅっ、ぢゅりゅぅッ! くぢゅるっ!」
+#SCRIPT ORIGINAL 「…ここはら濃いろ、いっはい出ひれみて……ぢゅつるッ！　にじゅぢゅっ、ぢゅりゅぅッ！　くぢゅるっ！」
 ＠Zakuro,Q00685
 「Shoot a lo’ of your ‘hick stuff from here... hlub, glurch! Shlup, shlip... shlrrble! Shwip!」
 
 #「ぢゅぐるりゅッ! びじゅぢゅぅッ......じぢゅぅッ、ぢゅびりゅッ! れりゅぐッ、ぐぢゅぅッ!」
+#SCRIPT ORIGINAL 「ぢゅぐるりゅッ！　びじゅぢゅぅッ……じぢゅぅッ、ぢゅびりゅッ！　れりゅぐッ、ぐぢゅぅッ！」
 ＠Zakuro,Q00686
 「Rnngh, gulch! Shlub, shlurb... shlipple, pershlurck! Lick, glub, glurch!」
 
 #ディープスロートする肉茎を、ヌルヌルの唾液と熱い口内粘膜の密着で、激しくシゴき立てるZakuro。
+#SCRIPT ORIGINAL ディープスロートする肉茎を、ヌルヌルの唾液と熱い口内粘膜の密着で、激しくシゴき立てるざくろ。
 　With the adsorbed moist lining of her mouth and spit, Zakuro forcefully strokes my cock, deepthroating it.
 
 #口元からバキュームのような水音が鳴り響き、滴らされる唾液も、次々と口の中で新たに溢れ絡み付いてくる。
+#SCRIPT ORIGINAL 口元からバキュームのような水音が鳴り響き、滴らされる唾液も、次々と口の中で新たに溢れ絡み付いてくる。
 　The wet sounds of her lips resound like a vacuum, as wave after wave of her dribbling saliva brims and coils about inside her mouth.
 
 #「ぐぢゅぶッ! ずぢゅぅッ...ぞぢゅりゅっ、ぢゅぢゅぅッ! にぢゅむっ、ぐちゅぶぅッ」
+#SCRIPT ORIGINAL 「ぐぢゅぶッ！　ずぢゅぅッ…ぞぢゅりゅっ、ぢゅぢゅぅッ！　にぢゅむっ、ぐちゅぶぅッ」
 ＠Zakuro,Q00687
 「Glurch, shlub! Shlrrsh... shlurckle, suck suck! Kershlim, shlup shlugh!」
 
 #「ッくふぅ! ッはぁ......! ま、前よりすごい......気持ちよすぎるて、もうッ...」
+#SCRIPT ORIGINAL 「ッくふぅ！　ッはぁ……！　ま、前よりすごい……気持ちよすぎるて、もうッ…」
 ＠Itsuki
 「Agh, ufh! Pant...! I-it’s more amazing than last time... it feels too good, I can’t...!」
 
 #「ぢゅるぢゅッ、くぢゅぅッ! んぅぶッ......ぅん...しゃへいひてひいわよ、つっひー...んにぢゅッ! ぢゅぐぅッ、ぢゅぐむッ!」
+#SCRIPT ORIGINAL 「ぢゅるぢゅッ、くぢゅぅッ！　んぅぶッ……ぅん…しゃへいひてひいわよ、つっひー…んにぢゅッ！　ぢゅぐぅッ、ぢゅぐむッ！」
 ＠Zakuro,Q00688
 「Jurp, julp! Jluck! Mh, hlubh... yeah, go ahead and ‘hum, Tsu-’hi... nngh, suck! Glich, grshlrrb!」
 
 #「んぢゅるッ、くぶむぅッ! 私みらいら、子供に犯されれ......興奮ひて出ひたひんれしょ...んぢゅぅッ、くぢゅむっ! ぞぢゅるぅッ!」
+#SCRIPT ORIGINAL 「んぢゅるッ、くぶむぅッ！　私みらいら、子供に犯されれ……興奮ひて出ひたひんれしょ…んぢゅぅッ、くぢゅむっ！　ぞぢゅるぅッ！」
 ＠Zakuro,Q00689
 「Shlurck, kershlub! You wanna ge’h off and ‘hum... from being ra’hed by a li’l girl like me... shluck, kershlugh! Shlurp, shlip!」
 
 #「...こんらに硬く勃起する、いやらひいおひんひんらから......ぢゅぶぢゅッ...にぢゅぅッ! ぐぢゅぶっ、じゅぢゅッ、りゅぐぢゅッ!」
+#SCRIPT ORIGINAL 「…こんらに硬く勃起する、いやらひいおひんひんらから……ぢゅぶぢゅッ…にぢゅぅッ！　ぐぢゅぶっ、じゅぢゅッ、りゅぐぢゅッ！」
 ＠Zakuro,Q00690
 「...I mean your cock’s this har’, and perver’hed... Julb, jlurp... shlurm! Gulch, glub, shlip! Shlugh, shlrr!」
 
 #没頭しながらくぐもる、心成し愉楽な声で、犯されてイキそうな肉茎を辱める。
+#SCRIPT ORIGINAL 没頭しながらくぐもる、心成し愉楽な声で、犯されてイキそうな肉茎を辱める。
 　As she puts in the work, she mutters in a heady tone, insulting my poor cock about to come.
 
 #それで恥ずかしさが振り切らされると同時に、Zakuroが一層強く肉茎を吸い上げてきた。
+#SCRIPT ORIGINAL それで恥ずかしさが振り切らされると同時に、ざくろが一層強く肉茎を吸い上げてきた。
 　From there, my embarrassment was shaken out of me, as Zakuro sucked on my cock all the harder.
 
 #「くぢゅるッ、ぬぢゅぅッ! じゅぴぢゅッ、きゅぢゅッ......ぢゅるぅッ! んぅぶッ...れちゅぢゅッ!」
+#SCRIPT ORIGINAL 「くぢゅるッ、ぬぢゅぅッ！　じゅぴぢゅッ、きゅぢゅッ……ぢゅるぅッ！　んぅぶッ…れちゅぢゅッ！」
 ＠Zakuro,Q00691
 「Julck, shlurrgh! Julp, gulch! Splurch... squerp! Nh, glub... rrhblurch!」
 
 #「ぴぢゅぅッ、ぢゅぶぢゅッ! くぢゅるぅッ......ぢゅるるッ、ずぢゅッ! ぢゅぶぢゅぅッ!」
+#SCRIPT ORIGINAL 「ぴぢゅぅッ、ぢゅぶぢゅッ！　くぢゅるぅッ……ぢゅるるッ、ずぢゅッ！　ぢゅぶぢゅぅッ！」
 ＠Zakuro,Q00692
 「Shlerpp, shlugh, shlub! Shlrrble... Jlrrp, glurch! Jurp, jrrble!」
 
 #「っくぅ!......ッはあ! い、いやらしくてもいいッ......Zakuroッ、もう出るッ!」
+#SCRIPT ORIGINAL 「っくぅ！……ッはあ！　い、いやらしくてもいいッ……ざくろッ、もう出るッ！」
 ＠Itsuki
 「Urgh! ...Pant! Whatever, I’m perverted... Zakuro, I’m coming now!」
 
 #「んぅッ! んぐぶぅッ! ぢゅぢゅるッ......ずぢゅッ、ぢゅぶぅッ!」
+#SCRIPT ORIGINAL 「んぅッ！　んぐぶぅッ！　ぢゅぢゅるッ……ずぢゅッ、ぢゅぶぅッ！」
 ＠Zakuro,Q00693
 「Nhh! Nh, glub! Julp, jlrrp... shlich, shlrrrb!」
 
@@ -1603,60 +1904,75 @@ event		"event\EV_ZAK_060-03.png"
 #--------------------------------------------------
 
 #グビュビュゥッ! ビュルルッ...ドクドクッ...ドビュゥッ! ドクン!
+#SCRIPT ORIGINAL グビュビュゥッ！　ビュルルッ…ドクドクッ…ドビュゥッ！　ドクン！
 　Splurt splurrrch! Splurttt... throb throb... splap! Twitch!
 
 #「ぐぶぅぢゅッ......んぅぶッ! ずぢゅッ、んぢゅふぅっ......!」
+#SCRIPT ORIGINAL 「ぐぶぅぢゅッ……んぅぶッ！　ずぢゅッ、んぢゅふぅっ……！」
 ＠Zakuro,Q00694
 「Gulbb, jurck... nrrbh! Splick, shlugh, fuh...!」
 
 #衝動が抑え切れなくなった刹那、オレはZakuroの喉の奥へ怒張を突き入れて射精する。
+#SCRIPT ORIGINAL 衝動が抑え切れなくなった刹那、オレはざくろの喉の奥へ怒張を突き入れて射精する。
 　The moment I couldn’t hold back any longer, I thrust my dick into Zakuro’s throat and climax.
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 #ビュビュルッ...ドクドクッ! ドクンッ! ヂュビュゥッ...ヂュビュビュッ!
+#SCRIPT ORIGINAL ビュビュルッ…ドクドクッ！　ドクンッ！　ヂュビュゥッ…ヂュビュビュッ！
 　Splurt gush... throb throb! Gushh! Splurgge... Gush, spurt spurt!
 
 #「ぐぢゅむぅッ! んぅッ......んぅぶふッ! ぢゅふぅッ、んぢゅるるッ!」
+#SCRIPT ORIGINAL 「ぐぢゅむぅッ！　んぅッ……んぅぶふッ！　ぢゅふぅッ、んぢゅるるッ！」
 ＠Zakuro,Q00695
 「Splup, mh! Ungh... nh, blub, hlub! Gufuh, nh, jlurrrch!」
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 #ドクドクッ...ビュビュゥッ......ドクンッ...ドクッ、ドクンッ......
+#SCRIPT ORIGINAL ドクドクッ…ビュビュゥッ……ドクンッ…ドクッ、ドクンッ……
 　Twitch, throb... spurt, spurt... throb...! Gush, gush...
 
 #「ッくぶぅ...! んぅふッ......ぬぢゅぢゅッ、ぐぢゅぅッ! ぢゅぷッ、ぢゅぶぅッ!」
+#SCRIPT ORIGINAL 「ッくぶぅ…！　んぅふッ……ぬぢゅぢゅッ、ぐぢゅぅッ！　ぢゅぷッ、ぢゅぶぅッ！」
 ＠Zakuro,Q00696
 「Glub...! Nhfuh... gulch, shlurch, suck! Splorp, blurch!」
 
 #積溜まった快楽が爆ぜた射精は、Zakuroの小さい口の中で大量の精液を吐き出していった。
+#SCRIPT ORIGINAL 積溜まった快楽が爆ぜた射精は、ざくろの小さい口の中で大量の精液を吐き出していった。
 　My climax bursting with the accumulated pleasure, it spurts loads of semen into Zakuro’s small mouth.
 
 #「くぶぅっ......っふぅ、んんッ......んぁふ、ッんんぅ...」
+#SCRIPT ORIGINAL 「くぶぅっ……っふぅ、んんッ……んぁふ、ッんんぅ…」
 ＠Zakuro,Q00697
 「Glub... fuhh, nnh... nh, afh... nnhh...」
 
 #射精を終えると、ずっと肉茎を咥えていたZakuroは、さすがに少し荒い呼吸を弾ませる。
+#SCRIPT ORIGINAL 射精を終えると、ずっと肉茎を咥えていたざくろは、さすがに少し荒い呼吸を弾ませる。
 　Once it’s done, Zakuro, who’d held it in her mouth all the way, is breathing heavily as you’d expect.
 
 #「......っく、んぅ...わ、悪いZakuro、つい口に......大丈夫か」
+#SCRIPT ORIGINAL 「……っく、んぅ…わ、悪いざくろ、つい口に……大丈夫か」
 ＠Itsuki
 「...Agh, nhh... m-my bad, Zakuro. I came in your mouth... are you OK?」
 
 #「んぢゅっ、くぢゅぢゅ......んぐっ、ごくんッ...」
+#SCRIPT ORIGINAL 「んぢゅっ、くぢゅぢゅ……んぐっ、ごくんッ…」
 ＠Zakuro,Q00698
 「Nh, julp, glurch... Nguh, gulp...」
 
 #「......っん、んくッ...んくんッ......ごくッ...ごくんッ......」
+#SCRIPT ORIGINAL 「……っん、んくッ…んくんッ……ごくッ…ごくんッ……」
 ＠Zakuro,Q00699
 「...Nh, glub... glub... gulp... gulp...」
 
 #「んくんッ......ん...ぁふぅ......っはぁ」
+#SCRIPT ORIGINAL 「んくんッ……ん…ぁふぅ……っはぁ」
 ＠Zakuro,Q00700
 「Glub... nh... afuh... haa」
 
 #言われずとも舌で絡めながら、口の中の大量の精液の全てを飲み下す。
+#SCRIPT ORIGINAL 言われずとも舌で絡めながら、口の中の大量の精液の全てを飲み下す。
 　Unasked, Zakuro mixes it with her tongue and drinks the entire load of semen in her mouth.
 
 #--------------------------------------------------
@@ -1666,75 +1982,94 @@ voice_bg	"Q90004"
 #--------------------------------------------------
 
 #「っはあ......ん、つっちー...さすがに、ちょっとビックリする量だったかも...」
+#SCRIPT ORIGINAL 「っはあ……ん、つっちー…さすがに、ちょっとビックリする量だったかも…」
 ＠Zakuro,Q00701
 「Gasp... nh, Tsu-chi... there was so much that it took me by surprise, I’d expect no less...」
 
 #それで一段落すると、Zakuroは一息ついて肉茎を解放した。
+#SCRIPT ORIGINAL それで一段落すると、ざくろは一息ついて肉茎を解放した。
 　Calling it quits for the moment, Zakuro lets go of my penis and collects her breath.
 
 #「あ......やっといてなんだが......大丈夫か...?」
+#SCRIPT ORIGINAL 「あ……やっといてなんだが……大丈夫か…？」
 ＠Itsuki
 「Ah... that was really well done, but... you okay...?」
 
 #「...ふぅっ...ぁふ......濃すぎる......まだ喉に絡み付いてるみたい......」
+#SCRIPT ORIGINAL 「…ふぅっ…ぁふ……濃すぎる……まだ喉に絡み付いてるみたい……」
 ＠Zakuro,Q00702
 「...Ufh... afh... it’s way too thick... it’s like it’s still stuck in my throat...」
 
 #「......それと、勢いが過ごすぎ......気管に入りそうだった」
+#SCRIPT ORIGINAL 「……それと、勢いが過ごすぎ……気管に入りそうだった」
 ＠Zakuro,Q00703
 「...And also, the force of it too... it almost went down my windpipe」
 
 voice_bg_stop
 
 #「.........それは何か、不可抗力な気がするが」
+#SCRIPT ORIGINAL 「………それは何か、不可抗力な気がするが」
 ＠Itsuki
 「...All I can say is, that was kind of inevitable」
 
 #「でも、前より勃起も射精も凄かったから、とりあえずは満足してる」
+#SCRIPT ORIGINAL 「でも、前より勃起も射精も凄かったから、とりあえずは満足してる」
 ＠Zakuro,Q00704
 「Still, your hard-on and climax were even crazier than last time. I’m satisfied with it」
 
 #「.........つっちーのは、まだ大きいままね。あれだけ出したのに」
+#SCRIPT ORIGINAL 「………つっちーのは、まだ大きいままね。あれだけ出したのに」
 ＠Zakuro,Q00705
 「...Tsu-chi, your thing hasn’t settled down yet. Even after coming so much」
 
 #どことなく無感情に淡々と告げられる......
+#SCRIPT ORIGINAL どことなく無感情に淡々と告げられる……
 　I’m informed matter-of-factly, somewhat emotionlessly...
 
 #肉茎は射精を終えても勃起したまま、むしろ情欲はさらに高まっていた。
+#SCRIPT ORIGINAL 肉茎は射精を終えても勃起したまま、むしろ情欲はさらに高まっていた。
 　My penis, still hard even after coming, rather was increased in its desire.
 
 #「犯された直後なのに、もしかしてされ足りないの?」
+#SCRIPT ORIGINAL 「犯された直後なのに、もしかしてされ足りないの？」
 ＠Zakuro,Q00706
 「I just finished raping you, but are you still not satisfied?」
 
 #「い、いや、放っておけば納まるだろ......そもそも、言うほど興奮してなかったしな」
+#SCRIPT ORIGINAL 「い、いや、放っておけば納まるだろ……そもそも、言うほど興奮してなかったしな」
 ＠Itsuki
 「N-no, if you just leave it alone, it’ll settle down... it wasn’t as aroused as you said, anyway」
 
 #「ははは......はは...」
+#SCRIPT ORIGINAL 「ははは……はは…」
 ＠Itsuki
 「Hahaha...... haha...」
 
 #原因は分かっている。目の前の、Zakuroのアソコの光景だった。
+#SCRIPT ORIGINAL 原因は分かっている。目の前の、ざくろのアソコの光景だった。
 　I’m well aware why. It’s the sight of Zakuro’s pussy right before my eyes.
 
 #まだ成長途中の幼い背徳さを漂わせ、唾液と愛液で濡れ光る割れ目に、欲情させられる。
+#SCRIPT ORIGINAL まだ成長途中の幼い背徳さを漂わせ、唾液と愛液で濡れ光る割れ目に、欲情させられる。
 　My lusts are brought out by her slit, gleaming wet with spit and juices, and emanating immoral prepubescence.
 
 #「おちんちん、入れたかったら入れて構わないわよ? 私のアソコに」
+#SCRIPT ORIGINAL 「おちんちん、入れたかったら入れて構わないわよ？　私のアソコに」
 ＠Zakuro,Q00707
 「I don’t mind you putting your dick in, if you so wanted. In my place down there」
 
 #「えッ!? な、何でだ......したいなんて言ってないだろうに」
+#SCRIPT ORIGINAL 「えッ！？　な、何でだ……したいなんて言ってないだろうに」
 ＠Itsuki
 「Huh!? W-why’d you say that... I didn’t say that I wanted to, so...」
 
 #「知ってる。念のため」
+#SCRIPT ORIGINAL 「知ってる。念のため」
 ＠Zakuro,Q00708
 「I know. Just making sure」
 
 #「ただ、犯された興奮を鎮めれてないと可哀想だから。一応」
+#SCRIPT ORIGINAL 「ただ、犯された興奮を鎮めれてないと可哀想だから。一応」
 ＠Zakuro,Q00709
 「It’s just, I feel bad, not calming your violated lust. Had to mention it」
 
@@ -1743,9 +2078,11 @@ voice_bg_stop
 @bg_black
 
 #察しているように、Zakuroはショーツとドロワーズを履き直して身体を起こした。
+#SCRIPT ORIGINAL 察しているように、ざくろはショーツとドロワーズを履き直して身体を起こした。
 　Guessing at my intentions, Zakuro moves her body and puts her panties and drawers back on.
 
 #オレもズボンをそのままに身体を起こすと、Zakuroが手首の拘束を解きにかかる。
+#SCRIPT ORIGINAL オレもズボンをそのままに身体を起こすと、ざくろが手首の拘束を解きにかかる。
 　Once I’d gotten up with my pants still undone, Zakuro attends to my wrists that are bound.
 
 window_close
@@ -1764,38 +2101,46 @@ se_stop		0
 @bg_library		# 図書室
 
 #「はい、これで自由」
+#SCRIPT ORIGINAL 「はい、これで自由」
 ＠Zakuro,Q00710
 「There, you’re free now」
 
 @zakuro_metoji		#閉
 
 #「私は今から特売に行ってくるから、雫に言っておいて」
+#SCRIPT ORIGINAL 「私は今から特売に行ってくるから、雫に言っておいて」
 ＠Zakuro,Q00711
 「I’m going to the special sale now, so go tell Shizuku」
 
 #「あ、あぁ......」
+#SCRIPT ORIGINAL 「あ、あぁ……」
 ＠Itsuki
 「S-sure...」
 
 @zakuro_akire		#呆
 
 #まだいきり勃ったままの肉茎をチラリと一瞥すると、あっさり退室しようとする。
+#SCRIPT ORIGINAL まだいきり勃ったままの肉茎をチラリと一瞥すると、あっさり退室しようとする。
 　She takes a last fleeting look at my still erect dick, and hastily makes to exit.
 
 @zakuro_
 
 #（......本気で出て行くのか）
+#SCRIPT ORIGINAL （……本気で出て行くのか）
 ＠Itsuki
 （...She’s actually going away now?）
 
 #情けないと思いながらも、このまま大人しく去らせるほど冷静じゃなかった。
+#SCRIPT ORIGINAL 情けないと思いながらも、このまま大人しく去らせるほど冷静じゃなかった。
 　Sad as it is, I didn’t have the fortitude to let her leave quietly just like that.
 
 #「.........?」
+#SCRIPT ORIGINAL 「………？」
 ＠Zakuro,Q00712
 「...?」
 
 #咄嗟にZakuroの腕を掴み引き止める。
+#SCRIPT ORIGINAL 咄嗟にざくろの腕を掴み引き止める。
 　I promptly grab Zakuro’s arm and hold her back.
 
 @zakuro_middle		# 中間
@@ -1803,10 +2148,12 @@ se_stop		0
 @zakuro			#普
 
 #「何?」
+#SCRIPT ORIGINAL 「何？」
 ＠Zakuro,Q00713
 「What?」
 
 #「.........構わないんだったら、するぞ。Zakuro」
+#SCRIPT ORIGINAL 「………構わないんだったら、するぞ。ざくろ」
 ＠Itsuki
 「...I’ll do it, if you don’t mind. Zakuro」
 
@@ -1820,10 +2167,12 @@ wait			100
 screen_whitein		1
 
 #「んっ......んぅ...」
+#SCRIPT ORIGINAL 「んっ……んぅ…」
 ＠Zakuro,Q00714
 「Nh... ngh...」
 
 #「ふぅっ......つっちー、強引......おちんちん丸出しのまま...」
+#SCRIPT ORIGINAL 「ふぅっ……つっちー、強引……おちんちん丸出しのまま…」
 ＠Zakuro,Q00715
 「Fuh... Tsu-chi, how barbaric... with your dick out in the open...」
 
@@ -1831,21 +2180,26 @@ screen_whitein		1
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 #Zakuroの身体を腕の中に収め、オレは急き気味に服をはだけさせていく。
+#SCRIPT ORIGINAL ざくろの身体を腕の中に収め、オレは急き気味に服をはだけさせていく。
 　Bringing her body back into my arms, I hurriedly begin taking off her clothes.
 
 #「で......め、面倒な服だな。どうやったら脱げるんだ、このっ」
+#SCRIPT ORIGINAL 「で……め、面倒な服だな。どうやったら脱げるんだ、このっ」
 ＠Itsuki
 「So... w-what bothersome clothes. How do you even take this off!?」
 
 #「あんまり乱暴にしないで。破れちゃうから」
+#SCRIPT ORIGINAL 「あんまり乱暴にしないで。破れちゃうから」
 ＠Zakuro,Q00716
 「Don’t be too rough, or you’ll rip them」
 
 #「そんなに私を脱がせたいの......?」
+#SCRIPT ORIGINAL 「そんなに私を脱がせたいの……？」
 ＠Zakuro,Q00717
 「Do you want to undress me that badly...?」
 
 #「......さっき言ったとおりだ。脱がせれないならもう、このままでもいい」
+#SCRIPT ORIGINAL 「……さっき言ったとおりだ。脱がせれないならもう、このままでもいい」
 ＠Itsuki
 「...It’s like you said just now. If I can’t take them off, this’ll have to do」
 
@@ -1853,17 +2207,21 @@ screen_whitein		1
 #@bg_black
 
 #恥ずかしさを虚勢で押し殺して、強引にZakuroの長いスカートをたくし上げる。
+#SCRIPT ORIGINAL 恥ずかしさを虚勢で押し殺して、強引にざくろの長いスカートをたくし上げる。
 　I bluff and hide my embarrassment, as I forcibly roll up Zakuro’s long skirt.
 
 #「っんぅ、ふふ......つっちー、私みたいな年端もない子と、そんなに夢中になってエッチしたいの?」
+#SCRIPT ORIGINAL 「っんぅ、ふふ……つっちー、私みたいな年端もない子と、そんなに夢中になってエッチしたいの？」
 ＠Zakuro,Q00718
 「Nhh, hehe... Tsu-chi, did you lose your senses and want to have sex so badly, with a little girl like me?」
 
 #「そ、そうだ......言いたいことは分かってる。構わないって言っただろ」
+#SCRIPT ORIGINAL 「そ、そうだ……言いたいことは分かってる。構わないって言っただろ」
 ＠Itsuki
 「T-that’s right... you know what I want. You said you didn’t mind, right?」
 
 #「うん。もうしたくてたまらなさそうだから、特別」
+#SCRIPT ORIGINAL 「うん。もうしたくてたまらなさそうだから、特別」
 ＠Zakuro,Q00719
 「Yeah. You look like you can’t bear going without it, so just this once」
 
@@ -1871,28 +2229,35 @@ screen_whitein		1
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 #自分からボレロを脱ぎ、チャックやボタンを弄りながら衣服をズリ下ろすZakuro。
+#SCRIPT ORIGINAL 自分からボレロを脱ぎ、チャックやボタンを弄りながら衣服をズリ下ろすざくろ。
 　Removing her bolero jacket, Zakuro fiddles with the zippers and buttons and pulls down her clothes.
 
 #小さな胸の膨らみが露になり、今度はスカートに手を入れる。
+#SCRIPT ORIGINAL 小さな胸の膨らみが露になり、今度はスカートに手を入れる。
 　The small bulges of her bust become exposed, and she goes on to put her hand in her skirt.
 
 #「下も脱ぐ派?」
+#SCRIPT ORIGINAL 「下も脱ぐ派？」
 ＠Zakuro,Q00720
 「Do you like the bottoms off?」
 
 #「......派も何も、脱がないと入れれないよな。今になって嫌か?」
+#SCRIPT ORIGINAL 「……派も何も、脱がないと入れれないよな。今になって嫌か？」
 ＠Itsuki
 「...Whatever, if you don’t take it off, I can’t put it in. Are you getting cold feet?」
 
 #「ううん、今までも居たから。いろんな性癖の人」
+#SCRIPT ORIGINAL 「ううん、今までも居たから。いろんな性癖の人」
 ＠Zakuro,Q00721
 「Nope, since I had them on until now. People like different things」
 
 #「つっちーがノーマルなら脱ぐから、別に心配しないで」
+#SCRIPT ORIGINAL 「つっちーがノーマルなら脱ぐから、別に心配しないで」
 ＠Zakuro,Q00722
 「I’ll take it off if you want the normal way, so don’t worry about it」
 
 #大人しくドロワーズもズリ下げてショーツを解き、スカートをたくし上げた。
+#SCRIPT ORIGINAL 大人しくドロワーズもズリ下げてショーツを解き、スカートをたくし上げた。
 　Quietly lowering her drawers and undoing her panties, she rolled up her skirt.
 
 #--------------------------------------------------
@@ -1902,43 +2267,54 @@ event		"event\EV_ZAK_070-00.png"
 #--------------------------------------------------
 
 #そのままこちらが指示する前に、後ろ向きで本棚に体重をかけるZakuro。
+#SCRIPT ORIGINAL そのままこちらが指示する前に、後ろ向きで本棚に体重をかけるざくろ。
 　She directs me to stand in front of her, and facing away leans against a bookshelf.
 
 #「この格好で後ろから」
+#SCRIPT ORIGINAL 「この格好で後ろから」
 ＠Zakuro,Q00723
 「We’ll do it from behind」
 
 #「......え?」
+#SCRIPT ORIGINAL 「……え？」
 ＠Itsuki
 「...Huh?」
 
 #「入れて良い代わりに、体位は私が決めたいの」
+#SCRIPT ORIGINAL 「入れて良い代わりに、体位は私が決めたいの」
 ＠Zakuro,Q00724
 「Since I’m letting you put it in, I want to choose the position」
 
 #少し身体を浮かせた前傾姿勢で、肌にスカートが揺れる腰をこちらに向ける。
+#SCRIPT ORIGINAL 少し身体を浮かせた前傾姿勢で、肌にスカートが揺れる腰をこちらに向ける。
 　She sticks her butt out to me, her skirt swaying on her skin, in a forward-bent position.
 
 #さっき間近で見た小ぶりなお尻と、まだ唾液と愛液に濡れた幼い秘裂が視界に映った。
+#SCRIPT ORIGINAL さっき間近で見た小ぶりなお尻と、まだ唾液と愛液に濡れた幼い秘裂が視界に映った。
 　Her little butt that I’d seen close-up just now, and her spit- and juices-soaked young pussy came into view.
 
 #「中途半端だったから、アソコが疼いてる......つっちーのせい」
+#SCRIPT ORIGINAL 「中途半端だったから、アソコが疼いてる……つっちーのせい」
 ＠Zakuro,Q00725
 「We didn’t finish properly, so I’m aching down there... it’s your fault, Tsu-chi」
 
 #「いや、最後までフェラをしたZakuroのせいだ」
+#SCRIPT ORIGINAL 「いや、最後までフェラをしたざくろのせいだ」
 ＠Itsuki
 「No, well it’s your fault that you took the fellatio to the end」
 
 #「どっちでもいい。今度は、そうはしない自信があるんでしょ?」
+#SCRIPT ORIGINAL 「どっちでもいい。今度は、そうはしない自信があるんでしょ？」
 ＠Zakuro,Q00726
 「Either way. You’re confident things will go differently this time, right?」
 
 #「......入れてみて、つっちーのおちんちん。その大きいの」
+#SCRIPT ORIGINAL 「……入れてみて、つっちーのおちんちん。その大きいの」
 ＠Zakuro,Q00727
 「...Go on and try and put your dick in, Tsu-chi. That big thing」
 
 #一瞬窈窕なZakuroの視線に捉われ、オレは逸る気持ちのまま秘裂へ肉茎を押し付けた。
+#SCRIPT ORIGINAL 一瞬窈窕なざくろの視線に捉われ、オレは逸る気持ちのまま秘裂へ肉茎を押し付けた。
 　Still hot-blooded, I pressed my cock up against her pussy, in a flash snared in by Zakuro’s graceful look.
 
 #--------------------------------------------------
@@ -1948,61 +2324,77 @@ voice_bg	"Q90005"
 #--------------------------------------------------
 
 #「んぅっ...くぅんっ! はぁぁっ......!」
+#SCRIPT ORIGINAL 「んぅっ…くぅんっ！　はぁぁっ……！」
 ＠Zakuro,Q00728
 「Nhh... ngh, uhn! Haaa...!」
 
 #自分の欲情で気遣いもないまま、未成熟の秘裂を押し広げていく。
+#SCRIPT ORIGINAL 自分の欲情で気遣いもないまま、未成熟の秘裂を押し広げていく。
 　I push and spread apart her prepubescent snatch, still very unmindful in my lust.
 
 #「んっぅん! 見た目より......まだ大きい...はぁぁっ......ぁふ、んぅっ...!」
+#SCRIPT ORIGINAL 「んっぅん！　見た目より……まだ大きい…はぁぁっ……ぁふ、んぅっ…！」
 ＠Zakuro,Q00729
 「Nh, uhn! It’s even bigger... than it looks... haaa... afuh, nhh...!」
 
 #「...おちんちんが......どんどん中に、押し広げて入ってきてる......ぅんっ、はぁっ...」
+#SCRIPT ORIGINAL 「…おちんちんが……どんどん中に、押し広げて入ってきてる……ぅんっ、はぁっ…」
 ＠Zakuro,Q00730
 「Your penis is... going in slowly, and spreading me out... unh, haa...」
 
 #Zakuroの中も他の子と同様にきついが、調教された膣肉は、柔軟に肉茎に絡みつきながら挿入を導いてくる。
+#SCRIPT ORIGINAL ざくろの中も他の子と同様にきついが、調教された膣肉は、柔軟に肉茎に絡みつきながら挿入を導いてくる。
 　Zakuro’s as tight inside as the other kids, but her trained pussy flesh wraps around my cock softly and guides it in.
 
 #異物が挿入される刺激に呼吸は震わせるが、みかん達と違い痛みの様子は無かった。
+#SCRIPT ORIGINAL 異物が挿入される刺激に呼吸は震わせるが、みかん達と違い痛みの様子は無かった。
 　Her breath shakes at the feel of the intruding thing, but she’s not in pain unlike Mikan and them.
 
 #「っはぁぁ、んぅっ......つっちーの、奥まで入ってきた......あはぁっ...はぁぁっ...」
+#SCRIPT ORIGINAL 「っはぁぁ、んぅっ……つっちーの、奥まで入ってきた……あはぁっ…はぁぁっ…」
 ＠Zakuro,Q00731
 「Haa, nhh... Tsu-chi’s, it’s in all the way... ahaa... haaa...」
 
 #「...てっきり、もっと気遣うかと思ってたけど......一気に入れちゃったの」
+#SCRIPT ORIGINAL 「…てっきり、もっと気遣うかと思ってたけど……一気に入れちゃったの」
 ＠Zakuro,Q00732
 「...I thought, surely you would be more careful, but... you put it in all at once」
 
 #「......クンニの時にZakuro、気遣いは要らないって言ってたろ......」
+#SCRIPT ORIGINAL 「……クンニの時にざくろ、気遣いは要らないって言ってたろ……」
 ＠Itsuki
 「You said I didn’t need to be careful when I was eating you out, Zakuro...」
 
 #「んぅっ、ふぅ...うん......舐めたり入れたりするくらいで......そんなの必要ない...」
+#SCRIPT ORIGINAL 「んぅっ、ふぅ…うん……舐めたり入れたりするくらいで……そんなの必要ない…」
 ＠Zakuro,Q00733
 「Nhh, fuh... yeah... licking or putting it in is nothing... you don’t need to be...」
 
 #「......これまでもっと激しい事も、たくさん要求されてきてるから...」
+#SCRIPT ORIGINAL 「……これまでもっと激しい事も、たくさん要求されてきてるから…」
 ＠Zakuro,Q00734
 「...I’ve done this and worse things too. The customers request lots...」
 
 #いつもの感情の見えない声で、Zakuroがどう思って言ったのかは分からない。
+#SCRIPT ORIGINAL いつもの感情の見えない声で、ざくろがどう思って言ったのかは分からない。
 　Her voice expressionless as usual, I can’t figure out the sentiment behind her words.
 
 #だが実際、このきつさを最奥まで貫いているにもかかわらず、全然余裕があるのは窺えた。
+#SCRIPT ORIGINAL だが実際、このきつさを最奥まで貫いているにもかかわらず、全然余裕があるのは窺えた。
 　But in truth, despite piercing through this tightness all the way inside, I found her to be fully at ease.
 
 #「...つっちー、おちんちんが中で熱くなってきてる......もう待ちきれない?」
+#SCRIPT ORIGINAL 「…つっちー、おちんちんが中で熱くなってきてる……もう待ちきれない？」
 ＠Zakuro,Q00735
 「...Tsu-chi, your dick’s heating up inside... you can’t wait anymore?」
 
 #「あぁ......動かすぞ、Zakuro」
+#SCRIPT ORIGINAL 「あぁ……動かすぞ、ざくろ」
 ＠Itsuki
 「Yeah... I’ll move, Zakuro」
 
 #密着してくる膣肉の中で一度、奥へ入れたばかりの肉茎をギリギリまで引き抜く。
+#SCRIPT ORIGINAL 密着してくる膣肉の中で一度、奥へ入れたばかりの肉茎をギリギリまで引き抜く。
 　I pull my dick out, that I’d just stuck in deep, to the fringe of her adsorbing pussy flesh.
 
 #--------------------------------------------------
@@ -2013,189 +2405,240 @@ screen_transition	1000
 #--------------------------------------------------
 
 #「んっ......っんぅ! ぁふぅっ......」
+#SCRIPT ORIGINAL 「んっ……っんぅ！　ぁふぅっ……」
 ＠Zakuro,Q00736
 「Nh... nhh! Afuh...」
 
 #Zakuroが頷くと、再び最奥まで怒張で貫かせ、ピストンさせ始める。
+#SCRIPT ORIGINAL ざくろが頷くと、再び最奥まで怒張で貫かせ、ピストンさせ始める。
 　Zakuro gives a nod, and I start pistoning, thrusting deep inside her again.
 
 #ニヂュッ...ヂュッ! ヂュブッ......ヂュチュッ、ヂュブブッ...!
+#SCRIPT ORIGINAL ニヂュッ…ヂュッ！　ヂュブッ……ヂュチュッ、ヂュブブッ…！
 　Squelch... gulch! Blurch... Squip, squibble...!
 
 #「んぅっ...! はぁぁっ、あぅんッ...! んはぁっ、はぅっ......」
+#SCRIPT ORIGINAL 「んぅっ…！　はぁぁっ、あぅんッ…！　んはぁっ、はぅっ……」
 ＠Zakuro,Q00737
 「Nhh...! Haaa, auhn...! Nhaa, hau...」
 
 #「ふぅっ、ぅんっ...! んくぅっ、はぁぁっ...はぅっ...あふぅっ...」
+#SCRIPT ORIGINAL 「ふぅっ、ぅんっ…！　んくぅっ、はぁぁっ…はぅっ…あふぅっ…」
 ＠Zakuro,Q00738
 「Fuh, uhn...! Nghh, haaa... hau... afuh...」
 
 #クチュっ!クチュっ!と奥まで突かれながら、Zakuroは小さい吐息を連続させた。
+#SCRIPT ORIGINAL クチュっ！クチュっ！と奥まで突かれながら、ざくろは小さい吐息を連続させた。
 　Zakuro looses short breaths one after the other, with my squelchy thrusts going in.
 
 #「んぅふっ...あふぅっ......これ、つっちーのおちんちんの感触......っはぁぁ...んくっ...」
+#SCRIPT ORIGINAL 「んぅふっ…あふぅっ……これ、つっちーのおちんちんの感触……っはぁぁ…んくっ…」
 ＠Zakuro,Q00739
 「Mh, fuh... afuh... so, this is how Tsu-chi’s cock feels... haaa... ungh...」
 
 #「...硬い......こんなに勃起してるの......っはぁ、んんっ...他の人より、全然すごい...」
+#SCRIPT ORIGINAL 「…硬い……こんなに勃起してるの……っはぁ、んんっ…他の人より、全然すごい…」
 ＠Zakuro,Q00740
 「...It’s hard... and so erect... haa, nnh... much more incredible than other guys...」
 
 #「ん、っく......Zakuroもさすがだ、中の感触......他の子よりもずっといい」
+#SCRIPT ORIGINAL 「ん、っく……ざくろもさすがだ、中の感触……他の子よりもずっといい」
 ＠Itsuki
 「Nh, ugh... Zakuro, you feel amazing inside, too... way better than the other kids」
 
 #Zakuroの媚肉は吸着するように肉茎に絡みつき、ピストンの摩擦を高めていく。
+#SCRIPT ORIGINAL ざくろの媚肉は吸着するように肉茎に絡みつき、ピストンの摩擦を高めていく。
 　The rubbing action intensifies, as Zakuro’s inner flesh wraps up my cock and sticks to it.
 
 #膣路の小ささで全てを挿入することは出来なくても、十分達することが出来そうな快美感だ。
+#SCRIPT ORIGINAL 膣路の小ささで全てを挿入することは出来なくても、十分達することが出来そうな快美感だ。
 　I may not be able to insert fully into her small passage, but the pleasure sure enlivens me just fine.
 
 #「んふぅ...んんっ......! もう、私のソコ、おちんちんに慣れてるから......すぐに馴染むの......はぁっ、あぅんっ...」
+#SCRIPT ORIGINAL 「んふぅ…んんっ……！　もう、私のソコ、おちんちんに慣れてるから……すぐに馴染むの……はぁっ、あぅんっ…」
 ＠Zakuro,Q00741
 「Nfhh... nnh...! I’m used to taking dicks down there by now, so... I’ll adapt quickly... haa, auhn...」
 
 #「あふぅっ......ぅんっ...! はぁぁっ...あふぅ......んぅっ...はぁぁっ」
+#SCRIPT ORIGINAL 「あふぅっ……ぅんっ…！　はぁぁっ…あふぅ……んぅっ…はぁぁっ」
 ＠Zakuro,Q00742
 「Afuh... uhn...! Haaa... afuh... nhh... haaa!」
 
 #「...ぅんんっ、あふぅ...はぁぁ...! もしかして、つっちー......もう自信なくなったの......?」
+#SCRIPT ORIGINAL 「…ぅんんっ、あふぅ…はぁぁ…！　もしかして、つっちー……もう自信なくなったの……？」
 ＠Zakuro,Q00743
 「...Uhnn, afuh... haaa...! Tsu-chi, by any chance, did you... lose faith in yourself already...?」
 
 #こちらの逸る欲情が腰使いに表れ、Zakuroに微笑交じりの言葉を向けられる。
+#SCRIPT ORIGINAL こちらの逸る欲情が腰使いに表れ、ざくろに微笑交じりの言葉を向けられる。
 　Zakuro remarked at me with a smile, my frenzied passions obvious from my hips.
 
 #「...んふ......ふぅっ...他の人も、今のつっちーみたいに......気持ちよさそうに腰を動かしてるのよ...」
+#SCRIPT ORIGINAL 「…んふ……ふぅっ…他の人も、今のつっちーみたいに……気持ちよさそうに腰を動かしてるのよ…」
 ＠Zakuro,Q00744
 「...Nfh... fuh... the other guys, they move their hips and enjoy it... just like you are right now, Tsu-chi...」
 
 #「っん...見くびるな、これくらい......今度はZakuroを喘がせるから、覚悟しろよ」
+#SCRIPT ORIGINAL 「っん…見くびるな、これくらい……今度はざくろを喘がせるから、覚悟しろよ」
 ＠Itsuki
 「Angh... don’t underestimate me, this is nothing... I’ll make you gasp this time, Zakuro. Prepare yourself」
 
 #「んんっ...! あふぅっ......っはぁ、うん...頑張って...」
+#SCRIPT ORIGINAL 「んんっ…！　あふぅっ……っはぁ、うん…頑張って…」
 ＠Zakuro,Q00745
 「Nnh...! Afuh... haa, sure... do your best...」
 
 #まるで他人事のように励ます......というより、
+#SCRIPT ORIGINAL まるで他人事のように励ます……というより、
 　She encourages me like she doesn’t even care... actually...
 
 #こんな時でさえも、やはりどこか考えを読み取りにくい普段どおりのZakuroだ。
+#SCRIPT ORIGINAL こんな時でさえも、やはりどこか考えを読み取りにくい普段どおりのざくろだ。
 　Even at a time like this, she’s still the same old Zakuro that’s impossible to read.
 
 #「つっちー、おちんちんは大きいから......んぅふっ...はぁっ...素質はあると思う...」
+#SCRIPT ORIGINAL 「つっちー、おちんちんは大きいから……んぅふっ…はぁっ…素質はあると思う…」
 ＠Zakuro,Q00746
 「Tsu-chi, your dick’s big, so... nh, fuh... haa... I’d say it has potential...」
 
 #「...あとは、早漏だから......ただの持ち腐れだけど......っはぁぁ...んぅふっ......」
+#SCRIPT ORIGINAL 「…あとは、早漏だから……ただの持ち腐れだけど……っはぁぁ…んぅふっ……」
 ＠Zakuro,Q00747
 「...But you come too soon... it’s nothing but a decoration... haaa... mfuh...」
 
 #「くんっ! はぁぁ...ぅんっ......! んぅふ...はぁぁっ......くぅんっ...」
+#SCRIPT ORIGINAL 「くんっ！　はぁぁ…ぅんっ……！　んぅふ…はぁぁっ……くぅんっ…」
 ＠Zakuro,Q00748
 「Kuhn! Haaa... uhn...! Nhhfh... haa... ungh...」
 
 #Zakuroの中は幼さによるきつさと、経験による媚肉の熱と柔軟さで、出入りさせる肉茎に圧倒的な快楽を走らせる。
+#SCRIPT ORIGINAL ざくろの中は幼さによるきつさと、経験による媚肉の熱と柔軟さで、出入りさせる肉茎に圧倒的な快楽を走らせる。
 　An overwhelming pleasure runs through my cock going in and out, from her tight young pussy, and soft heat of her experienced flesh.
 
 #巧みなシックスナインからの気の逸りもあって、肉茎がかなり敏感になっている。
+#SCRIPT ORIGINAL 巧みなシックスナインからの気の逸りもあって、肉茎がかなり敏感になっている。
 　My cock’s gotten pretty sensitive, my agitation from her expert 69er feeding it as well.
 
 #「んぁんっ! はぁぁっ......ん! はぁっ......んふぅっ、んぅっ...」
+#SCRIPT ORIGINAL 「んぁんっ！　はぁぁっ……ん！　はぁっ……んふぅっ、んぅっ…」
 ＠Zakuro,Q00749
 「Nhahn! Haaa... nh! Haa... nfuh, nhh...」
 
 #射精直後なので何とか余裕を保ち、オレはZakuroの中をピストンで堪能した。
+#SCRIPT ORIGINAL 射精直後なので何とか余裕を保ち、オレはざくろの中をピストンで堪能した。
 　I just came so managing to stay in control, I pump in and out of Zakuro to my satisfaction.
 
 #「んぅふっ...! あふぅっ...はぁっ...つっちーの、出入りしながら......熱くなってきてる...」
+#SCRIPT ORIGINAL 「んぅふっ…！　あふぅっ…はぁっ…つっちーの、出入りしながら……熱くなってきてる…」
 ＠Zakuro,Q00750
 「Nhh, fuh...! Afuh... haa... Tsu-chi’s is getting hotter... going in and out...」
 
 #「んふぅっ...んん! はぁぁ......二回も先にイッたら、恥の上塗りよ......?」
+#SCRIPT ORIGINAL 「んふぅっ…んん！　はぁぁ……二回も先にイッたら、恥の上塗りよ……？」
 ＠Zakuro,Q00751
 「Nfuh... nnh! Haaa... it’s another layer of shame, if you come before me twice...?」
 
 #「......言われなくても、分かってるさ......イクわけないだろう...」
+#SCRIPT ORIGINAL 「……言われなくても、分かってるさ……イクわけないだろう…」
 ＠Itsuki
 「...No kidding, I know... there’s no way I’d come...」
 
 #ニヂュッ、ヂュヂュッ......ヂュブッ! ヂュブブッ...!
+#SCRIPT ORIGINAL ニヂュッ、ヂュヂュッ……ヂュブッ！　ヂュブブッ…！
 　Squelch, squerch... julp! Jlubbb...!
 
 #「んぅふっ...! ぁふぅ、はぁぁっ......んっ...んんぅっ!」
+#SCRIPT ORIGINAL 「んぅふっ…！　ぁふぅ、はぁぁっ……んっ…んんぅっ！」
 ＠Zakuro,Q00752
 「Nuh, fuh...! Afuh, haaa... nh... nnhh!」
 
 #強く否定できずに、最奥まで怒張を突きいれ、Zakuroの溶かされそうな熱の媚肉を前後に捲り返す。
+#SCRIPT ORIGINAL 強く否定できずに、最奥まで怒張を突きいれ、ざくろの溶かされそうな熱の媚肉を前後に捲り返す。
 　I can’t object too strongly, as thrusting in my cock as deeply as possible, I go back and forth turning up her melty insides.
 
 voice_bg	"Q90006"
 
 #「はぁぁっ、んぅ...! ぁふうっ! つっちー...はぁぁ......んくんっ......んふぅっ...!」
+#SCRIPT ORIGINAL 「はぁぁっ、んぅ…！　ぁふうっ！　つっちー…はぁぁ……んくんっ……んふぅっ…！」
 ＠Zakuro,Q00753
 「Haaa, nhh...! Afuh! Tsu-chi... haaa... nkuhn... nfuh...!」
 
 #ニチュヂュッ...ヂュブブッ......クヂュ! ヂュクッ、ヂュチュッ!
+#SCRIPT ORIGINAL ニチュヂュッ…ヂュブブッ……クヂュ！　ヂュクッ、ヂュチュッ！
 　Kershlip... julp, gulch... shwich! Shlugh, squelch!
 
 #「んっ、はぁぁっ......アソコの中、拡がって...引っ張られてるみたい......んふぅっ...んんっ...!」
+#SCRIPT ORIGINAL 「んっ、はぁぁっ……アソコの中、拡がって…引っ張られてるみたい……んふぅっ…んんっ…！」
 ＠Zakuro,Q00754
 「Nh, haaa... You’re stretching me down there... like you’re dragging it out... nfuh... nnh...!」
 
 #「んぅふ......はぁぁっ...! はぁ...ぅんっ......あふぅ......はぁぁっ!」
+#SCRIPT ORIGINAL 「んぅふ……はぁぁっ…！　はぁ…ぅんっ……あふぅ……はぁぁっ！」
 ＠Zakuro,Q00755
 「Nhh, fuh... haaa...! Haa... uhn... afuh... haaa!」
 
 #熱っぽい吐息と共に身体を揺さぶられ、Zakuroの長い黒髪がサラサラと散り揺れる。
+#SCRIPT ORIGINAL 熱っぽい吐息と共に身体を揺さぶられ、ざくろの長い黒髪がサラサラと散り揺れる。
 　Zakuro’s long black hair sways about silky, as her body’s jolted and she breathes hotly.
 
 #その姿と、そこから覗く白い肌に浮かぶ朱色の光景に、思わず相手を忘れて見とれてしまう。
+#SCRIPT ORIGINAL その姿と、そこから覗く白い肌に浮かぶ朱色の光景に、思わず相手を忘れて見とれてしまう。
 　That, and her pale skin with a flushed tone poking through, takes a hold of me and I lose myself.
 
 #「んぅ......っぁぅふ、ふぅっ! ズリュズリュって......アソコの中、奥まで貪られてる...」
+#SCRIPT ORIGINAL 「んぅ……っぁぅふ、ふぅっ！　ズリュズリュって……アソコの中、奥まで貪られてる…」
 ＠Zakuro,Q00756
 「Nhh... aufh, fuh! It’s dragging along, and... you’re devouring my insides all the way in...」
 
 #「...こんなの、きつさと硬さだけで......っくぅん...ふぅっ...! つっちーのおちんちん、他の人より有利かも...」
+#SCRIPT ORIGINAL 「…こんなの、きつさと硬さだけで……っくぅん…ふぅっ…！　つっちーのおちんちん、他の人より有利かも…」
 ＠Zakuro,Q00757
 「...Just by how tight it is, and the hardness... kuhn... fuh...! Tsu-chi’s dick might be worthier than others...」
 
 #「......有利ならもっと...それらしく喘いでくれると嬉しいけど......んっ、くぅ...!」
+#SCRIPT ORIGINAL 「……有利ならもっと…それらしく喘いでくれると嬉しいけど……んっ、くぅ…！」
 ＠Itsuki
 「...If it’s that worthy... I’d like it if you gasp a lot more for me in accord... nh, kuh...!」
 
 #ズチュッ、ヂュチュゥッ...ジュブッ、ニヂュッ...ヂュブブッ...!
+#SCRIPT ORIGINAL ズチュッ、ヂュチュゥッ…ジュブッ、ニヂュッ…ヂュブブッ…！
 　Squrb, squelchh... squerch, squelp... squerbble...!
 
 #「んくぅっ! あぅっ...んぅふっ......それは、つっちーが頑張るんでしょ...?」
+#SCRIPT ORIGINAL 「んくぅっ！　あぅっ…んぅふっ……それは、つっちーが頑張るんでしょ…？」
 ＠Zakuro,Q00758
 「Ungh! Auh... nhh, fuh... you’ll put the work in for that, right Tsu-chi...?」
 
 #「演技なら出来るけど......っんふぅ、はぁぁっ......今は、つっちーのおちんちんの頑張りが見たいの...」
+#SCRIPT ORIGINAL 「演技なら出来るけど……っんふぅ、はぁぁっ……今は、つっちーのおちんちんの頑張りが見たいの…」
 ＠Zakuro,Q00759
 「I can act just fine, but... nfuh, haaa... right now, I want to see your dick putting in work...」
 
 #スッとこちらに、期待と揶揄を孕んだ視線が向けられた。
+#SCRIPT ORIGINAL スッとこちらに、期待と揶揄を孕んだ視線が向けられた。
 　She gives a soft glance at me, filled with hopes and tease.
 
 #「んんっ、あふんっ...! それまで、こっちからは何もしないから......やってみて...」
+#SCRIPT ORIGINAL 「んんっ、あふんっ…！　それまで、こっちからは何もしないから……やってみて…」
 ＠Zakuro,Q00760
 「Nnh, afuhn...! I won’t do anything underhanded if you do... so go for it...」
 
 #「んっ! はぁふ、あふぅっ...! はぁぁっ......んっ...んふぅ、はぁぁっ......」
+#SCRIPT ORIGINAL 「んっ！　はぁふ、あふぅっ…！　はぁぁっ……んっ…んふぅ、はぁぁっ……」
 ＠Zakuro,Q00761
 「Nh! Haafh, afuh...! Haaa... nh... nfuh, haaa...」
 
 #「んぅっ......くぅ...Zakuroっ......!」
+#SCRIPT ORIGINAL 「んぅっ……くぅ…ざくろっ……！」
 ＠Itsuki
 「Nhh... agh... Zakuro...!」
 
 #昂ぶった興奮と怒張の疼きのせいで、オレはただでさえ上質なZakuroの中を、さらに敏感に往復している。
+#SCRIPT ORIGINAL 昂ぶった興奮と怒張の疼きのせいで、オレはただでさえ上質なざくろの中を、さらに敏感に往復している。
 　My excitement and throbbing cock, sensitize my going in and out of Zakuro’s pussy, that’s fine-quality as it is.
 
 #危機感を覚えたオレは、本能的にZakuroの胸へ手を回していた。
+#SCRIPT ORIGINAL 危機感を覚えたオレは、本能的にざくろの胸へ手を回していた。
 　I felt dismayed as I instinctively wrapped my arm around to Zakuro’s chest.
 
 #--------------------------------------------------
@@ -2207,49 +2650,61 @@ screen_transition	1000
 #--------------------------------------------------
 
 #「...っ! んっ、んぅっ...はぅんッ!」
+#SCRIPT ORIGINAL 「…っ！　んっ、んぅっ…はぅんッ！」
 ＠Zakuro,Q00762
 「...! Nh, nhh... hauhn!」
 
 #「んぅふ......っふあ、はぁぁっ! んっ......つっちー......くぅんっ...!」
+#SCRIPT ORIGINAL 「んぅふ……っふあ、はぁぁっ！　んっ……つっちー……くぅんっ…！」
 ＠Zakuro,Q00763
 「Nhh, fuh... fwah, haaa! Nh... Tsu-chi... kuhn...!」
 
 #手の中に小さくも柔らかい、Zakuroの胸の感触が収まってひしゃげる。
+#SCRIPT ORIGINAL 手の中に小さくも柔らかい、ざくろの胸の感触が収まってひしゃげる。
 　I clasp and squish the soft, small sensation of Zakuro’s breast in my hand.
 
 #「はぁぁっ...んくん...! んぅふ......どうしたの、つっちー...腰だけじゃ足りないの...?」
+#SCRIPT ORIGINAL 「はぁぁっ…んくん…！　んぅふ……どうしたの、つっちー…腰だけじゃ足りないの…？」
 ＠Zakuro,Q00764
 「Haaa... nkuhn...! Nhhfh... what’s the matter, Tsu-chi... using just your hips isn’t enough...?」
 
 #「ん、んぅ......そんな他意は......ただ、本能的に...」
+#SCRIPT ORIGINAL 「ん、んぅ……そんな他意は……ただ、本能的に…」
 ＠Itsuki
 「Nh, nhh... I didn’t mean to... it just felt natural...」
 
 #「なら、本能レベルで触りたいってことね......」
+#SCRIPT ORIGINAL 「なら、本能レベルで触りたいってことね……」
 ＠Zakuro,Q00765
 「So you want to touch me at a basic level, huh...」
 
 #「っふぅ......んくん...いいから、続けて......つっちーがしたかったら、触りながらしてもいいから...」
+#SCRIPT ORIGINAL 「っふぅ……んくん…いいから、続けて……つっちーがしたかったら、触りながらしてもいいから…」
 ＠Zakuro,Q00766
 「Fuh... nkuhn... no problem, keep going... you can do it while touching me if you want, Tsu-chi...」
 
 #「......余裕なんだな......ほんとにいいのか...?」
+#SCRIPT ORIGINAL 「……余裕なんだな……ほんとにいいのか…？」
 ＠Itsuki
 「...Well someone’s at ease... are you sure about that...?」
 
 #「...胸でも、おちんちんでも...ん...っんぅふ......つっちーの発散したいようにして......」
+#SCRIPT ORIGINAL 「…胸でも、おちんちんでも…ん…っんぅふ……つっちーの発散したいようにして……」
 ＠Zakuro,Q00767
 「...Go on and let it all out with me... nh... nhfhh... with your dick, or my breasts...」
 
 #「...私は、ちゃんと自信のある余裕だから、平気......」
+#SCRIPT ORIGINAL 「…私は、ちゃんと自信のある余裕だから、平気……」
 ＠Zakuro,Q00768
 「...I’ll be fine, my confidence and ease is tried and true...」
 
 #「......そうか......なら、このまま触らせてもらうな...」
+#SCRIPT ORIGINAL 「……そうか……なら、このまま触らせてもらうな…」
 ＠Itsuki
 「...Think so...? Then, allow me to touch you like this...」
 
 #勧められるまま、手が余るほどの僅かな胸の膨らみをムニムニと揉みさする。
+#SCRIPT ORIGINAL 勧められるまま、手が余るほどの僅かな胸の膨らみをムニムニと揉みさする。
 　At her suggestion, my hand fondles the wee bulges of her chest, too big for them.
 
 #--------------------------------------------------
@@ -2261,32 +2716,40 @@ screen_transition	1000
 #--------------------------------------------------
 
 #「んぅふ! はぁぁっ......んっ...んぅっ...! あふぅっ...」
+#SCRIPT ORIGINAL 「んぅふ！　はぁぁっ……んっ…んぅっ…！　あふぅっ…」
 ＠Zakuro,Q00769
 「Nhhfh! Haaa... nh... nhh...! Afuh...」
 
 #「っん......くふぅっ、つっちー、興奮してるわりに......それなりに上手......んんっ...!」
+#SCRIPT ORIGINAL 「っん……くふぅっ、つっちー、興奮してるわりに……それなりに上手……んんっ…！」
 ＠Zakuro,Q00770
 「Nh... huff, Tsu-chi, you’re pretty good at this... even when you’re so aroused... nnh...!」
 
 #「...はぅんっ......んんぅ、ふぅっ! んふぁっ...! はぁぁっ」
+#SCRIPT ORIGINAL 「…はぅんっ……んんぅ、ふぅっ！　んふぁっ…！　はぁぁっ」
 ＠Zakuro,Q00771
 「...Hauhn... nnhh, fuh! Nh, fwah...! Haaa」
 
 #手で包む感触は幼いながらも、Zakuroからは愛撫に応じた息遣いを吐き出される。
+#SCRIPT ORIGINAL 手で包む感触は幼いながらも、ざくろからは愛撫に応じた息遣いを吐き出される。
 　Though what I feel in my hand is undeveloped, Zakuro’s breath is shot from allowing the caress.
 
 #撫でるようにして揉む指先に、膨らみの先端の小さい突起が擦れた。
+#SCRIPT ORIGINAL 撫でるようにして揉む指先に、膨らみの先端の小さい突起が擦れた。
 　My fingertips hit a little protuberance at her boob tip, feeling up and caressing her.
 
 #「んっ! はぁぁ...! んふぅっ......そこ、硬くなってる......嬉しい...?」
+#SCRIPT ORIGINAL 「んっ！　はぁぁ…！　んふぅっ……そこ、硬くなってる……嬉しい…？」
 ＠Zakuro,Q00772
 「Nh! Haaa...! Nfuh... it’s getting hard, there... are you glad...?」
 
 #「......この程度ではダメだ......Zakuroも、これで満足されたら不本意だろ...?」
+#SCRIPT ORIGINAL 「……この程度ではダメだ……ざくろも、これで満足されたら不本意だろ…？」
 ＠Itsuki
 「...I’m not allowed to just yet... I bet this won’t be enough to satisfy you...?」
 
 #「はぁっ、んん......うん...拍子抜けするところだったから.........んくんっ! んふぁっ...!」
+#SCRIPT ORIGINAL 「はぁっ、んん……うん…拍子抜けするところだったから………んくんっ！　んふぁっ…！」
 ＠Zakuro,Q00773
 「Haa, nnh... Yeah... I could have been disappointed there, actually... nkuhn! Nfwah...!」
 
@@ -2299,229 +2762,292 @@ screen_transition	1000
 #--------------------------------------------------
 
 #ニチュヂュッ、ヂュブッ...! クヂュッ、クヂュゥッ! ニヂュッ! ニチュッ!
+#SCRIPT ORIGINAL ニチュヂュッ、ヂュブッ…！　クヂュッ、クヂュゥッ！　ニヂュッ！　ニチュッ！
 　Squelch squerch, glurch...! Squip, squerp! Shlup! Glup!
 
 #「っくん...! はぁぁっ......はふっ、んん! んぅふぅっ...!」
+#SCRIPT ORIGINAL 「っくん…！　はぁぁっ……はふっ、んん！　んぅふぅっ…！」
 ＠Zakuro,Q00774
 「Kuhn...! Haaa... hafh, nnh! Nhhfh...!」
 
 #手の平で胸をまさぐりながら、そのまま無理のない範囲で腰の律動を深くしていく。
+#SCRIPT ORIGINAL 手の平で胸をまさぐりながら、そのまま無理のない範囲で腰の律動を深くしていく。
 　I elevate the rhythm of my hips, without going too far in and out, while groping her chest in my hand.
 
 #「はぁあ! っんく......つっちー、急に動かれたら...さすがにビックリする......んくんっ、ふぅっ...!」
+#SCRIPT ORIGINAL 「はぁあ！　っんく……つっちー、急に動かれたら…さすがにビックリする……んくんっ、ふぅっ…！」
 ＠Zakuro,Q00775
 「Haaa! Nghh... Tsu-chi, you’ll take me by surprise for sure... if you move all of a sudden... mghn, fuh...!」
 
 #「...それは悪い......けど、だいぶ息が上がってきてるな」
+#SCRIPT ORIGINAL 「…それは悪い……けど、だいぶ息が上がってきてるな」
 ＠Itsuki
 「...Sorry about that... but you’re breathing’s gotten pretty hard, huh」
 
 #クヂュッ、ヂュチュッ...ヂュッ! ニチュグッ、チュヂュッ...!
+#SCRIPT ORIGINAL クヂュッ、ヂュチュッ…ヂュッ！　ニチュグッ、チュヂュッ…！
 　Squib, shlurch... julp! Gulch, shlurck, squerch...!
 
 #「んぅふ! はぁぁっ......んっ、くぅん! あふぅっ......はぁぁ...!」
+#SCRIPT ORIGINAL 「んぅふ！　はぁぁっ……んっ、くぅん！　あふぅっ……はぁぁ…！」
 ＠Zakuro,Q00776
 「Nufuh! Haaa... nhh, kuhn! Afuh... haaa...!」
 
 #「はぁっ...っんんふ...! 腰、止まってないの......謝ってるのに......っはぁ、はふぅっ...!」
+#SCRIPT ORIGINAL 「はぁっ…っんんふ…！　腰、止まってないの……謝ってるのに……っはぁ、はふぅっ…！」
 ＠Zakuro,Q00777
 「Haa... mmfh...! You apologized, but still... your hips are moving... haa, hafuh...!」
 
 #「...ヂュボヂュボって、おちんちんが......んんっ、ふぁぁっ...! アソコの中、夢中で掻き出そうとしてるみたい...!」
+#SCRIPT ORIGINAL 「…ヂュボヂュボって、おちんちんが……んんっ、ふぁぁっ…！　アソコの中、夢中で掻き出そうとしてるみたい…！」
 ＠Zakuro,Q00778
 「...Your dick’s thrusting in me... nnh, fwahh...! ...Like it’s trying to scrape out my pussy without a care in the world...!」
 
 #「んはぁっ......はぁぁ、んぅふ...! んぅっ...んはぁっ、はぁぁっ......くぅん!」
+#SCRIPT ORIGINAL 「んはぁっ……はぁぁ、んぅふ…！　んぅっ…んはぁっ、はぁぁっ……くぅん！」
 ＠Zakuro,Q00779
 「Nhaa... haaa, nufuh...! Nhh... nhaa, haaa... kuhn!」
 
 #背後から抱かれるように胸を弄られながら、徐々に艶を孕んだ声を零すZakuro。
+#SCRIPT ORIGINAL 背後から抱かれるように胸を弄られながら、徐々に艶を孕んだ声を零すざくろ。
 　Zakuro gradually begins to moan, as I feel up her chest draped over her from behind.
 
 #オレは謝罪しながらも、きつく狭い膣路の最奥まで、肉茎を何度も突き入れては往復させる。
+#SCRIPT ORIGINAL オレは謝罪しながらも、きつく狭い膣路の最奥まで、肉茎を何度も突き入れては往復させる。
 　Despite feeling apologetic, I repeat my cock’s thrusting, deep into her tight passage, again and again.
 
 #「っぁうん...はぁぁっ......つっちー...んん! んぅく、良くなってきた......あふぅっ...!」
+#SCRIPT ORIGINAL 「っぁうん…はぁぁっ……つっちー…んん！　んぅく、良くなってきた……あふぅっ…！」
 ＠Zakuro,Q00780
 「Auhn... haaa... Tsu-chi... nnh! Nrgh, you’ve gotten the hang of it... afuh...!」
 
 #「...大きくて硬いの、お腹までズンズン突いてきてる......はぁぁっ、んぅん! あはぅっ...!」
+#SCRIPT ORIGINAL 「…大きくて硬いの、お腹までズンズン突いてきてる……はぁぁっ、んぅん！　あはぅっ…！」
 ＠Zakuro,Q00781
 「...Your big hard thing’s penetrating me to my belly... haaa, nhhn! Ahau...!」
 
 #Zakuroの奥からピストンごとに熱い愛液が滲み、グチグチと粘質な音が攪拌される。
+#SCRIPT ORIGINAL ざくろの奥からピストンごとに熱い愛液が滲み、グチグチと粘質な音が攪拌される。
 　Wet, squelchy noises are stirred up, as hot love juices ooze from inside Zakuro coating my cock.
 
 #秘裂の中は愛液に潤った媚肉が、肉茎に隙間無く絡み付いて擦れ動いた。
+#SCRIPT ORIGINAL 秘裂の中は愛液に潤った媚肉が、肉茎に隙間無く絡み付いて擦れ動いた。
 　The inner flesh of her pussy, damp with juices, wrapped up my cock perfectly and rubbed it.
 
 #「ふぁうっ! はぁッ......んん! はぁっ、あはぁっ......んぁふっ...!」
+#SCRIPT ORIGINAL 「ふぁうっ！　はぁッ……んん！　はぁっ、あはぁっ……んぁふっ…！」
 ＠Zakuro,Q00782
 「Fwauh! Haa... nnh! Haa, ahaa... nhafuh...!」
 
 #そのZakuroの様子に、さっきのシックスナインでの仕返しを思いつく。
+#SCRIPT ORIGINAL そのざくろの様子に、さっきのシックスナインでの仕返しを思いつく。
 　Seeing her like this, I get an idea to even up the score for the 69er before.
 
 #「っく、んん......今度はこっちの番だ、Zakuroっ......どこが気持ちいいのか言ってみな」
+#SCRIPT ORIGINAL 「っく、んん……今度はこっちの番だ、ざくろっ……どこが気持ちいいのか言ってみな」
 ＠Itsuki
 「Urgh, nnh... it’s your turn now, Zakuro... why don’t you try telling me where it feels good?」
 
 #「っあふ、はぁぁっ......んぅく! それ言うの、もしかしてさっきの仕返し......っはぁふ、んはぁ!」
+#SCRIPT ORIGINAL 「っあふ、はぁぁっ……んぅく！　それ言うの、もしかしてさっきの仕返し……っはぁふ、んはぁ！」
 ＠Zakuro,Q00783
 「Afuh, haaa... nrgh! By any chance, are you making me say that to get even for before...? Haafh, nhaa!」
 
 #「そうだ、オレは言わなかったけど、Zakuroは我慢できるかっ......?」
+#SCRIPT ORIGINAL 「そうだ、オレは言わなかったけど、ざくろは我慢できるかっ……？」
 ＠Itsuki
 「That’s right. I never said it in the end, let’s see how well you can hold off...!」
 
 #射精を耐えられるギリギリまで、ピストンの勢いを強めてZakuroを責め尽くす。
+#SCRIPT ORIGINAL 射精を耐えられるギリギリまで、ピストンの勢いを強めてざくろを責め尽くす。
 　I attack Zakuro and intensify my fierce thrusts, to the brink of bringing on my own climax.
 
 #「はあぁッ、んくぅッ...! あぅっ、はぁぁッ......あはぁっ、んはふッ!」
+#SCRIPT ORIGINAL 「はあぁッ、んくぅッ…！　あぅっ、はぁぁッ……あはぁっ、んはふッ！」
 ＠Zakuro,Q00784
 「Haaa, nghh...! Auh, haaa... ahaa, nhafuh!」
 
 #ニヂュッ、ヂュチュッ! ヂュブゥッ...ヂュブブッ、クヂュッ!
+#SCRIPT ORIGINAL ニヂュッ、ヂュチュッ！　ヂュブゥッ…ヂュブブッ、クヂュッ！
 　Squerp, squelch! Gurbble... julck shluck, shlugh!
 
 #「んぁうッ! はぁぁッ......つっちー、思ってたよりすごい......おマンコが気持ちよくなってくる、ッあふぅ! はあぁッ...」
+#SCRIPT ORIGINAL 「んぁうッ！　はぁぁッ……つっちー、思ってたよりすごい……おマンコが気持ちよくなってくる、ッあふぅ！　はあぁッ…」
 ＠Zakuro,Q00785
 「Nhau! Haaa... Tsu-chi, it’s more than I could’ve imagined... my pussy feels so good... afuh! Haaa...!」
 
 #「おチンポがこんな、子種を植えつけたそうに......あぅん! んんッ、はあぁっ! 子宮までズンズン、先端を擦りつけて来てるからっ......」
+#SCRIPT ORIGINAL 「おチンポがこんな、子種を植えつけたそうに……あぅん！　んんッ、はあぁっ！　子宮までズンズン、先端を擦りつけて来てるからっ……」
 ＠Zakuro,Q00786
 「You’re dick’s crazy, like it wants to plant its sperm... auhn! Nnh, haaa! It’s thudding and pressing up against my womb...」
 
 #「......って、あっさりと言うんじゃない!」
+#SCRIPT ORIGINAL 「……って、あっさりと言うんじゃない！」
 ＠Itsuki
 「...Wait a minute, don’t say it without blinking an eye!」
 
 #さすがZakuro。
+#SCRIPT ORIGINAL さすがざくろ。
 　As usual, Zakuro.
 
 #オレが主導権を取る間もなく、あっさりと言葉を口にした。
+#SCRIPT ORIGINAL オレが主導権を取る間もなく、あっさりと言葉を口にした。
 　Before I could take control, she said it without batting an eyelid.
 
 #「んクゥ! はぁぁッ、このくらいのことで、動揺なんてしないから......ッんふぅ!」
+#SCRIPT ORIGINAL 「んクゥ！　はぁぁッ、このくらいのことで、動揺なんてしないから……ッんふぅ！」
 ＠Zakuro,Q00787
 「Nghhh! Haaa, I wouldn’t be bothered with something as measly as this... nfuh!」
 
 #「っく......結局最後まで、Zakuroに主導権は取られっぱなしなのかよっ......」
+#SCRIPT ORIGINAL 「っく……結局最後まで、ざくろに主導権は取られっぱなしなのかよっ……」
 ＠Itsuki
 「Urgh... So in the end, you’re gonna be the one in control all the way...!」
 
 #抱きしめるように胸を愛撫しながらの抽挿に、怒張は二度目の射精感を渦巻かせていた。
+#SCRIPT ORIGINAL 抱きしめるように胸を愛撫しながらの抽挿に、怒張は二度目の射精感を渦巻かせていた。
 　My cock is threatened to ejaculate again, pumping as I hold her tight and caress her chest.
 
 #さすがに二度も先に出すのは癪だ。
+#SCRIPT ORIGINAL さすがに二度も先に出すのは癪だ。
 　Obviously, I’m peeved with coming first twice.
 
 #オレは一度ピストンを抑え、別の手段を講じようとした。
+#SCRIPT ORIGINAL オレは一度ピストンを抑え、別の手段を講じようとした。
 　I hold my thrusting in check, and try and think of another approach.
 
 #「んはぁッ、あぅん! んぅッ、でも、気持ちいいのはホントだからっ......もっとして、つっちー......あぁう、あふぅ!」
+#SCRIPT ORIGINAL 「んはぁッ、あぅん！　んぅッ、でも、気持ちいいのはホントだからっ……もっとして、つっちー……あぁう、あふぅ！」
 ＠Zakuro,Q00788
 「Nhaa, auhn! Nhh, but I wasn’t lying when I said it felt good, so... keep going, Tsu-chi... aauh, afuh!」
 
 #「おマンコが子宮ごと、ズリズリ引き摺られてるみたい......っんはぁ! くぅうん! おチンポのピストンがすごくてっ...」
+#SCRIPT ORIGINAL 「おマンコが子宮ごと、ズリズリ引き摺られてるみたい……っんはぁ！　くぅうん！　おチンポのピストンがすごくてっ…」
 ＠Zakuro,Q00789
 「It’s like my pussy and my womb is being dragged out... nhaa! Kuuhn! Your cock’s thrusting is amazing...」
 
 #「んくぅッ! 本気になっちゃいそうなの......はぁあッ! あはぁ! こんなサイズのおチンポ、経験も浅いからっ......!」
+#SCRIPT ORIGINAL 「んくぅッ！　本気になっちゃいそうなの……はぁあッ！　あはぁ！　こんなサイズのおチンポ、経験も浅いからっ……！」
 ＠Zakuro,Q00790
 「Nguh! I think it might be really getting to me... haaa! Ahaa! I haven’t experienced a cock this big very much...!」
 
 #激しいピストンを受けながら、Zakuroが捲くし立てるように言ってこちらを見上げる。
+#SCRIPT ORIGINAL 激しいピストンを受けながら、ざくろが捲くし立てるように言ってこちらを見上げる。
 　As she takes my hard pistoning, Zakuro speaks in a rough, minced voice and looks up at me.
 
 #「っふぅ! んはぁっ...! だからもっと、おチンポのお汁でおマンコの中......グチョグチョに掻き回して...!」
+#SCRIPT ORIGINAL 「っふぅ！　んはぁっ…！　だからもっと、おチンポのお汁でおマンコの中……グチョグチョに掻き回して…！」
 ＠Zakuro,Q00791
 「Fuhh! Mhaa...! ...So drench and stir up my pussy some more... with your cock’s juice...!」
 
 #濡れた瞳のその姿に欲情を揺すられ、オレの頭の中から、動きを抑えるという選択肢は無くなった。
+#SCRIPT ORIGINAL 濡れた瞳のその姿に欲情を揺すられ、オレの頭の中から、動きを抑えるという選択肢は無くなった。
 　The sight of her teary eyes igniting my passion, in my mind I didn’t have a choice to resist anymore.
 
 #「分かった、最後までいくぞZakuroッ......」
+#SCRIPT ORIGINAL 「分かった、最後までいくぞざくろッ……」
 ＠Itsuki
 「Alright, I’ll take it all the way, Zakuro...!」
 
 #限界近い怒張を緩めることなく、続けてZakuroの中へ強く押し入れる。
+#SCRIPT ORIGINAL 限界近い怒張を緩めることなく、続けてざくろの中へ強く押し入れる。
 　I slam my cock into Zakuro repeatedly, not giving it a reprieve when it’s close to coming.
 
 #「んぁんッ! んんッ、はぁぁッ! つっちー、おっぱいももっと......んくぅっ! あはぁっ...!」
+#SCRIPT ORIGINAL 「んぁんッ！　んんッ、はぁぁッ！　つっちー、おっぱいももっと……んくぅっ！　あはぁっ…！」
 ＠Zakuro,Q00792
 「Nhaan! Nnh, haaa! Tsu-chi, do my boobs some more too... nghh! Ahaa...!」
 
 #「はぁうん、んぅふッ! 小さくて、揉み辛いと思うけど......気持ちいいから同時にしてっ......」
+#SCRIPT ORIGINAL 「はぁうん、んぅふッ！　小さくて、揉み辛いと思うけど……気持ちいいから同時にしてっ……」
 ＠Zakuro,Q00793
 「Haaun, nhhfh! They’re small, and must be hard to rub, but... it feels good, so do them together...!」
 
 #すっかり性欲に浮かされたオレは頷き、胸の愛撫も再開しながらピストンを繰り返す。
+#SCRIPT ORIGINAL すっかり性欲に浮かされたオレは頷き、胸の愛撫も再開しながらピストンを繰り返す。
 　I nod and resume stroking her chest as I continue pistoning, caught fully in the grip of my desire. 
 
 #ズヂュッ! ヂュブブッ、ニヂュッ、ヂュヂュ! ニチュゥ!
+#SCRIPT ORIGINAL ズヂュッ！　ヂュブブッ、ニヂュッ、ヂュヂュ！　ニチュゥ！
 　Jlurch! Grblurch, shlurch, squirck! Squelp!
 
 #「ッあふ! はあぁっ、んはぁっ...! はあぁうっ......んふぅッ、ふぅくッ、あふぁ!」
+#SCRIPT ORIGINAL 「ッあふ！　はあぁっ、んはぁっ…！　はあぁうっ……んふぅッ、ふぅくッ、あふぁ！」
 ＠Zakuro,Q00794
 「Afuh! Haaa, nhaa...! Haaau... nfuh, fugh, afwah!」
 
 #「んんッ、ひぅん! おマンコもおっぱいも、つっちーにすごく感じさせられてるっ......んくぅ!」
+#SCRIPT ORIGINAL 「んんッ、ひぅん！　おマンコもおっぱいも、つっちーにすごく感じさせられてるっ……んくぅ！」
 ＠Zakuro,Q00795
 「Nnh, hyun! I’m getting really turned on with my boobs and my pussy, thanks to Tsu-chi... nghh!」
 
 #Zakuroの身体は胸の感触も柔らかく火照り、手の中で心地よさを増していく。
+#SCRIPT ORIGINAL ざくろの身体は胸の感触も柔らかく火照り、手の中で心地よさを増していく。
 　The feel of her chest and body softly burning up, was nice to the touch of my hand.
 
 #愛液はまるでフェラチオの唾液のように、秘裂の中の肉茎を熱くたっぷりと膣肉で摩擦する。
+#SCRIPT ORIGINAL 愛液はまるでフェラチオの唾液のように、秘裂の中の肉茎を熱くたっぷりと膣肉で摩擦する。
 　Her pussy flesh rubs hotly against my cock with lots of love juice, almost like the saliva from her fellatio.
 
 #「んぅっはぁ! あふぅっ...! おチンポが強引に、小さい中に出入りしてるの......っんはぁ、んぁう!」
+#SCRIPT ORIGINAL 「んぅっはぁ！　あふぅっ…！　おチンポが強引に、小さい中に出入りしてるの……っんはぁ、んぁう！」
 ＠Zakuro,Q00796
 「Nhh, haa! Afuh...! Your cock’s manhandling my small pussy going in and out... nhaa, nhau!」
 
 #「んぅふ! はぁぁッ、んはぁ! おマンコの奥まで、硬い感触でヂュブヂュブ擦れてるぅ......くぅん! あはぁっ!」
+#SCRIPT ORIGINAL 「んぅふ！　はぁぁッ、んはぁ！　おマンコの奥まで、硬い感触でヂュブヂュブ擦れてるぅ……くぅん！　あはぁっ！」
 ＠Zakuro,Q00797
 「Nufuh! Haaa, nhaa! The hard feel of it’s rubbing and squelching deep inside me... kuhn! Ahaa!」
 
 #「んくぅっ! ゃぁふっ......んはぁ! はあッ、んぅッ! あはあっ! あぁう!」
+#SCRIPT ORIGINAL 「んくぅっ！　ゃぁふっ……んはぁ！　はあッ、んぅッ！　あはあっ！　あぁう！」
 ＠Zakuro,Q00798
 「Nghh! Yaafh... Mhaa! Haa, nuh! Ahaa! Aauh!」
 
 #律動に合わせて吐き出されるZakuroの嬌声は、徐々に感極まっていく。
+#SCRIPT ORIGINAL 律動に合わせて吐き出されるざくろの嬌声は、徐々に感極まっていく。
 　Zakuro’s lovely moans, spilling out in rhythm with me, slowly get out of control.
 
 #オレもZakuroのこんな姿は想像も出来なかったため、その分興奮は逸らされた。
+#SCRIPT ORIGINAL オレもざくろのこんな姿は想像も出来なかったため、その分興奮は逸らされた。
 　Since I couldn’t have imagined this lewd figure of hers, my arousal is just as enthralled.
 
 voice_bg	"Q90007"
 
 #「くぅんッ! んはあッ、つっちー、もっと入れておチンポ......おマンコの底までぇっ...! くふんッ、あぁふぅ!」
+#SCRIPT ORIGINAL 「くぅんッ！　んはあッ、つっちー、もっと入れておチンポ……おマンコの底までぇっ…！　くふんッ、あぁふぅ！」
 ＠Zakuro,Q00799
 「Kuhn! Mhaa, Tsu-chi, poke in your cock some more... as far as my pussy’ll go...! Kufh, nh, aafuh!」
 
 #「こんなすごいの、つっちーのしかないからっ......あはぁっ! んくん、んんふぅ! 射精まで、たくさん中に突き入れてっ...!」
+#SCRIPT ORIGINAL 「こんなすごいの、つっちーのしかないからっ……あはぁっ！　んくん、んんふぅ！　射精まで、たくさん中に突き入れてっ…！」
 ＠Zakuro,Q00800
 「No one else has such a crazy good one as this, so... ahaa! Nkuhn, mmfuh! Thrust it in lots until you come...!」
 
 #もうZakuroの体躯も秘裂の小ささも、オレはすっかり熱に浮かされて失念していた。
+#SCRIPT ORIGINAL もうざくろの体躯も秘裂の小ささも、オレはすっかり熱に浮かされて失念していた。
 　By now, fully engrossed in my lusts, I’d forgotten all about Zakuro’s physique and little pussy.
 
 #欲情のままに、そのまだ幼い性味を、快楽に猛る怒張で貪っていく。
+#SCRIPT ORIGINAL 欲情のままに、そのまだ幼い性味を、快楽に猛る怒張で貪っていく。
 　In a fit of passion, I sexually devour her young taste with my engorged cock. 
 
 #「ッ、くぅ! Zakuro、そろそろッ......」
+#SCRIPT ORIGINAL 「ッ、くぅ！　ざくろ、そろそろッ……」
 ＠Itsuki
 「Ah, ugh! Zakuro, just a bit more...!」
 
 #「ッはぁ! んくんっ、うんッ! 好きなところに、出していいからっ......はあぁ! んはぁッ」
+#SCRIPT ORIGINAL 「ッはぁ！　んくんっ、うんッ！　好きなところに、出していいからっ……はあぁ！　んはぁッ」
 ＠Zakuro,Q00801
 「Haa! Nkuhn, yeah! Come whenever you like... haaa! Nhaa」
 
 #上気したZakuroが応えるままに、オレは膨らんだ亀頭を奥へと押し入れた。
+#SCRIPT ORIGINAL 上気したざくろが応えるままに、オレは膨らんだ亀頭を奥へと押し入れた。
 　In line with Zakuro’s feverish reply, I pushed my swollen glans deep inside.
 
 #「くぅふ! あはぁッ......んっ、ぁあああーーーッ!!」
+#SCRIPT ORIGINAL 「くぅふ！　あはぁッ……んっ、ぁあああーーーッ！！」
 ＠Zakuro,Q00802
 「Ufh, agh! Ahaa... nh, aaahhhhhhーーー!!」
 
@@ -2540,49 +3066,61 @@ voice_bg_stop
 #ドビュビュゥ! ビュルルッ、ドクドク! ドクンッ!
 
 #「んはぁッ! ああッ...はあぁッ、んはぁぁッ!」
+#SCRIPT ORIGINAL 「んはぁッ！　ああッ…はあぁッ、んはぁぁッ！」
 ＠Zakuro,Q00803
 「Nhaa! Ahh...! Haaa, nhaaa!」
 
 #その最奥で、怒張から爆ぜるように白濁を溢れ出させた。
+#SCRIPT ORIGINAL その最奥で、怒張から爆ぜるように白濁を溢れ出させた。
 　Deep within, turgid white stuff spewed out, bursting from my cock.
 
 #「はぁぁッ、んぅ! つっちーの精液、一番奥でぇ......赤ちゃんが出来るっ...」
+#SCRIPT ORIGINAL 「はぁぁッ、んぅ！　つっちーの精液、一番奥でぇ……赤ちゃんが出来るっ…」
 ＠Zakuro,Q00804
 「Haaa, nuh! Tsu-chi’s semen, deep inside mee... I’ll get pregnant...!」
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 #ドクドクンッ...ドビュッ、ビュビュルゥッ! ドクッ、ドクッ!
+#SCRIPT ORIGINAL ドクドクンッ…ドビュッ、ビュビュルゥッ！　ドクッ、ドクッ！
 　Twitch throb... splurt, splurrrchh! Twitch, gush!
 
 #「あふぅっ、んああッ! はあぁッ、んはぁっ......はぁう!」
+#SCRIPT ORIGINAL 「あふぅっ、んああッ！　はあぁッ、んはぁっ……はぁう！」
 ＠Zakuro,Q00805
 「Afhh, nhaa! Haaa, nhaaa... haau!」
 
 #秘裂の中を、ヌルヌルした白濁の感触が満たしていく。
+#SCRIPT ORIGINAL 秘裂の中を、ヌルヌルした白濁の感触が満たしていく。
 　I could feel the sloppy wetness filling up her pussy inside.
 
 #「...っはあ、んんぅ! 子宮まで、ビチャビチャ浴びせられてる......」
+#SCRIPT ORIGINAL 「…っはあ、んんぅ！　子宮まで、ビチャビチャ浴びせられてる……」
 ＠Zakuro,Q00806
 「...Haa, nnhh! It’s spraying and soaking up all the way to my womb...」
 
 #「...二度目なのに、おチンポからこんなに出るなんて......んん! あはぁぅッ」
+#SCRIPT ORIGINAL 「…二度目なのに、おチンポからこんなに出るなんて……んん！　あはぁぅッ」
 ＠Zakuro,Q00807
 「...For a second time, that your dick would come this much... nnh! Ahaau!」
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 #ドクドクッ......ドクン! ドクンッ...ドクッ、ドクッ......!
+#SCRIPT ORIGINAL ドクドクッ……ドクン！　ドクンッ…ドクッ、ドクッ……！
 　Twitch twitch... throb! Gush... throb, gush...!
 
 #Zakuroの中を堪能した波が、ゆっくりと引き、衝動が底を尽きていく。
+#SCRIPT ORIGINAL ざくろの中を堪能した波が、ゆっくりと引き、衝動が底を尽きていく。
 　My urge running out of steam, the waves ebbs away slowly after having its way inside Zakuro.
 
 #「はぁぁっ、あはぁッ......中がいっぱい、ドロドロにされてる...」
+#SCRIPT ORIGINAL 「はぁぁっ、あはぁッ……中がいっぱい、ドロドロにされてる…」
 ＠Zakuro,Q00808
 「Haaa, ahaa... my inside’s full, it’s drenched and slimy...」
 
 #情欲の塊をその小さい身体の中へ全て受け、Zakuroは呼吸を震わせる。
+#SCRIPT ORIGINAL 情欲の塊をその小さい身体の中へ全て受け、ざくろは呼吸を震わせる。
 　Zakuro breathes shakily, the product of my lust taken up entirely in her small body.
 
 #--------------------------------------------------
@@ -2591,60 +3129,76 @@ event		"event\EV_ZAK_070-06.png"
 #--------------------------------------------------
 
 #射精が終わると、溢れ出した精液で周りもドロドロになっていた。
+#SCRIPT ORIGINAL 射精が終わると、溢れ出した精液で周りもドロドロになっていた。
 　Once I’m finished coming, the semen that overflowed soaked up the vicinity too.
 
 #「っふぅ......ん、つっちー、二度目の射精ね......」
+#SCRIPT ORIGINAL 「っふぅ……ん、つっちー、二度目の射精ね……」
 ＠Zakuro,Q00809
 「Fuh... nh, Tsu-chi, you came twice, huh...」
 
 #「え......?」
+#SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「Huh...?」
 
 #同じくそれを感じ、Zakuroが微かに笑みを含みながら、オレを振り返る。
+#SCRIPT ORIGINAL 同じくそれを感じ、ざくろが微かに笑みを含みながら、オレを振り返る。
 　Feeling that as well, Zakuro gives a slight smile, as she looks back at me.
 
 #「また私より先に、つっちーだけイカされて」
+#SCRIPT ORIGINAL 「また私より先に、つっちーだけイカされて」
 ＠Zakuro,Q00810
 「You ended up coming before I did again, Tsu-chi」
 
 #「......けど、Zakuroも喘がせることができた。一応は満足だ」
+#SCRIPT ORIGINAL 「……けど、ざくろも喘がせることができた。一応は満足だ」
 ＠Itsuki
 「...But I succeeded in making you gasp, too. It was pretty okay」
 
 #「うん、喘ぐくらいには気持ちよかった......でもまだ余裕はあったから」
+#SCRIPT ORIGINAL 「うん、喘ぐくらいには気持ちよかった……でもまだ余裕はあったから」
 ＠Zakuro,Q00811
 「Yeah, it did feel good enough to make me gasp... but I had more left in me」
 
 #射精したオレに対し、Zakuroは絶頂を迎えた様子はない。
+#SCRIPT ORIGINAL 射精したオレに対し、ざくろは絶頂を迎えた様子はない。
 　Facing toward me who just came, Zakuro doesn’t seem to have done the same.
 
 #呼吸も悦楽の火照りは孕んでいるが、息切れするほど乱れてはいない。
+#SCRIPT ORIGINAL 呼吸も悦楽の火照りは孕んでいるが、息切れするほど乱れてはいない。
 　She’s breathing hard and flushed with ecstasy, but she’s not too ruffled or out of sorts.
 
 #「まさか......」
+#SCRIPT ORIGINAL 「まさか……」
 ＠Itsuki
 「No way...」
 
 #「...だって最後のとき、動きを弱めようとしてたから。ああ言わないと射精しなかったでしょ?」
+#SCRIPT ORIGINAL 「…だって最後のとき、動きを弱めようとしてたから。ああ言わないと射精しなかったでしょ？」
 ＠Zakuro,Q00812
 「...’Cause at the end, you were letting up a bit. You wouldn’t have come unless I said that, right?」
 
 #確かに、主導権を取ろうと思って何とかしようとは思ったが......
+#SCRIPT ORIGINAL 確かに、主導権を取ろうと思って何とかしようとは思ったが……
 　It’s true, I was considering coming up with a way to take control, but...
 
 #「感じてたのは本当よ。だからあのまま、本当は射精せずに続けて欲しかった」
+#SCRIPT ORIGINAL 「感じてたのは本当よ。だからあのまま、本当は射精せずに続けて欲しかった」
 ＠Zakuro,Q00813
 「I really was getting turned on. So actually, I would have liked if you kept going and didn’t come」
 
 #「う......」
+#SCRIPT ORIGINAL 「う……」
 ＠Itsuki
 「Ugh...」
 
 #期待していただけに、どことなく責めるような視線でオレを見るZakuro。
+#SCRIPT ORIGINAL 期待していただけに、どことなく責めるような視線でオレを見るざくろ。
 　Seeing as she’d been hoping for more, Zakuro gives me a bit of a withering look.
 
 #「ならこのまま、もう一回続けよう」
+#SCRIPT ORIGINAL 「ならこのまま、もう一回続けよう」
 ＠Itsuki
 「Then right here and now, let’s go another round」
 
@@ -2653,6 +3207,7 @@ event		"event\EV_ZAK_070-06.png"
 #--------------------------------------------------
 
 #「え......? んッ、んぁう!」
+#SCRIPT ORIGINAL 「え……？　んッ、んぁう！」
 ＠Zakuro,Q00814
 「Eh...? Nh, nhauu!」
 
@@ -2664,157 +3219,199 @@ screen_transition	1000
 wait	1000
 
 #射精はしたが、まだ硬さを保ったままの怒張を、再び深くまで律動させる。
+#SCRIPT ORIGINAL 射精はしたが、まだ硬さを保ったままの怒張を、再び深くまで律動させる。
 　I just came, but once again I take up a deep rhythm with my cock that managed to stay hard.
 
 #「っあはぁ、はぁッ......つっちー、今はもういい...引き際が悪いっ......くぅん!」
+#SCRIPT ORIGINAL 「っあはぁ、はぁッ……つっちー、今はもういい…引き際が悪いっ……くぅん！」
 ＠Zakuro,Q00815
 「Ahaa, haa... Tsu-chi, it’s enough now... you don’t know when to quit... kuhn!」
 
 #愛液と精液でグチュグチュになったZakuroの膣内を、肉茎のピストンでもう一度かき回す。
+#SCRIPT ORIGINAL 愛液と精液でグチュグチュになったざくろの膣内を、肉茎のピストンでもう一度かき回す。
 　My cock’s pistoning stirs up her pussy, smeared inside with semen and love juices, one more time.
 
 #「んはぁッ、はぁぅ! ふぅッ、んはぁっ......はあぁッ!」
+#SCRIPT ORIGINAL 「んはぁッ、はぁぅ！　ふぅッ、んはぁっ……はあぁッ！」
 ＠Zakuro,Q00816
 「Nhaa, haau! Fuh, nhaa... haaa!」
 
 #ヌヂュヂュッ! クヂュッ、ニュチュゥッ......ヂュプッ、ヂュブブ!
+#SCRIPT ORIGINAL ヌヂュヂュッ！　クヂュッ、ニュチュゥッ……ヂュプッ、ヂュブブ！
 　Julck, julp! Shlurck, squerp... shlip, glurrchh!
 
 #「んッ! あぅぅッ......おチンポ、もう硬くなってる...ビクビクしてっ......」
+#SCRIPT ORIGINAL 「んッ！　あぅぅッ……おチンポ、もう硬くなってる…ビクビクしてっ……」
 ＠Zakuro,Q00817
 「Nh! Auuh... you’re cock’s getting harder again... it’s twitching...」
 
 #「今度こそ、Zakuroをイカせてやるからな」
+#SCRIPT ORIGINAL 「今度こそ、ざくろをイカせてやるからな」
 ＠Itsuki
 「This time, I’ll definitely make you come, Zakuro」
 
 #「んはぁッ、んん! そんなに、ムキにならなくていい......はぅふッ、んぁう!」
+#SCRIPT ORIGINAL 「んはぁッ、んん！　そんなに、ムキにならなくていい……はぅふッ、んぁう！」
 ＠Zakuro,Q00818
 「Nhaa, nnh! You don’t have to get so worked up... haufh, nhau!」
 
 #官能で硬くなったZakuroの乳首を捏ね弄り、怒張を膣壁へ擦り付けるように突き入れる。
+#SCRIPT ORIGINAL 官能で硬くなったざくろの乳首を捏ね弄り、怒張を膣壁へ擦り付けるように突き入れる。
 　I thrusted my cock in rubbing it against her vaginal wall, and twirled Zakuro’s nipples, hard with desire.
 
 voice_bg	"Q90006"
 
 #「はあぁっ、あはぁッ! くふぅんッ! んッ......んんぅぁっ、あはぁぁ!」
+#SCRIPT ORIGINAL 「はあぁっ、あはぁッ！　くふぅんッ！　んッ……んんぅぁっ、あはぁぁ！」
 ＠Zakuro,Q00819
 「Haaa, ahaa! Kufuhn! Nh... nnuah, ahaaa!」
 
 #「んくん! あぁふッ...つっちー、時間がダメ......買い物に行きたいからっ...」
+#SCRIPT ORIGINAL 「んくん！　あぁふッ…つっちー、時間がダメ……買い物に行きたいからっ…」
 ＠Zakuro,Q00820
 「Nghm! Aafh... Tsu-chi, it’s too late... I want to go shopping...!」
 
 #刺激に身体を強張らせるZakuroを無視し、オレ自身が次第にこの行為に夢中になっていく。
+#SCRIPT ORIGINAL 刺激に身体を強張らせるざくろを無視し、オレ自身が次第にこの行為に夢中になっていく。
 　I ignore Zakuro, who stiffened up at the stimulation, as I’m getting lost in the deed myself.
 
 #粘質な水音のする秘部の中を攪拌し、グラインドさせるように腰と怒張を往復させる。
+#SCRIPT ORIGINAL 粘質な水音のする秘部の中を攪拌し、グラインドさせるように腰と怒張を往復させる。
 　Churning up her pussy that’s making a wet, sloppy noise, I grind my hips and cock against her.
 
 #「んぁふッ! はあぁっ、あぁうっ! はぁうんッ......んぅっ! んはぁあっ!」
+#SCRIPT ORIGINAL 「んぁふッ！　はあぁっ、あぁうっ！　はぁうんッ……んぅっ！　んはぁあっ！」
 ＠Zakuro,Q00821
 「Nafuh! Haaa, aauh! Haaun... nhh! Nhaaa!」
 
 #「ッく、んんぅッ......これは調教のせいか。他の子よりも、中の感触が気持ちいい」
+#SCRIPT ORIGINAL 「ッく、んんぅッ……これは調教のせいか。他の子よりも、中の感触が気持ちいい」
 ＠Itsuki
 「Agh, nnh... is it because of training? It feels better inside you than the other kids」
 
 #Zakuroの膣肉は突く度にこちらへ絡みつき、怒張の凹凸がまんべんなく摩擦された。
+#SCRIPT ORIGINAL ざくろの膣肉は突く度にこちらへ絡みつき、怒張の凹凸がまんべんなく摩擦された。
 　As I thrust Zakuro’s pussy flesh twines around, fully massaging the rugged curves of my cock.
 
 #「んんふッ、んはぁッ...! それは、最初から......んぁうっ! あはぁッ...雫も名器って言ってた...」
+#SCRIPT ORIGINAL 「んんふッ、んはぁッ…！　それは、最初から……んぁうっ！　あはぁッ…雫も名器って言ってた…」
 ＠Zakuro,Q00822
 「Nnfh, nhaa...! From the start, Shizuku told me... naauh! Ahaa... it’s a piece de resistance...」
 
 #「名器か......ありきたりだけど、その通りだな」
+#SCRIPT ORIGINAL 「名器か……ありきたりだけど、その通りだな」
 ＠Itsuki
 「Piece de resistance, huh... for an ordinary thing, that’s true」
 
 #クヂュヌッ、ヌヂュッ! ヂュヌヌッ、ニヂュッ...ヂュブッ! ヂュブブ!
+#SCRIPT ORIGINAL クヂュヌッ、ヌヂュッ！　ヂュヌヌッ、ニヂュッ…ヂュブッ！　ヂュブブ！
 　Julck, jurck, sqwick! Shlursh, gulch... splap! Shlibble!
 
 #「っはぁう! んぅッ、くふぅっ! んはぁッ......はあぁっ、あはぁッ! くぅん!」
+#SCRIPT ORIGINAL 「っはぁう！　んぅッ、くふぅっ！　んはぁッ……はあぁっ、あはぁッ！　くぅん！」
 ＠Zakuro,Q00823
 「Haau! Nhh, kufuh! Nhaa... haaa, ahaa! Kuhn!」
 
 #サイズ的なきつさは〝締め付け〟になり、オレとZakuro、両方に官能の刺激を与えた。
+#SCRIPT ORIGINAL サイズ的なきつさは〝締め付け〟になり、オレとざくろ、両方に官能の刺激を与えた。
 　The size difference acting as the “clamping”, for both of us, it fed and stimulated our desires.
 
 #「んはぁッ! んんぅッ......つ、つっちー、やめないなら...反撃するからっ......あぅぅ! んくん!」
+#SCRIPT ORIGINAL 「んはぁッ！　んんぅッ……つ、つっちー、やめないなら…反撃するからっ……あぅぅ！　んくん！」
 ＠Zakuro,Q00824
 「Nhaa! Nnhh... T-Tsu-chi, if you won’t stop... I’ll fight you back... auuh! Nkuhn!」
 
 #「はぁっ、んぅ......反撃? この体勢じゃ、Zakuroからは何も出来ないぞ」
+#SCRIPT ORIGINAL 「はぁっ、んぅ……反撃？　この体勢じゃ、ざくろからは何も出来ないぞ」
 ＠Itsuki
 「Pant, nhh... fight back? There’s not much you can do in this position, you know」
 
 #いつもの突拍子も無い言葉と思って聞き流し、オレは腰のピストンをやめる気にもならない。
+#SCRIPT ORIGINAL いつもの突拍子も無い言葉と思って聞き流し、オレは腰のピストンをやめる気にもならない。
 　I don’t consider letting up on my thrusting, deeming it another of her preposterous claims and ignoring her.
 
 #「っあふぅ! はぁぁッ...んはぁ! なら、足腰立たないくらい...イッてつっちー...!」
+#SCRIPT ORIGINAL 「っあふぅ！　はぁぁッ…んはぁ！　なら、足腰立たないくらい…イッてつっちー…！」
 ＠Zakuro,Q00825
 「Afuh! Haaa... nhaa! Then, come so hard... that you can’t stand up anymore, Tsu-chi...!」
 
 #モゾモゾと身体をクネらせるZakuro。
+#SCRIPT ORIGINAL モゾモゾと身体をクネらせるざくろ。
 　Zakuro loosely wriggles her body back and forth.
 
 #途端に、今まで受け身一方だった膣内がうねり、ズルリズルリと肉茎を捻り始めた。
+#SCRIPT ORIGINAL 途端に、今まで受け身一方だった膣内がうねり、ズルリズルリと肉茎を捻り始めた。
 　In a flash, her pussy, that’d been passive until now, begins slithering and wrenching out my cock.
 
 #「―――ッ!? なッ!」
+#SCRIPT ORIGINAL 「―――ッ！？　なッ！」
 ＠Itsuki
 「―――!? Wha--!!」
 
 #「ッひぅん! んんッ......んはぁっ、はぁあ!」
+#SCRIPT ORIGINAL 「ッひぅん！　んんッ……んはぁっ、はぁあ！」
 ＠Zakuro,Q00826
 「Hyun! Nmhh... nhaa, haaa!」
 
 #その感触にひるんだオレに向け、Zakuroの方から腰を打ち付けてシゴき立てる。
+#SCRIPT ORIGINAL その感触にひるんだオレに向け、ざくろの方から腰を打ち付けてシゴき立てる。
 　Facing toward me as I faltered at the sensation, Zakuro drives her hips against me working my cock.
 
 #「んはぁッ、んくん! はぁぁッ...早漏のつっちーに、何秒も我慢させないから...」
+#SCRIPT ORIGINAL 「んはぁッ、んくん！　はぁぁッ…早漏のつっちーに、何秒も我慢させないから…」
 ＠Zakuro,Q00827
 「Nhaa, nkuhn! Haaa... when you’re a quick-shot, I won’t take it easy on you for a second...」
 
 #胎内がさらにきつく搾られ、熱い粘膜の感触が怒張を押し包んでピストンした。
+#SCRIPT ORIGINAL 胎内がさらにきつく搾られ、熱い粘膜の感触が怒張を押し包んでピストンした。
 　The hot mucous lining pressing and wrapping it up, pumps on my cock, as her womb strings out even more. 
 
 voice_bg	"Q90007"
 
 #「あくッ、はぁッ! ちょッ、ま、待てッ、Zakuroッ......」
+#SCRIPT ORIGINAL 「あくッ、はぁッ！　ちょッ、ま、待てッ、ざくろッ……」
 ＠Itsuki
 「Agh, haa! Ack, w-wait, Zakuro...!」
 
 #「あはぅッ、あはぁッ! はぁぁッ、んぅぅッ...んはぁッ! はあぁッ!」
+#SCRIPT ORIGINAL 「あはぅッ、あはぁッ！　はぁぁッ、んぅぅッ…んはぁッ！　はあぁッ！」
 ＠Zakuro,Q00828
 「Ahau, ahaa! Haaa, nuuhh... nhaa! Haaa!」
 
 #Zakuroからいきなり受ける反撃で、感覚が快感に埋め尽くされる。
+#SCRIPT ORIGINAL ざくろからいきなり受ける反撃で、感覚が快感に埋め尽くされる。
 　With Zakuro’s quick counterattack hitting me, my perception’s blanketed by pleasure.
 
 #腰を引こうにも、怒張は絡み取られたように膣内にしずまり、なにより快感で、本能がやめるのを拒絶する。
+#SCRIPT ORIGINAL 腰を引こうにも、怒張は絡み取られたように膣内にしずまり、なにより快感で、本能がやめるのを拒絶する。
 　Though I try pulling back, my cock’s kept in her pussy as if in a vice-grip, and above all, the pleasure steers my insticts.
 
 #「はふぅッ! あはぁッ! おチンポ、さっきより大きいっ......こっちまできちゃう...」
+#SCRIPT ORIGINAL 「はふぅッ！　あはぁッ！　おチンポ、さっきより大きいっ……こっちまできちゃう…」
 ＠Zakuro,Q00829
 「Hafuh! Ahaa! Your cock’s bigger than before... it came this far...」
 
 #「...おマンコも、一緒にイキそうかも......はあぁッ、んんぅ! つっちーのおチンポでっ...」
+#SCRIPT ORIGINAL 「…おマンコも、一緒にイキそうかも……はあぁッ、んんぅ！　つっちーのおチンポでっ…」
 ＠Zakuro,Q00830
 「...My pussy feels like it’ll come too... haaa, nnhh! From Tsu-chi’s cock...」
 
 #「んんぅ! あふぅッ、はあぁッ......! あはぁッ、はぁふッ、んくぅッ!」
+#SCRIPT ORIGINAL 「んんぅ！　あふぅッ、はあぁッ……！　あはぁッ、はぁふッ、んくぅッ！」
 ＠Zakuro,Q00831
 「Nmhh! Afuh, haaa...! Ahaa, haafh, nghh!」
 
 #責められてさっきより反応が強くなる怒張に、Zakuroの嬌声が高まっていく。
+#SCRIPT ORIGINAL 責められてさっきより反応が強くなる怒張に、ざくろの嬌声が高まっていく。
 　Zakuro’s moans get more lively, at my cock that’s more aroused than before from the assault.
 
 #「ッあふぅ! んはぁッ、はあぁッ、つっちー......おチンポもっと、おマンコで味わわせて」
+#SCRIPT ORIGINAL 「ッあふぅ！　んはぁッ、はあぁッ、つっちー……おチンポもっと、おマンコで味わわせて」
 ＠Zakuro,Q00832
 「Afuh! Nhaa, haaa, Tsu-chi... let me taste your dick some more in my pussy」
 
 #その気持ちよさでオレも腰を合わせ、三度目の射精にZakuroの絶頂を目指そうとした。
+#SCRIPT ORIGINAL その気持ちよさでオレも腰を合わせ、三度目の射精にざくろの絶頂を目指そうとした。
 　Attuning my hips to the pleasure, I aimed for Zakuro’s climax on my third time coming.
 
 #EF フラッシュ
@@ -2842,45 +3439,54 @@ scene_end
 #--------------------------------------------------
 
 #「いやー、悪い悪いッ、待たせたね! ちょっと用事が入ってたんだよ」
+#SCRIPT ORIGINAL 「いやー、悪い悪いッ、待たせたね！　ちょっと用事が入ってたんだよ」
 ＠Shizuku,S00859
 「Oh noー, my bad my bad, I made you wait! I had some business to deal with」
 
 #図書室のドアがいきなり豪快に開き、場の空気にそぐわない声が響いた。
+#SCRIPT ORIGINAL 図書室のドアがいきなり豪快に開き、場の空気にそぐわない声が響いた。
 　The door burst open suddenly, and an out of place voice rang out in the air.
 
 #The library's door suddenly opened lively, A sound that out of place was heard.
 
 #「え......」
+#SCRIPT ORIGINAL 「え……」
 ＠Itsuki
 「Huh...?」
 
 #CH（Zakuroの立ち絵はなし）
 
 #「っふぅ......んぅ...?」
+#SCRIPT ORIGINAL 「っふぅ……んぅ…？」
 ＠Zakuro,Q00833
 「Ufh... mmh...?」
 
 @shizuku		#普通
 
 #「お......?」
+#SCRIPT ORIGINAL 「お……？」
 ＠Shizuku,S00860
 「Oh...?」
 
 @bgm12			#BGM 12 : メインテーマ
 
 #突然の闖入者にオレとZakuroはもちろん、雫さんも一瞬動作を固まらせる。
+#SCRIPT ORIGINAL 突然の闖入者にオレとざくろはもちろん、雫さんも一瞬動作を固まらせる。
 　At the unexpected intrusion, Zakuro and I, and Shizuku as well, froze in place for a moment.
 
 #間違いなく一瞬だが、確実に時間が止まった瞬間だった。
+#SCRIPT ORIGINAL 間違いなく一瞬だが、確実に時間が止まった瞬間だった。
 　It was but a moment, but time may as well have stopped in the brief spell.
 
 @shizuku_chousyou	#怒笑
 
 #「......ああ」
+#SCRIPT ORIGINAL 「……ああ」
 ＠Shizuku,S00861
 「...I see」
 
 #すぐにポンと手を打った。
+#SCRIPT ORIGINAL すぐにポンと手を打った。
 　She clapped her hands together.
 
 #Suddenly a pop and clap from her hands.
@@ -2888,45 +3494,54 @@ scene_end
 @shizuku_akire		#呆
 
 #「悪い、邪魔しないから。続けていいよ」
+#SCRIPT ORIGINAL 「悪い、邪魔しないから。続けていいよ」
 ＠Shizuku,S00862
 「Sorry, I won’t bother you two. You can continue」
 
 #「なッ!? うわぁあ!! ななッ、何しに来てんですか雫さんッ!!」
+#SCRIPT ORIGINAL 「なッ！？　うわぁあ！！　ななッ、何しに来てんですか雫さんッ！！」
 ＠Itsuki
 「Wha!? Uwahh!! W-wha, what are you doing here, Shizuku-san!?」
 
 #「あ......」
+#SCRIPT ORIGINAL 「あ……」
 ＠Zakuro,Q00834
 「Ah...」
 
 #咄嗟に身を離すオレに、Zakuroが溜め息のような声を漏らす。
+#SCRIPT ORIGINAL 咄嗟に身を離すオレに、ざくろが溜め息のような声を漏らす。
 　As I promptly separate myself, Zakuro lets out a reproachful sigh.
 
 @shizuku_yorokobi	#喜
 
 #「ここでZakuroの調教をする約束だったんだよ。まぁ実践中ならそれもＯＫだ」
+#SCRIPT ORIGINAL 「ここでざくろの調教をする約束だったんだよ。まぁ実践中ならそれもＯＫだ」
 ＠Shizuku,S00863
 「I agreed to come train Zakuro here. But if you’re already busy with it, that’s OK」
 
 #「Well, It's because I promised to train Zakuro. But, you're in the middle of it, so it's ok.」
 
 #「ＯＫじゃない! 大体どうやってッ、鍵は!?」
+#SCRIPT ORIGINAL 「ＯＫじゃない！　大体どうやってッ、鍵は！？」
 ＠Itsuki
 「It’s not OK! In the first place, the lock, how did you...!?」
 
 #「......最初のしゃぶり合いが終わって出ようとした時、私が開けたから」
+#SCRIPT ORIGINAL 「……最初のしゃぶり合いが終わって出ようとした時、私が開けたから」
 ＠Zakuro,Q00835
 「...I opened it as I was about to leave, when our first suck-fest ended」
 
 #......From the first we flirt out, I opened it. 」
 
 #「なら閉め直せよ! せめて!」
+#SCRIPT ORIGINAL 「なら閉め直せよ！　せめて！」
 ＠Itsuki
 「Then go back and lock it, my gosh...!」
 
 #「At least lock it back! Lock it!」
 
 #オレもオレで、性欲に夢中で全く気付かなかった。
+#SCRIPT ORIGINAL オレもオレで、性欲に夢中で全く気付かなかった。
 　As for myself, I was so caught up in it, I didn’t notice at all.
 
 #And I came back from the sexual delusion.
@@ -2934,12 +3549,14 @@ scene_end
 @shizuku		#普通
 
 #「じゃあ今日の調教は中止だね。Itsuki、後は任せたよ」
+#SCRIPT ORIGINAL 「じゃあ今日の調教は中止だね。樹、後は任せたよ」
 ＠Shizuku,S00864
 「Then break off on training today. Itsuki, I’ll handle the rest」
 
 #「Well today's training is halted. Itsuki, I'll leave it to you later.」
 
 #「はい、そうですか。何ていうはず無いでしょう、この状況でッ」
+#SCRIPT ORIGINAL 「はい、そうですか。何ていうはず無いでしょう、この状況でッ」
 ＠Itsuki
 「Yeah, sounds good. You think I’d do anything else, in this situation!?」
 
@@ -2948,30 +3565,36 @@ scene_end
 @shizuku_chousyou	#怒笑
 
 #「そうかい? 下半身はまだヤル気まんまんみたいだけど」
+#SCRIPT ORIGINAL 「そうかい？　下半身はまだヤル気まんまんみたいだけど」
 ＠Shizuku,S00865
 「Is that so? I think your lower body begs to differ, though」
 
 #思いっきりズボンを下ろしたまま、いきり立った局部丸出し状態だった。
+#SCRIPT ORIGINAL 思いっきりズボンを下ろしたまま、いきり立った局部丸出し状態だった。
 　I stood there, my roused privates in plain sight, with my pants fully lowered.
 
 #Thinking of it if I suddenly pull up my trousers, this thing would leave a buldge.
 
 #確かにこんな状態でおあずけは辛いが......
+#SCRIPT ORIGINAL 確かにこんな状態でおあずけは辛いが……
 　Well, it’s true that it’s hard to break off now, but...
 
 #But certainly, if I leave this just like that, it would be tough....
 
 #「と、とにかく中止。Zakuroも服を着て」
+#SCRIPT ORIGINAL 「と、とにかく中止。ざくろも服を着て」
 ＠Itsuki
 「A-anyway, that’s it for now. Zakuro, you can get dressed」
 
 #「An, Anyhow it suspended. You too put your clothes, Zakuro.」
 
 #「.........うん」
+#SCRIPT ORIGINAL 「………うん」
 ＠Zakuro,Q00836
 「......Sure」
 
 #熱っぽい吐息で小さく頷くと、Zakuroは渋々だが服を整える。
+#SCRIPT ORIGINAL 熱っぽい吐息で小さく頷くと、ざくろは渋々だが服を整える。
 　She nods slightly with a hot sigh, and reluctantly fixes her clothes.
 
 #She nods with feverish sigh, then she relucantly wears her clothes.
@@ -2981,26 +3604,31 @@ window_close
 @shizuku_akire		#呆
 
 #「ほんとにやめるのかい? 続けてくれて全然構わないんだけど」
+#SCRIPT ORIGINAL 「ほんとにやめるのかい？　続けてくれて全然構わないんだけど」
 ＠Shizuku,S00866
 「You’re really calling it quits? I wouldn't mind at all if you kept going」
 
 #「続けません! っていうか、何で始まったのかも分からないし」
+#SCRIPT ORIGINAL 「続けません！　っていうか、何で始まったのかも分からないし」
 ＠Itsuki
 「I wouldn’t do that! Actually, I’m not sure why I started in the first place」
 
 @shizuku_yorokobi	#喜
 
 #「それはもう迸る情熱でしょうに。Zakuroの客にリピーターが多いのは知ってるだろ?」
+#SCRIPT ORIGINAL 「それはもう迸る情熱でしょうに。ざくろの客にリピーターが多いのは知ってるだろ？」
 ＠Shizuku,S00867
 「No doubt that’s your keenness coming out. Zakuro gets a lot of repeat customers, you know?」
 
 @shizuku_chousyou	#怒笑
 
 #「で、どうだった。実際にZakuroの中に突っ込んでみて」
+#SCRIPT ORIGINAL 「で、どうだった。実際にざくろの中に突っ込んでみて」
 ＠Shizuku,S00868
 「So, what do you think? After trying out Zakuro’s pussy for real」
 
 #「それを答える必要もなし!」
+#SCRIPT ORIGINAL 「それを答える必要もなし！」
 ＠Itsuki
 「I don’t need to reply to that!」
 
@@ -3010,18 +3638,21 @@ window_close
 @zakuro_akire		#呆
 
 #「たくさん中に出された。危険日なのに」
+#SCRIPT ORIGINAL 「たくさん中に出された。危険日なのに」
 ＠Zakuro,Q00837
 「He came inside a lot. It’s a dangerous day, too」
 
 @shizuku_yorokobi	#喜
 
 #「そうかそうか。もし子供が出来たら、Zakuroはママになるんだねぇ」
+#SCRIPT ORIGINAL 「そうかそうか。もし子供が出来たら、ざくろはママになるんだねぇ」
 ＠Shizuku,S00869
 「I see, I see. If you happen to make her pregnant, Zakuro will be a mommy」
 
 @zakuro			#普
 
 #「ママ......」
+#SCRIPT ORIGINAL 「ママ……」
 ＠Zakuro,Q00838
 「Mommy...」
 
@@ -3029,106 +3660,129 @@ window_close
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 #「縁起でもないッ!」
+#SCRIPT ORIGINAL 「縁起でもないッ！」
 ＠Itsuki
 「Don’t make ill omens!」
 
 #着替え終えたZakuroは、もう普段どおりのZakuroだった。
+#SCRIPT ORIGINAL 着替え終えたざくろは、もう普段どおりのざくろだった。
 　After putting her clothes on, Zakuro was back to her usual self.
 
 #「つっちー、青ノリ買いに行ってくる」
+#SCRIPT ORIGINAL 「つっちー、青ノリ買いに行ってくる」
 ＠Zakuro,Q00839
 「Tsu-chi, I’m going out to buy Aonori」
 
 #「うう、ああ。行っておいで。大丈夫か......?」
+#SCRIPT ORIGINAL 「うう、ああ。行っておいで。大丈夫か……？」
 ＠Itsuki
 「Sigh, sure. Go ahead. Will you be okay...?」
 
 @zakuro_akire		#呆
 
 #「廊下に精液垂らしちゃったら、拭いておいて」
+#SCRIPT ORIGINAL 「廊下に精液垂らしちゃったら、拭いておいて」
 ＠Zakuro,Q00840
 「I’ll wipe the semen off, if it dribbles out in the hall」
 
 @zakuro_
 
 #「せめて出した分くらいは、シャワーでも浴びて流していこうな......」
+#SCRIPT ORIGINAL 「せめて出した分くらいは、シャワーでも浴びて流していこうな……」
 ＠Itsuki
 「Yeah, you can at least take a shower and wash off the bit that comes out...」
 
 #そのまま出かけそうになるZakuroの背を誘導し、浴室の方へ歩かせた。
+#SCRIPT ORIGINAL そのまま出かけそうになるざくろの背を誘導し、浴室の方へ歩かせた。
 　I made her head for the washroom, with my parting words at her back about to leave.
 
 #「......何だかなぁ」
+#SCRIPT ORIGINAL 「……何だかなぁ」
 ＠Itsuki
 「...What just happened」
 
 @shizuku_akire		#呆
 
 #「はぁ......どうにも、マズイタイミングで入っちまったねぇ」
+#SCRIPT ORIGINAL 「はぁ……どうにも、マズイタイミングで入っちまったねぇ」
 ＠Shizuku,S00870
 「Sigh... however you look at it, I came in here with awful timing」
 
 #「別にいいですよ、もう。済んだことですから」
+#SCRIPT ORIGINAL 「別にいいですよ、もう。済んだことですから」
 ＠Itsuki
 「It doesn’t matter, anymore. What’s done is done」
 
 @shizuku		#普通
 
 #「あんたは良くても、Zakuroがねぇ。内心あれはちょっと不機嫌入ってたよ」
+#SCRIPT ORIGINAL 「あんたは良くても、ざくろがねぇ。内心あれはちょっと不機嫌入ってたよ」
 ＠Shizuku,S00871
 「You may be fine with it, but for Zakuro... underneath, she didn’t look too pleased」
 
 #「え......?」
+#SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「Huh...」
 
 #そんな違い、オレには分からなかったが。
+#SCRIPT ORIGINAL そんな違い、オレには分からなかったが。
 　The discrepancy went under the radar for me.
 
 #「不機嫌なら、むしろ最後まで満足させてやれなかったオレに対してかと」
+#SCRIPT ORIGINAL 「不機嫌なら、むしろ最後まで満足させてやれなかったオレに対してかと」
 ＠Itsuki
 「I figure she’d be displeased with me not being able to satisfy her, though」
 
 @shizuku_akire		#呆
 
 #「いやいや、付き合いが長いから分かる。間違いなくあたしに対してだね」
+#SCRIPT ORIGINAL 「いやいや、付き合いが長いから分かる。間違いなくあたしに対してだね」
 ＠Shizuku,S00872
 「It’s not that, I’ve known her a while so I can tell. It’s definitely with me」
 
 @shizuku_yorokobi	#喜
 
 #「あんたに対しては満足してたんじゃない。少なくとも、邪魔されたくなかったくらいにはさ」
+#SCRIPT ORIGINAL 「あんたに対しては満足してたんじゃない。少なくとも、邪魔されたくなかったくらいにはさ」
 ＠Shizuku,S00873
 「She was pretty satisfied with you, you know. At least, so much so that she didn’t want to be disturbed」
 
 #「そ、そうなんでしょうか」
+#SCRIPT ORIGINAL 「そ、そうなんでしょうか」
 ＠Itsuki
 「Y-you think so?」
 
 #結局Zakuroのあれは、演技なのか本気だったのか、微妙に分からないままだ。
+#SCRIPT ORIGINAL 結局ざくろのあれは、演技なのか本気だったのか、微妙に分からないままだ。
 　In the end, I’m still left clueless, about what Zakuro felt, and whether it was real or an act.
 
 #......続けた方が良かったのだろうか。
+#SCRIPT ORIGINAL ……続けた方が良かったのだろうか。
 　...Maybe I should’ve kept going.
 
 #実は少し名残惜しかったが。
+#SCRIPT ORIGINAL 実は少し名残惜しかったが。
 　I was a bit sad to see her go.
 
 @shizuku_chousyou	#怒笑
 
 #「だったら、今からでも浴室に行けば出来るんじゃない?」
+#SCRIPT ORIGINAL 「だったら、今からでも浴室に行けば出来るんじゃない？」
 ＠Shizuku,S00874
 「It’s not too late yet. Why don’t you go meet her in the washroom?」
 
 #「Well then, you would come if you go to the bathroom?」
 
 #「人の考えを読まないでください!」
+#SCRIPT ORIGINAL 「人の考えを読まないでください！」
 ＠Itsuki
 「Hey, no mind-reading!」
 
 #「Don't read others mind!」
 
 #微妙に室温の高い気がする図書室を、雫さんを残し後にした。
+#SCRIPT ORIGINAL 微妙に室温の高い気がする図書室を、雫さんを残し後にした。
 　I parted with Shizuku and the library room, which felt unusually hot to me.
 
 bgm_stop
@@ -3137,20 +3791,24 @@ bgm_stop
 wait		1000
 
 #股間はまだ辛いが、とりあえずこれで終わりになった。
+#SCRIPT ORIGINAL 股間はまだ辛いが、とりあえずこれで終わりになった。
 　That was the end of that, though my crotch was having trouble.
 
 #My dick is still hard but finally all those thing has ended.
 
 #Zakuroもその後いつもどおりで、再開する雰囲気でも無かったし......
+#SCRIPT ORIGINAL ざくろもその後いつもどおりで、再開する雰囲気でも無かったし……
 　After that, Zakuro acted normally, and didn’t seem intent on resuming...
 
 #And after that Zakuro as usual, revert to her usualself.......
 
 #「しかし......あのまま続けていれば、Zakuroもイッてたのかな」
+#SCRIPT ORIGINAL 「しかし……あのまま続けていれば、ざくろもイッてたのかな」
 ＠Itsuki
 「Still... If we’d continued like that, I wonder if Zakuro would’ve come」
 
 #それだけは、微妙に心残りだった。
+#SCRIPT ORIGINAL それだけは、微妙に心残りだった。
 　Just for that, I felt a pang of regret.
 
 #And with all that, I regretted a little.

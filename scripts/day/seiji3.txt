@@ -8,72 +8,89 @@ label	seiji_03
 @bg_living
 
 #雫さんも子供達もいない平日の午後。
+#SCRIPT ORIGINAL 雫さんも子供達もいない平日の午後。
 　A weekday afternoon without Shizuku or the kids.
 
 #オレは美雨に呼ばれ、リビングでまったりお茶の時間を過ごしていた。
+#SCRIPT ORIGINAL オレは美雨に呼ばれ、リビングでまったりお茶の時間を過ごしていた。
 　I was invited by Miu, and spent some time having tea peacefully in the living room.
 
 @miu
 
 #「降ってくるかもしれませんね」
+#SCRIPT ORIGINAL 「降ってくるかもしれませんね」
 ＠Miu,B00253
 「It might start snowing」
 
 #「天気予報では大丈夫そうに言ってたのにな」
+#SCRIPT ORIGINAL 「天気予報では大丈夫そうに言ってたのにな」
 ＠Itsuki
 「And the weather forecast said it looked okay」
 
 #窓から見える曇天を見上げながら、世間話の延長上で呟く美雨。
+#SCRIPT ORIGINAL 窓から見える曇天を見上げながら、世間話の延長上で呟く美雨。
 　After some light chatter, Miu looks up at the cloudy skies through the window, and mutters that.
 
 #「そういえば……」
+#SCRIPT ORIGINAL 「そういえば……」
 ＠Itsuki
 「That reminds me...」
 
 #のんびりした時間を過ごしながら、思い出したことがあった。
+#SCRIPT ORIGINAL のんびりした時間を過ごしながら、思い出したことがあった。
 　I remembered something as I was passing the time.
 
 #「この前、商店街で会った涼海ちゃん、そこの施設の院長ってやつと会ったよ」
+#SCRIPT ORIGINAL 「この前、商店街で会った涼海ちゃん、そこの施設の院長ってやつと会ったよ」
 ＠Itsuki
 「Not too long ago, I met the guy who's in charge of the institution that girl we met at the shopping district, Suzumi-chan, is in」
 
 @miu_odoroki
 
 #「誠司さんですか？」
+#SCRIPT ORIGINAL 「誠司さんですか？」
 ＠Miu,B00254
 「You mean Seiji-san?」
 
 #「何て言うか………あれは、いつもあんなノリなのか……？」
+#SCRIPT ORIGINAL 「何て言うか………あれは、いつもあんなノリなのか……？」
 ＠Itsuki
 「How should I put it... is he always like that...?」
 
 @miu_komaru
 
 #「……？　あんなノリ、と言いますと？」
+#SCRIPT ORIGINAL 「……？　あんなノリ、と言いますと？」
 ＠Miu,B00255
 「...? Like what?」
 
 #誠司という男は真剣なのかふざけてるのか、騒ぐだけ騒いで帰ってしまった。
+#SCRIPT ORIGINAL 誠司という男は真剣なのかふざけてるのか、騒ぐだけ騒いで帰ってしまった。
 　Whether this Seiji character is in earnest or screwing around, all he managed to was make a scene before going back home.
 
 #美雨は首を傾げるが、オレとしても曖昧な言い方しか出来ずに肩を落とす。
+#SCRIPT ORIGINAL 美雨は首を傾げるが、オレとしても曖昧な言い方しか出来ずに肩を落とす。
 　Miu tilts her head puzzled, but I can't help but mince my words and slump my shoulders.
 
 #（そういえばあの後、二人はどうしたんだろう……）
+#SCRIPT ORIGINAL （そういえばあの後、二人はどうしたんだろう……）
 ＠Itsuki
 (Oh yeah, I wonder how those two got along after that...)
 
 #学校を早退させるくらいだから、やっぱり調教はしたんだろうか。
+#SCRIPT ORIGINAL 学校を早退させるくらいだから、やっぱり調教はしたんだろうか。
 　Considering she even has to go so far as to leave school early, he must be training her.
 
 #SE42　施設の呼び鈴
 @se42
 
 #「お客さんかしら。ちょっと失礼します」
+#SCRIPT ORIGINAL 「お客さんかしら。ちょっと失礼します」
 ＠Miu,B00256
 「I wonder if it's a guest. Excuse me for a bit」
 
 #「ああ、オレの方は大した話じゃないから」
+#SCRIPT ORIGINAL 「ああ、オレの方は大した話じゃないから」
 ＠Itsuki
 「Sure, it's nothing important anyway」
 
@@ -82,6 +99,7 @@ label	seiji_03
 @se18
 
 #美雨の姿が玄関の方へ消えると、あの時のことが思い出される。
+#SCRIPT ORIGINAL 美雨の姿が玄関の方へ消えると、あの時のことが思い出される。
 　Miu's figure disappears toward the entryway, and I recall what happened.
 
 #■EVCG（涼海しりもち・雪上）EV_SEI_020
@@ -90,14 +108,17 @@ event_wait_set			2000
 event	"event\EV_SEI_020-00.png"
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「………謝らないとな」
+#SCRIPT ORIGINAL 「………謝らないとな」
 ＠Itsuki
 「...I have to apologize」
 
 #う～……悪いとは思いつつも、あの時の光景は記憶から離れない。
+#SCRIPT ORIGINAL う～……悪いとは思いつつも、あの時の光景は記憶から離れない。
 　Uuh～... I feel sorry about it, but the scene refuses to fade from my memory.
 
 screen_transition_rule_set 	"system\transition\円形(外から中へ).png"
@@ -107,205 +128,255 @@ screen_transition_rule_set 	""
 event_wait_set			1000
 
 #「………？」
+#SCRIPT ORIGINAL 「………？」
 ＠Itsuki
 「...?」
 
 #美雨が応対に出た玄関の方から、かすかに聞き覚えのあるイントネーションの話し声がした。
+#SCRIPT ORIGINAL 美雨が応対に出た玄関の方から、かすかに聞き覚えのあるイントネーションの話し声がした。
 　I hear a familiar intonation talking from the entryway where Miu went to meet our guest.
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
 #「樹さん、お客様です」
+#SCRIPT ORIGINAL 「樹さん、お客様です」
 ＠Miu,B00257
 「Itsuki-san, you have a guest」
 
 #「……オレに？」
+#SCRIPT ORIGINAL 「……オレに？」
 ＠Itsuki
 「...For me?」
 
 @bgm03
 @seiji2
 #「よ、ごきげんさん」
+#SCRIPT ORIGINAL 「よ、ごきげんさん」
 ＠Seiji,D00045
 「Hey, how do you do?」
 
 #「やっぱり………誠司か」
+#SCRIPT ORIGINAL 「やっぱり………誠司か」
 ＠Itsuki
 「I knew it... Seiji」
 
 #美雨に招かれてやって来たのは、たった今話題に上がっていた宗誠司だった。
+#SCRIPT ORIGINAL 美雨に招かれてやって来たのは、たった今話題に上がっていた宗誠司だった。
 　The person invited in was none other than Seiji Sou, who had just come up in our conversation.
 
 #先日の敵意（？）は微塵も無く、不自然なくらい普通に挨拶をよこしてきた。
+#SCRIPT ORIGINAL 先日の敵意（？）は微塵も無く、不自然なくらい普通に挨拶をよこしてきた。
 　Without a trace of his previous hostility (?), he greets me so normally it feels unnatural.
 
 #「やけに普通なんだな、今日は……また妙ちきりんな因縁でもつけに来たのか？」
+#SCRIPT ORIGINAL 「やけに普通なんだな、今日は……また妙ちきりんな因縁でもつけに来たのか？」
 ＠Itsuki
 「You're oddly normal today... do you have some weird motive for being here again?」
 
 #「因縁？」
+#SCRIPT ORIGINAL 「因縁？」
 ＠Miu,B00258
 「Motive?」
 
 @seiji2_warai
 #「はははっ、いつオレがそないな事を言うたんや。オレはいつでもめっちゃフレンドリー精神やで」
+#SCRIPT ORIGINAL 「はははっ、いつオレがそないな事を言うたんや。オレはいつでもめっちゃフレンドリー精神やで」
 ＠Seiji,D00046
 「Hahaha, what makes you think that? I've always been a very friendly kind of guy」
 
 #「……そうだったか？」
+#SCRIPT ORIGINAL 「……そうだったか？」
 ＠Itsuki
 「...Is that so?」
 
 #失礼さに加え、ここを潰すとか何とか言ってた気がするが。
+#SCRIPT ORIGINAL 失礼さに加え、ここを潰すとか何とか言ってた気がするが。
 　Besides the rudeness, I recall him saying something along the lines of crushing this place.
 
 #「物騒なこと言いながら、美雨を奪うとか手に入れるとか何とか――」
+#SCRIPT ORIGINAL 「物騒なこと言いながら、美雨を奪うとか手に入れるとか何とか――」
 ＠Itsuki
 「You were saying disturbing things, like that you'd snatch Miu away and have her in the palm of your――」
 
 @seiji2_odoroki
 #「だーーーー！！！　うわあぁあーー！！！」
+#SCRIPT ORIGINAL 「だーーーー！！！　うわあぁあーー！！！」
 ＠Seiji,D00047
 「Dahhhh!!! Uwahhhhh!!!」
 
 #「え？　何のお話ですか？」
+#SCRIPT ORIGINAL 「え？　何のお話ですか？」
 ＠Miu,B00259
 「Huh? What's this about?」
 
 @seiji2_ase
 #「あぁあ、何でもないです、美雨さん。申し訳ないですけど、茶貰えますか？」
+#SCRIPT ORIGINAL 「あぁあ、何でもないです、美雨さん。申し訳ないですけど、茶貰えますか？」
 ＠Seiji,D00048
 「Ahh, it's nothing, Miu-san. I'm sorry, but could I have some tea please?」
 
 #「あ、すみません、気が付かずに。さ、どうぞ二人とも中へ」
+#SCRIPT ORIGINAL 「あ、すみません、気が付かずに。さ、どうぞ二人とも中へ」
 ＠Miu,B00260
 「Ah, excuse me, how thoughtless of me. Come, the two of you, right on in」
 
 #二人……？
+#SCRIPT ORIGINAL 二人……？
 　The two of them...?
 
 #挙動不審な誠司に対しても美雨は笑みを崩さず席を勧め、自分はキッチンへお茶の用意へ向かった。
+#SCRIPT ORIGINAL 挙動不審な誠司に対しても美雨は笑みを崩さず席を勧め、自分はキッチンへお茶の用意へ向かった。
 　Miu's smile untarnished in the face of Seiji acting suspiciously, she offers him a seat and heads to the kitchen to make tea.
 
 @seiji2_kanashimi
 #「はぁぁ……助かった」
+#SCRIPT ORIGINAL 「はぁぁ……助かった」
 ＠Seiji,D00049
 「Haaa... thank goodness」
 
 #「何かしらんが、とりあえずよかったな」
+#SCRIPT ORIGINAL 「何かしらんが、とりあえずよかったな」
 ＠Itsuki
 「Looks like you're off the hook for now」
 
 @seiji2_ikari
 #「お前はッ……美雨さんの前で何ちゅうこと言うんや！　オレに何か恨みでもあるか！？」
+#SCRIPT ORIGINAL 「お前はッ……美雨さんの前で何ちゅうこと言うんや！　オレに何か恨みでもあるか！？」
 ＠Seiji,D00050
 「You... what do you think you're saying in front of Miu! Do you have some kind of grudge against me!?」
 
 #「少なくとも不審感はかなりあるが………で、誰かいるのか、そこに？」
+#SCRIPT ORIGINAL 「少なくとも不審感はかなりあるが………で、誰かいるのか、そこに？」
 ＠Itsuki
 「I'm certainly not awash with trust for you... so, who's that over there?」
 
 #「………！」
+#SCRIPT ORIGINAL 「………！」
 ＠Girl,M00019
 「...!」
 
 #美雨に言われて気付いたが、誠司の隣。
+#SCRIPT ORIGINAL 美雨に言われて気付いたが、誠司の隣。
 　As Miu had pointed out, I noticed someone beside Seiji.
 
 #リビングの入り口に隠れるようにしている小さい人影があった。
+#SCRIPT ORIGINAL リビングの入り口に隠れるようにしている小さい人影があった。
 　There was a small figure concealing itself at the living room entrance.
 
 @seiji2
 #「ん、ああ。今日はこいつの用件で来たんや。ほらるあ、緊張せんと出てきぃ」
+#SCRIPT ORIGINAL 「ん、ああ。今日はこいつの用件で来たんや。ほらるあ、緊張せんと出てきぃ」
 ＠Seiji,D00051
 「Oh, yeah. Today I came on her business. Hey Rua, don't be so nervous and quit hiding」
 
 @rua
 
 #「あ、はい……」
+#SCRIPT ORIGINAL 「あ、はい……」
 ＠Rua,M00020
 「Ah, okay...」
 
 #人影がゴソリと動き、そこから女の子が一人現れる。
+#SCRIPT ORIGINAL 人影がゴソリと動き、そこから女の子が一人現れる。
 　The figure rustles about and a lone girl appears from the doorway.
 
 #涼海と同い年くらい………というより、外見や目の色とかそっくりな子だ。
+#SCRIPT ORIGINAL 涼海と同い年くらい………というより、外見や目の色とかそっくりな子だ。
 　Rather than just being the same age as Suzumi... the resemblance in appearance and eye colour is striking.
 
 #「涼海から樹の話を聞いたらしいてな。どうしても自分も会いたい言うて聞かんかったんや」
+#SCRIPT ORIGINAL 「涼海から樹の話を聞いたらしいてな。どうしても自分も会いたい言うて聞かんかったんや」
 ＠Seiji,D00052
 「She heard about you from Suzumi. She wanted to meet you herself and wouldn't take no for an answer」
 
 #「涼お姉ちゃんの妹の、るあです。よろしくお願いします樹先生」
+#SCRIPT ORIGINAL 「涼お姉ちゃんの妹の、るあです。よろしくお願いします樹先生」
 ＠Rua,M00021
 「I'm Suzu Onee-chan's younger sister, Rua. Pleased to meet you, Itsuki-sensei」
 
 #控えめな声で告げるとペコリと一礼し、長い髪が肩口を抜けるようにサラサラと揺れる。
+#SCRIPT ORIGINAL 控えめな声で告げるとペコリと一礼し、長い髪が肩口を抜けるようにサラサラと揺れる。
 　She informs me shyly and quickly bowing her head, her long silky hair sways and falls off her shoulders.
 
 #不安そうに窺う瞳で、こちらへ上目遣いに見上げてきた。
+#SCRIPT ORIGINAL 不安そうに窺う瞳で、こちらへ上目遣いに見上げてきた。
 　She nervously peeks and turns her eyes up to look at me.
 
 #「姉妹か、確かに見た感じは似過ぎるくらい似過ぎてるけど………妹？」
+#SCRIPT ORIGINAL 「姉妹か、確かに見た感じは似過ぎるくらい似過ぎてるけど………妹？」
 ＠Itsuki
 「Sisters huh, you look way too much alike though... even for a younger sister」
 
 #「あ、妹と言っても双子ですから。年は同じなんです」
+#SCRIPT ORIGINAL 「あ、妹と言っても双子ですから。年は同じなんです」
 ＠Rua,M00022
 「Ah, even though I say younger sister we're twins. We're the same age」
 
 #「外見以外はあまり似てないってよく言われますけど」
+#SCRIPT ORIGINAL 「外見以外はあまり似てないってよく言われますけど」
 ＠Rua,M00023
 「Most people say that except for our appearance, we're not really much alike」
 
 #うん、似てないどころかまるで正反対の気がする。
+#SCRIPT ORIGINAL うん、似てないどころかまるで正反対の気がする。
 　No kidding, rather than "not alike", I'm get the impression they're polar opposites.
 
 #しかし二人で一つとバランスを取るならちょうどいいのかも……とか変な解釈で納得してみたり。
+#SCRIPT ORIGINAL しかし二人で一つとバランスを取るならちょうどいいのかも……とか変な解釈で納得してみたり。
 　But as a pair they might balance each other out just right... is the strange explanation I come up with.
 
 #CH（立ち絵消去）
 @rua_
 
 #「………で、何でお前まで一緒に来てるんだ？」
+#SCRIPT ORIGINAL 「………で、何でお前まで一緒に来てるんだ？」
 ＠Itsuki
 「...So, why did you decide to come along too?」
 
 @seiji2_warai
 #「あぁ、ええなぁ……ああやって甲斐甲斐しく働いてくれるメイドさん」
+#SCRIPT ORIGINAL 「あぁ、ええなぁ……ああやって甲斐甲斐しく働いてくれるメイドさん」
 ＠Seiji,D00053
 「Oh, look at her... that lovely maid toiling away for you」
 
 #全くこっちなど見ていないその男は、キッチンでお茶の用意している美雨の後ろ姿を追っていた。
+#SCRIPT ORIGINAL 全くこっちなど見ていないその男は、キッチンでお茶の用意している美雨の後ろ姿を追っていた。
 　He hardly even pays any attention to me, eyeing Miu from behind preparing tea in the kitchen.
 
 #「せ、誠司先生、ダメです。涼お姉ちゃんがいるのに、他の人のこと……」
+#SCRIPT ORIGINAL 「せ、誠司先生、ダメです。涼お姉ちゃんがいるのに、他の人のこと……」
 ＠Rua,M00024
 「S-Seiji-sensei, that's no good. You have Suzu Onee-chan, and yet you're...」
 
 @seiji2
 #「涼海～？　何でそこであいつが出てくんねん」
+#SCRIPT ORIGINAL 「涼海～？　何でそこであいつが出てくんねん」
 ＠Seiji,D00054
 「Suzumi～? What's she got to do with this?」
 
 #「それにあないなぺったんこ、何人おったかて美雨さんに遠く及ばへんで～」
+#SCRIPT ORIGINAL 「それにあないなぺったんこ、何人おったかて美雨さんに遠く及ばへんで～」
 ＠Seiji,D00055
 「Anyway, I have no need for such flat-chested girls, they're all no match for Miu～」
 
 #「ん、ぅ……ぺったんこ……」
+#SCRIPT ORIGINAL 「ん、ぅ……ぺったんこ……」
 ＠Rua,M00025
 「Nh, uuh... flat-chested...」
 
 #少し寂しそうに自分の胸元を見下ろす。
+#SCRIPT ORIGINAL 少し寂しそうに自分の胸元を見下ろす。
 　She looks down at her chest a bit stricken.
 
 @seiji2_warai
 #「すばらしいやろ、あのスペック。揉みたい。くぅ～～ッ、揉みたい！　揉む以外にもいろいろしたいッ！」
+#SCRIPT ORIGINAL 「すばらしいやろ、あのスペック。揉みたい。くぅ～～ッ、揉みたい！　揉む以外にもいろいろしたいッ！」
 ＠Seiji,D00056
 「Aren't those assets just wonderful? I wanna rub them. Khh～～, I wanna rub them! And all sorts of other things too!」
 
 #「おい美雨、電話どこだ。警察に連絡しよう」
+#SCRIPT ORIGINAL 「おい美雨、電話どこだ。警察に連絡しよう」
 ＠Itsuki
 「Hey Miu, where's the telephone? I think I need to call the police」
 
@@ -314,22 +385,27 @@ event_wait_set			1000
 
 @seiji2_ikari
 #「そんな美雨さんと一つ屋根の下！　うらやましすぎる土屋樹！！」
+#SCRIPT ORIGINAL 「そんな美雨さんと一つ屋根の下！　うらやましすぎる土屋樹！！」
 ＠Seiji,D00057
 「And you're living under the same roof as her! I'm seething with jealousy, Itsuki Tsuchiya!!」
 
 #「あ～……」
+#SCRIPT ORIGINAL 「あ～……」
 ＠Itsuki
 「Uh-huh...」
 
 #……人間、ここまで直情的に生きられたら幸せだろうなぁ。
+#SCRIPT ORIGINAL ……人間、ここまで直情的に生きられたら幸せだろうなぁ。
 　...Someone who can live so blinded by his desires must be a happy man.
 
 #「そんなに言うんならオレが頼んでやろう」
+#SCRIPT ORIGINAL 「そんなに言うんならオレが頼んでやろう」
 ＠Itsuki
 「When you're that insistent, I'll ask her for you」
 
 @seiji2_odoroki
 #「な、なに……？」
+#SCRIPT ORIGINAL 「な、なに……？」
 ＠Seiji,D00058
 「W-what...?」
 
@@ -339,24 +415,29 @@ wait	1000
 
 @miu
 #「お待たせしました。あら、どうしたんですか、立ったままで」
+#SCRIPT ORIGINAL 「お待たせしました。あら、どうしたんですか、立ったままで」
 ＠Miu,B00261
 「Thanks for waiting. Oh my, what's wrong, you're still up」
 
 @seiji2_ase
 #「たたたッ！？　勃ってへんで！！」
+#SCRIPT ORIGINAL 「たたたッ！？　勃ってへんで！！」
 ＠Seiji,D00059
 「U-u-up!? It's not up!!」
 
 #「美雨、こいつが美雨のスペックを揉んで舐めてしゃぶって味わいたいんだと」
+#SCRIPT ORIGINAL 「美雨、こいつが美雨のスペックを揉んで舐めてしゃぶって味わいたいんだと」
 ＠Itsuki
 「Miu, this guy says he wants to rub lick suck and taste your assets」
 
 #「判断は任すからさっさと返事してやってもらえるか」
+#SCRIPT ORIGINAL 「判断は任すからさっさと返事してやってもらえるか」
 ＠Itsuki
 「I'll leave it up to you, so would you please give him a reply soon?」
 
 @seiji2_goukyuu
 #「ひーーーー！！！　やめれ、いじめかっこ悪いやんかー！！」
+#SCRIPT ORIGINAL 「ひーーーー！！！　やめれ、いじめかっこ悪いやんかー！！」
 ＠Seiji,D00060
 「Eeeek!!! Stop, you're doing irreparable damageー!!」 
 
@@ -369,91 +450,112 @@ wait	1000
 @seiji2
 
 #「今日は、涼海ちゃんはいらっしゃらないんですか？」
+#SCRIPT ORIGINAL 「今日は、涼海ちゃんはいらっしゃらないんですか？」
 ＠Miu,B00262
 「Suzumi-chan didn't come today?」
 
 #「ああ、あいつやったら家で飯作っとりますわ。家事全般はあいつとるあの当番制やさかい」
+#SCRIPT ORIGINAL 「ああ、あいつやったら家で飯作っとりますわ。家事全般はあいつとるあの当番制やさかい」
 ＠Seiji,D00061
 「Yeah, as for her she's preparing food at home. Her and Rua deal with all the housework」
 
 #並べられた紅茶とクッキーに手を伸ばしながら、とりあえずオレ達は騒動も落ち着いてまったりしていた。
+#SCRIPT ORIGINAL 並べられた紅茶とクッキーに手を伸ばしながら、とりあえずオレ達は騒動も落ち着いてまったりしていた。
 　We managed to stop bickering and settled down, and help ourselves to tea and cookies arranged on the table.
 
 #「留守番で家事って……預かってる子にそんなことをさせてるのか？」
+#SCRIPT ORIGINAL 「留守番で家事って……預かってる子にそんなことをさせてるのか？」
 ＠Itsuki
 「Having her stay at home to do housework... you're making the child you're looking after do that?」
 
 @seiji2_kanashimi
 #「しょうがないやろ、オレが台所に入ったら涼海が怒るんやから。な、るあ？」
+#SCRIPT ORIGINAL 「しょうがないやろ、オレが台所に入ったら涼海が怒るんやから。な、るあ？」
 ＠Seiji,D00062
 「There's nothing I can do, if I went into the kitchen Suzumi would get mad at me. Isn't that right, Rua?」
 
 @rua
 #「………（ジィっ）」
+#SCRIPT ORIGINAL 「………（ジィっ）」
 ＠Rua,M00026
 「...(Stare)」
 
 @seiji2
 #「………るあ？」
+#SCRIPT ORIGINAL 「………るあ？」
 ＠Seiji,D00063
 「...Rua?」
 
 #「……？　どうかしたの、るあちゃん？」
+#SCRIPT ORIGINAL 「……？　どうかしたの、るあちゃん？」
 ＠Miu,B00263
 「...? Is something the matter, Rua-chan?」
 
 @rua_odoroki
 #「え……っ！？」
+#SCRIPT ORIGINAL 「え……っ！？」
 ＠Rua,M00027
 「Eh...!?」
 
 #美雨の声で視線を上げる。
+#SCRIPT ORIGINAL 美雨の声で視線を上げる。
 　Miu's voice snaps her back to alertness.
 
 @rua_warai
 #「あ、えっと……はいッ、私もそう思いますっ」
+#SCRIPT ORIGINAL 「あ、えっと……はいッ、私もそう思いますっ」
 ＠Rua,M00028
 「Ah, um... yeah, I think so too」
 
 #「……そう思うって。ちゃんと話聞いてたんか？」
+#SCRIPT ORIGINAL 「……そう思うって。ちゃんと話聞いてたんか？」
 ＠Seiji,D00064
 「...You think so too, huh. Did you even hear what we were saying?」
 
 @rua_kanashimi
 #「う……す、すみません……ちょっと考え事を……」
+#SCRIPT ORIGINAL 「う……す、すみません……ちょっと考え事を……」
 ＠Rua,M00029
 「Uh... s-sorry... got caught thinking about stuff...」
 
 #正面に座る美雨の胸を、ジッと見つめていたようだった。
+#SCRIPT ORIGINAL 正面に座る美雨の胸を、ジッと見つめていたようだった。
 　With Miu sitting in front of her, it looked like she'd been gazing intently at her chest.
 
 #（……この辺の興味、やっぱり涼海ちゃんの双子だな）
+#SCRIPT ORIGINAL （……この辺の興味、やっぱり涼海ちゃんの双子だな）
 ＠Itsuki
 (...She really is Suzumi-chan's twin after all, with that particular interest)
 
 #美雨も首を傾げるだけで、まるで視線の先には気付いてないみたいだし……
+#SCRIPT ORIGINAL 美雨も首を傾げるだけで、まるで視線の先には気付いてないみたいだし……
 　Miu just tilts her head puzzled; it looks like she didn't notice the stare just now at all...
 
 @seiji2_kanashimi
 #「ったく……オレが料理出来へんから、涼海に台所から追い出されるっちゅう話や」
+#SCRIPT ORIGINAL 「ったく……オレが料理出来へんから、涼海に台所から追い出されるっちゅう話や」
 ＠Seiji,D00065
 「Ugh... I can't cook so Suzumi kicks me out of the kitchen, is what we were talking about」
 
 @rua
 #「……それは」
+#SCRIPT ORIGINAL 「……それは」
 ＠Rua,M00030
 「...Oh that」
 
 #「誠司先生は出来ないっていうより、作り方を分かってないだけだと思いますけど」
+#SCRIPT ORIGINAL 「誠司先生は出来ないっていうより、作り方を分かってないだけだと思いますけど」
 ＠Rua,M00031
 「I think it's more that he doesn't know any recipes than that he can't cook though」
 
 #「分からない料理をどう作ってるんだ……？」
+#SCRIPT ORIGINAL 「分からない料理をどう作ってるんだ……？」
 ＠Itsuki
 「How would you cook a meal without a recipe...?」
 
 @seiji2
 #「そんなん、元は食材なんや。毒でもかけん限り、どない調理しようと食い物に違いないやろ」
+#SCRIPT ORIGINAL 「そんなん、元は食材なんや。毒でもかけん限り、どない調理しようと食い物に違いないやろ」
 ＠Seiji,D00066
 「All that matters is the ingredients. Unless I add poison, how I make it probably doesn't make a difference」
 
@@ -461,19 +563,23 @@ wait	1000
 @rua_kanashimi
 
 #「………ヨーグルトは焼くと苦いです」
+#SCRIPT ORIGINAL 「………ヨーグルトは焼くと苦いです」
 ＠Rua,M00032
 「...If you bake yogurt it's bitter」
 
 #「無茶するのな、お前」
+#SCRIPT ORIGINAL 「無茶するのな、お前」
 ＠Itsuki
 「You're being unreasonable」
 
 @seiji2_ikari
 #「何を言う。どないな料理かて、誰ぞが初めて試した調理法から完成されとるんやないか」
+#SCRIPT ORIGINAL 「何を言う。どないな料理かて、誰ぞが初めて試した調理法から完成されとるんやないか」
 ＠Seiji,D00067
 「What are you saying? Whatever cooking method you find, it started with someone testing out and mastering it for the first time」
 
 #「これはいわば、新しい料理への探究心や！　そやんな、美雨さん？」
+#SCRIPT ORIGINAL 「これはいわば、新しい料理への探究心や！　そやんな、美雨さん？」
 ＠Seiji,D00068
 「In light of this, it's my spirit of inquiry into fresh cooking! Isn't that so, Miu?」
 
@@ -481,168 +587,207 @@ wait	1000
 @miu_komaru
 
 #「…えっと……そう、でしょうか……」
+#SCRIPT ORIGINAL 「…えっと……そう、でしょうか……」
 ＠Miu,B00264
 「Umm... yeah, I guess...」
 
 #さすがに美雨も同意しかねて困っている。
+#SCRIPT ORIGINAL さすがに美雨も同意しかねて困っている。
 　As you'd expect Miu is finding it difficult to agree and looks troubled.
 
 #「そんなことばかりしてるから、涼お姉ちゃんが怒っちゃうんですよ、誠司先生」
+#SCRIPT ORIGINAL 「そんなことばかりしてるから、涼お姉ちゃんが怒っちゃうんですよ、誠司先生」
 ＠Rua,M00033
 「Suzu Onee-chan gets angry because you're always pulling stuff like that, Seiji-sensei」
 
 #「ふ～ん、けどあの子が料理か」
+#SCRIPT ORIGINAL 「ふ～ん、けどあの子が料理か」
 ＠Itsuki
 「Hmmm, so she's cooking is she?」
 
 #失礼だが、あんまりイメージできない。
+#SCRIPT ORIGINAL 失礼だが、あんまりイメージできない。
 　Sorry, but somehow I just can't picture that.
 
 #るあちゃんなら台所に立つ姿は似合いそうだが。
+#SCRIPT ORIGINAL るあちゃんなら台所に立つ姿は似合いそうだが。
 　But when it comes to Rua she seems well suited to being in the kitchen.
 
 #「今度あったらこの間のこと、謝ろうと思ってたんだけどな」
+#SCRIPT ORIGINAL 「今度あったらこの間のこと、謝ろうと思ってたんだけどな」
 ＠Itsuki
 「I was hoping to apologize to her for the other day, you know」
 
 @seiji2_ikari
 #「なッ！？　こ、このアホッ！」
+#SCRIPT ORIGINAL 「なッ！？　こ、このアホッ！」
 ＠Seiji,D00069
 「Wha-!? You fool!」
 
 #「え？　あ……」
+#SCRIPT ORIGINAL 「え？　あ……」
 ＠Itsuki
 「Huh? Ah...」
 
 @miu
 #「この間のこと……？」
+#SCRIPT ORIGINAL 「この間のこと……？」
 ＠Miu,B00265
 「The other day...?」
 
 @rua
 #「………？」
+#SCRIPT ORIGINAL 「………？」
 ＠Rua,M00034
 「...?」
 
 #「いや、何でもない何でもない」
+#SCRIPT ORIGINAL 「いや、何でもない何でもない」
 ＠Itsuki
 「Never mind, it's nothing」
 
 @seiji2_ase
 #「せやせや。オレは関係ない関係ない」
+#SCRIPT ORIGINAL 「せやせや。オレは関係ない関係ない」
 ＠Seiji,D00070
 「That's right. I had nothing to do with it」
 
 #（いや、原因はお前だろうッ！）
+#SCRIPT ORIGINAL （いや、原因はお前だろうッ！）
 ＠Itsuki
 (Actually, you're what caused it!)
 
 #と叫びたかったが、話が深みにはまっていくので何とか抑える。
+#SCRIPT ORIGINAL と叫びたかったが、話が深みにはまっていくので何とか抑える。
 　I wanted to shout that out, but manage to restrain myself before the discussion gets too deep.
 
 @miu_warai
 #「涼海ちゃんも学校がありますし、あまり負担をかけないで上げてくださいね、誠司さん」
+#SCRIPT ORIGINAL 「涼海ちゃんも学校がありますし、あまり負担をかけないで上げてくださいね、誠司さん」
 ＠Miu,B00266
 「Suzumi-chan also has school, so please don't burden her too much, Seiji-san」
 
 @seiji2_odoroki
 #「ああ、いやっ、違うんです美雨さん。あいつが勝手にやってることやさかい！」
+#SCRIPT ORIGINAL 「ああ、いやっ、違うんです美雨さん。あいつが勝手にやってることやさかい！」
 ＠Seiji,D00071
 「Ahh, no, it's not like that Miu-san. She's doing it of her own will!」
 
 @seiji2_kanashimi
 #「それにこの間も洗濯物を洗うてやったら、めっちゃ怒りよるし」
+#SCRIPT ORIGINAL 「それにこの間も洗濯物を洗うてやったら、めっちゃ怒りよるし」
 ＠Seiji,D00072
 「Besides, last time I was doing the laundry and she got pissed at me」
 
 #「洗濯物……？　この二人の分もお前がか？」
+#SCRIPT ORIGINAL 「洗濯物……？　この二人の分もお前がか？」
 ＠Itsuki
 「The laundry...? You were doing theirs too?」
 
 @rua_odoroki
 #「え……それは私、初耳ですけど」
+#SCRIPT ORIGINAL 「え……それは私、初耳ですけど」
 ＠Rua,M00035
 「Eh...? that's news to me」
 
 @seiji2
 #「いやな、涼海のやつ、種類に分けて何回も洗濯機回しよるんや」
+#SCRIPT ORIGINAL 「いやな、涼海のやつ、種類に分けて何回も洗濯機回しよるんや」
 ＠Seiji,D00073
 「Yeah, I had to do so many cycles in the washer when I put Suzumi's things separately」
 
 #「せやから効率悪い思て全員分の汚れ物を一緒にまわしたら、真っ赤になって怒りよった」
+#SCRIPT ORIGINAL 「せやから効率悪い思て全員分の汚れ物を一緒にまわしたら、真っ赤になって怒りよった」
 ＠Seiji,D00074
 「So for efficiency's sake, I put everyone's dirty clothes together in the same cycle, and she went bright red and was so pissed at me」
 
 #あー、何かそのイメージはすぐ頭の中に思い浮かぶな。
+#SCRIPT ORIGINAL あー、何かそのイメージはすぐ頭の中に思い浮かぶな。
 　Indeed, somehow that image easily comes to mind.
 
 @seiji2_kanashimi
 #「パンツが恥ずかしい言うて怒るわ、オレのと一緒やと汚い言うて暴れるわ」
+#SCRIPT ORIGINAL 「パンツが恥ずかしい言うて怒るわ、オレのと一緒やと汚い言うて暴れるわ」
 ＠Seiji,D00075
 「She raged at me blabbering on about how panties are embarrassing, and that it's gross putting it in with my stuff」
 
 #「んなもん、洗濯なんやから当たり前のことやないか。なあ？」
+#SCRIPT ORIGINAL 「んなもん、洗濯なんやから当たり前のことやないか。なあ？」
 ＠Seiji,D00076
 「It doesn't make sense, it's just laundry so it seems like a normal thing to do. Right?」
 
 @rua_odoroki
 #「えっ！？　えっと、あの……でも、知らないところで下着を見られるの、恥ずかしいかも……」
+#SCRIPT ORIGINAL 「えっ！？　えっと、あの……でも、知らないところで下着を見られるの、恥ずかしいかも……」
 ＠Rua,M00036
 「Eh!? Er, um... but, it might be embarrassing if someone looks at your underwear when you're not there...」
 
 @miu_kanashimi
 #「……涼海ちゃんもるあちゃんも女の子ですから、その辺りは少し、誠司さんが気を使った方がいいかもしれませんね」
+#SCRIPT ORIGINAL 「……涼海ちゃんもるあちゃんも女の子ですから、その辺りは少し、誠司さんが気を使った方がいいかもしれませんね」
 ＠Miu,B00267
 「...Suzumi-chan and Rua-chan are girls, so you might want to be tactful about things like that, Seiji-san」
 
 @seiji2
 #「ん～～……そういうもんですか？　普段から中身を見せたり触ったりしとるのに、今さらパンツくらいで」
+#SCRIPT ORIGINAL 「ん～～……そういうもんですか？　普段から中身を見せたり触ったりしとるのに、今さらパンツくらいで」
 ＠Seiji,D00077
 「Hmm... is that so? They're always showing themselves and being touched there, but panties are off-limits now」
 
 @rua_kanashimi
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Rua,M00037
 「......」
 
 @seiji2_odoroki
 #「って、何でるあまで泣きそうな目でオレを見るん！？」
+#SCRIPT ORIGINAL 「って、何でるあまで泣きそうな目でオレを見るん！？」
 ＠Seiji,D00078
 「What the, why's Rua looking at me so upset now!?」
 
 #「お前、デリカシーって言葉辞書で調べて来い」
+#SCRIPT ORIGINAL 「お前、デリカシーって言葉辞書で調べて来い」
 ＠Itsuki
 「Go look up "delicacy" in the dictionary and come back」
 
 @seiji2_ikari
 #「知っとるわッ、宅配サービスのことやろうが！」
+#SCRIPT ORIGINAL 「知っとるわッ、宅配サービスのことやろうが！」
 ＠Seiji,D00079
 「I know that one, that means a home "delivery" service!」
 
 #そりゃデリバリーだろ。
+#SCRIPT ORIGINAL そりゃデリバリーだろ。
 　No, that's "delivery".
 
 @miu_komaru
 #「誠司さんの子供達への優しさは十分に分かってますが、気遣いに関してはもう少し勉強かもしませんね……」
+#SCRIPT ORIGINAL 「誠司さんの子供達への優しさは十分に分かってますが、気遣いに関してはもう少し勉強かもしませんね……」
 ＠Miu,B00268
 「I know you have lots of affection for them, but you might need to learn to be a little more considerate...」
 
 @seiji2_kanashimi
 #「とほほー……」
+#SCRIPT ORIGINAL 「とほほー……」
 ＠Seiji,D00080
 「Oh noー...」
 
 #憧れの美雨に（自明）たしなめられ、漫画みたいな涙の滝を流す誠司だった。
+#SCRIPT ORIGINAL 憧れの美雨に（自明）たしなめられ、漫画みたいな涙の滝を流す誠司だった。
 　Chided by his longed-for Miu for obvious reasons, Seiji shed a manga-like waterfall of tears.
 
 #穏やかな平日の時間は、そうやって平和に過ぎていく。
+#SCRIPT ORIGINAL 穏やかな平日の時間は、そうやって平和に過ぎていく。
 　And so, we passed the quiet weekday peacefully in such a fashion.
 
 #「………」
+#SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
 #「……で、一体何だったんだよ、オチもないのか」
+#SCRIPT ORIGINAL 「……で、一体何だったんだよ、オチもないのか」
 ＠Itsuki
 「...Wait, isn't there going to be some kind of conclusion to this?」
 

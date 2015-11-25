@@ -204,6 +204,8 @@ goto	itemuse_skip
 #（ケーキ）###################################################################
 label	itemuse_cake
 
+#SCRIPT ORIGINAL ケーキをあげた。<br>
+#SCRIPT ORIGINAL とても喜んで食べてくれた。
 Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｃａｋｅ．<br>Ｓｈｅ　ａｔｅ　ｉｔ　ｈａｐｐｉｌｙ．
 
 add_kenkou=add_kenkou*1
@@ -221,6 +223,7 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL けんこうが[ADD_KENKOU]回復！
 Ｓｔａｍｉｎａ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KENKOU]！
 
 #（統合へ）
@@ -229,6 +232,8 @@ goto	itemuse_skip
 #（栄養ドリンク）#############################################################
 label	itemuse_drink
 
+#SCRIPT ORIGINAL 栄養ドリンクをあげた。<br>
+#SCRIPT ORIGINAL 変な味がする、といいつつも全て飲み干してくれた。
 Ｇａｖｅ　ｈｅｒ　ａ　ｎｕｔｒｉｅｎｔ　ｄｒｉｎｋ．　Ｓｈｅ　ｓａｉｄ　ｉｔ<br>
 ｔａｓｔｅｄ　ｆｕｎｎｙ，　ｂｕｔ　ｓｔｉｌｌ　ｆｉｎｉｓｈｅｄ　ｉｔ．
 
@@ -247,6 +252,7 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL けんこうが[ADD_KENKOU]回復！
 Ｓｔａｍｉｎａ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KENKOU]！
 
 #（統合へ）
@@ -255,6 +261,7 @@ goto	itemuse_skip
 #（成長の実）#################################################################
 label	itemuse_seichounomi
 
+#SCRIPT ORIGINAL 成長の実をあげた。<br>
 Ｇａｖｅ　ｈｅｒ　ｔｈｅ　ｆｒｕｉｔ　ｏｆ　ｇｒｏｗｔｈ．
 
 add_kenkou=add_kenkou*10
@@ -272,6 +279,7 @@ if itemuse_chara=3 then karin_kenkou=karin_kenkou+add_kenkou
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL けんこうが[ADD_KENKOU]回復！
 Ｓｔａｍｉｎａ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KENKOU]！
 
 #（統合へ）
@@ -280,6 +288,8 @@ goto	itemuse_skip
 #（ぬいぐるみ）###############################################################
 label	itemuse_doll
 
+#SCRIPT ORIGINAL かわいいぬいぐるみをあげた。<br>
+#SCRIPT ORIGINAL とても喜んでくれたみたいだ。
 Ｇａｖｅ　ｈｅｒ　ａｎ　ａｄｏｒａｂｌｅ　ｓｔｕｆｆｅｄ　ａｎｉｍａｌ．<br>
 Ｓｈｅ　ｔｏｏｋ　ｉｔ　ｈａｐｐｉｌｙ．
 
@@ -298,6 +308,7 @@ if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL きりょくが[ADD_KIRYOKU]回復！
 Ｗｉｌｌｐｏｗｅｒ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KIRYOKU]！
 
 #（統合へ）
@@ -306,6 +317,8 @@ goto	itemuse_skip
 #（ぁゃιぃクスリ）###########################################################
 label	itemuse_drug
 
+#SCRIPT ORIGINAL なんだかよくわからないクスリをあげた。<br>
+#SCRIPT ORIGINAL 嫌がりつつもなんとか飲んでくれた。
 Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｓｔｒａｎｇｅ　ｍｅｄｉｃｉｎｅ．　Ｓｈｅ<br>
 ｄｒａｎｋ　ｉｔ　ｗｉｔｈ　ｍｕｃｈ　ｒｅｓｉｓｔａｎｃｅ．
 
@@ -324,6 +337,7 @@ if itemuse_chara=3 then karin_kiryoku=karin_kiryoku+add_kiryoku
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL きりょくが[ADD_KIRYOKU]回復！
 Ｗｉｌｌｐｏｗｅｒ　ｒｅｐｌｅｎｉｓｈｅｄ　ｂｙ　[ADD_KIRYOKU]！
 
 #（統合へ）
@@ -333,6 +347,7 @@ goto	itemuse_skip
 label	itemuse_book1
 add_atama=add_atama*1
 
+#SCRIPT ORIGINAL かんたんな問題集をあげてみた。
 Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｅａｓｙ　ｄｒｉｌｌｓ．
 
 window_close
@@ -349,6 +364,7 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL あたまが[ADD_ATAMA]アップ！
 Ｉｎｔｅｌｌｉｇｅｎｃｅ　ｕｐ　ｂｙ　[ADD_ATAMA]！
 
 #（統合へ）
@@ -358,6 +374,7 @@ goto	itemuse_skip
 label	itemuse_book2
 add_atama=add_atama*2
 
+#SCRIPT ORIGINAL 基本的な問題集をあげてみた。
 Ｇａｖｅ　ｈｅｒ　ｓｏｍｅ　ｓｔａｎｄａｒｄ　ｄｒｉｌｌｓ．
 
 window_close
@@ -374,6 +391,7 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL あたまが[ADD_ATAMA]アップ！
 Ｉｎｔｅｌｌｉｇｅｎｃｅ　ｕｐ　ｂｙ　[ADD_ATAMA]！
 
 #（統合へ）
@@ -383,6 +401,8 @@ goto	itemuse_skip
 label	itemuse_book3
 add_atama=add_atama*3
 
+#SCRIPT ORIGINAL とても難しい問題集をあげてみた。<br>
+#SCRIPT ORIGINAL これが解けたら天才かもしれない。
 Ｇａｖｅ　ｈｅｒ　ａ　ｓｕｐｅｒ　ｈａｒｄ　ｐｒｏｂｌｅｍ　ｓｅｔ．<br>
 Ｓｈｅ´ｌｌ　ｂｅ　ａ　ｇｅｎｉｕｓ　ｉｆ　ｓｈｅ　ｓｏｌｖｅｓ<br>
 ｔｈｅｍ．
@@ -401,6 +421,7 @@ if itemuse_chara=3 then karin_atama=karin_atama+add_atama
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL あたまが[ADD_ATAMA]アップ！
 Ｉｎｔｅｌｌｉｇｅｎｃｅ　ｕｐ　ｂｙ　[ADD_ATAMA]！
 
 #（統合へ）
@@ -409,6 +430,8 @@ goto	itemuse_skip
 #（おなかでふるえるベルト）###################################################
 label	itemuse_belt
 
+#SCRIPT ORIGINAL お腹でブルブルして筋肉を鍛えてくれるベルトをあげてみた。<br>
+#SCRIPT ORIGINAL 効果はあるのだろうか……？
 Ｇａｖｅ　ｈｅｒ　ａ　ｖｉｂｒａｔｉｎｇ　ｂｅｌｔ　ｔｈａｔ　ｗｈｉｒｓ　ｏｎ<br>
 ｏｎｅ´ｓ　ｂｅｌｌｙ．　Ｉ　ｗｏｎｄｅｒ　ｉｆ　ｉｔ　ｗｏｒｋｓ．．．？
 
@@ -428,6 +451,7 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL からだが[ADD_KARADA]アップ！
 Ｂｏｄｙ　ｕｐ　ｂｙ　[ADD_KARADA]！
 
 #（統合へ）
@@ -436,6 +460,8 @@ goto	itemuse_skip
 #（元軍人さんの体操ビデオ）###################################################
 label	itemuse_sportsvideo
 
+#SCRIPT ORIGINAL 軍人さんと楽しく体操できるビデオをあげてみた。<br>
+#SCRIPT ORIGINAL ダイエットにもなるかもしれない。
 Ｇａｖｅ　ｈｅｒ　ａ　ｆｕｎ　ｅｘｅｒｃｉｓｅ　ｖｉｄｅｏ　ｗｉｔｈ　ｔｈｅ<br>
 ｍｉｌｉｔａｒｙ．　Ｉｔ　ｗｏｕｌｄ　ｇｏ　ｗｅｌｌ　ｗｉｔｈ　ａ　ｄｉｅｔ．
 
@@ -455,6 +481,7 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL からだが[ADD_KARADA]アップ！
 Ｂｏｄｙ　ｕｐ　ｂｙ　[ADD_KARADA]！
 
 #（統合へ）
@@ -463,6 +490,8 @@ goto	itemuse_skip
 #（なにかの養成ギプス）#######################################################
 label	itemuse_gibusu
 
+#SCRIPT ORIGINAL ものすごく強力なバネがついたギプスをつけてあげた。<br>
+#SCRIPT ORIGINAL ずっとつけていれば、なにかの星になれるかもしれない……。
 Ｇａｖｅ　ｈｅｒ　ａ　ｔｒａｉｎｉｎｇ　ｓｕｉｔ　ｆｉｔｔｅｄ　ｗｉｔｈ<br>
 ａｗｆｕｌｌｙ　ｔｉｇｈｔ　ｓｐｒｉｎｇｓ．　Ｓｈｅ´ｌｌ　ｂｅ　ａ　ｓｔａｒ<br>
 ｏｆ　ｓｏｒｔｓ　ｉｆ　ｓｈｅ　ｗｅａｒｓ　ｉｔ　ａ　ｌｏｔ．．．
@@ -483,6 +512,7 @@ if itemuse_chara=3 then karin_karada=karin_karada+add_karada
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL からだが[ADD_KARADA]アップ！
 Ｂｏｄｙ　ｕｐ　ｂｙ　[ADD_KARADA]！
 
 #（統合へ）
@@ -491,6 +521,8 @@ goto	itemuse_skip
 #（きれいな手鏡）#############################################################
 label	itemuse_mirror
 
+#SCRIPT ORIGINAL キラキラした装飾がついた手鏡をあげた。<br>
+#SCRIPT ORIGINAL とても喜んでくれたみたいだ。
 Ｇａｖｅ　ｈｅｒ　ａ　ｍｉｒｒｏｒ　ｗｉｔｈ　ｓｈｉｎｙ<br>
 ｏｒｎａｍｅｎｔｓ．　Ｓｈｅ　ｔｏｏｋ　ｉｔ　ｈａｐｐｉｌｙ．
 
@@ -510,6 +542,7 @@ if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL こころが[ADD_KOKORO]アップ！
 Ｍｉｎｄ　ｕｐ　ｂｙ　[ADD_KOKORO]！
 
 #（統合へ）
@@ -518,6 +551,8 @@ goto	itemuse_skip
 #（アイドル写真集「ジ・アイドルマイスター写真集」）##########################
 label	itemuse_photobook
 
+#SCRIPT ORIGINAL 同い年くらいの女の子アイドルの写真集をあげてみた。<br>
+#SCRIPT ORIGINAL とても興味深そうに読んでいる。
 Ｇａｖｅ　ｈｅｒ　ａ　ｇｒａｖｕｒｅ　ｍａｇａｚｉｎｅ　ｏｆ　ｇｉｒｌｓ<br>
 ａｂｏｕｔ　ｔｈｅ　ｓａｍｅ　ａｇｅ．　Ｓｈｅ´ｓ　ｒｅａｄｉｎｇ　ｉｔ<br>
 ｖｅｒｙ　ｉｎｔｅｒｅｓｔｅｄ．
@@ -538,6 +573,7 @@ if itemuse_chara=3 then karin_kokoro=karin_kokoro+add_kokoro
 if itemuse_chara=3 then @karin_item_up
 wait	1000
 
+#SCRIPT ORIGINAL こころが[ADD_KOKORO]アップ！
 Ｍｉｎｄ　ｕｐ　ｂｙ　[ADD_KOKORO]！
 
 #（統合へ）
@@ -546,6 +582,8 @@ goto	itemuse_skip
 #（エッチな本「SMドエロ大魔神」）#############################################
 label	itemuse_erobook
 
+#SCRIPT ORIGINAL マニアックなどぎついエロ本をあげてみた。<br>
+#SCRIPT ORIGINAL 初めはいらないと言われたが、結局自分の部屋に持って帰ったみたいだ。
 Ｇａｖｅ　ｈｅｒ　ａ　ｐｒｅｔｔｙ　ｍａｎｉａｃａｌ　ｐｏｒｎ<br>
 ｍａｇａｚｉｎｅ．　Ｓｈｅ　ｓａｉｄ　ｓｈｅ　ｄｉｄｎ´ｔ　ｗａｎｔ　ｉｔ<br>
 ａｔ　ｆｉｒｓｔ，　ｂｕｔ　ｅｎｄｅｄ　ｕｐ　ｔａｋｉｎｇ　ｉｔ　ｂａｃｋ<br>
@@ -576,6 +614,8 @@ goto	itemuse_skip
 # ショップでは買えない？　一応入れておきます。
 label	itemuse_visualbook
 
+#SCRIPT ORIGINAL 労働の喜びを教えてくれる教育絵本をあげてみた。<br>
+#SCRIPT ORIGINAL 無駄にやる気を出し始めた。どうやら感動したらしい。
 Ｇａｖｅ　ｈｅｒ　ａ　ｐｉｃｔｕｒｅ　ｂｏｏｋ　ａｂｏｕｔ　ｔｈｅ<br>
 ｊｏｙｓ　ｏｆ　ｌａｂｏｕｒ．　Ｓｈｅ　ｓｔａｒｔｓ　ｓｐｏｕｔｉｎｇ<br>
 ｋｅｅｎｅｒ　ｎｏｎｓｅｎｓｅ，　ｓｅｅｍｉｎｇｌｙ　ｍｏｖｅｄ　ｂｙ<br>
@@ -592,6 +632,7 @@ wait	2000
 @item_effect_2
 wait	1000
 
+#SCRIPT ORIGINAL バイトの収入アップ！
 Ｐａｙ　ｒｉｓｅ　ｆｏｒ　ｐａｒｔ－ｔｉｍｅ　ｗｏｒｋ！
 
 #（統合へ）
@@ -662,6 +703,7 @@ return
 
 macro	itemuse_charasel
 
+#SCRIPT ORIGINAL 誰に使おうか……
 Ｗｈｏ　ｔｏ　ｕｓｅ　ｉｔ　ｏｎ．．．？
 
 itemuse_chara=0

@@ -13,8 +13,10 @@ bgm_stop
 @bg_gate		# 孤児院前
 @bgm12			#BGM 12 : メインテーマ
 
+#SCRIPT ORIGINAL お昼ご飯も終わり、美雨やひかり達とリビングでくつろいでいた。
 お昼ご飯も終わり、美雨やひかり達とリビングでくつろいでいた。
 
+#SCRIPT ORIGINAL みかんとかりん、いちごの三人も、集まっている。
 みかんとかりん、いちごの三人も、集まっている。
 
 @hikari_small
@@ -29,22 +31,27 @@ bgm_stop
 @hikari_yorokobi	#喜.png
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「ひーちゃん、お昼から何して遊ぼっか？」
 ＠Mikan,A01825
 「ひーちゃん、お昼から何して遊ぼっか？」
 
 @hikari_warai		#笑.png
 
+#SCRIPT ORIGINAL 「んっとねー。お父しゃんとお母しゃんとみんなであしょびたいの！」
 ＠Hikari,N00310
 「んっとねー。お父しゃんとお母しゃんとみんなであしょびたいの！」
 
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「美雨はいいけど、樹とねぇ……せっかくのお休みなのに」
 ＠Karin,P02266
 「美雨はいいけど、樹とねぇ……せっかくのお休みなのに」
 
+#SCRIPT ORIGINAL 「遊ぶ前から疲れるなよ……」
 ＠Itsuki
 「遊ぶ前から疲れるなよ……」
 
+#SCRIPT ORIGINAL 「まぁいい、ひかり、みんなと遊んどいで。美雨は大丈夫？」
 ＠Itsuki
 「まぁいい、ひかり、みんなと遊んどいで。美雨は大丈夫？」
 
@@ -54,11 +61,13 @@ wait		500
 @miu_maid
 @miu2			#開_にこ
 
+#SCRIPT ORIGINAL 「はい。まだ仕事がありますから、外に出かけたりは出来ませんけど」
 ＠Miu,B01648
 「はい。まだ仕事がありますから、外に出かけたりは出来ませんけど」
 
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「ひーちゃん、おうちの中で遊ぶのでもいいかしら？」
 ＠Miu,B01649
 「ひーちゃん、おうちの中で遊ぶのでもいいかしら？」
 
@@ -75,6 +84,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「うん！　でもひーちゃん、お父しゃんとも一緒にあしょぶのー」
 ＠Hikari,N00311
 「うん！　でもひーちゃん、お父しゃんとも一緒にあしょぶのー」
 
@@ -82,6 +92,7 @@ layer_movepass_play	l_hikari,0,play_once
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「そうだよ、パパも一緒に遊ぼうよー」
 ＠Ichigo,O02175
 「そうだよ、パパも一緒に遊ぼうよー」
 
@@ -98,6 +109,7 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ね、お父しゃんー♪」
 ＠Hikari,N00312
 「ね、お父しゃんー♪」
 
@@ -116,9 +128,11 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「いいでしょ、パパー」
 ＠Ichigo,O02176
 「いいでしょ、パパー」
 
+#SCRIPT ORIGINAL 「……ぷちいちごが増えたみたいだ」
 ＠Itsuki
 「……ぷちいちごが増えたみたいだ」
 
@@ -128,6 +142,7 @@ wait		500
 @miu_maid
 @miu			#閉_にこ
 
+#SCRIPT ORIGINAL 「ふふ、人気者ですね」
 ＠Miu,B01650
 「ふふ、人気者ですね」
 
@@ -135,6 +150,7 @@ wait		500
 @SE42			#SE42　孤児院の呼び鈴
 @miu2			#開_にこ
 
+#SCRIPT ORIGINAL 「あ、ちょっとすみません。どなたかいらしたようです」
 ＠Miu,B01651
 「あ、ちょっとすみません。どなたかいらしたようです」
 
@@ -143,23 +159,27 @@ window_close
 wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 
+#SCRIPT ORIGINAL 呼び鈴を聞いて、美雨が玄関へ出向いていく。
 呼び鈴を聞いて、美雨が玄関へ出向いていく。
 
 @hikari_small
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
+#SCRIPT ORIGINAL 「ひーちゃんも行くのー♪」
 ＠Hikari,N00313
 「ひーちゃんも行くのー♪」
 
 @hikari_
 
+#SCRIPT ORIGINAL その後を、嬉しそうにひかりが走ってついていく。
 その後を、嬉しそうにひかりが走ってついていく。
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
+#SCRIPT ORIGINAL 「誰だろうね、平日のこんな時間に？」
 ＠Mikan,A01826
 「誰だろうね、平日のこんな時間に？」
 
@@ -167,11 +187,13 @@ wait		1000
 @karin_shifuku
 @karin_bubetsu		#侮蔑
 
+#SCRIPT ORIGINAL 「樹の来客だったら遊ぶ間もなくなって楽なんだけどね」
 ＠Karin,P02267
 「樹の来客だったら遊ぶ間もなくなって楽なんだけどね」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 「ひでぇな……」
 ＠Itsuki
 「ひでぇな……」
 
@@ -181,52 +203,69 @@ window_close
 wait		1000
 @SE31			#SE31　玄関のドアが閉まる音
 
+#SCRIPT ORIGINAL 「おじゃましまーす」
 ＠???,L00315
 「おじゃましまーす」
 
+#SCRIPT ORIGINAL 「おじゃまします」
 ＠???,M00333
 「おじゃまします」
 
+#SCRIPT ORIGINAL かりんに愚痴でも返そうとしたとき、玄関から聞き慣れた声がした。
 かりんに愚痴でも返そうとしたとき、玄関から聞き慣れた声がした。
 
+#SCRIPT ORIGINAL 「いらっしゃい、涼海ちゃん、るあちゃん。それに誠司さんも」
 ＠Miu,B01652
 「いらっしゃい、涼海ちゃん、るあちゃん。それに誠司さんも」
 
+#SCRIPT ORIGINAL 「おじゃまします美雨さん。いやー忙しいのにすんません、こっちの二人がどうしても遊びに来たい言うもんで」
 ＠Seiji,D00201
 「おじゃまします美雨さん。いやー忙しいのにすんません、こっちの二人がどうしても遊びに来たい言うもんで」
 
+#SCRIPT ORIGINAL 「別に誠司は誘ってないでしょ―――って、あれ？」
 ＠Suzumi,L00316
 「別に誠司は誘ってないでしょ―――って、あれ？」
 
+#SCRIPT ORIGINAL 「こんにちわ！」
 ＠Hikari,N00314
 「こんにちわ！」
 
+#SCRIPT ORIGINAL 「わぁ、知らない子がいる。可愛い～、誰なんですか？」
 ＠Rua,M00334
 「わぁ、知らない子がいる。可愛い～、誰なんですか？」
 
+#SCRIPT ORIGINAL 「えっと、この子は今、ここで預かっている子で――」
 ＠Miu,B01653
 「えっと、この子は今、ここで預かっている子で――」
 
+#SCRIPT ORIGINAL 「ねぇお母しゃん、このお姉しゃん達だぁれ？」
 ＠Hikari,N00315
 「ねぇお母しゃん、このお姉しゃん達だぁれ？」
 
+#SCRIPT ORIGINAL 「え…？」
 ＠Rua,M00335
 「え…？」
 
+#SCRIPT ORIGINAL 「へ……？　お、お母さん…？」
 ＠Suzumi,L00317
 「へ……？　お、お母さん…？」
 
+#SCRIPT ORIGINAL 「………ぉ」
 ＠Seiji,D00202
 「………ぉ」
 
+#SCRIPT ORIGINAL 「お母さん……って、美雨さんが……？」
 ＠Seiji,D00203
 「お母さん……って、美雨さんが……？」
 
+#SCRIPT ORIGINAL ……あれ。何か向こう、ややこしい事になってるんじゃないか？
 ……あれ。何か向こう、ややこしい事になってるんじゃないか？
 
+#SCRIPT ORIGINAL 「お母しゃんは、ひーちゃんのお母しゃんなの。中にお父しゃんも居るの」
 ＠Hikari,N00316
 「お母しゃんは、ひーちゃんのお母しゃんなの。中にお父しゃんも居るの」
 
+#SCRIPT ORIGINAL その瞬間、ものすごい足音が廊下を走ってきた。
 その瞬間、ものすごい足音が廊下を走ってきた。
 
 #CH（ここから立ち絵あり）
@@ -247,21 +286,26 @@ window_close
 #layer_movepass_play	l_seiji,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「ど、どこの誰やーーッ！　美雨さんの尊い畑に子種を実らせた奴はーーッ！！」
 ＠Seiji,D00204
 「ど、どこの誰やーーッ！　美雨さんの尊い畑に子種を実らせた奴はーーッ！！」
 
+#SCRIPT ORIGINAL 「分かりにくいっての」
 ＠Itsuki
 「分かりにくいっての」
 
 @seiji_odoroki		#驚
 
+#SCRIPT ORIGINAL 「ハッ、樹！？　まさかッ……！！」
 ＠Seiji,D00205
 「ハッ、樹！？　まさかッ……！！」
 
+#SCRIPT ORIGINAL オレと目が合って硬直する誠司。
 オレと目が合って硬直する誠司。
 
 @seiji_
 
+#SCRIPT ORIGINAL その後ろからすぐ、同じく驚いて駆けつけてくる涼海とるあ。
 その後ろからすぐ、同じく驚いて駆けつけてくる涼海とるあ。
 
 window_close
@@ -272,9 +316,11 @@ se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
+#SCRIPT ORIGINAL 「お父しゃ――ぴぎゅぅッ！！」
 ＠Hikari,N00317
 「お父しゃ――ぴぎゅぅッ！！」
 
+#SCRIPT ORIGINAL それと壁に衝突するひかり。
 それと壁に衝突するひかり。
 
 @suzumi_small
@@ -286,15 +332,19 @@ screen_vibration	500,16,16,16
 #@suzumi_odoroki		#驚
 @suzumi			#普
 
+#SCRIPT ORIGINAL 「あ、あれ……。中に居る男の人って、樹さんだけ……ですか？」
 ＠Suzumi,L00318
 「あ、あれ……。中に居る男の人って、樹さんだけ……ですか？」
 
+#SCRIPT ORIGINAL 「え、じゃあ、この子ってやっぱり……樹先生と美雨さんの…」
 ＠Rua,M00336
 「え、じゃあ、この子ってやっぱり……樹先生と美雨さんの…」
 
+#SCRIPT ORIGINAL 「うぅ～……お父しゃんー、おでこぶちゅけたのぉ～～……」
 ＠Hikari,N00318
 「うぅ～……お父しゃんー、おでこぶちゅけたのぉ～～……」
 
+#SCRIPT ORIGINAL おでこを擦りながら、ひかりがオレの方へ歩いてきた。
 おでこを擦りながら、ひかりがオレの方へ歩いてきた。
 
 @chara_clear		#保険
@@ -314,14 +364,17 @@ layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_seiji,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「やっぱりお前かッ！　殺したるーーー！！」
 ＠Seiji,D00206
 「やっぱりお前かッ！　殺したるーーー！！」
 
 @seiji_
 
+#SCRIPT ORIGINAL 「ちょッ！？　こら、まずは話を聞けッ！」
 ＠Itsuki
 「ちょッ！？　こら、まずは話を聞けッ！」
 
+#SCRIPT ORIGINAL 「言い訳無用！　この光源氏がーー！！」
 ＠Seiji,D00207
 「言い訳無用！　この光源氏がーー！！」
 
@@ -342,6 +395,7 @@ layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_rua,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「きゃあっ！？　お、落ち着いてくださいっ、誠司先生」
 ＠Rua,M00337
 「きゃあっ！？　お、落ち着いてくださいっ、誠司先生」
 
@@ -349,17 +403,20 @@ layer_movepass_play	l_rua,0,play_once
 @mikan_shifuku
 @mikan_odoroki		#驚
 
+#SCRIPT ORIGINAL 「わぁっ！？　なにっ、急になに～！？」
 ＠Mikan,A01827
 「わぁっ！？　なにっ、急になに～！？」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL 「うぁああ～～っ！　美雨さんと添い遂げたら、お前と穴兄弟になるやないか～～！」
 ＠Seiji,D00208
 「うぁああ～～っ！　美雨さんと添い遂げたら、お前と穴兄弟になるやないか～～！」
 
 window_close
 @SE41			#SE41　暴れる音（ドタンッバタンッ！）
 
+#SCRIPT ORIGINAL 「するの確定で暴れるなッ。そんなフラグはない！」
 ＠Itsuki
 「するの確定で暴れるなッ。そんなフラグはない！」
 
@@ -374,19 +431,24 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「きゃっ！　ど、どうされたんですか、誠司さんっ？」
 ＠Miu,B01654
 「きゃっ！　ど、どうされたんですか、誠司さんっ？」
 
+#SCRIPT ORIGINAL 後からやってきた美雨は理由が分からず慌てていた。
 後からやってきた美雨は理由が分からず慌てていた。
 
 #■BG（黒）
 @bg_black
 wait		1000
 
+#SCRIPT ORIGINAL ………
 ………
 
+#SCRIPT ORIGINAL ……………
 ……………
 
+#SCRIPT ORIGINAL …………………
 …………………
 
 #■BG（リビング）
@@ -402,46 +464,57 @@ wait		1000
 @seiji			#普
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「――と、言うわけだ。理解したか」
 ＠Itsuki
 「――と、言うわけだ。理解したか」
 
+#SCRIPT ORIGINAL 「ほほぉ、預かってる子ねぇ」
 ＠Seiji,D00209
 「ほほぉ、預かってる子ねぇ」
 
+#SCRIPT ORIGINAL しばらくして、オレはようやく落ち着いた誠司に事情を説明できた。
 しばらくして、オレはようやく落ち着いた誠司に事情を説明できた。
 
 @suzumi_niko		#にこ
 
+#SCRIPT ORIGINAL 「樹さんと美雨さんの子供じゃなかったんだ……」
 ＠Suzumi,L00319
 「樹さんと美雨さんの子供じゃなかったんだ……」
 
 @seiji_niko		#にこ
 
+#SCRIPT ORIGINAL 「ふっ。命拾いしたな」
 ＠Seiji,D00210
 「ふっ。命拾いしたな」
 
+#SCRIPT ORIGINAL 「捨ててたまるか。こんなことで」
 ＠Itsuki
 「捨ててたまるか。こんなことで」
 
+#SCRIPT ORIGINAL 「でも、いきなりだったからビックリしました」
 ＠Rua,M00338
 「でも、いきなりだったからビックリしました」
 
 @chara_clear		#保険
 
+#SCRIPT ORIGINAL ひかりは今、美雨がキッチンの方へ連れて行って、席を外している。
 ひかりは今、美雨がキッチンの方へ連れて行って、席を外している。
 
 @karin_small
 @karin_shifuku
 @karin_bubetsu		#侮蔑
 
+#SCRIPT ORIGINAL 「樹の日ごろの行いが悪いから誤解されるのよ」
 ＠Karin,P02268
 「樹の日ごろの行いが悪いから誤解されるのよ」
 
 @karin			#普通
 
+#SCRIPT ORIGINAL 「まぁ誤解じゃなくなるのも、時間の問題なのかもしれないけど」
 ＠Karin,P02269
 「まぁ誤解じゃなくなるのも、時間の問題なのかもしれないけど」
 
+#SCRIPT ORIGINAL 「……不安になるようなことを言わないでくれ」
 ＠Itsuki
 「……不安になるようなことを言わないでくれ」
 
@@ -458,9 +531,11 @@ wait		500
 #@rua			#普
 @seiji_niko		#にこ
 
+#SCRIPT ORIGINAL 「ふふふ……まぁこれで遠慮なく美雨さんにアタックできるわけや」
 ＠Seiji,D00211
 「ふふふ……まぁこれで遠慮なく美雨さんにアタックできるわけや」
 
+#SCRIPT ORIGINAL 「美雨さんの畑で、オレの子種を育ててもらうんや！！」
 ＠Seiji,D00212
 「美雨さんの畑で、オレの子種を育ててもらうんや！！」
 
@@ -477,6 +552,7 @@ wait		500
 #@suzumi_ikari		#怒
 #@rua_ikari		#怒
 
+#SCRIPT ORIGINAL 「そんなことにやる気を出さないでよッ、バカ！／くださいッ」
 ＠Suzumi & Rua,Z90006
 「そんなことにやる気を出さないでよッ、バカ！／くださいッ」
 
@@ -491,9 +567,11 @@ wait			100
 @bg_black
 screen_blackin		1
 
+#SCRIPT ORIGINAL 「ぐふぁッ！！」
 ＠Seiji,D00213
 「ぐふぁッ！！」
 
+#SCRIPT ORIGINAL 「……なかなかいいパンチだ、るあちゃんも」
 ＠Itsuki
 「……なかなかいいパンチだ、るあちゃんも」
 
@@ -502,6 +580,7 @@ screen_blackin		1
 @ichigo_yorokobi	#喜
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「お話が終わったんだったら、ひーちゃんと美雨も呼んで遊ぼ！」
 ＠Ichigo,O02177
 「お話が終わったんだったら、ひーちゃんと美雨も呼んで遊ぼ！」
 
@@ -511,12 +590,15 @@ wait		500
 @suzumi_shifuku
 @suzumi_niko		#にこ
 
+#SCRIPT ORIGINAL 「そだねっ。ゴミ捨ててくるから、ちょっと待ってて」
 ＠Suzumi,L00321
 「そだねっ。ゴミ捨ててくるから、ちょっと待ってて」
 
+#SCRIPT ORIGINAL 「ゴミなんだ、誠司先生……」
 ＠Mikan,A01828
 「ゴミなんだ、誠司先生……」
 
+#SCRIPT ORIGINAL （……って言うのは建て前で。本当は人の家で、こっそり誠司とエッチしてみたいかな）
 ＠Seiji,D00213a
 （……って言うのは建て前で。本当は人の家で、こっそり誠司とエッチしてみたいかな）
 
@@ -529,18 +611,21 @@ layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suzumi,0,play_once
 #///////////////////////////////////////////////////////
 
+#SCRIPT ORIGINAL 「勝手にでたらめなナレーション入れないでッ！！」
 ＠Suzumi,L00322
 「勝手にでたらめなナレーション入れないでッ！！」
 
 @bg_black
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
+#SCRIPT ORIGINAL 「は、離せ～～後生や……美雨さ～～ん……！」
 ＠Seiji,D00214
 「は、離せ～～後生や……美雨さ～～ん……！」
 
 #window_close
 #@SE70			#SE70　衣擦れ音（シュルシュル）
 
+#SCRIPT ORIGINAL ズリズリと引きずられていった。
 ズリズリと引きずられていった。
 
 @karin_small
@@ -548,9 +633,11 @@ layer_movepass_play	l_suzumi,0,play_once
 @karin_kanashimi	#哀
 @bg_living		# リビング
 
+#SCRIPT ORIGINAL 「ウチの樹もあれくらいユーモアがあったら、実害も無さそうなのに」
 ＠Karin,P02270
 「ウチの樹もあれくらいユーモアがあったら、実害も無さそうなのに」
 
+#SCRIPT ORIGINAL 「似たようなもんだろ」
 ＠Itsuki
 「似たようなもんだろ」
 
@@ -560,6 +647,7 @@ wait		500
 @rua_shifuku
 @rua			#普
 
+#SCRIPT ORIGINAL 「害じゃないけど、誠司先生もする時はしてるよ……その、いろいろ」
 ＠Rua,M00340
 「害じゃないけど、誠司先生もする時はしてるよ……その、いろいろ」
 
@@ -573,9 +661,11 @@ wait		500
 @mikan			#普通
 @ichigo_yorokobi	#喜
 
+#SCRIPT ORIGINAL 「二人はお尻にしてるんだよね。誠司先生が」
 ＠Ichigo,O02178
 「二人はお尻にしてるんだよね。誠司先生が」
 
+#SCRIPT ORIGINAL 「……お尻」
 ＠Mikan,A01829
 「……お尻」
 
@@ -585,12 +675,15 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
+#SCRIPT ORIGINAL 「っく……。何で私の周りには変態しかいないのッ……」
 ＠Karin,P02271
 「っく……。何で私の周りには変態しかいないのッ……」
 
+#SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「…………」
 
+#SCRIPT ORIGINAL 本気で悔しそうだったが、ちょっと反論し切れなかった。
 本気で悔しそうだったが、ちょっと反論し切れなかった。
 
 bgm_stop
