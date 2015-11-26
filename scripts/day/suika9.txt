@@ -9,36 +9,29 @@ label	suika_09
 #■BG（樹の部屋）
 @bg_itsuki_n		# 自室(夜)
 
-#夜、そろそろ休もうかという時間に、ドアにノックがあった。
 #SCRIPT ORIGINAL 夜、そろそろ休もうかという時間に、ドアにノックがあった。
 　At night, around the time when I should go to sleep, there was a knock on the door.
 
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#このノックは、すいかかな？
 #SCRIPT ORIGINAL このノックは、すいかかな？
 　Is Suika knocking?
 
 #＠すいか,R00685
-#「院長先生、今お時間よろしいですか？」
 #SCRIPT ORIGINAL 「院長先生、今お時間よろしいですか？」
 ＠Suika,R00685
 「Inchou-sensei, is this time okay?」
 
-#おお、当たった。
 #SCRIPT ORIGINAL おお、当たった。
 　Ooh, I was right.
 
-#どこが違うのかはよくわからないが、やはりすいかのノックはなぜかわかる。
 #SCRIPT ORIGINAL どこが違うのかはよくわからないが、やはりすいかのノックはなぜかわかる。
 　I don't really know why, but for some reason, I know Suika's knock.
 
-#松葉杖を使っているぶん、叩き方が不自然なんだろうか……？
 #SCRIPT ORIGINAL 松葉杖を使っているぶん、叩き方が不自然なんだろうか……？
 　Is it because she uses crutches, so her way of hitting is strange......?
 
 #＠樹
-#「ちょっと待ってくれ、今開けるから」
 #SCRIPT ORIGINAL 「ちょっと待ってくれ、今開けるから」
 ＠Itsuki
 「Wait a second, I'll open up right now.」
@@ -46,7 +39,6 @@ label	suika_09
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
 
-#オレは立ち上がり、入り口のドアを開ける。
 #SCRIPT ORIGINAL オレは立ち上がり、入り口のドアを開ける。
 　I get up, and open the door of the entrance.
 
@@ -56,13 +48,11 @@ label	suika_09
 @bg_rouka_n		# 廊下(夜)
 
 #＠すいか,R00686
-#「すみません、夜分遅くに」
 #SCRIPT ORIGINAL 「すみません、夜分遅くに」
 ＠Suika,R00686
 「Sorry for coming so late at night.」
 
 #＠樹
-#「いや、全然大丈夫だよ。今日はどうしたんだ？」
 #SCRIPT ORIGINAL 「いや、全然大丈夫だよ。今日はどうしたんだ？」
 ＠Itsuki
 「No, it's fine. What's wrong this time?」
@@ -70,7 +60,6 @@ label	suika_09
 @suika			#普
 
 #＠すいか,R00687
-#「あ、えーと……」
 #SCRIPT ORIGINAL 「あ、えーと……」
 ＠Suika,R00687
 「Ah, u-mmm......」
@@ -78,25 +67,21 @@ label	suika_09
 @suika_kanashimi	#哀
 
 #＠すいか,R00688
-#「またゲームの続きを作りましたので、お時間があればプレイしていただけないかと……」
 #SCRIPT ORIGINAL 「またゲームの続きを作りましたので、お時間があればプレイしていただけないかと……」
 ＠Suika,R00688
 「I made the continuation of the game again, so if you have time, I was wondering if you would like to......」
 
 #＠樹
-#「お、もうできたのか！」
 #SCRIPT ORIGINAL 「お、もうできたのか！」
 ＠Itsuki
 「Whoa, you finished already!?」
 
 #＠樹
-#「すごいなぁ、すいかは……」
 #SCRIPT ORIGINAL 「すごいなぁ、すいかは……」
 ＠Itsuki
 「Suika, you're amazing......」
 
 #＠樹
-#「もういっそゲーム会社でも作ったらどうだ？」
 #SCRIPT ORIGINAL 「もういっそゲーム会社でも作ったらどうだ？」
 ＠Itsuki
 「Why don't you make a game company?」
@@ -104,7 +89,6 @@ label	suika_09
 @suika_komariwarai	#困笑
 
 #＠すいか,R00689
-#「あはは、そんなに簡単に会社は作れませんよ……」
 #SCRIPT ORIGINAL 「あはは、そんなに簡単に会社は作れませんよ……」
 ＠Suika,R00689
 「Ahaha, companies can't be made so easily......」
@@ -112,23 +96,19 @@ label	suika_09
 @suika_yorokobi		#喜
 
 #＠すいか,R00690
-#「まあ、完成したら同人ゲームとして売ろうかとは思ってるんですけど」
 #SCRIPT ORIGINAL 「まあ、完成したら同人ゲームとして売ろうかとは思ってるんですけど」
 ＠Suika,R00690
 「Well, if I finish it, I'm thinking of selling it as a doujin game.」
 
 #＠樹
-#「そうだな、それもアリかもな」
 #SCRIPT ORIGINAL 「そうだな、それもアリかもな」
 ＠Itsuki
 「Oh yeah, you could do that too.」
 
-#オレも一応、同人ゲームというものがあることぐらいは知っているが、詳しくはないので、どの程度売れるのかわからないが……。
 #SCRIPT ORIGINAL オレも一応、同人ゲームというものがあることぐらいは知っているが、詳しくはないので、どの程度売れるのかわからないが……。
 　I've heard of doujin games, but I don't know the details about them, so I don't know how well they sell......
 
 #＠樹
-#「まあ、とにかくやらせてくれ」
 #SCRIPT ORIGINAL 「まあ、とにかくやらせてくれ」
 ＠Itsuki
 「Well, for now, let me play it.」
@@ -136,12 +116,10 @@ label	suika_09
 @suika_warai		#笑
 
 #＠すいか,R00691
-#「はい、よろしくお願いします」
 #SCRIPT ORIGINAL 「はい、よろしくお願いします」
 ＠Suika,R00691
 「Yes, go ahead.」
 
-#すいかは嬉しそうにうなずき、頭を下げた。
 #SCRIPT ORIGINAL すいかは嬉しそうにうなずき、頭を下げた。
 　Suika nodded happily.
 
@@ -151,7 +129,6 @@ label	suika_09
 wait		1000
 @bg_suika_n		# すいかの部屋(夜)
 
-#部屋に着くと、すいかはさっそくゲームを立ち上げてくれた。
 #SCRIPT ORIGINAL 部屋に着くと、すいかはさっそくゲームを立ち上げてくれた。
 　When we arrived at the room, Suika started up the game immediately.
 
@@ -160,13 +137,11 @@ wait		1000
 @suika_yorokobi		#喜
 
 #＠すいか,R00692
-#「今度の面はなかなか手強いですよ～」
 #SCRIPT ORIGINAL 「今度の面はなかなか手強いですよ～」
 ＠Suika,R00692
 「This stage is kind of hard~」
 
 #＠樹
-#「そりゃ楽しみだ」
 #SCRIPT ORIGINAL 「そりゃ楽しみだ」
 ＠Itsuki
 「Then I look forward to it.」
@@ -174,13 +149,11 @@ wait		1000
 @suika_warai		#笑
 
 #＠すいか,R00693
-#「それじゃ、ＥＮＴＥＲかスペースキーでゲーム開始です！」
 #SCRIPT ORIGINAL 「それじゃ、ＥＮＴＥＲかスペースキーでゲーム開始です！」
 ＠Suika,R00693
 「Well then, start the game by pressing ENTER or the space key!」
 
 #＠樹
-#「おうっ！」
 #SCRIPT ORIGINAL 「おうっ！」
 ＠Itsuki
 「Oh!」
@@ -211,7 +184,6 @@ label		suika_game_check_game3_1_allclear
 @bgm12			#BGM 12 : メインテーマ
 
 #＠すいか,R00694
-#「院長先生、すごいです！」
 #SCRIPT ORIGINAL 「院長先生、すごいです！」
 ＠Suika,R00694
 「Wow, Inchou-sensei!」
@@ -219,19 +191,16 @@ label		suika_game_check_game3_1_allclear
 @suika			#普
 
 #＠すいか,R00695
-#「こんな簡単にクリアしちゃうなんて……。結構難しくしたつもりだったんですけど、簡単でしたか？」
 #SCRIPT ORIGINAL 「こんな簡単にクリアしちゃうなんて……。結構難しくしたつもりだったんですけど、簡単でしたか？」
 ＠Suika,R00695
 「You cleared it so easily...... I intended to make it a bit hard, but was it easy?」
 
 #＠樹
-#「うーん、オレはシューティング得意だからなぁ」
 #SCRIPT ORIGINAL 「うーん、オレはシューティング得意だからなぁ」
 ＠Itsuki
 「Yeah, because I'm good at shooting games.」
 
 #＠樹
-#「オレに合わせちゃうと、普通のユーザーはクリアできなくなるぜ」
 #SCRIPT ORIGINAL 「オレに合わせちゃうと、普通のユーザーはクリアできなくなるぜ」
 ＠Itsuki
 「If you make it match my level, normal users won't be able to clear it!」
@@ -239,7 +208,6 @@ label		suika_game_check_game3_1_allclear
 @suika_warai		#笑
 
 #＠すいか,R00696
-#「あはは、そうですよね」
 #SCRIPT ORIGINAL 「あはは、そうですよね」
 ＠Suika,R00696
 「Ahaha, I see.」
@@ -247,19 +215,16 @@ label		suika_game_check_game3_1_allclear
 @suika_kanashimi	#哀
 
 #＠すいか,R00697
-#「やっぱり、バランス調整って難しいな……」
 #SCRIPT ORIGINAL 「やっぱり、バランス調整って難しいな……」
 ＠Suika,R00697
 「It's hard to balance it after all......」
 
 #＠樹
-#「世の中いろんな人間がいるからな」
 #SCRIPT ORIGINAL 「世の中いろんな人間がいるからな」
 ＠Itsuki
 「There are different kinds of people in the world after all.」
 
 #＠樹
-#「誰もが１００％楽しめるものなんて、あり得ないさ」
 #SCRIPT ORIGINAL 「誰もが１００％楽しめるものなんて、あり得ないさ」
 ＠Itsuki
 「It's impossible for something that anyone can enjoy 100% to exist.」
@@ -287,13 +252,11 @@ label		suika_game_check_game3_1_good
 @bgm12			#BGM 12 : メインテーマ
 
 #＠すいか,R00699
-#「あーっ、死んじゃいましたね」
 #SCRIPT ORIGINAL 「あーっ、死んじゃいましたね」
 ＠Suika,R00699
 「Ah, you died.」
 
 #＠樹
-#「そうだな……」
 #SCRIPT ORIGINAL 「そうだな……」
 ＠Itsuki
 「Yeah......」
@@ -301,25 +264,21 @@ label		suika_game_check_game3_1_good
 @suika_yorokobi		#喜
 
 #＠すいか,R00700
-#「でも、この前作った部分は、もう簡単に進めるようになったみたいですね」
 #SCRIPT ORIGINAL 「でも、この前作った部分は、もう簡単に進めるようになったみたいですね」
 ＠Suika,R00700
 「But, you did the part I made a while ago easily.」
 
 #＠樹
-#「攻略パターンが見えてきたからな」
 #SCRIPT ORIGINAL 「攻略パターンが見えてきたからな」
 ＠Itsuki
 「That's because I saw the capture pattern.」
 
 #＠樹
-#「やっぱり、やってるうちに攻略法が見えてくるのって、大切だよな」
 #SCRIPT ORIGINAL 「やっぱり、やってるうちに攻略法が見えてくるのって、大切だよな」
 ＠Itsuki
 「I guess it's important to find out how to capture it while you're playing.」
 
 #＠樹
-#「今度はできるかも、って思って続ける気になるし」
 #SCRIPT ORIGINAL 「今度はできるかも、って思って続ける気になるし」
 ＠Itsuki
 「I might be able to do it next time, I think, so I want to continue trying.」
@@ -355,13 +314,11 @@ label		suika_game_check_game3_1_bad
 @bgm12			#BGM 12 : メインテーマ
 
 #＠すいか,R00702
-#「あ、ゲームオーバーですか……？」
 #SCRIPT ORIGINAL 「あ、ゲームオーバーですか……？」
 ＠Suika,R00702
 「Ah, did you get game over......?」
 
 #＠樹
-#「たはは……。油断した……」
 #SCRIPT ORIGINAL 「たはは……。油断した……」
 ＠Itsuki
 「Tahaha...... I wasn't prepared......」
@@ -369,7 +326,6 @@ label		suika_game_check_game3_1_bad
 @suika_kanashimi	#哀
 
 #＠すいか,R00703
-#「うーん、先生らしくないですね」
 #SCRIPT ORIGINAL 「うーん、先生らしくないですね」
 ＠Suika,R00703
 「Umm, that's not like you, sensei.」
@@ -388,7 +344,6 @@ label		suika_game_check_game3_1_bad
 label		suika9_togo1
 
 #＠すいか,R00705
-#「それじゃ、もう一度やってみますか？」
 #SCRIPT ORIGINAL 「それじゃ、もう一度やってみますか？」
 ＠Suika,R00705
 「Would you like to play again?」
@@ -409,7 +364,6 @@ if sel=1 then goto suika9_q01_b
 label		suika9_q01_a
 
 #＠樹
-#「おう、もちろんだ」
 #SCRIPT ORIGINAL 「おう、もちろんだ」
 ＠Itsuki
 「Oh, of course!」
@@ -417,7 +371,6 @@ label		suika9_q01_a
 @suika_warai		#笑
 
 #＠すいか,R00706
-#「院長先生、頑張ってください！」
 #SCRIPT ORIGINAL 「院長先生、頑張ってください！」
 ＠Suika,R00706
 「Inchou-sensei, please do your best!」
@@ -448,13 +401,11 @@ label		suika_game_check_game3_2_allclear
 @bgm12			#BGM 12 : メインテーマ
 
 #＠すいか,R00707
-#「さすがですね……」
 #SCRIPT ORIGINAL 「さすがですね……」
 ＠Suika,R00707
 「Wow......」
 
 #＠樹
-#「ふぅ、なんとかクリアできたか」
 #SCRIPT ORIGINAL 「ふぅ、なんとかクリアできたか」
 ＠Itsuki
 「Fuu, I managed to clear it somehow.」
@@ -474,13 +425,11 @@ label		suika_game_check_game3_2_noclear
 @bgm12			#BGM 12 : メインテーマ
 
 #＠すいか,R00708
-#「あーっ、残念……」
 #SCRIPT ORIGINAL 「あーっ、残念……」
 ＠Suika,R00708
 「Aah, what a shame......」
 
 #＠樹
-#「うーん、ミスったぜ……」
 #SCRIPT ORIGINAL 「うーん、ミスったぜ……」
 ＠Itsuki
 「Yeah, I messed up......」
@@ -491,7 +440,6 @@ label		suika_game_check_game3_2_noclear
 label		suika9_togo2
 
 #＠樹
-#「でもやっぱり面白いな、このゲーム」
 #SCRIPT ORIGINAL 「でもやっぱり面白いな、このゲーム」
 ＠Itsuki
 「But this game sure is fun.」
@@ -499,7 +447,6 @@ label		suika9_togo2
 @suika			#普
 
 #＠すいか,R00709
-#「そ、そうですか？」
 #SCRIPT ORIGINAL 「そ、そうですか？」
 ＠Suika,R00709
 「Re, really?」
@@ -507,29 +454,24 @@ label		suika9_togo2
 @suika_yorokobi		#喜
 
 #＠すいか,R00710
-#「えへへ……嬉しいな……」
 #SCRIPT ORIGINAL 「えへへ……嬉しいな……」
 ＠Suika,R00710
 「Ehehe...... I'm happy......」
 
-#オレに言葉にすいかは目を細め、幸せそうに笑う。
 #SCRIPT ORIGINAL オレに言葉にすいかは目を細め、幸せそうに笑う。
 　Suika closed her eyes and happily smiled when I said that.
 
 #＠樹
-#「ホントにすごいよな、すいかは」
 #SCRIPT ORIGINAL 「ホントにすごいよな、すいかは」
 ＠Itsuki
 「Suika, you're really amazing.」
 
 #＠樹
-#「初めてでこんなに面白いゲームが作れるなんて、やっぱり才能があったんだな」
 #SCRIPT ORIGINAL 「初めてでこんなに面白いゲームが作れるなんて、やっぱり才能があったんだな」
 ＠Itsuki
 「You have lots of talent, so the first game you made was a really interesting one.」
 
 #＠樹
-#「これならプロのゲームクリエイターにだってなれるんじゃないか？」
 #SCRIPT ORIGINAL 「これならプロのゲームクリエイターにだってなれるんじゃないか？」
 ＠Itsuki
 「You could even become a professional game creator!」
@@ -537,25 +479,21 @@ label		suika9_togo2
 @suika_tere		#照
 
 #＠すいか,R00711
-#「えへへ……そうかな……？」
 #SCRIPT ORIGINAL 「えへへ……そうかな……？」
 ＠Suika,R00711
 「Ehehe...... Really......?」
 
-#はにかんだ微笑みを浮かべるすいかの姿に、なんだかこっちまで幸せな気分になってしまう。
 #SCRIPT ORIGINAL はにかんだ微笑みを浮かべるすいかの姿に、なんだかこっちまで幸せな気分になってしまう。
 　Suika's shy smile made me feel a bit happy too.
 
 @suika_yorokobi		#喜
 
 #＠すいか,R00712
-#「でも、なんか夢みたいです、こういうのって」
 #SCRIPT ORIGINAL 「でも、なんか夢みたいです、こういうのって」
 ＠Suika,R00712
 「But this is kind of like a dream.」
 
 #＠樹
-#「ん……？」
 #SCRIPT ORIGINAL 「ん……？」
 ＠Itsuki
 「Hm......?」
@@ -563,31 +501,26 @@ label		suika9_togo2
 @suika_tere		#照
 
 #＠すいか,R00713
-#「院長先生みたいな優しい人と、こんなふうに過ごせるなんて……」
 #SCRIPT ORIGINAL 「院長先生みたいな優しい人と、こんなふうに過ごせるなんて……」
 ＠Suika,R00713
 「That I'm able to spend time like this with a person as kind as you, Inchou-sensei.」
 
 #＠樹
-#「ははは、すいかは大げさだな……」
 #SCRIPT ORIGINAL 「ははは、すいかは大げさだな……」
 ＠Itsuki
 「Hahaha, you're exaggerating, Suika......」
 
 #＠すいか,R00714
-#「先生なら、身体のことも気にしないでくれるし、私がオタクでも退かないし」
 #SCRIPT ORIGINAL 「先生なら、身体のことも気にしないでくれるし、私がオタクでも退かないし」
 ＠Suika,R00714
 「Sensei doesn't mind how my body is, and doesn't get put off by the fact that I am an otaku.」
 
 #＠樹
-#「どっちもイヤじゃないしな」
 #SCRIPT ORIGINAL 「どっちもイヤじゃないしな」
 ＠Itsuki
 「But neither of those things are disgusting.」
 
 #＠樹
-#「オレも、すいかとこうやって過ごせるの、楽しいし」
 #SCRIPT ORIGINAL 「オレも、すいかとこうやって過ごせるの、楽しいし」
 ＠Itsuki
 「I also think it's fun to be able to spend time with you like this, Suika.」
@@ -595,29 +528,23 @@ label		suika9_togo2
 @suika_yorokobi		#喜
 
 #＠すいか,R00715
-#「ホントですか……？」
 #SCRIPT ORIGINAL 「ホントですか……？」
 ＠Suika,R00715
 「Really......?」
 
-#すいかは少し上目遣いになってオレを見つめてくる。
 #SCRIPT ORIGINAL すいかは少し上目遣いになってオレを見つめてくる。
 　Suika looks up at me with slightly upturned eyes.
 
-#その瞳は、なんだか恋する乙女のようだ。
 #SCRIPT ORIGINAL その瞳は、なんだか恋する乙女のようだ。
 　Those eyes are kind of like those of a maiden in love.
 
-#うーん、もしかしてすいかのヤツ、オレを好きになりかけてたりする……？
 #SCRIPT ORIGINAL うーん、もしかしてすいかのヤツ、オレを好きになりかけてたりする……？
 　Umm, don't tell me, Suika is falling in love with me......?
 
-#でもまあ、オレのうぬぼれかもしれないし、あんまり気にしない方がいいかな？
 #SCRIPT ORIGINAL でもまあ、オレのうぬぼれかもしれないし、あんまり気にしない方がいいかな？
 　Well, I guess it's just me being conceited, so I shouldn't worry about it right?
 
 #＠樹
-#「ホントホント。すいかは素直ないい子だしな」
 #SCRIPT ORIGINAL 「ホントホント。すいかは素直ないい子だしな」
 ＠Itsuki
 「Really really. Suika is an obedient good child.」
@@ -628,7 +555,6 @@ label		suika9_togo2
 @suika_tere		#照
 
 #＠すいか,R00716
-#「えへへ……」
 #SCRIPT ORIGINAL 「えへへ……」
 ＠Suika,R00716
 「Ehehe......」
@@ -636,12 +562,10 @@ label		suika9_togo2
 @suika_yorokobi		#喜
 
 #＠すいか,R00717
-#「あ、先生、もっとプレイしてもいいですよ？」
 #SCRIPT ORIGINAL 「あ、先生、もっとプレイしてもいいですよ？」
 ＠Suika,R00717
 「Ah, Sensei, would you like to play more?」
 
-#照れくさそうに笑い、すいかは不意に思い出したようにそんなことを言ってきた。
 #SCRIPT ORIGINAL 照れくさそうに笑い、すいかは不意に思い出したようにそんなことを言ってきた。
 　Laughing embarassedly, Suika asks as if she just remembered that.
 
@@ -661,7 +585,6 @@ if sel=1 then goto suika9_q02_b
 label		suika9_q02_a
 
 #＠樹
-#「そうだな。もう１回ぐらいやってみるか」
 #SCRIPT ORIGINAL 「そうだな。もう１回ぐらいやってみるか」
 ＠Itsuki
 「Sure. I want to try playing one more time.」
@@ -669,7 +592,6 @@ label		suika9_q02_a
 @suika_warai		#笑
 
 #＠すいか,R00718
-#「それじゃ、頑張ってください！」
 #SCRIPT ORIGINAL 「それじゃ、頑張ってください！」
 ＠Suika,R00718
 「Then, please do your best!」
@@ -701,21 +623,18 @@ label		suika_game_check_game3_3_allclear
 @SE105			#SE105　拍手・一人（盛大なものではない。雫が感心するシーンで打つもの）
 
 #＠すいか,R00719
-#「さっすが院長先生！　お見事です！」
 #SCRIPT ORIGINAL 「さっすが院長先生！　お見事です！」
 ＠Suika,R00719
 「Well done, Inchou-sensei! Good job!」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#そう言ってすいかは小さく拍手をする。
 #SCRIPT ORIGINAL そう言ってすいかは小さく拍手をする。
 　Suika claps her hands a bit and says that.
 
 se_stop			0
 
 #＠樹
-#「ははは、まあ、すいかには敵わないだろうけどな」
 #SCRIPT ORIGINAL 「ははは、まあ、すいかには敵わないだろうけどな」
 ＠Itsuki
 「Hahaha, well, I'm no match for Suika.」
@@ -723,13 +642,11 @@ se_stop			0
 @suika_yorokobi		#喜
 
 #＠すいか,R00720
-#「そんなことないですよ！　実力は伯仲じゃないですか？」
 #SCRIPT ORIGINAL 「そんなことないですよ！　実力は伯仲じゃないですか？」
 ＠Suika,R00720
 「No way! Aren't our abilities equal?」
 
 #＠樹
-#「そうだといいんだがなぁ」
 #SCRIPT ORIGINAL 「そうだといいんだがなぁ」
 ＠Itsuki
 「It would be good if that were so...」
@@ -748,13 +665,11 @@ label		suika_game_check_game3_3_noclear
 @bg_suika_n		# すいかの部屋(夜)
 
 #＠すいか,R00721
-#「うーん、当たっちゃいましたか……」
 #SCRIPT ORIGINAL 「うーん、当たっちゃいましたか……」
 ＠Suika,R00721
 「Umm, you got hit......」
 
 #＠樹
-#「さすがにちょっと疲れてきたかな。ミスが増えてきた」
 #SCRIPT ORIGINAL 「さすがにちょっと疲れてきたかな。ミスが増えてきた」
 ＠Itsuki
 「I guess I was tired. My misses increased.」
@@ -762,12 +677,10 @@ label		suika_game_check_game3_3_noclear
 @suika_kanashimi	#哀
 
 #＠すいか,R00722
-#「そうですね……。もうこんな時間ですし……」
 #SCRIPT ORIGINAL 「そうですね……。もうこんな時間ですし……」
 ＠Suika,R00722
 「That's right...... It's already this late anyways......」
 
-#時計に目をやって、すいかはため息をつく。
 #SCRIPT ORIGINAL 時計に目をやって、すいかはため息をつく。
 　Suika sighs while looking at the clock.
 
@@ -783,13 +696,11 @@ label		suika9_q02_b
 label		suika9_togo3
 
 #＠樹
-#「ま、今日はこれぐらいにしておくよ」
 #SCRIPT ORIGINAL 「ま、今日はこれぐらいにしておくよ」
 ＠Itsuki
 「Well, I'll leave it at this for today.」
 
 #＠樹
-#「明日起きられなくて朝食を食べ逃すのも嫌だしな」
 #SCRIPT ORIGINAL 「明日起きられなくて朝食を食べ逃すのも嫌だしな」
 ＠Itsuki
 「I won't be able to get up tomorrow morning and eat breakfast.」
@@ -797,13 +708,11 @@ label		suika9_togo3
 @suika_komariwarai	#困笑
 
 #＠すいか,R00723
-#「あはは、そうですね」
 #SCRIPT ORIGINAL 「あはは、そうですね」
 ＠Suika,R00723
 「Ahaha, I see.」
 
 #＠樹
-#「……よっと。それじゃおやすみ、すいか」
 #SCRIPT ORIGINAL 「……よっと。それじゃおやすみ、すいか」
 ＠Itsuki
 「......Okay. Well, good night, Suika.」
@@ -814,13 +723,11 @@ label		suika9_togo3
 @suika_tere		#照
 
 #＠すいか,R00724
-#「えへへ……」
 #SCRIPT ORIGINAL 「えへへ……」
 ＠Suika,R00724
 「Ehehe......」
 
 #＠樹
-#「じゃ、また明日」
 #SCRIPT ORIGINAL 「じゃ、また明日」
 ＠Itsuki
 「Well, see you tomorrow.」
@@ -828,13 +735,11 @@ label		suika9_togo3
 @suika_yorokobi		#喜
 
 #＠すいか,R00725
-#「はい……」
 #SCRIPT ORIGINAL 「はい……」
 ＠Suika,R00725
 「Yes......」
 
 #＠すいか,R00726
-#「おやすみなさい、院長先生……」
 #SCRIPT ORIGINAL 「おやすみなさい、院長先生……」
 ＠Suika,R00726
 「Good night, Inchou-sensei......」
@@ -843,7 +748,6 @@ bgm_stop
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
 
-#部屋から出て行くオレをすいかはじっと見つめていたけれど、オレはそっとドアを閉じた。
 #SCRIPT ORIGINAL 部屋から出て行くオレをすいかはじっと見つめていたけれど、オレはそっとドアを閉じた。
 　Suika stared at me leaving the room, but I quietly closed the door.
 

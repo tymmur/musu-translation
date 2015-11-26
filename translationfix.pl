@@ -9,6 +9,10 @@ use File::Copy;
 
 my $make_widechar_copy = 1;
 
+# add the original Japanese lines as comments
+# turning this off will remove existing lines starting with #SCRIPT ORIGINAL
+my $add_original_lines = 1;
+
 # ignore the rest of the setup. It can't be used, but has to be there for the script to work
 my $to_wide_char = 0;
 my $to_short_char = 0;
@@ -1049,7 +1053,7 @@ sub handleScreenLines
 	# add the original lines as comments
 	foreach (@jap_lines)
 	{
-		push(@output, "#SCRIPT ORIGINAL " . $_);
+		push(@output, "#SCRIPT ORIGINAL " . $_) if $add_original_lines;
 	}
 	
 	# put modified lines into @lines
@@ -1456,6 +1460,18 @@ sub handleFile
 			
 			$to_wide_char = 0;
 			$split_lines = 0;
+			
+			# remove old style unmarked original text as comments
+			#my @temp_lines = handleScreenLines($dialogue_added, @lines);			
+			#foreach (@temp_lines)
+			#{
+			#	last if (substr($_, 0, 1) ne "#");
+			#	my $temp_str = "#" . substr($_, 17);
+			#	if ($temp_str eq $output[-1])
+			#	{
+			#		pop(@output);
+			#	}
+			#}
 			
 			foreach((handleScreenLines($dialogue_added, @lines)))
 			{

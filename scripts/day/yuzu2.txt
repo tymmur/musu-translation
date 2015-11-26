@@ -13,12 +13,10 @@ wait			2000
 screen_whitein		100
 wait			100
 
-#「う……」
 #SCRIPT ORIGINAL 「う……」
 ＠Itsuki
 「Ugh...」
 
-#閉じた視界の向こうに光が差し、意識が覚醒した。
 #SCRIPT ORIGINAL 閉じた視界の向こうに光が差し、意識が覚醒した。
 　I came back to my senses, as a ray of light shone over my eyelids.
 
@@ -26,53 +24,42 @@ wait			100
 @bg_itsuki		# 自室
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
 
-#「………あれ？」
 #SCRIPT ORIGINAL 「………あれ？」
 ＠Itsuki
 「...Huh?」
 
-#自室だった。
 #SCRIPT ORIGINAL 自室だった。
 　I was in my own room.
 
-#そして、いつの間にか朝だった。
 #SCRIPT ORIGINAL そして、いつの間にか朝だった。
 　And before I knew it, it was morning.
 
-#「……いつの間にか寝てたのか」
 #SCRIPT ORIGINAL 「……いつの間にか寝てたのか」
 ＠Itsuki
 「...I must have fallen asleep」
 
-#「な、何か寝る前にすごい衝撃を受けた気がするんだが……」
 #SCRIPT ORIGINAL 「な、何か寝る前にすごい衝撃を受けた気がするんだが……」
 ＠Itsuki
 「I-I feel like I took a really hard blow before falling asleep...」
 
-#まるで脳が拒絶しているかのように、思い出せない。
 #SCRIPT ORIGINAL まるで脳が拒絶しているかのように、思い出せない。
 　I can’t remember, like it’s some kind of a repressed memory.
 
-#「なんだっけ……もしかして夢…？」
 #SCRIPT ORIGINAL 「なんだっけ……もしかして夢…？」
 ＠Itsuki
 「What was it, again...? A dream...?」
 
-#「そうか、夢だ。夢に違いない」
 #SCRIPT ORIGINAL 「そうか、夢だ。夢に違いない」
 ＠Itsuki
 「Yeah, there’s no doubt. It must have been a dream」
 
-#目覚ましはかけてなかったようだが、いつもどおりの起床時間だ。
 #SCRIPT ORIGINAL 目覚ましはかけてなかったようだが、いつもどおりの起床時間だ。
 　It was my usual time getting up, even though I didn’t set an alarm.
 
-#「シャワーでも浴びて目を覚ますか……くだらない夢くらいすぐ忘れるだろ」
 #SCRIPT ORIGINAL 「シャワーでも浴びて目を覚ますか……くだらない夢くらいすぐ忘れるだろ」
 ＠Itsuki
 「I guess I’ll take a shower to perk myself up... and forget all about some silly dream」
@@ -91,14 +78,12 @@ wait		500
 #@bg_rouka		# 廊下
 @bg_door		# ドア前
 
-#「あ、樹先生！　おはようございます♪」
 #SCRIPT ORIGINAL 「あ、樹先生！　おはようございます♪」
 ＠Yuzu,F00222
 「Ah, Itsuki-sensei! Good morning♪」
 
 screen_vibration	500,16,16,16
 
-#「うわぁああッ！！　思い出したーー！！！」
 #SCRIPT ORIGINAL 「うわぁああッ！！　思い出したーー！！！」
 ＠Itsuki
 「Uwaahhhh!! I rememberedーー!!!」
@@ -113,18 +98,15 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#「ひゃあッ！？　なッ…ど、どうしたんですかっ？」
 #SCRIPT ORIGINAL 「ひゃあッ！？　なッ…ど、どうしたんですかっ？」
 ＠Yuzu,F00223
 「Hyaaa!? Wha... w-what’s going on!?」
 
 @bgm02			#BGM 02 : 朝のテーマ
 
-#廊下でいきなり鉢合わせたこの少女……いや、少女じゃないのか……
 #SCRIPT ORIGINAL 廊下でいきなり鉢合わせたこの少女……いや、少女じゃないのか……
 　The girl I bumped into in the hall... well, maybe not a girl...
 
-#とにかく、何事も無かったように挨拶をしてきた、この子の正体だ！
 #SCRIPT ORIGINAL とにかく、何事も無かったように挨拶をしてきた、この子の正体だ！
 　Anyway, it’s this kid in real life, greeting me as if nothing had happened!
 
@@ -135,36 +117,30 @@ wait		100
 @shizuku_akire		#呆
 @bg_rouka		# 廊下
 
-#「どうしたの、朝から大声でうるさいね……」
 #SCRIPT ORIGINAL 「どうしたの、朝から大声でうるさいね……」
 ＠Shizuku,S00666
 「What is it, quit your yelling first thing in the morning...」
 
-#「どうしたもこうしたも！　このゆずって子！」
 #SCRIPT ORIGINAL 「どうしたもこうしたも！　このゆずって子！」
 ＠Itsuki
 「What is it, you ask!? It’s this kid, Yuzu!」
 
-#「……って、そう言えば昨夜の件は雫さんの差し金でしたね！　全部知ってたんですかッ！」
 #SCRIPT ORIGINAL 「……って、そう言えば昨夜の件は雫さんの差し金でしたね！　全部知ってたんですかッ！」
 ＠Itsuki
 「...Wait, you’re the one who instigated all this last night! You knew everything, didn’t you!?」
 
 @shizuku		#普通
 
-#「差し金って、失礼な。あたしはここの生活のルールに基づいて動いてるだけじゃないか」
 #SCRIPT ORIGINAL 「差し金って、失礼な。あたしはここの生活のルールに基づいて動いてるだけじゃないか」
 ＠Shizuku,S00667
 「How rude, I didn’t “instigate” it. My actions were rooted soundly in the principles of our institution」
 
 @shizuku_chousyou	#怒笑
 
-#「ふふん♪　それ以上のことは、ゆず自身の問題でしょう？」
 #SCRIPT ORIGINAL 「ふふん♪　それ以上のことは、ゆず自身の問題でしょう？」
 ＠Shizuku,S00668
 「Fufun♪ Beyond that, what problem is there with Yuzu?」
 
-#「それは何もかも知ってた笑みだッ」
 #SCRIPT ORIGINAL 「それは何もかも知ってた笑みだッ」
 ＠Itsuki
 「However you look at it, that’s the smile of a knowing perpetrator!」
@@ -176,28 +152,23 @@ wait		100
 @yuzu			#普
 @bg_door		# ドア前
 
-#「え？　えっと……昨夜のこと、やっぱり不味かったでしょうか」
 #SCRIPT ORIGINAL 「え？　えっと……昨夜のこと、やっぱり不味かったでしょうか」
 ＠Yuzu,F00224
 「Eh? Umm... was what happened last night not to your liking, after all?」
 
-#オレ達のやり取りに、ゆずが不安そうにしょげる。
 #SCRIPT ORIGINAL オレ達のやり取りに、ゆずが不安そうにしょげる。
 　Yuzu looks dejected and worried at our exchange.
 
-#「……念のため確認するが。昨夜のことって？」
 #SCRIPT ORIGINAL 「……念のため確認するが。昨夜のことって？」
 ＠Itsuki
 「...I just have to confirm. What happened last night?」
 
 @yuzu_kanashimi		#哀
 
-#「えと、ですから……樹先生を気持ちよくするとき、ボクまで勃起してしまって……」
 #SCRIPT ORIGINAL 「えと、ですから……樹先生を気持ちよくするとき、ボクまで勃起してしまって……」
 ＠Yuzu,F00225
 「Er, you know... I was making Itsuki-sensei feel good, and I got erect myself...」
 
-#「……勃起」
 #SCRIPT ORIGINAL 「……勃起」
 ＠Itsuki
 「...Erect」
@@ -216,7 +187,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#「ぼ、勃起！？」
 #SCRIPT ORIGINAL 「ぼ、勃起！？」
 ＠Karin,P00563
 「E-erect!?」
@@ -225,7 +195,6 @@ layer_movepass_play	l_karin,0,play_once
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-#「勃起、したんだ…？」
 #SCRIPT ORIGINAL 「勃起、したんだ…？」
 ＠Zakuro,Q00383
 「You got erect, huh...?」
@@ -233,28 +202,24 @@ layer_movepass_play	l_karin,0,play_once
 #SE24　物音（ガタンッ）※慌ててるのを表現。音が合わないときはSE無しで可
 @SE24			#SE24　物音（ガタンッ）
 
-#「うわッ！？　な、何だお前らッ！！」
 #SCRIPT ORIGINAL 「うわッ！？　な、何だお前らッ！！」
 ＠Itsuki
 「Uwah!? W-where did you all come from!!」
 
 @karin_kanashimi	#哀
 
-#「さっきから居たわよ、後ろに」
 #SCRIPT ORIGINAL 「さっきから居たわよ、後ろに」
 ＠Karin,P00564
 「We were standing behind you just now」
 
 @karin_keno		#嫌悪
 
-#「そ、それより……樹を気持ち良くっていうのはこの際置いといて……勃起っていうのは…」
 #SCRIPT ORIGINAL 「そ、それより……樹を気持ち良くっていうのはこの際置いといて……勃起っていうのは…」
 ＠Karin,P00565
 「M-more importantly... putting aside the making you feel good part... erect means...」
 
 @zakuro_metoji		#閉
 
-#「『勃起』・・・力強くむくむくと起き上がること。奮い起こること」
 #SCRIPT ORIGINAL 「『勃起』・・・力強くむくむくと起き上がること。奮い起こること」
 ＠Zakuro,Q00384
 「“Erect”... vigorously, throbbing and rising upward. To arouse」
@@ -263,19 +228,16 @@ layer_movepass_play	l_karin,0,play_once
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
-#「意味は聞いてないッ！」
 #SCRIPT ORIGINAL 「意味は聞いてないッ！」
 ＠Karin,P00566
 「...I didn’t ask for a definition!」
 
 @karin_keno		#嫌悪
 
-#「ゆ、ゆず……あなた、男なの？」
 #SCRIPT ORIGINAL 「ゆ、ゆず……あなた、男なの？」
 ＠Karin,P00567
 「Y-Yuzu... are you a guy?」
 
-#「いや……万に一つの可能性で、アンドロギュヌス」
 #SCRIPT ORIGINAL 「いや……万に一つの可能性で、アンドロギュヌス」
 ＠Itsuki
 「Wait... there’s a slim chance he’s a hermaphrodite」
@@ -287,7 +249,6 @@ wait		100
 @yuzu			#普
 @bg_door		# ドア前
 
-#「いえ、普通の男ですけど……」
 #SCRIPT ORIGINAL 「いえ、普通の男ですけど……」
 ＠Yuzu,F00226
 「No, I’m a regular boy...」
@@ -295,7 +256,6 @@ wait		100
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
@@ -304,14 +264,12 @@ wait		100
 #@karin_shifuku
 #@karin_odoroki		#驚
 
-#「お、おとこ……うそ、だってその髪も格好も…」
 #SCRIPT ORIGINAL 「お、おとこ……うそ、だってその髪も格好も…」
 ＠Karin,P00568
 「B-boy... no way, but your hair and get-up...」
 
 @yuzu_yorokobi		#喜
 
-#「この髪はウィッグです。服は、こういうのが好きだから」
 #SCRIPT ORIGINAL 「この髪はウィッグです。服は、こういうのが好きだから」
 ＠Yuzu,F00227
 「The hair’s a wig. And I like wearing these kind of clothes, so...」
@@ -327,31 +285,26 @@ wait		100
 @karin_kanashimi	#哀
 @bg_rouka		# 廊下
 
-#「うん、似合ってる」
 #SCRIPT ORIGINAL 「うん、似合ってる」
 ＠Zakuro,Q00385
 「Yeah, it looks good on you」
 
-#「……そういや、ざくろは昨日の時点でも同じこと言ってたけど。もしかして気付いて？」
 #SCRIPT ORIGINAL 「……そういや、ざくろは昨日の時点でも同じこと言ってたけど。もしかして気付いて？」
 ＠Itsuki
 「...That’s right, you said the same thing yesterday, Zakuro. Did you happen to notice?」
 
 @zakuro			#普
 
-#「うん、最初に気付いた」
 #SCRIPT ORIGINAL 「うん、最初に気付いた」
 ＠Zakuro,Q00386
 「...Yeah, I could tell right away」
 
-#「……教えといてくれ」
 #SCRIPT ORIGINAL 「……教えといてくれ」
 ＠Itsuki
 「...Please tell me next time」
 
 @zakuro_metoji		#閉
 
-#「黙ってる方が面白そうだったから」
 #SCRIPT ORIGINAL 「黙ってる方が面白そうだったから」
 ＠Zakuro,Q00387
 「It looked like fun if I stayed silent」
@@ -362,14 +315,12 @@ wait		500
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-#「あははは♪　そうそう、聞いたよ樹。エッチ中にゆずに告白したんだって？」
 #SCRIPT ORIGINAL 「あははは♪　そうそう、聞いたよ樹。エッチ中にゆずに告白したんだって？」
 ＠Shizuku,S00669
 「Ahahaha♪ Oh yeah Itsuki, I heard that you confessed during your lovemaking, isn’t that right?」
 
 @shizuku_yorokobi	#喜
 
-#「良かったじゃない、相思相愛だよ。な、ゆず？」
 #SCRIPT ORIGINAL 「良かったじゃない、相思相愛だよ。な、ゆず？」
 ＠Shizuku,S00670
 「What good news, you’ve got mutual love. Right, Yuzu?」
@@ -381,14 +332,12 @@ wait		100
 @yuzu_warai		#笑
 @bg_door_n		# ドア前(夜)
 
-#「はい♪　ボクも樹先生大好きです！」
 #SCRIPT ORIGINAL 「はい♪　ボクも樹先生大好きです！」
 ＠Yuzu,F00228
 「Yes♪ I love Itsuki-sensei too!」
 
 @yuzu_yorokobi		#喜
 
-#「樹先生、昨日は途中で倒れちゃいましたけど、次はボクも気持ちよくしてくれるって言ってくれたんです」
 #SCRIPT ORIGINAL 「樹先生、昨日は途中で倒れちゃいましたけど、次はボクも気持ちよくしてくれるって言ってくれたんです」
 ＠Yuzu,F00229
 「Itsuki-sensei, you may have fallen apart yesterday, but you said next time you’d make me feel good too」
@@ -404,36 +353,30 @@ wait		100
 @zakuro_niko		#にこ
 @bg_rouka		# 廊下
 
-#「ほら、面白い」
 #SCRIPT ORIGINAL 「ほら、面白い」
 ＠Zakuro,Q00388
 「See, fun」
 
-#「面白くないッ！」
 #SCRIPT ORIGINAL 「面白くないッ！」
 ＠Itsuki
 「It’s not fun!」
 
-#「お、男同士で……相思相愛って…」
 #SCRIPT ORIGINAL 「お、男同士で……相思相愛って…」
 ＠Karin,P00569
 「Mutual love... b-between men...」
 
 @karin_koufun		#興奮
 
-#「いえ、私もみかんを想ってるんだし……同性同士の恋愛はむしろ応援するわよ、樹！」
 #SCRIPT ORIGINAL 「いえ、私もみかんを想ってるんだし……同性同士の恋愛はむしろ応援するわよ、樹！」
 ＠Karin,P00570
 「Well, I have Mikan on my mind too, so... you have my support in same-sex relations, Itsuki!」
 
-#「いらん、そんな激励もッ！　男だって知らなかっただけだ！」
 #SCRIPT ORIGINAL 「いらん、そんな激励もッ！　男だって知らなかっただけだ！」
 ＠Itsuki
 「I don’t want your support on that! I didn’t know he was a guy!」
 
 @karin_komikaru_yoku	#コミカル欲
 
-#「はぁぁ……とにかくよかった、男で。これで迷い無くみかん一筋に生きていけるわ……」
 #SCRIPT ORIGINAL 「はぁぁ……とにかくよかった、男で。これで迷い無くみかん一筋に生きていけるわ……」
 ＠Karin,P00571
 「Sighh... Anyway, I’m glad that he’s a guy. Now I can dedicate my life fully to Mikan...」
@@ -444,12 +387,10 @@ wait		500
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-#「それじゃ、エッチする時はぜひ呼んどくれよ。美雨もこういうの興味があるみたいだしねぇ」
 #SCRIPT ORIGINAL 「それじゃ、エッチする時はぜひ呼んどくれよ。美雨もこういうの興味があるみたいだしねぇ」
 ＠Shizuku,S00671
 「Well then, you simply must call us when you’re doing it. Miu’s into this kind of thing too」
 
-#「た、頼むから人の話を……」
 #SCRIPT ORIGINAL 「た、頼むから人の話を……」
 ＠Itsuki
 「P-Please, don’t put words in my...」
@@ -463,7 +404,6 @@ wait			100
 @bg_white
 screen_whitein		100
 
-#「あぐッ！」
 #SCRIPT ORIGINAL 「あぐッ！」
 ＠Itsuki
 「Agh!」
@@ -473,45 +413,37 @@ screen_whitein		100
 @yuzu_yorokobi		#喜
 @bg_door		# ドア前
 
-#「樹先生ッ、今日一緒に出かけませんか？　前から好きな人と一緒に行ってみたい場所があったんです♪」
 #SCRIPT ORIGINAL 「樹先生ッ、今日一緒に出かけませんか？　前から好きな人と一緒に行ってみたい場所があったんです♪」
 ＠Yuzu,F00230
 「Itsuki-sensei, shall we go out today? There’s a place I’ve been wanting to go to with the one I love most♪」
 
-#「す、好いてくれるのは自由なんだが……昨夜のオレの発言は間違いで……」
 #SCRIPT ORIGINAL 「す、好いてくれるのは自由なんだが……昨夜のオレの発言は間違いで……」
 ＠Itsuki
 「Y-you’re free to love me, but... last night, I didn’t mean to say...」
 
-#「さ、迷いも晴れたし。抱き合う二人は放っておいて、私もみかんと朝の抱擁をしてこないと♪」
 #SCRIPT ORIGINAL 「さ、迷いも晴れたし。抱き合う二人は放っておいて、私もみかんと朝の抱擁をしてこないと♪」
 ＠Karin,P00572
 「Then we’re all clear now. Let’s leave these love-birds to it, I have to go give Mikan a morning hug too♪」
 
-#「とりあえず、みんな丸く納まって、めでたしめでたし」
 #SCRIPT ORIGINAL 「とりあえず、みんな丸く納まって、めでたしめでたし」
 ＠Zakuro,Q00389
 「And so, with everyone gathered round, they all lived happily ever after」
 
-#「……お、オレだけめでたくないんですが…」
 #SCRIPT ORIGINAL 「……お、オレだけめでたくないんですが…」
 ＠Itsuki
 「...I-I’m the only one that’s not happy」
 
 @yuzu_warai		#笑
 
-#「そんなこと言わずに、愛でてください樹先生～♪」
 #SCRIPT ORIGINAL 「そんなこと言わずに、愛でてください樹先生～♪」
 ＠Yuzu,F00231
 「Don’t say that, be happy Itsuki-sensei～♪」
 
 bgm_stop
 
-#ギュッと抱きつくゆずの薄い胸と、そして密着する股間のモノの感触を感じながら、
 #SCRIPT ORIGINAL ギュッと抱きつくゆずの薄い胸と、そして密着する股間のモノの感触を感じながら、
 　As Yuzu hugged me tight, with the feel of him pressing up his flat chest and groin against me...
 
-#また新たな日々が幕を開ける事になる。
 #SCRIPT ORIGINAL また新たな日々が幕を開ける事になる。
 　The curtains opened to a new bunch of days ahead.
 

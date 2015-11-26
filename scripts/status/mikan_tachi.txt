@@ -216,11 +216,9 @@ wait		1200
 chara_size	l_mikan,"小",200,102
 @mikan_kanashimi
 
-#リビングでみかんが、キョロキョロと辺りを見ながらさまよってた。
 #SCRIPT ORIGINAL リビングでみかんが、キョロキョロと辺りを見ながらさまよってた。
 　Mikan wandered about the living room restlessly looking for something.
 
-#「おやつなら戸棚に残ってたぞ」
 #SCRIPT ORIGINAL 「おやつなら戸棚に残ってたぞ」
 ＠Itsuki
 「There's a snack in the cupboard if that's what you're looking for」
@@ -230,55 +228,46 @@ wait		1000
 @mikan_middle
 @mikan_komikaru_ikari
 
-#「ひ、ひどいお兄ちゃんッ！　開口一番でそんな台詞なんてッ！」
 #SCRIPT ORIGINAL 「ひ、ひどいお兄ちゃんッ！　開口一番でそんな台詞なんてッ！」
 ＠Mikan,A01265
 「T-that's mean, Onii-chan! You don't have to jump to conclusions!」
 
-#「いちごちゃんとかくれんぼをしてて、今はみかんが鬼なのッ」
 #SCRIPT ORIGINAL 「いちごちゃんとかくれんぼをしてて、今はみかんが鬼なのッ」
 ＠Mikan,A01266
 「I'm playing hide and seek with Ichigo-chan. I'm "it" right now」
 
-#「それは悪かった……９割がたはおやつで当たりと思ったんだけど」
 #SCRIPT ORIGINAL 「それは悪かった……９割がたはおやつで当たりと思ったんだけど」
 ＠Itsuki
 「Oh, my mistake... I think I'd guess right 9 times out of 10, though」
 
 @mikan_komikaru_kanashimi
 
-#「９割もッ……」
 #SCRIPT ORIGINAL 「９割もッ……」
 ＠Mikan,A01267
 「9 times...!」
 
 @mikan_kusyou
 
-#「お兄ちゃんの中じゃ、みかんの行動って９０％がおやつ関連なんだ」
 #SCRIPT ORIGINAL 「お兄ちゃんの中じゃ、みかんの行動って９０％がおやつ関連なんだ」
 ＠Mikan,A01268
 「In Onii-chan's head, 90% of the things I do are related to snacking」
 
-#「ん、まぁ細かい事は置いといて」
 #SCRIPT ORIGINAL 「ん、まぁ細かい事は置いといて」
 ＠Itsuki
 「Well, don't worry about it too much」
 
-#「いちごは遊び関係に強そうだからなぁ。隠れる範囲は？」
 #SCRIPT ORIGINAL 「いちごは遊び関係に強そうだからなぁ。隠れる範囲は？」
 ＠Itsuki
 「I always associate Ichigo with playing games, you know. Where are you allowed to hide in?」
 
 @mikan
 
-#「建物の中。後は自由なの」
 #SCRIPT ORIGINAL 「建物の中。後は自由なの」
 ＠Mikan,A01269
 「Anywhere in the building」
 
 @mikan_
 
-#相手がいちごでその行動範囲は無理だ……
 #SCRIPT ORIGINAL 相手がいちごでその行動範囲は無理だ……
 　There's no way you'd find Ichigo with that much freedom...
 
@@ -334,24 +323,20 @@ wait		1000
 
 @mikan_kanashimi
 
-#「降参しようかな～……ずっとみかんが鬼のままだよ」
 #SCRIPT ORIGINAL 「降参しようかな～……ずっとみかんが鬼のままだよ」
 ＠Mikan,A01270
 「Maybe I'll give up～... I've been it the entire time...」
 
-#「次からはもうちょっと範囲を絞るべきだろうね……ん？」
 #SCRIPT ORIGINAL 「次からはもうちょっと範囲を絞るべきだろうね……ん？」
 ＠Itsuki
 「You might want to make the search area a little smaller next time... huh?」
 
 @ichigo_kanashimi
 
-#「あぅ～～……はひぃ」
 #SCRIPT ORIGINAL 「あぅ～～……はひぃ」
 ＠Ichigo,O01721
 「Auuh～～... huff」
 
-#ギブアップをほのめかすみかんを見守っていると、そこになぜかヘロヘロになったいちごが入ってきた。
 #SCRIPT ORIGINAL ギブアップをほのめかすみかんを見守っていると、そこになぜかヘロヘロになったいちごが入ってきた。
 　Having spied Mikan thinking she'd like to give up, Ichigo walks into the room looking a little worse for the wear.
 
@@ -361,14 +346,12 @@ wait		1000
 #layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 #layer_movepass_play	l_mikan,0,play_once
 
-#「あ、いちごちゃん見つけた！」
 #SCRIPT ORIGINAL 「あ、いちごちゃん見つけた！」
 ＠Mikan,A01271
 「Ah, Ichigo-chan, I found you!」
 
 @mikan
 
-#「……って、どうしたの？」
 #SCRIPT ORIGINAL 「……って、どうしたの？」
 ＠Mikan,A01272
 「...Wait, what happened to you?」
@@ -387,78 +370,65 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-#「みかん～…あ、パパも～……」
 #SCRIPT ORIGINAL 「みかん～…あ、パパも～……」
 ＠Ichigo,O01722
 「Mikan～... Oh, and Papa too...」
 
 @ichigo_kanashimi
 
-#「ふぁぁ～～…いちご潰れるかと思ったよぉ」
 #SCRIPT ORIGINAL 「ふぁぁ～～…いちご潰れるかと思ったよぉ」
 ＠Ichigo,O01723
 「Fuaah～～... I got wiped out」
 
-#「かくれんぼしてたんだろ？」
 #SCRIPT ORIGINAL 「かくれんぼしてたんだろ？」
 ＠Itsuki
 「You were trying to hide, right?」
 
 @ichigo
 
-#「うん、洗濯物の中に隠れてたの～」
 #SCRIPT ORIGINAL 「うん、洗濯物の中に隠れてたの～」
 ＠Ichigo,O01724
 「Yeah, I was hiding in the laundry～」
 
-#「あれ……？　そこはさっき探したんだけど」
 #SCRIPT ORIGINAL 「あれ……？　そこはさっき探したんだけど」
 ＠Mikan,A01273
 「What...? I searched there not too long ago」
 
-#「みかんが探し終わったのを見てから、そこに隠れ直したの」
 #SCRIPT ORIGINAL 「みかんが探し終わったのを見てから、そこに隠れ直したの」
 ＠Ichigo,O01725
 「I hid in there after I saw Mikan finish searching it」
 
-#「隠れ場所を動くなよ……」
 #SCRIPT ORIGINAL 「隠れ場所を動くなよ……」
 ＠Itsuki
 「You can't change your hiding place...」
 
 @ichigo_ikari
 
-#「そしたらざくろが来て、『ふかふか～』とか言いながら思いっきりダイブしてきたんだよぉ」
 #SCRIPT ORIGINAL 「そしたらざくろが来て、『ふかふか～』とか言いながら思いっきりダイブしてきたんだよぉ」
 ＠Ichigo,O01726
 「Then Zakuro came in saying "soft and fluffy～" or something, and jumped into me full force」
 
 @mikan_odoroki
 
-#「あ……」
 #SCRIPT ORIGINAL 「あ……」
 ＠Mikan,A01274
 「Ah...」
 
 @ichigo_ase
 
-#「いちごビックリしたし、もう潰れるかと思ったんだから」
 #SCRIPT ORIGINAL 「いちごビックリしたし、もう潰れるかと思ったんだから」
 ＠Ichigo,O01727
 「She scared me to death and nearly knocked me out」
 
-#「それは悲惨だったな。しかし、ざくろが……？」
 #SCRIPT ORIGINAL 「それは悲惨だったな。しかし、ざくろが……？」
 ＠Itsuki
 「That's just terrible. But Zakuro of all people...?」
 
-#「ふかふか」とか言いながら洗濯物にダイブする姿は、想像出来んのだが……
 #SCRIPT ORIGINAL 「ふかふか」とか言いながら洗濯物にダイブする姿は、想像出来んのだが……
 　I can't picture her saying "soft and fluffy" and diving into a pile of laundry...
 
 @mikan_kanashimi
 
-#「ご、ごめん、それみかんのせいかも……」
 #SCRIPT ORIGINAL 「ご、ごめん、それみかんのせいかも……」
 ＠Mikan,A01275
 「S-sorry, that might be my fault...」
@@ -471,38 +441,32 @@ layer_movepass_play	l_ichigo,0,play_once
 #layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-#「ええッ！？」
 #SCRIPT ORIGINAL 「ええッ！？」
 ＠Ichigo,O01728
 「Eh!?」
 
 @mikan_kusyou
 
-#「さっきざくろちゃんに会った時、洗濯物がフカフカだったよ～って言っちゃった」
 #SCRIPT ORIGINAL 「さっきざくろちゃんに会った時、洗濯物がフカフカだったよ～って言っちゃった」
 ＠Mikan,A01276
 「I just met Zakuro in the hallway and told her "the laundry was so soft and fluffy～"...」
 
-#「普通、中に人がいるなんて思わないから乗ったのかも……」
 #SCRIPT ORIGINAL 「普通、中に人がいるなんて思わないから乗ったのかも……」
 ＠Mikan,A01277
 「I guess she jumped inside because usually no one would be in there...」
 
 @ichigo_kanashimi
 
-#「ううう、酷いよぉ～……頭打ってすごく痛かったんだからぁ」
 #SCRIPT ORIGINAL 「ううう、酷いよぉ～……頭打ってすごく痛かったんだからぁ」
 ＠Ichigo,O01729
 「Uuh, that's awful～... She knocked into my head and it hurt so much」
 
 @mikan_kanashimi
 
-#「……ま、隠れなおした罪の付けだな」
 #SCRIPT ORIGINAL 「……ま、隠れなおした罪の付けだな」
 ＠Itsuki
 「...Well, that's what you get for hiding where she already looked」
 
-#行動に謎が多いざくろなので、もしかしていちごが居るのを知っていた可能性は否めないが……
 #SCRIPT ORIGINAL 行動に謎が多いざくろなので、もしかしていちごが居るのを知っていた可能性は否めないが……
 　Though with Zakuro whose actions are inscrutable, you can't rule out the possibility she knew Ichigo was there...
 
@@ -511,7 +475,6 @@ layer_movepass_play	l_ichigo,0,play_once
 
 setbutton 2,18,220,0,"TLnotes\TLnote10.png","system\backlog\voicesw.png"
 
-#「今度はざくろも巻き込んで鬼ごっこにしよう！　この恨み晴らさでおくべきか～～！！」
 #SCRIPT ORIGINAL 「今度はざくろも巻き込んで鬼ごっこにしよう！　この恨み晴らさでおくべきか～～！！」
 ＠Ichigo,O01730
 「Let's go find Zakuro and make her "it"! Should This Revenge Be Taken～～!!」
@@ -525,15 +488,12 @@ wait		1000
 wait		2000
 @mikan_
 
-#意気込みながら出て行くいちご。
 #SCRIPT ORIGINAL 意気込みながら出て行くいちご。
 　Ichigo excitedly dashes away.
 
-#引っ張られるように、みかんも連れて行かれた。
 #SCRIPT ORIGINAL 引っ張られるように、みかんも連れて行かれた。
 　Mikan followed, dragged along.
 
-#「やれやれ、元気だな……」
 #SCRIPT ORIGINAL 「やれやれ、元気だな……」
 ＠Itsuki
 「Oh jeez, she's so energetic...」
@@ -543,25 +503,20 @@ bgm_stop
 @bg_black
 wait		1000
 
-#………………
 #SCRIPT ORIGINAL ………………
 　............
 
-#……………
 #SCRIPT ORIGINAL ……………
 　.........
 
-#………
 #SCRIPT ORIGINAL ………
 　......
 
-#余談だがその数分後、かくれんぼをサボって戸棚を漁るみかんを発見した。
 #SCRIPT ORIGINAL 余談だがその数分後、かくれんぼをサボって戸棚を漁るみかんを発見した。
 　I found Mikan a little later fishing in the cupboard, apparently no longer interested in hide and seek.
 
 setbutton 2,18,220,0,"TLnotes\TLnote11.png","system\backlog\voicesw.png"
 
-#さすが９０％の行動確率。
 #SCRIPT ORIGINAL さすが９０％の行動確率。
 　The usual 90% odds.
 

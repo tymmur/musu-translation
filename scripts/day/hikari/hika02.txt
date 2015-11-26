@@ -15,30 +15,25 @@ wait		1000
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 
-#机に向かって仕事中、お腹が空腹を訴えた。
 #SCRIPT ORIGINAL 机に向かって仕事中、お腹が空腹を訴えた。
 　I was in the midst of my work at my desk, when my stomach craved for food.
 
-#「……腹減ったな」
 #SCRIPT ORIGINAL 「……腹減ったな」
 ＠Itsuki
 「...I'm very hungry.」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#時間はそろそろお昼を指そうとしている。
 #SCRIPT ORIGINAL 時間はそろそろお昼を指そうとしている。
 　It was about time for lunch.
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#「ん？　はい、どうぞ」
 #SCRIPT ORIGINAL 「ん？　はい、どうぞ」
 ＠Itsuki
 「Hm? You may enter.」
 
-#「美雨です。失礼します」
 #SCRIPT ORIGINAL 「美雨です。失礼します」
 ＠Miu,B01511
 「This is Miu. Sorry for the intrusion.」
@@ -53,29 +48,24 @@ wait		1000
 @miu_maid
 @miu2			#開_にこ
 
-#「お仕事中すみません」
 #SCRIPT ORIGINAL 「お仕事中すみません」
 ＠Miu,B01512
 「I'm sorry for bothering your work.」
 
-#「いいや、どうかした？」
 #SCRIPT ORIGINAL 「いいや、どうかした？」
 ＠Itsuki
 「It's not a problem. What's the matter?」
 
-#「昼食ですけど、少し遅れてしまいそうなんです。少し材料が切れてしまいまして」
 #SCRIPT ORIGINAL 「昼食ですけど、少し遅れてしまいそうなんです。少し材料が切れてしまいまして」
 ＠Miu,B01513
 「It is almost time for lunch, but it seems that it will need to be delayed. We don't have enough ingredients.」
 
 #★
-#「今から買いに行ってきますので、留守をお願いしてもよろしいでしょうか？」
 #SCRIPT ORIGINAL 「今から買いに行ってきますので、留守をお願いしてもよろしいでしょうか？」
 ＠Miu,B01514
 「I am about to go shopping, is it okay for you to look after the house?」
 
 #★
-#「ならオレが行くよ。いつも任せっぱなしだしさ」
 #SCRIPT ORIGINAL 「ならオレが行くよ。いつも任せっぱなしだしさ」
 ＠Itsuki
 「In that case I'll go. You are always entrusted with shopping every day.」
@@ -83,23 +73,19 @@ wait		1000
 @miu_komaru		#開_困
 
 #★
-#「そんな。いいんですよ、これが私の仕事ですから」
 #SCRIPT ORIGINAL 「そんな。いいんですよ、これが私の仕事ですから」
 ＠Miu,B01515
 「No,I'm not troubled at all, this is my job after all.」
 
 #★
-#ここに来てもう、何度となく美雨と交わしたやり取りだ。
 #SCRIPT ORIGINAL ここに来てもう、何度となく美雨と交わしたやり取りだ。
 　Since coming here, I have exchanged numerous of these bickerings with Miu.
 
 #★
-#だからこういう場合は強引に行動するべきだと、必勝法も知っている。
 #SCRIPT ORIGINAL だからこういう場合は強引に行動するべきだと、必勝法も知っている。
 　Thats why in these situations I should be more forceful, thats the key to success.
 
 #★
-#「今いる物は？　商店街で大丈夫かな」
 #SCRIPT ORIGINAL 「今いる物は？　商店街で大丈夫かな」
 ＠Itsuki
 「What do we have left? Will the shopping district be sufficient?」
@@ -107,18 +93,15 @@ wait		1000
 @miu2			#開_にこ
 
 #★
-#「あ、えっと……薄口のしょうゆと卵なんですけど」
 #SCRIPT ORIGINAL 「あ、えっと……薄口のしょうゆと卵なんですけど」
 ＠Miu,B01516
 「Aa, ummm... Light flavoured soy sauce and egg.」
 
 #★
-#「了解。じゃあ行ってくる。美雨は準備してて」
 #SCRIPT ORIGINAL 「了解。じゃあ行ってくる。美雨は準備してて」
 ＠Itsuki
 「I understand. Then, I'm going now. Miu can start preparing for lunch.」
 
-#席を立つと、美雨は諦めたようだ。
 #SCRIPT ORIGINAL 席を立つと、美雨は諦めたようだ。
 　Miu seems to have given up after seeing me stand.
 
@@ -133,32 +116,27 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#「……ふぅ」
 #SCRIPT ORIGINAL 「……ふぅ」
 ＠Miu,B01517
 「...Fuu.」
 
 #★
-#基本的に美雨は、オレの行動を阻害するようなことはしない。
 #SCRIPT ORIGINAL 基本的に美雨は、オレの行動を阻害するようなことはしない。
 　Basically, Miu dosen't get in my way when I act upon something.
 
 @miu2			#開_にこ
 
-#「分かりました。それでは申し訳ありませんが、よろしくお願いします」
 #SCRIPT ORIGINAL 「分かりました。それでは申し訳ありませんが、よろしくお願いします」
 ＠Miu,B01518
 「I understand. Sorry for troubling you, and thank you.」
 
 #★
-#「ああ。代わりに、今日も美味しいご飯を頼む」
 #SCRIPT ORIGINAL 「ああ。代わりに、今日も美味しいご飯を頼む」
 ＠Itsuki
 「Aa. In return, please make a delicious meal today too.」
 
 @miu			#閉_にこ
 
-#「はい。それはお任せください」
 #SCRIPT ORIGINAL 「はい。それはお任せください」
 ＠Miu,B01519
 「Yes. Leave it to me.」
@@ -166,7 +144,6 @@ layer_movepass_play	l_miu,0,play_once
 #■BG（黒）
 @bg_black
 
-#美雨に見送られながら、オレは施設を後にした。
 #SCRIPT ORIGINAL 美雨に見送られながら、オレは施設を後にした。
 　Miu saw me off, and the institution was already behind me.
 
@@ -176,28 +153,23 @@ wait		2000
 @bg_syoutengai		# 商店街
 
 #★
-#「さて、これならスーパーに行けば揃うな」
 #SCRIPT ORIGINAL 「さて、これならスーパーに行けば揃うな」
 ＠Itsuki
 「Well then, I should be able to get everything from the super market.」
 
-#到着して、オレは目的地を定め歩き出す。
 #SCRIPT ORIGINAL 到着して、オレは目的地を定め歩き出す。
 　After I arrived, I decided my destination and walked to that place.
 
 #★
-#人の波は平日にしては少し多かったが、歩き難いほどではない。
 #SCRIPT ORIGINAL 人の波は平日にしては少し多かったが、歩き難いほどではない。
 　Although theres more people there usually is on a weekday, it wasnt so bad as to cause me trouble getting around.
 
 #★
-#それは、空腹も手伝って心持ち早足になっていた時だ。
 #SCRIPT ORIGINAL それは、空腹も手伝って心持ち早足になっていた時だ。
 　That was when I slightly increased my pace due to my empty stomach.
 
 bgm_stop
 
-#「お……あれは」
 #SCRIPT ORIGINAL 「お……あれは」
 ＠Itsuki
 「T...That is.」
@@ -207,16 +179,13 @@ bgm_stop
 #@hikari			#普.png
 @hikari_komaru		#困.png
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Hikari,N00204
 「.....」
 
-#ひかりがまた一人で商店街を歩いていた。
 #SCRIPT ORIGINAL ひかりがまた一人で商店街を歩いていた。
 「Hikari walked alone in the shopping district again」
 
-#「ひかりちゃん、前に看板がある―――」
 #SCRIPT ORIGINAL 「ひかりちゃん、前に看板がある―――」
 ＠Itsuki
 「Hikari-chan, there is a sign in front of you--」
@@ -228,13 +197,11 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 @hikari_kanashimi	#哀.png
 
-#「……ッきゅぅ！」
 #SCRIPT ORIGINAL 「……ッきゅぅ！」
 ＠Hikari,N00205
 「...Gyuu!」
 
 #★
-#「って、ゆっくり歩いてもぶつかるんだもんな……」
 #SCRIPT ORIGINAL 「って、ゆっくり歩いてもぶつかるんだもんな……」
 ＠Itsuki
 「You hit things even if you walk slowly...」
@@ -288,25 +255,20 @@ wait		500
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @hikari_
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Hikari,N00206
 「.....」*(dosaa is a sound effect of falling down, so sound of falling down in english? i dont know either... not slam, bang, whoop...:P)
 
-#ドサッ……と、ひかりは足をふらつかせて倒れてしまった。
 #SCRIPT ORIGINAL ドサッ……と、ひかりは足をふらつかせて倒れてしまった。
 　Hikari's legs trembled, and she fell down.
 
-#「え……ひかりちゃん？」
 #SCRIPT ORIGINAL 「え……ひかりちゃん？」
 ＠Itsuki
 「E.... Hikari-chan?」
 
-#倒れる、というのは初めてだった。
 #SCRIPT ORIGINAL 倒れる、というのは初めてだった。
 　She fell, for the first time.
 
-#いや、それ以前に、今のはそんなに強くぶつかってもいない。
 #SCRIPT ORIGINAL いや、それ以前に、今のはそんなに強くぶつかってもいない。
 　No, compared to previously, the impact just now was not hard.
 
@@ -319,12 +281,10 @@ wait		100
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @bg_syoutengai		# 商店街
 
-#「どうした、ひかりちゃん！？」
 #SCRIPT ORIGINAL 「どうした、ひかりちゃん！？」
 ＠Itsuki
 「What happenned, Hikari-chan?」
 
-#「ん、ぅ……はぁっ…はぁっ………」
 #SCRIPT ORIGINAL 「ん、ぅ……はぁっ…はぁっ………」
 ＠Hikari,N00207
 「Nn, u.... Hauu... Hau.....」
@@ -332,16 +292,13 @@ wait		100
 @bgm06			#BGM 06 : 不安のテーマ
 
 #★
-#慌てて駆け寄ってみると、すぐぶつかって倒れたのではないと分かった。
 #SCRIPT ORIGINAL 慌てて駆け寄ってみると、すぐぶつかって倒れたのではないと分かった。
 　I quickly approached her, and realised immediately that she didn't fall due to the impact. 
 
 #★
-#熱い頬に苦しそうな呼吸。それに何故か服も濡れている。
 #SCRIPT ORIGINAL 熱い頬に苦しそうな呼吸。それに何故か服も濡れている。
 　Her cheeks were hot and she was breathing hard. Also, for some reason her clothes were wet.
 
-#「……熱があるぞ。ダメじゃないか、こんな状態で外に出てちゃ！」
 #SCRIPT ORIGINAL 「……熱があるぞ。ダメじゃないか、こんな状態で外に出てちゃ！」
 ＠Itsuki
 「...You have fever. You're not supposed to walk around outside in this condition!」
@@ -363,7 +320,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#「っはぁ……ん、お兄しゃん……？」
 #SCRIPT ORIGINAL 「っはぁ……ん、お兄しゃん……？」
 ＠Hikari,N00208
 「Ha....n, onii-shan....?」
@@ -371,62 +327,50 @@ layer_movepass_play	l_hikari,0,play_once
 layer_movepass_init	l_hikari,0	#演出初期化
 
 #★
-#「家はどこだ。送って行ってやる。電話番号でもいいから」
 #SCRIPT ORIGINAL 「家はどこだ。送って行ってやる。電話番号でもいいから」
 ＠Itsuki
 「Tell me where you live, I'll take you home. A phone number would be good too.」
 
-#「う……ううん……だえも居ないの。おうち……」
 #SCRIPT ORIGINAL 「う……ううん……だえも居ないの。おうち……」
 ＠Hikari,N00209
 「U.....uun.... There wiz no one there. In my home....」
 
-#「え……？」
 #SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「E......?」
 
 @hikari_naki		#泣.png
 
-#「ひっく……グスッ…いないのぉ……ぉ父しゃんも、お母しゃんもぉ……」
 #SCRIPT ORIGINAL 「ひっく……グスッ…いないのぉ……ぉ父しゃんも、お母しゃんもぉ……」
 ＠Hikari,N00210
 「Hikku.... Gusuu... No one is there.... Otou-shan, and okaa-shan too....」
 
-#弱々しい声を紡ぎながら、ひかりが震え、目に涙が溜まっていく。
 #SCRIPT ORIGINAL 弱々しい声を紡ぎながら、ひかりが震え、目に涙が溜まっていく。
 　Hikari's voice was very fragile, her body shivered, and tears gathered around her eyes.
 
-#「はぁっ、ん……お父しゃん、お母しゃんん……グスッ、うぇえっ…」
 #SCRIPT ORIGINAL 「はぁっ、ん……お父しゃん、お母しゃんん……グスッ、うぇえっ…」
 ＠Hikari,N00211
 「Haa,n..... otou-shan, okaa-shann..... Gusuu, ueeee...」
 
-#「……わ、分かった。とにかく休まないと」
 #SCRIPT ORIGINAL 「……わ、分かった。とにかく休まないと」
 ＠Itsuki
 「..... I, I understand. Anyway, you need to rest..」
 
 #★
-#涙を流す事情もアレだが、とにかく今は熱の看病をしてやるのが先だ。
 #SCRIPT ORIGINAL 涙を流す事情もアレだが、とにかく今は熱の看病をしてやるのが先だ。
 　Her pitiful situation is one thing, but now what mattered the most was to nurse her fever.
 
-#救急車……は早計な気がする。
 #SCRIPT ORIGINAL 救急車……は早計な気がする。
 　Ambulance... But it was kind of overhasty.
 
 #★
-#やはり施設に連れて帰るか……
 #SCRIPT ORIGINAL やはり施設に連れて帰るか……
 　I guess I should take her back to the facility... 
 
-#「ひかりちゃん、ちょっとゴメンよ」
 #SCRIPT ORIGINAL 「ひかりちゃん、ちょっとゴメンよ」
 ＠Itsuki
 「Hikari-chan, excuse me for a moment.」
 
-#「んっく……はぁっ…」
 #SCRIPT ORIGINAL 「んっく……はぁっ…」
 ＠Hikari,N00212
 「Nkku.... Haaa....」
@@ -438,7 +382,6 @@ wait		500
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
 
-#弱っているひかりちゃんを背中に担いで、オレは帰り道を急いだ。
 #SCRIPT ORIGINAL 弱っているひかりちゃんを背中に担いで、オレは帰り道を急いだ。
 　I carried the weakened Hikari-chan on my back, and hurriedly went back to the institution.
 
@@ -453,7 +396,6 @@ wait		2000
 #@bg_genkan		# 玄関
 @bg_hiroma		# 広間
 
-#「美雨っ、来てくれないか！」
 #SCRIPT ORIGINAL 「美雨っ、来てくれないか！」
 ＠Itsuki
 「Miu, come here!」
@@ -465,7 +407,6 @@ window_close
 @miu_maid
 @miu			#閉_にこ
 
-#「はいっ、どうかしましたか、樹さん」
 #SCRIPT ORIGINAL 「はいっ、どうかしましたか、樹さん」
 ＠Miu,B01520
 「Yes, what happenned, Itsuki-san?」
@@ -473,19 +414,16 @@ window_close
 @miu2			#開_にこ
 
 #★
-#「……あら、そちらの子は？」
 #SCRIPT ORIGINAL 「……あら、そちらの子は？」
 ＠Miu,B01521
 「.... oh, this child is?」
 
-#「酷い熱を出してるんだ。悪いけど部屋を用意してくれないか。それと着替えも」
 #SCRIPT ORIGINAL 「酷い熱を出してるんだ。悪いけど部屋を用意してくれないか。それと着替えも」
 ＠Itsuki
 「She has severe fever. I'm sorry, but could you prepare a room for her? And some clothes too.」
 
 @miu_komaru		#開_困
 
-#「あ、はいっ。ではこちらへお願いします」
 #SCRIPT ORIGINAL 「あ、はいっ。ではこちらへお願いします」
 ＠Miu,B01522
 「A, yes. Then, this way please.」
@@ -493,7 +431,6 @@ window_close
 @miu_
 
 #★
-#突然のことに驚きながらも、美雨の先導で部屋まで移動する。
 #SCRIPT ORIGINAL 突然のことに驚きながらも、美雨の先導で部屋まで移動する。
 　Surprised by this sudenness, Miu guided us to the room.
 
@@ -506,52 +443,43 @@ wait		1000
 @miu2			#開_にこ
 @bg_akibeya		# 空き部屋
 
-#「この部屋へ。シーツも替えたばかりですから」
 #SCRIPT ORIGINAL 「この部屋へ。シーツも替えたばかりですから」
 ＠Miu,B01523
 「This room please. I just changed the bedsheet.」 
 
-#「ありがとう、助かる」
 #SCRIPT ORIGINAL 「ありがとう、助かる」
 ＠Itsuki
 「Thank you, you helped a lot.」
 
 #★
-#空き部屋だが、ちゃんと清潔になっているベッドへひかりを寄せた。
 #SCRIPT ORIGINAL 空き部屋だが、ちゃんと清潔になっているベッドへひかりを寄せた。
 　Although this room was empty, I moved Hikari closer to the freshly made bed.
 
-#「ん……んぅっ…」
 #SCRIPT ORIGINAL 「ん……んぅっ…」
 ＠Hikari,N00213
 「N.....Nnuu...」
 
-#「下ろすぞ、大丈夫かひかりちゃん」
 #SCRIPT ORIGINAL 「下ろすぞ、大丈夫かひかりちゃん」
 ＠Itsuki
 「I'll lower you down, are you okay, Hikari-chan?」
 
 @miu_ikari2		#開_怒
 
-#「………ひかり？」
 #SCRIPT ORIGINAL 「………ひかり？」
 ＠Miu,B01524
 「.....Hikari?」
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#布団の上へゆっくりと、ひかりの身体を横たえた。
 #SCRIPT ORIGINAL 布団の上へゆっくりと、ひかりの身体を横たえた。
 　I put Hikari's body gently on the bed.
 
-#「美雨、着替えを――――美雨？」
 #SCRIPT ORIGINAL 「美雨、着替えを――――美雨？」
 ＠Itsuki
 「Miu, the clothes------- Miu?」
 
 bgm_stop
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Miu,B01525
 「.........」
@@ -559,11 +487,9 @@ bgm_stop
 @miu_
 
 #★
-#緊張した面持ちで、美雨がひかりを覗き込むように、スススッと移動してくる。
 #SCRIPT ORIGINAL 緊張した面持ちで、美雨がひかりを覗き込むように、スススッと移動してくる。
 　Nervously, Miu moved as though to take a better peek.
 
-#「あぁ、この子はひかりちゃんって言って、偶然……」
 #SCRIPT ORIGINAL 「あぁ、この子はひかりちゃんって言って、偶然……」
 ＠Itsuki
 「Aa, this girl is Hikari-chan, we met by chance....」
@@ -579,89 +505,74 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#「―――――ッッ！？！」
 #SCRIPT ORIGINAL 「―――――ッッ！？！」
 ＠Miu,B01526
 「---------!?!」
 
-#ひかりの姿を確認した刹那、美雨が驚きで引きつったように呼吸を呑み、身体を強張らせた。
 #SCRIPT ORIGINAL ひかりの姿を確認した刹那、美雨が驚きで引きつったように呼吸を呑み、身体を強張らせた。
 　The moment Miu checked Hikari's figure, she drew her breath in surprise, and her body froze.                                    ←- This line is too complicated for me.
 
-#「え……どうした、美雨？」
 #SCRIPT ORIGINAL 「え……どうした、美雨？」
 ＠Itsuki
 「E.... What's wrong, Miu?」
 
 @miu_kanashimi2		#閉_哀
 
-#「…ッぁ……う、ぁあ……そんな……うそっ…」
 #SCRIPT ORIGINAL 「…ッぁ……う、ぁあ……そんな……うそっ…」
 ＠Miu,B01527
 「...a.....u, aa.... That is.... no way...」
 
-#「……美雨？　おい」
 #SCRIPT ORIGINAL 「……美雨？　おい」
 ＠Itsuki
 「....Miu? Oi.」
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
-#わなわなと震え、何かに驚愕して狼狽している。
 #SCRIPT ORIGINAL わなわなと震え、何かに驚愕して狼狽している。
 　Her body trembled, and she somehow was confused and amazed.
 
 @miu_kanashimi		#開_哀
 
-#「…この子、どうして樹さんがっ……」
 #SCRIPT ORIGINAL 「…この子、どうして樹さんがっ……」
 ＠Miu,B01528
 「..This girl, why is Itsuki-san...」
 
 #★
-#「え、えっと……ちょっと前から少し知り合いの子なんだよ。ひかりちゃんって言う」
 #SCRIPT ORIGINAL 「え、えっと……ちょっと前から少し知り合いの子なんだよ。ひかりちゃんって言う」
 ＠Itsuki
 「Ah, umm.... she's the daughter of an acquaintance I met a short while back. Her name is Hikari.」 
 
 @miu_kanashimi2		#閉_哀
 
-#「ひ…ひかり……そんな……どうしてっ……」
 #SCRIPT ORIGINAL 「ひ…ひかり……そんな……どうしてっ……」
 ＠Miu,B01529
 「Hi.. Hikari... That's..... Why.....」
 
-#「……美雨の知り合いなのか？」
 #SCRIPT ORIGINAL 「……美雨の知り合いなのか？」
 ＠Itsuki
 「.....Is she Miu's acquaintance?」
 
 @miu_komaru		#開_困
 
-#「えッ――！？」
 #SCRIPT ORIGINAL 「えッ――！？」
 ＠Miu,B01530
 「Ee--!?」
 
 #★
-#驚愕を張り付かせた表情の美雨。
 #SCRIPT ORIGINAL 驚愕を張り付かせた表情の美雨。
 　Miu's expression filled with surprised.
 
-#知り合いどころか、それ以上に何かあるのは明らかなのだが。
 #SCRIPT ORIGINAL 知り合いどころか、それ以上に何かあるのは明らかなのだが。
 　As far as being an acquaintance, it was very obvious that there was something more.
 
 @miu_kanashimi		#開_哀
 
-#「い、いえ……そういうわけでは…」
 #SCRIPT ORIGINAL 「い、いえ……そういうわけでは…」
 ＠Miu,B01531
 「N, no... That is not the case.」
 
 @miu_ikari2		#開_怒
 
-#「あっ、着替えですね。すぐ用意します！」
 #SCRIPT ORIGINAL 「あっ、着替えですね。すぐ用意します！」
 ＠Miu,B01532
 「Aa, the clothes for changing! I will prepare it immediately!」
@@ -674,22 +585,18 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #★
-#冷静を取り繕う間もなく、慌てて部屋を出て行った。
 #SCRIPT ORIGINAL 冷静を取り繕う間もなく、慌てて部屋を出て行った。
 　Without time to return to her normal composure, she quickly left room.
 
-#「……？　な、何だろ一体」
 #SCRIPT ORIGINAL 「……？　な、何だろ一体」
 ＠Itsuki
 「.....? W, what the hell was that?」
 
-#「うぅ……んっ……あ、あれ……。どこ……」
 #SCRIPT ORIGINAL 「うぅ……んっ……あ、あれ……。どこ……」
 ＠Hikari,N00214
 「Uu...Nn.... H, huh.... Where...」
 
 #★★★ (i changed ah from a, but please take note of this, other similar things include ok/okay, ya/yeah)
-#「あ、ひかりちゃん、気がついたか？」
 #SCRIPT ORIGINAL 「あ、ひかりちゃん、気がついたか？」
 ＠Itsuki
 「Ah, Hikari-chan, your awake?」 
@@ -697,7 +604,6 @@ wait		1000
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
 #★
-#半分朦朧としていたひかりが、薄く目を開けてオレを見ていた。
 #SCRIPT ORIGINAL 半分朦朧としていたひかりが、薄く目を開けてオレを見ていた。
 　Hikari, half concious. Opened her eyes slightly and looked at me.
 
@@ -708,34 +614,28 @@ window_close
 @hikari_komaru		#困.png
 
 #★
-#「っはぁ…ぅん……お父しゃん…どこ、ここ……」
 #SCRIPT ORIGINAL 「っはぁ…ぅん……お父しゃん…どこ、ここ……」
 ＠Hikari,N00215
 「Hhaa... un.... Otou-shan... Where, is this...」
 
-#「ここは施設。熱が酷かったから運んだんだよ」
 #SCRIPT ORIGINAL 「ここは施設。熱が酷かったから運んだんだよ」
 ＠Itsuki
 「This is the institution. You had a severe fever so I brought you here.」
 
-#「ひかりちゃんのお父さんは、ここにはいないんだけどね」
 #SCRIPT ORIGINAL 「ひかりちゃんのお父さんは、ここにはいないんだけどね」
 ＠Itsuki
 「But Hikari-chan's otou-san isn't here.」
 
 @hikari			#普.png
 
-#「ふぇ…？　っはぁ……お父しゃん…何言ってゆの……？　居るよ……」
 #SCRIPT ORIGINAL 「ふぇ…？　っはぁ……お父しゃん…何言ってゆの……？　居るよ……」
 ＠Hikari,N00216
 「Fue...? Hhaa.... Otou-shan.... What are you saying....? He's here...」
 
-#「オレはひかりちゃんのお父さんじゃないよ」
 #SCRIPT ORIGINAL 「オレはひかりちゃんのお父さんじゃないよ」
 ＠Itsuki
 「I'm not Hikari-chan's otou-shan~」
 
-#「とにかく。あんまり喋らないで、ゆっくり寝てなさい」
 #SCRIPT ORIGINAL 「とにかく。あんまり喋らないで、ゆっくり寝てなさい」
 ＠Itsuki
 「Anyways, don't speak too much. Just relax and go to sleep.」
@@ -745,77 +645,62 @@ window_close
 wait		1000
 @bg_akibeya		# 空き部屋
 
-#「んっ…んふぅ……ひーちゃん置いて、どこにも行かない……？」
 #SCRIPT ORIGINAL 「んっ…んふぅ……ひーちゃん置いて、どこにも行かない……？」
 ＠Hikari,N00217
 「Nn... nfuu... you won't go anywhere, leaving hi-chan here...?」
 
-#布団の中から、ひかりの小さい手が伸ばされてくる。
 #SCRIPT ORIGINAL 布団の中から、ひかりの小さい手が伸ばされてくる。
 　From inside the blankets, Hikari extended out her small hand.
 
-#居ない父親の代わりに、オレがそれを握ってあげた。
 #SCRIPT ORIGINAL 居ない父親の代わりに、オレがそれを握ってあげた。
 　In place of her non-existing father, I held her hand.
 
-#「さ、無理せず休んでるんだ」
 #SCRIPT ORIGINAL 「さ、無理せず休んでるんだ」
 ＠Itsuki
 「Don't overexert yourself and have a rest.」
 
-#「えへ……うん…」
 #SCRIPT ORIGINAL 「えへ……うん…」
 ＠Hikari,N00218
 「Ehe.... Un....」
 
 #★
-#それで安心したように微笑むと、少し楽になったように、スゥスゥと眠り始めた。
 #SCRIPT ORIGINAL それで安心したように微笑むと、少し楽になったように、スゥスゥと眠り始めた。
 　After that, she smiled a little in relief. Her sorrow seems to have eased a little, and she started to sleep soundly. 
 
-#……しかし、この子に一体何があったのだろうか。
 #SCRIPT ORIGINAL ……しかし、この子に一体何があったのだろうか。
 　...But, I wondered what happenned to this girl.
 
-#服の湿り気は初め汗かと思ったが、それにしては濡れすぎだ。
 #SCRIPT ORIGINAL 服の湿り気は初め汗かと思ったが、それにしては濡れすぎだ。
 　I thought the dampness of her clothes was caused by her sweat, but it was too wet to be caused by that.
 
 #★(
-#妥当なところでは、昨日の雨じゃないかと思うのだが……
 #SCRIPT ORIGINAL 妥当なところでは、昨日の雨じゃないかと思うのだが……
 　The most logical reason that I could think of was... yesterday's rain, but...
 
 #★
-#（それに確か、家に誰も居ないって）
 #SCRIPT ORIGINAL （それに確か、家に誰も居ないって）
 ＠Itsuki
 (but then... there was no one in her house)
 
-#閉め出されて雨に濡れていたとなると、この熱も説明がつくが。
 #SCRIPT ORIGINAL 閉め出されて雨に濡れていたとなると、この熱も説明がつくが。
 　She couldn't enter her house and got wet because of the rain. This also explained the cause for her fever. 
 
 #★
-#しかしそれは同時に、一番考えたくない可能性まで脳裏をよぎってしまう。
 #SCRIPT ORIGINAL しかしそれは同時に、一番考えたくない可能性まで脳裏をよぎってしまう。
 　However in this case, the most unthinkable possibility comes to mind.
 
 bgm_stop
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「.......」
 
 #★
-#「……遅いな、美雨」
 #SCRIPT ORIGINAL 「……遅いな、美雨」
 ＠Itsuki
 「.... Miu, she's taking her time.」
 
 #★
-#あれだけ慌てて出て行ったのだから、そろそろ戻ってもいいはずだが。
 #SCRIPT ORIGINAL あれだけ慌てて出て行ったのだから、そろそろ戻ってもいいはずだが。
 　She left the room in a hurry, so it should be about time she returned.
 
@@ -829,40 +714,33 @@ wait		1000
 @miu_maid
 @miu_komaru		#開_困
 
-#「すみませんっ、お待たせしました！」
 #SCRIPT ORIGINAL 「すみませんっ、お待たせしました！」
 ＠Miu,B01533
 「I'm sorry for making you wait!」
 
 #★
-#ちょうど気になったとき、替えの子供服を手にした美雨が帰ってきた。
 #SCRIPT ORIGINAL ちょうど気になったとき、替えの子供服を手にした美雨が帰ってきた。
 　Just when I was starting to get concerned, Miu came back with a set of children's clothing in her hand.
 
-#「おかえり。ひかりちゃん、今寝てるから」
 #SCRIPT ORIGINAL 「おかえり。ひかりちゃん、今寝てるから」
 ＠Itsuki
 「Welcome back. Hikari-chan is sleeping now.」
 
 @miu_kanashimi		#開_哀
 
-#「えっ……あ、はい」
 #SCRIPT ORIGINAL 「えっ……あ、はい」
 ＠Miu,B01534
 「Ee... oh, Yes.」
 
 @miu_
 
-#自分の声に気がついて、慌てて声量を潜める。
 #SCRIPT ORIGINAL 自分の声に気がついて、慌てて声量を潜める。
 　Realising the pitch of her own voice, she rushed to conceal it.
 
 #★ (need rephrase, my bad)
-#同時に気持ちも少し落ち着いたようで、静かにベッドの方へ近寄ってきた。
 #SCRIPT ORIGINAL 同時に気持ちも少し落ち着いたようで、静かにベッドの方へ近寄ってきた。
 　At the same time she seems to have calmed down a little, and quietly got closer to the bed.  
 
-#「…くぅ……ん、すぅ……」
 #SCRIPT ORIGINAL 「…くぅ……ん、すぅ……」
 ＠Hikari,N00219
 「...Kuu....n, suu....」
@@ -871,25 +749,21 @@ wait		1000
 @miu_maid		#メイド服
 @miu_kanashimi		#開_哀
 
-#「樹さん、その……この子、どうしたんですか…？　ご両親とかは……」
 #SCRIPT ORIGINAL 「樹さん、その……この子、どうしたんですか…？　ご両親とかは……」
 ＠Miu,B01535
 「Itsuki-san, umm... this girl, what happenned to her? What about her parents?」
 
-#「……分からない」
 #SCRIPT ORIGINAL 「……分からない」
 ＠Itsuki
 「.... I don't know.」
 
 #★
-#「ただ……ちょっと聞いた感じだと、この子に黙って家を空けてるみたいだ」
 #SCRIPT ORIGINAL 「ただ……ちょっと聞いた感じだと、この子に黙って家を空けてるみたいだ」
 ＠Itsuki
 「But.... from what i heard from her, it seems like they moved without her.」
 
 @miu_komaru		#開_困
 
-#「えっ……」
 #SCRIPT ORIGINAL 「えっ……」
 ＠Miu,B01536
 「E....」
@@ -897,7 +771,6 @@ wait		1000
 @bgmk07			#BGM K07 : 深刻なテーマ
 
 #★
-#「雨で濡れてるし、少なくても昨日から。ずっと外に居たんじゃないかな」
 #SCRIPT ORIGINAL 「雨で濡れてるし、少なくても昨日から。ずっと外に居たんじゃないかな」
 ＠Itsuki
 「She's wet from the rain, possibly since yesterday. She may have been outside this whole time.」 
@@ -905,47 +778,40 @@ wait		1000
 @miu_kanashimi2		#閉_哀
 
 #★
-#「そ、そんなっ……どうしてそんな、残酷っ―――……」
 #SCRIPT ORIGINAL 「そ、そんなっ……どうしてそんな、残酷っ―――……」
 ＠Miu,B01537
 「Wh, why.... why would they, that's too cruel~~.....」
 
 #★
-#言いかけてその言葉を、美雨は途中で飲み込んだ。
 #SCRIPT ORIGINAL 言いかけてその言葉を、美雨は途中で飲み込んだ。
 　Miu swallowed her words half way through her sentence.
 
 @miu_ikari2		#開_怒
 
 #必死
-#「とにかく、両親がそんな状態なら尚更、私たちで看病しましょう」
 #SCRIPT ORIGINAL 「とにかく、両親がそんな状態なら尚更、私たちで看病しましょう」
 ＠Miu,B01538
 「Anyway, if this is the situation with the parents, then all the more reason that we take care of her.」
 
 #@miu_ikari		#閉_怒
 
-#「絶対………、絶対に治してあげないと」
 #SCRIPT ORIGINAL 「絶対………、絶対に治してあげないと」
 ＠Miu,B01539
 「I must......, I must cure her.」
 
 @miu_
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
 
 #★ (your translations are good too, thats why i didnt delete, we'l leave it for the proofreaders)
 
-#美雨がここまで必死に………怒りすら感じるほど真剣になっているのを見るのは、初めてだった。
 #SCRIPT ORIGINAL 美雨がここまで必死に………怒りすら感じるほど真剣になっているのを見るのは、初めてだった。
 　Miu being so frantic... it was my first time seeing her so serious, as though it was anger.
 
 #Miu was desperate now... It was my first time seeing her seriously angry like that.
 
-#「オレは出てるよ。何かあれば遠慮なく呼んでくれ」
 #SCRIPT ORIGINAL 「オレは出てるよ。何かあれば遠慮なく呼んでくれ」
 ＠Itsuki
 「I'm going out. If something happens, don't refrain from calling me.」
@@ -954,7 +820,6 @@ wait		1000
 @miu_maid		#メイド服
 @miu_ikari2		#開_怒
 
-#「はい。私もこの子の側に居ますから……」
 #SCRIPT ORIGINAL 「はい。私もこの子の側に居ますから……」
 ＠Miu,B01540
 「Yes. I will be by this girl's side...」

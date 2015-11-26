@@ -6,14 +6,12 @@ label	goldenweek_02
 #■BG（青空）
 @bg_sky2
 
-#ゴールデンウィークにどこにも出かけない憂さ晴らしか、いちごは日々屋内で騒がしく遊びまわっていた。
 #SCRIPT ORIGINAL ゴールデンウィークにどこにも出かけない憂さ晴らしか、いちごは日々屋内で騒がしく遊びまわっていた。
 　Though there weren’t any refreshing outings during golden week, Ichigo spent the days running amok playing indoors.
 
 #■BG（玄関）
 @bg_genkan
 
-#「ただいま」
 #SCRIPT ORIGINAL 「ただいま」
 ＠Itsuki
 「I’m back」
@@ -21,11 +19,9 @@ label	goldenweek_02
 #SE19　廊下を走る音
 @se19
 
-#ドタドタドタドタ！
 #SCRIPT ORIGINAL ドタドタドタドタ！
 　Thump thump thump thump!
 
-#「ん……？」
 #SCRIPT ORIGINAL 「ん……？」
 ＠Itsuki
 「Hm...?」
@@ -33,20 +29,16 @@ label	goldenweek_02
 #SE19　廊下を走る音
 @se19
 
-#ドタドタドタドタドタドタドタドタ！
 #SCRIPT ORIGINAL ドタドタドタドタドタドタドタドタ！
 　Thump thump thump thump thump thump thump thump!
 
-#「今日もまたいちごか……？」
 #SCRIPT ORIGINAL 「今日もまたいちごか……？」
 ＠Itsuki
 「Is Ichigo at it again today...?」
 
-#怒る以前に、よく毎日家の中で走り回れるものだと逆に感心する。
 #SCRIPT ORIGINAL 怒る以前に、よく毎日家の中で走り回れるものだと逆に感心する。
 　Forget getting mad, I’m amazed how she can run around the house day in, day out.
 
-#その足音と反対方向から、テテテッとざくろが小走りで寄ってきた。
 #SCRIPT ORIGINAL その足音と反対方向から、テテテッとざくろが小走りで寄ってきた。
 　From the opposite direction of the footsteps, Zakuro trotted up to me going after them.
 
@@ -54,124 +46,101 @@ label	goldenweek_02
 @bg_rouka
 @zakuro
 se_stop	0
-#「おかえり、つっちー。あった？」
 #SCRIPT ORIGINAL 「おかえり、つっちー。あった？」
 ＠Zakuro,Q00190
 「Welcome back, Tsu-chi. Find it?」
 
-#「ああ、ちょうどオレのが最後の一つだった。産地直送『青ノリの残り物』」
 #SCRIPT ORIGINAL 「ああ、ちょうどオレのが最後の一つだった。産地直送『青ノリの残り物』」
 ＠Itsuki
 「Yeah, I just got the last one. Fresh from the production site, “Aonori leftovers”」
 
-#「妙な商品名だが……『贈り物』の誤植か、これ」
 #SCRIPT ORIGINAL 「妙な商品名だが……『贈り物』の誤植か、これ」
 ＠Itsuki
 「That’s an odd brand name, though... is it meant to say “gifts”?」
 
 @zakuro_warai
 
-#「うん、間違いない。ほんとに買えるなんて……」
 #SCRIPT ORIGINAL 「うん、間違いない。ほんとに買えるなんて……」
 ＠Zakuro,Q00191
 「Yeah, that’s it. I can’t believe you bought it...」
 
-#「何メーターもタクシー飛ばして、その上群がる人混みをなぎ倒しながら必死に買ってきたからな……」
 #SCRIPT ORIGINAL 「何メーターもタクシー飛ばして、その上群がる人混みをなぎ倒しながら必死に買ってきたからな……」
 ＠Itsuki
 「I rode the taxi for so long, and on top of that had to fight the mob of people, so that I could manage to buy it...」
 
-#「確かに、あれはざくろじゃ無理だ……オレでさえ疲れた」
 #SCRIPT ORIGINAL 「確かに、あれはざくろじゃ無理だ……オレでさえ疲れた」
 ＠Itsuki
 「That sure would be too much for you... even for me, I got worn out」
 
-#「これは、それだけの価値がある青ノリ」
 #SCRIPT ORIGINAL 「これは、それだけの価値がある青ノリ」
 ＠Zakuro,Q00192
 「This is a special Aonori that’s worth the extra effort」
 
-#「とある漁村の村ぐるみで作ってて、そこの村長のどら息子がおやつ代わりにつまみ食いしてる品物なの」
 #SCRIPT ORIGINAL 「とある漁村の村ぐるみで作ってて、そこの村長のどら息子がおやつ代わりにつまみ食いしてる品物なの」
 ＠Zakuro,Q00193
 「It’s produced throughout a certain fishing village, and the village chief’s lazy son snacks on it in between meals」
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
-#「……それって、価値があるのか？　ただの家庭の事情のような気が」
 #SCRIPT ORIGINAL 「……それって、価値があるのか？　ただの家庭の事情のような気が」
 ＠Itsuki
 「...What makes that so worthwhile? Feels like just some household situation」
 
 @zakuro
 
-#「ううん。村では毎年何百キロも作ってるんだけど、その息子のつまみ食いの量が酷いらしいの」
 #SCRIPT ORIGINAL 「ううん。村では毎年何百キロも作ってるんだけど、その息子のつまみ食いの量が酷いらしいの」
 ＠Zakuro,Q00194
 「There’s more. The village produces hundreds of kilos every year, the amount the kid eats of it is ridiculous」
 
-#「そのせいで実際に売りに出るのは数十袋程度になってるから、とても希少品」
 #SCRIPT ORIGINAL 「そのせいで実際に売りに出るのは数十袋程度になってるから、とても希少品」
 ＠Zakuro,Q00195
 「Because of that, only a few dozen bags actually get put out and sold, it’s a rare commodity」
 
-#「いくらなんでも食いすぎだろそいつッ、青ノリばっかり！」
 #SCRIPT ORIGINAL 「いくらなんでも食いすぎだろそいつッ、青ノリばっかり！」
 ＠Itsuki
 「However you look at it, he’s eating way too much! Nothing but Aonori!」
 
-#「そこまで美味しいのだろうかって、その道じゃ評判の一品」
 #SCRIPT ORIGINAL 「そこまで美味しいのだろうかって、その道じゃ評判の一品」
 ＠Zakuro,Q00196
 「Everyone wonders if it’s really that tasty, so it’s famous in the trade」
 
-#「そして食い漁られた残り物だから、商品名も『青ノリの残り物』」
 #SCRIPT ORIGINAL 「そして食い漁られた残り物だから、商品名も『青ノリの残り物』」
 ＠Zakuro,Q00197
 「And it’s all scavenged leftovers, so the brand name is “Aonori leftovers”」
 
-#「……切ない…」
 #SCRIPT ORIGINAL 「……切ない…」
 ＠Itsuki
 「...That’s pathetic」
 
-#「で、曰く付で希少品なのは分かったが……ほんとにおいしいのか？」
 #SCRIPT ORIGINAL 「で、曰く付で希少品なのは分かったが……ほんとにおいしいのか？」
 ＠Itsuki
 「So, with the village story I understand why it’s rare, but... does it really taste good?」
 
 @zakuro_ikari
 
-#「不思議な事に、毎年味が違う」
 #SCRIPT ORIGINAL 「不思議な事に、毎年味が違う」
 ＠Zakuro,Q00198
 「The weird thing is, it tastes different every year」
 
-#「干してる最中の青ノリに、毎年そのどら息子が勝手に味付けをしてるからだっていう噂がある」
 #SCRIPT ORIGINAL 「干してる最中の青ノリに、毎年そのどら息子が勝手に味付けをしてるからだっていう噂がある」
 ＠Zakuro,Q00199
 「Rumour has it that the lazy son adds his own seasoning to it every year, as the Aonori is drying」
 
-#「何で自分んとこの名産品をちゃんと管理してないんだ、そいつらはッ！」
 #SCRIPT ORIGINAL 「何で自分んとこの名産品をちゃんと管理してないんだ、そいつらはッ！」
 ＠Itsuki
 「Why don’t they take better care in managing their own local produce!?」
 
 @zakuro_warai
 
-#「今年はアタリかな」
 #SCRIPT ORIGINAL 「今年はアタリかな」
 ＠Zakuro,Q00200
 「I wonder if this year’ll be good」
 
-#何となく、心持ち嬉しそうにペリペリとその袋をはがしていく。
 #SCRIPT ORIGINAL 何となく、心持ち嬉しそうにペリペリとその袋をはがしていく。
 　Either way, she looks somewhat pleased as she tears open the bag.
 
-#その時、事件は起こった。
 #SCRIPT ORIGINAL その時、事件は起こった。
 　At that moment, something happened.
 
@@ -183,143 +152,115 @@ wait	1000
 
 @ichigo_ikari
 
-#「こらーッ、逃げちゃダメー！！」
 #SCRIPT ORIGINAL 「こらーッ、逃げちゃダメー！！」
 ＠Ichigo,O00174
 「Heyー! Stop right thereー!!」
 
 @mikan_odoroki
 
-#「む、無理だよこんなのぉッ、いちごちゃーん！」
 #SCRIPT ORIGINAL 「む、無理だよこんなのぉッ、いちごちゃーん！」
 ＠Mikan,A00307
 「Ichigo-chan stop it, would you!? I hate thisー!!」
 
-#さっきから足音を響かせていたいちごが、みかんを追いかけながら走ってきた。
 #SCRIPT ORIGINAL さっきから足音を響かせていたいちごが、みかんを追いかけながら走ってきた。
 　Ichigo, who’d been making the footstep noises from before, came running in chasing after Mikan.
 
 @karin_ikari_c
 
-#「いちごーッ！　私のみかんに変なことしたら許さないわよー！！」
 #SCRIPT ORIGINAL 「いちごーッ！　私のみかんに変なことしたら許さないわよー！！」
 ＠Karin,P00078
 「Ichigoー! I won’t forgive you if do anything weird to my Mikanー!!」
 
-#そして、さらに後ろからそれを追ってくるかりん。
 #SCRIPT ORIGINAL そして、さらに後ろからそれを追ってくるかりん。
 　And then, Karin came chasing after them from further behind.
 
-#「あッ、お兄ちゃんにざくろちゃん！　助けてッ」
 #SCRIPT ORIGINAL 「あッ、お兄ちゃんにざくろちゃん！　助けてッ」
 ＠Mikan,A00308
 「Ah! Onii-chan and Zakuro-chan! Help me!」
 
-#「今は無理。青ノリが最優先」
 #SCRIPT ORIGINAL 「今は無理。青ノリが最優先」
 ＠Zakuro,Q00201
 「Not right now. Aonori’s more important」
 
-#「廊下で走ったら危ないだろ。どうしたんだ？」
 #SCRIPT ORIGINAL 「廊下で走ったら危ないだろ。どうしたんだ？」
 ＠Itsuki
 「You shouldn’t be running in the hallway. What’s the matter?」
 
-#「いちごちゃんが、みかんを食べようとしてるの！」
 #SCRIPT ORIGINAL 「いちごちゃんが、みかんを食べようとしてるの！」
 ＠Mikan,A00309
 「Ichigo-chan’s trying to eat me!」
 
-#「……は？」
 #SCRIPT ORIGINAL 「……は？」
 ＠Itsuki
 「...Wha?」
 
-#「がおーー！！　今のいちごはいちごじゃないよッ！　『大怪獣・いちごん』なの！」
 #SCRIPT ORIGINAL 「がおーー！！　今のいちごはいちごじゃないよッ！　『大怪獣・いちごん』なの！」
 ＠Ichigo,O00175
 「Grrrrooarーー!! I’m not the same old Ichigo anymore! I’m the “Big Cave Monster - Ichigon”!」
 
-#「悪い子はいねぇかーー！！」
 #SCRIPT ORIGINAL 「悪い子はいねぇかーー！！」
 ＠Ichigo,O00176
 「Where’s the naughty kids ‘round hereーー!!」
 
-#「悪いのはあなたの頭でしょうがッ！　いい加減にしなさいよ、いちご！」
 #SCRIPT ORIGINAL 「悪いのはあなたの頭でしょうがッ！　いい加減にしなさいよ、いちご！」
 ＠Karin,P00079
 「You’ve lost your mind, go find that first! Cut it out, would you Ichigo!」
 
-#「怪獣の捕食だとか言ってみかんに抱きついて、その上噛んだり舐めたり、なんて羨まし――――じゃなくて、嫌がることしないで！」
 #SCRIPT ORIGINAL 「怪獣の捕食だとか言ってみかんに抱きついて、その上噛んだり舐めたり、なんて羨まし――――じゃなくて、嫌がることしないで！」
 ＠Karin,P00080
 「Saying she’s a monster’s prey and hugging her, and on top of that licking and biting her, I’m so jeal――I mean, stop it, she doesn’t like it!」
 
-#「いちごんだってばッ！　みかんもいちごんを食べ返して倒せばいいじゃんー！」
 #SCRIPT ORIGINAL 「いちごんだってばッ！　みかんもいちごんを食べ返して倒せばいいじゃんー！」
 ＠Ichigo,O00177
 「M’ name’s Ichigon, I say! Mikan’s allowed t’ eat back and take me down, what’s the problemー!?」
 
-#「そんな遊びヤダよぉ、いちごちゃーん！」
 #SCRIPT ORIGINAL 「そんな遊びヤダよぉ、いちごちゃーん！」
 ＠Mikan,A00310
 「I don’t like that game, Ichigo-chanー！」
 
-#「はぁ……状況は分かった…」
 #SCRIPT ORIGINAL 「はぁ……状況は分かった…」
 ＠Itsuki
 「Sigh... I understand what’s going on...」
 
-#「いちご、もっと違う遊びしなさい。かりんに闇討ちされても知らないぞ」
 #SCRIPT ORIGINAL 「いちご、もっと違う遊びしなさい。かりんに闇討ちされても知らないぞ」
 ＠Itsuki
 「Ichigo, go play a different game. I’m not going to help you if Karin undercuts you」
 
-#「ぶーッ、元はといえば、パパがいちごんを外に出してあげなかったから、家の中で暴れてるんだよッ！」
 #SCRIPT ORIGINAL 「ぶーッ、元はといえば、パパがいちごんを外に出してあげなかったから、家の中で暴れてるんだよッ！」
 ＠Ichigo,O00178
 「Pfftー! Well you know, Ichigon’s raging inside the house now, because Papa never took her outside!」
 
-#「……美味しい。感動した」
 #SCRIPT ORIGINAL 「……美味しい。感動した」
 ＠Zakuro,Q00202
 「...It’s delicious. I’m impressed」
 
-#隣でマイペースに、青ノリの匂いを嗅いだり舐めたりしていたざくろが、満足そうに呟いた。
 #SCRIPT ORIGINAL 隣でマイペースに、青ノリの匂いを嗅いだり舐めたりしていたざくろが、満足そうに呟いた。
 　Zakuro, just beside them, whispered looking satisfied, languidly sniffing and tasting the Aonori.
 
-#「……？　何の騒ぎ…？」
 #SCRIPT ORIGINAL 「……？　何の騒ぎ…？」
 ＠Zakuro,Q00203
 「...? What’s all the ruckus...?」
 
-#「今ごろ気付いたんかい」
 #SCRIPT ORIGINAL 「今ごろ気付いたんかい」
 ＠Itsuki
 「You just noticed now, huh」
 
-#「ちょっとゴスロリッ、あなたいちごの保護者でしょう！　何とかしてよッ」
 #SCRIPT ORIGINAL 「ちょっとゴスロリッ、あなたいちごの保護者でしょう！　何とかしてよッ」
 ＠Karin,P00081
 「Hey hold it, goth-loli! You’re Ichigo’s guardian, right!? Do something!」
 
-#「……ゴスロリ」
 #SCRIPT ORIGINAL 「……ゴスロリ」
 ＠Zakuro,Q00204
 「...Goth-loli」
 
-#「今のざくろの設定は『いちごん』の仲間の『ざくろん』だよ！　だからいちごの邪魔はしないもん！」
 #SCRIPT ORIGINAL 「今のざくろの設定は『いちごん』の仲間の『ざくろん』だよ！　だからいちごの邪魔はしないもん！」
 ＠Ichigo,O00179
 「Zakuro’s role right now is “Ichigon’s” friend “Zakuron”! So she won’t get in Ichigon’s way!」
 
-#「……ざくろん」
 #SCRIPT ORIGINAL 「……ざくろん」
 ＠Zakuro,Q00205
 「...Zakuron」
 
-#「みかん隙ありッ！」
 #SCRIPT ORIGINAL 「みかん隙ありッ！」
 ＠Ichigo,O00180
 「Mikan, I’ve got you now!」
@@ -331,55 +272,44 @@ wait	1000
 #SE36　勢いよく抱きつく音（バフッ！）
 @se36
 
-#「ひゃうッ！　い、いちごちゃん！」
 #SCRIPT ORIGINAL 「ひゃうッ！　い、いちごちゃん！」
 ＠Mikan,A00311
 「Hyau! I-Ichigo-chan!」
 
-#「なッ！　またあんたはッ！！」
 #SCRIPT ORIGINAL 「なッ！　またあんたはッ！！」
 ＠Karin,P00082
 「Wha!? You’re at it again!!」
 
-#「はむぅッ…はむッ、んんちゅッ！　れりゅぅッ」
 #SCRIPT ORIGINAL 「はむぅッ…はむッ、んんちゅッ！　れりゅぅッ」
 ＠Ichigo,O00181
 「Munch... munch, nngh, lick! Shlorpp!」
 
-#「んんッ！　ふあぁッ、や、やだ……離してぇいちごちゃんッ、くすぐったいよぉっ」
 #SCRIPT ORIGINAL 「んんッ！　ふあぁッ、や、やだ……離してぇいちごちゃんッ、くすぐったいよぉっ」
 ＠Mikan,A00312
 「Nnh! Fwaah, n-no... let me go, Ichigo-chan, that tickles!」
 
-#「み、みみッ、みかんの穢れなき雪白な首筋をッ！　いちごーーー！！」
 #SCRIPT ORIGINAL 「み、みみッ、みかんの穢れなき雪白な首筋をッ！　いちごーーー！！」
 ＠Karin,P00083
 「Mi-, Mi-Mi-, Mikan’s pale, undefiled nape of neck! Ichigoーーー!!」
 
-#「もう誰でもいいわッ、今この場で一番殺傷能力の高い物を私に貸しなさい！！　一瞬で抹殺してみせるからッ！」
 #SCRIPT ORIGINAL 「もう誰でもいいわッ、今この場で一番殺傷能力の高い物を私に貸しなさい！！　一瞬で抹殺してみせるからッ！」
 ＠Karin,P00084
 「Someone, I don’t care who! Right here and now, lend me something that will cause the most bloodshed!! I’ll ruin her in an instant!」
 
-#「……はぁぁ。遠出から疲れて帰ってきてるんだよ。騒がしくするなって」
 #SCRIPT ORIGINAL 「……はぁぁ。遠出から疲れて帰ってきてるんだよ。騒がしくするなって」
 ＠Itsuki
 「...Sighh. It’s time to go back home, tired from your travels. Don’t make a ruckus, jeez」
 
-#「んぷッ！　うわわッ！」
 #SCRIPT ORIGINAL 「んぷッ！　うわわッ！」
 ＠Ichigo,O00182
 「Unph! Uwawah!」
 
-#みかんを腕の力だけで引き剥がすと、その反動でいちごの身体が後ろへとバランスを崩す。
 #SCRIPT ORIGINAL みかんを腕の力だけで引き剥がすと、その反動でいちごの身体が後ろへとバランスを崩す。
 　I pry away Mikan using just the force of my hand, and the backlash sent Ichigo toppling over backwards.
 
-#その先にいるのは、運悪くざくろだった。
 #SCRIPT ORIGINAL その先にいるのは、運悪くざくろだった。
 　Right on Zakuro, who was the unlucky one standing there.
 
-#「……ッ、あ」
 #SCRIPT ORIGINAL 「……ッ、あ」
 ＠Zakuro,Q00206
 「...! Ah」
@@ -389,159 +319,129 @@ wait	1000
 #SE27　倒れる音（ドサッ）
 @se27
 
-#「あぅッ！　い、いったぁ～～い～っ」
 #SCRIPT ORIGINAL 「あぅッ！　い、いったぁ～～い～っ」
 ＠Ichigo,O00183
 「Auhh! O-owwwieeeee～～」
 
-#「…………っ」
 #SCRIPT ORIGINAL 「…………っ」
 ＠Zakuro,Q00207
 「...!」
 
-#転倒に巻き込まれるのは咄嗟に避けていたが、手の中の青ノリは見事に床へ舞い散っていた。
 #SCRIPT ORIGINAL 転倒に巻き込まれるのは咄嗟に避けていたが、手の中の青ノリは見事に床へ舞い散っていた。
 　She swiftly dodged getting caught up in the fall, but the Aonori in her hand floated down to the ground spectacularly.
 
 @ichigo_naki
 layer_move	l_ichigo,2000,0,600,0,0,passtype_tcb
 
-#「はうぅ……お、お尻打ったよぉ～……」
 #SCRIPT ORIGINAL 「はうぅ……お、お尻打ったよぉ～……」
 ＠Ichigo,O00184
 「Hauu... I-I hit my bottom～...」
 
 @ichigo_kanashimi
 
-#「ん……あ、あれ。何か粉みたいのがいっぱい散らばってる」
 #SCRIPT ORIGINAL 「ん……あ、あれ。何か粉みたいのがいっぱい散らばってる」
 ＠Ichigo,O00185
 「Hm... w-what the? There’s like powdery stuff scattered all over」
 
-#「………『青ノリの残り物』」
 #SCRIPT ORIGINAL 「………『青ノリの残り物』」
 ＠Zakuro,Q00208
 「...The “Aonori’s leftovers”」
 
-#「あ、あ～……えっと、とりあえずざくろ、怪我とかは平気か？」
 #SCRIPT ORIGINAL 「あ、あ～……えっと、とりあえずざくろ、怪我とかは平気か？」
 ＠Itsuki
 「H-hey～... umm, anyway Zakuro, you didn’t get armed by her or anything?」
 
-#「兵器化……？」
 #SCRIPT ORIGINAL 「兵器化……？」
 ＠Zakuro,Q00209
 「Getting armed...?」
 
-#「……それは、しそうかも」
 #SCRIPT ORIGINAL 「……それは、しそうかも」
 ＠Zakuro,Q00210
 「...I might do that」
 
 screen_vibration	2000,16,16,16
 
-#ゴゴゴゴゴゴゴゴ……
 #SCRIPT ORIGINAL ゴゴゴゴゴゴゴゴ……
 　Rumble rumble rumble rumble...
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
 
-#「大丈夫ッ、みかん！？　変なばい菌とか貰ってない！？」
 #SCRIPT ORIGINAL 「大丈夫ッ、みかん！？　変なばい菌とか貰ってない！？」
 ＠Karin,P00085
 「Are you OK, Mikan!? You didn’t get any weird germs or anything!?」
 
-#「べ、別にそこまでは言ってないよぉ……でも、ありがとお兄ちゃん」
 #SCRIPT ORIGINAL 「べ、別にそこまでは言ってないよぉ……でも、ありがとお兄ちゃん」
 ＠Mikan,A00313
 「I-I wasn’t complaining about it that much... but thanks, Onii-chan」
 
-#「いや何、これくらい。今から起ころうとしてることに比べたら……」
 #SCRIPT ORIGINAL 「いや何、これくらい。今から起ころうとしてることに比べたら……」
 ＠Itsuki
 「Oh no, this is nothing. Compared to what’s going to happen now...」
 
-#「……？」
 #SCRIPT ORIGINAL 「……？」
 ＠Mikan,A00314
 「...?」
 
-#「みかん、部屋に行きましょう…消毒してあげるから…」
 #SCRIPT ORIGINAL 「みかん、部屋に行きましょう…消毒してあげるから…」
 ＠Karin,P00086
 「Mikan, let’s go to my room... I’ll disinfect you...」
 
-#「だ、唾液には殺菌効果があるっていうから……私がみかんを舐めてあげればオッケーなはずよ……」
 #SCRIPT ORIGINAL 「だ、唾液には殺菌効果があるっていうから……私がみかんを舐めてあげればオッケーなはずよ……」
 ＠Karin,P00087
 「I-I heard spit has germ-killing properties, so... it should be OK if I lick you, I think...」
 
-#「え……？」
 #SCRIPT ORIGINAL 「え……？」
 ＠Mikan,A00315
 「Eh...?」
 
-#「……おい」
 #SCRIPT ORIGINAL 「……おい」
 ＠Itsuki
 「...Hey」
 
-#「さ、さぁ、行くわよみかんっ…怯えなくても優しく捕食してあげるわ……はぁっ、はぁっ」
 #SCRIPT ORIGINAL 「さ、さぁ、行くわよみかんっ…怯えなくても優しく捕食してあげるわ……はぁっ、はぁっ」
 ＠Karin,P00088
 「C-come now, let’s be off Mikan... I’ll gently make a meal of you, don’t be afraid... pant, pant」
 
-#「……頼むからこれ以上、面倒ごとを増やさないでくれ…」
 #SCRIPT ORIGINAL 「……頼むからこれ以上、面倒ごとを増やさないでくれ…」
 ＠Itsuki
 「...Please, I beg of you, don’t take the nursing too far...」
 
-#「……いちごんを退治する」
 #SCRIPT ORIGINAL 「……いちごんを退治する」
 ＠Zakuro,Q00211
 「...I’ll eradicate Ichigon」
 
 @ichigo_odoroki
 
-#「え、何で？　ざくろんといちごんは仲間同士の設定なのに～……」
 #SCRIPT ORIGINAL 「え、何で？　ざくろんといちごんは仲間同士の設定なのに～……」
 ＠Ichigo,O00186
 「Eh, how come? Ichigon and Zakuron are friends in this story, come on～...」
 
 @ichigo_warai
 
-#「けど戦うなら、いちごんはみかんを捕食したからパワーアップしてる設定だよ♪」
 #SCRIPT ORIGINAL 「けど戦うなら、いちごんはみかんを捕食したからパワーアップしてる設定だよ♪」
 ＠Ichigo,O00187
 「But if we have to fight, the story says Ichigon’s got a power-up because she slurped on Mikan♪」
 
-#「なるほど。捕食したら勝ちなのね」
 #SCRIPT ORIGINAL 「なるほど。捕食したら勝ちなのね」
 ＠Zakuro,Q00212
 「I see. You win by slurping on someone, huh」
 
-#「うん！　あとざくろんは今空腹状態だから、本気が出せないんだよ～♪」
 #SCRIPT ORIGINAL 「うん！　あとざくろんは今空腹状態だから、本気が出せないんだよ～♪」
 ＠Ichigo,O00188
 「Yeah! Also Zakuron’s feeling hungry right now, so she can’t use her full strength～♪」
 
-#あくまでも遊びの延長と思っているいちごは、楽しそうに自分の作った設定を話している。
 #SCRIPT ORIGINAL あくまでも遊びの延長と思っているいちごは、楽しそうに自分の作った設定を話している。
 　Ichigo thinks the game’s going on to the very end, excitedly talking about the story she made.
 
-#（……けど）
 #SCRIPT ORIGINAL （……けど）
 ＠Itsuki
 （...However）
 
-#表情を変えないまま、ざくろがいちごへ歩み寄る。
 #SCRIPT ORIGINAL 表情を変えないまま、ざくろがいちごへ歩み寄る。
 　Zakuro steps up to Ichigo, her expression unchanged.
 
-#「いちごんの必殺技はね―――んッ、んぅッ！？　んるちゅッ！　ちゅぅッ！」
 #SCRIPT ORIGINAL 「いちごんの必殺技はね―――んッ、んぅッ！？　んるちゅッ！　ちゅぅッ！」
 ＠Ichigo,O00189
 「And Ichigon’s special move―― nh, nhh!? nh, shlurp! suck!」
@@ -549,21 +449,17 @@ screen_vibration	2000,16,16,16
 @ichigo_
 @zakuro_
 
-#「んふぅッ、んッ！　ぴちゅくッ、ちゅくぅッ！　るりゅっ、れるるぅッ！」
 #SCRIPT ORIGINAL 「んふぅッ、んッ！　ぴちゅくッ、ちゅくぅッ！　るりゅっ、れるるぅッ！」
 ＠Zakuro,Q00213
 「Mfh, nh! Squelp, kershlip! Lick, lick shlick!」
 
-#いちごの説明に構わず、いきなり拘束するような抱擁をしてディープキスを始めるざくろ。
 #SCRIPT ORIGINAL いちごの説明に構わず、いきなり拘束するような抱擁をしてディープキスを始めるざくろ。
 　Ignoring Ichigo’s explanation, Zakuro suddenly begins French kissing Ichigo, locking her in an embrace.
 
-#「んひぅッ！　ちゅちゅッ、ぷぁッ……ひゃくろッ、タイムタイムぅッ…んくぅッ！　ぴちゅるッ！」
 #SCRIPT ORIGINAL 「んひぅッ！　ちゅちゅッ、ぷぁッ……ひゃくろッ、タイムタイムぅッ…んくぅッ！　ぴちゅるッ！」
 ＠Ichigo,O00190
 「Nhyu! Shluck, squip, pwah... ‘hakuro! Time-out, time-out... nghh! Kersquip!」
 
-#「くぷぅッ、ぴちゅるッ！　れりゅッ、ちゅぅッ……くぷりゅッ、ちゅぱッ、んるちゅぅッ…ぴちゅッ！」
 #SCRIPT ORIGINAL 「くぷぅッ、ぴちゅるッ！　れりゅッ、ちゅぅッ……くぷりゅッ、ちゅぱッ、んるちゅぅッ…ぴちゅッ！」
 ＠Zakuro,Q00214
 「Squlp! Kershluck! Lick, suck... shlurppp, splip, shlrrble... squip!」
@@ -572,80 +468,64 @@ screen_vibration	2000,16,16,16
 @se27
 @bg_black
 
-#そのままマウントポジションを取るようにいちごを押し倒すと、ものすごい手際のよさで衣類を剥ぎ取っていく。
 #SCRIPT ORIGINAL そのままマウントポジションを取るようにいちごを押し倒すと、ものすごい手際のよさで衣類を剥ぎ取っていく。
 　Just like that, she pushes Ichigo over taking a mount position, and strips her clothes off with tremendous speed and skill.
 
 event	"event\EV_ICH_031-00.png"
 
-#「んくッ！　い、いひゃいぃ～ッ…んんちゅッ、るちゅぅッ！　やら、まっへッ、ひゃくろぉッ……！」
 #SCRIPT ORIGINAL 「んくッ！　い、いひゃいぃ～ッ…んんちゅッ、るちゅぅッ！　やら、まっへッ、ひゃくろぉッ……！」
 ＠Ichigo,O00191
 「Ungh! O-ouchiiieee～! ...nnh, slurp, squrpp! Noo, wai’h! ‘akuroo...!」
 
-#「ちゅぷぅッ、れりゅちゅ……青ノリの恨みよ、いちご…本気で行く…くぷむッ、んちゅ！　ぴちゅるぅッ」
 #SCRIPT ORIGINAL 「ちゅぷぅッ、れりゅちゅ……青ノリの恨みよ、いちご…本気で行く…くぷむッ、んちゅ！　ぴちゅるぅッ」
 ＠Zakuro,Q00215
 「Suckk, lick, slurp... it’s revenge for the Aonori, Ichigo... I’m going all-out... Shklurp, nh, squip! Squerrpp!」
 
-#「ひぅうんッ！　んぅぷッ、くぷちゅぅッ！　そ、そんらぁッ…やらやらっ、ごめんらひゃいぃ……ぴちゅぷッ！　んく、ちゅるぅッ！」
 #SCRIPT ORIGINAL 「ひぅうんッ！　んぅぷッ、くぷちゅぅッ！　そ、そんらぁッ…やらやらっ、ごめんらひゃいぃ……ぴちゅぷッ！　んく、ちゅるぅッ！」
 ＠Ichigo,O00192
 「Hyuun! nmmph, kersquick! No waaay...! Noo, no, I’rm sorreeee... kersqurp! Ngh, splurp!」
 
-#「ぷふぁッ！　あぅんッ！　本気なんて、そんなぁっ……いちごがざくろに敵うわけ無いよぉ……ひぅんッ！　んぁはぁッ！」
 #SCRIPT ORIGINAL 「ぷふぁッ！　あぅんッ！　本気なんて、そんなぁっ……いちごがざくろに敵うわけ無いよぉ……ひぅんッ！　んぁはぁッ！」
 ＠Ichigo,O00193
 「Pfwah! Auhhmn! You can’t go all-out... I can’t hope to match you, so... hyun! Nahaa!」
 
-#あっという間にショーツまで脱がし、ざくろの容赦ない上級愛撫の手がいちごの身体を這い回り始める。
 #SCRIPT ORIGINAL あっという間にショーツまで脱がし、ざくろの容赦ない上級愛撫の手がいちごの身体を這い回り始める。
 　In the blink of an eye taking off her panties, Zakuro’s unforgiving, high-level caressing hand creeps about Ichigo’s body.
 
-#「……こえぇ」
 #SCRIPT ORIGINAL 「……こえぇ」
 ＠Itsuki
 「...That’s scary man」
 
-#「ひゃうんッ、んふぅッ！　はあぁッ、あはぁぁッ、あんッ！　きゃふぅッ！」
 #SCRIPT ORIGINAL 「ひゃうんッ、んふぅッ！　はあぁッ、あはぁぁッ、あんッ！　きゃふぅッ！」
 ＠Ichigo,O00194
 「Hyaunh, nfuh! Haaa, ahaaa, ahn! Kyafh!」
 
-#ざくろの手が包皮を剥いた幼い淫核と秘部を激しく擦り、反対の手は乳首を捏ねながら胸を大きく揉み解す。
 #SCRIPT ORIGINAL ざくろの手が包皮を剥いた幼い淫核と秘部を激しく擦り、反対の手は乳首を捏ねながら胸を大きく揉み解す。
 　Her hand rubs Ichigo’s privates and young tender clitoris roughly, as her other one massages her breast and kneads the nipple.
 
-#「…んッ、ふぅぅ……いっぱい鳴かせてあげる、いちご……まずは手だけで５回くらいから…」
 #SCRIPT ORIGINAL 「…んッ、ふぅぅ……いっぱい鳴かせてあげる、いちご……まずは手だけで５回くらいから…」
 ＠Zakuro,Q00216
 「...Nh! Fuhh... I’ll make you howl a whole lot, Ichigo... up first, 5 times using just my hand...」
 
-#「んふぁぁッ！　あぅんッ、はぁぁッ！　た、助けてぇパパぁ…ほんとにイカされひゃうよぉッ…んぅくッ！　あんッ、はぁあッ！」
 #SCRIPT ORIGINAL 「んふぁぁッ！　あぅんッ、はぁぁッ！　た、助けてぇパパぁ…ほんとにイカされひゃうよぉッ…んぅくッ！　あんッ、はぁあッ！」
 ＠Ichigo,O00195
 「Mfaahhh! Auhn, haaa! S-save me, Papaa... she’s really gonna ma’he me come... nugh! Ahn, haaa!」
 
-#「……悪い、とてもオレの手に負えそうに無い……耐え抜け」
 #SCRIPT ORIGINAL 「……悪い、とてもオレの手に負えそうに無い……耐え抜け」
 ＠Itsuki
 「...Sorry, this has gotten to be out of my hands... stick with it」
 
-#「そ、そんなぁ…くぅんッ！　あはぁぁッ、はぁッ…ざくろ、いきなり激しいよぉ…はぁんッ！　んぅはぁッ！」
 #SCRIPT ORIGINAL 「そ、そんなぁ…くぅんッ！　あはぁぁッ、はぁッ…ざくろ、いきなり激しいよぉ…はぁんッ！　んぅはぁッ！」
 ＠Ichigo,O00196
 「N-no way... kuhn! Ahaaa, haa... Zakuro, you’re so rough right away... haan! Nwhaa!」
 
-#いちごの泣き声にも近い嬌声に背を向け、とりあえずもう一つの問題、かりんの方へ向かう事にした。
 #SCRIPT ORIGINAL いちごの泣き声にも近い嬌声に背を向け、とりあえずもう一つの問題、かりんの方へ向かう事にした。
 　Turning my back to Ichigo’s wails that are near moans, for now there is the other matter, and I decide to go find Karin.
 
-#（あっちはあっちで……かりんが暴走してるんだろうなぁ……）
 #SCRIPT ORIGINAL （あっちはあっちで……かりんが暴走してるんだろうなぁ……）
 ＠Itsuki
 （Each to their own... Karin must be running rampant right about now...）
 
-#連休なのに、落ち着けない……
 #SCRIPT ORIGINAL 連休なのに、落ち着けない……
 　For a holiday break, I couldn’t catch my breath...
 

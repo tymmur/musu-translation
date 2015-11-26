@@ -8,13 +8,11 @@ label	suika_02
 @bg_black
 
 #＠女の子,V22000
-#「それじゃ、すいかちゃんによろしくお願いします」
 #SCRIPT ORIGINAL 「それじゃ、すいかちゃんによろしくお願いします」
 ＠Girl,V22000
 「Please pass it along to Suika-chan for me」
 
 #＠樹
-#「ああ、分かった」
 #SCRIPT ORIGINAL 「ああ、分かった」
 ＠Itsuki
 「Sure, no problem」
@@ -22,20 +20,16 @@ label	suika_02
 #SE31　玄関のドアが閉まる音
 @se31
 
-#丁寧に一礼して帰るすいかのクラスメートの背を見送り、ホッと息を吐いた。
 #SCRIPT ORIGINAL 丁寧に一礼して帰るすいかのクラスメートの背を見送り、ホッと息を吐いた。
 　She curtseys and seeing Suika's classmate walk away, I breathe a sigh of relief.
 
-#知らない子がやってきたら、入院しに来た子かとビックリする……
 #SCRIPT ORIGINAL 知らない子がやってきたら、入院しに来た子かとビックリする……
 　A girl I didn't know came by, and I had a scare thinking she might be here to join the institution...
 
-#まぁ結局、単にすいかの忘れ物を届けてくれただけなのだが。
 #SCRIPT ORIGINAL まぁ結局、単にすいかの忘れ物を届けてくれただけなのだが。
 　In the end, she was just returning something that Suika left behind.
 
 #＠樹
-#「しかし、カバンを忘れるか、普通……？」
 #SCRIPT ORIGINAL 「しかし、カバンを忘れるか、普通……？」
 ＠Itsuki
 「But it's not usual for her to forget her backpack, is it...?」
@@ -43,7 +37,6 @@ label	suika_02
 #■BG（廊下）
 @bg_rouka
 
-#疑問はともあれ本人に渡さねばならないので、すいかの部屋へとやってきた。
 #SCRIPT ORIGINAL 疑問はともあれ本人に渡さねばならないので、すいかの部屋へとやってきた。
 　For now I'll just have to bring it back to her, so I went to Suika's room.
 
@@ -51,20 +44,16 @@ label	suika_02
 @se11
 
 #＠樹
-#「すいか、ちょっといいか？」
 #SCRIPT ORIGINAL 「すいか、ちょっといいか？」
 ＠Itsuki
 「Suika, do you have a moment?」
 
-#……………
 #SCRIPT ORIGINAL ……………
 　.........
 
-#………
 #SCRIPT ORIGINAL ………
 　......
 
-#……返事が無い。
 #SCRIPT ORIGINAL ……返事が無い。
 　...No reply.
 
@@ -72,21 +61,17 @@ label	suika_02
 @se11
 
 #＠樹
-#「すいか、友達が忘れ物を持ってきてくれたぞ」
 #SCRIPT ORIGINAL 「すいか、友達が忘れ物を持ってきてくれたぞ」
 ＠Itsuki
 「Suika, your friend came to return something you forgot」
 
-#ノックして声を掛けるが、中からは何の反応も無い。
 #SCRIPT ORIGINAL ノックして声を掛けるが、中からは何の反応も無い。
 　I knocked on the door and called to her, but there was no response from inside.
 
-#微妙に物音や声はするので留守ではないはずだが。
 #SCRIPT ORIGINAL 微妙に物音や声はするので留守ではないはずだが。
 　I can pick out some sounds and a voice so she's got to be there.
 
 #＠樹
-#「……入るぞ？」
 #SCRIPT ORIGINAL 「……入るぞ？」
 ＠Itsuki
 「...I'm coming in」
@@ -97,23 +82,18 @@ label	suika_02
 #■BG（すいかの部屋）
 @bg_suika
 
-#カギの掛かっていないドアを開けて、中を覗き込んでみた。
 #SCRIPT ORIGINAL カギの掛かっていないドアを開けて、中を覗き込んでみた。
 　I opened the door that was unlocked, and peeked inside.
 
-#すいかの部屋に入るのはこれが初めてだ。
 #SCRIPT ORIGINAL すいかの部屋に入るのはこれが初めてだ。
 　This is my first time going into Suika's room.
 
-#本人の好みなのか、部屋の中は案外あっさりとしていて、物も少ない。
 #SCRIPT ORIGINAL 本人の好みなのか、部屋の中は案外あっさりとしていて、物も少ない。
 　Probably to her taste, the interior of her room is quite plain, with not a lot of stuff.
 
-#代わりに壁に貼られたゲームのポスターや、部屋の隅に置かれたテレビとスピーカー。
 #SCRIPT ORIGINAL 代わりに壁に貼られたゲームのポスターや、部屋の隅に置かれたテレビとスピーカー。
 　Instead, there's some game posters on the wall, and a TV and speakers stuck in a corner of the room.
 
-#そして、
 #SCRIPT ORIGINAL そして、
 　And also...
 
@@ -121,94 +101,75 @@ label	suika_02
 event	"event\EV_SUI_040-00.png"
 
 #＠すいか,R00189
-#「うう～～ッ、このッ！　ていッ！！　……あッ」
 #SCRIPT ORIGINAL 「うう～～ッ、このッ！　ていッ！！　……あッ」
 ＠Suika,R00189
 「Uuh～～, why you! Hey!! ...Ah!」
 
-#そこに繋がったゲーム機のコントローラーを握り締め、ヘッドホンを装着したすいかが白熱していた。
 #SCRIPT ORIGINAL そこに繋がったゲーム機のコントローラーを握り締め、ヘッドホンを装着したすいかが白熱していた。
 　Suika's in the throes of a game, equipped with headphones and clutching a controller for a console she's got hooked up.
 
-#だからノックや声にも返事が無かったのか……
 #SCRIPT ORIGINAL だからノックや声にも返事が無かったのか……
 　I guess that's why she didn't hear me before...
 
-#今も完全にゲームにのめり込んで、オレの入室にも気付いていない。
 #SCRIPT ORIGINAL 今も完全にゲームにのめり込んで、オレの入室にも気付いていない。
 　Even now she's totally absorbed in the game and didn't notice me come in.
 
 #＠すいか,R00190
-#「んぅッ、攻めが強いよ……何とか相手に被さって、こっちのペースで動かないとッ」
 #SCRIPT ORIGINAL 「んぅッ、攻めが強いよ……何とか相手に被さって、こっちのペースで動かないとッ」
 ＠Suika,R00190
 「Ngh, what a strong attack... I have to somehow get on top and move at my own pace」
 
 #＠すいか,R00191
-#「えッ、ウソ、そんな体勢で後ろからなんて……ッ！　あんッ、止まらないッ、止まらないよ！」
 #SCRIPT ORIGINAL 「えッ、ウソ、そんな体勢で後ろからなんて……ッ！　あんッ、止まらないッ、止まらないよ！」
 ＠Suika,R00191
 「Huh, no way, doing it like that from behind...! Anh, it won't stop, it won't stop!」
 
 #＠樹
-#「……健全な格闘ゲームのくせに、この台詞のエロさは何だ」
 #SCRIPT ORIGINAL 「……健全な格闘ゲームのくせに、この台詞のエロさは何だ」
 ＠Itsuki
 「...It looks like a fun fighting game, but what's with the sexual commentary?」
 
-#まぁ画面を見る限り、すいかの言葉は間違ってないんだが……
 #SCRIPT ORIGINAL まぁ画面を見る限り、すいかの言葉は間違ってないんだが……
 　Well I guess it is matching up with what's on the screen though...
 
-#要するに聞いてるオレがエロいからってオチか。
 #SCRIPT ORIGINAL 要するに聞いてるオレがエロいからってオチか。
 　Maybe it just means I've got a dirty mind.
 
 event	"event\EV_SUI_040-01.png"
 
 #＠すいか,R00192
-#「あぁッ！　ダメ、もうそんなに溜まってる……ッ、出ちゃうの！　お願い、休ませてぇッ」
 #SCRIPT ORIGINAL 「あぁッ！　ダメ、もうそんなに溜まってる……ッ、出ちゃうの！　お願い、休ませてぇッ」
 ＠Suika,R00192
 「Ahh! No good, it's accumulated so much already... it's going to come! Please ease up a bit!!」
 
-#（訳）
-#相手の気力が〝溜まり〟、必殺技が〝出そう〟になって死にそうだから、何とか〝休ませて〟ほしい。
 #SCRIPT ORIGINAL （訳）
 #SCRIPT ORIGINAL 相手の気力が〝溜まり〟、必殺技が〝出そう〟になって死にそうだから、何とか〝休ませて〟ほしい。
 　(Meaning) The opponent's energy has "accumulated" and his special move is on the verge of "coming", so she wants it to "ease up a bit".
 
 #＠樹
-#「うわ～～……」
 #SCRIPT ORIGINAL 「うわ～～……」
 ＠Itsuki
 「Uwah～～...」
 
-#しかしすいかの叫びも無慈悲なコンピューターに届くはずも無く。
 #SCRIPT ORIGINAL しかしすいかの叫びも無慈悲なコンピューターに届くはずも無く。
 　But Suika's cries have no effect on the remorseless computer.
 
 #＠すいか,R00193
-#「落ちちゃうッ、出さないでぇッ！　ふぁッ、ああぁああううぅぅッッッ！！！」
 #SCRIPT ORIGINAL 「落ちちゃうッ、出さないでぇッ！　ふぁッ、ああぁああううぅぅッッッ！！！」
 ＠Suika,R00193
 「I'm going to be defeated, don't come! Faah, aaaaauuuhhh!!!」
 
-#カットインから一気にラッシュが走り、すいかは嬌声と共に落ちてしまった。
 #SCRIPT ORIGINAL カットインから一気にラッシュが走り、すいかは嬌声と共に落ちてしまった。
 　Suddenly something rushes out from a character cut-in, and Suika was defeated while making a lovely moan.
 
-#画面が切り替わると、相手の勝ち誇った台詞と満足げな笑みが映る。
 #SCRIPT ORIGINAL 画面が切り替わると、相手の勝ち誇った台詞と満足げな笑みが映る。
 　The screen changed showing the opponent's winning speech and satisfied smile.
 
 #＠すいか,R00194
-#「はぁぁ……んく、こんな一方的にやられちゃうなんて……もっと沢山やって上手くならないと……」
 #SCRIPT ORIGINAL 「はぁぁ……んく、こんな一方的にやられちゃうなんて……もっと沢山やって上手くならないと……」
 ＠Suika,R00194
 「Haaa... guh, being screwed so one-sidedly... I have to do it a lot more and get better...」
 
-#まぁ、エロシーンの締めの台詞としては及第点じゃないだろうか。
 #SCRIPT ORIGINAL まぁ、エロシーンの締めの台詞としては及第点じゃないだろうか。
 　Hmm, as the concluding remark of an H-scene, it works pretty well.
 
@@ -218,7 +179,6 @@ event	"event\EV_SUI_040-01.png"
 #@suika_large
 
 #＠樹
-#「おい、すいか？」
 #SCRIPT ORIGINAL 「おい、すいか？」
 ＠Itsuki
 「Hey, Suika?」
@@ -226,29 +186,24 @@ event	"event\EV_SUI_040-01.png"
 @suika
 
 #＠すいか,R00195
-#「……え？」
 #SCRIPT ORIGINAL 「……え？」
 ＠Suika,R00195
 「...Eh?」
 
-#ゲームが一段落したのを見計らって声を掛けると、今度はしっかりとこちらに振り返った。
 #SCRIPT ORIGINAL ゲームが一段落したのを見計らって声を掛けると、今度はしっかりとこちらに振り返った。
 　Having completed the run-through I call out to her again, and she turns and looks at me.
 
 #＠樹
-#「ずいぶん白熱してたな」
 #SCRIPT ORIGINAL 「ずいぶん白熱してたな」
 ＠Itsuki
 「You were really into it」
 
 #＠すいか,R00196
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Suika,R00196
 「......」
 
 #＠樹
-#「すいか？」
 #SCRIPT ORIGINAL 「すいか？」
 ＠Itsuki
 「Suika?」
@@ -256,13 +211,11 @@ event	"event\EV_SUI_040-01.png"
 @suika_odoroki
 
 #＠すいか,R00197
-#「きゃああッ！！！　いッ、いいッ、院長先生ッ！？　な、何でここにッ！！」
 #SCRIPT ORIGINAL 「きゃああッ！！！　いッ、いいッ、院長先生ッ！？　な、何でここにッ！！」
 ＠Suika,R00197
 「Kyaaa!!! I-I-Inchou-sensei!? W-why are you here!!」
 
 #＠樹
-#「ノックはしたんだが、まぁああいう状況だったんで勝手に入らせてもらった」
 #SCRIPT ORIGINAL 「ノックはしたんだが、まぁああいう状況だったんで勝手に入らせてもらった」
 ＠Itsuki
 「I knocked, but you were busy with that so I just let myself in」
@@ -270,24 +223,20 @@ event	"event\EV_SUI_040-01.png"
 @suika_odoroki
 
 #＠すいか,R00198
-#「あッ、あああッ！　えっと、いつからそこに……ッ！？　じゃなくて、これはそのッ、違うんです！！」
 #SCRIPT ORIGINAL 「あッ、あああッ！　えっと、いつからそこに……ッ！？　じゃなくて、これはそのッ、違うんです！！」
 ＠Suika,R00198
 「Ah, ahhh! Um, how long were you...!? I mean, this is, it's not what you think!!」
 
 @suika_
 
-#バッサバッサと本やら衣類やらをゲーム機の上に被せだす。
 #SCRIPT ORIGINAL バッサバッサと本やら衣類やらをゲーム機の上に被せだす。
 　She clattered around covering the game console with books and clothes.
 
 #＠樹
-#（もしかして今さら、しかもそれで隠してるつもりなんだろうか……）
 #SCRIPT ORIGINAL （もしかして今さら、しかもそれで隠してるつもりなんだろうか……）
 ＠Itsuki
 (Don't tell me she's planning to hide it after all that...)
 
-#ここまで取り乱すすいかを見るのは初めてだ。
 #SCRIPT ORIGINAL ここまで取り乱すすいかを見るのは初めてだ。
 　This is the first time I've seen Suika lose her cool like this.
 
@@ -297,31 +246,26 @@ event	"event\EV_SUI_040-01.png"
 @suika_ikari
 
 #＠すいか,R00199
-#「これはビデオですッ」
 #SCRIPT ORIGINAL 「これはビデオですッ」
 ＠Suika,R00199
 「This is a video」
 
 #＠樹
-#「別に隠すこと無いだろ？　健全な格闘ゲームをしてただけじゃないか」
 #SCRIPT ORIGINAL 「別に隠すこと無いだろ？　健全な格闘ゲームをしてただけじゃないか」
 ＠Itsuki
 「There's nothing really to hide, you know? It's just a fun fighting game」
 
-#叫んでた台詞は別として。
 #SCRIPT ORIGINAL 叫んでた台詞は別として。
 　The lines she was shouting are another matter.
 
 @suika_kanashimi
 
 #＠すいか,R00200
-#「うぅ、そうなんですけど………でも、女の子であんなにゲームに熱中するのって、おかしいですよ……」
 #SCRIPT ORIGINAL 「うぅ、そうなんですけど………でも、女の子であんなにゲームに熱中するのって、おかしいですよ……」
 ＠Suika,R00200
 「Uuh, that's true... but it's weird for a girl to go so nuts over a game...」
 
 #＠樹
-#「そうかな。面白いものは誰がやっても面白いんだから、性別は関係ないだろ」
 #SCRIPT ORIGINAL 「そうかな。面白いものは誰がやっても面白いんだから、性別は関係ないだろ」
 ＠Itsuki
 「You think so? You don't need to be a boy or a girl to be interested in something, I think」
@@ -329,7 +273,6 @@ event	"event\EV_SUI_040-01.png"
 @suika_odoroki
 
 #＠すいか,R00201
-#「ほ、ほんとですか……？」
 #SCRIPT ORIGINAL 「ほ、ほんとですか……？」
 ＠Suika,R00201
 「R-really...?」
@@ -337,25 +280,21 @@ event	"event\EV_SUI_040-01.png"
 @suika
 
 #＠すいか,R00202
-#「外で友達に会うのをエンカウントって言ったり、つい勢いで男の子にゲーム知識の薀蓄を小一時間語りつくしてもですか……？」
 #SCRIPT ORIGINAL 「外で友達に会うのをエンカウントって言ったり、つい勢いで男の子にゲーム知識の薀蓄を小一時間語りつくしてもですか……？」
 ＠Suika,R00202
 「So even like calling it an "encounter" when I meet with friends outside, or getting caught up with boys talking about all our gaming knowledge for nearly an hour...?」
 
-#そ、そんなことまでやってるんだ……
 #SCRIPT ORIGINAL そ、そんなことまでやってるんだ……
 　S-she does stuff like that too...
 
 @suika_tere
 
 #＠すいか,R00203
-#「他にも……えっと、いろいろと語るに恥ずかしい失態の数々が……」
 #SCRIPT ORIGINAL 「他にも……えっと、いろいろと語るに恥ずかしい失態の数々が……」
 ＠Suika,R00203
 「And also... um, there's a lot of embarrassing mistakes I've made that I could tell you about」
 
 #＠樹
-#「ゲームが待ちきれずに、学校へカバンを忘れて来たりとか？」
 #SCRIPT ORIGINAL 「ゲームが待ちきれずに、学校へカバンを忘れて来たりとか？」
 ＠Itsuki
 「Like not being able to wait to play games, and forgetting your bag at school?」
@@ -363,25 +302,21 @@ event	"event\EV_SUI_040-01.png"
 @suika
 
 #＠すいか,R00204
-#「え……カバン？」
 #SCRIPT ORIGINAL 「え……カバン？」
 ＠Suika,R00204
 「Eh... bag?」
 
-#キョロキョロと辺りを見回す。
 #SCRIPT ORIGINAL キョロキョロと辺りを見回す。
 　She glances around her room.
 
 @suika_odoroki
 
 #＠すいか,R00205
-#「ああッ、カバンッ！　学校に忘れてきてますッ！！」
 #SCRIPT ORIGINAL 「ああッ、カバンッ！　学校に忘れてきてますッ！！」
 ＠Suika,R00205
 「Aah, my bag! I forgot it at school!!」
 
 #＠樹
-#「ほら、さっきクラスの子が持ってきてくれたよ」
 #SCRIPT ORIGINAL 「ほら、さっきクラスの子が持ってきてくれたよ」
 ＠Itsuki
 「Here, a classmate of yours came and brought it just now」
@@ -389,25 +324,21 @@ event	"event\EV_SUI_040-01.png"
 @suika_komariwarai
 
 #＠すいか,R00206
-#「ど、どうも……はぁぁ。どうして私ってこうなんだろう」
 #SCRIPT ORIGINAL 「ど、どうも……はぁぁ。どうして私ってこうなんだろう」
 ＠Suika,R00206
 「T-thanks... sigh. Why am I like this?」
 
 #＠すいか,R00207
-#「今日このゲームの発売日で、ずっと待ち遠しくて……。改めて思うと、確かに下校してくるまでの記憶が全然ありません……」
 #SCRIPT ORIGINAL 「今日このゲームの発売日で、ずっと待ち遠しくて……。改めて思うと、確かに下校してくるまでの記憶が全然ありません……」
 ＠Suika,R00207
 「This game went on sale today, I'd been looking forward to it... I can't even remember anything from before I got home from school...」
 
 #＠樹
-#「……う、う～ん、まぁそれだけ熱中できる物があるのは、いいことじゃないか？」
 #SCRIPT ORIGINAL 「……う、う～ん、まぁそれだけ熱中できる物があるのは、いいことじゃないか？」
 ＠Itsuki
 「...O-oh okay, well it's good that you've good something that you're so passionate about, right?」
 
 #＠樹
-#「ほら、そんな気を落とすな。これから気をつければいいことなんだから」
 #SCRIPT ORIGINAL 「ほら、そんな気を落とすな。これから気をつければいいことなんだから」
 ＠Itsuki
 「Come on, don't get so down on yourself. Just be a little more careful from now on」
@@ -415,62 +346,51 @@ event	"event\EV_SUI_040-01.png"
 @suika_kanashimi
 
 #＠すいか,R00208
-#「はい………もう知らない人にゲーム買ってあげるからって言われても、迷ったりせずに断ります……」
 #SCRIPT ORIGINAL 「はい………もう知らない人にゲーム買ってあげるからって言われても、迷ったりせずに断ります……」
 ＠Suika,R00208
 「Okay... I'll stand firm and refuse to buy games for people I don't know even if they ask me to...」
 
 #＠樹
-#「それは当たり前だ」
 #SCRIPT ORIGINAL 「それは当たり前だ」
 ＠Itsuki
 「That's just common sense」
 
-#……ひょっとするとこの子、ある意味いちごより心配な子なのかもしれない。
 #SCRIPT ORIGINAL ……ひょっとするとこの子、ある意味いちごより心配な子なのかもしれない。
 　...I think somehow I might even have to be more concerned about this girl than Ichigo.
 
 @suika_warai
 
 #＠すいか,R00209
-#「そうだ、院長先生、よければ対戦しませんか？」
 #SCRIPT ORIGINAL 「そうだ、院長先生、よければ対戦しませんか？」
 ＠Suika,R00209
 「Oh yeah, Inchou-sensei, we can have a fight if you want」
 
-#気落ちしていたすいかだが、話がゲームに戻るとすぐ顔を明るくほころばせた。
 #SCRIPT ORIGINAL 気落ちしていたすいかだが、話がゲームに戻るとすぐ顔を明るくほころばせた。
 　Suika was dispirited, but when the topic returned to games she smiled brightly right away.
 
 #＠樹
-#「よし、やっぱりゲームはそう楽しまないとな」
 #SCRIPT ORIGINAL 「よし、やっぱりゲームはそう楽しまないとな」
 ＠Itsuki
 「Alright, I'll have to get in on this」
 
 #＠すいか,R00210
-#「はい。やっぱり対人戦の方がＣＰＵより燃えますよね」
 #SCRIPT ORIGINAL 「はい。やっぱり対人戦の方がＣＰＵより燃えますよね」
 ＠Suika,R00210
 「Great. Playing against a real person fires me up more than playing against the CPU」
 
 @suika_
 
-#オレがコントローラーを受け取ると、すいかは嬉しそうに対人戦でゲームを再開させた。
 #SCRIPT ORIGINAL オレがコントローラーを受け取ると、すいかは嬉しそうに対人戦でゲームを再開させた。
 　I took the controller, and beaming Suika restarted the game as player vs. player.
 
-#今日発売のソフトだって言ってたし、こっちはさっき敵から一方的にやられていたすいかも見ている。
 #SCRIPT ORIGINAL 今日発売のソフトだって言ってたし、こっちはさっき敵から一方的にやられていたすいかも見ている。
 　She said the game just got released today, and I glance over at Suika who just got one-sidedly clobbered.
 
 #＠樹
-#（場合によっては手を抜いて負けてあげるのも必要だな）
 #SCRIPT ORIGINAL （場合によっては手を抜いて負けてあげるのも必要だな）
 ＠Itsuki
 (If it comes to it, I should probably take it easy and lose on purpose)
 
-#などと軽く思ってすいかの隣に腰を下ろした。
 #SCRIPT ORIGINAL などと軽く思ってすいかの隣に腰を下ろした。
 　Entertaining such light-hearted thoughts, I sat down next to Suika.
 
@@ -479,53 +399,43 @@ event	"event\EV_SUI_040-01.png"
 event	"event\EV_SUI_041-02.png"
 
 #＠樹
-#「言っておくが、格ゲーは全般に得意だぞ」
 #SCRIPT ORIGINAL 「言っておくが、格ゲーは全般に得意だぞ」
 ＠Itsuki
 「I should probably tell you, fighting games are kind of my specialty」
 
 #＠すいか,R00211
-#「それじゃ、私も本気で行きます。ちょっと設定を戻しますねー♪」
 #SCRIPT ORIGINAL 「それじゃ、私も本気で行きます。ちょっと設定を戻しますねー♪」
 ＠Suika,R00211
 「In that case, I'll be serious too. I'll reset the settings, okay♪」
 
 #＠樹
-#「設定？」
 #SCRIPT ORIGINAL 「設定？」
 ＠Itsuki
 「What settings?」
 
-#すいかの動かすカーソルがコンフィグを開き、今までこの子が対戦していたキャラデータを映し出した。
 #SCRIPT ORIGINAL すいかの動かすカーソルがコンフィグを開き、今までこの子が対戦していたキャラデータを映し出した。
 　Suika moved the cursor opening the config screen, and showed the character data she'd been fighting with so far.
 
-#１Ｐ側：初期ＨＰ・５０％　殲滅力・４０％　スピード・５０％　ＥＸチャージ率・４０％
 #SCRIPT ORIGINAL １Ｐ側：初期ＨＰ・５０％　殲滅力・４０％　スピード・５０％　ＥＸチャージ率・４０％
 　1P Initial HP- 50% Annihilation Power- 40% Speed- 50% EX Charge Ratio- 40%
 
-#ＣＰＵ側→２Ｐ側：初期ＨＰ・２５０％　殲滅力・１３０％　スピード・１００％　ＥＸチャージ率１５０％
 #SCRIPT ORIGINAL ＣＰＵ側→２Ｐ側：初期ＨＰ・２５０％　殲滅力・１３０％　スピード・１００％　ＥＸチャージ率１５０％
 　CPU→2P: Initial HP- 250% Annihilation Power- 130% Speed- 100% EX Charge Ratio- 150%
 
 #＠樹
-#「……マジ？　今までこれで戦ってたの？」
 #SCRIPT ORIGINAL 「……マジ？　今までこれで戦ってたの？」
 ＠Itsuki
 「...You're kidding. You were fighting like this until now?」
 
 #＠すいか,R00212
-#「うふふ、格闘ゲームでハンデ無しの勝負は久しぶりです♪　院長先生、行きますよー！」
 #SCRIPT ORIGINAL 「うふふ、格闘ゲームでハンデ無しの勝負は久しぶりです♪　院長先生、行きますよー！」
 ＠Suika,R00212
 「Ufufu, it's been so long since I played a fighting game without a handicap♪ Inchou-sensei, here we go!」
 
-#それら数字は全部１００％に統一され、ハンデ無しの対戦が始まる。
 #SCRIPT ORIGINAL それら数字は全部１００％に統一され、ハンデ無しの対戦が始まる。
 　All the values got changed to 100%, and the fight without handicaps began.
 
 #＠樹
-#「ちょッ、ま―――！？」
 #SCRIPT ORIGINAL 「ちょッ、ま―――！？」
 ＠Itsuki
 「Hold on, wait―――!?」

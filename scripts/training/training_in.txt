@@ -98,28 +98,23 @@ label	training_in_1
 #■BG（自室）
 @bg_itsuki_n
 
-#「週末の調教か」
 #SCRIPT ORIGINAL 「週末の調教か」
 ＠Itsuki
 「Weekend training, huh」
 
-#まだちょっと憂鬱だ。
 #SCRIPT ORIGINAL まだちょっと憂鬱だ。
 　I'm still feeling a little down in the dumps.
 
-#この前は部屋にみかんを呼んで行ったが、今日から専用の調教部屋でするらしい。
 #SCRIPT ORIGINAL この前は部屋にみかんを呼んで行ったが、今日から専用の調教部屋でするらしい。
 　Last time we called Mikan to my room, but from now on it looks like we'll be doing it in the training room.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-#「樹さん、準備出来ましたか？」
 #SCRIPT ORIGINAL 「樹さん、準備出来ましたか？」
 ＠Miu,B00088
 「Itsuki-san, are you ready?」
 
-#「ん、ああ……」
 #SCRIPT ORIGINAL 「ん、ああ……」
 ＠Itsuki
 「Er, yeah...」
@@ -131,7 +126,6 @@ label	training_in_1
 @bg_rouka_n
 @miu
 
-#「それでは、部屋まで案内します」
 #SCRIPT ORIGINAL 「それでは、部屋まで案内します」
 ＠Miu,B00089
 「I'll show you to the room then」
@@ -143,7 +137,6 @@ wait	1000
 @bg_rouka_n
 @miu
 
-#口頭で場所は聞いていたが、あまり近寄らない区画に入る。
 #SCRIPT ORIGINAL 口頭で場所は聞いていたが、あまり近寄らない区画に入る。
 　Even though I've heard about this place, we go into an area I haven't been in very much.
 
@@ -170,7 +163,6 @@ wait	1000
 #■BG（調教部屋・ライト）
 @bg_choukyou_n
 
-#手前にある、簡素な内装の部屋へ通された。
 #SCRIPT ORIGINAL 手前にある、簡素な内装の部屋へ通された。
 　We came to a room with a plain-looking interior in front of us. 
 
@@ -187,29 +179,24 @@ wait	1000
 #何かもう、こんな反応しか出来ない……
 
 @miu
-#「何か分からない事はありますか？」
 #SCRIPT ORIGINAL 「何か分からない事はありますか？」
 ＠Miu,B00096
 「Is there anything you're unsure about?」
 
-#「さぁ……」
 #SCRIPT ORIGINAL 「さぁ……」
 ＠Itsuki
 「Well...」
 
-#「まぁ、何とかやっていくしかないんじゃないか」
 #SCRIPT ORIGINAL 「まぁ、何とかやっていくしかないんじゃないか」
 ＠Itsuki
 「I think I'll just have to manage it one way or the other」
 
-#「慣れるまでは戸惑われるかもしれませんが、頑張ってくださいね」
 #SCRIPT ORIGINAL 「慣れるまでは戸惑われるかもしれませんが、頑張ってくださいね」
 ＠Miu,B00097
 「I'm sure this is still a lot to get used to, but hang in there, okay?」
 
 @miu_warai
 
-#「それでは、みかんちゃんを呼んできます」
 #SCRIPT ORIGINAL 「それでは、みかんちゃんを呼んできます」
 ＠Miu,B00098
 「I'm off to get Mikan then」
@@ -219,20 +206,16 @@ wait	1000
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-#「……調教部屋、ねぇ………」
 #SCRIPT ORIGINAL 「……調教部屋、ねぇ………」
 ＠Itsuki
 「...So this is the training room」
 
-#専用部屋と言うことは、他の子もここでそういう事をしているのだろう。
 #SCRIPT ORIGINAL 専用部屋と言うことは、他の子もここでそういう事をしているのだろう。
 　This room is reserved for training, so the other girls probably do that here too.
 
-#確か現在、ざくろといちごを雫さん。すいかを美雨が担当と聞く。
 #SCRIPT ORIGINAL 確か現在、ざくろといちごを雫さん。すいかを美雨が担当と聞く。
 　I think right now that Zakuro and Ichigo are with Shizuku, and Miu is in charge of Suika.
 
-#「女の子同士で性行為って………やっぱりレズっぽい系になるんだろうか」
 #SCRIPT ORIGINAL 「女の子同士で性行為って………やっぱりレズっぽい系になるんだろうか」
 ＠Itsuki
 「The females are having intercourse with each other... it's a pretty lesbian group isn't it」
@@ -240,12 +223,10 @@ wait	1000
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-#「お兄ちゃん……？」
 #SCRIPT ORIGINAL 「お兄ちゃん……？」
 ＠Mikan,A00232
 「Onii-chan...?」
 
-#くだらない事を考えているうちに、みかんがやって来た。
 #SCRIPT ORIGINAL くだらない事を考えているうちに、みかんがやって来た。
 　Mikan showed up while I was thinking about useless things.
 
@@ -257,17 +238,14 @@ wait	1000
 #＠Mikan,A00233
 #「わ……何にも無い部屋……」
 
-#「美雨さんに、これからはココに来るようにって言われたんだけど」
 #SCRIPT ORIGINAL 「美雨さんに、これからはココに来るようにって言われたんだけど」
 ＠Mikan,A00234
 「Miu-san told me to come here from now on」
 
-#「ああ、今週からはしばらくここで調教をする」
 #SCRIPT ORIGINAL 「ああ、今週からはしばらくここで調教をする」
 ＠Itsuki
 「Yeah, we'll be doing our training here for a while」
 
-#「へぇ～」
 #SCRIPT ORIGINAL 「へぇ～」
 ＠Mikan,A00235
 「Whoa」
@@ -279,7 +257,6 @@ label	training_in_1_a
 
 #■（『youzyo2 S-2-mika』を見ているとき）
 
-#「ここって、みかんとお兄ちゃんが前に探検した部屋に似てるね」
 #SCRIPT ORIGINAL 「ここって、みかんとお兄ちゃんが前に探検した部屋に似てるね」
 ＠Mikan,A00236
 「This looks like that room we visited last time」
@@ -287,7 +264,6 @@ label	training_in_1_a
 #CH（立ち絵消去）
 @mikan_
 
-#「……そういえば、そんなこともあったな」
 #SCRIPT ORIGINAL 「……そういえば、そんなこともあったな」
 ＠Itsuki
 「...That's true now that you mention it」
@@ -296,37 +272,30 @@ label	training_in_1_a
 #SE28　Rummaging in desk and drawers sound （*gata*, *goso goso goso*...）
 @se28
 
-#「……って、こら！」
 #SCRIPT ORIGINAL 「……って、こら！」
 ＠Itsuki
 「...Hey, wait a minute!」
 
-#また前のように、机の中をガサゴソと漁りだすみかん。
 #SCRIPT ORIGINAL また前のように、机の中をガサゴソと漁りだすみかん。
 　Mikan starts rummaging around inside the desk like last time.
 
 @mikan
-#「あ、やっぱりあった。キノコみたいな変なやつ！」
 #SCRIPT ORIGINAL 「あ、やっぱりあった。キノコみたいな変なやつ！」
 ＠Mikan,A00237
 「Ah, it's here after all. The weird one that looks like a mushroom!」
 
-#「それはもう、食べ物じゃないっていう結論が出てるだろ」
 #SCRIPT ORIGINAL 「それはもう、食べ物じゃないっていう結論が出てるだろ」
 ＠Itsuki
 「How many times do I have to tell you it's not food」
 
-#「さ、よそ事をしてないで始めよう」
 #SCRIPT ORIGINAL 「さ、よそ事をしてないで始めよう」
 ＠Itsuki
 「Come on, let's not get distracted」
 
-#「は～い……」
 #SCRIPT ORIGINAL 「は～い……」
 ＠Mikan,A00238
 「Fine～...」
 
-#やっぱり興味を残しながら、それを机の中に戻した。
 #SCRIPT ORIGINAL やっぱり興味を残しながら、それを机の中に戻した。
 　Still looking interested, Mikan put it back inside the desk. 
 
@@ -346,45 +315,37 @@ label	training_in_1_b
 #SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 @se28
 
-#興味津々に、机の中を漁ったりするみかん。
 #SCRIPT ORIGINAL 興味津々に、机の中を漁ったりするみかん。
 　Her curiousity piqued, Mikan rummaged around inside the desk.
 
 @mikan_odoroki
-#「あっ、何かあったよ！」
 #SCRIPT ORIGINAL 「あっ、何かあったよ！」
 ＠Mikan,A00239
 「Ah, I found something!」
 
-#「ん？　……げッ！」
 #SCRIPT ORIGINAL 「ん？　……げッ！」
 ＠Itsuki
 「Hm? ...Geh!」
 
-#ずいぶんとご立派なバイブを見つけていた。
 #SCRIPT ORIGINAL ずいぶんとご立派なバイブを見つけていた。
 　She found a really handsome vibrator.
 
 @mikan
 
-#「なんだろう、これ。キノコみたい」
 #SCRIPT ORIGINAL 「なんだろう、これ。キノコみたい」
 ＠Mikan,A00240
 「What the heck is this? It looks like a mushroom」
 
-#「食べ物じゃないよね？」
 #SCRIPT ORIGINAL 「食べ物じゃないよね？」
 ＠Mikan,A00241
 「It's not food right」
 
-#「全然違うぞ。それはまだ早いから、置いといていい」
 #SCRIPT ORIGINAL 「全然違うぞ。それはまだ早いから、置いといていい」
 ＠Itsuki
 「Definitely not. It's still too soon to be using that so just put it aside」
 
 @mikan_odoroki
 
-#「うん………わっ！？」
 #SCRIPT ORIGINAL 「うん………わっ！？」
 ＠Mikan,A00242
 「Sure... wah!?」
@@ -392,56 +353,45 @@ label	training_in_1_b
 #SE29　バイブが動く音（ウィィンウィィン）
 @se29
 
-#弾みでスイッチが入り、その物体が怪しくクネり始める。
 #SCRIPT ORIGINAL 弾みでスイッチが入り、その物体が怪しくクネり始める。
 　She jolted the switch, and it starts bending loosely back and forth in a dubious way.
 
-#「……ッ！？　な、なに！？　変な動きしてる！！」
 #SCRIPT ORIGINAL 「……ッ！？　な、なに！？　変な動きしてる！！」
 ＠Mikan,A00243
 「...!? W-what the!? It's moving weirdly!!」
 
-#「す、スイッチを切れッ、みかん！」
 #SCRIPT ORIGINAL 「す、スイッチを切れッ、みかん！」
 ＠Itsuki
 「T-turn off the switch, Mikan!」
 
-#「えっ、スイッチ！？　スイッチってどれ！？」
 #SCRIPT ORIGINAL 「えっ、スイッチ！？　スイッチってどれ！？」
 ＠Mikan,A00244
 「Huh, switch!? Where's the switch!?」
 
 @se68
-#カチッ。
 #SCRIPT ORIGINAL カチッ。
 　Click.
 
 @se_keitai1
-#ブブブブブブブッ……
 #SCRIPT ORIGINAL ブブブブブブブッ……
 　Vrrrrrrrrr...
 
-#「うわわっ！？　し、振動し出したっ、何で！？」
 #SCRIPT ORIGINAL 「うわわっ！？　し、振動し出したっ、何で！？」
 ＠Mikan,A00245
 「Uwawa!? W-why did it start vibrating!?」
 
 @se68
 
-#バタバタしながらバイブを止める。
 #SCRIPT ORIGINAL バタバタしながらバイブを止める。
 　Clattering around, we managed to stop the vibrator.
 
-#まるで初心者な二人だった。
 #SCRIPT ORIGINAL まるで初心者な二人だった。
 　It's as if there were two beginners here.
 
-#「ふぅ………あまり無闇に、物に触れないように」
 #SCRIPT ORIGINAL 「ふぅ………あまり無闇に、物に触れないように」
 ＠Itsuki
 「Phew... That was reckless, let's not touch anymore stuff」
 
-#「は～い……」
 #SCRIPT ORIGINAL 「は～い……」
 ＠Mikan,A00246
 「O～K...」
@@ -464,28 +414,23 @@ label	training_in_2
 #■BG（自室・夜）
 @bg_itsuki_n
 
-#「む～……また来たな。週末が」
 #SCRIPT ORIGINAL 「む～……また来たな。週末が」
 ＠Itsuki
 「Darn... it's the weekend again」
 
-#嫌な意味で鼓動が高鳴る。
 #SCRIPT ORIGINAL 嫌な意味で鼓動が高鳴る。
 　My heart's fluttering with the unpleasant expectations.
 
-#……まったく、仕方ないこととは言え。
 #SCRIPT ORIGINAL ……まったく、仕方ないこととは言え。
 　...Even though I have to do it anyway, how annoying.
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-#「樹、部屋にいるだろ？」
 #SCRIPT ORIGINAL 「樹、部屋にいるだろ？」
 ＠Shizuku,S00247
 「Itsuki, are you there?」
 
-#「……？　ええ、どうぞ」
 #SCRIPT ORIGINAL 「……？　ええ、どうぞ」
 ＠Itsuki
 「...? Yeah, come in」
@@ -495,86 +440,71 @@ label	training_in_2
 
 @shizuku_warai
 
-#「うん、よしよし。逃げずにちゃんと居るね」
 #SCRIPT ORIGINAL 「うん、よしよし。逃げずにちゃんと居るね」
 ＠Shizuku,S00248
 「Still didn't run away, eh? Looking good」
 
-#「な、何ですか藪から棒に……」
 #SCRIPT ORIGINAL 「な、何ですか藪から棒に……」
 ＠Itsuki
 「W-why are you here, out of the blue...?」
 
 @shizuku_akire
 
-#「何って、週末の調教じゃないか。もしかして寝ぼけてるのかい？」
 #SCRIPT ORIGINAL 「何って、週末の調教じゃないか。もしかして寝ぼけてるのかい？」
 ＠Shizuku,S00249
 「"Why am I here?" It's time for training this weekend. Are you half-asleep or something?」
 
-#入ってきた雫さんは、オレの態度に呆れたようなため息を吐く。
 #SCRIPT ORIGINAL 入ってきた雫さんは、オレの態度に呆れたようなため息を吐く。
 　Shizuku comes into my room and sighs as if she's disappointed in me.
 
-#「いや、起きてますけど………美雨は？」
 #SCRIPT ORIGINAL 「いや、起きてますけど………美雨は？」
 ＠Itsuki
 「No, I'm awake, but... what about Miu?」
 
 @shizuku
 
-#「あの子は忙しいからね、あたしほどじゃないけど」
 #SCRIPT ORIGINAL 「あの子は忙しいからね、あたしほどじゃないけど」
 ＠Shizuku,S00250
 「She's pretty busy, so she can't... still not as much as me though」
 
 @shizuku_warai
 
-#「だから今週からは、あたしが週末夜のオネイさんだ。嬉しいだろう？」
 #SCRIPT ORIGINAL 「だから今週からは、あたしが週末夜のオネイさんだ。嬉しいだろう？」
 ＠Shizuku,S00251
 「So from this week on, I'll be the lady for these weekend evenings. Aren't you glad?」
 
-#「……とりあえず今の会話、どこをツッコめばいいんでしょ」
 #SCRIPT ORIGINAL 「……とりあえず今の会話、どこをツッコめばいいんでしょ」
 ＠Itsuki
 「...How would you like to rudely stick your remarks into the conversation today?」
 
-#「んふふ、気持ちは分かるけど、突っ込むのはみかんにしてあげな。それが仕事なんだから」
 #SCRIPT ORIGINAL 「んふふ、気持ちは分かるけど、突っ込むのはみかんにしてあげな。それが仕事なんだから」
 ＠Shizuku,S00252
 「Nfufu, I know how you feel, but Mikan's the one who'll rudely stuck into. That's the job, after all」
 
-#「くあ……」
 #SCRIPT ORIGINAL 「くあ……」
 ＠Itsuki
 「Argh...」
 
-#「何かもう、ヤダやっぱり。雫さんより美雨がいいです」
 #SCRIPT ORIGINAL 「何かもう、ヤダやっぱり。雫さんより美雨がいいです」
 ＠Itsuki
 「I think I've already had enough of this. Miu was better than you」
 
 @shizuku_ikari
 
-#「贅沢言わないのッ。あたしに不満を言うなんざ百年早い。とっとと始めるよ」
 #SCRIPT ORIGINAL 「贅沢言わないのッ。あたしに不満を言うなんざ百年早い。とっとと始めるよ」
 ＠Shizuku,S00253
 「I'm not going to pretty it up for you. You're in no place to be complaining to me right now. Chop chop, let's go」
 
-#「は～い………えっと、オレは……」
 #SCRIPT ORIGINAL 「は～い………えっと、オレは……」
 ＠Itsuki
 「Fine... er, where should I...?」
 
 @shizuku
 
-#「あたしがみかんを呼んでってやるから、あんたは先に部屋に行ってな」
 #SCRIPT ORIGINAL 「あたしがみかんを呼んでってやるから、あんたは先に部屋に行ってな」
 ＠Shizuku,S00254
 「I'll call Mikan for you, so you can go ahead to the training room」
 
-#モヤモヤしていた気分も、すっかり雲散霧消してしまった……
 #SCRIPT ORIGINAL モヤモヤしていた気分も、すっかり雲散霧消してしまった……
 　The gloominess that was twitching at me vanished all at once...
 
@@ -597,32 +527,26 @@ label	training_in_3
 #■BG（Own room・Lit from inside）
 @bg_itsuki_n
 
-#週末の、調教をする夜。
 #SCRIPT ORIGINAL 週末の、調教をする夜。
 　It's the weekend, training day.
 
-#今日はあの能天気な雫さんの声は無かった。
 #SCRIPT ORIGINAL 今日はあの能天気な雫さんの声は無かった。
 　Today I won't be hearing Shizuku's carefree voice.
 
 @miu
 
-#「どうですか、樹さん、準備の方は」
 #SCRIPT ORIGINAL 「どうですか、樹さん、準備の方は」
 ＠Miu,B00099
 「Are you almost ready, Itsuki-san?」
 
-#「とりあえずは。用意する物もないし」
 #SCRIPT ORIGINAL 「とりあえずは。用意する物もないし」
 ＠Itsuki
 「Just about. I've got nothing to prepare」
 
-#「では今日は、かりんちゃんかいちごちゃんの調教をしていただく事になります」
 #SCRIPT ORIGINAL 「では今日は、かりんちゃんかいちごちゃんの調教をしていただく事になります」
 ＠Miu,B00100
 「Then, today you can train either Ichigo-chan or Karin-chan」
 
-#「しかたがない、誰にしようか……」
 #SCRIPT ORIGINAL 「しかたがない、誰にしようか……」
 ＠Itsuki
 「Oh well, I'll choose...」
@@ -676,17 +600,14 @@ label	training_in_4
 #SE11　Knock on door（*kon kon*）
 @se11
 
-#「はい」
 #SCRIPT ORIGINAL 「はい」
 ＠Itsuki
 「Yeah?」
 
-#「美雨です。樹さん、そろそろ大丈夫ですか？」
 #SCRIPT ORIGINAL 「美雨です。樹さん、そろそろ大丈夫ですか？」
 ＠Miu,B00104
 「It's Miu. Itsuki-san, will you be okay to start soon?」
 
-#「ん、分かった」
 #SCRIPT ORIGINAL 「ん、分かった」
 ＠Itsuki
 「OK, I gotcha」
@@ -700,86 +621,70 @@ label	training_in_4
 @bg_rouka_n
 @miu
 
-#「すみません。お休みじゃなかったですか？」
 #SCRIPT ORIGINAL 「すみません。お休みじゃなかったですか？」
 ＠Miu,B00105
 「Sorry. You weren't taking a nap, were you?」
 
-#「いや、ちゃんと起きてたよ。週末だからね」
 #SCRIPT ORIGINAL 「いや、ちゃんと起きてたよ。週末だからね」
 ＠Itsuki
 「Nope, I wasn't napping or anything. Busy weekends and all」
 
-#「今日もいちごちゃんか、かりんちゃん。どちらかの子でお願いします」
 #SCRIPT ORIGINAL 「今日もいちごちゃんか、かりんちゃん。どちらかの子でお願いします」
 ＠Miu,B00106
 「It'll be Karin-chan or Ichigo-chan again this week. Please choose who you want to train」
 
-#「とりあえず先週とは違う子にして、二人に一度ずつ調教を与えておくのがいいと思いますけど」
 #SCRIPT ORIGINAL 「とりあえず先週とは違う子にして、二人に一度ずつ調教を与えておくのがいいと思いますけど」
 ＠Miu,B00107
 「For now, I think it would be good if you choose the one you didn't last week, and train them one at a time」
 
-#「あ……ああ、そうだね」
 #SCRIPT ORIGINAL 「あ……ああ、そうだね」
 ＠Itsuki
 「Ah... yeah, you're right」
 
-#やっぱりおっとり口調でそういう事を言われるのは、違和感があるな。
 #SCRIPT ORIGINAL やっぱりおっとり口調でそういう事を言われるのは、違和感があるな。
 　I'm still uncomfortable being told such a thing with a straight face.
 
-#「………こんな事をしてて、雫さんは大丈夫なのかな」
 #SCRIPT ORIGINAL 「………こんな事をしてて、雫さんは大丈夫なのかな」
 ＠Itsuki
 「...I wonder if Shizuku-san's OK, while I'm doing this」
 
 @miu_kanashimi
 
-#「そうですね……」
 #SCRIPT ORIGINAL 「そうですね……」
 ＠Miu,B00108
 「I know...」
 
 @miu
 
-#「心配する気持ちは分かりますが、今はこれが私たちに出来ることなのは確かです」
 #SCRIPT ORIGINAL 「心配する気持ちは分かりますが、今はこれが私たちに出来ることなのは確かです」
 ＠Miu,B00109
 「I understand your concern, but this is our most reliable course of action right now」
 
-#「樹さんがしっかり施設を運営していると分かってもらえれば、雫さんもきっと無事に帰ってこれますよ」
 #SCRIPT ORIGINAL 「樹さんがしっかり施設を運営していると分かってもらえれば、雫さんもきっと無事に帰ってこれますよ」
 ＠Miu,B00110
 「If we make it clear that you're running this place properly, I'm sure Shizuku-san will be given back safely」
 
-#「ん……ああ」
 #SCRIPT ORIGINAL 「ん……ああ」
 ＠Itsuki
 「Hm... yeah」
 
-#生返事しか出来ない。
 #SCRIPT ORIGINAL 生返事しか出来ない。
 　I reply half-heartedly.
 
-#「それでは、私はこれで」
 #SCRIPT ORIGINAL 「それでは、私はこれで」
 ＠Miu,B00111
 「I'll be on my way then」
 
-#「子供達には私から声をかけておきますから、樹さんは部屋の方に行っていてください」
 #SCRIPT ORIGINAL 「子供達には私から声をかけておきますから、樹さんは部屋の方に行っていてください」
 ＠Miu,B00112
 「I'll call the kids, so you can go ahead to the training room」
 
-#「分かった。頼むよ」
 #SCRIPT ORIGINAL 「分かった。頼むよ」
 ＠Itsuki
 「Alright. Thanks」
 
 setbutton 2,18,220,0,"TLnotes\TLnote7.png","system\backlog\voicesw.png"
 
-#美雨が歩き出したのを見て、オレも調教部屋の方へと歩を進めた。
 #SCRIPT ORIGINAL 美雨が歩き出したのを見て、オレも調教部屋の方へと歩を進めた。
 　Miu takes her leave, and I head off to the training room.
 
@@ -804,38 +709,31 @@ label	training_in_5
 #■BG（自室・夜）
 @bg_itsuki_n
 
-#また週末の夜がやって来た。
 #SCRIPT ORIGINAL また週末の夜がやって来た。
 　It's Saturday night again.
 
 @shizuku_yorokobi
 
-#「それじゃ恒例の、お楽しみタイムの時間だ」
 #SCRIPT ORIGINAL 「それじゃ恒例の、お楽しみタイムの時間だ」
 ＠Shizuku,S00255
 「Well then, it's time for your routine fun time」
 
-#「タイムと時間の意味が被ってますよ」
 #SCRIPT ORIGINAL 「タイムと時間の意味が被ってますよ」
 ＠Itsuki
 「You said time twice there」
 
-#「そんなのノリじゃない。細かいことは気にしないの」
 #SCRIPT ORIGINAL 「そんなのノリじゃない。細かいことは気にしないの」
 ＠Shizuku,S00256
 「That's not the spirit I'm looking for. Don't bother about the details」
 
-#「ほら、今日はだれの果肉を味わうんだい～？」
 #SCRIPT ORIGINAL 「ほら、今日はだれの果肉を味わうんだい～？」
 ＠Shizuku,S00257
 「Come on, which fruit will you pick, and savour its flesh today～?」
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
 
-#何でこの人は、こんないつも嬉しそうなんだが。
 #SCRIPT ORIGINAL 何でこの人は、こんないつも嬉しそうなんだが。
 　Why's she so merry all the time?
 
@@ -854,7 +752,6 @@ if training_chara=0 then return
 
 #（選択後）
 
-#「それじゃ、これで始めるよ」
 #SCRIPT ORIGINAL 「それじゃ、これで始めるよ」
 ＠Shizuku,S00259
 「Alright, you can start now」
@@ -873,12 +770,10 @@ label	training_in_5_b
 
 #（分かった）
 
-#「相手の子はあたしが呼びに行ってあげるから、樹は先に部屋に行ってな」
 #SCRIPT ORIGINAL 「相手の子はあたしが呼びに行ってあげるから、樹は先に部屋に行ってな」
 ＠Shizuku,S00260
 「I'll go call your partner, so you go ahead to the room」
 
-#「ええ、お願いします」
 #SCRIPT ORIGINAL 「ええ、お願いします」
 ＠Itsuki
 「Sure, thanks」
@@ -893,7 +788,6 @@ label	training_in_5_c
 
 #（考え直す）
 
-#「しょうがないね……じゃあ誰にする？」
 #SCRIPT ORIGINAL 「しょうがないね……じゃあ誰にする？」
 ＠Shizuku,S00261
 「If you insist... who will it be then?」
@@ -912,16 +806,13 @@ label	training_in_6
 #■BG（自室・夜）
 @bg_itsuki_n
 
-#「ふぅ……また一週間経ったのか」
 #SCRIPT ORIGINAL 「ふぅ……また一週間経ったのか」
 ＠Itsuki
 「Sigh... another week's passed already」
 
-#子供らを調教する、避けて通れない時間だ。
 #SCRIPT ORIGINAL 子供らを調教する、避けて通れない時間だ。
 　It's the unavoidable time where I have to train the kids again.
 
-#そろそろいつものように雫さんがやってくるだろう。
 #SCRIPT ORIGINAL そろそろいつものように雫さんがやってくるだろう。
 　Shizuku's going to be here soon, as usual.
 
@@ -930,17 +821,14 @@ label	training_in_6
 
 #CH（立ち絵なし）
 
-#「樹～、今週の性欲処理の時間だよ～」
 #SCRIPT ORIGINAL 「樹～、今週の性欲処理の時間だよ～」
 ＠Shizuku,S00262
 「Itsuki～, it's time to deal with your sexual urges this week～」
 
-#「吸って揉んで舐って食んで、たっぷり肉欲を満たせる時間が来たよ」
 #SCRIPT ORIGINAL 「吸って揉んで舐って食んで、たっぷり肉欲を満たせる時間が来たよ」
 ＠Shizuku,S00263
 「It's time for you to satisfy your animal lusts, all that sucking rubbing licking and partaking」
 
-#「そんな時間なら存在しませんッ、お引き取りを！」
 #SCRIPT ORIGINAL 「そんな時間なら存在しませんッ、お引き取りを！」
 ＠Itsuki
 「If that's all you care about then I won't do it!」
@@ -952,44 +840,36 @@ label	training_in_6
 
 @shizuku_akire
 
-#「はぁ……シャレじゃないか。お茶目なジョークだよ」
 #SCRIPT ORIGINAL 「はぁ……シャレじゃないか。お茶目なジョークだよ」
 ＠Shizuku,S00264
 「Sigh... you know I'm horsing around. It's a playful joke」
 
-#「全然茶目っ気なんかないですから。ただの下ネタですから」
 #SCRIPT ORIGINAL 「全然茶目っ気なんかないですから。ただの下ネタですから」
 ＠Itsuki
 「You're not being playful at all. It's just a dirty joke」
 
-#「だいたい、仮にオレがシャレに乗って、『分かった』とか言ったらどうします？」
 #SCRIPT ORIGINAL 「だいたい、仮にオレがシャレに乗って、『分かった』とか言ったらどうします？」
 ＠Itsuki
 「And otherwise, say if I were to join in and say "sure", what would you do?」
 
 @shizuku_warai2
 
-#「それはもう、樹のドロドロした欲情の本心として、明日の朝には施設中を噂が駆け回ってるさ」
 #SCRIPT ORIGINAL 「それはもう、樹のドロドロした欲情の本心として、明日の朝には施設中を噂が駆け回ってるさ」
 ＠Shizuku,S00265
 「At that point, talk of Itsuki's drooling cravings would be rampant by the next morning」
 
-#「それもうシャレの域じゃないですから！　イジメって言いますから！」
 #SCRIPT ORIGINAL 「それもうシャレの域じゃないですから！　イジメって言いますから！」
 ＠Itsuki
 「That's no longer a joke! That's called bullying!」
 
-#「ふふ。それじゃそろそろ、今日あんたが虐めたい子は誰なのか」
 #SCRIPT ORIGINAL 「ふふ。それじゃそろそろ、今日あんたが虐めたい子は誰なのか」
 ＠Shizuku,S00266
 「Fufu. Well then, who would you like to take advantage of today?」
 
-#「綺麗にまとまったところで、さぁ、選ぼうか」
 #SCRIPT ORIGINAL 「綺麗にまとまったところで、さぁ、選ぼうか」
 ＠Shizuku,S00267
 「They're all nice and ready for you, so, who'll it be?」
 
-#「全然綺麗じゃない全然綺麗じゃない」
 #SCRIPT ORIGINAL 「全然綺麗じゃない全然綺麗じゃない」
 ＠Itsuki
 「There's nothing nice about it」
@@ -1011,7 +891,6 @@ if training_chara=0 then return
 
 #（選択後）
 @shizuku_yorokobi
-#「よし、これでいいんだね？」
 #SCRIPT ORIGINAL 「よし、これでいいんだね？」
 ＠Shizuku,S00269
 「Alright, this is good right?」
@@ -1030,12 +909,10 @@ if sel=1 then goto training_in_6_c
 #（いいよ）
 label	training_in_6_b
 
-#「樹は先に行ってな。あたしがこの子を呼んできてあげるから」
 #SCRIPT ORIGINAL 「樹は先に行ってな。あたしがこの子を呼んできてあげるから」
 ＠Shizuku,S00270
 「You can go on ahead. I'll call your partner for you」
 
-#「ええ、お願いします」
 #SCRIPT ORIGINAL 「ええ、お願いします」
 ＠Itsuki
 「Yes, please」
@@ -1049,7 +926,6 @@ return
 label	training_in_6_c
 #（考え直す）
 
-#「だったら選び直しなさい。ほら、早く」
 #SCRIPT ORIGINAL 「だったら選び直しなさい。ほら、早く」
 ＠Shizuku,S00271
 「Then choose again. Hurry up already」
@@ -1067,20 +943,16 @@ label	training_in_7
 #■BG（自室・夜）
 @bg_itsuki_n
 
-#「ん……何か眠いな……」
 #SCRIPT ORIGINAL 「ん……何か眠いな……」
 ＠Itsuki
 「Nh... I feel kind of sleepy...」
 
-#日頃の疲れが出たか、ちょっと瞼が重い。
 #SCRIPT ORIGINAL 日頃の疲れが出たか、ちょっと瞼が重い。
 　I may have gotten tired from the daily grind, my eyelids feel heavy.
 
-#けど今日は週末の調教の日だ。
 #SCRIPT ORIGINAL けど今日は週末の調教の日だ。
 　But today's training day.
 
-#「んー………」
 #SCRIPT ORIGINAL 「んー………」
 ＠Itsuki
 「Moan...」
@@ -1088,71 +960,58 @@ label	training_in_7
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @se08
 
-#「んわ…ッ！？」
 #SCRIPT ORIGINAL 「んわ…ッ！？」
 ＠Itsuki
 「Agh...!?」
 
 @shizuku_ikari
 
-#「こら、樹ー！　調教の日だ、忘れてるんじゃないんだろうね」
 #SCRIPT ORIGINAL 「こら、樹ー！　調教の日だ、忘れてるんじゃないんだろうね」
 ＠Shizuku,S00272
 「Hey, Itsukiー! It's training day. You didn't forget, did you?」
 
 @shizuku
 
-#「……って、おや？　床で何やってんだい？」
 #SCRIPT ORIGINAL 「……って、おや？　床で何やってんだい？」
 ＠Shizuku,S00273
 「...Wait, oh my? What are you doing on the floor?」
 
-#「の、ノックくらいしてから入ってください！」
 #SCRIPT ORIGINAL 「の、ノックくらいしてから入ってください！」
 ＠Itsuki
 「A-at least knock before you come in!」
 
-#ビックリして床に転げ落ちていた。
 #SCRIPT ORIGINAL ビックリして床に転げ落ちていた。
 　I was surprised and tumbled down onto the floor.
 
-#「したよ、ノックは。返事がなかったんで、寝てると思ったから開けたのさ」
 #SCRIPT ORIGINAL 「したよ、ノックは。返事がなかったんで、寝てると思ったから開けたのさ」
 ＠Shizuku,S00274
 「I did knock. You didn't reply so I assumed you were sleeping and opened the door」
 
-#「……ん？」
 #SCRIPT ORIGINAL 「……ん？」
 ＠Shizuku,S00275
 「...Hm?」
 
 @shizuku_warai
 
-#「あぁ、なるほどねぇ……眠気じゃなくて、そっちに夢中で気付かなかったかのかい」
 #SCRIPT ORIGINAL 「あぁ、なるほどねぇ……眠気じゃなくて、そっちに夢中で気付かなかったかのかい」
 ＠Shizuku,S00276
 「Oh, I get it... You weren't tired, you were too engrossed there and didn't notice me」
 
-#「え……？」
 #SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「Huh...?」
 
-#うつ伏せたまま抗議するオレに、悟ったようないやらしい系の笑みを浮かべた。
 #SCRIPT ORIGINAL うつ伏せたまま抗議するオレに、悟ったようないやらしい系の笑みを浮かべた。
 　She flashed a knowing smile full of implications, as I argued from my position face-down on the floor.
 
-#「ふふ。床に擦り付けるなんて、ずいぶんと子供っぽいやり方をするんだねぇ」
 #SCRIPT ORIGINAL 「ふふ。床に擦り付けるなんて、ずいぶんと子供っぽいやり方をするんだねぇ」
 ＠Shizuku,S00277
 「Fufu. Rubbing up against the floor, that's a very childish way of doing it」
 
-#「でもそういう可愛らしさ、結構あたしのツボを付いてるよ」
 #SCRIPT ORIGINAL 「でもそういう可愛らしさ、結構あたしのツボを付いてるよ」
 ＠Shizuku,S00278
 「But that's so cute, I find it very endearing」
 
-#「は……？」
 #SCRIPT ORIGINAL 「は……？」
 ＠Itsuki
 「What...?」
@@ -1160,76 +1019,62 @@ label	training_in_7
 #SE53　傷つく言葉（グサッ！）
 @se53
 
-#「うがッ！？」
 #SCRIPT ORIGINAL 「うがッ！？」
 ＠Itsuki
 「Ugah!?」
 
-#一拍置いてその意味に気付き、慌てて身体を起こすオレ。
 #SCRIPT ORIGINAL 一拍置いてその意味に気付き、慌てて身体を起こすオレ。
 　After a beat I realized what she meant, and I get up flustered.
 
-#「ちょッ！　ちがッ！　ビックリして床に転げ落ちただけですってッ！」
 #SCRIPT ORIGINAL 「ちょッ！　ちがッ！　ビックリして床に転げ落ちただけですってッ！」
 ＠Itsuki
 「Wait! That's not it! You startled me and I fell onto the floor, you know!」
 
 @shizuku_ikari
 
-#「別に恥ずかしがることないよ。やり方なんて人それぞれ、千差万別なんだからさ」
 #SCRIPT ORIGINAL 「別に恥ずかしがることないよ。やり方なんて人それぞれ、千差万別なんだからさ」
 ＠Shizuku,S00279
 「There's nothing to be ashamed of. Everyone has their own way of doing it, there's all sorts of ways out there」
 
-#「だから違うってよッ、オレは別に、もっと普通に――――うぐ！！」
 #SCRIPT ORIGINAL 「だから違うってよッ、オレは別に、もっと普通に――――うぐ！！」
 ＠Itsuki
 「I told you it's not what you think, I do it in a more normal――――uguh!!」
 
 @shizuku_warai
 
-#「ふふふ～。ん～、普通に？」
 #SCRIPT ORIGINAL 「ふふふ～。ん～、普通に？」
 ＠Shizuku,S00280
 「Fufufu～. Hmm～, normally?」
 
-#「普通にどうしたの～？　どんなふうにするの、樹は？」
 #SCRIPT ORIGINAL 「普通にどうしたの～？　どんなふうにするの、樹は？」
 ＠Shizuku,S00281
 「What's normal～? How do you do it, Itsuki?」
 
-#「う、ぐッ……！」
 #SCRIPT ORIGINAL 「う、ぐッ……！」
 ＠Itsuki
 「Ugh, urgh...!」
 
-#「も、もういいです！　とっとと始めましょうッ、調教調教！」
 #SCRIPT ORIGINAL 「も、もういいです！　とっとと始めましょうッ、調教調教！」
 ＠Itsuki
 「T-that's enough! Let's get to it, training training!」
 
 @shizuku
 
-#「ま、それはまたの機会にジックリと教えてもらうとしましょうか」
 #SCRIPT ORIGINAL 「ま、それはまたの機会にジックリと教えてもらうとしましょうか」
 ＠Shizuku,S00282
 「Well, maybe you can take the time to show me when we get a chance, hmm?」
 
-#「とりあえず今は調教だね。さ、どうするか選びな？」
 #SCRIPT ORIGINAL 「とりあえず今は調教だね。さ、どうするか選びな？」
 ＠Shizuku,S00283
 「Let's get to training for now. So, how will you choose?」
 
-#「………はぁ」
 #SCRIPT ORIGINAL 「………はぁ」
 ＠Itsuki
 「...Sigh」
 
-#眠気もすっかり覚めてしまった。
 #SCRIPT ORIGINAL 眠気もすっかり覚めてしまった。
 　My drowsiness has lifted completely.
 
-#今週はどうするかな。
 #SCRIPT ORIGINAL 今週はどうするかな。
 　What will I do this week?
 
@@ -1249,7 +1094,6 @@ if training_chara=0 then return
 
 #（選択後）
 
-#「なら、これで始めて大丈夫だね」
 #SCRIPT ORIGINAL 「なら、これで始めて大丈夫だね」
 ＠Shizuku,S00285
 「Then you'll go ahead with this, right?」
@@ -1267,21 +1111,17 @@ if sel=1 then goto training_in_7_c
 label	training_in_7_b
 #（お願いします）
 
-#「オナニーするくらい溜まってるみたいだし、さっさと始めようか」
 #SCRIPT ORIGINAL 「オナニーするくらい溜まってるみたいだし、さっさと始めようか」
 ＠Shizuku,S00286
 「It looks like you've saved up enough to masturbate, you've got to get to it」
 
-#「くぅッ……！　違うってのに！」
 #SCRIPT ORIGINAL 「くぅッ……！　違うってのに！」
 ＠Itsuki
 「Ugh...! I told you that's not what I was doing!」
 
-#しばらく引っ張られそうだ、そのネタ……
 #SCRIPT ORIGINAL しばらく引っ張られそうだ、そのネタ……
 　She really stung me with that one...
 
-#「オレは部屋に行ってますから、子供達のほうは頼みますよ」
 #SCRIPT ORIGINAL 「オレは部屋に行ってますから、子供達のほうは頼みますよ」
 ＠Itsuki
 「I'll go ahead to the room, and you can call the kids」
@@ -1289,22 +1129,18 @@ label	training_in_7_b
 #SE66　効果音１（ビシッ！）
 @se66
 
-#「変なことは言わないように！」
 #SCRIPT ORIGINAL 「変なことは言わないように！」
 ＠Itsuki
 「And don't you dare say anything weird!」
 
-#「むふふふ、言わない言わない。喋ったら『弱み』の意味がないしねぇ」
 #SCRIPT ORIGINAL 「むふふふ、言わない言わない。喋ったら『弱み』の意味がないしねぇ」
 ＠Shizuku,S00287
 「Mufufufu, I won't say anything. There's no need to talk about people's weak points」
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
 
-#とにかくもう、今週も調教開始だ。
 #SCRIPT ORIGINAL とにかくもう、今週も調教開始だ。
 　At any rate, it's time for this week's training.
 
@@ -1318,7 +1154,6 @@ return
 label	training_in_7_c
 #（考え直す）
 
-#「この子じゃ嫌だって言うの？　贅沢だねぇ」
 #SCRIPT ORIGINAL 「この子じゃ嫌だって言うの？　贅沢だねぇ」
 ＠Shizuku,S00288
 「This kid isn't good enough? How luxurious for you」
@@ -1336,35 +1171,29 @@ label	training_in_8
 #■BG（自室・夜）
 @bg_itsuki_n
 
-#週末の夜はもう、生活のリズムにされつつある子供達の調教だ。
 #SCRIPT ORIGINAL 週末の夜はもう、生活のリズムにされつつある子供達の調教だ。
 　It's Saturday night again, time for kids' training as per our routine.
 
 @shizuku
 
-#「さ、今日も張り切ってヌキに行こうか、樹」
 #SCRIPT ORIGINAL 「さ、今日も張り切ってヌキに行こうか、樹」
 ＠Shizuku,S00289
 「Come now, let's go and pop one off with gusto again today, Itsuki」
 
-#「別にやるのはオレで、雫さんには関係ないことでしょうに」
 #SCRIPT ORIGINAL 「別にやるのはオレで、雫さんには関係ないことでしょうに」
 ＠Itsuki
 「Me doing it while I'm there has nothing to do with you」
 
-#「あるよ、関係あるある」
 #SCRIPT ORIGINAL 「あるよ、関係あるある」
 ＠Shizuku,S00290
 「It does, there is something I do」
 
-#「樹が小さい子を相手に、あんな事やこんな事をしてるのかって想像しててねぇ……」
 #SCRIPT ORIGINAL 「樹が小さい子を相手に、あんな事やこんな事をしてるのかって想像しててねぇ……」
 ＠Shizuku,S00291
 「I imagine what sorts of things you're doing with those little girls...」
 
 @shizuku_ikari
 
-#「あたしはいつもいつも隣の部屋で、濡れ濡れなのよ、もう！」
 #SCRIPT ORIGINAL 「あたしはいつもいつも隣の部屋で、濡れ濡れなのよ、もう！」
 ＠Shizuku,S00292
 「I'm always, always in the next room getting so wet, jeez!」
@@ -1372,38 +1201,31 @@ label	training_in_8
 #SE66　効果音１（ビシッ！）
 @se66
 
-#「変態か！！」
 #SCRIPT ORIGINAL 「変態か！！」
 ＠Itsuki
 「What a pervert!!」
 
-#「って、隣の部屋に居るんですか！？　いつもいつも！？」
 #SCRIPT ORIGINAL 「って、隣の部屋に居るんですか！？　いつもいつも！？」
 ＠Itsuki
 「Wait, you're in the other room!? Always, always!?」
 
 @shizuku_warai2
 
-#「はははっ、冗談だよ、冗談。あたしだってそんな暇じゃないよ」
 #SCRIPT ORIGINAL 「はははっ、冗談だよ、冗談。あたしだってそんな暇じゃないよ」
 ＠Shizuku,S00293
 「Hahaha, just joking. I don't have so much spare time」
 
-#暇にしか思えないから、心配なんだが……
 #SCRIPT ORIGINAL 暇にしか思えないから、心配なんだが……
 　If it's just that she doesn't have time, I'm still worried...
 
-#（これからはちょっと、隣の様子とか気にした方がいいかもしれん……）
 #SCRIPT ORIGINAL （これからはちょっと、隣の様子とか気にした方がいいかもしれん……）
 ＠Itsuki
 (It might be a good idea to check from now on, just in case...)
 
-#「さぁて、今夜のあたしのオカズ………じゃないや、調教の相手は誰にするんだい？」
 #SCRIPT ORIGINAL 「さぁて、今夜のあたしのオカズ………じゃないや、調教の相手は誰にするんだい？」
 ＠Shizuku,S00294
 「So, my treat for tonight will be... I mean, who will you train tonight?」
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Itsuki
 「......」
@@ -1424,7 +1246,6 @@ if training_chara=0 then return
 
 #（選択後）
 @shizuku_yorokobi
-#「なら、今日はこれで始めるんだね」
 #SCRIPT ORIGINAL 「なら、今日はこれで始めるんだね」
 ＠Shizuku,S00296
 「Then, we can go ahead with this tonight?」
@@ -1443,17 +1264,14 @@ if sel=1 then goto training_in_8_c
 label	training_in_8_b
 #（これでいい）
 
-#「よーし！　なら先に部屋に行ってな。呼んできてあげるから」
 #SCRIPT ORIGINAL 「よーし！　なら先に部屋に行ってな。呼んできてあげるから」
 ＠Shizuku,S00297
 「Alright! Then you can go to the training room. I'll call your partner for you」
 
-#「……隣に居ないでくださいよ」
 #SCRIPT ORIGINAL 「……隣に居ないでくださいよ」
 ＠Itsuki
 「...Please don't go to the room next door」
 
-#「ふふふっ。もう今さら、一度や二度増えたって変わらないと思うけどねぇ」
 #SCRIPT ORIGINAL 「ふふふっ。もう今さら、一度や二度増えたって変わらないと思うけどねぇ」
 ＠Shizuku,S00298
 「Fufufu. I don't think a couple more times would make much of a difference at this point」
@@ -1461,7 +1279,6 @@ label	training_in_8_b
 #SE75　ショック音（ガーーン！）
 @se75
 
-#「やっぱりッ！！」
 #SCRIPT ORIGINAL 「やっぱりッ！！」
 ＠Itsuki
 「I knew it!!」
@@ -1470,7 +1287,6 @@ label	training_in_8_b
 @shizuku_
 @bg_black
 
-#……オレが調教の部屋に入ったのは、両隣の部屋を厳重にチェックしてからだった。
 #SCRIPT ORIGINAL ……オレが調教の部屋に入ったのは、両隣の部屋を厳重にチェックしてからだった。
 　...I went into the training room after meticulously checking the adjoining rooms.
 
@@ -1481,7 +1297,6 @@ return
 label	training_in_8_c
 #（考え直す）
 
-#「あたしはいいと思ったけど……それじゃ、どうするの？」
 #SCRIPT ORIGINAL 「あたしはいいと思ったけど……それじゃ、どうするの？」
 ＠Shizuku,S00299
 「I thought that was a good choice though... then who do you choose?」

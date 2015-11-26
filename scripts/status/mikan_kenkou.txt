@@ -463,39 +463,32 @@ label	mikan_kenkou_a2
 
 @mikan			#普通
 
-#「ごちそうさま……」
 #SCRIPT ORIGINAL 「ごちそうさま……」
 ＠Mikan,A01470
 「Thanks for the meal...」
 
-#朝食を食べ初めて半ば、食事の大半を残したまま、みかんが箸を置いた。
 #SCRIPT ORIGINAL 朝食を食べ初めて半ば、食事の大半を残したまま、みかんが箸を置いた。
 　Mikan put aside her chopsticks, most of the food left half-eaten on her plate.
 
 @mikan_kanashimi	#哀
 
-#「何か、食欲ないの……」
 #SCRIPT ORIGINAL 「何か、食欲ないの……」
 ＠Mikan,A01471
 「I think I lost my appetite...」
 
-#「大丈夫？　風邪かしら……ちょっと体温計を持ってくるわね」
 #SCRIPT ORIGINAL 「大丈夫？　風邪かしら……ちょっと体温計を持ってくるわね」
 ＠Miu,B01473
 「Are you alright? Maybe you have a cold... hold on, I'll get a thermometer」
 
-#パタパタと美雨がリビングの方へ消えていく。
 #SCRIPT ORIGINAL パタパタと美雨がリビングの方へ消えていく。
 　The sound of Miu's footsteps recedes toward the living room.
 
-#「体調悪いなら、学校休むか？」
 #SCRIPT ORIGINAL 「体調悪いなら、学校休むか？」
 ＠Itsuki
 「If you're not in good shape, why not take a break from school?」
 
 @mikan_kusyou		#苦笑
 
-#「ううん、そこまでじゃないから。平気」
 #SCRIPT ORIGINAL 「ううん、そこまでじゃないから。平気」
 ＠Mikan,A01472
 「Nope, it's not that bad. I'm fine」
@@ -505,14 +498,12 @@ label	mikan_kenkou_a2
 #wait		1000
 @ichigo_yorokobi	#喜
 
-#「いちごが治してあげようか。痛いの痛いの飛んでいけー♪」
 #SCRIPT ORIGINAL 「いちごが治してあげようか。痛いの痛いの飛んでいけー♪」
 ＠Ichigo,O01787
 「I've got the magic cure for you. Fly away, aches and painsー♪」
 
 @zakuro			#普
 
-#「残念、イタイのはいちごの方でした」
 #SCRIPT ORIGINAL 「残念、イタイのはいちごの方でした」
 ＠Zakuro,Q01059
 「Sorry, but it's painful listening to you, Ichigo」
@@ -521,16 +512,13 @@ label	mikan_kenkou_a2
 @SE53			#SE53　傷つく言葉（グサッ！）
 @ichigo_ikari		#怒
 
-#「ぐぅッ！！　ざ、ざくろ酷いー……」
 #SCRIPT ORIGINAL 「ぐぅッ！！　ざ、ざくろ酷いー……」
 ＠Ichigo,O01788
 「Ghh!! Z-Zakuro, that's meanー...」
 
-#まぁこの二人はいつものやり取りだから置いとくとしても。
 #SCRIPT ORIGINAL まぁこの二人はいつものやり取りだから置いとくとしても。
 　May as well leave them to it, having their usual exchange.
 
-#みかんは気になるな………必要そうなら休みを入れてやった方がいいかもしれない。
 #SCRIPT ORIGINAL みかんは気になるな………必要そうなら休みを入れてやった方がいいかもしれない。
 　I'm worried about Mikan, though... I should give her a break next time.
 
@@ -808,57 +796,46 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#「はぁぁ……」
 #SCRIPT ORIGINAL 「はぁぁ……」
 ＠Mikan,A01481
 「Haaa...」
 
-#廊下に出ると、いきなりため息をつくみかんが目に付いた。
 #SCRIPT ORIGINAL 廊下に出ると、いきなりため息をつくみかんが目に付いた。
 　Stepping into the hallway, I found Mikan sighing.
 
-#「どうした、みかん。元気無さそうだぞ」
 #SCRIPT ORIGINAL 「どうした、みかん。元気無さそうだぞ」
 ＠Itsuki
 「What's wrong, Mikan? You don't look so great」
 
-#「……お兄ちゃん。うん、何かね、頭が痛いの……」
 #SCRIPT ORIGINAL 「……お兄ちゃん。うん、何かね、頭が痛いの……」
 ＠Mikan,A01482
 「...Onii-chan. Yeah, my head hurts a bit...」
 
-#「頭が……？」
 #SCRIPT ORIGINAL 「頭が……？」
 ＠Itsuki
 「Your head...?」
 
-#少し辛そうな表情で眉を寄せると、頭を押さえるみかんが俯いた。
 #SCRIPT ORIGINAL 少し辛そうな表情で眉を寄せると、頭を押さえるみかんが俯いた。
 　Mikan looked down, holding her head with her hand, and grimacing.
 
-#「熱は？」
 #SCRIPT ORIGINAL 「熱は？」
 ＠Itsuki
 「Do you have a fever?」
 
 @mikan_kusyou		#苦笑
 
-#「大丈夫……あ、だから心配しないで。さっきお薬飲んだから、すぐ治ると思う」
 #SCRIPT ORIGINAL 「大丈夫……あ、だから心配しないで。さっきお薬飲んだから、すぐ治ると思う」
 ＠Mikan,A01483
 「I'm OK... ah, so don't worry. I just took some medicine, I'll be better soon」
 
-#「そうか？　無理しないようにな」
 #SCRIPT ORIGINAL 「そうか？　無理しないようにな」
 ＠Itsuki
 「You did? Don't push yourself」
 
-#「うん、分かった………」
 #SCRIPT ORIGINAL 「うん、分かった………」
 ＠Mikan,A01484
 「Yeah, I know...」
 
-#頼りない足取りで歩いていった。
 #SCRIPT ORIGINAL 頼りない足取りで歩いていった。
 　She walked away unsteadily.
 
@@ -991,11 +968,9 @@ label	mikan_kenkou_c2
 #■BG（リビング）
 @bg_living		# リビング
 
-#リビングの背もたれに身体を沈め、みかんが眠そうに伸びていた。
 #SCRIPT ORIGINAL リビングの背もたれに身体を沈め、みかんが眠そうに伸びていた。
 　Mikan stretched out groggily, sinking into the living room chair.
 
-#「珍しいな、みかんがこんな所で」
 #SCRIPT ORIGINAL 「珍しいな、みかんがこんな所で」
 ＠Itsuki
 「What are you doing here, Mikan?」
@@ -1004,28 +979,23 @@ label	mikan_kenkou_c2
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
-#「ん……風邪引いちゃうかな」
 #SCRIPT ORIGINAL 「ん……風邪引いちゃうかな」
 ＠Mikan,A01494
 「Nh... I wonder if I'm gonna catch a cold」
 
-#「あぁ、寝るなら部屋で寝た方がいい。けど、具合悪そうだぞ。平気か？」
 #SCRIPT ORIGINAL 「あぁ、寝るなら部屋で寝た方がいい。けど、具合悪そうだぞ。平気か？」
 ＠Itsuki
 「Yeah, it's best to go to sleep in your room. You don't look so good, though. Are you okay?」
 
-#ただ眠くて伸びているのと違い、ちょっと顔色が悪い。
 #SCRIPT ORIGINAL ただ眠くて伸びているのと違い、ちょっと顔色が悪い。
 　She's not just stretching, her complexion's also a bit pale.
 
 @mikan_kusyou		#苦笑
 
-#「何だろ……ちょっと身体がダルいの……」
 #SCRIPT ORIGINAL 「何だろ……ちょっと身体がダルいの……」
 ＠Mikan,A01495
 「Why does my body... feel so heavy...」
 
-#「顔色も悪いな……」
 #SCRIPT ORIGINAL 「顔色も悪いな……」
 ＠Itsuki
 「You look a little pale too...」
@@ -1036,34 +1006,28 @@ wait		500
 @mikan_middle		# 中間
 @mikan_kanashimi	#哀
 
-#ピトッとおでこに手を当ててみるが、熱は無いようだ。
 #SCRIPT ORIGINAL ピトッとおでこに手を当ててみるが、熱は無いようだ。
 　I put my hand gently to her forehead, but she doesn't seem to have a fever.
 
-#「風邪の引き始めかもしれないな……。なおさらこんな場所じゃなく、部屋に戻った方がいいぞ」
 #SCRIPT ORIGINAL 「風邪の引き始めかもしれないな……。なおさらこんな場所じゃなく、部屋に戻った方がいいぞ」
 ＠Itsuki
 「It might be a cold coming on... all the more reason for you to go back to your room」
 
 @mikan			#普通
 
-#「う～ん……でもお兄ちゃんの組んでくれた予定があるし」
 #SCRIPT ORIGINAL 「う～ん……でもお兄ちゃんの組んでくれた予定があるし」
 ＠Mikan,A01496
 「Mhhm～... but I have so much stuff to do, that Onii-chan planned for me」
 
-#ソファーから身を起こし立ち上がる。足取りはしっかりしてるようだが……
 #SCRIPT ORIGINAL ソファーから身を起こし立ち上がる。足取りはしっかりしてるようだが……
 　She rouses herself from the sofa and gets up. She looks steady on her feet, but...
 
-#「無理はするなよ？　ダメそうだったら気にせず休んでいいんだから」
 #SCRIPT ORIGINAL 「無理はするなよ？　ダメそうだったら気にせず休んでいいんだから」
 ＠Itsuki
 「Don't push yourself. If it's too hard, you can go rest and don't worry about it」
 
 @mikan_warai2		#笑2
 
-#「ありがと。じゃぁね、お兄ちゃん」
 #SCRIPT ORIGINAL 「ありがと。じゃぁね、お兄ちゃん」
 ＠Mikan,A01497
 「Thanks. See you, Onii-chan」
@@ -1071,16 +1035,13 @@ wait		500
 bgm_stop
 @mikan_
 
-#平気さをアピールするように笑顔を見せると、みかんがリビングから出て行った。
 #SCRIPT ORIGINAL 平気さをアピールするように笑顔を見せると、みかんがリビングから出て行った。
 　Giving a smile to show that she's okay, Mikan left the living room.
 
-#「オレの立てた予定か……」
 #SCRIPT ORIGINAL 「オレの立てた予定か……」
 ＠Itsuki
 「So much stuff to do, huh...」
 
-#次の休息はいつになってたかな……無ければ入れてやった方がいいだろう。
 #SCRIPT ORIGINAL 次の休息はいつになってたかな……無ければ入れてやった方がいいだろう。
 　When's her next break, again...? I should put one in, if I didn't already.
 
@@ -1103,53 +1064,43 @@ label	mikan_kenkou_d1
 #■BG（みかんの部屋）
 @bg_mikan		# みかんの部屋
 
-#出かけ先でみかんが倒れ、急遽部屋へと運ばれて来た。
 #SCRIPT ORIGINAL 出かけ先でみかんが倒れ、急遽部屋へと運ばれて来た。
 　We rushed Mikan to her room, after she collapsed just before going out.
 
 @miu_komaru		#閉_困
 @mikan_kanashimi	#哀
 
-#「……熱があるみたいね。今日は一日ゆっくり休んだ方がいいわ」
 #SCRIPT ORIGINAL 「……熱があるみたいね。今日は一日ゆっくり休んだ方がいいわ」
 ＠Miu,B01481
 「...She has a fever. She should take it easy and rest for today」
 
-#「うん……ごめんなさい、心配かけて」
 #SCRIPT ORIGINAL 「うん……ごめんなさい、心配かけて」
 ＠Mikan,A01505
 「Sure... Sorry for all the trouble」
 
-#幸い医者はただの疲労だと言ってくれた。
-#しかしそれは直接、オレがみかんを働かせすぎたことに起因する。
 #SCRIPT ORIGINAL 幸い医者はただの疲労だと言ってくれた。
 #SCRIPT ORIGINAL しかしそれは直接、オレがみかんを働かせすぎたことに起因する。
 　Thankfully, the doctor said it's just fatigue. But that meant I'd overworked her.
 
-#「お兄ちゃんも……心配かけてごめんなさい」
 #SCRIPT ORIGINAL 「お兄ちゃんも……心配かけてごめんなさい」
 ＠Mikan,A01506
 「Onii-chan too... sorry for making you worry」
 
-#「大事じゃなくて良かったよ。そんなこと気にせずに、ゆっくり休め」
 #SCRIPT ORIGINAL 「大事じゃなくて良かったよ。そんなこと気にせずに、ゆっくり休め」
 ＠Itsuki
 「Good thing it wasn't serious. Don't worry about that, just rest」
 
-#枕元でみかんを看病する美雨と目配せする。
 #SCRIPT ORIGINAL 枕元でみかんを看病する美雨と目配せする。
 　I catch Miu's eye, who's nursing Mikan at her bedside.
 
 @miu			#閉_にこ
 
-#「それじゃみかんちゃん、私たちはもう行くから、何かあったら呼んでね」
 #SCRIPT ORIGINAL 「それじゃみかんちゃん、私たちはもう行くから、何かあったら呼んでね」
 ＠Miu,B01482
 「Then Mikan, we'll be going now, call us if you need something」
 
 @mikan_yorokobi		#喜
 
-#「うん。ありがと、美雨さん、お兄ちゃん」
 #SCRIPT ORIGINAL 「うん。ありがと、美雨さん、お兄ちゃん」
 ＠Mikan,A01507
 「Sure. Thanks, Miu-san. Onii-chan」
@@ -1161,60 +1112,49 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 @bg_rouka		# 廊下
 
-#ベッドに入るみかんを見届けて、美雨と二人で部屋を出る。
 #SCRIPT ORIGINAL ベッドに入るみかんを見届けて、美雨と二人で部屋を出る。
 　Taking a last look at Mikan in bed, I left the room with Miu.
 
 @miu_komaru		#閉_困
 
-#「樹さん、あまり子供たちに無理はさせないでください」
 #SCRIPT ORIGINAL 「樹さん、あまり子供たちに無理はさせないでください」
 ＠Miu,B01483
 「Itsuki-san, please don't work the kids too hard」
 
 @miu_kanashimi		#閉_哀
 
-#「それでなくても、やってる行為自体が、みかんちゃんにはかなりの負担になってると思いますから……」
 #SCRIPT ORIGINAL 「それでなくても、やってる行為自体が、みかんちゃんにはかなりの負担になってると思いますから……」
 ＠Miu,B01484
 「Beyond that, the thing itself you asked her to do, seems to have burdened her quite a bit...」
 
-#「悪かった……オレのせいだな。体調が悪そうなのは分かってたのに……」
 #SCRIPT ORIGINAL 「悪かった……オレのせいだな。体調が悪そうなのは分かってたのに……」
 ＠Itsuki
 「Sorry... it's my fault. I knew that she was getting worn-out...」
 
-#「幸い大事にはなりませんでしたら、安心しましたけど」
 #SCRIPT ORIGINAL 「幸い大事にはなりませんでしたら、安心しましたけど」
 ＠Miu,B01485
 「Luckily it didn't turn out to be serious, but I was worried」
 
 @miu_ikari		#閉_怒
 
-#「樹さんも大変だとは思いますが、もう少し注意をお願いします」
 #SCRIPT ORIGINAL 「樹さんも大変だとは思いますが、もう少し注意をお願いします」
 ＠Miu,B01486
 「I know it's important to you, but please be a little more careful」
 
-#いつになく真剣な美雨。
-#本当の娘のような心配ぶりに、原因のオレは謝ることしか出来ない。
 #SCRIPT ORIGINAL いつになく真剣な美雨。
 #SCRIPT ORIGINAL 本当の娘のような心配ぶりに、原因のオレは謝ることしか出来ない。
 　Miu's quite stern. I could only apologize, at her honest girlish heartache.
 
-#「分かった」
 #SCRIPT ORIGINAL 「分かった」
 ＠Itsuki
 「Understood」
 
-#「後はオレに任せて美雨は用事に戻っていいよ。みかんの看病は責任を持ってやるから」
 #SCRIPT ORIGINAL 「後はオレに任せて美雨は用事に戻っていいよ。みかんの看病は責任を持ってやるから」
 ＠Itsuki
 「I'll take it from here, you can get back to your duties. I'll cover for nursing Mikan」
 
 @miu			#閉_にこ
 
-#「はい。それでは、あとのことはお願いします」
 #SCRIPT ORIGINAL 「はい。それでは、あとのことはお願いします」
 ＠Miu,B01487
 「OK. Well then, I'll leave the rest to you」
@@ -1222,7 +1162,6 @@ wait		1000
 bgm_stop
 @miu_
 
-#いつもの穏やかな表情に戻ると、美雨は家事の人へと戻っていった。
 #SCRIPT ORIGINAL いつもの穏やかな表情に戻ると、美雨は家事の人へと戻っていった。
 　Her usual serene features return, and Miu gets back to being the house-lady.
 
@@ -1242,48 +1181,38 @@ label	mikan_kenkou_d2
 #■BG（廊下）
 @bg_rouka		# 廊下
 
-#みかんが倒れたと聞いて部屋へ向かっていると、途中美雨と鉢合わせた。
 #SCRIPT ORIGINAL みかんが倒れたと聞いて部屋へ向かっていると、途中美雨と鉢合わせた。
 　I heard Mikan collapsed and was on my way to her room, when I ran into Miu.
 
 @miu_ikari		#閉_怒
 
-#「樹さん……」
 #SCRIPT ORIGINAL 「樹さん……」
 ＠Miu,B01477
 「Itsuki-san...」
 
-#その手の中にみかんが抱かれている。
 #SCRIPT ORIGINAL その手の中にみかんが抱かれている。
 　She's holding Mikan in her arms.
 
-#「大丈夫、眠ってるだけですから」
 #SCRIPT ORIGINAL 「大丈夫、眠ってるだけですから」
 ＠Miu,B01478
 「Don't worry, she's just asleep」
 
-#「そ、そっか……良かった」
 #SCRIPT ORIGINAL 「そ、そっか……良かった」
 ＠Itsuki
 「O-oh... that's a relief」
 
-#「とりあえず病院で診てもらってきました。疲労による貧血だそうです」
 #SCRIPT ORIGINAL 「とりあえず病院で診てもらってきました。疲労による貧血だそうです」
 ＠Miu,B01479
 「I took her to the hospital to see a doctor. She had anemia brought on by fatigue」
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
-#言葉には出さないが、美雨の視線で思っていることは分かる。
-#みかんが疲労で倒れたのは今回が初めてじゃない。
 #SCRIPT ORIGINAL 言葉には出さないが、美雨の視線で思っていることは分かる。
 #SCRIPT ORIGINAL みかんが疲労で倒れたのは今回が初めてじゃない。
 　She doesn't say it, but I know what Miu's thinking. This isn't the first time Mikan's collapsed from fatigue.
 
-#「悪い、美雨。あとはオレがやるよ」
 #SCRIPT ORIGINAL 「悪い、美雨。あとはオレがやるよ」
 ＠Itsuki
 「Sorry, Miu. I'll take it from here」
@@ -1291,16 +1220,13 @@ label	mikan_kenkou_d2
 @bg_black
 wait		1000
 
-#眠ったままのみかんを慎重に美雨から受け取った。
 #SCRIPT ORIGINAL 眠ったままのみかんを慎重に美雨から受け取った。
 　I carefully took Mikan, sound asleep, from Miu.
 
-#「ん、ぅん……」
 #SCRIPT ORIGINAL 「ん、ぅん……」
 ＠Mikan,A01504
 「Nh, uhn...」
 
-#軽い体重がオレの腕の中でモゾモゾと寝返りを打つ。
 #SCRIPT ORIGINAL 軽い体重がオレの腕の中でモゾモゾと寝返りを打つ。
 　Her lightweight body stirs a bit sleepily in my arms.
 
@@ -1308,16 +1234,13 @@ wait		1000
 @miu_ikari2		#開_怒
 @bg_rouka		# 廊下
 
-#「樹さん、よろしくお願いします」
 #SCRIPT ORIGINAL 「樹さん、よろしくお願いします」
 ＠Miu,B01480
 「Itsuki-san, please take care of her」
 
-#真剣なその言葉は、看病の事だけでなく、体調管理の事も含められているだろう。
 #SCRIPT ORIGINAL 真剣なその言葉は、看病の事だけでなく、体調管理の事も含められているだろう。
 　Her deliberate words refer not just to nursing her back to health, but also managing her physical condition.
 
-#オレは頭の中でみかんのスケジュールを考え直しながら部屋まで運んでいった。
 #SCRIPT ORIGINAL オレは頭の中でみかんのスケジュールを考え直しながら部屋まで運んでいった。
 　I carried her along to the room, while rethinking Mikan's schedule in my head.
 
@@ -1582,11 +1505,9 @@ label	mikan_kenkou_e2
 #■BG（リビング）
 @bg_living		# リビング
 
-#リビングのテレビの前でみかんが座り込んでいた。
 #SCRIPT ORIGINAL リビングのテレビの前でみかんが座り込んでいた。
 　Mikan was plopped down in front of the living room TV.
 
-#「ん？　何をそんなに見てるんだ、みかん？」
 #SCRIPT ORIGINAL 「ん？　何をそんなに見てるんだ、みかん？」
 ＠Itsuki
 「Hm? What's so interesting there, Mikan?」
@@ -1595,16 +1516,13 @@ label	mikan_kenkou_e2
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
-#「………え？」
 #SCRIPT ORIGINAL 「………え？」
 ＠Mikan,A01508
 「...Eh?」
 
-#呼びかけに応じてこちらを見上げる表情には、いつもの元気さが無かった。
 #SCRIPT ORIGINAL 呼びかけに応じてこちらを見上げる表情には、いつもの元気さが無かった。
 　Her expression, upon looking up at my call, lacked its usual energy.
 
-#「あ、別にテレビを見てたんじゃないんだけど……ちょっと身体が寒いの」
 #SCRIPT ORIGINAL 「あ、別にテレビを見てたんじゃないんだけど……ちょっと身体が寒いの」
 ＠Mikan,A01509
 「Ah, I wasn't really watching anything... I feel kind of cold」
@@ -1622,29 +1540,23 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#自分の腕を抱くようにして身体に手を回す。
 #SCRIPT ORIGINAL 自分の腕を抱くようにして身体に手を回す。
 　She hugs herself and rubs her hand around her body.
 
-#「いつからだ？」
 #SCRIPT ORIGINAL 「いつからだ？」
 ＠Itsuki
 「Since when?」
 
-#「……んと、朝起きたときから……」
 #SCRIPT ORIGINAL 「……んと、朝起きたときから……」
 ＠Mikan,A01510
 「...Erm, ever since I woke up...」
 
-#「何で早く言わないんだ」
 #SCRIPT ORIGINAL 「何で早く言わないんだ」
 ＠Itsuki
 「You should've said something」
 
 @mikan_
 
-#頬やおでこに手を当てて体温を測る。
-#……何か微妙だが、少なくとも顔色はちょっと悪いな。
 #SCRIPT ORIGINAL 頬やおでこに手を当てて体温を測る。
 #SCRIPT ORIGINAL ……何か微妙だが、少なくとも顔色はちょっと悪いな。
 　I put my hand to her cheek and forehead to check her temperature. I can't say for sure, but her complexion doesn't look good.
@@ -1652,31 +1564,25 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_middle		# 中間
 @mikan_kusyou		#苦笑
 
-#「平気だよ……」
 #SCRIPT ORIGINAL 「平気だよ……」
 ＠Mikan,A01511
 「I'll be OK...」
 
-#「平気な内に休んでおかないと、本格的に悪くなってからじゃ辛いぞ？」
 #SCRIPT ORIGINAL 「平気な内に休んでおかないと、本格的に悪くなってからじゃ辛いぞ？」
 ＠Itsuki
 「If you don't take it easy and rest now, it'll get worse later on」
 
 @mikan_yorokobi		#喜
 
-#「うん……無理しないようする。ありがと、お兄ちゃん」
 #SCRIPT ORIGINAL 「うん……無理しないようする。ありがと、お兄ちゃん」
 ＠Mikan,A01512
 「Sure... I'll take it easy. Thanks, Onii-chan」
 
 @mikan_
 
-#先週末に割り振ったスケジュールに従い、みかんはリビングを後にして行く。
 #SCRIPT ORIGINAL 先週末に割り振ったスケジュールに従い、みかんはリビングを後にして行く。
 　As per her assigned schedule, Mikan takes off from the living room.
 
-#風邪の引き始めだろうか。
-#……注意して見てやってた方がいいな。
 #SCRIPT ORIGINAL 風邪の引き始めだろうか。
 #SCRIPT ORIGINAL ……注意して見てやってた方がいいな。
 　She's coming down with a cold... I should be more careful.

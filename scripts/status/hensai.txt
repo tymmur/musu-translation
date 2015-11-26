@@ -33,12 +33,10 @@ money_open
 @shizuku_yorokobi
 
 #大仰に、笑顔で
-#「レディス＆ジェントルメン、借金返済のお時間でーす」
 #SCRIPT ORIGINAL 「レディス＆ジェントルメン、借金返済のお時間でーす」
 ＠Shizuku,S01704
 「Ladies and gentlemen, it's time to repay our debt」
 
-#「どーれどれ、樹の坊ちゃんは、お金をちゃんと貯められているかねぇ？」
 #SCRIPT ORIGINAL 「どーれどれ、樹の坊ちゃんは、お金をちゃんと貯められているかねぇ？」
 ＠Shizuku,S01705
 「Let's see here, I hope you've been saving your money properly, little Itsuki」
@@ -47,7 +45,6 @@ money_open
 @se216
 @shizuku
 
-#「ん～～～～と？」
 #SCRIPT ORIGINAL 「ん～～～～と？」
 ＠Shizuku,S01706
 「Annnnnd～～～～」
@@ -65,17 +62,14 @@ label	hensai_1a
 @se217
 @shizuku_warai2
 
-#「おーっ、グッジョブ！！」
 #SCRIPT ORIGINAL 「おーっ、グッジョブ！！」
 ＠Shizuku,S01707
 「Oh, good job!!」
 
-#「この調子で、次も頼むよ」
 #SCRIPT ORIGINAL 「この調子で、次も頼むよ」
 ＠Shizuku,S01708
 「I'll leave the next one to you as well」
 
-#「じゃあ、お金を頂戴しま～す」
 #SCRIPT ORIGINAL 「じゃあ、お金を頂戴しま～す」
 ＠Shizuku,S01709
 「I'll have your payment then～」
@@ -85,17 +79,14 @@ label	hensai_1a
 repayment_sub	hensai_gaku
 money_sub	hensai_gaku
 
-#「はい、しっかり頂いたよ」
 #SCRIPT ORIGINAL 「はい、しっかり頂いたよ」
 ＠Shizuku,S01710
 「I think that's about it」
 
-#「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 #SCRIPT ORIGINAL 「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 ＠Shizuku,S01711
 「I'll deliver this money straight to their hideout」
 
-#「じゃあね～♪」
 #SCRIPT ORIGINAL 「じゃあね～♪」
 ＠Shizuku,S01712
 「See you～♪」
@@ -105,11 +96,9 @@ money_sub	hensai_gaku
 #SE　ドアの閉まる音
 @se07
 
-#ふぅ……なんとかちゃんと借金を返済できた……
 #SCRIPT ORIGINAL ふぅ……なんとかちゃんと借金を返済できた……
 　Phew... I managed to repay it...
 
-#次も頑張らないとな……
 #SCRIPT ORIGINAL 次も頑張らないとな……
 　Better work hard for the next one too...
 
@@ -126,37 +115,30 @@ if chien_count>0 then goto hensai_1c
 #SE　がっかりの音
 @shizuku_ikari
 @se219
-#「…………お前」
 #SCRIPT ORIGINAL 「…………お前」
 ＠Shizuku,S01713
 「...Hey you」
 
-#「これがどういうことか、わかってるんだろうね？」
 #SCRIPT ORIGINAL 「これがどういうことか、わかってるんだろうね？」
 ＠Shizuku,S01714
 「You know what's at stake here, don't you?」
 
-#「……すみません……」
 #SCRIPT ORIGINAL 「……すみません……」
 ＠Itsuki
 「Sorry...」
 
-#「すみません、で済む問題じゃないだろうに」
 #SCRIPT ORIGINAL 「すみません、で済む問題じゃないだろうに」
 ＠Shizuku,S01715
 「You can't just brush this off with an apology」
 
-#「……まあ、今回は何とかしてあげるよ。仏の顔も３度まで、ってね」
 #SCRIPT ORIGINAL 「……まあ、今回は何とかしてあげるよ。仏の顔も３度まで、ってね」
 ＠Shizuku,S01716
 「...Well, I'll make up for it somehow this time. They say a forgiving person gives you three chances」
 
-#「あたしは仏じゃないから、次はないけど」
 #SCRIPT ORIGINAL 「あたしは仏じゃないから、次はないけど」
 ＠Shizuku,S01717
 「I'm not forgiving though, so I won't let this slide again」
 
-#「とりあえず、今あるお金だけでも頂くとするかね」
 #SCRIPT ORIGINAL 「とりあえず、今あるお金だけでも頂くとするかね」
 ＠Shizuku,S01718
 「I'll have to just take what you have for now」
@@ -167,17 +149,14 @@ if chien_count>0 then goto hensai_1c
 repayment_sub	_MONEY
 money_sub	_MONEY
 
-#「はい、しっかり頂いたよ」
 #SCRIPT ORIGINAL 「はい、しっかり頂いたよ」
 ＠Shizuku,S01719
 「I think that's about it」
 
-#「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 #SCRIPT ORIGINAL 「このお金は、ちゃんとそちらのスジの方にお渡ししておくから」
 ＠Shizuku,S01720
 「I'll deliver this money straight to their hideout」
 
-#「じゃあ、次は頑張って」
 #SCRIPT ORIGINAL 「じゃあ、次は頑張って」
 ＠Shizuku,S01721
 「Alright, try harder next time」
@@ -187,11 +166,9 @@ money_sub	_MONEY
 #SE　ドアの閉まる音
 @se07
 
-#……借金を返済できなかった……
 #SCRIPT ORIGINAL ……借金を返済できなかった……
 　I wasn't able to repay the debt...
 
-#次は、頑張らないとな……
 #SCRIPT ORIGINAL 次は、頑張らないとな……
 　I better do better next time or else...
 
@@ -205,37 +182,30 @@ label	hensai_1c
 
 #SE　がっかりの音
 @shizuku_kanashimi
-#「…………ハァ……」
 #SCRIPT ORIGINAL 「…………ハァ……」
 ＠Shizuku,S01722
 「......*sigh*...」
 
-#「２回目はない、って言ったよね」
 #SCRIPT ORIGINAL 「２回目はない、って言ったよね」
 ＠Shizuku,S01723
 「I told you to not let this happen again, didn't I」
 
-#「……すみません……」
 #SCRIPT ORIGINAL 「……すみません……」
 ＠Itsuki
 「Sorry...」
 
-#「すみません、で済む問題じゃなんだって」
 #SCRIPT ORIGINAL 「すみません、で済む問題じゃなんだって」
 ＠Shizuku,S01724
 「I said you can't just brush this off with an apology」
 
-#「今回ばっかりは、あたしにもどうにも出来ないよ」
 #SCRIPT ORIGINAL 「今回ばっかりは、あたしにもどうにも出来ないよ」
 ＠Shizuku,S01725
 「I can't do anything to save you this time」
 
-#「……明日、ここを出て行ってもらう」
 #SCRIPT ORIGINAL 「……明日、ここを出て行ってもらう」
 ＠Shizuku,S01726
 「...You have to leave tomorrow」
 
-#「とりあえず、今あるお金だけでも、全額頂くよ」
 #SCRIPT ORIGINAL 「とりあえず、今あるお金だけでも、全額頂くよ」
 ＠Shizuku,S01727
 「I'll have to take all of whatever you have now」
@@ -245,27 +215,22 @@ label	hensai_1c
 repayment_sub	_MONEY
 money_sub	_MONEY
 @shizuku
-#「はい、しっかり頂いたよ」
 #SCRIPT ORIGINAL 「はい、しっかり頂いたよ」
 ＠Shizuku,S01728
 「I think that's about it」
 
-#「……とりあえず、今日中に、荷物をまとめて出て行きな」
 #SCRIPT ORIGINAL 「……とりあえず、今日中に、荷物をまとめて出て行きな」
 ＠Shizuku,S01729
 「...You must have your bags packed and leave by the end of today」
 
-#「あんたが施設を出て行くことは、誰にも言わないように。そしてわからないようにこっそりと出て行くんだ」
 #SCRIPT ORIGINAL 「あんたが施設を出て行くことは、誰にも言わないように。そしてわからないようにこっそりと出て行くんだ」
 ＠Shizuku,S01730
 「You may not tell anyone that you're leaving, and you must leave discreetly so you are not seen」
 
-#「もちろん、この施設のことは口外しないように」
 #SCRIPT ORIGINAL 「もちろん、この施設のことは口外しないように」
 ＠Shizuku,S01731
 「And it goes without saying, don't tell anyone about this place either」
 
-#「いいね」
 #SCRIPT ORIGINAL 「いいね」
 ＠Shizuku,S01732
 「That's settled」
@@ -275,15 +240,12 @@ money_sub	_MONEY
 #SE　ドアの閉まる音
 @se07
 
-#……借金を返済できなかった……
 #SCRIPT ORIGINAL ……借金を返済できなかった……
 　I couldn't repay the debt...
 
-#……これから、どうしよう……
 #SCRIPT ORIGINAL ……これから、どうしよう……
 　What will become of me after this...
 
-#……とりあえず、荷物をまとめるか……
 #SCRIPT ORIGINAL ……とりあえず、荷物をまとめるか……
 　I guess I should start packing...
 
@@ -552,7 +514,6 @@ if _MONTH=10 then repayment_add 35000000
 if _MONTH=11 then repayment_add 42000000
 if _MONTH=12 then repayment_add 50000000
 
-#さて、今月末の借金の返済額だが……。
 #SCRIPT ORIGINAL さて、今月末の借金の返済額だが……。
 　Alright, taking a look at the debt I have to repay by the end of this month...
 
@@ -563,11 +524,9 @@ goto	hensai_text_2
 label	hensai_text_1
 ###1月はじめのテキスト##########################################
 
-#今月は流石に、赴任最初の月なので、借金の返済はしなくていいらしい。
 #SCRIPT ORIGINAL 今月は流石に、赴任最初の月なので、借金の返済はしなくていいらしい。
 　Since I'm just starting here, looks like I won't have to repay anything.
 
-#でも、来月の借金の返済のためにも、今月を頑張らないとな。
 #SCRIPT ORIGINAL でも、来月の借金の返済のためにも、今月を頑張らないとな。
 　But I should do my best and get a headstart for next month...
 
@@ -579,11 +538,9 @@ label	hensai_text_2
 #借金の返済額をお金ウィンドウに表示
 money_open
 
-#この額を返さなければならないらしい。
 #SCRIPT ORIGINAL この額を返さなければならないらしい。
 　This is the amount that has to be repayed.
 
-#が、頑張ろう……。
 #SCRIPT ORIGINAL が、頑張ろう……。
 　Well, I'll do my best...
 
@@ -598,7 +555,6 @@ label	hensai_text_3
 #借金の返済額をお金ウィンドウに表示
 money_open
 
-#この額を返さなければならないらしい。
 #SCRIPT ORIGINAL この額を返さなければならないらしい。
 　This is the amount that has to be repayed.
 

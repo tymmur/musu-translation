@@ -80,7 +80,6 @@ label	ep_mikan_01
 @SE31			#SE31　玄関のドアが閉まる音
 @bg_genkan
 
-#「ただいま、っと」
 #SCRIPT ORIGINAL 「ただいま、っと」
 ＠Itsuki
 「I'm back」
@@ -91,115 +90,93 @@ label	ep_mikan_01
 #SE06　部屋のドア開く音（ガチャ）
 @se06
 
-#「美雨、買い物済ませてきたよ………あれ？」
 #SCRIPT ORIGINAL 「美雨、買い物済ませてきたよ………あれ？」
 ＠Itsuki
 「Miu, I went shopping...... huh?」
 
 @bgm12			#演：仮ＢＧＭ
 
-#夕食の買出しから帰って来たが、そこに美雨の姿は無い。
 #SCRIPT ORIGINAL 夕食の買出しから帰って来たが、そこに美雨の姿は無い。
 　I bought things for dinner, but Miu wasn't around.
 
-#何か別の用事でも出来たのだろうか？
 #SCRIPT ORIGINAL 何か別の用事でも出来たのだろうか？
 　Maybe she's busy with something else.
 
-#「ま、じきに戻ってくるだろ」
 #SCRIPT ORIGINAL 「ま、じきに戻ってくるだろ」
 ＠Itsuki
 「I'm sure she'll be back soon」
 
-#買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
 #SCRIPT ORIGINAL 買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
 　I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
-#キャンペーン中のお店でサービスに貰った物だ。
 #SCRIPT ORIGINAL キャンペーン中のお店でサービスに貰った物だ。
 　I got it for free from the store.
 
-#なので困った事に、子供達のおやつにするには量が少ない。
 #SCRIPT ORIGINAL なので困った事に、子供達のおやつにするには量が少ない。
 　It's kind of a bother that there isn't enough to give to all of the kids.
 
 @mikan
 
-#「おかえりなさい、お兄ちゃん。買い物してきてたの？」
 #SCRIPT ORIGINAL 「おかえりなさい、お兄ちゃん。買い物してきてたの？」
 ＠Mikan,A01528
 「Welcome back, Onii-chan. Did you go shopping?」
 
-#「ああ、夕食のな」
 #SCRIPT ORIGINAL 「ああ、夕食のな」
 ＠Itsuki
 「Yeah, I got food for dinner」
 
-#「そうだ。みかん今一人か？」
 #SCRIPT ORIGINAL 「そうだ。みかん今一人か？」
 ＠Itsuki
 「Wait, is it just you here?」
 
-#「…？　うん、みんな出かけてるよ」
 #SCRIPT ORIGINAL 「…？　うん、みんな出かけてるよ」
 ＠Mikan,A01529
 「...? Yeah, everyone's out」
 
-#なら都合がいい。他の子には悪いけど。
 #SCRIPT ORIGINAL なら都合がいい。他の子には悪いけど。
 　Good timing. Too bad for the others though.
 
-#「これ、みかんにあげるよ。量が少ないから他の子には内緒な」
 #SCRIPT ORIGINAL 「これ、みかんにあげるよ。量が少ないから他の子には内緒な」
 ＠Itsuki
 「Here, this is for you. There's only a little so let's not tell the others」
 
-#「え？　うん」
 #SCRIPT ORIGINAL 「え？　うん」
 ＠Mikan,A01530
 「Huh? OK」
 
 @mikan_odoroki		#驚
 
-#「あっ、クッキーだ～っ♪」
 #SCRIPT ORIGINAL 「あっ、クッキーだ～っ♪」
 ＠Mikan,A01531
 「Aha! It's a cookie!～♪」
 
-#受け取った袋の中身を確認して、喜びの声をあげるみかん。
 #SCRIPT ORIGINAL 受け取った袋の中身を確認して、喜びの声をあげるみかん。
 　She discovers what's inside and exclaims happily.
 
 @mikan_warai		#笑
 
-#「お兄ちゃんが買ってきたの？」
 #SCRIPT ORIGINAL 「お兄ちゃんが買ってきたの？」
 ＠Mikan,A01532
 「Did you buy this?」
 
-#「お店のサービスで貰った物だよ。だから全員の分が無いんだけど」
 #SCRIPT ORIGINAL 「お店のサービスで貰った物だよ。だから全員の分が無いんだけど」
 ＠Itsuki
 「I got it for free from the store. That's why there isn't enough for everyone」
 
-#「これ、みかんがもらってもいいのっ？」
 #SCRIPT ORIGINAL 「これ、みかんがもらってもいいのっ？」
 ＠Mikan,A01533
 「Is it really OK for me to have this?」
 
-#「他の子、特にいちごは羨むから内緒でな」
 #SCRIPT ORIGINAL 「他の子、特にいちごは羨むから内緒でな」
 ＠Itsuki
 「The others, especially Ichigo, are going to be jealous so let's keep it hush-hush」
 
 @mikan_komikaru_warai	#コミカル笑
 
-#「うんッ。わ～いクッキだー♪」
 #SCRIPT ORIGINAL 「うんッ。わ～いクッキだー♪」
 ＠Mikan,A01534
 「Sure. Yay a cookieー♪」
 
-#そのままここで包みを広げるみかんと一緒に、クッキーを摘みながら過ごした。
 #SCRIPT ORIGINAL そのままここで包みを広げるみかんと一緒に、クッキーを摘みながら過ごした。
 　Mikan unwrapped it, and so cookie in hand we spent some time together.
 
@@ -400,63 +377,51 @@ label	ep_mikan_03
 #■BG（廊下）
 @bg_rouka
 
-#美雨と一緒に段取りを話しながら、廊下を進んでいた。
 #SCRIPT ORIGINAL 美雨と一緒に段取りを話しながら、廊下を進んでいた。
 　I walked with Miu down the hallway talking about our arrangement.
 
 @miu			#閉_にこ
 
-#「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 #SCRIPT ORIGINAL 「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 ＠Miu,B01490
 「Well then, I'll be in the library room next door, call me if you need anything」
 
-#「分かった。終わったらオレもそっちを手伝うから」
 #SCRIPT ORIGINAL 「分かった。終わったらオレもそっちを手伝うから」
 ＠Itsuki
 「Sure. If I finish early I'll come and help」
 
-#「はい。すみませんけれど、よろしくお願いします」
 #SCRIPT ORIGINAL 「はい。すみませんけれど、よろしくお願いします」
 ＠Miu,B01491
 「OK, thanks so much」
 
 @miu_
 
-#ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
 #SCRIPT ORIGINAL ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
 　We part in front of the door. Miu goes into the library room and I go into the game room.
 
 #■BG（娯楽室）
 @bg_goraku
 
-#「さて、と」
 #SCRIPT ORIGINAL 「さて、と」
 ＠Itsuki
 「Now then...」
 
-#部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
 #SCRIPT ORIGINAL 部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
 　Miu had already left a bucket and house-cloth inside.
 
-#さっきの段取りと言うのは、掃除の手伝いのことだ。
 #SCRIPT ORIGINAL さっきの段取りと言うのは、掃除の手伝いのことだ。
 　We'd been talking about helping her with cleaning the household.
 
-#遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
 #SCRIPT ORIGINAL 遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
 　I had to almost force myself into volunteering to help out, as Miu was hesitant.
 
-#「こうして落ち着いて見ると、けっこう汚れてるものだな」
 #SCRIPT ORIGINAL 「こうして落ち着いて見ると、けっこう汚れてるものだな」
 ＠Itsuki
 「If I take the time to look closely like this, it's gotten pretty dirty」
 
-#遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
 #SCRIPT ORIGINAL 遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
 　When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
-#後はもう、出しっぱなしで片付けてないカードとかも……
 #SCRIPT ORIGINAL 後はもう、出しっぱなしで片付けてないカードとかも……
 　And there's some cards and stuff that haven't been put away...
 
@@ -467,81 +432,66 @@ wait		1000
 @mikan_shifuku
 @mikan			#普通
 
-#「お兄ちゃん……？」
 #SCRIPT ORIGINAL 「お兄ちゃん……？」
 ＠Mikan,A01543
 「Onii-chan...?」
 
-#ドアが開き、そこからみかんが顔を出した。
 #SCRIPT ORIGINAL ドアが開き、そこからみかんが顔を出した。
 　The door opens and Mikan shows up.
 
-#「みかんか。そうだ、ドアそのまま開けておいてくれるか」
 #SCRIPT ORIGINAL 「みかんか。そうだ、ドアそのまま開けておいてくれるか」
 ＠Itsuki
 「Oh, hey Mikan. Can you leave the door open?」
 
-#「え？　いいけど、何してるの？」
 #SCRIPT ORIGINAL 「え？　いいけど、何してるの？」
 ＠Mikan,A01544
 「Huh? Sure, what are you doing?」
 
-#「散らかってるから、美雨の掃除の手伝いだよ」
 #SCRIPT ORIGINAL 「散らかってるから、美雨の掃除の手伝いだよ」
 ＠Itsuki
 「Things have gotten a little messy so I'm helping Miu with cleaning」
 
 @mikan_odoroki		#驚
 
-#「あ、そっかぁ。けっこう汚れてるもんね、この部屋」
 #SCRIPT ORIGINAL 「あ、そっかぁ。けっこう汚れてるもんね、この部屋」
 ＠Mikan,A01545
 「Oh, I see... It's pretty dirty in here, isn't it?」
 
 @mikan_warai		#笑
 
-#「うん。だったらみかん、お手伝いするよ」
 #SCRIPT ORIGINAL 「うん。だったらみかん、お手伝いするよ」
 ＠Mikan,A01546
 「Right. Then I'll help you out」
 
-#「いいのか？　みかんはせっかくの休暇じゃないか」
 #SCRIPT ORIGINAL 「いいのか？　みかんはせっかくの休暇じゃないか」
 ＠Itsuki
 「Are you sure? It's your day off today though」
 
-#「うん。お兄ちゃんと一緒に遊ぼうって思ってたから。お掃除でも楽しいよ」
 #SCRIPT ORIGINAL 「うん。お兄ちゃんと一緒に遊ぼうって思ってたから。お掃除でも楽しいよ」
 ＠Mikan,A01547
 「Yeah. I wanted to play something with you. I don't mind cleaning either」
 
 @mikan_
 
-#パタパタと部屋の中を走ると、窓を開けて空気を入れ替えていくみかん。
 #SCRIPT ORIGINAL パタパタと部屋の中を走ると、窓を開けて空気を入れ替えていくみかん。
 　Mikan runs across the room, and opening a window lets some fresh air in.
 
 @mikan			#普通
 
-#「お手伝いしていいでしょ？」
 #SCRIPT ORIGINAL 「お手伝いしていいでしょ？」
 ＠Mikan,A01548
 「I can help too, right?」
 
-#「そういうことなら、頼もうかな」
 #SCRIPT ORIGINAL 「そういうことなら、頼もうかな」
 ＠Itsuki
 「Sure, you can help out」
 
-#一人だと大変でも、二人なら早く終わるはずだ。
 #SCRIPT ORIGINAL 一人だと大変でも、二人なら早く終わるはずだ。
 　This would have been time-consuming alone, but with the 2 of us it should be done fairly quickly.
 
-#そうすれば美雨の手伝いにも行けるし。
 #SCRIPT ORIGINAL そうすれば美雨の手伝いにも行けるし。
 　Then we can go help Miu too.
 
-#「ありがと。お利口だな、みかんは」
 #SCRIPT ORIGINAL 「ありがと。お利口だな、みかんは」
 ＠Itsuki
 「Thanks. Good idea, Mikan」
@@ -552,12 +502,10 @@ wait		1000
 @mikan_middle		# 中間
 @mikan_warai2		#笑2
 
-#「えへへ♪　頑張って綺麗にしようね」
 #SCRIPT ORIGINAL 「えへへ♪　頑張って綺麗にしようね」
 ＠Mikan,A01549
 「Ehehe♪ Let's work hard and get it nice and tidy」
 
-#側によってきたみかんの頭を撫でてやる。
 #SCRIPT ORIGINAL 側によってきたみかんの頭を撫でてやる。
 　Mikan comes to my side and I give her a friendly pat on the head.
 
@@ -565,7 +513,6 @@ bgm_stop
 #■BG（黒）
 @bg_black
 
-#二人ですると掃除はすぐに終わり、その後は美雨を手伝い三人で施設を掃除していった。
 #SCRIPT ORIGINAL 二人ですると掃除はすぐに終わり、その後は美雨を手伝い三人で施設を掃除していった。
 　With the 2 of us we were done in no time, and went to help Miu clean the place with all 3 of us.
 
@@ -584,69 +531,55 @@ label	ep_mikan_04
 #■BG（黒）
 @bg_black
 
-#改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
 #SCRIPT ORIGINAL 改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
 　I don't need to say it again, but Shizuku really loves doing useless things.
 
-#とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
 #SCRIPT ORIGINAL とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
 　She can't ever calm down, and is always amusing herself at the expense of the people around her.
 
 #■BG（自室・夜）
 @bg_itsuki_n
 
-#「や、やられたぁッ……！！」
 #SCRIPT ORIGINAL 「や、やられたぁッ……！！」
 ＠Itsuki
 「W-what the hell...」
 
 @bgm12			#演：仮ＢＧＭ
 
-#お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
 #SCRIPT ORIGINAL お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
 　Returning from the bath I was dumbstruck at the scene before me.
 
-#部屋の中には曲者の侵入の痕跡が残っていた。
 #SCRIPT ORIGINAL 部屋の中には曲者の侵入の痕跡が残っていた。
 　Someone had intruded in my room and left a mess all over the place.
 
-#いや、残っているどころか、
 #SCRIPT ORIGINAL いや、残っているどころか、
 　No, not just a mess...
 
-#「部屋中の本がエロ本にすり替わってる！！」
 #SCRIPT ORIGINAL 「部屋中の本がエロ本にすり替わってる！！」
 ＠Itsuki
 「All my books have been switched with porn magazines!!」
 
-#本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
 #SCRIPT ORIGINAL 本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
 　Everything from my bookshelf to my nightstand, an overflowing sexual deviance was scattered about.
 
-#むしろ産卵しているかもしれない。
 #SCRIPT ORIGINAL むしろ産卵しているかもしれない。
 　Or perhaps planted there...
 
-#「こんなくだらない事に労力を使うのは、雫さんだな……」
 #SCRIPT ORIGINAL 「こんなくだらない事に労力を使うのは、雫さんだな……」
 ＠Itsuki
 「Only Shizuku would go to so much trouble...」
 
-#図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
 #SCRIPT ORIGINAL 図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
 　They're probably from the library room. I don't think this is all the work of one person though.
 
-#「手伝ったのはざくろだろうな。未だに行動が読めないし」
 #SCRIPT ORIGINAL 「手伝ったのはざくろだろうな。未だに行動が読めないし」
 ＠Itsuki
 「Zakuro probably helped. She seems pretty fishy too」
 
-#「……ったく」
 #SCRIPT ORIGINAL 「……ったく」
 ＠Itsuki
 「...Jeez」
 
-#放っておくわけにもいかないので、とりあえず片付け始める。
 #SCRIPT ORIGINAL 放っておくわけにもいかないので、とりあえず片付け始める。
 　I can't just leave it like this, so I start cleaning it up.
 
@@ -654,30 +587,24 @@ label	ep_mikan_04
 @SE11			#SE11　部屋のドアをノック（コンコン）
 #コンコン。
 
-#「ん？　ざくろか。雫さんですか？　どうぞ」
 #SCRIPT ORIGINAL 「ん？　ざくろか。雫さんですか？　どうぞ」
 ＠Itsuki
 「Is that you, Zakuro? Shizuku-san? Come in」
 
-#「ううん、みかんだよ。入るね～」
 #SCRIPT ORIGINAL 「ううん、みかんだよ。入るね～」
 ＠Mikan,A01550
 「No, it's Mikan. I'm coming in～」
 
-#………え。
 #SCRIPT ORIGINAL ………え。
 　......Huh.
 
-#「……え゛！？」
 #SCRIPT ORIGINAL 「……え゛！？」
 ＠Itsuki
 「...Huh!?」
 
-#地の文と合わせて二回驚いてしまった。
 #SCRIPT ORIGINAL 地の文と合わせて二回驚いてしまった。
 　My surprise blended together with the narration.
 
-#「ちょ、ま、待てみかんッ。入るな！」
 #SCRIPT ORIGINAL 「ちょ、ま、待てみかんッ。入るな！」
 ＠Itsuki
 「W-wait, don't come in yet Mikan!」
@@ -690,71 +617,58 @@ wait		1000
 @mikan_small		# 遠い
 @mikan_warai2		#笑2
 
-#「あのね、今国語の宿題をやってて分からない言葉があるんだけど―――」
 #SCRIPT ORIGINAL 「あのね、今国語の宿題をやってて分からない言葉があるんだけど―――」
 ＠Mikan,A01551
 「Um, I'm doing language homework and there's a word I don't―――」
 
-#「……『哀れみの視線』っていう………意味が…」
 #SCRIPT ORIGINAL 「……『哀れみの視線』っていう………意味が…」
 ＠Mikan,A01552
 「...It says "eyes of pity"...... what does that...」
 
-#入って来たみかんから、徐々に笑顔が消えていく。
 #SCRIPT ORIGINAL 入って来たみかんから、徐々に笑顔が消えていく。
 　Mikan's smile when she came in slowly fades.
 
 @mikan			#普通
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Mikan,A01553
 「......」
 
 @mikan_kanashimi	#哀
 
-#「は、はは……意味か。実演は出来てるな……」
 #SCRIPT ORIGINAL 「は、はは……意味か。実演は出来てるな……」
 ＠Itsuki
 「Ha, haha... what does it mean? You're doing a stage show, aren't you...?」
 
-#まさに今のみかんのソレが、哀れみの視線だった。
 #SCRIPT ORIGINAL まさに今のみかんのソレが、哀れみの視線だった。
 　That's exactly what Mikan just showed me, eyes of pity.
 
-#「お兄ちゃん……部屋の中にエッチな本がいっぱい……」
 #SCRIPT ORIGINAL 「お兄ちゃん……部屋の中にエッチな本がいっぱい……」
 ＠Mikan,A01554
 「Onii-chan... There's a lot of dirty books in your room...」
 
-#「こ、これはオレじゃないぞッ。きっと雫さんが！」
 #SCRIPT ORIGINAL 「こ、これはオレじゃないぞッ。きっと雫さんが！」
 ＠Itsuki
 「T-They're not mine! I'm sure Shizuku-san put them here!」
 
-#「ううん。お兄ちゃんのお仕事だもんね。みかん分かってるよ」
 #SCRIPT ORIGINAL 「ううん。お兄ちゃんのお仕事だもんね。みかん分かってるよ」
 ＠Mikan,A01555
 「No, I get it. This is your job after all, right?」
 
-#「でも、お兄ちゃんこういうのが好きなんだ……」
 #SCRIPT ORIGINAL 「でも、お兄ちゃんこういうのが好きなんだ……」
 ＠Mikan,A01556
 「But, you really like stuff like this a lot...」
 
-#「全然分かってないじゃないか……」
 #SCRIPT ORIGINAL 「全然分かってないじゃないか……」
 ＠Itsuki
 「No, it's not what you think...」
 
 @mikan_kusyou		#苦笑
 
-#「宿題は美雨さんに聞いてくるから。お仕事の邪魔してごめんね」
 #SCRIPT ORIGINAL 「宿題は美雨さんに聞いてくるから。お仕事の邪魔してごめんね」
 ＠Mikan,A01557
 「I'll go ask Miu for help. Sorry for interrupting your work」
 
-#「それと、みかんとする時は、この本みたいに痛そうなことはしないでね……？」
 #SCRIPT ORIGINAL 「それと、みかんとする時は、この本みたいに痛そうなことはしないでね……？」
 ＠Mikan,A01558
 「But don't do those painful-looking things like in that book with me, okay...?」
@@ -765,15 +679,12 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#不安や羞恥や哀れみの表情を漂わせて、みかんがドアの向こうに消えた。
 #SCRIPT ORIGINAL 不安や羞恥や哀れみの表情を漂わせて、みかんがドアの向こうに消えた。
 　Looking nervous, embarrassed, and showing me eyes of pity, Mikan disappeared behind the door.
 
-#オレの手には、片付けようと思った本格ハードＳＭ本。
 #SCRIPT ORIGINAL オレの手には、片付けようと思った本格ハードＳＭ本。
 　I notice the hardcore S&M book I'd been holding in my hand meaning to put away.
 
-#「うわあああああーー！！」
 #SCRIPT ORIGINAL 「うわあああああーー！！」
 ＠Itsuki
 「Uwahhhhhh!!」
@@ -781,7 +692,6 @@ wait		1000
 #■BG（黒）
 @bg_black
 
-#雫さんを連れて誤解を解くまで（結局犯人だった）、みかんから微妙な距離を保たれてしまった。
 #SCRIPT ORIGINAL 雫さんを連れて誤解を解くまで（結局犯人だった）、みかんから微妙な距離を保たれてしまった。
 　I had to keep well away from Mikan until I took Shizuku (the real culprit) with me to clear this up.
 
@@ -803,18 +713,15 @@ label	ep_mikan_05
 #■BG（廊下）
 @bg_rouka
 
-#自室に戻る途中、図書室の前でふと足を止めた。
 #SCRIPT ORIGINAL 自室に戻る途中、図書室の前でふと足を止めた。
 　Heading back to my room I stopped suddenly in front of the library room.
 
 @bgm12			#演：仮ＢＧＭ
 
-#「そういえば、読みかけの本があったっけ……」
 #SCRIPT ORIGINAL 「そういえば、読みかけの本があったっけ……」
 ＠Itsuki
 「Oh yeah, there was that book I wanted to read...」
 
-#ちょうど時間も空いてるし、少し読んでいくことにしよう。
 #SCRIPT ORIGINAL ちょうど時間も空いてるし、少し読んでいくことにしよう。
 　I've got nothing to do, may as well read for a while.
 
@@ -826,248 +733,200 @@ wait		1000
 #SE06　部屋のドア開く音（ガチャ）
 @bg_library
 
-#「…？」
 #SCRIPT ORIGINAL 「…？」
 ＠Mikan,A01559
 「...?」
 
-#中に入ると、先にいた先客が顔を上げた。
 #SCRIPT ORIGINAL 中に入ると、先にいた先客が顔を上げた。
 　The previous occupant lifts her gaze as I come in.
 
 @mikan_warai		#笑
 
-#「あ、お兄ちゃん」
 #SCRIPT ORIGINAL 「あ、お兄ちゃん」
 ＠Mikan,A01560
 「Ah, Onii-chan」
 
-#「あれ、図書室に居たのかみかん。一人か？」
 #SCRIPT ORIGINAL 「あれ、図書室に居たのかみかん。一人か？」
 ＠Itsuki
 「Oh, it's you Mikan. Are you here by yourself?」
 
 @mikan_warai2		#笑2
 
-#「うん。宿題やってるの」
 #SCRIPT ORIGINAL 「うん。宿題やってるの」
 ＠Mikan,A01561
 「Yeah. I'm doing homework」
 
-#「いつもは部屋でしてるんだけど、昨日新しい漫画を買ってきちゃったから」
 #SCRIPT ORIGINAL 「いつもは部屋でしてるんだけど、昨日新しい漫画を買ってきちゃったから」
 ＠Mikan,A01562
 「I usually do it in my room, but I bought a new manga yesterday」
 
-#「ん、うん……？」
 #SCRIPT ORIGINAL 「ん、うん……？」
 ＠Itsuki
 「Oh, OK...?」
 
-#会話の流れで頷きかけたが、今の何が原因なのかよく分からない。
 #SCRIPT ORIGINAL 会話の流れで頷きかけたが、今の何が原因なのかよく分からない。
 　I nod in the flow of the conversation, but don't really understand what she meant.
 
 @mikan_kusyou		#苦笑
 
-#「部屋に居たら、つい漫画の続きが気になって読んじゃいそうなの」
 #SCRIPT ORIGINAL 「部屋に居たら、つい漫画の続きが気になって読んじゃいそうなの」
 ＠Mikan,A01563
 「When I'm in my room, I can't help but feel like reading it」
 
-#「ああ、なるほど。ははっ、確かにあるな」
 #SCRIPT ORIGINAL 「ああ、なるほど。ははっ、確かにあるな」
 ＠Itsuki
 「Oh, I see. Haha, that happens」
 
 @mikan			#普通
 
-#「ねぇお兄ちゃん、いま勉強見てもらってもいい？」
 #SCRIPT ORIGINAL 「ねぇお兄ちゃん、いま勉強見てもらってもいい？」
 ＠Mikan,A01564
 「So Onii-chan, can you look at my work for me?」
 
-#「いいけど、どこか分からないところでもあったか？」
 #SCRIPT ORIGINAL 「いいけど、どこか分からないところでもあったか？」
 ＠Itsuki
 「Sure, is there something you didn't understand?」
 
-#「ううん、答え合わせ」
 #SCRIPT ORIGINAL 「ううん、答え合わせ」
 ＠Mikan,A01565
 「Nope, just checking my answers」
 
-#「こっちの計算ドリルの３ページなんだけど。解答集はみんな先生に提出しちゃってるんだ」
 #SCRIPT ORIGINAL 「こっちの計算ドリルの３ページなんだけど。解答集はみんな先生に提出しちゃってるんだ」
 ＠Mikan,A01566
 「It's these 3 pages of math drills. We have to hand in our answers to the teacher」
 
-#「どれどれ」
 #SCRIPT ORIGINAL 「どれどれ」
 ＠Itsuki
 「Let's see here...」
 
-#みかんの指すドリルのページを開いてみる。
 #SCRIPT ORIGINAL みかんの指すドリルのページを開いてみる。
 　I open to the page of drills Mikan is pointing to.
 
-#そこには丸っこい綺麗な字で、式と答えが書き込まれていた。
 #SCRIPT ORIGINAL そこには丸っこい綺麗な字で、式と答えが書き込まれていた。
 　She has the formulas and answers filled in, in tidy round handwriting.
 
-#「結構たくさんあるんだけど」
 #SCRIPT ORIGINAL 「結構たくさんあるんだけど」
 ＠Mikan,A01567
 「There's a lot though」
 
-#「ふむ。これは全部、今日解いた宿題か？」
 #SCRIPT ORIGINAL 「ふむ。これは全部、今日解いた宿題か？」
 ＠Itsuki
 「Mhm. Did you solve all these today?」
 
-#「うん。習ったばかりの復習問題だよ」
 #SCRIPT ORIGINAL 「うん。習ったばかりの復習問題だよ」
 ＠Mikan,A01568
 「Yeah. It's all review of stuff we learned before」
 
-#「そっか。頑張ったんだな、みかん」
 #SCRIPT ORIGINAL 「そっか。頑張ったんだな、みかん」
 ＠Itsuki
 「I see. You've been working hard, Mikan」
 
-#まずはそれを褒めて、みかんのことを軽く撫でてあげる。
 #SCRIPT ORIGINAL まずはそれを褒めて、みかんのことを軽く撫でてあげる。
 　I praise her first and gently pat her head.
 
 @mikan_warai2		#笑2
 
-#「えへへ。でもまだ、正解してるか分からないよ」
 #SCRIPT ORIGINAL 「えへへ。でもまだ、正解してるか分からないよ」
 ＠Mikan,A01569
 「Ehehe. I don't know if it's right yet, though」
 
-#「よし。さっそく採点しようか」
 #SCRIPT ORIGINAL 「よし。さっそく採点しようか」
 ＠Itsuki
 「Alright, I'd better get to marking it」
 
-#みかんの隣に座って、ルーズリーフへ計算を写し解きなおす。
 #SCRIPT ORIGINAL みかんの隣に座って、ルーズリーフへ計算を写し解きなおす。
 　Taking a seat beside Mikan, I copy the problems to a loose-leaf and solve them over again.
 
 @mikan_
 
-#一問目、
 #SCRIPT ORIGINAL 一問目、
 　First question,
 
-#……二問目、
 #SCRIPT ORIGINAL ……二問目、
 　...Second question,
 
-#…………三問目、
 #SCRIPT ORIGINAL …………三問目、
 　......Third question,
 
 @mikan_middle		# 中間
 @mikan_odoroki		#驚
 
-#「わ。すごいお兄ちゃん、解くの早い～♪」
 #SCRIPT ORIGINAL 「わ。すごいお兄ちゃん、解くの早い～♪」
 ＠Mikan,A01570
 「Wow Onii-chan, you're so quick～♪」
 
-#「はは、まぁ採点者が悩んでたらダメだからな」
 #SCRIPT ORIGINAL 「はは、まぁ採点者が悩んでたらダメだからな」
 ＠Itsuki
 「Haha, well the marker shouldn't have trouble with it」
 
-#正解続きで問題は半分を越え、そのまま三分の二も過ぎる。
 #SCRIPT ORIGINAL 正解続きで問題は半分を越え、そのまま三分の二も過ぎる。
 　I get past halfway with all checkmarks, even 2 thirds.
 
-#が、そこで、
 #SCRIPT ORIGINAL が、そこで、
 　But, right here...
 
-#「……ん？　ここはちょっとおかしいな」
 #SCRIPT ORIGINAL 「……ん？　ここはちょっとおかしいな」
 ＠Itsuki
 「...Hm? This doesn't make sense」
 
 @mikan			#普通
 
-#「え。どこどこ…？」
 #SCRIPT ORIGINAL 「え。どこどこ…？」
 ＠Mikan,A01571
 「Eh? Where, where...?」
 
-#「ここ、オレの解答とみかんの解答が違うだろ」
 #SCRIPT ORIGINAL 「ここ、オレの解答とみかんの解答が違うだろ」
 ＠Itsuki
 「Here, our answers are different」
 
-#ドリルを見つめるみかんの身体が、自然とオレの方へ寄り添ってくる。
 #SCRIPT ORIGINAL ドリルを見つめるみかんの身体が、自然とオレの方へ寄り添ってくる。
 　Mikan staring fixedly at the drills, she drifts closer.
 
-#「ほんとだ……えっと、こうかな……」
 #SCRIPT ORIGINAL 「ほんとだ……えっと、こうかな……」
 ＠Mikan,A01572
 「You're right... um, maybe if I do this...」
 
-#そのまま、うんうんと悩みながら問題を解きなおす。
 #SCRIPT ORIGINAL そのまま、うんうんと悩みながら問題を解きなおす。
 　Just like that, Mikan talking to herself sets about solving it again.
 
-#それは別に何でもないことだが、一生懸命な姿は妙に可愛かった。
 #SCRIPT ORIGINAL それは別に何でもないことだが、一生懸命な姿は妙に可愛かった。
 　It's nothing special, but the way she puts all her effort into it is very cute.
 
-#「みかん、上手くとけたら膝の上で抱っこしてやるぞ」
 #SCRIPT ORIGINAL 「みかん、上手くとけたら膝の上で抱っこしてやるぞ」
 ＠Itsuki
 「Mikan, if you get the right answer, I'll let you sit on my lap」
 
 @mikan_kanashimi	#哀
 
-#「あ。やっぱりおんなじ答えになっちゃうよ……」
 #SCRIPT ORIGINAL 「あ。やっぱりおんなじ答えになっちゃうよ……」
 ＠Mikan,A01573
 「Ah. I got the same answer as before...」
 
-#コンマ２秒で返事が返ってきた。
 #SCRIPT ORIGINAL コンマ２秒で返事が返ってきた。
 　Her reply came in a fraction of second.
 
-#って言うか、問題に集中してみかんは聞こえてなかったみたいだ。
 #SCRIPT ORIGINAL って言うか、問題に集中してみかんは聞こえてなかったみたいだ。
 　She must have been focusing on the problem and didn't hear what I said.
 
 @mikan_odoroki		#驚
 
-#「あれ。お兄ちゃん今みかんに何か言った？」
 #SCRIPT ORIGINAL 「あれ。お兄ちゃん今みかんに何か言った？」
 ＠Mikan,A01574
 「Wait, did you say something just now?」
 
-#「いや、何でもない。気にするな」
 #SCRIPT ORIGINAL 「いや、何でもない。気にするな」
 ＠Itsuki
 「No, it's nothing. Don't worry about it」
 
-#「間違いの原因は公式の使い方だな。慣れてないと良くあるミスだ」
 #SCRIPT ORIGINAL 「間違いの原因は公式の使い方だな。慣れてないと良くあるミスだ」
 ＠Itsuki
 「It has to do with how you're using the formula. It's a pretty common mistake if you're not used to it」
 
 @mikan			#普通
 
-#みかんの前で問題を解きながら、説明を加える。
 #SCRIPT ORIGINAL みかんの前で問題を解きながら、説明を加える。
 　I solve it in front of Mikan, explaining as I go along.
 
-#そうやってみかんの宿題が終わるまで、一緒に勉強を見てあげて過ごした。
 #SCRIPT ORIGINAL そうやってみかんの宿題が終わるまで、一緒に勉強を見てあげて過ごした。
 　And so, I spent some time helping her with her homework, until we were done.
 
@@ -1089,20 +948,16 @@ label	ep_mikan_06
 #■BG（廊下）
 @bg_rouka
 
-#「おや……？」
 #SCRIPT ORIGINAL 「おや……？」
 ＠Itsuki
 「Hm...?」
 
-#食堂に続く廊下でみかんの後ろ姿を見つけた。
 #SCRIPT ORIGINAL 食堂に続く廊下でみかんの後ろ姿を見つけた。
 　I saw Mikan heading to the dining room.
 
-#そのまま気付かずに食堂へ入っていく。
 #SCRIPT ORIGINAL そのまま気付かずに食堂へ入っていく。
 　She went in without noticing me.
 
-#「さては、夕食前につまみ食いだな」
 #SCRIPT ORIGINAL 「さては、夕食前につまみ食いだな」
 ＠Itsuki
 「I bet she wants to sneak in some food before dinner」
@@ -1110,7 +965,6 @@ label	ep_mikan_06
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 
-#……そう言えばオレも小腹が空いた。
 #SCRIPT ORIGINAL ……そう言えばオレも小腹が空いた。
 　...Actually, I'm pretty hungry too.
 
@@ -1122,11 +976,9 @@ wait		1000
 @bg_dining
 @bgm12			#演：仮ＢＧＭ
 
-#中に入ると、ちょうどみかんが背を向けるように座り、モグモグと何かを食べていた。
 #SCRIPT ORIGINAL 中に入ると、ちょうどみかんが背を向けるように座り、モグモグと何かを食べていた。
 　Sure enough, when I go in Mikan is turned away munching on something.
 
-#「みかん、つまみ食いはほどほどにしろよ？」
 #SCRIPT ORIGINAL 「みかん、つまみ食いはほどほどにしろよ？」
 ＠Itsuki
 「Mikan, go easy on it before dinner」
@@ -1135,42 +987,35 @@ wait		1000
 @mikan_shifuku
 @mikan_komikaru_kanashimi	#コミカル哀
 
-#「わぁッ！？　ご、ごめんなさい～っ」
 #SCRIPT ORIGINAL 「わぁッ！？　ご、ごめんなさい～っ」
 ＠Mikan,A01575
 「Ahh!? S-sorry～」
 
 @mikan_odoroki		#驚
 
-#「……って、お兄ちゃんか～。ビックリした」
 #SCRIPT ORIGINAL 「……って、お兄ちゃんか～。ビックリした」
 ＠Mikan,A01576
 「...Oh, it's you Onii-chan. You startled me」
 
-#「ははっ、みかんは無防備だなぁ。ちゃんと周りに注意を払わないと」
 #SCRIPT ORIGINAL 「ははっ、みかんは無防備だなぁ。ちゃんと周りに注意を払わないと」
 ＠Itsuki
 「Haha, you're so defenseless, you have to be more aware of your surroundings」
 
 @mikan_kanashimi	#哀
 
-#「うぅ～……だからって、急に見つかったら驚いちゃうよぉ、も～」
 #SCRIPT ORIGINAL 「うぅ～……だからって、急に見つかったら驚いちゃうよぉ、も～」
 ＠Mikan,A01577
 「Uuh～... No, anyone would be surprised getting snuck up on, jeez～」
 
 @mikan_
 
-#安堵するみかんの隣へ並び、その摘んでいる物を確認する。
 #SCRIPT ORIGINAL 安堵するみかんの隣へ並び、その摘んでいる物を確認する。
 　I look more closely at the thing she was so coveting, lined up next to her.
 
-#「……あれ。プリンだ」
 #SCRIPT ORIGINAL 「……あれ。プリンだ」
 ＠Itsuki
 「...Oh, it's pudding」
 
-#「豆腐プリン……？」
 #SCRIPT ORIGINAL 「豆腐プリン……？」
 ＠Itsuki
 「Tofu pudding...?」
@@ -1178,78 +1023,64 @@ wait		1000
 @mikan_middle		# 中間
 @mikan			#普通
 
-#「え？　普通のプリンだよ、たぶん」
 #SCRIPT ORIGINAL 「え？　普通のプリンだよ、たぶん」
 ＠Mikan,A01578
 「Huh? It's just pudding, I think」
 
-#「だよな……」
 #SCRIPT ORIGINAL 「だよな……」
 ＠Itsuki
 「Yeah...」
 
-#まぁ豆腐プリンがオカズなのかどうかは微妙だが。
 #SCRIPT ORIGINAL まぁ豆腐プリンがオカズなのかどうかは微妙だが。
 　That's an odd side dish to have prepared for dinner.
 
-#「みかん今日、三時におやつ食べてなかったから。これがそうなの」
 #SCRIPT ORIGINAL 「みかん今日、三時におやつ食べてなかったから。これがそうなの」
 ＠Mikan,A01579
 「I didn't have my snack at 3 today, this is it」
 
-#「何だ、そうか。てっきり夕食のつまみ食いかと思った」
 #SCRIPT ORIGINAL 「何だ、そうか。てっきり夕食のつまみ食いかと思った」
 ＠Itsuki
 「Oh, I see. I thought you were sneaking some food for dinner」
 
 @mikan_odoroki		#驚
 
-#「えーっ、つまみ食いなんて酷いよ。みかんを疑ってたの？」
 #SCRIPT ORIGINAL 「えーっ、つまみ食いなんて酷いよ。みかんを疑ってたの？」
 ＠Mikan,A01580
 「Ehh, that's terrible. Is that why you followed me?」
 
-#「はは、悪い。オレも小腹が空いてたからな」
 #SCRIPT ORIGINAL 「はは、悪い。オレも小腹が空いてたからな」
 ＠Itsuki
 「Haha, sorry. Actually I was pretty hungry myself」
 
-#けどそれなら別に見つかっても、驚いて謝ることは無いだろうに。
 #SCRIPT ORIGINAL けどそれなら別に見つかっても、驚いて謝ることは無いだろうに。
 　If that's the case, she didn't need to be surprised and apologize when I found her.
 
 @mikan_warai2		#笑2
 
-#「えへへ……。実はつまみ食いに来て、おやつのことを思い出したの」
 #SCRIPT ORIGINAL 「えへへ……。実はつまみ食いに来て、おやつのことを思い出したの」
 ＠Mikan,A01581
 「Ehehe... Actually I came to sneak some food, but I remembered my snack」
 
-#「やっぱり常習犯だったか」
 #SCRIPT ORIGINAL 「やっぱり常習犯だったか」
 ＠Itsuki
 「So you are doing it after all」
 
 @mikan			#普通
 
-#「うぅん、別にいつもってわけじゃないんだけど……」
 #SCRIPT ORIGINAL 「うぅん、別にいつもってわけじゃないんだけど……」
 ＠Mikan,A01582
 「Well, I don't do it all the time...」
 
 @mikan_warai		#笑
 
-#「えっと～、夕食でみかんのおかずが少ない時は、つまみ食いが見つかって引かれちゃってる時かな」
 #SCRIPT ORIGINAL 「えっと～、夕食でみかんのおかずが少ない時は、つまみ食いが見つかって引かれちゃってる時かな」
 ＠Mikan,A01583
 「Um～, so like when I didn't have much side dish for my rice at dinner, it's because I found it before and couldn't help myself」
 
-#「あぁ、三日に一度くらい、微妙にみかんのおかずが少ない日があるな」
 #SCRIPT ORIGINAL 「あぁ、三日に一度くらい、微妙にみかんのおかずが少ない日があるな」
 ＠Itsuki
 「Oh, that's probably about once every 3 days, it seems like your portion's pretty small」
 
-#「ほとんど毎日じゃん」
 #SCRIPT ORIGINAL 「ほとんど毎日じゃん」
 ＠Itsuki
 「That's pretty often though」
@@ -1269,16 +1100,13 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#「あはは……だって、美雨さんのご飯美味しくて待ちきれないんだもん～」
 #SCRIPT ORIGINAL 「あはは……だって、美雨さんのご飯美味しくて待ちきれないんだもん～」
 ＠Mikan,A01584
 「Ahaha... but Miu's food is so tasty I can't wait～」
 
-#しかもそれは〝見つかってる時〟だから、実行数はもっと多いはずだ。
 #SCRIPT ORIGINAL しかもそれは〝見つかってる時〟だから、実行数はもっと多いはずだ。
 　And that's just how often she finds some, so the actual number is probably more. 
 
-#「やれやれ。みかんの身体のどこにそれだけ入るんだか」
 #SCRIPT ORIGINAL 「やれやれ。みかんの身体のどこにそれだけ入るんだか」
 ＠Itsuki
 「Oh man. Where does that all go inside you」
@@ -1286,18 +1114,15 @@ layer_movepass_play	l_mikan,0,play_once
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 
-#夕食の話に釣られて、ついまたお腹がなってしまう。
 #SCRIPT ORIGINAL 夕食の話に釣られて、ついまたお腹がなってしまう。
 　My stomach rumbles again with all the talk of food.
 
 @mikan			#普通
 
-#「お兄ちゃん、お腹空いてるの？」
 #SCRIPT ORIGINAL 「お兄ちゃん、お腹空いてるの？」
 ＠Mikan,A01585
 「Are you hungry, Onii-chan?」
 
-#「ああ。まぁな」
 #SCRIPT ORIGINAL 「ああ。まぁな」
 ＠Itsuki
 「Yeah, a little」
@@ -1308,76 +1133,62 @@ wait		1000
 @mikan_large
 @mikan_warai2		#笑2
 
-#「じゃあ、はい♪」
 #SCRIPT ORIGINAL 「じゃあ、はい♪」
 ＠Mikan,A01586
 「Then, here you go♪」
 
-#みかんはスプーンですくったプリンを、こちらに差し出してくれた。
 #SCRIPT ORIGINAL みかんはスプーンですくったプリンを、こちらに差し出してくれた。
 　Mikan scoops out some pudding with a spoon, and shoves it toward me.
 
-#「ありがとう。でもこれはみかんのおやつじゃないか」
 #SCRIPT ORIGINAL 「ありがとう。でもこれはみかんのおやつじゃないか」
 ＠Itsuki
 「Thanks, but this is your snack isn't it?」
 
 @mikan_yorokobi		#喜
 
-#「いいよ、一緒に食べよ。一人でおやつなのも寂しかったもん」
 #SCRIPT ORIGINAL 「いいよ、一緒に食べよ。一人でおやつなのも寂しかったもん」
 ＠Mikan,A01587
 「It's fine, let's both have some. It's lonely snacking on my own」
 
-#「そっか。じゃあ少しだけ貰うな」
 #SCRIPT ORIGINAL 「そっか。じゃあ少しだけ貰うな」
 ＠Itsuki
 「Alright, just a little then」
 
-#パクッとスプーンを口に含む。
 #SCRIPT ORIGINAL パクッとスプーンを口に含む。
 　I take the spoon in my mouth.
 
-#スプーンが引き抜かれて残ったプリンからは、どこか懐かしい味と感触がした。
 #SCRIPT ORIGINAL スプーンが引き抜かれて残ったプリンからは、どこか懐かしい味と感触がした。
 　She removes the spoon, and the pudding gives a nostalgic flavour.
 
 @mikan_warai		#笑
 
-#「美味しい？」
 #SCRIPT ORIGINAL 「美味しい？」
 ＠Mikan,A01588
 「Is it good?」
 
-#「うん、美味い」
 #SCRIPT ORIGINAL 「うん、美味い」
 ＠Itsuki
 「Yeah, it's good」
 
 @mikan_warai2		#笑2
 
-#「それじゃあもう一口、はい♪」
 #SCRIPT ORIGINAL 「それじゃあもう一口、はい♪」
 ＠Mikan,A01589
 「Then here's another one♪」
 
-#さっきより大きめのプリンも、パクリと一口で口に運んだ。
 #SCRIPT ORIGINAL さっきより大きめのプリンも、パクリと一口で口に運んだ。
 　I accept another dollop of pudding in my mouth, bigger than the last one.
 
-#「貸してごらん。今度はオレがみかんにしてあげるから」
 #SCRIPT ORIGINAL 「貸してごらん。今度はオレがみかんにしてあげるから」
 ＠Itsuki
 「Pass it here. I'll feed you some too」
 
 @mikan_odoroki		#驚
 
-#「ほんとっ？　じゃあ下のソースのところ、たくさんすくってね♪」
 #SCRIPT ORIGINAL 「ほんとっ？　じゃあ下のソースのところ、たくさんすくってね♪」
 ＠Mikan,A01590
 「Really? Make sure to scoop out a lot of sauce from the bottom♪」
 
-#仲良くそんな風に、夕食までの時間をみかんと過ごした。
 #SCRIPT ORIGINAL 仲良くそんな風に、夕食までの時間をみかんと過ごした。
 　Cozying up to each other like so, we passed the time until dinner.
 
@@ -1385,7 +1196,6 @@ bgm_stop
 #■BG（黒）
 @bg_black
 
-#……後にそれを聞いたかりんから、みかんと過ごしたことに激しい嫉妬を買ったのだが。
 #SCRIPT ORIGINAL ……後にそれを聞いたかりんから、みかんと過ごしたことに激しい嫉妬を買ったのだが。
 　...It caused Karin some consternation when she heard about it afterward.
 
@@ -1640,56 +1450,45 @@ label	ep_mikan_08
 #SE22　水を浴びる音（バシャアァァン！）
 @SE22			#SE22　水を浴びる音（バシャアァァン！）
 
-#「ふぃ～。良いお湯だった」
 #SCRIPT ORIGINAL 「ふぃ～。良いお湯だった」
 ＠Itsuki
 「Ahh～. What a nice bath」
 
-#一日の疲れをお風呂で洗い流す。
 #SCRIPT ORIGINAL 一日の疲れをお風呂で洗い流す。
 　I washed away the day's tiredness in the bathtub.
 
-#オレは少しのぼせ気味に長湯を楽しんで、脱衣所に上がった。
 #SCRIPT ORIGINAL オレは少しのぼせ気味に長湯を楽しんで、脱衣所に上がった。
 　After I enjoyed the long, hazy reprieve, I went into the dressing room.
 
-#「ん？」
 #SCRIPT ORIGINAL 「ん？」
 ＠Itsuki
 「Hm?」
 
-#バスタオルを除けて、もう一度確認する。
 #SCRIPT ORIGINAL バスタオルを除けて、もう一度確認する。
 　Taking off my bath towel, I do a double take.
 
-#「しまった……。着替え用意するのを忘れた」
 #SCRIPT ORIGINAL 「しまった……。着替え用意するのを忘れた」
 ＠Itsuki
 「Darn... I forgot to bring a change of clothes」
 
-#入るときに脱いだ服はすでに、洗濯機の中で水洗いされていた。
 #SCRIPT ORIGINAL 入るときに脱いだ服はすでに、洗濯機の中で水洗いされていた。
 　I already put my clothes that I came in with to wash.
 
 #■BG（黒）
 @bg_black
 
-#………。
 #SCRIPT ORIGINAL ………。
 　......
 
-#……………。
 #SCRIPT ORIGINAL ……………。
 　.........
 
-#…………………。
 #SCRIPT ORIGINAL …………………。
 　............
 
 #■BG（廊下）
 @bg_rouka_n
 
-#ペタペタペタ……と、裸足の歩みが小さく音を立てていく。
 #SCRIPT ORIGINAL ペタペタペタ……と、裸足の歩みが小さく音を立てていく。
 　My bare feet walking along sound softly.
 
@@ -1698,20 +1497,16 @@ label	ep_mikan_08
 #＠樹
 #「やれやれ……今が夏でよかった」
 
-#他に手段もなく、オレは腰にバスタオル姿で部屋へ戻っていた。
 #SCRIPT ORIGINAL 他に手段もなく、オレは腰にバスタオル姿で部屋へ戻っていた。
 　Without any alternative, I head back to my room wrapped in the bath towel.
 
-#誰かに着替えを頼むことも考えたが、それはこの姿で人前に出ることを意味する。
 #SCRIPT ORIGINAL 誰かに着替えを頼むことも考えたが、それはこの姿で人前に出ることを意味する。
 　I could have asked somebody to bring me a change of clothes, but that would mean appearing in front of them like this.
 
-#（ならいっそ、誰にも会わない内に部屋に帰った方が無難だしな）
 #SCRIPT ORIGINAL （ならいっそ、誰にも会わない内に部屋に帰った方が無難だしな）
 ＠Itsuki
 (I may as well just take care not to run into anyone on my way back)
 
-#そんな事を思いながら、最初の角を曲がった。
 #SCRIPT ORIGINAL そんな事を思いながら、最初の角を曲がった。
 　As I thought that, I rounded the first corner.
 
@@ -1720,117 +1515,93 @@ label	ep_mikan_08
 @zakuro_pajama
 @zakuro			#普
 
-#「……？」
 #SCRIPT ORIGINAL 「……？」
 ＠Zakuro,Q01103
 「...?」
 
-#「うわ……」
 #SCRIPT ORIGINAL 「うわ……」
 ＠Itsuki
 「Uwah...」
 
-#……いきなり曲がった先で見つかってしまった。
 #SCRIPT ORIGINAL ……いきなり曲がった先で見つかってしまった。
 　...She spotted me right away as I stepped into view.
 
-#しかも、雫さんに次いで見つかりたくなかった人物の一人。ざくろだ。
 #SCRIPT ORIGINAL しかも、雫さんに次いで見つかりたくなかった人物の一人。ざくろだ。
 　And it's the one person after Shizuku I did not want finding me, Zakuro.
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q01104
 「......」
 
-#「や、やぁ、ざくろ……」
 #SCRIPT ORIGINAL 「や、やぁ、ざくろ……」
 ＠Itsuki
 「No, noo, it's Zakuro...」
 
-#「つっちー、そこ裸なの？」
 #SCRIPT ORIGINAL 「つっちー、そこ裸なの？」
 ＠Zakuro,Q01105
 「Tsu-chi, you're naked there」
 
-#抑揚のないざくろの視線が、腰のバスタオルへと向いて問われた。
 #SCRIPT ORIGINAL 抑揚のないざくろの視線が、腰のバスタオルへと向いて問われた。
 　Her emotionless gaze falls to the bath towel around my waist.
 
-#「まぁな。風呂に入ってたから」
 #SCRIPT ORIGINAL 「まぁな。風呂に入ってたから」
 ＠Itsuki
 「Yeah, kind of. I was in the bath」
 
-#「じゃあ、私も着いていく」
 #SCRIPT ORIGINAL 「じゃあ、私も着いていく」
 ＠Zakuro,Q01106
 「Then, I'll come with you」
 
-#「いや、じゃあとか言う意味が分かんないんだが……」
 #SCRIPT ORIGINAL 「いや、じゃあとか言う意味が分かんないんだが……」
 ＠Itsuki
 「Uhh, I don't see how that follows...」
 
 @zakuro_metoji		#閉
 
-#「その格好で勃起したら恥ずかしいから、気をつけてね」
 #SCRIPT ORIGINAL 「その格好で勃起したら恥ずかしいから、気をつけてね」
 ＠Zakuro,Q01107
 「It would be pretty embarrassing if you got a boner here, so be careful」
 
-#考えないようにしてたのに……。
-#スケスケパジャマのざくろが不親切に言ってくれる。
 #SCRIPT ORIGINAL 考えないようにしてたのに……。
 #SCRIPT ORIGINAL スケスケパジャマのざくろが不親切に言ってくれる。
 　I was trying not to think about it, but... Zakuro in her see-through pajama makes sure to remind me.
 
 @zakuro			#普
 
-#「行こつっちー」
 #SCRIPT ORIGINAL 「行こつっちー」
 ＠Zakuro,Q01108
 「Let's go, Tsu-chi」
 
-#「う、ああ……」
 #SCRIPT ORIGINAL 「う、ああ……」
 ＠Itsuki
 「Uh, fine...」
 
 @zakuro_
 
-#トトトッと隣に並んで、どうやら本当についてくる気のようだ……
 #SCRIPT ORIGINAL トトトッと隣に並んで、どうやら本当についてくる気のようだ……
 　Lining up stepwise alongside me, she does seems intent on following me...
 
-#見ない見ない。意識もしない。
 #SCRIPT ORIGINAL 見ない見ない。意識もしない。
 　Don't look, don't look. Out of mind, out of sight.
 
-#「誰の部屋に行くの？」
 #SCRIPT ORIGINAL 「誰の部屋に行くの？」
 ＠Zakuro,Q01109
 「Whose room are we going to?」
 
-#「自分の部屋しかないだろ。服を着たいんだから」
 #SCRIPT ORIGINAL 「自分の部屋しかないだろ。服を着たいんだから」
 ＠Itsuki
 「To my room, where else? I want to put my clothes on」
 
-#「その格好、似合ってるのに」
 #SCRIPT ORIGINAL 「その格好、似合ってるのに」
 ＠Zakuro,Q01110
 「But this get-up looks good on you」
 
-#……どの世界に、バスタオル一枚姿が似合って嬉しい男が居るだろうか。
 #SCRIPT ORIGINAL ……どの世界に、バスタオル一枚姿が似合って嬉しい男が居るだろうか。
 　...In what reality, does she think a man would be pleased, being complimented in nothing but a bath towel?
 
-#少し足早に歩いて、それほど離れていない自室へと向かう。
 #SCRIPT ORIGINAL 少し足早に歩いて、それほど離れていない自室へと向かう。
 　Walking at a quick pace, we're not too far from my room.
 
-#だがついてない時はとことん不運とは続くもので、
 #SCRIPT ORIGINAL だがついてない時はとことん不運とは続くもので、
 　But my bad luck turns into veritable misfortune, when...
 
@@ -1839,64 +1610,53 @@ label	ep_mikan_08
 @mikan_pajama
 @mikan
 
-#「お兄ちゃ――――あれ？」
 #SCRIPT ORIGINAL 「お兄ちゃ――――あれ？」
 ＠Mikan,A01596
 「Onii-cha――――what the...?」
 
-#廊下の先から声を掛けてきたみかんが、顔に困惑を浮かべた。
 #SCRIPT ORIGINAL 廊下の先から声を掛けてきたみかんが、顔に困惑を浮かべた。
 　Mikan, calling from down the hallway, looked bewildered.
 
 @mikan_kusyou		#苦笑
 
-#「えっと、お兄ちゃんどうして裸なの……？」
 #SCRIPT ORIGINAL 「えっと、お兄ちゃんどうして裸なの……？」
 ＠Mikan,A01597
 「Uh, Onii-chan, why are you naked...?」
 
-#「聞かないであげて」
 #SCRIPT ORIGINAL 「聞かないであげて」
 ＠Zakuro,Q01111
 「Please, don't ask」
 
-#「こら、意味深に言うな……。風呂上りの着替えを忘れただけなんだから」
 #SCRIPT ORIGINAL 「こら、意味深に言うな……。風呂上りの着替えを忘れただけなんだから」
 ＠Itsuki
 「Hey, don't talk like that... I just forgot my change of clothes for the bath」
 
 @mikan_kanashimi	#哀
 
-#「寒くないの？　みかんが着替え持ってきてあげようか？」
 #SCRIPT ORIGINAL 「寒くないの？　みかんが着替え持ってきてあげようか？」
 ＠Mikan,A01598
 「Are you cold? Should I bring you a change of clothes?」
 
-#「すぐそこだから大丈夫だよ。じゃあな」
 #SCRIPT ORIGINAL 「すぐそこだから大丈夫だよ。じゃあな」
 ＠Itsuki
 「I'm almost there, so there's no need. Thanks」
 
 @mikan			#普通
 
-#「うんっ」
 #SCRIPT ORIGINAL 「うんっ」
 ＠Mikan,A01599
 「Sure」
 
 @mikan_warai		#笑
 
-#「みかん達リビングで映画見てるから。ざくろちゃんも良かったら来てね」
 #SCRIPT ORIGINAL 「みかん達リビングで映画見てるから。ざくろちゃんも良かったら来てね」
 ＠Mikan,A01600
 「We're watching a movie in the living room. Zakuro-chan, you can come too」
 
-#「うん。つっちーの用事が終わったら行く」
 #SCRIPT ORIGINAL 「うん。つっちーの用事が終わったら行く」
 ＠Zakuro,Q01112
 「Fine. When I'm done with Tsu-chi, I'll come」
 
-#「別にオレは引きとめてもないんだが……」
 #SCRIPT ORIGINAL 「別にオレは引きとめてもないんだが……」
 ＠Itsuki
 「I wasn't asking you to come with me...」
@@ -1907,11 +1667,9 @@ wait		1000
 #SE18　廊下を歩き去る音　※徐々に小さく
 @SE18			#廊下を歩き去る音
 
-#オレ達と別れたみかんは廊下を折れて、リビングへと向かっていった。
 #SCRIPT ORIGINAL オレ達と別れたみかんは廊下を折れて、リビングへと向かっていった。
 　Mikan heads down the hallway, and turns a corner toward the living room.
 
-#「行って良いんだぞ、ざくろ」
 #SCRIPT ORIGINAL 「行って良いんだぞ、ざくろ」
 ＠Itsuki
 「You can go, Zakuro」
@@ -1920,17 +1678,14 @@ wait		1000
 @zakuro_pajama
 @zakuro			#普
 
-#「後でいい。こっちの方がモザイクも無いし」
 #SCRIPT ORIGINAL 「後でいい。こっちの方がモザイクも無いし」
 ＠Zakuro,Q01113
 「Later on. I don't have a mosaic on me, you know」
 
-#「……はぁ」
 #SCRIPT ORIGINAL 「……はぁ」
 ＠Itsuki
 「...Sigh」
 
-#まぁ着いてくるだけなら、断る事もないが。
 #SCRIPT ORIGINAL まぁ着いてくるだけなら、断る事もないが。
 　Well, I guess if she's just following, I can't tell her to leave.
 
@@ -1946,7 +1701,6 @@ wait		2000
 #■BG（自室）
 @bg_itsuki_n
 
-#「ほら、もう着いたぞ」
 #SCRIPT ORIGINAL 「ほら、もう着いたぞ」
 ＠Itsuki
 「See, we're here already」
@@ -1955,36 +1709,30 @@ wait		2000
 @zakuro_pajama
 @zakuro_akire		#呆
 
-#「……ショック。何も無かった」
 #SCRIPT ORIGINAL 「……ショック。何も無かった」
 ＠Zakuro,Q01114
 「...I'm in shock. Nothing happened」
 
-#「いいじゃんか。やっぱり何か変な期待してたんだな……」
 #SCRIPT ORIGINAL 「いいじゃんか。やっぱり何か変な期待してたんだな……」
 ＠Itsuki
 「Of course. I guess you were hoping for something to happen...」
 
 @zakuro			#普
 
-#「うん」
 #SCRIPT ORIGINAL 「うん」
 ＠Zakuro,Q01115
 「Yeah」
 
-#「みかんじゃ無かったら面白かったかも」
 #SCRIPT ORIGINAL 「みかんじゃ無かったら面白かったかも」
 ＠Zakuro,Q01116
 「It might've been more fun if it wasn't Mikan」
 
 @zakuro_metoji		#閉
 
-#「それじゃあ、私もリビングで映画見てくる」
 #SCRIPT ORIGINAL 「それじゃあ、私もリビングで映画見てくる」
 ＠Zakuro,Q01117
 「Then, I'm off to the living room to see the movie too」
 
-#「……え？　ああ」
 #SCRIPT ORIGINAL 「……え？　ああ」
 ＠Itsuki
 「...Huh? Sure」
@@ -1995,29 +1743,23 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#もう興味が無くなったのか、あっさりとみんなの元へ引き上げるざくろ。
 #SCRIPT ORIGINAL もう興味が無くなったのか、あっさりとみんなの元へ引き上げるざくろ。
 　Apparently losing interest, she quickly heads back to where the others are.
 
-#「……切り替え早いなおい」
 #SCRIPT ORIGINAL 「……切り替え早いなおい」
 ＠Itsuki
 「...She sure changed tack fast」
 
-#まぁ別に、部屋で変な期待をしていたわけではないが。
 #SCRIPT ORIGINAL まぁ別に、部屋で変な期待をしていたわけではないが。
 　Well, it's not like I was hoping something would happen here, either.
 
-#……うん。してないぞ、全然。
 #SCRIPT ORIGINAL ……うん。してないぞ、全然。
 　...Right. Nope, nothing at all.
 
-#「確かにみかん以外の子に見つかってたら、穏やかじゃなかったも知れないな」
 #SCRIPT ORIGINAL 「確かにみかん以外の子に見つかってたら、穏やかじゃなかったも知れないな」
 ＠Itsuki
 「If we'd met a girl besides Mikan, things might not have gone so smoothly」
 
-#オレも服を着て、何事もなくリビングへ合流しに行った。
 #SCRIPT ORIGINAL オレも服を着て、何事もなくリビングへ合流しに行った。
 　I dressed, and set off uneventfully to meet them in the living room.
 

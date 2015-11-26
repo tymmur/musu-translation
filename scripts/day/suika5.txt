@@ -10,31 +10,24 @@ label	suika_05
 @bgm12			#BGM 12 : メインテーマ
 @bg_itsuki_n		# 自室(夜)
 
-#さて、パソコンを買ったのはいいけど、どうしたもんか……。
 #SCRIPT ORIGINAL さて、パソコンを買ったのはいいけど、どうしたもんか……。
 　Well, it's okay that I bought a computer, but what now......
 
-#とりあえず自分の部屋に戻り、オレは考えていた。
 #SCRIPT ORIGINAL とりあえず自分の部屋に戻り、オレは考えていた。
 　I thought I would bring it to my room for now.
 
-#頑張ってるすいかにプレゼント、ということにしてもいいんだけれど、それもやっぱり他の子に不公平だからな。
 #SCRIPT ORIGINAL 頑張ってるすいかにプレゼント、ということにしてもいいんだけれど、それもやっぱり他の子に不公平だからな。
 　It would be good to give it to Suika who is doing her best, but that's probably unfair to the other children.
 
-#となるとやっぱり、貸してやるってことにするのが妥当なのかな。
 #SCRIPT ORIGINAL となるとやっぱり、貸してやるってことにするのが妥当なのかな。
 　Then it's probably right to lend it.
 
-#安かったから思わず買っちゃったけど、あんまり使わないから……ということにしておくか。
 #SCRIPT ORIGINAL 安かったから思わず買っちゃったけど、あんまり使わないから……ということにしておくか。
 　It was cheap so I bought it without thinking, but I won't really use it......I think I'll do that.
 
-#だとすると、買ったばかりということにしないほうがいいかな？
 #SCRIPT ORIGINAL だとすると、買ったばかりということにしないほうがいいかな？
 　But then isn't it better if I didn't just buy it?
 
-#しばらく前に買ったけれど、使っていなかったということにした方がいいだろうな……。
 #SCRIPT ORIGINAL しばらく前に買ったけれど、使っていなかったということにした方がいいだろうな……。
 　I bought it just a while ago, but it's probably better if it wasn't used......
 
@@ -44,7 +37,6 @@ wait		1000
 #■BG（１階廊下）
 @bg_rouka_n		# 廊下(夜)
 
-#みんなの風呂が終わったぐらいの時間まで待って、オレはすいかの部屋に行ってみた。
 #SCRIPT ORIGINAL みんなの風呂が終わったぐらいの時間まで待って、オレはすいかの部屋に行ってみた。
 　I waited long enough for everyone's bath to finish, then I went to Suika's room.
 
@@ -55,18 +47,15 @@ wait		1000
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #＠樹
-#「すいか、今、いいか？」
 #SCRIPT ORIGINAL 「すいか、今、いいか？」
 ＠Itsuki
 「Suika, is it okay to come in now?」
 
 #＠すいか,R00457
-#「……あ、はい」
 #SCRIPT ORIGINAL 「……あ、はい」
 ＠Suika,R00457
 「......Ah, yes.」
 
-#すいかの返事を確認し、オレはすいかの部屋のドアを開ける。
 #SCRIPT ORIGINAL すいかの返事を確認し、オレはすいかの部屋のドアを開ける。
 　I opened the door to Suika's room after confirming her reply.
 
@@ -76,12 +65,10 @@ wait		1000
 @bg_suika_n		# すいかの部屋(夜)
 
 #＠樹
-#「今日は、ゲームじゃなかったんだな」
 #SCRIPT ORIGINAL 「今日は、ゲームじゃなかったんだな」
 ＠Itsuki
 「Today you weren't playing a game.」
 
-#またノックしても無駄かと思っていたので、ちょっと意外だ。
 #SCRIPT ORIGINAL またノックしても無駄かと思っていたので、ちょっと意外だ。
 　I didn't knock again because I thought it was useless, so it was kind of unexpected.
 
@@ -91,29 +78,24 @@ wait		1000
 @suika_komariwarai	#困笑
 
 #＠すいか,R00458
-#「あはは……。今日はちょっと、宿題が多くて」
 #SCRIPT ORIGINAL 「あはは……。今日はちょっと、宿題が多くて」
 ＠Suika,R00458
 「Ahaha...... Today I have a lot of homework.」
 
-#いつものジャージ姿で、すいかは苦笑する。
 #SCRIPT ORIGINAL いつものジャージ姿で、すいかは苦笑する。
 　Suika bitterly smiles, wearing her usual jersey.
 
-#が、すぐにオレの持っているものに気づいたらしい。
 #SCRIPT ORIGINAL が、すぐにオレの持っているものに気づいたらしい。
 　But it seems she immediately noticed the thing I was holding.
 
 @suika			#普
 
 #＠すいか,R00459
-#「……あれ、院長先生、それは？」
 #SCRIPT ORIGINAL 「……あれ、院長先生、それは？」
 ＠Suika,R00459
 「......Huh, Inchou-sensei, what's that?」
 
 #＠樹
-#「見てのとおり、ノートパソコンだ」
 #SCRIPT ORIGINAL 「見てのとおり、ノートパソコンだ」
 ＠Itsuki
 「Just as it looks like, it's a laptop.」
@@ -121,19 +103,16 @@ wait		1000
 @suika_odoroki		#驚
 
 #＠すいか,R00460
-#「ええっ？　院長先生、パソコンなんて持ってたんですか？」
 #SCRIPT ORIGINAL 「ええっ？　院長先生、パソコンなんて持ってたんですか？」
 ＠Suika,R00460
 「Eeh? Inchou-sensei, you had a computer?」
 
 #＠樹
-#「ここに来たばっかりの頃に、街で安く売ってたんだよ」
 #SCRIPT ORIGINAL 「ここに来たばっかりの頃に、街で安く売ってたんだよ」
 ＠Itsuki
 「Right after I came here, it was being sold for a cheap price on the street.」
 
 #＠樹
-#「それでつい買っちゃったんだけど、全然使ってなくてさ」
 #SCRIPT ORIGINAL 「それでつい買っちゃったんだけど、全然使ってなくてさ」
 ＠Itsuki
 「I just immediately bought it, but I don't use it at all.」
@@ -141,13 +120,11 @@ wait		1000
 @suika			#普
 
 #＠樹
-#「けど、この前すいかがプログラムの勉強してただろ？　それでちょっと、思い出してな……」
 #SCRIPT ORIGINAL 「けど、この前すいかがプログラムの勉強してただろ？　それでちょっと、思い出してな……」
 ＠Itsuki
 「But, before, Suika was studying programming right? So I remembered it......」
 
 #＠樹
-#「オレは使ってないから、よかったらすいかが使うか？」
 #SCRIPT ORIGINAL 「オレは使ってないから、よかったらすいかが使うか？」
 ＠Itsuki
 「I don't use it, so if you'd like, do you want to use it?」
@@ -156,49 +133,40 @@ wait		1000
 @suika_yorokobi		#喜
 
 #＠すいか,R00461
-#「ええっ……？　ホントに、いいんですか……？」
 #SCRIPT ORIGINAL 「ええっ……？　ホントに、いいんですか……？」
 ＠Suika,R00461
 「Eeh-......? Really, is it okay......?」
 
-#オレの申し出に、すいかは目を輝かせる。
 #SCRIPT ORIGINAL オレの申し出に、すいかは目を輝かせる。
 　Suika's eyes sparkled because of my suggestion.
 
-#やっぱり、プログラムの本なんて読んでいるだけに、パソコンにはすごく興味があるようだ。
 #SCRIPT ORIGINAL やっぱり、プログラムの本なんて読んでいるだけに、パソコンにはすごく興味があるようだ。
 　She probably has lots of interest in computers even if she was just reading programming books.
 
 #＠樹
-#「ま、オレは使わないからな、今のところ」
 #SCRIPT ORIGINAL 「ま、オレは使わないからな、今のところ」
 ＠Itsuki
 「Well, I don't really use it now.」
 
-#そう言ってオレは、すいかにパソコンを差し出した。
 #SCRIPT ORIGINAL そう言ってオレは、すいかにパソコンを差し出した。
 　I held out the computer to Suika and said that.
 
 #＠樹
-#「まあ、もしオレが使うことがあれば、そのときはいったん返してもらうことになるけど」
 #SCRIPT ORIGINAL 「まあ、もしオレが使うことがあれば、そのときはいったん返してもらうことになるけど」
 ＠Itsuki
 「Well, if I need to use it, you'll have to give it back for a while.」
 
-#と、これぐらい念を押しておいた方が、わざわざ買ったということを疑われにくいだろう。
 #SCRIPT ORIGINAL と、これぐらい念を押しておいた方が、わざわざ買ったということを疑われにくいだろう。
 　And, making sure this much makes it hard to suspect that I bought it on purpose.
 
 @suika_warai		#笑
 
 #＠すいか,R00462
-#「はい、そのときはすぐにお返しします」
 #SCRIPT ORIGINAL 「はい、そのときはすぐにお返しします」
 ＠Suika,R00462
 「Yes, I'll return it right away then.」
 
 #＠樹
-#「ほら、受け取れよ」
 #SCRIPT ORIGINAL 「ほら、受け取れよ」
 ＠Itsuki
 「Here, take it.」
@@ -206,14 +174,12 @@ wait		1000
 @suika_yorokobi		#喜
 
 #＠すいか,R00463
-#「あ、はい……」
 #SCRIPT ORIGINAL 「あ、はい……」
 ＠Suika,R00463
 「Ah, yes......」
 
 @suika_
 
-#すいかは俺の手からノートパソコンを受け取ると、幸せそうにそれを胸に抱きしめた。
 #SCRIPT ORIGINAL すいかは俺の手からノートパソコンを受け取ると、幸せそうにそれを胸に抱きしめた。
 　Suika happily took the laptop from my hands and held it to her chest.
 
@@ -222,13 +188,11 @@ wait		1000
 @suika_warai		#笑
 
 #＠すいか,R00464
-#「ありがとう……ございます……！」
 #SCRIPT ORIGINAL 「ありがとう……ございます……！」
 ＠Suika,R00464
 「Thank you......very much......!」
 
 #＠樹
-#「ははは、大げさだな。使ってないから貸すだけだって」
 #SCRIPT ORIGINAL 「ははは、大げさだな。使ってないから貸すだけだって」
 ＠Itsuki
 「Hahaha, don't exaggerate. I don't use it so I'm just lending it.」
@@ -236,21 +200,17 @@ wait		1000
 @suika_yorokobi		#喜
 
 #＠すいか,R00465
-#「でも、ホントに嬉しいんです……！」
 #SCRIPT ORIGINAL 「でも、ホントに嬉しいんです……！」
 ＠Suika,R00465
 「But, I'm really happy......!」
 
-#うーん、思った以上の喜び方だ。
 #SCRIPT ORIGINAL うーん、思った以上の喜び方だ。
 　She was more happy than I thought she would be.
 
-#やっぱり、このパソコンを買って正解だったかもしれない。
 #SCRIPT ORIGINAL やっぱり、このパソコンを買って正解だったかもしれない。
 　I guess it was right to have bought this computer.
 
 #＠樹
-#「なんかプログラムしたら、見せてくれよ？」
 #SCRIPT ORIGINAL 「なんかプログラムしたら、見せてくれよ？」
 ＠Itsuki
 「If you program something, show me okay?」
@@ -258,12 +218,10 @@ wait		1000
 @suika_warai		#笑
 
 #＠すいか,R00466
-#「はい！　一番に院長先生に見せますね！」
 #SCRIPT ORIGINAL 「はい！　一番に院長先生に見せますね！」
 ＠Suika,R00466
 「Yes! I'll show Inchou-sensei first!」
 
-#すいかは嬉しそうにうなずき、俺に約束した。
 #SCRIPT ORIGINAL すいかは嬉しそうにうなずき、俺に約束した。
 　Suika happily nodded and made a promise with me.
 

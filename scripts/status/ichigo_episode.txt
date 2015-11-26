@@ -118,7 +118,6 @@ wait		100
 @bg_hiroma		# 広間
 @bgm12			#演：仮ＢＧＭ
 
-#「ただいま、っと」
 #SCRIPT ORIGINAL 「ただいま、っと」
 ＠Itsuki
 「I'm back」
@@ -130,22 +129,18 @@ wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 @bg_dining		# 食堂
 
-#「美雨、買い物済ませてきたよ………あれ？」
 #SCRIPT ORIGINAL 「美雨、買い物済ませてきたよ………あれ？」
 ＠Itsuki
 「Miu, I went shopping...... huh?」
 
 #@bgm12			#演：仮ＢＧＭ
 
-#夕食の買出しから帰って来たが、そこに美雨の姿は無い。
 #SCRIPT ORIGINAL 夕食の買出しから帰って来たが、そこに美雨の姿は無い。
 　I bought things for dinner, but Miu wasn't around.
 
-#何か別の用事でも出来たのだろうか？
 #SCRIPT ORIGINAL 何か別の用事でも出来たのだろうか？
 　Maybe she's busy with something else.
 
-#「ま、じきに戻ってくるだろ」
 #SCRIPT ORIGINAL 「ま、じきに戻ってくるだろ」
 ＠Itsuki
 「I'm sure she'll be back soon」
@@ -153,15 +148,12 @@ wait		1000
 bgm_stop
 @bg_black		# 黒
 
-#買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
 #SCRIPT ORIGINAL 買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
 　I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
-#キャンペーン中のお店でサービスに貰った物だ。
 #SCRIPT ORIGINAL キャンペーン中のお店でサービスに貰った物だ。
 　I got it for free from the store.
 
-#なので困った事に、子供達のおやつにするには量が少ない。
 #SCRIPT ORIGINAL なので困った事に、子供達のおやつにするには量が少ない。
 　It's kind of a bother that there isn't enough to give to all of the kids.
 
@@ -179,12 +171,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「おかえりなさい、パパ。何してるの？」
 #SCRIPT ORIGINAL 「おかえりなさい、パパ。何してるの？」
 ＠Ichigo,O01800
 「Welcome back, Papa. What are you doing?」
 
-#「ああ、ただいまいちご。ちょっとこれをな」
 #SCRIPT ORIGINAL 「ああ、ただいまいちご。ちょっとこれをな」
 ＠Itsuki
 「Hey, Ichigo. I'm wondering what to do with this」
@@ -199,12 +189,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「…？　あっ、クッキーだー！」
 #SCRIPT ORIGINAL 「…？　あっ、クッキーだー！」
 ＠Ichigo,O01801
 「...? Oh, a cookieー!」
 
-#手の中の包みを見て、いちごがはしゃいだ声を上げた。
 #SCRIPT ORIGINAL 手の中の包みを見て、いちごがはしゃいだ声を上げた。
 　She sees the wrapper in my hand and exclaims happily.
 
@@ -221,17 +209,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「美味しそう～♪　パパが買ってきたのっ？」
 #SCRIPT ORIGINAL 「美味しそう～♪　パパが買ってきたのっ？」
 ＠Ichigo,O01802
 「That looks good～♪ Did you buy it?」
 
-#「お店のサービスで貰ったんだよ」
 #SCRIPT ORIGINAL 「お店のサービスで貰ったんだよ」
 ＠Itsuki
 「I got it for free from the store」
 
-#「そうだ。よかったらいちご食べるか？」
 #SCRIPT ORIGINAL 「そうだ。よかったらいちご食べるか？」
 ＠Itsuki
 「Actually, why don't you have it?」
@@ -245,12 +230,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「えっ、いいのッ？」
 #SCRIPT ORIGINAL 「えっ、いいのッ？」
 ＠Ichigo,O01803
 「Eh, can I?」
 
-#「とてもみんなの分は無いからな。内緒だぞ」
 #SCRIPT ORIGINAL 「とてもみんなの分は無いからな。内緒だぞ」
 ＠Itsuki
 「There's not enough for everyone. Let's keep it our secret」
@@ -264,14 +247,12 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「うん！　わぁいッ♪」
 #SCRIPT ORIGINAL 「うん！　わぁいッ♪」
 ＠Ichigo,O01804
 「OK! Yay♪」
 
 @ichigo_
 
-#いちごはクッキーを受け取り、その場で嬉しそうに包みを広げ始めた。
 #SCRIPT ORIGINAL いちごはクッキーを受け取り、その場で嬉しそうに包みを広げ始めた。
 　Ichigo takes the cookie and starts unwrapping it right away.
 
@@ -285,17 +266,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「パパも一緒に食べよっ」
 #SCRIPT ORIGINAL 「パパも一緒に食べよっ」
 ＠Ichigo,O01805
 「You can have some too」
 
-#「そだな。少し摘ませてもらうか」
 #SCRIPT ORIGINAL 「そだな。少し摘ませてもらうか」
 ＠Itsuki
 「Sure, give me a piece」
 
-#二人でクッキーを摘みながら、談笑して過ごすことにした。
 #SCRIPT ORIGINAL 二人でクッキーを摘みながら、談笑して過ごすことにした。
 　Cookies in hand for both of us, we ended up chatting for a bit.
 
@@ -480,7 +458,6 @@ label	ep_ichigo_03
 @chara_clear		#保険
 @bg_rouka
 
-#美雨と一緒に段取りを話しながら、廊下を進んでいた。
 #SCRIPT ORIGINAL 美雨と一緒に段取りを話しながら、廊下を進んでいた。
 　I walked with Miu through the hall discussing our arrangement.
 
@@ -491,12 +468,10 @@ wait		100
 @miu2			#開_にこ
 @bg_door		# ドア前
 
-#「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 #SCRIPT ORIGINAL 「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 ＠Miu,B01488
 「Well then, I'll be in the library room next door, call me if you need anything」
 
-#「分かった。終わったらオレもそっちを手伝うから」
 #SCRIPT ORIGINAL 「分かった。終わったらオレもそっちを手伝うから」
 ＠Itsuki
 「Sure. If I finish early I'll come and help」
@@ -510,14 +485,12 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#「はい。すみませんけれど、よろしくお願いします」
 #SCRIPT ORIGINAL 「はい。すみませんけれど、よろしくお願いします」
 ＠Miu,B01489
 「OK, thanks so much」
 
 @miu_
 
-#ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
 #SCRIPT ORIGINAL ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
 　We part in front of the door. Miu goes into the library room and I go into the game room.
 
@@ -528,33 +501,26 @@ wait		100
 #■BG（娯楽室）
 @bg_goraku
 
-#「さて、と」
 #SCRIPT ORIGINAL 「さて、と」
 ＠Itsuki
 「Now then...」
 
-#部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
 #SCRIPT ORIGINAL 部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
 　Miu had already left a bucket and house-cloth inside.
 
-#さっきの段取りと言うのは、掃除の手伝いのことだ。
 #SCRIPT ORIGINAL さっきの段取りと言うのは、掃除の手伝いのことだ。
 　We'd been talking about helping her with cleaning the household.
 
-#遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
 #SCRIPT ORIGINAL 遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
 　I had to almost force myself into volunteering to help out, as Miu was hesitant.
 
-#「こうして落ち着いて見ると、けっこう汚れているものだな」
 #SCRIPT ORIGINAL 「こうして落ち着いて見ると、けっこう汚れているものだな」
 ＠Itsuki
 「If I take the time to look closely like this, it's gotten pretty dirty」
 
-#遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
 #SCRIPT ORIGINAL 遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
 　When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
-#後はもう、出しっぱなしで片付けていないカードとかも……
 #SCRIPT ORIGINAL 後はもう、出しっぱなしで片付けていないカードとかも……
 　And there's some cards and stuff that haven't been put away...
 
@@ -574,18 +540,15 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「あ。やっぱりパパだ♪」
 #SCRIPT ORIGINAL 「あ。やっぱりパパだ♪」
 ＠Ichigo,O01812
 「Oh, it is you, Papa♪」
 
 @bgm03			#BGM 03 : いちごのテーマ
 
-#どこから手をつけようか迷っていると、いちごが部屋に入ってきた。
 #SCRIPT ORIGINAL どこから手をつけようか迷っていると、いちごが部屋に入ってきた。
 　Ichigo showed up as I was wondering where to start.
 
-#「いちごか。そう言えば今日はお休みだったな」
 #SCRIPT ORIGINAL 「いちごか。そう言えば今日はお休みだったな」
 ＠Itsuki
 「Ichigo? You have your day off today, right?」
@@ -599,7 +562,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「うん。それで、パパがここに入るのが見えたから追ってきたんだよ」
 #SCRIPT ORIGINAL 「うん。それで、パパがここに入るのが見えたから追ってきたんだよ」
 ＠Ichigo,O01813
 「Yeah. I saw you go in here so I followed you」
@@ -619,28 +581,23 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「ねぇねぇ、いちご暇なの～。何かして遊ぼうよ～」
 #SCRIPT ORIGINAL 「ねぇねぇ、いちご暇なの～。何かして遊ぼうよ～」
 ＠Ichigo,O01814
 「I've got nothing to do. Let's play something～」
 
-#「はは、残念だが遊びじゃないよ。掃除しに来たんだ」
 #SCRIPT ORIGINAL 「はは、残念だが遊びじゃないよ。掃除しに来たんだ」
 ＠Itsuki
 「Haha, sorry but I came here to clean the place, not play」
 
 @ichigo			#普通
 
-#「え。掃除……？」
 #SCRIPT ORIGINAL 「え。掃除……？」
 ＠Ichigo,O01815
 「Eh? Cleaning...?」
 
-#遊戯室に入ったので、てっきり遊ぶとばかり思っていたのだろう。
 #SCRIPT ORIGINAL 遊戯室に入ったので、てっきり遊ぶとばかり思っていたのだろう。
 　It appears she had nothing but the thought of playing on her mind.
 
-#「そうだ。いちご暇なら一緒に―――」
 #SCRIPT ORIGINAL 「そうだ。いちご暇なら一緒に―――」
 ＠Itsuki
 「Actually, if you've got time, maybe you could―――」
@@ -654,28 +611,23 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「あ、思い出したー！　いちごそう言えば用事があるんだった～！」
 #SCRIPT ORIGINAL 「あ、思い出したー！　いちごそう言えば用事があるんだった～！」
 ＠Ichigo,O01816
 「Ah, I just remembered! I had something to do today too～!」
 
 @ichigo_ase		#汗
 
-#「えっと、だからお手伝いしたくても、忙しくていちごちょっと無理かな～」
 #SCRIPT ORIGINAL 「えっと、だからお手伝いしたくても、忙しくていちごちょっと無理かな～」
 ＠Ichigo,O01817
 「Um, so as much as I'd like to help you, I'm busy and can't spare the time～」
 
-#……分かりやすいな。
 #SCRIPT ORIGINAL ……分かりやすいな。
 　...She's so easy to read.
 
-#「そんなに急ぐ用事って一体何だ？」
 #SCRIPT ORIGINAL 「そんなに急ぐ用事って一体何だ？」
 ＠Itsuki
 「What on earth do you have to do all of a sudden?」
 
-#「え。えっと、それは……分からないけど、何かあったような～」
 #SCRIPT ORIGINAL 「え。えっと、それは……分からないけど、何かあったような～」
 ＠Ichigo,O01818
 「Eh? Um... I don't know exactly what, but there was something～, I'm sure of it」
@@ -689,12 +641,10 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「あ、そうだッ。いつもざくろがね、いちごは頭の中が大変だって言うの！　だから、大変で忙しいの～！」
 #SCRIPT ORIGINAL 「あ、そうだッ。いつもざくろがね、いちごは頭の中が大変だって言うの！　だから、大変で忙しいの～！」
 ＠Ichigo,O01819
 「Oh, I know. Zakuro always tells me my head is a major issue! So I'm majorly busy right now～!」
 
-#「分かったから、ほら布巾。いちごはテーブルを頼むな」
 #SCRIPT ORIGINAL 「分かったから、ほら布巾。いちごはテーブルを頼むな」
 ＠Itsuki
 「I've heard enough, here's a rag. I'll leave the table to you」
@@ -714,21 +664,17 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「うわーん、本当に大変なのに～！」
 #SCRIPT ORIGINAL 「うわーん、本当に大変なのに～！」
 ＠Ichigo,O01820
 「Oh no, but this is a really major issue～!」
 
-#「……まぁ、確かに大変そうだ」
 #SCRIPT ORIGINAL 「……まぁ、確かに大変そうだ」
 ＠Itsuki
 「...Yeah, it must be by the sounds of it」
 
-#何か、『頭が悪いから早退します』とか学生が言うのと同レベルだ。
 #SCRIPT ORIGINAL 何か、『頭が悪いから早退します』とか学生が言うのと同レベルだ。
 　This is in the same vein as a student saying "I'm a blockhead, so I'm going for early dismissal".
 
-#「手伝ってくれたら、後で出かけよう。お菓子でも買ってあげるからさ」
 #SCRIPT ORIGINAL 「手伝ってくれたら、後で出かけよう。お菓子でも買ってあげるからさ」
 ＠Itsuki
 「If you help out, I'll take you out later and buy you some candy」
@@ -743,25 +689,20 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「お菓子！？　うんッ、それならいいよ！」
 #SCRIPT ORIGINAL 「お菓子！？　うんッ、それならいいよ！」
 ＠Ichigo,O01821
 「Candy!? Then I'll help out!」
 
-#「はやッ」
 #SCRIPT ORIGINAL 「はやッ」
 ＠Itsuki
 「That was quick!」
 
-#……大変すぎるぞいちご。
 #SCRIPT ORIGINAL ……大変すぎるぞいちご。
 　...It really is a major issue, Ichigo.
 
-#まぁ、おかげでこうして貴重な戦力を得たわけだが……
 #SCRIPT ORIGINAL まぁ、おかげでこうして貴重な戦力を得たわけだが……
 　Well, this means I've acquired a deadly asset to assist me now, but...
 
-#「いちご。くれぐれも知らない人に、お菓子なんかでついて行っちゃダメだぞ」
 #SCRIPT ORIGINAL 「いちご。くれぐれも知らない人に、お菓子なんかでついて行っちゃダメだぞ」
 ＠Itsuki
 「Please Ichigo, don't follow a stranger if he tells you he has candy」
@@ -775,14 +716,12 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「は～い♪」
 #SCRIPT ORIGINAL 「は～い♪」
 ＠Ichigo,O01822
 「Sure～♪」
 
 bgm_stop
 
-#その笑顔が、そこはかとなく不安を感じさせてくれた。
 #SCRIPT ORIGINAL その笑顔が、そこはかとなく不安を感じさせてくれた。
 　Somehow, that smile makes me feel uneasy.
 
@@ -803,11 +742,9 @@ label	ep_ichigo_04
 #■BG（黒）
 @bg_black
 
-#改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
 #SCRIPT ORIGINAL 改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
 　I don't need to say it again, but Shizuku really loves doing useless things.
 
-#とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
 #SCRIPT ORIGINAL とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
 　She can't ever calm down, and is always amusing herself at the expense of others.
 
@@ -817,7 +754,6 @@ label	ep_ichigo_04
 @SE75			#SE75　ショック音（ガーーン！）
 screen_vibration	500,8,8,8
 
-#「や、やられたぁッ……！！」
 #SCRIPT ORIGINAL 「や、やられたぁッ……！！」
 ＠Itsuki
 「W-what the hell...」
@@ -825,51 +761,40 @@ screen_vibration	500,8,8,8
 @bgm12			#演：仮ＢＧＭ
 se_stop		0
 
-#お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
 #SCRIPT ORIGINAL お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
 　Returning from the bath, I was dumbstruck at the scene before me.
 
-#部屋の中には曲者の侵入の痕跡が残っていた。
 #SCRIPT ORIGINAL 部屋の中には曲者の侵入の痕跡が残っていた。
 　Someone had intruded in my room and left a mess all over the place.
 
-#いや、残っているどころか、
 #SCRIPT ORIGINAL いや、残っているどころか、
 　No, not just a mess...
 
-#「部屋中の本がエロ本にすり替わってる！！」
 #SCRIPT ORIGINAL 「部屋中の本がエロ本にすり替わってる！！」
 ＠Itsuki
 「All my books have been switched with porn magazines!!」
 
-#本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
 #SCRIPT ORIGINAL 本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
 　Everything from my bookshelf to my nightstand, an overflowing sexual deviance was scattered about.
 
-#むしろ産卵しているかもしれない。
 #SCRIPT ORIGINAL むしろ産卵しているかもしれない。
 　Or perhaps planted there.
 
-#「こんなくだらない事に労力を使うのは、雫さんだな……」
 #SCRIPT ORIGINAL 「こんなくだらない事に労力を使うのは、雫さんだな……」
 ＠Itsuki
 「Only Shizuku would go to so much trouble...」
 
-#図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
 #SCRIPT ORIGINAL 図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
 　They're probably from the library room. I don't think this is all the work of one person, though.
 
-#「手伝ったのはざくろだろうな。未だに行動が読めないし」
 #SCRIPT ORIGINAL 「手伝ったのはざくろだろうな。未だに行動が読めないし」
 ＠Itsuki
 「Zakuro probably helped. She seems pretty fishy too」
 
-#「……ったく」
 #SCRIPT ORIGINAL 「……ったく」
 ＠Itsuki
 「...Ugh」
 
-#放っておくわけにもいかないので、とりあえず片付け始める。
 #SCRIPT ORIGINAL 放っておくわけにもいかないので、とりあえず片付け始める。
 　I can't just leave it like this, so I start cleaning it up.
 
@@ -877,7 +802,6 @@ se_stop		0
 @SE11			#SE11　部屋のドアをノック（コンコン）
 #コンコン。
 
-#「ん？　ざくろか。雫さんですか？　どうぞ」
 #SCRIPT ORIGINAL 「ん？　ざくろか。雫さんですか？　どうぞ」
 ＠Itsuki
 「Is that you, Zakuro? Shizuku-san? Come in」
@@ -908,14 +832,12 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「ブブー、ハズレ～！　正解はいちごだよ」
 #SCRIPT ORIGINAL 「ブブー、ハズレ～！　正解はいちごだよ」
 ＠Ichigo,O01823
 「Beep beep, wrong～! The correct answer is Ichigo」
 
 @bgm03			#BGM 03 : いちごのテーマ
 
-#「げッ…！？」
 #SCRIPT ORIGINAL 「げッ…！？」
 ＠Itsuki
 「Ack...!」
@@ -930,40 +852,33 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「…？　ああーー！」
 #SCRIPT ORIGINAL 「…？　ああーー！」
 ＠Ichigo,O01824
 「...? Ahhーー!」
 
-#完全に不意を付かれて、部屋の現状がいちごに見つかってしまった。
 #SCRIPT ORIGINAL 完全に不意を付かれて、部屋の現状がいちごに見つかってしまった。
 　I'm caught completely off-guard, and Ichigo discovers the state of my room.
 
-#「すごーい！　エッチな本がいっぱいある～。どうしたの？」
 #SCRIPT ORIGINAL 「すごーい！　エッチな本がいっぱいある～。どうしたの？」
 ＠Ichigo,O01825
 「Wow! There's so many dirty books～. What's with that?」
 
-#「どうもこうも、オレのじゃないぞ。雫さんがやったんだ」
 #SCRIPT ORIGINAL 「どうもこうも、オレのじゃないぞ。雫さんがやったんだ」
 ＠Itsuki
 「Nothing, they're not mine. This is Shizuku-san's doing」
 
 @ichigo_yorokobi	#喜
 
-#「ふ～ん。あ、見てパパ。これすごい格好でエッチしてるよー♪」
 #SCRIPT ORIGINAL 「ふ～ん。あ、見てパパ。これすごい格好でエッチしてるよー♪」
 ＠Ichigo,O01826
 「Hmmm. Oh, look at the crazy position they're doing it in, Papaー♪」
 
 @ichigo			#普通
 
-#「こっちの本の人は、すごいおっぱいだし。美雨とどっちが大きいかな～」
 #SCRIPT ORIGINAL 「こっちの本の人は、すごいおっぱいだし。美雨とどっちが大きいかな～」
 ＠Ichigo,O01827
 「This girl has really big boobs. I wonder which are bigger, her's or Miu's～」
 
-#「いや～、美雨だろ。メイド服の上からあのボリュームだしな」
 #SCRIPT ORIGINAL 「いや～、美雨だろ。メイド服の上からあのボリュームだしな」
 ＠Itsuki
 「I'd say Miu. You can tell how big they are through her maid outfit」
@@ -983,64 +898,52 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#「あははッ、やっぱりそうだよね。雫なら同じくらいかな」
 #SCRIPT ORIGINAL 「あははッ、やっぱりそうだよね。雫なら同じくらいかな」
 ＠Ichigo,O01828
 「Ahaha, I guess you're right. Probably closer to Shizuku's then」
 
-#「けどこのモデル、大きさはあっても形がなぁ」
 #SCRIPT ORIGINAL 「けどこのモデル、大きさはあっても形がなぁ」
 ＠Itsuki
 「But this model's got a nice shape even when they're so big」
 
-#……って、何のんきに品評してるんだオレも。
 #SCRIPT ORIGINAL ……って、何のんきに品評してるんだオレも。
 　...Wait, why am I commenting along with her?
 
-#とりあえずいちごはあっという間に状況に順応し、それは不幸中の幸いだった。
 #SCRIPT ORIGINAL とりあえずいちごはあっという間に状況に順応し、それは不幸中の幸いだった。
 　Actually, now that she knows I might be able to use her to my advantage.
 
-#「悪いけどいちご、片付け手伝ってくれないか」
 #SCRIPT ORIGINAL 「悪いけどいちご、片付け手伝ってくれないか」
 ＠Itsuki
 「Ichigo, could you help me clean this up?」
 
 @ichigo			#普通
 
-#「え、どうして？　もっと一緒に見ようよ」
 #SCRIPT ORIGINAL 「え、どうして？　もっと一緒に見ようよ」
 ＠Ichigo,O01829
 「Eh, why? Let's let look at them together some more」
 
-#「いやいやいや」
 #SCRIPT ORIGINAL 「いやいやいや」
 ＠Itsuki
 「OK, just hold on a bit」
 
-#「百歩譲って見るにしても、まずはこの部屋の惨劇は何とかしたい」
 #SCRIPT ORIGINAL 「百歩譲って見るにしても、まずはこの部屋の惨劇は何とかしたい」
 ＠Itsuki
 「I might agree to that, but first we have to do something about this disaster in my room」
 
 @ichigo_yorokobi	#喜
 
-#「ふ～ん。あ、パパ見てこの人、大人なのにお股の毛が生えてないよ」
 #SCRIPT ORIGINAL 「ふ～ん。あ、パパ見てこの人、大人なのにお股の毛が生えてないよ」
 ＠Ichigo,O01830
 「Hmmm. Oh, Papa look, this lady's an adult but she doesn't have any hair down there」
 
-#「ん？　ほぉ、パイパンだな。剃った後も無いし天然物だ」
 #SCRIPT ORIGINAL 「ん？　ほぉ、パイパンだな。剃った後も無いし天然物だ」
 ＠Itsuki
 「Hm? Yeah, you're right. There's no residual, so it must be naturally like that」
 
-#「こっちの人はお股の毛も無いし胸も小さいよ」
 #SCRIPT ORIGINAL 「こっちの人はお股の毛も無いし胸も小さいよ」
 ＠Ichigo,O01831
 「She doesn't have any hair, and her boobs are small too」
 
-#「ふむ。良きかな良きかな」
 #SCRIPT ORIGINAL 「ふむ。良きかな良きかな」
 ＠Itsuki
 「Mhm. Very nice」
@@ -1050,7 +953,6 @@ bgm_stop
 @bg_black
 wait		1000
 
-#……結局遅くまで、いっこうに片付けの効率は上がらなかった。
 #SCRIPT ORIGINAL ……結局遅くまで、いっこうに片付けの効率は上がらなかった。
 　...And so, we didn't start cleaning up until much later.
 

@@ -102,72 +102,57 @@ return
 #（１回目）##################################################################
 label	shop_talk_1
 
-#せっかくだし、ちょっとこの店員さんと話をしてみるか。
 #SCRIPT ORIGINAL せっかくだし、ちょっとこの店員さんと話をしてみるか。
 　It's a rare chance, so I ought to try making some conversation with her.
 
-#なんでこんな格好してるのかとか、やっぱりちょっと気になるし。
 #SCRIPT ORIGINAL なんでこんな格好してるのかとか、やっぱりちょっと気になるし。
 　I'm pretty curious about why she's dressed up like this and stuff.
 
-#「えーと……」
 #SCRIPT ORIGINAL 「えーと……」
 ＠Itsuki
 「Umm...」
 
-#話しかけようとして、オレは彼女の名前を知らないことに気づく。
 #SCRIPT ORIGINAL 話しかけようとして、オレは彼女の名前を知らないことに気づく。
 　As I'm about to try talking to her, I remembered I don't know her name.
 
-#「名前はなんていうのかな、キミ？」
 #SCRIPT ORIGINAL 「名前はなんていうのかな、キミ？」
 ＠Itsuki
 「I didn't catch your name」
 
-#「えっ……！」
 #SCRIPT ORIGINAL 「えっ……！」
 ＠Clerk,H00288
 「Eh...!」
 
-#名前を尋ねると、彼女はびくんと身を震わせた。
 #SCRIPT ORIGINAL 名前を尋ねると、彼女はびくんと身を震わせた。
 　She gives a start when I ask for her name.
 
-#「な、名前ですか……？」
 #SCRIPT ORIGINAL 「な、名前ですか……？」
 ＠Clerk,H00289
 「M-my name...?」
 
-#「うん。教えてくれるか？」
 #SCRIPT ORIGINAL 「うん。教えてくれるか？」
 ＠Itsuki
 「Yeah. Would you mind telling me?」
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Clerk,H00290
 「......」
 
-#「名前なんてありません。わたし……ただのメスブタですから」
 #SCRIPT ORIGINAL 「名前なんてありません。わたし……ただのメスブタですから」
 ＠Clerk,H00291
 「I don't have a name. I'm... just a lowly bitch」
 
-#店員さんはそう言ってうつむいてしまった。
 #SCRIPT ORIGINAL 店員さんはそう言ってうつむいてしまった。
 　So saying, the shop clerk casts her eyes down.
 
-#「お客様も、わたしのことはどうぞメスブタとお呼びください……」
 #SCRIPT ORIGINAL 「お客様も、わたしのことはどうぞメスブタとお呼びください……」
 ＠Clerk,H00292
 「Mister Customer, please go right ahead and call me "bitch"...」
 
-#「いや、そういうわけにもいかないって……」
 #SCRIPT ORIGINAL 「いや、そういうわけにもいかないって……」
 ＠Itsuki
 「Nope, I don't think that'll work...」
 
-#うーん、大丈夫なのか、この店……？
 #SCRIPT ORIGINAL うーん、大丈夫なのか、この店……？
 　Hmm, how safe is this shop...?
 
@@ -177,127 +162,100 @@ return
 #（２回目・２月以降）#########################################################
 label	shop_talk_2
 
-#何か話をしようかな……。
 #SCRIPT ORIGINAL 何か話をしようかな……。
 　Maybe I can try talking to her about something...
 
-#そう思い、オレは彼女の名前をまだ教えてもらっていないことを思い出す。
 #SCRIPT ORIGINAL そう思い、オレは彼女の名前をまだ教えてもらっていないことを思い出す。
 　Thinking that, I remembered she still hasn't told me her name.
 
-#どうやって話しかけよう？
 #SCRIPT ORIGINAL どうやって話しかけよう？
 　How should I greet her?
 
-#ああ言われたとはいえ、メスブタ呼ばわりもさすがに気が引ける。
 #SCRIPT ORIGINAL ああ言われたとはいえ、メスブタ呼ばわりもさすがに気が引ける。
 　She told me to call her that, but obviously I feel uncomfortable calling her "bitch".
 
-#さん付けで「メスブタさん」とか……それも微妙か。
 #SCRIPT ORIGINAL さん付けで「メスブタさん」とか……それも微妙か。
 　Maybe if I attach the "-san" honorific, like "bitch-san"... that doesn't work either.
 
-#うーん、メスブタか……。
 #SCRIPT ORIGINAL うーん、メスブタか……。
 　Hmm, bitch huh...
 
-#……今気づいたけど、メスブタって、酢豚に似てるな。
 #SCRIPT ORIGINAL ……今気づいたけど、メスブタって、酢豚に似てるな。
 　...Now that I think about it, "bitch" (mesubuta="female pig") sounds like sweet-and-sour pork (subuta).
 
-#まあ、豚はもともと一緒なんだけど、印象はだいぶ違う。
 #SCRIPT ORIGINAL まあ、豚はもともと一緒なんだけど、印象はだいぶ違う。
 　Well, they both have pig (buta) as the base, but the connotation is vastly different.
 
-#「えーと、店員さん……」
 #SCRIPT ORIGINAL 「えーと、店員さん……」
 ＠Itsuki
 「Umm, excuse me...」
 
-#「はい、なんでしょうか……？」
 #SCRIPT ORIGINAL 「はい、なんでしょうか……？」
 ＠Clerk,H00293
 「Yes, what is it...?」
 
-#「さすがにメスブタとは呼べないし、スブタさんって呼んでもいい？」
 #SCRIPT ORIGINAL 「さすがにメスブタとは呼べないし、スブタさんって呼んでもいい？」
 ＠Itsuki
 「I don't think I could ever call you "bitch", so can I call you Subuta-san?」
 
-#「ええっ！？」
 #SCRIPT ORIGINAL 「ええっ！？」
 ＠Clerk,H00294
 「What!?」
 
-#「す、スブタですか……」
 #SCRIPT ORIGINAL 「す、スブタですか……」
 ＠Clerk,H00295
 「S-Subuta, you said...?」
 
-#「ダメかな……？」
 #SCRIPT ORIGINAL 「ダメかな……？」
 ＠Itsuki
 「Can I not...?」
 
-#「うぅ……そんな呼ばれ方では興奮できません……」
 #SCRIPT ORIGINAL 「うぅ……そんな呼ばれ方では興奮できません……」
 ＠Clerk,H00296
 「Uuh... that doesn't turn me on at all...」
 
-#いや、ここで興奮されても困るんだが。
 #SCRIPT ORIGINAL いや、ここで興奮されても困るんだが。
 　For me, the issue is not how arousing it is.
 
-#「いいじゃん、名字っぽくて」
 #SCRIPT ORIGINAL 「いいじゃん、名字っぽくて」
 ＠Itsuki
 「It's pretty good. It's like a family name」
 
-#「漢字で書くと、鳥の巣の〝巣〟に鍋蓋の〝蓋〟とか……」
 #SCRIPT ORIGINAL 「漢字で書くと、鳥の巣の〝巣〟に鍋蓋の〝蓋〟とか……」
 ＠Itsuki
 「With kanji, it could be written as a bird's nest (su) and a pot lid (buta)」
 
-#「……よし！」
 #SCRIPT ORIGINAL 「……よし！」
 ＠Itsuki
 「...All right!」
 
-#「もう決めた。今日から店員さんのことは巣蓋さんって呼ぼう」
 #SCRIPT ORIGINAL 「もう決めた。今日から店員さんのことは巣蓋さんって呼ぼう」
 ＠Itsuki
 「It's settled. From now on I'll call you Subuta-san」
 
 replace_clear	"＠巣蓋さん"
 
-#「そ、そんなぁ……」
 #SCRIPT ORIGINAL 「そ、そんなぁ……」
 ＠Subuta,H00297
 「N-no way...」
 
-#オレの一方的な宣告に、巣蓋さんは情けない声を上げた。
 #SCRIPT ORIGINAL オレの一方的な宣告に、巣蓋さんは情けない声を上げた。
 　Subuta utters a woeful cry at my one-sided verdict.
 
-#「あ、ちなみにオレは土屋樹。樹って呼んでくれ」
 #SCRIPT ORIGINAL 「あ、ちなみにオレは土屋樹。樹って呼んでくれ」
 ＠Itsuki
 「Ah, by the way I'm Itsuki Tsuchiya. You can call me Itsuki」
 
-#相手に名前を訊いてこちらが名乗らないのも失礼かと思い、一応名乗っておく。
 #SCRIPT ORIGINAL 相手に名前を訊いてこちらが名乗らないのも失礼かと思い、一応名乗っておく。
 　Thinking it would be impolite to withhold my name after asking for hers, I share it for good measure.
 
-#まあ、結局名前は教えてもらってないけどな。
 #SCRIPT ORIGINAL まあ、結局名前は教えてもらってないけどな。
 　Well, I didn't end up getting her name after all though.
 
-#「はあ……。巣蓋ですか……」
 #SCRIPT ORIGINAL 「はあ……。巣蓋ですか……」
 ＠Subuta,H00298
 「Sigh... Subuta, is it...?」
 
-#巣蓋さんはまだショックを受けていた。
 #SCRIPT ORIGINAL 巣蓋さんはまだショックを受けていた。
 　Subuta was still in a state of shock.
 
@@ -308,59 +266,47 @@ return
 #（3rd visit・On or after 3rd month）########################################################
 label	shop_talk_3
 
-#「えーと、巣蓋さん……？」
 #SCRIPT ORIGINAL 「えーと、巣蓋さん……？」
 ＠Itsuki
 「Umm, Subuta-san...?」
 
-#「うぅ、はい……。なんでしょうか？」
 #SCRIPT ORIGINAL 「うぅ、はい……。なんでしょうか？」
 ＠Subuta,H00299
 「Uuh, yes... what would you like?」
 
-#「一応確認しておきたいんだけど、巣蓋さんってこういう店にいていい年齢なんだよね……？」
 #SCRIPT ORIGINAL 「一応確認しておきたいんだけど、巣蓋さんってこういう店にいていい年齢なんだよね……？」
 ＠Itsuki
 「I just want to get this straight, you're old enough to be working here, right?」
 
-#「うぅ……。れ、れでぃに年齢を訊くのは失礼なのです……」
 #SCRIPT ORIGINAL 「うぅ……。れ、れでぃに年齢を訊くのは失礼なのです……」
 ＠Subuta,H00300
 「Uuh... i-it's rude to ask a lady her age...」
 
-#オレの質問に、巣蓋さんはうつむいてしまう。
 #SCRIPT ORIGINAL オレの質問に、巣蓋さんはうつむいてしまう。
 　Subuta casts her eyes down upon hearing my question.
 
-#「でもその……不法労働じゃないよな？」
 #SCRIPT ORIGINAL 「でもその……不法労働じゃないよな？」
 ＠Itsuki
 「But, I mean... you're not being made to work here illegally, are you?」
 
-#まあ、施設の娘たちに不法労働をさせているオレが訊くようなことじゃないんだが……。
 #SCRIPT ORIGINAL まあ、施設の娘たちに不法労働をさせているオレが訊くようなことじゃないんだが……。
 　It's hardly my place to be asking this, considering I have girls working illegally myself...
 
-#「一応、大学は出てますから……」
 #SCRIPT ORIGINAL 「一応、大学は出てますから……」
 ＠Subuta,H00301
 「I can tell you that I've graduated university...」
 
-#うつむいたまま、巣蓋さんはつぶやいた。
 #SCRIPT ORIGINAL うつむいたまま、巣蓋さんはつぶやいた。
 　Subuta muttered fixing her eyes downward.
 
-#「何だ、そうなんだ……」
 #SCRIPT ORIGINAL 「何だ、そうなんだ……」
 ＠Itsuki
 「Oh really, is that how it is...」
 
-#「って、オレより年上！？」
 #SCRIPT ORIGINAL 「って、オレより年上！？」
 ＠Itsuki
 「Wait, that means you're older than me!?」
 
-#「うぅ……。だから言いたくなかったんです……」
 #SCRIPT ORIGINAL 「うぅ……。だから言いたくなかったんです……」
 ＠Subuta,H00302
 「Uuh... that's why I didn't want to tell you...」
@@ -371,61 +317,48 @@ return
 #（４回目・４月以降）########################################################
 label	shop_talk_4
 
-#「そういえば、巣蓋さんってカレシとかいるの？」
 #SCRIPT ORIGINAL 「そういえば、巣蓋さんってカレシとかいるの？」
 ＠Itsuki
 「Oh Subuta-san, do you have a boyfriend?」
 
-#かなり子供っぽく見えるが、実はオレより年上なんだよな……？
 #SCRIPT ORIGINAL かなり子供っぽく見えるが、実はオレより年上なんだよな……？
 　She looks just like a child, but she's older than me after all...
 
-#だとしたら、カレシとかいてもおかしくないかな？
 #SCRIPT ORIGINAL だとしたら、カレシとかいてもおかしくないかな？
 　So it wouldn't be weird if she had one.
 
-#こんな格好で仕事してるなんて、カレシ公認なんだろうか？
 #SCRIPT ORIGINAL こんな格好で仕事してるなんて、カレシ公認なんだろうか？
 　Maybe he's having her work looking like this?
 
-#「え……？　か、カレシなんていないですよ……」
 #SCRIPT ORIGINAL 「え……？　か、カレシなんていないですよ……」
 ＠Subuta,H00303
 「Eh...? I-I don't have a boyfriend or anything」
 
-#オレの質問に、巣蓋さんはうつむいてしまう。
 #SCRIPT ORIGINAL オレの質問に、巣蓋さんはうつむいてしまう。
 　Subuta eyes the floor replying to my question.
 
-#そうか……。それじゃ、何でこんな仕事をしてるんだろう……？
 #SCRIPT ORIGINAL そうか……。それじゃ、何でこんな仕事をしてるんだろう……？
 　Is that so...? Then, why does she have a job like this...?
 
-#「……彼女ならいますけど」
 #SCRIPT ORIGINAL 「……彼女ならいますけど」
 ＠Subuta,H00304
 「...But I do have a girlfriend」
 
-#うつむいたまま、巣蓋さんはつぶやいた。
 #SCRIPT ORIGINAL うつむいたまま、巣蓋さんはつぶやいた。
 　Subuta mutters eyes fixed downward.
 
-#「え……？」
 #SCRIPT ORIGINAL 「え……？」
 ＠Itsuki
 「Huh...?」
 
-#「彼女というか……ご主人様というか……女王様ですけど……」
 #SCRIPT ORIGINAL 「彼女というか……ご主人様というか……女王様ですけど……」
 ＠Subuta,H00305
 「Well I wouldn't say girlfriend... she's my master... no, she's my queen」
 
-#「……そ、そうなんだ」
 #SCRIPT ORIGINAL 「……そ、そうなんだ」
 ＠Itsuki
 「A-Ah, I see」
 
-#うーん、ディープな世界だ……。
 #SCRIPT ORIGINAL うーん、ディープな世界だ……。
 　Hmm, there's no end to what you'll find in this world...
 
@@ -435,57 +368,45 @@ return
 #（５回目・５月以降）#########################################################
 label	shop_talk_5
 
-#「そういえば、巣蓋さんっていつもその格好だね……」
 #SCRIPT ORIGINAL 「そういえば、巣蓋さんっていつもその格好だね……」
 ＠Itsuki
 「So you're always in that outfit huh...」
 
-#だんだん慣れてきてしまったが、考えてみればすごいよな。
 #SCRIPT ORIGINAL だんだん慣れてきてしまったが、考えてみればすごいよな。
 　I've slowly been getting used to it, but it's kind of amazing when I think about it.
 
-#いくらアダルトショップだからって、常に裸エプロンでいいんだろうか？
 #SCRIPT ORIGINAL いくらアダルトショップだからって、常に裸エプロンでいいんだろうか？
 　It may be an adult shop, but is she really fine with wearing a hadaka apron constantly?
 
-#「制服ですから……」
 #SCRIPT ORIGINAL 「制服ですから……」
 ＠Subuta,H00306
 「It's my uniform...」
 
-#巣蓋さんは少し頬を赤らめ、うつむいた。
 #SCRIPT ORIGINAL 巣蓋さんは少し頬を赤らめ、うつむいた。
 　She blushes a bit and looks down.
 
-#「そ、そうなんだ……」
 #SCRIPT ORIGINAL 「そ、そうなんだ……」
 ＠Itsuki
 「Oh, is that so...」
 
-#「そのネコミミも？」
 #SCRIPT ORIGINAL 「そのネコミミも？」
 ＠Itsuki
 「Those cat ears too?」
 
-#裸エプロンもそうだが、ネコミミも結構目立つよな。
 #SCRIPT ORIGINAL 裸エプロンもそうだが、ネコミミも結構目立つよな。
 　The hadaka apron is like that too, but the cat ears stick out quite a bit.
 
-#「これは……ホンモノです……」
 #SCRIPT ORIGINAL 「これは……ホンモノです……」
 ＠Subuta,H00307
 「Oh these... They're real...」
 
-#「動きます……」
 #SCRIPT ORIGINAL 「動きます……」
 ＠Subuta,H00308
 「I'll move them...」
 
-#そう言って巣蓋さんはパタパタと耳を動かしてみせた。
 #SCRIPT ORIGINAL そう言って巣蓋さんはパタパタと耳を動かしてみせた。
 　Saying that she flaps the ears back and forth.
 
-#う、うーん、さすがにホンモノのわけがないだろうし、どんな仕掛けになってるんだろう……？
 #SCRIPT ORIGINAL う、うーん、さすがにホンモノのわけがないだろうし、どんな仕掛けになってるんだろう……？
 　Hmm, it can't be real, so I wonder how that works...?
 

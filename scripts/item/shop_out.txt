@@ -48,7 +48,6 @@ goto	shop_out_message_exit
 label	shop_out_message_1
 if shop_buy_count>2 then goto shop_out_message_3
 
-#「ありがとうございました……」
 #SCRIPT ORIGINAL 「ありがとうございました……」
 ＠Subuta,H00258
 「Thank you...」
@@ -60,7 +59,6 @@ goto	shop_out_message_exit
 label	shop_out_message_2
 if shop_buy_count>2 then goto shop_out_message_3
 
-#「ありがとうございました。またのご利用をお待ちしております……」
 #SCRIPT ORIGINAL 「ありがとうございました。またのご利用をお待ちしております……」
 ＠Subuta,H00259
 「Thank you. I look forward to doing business with you again...」
@@ -71,7 +69,6 @@ goto	shop_out_message_exit
 #（今回の来店でアイテムを売買した場合３・これまで２回以上アイテムを買っている場合のみ）
 label	shop_out_message_3
 
-#「いつもありがとうございます……」
 #SCRIPT ORIGINAL 「いつもありがとうございます……」
 ＠Subuta,H00260
 「Thanks as always...」
@@ -82,7 +79,6 @@ goto	shop_out_message_exit
 #（今回の来店で売買をしなかった場合）########################################
 label	shop_out_message_4
 
-#「ありがとうございました。またのご来店をお待ちしております……」
 #SCRIPT ORIGINAL 「ありがとうございました。またのご来店をお待ちしております……」
 ＠Subuta,H00261
 「Thank you. I look forward to seeing you again...」
@@ -93,7 +89,6 @@ goto	shop_out_message_exit
 #（今回、前回の来店で売買をしなかった場合）##################################
 label	shop_out_message_5
 
-#「ありがとう……ございました……」
 #SCRIPT ORIGINAL 「ありがとう……ございました……」
 ＠Subuta,H00262
 「Thanks...」
@@ -104,7 +99,6 @@ goto	shop_out_message_exit
 #（３回連続売買をしなかった場合）############################################
 label	shop_out_message_6
 
-#「またのご来店をお待ちしております……」
 #SCRIPT ORIGINAL 「またのご来店をお待ちしております……」
 ＠Subuta,H00263
 「I hope to see you here again soon...」
@@ -115,7 +109,6 @@ goto	shop_out_message_exit
 #（４回連続売買をしなかった場合）############################################
 label	shop_out_message_7
 
-#「たまには……何か買ってください……」
 #SCRIPT ORIGINAL 「たまには……何か買ってください……」
 ＠Subuta,H00264
 「Please... buy something sometimes...」
@@ -126,7 +119,6 @@ goto	shop_out_message_exit
 #（５回連続売買をしなかった場合）#############################################
 label	shop_out_message_8
 
-#「はぁ……」
 #SCRIPT ORIGINAL 「はぁ……」
 ＠Subuta,H00265
 「Haa...」
@@ -137,7 +129,6 @@ goto	shop_out_message_exit
 #（６回連続売買をしなかった場合）#############################################
 label	shop_out_message_9
 
-#「また冷やかしですか……」
 #SCRIPT ORIGINAL 「また冷やかしですか……」
 ＠Subuta,H00266
 「Just window-shopping again...」
@@ -148,7 +139,6 @@ goto	shop_out_message_exit
 #（７回以上連続売買をしなかった場合）########################################
 label	shop_out_message_10
 
-#「…………」
 #SCRIPT ORIGINAL 「…………」
 ＠Subuta,H00267
 「......」

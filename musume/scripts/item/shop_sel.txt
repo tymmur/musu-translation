@@ -147,7 +147,6 @@ goto	shop_sell_message2
 label	shop_sell_message2
 
 #テキストでは、正規の値段を表示
-#「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
 #SCRIPT ORIGINAL 「[_PRICE]円で買いたいと思いますが、いかがでしょうか？」
 ＠Ｓｕｂｕｔａ,H00279
 「Ｉ´ｌｌ　ｂｕｙ　ｔｈａｔ　ｆｏｒ　円[_PRICE]，　ｈｏｗ　ｄｏｅｓ　ｔｈａｔ　ｓｏｕｎｄ？」
@@ -168,12 +167,10 @@ item_delete	_ITEMNO
 if _ITEM=601 then karin_video_sell_flag=1
 _ITEM(_ITEM)=0
 
-#「ありがとうございます……」
 #SCRIPT ORIGINAL 「ありがとうございます……」
 ＠Ｓｕｂｕｔａ,H00280
 「Ｔｈａｎｋ　ｙｏｕ．．．」
 
-#「他には何かありますか……？」
 #SCRIPT ORIGINAL 「他には何かありますか……？」
 ＠Ｓｕｂｕｔａ,H00281
 「Ｉｓ　ｔｈｅｒｅ　ａｎｙｔｈｉｎｇ　ｅｌｓｅ．．．？」
@@ -184,12 +181,10 @@ goto	shop_sell_message_exit
 #（やっぱりやめる）
 label	shop_sell_message4
 
-#「やっぱり、それはいいや……」
 #SCRIPT ORIGINAL 「やっぱり、それはいいや……」
 ＠Ｉｔｓｕｋｉ
 「Ｉ　ｔｈｉｎｋ　Ｉ　ｃｈａｎｇｅｄ　ｍｙ　ｍｉｎｄ．．．」
 
-#「そうですか……。残念です……」
 #SCRIPT ORIGINAL 「そうですか……。残念です……」
 ＠Ｓｕｂｕｔａ,H00282
 「Ｉｓ　ｔｈａｔ　ｓｏ．．．　ｔｈａｔ´ｓ　ｔｏｏ　ｂａｄ．．．」

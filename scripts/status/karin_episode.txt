@@ -112,7 +112,6 @@ label	ep_karin_01
 @chara_clear		#保険
 @bg_genkan		# 玄関
 
-#「ただいま、っと」
 #SCRIPT ORIGINAL 「ただいま、っと」
 ＠Itsuki
 「I'm back」
@@ -126,35 +125,28 @@ wait		1000
 @chara_clear		#保険
 @bg_dining		# 食堂
 
-#「美雨、買い物済ませてきたよ………あれ？」
 #SCRIPT ORIGINAL 「美雨、買い物済ませてきたよ………あれ？」
 ＠Itsuki
 「Miu, I went shopping...... huh?」
 
 @bgm12			#演：仮ＢＧＭ
 
-#夕食の買出しから帰って来たが、そこに美雨の姿は無い。
 #SCRIPT ORIGINAL 夕食の買出しから帰って来たが、そこに美雨の姿は無い。
 　I bought things for dinner, but Miu wasn't around.
 
-#何か別の用事でも出来たのだろうか？
 #SCRIPT ORIGINAL 何か別の用事でも出来たのだろうか？
 　Maybe she's busy with something else.
 
-#「ま、じきに戻ってくるだろ」
 #SCRIPT ORIGINAL 「ま、じきに戻ってくるだろ」
 ＠Itsuki
 「I'm sure she'll be back soon」
 
-#買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
 #SCRIPT ORIGINAL 買い物袋をテーブルに置いて、中から小奇麗にラッピングされたクッキーを取り出した。
 　I place the shopping bag on the table, and take out the neatly wrapped cookie from inside.
 
-#キャンペーン中のお店でサービスに貰った物だ。
 #SCRIPT ORIGINAL キャンペーン中のお店でサービスに貰った物だ。
 　I got it for free from the store.
 
-#なので困った事に、子供達のおやつにするには量が少ない。
 #SCRIPT ORIGINAL なので困った事に、子供達のおやつにするには量が少ない。
 　It's kind of a bother that there isn't enough to give to all of the kids.
 
@@ -162,53 +154,43 @@ wait		1000
 @karin_shifuku
 @karin			#普通
 
-#「ボ～っとして、一人何してるの……」
 #SCRIPT ORIGINAL 「ボ～っとして、一人何してるの……」
 ＠Karin,P01782
 「What are you staring at, all alone here...」
 
-#「ん？　ああ、ちょっとな」
 #SCRIPT ORIGINAL 「ん？　ああ、ちょっとな」
 ＠Itsuki
 「Hm? Oh, nothing much」
 
 @karin_keno		#嫌悪
 
-#「どうせまた変なことでしょうから聞かないけど。私やみかんには関わらないでよね」
 #SCRIPT ORIGINAL 「どうせまた変なことでしょうから聞かないけど。私やみかんには関わらないでよね」
 ＠Karin,P01783
 「It's probably something weird again, so I'm not interested. Just don't associate with me and Mikan」
 
 @karin_
 
-#オレの横を過ぎて、キッチンの方を覗き込むかりん。
 #SCRIPT ORIGINAL オレの横を過ぎて、キッチンの方を覗き込むかりん。
 　Karin walks past me and peers into the kitchen.
 
-#「…？　美雨はいないのかしら」
 #SCRIPT ORIGINAL 「…？　美雨はいないのかしら」
 ＠Karin,P01784
 「...? Miu's not around?」
 
-#「夕食の途中みたいだから、すぐ戻ってくるだろ」
 #SCRIPT ORIGINAL 「夕食の途中みたいだから、すぐ戻ってくるだろ」
 ＠Itsuki
 「It looks like she's in the middle of making dinner, so I'm sure she'll be back soon」
 
-#「そ。仕方ないわね」
 #SCRIPT ORIGINAL 「そ。仕方ないわね」
 ＠Karin,P01785
 「Yeah. Oh well」
 
-#そっけなく返答を返して、かりんは自分でパタパタと紅茶を淹れ始める。
 #SCRIPT ORIGINAL そっけなく返答を返して、かりんは自分でパタパタと紅茶を淹れ始める。
 　Karin replies curtly and busies herself making some tea on her own.
 
-#カップは当然一つだけだ……
 #SCRIPT ORIGINAL カップは当然一つだけだ……
 　Of course, she's only making for one...
 
-#「オレ、ダージリンが飲みたいな」
 #SCRIPT ORIGINAL 「オレ、ダージリンが飲みたいな」
 ＠Itsuki
 「Can I get a Darjeeling tea?」
@@ -217,101 +199,83 @@ wait		1000
 @karin_shifuku
 @karin			#普通
 
-#「ふ～ん、淹れれば。葉ならあるでしょ」
 #SCRIPT ORIGINAL 「ふ～ん、淹れれば。葉ならあるでしょ」
 ＠Karin,P01786
 「Sure, go ahead and make some. We have the tea leaves」
 
-#「はは……まぁそうだよな。葉が違うと結局二度手間だし」
 #SCRIPT ORIGINAL 「はは……まぁそうだよな。葉が違うと結局二度手間だし」
 ＠Itsuki
 「Haha... fair enough. If it's different from yours, it'll just be double the work」
 
-#「で、今かりんが淹れてるのは何だ？」
 #SCRIPT ORIGINAL 「で、今かりんが淹れてるのは何だ？」
 ＠Itsuki
 「So, what are you making now?」
 
 @karin_niko		#にこ
 
-#「ダージリン」
 #SCRIPT ORIGINAL 「ダージリン」
 ＠Karin,P01787
 「Darjeeling」
 
-#……それでもオレのは淹れてくれないのか。
 #SCRIPT ORIGINAL ……それでもオレのは淹れてくれないのか。
 　...And yet, she still won't make mine.
 
-#「……あ、そうだ。よかったらかりん、これ食べるか」
 #SCRIPT ORIGINAL 「……あ、そうだ。よかったらかりん、これ食べるか」
 ＠Itsuki
 「...Oh, I know. Karin, you can have this if you like」
 
 @karin			#普通
 
-#「ぅん？　何これ、クッキー？」
 #SCRIPT ORIGINAL 「ぅん？　何これ、クッキー？」
 ＠Karin,P01788
 「Hm? What is it? A cookie?」
 
-#「買い物に行ったらサービスでくれたんだ。みんなで食べるには量が少ないからな」
 #SCRIPT ORIGINAL 「買い物に行ったらサービスでくれたんだ。みんなで食べるには量が少ないからな」
 ＠Itsuki
 「I got it for free when I went shopping, but there isn't enough for everyone」
 
 @karin_keno		#嫌悪
 
-#「……怪しいわね。どうして私に？」
 #SCRIPT ORIGINAL 「……怪しいわね。どうして私に？」
 ＠Karin,P01789
 「...How suspicious. Why are you giving it to me?」
 
-#「別に何の裏も無いさ。どうしようかと思ってたら、かりんが来ただけだ」
 #SCRIPT ORIGINAL 「別に何の裏も無いさ。どうしようかと思ってたら、かりんが来ただけだ」
 ＠Itsuki
 「There's no ulterior motive. I was wondering what to do with it, and you just came by」
 
 @karin			#普通
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Karin,P01790
 「......」
 
-#とりあえず差し出された包みを受け取るかりん。
 #SCRIPT ORIGINAL とりあえず差し出された包みを受け取るかりん。
 　Karin accepts it tentatively.
 
 @karin_niko		#にこ
 
-#「……そう。ありがとう」
 #SCRIPT ORIGINAL 「……そう。ありがとう」
 ＠Karin,P01791
 「...I see. Thank you」
 
-#思っていたより柔らかい感じでお礼を言って、かりんは紅茶をオレの前に置いた。
 #SCRIPT ORIGINAL 思っていたより柔らかい感じでお礼を言って、かりんは紅茶をオレの前に置いた。
 　She thanks me in a surprisingly soft tone of voice, and places the tea in front of me.
 
-#「え？　いいよ、見返りはいらないって」
 #SCRIPT ORIGINAL 「え？　いいよ、見返りはいらないって」
 ＠Itsuki
 「Huh? No, you don't have to pay me back」
 
 @karin			#普通
 
-#「……見返りじゃないわ。も、もともと樹に淹れたんだから」
 #SCRIPT ORIGINAL 「……見返りじゃないわ。も、もともと樹に淹れたんだから」
 ＠Karin,P01792
 「...I'm not paying you back. I-It was for you from the start」
 
-#「え？」
 #SCRIPT ORIGINAL 「え？」
 ＠Itsuki
 「Huh?」
 
-#「だから感謝しながら飲みなさいよねっ、まったく」
 #SCRIPT ORIGINAL 「だから感謝しながら飲みなさいよねっ、まったく」
 ＠Karin,P01793
 「So be grateful and drink it, jeez」
@@ -319,20 +283,16 @@ wait		1000
 bgm_stop
 @karin_
 
-#聞き返す間もなく、急ぎ気味でかりんは食堂を出て行った。
 #SCRIPT ORIGINAL 聞き返す間もなく、急ぎ気味でかりんは食堂を出て行った。
 　No time for explanations, Karin hurried off to the dining room.
 
-#「一体どういう風の吹き回しだ……？」
 #SCRIPT ORIGINAL 「一体どういう風の吹き回しだ……？」
 ＠Itsuki
 「What just happened...?」
 
-#もう誰も居ない虚空に向けて呟いても答えは返ってこない。
 #SCRIPT ORIGINAL もう誰も居ない虚空に向けて呟いても答えは返ってこない。
 　I mutter into empty space, no reply forthcoming.
 
-#一口飲むと、美雨に劣らないくらい美味しかった。
 #SCRIPT ORIGINAL 一口飲むと、美雨に劣らないくらい美味しかった。
 　Taking a sip, it was no less delicious than Miu's.
 
@@ -586,30 +546,25 @@ label	ep_karin_03
 @chara_clear		#保険
 @bg_rouka
 
-#美雨と一緒に段取りを話しながら、廊下を進んでいた。
 #SCRIPT ORIGINAL 美雨と一緒に段取りを話しながら、廊下を進んでいた。
 　I walked with Miu through the hall discussing our arrangement.
 
 @miu			#閉_にこ
 
-#「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 #SCRIPT ORIGINAL 「それでは、私は隣の図書室に居ますので。何かあれば呼んでください」
 ＠Miu,B01490
 「Well then, I'll be in the library room next door, call me if you need anything」
 
-#「分かった。終わったらオレもそっちを手伝うから」
 #SCRIPT ORIGINAL 「分かった。終わったらオレもそっちを手伝うから」
 ＠Itsuki
 「Sure. If I finish early I'll come and help」
 
-#「はい。すみませんけれど、よろしくお願いします」
 #SCRIPT ORIGINAL 「はい。すみませんけれど、よろしくお願いします」
 ＠Miu,B01491
 「OK, thanks so much」
 
 @miu_
 
-#ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
 #SCRIPT ORIGINAL ドアの前で別れ、美雨は図書室へ、オレは娯楽室へと入った。
 　We part in front of the door. Miu goes into the library room and I go into the game room.
 
@@ -617,33 +572,26 @@ label	ep_karin_03
 @chara_clear		#保険
 @bg_goraku
 
-#「さて、と」
 #SCRIPT ORIGINAL 「さて、と」
 ＠Itsuki
 「Now then...」
 
-#部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
 #SCRIPT ORIGINAL 部屋の中には既に美雨が用意した雑巾やバケツが置いてあった。
 　Miu had already left a bucket and house-cloth inside.
 
-#さっきの段取りと言うのは、掃除の手伝いのことだ。
 #SCRIPT ORIGINAL さっきの段取りと言うのは、掃除の手伝いのことだ。
 　We'd been talking about helping her with cleaning the household.
 
-#遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
 #SCRIPT ORIGINAL 遠慮する美雨へ、半ば強引に手伝いを買って出て今に至る。
 　I had to almost force myself into volunteering to help out, as Miu was hesitant.
 
-#「こうして落ち着いて見ると、けっこう汚れてるものだな」
 #SCRIPT ORIGINAL 「こうして落ち着いて見ると、けっこう汚れてるものだな」
 ＠Itsuki
 「If I take the time to look closely like this, it's gotten pretty dirty」
 
-#遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
 #SCRIPT ORIGINAL 遊びに集中していると気付かないが、テーブルや遊具の端にほこりが溜まっている。
 　When I'm busy doing things I don't notice, but dust has collected on the table and equipment.
 
-#後はもう、出しっぱなしで片付けてないカードとかも……
 #SCRIPT ORIGINAL 後はもう、出しっぱなしで片付けてないカードとかも……
 　And there's some cards and stuff that haven't been put away...
 
@@ -654,17 +602,14 @@ wait		1000
 #@karin_shifuku
 #@karin			#普通
 
-#「……？」
 #SCRIPT ORIGINAL 「……？」
 ＠Karin,P01804
 「...?」
 
-#「ん、かりん？　どうかしたか？」
 #SCRIPT ORIGINAL 「ん、かりん？　どうかしたか？」
 ＠Itsuki
 「Hm, Karin? Is something the matter?」
 
-#半開きにドアが開き、そこからかりんが中を覗きこんできた。
 #SCRIPT ORIGINAL 半開きにドアが開き、そこからかりんが中を覗きこんできた。
 　Opening the door halfway, Karin had peered into the room.
 
@@ -672,85 +617,70 @@ wait		1000
 @karin_shifuku
 @karin			#普通
 
-#「樹一人なの？　話し声がしたけど」
 #SCRIPT ORIGINAL 「樹一人なの？　話し声がしたけど」
 ＠Karin,P01805
 「Itsuki, are you alone? I heard you talking」
 
-#「ああ、掃除するから汚れを見てたのさ。けっこう汚れてるな」
 #SCRIPT ORIGINAL 「ああ、掃除するから汚れを見てたのさ。けっこう汚れてるな」
 ＠Itsuki
 「Yeah, I'm here to clean the room, and I just noticed how dirty it is」
 
 @karin_niko		#にこ
 
-#「ふ～ん。殊勝じゃない」
 #SCRIPT ORIGINAL 「ふ～ん。殊勝じゃない」
 ＠Karin,P01806
 「Hmm, how admirable」
 
 @karin			#普通
 
-#「でも美雨は？　まさか一人でこの部屋全部を掃除するつもり？」
 #SCRIPT ORIGINAL 「でも美雨は？　まさか一人でこの部屋全部を掃除するつもり？」
 ＠Karin,P01807
 「What about Miu? Don't tell me you were planning to clean this entire room on your own?」
 
-#「美雨は隣の部屋を掃除してるからな」
 #SCRIPT ORIGINAL 「美雨は隣の部屋を掃除してるからな」
 ＠Itsuki
 「She's doing the one next door」
 
-#「まぁこれまでは美雨が一人でしてたんだし、何とかなるさ」
 #SCRIPT ORIGINAL 「まぁこれまでは美雨が一人でしてたんだし、何とかなるさ」
 ＠Itsuki
 「Up until now she's always done this on her own, so I think I'll manage」
 
 @karin_akire		#呆れ
 
-#「はぁ。あなたと美雨の掃除スキルじゃ、天と地の差があるじゃない」
 #SCRIPT ORIGINAL 「はぁ。あなたと美雨の掃除スキルじゃ、天と地の差があるじゃない」
 ＠Karin,P01808
 「The difference between your and Miu's cleaning skills is like night and day, though」
 
-#「気合だけ空回りさせて、余計散らかしたりしないでよ」
 #SCRIPT ORIGINAL 「気合だけ空回りさせて、余計散らかしたりしないでよ」
 ＠Karin,P01809
 「I hope you don't end up just making even more of a mess of things」
 
-#「心配するな。オレの場合は単に、美雨が普段手伝わせてくれないだけだよ」
 #SCRIPT ORIGINAL 「心配するな。オレの場合は単に、美雨が普段手伝わせてくれないだけだよ」
 ＠Itsuki
 「Don't worry. All I mean to do is give Miu a hand」
 
-#さっそく布巾を絞り、オレは手近なテーブルを拭こうとした。
 #SCRIPT ORIGINAL さっそく布巾を絞り、オレは手近なテーブルを拭こうとした。
 　I strain the cloth and make to wipe a nearby table.
 
 @karin_ikari		#怒
 
-#「あ、ダメじゃない。まずはテーブルの上の物を片付けなさい」
 #SCRIPT ORIGINAL 「あ、ダメじゃない。まずはテーブルの上の物を片付けなさい」
 ＠Karin,P01810
 「Ah, hold it right there. You have to move the things off the table first」
 
-#「いいよ。拭きながら避ければいいじゃないか」
 #SCRIPT ORIGINAL 「いいよ。拭きながら避ければいいじゃないか」
 ＠Itsuki
 「It doesn't matter. I can just towel around them」
 
-#「そんなこと言う人に限って、上の物を落として壊しちゃうのよ」
 #SCRIPT ORIGINAL 「そんなこと言う人に限って、上の物を落として壊しちゃうのよ」
 ＠Karin,P01811
 「People who say that end up making something fall and breaking it」
 
 @karin_
 
-#忠告しながら隣に来ると、かりんは手際よくテーブルの上を片付け始める。
 #SCRIPT ORIGINAL 忠告しながら隣に来ると、かりんは手際よくテーブルの上を片付け始める。
 　Karin advises me, coming to my side and begins speedily moving things off the table.
 
-#「そっか。じゃあオレも」
 #SCRIPT ORIGINAL 「そっか。じゃあオレも」
 ＠Itsuki
 「Oh, I see. Here, I'll help too」
@@ -759,32 +689,26 @@ wait		1000
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#「あっ。ほらもう、物をのかすなら埃に気をつけてよ。周りに散っちゃうんだから」
 #SCRIPT ORIGINAL 「あっ。ほらもう、物をのかすなら埃に気をつけてよ。周りに散っちゃうんだから」
 ＠Karin,P01812
 「Ah. Hey, be careful of things that have been sitting for a while. You'll kick up dust」
 
 @karin			#普通
 
-#「ここは良いから、窓を開けてきて。換気くらい最初にしておきなさい」
 #SCRIPT ORIGINAL 「ここは良いから、窓を開けてきて。換気くらい最初にしておきなさい」
 ＠Karin,P01813
 「I'm fine with this, go and open the window. That's the first thing you should do, you know」
 
-#「お、おお」
 #SCRIPT ORIGINAL 「お、おお」
 ＠Itsuki
 「O-OK」
 
 @karin_
 
-#確かにその通りだ。
-#かりんの指示にしたがって、一度部屋の窓を開け放つ。
 #SCRIPT ORIGINAL 確かにその通りだ。
 #SCRIPT ORIGINAL かりんの指示にしたがって、一度部屋の窓を開け放つ。
 　She's probably right. I go and open it like she instructed.
 
-#「さてと。掃除はまず、高い場所からだよな。埃が落ちるから」
 #SCRIPT ORIGINAL 「さてと。掃除はまず、高い場所からだよな。埃が落ちるから」
 ＠Itsuki
 「Alright. I should start with cleaning the high places first, because dust will fall down, right?」
@@ -793,29 +717,24 @@ wait		1000
 @karin_shifuku
 @karin			#普通
 
-#「間違っては無いけど。なに、大掃除でも始める気なのあなた……」
 #SCRIPT ORIGINAL 「間違っては無いけど。なに、大掃除でも始める気なのあなた……」
 ＠Karin,P01814
 「That's true, but you don't need to make such a fuss, like you're starting spring cleaning or something...」
 
 @karin_keno		#嫌悪
 
-#「そんなことより、ほら、袖が埃を擦ってるじゃない。ボケッとしないでよ」
 #SCRIPT ORIGINAL 「そんなことより、ほら、袖が埃を擦ってるじゃない。ボケッとしないでよ」
 ＠Karin,P01815
 「Anyway, look, you can wipe off the dust with your sleeve, don't take the bucket with you」
 
 @karin_
 
-#口調や態度はいつもと同じだが、わざわざその汚れを手で払ってくれるかりん。
 #SCRIPT ORIGINAL 口調や態度はいつもと同じだが、わざわざその汚れを手で払ってくれるかりん。
 　She maintains the same dismissive tone, but pointedly wipes the dust with her arm.
 
-#何ていうか、変に甲斐甲斐しくて調子が狂う。
 #SCRIPT ORIGINAL 何ていうか、変に甲斐甲斐しくて調子が狂う。
 　There's something off about all her bravado.
 
-#「えっと、かりん……？」
 #SCRIPT ORIGINAL 「えっと、かりん……？」
 ＠Itsuki
 「Uh, Karin...?」
@@ -824,35 +743,29 @@ wait		1000
 @karin_shifuku
 @karin			#普通
 
-#「な、何よ……勘違いしないでよね。余計に汚くされないように、手伝ってるだけなんだから」
 #SCRIPT ORIGINAL 「な、何よ……勘違いしないでよね。余計に汚くされないように、手伝ってるだけなんだから」
 ＠Karin,P01816
 「W-what...? Don't get me wrong. I'm just helping because I want you to do it properly」
 
-#「それと、こっそりいやらしい隠しカメラとか仕掛けたりしないか、見張りよ」
 #SCRIPT ORIGINAL 「それと、こっそりいやらしい隠しカメラとか仕掛けたりしないか、見張りよ」
 ＠Karin,P01817
 「And to make sure you don't lay one of those awful hidden cameras somewhere」
 
-#「後者は絶対ねぇよ。信用ねぇな……」
 #SCRIPT ORIGINAL 「後者は絶対ねぇよ。信用ねぇな……」
 ＠Itsuki
 「That's absurd. You don't trust me at all...」
 
 @karin_keno		#嫌悪
 
-#「あるわけ無いでしょ。こんな生活しておいて」
 #SCRIPT ORIGINAL 「あるわけ無いでしょ。こんな生活しておいて」
 ＠Karin,P01818
 「Of course I don't, in a place like this...」
 
 @karin_
 
-#フイッと顔を背けると、今度は自分の掃除に集中してしまう。
 #SCRIPT ORIGINAL フイッと顔を背けると、今度は自分の掃除に集中してしまう。
 　She scoffs turning away, and focuses on her cleaning. 
 
-#……やっぱり気のせいか。いつものかりんだ。
 #SCRIPT ORIGINAL ……やっぱり気のせいか。いつものかりんだ。
 　...I'm just imagining things. She's always the same.
 
@@ -860,19 +773,16 @@ wait		1000
 @karin_shifuku
 @karin			#普通
 
-#「さてと。じゃあ樹は要領が悪いし、とりあえず私の指示に従ってね」
 #SCRIPT ORIGINAL 「さてと。じゃあ樹は要領が悪いし、とりあえず私の指示に従ってね」
 ＠Karin,P01819
 「Alright, you're not very good at this, so I'll have to instruct you for now」
 
 @karin_
 
-#「ショックだ」
 #SCRIPT ORIGINAL 「ショックだ」
 ＠Itsuki
 「I'm shocked」
 
-#だが思わぬ助っ人が入り、美雨の手伝いを含め、掃除は順調に片付くのだった。
 #SCRIPT ORIGINAL だが思わぬ助っ人が入り、美雨の手伝いを含め、掃除は順調に片付くのだった。
 　Still, having unexpeced aid arrive for Miu's house-cleaning, we got through it smoothly.
 
@@ -895,11 +805,9 @@ label	ep_karin_04
 @chara_clear		#保険
 @bg_black
 
-#改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
 #SCRIPT ORIGINAL 改めて言う事でもないが、雫さんは実にくだらない事をするのが好きな人だ。
 　I don't need to say it again, but Shizuku really loves doing useless things.
 
-#とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
 #SCRIPT ORIGINAL とにかく落ち着くことを知らず、常に周りの人間で事を楽しもうとする。
 　She can't ever calm down, and is always amusing herself at the expense of others.
 
@@ -907,58 +815,46 @@ label	ep_karin_04
 @chara_clear		#保険
 @bg_itsuki_n
 
-#「や、やられたぁッ……！！」
 #SCRIPT ORIGINAL 「や、やられたぁッ……！！」
 ＠Itsuki
 「W-what the hell...」
 
 @bgm12			#演：仮ＢＧＭ
 
-#お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
 #SCRIPT ORIGINAL お風呂から戻ってきたオレは、ある光景を目にして絶望の声を上げた。
 　Returning from the bath, I was dumbstruck at the scene before me.
 
-#部屋の中には曲者の侵入の痕跡が残っていた。
 #SCRIPT ORIGINAL 部屋の中には曲者の侵入の痕跡が残っていた。
 　Someone had intruded in my room and left a mess all over the place.
 
-#いや、残っているどころか、
 #SCRIPT ORIGINAL いや、残っているどころか、
 　No, not just a mess...
 
-#「部屋中の本がエロ本にすり替わってる！！」
 #SCRIPT ORIGINAL 「部屋中の本がエロ本にすり替わってる！！」
 ＠Itsuki
 「All my books have been switched with porn magazines!!」
 
-#本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
 #SCRIPT ORIGINAL 本棚はもちろん、枕もとの文庫本までがすり替えられ、乱れた性生活が散乱していた。
 　Everything from my bookshelf to my nightstand, an overflowing sexual deviance was scattered about.
 
-#むしろ産卵しているかもしれない。
 #SCRIPT ORIGINAL むしろ産卵しているかもしれない。
 　Or perhaps planted there.
 
-#「こんなくだらない事に労力を使うのは、雫さんだな……」
 #SCRIPT ORIGINAL 「こんなくだらない事に労力を使うのは、雫さんだな……」
 ＠Itsuki
 「Only Shizuku would go to so much trouble...」
 
-#図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
 #SCRIPT ORIGINAL 図書室にあるエロ本だろう。だが、とても一人の仕事とは思えない。
 　They're probably from the library room. I don't think this is all the work of one person, though.
 
-#「手伝ったのはざくろだろうな。未だに行動が読めないし」
 #SCRIPT ORIGINAL 「手伝ったのはざくろだろうな。未だに行動が読めないし」
 ＠Itsuki
 「Zakuro probably helped. She seems pretty fishy too」
 
-#「……ったく」
 #SCRIPT ORIGINAL 「……ったく」
 ＠Itsuki
 「...Ugh」
 
-#放っておくわけにもいかないので、とりあえず片付け始める。
 #SCRIPT ORIGINAL 放っておくわけにもいかないので、とりあえず片付け始める。
 　I can't just leave it like this, so I start cleaning it up.
 
@@ -966,7 +862,6 @@ label	ep_karin_04
 @SE11			#SE11　部屋のドアをノック（コンコン）
 #コンコン。
 
-#「ん？　ざくろか。雫さんですか？　どうぞ」
 #SCRIPT ORIGINAL 「ん？　ざくろか。雫さんですか？　どうぞ」
 ＠Itsuki
 「Is that you, Zakuro? Shizuku-san? Come in」
@@ -978,39 +873,32 @@ wait		1000
 @karin_pajama
 @karin			#普通
 
-#「悪いわね、どっちでもなくて」
 #SCRIPT ORIGINAL 「悪いわね、どっちでもなくて」
 ＠Karin,P01820
 「Sorry, but it's neither of those」
 
-#「……え゛！？」
 #SCRIPT ORIGINAL 「……え゛！？」
 ＠Itsuki
 「...Huh!?」
 
-#何という不幸な予想外！！
 #SCRIPT ORIGINAL 何という不幸な予想外！！
 　Oh twisted fate!!
 
-#「まぁこっちも用が終わればすぐ―――」
 #SCRIPT ORIGINAL 「まぁこっちも用が終わればすぐ―――」
 ＠Karin,P01821
 「I just have something quick to―――」
 
 @karin_keno		#嫌悪
 
-#「………帰るわ」
 #SCRIPT ORIGINAL 「………帰るわ」
 ＠Karin,P01822
 「......I'm going back」
 
 @karin_
 
-#一瞬で汚らわしい物を見る瞳になって、部屋の外へＵターンするかりん。
 #SCRIPT ORIGINAL 一瞬で汚らわしい物を見る瞳になって、部屋の外へＵターンするかりん。
 　Her eyes widening in disgust, Karin makes a quick U-turn and goes back outside.
 
-#「うわあッ、誤解だってよッ！！　っていうか用があるんじゃないのか！！」
 #SCRIPT ORIGINAL 「うわあッ、誤解だってよッ！！　っていうか用があるんじゃないのか！！」
 ＠Itsuki
 「Uwahh, it's not what you think!! Didn't you have something to ask me!?」
@@ -1019,39 +907,31 @@ wait		1000
 @karin_pajama
 @karin_keno		#嫌悪
 
-#「無いわ（きっぱり」
 #SCRIPT ORIGINAL 「無いわ（きっぱり」
 ＠Karin,P01823
 「No, I don't」
 
-#「あなたに関わる全ての用が、今この瞬間をもって終了したわね」
 #SCRIPT ORIGINAL 「あなたに関わる全ての用が、今この瞬間をもって終了したわね」
 ＠Karin,P01824
 「As of this moment, I am ending any and all association with you」
 
-#「ひいぃぃぃッ……！」
 #SCRIPT ORIGINAL 「ひいぃぃぃッ……！」
 ＠Itsuki
 「Eeeek...!」
 
-#あまりの事態に戦慄し、オレは悲鳴しか漏らせない。
 #SCRIPT ORIGINAL あまりの事態に戦慄し、オレは悲鳴しか漏らせない。
 　The situation taking a hold of my nerves, all I can do is utter a soft shriek.
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Karin,P01825
 「......」
 
-#かりんは冷めた視線で、オレが偶然手に持っていた本を見たようだった。
 #SCRIPT ORIGINAL かりんは冷めた視線で、オレが偶然手に持っていた本を見たようだった。
 　Looking at me coldly, her eyes fall to the book I'm holding.
 
-#『罵ってお姉さまⅡ　～どうか蔑む言葉でイカせてください～』
 #SCRIPT ORIGINAL 『罵ってお姉さまⅡ　～どうか蔑む言葉でイカせてください～』
 『Abusive Onee-sama II "Please make me come with your spiteful words"』
 
-#「それに呆れた性癖ね。とても理解できないわ、この変態」
 #SCRIPT ORIGINAL 「それに呆れた性癖ね。とても理解できないわ、この変態」
 ＠Karin,P01826
 「And what a disgusting fetish. I can't even comprehend this... you pervert!」
@@ -1059,37 +939,31 @@ wait		1000
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
-#「ぐはッ！！」
 #SCRIPT ORIGINAL 「ぐはッ！！」
 ＠Itsuki
 「Guha!!」
 
-#本気でその性癖だったら、間違いなく興奮しそうな口調だった。
 #SCRIPT ORIGINAL 本気でその性癖だったら、間違いなく興奮しそうな口調だった。
 　If it really was my fetish, that would definitely have turned me on.
 
 @karin			#普通
 
-#「それじゃあね。もう二度とこの部屋には来ないから」
 #SCRIPT ORIGINAL 「それじゃあね。もう二度とこの部屋には来ないから」
 ＠Karin,P01827
 「I'll see you later. I won't make the mistake of coming to your room twice」
 
-#「ま、待ってくれ……。こんなの悲惨すぎる……」
 #SCRIPT ORIGINAL 「ま、待ってくれ……。こんなの悲惨すぎる……」
 ＠Itsuki
 「J-Just wait, please... I can't bear this...」
 
 @karin_keno		#嫌悪
 
-#「ふん、何よ。悲惨なのは私も同じなんだから」
 #SCRIPT ORIGINAL 「ふん、何よ。悲惨なのは私も同じなんだから」
 ＠Karin,P01828
 「Hmph. Really... I can't bear it either」
 
 @karin_kanashimi	#哀
 
-#「こんな性癖じゃ、私もどうすればいいか分からないじゃない……」
 #SCRIPT ORIGINAL 「こんな性癖じゃ、私もどうすればいいか分からないじゃない……」
 ＠Karin,P01829
 「I don't know what to do with desires like this either...」
@@ -1100,20 +974,16 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#最後の一瞬はちょっと寂しそうに見えたが……
 #SCRIPT ORIGINAL 最後の一瞬はちょっと寂しそうに見えたが……
 　She looked a little lonely for a moment, but...
 
-#「う、うぅ………」
 #SCRIPT ORIGINAL 「う、うぅ………」
 ＠Itsuki
 「No, no...」
 
-#それでも激しい誤解から軽蔑を残して、かりんは部屋を去っていった。
 #SCRIPT ORIGINAL それでも激しい誤解から軽蔑を残して、かりんは部屋を去っていった。
 　Even so, expressing contempt at this huge misunderstanding, Karin left the room.
 
-#「うわああああーーーッ！！」
 #SCRIPT ORIGINAL 「うわああああーーーッ！！」
 ＠Itsuki
 「Uwahhhhh!!!」
@@ -1123,11 +993,9 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#結局犯人だった雫さんを捕まえるまで、かりんからはまるで人以下のように見られるのだった。
 #SCRIPT ORIGINAL 結局犯人だった雫さんを捕まえるまで、かりんからはまるで人以下のように見られるのだった。
 　Until I caught the real villain, Shizuku, Karin would look at me like the plague.
 
-#……誤解だと分かると、何かやけにかりんは安心したようだったが。
 #SCRIPT ORIGINAL ……誤解だと分かると、何かやけにかりんは安心したようだったが。
 　...Needless to say, when she learned the truth, she looked quite relieved.
 

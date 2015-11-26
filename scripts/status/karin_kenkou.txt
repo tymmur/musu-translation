@@ -358,11 +358,9 @@ label	karin_kenkou_a2
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-#ちょうど自室に戻ろうとしていたかりんと出くわした。
 #SCRIPT ORIGINAL ちょうど自室に戻ろうとしていたかりんと出くわした。
 　I came across Karin heading back to her room.
 
-#「どうしたかりん。他のみんなとは一緒にいないのか？」
 #SCRIPT ORIGINAL 「どうしたかりん。他のみんなとは一緒にいないのか？」
 ＠Itsuki
 「What's the matter, Karin? Don't want to be with everyone else?」
@@ -371,18 +369,15 @@ label	karin_kenkou_a2
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#「気分が悪いの……部屋で休む」
 #SCRIPT ORIGINAL 「気分が悪いの……部屋で休む」
 ＠Karin,P01622
 「I feel under the weather... I'll go rest in my room」
 
 @karin_
 
-#億劫そうに応え、そのまま部屋へ入ろうとする。
 #SCRIPT ORIGINAL 億劫そうに応え、そのまま部屋へ入ろうとする。
 　Firing an annoyed response, she makes to go into her room.
 
-#「薬持ってきてやろうか？」
 #SCRIPT ORIGINAL 「薬持ってきてやろうか？」
 ＠Itsuki
 「Can I get you a medicine?」
@@ -391,52 +386,43 @@ label	karin_kenkou_a2
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#「いらないわよ、何であなたになんか……」
 #SCRIPT ORIGINAL 「いらないわよ、何であなたになんか……」
 ＠Karin,P01623
 「I don't need one. Like I'd want one from...」
 
-#そのいつもの言葉も、途中で眉をひそめて止まってしまった。
 #SCRIPT ORIGINAL そのいつもの言葉も、途中で眉をひそめて止まってしまった。
 　In the middle of her usual comments, she frowned and trailed off.
 
 @karin_kanashimi	#哀
 
-#「………やっぱり貰おうかしら」
 #SCRIPT ORIGINAL 「………やっぱり貰おうかしら」
 ＠Karin,P01624
 「...Maybe I will take you up on that, after all」
 
-#「本気で辛そうだな」
 #SCRIPT ORIGINAL 「本気で辛そうだな」
 ＠Itsuki
 「It must really be tough on you, huh」
 
-#「寝てれば治るわ………誰かさんが変なことでもしに来ない限りわね」
 #SCRIPT ORIGINAL 「寝てれば治るわ………誰かさんが変なことでもしに来ない限りわね」
 ＠Karin,P01625
 「I'll get over it by resting... unless somebody comes by asking for weird favours」
 
-#「ほほぉ？　そんな懸念があるんなら、オレが部屋の中でずっと居てやろうか」
 #SCRIPT ORIGINAL 「ほほぉ？　そんな懸念があるんなら、オレが部屋の中でずっと居てやろうか」
 ＠Itsuki
 「Ohh? If you're worried about that, I can stay by your side all the time」
 
 @karin_ikari		#怒
 
-#「い・や！　入ってきたら殴り飛ばすわよ」
 #SCRIPT ORIGINAL 「い・や！　入ってきたら殴り飛ばすわよ」
 ＠Karin,P01626
 「No thanks! I'll knock you off your feet if you come in」
 
-#「それが元お嬢様の言葉か……かなり元気じゃん」
 #SCRIPT ORIGINAL 「それが元お嬢様の言葉か……かなり元気じゃん」
 ＠Itsuki
 「That's more like you... you're not too bad off then」
 
 @karin_keno		#嫌悪
 
-#「ふん……薬のときはノックして。そのときだけ入室を許可してあげるから」
 #SCRIPT ORIGINAL 「ふん……薬のときはノックして。そのときだけ入室を許可してあげるから」
 ＠Karin,P01627
 「Huff... knock when you bring some medicine. I'll only let you in then」
@@ -448,15 +434,12 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#それだけ言うと用は済んだと部屋に入ってしまった。
 #SCRIPT ORIGINAL それだけ言うと用は済んだと部屋に入ってしまった。
 　With that her business with me finished, she went into her room.
 
-#まぁ具合が悪そうなのは本当なので、これ以上からかうのも悪いか。
 #SCRIPT ORIGINAL まぁ具合が悪そうなのは本当なので、これ以上からかうのも悪いか。
 　Considering she really did seem unwell, I shouldn't tease her anymore.
 
-#「薬を持っていった時に殴られるようなら、そのまま元気になるまでからかってやろう」
 #SCRIPT ORIGINAL 「薬を持っていった時に殴られるようなら、そのまま元気になるまでからかってやろう」
 ＠Itsuki
 「If when I bring her medicine she wants to punch me, I'll conclude she's recovered and tease her like usual」
@@ -795,12 +778,10 @@ label	karin_kenkou_b2
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#「はい、どうぞ～」
 #SCRIPT ORIGINAL 「はい、どうぞ～」
 ＠Itsuki
 「Yeah, come in～」
 
-#部屋で自主学習をしながら、声だけで来客へ応対する。
 #SCRIPT ORIGINAL 部屋で自主学習をしながら、声だけで来客へ応対する。
 　Buried in some independent study in my room, I called out to a visitor.
 
@@ -810,60 +791,48 @@ label	karin_kenkou_b2
 @karin_shifuku
 @karin			#普通
 
-#「樹……美雨を探してるんだけど、あなた知らない？」
 #SCRIPT ORIGINAL 「樹……美雨を探してるんだけど、あなた知らない？」
 ＠Karin,P01642
 「Itsuki... I'm looking for Miu. Any idea where she is?」
 
-#意外な訪問者だった。
 #SCRIPT ORIGINAL 意外な訪問者だった。
 　An unexpected visitor.
 
-#「さぁ。もしかしたら買い物に出てるかもしれないな」
 #SCRIPT ORIGINAL 「さぁ。もしかしたら買い物に出てるかもしれないな」
 ＠Itsuki
 「Don't know. Maybe she's out shopping」
 
 @karin_kanashimi	#哀
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Karin,P01643
 「......」
 
-#苦虫を噛み潰したみたいな表情でこっちを見る。
-#が、知らないものは知らないのでどうしようもない。
 #SCRIPT ORIGINAL 苦虫を噛み潰したみたいな表情でこっちを見る。
 #SCRIPT ORIGINAL が、知らないものは知らないのでどうしようもない。
 　She looks at me with a sour face. But, I really don't know after all.
 
-#「美雨じゃないとダメな用事か？」
 #SCRIPT ORIGINAL 「美雨じゃないとダメな用事か？」
 ＠Itsuki
 「Is there anything I can do to help?」
 
-#「頭痛薬がほしいのよ。場所が分かるなら誰でもいいわ」
 #SCRIPT ORIGINAL 「頭痛薬がほしいのよ。場所が分かるなら誰でもいいわ」
 ＠Karin,P01644
 「I want medicine for headache pain. Just tell me where it is」
 
-#「頭痛って、大丈夫なのか？」
 #SCRIPT ORIGINAL 「頭痛って、大丈夫なのか？」
 ＠Itsuki
 「Headache... are you feeling OK?」
 
-#「……大丈夫なら薬なんて探してないわよ」
 #SCRIPT ORIGINAL 「……大丈夫なら薬なんて探してないわよ」
 ＠Karin,P01645
 「...If I was OK, I wouldn't be looking for medicine」
 
 @karin_
 
-#頭を押さえながら、部屋を出て行こうとするかりん。
 #SCRIPT ORIGINAL 頭を押さえながら、部屋を出て行こうとするかりん。
 　Holding her head, she makes to leave my room.
 
-#「部屋にいろ、持って行ってやるから」
 #SCRIPT ORIGINAL 「部屋にいろ、持って行ってやるから」
 ＠Itsuki
 「Stay in your room, I'll go get you some」
@@ -872,19 +841,16 @@ label	karin_kenkou_b2
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#「樹が……？　変な薬じゃないでしょうね」
 #SCRIPT ORIGINAL 「樹が……？　変な薬じゃないでしょうね」
 ＠Karin,P01646
 「You will...? I hope it's not some weird "medicine"」
 
-#「信用ないな……普通の家庭常備薬だよ」
 #SCRIPT ORIGINAL 「信用ないな……普通の家庭常備薬だよ」
 ＠Itsuki
 「You don't trust me, huh... it's just household medicine」
 
 @karin_kanashimi	#哀
 
-#「冗談よ。いいから早く持ってきてよね」
 #SCRIPT ORIGINAL 「冗談よ。いいから早く持ってきてよね」
 ＠Karin,P01647
 「I'm joking. It's okay, hurry up and get it」
@@ -896,24 +862,19 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#抑揚の無い声で言い捨て、部屋を後にする。
 #SCRIPT ORIGINAL 抑揚の無い声で言い捨て、部屋を後にする。
 　She speaks off-hand over her shoulder, and leaves the room.
 
-#相変わらずものを頼む態度の片鱗も無いが……
 #SCRIPT ORIGINAL 相変わらずものを頼む態度の片鱗も無いが……
 　As usual, she's not enthusiastic about asking for things, but...
 
-#「体調管理はオレの領分だからな……」
 #SCRIPT ORIGINAL 「体調管理はオレの領分だからな……」
 ＠Itsuki
 「It's up to me to manage her physical condition...」
 
-#健康を崩す前に何とかするべきなのだ、本来は。
 #SCRIPT ORIGINAL 健康を崩す前に何とかするべきなのだ、本来は。
 　I ought to do something, before I worsen her condition.
 
-#近い内に休息日も入れてやらないと。
 #SCRIPT ORIGINAL 近い内に休息日も入れてやらないと。
 　I'll have to give her a rest day before long.
 
@@ -1201,7 +1162,6 @@ label	karin_kenkou_c2
 @chara_clear		#保険
 @bg_dining		# 食堂
 
-#今日も食事の時間は、いちごの食欲がうなりを上げる。
 #SCRIPT ORIGINAL 今日も食事の時間は、いちごの食欲がうなりを上げる。
 　Today, as usual, Ichigo had a roaring appetite during breakfast.
 
@@ -1209,12 +1169,10 @@ label	karin_kenkou_c2
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-#「おかわりッ！」
 #SCRIPT ORIGINAL 「おかわりッ！」
 ＠Ichigo,O01704
 「More please!」
 
-#「ごめんなさい、いちごちゃん。もうさっきのが最後の分よ」
 #SCRIPT ORIGINAL 「ごめんなさい、いちごちゃん。もうさっきのが最後の分よ」
 ＠Miu,B01452
 「Sorry, Ichigo-chan. You just had the last of it」
@@ -1223,12 +1181,10 @@ label	karin_kenkou_c2
 @SE75			#SE75　ショック音（ガーーン！）
 @ichigo_kanashimi	#哀
 
-#「ガーーーンッ！！」
 #SCRIPT ORIGINAL 「ガーーーンッ！！」
 ＠Ichigo,O01705
 「Nooooo!!」
 
-#少々食べ過ぎのような気もするが。
 #SCRIPT ORIGINAL 少々食べ過ぎのような気もするが。
 　I can't help but feel she overate, anyway.
 
@@ -1236,52 +1192,43 @@ label	karin_kenkou_c2
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#「いいわよ、いちご。私のをあげるから」
 #SCRIPT ORIGINAL 「いいわよ、いちご。私のをあげるから」
 ＠Karin,P01671
 「Very well, Ichigo. You can have mine」
 
 @ichigo			#普通
 
-#「えッ！？」
 #SCRIPT ORIGINAL 「えッ！？」
 ＠Ichigo,O01706
 「Huh!?」
 
-#「え……」
 #SCRIPT ORIGINAL 「え……」
 ＠Itsuki
 「Huh...」
 
-#腹ペコ魔人の要望に応えたのは、意外すぎることにかりんだった。
 #SCRIPT ORIGINAL 腹ペコ魔人の要望に応えたのは、意外すぎることにかりんだった。
 　It was a very strange sight for Karin to acquiesce to the hunger demon's demands.
 
-#「いいの？　何で？」
 #SCRIPT ORIGINAL 「いいの？　何で？」
 ＠Ichigo,O01707
 「I can? How come?」
 
-#「何か入ってるんじゃない？　髪の毛とか」
 #SCRIPT ORIGINAL 「何か入ってるんじゃない？　髪の毛とか」
 ＠Zakuro,Q01028
 「Did you find a hair in it, or something?」
 
 @ichigo_ase		#汗
 
-#「い、いちごに呪い！？」
 #SCRIPT ORIGINAL 「い、いちごに呪い！？」
 ＠Ichigo,O01708
 「D-did you curse it?」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
-#「私は呪術師かッ！　単に調子が良くないだけよッ！」
 #SCRIPT ORIGINAL 「私は呪術師かッ！　単に調子が良くないだけよッ！」
 ＠Karin,P01672
 「Am I a witch now!? I'm just not feeling that great!」
 
-#「まぁかりんが進んでいちごにおかずを上げる時点で、何かしら異常っぽいことは分かるけど」
 #SCRIPT ORIGINAL 「まぁかりんが進んでいちごにおかずを上げる時点で、何かしら異常っぽいことは分かるけど」
 ＠Itsuki
 「Well, I mean it is kind of strange, to see you going so far as to give her your dish...」
@@ -1290,24 +1237,20 @@ label	karin_kenkou_c2
 #//フラッシュ
 @SE38			#殴る音（バキッ！）
 
-#「いって！！」
 #SCRIPT ORIGINAL 「いって！！」
 ＠Itsuki
 「Ouch!!」
 
 @karin_komikaru_ikari	#コミカル怒
 
-#「異常って言うなッ！　おかずあげたくらいで異常扱いされたら、普段がどれだけ意地汚いのよッ」
 #SCRIPT ORIGINAL 「異常って言うなッ！　おかずあげたくらいで異常扱いされたら、普段がどれだけ意地汚いのよッ」
 ＠Karin,P01673
 「Don't say it's strange! If it's strange for me to be giving someone else food, just how greedy do you think I am!?」
 
-#「っく、脛を蹴るなッ……何も調子なんか悪くなさそうじゃないか」
 #SCRIPT ORIGINAL 「っく、脛を蹴るなッ……何も調子なんか悪くなさそうじゃないか」
 ＠Itsuki
 「Ugh, don't kick me in the shin... you seem pretty lively to me」
 
-#「じゃ、やっぱり呪いなんじゃない？」
 #SCRIPT ORIGINAL 「じゃ、やっぱり呪いなんじゃない？」
 ＠Zakuro,Q01029
 「Then, it has to be a curse, right?」
@@ -1320,12 +1263,10 @@ label	karin_kenkou_c2
 
 @karin_keno		#嫌悪
 
-#「……いらないなら捨てるわよ」
 #SCRIPT ORIGINAL 「……いらないなら捨てるわよ」
 ＠Karin,P01674
 「...I'll throw it away if you don't want it」
 
-#「ただ食欲が無いだけよ。樹の足を蹴るくらいなら、別に問題ないわ」
 #SCRIPT ORIGINAL 「ただ食欲が無いだけよ。樹の足を蹴るくらいなら、別に問題ないわ」
 ＠Karin,P01675
 「I just lost my appetite. But I don't have any problems with kicking Itsuki in the shin」
@@ -1333,11 +1274,9 @@ label	karin_kenkou_c2
 @chara_clear		#保険
 @bg_black
 
-#言いながらゴツゴツとこっちにつま先をぶつけてくる。
 #SCRIPT ORIGINAL 言いながらゴツゴツとこっちにつま先をぶつけてくる。
 　Saying that, with a whack, her toe connected with my leg again.
 
-#……何でこんなに蹴られてるんだ、オレ。
 #SCRIPT ORIGINAL ……何でこんなに蹴られてるんだ、オレ。
 　...What did I do to deserve getting kicked like this?
 
@@ -1350,33 +1289,27 @@ label	karin_kenkou_c2
 @karin_niko		#にこ
 @bg_dining		# 食堂
 
-#「食欲が無いって、気分が悪いの、かりんちゃん？」
 #SCRIPT ORIGINAL 「食欲が無いって、気分が悪いの、かりんちゃん？」
 ＠Mikan,A01253
 「You don't have your appetite... are you feeling sick, Karin-chan?」
 
-#「ううん、そんな大したことはないのよ」
 #SCRIPT ORIGINAL 「ううん、そんな大したことはないのよ」
 ＠Karin,P01676
 「Nope, it's not that big of a deal」
 
-#「今だけだろうし、お昼にはまたお腹が空くんじゃないかしら」
 #SCRIPT ORIGINAL 「今だけだろうし、お昼にはまたお腹が空くんじゃないかしら」
 ＠Karin,P01677
 「It's probably just for now, and I'll end up feeling hungry by lunchtime」
 
 @mikan_kanashimi	#哀
 
-#「……だったらいいけど」
 #SCRIPT ORIGINAL 「……だったらいいけど」
 ＠Mikan,A01254
 「...I hope so」
 
-#みかんが不安そうにオレを見る。
 #SCRIPT ORIGINAL みかんが不安そうにオレを見る。
 　Mikan looks at me a little worried.
 
-#オレも確かに心配だが、けどかりんはオレが言っても聞かないからな。
 #SCRIPT ORIGINAL オレも確かに心配だが、けどかりんはオレが言っても聞かないからな。
 　I'm worried too, but she wouldn't listen to what I have to say anyway.
 
@@ -1388,23 +1321,19 @@ wait		500
 @ichigo_shifuku
 @ichigo			#普通
 
-#「………ねぇ、結局そのおかず、もらっていいの？」
 #SCRIPT ORIGINAL 「………ねぇ、結局そのおかず、もらっていいの？」
 ＠Ichigo,O01710
 「...Hey, so can I have your food then?」
 
-#いちごだけが、未練がましくかりんの分を狙っていた。
 #SCRIPT ORIGINAL いちごだけが、未練がましくかりんの分を狙っていた。
 　Ichigo, on the other hand, resolutely eyed Karin's side dish.
 
-#「どうぞ、呪いなんて信じてないなら遠慮なく食べなさい」
 #SCRIPT ORIGINAL 「どうぞ、呪いなんて信じてないなら遠慮なく食べなさい」
 ＠Karin,P01678
 「Go ahead. If you don't believe in curses, you can have all you want」
 
 @ichigo_yorokobi	#喜
 
-#「やったッ、いちご信じてないよ！　いっただきまーす♪」
 #SCRIPT ORIGINAL 「やったッ、いちご信じてないよ！　いっただきまーす♪」
 ＠Ichigo,O01711
 「Alright! I don't believe in them! I'm digging in♪」
@@ -1413,7 +1342,6 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-#「でも、私が信じる」
 #SCRIPT ORIGINAL 「でも、私が信じる」
 ＠Zakuro,Q01030
 「But, I believe in curses」
@@ -1424,26 +1352,22 @@ wait		500
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
-#「うわーーーッ！！　い、いちごのおかずがッ！！」
 #SCRIPT ORIGINAL 「うわーーーッ！！　い、いちごのおかずがッ！！」
 ＠Ichigo,O01712
 「Uwahhhh!! M-my food!!」
 
-#「浄化した。召し上がれ」
 #SCRIPT ORIGINAL 「浄化した。召し上がれ」
 ＠Zakuro,Q01031
 「I've purified it. Eat up」
 
 @ichigo_naki		#泣
 
-#「こんな青ノリまみれ、食べれないよぉ～」
 #SCRIPT ORIGINAL 「こんな青ノリまみれ、食べれないよぉ～」
 ＠Ichigo,O01713
 「I can't eat it when it's all covered with seaweed like this～」
 
 @zakuro_niko		#にこ
 
-#「なら、私がもらう」
 #SCRIPT ORIGINAL 「なら、私がもらう」
 ＠Zakuro,Q01032
 「Then, I'll have it」
@@ -1451,18 +1375,15 @@ wait		500
 @chara_clear		#保険
 @bg_black
 
-#狙っていたように代わりに食べ始めるざくろに、いちごが対抗して騒ぎ出す。
 #SCRIPT ORIGINAL 狙っていたように代わりに食べ始めるざくろに、いちごが対抗して騒ぎ出す。
 　A struggle breaks out between Ichigo and Zakuro, who instead began eating it as if she'd wanted it for herself.
 
-#そんな騒ぎの中で、かりんは食事を終えて席を立っていた。
 #SCRIPT ORIGINAL そんな騒ぎの中で、かりんは食事を終えて席を立っていた。
 　In the middle of the commotion, Karin finished her meal and stood up.
 
 @chara_clear		#保険
 @bg_dining		# 食堂
 
-#「調子が悪くなったら無理するなよ？」
 #SCRIPT ORIGINAL 「調子が悪くなったら無理するなよ？」
 ＠Itsuki
 「Don't push yourself if you feel unwell」
@@ -1471,29 +1392,23 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#「分かってる……」
 #SCRIPT ORIGINAL 「分かってる……」
 ＠Karin,P01679
 「I know...」
 
 @karin_
 
-#それだけはポツリと素直に呟くと、食堂を後にしていった。
 #SCRIPT ORIGINAL それだけはポツリと素直に呟くと、食堂を後にしていった。
 　Muttering that quietly, she put off the meal for later.
 
-#ま、何だかんだでしっかりしてる子だから心配いるまい。
-#……みかんさえ関わってなかったら。
 #SCRIPT ORIGINAL ま、何だかんだでしっかりしてる子だから心配いるまい。
 #SCRIPT ORIGINAL ……みかんさえ関わってなかったら。
 　Well, she seems like she knows how to take care of herself, so I shouldn't fuss... she's not Mikan, after all.
 
-#「……さて、え？」
 #SCRIPT ORIGINAL 「……さて、え？」
 ＠Itsuki
 「Now then...huh?」
 
-#テーブルに向き直ると、オレのおかずが青ノリに埋もれていた。
 #SCRIPT ORIGINAL テーブルに向き直ると、オレのおかずが青ノリに埋もれていた。
 　When I turned back to the table, my side dish was buried in a pile of seaweed.
 
@@ -1501,36 +1416,30 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-#「浄化祭り・青緑の乱れ桜。美雨、新しい青ノリ頂戴」
 #SCRIPT ORIGINAL 「浄化祭り・青緑の乱れ桜。美雨、新しい青ノリ頂戴」
 ＠Zakuro,Q01033
 「Cleansing festival: the scattered blue-green cherry blossoms. Miu, I'd like some new Aonori」
 
 @miu_ikari		#閉_怒
 
-#「もう、ダメよざくろちゃん、無駄遣いしたら」
 #SCRIPT ORIGINAL 「もう、ダメよざくろちゃん、無駄遣いしたら」
 ＠Miu,B01453
 「Jeez, you mustn't just throw it away, Zakuro-chan」
 
-#「買い置きもそれで最後だから、罰として買ってくるまで我慢すること」
 #SCRIPT ORIGINAL 「買い置きもそれで最後だから、罰として買ってくるまで我慢すること」
 ＠Miu,B01454
 「That was the last of our stock, so as your punishment you'll have to wait until I buy some more」
 
 @zakuro_metoji		#閉
 
-#「ショック」
 #SCRIPT ORIGINAL 「ショック」
 ＠Zakuro,Q01034
 「I'm in shock」
 
-#「……オレがショックだ」
 #SCRIPT ORIGINAL 「……オレがショックだ」
 ＠Itsuki
 「...I'm the one that's in shock here」
 
-#まだほとんど箸つけてなかったのに……トホホ。
 #SCRIPT ORIGINAL まだほとんど箸つけてなかったのに……トホホ。
 　I hadn't even picked up my chopsticks... boo hoo hoo.
 
@@ -1647,7 +1556,6 @@ label	karin_kenkou_d1
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#「かりん、入るぞ」
 #SCRIPT ORIGINAL 「かりん、入るぞ」
 ＠Itsuki
 「Karin, I'm coming in」
@@ -1662,7 +1570,6 @@ wait		1000
 @chara_clear		#保険
 @bg_karin		# かりんの部屋
 
-#体調が悪く倒れたかりんの部屋へ、そっと見舞いに顔を覗かせる。
 #SCRIPT ORIGINAL 体調が悪く倒れたかりんの部屋へ、そっと見舞いに顔を覗かせる。
 　I tentatively poke my head into Karin's room, ill and bed-ridden.
 
@@ -1672,157 +1579,127 @@ wait		1000
 @karin_pajama
 @karin_kanashimi	#哀
 
-#「……何の用？　病人へ夜這いに来るなんて、悪趣味もいいとこじゃないの」
 #SCRIPT ORIGINAL 「……何の用？　病人へ夜這いに来るなんて、悪趣味もいいとこじゃないの」
 ＠Karin,P01696
 「...What do you want? Sneaking into a sick person's room to molest them is a new low for you」
 
-#「口調に力が無いな。迷惑なら帰るが？」
 #SCRIPT ORIGINAL 「口調に力が無いな。迷惑なら帰るが？」
 ＠Itsuki
 「You sound sick. I can go back, if I'm bothering you」
 
-#「別にいいわ。変なことさえしなければ」
 #SCRIPT ORIGINAL 「別にいいわ。変なことさえしなければ」
 ＠Karin,P01697
 「I don't care. As long as you keep your hands to yourself」
 
-#「それも珍しい。すぐ邪魔の一言で追い返されると思ったのに」
 #SCRIPT ORIGINAL 「それも珍しい。すぐ邪魔の一言で追い返されると思ったのに」
 ＠Itsuki
 「That's unusual. I thought you'd call me a nuisance and send me packing」
 
 @karin_bubetsu		#侮蔑
 
-#「ふん……風邪らしいし、あなたにうつした方が私も早く治るでしょう？」
 #SCRIPT ORIGINAL 「ふん……風邪らしいし、あなたにうつした方が私も早く治るでしょう？」
 ＠Karin,P01698
 「Hmph... I seem to have a cold, so if I pass it on to you I'll get better」
 
-#あしらうように言うと、ひずんだ笑みを浮かべるかりん。
 #SCRIPT ORIGINAL あしらうように言うと、ひずんだ笑みを浮かべるかりん。
 　Karin gives a crinkly smile, after trifling with me.
 
-#おそらく本気なのだろうが、まぁ一緒に居てやることは吝かではない。
 #SCRIPT ORIGINAL おそらく本気なのだろうが、まぁ一緒に居てやることは吝かではない。
 　She may well mean that, but I guess I don't mind staying with her.
 
-#「薬は飲んだか？」
 #SCRIPT ORIGINAL 「薬は飲んだか？」
 ＠Itsuki
 「Did you drink your medicine?」
 
 @karin			#普通
 
-#「ええ。ゆっくり寝てなさいって美雨に言われたわ」
 #SCRIPT ORIGINAL 「ええ。ゆっくり寝てなさいって美雨に言われたわ」
 ＠Karin,P01699
 「Yes. Miu told me to take it easy and rest」
 
 @karin_kanashimi	#哀
 
-#「はぁ……けど退屈ね…」
 #SCRIPT ORIGINAL 「はぁ……けど退屈ね…」
 ＠Karin,P01700
 「Sigh... I'm bored...」
 
-#「うつすといけないから、みかんとも居られないし」
 #SCRIPT ORIGINAL 「うつすといけないから、みかんとも居られないし」
 ＠Karin,P01701
 「I'm contagious, so I can't be with Mikan」
 
-#「ま、贅沢言うな。だからこそ休めるんだろ」
 #SCRIPT ORIGINAL 「ま、贅沢言うな。だからこそ休めるんだろ」
 ＠Itsuki
 「Well, don't be spoiled. You've got to rest up now」
 
 @karin_bubetsu		#侮蔑
 
-#「どっかの誰かが、その休息の時間の邪魔してるけどね」
 #SCRIPT ORIGINAL 「どっかの誰かが、その休息の時間の邪魔してるけどね」
 ＠Karin,P01702
 「There's a certain someone who's interfering with my rest time, though」
 
-#また同じような笑みを浮かべると、こちらを見やる。
 #SCRIPT ORIGINAL また同じような笑みを浮かべると、こちらを見やる。
 　She gives the same wry smile, and looks on at me.
 
-#口調こそいつもの勢いは無いが、喜ぶべきか否かいつものかりんに違いはなかった。
 #SCRIPT ORIGINAL 口調こそいつもの勢いは無いが、喜ぶべきか否かいつものかりんに違いはなかった。
 　Though lacking her usual force, for better or worse it's the same old Karin.
 
-#「うつせるならうつしてほしいもんだ。それでかりんが治るなら安いもんだしな」
 #SCRIPT ORIGINAL 「うつせるならうつしてほしいもんだ。それでかりんが治るなら安いもんだしな」
 ＠Itsuki
 「If you plan to infect me go ahead. That's a small price to pay so you'll get better」
 
 @karin_keno		#嫌悪
 
-#「……出来ないと思ってバカにしてるの？」
 #SCRIPT ORIGINAL 「……出来ないと思ってバカにしてるの？」
 ＠Karin,P01703
 「...Are you making a fool of me, you think I can't?」
 
-#「それとも、うつす方法とか理屈言って、また変なことさせる気なのかしら？」
 #SCRIPT ORIGINAL 「それとも、うつす方法とか理屈言って、また変なことさせる気なのかしら？」
 ＠Karin,P01704
 「Or is it that, by way of infecting you, you still plan to make me do weird things?」
 
-#「どこまで下衆なんだよ、それ」
 #SCRIPT ORIGINAL 「どこまで下衆なんだよ、それ」
 ＠Itsuki
 「Just how sleazy do you think I am?」
 
-#「そうじゃなくて、風邪はきっとオレのせいだからな」
 #SCRIPT ORIGINAL 「そうじゃなくて、風邪はきっとオレのせいだからな」
 ＠Itsuki
 「It's not that, I mean your cold's probably my fault」
 
-#「無理させすぎたか。悪かった……」
 #SCRIPT ORIGINAL 「無理させすぎたか。悪かった……」
 ＠Itsuki
 「I think I pushed you too hard. Sorry...」
 
-#「……ふん。結果が出てからの謝罪くらい、猿でも出来るわ」
 #SCRIPT ORIGINAL 「……ふん。結果が出てからの謝罪くらい、猿でも出来るわ」
 ＠Karin,P01705
 「...Hmph. Even a monkey's capable of apologizing after the fact」
 
 @karin_
 
-#ゴロンと背を向けるように寝返りを打った。
 #SCRIPT ORIGINAL ゴロンと背を向けるように寝返りを打った。
 　She rolls away, turning her back to me.
 
-#「これから気をつけてくれればいいわよ」
 #SCRIPT ORIGINAL 「これから気をつけてくれればいいわよ」
 ＠Karin,P01706
 「I hope you will be more careful from now on」
 
-#「もう行って、やっぱり邪魔よあなた」
 #SCRIPT ORIGINAL 「もう行って、やっぱり邪魔よあなた」
 ＠Karin,P01707
 「Just go, you really are a nuisance」
 
-#話す気が失せたように告げられると、あとはここに居ても仕方ない。
 #SCRIPT ORIGINAL 話す気が失せたように告げられると、あとはここに居ても仕方ない。
 　Even if I stay there's nothing I could do, after being told I'm not wanted.
 
-#退室しようと席を立った。
 #SCRIPT ORIGINAL 退室しようと席を立った。
 　I stood up and made to leave.
 
-#「待って」
 #SCRIPT ORIGINAL 「待って」
 ＠Karin,P01708
 「Wait up」
 
-#「ん？」
 #SCRIPT ORIGINAL 「ん？」
 ＠Itsuki
 「Hm?」
 
-#その気配に、またかりんがこちらに向き直っていた。
 #SCRIPT ORIGINAL その気配に、またかりんがこちらに向き直っていた。
 　Upon hearing me leave, Karin turned back this way.
 
@@ -1830,17 +1707,14 @@ wait		1000
 @karin_pajama
 @karin_keno		#嫌悪
 
-#「みかんの体調には、絶対に気をつけてよね。何かあったら許さないわよ」
 #SCRIPT ORIGINAL 「みかんの体調には、絶対に気をつけてよね。何かあったら許さないわよ」
 ＠Karin,P01709
 「You mustn't not lose track of Mikan's health. If something happens, I won't forgive you」
 
-#「ああ」
 #SCRIPT ORIGINAL 「ああ」
 ＠Itsuki
 「Yeah」
 
-#「かりんもな」
 #SCRIPT ORIGINAL 「かりんもな」
 ＠Itsuki
 「For you too」
@@ -1855,16 +1729,13 @@ wait		1000
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-#「はぁ」
 #SCRIPT ORIGINAL 「はぁ」
 ＠Itsuki
 「Sigh」
 
-#思ったより元気そうで良かったが、倒れたっていうのは穏やかじゃない。
 #SCRIPT ORIGINAL 思ったより元気そうで良かったが、倒れたっていうのは穏やかじゃない。
 　She looked in better shape than I thought, but collapsing is no small matter.
 
-#オレが気をつけてやらないと。
 #SCRIPT ORIGINAL オレが気をつけてやらないと。
 　I'll have to be more careful.
 
@@ -1890,12 +1761,10 @@ label	karin_kenkou_d2
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#「はい」
 #SCRIPT ORIGINAL 「はい」
 ＠Miu,B01461
 「Come in」
 
-#かりんの部屋から美雨の返事がした。
 #SCRIPT ORIGINAL かりんの部屋から美雨の返事がした。
 　Miu replied from within Karin's room.
 
@@ -1908,50 +1777,40 @@ wait		1000
 @chara_clear		#保険
 @bg_karin		# かりんの部屋
 
-#「かりん、倒れたって聞いたけど」
 #SCRIPT ORIGINAL 「かりん、倒れたって聞いたけど」
 ＠Itsuki
 「I heard Karin collapsed」
 
 @miu_komaru		#閉_困
 
-#「ええ、今は眠ってます」
 #SCRIPT ORIGINAL 「ええ、今は眠ってます」
 ＠Miu,B01462
 「Yes, she's asleep now」
 
-#そう言って視線を下ろす先には、ベッドで寝息を立てるかりん。
 #SCRIPT ORIGINAL そう言って視線を下ろす先には、ベッドで寝息を立てるかりん。
 　She looks in front of her at Karin breathing softly in bed.
 
-#この部屋に入る度に言われる憎まれ口も、今は閉ざされていた。
 #SCRIPT ORIGINAL この部屋に入る度に言われる憎まれ口も、今は閉ざされていた。
 　There was no bad-mouthing when I came into her room today.
 
-#「幸い、ただの疲労ということですけど………」
 #SCRIPT ORIGINAL 「幸い、ただの疲労ということですけど………」
 ＠Miu,B01463
 「Thankfully, it was just fatigue, but...」
 
-#「分かってる……」
 #SCRIPT ORIGINAL 「分かってる……」
 ＠Itsuki
 「Oh, I see...」
 
-#ただの疲労でホッとする反面、しかしそれは原因がオレであるということ。
 #SCRIPT ORIGINAL ただの疲労でホッとする反面、しかしそれは原因がオレであるということ。
 　With the relief that it was just fatigue, also came blame on my shoulders.
 
-#前にも一度倒れたって言うのに……
 #SCRIPT ORIGINAL 前にも一度倒れたって言うのに……
 　She'd already collapsed once before...
 
-#「……すぅ………ん」
 #SCRIPT ORIGINAL 「……すぅ………ん」
 ＠Karin,P01695
 「...Snooze...nh」
 
-#「……出ましょう、樹さん」
 #SCRIPT ORIGINAL 「……出ましょう、樹さん」
 ＠Miu,B01464
 「Let's go out, Itsuki-san」
@@ -1965,22 +1824,18 @@ wait		1000
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-#起こさないように部屋を出て、美雨に声を掛けられた。
 #SCRIPT ORIGINAL 起こさないように部屋を出て、美雨に声を掛けられた。
 　We left the room to not wake her, and Miu spoke to me.
 
 @miu_komaru		#閉_困
 
-#「無理のかかることをさせているのは承知ですが……子供達のこと、お願いします樹さん」
 #SCRIPT ORIGINAL 「無理のかかることをさせているのは承知ですが……子供達のこと、お願いします樹さん」
 ＠Miu,B01465
 「I know you're pushing the kids too hard, but... they're all yours, Itsuki-san」
 
-#それは責める口調ではなく、申し訳なさそうな言葉だった。
 #SCRIPT ORIGINAL それは責める口調ではなく、申し訳なさそうな言葉だった。
 　Her tone of voice wasn't accusing, just regretful.
 
-#「いや、オレの都合ばかり考えてたから、こんなことになったんだ。気をつけるよ」
 #SCRIPT ORIGINAL 「いや、オレの都合ばかり考えてたから、こんなことになったんだ。気をつけるよ」
 ＠Itsuki
 「No, this happened because I was too focused on myself. I'll be more careful」
@@ -1990,7 +1845,6 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#美雨と別れると、オレはさっそくかりんの予定をすべて休息に振り替えた。
 #SCRIPT ORIGINAL 美雨と別れると、オレはさっそくかりんの予定をすべて休息に振り替えた。
 　After parting with Miu, I hastily went to fill Karin's schedule with rest days.
 
@@ -2011,31 +1865,25 @@ label	karin_kenkou_e1
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-#日も高い内から、廊下の角の向こうで熱っぽい声が聞こえた。
 #SCRIPT ORIGINAL 日も高い内から、廊下の角の向こうで熱っぽい声が聞こえた。
 　It was the middle of the day, when I heard a feverish voice behind the hallway corner.
 
-#「はぁっ、ん……みかん、ごめんね……私…」
 #SCRIPT ORIGINAL 「はぁっ、ん……みかん、ごめんね……私…」
 ＠Karin,P01710
 「Haa, nh... Mikan, sorry... but I...」
 
-#「かりんちゃん……ん、みかんも、もう……」
 #SCRIPT ORIGINAL 「かりんちゃん……ん、みかんも、もう……」
 ＠Mikan,A01259
 「Karin-chan... nh, me too, I can't...」
 
-#「あぅッ！　んんぅッ…はぁっ、はふぅッ…」
 #SCRIPT ORIGINAL 「あぅッ！　んんぅッ…はぁっ、はふぅッ…」
 ＠Mikan,A01260
 「Auh! Nnhh... haa, hafh...」
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
-#「……な」
 #SCRIPT ORIGINAL 「……な」
 ＠Itsuki
 「...Wha」
@@ -2043,11 +1891,9 @@ label	karin_kenkou_e1
 #SE75　ショック音（ガーーン！）
 @SE75			#SE75　ショック音（ガーーン！）
 
-#ヤッちまったーーーーーッッ！！！！
 #SCRIPT ORIGINAL ヤッちまったーーーーーッッ！！！！
 　Now they've done itーーーー!!!!
 
-#（バカなッ！　冗談で流れる展開とばかり思ってたのにッ、こんな真っ昼間から、しかも廊下でッ！！）
 #SCRIPT ORIGINAL （バカなッ！　冗談で流れる展開とばかり思ってたのにッ、こんな真っ昼間から、しかも廊下でッ！！）
 ＠Itsuki
 （Unreal! It seemed like a funny implication, but to do it in broad daylight, and in the hallway!!）
@@ -2060,7 +1906,6 @@ label	karin_kenkou_e1
 wait		2000
 se_stop		0
 
-#「おいッ、二人とも何やって――――！！」
 #SCRIPT ORIGINAL 「おいッ、二人とも何やって――――！！」
 ＠Itsuki
 「Hey, what are you two up――――！！」
@@ -2070,16 +1915,13 @@ se_stop		0
 @chara_clear		#保険
 @bg_rouka		# 廊下
 
-#「って、ぉぉおおッッッ！！！」
 #SCRIPT ORIGINAL 「って、ぉぉおおッッッ！！！」
 ＠Itsuki
 「Wait, ohhhhhhh!!!」
 
-#角を曲がってみると、そこには床に倒れ伏したみかんに、かりんが覆い被さっている図！？
 #SCRIPT ORIGINAL 角を曲がってみると、そこには床に倒れ伏したみかんに、かりんが覆い被さっている図！？
 　I round the corner to find Karin sprawled out on top of Mikan on the ground!?
 
-#「みかん……んぅ、はぁぁっ……」
 #SCRIPT ORIGINAL 「みかん……んぅ、はぁぁっ……」
 ＠Karin,P01711
 「Mikan... nhh, haaa...」
@@ -2096,25 +1938,20 @@ se_stop		0
 
 #SCRIPT IGNORE END
 
-#「血迷ったかかりんッ！！」
 #SCRIPT ORIGINAL 「血迷ったかかりんッ！！」
 ＠Itsuki
 「Karin, are you out of your mind!?」
 
-#張り付いたかりんをベリッ！と剥がし、下でもがいていたみかんを救出する。
 #SCRIPT ORIGINAL 張り付いたかりんをベリッ！と剥がし、下でもがいていたみかんを救出する。
 　Flipping off a clingy Karin, I extricated Mikan who'd been struggling underneath.
 
-#「んくッ！　はぁッ…」
 #SCRIPT ORIGINAL 「んくッ！　はぁッ…」
 ＠Karin,P01713
 「Nkh! Haa...」
 
-#その際にゴロンと転がったかりんは、そのまましりもちをついて熱い溜め息を吐いた。
 #SCRIPT ORIGINAL その際にゴロンと転がったかりんは、そのまましりもちをついて熱い溜め息を吐いた。
 　Karin, who'd rolled over at that point, lay on her backside and took a hot breath.
 
-#「大丈夫か、みかん！？」
 #SCRIPT ORIGINAL 「大丈夫か、みかん！？」
 ＠Itsuki
 「Are you okay, Mikan!?」
@@ -2123,56 +1960,45 @@ se_stop		0
 @mikan_shifuku
 @mikan			#普通
 
-#「う、うん、ありがとお兄ちゃん。でもかりんちゃんが」
 #SCRIPT ORIGINAL 「う、うん、ありがとお兄ちゃん。でもかりんちゃんが」
 ＠Mikan,A01261
 「Y-yeah, thanks Onii-chan. But, Karin-chan is...」
 
-#「はぁぁ、ん……身体が熱いわ……」
 #SCRIPT ORIGINAL 「はぁぁ、ん……身体が熱いわ……」
 ＠Karin,P01714
 「Haaa, nh... my body's so hot...」
 
-#「まだ何か危険なこと言ってるじゃないか……近寄るなみかん」
 #SCRIPT ORIGINAL 「まだ何か危険なこと言ってるじゃないか……近寄るなみかん」
 ＠Itsuki
 「She's still spouting loony stuff... stay away from her, Mikan」
 
 @mikan_
 
-#衣服の乱れたまま近寄ろうとするみかんを制し、代わりにかりんの側に屈み込む。
 #SCRIPT ORIGINAL 衣服の乱れたまま近寄ろうとするみかんを制し、代わりにかりんの側に屈み込む。
 　I hold off Mikan, trying to get closer her clothes a mess, and lean over Karin instead.
 
-#「おいかりん、冗談にしてもこれは度が………ん？」
 #SCRIPT ORIGINAL 「おいかりん、冗談にしてもこれは度が………ん？」
 ＠Itsuki
 「Hey, Karin. If you meant this as a joke, I hope you know... hm?」
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Karin,P01715
 「......」
 
-#赤い顔でこっちを睨み上げるかりんの息が、僅かに切れている。
 #SCRIPT ORIGINAL 赤い顔でこっちを睨み上げるかりんの息が、僅かに切れている。
 　With flushed cheeks Karin glares up at me, her breathing shallow.
 
-#熱っぽい、というか、本気で熱があるようだ。
 #SCRIPT ORIGINAL 熱っぽい、というか、本気で熱があるようだ。
 　Feverish, or should I say, she really might have a fever.
 
-#「かりんちゃん、熱を出しちゃったから、みかんが部屋まで運んでたの」
 #SCRIPT ORIGINAL 「かりんちゃん、熱を出しちゃったから、みかんが部屋まで運んでたの」
 ＠Mikan,A01262
 「Karin started feeling sick, so I was helping her to her room」
 
-#「その途中で足がもつれて、倒れこんじゃったんだけど……」
 #SCRIPT ORIGINAL 「その途中で足がもつれて、倒れこんじゃったんだけど……」
 ＠Mikan,A01263
 「We were walking, and our legs got tangled up and we fell...」
 
-#「あぁ、なるほど……それであの体勢なわけか」
 #SCRIPT ORIGINAL 「あぁ、なるほど……それであの体勢なわけか」
 ＠Itsuki
 「Ohh, I see... that's why you were in that position」
@@ -2182,80 +2008,65 @@ se_stop		0
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#「むぅ……あなた、何だと思ったのよ」
 #SCRIPT ORIGINAL 「むぅ……あなた、何だと思ったのよ」
 ＠Karin,P01716
 「Mhh... what did you think was happening?」
 
-#「さては私とみかんに対して、不純な妄想を働かせていたわね」
 #SCRIPT ORIGINAL 「さては私とみかんに対して、不純な妄想を働かせていたわね」
 ＠Karin,P01717
 「I guess you were entertaining wild fantasies about us」
 
-#「え、いや……」
 #SCRIPT ORIGINAL 「え、いや……」
 ＠Itsuki
 「Huh, no...」
 
-#「あれ？　けど何でそれでみかんの服が乱れてるんだ」
 #SCRIPT ORIGINAL 「あれ？　けど何でそれでみかんの服が乱れてるんだ」
 ＠Itsuki
 「Wait a minute. Then why are Mikan's clothes out of order?」
 
-#とりあえず今はもう服を直しているみかん。
 #SCRIPT ORIGINAL とりあえず今はもう服を直しているみかん。
 　By now Mikan's already fixing them up.
 
-#確認するようにかりんを問い詰めるのだが、
 #SCRIPT ORIGINAL 確認するようにかりんを問い詰めるのだが、
 　I pressed Karin for an answer to be sure, but...
 
 @karin_kanashimi	#哀
 
-#「う～ん、身体がダルいわぁ……話をするのも億劫で」
 #SCRIPT ORIGINAL 「う～ん、身体がダルいわぁ……話をするのも億劫で」
 ＠Karin,P01718
 「Unngh～, my body's so sluggish... it's tiring to speak」
 
-#「………すげぇ怪しいんだが」
 #SCRIPT ORIGINAL 「………すげぇ怪しいんだが」
 ＠Itsuki
 「...That's pretty suspicious」
 
-#とまれ、まぁ熱があるのは違えようのない事態なわけだ。
 #SCRIPT ORIGINAL とまれ、まぁ熱があるのは違えようのない事態なわけだ。
 　Anyway, in the end the fact remains she does have a fever.
 
-#「しょうがない、みかんは美雨に言って冷やすものを貰ってこい。かりんはオレが連れて行くから」
 #SCRIPT ORIGINAL 「しょうがない、みかんは美雨に言って冷やすものを貰ってこい。かりんはオレが連れて行くから」
 ＠Itsuki
 「Oh well. Mikan, go ask Miu for some ice. I'll take Karin with me」
 
 @karin_odoroki		#驚
 
-#「なッ！？　何勝手なこと言ってるのよあんたッ！」
 #SCRIPT ORIGINAL 「なッ！？　何勝手なこと言ってるのよあんたッ！」
 ＠Karin,P01719
 「Wha!? You can't just order us around like that!」
 
-#「……熱は？」
 #SCRIPT ORIGINAL 「……熱は？」
 ＠Itsuki
 「...Your fever?」
 
 @karin_
 
-#「ぅう～ッ、げほっ、ごほごほッ……セキまで出てきたみたい～」
 #SCRIPT ORIGINAL 「ぅう～ッ、げほっ、ごほごほッ……セキまで出てきたみたい～」
 ＠Karin,P01720
 「Urrgh～, cough, cough cough... I'm coughing now too～」
 
-#「………」
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
 「......」
 
-#……まぁいい。とりあえず今日一日、部屋に寝かしつけておけば心配ないだろ。
 #SCRIPT ORIGINAL ……まぁいい。とりあえず今日一日、部屋に寝かしつけておけば心配ないだろ。
 　...Well, no problem. Just for today, I can help put her to sleep with a nice lullaby.
 
@@ -2263,18 +2074,15 @@ se_stop		0
 @mikan_shifuku
 @mikan			#普通
 
-#「それじゃお兄ちゃん、かりんちゃんよろしくね」
 #SCRIPT ORIGINAL 「それじゃお兄ちゃん、かりんちゃんよろしくね」
 ＠Mikan,A01264
 「Then Onii-chan, Karin-chan. Good luck」
 
 @mikan_
 
-#素直なみかんはオレに従い、そのまま美雨を探し去って行った。
 #SCRIPT ORIGINAL 素直なみかんはオレに従い、そのまま美雨を探し去って行った。
 　Obedient Mikan, like I instructed her, went to look for Miu.
 
-#「さて……」
 #SCRIPT ORIGINAL 「さて……」
 ＠Itsuki
 「Now then...」
@@ -2283,71 +2091,58 @@ se_stop		0
 @karin_shifuku
 @karin_komikaru_yoku	#コミカル欲
 
-#「はぁぁ……もうちょっとだったのにぃ……」
 #SCRIPT ORIGINAL 「はぁぁ……もうちょっとだったのにぃ……」
 ＠Karin,P01721
 「Haa... I was so close...」
 
-#すがるように目をウルウルさせながら、かりんはその後ろ姿を目で追っていた。
 #SCRIPT ORIGINAL すがるように目をウルウルさせながら、かりんはその後ろ姿を目で追っていた。
 　Looking deeply regretful, Karin's eyes followed Mikan's retreating figure.
 
-#「何してたんだ、結局」
 #SCRIPT ORIGINAL 「何してたんだ、結局」
 ＠Itsuki
 「Just what did happen, anyway」
 
 @karin_kanashimi	#哀
 
-#「……見てのとおりよ。熱が出てダルかったから、みかんに付き添ってもらってたの」
 #SCRIPT ORIGINAL 「……見てのとおりよ。熱が出てダルかったから、みかんに付き添ってもらってたの」
 ＠Karin,P01722
 「...What it looked like. I was feverish and sluggish, so Mikan was helping me along」
 
-#「そしたら偶然足が絡まっちゃって、そのままみかんに体重を掛けて床にドーンと」
 #SCRIPT ORIGINAL 「そしたら偶然足が絡まっちゃって、そのままみかんに体重を掛けて床にドーンと」
 ＠Karin,P01723
 「And then, by chance our legs got tangled up, and I fell on Mikan and shoved her to the floor」
 
-#「……そこまでは分かるんだが、それ以降は」
 #SCRIPT ORIGINAL 「……そこまでは分かるんだが、それ以降は」
 ＠Itsuki
 「...I get that part, but what about after that?」
 
 @karin_komikaru_yoku	#コミカル欲
 
-#「だって、ねぇ？　目の前にみかんの戸惑った顔。そしてみかんの匂い」
 #SCRIPT ORIGINAL 「だって、ねぇ？　目の前にみかんの戸惑った顔。そしてみかんの匂い」
 ＠Karin,P01724
 「Well, you know. Mikan's troubled face before my eyes. And her smell」
 
-#「密着した身体は服越しでも互いの体温を感じさせたわ。手もちょうどみかんの胸の辺りをまさぐっていたし」
 #SCRIPT ORIGINAL 「密着した身体は服越しでも互いの体温を感じさせたわ。手もちょうどみかんの胸の辺りをまさぐっていたし」
 ＠Karin,P01725
 「Our bodies pressed up against each other felt warm. My hand was groping right along her chest, too」
 
-#「これで何もしないなんて、女じゃないじゃないッ！」
 #SCRIPT ORIGINAL 「これで何もしないなんて、女じゃないじゃないッ！」
 ＠Karin,P01726
 「A woman can only contain herself so much, am I right!?」
 
-#男の欲望だろうが、それじゃ。
 #SCRIPT ORIGINAL 男の欲望だろうが、それじゃ。
 　I think, in that case, she meant a man's desires.
 
-#「とにかく、熱で理性が回っていないのは良く分かった……部屋に行くぞ」
 #SCRIPT ORIGINAL 「とにかく、熱で理性が回っていないのは良く分かった……部屋に行くぞ」
 ＠Itsuki
 「Well, your fever's obviously clouding your judgment... come on, let's go」
 
 @karin_koufun		#興奮
 
-#「ふふっ、熱は熱でも、これはみかんに対する情欲の熱よ！」
 #SCRIPT ORIGINAL 「ふふっ、熱は熱でも、これはみかんに対する情欲の熱よ！」
 ＠Karin,P01727
 「Fufu, fever as it may be, it's a passionate fever for Mikan」
 
-#「だったら余計に冷ませ、そんなもん」
 #SCRIPT ORIGINAL 「だったら余計に冷ませ、そんなもん」
 ＠Itsuki
 「Go cool yourself off from that for a while」
@@ -2357,15 +2152,12 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#ブツブツと文句を言うかりんを部屋に連れて行き、強引に寝かしつけた。
 #SCRIPT ORIGINAL ブツブツと文句を言うかりんを部屋に連れて行き、強引に寝かしつけた。
 　Taking a grumbling Karin with me to her room, I forced her to bed.
 
-#頭が沸いているせいで後半のやり取りは意味不明だが、熱が出てるのは間違いない。
 #SCRIPT ORIGINAL 頭が沸いているせいで後半のやり取りは意味不明だが、熱が出てるのは間違いない。
 　Due to her addled mind, the last half of our exchange was uncertain, but she certainly has a fever coming on. 
 
-#（最近予定を入れすぎたか……みかんの貞操を守るためにも、かりんには健康でいてもらわなければ）
 #SCRIPT ORIGINAL （最近予定を入れすぎたか……みかんの貞操を守るためにも、かりんには健康でいてもらわなければ）
 ＠Itsuki
 （Did I plan too much for her recently? ...I'll have to keep Karin healthy, to protect Mikan's virtue too）
