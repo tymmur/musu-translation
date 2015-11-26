@@ -1,7 +1,7 @@
 
-#goto	day_debug
-
-#goto	youzyo3_00
+#SCRIPT IGNORE
+if GLOBAL(135)=1 then gosub debug_menu_intro
+#SCRIPT IGNORE END
 label loopg
 #gosub shop
 

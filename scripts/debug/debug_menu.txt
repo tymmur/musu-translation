@@ -1,0 +1,308 @@
+label debug_menu_intro
+
+@bg_black
+
+select sel, "Debug", "Start New Game", "Main Menu/Intro Movie"
+if sel=0 then goto debug_menu_main
+if sel=1 then goto title_skip
+
+return
+
+label debug_menu_main
+
+@bg_black
+@chara_init
+bgm_stop
+
+select debug_main_sel, "Level Up Stories", "Training", "Characters", "TL Intro"
+if debug_main_sel=0 then gosub debug_menu_level_up
+if debug_main_sel=1 then gosub debug_menu_training
+if debug_main_sel=2 then gosub debug_menu_characters
+if debug_main_sel=3 then gosub translator_intro
+
+goto debug_menu_main
+
+# standard selector to make selection consistent
+# TODO consider graphical girl buttons
+label debug_menu_girl_selector
+select debug_girl_sel, "Ichigo", "Mikan", "Karin"
+return
+
+label debug_menu_level_up
+gosub debug_menu_girl_selector
+
+select stat, "Charm (miryoku)", "Body (karada)", "Mind (kokoro)", "Int. (atama)"
+
+if debug_girl_sel=0 and stat=0 then gosub debug_menu_ichigo_miryoku
+if debug_girl_sel=0 and stat=1 then gosub debug_menu_ichigo_karada
+if debug_girl_sel=0 and stat=2 then gosub debug_menu_ichigo_kokoro
+if debug_girl_sel=0 and stat=3 then gosub debug_menu_ichigo_atama
+
+if debug_girl_sel=1 and stat=0 then gosub debug_menu_mikan_miryoku
+if debug_girl_sel=1 and stat=1 then gosub debug_menu_mikan_karada
+if debug_girl_sel=1 and stat=2 then gosub debug_menu_mikan_kokoro
+if debug_girl_sel=1 and stat=3 then gosub debug_menu_mikan_atama
+
+if debug_girl_sel=2 and stat=0 then gosub debug_menu_karin_miryoku
+if debug_girl_sel=2 and stat=1 then gosub debug_menu_karin_karada
+if debug_girl_sel=2 and stat=2 then gosub debug_menu_karin_kokoro
+if debug_girl_sel=2 and stat=3 then gosub debug_menu_karin_atama
+
+# should not be reached, but just in case
+return
+
+goto debug_menu_main
+
+# selector for a number from 0 to max
+label debug_num_select
+debug_num_sel=-1
+
+if max=1 then select debug_num_sel, "0", "1"
+if max=2 then select debug_num_sel, "0", "1", "2"
+if max=3 then select debug_num_sel, "0", "1", "2", "3"
+if max=4 then select debug_num_sel, "0", "1", "2", "3", "4"
+if max=5 then select debug_num_sel, "0", "1", "2", "3", "4", "5"
+if max>5 then select debug_num_sel, "0", "1", "2", "3", "4", "More"
+
+if max>5 and debug_num_sel=5 then debug_num_sel=-1
+if debug_num_sel > -1 then return
+
+if max=6 then select debug_num_sel, "5", "6"
+if max=7 then select debug_num_sel, "5", "6", "7"
+if max=8 then select debug_num_sel, "5", "6", "7", "8"
+if max=9 then select debug_num_sel, "5", "6", "7", "8", "9"
+if max=10 then select debug_num_sel, "5", "6", "7", "8", "9", "10"
+if max>10 then select debug_num_sel, "5", "6", "7", "8", "9", "More"
+
+if max>5 and debug_num_sel=5 then debug_num_sel=-1
+if debug_num_sel > -1 then debug_num_sel=debug_num_sel+5
+if debug_num_sel > -1 then return
+
+if max=11 then select debug_num_sel, "10", "11"
+if max=12 then select debug_num_sel, "10", "11", "12"
+if max=13 then select debug_num_sel, "10", "11", "12", "13"
+if max=14 then select debug_num_sel, "10", "11", "12", "13", "14"
+if max=15 then select debug_num_sel, "10", "11", "12", "13", "14", "15"
+if max>15 then select debug_num_sel, "10", "11", "12", "13", "14", "More"
+
+if max>5 and debug_num_sel=5 then debug_num_sel=-1
+if debug_num_sel > -1 then debug_num_sel=debug_num_sel+10
+if debug_num_sel > -1 then return
+
+if max=16 then select debug_num_sel, "15", "16"
+if max=17 then select debug_num_sel, "15", "16", "17"
+if max=18 then select debug_num_sel, "15", "16", "17", "18"
+if max=19 then select debug_num_sel, "15", "16", "17", "18", "19"
+if max=20 then select debug_num_sel, "15", "16", "17", "18", "19", "20"
+if max>20 then select debug_num_sel, "15", "16", "17", "18", "19", "More"
+
+if max=21 then select debug_num_sel, "20", "21"
+if max=22 then select debug_num_sel, "20", "21", "22"
+if max=23 then select debug_num_sel, "20", "21", "22", "23"
+if max=24 then select debug_num_sel, "20", "21", "22", "23", "24"
+if max=25 then select debug_num_sel, "20", "21", "22", "23", "24", "25"
+#if max>25 then select debug_num_sel, "20", "21", "22", "23", "24", "More"
+
+if max>5 and debug_num_sel=5 then debug_num_sel=-1
+if debug_num_sel > -1 then debug_num_sel=debug_num_sel+15
+if debug_num_sel > -1 then return
+
+return
+
+label debug_menu_ichigo_miryoku
+max=12
+gosub debug_num_select
+ichigo_miryoku_ep_count=debug_num_sel
+
+gosub ichigo_miryoku_event
+ichigo_miryoku_ep_count=0
+return
+
+label debug_menu_ichigo_karada_run
+@ichigo_karada_ep
+
+label debug_menu_ichigo_karada
+max=6
+gosub debug_num_select
+ichigo_karada_ep_count=debug_num_sel
+
+gosub debug_menu_ichigo_karada_run
+ichigo_karada_levelup_flag=0
+ichigo_karada_ep_count=0
+@close_schedule
+return
+
+label debug_menu_ichigo_kokoro_run
+@ichigo_kokoro_ep
+
+label debug_menu_ichigo_kokoro
+max=6
+gosub debug_num_select
+ichigo_kokoro_ep_count=debug_num_sel
+
+gosub debug_menu_ichigo_kokoro_run
+ichigo_kokoro_ep_count=0
+@close_schedule
+return
+
+label debug_menu_ichigo_atama_run
+@ichigo_atama_ep
+
+label debug_menu_ichigo_atama
+max=9
+gosub debug_num_select
+ichigo_atama_ep_count=debug_num_sel
+
+gosub debug_menu_ichigo_atama_run
+ichigo_atama_ep_count=0
+@close_schedule
+return
+
+label debug_menu_mikan_miryoku
+karin_on=1
+max=14
+gosub debug_num_select
+mikan_miryoku_ep_count=debug_num_sel
+
+gosub mikan_miryoku_event
+mikan_miryoku_ep_count=0
+return
+
+label debug_menu_mikan_karada_run
+@mikan_karada_ep
+
+label debug_menu_mikan_karada
+max=6
+gosub debug_num_select
+mikan_karada_ep_count=debug_num_sel
+
+gosub debug_menu_mikan_karada_run
+mikan_karada_levelup_flag=0
+mikan_karada_ep_count=0
+@close_schedule
+return
+
+label debug_menu_mikan_kokoro_run
+@mikan_kokoro_ep
+
+label debug_menu_mikan_kokoro
+max=6
+gosub debug_num_select
+mikan_kokoro_ep_count=debug_num_sel
+
+gosub debug_menu_mikan_kokoro_run
+mikan_kokoro_ep_count=0
+@close_schedule
+return
+
+label debug_menu_mikan_atama_run
+@mikan_atama_ep
+
+label debug_menu_mikan_atama
+max=6
+gosub debug_num_select
+mikan_atama_ep_count=debug_num_sel
+
+gosub debug_menu_mikan_atama_run
+mikan_atama_ep_count=0
+@close_schedule
+return
+
+label debug_menu_karin_miryoku
+max=10
+gosub debug_num_select
+karin_miryoku_ep_count=debug_num_sel
+
+gosub karin_miryoku_event
+karin_miryoku_ep_count=0
+return
+
+label debug_menu_karin_karada_run
+@karin_karada_ep
+
+label debug_menu_karin_karada
+max=6
+gosub debug_num_select
+karin_karada_ep_count=debug_num_sel
+
+gosub debug_menu_karin_karada_run
+karin_karada_levelup_flag=0
+karin_karada_ep_count=0
+@close_schedule
+return
+
+label debug_menu_karin_kokoro_run
+@karin_kokoro_ep
+
+label debug_menu_karin_kokoro
+max=6
+gosub debug_num_select
+karin_kokoro_ep_count=debug_num_sel
+
+gosub debug_menu_karin_kokoro_run
+karin_kokoro_ep_count=0
+@close_schedule
+return
+
+label debug_menu_karin_atama_run
+@karin_atama_ep
+
+label debug_menu_karin_atama
+max=5
+gosub debug_num_select
+karin_atama_ep_count=debug_num_sel
+
+gosub debug_menu_karin_atama_run
+karin_atama_ep_count=0
+@close_schedule
+return
+
+# training session
+# loops endlessly
+
+label debug_menu_training
+gosub debug_menu_girl_selector
+_ITEM(200)=1
+_ITEM(201)=1
+_ITEM(202)=1
+_ITEM(203)=1
+_ITEM(204)=1
+_ITEM(205)=1
+_ITEM(206)=1
+_ITEM(207)=1
+_ITEM(208)=1
+_ITEM(209)=1
+_ITEM(210)=1
+_ITEM(211)=1
+_ITEM(303)=1
+_ITEM(304)=1
+_ITEM(305)=1
+_ITEM(306)=1
+_ITEM(400)=1
+_ITEM(401)=1
+
+ichigo_kenkou_max=9999
+ichigo_kiryoku_max=9999
+
+mikan_kenkou_max=9999
+mikan_kiryoku_max=9999
+
+karin_kenkou_max=9999
+karin_kiryoku_max=9999
+
+if debug_girl_sel=0 then goto debug_menu_training_ichigo
+if debug_girl_sel=1 then goto debug_menu_training_mikan
+if debug_girl_sel=2 then goto debug_menu_training_karin
+return
+
+label debug_menu_training_ichigo
+gosub training_ichigo_03
+return
+
+label debug_menu_training_mikan
+gosub training_mikan_02
+return
+
+label debug_menu_training_karin
+gosub training_karin_02
+return
