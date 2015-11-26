@@ -1,0 +1,75 @@
+label debug_menu_characters
+
+select character, "Suika", "Yuzu", "Zakuro"
+if character=0 then goto debug_story_suika
+if character=1 then goto debug_story_yuzu
+if character=2 then goto debug_story_zakuro
+
+return
+
+label debug_story_suika
+max=11
+gosub debug_num_select
+
+if debug_num_sel=1 then goto suika_01
+if debug_num_sel=2 then goto suika_02
+if debug_num_sel=3 then goto suika_03
+if debug_num_sel=4 then goto suika_04
+if debug_num_sel=5 then goto suika_05
+if debug_num_sel=6 then goto suika_06
+if debug_num_sel=7 then goto suika_07
+if debug_num_sel=8 then goto suika_08
+if debug_num_sel=9 then goto suika_09
+if debug_num_sel=10 then goto suika_10
+if debug_num_sel=11 then goto suika_11
+
+return
+
+label debug_story_yuzu
+max=12
+gosub debug_num_select
+
+if debug_num_sel=1 then goto yuzu_01
+if debug_num_sel=2 then goto yuzu_02
+if debug_num_sel=3 then goto yuzu_03
+if debug_num_sel=4 then goto yuzu_04
+if debug_num_sel=5 then goto yuzu_05
+if debug_num_sel=6 then goto yuzu_06
+if debug_num_sel=7 then goto yuzu_07
+if debug_num_sel=8 then goto yuzu_08
+if debug_num_sel=9 then goto yuzu_09
+if debug_num_sel=10 then goto yuzu_10
+if debug_num_sel=11 then goto yuzu_11
+if debug_num_sel=12 then goto yuzu_12
+
+
+return
+
+
+label debug_story_zakuro
+max=21
+gosub debug_num_select
+
+if debug_num_sel=1 then goto zakuro_01
+if debug_num_sel=2 then goto zakuro_02
+if debug_num_sel=3 then goto zakuro_03
+if debug_num_sel=4 then goto zakuro_04
+if debug_num_sel=5 then goto zakuro_05
+if debug_num_sel=6 then goto zakuro_06
+if debug_num_sel=7 then goto zakuro_07
+if debug_num_sel=8 then goto zakuro_08
+if debug_num_sel=9 then goto zakuro_09
+if debug_num_sel=10 then goto zakuro_10
+if debug_num_sel=11 then goto zakuro_11
+if debug_num_sel=12 then goto zakuro_12
+if debug_num_sel=13 then goto zakuro_13
+if debug_num_sel=14 then goto zakuro_14
+if debug_num_sel=15 then goto zakuro_15
+if debug_num_sel=16 then goto zakuro_16
+if debug_num_sel=17 then goto zakuro_17
+if debug_num_sel=18 then goto youzyo_zaku18
+if debug_num_sel=19 then goto youzyo_zaku19
+if debug_num_sel=20 then goto youzyo_zaku20
+if debug_num_sel=21 then goto youzyo_zaku21
+
+return

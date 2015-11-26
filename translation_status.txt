@@ -1,6 +1,6 @@
 			LINES				BYTES
 File		percentage	translated	total		percentage	translated	total
-TOTAL		2692	12676	47071		2706	731565	2702633
+TOTAL		2699	12708	47071		2713	733231	2702633
 main		10000	9	9		10000	132	132
 Mikan status		2960	513	1733		2849	25050	87906
 Ichigo status		1590	325	2044		1489	15414	103472
@@ -11,7 +11,7 @@ Karin day		16	5	3112		0	0	170818
 Ichigo day		641	146	2277		573	7008	122192
 Mikan day		3	1	2585		0	0	136498
 Hikari day		694	472	6799		658	23104	350770
-Yuzu		2559	438	1711		2612	23708	90732
+Yuzu		2746	470	1711		2796	25374	90732
 Suika		9760	1143	1171		9759	61130	62638
 Miu		10000	195	195		10000	10122	10122
 Seiji		10000	852	852		10000	58788	58788
@@ -24,11 +24,11 @@ training Ichigo		1993	360	1806		2035	24522	120457
 training Karin		3070	767	2498		2840	44260	155830
 Schedule		8152	203	249		8255	11100	13446
 endings		4021	415	1032		3923	23994	61148
-All reachable		2176	10247	47071		2247	607286	2702633
-First untranslated file: day/yuzu4.txt
-translated common route		9968	6702	6723		9975	402780	403774
-top vs total common route		7455	6702	8989		7790	402780	517037
-translated total common route		7869	7074	8989		8130	420386	517037
+All reachable		2183	10279	47071		2253	608952	2702633
+First untranslated file: day/fathers_day.txt
+translated common route		9968	6734	6755		9975	404446	405440
+top vs total common route		7491	6734	8989		7822	404446	517037
+translated total common route		7905	7106	8989		8162	422052	517037
 Common route files:
 prologue/youzyo.txt		10000	521	521		10000	30254	30254
 prologue/youzyo2.txt		10000	408	408		10000	23700	23700
@@ -72,7 +72,7 @@ day/king_game.txt		10000	382	382		10000	18376	18376
 day/zakuro4.txt		10000	525	525		10000	34375	34375
 day/seiji6.txt		10000	397	397		10000	33374	33374
 day/drink.txt		10000	95	95		10000	4650	4650
-day/yuzu4.txt		0	0	32		0	0	1666
+day/yuzu4.txt		10000	32	32		10000	1666	1666
 day/fathers_day.txt		0	0	32		0	0	1668
 day/zakuro5.txt		9191	125	136		8939	5278	5904
 day/tanabata.txt		82	3	363		0	0	16704
@@ -249,7 +249,7 @@ day/hikariE6.txt		0	0	106		0	0	5674
 day/yuzu1.txt		10000	338	338		10000	19050	19050
 day/yuzu2.txt		10000	61	61		10000	2990	2990
 day/yuzu3.txt		10000	36	36		10000	1668	1668
-day/yuzu4.txt		0	0	32		0	0	1666
+day/yuzu4.txt		10000	32	32		10000	1666	1666
 day/yuzu5.txt		74	1	135		0	0	7446
 day/yuzu6.txt		0	0	92		0	0	4440
 day/yuzu7.txt		0	0	40		0	0	1778
@@ -404,10 +404,10 @@ ending/epilogue.txt		10000	0	0		10000	0	0
 
 Status episodes
 	Ichigo	Mikan	Karin
-kokoro	2	4	2
-karada	2	4	2
 atama	2	3	2
+karada	2	4	2
+kokoro	2	4	2
 Next file
-kokoro	ep_ichigo_08	ep_mikan_07	ep_karin_08
-karada	ep_ichigo_06	ep_mikan_09	ep_karin_06
 atama	ep_ichigo_05	mikan_qa03	ep_karin_05
+karada	ep_ichigo_06	ep_mikan_09	ep_karin_06
+kokoro	ep_ichigo_08	ep_mikan_07	ep_karin_08
