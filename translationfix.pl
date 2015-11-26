@@ -1855,7 +1855,7 @@ sub loadFromScriptsInc
 	
 	print FILE "\n\nStatus episodes\n";
 	print FILE "\tIchigo\tMikan\tKarin\n";
-	foreach my $skill (keys %{$status{k}})
+	foreach my $skill ("karada", "kokoro","atama")
 	{
 		print FILE $skill;
 		foreach my $name ("i", "m", "k")
@@ -1873,7 +1873,7 @@ sub loadFromScriptsInc
 	}
 	
 	print FILE "Next file\n";
-	foreach my $skill (keys %{$status{k}})
+	foreach my $skill ("karada", "kokoro","atama")
 	{
 		print FILE $skill;
 		foreach my $name ("i", "m", "k")
