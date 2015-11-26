@@ -421,6 +421,11 @@ bgm_stop
 #SCRIPT ORIGINAL ちょっと悲しかった。
 ちょっと悲しかった。
 
+#SCRIPT IGNORE
+# bugfix: remove message window before changing stats
+window_close
+#SCRIPT IGNORE END
+
 @karin_kokoro_down
 
 #（スケジュールへ）
@@ -3634,6 +3639,11 @@ bgm_stop
 
 #SCRIPT ORIGINAL 気付いていたのに教えず、コソコソ下着を盗み見ていたとして……
 気付いていたのに教えず、コソコソ下着を盗み見ていたとして……
+
+#SCRIPT IGNORE
+# bugfix: remove message window before changing stats
+window_close
+#SCRIPT IGNORE END
 
 @karin_karada_down
 

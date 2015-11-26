@@ -1626,6 +1626,11 @@ bgm_stop
 #SCRIPT ORIGINAL いつの間にかいちごは居なくなっていたが、オレは存分に話せて満足だった！
 いつの間にかいちごは居なくなっていたが、オレは存分に話せて満足だった！
 
+#SCRIPT IGNORE
+# bugfix: remove message window before changing stats
+window_close
+#SCRIPT IGNORE END
+
 @ichigo_atama_down
 
 #（スケジュールへ）

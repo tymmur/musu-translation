@@ -23,6 +23,9 @@ if ichigo_karada_ep_count=1 then gosub	ichigo_qa03	#えへへ～……実はお小遣いが残
 if ichigo_karada_ep_count=2 then gosub	ep_ichigo_06	#昼 一人ぼっちのおやつ時間
 if ichigo_karada_ep_count=3 then gosub	ichigo_qa08	#うん、あのね、パジャマがちょっとほつれちゃったの……
 if ichigo_karada_ep_count=4 then gosub	ep_ichigo_09	#昼 子供たちの手料理騒動if ichigo_karada_ep_count=5 then gosub	ichigo_qa07	#いちごでよかったら、パパの肩叩いてあげようかっ？
+#SCRIPT IGNORE
+if ichigo_karada_ep_count=5 then gosub	ichigo_qa07	#いちごでよかったら、パパの肩叩いてあげようかっ？
+#SCRIPT IGNORE END
 if ichigo_karada_ep_count=6 then gosub	ep_ichigo_10	#昼 エッチの現場を見られてしまった！？（今更）
 
 ichigo_karada_levelup_flag=ichigo_karada_levelup_flag-1
