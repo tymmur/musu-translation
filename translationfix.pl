@@ -137,6 +137,8 @@ foreach my $name (keys %status)
 	}
 }
 
+my $TL_STATUS="";
+
 my $is_status_group = 1;
 
 my $count_this_line = $count_kana_lines;
@@ -1404,6 +1406,10 @@ sub handleFile
 			{
 				$script_ignore = 1;
 			}
+			elsif (substr($line, 0, 9) eq "#TLSTATUS")
+			{
+				$TL_STATUS=substr($line, 10);
+			}
 			next;
 		}
 		
@@ -1672,6 +1678,11 @@ sub makeStatusLine
 	
 	$file_status_hash{$filename} = [@file_array] if $is_file == 1;
 	
+	if ($TL_STATUS ne "")
+	{
+		$file = $file . "\t\t" . $TL_STATUS;
+	}
+	
 	return $file . $CLRF;
 }
 
@@ -1762,6 +1773,8 @@ sub getCommonRouteStatus
 
 sub loadFromScriptsInc
 {
+	$TL_STATUS="";
+
 	my $status_file = "../translation_status.txt";
 	
 	my @file_status;
@@ -1807,6 +1820,8 @@ sub loadFromScriptsInc
 			$translated_line_count = 0;
 			$byte_count = 0;
 			$translated_byte_count = 0;
+			
+			$TL_STATUS="";
 		}
 		elsif (substr($_, 0, 13) eq "#SCRIPT GROUP")
 		{
