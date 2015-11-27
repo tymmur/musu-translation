@@ -4,6 +4,15 @@ label	dayevent
 #0 = “ú—j
 #6 = “y—j
 
+#SCRIPT IGNORE
+if WORK_DEBUG=0 then goto work_debug_dayevent
+if _MONTH=2 and _DAY=24 then goto erocute_01
+if _MONTH=3 and _DAY=02 then karin_on=1; ichigo_on=1; shizuku_off=1
+if _MONTH=3 and _DAY=25 then shizuku_off=0
+return
+label work_debug_dayevent
+#SCRIPT IGNORE END
+
 @chara_init
 dayevent_flag=1
 

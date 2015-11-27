@@ -2,9 +2,9 @@ label debug_menu_intro
 
 @bg_black
 
-select sel, "Debug", "Start New Game", "Main Menu/Intro Movie"
+select sel, "Debug", "Work debug game (no story)", "Main Menu/Intro Movie"
 if sel=0 then goto debug_menu_main
-if sel=1 then goto title_skip
+if sel=1 then WORK_DEBUG=1; goto title_skip
 
 return
 

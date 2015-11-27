@@ -5,6 +5,7 @@
 
 #SCRIPT IGNORE
 gosub translator_intro
+if WORK_DEBUG=1 then goto skip
 #SCRIPT IGNORE END
 
 #select sel,"メイン","プロローグ","調教","調教2","シューティング"
