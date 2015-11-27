@@ -1,6 +1,10 @@
 #‚©‚è‚ñ”Ä—p’²‹³
 label	training_karin_insert
 
+#SCRIPT IGNORE
+select_icon_init
+#SCRIPT IGNORE END
+
 skip_untranslated_training=0
 if t_karin_insert_cnt=0 then gosub training_karin_insert_01
 if t_karin_insert_cnt=1 then gosub training_karin_insert_02
