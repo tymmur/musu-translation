@@ -17,6 +17,9 @@ mikan_insert_count=mikan_insert_count+1
 window_close
 
 #SCRIPT IGNORE
+activity_count=mikan_insert_count
+gosub training_stat_handle_insert
+return
 #SCRIPT SKIP JAPANESE LINES 2
 add_karada=add_karada+10*mikan_insert_count
 add_miryoku=add_miryoku+20*mikan_insert_count

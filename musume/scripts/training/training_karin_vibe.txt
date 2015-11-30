@@ -13,8 +13,11 @@ if t_karin_vibe_cnt>1 then gosub training_karin_vibe_03
 if skip_untranslated_training=1 then return
 t_karin_vibe_cnt=t_karin_vibe_cnt+1
 
-add_karada=30*t_karin_vibe_cnt
-add_miryoku=10*t_karin_vibe_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 2
+add_karada=add_karada+30*t_karin_vibe_cnt
+add_miryoku=add_miryoku+10*t_karin_vibe_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-60*t_karin_vibe_cnt
 seishin=seishin-45*t_karin_vibe_cnt

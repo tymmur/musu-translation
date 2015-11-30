@@ -14,9 +14,12 @@ t_karin_video_cnt=t_karin_video_cnt+1
 
 @bg_black
 
-add_karada=15*t_karin_video_cnt
-add_kokoro=25*t_karin_video_cnt
-add_miryoku=30*t_karin_video_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 3
+add_karada=add_karada+15*t_karin_video_cnt
+add_kokoro=add_kokoro+25*t_karin_video_cnt
+add_miryoku=add_miryoku+30*t_karin_video_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-300*t_karin_video_cnt
 seishin=seishin-400*t_karin_video_cnt

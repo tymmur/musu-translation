@@ -8,9 +8,12 @@ if training_karin_facemask_cnt>1 then gosub training_karin_facemask3
 if skip_untranslated_training=1 then return
 training_karin_facemask_cnt=training_karin_facemask_cnt+1
 
-add_karada=15*training_karin_facemask_cnt
-add_kokoro=25*training_karin_facemask_cnt
-add_miryoku=30*training_karin_facemask_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 3
+add_karada=add_karada+15*training_karin_facemask_cnt
+add_kokoro=add_kokoro+25*training_karin_facemask_cnt
+add_miryoku=add_miryoku+30*training_karin_facemask_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-200*training_karin_facemask_cnt
 seishin=seishin-300*training_karin_facemask_cnt

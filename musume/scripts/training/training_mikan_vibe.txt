@@ -17,8 +17,11 @@ t_mikan_vibe_cnt=t_mikan_vibe_cnt+1
 
 window_close
 
-add_karada=10*t_mikan_vibe_cnt
-add_miryoku=20*t_mikan_vibe_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 2
+add_karada=add_karada+10*t_mikan_vibe_cnt
+add_miryoku=add_miryoku+20*t_mikan_vibe_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-90*t_mikan_vibe_cnt
 seishin=seishin-60*t_mikan_vibe_cnt

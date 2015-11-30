@@ -14,9 +14,12 @@ if t_ichigo_vibe_cnt>1 then gosub training_ichigo_vibe3
 if skip_untranslated_training=1 then return
 t_ichigo_vibe_cnt=t_ichigo_vibe_cnt+1
 
-add_karada=3*t_ichigo_vibe_cnt
-add_kokoro=5*t_ichigo_vibe_cnt
-add_miryoku=10*t_ichigo_vibe_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 3
+add_karada=add_karada+3*t_ichigo_vibe_cnt
+add_kokoro=add_kokoro+5*t_ichigo_vibe_cnt
+add_miryoku=add_miryoku+10*t_ichigo_vibe_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-30*t_ichigo_vibe_cnt
 seishin=seishin-40*t_ichigo_vibe_cnt

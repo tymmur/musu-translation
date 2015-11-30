@@ -1,0 +1,50 @@
+# New file for translation patch
+
+# The goal is to gather all stat gains and losses for training in one file to get an overview and make the girls more consistent.
+
+# Usage guide:
+# Once a girl finish activity (each activity, not a whole training session), the counter for the activity is increased by one
+# Next activity_count= whatever that counter increased to
+# then goto/gosub training_stat_handle_* where * is the activity in question. Remember this file ends with a return, meaning goto would be the same as gosub; return
+
+# training_stat_handle_* should set
+# gain_karada, gain_kokoro, gain_miryoku, loss_tairyoku, loss_seishin
+# As a regeral rule, the resulting gain/loss would be those numbers multiplied by activity_count, but modifiers might apply
+# after that goto training_stat_update_bars
+
+label training_stat_handle_oral
+gain_karada=3
+gain_kokoro=5
+gain_miryoku=10
+loss_tairyoku=30
+loss_seishin=40
+goto training_stat_update_bars
+
+label training_stat_handle_insert
+gain_karada=10
+gain_kokoro=0
+gain_miryoku=20
+loss_tairyoku=40
+loss_seishin=30
+goto training_stat_update_bars
+
+label training_stat_handle_anal
+gain_karada=10
+gain_kokoro=0
+gain_miryoku=20
+loss_tairyoku=70
+loss_seishin=90
+goto training_stat_update_bars
+
+
+label training_stat_update_bars
+add_karada=add_karada+gain_karada*activity_count
+add_kokoro=add_kokoro+gain_kokoro*activity_count
+add_miryoku=add_miryoku+gain_miryoku*activity_count
+tairyoku=tairyoku-loss_tairyoku*activity_count
+seishin=seishin-loss_seishin*activity_count
+lifebar_setauto	life_tairyoku,tairyoku
+lifebar_setauto	life_seishin,seishin
+
+return
+

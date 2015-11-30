@@ -3,7 +3,7 @@ label debug_menu_intro
 @bg_black
 
 select sel, "Debug", "Work debug game (no story)", "Main Menu/Intro Movie"
-if sel=0 then goto debug_menu_main
+if sel=0 then _TRANSLATOR_OPTION_DISABLE_FLASHES=1; goto debug_menu_main
 if sel=1 then WORK_DEBUG=1; goto title_skip
 
 return
@@ -289,14 +289,14 @@ _ITEM(306)=1
 _ITEM(400)=1
 _ITEM(401)=1
 
-ichigo_kenkou_max=9999
-ichigo_kiryoku_max=9999
+ichigo_kenkou_max=9000
+ichigo_kiryoku_max=9000
 
-mikan_kenkou_max=9999
-mikan_kiryoku_max=9999
+mikan_kenkou_max=9000
+mikan_kiryoku_max=9000
 
-karin_kenkou_max=9999
-karin_kiryoku_max=9999
+karin_kenkou_max=9000
+karin_kiryoku_max=9000
 
 if debug_girl_sel=0 then goto debug_menu_training_ichigo
 if debug_girl_sel=1 then goto debug_menu_training_mikan

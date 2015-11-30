@@ -13,8 +13,11 @@ if t_karin_analvibe_cnt>1 then gosub training_karin_analvibe_03
 if skip_untranslated_training=1 then return
 t_karin_analvibe_cnt=t_karin_analvibe_cnt+1
 
-add_kokoro=30*t_karin_analvibe_cnt
-add_miryoku=10*t_karin_analvibe_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 2
+add_kokoro=add_kokoro+30*t_karin_analvibe_cnt
+add_miryoku=add_miryoku+10*t_karin_analvibe_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-45*t_karin_analvibe_cnt
 seishin=seishin-60*t_karin_analvibe_cnt

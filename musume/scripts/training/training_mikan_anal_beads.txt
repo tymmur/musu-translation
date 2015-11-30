@@ -17,8 +17,11 @@ t_mikan_analpearl_cnt=t_mikan_analpearl_cnt+1
 
 window_close
 
-add_karada=10*t_mikan_analpearl_cnt
-add_miryoku=20*t_mikan_analpearl_cnt
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 2
+add_karada=add_karada+10*t_mikan_analpearl_cnt
+add_miryoku=add_miryoku+20*t_mikan_analpearl_cnt
+#SCRIPT IGNORE END
 
 tairyoku=tairyoku-60*t_mikan_analpearl_cnt
 seishin=seishin-80*t_mikan_analpearl_cnt
