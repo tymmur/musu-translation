@@ -15,6 +15,10 @@ if skip_untranslated_training=1 then return
 t_ichigo_fera_cnt=t_ichigo_fera_cnt+1
 
 #SCRIPT IGNORE
+activity_count=t_ichigo_fera_cnt
+gosub training_stat_handle_oral
+@training_ichigo_load
+return
 #SCRIPT SKIP JAPANESE LINES 3
 add_karada=add_karada+3*t_ichigo_fera_cnt
 add_kokoro=add_kokoro+5*t_ichigo_fera_cnt

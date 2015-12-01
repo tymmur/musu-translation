@@ -14,6 +14,9 @@ if skip_untranslated_training=1 then return
 t_ichigo_insert_cnt=t_ichigo_insert_cnt+1
 
 #SCRIPT IGNORE
+activity_count=t_ichigo_insert_cnt
+gosub training_stat_handle_insert
+return
 #SCRIPT SKIP JAPANESE LINES 2
 add_karada=add_karada+10*t_ichigo_insert_cnt
 add_miryoku=add_miryoku+20*t_ichigo_insert_cnt
