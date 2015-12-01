@@ -18,6 +18,9 @@ t_mikan_analpearl_cnt=t_mikan_analpearl_cnt+1
 window_close
 
 #SCRIPT IGNORE
+activity_count=t_mikan_analpearl_cnt
+gosub training_stat_handle_anal_beads
+return
 #SCRIPT SKIP JAPANESE LINES 2
 add_karada=add_karada+10*t_mikan_analpearl_cnt
 add_miryoku=add_miryoku+20*t_mikan_analpearl_cnt

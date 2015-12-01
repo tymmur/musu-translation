@@ -9,6 +9,10 @@ if skip_untranslated_training=1 then return
 training_karin_facemask_cnt=training_karin_facemask_cnt+1
 
 #SCRIPT IGNORE
+activity_count=training_karin_facemask_cnt
+gosub training_stat_handle_facemask
+@training_karin_load
+return
 #SCRIPT SKIP JAPANESE LINES 3
 add_karada=add_karada+15*training_karin_facemask_cnt
 add_kokoro=add_kokoro+25*training_karin_facemask_cnt

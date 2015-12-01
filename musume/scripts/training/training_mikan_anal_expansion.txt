@@ -16,6 +16,10 @@ if skip_untranslated_training=1 then return
 t_mikan_hardanal_cnt=t_mikan_hardanal_cnt+1
 
 #SCRIPT IGNORE
+activity_count=t_mikan_hardanal_cnt
+gosub training_stat_handle_anal_expansion
+@training_mikan_load
+return
 #SCRIPT SKIP JAPANESE LINES 3
 add_karada=add_karada+10*t_mikan_hardanal_cnt
 add_kokoro=add_kokoro+20*t_mikan_hardanal_cnt

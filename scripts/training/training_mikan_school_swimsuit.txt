@@ -18,6 +18,10 @@ t_mikan_mizugi_cnt=t_mikan_mizugi_cnt+1
 @bg_black
 
 #SCRIPT IGNORE
+activity_count=t_mikan_mizugi_cnt
+gosub training_stat_handle_swinsuit
+@training_mikan_load
+return
 #SCRIPT SKIP JAPANESE LINES 3
 add_karada=add_karada+15*t_mikan_mizugi_cnt
 add_kokoro=add_kokoro+25*t_mikan_mizugi_cnt

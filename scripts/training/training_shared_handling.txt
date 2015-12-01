@@ -39,7 +39,76 @@ loss_tairyoku=70
 loss_seishin=90
 goto training_stat_update_bars
 
+label training_stat_handle_vibrator
+# Ichigo 3, 5, 10, 30, 40 (copy paste of oral)
+# Mikan 10, 0, 20, 90, 60
+# Karin 30, 0, 10, 60, 45
+gain_karada=10
+gain_kokoro=0
+gain_miryoku=20
+loss_tairyoku=90
+loss_seishin=60
+goto training_stat_update_bars
 
+# the rest aren't available to all girls
+
+label training_stat_handle_anal_beads
+# Mikan only 10, 0, 20, 60, 80
+gain_karada=10
+gain_kokoro=0
+gain_miryoku=20
+loss_tairyoku=60
+loss_seishin=80
+goto training_stat_update_bars
+
+label training_stat_handle_anal_vibrator
+# Ichigo 3, 5, 10, 30, 40 (copy paste of oral)
+# Karin 0, 30, 10, 45, 60 (copy paste of anal)
+gain_karada=0
+gain_kokoro=30
+gain_miryoku=10
+loss_tairyoku=45
+loss_seishin=60
+goto training_stat_update_bars
+
+label training_stat_handle_facemask
+# Karin 15, 25, 30, 200, 300
+gain_karada=15
+gain_kokoro=25
+gain_miryoku=30
+loss_tairyoku=200
+loss_seishin=300
+goto training_stat_update_bars
+
+label training_stat_handle_anal_expansion
+# Mikan 10, 20, 40, 600, 500
+gain_karada=10
+gain_kokoro=20
+gain_miryoku=40
+loss_tairyoku=600
+loss_seishin=500
+goto training_stat_update_bars
+
+label training_stat_handle_video
+# Karin 15, 25, 30, 300, 400
+gain_karada=15
+gain_kokoro=25
+gain_miryoku=30
+loss_tairyoku=300
+loss_seishin=400
+goto training_stat_update_bars
+
+label training_stat_handle_swinsuit
+# Mikan 15, 25, 35, 500, 500
+gain_karada=15
+gain_kokoro=25
+gain_miryoku=35
+loss_tairyoku=500
+loss_seishin=500
+goto training_stat_update_bars
+
+
+# add stats and update bars
 label training_stat_update_bars
 add_karada=add_karada+gain_karada*activity_count
 add_kokoro=add_kokoro+gain_kokoro*activity_count
