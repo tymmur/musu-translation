@@ -1,5 +1,4 @@
-#http://img2.gelbooru.com//images/295/87c58f82f9d75acd1040bc78a39cea4f10e95db2.jpg?298442
-
+#TLSTATUS: File is edited by RaurosFalls
 label	zakuro_05
 #--------------------------------------------------
 #ざくろイベント５
@@ -11,24 +10,28 @@ label	zakuro_05
 @bg_rouka		# 廊下
 
 #SCRIPT ORIGINAL 特別な事などなく、普通に廊下を歩いていたある日のこと。
-　This is about a day when I was normally walking down the corridor, nothing special.
+　An event that took place on just some ordinary day as I was walking down the hallway.
+
+#This is about a day when I was normally walking down the corridor, nothing special.
 
 #＠ざくろ,Q00841
 #SCRIPT ORIGINAL 「つっちー、見つけた」
 ＠Zakuro,Q00841
-「Tsuchii, found you.」
+「Tsu-chi, found you」
 
 @SE17			#SE17　廊下を歩いてくる音　※徐々に大きく
 
 #SCRIPT ORIGINAL 非番で施設にいたざくろに捕まった。
-　I was caught by Zakuro, who was off duty and in the institution.
+　I was caught up by Zakuro, who was walking around not too busy.
+
+#　I was caught by Zakuro, who was off duty and in the institution.
 
 se_stop		0
 
 #＠樹
 #SCRIPT ORIGINAL 「どうした、ざくろ。オレを探してたのか？」
 ＠Itsuki
-「What's wrong, Zakuro? Were you looking for me?」
+「What is it, Zakuro? Were you looking for me?」
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
@@ -37,44 +40,50 @@ se_stop		0
 #＠ざくろ,Q00842
 #SCRIPT ORIGINAL 「うん。大事な用事があるから、来て」
 ＠Zakuro,Q00842
-「Yeah. I have something important for you to do, come.」
+「Yeah. I have something important to do with you, come with me」
 
 #＠樹
 #SCRIPT ORIGINAL 「……用事？」
 ＠Itsuki
-「......For me to do?」
+「...Something with me?」
 
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL ざくろの用事って……。いつも不安なんだが。
-　The things Zakuro wants me to do...... Always make me feel kind of uneasy.
+　Zakuro wanting to do something with me... inevitably makes me uneasy.
+
+#The things Zakuro wants me to do...... Always make me feel kind of uneasy.
 
 #＠樹
 #SCRIPT ORIGINAL 「急ぎか？」
 ＠Itsuki
-「Are you in a hurry?」
+「Are you in a rush?」
 
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q00843
 #SCRIPT ORIGINAL 「別に今じゃなくてもいいけど、早い方がいい。大事なことだから」
 ＠Zakuro,Q00843
-「It's not really like some other time is better, so it's better if you do it quickly. Because it's important.」
+「It doesn’t have to be right now, but better to get it over with. It’s important, after all」
+
+#「It's not really like some other time is better, so it's better if you do it quickly. Because it's important.」
 
 #＠樹
 #SCRIPT ORIGINAL 「なるほど」
 ＠Itsuki
-「I see.」
+「I see」
 
 #SCRIPT ORIGINAL 『大事』といわれれば、保護者として付き合ってあげるべきだろう。
-　If it's something "important", it's my responsibility as a guardian to do it.
+　If she says it’s “important”, I guess as her guardian I ought to come along with her.
+
+#If it's something "important", it's my responsibility as a guardian to do it.
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q00844
 #SCRIPT ORIGINAL 「私の部屋に来て」
 ＠Zakuro,Q00844
-「Come to my room.」
+「Come to my room」
 
 window_close
 @zakuro_
@@ -84,7 +93,7 @@ wait		1000
 #＠樹
 #SCRIPT ORIGINAL 「……待て。用事ってなんなんだ」
 ＠Itsuki
-「......Wait. What exactly do you want me to do?」
+「...Wait up. Just what is this dawdle and toddle about?」
 
 @zakuro_small		# 遠い
 @zakuro_shifuku
@@ -93,61 +102,65 @@ wait		1000
 #＠ざくろ,Q00845
 #SCRIPT ORIGINAL 「エッチしたらダメな小さい子たち。私たちは大丈夫」
 ＠Zakuro,Q00845
-「They're small children who you can't do ecchi things with. We're okay.」
+「Toddlers are little ones too small do it with. We’re okay, though」
 
 #＠樹
 #SCRIPT ORIGINAL 「幼児じゃねぇ。用事だ、用事。どうして部屋に行くんだ？」
 ＠Itsuki
-「Not infants. I mean what you want me to do. Why are we going to your room?」*(a pun... 幼児 = youji = infant, 用事 = youji = task/thing to do
+「Not toddler, toddle. I mean, what do you want from me? Why are we going to your room?」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q00846
 #SCRIPT ORIGINAL 「…………」
 ＠Zakuro,Q00846
-「............」
+「......」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q00847
 #SCRIPT ORIGINAL 「……大事な用事」
 ＠Zakuro,Q00847
-「......Something important for you to do.」
+「...Something important」
 
 #SCRIPT ORIGINAL 怪しい。
 　How suspicious.
 
 #SCRIPT ORIGINAL しかしまぁ、理由もなく疑って断るのはやはり可哀想でもある。
-　But well, it might be pathetic to doubt her with no reason and refuse.
+　But I guess, I can’t help but feel bad if I turn her down for no reason.
+
+#But well, it might be pathetic to doubt her with no reason and refuse.
 
 #＠樹
 #SCRIPT ORIGINAL 「……しょうがない。ざくろの部屋だな」
 ＠Itsuki
-「......It can't be helped. Your room, is it?」
+「...Oh well. Off to your room, then」
 
 @zakuro			#普
 
 #＠ざくろ,Q00848
 #SCRIPT ORIGINAL 「うん。行こ」
 ＠Zakuro,Q00848
-「Yup. Let' go.」
+「Yeah. Let’s go」
 
 #CH（ざくろ立ち絵、いったん消去）
 #SE16　廊下を歩く音
 @bg_black
 
 #SCRIPT ORIGINAL 歩き出すざくろの横に並んで、部屋までついて行く。
-　I started walking side by side with Zakuro to her room.
+　Zakuro set off and I walked alongside her to her room.
+
+#I started walking side by side with Zakuro to her room.
 
 #SCRIPT ORIGINAL ……やはりちょっと浅はかだろうか。
-　......This is kind of foolish after all.
+　...Maybe this wasn’t such a good idea.
 
 @bg_rouka		# 廊下
 
 #＠ざくろ,Q00849
 #SCRIPT ORIGINAL 「用事……幼児……」
 ＠Zakuro,Q00849
-「Tasks...... Infants......」 (*again, a pun...)
+「Toddle... toddlers...」
 
 #＠樹
 #SCRIPT ORIGINAL 「ん？」
@@ -157,15 +170,17 @@ wait		1000
 #＠ざくろ,Q00850
 #SCRIPT ORIGINAL 「妻幼児……」
 ＠Zakuro,Q00850
-「Wife infants......」 (*another pun... this is not a real word, but it sounds like the word for toothpick)
+「Female toddlers...」
 
 #＠樹
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
-「.........」
+「......」
 
 #SCRIPT ORIGINAL 未だに、この子へのリアクションに困る事がある。
-　I'm still kind of worried about how I should react to this girl.
+　Her reactions to things are still very much a cause for concern.
+
+#I'm still kind of worried about how I should react to this girl.
 
 #一拍
 @bg_black
@@ -175,12 +190,12 @@ wait		1000
 @bg_zakuro		# ざくろの部屋
 
 #SCRIPT ORIGINAL ともあれ、こうしてざくろの部屋へとやって来たオレ。
-　Anyhow, I ended up at Zakuro's room like this.
+　Anyway, like so I ended up stopping by Zakuro's room.
 
 #＠樹
 #SCRIPT ORIGINAL 「で、用事って何なんだ？　重要なことらしいが」
 ＠Itsuki
-「So, what did you want me to do? It seems important.」
+「So, what did you want with me? That seems so important」
 
 @zakuro_small
 @zakuro_shifuku
@@ -189,31 +204,31 @@ wait		1000
 #＠ざくろ,Q00851
 #SCRIPT ORIGINAL 「つっちーに見ててほしいの」
 ＠Zakuro,Q00851
-「I wanted Tsuchii to see it.」
+「I wanted to show you, Tsu-chi」
 
 #＠樹
 #SCRIPT ORIGINAL 「何を？」
 ＠Itsuki
-「See what?」
+「Show what?」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q00852
 #SCRIPT ORIGINAL 「着替え」
 ＠Zakuro,Q00852
-「Me changing.」
+「Me changing」
 
 #＠樹
 #SCRIPT ORIGINAL 「………は？」
 ＠Itsuki
-「.........Ha?」
+「...Wha?」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q00853
 #SCRIPT ORIGINAL 「これから着替えるから、脱ぐところと着るところをちゃんと見てて」
 ＠Zakuro,Q00853
-「I'm going to change now, so watch carefully and see me taking off and putting on clothes.」
+「I'm going to change now, so watch carefully as I’m taking off and putting on my clothes」
 
 window_close
 #CH（立ち絵消去）
@@ -223,12 +238,14 @@ wait		1000
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 #SCRIPT ORIGINAL 唐突にそんなことを言い出したかと思えば、本当に服を脱ごうとするざくろ。
-　When I was thinking whether she really suddenly said that, Zakuro was about to take off her clothes.
+　Before I could come to grips with what she said, Zakuro started taking off her clothes.
+
+#　When I was thinking whether she really suddenly said that, Zakuro was about to take off her clothes.
 
 #＠樹
 #SCRIPT ORIGINAL 「ちょあーッ！？　待て待て待てッ！！」
 ＠Itsuki
-「Whaa-!? Waitwaitwait!!」
+「Ack, ahh!? Wait, wait, wait!!」
 
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
@@ -238,7 +255,9 @@ wait		1000
 「?」
 
 #SCRIPT ORIGINAL 思わず奇声を上げながら、慌ててそれを止めた。
-　While unconsciously saying that with a strange voice, I flusteredly stopped that.
+　I yelped unthinkingly and stopped her in a panic.
+
+#　While unconsciously saying that with a strange voice, I flusteredly stopped that.
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
@@ -252,35 +271,37 @@ wait		1000
 #＠樹
 #SCRIPT ORIGINAL 「それはオレの台詞だッ。何なんだ急に着替えって！？」
 ＠Itsuki
-「That's my line! What do you mean suddenly "changing"!?」
+「What do you mean, “what”!? What are you changing for, all of a sudden!?」
 
 @zakuro_akire		#呆
 
 #SCRIPT ORIGINAL 「この前のエッチで、つっちーこの服の脱がし方が分かってなかったから」
 ＠Zakuro,Q00856
-「この前のエッチで、つっちーこの服の脱がし方が分かってなかったから」
+「When we did it last time, Tsu-chi didn’t know how to take off my clothes properly」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q00857
 #SCRIPT ORIGINAL 「次にまた興奮したとき、破かれないように実演しておこうと思ったの」
 ＠Zakuro,Q00857
-「I thought I would demonstrate to you so you don't tear them next time you're excited.」
+「I thought I would demonstrate to you so you don't tear them next time you're excited」
 
 #SCRIPT ORIGINAL ……そういえば。確かに脱がし辛くて、強引にした覚えがあるが。
-　......That reminds me, I remember they were hard to take off so I did it forcibly.
+　...Come to think of it, it was pretty hard to remove, and I had to do it by force.
+
+#　......That reminds me, I remember they were hard to take off so I did it forcibly.
 
 @zakuro			#普
 
 #＠ざくろ,Q00858
 #SCRIPT ORIGINAL 「……破きたい人？　なら、いいけど」
 ＠Zakuro,Q00858
-「......If there's someone who wants to tear them? Then, it's okay.」
+「...Do you like ripping them? Then I don’t mind」
 
 #＠樹
 #SCRIPT ORIGINAL 「いいんかい。……じゃなくて、そんな趣味でもないっ」
 ＠Itsuki
-「It's okay? ......I mean, I don't have such hobbies!」
+「You don’t...? ...I mean, I don’t get off to that!」
 
 @bg_black
 #SE10　鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
@@ -289,13 +310,15 @@ wait		1000
 #＠樹
 #SCRIPT ORIGINAL 「って、何だ！？　開かないぞドアが！」
 ＠Itsuki
-「What!? The door won't open!」
+「Hey, what the...!? The door won't open!」
 
 #SCRIPT ORIGINAL さっさと退散しようとするが、部屋のドアが開かない。
-　I was going to quickly run away, but the room's door won't open.
+　I tried to leave the area immediately, but the door wouldn’t budge.
 
 #SCRIPT ORIGINAL するとざくろが、当然のようにオレに言う。
-　When I did, Zakuro naturally said to me.
+　As I did that, Zakuro commented matter-of-factly.
+
+#　When I did, Zakuro naturally said to me.
 
 @zakuro_small
 @zakuro_shifuku
@@ -305,31 +328,33 @@ wait		1000
 #＠ざくろ,Q00859
 #SCRIPT ORIGINAL 「鍵かけたから」
 ＠Zakuro,Q00859
-「Because it's locked.」
+「It’s locked, you know」
 
 #SCRIPT ORIGINAL 「またか！　オレも学習しろッ」
 ＠Itsuki
-「またか！　オレも学習しろッ」
+「Yet again!? When will I learn!?」
 
 #SCRIPT ORIGINAL しかも何故か子供部屋なのに、こちら側も鍵穴になっている。
-　And this is a child room, yet there is a keyhole on this side.
+　And for some reason, this is a kid’s room, but there’s a keyhole on this side.
+
+#And this is a child room, yet there is a keyhole on this side.
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q00860
 #SCRIPT ORIGINAL 「これがこの部屋の鍵」
 ＠Zakuro,Q00860
-「This is this room's key.」
+「This is the key to this room」
 
 @zakuro_
 
 #＠樹
 #SCRIPT ORIGINAL 「貸せッ。ああ！」
 ＠Itsuki
-「Give it! Aah!」
+「Give it! Aagh!」
 
 #SCRIPT ORIGINAL スカートを捲ると、最初の日と同じように、下着の中へしまい込んでしまった。
-　She rolls up her skirt, and in the same way as the first day, she puts it in her underwear.
+　She rolls up her skirt, and just like the first day tucks it into her underwear.
 
 @zakuro_small
 @zakuro_shifuku
@@ -338,17 +363,21 @@ wait		1000
 #＠ざくろ,Q00861
 #SCRIPT ORIGINAL 「着替えを見るか、服を破ってでも鍵を奪い取るかの二択よ」
 ＠Zakuro,Q00861
-「There are two choices to get the key. Watch me changing, or rip my clothes.」
+「Your two options are to watch me change, or steal it back by ripping my clothes」
+
+#「There are two choices to get the key. Watch me changing, or rip my clothes.」
 
 bgm_stop
 
 #SCRIPT ORIGINAL しかも初日より、さらに後者の鬼畜度が上がっている……
-しかも初日より、さらに後者の鬼畜度が上がっている……
+　And worse, the savage impulse to do the latter is stronger than the first day...
 
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
 #SCRIPT ORIGINAL この状況に思わず膝をつくオレ。
-　This situation makes me drop to my knees.
+　I fall to my knees at the bleak situation.
+
+#　This situation makes me drop to my knees.
 
 #＠樹
 #SCRIPT ORIGINAL 「……」
@@ -360,7 +389,7 @@ bgm_stop
 #＠ざくろ,Q00862
 #SCRIPT ORIGINAL 「伏せってないで、脱ぐから良く見てて」
 ＠Zakuro,Q00862
-「Don't face down, I'm changing now so look carefully.」
+「Don't cover your eyes. I'm changing now so look carefully」
 
 #--------------------------------------------------
 #■EVCG（デフォCG・ざくろの着替え）EV_ZAK_080
@@ -378,95 +407,115 @@ wait			1000
 #＠ざくろ,Q00863
 #SCRIPT ORIGINAL 「まず、一番上はボレロ」
 ＠Zakuro,Q00863
-「First, the topmost is the bolero.」
+「First, the topmost is the bolero」
 
 #＠ざくろ,Q00864
 #SCRIPT ORIGINAL 「下はジャンパースカートだから、最初にこれを脱がすの」
 ＠Zakuro,Q00864
-「Underneath is a jumper skirt, so I'm taking this off first.」
+「You have to take this off first, since I have the jumper skirt underneath」
+
+#「Underneath is a jumper skirt, so I'm taking this off first」
 
 #SCRIPT ORIGINAL 冗談ではなく本当に解説を始めるざくろ。
-　Zakuro begins seriously explaining without joking.
+　Zakuro starts expounding in all seriousness.
+
+#　Zakuro begins seriously explaining without joking.
 
 #SCRIPT ORIGINAL 言葉だけでなく、ボレロを脱ぐ。
-　She doesn't only say it, she takes off the bolero.
+　She proceeds to physically take off the bolero, as well.
+
+#　She doesn't only say it, she takes off the bolero.
 
 #＠樹
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
-「.........」
+「......」
 
 #＠ざくろ,Q00865
 #SCRIPT ORIGINAL 「次はジャンパースカート。実はここにチャックがあるの」
 ＠Zakuro,Q00865
-「Next is the jumper skirt. Actually, there is a zipper here.」
+「Next is the jumper skirt. FYI, there’s a zipper here」
 
 #@SEH01			#SEH01_ジッパー下げる
 
 #＠ざくろ,Q00866
 #SCRIPT ORIGINAL 「これを下ろして、肩紐に肩を通せばスカートが落ちるから」
 ＠Zakuro,Q00866
-「If I unfasten this and put my shoulder through the shoulder string, the skirt will fall.」
+「You lower this, and then the skirt falls if I put my shoulder through the strap」
+
+#「If I unfasten this and put my shoulder through the shoulder string, the skirt will fall.」
 
 #se_stop		0
 
 #SCRIPT ORIGINAL パサッ…
-　*(sound effect of clothes falling)*
+　Fwip...
 
 #SCRIPT ORIGINAL 重力のままスカートが床に落ちて、さらに薄着になる。
-　The skirt falls to the floor because of gravity, and she becomes even more lightly dressed.
+　Left unsupported, the skirt falls down to earth, and her clothes get even lighter.
+
+#　The skirt falls to the floor because of gravity, and she becomes even more lightly dressed.
 
 #＠ざくろ,Q00867
 #SCRIPT ORIGINAL 「もう一つ履いてるこのスカートみたいなのは、ペチコートって言うの」
 ＠Zakuro,Q00867
-「The other thing I'm wearing that looks like a skirt is called a petticoat.」
+「This other thing I’m wearing on my lower body, resembling a skirt, is known as a petticoat」
 
 #＠ざくろ,Q00868
 #SCRIPT ORIGINAL 「これはそのまま腰から下ろして」
 ＠Zakuro,Q00868
-「If I  lower this as it is...」
+「You can just lower this from my waist as is...」
 
 #SCRIPT ORIGINAL ズリズリ…
-　*(clothing falling sound)*
+　Slide slide...
 
 #SCRIPT ORIGINAL 第二のスカート（？）も脱いで、いよいよ下着姿に近くなっていく。
-　She took off the second skirt (?) too, and she became even more and more close to only wearing underwear.
+　Taking off the second skirt (?), she gets ever closer to underwear-clad status.
+
+#　She took off the second skirt (?) too, and she became even more and more close to only wearing underwear.
 
 #＠ざくろ,Q00869
 #SCRIPT ORIGINAL 「これで残ったのが、ブラウスとドロワーズ。ブラウスはリボンを解いてからボタンを外して」
 ＠Zakuro,Q00869
-「Now, the blouse and drawers are left. To take off the blouse, you untie the ribbon, then unfasten the button.」
+「Now all that’s left is the blouse and drawers. For the blouse, you unbutton it after untying the ribbon」
 
 #＠ざくろ,Q00870
 #SCRIPT ORIGINAL 「あとはドロワーズを普通に脱げば、つっちーの見たい下着姿」
 ＠Zakuro,Q00870
-「After, if I remove the drawers normally, Tsuchii can see me wearing underwear like he wants to.」
+「Then straightforwardly removing the drawers, Tsu-chi gets to see me in my underwear」
+
+#「After, if I remove the drawers normally, Tsuchii can see me wearing underwear like he wants to.」
 
 #＠樹
 #SCRIPT ORIGINAL 「わ、分かった、もういいっ。ブラウスとドロワーズくらいは分かるから！」
 ＠Itsuki
-「I, I get it. That's enough. I at least know about the blouse and drawers!」
+「A-alright, I get it. Enough! I know how to do the blouse and drawers, at least!」
 
 #SCRIPT ORIGINAL 最後まで脱ごうとしていたので、慌てて止めに入った。
-　She was about to strip to the end, but I flusteredly stopped her.
+　I hurriedly put a stop to her, as she was about about to strip to the end.
+
+#　She was about to strip to the end, but I flusteredly stopped her.
 
 #＠ざくろ,Q00871
 #SCRIPT ORIGINAL 「覚えた？　これでいつでも脱がせられる？」
 ＠Zakuro,Q00871
-「Have you remembered it? You can undress me anytime like this?」
+「Did you learn it? Would you mind undressing me from now on?」
+
+#「Have you remembered it? You can undress me anytime like this?」
 
 #＠樹
 #SCRIPT ORIGINAL 「ああ、覚えた。これでいつでも脱がせられる。だから服を着てくれ……」
 ＠Itsuki
-「Aah, I do. I can undress you anytime like this. So put on some clothes......」
+「Yeah, I did. I don’t mind undressing you from now on. So please, put your clothes on...」
 
 #＠ざくろ,Q00872
 #SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00872
-「.........」
+「......」
 
 #SCRIPT ORIGINAL やけくそのように頷くオレに、一応満足したのか、脱ぐ手を止めてくれた。
-　I don't know if it was because she was satisfied with me who nodded desperately, but she stopped her hand which was undressing herself.
+　Perhaps satisfied with me nodding desperately at her, her hand undressing herself stopped.
+
+#I don't know if it was because she was satisfied with me who nodded desperately, but she stopped her hand which was undressing herself.
 
 bgm_stop
 @bg_black
@@ -475,14 +524,16 @@ wait		1000
 @bg_zakuro		# ざくろの部屋
 
 #SCRIPT ORIGINAL とりあえず、ざくろの用事はこれで終わったようだ。
-　For now, what Zakuro wanted me to do ended here.
+　For now, it looks like the matter at hand for Zakuro was resolved.
+
+#For now, what Zakuro wanted me to do ended here.
 
 #CH（立ち絵なし）
 
 #＠ざくろ,Q00873
 #SCRIPT ORIGINAL 「ん、しょ……」
 ＠Zakuro,Q00873
-「N, sho......」
+「Nh, there...」
 
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
@@ -490,10 +541,10 @@ window_close
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL 脱ぎながら律儀にたたんでいた服を、ざくろがさっきとは逆に着こなしていく。
-脱ぎながら律儀にたたんでいた服を、ざくろがさっきとは逆に着こなしていく。
+　Zakuro outfitted herself in a different set of clothes than the ones she’d neatly folded away just now.
 
 #SCRIPT ORIGINAL ……脱衣よりも、幾分か冷静に見れた。
-……脱衣よりも、幾分か冷静に見れた。
+　...I could watch that a bit more calmly than the undressing part.
 
 #--------------------------------------------------
 #■EVCG（デフォCG・ざくろの着替え）
@@ -503,35 +554,37 @@ event		"event\EV_ZAK_080-00.png"
 #＠樹
 #SCRIPT ORIGINAL 「しかし、改めてみると、着込んでるのが分かるな。夏が暑くないのか？」
 ＠Itsuki
-「(?). Aren't you hot in summer?」
+「But taking another look, I can see how well-dressed you are. Aren’t you hot in the summer?」
+
+#「(?). Aren't you hot in summer?」
 
 #＠ざくろ,Q00874
 #SCRIPT ORIGINAL 「暑い。黒ずくめだから」
 ＠Zakuro,Q00874
-「It's hot. Because it's completely black.」
+「I am. It’s entirely black, after all」
 
 #＠樹
 #SCRIPT ORIGINAL 「だろうな……。ファッションだから仕方ないんだろうけど」
 ＠Itsuki
-「Right...... It can't be helped though because it's fashion.」
+「Indeed... I guess there’s nothing you can do, if it’s for the sake of fashion」
 
 #＠ざくろ,Q00875
 #SCRIPT ORIGINAL 「だからたまにパジャマで過ごしてる。涼しいから」
 ＠Zakuro,Q00875
-「So sometimes I wear pajamas. Because it's cool.」
+「So sometimes I wear my pajamas during the day. They’re breezy」
 
 #＠樹
 #SCRIPT ORIGINAL 「パジャマって……いつも着てるあのパジャマか……？」
 ＠Itsuki
-「Pajamas...... Do you mean those pajamas you always wear......?」
+「Pajamas... you mean those same ones I’ve seen you wear before...?」
 
 #＠ざくろ,Q00876
 #SCRIPT ORIGINAL 「うん。快適」
 ＠Zakuro,Q00876
-「Yup. They're comfortable.」
+「Yup. They're comfy」
 
 #SCRIPT ORIGINAL あれは、涼しい以前にスケスケじゃないか……
-　Isn't that see-through though......
+　Those aren’t just breezy, they’re wide-open and see-through...
 
 @bg_black
 wait		1000
@@ -539,12 +592,12 @@ wait		1000
 @bg_zakuro		# ざくろの部屋
 
 #SCRIPT ORIGINAL などと雑談の間に、ざくろの着衣が終わった。
-　While we were talking about that, Zakuro finished with her clothes.
+　As we were idly chatting about that, Zakuro finished up her clothes.
 
 #＠樹
 #SCRIPT ORIGINAL 「さて、じゃあいい加減鍵を開けてくれ」
 ＠Itsuki
-「Well, hurry up and unlock it.」
+「Alright then, put an end to it already and unlock it」
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
@@ -558,19 +611,19 @@ wait		1000
 #＠樹
 #SCRIPT ORIGINAL 「だって、今ので用事は終わったんだろう？」
 ＠Itsuki
-「But, I finished what you wanted me to do?」
+「We just finished what you called me to do, right?」
 
 #＠ざくろ,Q00878
 #SCRIPT ORIGINAL 「うん……でも、いいの？」
 ＠Zakuro,Q00878
-「Yeah...... But, is it okay?」
+「Yeah... but, are you sure?」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q00879
 #SCRIPT ORIGINAL 「せっかく、密室で二人っきりなのに？」
 ＠Zakuro,Q00879
-「We're finally alone in a closed room?」
+「Even though, we’re alone and behind closed doors at last?」
 
 #SCRIPT ORIGINAL 直接行動を起こすわけではないが。ジッとオレを見るざくろ。
 直接行動を起こすわけではないが。ジッとオレを見るざくろ。
@@ -578,21 +631,21 @@ wait		1000
 #＠樹
 #SCRIPT ORIGINAL 「ざくろ……」
 ＠Itsuki
-「Zakuro......」
+「Zakuro...」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q00880
 #SCRIPT ORIGINAL 「ちゃんと服を脱がせられるか、忘れないうちにテストするのもいいと思う」
 ＠Zakuro,Q00880
-「You should test if you can take the clothes off properly before you forget.」
+「You should check to see if you can take my clothes off properly before you forget」
 
 #--------------------------------------------------
 #■（選択肢）
 #（１．やってみる）
 #（２．やらない）
 #SCRIPT ORIGINAL select sel,"やってみる","やらない"
-select sel,"Try it","Don't"
+select sel,"Try it","Don't do it"
 if sel=0 then goto youzyo_zaku5_q01_a
 if sel=1 then goto youzyo_zaku5_q01_b
 #--------------------------------------------------
@@ -603,27 +656,29 @@ if sel=1 then goto youzyo_zaku5_q01_b
 label		youzyo_zaku5_q01_a
 
 #SCRIPT ORIGINAL ……それは、全く期待していなかったかと言えば嘘になる。
-　......If I say I wasn't expecting that at all, it would be a lie.
+　...Well, I can’t say I wasn’t expecting this to come about.
 
 #SCRIPT ORIGINAL 何より相手はざくろだ。他の子とは一味違う。
-　It's Zakuro after all. She's kind of different from the others.
+　And it's Zakuro, after all. She's unique from the others.
 
 @zakuro			#普
 
 #＠ざくろ,Q00881
 #SCRIPT ORIGINAL 「最初に脱がせるの、覚えてる？」
 ＠Zakuro,Q00881
-「Do you remember what to take off first?」
+「Remember what to take off first?」
 
 #＠樹
 #SCRIPT ORIGINAL 「……あぁ、ボレロだ……」
 ＠Itsuki
-「......Aah, the bolero......」
+「...Yeah, the bolero...」
 
 @zakuro_
 
 #SCRIPT ORIGINAL ざくろに見つめられながら、ふらふらと吸い寄せられ、服に手を伸ばす。
-　Zakuro stared at me while I unsteadily put my hand to the clothes.
+　As she looks on at me, I approach her reeling, and stretch out my hand.
+
+#　Zakuro stared at me while I unsteadily put my hand to the clothes.
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
@@ -634,14 +689,14 @@ label		youzyo_zaku5_q01_a
 「!?」
 
 #SCRIPT ORIGINAL その直前、ドアをノックする音がした。
-　Just before that, there was a knock on the door.
+　Just then, there was a knock on the door.
 
 #CH（雫は立ち絵無し）
 
 #＠雫,S00875
 #SCRIPT ORIGINAL 「おーい、ざくろ、居る？」
 ＠Shizuku,S00875
-「He-y, Zakuro, you there?」
+「Heyyy, Zakuro. You there?」
 
 #SE10　鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
 @SE10			#鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
@@ -649,10 +704,10 @@ label		youzyo_zaku5_q01_a
 #＠雫,S00876
 #SCRIPT ORIGINAL 「あれ、鍵がかかってる」
 ＠Shizuku,S00876
-「Huh, it's locked.」
+「Huh, it's locked」
 
 #SCRIPT ORIGINAL 雫さんの声だ。
-　It was Shizuku-san's voice.
+　Shizuku’s voice could be heard.
 
 @zakuro_large		# 近い
 @zakuro_shifuku
@@ -661,69 +716,69 @@ label		youzyo_zaku5_q01_a
 #＠ざくろ,Q00882
 #SCRIPT ORIGINAL 「雫が来た」
 ＠Zakuro,Q00882
-「Shizuku came.」
+「Shizuku came」
 
 #＠樹
 #SCRIPT ORIGINAL 「あ、あぁ……みたいだな」
 ＠Itsuki
-「A, aa...... Seems like it.」
+「Y-yeah... looks like it」
 
 @zakuro			#普
 
 #＠ざくろ,Q00883
 #SCRIPT ORIGINAL 「大丈夫。鍵してるから入ってこれないわ」
 ＠Zakuro,Q00883
-「It's okay. It's locked so she can't come in.」
+「Don’t worry. She can't come in since it’s locked」
 
 @zakuro_niko		#にこ
 
 #SCRIPT ORIGINAL 「それより、この状況で、気付かれないようにエッチするの。興奮するかも」
 ＠Zakuro,Q00884
-「それより、この状況で、気付かれないようにエッチするの。興奮するかも」
+「Actually, in this situation, let’s have sex so she won’t notice. Might be arousing」
 
 #SCRIPT ORIGINAL ……揺さぶりをかけるのも上手いざくろ。
-　......Zakuro is good at making people flustered.
+　...Zakuro’s pretty good at hitting me up.
 
 #SCRIPT ORIGINAL 一瞬躊躇したオレだが、その誘いに乗るように、ざくろをベッドへ押し倒そうとする。
-一瞬躊躇したオレだが、その誘いに乗るように、ざくろをベッドへ押し倒そうとする。
+　I hesitated for a moment, but following her invite, I tried pushing her over onto the bed.
 
 #＠雫,S00877
 #SCRIPT ORIGINAL 「ざくろー、ざくろー居ないのかい？　いい物手に入れて来てやったよ～」
 ＠Shizuku,S00877
-「Zakuro-. Zakuro, where are you? I brought back something good~」
+「Zakuroo. Zakuro, are you in there? I brought you something nice～」
 
 #＠樹
 #SCRIPT ORIGINAL 「珍しい。雫さんがお土産だってさ」
 ＠Itsuki
-「Strange. Shizuku-san got a souvenir.」
+「How unusual. She’s got something for you, she says」
 
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「いらない。今はつっちーのおちんちんが一番欲しい」
 ＠Zakuro,Q00885
-「いらない。今はつっちーのおちんちんが一番欲しい」
+「Don’t need it. The thing I want most right now is Tsu-chi’s dick」
 
 #＠樹
 #SCRIPT ORIGINAL 「そうか……」
 ＠Itsuki
-「I see......」
+「You do, huh...」
 
 @bg_white		# 白
 
 #SCRIPT ORIGINAL 雫さんの声に背を向け、オレとざくろはそのままベッドに……
-雫さんの声に背を向け、オレとざくろはそのままベッドに……
+　Turning my back to Shizuku’s voice, Zakuro and I lock in an embrace, and...
 
 #＠雫,S00878
 #SCRIPT ORIGINAL 「せっかくざくろお気に入りの、『青ノリの残り物』が手に入ったって言うのに」
 ＠Shizuku,S00878
-「I finally got your favourite, "Aonori Leftovers", Zakuro.」
+「Come on, I even managed to nab you your favourite, “Aonori Leftovers”」
 
 bgm_stop
 
 #＠ざくろ,Q00886
 #SCRIPT ORIGINAL 「……ッ！」
 ＠Zakuro,Q00886
-「......!」
+「...!」
 
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 #■BG（黒）
@@ -735,30 +790,34 @@ wait			100
 screen_blackin		1
 
 #SCRIPT ORIGINAL もう十分な欲情を抑えることなく、オレはベッドへ倒れ込んだ。
-もう十分な欲情を抑えることなく、オレはベッドへ倒れ込んだ。
+　Unable to restrain my now plentiful lusts, I fell over onto the bed.
 
 #＠樹
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
-「.........」
+「......」
 
 #SCRIPT ORIGINAL ……オレ一人で。
-　......By myself.
+　...By myself.
 
 #＠樹
 #SCRIPT ORIGINAL 「あれ……？」
 ＠Itsuki
-「Huh......?」
+「Huh...?」
 
 #SCRIPT ORIGINAL さっきまであった、ざくろの温もりが……
-　Zakuro's warmth, which was there until a while ago......
+　Zakuro’s warmth, that was there until a moment ago...
+
+#　Zakuro's warmth, which was there until a while ago...
 
 @SE09			#部屋のドアの鍵を掛ける音（カチャ）
 #■BG（ざくろの部屋）
 #SE06　部屋のドア開く音（ガチャ）
 
 #SCRIPT ORIGINAL 顔を上げると………何事もなかったように、ざくろが部屋の鍵を開けていた。
-　When I raised my head.........As if nothing happened, Zakuro unlocked the door.
+　When I looked up... Zakuro was opening the door, as if nothing had happened.
+
+#　When I raised my head.........As if nothing happened, Zakuro unlocked the door.
 
 @SE06			#部屋のドア開く音（ガチャ）
 @shizuku_small
@@ -770,7 +829,7 @@ screen_blackin		1
 #＠雫,S00879
 #SCRIPT ORIGINAL 「何だ、やっぱり居たんじゃないの」
 ＠Shizuku,S00879
-「What, so you were there after all.」
+「Hey, so you were in here」
 
 @zakuro_small
 @zakuro_shifuku
@@ -779,64 +838,66 @@ screen_blackin		1
 #＠ざくろ,Q00887
 #SCRIPT ORIGINAL 「雫、今言ったお土産」
 ＠Zakuro,Q00887
-「Shizuku, the souvenir you said just now.」
+「Shizuku, the gift you mentioned」
 
 @shizuku_yorokobi	#喜
 
 #＠雫,S00880
 #SCRIPT ORIGINAL 「あぁ、これこれ。確かそうだったよね」
 ＠Shizuku,S00880
-「Ah, that, that. I did say that.」
+「Right, this thing. I did say that」
 
 #SCRIPT ORIGINAL 雫が手にしていた品物をざくろに渡す。
-　Shizuku gives the goods in her hand to Zakuro.
+　Shizuku passes the item in her hand to Zakuro.
 
 @zakuro			#普
 
 #＠ざくろ,Q00888
 #SCRIPT ORIGINAL 「うん……『青ノリの残り物』」
 ＠Zakuro,Q00888
-「Yup...... "Aonori Leftovers"」
+「Yup... "Aonori Leftovers"」
 
 @zakuro_niko		#にこ
 
 #＠ざくろ,Q00889
 #SCRIPT ORIGINAL 「……嬉しい。ありがとう、雫」
 ＠Zakuro,Q00889
-「......I'm happy.  Thanks, Shizuku.」
+「...Awesome. Thanks, Shizuku」
 
 #SCRIPT ORIGINAL 静かな口調はいつもどおりだが、そこには嬉しそうな感じがこもっていた。
-　Her tone was quiet as always, but there was happiness included.
+　Her tone was quiet as always, but she was very placid.
+
+#　Her tone was quiet as always, but there was happiness included.
 
 #＠樹
 #SCRIPT ORIGINAL 「………」
 ＠Itsuki
-「.........」
+「......」
 
 @shizuku		#普通
 
 #＠雫,S00881
 #SCRIPT ORIGINAL 「……で、樹は何してるんだい？　ベッドに転がって」
 ＠Shizuku,S00881
-「......So, what's Itsuki doing? He's lying on the bed.」
+「...So what's Itsuki up to, lying on the bed there?」
 
 #＠樹
 #SCRIPT ORIGINAL 「オレが知りたいです……」
 ＠Itsuki
-「That's what I would like to know......」
+「That's what I’d like to know...」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q00890
 #SCRIPT ORIGINAL 「今度にしよ、つっちー。今はそんなのより青ノリが食べたい」
 ＠Zakuro,Q00890
-「Next time, Tsuchii. Right now I want to eat aonori more than that.」
+「Next time, Tsu-chi. I’d much rather have some Aonori now than do that」
 
 #SCRIPT ORIGINAL 『青ノリ＞＞＞＞＞（越えられない壁）＞＞＞＞＞オレ』
-　"Aonori>>>>>(uncrossable wall)>>>>>me"
+　"Aonori>>>>>(impasse)>>>>>me"
 
 #SCRIPT ORIGINAL まぁ分かってたが………
-　Well, I knew it.........
+　Well, I knew that anyway...
 
 @zakuro_niko		#にこ
 #///////////////////////////////////////////////////////
@@ -858,17 +919,19 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠ざくろ,Q00891
 #SCRIPT ORIGINAL 「青ノリ、青ノリ……。つっちー、食堂に行こ」
 ＠Zakuro,Q00891
-「Aonori, aonori...... Tsuchii, let's go to the dining room.」
+「Aonori, Aonori... Tsu-chi, let's go to the dining room」
 
 @zakuro_
 
 #＠樹
 #SCRIPT ORIGINAL 「はい……」
 ＠Itsuki
-「Yes......」
+「Fine...」
 
 #SCRIPT ORIGINAL 浮かれながら（？）食堂に向かうざくろに、お預けをくらったままオレも付き合うのだった。
-　Zakuro went to the dining room happily (?), and I followed her, postponing what we were doing before.
+　Zakuro joyfully (?) heading to the dining room, I went along with her with a postponement inflicted.
+
+#Zakuro went to the dining room happily (?), and I followed her, postponing what we were doing before.
 
 bgm_stop
 @bg_black
@@ -885,39 +948,41 @@ return
 label		youzyo_zaku5_q01_b
 
 #SCRIPT ORIGINAL ……落ち着け。節操を持つのも大事だぞ、オレ。
-　......Calm down. It's important to have principles, me.
+　...Calm down. I have to guard my principles here.
 
 #＠樹
 #SCRIPT ORIGINAL 「また今度にしよう。今日はそれが用事じゃなかっただろ？」
 ＠Itsuki
-「Let's do it some other time. That wasn't what you wanted me to do today right?」
+「Let's do it some other time. That wasn't your business today anyway, right?」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q00892
 #SCRIPT ORIGINAL 「………」
 ＠Zakuro,Q00892
-「.........」
+「......」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q00893
 #SCRIPT ORIGINAL 「……分かった。じゃあ今度にする」
 ＠Zakuro,Q00893
-「......Okay. Well, next time.」
+「...Alright. Then let’s make it next time」
 
 #SCRIPT ORIGINAL 少し気になる間があいたが、とりあえず頷くざくろ。
-　Zakuro was worried for a moment, but for now she nodded.
+　Zakuro looked troubled for a moment, but she nodded for now.
+
+#Zakuro was worried for a moment, but for now she nodded.
 
 #SCRIPT ORIGINAL ……今度、って。あるんだろうな、きっと。
-　......Next time. It will happen, for sure.
+　...Next time, she said. I’m sure there will be one, right?
 
 @zakuro			#普
 
 #＠ざくろ,Q00894
 #SCRIPT ORIGINAL 「はい、じゃあこれ部屋の鍵」
 ＠Zakuro,Q00894
-「Yes, here's the key for the door.」
+「Then here's the key for the door」
 
 @SE35			#ティーカップを置く音（カチャ）
 @bg_black
@@ -927,18 +992,20 @@ wait		1000
 #＠樹
 #SCRIPT ORIGINAL 「……こほん」
 ＠Itsuki
-「......*cough*」
+「...Ahem」
 
 #SE09　部屋のドアの鍵を掛ける音（カチャ）
 @SE09			#部屋のドアの鍵を掛ける音（カチャ）
 
 #SCRIPT ORIGINAL 手渡された鍵を、変に意識しないようにしながら使った。
-　I used the key she gave me strangely without being aware of it.
+　It was oddly difficult to pay attention as I turned the key she gave me.
+
+#　I used the key she gave me strangely without being aware of it.
 
 #＠樹
 #SCRIPT ORIGINAL 「ざくろ、今日は休みだったよな。暇なら散歩にでも行かないか」
 ＠Itsuki
-「Zakuro, today's your break right? If you're free, why don't you take a walk?」
+「Zakuro, today's your break right? Why don’t we go for a walk if you’ve got time?」
 
 @zakuro_small
 @zakuro_shifuku
@@ -947,12 +1014,14 @@ wait		1000
 #＠ざくろ,Q00895
 #SCRIPT ORIGINAL 「つっちーがいいなら行きたい。いいの？」
 ＠Zakuro,Q00895
-「If Tsuchii is okay with it, I want to. Is it okay?」
+「I’d like to go if you want to. Would you?」
+
+#「If Tsuchii is okay with it, I want to. Is it okay?」
 
 #＠樹
 #SCRIPT ORIGINAL 「ああ。なら、準備できたらリビングに集合だ。オレも用意してくるから」
 ＠Itsuki
-「Ah. Then, let's meet in the living room when you're ready. I'll prepare too.」
+「Yeah. Then, let's meet in the living room when you're ready. I'll go get ready too」
 
 #CH（ざくろ表情・にこ）
 @zakuro_niko		#にこ
@@ -967,10 +1036,12 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠ざくろ,Q00896
 #SCRIPT ORIGINAL 「うん、分かった。なるべく急ぐから」
 ＠Zakuro,Q00896
-「Okay. I'll hurry as much as possible.」
+「Sure, sounds good. I’ll be as quick as I can」
 
 #SCRIPT ORIGINAL 頬を緩め、笑みを見せてくれたことを確認してから、オレもざくろの部屋を後にした。
-　After confirming that she smiled at me, I also left Zakuro's room.
+　She softens her expression, and seeing her smile at me, I left Zakuro’s room.
+
+#After confirming that she smiled at me, I also left Zakuro's room.
 
 bgm_stop
 @bg_black
