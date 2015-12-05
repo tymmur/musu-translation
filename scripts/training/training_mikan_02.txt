@@ -600,6 +600,9 @@ goto ev_mik_050_loop_b
 label ev_mik_050_aibu
 if _COLOR=0 then return
 se		0,"sound\se\ƒvƒCƒb.WAV",play_once
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+#SCRIPT IGNORE END
 @mikan_motion_normal1
 if _COLOR=130 then @mikan_voice_aibu_manko
 if _COLOR=145 or _COLOR=69 then @mikan_voice_aibu_oppai
@@ -965,10 +968,14 @@ layer_anime_push	l_eyeblow,1,	PLAY_ONCE
 layer_anime_push	l_mouth,1,	PLAY_ONCE
 layer_anime_push	l_eye_f,1,	PLAY_ONCE
 
-tairyoku=tairyoku-3
-seishin=seishin-5
-lifebar_setauto	life_tairyoku,tairyoku
-lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE
+gosub training_stat_handle_motion_pain
+#SCRIPT SKIP JAPANESE LINES 4
+#tairyoku=tairyoku-3
+#seishin=seishin-5
+#lifebar_setauto	life_tairyoku,tairyoku
+#lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE END
 
 endm
 
@@ -1010,10 +1017,14 @@ layer_anime_push	l_eyeblow,2,	PLAY_LOOP
 layer_anime_push	l_mouth,2,	PLAY_ONCE
 layer_anime_push	l_eye_f,2,	PLAY_LOOP
 
-tairyoku=tairyoku-10
-seishin=seishin-15
-lifebar_setauto	life_tairyoku,tairyoku
-lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE
+gosub training_stat_handle_motion_insert
+#SCRIPT SKIP JAPANESE LINES 4
+#tairyoku=tairyoku-10
+#seishin=seishin-15
+#lifebar_setauto	life_tairyoku,tairyoku
+#lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE END
 
 endm
 
@@ -1045,10 +1056,14 @@ layer_anime_push	l_eyeblow,3,	PLAY_ONCE
 layer_anime_push	l_mouth,3,	PLAY_ONCE
 layer_anime_push	l_eye_f,3,	PLAY_ONCE
 
-tairyoku=tairyoku-3
-seishin=seishin-5
-lifebar_setauto	life_tairyoku,tairyoku
-lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE
+gosub training_stat_handle_motion_normal
+#SCRIPT SKIP JAPANESE LINES 4
+#tairyoku=tairyoku-3
+#seishin=seishin-5
+#lifebar_setauto	life_tairyoku,tairyoku
+#lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE END
 
 endm
 

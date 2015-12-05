@@ -107,6 +107,36 @@ loss_tairyoku=500
 loss_seishin=500
 goto training_stat_update_bars
 
+label training_stat_handle_motion_insert
+if training_motion_ignore_stats=1 then training_motion_ignore_stats=0; return
+activity_count=1
+gain_karada=0
+gain_kokoro=0
+gain_miryoku=0
+loss_tairyoku=10
+loss_seishin=15
+goto training_stat_update_bars
+
+label training_stat_handle_motion_normal
+if training_motion_ignore_stats=1 then training_motion_ignore_stats=0; return
+activity_count=1
+gain_karada=0
+gain_kokoro=0
+gain_miryoku=0
+loss_tairyoku=3
+loss_seishin=5
+goto training_stat_update_bars
+
+label training_stat_handle_motion_pain
+if training_motion_ignore_stats=1 then training_motion_ignore_stats=0; return
+activity_count=1
+gain_karada=0
+gain_kokoro=0
+gain_miryoku=0
+loss_tairyoku=3
+loss_seishin=5
+goto training_stat_update_bars
+
 
 # add stats and update bars
 label training_stat_update_bars

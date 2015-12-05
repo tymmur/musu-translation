@@ -609,6 +609,10 @@ endm
 label t_karin_aibu
 if _COLOR=0 then return
 se		0,"sound\se\ƒvƒCƒb.WAV",play_once
+
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+#SCRIPT IGNORE END
 @karin_motion_normal1
 
 if _COLOR=130 then voicetable t_karin_aibu_cnt_l,"P03816","P03817","P03818","P03819","P03820","P03821","P03822","P03823","P03824","P03825"
@@ -971,10 +975,14 @@ layer_anime_push	l_eyeblow,1,	PLAY_ONCE
 layer_anime_push	l_mouth,1,	PLAY_ONCE
 layer_anime_push	l_eye_f,1,	PLAY_ONCE
 
-tairyoku=tairyoku-3*t_karin_damagefix
-seishin=seishin-5*t_karin_damagefix
-lifebar_setauto	life_tairyoku,tairyoku
-lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE
+gosub training_stat_handle_motion_pain
+#SCRIPT SKIP JAPANESE LINES 4
+#tairyoku=tairyoku-3*t_karin_damagefix
+#seishin=seishin-5*t_karin_damagefix
+#lifebar_setauto	life_tairyoku,tairyoku
+#lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE END
 
 endm
 
@@ -1016,10 +1024,14 @@ layer_anime_push	l_eyeblow,2,	PLAY_LOOP
 layer_anime_push	l_mouth,2,	PLAY_ONCE
 layer_anime_push	l_eye_f,2,	PLAY_LOOP
 
-tairyoku=tairyoku-10*t_karin_damagefix
-seishin=seishin-15*t_karin_damagefix
-lifebar_setauto	life_tairyoku,tairyoku
-lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE
+gosub training_stat_handle_motion_insert
+#SCRIPT SKIP JAPANESE LINES 4
+#tairyoku=tairyoku-10*t_karin_damagefix
+#seishin=seishin-15*t_karin_damagefix
+#lifebar_setauto	life_tairyoku,tairyoku
+#lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE END
 
 endm
 
@@ -1051,10 +1063,14 @@ layer_anime_push	l_eyeblow,3,	PLAY_ONCE
 layer_anime_push	l_mouth,3,	PLAY_ONCE
 layer_anime_push	l_eye_f,3,	PLAY_ONCE
 
-tairyoku=tairyoku-3*t_karin_damagefix
-seishin=seishin-5*t_karin_damagefix
-lifebar_setauto	life_tairyoku,tairyoku
-lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE
+gosub training_stat_handle_motion_normal
+#SCRIPT SKIP JAPANESE LINES 4
+#tairyoku=tairyoku-3*t_karin_damagefix
+#seishin=seishin-5*t_karin_damagefix
+#lifebar_setauto	life_tairyoku,tairyoku
+#lifebar_setauto	life_seishin,seishin
+#SCRIPT IGNORE END
 
 endm
 
