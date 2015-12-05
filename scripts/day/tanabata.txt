@@ -1,8 +1,11 @@
 label	tanabata
 
 #七夕イベント
+#Tanabata event
 #発生条件：無し
+#Condition for occurence: none
 #発生期間：７月７日
+#Time for occurence: July 7
 #------------------------------------------------------------
 
 @bgm12
@@ -14,42 +17,42 @@ label	tanabata
 @se19
 
 #SCRIPT ORIGINAL ドタドタドタドタッ！
-ドタドタドタドタッ！
+Thump thump thump thump!
 
 #SCRIPT ORIGINAL 「………ん？」
 ＠Itsuki
-「………ん？」
+「...Hm?」
 
 #SE19　廊下を走る音
 @se19
 
 #SCRIPT ORIGINAL ドタドタドタドタドタドタドタッ！
-ドタドタドタドタドタドタドタッ！
+Thump thump thump thump thump thump thump!
 
 @mikan
 @karin
 
 #SCRIPT ORIGINAL 「誰か廊下で走ってるね」
 ＠Mikan,A00407
-「誰か廊下で走ってるね」
+「Sounds like someone’s running in the hall」
 
 #SCRIPT ORIGINAL 「誰かって言うか、ここにみかんとかりんが居る以上、残る可能性は一人だけどな」
 ＠Itsuki
-「誰かって言うか、ここにみかんとかりんが居る以上、残る可能性は一人だけどな」
+「Not just anyone. If you and Karin are both already here, that only leaves one possibility」
 
 @karin_ikari
 
 #SCRIPT ORIGINAL 「失礼ねッ。私がいつ、こんな下品に走り回ったって言うのよ！」
 ＠Karin,P00472
-「失礼ねッ。私がいつ、こんな下品に走り回ったって言うのよ！」
+「How rude! Just when, are you saying that I was gallivanting in the hall like this!」
 
 #SCRIPT ORIGINAL 「主にみかん関連のとき」
 ＠Itsuki
-「主にみかん関連のとき」
+「Usually when it has to do with Mikan」
 
 #SCRIPT ORIGINAL 「もっと品良く走り回ってるわよ！」
 ＠Karin,P00473
-「もっと品良く走り回ってるわよ！」
+「My running is more dignified than this!」
 
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @se08
@@ -57,122 +60,124 @@ label	tanabata
 
 #SCRIPT ORIGINAL 「笹ーーー！！」
 ＠Ichigo,O00461
-「笹ーーー！！」
+「Bambooo!!
 
 #SCRIPT ORIGINAL 案の定、いちごが勢い良く飛び込んできた。
-案の定、いちごが勢い良く飛び込んできた。
+As expected, Ichigo came flying in with some oomph.
 
 @mikan_odoroki
 
 #SCRIPT ORIGINAL 「どうしたの、いちごちゃん？　笹？」
 ＠Mikan,A00408
-「どうしたの、いちごちゃん？　笹？」
+「What’s the matter, Ichigo-chan? Bamboo?」
 
 @ichigo_odoroki
 
 #SCRIPT ORIGINAL 「あッ、パパにみかんにかりん！　三人だけで仲良くおやつ食べてるー！」
 ＠Ichigo,O00462
-「あッ、パパにみかんにかりん！　三人だけで仲良くおやつ食べてるー！」
+「Ah, Papa and Mikan and Karin! You 3 are eating a snack all snug by yourselves!」
 
 @karin
 
 #SCRIPT ORIGINAL 「仲が良いのは私とみかんだけよ。樹は後から出てきて摘み食いしてるの」
 ＠Karin,P00474
-「仲が良いのは私とみかんだけよ。樹は後から出てきて摘み食いしてるの」
+「The only real friends here are me and Mikan. Itsuki came up behind us to steal our food」
 
 #SCRIPT ORIGINAL 「そのおやつ、買ってきたのはオレだってのに……」
 ＠Itsuki
-「そのおやつ、買ってきたのはオレだってのに……」
+「But I’m the one who bought that snack, though...」
 
 #SCRIPT ORIGINAL 「いちごも食べるか？」
 ＠Itsuki
-「いちごも食べるか？」
+「Do you want some, Ichigo?」
 
 @ichigo_warai
 
 #SCRIPT ORIGINAL 「そんなことよりパパ！　笹は！？　笹ってどこにあるの！？」
 ＠Ichigo,O00463
-「そんなことよりパパ！　笹は！？　笹ってどこにあるの！？」
+「More important than that, Papa! Bamboo!? Where can I find bamboo!?」
 
 @mikan
 
 #SCRIPT ORIGINAL 「……笹って、パンダさんが良く食べてるあの笹？」
 ＠Mikan,A00409
-「……笹って、パンダさんが良く食べてるあの笹？」
+「...Bamboo, you mean that bamboo that pandas like to eat?」
 
 @karin_akire
 
 #SCRIPT ORIGINAL 「あなた、ついにそんな物にまで食欲を示すようになったの……」
 ＠Karin,P00475
-「あなた、ついにそんな物にまで食欲を示すようになったの……」
+「Did you even manage to develop an appetite for that stuff...」
 
 @ichigo_odoroki
 
 #SCRIPT ORIGINAL 「食べるんじゃないよー。今日は七夕だよ！　笹に短冊を付けて空に打ち上げるの！」
 ＠Ichigo,O00464
-「食べるんじゃないよー。今日は七夕だよ！　笹に短冊を付けて空に打ち上げるの！」
+「It’s not to eat. Today’s Tanabata! You put your tanzaku on a bamboo and toss it to the sky!」
+
+#TL note: A tanzaku is a small note with a wish, sometimes in the form of a poem.
 
 #SCRIPT ORIGINAL 「打ち上げるは違う」
 ＠Itsuki
-「打ち上げるは違う」
+「You don’t toss it」
 
 #SCRIPT ORIGINAL 「しかし、そうか。７月７日だったな」
 ＠Itsuki
-「しかし、そうか。７月７日だったな」
+「But you’re right. It is July 7th」
 
 #SCRIPT ORIGINAL 「七夕の笹って、ウチにあるの？」
 ＠Mikan,A00410
-「七夕の笹って、ウチにあるの？」
+「Do we have any bamboo for tanabata at home?」
 
 #SCRIPT ORIGINAL 「いや、無いだろ。今言われるまですっかり忘れてたし」
 ＠Itsuki
-「いや、無いだろ。今言われるまですっかり忘れてたし」
+「No, I don’t think so. I completely forgot about it until now」
 
 @ichigo_ikari
 
 #SCRIPT ORIGINAL 「えーッ！　買い物に行ってたんでしょ、笹くらい買って来てよー！」
 ＠Ichigo,O00465
-「えーッ！　買い物に行ってたんでしょ、笹くらい買って来てよー！」
+「Ehh!? Didn’t you say you went shopping? Go buy some bamboo next time!」
 
 @ichigo_kanashimi
 
 #SCRIPT ORIGINAL 「ねー、パパぁ～。笹が欲しいよぉ、笹ぁ～」
 ＠Ichigo,O00466
-「ねー、パパぁ～。笹が欲しいよぉ、笹ぁ～」
+「Hey, Papaa～. I want some bamboo. BAMBOO～」
 
 #SCRIPT ORIGINAL おそらく家中を探し回ったのだろう。
-おそらく家中を探し回ったのだろう。
+She probably turned the place upside-down looking for it.
 
 #SCRIPT ORIGINAL いちごの行動が〝捜索〟から〝おねだり〟に代わる。
-いちごの行動が〝捜索〟から〝おねだり〟に代わる。
+Ichigo goes from searching for it to begging for it.
 
 #SCRIPT ORIGINAL 「はぁ……子供ねぇ、相変わらず。この年になって七夕で騒がないでよ」
 ＠Karin,P00476
-「はぁ……子供ねぇ、相変わらず。この年になって七夕で騒がないでよ」
+「Sigh... acting like a child, as usual. Don’t make a ruckus over this year’s tanabata」
 
 @mikan_warai
 
 #SCRIPT ORIGINAL 「そうかな……でも、願い事を書いたりするの楽しそうだよね」
 ＠Mikan,A00411
-「そうかな……でも、願い事を書いたりするの楽しそうだよね」
+「You think so...? But writing down your wishes sounds like fun, doesn’t it?」
 
 #SCRIPT ORIGINAL 「みかんも忘れてたけど、笹があったら七夕やりたいな」
 ＠Mikan,A00412
-「みかんも忘れてたけど、笹があったら七夕やりたいな」
+「I forgot about it too, but I’d like celebrating tanabata if we can find some bamboo」
 
 @karin_ikari
 
 #SCRIPT ORIGINAL 「さ、笹よッ！　樹、グズグズしてないで笹を用意しなさい！！」
 ＠Karin,P00477
-「さ、笹よッ！　樹、グズグズしてないで笹を用意しなさい！！」
+「B-bamboo, it is! Itsuki, stop being a slouch and go find us some bamboo!!」
 
 #SCRIPT ORIGINAL 「何だかなぁ、もう……」
 ＠Itsuki
-「何だかなぁ、もう……」
+「What’s with this all of a sudden, jeez...」
 
 #SCRIPT ORIGINAL 「そもそも、笹なんてどこで手に入れればいいんだ」
 ＠Itsuki
-「そもそも、笹なんてどこで手に入れればいいんだ」
+「To begin with, just where would I be able to find some bamboo」
 
 @karin_
 @ichigo_
@@ -185,48 +190,48 @@ wait	1000
 
 #SCRIPT ORIGINAL 「心配ないわ」
 ＠Zakuro,Q00350
-「心配ないわ」
+「Never fear」
 
 #SCRIPT ORIGINAL 開きっぱなしだったドアから、抑揚無く応えざくろが入ってきた。
-開きっぱなしだったドアから、抑揚無く応えざくろが入ってきた。
+Zakuro came in, replying in her monotonous tone, from the door that was open.
 
 #SCRIPT ORIGINAL 「……え」
 ＠Itsuki
-「……え」
+「...Huh」
 
 #SCRIPT ORIGINAL 肩に二本の笹を担いでいる。
-肩に二本の笹を担いでいる。
+2 pieces of bamboo were slung over her shoulder.
 
 #SCRIPT ORIGINAL 「すごーい！　笹だー！！」
 ＠Ichigo,O00467
-「すごーい！　笹だー！！」
+「Whoaaa! Look, bamboo!!」
 
 #SCRIPT ORIGINAL 「……どうしたんだ、その笹？」
 ＠Itsuki
-「……どうしたんだ、その笹？」
+「...What are you doing with that bamboo?」
 
 #SCRIPT ORIGINAL 「いちごが楽しみにしてたから、刈ってきたの」
 ＠Zakuro,Q00351
-「いちごが楽しみにしてたから、刈ってきたの」
+「Ichigo was looking forward to it, so I chopped some down」
 
 #SCRIPT ORIGINAL 「へぇ～、知らなかった。お店に売ってるんだね、笹なんて」
 ＠Mikan,A00413
-「へぇ～、知らなかった。お店に売ってるんだね、笹なんて」
+「Wow～, I didn’t know there’s a store where they let you chop bamboo」
 
 #SCRIPT ORIGINAL 「いや、今『買って』のニュアンスがおかしかったぞ」
 ＠Itsuki
-「いや、今『買って』のニュアンスがおかしかったぞ」
+「Actually, I don’t think she bought it from a store」
 
 #SCRIPT ORIGINAL 「気にしないで。バレてないから」
 ＠Zakuro,Q00352
-「気にしないで。バレてないから」
+「Don’t worry. I didn’t get caught」
 
 #SCRIPT ORIGINAL ……気になるっつの。
-……気になるっつの。
+...I’m worried, I tell you.
 
 #SCRIPT ORIGINAL 「それよりいちご、七夕で、彦星と織姫のお話は知ってるの？」
 ＠Zakuro,Q00353
-「それよりいちご、七夕で、彦星と織姫のお話は知ってるの？」
+「Besides that, Ichigo, do you know the legend of Orihime and Hikoboshi on Tanabata?」
 
 @zakuro_
 
