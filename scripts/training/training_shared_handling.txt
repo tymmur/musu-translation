@@ -107,6 +107,38 @@ loss_tairyoku=500
 loss_seishin=500
 goto training_stat_update_bars
 
+# spanking
+
+label training_stat_handle_spank
+activity_count=1
+gain_karada=1
+gain_kokoro=0
+gain_miryoku=1
+loss_tairyoku=13
+loss_seishin=25
+goto training_stat_update_bars
+
+label training_stat_handle_whip
+activity_count=1
+gain_karada=2
+gain_kokoro=0
+gain_miryoku=2
+loss_tairyoku=35
+loss_seishin=20
+goto training_stat_update_bars
+
+label training_stat_handle_candle
+activity_count=1
+gain_karada=3
+gain_kokoro=0
+gain_miryoku=3
+loss_tairyoku=35
+loss_seishin=20
+goto training_stat_update_bars
+
+
+# motions
+
 label training_stat_handle_motion_insert
 if training_motion_ignore_stats=1 then training_motion_ignore_stats=0; return
 activity_count=1

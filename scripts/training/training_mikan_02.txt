@@ -642,7 +642,15 @@ mousecursor_reset
 if _LAYER=l_leg then @spanking_effect_big		# ï⁄ç≠(ëÂ)
 if _LAYER<>l_leg then @spanking_effect_small		# ï⁄ç≠(è¨)
 @mikan_voice_spanking
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+#SCRIPT IGNORE END
 @mikan_motion_pain1
+#SCRIPT IGNORE
+gosub training_stat_handle_spank
+wait 500
+return
+#SCRIPT IGNORE END
 tairyoku=tairyoku-15
 seishin=seishin-20
 lifebar_setauto	life_tairyoku,tairyoku
@@ -667,7 +675,15 @@ mousecursor_reset
 if _LAYER=l_leg then @muchiato_effect_big		# ï⁄ç≠(ëÂ)
 if _LAYER<>l_leg then @muchiato_effect_small		# ï⁄ç≠(è¨)
 @mikan_voice_itai
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+#SCRIPT IGNORE END
 @mikan_motion_pain1
+#SCRIPT IGNORE
+gosub training_stat_handle_whip
+wait 500
+return
+#SCRIPT IGNORE END
 tairyoku=tairyoku-35
 seishin=seishin-20
 lifebar_setauto	life_tairyoku,tairyoku
@@ -684,18 +700,31 @@ label ev_mik_050_rousoku
 if _LAYER < 25 then return
 #ÉJÅ[É\ÉãÇè¡Ç∑
 mousecursor_reset
-wait	500
+#SCRIPT IGNORE
+#SCRIPT SKIP JAPANESE LINES 1
+#wait	500
+#SCRIPT IGNORE END
 #-- òXêCÉGÉtÉFÉNÉg
 @rousoku_effect
 #-- òXêCå„ÇÇ¬ÇØÇÈ
 @mikan_voice_atsui
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+#SCRIPT IGNORE END
 @mikan_motion_pain1
+#SCRIPT IGNORE
+goto training_mikan_candle_done
+#SCRIPT IGNORE END
 tairyoku=tairyoku-20
 seishin=seishin-35
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
 add_miryoku=add_miryoku+3
+
+#SCRIPT IGNORE
+label training_mikan_candle_done
+#SCRIPT IGNORE END
 
 for j=0 to 5
 rand rnd,0,128
@@ -707,6 +736,10 @@ if _LAYER=l_leg then @rousoku_effect_big		# òXêCç≠(ëÂ)
 if _LAYER<>l_leg then @rousoku_effect_small		# òXêCç≠(è¨)
 wait	50
 next
+
+#SCRIPT IGNORE
+gosub training_stat_handle_candle
+#SCRIPT IGNORE END
 
 #-- É{ÉCÉX
 

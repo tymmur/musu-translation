@@ -683,8 +683,16 @@ if t_karin_maso_flag=1 then voicetable	t_karin_spanking_cnt,"P04882","P04883","P
 t_karin_spanking_cnt_l=t_karin_spanking_cnt_l+1
 t_karin_spanking_cnt=t_karin_spanking_cnt+1
 t_karin_maso_cnt=t_karin_maso_cnt+1
-
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+#SCRIPT IGNORE END
 @karin_motion_pain1
+#SCRIPT IGNORE
+gosub training_stat_handle_spank
+wait 500
+return
+#SCRIPT IGNORE END
+
 tairyoku=tairyoku-15*t_karin_damagefix
 seishin=seishin-20*t_karin_damagefix
 lifebar_setauto	life_tairyoku,tairyoku
@@ -722,7 +730,14 @@ t_karin_muchi_cnt_l=t_karin_muchi_cnt_l+1
 t_karin_muchi_cnt=t_karin_muchi_cnt+1
 t_karin_maso_cnt=t_karin_maso_cnt+1
 
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+#SCRIPT IGNORE END
 @karin_motion_pain1
+#SCRIPT IGNORE
+gosub training_stat_handle_whip
+goto training_karin_whip_done
+#SCRIPT IGNORE END
 tairyoku=tairyoku-35*t_karin_damagefix
 seishin=seishin-20*t_karin_damagefix
 
@@ -734,6 +749,10 @@ lifebar_setauto	life_seishin,seishin
 
 add_karada=add_karada+2
 add_miryoku=add_miryoku+2
+
+#SCRIPT IGNORE
+label training_karin_whip_done
+#SCRIPT IGNORE END
 
 wait	500
 
@@ -777,6 +796,11 @@ if t_karin_maso_flag=1 then voicetable	t_karin_rousoku_cnt_l,"P04960","P04961","
 if _COLOR=130 then voicetable	t_karin_rousoku_cnt_l,"P03649","P03653","P03654","P03655","P03656","P03657","P03658"
 if _COLOR=130 then screen_vibration 500,16,16,16
 
+#SCRIPT IGNORE
+training_motion_ignore_stats=1
+@karin_motion_pain1
+#SCRIPT IGNORE END
+
 for j=0 to 5
 rand rnd,0,128
 _x=_x+rnd-64
@@ -792,7 +816,12 @@ t_karin_rousoku_cnt_l=t_karin_rousoku_cnt_l+1
 t_karin_rousoku_cnt=t_karin_rousoku_cnt+1
 t_karin_maso_cnt=t_karin_maso_cnt+1
 
+#SCRIPT IGNORE
+goto training_karin_candle_done
+#SCRIPT IGNORE END
+
 @karin_motion_pain1
+
 tairyoku=tairyoku-20*t_karin_damagefix
 seishin=seishin-35*t_karin_damagefix
 
@@ -805,6 +834,10 @@ lifebar_setauto	life_seishin,seishin
 add_karada=add_karada+3
 add_miryoku=add_miryoku+3
 
+#SCRIPT IGNORE
+label training_karin_candle_done
+#SCRIPT IGNORE END
+
 wait	500
 
 voice_bg	"P04706"
@@ -813,6 +846,10 @@ if _COLOR=130 then voice_bg	"P04710"
 
 passspeed=200
 @set_motion_speed
+
+#SCRIPT IGNORE
+gosub training_stat_handle_candle
+#SCRIPT IGNORE END
 
 return
 
