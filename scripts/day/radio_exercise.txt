@@ -1,3 +1,4 @@
+#TL note: File is edited by RaurosFalls
 label	radio
 
 #ラジオ体操開始イベント
@@ -10,45 +11,45 @@ label	radio
 @bg_black
 
 #SCRIPT ORIGINAL 徐々に眠りが浅くなっていく朝方。
-徐々に眠りが浅くなっていく朝方。
+　My tiredness gradually fades in the early morning.
 
 #■BG（自室）
 @bg_itsuki
 
 #SCRIPT ORIGINAL 「……ん、んぅ…」
 ＠Itsuki
-「……ん、んぅ…」
+「...Nh, nhh...」
 
 #SCRIPT ORIGINAL 何やら廊下が少し騒がしく、いつもより早い時間に目を覚ました。
-何やら廊下が少し騒がしく、いつもより早い時間に目を覚ました。
+　I find myself awake earlier than usual from some commotion in the hall.
 
 #SCRIPT ORIGINAL 「……何だ？　みんな今日から休みのはずだけど」
 ＠Itsuki
-「……何だ？　みんな今日から休みのはずだけど」
+「...What the? It's supposed to be vacation starting today」
 
 #SCRIPT ORIGINAL 「はい。だからゆっくり寝ていても全然大丈夫ですよね」
 ＠Yuzu,F00055
-「はい。だからゆっくり寝ていても全然大丈夫ですよね」
+「Yes it is. So go on, sleep in and take it easy」
 
 #SCRIPT ORIGINAL 「だよな……うん……じゃ、もう少し寝るか……」
 ＠Itsuki
-「だよな……うん……じゃ、もう少し寝るか……」
+「Right... yep... then I'll sleep a bit more...」
 
 #■BG（黒）
 @bg_black
 
 #SCRIPT ORIGINAL 「はい♪　おやすみなさい、樹先生」
 ＠Yuzu,F00056
-「はい♪　おやすみなさい、樹先生」
+「Very good♪ Rest up, Itsuki-sensei」
 
 #SCRIPT ORIGINAL ………
-………
+　......
 
 #SCRIPT ORIGINAL ……………
-……………
+　.........
 
 #SCRIPT ORIGINAL …………………
-…………………
+　............
 
 #■BG（自室）
 @bg_itsuki
@@ -62,11 +63,11 @@ label	radio
 
 #SCRIPT ORIGINAL 「―――って、何してるんだ、ゆずッ！」
 ＠Itsuki
-「―――って、何してるんだ、ゆずッ！」
+「―――Wait, what are you doing here, Yuzu!?」
 
 #SCRIPT ORIGINAL 「えっ、うわわッ！？」
 ＠Yuzu,F00057
-「えっ、うわわッ！？」
+「Eh, uwawah!?」
 
 layer_move	l_yuzu,500,0,0,0,800,passtype_tcb
 wait	500
@@ -75,40 +76,40 @@ wait	500
 
 #SCRIPT ORIGINAL 「いっ、たぁ……」
 ＠Yuzu,F00058
-「いっ、たぁ……」
+「Ow, ouch...」
 
 #SCRIPT ORIGINAL 同じ布団に忍び込んでいたゆずが、ベッドから転がり落ちる。
-同じ布団に忍び込んでいたゆずが、ベッドから転がり落ちる。
+　Yuzu, who'd snuck under my covers, tumbles over from the bed.
 
 @yuzu_ikari
 layer_move	l_yuzu,2000,0,800,0,0,passtype_tcb
 
 #SCRIPT ORIGINAL 「まだ添い寝していただけなのに、いきなり酷いですよぉ……」
 ＠Yuzu,F00059
-「まだ添い寝していただけなのに、いきなり酷いですよぉ……」
+「I was still sleeping with you, it's not nice to do that...」
 
 #SCRIPT ORIGINAL 「ま、まだって何だッ、まだって！」
 ＠Itsuki
-「ま、まだって何だッ、まだって！」
+「W-what do you mean, "still"!?」
 
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
 #SCRIPT ORIGINAL 「……樹さん？　どうかしましたか？」
 ＠Miu,B00212
-「……樹さん？　どうかしましたか？」
+「...Itsuki-san? Is something wrong?」
 
 #SCRIPT ORIGINAL 「美雨か？　何でもない、とりあえず無事だ」
 ＠Itsuki
-「美雨か？　何でもない、とりあえず無事だ」
+「That you, Miu? It's nothing, I'm safe for now」
 
 #SCRIPT ORIGINAL 「………無事って、まるでボクが樹先生に何かするみたいな言い方です……」
 ＠Yuzu,F00060
-「………無事って、まるでボクが樹先生に何かするみたいな言い方です……」
+「..."You're safe", that's like saying I was doing something to you...」
 
 #SCRIPT ORIGINAL 「ゆずちゃん、ここにいるの？」
 ＠Miu,B00213
-「ゆずちゃん、ここにいるの？」
+「Yuzu-chan, are you in there?」
 
 #SE06　部屋のドア開く音（ガチャ）
 @se06
@@ -117,107 +118,107 @@ wait	1000
 @yuzu_small
 
 #SCRIPT ORIGINAL いつもの服装で、きっちり一日をスタートを切っている美雨が入ってくる。
-いつもの服装で、きっちり一日をスタートを切っている美雨が入ってくる。
+　In her usual attire, Miu comes in punctually on-the-dot for the start of the day.
 
 @miu
 @yuzu_ikari
 
 #SCRIPT ORIGINAL 「良かった、探したのよ。みんなと一緒に行くんでしょう？」
 ＠Miu,B00214
-「良かった、探したのよ。みんなと一緒に行くんでしょう？」
+「Good, I was looking for you. You're joining everyone today, right?」
 
 #SCRIPT ORIGINAL 「う～……せっかくの休みなのに。樹先生と一緒に寝ていたい……」
 ＠Yuzu,F00061
-「う～……せっかくの休みなのに。樹先生と一緒に寝ていたい……」
+「Ugh~... but it's my break. I want to sleep together with Itsuki-sensei」
 
 #SCRIPT ORIGINAL 「休み関係なく、寝ないから」
 ＠Itsuki
-「休み関係なく、寝ないから」
+「We won't be doing that, break or not」
 
 #SCRIPT ORIGINAL 「……で、一緒に行くってのは？　さっきから廊下も騒がしいけど」
 ＠Itsuki
-「……で、一緒に行くってのは？　さっきから廊下も騒がしいけど」
+「...Joining everyone, you said? I've been hearing noise from the hall」
 
 #SCRIPT ORIGINAL 「ゆずちゃん達は今日から、ラジオ体操があるんですよ」
 ＠Miu,B00215
-「ゆずちゃん達は今日から、ラジオ体操があるんですよ」
+「Yuzu-chan and the others are doing radio calisthenics from today on」
 
 #SCRIPT ORIGINAL ラジオ体操………
-ラジオ体操………
+　Radio calisthenics...
 
 #SCRIPT ORIGINAL あの夏休み恒例の、ありがた迷惑な目覚めイベントだ。
-あの夏休み恒例の、ありがた迷惑な目覚めイベントだ。
+　That unwelcome, bothersome summer event for waking up.
 
 #SCRIPT ORIGINAL 「……懐かしいな」
 ＠Itsuki
-「……懐かしいな」
+「...I missed it」
 
 #SCRIPT ORIGINAL 「前の学校じゃ、自主参加だったのに……」
 ＠Yuzu,F00062
-「前の学校じゃ、自主参加だったのに……」
+「It was voluntary participation at my last school...」
 
 @ichigo_warai
 
 #SCRIPT ORIGINAL 「ゆずーッ、あ、いたいたー♪」
 ＠Ichigo,O00392
-「ゆずーッ、あ、いたいたー♪」
+「Yuzuuー, ah, found him found him ♪」
 
 #SCRIPT ORIGINAL 「早く行かないと、出席カードに遅刻の判子を押されちゃうよ」
 ＠Ichigo,O00393
-「早く行かないと、出席カードに遅刻の判子を押されちゃうよ」
+「You better hurry up or you'll get a late sticker on your attendance card」
 
 #SCRIPT ORIGINAL 「ええ、頑張って行ってらっしゃい、ゆずちゃん」
 ＠Miu,B00216
-「ええ、頑張って行ってらっしゃい、ゆずちゃん」
+「Yes, have a good time and work hard, Yuzu-chan」
 
 @yuzu
 
 #SCRIPT ORIGINAL 「は～い……樹先生、中途半端なままですみません……」
 ＠Yuzu,F00063
-「は～い……樹先生、中途半端なままですみません……」
+「Fine～... Itsuki-sensei, sorry for leaving halfway through...」
 
 #SCRIPT ORIGINAL 「いや、まだ何もしてないし………」
 ＠Itsuki
-「いや、まだ何もしてないし………」
+「Uh no, we haven't done anything yet...」
 
 #SCRIPT ORIGINAL 「してないよな……？」
 ＠Itsuki
-「してないよな……？」
+「Right...?」
 
 #SCRIPT ORIGINAL 「それじゃパパ、行ってきまーす！」
 ＠Ichigo,O00394
-「それじゃパパ、行ってきまーす！」
+「Well then Papa, we'll be off!」
 
 @yuzu_warai
 
 #SCRIPT ORIGINAL 「行ってきます、樹先生♪」
 ＠Yuzu,F00064
-「行ってきます、樹先生♪」
+「See you, Itsuki-sensei♪」
 
 @yuzu_
 @ichigo_
 
 #SCRIPT ORIGINAL 二人して部屋を後にする。
-二人して部屋を後にする。
+　The both of them left the room.
 
 #SCRIPT ORIGINAL やがて玄関で他の子の声も聞こえると、すぐ外出していった。
-やがて玄関で他の子の声も聞こえると、すぐ外出していった。
+　Before long I heard the other kids' voices at the entrance, and they left.
 
 #SCRIPT ORIGINAL （……何も無い、と信じておこう）
 ＠Itsuki
-（……何も無い、と信じておこう）
+（...I'll just believe nothing happened）
 
 #SCRIPT ORIGINAL 「樹さんも起きられますか？」
 ＠Miu,B00217
-「樹さんも起きられますか？」
+「Did you get woken up, Itsuki-san?」
 
 #SCRIPT ORIGINAL 「ああ。子供達が早起きしてるのに、オレが寝てたら示しがつかないしな」
 ＠Itsuki
-「ああ。子供達が早起きしてるのに、オレが寝てたら示しがつかないしな」
+「Yeah. I'd set a bad example if I wake up late while the kids are up early, anyway」
 
 #SCRIPT ORIGINAL 「それでは、すぐ朝ごはんの用意をしてしまいますね」
 ＠Miu,B00218
-「それでは、すぐ朝ごはんの用意をしてしまいますね」
+「In that case, I'll have to get to preparing breakfast」
 
 @miu_
 #SE07　部屋のドア閉まる音（パタン）
@@ -225,14 +226,14 @@ wait	1000
 
 #SCRIPT ORIGINAL 「ラジオ体操か……」
 ＠Itsuki
-「ラジオ体操か……」
+「Radio calisthenics, huh...」
 
 #SCRIPT ORIGINAL 「体操は無理でも、オレもみんなに倣って早起きくらいはしておかないとな」
 ＠Itsuki
-「体操は無理でも、オレもみんなに倣って早起きくらいはしておかないとな」
+「Exercise is too much, but I should imitate them in getting up early」
 
 #SCRIPT ORIGINAL 若干の眠気を振り払い、朝の用意をし始めるのだった。
-若干の眠気を振り払い、朝の用意をし始めるのだった。
+　Shaking off a wisp of drowsiness, I began my morning routine.
 
 #（スケジュール）
 @bg_black
