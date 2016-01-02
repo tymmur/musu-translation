@@ -1,3 +1,4 @@
+#TLSTATUS: File is edited by RaurosFalls
 label	yuzu_06
 #--------------------------------------------------
 #ゆずのアプローチ１
@@ -12,22 +13,22 @@ label	yuzu_06
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL 特に急いでやることもなかったので、図書室から借りてきた本を読んでいると、ドアにノックがあった。
-特に急いでやることもなかったので、図書室から借りてきた本を読んでいると、ドアにノックがあった。
+　With no urgent matters to attend to, I was reading a book I'd taken out in the library room, when there was a knock.
 
 #SCRIPT ORIGINAL 誰だろう？
-誰だろう？
+　Who could it be?
 
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 #SCRIPT ORIGINAL オレは本に栞を挟み、部屋のドアを開ける。
-オレは本に栞を挟み、部屋のドアを開ける。
+　I put a bookmark in and go to open the door.
 
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
 
 #SCRIPT ORIGINAL 「はい」
 ＠Itsuki
-「はい」
+「Yes?」
 
 @yuzu_middle		# 中間
 @yuzu_jyosou
@@ -36,51 +37,51 @@ label	yuzu_06
 
 #SCRIPT ORIGINAL 「あ、あの、樹先生……」
 ＠Yuzu,F00394
-「あ、あの、樹先生……」
+「U-umm, Itsuki-sensei?」
 
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL ドアの外に立っていたのはゆずだった。今日は女の子の格好だ。
-ドアの外に立っていたのはゆずだった。今日は女の子の格好だ。
+　I found Yuzu standing outside. Dressed up in girl's clothes today.
 
 #SCRIPT ORIGINAL 「その……、今度は、ブラウニー焼いたんです」
 ＠Yuzu,F00395
-「その……、今度は、ブラウニー焼いたんです」
+「Er... I made some brownies this time」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「良かったら、一緒に食べませんか？」
 ＠Yuzu,F00396
-「良かったら、一緒に食べませんか？」
+「Would you like to have some together?」
 
 #SCRIPT ORIGINAL 見ると、ゆずの持ったお盆には、四角く切ったブラウニーとマグカップ、そしてティーポットが載せられている。
-見ると、ゆずの持ったお盆には、四角く切ったブラウニーとマグカップ、そしてティーポットが載せられている。
+　I see brownies cut into squares, mugs, and a teapot in the tray Yuzu is holding.
 
 #SCRIPT ORIGINAL 「お、おう。入れよ」
 ＠Itsuki
-「お、おう。入れよ」
+「S-sure. Come in」
 
 #SCRIPT ORIGINAL わざわざ持ってきてくれたのに断るわけにもいかず、オレはゆずに入室を促した。
-わざわざ持ってきてくれたのに断るわけにもいかず、オレはゆずに入室を促した。
+　I invited him in, unable to refuse him bringing it here just for me.
 
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「はいっ！」
 ＠Yuzu,F00397
-「はいっ！」
+「Great!」
 
 #CH（ゆず・女装）
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
 
 #SCRIPT ORIGINAL ゆずは嬉しそうにうなずき、オレの部屋へと入ってくる。
-ゆずは嬉しそうにうなずき、オレの部屋へと入ってくる。
+　Yuzu nods excitedly, and comes into the room with me.
 
 @bg_itsuki		# 自室
 
 #SCRIPT ORIGINAL 「それはとりあえず机に……」
 ＠Itsuki
-「それはとりあえず机に……」
+「Let's put that on the desk...」
 
 @yuzu_middle		# 中間
 @yuzu_jyosou
@@ -88,23 +89,23 @@ label	yuzu_06
 
 #SCRIPT ORIGINAL 「あ、はい」
 ＠Yuzu,F00398
-「あ、はい」
+「Ah, sure」
 
 @yuzu_
 
 #SCRIPT ORIGINAL ゆずからお盆を受け取り、オレはそれを机に置く。
-ゆずからお盆を受け取り、オレはそれを机に置く。
+　Taking the tray from Yuzu, I place it on the desk.
 
 #SCRIPT ORIGINAL 「けど、ここじゃ座るところもないからなぁ」
 ＠Itsuki
-「けど、ここじゃ座るところもないからなぁ」
+「But I don't see any seats around here」
 
 #SCRIPT ORIGINAL せっかく持ってきてくれたのに悪いが、ここは二人でお茶をしたりするには向かない部屋だ。
-せっかく持ってきてくれたのに悪いが、ここは二人でお茶をしたりするには向かない部屋だ。
+　It's a pity he went to the trouble of carrying this, when this place isn't designed for two people sipping tea.
 
 #SCRIPT ORIGINAL 「リビングにでも……」
 ＠Itsuki
-「リビングにでも……」
+「Maybe the living room would be...」
 
 #@yuzu_middle		# 中間
 @yuzu_small		# 遠い
@@ -113,7 +114,9 @@ label	yuzu_06
 
 #SCRIPT ORIGINAL 「あ、それじゃボク、座布団持ってきます！」
 ＠Yuzu,F00399
-「あ、それじゃボク、座布団持ってきます！」
+「Ah, then I'll go get a zabuton!」
+
+#TL note: A zabuton is a flat floor cushion used for sitting or kneeling, usually rectangular.
 
 window_close
 @yuzu_
@@ -122,15 +125,15 @@ wait		1000
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
 #SCRIPT ORIGINAL オレは提案しかけるが、ゆずは慌てて外に飛び出して行ってしまった。
-オレは提案しかけるが、ゆずは慌てて外に飛び出して行ってしまった。
+　I'm about to give my proposal, but Yuzu hurriedly dashed outside.
 
 se_stop		0
 
 #SCRIPT ORIGINAL まあ、リビングとかで食べていると、またいちごあたりに気づかれそうだからな……。
-まあ、リビングとかで食べていると、またいちごあたりに気づかれそうだからな……。
+　Anyway, we'd be found out by Ichigo or someone again, eating in the living room...
 
 #SCRIPT ORIGINAL ゆずはやっぱり、オレと二人が良かったのだろうか？
-ゆずはやっぱり、オレと二人が良かったのだろうか？
+　Yuzu would prefer it if it's just the two of us, I guess.
 
 #■BG（黒）
 #■BG（樹の部屋）
@@ -139,10 +142,10 @@ wait		1000
 @bg_itsuki		# 自室
 
 #SCRIPT ORIGINAL すぐにゆずは、２枚の座布団を持って戻ってきた。
-すぐにゆずは、２枚の座布団を持って戻ってきた。
+　Yuzu was back soon bringing 2 zabutons with him.
 
 #SCRIPT ORIGINAL 座布団というか、洋風な丸いクッションだけど……。
-座布団というか、洋風な丸いクッションだけど……。
+　It's more of a Western-style round cushion than a zabuton, though...
 
 #@yuzu_middle		# 中間
 @yuzu_small		# 遠い
@@ -151,37 +154,37 @@ wait		1000
 
 #SCRIPT ORIGINAL 「樹先生も、どうぞ」
 ＠Yuzu,F00400
-「樹先生も、どうぞ」
+「Here you go, Itsuki-sensei」
 
 #SCRIPT ORIGINAL ゆずは１枚をオレに差し出し、オレはそれを受け取る。
-ゆずは１枚をオレに差し出し、オレはそれを受け取る。
+　Yuzu offers one of them to me and I take it.
 
 #SCRIPT ORIGINAL オレはそのピンクのクッションを床に置き、それから机の上のお盆を持ち上げた。
-オレはそのピンクのクッションを床に置き、それから机の上のお盆を持ち上げた。
+　I place the pink cushion on the floor, and then picked the tray up off the desk.
 
 #SCRIPT ORIGINAL 「これも床でいいか？」
 ＠Itsuki
-「これも床でいいか？」
+「I'll put this on the floor too?」
 
 #SCRIPT ORIGINAL っていうか、まあそうするしかないんだけど。
-っていうか、まあそうするしかないんだけど。
+　Actually, there's not much of a choice.
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「あ、はい」
 ＠Yuzu,F00401
-「あ、はい」
+「Ah, sure」
 
 @yuzu_
 
 #SCRIPT ORIGINAL ゆずは自分のぶんのクッションを床に置いて、そこにぺたんこ座りする。
-ゆずは自分のぶんのクッションを床に置いて、そこにぺたんこ座りする。
+　Yuzu places his cushion on the floor as well and sits on it with a squish.
 
 #SCRIPT ORIGINAL 座るときにスカートを押さえるしぐさも女の子っぽい。
-座るときにスカートを押さえるしぐさも女の子っぽい。
+　The way he presses his skirt down when sitting down is very girly.
 
 #SCRIPT ORIGINAL お盆をゆずの前に置いて、オレもクッションにあぐらをかいた。
-お盆をゆずの前に置いて、オレもクッションにあぐらをかいた。
+　I place the tray in front of Yuzu and sit down cross-legged on the cushion.
 
 @yuzu_middle		# 中間
 @yuzu_jyosou
@@ -189,85 +192,85 @@ wait		1000
 
 #SCRIPT ORIGINAL 「今入れますね」
 ＠Yuzu,F00402
-「今入れますね」
+「I'll pour some now」
 
 #SCRIPT ORIGINAL ゆずはティーポットを持ち、フタを押さえながらマグカップに紅茶を注いでいく。
-ゆずはティーポットを持ち、フタを押さえながらマグカップに紅茶を注いでいく。
+　Yuzu holds the teapot, and pours the black tea into the mug while keeping the lid capped. 
 
 #SCRIPT ORIGINAL 「今日はマグカップなんだな」
 ＠Itsuki
-「今日はマグカップなんだな」
+「For today we've got mugs, huh」
 
 #SCRIPT ORIGINAL たしか、この前のときはちゃんとしたティーカップを使ったはずだ。
-たしか、この前のときはちゃんとしたティーカップを使ったはずだ。
+　If I remember correctly, we used tried and true teacups last time.
 
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「キッチンのを勝手に持ってきたら悪いかなと思って」
 ＠Yuzu,F00403
-「キッチンのを勝手に持ってきたら悪いかなと思って」
+「It doesn't feel right just taking the ones in the kitchen away」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「これは両方ともボクのなんです」
 ＠Yuzu,F00404
-「これは両方ともボクのなんです」
+「Both of these are mine」
 
 #SCRIPT ORIGINAL オレのぶんを注ぎ終わり、ゆずはもう一つのカップに移った。
-オレのぶんを注ぎ終わり、ゆずはもう一つのカップに移った。
+　Having finished pouring mine, Yuzu moved to the other cup.
 
 @yuzu_kanashimi		#哀
 
 #SCRIPT ORIGINAL 「……すみません、急に来ちゃって」
 ＠Yuzu,F00405
-「……すみません、急に来ちゃって」
+「...Sorry for coming out of the blue」
 
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「お仕事中でしたか？」
 ＠Yuzu,F00406
-「お仕事中でしたか？」
+「Were you busy with something?」
 
 #SCRIPT ORIGINAL 紅茶を注ぎながら、ゆずは尋ねる。
-紅茶を注ぎながら、ゆずは尋ねる。
+　Yuzu inquires as he pours tea.
 
 #SCRIPT ORIGINAL 「いや、大丈夫。今はちょうどヒマだったんだ」
 ＠Itsuki
-「いや、大丈夫。今はちょうどヒマだったんだ」
+「Nah, no worries. I was just free now」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「ホントですか？　良かった」
 ＠Yuzu,F00407
-「ホントですか？　良かった」
+「Really? That's good」
 
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「それじゃ、いただきましょうか」
 ＠Yuzu,F00408
-「それじゃ、いただきましょうか」
+「Alright, shall we partake?」
 
 #SCRIPT ORIGINAL 「そうだな」
 ＠Itsuki
-「そうだな」
+「Sounds good」
 
 @yuzu_
 
 #SCRIPT ORIGINAL ゆずはティーポットを置き、オレはブラウニーを一つ手に取った。
-ゆずはティーポットを置き、オレはブラウニーを一つ手に取った。
+　Yuzu put aside the teapot as I picked up a brownie.
 
 #SCRIPT ORIGINAL お酒じゃないから乾杯もないし、オレはブラウニーを口に運ぶ。
-お酒じゃないから乾杯もないし、オレはブラウニーを口に運ぶ。
+　No toasting or ceremony required, I pop it in my mouth.
 
 #SCRIPT ORIGINAL 「……そんなに甘くないんだな」
 ＠Itsuki
-「……そんなに甘くないんだな」
+「...They're not too sweet」
 
 #SCRIPT ORIGINAL もっと甘いものだという印象があったけれど、それほどでもなかった。
-もっと甘いものだという印象があったけれど、それほどでもなかった。
+　It fell short of the sweetness I'd gauged from their appearance.
 
 #SCRIPT ORIGINAL なんとなくビターチョコレート風味だ。
-なんとなくビターチョコレート風味だ。
+　It has something of a bitter chocolate flavour.
 
 @yuzu_middle		# 中間
 @yuzu_jyosou
@@ -275,219 +278,219 @@ wait		1000
 
 #SCRIPT ORIGINAL 「一応、樹先生の好みに合わせて砂糖を減らしてみました」
 ＠Yuzu,F00409
-「一応、樹先生の好みに合わせて砂糖を減らしてみました」
+「I made it to match up to Itsuki-sensei's tastes, by adding less sugar」
 
 #SCRIPT ORIGINAL 「気が利くなあ」
 ＠Itsuki
-「気が利くなあ」
+「How thoughtful」
 
 #SCRIPT ORIGINAL ありがたいはありがたいんだけど、やっぱりゆずのヤツ、相当オレを気に入ってるよな……。
-ありがたいはありがたいんだけど、やっぱりゆずのヤツ、相当オレを気に入ってるよな……。
+　I'm thankful for sure, but it's just like Yuzu to look after me, after all...
 
 #SCRIPT ORIGINAL それに関しては、ちょっと複雑な気分だ。
-それに関しては、ちょっと複雑な気分だ。
+　With respect to that, my feelings are a bit mixed.
 
 #SCRIPT ORIGINAL 「紅茶ももらうぞ」
 ＠Itsuki
-「紅茶ももらうぞ」
+「I'll have some tea too」
 
 #SCRIPT ORIGINAL オレはマグカップを手に取り、紅茶を一口。
-オレはマグカップを手に取り、紅茶を一口。
+　I pick up the mug and take a sip of tea.
 
 #SCRIPT ORIGINAL 茶葉自体がいいものだというのもあるが、こっちもなかなかの味だ。
-茶葉自体がいいものだというのもあるが、こっちもなかなかの味だ。
+　The tea leaf itself is said to be good stuff, but this smacks of flavour too.
 
 #SCRIPT ORIGINAL 「それにしても、今日はどうしたんだ、突然？」
 ＠Itsuki
-「それにしても、今日はどうしたんだ、突然？」
+「All said, why today, out of the blue?」
 
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「あ、いえ、特に理由はないんですけど……」
 ＠Yuzu,F00410
-「あ、いえ、特に理由はないんですけど……」
+「Ah, no, I don't have any real reason...」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「やっぱりお菓子とか作るの楽しいですし、ボクもヒマでしたから」
 ＠Yuzu,F00411
-「やっぱりお菓子とか作るの楽しいですし、ボクもヒマでしたから」
+「I like making treats and stuff, I guess. And I had free time」
 
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「また樹先生に食べてもらえたら、って思って」
 ＠Yuzu,F00412
-「また樹先生に食べてもらえたら、って思って」
+「I thought, "what if Itsuki-sensei would like some again?"」
 
 #SCRIPT ORIGINAL そう言ってゆずは頬を桜色に染め、目を伏せる。
-そう言ってゆずは頬を桜色に染め、目を伏せる。
+　So saying, Yuzu blushes bright red, and casts his eyes down.
 
 #SCRIPT ORIGINAL う、うーん……。
-う、うーん……。
+　H-hmm...
 
 #SCRIPT ORIGINAL 女の子に言われたら嬉しいのかもしれないが、やっぱり微妙だ。
-女の子に言われたら嬉しいのかもしれないが、やっぱり微妙だ。
+　I may be happy about it I girl told me, but it's dodgy and all.
 
 #SCRIPT ORIGINAL ゆずも可愛いんだけど。可愛いんだけど……。
-ゆずも可愛いんだけど。可愛いんだけど……。
+　Yuzu's cute too, but... he's cute but...
 
 #SCRIPT ORIGINAL でもまあ、ゆずだって心は女の子なんだよな。
-でもまあ、ゆずだって心は女の子なんだよな。
+　I suppose, he does have the heart of a girl.
 
 #SCRIPT ORIGINAL そう思うことにしよう……。
-そう思うことにしよう……。
+　I'll try and think that way...
 
 #SCRIPT ORIGINAL 「ま、まあ、食べるぐらいなら任せてくれ」
 ＠Itsuki
-「ま、まあ、食べるぐらいなら任せてくれ」
+「W-well, if it's just having food, you can count on me」
 
 #SCRIPT ORIGINAL とりあえず、そんな曖昧な反応をするしかない。
-とりあえず、そんな曖昧な反応をするしかない。
+　At the moment, I can't muster up more of a reply than that.
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「はい。樹先生に喜んでもらえるなら、いくらでも作りますよ」
 ＠Yuzu,F00413
-「はい。樹先生に喜んでもらえるなら、いくらでも作りますよ」
+「Great. If it so pleases you Itsuki-sensei, I'll make it whenever you like」
 
 #SCRIPT ORIGINAL 「そ、そうか……」
 ＠Itsuki
-「そ、そうか……」
+「T-that so...?」
 
 #SCRIPT ORIGINAL オレは再び紅茶を飲み、なんとなくそのマグカップに目をやった。
-オレは再び紅茶を飲み、なんとなくそのマグカップに目をやった。
+　Taking another draught of tea, my gaze is drawn to the mug.
 
 #SCRIPT ORIGINAL マグカップには、女の子に人気な某遊園地でおなじみの、ネズミのキャラクターが描かれている。
-マグカップには、女の子に人気な某遊園地でおなじみの、ネズミのキャラクターが描かれている。
+　There is drawn a familiar mouse from a certain amusement park, popular among girls.
 
 #SCRIPT ORIGINAL 「こんなところまで女の子らしいんだな、ゆずは」
 ＠Itsuki
-「こんなところまで女の子らしいんだな、ゆずは」
+「You're girly down to the smallest detail, Yuzu」
 
 #@yuzu			#普
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「え？　あはは、だいぶ前に買ったヤツですけど」
 ＠Yuzu,F00414
-「え？　あはは、だいぶ前に買ったヤツですけど」
+「Eh? Ahaha, I bought that a while ago though」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「……でも、やっぱり好きな人とネズミーランドに行くのって、憧れますよ」
 ＠Yuzu,F00415
-「……でも、やっぱり好きな人とネズミーランドに行くのって、憧れますよ」
+「...But I sure long for going to DisXeyland with the one I love」
 
 #SCRIPT ORIGINAL 少し頬を染めながら、ゆずは上目遣いでオレを見つめる。
-少し頬を染めながら、ゆずは上目遣いでオレを見つめる。
+　Blushing slightly, Yuzu gives me the cutesy eyes.
 
 #SCRIPT ORIGINAL 「そ、そうか……」
 ＠Itsuki
-「そ、そうか……」
+「T-that so...」
 
 #SCRIPT ORIGINAL もしかして、誘ってほしいのか……？
-もしかして、誘ってほしいのか……？
+　Would he like it if I invited him...?
 
 #SCRIPT ORIGINAL とはいえ、さすがに今そこまでする義理はないよな。
-とはいえ、さすがに今そこまでする義理はないよな。
+　Either way, I don't have a duty to do that just yet.
 
 #SCRIPT ORIGINAL とりあえずオレは、それ以上答えずにブラウニーをかじる。
-とりあえずオレは、それ以上答えずにブラウニーをかじる。
+　For now, I nibble on a brownie without much of a reply.
 
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「やっぱり、デートの定番じゃないですか」
 ＠Yuzu,F00416
-「やっぱり、デートの定番じゃないですか」
+「That's a great place for a date, isn't it?」
 
 #SCRIPT ORIGINAL ゆずはさらにその話を引っ張った。
-ゆずはさらにその話を引っ張った。
+　Yuzu went out further on the tangent.
 
 #SCRIPT ORIGINAL 「女の子の憧れですよね」
 ＠Yuzu,F00417
-「女の子の憧れですよね」
+「It's a girl's dream come true, right?」
 
 #SCRIPT ORIGINAL この前の話もあるので、お前は女の子じゃないだろう、とはさすがに言えない。
-この前の話もあるので、お前は女の子じゃないだろう、とはさすがに言えない。
+　From our previous conversation, I couldn't bring myself to say he's not a girl.
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「そうだ樹先生、ネズミーランドって自販機が１個もないらしいんですよ。知ってました？」
 ＠Yuzu,F00418
-「そうだ樹先生、ネズミーランドって自販機が１個もないらしいんですよ。知ってました？」
+「Oh right, Itsuki-sensei. Did you know that there's no vending machines in DisXeyland?」
 
 #SCRIPT ORIGINAL 「いや、初耳だ」
 ＠Itsuki
-「いや、初耳だ」
+「No, never heard」
 
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「お客様との生のコミュニケーションのためにそうしてるらしいです」
 ＠Yuzu,F00419
-「お客様との生のコミュニケーションのためにそうしてるらしいです」
+「I heard it's so they can communicate with people face-to-face」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「すごくないですか？」
 ＠Yuzu,F00420
-「すごくないですか？」
+「Don't you think it's great?」
 
 #SCRIPT ORIGINAL 「まあ、いろんな意味でいろんなことが徹底してる場所らしいからなー」
 ＠Itsuki
-「まあ、いろんな意味でいろんなことが徹底してる場所らしいからなー」
+「Well, it certainly is a thorough and well-put-together place」
 
 #SCRIPT ORIGINAL 着ぐるみの中に人が入っていないと言い張って、生のコミュニケーションもない気がするが……。
-着ぐるみの中に人が入っていないと言い張って、生のコミュニケーションもない気がするが……。
+　Claiming there's no one inside the costumes, the face-to-face communication point goes beyond me...
 
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「あと、室内コースターにはデブコースというのがあるらしいです」
 ＠Yuzu,F00421
-「あと、室内コースターにはデブコースというのがあるらしいです」
+「Also, I heard there's a "heavy course" for the indoor roller coaster」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「乗ってる人の合計体重がオーバーすると、途中で違うコースになるとか」
 ＠Yuzu,F00422
-「乗ってる人の合計体重がオーバーすると、途中で違うコースになるとか」
+「It switches to another course, when the total weight of people riding goes over a threshold」
 
 #SCRIPT ORIGINAL 「それは全然すごくないな」
 ＠Itsuki
-「それは全然すごくないな」
+「That's not great at all」
 
 #SCRIPT ORIGINAL 少なくとも夢のある話ではない。というか信憑性もないし。
-少なくとも夢のある話ではない。というか信憑性もないし。
+　It's just not a worthwhile dream. It lacks in the authenticity department.
 
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「はぁ～、行きたいな～、ネズミーランド」
 ＠Yuzu,F00423
-「はぁ～、行きたいな～、ネズミーランド」
+「Sigh～, I wanna go～, DisXeyland」
 
 #SCRIPT ORIGINAL 「そ、そうか」
 ＠Itsuki
-「そ、そうか」
+「Y-you do?」
 
 #SCRIPT ORIGINAL うーん、やっぱり誘ってほしいみたいだな……。
-うーん、やっぱり誘ってほしいみたいだな……。
+　Hmm, he really does want me to invite him there, I guess...
 
 #SCRIPT ORIGINAL とはいえ、誘う理由もないし、誘わなくてはいけない理由もない。
-とはいえ、誘う理由もないし、誘わなくてはいけない理由もない。
+　In any case, it doesn't make much of a difference either way.
 
 #SCRIPT ORIGINAL 「ま、いつか行けるといいな、みんなで」
 ＠Itsuki
-「ま、いつか行けるといいな、みんなで」
+「Maybe we can go there one day, all of us」
 
 #SCRIPT ORIGINAL オレは適当にごまかした。
-オレは適当にごまかした。
+　I expertly evaded the question.
 
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「そ、そうですね……」
 ＠Yuzu,F00424
-「そ、そうですね……」
+「I-I guess you're right...」
 
 #SCRIPT ORIGINAL ゆずは少し残念そうにため息をついた。
-ゆずは少し残念そうにため息をついた。
+　Yuzu sighed a little bit disappointed.
 
 #■BG（黒）
 bgm_stop
