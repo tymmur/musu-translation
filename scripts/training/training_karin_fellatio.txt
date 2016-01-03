@@ -20,7 +20,9 @@ if skip_untranslated_training=1 then return
 t_karin_fera_cnt=t_karin_fera_cnt+1
 
 #SCRIPT IGNORE
-activity_count=t_karin_fera_cnt
+# Give Karin 50% discount until she has unlocked level 2 service. Even with discount, she is still more expensive than the others
+activity_count=t_karin_fera_cnt-4
+if t_karin_fera_cnt<8 then activity_count=t_karin_fera_cnt/2
 gosub training_stat_handle_oral
 @training_karin_load
 return

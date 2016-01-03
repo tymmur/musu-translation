@@ -18,14 +18,18 @@ gain_kokoro=5
 gain_miryoku=10
 loss_tairyoku=30
 loss_seishin=40
+loss_tairyoku_fixed=0
+loss_seishin_fixed=0
 goto training_stat_update_bars
 
 label training_stat_handle_insert
 gain_karada=10
-gain_kokoro=0
+gain_kokoro=5
 gain_miryoku=20
 loss_tairyoku=40
 loss_seishin=30
+loss_tairyoku_fixed=30
+loss_seishin_fixed=30
 goto training_stat_update_bars
 
 label training_stat_handle_anal
@@ -33,69 +37,83 @@ label training_stat_handle_anal
 # Mikan 10, 0, 20, 70, 90
 # Karin 0, 30, 10, 45, 60
 gain_karada=10
-gain_kokoro=0
-gain_miryoku=20
-loss_tairyoku=70
-loss_seishin=90
+gain_kokoro=2
+gain_miryoku=30
+loss_tairyoku=50
+loss_seishin=40
+loss_tairyoku_fixed=30
+loss_seishin_fixed=50
 goto training_stat_update_bars
 
 label training_stat_handle_vibrator
 # Ichigo 3, 5, 10, 30, 40 (copy paste of oral)
 # Mikan 10, 0, 20, 90, 60
 # Karin 30, 0, 10, 60, 45
-gain_karada=10
-gain_kokoro=0
-gain_miryoku=20
-loss_tairyoku=90
-loss_seishin=60
+gain_karada=15
+gain_kokoro=7
+gain_miryoku=28
+loss_tairyoku=50
+loss_seishin=40
+loss_tairyoku_fixed=50
+loss_seishin_fixed=25
 goto training_stat_update_bars
 
 # the rest aren't available to all girls
 
 label training_stat_handle_anal_beads
 # Mikan only 10, 0, 20, 60, 80
-gain_karada=10
-gain_kokoro=0
-gain_miryoku=20
-loss_tairyoku=60
-loss_seishin=80
+gain_karada=30
+gain_kokoro=8
+gain_miryoku=25
+loss_tairyoku=50
+loss_seishin=60
+loss_tairyoku_fixed=50
+loss_seishin_fixed=40
 goto training_stat_update_bars
 
 label training_stat_handle_anal_vibrator
 # Ichigo 3, 5, 10, 30, 40 (copy paste of oral)
 # Karin 0, 30, 10, 45, 60 (copy paste of anal)
-gain_karada=0
-gain_kokoro=30
-gain_miryoku=10
+gain_karada=25
+gain_kokoro=11
+gain_miryoku=25
 loss_tairyoku=45
 loss_seishin=60
+loss_tairyoku_fixed=50
+loss_seishin_fixed=40
 goto training_stat_update_bars
 
 label training_stat_handle_facemask
 # Karin 15, 25, 30, 200, 300
-gain_karada=15
-gain_kokoro=25
-gain_miryoku=30
-loss_tairyoku=200
-loss_seishin=300
+gain_karada=30
+gain_kokoro=40
+gain_miryoku=80
+loss_tairyoku=100
+loss_seishin=100
+loss_tairyoku_fixed=250
+loss_seishin_fixed=300
 goto training_stat_update_bars
 
 label training_stat_handle_anal_expansion
 # Mikan 10, 20, 40, 600, 500
-gain_karada=10
-gain_kokoro=20
-gain_miryoku=40
-loss_tairyoku=600
-loss_seishin=500
+gain_karada=35
+gain_kokoro=40
+gain_miryoku=80
+loss_tairyoku=80
+loss_seishin=80
+loss_tairyoku_fixed=250
+loss_seishin_fixed=300
 goto training_stat_update_bars
 
 label training_stat_handle_video
 # Karin 15, 25, 30, 300, 400
 gain_karada=15
 gain_kokoro=25
-gain_miryoku=30
-loss_tairyoku=300
-loss_seishin=400
+gain_miryoku=50
+loss_tairyoku=60
+loss_seishin=75
+loss_tairyoku_fixed=125
+loss_seishin_fixed=125
 goto training_stat_update_bars
 
 label training_stat_handle_swinsuit
@@ -103,37 +121,45 @@ label training_stat_handle_swinsuit
 gain_karada=15
 gain_kokoro=25
 gain_miryoku=35
-loss_tairyoku=500
-loss_seishin=500
+loss_tairyoku=60
+loss_seishin=50
+loss_tairyoku_fixed=125
+loss_seishin_fixed=125
 goto training_stat_update_bars
 
 # spanking
 
 label training_stat_handle_spank
 activity_count=1
-gain_karada=1
-gain_kokoro=0
-gain_miryoku=1
+gain_karada=3
+gain_kokoro=1
+gain_miryoku=2
 loss_tairyoku=13
-loss_seishin=25
+loss_seishin=20
+loss_tairyoku_fixed=0
+loss_seishin_fixed=0
 goto training_stat_update_bars
 
 label training_stat_handle_whip
 activity_count=1
-gain_karada=2
-gain_kokoro=0
-gain_miryoku=2
+gain_karada=5
+gain_kokoro=1
+gain_miryoku=4
 loss_tairyoku=35
 loss_seishin=20
+loss_tairyoku_fixed=0
+loss_seishin_fixed=0
 goto training_stat_update_bars
 
 label training_stat_handle_candle
 activity_count=1
-gain_karada=3
-gain_kokoro=0
-gain_miryoku=3
-loss_tairyoku=35
+gain_karada=0
+gain_kokoro=5
+gain_miryoku=5
+loss_tairyoku=20
 loss_seishin=20
+loss_tairyoku_fixed=0
+loss_seishin_fixed=0
 goto training_stat_update_bars
 
 
@@ -147,6 +173,8 @@ gain_kokoro=0
 gain_miryoku=0
 loss_tairyoku=10
 loss_seishin=15
+loss_tairyoku_fixed=0
+loss_seishin_fixed=0
 goto training_stat_update_bars
 
 label training_stat_handle_motion_normal
@@ -157,6 +185,8 @@ gain_kokoro=0
 gain_miryoku=0
 loss_tairyoku=3
 loss_seishin=5
+loss_tairyoku_fixed=0
+loss_seishin_fixed=0
 goto training_stat_update_bars
 
 label training_stat_handle_motion_pain
@@ -167,6 +197,8 @@ gain_kokoro=0
 gain_miryoku=0
 loss_tairyoku=3
 loss_seishin=5
+loss_tairyoku_fixed=0
+loss_seishin_fixed=0
 goto training_stat_update_bars
 
 
@@ -177,6 +209,8 @@ add_kokoro=add_kokoro+gain_kokoro*activity_count
 add_miryoku=add_miryoku+gain_miryoku*activity_count
 tairyoku=tairyoku-loss_tairyoku*activity_count
 seishin=seishin-loss_seishin*activity_count
+tairyoku=tairyoku-loss_tairyoku_fixed
+seishin=seishin-loss_seishin_fixed
 lifebar_setauto	life_tairyoku,tairyoku
 lifebar_setauto	life_seishin,seishin
 
