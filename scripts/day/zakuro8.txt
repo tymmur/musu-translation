@@ -11,7 +11,7 @@ label	zakuro_08
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL その日、商店街でざくろとばったり出会った。
-　That day, I unexpectedly bet Zakuro in the shopping district.
+　One day, I bumped into Zakuro in the shopping district.
 
 #@zakuro_small
 @zakuro_middle		# 中間
@@ -21,12 +21,12 @@ label	zakuro_08
 #＠ざくろ,Q01485
 #SCRIPT ORIGINAL 「あ、つっちー見つけた」
 ＠Zakuro,Q01485
-「Ah, found you Tsuchii.」
+「Ah, Tsu-chi sighted」
 
 #＠樹
 #SCRIPT ORIGINAL 「ざくろ、一人で買い物か？」
 ＠Itsuki
-「Zakuro, were you shopping by yourself?」
+「Shopping by yourself, Zakuro?」
 
 #///////////////////////////////////////////////////////
 #演：うなずき
@@ -39,42 +39,42 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠ざくろ,Q01486
 #SCRIPT ORIGINAL 「そう、ちょっと空き時間ができたから」
 ＠Zakuro,Q01486
-「Yup, I had some free time.」
+「Yeah, since I had some free time」
 
 #SCRIPT ORIGINAL そう言ったざくろは、大きな紙袋を抱えている。
-　Zakuro said that and held a large paper bag under her arm.
+　So saying, Zakuro's carrying a large paper bag.
 
 #＠樹
 #SCRIPT ORIGINAL 「何をそんなに買ったんだ？　……って聞くまでもないか。また青ノリか」
 ＠Itsuki
-「What did you buy that's so big? ......Wait, I don't need to ask. Is it aonori again?」
+「That's a lot of stuff... wait, I don't need to ask. Aonori again, is it?」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01487
 #SCRIPT ORIGINAL 「うん。青ノリ分が不足したから、大量補給」
 ＠Zakuro,Q01487
-「Yup. There was not enough aonori, so I bought a large supply.」
+「Yup. We were running out of Aonori, so I got a big supply」
 
 #＠樹
 #SCRIPT ORIGINAL 「しかし多いな」
 ＠Itsuki
-「But that's a lot.」
+「That sure is a lot, though」
 
 @zakuro_niko		#にこ
 
 #＠ざくろ,Q01488
 #SCRIPT ORIGINAL 「いつも買ってるのの他に、今日はちょっと吉野川産のと、四万十川産のも奮発してみた。すごい楽しみ」
 ＠Zakuro,Q01488
-「It's different from what I usually buy. Today I tried splurging on buying Yoshinokawa and Shimantogawa ones. I'm looking forward to it.」 *(note, check with the audio if the names are right)
+「Besides the usual one I buy, today I splurged on Yoshino and Shimanto river produce. I can't wait」
 
 #SCRIPT ORIGINAL 袋をのぞき込んでニコニコしている。
-　She peeked inside her bag and smiled.
+　She peeked inside the bag and grinned.
 
 #＠樹
 #SCRIPT ORIGINAL 「へえ、青ノリにどこそこ産なんてあるんだ」
 ＠Itsuki
-「Ehh, there are aonori from different places?」
+「Whoa, so Aonori has produce labels」
 
 se_bg_stop
 bgm_stop
@@ -83,21 +83,21 @@ bgm_stop
 #＠ざくろ,Q01489
 #SCRIPT ORIGINAL 「つっちー……」
 ＠Zakuro,Q01489
-「Tsuchii.....」
+「Tsu-chi...」
 
 #SCRIPT ORIGINAL 何気なくついた言葉に、ざくろは驚愕と軽蔑が入り交じったような表情を浮かべた。
-　Zakuro made an expression with surprise and scorn mixed to those words I casually said.
+　Zakuro made a face of astonishment and disdain at my innocently spoken words.
 
 #SCRIPT ORIGINAL 「あ……ゴメン。そりゃあるよな、どこそこ産くらい」
 ＠Itsuki
-「あ……ゴメン。そりゃあるよな、どこそこ産くらい」
+「Ah... sorry. It would have them, produce labels」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01490
 #SCRIPT ORIGINAL 「あるに決まってる。つっちー、不勉強すぎ」
 ＠Zakuro,Q01490
-「It's obvious there are. Tsuchii, you're too neglective of these things.」
+「Of course it does. Tsu-chi, you're knowledge is lacking」
 
 @zakuro			#普
 @bgmk12			#BGM K12 : 興味津々のテーマ
@@ -106,27 +106,27 @@ wait		1000
 #＠ざくろ,Q01491
 #SCRIPT ORIGINAL 「青ノリには１級から５級まであるの。同じ河でとれた一番いいのが１級。でも、そもそも河ごとに味も匂いも食感も違ってる」
 ＠Zakuro,Q01491
-「Aonori has levels 1-5. Level 1 is taken from the same river and tastes the best. But from different rivers, the taste, smell, and texture are different.」
+「Aonori has ranks 1-5. The best one from a river is rank 1. But the taste, smell, and texture vary depending on the river」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01492
 #SCRIPT ORIGINAL 「全国数ある青ノリの中でも、四万十川の１級、『すじあおのり』が最高だってことは、青ノリ好きには常識」
 ＠Zakuro,Q01492
-「There are many aonoris throughout the country, but it is common sense to those who like aonori that Shimantogawa's level 1 "Suji Aonori" is the best.」
+「Among the country's many Aonori, it's common knowledge for Aonori lovers that Shimantogawa's rank 1 "Suji Aonori" is the best」
 
 @zakuro_niko		#にこ
 
 #＠ざくろ,Q01493
 #SCRIPT ORIGINAL 「宝石みたいな緑で、絹糸のように細くて、口の中でさらりと溶けて味はもちろん、その香りといったら、あぁ、素敵すぎる、最高」
 ＠Zakuro,Q01493
-「Green like a jewel, thin like a silk thread, that flavor that melts immediately in your mouth, and that scent, aah, it's too lovely, it's the best.」
+「Green like a jewel, thin like a silk thread, a flavor that melts in your mouth, and the scent too... ahh, it's lovely, the best」
 
 #SCRIPT ORIGINAL 道の真ん中でうっとりと目を細めるざくろ。
-　Zakuro smiles absentmindedly in the middle of the road.
+　Zakuro smiles absentmindedly in the middle of the street.
 
 #SCRIPT ORIGINAL このまま歌でも歌い始めそうだ。
-　Like this it seems like she is about to start singing or something.
+　Looking like she might just start singing or something.
 
 window_close
 @zakuro_
@@ -148,21 +148,21 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠ざくろ,Q01494
 #SCRIPT ORIGINAL 「諸君、私は青ノリが好き。諸君、私は青ノリが大好き」
 ＠Zakuro,Q01494
-「Ladies and Gentlemen, I like aonori. Ladies and Gentlemen, I love aonori.」
+「Gentlemen, I like Aonori. Ladies, I love aonori」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01495
 #SCRIPT ORIGINAL 「すじあおのりが好き、ひらあおのりが好き、ぼうあおのりが好き、うすばあおのりが好き、あなあおさが好き、おおあおさが好き」
 ＠Zakuro,Q01495
-「I like Suji Aonori, I like Hira Aonori, I like Bou Aonori, I like Usuba Aonori, I like Ana Aonori, I like Oo Aonori.」
+「I like Suji Aonori, I like Hira Aonori, I like Bou Aonori, I like Usuba Aonori, I like Ana Aonori, I like Oo Aonori」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01496
 #SCRIPT ORIGINAL 「ご飯で、焼き肉で、お刺身で、卵焼きで、カツ丼で、天ぷらで、肉じゃがで、焼き魚で、お好み焼きで、焼きそばで」
 ＠Zakuro,Q01496
-「On rice, on yakiniku, on omelet, on katsudon, on tempura, on nikujaga, on yakizakana, on okonomiyaki, on yakisoba.」
+「On rice, on yakiniku, on omelet, on katsudon, on tempura, on nikujaga, on yakizakana, on okonomiyaki, on yakisoba」
 
 #注：ちょっと試しにやってみた
 @bg_sky			# 空
@@ -172,21 +172,21 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠ざくろ,Q01497
 #SCRIPT ORIGINAL 「この地上で振りかけられる、ありとあらゆる青ノリが大好き」
 ＠Zakuro,Q01497
-「I love every single aonori sprinkled on this earth.」
+「I love every single Aonori sprinkled on this Earth」
 
 #＠樹
 #SCRIPT ORIGINAL 「ちょ、ちょ、ちょっと待て待て、ざくろ！」
 ＠Itsuki
-「Wa, wai, wait wait wait, Zakuro!」
+「Ack, wai-, wait wait, hold it, Zakuro!」
 
 bgm_stop
 @bg_black
 
 #SCRIPT ORIGINAL 歌どころか演説を始めたざくろを慌てて制止する。
-　The song In a panic, I try to silence Zakuro, whose song was more like a speech.
+　Flustered, I contain Zakuro in her unsung address she started.
 
 #SCRIPT ORIGINAL どこの少佐だ、お前は。
-　What lieutenant commander are you?
+　What kind of a lieutenant are you?
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
