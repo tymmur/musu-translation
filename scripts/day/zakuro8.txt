@@ -1,3 +1,4 @@
+#TLSTATUS: File is edited by RaurosFalls
 label	zakuro_08
 
 #--------------------------------------------------
@@ -654,19 +655,23 @@ wait		1000
 「Huh? For what?」
 
 #SCRIPT ORIGINAL いつになく神妙な声にざくろを見ると、少し俯いた顔で、
-　I looked at Zakuro who spoke in an unusually meek voice, and her head hung low,
+　I looked at Zakuro who spoke in an unusually meek voice, head hung low...
+
+#　I looked at Zakuro who spoke in an unusually meek voice, and her head hung low,
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01519
 #SCRIPT ORIGINAL 「全然聞かなくていいこと聞いた。私らしくない。反省」
 ＠Zakuro,Q01519
-「I asked something that would be better off not asking. That's not like me. I'm reflecting on it.」
+「I asked you something I shouldn’t have. I know better than that. Sorry」
+
+#「I asked something that would be better off not asking. That's not like me. I'm reflecting on it.」
 
 #＠樹
 #SCRIPT ORIGINAL 「気にするな。大したことじゃない」
 ＠Itsuki
-「Don't worry about it. It's not a big deal.」
+「Don't worry about it. It's not a big deal」
 
 #///////////////////////////////////////////////////////
 #演：うなずき
@@ -679,65 +684,75 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠ざくろ,Q01520
 #SCRIPT ORIGINAL 「…………うん」
 ＠Zakuro,Q01520
-「............Okay.」
+「...Okay」
 
 @zakuro_
 
 #SCRIPT ORIGINAL ざくろはコクンと頷き、それからしばらく無言のまま歩き続ける。
-　Zakuro nodded deeply, then for a while we continued walking silently.
+　Zakuro nodded, and we continued walking in silence for a while.
+
+#Zakuro nodded deeply, then for a while we continued walking silently.
 
 #＠ざくろ,Q01521
 #SCRIPT ORIGINAL 「つっちー」
 ＠Zakuro,Q01521
-「Tsucchii.」
+「Tsu-chi」
 
 #＠樹
 #SCRIPT ORIGINAL 「……ん？」
 ＠Itsuki
-「......Yeah?」
+「...Hm?」
 
 #SCRIPT ORIGINAL また、前を向いたままざくろが話し始める。
-　Zakuro begins to talk again facing forward.
+　She speaks up again eyes facing forward.
+
+#Zakuro begins to talk again facing forward.
 
 #＠ざくろ,Q01522
 #SCRIPT ORIGINAL 「さっきのあれ、別に羨ましいとか、私と比べてどうとか、そういことは思ってない」
 ＠Zakuro,Q01522
-「That thing before, I wasn't really thinking that I'm jealous or how it is compared to me.」
+「What we saw there, I’m not jealous or comparing myself to that. I don’t think that way」
+
+#「That thing before, I wasn't really thinking that I'm jealous or how it is compared to me.」
 
 #＠樹
 #SCRIPT ORIGINAL 「……いいよ、その話は」
 ＠Itsuki
-「......It's okay.」
+「...It's okay, let’s put it aside」
 
 #＠ざくろ,Q01523
 #SCRIPT ORIGINAL 「ううん、言っておきたいから。聞いて」
 ＠Zakuro,Q01523
-「No, I want to say something. Listen.」
+「No, I have something to say. Listen」
 
 #＠樹
 #SCRIPT ORIGINAL 「あ、ああ……」
 ＠Itsuki
-「A, ah......」
+「O-okay...」
 
 #＠ざくろ,Q01524
 #SCRIPT ORIGINAL 「あのとき私ね、いつまで続くんだろうって思ってた」
 ＠Zakuro,Q01524
-「That time, I used to think that she would continue forever.」
+「Back there, you know? I was wondering how long it would last」
+
+#「That time, I used to think that she would continue forever.」
 
 #＠樹
 #SCRIPT ORIGINAL 「続く？　何が？」
 ＠Itsuki
-「Continue? Who?」
+「What would?」
 
 #＠ざくろ,Q01525
 #SCRIPT ORIGINAL 「あの母親が」
 ＠Zakuro,Q01525
-「That mother.」
+「The mother」
 
 #＠樹
 #SCRIPT ORIGINAL 「…………？　あの『一人でちゃんと立つまで待つ』って、ありがちなやりとりがか？」
 ＠Itsuki
-「............? That "wait until you can stand up by yourself" mother, isn't that common?」
+「...? You mean that usual “waiting until you get up by yourself” business?」
+
+#「...? That "wait until you can stand up by yourself" mother, isn't that common?」
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
@@ -746,154 +761,184 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠ざくろ,Q01526
 #SCRIPT ORIGINAL 「違う。そんな話じゃない。というか、つっちーがそんな悪意を持って見てたことに驚き」
 ＠Zakuro,Q01526
-「No. Not that. I mean, I was surprised that Tsucchii was looking at her with such ill will.」
+「No. That’s not what I mean. Actually, I’m more surprised you thought so little of that, Tsu-chi」
 
 #＠樹
 #SCRIPT ORIGINAL 「いや……別に悪意を持って見てたわけじゃないが……」
 ＠Itsuki
-「No...... I wasn't really looking at her with ill will but......」
+「No... it’s not that I thought little of it, but...」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01527
 #SCRIPT ORIGINAL 「冗談。気にしないで」
 ＠Zakuro,Q01527
-「It's a joke. Don't worry about it.」
+「Just joking. Don’t worry」
 
 #SCRIPT ORIGINAL ざくろはいつものようにくすりとも笑わずに、
-　Zakuro, like always, without even smiling,
+　Zakuro, as usual, without so much as a smirk...
+
+#　Zakuro, like always, without even smiling,
 
 @zakuro			#普
 
 #＠ざくろ,Q01528
 #SCRIPT ORIGINAL 「私が思ってたのは、あの人は今はああやってちゃんと母親をやってるけど、それがいつまで続くのかって」
 ＠Zakuro,Q01528
-「What I was thinking was, that person was being a good mother now but, how long will that continue?」
+「What’s on my mind is: she’s doing the good mother routine now, but how long will that last?」
+
+#「What I was thinking was, that person was being a good mother now but, how long will that continue?」
 
 #＠樹
 #SCRIPT ORIGINAL 「続かないように見えたのか、ざくろには？」
 ＠Itsuki
-「Did it look like it wouldn't continue to you?」
+「Did it look like it wouldn’t last, to you?」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01529
 #SCRIPT ORIGINAL 「一目でそんなことが分かったら、私、超能力者」
 ＠Zakuro,Q01529
-「If I could understand that just by looking, I would be psychic.」
+「I’d be psychic to know that with one look」
+
+#「If I could understand that just by looking, I would be psychic.」
 
 @zakuro			#普
 
 #＠ざくろ,Q01530
 #SCRIPT ORIGINAL 「今はちゃんとした母親に見える。でも、一年後は違うかも知れない、二年後は？　三年後は？　もっと先は？」
 ＠Zakuro,Q01530
-「Now she looks like a good mother. However, we don't know if she will be different after a year. What about two years? Three years? Even further?」
+「She may be a good mother now. But things might be different in year. What about two years? Three years? Later?」
 
 #＠樹
 #SCRIPT ORIGINAL 「どう変わるか分からないと……」
 ＠Itsuki
-「I don't know how she will change......」
+「You don’t know how things will change...?」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01531
 #SCRIPT ORIGINAL 「そう、あの子が大きくなって、自分の思う通りにならなくなったら、急にイヤになるかもしれない」
 ＠Zakuro,Q01531
-「That's right, when that child becomes older, she might not want to become like she thinks and might become bad.」
+「Right, when that girl gets older, her mom might get fed up with her all of a sudden if she makes her own rules」
+
+#「That's right, when that child becomes older, she might not want to become like she thinks and might become bad.」
 
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01532
 #SCRIPT ORIGINAL 「父親が死ぬか別れるか、他に男ができるか、理由はなんでもいいけど、あの子が邪魔になるかも知れない」
 ＠Zakuro,Q01532
-「If the father dies or gets separated from her, or another man comes, the reason doesn't really matter, but that child might become a nuisance.」
+「If her father dies or gets divorced, her mom finds another man, or whatever the reason, she might become a nuisance」
+
+#「If the father dies or gets separated from her, or another man comes, the reason doesn't really matter, but that child might become a nuisance.」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01533
 #SCRIPT ORIGINAL 「いつ何時、母親をやる気がなくなるかもしれない」
 ＠Zakuro,Q01533
-「At any time, that mother might not feel like being a mother anymore.」
+「Her mother might give up on parenting her whenever」
+
+#「At any time, that mother might not feel like being a mother anymore.」
 
 #SCRIPT ORIGINAL 『でも親だぞ？』
-　"But she's a parent right?"
+“But she's her mom, right?”
 
 #SCRIPT ORIGINAL 普通ならそんなことを言うのだろう。
-　Normally I would say that.
+　Normally I could say that.
 
 #SCRIPT ORIGINAL だが、自分のこと、ざくろをはじめ、院にいる他の子たちのことを考えると、とてもそうは言えなかった。
-　But if I thought about myself, Zakuro, and the other children in the institute, I couldn't say that.
+　But, considering myself, Zakuro, and the other kids in the institution, I couldn’t muster it.
+
+#But if I thought about myself, Zakuro, and the other children in the institute, I couldn't say that.
 
 #＠樹
 #SCRIPT ORIGINAL 「人の心は変わるものだからな。それが父親だろうが、母親だろうが」
 ＠Itsuki
-「Humans hearts are things that change. Whether they're fathers or mothers.」
+「Human hearts are fickle. Same goes for mothers or fathers」
+
+#「Humans hearts are things that change. Whether they're fathers or mothers.」
 
 @zakuro			#普
 
 #＠ざくろ,Q01534
 #SCRIPT ORIGINAL 「そう、特に女は男と違って、子供を産むと、自然と愛情が生まれるとか言うけど、そんなのファンタジー、遺伝子とか知らない」
 ＠Zakuro,Q01534
-「Right, but women in particular are different from men, giving birth to children, and naturally loving them, I don't know that kind of fantasy and genes.」
+「Yeah, especially women, unlike men, who’s love’s supposed to flow out naturally when they give birth. I don’t get these maternal fantasies」
+
+#「Right, but women in particular are different from men, giving birth to children, and naturally loving them, I don't know that kind of fantasy and genes.」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01535
 #SCRIPT ORIGINAL 「ううん、逆に女の心はすぐ変わる。女だから分かる。誰だって母親である前に女」
 ＠Zakuro,Q01535
-「No, on the contrary, women's hearts change immediately. I know because I'm a girl. Any girl before becoming a mother knows.」
+「The truth is, women are very fickle. I’m a woman so I know. A woman faced with being a mother, most of all」
+
+#「No, on the contrary, women's hearts change immediately. I know because I'm a girl. Any girl before becoming a mother knows.」
 
 @zakuro			#普
 
 #＠ざくろ,Q01536
 #SCRIPT ORIGINAL 「親は自分の意志で親になる。それを続けていく。そうできるのが本当の親。そう思う」
 ＠Zakuro,Q01536
-「Parents become parents by their own will. Then they continue that. Whoever can do that is a true parent. Or so I think.」
+「Parents choose to have kids. And they stick with it. A real parent would do that... is what I think」
+
+#「Parents become parents by their own will. Then they continue that. Whoever can do that is a true parent. Or so I think.」
 
 #SCRIPT ORIGINAL ざくろはいつものように無表情で、その言葉に力を込めているわけでもない。
-　Zakuro had her usual expressionless face, so there was no way she could be putting effort into those words.
+　Zakuro, expressionless as usual, didn’t raise her voice even a fraction.
+
+#Zakuro had her usual expressionless face, so there was no way she could be putting effort into those words.
 
 #SCRIPT ORIGINAL だからこそ感じる、過去への深い想い。
-　That's why I could feel her deep feelings to her past.
+　All the more I can sense her past behind it.
+
+#That's why I could feel her deep feelings to her past.
 
 #＠樹
 #SCRIPT ORIGINAL 「………そうだな」
 ＠Itsuki
-「.........That's right.」
+「...Right」
 
 #SCRIPT ORIGINAL 頷くと、少しだけ間があって、
-　There was a small gap when I nodded,
+　I nod, and then a brief pause...
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01537
 #SCRIPT ORIGINAL 「……聞かないの？」
 ＠Zakuro,Q01537
-「......Won't you ask?」
+「...Don’t you want to know?」
 
 #SCRIPT ORIGINAL ざくろがポツリと言った。
-　Zakuro said quietly.
+　Zakuro muttered briefly.
 
 #＠樹
 #SCRIPT ORIGINAL 「……ん？」
 ＠Itsuki
-「......Huh?」
+「...Hm?」
 
 #＠ざくろ,Q01538
 #SCRIPT ORIGINAL 「私がどうだったか聞かないの、つっちー？」
 ＠Zakuro,Q01538
-「Won't you ask about how I used to be, Tsucchii?」
+「Don’t you want to know what happened to me, Tsu-chi?」
 
 #SCRIPT ORIGINAL いつもマイペースで好きなことを喋る、ざくろらしからぬ問いかけ。
-　She usually talked about things at her own pace, and asked a question that was not Zakuro-like.
+　Not a question you’d expect from Zakuro, always going on about her fancies.
+
+#She usually talked about things at her own pace, and asked a question that was not Zakuro-like.
 
 #SCRIPT ORIGINAL オレの口から言って欲しいのだろう、多分。
-　She probably wants to hear it from my mouth.
+　Probably, she wants to hear it directly from me.
 
 #＠樹
 #SCRIPT ORIGINAL 「ざくろのお母さんはなれなかったんだな、お母さんに」
 ＠Itsuki
-「Zakuro's mother couldn't become a good mother?」
+「Your mom didn’t make for a good mother, did she?」
+
+#「Zakuro's mother couldn't become a good mother?」
 
 #///////////////////////////////////////////////////////
 #演：うなずき
@@ -904,47 +949,55 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL ざくろは小さく頷く。
-　Zakuro nodded lightly.
+　Zakuro gave a curt nod.
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01539
 #SCRIPT ORIGINAL 「あの人は結局、女だった。今なら分かる。流されやすくて、だらしなくて、だから男がいつも寄ってきてた」
 ＠Zakuro,Q01539
-「That person was after all, a woman. Now I understand. She was easily carried away and loose, so men were always visiting her.」
+「She was a woman, after all. It’s obvious now. Easily swept away, good-for-nothing, and so men would always go for her」
+
+#「That person was after all, a woman. Now I understand. She was easily carried away and loose, so men were always visiting her.」
 
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01540
 #SCRIPT ORIGINAL 「自分では良い親のつもりで、でも本当は自分のことしか考えてない。そういう人。だから、私を捨てた」
 ＠Zakuro,Q01540
-「She wanted to become a good mother, but she really only thought about herself. She was that kind of person. That's why I was thrown away.」
+「She meant to be a good mother, but really she only cared for herself. That kind of person. So she tossed me aside」
+
+#「She wanted to become a good mother, but she really only thought about herself. She was that kind of person. That's why I was thrown away.」
 
 #＠樹
 #SCRIPT ORIGINAL 「捨てた？」
 ＠Itsuki
-「Thrown away?」
+「Tossed you aside?」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01541
 #SCRIPT ORIGINAL 「どの男かもう忘れたけど、二人でどこかに行った。最後は女であることを選んだ。それがあの人。私を産んだ女」
 ＠Zakuro,Q01541
-「I already forgot which man it was, but she went somewhere with him. In the end, she decided to be a woman. That is her. The woman who gave birth to me.」
+「I forgot who it was, but she went away with a man. She chose to be a woman to the end. Just a stranger. A woman who gave birth to me」
+
+#「I already forgot which man it was, but she went somewhere with him. In the end, she decided to be a woman. That is her. The woman who gave birth to me.」
 
 #SCRIPT ORIGINAL やはり淡々と語るざくろ。
-　Zakuro talks indifferently.
+　Her tone was still indifferent.
+
+#Zakuro talks indifferently.
 
 #SCRIPT ORIGINAL 自分を捨てた母親をどう思っているのか、その表情からは伺うことはできない。
-　I couldn't tell from that expression how she thought about the mother who threw her away.
+　It’s not clear from her expression what she thinks of her mother who shunted her.
 
 #SCRIPT ORIGINAL 懐かしさ……それとも、憎しみ……
-　Whether she missed her...... or hated her......
+　Whether she misses her... or hates her...
 
 #＠樹
 #SCRIPT ORIGINAL 「ざくろ……」
 ＠Itsuki
-「Zakuro......」
+「Zakuro...」
 
 @zakuro			#普
 
@@ -956,33 +1009,37 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠樹
 #SCRIPT ORIGINAL 「会いたいか、今」
 ＠Itsuki
-「Do you want to see her now?」
+「Do you want to see her, now?」
 
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01543
 #SCRIPT ORIGINAL 「……………」
 ＠Zakuro,Q01543
-「...............」
+「.........」
 
 #SCRIPT ORIGINAL ざくろはスッと目を逸らし、
-　Zakuro averted her eyes,
+　Zakuro averted her eyes...
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01544
 #SCRIPT ORIGINAL 「あの人は私と関係なく、好きに生きて好きに死ぬ。だからどうでもいい」
 ＠Zakuro,Q01544
-「That person has nothing to do with me. She can go live if she wants or die if she wants. I don't care.」
+「She has nothing to do with me, she can live and die how she likes. I don't care」
 
 bgm_stop
 @zakuro_
 
 #SCRIPT ORIGINAL 会いたいとも、会いたくないとも言わず、ざくろはそれだけを口にした。
-　Zakuro said only that, without mentioning whether she wanted to see her, or not want to see her.
+　That’s all she said, not mentioning whether she wanted to see her or not.
+
+#Zakuro said only that, without mentioning whether she wanted to see her, or not want to see her.
 
 #SCRIPT ORIGINAL それから家に戻るまで、オレとざくろは何も話さなかった。
-　Until we returned home, Zakuro and I did not say anything.
+　Zakuro and I didn’t say anything until we got back home.
+
+#Until we returned home, Zakuro and I did not say anything.
 
 @bg_black
 wait		1000
