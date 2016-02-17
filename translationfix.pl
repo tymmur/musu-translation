@@ -1514,6 +1514,19 @@ sub handleFile
 			$temp_line = removeLeadingWhitespace($temp_line);
 			if (substr($temp_line, 0, 3) eq "sel")
 			{
+				my $orig_option_count = $japanese[$japanese_index] =~ tr/\"//;
+				my $translated_option_count = $line =~ tr/\"//;
+			
+				if ($orig_option_count != $translated_option_count)
+				{
+					print "Wrong number of \" for selection in file " . $file . "\n";
+					print "Japanese has " . $orig_option_count . " while the translation has " . $translated_option_count . "\n";
+					print "Faulty line " . "	" . ($line_number + 1) . "	" .  $line . "\n";
+			
+					exit();
+				}
+				
+			
 				$line_count++;
 				if ($line ne $japanese[$japanese_index])
 				{
