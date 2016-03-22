@@ -191,6 +191,8 @@ my $translated_common_bytes = 0;
 
 my $is_block_unreachable = 0;
 
+my $next_line_translated = 0;
+
 sub die_local
 {
 	open FILE, ">", $last_file_file or die $!;
@@ -1140,6 +1142,12 @@ sub handleScreenLines
 	# debug code
 	#push(@lines, "has translation: " . $has_translation);
 	
+	if ($next_line_translated == 1)
+	{
+		$next_line_translated = 0;
+		$has_translation = 1;
+	}
+	
 	if ($has_translation == 1)
 	{
 		if ($max_lines_in_translation < $translated_lines)
@@ -1170,6 +1178,7 @@ sub handleScreenLines
 	elsif ($is_block_unreachable == 0)
 	{
 		push(@output, "#SCRIPT UNTRANSLATED");
+		push(@output, "##SCRIPT NEXT LINE TRANSLATED");
 	}
 	
 	foreach (@lines)
@@ -1345,6 +1354,7 @@ sub handleFile
 	my $label_total = 0;
 	my $last_label = "";
 	
+	$next_line_translated = 0;
 	$is_block_unreachable = 0;
 	
 	my $backup_line_count            = 0;
@@ -1413,6 +1423,8 @@ sub handleFile
 		{
 			next if (substr($line, 0, 16) eq "#SCRIPT ORIGINAL");
 			next if (substr($line, 0, 20) eq "#SCRIPT UNTRANSLATED");
+			next if (substr($line, 0, 29) eq "##SCRIPT NEXT LINE TRANSLATED");
+			
 			push(@output, $line);
 			push(@output_wide, $line);
 			
@@ -1436,6 +1448,10 @@ sub handleFile
 				$backup_translated_line_count = $translated_line_count;
 				$backup_byte_count            = $byte_count;
 				$backup_translated_byte_count = $translated_byte_count;
+			}
+			elsif (substr($line, 0, 28) eq "#SCRIPT NEXT LINE TRANSLATED")
+			{
+				$next_line_translated = 1;
 			}
 			next;
 		}
