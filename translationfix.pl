@@ -1339,6 +1339,13 @@ sub handleFile
 	my $label_total = 0;
 	my $last_label = "";
 	
+	my $is_block_unreachable = 0;
+	
+	my $backup_line_count            = 0;
+	my $backup_translated_line_count = 0;
+	my $backup_byte_count            = 0;
+	my $backup_translated_byte_count = 0;
+	
 	for ($line_number =0; $line_number < scalar @translated; $line_number++)
 	{
 		my $line = $translated[$line_number];
@@ -1413,6 +1420,16 @@ sub handleFile
 			elsif (substr($line, 0, 9) eq "#TLSTATUS")
 			{
 				$TL_STATUS=substr($line, 10);
+			}
+			elsif (substr($line, 0, 19) eq "#SCRIPT UNREACHABLE")
+			{
+				print "Trigger backup at line " . $line_number . "\n";
+				$is_block_unreachable = 1;
+				# backup numbers
+				$backup_line_count            = $line_count;
+				$backup_translated_line_count = $translated_line_count;
+				$backup_byte_count            = $byte_count;
+				$backup_translated_byte_count = $translated_byte_count;
 			}
 			next;
 		}
@@ -1583,6 +1600,17 @@ sub handleFile
 		
 		if (substr($line, 0, 5) eq "label")
 		{
+			if ($is_block_unreachable == 1)
+			{
+				print "Trigger restore at line " . $line_number . "\n";
+				$is_block_unreachable = 0;
+				# restore backup
+				$line_count            = $backup_line_count;
+				$translated_line_count = $backup_translated_line_count;
+				$byte_count            = $backup_byte_count;
+				$translated_byte_count = $backup_translated_byte_count;
+			}
+		
 			my $label_string = removeTrailingWhitespace(substr($line, 5));
 			
 			if ($is_status_group)
@@ -1611,6 +1639,17 @@ sub handleFile
 				push(@output, "");
 			}
 		}
+	}
+	
+	if ($is_block_unreachable == 1)
+	{
+		print "Trigger end restore at line " . $line_number . "\n";
+		$is_block_unreachable = 0;
+		# restore backup
+		$line_count            = $backup_line_count;
+		$translated_line_count = $backup_translated_line_count;
+		$byte_count            = $backup_byte_count;
+		$translated_byte_count = $backup_translated_byte_count;
 	}
 	
 	# ensure last label is also included
