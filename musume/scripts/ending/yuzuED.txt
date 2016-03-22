@@ -13,12 +13,15 @@ label	yuzu_end
 @bgm17			#BGM 17 : のんびりのテーマ
 
 #SCRIPT ORIGINAL あとは、ゆずだが……。
+#SCRIPT UNTRANSLATED
 あとは、ゆずだが……。
 
 #SCRIPT ORIGINAL ゆずはこの前、よく行っていた洋服屋の店長から、芸能プロダクションのプロデューサーを紹介されたらしい。
+#SCRIPT UNTRANSLATED
 ゆずはこの前、よく行っていた洋服屋の店長から、芸能プロダクションのプロデューサーを紹介されたらしい。
 
 #SCRIPT ORIGINAL プロデューサーは一目見てゆずが気に入ってしまったらしく、ゆずはなんとアイドルとしてデビューすることになってしまった。
+#SCRIPT UNTRANSLATED
 プロデューサーは一目見てゆずが気に入ってしまったらしく、ゆずはなんとアイドルとしてデビューすることになってしまった。
 
 #--------------------------------------------------
@@ -26,15 +29,19 @@ event		"event\ED_YUZ_010.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL もちろん、性別はオフレコだが……。
+#SCRIPT UNTRANSLATED
 もちろん、性別はオフレコだが……。
 
 #SCRIPT ORIGINAL オレに抱かれて以来、ゆずはますます女の子らしくなっていただけに、アイドルになるというのも全く違和感がなかった。
+#SCRIPT UNTRANSLATED
 オレに抱かれて以来、ゆずはますます女の子らしくなっていただけに、アイドルになるというのも全く違和感がなかった。
 
 #SCRIPT ORIGINAL そして、１枚目のシングルは見事チャートのベスト１０にランクイン。
+#SCRIPT UNTRANSLATED
 そして、１枚目のシングルは見事チャートのベスト１０にランクイン。
 
 #SCRIPT ORIGINAL 今はライブツアーで全国を回っている。
+#SCRIPT UNTRANSLATED
 今はライブツアーで全国を回っている。
 
 #--------------------------------------------------
@@ -49,6 +56,7 @@ if pay_debts = 0 then goto yuzu_ep_f01_a
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 施設の借金もなくなったので、ゆずはそのお金をどう使うのも自由だった。
+#SCRIPT UNTRANSLATED
 施設の借金もなくなったので、ゆずはそのお金をどう使うのも自由だった。
 
 @bg_white		# 白
@@ -60,23 +68,28 @@ wait		1000
 @bg_teibou		# 堤防
 
 #SCRIPT ORIGINAL 「ということで、今度一緒にネズミーランド行きましょうよ～」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00734
 「ということで、今度一緒にネズミーランド行きましょうよ～」
 
 #SCRIPT ORIGINAL と、ゆずは懲りずに俺を誘ってくる。
+#SCRIPT UNTRANSLATED
 と、ゆずは懲りずに俺を誘ってくる。
 
 #SCRIPT ORIGINAL 「でも、ファンに見られたら大変だぞ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でも、ファンに見られたら大変だぞ」
 
 @yuzu_kanashimi		#哀
 
 #SCRIPT ORIGINAL 「とほほ……アイドルも楽じゃないな……」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00735
 「とほほ……アイドルも楽じゃないな……」
 
 #SCRIPT ORIGINAL などと言いながらも、ファンがたくさんいるのは嬉しいらしいゆずだった。
+#SCRIPT UNTRANSLATED
 などと言いながらも、ファンがたくさんいるのは嬉しいらしいゆずだった。
 
 #（統合へ）
@@ -88,6 +101,7 @@ goto		yuzu_ep_togo1
 label		yuzu_ep_f01_a
 
 #SCRIPT ORIGINAL 施設の借金は今も残っているが……。
+#SCRIPT UNTRANSLATED
 施設の借金は今も残っているが……。
 
 @bg_white		# 白
@@ -99,10 +113,12 @@ wait		1000
 @bg_teibou		# 堤防
 
 #SCRIPT ORIGINAL 「ＣＤの印税は、全額施設に寄付しますね」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00736
 「ＣＤの印税は、全額施設に寄付しますね」
 
 #SCRIPT ORIGINAL と、ゆずがそう言ってくれるので、全額返済もそう遠いことではないかもしれない。
+#SCRIPT UNTRANSLATED
 と、ゆずがそう言ってくれるので、全額返済もそう遠いことではないかもしれない。
 
 #--------------------------------------------------
@@ -113,30 +129,36 @@ label		yuzu_ep_togo1
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「それにしても……樹先生、本当にありがとうございました」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00737
 「それにしても……樹先生、本当にありがとうございました」
 
 #SCRIPT ORIGINAL 「何がだ……？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何がだ……？」
 
 @yuzu_warai		#笑
 
 #SCRIPT ORIGINAL 「先生がいなかったら、今のボクはないですから……」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00738
 「先生がいなかったら、今のボクはないですから……」
 
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「だから……また使いたくなったら、いつでもボクのお尻、使ってください……」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00739
 「だから……また使いたくなったら、いつでもボクのお尻、使ってください……」
 
 #SCRIPT ORIGINAL 「たはは……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「たはは……」
 
 #SCRIPT ORIGINAL 流し目でオレを見るゆずに、オレは笑ってごまかすしかなかった。
+#SCRIPT UNTRANSLATED
 流し目でオレを見るゆずに、オレは笑ってごまかすしかなかった。
 
 window_close

@@ -830,6 +830,7 @@ wait		1000
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 #SCRIPT ORIGINAL 身体を拭くため、ひかりの服を緩める美雨を見て、オレは一度部屋から出ることにした。
+#SCRIPT UNTRANSLATED
 身体を拭くため、ひかりの服を緩める美雨を見て、オレは一度部屋から出ることにした。
 
 @bg_black
@@ -842,26 +843,33 @@ wait		1000
 @bg_door		# ドア前
 
 #SCRIPT ORIGINAL 「……大事にならなければいいが」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……大事にならなければいいが」
 
 #SCRIPT ORIGINAL これは熱ではなく、ひかりの家族の事だ。
+#SCRIPT UNTRANSLATED
 これは熱ではなく、ひかりの家族の事だ。
 
 #SCRIPT ORIGINAL ……思えば、確かにあの両親の行動はどこか場末的な感じがした。
+#SCRIPT UNTRANSLATED
 ……思えば、確かにあの両親の行動はどこか場末的な感じがした。
 
 #SCRIPT ORIGINAL 学校に行かせなかったり、小遣いを適当にあげたり、一人でフラフラさせたり。
+#SCRIPT UNTRANSLATED
 学校に行かせなかったり、小遣いを適当にあげたり、一人でフラフラさせたり。
 
 #SCRIPT ORIGINAL これがもし、もう〝迎えに来ない〟つもりの放置なら……
+#SCRIPT UNTRANSLATED
 これがもし、もう〝迎えに来ない〟つもりの放置なら……
 
 #SCRIPT ORIGINAL 「考えすぎであって欲しいけどな……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「考えすぎであって欲しいけどな……」
 
 #SCRIPT ORIGINAL 嫌な考えを振り払い、部屋の前を離れた。
+#SCRIPT UNTRANSLATED
 嫌な考えを振り払い、部屋の前を離れた。
 
 bgm_stop
@@ -877,6 +885,7 @@ wait		2000
 @bg_gate_n		# 孤児院前(夜)
 
 #SCRIPT ORIGINAL そんないつもと違う騒動を残して、宵の時間がやって来ていた。
+#SCRIPT UNTRANSLATED
 そんないつもと違う騒動を残して、宵の時間がやって来ていた。
 
 #■BG（食堂）
@@ -884,6 +893,7 @@ wait		2000
 @bg_dining_n		# 食堂(夜)
 
 #SCRIPT ORIGINAL ここに来てオレ達に、些細だが大きな問題が新たに生まれている。
+#SCRIPT UNTRANSLATED
 ここに来てオレ達に、些細だが大きな問題が新たに生まれている。
 
 @mikan_middle		# 中間
@@ -900,6 +910,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「お腹すいたぁ～～……」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01816
 「お腹すいたぁ～～……」
 
@@ -910,6 +921,7 @@ wait		500
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「うん……。いつもならもう食べ始めてる時間だよね」
+#SCRIPT UNTRANSLATED
 ＠Yuzu,F00300
 「うん……。いつもならもう食べ始めてる時間だよね」
 
@@ -920,6 +932,7 @@ wait		500
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「時間がもったいないわ……。せっかく色々出来る夜の時間なのに……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02254
 「時間がもったいないわ……。せっかく色々出来る夜の時間なのに……」
 
@@ -927,12 +940,15 @@ wait		500
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL 食堂に集まった子供達は、ご飯を食べられずに飢えていた。
+#SCRIPT UNTRANSLATED
 食堂に集まった子供達は、ご飯を食べられずに飢えていた。
 
 #SCRIPT ORIGINAL 美雨がひかりの看病に付きっ切りだからだ。
+#SCRIPT UNTRANSLATED
 美雨がひかりの看病に付きっ切りだからだ。
 
 #SCRIPT ORIGINAL ただ、それ自体はむしろ良い事なので、まさか止めてご飯を頼むわけにもいかない。
+#SCRIPT UNTRANSLATED
 ただ、それ自体はむしろ良い事なので、まさか止めてご飯を頼むわけにもいかない。
 
 @ichigo_middle		# 中間
@@ -950,10 +966,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うぅ……ご飯」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O02159
 「うぅ……ご飯」
 
 #SCRIPT ORIGINAL 「いちごちゃん、大丈夫……？」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00344
 「いちごちゃん、大丈夫……？」
 
@@ -973,6 +991,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ダメ……ご飯ないと死んじゃうんだよ……」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O02160
 「ダメ……ご飯ないと死んじゃうんだよ……」
 
@@ -990,10 +1009,12 @@ layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「はぁぁ。せっかくたまの帰宅なのに、何でこうも飢えるかねぇ」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01175
 「はぁぁ。せっかくたまの帰宅なのに、何でこうも飢えるかねぇ」
 
 #SCRIPT ORIGINAL 「雫さんが作れないからですよ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「雫さんが作れないからですよ」
 
@@ -1004,6 +1025,7 @@ wait		500
 @SE38			#殴る音（バキッ！）
 
 #SCRIPT ORIGINAL 「ぐはッ！！」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ぐはッ！！」
 
@@ -1019,26 +1041,32 @@ layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「はぁっ……しょうがない。出前でも頼もうか。樹もちで」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01176
 「はぁっ……しょうがない。出前でも頼もうか。樹もちで」
 
 @shizuku_
 
 #SCRIPT ORIGINAL 美雨が居ないと何も出来ない、なんとも情けない保護者ツインズだ。
+#SCRIPT UNTRANSLATED
 美雨が居ないと何も出来ない、なんとも情けない保護者ツインズだ。
 
 #SCRIPT ORIGINAL 「うぅ、出費が痛い……殴られたところもっと痛い……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「うぅ、出費が痛い……殴られたところもっと痛い……」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01238
 「………」
 
 #SCRIPT ORIGINAL そんな中、ざくろが黙したまま席を立った。
+#SCRIPT UNTRANSLATED
 そんな中、ざくろが黙したまま席を立った。
 
 #SCRIPT ORIGINAL 「どうした、ざくろ？　何か頼みたい物あるか」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「どうした、ざくろ？　何か頼みたい物あるか」
 
@@ -1047,37 +1075,45 @@ layer_movepass_play	l_shizuku,0,play_once
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「ううん。私が作る。夕食」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01239
 「ううん。私が作る。夕食」
 
 #SCRIPT ORIGINAL 「……え？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……え？」
 
 #SCRIPT ORIGINAL 「へ……？」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02255
 「へ……？」
 
 #SCRIPT ORIGINAL 何か唐突な事を言い出すざくろ。
+#SCRIPT UNTRANSLATED
 何か唐突な事を言い出すざくろ。
 
 @zakuro_akire		#呆
 
 #SCRIPT ORIGINAL 「お腹すいたから」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01240
 「お腹すいたから」
 
 #SCRIPT ORIGINAL 「ちょ、ちょっと待ちなさいよ！？」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02256
 「ちょ、ちょっと待ちなさいよ！？」
 
 #SCRIPT ORIGINAL 「ざくろちゃん、ご飯作れるのっ？」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01817
 「ざくろちゃん、ご飯作れるのっ？」
 
 @zakuro_metoji		#閉
 
 #SCRIPT ORIGINAL 「……微妙」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01241
 「……微妙」
 
@@ -1089,6 +1125,7 @@ wait		500
 @karin_komikaru_ikari	#コミカル怒
 
 #SCRIPT ORIGINAL 「却下よ！　私たちは青ノリが主食じゃないのよッ！」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02257
 「却下よ！　私たちは青ノリが主食じゃないのよッ！」
 
@@ -1099,6 +1136,7 @@ wait		500
 @suika_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「あ、でもざくろちゃんは普通にご飯も作れるんだよ」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00345
 「あ、でもざくろちゃんは普通にご飯も作れるんだよ」
 
@@ -1109,6 +1147,7 @@ wait		500
 @shizuku_akire		#呆
 
 #SCRIPT ORIGINAL 「まぁね。美雨が作れないなら、出前かざくろの料理かの二択じゃない？」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01177
 「まぁね。美雨が作れないなら、出前かざくろの料理かの二択じゃない？」
 
@@ -1119,14 +1158,17 @@ wait		500
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01242
 「…………」
 
 #SCRIPT ORIGINAL 「え……。決めるのオレ？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「え……。決めるのオレ？」
 
 #SCRIPT ORIGINAL ざくろをはじめ、子供達の視線が集まっていた。
+#SCRIPT UNTRANSLATED
 ざくろをはじめ、子供達の視線が集まっていた。
 
 @chara_clear		#保険
@@ -1136,10 +1178,12 @@ wait		500
 @mikan			#普通
 
 #SCRIPT ORIGINAL 「だって、出前のお金出すのってお兄ちゃんなんだよね？」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01818
 「だって、出前のお金出すのってお兄ちゃんなんだよね？」
 
 #SCRIPT ORIGINAL 「そっか。じゃあ、ざくろだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「そっか。じゃあ、ざくろだ」
 
@@ -1150,10 +1194,12 @@ wait		500
 @karin_komikaru_ikari	#コミカル怒
 
 #SCRIPT ORIGINAL 「あ、あなたねぇッ！　保護者のくせに私たちの命よりお金の方が大事だって言うのー！！」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02258
 「あ、あなたねぇッ！　保護者のくせに私たちの命よりお金の方が大事だって言うのー！！」
 
 #SCRIPT ORIGINAL 「命ってオーバーな……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「命ってオーバーな……」
 
@@ -1164,6 +1210,7 @@ wait		500
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「……ざくろちゃん、一人で大丈夫？　手伝おうか」
+#SCRIPT UNTRANSLATED
 ＠Yuzu,F00301
 「……ざくろちゃん、一人で大丈夫？　手伝おうか」
 
@@ -1174,18 +1221,22 @@ wait		500
 @zakuro_metoji		#閉
 
 #SCRIPT ORIGINAL 「ううん。見ない方が良い」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01243
 「ううん。見ない方が良い」
 
 @zakuro_
 
 #SCRIPT ORIGINAL 場の賛同を得たのを確認すると、ざくろは台所へと入って行った。
+#SCRIPT UNTRANSLATED
 場の賛同を得たのを確認すると、ざくろは台所へと入って行った。
 
 #SCRIPT ORIGINAL ただ一言、ゆずの言葉に妙な返事をして………
+#SCRIPT UNTRANSLATED
 ただ一言、ゆずの言葉に妙な返事をして………
 
 #SCRIPT ORIGINAL 「見ない方がいいって……何を料理する気なんだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「見ない方がいいって……何を料理する気なんだ」
 
@@ -1194,6 +1245,7 @@ wait		500
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「あ、あたま痛くなってきたわ………」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02259
 「あ、あたま痛くなってきたわ………」
 
@@ -1203,12 +1255,15 @@ bgm_stop
 wait		1000
 
 #SCRIPT ORIGINAL ………
+#SCRIPT UNTRANSLATED
 ………
 
 #SCRIPT ORIGINAL ……………
+#SCRIPT UNTRANSLATED
 ……………
 
 #SCRIPT ORIGINAL …………………
+#SCRIPT UNTRANSLATED
 …………………
 
 #■BG（食堂）
@@ -1216,6 +1271,7 @@ wait		1000
 @bg_dining_n		# 食堂(夜)
 
 #SCRIPT ORIGINAL そして、不安と戦いながら待つこと、数十分。
+#SCRIPT UNTRANSLATED
 そして、不安と戦いながら待つこと、数十分。
 
 @zakuro_small
@@ -1223,6 +1279,7 @@ wait		1000
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「出来た」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01244
 「出来た」
 
@@ -1230,9 +1287,11 @@ wait		1000
 @bgmk12			#BGM K12 : 興味津々のテーマ
 
 #SCRIPT ORIGINAL ざくろが食堂に現れ、その仕上がった料理をテーブルに並べ始めた。
+#SCRIPT UNTRANSLATED
 ざくろが食堂に現れ、その仕上がった料理をテーブルに並べ始めた。
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「…………」
 
@@ -1243,6 +1302,7 @@ wait		500
 @mikan			#普通
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01819
 「………」
 
@@ -1253,6 +1313,7 @@ wait		500
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Yuzu,F00302
 「…………」
 
@@ -1263,6 +1324,7 @@ wait		500
 @karin			#普通
 
 #SCRIPT ORIGINAL 「……普通ね」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02260
 「……普通ね」
 
@@ -1284,10 +1346,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「やっとご飯食べれるよぉッ。早く早く！」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O02161
 「やっとご飯食べれるよぉッ。早く早く！」
 
 #SCRIPT ORIGINAL 微妙な緊張感の中、いちごの声が明るく響く。
+#SCRIPT UNTRANSLATED
 微妙な緊張感の中、いちごの声が明るく響く。
 
 @chara_clear		#保険
@@ -1297,6 +1361,7 @@ wait		500
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「青ノリも」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01245
 「青ノリも」
 
@@ -1304,12 +1369,15 @@ wait		500
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
 #SCRIPT ORIGINAL 最後に、袋入りの青ノリが大皿の上にばら撒かれた。
+#SCRIPT UNTRANSLATED
 最後に、袋入りの青ノリが大皿の上にばら撒かれた。
 
 #SCRIPT ORIGINAL ……まぁラストの青ノリは別として、料理自体は、かりんの感想どおり普通だ。
+#SCRIPT UNTRANSLATED
 ……まぁラストの青ノリは別として、料理自体は、かりんの感想どおり普通だ。
 
 #SCRIPT ORIGINAL 温かそうなスープと、温野菜サラダ、クリームスパゲッティ、etc……
+#SCRIPT UNTRANSLATED
 温かそうなスープと、温野菜サラダ、クリームスパゲッティ、etc……
 
 @yuzu_middle		# 中間
@@ -1317,6 +1385,7 @@ wait		500
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「……どれも青ノリ必要ないよね」
+#SCRIPT UNTRANSLATED
 ＠Yuzu,F00303
 「……どれも青ノリ必要ないよね」
 
@@ -1327,6 +1396,7 @@ wait		500
 @shizuku_yorokobi	#喜
 
 #SCRIPT ORIGINAL 「気にしない気にしない。さ、食べるか」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01178
 「気にしない気にしない。さ、食べるか」
 
@@ -1344,6 +1414,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「いただきまーす！！」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O02162
 「いただきまーす！！」
 
@@ -1354,18 +1425,22 @@ wait		500
 @suika_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「いただきます」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00346
 「いただきます」
 
 @suika_
 
 #SCRIPT ORIGINAL いつもは全員で食べ始めるのだが、今日は古参メンバーの三人が先陣を切った。
+#SCRIPT UNTRANSLATED
 いつもは全員で食べ始めるのだが、今日は古参メンバーの三人が先陣を切った。
 
 #SCRIPT ORIGINAL 『ごくり……』
+#SCRIPT UNTRANSLATED
 『ごくり……』
 
 #SCRIPT ORIGINAL 新参メンバーが見守る中、それぞれスープやスパゲッティを口に運ぶ。
+#SCRIPT UNTRANSLATED
 新参メンバーが見守る中、それぞれスープやスパゲッティを口に運ぶ。
 
 @ichigo_middle		# 中間
@@ -1384,10 +1459,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「おいしーっ。ざくろ、やっぱりお料理上手いねー♪」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O02163
 「おいしーっ。ざくろ、やっぱりお料理上手いねー♪」
 
 #SCRIPT ORIGINAL 「そう？　微妙」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01246
 「そう？　微妙」
 
@@ -1398,6 +1475,7 @@ wait		500
 @suika_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「そんなことないよ。味付けもちゃんと出来てるし」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00347
 「そんなことないよ。味付けもちゃんと出来てるし」
 
@@ -1408,12 +1486,14 @@ wait		500
 @shizuku_yorokobi	#喜
 
 #SCRIPT ORIGINAL 「美雨が居ないときはやっぱり、ざくろが料理当番が一番無難よねぇ」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01179
 「美雨が居ないときはやっぱり、ざくろが料理当番が一番無難よねぇ」
 
 @shizuku_
 
 #SCRIPT ORIGINAL 我慢している様子も無く、みんなパクパクと箸を進めていた。
+#SCRIPT UNTRANSLATED
 我慢している様子も無く、みんなパクパクと箸を進めていた。
 
 @mikan_middle		# 中間
@@ -1428,6 +1508,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「あっ。本当に美味しいよ、これ」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01820
 「あっ。本当に美味しいよ、これ」
 
@@ -1438,12 +1519,14 @@ wait		500
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「うん。ほんとだ。ざくろちゃん上手だよ」
+#SCRIPT UNTRANSLATED
 ＠Yuzu,F00304
 「うん。ほんとだ。ざくろちゃん上手だよ」
 
 @yuzu_
 
 #SCRIPT ORIGINAL 「………じゃあ、オレ達も食ってみるか？　かりん」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「………じゃあ、オレ達も食ってみるか？　かりん」
 
@@ -1452,6 +1535,7 @@ wait		500
 @karin			#普通
 
 #SCRIPT ORIGINAL 「え、ええ……。空腹は最高の調味料って言うし」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02261
 「え、ええ……。空腹は最高の調味料って言うし」
 
@@ -1459,19 +1543,24 @@ wait		500
 @SE35			#ティーカップを置く音（カチャ）
 
 #SCRIPT ORIGINAL 結局全員が食べ始めたのを見て、とりあえずスープから手を付けてみた。
+#SCRIPT UNTRANSLATED
 結局全員が食べ始めたのを見て、とりあえずスープから手を付けてみた。
 
 #SCRIPT ORIGINAL 「…………お？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「…………お？」
 
 #SCRIPT ORIGINAL 特別美味しいと言うほどでもない。
+#SCRIPT UNTRANSLATED
 特別美味しいと言うほどでもない。
 
 #SCRIPT ORIGINAL しかし普通に食べられる味。
+#SCRIPT UNTRANSLATED
 しかし普通に食べられる味。
 
 #SCRIPT ORIGINAL 美雨と比べるとやはり劣るが、ざくろの年でこの味とレパートリーを並べられるのは凄いことだ。
+#SCRIPT UNTRANSLATED
 美雨と比べるとやはり劣るが、ざくろの年でこの味とレパートリーを並べられるのは凄いことだ。
 
 @karin_middle		# 中間
@@ -1479,6 +1568,7 @@ wait		500
 @karin_niko		#にこ
 
 #SCRIPT ORIGINAL 「美味しい………」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02262
 「美味しい………」
 
@@ -1489,15 +1579,18 @@ wait		500
 @mikan_warai		#笑
 
 #SCRIPT ORIGINAL 「ね？　すごいよね」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01821
 「ね？　すごいよね」
 
 @mikan_
 
 #SCRIPT ORIGINAL 納得しきれていないようだが、かりんの口にも合う様子。
+#SCRIPT UNTRANSLATED
 納得しきれていないようだが、かりんの口にも合う様子。
 
 #SCRIPT ORIGINAL いっけん、これで何とか平和に夕食が進むかと思われた。
+#SCRIPT UNTRANSLATED
 いっけん、これで何とか平和に夕食が進むかと思われた。
 
 @yuzu_middle		# 中間
@@ -1505,19 +1598,23 @@ wait		500
 @yuzu_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「ざくろちゃん、このスープに入ってるお肉って何？　美味しいけどちょっと固いかな」
+#SCRIPT UNTRANSLATED
 ＠Yuzu,F00305
 「ざくろちゃん、このスープに入ってるお肉って何？　美味しいけどちょっと固いかな」
 
 #SCRIPT ORIGINAL 何とはなしにゆずが、スープに入っている肉を摘んだ。
+#SCRIPT UNTRANSLATED
 何とはなしにゆずが、スープに入っている肉を摘んだ。
 
 #SCRIPT ORIGINAL 「……秘密」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01247
 「……秘密」
 
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「え……？」
+#SCRIPT UNTRANSLATED
 ＠Yuzu,F00306
 「え……？」
 
@@ -1528,6 +1625,7 @@ wait		500
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「知らなくても食べられるでしょ？」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01248
 「知らなくても食べられるでしょ？」
 
@@ -1537,6 +1635,7 @@ wait		500
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
 #SCRIPT ORIGINAL 意味深な回答をして、ざくろは自分の分に青ノリを振りかけている。
+#SCRIPT UNTRANSLATED
 意味深な回答をして、ざくろは自分の分に青ノリを振りかけている。
 
 @mikan_middle		# 中間
@@ -1544,6 +1643,7 @@ wait		500
 @mikan			#普通
 
 #SCRIPT ORIGINAL 「この野菜に混じってる黒いのは？　コリコリしてて、辛いやつ」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01822
 「この野菜に混じってる黒いのは？　コリコリしてて、辛いやつ」
 
@@ -1554,16 +1654,19 @@ wait		500
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「秘密」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01249
 「秘密」
 
 #SCRIPT ORIGINAL 「そもそもこれは何のスープなんだ。美味いけど味が分からん」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「そもそもこれは何のスープなんだ。美味いけど味が分からん」
 
 @zakuro_metoji		#閉
 
 #SCRIPT ORIGINAL 「……秘密。知らなくても飲める」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01250
 「……秘密。知らなくても飲める」
 
@@ -1574,16 +1677,19 @@ wait		500
 @karin_ikari		#怒
 
 #SCRIPT ORIGINAL 「な、もぉーッ！　何よ秘密ってッ、余計気になるでしょッ！」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02263
 「な、もぉーッ！　何よ秘密ってッ、余計気になるでしょッ！」
 
 @karin_
 
 #SCRIPT ORIGINAL 「いや、やっぱりやめよう。何か怖いし……。材料が何であれ、美味ければ正義だ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いや、やっぱりやめよう。何か怖いし……。材料が何であれ、美味ければ正義だ」
 
 #SCRIPT ORIGINAL 結局は、それが現状で出せる一番の答えなのかもしれない。
+#SCRIPT UNTRANSLATED
 結局は、それが現状で出せる一番の答えなのかもしれない。
 
 @ichigo_middle		# 中間
@@ -1591,10 +1697,12 @@ wait		500
 @ichigo_warai		#笑
 
 #SCRIPT ORIGINAL 「おかわりー！」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O02164
 「おかわりー！」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01251
 「………」
 
@@ -1611,6 +1719,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「わ、わーッ！　いちごのおかずがーーッ！？」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O02165
 「わ、わーッ！　いちごのおかずがーーッ！？」
 
@@ -1621,10 +1730,12 @@ wait		500
 @zakuro			#普
 
 #SCRIPT ORIGINAL 「……？　青ノリが欲しいんじゃなかったの？」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01252
 「……？　青ノリが欲しいんじゃなかったの？」
 
 #SCRIPT ORIGINAL 紆余曲折あったが、食事はいつもどおり騒がしく進んでいった。
+#SCRIPT UNTRANSLATED
 紆余曲折あったが、食事はいつもどおり騒がしく進んでいった。
 
 #一拍
@@ -1641,51 +1752,62 @@ wait		1000
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 #SCRIPT ORIGINAL 「で、どうなんだい。その弱ってるのを良い事に樹がさらって来た子は」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01180
 「で、どうなんだい。その弱ってるのを良い事に樹がさらって来た子は」
 
 #SCRIPT ORIGINAL 「さらってません。看病で連れてきたんです」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「さらってません。看病で連れてきたんです」
 
 #SCRIPT ORIGINAL 「さっき見たらグッスリ眠ってましたよ。もう大丈夫だと思います」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「さっき見たらグッスリ眠ってましたよ。もう大丈夫だと思います」
 
 @shizuku_akire		#呆
 
 #SCRIPT ORIGINAL 「へぇ、そう。美雨が付きっ切りだから、もっと悪いのかと思ってたけど」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01181
 「へぇ、そう。美雨が付きっ切りだから、もっと悪いのかと思ってたけど」
 
 #SCRIPT ORIGINAL 「ええ。オレも、少し休むように言ってみたんですけど」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ええ。オレも、少し休むように言ってみたんですけど」
 
 @shizuku		#普通
 
 #SCRIPT ORIGINAL 「まぁ美雨はかいがいしい上に、人一倍母性本能が強い子だからね」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01182
 「まぁ美雨はかいがいしい上に、人一倍母性本能が強い子だからね」
 
 @shizuku_yorokobi	#喜
 
 #SCRIPT ORIGINAL 「知らない子でも、やっぱり熱でうなされてたりすると心配なんでしょ」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01183
 「知らない子でも、やっぱり熱でうなされてたりすると心配なんでしょ」
 
 @shizuku_
 
 #SCRIPT ORIGINAL ……知らない子。
+#SCRIPT UNTRANSLATED
 ……知らない子。
 
 #SCRIPT ORIGINAL 果たして、本当にそうなのだろうか。
+#SCRIPT UNTRANSLATED
 果たして、本当にそうなのだろうか。
 
 #SCRIPT ORIGINAL 美雨がひかりを見たときの反応は、まるで信じられないものでも見たような感じだった。
+#SCRIPT UNTRANSLATED
 美雨がひかりを見たときの反応は、まるで信じられないものでも見たような感じだった。
 
 #SCRIPT ORIGINAL そしてあの取り乱し方と、今も心底心配して介抱するその様子。
+#SCRIPT UNTRANSLATED
 そしてあの取り乱し方と、今も心底心配して介抱するその様子。
 
 @suika_middle		# 中間
@@ -1693,12 +1815,14 @@ wait		1000
 @suika			#普
 
 #SCRIPT ORIGINAL 「私もさっき様子を見に行きましたけど、本当に心配そうでしたね、美雨さん」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00348
 「私もさっき様子を見に行きましたけど、本当に心配そうでしたね、美雨さん」
 
 @suika_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「何だかまるで、自分の子供を看病してるお母さんみたいに必死で」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00349
 「何だかまるで、自分の子供を看病してるお母さんみたいに必死で」
 
@@ -1709,52 +1833,63 @@ wait		500
 @shizuku		#普通
 
 #SCRIPT ORIGINAL 「……お母さん？」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01184
 「……お母さん？」
 
 #SCRIPT ORIGINAL 「そう言われると、そんな感じかもな。自分の事みたいに悲痛そうに心配してて」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「そう言われると、そんな感じかもな。自分の事みたいに悲痛そうに心配してて」
 
 @shizuku_akire		#呆
 
 #SCRIPT ORIGINAL 「ふ～ん……自分の娘みたい、ねぇ」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01185
 「ふ～ん……自分の娘みたい、ねぇ」
 
 #SCRIPT ORIGINAL 雫さんは何か気になるのか、独り言のように繰り返す。
+#SCRIPT UNTRANSLATED
 雫さんは何か気になるのか、独り言のように繰り返す。
 
 #SCRIPT ORIGINAL 「母性本能ってやつですね。美雨はきっと優しいお母さんになるんだろうな」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「母性本能ってやつですね。美雨はきっと優しいお母さんになるんだろうな」
 
 #SCRIPT ORIGINAL 「意外と大胆なことを言うのね、つっちーって」
+#SCRIPT UNTRANSLATED
 ＠Zakuro,Q01253
 「意外と大胆なことを言うのね、つっちーって」
 
 @shizuku_chousyou	#怒笑
 
 #SCRIPT ORIGINAL 「ふふん、直接言ってあげな、それ。真っ赤になって照れるよきっと」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01186
 「ふふん、直接言ってあげな、それ。真っ赤になって照れるよきっと」
 
 #SCRIPT ORIGINAL 「本人を前にしたら恥ずかしいに決まってるでしょッ、オレも」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「本人を前にしたら恥ずかしいに決まってるでしょッ、オレも」
 
 @shizuku_akire		#呆
 
 #SCRIPT ORIGINAL 「ま、あたしには縁のない物だけどね」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01187
 「ま、あたしには縁のない物だけどね」
 
 @shizuku_
 
 #SCRIPT ORIGINAL すっかり食事も終えた雫さんが、話を切り上げるように席を立った。
+#SCRIPT UNTRANSLATED
 すっかり食事も終えた雫さんが、話を切り上げるように席を立った。
 
 #SCRIPT ORIGINAL 見ると、他の子達はよほど空腹だったのか、まだおかずを頬張っている。
+#SCRIPT UNTRANSLATED
 見ると、他の子達はよほど空腹だったのか、まだおかずを頬張っている。
 
 @shizuku_small
@@ -1762,28 +1897,34 @@ wait		500
 @shizuku		#普通
 
 #SCRIPT ORIGINAL 「それじゃ、あたしは部屋に戻ってるから。後は頼むよ樹」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01188
 「それじゃ、あたしは部屋に戻ってるから。後は頼むよ樹」
 
 #SCRIPT ORIGINAL 「要約すると、自分はさっさと部屋に帰るから片付けをしといてくれ、ってことですね」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「要約すると、自分はさっさと部屋に帰るから片付けをしといてくれ、ってことですね」
 
 @shizuku_chousyou	#怒笑
 
 #SCRIPT ORIGINAL 「そ。物分りがよくて助かるよ。じゃあね」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01189
 「そ。物分りがよくて助かるよ。じゃあね」
 
 @shizuku_
 
 #SCRIPT ORIGINAL 訂正すらせず、ヒラヒラと手を振って食堂から出て行った。
+#SCRIPT UNTRANSLATED
 訂正すらせず、ヒラヒラと手を振って食堂から出て行った。
 
 #SCRIPT ORIGINAL 雫さんらしいといえば、雫さんらしい。
+#SCRIPT UNTRANSLATED
 雫さんらしいといえば、雫さんらしい。
 
 #SCRIPT ORIGINAL 他の子たちが食べ終わるまで、オレは食堂でみんなの話しに加わることにした。
+#SCRIPT UNTRANSLATED
 他の子たちが食べ終わるまで、オレは食堂でみんなの話しに加わることにした。
 
 #■BG（黒）
@@ -1792,12 +1933,15 @@ bgm_stop
 wait		1000
 
 #SCRIPT ORIGINAL ………
+#SCRIPT UNTRANSLATED
 ………
 
 #SCRIPT ORIGINAL ……………
+#SCRIPT UNTRANSLATED
 ……………
 
 #SCRIPT ORIGINAL …………………
+#SCRIPT UNTRANSLATED
 …………………
 
 #■BG（空き部屋）
@@ -1808,110 +1952,137 @@ wait		1000
 @bg_akibeya_n		# 空き部屋(夜) 
 
 #SCRIPT ORIGINAL 普段使われていない部屋で、美雨はまだひかりの側に座っていた。
+#SCRIPT UNTRANSLATED
 普段使われていない部屋で、美雨はまだひかりの側に座っていた。
 
 #SCRIPT ORIGINAL 「すぅ……ん…くぅ……」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00220
 「すぅ……ん…くぅ……」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01541
 「………」
 
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
 #SCRIPT ORIGINAL 今はただ、穏やかな寝息とともに、胸が小さく上下しているひかり。
+#SCRIPT UNTRANSLATED
 今はただ、穏やかな寝息とともに、胸が小さく上下しているひかり。
 
 #SCRIPT ORIGINAL 心配する峠が無事終わっていることは美雨も知っていた。
+#SCRIPT UNTRANSLATED
 心配する峠が無事終わっていることは美雨も知っていた。
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01542
 「…………」
 
 #SCRIPT ORIGINAL 今は、また別の気持ちで、眠るひかりの姿をジッと見つめている。
+#SCRIPT UNTRANSLATED
 今は、また別の気持ちで、眠るひかりの姿をジッと見つめている。
 
 #SCRIPT ORIGINAL 「ん…むにゅ……お父しゃん……お母しゃん……」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00221
 「ん…むにゅ……お父しゃん……お母しゃん……」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「……っ」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01543
 「……っ」
 
 #SCRIPT ORIGINAL 小さく寝言をこぼして、ひかりが小さく身体をよじらせる。
+#SCRIPT UNTRANSLATED
 小さく寝言をこぼして、ひかりが小さく身体をよじらせる。
 
 #SCRIPT ORIGINAL 布団の中から零れてしまったその手を、美雨は優しく握り締めていた。
+#SCRIPT UNTRANSLATED
 布団の中から零れてしまったその手を、美雨は優しく握り締めていた。
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「ひかりっ………」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01544
 「ひかりっ………」
 
 #SCRIPT ORIGINAL 感極まってささやくその声には、これ以上無いほど大きな想いが込められていた。
+#SCRIPT UNTRANSLATED
 感極まってささやくその声には、これ以上無いほど大きな想いが込められていた。
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「…こんなに大きくなってっ………あぁ……ひかりっ…」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01545
 「…こんなに大きくなってっ………あぁ……ひかりっ…」
 
 #SCRIPT ORIGINAL もうこれで何度目にもなる涙で、再び美雨の視界が滲んでいった。
+#SCRIPT UNTRANSLATED
 もうこれで何度目にもなる涙で、再び美雨の視界が滲んでいった。
 
 #SCRIPT ORIGINAL いくら流しても涙が枯れることなどない。
+#SCRIPT UNTRANSLATED
 いくら流しても涙が枯れることなどない。
 
 #SCRIPT ORIGINAL ひかりの姿を見つめるたびに、次々と溢れてくる。
+#SCRIPT UNTRANSLATED
 ひかりの姿を見つめるたびに、次々と溢れてくる。
 
 #SCRIPT ORIGINAL 「ん、くぅ……うん…お母しゃん……」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00222
 「ん、くぅ……うん…お母しゃん……」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「…また会える日が来るなんて……こんな、成長したあなたにっ……ああぁ…」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01546
 「…また会える日が来るなんて……こんな、成長したあなたにっ……ああぁ…」
 
 #SCRIPT ORIGINAL 「もう離したくないっ……ずっと一緒にいたい、ひかりっ……！」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01547
 「もう離したくないっ……ずっと一緒にいたい、ひかりっ……！」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「うっ……うぅっ…あ……うあぁぁあぁあッ…！」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01548
 「うっ……うぅっ…あ……うあぁぁあぁあッ…！」
 
 @miu_
 
 #SCRIPT ORIGINAL 美雨はひかりの手を握り締めたまま、顔を埋めて泣き散らした。
+#SCRIPT UNTRANSLATED
 美雨はひかりの手を握り締めたまま、顔を埋めて泣き散らした。
 
 #SCRIPT ORIGINAL それが何故なのか、たずねる者はこの場には居ない。
+#SCRIPT UNTRANSLATED
 それが何故なのか、たずねる者はこの場には居ない。
 
 #SCRIPT ORIGINAL そして決して、美雨が人前でこの涙を見せることも無い。
+#SCRIPT UNTRANSLATED
 そして決して、美雨が人前でこの涙を見せることも無い。
 
 #SCRIPT ORIGINAL 「うあぁあッ、あぁぁああッ…！　ひかりぃッ……！　ひかりぃッ…！」
+#SCRIPT UNTRANSLATED
 ＠Miu,B01549
 「うあぁあッ、あぁぁああッ…！　ひかりぃッ……！　ひかりぃッ…！」
 
 #SCRIPT ORIGINAL 悲痛な嗚咽で、我慢せず、いくらでも泣かなくてはならない。
+#SCRIPT UNTRANSLATED
 悲痛な嗚咽で、我慢せず、いくらでも泣かなくてはならない。
 
 #SCRIPT ORIGINAL 明日、樹やみんなの前に出ても気づかれないよう、もう流す涙もないくらいに。
+#SCRIPT UNTRANSLATED
 明日、樹やみんなの前に出ても気づかれないよう、もう流す涙もないくらいに。
 
 bgm_stop
@@ -1921,10 +2092,12 @@ wait		1000
 @bg_rouka_n		# 廊下(夜)
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01190
 「…………」
 
 #SCRIPT ORIGINAL 雫はドアの少し開いた隙間から、そんな美雨の様子を見ていた。
+#SCRIPT UNTRANSLATED
 雫はドアの少し開いた隙間から、そんな美雨の様子を見ていた。
 
 @shizuku_middle		# 中間
@@ -1932,32 +2105,39 @@ wait		1000
 @shizuku_akire		#呆
 
 #SCRIPT ORIGINAL 「ひかり、か……」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01191
 「ひかり、か……」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 #SCRIPT ORIGINAL 無意識の内にタバコを出しかけて、やめた。
+#SCRIPT UNTRANSLATED
 無意識の内にタバコを出しかけて、やめた。
 
 #SCRIPT ORIGINAL こんなところで吸えば、たちまち美雨に気づかれてしまう。
+#SCRIPT UNTRANSLATED
 こんなところで吸えば、たちまち美雨に気づかれてしまう。
 
 @shizuku		#普通
 
 #SCRIPT ORIGINAL 「……まぁ、今は大丈夫だろうけど」
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01192
 「……まぁ、今は大丈夫だろうけど」
 
 #SCRIPT ORIGINAL 普段の彼女なら、こんなドアの影くらいの気配、すぐに察知できるはずだった。
+#SCRIPT UNTRANSLATED
 普段の彼女なら、こんなドアの影くらいの気配、すぐに察知できるはずだった。
 
 #SCRIPT ORIGINAL それだけ周りが見えなくなっている美雨に、雫は考えを巡らせる。
+#SCRIPT UNTRANSLATED
 それだけ周りが見えなくなっている美雨に、雫は考えを巡らせる。
 
 @shizuku_akire		#呆
 
 #SCRIPT ORIGINAL （あの子が誰なのか……。まぁ大体の想像はつくけどね）
+#SCRIPT UNTRANSLATED
 ＠Shizuku,S01192a
 （あの子が誰なのか……。まぁ大体の想像はつくけどね）
 
@@ -1966,18 +2146,22 @@ bgm_stop
 @bg_black
 
 #SCRIPT ORIGINAL 雫は気付かれないように、その場を後にした。
+#SCRIPT UNTRANSLATED
 雫は気付かれないように、その場を後にした。
 
 #■BG（夜空）
 @bg_sky_n		# 夜空
 
 #SCRIPT ORIGINAL この日、運命の歯車は一気に大きな稼動を迎えていた。
+#SCRIPT UNTRANSLATED
 この日、運命の歯車は一気に大きな稼動を迎えていた。
 
 #SCRIPT ORIGINAL ひかりと美雨と樹の歯車が、大きく一つ。
+#SCRIPT UNTRANSLATED
 ひかりと美雨と樹の歯車が、大きく一つ。
 
 #SCRIPT ORIGINAL そして、それら全ての歯車を噛み砕くほど大きな運命が、誰も気付かないところで動き始めていた。
+#SCRIPT UNTRANSLATED
 そして、それら全ての歯車を噛み砕くほど大きな運命が、誰も気付かないところで動き始めていた。
 
 @bg_black

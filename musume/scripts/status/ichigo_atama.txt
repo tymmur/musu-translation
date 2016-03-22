@@ -23,6 +23,7 @@ label	ichigo_atama_1
 @bg_living		# リビング
 
 #SCRIPT ORIGINAL いちごが不機嫌そうにリビングでふてくされていた。
+#SCRIPT UNTRANSLATED
 いちごが不機嫌そうにリビングでふてくされていた。
 
 #///////////////////////////////////////////////////////
@@ -34,46 +35,56 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「はぁぁ……んぶぅ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01617
 「はぁぁ……んぶぅ」
 
 #SCRIPT ORIGINAL 「どうしたいちご、機嫌悪そうじゃないか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうしたいちご、機嫌悪そうじゃないか」
 
 @ichigo_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「う～……今日学校で宿題がいっぱい出たの～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01618
 「う～……今日学校で宿題がいっぱい出たの～」
 
 #SCRIPT ORIGINAL ソファーに掛けた足を前に投げ出し、ブラブラと振り動かす。
+#SCRIPT UNTRANSLATED
 ソファーに掛けた足を前に投げ出し、ブラブラと振り動かす。
 
 #SCRIPT ORIGINAL 「行儀が悪いぞ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「行儀が悪いぞ」
 
 @ichigo_ase		#汗
 
 #SCRIPT ORIGINAL 「宿題めんどくさい～……何で先生って家でまで勉強させるのかなぁ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01619
 「宿題めんどくさい～……何で先生って家でまで勉強させるのかなぁ」
 
 @ichigo_ikari		#怒
 
 #SCRIPT ORIGINAL 「自分たちの授業の進行が遅い分を宿題にしてるんだよ、絶対。職務怠慢だよね！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01620
 「自分たちの授業の進行が遅い分を宿題にしてるんだよ、絶対。職務怠慢だよね！」
 
 #SCRIPT ORIGINAL 「……ノーコメントで」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ノーコメントで」
 
 #SCRIPT ORIGINAL とっさに同意しかねたが。
+#SCRIPT UNTRANSLATED
 とっさに同意しかねたが。
 
 #SCRIPT ORIGINAL （とりあえず、いちごが『怠慢』とかいう言葉を正しく活用してる方が驚きだ）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （とりあえず、いちごが『怠慢』とかいう言葉を正しく活用してる方が驚きだ）
 
@@ -93,10 +104,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「学校地震で潰れないかな～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01621
 「学校地震で潰れないかな～」
 
 #SCRIPT ORIGINAL 「いちご。文句ばっかり言ってないで、宿題があるならしてきなさい」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちご。文句ばっかり言ってないで、宿題があるならしてきなさい」
 
@@ -110,6 +123,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ちぇー……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01622
 「ちぇー……」
 
@@ -121,12 +135,15 @@ wait		100
 @SE07			#部屋のドア閉まる音（パタン）
 
 #SCRIPT ORIGINAL 不満そうに立ち上がると、口を尖らせながらリビングを後にする。
+#SCRIPT UNTRANSLATED
 不満そうに立ち上がると、口を尖らせながらリビングを後にする。
 
 #SCRIPT ORIGINAL ま、こういう反応もいちごらしいし。
+#SCRIPT UNTRANSLATED
 ま、こういう反応もいちごらしいし。
 
 #SCRIPT ORIGINAL 困ってるようだったら助けてやろう。
+#SCRIPT UNTRANSLATED
 困ってるようだったら助けてやろう。
 
 @bg_black
@@ -146,12 +163,14 @@ label	ichigo_atama_2
 @bg_itsuki_n		# 自室(夜)
 
 #SCRIPT ORIGINAL 夕食の後、オレは部屋で休学中の講義のノートを見返し復習をしていた。
+#SCRIPT UNTRANSLATED
 夕食の後、オレは部屋で休学中の講義のノートを見返し復習をしていた。
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL 「ん、開いてるよ～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん、開いてるよ～」
 
@@ -168,17 +187,21 @@ wait		1000
 @ichigo			#普通
 
 #SCRIPT ORIGINAL 「パパ～、いちごだよ。勉強教えて～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01623
 「パパ～、いちごだよ。勉強教えて～」
 
 #SCRIPT ORIGINAL 筆箱とドリルを持って、いちごが部屋に入ってきた。
+#SCRIPT UNTRANSLATED
 筆箱とドリルを持って、いちごが部屋に入ってきた。
 
 #SCRIPT ORIGINAL 「まさか。いちごが自主的に勉強を教わりにくるなんて」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まさか。いちごが自主的に勉強を教わりにくるなんて」
 
 #SCRIPT ORIGINAL 「夢か……？　いつの間にか寝ぼけてるのか、オレは」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「夢か……？　いつの間にか寝ぼけてるのか、オレは」
 
@@ -195,27 +218,33 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「もーッ、何かパパが凄い失礼なこと言ってるー！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01624
 「もーッ、何かパパが凄い失礼なこと言ってるー！」
 
 #SCRIPT ORIGINAL 「いちごだって極めて稀にだけど、自分から勉強する気が起こることもあるよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01625
 「いちごだって極めて稀にだけど、自分から勉強する気が起こることもあるよ」
 
 #SCRIPT ORIGINAL 学生がそんな頻度でいいんだろうか……
+#SCRIPT UNTRANSLATED
 学生がそんな頻度でいいんだろうか……
 
 #SCRIPT ORIGINAL 「まぁその意欲は大切だ。で、何を見て欲しいんだい？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁその意欲は大切だ。で、何を見て欲しいんだい？」
 
 @ichigo_komaru		#困
 
 #SCRIPT ORIGINAL 「うん、算数が難しいの……算数嫌い。すぐ授業中も眠くなるし」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01626
 「うん、算数が難しいの……算数嫌い。すぐ授業中も眠くなるし」
 
 #SCRIPT ORIGINAL 「それで寝るから、余計に分からないんじゃないか？　どれ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それで寝るから、余計に分からないんじゃないか？　どれ」
 
@@ -223,6 +252,7 @@ layer_movepass_play	l_ichigo,0,play_once
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 
 #SCRIPT ORIGINAL ドリルをいちごから受け取って目を通す。
+#SCRIPT UNTRANSLATED
 ドリルをいちごから受け取って目を通す。
 
 @ichigo_middle		# 中間
@@ -231,13 +261,16 @@ layer_movepass_play	l_ichigo,0,play_once
 @bg_itsuki_n		# 自室(夜)
 
 #SCRIPT ORIGINAL 「難しいよ。パパにも出来ないかも」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01627
 「難しいよ。パパにも出来ないかも」
 
 #SCRIPT ORIGINAL 挑発ではなく、本気で心配そうだ。よほど苦手らしい。
+#SCRIPT UNTRANSLATED
 挑発ではなく、本気で心配そうだ。よほど苦手らしい。
 
 #SCRIPT ORIGINAL 机の上に広げたノートを隅に押しやって、いちごに椅子に座るように促した。
+#SCRIPT UNTRANSLATED
 机の上に広げたノートを隅に押しやって、いちごに椅子に座るように促した。
 
 bgm_stop
@@ -250,60 +283,76 @@ event		"event\EV_ICH_020-00.png"
 @bgm03			#BGM 03 : いちごのテーマ
 
 #SCRIPT ORIGINAL 「この問題。いちご、この時間とか速さとかが全然分からないの」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01628
 「この問題。いちご、この時間とか速さとかが全然分からないの」
 
 #SCRIPT ORIGINAL 「ん～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん～」
 
 #SCRIPT ORIGINAL いちごの指差したのは、時間・距離・速さの問題。
+#SCRIPT UNTRANSLATED
 いちごの指差したのは、時間・距離・速さの問題。
 
 #SCRIPT ORIGINAL 授業中に居眠りをして、この三つの関係を聞き漏らしていれば絶対に解けない問題だ。
+#SCRIPT UNTRANSLATED
 授業中に居眠りをして、この三つの関係を聞き漏らしていれば絶対に解けない問題だ。
 
 #SCRIPT ORIGINAL 「オレの時は、『木の下の爺さん婆さん』で教えてもらったけど」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレの時は、『木の下の爺さん婆さん』で教えてもらったけど」
 
 #SCRIPT ORIGINAL 「木下さんだったら隣のクラスにいるよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01629
 「木下さんだったら隣のクラスにいるよ」
 
 #SCRIPT ORIGINAL 「なるほど。つまり全然分かってないんだな」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なるほど。つまり全然分かってないんだな」
 
 #SCRIPT ORIGINAL 算数とはいえ、公式無しでは問題は解けない。
+#SCRIPT UNTRANSLATED
 算数とはいえ、公式無しでは問題は解けない。
 
 #SCRIPT ORIGINAL ドリルの端に『き』と書き、下の左右に『じ』と『は』を書いた。
+#SCRIPT UNTRANSLATED
 ドリルの端に『き』と書き、下の左右に『じ』と『は』を書いた。
 
 #SCRIPT ORIGINAL 「この『き』が距離。『じ』は時間。『は』は速さで、覚えやすいように『ば』でいい」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「この『き』が距離。『じ』は時間。『は』は速さで、覚えやすいように『ば』でいい」
 
 #SCRIPT ORIGINAL 「そうしたら、『き』の下に爺さんの『じ』と婆さんの『ば』」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうしたら、『き』の下に爺さんの『じ』と婆さんの『ば』」
 
 #SCRIPT ORIGINAL 「……？　なぞなぞ？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01630
 「……？　なぞなぞ？」
 
 #SCRIPT ORIGINAL 「違う違う。この問題の場合、速さと距離が分かってるだろ。だからここに数字を入れて……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「違う違う。この問題の場合、速さと距離が分かってるだろ。だからここに数字を入れて……」
 
 #SCRIPT ORIGINAL 首を傾げるいちごの脇から手を伸ばし、問題文を指差し示す。
+#SCRIPT UNTRANSLATED
 首を傾げるいちごの脇から手を伸ばし、問題文を指差し示す。
 
 #SCRIPT ORIGINAL それを公式に照らし合わせて解いてやった。
+#SCRIPT UNTRANSLATED
 それを公式に照らし合わせて解いてやった。
 
 #SCRIPT ORIGINAL 「と、こうなって。つまり和夫君が自転車で弟に追いついたのは三分後、ってこと」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「と、こうなって。つまり和夫君が自転車で弟に追いついたのは三分後、ってこと」
 
@@ -311,38 +360,47 @@ event		"event\EV_ICH_020-00.png"
 event_fast	"event\EV_ICH_020-05.png"
 
 #SCRIPT ORIGINAL 「おお～っ！　すごいすごい！　パパ合ってるよ！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01631
 「おお～っ！　すごいすごい！　パパ合ってるよ！」
 
 #SCRIPT ORIGINAL ドリルの解答とオレの答えの一致を見ていちごが嬉しそうにはしゃぐ。
+#SCRIPT UNTRANSLATED
 ドリルの解答とオレの答えの一致を見ていちごが嬉しそうにはしゃぐ。
 
 #SCRIPT ORIGINAL 「……分かった？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……分かった？」
 
 #SCRIPT ORIGINAL 「もう一回やって。いちご、今度は真面目に聞くからっ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01632
 「もう一回やって。いちご、今度は真面目に聞くからっ」
 
 #SCRIPT ORIGINAL 「今まで真面目に聞いてなかったのか……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今まで真面目に聞いてなかったのか……」
 
 #SCRIPT ORIGINAL そんな悪びれもなく言われたら、怒る気力もなくなってくる。
+#SCRIPT UNTRANSLATED
 そんな悪びれもなく言われたら、怒る気力もなくなってくる。
 
 #SCRIPT ORIGINAL 「えっと、まずこの公式、木下の『じ』と『は』を……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えっと、まずこの公式、木下の『じ』と『は』を……」
 
 event_fast	"event\EV_ICH_020-00.png"
 
 #SCRIPT ORIGINAL 「あ、待ってパパッ。いちご、まだそのなぞなぞの答え聞いてないよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01633
 「あ、待ってパパッ。いちご、まだそのなぞなぞの答え聞いてないよ」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
@@ -351,133 +409,162 @@ event_fast	"event\EV_ICH_020-00.png"
 @bg_black
 
 #SCRIPT ORIGINAL 繰り返し同じ事を教え、いちごの前で理詰めで問題を解いてやった。
+#SCRIPT UNTRANSLATED
 繰り返し同じ事を教え、いちごの前で理詰めで問題を解いてやった。
 
 #■EV（勉強CG）
 #event		"event\EV_ICH_020-05.png"
 
 #SCRIPT ORIGINAL 基本的にいちごは授業を聞いていないから分かっていないだけだ。
+#SCRIPT UNTRANSLATED
 基本的にいちごは授業を聞いていないから分かっていないだけだ。
 
 #SCRIPT ORIGINAL 公式さえ教えてあげれば、後はオレが試しに解いた一問目の応用で次々と類題を解いていった。
+#SCRIPT UNTRANSLATED
 公式さえ教えてあげれば、後はオレが試しに解いた一問目の応用で次々と類題を解いていった。
 
 event		"event\EV_ICH_020-05.png"
 
 #SCRIPT ORIGINAL 「あははっ、解ける解ける♪　いちご天才かも～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01634
 「あははっ、解ける解ける♪　いちご天才かも～」
 
 #SCRIPT ORIGINAL 数学を好きな人間は、解けたときの嬉しさを知っているからだ。
+#SCRIPT UNTRANSLATED
 数学を好きな人間は、解けたときの嬉しさを知っているからだ。
 
 #SCRIPT ORIGINAL いちごもこれを機に算数を好きになってくれるといいけど。
+#SCRIPT UNTRANSLATED
 いちごもこれを機に算数を好きになってくれるといいけど。
 
 event_fast	"event\EV_ICH_020-03.png"
 
 #SCRIPT ORIGINAL 「うわっ、パパ！　正くんが凄いスピードで自転車をこいでるっ！！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01635
 「うわっ、パパ！　正くんが凄いスピードで自転車をこいでるっ！！」
 
 #SCRIPT ORIGINAL 「うん？　いちごの答えは……時速７６キロ？　確かに凄いな」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん？　いちごの答えは……時速７６キロ？　確かに凄いな」
 
 #SCRIPT ORIGINAL 「これは引っ掛けだな。こことここが時速と分速になってて、単位が違うだろ？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「これは引っ掛けだな。こことここが時速と分速になってて、単位が違うだろ？」
 
 event_fast	"event\EV_ICH_020-04.png"
 
 #SCRIPT ORIGINAL 「う～、面倒くさい……。正くん、車に乗ればいいのに……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01636
 「う～、面倒くさい……。正くん、車に乗ればいいのに……」
 
 #SCRIPT ORIGINAL 「それは誰しもが抱く気持ちだな」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それは誰しもが抱く気持ちだな」
 
 #SCRIPT ORIGINAL 「とりあえず、この問題はこっちの数字を６０で割ることから始めるんだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とりあえず、この問題はこっちの数字を６０で割ることから始めるんだ」
 
 event_fast	"event\EV_ICH_020-00.png"
 
 #SCRIPT ORIGINAL 「どうして６０で割るの？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01637
 「どうして６０で割るの？」
 
 #SCRIPT ORIGINAL 「一時間は６０分だろ？　つまり、時速の数を６０個に分けた一つが分速になる」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「一時間は６０分だろ？　つまり、時速の数を６０個に分けた一つが分速になる」
 
 #SCRIPT ORIGINAL 「なるほど～。だったら分速に６０をかけたら時速だね」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01638
 「なるほど～。だったら分速に６０をかけたら時速だね」
 
 #SCRIPT ORIGINAL 「そのとおり。偉いないちご、よく分かった」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そのとおり。偉いないちご、よく分かった」
 
 event_fast	"event\EV_ICH_020-06.png"
 
 #SCRIPT ORIGINAL 「えへへ～♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01639
 「えへへ～♪」
 
 #SCRIPT ORIGINAL 頭をなでられ、嬉しそうに目を細めるいちご。
 #SCRIPT ORIGINAL もう一度問題に向き直って、
+#SCRIPT UNTRANSLATED
 頭をなでられ、嬉しそうに目を細めるいちご。
 もう一度問題に向き直って、
 
 event_fast	"event\EV_ICH_020-01.png"
 
 #SCRIPT ORIGINAL 「でもこのままだと、元の数が６０より小さいから割れないだろ？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でもこのままだと、元の数が６０より小さいから割れないだろ？」
 
 #SCRIPT ORIGINAL 「まずはキロメートルをメートルに直してやるんだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まずはキロメートルをメートルに直してやるんだ」
 
 #SCRIPT ORIGINAL 「えぇっとぉ……１０００メートルが１キロメートルだから……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01640
 「えぇっとぉ……１０００メートルが１キロメートルだから……」
 
 event_fast	"event\EV_ICH_020-00.png"
 
 #SCRIPT ORIGINAL 「この数字に０を３つつければいいのかな？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01641
 「この数字に０を３つつければいいのかな？」
 
 #SCRIPT ORIGINAL 「大正解っ。なんだいちご、やれば出来るじゃないか。ほら、これで全部終わったぞ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「大正解っ。なんだいちご、やれば出来るじゃないか。ほら、これで全部終わったぞ」
 
 event_fast	"event\EV_ICH_020-05.png"
 
 #SCRIPT ORIGINAL 「ほんとだっ！　やったーっ、パパ、頭撫でてーっ♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01642
 「ほんとだっ！　やったーっ、パパ、頭撫でてーっ♪」
 
 #SCRIPT ORIGINAL いちごが満面の笑顔で喜ぶ。
+#SCRIPT UNTRANSLATED
 いちごが満面の笑顔で喜ぶ。
 
 #SCRIPT ORIGINAL そのはしゃぐ様は可愛らしくて、何かこっちまで嬉しくなってくる。
+#SCRIPT UNTRANSLATED
 そのはしゃぐ様は可愛らしくて、何かこっちまで嬉しくなってくる。
 
 event_fast	"event\EV_ICH_020-06.png"
 
 #SCRIPT ORIGINAL 「とりゃっ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とりゃっ」
 
 #SCRIPT ORIGINAL 「あははははっ♪　ボサボサになっちゃうよーっ♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01643
 「あははははっ♪　ボサボサになっちゃうよーっ♪」
 
 #SCRIPT ORIGINAL クシャクシャッと勢いよく、いちごの柔らかい髪の毛を撫で回してやった。
+#SCRIPT UNTRANSLATED
 クシャクシャッと勢いよく、いちごの柔らかい髪の毛を撫で回してやった。
 
 window_close
@@ -503,6 +590,7 @@ label	ichigo_atama_3
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL 「パパー、また勉強教えて～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01644
 「パパー、また勉強教えて～」
 
@@ -512,9 +600,11 @@ wait		100
 @SE07			#部屋のドア閉まる音（パタン）
 
 #SCRIPT ORIGINAL いちごがドリルと筆箱を持ってやって来た。
+#SCRIPT UNTRANSLATED
 いちごがドリルと筆箱を持ってやって来た。
 
 #SCRIPT ORIGINAL 「……いいけど。学校で先生に訊くほうが早いだろ？　オレより教えるのは上手いだろうし」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……いいけど。学校で先生に訊くほうが早いだろ？　オレより教えるのは上手いだろうし」
 
@@ -524,13 +614,16 @@ wait		100
 @ichigo_komaru		#困
 
 #SCRIPT ORIGINAL 「先生に聞くと、授業を聞いてないのがばれちゃうもん」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01645
 「先生に聞くと、授業を聞いてないのがばれちゃうもん」
 
 #SCRIPT ORIGINAL 心配しなくてもとっくにばれてると思うが……まぁこうして頼られて悪い気はしない。
+#SCRIPT UNTRANSLATED
 心配しなくてもとっくにばれてると思うが……まぁこうして頼られて悪い気はしない。
 
 #SCRIPT ORIGINAL 「いいよ。ほら、座って」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いいよ。ほら、座って」
 
@@ -544,6 +637,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うんっ。お邪魔しまーす」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01646
 「うんっ。お邪魔しまーす」
 
@@ -557,217 +651,270 @@ event		"event\EV_ICH_020-00.png"
 @bgm03			#BGM 03 : いちごのテーマ
 
 #SCRIPT ORIGINAL 「さて、今日は何だ？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「さて、今日は何だ？」
 
 #SCRIPT ORIGINAL 「国語。漢字と穴埋め問題が分からないから教えてほしいの」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01647
 「国語。漢字と穴埋め問題が分からないから教えてほしいの」
 
 #SCRIPT ORIGINAL 「ちゃんと一度は考えたか？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちゃんと一度は考えたか？」
 
 #SCRIPT ORIGINAL 「うん。先生から『×』が入ってるところを直すのが宿題なんだよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01648
 「うん。先生から『×』が入ってるところを直すのが宿題なんだよ」
 
 #SCRIPT ORIGINAL どれどれと覗き込むと、少しの『○』とたくさんの『×』。
+#SCRIPT UNTRANSLATED
 どれどれと覗き込むと、少しの『○』とたくさんの『×』。
 
 #SCRIPT ORIGINAL 間違えたところに消しゴムがかけてあるので、返却後にも一度自分で考えてみたのだろう。
+#SCRIPT UNTRANSLATED
 間違えたところに消しゴムがかけてあるので、返却後にも一度自分で考えてみたのだろう。
 
 #SCRIPT ORIGINAL 「よし。それじゃ最初の問題。えっと」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「よし。それじゃ最初の問題。えっと」
 
 #SCRIPT ORIGINAL 『蛇足』
+#SCRIPT UNTRANSLATED
 『蛇足』
 
 #SCRIPT ORIGINAL う～ん、いちごの学年で、難しい漢字を習うんだなぁ。
+#SCRIPT UNTRANSLATED
 う～ん、いちごの学年で、難しい漢字を習うんだなぁ。
 
 #SCRIPT ORIGINAL 「ちなみに、いちごは何て答えた？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちなみに、いちごは何て答えた？」
 
 #SCRIPT ORIGINAL 「へびあし」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01649
 「へびあし」
 
 #SCRIPT ORIGINAL 子供らしい素直な答えで大変微笑ましい。
+#SCRIPT UNTRANSLATED
 子供らしい素直な答えで大変微笑ましい。
 
 #SCRIPT ORIGINAL 「ざくろは『じゃそく』だって言ってた。『そがじゃそく』だって」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01650
 「ざくろは『じゃそく』だって言ってた。『そがじゃそく』だって」
 
 #SCRIPT ORIGINAL 曾我蛇足（そがじゃそく）……室町時代後期の画家。
+#SCRIPT UNTRANSLATED
 曾我蛇足（そがじゃそく）……室町時代後期の画家。
 
 #SCRIPT ORIGINAL 「へぇ、ざくろにも訊いたのか。……何でそんな知識があるのか不明だが」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「へぇ、ざくろにも訊いたのか。……何でそんな知識があるのか不明だが」
 
 #SCRIPT ORIGINAL 「これは『だそく』。あっても意味の無い物をこう呼ぶんだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「これは『だそく』。あっても意味の無い物をこう呼ぶんだ」
 
 event_fast	"event\EV_ICH_020-01.png"
 
 #SCRIPT ORIGINAL 「なるほどー。だ～そ～く～……っと」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01651
 「なるほどー。だ～そ～く～……っと」
 
 #SCRIPT ORIGINAL 漢字の隣にいちごの特徴的な字が並ぶ。
+#SCRIPT UNTRANSLATED
 漢字の隣にいちごの特徴的な字が並ぶ。
 
 #SCRIPT ORIGINAL 「えっと、次は」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えっと、次は」
 
 #SCRIPT ORIGINAL 『足袋』
+#SCRIPT UNTRANSLATED
 『足袋』
 
 event_fast	"event\EV_ICH_020-00.png"
 
 #SCRIPT ORIGINAL 「あしぶくろじゃないの？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01652
 「あしぶくろじゃないの？」
 
 #SCRIPT ORIGINAL 「これも普通には読めない字だな。ちなみに、ざくろは何て？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「これも普通には読めない字だな。ちなみに、ざくろは何て？」
 
 #SCRIPT ORIGINAL 「足の袋だから、『くつした』だって」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01653
 「足の袋だから、『くつした』だって」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 #SCRIPT ORIGINAL （……もしかして、ざくろもあんまり勉強は出来ないのか…？）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……もしかして、ざくろもあんまり勉強は出来ないのか…？）
 
 #SCRIPT ORIGINAL 雑学は多そうだが、確かに机に向かって勉強してる姿は想像できない。
+#SCRIPT UNTRANSLATED
 雑学は多そうだが、確かに机に向かって勉強してる姿は想像できない。
 
 #SCRIPT ORIGINAL 「あと、これを『たび』って読むのは恥ずかしい意味だから、絶対ダメだってざくろが言ってたよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01654
 「あと、これを『たび』って読むのは恥ずかしい意味だから、絶対ダメだってざくろが言ってたよ」
 
 #SCRIPT ORIGINAL 「……残念。これは『たび』って読むんだよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……残念。これは『たび』って読むんだよ」
 
 event_fast	"event\EV_ICH_020-03.png"
 
 #SCRIPT ORIGINAL 「うそッ！？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01655
 「うそッ！？」
 
 #SCRIPT ORIGINAL 前言撤回。ざくろは分かってて、いちごで遊んでいるだけか。
+#SCRIPT UNTRANSLATED
 前言撤回。ざくろは分かってて、いちごで遊んでいるだけか。
 
 #SCRIPT ORIGINAL 「酷いーー！！　ざくろ、あんまりだーっ！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01656
 「酷いーー！！　ざくろ、あんまりだーっ！」
 
 #SCRIPT ORIGINAL 「悪気は無いと思うぞ、うん。いちごが好きでからかってるだけだと思う」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「悪気は無いと思うぞ、うん。いちごが好きでからかってるだけだと思う」
 
 #SCRIPT ORIGINAL よく分からないけど……ざくろの場合、嫌いならこんな微笑ましいイタズラじゃすまない気がする。
+#SCRIPT UNTRANSLATED
 よく分からないけど……ざくろの場合、嫌いならこんな微笑ましいイタズラじゃすまない気がする。
 
 #SCRIPT ORIGINAL 「次の問題は？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「次の問題は？」
 
 event_fast	"event\EV_ICH_020-04.png"
 
 #SCRIPT ORIGINAL 「む～……次は穴埋め問題……。ざくろに教えてもらったんだけど……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01657
 「む～……次は穴埋め問題……。ざくろに教えてもらったんだけど……」
 
 #SCRIPT ORIGINAL 『○肉○食』
+#SCRIPT UNTRANSLATED
 『○肉○食』
 
 #SCRIPT ORIGINAL 「……ざくろは、何て？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ざくろは、何て？」
 
 event_fast	"event\EV_ICH_020-00.png"
 
 #SCRIPT ORIGINAL 「『ふにくあくじき』だって。身体に悪いものばかり食べてることだって言ってた」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01658
 「『ふにくあくじき』だって。身体に悪いものばかり食べてることだって言ってた」
 
 #SCRIPT ORIGINAL 解答欄の横に『腐肉悪食』といちごが書き込む。
+#SCRIPT UNTRANSLATED
 解答欄の横に『腐肉悪食』といちごが書き込む。
 
 #SCRIPT ORIGINAL 気付かないか……当て字もいいところだ。
+#SCRIPT UNTRANSLATED
 気付かないか……当て字もいいところだ。
 
 #SCRIPT ORIGINAL 「でも、一応意味は通ってるのか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でも、一応意味は通ってるのか」
 
 event_fast	"event\EV_ICH_020-03.png"
 
 #SCRIPT ORIGINAL 「えっ、合ってるの？　焼肉定食じゃないんだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01659
 「えっ、合ってるの？　焼肉定食じゃないんだ」
 
 #SCRIPT ORIGINAL 「いや、どっちも間違い。正解は弱肉強食。弱いものは強いものに食べられるってこと」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、どっちも間違い。正解は弱肉強食。弱いものは強いものに食べられるってこと」
 
 #SCRIPT ORIGINAL オレの言葉に頷きながら、いちごがカリカリと空白に漢字を埋めていく。
+#SCRIPT UNTRANSLATED
 オレの言葉に頷きながら、いちごがカリカリと空白に漢字を埋めていく。
 
 event_fast	"event\EV_ICH_020-01.png"
 
 #SCRIPT ORIGINAL 「焼肉が食べたいよ～」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01660
 「焼肉が食べたいよ～」
 
 #SCRIPT ORIGINAL 「……いちご、焼肉定食になってる」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……いちご、焼肉定食になってる」
 
 event_fast	"event\EV_ICH_020-03.png"
 
 #SCRIPT ORIGINAL 「わっ。ほんとだっ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01661
 「わっ。ほんとだっ」
 
 event_fast	"event\EV_ICH_020-01.png"
 
 #SCRIPT ORIGINAL 慌てて直すいちごだが、頭の中に焼肉はこびりついている様だ。
+#SCRIPT UNTRANSLATED
 慌てて直すいちごだが、頭の中に焼肉はこびりついている様だ。
 
 #SCRIPT ORIGINAL クゥ、とお腹が鳴ったりしている。
+#SCRIPT UNTRANSLATED
 クゥ、とお腹が鳴ったりしている。
 
 #SCRIPT ORIGINAL 「確か今日は魚料理って言ってたな」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「確か今日は魚料理って言ってたな」
 
 #SCRIPT ORIGINAL 「今度、夕食を焼き肉にしてもらうように頼んでみるか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今度、夕食を焼き肉にしてもらうように頼んでみるか」
 
 event_fast	"event\EV_ICH_020-05.png"
 
 #SCRIPT ORIGINAL 「ほんとっ！？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01662
 「ほんとっ！？」
 
 #SCRIPT ORIGINAL 「やったーっ！　焼き肉ーッ焼き肉ーッ♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01663
 「やったーっ！　焼き肉ーッ焼き肉ーッ♪」
 
@@ -779,6 +926,7 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
 #SCRIPT ORIGINAL 諸手を挙げて喜ぶいちごの手から、握っていたシャーペンがオレの頬を掠めて飛んでいった。
+#SCRIPT UNTRANSLATED
 諸手を挙げて喜ぶいちごの手から、握っていたシャーペンがオレの頬を掠めて飛んでいった。
 
 @ichigo_large		# 近い
@@ -793,6 +941,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「さっそく今日お願いしてみようね、パパ♪　そうと決まったら早く宿題を終わらせよーっと！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01664
 「さっそく今日お願いしてみようね、パパ♪　そうと決まったら早く宿題を終わらせよーっと！」
 
@@ -806,36 +955,44 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「……って、あれ、シャープペンが無い」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01665
 「……って、あれ、シャープペンが無い」
 
 #SCRIPT ORIGINAL 空っぽの手のひらを見て、不思議そうにキョロキョロ。
+#SCRIPT UNTRANSLATED
 空っぽの手のひらを見て、不思議そうにキョロキョロ。
 
 #SCRIPT ORIGINAL 「……ここだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ここだ」
 
 #SCRIPT ORIGINAL かすり傷が付いた頬を撫でながら、ものすごい勢いで射出されたシャーペンを手渡した。
+#SCRIPT UNTRANSLATED
 かすり傷が付いた頬を撫でながら、ものすごい勢いで射出されたシャーペンを手渡した。
 
 @ichigo_yorokobi	#喜
 
 #SCRIPT ORIGINAL 「ようし、頑張ろうっと！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01666
 「ようし、頑張ろうっと！」
 
 #SCRIPT ORIGINAL 「それは結構だけどな。手元にも気をつけるように……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それは結構だけどな。手元にも気をつけるように……」
 
 @ichigo			#普通
 
 #SCRIPT ORIGINAL 「え？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01667
 「え？」
 
 #SCRIPT ORIGINAL （まぁいいけど……やる気を邪魔するのも悪いし）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （まぁいいけど……やる気を邪魔するのも悪いし）
 
@@ -846,12 +1003,15 @@ bgm_stop
 wait		1000
 
 #SCRIPT ORIGINAL それから晩御飯まで、いちごは勉強を頑張った。
+#SCRIPT UNTRANSLATED
 それから晩御飯まで、いちごは勉強を頑張った。
 
 #SCRIPT ORIGINAL 焼き肉がいい励みになったんだと思う。
+#SCRIPT UNTRANSLATED
 焼き肉がいい励みになったんだと思う。
 
 #SCRIPT ORIGINAL ご褒美の意味もかねて、ぜひ美雨に焼き肉を了承してもらえるよう真剣にお願いしてみないといけないな。
+#SCRIPT UNTRANSLATED
 ご褒美の意味もかねて、ぜひ美雨に焼き肉を了承してもらえるよう真剣にお願いしてみないといけないな。
 
 #（スケジュール）
@@ -868,9 +1028,11 @@ label	ichigo_atama_4
 @bg_dining		# 食堂
 
 #SCRIPT ORIGINAL 少し浮ついた気持ちで過ごす夕食の待ち時間。
+#SCRIPT UNTRANSLATED
 少し浮ついた気持ちで過ごす夕食の待ち時間。
 
 #SCRIPT ORIGINAL 今日はみんなで鉄板を囲んで座っていた。
+#SCRIPT UNTRANSLATED
 今日はみんなで鉄板を囲んで座っていた。
 
 @shizuku_small
@@ -878,25 +1040,30 @@ label	ichigo_atama_4
 @shizuku_yorokobi	#喜
 
 #SCRIPT ORIGINAL 「焼肉とは、いい日にいたもんだねぇ、あたしも」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01155
 「焼肉とは、いい日にいたもんだねぇ、あたしも」
 
 #SCRIPT ORIGINAL 「ほんと、どこまでくちばしが長いんですか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほんと、どこまでくちばしが長いんですか」
 
 @shizuku_warai		#笑
 
 #SCRIPT ORIGINAL 「日ごろの行いだろ」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01156
 「日ごろの行いだろ」
 
 @bg_black		# 黒
 
 #SCRIPT ORIGINAL そう、今日は以前いちごと約束をした焼肉の日だった。
+#SCRIPT UNTRANSLATED
 そう、今日は以前いちごと約束をした焼肉の日だった。
 
 #SCRIPT ORIGINAL キッチンで下ごしらえをしている美雨の登場を今か今かと待ちわびているのだが……
+#SCRIPT UNTRANSLATED
 キッチンで下ごしらえをしている美雨の登場を今か今かと待ちわびているのだが……
 
 @miu_small
@@ -913,6 +1080,7 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「はい、みんなお待たせ」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01435
 「はい、みんなお待たせ」
 
@@ -935,6 +1103,7 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うん、待った」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00989
 「うん、待った」
 
@@ -950,6 +1119,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「おおおーっ！　お肉いっぱいー！　食べ応えありそー！！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01668
 「おおおーっ！　お肉いっぱいー！　食べ応えありそー！！」
 
@@ -957,9 +1127,11 @@ layer_movepass_play	l_ichigo,0,play_once
 @ichigo_
 
 #SCRIPT ORIGINAL 大皿の上に盛られたたくさんの肉と野菜にいちごが狂喜乱舞。
+#SCRIPT UNTRANSLATED
 大皿の上に盛られたたくさんの肉と野菜にいちごが狂喜乱舞。
 
 #SCRIPT ORIGINAL 他の子たちもその量を覗き込んでは驚き、歓喜の声を上げて夕食が開始された。
+#SCRIPT UNTRANSLATED
 他の子たちもその量を覗き込んでは驚き、歓喜の声を上げて夕食が開始された。
 
 #■EV（みんなで焼き肉）
@@ -968,40 +1140,51 @@ layer_movepass_play	l_ichigo,0,play_once
 event		"event\EV_ALL_021-yakiniku.png"
 
 #SCRIPT ORIGINAL 焼肉といえばこの音。
+#SCRIPT UNTRANSLATED
 焼肉といえばこの音。
 
 #SCRIPT ORIGINAL これはもう、聴覚から食欲をそそられる醍醐味ともいえる。
+#SCRIPT UNTRANSLATED
 これはもう、聴覚から食欲をそそられる醍醐味ともいえる。
 
 #SCRIPT ORIGINAL 「確かに美味そうだ、これは」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「確かに美味そうだ、これは」
 
 #SCRIPT ORIGINAL ここで一つ、オレは完全に火が通るまで待つ、〝じっくりと肉を焼く〟派。
+#SCRIPT UNTRANSLATED
 ここで一つ、オレは完全に火が通るまで待つ、〝じっくりと肉を焼く〟派。
 
 #SCRIPT ORIGINAL またの名を〝食べず終い〟派とも言う。
+#SCRIPT UNTRANSLATED
 またの名を〝食べず終い〟派とも言う。
 
 #SCRIPT ORIGINAL 「いただきまーすっ！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01669
 「いただきまーすっ！」
 
 #SCRIPT ORIGINAL 「いただきますっ！」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01209
 「いただきますっ！」
 
 #SCRIPT ORIGINAL まだ完全に焼ききっていない肉を摘み上げ、みかんといちごがムシャムシャ頬張り始めた。
+#SCRIPT UNTRANSLATED
 まだ完全に焼ききっていない肉を摘み上げ、みかんといちごがムシャムシャ頬張り始めた。
 
 #SCRIPT ORIGINAL 「うん、美味い。スーパーの安物と違って、ちゃんとした肉屋で良い肉を買ってきてるからね」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01157
 「うん、美味い。スーパーの安物と違って、ちゃんとした肉屋で良い肉を買ってきてるからね」
 
 #SCRIPT ORIGINAL 雫さんも、オレが焼けるのを待っていたハラミをヒョイと持っていってしまう。
+#SCRIPT UNTRANSLATED
 雫さんも、オレが焼けるのを待っていたハラミをヒョイと持っていってしまう。
 
 #SCRIPT ORIGINAL 「青ノリ青ノリ」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00990
 「青ノリ青ノリ」
 
@@ -1009,83 +1192,105 @@ event		"event\EV_ALL_021-yakiniku.png"
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
 #SCRIPT ORIGINAL 「あッ、もう！　こっちまで青ノリ飛ばさないでよ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01449
 「あッ、もう！　こっちまで青ノリ飛ばさないでよ」
 
 #SCRIPT ORIGINAL タレへ青ノリをかけるざくろと、それに文句を言うかりんも、既に肉を食べ始めている。
+#SCRIPT UNTRANSLATED
 タレへ青ノリをかけるざくろと、それに文句を言うかりんも、既に肉を食べ始めている。
 
 #SCRIPT ORIGINAL 彼女たちは〝半生でも食べてしまう〟派。
+#SCRIPT UNTRANSLATED
 彼女たちは〝半生でも食べてしまう〟派。
 
 #SCRIPT ORIGINAL またの名を〝お肉独占〟派と言う。
+#SCRIPT UNTRANSLATED
 またの名を〝お肉独占〟派と言う。
 
 #SCRIPT ORIGINAL 「ざくろちゃん、それまだ赤い部分があるよ……？」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｉｋａ,R00337
 「ざくろちゃん、それまだ赤い部分があるよ……？」
 
 #SCRIPT ORIGINAL 「平気。生焼けでも青ノリが美味しいから」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00991
 「平気。生焼けでも青ノリが美味しいから」
 
 #SCRIPT ORIGINAL 「肉を味わわないんだったらノリだけ食べてなさいよッ、もったいないわね」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01450
 「肉を味わわないんだったらノリだけ食べてなさいよッ、もったいないわね」
 
 #SCRIPT ORIGINAL ヒョイヒョイッ。
+#SCRIPT UNTRANSLATED
 ヒョイヒョイッ。
 
 #SCRIPT ORIGINAL 「ああッ！　それボクが焼いてた肉なのに！？」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00289
 「ああッ！　それボクが焼いてた肉なのに！？」
 
 #SCRIPT ORIGINAL 「ぬッ、かりん意地汚い。いちごが狙ってたのにー」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01670
 「ぬッ、かりん意地汚い。いちごが狙ってたのにー」
 
 #SCRIPT ORIGINAL ちなみに、オレと同じ被害を被っているのはすいかとゆず。
+#SCRIPT UNTRANSLATED
 ちなみに、オレと同じ被害を被っているのはすいかとゆず。
 
 #SCRIPT ORIGINAL 美雨はいつも通り甲斐甲斐しく、みんなのご飯をよそったり鉄板に肉や野菜を乗せたりと動いている。
+#SCRIPT UNTRANSLATED
 美雨はいつも通り甲斐甲斐しく、みんなのご飯をよそったり鉄板に肉や野菜を乗せたりと動いている。
 
 #SCRIPT ORIGINAL 「うん？　樹は食べないのかい？」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01158
 「うん？　樹は食べないのかい？」
 
 #SCRIPT ORIGINAL 「食べないんじゃなくて、食べれないんだよ……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「食べないんじゃなくて、食べれないんだよ……」
 
 #SCRIPT ORIGINAL みんなのせいで、とは言えない。
 #SCRIPT ORIGINAL 人それぞれ好みがあって当然だ。半生で食べるのは悪いことじゃない。
+#SCRIPT UNTRANSLATED
 みんなのせいで、とは言えない。
 人それぞれ好みがあって当然だ。半生で食べるのは悪いことじゃない。
 
 #SCRIPT ORIGINAL 「えーっ、パパ、お肉きらいなのっ？　だったらいちごが食べてあげるね♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01671
 「えーっ、パパ、お肉きらいなのっ？　だったらいちごが食べてあげるね♪」
 
 #SCRIPT ORIGINAL 「それなら最初に言いなさいよ。あなたの所に肉がかたまってるじゃない」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01451
 「それなら最初に言いなさいよ。あなたの所に肉がかたまってるじゃない」
 
 #SCRIPT ORIGINAL 「みかんも手伝ってあげるっ♪」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01210
 「みかんも手伝ってあげるっ♪」
 
 #SCRIPT ORIGINAL ヒョイヒョイッ。
+#SCRIPT UNTRANSLATED
 ヒョイヒョイッ。
 
 #SCRIPT ORIGINAL 「だったら樹は野菜係だな。ほら、キャベツとかどんどん食べて肉のスペースを空けてくれ」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01159
 「だったら樹は野菜係だな。ほら、キャベツとかどんどん食べて肉のスペースを空けてくれ」
 
 #SCRIPT ORIGINAL ドサドサ。
+#SCRIPT UNTRANSLATED
 ドサドサ。
 
 #SCRIPT ORIGINAL 「青ノリかけたら、嫌いじゃなくなるかも」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00992
 「青ノリかけたら、嫌いじゃなくなるかも」
 
@@ -1094,60 +1299,75 @@ event		"event\EV_ALL_021-yakiniku.png"
 #ザクザク。
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 #SCRIPT ORIGINAL いじめがあるのか、この施設は。
+#SCRIPT UNTRANSLATED
 いじめがあるのか、この施設は。
 
 #SCRIPT ORIGINAL 「院長先生。私のお肉焼けましたから、よかったらどうぞ」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｉｋａ,R00338
 「院長先生。私のお肉焼けましたから、よかったらどうぞ」
 
 #SCRIPT ORIGINAL 「あッ、ボクのもボクのも♪　ちょうどいい具合に焼けてますよ」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00290
 「あッ、ボクのもボクのも♪　ちょうどいい具合に焼けてますよ」
 
 #SCRIPT ORIGINAL 「いい子だねぇ、君達は」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いい子だねぇ、君達は」
 
 #SCRIPT ORIGINAL 「……けど敵にキャベツと青ノリに犯されたタレじゃ、満足に食うこともできなんだよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……けど敵にキャベツと青ノリに犯されたタレじゃ、満足に食うこともできなんだよ」
 
 #SCRIPT ORIGINAL 「はい、樹さん。新しいタレです」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01436
 「はい、樹さん。新しいタレです」
 
 #SCRIPT ORIGINAL 「うぅ、ありがとう、ありがとう」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うぅ、ありがとう、ありがとう」
 
 #SCRIPT ORIGINAL 何かもう三人が天使のように見えてきたぞ。
+#SCRIPT UNTRANSLATED
 何かもう三人が天使のように見えてきたぞ。
 
 #SCRIPT ORIGINAL 「……」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00993
 「……」
 
 #SCRIPT ORIGINAL 「あ、かりんちゃん、そこの塩コショウ取って。タンに振るから」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01211
 「あ、かりんちゃん、そこの塩コショウ取って。タンに振るから」
 
 #SCRIPT ORIGINAL 「ええ、はい。こっちの肉も大丈夫みたいよ、みかん」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01452
 「ええ、はい。こっちの肉も大丈夫みたいよ、みかん」
 
 #SCRIPT ORIGINAL 「カルビ美味しー♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01672
 「カルビ美味しー♪」
 
 #SCRIPT ORIGINAL しかしここで満足してたら、この四人に肉を食べつくされるのは必死。
+#SCRIPT UNTRANSLATED
 しかしここで満足してたら、この四人に肉を食べつくされるのは必死。
 
 #SCRIPT ORIGINAL オレの流儀に反するが食えないよりはマシだ。
 #SCRIPT ORIGINAL 生焼けにも手を出すべきか。
+#SCRIPT UNTRANSLATED
 オレの流儀に反するが食えないよりはマシだ。
 生焼けにも手を出すべきか。
 
@@ -1171,13 +1391,16 @@ label	ichigo_atama01_a
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 食べ物に関しては執着深いみかんだが……
+#SCRIPT UNTRANSLATED
 食べ物に関しては執着深いみかんだが……
 
 #SCRIPT ORIGINAL （すまんみかん。君もクセ者だが、他のメンツはさらに濃すぎるんだ）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （すまんみかん。君もクセ者だが、他のメンツはさらに濃すぎるんだ）
 
 #SCRIPT ORIGINAL 頭の中で謝罪しながら、心を鬼にしてみかんの肉へ箸を伸ばす。
+#SCRIPT UNTRANSLATED
 頭の中で謝罪しながら、心を鬼にしてみかんの肉へ箸を伸ばす。
 
 #SE37　金属衝突音（カキィンッ！
@@ -1188,71 +1411,89 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 se		0,	"sound\se\SE37_金属衝突音.WAV",play_wait
 
 #SCRIPT ORIGINAL 「なに？　この箸は」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01453
 「なに？　この箸は」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 #SCRIPT ORIGINAL そうだ、かりんの存在を忘れてた……
+#SCRIPT UNTRANSLATED
 そうだ、かりんの存在を忘れてた……
 
 #SCRIPT ORIGINAL 「？　どうしたの、お兄ちゃん。かりんちゃんとお箸絡めて」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01212
 「？　どうしたの、お兄ちゃん。かりんちゃんとお箸絡めて」
 
 #SCRIPT ORIGINAL 「ダメ、今のこの男は危険よみかん。この肉欲に餓えた目を見てみなさい」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01454
 「ダメ、今のこの男は危険よみかん。この肉欲に餓えた目を見てみなさい」
 
 #SCRIPT ORIGINAL 「肉欲って言うな。果てしなく意味が違って聞こえる」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「肉欲って言うな。果てしなく意味が違って聞こえる」
 
 #SCRIPT ORIGINAL 「よく言うわ、この箸が何よりの証拠じゃない」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01455
 「よく言うわ、この箸が何よりの証拠じゃない」
 
 #SCRIPT ORIGINAL 「みかんのお肉を渇望し、むしゃぶりつこうとしてる獣の目よ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01456
 「みかんのお肉を渇望し、むしゃぶりつこうとしてる獣の目よ」
 
 #SCRIPT ORIGINAL 「だからッ、変な言い方するな！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だからッ、変な言い方するな！」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00994
 「………」
 
 #SCRIPT ORIGINAL 「見ろッ、ざくろが何か突飛な事を言いたそうにこっち見てる！！　こっち見んなッ！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「見ろッ、ざくろが何か突飛な事を言いたそうにこっち見てる！！　こっち見んなッ！」
 
 #SCRIPT ORIGINAL 「お肉欲しいなら、私の食べる？」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00995
 「お肉欲しいなら、私の食べる？」
 
 #SCRIPT ORIGINAL このタイミングで言われても、何を指して〝お肉〟なのか全然分からんしッ！！
+#SCRIPT UNTRANSLATED
 このタイミングで言われても、何を指して〝お肉〟なのか全然分からんしッ！！
 
 #SCRIPT ORIGINAL 「あ、お兄ちゃんの所のお肉が食べ頃になってる♪」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01213
 「あ、お兄ちゃんの所のお肉が食べ頃になってる♪」
 
 #SCRIPT ORIGINAL 「隙だらけッ、いちごも貰いーっと♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01673
 「隙だらけッ、いちごも貰いーっと♪」
 
 #SCRIPT ORIGINAL ヒョイヒョイッ！
+#SCRIPT UNTRANSLATED
 ヒョイヒョイッ！
 
 #SCRIPT ORIGINAL 「うッ！！　うかつな……ッ！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うッ！！　うかつな……ッ！」
 
 #SCRIPT ORIGINAL 中途半端に手を付けようとした隙に、自陣の肉たちが全て持っていかれてしまった。
+#SCRIPT UNTRANSLATED
 中途半端に手を付けようとした隙に、自陣の肉たちが全て持っていかれてしまった。
 
 #--------------------------------------------------
@@ -1267,108 +1508,136 @@ label	ichigo_atama01_b
 
 #SCRIPT ORIGINAL かりん、か………攻略法が難しいな。
 #SCRIPT ORIGINAL シャレが軽く通じるほど打ち解けられてないし。
+#SCRIPT UNTRANSLATED
 かりん、か………攻略法が難しいな。
 シャレが軽く通じるほど打ち解けられてないし。
 
 #SCRIPT ORIGINAL となると、隙を計って奪い取るか。
+#SCRIPT UNTRANSLATED
 となると、隙を計って奪い取るか。
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 #SCRIPT ORIGINAL 「……？」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01457
 「……？」
 
 #SCRIPT ORIGINAL 「な……何よ、ジッと見て。気持ち悪いわね……」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01458
 「な……何よ、ジッと見て。気持ち悪いわね……」
 
 #SCRIPT ORIGINAL 「気にするな、見たいから見てるだけだ。食事の邪魔する気はない」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「気にするな、見たいから見てるだけだ。食事の邪魔する気はない」
 
 #SCRIPT ORIGINAL 「み、見たいからって……どうせまた変なこと考えてるんでしょう」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01459
 「み、見たいからって……どうせまた変なこと考えてるんでしょう」
 
 #SCRIPT ORIGINAL 怪訝そうな顔をすると、少し戸惑うように言い捨てて、また肉の攻略にかかる。
+#SCRIPT UNTRANSLATED
 怪訝そうな顔をすると、少し戸惑うように言い捨てて、また肉の攻略にかかる。
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 #SCRIPT ORIGINAL それをジッと観察。
 #SCRIPT ORIGINAL 隙を見逃さないように……
+#SCRIPT UNTRANSLATED
 それをジッと観察。
 隙を見逃さないように……
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01460
 「………」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01461
 「………」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
 #SCRIPT ORIGINAL 「う～………」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01462
 「う～………」
 
 #SCRIPT ORIGINAL かなり居心地悪そうだ。
+#SCRIPT UNTRANSLATED
 かなり居心地悪そうだ。
 
 #SCRIPT ORIGINAL 何かモジモジしてる感じは新鮮だが、かりんもこっちをチラチラと見るせいで隙なんか出来そうに無い。
+#SCRIPT UNTRANSLATED
 何かモジモジしてる感じは新鮮だが、かりんもこっちをチラチラと見るせいで隙なんか出来そうに無い。
 
 #SCRIPT ORIGINAL 「………？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01214
 「………？」
 
 #SCRIPT ORIGINAL その間もちゃくちゃくと肉を消化しているみかんが、不思議そうに首を傾げていた。
+#SCRIPT UNTRANSLATED
 その間もちゃくちゃくと肉を消化しているみかんが、不思議そうに首を傾げていた。
 
 #SCRIPT ORIGINAL 「お兄ちゃんとかりんちゃん、何してるの？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01215
 「お兄ちゃんとかりんちゃん、何してるの？」
 
 #SCRIPT ORIGINAL 「えっ、私は、その……っ、別に……樹がジロジロ見てくるから」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01463
 「えっ、私は、その……っ、別に……樹がジロジロ見てくるから」
 
 #SCRIPT ORIGINAL 「………ちょっと待てみかん、それは何を食べてるんだ？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………ちょっと待てみかん、それは何を食べてるんだ？」
 
 #SCRIPT ORIGINAL 「え？　塩タンだよ」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01216
 「え？　塩タンだよ」
 
 #SCRIPT ORIGINAL タンは確か、鉄板上の食べ頃のものはオレが焼いていたものだけのはず。
+#SCRIPT UNTRANSLATED
 タンは確か、鉄板上の食べ頃のものはオレが焼いていたものだけのはず。
 
 #SCRIPT ORIGINAL 恐々と手元に視線を落としてみると、ちょうど最後の一切れがざくろによってさらわれていく瞬間だった。
+#SCRIPT UNTRANSLATED
 恐々と手元に視線を落としてみると、ちょうど最後の一切れがざくろによってさらわれていく瞬間だった。
 
 #SCRIPT ORIGINAL 「ごちそうさま」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00996
 「ごちそうさま」
 
 #SCRIPT ORIGINAL 「マジか……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「マジか……」
 
 #SCRIPT ORIGINAL 結局、隙を窺っていたオレが一番隙だらけだったというオチだった。
+#SCRIPT UNTRANSLATED
 結局、隙を窺っていたオレが一番隙だらけだったというオチだった。
 
 #--------------------------------------------------
@@ -1382,53 +1651,66 @@ label	ichigo_atama01_c
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL いちご……って、マジか？
+#SCRIPT UNTRANSLATED
 いちご……って、マジか？
 
 #SCRIPT ORIGINAL 食べ物の恨みは墓場まで持って行きそうな子だぞ。
+#SCRIPT UNTRANSLATED
 食べ物の恨みは墓場まで持って行きそうな子だぞ。
 
 #SCRIPT ORIGINAL 「ミノ美味しーッ！！　ブニョブニョしてるー」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01674
 「ミノ美味しーッ！！　ブニョブニョしてるー」
 
 #SCRIPT ORIGINAL 「さ、さすがにそれは生焼けで食べる自信無いわ……」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01464
 「さ、さすがにそれは生焼けで食べる自信無いわ……」
 
 #SCRIPT ORIGINAL 「へへへー♪　独り占めー」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01675
 「へへへー♪　独り占めー」
 
 #SCRIPT ORIGINAL ……いけそうな気がする。
 #SCRIPT ORIGINAL まぁ失礼な話、いちごバカだし。サッと取ったら気付かないかも。
+#SCRIPT UNTRANSLATED
 ……いけそうな気がする。
 まぁ失礼な話、いちごバカだし。サッと取ったら気付かないかも。
 
 #SCRIPT ORIGINAL 「あ、みかん、いちごの鳥にも塩コショウ振って」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01676
 「あ、みかん、いちごの鳥にも塩コショウ振って」
 
 #SCRIPT ORIGINAL 「いちご、焼く前に振る方法もあるのよ」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00997
 「いちご、焼く前に振る方法もあるのよ」
 
 #SCRIPT ORIGINAL 「味をつけてから焼いて、それをタレにつけて食べるの」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00998
 「味をつけてから焼いて、それをタレにつけて食べるの」
 
 #SCRIPT ORIGINAL 「へー、そうなんだ？　だからざくろちゃんも、焼く前に青ノリかけてるの？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01217
 「へー、そうなんだ？　だからざくろちゃんも、焼く前に青ノリかけてるの？」
 
 #SCRIPT ORIGINAL 「ちょッ！？　青ノリかけた肉なんか乗せないでよッ。鉄板にこびり付くでしょ！」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01465
 「ちょッ！？　青ノリかけた肉なんか乗せないでよッ。鉄板にこびり付くでしょ！」
 
 #SCRIPT ORIGINAL 「………よし」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………よし」
 
 #SCRIPT ORIGINAL どうせ取るなら、微妙な会話で盛り上がってる今がチャンスだ！
+#SCRIPT UNTRANSLATED
 どうせ取るなら、微妙な会話で盛り上がってる今がチャンスだ！
 
 #SE50　風を切る音（ヒュンッ）
@@ -1438,55 +1720,69 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
 #SCRIPT ORIGINAL いちごの意識が肉から離れてる間に、サッと箸を伸ばして奪い取る。
+#SCRIPT UNTRANSLATED
 いちごの意識が肉から離れてる間に、サッと箸を伸ばして奪い取る。
 
 #SCRIPT ORIGINAL （何だ、意外と簡単に奪えてしまった。拍子抜けだな）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （何だ、意外と簡単に奪えてしまった。拍子抜けだな）
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q00999
 「………」
 
 #SCRIPT ORIGINAL 「じゃ、いちごも焼いてみようっと――――え？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01677
 「じゃ、いちごも焼いてみようっと――――え？」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 #SCRIPT ORIGINAL パクッ………
+#SCRIPT UNTRANSLATED
 パクッ………
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01678
 「…………」
 
 #SCRIPT ORIGINAL （うあ、ヤバ……思いっきり見られたまま口に入れてしまった）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （うあ、ヤバ……思いっきり見られたまま口に入れてしまった）
 
 #SCRIPT ORIGINAL 何か会話の延長で見せた笑顔のまま、いちごが硬直してこっち見てる。
+#SCRIPT UNTRANSLATED
 何か会話の延長で見せた笑顔のまま、いちごが硬直してこっち見てる。
 
 #SCRIPT ORIGINAL 「……食べた」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01000
 「……食べた」
 
 #SCRIPT ORIGINAL 「食べたわね」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01466
 「食べたわね」
 
 #SCRIPT ORIGINAL 「食べちゃった……」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01218
 「食べちゃった……」
 
 #SCRIPT ORIGINAL 「待て君ら、そんなサラウンドで一斉に責めなくても」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待て君ら、そんなサラウンドで一斉に責めなくても」
 
 #SCRIPT ORIGINAL 「むきーーーー！！！！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01679
 「むきーーーー！！！！」
 
@@ -1494,6 +1790,7 @@ se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 @SE41			#SE41　暴れる音（ドタンッバタンッ！）
 
 #SCRIPT ORIGINAL 怒り狂ったいちごの突進により、その後オレの蓄えていた肉は全滅させられたのだった……
+#SCRIPT UNTRANSLATED
 怒り狂ったいちごの突進により、その後オレの蓄えていた肉は全滅させられたのだった……
 
 se_stop		0
@@ -1509,63 +1806,80 @@ label	ichigo_atama01_d
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL ざくろ……って、
+#SCRIPT UNTRANSLATED
 ざくろ……って、
 
 #SCRIPT ORIGINAL 何でよ……
+#SCRIPT UNTRANSLATED
 何でよ……
 
 #SCRIPT ORIGINAL 「……？　何？」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01001
 「……？　何？」
 
 #SCRIPT ORIGINAL 「いや、別に……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、別に……」
 
 #SCRIPT ORIGINAL 改めて見るまでもなく、彼女の有する領域の肉には残らず青ノリが振り掛けられている。
+#SCRIPT UNTRANSLATED
 改めて見るまでもなく、彼女の有する領域の肉には残らず青ノリが振り掛けられている。
 
 #SCRIPT ORIGINAL （……これを食うのか）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……これを食うのか）
 
 #SCRIPT ORIGINAL まぁ、選択したからには、食わねばならんだろうな。
+#SCRIPT UNTRANSLATED
 まぁ、選択したからには、食わねばならんだろうな。
 
 #SCRIPT ORIGINAL 「ざくろ、オレもそれ貰っていいか……？　不本意だが」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ざくろ、オレもそれ貰っていいか……？　不本意だが」
 
 #SCRIPT ORIGINAL 「えっ！？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01219
 「えっ！？」
 
 #SCRIPT ORIGINAL 「あ、あなた、現実を見て言ってるの？　ざくろのそれはもう肉とは別の物体よ？」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01467
 「あ、あなた、現実を見て言ってるの？　ざくろのそれはもう肉とは別の物体よ？」
 
 #SCRIPT ORIGINAL 「オレもそう思うんだが……しかし選択されたんだからしょうがないだろ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレもそう思うんだが……しかし選択されたんだからしょうがないだろ」
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01002
 「………」
 
 #SCRIPT ORIGINAL ジッと自分の肉を見て思案するざくろ。
+#SCRIPT UNTRANSLATED
 ジッと自分の肉を見て思案するざくろ。
 
 #SCRIPT ORIGINAL ここで改めるが、あくまでもメインは肉であって青ノリではない。
+#SCRIPT UNTRANSLATED
 ここで改めるが、あくまでもメインは肉であって青ノリではない。
 
 #SCRIPT ORIGINAL （そんなの当たり前だが……）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （そんなの当たり前だが……）
 
 #SCRIPT ORIGINAL ……もちろん、当たり前のはずだったのだが、
+#SCRIPT UNTRANSLATED
 ……もちろん、当たり前のはずだったのだが、
 
 #SCRIPT ORIGINAL 「別にいい。どうぞ」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01003
 「別にいい。どうぞ」
 
@@ -1573,36 +1887,45 @@ label	ichigo_atama01_d
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
 #SCRIPT ORIGINAL 僅かに残っていたオレの肉に、容赦なく青ノリの雨嵐が降り注ぐ。
+#SCRIPT UNTRANSLATED
 僅かに残っていたオレの肉に、容赦なく青ノリの雨嵐が降り注ぐ。
 
 #SCRIPT ORIGINAL 「大盛り大サービス」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01004
 「大盛り大サービス」
 
 #SCRIPT ORIGINAL 「……何でこんなことするん」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……何でこんなことするん」
 
 #SCRIPT ORIGINAL 青々とした山にうずもれた肉を見て、それだけ言うのが精一杯だった。
+#SCRIPT UNTRANSLATED
 青々とした山にうずもれた肉を見て、それだけ言うのが精一杯だった。
 
 #SCRIPT ORIGINAL 「……？」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01005
 「……？」
 
 #SCRIPT ORIGINAL 「いや、もういい……素で不思議そうに首を傾げるな。これ全部ざくろにやるから」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、もういい……素で不思議そうに首を傾げるな。これ全部ざくろにやるから」
 
 #SCRIPT ORIGINAL 「え～～！！　何でざくろばっかり。ずるいずるい～～！！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01680
 「え～～！！　何でざくろばっかり。ずるいずるい～～！！」
 
 #SCRIPT ORIGINAL 「欲しいなら持ってっていいぞ。もはや肉と青ノリどっちがメインなのか分からん物体だが」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「欲しいなら持ってっていいぞ。もはや肉と青ノリどっちがメインなのか分からん物体だが」
 
 #SCRIPT ORIGINAL 結局、余計な行動を起こしたせいで、数少ない所持肉すらも失ってしまったのだった。
+#SCRIPT UNTRANSLATED
 結局、余計な行動を起こしたせいで、数少ない所持肉すらも失ってしまったのだった。
 
 #--------------------------------------------------
@@ -1620,21 +1943,27 @@ se_stop		0
 @bg_black
 
 #SCRIPT ORIGINAL …………………
+#SCRIPT UNTRANSLATED
 …………………
 
 #SCRIPT ORIGINAL ……………
+#SCRIPT UNTRANSLATED
 ……………
 
 #SCRIPT ORIGINAL ………
+#SCRIPT UNTRANSLATED
 ………
 
 #SCRIPT ORIGINAL 食事が始まって数十分。
+#SCRIPT UNTRANSLATED
 食事が始まって数十分。
 
 #SCRIPT ORIGINAL 子供たちが食い漁るにもかかわらず、大量に買い込んだ肉は未だに無くならない。
+#SCRIPT UNTRANSLATED
 子供たちが食い漁るにもかかわらず、大量に買い込んだ肉は未だに無くならない。
 
 #SCRIPT ORIGINAL 普通ならさすがに、最初は肉に夢中になっていた子達も落ち着き始める頃だろうが……
+#SCRIPT UNTRANSLATED
 普通ならさすがに、最初は肉に夢中になっていた子達も落ち着き始める頃だろうが……
 
 #■EV（みんなで焼き肉）
@@ -1642,10 +1971,12 @@ se_stop		0
 event		"event\EV_ALL_021-yakiniku.png"
 
 #SCRIPT ORIGINAL 「わはははっ！　ここでお肉ハンターのいちごが、華麗にざくろのカルビをゲットーッ♪」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01681
 「わはははっ！　ここでお肉ハンターのいちごが、華麗にざくろのカルビをゲットーッ♪」
 
 #SCRIPT ORIGINAL 「無理」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01006
 「無理」
 
@@ -1653,119 +1984,151 @@ event		"event\EV_ALL_021-yakiniku.png"
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 #SCRIPT ORIGINAL バキッ！
+#SCRIPT UNTRANSLATED
 バキッ！
 
 #SCRIPT ORIGINAL 「うわぁっ！　お箸でいちごのお箸が折られたっ！？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01682
 「うわぁっ！　お箸でいちごのお箸が折られたっ！？」
 
 #SCRIPT ORIGINAL 「ちょっ、何よこれ、箸の破片？　私のタレに変なもの飛ばしてこないでよッ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01468
 「ちょっ、何よこれ、箸の破片？　私のタレに変なもの飛ばしてこないでよッ」
 
 #SCRIPT ORIGINAL 「美雨さん、ご飯おかわりっ。早く早くっ、お肉が無くなっちゃうよっ」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01220
 「美雨さん、ご飯おかわりっ。早く早くっ、お肉が無くなっちゃうよっ」
 
 #SCRIPT ORIGINAL 「……たくさんあるんだから、ちょっとは落ち着けって」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……たくさんあるんだから、ちょっとは落ち着けって」
 
 #SCRIPT ORIGINAL 静かになるような気配をちっとも感じさせない。
+#SCRIPT UNTRANSLATED
 静かになるような気配をちっとも感じさせない。
 
 #SCRIPT ORIGINAL 「みんな、すごいですね……。私もうお腹いっぱいかも……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｉｋａ,R00339
 「みんな、すごいですね……。私もうお腹いっぱいかも……」
 
 #SCRIPT ORIGINAL 既に箸を引っ込めているすいか。
+#SCRIPT UNTRANSLATED
 既に箸を引っ込めているすいか。
 
 #SCRIPT ORIGINAL オレと同じ食べず終い派なのに、実はちゃっかりとそれなりの量を食べていたりする。
+#SCRIPT UNTRANSLATED
 オレと同じ食べず終い派なのに、実はちゃっかりとそれなりの量を食べていたりする。
 
 #SCRIPT ORIGINAL 「ゆずは、食べてるか？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆずは、食べてるか？」
 
 #SCRIPT ORIGINAL 「はいっ、少しずつですけど」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00291
 「はいっ、少しずつですけど」
 
 #SCRIPT ORIGINAL 少なくともオレよりは食べているようだ。
+#SCRIPT UNTRANSLATED
 少なくともオレよりは食べているようだ。
 
 #SCRIPT ORIGINAL （……もしかして、オレの要領が悪いだけ？）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……もしかして、オレの要領が悪いだけ？）
 
 #SCRIPT ORIGINAL 「ムグ、ゴクン……。そういえばさ」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01160
 「ムグ、ゴクン……。そういえばさ」
 
 #SCRIPT ORIGINAL 鉄板の方へ目を向けていた雫さんが、久しぶりにオレの方を見上げた。
+#SCRIPT UNTRANSLATED
 鉄板の方へ目を向けていた雫さんが、久しぶりにオレの方を見上げた。
 
 #SCRIPT ORIGINAL 箸はやっぱり肉を掴んでいるけど。
+#SCRIPT UNTRANSLATED
 箸はやっぱり肉を掴んでいるけど。
 
 #SCRIPT ORIGINAL 「今日の焼き肉は、樹が美雨に頼んだんだって？」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01161
 「今日の焼き肉は、樹が美雨に頼んだんだって？」
 
 #SCRIPT ORIGINAL 「ここまで奮発させるなんて、よほど頼み込んだんじゃないのかい？」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01162
 「ここまで奮発させるなんて、よほど頼み込んだんじゃないのかい？」
 
 #SCRIPT ORIGINAL 「ええ、まぁ。いちごと約束したので」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ええ、まぁ。いちごと約束したので」
 
 #SCRIPT ORIGINAL 「へぇ、約束？」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01163
 「へぇ、約束？」
 
 #SCRIPT ORIGINAL 「いちごが勉強を頑張ったから、そのご褒美の代わりにって」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごが勉強を頑張ったから、そのご褒美の代わりにって」
 
 #SCRIPT ORIGINAL 「そっか、勉強を頑張………え？」
+#SCRIPT UNTRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01164
 「そっか、勉強を頑張………え？」
 
 #SCRIPT ORIGINAL ……………
+#SCRIPT UNTRANSLATED
 ……………
 
 #SCRIPT ORIGINAL …………
+#SCRIPT UNTRANSLATED
 …………
 
 #SCRIPT ORIGINAL 一瞬、場が固まる。
+#SCRIPT UNTRANSLATED
 一瞬、場が固まる。
 
 #SCRIPT ORIGINAL 「え？　いちごちゃんが勉強を頑張った……？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｋａｎ,A01221
 「え？　いちごちゃんが勉強を頑張った……？」
 
 #SCRIPT ORIGINAL 「ありえないわ……」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01469
 「ありえないわ……」
 
 #SCRIPT ORIGINAL 「………何それ。新しい調教？　プレイ？」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01007
 「………何それ。新しい調教？　プレイ？」
 
 #SCRIPT ORIGINAL 「あら、いいですね。調教と勉強が一緒に出来たら一石二鳥ですよ」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01437
 「あら、いいですね。調教と勉強が一緒に出来たら一石二鳥ですよ」
 
 #SCRIPT ORIGINAL 「なるか？　そんなもの一緒に……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なるか？　そんなもの一緒に……」
 
 #SCRIPT ORIGINAL 固まった時の微妙な間の取り方とか、何気に酷いし。
+#SCRIPT UNTRANSLATED
 固まった時の微妙な間の取り方とか、何気に酷いし。
 
 #SCRIPT ORIGINAL そもそも勉強が調教になるって、どういう状況だよ。
+#SCRIPT UNTRANSLATED
 そもそも勉強が調教になるって、どういう状況だよ。
 
 se_stop		0
@@ -1779,20 +2142,24 @@ event		"event\EV_ICH_020-07.png"
 @bgm10			#BGM 10 : エッチシーンのテーマ
 
 #SCRIPT ORIGINAL 「ぁ、っふあ……、いちご、算数の問題解けちゃったよぉ……っ、はぁ、ん……っんふぁ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01683
 「ぁ、っふあ……、いちご、算数の問題解けちゃったよぉ……っ、はぁ、ん……っんふぁ」
 
 #SCRIPT ORIGINAL 「気持ちいいかい、いちご？　ほら次は社会科。農家の山下さんのお話だよ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「気持ちいいかい、いちご？　ほら次は社会科。農家の山下さんのお話だよ」
 
 event_fast	"event\EV_ICH_020-08.png"
 
 #SCRIPT ORIGINAL 「はぁぁ、あんッ！　んくぅん……そんな、ダメぇ山下さんっ…」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01684
 「はぁぁ、あんッ！　んくぅん……そんな、ダメぇ山下さんっ…」
 
 #SCRIPT ORIGINAL 「栽培の方法なんて話されたら……いちご興奮して、我慢できなくなっちゃうよぉッ……ふぁあッ、んぁうん！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01685
 「栽培の方法なんて話されたら……いちご興奮して、我慢できなくなっちゃうよぉッ……ふぁあッ、んぁうん！」
 
@@ -1806,63 +2173,78 @@ screen_whitein 		2000
 event		"event\EV_ALL_021-yakiniku.png"
 
 #SCRIPT ORIGINAL 「なんじゃそりゃ……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なんじゃそりゃ……」
 
 @bgm12			#演：仮ＢＧＭ
 
 #SCRIPT ORIGINAL そんな調教してたら授業中なんかグチョグチョじゃん。
+#SCRIPT UNTRANSLATED
 そんな調教してたら授業中なんかグチョグチョじゃん。
 
 #SCRIPT ORIGINAL 「もうっ、違うよぉ！　いちご、パパに教えてもらって勉強がんばったの！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01686
 「もうっ、違うよぉ！　いちご、パパに教えてもらって勉強がんばったの！」
 
 #SCRIPT ORIGINAL てっきり肉に夢中だと思っていたいちごが、好き勝手に言われて怒り出す。
+#SCRIPT UNTRANSLATED
 てっきり肉に夢中だと思っていたいちごが、好き勝手に言われて怒り出す。
 
 #SCRIPT ORIGINAL 「お肉お肉」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01008
 「お肉お肉」
 
 #SCRIPT ORIGINAL が、その隙に、ざくろにロースを持っていかれていた。
+#SCRIPT UNTRANSLATED
 が、その隙に、ざくろにロースを持っていかれていた。
 
 #SCRIPT ORIGINAL 「あーーっ！！　それいちごのお肉ー！！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01687
 「あーーっ！！　それいちごのお肉ー！！」
 
 #SCRIPT ORIGINAL 「名前書いてなかったから」
+#SCRIPT UNTRANSLATED
 ＠Ｚａｋｕｒｏ,Q01009
 「名前書いてなかったから」
 
 #SCRIPT ORIGINAL 「ちくしょー！　名前かッ！！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01688
 「ちくしょー！　名前かッ！！」
 
 #SCRIPT ORIGINAL 「美雨、マジック貸して！　今あるお肉に全部いちごの名前書くっ！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｃｈｉｇｏ,O01689
 「美雨、マジック貸して！　今あるお肉に全部いちごの名前書くっ！」
 
 #SCRIPT ORIGINAL 「青ノリよりたち悪いでしょッ、そんなこと！」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P01470
 「青ノリよりたち悪いでしょッ、そんなこと！」
 
 #SCRIPT ORIGINAL 「ふふ。みんな楽しそうで良かったですね」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01438
 「ふふ。みんな楽しそうで良かったですね」
 
 #SCRIPT ORIGINAL 「楽しそうって言うか、何か無意味に闘争心がむき出しになってるような気がするが」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「楽しそうって言うか、何か無意味に闘争心がむき出しになってるような気がするが」
 
 #SCRIPT ORIGINAL でも美雨の言うとおり、みんな焼き肉を喜んでいるのは間違いない。
+#SCRIPT UNTRANSLATED
 でも美雨の言うとおり、みんな焼き肉を喜んでいるのは間違いない。
 
 se_stop		0
 bgm_stop
 
 #SCRIPT ORIGINAL （……騒がしすぎるけど、たまにならいいかな、こういうのも）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……騒がしすぎるけど、たまにならいいかな、こういうのも）
 

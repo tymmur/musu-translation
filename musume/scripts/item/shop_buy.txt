@@ -78,15 +78,18 @@ goto	shopitem_end
 label	shopitem_schoolware
 
 #SCRIPT ORIGINAL 「スクール水着ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00030
 「スクール水着ですね……」
 
 #SCRIPT ORIGINAL 「個人的にはスク水は、ピチピチよりちょっとブカブカぐらいがいいと思います……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00031
 「個人的にはスク水は、ピチピチよりちょっとブカブカぐらいがいいと思います……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00032
 「お値段は[_PRICE]円になります……」
 
@@ -96,15 +99,18 @@ goto	shopitem_buy
 label	shopitem_videocamera
 
 #SCRIPT ORIGINAL 「デジタルビデオカメラですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00033
 「デジタルビデオカメラですね……」
 
 #SCRIPT ORIGINAL 「やっぱり、いいセックスはいつまでも記録に残しておきたいですよね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00034
 「やっぱり、いいセックスはいつまでも記録に残しておきたいですよね……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00035
 「お値段は[_PRICE]円になります……」
 
@@ -114,14 +120,17 @@ goto	shopitem_buy
 label	shopitem_bunny
 
 #SCRIPT ORIGINAL 「バニースーツですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00036
 「バニースーツですね……」
 
 #SCRIPT ORIGINAL 「たまにはこういう、レトロでミッドセンチュリーな味わいもよろしいかもしれません……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00037
 「たまにはこういう、レトロでミッドセンチュリーな味わいもよろしいかもしれません……」
 
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00038
 「お値段は[_PRICE]円になります……」
 
@@ -130,23 +139,28 @@ goto	shopitem_buy
 label	shopitem_buruma
 
 #SCRIPT ORIGINAL 「体操服ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00039
 「体操服ですね……」
 
 #SCRIPT ORIGINAL 「下はブルマになりますが、よろしいでしょうか？」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00040
 「下はブルマになりますが、よろしいでしょうか？」
 
 #SCRIPT ORIGINAL 「え？　ああ……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？　ああ……」
 
 #SCRIPT ORIGINAL 「個人的にはスパッツなども好きなのですが、まだまだ一般的ではないようです……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00041
 「個人的にはスパッツなども好きなのですが、まだまだ一般的ではないようです……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00042
 「お値段は[_PRICE]円になります……」
 
@@ -157,23 +171,28 @@ goto	shopitem_buy
 label	shopitem_analbelt
 
 #SCRIPT ORIGINAL 「アナル拡張ベルト……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00043
 「アナル拡張ベルト……」
 
 #SCRIPT ORIGINAL 「やっぱり、拡張されたいんですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00044
 「やっぱり、拡張されたいんですね……」
 
 #SCRIPT ORIGINAL 「い、いや、オレが拡張されるわけじゃ……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いや、オレが拡張されるわけじゃ……」
 
 #SCRIPT ORIGINAL 「恥ずかしがらなくてもいいです。みんな気持ちいいんですから……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00045
 「恥ずかしがらなくてもいいです。みんな気持ちいいんですから……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00046
 「お値段は[_PRICE]円になります……」
 
@@ -187,22 +206,27 @@ rand	rnd,0,1
 if rnd=1 then goto	shopitem_facemask2
 
 #SCRIPT ORIGINAL 「フェイスクラッチマスクですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00047
 「フェイスクラッチマスクですね……」
 
 #SCRIPT ORIGINAL 「これさえあれば、嫌がる女の子にも精液を飲ませられます……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00048
 「これさえあれば、嫌がる女の子にも精液を飲ませられます……」
 
 #SCRIPT ORIGINAL 「わたしは……最近飲んでないですが……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00049
 「わたしは……最近飲んでないですが……」
 
 #SCRIPT ORIGINAL 巣蓋さんは少し寂しそうにつぶやいた。
+#SCRIPT UNTRANSLATED
 巣蓋さんは少し寂しそうにつぶやいた。
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00050
 「お値段は[_PRICE]円になります……」
 
@@ -214,19 +238,23 @@ goto	shopitem_buy
 label	shopitem_facemask2
 
 #SCRIPT ORIGINAL 「フェイスクラッチマスク、ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00361
 「フェイスクラッチマスク、ですね……」
 
 #SCRIPT ORIGINAL 「これをはめたら、自由に口も閉じられない、ただの肉穴と化してしまいます……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00362
 「これをはめたら、自由に口も閉じられない、ただの肉穴と化してしまいます……」
 
 #SCRIPT ORIGINAL 「考えただけでゾクゾクしますね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00363
 「考えただけでゾクゾクしますね……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00364
 「お値段は[_PRICE]円になります……」
 
@@ -236,19 +264,23 @@ goto	shopitem_buy
 label	shopitem_computer
 
 #SCRIPT ORIGINAL 「パソコンですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00051
 「パソコンですね……」
 
 #SCRIPT ORIGINAL 「やっぱり、変態サイトを見たりとか、変態写真をネットにアップしたりとか、いろいろ便利ですよ……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00052
 「やっぱり、変態サイトを見たりとか、変態写真をネットにアップしたりとか、いろいろ便利ですよ……」
 
 #SCRIPT ORIGINAL 「サービスでエロゲも３本プリインストールしてあります」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00053
 「サービスでエロゲも３本プリインストールしてあります」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は、[_PRICE]円です……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00054
 「お値段は、[_PRICE]円です……」
 
@@ -259,26 +291,32 @@ goto	shopitem_buy
 label	shopitem_teisoutai
 
 #SCRIPT ORIGINAL 「それじゃ、注文しておいた貞操帯を……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃ、注文しておいた貞操帯を……」
 
 #SCRIPT ORIGINAL 「あ、はい。ご用意してございます」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00055
 「あ、はい。ご用意してございます」
 
 #SCRIPT ORIGINAL 巣蓋さんはカウンターの裏から黒い紙袋を取り出した。
+#SCRIPT UNTRANSLATED
 巣蓋さんはカウンターの裏から黒い紙袋を取り出した。
 
 #SCRIPT ORIGINAL 「大変だと思いますが、頑張ってくださいね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00056
 「大変だと思いますが、頑張ってくださいね……」
 
 #SCRIPT ORIGINAL 「頑張ったぶんだけ、愛情も深まりますから……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00057
 「頑張ったぶんだけ、愛情も深まりますから……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00058
 「お値段は[_PRICE]円になります……」
 
@@ -289,14 +327,17 @@ goto	shopitem_buy
 label	shopitem_whip1
 
 #SCRIPT ORIGINAL 「バラムチですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00059
 「バラムチですね……」
 
 #SCRIPT ORIGINAL 「派手な音がするわりに力は分散されますから、入門者には最適です……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00060
 「派手な音がするわりに力は分散されますから、入門者には最適です……」
 
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00061
 「お値段は[_PRICE]円になります……」
 
@@ -307,15 +348,18 @@ goto	shopitem_buy
 label	shopitem_whip2
 
 #SCRIPT ORIGINAL 「一本ムチですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00062
 「一本ムチですね……」
 
 #SCRIPT ORIGINAL 「本格アイテムですから、取り扱いには十分注意してください……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00063
 「本格アイテムですから、取り扱いには十分注意してください……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00064
 「お値段は[_PRICE]円になります……」
 
@@ -326,15 +370,18 @@ goto	shopitem_buy
 label	shopitem_candle
 
 #SCRIPT ORIGINAL 「ろうそくですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00065
 「ろうそくですね……」
 
 #SCRIPT ORIGINAL 「一般的なものより低温で溶けますから、火傷の心配はないと思います……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00066
 「一般的なものより低温で溶けますから、火傷の心配はないと思います……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00067
 「お値段は[_PRICE]円になります……」
 
@@ -345,23 +392,28 @@ goto	shopitem_buy
 label	shopitem_analbead
 
 #SCRIPT ORIGINAL 「アナルビーズですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00068
 「アナルビーズですね……」
 
 #SCRIPT ORIGINAL 「やっぱり、拡張されたいんですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00069
 「やっぱり、拡張されたいんですね……」
 
 #SCRIPT ORIGINAL 「い、いや、オレが拡張されるわけじゃ……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いや、オレが拡張されるわけじゃ……」
 
 #SCRIPT ORIGINAL 「恥ずかしがらなくてもいいです。これを一気に抜かれるのは最高ですよ……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00070
 「恥ずかしがらなくてもいいです。これを一気に抜かれるのは最高ですよ……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00071
 「お値段は[_PRICE]円になります……」
 
@@ -372,23 +424,28 @@ goto	shopitem_buy
 label	shopitem_analvibe
 
 #SCRIPT ORIGINAL 「やっぱり、アナルバイブを購入されるんですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00072
 「やっぱり、アナルバイブを購入されるんですね……」
 
 #SCRIPT ORIGINAL 「頑張ってください……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00073
 「頑張ってください……」
 
 #SCRIPT ORIGINAL 「じ、自分で使うわけじゃないんだが……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じ、自分で使うわけじゃないんだが……」
 
 #SCRIPT ORIGINAL 「恥ずかしがらなくてもいいです。みんな気持ちいいんですから……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00074
 「恥ずかしがらなくてもいいです。みんな気持ちいいんですから……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00075
 「お値段は[_PRICE]円になります……」
 
@@ -399,15 +456,18 @@ goto	shopitem_buy
 label	shopitem_vibe
 
 #SCRIPT ORIGINAL 「普通のバイブですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00076
 「普通のバイブですね……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「クリバイブも付いてこちらのお値段、大変お買い得になっております……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00077
 「クリバイブも付いてこちらのお値段、大変お買い得になっております……」
 
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00075
 「お値段は[_PRICE]円になります……」
 
@@ -418,14 +478,17 @@ goto	shopitem_buy
 label	shopitem_bigvibe
 
 #SCRIPT ORIGINAL 「極太バイブですか……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00078
 「極太バイブですか……」
 
 #SCRIPT ORIGINAL 「男の方も、いろいろ大変ですよね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00079
 「男の方も、いろいろ大変ですよね……」
 
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00080
 「お値段は[_PRICE]円になります……」
 
@@ -436,15 +499,18 @@ goto	shopitem_buy
 label	shopitem_grass
 
 #SCRIPT ORIGINAL 「眼鏡ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00081
 「眼鏡ですね……」
 
 #SCRIPT ORIGINAL 「わたしも好きです、眼鏡男子……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00082
 「わたしも好きです、眼鏡男子……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00083
 「お値段は[_PRICE]円になります……」
 
@@ -455,15 +521,18 @@ goto	shopitem_buy
 label	shopitem_bondage
 
 #SCRIPT ORIGINAL 「ボンデージ服ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00084
 「ボンデージ服ですね……」
 
 #SCRIPT ORIGINAL 「この光沢感は最高の仕上がりですよ……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00085
 「この光沢感は最高の仕上がりですよ……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00086
 「お値段は[_PRICE]円になります……」
 
@@ -849,19 +918,23 @@ goto	shopitem_buy
 label	shopitem_ballgag
 
 #SCRIPT ORIGINAL 「ボールギャグ、ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00350
 「ボールギャグ、ですね……」
 
 #不明瞭部分「～……このように、何を言っているのか解らなくなります……」
 #SCRIPT ORIGINAL 「こちら、装着いたしますと……ほほほうひ、はひをひっへひふほはわはははふはひはふ……ぷはぁっ、羞恥プレイに最適です……どうぞ」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00351
 「こちら、装着いたしますと……ほほほうひ、はひをひっへひふほはわはははふはひはふ……ぷはぁっ、羞恥プレイに最適です……どうぞ」
 
 #SCRIPT ORIGINAL その今はめたやつを売るんかい。あ、よだれついてる……。
+#SCRIPT UNTRANSLATED
 その今はめたやつを売るんかい。あ、よだれついてる……。
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00352
 「お値段は[_PRICE]円になります……」
 
@@ -873,18 +946,22 @@ goto	shopitem_buy
 label shopitem_penisband
 
 #SCRIPT ORIGINAL 「ペニスバンド、ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00343
 「ペニスバンド、ですね……」
 
 #SCRIPT ORIGINAL 「こちら、少々特殊で凶悪な作りとなっておりまして……こんなので犯されたら……私……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00344
 「こちら、少々特殊で凶悪な作りとなっておりまして……こんなので犯されたら……私……」
 
 #SCRIPT ORIGINAL ど、どんな作りなんだ？
+#SCRIPT UNTRANSLATED
 ど、どんな作りなんだ？
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00345
 「お値段は[_PRICE]円になります……」
 
@@ -896,22 +973,27 @@ goto	shopitem_buy
 label	shopitem_nekomimi
 
 #SCRIPT ORIGINAL 「ねこみみ、ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00346
 「ねこみみ、ですね……」
 
 #SCRIPT ORIGINAL 「これを付けるだけで、どんな方でも『ねこみみもーど』に大変身です……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00347
 「これを付けるだけで、どんな方でも『ねこみみもーど』に大変身です……」
 
 #SCRIPT ORIGINAL 「こちら、私も愛用させていただいております……いえ、愛用させられていただいております……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00348
 「こちら、私も愛用させていただいております……いえ、愛用させられていただいております……」
 
 #SCRIPT ORIGINAL その猫耳は付け耳だったのか……。
+#SCRIPT UNTRANSLATED
 その猫耳は付け耳だったのか……。
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00349
 「お値段は[_PRICE]円になります……」
 
@@ -923,19 +1005,23 @@ goto	shopitem_buy
 label	shopitem_mokuba
 
 #SCRIPT ORIGINAL 「三角木馬、ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00353
 「三角木馬、ですね……」
 
 #SCRIPT ORIGINAL 「このシャープな三角の頂点が、私の心の何かを刺激してやまないのです……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00354
 「このシャープな三角の頂点が、私の心の何かを刺激してやまないのです……」
 
 #SCRIPT ORIGINAL 「はぁ……じゅる……いけない、よだれが……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00355
 「はぁ……じゅる……いけない、よだれが……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は、ちょっとお高めの[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00356
 「お値段は、ちょっとお高めの[_PRICE]円になります……」
 
@@ -947,19 +1033,23 @@ goto	shopitem_buy
 label	shopitem_fookniddle
 
 #SCRIPT ORIGINAL 「フック針、ですね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00357
 「フック針、ですね……」
 
 #SCRIPT ORIGINAL 「一般的に『フック針』といえば、魚釣りに使われますが……こちらはもっと太く、頑丈な作りとなっております……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00358
 「一般的に『フック針』といえば、魚釣りに使われますが……こちらはもっと太く、頑丈な作りとなっております……」
 
 #SCRIPT ORIGINAL 「その気になれば、人間も釣れますね……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00359
 「その気になれば、人間も釣れますね……」
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00360
 「お値段は[_PRICE]円になります……」
 
@@ -972,6 +1062,7 @@ label	shopitem_hanyou
 
 #テキストでは、正規の値段を表示
 #SCRIPT ORIGINAL 「お値段は[_PRICE]円になります……」
+#SCRIPT UNTRANSLATED
 ＠Ｓｕｂｕｔａ,H00360
 「お値段は[_PRICE]円になります……」
 

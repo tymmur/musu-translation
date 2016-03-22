@@ -1476,12 +1476,14 @@ label		hika04_qa01_re
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL さて……誰を調教しようか。
+#SCRIPT UNTRANSLATED
 さて……誰を調教しようか。
 
 @training_charasel
 if training_chara=0 then return
 
 #SCRIPT ORIGINAL これでいいのか？
+#SCRIPT UNTRANSLATED
 これでいいのか？
 
 #--------------------------------------------------
@@ -1501,10 +1503,12 @@ if sel=1 then goto hika04_qa01_b
 label		hika04_qa01_a
 
 #SCRIPT ORIGINAL 「よし、今日はこれで行こうか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「よし、今日はこれで行こうか」
 
 #SCRIPT ORIGINAL 「……っと、今日は先にオレが相手を呼んでおかないといけないのか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……っと、今日は先にオレが相手を呼んでおかないといけないのか」
 
@@ -1513,6 +1517,7 @@ bgm_stop
 @bg_black
 
 #SCRIPT ORIGINAL とりあえず今日も、調教開始だ。
+#SCRIPT UNTRANSLATED
 とりあえず今日も、調教開始だ。
 
 @bg_black
@@ -1526,6 +1531,7 @@ return
 label		hika04_qa01_b
 
 #SCRIPT ORIGINAL やっぱりもう少し考え直そう。
+#SCRIPT UNTRANSLATED
 やっぱりもう少し考え直そう。
 
 #（キャラ選択へ）→以下ループ

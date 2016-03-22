@@ -14,37 +14,45 @@ bgm_stop
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL みかんの部屋の前を通りかかると、中から楽しげな声が聞こえてきた。
+#SCRIPT UNTRANSLATED
 みかんの部屋の前を通りかかると、中から楽しげな声が聞こえてきた。
 
 #CH（立ち絵なし）
 @bg_door		# ドア前
 
 #SCRIPT ORIGINAL 「ひーちゃん、これこれ。こっちが正解だよきっと」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01830
 「ひーちゃん、これこれ。こっちが正解だよきっと」
 
 #SCRIPT ORIGINAL 「う…？　んぅ～……迷うの～」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00346
 「う…？　んぅ～……迷うの～」
 
 #SCRIPT ORIGINAL 「さ、どれにする？　どちらか一枚がハズレよ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02272
 「さ、どれにする？　どちらか一枚がハズレよ」
 
 #SCRIPT ORIGINAL かりんが居るのはデフォとして、今日はそこにひかりも混ざっているようだ。
+#SCRIPT UNTRANSLATED
 かりんが居るのはデフォとして、今日はそこにひかりも混ざっているようだ。
 
 #SCRIPT ORIGINAL （……ふむ。変な性癖をうつされてないか心配だな）
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 （……ふむ。変な性癖をうつされてないか心配だな）
 
 #SCRIPT ORIGINAL どんな心配の仕方だ……
+#SCRIPT UNTRANSLATED
 どんな心配の仕方だ……
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL 「みかん～、入るぞ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「みかん～、入るぞ」
 
@@ -66,6 +74,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「あ、お兄ちゃん」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01831
 「あ、お兄ちゃん」
 
@@ -77,6 +86,7 @@ wait		500
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「げ……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02273
 「げ……」
 
@@ -99,10 +109,12 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「お父しゃんだ～♪」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00347
 「お父しゃんだ～♪」
 
 #SCRIPT ORIGINAL 「予想通りの反応だな。特にかりん……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「予想通りの反応だな。特にかりん……」
 
@@ -113,19 +125,23 @@ wait		500
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「ふん。いいでしょ、別に」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02274
 「ふん。いいでしょ、別に」
 
 @chara_clear		#保険
 
 #SCRIPT ORIGINAL まぁオレも、今に始まったことじゃないから慣れてきつつあるが……
+#SCRIPT UNTRANSLATED
 まぁオレも、今に始まったことじゃないから慣れてきつつあるが……
 
 #SCRIPT ORIGINAL 「……？」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00348
 「……？」
 
 #SCRIPT ORIGINAL 「トランプしてたのか。三人で」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「トランプしてたのか。三人で」
 
@@ -141,6 +157,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ひーちゃんも入れて、ババ抜きしてたの。お兄ちゃんも一緒にやろう！」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01832
 「ひーちゃんも入れて、ババ抜きしてたの。お兄ちゃんも一緒にやろう！」
 
@@ -158,10 +175,12 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うんッ、お父しゃんもやろ！　やろう！」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00349
 「うんッ、お父しゃんもやろ！　やろう！」
 
 #SCRIPT ORIGINAL 「ん～、そうだな。少し混ざって行こうか」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ん～、そうだな。少し混ざって行こうか」
 
@@ -172,10 +191,12 @@ wait		500
 @karin_bubetsu		#侮蔑
 
 #SCRIPT ORIGINAL 「残念だけどダメよ。このトランプは三人用だから」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02275
 「残念だけどダメよ。このトランプは三人用だから」
 
 #SCRIPT ORIGINAL 「……お前はどっかの金持ちお坊ちゃまか」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……お前はどっかの金持ちお坊ちゃまか」
 
@@ -189,6 +210,7 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「失礼ねッ。誰がキツネ顔よ！」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02276
 「失礼ねッ。誰がキツネ顔よ！」
 
@@ -200,21 +222,26 @@ wait		500
 @hikari_komaru		#困.png
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00350
 「…………」
 
 #SCRIPT ORIGINAL 「かりんお姉しゃん、お父しゃんと喧嘩してゆの……？」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00351
 「かりんお姉しゃん、お父しゃんと喧嘩してゆの……？」
 
 #SCRIPT ORIGINAL 「え…？」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02277
 「え…？」
 
 #SCRIPT ORIGINAL そんなオレとかりんのやり取りを見て、ひかりが困惑気に尋ねてきた。
+#SCRIPT UNTRANSLATED
 そんなオレとかりんのやり取りを見て、ひかりが困惑気に尋ねてきた。
 
 #SCRIPT ORIGINAL 「ひーちゃん、喧嘩嫌いなの。かりんお姉しゃん喧嘩中なの……？」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00352
 「ひーちゃん、喧嘩嫌いなの。かりんお姉しゃん喧嘩中なの……？」
 
@@ -225,6 +252,7 @@ wait		500
 @karin_odoroki		#驚
 
 #SCRIPT ORIGINAL 「え……えっと、喧嘩って言うか、私が樹のことを嫌いなのよ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02278
 「え……えっと、喧嘩って言うか、私が樹のことを嫌いなのよ」
 
@@ -235,20 +263,24 @@ wait		500
 @mikan_odoroki		#驚
 
 #SCRIPT ORIGINAL 「えッ、そうだったの！？」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01833
 「えッ、そうだったの！？」
 
 #SCRIPT ORIGINAL 「……えらく直球で言われるものだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……えらく直球で言われるものだ」
 
 #SCRIPT ORIGINAL 「っていうか、みかんは今ごろ気付いたのか……？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「っていうか、みかんは今ごろ気付いたのか……？」
 
 @mikan_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「だ、だってみかん、てっきりかりんちゃん照れてるだけだと思ってたから」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01834
 「だ、だってみかん、てっきりかりんちゃん照れてるだけだと思ってたから」
 
@@ -259,6 +291,7 @@ wait		500
 @karin_ikari		#怒
 
 #SCRIPT ORIGINAL 「て、照れてなんかないっ。私が照れるのは生涯で一人、みかんだけよッ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02279
 「て、照れてなんかないっ。私が照れるのは生涯で一人、みかんだけよッ」
 
@@ -269,10 +302,12 @@ wait		500
 @hikari_ikari		#怒.png
 
 #SCRIPT ORIGINAL 「う～……」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00353
 「う～……」
 
 #SCRIPT ORIGINAL かりんの答えに、ひかりは不満そうに眉を寄せた。
+#SCRIPT UNTRANSLATED
 かりんの答えに、ひかりは不満そうに眉を寄せた。
 
 #///////////////////////////////////////////////////////
@@ -287,12 +322,14 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「お父しゃん、優しくてかっこいいの。嫌いになったらメェッなの」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00354
 「お父しゃん、優しくてかっこいいの。嫌いになったらメェッなの」
 
 layer_movepass_init	l_hikari,0	#演出初期化
 
 #SCRIPT ORIGINAL 「え、う……。メッて言われても……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02280
 「え、う……。メッて言われても……」
 
@@ -305,6 +342,7 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「メェッなの！　お父しゃんのこと嫌いなかりんお姉しゃん、ひーちゃんも嫌いなのっ」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00355
 「メェッなの！　お父しゃんのこと嫌いなかりんお姉しゃん、ひーちゃんも嫌いなのっ」
 
@@ -315,6 +353,7 @@ wait		500
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「うッ……うぅう」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02281
 「うッ……うぅう」
 
@@ -331,10 +370,12 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ひ、卑怯よ樹っ。ひーちゃんにこんなこと言わせるなんてっ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02282
 「ひ、卑怯よ樹っ。ひーちゃんにこんなこと言わせるなんてっ」
 
 #SCRIPT ORIGINAL 「オレは何もしてないって。ひかりの意思だ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「オレは何もしてないって。ひかりの意思だ」
 
@@ -345,6 +386,7 @@ wait		500
 @mikan_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「かりんちゃん、みかんも喧嘩は良くないと思うな……」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01835
 「かりんちゃん、みかんも喧嘩は良くないと思うな……」
 
@@ -356,19 +398,23 @@ wait		500
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「う、うぅぅ……そんな……なんで私が責められてる構図なの……？」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02283
 「う、うぅぅ……そんな……なんで私が責められてる構図なの……？」
 
 #SCRIPT ORIGINAL 「だって樹が、みかんや私の純潔を奪って……その後もやりたい放題なのに……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02284
 「だって樹が、みかんや私の純潔を奪って……その後もやりたい放題なのに……」
 
 @bg_black
 
 #SCRIPT ORIGINAL 確かに、こんな風にかりんが責められるのは可哀想だ。
+#SCRIPT UNTRANSLATED
 確かに、こんな風にかりんが責められるのは可哀想だ。
 
 #SCRIPT ORIGINAL 常識で考えるとかりんは被害者。そしてオレが責められる立場なはずだし。
+#SCRIPT UNTRANSLATED
 常識で考えるとかりんは被害者。そしてオレが責められる立場なはずだし。
 
 #@chara_clear		#保険
@@ -377,6 +423,7 @@ wait		500
 @bg_mikan		# みかんの部屋
 
 #SCRIPT ORIGINAL 「ひかり、みかん。かりんがオレを嫌うのは理由があるんだ。だから構わないよ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ひかり、みかん。かりんがオレを嫌うのは理由があるんだ。だから構わないよ」
 
@@ -395,10 +442,12 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「だって、お父しゃん悪くないもん……。ひーちゃんお父しゃんのこと大しゅきだもんっ」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00356
 「だって、お父しゃん悪くないもん……。ひーちゃんお父しゃんのこと大しゅきだもんっ」
 
 #SCRIPT ORIGINAL 「何て言えばいいかな……。オレもかりんを傷つけてるんだ。だから―――」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「何て言えばいいかな……。オレもかりんを傷つけてるんだ。だから―――」
 
@@ -416,23 +465,28 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「はぁ……分かった。いいわ。嫌うのを止める」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02285
 「はぁ……分かった。いいわ。嫌うのを止める」
 
 #SCRIPT ORIGINAL ひかりを説得しようとするオレより先に、かりんがため息を吐いて折れた。
+#SCRIPT UNTRANSLATED
 ひかりを説得しようとするオレより先に、かりんがため息を吐いて折れた。
 
 #SCRIPT ORIGINAL 「みかんとひーちゃんに嫌われてまで、樹を責めたい訳じゃないし……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02286
 「みかんとひーちゃんに嫌われてまで、樹を責めたい訳じゃないし……」
 
 #SCRIPT ORIGINAL 「え……いいのか？　かりんの怒りは間違ってないんだぞ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「え……いいのか？　かりんの怒りは間違ってないんだぞ」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「いいのっ、もう！」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02287
 「いいのっ、もう！」
 
@@ -441,15 +495,18 @@ layer_movepass_play	l_karin,0,play_once
 @karin_niko		#にこ
 
 #SCRIPT ORIGINAL 「それに私も、どこかで区切りをつけないとって思ってたし……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02288
 「それに私も、どこかで区切りをつけないとって思ってたし……」
 
 #SCRIPT ORIGINAL ……それって、今はもう実は怒ってなかったって事か？
+#SCRIPT UNTRANSLATED
 ……それって、今はもう実は怒ってなかったって事か？
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「だ、だからひーちゃんもみかんも、私のこと嫌いにならないで」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02289
 「だ、だからひーちゃんもみかんも、私のこと嫌いにならないで」
 
@@ -467,6 +524,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「みかん、かりんちゃんのこと嫌いになんかならないよ。友達だもん」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01836
 「みかん、かりんちゃんのこと嫌いになんかならないよ。友達だもん」
 
@@ -479,6 +537,7 @@ wait		500
 @SE53			#SE53　傷つく言葉（グサッ！）
 
 #SCRIPT ORIGINAL 「う、友達……。マイナスにならなかっただけ、感謝しないと」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02290
 「う、友達……。マイナスにならなかっただけ、感謝しないと」
 
@@ -489,10 +548,12 @@ wait		500
 @hikari_yorokobi	#喜.png
 
 #SCRIPT ORIGINAL 「じゃあ、お父しゃんとかりんお姉しゃん、仲直りーッ♪　ギュッてして、ギュッて」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00357
 「じゃあ、お父しゃんとかりんお姉しゃん、仲直りーッ♪　ギュッてして、ギュッて」
 
 #SCRIPT ORIGINAL 「ギュ？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ギュ？」
 
@@ -506,6 +567,7 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うん！　こうしゅるの！」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00358
 「うん！　こうしゅるの！」
 
@@ -519,9 +581,11 @@ wait			100
 screen_whitein		1
 
 #SCRIPT ORIGINAL 嬉しそうに言うと、ひかりはそのままオレの胸に飛び込んできた。
+#SCRIPT UNTRANSLATED
 嬉しそうに言うと、ひかりはそのままオレの胸に飛び込んできた。
 
 #SCRIPT ORIGINAL 「ぎゅ～ッ♪」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00359
 「ぎゅ～ッ♪」
 
@@ -539,10 +603,12 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「そっ、それを樹とするのっ！？　ここでっ？」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02291
 「そっ、それを樹とするのっ！？　ここでっ？」
 
 #SCRIPT ORIGINAL 「ひーちゃん、お父しゃんのことしゅきだから出来ゆよ。ね、みかんお姉しゃん」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00360
 「ひーちゃん、お父しゃんのことしゅきだから出来ゆよ。ね、みかんお姉しゃん」
 
@@ -553,6 +619,7 @@ wait		500
 @mikan_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「うん、突然は無理だけど。お兄ちゃんが良いって言ってくれたら出来るよ、みかんも」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01837
 「うん、突然は無理だけど。お兄ちゃんが良いって言ってくれたら出来るよ、みかんも」
 
@@ -565,6 +632,7 @@ window_close
 @hikari_yorokobi	#喜.png
 
 #SCRIPT ORIGINAL 「はい。かりんお姉しゃんもぎゅ～ってしてー」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00361
 「はい。かりんお姉しゃんもぎゅ～ってしてー」
 
@@ -575,54 +643,65 @@ wait		500
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「う……そんな」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02292
 「う……そんな」
 
 #SCRIPT ORIGINAL 「……まぁ待て君達。オレに抱きつくことをバロメーターにするのは止めなさい」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……まぁ待て君達。オレに抱きつくことをバロメーターにするのは止めなさい」
 
 #SCRIPT ORIGINAL 「何か、テストされてるみたいでオレがショックだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「何か、テストされてるみたいでオレがショックだ」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「それはどうでもいいけど……。やっぱり今はダメよ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02293
 「それはどうでもいいけど……。やっぱり今はダメよ」
 
 #SCRIPT ORIGINAL 「どうでもいいのか」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「どうでもいいのか」
 
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「だってさっき外で遊んでたし、汗掻いてるし……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02294
 「だってさっき外で遊んでたし、汗掻いてるし……」
 
 #SCRIPT ORIGINAL 「それにまだ昼間じゃない。いつもと状況がぜんぜん違って緊張するし……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02295
 「それにまだ昼間じゃない。いつもと状況がぜんぜん違って緊張するし……」
 
 #SCRIPT ORIGINAL 「……それだと、ギュッてすること自体は嫌じゃないって聞こえる」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……それだと、ギュッてすること自体は嫌じゃないって聞こえる」
 
 @karin_odoroki		#驚
 
 #SCRIPT ORIGINAL 「しょ、しょうがないでしょッ。ひーちゃんとみかんが言うんだから！」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02296
 「しょ、しょうがないでしょッ。ひーちゃんとみかんが言うんだから！」
 
 #SCRIPT ORIGINAL 「かりんちゃん、照れると思うけど大丈夫だよ。お兄ちゃんだもん」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01838
 「かりんちゃん、照れると思うけど大丈夫だよ。お兄ちゃんだもん」
 
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「うぅっ……楽しく遊んでただけなのに。何でこんなことに……」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02297
 「うぅっ……楽しく遊んでただけなのに。何でこんなことに……」
 
@@ -630,6 +709,7 @@ bgm_stop
 @karin_
 
 #SCRIPT ORIGINAL 観念したように、かりんがこちらへ歩み寄ってくる。
+#SCRIPT UNTRANSLATED
 観念したように、かりんがこちらへ歩み寄ってくる。
 
 @karin_large		# 近い
@@ -637,14 +717,17 @@ bgm_stop
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「ひーちゃんがしたみたいに、抱きしめるだけだからね」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02298
 「ひーちゃんがしたみたいに、抱きしめるだけだからね」
 
 #SCRIPT ORIGINAL 「それ以上は何もしないって約束してよ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02299
 「それ以上は何もしないって約束してよ」
 
 #SCRIPT ORIGINAL 「はは……。大変だな、お互いに」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「はは……。大変だな、お互いに」
 
@@ -652,57 +735,71 @@ bgm_stop
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
 #SCRIPT ORIGINAL 同意するように、かりんも僅かに相好を崩した。
+#SCRIPT UNTRANSLATED
 同意するように、かりんも僅かに相好を崩した。
 
 #SCRIPT ORIGINAL 妙な流れを経て、かりんがオレの胸に顔を埋めてくる。
+#SCRIPT UNTRANSLATED
 妙な流れを経て、かりんがオレの胸に顔を埋めてくる。
 
 @bg_white		# 白
 #@SE70			#SE70　衣擦れ音（シュルシュル）
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02300
 「…………」
 
 #SCRIPT ORIGINAL 「わぁ……」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01839
 「わぁ……」
 
 #SCRIPT ORIGINAL 「えへへ～♪　お父しゃんとかりんお姉しゃんも仲直り～♪」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00362
 「えへへ～♪　お父しゃんとかりんお姉しゃんも仲直り～♪」
 
 #SCRIPT ORIGINAL 満足そうなひかりの声と、こちらを見つめるみかんのため息が聞こえた。
+#SCRIPT UNTRANSLATED
 満足そうなひかりの声と、こちらを見つめるみかんのため息が聞こえた。
 
 #SCRIPT ORIGINAL 抱き合うような強い抱擁ではないが、かりんの温もりと、その鼓動はこちらに伝わってくる。
+#SCRIPT UNTRANSLATED
 抱き合うような強い抱擁ではないが、かりんの温もりと、その鼓動はこちらに伝わってくる。
 
 @bg_mikan		# みかんの部屋
 
 #SCRIPT ORIGINAL 「かりん、もう満足してくれたみたいだぞ。お疲れ……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「かりん、もう満足してくれたみたいだぞ。お疲れ……」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02301
 「…………」
 
 #SCRIPT ORIGINAL 「……かりん？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……かりん？」
 
 #SCRIPT ORIGINAL 「ん……うん…」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02302
 「ん……うん…」
 
 #SCRIPT ORIGINAL 気弱に頷きはするが、かりんは顔を伏せてすぐには離れない。
+#SCRIPT UNTRANSLATED
 気弱に頷きはするが、かりんは顔を伏せてすぐには離れない。
 
 #SCRIPT ORIGINAL ……まさか、具合でも悪くなったのか？
+#SCRIPT UNTRANSLATED
 ……まさか、具合でも悪くなったのか？
 
 #SCRIPT ORIGINAL 「おい、かりん？　どうした」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「おい、かりん？　どうした」
 
@@ -710,13 +807,16 @@ bgm_stop
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL 声を掛けるのと同時に、部屋のドアがノックされた。
+#SCRIPT UNTRANSLATED
 声を掛けるのと同時に、部屋のドアがノックされた。
 
 #SCRIPT ORIGINAL 「え…？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「え…？」
 
 #SCRIPT ORIGINAL 「……っ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02303
 「……っ」
 
@@ -730,6 +830,7 @@ wait		1000
 @suika			#普
 
 #SCRIPT ORIGINAL 「んしょ……みかんちゃん、この前の―――え？」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00359
 「んしょ……みかんちゃん、この前の―――え？」
 
@@ -743,21 +844,26 @@ wait			100
 screen_blackin		1
 
 #SCRIPT ORIGINAL 「ぐぶぅッ！？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ぐぶぅッ！？」
 
 #SCRIPT ORIGINAL すいかが入室してきた刹那、かりんからのボディーブローがわき腹に突き刺さった。
+#SCRIPT UNTRANSLATED
 すいかが入室してきた刹那、かりんからのボディーブローがわき腹に突き刺さった。
 
 #SCRIPT ORIGINAL 「うわっ！？　お兄ちゃん！」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01840
 「うわっ！？　お兄ちゃん！」
 
 #SCRIPT ORIGINAL 「お父しゃんッ！」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00363
 「お父しゃんッ！」
 
 #SCRIPT ORIGINAL 「ぐぅッ！　うぉお………こんな至近距離で……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ぐぅッ！　うぉお………こんな至近距離で……」
 
@@ -768,6 +874,7 @@ screen_blackin		1
 @bg_mikan		# みかんの部屋
 
 #SCRIPT ORIGINAL 「えっ、え？　あの……一体何が」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00360
 「えっ、え？　あの……一体何が」
 
@@ -778,20 +885,24 @@ wait		500
 @karin_bubetsu		#侮蔑
 
 #SCRIPT ORIGINAL 「ふふふっ、何でもないわ。樹を殴ろうとしていただけよ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02304
 「ふふふっ、何でもないわ。樹を殴ろうとしていただけよ」
 
 #SCRIPT ORIGINAL 「えっと……。でも今、院長先生とかりんちゃん……」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00361
 「えっと……。でも今、院長先生とかりんちゃん……」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「だ、だから、殴ろうとしていた瞬間よっ。すいかが思ってるような事はぜんぜん無いわ」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02305
 「だ、だから、殴ろうとしていた瞬間よっ。すいかが思ってるような事はぜんぜん無いわ」
 
 #SCRIPT ORIGINAL 「……な、まさか、そんなことを誤魔化すためだけに、こんなパンチ……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……な、まさか、そんなことを誤魔化すためだけに、こんなパンチ……」
 
@@ -799,6 +910,7 @@ wait		500
 @karin_koufun_n		#興奮ｎ
 
 #SCRIPT ORIGINAL 「じゃあね、樹。はあ……身体が穢れたから洗わないと」
+#SCRIPT UNTRANSLATED
 ＠Karin,P02306
 「じゃあね、樹。はあ……身体が穢れたから洗わないと」
 
@@ -808,9 +920,11 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #SCRIPT ORIGINAL スタスタと部屋を出て行ってしまった。
+#SCRIPT UNTRANSLATED
 スタスタと部屋を出て行ってしまった。
 
 #SCRIPT ORIGINAL 怒りか照れか分からないが、頬に赤みを残しながら……
+#SCRIPT UNTRANSLATED
 怒りか照れか分からないが、頬に赤みを残しながら……
 
 @mikan_small
@@ -825,6 +939,7 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「お兄ちゃんっ、大丈夫！？」
+#SCRIPT UNTRANSLATED
 ＠Mikan,A01841
 「お兄ちゃんっ、大丈夫！？」
 
@@ -833,10 +948,12 @@ layer_movepass_play	l_mikan,0,play_once
 @suika_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「……あの、もしかして私、何か不味いときに来てしまったんでしょうか」
+#SCRIPT UNTRANSLATED
 ＠Suika,R00362
 「……あの、もしかして私、何か不味いときに来てしまったんでしょうか」
 
 #SCRIPT ORIGINAL 「そんな事はない……。理不尽だが、誰のせいでも……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「そんな事はない……。理不尽だが、誰のせいでも……」
 
@@ -860,19 +977,23 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うぅう～、お父しゃん、死んじゃヤなのぉ～っ」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00364
 「うぅう～、お父しゃん、死んじゃヤなのぉ～っ」
 
 #SCRIPT ORIGINAL 縁起でもない事を言いながら、本気で泣きそうなひかり。
+#SCRIPT UNTRANSLATED
 縁起でもない事を言いながら、本気で泣きそうなひかり。
 
 @chara_clear		#保険
 @bg_sky			# 空
 
 #SCRIPT ORIGINAL オレも何でこんな仕打ちを受けたのか分からない。
+#SCRIPT UNTRANSLATED
 オレも何でこんな仕打ちを受けたのか分からない。
 
 #SCRIPT ORIGINAL とりあえず、かりんとの仲は微妙なまま、殴られ損というのは確かなようだった。
+#SCRIPT UNTRANSLATED
 とりあえず、かりんとの仲は微妙なまま、殴られ損というのは確かなようだった。
 
 bgm_stop

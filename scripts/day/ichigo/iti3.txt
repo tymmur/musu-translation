@@ -16,13 +16,16 @@ bgm_stop
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL 部屋に来て少しすると、リズムよいノックの音がした。
+#SCRIPT UNTRANSLATED
 部屋に来て少しすると、リズムよいノックの音がした。
 
 #SCRIPT ORIGINAL 「いちごか？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いちごか？」
 
 #SCRIPT ORIGINAL 「うん！　入るよ」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00932
 「うん！　入るよ」
 
@@ -30,6 +33,7 @@ bgm_stop
 @SE06			#部屋のドア開く音（ガチャ）
 
 #SCRIPT ORIGINAL 調教に呼んだいちごが、嬉しそうに入室した。
+#SCRIPT UNTRANSLATED
 調教に呼んだいちごが、嬉しそうに入室した。
 
 window_close
@@ -41,36 +45,44 @@ window_close
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL 「えへへ、よかった、また呼んでもらえて」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00933
 「えへへ、よかった、また呼んでもらえて」
 
 #SCRIPT ORIGINAL 「いちご、この前勝手に休んだから、もう呼んでもらえないかもって思ってたの」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00934
 「いちご、この前勝手に休んだから、もう呼んでもらえないかもって思ってたの」
 
 #SCRIPT ORIGINAL 「そうか、でも心配ない。この前は仕方なかったからな」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「そうか、でも心配ない。この前は仕方なかったからな」
 
 @ichigo_warai		#笑
 
 #SCRIPT ORIGINAL 「うんっ。じゃあ院長せんせい、今日の調教は何するの？」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00935
 「うんっ。じゃあ院長せんせい、今日の調教は何するの？」
 
 @ichigo_
 
 #SCRIPT ORIGINAL いちごが期待してオレの方へ寄り添ってくる。
+#SCRIPT UNTRANSLATED
 いちごが期待してオレの方へ寄り添ってくる。
 
 #SCRIPT ORIGINAL 「いちご、鍵は掛けないと。今は特にな」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いちご、鍵は掛けないと。今は特にな」
 
 #SCRIPT ORIGINAL 獅子身中の虫を警戒して、まずオレはドアの鍵に手を伸ばす。
+#SCRIPT UNTRANSLATED
 獅子身中の虫を警戒して、まずオレはドアの鍵に手を伸ばす。
 
 #SCRIPT ORIGINAL だが、それは一瞬の差で遅かった。
+#SCRIPT UNTRANSLATED
 だが、それは一瞬の差で遅かった。
 
 window_close
@@ -83,10 +95,12 @@ wait		1000
 @houkou_odoroki		# 驚き
 
 #SCRIPT ORIGINAL 「お、やっぱりまたここだったのか。いちご」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00049
 「お、やっぱりまたここだったのか。いちご」
 
 #SCRIPT ORIGINAL 「えっ……」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00936
 「えっ……」
 
@@ -96,22 +110,26 @@ wait		1000
 @houkou_kanashimi	# 哀しみ
 
 #SCRIPT ORIGINAL 「やれやれ、部屋に居ないからもしやと思ってみれば。また人の娘に手を出そうとしてたのか」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00050
 「やれやれ、部屋に居ないからもしやと思ってみれば。また人の娘に手を出そうとしてたのか」
 
 #SCRIPT ORIGINAL 「そっちこそ、何をしに来た。今日はオレが先約だ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「そっちこそ、何をしに来た。今日はオレが先約だ」
 
 @houkou_warai		# 笑い
 
 #SCRIPT ORIGINAL 「へっ、何が先約？　小学生じゃあるまいし、おめでたい奴だ」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00051
 「へっ、何が先約？　小学生じゃあるまいし、おめでたい奴だ」
 
 @houkou_
 
 #SCRIPT ORIGINAL とめる間もなく、ズカズカと部屋の中へ入ってくる。
+#SCRIPT UNTRANSLATED
 とめる間もなく、ズカズカと部屋の中へ入ってくる。
 
 @ichigo_small
@@ -119,6 +137,7 @@ wait		1000
 @ichigo_komaru		#困
 
 #SCRIPT ORIGINAL 「ぱ、パパ……今日はいちご、院長せんせーの調教をする約束だよ」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00937
 「ぱ、パパ……今日はいちご、院長せんせーの調教をする約束だよ」
 
@@ -127,95 +146,114 @@ wait		1000
 @houkou			# 普通
 
 #SCRIPT ORIGINAL 「そんなこと言わずに、また親子の語り合いをしようぜ、いちご。まさか断りはしないだろう？」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00052
 「そんなこと言わずに、また親子の語り合いをしようぜ、いちご。まさか断りはしないだろう？」
 
 @ichigo_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「で、でも……」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00938
 「で、でも……」
 
 #SCRIPT ORIGINAL 「おい、強要するなよ。今日はあんたが諦めて部屋に引っ込んだらどうだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「おい、強要するなよ。今日はあんたが諦めて部屋に引っ込んだらどうだ」
 
 #SCRIPT ORIGINAL 理性では分かっていても、感情ではもうこの男への憤りは頂点に達していた。
+#SCRIPT UNTRANSLATED
 理性では分かっていても、感情ではもうこの男への憤りは頂点に達していた。
 
 @houkou_ikari		# 怒り
 
 #SCRIPT ORIGINAL 「ふん、行くぞいちご。こんな奴より、オレの方がいいって言ってやれ」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00053
 「ふん、行くぞいちご。こんな奴より、オレの方がいいって言ってやれ」
 
 @ichigo_komaru		#困
 
 #SCRIPT ORIGINAL 「……うん」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00939
 「……うん」
 
 @ichigo_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「あの……ごめんなさい、院長せんせい」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00940
 「あの……ごめんなさい、院長せんせい」
 
 #SCRIPT ORIGINAL いちごは宝交に頷き、オレに対して謝った。
+#SCRIPT UNTRANSLATED
 いちごは宝交に頷き、オレに対して謝った。
 
 #SCRIPT ORIGINAL 「いちご………嫌なら嫌って言っていいんだぞ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いちご………嫌なら嫌って言っていいんだぞ」
 
 @ichigo_komaru		#困
 
 #SCRIPT ORIGINAL 「いちご、嫌じゃないよ。パパの方がいい……」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00941
 「いちご、嫌じゃないよ。パパの方がいい……」
 
 #SCRIPT ORIGINAL 「いちご！　一言『イヤ』とさえ言ってくれたら、オレが意地でも守ってやるからっ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いちご！　一言『イヤ』とさえ言ってくれたら、オレが意地でも守ってやるからっ」
 
 @houkou			# 普通
 
 #SCRIPT ORIGINAL 「おいおい、強要するなよ。今日もあんたが諦めて部屋に引っ込んでな」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00054
 「おいおい、強要するなよ。今日もあんたが諦めて部屋に引っ込んでな」
 
 #SCRIPT ORIGINAL さっきの台詞をそのまま、見下すように宝交がオレに吐き捨てる。
+#SCRIPT UNTRANSLATED
 さっきの台詞をそのまま、見下すように宝交がオレに吐き捨てる。
 
 #SCRIPT ORIGINAL 「お前こそ、一体いちごに何をしてる！　無理やり従わせてるんだろう！」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「お前こそ、一体いちごに何をしてる！　無理やり従わせてるんだろう！」
 
 @houkou_ikari		# 怒り
 
 #SCRIPT ORIGINAL 「これが親子の絆ってやつさ。他人のお前に入る余地なんかあるかよ」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00055
 「これが親子の絆ってやつさ。他人のお前に入る余地なんかあるかよ」
 
 @ichigo_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「院長せんせ、また約束破ってごめんなさい……」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00942
 「院長せんせ、また約束破ってごめんなさい……」
 
 @ichigo_komaru		#困
 
 #SCRIPT ORIGINAL 「でも、またいちごのこと呼んでね。次は絶対守るから」
+#SCRIPT UNTRANSLATED
 ＠Ichigo,O00943
 「でも、またいちごのこと呼んでね。次は絶対守るから」
 
 #SCRIPT ORIGINAL 「いちご………ああ、何度でも呼んでやるから」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いちご………ああ、何度でも呼んでやるから」
 
 @houkou_warai		# 笑い
 
 #SCRIPT ORIGINAL 「へへ、じゃあな。またいちごは借りていくぜ」
+#SCRIPT UNTRANSLATED
 ＠Houkou,E00056
 「へへ、じゃあな。またいちごは借りていくぜ」
 
@@ -227,24 +265,30 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
 #SCRIPT ORIGINAL 勝ち誇ったようにいちごを連れて、二人の姿が部屋を出て行った。
+#SCRIPT UNTRANSLATED
 勝ち誇ったようにいちごを連れて、二人の姿が部屋を出て行った。
 
 #SCRIPT ORIGINAL 結局今日も、あの男のいいようにされるがままだ。
+#SCRIPT UNTRANSLATED
 結局今日も、あの男のいいようにされるがままだ。
 
 #SCRIPT ORIGINAL 「親子、か……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「親子、か……」
 
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
 #SCRIPT ORIGINAL 薄々とは分かっている。
+#SCRIPT UNTRANSLATED
 薄々とは分かっている。
 
 #SCRIPT ORIGINAL それはオレでは超えられない壁なのだと。
+#SCRIPT UNTRANSLATED
 それはオレでは超えられない壁なのだと。
 
 #SCRIPT ORIGINAL 今いちごが迷ったのも、あの男を嫌がっていたわけではなく、オレが先約だったからだ。
+#SCRIPT UNTRANSLATED
 今いちごが迷ったのも、あの男を嫌がっていたわけではなく、オレが先約だったからだ。
 
 #SE89　壁を殴る音
@@ -252,16 +296,20 @@ wait		1000
 screen_vibration	500,16,16,16
 
 #SCRIPT ORIGINAL 「くそッ！」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「くそッ！」
 
 #SCRIPT ORIGINAL 苛立たしさで壁を殴りつける。
+#SCRIPT UNTRANSLATED
 苛立たしさで壁を殴りつける。
 
 #SCRIPT ORIGINAL 調教も約束もどうでもよかった。
+#SCRIPT UNTRANSLATED
 調教も約束もどうでもよかった。
 
 #SCRIPT ORIGINAL ただ純粋に、いちごからの信頼と愛情で、あの男………親子の絆に勝てない事が悔しかった。
+#SCRIPT UNTRANSLATED
 ただ純粋に、いちごからの信頼と愛情で、あの男………親子の絆に勝てない事が悔しかった。
 
 bgm_stop

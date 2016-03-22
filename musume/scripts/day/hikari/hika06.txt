@@ -14,6 +14,7 @@ bgm_stop
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL オレが平和に廊下を歩いていた、日のこと。
+#SCRIPT UNTRANSLATED
 オレが平和に廊下を歩いていた、日のこと。
 
 @bg_rouka		# 廊下
@@ -23,14 +24,17 @@ bgm_stop
 #CH（まだ立ち絵無し）
 
 #SCRIPT ORIGINAL 「うわ～～～ん！　樹せんせ～！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00309
 「うわ～～～ん！　樹せんせ～！」
 
 #SCRIPT ORIGINAL 「え？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？」
 
 #SCRIPT ORIGINAL 振り返ると、ゆずがベソを掻きながら走ってきた。
+#SCRIPT UNTRANSLATED
 振り返ると、ゆずがベソを掻きながら走ってきた。
 
 window_close
@@ -54,23 +58,28 @@ layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「樹せんせ～、助けてください。ひーちゃんがいじめるんです～～！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00310
 「樹せんせ～、助けてください。ひーちゃんがいじめるんです～～！」
 
 #SCRIPT ORIGINAL 「い、いじめる……？？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いじめる……？？」
 
 #SCRIPT ORIGINAL 「待てーっ♪　あ、お父しゃんもいるーっ♪」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00300
 「待てーっ♪　あ、お父しゃんもいるーっ♪」
 
 layer_movepass_init	l_yuzu,0	#演出初期化
 
 #SCRIPT ORIGINAL ゆずが逃げてきた先からは、確かにひかりがトテトテと走ってきていた。
+#SCRIPT UNTRANSLATED
 ゆずが逃げてきた先からは、確かにひかりがトテトテと走ってきていた。
 
 #SCRIPT ORIGINAL ……何か服がよれて、汚れている。
+#SCRIPT UNTRANSLATED
 ……何か服がよれて、汚れている。
 
 #///////////////////////////////////////////////////////
@@ -88,12 +97,14 @@ layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「いろんな物にぶつかりながら、強引に追ってくるんです～！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00311
 「いろんな物にぶつかりながら、強引に追ってくるんです～！」
 
 @yuzu_
 
 #SCRIPT ORIGINAL 「わーいッ！　お父しゃ―――ぷぎゃんッ！」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00301
 「わーいッ！　お父しゃ―――ぷぎゃんッ！」
 
@@ -104,21 +115,26 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
 #SCRIPT ORIGINAL 言った側から、受け身も無く壁にぶつかるひかり。
+#SCRIPT UNTRANSLATED
 言った側から、受け身も無く壁にぶつかるひかり。
 
 #SCRIPT ORIGINAL 「……服の汚れはこのせいか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……服の汚れはこのせいか」
 
 #SCRIPT ORIGINAL 「ひかり、走らないでも逃げないから。ゆっくりおいで」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかり、走らないでも逃げないから。ゆっくりおいで」
 
 #SCRIPT ORIGINAL 「んんぅ～っ…また痛いのぉ～……すぐぶちゅかゆの～」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00302
 「んんぅ～っ…また痛いのぉ～……すぐぶちゅかゆの～」
 
 #SCRIPT ORIGINAL 走るのをやめて、鼻と額を撫でながらトコトコと歩いてきた。
+#SCRIPT UNTRANSLATED
 走るのをやめて、鼻と額を撫でながらトコトコと歩いてきた。
 
 @yuzu_small
@@ -133,20 +149,24 @@ layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うわっ、わっ！　樹先生、ひーちゃんが来ますよぉ～」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00312
 「うわっ、わっ！　樹先生、ひーちゃんが来ますよぉ～」
 
 #SCRIPT ORIGINAL 「ゆず、そのいじめって……状況が分からないんだが」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆず、そのいじめって……状況が分からないんだが」
 
 @yuzu			#普
 
 #SCRIPT ORIGINAL 「ボクがやめてって言ってる事、ひーちゃんがやめてくれないんです～！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00313
 「ボクがやめてって言ってる事、ひーちゃんがやめてくれないんです～！」
 
 #SCRIPT ORIGINAL 「……そうなのか、ひかり？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……そうなのか、ひかり？」
 
@@ -155,20 +175,24 @@ layer_movepass_play	l_yuzu,0,play_once
 @hikari			#普.png
 
 #SCRIPT ORIGINAL 「う…？　なぁに？」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00303
 「う…？　なぁに？」
 
 #SCRIPT ORIGINAL 「ゆずが止めてって言ってることを止めないで、ゆずを困らせてるのか？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆずが止めてって言ってることを止めないで、ゆずを困らせてるのか？」
 
 @hikari_komaru		#困.png
 
 #SCRIPT ORIGINAL 「うー……ひーちゃんよく分かんないの。どうして逃げゆの、ゆずお兄しゃん…」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00304
 「うー……ひーちゃんよく分かんないの。どうして逃げゆの、ゆずお兄しゃん…」
 
 #SCRIPT ORIGINAL 『ゆずお兄しゃん』
+#SCRIPT UNTRANSLATED
 『ゆずお兄しゃん』
 
 @yuzu_kanashimi		#哀
@@ -187,21 +211,26 @@ layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「うわーーん！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00314
 「うわーーん！」
 
 #SCRIPT ORIGINAL 「ああー……なるほど」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああー……なるほど」
 
 #SCRIPT ORIGINAL あっさり状況が分かってしまった。
+#SCRIPT UNTRANSLATED
 あっさり状況が分かってしまった。
 
 #SCRIPT ORIGINAL 「樹せんせ～っ、ずっとひーちゃんが『お兄ちゃん』って言うんです！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00315
 「樹せんせ～っ、ずっとひーちゃんが『お兄ちゃん』って言うんです！」
 
 #SCRIPT ORIGINAL 「しかし……それは間違いじゃないしなぁ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「しかし……それは間違いじゃないしなぁ」
 
@@ -219,12 +248,14 @@ layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「それじゃボクがこの格好をしてる意味が無いじゃないですかーー」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00316
 「それじゃボクがこの格好をしてる意味が無いじゃないですかーー」
 
 layer_movepass_init	l_yuzu,0	#演出初期化
 
 #SCRIPT ORIGINAL 「ねぇゆずお兄しゃん。どうしてお兄しゃんは女の子の格好してゆの？」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00305
 「ねぇゆずお兄しゃん。どうしてお兄しゃんは女の子の格好してゆの？」
 
@@ -241,6 +272,7 @@ layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ほっといてよーー！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00317
 「ほっといてよーー！」
 
@@ -252,59 +284,71 @@ wait		500
 @bg_door		# ドア前
 
 #SCRIPT ORIGINAL 「……。……あの、樹さん」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01639
 「……。……あの、樹さん」
 
 #SCRIPT ORIGINAL 「ひーちゃんとゆずちゃん、一体何の騒ぎですか……？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01640
 「ひーちゃんとゆずちゃん、一体何の騒ぎですか……？」
 
 #SCRIPT ORIGINAL 騒動を聞いてやって来た美雨が、ゆずの様子に戸惑っていた。
+#SCRIPT UNTRANSLATED
 騒動を聞いてやって来た美雨が、ゆずの様子に戸惑っていた。
 
 #SCRIPT ORIGINAL 「ひかりが、ゆずをお兄ちゃんって言っていじめるんだってさ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりが、ゆずをお兄ちゃんって言っていじめるんだってさ」
 
 @miu_mu			#開_普通（無表情）
 
 #SCRIPT ORIGINAL 「ひーちゃんが……？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01641
 「ひーちゃんが……？」
 
 #SCRIPT ORIGINAL 「うぅ～。そうじゃないって説明してください～」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00318
 「うぅ～。そうじゃないって説明してください～」
 
 #SCRIPT ORIGINAL 「……で、どう言えば分かりよいかと。女の子とは言えないし」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……で、どう言えば分かりよいかと。女の子とは言えないし」
 
 @miu2			#開_にこ
 
 #SCRIPT ORIGINAL 「はぁ、なるほど……」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01642
 「はぁ、なるほど……」
 
 @miu			#閉_にこ
 
 #SCRIPT ORIGINAL 「えっと、ひーちゃん？　ゆずちゃんのことは、お姉ちゃんって呼んであげましょうね」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01643
 「えっと、ひーちゃん？　ゆずちゃんのことは、お姉ちゃんって呼んであげましょうね」
 
 #SCRIPT ORIGINAL 「どうして？　男の子じゃらいの？」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00306
 「どうして？　男の子じゃらいの？」
 
 @miu2			#開_にこ
 
 #SCRIPT ORIGINAL 「その人が嫌がってる事は、しないようにするのが良い子よ」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01644
 「その人が嫌がってる事は、しないようにするのが良い子よ」
 
 @miu			#閉_にこ
 
 #SCRIPT ORIGINAL 「ひーちゃんは良い子だから守れるのよね？」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01645
 「ひーちゃんは良い子だから守れるのよね？」
 
@@ -321,38 +365,46 @@ wait		500
 @bg_rouka		# 廊下
 
 #SCRIPT ORIGINAL 「ゆずお兄しゃん、『お兄しゃん』って言われゆの嫌なの？」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00307
 「ゆずお兄しゃん、『お兄しゃん』って言われゆの嫌なの？」
 
 @yuzu_kanashimi		#哀
 
 #SCRIPT ORIGINAL 「ずっとそう言ってるよ～～」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00319
 「ずっとそう言ってるよ～～」
 
 #SCRIPT ORIGINAL 「そもそも分からないんだが、何でゆずを男だって思ったんだ？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そもそも分からないんだが、何でゆずを男だって思ったんだ？」
 
 #SCRIPT ORIGINAL 実際、ゆずの女装は下手すると、本当の女の子より女の子している。
+#SCRIPT UNTRANSLATED
 実際、ゆずの女装は下手すると、本当の女の子より女の子している。
 
 #SCRIPT ORIGINAL ひかりはオレの質問に元気よく答えた。
+#SCRIPT UNTRANSLATED
 ひかりはオレの質問に元気よく答えた。
 
 @hikari_warai		#笑.png
 
 #SCRIPT ORIGINAL 「雫しゃんが言ったの！　おもしよいからって♪」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00308
 「雫しゃんが言ったの！　おもしよいからって♪」
 
 #SCRIPT ORIGINAL 「ま・た・あの人か！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ま・た・あの人か！」
 
 @yuzu_ikari		#怒
 
 #SCRIPT ORIGINAL 「人の身体で遊ばないでほしいですーー！」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00320
 「人の身体で遊ばないでほしいですーー！」
 
@@ -371,24 +423,29 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ふぅ……。後で私の方から注意しておきます」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01646
 「ふぅ……。後で私の方から注意しておきます」
 
 #SCRIPT ORIGINAL 「ああ、悪いけどそうしてくれ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、悪いけどそうしてくれ」
 
 @miu_ikari2		#開_怒
 
 #SCRIPT ORIGINAL 「そんな理由でひーちゃんに変な誤解を与えるのは、納得いきません」
+#SCRIPT UNTRANSLATED
 ＠Ｍｉｕ,B01647
 「そんな理由でひーちゃんに変な誤解を与えるのは、納得いきません」
 
 #SCRIPT ORIGINAL 「え…」
+#SCRIPT UNTRANSLATED
 ＠Ｙｕｚｕ,F00321
 「え…」
 
 #SCRIPT ORIGINAL 「そっちなのか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そっちなのか」
 
@@ -405,13 +462,16 @@ wait		500
 @bg_rouka		# 廊下
 
 #SCRIPT ORIGINAL 「あはははっ♪　じゃあひーちゃん、ゆずお兄しゃんのことはお姉しゃんって呼ぶの！」
+#SCRIPT UNTRANSLATED
 ＠Ｈｉｋａｒｉ,N00309
 「あはははっ♪　じゃあひーちゃん、ゆずお兄しゃんのことはお姉しゃんって呼ぶの！」
 
 #SCRIPT ORIGINAL 何か、あんまり解決しているような気はしないが。
+#SCRIPT UNTRANSLATED
 何か、あんまり解決しているような気はしないが。
 
 #SCRIPT ORIGINAL とりあえず呼称だけは、めでたく『お姉ちゃん』になってくれたようだ。
+#SCRIPT UNTRANSLATED
 とりあえず呼称だけは、めでたく『お姉ちゃん』になってくれたようだ。
 
 #■BG（黒）
@@ -421,9 +481,11 @@ wait		1000
 @bg_gate		# 孤児院前
 
 #SCRIPT ORIGINAL ………。
+#SCRIPT UNTRANSLATED
 ………。
 
 #SCRIPT ORIGINAL ……その後、なぜかやつれた感じの雫さんがいたが、見なかったことにする。
+#SCRIPT UNTRANSLATED
 ……その後、なぜかやつれた感じの雫さんがいたが、見なかったことにする。
 
 @bg_black

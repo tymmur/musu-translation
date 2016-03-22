@@ -10,6 +10,7 @@ label		hika30_5
 @SE72			#SE72　軽く叩く音（ポカッ）
 
 #SCRIPT ORIGINAL 「いてッ！？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いてッ！？」
 
@@ -30,6 +31,7 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「メェッ！　お父しゃん、お母しゃんを苛めたらダメなの！」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00590
 「メェッ！　お父しゃん、お母しゃんを苛めたらダメなの！」
 
@@ -37,11 +39,13 @@ layer_movepass_play	l_hikari,0,play_once
 @hikari_ikari		#怒
 
 #SCRIPT ORIGINAL 幸せに浸る間もなく、お怒りのひかりに殴られた。
+#SCRIPT UNTRANSLATED
 幸せに浸る間もなく、お怒りのひかりに殴られた。
 
 #layer_movepass_init	l_hikari,0	#演出初期化
 
 #SCRIPT ORIGINAL 「……ま、待てひかり、これは苛めてる訳じゃないんだぞ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……ま、待てひかり、これは苛めてる訳じゃないんだぞ」
 
@@ -61,20 +65,24 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「う～……。だってお母しゃん、お父しゃんの下で辛そうにしてゆの」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00591
 「う～……。だってお母しゃん、お父しゃんの下で辛そうにしてゆの」
 
 #CH（美雨の立ち絵なし）
 
 #SCRIPT ORIGINAL 「あ、あのね、えっと……。これは辛いわけじゃなくて……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02344
 「あ、あのね、えっと……。これは辛いわけじゃなくて……」
 
 #SCRIPT ORIGINAL 「とりあえず美雨、まずは服を着てくれるか」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「とりあえず美雨、まずは服を着てくれるか」
 
 #SCRIPT ORIGINAL 「あ、はい……ですね」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02345
 「あ、はい……ですね」
 
@@ -83,6 +91,7 @@ layer_movepass_play	l_hikari,0,play_once
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 #SCRIPT ORIGINAL 美雨が服を直している間に、オレはひかりの説得に一杯一杯だった。
+#SCRIPT UNTRANSLATED
 美雨が服を直している間に、オレはひかりの説得に一杯一杯だった。
 
 #CH（ひかり・涙）
@@ -110,10 +119,12 @@ layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「お父しゃん嫌い～っ、嫌いなの～！」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00592
 「お父しゃん嫌い～っ、嫌いなの～！」
 
 #SCRIPT ORIGINAL （説明のしようが無いだろ、こんなこと……）
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 （説明のしようが無いだろ、こんなこと……）
 
@@ -123,6 +134,7 @@ bgm_stop
 wait		1000
 
 #SCRIPT ORIGINAL 何とか再び、ひかりを宥め寝かせることに成功した。
+#SCRIPT UNTRANSLATED
 何とか再び、ひかりを宥め寝かせることに成功した。
 
 #CH（ここから美雨に立ち絵あり）
@@ -140,149 +152,185 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ふぅ～……。後のトラウマになったりしないかしら……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02346
 「ふぅ～……。後のトラウマになったりしないかしら……」
 
 #SCRIPT ORIGINAL 「大丈夫だろ。納得して寝てくれたし」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「大丈夫だろ。納得して寝てくれたし」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 #SCRIPT ORIGINAL そう願うしかない……。
+#SCRIPT UNTRANSLATED
 そう願うしかない……。
 
 #SCRIPT ORIGINAL 一事過ぎると、ようやく場の落ち着きが戻ってきた。
+#SCRIPT UNTRANSLATED
 一事過ぎると、ようやく場の落ち着きが戻ってきた。
 
 #SCRIPT ORIGINAL 改めて美雨が、行為に及ぶ前の話題を掘り出してくる。
+#SCRIPT UNTRANSLATED
 改めて美雨が、行為に及ぶ前の話題を掘り出してくる。
 
 @miu_ikari2		#開_怒
 
 #SCRIPT ORIGINAL 「……樹さん、私も身を挺して、ひーちゃんの全てを守ります」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02347
 「……樹さん、私も身を挺して、ひーちゃんの全てを守ります」
 
 #SCRIPT ORIGINAL 「でも。ここに居れば、いずれこの施設のことは気付かれてしまいます」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02348
 「でも。ここに居れば、いずれこの施設のことは気付かれてしまいます」
 
 #SCRIPT ORIGINAL 「ああ、遅かれ早かれな」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ああ、遅かれ早かれな」
 
 #SCRIPT ORIGINAL 「守ってあげると言っても、精神的なショックはどうしようもありません……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02349
 「守ってあげると言っても、精神的なショックはどうしようもありません……」
 
 #SCRIPT ORIGINAL そう。この前は『守る』と誓ったが、具体的な手段は何も浮かんでいない。
+#SCRIPT UNTRANSLATED
 そう。この前は『守る』と誓ったが、具体的な手段は何も浮かんでいない。
 
 #SCRIPT ORIGINAL 「やっぱり根源を何とかしないとダメだろうか」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「やっぱり根源を何とかしないとダメだろうか」
 
 @miu_komaru		#開_困
 
 #SCRIPT ORIGINAL 「……他には」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02350
 「……他には」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「例えば、三人で遠くに逃げて、全て忘れて暮らすということも……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02351
 「例えば、三人で遠くに逃げて、全て忘れて暮らすということも……」
 
 #SCRIPT ORIGINAL 「美雨……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「美雨……」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「そんなこと、無理ですよね。すみません……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02352
 「そんなこと、無理ですよね。すみません……」
 
 #SCRIPT ORIGINAL 分かりつつも口にしたのだろう。
+#SCRIPT UNTRANSLATED
 分かりつつも口にしたのだろう。
 
 #SCRIPT ORIGINAL あっさりと謝って言葉を引っ込める美雨。
+#SCRIPT UNTRANSLATED
 あっさりと謝って言葉を引っ込める美雨。
 
 #SCRIPT ORIGINAL だが、その心中の切実な気持ちはオレにも伝わってきた。
+#SCRIPT UNTRANSLATED
 だが、その心中の切実な気持ちはオレにも伝わってきた。
 
 #SCRIPT ORIGINAL （……けどそもそも、この施設は一体何なんだろうか）
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 （……けどそもそも、この施設は一体何なんだろうか）
 
 #SCRIPT ORIGINAL それは来た当初は抱いていたが、だんだんと感覚が麻痺して感じなくなった疑問。
+#SCRIPT UNTRANSLATED
 それは来た当初は抱いていたが、だんだんと感覚が麻痺して感じなくなった疑問。
 
 #SCRIPT ORIGINAL だが例の書類の一件で、再び芽を出した疑念だ。
+#SCRIPT UNTRANSLATED
 だが例の書類の一件で、再び芽を出した疑念だ。
 
 #SCRIPT ORIGINAL 「あの、バカみたいに大きい借金がなければ、三人でこんなところから逃げられるのにな……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「あの、バカみたいに大きい借金がなければ、三人でこんなところから逃げられるのにな……」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02353
 「…………」
 
 #SCRIPT ORIGINAL 「美雨、この施設の秘密って、何か知ってるか？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「美雨、この施設の秘密って、何か知ってるか？」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「……秘密？」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02354
 「……秘密？」
 
 #SCRIPT ORIGINAL 「こうして売春行為をする裏で、本当は別の大きな目的があるとか。知らないか？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「こうして売春行為をする裏で、本当は別の大きな目的があるとか。知らないか？」
 
 @miu_komaru		#開_困
 
 #SCRIPT ORIGINAL 「いえ、初耳ですが……。なぜそのような事を…？」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02355
 「いえ、初耳ですが……。なぜそのような事を…？」
 
 #SCRIPT ORIGINAL 知らなければ当然の疑問を、逆に美雨から問い返される。
+#SCRIPT UNTRANSLATED
 知らなければ当然の疑問を、逆に美雨から問い返される。
 
 #SCRIPT ORIGINAL あの調査書に美雨の名前は無かった。
+#SCRIPT UNTRANSLATED
 あの調査書に美雨の名前は無かった。
 
 #SCRIPT ORIGINAL だが、ざくろの話では、怪しげな銃器を持った部隊がここに乗り込んできたということだ。
+#SCRIPT UNTRANSLATED
 だが、ざくろの話では、怪しげな銃器を持った部隊がここに乗り込んできたということだ。
 
 #SCRIPT ORIGINAL まさか美雨が知らないはずは無いと思うのだが。
+#SCRIPT UNTRANSLATED
 まさか美雨が知らないはずは無いと思うのだが。
 
 #SCRIPT ORIGINAL 「実は、雫さんの部屋で妙な調査書を見つけたんだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「実は、雫さんの部屋で妙な調査書を見つけたんだ」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「調査書？」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02356
 「調査書？」
 
 @bg_black
 
 #SCRIPT ORIGINAL 何の裏づけも無く話すのは浅はかかもしれない。
+#SCRIPT UNTRANSLATED
 何の裏づけも無く話すのは浅はかかもしれない。
 
 #SCRIPT ORIGINAL だが、こうして美雨と気持ちが通じ合えたことで、その辺の思慮は鈍っていた。
+#SCRIPT UNTRANSLATED
 だが、こうして美雨と気持ちが通じ合えたことで、その辺の思慮は鈍っていた。
 
 #SCRIPT ORIGINAL 書類の内容。そしてざくろの話などを、一通り美雨に話して聞かせる。
+#SCRIPT UNTRANSLATED
 書類の内容。そしてざくろの話などを、一通り美雨に話して聞かせる。
 
 @miu_small
@@ -291,34 +339,41 @@ layer_movepass_play	l_miu,0,play_once
 @bg_living		# リビング
 
 #SCRIPT ORIGINAL 「二年前の事件……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02357
 「二年前の事件……」
 
 #SCRIPT ORIGINAL 「それに、かりんちゃんがグループの財産を……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02358
 「それに、かりんちゃんがグループの財産を……」
 
 #SCRIPT ORIGINAL 「二年前の事件、それがあの調査書にも、そしてざくろとすいかの話にも、共通することだった」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「二年前の事件、それがあの調査書にも、そしてざくろとすいかの話にも、共通することだった」
 
 #SCRIPT ORIGINAL 「実際に何かあったはずなんだ。ここで、二年前に何かが」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「実際に何かあったはずなんだ。ここで、二年前に何かが」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「かりんちゃんが……まさか……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02359
 「かりんちゃんが……まさか……」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「……いえ、でももう、今の私にその情報を知らせる義務は……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02360
 「……いえ、でももう、今の私にその情報を知らせる義務は……」
 
 #SCRIPT ORIGINAL 「美雨……？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「美雨……？」
 
@@ -332,61 +387,75 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「……えっ！？　あ、はい！」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02361
 「……えっ！？　あ、はい！」
 
 #SCRIPT ORIGINAL 「かりんのこと、何か引っかかるか？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「かりんのこと、何か引っかかるか？」
 
 #SCRIPT ORIGINAL 「い、いえ……別に。てっきり私も債務を背負ってここにいると思っていましたから」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02362
 「い、いえ……別に。てっきり私も債務を背負ってここにいると思っていましたから」
 
 #SCRIPT ORIGINAL 「そう……。けど、それ以上に気になるのは二年前のことなんだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「そう……。けど、それ以上に気になるのは二年前のことなんだ」
 
 #SCRIPT ORIGINAL 「美雨なら知ってるはずだ。二年前、オレの知らない時間に、何があったんだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「美雨なら知ってるはずだ。二年前、オレの知らない時間に、何があったんだ」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「……それは」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02363
 「……それは」
 
 #SCRIPT ORIGINAL 少々きつく問い詰める形のオレに、美雨が答えを留まらせる。
+#SCRIPT UNTRANSLATED
 少々きつく問い詰める形のオレに、美雨が答えを留まらせる。
 
 #SCRIPT ORIGINAL だがそれは明らかに知っている者の反応だ。
+#SCRIPT UNTRANSLATED
 だがそれは明らかに知っている者の反応だ。
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「樹さん、それは……今の私たちには関係の無いことです……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02364
 「樹さん、それは……今の私たちには関係の無いことです……」
 
 #SCRIPT ORIGINAL その言葉も、隠しきれていない狼狽でわずかに震えている。
+#SCRIPT UNTRANSLATED
 その言葉も、隠しきれていない狼狽でわずかに震えている。
 
 #SCRIPT ORIGINAL 「本当に関係ないか？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「本当に関係ないか？」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「はい……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02365
 「はい……」
 
 #SCRIPT ORIGINAL 「でも、書類に書かれていた父さんの死も、ちょうどその時期に重なるんだ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「でも、書類に書かれていた父さんの死も、ちょうどその時期に重なるんだ」
 
 #SCRIPT ORIGINAL 「まだ不可解な点は多いけど、きっと父さんはその時に―――」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「まだ不可解な点は多いけど、きっと父さんはその時に―――」
 
@@ -404,13 +473,16 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ッ！　いやッ、やめてくださいッ！」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02366
 「ッ！　いやッ、やめてくださいッ！」
 
 #SCRIPT ORIGINAL 突然悲鳴に近い声を上げ、美雨が話をさえぎった。
+#SCRIPT UNTRANSLATED
 突然悲鳴に近い声を上げ、美雨が話をさえぎった。
 
 #SCRIPT ORIGINAL 「美雨……？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「美雨……？」
 
@@ -424,41 +496,51 @@ layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「あっ……す、すみません、私……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02367
 「あっ……す、すみません、私……」
 
 #SCRIPT ORIGINAL 「いや、構わない。オレも少々きつく問い詰めすぎた」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いや、構わない。オレも少々きつく問い詰めすぎた」
 
 #SCRIPT ORIGINAL ひかりの様子を確認するが、軽く寝返りを打っただけで、まだ眠ってくれている。
+#SCRIPT UNTRANSLATED
 ひかりの様子を確認するが、軽く寝返りを打っただけで、まだ眠ってくれている。
 
 #SCRIPT ORIGINAL 話が途切れ、気まずい空気が流れた。
+#SCRIPT UNTRANSLATED
 話が途切れ、気まずい空気が流れた。
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「………」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02368
 「………」
 
 #SCRIPT ORIGINAL せっかく気持ちが通じ合えたというのに、美雨との距離が開いてしまったようだ。
+#SCRIPT UNTRANSLATED
 せっかく気持ちが通じ合えたというのに、美雨との距離が開いてしまったようだ。
 
 #SCRIPT ORIGINAL やはり安直に聞きすぎたのか。
+#SCRIPT UNTRANSLATED
 やはり安直に聞きすぎたのか。
 
 #SCRIPT ORIGINAL ……真相を話せるほど、オレは美雨に心を開いてもらえていないのだろうか。
+#SCRIPT UNTRANSLATED
 ……真相を話せるほど、オレは美雨に心を開いてもらえていないのだろうか。
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「……知りたいですか？」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02369
 「……知りたいですか？」
 
 #SCRIPT ORIGINAL 「え…？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「え…？」
 
@@ -466,6 +548,7 @@ layer_movepass_play	l_miu,0,play_once
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「………二年前、そういった人たちがここに来たのは確かです」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02370
 「………二年前、そういった人たちがここに来たのは確かです」
 
@@ -473,15 +556,18 @@ layer_movepass_play	l_miu,0,play_once
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「でもその事で、樹さんが想像されているようなことはありませんでした」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02371
 「でもその事で、樹さんが想像されているようなことはありませんでした」
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
 #SCRIPT ORIGINAL 冷静さを取り戻した美雨が、ポツポツと言葉を選ぶようにして話し始めた。
+#SCRIPT UNTRANSLATED
 冷静さを取り戻した美雨が、ポツポツと言葉を選ぶようにして話し始めた。
 
 #SCRIPT ORIGINAL 「じゃあ、そいつらは一体……？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「じゃあ、そいつらは一体……？」
 
@@ -489,46 +575,55 @@ layer_movepass_play	l_miu,0,play_once
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「ここが国家権力に関与されないというのは、最初の日に説明を受けたと思います」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02372
 「ここが国家権力に関与されないというのは、最初の日に説明を受けたと思います」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「あの人たちはそれを善しとしない、民間団体の過激派の方達でした」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02373
 「あの人たちはそれを善しとしない、民間団体の過激派の方達でした」
 
 #SCRIPT ORIGINAL 「民間団体………ＮＰＯか」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「民間団体………ＮＰＯか」
 
 #SCRIPT ORIGINAL ここで、あの調査書の言葉が一つ明らかになった。
+#SCRIPT UNTRANSLATED
 ここで、あの調査書の言葉が一つ明らかになった。
 
 #@miu_ikari2		#開_怒
 @miu_komaru		#開_困
 
 #SCRIPT ORIGINAL 「前院長、耕平さんの死というのは、きっとその時の情報の混乱ではないでしょうか」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02374
 「前院長、耕平さんの死というのは、きっとその時の情報の混乱ではないでしょうか」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「事実、その後もここで院長として過ごされていた事は、樹さんもご存知だと思います」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02375
 「事実、その後もここで院長として過ごされていた事は、樹さんもご存知だと思います」
 
 #SCRIPT ORIGINAL 「それはそうだが……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「それはそうだが……」
 
 #SCRIPT ORIGINAL 「しかし、すいかが言っていた。あの時期に一度、父さんの様子に違和感を感じたって」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「しかし、すいかが言っていた。あの時期に一度、父さんの様子に違和感を感じたって」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「それも、あの事件のショックが相当大きかったせいです」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02376
 「それも、あの事件のショックが相当大きかったせいです」
 
@@ -536,14 +631,17 @@ layer_movepass_play	l_miu,0,play_once
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「前院長の様子があの日を境に少しおかしく感じたのは、私も同じでしたから」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02377
 「前院長の様子があの日を境に少しおかしく感じたのは、私も同じでしたから」
 
 #SCRIPT ORIGINAL 「……それが二年前の真相？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……それが二年前の真相？」
 
 #SCRIPT ORIGINAL 「みかんちゃんのお父さんが何故、それを調べていたのかは分かりません」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02378
 「みかんちゃんのお父さんが何故、それを調べていたのかは分かりません」
 
@@ -551,22 +649,28 @@ layer_movepass_play	l_miu,0,play_once
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「かりんちゃんのことは初耳で、私自身が驚いたくらいです……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02379
 「かりんちゃんのことは初耳で、私自身が驚いたくらいです……」
 
 #SCRIPT ORIGINAL 説明を終えた美雨が息をつく。
+#SCRIPT UNTRANSLATED
 説明を終えた美雨が息をつく。
 
 #SCRIPT ORIGINAL 語られたのはＮＰＯの存在と二年前の事件。
+#SCRIPT UNTRANSLATED
 語られたのはＮＰＯの存在と二年前の事件。
 
 #SCRIPT ORIGINAL みかんとかりんの事は知らないということなので、美雨の知っていることはこれで全部か。
+#SCRIPT UNTRANSLATED
 みかんとかりんの事は知らないということなので、美雨の知っていることはこれで全部か。
 
 #SCRIPT ORIGINAL それでも、ずいぶん謎がすっきりした気がする。
+#SCRIPT UNTRANSLATED
 それでも、ずいぶん謎がすっきりした気がする。
 
 #SCRIPT ORIGINAL 「いや、待て……」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いや、待て……」
 
@@ -574,13 +678,16 @@ layer_movepass_play	l_miu,0,play_once
 @miu_komaru		#開_困
 
 #SCRIPT ORIGINAL 「え……？」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02380
 「え……？」
 
 #SCRIPT ORIGINAL 納得しかけて、一つだけ不可解なことに気付いた。
+#SCRIPT UNTRANSLATED
 納得しかけて、一つだけ不可解なことに気付いた。
 
 #SCRIPT ORIGINAL 「それが真相なら、何で美雨、さっきあんなに取り乱した」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「それが真相なら、何で美雨、さっきあんなに取り乱した」
 
@@ -588,10 +695,12 @@ layer_movepass_play	l_miu,0,play_once
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「あ……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02381
 「あ……」
 
 #SCRIPT ORIGINAL 「最初にそう言ってくれれば良かったんじゃないか？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「最初にそう言ってくれれば良かったんじゃないか？」
 
@@ -599,57 +708,69 @@ layer_movepass_play	l_miu,0,play_once
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「その……あれは」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02382
 「その……あれは」
 
 #@miu_kanashimi2	#閉_哀
 
 #SCRIPT ORIGINAL 「当時のことを思い出すのが、怖かったからです……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02383
 「当時のことを思い出すのが、怖かったからです……」
 
 #SCRIPT ORIGINAL 「……怖かった？」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……怖かった？」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「はい……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02384
 「はい……」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「だって、あんな人たちが乗り込んできた事件なんて……。普通は怖くて思い出したくありませんし」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02385
 「だって、あんな人たちが乗り込んできた事件なんて……。普通は怖くて思い出したくありませんし」
 
 #SCRIPT ORIGINAL 少し言葉を選ぶようにして、そう理由を話す美雨。
+#SCRIPT UNTRANSLATED
 少し言葉を選ぶようにして、そう理由を話す美雨。
 
 #SCRIPT ORIGINAL 言ってる事は一理あるが、本当にそれが理由だろうか。
+#SCRIPT UNTRANSLATED
 言ってる事は一理あるが、本当にそれが理由だろうか。
 
 #SCRIPT ORIGINAL あの拒絶するような過剰な反応は……それだけか？
+#SCRIPT UNTRANSLATED
 あの拒絶するような過剰な反応は……それだけか？
 
 bgm_stop
 
 #SCRIPT ORIGINAL 「分かった」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「分かった」
 
 #SCRIPT ORIGINAL 「怯えさせてたんだな。ごめん」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「怯えさせてたんだな。ごめん」
 
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「あ、いえ……そんな」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02386
 「あ、いえ……そんな」
 
 #SCRIPT ORIGINAL 「正直に話してくれてありがとう。おかげで少しすっきりしたよ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「正直に話してくれてありがとう。おかげで少しすっきりしたよ」
 
@@ -657,23 +778,28 @@ bgm_stop
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「樹さん……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02387
 「樹さん……」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 #SCRIPT ORIGINAL その言葉に、美雨が安堵を見せて胸を撫で下ろす。
+#SCRIPT UNTRANSLATED
 その言葉に、美雨が安堵を見せて胸を撫で下ろす。
 
 #SCRIPT ORIGINAL まだ分からないことはあるが、オレも改めてここの異常性を再確認させられた。
+#SCRIPT UNTRANSLATED
 まだ分からないことはあるが、オレも改めてここの異常性を再確認させられた。
 
 #SCRIPT ORIGINAL 単純な売春組織ではなく、まだ裏に何かが隠れている。
+#SCRIPT UNTRANSLATED
 単純な売春組織ではなく、まだ裏に何かが隠れている。
 
 #CH（ひかり立ち絵なし）
 
 #SCRIPT ORIGINAL 「……くしゅんっ」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00593
 「……くしゅんっ」
 
@@ -682,20 +808,24 @@ bgm_stop
 @miu_kanashimi		#開_哀
 
 #SCRIPT ORIGINAL 「あ……私、ひーちゃんを部屋に運んできます」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02388
 「あ……私、ひーちゃんを部屋に運んできます」
 
 #SCRIPT ORIGINAL 「それならオレが行こう。美雨は疲れてるだろ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「それならオレが行こう。美雨は疲れてるだろ」
 
 @miu_komaru		#開_困
 
 #SCRIPT ORIGINAL 「……でも、それは樹さんも」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02389
 「……でも、それは樹さんも」
 
 #SCRIPT ORIGINAL 「いいから。もう娘同然の子なんだ。これからはちゃんと面倒も見るよ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「いいから。もう娘同然の子なんだ。これからはちゃんと面倒も見るよ」
 
@@ -703,16 +833,20 @@ bgm_stop
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
 #SCRIPT ORIGINAL 眠っているひかりを抱き上げる。
+#SCRIPT UNTRANSLATED
 眠っているひかりを抱き上げる。
 
 #SCRIPT ORIGINAL 「ん……くぅ…」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00594
 「ん……くぅ…」
 
 #SCRIPT ORIGINAL ……娘、か。
+#SCRIPT UNTRANSLATED
 ……娘、か。
 
 #SCRIPT ORIGINAL そう気持ちを改めるだけで、心が温かく、ひかりが愛おしくなってくる。
+#SCRIPT UNTRANSLATED
 そう気持ちを改めるだけで、心が温かく、ひかりが愛おしくなってくる。
 
 @miu_small
@@ -723,10 +857,12 @@ bgm_stop
 @bg_living		# リビング
 
 #SCRIPT ORIGINAL 「では、お願いします。ひーちゃんのこと」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02390
 「では、お願いします。ひーちゃんのこと」
 
 #SCRIPT ORIGINAL 「ああ」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「ああ」
 
@@ -737,6 +873,7 @@ wait		100
 @SE07			#部屋のドア閉まる音（パタン）
 
 #SCRIPT ORIGINAL 美雨に見送られて、部屋を後にした。
+#SCRIPT UNTRANSLATED
 美雨に見送られて、部屋を後にした。
 
 @miu_middle		# 中間
@@ -746,12 +883,14 @@ wait		100
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
 #SCRIPT ORIGINAL 「すみません、樹さん………今はまだ……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02391
 「すみません、樹さん………今はまだ……」
 
 @miu_kanashimi2		#閉_哀
 
 #SCRIPT ORIGINAL 「全ての決着が付いて、気持ちを整理できた時は。必ず本当のことをお話しますから……」
+#SCRIPT UNTRANSLATED
 ＠Miu,B02392
 「全ての決着が付いて、気持ちを整理できた時は。必ず本当のことをお話しますから……」
 
@@ -763,20 +902,25 @@ wait		1000
 @bg_rouka		# 廊下
 
 #SCRIPT ORIGINAL 「……これからのことを考えないとな」
+#SCRIPT UNTRANSLATED
 ＠Itsuki
 「……これからのことを考えないとな」
 
 #SCRIPT ORIGINAL 「すぅ……んぅ」
+#SCRIPT UNTRANSLATED
 ＠Hikari,N00595
 「すぅ……んぅ」
 
 #SCRIPT ORIGINAL 今のままだと、いずれひかりは現実を知って傷ついてしまう。
+#SCRIPT UNTRANSLATED
 今のままだと、いずれひかりは現実を知って傷ついてしまう。
 
 #SCRIPT ORIGINAL 本格的に動かなくてはならない。
+#SCRIPT UNTRANSLATED
 本格的に動かなくてはならない。
 
 #SCRIPT ORIGINAL この生活を抜け出さないと、オレ達三人に普通の生活は訪れないのだ。
+#SCRIPT UNTRANSLATED
 この生活を抜け出さないと、オレ達三人に普通の生活は訪れないのだ。
 
 @bg_black

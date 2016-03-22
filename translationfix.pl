@@ -189,6 +189,8 @@ my $translated_all_bytes = 0;
 my $translated_common_lines = 0;
 my $translated_common_bytes = 0;
 
+my $is_block_unreachable = 0;
+
 sub die_local
 {
 	open FILE, ">", $last_file_file or die $!;
@@ -1165,6 +1167,10 @@ sub handleScreenLines
 			}
 		}
 	}
+	elsif ($is_block_unreachable == 0)
+	{
+		push(@output, "#SCRIPT UNTRANSLATED");
+	}
 	
 	foreach (@lines)
 	{
@@ -1339,7 +1345,7 @@ sub handleFile
 	my $label_total = 0;
 	my $last_label = "";
 	
-	my $is_block_unreachable = 0;
+	$is_block_unreachable = 0;
 	
 	my $backup_line_count            = 0;
 	my $backup_translated_line_count = 0;
@@ -1406,6 +1412,7 @@ sub handleFile
 		if ($type eq "COMMENT")
 		{
 			next if (substr($line, 0, 16) eq "#SCRIPT ORIGINAL");
+			next if (substr($line, 0, 20) eq "#SCRIPT UNTRANSLATED");
 			push(@output, $line);
 			push(@output_wide, $line);
 			
@@ -1423,7 +1430,6 @@ sub handleFile
 			}
 			elsif (substr($line, 0, 19) eq "#SCRIPT UNREACHABLE")
 			{
-				print "Trigger backup at line " . $line_number . "\n";
 				$is_block_unreachable = 1;
 				# backup numbers
 				$backup_line_count            = $line_count;
@@ -1602,7 +1608,6 @@ sub handleFile
 		{
 			if ($is_block_unreachable == 1)
 			{
-				print "Trigger restore at line " . $line_number . "\n";
 				$is_block_unreachable = 0;
 				# restore backup
 				$line_count            = $backup_line_count;
@@ -1643,7 +1648,6 @@ sub handleFile
 	
 	if ($is_block_unreachable == 1)
 	{
-		print "Trigger end restore at line " . $line_number . "\n";
 		$is_block_unreachable = 0;
 		# restore backup
 		$line_count            = $backup_line_count;

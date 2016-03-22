@@ -11,9 +11,11 @@ label	hikari_23
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL この前の調査書のこと、今日はかりんに訊きに行こうか。
+#SCRIPT UNTRANSLATED
 この前の調査書のこと、今日はかりんに訊きに行こうか。
 
 #SCRIPT ORIGINAL 「かりんには、父親の大道寺グループと借金の事について訊くんだったな」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんには、父親の大道寺グループと借金の事について訊くんだったな」
 
@@ -24,6 +26,7 @@ wait		1000
 @bg_door		# ドア前
 
 #SCRIPT ORIGINAL かりんを探して、まずは初めに彼女の部屋へとやってきた。
+#SCRIPT UNTRANSLATED
 かりんを探して、まずは初めに彼女の部屋へとやってきた。
 
 #SE11　部屋のドアをノック（コンコン）
@@ -32,32 +35,40 @@ wait		1000
 #CH（立ち絵なし）
 
 #SCRIPT ORIGINAL 「は～い、誰？」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02307
 「は～い、誰？」
 
 #SCRIPT ORIGINAL いきなりビンゴ。
+#SCRIPT UNTRANSLATED
 いきなりビンゴ。
 
 #SCRIPT ORIGINAL 「かりん、オレだ。ちょっと話があるんだけど」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりん、オレだ。ちょっと話があるんだけど」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02308
 「…………」
 
 #SCRIPT ORIGINAL 返事を待つ。
+#SCRIPT UNTRANSLATED
 返事を待つ。
 
 #SCRIPT ORIGINAL 「……え」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02309
 「……え」
 
 #SCRIPT ORIGINAL 「かりん？　聞こえてるか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりん？　聞こえてるか」
 
 #SCRIPT ORIGINAL 「えわッ！？　い、樹ッ！？　ちょっと待ちなさい！」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02310
 「えわッ！？　い、樹ッ！？　ちょっと待ちなさい！」
 
@@ -67,17 +78,21 @@ wait		1000
 @SE28			#SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 
 #SCRIPT ORIGINAL 何やら中から、ありきたりな取り乱し音が聞こえてきた。
+#SCRIPT UNTRANSLATED
 何やら中から、ありきたりな取り乱し音が聞こえてきた。
 
 #SCRIPT ORIGINAL 「もう良いって言うまで入ってきちゃダメよッ！」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02311
 「もう良いって言うまで入ってきちゃダメよッ！」
 
 #SCRIPT ORIGINAL 「もう良い」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もう良い」
 
 #SCRIPT ORIGINAL 一度やってみたかったので、自分で言って入ってみる。
+#SCRIPT UNTRANSLATED
 一度やってみたかったので、自分で言って入ってみる。
 
 @bg_black
@@ -100,10 +115,12 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「………ッ！？」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02312
 「………ッ！？」
 
 #SCRIPT ORIGINAL 「お、ぁ………着替え中だったか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、ぁ………着替え中だったか」
 
@@ -121,6 +138,7 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「あなたが言ってどうするのよッ！　出てってー！」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02313
 「あなたが言ってどうするのよッ！　出てってー！」
 
@@ -137,12 +155,15 @@ wait			500
 screen_blackin		1
 
 #SCRIPT ORIGINAL ………
+#SCRIPT UNTRANSLATED
 ………
 
 #SCRIPT ORIGINAL ……………
+#SCRIPT UNTRANSLATED
 ……………
 
 #SCRIPT ORIGINAL …………………
+#SCRIPT UNTRANSLATED
 …………………
 
 #■BG（かりんの部屋）
@@ -161,78 +182,95 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「はぁ………まったく。常識が欠如してるわよ、あなた」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02314
 「はぁ………まったく。常識が欠如してるわよ、あなた」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 #SCRIPT ORIGINAL 着替えが終わり、かりんが部屋でむくれていた。
+#SCRIPT UNTRANSLATED
 着替えが終わり、かりんが部屋でむくれていた。
 
 #SCRIPT ORIGINAL 「悪かったって。まさか着替え中とは思わなかった」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「悪かったって。まさか着替え中とは思わなかった」
 
 @karin_ikari		#怒
 
 #SCRIPT ORIGINAL 「着替え中じゃなくても、女の子の部屋に軽く入ってこないでっ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02315
 「着替え中じゃなくても、女の子の部屋に軽く入ってこないでっ」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「……見たんでしょ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02316
 「……見たんでしょ」
 
 #SCRIPT ORIGINAL 「それはまぁ……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それはまぁ……」
 
 #SCRIPT ORIGINAL 「しかし、今さらって感じもするし」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「しかし、今さらって感じもするし」
 
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「うぅ……下着姿を晒して、そんな淡白な反応なのも納得いかないわっ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02317
 「うぅ……下着姿を晒して、そんな淡白な反応なのも納得いかないわっ」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
 #SCRIPT ORIGINAL どうしろと言うんだ。
+#SCRIPT UNTRANSLATED
 どうしろと言うんだ。
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「……で？　話っていうのは何」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02318
 「……で？　話っていうのは何」
 
 #SCRIPT ORIGINAL 「ああ、えっと」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、えっと」
 
 #SCRIPT ORIGINAL ……ちょっと立ち入った話になるからな。
+#SCRIPT UNTRANSLATED
 ……ちょっと立ち入った話になるからな。
 
 #SCRIPT ORIGINAL かりんを不機嫌にした直後では、タイミングが悪いかもしれない。
+#SCRIPT UNTRANSLATED
 かりんを不機嫌にした直後では、タイミングが悪いかもしれない。
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「ちなみに、つまらない事だったら怒るわよ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02319
 「ちなみに、つまらない事だったら怒るわよ」
 
 #SCRIPT ORIGINAL 「怒る？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「怒る？」
 
@@ -245,6 +283,7 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ええ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02320
 「ええ」
 
@@ -256,6 +295,7 @@ layer_movepass_play	l_karin,0,play_once
 #「樹に無理やり変態プレイをされたって、みかんや雫に言いふらすわ」
 
 #SCRIPT ORIGINAL 「樹に無理やり変態プレイをされたって言いふらすわ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02321
 「樹に無理やり変態プレイをされたって言いふらすわ」
 
@@ -266,19 +306,23 @@ layer_movepass_play	l_karin,0,play_once
 screen_vibration	500,16,16,16
 
 #SCRIPT ORIGINAL 「そッ、それはあんまりだ！」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そッ、それはあんまりだ！」
 
 #SCRIPT ORIGINAL ダメだ。何か答えないと、よけい苦境に追い込まれてしまう！
+#SCRIPT UNTRANSLATED
 ダメだ。何か答えないと、よけい苦境に追い込まれてしまう！
 
 #SCRIPT ORIGINAL 「実はかりんのお父さんの会社について聞きたかったんだけど」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「実はかりんのお父さんの会社について聞きたかったんだけど」
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「お父様の……？」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02322
 「お父様の……？」
 
@@ -292,60 +336,72 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「まさか、お父様とお母様に何かあったのっ？」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02323
 「まさか、お父様とお母様に何かあったのっ？」
 
 #SCRIPT ORIGINAL 「いや、そういうんじゃなくて。居なくなる直前の様子とかを聞きたいんだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、そういうんじゃなくて。居なくなる直前の様子とかを聞きたいんだ」
 
 #SCRIPT ORIGINAL 「会社、大変な事になってたんだろう？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「会社、大変な事になってたんだろう？」
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「ああ、そのこと……」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02324
 「ああ、そのこと……」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「もちろん大変だったわよ。そうじゃないとこんな所になんか来てないもの」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02325
 「もちろん大変だったわよ。そうじゃないとこんな所になんか来てないもの」
 
 #SCRIPT ORIGINAL 「聞いた話では会社の経営状態が悪くなって、倒産したって」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「聞いた話では会社の経営状態が悪くなって、倒産したって」
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「そのとおりよ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02326
 「そのとおりよ」
 
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「……あんまり、その話を蒸し返さないでほしいんだけど」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02327
 「……あんまり、その話を蒸し返さないでほしいんだけど」
 
 #SCRIPT ORIGINAL 「そ、そうだよな……悪い。けどここからが本題なんだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうだよな……悪い。けどここからが本題なんだ」
 
 #SCRIPT ORIGINAL 「かりんがその借金を背負ってるってのは、確かなのか？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんがその借金を背負ってるってのは、確かなのか？」
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「え……？　どういう意味」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02328
 「え……？　どういう意味」
 
 #SCRIPT ORIGINAL 「誰かからそう聞いたのか？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「誰かからそう聞いたのか？」
 
@@ -358,76 +414,94 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ええ。雫よ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02329
 「ええ。雫よ」
 
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「お父様とお母様が居なくなってすぐ、雫が来て、私が背負うことになった借金について話してくれたわ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02330
 「お父様とお母様が居なくなってすぐ、雫が来て、私が背負うことになった借金について話してくれたわ」
 
 #SCRIPT ORIGINAL 「信じられなかったけど、会社の経営が危なくなっていたのは私も知っていたし」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02331
 「信じられなかったけど、会社の経営が危なくなっていたのは私も知っていたし」
 
 #SCRIPT ORIGINAL 「それに、同じような内容の書き置きと、雫への手紙も残されていたから」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02332
 「それに、同じような内容の書き置きと、雫への手紙も残されていたから」
 
 #SCRIPT ORIGINAL 「……つまり、自分で調べて知ったわけじゃないんだな？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……つまり、自分で調べて知ったわけじゃないんだな？」
 
 #SCRIPT ORIGINAL 「調べる必要も無いわ。お父様とお母様がそう私に手紙を残していたんだから」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02333
 「調べる必要も無いわ。お父様とお母様がそう私に手紙を残していたんだから」
 
 #SCRIPT ORIGINAL ということは、かりんの借金の話は、当事者の両親と雫さんだけの話になる。
+#SCRIPT UNTRANSLATED
 ということは、かりんの借金の話は、当事者の両親と雫さんだけの話になる。
 
 #SCRIPT ORIGINAL 口裏を合わせているだけの可能性は十分にあるわけか。
+#SCRIPT UNTRANSLATED
 口裏を合わせているだけの可能性は十分にあるわけか。
 
 #SCRIPT ORIGINAL 「あ、それともう一つ―――」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、それともう一つ―――」
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「待って」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02334
 「待って」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「さっきから、どうしてそんな事を訊くの。何かあるの？」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02335
 「さっきから、どうしてそんな事を訊くの。何かあるの？」
 
 #SCRIPT ORIGINAL さすがにかりんも訝しんでいるようだ。
+#SCRIPT UNTRANSLATED
 さすがにかりんも訝しんでいるようだ。
 
 #SCRIPT ORIGINAL けどまぁ、正直に打ち明けられる事じゃないよな……
+#SCRIPT UNTRANSLATED
 けどまぁ、正直に打ち明けられる事じゃないよな……
 
 #SCRIPT ORIGINAL 「ただの興味本位とかなら、あんまり触れないでほしいんだけど」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02336
 「ただの興味本位とかなら、あんまり触れないでほしいんだけど」
 
 #SCRIPT ORIGINAL 「……仕事で、書類を作成する必要があるんだ。その内容で」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……仕事で、書類を作成する必要があるんだ。その内容で」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02337
 「…………」
 
 #SCRIPT ORIGINAL 「だから、確認のような感じで聞かせてもらってるんだが」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だから、確認のような感じで聞かせてもらってるんだが」
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02338
 「…………」
 
@@ -441,46 +515,57 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「ふぅ……まぁいいわ。で、もう一つがどうしたの」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02339
 「ふぅ……まぁいいわ。で、もう一つがどうしたの」
 
 #SCRIPT ORIGINAL あんまり快く納得はしてないようだが、話を進めてきた。
+#SCRIPT UNTRANSLATED
 あんまり快く納得はしてないようだが、話を進めてきた。
 
 #SCRIPT ORIGINAL 「かりんのお父さんから、ここの話が出た事はあるか知りたいんだが」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんのお父さんから、ここの話が出た事はあるか知りたいんだが」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「いいえ、記憶に無いわ。知ってたら来ないわよ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02340
 「いいえ、記憶に無いわ。知ってたら来ないわよ」
 
 #SCRIPT ORIGINAL 「お父さんが、何か事故のような危ない目に遭っていたとか」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お父さんが、何か事故のような危ない目に遭っていたとか」
 
 @karin			#普通
 
 #SCRIPT ORIGINAL 「……さぁ、聞いたことが無いけど」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02341
 「……さぁ、聞いたことが無いけど」
 
 #SCRIPT ORIGINAL 「そうか……」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうか……」
 
 #SCRIPT ORIGINAL あの書類を信じるなら、かりんの父親は命を狙われていたはず。
+#SCRIPT UNTRANSLATED
 あの書類を信じるなら、かりんの父親は命を狙われていたはず。
 
 #SCRIPT ORIGINAL とりあえず借金の話に信憑性が無いことはハッキリした。
+#SCRIPT UNTRANSLATED
 とりあえず借金の話に信憑性が無いことはハッキリした。
 
 #SCRIPT ORIGINAL ……これ以上は、かりんに訊いても無駄か。
+#SCRIPT UNTRANSLATED
 ……これ以上は、かりんに訊いても無駄か。
 
 #SCRIPT ORIGINAL 「邪魔したな。それじゃ、オレはもう行くから」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「邪魔したな。それじゃ、オレはもう行くから」
 
@@ -490,10 +575,12 @@ wait		1500
 se_stop		0
 
 #SCRIPT ORIGINAL 「えっ……あ、待ってっ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02342
 「えっ……あ、待ってっ」
 
 #SCRIPT ORIGINAL 退室しようとしたら、少し慌ててかりんに呼び止められた。
+#SCRIPT UNTRANSLATED
 退室しようとしたら、少し慌ててかりんに呼び止められた。
 
 @karin_small
@@ -502,20 +589,24 @@ se_stop		0
 @bg_karin		# かりんの部屋
 
 #SCRIPT ORIGINAL 「……今日、みかんが居ないのよ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02343
 「……今日、みかんが居ないのよ」
 
 #SCRIPT ORIGINAL 「え……？　あぁ、そうみたいだな」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……？　あぁ、そうみたいだな」
 
 #SCRIPT ORIGINAL 「だから暇なの」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02344
 「だから暇なの」
 
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「さっき着替えをしていたのも、部屋で過ごすからラフな格好になろうとしていたからで……」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02345
 「さっき着替えをしていたのも、部屋で過ごすからラフな格好になろうとしていたからで……」
 
@@ -529,26 +620,31 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「あなたは、私の着替えを覗いた償いをしなさい！」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02346
 「あなたは、私の着替えを覗いた償いをしなさい！」
 
 #SCRIPT ORIGINAL 「な、何か微妙に日本語のつながりがおかしいぞ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「な、何か微妙に日本語のつながりがおかしいぞ」
 
 #SCRIPT ORIGINAL 「償いって、何をすればいいんだ」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「償いって、何をすればいいんだ」
 
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「そんなの自分で考えなさいよ。私から言うと、お願いしてるみたいになるじゃない」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02347
 「そんなの自分で考えなさいよ。私から言うと、お願いしてるみたいになるじゃない」
 
 #@karin			#普通
 
 #SCRIPT ORIGINAL 「…………」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02348
 「…………」
 
@@ -562,14 +658,17 @@ layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
 #SCRIPT ORIGINAL 「はぁ……せっかくの休みなのに暇だわ。暇すぎる」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02349
 「はぁ……せっかくの休みなのに暇だわ。暇すぎる」
 
 #SCRIPT ORIGINAL （ははぁ、なるほど。そういうことか）
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 （ははぁ、なるほど。そういうことか）
 
 #SCRIPT ORIGINAL 「じゃあかりんの相手をする事で、着替えを覗いた償いは出来るかな？」
+#SCRIPT UNTRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じゃあかりんの相手をする事で、着替えを覗いた償いは出来るかな？」
 
@@ -577,19 +676,23 @@ layer_movepass_play	l_karin,0,play_once
 @karin_keno		#嫌悪
 
 #SCRIPT ORIGINAL 「………ふ、ふん、釣り合わないわ」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02350
 「………ふ、ふん、釣り合わないわ」
 
 @karin_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「でもまぁ、樹相手に期待しても無駄だし。それで我慢してあげる」
+#SCRIPT UNTRANSLATED
 ＠Ｋａｒｉｎ,P02351
 「でもまぁ、樹相手に期待しても無駄だし。それで我慢してあげる」
 
 #SCRIPT ORIGINAL 不機嫌な表情を崩さないまま、オレの申し出を受けるかりん。
+#SCRIPT UNTRANSLATED
 不機嫌な表情を崩さないまま、オレの申し出を受けるかりん。
 
 #SCRIPT ORIGINAL こっちも苦笑しながら、今日はかりんに付き合ってあげた。
+#SCRIPT UNTRANSLATED
 こっちも苦笑しながら、今日はかりんに付き合ってあげた。
 
 bgm_stop
