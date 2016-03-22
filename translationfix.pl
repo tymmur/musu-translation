@@ -1822,6 +1822,9 @@ sub loadFromScriptsInc
 	{
 		unlink($status_file);
 	}
+	
+	my @groups;
+	my %group_stats = ();
 
 	foreach (readFile("scripts.ini"))
 	{
@@ -1848,6 +1851,9 @@ sub loadFromScriptsInc
 		elsif (substr($_, 0, 13) eq "#SCRIPT GROUP")
 		{
 			push(@group_status, makeStatusLine($group, $group_translated_lines, $group_lines, $group_translated_byte_count, $group_byte_count, 0));
+			
+			push(@groups, $group);
+			$group_stats{$group} = [ $group_translated_lines, $group_lines, $group_translated_byte_count, $group_byte_count ];
 			
 			$total_lines                 += $group_lines;
 			$total_translated_lines      += $group_translated_lines;
@@ -1939,8 +1945,7 @@ sub loadFromScriptsInc
 	
 	
 	print FILE "Common route:" . $CLRF;
-	print FILE "Lines: " . sprintf("%.3f", $translated_common_lines*100) . "%" . $CLRF;
-	print FILE "Bytes: " . sprintf("%.3f", $translated_common_bytes*100) . "%" . $CLRF;
+	print FILE "DONE!" . $CLRF;
 	
 	print FILE $CLRF;
 	print FILE "Total: (reviewed, reachable without going through untranslated sections)" . $CLRF;
@@ -1955,6 +1960,36 @@ sub loadFromScriptsInc
 	print FILE $CLRF;
 	print FILE "Total line count: ". $total_lines . $CLRF;
 	print FILE "Total byte count: ". $total_byte_count . $CLRF;
+	
+	print FILE $CLRF;
+	print FILE "Stats for each file group:" . $CLRF;
+	print FILE "See scripts.ini for which files belong to which group." . $CLRF;
+	
+	print FILE $CLRF;
+	print FILE "Completed groups:" . $CLRF;
+	
+	foreach my $group (@groups)
+	{
+		next if $group_stats{$group}[0] < 10;
+		next if $group_stats{$group}[0] != $group_stats{$group}[1];
+	
+		print FILE $group . $CLRF;
+	}
+	
+	print FILE $CLRF;
+	print FILE "Incomplete groups:" . $CLRF;
+	
+	foreach my $group (@groups)
+	{
+		next if $group_stats{$group}[0] < 10;
+		next if $group_stats{$group}[0] == $group_stats{$group}[1];
+	
+		print FILE $CLRF;
+		print FILE "Group: " . $group . $CLRF;
+		print FILE "Lines: " . sprintf("%.3f", ($group_stats{$group}[0] / $group_stats{$group}[1])*100) . "%" . $CLRF;
+		print FILE "Bytes: " . sprintf("%.3f", ($group_stats{$group}[2] / $group_stats{$group}[3])*100) . "%" . $CLRF;
+	}
+	
 	close FILE;
 }
 
