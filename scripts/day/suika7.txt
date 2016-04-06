@@ -10,32 +10,40 @@ label	suika_07
 @bg_itsuki_n		# 自室(夜)
 
 #SCRIPT ORIGINAL さて……今日はもうすることもないし、そろそろ寝るかな？
-　Well……there isn’t anything to do today again.  I wonder if I should go to sleep now.
+　Right... not much left to do today. Maybe I’ll turn in...
+
+#Well……there isn’t anything to do today again.  I wonder if I should go to sleep now.
 
 #(don’t know how to fit the sorosoro in there.  I guess ‘soon’ would be okay, but ‘now’ sounds better more correct)
 
 #SCRIPT ORIGINAL それとも、まだ少し早いし、たまにはすいかとゲームでもするか……？
-　Or, since it is still early, maybe I can play a game with Suika……?
+Well, it’s still fairly early... I could play a game with Suika, too...
+
+#　Or, since it is still early, maybe I can play a game with Suika……?
 
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL ……などと考えていると、ノックがあった。
-……While I’m thinking, I hear a knock.
+As I think that, there was a knock.
+
+#……While I’m thinking, I hear a knock.
 
 #SCRIPT ORIGINAL 「院長先生、すいかです」
 ＠Suika,R00532
-「Inchou-sensei, it’s Suika.」
+「Inchou-sensei, it’s Suika」
 
 #SCRIPT ORIGINAL 「おう、どうした……？」
 ＠Itsuki
-「Oh, what is it……?」
+「Yeah, what is it...?」
 
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
 
 #SCRIPT ORIGINAL 返事をしつつ入り口に向かい、ドアを開けてやる。
-　I reply to her from the other side of the door and open it.
+　As I reply, I move to the door and open it.
+　
+#I reply to her from the other side of the door and open it.
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -44,53 +52,57 @@ label	suika_07
 
 #SCRIPT ORIGINAL 「すみません、こんな時間に……」
 ＠Suika,R00533
-「I’m sorry, at such a time……」
+「Sorry, I know it’s late...」
 
 #SCRIPT ORIGINAL 「もうお休みされてましたか？」
 ＠Suika,R00534
-「Were you resting again?」
+「Were you asleep already?」
 
 #SCRIPT ORIGINAL 「いや、大丈夫だ。それより、どうしたんだ？」
 ＠Itsuki
-「No, it’s alright.  Anyway, is something the matter?」
+「No, I’m fine. Anyway, what’s up?」
 
 @suika			#普
 
 #SCRIPT ORIGINAL 「あ、そ、その……。少しお願いしたいことがありまして……」
 ＠Suika,R00535
-「Ah, uh, that…… I have a small request……」 
+「Ah, w-well... I have a small request...」 
 
 #SCRIPT ORIGINAL 「なんだ？　オレにできることなら」
 ＠Itsuki
-「Sure.  I will if I can.」
+「You do? I’ll see what I can do」
 
 @suika_tere		#照
 
 #SCRIPT ORIGINAL 「あ、はい。入ってもいいでしょうか？」
 ＠Suika,R00536
-「Ah, yes.  Could I come in?」
+「Ah, sure. May I come in?」
 
 #SCRIPT ORIGINAL すいかは少し周囲を気にした様子でキョロキョロした。
-　Suika glanced at her surroundings a little. (pretty much lost on this one.)
+　Suika glanced at her surroundings looking a little frazzled.
 
 #SCRIPT ORIGINAL なんだか、少し顔が赤いような気がする。
-　I think I see a tinge of red in her complexion.
+　I think I saw her face going red a bit.
 
 #SCRIPT ORIGINAL 「お、おう……」
 ＠Itsuki
-「Oh, ooh……」
+「S-sure...」
 
 #SCRIPT ORIGINAL なんとなく、最初にすいかがこの部屋に来たときのことを思い出しつつ、オレは脇へと避け、すいかに道を空けた。
-　For some reason, I recall when Suika first came to this room.  I move aside and let her in.
+　That said, I realize it’s Suika’s first time coming into my room, as I step aside and vacate the doorway.
+
+For some reason, I recall when Suika first came to this room.  I move aside and let her in.
 
 #SCRIPT ORIGINAL 「失礼いたします」
 ＠Suika,R00537
-「Excuse me.」
+「Pardon me」
 
 @suika_
 
 #SCRIPT ORIGINAL すいかが部屋に入ったのを確認し、オレは入り口のドアを閉める。
-　I confirm that Suika has entered the room and close the door.
+　Watching as Suika entered the room, I close the door behind.
+
+#I confirm that Suika has entered the room and close the door.
 
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
@@ -98,7 +110,7 @@ label	suika_07
 
 #SCRIPT ORIGINAL 「えーと、それで……？」
 ＠Itsuki
-「Uuuum, so……?」
+「Umm, well...?」
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -106,111 +118,131 @@ label	suika_07
 
 #SCRIPT ORIGINAL 「あ、いえ、大したことじゃないんですけど……」
 ＠Suika、,R00538
-「Ah, no, it isn’t really important.」
+「Ah, no, it’s not that big of a deal, but...」
 
 #SCRIPT ORIGINAL 「今、ちょっと本を読んでいたんですけれど、わからないことがありまして」
 ＠Suika,R00539
-「Just now, I was reading a book, but there was something that I didn’t understand.」
+「Just now, I was reading a book, but there was something that I didn’t understand」
 
 #SCRIPT ORIGINAL 「ふーん……。どんな本だ？　参考書か何かか？」
 ＠Itsuki
-「Hmmm…… What kind of book?  Was it a reference book or something?」
+「Hmm... what kind of book? An encyclopedia or something?」
 
 #SCRIPT ORIGINAL まあ、すいかぐらいの年齢の子が使っている参考書なら、オレにもわかるとは思うけど。
-　Well, if it is a reference book for a child around Suika’s age, then I think even I should be able to understand it.
+　I suppose, if it’s an encyclopedia for kids her age, I’d be able to make sense of it.
+
+#Well, if it is a reference book for a child around Suika’s age, then I think even I should be able to understand it.
 
 #SCRIPT ORIGINAL でも、上手く教えられるかなぁ？
-　But, can I really skillfully teach her?
+　Would I get the point across, though?
 
 @suika_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「えーと……。まあ、参考書といえば参考書なんですけど」
 ＠Suika,R00540
-「Uuum…… Well, when I say it’s a reference book, I mean that it’s a reference book.」
+「Umm... well, you COULD call it a reference book」
 
 #SCRIPT ORIGINAL オレの質問に対し、すいかの答えは微妙に釈然としない。
-　Responding to my question, her answer is complicated and not easy to understand.
+　In response to my question, Suika’s reply is fairly lacking.
+
+#Responding to my question, her answer is complicated and not easy to understand.
 
 #SCRIPT ORIGINAL 「なんの参考書だ？」
 ＠Itsuki
-「What kind of reference book is it?」
+「What kind of reference book?」
 
 @suika_komariwarai	#困笑
 
 #SCRIPT ORIGINAL 「あはは……その、学校の勉強のための参考書じゃなくてですね……」
 ＠Suika,R00541
-「Ahaha……that is, it isn’t a reference book for the sake of school studies……」
+「Ahaha... y’see, it’s not a reference book meant for school or anything...」
 
 #SCRIPT ORIGINAL 「……？」
 ＠Itsuki
-「……？」
+「...?」
 
 @suika_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「その、お仕事の参考書と言いますか……」
 ＠Suika,R00542
-「That is, I’m saying that it is a reference book for my job……」
+「Er, you might say it’s a reference book for my job...」
 
 #SCRIPT ORIGINAL 「お仕事の参考書……って、つまりそういうテクニックの本……？」
 ＠Itsuki
-「A reference book for your job?  What you’re trying to say is, it is a book of techniques……?」
+「A reference book for your job? ...Wait, so you mean, it’s about the techniques and stuff?」
 
 @suika_tere		#照
 
 #SCRIPT ORIGINAL 「あはは、そ、そんなところです……」
 ＠Suika,R00543
-「Ahaha, some, something like that……」
+「Ahaha, s-something like that...」
 
 #SCRIPT ORIGINAL 「そ、そうか」
 ＠Itsuki
-「Is, is that right?」
+「I-is that right?」
 
 #SCRIPT ORIGINAL 「オレに答えられるといいんだけど……」
 ＠Itsuki
-「I hope I can answer your question, however……」
+「I hope I can answer your question, though...」
 
 #SCRIPT ORIGINAL そのへんのことは、オレよりむしろすいかのほうが詳しいんじゃないかという気もしなくもない。
-　That strange thing, I think that Suika could more accurately give advice than I could.  (unsure)
+　When it comes to that, compared to me I do get the sense Suika is more knowledgable.
+
+#That strange thing, I think that Suika could more accurately give advice than I could.  (unsure)
 
 @suika			#普
 
 #SCRIPT ORIGINAL 「あ、別に質問に答えてもらおうというわけじゃないんです」
 ＠Suika,R00544
-「Ah, I didn’t mean that I needed an answer to any particular question.」
+「Ah, it’s not like I need you to answer a question or anything」
 
 @suika_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「どうも、実際に手や身体を動かしてみないと感覚がつかめなくて……」
 ＠Suika,R00545
-「Thank you, when I don’t try to move my arms and body, I don’t have any sensation……」
+「Thinking about it, I won’t get the feel for it without actually trying it...」
+
+#「Thank you, when I don’t try to move my arms and body, I don’t have any sensation……」
 
 @suika_tere		#照
 
 #SCRIPT ORIGINAL 「なので、院長先生はただ、おちんちんを勃たせていただければ」
 ＠Suika,R00546
-「So, Inchou-sensei, um, could I trouble you to get an erection?」
+「So, Inchou-sensei, all I’d like is for you to get a hard-on for me」
 
 #SCRIPT ORIGINAL 「そ、そうか……」
 ＠Itsuki
-「Is, is that so……」
+「I-is that so...?」
 
 #SCRIPT ORIGINAL うーん、どうやら質問に答えられず恥をかくことはなさそうだが、それはそれで微妙だなぁ。
-　Hmmm, it’s unlikely that it would be embarrassing to not be able to answer her question, but if that is the case, than this is difficult. (unsure, wording is really awkward)
+　Hmm, I guess I don’t need to stomach if I can’t answer a question, but this presents its own problems.
+
+#Hmmm, it’s unlikely that it would be embarrassing to not be able to answer her question, but if that is the case, than this is difficult. (unsure, wording is really awkward)
 
 #SCRIPT ORIGINAL いや、すいかのテクニックは確かだから気持ちよくしてくれるんだろうし、すいかにされるのがイヤなわけじゃないが……。
-　No, because I am sure that Suika’s technique is good, it would probably feel really good.  I don’t mean that it would be terrible to do it with Suika, but…….
+　No well, Suika’s technique is sure-footed and likely to make me feel good, so it’s not that I don’t want her to do it, but...
+
+#No, because I am sure that Suika’s technique is good, it would probably feel really good.  I don’t mean that it would be terrible to do it with Suika, but…….
 
 #SCRIPT ORIGINAL しかし、教材として使われるだけというのは、やはり微妙な気分になる。
-　However, it would mean that I would need to use "teaching materials," and the mood will become difficult.
+　On the other hand, to be used as a learning canvas, does strike me pretty oddly.
+
+#However, it would mean that I would need to use "teaching materials," and the mood will become difficult.
 
 #SCRIPT ORIGINAL とはいえまあ、今のオレの仕事は概ねそんなもんか。
-　Nonetheless, my job right now is generally that kind of thing. (a little unsure.  Monka can mean one’s pupil.  It would make sense in this case, but there is no verb to end it with, so it is unlikely.)
+　Still, that’s the general gist of my job right now, isn’t it?
+
+Nonetheless, my job right now is generally that kind of thing. (a little unsure.  Monka can mean one’s pupil.  It would make sense in this case, but there is no verb to end it with, so it is unlikely.)
 
 #SCRIPT ORIGINAL プライベートの時間まで自習しようというすいかもどうかという気もするが……。
-　Until private time she somehow studied by herself. (very unsure)
+　Suika, attempting to learn the trade in her own free time is something else too, but...
+
+#Until private time she somehow studied by herself. (very unsure)
 
 #SCRIPT ORIGINAL でも、仕事熱心なのはいいこと、なのか……？
-　But, the enthusiasm she has for her job is a good thing, right……?
+　Even so, the enthusiasm for her work is good, I suppose...?
+
+#But, the enthusiasm she has for her job is a good thing, right……?
 
 #SCRIPT ORIGINAL 「それでは、脱ぎますね」
 ＠Suika,R00547

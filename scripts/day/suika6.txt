@@ -746,7 +746,7 @@ label		suika6_togo3
 #（２．なかなかだった）
 #（３．微妙だった）
 #SCRIPT ORIGINAL select sel,"面白かった","なかなかだった","微妙だった"
-select sel,"Interesting","Okay","Weird"
+select sel,"Interesting","Fine","Not that great"
 if sel=0 then goto suika6_q02_a
 if sel=1 then goto suika6_q02_b
 if sel=2 then goto suika6_q02_c
@@ -774,61 +774,65 @@ label		suika6_q02_a
 #＠樹
 #SCRIPT ORIGINAL 「ホントホント。すごいなぁ。パソコン貸してからそんなに時間も経ってないのに、こんなものが作れるのか」
 ＠Itsuki
-「It’s the truth. I’m impressed. To think, you could make something like this when I lent you the computer so recently」
+「Really really. Like, wow... I didn’t think you could make something like this when I only just lent you the computer」
 
 #＠樹
 #SCRIPT ORIGINAL 「すいかって、実はすごい才能があったんだな……」
 ＠Itsuki
-「Suika, you really have a lot of talent......」
+「Suika, you really are talented...」
 
 @suika_tere		#照
 
 #＠すいか,R00519
 #SCRIPT ORIGINAL 「そ、それは褒めすぎですよ……」
 ＠Suika,R00519
-「Th, that's praising me too much......」
+「T-that’s giving too much credit...」
 
 #＠すいか,R00520
 #SCRIPT ORIGINAL 「でも、先生に喜んでもらえて、すごく嬉しいです」
 ＠Suika,R00520
-「But I'm very happy that Sensei was happy.」
+「But I’m super glad that you liked it, sensei」
 
 #SCRIPT ORIGINAL 少し赤くなりながらも、すいかは本当に嬉しそうだ。
-　She turned a bit red, but Suika really looked happy.
+　Though blushing a bit, Suika truly looked pleased.
+
+#She turned a bit red, but Suika really looked happy.
 
 @suika_warai		#笑
 
 #＠すいか,R00521
 #SCRIPT ORIGINAL 「今はまだ１面しかないですけど、また続きも作りますね」
 ＠Suika,R00521
-「Right now there is only 1 screen, but I'll continue making it.」
+「I only made 1 level so far, but I’ll keep working on it」
 
 @suika_yorokobi		#喜
 
 #＠すいか,R00522
 #SCRIPT ORIGINAL 「そしたらまた遊んでください」
 ＠Suika,R00522
-「If I do, come play again.」
+「Come play again when I make another one」
 
 #＠樹
 #SCRIPT ORIGINAL 「おう、もちろん」
 ＠Itsuki
-「Oh, of course.」
+「Yeah, of course」
 
 #＠樹
 #SCRIPT ORIGINAL 「楽しみにしてるぜ」
 ＠Itsuki
-「I'll be looking forward to it.」
+「I'm looking forward to it!」
 
 @suika_warai		#笑
 
 #＠すいか,R00523
 #SCRIPT ORIGINAL 「はい」
 ＠Suika,R00523
-「Yes.」
+「Yeah!」
 
 #SCRIPT ORIGINAL 初めて見るような幸せそうな笑顔で、すいかはうなずいた。
-　Suika nodded with a happy looking smile that I had never seen before.
+　Suika nodded, beaming more happily than I’d ever seen.
+
+#Suika nodded with a happy looking smile that I had never seen before.
 
 @suika_evup
 
@@ -845,59 +849,63 @@ label		suika6_q02_b
 #＠樹
 #SCRIPT ORIGINAL 「うーん、まだ作り込みが甘い部分もあるかもしれないけど……」
 ＠Itsuki
-「Hm, well there are some good parts......」
+「Hmm, there’s some rough spots leftover from development, but...」
 
 #＠樹
 #SCRIPT ORIGINAL 「でも、初めてでこれなら、なかなかいいんじゃないか？」
 ＠Itsuki
-「But, it's quite good for your first attempt.」
+「Still, it’s pretty good for a first try, I’d say」
 
 @suika_yorokobi		#喜
 
 #＠すいか,R00524
 #SCRIPT ORIGINAL 「ホントですか？　嬉しいです……」
 ＠Suika,R00524
-「Really? I'm happy......」
+「Really? I'm glad...」
 
 #SCRIPT ORIGINAL 軽く褒めてやると、すいかもにこにこと嬉しそうだ。
-　I lightly praised her, and Suika smiled and seemed happy.
+　When I praise her modestly, Suika grins seeming satisfied.
+
+#I lightly praised her, and Suika smiled and seemed happy.
 
 @suika_warai		#笑
 
 #＠すいか,R00525
 #SCRIPT ORIGINAL 「今はまだ１面しかないですけど、また続きも作りますね」
 ＠Suika,R00525
-「Right now there is only 1 screen, but I'll continue making it.」
+「I only made 1 level so far, but I'll keep working on it」
 
 @suika_yorokobi		#喜
 
 #＠すいか,R00526
 #SCRIPT ORIGINAL 「もっと面白くなるように頑張ります」
 ＠Suika,R00526
-「I'll work hard to make it more interesting.」
+「I'll do my best to make it more exciting」
 
 #＠樹
 #SCRIPT ORIGINAL 「おう、頑張れ」
 ＠Itsuki
-「Oh, good luck.」
+「Yeah, good luck」
 
 #SCRIPT ORIGINAL やはり、好きなことに努力するのはいいことだ。
-　It's a good thing to put effort into things you like.
+　In the end, it’s good to put effort in things you like.
+
+#It's a good thing to put effort into things you like.
 
 #＠樹
 #SCRIPT ORIGINAL 「でも、睡眠だけはちゃんと取れよ」
 ＠Itsuki
-「But make sure to get enough sleep.」
+「But mind your sleep, alright?」
 
 @suika_komariwarai	#困笑
 
 #＠すいか,R00527
 #SCRIPT ORIGINAL 「あはは、はい」
 ＠Suika,R00527
-「Ahaha, yes.」
+「Ahaha, sure」
 
 #SCRIPT ORIGINAL 少し苦笑しつつ、すいかはうなずいた。
-　Suika nodded with a slightly bitter smile.
+　Suika nodded, with a hint of a wry smile.
 
 @suika_evup
 
@@ -912,59 +920,63 @@ label		suika6_q02_c
 #＠樹
 #SCRIPT ORIGINAL 「うーん、正直微妙ではあるが……」
 ＠Itsuki
-「Umm, to be honest, it was strange......」
+「Hmm, to be honest, it wasn’t that great...」
 
 #＠樹
 #SCRIPT ORIGINAL 「でもまあ、初めてだからこんなもんかな」
 ＠Itsuki
-「But well, it's your first time so this kind of thing is well...」
+「But well, that’s how it goes the first time...」
 
 @suika_kanashimi	#哀
 
 #＠すいか,R00528
 #SCRIPT ORIGINAL 「そ、そうですか……」
 ＠Suika,R00528
-「Re, really......」
+「Y-you think so...?」
 
 #＠すいか,R00529
 #SCRIPT ORIGINAL 「でもまあ、初めてですから……」
 ＠Suika,R00529
-「But well, it is my first time......」
+「But well, that’s how it goes...」
 
 #SCRIPT ORIGINAL 少し残念そうに、すいかはつぶやく。
-　Suika murmured with some regret.
+　Suika murmured sounding a little disappointed.
 
 #SCRIPT ORIGINAL うーん、ちょっと可哀想だったかな？
-　Hmm, maybe that was a bit too pitiable?
+　Hmm, maybe I was a bit too hard on her?
 
 #SCRIPT ORIGINAL きっと一生懸命作ったんだよな……。
-　She definitely made it with all of her effort......
+　She definitely put all of her effort into it...
 
 #SCRIPT ORIGINAL 初めてだからそんなに完璧なものは作れないだろうけど、だからこそもう少し言い方があったかも……。
-　She can't make something perfect on her first try, so maybe there was something better to say......
+　She couldn’t produce a masterpiece on her first try, so I maybe I could’ve replied more tactfully...
+
+#She can't make something perfect on her first try, so maybe there was something better to say......
 
 #＠樹
 #SCRIPT ORIGINAL 「ま、まあ、初めてにしちゃ上出来だって、たぶん」
 ＠Itsuki
-「W, well, it was good for your first try, probably.」
+「W-well, I guess it’s good for a first time」
 
 #SCRIPT ORIGINAL 今さらながら、オレはフォローを入れる。
-　But now after all this time, I follow up.
+　I try and cover it up, but it’s too late.
+
+#But now after all this time, I follow up.
 
 @suika_komariwarai	#困笑
 
 #＠すいか,R00530
 #SCRIPT ORIGINAL 「あはは、ありがとうございます」
 ＠Suika,R00530
-「Ahaha, thank you very much.」
+「Ahaha, thanks so much」
 
 #＠すいか,R00531
 #SCRIPT ORIGINAL 「でも、やっぱり自分でゲームを作るのは難しいですね」
 ＠Suika,R00531
-「But I guess it's hard to make my own game.」
+「But, I guess making a game on your own is pretty hard, after all」
 
 #SCRIPT ORIGINAL すいかは少し悔しそうにしながらも笑顔をつくってみせた。
-　Suika forced a smile while looking still a bit regretful.
+　Suika put a smile on her face, while still looking a bit troubled.
 
 #--------------------------------------------------
 #■（統合４）
