@@ -9,73 +9,79 @@ label	suika_10
 @bg_living		# リビング
 
 #SCRIPT ORIGINAL 「これはひどい……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Itsuki
-「これはひどい……」
+「This is just awful...」
 
 @bgm02			#BGM 02 : 朝のテーマ
 
 #SCRIPT ORIGINAL リビングで新聞を読んでいたオレは、思わずつぶいやた。
-　I was reading the newspaper in the living room, and I sighed without realizing it.
+　I voiced quietly as I read the newspaper in the living room.
+
+#I was reading the newspaper in the living room, and I sighed without realizing it.
 
 #SCRIPT ORIGINAL ひどい事件があったわけではない。社説の内容があまりにひどいのだ。
-　There's no way such a horrible incident could have happened. The editorial's contents are too horrible.
+　It's not some awful incident. The editorial writing is just awful.
+
+#There's no way such a horrible incident could have happened. The editorial's contents are too horrible.
 
 #SCRIPT ORIGINAL 仮にも大新聞がこんな社説を書いて恥ずかしくないのだろうか？
-　Even if a big newspaper wrote this kind of editorial as a joke, isn't it embarassing?
+　For a big newspaper to have this kind of editorial, is there no shame?
+
+#Even if a big newspaper wrote this kind of editorial as a joke, isn't it embarassing?
 
 #SCRIPT ORIGINAL はっきり言って、こんな社説を載せている新聞の記事なんて信用できないんだが……。
-　To say it clearly, I can't really place confidence in the articles in a newspaper that has this kind of editorial......
+　To put it bluntly, I can't trust any "news" from a paper with this kind of an editorial...
+
+#To say it clearly, I can't really place confidence in the articles in a newspaper that has this kind of editorial......
 
 #SCRIPT ORIGINAL やっぱりもう新聞なんて終わったメディアなんだろうか？
-　Is the newspaper already a finished media?
+　Maybe it's true after all, newspapers are an outdated medium.
+
+#Is the newspaper already a finished media?
 
 #SCRIPT ORIGINAL とはいえ、こんな仕事をしているとどうしても情報に疎くなりがちなので、やはり新聞は必要だしなぁ……。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-とはいえ、こんな仕事をしているとどうしても情報に疎くなりがちなので、やはり新聞は必要だしなぁ……。
+　That said, since you tend to grow distant from world affairs in this line of work, a newspaper is a necessity...
 
 #＠樹
 #SCRIPT ORIGINAL （でも、考えてみればネットでニュースを見る手もあるのか？）
 ＠Itsuki
-(But if you think about it, can't you also check the news on the net?)
+(But thinking about it, couldn't I check up on the news on the internet?)
 
 #SCRIPT ORIGINAL パソコンはすいかに貸してるけど……。
-　I lent my computer to Suika though......
+　I lent my computer to Suika, though...
 
 #SCRIPT ORIGINAL 前に雫さんがパソコンを使ってるのも見たし、すいかもＢＧＭをネットから拾ってきたとか言っていたはず。
-　I saw Shizuku-san using the computer earlier, and Suika said that she got BGM from the net.
+　I did see Shizuku using it earlier, and Suika said that she got BGM off the 'net.
 
 #SCRIPT ORIGINAL ということは、無線LANか何かあるんだよな、ここ。
-　Which means we have wireless LAN or something here.
+　Which means we must have a wireless network or something.
 
 #SCRIPT ORIGINAL だったら、パソコンがあればネットでニュースを見ることもできるはずだった。
-　If so, you should be able to check the news on the net.
+　In that case, getting news off the 'net would've been feasible.
 
 #＠樹
 #SCRIPT ORIGINAL （とはいえ、パソコンはすいかが使ってるしな）
 ＠Itsuki
-(Which reminds me, Suika is using the computer)
+(Still, Suika's got the computer now)
 
 #SCRIPT ORIGINAL せっかく喜んで使ってるんだし、わざわざ返してもらう道理はない。
-　She is finally happily using it, so I don't want to force her to give it back.
+　She's got one for herself at last, so I'd rather not bother her for it.
+
+#She is finally happily using it, so I don't want to force her to give it back.
 
 #SCRIPT ORIGINAL すいかのためなら、オレはまあ新聞で我慢するさ……。
-　If it's for Suika's sake, I'll just endure reading this newspaper......
+　If it's for Suika, I'll just bear with the newspaper...
 
 #SCRIPT ORIGINAL 偏ってはいるけれど、一応右寄りと左寄りの新聞を取っているので、見比べて情報を整理することも出来るしな。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-偏ってはいるけれど、一応右寄りと左寄りの新聞を取っているので、見比べて情報を整理することも出来るしな。
+　They're biased, but with the right- and left-leaning newspapers in hand, I'm able to parse the news out by comparison.
 
 #SCRIPT ORIGINAL ……と、そんなことを考えていたときだった。
-　......So, I thought about that.
+　...And so, I was busy with such considerations.
 
 @SE06			#部屋のドア開く音（ガチャ）
 
 #SCRIPT ORIGINAL リビングのドアが開き、そちらに目をやると、すいかが入ってきた。
-　The living room door opens, and I look towards it, and Suika enters.
+　The living room door opening, I turn to look and Suika came in.
 
 window_close
 @SE07			#部屋のドア閉まる音（パタン）
@@ -87,17 +93,19 @@ wait		1000
 #＠すいか,R00727
 #SCRIPT ORIGINAL 「あ、院長先生。ここにいらしたんですか」
 ＠Suika,R00727
-「Ah, Inchou-sensei. You were here.」
+「Ah, Inchou-sensei. You're hanging out here?」
 
 #SCRIPT ORIGINAL オレと目が合うと、すいかはとたんに嬉しそうな顔になる。
-　Our eyes meet, and Suika's face becomes happy.
+　When our eyes meet, for a moment Suika's face brightens up.
+
+#Our eyes meet, and Suika's face becomes happy.
 
 @suika_
 
 #＠樹
 #SCRIPT ORIGINAL 「おう、どうした？」
 ＠Itsuki
-「Oh, what's up?」
+「Yes, what is it?」
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -106,58 +114,64 @@ wait		1000
 #＠すいか,R00728
 #SCRIPT ORIGINAL 「あ、いえ……。またゲームの続きを作りましたので、遊んでいただけないかと……」
 ＠Suika,R00728
-「Ah, no...... I made the continuation of the game again, so if you would like to try playing it......」
+「Ah, it's just... I made another game continuation, so I was wondering if you wanted to...」
 
 #＠樹
 #SCRIPT ORIGINAL 「お、そうか。珍しいな、こんな時間に」
 ＠Itsuki
-「Oh, I see. It's strange, at this time.」
+「Oh, I see. What an unusual hour to ask」
 
 @suika_komariwarai	#困笑
 
 #＠すいか,R00729
 #SCRIPT ORIGINAL 「あはは……。昨日は遅くまで調整してましたから……」
 ＠Suika,R00729
-「Ahaha...... Because yesterday I stayed up adjusting it......」
+「Ahaha... I was up late last night putting the finishing touches, so...」
 
 @suika			#普
 
 #＠すいか,R00730
 #SCRIPT ORIGINAL 「さすがに遅かったんで、昨日はそのまま寝ちゃったんです」
 ＠Suika,R00730
-「It was really late, so yesterday I ended up falling asleep like that.」
+「It was pretty late, so yesterday I ended up falling asleep like that」
 
 @suika_yorokobi		#喜
 
 #＠すいか,R00731
 #SCRIPT ORIGINAL 「それで、今日の夜まで待とうかとも思ったんですけど、待ちきれなくて」
 ＠Suika,R00731
-「So then, I was thinking whether I should wait until tonight, but I couldn't wait.」
+「After that, I meant to wait until tonight, but I couldn't」
 
 #SCRIPT ORIGINAL キラキラと目を輝かせるようにオレを見つめるすいか。
-　Suika looks at me with sparkling eyes.
+　Suika looks on at me, her eyes sparkling full of anticipation.
+
+#Suika looks at me with sparkling eyes.
 
 #＠樹
 #SCRIPT ORIGINAL 「そ、そうか」
 ＠Itsuki
-「I, I see.」
+「I-I see」
 
 #SCRIPT ORIGINAL やっぱりなんとなく、惚れられかけているような気がする……。
-　I have a feeling she really has fallen in love with me......
+　Somehow, I really do get the sense she's falling in love with me...
+
+#I have a feeling she really has fallen in love with me......
 
 #SCRIPT ORIGINAL でもまあ、一緒にゲームをやるくらい、何の問題もないよな？
-　But well, there are no problems with playing a game together right?
+　But I guess, there's no problem with playing a game together, right?
+
+#But well, there are no problems with playing a game together right?
 
 #＠樹
 #SCRIPT ORIGINAL 「それじゃ、行こうか……」
 ＠Itsuki
-「Well then, let's go......」
+「Well then, shall we...?」
 
 bgm_stop
 @chara_clear	#保険
 
 #SCRIPT ORIGINAL と、オレが言いかけたそのときだった。
-　Then, right when I started to say that.
+　And so, it happened just as I was saying that...
 
 #--------------------------------------------------
 #注：デバッグ用
@@ -189,7 +203,7 @@ layer_movepass_play	l_ichigo,0,play_once
 #＠いちご,O02316
 #SCRIPT ORIGINAL 「あーッ、パパ、こんなところにいた！」
 ＠Ichigo,O02316
-「A-h, Papa, you were here!」
+「Ahh, Papa, you're here of all places!」
 
 #@ichigo_ikari		#怒
 @ichigo_komikaru_odoroki	#コミカル驚
@@ -197,17 +211,17 @@ layer_movepass_play	l_ichigo,0,play_once
 #＠いちご,O02317
 #SCRIPT ORIGINAL 「大変なんだよッ！　いちごの部屋にあいつが出たの！」
 ＠Ichigo,O02317
-「It's terrible! That guy appeared in Ichigo's room!」
+「It's terrible! This thing turned up in room!」
 
 @bgm03			#BGM 03 : いちごのテーマ
 
 #SCRIPT ORIGINAL いちごが息せき切ってリビングに飛び込んできた。
-　Ichigo jumped in the living room, panting.
+　Ichigo jumped into the living room, panting.
 
 #＠樹
 #SCRIPT ORIGINAL 「あいつ……？」
 ＠Itsuki
-「"That guy"......?」
+「What thing...?」
 
 @ichigo_komaru		#困
 wait	500
@@ -225,12 +239,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #＠いちご,O02318
 #SCRIPT ORIGINAL 「あいつだよ！　あの黒くて素早くてギトギトしてるアレ……！」
 ＠Ichigo,O02318
-「That guy! That black, fast, greasy thing......!」
+「That THING! The black, scuttley, grimy monster...!」
 
 #＠樹
 #SCRIPT ORIGINAL 「……ゴキブリか？」
 ＠Itsuki
-「......A cockroach?」
+「...A cockroach?」
 
 @ichigo_ikari		#怒
 wait	500
@@ -270,22 +284,22 @@ layer_movepass_play	l_ichigo,0,play_once
 #＠いちご,O02320
 #SCRIPT ORIGINAL 「どうにかして、パパッ！」
 ＠Ichigo,O02320
-「Please do something, papa!」
+「Please do something, Papa!」
 
 #SCRIPT ORIGINAL いちごは俺に泣きついてくる。
-　Ichigo clung to me and cried.
+　Ichigo cried into my shoulder.
 
 @ichigo_
 
 #＠樹
 #SCRIPT ORIGINAL 「しょうがないなぁ……」
 ＠Itsuki
-「I have no choice, do I......」
+「I don't have a choice, do I...?」
 
 #＠樹
 #SCRIPT ORIGINAL 「悪い、すいか、またあとで」
 ＠Itsuki
-「Sorry, Suika, I'll play it later.」
+「Sorry, Suika, some other time」
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -294,12 +308,12 @@ layer_movepass_play	l_ichigo,0,play_once
 #＠すいか,R00732
 #SCRIPT ORIGINAL 「あ、はい……」
 ＠Suika,R00732
-「Ah, yes......」
+「Ah, sure...」
 
 @suika_
 
 #SCRIPT ORIGINAL すいかに断りを入れて、俺は立ち上がる。
-　I get up after refusing to Suika.
+　I stand up, rejecting Suika's offer.
 
 @ichigo_large		# 近い
 @ichigo_shifuku
@@ -320,10 +334,10 @@ layer_movepass_play	l_ichigo,0,play_once
 #＠いちご,O02321
 #SCRIPT ORIGINAL 「パパ～ッ、早く早くッ！」
 ＠Ichigo,O02321
-「Papa~, hurry hurry!」
+「Papa～, hurry up hurry up!」
 
 #SCRIPT ORIGINAL せかすいちごに手を引かれ、俺はリビングを出たのだった。
-　Ichigo pulled my arm to hurry me, and I left the living room.
+　Ichigo pulling my arm in a rush, we left the living room.
 
 #（統合へ）
 goto		suika10_togo1
@@ -340,7 +354,7 @@ label		suika10_f01_mikan
 #＠みかん,A01961
 #SCRIPT ORIGINAL 「あ、ここにいたぁっ！」
 ＠Mikan,A01961
-「Ah, you were here!」
+「Ah, there you are!」
 
 @mikan_
 se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
@@ -348,17 +362,17 @@ se		0,	"sound\se\SE20_足音2～走ってくる.wav",play_once
 #＠みかん,A01962
 #SCRIPT ORIGINAL 「お兄ちゃ～んっ……！」
 ＠Mikan,A01962
-「Onii-cha~n......!」
+「Onii-chan～...!」
 
 @bgm12			#BGM 12 : メインテーマ
 
 #SCRIPT ORIGINAL 泣きそうな顔でみかんがリビングに飛び込んできた。
-　Mikan jumped into the living room, looking as if she were about to cry.
+　Mikan dashed into the living room, looking like she's about to cry.
 
 #＠樹
 #SCRIPT ORIGINAL 「どうした……？」
 ＠Itsuki
-「What's wrong......?」
+「What's wrong...?」
 
 se_stop		0
 @mikan_large		# 近い
@@ -381,15 +395,15 @@ layer_movepass_play	l_mikan,0,play_once
 #＠みかん,A01963
 #SCRIPT ORIGINAL 「あのね、みかんの部屋に……出たの～っ……」
 ＠Mikan,A01963
-「Umm, in Mikan's room...... appaeared~......」
+「Umm, something turned up... in my room～...」
 
 #＠樹
 #SCRIPT ORIGINAL 「出たって、何がだ？」
 ＠Itsuki
-「What appeared?」
+「What did?」
 
 #SCRIPT ORIGINAL お化けとかそういう話か……？
-　A monster or something like that......?
+　A monster or something...?
 
 layer_movepass_init	l_mikan,0	#演出初期化
 #@mikan_komikaru_kanashimi	#コミカル哀
@@ -397,7 +411,7 @@ layer_movepass_init	l_mikan,0	#演出初期化
 #＠みかん,A01964
 #SCRIPT ORIGINAL 「ゴキブリ～っ！」
 ＠Mikan,A01964
-「Cockroach~!」
+「A cockroach～!」
 
 #///////////////////////////////////////////////////////
 #演：だだこね
@@ -416,22 +430,22 @@ layer_movepass_play	l_mikan,0,play_once
 #＠みかん,A01965
 #SCRIPT ORIGINAL 「助けてお兄ちゃん！　なんとかして～ッ！」
 ＠Mikan,A01965
-「Save me Onii-chan! Do something~!」
+「Save me, Onii-chan! Do something～!」
 
 @chara_clear		#保険
 
 #SCRIPT ORIGINAL 今にも泣き出しそうな勢いで、みかんは俺にすがりついてくる。
-　Mikan clung to me with force looking like she would burst into tears.
+　Mikan clung to me with force, still looking like she would burst into tears.
 
 #＠樹
 #SCRIPT ORIGINAL 「しょうがないなぁ……」
 ＠Itsuki
-「I have no choice, do I......?」
+「I don't have a choice, do I...?」
 
 #＠樹
 #SCRIPT ORIGINAL 「悪い、すいか、またあとで」
 ＠Itsuki
-「Sorry, Suika, I'll play it later.」
+「Sorry, Suika, some other time」
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -440,17 +454,17 @@ layer_movepass_play	l_mikan,0,play_once
 #＠すいか,R00733
 #SCRIPT ORIGINAL 「あ、はい……」
 ＠Suika,R00733
-「Ah, yes......」
+「Ah, sure...」
 
 @suika_
 
 #SCRIPT ORIGINAL すいかに断りを入れて、俺は立ち上がる。
-　I get up after refusing to Suika.
+　I stand up, rejecting Suika's offer.
 
 #＠樹
 #SCRIPT ORIGINAL 「行くぞ、みかん」
 ＠Itsuki
-「Let's go, Mikan.」
+「Let's go, Mikan」
 
 @mikan_large		# 近い
 @mikan_shifuku
@@ -477,15 +491,15 @@ layer_movepass_play	l_mikan,0,play_once
 #＠みかん,A01967
 #SCRIPT ORIGINAL 「やっぱりお兄ちゃんは頼りになるな……」
 ＠Mikan,A01967
-「Onii-chan is reliable after all......」
+「You sure are reliable, Onii-chan...」
 
 #＠樹
 #SCRIPT ORIGINAL 「ほらほら、早く行かないとどこにいるのかわからなくなるだろ？」
 ＠Itsuki
-「Hey hey, if you don't hurry, you don't know where it might go!」
+「Hey hey, we better hurry up, or we'll lose track of it!」
 
 #SCRIPT ORIGINAL 腕に絡みつくみかんを急かし、俺は部屋の出口へ向かった。
-　I hurry Mikan, who is on my arm, and I go to the room's exit.
+　Urging on Mikan who's clinging to me, we headed to the room's exit.
 
 #（統合へ）
 goto		suika10_togo1
@@ -502,14 +516,14 @@ label		suika10_f01_karin
 #＠かりん,P02693
 #SCRIPT ORIGINAL 「樹！　こんなところにいたのね！」
 ＠Karin,P02693
-「Itsuki! You were here!」
+「Itsuki! There you are!」
 
 @karin_ikari		#怒
 
 #＠かりん,P02694
 #SCRIPT ORIGINAL 「肝心なときに役に立たないんだから、もう！」
 ＠Karin,P02694
-「Ugh, you're so useless at crucial times!」
+「Ugh, you disappear at the worst possible times!」
 
 @karin_
 @bgm12			#BGM 12 : メインテーマ
@@ -529,25 +543,25 @@ label		suika10_f01_karin
 #＠かりん,P02695
 #SCRIPT ORIGINAL 「うぅ、それが……」
 ＠Karin,P02695
-「Uu, that......」
+「Uu, as for that...」
 
 #＠かりん,P02696
 #SCRIPT ORIGINAL 「出たのよ、アレが」
 ＠Karin,P02696
-「Appeared, that.」
+「That thing came out」
 
 #SCRIPT ORIGINAL 少し困ったように口ごもりつつ、かりんはつぶやく。
-　Karin murmured while mumbling a bit worriedly.
+　Karin murmured, stumbling over her words a bit troubled.
 
 #＠樹
 #SCRIPT ORIGINAL 「アレ……？」
 ＠Itsuki
-「That......?」
+「That thing...?」
 
 #＠かりん,P02697
 #SCRIPT ORIGINAL 「あの、黒くてすばしこくてギトギトしている虫よ」
 ＠Karin,P02697
-「That black, quick, greasy insect!」
+「That black, nimble, grisly insect!」
 
 #＠かりん,P02698
 #「実物は初めて見たけど、やはり不気味なものね……」
@@ -555,43 +569,41 @@ label		suika10_f01_karin
 #＠樹
 #SCRIPT ORIGINAL 「って、ゴキブリか？」
 ＠Itsuki
-「You mean a cockroach?」
+「You mean, a cockroach?」
 
 @karin_ikari		#怒
 
 #＠かりん,P02699
 #SCRIPT ORIGINAL 「そ、そんな言葉を口に出さないで。樹の口が汚れるわ」
 ＠Karin,P02699
-「D, don't say such words. Itsuki, your mouth is dirty!」
+「D-don't say words like that. Your mouth'll get dirty!」
 
 #＠樹
 #SCRIPT ORIGINAL 「そんなことを言われても……」
 ＠Itsuki
-「Even if you say that......」
+「That's a bit extreme...」
 
 #SCRIPT ORIGINAL いちいち別の言葉に言い換えてたら会話が進まないじゃんか。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-いちいち別の言葉に言い換えてたら会話が進まないじゃんか。
+　We won't get very far in the conversation if we skirt around the word.
 
 @karin_kanashimi	#哀
 
 #＠かりん,P02700
 #SCRIPT ORIGINAL 「いいから早くアレを退治しなさい。あなたの仕事でしょう？」
 ＠Karin,P02700
-「Just hurry up and get rid of that thing. It's your job, okay?」
+「Just hurry up and get rid of that thing. Isn't that your job?」
 
 #＠樹
 #SCRIPT ORIGINAL 「しょうがないなぁ……」
 ＠Itsuki
-「I don't have a choice, do I......?」
+「I don't have a choice, do I...?」
 
 @chara_clear		#保険
 
 #＠樹
 #SCRIPT ORIGINAL 「悪い、すいか、またあとで」
 ＠Itsuki
-「Sorry, Suika, I'll play it later.」
+「Sorry, Suika, some other time」
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -600,12 +612,12 @@ label		suika10_f01_karin
 #＠すいか,R00734
 #SCRIPT ORIGINAL 「あ、はい……」
 ＠Suika,R00734
-「Ah, yes......」
+「Ah, sure...」
 
 @suika_
 
 #SCRIPT ORIGINAL すいかに断りを入れて、俺は立ち上がる。
-　I get up after refusing to Suika.
+　I stand up, rejecting Suika's offer.
 
 @karin_large		# 近い
 @karin_shifuku
@@ -615,17 +627,17 @@ label		suika10_f01_karin
 #＠かりん,P02701
 #SCRIPT ORIGINAL 「さすがね、樹。頼もしいわ」
 ＠Karin,P02701
-「You're great, Itsuki. You're reliable.」
+「I knew I could count on you, Itsuki」
 
 @karin_
 
 #SCRIPT ORIGINAL リビングの出口に向かおうとすると、かりんはさりげなく俺に寄り添い、俺の腕を取った。
-　I was going to the living room's exit, and Karin casually gets closer to me and takes my arm.
+　As I meant to head for the living room exit, Karin nonchalantly got closer and took my arm.
 
 #初めてゴキブリを見て、やはりかなり驚いたのだろうか？
 
 #SCRIPT ORIGINAL 触れた腕から、かりんの緊張が伝わってきた気がした。
-　I felt like I could feel Karin's tension from the arm she was touching.
+　I could almost feel Karin's nervousness through my arm.
 
 #--------------------------------------------------
 #■（統合）
