@@ -1,9 +1,10 @@
 label debug_menu_characters
 
-select character, "Suika", "Yuzu", "Zakuro"
+select character, "Suika", "Yuzu", "Zakuro", "Mikan day"
 if character=0 then goto debug_story_suika
 if character=1 then goto debug_story_yuzu
 if character=2 then goto debug_story_zakuro
+if character=3 then goto debug_story_mikan_day
 
 return
 
@@ -71,5 +72,36 @@ if debug_num_sel=18 then goto youzyo_zaku18
 if debug_num_sel=19 then goto youzyo_zaku19
 if debug_num_sel=20 then goto youzyo_zaku20
 if debug_num_sel=21 then goto youzyo_zaku21
+
+return
+
+label debug_story_mikan_day
+max=24
+gosub debug_num_select
+
+if debug_num_sel=1 then goto mikan_01
+if debug_num_sel=2 then goto mikan_02
+if debug_num_sel=3 then goto mikan_03
+if debug_num_sel=4 then goto mikan_04
+if debug_num_sel=5 then goto mikan_05
+if debug_num_sel=6 then goto mikan_06
+if debug_num_sel=7 then goto mikan_07
+if debug_num_sel=8 then goto mikan_08
+if debug_num_sel=9 then goto mikan_09
+if debug_num_sel=10 then goto mikan_10
+if debug_num_sel=11 then goto mikan_11
+if debug_num_sel=12 then goto mikan_12
+if debug_num_sel=13 then goto mikan_13
+if debug_num_sel=14 then goto mikan_14
+if debug_num_sel=15 then goto mikan_15
+if debug_num_sel=16 then goto mikan_16
+if debug_num_sel=17 then goto mikan_17
+if debug_num_sel=18 then goto mikan_18
+if debug_num_sel=19 then goto mikan_19
+if debug_num_sel=20 then goto mikan_20
+if debug_num_sel=21 then goto mikan_21
+if debug_num_sel=22 then goto mikan_22
+if debug_num_sel=23 then goto mikan_23
+if debug_num_sel=24 then goto mikan_24
 
 return
