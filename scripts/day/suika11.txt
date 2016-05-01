@@ -10,20 +10,28 @@ label	suika_11
 @bg_rouka		# 廊下
 
 #SCRIPT ORIGINAL ……逃げ回るゴキブリを退治するのに時間を取られ、それが終わったときには夕食の時間になってしまった。
-……Running around exterminating cockroaches takes a lot of time.  It is about dinner time when I finish.
+...It was dinnertime by the time I was done getting rid of the cockroach scampering about.
+
+#……Running around exterminating cockroaches takes a lot of time.  It is about dinner time when I finish.
 
 #SCRIPT ORIGINAL 夕食の後には風呂の時間もあるし、人数が多いだけにそれぞれが決められた時間に風呂を済まさなくてはならない。
-　After dinner, it will be time for a bath.  There are so many people here that there absolutely needs to be a time limit for taking a bath. (a little unsure)
+After that's time for a bath; seeing as there's so many of us, everyone has to be done by a specified time.
+
+#After dinner, it will be time for a bath.  There are so many people here that there absolutely needs to be a time limit for taking a bath. (a little unsure)
 
 #SCRIPT ORIGINAL ということで、結局こんな時間まですいかのところには行けずじまいだった。
-　That is to say, Suika’s time has come and gone, and she never went. (it’s worded a little differently, but the same thing more or less……I think)
+With all that, I couldn't make it to go see Suika all the way up until now.
+
+#That is to say, Suika’s time has come and gone, and she never went. (it’s worded a little differently, but the same thing more or less……I think)
 
 #SCRIPT ORIGINAL （遅くなっちゃったけど、行ってやらないと……）
 ＠Itsuki
-(It’s become late, but she never went……)
+(It's late now, but I should go...)
 
 #SCRIPT ORIGINAL 風呂を出て少し落ち着いてから、俺はすいかの部屋に向かった。
-　I leave the bath after relaxing a little bit, and make my way to Suika’s room.
+After leaving the bath and taking it easy for a bit, I headed for Suika's room.
+
+#I leave the bath after relaxing a little bit, and make my way to Suika’s room.
 
 @bg_black
 wait		1000
@@ -34,50 +42,60 @@ wait		1000
 
 #SCRIPT ORIGINAL 「すいか、悪い。遅くなったな」
 ＠Itsuki
-「Suika, it isn’t good.  You’re late.」
+「Suika, sorry. It got late」
 
 #SCRIPT ORIGINAL …………。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
-…………。
+.........
 
 #SCRIPT ORIGINAL ノックしながら声をかけてみるが、返事はない。
-　While I knock I try to here her voice, but there is no reply.
+I try knocking and calling out, but there's no reply.
+
+#While I knock I try to here her voice, but there is no reply.
 
 #SCRIPT ORIGINAL やっぱり、またゲーム中だろうか？
-　I wonder, is she in the middle of a game again?
+Is she in the middle of a game, again?
 
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
 #SCRIPT ORIGINAL 「おーい、すいか……！」
 ＠Itsuki
-「Heeeey, Suika……!」
+「Hey, Suika...!」
 
 #SCRIPT ORIGINAL …………。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
-…………。
+.........
 
 #SCRIPT ORIGINAL もう一度ノックしてみるが、やはり返事はない。
-　I try knocking one more time, but I still don’t get a reply.
+I try knocking again, but still no reply.
+
+#I try knocking one more time, but I still don’t get a reply.
 
 #SCRIPT ORIGINAL ……これはゲーム中と見て間違いなさそうだな。
-……I probably wouldn’t be mistaken if she were in the middle of a game. (unsure)
+...I don't doubt she's in the middle of a game.
+
+#……I probably wouldn’t be mistaken if she were in the middle of a game. (unsure)
 
 #SCRIPT ORIGINAL あるいは自分が作ったゲームの調整かもしれんが……。
-　Or, I guess it’s possible that she is making adjustments to the game she made herself.
+Or perhaps, busy fine-tuning the game she made herself...
+
+#Or, I guess it’s possible that she is making adjustments to the game she made herself.
 
 #SCRIPT ORIGINAL 「入るぞ……」
 ＠Itsuki
-「I’m coming in……」
+「I’m coming in...」
 
 bgm_stop
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
 
 #SCRIPT ORIGINAL 仕方ないので、声をかけつつドアを開ける。
-　It just can’t be helped.  I call out to her as I open the door.
+With no other choice, I open the door as I speak.
+
+#It just can’t be helped.  I call out to her as I open the door.
 
 #--------------------------------------------------
 #■EVCG EV_SUI_040
@@ -87,30 +105,40 @@ event		"event\EV_SUI_040-00.png"
 
 #SCRIPT ORIGINAL 「たぁッ！　ていッ！　喰らえぇッ……！」
 ＠Suika,R00735
-「Taa!  Tei!  Take this……!」
+「Taa! Tei! Take this...!」
 
 #SCRIPT ORIGINAL 「そこだッ！　そりゃぁッ！　行っけえええぇぇッ……！」
 ＠Suika,R00736
-「And there!  Hyaaaa!  Here it goes……!」 (I know it should be soryaa, but hyaaa seems to get the point across and would be understood by more people)
+「That's it! And thatt! Attaaaaack...!」
 
 #SCRIPT ORIGINAL 案の定、すいかは画面に向かい、コントローラーを握り締めていた。
-　Just as I thought, Suika is in staring at the television screen, tightly gripping the controller.
+As expected, Suika's facing the screen, tightly gripping a controller.
+
+#Just as I thought, Suika is in staring at the television screen, tightly gripping the controller.
 
 #SCRIPT ORIGINAL 「フフッ、甘いッ！　ファイナルダークネス・メテオエクスプロージョンッ……！！」
 ＠Suika,R00737
-「Fufu, awesome!  Final Darkness: Meteor Explosion……!!」
+「Fufu, too easy! Final Darkness: Meteor Explosion...!!」
 
 #SCRIPT ORIGINAL すいかは技の名前を高らかに叫びつつ、敵に攻撃を叩き込む。
-　Suika loudly shouts out the full name of the technique while attacking her opponent.
+As Suika yells out the name of the attack, the blow drives into her opponent.
+
+#Suika loudly shouts out the full name of the technique while attacking her opponent.
 
 #SCRIPT ORIGINAL どうでもいいが、その中学生が考えたみたいな技、どうにかならないのか……？
-　Not that it matters, but it sounds like a middle school student came up with that technique name.  I guess it can’t be helped.  (unsure)
+Not that it matters, but is the amateurish-sounding attack really that necessary...?
+
+#Not that it matters, but it sounds like a middle school student came up with that technique name.  I guess it can’t be helped.  (unsure)
 
 #SCRIPT ORIGINAL まあそれはともかく、どうやら今日はＣＰＵ相手に圧勝しているようだ。
-　Well, about that, it seems like she was completely victorious against her CPU opponent.
+At any rate, looks like she owns a clean sweep against the computer for today.
+
+#Well, about that, it seems like she was completely victorious against her CPU opponent.
 
 #SCRIPT ORIGINAL 必殺技を喰らった敵のライフゲージがゴリゴリと減っていき、そのまま吹き飛ばされてお陀仏になった。
-　It receives Suika’s special attack and its life gauge begins to drop.  And with that, it is sent flying and fades away.
+The opponent's life gauge dropping precipitously, it's blown away and perishes.
+
+#It receives Suika’s special attack and its life gauge begins to drop.  And with that, it is sent flying and fades away.
 
 #--------------------------------------------------
 event		"event\EV_SUI_040-02.png"
@@ -118,16 +146,18 @@ event		"event\EV_SUI_040-02.png"
 
 #SCRIPT ORIGINAL 「クックックッ……。私に逆らうからこういう目に遭うのよ……」
 ＠Suika,R00738
-「Kukuku…… Since it challenged me, it had to go through all that……」
+「Mwahaha... when you go up against me, this is what happens...」
 
 #SCRIPT ORIGINAL すいかは満足げに画面を見つめ、つぶやいた。
-　Suika speaks to herself softly as she watches the screen.
+Suika whispered looking on at the screen in satisfaction.
+
+#Suika speaks to herself softly as she watches the screen.
 
 bgm_stop
 
 #SCRIPT ORIGINAL 「……ちょ、ちょっと怖いぞ、すいか」
 ＠Itsuki
-「……Tha, that was a little scary, Suika.」
+「...S-Suika, you're scaring me a bit」
 
 #--------------------------------------------------
 event		"event\EV_SUI_040-04.png"
@@ -135,10 +165,12 @@ event		"event\EV_SUI_040-04.png"
 
 #SCRIPT ORIGINAL 「えっ！？　あああぁあッ……！」
 ＠Suika,R00739
-「Eh!?  Aaaaaaah……!」
+「Eh!?  Aaaahhhh...!」
 
 #SCRIPT ORIGINAL 俺に気づき、すいかは大げさに驚く。
-　As she notices me, Suika lets out an exaggerated surprised reaction.
+Noticing me, Suika lets out an exaggerated start of surprise.
+
+#As she notices me, Suika lets out an exaggerated surprised reaction.
 
 @bg_black
 wait		1000
@@ -151,58 +183,58 @@ wait		1000
 
 #SCRIPT ORIGINAL 「い、いつからそこにいたんですか……！？」
 ＠Suika,R00740
-「W, when did you get here……!?」 (maybe, "How long have you been there.")
+「H-how long were you standing there...!?」
 
 #SCRIPT ORIGINAL 「いや、まあ今来たばっかりだが」
 ＠Itsuki
-「No, I got here just now.」
+「No, I just got here now pretty much」
 
 @suika_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「すみません、全然気づかなくて……」
 ＠Suika,R00741
-「I’m sorry, I didn’t notice you at all……」
+「I’m sorry, I didn’t notice you at all...」
 
 #SCRIPT ORIGINAL 「ま、いつものことだし、いいけどな」
 ＠Itsuki
-「Since it’s what usually happens, it’s alright.」 (Maybe: I’ve come to expect it.)
+「It's fine, I've come to expect it」
 
 #SCRIPT ORIGINAL 「それより、今日はずいぶん調子がいいみたいじゃないか」
 ＠Itsuki
-「Anyway, it seems like you are doing considerably better today.」
+「Anyway, you seem to be in very high spirits today」
 
 @suika_komariwarai	#困笑
 
 #SCRIPT ORIGINAL 「え？　あははは……」
 ＠Suika,R00742
-「Eh?  Ahahaha……」
+「Eh? Ahahaha...」
 
 #SCRIPT ORIGINAL 「今は、デフォルト設定ですから……」
 ＠Suika,R00743
-「It’s on the default setting right now, so……」
+「It’s on the default setting right now...」
 
 @suika_
 
 #SCRIPT ORIGINAL 引きつった笑いを浮かべ、すいかは目をそらした。
-　She lets out a stiff laughter and turns her eyes away.
+　Letting out a constricted laugh, she turns her eyes away.
 
 #SCRIPT ORIGINAL 「そうか……」
 ＠Itsuki
-「I see……」
+「I see...」
 
 #珍しいな、すいかがデフォルト設定でプレイしてるなんて。	
 #SCRIPT ORIGINAL 珍しいな、すいかがデフォルト設定でプレイしてるなんて。
-　It’s unusual for Suika to be playing on the default setting.
+　How unusual for Suika to be playing on the default setting.
 
 #SCRIPT ORIGINAL ま、それはともかく。
-　Hm, if that’s the case….
+　Well, whatever the case...
 
 #SCRIPT ORIGINAL 「さっきは悪かったな、ゲームしに来れなくて」
 ＠Itsuki
-「It was difficult last time, so I didn’t come to play games.」
+「Sorry for before, not being able to come play games with you」
 
 #SCRIPT ORIGINAL 俺はまず、夕方のことを謝っておく。
-　After all, I came here to apologize for this evening.
+　Right off the bat, I apologize at the late hour.
 
 @suika_middle		# 中間
 @suika_heyagi
@@ -210,134 +242,148 @@ wait		1000
 
 #SCRIPT ORIGINAL 「あはは、いいんですよ」
 ＠Suika,R00744
-「Ahaha, it’s alright.」
+「Ahaha, it’s alright」
 
 #SCRIPT ORIGINAL 「ゴキブリが出たんじゃ、しょうがないですし……」
 ＠Suika,R00745
-「A cockroach got out, since it couldn’t be helped……」
+「Nothing you can do, with a cockroach coming out...」
 
 #SCRIPT ORIGINAL 「私ばっかり院長先生を独占するわけにも、いかないですし……」
 ＠Suika,R00746
-「Because I’m the only one hogging Inchou-sensei, I’m not going.」 (unsure of last part)
+「It's not like I get to hog you all to myself, after all...」
 
 bgm_stop
 
 #SCRIPT ORIGINAL すいかは苦笑し、少し寂しそうにつぶやいた。
-　A little lonely, Suika smiles bitterly and mumbles.
+　Suika smiles sadly and mumbles, sounding a little lonely.
 
 #SCRIPT ORIGINAL 「いや、そんなことは……」
 ＠Itsuki
-「No, such a thing……」
+「No, that's not true...」
 
 #SCRIPT ORIGINAL 別に独占なんてされていない。そう言おうと思ったのだが――。
-　She isn’t really hogging me.  She is thinking like that…… (unsure of last part)
+　She's not really hogging me. I meant to tell her as much, but――
 
 @suika_kanashimi	#哀
 @bgmk02			#BGM K02 : しんみりのテーマ
 
 #SCRIPT ORIGINAL 「私、思ったんです。やっぱり私なんて、院長先生には不釣り合いだな、って」
 ＠Suika,R00747
-「I, that’s how I felt… As I thought, I don’t match up properly with Inchou-sensei.」 (unsure)
+「I've been thinking. You know, I'm no good match for Inchou-sensei, am I?」
 
 #SCRIPT ORIGINAL 「……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Itsuki
-「……」
+「...」
 
 #SCRIPT ORIGINAL すいかの言葉に、俺は何も言えなくなってしまう。
-　Suika’s words…… Regrettably, I have nothing that I can say to them.
+　I could do nothing but fall silent at Suika's words.
 
 #SCRIPT ORIGINAL ただ一緒にゲームをするだけに、釣り合いも何もない。
-　Since we usually played games together, I wasn’t expecting to have nothing in common with her. (a little unsure about last part)
+You can't find real harmony, merely from playing games together.
+
+#Since we usually played games together, I wasn’t expecting to have nothing in common with her. (a little unsure about last part)
 
 #SCRIPT ORIGINAL やはりすいかは、どこかでそれ以上の関係を期待している部分があったのだろう。
-　I guess there was a part of Suika that was hoping for a closer relationship after all.
+　I guess a part of Suika was hoping for a closer relationship, after all.
 
 #SCRIPT ORIGINAL オレが言うのも傲慢だが……しかし、これまでのすいかの人生を思うと、すいかがオレに惹かれるのも無理はない気がする。
-　What I said was ignorant, however……until now, thinking about Suika’s life, I guess it is only natural for her to become attracted to me.
+　It might be arrogant of me to say, but... thinking of Suika's life until now, it's understandable for her to be attracted to me.
+
+#What I said was ignorant, however……until now, thinking about Suika’s life, I guess it is only natural for her to become attracted to me.
 
 #SCRIPT ORIGINAL オレはある意味、すいかを愛さなかった親の代わりになれそうな年上の理解者であり……。
-　There is some significance to that.  For Suika to grow up without the love of her parents, she has the understanding of someone much older.  (or, "For having grown up without a parent’s love, she has the understanding of someone much older)
+In many ways, I'm someone to look up to as a substitute for the parents who didn't love her...
+
+#There is some significance to that.  For Suika to grow up without the love of her parents, she has the understanding of someone much older.  (or, "For having grown up without a parent’s love, she has the understanding of someone much older)
 
 #SCRIPT ORIGINAL また、すいかにとって初めて、仕事抜きで通じ合える部分のある男性だったのだ。
-　Still, that was the first time Suika has been able to communicate without it concerning her job, and with a male no less. (unsure)
+But also, as a first for Suika, I'm a man who she can confide in outside of work.
+
+#Still, that was the first time Suika has been able to communicate without it concerning her job, and with a male no less. (unsure)
 
 #SCRIPT ORIGINAL けれど……。
-　However…….
+　Still...
 
 #SCRIPT ORIGINAL 軽々しく「不釣り合いじゃない」などとは言えなかった。
-　Tactlessly, I couldn’t say, "We aren’t matched up improperly.".
+　I can't just up and tell her, "you're a good match for me".
 
 #SCRIPT ORIGINAL すいかのことは、確かに可愛いと思うし、もう少し自信を持たせてやりたいとも思うけど……。
-　Since I certainly think Suika is cute, I also want her to be more self-confident.  However…… (I think it says that "I think I want her to be more self-confident," but it makes him seem unsure of himself in English.)
+　I do find Suika cute, so I wanted pick up her self-confidence a little bit...
 
 #SCRIPT ORIGINAL とはいえ、今現在、オレ自身にすいかに対する恋愛感情があるわけじゃない。
-　However, currently, it doesn’t mean that we have passionate feelings for each other.
+　That said, as of now, I don't have any romantic feelings toward her.
 
 #SCRIPT ORIGINAL 付き合う気もないのに気を持たせるようなことを言うのは、かえってあとあとすいかを傷つけることになるかもしれない。
-　Even though I have no intention of being with her like that, what I am saying is to encourage her.  But, in the future, Suika could end up hurt. (worded weird)
+　It may become wounding for her later on, if I were to say something encouraging without any real plans.
+
+#Even though I have no intention of being with her like that, what I am saying is to encourage her.  But, in the future, Suika could end up hurt. (worded weird)
 
 @suika_komariwarai	#困笑
 
 #SCRIPT ORIGINAL 「あはは、なんかちょっと、夢を見ていたような気がします」
 ＠Suika,R00748
-「Ahaha, just a little, it felt like I was dreaming.」 (unsure)
+「Ahaha, it's almost like, I felt like I was in a dream」
 
 #SCRIPT ORIGINAL オレが口を開けずにいると、すいかは少し寂しそうに笑った。
-　I don’t open my mouth, and Suika laughs, looking a little lonely. (a little unsure)
+　When I just stand there, Suika laughs a little despondent.
 
 #SCRIPT ORIGINAL 「……すいかは、魅力的だぞ」
 ＠Itsuki
-「……Suika is very charming.」
+「...Suika, you are attractive」
 
 #SCRIPT ORIGINAL オレは慌ててフォローを入れる。
-　Without thinking, I interject.
+　I try and undo the damage, flustered.
 
 #SCRIPT ORIGINAL オレと釣り合うかなどという話じゃなくて、客観的に見て、すいかは魅力的だと思う。
-　That doesn’t mean to say that she would get along well with me.  I see my objective, and I think that Suika is charming. (very unsure of first part)
+　Putting aside whether she's a good match, speaking honestly I think Suika's attractive.
+
+#That doesn’t mean to say that she would get along well with me.  I see my objective, and I think that Suika is charming. (very unsure of first part)
 
 #SCRIPT ORIGINAL やっぱり、そのことは伝えなくてはならないと思った。
-　After all, I thought that not conveying it would be unacceptable. (unsure)
+　I felt like I had get that across, in the end.
 
 #SCRIPT ORIGINAL でも……。
-　But…….
+　But...
 
 @suika_warai		#笑
 
 #SCRIPT ORIGINAL 「いいんですよぉ」
 ＠Suika,R00749
-「It’s alright.」
+「It’s alright」
 
 #SCRIPT ORIGINAL 明るく笑って見せ、すいかはオレの言葉を否定する。
-　Smiling brightly, she looks at me and denies all of my words.
+Showing a bright smile, Suika puts a damper on what I said.
+
+#Smiling brightly, she looks at me and denies all of my words.
 
 @suika_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「私だって、わかってるんです」
 ＠Suika,R00750
-「Even I understand.」
+「I think I understand」
 
 #SCRIPT ORIGINAL 「私は……こんな変な子だし、他のみんなみたいに可愛くないし」
 ＠Suika,R00751
-「I……because I am such a strange child, and I’m not cute like everyone else.」
+「I'm... such a weird kid, and not nearly as cute as everyone else」
 
 #@suika_komariwarai	#困笑
 @suika_kanashimi	#哀
 
 #SCRIPT ORIGINAL 「私はもともと、いらない子でしたから……」
 ＠Suika,R00752
-「Because, from the very beginning, I was an unwanted child……」
+「Because from the start, I was an unwanted child...」
 
 #SCRIPT ORIGINAL 「そんなことない……！　すいかは、いらない子なんかじゃない！」
 ＠Itsuki
-「That isn’t true……!  Suika isn’t anything like an unwanted child!」 (first part pretty much just says, "It isn’t such a thing!"  But this sounds better)
+「That's not true...! You're not unwanted at all!」
 
 @bg_white		# 白
 #@SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
 
 #SCRIPT ORIGINAL オレはすいかの肩に手を置いた。
-　I place my hand on Suika’s shoulder.
+　I put my hand on Suika’s shoulder.
 
 window_close
 screen_whiteout		100
@@ -351,34 +397,34 @@ wait			1000
 
 #SCRIPT ORIGINAL 「えっ……？」
 ＠Suika,R00753
-「Eh……?」
+「Eh...?」
 
 #SCRIPT ORIGINAL 「すいかには……いいところがいっぱいある……」
 ＠Itsuki
-「Suika is……full of strong points……」
+「Suika, you've... got all sorts of strong points...」
 
 #SCRIPT ORIGINAL 「ゲームも作れるし……優しくて、明るくて……」
 ＠Itsuki
-「You can make games……and you’re kind and cheerful……」
+「You can make games... and you’re kind and cheerful...」
 
 #SCRIPT ORIGINAL 「すいかがいい子だってこと、オレはちゃんと知ってるぞ……」
 ＠Itsuki
-「Suika is a good child even, I know that without a doubt……」
+「You're a good girl, I know that without a doubt...」
 
 #SCRIPT ORIGINAL オレはすいかに言い聞かせる。
-　I make that clear to Suika. (not exactly what is says, but it’s better than, "I tell Suika.")
+　I make that clear to Suika.
 
 #SCRIPT ORIGINAL それが恋愛感情ではなくても――オレはやっぱり、すいかを大切に思っている。
-　This isn’t love, but even though, I still think about Suika with great care. (maybe, "I still care for Suika deeply)
+　Even if it isn't romantic love――despite that, I care for Suika deeply.
 
 #SCRIPT ORIGINAL だからすいかには、自分がいらない子なんて思ってほしくなかった。
-　And so, Suika shouldn’t have thought of herself as an unwanted child.
+　And so, I wouldn't want Suika thinking of herself as unwanted.
 
 #SCRIPT ORIGINAL 「……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00754
-「……」
+「...」
 
 #window_close
 #@suika_tere		#照
@@ -387,7 +433,7 @@ wait			1000
 
 #SCRIPT ORIGINAL 「先生……」
 ＠Suika,R00755
-「Sensei……」
+「Sensei...」
 
 #@suika_large		# 近い
 #@suika_heyagi
@@ -395,31 +441,31 @@ wait			1000
 
 #SCRIPT ORIGINAL 「ホントですか……？」
 ＠Suika,R00756
-「Really……?」
+「Really...?」
 
 #SCRIPT ORIGINAL 「ホントに……そう思いますか……？」
 ＠Suika,R00757
-「Is that……really what you think……?」
+「Do you... really think that...?」
 
 #SCRIPT ORIGINAL 「だったら……」
 ＠Suika,R00758
-「If so, then……」
+「If you do...」
 
 #SCRIPT ORIGINAL 俺の手に、すいかは自分の片手を重ねた。
-　Suika takes my hand and holds it in hers.  (a little unsure about who’s hand is being held)
+　Suika placed her hand on top of mine.
 
 #SCRIPT ORIGINAL う、うーん……。
-　Hmmm…….
+　H-hmmm...
 
 #SCRIPT ORIGINAL なんだかちょっと、変な展開になってきたような……。
-　Somehow, it seems that there has been a curious development…….
+　Somehow, it seems to be a bit of a curious development...
 
 #SCRIPT ORIGINAL オレはただ、すいかが本当は魅力的なんだと伝えようとしただけなのに……。
-　All I did was assure Suika that she was charming, however…….
+　All I did was try and assure Suika that she's attractive, and yet...
 
 #SCRIPT ORIGINAL 「信じさせてください……」
 ＠Suika,R00759
-「Please, make me believe it……」
+「Please, make me believe...」
 
 @suika_
 
@@ -427,22 +473,22 @@ wait			1000
 　Suika closes her eyes and raises her face.
 
 #SCRIPT ORIGINAL キスを待つように……。
-　It’s like she is waiting for a kiss…….
+　Like she's waiting for a kiss...
 
 #SCRIPT ORIGINAL というか、すいかは明らかに、キスを待っていた。
-　Or I should say, it’s obvious that she is waiting for a kiss.
+　Or quite simply, it's obvious that she's waiting for one.
 
 #SCRIPT ORIGINAL 「……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Itsuki
-「……」
+「...」
 
 #SCRIPT ORIGINAL オレは、どうするべきなのだろう？
 　What should I do?
 
 #SCRIPT ORIGINAL ここで拒んだりしたら、やはりすいかを傷つけてしまう気がする……。
-　If I refuse here, I’m fairly certain I would really hurt Suika…….
+　If I were to refuse here, I'm pretty sure I would hurt Suika...
 
 #--------------------------------------------------
 #■（選択肢）
@@ -460,22 +506,24 @@ if sel=1 then goto suika11_q01_b
 label		suika11_q01_a
 
 #SCRIPT ORIGINAL 仕方ない。ここはやはり態度で示すしかないだろう。
-　It’s no use.  I guess I have choice but to show her through my actions.
+　Oh well. I guess the only way is to show her by my actions.
 
 #SCRIPT ORIGINAL オレがすいかを、本当に魅力的だと思っていることを。
-　I truly think Suika is very charming.
+　That I truly do find her attractive.
 
 #--------------------------------------------------
 scene_start	"すいか　信じさせて"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL オレは覚悟を決め、すいかの肩を引き寄せるようにして、唇を近づけた。
-　I make my decision.  I pull Suika’s shoulders toward me so that I can draw her lips nearer.
+　Firming my resolve, I pull her near by the shoulder, my lips coming close.
+
+#I make my decision.  I pull Suika’s shoulders toward me so that I can draw her lips nearer.
 
 bgm_stop
 
 #SCRIPT ORIGINAL 俺たちの唇が、そっと重なり合う……。
-　Our lips gently overlap each other…….
+　Our lips gently touch...
 
 @bg_white		# 白
 
@@ -483,10 +531,10 @@ bgm_stop
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00760
-「……」
+「...」
 
 #SCRIPT ORIGINAL すいかは息を止め、さらなるアクションを待っているようだ。
-　Her breathing stops, as if she is waiting for more.
+　Her breathing coming to a stop, she seems to await more action.
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-00.png"
@@ -494,7 +542,7 @@ event		"event\EV_SUI_050-00.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL オレはそっと舌を伸ばし、すいかの唇を舐めた。
-　I gently reach out my tongue and lick her lips.
+　I softly stick out my tongue and lick her lips.
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-01.png"
@@ -502,32 +550,38 @@ event		"event\EV_SUI_050-01.png"
 
 #SCRIPT ORIGINAL 「んっ……」
 ＠Suika,R00761
-「Nnnn……」
+「Nn...」
 
 #SCRIPT ORIGINAL すいかはオレの舌を受け入れるように唇を開ける。
 　Suika’s lips part in order to accept my tongue.
 
 #SCRIPT ORIGINAL オレはその隙間に舌を滑り込ませた。
-　My tongue slips through that opening.
+　I slid my tongue through that opening.
 
 #SCRIPT ORIGINAL その舌先に、すいかもおずおずと、自らの舌先を宛がう。
 　Suika timidly extends her tongue to meet mine.
 
 #SCRIPT ORIGINAL オレはすいかの舌を舐め、さらに奥へと割って入った。
-　I lick Suika’s tongue and force myself deeper inside.
+　I lick her tongue, and make my way in deeper.
 
 #SCRIPT ORIGINAL 「んぅ……」
 ＠Suika,R00762
-「Nnnuu……」
+「Nnu...」
 
 #SCRIPT ORIGINAL 舌を絡めるようにすると、すいかも興奮した様子でそれに応じる。
-　Suika’s appearance is one of excitement as she accepts me into her and our tongues intertwine.
+　When I make our tongues intertwine, Suika responds with an aroused air.
+
+#Suika’s appearance is one of excitement as she accepts me into her and our tongues intertwine.
 
 #SCRIPT ORIGINAL 柔らかく、ざらざらした舌の表面がこすれる感触。
-　Tenderly, I rub the rough surface of her tongue.
+　Tenderly, the coarse surface of our tongues rubbing.
+
+#Tenderly, I rub the rough surface of her tongue.
 
 #SCRIPT ORIGINAL すいかは重ねた手に力を込め、夢中でオレの舌を吸ってくる。
-　Suika puts strength into her hands, and, as if in a daze, sucks on my tongue.
+　Suika grips harder with her hand, sucking on my tongue in a trance.
+
+#Suika puts strength into her hands, and, as if in a daze, sucks on my tongue.
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-02.png"
@@ -538,82 +592,84 @@ event		"event\EV_SUI_050-02.png"
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00763
-「ちゅ……じゅぅッ……ぴちゅるッ……」
+「Suck... surrck... slurp...」
 
 #SCRIPT ORIGINAL 舌を絡めながら、すいかの口の中に唾液が溜まってきた。
-　While our tongues tangle with each other, saliva begins to collect in Suika’s mouth.
+　As our tongues tangle, saliva began to collect in Suika’s mouth.
 
 #SCRIPT ORIGINAL 「んむぅ……ぴちゅ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00764
-「んむぅ……ぴちゅ……」
+「Nmh... shlip...」
 
 #SCRIPT ORIGINAL すいかは今度はオレの舌を押し返すようにして、オレの口に舌を入れてくる。
-　This time, my tongue is forced back, and Suika’s tongue now enters my mouth.
+　Now Suika pushes my tongue back, and her tongue enters my mouth.
 
 #SCRIPT ORIGINAL それ自体が生き物のように、舌はオレの口の中を這い回り、ぞわぞわした快感が俺を襲う。
-　Her tongue explores my mouth like it had a mind of its own, and a nervous and pleasant feeling assails me. (couldn’t find anything for zowazowa, but sowasowa means to be anxious or fidgety)
+　Exploring my mouth like it has a mind of its own, a titillating pleasure assails me.
+
+#Her tongue explores my mouth like it had a mind of its own, and a nervous and pleasant feeling assails me. (couldn’t find anything for zowazowa, but sowasowa means to be anxious or fidgety)
 
 #SCRIPT ORIGINAL 「んッ……ちゅる……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00765
-「んッ……ちゅる……」
+「Nh... shlurp...」
 
 #SCRIPT ORIGINAL そしてすいかは、少し身を乗り出すようにして、舌を伝わらせ、オレの口に唾液を送り込んできた。
-　And then, Suika leans forward a little.  Saliva starts to pour into my mouth aided by her tongue.
+　And then, Suika leans forward a little, and begins to pour saliva into my mouth aided by her tongue.
 
 #SCRIPT ORIGINAL 「んっ……」
 ＠Itsuki
-「Nnn……」
+「Nn...」
 
 #SCRIPT ORIGINAL 生温かい唾液が流れ込んでくる感触に一瞬戸惑うものの、すいかの唾液ならイヤではない。
-　The sensation of saliva flowing into my mouth, at first, it surprises me.  But because it is Suika’s saliva, it isn’t disgusting at all.
+　The feeling of it flowing into my mouth surprises me at first, but since it's Suika's I don't mind.
 
 #SCRIPT ORIGINAL 「んっく……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Itsuki
-「んっく……」
+「Nh glup...」
 
 #SCRIPT ORIGINAL 喉を鳴らして、オレはそれを飲み干してやる。
-　Flexing my throat, I drink it down.
+　My throat rings out, and I drink it down.
 
 #SCRIPT ORIGINAL 「ぴちゅ……ぷあッ……！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00766
-「ぴちゅ……ぷあッ……！」
+「Shlip... puah...！」
 
 #SCRIPT ORIGINAL すいかは満足げに唇を離した。
-　Satisfied, Suika opens her lips.
+　Satisfied, Suika parted her lips.
 
 @bg_white		# 白
 #voice_bg_stop
 
 #SCRIPT ORIGINAL 「えへへ……先生……。飲んでくれて……嬉しいです……」
 ＠Suika,R00767
-「Ehehe……Sensei……You drank it……I’m so happy……」
+「Ehehe... Sensei... you drank it... I’m so glad...」
 
 #SCRIPT ORIGINAL 頬を上気させて微笑むすいかの目は、もうすっかり欲情に潤んでいる。
-　Blood rushes to her cheeks as she smiles at me, her eyes already moist with passion.
+　She smiles at me, cheeks flushed and eyes already moist with passion.
 
 #SCRIPT ORIGINAL 「おう……。すいかのなら……イヤじゃないからな……」
 ＠Itsuki
-「Ooh……Only Suika’s……only Suika’s isn’t disgusting……」
+「Yeah... if it's yours... I don't mind...」
 
 #SCRIPT ORIGINAL キスをしているうちに、オレのほうも少し興奮してきていた。
-　While kissing, I’m beginning to get a little aroused.
+　As we were kissing, I'd begun to get a little aroused as well.
 
 #SCRIPT ORIGINAL 考えてみれば、すいかにはフェラはしてもらったけれど、まだ繋がってはいないのだ。
-　When I think about it, I’ve received fellatio from Suika.  However, it still doesn’t seem the same. (a little unsure)
+　Thinking about it, I’d gotten blowjobs from Suika, but we'd never been tied together.
 
 #SCRIPT ORIGINAL せっかくだし、すいかの中も味わいたい……。
-　Because I’ve waited some time, I want to taste the inside of Suika…… (unsure)
+　The time is ripe, I want to savour her inside...
 
 #SCRIPT ORIGINAL そんな欲望が心に浮かんでくる。
-　Such lust rises inside of me.
+　The insatiable lust wells up within me.
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-00.png"
@@ -621,7 +677,7 @@ event		"event\EV_SUI_050-00.png"
 
 #SCRIPT ORIGINAL 「すいか……」
 ＠Itsuki
-「Suika……」
+「Suika...」
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-01.png"
@@ -635,16 +691,16 @@ event		"event\EV_SUI_050-01.png"
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00768
-「んっ……」
+「Nh...」
 
 #SCRIPT ORIGINAL 「ぴちゅ……ちゅぷ……んふっ……ちゅるぅ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00769
-「ぴちゅ……ちゅぷ……んふっ……ちゅるぅ……」
+「Shlip... shlurp... mfuh... shlrrp...」
 
 #SCRIPT ORIGINAL 舌を差し入れ、絡め合いながら、今度はオレも唾液を溜めていく。
-　I insert my tongue and twist it around with hers.  This time, I also start to accumulate saliva.
+　Inserting my tongue and twisting it around with hers, I accumulate saliva now.
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-02.png"
@@ -654,25 +710,25 @@ event		"event\EV_SUI_050-02.png"
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00770
-「ちゅぬっ……んぁ……じゅぅっ……」
+「Shwim... nahh... jlrrp...」
 
 #SCRIPT ORIGINAL 自分も飲ませてほしいのか、すいかはオレの舌を強く吸った。
-　Wanting to drink mine as well, Suika strongly sucks on my tongue.
+　Suika strongly sucks on my tongue, like she wants to drink mine too.
 
 #SCRIPT ORIGINAL 舌を伝わらせ、オレは口の中に溜まった唾液を流し込んでいく。
-　My tongue enters her mouth, and the saliva that has been gathering in my mouth flows into hers. (unsure of first part)
+　Crossing my tongue, the saliva that gathered in my mouth flows into hers.
 
 #SCRIPT ORIGINAL 「んぅ……じゅっ……じゅるっ……こくんっ……！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00771
-「んぅ……じゅっ……じゅるっ……こくんっ……！」
+「Nuh... jurp... jrrp... gulp...!」
 
 #SCRIPT ORIGINAL すいかは自らそれを吸い上げ、飲み下してしまう。
-　Suika sucks and gulps it down. (unsure, I trimmed down the sentence so that it made more sense and didn’t drag on in English)
+　Suika sucks it in herself and gulps it down.
 
 #SCRIPT ORIGINAL キスを続けながら、オレはじわじわと手を動かし、すいかの胸の前へと運ぶ。
-　While we continue to kiss, my hand slowly moves toward the front of Suika’s chest.
+　As we continue to kiss, my hand moving languidly, goes in front of Suika’s chest.
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-03.png"
@@ -683,40 +739,40 @@ event		"event\EV_SUI_050-03.png"
 「Nnnn……」
 
 #SCRIPT ORIGINAL なだらかな丘に手を当てると、すいかは少し身をこわばらせた。
-　Gently, I place my hand on her mound, and Suika’s body stiffens a bit.
+　When I touch my hand to the gentle rise, Suika’s body stiffens a bit.
 
 #SCRIPT ORIGINAL オレは両手を動かし、二つの丘をそっと撫でて、そのほのかな膨らみを味わう。
-　I move both of my hands, and savor the slightly swollen mounds as I softly knead them.
+　I move both of my hands, and savour the subtle bulges as I softly knead them.
 
 #SCRIPT ORIGINAL まだまだ小さいが、ジャージ越しでも膨らみがあることはハッキリとうかがえた。
-　They still have a little ways to go, but I still examine the bulges, even through her jersey.
+　They still have a ways to go, but they're distinctive even through her jersey.
 
 #SCRIPT ORIGINAL そこをゆっくりと撫でながら、オレはすいかと舌を絡め続ける。
-　While I gently caress them, our tongues continue to explore each other.
+　While I gently caress them, our tongues continue to twine each other.
 
 #SCRIPT ORIGINAL 「じゅるっ……んふ……じゅうぅっ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00773
-「じゅるっ……んふ……じゅうぅっ……」
+「Slurp... mfuh... shlurch...」
 
 #SCRIPT ORIGINAL そうしているうちに、すいかの身体から力が抜けていく。
-　While that’s happening, strength leaves Suika’s body.
+　As I'm doing that, Suika relaxes her body.
 
 #SCRIPT ORIGINAL 胸の膨らみを手のひらで軽く押してみると、あまりつぶれずに硬い弾力が返ってきた。
-　I tentatively and lightly press on her budding chest, and not pressing too hard, it firmly returned. (I think what it means is that while he is kneading her chest, it is firm and offers some resistance.)
+　When I try pressing the bulge with my palm, the suppleness offers a good deal of resistance.
 
 #SCRIPT ORIGINAL 膨らみかけの最高の状態と言っても過言ではない。
-　I’m not exaggerating when I say that they are the best small mounds. (very unsure, at least of the wording)
+　It's no stretch to call it the best stage of development.
 
 #SCRIPT ORIGINAL 直接触りたい……。
-　I want to feel them directly…….
+　I want to touch them directly...
 
 #SCRIPT ORIGINAL オレは手の位置を動かして、指先でファスナーを探った。
-　I shift the placement of my hands, searching for the zipper with my fingertips.
+　I shift my hand over, searching for the zipper with my fingertips.
 
 #SCRIPT ORIGINAL すぐに指先は目的のものを見つけ、オレはファスナーを下ろし始める。
-　Immediately, my fingertips find their goal, and I begin to undo the zipper.
+　They quickly find their goal, and I begin to pull down the zipper.
 
 @SEH01			#SEH01_ジッパー下げる
 
@@ -724,27 +780,29 @@ event		"event\EV_SUI_050-03.png"
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00774
-「んぁ……じゅるぅっ……んくっ……」
+「Nahh... shlurp... mkh...」
 
 #SCRIPT ORIGINAL すいかは鼻にかかった息を漏らし、オレの唾液をすすっている。
-　Suika lets her breathe out of her nose and slurps up my saliva. (a little unsure)
+　Breathing through her nose, Suika slurps up my saliva.
+
+#Suika lets her breathe out of her nose and slurps up my saliva. (a little unsure)
 
 se_stop		0
 
 #SCRIPT ORIGINAL ファスナーを最後まで下ろし、そのまま下の体操服をめくり上げた。
-　The zipper reaches the end of the track, and now that it is I peel off her track suit.
+　I pull the zipper down all the way, and open up her track suit.
 
 #SCRIPT ORIGINAL 「んふ……ぴちゅ……ちゅるっ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00775
-「んふ……ぴちゅ……ちゅるっ……」
+「Mfuh... slurp... shlorp...」
 
 #SCRIPT ORIGINAL すいかは抵抗もせず、オレの舌を舐め続ける。
-　Suika offer no resistance, and continues to lick my tongue.
+　Offering no resistance, Suika keeps licking my tongue.
 
 #SCRIPT ORIGINAL オレは体操服の下に手を入れて、胸の位置を探った。
-　I put my hands into the track suit and explore her chest.
+　I put my hand into the track suit and grope for her chest.
 
 #--------------------------------------------------
 event		"event\EV_SUI_050-04.png"
@@ -754,28 +812,34 @@ event		"event\EV_SUI_050-04.png"
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00776
-「んっ……！」
+「Nh...!」
 
 #SCRIPT ORIGINAL 熱を帯びた突起に手のひらが触れ、すいかはびくんと身を捩る。
-　I place the palm of my hand on her feverishly hot mounds.  With slight intoxication, Suika twists herself around.
+　With a start, Suika twists when my palm hits her feverish nipple.
+
+#I place the palm of my hand on her feverishly hot mounds.  With slight intoxication, Suika twists herself around.
 
 #SCRIPT ORIGINAL 風呂から出たあとだけに、ブラジャーはしていなかったようだ。
-　After getting out of the bath, it appears she didn’t put on a bra.
+　Being after a bath, it looks like she wasn't wearing a bra.
 
 #SCRIPT ORIGINAL オレはそのままそこに手を押し当て、今度は直接その膨らみを味わった。
-　As it is, I place my hand there, and this time, I feel those swellings directly.
+　I affix my hand there anyway, and go on to feel the bulges directly now.
+
+#As it is, I place my hand there, and this time, I feel those swellings directly.
 
 #SCRIPT ORIGINAL 小さな膨らみだけに、肌と肌を密着させた状態で大きく手を動かすのは難しい。
-　As I thought, her breasts are so small.  I cover so much of her skin, that it is difficult to move around much.
+　Being such little bulges, it's hard to move around much my hand pressed up tightly.
+
+#As I thought, her breasts are so small.  I cover so much of her skin, that it is difficult to move around much.
 
 #SCRIPT ORIGINAL 手のひらを滑らせて撫でるようにすると、すでに硬くなっていた乳首が手のひらにこすれる。
-　When I slide the palm of my hand around so as to caress her, her nipples are already stiff from being rubbed by my hand.
+　Sliding my palm around in a caress, her nipples that are already stiff are rubbed within.
 
 #SCRIPT ORIGINAL 「んぅ……ちゅぷ……んむぅ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00777
-「んぅ……ちゅぷ……んむぅ……」
+「Nuh... shlorck... nmuh...」
 
 #SCRIPT ORIGINAL すいかは身を捩りながら、それでもオレの舌を吸い続ける。
 　While twisting her body around, she still continues to suck on my tongue.
