@@ -10,17 +10,17 @@ label	suika_11
 @bg_rouka		# 廊下
 
 #SCRIPT ORIGINAL ……逃げ回るゴキブリを退治するのに時間を取られ、それが終わったときには夕食の時間になってしまった。
-...It was dinnertime by the time I was done getting rid of the cockroach scampering about.
+　...It was dinnertime by the time I was done getting rid of the cockroach scampering about.
 
 #……Running around exterminating cockroaches takes a lot of time.  It is about dinner time when I finish.
 
 #SCRIPT ORIGINAL 夕食の後には風呂の時間もあるし、人数が多いだけにそれぞれが決められた時間に風呂を済まさなくてはならない。
-After that's time for a bath; seeing as there's so many of us, everyone has to be done by a specified time.
+　After that's time for a bath; seeing as there's so many of us, everyone has to be done by a specified time.
 
 #After dinner, it will be time for a bath.  There are so many people here that there absolutely needs to be a time limit for taking a bath. (a little unsure)
 
 #SCRIPT ORIGINAL ということで、結局こんな時間まですいかのところには行けずじまいだった。
-With all that, I couldn't make it to go see Suika all the way up until now.
+　With all that, I couldn't make it to go see Suika all the way up until now.
 
 #That is to say, Suika’s time has come and gone, and she never went. (it’s worded a little differently, but the same thing more or less……I think)
 
@@ -29,7 +29,7 @@ With all that, I couldn't make it to go see Suika all the way up until now.
 (It's late now, but I should go...)
 
 #SCRIPT ORIGINAL 風呂を出て少し落ち着いてから、俺はすいかの部屋に向かった。
-After leaving the bath and taking it easy for a bit, I headed for Suika's room.
+　After leaving the bath and taking it easy for a bit, I headed for Suika's room.
 
 #I leave the bath after relaxing a little bit, and make my way to Suika’s room.
 
@@ -45,17 +45,15 @@ wait		1000
 「Suika, sorry. It got late」
 
 #SCRIPT ORIGINAL …………。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-.........
+　.........
 
 #SCRIPT ORIGINAL ノックしながら声をかけてみるが、返事はない。
-I try knocking and calling out, but there's no reply.
+　I try knocking and calling out, but there's no reply.
 
 #While I knock I try to here her voice, but there is no reply.
 
 #SCRIPT ORIGINAL やっぱり、またゲーム中だろうか？
-Is she in the middle of a game, again?
+　Is she in the middle of a game, again?
 
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
@@ -65,22 +63,20 @@ Is she in the middle of a game, again?
 「Hey, Suika...!」
 
 #SCRIPT ORIGINAL …………。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-.........
+　.........
 
 #SCRIPT ORIGINAL もう一度ノックしてみるが、やはり返事はない。
-I try knocking again, but still no reply.
+　I try knocking again, but still no reply.
 
 #I try knocking one more time, but I still don’t get a reply.
 
 #SCRIPT ORIGINAL ……これはゲーム中と見て間違いなさそうだな。
-...I don't doubt she's in the middle of a game.
+　...I don't doubt she's in the middle of a game.
 
 #……I probably wouldn’t be mistaken if she were in the middle of a game. (unsure)
 
 #SCRIPT ORIGINAL あるいは自分が作ったゲームの調整かもしれんが……。
-Or perhaps, busy fine-tuning the game she made herself...
+　Or perhaps, busy fine-tuning the game she made herself...
 
 #Or, I guess it’s possible that she is making adjustments to the game she made herself.
 
@@ -93,7 +89,7 @@ bgm_stop
 @SE06			#部屋のドア開く音（ガチャ）
 
 #SCRIPT ORIGINAL 仕方ないので、声をかけつつドアを開ける。
-With no other choice, I open the door as I speak.
+　With no other choice, I open the door as I speak.
 
 #It just can’t be helped.  I call out to her as I open the door.
 
@@ -112,7 +108,7 @@ event		"event\EV_SUI_040-00.png"
 「That's it! And thatt! Attaaaaack...!」
 
 #SCRIPT ORIGINAL 案の定、すいかは画面に向かい、コントローラーを握り締めていた。
-As expected, Suika's facing the screen, tightly gripping a controller.
+　As expected, Suika's facing the screen, tightly gripping a controller.
 
 #Just as I thought, Suika is in staring at the television screen, tightly gripping the controller.
 
@@ -121,22 +117,22 @@ As expected, Suika's facing the screen, tightly gripping a controller.
 「Fufu, too easy! Final Darkness: Meteor Explosion...!!」
 
 #SCRIPT ORIGINAL すいかは技の名前を高らかに叫びつつ、敵に攻撃を叩き込む。
-As Suika yells out the name of the attack, the blow drives into her opponent.
+　As Suika yells out the name of the attack, the blow drives into her opponent.
 
 #Suika loudly shouts out the full name of the technique while attacking her opponent.
 
 #SCRIPT ORIGINAL どうでもいいが、その中学生が考えたみたいな技、どうにかならないのか……？
-Not that it matters, but is the amateurish-sounding attack really that necessary...?
+　Not that it matters, but is the amateurish-sounding attack really that necessary...?
 
 #Not that it matters, but it sounds like a middle school student came up with that technique name.  I guess it can’t be helped.  (unsure)
 
 #SCRIPT ORIGINAL まあそれはともかく、どうやら今日はＣＰＵ相手に圧勝しているようだ。
-At any rate, looks like she owns a clean sweep against the computer for today.
+　At any rate, looks like she owns a clean sweep against the computer for today.
 
 #Well, about that, it seems like she was completely victorious against her CPU opponent.
 
 #SCRIPT ORIGINAL 必殺技を喰らった敵のライフゲージがゴリゴリと減っていき、そのまま吹き飛ばされてお陀仏になった。
-The opponent's life gauge dropping precipitously, it's blown away and perishes.
+　The opponent's life gauge dropping precipitously, it's blown away and perishes.
 
 #It receives Suika’s special attack and its life gauge begins to drop.  And with that, it is sent flying and fades away.
 
@@ -149,7 +145,7 @@ event		"event\EV_SUI_040-02.png"
 「Mwahaha... when you go up against me, this is what happens...」
 
 #SCRIPT ORIGINAL すいかは満足げに画面を見つめ、つぶやいた。
-Suika whispered looking on at the screen in satisfaction.
+　Suika whispered looking on at the screen in satisfaction.
 
 #Suika speaks to herself softly as she watches the screen.
 
@@ -168,7 +164,7 @@ event		"event\EV_SUI_040-04.png"
 「Eh!?  Aaaahhhh...!」
 
 #SCRIPT ORIGINAL 俺に気づき、すいかは大げさに驚く。
-Noticing me, Suika lets out an exaggerated start of surprise.
+　Noticing me, Suika lets out an exaggerated start of surprise.
 
 #As she notices me, Suika lets out an exaggerated surprised reaction.
 
@@ -272,8 +268,6 @@ bgm_stop
 「I've been thinking. You know, I'm no good match for Inchou-sensei, am I?」
 
 #SCRIPT ORIGINAL 「……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Itsuki
 「...」
 
@@ -281,7 +275,7 @@ bgm_stop
 　I could do nothing but fall silent at Suika's words.
 
 #SCRIPT ORIGINAL ただ一緒にゲームをするだけに、釣り合いも何もない。
-You can't find real harmony, merely from playing games together.
+　You can't find real harmony, merely from playing games together.
 
 #Since we usually played games together, I wasn’t expecting to have nothing in common with her. (a little unsure about last part)
 
@@ -294,12 +288,12 @@ You can't find real harmony, merely from playing games together.
 #What I said was ignorant, however……until now, thinking about Suika’s life, I guess it is only natural for her to become attracted to me.
 
 #SCRIPT ORIGINAL オレはある意味、すいかを愛さなかった親の代わりになれそうな年上の理解者であり……。
-In many ways, I'm someone to look up to as a substitute for the parents who didn't love her...
+　In many ways, I'm someone to look up to as a substitute for the parents who didn't love her...
 
 #There is some significance to that.  For Suika to grow up without the love of her parents, she has the understanding of someone much older.  (or, "For having grown up without a parent’s love, she has the understanding of someone much older)
 
 #SCRIPT ORIGINAL また、すいかにとって初めて、仕事抜きで通じ合える部分のある男性だったのだ。
-But also, as a first for Suika, I'm a man who she can confide in outside of work.
+　But also, as a first for Suika, I'm a man who she can confide in outside of work.
 
 #Still, that was the first time Suika has been able to communicate without it concerning her job, and with a male no less. (unsure)
 
@@ -354,7 +348,7 @@ But also, as a first for Suika, I'm a man who she can confide in outside of work
 「It’s alright」
 
 #SCRIPT ORIGINAL 明るく笑って見せ、すいかはオレの言葉を否定する。
-Showing a bright smile, Suika puts a damper on what I said.
+　Showing a bright smile, Suika puts a damper on what I said.
 
 #Smiling brightly, she looks at me and denies all of my words.
 
@@ -421,8 +415,6 @@ wait			1000
 　And so, I wouldn't want Suika thinking of herself as unwanted.
 
 #SCRIPT ORIGINAL 「……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00754
 「...」
 
@@ -479,8 +471,6 @@ wait			1000
 　Or quite simply, it's obvious that she's waiting for one.
 
 #SCRIPT ORIGINAL 「……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Itsuki
 「...」
 
@@ -528,8 +518,6 @@ bgm_stop
 @bg_white		# 白
 
 #SCRIPT ORIGINAL 「……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00760
 「...」
 
@@ -589,8 +577,6 @@ event		"event\EV_SUI_050-02.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 「ちゅ……じゅぅッ……ぴちゅるッ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00763
 「Suck... surrck... slurp...」
 
@@ -598,8 +584,6 @@ event		"event\EV_SUI_050-02.png"
 　As our tongues tangle, saliva began to collect in Suika’s mouth.
 
 #SCRIPT ORIGINAL 「んむぅ……ぴちゅ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00764
 「Nmh... shlip...」
 
@@ -612,8 +596,6 @@ event		"event\EV_SUI_050-02.png"
 #Her tongue explores my mouth like it had a mind of its own, and a nervous and pleasant feeling assails me. (couldn’t find anything for zowazowa, but sowasowa means to be anxious or fidgety)
 
 #SCRIPT ORIGINAL 「んッ……ちゅる……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00765
 「Nh... shlurp...」
 
@@ -628,8 +610,6 @@ event		"event\EV_SUI_050-02.png"
 　The feeling of it flowing into my mouth surprises me at first, but since it's Suika's I don't mind.
 
 #SCRIPT ORIGINAL 「んっく……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Itsuki
 「Nh glup...」
 
@@ -637,8 +617,6 @@ event		"event\EV_SUI_050-02.png"
 　My throat rings out, and I drink it down.
 
 #SCRIPT ORIGINAL 「ぴちゅ……ぷあッ……！」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00766
 「Shlip... puah...！」
 
@@ -688,14 +666,10 @@ event		"event\EV_SUI_050-01.png"
 　I embrace Suika once again, and press my lips against hers.
 
 #SCRIPT ORIGINAL 「んっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00768
 「Nh...」
 
 #SCRIPT ORIGINAL 「ぴちゅ……ちゅぷ……んふっ……ちゅるぅ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00769
 「Shlip... shlurp... mfuh... shlrrp...」
 
@@ -707,8 +681,6 @@ event		"event\EV_SUI_050-02.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 「ちゅぬっ……んぁ……じゅぅっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00770
 「Shwim... nahh... jlrrp...」
 
@@ -719,8 +691,6 @@ event		"event\EV_SUI_050-02.png"
 　Crossing my tongue, the saliva that gathered in my mouth flows into hers.
 
 #SCRIPT ORIGINAL 「んぅ……じゅっ……じゅるっ……こくんっ……！」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00771
 「Nuh... jurp... jrrp... gulp...!」
 
@@ -751,8 +721,6 @@ event		"event\EV_SUI_050-03.png"
 　While I gently caress them, our tongues continue to twine each other.
 
 #SCRIPT ORIGINAL 「じゅるっ……んふ……じゅうぅっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00773
 「Slurp... mfuh... shlurch...」
 
@@ -777,8 +745,6 @@ event		"event\EV_SUI_050-03.png"
 @SEH01			#SEH01_ジッパー下げる
 
 #SCRIPT ORIGINAL 「んぁ……じゅるぅっ……んくっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00774
 「Nahh... shlurp... mkh...」
 
@@ -793,8 +759,6 @@ se_stop		0
 　I pull the zipper down all the way, and open up her track suit.
 
 #SCRIPT ORIGINAL 「んふ……ぴちゅ……ちゅるっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00775
 「Mfuh... slurp... shlorp...」
 
@@ -809,8 +773,6 @@ event		"event\EV_SUI_050-04.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 「んっ……！」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00776
 「Nh...!」
 
@@ -833,117 +795,119 @@ event		"event\EV_SUI_050-04.png"
 #As I thought, her breasts are so small.  I cover so much of her skin, that it is difficult to move around much.
 
 #SCRIPT ORIGINAL 手のひらを滑らせて撫でるようにすると、すでに硬くなっていた乳首が手のひらにこすれる。
-　Sliding my palm around in a caress, her nipples that are already stiff are rubbed within.
+　Sliding my palm around in a caress, her nipple that’s already stiff is rubbed within it.
 
 #SCRIPT ORIGINAL 「んぅ……ちゅぷ……んむぅ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00777
 「Nuh... shlorck... nmuh...」
 
 #SCRIPT ORIGINAL すいかは身を捩りながら、それでもオレの舌を吸い続ける。
-　While twisting her body around, she still continues to suck on my tongue.
+　Twisting around, despite that she continues to suck on my tongue.
 
 #SCRIPT ORIGINAL 次にオレは、親指と人差し指で小さな胸をつまむようにしてみた。
 　Next, I pinch her small chest between my thumb and index fingers.
 
 #SCRIPT ORIGINAL すいかの胸には脂肪がほとんどなく、薄い皮膚の下の乳腺の感触が直に伝わってくる。
-　Suika’s chest has almost no fat.  I directly feel the pale skin under her breasts. (maybe he is cupping them and feeling the weight of them?  But they seem too small for that.  Could be that he is rubbing the spot right above her stomach but below her chest.)
+　Suika’s skin having little fat, the mammary gland beneath ther thin skin is prominently felt.
+
+#Suika’s chest has almost no fat.  I directly feel the pale skin under her breasts.
 
 #SCRIPT ORIGINAL コリコリした乳腺の感触を味わうと、女の子の身体を好きにしているという実感に、興奮が高まっていく。
-　I savor the feel of her breasts.  I truly love the feel of this girl’s body. My arousal is rising. (unsure of middle part)
+　As I enjoy the firm feel of it, my arousal goes up at getting to play with a girl’s body to my heart’s content.
+
+#I savor the feel of her breasts.  I truly love the feel of this girl’s body. My arousal is rising. (unsure of middle part)
 
 #SCRIPT ORIGINAL ズボンの中でオレのものも急速に熱を帯びてきていた。
-　In my pants, my thing is rapidly becoming hot.
+　My penis rapidly heats up inside my pants.
 
 #SCRIPT ORIGINAL 小さな胸をつまむようにしながら、オレは指の位置を徐々に先端へと移動させていった。
-　While pinching her tiny breasts, I slowly move the placement of fingers to the tips of them.
+　While pinching her tiny breasts, I slowly move the position of fingers to the tips of them.
 
 #SCRIPT ORIGINAL 「んふぅっ……！」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00778
-「んふぅっ……！」
+「Mfuh...!」
 
 #SCRIPT ORIGINAL 乳首をつままれ、すいかは強く身を捩った。
-　When I pinch her nipples, Suika strongly twists her body.
+　Her nipples pinched, Suika strongly twists her body.
 
 #SCRIPT ORIGINAL オレはそのまま、硬くなった突起を指先で揉む。
-　As it is, they have become hard from all the rubbing.
+　Unfaltering, I rub the hard protuberance with my fingertip.
 
 #SCRIPT ORIGINAL 「んっ……んぅ……んぁ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00779
-「んっ……んぅ……んぁ……」
+「Nh... nuh... nahh...」
 
 #SCRIPT ORIGINAL すいかは身を捩るが、硬くなった乳首の強い弾力がたまらない。
-　Suika twists and distorts her body, the strong flexibility of her hard nipples is unbearable. (a little unsure, maybe a little too literal)
+　Suika twists, but her firm flexible nipples are irresistible.
+
+#Suika twists and distorts her body, the strong flexibility of her hard nipples is unbearable. (a little unsure, maybe a little too literal)
 
 #SCRIPT ORIGINAL 「んっふ、んむぅ……ぷあッ……！」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00780
-「んっふ、んむぅ……ぷあッ……！」
+「Nfh, nmuh... puah...!」
 
 #乳首への執拗な刺激に、すいかはついに耐えられずに唇を離してしまう。
 #voice_bg_stop
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……はぁ……せんせぇ……」
 ＠Suika,R00781
-「Haa……haa……haa……Sensei……」
+「Haa... haa... haa... Sensei...」
 
 #SCRIPT ORIGINAL 「そこ……気持ちいい……です……」
 ＠Suika,R00782
-「There……it feels……so good……」
+「There... it feels... so good...」
 
 #SCRIPT ORIGINAL 「敏感だな……すいかは……」
 ＠Itsuki
-「You’re so sensitive……Suika……」
+「You’re so sensitive... Suika...」
 
 #SCRIPT ORIGINAL 「この前は……さんざんイかされちゃったからな……」
 ＠Itsuki
-「From before, harshly 」 (I have no idea about the later part)
+「Since last time... you made me come so hideously...」
 
 #SCRIPT ORIGINAL 「今日はオレが……すいかを泣かせてやる……」
 ＠Itsuki
-「Today, I……made Suika cry……」
+「Today, I’ll... make you cry out...」
 
 #SCRIPT ORIGINAL 親指でそっと乳首を転がしながら囁き、最後に乳首を乳房に押し込むようにする。
-　I slowly roll over her nipple with my thumb while whispering.  Finally, I squeeze her breasts and nipples. (last part is a bit confusing)
+　Whispering as I twirl her nipple with my thumb, at the end I push into her breast.
+
+#I slowly roll over her nipple with my thumb while whispering.  Finally, I squeeze her breasts and nipples. (last part is a bit confusing)
 
 #SCRIPT ORIGINAL 「あはぁっ……そ、そんなぁ……」
 ＠Suika,R00783
-「Ahaaa……suchaaa……」
+「Ahaaa... no wayy...」
 
 #SCRIPT ORIGINAL すいかはびくんと身をくねらせるが、やはり少し嬉しそうだ。
-　Suika sways her body back and forth like she was intoxicated, but in spite of that, it looks like she is enjoying it a little.
+　Suika twitches and sways, but in spite of that, she seems a bit pleased.
 
 #SCRIPT ORIGINAL 今はまだ、すいかはこうして抱かれることでしか愛情を感じられないのかもしれない。
-　Now, still, perhaps I have no choice but to hug Suika because of the love I feel. (very unsure)
+　Right now, I don’t think Suika’s experienced lovemaking other than this kind of embrace.
+
+#Now, still, perhaps I have no choice but to hug Suika because of the love I feel. (very unsure)
 
 #SCRIPT ORIGINAL だったら、それぐらいお安い御用だ。
-　If that is the case, something like that is easy.
+　If that’s the case, I can help with that.
 
 #SCRIPT ORIGINAL 「すいか……」
 ＠Itsuki
-「Suika……」
+「Suika...」
 
 @bg_white		# 白
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
 #SCRIPT ORIGINAL オレはすいかに抱きつくと、その身体を持ち上げるようにしてベッドに横たえた。
-　I cling to Suika, lifting her body so that I may lay her on the bed.
+　When I hold Suika, I lift her body up and lay her to rest on the bed.
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……院長先生……」
 ＠Suika,R00784
-「Haa……haa……Inchou-sensei……」
+「Haa... haa... Inchou-sensei...」
 
 #SCRIPT ORIGINAL すいかは頬を上気させ、期待に目を潤ませてオレを見つめる。
-　Blood rushes into Suika’s cheeks, I gaze into her eyes, which moist with anticipation.
+　Suika’s cheeks flushing, she gazes at me, eyes moist with anticipation.
 
 #SCRIPT ORIGINAL オレはそのまますいかの脚を持ち上げ、ズボンのウェストを探った。
-　As it is, I lift Suika’s legs up, and search along the waist of her pants.
+　Just like that, I lift Suika’s legs up, and search for the waist of her pants.
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-00.png"
@@ -951,215 +915,217 @@ event		"event\EV_SUI_051-00.png"
 
 #SCRIPT ORIGINAL 「ううぅ……恥ずかしいです……」
 ＠Suika,R00785
-「Uuuuu……it’s embarrassing……」
+「Uuu... it’s embarrassing...」
 
 #SCRIPT ORIGINAL 「今日……お仕事用のパンツじゃ……ないですし……」
 ＠Suika,R00786
-「Today……I’m not wearing……my work panties……」
+「I don’t have... my work panties today...」
 
 #SCRIPT ORIGINAL すいかは少し困ったようにオレを見つめる。
-　I stare at the slightly worried Suika.
+　Suika looks at me a little bit troubled.
 
 #SCRIPT ORIGINAL 「仕事じゃないんだから、別にいいさ……」
 ＠Itsuki
-「You’re not working, so it’s alright……」
+「You’re not working, so it’s fine...」
 
 #SCRIPT ORIGINAL 「すいかがどんなパンツ穿いてたって、オレは嫌いにならないぞ」
 ＠Itsuki
-「Whatever kind of panties Suika wears, I wouldn’t hate them.」
+「I wouldn’t mind whatever kind of panties you wore」
 
 #SCRIPT ORIGINAL 「ホント……ですか……？」
 ＠Suika,R00787
-「Re……really……?」
+「R-really...?」
 
 #SCRIPT ORIGINAL 「当たり前だろ……？」
 ＠Itsuki
-「Isn’t it obvious……?」
+「Of course...?」
 
 #SCRIPT ORIGINAL そう言い聞かせ、オレはウェストのゴムに手をかけた。
-　Having assured her, I place my hand on the elastic around her waist.
+　Having assured her, I put my hand on the elastic around her waist.
 
 #SCRIPT ORIGINAL 「あっ……」
 ＠Suika,R00788
-「Ah……」
+「Ah...」
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-01.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 一気に引き下ろすと、飾り気のない白いショーツが露わになる。
-　I pull down her pants at once, revealing plain white.
+　I pull down her pants all at once, revealing plain white panties.
 
 #SCRIPT ORIGINAL 子供っぽいリブ地のショーツは、かなり穿き古されている様子で、股間の部分が少し黄ばんでいた。
-　The shorts are childish.  They look rather old, and the groin area has a small yellow spot.
+　The childish rib knit fabric looks rather well worn, and the groin area has a small yellow spot.
 
 #SCRIPT ORIGINAL 「うぅ……。あんまり、見ないでください……」
 ＠Suika,R00789
-「Uuu……that’s too much, please don’t look……」
+「Uu... don’t look so much...」
 
 #SCRIPT ORIGINAL 「可愛いぞ、すいか……」
 ＠Itsuki
-「They’re cute, Suika……」
+「They’re cute, Suika...」
 
 #SCRIPT ORIGINAL ある意味すいからしいというか、そんな下着もオレの興奮を加速するばかりだ。
-　Or perhaps I should say that there is a certain meaning to it, because such underwear also speeds up my arousal.
+　In a way they’re very Suika-like, meaning they do nothing but speed up my arousal.
+
+#Or perhaps I should say that there is a certain meaning to it, because such underwear also speeds up my arousal.
 
 #SCRIPT ORIGINAL オレはその股間に親指の腹を押しつけ、ぐりぐりと刺激した。
-　I press the palm of my hand against her crotch, and I stimulate the bump. (bump could be clitoris or just her crotch.)
+　I press my thumb up against her crotch, and stimulate in a circular motion.
 
 #SCRIPT ORIGINAL 「あっ、せ、せんせ……んっ……！」
 ＠Suika,R00790
-「Ah, se, sense……nn……!」
+「Ah, s-sensei... nn...!」
 
 #SCRIPT ORIGINAL すいかは再び、身体をこわばらせる。
-　Suika’s body stiffens again.
+　Suika stiffens up once again.
 
 #SCRIPT ORIGINAL 下着の股間の部分は、まだ染みにはなっていないようだが、少し湿ってきているようだった。
-　The crotch of her underwear, it doesn’t look like it has become stained yet, but it does seem to have become a little moist. (stain could be confused with the yellow spot mentioned earlier.  Maybe revise)
+　Her panties haven’t gotten stained yet, but she does seem to be moistening up a little bit.
 
 #SCRIPT ORIGINAL オレは親指を上下させ、下着の上から中の様子を確認する。
-　I move my thumb up and down, and from on top of her underwear, I confirm the state on the inside of them. (I guess he means that from the looks of the outside, the inside is obvious)
+　I move my thumb up and down, checking the state beneath through her panties.
 
 #SCRIPT ORIGINAL 襞は割れ目から少しはみ出しているらしく、ぐにぐにした感触がある。
-　From the crease in her crotch, it seems to be jutting out a little bit.  I have a feeling.  (don’t know what guniguni means, so the last part it incomplete.)
+　Her labia jutting out a bit from her pussy, it feels soft and pliable.
 
 #SCRIPT ORIGINAL そこからさらに上へと辿っていくと、割れ目のくぼみと、その間の小さな突起の位置がわかった。
-　From there, I follow it up more and more.  In the crease, I understand what the tiny nub is.
+　When I go further up along it, along with the cavity, I find the small protuberance’s spot.
 
 #SCRIPT ORIGINAL 下着の布地を食い込ませるように、オレはそこを刺激した。
-　It’s like the fabric is eating into her, and I stimulate it there.
+　I stimulate her there, eating into the fabric of her underwear.
 
 #SCRIPT ORIGINAL 「あっ……はぁっ……んっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00791
-「あっ……はぁっ……んっ……」
+「Ah... haa... nh...」
 
 #SCRIPT ORIGINAL 「はぁっ……はぁっ……はぁっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00792
-「はぁっ……はぁっ……はぁっ……」
+「Haa... haa... haa...」
 
 #SCRIPT ORIGINAL 刺激を続けると、不意にすいかの身体から力が抜ける。
-　When I continue to stimulate it, the strength in Suika’s body suddenly leaves her.
+　As I keep stimulating, abruptly strength leaves Suika’s body.
 
 #SCRIPT ORIGINAL 「あぁ……気持ちいい……先生の指……いいです……」
 ＠Suika,R00793
-「Aah……this good feeling……Sensei’s finger……it’s good……」
+「Aah... it feels good... Sensei’s finger... is nice...」
 
 #SCRIPT ORIGINAL そしてすいかは、自ら腰をくねらせてそこをオレの指に押しつけ始めた。
-　And then, Suika’s back bends back, and my finger begins to press there.
+　And then, Suika wags her hips herself rubbing that spot against my finger.
 
 #SCRIPT ORIGINAL 日頃の調教のためか、やはり感度はいいようだ。
-　For the sake of her normal training, as I thought, her sensitivity appears to be good. (unsure about first part)
+　Due to her usual training, she does seem pretty sensitive.
 
 #SCRIPT ORIGINAL 指先に感じていた湿り気は、すぐに明らかな水分に変わり始める。
-　I sense moisture with my fingertips.  Immediately, there begins to be an obvious change in moisture.
+　The moisture I feel at my fingertips soon changes to veritable fluid.
 
 #SCRIPT ORIGINAL 「もう濡れてきたのか……？」
 ＠Itsuki
-「You’re already wet……?」
+「You’re already wet...?」
 
 #SCRIPT ORIGINAL 「んっ、ごめんなさい……感じやすくて……」
 ＠Suika,R00794
-「Nnn, I’m very sorry……it’s sensitive……」
+「Nn, sorry... I’m easily turned on...」
 
 #SCRIPT ORIGINAL 「いや……いいぞ。濡れやすいのは……いい身体だ……」
 ＠Itsuki
-「No……it’s fine.  Getting wet easily……it’s a good body……」 (maybe replace good body with just, "It’s healthy.")
+「Nah... it’s fine. Getting wet easily... it’s healthy...」
 
 #SCRIPT ORIGINAL 「これももう……脱がせてやる……」
 ＠Itsuki
-「This too……let’s take it off already……」
+「I can... take this off by now...」
 
 @bg_white		# 白
 
 #SCRIPT ORIGINAL オレはショーツのゴムに手をかけ、すいかのお尻を持ち上げるようにしてそれを引き下ろした。
-　I put my hands on the elastic of her shorts, and lift her bottom so that I can pull them off.
+　I put my hands on the elastic of her shorts, lift her bottom and pull them off.
 
 #SCRIPT ORIGINAL 「あっ……」
 ＠Suika,R00795
-「Ah……」
+「Ah...」
 
 #SCRIPT ORIGINAL 愛液で襞に貼りついていたクロッチが剥がれ、細い糸を引く。
-　Genital secretions make her underwear cling to her crotch as I peel them off, forming a fine thread.
+　Peeled off her wet sticky folds, a fine thread is formed.
 
 #SCRIPT ORIGINAL ぬるぬるになった襞は、画面の明かりを反射し、てらてらと艶めかしく光っている。
-　It has become slippery, reflecting the scene brightly.  It charmingly captivates me. (The middle part must just mean that her fluids are making her crotch shine a little)
+　Taking on the room’s light, her labia shine gleaming and captivating.
 
 #SCRIPT ORIGINAL 「綺麗だ……」
 ＠Itsuki
-「It’s beautiful……」
+「It’s beautiful...」
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-02.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL ショーツから片脚を抜き取り、オレは濡れた襞へと手を伸ばした。
-　From her shorts, she takes off one leg, and my hand extends to her wet folds.
+　Freeing one leg of her panties, my hand extends to her wet folds.
 
 #SCRIPT ORIGINAL 「んっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00796
-「んっ……」
+「Nh...」
 
 #SCRIPT ORIGINAL 指先が襞に触れたとたん、すいかの身体がびくんと跳ねる。
-　My fingertip just barely touches her, and Suika’s body jumps.
+　Suika jerked up the moment my finger touched her petals.
 
 #SCRIPT ORIGINAL 「すいか……」
 ＠Itsuki
-「Suika……」
+「Suika...」
 
 #SCRIPT ORIGINAL オレはそのまま、割れ目からはみ出した襞のフチに沿って、指先を滑らせた。
-　As it is, something is sticking out along the edge of the crease.  My fingertip glides across it.
+　I take my finger like that, and run it right alongside her labia.
+
+#As it is, something is sticking out along the edge of the crease.  My fingertip glides across it.
 
 #SCRIPT ORIGINAL 「あぁっ……はぁっ……はぁっ……あぁ……」
 ＠Suika,R00797
-「Aaah……haaa……haaa……aaah……」
+「Aaah... haa... haaa... aaah...」
 
 #SCRIPT ORIGINAL 愛液で指はぬるぬると滑り、すいかの息が一気に荒くなる。
-　Because of her secretions, my finger slides across it.  Suika’s breathing at once becomes wild.
+　Suika’s breathing gets rough, as my finger glides along wetly.
 
 #SCRIPT ORIGINAL 「敏感だな……。いい身体だ……」
 ＠Itsuki
-「It’s so sensitive…… You have a good body……」
+「So sensitive... healthy indeed...」
 
 #SCRIPT ORIGINAL 両手で脚を広げるようにして、オレはその間に割って入る。
-　I spread her legs with both hands, and I force my way into that space.
+　I spread her legs with both hands, and interpose into the gap.
 
 #SCRIPT ORIGINAL それから両手の親指を二枚の襞の間に挿し入れるようにして、襞を開かせた。
-　And then, I put the thumbs of both my hands on either side of her crease.  I insert them, and spread the folds apart.
+　And then, I stick my thumbs in from both sides, and spread her folds apart.
 
 #SCRIPT ORIGINAL 「あうぅ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00798
-「あうぅ……」
+「Auuh...」
 
 #SCRIPT ORIGINAL 内側のピンク色が覗き、襞の間に溜まっていた愛液がお尻の方へと垂れていく。
-　Her pink interior is peeking out.  Fluids have been collecting in the space between her folds, and they are now dripping down onto her asshole.
+　The inner pink becoming visible, the collected love juice drips down to her butt.
+
+#Her pink interior is peeking out.  Fluids have been collecting in the space between her folds, and they are now dripping down onto her asshole.
 
 #SCRIPT ORIGINAL そんな様が、オレのものを欲してよだれを垂らしているように見え、ここに挿れたいという欲求が高まっていく。
-　Such an appearance, it wants my thing.  She displays the fluids dripping down.  My desire to insert it here is increasing. (it’s a little split up.  Wording needs revising)
+　To see that, like it’s dripping drool craving my thing, my desire to insert it here is seething.
+
+#Such an appearance, it wants my thing.  She displays the fluids dripping down.  My desire to insert it here is increasing. (it’s a little split up.  Wording needs revising)
 
 #SCRIPT ORIGINAL オレのものもすでに、ズボンの中で限界まで硬くなっている。
-　It’s already too late for my thing.  I’ve reached the limit inside my pants.
+　My penis is already fully erect inside my pants.
 
 #SCRIPT ORIGINAL 「すいか……」
 ＠Itsuki
-「Suika……」
+「Suika...」
 
 @SEH01			#SEH01_ジッパー下げる
 
 #SCRIPT ORIGINAL オレはいそいそとベルトを外し、ズボンのファスナーを下ろした。
-　Suika excitedly undoes my belt, and unzips my pants.
+　In a frenzy, I undo my belt, and pull down the zipper of my pants.
 
 se_stop		0
 
 #SCRIPT ORIGINAL トランクスとまとめてズボンを下ろすと、力強く屹立したものがすいかの眼前に晒された。
-　When collecting my trousers and pulling my pants down, I stand tall and expose myself before Suika’s eyes.
+　When I pull down my pants and trunks in one go, my rock hard penis is exposed before Suika.
+
+#When collecting my trousers and pulling my pants down, I stand tall and expose myself before Suika’s eyes.
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-03.png"
@@ -1167,472 +1133,494 @@ event		"event\EV_SUI_051-03.png"
 
 #SCRIPT ORIGINAL 「うぅ、先生の……大きいです……」
 ＠Suika,R00799
-「Uuu, Sensei’s……it’s big……」
+「Uu, Sensei’s... it’s so big...」
 
 #SCRIPT ORIGINAL 少し困ったようにしつつも、すいかはそこから目を離せないようだ。
-　I’m a little worried, because Suika’s eyes seem like they won’t leave there.
+　With a bit of a worried look, Suika’s eyes stay locked on my thing.
+
+#I’m a little worried, because Suika’s eyes seem like they won’t leave there.
 
 #SCRIPT ORIGINAL 「イヤだと言っても……もう遅いぞ……？」
 ＠Itsuki
-「Even if you say it is unpleasant……isn’t it already too late……?」
+「Going back now... it’s too late, y’know...?」
 
 #SCRIPT ORIGINAL オレはもう、すいかと繋がりたくてたまらなかった。
-　Already, I want to connect with Suika. (very unsure.  Don’t know what the last part, maranakatta means)
+　I can’t contain my desire to be one with Suika anymore.
 
 #SCRIPT ORIGINAL オレは自らの皮を剥くと、すいかの脚を抱えるようにして腰を近づける。
-　When I take off my own skin, in order to carry Suika’s legs, I hold her waist close. (a little unsure)
+　I peel back my foreskin, and come closer grabbing hold of Suika’s leg.
+
+#When I take off my own skin, in order to carry Suika’s legs, I hold her waist close. (a little unsure)
 
 #SCRIPT ORIGINAL 「あ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00800
-「あ……」
+「Ah...」
 
 #SCRIPT ORIGINAL 「熱い……。先生の、熱くて……硬くて……」
 ＠Suika,R00801
-「Hot…… Sensei’s, it’s hot……and it’s hard……」
+「So hot... Sensei’s, it’s hot... and hard...」
 
 #SCRIPT ORIGINAL 竿が触れると、すいかは陶酔したようにつぶやく。
-　Touching my rod, Suika mutters elatedly.
+　Touching my rod, Suika mutters as if intoxicated.
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……すいか……」
 ＠Itsuki
-「Haa……haa……Suika……」
+「Haa... haa... Suika...」
 
 #SCRIPT ORIGINAL オレは自らの根本を握り締め、先端の位置を調節した。
-　I grip the base of it, controlling the tip.
+　Gripping hold of the base, I control where the tip goes.
 
 #SCRIPT ORIGINAL 襞の間に亀頭がめり込み、ぬるぬるした感触が伝わってくる。
-　I prod the opening of her crease, a slippery feeling is transferred to me.
+　With a slippery sensation, I prod the opening of her pussy.
 
 #SCRIPT ORIGINAL そのぬめりに導かれ、オレの先端はすぐにすいかの入り口を探り当てた。
-　Those juices guide me.  My tip immediately finds Suika’s entrance.
+　Guided by the juices, the tip quickly finds Suika’s entrance.
 
 #SCRIPT ORIGINAL 「はぁっ、はぁっ、はぁっ……」
 ＠Suika,R00802
-「Haa, haa, haa……」
+「Haa, haa, haa...」
 
 #SCRIPT ORIGINAL 再びすいかの呼吸が荒くなる。
-　Suika’s breathing becomes wild once again.
+　Suika’s breathing gets rough again.
 
 #SCRIPT ORIGINAL 「挿れるぞ……」
 ＠Itsuki
-「I’m going to put it in……」
+「I’m putting it in...」
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-04.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 一方的に宣言し、すいかの確認を待たずに腰を進める。
-　Because it’s a one-sided proclamation, I hasten my hips without waiting for Suika to confirm.
+　So declaring, I advance my hips not waiting for Suika’s assent.
+
+#Because it’s a one-sided proclamation, I hasten my hips without waiting for Suika to confirm.
 
 #SCRIPT ORIGINAL 「せんせ……ごうい……んッ……！」
 ＠Suika,R00803
-「Sense……go ahead……nn……!」
+「Sensei... you’re forcing it... nn...!」
 
 #SCRIPT ORIGINAL すいかの言葉は、オレのものが膣の入り口を押し広げていく感触に途切れた。
-　The feeling of my thing spread her vagina entrance interrupted her words.
+　Her speech is interrupted by my thing spreading her pussy’s entrance out.
+
+#The feeling of my thing spread her vagina entrance interrupted her words.
 
 #SCRIPT ORIGINAL 「キツいな……」
 ＠Itsuki
-「Tight……」
+「It’s tight...」
 
 #SCRIPT ORIGINAL 十分に濡れているはずなのに、すいかの入り口は狭く、亀頭が半分ほどめり込んだところで引っかかるように止まってしまう。
-　Even though Suika’s entrance should be plenty wet by now, it’s so narrow.  The glans is only halfway in, but I stop so that I don’t get stuck.
+　It may be plenty wet, but her passage’s so narrow, my glans sliding in gets stuck and stops halfway through.
 
 #SCRIPT ORIGINAL 「はぁっ、はぁっ、せんせっ……」
 ＠Suika,R00804
-「Haa, haa, Sense……」
+「Haa, haa, Sensei...」
 
 #SCRIPT ORIGINAL 「すいか……！」
 ＠Itsuki
-「Suika……!」
+「Suika...!」
 
 #SCRIPT ORIGINAL オレはそのまま、力任せに腰を押し込んだ。
-　As it is, I push my hips with all my might.
+　Just like that, I push my hips with all my might.
 
 #SCRIPT ORIGINAL 「んああぁぁッ……！」
 ＠Suika,R00805
-「Nnaaaaaaa……!」
+「Nnaaaaaa...!」
 
 #SCRIPT ORIGINAL めりめりと膣を押し広げる感触とともに、すいかは一気にオレにつらぬかれてしまう。
-　I spread her vagina with a groan, and at once, I plunge into her.
+　I grind into and spread her vagina, as Suika’s plunged into by me all at once.
 
 #SCRIPT ORIGINAL 「はぁっ！　はぁっ！　はぁっ……！」
 ＠Suika,R00806
-「Haa!  Haa!  Haa……!」
+「Haa! Haa! Haa...!」
 
 #SCRIPT ORIGINAL 「先生の……、太い……の……」
 ＠Suika,R00807
-「Sensei’s……, thick……」
+「Sensei’s... thick...」
 
 #SCRIPT ORIGINAL 限界まで穴を押し広げられ、息を途切れさせながら、すいかはオレの腕をつかむ。
-　I expand her hole to the limit, and while her breathing pauses, Suika seizes my arms.
+　Her hole stretched to the limit, Suika seizes my arms, her breath stilted.
 
 #SCRIPT ORIGINAL 「すいかの中……キツくて……あったかくて……ぬるぬるだぞ……」
 ＠Itsuki
-「Inside of Suika……it’s tight……and warm……and slippery……」
+「Inside you... it’s tight... and warm... and slippery...」
 
 #SCRIPT ORIGINAL 「最高だな……。動かすぞ……」
 ＠Itsuki
-「It’s the best…… I’m going to move now……」
+「It’s awesome... I’m going to move...」
 
 #SCRIPT ORIGINAL すいかの身体を誉めながら、オレはゆっくりと腰を引き始める。
-　While admiring Suika’s body, I slowly begin to pull at her waist.
+　As I praise Suika’s body, I slowly begin pulling my waist back.
 
 #SCRIPT ORIGINAL 「はぁあッ……！」
 ＠Suika,R00808
-「Haaaa……!」
+「Haaaa...!」
 
 #SCRIPT ORIGINAL こじ開けられ、ギリギリまで引き延ばされた内側の粘膜が、オレのものに引きずられ、すいかは悲鳴に近い声を上げた。
-　Prying open, I stretch her insides to the limit, but I keep going.  Suika raises her small voice into a scream.
+　Suika practically screamed as her insides, pried open and streched to the brink, are dragged along with my penis.
+
+#Prying open, I stretch her insides to the limit, but I keep going.  Suika raises her small voice into a scream.
 
 #SCRIPT ORIGINAL 「ああぁ……」
 ＠Suika,R00809
-「Aaaah……」
+「Aaaah...」
 
 #SCRIPT ORIGINAL 内側の肉を絡みつかせながら、血管の浮いたオレのものが、すいかの中から抜き出されてくる。
-　While her walls coil around me, cutting off the blood circulation in my thing.  I start to pull out of Suika.
+　While her walls coil around me, my penis with veins jutting out, is pulled out from inside her.
 
 #SCRIPT ORIGINAL 「はぁっ、はぁっ、せんせ……」
 ＠Suika,R00810
-「Haa, haa, Sense……」
+「Haa, haa, Sensei...」
 
 #SCRIPT ORIGINAL すいかは何かを言おうとするが、オレはそれを許さなかった。
-　Suika is saying something, but I didn’t allow it.
+　Suika was about to say something, but I didn’t give her the chance.
 
 #SCRIPT ORIGINAL 十分に腰を退いたところで方向を転じ、オレは再びすいかの中を目指す。
-　Even though I pull my waist away, I switch direction, and I aim for inside of Suika’s insides again.
+　When there’s enough separation, I change direction to Suika’s insides again.
 
 #SCRIPT ORIGINAL 「んぅ……はあぁッ……！」
 ＠Suika,R00811
-「Nnn……haaa……!」
+「Nnn... haaa...!」
 
 #SCRIPT ORIGINAL 襞を巻き込みながら、オレのものは再びすいかの中に埋まっていく。
-　While rolling up her folds, my thing is once again buried inside of Suika.
+　While rolling her folds in, my thing is once again buried inside of Suika.
 
 #SCRIPT ORIGINAL 「はぁっ、はぁっ、はぁっ……！」
 ＠Suika,R00812
-「Haa, haa, haa……!」
+「Haa, haa, haa...!」
 
 #SCRIPT ORIGINAL 根本まで押し込まれると、すいかは荒い息を繰り返すことしかできない。
-　I push into her until the hilt, Suika has been breathing roughly for a while.
+　When I push into her to the hilt, Suika could do nothing but breathe roughly.
 
 #SCRIPT ORIGINAL 「いいぞ……すいかの中……」
 ＠Itsuki
-「It’s good……inside of Suika……」
+「Inside you it’s... so good...」
 
 #SCRIPT ORIGINAL キツい締め付けと粘膜の感触を味わいつつ、オレは再び腰を引き、押し込む。
-　I savor the feeling of the tight pressure of her insides, while I again pull her waist and thrust in.
+　Enjoying the tight pressure of her insides, I pull back again and thrust in.
 
 #SCRIPT ORIGINAL 「あっ……はぁっ、んくッ……！」
 ＠Suika,R00813
-「Aah……haa, nkuu……!」
+「Aah... haa, ngh...!」
 
 #SCRIPT ORIGINAL 突き込むたびにすいかの身体が揺さぶられ、苦しげな声が上がる。
-　Every time I thrust into Suika, her body trembles.  Her pained voice rises. (pained might not be quite right.)
+　Her body shaken whenever I thrust into her, she cries out pained.
 
 #SCRIPT ORIGINAL しかし、そんなすいかの反応も長くは続かなかった。
-　However, such actions of Suika’s didn’t last long.
+　Still, those reactions didn’t last too long.
 
 #SCRIPT ORIGINAL すでに男の味を教え込まれているすいかの身体は、オレの精液を搾り取ろうと、さらに愛液を分泌する。
-　I’m already giving Suika’s body the taste of a man.  She is milking my semen, and more and more of her love juices leak out of her. (first part is kind of awkward)
+　Her body already well entrained to men, it secretes more love juices trying to wring out my semen.
+
+#I’m already giving Suika’s body the taste of a man.  She is milking my semen, and more and more of her love juices leak out of her. (first part is kind of awkward)
 
 #SCRIPT ORIGINAL 腰の動きを繰り返すに従い、粘膜の滑りは次第によくなって、すいかの顔からも苦痛の色は消えていく。
-　In accordance with the repetition of my hip movements, her walls are coated, and the painful look on Suika’s face vanishes.
+　The gliding action gets better and better with my hips’ motions, and Suika’s pained look goes away.
+
+#In accordance with the repetition of my hip movements, her walls are coated, and the painful look on Suika’s face vanishes.
 
 #SCRIPT ORIGINAL 「あぁっ……んっ……はぁっ……せんせっ……」
 ＠Suika,R00814
-「Aaah……nn……haa……Sense……」
+「Aaah... nn... haa... Sensei...」
 
 #SCRIPT ORIGINAL すいかの声も、求めるような甘い声に変わってきた。
-　Suika’s voice too, like it desires it, changes to a sweet tone.
+　Suika’s voice too, changes to a desirous, sweet tone.
 
 #SCRIPT ORIGINAL それに伴い、オレの腰の動きも自然と早まっていく。
 　And what’s more, my hip movements naturally speed up.
 
 #SCRIPT ORIGINAL 「ホントに……イヤらしいな、すいかの……身体は……」
 ＠Itsuki
-「Really……so dirty, Suika’s……body……」
+「Suika, your body’s... so... perverted...」
 
 #SCRIPT ORIGINAL 「はぁっ、先生……ごめんなさい……こんなに、エッチで……」
 ＠Suika,R00815
-「Haa, Sensei……I’m sorry……like this, it’s so perverted……」
+「Haa, Sensei... I’m sorry... for being so perverted...」
 
 #SCRIPT ORIGINAL 「謝るな……。オレは好きだぞ……イヤらしい女の子……」
 ＠Itsuki
-「Apologizing…… I like that……you filthy girl……」
+「Don’t say sorry... I like dirty girls...」
 
 #SCRIPT ORIGINAL 「あはぁっ……！　んっ……ホント、ですか……？」
 ＠Suika,R00816
-「Ahaa……!  Nnn……is that, true……?」
+「Ahaa...! Nnn... is that true...?」
 
 #SCRIPT ORIGINAL 「当たり前だろ……？」
 ＠Itsuki
-「Isn’t it obvious……?」
+「Isn’t it obvious...?」
 
 #SCRIPT ORIGINAL 「すいかが……気持ちよくなったほうが……、オレも……気持ちいい……」
 ＠Itsuki
-「Suika…… is beginning to feel better……, For me as well, it feels good……」
+「If you’re feeling good, Suika... then I do, too...」
 
 #SCRIPT ORIGINAL 「もっと……感じるんだ……」
 ＠Itsuki
-「More……feel more……」
+「More... feel more...」
 
 #SCRIPT ORIGINAL 「すいかが……気持ちよくて、理性なくしてるところ……見たい……」
 ＠Itsuki
-「Suika……is feeling good, and losing sense of reason……I want to see……」
+「I want to see... you losing your mind from pleasure...」
 
 #SCRIPT ORIGINAL これまではイかされるだけだったからな……。
-　Until this (no clue whatsoever)
+　All she did until this point was make me come...
 
 #SCRIPT ORIGINAL だからオレはもう、すいかが理性をなくした姿を見たくてたまらない。
-　And so, I’m already dying to see Suika lose her senses.
+　And so, by this point I’m just dying to see Suika lose her senses.
 
 #SCRIPT ORIGINAL 「ああっ、んっ……！　せんせえ……せんせえ……！」
 ＠Suika,R00817
-「Aaah, nn……!  Sense……Sense……!」
+「Aaah, nn...! Sensei... Sensei...!」
 
 #SCRIPT ORIGINAL 「ホントですか……？　私……ホントに……おかしくなっちゃう……」
 ＠Suika,R00818
-「Is it true……?  I’ve……really……become strange……」
+「Do you really...? I really feel like... I’m losing it...」
 
 #SCRIPT ORIGINAL 「気持ちいいか……？　いいぞ……。おかしくなれ……」
 ＠Itsuki
-「Does it feel good……?  It’s alright…… become strange……」 (unsure of the ‘become strange part)
+「You feeling good? Go ahead and... lose yourself...」
 
 #SCRIPT ORIGINAL 「んふぅっ……はぁっ……はい……。気持ちいい……気持ちいいの……」
 ＠Suika,R00819
-「んふぅっ……haaa……yes……It feels good……it feels good……」
+「Nfuh... haa... okay... it feels good... it feels so good...」
 
 #SCRIPT ORIGINAL オレの言葉の暗示にかかったように、すいかの声から理性の色が消えていく。
-　She takes the suggestion in my words, and reason vanishes from Suika’s voice.
+　Looking like she took my suggestion, reason vanishes from Suika’s voice.
 
 #SCRIPT ORIGINAL 「はぁん……せんせぇの、おちんちんっ……太くて……いいよぉ……」
 ＠Suika,R00820
-「Haan……Sense’s, penis……it’s thick……good……」
+「Haan... Sensei’s, penis... it’s thick... it’s good...」
 
 #SCRIPT ORIGINAL 「ぬるぬるして……あぁっ、はぁぅっ！　あはぁっ！」
 ＠Suika,R00821
-「It’s slipping……aaah, haau!  Ahaa!」
+「It’s slippery and... aaah, haau! Ahaa!」
 
 #SCRIPT ORIGINAL 「いいぞ……すいか……」
 ＠Itsuki
-「Good……Suika……」
+「That’s it... Suika...」
 
 #オレは腰の動きを続けながら、再びすいかの胸へと手を伸ばす。	
 #SCRIPT ORIGINAL オレは腰の動きを続けながら、再びすいかの胸へと手を伸ばす。
-　While I continue to move my hips, I again reach out for Suika’s breasts.
+　As I keep moving my hips, I again reach out for Suika’s breasts.
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-05.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 「あっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00822
-「あっ……」
+「Ah...」
 
 #SCRIPT ORIGINAL 乳首に指が触れた瞬間、すいかは一瞬びくんとするが、すぐにオレの指を求めるように胸を突き出してきた。
-　The instant I touch her nipple with my finger, Suika instantly becomes intoxicated.  As if to demand it, she sticks out her chest.
+　Suika jolts the moment I touch my finger to her nipple, but soon sticks her chest out asking for more.
+
+#The instant I touch her nipple with my finger, Suika instantly becomes intoxicated.  As if to demand it, she sticks out her chest.
 
 #SCRIPT ORIGINAL 「あぁ……せんせ……。乳首いいの……すいかの乳首ぃ……」
 ＠Suika,R00823
-「Aah……Sense…… Nipple, is good……Suika’s nipple……」
+「Aah... Sensei... that’s it, my nipple... my nipple...」
 
 #SCRIPT ORIGINAL 「もっと触って……ほしいか……？」
 ＠Itsuki
-「Do you want me to……touch it more……?」
+「Do you want me to... touch it more...?」
 
 #SCRIPT ORIGINAL 「うん……はい……触って……。触ってぇ……」
 ＠Suika,R00824
-「Yeah……yes……touch it…… Touch it……」
+「Yes, please... touch it... touch it...」
 
 #SCRIPT ORIGINAL 「しょうがないな……」
 ＠Itsuki
-「It can’t be helped then……」
+「May as well...」
 
 #SCRIPT ORIGINAL オレはまた両手で乳首をつまみ、そこをコリコリしてやる。
-　I again pinch her nipples with both hands.  She can’t stand what I am doing there.  (unsure.  Korikori means crunchy.  On the other hand, korigori means something like, ‘unbearable’)
+　Grasping them with my hands again, I pinch her nipples.
+
+#I again pinch her nipples with both hands.  She can’t stand what I am doing there.  (unsure.  Korikori means crunchy.  On the other hand, korigori means something like, ‘unbearable’)
 
 #SCRIPT ORIGINAL 「あはぁっ、いいっ！　乳首気持ちいいよぉ……じゅるッ……」
 ＠Suika,R00825
-「Ahaa, good!  My nipples feel good……じゅるッ……」
+「Ahaa, that’s it!  My nipples feel good... slobber...」
 
 #SCRIPT ORIGINAL すいかは激しく身を捩り、唇の端からこぼれた唾液を啜る。
-　Suika violently twists her body.  She slurps up the saliva that had overflowed from the start.
+　Suika heaves violently, slurping up the drool from her lips.
 
 #SCRIPT ORIGINAL 「すいか……」
 ＠Itsuki
-「Suika……」
+「Suika...」
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-06.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 指先でコリコリしているうちにたまらなくなって、オレは身を屈め、今度はそこに唇を近づけた。
-　My fingertip is becoming unbearable.  I bend my body, and this time bring my lips near there. (same thing with korikori)
+　As I pinch them, no longer able to contain myself, I bend over and bring my lips close now.
+
+#My fingertip is becoming unbearable.  I bend my body, and this time bring my lips near there. (same thing with korikori)
 
 #SCRIPT ORIGINAL 片方の乳首を口に含み、一気に吸い上げる。
-　I take one of her nipples in my mouth, and at once start sucking.
+　Taking a nipple in my mouth, I suck all at once.
 
 #SCRIPT ORIGINAL 「はぁっ……！　すっ、すごいぃ……」
 ＠Suika,R00826
-「Haaa……!  A, amazing……」
+「Haaa...! A-amazing...」
 
 #SCRIPT ORIGINAL 「私……せんせえにおっぱい……吸われてるぅ……んぅう……！」
 ＠Suika,R00827
-「I……Sensei is sucking……my breast……nnuu……!」
+「My boobs... are being sucked on... by sensei...!」
 
 #SCRIPT ORIGINAL オレは乳首を唇に挟んだまま、その先端に舌をこすりつけた。
-　I hold her nipple in between my lips, and rub the tip with my tongue.
+　As I held her nipple in my lips, I rub the tip with my tongue.
 
 #SCRIPT ORIGINAL 「んあッ……！　いいッ！　それ……気持ちいいよぉ……」
 ＠Suika,R00828
-「んあッ……!  Good!  That……feels so good……」
+「Naah! That’s good! That... feels so good...」
 
 #SCRIPT ORIGINAL 小さな胸を手のひらで中央に寄せるようにして、オレは乳首を吸い続ける。
-　With the palm of my hand on the center of her tiny breast, I continue to suck her nipple. (weird sounding)
+　I cup her little breasts closer together with my hand, as I keep sucking.
 
 #SCRIPT ORIGINAL 同時に反対の乳首も指でつまみ、軽く引っ張りながら揉んでやった。
-　At the same time, I pinch her other nipple with my fingers.  While I pinch her, I lightly rub her.
+　At the same time, gripping her nipple I lightly squiggle and massage it.
+
+#At the same time, I pinch her other nipple with my fingers.  While I pinch her, I lightly rub her.
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……せんせ……もう、おかしくなっちゃ……んっ……！」
 ＠Suika,R00829
-「Haa……haa……Sense……again, I’m becoming strange……nnn……!」
+「Haa... haa... Sensei... I’m losing it, already... nn...!」
 
 #SCRIPT ORIGINAL 「ぷはぁっ……。可愛いぞ……すいか……」
 ＠Itsuki
-「ぷはぁっ…… You’re cute……Suika……」
+「Puhaa... you’re cute... Suika...」
 
 #SCRIPT ORIGINAL 唇を離し、ぬるぬるになった乳首を指で撫でながら、声をかけてみる。
-　I open my lips, and gently stroke her now slippery nipple.  As I do that, Suika calls out to me.
+　I speak to her separating my lips, as I rub her slobbery nipple with my finger.
+
+#I open my lips, and gently stroke her now slippery nipple.  As I do that, Suika calls out to me.
 
 #SCRIPT ORIGINAL 「んうぅッ、せんせ……恥ずかし……んッ！　はあぁッ……いいよぉ……」
 ＠Suika,R00830
-「んうぅッ, Sense……its embarrassing……nn!  Haaa……so good……」
+「Nuuhh, Senseh... its embarrass-... nn! Haaa...so good...」
 
 #SCRIPT ORIGINAL もう、ほとんど理性は残っていないみたいだ。
-　Already, it looks like there is almost no reason left in her.
+　By this point, she seems totally delirious.
 
 #SCRIPT ORIGINAL この前はすいかにいろいろされちゃったけれど、今はすいかがオレのものでこんなに感じている……。
-　Recently, various things were done to Suika, but now, she is feeling my thing like this. (unsure)
+　Last time, Suika did a lot of things to me, but now she’s getting off this much to my thing...
 
 #SCRIPT ORIGINAL そう思うと、たまらない満足感とともに、射精の欲求が高まってくる。
-　When I think in this way, together with an unbearable feeling of satisfaction, my desire to ejaculate rises.
+　As I think that, my desire to come rises with an irresistible satisfaction.
+
+#When I think in this way, together with an unbearable feeling of satisfaction, my desire to ejaculate rises.
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……すいか……。中で出しても……いいか……？」
 ＠Itsuki
-「Haa……haa……Suika…… If I cum inside……is that alright……?」
+「Haa... haa... Suika... is it alright... if I come inside...?」
 
 #SCRIPT ORIGINAL 腰の動きを速めながら、オレはすいかに許可を求める。
-　While I quicken my hip’s movement, I seek permission from Suika.
+　I seek permission from Suika as I quicken my hips’ movement.
 
 #SCRIPT ORIGINAL 「んッ、あッ、はい……。中に……せんせぇの……すいかの中に、ください……」
 ＠Suika,R00831
-「Nn, ah, yes…… Inside……Sensei’s……inside Suika’s, please……」
+「Nn, ah, yes... Senseh’s, inside... inside me, please...」
 
 #SCRIPT ORIGINAL オレの腰の動きに全身を揺さぶられ、とぎれとぎれになりながらも、すいかはそう求めてくる。
-　My hip movements are shaking her entire body, and while they become chaotic, she demands that of me.
+　My motions shaking her entire body, though woefully out of breath, she demands that of me.
 
 #SCRIPT ORIGINAL 同時にすいかの膣もオレのものを強く締めつけてくる。
-　At the same time, Suika’s vagina tightens around me.
+　At the same time, Suika’s pussy tightens around me.
 
 #SCRIPT ORIGINAL すいかも出されたいんだ……。
-　Suika wants to cum as well…….
+　Suika wants me to come too...
 
 #SCRIPT ORIGINAL そう思うと、急速に精液がこみ上げてくる。
-　As I think that, my semen rapidly starts to build up.
+　When I think that, my semen rapidly starts to well up.
 
 #SCRIPT ORIGINAL 「すいか……。すいかの子宮……オレので、どろどろにしてやる……」
 ＠Itsuki
-「Suika…… Suika’s womb……mine, is thickening.」 (unsure.  Thickening might be talking about his semen welling up, and he is about to cum or something.)
+「Suika... I’ll make your womb... soaked with my stuff...」
 
 #SCRIPT ORIGINAL 「はあぁッ！　せんせッ！　ああぁッ、んふぅッ……！」
 ＠Suika,R00832
-「Haaa!  Sensei!  Aaaah, nnfuu……!」
+「Haaa! Sensei! Aaaah, nnfuh...!」
 
 #SCRIPT ORIGINAL 強く腰を突き込むと、そのたびにすいかの身体がびくびくと跳ねる。
-　I strongly thrust my hips and bury myself.  Every time I do that, Suika’s body nervously jumps.
+　When I strongly thrust in with my hips, Suika’s body gives a start.
 
 #SCRIPT ORIGINAL すいかももう、あと少しでイきそうなのだろう。
-　It seems that Suika will come soon as well.
+　Looks like Suika will come soon too.
 
 #SCRIPT ORIGINAL 「んあッ……先生の……せーえき……」
 ＠Suika,R00833
-「Nnaaa……Sensei’s……penis……」
+「Nnaaah... Sensei’s... come...」
 
 #SCRIPT ORIGINAL 「出されちゃう……あぁ……せんせぇッ……！」
 ＠Suika,R00834
-「Let’s cum……aah……Sensei……!」
+「Sensei’s going to... ahh... come in me...!」
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……すいか……。出そうに……なってきた……」
 ＠Itsuki
-「Haa……haa……Suika…… Let’s cum……together……」 (together is just a space filler.  It would be a nice touch, but nattekita is probably just, ‘to become.’  Don’t really know what to do with it)
+「Haa... haa... Suika... I’m about to... come...!」
 
 #SCRIPT ORIGINAL うわごとのようにつぶやくすいかの耳元で、わざと囁いてやる。
-　Like I am mumbling incoherently into Suika’s ear, I am purposefully whispering.
+　I purposely whisper next to Suika’s ear, who’s mumbling deliriously.
 
 #SCRIPT ORIGINAL 「はぁああぁッ……！」
 ＠Suika,R00835
-「Haaaaa……!」
+「Haaaaa...!」
 
 #SCRIPT ORIGINAL それだけですいかの膣がキュッと締まる。
-　And with that alone, Suika’s vagina shuts tight.
+　And from that alone, Suika’s pussy squeezes tight.
 
 #SCRIPT ORIGINAL オレはすいかの腰をがっちりとつかみ、自らの腰を押しつけてぐりぐりと奥を刺激した。
-　I tightly grip Suika’s waist, thrusting my one hips to stimulate her insides. (is the guriguri referring to her clitoris?  It means something about hard lump.  So not only is he thrusting in, stimulating inside of her, but he is also rubbing her clitoris. Edit: In a couple of lines, he presses her clitoris, so it’s likely he is doing something with it here too.)
+　I firmly grab hold of her waist, as pressing myself in I grind against her deep inside.
 
 #SCRIPT ORIGINAL 「あはぁッ、せんせッ！　奥がッ！　あふんッ！」
 ＠Suika,R00836
-「Ahaa, Sensei!  Inside!  あふんッ!」
+「Ahaa, Sensei! Deep inside me! Afuhn!」
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-07.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL さらに片手の親指をクリトリスに押しつける。
-　Moreover, the thumb on one of my hands presses her clitoris.
+　Moreover, I press one of my thumbs on her clitoris.
 
 #SCRIPT ORIGINAL 「あッ、やはぁッ……！」
 ＠Suika,R00837
-「Ah, yahaa……!」
+「Ah, yahaa...!」
 
 #SCRIPT ORIGINAL 「んくッ……」
 ＠Itsuki
-「Nkuu……」
+「Nghh...」
 
 #SCRIPT ORIGINAL すいかの中が強くオレのものを締めつけて、こみ上げる精液をオレは必死で抑え込む。
-　Suika’s insides strongly tighten around my thing, and I desperately try to hold back the semen that is welling up.
+　Suika’s insides strongly tighten around me, as I desperately try to hold back the roiling semen.
 
 #SCRIPT ORIGINAL それでもオレの腰は勝手に動いてしまい、もうこれ以上は耐えられそうになかった。
-　Nevertheless, my hips move of their own accord, and I already can’t take any more of this.
+　Nonetheless, my hips move of their own accord. I don’t think I’ll be able to take much more.
 
 #SCRIPT ORIGINAL 「すいかッ……出すぞ……出すぞ……」
 ＠Itsuki
-「Suika……I’m cumming……I’m cumming……」
+「Suika... I’m cumming... I’m cumming...」
 
 #SCRIPT ORIGINAL クリトリスをぐりぐりと刺激しつつ、オレは一気に腰を突き込む。
-　I stimulate the hard lump that is her clitoris while thrusting my hips and plunging into her.
+　As I turn my fingers stimulating her clitoris, I plunge into her all at once.
 
 #SCRIPT ORIGINAL 「んはぁッ……せんせ……せんせッ……もうだめッ、あああぁッ……！」
 ＠Suika,R00838
-「Nhaa……Sensei……Sensei……it’s too late, aaaaaaah……!」
+「Nhaa... Sensei... Sensei... I can’t anymore, aaaaaaah...!」
 
 #SCRIPT ORIGINAL 「イくッ、イッちゃ……んはぁッ！　あはああああああぁ……ッ！！」
 ＠Suika,R00839
-「Cumming, cummi……nhaa!  Ahaaaaaaaaaaa……!!」
+「Cumming, I’m cummi... nhaa!  Ahaaaaaaaaaaa...!!」
 
 #SCRIPT ORIGINAL すいかの身体が大きく波打った。
-　Suika’s body shudders immensely.
+　Suika gave an immense shudder.
 
 #SCRIPT ORIGINAL 「くうぅッ、すいか……！！」
 ＠Itsuki
-「Kuuu, Suika……!!」
+「Urghh, Suika...!!」
 
 #SCRIPT ORIGINAL その瞬間、一気に精液がこみ上げ、すいかの胎内へと迸る。
-　In that moment, semen instantly gushes forth and flows into Suika’s womb.
+　That moment, semen wells up all at once and gushes into Suika’s womb.
 
 #--------------------------------------------------
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
@@ -1640,145 +1628,141 @@ event		"event\EV_SUI_051-08.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL ビュクッ、ドプッ！　ドビュルッ……！！
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-ビュクッ、ドプッ！　ドビュルッ……！！
+　Splurt, splurck! Splurgge...!!
 
 #SCRIPT ORIGINAL 「んああああぁッ！！　んくぅッ！！　あはぁッ……！！」
 ＠Suika,R00840
-「Nhaaaa!!  Nkuu!!  Ahaa……!!」
+「Nhaaaa!! Nkuu!! Ahaa...!!」
 
 #SCRIPT ORIGINAL オレの下ですいかの身体が何度も跳ね、オレはさらに腰を動かして、その中に精液を注いでいく。
-　Under me, Suika’s body jumps over and over.  My hips move again, and semen pours inside there.
+　Suika jolted over and over beneath me, I move my hips some more, and pour the semen inside Suika.
 
 #SCRIPT ORIGINAL 「あああぁッ！！　せんせぇのがッ……入って……！　んふあッ……！」
 ＠Suika,R00841
-「Aaaaaaah!!  Sensei’s is……entering……!  Nnfua……!」
+「Aaaaaaah!! Sensei’s stuff is... going in...! Nnfua...!」
 
 #SCRIPT ORIGINAL 精液はすいかの子宮を満たし、膣に溢れて、繋がった部分からこぼれる。
-　Semen fills Suika’s womb and overflowing from her vagina, spilling out from where we are joined.
+　Semen fills Suika’s womb and overflows from her pussy, spilling out from where we are joined.
 
 #SCRIPT ORIGINAL 「すいかッ……！　んッ……！　んッ……！　はあぁっ……」
 ＠Itsuki
-「Suika……!  Nnn……!  Nnn……!  Haaa……」
+「Suika...! Nnn...! Nnn...! Haaa...」
 
 #SCRIPT ORIGINAL 腰に力を入れ、一滴残らず絞り出すと、一気に全身の力が抜けた。
-　Strength enters my hips, and squeezes out every last drop.  And with that, that strength leaves my entire body.
+　Strength leaves my body, once I’d tensed up and wrung every last drop out.
 
 #SCRIPT ORIGINAL 「あぁっ……はぁっ……はぁっ……！　はあぁ……」
 ＠Suika,R00842
-「Aaah……haaa……haa……!  Haaa……」
+「Aaah...haaa...haa...! Haaa...」
 
 #SCRIPT ORIGINAL すいかもオレの下でぐったりしてしまっている。
-　Under me, Suika is completely exhausted too.
+　Suika’s gone limp from beneath me too.
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……はぁ……」
 ＠Suika,R00843
-「Haa……haa……haa……」
+「Haa...haa...haa...」
 
 #SCRIPT ORIGINAL 俺たちはしばらくの間、そのままの姿勢で荒い息を繰り返すだけだった。
-　For a short while after, we remain in that lewd position, just breathing heavily.
+　We remain in that position for a short while, just breathing heavily.
 
 #SCRIPT ORIGINAL …………。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-…………。
+　......
 
 #SCRIPT ORIGINAL ……呼吸が整うにつれて、徐々に冷静さが戻ってくる。
-……As our breathing stabilizes, little by little our calm returns to us.
+　...Gradually we calm down as our breathing stabilizes.
 
 #SCRIPT ORIGINAL 最後まで、しちゃったな……。
-　To the end, I did it…….
+　I did it to the end...
 
 #SCRIPT ORIGINAL 本当に……これで良かったのだろうか？
-　Really……I wonder if this was a good thing?
+　I wonder... was this really a good thing?
 
 #SCRIPT ORIGINAL 「はぁ……はぁ……先生……」
 ＠Suika,R00844
-「Haa……haa……Sensei……」
+「Haa... haa... Sensei...」
 
 #SCRIPT ORIGINAL すいかもようやく落ち着いてきたらしく、息を整えながらオレを見つめた。
-　Suika seems to have finally calmed down as well.  While her breathing returns to normal, she stares at me.
+　At last Suika seems to calm down as well; she stares at me as her breath levels.
 
 #SCRIPT ORIGINAL 「ごめんなさい……。急にこんなこと……させちゃって……」
 ＠Suika,R00845
-「I’m very sorry……Doing……something like this so abruptly……」
+「I’m so sorry... making you do this... all of a sudden...」
 
 #SCRIPT ORIGINAL 「お、おう……」
 ＠Itsuki
-「Oh, ooh……」
+「I-it’s okay...」
 
 #SCRIPT ORIGINAL どうやらすいかとしても、自分が誘ったという認識だったらしい。
-　As for Suika, somehow, it seems like she recognizes that she asked me to.
+　By this point, even Suika seems to acknowledge this was her doing.
 
 #SCRIPT ORIGINAL 「どうしても、言葉だけじゃ……信じられなくて……」
 ＠Suika,R00846
-「After all, they were just words……not to be believed……」 (unsure)
+「I couldn’t believe you... just with words alone...」
 
 #SCRIPT ORIGINAL 「そうか……」
 ＠Itsuki
-「Is that so……」
+「You couldn’t...?」
 
 #SCRIPT ORIGINAL だったら、良かったのかな……？
-　In that case, was it a good thing……?
+　So then, maybe it was a good thing...?
 
 #SCRIPT ORIGINAL 「わかったか？　オレがホントに、すいかを可愛いって思ってること」
 ＠Itsuki
-「Did you understand?  I really think Suika is cute.」
+「Did it sink in now, that I really do think you’re cute?」
 
 #SCRIPT ORIGINAL 恋人として付き合いたいと思っていたわけじゃないにしても、その気持ちに嘘はなかった。
 　Even if I don’t think I want to be with her like a lover, that feeling wasn’t a lie.
 
 #SCRIPT ORIGINAL 「はい……。ありがとうございます……院長先生……」
 ＠Suika,R00847
-「Yes…… Thank you very much……Inchou-sensei……」
+「Yes... thank you very much... Inchou-sensei...」
 
 #SCRIPT ORIGINAL 「おかげでちょっと……元気出ました……」
 ＠Suika,R00848
-「Thanks in part to you……my energy has left me……」
+「I feel a little better... thanks to you...」
 
 #SCRIPT ORIGINAL 「それなら……良かった……」
 ＠Itsuki
-「If that’s the case……it’s good……」
+「That’s good then...」
 
 #SCRIPT ORIGINAL オレもずいぶん役得だった気もするけど、まあ、結果オーライかな？
-　It was a surprising perk for me as well.  However, did everything turn out all right? (maybe, ‘it was a pleasant surprise for me as well.’)
+　A bit of a surprise perk for me too, but all’s well that ends well, I guess?
 
 #SCRIPT ORIGINAL 「可愛かったぞ、すいか……」
 ＠Itsuki
-「You were definitely cute, Suika……」
+「You were so cute, Suika...」
 
 #SCRIPT ORIGINAL オレは改めて、すいかの髪を撫でてやる。
-　I again stroke Suika’s hair.
+　I take a moment to stroke Suika’s hair.
 
 #SCRIPT ORIGINAL 「えへへ、嬉しいです……」
 ＠Suika,R00849
-「Ehehe, I’m happy……」
+「Ehehe, I’m glad...」
 
 #SCRIPT ORIGINAL 「でも、今日はちょっと、興奮し過ぎちゃいました……。恥ずかしいです……」
 ＠Suika,R00850
-「But, today is a little, now that the excitement has passed…… It’s embarrassing……」 (Kyo wa chotto may mean that today wasn’t a good time for that, but I can’t see how to fit it in there.)
+「But today, I might have gone a little overboard... I’m so embarrassed...」
 
 #SCRIPT ORIGINAL 「それが可愛いんだって」
 ＠Itsuki
-「That’s cute.」
+「That was the cute part」
 
 #SCRIPT ORIGINAL 「ごめん、抜くぞ……」
 ＠Itsuki
-「Sorry, I’ll pull out……」
+「Sorry, I’ll pull out...」
 
 #SCRIPT ORIGINAL オレのものはすいかの中ですでに萎えてきていたので、オレはそっと腰を引いた。
-　Because my thing was already withering inside of Suika, I gently pull back my hips.
+　I gently pull back my hips, what with my penis gone flaccid inside of Suika by now.
+
+#Because my thing was already withering inside of Suika, I gently pull back my hips.
 
 #--------------------------------------------------
 event		"event\EV_SUI_051-09.png"
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 「んっ……」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00851
-「んっ……」
+「Nh...」
 
 #SCRIPT ORIGINAL すいかは切なげな息を漏らすが、何も言わずに黙っている。
 　Suika lets out a labored breath, but doesn’t say anything, keeping silent.
