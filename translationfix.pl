@@ -163,6 +163,9 @@ chdir "scripts";
 my $last_file_file = "../last_file.txt";
 my $active_file = "main.txt";
 
+my $text_dir = "text";
+
+
 my $empty = sprintf("%c%c", 0x81, 0x40);
 my $star_prefix = sprintf("%c%c", 0x81, 0x99);
 my $speaker_add = sprintf("%c%c", 0x81, 0x97);
@@ -2142,9 +2145,132 @@ sub CopyToGame
 	
 }
 
+sub BuildFile
+{
+    my $target = shift;
+	my $file = shift;
+	my $source = shift;
+
+	my $source_file = $source . "/" . $file;
+
+	my $target_file = $text_dir . "/" . $file;
+
+    print $source_file . "\n";
+    
+    my $dir = substr($target_file, 0, rindex($target_file, "/"));
+    print $dir . "\n";
+    mkdir $dir unless (-e $dir);
+	
+	open OUTPUT_FILE, ">", $target_file or die $!;
+	
+	my $index_counter = 0;
+	my $state = 0;
+	
+	foreach my $line (readFile($source_file))
+	{
+		if (substr($line, 0, 5) eq "label")
+		{
+			my $label = substr($line, 6);
+			my $rindex = index($label, " ");
+			$label = substr($label, 0, $rindex) if ($rindex != -1);
+			$rindex = index($label, "\t");
+			$label = substr($label, 0, $rindex) if ($rindex != -1);
+			print OUTPUT_FILE "#label ";
+			print OUTPUT_FILE $label;
+			print OUTPUT_FILE $CLRF;
+			print OUTPUT_FILE $CLRF;
+			
+			$index_counter = 0;
+		}
+		else
+		{
+			my $type = getType($line);
+            if ($type eq "SPEAKER" or $type eq "KANJI")
+            {
+                if ($state == 0)
+                {
+                    $index_counter++;
+                    print OUTPUT_FILE "##INDEX $target ";
+                    print OUTPUT_FILE $index_counter;
+                    print OUTPUT_FILE $CLRF;
+                }
+                $state = 1;
+                print OUTPUT_FILE "#";
+                print OUTPUT_FILE $line;
+                print OUTPUT_FILE $CLRF;
+            }
+            elsif ($state == 1)
+            {
+                $state = 0;
+                print OUTPUT_FILE $CLRF;
+            }
+            elsif ($type eq "TEXT" and (index($line, "select ") != -1 or index($line, "select\t") != -1))
+            {
+                $index_counter++;
+                print OUTPUT_FILE "##INDEX $target ";
+                print OUTPUT_FILE $index_counter;
+                print OUTPUT_FILE $CLRF;
+                print OUTPUT_FILE "#SELECT";
+                print OUTPUT_FILE $CLRF;
+                print OUTPUT_FILE "#";
+                print OUTPUT_FILE $line;
+                print OUTPUT_FILE $CLRF;
+                print OUTPUT_FILE $CLRF;
+            }
+            elsif ($type eq "TEXT" and index($line, "select_icon_add") != -1)
+            {
+                my $index = index($line, "select_icon_add");
+                my $print_line = substr($line, $index);
+                $print_line = substr($print_line, 0, rindex($print_line, "\"")+1);
+                
+                $index_counter++;
+                print OUTPUT_FILE "##INDEX $target ";
+                print OUTPUT_FILE $index_counter;
+                print OUTPUT_FILE $CLRF;
+                print OUTPUT_FILE "#BUTTON";
+                print OUTPUT_FILE $CLRF;
+                print OUTPUT_FILE "#";
+                print OUTPUT_FILE $print_line;
+                print OUTPUT_FILE $CLRF;
+                print OUTPUT_FILE $CLRF;
+            }
+            
+		}
+	}
+}
+
+sub StartBuild
+{
+	my $source = shift;
+
+	chdir("..");
+    mkdir $text_dir unless (-e $text_dir);
+    
+    #foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    foreach (readFile($source . "/scripts.ini"))
+    {
+        if (substr($_, 0, 7) eq "scripts")
+        {
+            my $file = substr($_, 8);
+            $file =~ s/\\/\//g;
+            BuildFile("ORIGINAL",  $file, $source);
+        }
+    }
+}
+
 if ($#ARGV >= 0)
 {
-	handleFile $ARGV[0];
+    if ($ARGV[0] eq "build")
+    {
+		# arguments
+		# 1 build
+		# 2 path to scripts
+        StartBuild $ARGV[1];
+    }
+    else
+    {
+        handleFile $ARGV[0];
+    }
 }
 else
 {
