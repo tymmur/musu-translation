@@ -595,6 +595,8 @@ sub convertLine
 sub getType
 {
 	my ($line) = @_;
+	
+	die "undefined input for getType\n" if not defined $line;
 
 	if (length $line == 0)
 	{
@@ -2154,11 +2156,8 @@ sub BuildFile
 	my $source_file = $source . "/" . $file;
 
 	my $target_file = $text_dir . "/" . $file;
-
-    print $source_file . "\n";
     
     my $dir = substr($target_file, 0, rindex($target_file, "/"));
-    print $dir . "\n";
     mkdir $dir unless (-e $dir);
 	
 	open OUTPUT_FILE, ">", $target_file or die $!;
@@ -2193,6 +2192,15 @@ sub BuildFile
                     print OUTPUT_FILE "##INDEX $target ";
                     print OUTPUT_FILE $index_counter;
                     print OUTPUT_FILE $CLRF;
+					if ($type eq "SPEAKER")
+					{
+						print OUTPUT_FILE "##TYPE SPEAKER";
+					}
+					else
+					{
+						print OUTPUT_FILE "##TYPE TEXT";
+					}
+					print OUTPUT_FILE $CLRF;
                 }
                 $state = 1;
                 print OUTPUT_FILE "#";
@@ -2210,7 +2218,7 @@ sub BuildFile
                 print OUTPUT_FILE "##INDEX $target ";
                 print OUTPUT_FILE $index_counter;
                 print OUTPUT_FILE $CLRF;
-                print OUTPUT_FILE "#SELECT";
+                print OUTPUT_FILE "##TYPE SELECT";
                 print OUTPUT_FILE $CLRF;
                 print OUTPUT_FILE "#";
                 print OUTPUT_FILE $line;
@@ -2227,16 +2235,24 @@ sub BuildFile
                 print OUTPUT_FILE "##INDEX $target ";
                 print OUTPUT_FILE $index_counter;
                 print OUTPUT_FILE $CLRF;
-                print OUTPUT_FILE "#BUTTON";
+                print OUTPUT_FILE "##TYPE BUTTON";
                 print OUTPUT_FILE $CLRF;
                 print OUTPUT_FILE "#";
                 print OUTPUT_FILE $print_line;
                 print OUTPUT_FILE $CLRF;
+				
+				$print_line = substr($print_line, 0, rindex($print_line, "\""));
+				$print_line = substr($print_line, 1+ rindex($print_line, "\""));
+				print OUTPUT_FILE $print_line;
+                print OUTPUT_FILE $CLRF;
+				
                 print OUTPUT_FILE $CLRF;
             }
             
 		}
 	}
+	
+	close OUTPUT_FILE;
 }
 
 sub StartBuild
@@ -2246,14 +2262,127 @@ sub StartBuild
 	chdir("..");
     mkdir $text_dir unless (-e $text_dir);
     
-    #foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
-    foreach (readFile($source . "/scripts.ini"))
+    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    #foreach (readFile($source . "/scripts.ini"))
     {
         if (substr($_, 0, 7) eq "scripts")
         {
             my $file = substr($_, 8);
             $file =~ s/\\/\//g;
             BuildFile("ORIGINAL",  $file, $source);
+        }
+    }
+}
+
+sub InsertFile
+{
+	my $file = shift;
+
+    my @scriptFile = readFile("scripts/" . $file);
+	my @textFile = readFile($text_dir . "/" . $file);
+	
+	open OUTPUT_FILE, ">", ($text_dir . "/" . $file) or die $!;
+	
+	while (exists $textFile[0])
+	{
+		my $line = shift(@textFile);
+		print OUTPUT_FILE $line;
+		print OUTPUT_FILE $CLRF;
+		
+		if (substr($line,0, 16) eq "##INDEX ORIGINAL")
+		{
+			
+		
+			#my @block = ();
+			while (substr($line, 0, 6) ne "##TYPE")
+			{
+				$line = shift(@textFile);
+				print OUTPUT_FILE $line;
+				print OUTPUT_FILE $CLRF;
+			}
+			
+			my $type = substr($line, 7);
+			
+			if ($type eq "SELECT")
+			{
+				$line = shift(@textFile);
+				print OUTPUT_FILE $line;
+				print OUTPUT_FILE $CLRF;
+				
+				my $select_line = substr($line, 1, index($line, "\""));
+				while (1)
+				{
+					$line = shift(@scriptFile);
+					next if substr($line, 0, 1) eq "#";
+					next if index($line, $select_line);
+					last;
+				}
+				my @options = split "\"", $line;
+				foreach (@options)
+				{
+					next if index($_, ",") != -1;
+					print OUTPUT_FILE $_;
+					print OUTPUT_FILE $CLRF;
+				}
+			}
+			elsif ($type eq "SPEAKER")
+			{
+				while (1)
+				{
+					my $local_line = shift(@scriptFile);
+					last if substr($local_line, 0, 2) eq $speaker_add;
+				}
+			}
+			elsif ($type eq "TEXT")
+			{
+				while (1)
+				{
+					my $local_line = shift(@scriptFile);
+					last if substr($local_line, 0, 16) eq "#SCRIPT ORIGINAL";
+				}
+				
+			}
+			
+			if ($type eq "TEXT" or $type eq "SPEAKER")
+			{
+				while (substr($textFile[0], 0, 1) eq "#")
+				{
+					$line = shift(@textFile);
+					print OUTPUT_FILE $line;
+					print OUTPUT_FILE $CLRF;
+				}
+			
+				while (getType($scriptFile[0]) ne "KANJI" and getType($scriptFile[0]) ne "TEXT")
+				{
+					shift(@scriptFile);
+
+				}
+				while (getType($scriptFile[0]) eq "KANJI" or getType($scriptFile[0]) eq "TEXT")
+				{
+					my $local_line = shift(@scriptFile);
+					print OUTPUT_FILE $local_line;
+					print OUTPUT_FILE $CLRF;
+				}
+			}
+		}
+	}
+	
+	close OUTPUT_FILE;
+}
+
+sub StartInsert
+{
+	chdir("..");
+    mkdir $text_dir unless (-e $text_dir);
+    
+    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    #foreach (readFile("original/scripts.ini"))
+    {
+        if (substr($_, 0, 7) eq "scripts")
+        {
+            my $file = substr($_, 8);
+            $file =~ s/\\/\//g;
+            InsertFile($file);
         }
     }
 }
@@ -2267,6 +2396,10 @@ if ($#ARGV >= 0)
 		# 2 path to scripts
         StartBuild $ARGV[1];
     }
+	elsif ($ARGV[0] eq "insert")
+	{
+		StartInsert
+	}
     else
     {
         handleFile $ARGV[0];
