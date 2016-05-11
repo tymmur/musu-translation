@@ -2387,6 +2387,60 @@ sub StartInsert
     }
 }
 
+sub TranslateNames
+{
+	my $file = shift;
+
+	my @textFile = readFile($file);
+	
+	my @output = ();
+	
+	while (exists $textFile[0])
+	{
+		my $line = shift(@textFile);
+	
+		next if (substr($line, 0, 19) eq "##Translated name: ");
+		if (substr($line, 0, 3) eq ("#") . $speaker_add)
+		{
+			my $japanese_name = substr($line, 3);
+			if (index($japanese_name, ",") != -1)
+			{
+				$japanese_name = substr($japanese_name, 0, index($japanese_name, ","));
+			}
+			my $translated_name = $name_translation{$japanese_name};
+			
+			push(@output, "##Translated name: ");
+			push(@output, $translated_name);
+			push(@output, $CLRF);
+		}
+		push(@output, $line);
+		push(@output, $CLRF);
+	}
+	
+	open OUTPUT_FILE, ">", ($file) or die $!;
+	foreach (@output)
+	{
+		print OUTPUT_FILE $_;
+	}
+	close OUTPUT_FILE;
+}
+
+sub StartTranslateNames
+{
+	chdir("../" . $text_dir);
+    
+    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    #foreach (readFile("original/scripts.ini"))
+    {
+        if (substr($_, 0, 7) eq "scripts")
+        {
+            my $file = substr($_, 8);
+            $file =~ s/\\/\//g;
+            TranslateNames($file);
+        }
+    }
+}
+
 if ($#ARGV >= 0)
 {
     if ($ARGV[0] eq "build")
@@ -2398,7 +2452,13 @@ if ($#ARGV >= 0)
     }
 	elsif ($ARGV[0] eq "insert")
 	{
+		# inserts already translated lines into text
 		StartInsert
+	}
+	elsif ($ARGV[0] eq "names")
+	{
+		# updates the line, which tells which will be used in the translation
+		StartTranslateNames
 	}
     else
     {
