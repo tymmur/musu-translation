@@ -164,7 +164,7 @@ my $last_file_file = "../last_file.txt";
 my $active_file = "main.txt";
 
 my $text_dir = "text";
-
+my $code_script_dir = "code_scripts";
 
 my $empty = sprintf("%c%c", 0x81, 0x40);
 my $star_prefix = sprintf("%c%c", 0x81, 0x99);
@@ -2179,7 +2179,7 @@ sub BuildFile
 			print OUTPUT_FILE $CLRF;
 			print OUTPUT_FILE $CLRF;
 			
-			$index_counter = 0;
+			#$index_counter = 0;
 		}
 		else
 		{
@@ -2277,21 +2277,28 @@ sub StartBuild
 sub InsertFile
 {
 	my $file = shift;
+	
+	my $code_file = $code_script_dir . "/" . $file;
+	
+	my $dir = substr($code_file, 0, rindex($code_file, "/"));
+    mkdir $dir unless (-e $dir);
 
     my @scriptFile = readFile("scripts/" . $file);
 	my @textFile = readFile($text_dir . "/" . $file);
+	my @codeFile = ();
 	
 	open OUTPUT_FILE, ">", ($text_dir . "/" . $file) or die $!;
 	
 	while (exists $textFile[0])
 	{
+		my $speaker_line = "";
 		my $line = shift(@textFile);
 		print OUTPUT_FILE $line;
 		print OUTPUT_FILE $CLRF;
 		
 		if (substr($line,0, 16) eq "##INDEX ORIGINAL")
 		{
-			
+			my $index_line = $line;
 		
 			#my @block = ();
 			while (substr($line, 0, 6) ne "##TYPE")
@@ -2313,10 +2320,17 @@ sub InsertFile
 				while (1)
 				{
 					$line = shift(@scriptFile);
+					push(@codeFile, $line);
 					next if substr($line, 0, 1) eq "#";
 					next if index($line, $select_line);
 					last;
 				}
+				
+				pop(@codeFile);
+				my $temp_line = pop(@codeFile);
+				push(@codeFile, $index_line);
+				push(@codeFile, substr($temp_line, 1));
+				
 				my @options = split "\"", $line;
 				foreach (@options)
 				{
@@ -2330,8 +2344,10 @@ sub InsertFile
 				while (1)
 				{
 					my $local_line = shift(@scriptFile);
+					push(@codeFile, $local_line);
 					last if substr($local_line, 0, 2) eq $speaker_add;
 				}
+				pop(@codeFile);
 			}
 			elsif ($type eq "TEXT")
 			{
@@ -2345,18 +2361,30 @@ sub InsertFile
 			
 			if ($type eq "TEXT" or $type eq "SPEAKER")
 			{
+				while (getType($scriptFile[0]) ne "KANJI" and getType($scriptFile[0]) ne "TEXT")
+				{
+					my $local_line = shift(@scriptFile);
+					push(@codeFile, $local_line);
+
+				}
+				while (1)
+				{
+					my $temp_line = pop(@codeFile);
+					next if substr($temp_line, 0, 1) eq "#";
+					push(@codeFile, $temp_line);
+					last;
+				}
+				push(@codeFile, $index_line);
+			
 				while (substr($textFile[0], 0, 1) eq "#")
 				{
 					$line = shift(@textFile);
 					print OUTPUT_FILE $line;
 					print OUTPUT_FILE $CLRF;
+					
+					push(@codeFile, substr($line, 1)) if substr($line, 0, 3) eq ("#" . $speaker_add);
 				}
 			
-				while (getType($scriptFile[0]) ne "KANJI" and getType($scriptFile[0]) ne "TEXT")
-				{
-					shift(@scriptFile);
-
-				}
 				while (getType($scriptFile[0]) eq "KANJI" or getType($scriptFile[0]) eq "TEXT")
 				{
 					my $local_line = shift(@scriptFile);
@@ -2367,6 +2395,20 @@ sub InsertFile
 		}
 	}
 	
+	while (exists $scriptFile[0])
+	{
+		my $local_line = shift(@scriptFile);
+		push(@codeFile, $local_line);
+	}
+	
+	close OUTPUT_FILE;
+	
+	open OUTPUT_FILE, ">", $code_file or die $!;
+	foreach (@codeFile)
+	{
+		print OUTPUT_FILE $_;
+		print OUTPUT_FILE $CLRF;
+	}
 	close OUTPUT_FILE;
 }
 
@@ -2374,6 +2416,7 @@ sub StartInsert
 {
 	chdir("..");
     mkdir $text_dir unless (-e $text_dir);
+	mkdir $code_script_dir unless (-e $code_script_dir);
     
     foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
     #foreach (readFile("original/scripts.ini"))
