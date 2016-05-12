@@ -221,6 +221,14 @@ foreach (readFile("../names.txt"))
 	$name_translation{$japanese} = $english;
 }
 
+sub ConvertNamesToWide
+{
+	foreach my $key (keys %name_translation)
+	{
+		$name_translation{$key} = toWideChar($name_translation{$key});
+	}
+}
+
 # there are empty names. Force them to be empty without throwing warnings or errors
 $name_translation{$empty} = $empty;
 
@@ -2329,7 +2337,7 @@ sub InsertFile
 				pop(@codeFile);
 				my $temp_line = pop(@codeFile);
 				push(@codeFile, $index_line);
-				push(@codeFile, substr($temp_line, 1));
+				push(@codeFile, substr($temp_line, 17));
 				
 				my @options = split "\"", $line;
 				foreach (@options)
@@ -2484,6 +2492,155 @@ sub StartTranslateNames
     }
 }
 
+sub MergeFile
+{
+	my $file            = shift;
+	my $source_text_dir = shift;
+	my $source_code_dir = shift;
+    my $dest_dir        = shift;
+	my $version         = shift;
+	
+	print "Merging files: " . $file . "\n";
+	
+	my $text_file = $source_text_dir . "/" . $file;
+	my $code_file = $source_code_dir . "/" . $file;
+	my $dest_file = $dest_dir        . "/" . $file;
+	my $trigger   = "##INDEX " . $version . " ";
+	
+	my $trigger_length = length($trigger);
+	
+	my @text = readFile($text_file);
+	my @code = readFile($code_file);
+
+
+	open OUTPUT_FILE, ">", ($dest_file) or die $!;
+	while (exists $code[0])
+	{
+		my $line = shift(@code);
+		
+		if (substr($line, 0, $trigger_length) ne $trigger)
+		{
+			print OUTPUT_FILE $line;
+			print OUTPUT_FILE $CLRF;
+			next;
+		}
+		
+		## merge in text/translation
+
+		# forward to the same index in text
+		# note: this requires text to be in the same order in both files
+		while (1)
+		{
+			my $temp_line = shift(@text);
+			last if $temp_line eq $line;
+		}
+		
+		my $type = shift(@text);
+		$type = substr($type, 7);
+		
+		while (substr($text[0], 0, 1) eq "#")
+		{
+			shift(@text);
+		}
+		
+		# currently, both @text and @code have been forwarded to have the text as the next line
+		# also the type has been read. What's left now is to branch based on type and do the actual merge
+		
+		if ($type eq "SELECT")
+		{
+			$line = shift(@code);
+			$line = substr($line, 0, index($line, "#")) if index($line, "#") != -1;
+			
+			
+			my $index = index($line, "\"");
+			my $front_line = substr($line, 0, $index);
+			$front_line = substr($front_line, 0, index($front_line, ","));
+			print OUTPUT_FILE $front_line;
+			$line = substr($line, $index);
+			
+			while (index($line, "\"") != -1)
+			{
+				$line = substr($line, index($line, "\"")+1);
+				$line = substr($line, index($line, "\"")+1);
+				
+				my $answer = shift(@text);
+				die "Select answers can't contain \"\n" if index($answer, "\"") != -1;
+				die "Too few answers for select\n" if getType($answer) eq "BLANK";
+				print OUTPUT_FILE ",\"";
+				print OUTPUT_FILE $answer;
+				print OUTPUT_FILE "\"";
+				
+			}
+			print OUTPUT_FILE $CLRF;
+		}
+		elsif ($type eq "SPEAKER")
+		{
+			my $speaker_line = shift(@code);
+			my $speaker = substr($speaker_line, 2);
+			my $voice = undef;
+			
+			($speaker, $voice) = split(",", $speaker);
+			
+			$speaker = $name_translation{$speaker};
+			
+			$speaker_line = $speaker_add . $speaker;
+			$speaker_line .= ("," . $voice) if defined $voice;
+			
+			# print the speaker line
+			print OUTPUT_FILE $speaker_line;
+			print OUTPUT_FILE $CLRF;
+			
+			# handle the actual text
+			my $translated_text = shift(@text);
+			foreach (splitLine($speaker_line, toWideChar($translated_text)))
+			{
+				print OUTPUT_FILE $_;
+				print OUTPUT_FILE $CLRF;
+			}
+		}
+		elsif ($type eq "TEXT")
+		{
+			my $translated_text = shift(@text);
+			foreach (splitLine("", toWideChar($translated_text)))
+			{
+				print OUTPUT_FILE $_;
+				print OUTPUT_FILE $CLRF;
+			}
+		}
+		else
+		{
+			die ("Type " . $type . " unknown\n");
+		}
+	}
+	
+	
+	close OUTPUT_FILE;
+}
+
+
+sub StartMerge
+{
+	chdir("..");
+	
+	ConvertNamesToWide();
+    
+	my $source_text_dir = $text_dir;
+	my $source_code_dir = $code_script_dir;
+    my $dest_dir        = "musume/scripts";
+	my $version         = "ORIGINAL";
+	
+    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    #foreach (readFile("original/scripts.ini"))
+    {
+        if (substr($_, 0, 7) eq "scripts")
+        {
+            my $file = substr($_, 8);
+            $file =~ s/\\/\//g;
+            MergeFile($file, $source_text_dir, $source_code_dir, $dest_dir, $version);
+        }
+    }
+}
+
 if ($#ARGV >= 0)
 {
     if ($ARGV[0] eq "build")
@@ -2502,6 +2659,11 @@ if ($#ARGV >= 0)
 	{
 		# updates the line, which tells which will be used in the translation
 		StartTranslateNames
+	}
+	elsif ($ARGV[0] eq "merge")
+	{
+		# merge files into playable files
+		StartMerge
 	}
     else
     {
