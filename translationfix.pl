@@ -157,6 +157,11 @@ if ($split_lines == 1)
 	$to_wide_char = 1
 }
 
+# debug code
+my @loop_files = ();
+#@loop_files = ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt");
+@loop_files = ("scripts\\status\\karin_kenkou.txt");
+
 # move to the correct working directory
 chdir "scripts";
 
@@ -2160,6 +2165,8 @@ sub BuildFile
     my $target = shift;
 	my $file = shift;
 	my $source = shift;
+	
+	print "Build files: " . $file . "\n";
 
 	my $source_file = $source . "/" . $file;
 
@@ -2268,10 +2275,18 @@ sub StartBuild
 	my $source = shift;
 
 	chdir("..");
+	
+	die "ERROR: missing source dir in arguments\n" if not defined $source;
+	die "ERROR: source dir not found\n" if not -e $source;
+	
+	
     mkdir $text_dir unless (-e $text_dir);
+	
+	@loop_files = readFile("original/scripts.ini") if !@loop_files;
     
-    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    #foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
     #foreach (readFile($source . "/scripts.ini"))
+	foreach (@loop_files)
     {
         if (substr($_, 0, 7) eq "scripts")
         {
@@ -2285,6 +2300,8 @@ sub StartBuild
 sub InsertFile
 {
 	my $file = shift;
+	
+	print "Inserting files: " . $file . "\n";
 	
 	my $code_file = $code_script_dir . "/" . $file;
 	
@@ -2352,6 +2369,7 @@ sub InsertFile
 				while (1)
 				{
 					my $local_line = shift(@scriptFile);
+					die "ERROR: undefined line\n" if not defined $local_line;
 					push(@codeFile, $local_line);
 					last if substr($local_line, 0, 2) eq $speaker_add;
 				}
@@ -2362,6 +2380,7 @@ sub InsertFile
 				while (1)
 				{
 					my $local_line = shift(@scriptFile);
+					push(@codeFile, $local_line);
 					last if substr($local_line, 0, 16) eq "#SCRIPT ORIGINAL";
 				}
 				
@@ -2378,6 +2397,8 @@ sub InsertFile
 				while (1)
 				{
 					my $temp_line = pop(@codeFile);
+					die "undefined input\n" if not defined $temp_line;
+					
 					next if substr($temp_line, 0, 1) eq "#";
 					push(@codeFile, $temp_line);
 					last;
@@ -2425,9 +2446,12 @@ sub StartInsert
 	chdir("..");
     mkdir $text_dir unless (-e $text_dir);
 	mkdir $code_script_dir unless (-e $code_script_dir);
+	
+	@loop_files = readFile("original/scripts.ini") if !@loop_files;
     
-    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    #foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
     #foreach (readFile("original/scripts.ini"))
+	foreach (@loop_files)
     {
         if (substr($_, 0, 7) eq "scripts")
         {
@@ -2441,6 +2465,8 @@ sub StartInsert
 sub TranslateNames
 {
 	my $file = shift;
+	
+	print "Translate name files: " . $file . "\n";
 
 	my @textFile = readFile($file);
 	
@@ -2479,9 +2505,12 @@ sub TranslateNames
 sub StartTranslateNames
 {
 	chdir("../" . $text_dir);
+	
+	@loop_files = readFile("original/scripts.ini") if !@loop_files;
     
-    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+    #foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
     #foreach (readFile("original/scripts.ini"))
+	foreach (@loop_files)
     {
         if (substr($_, 0, 7) eq "scripts")
         {
@@ -2629,8 +2658,11 @@ sub StartMerge
     my $dest_dir        = "musume/scripts";
 	my $version         = "ORIGINAL";
 	
-    foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
+	@loop_files = readFile("original/scripts.ini") if !@loop_files;
+	
+    #foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
     #foreach (readFile("original/scripts.ini"))
+	foreach (@loop_files)
     {
         if (substr($_, 0, 7) eq "scripts")
         {
