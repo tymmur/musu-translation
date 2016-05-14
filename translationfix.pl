@@ -160,7 +160,7 @@ if ($split_lines == 1)
 # debug code
 my @loop_files = ();
 #@loop_files = ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt");
-@loop_files = ("scripts\\status\\karin_kenkou.txt");
+#@loop_files = ("scripts\\main.txt");
 
 # move to the correct working directory
 chdir "scripts";
@@ -178,6 +178,8 @@ my $period = sprintf("%c%c", 0x81, 0x44);
 my $comma = sprintf("%c%c", 0x81, 0x43);
 my $question_mark = sprintf("%c%c", 0x81, 0x48);
 my $explanation_mark = sprintf("%c%c", 0x81, 0x49);
+my $odd_bracket_start = sprintf("%c%c", 0x81, 0x79);
+my $black_dot = sprintf("%c%c", 0x81, 0xA1);
 
 my @file_list;
 
@@ -611,28 +613,40 @@ sub getType
 	
 	die "undefined input for getType\n" if not defined $line;
 
+	# first simple test
 	if (length $line == 0)
 	{
 		return "BLANK";
 	}
-	if (substr($line, 0, 1) eq "#")
+	
+	my $char1 = substr($line, 0, 1);
+	
+	if ($char1 eq "#")
 	{
 		return "COMMENT";
 	}
-	if (substr($line, 0, 1) eq "@")
+	if ($char1 eq "@")
 	{
 		return "COMMAND";
 	}
-	if (substr($line, 0, 2) eq $speaker_add)
+	
+	my $char2 = substr($line, 0, 2);
+	
+	if ($char2 eq $speaker_add)
 	{
 		return "SPEAKER";
 	}
 	
-	my $value = ord(substr($line, 0, 1));
+	my $value = ord($char1);
 	
 	if ($value >= 33 and $value <= 126)
 	{
 		return "TEXT";
+	}
+	if ($char2 eq $odd_bracket_start or $char2 eq $black_dot)
+	{
+		# a bit of a hack, but lets get rid of this thing. It keeps causing problems and is ignored by the game engine
+		return "COMMENT";
 	}
 	if ($value >= 0x80)
 	{
@@ -2325,7 +2339,8 @@ sub InsertFile
 		{
 			my $index_line = $line;
 		
-			#my @block = ();
+			my $voice = "";
+			
 			while (substr($line, 0, 6) ne "##TYPE")
 			{
 				$line = shift(@textFile);
@@ -2345,9 +2360,10 @@ sub InsertFile
 				while (1)
 				{
 					$line = shift(@scriptFile);
+					die ("ERROR: Line not found\n" . $index_line . "\n") if not defined $line;
 					push(@codeFile, $line);
 					next if substr($line, 0, 1) eq "#";
-					next if index($line, $select_line);
+					next if index($line, $select_line) == -1;
 					last;
 				}
 				
@@ -2357,9 +2373,18 @@ sub InsertFile
 				push(@codeFile, substr($temp_line, 17));
 				
 				my @options = split "\"", $line;
+				
+				# only every second iteration in the loop is an actual answer
+				my $skip = 1;
 				foreach (@options)
 				{
-					next if index($_, ",") != -1;
+						if ($skip)
+						{
+							$skip = 0;
+							next;
+						}
+				
+					$skip = 1;
 					print OUTPUT_FILE $_;
 					print OUTPUT_FILE $CLRF;
 				}
@@ -2373,15 +2398,22 @@ sub InsertFile
 					push(@codeFile, $local_line);
 					last if substr($local_line, 0, 2) eq $speaker_add;
 				}
-				pop(@codeFile);
+				my $speaker_line = pop(@codeFile);
+				$voice = substr($speaker_line, index($speaker_line, ",")+1) if index($speaker_line, ",") != -1;
 			}
 			elsif ($type eq "TEXT")
 			{
+				my $next_line = shift(@textFile);
+				print OUTPUT_FILE $next_line;
+				print OUTPUT_FILE $CLRF;
+				my $compare_line = "#SCRIPT ORIGINAL " . substr($next_line, 1);
+				
 				while (1)
 				{
 					my $local_line = shift(@scriptFile);
+					die if not defined $local_line;
 					push(@codeFile, $local_line);
-					last if substr($local_line, 0, 16) eq "#SCRIPT ORIGINAL";
+					last if $local_line eq $compare_line;
 				}
 				
 			}
@@ -2405,13 +2437,20 @@ sub InsertFile
 				}
 				push(@codeFile, $index_line);
 			
+				my $text_voice = "";
+			
 				while (substr($textFile[0], 0, 1) eq "#")
 				{
 					$line = shift(@textFile);
 					print OUTPUT_FILE $line;
 					print OUTPUT_FILE $CLRF;
 					
-					push(@codeFile, substr($line, 1)) if substr($line, 0, 3) eq ("#" . $speaker_add);
+					if (substr($line, 0, 3) eq ("#" . $speaker_add))
+					{
+						push(@codeFile, substr($line, 1));
+						
+						$text_voice = substr($line, index($line, ",")+1) if index($line, ",") != -1;
+					}
 				}
 			
 				while (getType($scriptFile[0]) eq "KANJI" or getType($scriptFile[0]) eq "TEXT")
@@ -2420,6 +2459,7 @@ sub InsertFile
 					print OUTPUT_FILE $local_line;
 					print OUTPUT_FILE $CLRF;
 				}
+				die ("Voice mismatch\nText voice: " . $text_voice . "\nCode voice: " . $voice . "\nType: " . $type . "\n") if $text_voice ne $voice;
 			}
 		}
 	}
@@ -2506,7 +2546,7 @@ sub StartTranslateNames
 {
 	chdir("../" . $text_dir);
 	
-	@loop_files = readFile("original/scripts.ini") if !@loop_files;
+	@loop_files = readFile("../original/scripts.ini") if !@loop_files;
     
     #foreach ("scripts\\prologue\\youzyo.txt", "scripts\\training\\training_mikan_02.txt")
     #foreach (readFile("original/scripts.ini"))

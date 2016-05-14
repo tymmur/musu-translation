@@ -1443,7 +1443,7 @@ bgm_stop
 #（１．どうにかしてやりたい）
 #（２．まあ仕方ないか）
 #SCRIPT ORIGINAL select sel,"どうにかしてやりたい","まあ仕方ないか"
-select sel, "I want to help her","Well, what can you do?"
+select sel,"I want to help her","Well, what can you do?"
 if sel=0 then goto suika7_q01_a
 if sel=1 then goto suika7_q01_b
 #--------------------------------------------------
