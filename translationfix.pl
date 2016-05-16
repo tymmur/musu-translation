@@ -2403,9 +2403,7 @@ sub InsertFile
 			}
 			elsif ($type eq "TEXT")
 			{
-				my $next_line = shift(@textFile);
-				print OUTPUT_FILE $next_line;
-				print OUTPUT_FILE $CLRF;
+				my $next_line = $textFile[0];
 				my $compare_line = "#SCRIPT ORIGINAL " . substr($next_line, 1);
 				
 				while (1)
@@ -2439,17 +2437,22 @@ sub InsertFile
 			
 				my $text_voice = "";
 			
+				# loop though all comments
 				while (substr($textFile[0], 0, 1) eq "#")
 				{
 					$line = shift(@textFile);
 					print OUTPUT_FILE $line;
 					print OUTPUT_FILE $CLRF;
 					
-					if (substr($line, 0, 3) eq ("#" . $speaker_add))
+					# print all lines not starting with ##
+					# lines starting with a single # is the original text
+					if (substr($line, 0, 2) ne "##")
 					{
 						push(@codeFile, substr($line, 1));
-						
-						$text_voice = substr($line, index($line, ",")+1) if index($line, ",") != -1;
+						if (substr($line, 0, 3) eq ("#" . $speaker_add))
+						{
+							$text_voice = substr($line, index($line, ",")+1) if index($line, ",") != -1;
+						}
 					}
 				}
 			
@@ -2612,6 +2615,9 @@ sub MergeFile
 			shift(@text);
 		}
 		
+		# placeholder for the speaker. Needs to be outside the if statements because it's set in one and used in a later one.
+		my $speaker_line = "";
+		
 		# currently, both @text and @code have been forwarded to have the text as the next line
 		# also the type has been read. What's left now is to branch based on type and do the actual merge
 		
@@ -2644,7 +2650,7 @@ sub MergeFile
 		}
 		elsif ($type eq "SPEAKER")
 		{
-			my $speaker_line = shift(@code);
+			$speaker_line = shift(@code);
 			my $speaker = substr($speaker_line, 2);
 			my $voice = undef;
 			
@@ -2658,27 +2664,34 @@ sub MergeFile
 			# print the speaker line
 			print OUTPUT_FILE $speaker_line;
 			print OUTPUT_FILE $CLRF;
-			
-			# handle the actual text
-			my $translated_text = shift(@text);
-			foreach (splitLine($speaker_line, toWideChar($translated_text)))
-			{
-				print OUTPUT_FILE $_;
-				print OUTPUT_FILE $CLRF;
-			}
 		}
 		elsif ($type eq "TEXT")
 		{
-			my $translated_text = shift(@text);
-			foreach (splitLine("", toWideChar($translated_text)))
-			{
-				print OUTPUT_FILE $_;
-				print OUTPUT_FILE $CLRF;
-			}
+			# Do nothing. Text is handled later
 		}
 		else
 		{
 			die ("Type " . $type . " unknown\n");
+		}
+		
+		if ($type eq "TEXT" or $type eq "SPEAKER")
+		{
+			my $translated_text = shift(@text);
+			if ($translated_text ne $code[0])
+			{
+				# the first line is changed, meaning there is a translation.
+				# convert to widechar
+				foreach (splitLine($speaker_line, toWideChar($translated_text)))
+				{
+					print OUTPUT_FILE $_;
+					print OUTPUT_FILE $CLRF;
+				}
+				# skip past the original text from @code to prevent it from being written to OUTPUT_FILE
+				while (exists $code[0] and getType($code[0]) ne "BLANK")
+				{
+					shift @code;
+				}
+			}
 		}
 	}
 	
