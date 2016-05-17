@@ -233,6 +233,7 @@ sub ConvertNamesToWide
 	foreach my $key (keys %name_translation)
 	{
 		$name_translation{$key} = toWideChar($name_translation{$key});
+		$name_translation{$key} = $key if $name_translation{$key} eq "";
 	}
 }
 
@@ -2395,6 +2396,7 @@ sub InsertFile
 				{
 					my $local_line = shift(@scriptFile);
 					die "ERROR: undefined line\n" if not defined $local_line;
+					next if (substr($local_line, 0, 16) eq "#SCRIPT ORIGINAL");
 					push(@codeFile, $local_line);
 					last if substr($local_line, 0, 2) eq $speaker_add;
 				}
@@ -2410,8 +2412,8 @@ sub InsertFile
 				{
 					my $local_line = shift(@scriptFile);
 					die if not defined $local_line;
-					push(@codeFile, $local_line);
 					last if $local_line eq $compare_line;
+					push(@codeFile, $local_line);
 				}
 				
 			}
@@ -2421,6 +2423,7 @@ sub InsertFile
 				while (getType($scriptFile[0]) ne "KANJI" and getType($scriptFile[0]) ne "TEXT")
 				{
 					my $local_line = shift(@scriptFile);
+					next if (substr($local_line, 0, 16) eq "#SCRIPT ORIGINAL");
 					push(@codeFile, $local_line);
 
 				}
@@ -2470,6 +2473,7 @@ sub InsertFile
 	while (exists $scriptFile[0])
 	{
 		my $local_line = shift(@scriptFile);
+		next if (substr($local_line, 0, 16) eq "#SCRIPT ORIGINAL");
 		push(@codeFile, $local_line);
 	}
 	
