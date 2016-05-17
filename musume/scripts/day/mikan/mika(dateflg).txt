@@ -12,28 +12,18 @@ bgm_stop
 #■BG（自室）
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん……っと。こんなもんかな」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 子供達の平日のスケジュールを見直す。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 学校を休ませることも少なくないため、そのバランスは考えなければならない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「う～ん……いや、けどなぁ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「学校は大事だけど、これじゃちょっと休息が少ない気もするか……？」
 
@@ -41,13 +31,9 @@ bgm_stop
 @SE11			#SE11　部屋のドアをノック（コンコン）
 #CH（立ち絵なし）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01381
 「樹さん、失礼してよろしいですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうぞ」
 
@@ -66,230 +52,144 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01382
 「お仕事お疲れさまです、樹さん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 シャリオにティーセットを用意した美雨が、軽く会釈して入ってきた。
 
 layer_movepass_init	l_miu,0	#演出初期化
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01383
 「どうぞ。もうずいぶん部屋で作業されているようでしたから」
 
 #SE35　ティーカップを置く音（カチャ）
 @SE35			#ティーカップを置く音（カチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ありがとう………あれ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 時計を見て軽く驚く。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「気付かなかった。こんなに時間過ぎてたのか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01384
 「ふふ。熱心なのは結構なことですけど、無理はしないでくださいね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレの手元の紙に視線を向ける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01385
 「みかんちゃんの平日スケジュールですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「具体的な内容じゃないけど、仕事と休息のバランスをね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……他の子のもするつもりだったのに、みかんの分で時間を取りすぎたな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ぶっちゃけ、まだみかんの分しか終わっていない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それもまだ修正の余地があるかもと悩んでいるところだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「う～ん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01386
 「気にかけてくださっているんですね、みかんちゃんのこと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01387
 「そのおかげで、もう半年、ほとんど体調も崩さず過ごせているようですから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「可能な限り無理はさせたくないよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それがオレの仕事でもあり、本意とも一致してるから懸命になってるだけさ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01388
 「そういえば、最近特に、みかんちゃんとは仲がいいようですね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 楽しそうに微笑んで、
 
 @miu_niko		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01389
 「まるで本当の兄妹みたい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……兄妹か」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 曖昧にうなずちを返しながら、カップに口をつける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 確かに最近、以前よりみかんと一緒にいることが多いような気はする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「けどどうだろう。兄妹は違うかな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ズズズズ……
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01390
 「では、恋人同士でしょうか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ングッ！？　げほっ、げほげほッ！！」
 
 @miu_komaru		#閉_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01391
 「きゃっ！　だ、大丈夫ですか樹さんっ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 おっとりしたその一言に、紅茶が思いっきり気管に流れて咽た。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「げほッ……こ、恋人って………相手はみかんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「年も離れてるし、それ以前に色々と……」
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01392
 「お付き合いする相手に、年の差は関係ありませんよ。気持ちだけです」
 
 @miu_komaru		#閉_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01393
 「兄妹がしっくりこなさそうでしたので、てっきり樹さん自身もそう思われてるのかと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや……性的に色々としてる今さら、兄妹っていうのはマズイだろうって意味で……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「気持ちって言う意味なら、兄妹で十分合ってると思うよ………ごほっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何とか落ち着く。熱々だったらヤケドしてるところだ。
 
 @miu_kanashimi		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01394
 「それは残念です。まんざらでもなさそうに見えたのですが」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01395
 「みかんちゃんは可愛いですし、彼氏になられる方はとても羨ましいと思いますけど？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ははは……とりあえず、成長が楽しみってことで……」
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……っと。良いタイミング。はい、どうぞ」
 
 @miu_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 逃げ場が狭まったところで、ノックに話題を中断してもらえた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが、
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -299,78 +199,50 @@ wait		1000
 @mikan_shifuku
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01179
 「お兄ちゃん、今お話大丈夫？」
 
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ぐッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01396
 「あら、みかんちゃん。いらっしゃい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一番絶妙なタイミングで入ってきたみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01180
 「あ、お仕事中？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや………仕事中ではないけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01397
 「うふふ、今ちょうどみかんちゃんのことを話してたのよ」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01181
 「え？　みかんのこと？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちょっ、美雨……！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01398
 「樹さんとみかんちゃん、仲が良くて羨ましいって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「別にわざわざ言わなくてもっ……」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01182
 「………？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一瞬きょとんとするみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが次の瞬間には、予想どおり笑顔をはじけさせた。
 
 @mikan_warai		#笑
@@ -382,52 +254,34 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01183
 「うんッ、仲良しだよ！　みかん、お兄ちゃんのこと大好きだもん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うぐッ……そ、そうか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……落ち着けオレ。みかんが言ってるのは『仲良し』感覚での好意だ。
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01184
 「お兄ちゃんは、みかんのこと好きじゃないの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、まぁ……もちろん嫌いじゃないさ」
 
 #CH（みかん立ち絵・悲しそう）
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01185
 「………（しゅーん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01186
 「みかんは大好きなのに……お兄ちゃんは嫌いじゃないだけなの…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あー、あぁ、言い間違いだ。好きだよオレも、みかんのこと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だからそんな落ち込んだ顔するな……」
 
@@ -441,8 +295,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01187
 「えへへ…♪　うんっ！」
 
@@ -451,24 +303,16 @@ layer_movepass_init	l_mikan,0	#演出初期化
 #CH（美雨立ち絵・笑顔or微笑み）
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 嬉しそうに頷くみかんを見て、美雨も自分の事のように微笑んでいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01399
 「それでは、私はこれで失礼します」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01400
 「紅茶、みかんちゃんの分もここに淹れておくわね」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01188
 「ありがとう、美雨さんっ」
 
@@ -479,15 +323,11 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……で、えっと、何か用事があって来たんじゃなかったのかい？」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01189
 「あっ、そうだった」
 
@@ -498,92 +338,60 @@ wait		1000
 @mikan_shifuku
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01190
 「えっとね、今週の日曜日、お兄ちゃん時間空いてるかな？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、特別な予定はないよ」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01191
 「ほんとっ？　だったら、一緒にボートに乗りに行こうよっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ボート？」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01192
 「うん！　新しく出来たってクラスの子が言ってたの」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01193
 「この前、花火大会した堤防があるでしょ？　その反対側の池になってるところだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01194
 「これも秋の間だけのイベントだから、冬には終わっちゃうんだって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「へぇ、あそこでボートね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 堤防の反対側は、池ではないがダムになっている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 散歩のときに目にしているが、水も綺麗で、ボートで遊ぶにはちょうど良さそうな場所だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いいんじゃないか。けど、オレと？」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01195
 「だって、みかん達だけで行ったら危ないって怒るでしょ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それはなるほど、確かに。
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01196
 「それじゃ約束ね、お兄ちゃん！　花火のときみたいに寝坊しないでよ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「分かってる、二度も同じことはしないさ」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01197
 「ん♪　じゃあ、日曜日にね」
 
@@ -594,17 +402,11 @@ wait		1000
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 用件を終えると、早々に廊下へ出ようとする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ちょっと様子が不自然な気がした。
 
 #CH（みかん立ち絵・表情照れ）
@@ -612,41 +414,27 @@ wait		1000
 @mikan_shifuku
 @mikan_tere		#照れ（欲情_喜を兼用？）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01198
 「あ、それとね……えっと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 出る直前に立ち止まって振り返った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01199
 「かりんちゃんとか他のみんなには言ってないから、お兄ちゃんと二人なんだけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？　ああ、そうだな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「確かにボートじゃ大人数は無理だし。別れて乗っても同伴の意味はないもんな」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01200
 「うん、だよね」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01201
 「それじゃ、日曜日は二人で行こ♪　お兄ちゃんもみんなには内緒にしててね」
 
@@ -657,17 +445,11 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 晴れたような笑顔を残し、今度こそ出て行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……？　やっぱ何か、笑顔が不自然っぽかったけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一緒に出かけるなんて、別に今さらなのにな。
 
 @bg_black

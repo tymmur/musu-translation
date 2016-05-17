@@ -10,12 +10,8 @@ label	hikari_24
 @bg_itsuki		# 自室
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この前の調査書のこと、今日はすいかに訊きに行こうか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すいかは直接何かあるわけじゃないけど、父さんのことで何か知ってるかもしれない」
 
@@ -25,51 +21,33 @@ wait		1000
 #@bg_rouka		# 廊下
 @bg_door		# ドア前
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋を出て、すいかの部屋の前までやってきた。
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すいか、中に居る？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……返事が無い。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 居ないのか？
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すいか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 おかしいな。微かに物音だか声だかはするんだけど。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……っと、すいかの場合はアレか」
 
 bgm_stop
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 事情を察したオレは、遠慮がちにドアを開けて中を覗いてみた。
 
 @bg_black
@@ -85,8 +63,6 @@ event		"event\EV_SUI_040-01.png"
 @bgmk05			#BGM K05 : 選択時のテーマ? テクノ風
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00363
 「うわわわッ！？　や、ダメッ、やられちゃう！」
 
@@ -94,62 +70,40 @@ event		"event\EV_SUI_040-01.png"
 event		"event\EV_SUI_040-00.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00364
 「えいッ、てあ！　きゃッ……やだやだ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……やっぱり」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 周りの何も見えない状態で、ゲーム画面にかじりついていた。
 
 #--------------------------------------------------
 event		"event\EV_SUI_040-01.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00365
 「だ、ダメッ、そんなにしたら！　あッ、あぁッ……んん！　強すぎるっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00366
 「そんな、私ばっかり当たってっ……あぅ！　ああっ……そんなに動かないでぇ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ちなみに対戦格闘ゲームだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 台詞がどこと無くエロいのも相変わらずで。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00367
 「そんなっ、もう溜まってッ……くぅ！　んん！　また出そうになってるぅッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00368
 「ダメ、出さないでぇッ！　死んじゃうッ……ああッ、うぅうッ、そんなにされたら死んじゃうぅッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00369
 「ふぁあッ！　ああぁぁああぁあ～～～～ッッ！！」
 
 bgm_stop
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気力を〝溜めた〟敵に必殺技を〝出さ〟れ、すいかの操作キャラは逝ってしまった。
 
 #■BG（すいかの部屋）
@@ -157,8 +111,6 @@ bgm_stop
 event		"event\EV_SUI_040-05.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「相変わらずの熱中だな、すいか」
 
@@ -167,8 +119,6 @@ event		"event\EV_SUI_040-05.png"
 event		"event\EV_SUI_040-03.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00370
 「えっ……？」
 
@@ -177,22 +127,16 @@ event		"event\EV_SUI_040-04.png"
 screen_vibration	500,16,16,16
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00371
 「きゃあッ！？　い、院長先生、いつからそこにっ！？」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 声を掛けて、ようやく部屋の中のオレの存在に気付いた。
 
 @bg_suika		# すいかの部屋
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「少し前からだな。ノックはしたんだが……勝手に入って悪かった」
 
@@ -207,44 +151,30 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00372
 「あ、こっちこそ気付かなくてすみませんっ。熱中してしまってて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは、せっかくの休息日なんだから、それくらい夢中で遊んでなくちゃ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………負けたみたいだけど、今回はどんなハンデで？」
 
 @suika_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00373
 「はい、敵のステータスが２倍、ライフが３倍で。こっちはデフォルトの半分で戦ってました」
 
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00374
 「もうちょっとで勝てそうだったんですけど………まだまだです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いやいや……十分すぎるって」
 
 @suika_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00375
 「あそこで……！　あそこでタイミングがずれなければ……コンボも回避出来たんですっ」
 
@@ -257,31 +187,21 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00376
 「はぁ……ガードか投げ返すかで、私が一瞬躊躇したばっかりに……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とりあえずゲームだし……。神経を削らない程度に、気楽にな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00377
 「はい……」
 
 bgm_stop
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00378
 「あ、ところで、私に何かご用でしたか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「少し父さんの………前の院長のことを聞きたかったんだけど」
 
@@ -294,107 +214,71 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00379
 「あ、はい……どんな事でしょう？」
 
 @bgm06			#BGM 06 : 不安のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「その人が死んだのは、オレがここに来るちょっと前の出来事だよな？」
 
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00380
 「そう、ですね。前の院長先生が亡くなられたので、樹先生が継がれたって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 死に触れた話題に、少しすいかの口調が沈む。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 当時からここにいるすいかは、その渦中の中にいたのだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今から二年以上前、父さんの身に何かあったような事って無いか？」
 
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00381
 「何か、というのは……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「様子がおかしいとか、変な事件みたいなのがあったとか」
 
 #@suika_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00382
 「ん、と……。特に記憶にはないですけど」
 
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00383
 「でも、昔のこと過ぎて、急には思い出せていないだけかも……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そっか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ急に二年以上も前のことを聞かれても、すぐには思い当たらないよな」
 
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00384
 「ただ、いつ頃なのかはハッキリ覚えてないですけど、ちょっと違和感を感じた時期はありました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「違和感……？」
 
 #@suika_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00385
 「お話をする時の様子とか、やりとりとか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00386
 「この前まで話していたことなのに、急に話が合わなくなったり」
 
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00387
 「あとは、その………調教をされるときのやり方とか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そう。具体的には？」
 
@@ -407,45 +291,27 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00388
 「えッ……ぐ、具体的、って。調教の内容をですか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あっ…いや、悪い。何でもないから気にしないでくれ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 赤くなったすいかを見て、オレも慌てて言葉を取り下げる。
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しかし、様子が変わったと言うのはキーポイントだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 思えば父さんの自殺もそう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それに酒やギャンブルに狂っていたなど、様子が変わったと表現してもいいことだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 つまり、その当時に何かがあった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （しかし……書類上ではハッキリ『死去』とあった）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （様子がおかしいって言うのは、生きてるってことだから。話が合わないな……）
 
@@ -454,30 +320,20 @@ layer_movepass_play	l_suika,0,play_once
 @suika_kanashimi	#哀
 @bg_suika		# すいかの部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00389
 「すみません、それくらいしかお役に立てなくて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、こっちこそ。急に変なこと聞いてごめんな」
 
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00390
 「あとは、そうですね……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00391
 「そのくらいの時期に一度、私たちに部屋での待機命令が出たことがあるくらいです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……待機命令？」
 
@@ -489,82 +345,54 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00392
 「はい。美雨さんと雫さんから、絶対に部屋から外に出たらいけないって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……それは、何で？　調教の一種？」
 
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00393
 「えっと、さぁ……詳しくは」
 
 @suika_komariwarai	#困笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00394
 「あはは……私はそのとき、ずっと部屋の中でゲームに熱中してましたから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……なるほど。何かあっても気付かない可能性が高いわけか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレがここに来てからは、そんな出来事はなかったよな」
 
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00395
 「そうですね。それ以前も、あの時の一回だけでしたよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふ～ん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ調査に直接関係あるかどうかは分からないけど、気には留めて置こう。
 
 bgm_stop
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00396
 「他には、何かありますか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いいや、それだけだ。悪かったな、変なこと訊いて」
 
 @suika_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00397
 「いえ。何だか推理ゲームの事情聴取みたいで楽しかったです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ははっ、なら今度は、オレの方がすいかのゲームに付き合おうか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっきからすいかが期待を含んだ目で、チラチラとオレとゲーム画面を交互に見ていた。
 
 @suika_odoroki		#驚
@@ -576,13 +404,9 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00398
 「いいんですかっ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すいかの実力には遠く及ばないけどな」
 
@@ -595,15 +419,11 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00399
 「そんなことはないですっ。やっぱりゲームは対戦ですよ♪」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 満面の笑顔のすいかと、ゲームを前に並び座った。
 
 #--------------------------------------------------
@@ -612,56 +432,38 @@ event		"event\EV_SUI_040-02.png"
 @bgmk12			#BGM K12 : 興味津々のテーマ
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00400
 「ハンデはどうしましょう？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ここは男らしく、同じ条件で勝負だ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00401
 「はいっ、わかりました♪」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう言うと嬉しそうに、別のコントローラーに差し替えるすいか。
 
 #--------------------------------------------------
 event		"event\EV_SUI_041-02.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00402
 「このコントローラー、ボタンが効き難いんですよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00403
 「あはは♪　これで院長先生と完全に対等な条件です」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……そう。そんなのでやってたんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どこかのアニメの、重い胴着を着て戦ってるキャラを思い出した。
 
 #■EVCG（EV_SUI_040-07）
 bgm_stop
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ――ゲーム開始。
 
 #--------------------------------------------------
@@ -669,57 +471,37 @@ event		"event\EV_SUI_041-05.png"
 @bgmk05			#BGM K05 : 選択時のテーマ? テクノ風
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いきなり間合いを詰めて来たすいかのキャラに、オレのキャラが浮かされる。
 
 #--------------------------------------------------
 event		"event\EV_SUI_041-02.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00404
 「あ、すごく動かしやすい～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ドガガガガガガッ！！　ドガッ！　ドガガッ！！
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00405
 「～～♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『ＦＩＮＩＳＨ！！！』
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『１Ｐ　ＷＩＮ！！』
 
 #--------------------------------------------------
 event		"event\EV_SUI_041-05.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00406
 「ん～、ちょっと効きすぎるかなぁ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おおぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一瞬でエリアルが連続され、地に足が着く事無くやられてしまった。
 
 bgm_stop
@@ -729,20 +511,12 @@ wait		1000
 #@bg_black
 @bg_gate		# 孤児院前
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……それからの試合、結果はオレの、１５戦１勝１４敗。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 １勝はたぶん勝たせてくれたのだろうが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁでもすいかが楽しそうだったから良しとしよう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （でも……やっぱりちょっと悔しい）
 

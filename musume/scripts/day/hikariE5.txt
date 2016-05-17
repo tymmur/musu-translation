@@ -9,68 +9,44 @@ label	hikari_e05
 #■BG（商店街）
 @bg_syoutengai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 晴天の陽気に誘われて、商店街の方へ出てきていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ジッと家に居ても身体がなまるからな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この前もまったく同じことを呟いていた気がするが、まぁ事実なので仕方ない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一応日用品くらいは買っておこうと思ってきたのだが、
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （確か前はこの辺で……）
 
 #SE33　外で走ってくる音
 @se33
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00119
 「お兄しゃ～～んッ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 予感どおり、ひかりが元気な声でオレを呼びながら走ってくる。
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00120
 「お兄しゃんッ、見つけた～」
 
 layer_scale	l_hikari,1000,0,0,100,100,passtype_tcb
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そのまま何事も無く、ひかりがオレに追いついてきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おお、今日は何にもぶつからずに………って」
 
 @hikari2_odoroki
 layer_scale	l_hikari,1000,100,100,200,200,passtype_tcb
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00121
 「わ～！？　走りしゅぎたッ、止まららいのぉ！」
 
@@ -80,121 +56,77 @@ layer_scale	l_hikari,1000,100,100,200,200,passtype_tcb
 
 #EF　画面シェイク
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 と思ったら、オレにぶつかってきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00122
 「むきゅぅっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……そうきたか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「大丈夫か、ひかりちゃん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 「ぷはぁっ」と、衝突して収まった腕の中から顔を上げるひかり。
 
 @hikari_large
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00123
 「うん！　看板とかより痛くないから、平気なの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁそういう意味では、ぶつかったのがオレでよかったな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00124
 「えへへ。お兄しゃん、おっきくて硬いの～♪」
 
 @hikari_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 嬉しそうに、今度は自主的にしがみ付いてきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……身体つきのことな。今のは」
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00125
 「へぇ……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誤解しそうな言葉だったので、一応説明しておく。
 
 @hikari2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00126
 「今日もひーちゃん探検中なの。お兄しゃん、一緒に行こ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今日もか。そんなにこの町って新鮮味があるか？」
 
 @hikari2_gimon
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00127
 「……？　せんせんみ、って何？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、えっと。この町が面白いかい？」
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00128
 「うんっ、面白いの！　今日もね、ひーちゃんお小ぢゅかい貰っちゃった♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00129
 「あのね、前はしゅこしだったの。でも引っ越してからいっぱいくれて、ひーちゃんしゅごく楽しいの！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……それは町ではなく、単純に待遇が嬉しいだけのような。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00130
 「だからお兄しゃん、一緒に探検行こーよ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん～、まぁいいか。何かと心配だし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こうして、またひかりと商店街を巡る事になった。
 
 @bg_black
@@ -206,34 +138,22 @@ layer_scale	l_hikari,1000,100,100,200,200,passtype_tcb
 
 @hikari2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00131
 「今日はね、お小ぢゅかいがあるから買い物するの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何がほしいんだ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00132
 「えっとねぇ。甘いのか、楽しいのか、可愛いのがいいの！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふ、む……みごとに欲望に忠実な表現だ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いちごやみかんをもう少し幼くしたら、多分この子と同じような思考になるのだろう。
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00133
 「あッ！　あのお店、ヌイグゥミがたくしゃん並んでるのーッ♪」
 
@@ -241,101 +161,63 @@ layer_scale	l_hikari,1000,100,100,200,200,passtype_tcb
 #SE34　外で走り去る音
 @se34
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そして、興味の対象を見つけたら真っ直ぐそっちへ向かうところも。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「って、ストップ！　走ったら何かにぶつかるから、ひかりちゃんは」
 
 #SE05　物にぶつかる音（ガンッ！）
 @se05
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00134
 「えっ……？　ぴぎゃんッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 別の店の店頭ワゴンにぶつかっていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00135
 「うぅ～うっ……お兄しゃんが急に呼ぶかや、またぶちゅかったのぉ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……呼んでなくても、きっとぶつかったと思うぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 恨みがましい目で見るひかりを連れて、そのぬいぐるみのお店へ移動した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 店内を見てすぐ、ひかりは機嫌を直して笑顔になる。
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00136
 「可愛いーのっ、いっぱいあゆーッ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 所狭しと、棚やバスケットにぬいぐるみが並べられている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 種類もいろんなものを模っていて、動物、果物、乗り物、マスコット……
 
 @hikari2_gimon
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00137
 「お兄しゃん、これなぁに？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それはアザラシだな。確か何かのテレビのマスコットだったはずだ」
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00138
 「えへ、可愛いー♪　あっ、こっちのはなぁに？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それは有名なアニメ映画に出てきた、森の妖精だ。そっちの猫っぽいバスとセットだな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00139
 「二つとも欲しいー♪　あッ、あっちにも何かあゆよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 次々に興味を示しては、一つ一つを抱きしめて喜んでいる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 店の迷惑にならないかと思ったが、店員もそんなひかりを微笑ましそうに見ていた。
 
 @hikari2_gimon
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00140
 「……？　お兄しゃん、これってなぁに？」
 
@@ -343,209 +225,127 @@ layer_scale	l_hikari,1000,100,100,200,200,passtype_tcb
 #■カットインEVCG（こんな所で、ちよちゃんのお父さん）
 event	"event\CUTIN_04-00.png"
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん？　うおっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりが別のコーナーから、一つのぬいぐるみを持ってきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00141
 「動物しゃんのところにあったの。何ていう動物なの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その見慣れない形状の生き物に、ひかりは不思議そうだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それは………ネコだな。いや、違うか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00142
 「ふぇ？　ネコしゃん……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『マスコット』ではなく、『動物』の所にあったからそうなのか……？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いやそれ以前に、ここでそれが出てくる意図が分からない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00143
 「……ひーちゃん、こんなネコしゃん見たこと無いよ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すまん、嘘ついた……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とりあえずソレはもう戻して、ひかりは本当のネコを探してきなさい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00144
 「……？　はーい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 コメントし辛いな……
 
 #■カットイン終了
 @bg_syoutengai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｃｌｅｒｋ,V24009
 「いらっしゃい、お嬢ちゃん。パパとお買い物かな？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんなひかりとオレに、女性店員の一人が声をかけた。
 
 @hikari2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00145
 「ううん、お父しゃんじゃなくて、お兄しゃんなの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｃｌｅｒｋ,V24010
 「あ、あら、すみません。失礼な勘違いをしてしまって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いえ、構いませんよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 本当は兄でもないし。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｃｌｅｒｋ,V24011
 「お嬢ちゃん、どれか気に入ったのはあったかしら？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00146
 「んっとー……ん～、こえ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 側にあったコアラのぬいぐるみを指差すひかり。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……何かデジャビュが）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 店員は微笑むと、思ったとおりそれをひかりに差し出した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｃｌｅｒｋ,V24012
 「はい、お嬢ちゃんにプレゼントしてあげる」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えっ……」
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00147
 「わーいッ！　可愛いヌイグゥミなのーッ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりは思いがけないプレゼントを、無邪気に喜んで受け取った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、買いますよ。売り物でしょこれ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｃｌｅｒｋ,V24013
 「構いません。そうやって喜んでくれるのが嬉しいですし、店長も良いって言ってくれてますから」
 
 @hikari2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00148
 「えへへ～♪　あっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 嬉しそうにぬいぐるみを抱きしめていたひかりが、笑顔で顔を上げた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 デジャビュ――――『おばちゃん』
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひ、ひかり、ちゃんとお礼を言うんだぞ。店員の『お姉さん』に」
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00149
 「うん！　あいがとぉッ、お姉しゃん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｃｌｅｒｋ,V24014
 「いいえ、どういたしまして」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 間一髪……。もうあんな無意味に気まずい空気はごめんだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｃｌｅｒｋ,V24015
 「ぜひまたいらしてくださいね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ええ、それじゃ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00150
 「ばいばーい。お姉しゃん！」
 
 #■BG（黒）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 平和的に挨拶を交わして、オレとひかりは店を後にした。
 
 #■BG（商店街）
@@ -553,50 +353,32 @@ event	"event\CUTIN_04-00.png"
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00151
 「えへへ～、ヌイグゥミも貰えちゃった」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ……。何て気前のいい商店街だ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 始終上機嫌のひかりは、ぬいぐるみを抱いたまま歩いている。
 
 @hikari2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00152
 「でも、お小ぢゅかい使わなかったの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「次に欲しいものが出来るまで貯金してろ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……あの店にも今度、何か買いに行かないとなぁ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 借りだけがやたらと増えていく……
 
 @hikari2_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00153
 「新しいヌイグゥミ～～♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「喜ぶのはいいけど、あんまり抱えたら前が―――」
 
@@ -604,22 +386,14 @@ event	"event\CUTIN_04-00.png"
 #SE05　物にぶつかる音（ガンッ！）
 @se05
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00154
 「ひーちゃんの～―――ひぎゅんッ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっそく電信柱とゴッツンコしていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「見えないぞって言おうと思ったのに……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一人で無事帰れるのか。改めて不安だった。
 
 #（スケジュール）

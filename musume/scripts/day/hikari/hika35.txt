@@ -12,54 +12,32 @@ date_close
 #■BG（黒）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつもの眠りとは違う、どんよりと重い意識。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 息苦しい苦痛。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何かが、オレの手の中から遠ざかっていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （何だ……この心痛、辛さはッ……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この数ヶ月ずっと側で感じていた温かさが、静かに消えてなくなっていく。
 
 @bg_white		# 白
 @bgmk11			#BGM K11 : 夢のテーマ、その2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00651
 「お父しゃん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……この温もりは。ひかり？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00652
 「あははっ、お父しゃんっ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……ひかりの温もりが、消えていく……？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どうしてだ……。どこに行くんだ、ひかり……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00653
 「お父しゃん。ひーちゃんね、お父しゃんのこと大しゅきだよ！」
 
@@ -70,12 +48,8 @@ wait			3000
 @bg_black
 screen_blackin		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりッ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何で、こんなにも悲しいほど、お前の温もりが遠いッ……
 
 #--------------------------------------------------
@@ -93,8 +67,6 @@ wait			1000
 
 wait			2000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （―――ッ！！）
 
@@ -114,28 +86,18 @@ screen_blackin		1000
 wait			1000
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりッ！！」
 
 #CH（まだ立ち絵なし）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,A01920
 「ふわッ、わぁ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 記憶のフラッシュバックに、オレは深い意識の中から一気に身体を起こした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 同時に、すぐ側でその勢いに驚いた誰かが声を上げる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「こ、ここは………ひかりはッ！？」
 
@@ -144,20 +106,14 @@ wait			1000
 @hikari_shifuku
 @hikari_komaru		#困.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,A01921
 「はぁ、ビックリしたぁ……。急に起きて大丈夫？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ッ！？　ひかり！」
 
 @hikari			#普.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,A01922
 「え……？」
 
@@ -170,45 +126,29 @@ wait		100
 @mikan			#普通
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 徐々に頭が目覚めると、ひかりの幻影はすぐに消えて姿を変えていった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01923
 「えっと、ひーちゃん……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「違う、みかん、か……」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01924
 「う、うん。お兄ちゃんもしかして、みかんのこと分からないの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……いや、分かる。分かるよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 軽く首を振る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 たったそれだけで、頭痛と、全身にチリチリとした痛みが走った。
 
 #@mikan_yorokobi		#喜
@@ -222,20 +162,14 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01925
 「よかったぁ。お兄ちゃん、美雨さんと一緒に公園の事故に巻き込まれたんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「公園の事故……」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01926
 「ずっと起きなくて、みんな心配してかわりばんこで看病してたの」
 
@@ -248,18 +182,12 @@ layer_movepass_play	l_mikan,0,play_once
 #layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01927
 「でも、もう元気になったみたいでよかったぁ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうだッ、あの事故！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ようやく頭の中が、この現状を思い出した。
 
 window_close
@@ -270,8 +198,6 @@ wait			100
 @bg_black		# 黒
 screen_blackin		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかんッ、美雨は！？　ひかりはどうした！？」
 
@@ -289,21 +215,15 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01928
 「ひゃうッ…！　お、お兄ちゃんっ…そんなに掴んだら痛いよぉっ」
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02630
 「樹っ、もしかして起き――――ああッ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 思わず強くみかんに詰め寄ると、ちょうどやって来たかりんがそれを見て声を上げた。
 
 @bg_black
@@ -324,13 +244,9 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02631
 「ちょっと樹ッ、看病してくれてたみかんにいきなり何してるのよッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え、ああ、悪いみかんっ」
 
@@ -352,8 +268,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01929
 「うん、大丈夫……ちょっとビックリしたけど」
 
@@ -370,13 +284,9 @@ wait		1000
 @karin_keno		#嫌悪
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02632
 「まったく！　起きていきなり欲情してるってどういうことッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんなことより、美雨とひかりは！？　いるのか！」
 
@@ -391,41 +301,29 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01930
 「う、うん。美雨さんなら、もうお兄ちゃんより先に起きてるよ」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01931
 「でもひーちゃんは、お兄ちゃんたちと一緒じゃなかったから」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……じゃあ、やっぱり」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02633
 「あなたも酷かったけど、美雨の怪我も大変だったのよ」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02634
 「でもアレだけの事故でよく助かったって、警察の人も感心してたわ」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01932
 「かりんちゃん、お兄ちゃんが無事って聞いて泣いてたもんね」
 
@@ -438,20 +336,14 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02635
 「えっ、なッ……そ、そそッ、それは別に変な意味じゃなくてッ」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02636
 「えっと、そうッ……みかんとの仲の邪魔者が居なくなるチャンスだと思ってたのにってッ、それだけよ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは……そっか、二人ともありがとうな……」
 
@@ -467,27 +359,19 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02637
 「だ、だから違うって言ってるでしょーッ！　もう一回冥府の境をさ迷いたいのッ！？」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01933
 「みかん達だけじゃないよ。他のみんなも一緒だよ」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それで、美雨は今……」
 
@@ -502,33 +386,21 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02638
 「あ、んん……それが何か様子が変なのよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01934
 「何も喋ってくれないの。足の怪我が痛いのかなぁ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今回のことで、オレ以上に衝撃が大きいはずだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが、あの時の男……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 明らかに美雨とは顔見知りのようだった。
 
 window_close
@@ -544,13 +416,9 @@ window_close
 @mikan			#普通
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01935
 「あっ、お兄ちゃん。起きて大丈夫なの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「心配ない、普通に歩けるよ」
 
@@ -563,15 +431,11 @@ window_close
 #layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02639
 「そんな、無理しないでよ。まだ病み上がりなんだから」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……やっぱり心配してくれてるのか？」
 
@@ -588,8 +452,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02640
 「……野垂れ死になさいッ！」
 
@@ -598,8 +460,6 @@ layer_movepass_play	l_karin,0,play_once
 wait		1000
 @bg_rouka		# 廊下
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 熱いエールを背に、部屋を後にする。
 
 @bg_black
@@ -618,8 +478,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01936
 「待って、お兄ちゃんっ。心配だからついてくよ」
 
@@ -627,18 +485,12 @@ layer_movepass_play	l_mikan,0,play_once
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02641
 「私も、みかんが心配だから一緒するわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ありがとう。でも、ちょっと美雨と二人で話があるから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「他の子に、もうオレは大丈夫だって言って来てくれるかい？」
 
@@ -651,8 +503,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01937
 「うん……」
 
@@ -665,8 +515,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02642
 「しょうがないわね……」
 
@@ -676,8 +524,6 @@ bgm_stop
 wait		1000
 @bg_rouka		# 廊下
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 二人と別れ、美雨の部屋の前までやってきた。
 
 @bg_door		# ドア前
@@ -685,18 +531,12 @@ wait		1000
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨。入るよ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02533
 「………え。樹さんッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨の声を聞いて、部屋へ入る。
 
 #SE06　部屋のドア開く音（ガチャ）
@@ -706,8 +546,6 @@ wait		100
 @SE06			#部屋のドア開く音（ガチャ）
 @bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「様態は………ぁ」
 
@@ -717,75 +555,51 @@ wait		100
 #--------------------------------------------------
 @bgmk07			#BGM K07 : 深刻なテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨は部屋のベッドに腰を下ろし、その足に痛々しく包帯を巻いていた。
 
 @miu_middle		# 中間
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02534
 「よかった……目を覚まされたんですね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ああ。今さっきね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨は、やっぱり足を……」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02535
 「はい……。でも、包帯は念のために巻いているだけですから」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02536
 「本当は見た目ほど深い傷ではないんですよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そっか……それを聞いて安心した」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02537
 「でも……本当によかったです……。樹さんが無事で……」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02538
 「こんなことになって、その上、樹さんにまで何かあったら……私…」
 
 @miu_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨の瞳が揺れ、安堵で緊張が解けたようにフルフルと涙が溜まっていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨……心配かけてごめん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それと、車の衝突から庇ってくれたのも美雨だよな。ありがとう」
 
@@ -793,44 +607,30 @@ wait		100
 @miu_maid
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02539
 「いえ、そんな。当たり前のことをしただけですから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレの方こそホッとしたよ。みかんの話では、もっと沈んでるみたいだったから」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02540
 「………はい」
 
 #@miu_kanashimi2		#閉_哀
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02541
 「でも、樹さんの姿を見て少し落ち着きました……」
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02542
 「それに、今ここで取り乱しても、あの男からひーちゃんは助けられませんから……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あの男……美雨の口から、その言葉が出る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あいつは一体誰なんだ。何でひかりを……」
 
@@ -841,61 +641,41 @@ wait		100
 
 @miu_ikari		#閉_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02543
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02544
 「……あの男こそ、樹さんがおっしゃった、この施設の真相を握る人物です」
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02545
 「名前を、月倉夜行といいます」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「月倉夜行……。そいつが、この施設を」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02546
 「正しくは、各地の施設になります。地域ごとにこういう施設が存在しますので」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そいつは何が目的なんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ここの経営は、父さんの借金返済が目的じゃないか。やつが貸主なのか？」
 
 @miu_ikari		#閉_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02547
 「…………」
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02548
 「……それは、とても長い話になります」
 
 @bg_black		# 黒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一拍置いて意を決するように、美雨が静かに口火を切り始める。
 
 #■BG（白）
@@ -911,41 +691,27 @@ wait			1000
 screen_whitein		1000
 wait			1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02549
 「かつて国の内閣府外局、防衛庁に、非常に強い野心を持つ男が居ました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02550
 「その男は汚い裏工作を駆使して人心を掌握し、瞬く間に庁内での権力をモノにしていきます」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02551
 「才能、行動力、計画性、時に大胆さ、そう言ったカリスマ性が彼にはあったんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02552
 「そして数年とかからない内に、庁内から内閣府全体、そして官公庁に手を伸ばすようになっていきました」
 
 #CH（夜行シルエット　→　通常立ち絵）
 @yakou			#普通 
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それが、あの男。夜行ってやつなのか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02553
 「はい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「一体何のために。独裁者にでもなりたかったのか……」
 
@@ -960,8 +726,6 @@ wait		100
 @miu_ikari2		#開_怒
 @bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02554
 「私も、理由はよく知りません。ですが本人は他国を手に入れるのが最終目的だと言っていました」
 
@@ -971,164 +735,106 @@ wait		100
 #＠美雨,B02555
 #「今年の１月、防衛庁が省に昇格したのはご存知ですよね？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02555
 「防衛庁が省に昇格したのはご存知ですよね？」
 
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……確か、防衛庁設置法の改訂でそうなったんだよな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02556
 「あれも夜行による、目的を達するための計画のひとつでした」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02557
 「省として独立することで、より動きやすく、国外への派兵も行いやすくなるらしいです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02558
 「そしてその昇格の反対勢力を抑える手段だったのが、この施設です」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ここがッ…！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02559
 「敵対する各要人に、賄賂や性交渉を与えることで味方に引き入れていったんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちょ、ちょっと待ってくれ！　じゃあ、今までの売春のお客っていうのは」
 
 @miu_ikari		#閉_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02560
 「全員とは違いますが、大半がそれぞれ力を持った政府の人間です」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02561
 「つまり、向こうが子供達を買ったのではなく、こちらが向こうに女の子を出していたんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……オレ達が、子供達を。そんな目的で」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じゃあ警察が一切関与してこなかったのも……」
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02562
 「内閣府外局の国家公安は既に、夜行の手が完全に回っています」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02563
 「夜行に反対する者も、下手に証拠を挙げれば逆に自分の身が危ないというのが、今の状況なんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんな、バカな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じゃあオレ達が、この施設の所業の証拠を押さえたところで、無駄だってことか」
 
 @miu_ikari		#閉_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02564
 「ええ、おそらく罪人に仕立てられるのは私達の方でしょう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 語られる話の大きさと結論に、思わずめまいがしそうになった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 借金の返済と子供達の保護が目的だったのに、政府とか内閣とか……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 おまけに、警察組織までその男の味方で、手出しできないなんて……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんな男に、ひかりは誘拐されたのかッ……」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02565
 「……はい」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02566
 「あの男に油断した、私のせいです……。もっと用心するべきだったのにっ……」
 
 #@miu_ikari2		#開_怒
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02567
 「……もう個人ではなく、警察、政府ぐるみで誘拐されたのと同じと言っていいでしょう」
 
 #@miu_ikari		#閉_怒
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02568
 「誰に助けを求めても、聞いてもらえないか、逆に捕まるかのどちらかです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんな……だったらもう……」
 
 #■BG（美雨の部屋）
 #@bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もう、どんな手段も残されていないことを悟った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……選べる選択肢なんて他には無い。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「誰にも頼らずに、ひかりを助けに行くしかないじゃないか」
 
@@ -1141,13 +847,9 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02569
 「えっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨が驚いたようにオレを見つめる。
 
 #素材なし：ＥＶ
@@ -1157,23 +859,15 @@ layer_movepass_play	l_miu,0,play_once
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02570
 「助けにって………樹さん、まさかお一人で行かれる気ですかっ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「無謀だって言うのは分かってるさ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でもどんな相手であれ、ひかりを放っておけるわけないじゃないか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「全然頼りないけど。これでもオレは、ひかりのお父さんなんだ」
 
@@ -1184,18 +878,12 @@ layer_movepass_play	l_miu,0,play_once
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02571
 「っ……樹さん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりは今も、助けて欲しくて泣いているに違いないんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02572
 「樹さん……。そんなにまで、ひーちゃんのことを……」
 
@@ -1206,8 +894,6 @@ bgm_stop
 #■BG（美雨の部屋）
 #@bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 廊下のほうから突然、部屋の中に拍手の音が響く。
 
 se_stop		0
@@ -1217,92 +903,60 @@ se_stop		0
 @shizuku_yorokobi	#喜
 @bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01273
 「良く言った、樹。立派な心意気じゃないの」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さん……」
 
 @shizuku_chousyou	#怒笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01274
 「それにしてもあの男、何かするとは思ってたけど、あそこまで豪快だとはねぇ」
 
 #CH（美雨立ち絵なし）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02573
 「……すみません。私がもっと用心しておけば」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02574
 「まさか夜行が趣旨を変えて、あんな強攻策を取るなんてっ……」
 
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01275
 「仕方ないさ、美雨。どちらにしてもあの時点では動きようも無かったんだし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01276
 「それに下手に警戒してたら、もっと手荒に事を起こされてたかもしれないしね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんも、あの男のことを……？」
 
 @shizuku_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01277
 「多少はね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨が知っているなら、雫さんが知っているのも当然か。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……やはりこの施設のことを知らなかったのは、オレだけだったようだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どうして言ってくれなかったのか気になるが、今はそんなことを追究している時ではない。
 
 @shizuku		#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01278
 「でも樹、心意気だけじゃぁ無駄死にするよ。どうする気？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレだって何も、争いで解決しようなんて思ってませんよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あんな事をしてひかりを誘拐したからには、向こうにだって何か要求があるはずです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だから、オレはその全てを聞き入れる」
 
@@ -1317,20 +971,14 @@ wait		100
 @miu_kanashimi		#開_哀
 @bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02575
 「…………」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02576
 「樹さん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もうひかりと、そして美雨を、これ以上悲しませたくないんだ……」
 
@@ -1349,12 +997,8 @@ screen_whitein 		1000
 @bg_gate		# 孤児院前
 wait			1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この数ヶ月間、親子として過ごしてきた美雨とひかり。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 娘と過ごす家族愛と、夫婦として一緒に居る男女愛の両方の幸せをくれた二人。
 
 #--------------------------------------------------
@@ -1369,12 +1013,8 @@ screen_whitein 		1500
 wait			1500
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 手放したくなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 決して長くはないが、今まで感じたことのない温もりに包まれていた日々を。
 
 #--------------------------------------------------
@@ -1394,8 +1034,6 @@ screen_whitein 		1000
 wait			1000
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨。ひかりを取り戻して、また三人で暮らそうな」
 
@@ -1409,8 +1047,6 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02577
 「はいっ…」
 
@@ -1430,32 +1066,22 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01279
 「はぁ……急な話だけど、しょうがないね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……まさか雫さん、一緒に来てくれるんですか？」
 
 @shizuku		#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01280
 「あんた一人に任せておけないでしょう」
 
 @shizuku_chousyou	#怒笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01281
 「だいたい、どこでどうやって夜行と接触するつもりなんだい？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……」
 
@@ -1468,13 +1094,9 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01282
 「まったく、こっちの段取りまでバラバラだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02578
 「待って、私も行きます…」
 
@@ -1487,38 +1109,24 @@ wait		100
 @miu_ikari		#閉_怒
 @bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ベッドから腰を上げて、美雨が自力で立ち上がった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何を言い出すんだ、美雨。足の怪我が……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、怪我が無くても、そんな危険な場所に美雨を連れて行けないよ」
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02579
 「私なら大丈夫です」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02580
 「この通り自力で立って歩けますし、足手まといにはならないようにしますから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 長いスカートが包帯を隠し、見た目的には平気そうに見えるが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「しかし……」
 
@@ -1526,38 +1134,24 @@ wait		100
 @shizuku_shifuku
 @shizuku_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01283
 「いいじゃない、一緒に行けば。争わないんでしょう？」
 
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01284
 「それにあの子のことが心配なのは、あんただけじゃないんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02581
 「お願いします……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 揺るがない真剣な瞳でオレを見つめる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 たとえ断っても、自力で付いてきそうな雰囲気だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「分かった。でも無理は絶対にしない事。いいね？」
 
@@ -1571,8 +1165,6 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02582
 「はいっ！　ありがとうございます！」
 
@@ -1585,16 +1177,12 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01285
 「ふぅ。まぁ色んな意味で美雨は居てくれる方が助かるからね」
 
 @shizuku_yorokobi	#喜
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01286
 「じゃあ一度解散。各自準備を終え次第、リビングに集合ね」
 
@@ -1607,82 +1195,56 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02583
 「はいっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……え、ちょっと待って。今すぐ出るんですか？」
 
 @shizuku		#普通
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01287
 「うん？　何か問題でもある？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「問題っていうか、もっと具体的な行動を計画してからにするべきでは……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 行くのに異論は無いが、あまりにも行動が軽率で単調すぎだ。
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02584
 「……相手が普通ではない、あの夜行ですから」
 
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01288
 「そうそう。警察、政府のレベルなんだから。凡人の小細工なんて無駄無駄」
 
 @shizuku_chousyou	#怒笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01289
 「下手な考え休むに似たりってね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02585
 「あっ、いえ、あの……私は別にそういうつもりで言ったのではっ……」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02586
 「樹さんの意見が正常なんです。相手が異常なだけなんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……まぁいいけど。じゃあリビングに集合だな」
 
 @shizuku_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01290
 「あたしは先に失礼するよ。急な準備になるからね」
 
@@ -1692,14 +1254,10 @@ bgm_stop
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こんな事態でも、マイペースなまま部屋を後にする雫さん。
 
 @bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレも部屋に戻るよ」
 
@@ -1708,76 +1266,50 @@ bgm_stop
 @miu_komaru		#開_困
 @bgmk07			#BGM K07 : 深刻なテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02587
 「……樹さん」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02588
 「本当に行くんですか……？　すごく危険なんですよ」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02589
 「あまりにも出来事が非日常的すぎて、かえって実感が沸きにくいと思うのですが」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02590
 「平気であんな事故を起こして、子供を誘拐するような男なんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 暗に、考え直すのを願うような、悲しそうな瞳でオレを見つめる美雨。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 確かに話が大きすぎて、現状を感じ切れていないのかもしれないが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でも、ひかりはオレを父親として慕ってくれていたんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そのひかりが今、誘拐されて怖い目に遭っている」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「身を挺してあの子を助けるのに、理屈っぽい理由なんか要らないはずだ」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02591
 「それは、私も同じですが……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨こそ無理はするんじゃないぞ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃ、また後で」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02592
 「……はい」
 
@@ -1787,20 +1319,12 @@ bgm_stop
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレも気を引き締め直して、部屋に戻った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 …………………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
 #■BG（美雨の部屋）
@@ -1809,8 +1333,6 @@ bgm_stop
 @miu_kanashimi		#開_哀
 @bg_miu			# 美雨の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 全員が自室に戻り、部屋の中には美雨、一人だけになる。
 
 @miu_kanashimi2		#閉_哀
@@ -1828,8 +1350,6 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02593
 「ッう、く……」
 
@@ -1839,17 +1359,11 @@ wait		1000
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 怪我の足を押さえてベッドに座り込んだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02594
 「私が、動かないと……。こんな怪我くらいで……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 押さえた手の平に、ジワジワと血の温もりが広がってきた。
 
 #一拍
@@ -1858,27 +1372,17 @@ wait		1000
 #■BG（自室）
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……月倉夜行、か」
 
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この施設に、まさかそんな大きい裏があるとは思わなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だがそんな野望を持つ男が、今さら子供を誘拐して何をしようとしているのだろうか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どうしてもそこが解せない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「出掛ける準備は、まぁこんなとこだな」
 
@@ -1886,27 +1390,17 @@ wait		1000
 #重要：テキスト意味不明：仮対応中
 #部屋を出ようとして、ふと＝＝に目を留めた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋を出ようとして、ふとある場所に目を留めた。
 
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そこには、ここに来た初日に見つけた〝非日常〟が存在する。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 決して使うことなど無いと、ずっと忘れるようにしてきたが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今はやっぱり、持って行く事態だろうな……」
 
@@ -1914,8 +1408,6 @@ wait		1000
 #重要：テキスト意味不明：仮対応中
 #＝＝から、ソレを取り出した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはソレを取り出す。
 
 #--------------------------------------------------
@@ -1923,8 +1415,6 @@ wait		1000
 @SE106			#SE106　銃の装備（ガシャッ・カシャンッ）※銃器を装備したり動かすときに聞く音です。
 wait		500
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 冷たい鉄の感触と、リアルな重み。そして圧倒的な存在感を放つソレを……
 
 #--------------------------------------------------
@@ -1932,25 +1422,15 @@ wait		500
 #■ウィンドウ（拳銃）
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 拳銃という、日常とは掛け離れた代物。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 使い方は……おそらく分かるはずだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「使わないに越した事はないんだけどな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 でも何故こんな物があったのか、ようやくその理由が分かった気がする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはそれを上着の内ポケットにしっかりと入れ、部屋を出た。
 
 #一拍
@@ -1977,20 +1457,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02232
 「あッ、パパだ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00331
 「樹先生ッ！」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おお、いちごにゆず。他のみんなも、心配かけてたみたいだな」
 
@@ -2003,8 +1477,6 @@ layer_movepass_play	l_ichigo,0,play_once
 #layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00332
 「みかんちゃんとかりんちゃんから目を覚ましたって聞いて、ホッとしたんですよぉ」
 
@@ -2018,18 +1490,12 @@ wait		500
 @karin_kanashimi	#哀
 @suika_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02643
 「アレだけの事故だったし、ほんと大変だったんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00420
 「もう出歩いても大丈夫なんですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ。見ての通りだ」
 
@@ -2046,8 +1512,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02233
 「よかったぁッ♪」
 
@@ -2058,8 +1522,6 @@ window_close
 wait		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おっと……はは、急に抱きついたら危ないだろ」
 
@@ -2077,8 +1539,6 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00333
 「あっ、ずるいいちごちゃん！　ボクもっ！」
 
@@ -2089,8 +1549,6 @@ window_close
 wait		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うわっと……おいおい、張り合うなって」
 
@@ -2105,8 +1563,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01938
 「じゃあみかんも！」
 
@@ -2117,8 +1573,6 @@ window_close
 wait		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うわッ…？　お、おいっ」
 
@@ -2136,8 +1590,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02644
 「こ、こらッ、みかんから離れなさいッ！」
 
@@ -2148,8 +1600,6 @@ window_close
 wait		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「のわッ！？　こらっ、危ないだろッ」
 
@@ -2157,8 +1607,6 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01361
 「追加攻撃」
 
@@ -2169,8 +1617,6 @@ window_close
 wait		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何だ攻撃ってッ！　うわッ、倒れるッ！」
 
@@ -2185,8 +1631,6 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00421
 「あ、危ないっ、院長先生ッ」
 
@@ -2197,8 +1641,6 @@ window_close
 wait		500
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「のぉおおッ！？」
 
@@ -2211,19 +1653,13 @@ wait			100
 @bg_black
 screen_blackin		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局全員に抱きつかれ、団子状態で押しつぶされる。
 
 #CH（以下の会話、雫以外は立ち絵なし）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02234
 「う～、痛いー！　重いよぉ～ッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、オレの台詞だってのッ……潰れるからのけぇ！」
 
@@ -2233,34 +1669,22 @@ screen_blackin		1
 @shizuku_akire		#呆
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01291
 「……何やってんだい、あんた達…」
 
 #@shizuku_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちょッ……居るんなら、そんな呆れてないで助けてくださいッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 むにッ、ふにふにッ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02645
 「ひゃあ！？　ど、どさくさに紛れてどこ揉んでるのよッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01939
 「身動きできな～いっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 重なりすぎて、身体同士が訳の分からない状態になっていた。
 
 #window_close
@@ -2273,25 +1697,17 @@ screen_blackin		1
 #@miu_komaru		#開_困
 @shizuku		#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02595
 「お待たせしま―――きゃあッ！？　ど、どうしたんですかっ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01362
 「新しい乱交プレイ」
 
 @shizuku_chousyou	#怒笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00422
 「えッ、えええ！？　わ、私そんなつもりじゃ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちがぁうッ！　助けてくれ美雨ッ！」
 
@@ -2300,24 +1716,16 @@ bgm_stop
 @bg_black
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その後、起き上がるまでに数分を要するのだった……
 
 #■BG（リビング）
 @bg_living		# リビング
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁ……。えらい目に遭った」
 
@@ -2338,8 +1746,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01940
 「ごめんなさい……」
 
@@ -2352,20 +1758,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02235
 「しゅん……ごめんなさい、パパ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、謝るほどじゃないけどな。悪気は無いんだし」
 
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それより、さっき雫さんが言った話だけど」
 
@@ -2373,19 +1773,13 @@ layer_movepass_play	l_ichigo,0,play_once
 @suika_shifuku
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00423
 「えっと、明日まで出掛けて帰ってこない、ということですよね……？」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 子供達がもつれている間、一方的に雫さんが説明をしてくれていたのだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もちろん、ひかりの誘拐云々の話はしていない。
 
 @miu_small
@@ -2397,13 +1791,9 @@ layer_movepass_play	l_ichigo,0,play_once
 @shizuku_akire		#呆
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02596
 「事故のことで、警察に用があるの。みんなを残して申し訳ないんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01363
 「どうして雫まで行くの？」
 
@@ -2416,30 +1806,20 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01292
 「あたし？　えっと……ただの野次馬かな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01364
 「そう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02646
 「ふ～ん、なるほどね」
 
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01293
 「……あっさりと納得されるのも、ちょっとどうかと思うけどね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 全て行状のためだ。
 
 @chara_clear		#保険
@@ -2452,13 +1832,9 @@ wait		500
 @mikan_kanashimi	#哀
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01941
 「ねぇお兄ちゃん、ひーちゃんはどこに行ってるの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えッ…」
 
@@ -2468,13 +1844,9 @@ wait		500
 @suika_shifuku
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00424
 「昨日お二人が事故で運ばれてきてから、ずっと帰って来てないんですけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02597
 「ひーちゃんはね、実は前の親御さんが見つかったから、今はそっちに行ってるの」
 
@@ -2488,20 +1860,14 @@ wait		500
 @karin_odoroki		#驚
 @yuzu_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02647
 「えっ、前の……？」
 
 @yuzu_kanashimi		#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00334
 「前の人って……だってもうひーちゃんを……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そう。そうなんだけど、ちょっと向こうの事情があってな……」
 
@@ -2516,8 +1882,6 @@ wait		500
 @mikan			#普通
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02236
 「……ひーちゃん、もう帰ってこないの？」
 
@@ -2532,8 +1896,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01942
 「えッ。そんな、帰ってくるよね、お兄ちゃん…！？」
 
@@ -2543,13 +1905,9 @@ wait		500
 @zakuro_shifuku
 @zakuro_iya		#嫌
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01365
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 子供達が不安げに詰め寄ってきて、ざくろまでが答えを求めるように視線を向けてくる。
 
 @chara_clear		#保険
@@ -2558,37 +1916,25 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02598
 「みんな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それだけ、みんながひかりのことを心配し、大事にしてくれているのだと分かった。
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02599
 「ありがとう、みんな」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02600
 「大丈夫、ここがひーちゃんの家だもの………きっと帰ってくるから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨の声が、感極まりそうな涙で震えそうになる。
 
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みんな、ここで待ってればいい。いい子にしてるんだぞ」
 
@@ -2604,8 +1950,6 @@ layer_movepass_type	l_suika,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suika,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00425
 「はい。院長先生たちも、気をつけて行ってきてください」
 
@@ -2615,8 +1959,6 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01366
 「つっちーがいないと、ちょっと退屈」
 
@@ -2639,18 +1981,12 @@ wait		500
 #layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00335
 「ボクも寂しいけど我慢します～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02648
 「何かあったら連絡してよね。私はいいけど、みかんが心配するんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、行ってきます」
 
@@ -2673,8 +2009,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01943
 「行ってらっしゃい、お兄ちゃん。美雨さんと雫さんも」
 
@@ -2691,8 +2025,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02237
 「行ってらっしゃーい！」
 
@@ -2715,15 +2047,11 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02601
 「行ってきます。出来るだけ早く帰ってくるわね」
 
 @shizuku_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01294
 「それじゃ、ちょっと行ってくるわ」
 
@@ -2734,19 +2062,13 @@ wait		1000
 #@bg_genkan		# 玄関
 @bg_sky			# 空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 子供達の元気で素直な声に見送られながら、オレ達は施設を後にする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 大丈夫。きっと何事も無く、ひかりと一緒にまた帰ってこれる。
 
 #■BG（施設前）
 @bg_gate		# 孤児院前
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「行くのはいいけど、子供たちだけで大丈夫なのかな」
 
@@ -2754,24 +2076,16 @@ wait		1000
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02602
 「それなら心配いりません。そろそろ来てくださいますよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「来る？　誰が……」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 首をかしげながら、美雨の見つめる方へと視線を移す。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ドドドドドドド！
 
 @miu_small
@@ -2780,29 +2094,21 @@ wait		1000
 @bg_gate		# 孤児院前
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おー、何かすごい勢いで走ってくるな」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02603
 「ふふ。いつも元気な方ですよね」
 
 window_close
 se	0,	"sound\se\SE20_足音2～走ってくる.wav",	play_wait
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 突進するようにソイツは走って来て、オレ達の目の前で止まった。
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00219
 「お待たせしました、美雨さん！　重要な用件やっちゅうことで飛んで来ましたー！」
 
@@ -2810,37 +2116,25 @@ se	0,	"sound\se\SE20_足音2～走ってくる.wav",	play_wait
 @shizuku_shifuku
 @shizuku		#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01295
 「誰かと思えば、よく遊びに来る子とその保護者じゃない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「誠司……それに涼海ちゃんにるあちゃんも」
 
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00326
 「いつまで抱きかかえてるのよー！　下ろせバカ誠司ーッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00344
 「はうぅっ、誠司先生～！　ずっと胸のところ撫でないでください～！」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02604
 「あの、涼海ちゃんとるあちゃんが」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00220
 「え？　ああ、気にせんといてください。どうしても付いて来るっちゅうて聞かんかったんですわ」
 
@@ -2853,20 +2147,14 @@ wait		100
 @seiji_niko		#にこ
 @bg_gate		# 孤児院前
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00327
 「きゃあッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00345
 「ひゃうッ！」
 
 @SE27			#SE27　倒れる音（ドサッ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誠司が両脇に抱えていた二人を、ペイっと地面に放り投げた。
 
 @bg_black		# 黒
@@ -2880,15 +2168,11 @@ wait		100
 @miu2			#開_にこ
 @bg_gate		# 孤児院前
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……これが、心配いらない理由？」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02605
 「はい。誠司さんに、子供達のことを見ていてもらえないかと思いまして」
 
@@ -2901,13 +2185,9 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01296
 「この他所の院長にかい？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 雫さんはあんまり乗り気じゃ無さそうだ。
 
 @chara_clear		#保険
@@ -2922,8 +2202,6 @@ wait		500
 @rua_akire		#拗ね
 @suzumi_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00328
 「もうッ、美雨さんのことになるとすぐ飛び出しちゃうんだから。誠司は」
 
@@ -2938,16 +2216,12 @@ wait		500
 #layer_movepass_play	l_rua,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00346
 「そ、そうですよっ………誠司先生、今日は個人レッスンって言ってくれたから、楽しみにしてたのに」
 
 @bg_black		# 黒
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00221
 「ええいッ、離せ！　貧乳に引っ付かれても感触が足りひん！」
 
@@ -2974,8 +2248,6 @@ layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_rua,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00347
 「はうぅっ、そんな………まだ将来があるかもしれないのにぃ」
 
@@ -2991,18 +2263,12 @@ layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suzumi,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00329
 「こらぁ！　るあを苛めたら許さないわよッ、する時はさんざん揉むくせにッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01297
 「……こいつらにかい？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「涼海ちゃん、普段は恥ずかしがるのに………怒ると勢いで喋るからなぁ」
 
@@ -3012,8 +2278,6 @@ wait		500
 @seiji_shifuku
 @seiji			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00222
 「で、用事いうのはなんですか、美雨さん」
 
@@ -3027,13 +2291,9 @@ wait		500
 @shizuku		#普通
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02606
 「あ、はい。実は少しの間、施設を空けることになりまして」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02607
 「それで、子供達だけでは心配なので、誠司さんに見ていただけないかと思ったんですが」
 
@@ -3043,13 +2303,9 @@ wait		500
 @seiji_shifuku
 @seiji_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00223
 「空ける？　この男もですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ。だから頼みたいんだ」
 
@@ -3064,8 +2320,6 @@ wait		500
 @rua			#普
 @suzumi_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00330
 「あっ。それって、お二人で休暇をとって旅行とかですか♪」
 
@@ -3079,8 +2333,6 @@ layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_rua,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00348
 「素敵です♪　婚前旅行ですね、きっと」
 
@@ -3100,8 +2352,6 @@ layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_seiji,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00224
 「全力で断るッ！　むしろついていくでッ！！」
 
@@ -3111,21 +2361,15 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01298
 「あたしの方でも動かせる人員を配置して置くか。しかたない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「動かせる人員？　味方がいるんですか？」
 
 #@shizuku_chousyou	#怒笑
 @shizuku_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01299
 「まぁそんなところ」
 
@@ -3133,20 +2377,14 @@ wait		500
 @shizuku_shifuku
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02608
 「それでは、行きましょう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 三人して用意した車に乗り込んだ。
 
 @seiji_small
@@ -3173,15 +2411,11 @@ layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_seiji,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00225
 「待てぇえッ！　せめて説明してってくれええッ！！」
 
 @rua_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00349
 「楽しんできてくださいね、みなさん」
 
@@ -3194,8 +2428,6 @@ layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suzumi,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00331
 「樹先生、頑張ってッ♪」
 
@@ -3207,8 +2439,6 @@ wait		1000
 #■BG（青空）
 @bg_sky			# 空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 見送りを受けながら、車は目的地へ向かって発進した。
 
 se_stop		0
@@ -3218,41 +2448,27 @@ wait		1000
 #■BG（夜行の部屋）※ゆっくりフェード
 @bg_yakou		# 夜行の部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠警備員,V27000
 「はっ…全てのゲートのロックを外す？　いいのですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠夜行,C00018
 「構わん。お前らは言われたとおりに動いていればいい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠夜行,C00019
 「だが、侵入者が現れたらすぐに知らせるんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠警備員,V27001
 「は、はいっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 プツッ、とマイクのスイッチを落とす。
 
 @yakou_small
 @yakou_shifuku
 @yakou			#普通 
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠夜行,C00020
 「美雨のことだ。あの程度の怪我なら、そろそろ行動を起こせるだろう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠夜行,C00021
 「だが死を選ぶか傀儡になるか、お前にはどちらかしか選択する道はない」
 
@@ -3266,8 +2482,6 @@ wait		1000
 @bg_living		# リビング
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00226
 「なッ、何やてぇえ！？　昨日の事故に美雨さんが巻き込まれとったやてッ！？」
 
@@ -3281,13 +2495,9 @@ wait		500
 @ichigo			#普通
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01944
 「う、うん。でも出掛けるときは元気そうだったから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02238
 「パパも一緒に事故に遭ったんだよ」
 
@@ -3297,8 +2507,6 @@ wait		500
 @seiji_shifuku
 @seiji_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00227
 「くぅ！　事故翌日の美雨さんをそんな欲情旅行に連れて行くやなんてッ！　えらい悪魔や土屋樹！」
 
@@ -3308,8 +2516,6 @@ wait		500
 @rua_shifuku
 @rua			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00350
 「あの、誠司先生、みんなの説明聞いてましたか……？」
 
@@ -3317,8 +2523,6 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02649
 「だから、樹も事故に遭ったんだってば」
 
@@ -3338,8 +2542,6 @@ layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_seiji,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00228
 「あかんッ、やっぱり一緒に行くべきやった！　今からでも追いかけるでッ！！」
 
@@ -3349,8 +2551,6 @@ wait		500
 @suzumi_shifuku
 @suzumi_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00332
 「何言い出すのッ！　あ、こらッ、待ちなさいよバカ誠司ーッ！」
 
@@ -3361,8 +2561,6 @@ wait		1000
 #■BG（青空）
 @bg_sky			# 空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こうして今、それぞれの物語は終幕に近づいていった。
 
 @bg_black

@@ -526,8 +526,6 @@ label	mikan_tachi_2	#-----------------------------------------------------
 #■BG（みかんの部屋）
 @bg_mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんに誘われ、この子の部屋へとやって来ていた。
 
 @mikan_middle
@@ -543,53 +541,33 @@ layer_movepass_play	l_mikan,0,play_once
 #--------------------------------------------------
 wait		300
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01278
 「このクッション使ってて。いま何かゲーム出すね」
 
 se_stop		0
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ちょうど他の子たちが出かけて一人だったみかんは、遊び相手を捕まえてご機嫌だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋の隅に詰まれた数々の持参ボードゲームの中から、目ぼしい物を漁っている。
 
 @SE28
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01279
 「どれにしようかな～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01280
 「二人でも遊べるもの、面白いやつ～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんと遊んですぐ分かったが、この子はかなりのボードゲーム好きだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 他の遊びも積極的に楽しんではいるが、もはやコレクションの域に達しそうなほど沢山のゲームを所持している。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁお互い暇だからな。のんびり探せばいいよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こういう事を言うと雫さんあたりが、「だったら調教しろ」とか言いそうだが。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あれ、そこにあるのってローラーブレードじゃないか？」
 
@@ -597,15 +575,11 @@ se_stop		0
 @mikan_small
 @mikan_warai
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01281
 「あ、うん。ここに来る前の向こうの友達とは、一緒に遊んでたんだよ」
 
 #@mikan_kusyou
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01282
 「こっちでも遊ぼうと思って持ってきたんだけど、誰も持ってないから置きっぱなしなんだぁ……」
 
@@ -614,28 +588,18 @@ wait		1000
 @SE28
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それはざんね………うわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 奥にあるゲームを取ろうとして、みかんが四つん這いの際どいポーズになっていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 パンツが見えそうだ………まぁ下着くらい、今更のような感があるけども。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごならこういうの、喜んで遊びそうだけどな」
 
 @mikan_kusyou
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01283
 「う～ん、でもこれ高いから、誘っても買えないし………あ、あった」
 
@@ -643,16 +607,10 @@ bgm_stop
 se_stop		0
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ズボッ！と奥の下にあったゲームを抜き取るみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 グラッ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01284
 「え……？　うわわわーッ！？」
 
@@ -660,57 +618,37 @@ se_stop		0
 @se39
 screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ガラガラガラッ！　ガシャーーン！！
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うわッ、みかん！？　大丈夫か、おい！？」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01285
 「うぎゅぅぅっ……つ、潰れるぅぅ～～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんの上半身が、崩れてきたボードの山に完全に埋まってしまっていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そりゃ下を抜き取ったら崩れてくるだろ……怪我ないか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01286
 「大丈夫～、でも重くて動けないよぉ～お兄ちゃん～～……」
 
 #注：微妙なので削るかも
 @SE28
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 山から突き出た下半身がバタ付き、丸見えのパンツが情けなさに輪をかける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁ……集めるのはいいけど、整理もちゃんとしような」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01287
 「ごめんなさい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 パンツからシュンと落ち込んだ声が零れ落ちた。
 
 @bg_black
@@ -729,12 +667,8 @@ label	mikan_tachi_3	#-----------------------------------------------------
 #SE40　リコーダーの練習音
 @SE40			#SE40　リコーダーの練習音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんの部屋の前を通ると、中から懐かしい笛の音が聞こえてきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 声をかけてからドアを開けて見る。
 
 se_stop		0
@@ -745,42 +679,28 @@ wait		1000
 #■BG（みかんの部屋）
 @bg_mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01305
 「ごめん、笛の音うるさかったかな？」
 
 @bgm12			#演：仮ＢＧＭ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ベッドに腰掛けたみかんが、リコーダーを片手に申し訳無さそうな顔をしていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、前を通りかかって気になっただけだから。練習？」
 
 @mikan_kanashimi
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01306
 「……うん、難しくて上手く吹けないの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 力無く肩を落としたみかんが、期待をこめた視線をこちらに向ける。
 
 @mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01307
 「お兄ちゃん吹ける？　教えてもらってもいいかな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もう何年も前のことだからな……指使い？」
 
@@ -789,29 +709,19 @@ wait		1000
 @mikan_middle
 @mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01308
 「ううん、一回お手本を見せてほしいんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 応えながら、みかんから教科書を受け取って音符を追っていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ大丈夫かな。リコーダー貸して」
 
 @mikan_warai2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01309
 「うん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 言われるままに差し出すリコーダーを受け取って口をつけた。
 
 bgm_stop
@@ -819,17 +729,11 @@ bgm_stop
 @mikan_
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 吹き始めると、案外覚えていた指が勝手に動いて音を奏でていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……しかし、吹き始めて気づいたけど。これは間接キスだよな）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかん相手にそんなことを意識するなんて、やはり調教が効いているのだろうか。
 
 #■BG（みかんの部屋）
@@ -837,17 +741,11 @@ bgm_stop
 @mikan
 @bg_mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01310
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 初め不安そうだったみかんも、吹き終わる頃には感心したようにこちらの指使いを見つめていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ん、こんな感じかな」
 
@@ -863,34 +761,22 @@ layer_movepass_play	l_mikan,0,play_once
 #--------------------------------------------------
 @bgm12			#演：仮ＢＧＭ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01311
 「わぁッ、すごいお兄ちゃん、完璧だよ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 演奏を終えると、リコーダーを受け取りながらはしゃぐみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すぐに自分も吹き口を咥えると、同じ曲を演奏しようと試みる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……もういいか。ちょっと立ち寄っただけだから、オレはそろそろ行くけど？」
 
 #@mikan_warai2
 @mikan_kusyou
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01312
 「あ、うん……まだ不安だけど、頑張ってみる。ありがとお兄ちゃん♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 明るかった表情がちょっと曇るが、練習を再開するのを見て部屋を後にした。
 
 #■BG（ブラック）
@@ -900,8 +786,6 @@ bgm_stop
 @se_door_close
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんには知られないようにしないとな……間接キスなんて。
 
 se_stop		0
@@ -920,12 +804,8 @@ label	mikan_tachi_3_1	#-----------------------------------------------------
 #SE40　リコーダーの練習音
 @SE40			#SE40　リコーダーの練習音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんの部屋の前を通りかかると、またいつかの笛の音が聞こえてきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （まだ詰まってるみたいだな……）
 
@@ -950,97 +830,63 @@ wait		1000
 #■BG（みかんの部屋）
 @bg_mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうした、また練習か？」
 
 @mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01288
 「あ、うん……前の曲。吹けたんだけど、先生が合格をくれないの」
 
 @mikan_kusyou
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01289
 「何かね、タンギングが出来てないからって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 タンギングか………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 確かにみかんの曲には、音に切れ目が無いんだよな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「舌を使って、吹き込み口を塞いで音を切らすんだよ」
 
 @mikan
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01290
 「……でも口を塞いだら音が鳴らなくなっちゃうよ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （技術以前に知識がないみたいだ……教師は一体何を教えてるんだか……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「笛、貸して」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01291
 「うん……」
 
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 またみかんからリコーダーを受け取ると、お手本を見せてやる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 分かりやすいように同じ音を鳴らしながら、舌で音を区切っていった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「こうやって音を鳴らしながら、舌を付けたり離したりして音を区切る」
 
 @mikan_middle
 @mikan_kanashimi
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01292
 「……う～ん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「要練習だな」
 
 @mikan_kusyou
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01293
 「うん……頑張ってみる」
 
@@ -1048,12 +894,8 @@ wait		1000
 #SE40　リコーダーの練習音
 @SE40			#SE40　リコーダーの練習音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 自信無さそうに息を吹き込むみかんが練習を再開した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 前回は途中で帰った分、今日は最後まで教えてやることにしよう。
 
 se_stop		0
@@ -1074,23 +916,15 @@ return
 label	mikan_tachi_3_1b
 #---------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やっぱりオレよりかりんが適任だな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その方がかりんも喜ぶだろうし……同じ笛のやり取りはどうもな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんにバレたら殺されそうだ」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01737
 「私がどうしたって？」
 
@@ -1098,59 +932,37 @@ se_stop		0
 wait			1000
 screen_vibration	500,16,16,16	
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えッ………うぉあッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつのまにか背後にいたかりんが、オレの零した台詞に訝しげな視線を向けてきていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何してるんだ、こんなところでっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01738
 「何って、ここはみかんの部屋よ。私が居て当然じゃない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いや、その当然の意味が分かるようで分からないんだが。
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01739
 「それより、あなたこそ何してるの。ブツブツと独り言呟いて怪しいわね……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「別に、オレの方もやましいことは無いが………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それよりかりん、今みかんがリコーダーの練習をしてるんだけど、見てやってもらえるか」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01740
 「え、みかんが……笛を？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 疑念のこもった視線が、その言葉で驚き色に見開かれた。分かりやすくて非常に助かる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （まぁその分、ほかの事には気難しいんだけど……）
 
@@ -1159,36 +971,24 @@ wait		1000
 @karin_large		# 近い
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 声を潜めて耳元で、あたかも秘めやかさを演出するように言葉を繋げていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、お手本とか見せてやってくれ。みかんの笛で」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01741
 「みかんの笛でッ！？　私がお手本を！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「笛を吹くってことは……」
 
 @karin_komikaru_yoku	#コミカル欲
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01742
 「口を付ける！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 扱いやすくて結構だが、この子のみかんへの溺愛っぷりは治した方が良いような気がしないでもない。
 
 #--------------------------------------------------
@@ -1201,20 +1001,14 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01743
 「そして舌使いが分からないみかんに、実演と称して直接口付けを！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、そこまで行ったらもう笛の練習じゃ―――」
 
 @karin_koufun		#興奮
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01744
 「どきなさいッ！！」
 
@@ -1225,12 +1019,8 @@ layer_movepass_play	l_karin,0,play_once
 #screen_flash		500
 #screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 完全に暴走したかりんはオレを突き飛ばし、目の色変えてみかんの部屋へ飛び込んでいく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あッ、おい！？　血迷うなかりんッ！！」
 
@@ -1238,49 +1028,31 @@ screen_vibration	500,16,16,16
 #SE10　鍵の掛かった部屋のドアノブを回す音（ガチャガチャ）
 @SE10
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「って、鍵掛けてやがる！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あの一瞬で扉が閉ざされ、外界から隔離されたみかんの部屋。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その中から、
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01294
 「わッ！？　ど、どうしたのかりんちゃん！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01745
 「はぁはぁッ！　みかん、みかんー！！　実演させなさいー！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01295
 「きゃーーーッ！！」
 
 #SE39　積んでいた物が崩れる音（ドシャドシャッ、ガララッ）
 @SE39
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01296
 「うわわッ！　かりんちゃんがボードゲームの山の下敷きにッ！！　大丈夫！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01746
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何となくドア越しで状況を把握して、それ以降かりんの声は聞こえない。
 
 #■BG（ブラック）
@@ -1289,17 +1061,11 @@ se_stop		0
 @bg_black
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その後は笛の練習どころではなく、崩れた山の整理整頓に時間を費やされるだけだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01747
 「うぅ……実演が、口付けがぁぁ……シクシクシク」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 笛で満足しなかった天罰だ。
 
 window_close
@@ -1323,12 +1089,8 @@ label	mikan_tachi_3_2	#-----------------------------------------------------
 #SE40　リコーダーの練習音
 @SE40			#SE40　リコーダーの練習音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんの部屋から、また笛を練習する音が漏れ聞こえていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しかし最初の頃に比べると、特に問題なく吹けているようだ。
 
 #--------------------------------------------------
@@ -1345,8 +1107,6 @@ if sel=1 then goto mikan_tachi_3_2b
 label	mikan_tachi_3_2a
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかん、入るよ」
 
@@ -1358,83 +1118,53 @@ wait		1000
 @bg_mikan
 @bgm12			#演：仮ＢＧＭ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 流暢な笛の音が止むと、ベッドに腰掛けたみかんが笑顔で応対した。
 
 @mikan_middle		# 中間
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01297
 「お兄ちゃん、もう間違えないで吹けるようになったよ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、廊下で聞いてた。最初の頃と比べるとずいぶん上手くなったぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01298
 「うん。ん～……でも、まだ低い音の時に音が外れちゃうんだよね……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01299
 「吹く時の息が強すぎるせいなんだけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「原因が分かってれば後は注意するだけだな。貸してごらん」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01300
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今までと同じように手本を見せてやろうとすると、唐突にみかんの反応が固まった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その様子に、オレの方まで一瞬言葉に詰まってしまう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ん、どうした？」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01301
 「あ、ううん。お兄ちゃん、みかんの笛使うの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうしないと手本が出来ないだろ？　今までそうしてたじゃないか」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01302
 「そうなんだけどね……。えっと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どうしたんだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今までも貸し借りしていたのに、急に固まったと思ったら慌てたりモジモジしたり。
 
 @mikan_
@@ -1442,23 +1172,15 @@ wait		1000
 @mikan_small		# 遠い
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01303
 「平気、見本無くても。あとはみかんだけで練習できるから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうか……？　まぁそういうんなら構わないけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01304
 「ご、ごめんね……せっかく手伝ってくれてるのに」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、それじゃ見ててやるから、練習するか」
 
@@ -1469,8 +1191,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんは申し訳無さそうに頷いた。
 
 bgm_stop
@@ -1481,12 +1201,8 @@ bgm_stop
 #SE40　リコーダーの練習音
 @SE40			#SE40　リコーダーの練習音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 後はいつもどおりの明るさを見せるみかんと、一緒に時間を過ごす。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何だったのか分からないが、まぁ避けられてるわけでは無さそうだから気にすることも無さそうだ。
 
 window_close
@@ -1505,16 +1221,12 @@ return
 label	mikan_tachi_3_2b
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 自分で練習できてるみたいだから、そっとしておくか。
 
 #■BG（ブラック）
 se_stop		0
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 笛の音を聞きながら、その場を後にした。
 
 #（スケジュール）
@@ -1527,29 +1239,19 @@ label	mikan_tachi_4	#------------------------------------------------------
 #■BG（リビング）
 @bg_living
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誰もいないリビング………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 と思ったら、ソファーの背もたれに隠れて、いちごがグデッと寝そべっていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……どうしたいちご、元気ないな？」
 
 @ichigo_komaru		#困
 @bgm03
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01731
 「あぅ～……パパ～～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何とも気の抜けたようなヘロヘロの声を出すいちご。
 
 #--------------------------------------------------
@@ -1565,106 +1267,72 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01732
 「お腹空いたよ～～……お小遣い使い切っちゃって、お菓子が買えないの～～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「３時のおやつは食べたんだし、夕食まで我慢するしかないな」
 
 @ichigo_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01733
 「そんなの酷いぃ……」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01313
 「あれ、お兄ちゃん………と」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01314
 「わッ、いちごちゃん、どうしたの！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 リビングにやってきたみかんが、いちごの状態に驚いて声を上げる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その手には、３時のおやつとは別のお菓子。
 
 @ichigo_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01734
 「ハッ！！　そ、それはお菓子！！　買ってきたの！？」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01315
 「え？　昨日いちごちゃんと買いに行ったお菓子の残りだけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「昨日買いに……？　いちご、そのお菓子はどうしたんだ」
 
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01735
 「う～……もう食べちゃった」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01316
 「えぇッ！　袋にいっぱいあったあの量を一日で！？」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01317
 「みかん、あれいちごちゃんの一ヶ月分のお菓子とばかり思ってたのに」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……そういえば見覚えの無いスナック菓子の袋がゴミ箱にかさばってたな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………あれ全部、いちごが食べたのか？」
 
 @ichigo_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01736
 「だって～……」
 
 @ichigo_naki		#泣
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01737
 「はうぅぅ……ダメぇ、抗議する力も出ないよぉ」
 
@@ -1672,8 +1340,6 @@ layer_movepass_play	l_ichigo,0,play_once
 @SE13
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01318
 「うわッ、すごいお腹の音！」
 
@@ -1690,15 +1356,11 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01738
 「胃酸で胃が溶ける～～……」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁ……しょうがないな」
 
@@ -1716,24 +1378,16 @@ if sel=1 then goto mikan_tachi_4b
 label	mikan_tachi_4a
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今月だけ特別だぞ、いちご」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 財布から出したお金をお小遣いとして握らせてやった。
 
 @ichigo_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01739
 「えッ！　いいの！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もう無駄遣いするんじゃないぞ。お菓子も食べ過ぎたら身体に悪いからな」
 
@@ -1743,13 +1397,9 @@ layer_movepass_add	l_ichigo,0,	300,	0,0
 layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01740
 「うん！　やったーッ♪　ありがとうパパ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 はぁ……この嬉しそうな笑顔がオレを甘くしていくんだよな。
 
 bgm_stop
@@ -1759,58 +1409,40 @@ wait		1000
 @SE21
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっそくお金を握り締めて飛び出していくいちご。
 
 @bgm12			#演：仮ＢＧＭ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「さて、これはみかんの分だ」
 
 se_stop		0
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01319
 「え？　別にみかんはお小遣いに困ってないよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「目の前でいちごだけにあげたら不公平だしな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかんの食欲なら、余分にあって困ることはないだろう？」
 
 @mikan_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01320
 「うぅぅ～……またみかんを食いしん坊あつかいするぅ」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01321
 「でも、お小遣いは嬉しいよお兄ちゃん！　ありがとッ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちご追っていけ。お菓子買うんだろう？」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01322
 「うんッ！」
 
@@ -1820,56 +1452,36 @@ wait		1000
 #SE21　廊下を走り去る音　※徐々に小さく
 @SE21
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01323
 「待ってーッ、いちごちゃん！　みかんも一緒に買いに行くよー！！」
 
 #SE21　廊下を走り去る音　※徐々に小さく
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 嬉しそうにいちごの後を追っ行くみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それを見送り、みかんが置いていったお菓子を湿気らないように封してやる。
 
 @miu			#閉_にこ
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01466
 「ふふ、甘いですね樹さん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨……なんだ見てたのか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「やっぱり良くないかな、二人にだけ小遣いをやったのは」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01467
 「あれは仕方ないと思いますよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01468
 「それに、もし他の子に知られても、また樹さんがお小遣いをあげてくれるんでしょう？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ははは……そうならないように祈りたいね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 門から出て行く二人を窓越しに眺めながら、ちょっと切実にそう願うのだった。
 
 @bg_black
@@ -1890,26 +1502,18 @@ return
 label	mikan_tachi_4b
 #------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかん、そのお菓子いちごにも分けてあげてもらえる？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 追加でお小遣いをあげるという選択もあったが、癖になるといけない。
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01324
 「うん。いいけどこれ、昨日いちごちゃんが嫌いだって言ってたピザマヨネーズ味だよ？」
 
 @ichigo_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01741
 「え！　くれるのッ、本当に！？」
 
@@ -1924,8 +1528,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01742
 「味なんか何でもいいよ～！！」
 
@@ -1938,29 +1540,19 @@ layer_move	l_ichigo,100,-70,4,-140,0,PASSTYPE_LINEAR
 @SE36
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01325
 「うわわっ！？　飛びついてこなくても逃げないよ…ッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 人間、本当に飢えているときは好き嫌いを言う余裕なんか無いってことだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （今度から嫌いな物は、いちごがお腹を空かせてから食べさせよう）
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01326
 「部屋に行こうよ。他に残してるのもあるから、遊びながら食べよう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01743
 「うんッ、行く行く！！　ありがとみかんー！！」
 
@@ -1970,45 +1562,29 @@ bgm_stop
 wait		1000
 @SE21
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっきまでへばっていたのにもう元気で、いちごはみかんと連れ立って部屋を出て行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 これで来月からは、いちごも無駄遣いを控えていくだろう。
 
 se_stop		0
 @bgm12			#演：仮ＢＧＭ
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01469
 「ふふ、お疲れ様です樹さん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……居たのか、美雨。まぁ追加でお金をあげるより、こっちの方がいいだろうと思って」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01470
 「そうですね。いちごちゃんも来月からは、もう少し大事に使ってくれると思いますよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01471
 「お金で解決するより、ずっと立派なお手並みでした」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そこまで言われるほどのことはやってないけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 来月の小遣いを渡す時にもう一度念を押しておけば、いちごも散財を控えるだろう。
 
 @bg_black
@@ -2038,8 +1614,6 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01165
 「はぁぁ……」
 
@@ -2051,222 +1625,140 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01327
 「はぁ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……何ですか、二人して」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 リビングに入るや否や、いきなり二人のため息を聞かされてしまった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 組み合わせから珍しいが、よく見ると二人は別のことで息を吐いているようだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 雫さんは新聞を見ながら。みかんは折り込みのチラシを見ながら。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうした、みかん？　広告に何かあるのかい？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01328
 「……うん、新しいボードゲームが安売りされてるの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんが見ているのは、新装開店らしいおもちゃ屋のチラシだった。
 
 @shizuku_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01166
 「何だい何だい樹……あたしには聞かないの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01167
 「広告見てるみかんより、新聞見て溜め息ついてるあたしの方が重要そうだろう？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんはどうせ、天気予報でも見て溜め息ついてるんでしょ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01168
 「バカ、たかが天気予報くらいでこんな重い溜め息つく人いないよ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そのたかが天気予報を、この間は知的にするとか何とかこだわってくせに……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……で、雫さんはどうして新聞見て溜め息をついてたんです？」
 
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01169
 「いんや、別に新聞は関係ないね。ただ退屈だから溜め息ついてたのさ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もう二度とあなたが溜め息をついていても心配しないことに、今この瞬間、天地神明に掛けて誓いました」
 
 @shizuku		#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01170
 「オーバーだねぇ……乙女の溜め息の理由を、そんな安っぽい言葉一つで聞き出そうとする方が甘いのさ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、乙女……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ツッコミとかズッコケとかの反応を超越して、固まってしまった……！
 
 @shizuku_ikariwarai	#怒笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01171
 「文句あるのかい……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いえ、いや、別に……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さん本人に文句があるわけではなく、乙女は自分のことを『乙女』なんていう死語で表現しないんじゃないかと……」
 
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01172
 「ま、退屈なのは世の中だねぇ………不景気に回復の兆しは無いし、政治家はクズだし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 話題から逃げたな……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しかしどんな状態だろうと、よもや売春を斡旋してるこの人にだけはクズとか言われたくない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「で、ようやく本題に移ってみかん。ボードゲームがどうしたって？」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01329
 「あ、ほんとにみかんは何でもないんだけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「大丈夫、雫さん以上に実の無い話題なんて、そうそうあるはずがないから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まだブツブツと文句を言ってるが、愚痴レベルで留まっている間は無視だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「けど、みかんはもういっぱい持ってるだろ。そんなに熱中するほどの物？」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01330
 「うんと……それもあるんだけど、ボードゲームは〝みんな〟で楽しめるから」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01331
 「みかん、友達とか家の人とかと一緒に一つのことで楽しむのって、すごく大好きなんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一緒に、か………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 身寄りのない子としてここにいるこの子が言うと、けっこう重いな。
 
 @shizuku		#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01173
 「そんなに欲しいなら樹にねだればいいじゃないか」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01332
 「えっ！？　い、いいよ、そんなの……誕生日でも無いのに、こんなの買ってもらうなんて」
 
 @shizuku_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01174
 「はぁ、いいかいみかん。遠慮なんかしてる人生、何もいいことないよ？」
 
 #@mikan_kusyou		#苦笑
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……お願いですから、雫さんはもっと言葉を選んで喋ってください」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その後も親切の押し売りみたいにまくし立てる雫さんに押され、困惑するみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局みかんがチラシを置いて退室することで話は終わってしまった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （でも、そうだな……今度何かある時は、そのボードゲームを買ってやることにするか）
 
@@ -2286,73 +1778,49 @@ label	mikan_tachi_6	#-----------------------------------------------------
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 夕食までの時間を潰していると来客があった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01333
 「お兄ちゃん、居る？」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「居るよ。どうぞ」
 
 #SE06　部屋のドア開く音（ガチャ）
 @SE06			#部屋のドア開く音（ガチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そのまま中へ招き入れる。
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうかした？　確かざくろやいちごと遊んでたんじゃなかったっけ」
 
 se_stop		0
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01334
 「うん、そうなんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何か不思議そうな顔でこっちを見ている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01335
 「聞きたいことがあるの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01336
 「ねぇお兄ちゃん、おマンコって何？」
 
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いッて………！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 驚きのあまり椅子からズリ落ちてしまった。
 
 se_stop		0
@@ -2361,67 +1829,43 @@ wait		1000
 @mikan_middle		# 中間
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01337
 「だ、大丈夫！？　お兄ちゃんッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、ああ大丈夫……それより、一体……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『どこで』と尋ねかけて、すぐに思い当たった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （ざくろといちごと遊んでたんだよな………出所はそこか）
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01338
 「ねぇ、おマンコって何？　お兄ちゃん知ってる？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ～……えっと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （どうしようか……こんな生活だ。いずれ知ることになるのは間違いないけど）
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01339
 「………？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しかしエッチの雰囲気の中で教えるならともかく、こんな平時に生々しく教えるのか……？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （オレには無理だ……けど、喜んで話しそうな人の紹介くらいは出来る）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんに聞いてみな。喜んで話してくれるよ」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01340
 「ううん。雫さんにも聞いたんだけど、そしたらお兄ちゃんに聞けって笑われたから」
 
@@ -2429,99 +1873,65 @@ wait		1000
 @SE75			#SE75　ショック音（ガーーン！）
 #screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「先越されたのかッ！　こんな時くらい役に立てよ、あの人は！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうする……まさか美雨に振るわけにもいかないし……」
 
 se_stop		0
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01341
 「ん～……いいや、明日学校の先生に聞いてみるよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……何て？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01342
 「普通に、おマンコって何ですかって」
 
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それは不味いッ！　家庭環境が真剣に疑われるから！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とりあえず今言えるのは、その言葉は恥ずかしいから口にするなってこと！」
 
 se_stop		0
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01343
 「え……そうなの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01344
 「でもいちごちゃんもざくろちゃんも、普通に『おマンコおマンコ』って言ってたよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……あの二人は基準にしちゃダメだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とにかく、この施設の中でグレーゾーン。一歩でも外に出て他人に言ったらアウトだからな」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01345
 「う、うん……何か分からないけど、分かった……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いまいち納得し切れていないようだが、みかんは良い子なので頷いて返す。
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01346
 「……えっと、意味は教えてくれないの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「嫌でもそのうち分かるから……それまで我慢しな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう、図らずも雫さんの言葉通り、いずれオレが教えることになるのだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんを二人の元へ返しながら、その遠くない未来のことを思って溜め息をつくのだった。
 
 @bg_black
@@ -2538,46 +1948,30 @@ label	mikan_tachi_7	#----------------------------------------------------
 @bgm12			#演：仮ＢＧＭ
 @bg_genkan		#玄関
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんが、玄関で出かける準備をしていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうした、みかん？」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01347
 「うん。学校の友達と遊びに行くの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 トントンとスニーカーのつま先を叩きながら、みかんが嬉しそうに破顔する。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 学友と過ごすというのは楽しみなイベントの一つなのだろう。
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01348
 「お兄ちゃん、もしかしてみかんに何か用事だったの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、気にせずに行っといで。遅くなるまでには帰ってくるんだぞ」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01349
 「分かった。行ってきまーす！！」
 
@@ -2586,24 +1980,16 @@ wait		1000
 #SE30　玄関のドアが開く音
 @SE30			#SE30　玄関のドアが開く音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 元気な挨拶を残し、出かけるみかんを見送った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （せっかくの休みだから遊んでやろうと思ったんだが、友達付き合いが優先だな……）
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「さて、オレは何して過ごすかな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 代わりに暇を持て余したオレは、部屋へと戻っていった。
 
 @bg_black
@@ -2620,12 +2006,8 @@ label	mikan_tachi_8	#-----------------------------------------------------
 #■BG（住宅街）
 @bg_jyuutakugai		# 住宅街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨に頼まれた買い物の帰り道のこと。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01350
 「あれ……？　何か落ちてるみたい」
 
@@ -2634,24 +2016,16 @@ label	mikan_tachi_8	#-----------------------------------------------------
 wait		3000
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何かに気付いたみかんが前方に駆けた。
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01351
 「あっ、お兄ちゃん。これ財布だよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「財布？」
 
@@ -2660,41 +2034,27 @@ wait		1000
 @mikan_middle		# 中間
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01352
 「ほら」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう言って見せるみかんからそれを受け取ると、ずっしりと重みが伝わってきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……確かに財布だが。すごいな、万冊だらけだ」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01353
 「こんなにたくさんのお金……落とした人、困ってるだろうね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「こんなに持ち歩くならカードにすればいいのに……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「けどまぁ、落としてるようじゃどっちも変わらないか」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01354
 「どうするの、お兄ちゃん？」
 
@@ -2714,27 +2074,19 @@ if sel=2 then goto mikan_tachi_8c
 label	mikan_tachi_8a
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「しょうがない、もう一度戻ろう。商店街の入り口に交番があったから」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01355
 「うん！　落し物は交番だよね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 Ｕターンすると、オレとみかんはまた来た道を戻っていった。
 
 #■BG（ブラック）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 交番で必要な書類を書いてから、その場を後にする。
 
 @mikan_small		# 遠い
@@ -2742,33 +2094,21 @@ label	mikan_tachi_8a
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01356
 「よかった。これで落とした人も安心だね」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01357
 「それに、もしかしたらみかん達、お礼に一割もらえるかもしれないよ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん？　そうだな、その時はみんなで何か美味い物でも食べに行くか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 財布を手にした時に、嫌でも過ぎった『持ち帰る』という選択肢。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誰も見てなかったのに、こうして一割のお礼で無邪気に喜ぶみかんは本当に純真だと思う。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （本当に一割返しが貰えたら、その時はみかんに使い道を決めさせてやるか）
 
@@ -2789,99 +2129,63 @@ return
 label	mikan_tachi_8b
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「中身も見てみようか」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01358
 「ええッ！？　人の財布だよ、お兄ちゃん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 財布の口を開くオレを見て驚き、そして怪訝そうな視線でこちらを見つめてくる。
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01359
 「交番に届けようよ……落とした人も困ってるよ、きっと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「別に変な気持ちで中を見るんじゃないって。もしかしたら持ち主が分かるかもしれないだろ？」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01360
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 目的を口にしながら財布を開くと………予想を上回る万札っぷり。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すごいな……この不景気な中で、何でこんな局地に福沢さんが密集してるんだか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 カードポケットに目を向けると、すぐ免許証を発見できた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほら、発見。この近所の人みたいだな」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01361
 「わぁッ、そっかぁ！　お兄ちゃん頭良い！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「直接届けに行くか。すぐ近くだし」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01362
 「うん♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 感心するみかんを連れ、オレ達は帰路から外れた脇道へと入っていった。
 
 #■BG（ブラック）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 …………………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 探し当てた家で、財布の主に泣きそうなくらい感謝され、オレとみかんはその場を後する。
 
 @mikan_small		# 遠い
@@ -2889,54 +2193,34 @@ label	mikan_tachi_8b
 #■（住宅街）
 @bg_jyuutakugai		# 住宅街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01363
 「ふぅ、無事に渡せてよかったね。何かおみやげまで貰っちゃったし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ。別に気使わなくても良かったんだけどな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 包装紙に包まれた缶を抱えながら、嬉しそうにみかんは笑顔を零していた。
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01364
 「えへへ、クッキーだって。みかんクッキー大好き♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01365
 「やっぱり良い事をした後はお礼があるんだね。届けてよかった」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 届けなければ全額自分達の物だったけどな………と、黒いことも一瞬考えてしまったが。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ常識で考えて良いことをしたんだから、もっとオレも素直に喜んだほうがいいだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごが喜びそうだな。さっそく帰ったら美雨にお茶でも入れてもらうか」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01366
 「うんッ！　楽しみ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 財布を拾う前より軽い足取りで、オレ達は家路に着いた。
 
 @bg_black
@@ -2957,59 +2241,37 @@ return
 label	mikan_tachi_8c
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01367
 「……お兄ちゃん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 財布を持って固まったオレに、純粋な瞳が向けられた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （う～ん……罪悪感はないことも無いが、しかしこの札の重さは誘惑の重さ…）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……ササッ。
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01368
 「あッ！　ああーーーッッ！！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「シィッ、みかん……！　黙ってれば分からないって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 懐に財布をしまいこむオレに、みかんが悲鳴にも近い声を高上げた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「後でみかんにも何か買ってやるから。な？」
 
 @mikan_komikaru_kanashimi	#コミカル哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01369
 「お兄ちゃんが！」
 
@@ -3027,13 +2289,9 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01370
 「お兄ちゃんがーー！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いかん、かなりショックが大きくて錯乱してる。
 
 #///////////////////////////////////////////////////////
@@ -3043,8 +2301,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01371
 「わーーーッ、お兄ちゃーーーん！！！」
 
@@ -3052,13 +2308,9 @@ layer_movepass_play	l_mikan,0,play_once
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あっ、こら待てみかん！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それから数十分。そのままフェードアウトしていくみかんとの追いかけっこを続ける羽目になった。
 
 se_stop		0
@@ -3082,51 +2334,35 @@ label	mikan_tachi_9	#------------------------------------------------------
 #■BG（図書室）
 @bg_library		# 図書室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 学校で自習時間に読む本を選ぶということで、みかんと一緒に図書室へとやって来た。
 
 @mikan_middle		# 中間
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01372
 「うわぁ、やっぱり多いねぇ……。どれ持って行こうかなぁ」
 
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『図書室』の名に恥じぬ蔵書の多さに、みかんは圧倒されている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いつもはどんな本を読んでるんだ？」
 
 @mikan_small		# 遠い
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01373
 「えっと………漫画」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そりゃ学校には持っていけないなぁ……」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01374
 「一冊ずつ確かめようと思ったけど、これじゃ日が暮れちゃうね。どうしよう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 手近な本をパラパラとめくりながら、活字の多さに溜め息を吐くみかん。
 
 #--------------------------------------------------
@@ -3143,19 +2379,13 @@ if sel=1 then goto mikan_tachi_9b
 label	mikan_tachi_9a
 #-----------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 選んでやることも出来たが、やはりこれくらいは自分でやらせないと。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「本棚の上にジャンルが書いてあるだろ？　それを見てまずは選ぶんだよ」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01375
 「あ、なるほどー。えっと……」
 
@@ -3206,78 +2436,52 @@ layer_move	l_mikan,200,40,4,0,0,PASSTYPE_LINEAR
 wait		1000
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 本棚の間を縫いながらウロウロとさ迷い歩く。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （さて、時間かかるだろうから。オレも何か本でも読んで………）
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01376
 「あ、春の画って、絵本かな？」
 
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「がッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 本棚の奥まで進んだみかんの声に、思わず変な断末魔が漏れた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （うかつなッ！！　本棚の奥にそういうコーナーがあるのを忘れてた！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 エロ本と書けばいいのに〝春画本〟とかいう分かり難い総称で、オレも初めは間違えた悪魔のコーナーが……
 
 se_stop		0
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01377
 「えっとぉ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待てみかんッ、その春はお前は思っているような純真綺麗な日本の春じゃないんだ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 中身を見る前に止めるようと、そのコーナーへ飛び込むオレ……
 
 #CH（みかん頬紅）
 @mikan2			#欲情_普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01378
 「………」
 
 #SE75　ショック音（ガーーン！）
 @SE75			#SE75　ショック音（ガーーン！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うわッ、遅かったか……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが、すでに中を覗きこんで固まっているみかんの姿があった。
 
 @mikan_komikaru_kanashimi	#コミカル哀
@@ -3295,75 +2499,47 @@ layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01379
 「お、おおお、お兄ちゃんっ……春の棚に、こんな本が……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかん。それも立派な大人の春なんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほら、やっぱりオレが選んでやるから。向こうに行こう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01380
 「ででっ、でもッ……この女の人、どうしてこんなことされて喜んでるの……！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01381
 「こ、ここ、こんなの、お尻が壊れちゃうよぉ……！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「よりによってコアな物をッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 チラッと覗く背表紙には、『アナル』とか『破壊』とかいう景気の良い文体が躍り狂っていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかん……大人の春だ」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01382
 「（ゴクッ）……お、大人の春」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いや、絶対違うと思うが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とりあえず今はこんな漠然とした答えしか返せない。
 
 bgm_stop
 #■BG（ブラック）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局その後、みかんには無難な短編小説を選んであげたが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01383
 「………（チラッ、チラッ）」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 よっぽど気になるのか、まだチラチラとその棚へと視線を送るみかんだった。
 
 #（スケジュール）
@@ -3374,52 +2550,32 @@ return
 label	mikan_tachi_9b
 #-----------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 怪しげな本も多数混ざってる図書室だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 変なものを選ばせないよう、オレが決めてやるべきだな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「やっぱり、無難に小説がいいだろ。短編の」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01384
 「う～ん………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 漫画中心のみかんが返事を渋る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 活字慣れしていないのを念頭に選んだ一冊を、みかんに渡してみた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほら、これならページも薄いし、文字も大きいから見やすそうだろ？」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01385
 「えっと……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ペラ、ペラ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01386
 「男は服越しに乳房を探りながら……反対の手をゆっくり下半身へ……」
 
@@ -3428,56 +2584,36 @@ label	mikan_tachi_9b
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 バシッ！！
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01387
 「わっ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 自分でも驚きの勢いで、みかんの手から本を奪い取っていた。
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01388
 「ど、どうしたの……！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いや、なんでもない。何でも……」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01389
 「………？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （よりによって官能小説……ちゃんと奥の専用コーナーに封印しておけよな……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 市街地に地雷が埋まってるみたいに、たまに一般コーナーにまでこういうのが拡散してるんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「別の本にしよう……オレの知ってる本の中から選んでみるか……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……今度時間のある時にでも、ちゃんと整理しなおしておかないとな。
 
 @bg_black
@@ -3500,16 +2636,10 @@ label	mikan_tachi_10	#-----------------------------------------------------
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 遠慮する美雨から強引にお使いを引き受けた帰り。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんといちごを商店街で発見した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかんにいちご、二人とも買い物か？」
 
@@ -3517,36 +2647,24 @@ label	mikan_tachi_10	#-----------------------------------------------------
 @ichigo_yorokobi	#喜
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01744
 「あ、パパだ。今ね、みかんに街を案内してるところだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01390
 「ここのお店の場所がまだ良く分からないから、みかんがいちごちゃんにお願いしてるの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかんはこの街初めてだもんな。何か気に入りそうな店はあった？」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01391
 「う～ん……お店はいっぱいあるんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつもの気持ちよい返事を期待していたが、みかんは困ったように苦笑い。
 
 @ichigo_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01745
 「あ、みかん！　あれも面白そうッ、行こ行こ！！」
 
@@ -3554,103 +2672,65 @@ label	mikan_tachi_10	#-----------------------------------------------------
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 案内役のはずのいちごがみかんを置いて、数軒先のおもちゃ屋へと走っていった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01392
 「慌しくてどれがどのお店かよく覚えてないの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なるほど」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01746
 「このゲーム面白そう～！　いいなぁ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01747
 「あッ！　あのお花きれー！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01748
 「わ～！　こっちのお店、すごく可愛いバックがあるー♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 数分と同じ場所に留まらず、歓喜の声を上げながら走り回るいちご。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「確かに、あのいちごに案内されても、場所を確認するゆとりは無さそうだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01393
 「あはは……」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01749
 「もー！　みかんもパパも遅いー！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01750
 「早くしないと、全部回る前に日が暮れちゃうよッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「全部って商店街中を回るつもりか……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほら、案内してるんなら、もっとみかんも楽しませてあげないとダメだろう？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01751
 「だから頑張って良さそうなお店を回ってるのにー」
 
 @ichigo_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01752
 「それにいちごだって久しぶりに遊びに来たんだから、いっぱいお店に行きたいよぉ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……どこまでもエネルギッシュな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 本気で今日中に商店街を網羅しないと落ち着く気がしない。
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01394
 「お兄ちゃん、みかんも別に今のままでいいよ。場所は不安だけど、お店見て回るのは楽しいもん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そっか？　まぁ当事者のみかんがそう言うなら構わないけど」
 
@@ -3669,25 +2749,17 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01753
 「ねぇねぇ、パパも行こうよぉ。他にもいっぱいお店知ってるから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「こら、服を引っ張るな……今はお使いの最中なんだよ」
 
 @ichigo_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01754
 「えー、お使いなんて後でいいよぉ～。一緒に遊ぼうよパパ～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨に頼まれた夕食の材料なんだけど？」
 
@@ -3696,20 +2768,14 @@ layer_movepass_play	l_ichigo,0,play_once
 wait		1000
 @ichigo_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01755
 「早くお使いを済ませてよパパッ！！　晩御飯が遅れるじゃんかッ！」
 
 @mikan_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01395
 「そうだよお兄ちゃんッ！　道草食うのは悪い人だよッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 単純すぎるぞいちご……そしてみかん…
 
 #--------------------------------------------------
@@ -3726,16 +2792,12 @@ if sel=1 then goto mikan_tachi_10b
 label	mikan_tachi_10a
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「見るだけじゃ疲れるだろ。これは特別のお小遣いだ」
 
 @mikan_odoroki		#驚
 @ichigo_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01396
 「えッ、ほんと！？　いいの！？」
 
@@ -3751,25 +2813,17 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01756
 「やったぁッ、お小遣いー！！　ありがとうパパー♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「暗くなる前に帰ってくることと、晩御飯が入らなくなるから買い食いは控えること」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01397
 「うん！　わかったッ、ありがとお兄ちゃん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01757
 「いってきまーす、パパ！！　行こ、みかん！」
 
@@ -3779,16 +2833,10 @@ bgm_stop
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 お小遣いを受け取ると、嬉しそうに商店街の中へ走っていく二人の背を見送る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さて、オレも早く帰らないと。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 晩御飯が遅れたらいちごに怒られそうだ。
 
 se_stop		0
@@ -3810,22 +2858,16 @@ return
 label	mikan_tachi_10b
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「暗くなる前に帰って来いよ。あと、はしゃぎ過ぎて怪我をするなよ、いちご？」
 
 @ichigo_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01758
 「大丈夫だよー。パパこそ転んでおかずを潰しちゃったら許さないから」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01398
 「晩御飯には帰るから、行ってくるねお兄ちゃん」
 
@@ -3833,12 +2875,8 @@ bgm_stop
 @mikan_
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 二人はまたはしゃぎながら、右へ左へウィンドウショッピングを再開する。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ、普段出来ないことを自由にやらせてやろう。
 
 @bg_black
@@ -3855,114 +2893,78 @@ label	mikan_tachi_11	#-----------------------------------------------------
 #■BG（住宅街）
 @bg_jyuutakugai		# 住宅街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨の手伝いで夕飯の材料を買いに歩いていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何故かついて来たみかん・いちご・ざくろが、学校のことで盛り上がっている。
 
 @mikan			#普通
 @ichigo_takurami	#企み
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01759
 「それでいちご怒ったから、授業中に後ろからその先生のブラジャーのホック外してやったの」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01399
 「服の上から外せるなんて、すごいねいちごちゃん！　先生どうなったの？」
 
 @ichigo_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01760
 「そしたらねぇ……あははッ♪　面白かったよー」
 
 @ichigo_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01761
 「おっぱいが急に小さくなって、パットがポトポトって服の中で転がってるの。すごい慌ててたよー」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……どうにも、穏やかじゃない話で盛り上がってるのが気になるが。
 
 @ichigo_takurami	#企み
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01762
 「懲りないよねー、あの先生。ざくろも前に怒ったとき、職員室で何かやったんだよね？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01037
 「教師がいる前で、ブラジャーごとブラウスを剥いで丸出しにしてやったの」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01400
 「えッ、職員室で！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01401
 「下着と一緒にって、どうやって脱がしたの」
 
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01038
 「それくらいなら、目瞑ってても楽勝」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01039
 「……先生、奇声上げて逃げてった。下も脱がそうとしたのに、逃げ足が速い」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「君ら……いくら何でもやりすぎじゃないか」
 
 @ichigo_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01763
 「だって、あの先生すぐいちご達に八つ当たりするんだもんー。みんな嫌ってるよ」
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01040
 「自業自得」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「は、はは……こえぇ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （この二人に嫌われたら、オレもいつ公衆の面前でズボンを脱がされるか分かったもんじゃないな……）
 
@@ -3971,12 +2973,8 @@ wait		1000
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……と、教育上かなりよろしくない事を話しながら、商店街に到着していた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「さて……」
 
@@ -3984,12 +2982,8 @@ wait		1000
 @ichigo			#普通
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 同時に、付いてきた子供達が目を輝かせてこちらを見上げた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いいよ、言ってみな」
 
@@ -4002,8 +2996,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01402
 「みかん、カレーが食べたい！！」
 
@@ -4019,28 +3011,18 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01764
 「ハンバーグ、ハンバーグ！」
 
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01041
 「キンピラゴボウ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 口火を切って一斉に話し出す三人の少女。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ付いてきた目的は最初から分かってたけど。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （みかんはカレー、いちごはハンバーグ、ざくろはキンピラか）
 
@@ -4060,8 +3042,6 @@ if sel=2 then goto mikan_tachi_11c
 label	mikan_tachi_11a
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……カレーにするか」
 
@@ -4077,103 +3057,67 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01403
 「やったー！！」
 
 @ichigo_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01765
 「えぇッ、何で！？」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01042
 「つっちー、この瞬間いちごと私を敵に回したわよ」
 
 @zakuro_ikari		#怒
 @ichigo_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 怪しい手つきで指をワキワキさせながら、ざくろがにじり寄ってくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とっさに来る途中の話が脳裏を過ぎった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （ヤベェッ、視線がベルトを狙ってやがる！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待て待て！　じゃ、また次の機会はいちごとざくろの希望を聞くことしよう」
 
 @ichigo_takurami	#企み
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01766
 「むー……別にカレーも好きだからいいけどさ」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01043
 「きんぴら……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろはあきらめない。意外な執念深さだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……青ノリ買ってやるから。な？」
 
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01044
 「うん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あっさりと折れた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃ、とりあえず今日はカレーの材料を買いに行くか」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01045
 「青ノリも」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「カレーの材料と青ノリを買いに行くか……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何とか公衆の面前で羞恥プレイは受けずに済んでまとまってくれた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （はぁ、疲れた……）
 
@@ -4194,8 +3138,6 @@ return
 label	mikan_tachi_11b
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じゃ、ハンバーグにするか」
 
@@ -4208,37 +3150,25 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01767
 「うんッ！　ハンバーグだー！！」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01404
 「あぅ……カレー食べたかったな」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01046
 「……わざわざ来る途中で実例を挙げたのに。脱がされたいのね」
 
 @zakuro_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しょんぼりするみかんと、ジリジリと迫ってくるざくろ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……っていうか、あの話がここで伏線になってくるのか！？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「っく、だがベルトはやらせんッ！！」
 
@@ -4249,8 +3179,6 @@ wait		1000
 @zakuro_large		# 近い
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01047
 「ふっ……」
 
@@ -4261,132 +3189,84 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #@SE37			#SE37　金属衝突音（カキィンッ！）※剣で打ち合った感じ。擬音的な役割で汎用的に使
 se		0,	"sound\se\SE37_金属衝突音.WAV",play_wait
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 シュルシュルシュル……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なぁッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 バックルを守るオレの横を過ぎる一瞬で、ざくろは見事ベルトを引き抜いていた……！
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「す、すげぇッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや！　って言うか、おかしいだろッ！」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01048
 「次はズボン………キンピラゴボウの恨み」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じょ、冗談じゃないッ！　たかがキンピラでズボンを脱がされてたまるか……！」
 
 @zakuro_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01049
 「たかが……」
 
 screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひぃッ！　ごめんなさいッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃ、次はキンピラにしてやるから……な？　な？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01768
 「うわー……パパかっこ悪いー……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01405
 「お兄ちゃん……ちょっと幻滅するかも…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「プライドよりズボンが大事だ」
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01050
 「……いいけど。青ノリもセットなら」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「キンピラに……？　あぁ、まぁ脱がされるよりマシだ。好きなだけかけろ」
 
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01051
 「……うん」
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ようやく、にじり寄っていたざくろの歩みが止まった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はあぁ……晩御飯の材料で、何でこんな危機的状況に陥らねばならんのか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しかし、ざくろの中では『青ノリ＞キンピラゴボウ＞オレの体裁』ということなのか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……納得いかねぇ。
 
 @ichigo_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01769
 「パパ、早く買い物に行こうよ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、そうだな……とにかく今は早く帰りたい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……このメンバーで夕食の献立は話し合わないようにしようと決めながら。
 
 @bg_black
@@ -4406,22 +3286,16 @@ return
 label	mikan_tachi_11c
 #--------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「キンピラにしよう」
 
 @zakuro_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01052
 「おぅイエー」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01406
 「キンピラ………」
 
@@ -4440,90 +3314,62 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01770
 「えー……キンピラゴボウ～～～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 これはまた、予想通り反応がすごいな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ところで、ざくろってキンピラが好きなんだっけ？」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01053
 「別に……何となく気分」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01771
 「だったらハンバーグにしてよッ。いちごキンピラ嫌い！」
 
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01054
 「知ってる」
 
 @ichigo_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01772
 「なッ、なのに何でぇッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ、いい機会だいちご。嫌いでも頑張って食べろ。みかんもな？」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01407
 「うん……みかんは別に嫌いってほどじゃないけど」
 
 @ichigo_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01773
 「う～……どうして楽しい食事の時間に、いちごだけ嫌な思いをしないといけないの～」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01055
 「好き嫌いがあるから」
 
 @ichigo_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01774
 「……………」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01408
 「うわぁ、身も蓋もない切り返し……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だったら何かデザートでもつけてもらうか。それはいちごが選んでいいよ」
 
@@ -4539,8 +3385,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01775
 「デザート！　ほんとッ！？」
 
@@ -4553,22 +3397,14 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01409
 「わッ、うわッ！　お兄ちゃん、みかんも！　みかんもデザート欲しいッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はいはい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 余分な出費はオレの自腹になるんだが。まぁ子供達に対しての甘さの付けだな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 機嫌を直すいちご達に頷きながら、買い物へと入っていった。
 
 @bg_black
@@ -4585,146 +3421,94 @@ label	mikan_tachi_12	#------------------------------------------------------
 #■BG（玄関）
 @bg_genkan		# 玄関
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そろそろ日も暮れ始める頃、外から帰って来たみかんと玄関で鉢合わせた。
 
 @SE30			#SE30　玄関のドアが開く音
 wait		1000
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01410
 「ただいまッ、お兄ちゃん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おかえり。外で遊んでたのか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01411
 「うん、学校の友達と川の方に行ってたの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 スニーカーや袖口が川の水で濡れていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「分かってると思うけど、深い方まで行くんじゃないぞ」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01412
 「大丈夫だよッ、他の子もみんな遊んでる浅い川だもん」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01413
 「いっぱい遊びを教えてもらったから、今度みんなで一緒に行こうね♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……だな、目の届くところに居る方がオレも安心だ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その返事で話題は終わり、別段通りかかっただけなので用事も無く別れて終了なのだが。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ふと気になったことをみかんに尋ねてみた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかんはボードゲームをいっぱい持ってるけど、友達とはいつも外で遊んでるな？」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01414
 「え？　うん。外で遊ぶのも楽しいよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それはいいんだけど、オレ達に遠慮することはないぞ。家で遊びたかったらつれてきていいからな」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01415
 「ん……うん……それは、みかんも家で遊びたいけど」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 頷きはするが、みかんの憂いは晴れない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……何だ、遠慮じゃないのか？）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 …………あ。そういうことか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「調教はしないさ、心配しなくても。もちろんあの部屋も知られないようにしてればいいし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごとは中でも遊んでるし、屋外じゃないと嫌ってわけでも無いんだろ？」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01416
 「うん、みかんは中でも外でもどっちでもいいよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なら今度ここに連れといで。賑やかな方がいちごも喜ぶだろ」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01417
 「そうだね、うん！　友達いっぱい連れて来ようっと♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ。ほら、手洗っておいで。美雨がおやつ用意してるから」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01418
 「やった！　おやつー、おやつー♪」
 
@@ -4733,46 +3517,30 @@ wait		1000
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 嬉しそうに洗面所へ走っていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01056
 「……中でも外でもいい」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんが行った反対の角から、ざくろが静かに姿を覗かせていた。
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01057
 「調教の成果？　みかんの大胆発言」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 大胆？
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01058
 「みかんの友達は部外者だから、乱交するときは気をつけて」
 
@@ -4782,25 +3550,17 @@ wait		1000
 #SE18　廊下を歩き去る音　※徐々に小さく
 @SE18			#廊下を歩き去る音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （部外者、乱交……！）
 
 screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「らッ！　乱交！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待てざくろ！　中とか外とか、そんな妙なところだけ聞いて曲解していくな！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とんでもない思い違いをしているざくろを追い、リビングへ飛び込んでいった。
 
 @bg_black
@@ -4818,49 +3578,31 @@ label	mikan_tachi_13	#-----------------------------------------------------
 #■BG（リビング）
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 朝食を済ませた後の慌しい時間帯。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 他の子が登校準備をする中で、いちごとみかんはリビングのテレビの前にいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「二人とも何してるんだ、学校に遅れるぞ？」
 
 @ichigo_ikari		#怒
 @mikan_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01776
 「シィーッ！　今いちご達星占い見てるからッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01419
 「もうすぐだから、ちょっと待ってて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 二人がかじり付くテレビの中で、ポップなキャラが星を散りばめながら占いをしていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ時間のかかるものでも無いし、遅れるようなことはないだろう。
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01420
 「お兄ちゃんは見ないの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん？　あぁ、オレは……」
 
@@ -4878,121 +3620,77 @@ if sel=1 then goto mikan_tachi_13b
 label	mikan_tachi_13a
 #----------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうだな、結構信じる方だし」
 
 @mikan_
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ついでだから二人の間に座り並んで見る事にする。
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01472
 「あら……ふふっ」
 
 @miu_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 で、美雨に笑われてしまう……何か恥ずかしい。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレの運勢は………金運○　恋愛◎　健康○　勝負運△
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すげぇ微妙……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 例えば恋愛が良いからって告白しても、勝負運が低いからフラれる可能性もあるわけで。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ占いなんて得てしてそういうものかもしれない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「二人はどうだった、結果」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01421
 「みかんはね、全部二重丸だったよ！」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01422
 「何をしても上手くいくから、積極的に行動しましょうだって♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 飛び上がらんばかりに欣喜するのはみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 対して、
 
 @ichigo_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01777
 「い、いちご全部ドクロマークだった……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 放心したように呟くのはいちご。
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01423
 「ど、ドクロマーク……あのレアな判定が四つ全部なんて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01778
 「もしかしていちご、今日が人生最後の日……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「大袈裟だな、いちご……ほら、たかが占いだろ？」
 
 @ichigo_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01779
 「たかがじゃないよッ！　パパだってさっき信じてるって言ったもん……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そういえば言った気がするな………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どっちでもないから適当に言ったのが裏目に出たか……
 
 @ichigo_naki		#泣
@@ -5006,20 +3704,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01780
 「うわーーッ、パパも今日がいちごの人生最悪の日だって信じて疑わないんだーーー！！」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01424
 「そ、そうだよ、いちごちゃん。今日はずっとみかんと一緒にいよっか……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01425
 「そしたら、みかんの二重丸でいちごちゃんのドクロも無くなるかも」
 
@@ -5031,58 +3723,38 @@ layer_move	l_ichigo,100,-70,4,-140,0,PASSTYPE_LINEAR
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01781
 「うぅぅ……ありがとみかん～、今日一日いちごを見捨てないで」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 助け舟を出すみかんに、悲愴さを漂わせたいちごが泣きすがる。
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃみかん、悪いけどいちごを頼む」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01426
 「あの、いちごちゃん……そんなにくっつかれたら歩けないんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01782
 「ヤダ～ヤダよぉ～～～、いちごを見捨てないでみかん～～～」
 
 @mikan_komikaru_kanashimi	#コミカル哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01427
 「あぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01428
 「んしょ、んしょ……っと」
 
 @mikan_
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 子泣き爺のようにしがみつくいちごを引きずりながら、ズリズリとリビングを出て行くみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「教室は別だけど、どうするつもりなんだろう……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 幸運なはずのみかんまで災難にあって、ご愁傷様としか言いようがなかった。
 
 @bg_black
@@ -5103,133 +3775,85 @@ return
 label	mikan_tachi_13b
 #----------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「特に信じてるわけじゃないからな……」
 
 @mikan_
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 応えながら、二人の占いが終わるのを漠然と見守っていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 十二星座ごとに結果が表示され、いつのまにか自分の月が終わった頃……二人に変化が見られた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「終わった？」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01429
 「ん、うん………全部二重丸だったけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その割には、表情が暗い。
 
 @ichigo_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01783
 「あははっ、いちごは全部ドクロだったよぉ……ざんねーん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一方でいちごは、そんな結果なのにあっけらかんとしたものだった。
 
 @ichigo_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01784
 「でもいいや、当たらないよね占いなんか。パパも信じてないんでしょ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、ちょっと気分が左右されるくらいで………あ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんの表情が微妙なのはこのせいか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01430
 「当たらないのかな、この占い……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01785
 「当たらないよねっ、占いなんか♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え、えーっと……オレは当たらないと思うけどな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁみかんには悪いけど、信じてないのは事実だし。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01431
 「う……そっか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「けど全然適当ってわけでもないだろうから、後はみかんの努力次第だろ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「気にせず今日も頑張ってこい」
 
 @ichigo			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01786
 「そうだよ。ドクロのいちごが元気なのに、二重丸のみかんが元気無いなんておかしいよ」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01432
 「ん、そうだよね……分かった」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 星占いの終わったテレビを消すと、吹っ切れたようにみかんが立ち上がる。
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01433
 「遅れちゃうよ、いちごちゃん。行こう」
 
 @mikan_
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とりあえず復活したっぽいみかんと共に、リビングを出て行くいちご。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 合流した子供達の声を聞きながら、今日もみんなを見送って一日が始まる。
 
 @bg_black
@@ -5258,17 +3882,11 @@ label	mikan_tachi_14	#-----------------------------------------------------
 #SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 @SE28			#SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ガタッ、ゴソゴソゴソ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 食堂から何か漁っているような物音が聞こえた。
 
 #■BG（食堂）
@@ -5276,65 +3894,43 @@ label	mikan_tachi_14	#-----------------------------------------------------
 @bg_dining		# 食堂
 @SE28			#SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゴソゴソッ、ガササッ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01434
 「う～～ん……ないよぉ～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何をやってるんだ……？」
 
 #CH（ここから立ち絵表示）
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01435
 「えっ、うわっ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 物音の正体が驚いて飛び上がる。
 
 @bgm12			#演：仮ＢＧＭ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……まぁ、戸棚を漁ってる時点で、目的は明らかだけど」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01436
 「えッ、な、何のこと～？　みかん別に、食べ物なんか探してないよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「怒らないって。お腹減ったなら、美雨に言えばいいじゃないか」
 
 @mikan_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01437
 「違うよぉ、もう。お兄ちゃん信じてない～～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01438
 「別にみかん、急に和菓子っぽい甘いお菓子が食べたくなったとか、全然そんなのじゃないんだもんっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どんどん思考が具体的になっていく。
 
 #SE13　お腹の音・弱（キュルル……）
@@ -5342,20 +3938,14 @@ label	mikan_tachi_14	#-----------------------------------------------------
 #キュルルル……
 @mikan_komikaru_kanashimi	#コミカル哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01439
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……お腹が鳴ったな」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「隠さなくても、お腹がすいてたくさん食べるのは悪いことじゃないだろ」
 
@@ -5373,34 +3963,22 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01440
 「だってみかんだけ食べてると、他の子より太っちゃうよぉ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それは隠れてコソコソ食べてても解決する事象ではないが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごに負けず劣らず、普段の三食から、みかんは健啖だからな」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01441
 「ほんとは、ようかんが欲しくて探してたの……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01442
 「でももうすぐ晩御飯だから、美雨さんに言っても我慢するようにって言われちゃうよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「確かに。時間的にはそうなるな」
 
@@ -5412,49 +3990,31 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01443
 「はぅ～……元気が出ない～……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01444
 「……何だか、お兄ちゃんのがアイスキャンデーに思えてきちゃったよぉ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今のは、『お兄ちゃんの〝顔〟とか〝腕〟』と言いたかったのだと解釈しておこう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こと食べ物において、みかんはちょっとキャラがバグることがあるからな。
 
 #■BG（黒）
 @bg_black		# 黒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じゃあ、これでもしゃぶるか、みかん？　腹の足しにはなるかもしれないぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01445
 「うん！　お兄ちゃんの『濃厚練乳入りミルクアイス』、みかんに沢山しゃぶらせて♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01446
 「ちゅぶじゅじゅッ！　ずぢゅっ、ちゅぶぅッ……くぢゅっ、ちゅぢゅるっ、ぴぢゅぅッ…！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01447
 「くぢゅぶッ、ちゅぢゅぅっ…中の練乳、すぐに沢山あふれ出せちゃうからね……ぴぢゅむっ、ぞぢゅぢゅじゅじゅッ！」
 
@@ -5462,49 +4022,31 @@ layer_movepass_play	l_mikan,0,play_once
 #■BG（食堂）
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……とか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや練乳って……とんだ糖尿病だな、おい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01448
 「………？」
 
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それ以前に、今の妄想はオレもみかんも完全にキャラがおかしすぎる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01449
 「戸棚にお菓子は何も無いみたい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あんまり買い置きとかしないタイプだからなぁ、美雨は」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 特に食べ物系は、必要になったときの度に美雨自身が手を加えているから。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ、ご飯まで我慢しな。もうすぐだから」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01450
 「は～い」
 
@@ -5524,152 +4066,98 @@ label	mikan_tachi_15	#-----------------------------------------------------
 #■BG（食堂）
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 食堂にやってくると、みかんが冷凍庫を開け放っていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……何してるんだ？」
 
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01451
 「え？　あ、お兄ちゃん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ボリボリ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……何を食べてる」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01452
 「氷だよ～♪　アイスメーカーに出来てるやつ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……それって普通の氷だよな……味の無い水を凍らせただけの」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01453
 「え？　変かなぁ。暑いときはアイスの代わりに食べるんだよ」
 
 @mikan_warai2		#笑2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01454
 「元がお水だから、お腹も膨れないしすごく便利でしょ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ボリボリボリ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ所詮水だからな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そう言えば美雨が、最近冷凍庫の氷の減りが早いって言ってたっけ」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01455
 「み、みかんだけじゃないよ。いちごちゃんも食べてるし」
 
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01456
 「それにみかんはちゃんと、食べた後は新しくトレイに水も溜めてるもん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「つまり、二人して合計、そのトレイ一皿では追いつかないくらい食べてるってことだな？」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01457
 「あ……え、えっと……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 墓穴を掘ってる。
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01458
 「だって暑いんだもん……外で遊んできた帰りとか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁアイスとかジュースを取りすぎるよりは、害も無いだろうけどな」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01459
 「うん、でも……みかんも最初はそう思ってたんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01460
 「お兄ちゃん、もしかしてここのお水、身体に悪い変なのが混ざってるのかも」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんが深刻そうにお腹を押さえた。
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01461
 「最近よく、お腹が痛くなるの。氷のせいかなぁ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………ああ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それは間違いなく氷のせいだな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「食いすぎだ。しばらく氷は禁止」
 
@@ -5677,8 +4165,6 @@ label	mikan_tachi_15	#-----------------------------------------------------
 @SE75			#SE75　ショック音（ガーーン！）
 @mikan_komikaru_kanashimi	#コミカル哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01462
 「………ええッ！」
 
@@ -5696,55 +4182,35 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01463
 「そんなッ、だったらもうみかん、ジュースとかアイスをヤケ食いするしか道がないよぉっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「やめれ。冷たいものの取りすぎで、単純にお腹を冷やしてるんだよ」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01464
 「そ、そんな……みかん、夏を乗り切れない……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オーバーな子だった。食べる物が関わったときは。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「心頭滅却すれば、火もまた涼しって言葉がある」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「冷たいものを取る事だけが、暑さを乗り切る術じゃないぞ？」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01465
 「………つまり」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01466
 「お腹を冷やさないように熱いお茶を飲んでから、氷を食べたら大丈夫ってこと？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……心頭滅却～～のくだりは、まったく聞いていなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……分かった。１、２個なら妥協するから。せめて食べ過ぎないようにしなさい」
 
@@ -5756,38 +4222,24 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01467
 「うん……残念だけど、分かった」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一体今までいくつ食べていたのか、本気で残念そうに頷くみかん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01468
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ボリボリ……ボリッ、ボリッ…
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや……今からさらに２個を許したわけじゃなく」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01469
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局懲りずに食べていた。
 
 bgm_stop
@@ -5795,12 +4247,8 @@ bgm_stop
 @bg_black		# 黒
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この日の夜。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 お腹を押さえながらトイレに入るみかんをすいかが目撃したのは、余談である。
 
 #（スケジュール）

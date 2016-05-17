@@ -8,42 +8,28 @@ label	yuzu_09
 #■BG（樹の部屋）
 @bg_itsuki_n		# 自室(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふぁ～、今日も一日、無事に終わったか……」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 風呂から上がってやらなければならなかった仕事も片付け、オレは大きく伸びをする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 少し早いけど、今日はそろそろ寝るかな？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それとも、リビングでテレビでも観るか、図書室から本でも借りてくるか……？
 
 #SE　ノック
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 などと考えていたときに、誰かがドアをノックした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うぃ～」
 
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こんな時間に誰だろうと思いつつ、オレはドアを開けてやる。
 
 @yuzu_middle		# 中間
@@ -59,54 +45,34 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00446
 「こ、こんばんは、樹先生……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ドアの外に立っていたゆずが、ぺこりと頭を下げる。
 
 layer_movepass_init	l_yuzu,0	#演出初期化
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おう、どうした？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今日はお菓子も持っていないようだし、またデートのお誘いだろうか？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とはいえ、この前振ってしまったばかりなのに、そうすぐに次のアクションは起こせないかな？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とすると、何なのだろう？
 
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00447
 「あ、あの、入ってもいいですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、おう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 微妙に顔が赤いゆずに戸惑いつつも、さすがに入るなとも言えない。
 
 @yuzu_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00448
 「それじゃ、おじゃましますね♪」
 
@@ -114,14 +80,10 @@ layer_movepass_init	l_yuzu,0	#演出初期化
 @bg_black
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは途端に嬉しそうな顔になり、そそくさとオレの部屋に入ってくる。
 
 @bg_itsuki_n		# 自室(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「で、どうしたんだ？」
 
@@ -130,34 +92,24 @@ layer_movepass_init	l_yuzu,0	#演出初期化
 @yuzu_jyosou
 @yuzu_kanashimi		#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00449
 「え？　えへへ……。えーと……」
 
 @yuzu			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00450
 「そ、そうだ、樹先生、まずは座ってください」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……？」
 
 @bg_black
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 微妙に話が見えないが、オレは言われたとおり、ベッドに腰を下ろした。
 
 @bg_itsuki_n		# 自室(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「これでいいか？」
 
@@ -165,107 +117,67 @@ layer_movepass_init	l_yuzu,0	#演出初期化
 @yuzu_jyosou
 @yuzu_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00451
 「あ、はい♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずのほうは、立ったまま顔を赤らめ、でも嬉しそうにしている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆずは座らないのか？」
 
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00452
 「え、ええ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えーと、なんの用なんだ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 なんとなく予想がつき始めたが、オレは改めてゆずに尋ねてみる。
 
 @yuzu			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00453
 「え、えっとですね……」
 
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00454
 「きょ、今日はちょっと、雫さんに調教の成果を試してこいと言われまして……」
 
 #ゆずはますます顔を赤くして、恥ずかしそうに両手を頬に当てて身をくねらせた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やっぱりな……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 なんとなく、そんなことじゃないかとは思ったんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆずには最初のときにもしてもらったけど……」
 
 @yuzu			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00455
 「で、でも、あのときは手でしたから」
 
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00456
 「きょ、今日はその、お口でご奉仕させてください……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「く、口で……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……まあ、雫さんに調教されているということは、当然そういった練習もしているんだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とはいえ、雫さんは女性だけに本物はないわけで。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 本物を経験しないで客を取らせるのもやはり微妙だし、そうするとオレが練習台にされるのは必然だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 けど、ゆずも男だと思うと、やはり少し抵抗がある……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 口の中なんて、男も女も大して違うわけじゃないだろうし、服を着てると女の子にしか見えないけど……。
 
 #--------------------------------------------------
@@ -282,39 +194,25 @@ if sel=1 then goto yuzu9_q01_b
 #--------------------------------------------------
 label		yuzu9_q01_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「わ、わかった、やってみろ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは意を決して、ゆずの練習台を買って出た。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 これはゆずのために必要なことだし、まあ服を着てると女の子にしか見えないし。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずだって頑張ってるんだから、オレも一肌脱ごうじゃないか。
 
 @yuzu_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00457
 「いいんですか！？　えへへ、嬉しいです……♪」
 
 bgm_stop
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは嬉しそうにニヤニヤしてその場にひざまずいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……頑張っているというより、単にやりたいだけっぽい気もするが。
 
 #--------------------------------------------------
@@ -322,177 +220,107 @@ scene_start	"ゆずの練習台"
 event		"event\EV_YUZ_020-00.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00458
 「それじゃ、失礼しますね♪」
 
 @bgm10			#BGM 10 : エッチシーンのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはオレの脚の間に割って入るようにして、ゆずはオレのベルトに手をかける。
 
 #SE　ベルトを外す音
 @SE01			#SE01　ズボンのベルトを外す（カチャカチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00459
 「えへへ……樹先生の、おちんちん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 カチャカチャとベルトを外しながら、ゆずは期待に頬を上気させ、うっとりとつぶやく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やっぱ、結構可愛いかも……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ベルトを外していく手の動きを感じながら、オレは自らのものにゆっくりと血液が流れ込んでいくのを感じる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 調教の成果はどんな感じなんだろう？　だんだん楽しみになってきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……って、これはあくまでゆずの練習のために胸を貸す、というかチンポを貸すだけだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 決してオレがしてほしいとかそういうことではなく……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00460
 「チャックも、下ろしますね……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはベルトとズボンのボタンを外し終わり、今度はファスナーに手をかけた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いいぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やっぱり、早くしてほしいかも……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00461
 「はぁっ……」
 
 @SEH01			#SEH01_ジッパー下げる
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 期待に熱い吐息を漏らしながら、ゆずはファスナーを下ろしていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すぐ近くで細い指が動く感触に、オレのものは次第に熱を帯びていった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00462
 「少し……腰を上げていただけますか……？」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ファスナーを最後まで下ろすと、ゆずはオレに頼んだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 雫さんの調教の成果か、言葉遣いまで奉仕モードになってきているようだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おう……」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはベッドに手をついて、そそくさと腰を上げる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00463
 「っ……」
 
 #ゆずはズボンのウエストに手を回し、トランクスとまとめて一気に引き下ろした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 生温かく熱を帯び、すでに勃起しかけているオレのものが、ゆずの目の前に晒された。
 
 #--------------------------------------------------
 event		"event\EV_YUZ_020-01.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00464
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00465
 「やっぱり、樹先生のって大きいですね……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 少しの間それを見つめて、ゆずは感心したようにオレを見上げる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうか？　大人ならこんなもんだと思うが」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00466
 「それに、血管とかゴツゴツして……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「やっぱり、イヤか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00467
 「あ、いえ、そんなことないです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは首を振った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00468
 「この前初めて見てから、ずっとこういうことするの、想像してましたから……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうか……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 心は女の子というだけあって、やっぱり性の対象は男であるらしい。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00469
 「それでは、失礼いたします……」
 
@@ -502,391 +330,223 @@ event		"event\EV_YUZ_020-01.png"
 event		"event\EV_YUZ_020-02.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「っ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずの唇が触れ、かすかに濡れた感触がオレのものに伝わる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00470
 「ちゅ……ちゅ……ちゅッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 セオリーどおり最初はソフトに、ゆずはオレのものにキスを繰り返す。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 くすぐったいような感触に、オレのものは次第に硬くなっていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00471
 「えへへ……樹先生の……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは手のひらの上で硬くなり始めたオレのものを見つめ、反対の手でそっとそれを撫でた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それから、その根本をつかみ、再びそこに口を近づける。
 
 #--------------------------------------------------
 event		"event\EV_YUZ_020-03.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00472
 「あむッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 次の瞬間、オレのものは生温かく濡れた感触に包まれていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「くっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 不意の急襲に思わず声が漏れてしまう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00473
 「んぅ……んむ……れりゅッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そのままゆずは、口の中でオレのものを、舌で転がし始める。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00474
 「んむぅ……んりゅッ……んふぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 たっぷりと唾液の溜まった生暖かい口内で、少しざらついた舌が、オレのものの裏側をくすぐる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すでに半分ほど勃起していたそれは、そのまま一気に硬くなっていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00475
 「ちゅぷ……れろ……んうぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 唇で根本をしっかりと咥えたまま、ゆずは舌先でオレの皮のフチを探った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「んッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 内側の敏感な部分に直接舌先が触れ、全身を快感が駆け抜ける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とはいえ、ざくろやすいかに比べたら、ゆずはまだここに来たばかりだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 仮にも調教する側のオレが、この程度でリードされてしまうわけにはいかない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いいぞ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そのまま、舌で剥くんだ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずの意図を察知して、オレはその頭を撫でつつ促した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00476
 「んぅ、ふぁい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはオレのものを咥えたままうなずくと、舌先を尖らせて、皮のフチに押しつけてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00477
 「んぅ……んむッ……んうぅッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは尖らせた舌先を亀頭と皮の間に差し入れるように動かし、その舌先に押されて、皮が後退していく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 少しずつ皮が剥けていき、ある点をすぎたところで一気にめくれ上がった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00478
 「んふぅ……れろ……れりゅッ……んぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは攻撃の手を休めることなく、むき出しになった亀頭にそのまま舌を絡めてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もはやオレのものは完全に勃起していた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 亀頭の裏側の敏感な部分に舌がこすれ、オレの意識を麻痺させていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00479
 「れりゅッ……んむッ……、じゅるッ……んっく……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 溜まりすぎた唾液を飲み込みつつ、ゆずは少し苦しそうに必死でオレのものをしゃぶり続ける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 唇とそれの隙間から唾液が漏れ、竿を伝う。
 
 #--------------------------------------------------
 event		"event\EV_YUZ_020-04.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「悪くないが……少し単調だな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずの髪をかき上げ、額を押して少し上を向かせる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00480
 「むぅ……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「全部咥えると、舌遣いの練習になりにくい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは両手でゆずの頭をつかみ、いったん唇からそれを抜き出した。
 
 #--------------------------------------------------
 event		"event\EV_YUZ_020-05.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00481
 「ぷはぁっ……はぁ……はぁ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずの唾液が糸を引き、すっかり硬くなったオレのものが、力強く上を向く。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「咥えないで舐めてみろ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはさらなる快楽を求め、技術を教えるフリをしてゆずに指示を出した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00482
 「はぁ……はぁ……はい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 目を潤ませ、すっかり息を荒くして、ゆずはうなずいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00483
 「はぁ……はぁ……樹先生のおちんちん……すごい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレのものに目を戻し、ゆずはそれに見とれているようだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00484
 「大きくて……、硬くて……、たくましくて……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「見てるだけじゃダメだぞ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはゆずの頭を撫で、続きを促した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00485
 「はい……はぁ……はぁ……ちゅッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずの唇が、再びオレのものに触れる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00486
 「れろ……ぴちゃ……れりゅッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 根本を握りながら、ゆずは竿の裏側を何度も舌先で舐め上げた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00487
 「んふぅ……、れるぅッ……ぴちゅッ……じゅるッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 舌先での愛撫は次第に舌全体を押しつけるものに変わっていき、荒い息が亀頭にかかる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00488
 「ちゅるッ……ちゅぷ……ちゅばッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 奉仕というよりオレの硬さを味わうように、ゆずは夢中でそこを舐め、唇を押しつけてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もう少し……上もだ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 竿も気持ちいいが、一番敏感な部分への刺激がないのが少しもどかしかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00489
 「はぁ……はぁ……はい……んッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはうなずくと、少し身を乗り出すようにして、今度は先端へと舌を這わせた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00490
 「んうぅ……れりゅッ……じゅるッ……んふぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 亀頭の裏側に舌が押しつけられ、ゆずはそのまま左右にそれを動かす。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ッ……。そ、そうだ……。いいぞ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 舌全体を押しつけながら、舌先が亀頭の舌の段差の部分に絡みついてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00491
 「れりゅ、れりゅ、ちゅぶッ……んじゅるッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さすが雫さん……。こんな短期間にここまで仕込むとは……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 人間的に問題はあるけれど、調教の腕は確かなようだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00492
 「ちゅぐッ、んじゅぅッ、ちゅぬッ、んぁっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 不意にゆずが舌を離すと、オレの先端とその舌の間に、唾液とは違う粘りけのある糸を引いた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 先走りの液が漏れてしまったようだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00493
 「はぁっ……樹せんせぇ……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはひどく興奮した様子で、再び夢中でそこに舌を押しつける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00494
 「んぅッ……ちゅるッ……じゅうぅッ……じゅるるッ……んくッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 溢れ出す先走りの液を尿道から吸い上げ、ゆずは夢中でそれを飲み込む。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美味しいか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00495
 「じゅるぅッ……んくッ……。ぷぁッ……はい……はぁ……はぁ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00496
 「せんせぇの……ぬるぬるして……おいし……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00497
 「いっぱい出して……ください……んぁっ……！」
 
@@ -894,49 +554,29 @@ event		"event\EV_YUZ_020-05.png"
 event		"event\EV_YUZ_020-06.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 口の周りをべとべとにしながら、ゆずは嬉しそうにつぶやき、大きく口を開けてオレのものを頬張った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「んくッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 熱く包み込む感触に、オレは思わず身を震わせる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00498
 「んむぅ……じゅうぅッ……ちゅぶッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 唇をすぼめてオレのものを締めつけ、ゆずは強くそこを吸ってくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00499
 「ちゅぶッ、ちゅばッ、じゅぶッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00500
 「んふぅ……せんせぇの……おいひいれふ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すっかり理性をなくした様子でゆずはそこに吸いつき、首ごと動かして唇を竿にこすりつける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00501
 「じゅぶッ、ちゅぬッ……んぅ……ふぅんぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00502
 「んぁ……ふごいぃ……」
 
@@ -944,29 +584,17 @@ event		"event\EV_YUZ_020-06.png"
 event		"event\EV_YUZ_020-07.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 夢中でオレのものにしゃぶりつきながら、いつしかゆずの手は自らの股間へと伸びていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずのものはすでに、スカートの前に立派なテントを作っている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00503
 「ちゅぶッ、はむむ……んふぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレのものを唇でホールドし、舌を押しつけながら、ゆずは自らのテントに触れる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 スカート越しにもぞもぞとそこを撫で、その動きは次第に強くなっていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何をしてるんだ、ゆず？」
 
@@ -974,171 +602,99 @@ event		"event\EV_YUZ_020-07.png"
 event		"event\EV_YUZ_020-08.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00504
 「んふぁ……ふ、ふみまへん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00505
 「れも……がまんできなくて……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレのものを咥えたまま、申し訳なさそうに顔を上げるゆず。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まあ、たしかにあれだけ硬くしていたら、なんらかの刺激を加えないことにはもどかしくてたまらないかもしれない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「仕方ないな……。触るのはいいが……、ご奉仕をおろそかに、するな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはゆずの髪をつかみ、自らを慰めることを許可した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00506
 「ふぁい……せんせ……。ありがとう……ございまふ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレの許可を得て、ゆずはいそいそと自らのスカートをまくり上げた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずのものは女の子用の小さなショーツには収まりきらず、下着の上へとはみ出している。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ごそごそと少しショーツを下ろし、それを根本から取り出すようにして、ゆずは自らのものを握りしめた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まだ中を直接触るのには慣れていないのか、ゆずは皮越しにクニクニとカリの部分を刺激する。
 
 #--------------------------------------------------
 event		"event\EV_YUZ_020-09.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00507
 「ふあぁ……きもひい……きもひいの……じゅるッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 夢中で自らのものを弄りながら、それでもなんとかオレのものを舐め続けるゆず。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……冷静にご奉仕されるより、かえってエロいかもしれない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とはいえ、こういう姿を見ていると、なんだかいじめたくなってくる。
 
 #--------------------------------------------------
 event		"event\EV_YUZ_020-10.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ご奉仕なのに……そんなに自分のをいじって……。ゆずは……悪い子だな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはゆずの髪をつかみ、ムリヤリ上を向かせた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00508
 「んふぅ……ごめんなはい……じゅぅッ……じゅぶッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは泣きそうな顔になりながら、慌ててオレのものへの刺激を強めた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00509
 「じゅばッ、ちゅぶッ、れりゅッ……んむぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 唇で竿をこすり上げ、亀頭の裏に舌をこすりつけてくるゆず。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その間も、ゆずの小さな手は、自らのものを慰めるのをやめない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずのピンクの先端からは、すでに透明な先走りの液が溢れていて、皮のフチに溜まっている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんな格好……してるくせに……。そんなに……硬くして……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「女の子には……そんなもの……ないんだぞ……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00510
 「じゅぶッ……んぅ……ごめんなふぁい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00511
 「なんでゆず……女の子なのに……こんなのあるの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 悲しげにつぶやきつつも、ゆずはそれを弄るのをやめることができない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 皮のフチに溜まった液がこぼれ、ゆずの小さな手をぬるぬるに汚していく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00512
 「んぅ……こんなの……イヤなのに……。きもひい……きもひいの……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずが手を動かすたびに、透明な液が溢れ、とろりと床に垂れる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ご奉仕が……おろそかに……なってるぞ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00513
 「んふぅ……ふみません……じゅるッ……ちゅばッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 指摘してやると、ゆずは慌ててオレのものに意識を戻した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 舌がカリの部分に絡みつき、ざらざらした表面が敏感な粘膜を刺激する。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「少し……手伝ってやる……」
 
@@ -1146,131 +702,73 @@ event		"event\EV_YUZ_020-10.png"
 event		"event\EV_YUZ_020-11.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは我慢できなくなり、ゆずの頭を乱暴につかんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そしてそのまま、ゆずの頭を前後に動かす。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00514
 「んぶッ……じゅぬッ、じゅるッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 苦しげに顔を歪めつつも、ゆずは必死で唇を締め付けてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すぼまった唇が竿を締めながらこすり上げ、オレは次第に射精が近づくのを感じた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁ……はぁ……そうだ……いいぞ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆずの口に……いっぱい出して……やるからな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00515
 「んぶぅ……じゅぶッ、じゅぶッ、じゅぽッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 頭をがっちりとホールドされ、ゆずは答えることもできず、ただオレのものに吸い付くしかない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それでもゆずの手は、自らのものを慰めるのをやめなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こんな風にされて、興奮してるんだ……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう思うと、不意に精液が溢れそうになり、オレは必死でその波に耐えた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00516
 「んむぅ、れりゅッ、じゅぬッ、じゅうううぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレが手の動きを止めると、ゆずは口の中で舌を動かし、裏筋にこすりつけてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一方でぬるぬるになった手も、我慢汁を垂れ流す自らのものをしごきつづけている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00517
 「じゅぶッ、れりゅッ、んむぅ……せんせぇ……ボクもう……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレのものを咥えたまま、ゆずは切なげにオレを見つめる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もう、イきそうなんだ……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレは……まだだぞ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 切なげなゆずの目に、オレはまた嗜虐的な気分になり、再びゆずの頭をしっかりとつかんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ご奉仕なのに……自分だけ射精する……つもりか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「女の子なのに……精液出しちゃうのか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 意地悪なことを言いながら、オレはゆずの頭を前後に動かす。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00518
 「んぐぅ……じゅぶッ、じゅるッ、じゅぬッ……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは夢中で自らのものをこすりながら、オレのものに吸い付いている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すぼめた唇が竿をこすり上げ、舌がカリに絡みつく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00519
 「じゅばッ、じゅぼッ、じゅるううぅッ……んくぅッ……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 なんとかオレをイかせようと、ゆずは必死で舌を動かしてそこを吸うが、不意にびくんと身をよじった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00520
 「んあぁッ、ら、らめぇッ……！」
 
@@ -1279,52 +777,30 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_YUZ_020-12.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ビュルッ……！
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずの先端から、白濁した液が勢いよく噴き出した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （うわ、出てる……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どうみても女の子なのに、股間には男のものが屹立し、精液が噴き出している。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その異様な光景に、オレも一気に精液がこみ上げるのを感じた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆずッ……！　ゆずッ……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは夢中でゆずの頭を前後させ、自らのものをその口の中に突き込んだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00521
 「んんぅッ、んぶッ、じゅるぽッ、ちゅぶッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは何度も身を震わせ、精液をまき散らしながら、オレのものに吸い付いて離さない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だ、出すぞッ……、ゆずッ……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 精液が尿道を駆け上がり、オレはその快感に身を委ねた。
 
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
@@ -1332,12 +808,8 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_YUZ_020-13.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ドプッ……！　ビュクッ、ビュクッ……！
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00522
 「じゅぶッ、んうぅッ、ぶほッ……！」
 
@@ -1345,12 +817,8 @@ event		"event\EV_YUZ_020-13.png"
 event		"event\EV_YUZ_020-14.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 突然喉の奥に流れ込んだ精液に、ゆずは咳き込み、オレのものを離してしまう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ゆずッ……！」
 
@@ -1359,131 +827,77 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 event		"event\EV_YUZ_020-15.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 はき出されたオレのものは、さらに何度も精液を噴き上げ、白濁した液がゆずの顔を直撃する。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00523
 「あッ……あぁッ……。樹せんせぇの……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 顔中を精液まみれにされながら、ゆずはうっとりとつぶやいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「んッ……全部……かけてやるッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは腰に力を入れ、最後の一滴までゆずの顔にかけてやった。
 
 #--------------------------------------------------
 event		"event\EV_YUZ_020-16.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00524
 「あぁ……はぁ……はぁ……はぁ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずは射精を終えて脱力しているのか、あるいは精液をかけられて陶酔しているのか、もうしゃべることもできない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁっ……。はぁ……はぁ……はぁ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 最後まで絞り出して、オレも一気に全身の力が抜けた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁ……はぁ……良かったぞ……ゆず……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは息を整えつつ、ゆずを褒めてやる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 けれど、ゆずは顔中を精液まみれにしたまま、悲しそうにつぶやいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00525
 「はぁ……はぁ……はぁ……ごめんなさい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00526
 「ご奉仕なのに……樹先生より先に……イッてしまいました……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まあ、お客さんを取ることを考えたら、確かにマズいよな……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どう見ても女の子なのに射精している姿というのはなかなかそそられるものがあったが、それは結果論でしかない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 相手が見せてくれと言っているわけでもないのに、我を忘れて自分が楽しんでしまったことは、やはり減点対象だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とはいえ……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まあ、こういうことするのは初めてなんだから、失敗もあるだろ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そのための練習なんだから、そんなに気にすることでもないだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00527
 「そうかもしれません……けど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほら、とりあえずこれで顔を拭け」
 
 @bg_white		# 白
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは近くにあったティッシュの箱から数枚を取り出し、ゆずの顔を拭いてやる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00528
 「あ、じ、自分でできます……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうか？　それじゃ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずにティッシュを渡し、オレは自分のものを拭くことにした。
 
 #■BG（黒）
@@ -1510,44 +924,28 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00529
 「今日はすみませんでした、樹先生……」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 後片付けを終え、オレの部屋の入り口でゆずは深々と頭を下げる。
 
 layer_movepass_init	l_yuzu,0	#演出初期化
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あんまり気にするなよ、最初なんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00530
 「はい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはうなずくが、あまり納得した様子ではない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とはいえ、この場でこれ以上のフォローは無理か……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まあ、とりあえず今日はゆっくり休め」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00531
 「はい……」
 
@@ -1559,8 +957,6 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00532
 「それじゃ、失礼いたします……」
 
@@ -1572,34 +968,20 @@ wait		1000
 wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 再び頭を下げて、ゆずはそそくさと部屋を出て行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずの姿が見えなくなり、オレはなんとなくため息をつく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 個人的には、ゆずがイッてるところを見れたのは良かったんだが……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （って、オレ、流されてきてる？）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そういう趣味はなかったはずなのに……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつの間にかゆずを自然に受け入れている自分に、少し焦るオレだった。
 
 #--------------------------------------------------
@@ -1621,53 +1003,33 @@ return
 #--------------------------------------------------
 label		yuzu9_q01_b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、お断りします……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一瞬迷いかけたが、オレはすぐに冷静さを取り戻し、丁重にお断りした。
 
 @yuzu_kanashimi		#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00533
 「そ、そんな！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはちょっとショックを受けてるっぽいが……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「悪いんだけど、オレにそういう趣味はないんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だからたぶん勃たないだろうし、練習にならないだろ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「やっぱり、練習とはいえそういうのは、ちゃんと趣味の合う相手にやらないとな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんにはオレから言っておくから、今日のところはお引き取り願おう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00534
 「うぅ、そ、そうですか……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 毅然としたオレの態度に、ゆずはがっくりと肩を落とす。
 
 #///////////////////////////////////////////////////////
@@ -1678,8 +1040,6 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00535
 「それじゃ……すみませんでした……」
 
@@ -1691,19 +1051,13 @@ wait		1000
 wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しょんぼりしたまま頭を下げて、ゆずは部屋を出て行った。
 
 bgm_stop
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ったく、無茶するよな、雫さんは」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 明日文句を言ってやらないと……。
 
 #■BG（黒）

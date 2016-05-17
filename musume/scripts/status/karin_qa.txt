@@ -37,12 +37,8 @@ label	karin_qa01
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋で休んでいると、ドアのノックの音がした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01940
 「入るわよ」
 
@@ -54,88 +50,56 @@ wait		1000
 @karin_pajama
 @karin
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんか。珍しいな」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01941
 「……別に好きで来たわけじゃないわよ」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01942
 「実は今日、友達から振られた話があったんだけど。答えられなくて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほぉ。どんなだ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01943
 「兄妹がいるって、どんな気分なのかしらって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01944
 「ほら、ウチにはあなたがいるじゃない。だから不本意だけど兄妹だって思われたみたいで」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だったら誤解を解けば良いじゃないか。不本意なんだったらさ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01945
 「もちろん解いたわよ。そんな寒気がする誤解なんて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……寒気って酷いな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01946
 「でも答えられないもの情けなかったのっ」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01947
 「だから、ね……イヤイヤだけど樹にお願いがあるんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんも言い難そうに言葉をためる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その時点で、もう嫌な予感がした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01948
 「少しだけあなたの事を兄妹と思って良いかしら」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……お、オレがかりんの兄ってことか！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01949
 「当たり前でしょ……お、お兄様」
 
@@ -143,79 +107,51 @@ wait		1000
 @SE57			#SE57　爆発音　※ゲームブックで使用
 screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 お兄様ーーーーーーッ！！！！
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、お兄様って……かりんさん……？」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01950
 「……ちょっと、お兄様。ちゃんとかりんに受け答えしてください」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、ああ、そうだな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えっと。何だい、かりん……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 って言うか、オレの方はあまり変化なく普通だな。
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01951
 「お兄様、いつもかりん達の為にお仕事を頑張ってくださってありがとうございます」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01952
 「今日もまだ休まれないのですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「う、うん……まだやることがのこっているのだよかりん」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01953
 「台詞が棒読みですわよ、お兄様。お疲れかしら？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「げふっ、ごほんッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん、そうだな。色々疲れたから休む事にする……」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01954
 「お休みでしたら……お兄様？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01955
 「かりん、お兄様にお休みのキスをして………って、しないわよキスなんてぇッ！」
 
@@ -223,87 +159,55 @@ screen_vibration	500,16,16,16
 #SE66　効果音１（ビシッ！）
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 自分の台詞に、かりん自ら鋭いツッコミが入った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その手からメモ帳が転げ落ちる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん、何だこれ………。台本？」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01956
 「はあぁッ……その友達が、理想の兄妹のやり取りを台本にしてきたのよ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01957
 「な、何よお休みのキスって。するわけ無いじゃない兄妹とっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……なんだ、友達の台本だったのか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やけに器用に演じられるな、と感心したのだが。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とりあえず、これでもう気は済んだか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01958
 「ええ、そうね。これ以上続けてキスなんてしたくないし」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01959
 「……それで、私はともかく、樹はどうだったの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01960
 「台本とはいえ、私にお兄様って呼ばれて何も感じなかったの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、オレの感想……？　必要なのかそんなのが」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01961
 「い、いいでしょっ……我慢して言ってあげたんだから、相応の感想があってしかるべきよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何か切り返しが強引だし、かりんはちょっと焦ってるし、意味が分からない……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ感想を言えと言うのなら、
 
 #--------------------------------------------------
@@ -320,51 +224,35 @@ if sel=1 then goto karin_qa01_b
 #--------------------------------------------------
 label	karin_qa01_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんは今までのままがいいよ」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01962
 「そ、そう……？　ならいいんだけど」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01963
 「じゃなくて……もしかして樹、人から嫌われて悦ぶようなマゾだったんじゃ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「違うッ、本気で引くな！　あくまで比較としてだ！」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01964
 「ふ～ん。そういう事にしてもいいけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01965
 「ま、私も兄妹なんて思われるのはイヤだったし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……なら初めっから聞かないで欲しい」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01966
 「それじゃ、今までどおりあなたを嫌って対応するわ。邪魔したわね」
 
@@ -375,21 +263,13 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 用件が終わると、かりんは早々に退室して行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 去り際は心持ち明るい表情で。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何だったんだろうな、一体……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 首を傾げるが、既に出て行ったかりんからは当然答えは得られなかった。
 
 @chara_clear		#保険
@@ -405,58 +285,38 @@ return
 #--------------------------------------------------
 label	karin_qa01_b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「むろん、お兄様だ！」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01967
 「………へ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「違和感なんてきっと最初だけだ。じきに慣れてそれが自然になる！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だからこれからもかりんは、お兄様とオレを呼びなさい！」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01968
 「本気で言ってるの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうして」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01969
 「いえ……まぁ聞いたのは私だし、人の趣味をとやかくは言わないけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01970
 「でもあんまり外で熱弁してると、人間関係が希薄になるわよ…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 思いっきり引かれていた！
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01971
 「それじゃ、おやすみ樹」
 
@@ -466,22 +326,14 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あッ、かりん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 可哀想なものを見るような目で、かりんは早々に退室した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……結局お兄様じゃないのかよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何をしに来たのか、さっぱり分からなかった。
 
 bgm_stop
@@ -489,12 +341,8 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その後かりんは〝お兄様〟どころか、前より冷たくなった気がする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ちょっと悲しかった。
 
 #SCRIPT IGNORE
@@ -890,12 +738,8 @@ label	karin_qa03
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋で休んでいると、ドアのノックの音がした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01998
 「入るわよ」
 
@@ -907,73 +751,47 @@ wait		1000
 @karin_pajama
 @karin
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、かりんか。珍しいじゃないか」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01999
 「そうね、もう生涯無いような珍しい行動だって私も思うわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02000
 「でもただ偶然が重なっただけよ。誤解はしないでよね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 来訪早々に、この挨拶だ。
 さすがはかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それで、何の奇跡が起こってオレを尋ねてきたんだ？」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02001
 「あ、うん……その、えっとね……」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02002
 「まぁ別にあなたには関係ないし、私にも大したことじゃないんだけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 話を促すと、何故か途端にかりんの歯切れが悪くなった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02003
 「実は今日学校で、男子から告白されたのよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「告白……まさか、好きですって？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02004
 「このニュアンスで、それ以外に無いでしょう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「へぇ…それで、返事はしたのか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……って、出来てないからここに来たんだな、きっと」
 
@@ -985,134 +803,84 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02005
 「はぁ……さすが、下世話な話題だと察しがいいわね。そのとおりよ…」
 
 layer_movepass_init	l_karin,0	#演出初期化
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02006
 「そこで不本意だけど、同じ男側のあなたに意見を聞きに来たの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつもの憎まれ口を言いながらも、「ふぅ…」と溜め息を漏らすかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 思春期らしく微笑ましい内容だが、かりんは真剣なようだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ならオレも真摯に対応してあげなくてはならない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんは、その男子のことをどう思ってるんだ？」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02007
 「え……？　どうって？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「告白されたのは急かもしれないけど、答えを急ぐ必要はないんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「焦って気持ちを見失うより、大事な事だからじっくり考えて答えてあげないとな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02008
 「………待って。いったい何の話をしてるの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「は…？　何って、告白されて返事に困ってるんじゃないのか？」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02009
 「バカねぇ、違うわよ。そんなのその場で振ってやって終わったに決まってるじゃない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02010
 「私にはみかんが居るんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……はあ、そうですか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その男子もきっと精一杯の勇気で告白したんだろうにな。何か不憫だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「じゃあ、何が訊きたいんだ？」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02011
 「その相手が、私とは違うクラスの男子だったのよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02012
 「それにそもそも、私は最近転校して来たわけだから、みんなも私のことはあまり知らないはずでしょ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02013
 「なのに男ってみんな、そんなよく知りもしない相手に平気で告白なんて考えるの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みんなってことは無いだろうけど。そんなに不思議か……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02014
 「だって告白って……もっと深く悩む大事なことでしょう…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02015
 「相手のことを知って惹かれて、好きになって、それを伝えたいっていう想いが抑え切れなくなっての行動じゃない」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02016
 「なのにそんな安易に………何か、からかわれてるみたい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「う～ん……いや、好きっていうのも、色々なケースはあるけどな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 年上の男として、ここはバシッと恋愛感をかりんに言ってやろう！
 
 #--------------------------------------------------
@@ -1129,112 +897,70 @@ if sel=1 then goto karin_qa03_b
 #--------------------------------------------------
 label	karin_qa03_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「その子の告白を、冗談半分って一蹴するのは可哀想だな」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02017
 「そうかしら。よく知りもしない相手なのに」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「正直、その子の本心までは分からないけどな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でもほら、一目惚れの可能性もあるだろ？　かりんなら、十分ありえるしな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02018
 「………えっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……しかし別に、オレがその男子をフォローしてやる義理もないんだよな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今の目的は、かりんに恋愛感を伝授（？）することなわけだし。
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02019
 「……ふ、ふんっ。ドサクサに紛れて、変なこと言わないでよね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「は……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02020
 「別にあなたに一目惚れがありそうとか言われたって、嬉しくもなんともないわっ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……？　何で急にムクれるんだ。オレは本心から一目惚れって言ったんだぞ？」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02021
 「う……だ、だから…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 言葉に詰まって、かりんの頬がほんのりと赤くなる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……ヤバイ。オレってそんな紅潮さすほど怒りを買ったのか…？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、あのな。一目惚れがあるっていうのは、要するにかりんが可愛いってことで」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02022
 「う、うるさぁい！　もういいっ、この話は終了よッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02023
 「とにかくその男子が本気だろうと冗談だろうと、私にはみかんが居るから返事はＮＯよッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02024
 「もちろん樹ッ、あなたが相手でも容赦なく振るわよッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02025
 「いえ、気持ち悪いからいっそ埋めるわ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おま…埋めるってそれ、どんな告白の返事だよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02026
 「ふんッ、とんだ時間の無駄だったみたいね。おやすみなさい樹ッ」
 
@@ -1245,26 +971,16 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんは意味不明のご立腹状態で、部屋を出て行ってしまった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 わけも分からず、呆然と一人残るオレ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「キレ易い若者かよ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「けど、ちゃんと挨拶はしていくのな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんがオレに不機嫌なのはいつものことなので、とりあえず気にしない事にした。
 
 @chara_clear		#保険
@@ -1280,49 +996,33 @@ return
 #--------------------------------------------------
 label	karin_qa03_b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でもそれはきっと相手の冗談だな。そうに違いない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02027
 「そうでしょうね。全然イメージと違うもの」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02028
 「……でも、ずいぶんはっきりと言い切るじゃない樹」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、よく知りもしないかりんに告白とか、面白すぎて鼻血が出そうな冗談だしな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、むしろ知ってからの方が、無謀さが相まって耳血ぐらいは出そうかも！　ぶふッｗ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02029
 「っく……あ、あなたねぇ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「と言うわけで心配するな、かりん。その告白はただの笑い話だ。ぶふっｗ」
 
 @karin_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02030
 「そこまで言われると腹立つわよッ！」
 
@@ -1330,33 +1030,21 @@ label	karin_qa03_b
 #EF　画面シェイク
 @SE38			#殴る音（バキッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ぐぶはぁぁあああッーーー！！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 うすら笑うオレに、見事なかりんのパンチが突き刺さった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02031
 「誰がそこまで言って良いって言ったのよッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、オレはただ、かりんの告白エピソードを真剣に……ふがふが」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 冗談じゃないレベルで鼻血が噴き出していた。
 
 @karin_komikaru_ikari2	#コミカル怒2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02032
 「ふんッ、もういいわ！　とんだ時間の無駄になったみたいねッ」
 
@@ -1367,17 +1055,11 @@ wait		1000
 #SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 @SE08			#SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気性荒くドアを閉め、部屋を出て行ってしまうかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふぐぅ～～……か、かりん～…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 追いかけたくても、痛みと鼻血でそれどころではなかった……
 
 @chara_clear		#保険
@@ -1505,22 +1187,14 @@ sel3=sel
 
 #I realized at this point I translated the wrong one. Will continue later.
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「よし、と。これで大丈夫か？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02040
 「何か、ずいぶん早く解き終わっちゃったわね……。いいけど別に」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは解答欄を埋めた問題集を、かりんの手の中へ返した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02041
 「それじゃ、読むわよ」
 
@@ -1530,8 +1204,6 @@ if sel1=1 then goto karin_qa04_1b
 #（Ａが１のとき）
 #------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02042
 「ご主人様のおちんちんが、硬くてさいっこうに気持ちいいですぅッ…！」
 
@@ -1542,8 +1214,6 @@ goto	karin_qa04_1z
 #------------------------
 label	karin_qa04_1b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02043
 「約束の時間を過ぎても、いっこうに彼が来る気配はなかった」
 
@@ -1554,8 +1224,6 @@ if sel2=1 then goto karin_qa04_2b
 #（Ｂが１のとき）
 #------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02044
 「今日はデートなので、とても楽しみにしてます」
 
@@ -1566,8 +1234,6 @@ goto	karin_qa04_2z
 #------------------------
 label	karin_qa04_2b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02045
 「もうこの熱くて大きなのでしか、かりんは満足できなくなってますッ…！」
 
@@ -1578,8 +1244,6 @@ if sel3=1 then goto karin_qa04_3b
 #（Ｃが１のとき）
 #------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02046
 「おちんちんすごいぃッ……かりんもう、どうにかなっちゃいそうですぅッ！」
 
@@ -1590,8 +1254,6 @@ goto	karin_qa04_3z
 #------------------------
 label	karin_qa04_3b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02047
 「どうにかして、今日は彼との仲を進展させたいです」
 
@@ -1605,81 +1267,53 @@ if sel1=1 and sel2=0 and sel3=1 then goto karin_qa04_a2
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02053
 「……って、何なのよこの答えはーーッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いやオレも驚いた。まさかそのまま読み上げるとは」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02054
 「予想外すぎてつい最後まで気付かずに読んじゃったのよッ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02055
 「むしろ今チェックした自分を褒めてあげたいわ。こんなの、間違っても学校に提出なんて出来ないものッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 解答欄に書かれたオレの短文に、烈火のごとく怒り始めるかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「言葉は合ってるんだがなぁ」
 
 @karin_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02056
 「ぜんッぜん意味が違うでしょッ、意味が！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレの机から消しゴムを奪い取って、その場でガシガシと消し出した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……ちょっと自信作だったのに。
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02057
 「はぁッ……もう自分で考えるからいいわよ。それじゃあね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、おやすみかりん。良い夢を」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02058
 「見れるわけ無いでしょッ、バカッ！」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さわやかに言ったオレを一蹴して、かりんは憤懣やるかたなく部屋へ戻って行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……自分で考えれるなら、結局何をしに来たんだ？」
 
@@ -1699,49 +1333,33 @@ label	karin_qa04_a2
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02048
 「うん、ちゃんと意味のある短文になってるし、大丈夫みたいね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「当然。しかし、かりんが悩むにしては少し簡単じゃなかったか？」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02049
 「そ、そう…？　別にここには、本当に問題を聞きに来ただけよっ」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02050
 「こういう短文作りって、私みたいに想像力やボキャブラリーが多いと返ってまとめ辛い問題なのよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふ～ん、まぁいいけどな」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02051
 「とりあえず、簡単とは言え手伝ってくれたんだからお礼を言うわ。ありがとう樹」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02052
 「……それじゃ、用も済んだから行くわよ。おやすみ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、おやすみ」
 
@@ -1752,12 +1370,8 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋に戻っていくかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いまいち今夜の意図は分からなかったが、会話の機会になったんだから良かった事だ。
 
 @chara_clear		#保険
@@ -2521,12 +2135,8 @@ label	karin_qa07
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋で休んでいると、ドアのノックの音がした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02124
 「入るわよ」
 
@@ -2538,37 +2148,25 @@ wait		1000
 @karin_pajama
 @karin
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、かりんか。どうした」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02125
 「宿題を訊きに来たの。ちょっと分からないところがあって」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02126
 「用事はそれだけなんだから、変な勘違いはしないでよね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「分かってるって……。それでどの問題だ」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02127
 「あ、今もう大丈夫なのかしら？　忙しいなら時間を空けてまた来るわよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは「平気だ」と返事して頷き、かりんから問題集を見せてもらった。
 
 window_close
@@ -2578,31 +2176,19 @@ wait		1000
 @karin_pajama
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02128
 「国語の問題なんだけど。ここ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『問い１：「何やら～～らしい」を使って短文を作りなさい』
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……ん？　そんな難しい問題じゃないような）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02129
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 問題集を間に挟むようにして、自然とかりんの身体はオレの側にある。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 不思議だがとりあえず、ここはバシッと問題に答えてやろう。
 
 #--------------------------------------------------
@@ -2613,18 +2199,12 @@ select sel,"『Anything could happen, tied up in a dirty warehouse tonight』","『
 sel1=sel
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「こんな感じの文かな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02130
 「その下にもあるの。解ける…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『問い２：「たのしんで」を使って短文を作りなさい』
 
 #--------------------------------------------------
@@ -2635,18 +2215,12 @@ select sel,"『AAaa, Let me go！　Please, don't make me suck it!』","『Koyo is to
 sel2=sel
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「バッチリ過ぎる」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02131
 「あ。最後の問題もお願いしていいかしら…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『問い３：「夢中」を使って短文を作りなさい』
 
 #--------------------------------------------------
@@ -2657,22 +2231,14 @@ select sel,"『I went a little crazy preparing for the date with him』","『MMmpff
 sel3=sel
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02132
 「早いのね。もう終わっちゃったんだ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ、この程度なら楽勝だな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは解答欄を埋めた問題集を、かりんの手の中へ返した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02133
 「それじゃ、チェックしてみるわね」
 
@@ -2682,8 +2248,6 @@ if sel1=1 then goto karin_qa07_1b
 #（Ａが１のとき）
 #--------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02134
 「な、何やらせるつもりよっ……こんな汚らしい倉庫に閉じ込めてッ…」
 
@@ -2694,8 +2258,6 @@ goto	karin_qa07_1z
 #--------------------
 label	karin_qa07_1b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02135
 「何やら楽しそうだと思ったら、もうすぐお祭りらしいです」
 
@@ -2706,8 +2268,6 @@ if sel2=1 then goto karin_qa07_2b
 #（Ｂが１のとき）
 #--------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02136
 「やぁあッ、離してぇッ！　あなたの死んでも咥えたくないんだからッ」
 
@@ -2718,8 +2278,6 @@ goto	karin_qa07_2z
 #--------------------
 label	karin_qa07_2b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02137
 「次のデートはそのお祭りの日にして、楽しんで来ようと思います」
 
@@ -2730,8 +2288,6 @@ if sel3=1 then goto karin_qa07_3b
 #（Ｃが１のとき）
 #--------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02138
 「彼との約束も決まって、私はデートの準備に夢中でした」
 
@@ -2742,8 +2298,6 @@ goto	karin_qa07_3z
 #--------------------
 label	karin_qa07_3b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02139
 「んぐぅんッ！？　ちゅむッ、りゅちゅぅッ……ぢゅむッ、むちゅぅッ！」
 
@@ -2756,42 +2310,26 @@ if sel1=1 and sel2=1 and sel3=0 then goto karin_qa07_a2
 
 @karin_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02144
 「……って、どう見ても変でしょうがーーッ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おぉう…しかし結構気合入れて読んでたぞ。それも最後まで」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02145
 「予想外すぎて、つい気付かずに読み上げちゃったのよッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02146
 「しかも使い方云々以前にもう、ツッコミどころがありすぎる短文になってるじゃないッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちゃんと指定された言葉は入ってるんだけどなぁ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02147
 「意味が全然違うでしょッ、意味が！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 方向の合わなかった冗談に怒りながら、ガシガシと消しゴムをかけるかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……せっかく作ったのに、勿体無い。
 
 @karin_kanashimi	#哀
@@ -2803,8 +2341,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02148
 「はぁッ……もういいわ、自分で考えるから。それじゃあね」
 
@@ -2815,12 +2351,8 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 最後にご立腹の溜め息を残して、かりんは部屋に戻って行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……自分で考えれるなら、結局何をしに来たんだ？」
 
@@ -2840,42 +2372,28 @@ label	karin_qa07_a2
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02140
 「うん。使い方も正しいし、ちゃんと短文になってるわね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「当然。しかし、かりんが悩むにしては少し簡単じゃなかったか？」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02141
 「えっ、そう…？　えっと、あれよほら、ケアレスミスってやつ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それは答えが間違っている時のことだが」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02142
 「い、いいでしょもう別にっ。とにかく問題を聞きに着ただけなのは間違いないのッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02143
 「それじゃ、用も済んだから帰るわよ。おやすみっ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、おやすみ」
 
@@ -2886,12 +2404,8 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋に戻っていくかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いまいち今夜の意図は分からなかったが、会話の機会になったんだから良かった事だ。
 
 @chara_clear		#保険
@@ -2913,12 +2427,8 @@ label	karin_qa08
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋で休んでいると、ドアのノックの音がした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02149
 「入るわよ」
 
@@ -2930,74 +2440,48 @@ wait		1000
 @karin_pajama
 @karin
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、かりんか。珍しいじゃないか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02150
 「まぁね…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02151
 「樹、折りたたみの傘って持ってない？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「傘…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02152
 「明日出かけるんだけど、降水確率が微妙だから念のためにと思って」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「折りたたみ傘なら、施設に備え付けのがあるだろう？」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02153
 「あれはこの前、いちごがどっかに持って行って忘れてきちゃってるのよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02154
 「……まったく、カバンに入れてた傘をどうやったら忘れてこれるのかしら」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「さすがいちごだな……。やってくれる」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02155
 「だから、樹が持ってたら借りたいんだけど。あるかしら？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちょっと待ってな。出してやるから」
 
 #SE28　机や引き出しを漁る音
 @SE28			#SE28　机や引き出しを漁る音（ガタッ、ゴソゴソゴソ……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 普段使わないが、たしか持っていたはずだけどな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 傘、傘と……
 
 #--------------------------------------------------
@@ -3014,99 +2498,65 @@ if sel=1 then goto karin_qa08_b
 #--------------------------------------------------
 label	karin_qa08_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02156
 「うん？　あった？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そういえば、みかんに貸したままだったよ。手元には無いな」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02157
 「え、そうなの…？」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02158
 「ならまぁいいわ。みかんに借りればいいのね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、二度手間で悪いけどそうしてくれ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「しかし」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02159
 「…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まだみかんの所に行ってなかったのか。オレの部屋には来たのに？」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02160
 「…当然でしょ。みかんのを借りちゃったら、みかんに迷惑がかかるじゃない」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02161
 「その点樹のだったら、どこかに忘れてきても全然気にならないし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「してくれ。少しでいいから気にしろ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一瞬、少しでも気を許してくれたのかと思ったが、全然検討違いだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02162
 「まぁ、みかんに親切にしたのは評価してあげるわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02163
 「おかげでこの時間に、パジャマ姿のみかんの部屋に行ける口実も出来たし♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「変な問題を起こさず帰ってこいよ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02164
 「それじゃ、邪魔したわね」
 
@@ -3117,12 +2567,8 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やはりみかんと聞くと嬉しそうに、かりんは部屋を出て行ってしまった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁかりんは相変わらず、みかんＬＯＶＥってことか……
 
 @chara_clear		#保険
@@ -3138,49 +2584,33 @@ return
 #--------------------------------------------------
 label	karin_qa08_b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あったぞ。ほら」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02165
 「ええ……って、地味な色ね。もっと可愛いのとかないの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんなもん、オレが持ってたらキショイだろうが」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02166
 「まぁそうね……たしかに不気味だわ」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02167
 「それじゃこれ、借りていくわよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ。使い終わったら玄関に置いといてくれ、勝手に回収するから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02168
 「広げて乾かして置けばいいのよね」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02169
 「降るか分からないけど、一応礼は言っておくわ。それじゃあね」
 
@@ -3191,17 +2621,11 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 貸した傘片手に、かりんは自分の部屋へ戻って行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何か、何事もなくあっさり済んでしまったな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ穏やかなのに越した事は無いが。
 
 @chara_clear		#保険
@@ -3224,12 +2648,8 @@ label	karin_qa09
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋で休んでいると、ドアのノックの音がした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02170
 「入るわよ」
 
@@ -3241,158 +2661,100 @@ wait		1000
 @karin_pajama
 @karin
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんか。珍しいじゃないか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02171
 「別に。ただこれを返しにきただけよ」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう言って、見覚えのある本を差し出してくる。
 
 @karin_middle		# 中間
 @karin_pajama
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02172
 「すいかに聞いたわ。あなたのなんでしょう？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、オレが貸してた本だな。かりんに貸したのも聞いてるよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02173
 「そう。それじゃ、私から確かに返したわよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ポンと、オレの手の中に本を置くかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……わざわざこんな時間に持ってきてくれたのか？」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02174
 「ええ。………って、変な勘違いしてるんじゃないでしょうね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02175
 「部屋に催促に来られる前に、私から返しに来るほうがマシだったっていうだけよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁどっちにしろ持ってきてくれたんだ。ありがとう、かりん」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02176
 「……ッ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02177
 「…ふ、ふんっ、用も済んだし、襲われる前にさっさと帰るべきね」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 少し慌てて踵を返し、かりんは部屋を後にしようとした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……が、そこで思わぬ事態が。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おわッ！？　かりんッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02178
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 思わず声を上げて呼び止めたオレに、かりんが怪訝そうに振り返る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは、すごいことに気付いてしまっていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （かりんのパジャマ……モロにお尻の部分が破れてる……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その小ぶりなお尻を包む下着が、半分近く見えてしまっていた。
 
 @karin_middle		# 中間
 @karin_pajama
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02179
 「なぁに、どうかしたの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えッ！？　えっと……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気付いては………無いんだろうな、当然。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いちごじゃあるまいし、パンツ丸出しでかりんが出歩くなんて、ありえない。
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02180
 「……何なの？　はっきりしないわね…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02181
 「用がないんならもう行くわよ、私」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 煮え切らないオレに、かりんが部屋を出て行こうとする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どうしようか……教えると、こっちにとばっちりが来そうな気がするが。
 
 #--------------------------------------------------
@@ -3409,205 +2771,133 @@ if sel=1 then goto karin_qa09_b
 #--------------------------------------------------
 label	karin_qa09_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 うん。やっぱり気付いたなら教えてやら無いと。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待てかりんッ、その、パンツが……」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02182
 「パンツ……？」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02183
 「…あ、分かった……どうせまた変なこと考えてるんでしょうッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや違うって。パンツの後ろが見えてるんだよ、かりんの」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02184
 「見えるって……樹のその位置から…？」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02185
 「あはっ。そんなはず無いじゃない、だってパジャマも着て―――」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 苦笑しながらお尻を撫でたかりんの手が、その破れ目に触れて止まった。
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02186
 「……あれ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 サワサワ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 破れてるところから、かりんが自分のショーツの表面をスリスリ撫でる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02187
 「お尻……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「破れてるぞ。そこ完璧に」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02188
 「きゃああぁぁああああッッッ！！」
 
 #EF　画面シェイク
 screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ダダダダッ！！―――バンッ！！（←壁際ダッシュ！
 
 @karin_small		# 遠い
 @karin_pajama
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02189
 「みッ、みみッ、見たわね樹ッ！　私のお尻！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一瞬でかりんは壁際に走っていって、壁に背を付けてオレを睨んでいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お尻じゃなくてパンツだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02190
 「どっちも恥ずかしいわよッ！」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02191
 「しかも普通に見るだけならまだしも、破いてまでこっそり見ようとするなんてッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……あれ？　待ってくれ。何かオレが破いた事になってる？
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02192
 「……そ、そこまで見たいなら……言ってくれれば私だって……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いやいや、何か変だって。オレが破いたんじゃないってよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02193
 「え……？　じゃあ、誰が破いたの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「勝手に破れたんじゃないか…？　とりあえず、邪な意思じゃなくて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02194
 「……樹が今、見たくて破いたんじゃなくて…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 名誉にかけて、オレは力強く頷いて答えた。
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02195
 「そんな強く否定されるのも、それはそれで何か屈辱ね……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どないしろとッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02196
 「だって、結局私は見られたことに変わりないじゃない……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁそうだが……とりあえず、その破れ目は広がる前に直した方がいいぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今ならまだ美雨も起きてると思うからさ」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02197
 「そうね、早い方がいいし。頼みには行きたいんだけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02198
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ほら、これ使っていいから」
 
 @chara_clear		#保険
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 壁を背にしたままのかりんに、シーツを手渡してあげた。
 
 @karin_small		# 遠い
@@ -3615,82 +2905,52 @@ screen_vibration	500,16,16,16
 @karin			#普通
 @bg_itsuki_n		# 自室(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02199
 「あ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「身体に巻いて行けば、恥ずかしくないだろう？」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02200
 「……樹…あなた…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それとも、呼んできてあげようか？　オレは廊下に出てるから」
 
 @karin_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02201
 「……う、ううん、シーツでいい」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02202
 「えっと……ありがとう、樹…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 シーツに顔を埋めるようにして。
 小さい声だが、かりんはお礼を言ってくれた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 スゥッと小さく息を吸い込むかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02202A
 （樹の匂い……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02202B
 （何だか今なら、こうしてると落ち着ける気がする……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、そうそう。ついでにそのシーツの洗濯も頼んでくれないか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや～、はっは！　この前部屋で調教したとき、汗とか精液とか付いたままでさ～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02203
 「……ッひグ、くッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 温かくなり始めていたかりんの心が、一瞬にして凍りついた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん…？　どうしたかりん、そんな蛙が潰れたみたいな声出して」
 
@@ -3698,20 +2958,14 @@ screen_vibration	500,16,16,16
 @karin_pajama
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02204
 「潰れた蛙で悪かったわねぇ～……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02205
 「あ、あなたって人はッ……！」
 
 @karin_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02206
 「やっぱり最低よッ、ブァカーーーーッッ！！！」
 
@@ -3723,13 +2977,9 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ぎゃあぁぁああぁぁああーーーーーッ！！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 たっぷり溜めたかりんのパンチで、この日オレは死んだように眠りに落ちた。
 
 @bg_black
@@ -3743,19 +2993,13 @@ return
 #--------------------------------------------------
 label	karin_qa09_b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 止めよう。絶対オレに恥ずかしさの八つ当たりがくる……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、何でもないんだ。気にしないでくれ」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02207
 「はぁ……」
 
@@ -3764,16 +3008,10 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 溜め息を吐いてパンツが、
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 じゃなくて、かりんは部屋を出て行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん。目の保養にもなったし。これでいいんだ、きっと……」
 
@@ -3782,12 +3020,8 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが後日、オレは破れ目に気付いたかりんから、責められることになるのだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気付いていたのに教えず、コソコソ下着を盗み見ていたとして……
 
 #SCRIPT IGNORE
@@ -3811,12 +3045,8 @@ label	karin_qa10
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 部屋で休んでいると、ドアのノックの音がした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02208
 「入るわよ」
 
@@ -3828,58 +3058,36 @@ wait		1000
 @karin_pajama
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんか。珍しいじゃないか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02209
 「ええ。ちょっと樹に火急の用事があるの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02210
 「私ついさっきお風呂から上がったんだけど、用意していた下着が無くなってたのよね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02211
 「それも替えだけじゃなくて、脱いだ下着まで」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02212
 「まぁ誰が盗って行ったのか、検討はついてるんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ジトッと責めるようにオレを見つめるかりんの瞳……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 これは急展開だ……。しかもオレに身に覚えなんか無いのに。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お、おい……知らないぞオレは」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02213
 「そんなこと言ってもダメよっ。ちょっと付き合って」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 本格的に呼び出されたッ！？
 
 #--------------------------------------------------
@@ -3896,174 +3104,106 @@ if sel=1 then goto karin_qa10_b
 #--------------------------------------------------
 label	karin_qa10_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待て待てッ、かりん！　オレはやってないって！」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02214
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「疑うのも無理はないが、ずっと部屋に居たんだ。無実だ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02215
 「何を言ってるの…？」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02216
 「あなたが犯人じゃない事くらい、最初から分かってるわよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……はい？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 逆にかりんから怪訝そうに見られた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02217
 「確かに樹は最低の変態だけど、コソコソ下着を盗っていくような人じゃないでしょ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02218
 「そこは正常に、服より身体に興味があるっていうのは身に染みて知ってるし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ、そうだな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02219
 「私が検討をつけてるのはいちごよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちご……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02220
 「お風呂に入る前に、下着のデザインセンスで意見が割れたのよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02221
 「で、いちごが私の下着を見せて貸してと騒いでたの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02222
 「だからきっとお風呂に入ってる隙を狙って、いちごが盗っていったんだわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「話の流れ的にありそうだが……。じゃあ何でオレに？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02223
 「あなたいちごの保護者じゃない……。ちゃんと躾けておいて貰わないと困るからよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 つまり、疑われてるのはいちごで、オレはただのトバッチリなのか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それも納得いかないが、濡れ衣よりは遥かにマシで安心した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02224
 「……どうせ、私が樹を疑ってると思ったんでしょ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ホッとするオレを見て、かりんが不満そうに目を細める。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……いや、そんなことは」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02225
 「別にいいのよ、私もあなたを完全に信用してるわけじゃないもの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02226
 「今回だって、事前にいちごとのやり取りがあったから確信していただけなんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんは、オレが犯人じゃないと分かっていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 なのにこれじゃ、逆にオレの方がかりんを信用していなかったのと同じだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02227
 「ほら、いちごの部屋に行くわよ。私が言ってもあの子聞かないんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、ああ。逆に疑って悪かったな、かりん」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02228
 「……ふぅ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02229
 「もういいわ、気にしてないって言ったでしょ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02230
 「それに考えてみれば、私も言い方が紛らわしかったのは事実だし……」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そこまで言うと、フイッとかりんがそっぽを向いた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02231
 「さっきはああ言ったけど、本当に信用してなかったら、初めから下着とかは隠してるから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……？　それじゃ」
 
@@ -4071,8 +3211,6 @@ label	karin_qa10_a
 #@karin_pajama
 #@karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02232
 「た、ただし、下着の件だけよッ！　それ以外はエッチ好きの変態で要注意なのは間違いないんだからッ！」
 
@@ -4080,8 +3218,6 @@ label	karin_qa10_a
 #EF　白フラッシュ
 @SE38			#殴る音（バキッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いてッ！！　こらッ、背中を蹴るなッ！」
 
@@ -4089,13 +3225,9 @@ label	karin_qa10_a
 @karin_pajama
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02233
 「ほらっ、もう無駄口は良いでしょッ。さっさと動くの！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんに急かされ、追い出されるように部屋を後にした。
 
 bgm_stop
@@ -4103,12 +3235,8 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その後向かったいちごの部屋で、
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 下着はやっぱりいちごが持っていたので、それを咎めて今回の騒動は終了となった。
 
 @bg_black
@@ -4121,171 +3249,107 @@ return
 #--------------------------------------------------
 label	karin_qa10_b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ま、待てッ……行くってどこに！？」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02234
 「……？　もちろんいちごの部屋よ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02235
 「きっと下着を持っていったのはあの子に間違いないはずよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「へ……い、いちごが…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02236
 「実はお風呂に入る前に、下着のデザインについていちごと意見が割れたのよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02237
 「その時に私の下着を見せて見せてって言ってたから、きっとお風呂の隙を狙って盗ったんだわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁ……えっと、それでオレの所に…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02238
 「そうよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 当然だと言うように頷くかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そこに至った結論は、
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02239
 「だって樹、あの子の保護者でしょ。ちゃんと躾けておきなさいよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ああ。そういうことか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 つまりこれは、オレの早とちりだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレが疑われてるんじゃなくて、ただのトバッチリだったというわけか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……しかし、それって。
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02240
 「な、なに…？　急に嬉しそうに」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうかそうか。いや、普通にちょっと嬉しかったからな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02241
 「……何で嬉しいのよ変態。私が下着を盗られてるのにっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや違うっての……。普通こういう場合は、オレが疑われると思ったからさ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だけどかりんは、そう決め付けなかっただろ？」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02242
 「そんなの、だって最初から樹はしないだろうって思ってたもの」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02243
 「あっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ふっと出たその言葉に、かりん自身が反応を固まらせた。
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02244
 「誤解しないでよねっ。あなたが下着に興味のある人じゃ無いって言うだけの意味よッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02245
 「身体目当ての変態色情魔って言う意味では、完全に要注意なんだから！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……そこはまぁ、否定しきれないな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 実際にそういう事をしているだけに。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いいんだよ。オレが嬉しかっただけなんだから」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02246
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02247
 「まるで信用してなかったら、こんな生活してまであなたと一緒に暮らしてないわよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 最後のかりんの言葉は小声で、オレにはよく聞き取れなかった。
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02248
 「とにかくもうッ、無駄口してないでさっさといちごの部屋に行くのッ」
 
@@ -4295,27 +3359,17 @@ wait		1000
 #EF　白フラッシュ
 @SE38			#殴る音（バキッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いてッ！　こら、背中を蹴るなッ……ん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……あれ？　今かりんのスカートの中が。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02249
 「それがイヤなら早く行くのッ……くしゅん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02250
 「……はぅ、さっきから服の下がスゥスゥして落ち着かないんだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「って、今ノーパンなのかよッ！？」
 
@@ -4323,24 +3377,16 @@ wait		1000
 @karin_pajama
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02251
 「う……しょうがないじゃない、そのままの足で着ちゃったのよ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02252
 「とにかく私が言ってもいちごは聞かないんだから、ちゃんと樹から注意してッ」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんに急かされ、追い出されるように部屋を後にした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ちなみに、振り返ったときにかりんの秘部を見てしまったのは、内緒だ。
 
 @chara_clear		#保険
@@ -4350,13 +3396,9 @@ wait		1000
 @chara_clear		#保険
 @bg_rouka_n		# 廊下(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「冷えるんじゃないのか？　今夜は温かくして寝るんだぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02253
 「ええ、そうするわ。ありがとう」
 
@@ -4365,12 +3407,8 @@ bgm_stop
 @chara_clear		#保険
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その後部屋で、やっぱりいちごがかりんの下着を持っていたので、咎めておいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 翌日かりんに風邪の様子も無く、今回の騒動は終了となった。
 
 @bg_black

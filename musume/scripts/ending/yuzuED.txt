@@ -12,36 +12,22 @@ label	yuzu_end
 @bg_sky			# 空
 @bgm17			#BGM 17 : のんびりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あとは、ゆずだが……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはこの前、よく行っていた洋服屋の店長から、芸能プロダクションのプロデューサーを紹介されたらしい。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 プロデューサーは一目見てゆずが気に入ってしまったらしく、ゆずはなんとアイドルとしてデビューすることになってしまった。
 
 #--------------------------------------------------
 event		"event\ED_YUZ_010.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もちろん、性別はオフレコだが……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレに抱かれて以来、ゆずはますます女の子らしくなっていただけに、アイドルになるというのも全く違和感がなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そして、１枚目のシングルは見事チャートのベスト１０にランクイン。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今はライブツアーで全国を回っている。
 
 #--------------------------------------------------
@@ -55,8 +41,6 @@ if pay_debts = 0 then goto yuzu_ep_f01_a
 #（借金を返せた場合）
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 施設の借金もなくなったので、ゆずはそのお金をどう使うのも自由だった。
 
 @bg_white		# 白
@@ -67,29 +51,19 @@ wait		1000
 @yuzu_warai		#笑
 @bg_teibou		# 堤防
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00734
 「ということで、今度一緒にネズミーランド行きましょうよ～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 と、ゆずは懲りずに俺を誘ってくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でも、ファンに見られたら大変だぞ」
 
 @yuzu_kanashimi		#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00735
 「とほほ……アイドルも楽じゃないな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 などと言いながらも、ファンがたくさんいるのは嬉しいらしいゆずだった。
 
 #（統合へ）
@@ -100,8 +74,6 @@ goto		yuzu_ep_togo1
 #--------------------------------------------------
 label		yuzu_ep_f01_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 施設の借金は今も残っているが……。
 
 @bg_white		# 白
@@ -112,13 +84,9 @@ wait		1000
 @yuzu_warai		#笑
 @bg_teibou		# 堤防
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00736
 「ＣＤの印税は、全額施設に寄付しますね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 と、ゆずがそう言ってくれるので、全額返済もそう遠いことではないかもしれない。
 
 #--------------------------------------------------
@@ -128,37 +96,25 @@ label		yuzu_ep_togo1
 
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00737
 「それにしても……樹先生、本当にありがとうございました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何がだ……？」
 
 @yuzu_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00738
 「先生がいなかったら、今のボクはないですから……」
 
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00739
 「だから……また使いたくなったら、いつでもボクのお尻、使ってください……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「たはは……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 流し目でオレを見るゆずに、オレは笑ってごまかすしかなかった。
 
 window_close

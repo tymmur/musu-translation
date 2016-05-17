@@ -139,37 +139,25 @@ label	mikan_kenkou_a1
 #■BG（食堂）
 @bg_dining
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今日も朝食の席では会話が弾み、いちごを中心に子供達の健啖が進んでいた。
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01473
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんな中で、箸の進みが遅い子が一人。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかん、おかずが減ってないぞ？」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01474
 「あ、うん……ちょっと食欲が無いの」
 
@@ -179,18 +167,12 @@ wait		500
 @zakuro			#普
 @miu_komaru		#閉_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01060
 「……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01474
 「え、ええッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかんが、食欲が無いって……！？」
 
@@ -201,13 +183,9 @@ wait		500
 @karin_odoroki		#驚
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01748
 「なッ！？　何ですって！！　大丈夫なの、みかん！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01789
 「うわーーーんッ、みかん！　死んじゃヤダーー！！」
 
@@ -216,24 +194,16 @@ wait		500
 wait		500
 @mikan_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01475
 「わぁぁ……みんなすっごく失礼だよ、その反応ー……」
 
 @miu_komaru		#閉_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01475
 「……ちょっと顔色が悪いみたいね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨がみかんの前髪を上げておでこに手を当てる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01476
 「熱は無いみたいだけど……。学校は平気？　お薬を出した方がいいかしら」
 
@@ -243,29 +213,21 @@ wait		500
 wait		500
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01749
 「何を生温いこと言ってるの！！　救急車を呼びなさい、手術よ手術！！」
 
 @karin_koufun		#興奮
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01750
 「それとみかんはそこに寝て！　人工呼吸と心臓マッサージ役は誰にも渡さないわ！！」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01061
 「両方一緒にするのは無理」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、ツッコむのはそこじゃないだろ……」
 
@@ -275,56 +237,36 @@ wait		500
 wait		500
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01476
 「あの、平気だから……。食欲が無いだけだから、心配ないよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 大げさな騒ぎに苦笑するみかんだが、やはりその顔は弱々しい。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01790
 「……みかん、おかずいらないの？」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01477
 「うん……あ、食べる？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01751
 「いちご……意地汚いのは前から周知のことだけど、病人のおかずにまで手を出す気？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01791
 「もうッ、そんなことしないよぉ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01792
 「調子悪くても食べないと治らないから、みかんにおかずをあげようとしてただけなのぉ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01062
 「え……いちごが、おかずをあげる……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……珍しい。
 今日はあのざくろが何度も驚いてる。
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01478
 「いちごちゃん……どうもありがと」
 
@@ -333,8 +275,6 @@ wait		500
 wait		500
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01752
 「ふん、いちごにしては殊勝じゃない。まぁ当然だけどね」
 
@@ -343,26 +283,18 @@ wait		500
 wait		500
 @ichigo_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01793
 「えへへ♪　それじゃゆず、みかんにおかずあげてね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ヒョイヒョイッ！
 
 @yuzu_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00298
 「え！？　うわっ！　ど、どうしてボクのなのッ！？」
 
 @ichigo_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01794
 「え？　だってゆずのだもん」
 
@@ -374,13 +306,9 @@ wait		500
 @yuzu_kanashimi		#哀
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00299
 「そ、そんな理由ひどいよぉッ、助けて樹先生ー♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だからって嬉しそうにオレに抱きつくのはやめれ……」
 
@@ -389,34 +317,24 @@ wait		500
 wait		500
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01753
 「はぁ……しょせんはいちごね……あなたのおかずをよこしなさい！」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ヒョイッ！
 
 @ichigo_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01795
 「やだーッ、泥棒！　こじきッ、物もらいーー！！」
 
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ヒョイヒョイッ！
 
 @karin_komikaru_ikari2	#コミカル怒2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01754
 「（なッ！？　仮にも元大道寺財閥跡取りの私に向かって、物もらいですって！！」
 
@@ -425,69 +343,47 @@ wait		500
 wait		500
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00343
 「……二人とも、私のだったらあげるから、騒がないほうが……」
 
 @suika_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ヒュイヒョイとみかんのお皿を基点に飛び交う朝食のおかず。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 騒がしさはとても病人を労わる環境とは言い難いが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それでも心配している気持ちを汲んでか、みかんはゆっくりだがおかずを食べていった。
 
 @karin_kanashimi	#哀
 #@mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01755
 「……大丈夫、みかん？　入院する？」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01479
 「あはは、大丈夫だよ……」
 
 @karin_
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 最後に食べ終わったみかんが立ち上がると、他の子も合わせて登校の準備を始める。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……体調が悪かったら保健室で休むんだぞ？」
 
 @mikan_middle		# 中間
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01480
 「わかった……行ってきます」
 
 bgm_stop
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 疲れを見せながら微笑むと、食堂を出て行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……このところ無理をさせすぎたかもしれない。
 もうちょっと体調管理をしっかりした方がよさそうだ。
 
@@ -590,17 +486,11 @@ label	mikan_kenkou_b1
 @bg_itsuki		# 自室
 @SE12			#SE12　部屋のドアを乱暴にノック（ダンダンダン！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 日中、部屋で私物の整理をしていると、ものすごい勢いでドアを叩かれた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「壊れる壊れる！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01756
 「入るわよ！！」
 
@@ -608,102 +498,68 @@ label	mikan_kenkou_b1
 #//フラッシュ
 @SE08			#SE08　部屋のドアが乱暴に開く音・閉まる音（バンッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 良いとも悪いとも返事を返す前に、壊れそうな勢いでドアをぶち開けてかりんが入ってきた。
 
 @bgm12			#演：仮ＢＧＭ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「な、何を怒ってるんだ……？」
 
 @karin_odoroki		#驚
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01757
 「何をですって……！？」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01758
 「日ごろから冷静沈着で怒りの沸点がはるか大気圏の彼方ぐらいまで遠い私が怒る用件なんて一つしか無いでしょう！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何かむちゃくちゃ言いながら突っかかってくるかりん……は、置いといて。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01485
 「う……ん、かりんちゃん、大丈夫だから……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その隣で明らかに体調の悪そうなみかんが気になった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうした、みかん？　かりんに何かされたか？」
 
 @karin_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01759
 「はぁッ！？　頭バグってるんじゃないでしょうねッ。私がみかんに何かするはず………ッ」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01760
 「ん、何か……？　何か、か……私がみかんに……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、そこで変な想像して悩むのはいいから……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それでどうしたんだ、みかんは？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01486
 「ん……ちょっと頭が痛かったから……」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01487
 「あ、でもお薬飲んだし。かりんちゃんは心配して大げさに言ってるだけだから」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01761
 「ダメよみかん、油断したら！」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01762
 「あぁ、頭が痛いなんて……もしかしていちごのバカがうつったのかしら……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「で、オレのところに乗り込んできた理由は？」
 
@@ -720,146 +576,96 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01763
 「そう、そうよ！　樹、あなた保護者なんでしょッ。ちゃんとみかんの体調を考えてくれないと困るじゃない！」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01488
 「ぅ、かりんちゃん……ちょっと……」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01764
 「……ッ！？　どうしたの、みかんッ。痛いの？　大丈夫！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01489
 「う、うん……えっと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりん、心配するのは分かるけど、声が大きいんだって」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01765
 「何よッ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いや、そんな喧嘩越しに怒鳴らなくても。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01490
 「ごめん、かりんちゃん……声が頭に響いちゃって……」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01766
 「えッ……！？　声？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「心配してるのは分かるけど、頭痛の人間の耳元で出す声じゃないな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっきから見てると、かりんの声が響くたびにみかんが苦しんでるような気もする。
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01767
 「そ、そんな……私はみかんを心配してたのに……」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01491
 「うん、ありがと……でも大丈夫だから。休んでれば治るし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01768
 「……そう。ほんと？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ、心配だったらみかんと一緒に居てあげてくれ。ただし、静かにな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01769
 「……分かってるわよ。それは反省してる」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 悪気はなかったのだ。
 原因を聞いて、かりんは極端なくらいの落ち込みを見せている。
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01492
 「ごめんね、お兄ちゃん、急に騒がしく来ちゃって。行こ、かりんちゃん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01770
 「ええ、付きっきりで看病するわ」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01771
 「そうね……まずは同じベッドに入って、人肌で温め合うのはどうかしら」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01493
 「あはは、風邪引いたときにお願いしようかな」
 
 @mikan_
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 軽く笑うと、かりんと共に部屋へと戻っていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんの目は、限りなく本気っぽかったが……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかんが風邪を引いたときは、かりんの動向に注意した方がいいな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それ以上に、これからは体調に注意してやるべきだろうけど。
 
 @bg_black
@@ -943,20 +749,14 @@ label	mikan_kenkou_c1
 #■BG（廊下）
 @bg_rouka		# 廊下
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 リビングで遊んでいたいちご達から、みかんが体調不良で部屋に戻ったと聞かされた。
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかん、居るのか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01498
 「え、お兄ちゃん……？　うん、居るよ」
 
@@ -967,8 +767,6 @@ wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 @bg_mikan		# みかんの部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もう見慣れた部屋のベッドの上に、パジャマ姿のみかんの姿があった。
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
@@ -976,60 +774,38 @@ wait		1000
 @mikan_pajama
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01499
 「身体がだるくて、ちょっと横になろうと思ってたの……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、いちご達に聞いた。心配になって見に来たんだけど、休むんなら帰った方がいいか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01500
 「……うん、熱は無いから、寝れば治ると思う」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01501
 「ただ、風邪の引き始めかもしれないから、美雨さんは温かくして寝た方が良いって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうだな……オレもちょっと無理させすぎたかもしれない。悪かった」
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01502
 「えっ……そんな、お兄ちゃんのせいじゃないよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ここ最近、あまり休みを入れずにみかんのスケジュールを組んだかもしれない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その疲れが出たか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ今日はゆっくり休め。今度からオレも気をつけるから」
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01503
 「うん……ありがとお兄ちゃん。おやすみなさい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、おやすみ」
 
@@ -1038,24 +814,16 @@ bgm_stop
 @bg_black
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんがベッドに潜るのを見届けると、電気を消して部屋を後にした。
 
 #■BG（廊下）
 @bg_rouka		# 廊下
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁぁ………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんはああ言ってたが、オレの体調管理の悪さがあったのは確かだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 不調を訴える前に、こっちから休みを上げていかないとな……
 
 @bg_black
@@ -1369,12 +1137,8 @@ label	mikan_kenkou_e1
 #■BG（廊下）
 @bg_rouka		# 廊下
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 前方から、でっかい毛玉が近づいてきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「な、何だこれ……」
 
@@ -1383,153 +1147,97 @@ label	mikan_kenkou_e1
 @karin_shifuku
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01772
 「ほら、邪魔よ樹、退きなさいッ」
 
 @bgm12			#演：仮ＢＧＭ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それを引き連れるのはかりん。
 どうやら毛玉は自律行動をしてるようだが……よけい不気味だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01513
 「お兄ちゃん～～～……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「げッ！　喋った！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01514
 「みかんだよ、お兄ちゃん～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 毛玉……いや、正確には毛皮や服などでグルグルに包まれている塊の中から、みかんの声が聞こえた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……何かの罰ゲームか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01773
 「日本語が分からないのッ！？　一大事なのよ、退きなさい！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「確かに普通の事態じゃこうはならないだろうけどな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんがやったのか？」
 
 @karin_komikaru_ikari2	#コミカル怒2
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01774
 「そうよ、悪いッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いいも悪いも事態が分からん……みかん、どうしたんだ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 逆ギレして会話にならないかりんより、当事者である毛玉に尋ねる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01515
 「う～……寒気がするって言ったら、かりんちゃんが」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01775
 「ええ、だから重ね着してるのよ。風邪かしら……気分は悪くない？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01516
 「ちょ、ちょっと重いよぉ～～……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 足元がグラついてる……。
 ほとんど全身を隠さんばかりの量だから当たり前だ。
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01776
 「重いって身体が重いの、みかん！？　あぁ、寒気ダルさは風邪の元だわ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ重いのは重ね着のせいだろうけど、寒気は可能性があるな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01517
 「みかん平気だよ～……ちょっとゾクゾクしただけで、今は服が重いだけだもん～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ユラユラと重ね着の団子が揺れながら訴えるが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （う～ん……服の山から声だけ聞こえるのもシュールな光景だ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「とりあえず、寒気がするんなら布団にでも入った方がいいな。ゆっくり休んでろ」
 
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01777
 「だからそう言ってるじゃない、樹が邪魔なのよッ、もう！」
 
 @karin_koufun		#興奮
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01778
 「さぁ、早く行きましょみかん……べ、ベッドに、早く！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ドモるな……そして反復するな。
 
 #CH（立ち絵消す）
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんに任すことに一抹の不安を残しながら、去っていく二人の背を見送っていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……の、だが、
 
 #SE19　廊下を走る音
@@ -1538,8 +1246,6 @@ window_close
 wait		2000
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01796
 「わーッ♪　かりん何それッ！？　いちごにも遊ばせてーッ♪」
 
@@ -1547,13 +1253,9 @@ se_stop		0
 @karin_shifuku
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01779
 「い、いちごッ！？　何言ってるの、これはあなたのおもちゃじゃないわよッ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『あなたの』……って、じゃあ誰のなんだ。
 
 window_close
@@ -1561,37 +1263,25 @@ window_close
 wait		2000
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01518
 「えッ！？　なになにッ！？　何の音！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01797
 「ダーイブッ！！！」
 
 #SE26　柔らかい物との衝突音（バフンッ！！）
 @SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 視界が無く状況を理解できないみかんが、あえなくいちごのダイブによって廊下に転がっていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01519
 「むぎゅぅぅッ……ふわわわッ！　お、重い～～！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01798
 「うおーッ、すごいフカフカ！　中で何か動いてて気持ちいいーッ♪」
 
 @karin_komikaru_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01780
 「こらーッ！！　みかんに何してるのッ、毛玉越しでも許さないわよ、抱き合うなんてッ！！」
 
@@ -1599,48 +1289,30 @@ se_stop		0
 #SE41　暴れる音（ドタンッバタンッ！）
 @SE41			#SE41　暴れる音（ドタンッバタンッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01520
 「うぎゅぅぅ～～～ッ、また何か乗ってきたッ！　助けてお兄ちゃ～～～ん！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いちごから奪取するように、かりんまでみかんに被さって転げまわった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はぁぁ………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 遊んでるなら別だが、仮にもみかんは病人のようだし……
 
 @bg_black
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01799
 「あッ！　パパずるいッ、それいちごのぉッ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01781
 「こら樹ッ、みかんをどこ連れてく気よ！　返しなさいッ！！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 二人に殴られ蹴られしながらみかんを救出すると、とりあえず重ね着を取って部屋まで連れて行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01521
 「あぁぅぅ～～……潰れるかと思ったぁ～～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やれやれ……ここじゃオチオチ病気にもなれないな。
 
 @open_schedule

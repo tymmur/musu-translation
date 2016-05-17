@@ -17,13 +17,9 @@ wait		2000
 @bgm02			#BGM 02 : 朝のテーマ
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おはよう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 朝。オレはいつもどおり身支度を整えて食堂に降りてきた。
 
 @hikari_middle		# 中間
@@ -37,8 +33,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00557
 「お父しゃん、おはよー！」
 
@@ -55,8 +49,6 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00323
 「おはようございます、樹先生」
 
@@ -66,13 +58,9 @@ wait		500
 @ichigo_shifuku
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02215
 「おはよ～～……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうした、いちごは元気が無いな」
 
@@ -87,13 +75,9 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02216
 「お腹空いたんだよぉ～……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 見ると、この時間にはもう用意されているはずの朝食が、今日は影も形も無かった。
 
 @chara_clear		#保険
@@ -102,13 +86,9 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01343
 「美雨がまだ起きてこないの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？　寝坊か……？」
 
@@ -118,18 +98,12 @@ wait		500
 @suika_shifuku
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00408
 「今までそんなこと、一度も無かったんですけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00409
 「今、みかんちゃん達が部屋まで見に行ってくれています」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう説明してくれたところで、ちょうど廊下を走ってくる足音がした。
 
 @bg_black
@@ -152,13 +126,9 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01974
 「すみません、遅れましたッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 慌てて美雨が入ってくる。
 
 @miu_komaru		#開_困
@@ -171,13 +141,9 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01975
 「あっ、樹さんも。おはようございますっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、おはよう。みんなも」
 
@@ -198,8 +164,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01907
 「うん。おはよ、お兄ちゃん」
 
@@ -211,8 +175,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02393
 「おはよう」
 
@@ -222,25 +184,17 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01976
 「えっと、すぐ朝食の用意を始めますから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「無理するな。体調でも悪いんじゃないのか？」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01977
 「いえ、そんなことは……寝過ごしただけですから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02394
 「まぁ本人がこう言ってるんだから、大丈夫でしょう」
 
@@ -263,8 +217,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02217
 「美雨、朝食～……。もう食べ物なら何でもいいよぉ」
 
@@ -277,8 +229,6 @@ wait		500
 @yuzu_shifuku
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00324
 「いちごちゃん、さっきから凄いお腹が鳴ってるもんね」
 
@@ -292,8 +242,6 @@ wait		500
 @karin_kanashimi	#哀
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01908
 「あ、ぅ……ごめん、今のみかんの音……」
 
@@ -303,19 +251,13 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01344
 「残念だけど、タイムリミットね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 時計を見つめていたざくろがそう告げる。
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01345
 「今から用意するのを待ってたら遅刻する」
 
@@ -335,8 +277,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02218
 「えーッ、朝ごはん抜き…！？」
 
@@ -346,8 +286,6 @@ wait		500
 @suika_shifuku
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00410
 「……もうこんな時間。行く準備しないと」
 
@@ -357,8 +295,6 @@ wait		500
 @miu_maid
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01978
 「あ……ごめんね、みんな。晩御飯は美味しい物を作っておくから」
 
@@ -387,8 +323,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01909
 「うん、楽しみにしてるねっ♪」
 
@@ -400,8 +334,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02395
 「はぁ…笑顔とお腹の虫のギャップが痛々しいわ、みかん……」
 
@@ -414,8 +346,6 @@ wait		1000
 @SE20			#SE20　廊下を走ってくる音　※徐々に大きく
 @bg_genkan		# 玄関
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 慌しく登校準備を済ませた子供達が玄関に集合した。
 
 @mikan_small
@@ -433,8 +363,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01910
 「行ってきますっ」
 
@@ -447,8 +375,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02396
 「それじゃ、行ってくるわ」
 
@@ -457,8 +383,6 @@ window_close
 wait		1000
 @SE30			#SE30　玄関のドアが開く音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「気をつけてな」
 
@@ -483,22 +407,16 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02219
 「行ってきます～……」
 
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00411
 「大丈夫、いちごちゃん。ふらふらしてるよ」
 
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すいか、いちごが途中で倒れないように頼むな……」
 
@@ -510,8 +428,6 @@ layer_movepass_play	l_ichigo,0,play_once
 @zakuro			#普
 @yuzu_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01346
 「行ってきます」
 
@@ -524,15 +440,11 @@ layer_movepass_type	l_yuzu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_yuzu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00325
 「樹先生っ、行ってきます！」
 
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、勉強がんばってこい」
 
@@ -547,8 +459,6 @@ wait		100
 @miu2			#開_にこ
 @bg_hiroma		# 広間
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01979
 「みんな、ごめんね。明日からはこんな事ないようにするから」
 
@@ -565,59 +475,41 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00558
 「いってらっしゃ～い！」
 
 #SE31　玄関のドアが閉まる音
 @SE31			#SE31　玄関のドアが閉まる音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 にぎやかに子供たちは手を振り、登校して行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふぅ……」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 住人の過半数が家を空けた後は、一気に静けさが訪れる。
 
 @hikari_yorokobi	#喜.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00559
 「みんなご飯食べてなくても元気いっぱいなの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは。何だかんだで騒がしさは変わらないからな」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01980
 「…………」
 
 @hikari			#普.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00560
 「お母しゃん？　どうしたの？」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01981
 「あ、ううん……。すぐ樹さんとひーちゃんの朝ごはん、作りますね」
 
@@ -629,27 +521,19 @@ wait		1000
 @bg_dining		# 食堂
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 食事をしている間も、やはり美雨は会話半分で、物思いにふけることが多かった。
 
 #@hikari_middle		# 中間
 #@hikari_shifuku
 #@hikari_yorokobi	#喜.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00561
 「ごちそうさまー！」
 
 #@hikari_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんな中、最初に朝食を終えたひかりが、食器を片して席を降りる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん？　どうした、ひかり」
 
@@ -657,59 +541,37 @@ wait		1000
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00562
 「ひーちゃん、お皿だいどこよに片ぢゅけてくるの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01982
 「……えッ。あ、いいのよひーちゃん、私がやるから」
 
 @hikari			#普.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00563
 「ううん。お母しゃん疲えてゆみたいらから、ひーちゃんもお手ちゅだいするの」
 
 @hikari_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01983
 「あっ、でも……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 止めようとする美雨の言葉より先に、ひかりは両手にお皿を持ち上げて運び始めた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「物にぶつかるんじゃないぞ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00564
 「うん、頑張ゆの～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 『大丈夫』とは答えない不安を残しながら、よちよちと歩いていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんな背中を美雨が無言で見つめていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01984
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨、何かあった？」
 
@@ -717,169 +579,111 @@ wait		1000
 @miu_maid
 @miu_mu			#開_普通（無表情）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01985
 「えっ……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今朝から様子がおかしいからさ。どうかした？」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01986
 「いえ、別に……。おかしいですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりでさえも、そう思って今もお手伝いしてるんだろう」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01987
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 質問の答えは返ってこず、口をつぐむ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だがこの沈黙は肯定という意味でいいのだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01988
 「……………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうか。分かった。無理に聞くつもりはないんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01989
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ただ、もしオレに気をつかってるなら、それは気にしないで良いから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレに出来る事や、話すだけでも楽になることなら、遠慮なくいつでも話してくれよ」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01990
 「樹さん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 申し訳無さそうにオレを見つめる。
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01991
 「すみません……ご心配をおかけして……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……いいさ。普段からオレの方が迷惑かけっぱなしなんだから」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01992
 「そ、そんなっ、迷惑だなんてッ！」
 
 @miu_ikari2		#開_怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01993
 「私にとって樹さんとひーちゃんが居てくれることが、どれだけ嬉しいか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気落ちしていたのに、そこには反論する美雨。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だがその勢いも束の間、すぐハッとしたように、声のトーンを落とす。
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01994
 「……嬉しいから、こんなにも答えが出せずに迷ってる」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01995
 「樹さん、私は―――」
 
 bgm_stop
 #CH（ひかりは立ち絵なし）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00565
 「あーーーーッ！」
 
 #SE99　お皿などを大量に割った音（ガシャガシャッ、ガシャーン！）
 @SE99			#SE99　お皿などを大量に割った音（ガシャガシャッ、ガシャーン！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うおッ！？」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01996
 「きゃあッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 口火を切った美雨の言葉を掻き消すように、ひかりの声と激しい割れ音がした。
 
 se_stop		0
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01997
 「ひーちゃんッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「やったか」
 
@@ -908,23 +712,17 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00566
 「うう～……いっぱい割れちゃったの……」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 キッチンへ走り込むと、案の定、床は皿やグラスの破片まみれになっていた。
 
 @miu_small
 @miu_maid
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01998
 「ひーちゃんっ、大丈夫！？　怪我してない！？」
 
@@ -938,46 +736,30 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00567
 「んぅ、うん……ごめんなしゃい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00568
 「冷じょう庫にぶちゅかりそうになって避けたら、ゴミ箱にぶちゅかったの……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「相変わらずの不思議遭遇率だ」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01999
 「掃除は私がやるから。ひーちゃんは怪我しないように離れてて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、オレが掃除する。美雨は一応ひかりに怪我が無いか見てやってくれ」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02000
 「え…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 正直、今の美雨も、オレからするとどこか危なっかしいのだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨もそんなオレの意図を汲んで頷いてくれた。
 
 #@miu2			#開_にこ
@@ -989,16 +771,12 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02001
 「分かりました……それではお願いします」
 
 #@miu			#閉_にこ
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02002
 「ひーちゃん、リビングに来て。怪我が無いか見てみましょうね」
 
@@ -1011,51 +789,31 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00569
 「うん……。お父しゃん、ごめんなしゃいの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「気にするな。怪我が無さそうでよかった」
 
 bgm_stop
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 申し訳無さそうなひかりをつれ、美雨は一礼してキッチンを後にする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その惨状の中にオレだけが残った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁ片付けるのはいいが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨の話、聞き損ねたな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……何か言いかけようとしていたみたいだったが。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 床に散らばった大量の食器の破片を、ガシャガシャと片付け始める。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いつでも話してくれとは言ったし、またいずれ美雨から切り出してくれるだろう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とりあえず、オレからも美雨のことは気にかけてあげた方が良さそうだ。
 
 @bg_black

@@ -11,8 +11,6 @@ bgm_stop
 #■BG（青空）
 @bg_sky			# 空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 週末、さっそくだがオレは、町へみかんを探しに行く事にした。
 
 #■BG（玄関）
@@ -22,55 +20,35 @@ bgm_stop
 @miu			#閉_にこ
 @bg_genkan		# 玄関
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01196
 「樹さん、どちらかお出かけですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あぁ、ちょっと商店街の方に」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ところで、みかんからはまだ何の連絡も無し？」
 
 @miu_komaru		#閉_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01197
 「あ、はい……。今のところは電話も手紙も」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そっか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あれから数日が経っているのに、みかんから連絡は一度も来なかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こっちから携帯に掛けても繋がらない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「行ってくる」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01198
 「はい。お気をつけて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨に送り出され、玄関を後にした。
 
 #一拍
@@ -81,54 +59,34 @@ wait		1000
 @bgm01			#BGM 01 : さすらいのテーマ
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やって来た商店街は週末の活気に満ちていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 目的のある人、ない人。単独、カップル、ペット連れ、集団……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あてもなく探すのは大変そうだな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ここで落ち込んでいても仕方ないので、とりあえず辺りを歩き始めた。
 
 #■BG（黒）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 …………………
 
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そうやって、しばらく当て所なく歩き終えた頃、
 
 #CH（まだ立ち絵なし）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00298
 「……？　樹先生？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 後ろから掛けられた声に、オレはハッとして慌てて振り返った。
 
 #CH（ここから立ち絵あり）
@@ -136,131 +94,85 @@ wait		1000
 @rua_shifuku
 @rua_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00299
 「きゃっ……えっと、こんにちは」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、るあちゃんか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 探していた姿ではなく、肩を落とす。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「こんにちは。ごめん、急に振り返って驚かせちゃったな」
 
 @rua_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00300
 「え、いいえ、平気です」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00301
 「それより樹先生、どうかしたんですか？　黙々と歩いてましたけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちょっとね、みかんは居るかなって」
 
 @rua			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00302
 「みかんちゃん……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まだ聞いてないかな。実はみかん、親戚の人に引き取られて退院したんだよ」
 
 @rua_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00303
 「え、ええっ！？　そうなんですかっ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 初耳だったようで、大人しいるあもさすがに驚きで声を上げた。
 
 @rua			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00304
 「いつからですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「数日前になるかな。でも、まだこの町にいるらしいから。様子を聞こうかと思って」
 
 @rua_kanashimi		#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00305
 「はあ……そうだったんですか。みかんちゃんが……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00306
 「それは全然知らなくて、すみません。見送りにも行かずに」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いやいや、いいよ。ドタバタして連絡し忘れたこっちが悪いんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そういうわけで、週末の休みに探しに来てるんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 キョロキョロと辺りを見回した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「るあちゃんは、今日は一人？」
 
 @rua			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00307
 「いえ、涼お姉ちゃんと一緒ですけど、さっき入ったお店にお財布を忘れたって言って」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そっか。じゃあオレは行くけど、また遊びにおいで」
 
 @rua_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00308
 「はい、ありがとうございます」
 
 @rua_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 軽く手を振って、オレも自分の目的のため歩き出した。
 
 #一拍
@@ -270,8 +182,6 @@ wait		1000
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ちょうどそれと入れ替わるように、るあの元へ涼海が戻ってくる。
 
 @bgm12			#BGM 12 : メインテーマ
@@ -279,127 +189,87 @@ wait		1000
 @suzumi_shifuku
 @suzumi_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00285
 「あーもうっ、腹が立つなぁ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誰が見ても明らかなくらい、プンプンと立腹していた。
 
 @rua_small
 @rua_shifuku
 @rua			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00309
 「おかえり涼お姉ちゃん。どうかしたの？　お財布」
 
 @suzumi			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00286
 「ううん、お財布はちゃんとあったけど」
 
 @suzumi_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00287
 「腹が立ってるのはあのホテルの従業員よ。私のこと見て、『ここは子供が興味持つには十年早い場所だよー』だって」
 
 @suzumi_comical_ikari	#コミカル怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00288
 「失礼でしょ、子供じゃないわよッ、私ッ！　仕事だったらあんな男、気絶するくらいイカせてやったのにぃ～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00310
 「……涼お姉ちゃん、話が良く見えないよ……」
 
 @suzumi			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00289
 「戻ってくる途中、ホテルに入っていくみかんちゃんを見かけたから、挨拶しようとしたのよ」
 
 @suzumi_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00290
 「そしたら、掃除してた従業員が『子供には早いー』とかバカにしてきたのっ」
 
 @rua_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00311
 「みかんちゃんが……？　あれ、でも」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 るあは今さっき聞いた話を思い出した。
 
 @rua			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00312
 「さっきまでここに樹先生が居て、みかんちゃんはもう施設を止めたって言ってたよ」
 
 @suzumi			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00291
 「え？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00313
 「親戚の人のところに行ったって」
 
 @suzumi_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00292
 「ええぇぇーーッ！！　うそッ、全然知らなかったッ！　いつ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00314
 「ちょっと前だって。まだこの町には居るって言ってたけど」
 
 @suzumi_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00293
 「そ、そうなんだ。知ってたら見送りに行きたかったのにな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00294
 「う～ん、じゃあさっきの子も人違いね。知らない人と入っていったみたいだし」
 
 @rua_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00315
 「多分そうだよ。まだお仕事してるなんておかしいし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局涼海とるあはそう結論付けて、その話題は終了したのだった。
 
 #一拍
@@ -408,8 +278,6 @@ bgm_stop
 @bg_black
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この日は、みかんを見つけることが出来なかった。
 
 #（スケジュール）

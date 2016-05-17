@@ -11,54 +11,32 @@ bgm_stop
 @bgmk01			#BGM K01 : 夢のテーマ
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 暗い視界の中、遠くから声のようなものが聞こえてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,P00665
 「……つき、……てるの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 暗いのは目を閉じているからだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まだオレは寝ているから、この声は夢か……？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,P00666
 「ふふ……」
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 楽しそうな含み笑いが耳に残ったあと、お腹の上に温かい感触が被さってくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……どうやら夢じゃないようだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,P00667
 「けっこう……っちも、気持ちいいかも……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん、んん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 重くはないが、それは抱かれるような心地よさ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その正体が気になって、オレはうっすらと目を開ける。
 
 #■BG（白）
@@ -70,8 +48,6 @@ wait			2000
 @bg_white		# 白
 screen_whitein		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一瞬朝日に視界が眩み、ゆっくりと視界が広がってきた。
 
 #■EVCG（起こしてくれるかりん）EV_KAR_010
@@ -82,72 +58,44 @@ event		"event\EV_KAR_010-00.png"
 screen_whitein		2000
 wait			2000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………え？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00668
 「あら……」
 
 @bgm02			#BGM 02 : 朝のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 上に乗っていた正体と、すぐ間近で目が合った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00669
 「おはよう、樹。やっぱり起こしちゃったかしら」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……かりん……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 陽だまりのネコのような無防備な微笑みで、お腹の上に被さっていたのはかりんだった。
 
 #→オレが目を覚ましても慌てず、（無防備）なその格好を続けている。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレが目を覚ましても慌てず、無防備なその格好を続けている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00670
 「ごめんね、あなたが気持ち良さそうに熟睡していたから、つい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00671
 「ここって日差しも寝心地も温かいし、私もちょっとまどろんじゃってたかも」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、ああ……えっと……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 起き抜けで、まだ状況をよく理解できなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00672
 「寝ぼけてる。まだ眠い？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いや、大丈夫……うん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00673
 「そう。なら今度は私が眠くなっちゃう前に、残念だけど起きないと」
 
@@ -161,14 +109,10 @@ wait		1000
 #@karin_pajama
 #@karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんがベッドから降り立つと、パジャマの裾がフワッと下へ広がった。
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……おはよう、かりん」
 
@@ -176,51 +120,33 @@ se_stop		0
 @karin_pajama
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00674
 「ええ、おはよう。時間はまだちょっと早いんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 時計を見ると、確かにまだ早朝に近い時刻だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00675
 「これくらいの時間じゃないと、いちごが騒ぎ出す時間になっちゃうものね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それはそうだが………そうまでして、わざわざオレを起こしてくれるのは……？」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00676
 「特別な理由は無いけど……しいて言うなら、私が起こしたかったから、かな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00677
 「もちろん樹の睡眠時間は考慮に入れてるわ。十分に眠れてるでしょう？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「昨日はいつもより早かったからな。とりあえず」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00678
 「うん。それじゃ、私も着替えて朝の用意をしてくるわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00679
 「また朝食のとき、食堂でね」
 
@@ -230,34 +156,22 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 最後まで機嫌良いまま部屋を出て行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………あぁ、そうか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ようやく頭が冴えて思い出した。
 今のかりんでは、これは普通の態度なのだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「懐いてくれるのは嬉しいけど、急変化だな」
 
 bgm_stop
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それが素直な行動だと思うと、朝から少し気恥ずかしくもあった。
 
 @bg_black

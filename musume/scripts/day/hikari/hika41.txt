@@ -13,12 +13,8 @@ wait			2000
 screen_whitein		100
 wait			100
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぶしい朝日に照らされ、ゆっくりと眠りから目覚めた朝。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 開けた窓から心地よい風と鳥の声が、部屋の中へ入ってくる。
 
 window_close
@@ -39,20 +35,14 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00761
 「おはよ、お父しゃん♪」
 
 #@bgm02			#BGM 02 : 朝のテーマ
 @bgm17			#BGM 17 : のんびりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すでに起きていたひかりが、ベッドの側でオレに微笑みかけた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おはよう、ひかり」
 
@@ -69,13 +59,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00762
 「あははっ、お父しゃんお寝坊なの。もうひーちゃんもお母しゃんも起きてゆよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そっか。美雨は朝ごはんかい？」
 
@@ -88,13 +74,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00763
 「うん。今だいどこよで用意してくれてゆの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ならオレも手伝わないと」
 
@@ -111,15 +93,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00764
 「わぁい♪　ひーちゃんもご飯のお手ちゅだいするのっ」
 
 @hikari_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00765
 「ひーちゃん先に下いてゆから、早くお父しゃんも来てねーっ」
 
@@ -133,46 +111,28 @@ window_close
 wait		500
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 朝から元気に走って行った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まるでミニチュアのいちごみたいな子だ。
 
 #SE05　物にぶつかる音（ガンッ！）
 #@SE05			#SE05　物にぶつかる音（ガンッ！）※ギャグ調なので、リアルっぽくない擬音系
 se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00766
 「きゅぶぅッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……また物にぶつかったな。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「騒がしさがなくなって、結局残ったのはあの子だけなんだよな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレと美雨の実の娘、ひかり。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今まで美雨がひかりに過保護だったのも、母親としての娘への愛しさからだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 最初、ひかりをつれて来た時の美雨の様子も、そのためだったのか……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「家族で一緒に暮らすなんて……他の人たちはみんな、普通にしてることなのに」
 
@@ -180,16 +140,12 @@ se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
 bgm_stop
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんなささやかな幸せが、また美雨から逃げようとしている……
 
 #■BG（食堂）
 #@bg_dining		# 食堂
 @bg_gate		# 孤児院前
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりと二人で美雨を手伝って、食堂で朝食になった。
 
 @bg_black
@@ -220,29 +176,19 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00767
 「ふぁ～…コーンシュープ、トロトロしてて美味しいの♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03117
 「あらあら、落ち着いて飲まないと口元についてるわよ。ほら」
 
 @bg_white		# 白
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00768
 「あははっ、ごめんなしゃい～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨に口を拭ってもらいながら、上機嫌のひかり。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その美雨とはやはり、昨日の話題もあってチラチラと視線が交わった。
 
 @miu_middle_kuruma
@@ -254,13 +200,9 @@ layer_movepass_play	l_hikari,0,play_once
 #@hikari_yorokobi	#喜
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03118
 「…えっと。樹さん、サラダのおかわりどうですか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、うん。じゃあ少しだけ……」
 
@@ -270,22 +212,16 @@ wait		500
 @hikari_shifuku
 @hikari			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00769
 「……？」
 
 @hikari_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00770
 「ねぇお母しゃん、このコリコリしたのもっと入えてい～い？」
 
 #@miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03119
 「ええ、クルトンね。このお皿にあるから、食べたい分だけ入れてね」
 
@@ -298,32 +234,20 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00771
 「わぁい！　こえお菓子みたいで、ひーちゃん大しゅきなの！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりはそんなオレ達の様子を不思議そうに小首を傾げたが、すぐ食事へと関心が戻った。
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……美雨は今日、行動を起こすんだろうか）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誠司は猶予は無いと言った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そして美雨は昨夜、オレに全てを話してひかりを託した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨は未練を引きずるような子じゃない。だとすれば……
 
 @miu_middle_kuruma
@@ -336,20 +260,14 @@ layer_movepass_play	l_hikari,0,play_once
 #@hikari_yorokobi	#喜
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03120
 「樹さん……？　どうぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、うん。ありがとう」
 
 @bg_black		# 黒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨が差し出してくれたサラダの器を受け取った。
 
 bgm_stop
@@ -362,8 +280,6 @@ bgm_stop
 #@hikari_yorokobi	#喜
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03121
 「ひーちゃん、お話があるの。ちょっといい？」
 
@@ -373,8 +289,6 @@ wait		500
 @hikari_shifuku
 @hikari			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00772
 「うん、なぁに？」
 
@@ -384,8 +298,6 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03122
 「実は私ね、今夜から少し、遠いところに出かけないといけなくなっちゃったの」
 
@@ -403,16 +315,12 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00773
 「えーっ！」
 
 #@bgmk02		#BGM K02 : しんみりのテーマ
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……やっぱり。美雨はもう今日自ら…）
 
@@ -431,8 +339,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00774
 「お母しゃん一人で行くのっ？　いちゅ帰ってくゆのー！？」
 
@@ -442,15 +348,11 @@ wait		500
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03123
 「それはまだ分からないのよ……。ごめんねひーちゃん」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03124
 「だから私が帰ってくるまで、樹さんと仲良く一緒に居てほしいの」
 
@@ -475,8 +377,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00775
 「えぅ……みんなのちゅぎは、お母しゃんまで居なくなっちゃうのっ……そんなのやぁなのぉっ」
 
@@ -496,8 +396,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00776
 「寂しいよぉッ……ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいのっ…！」
 
@@ -507,32 +405,20 @@ layer_movepass_play	l_hikari,0,play_once
 #@miu_kurumaisu		#メイド服・車イス
 #@miu_kuruma_shinken	# 真剣（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03125
 「ひーちゃん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっきまで嬉しそうだった笑顔が、一気に泣きべそ顔に変わるひかり。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 無理もない。まだひかりは幼いんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 家族同然だったみんなに次いで、美雨まで居なくなろうとしているのだから。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00777
 「いちゅ帰ってくゆのっ…？　明日？　明日の明日ッ？」
 
 #@miu_kuruma_kanashimi	# 哀（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03126
 「……もっとかかっちゃうわ」
 
@@ -552,13 +438,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00778
 「ぐすッ……一週しゃん……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03127
 「ううん。ごめんね……もっと何年もかかっちゃうの……」
 
@@ -585,8 +467,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00779
 「ひっく、ふぇッ……うぇええぇぇええんッ！」
 
@@ -599,31 +479,19 @@ wait			100
 @bg_white		# 白
 screen_whitein		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その言葉でついにひかりは泣き出し、美雨へ飛び込んだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00780
 「お母しゃん行っちゃヤなのぉッ……ひーちゃんみんなと一緒がいいよぉッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00781
 「ぐすッ…ひーちゃん、ずっと良い子にすゆからッ……お母しゃん居なくなやないでぇッ…！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03128
 「……ひーちゃん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 車椅子に座る美雨の膝の上に顔を押しつけてくるひかり。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんなひかりを、美雨は優しく撫でてあげた。
 
 @miu_middle_kuruma
@@ -631,43 +499,27 @@ screen_whitein		1
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03129
 「うん、寂しいのよね、ひーちゃん……みんなが居なくなって…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03130
 「それでも、私は行かないといけないの……。それが決まりだから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00782
 「～～～ッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりはグシグシと押し付けた顔を左右に振った。
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03131
 「電話は無理だけど、でもお手紙は書くわ。だから、ね……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00783
 「～～～～ッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 駄々っ子のように、また顔を押し付けてグシグシと擦る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03132
 「たくさんお土産を持って……帰ってきてあげるから……」
 
@@ -693,8 +545,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00784
 「お母しゃんと一緒の方がいいのぉ……！」
 
@@ -713,8 +563,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00785
 「ぐすッ……じぇったい、行かないといけないの……？」
 
@@ -725,20 +573,14 @@ wait		500
 #@miu_kuruma_kanashimi	# 哀（車いす専用）
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03133
 「ええ……」
 
 #@miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03134
 「ひーちゃんが良い子で待っていてくれたら、私も向こうで頑張れるわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03135
 「早く用事を済ませて帰ってくるから……。ね…？」
 
@@ -763,8 +605,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00786
 「んぐぅっ……お母しゃぁん…ッ」
 
@@ -775,20 +615,12 @@ wait			100
 @bg_white		# 白
 screen_whitein		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もう一度、美雨の膝に顔を埋めるひかり……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりは寂しがりやで泣き虫な面もあるが、素直で良い子だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨に諭される内に少しずつ納得し、泣き声を静め始めた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
@@ -799,37 +631,23 @@ wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 @bg_rouka		# 廊下
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは一言も発せないまま、二人を残してソッと廊下へと出た。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （美雨は今日、出頭する……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりには戻ってくると言っていたが、おそらくこの場での慰めの言葉だろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （ならオレも、行く準備をしないとな……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この物語は、そんな結末で終わらせてはいけない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 たとえ三人のハッピーエンドへの道は無くとも、選ぶべき道筋は存在するはずだ。
 
 #■BG（黒）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは一人、自室へと戻って行った。
 
 #■BG（青空）
@@ -841,32 +659,22 @@ wait			2500
 @bg_itsuki		# 自室
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それからしばらく部屋でペンを動かし作業に没頭していた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 間に昼食を挟んだりもしたが、その後もかなりの時間集中している……
 
 @SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 wait		500
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「よし、出来た……」
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03136
 「樹さん……？　よろしいですか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、どうぞ」
 
@@ -881,37 +689,25 @@ wait		1000
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma		# 普（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03137
 「失礼します。お仕事中でしたか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん、仕事って言うか………それより美雨、それ」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03138
 「あ、はい、よければどうぞ。お茶とお菓子をお持ちしました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03139
 「昼食を取られてからずっと部屋で作業をされていたみたいですし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ありがとう。でも美雨も大変なんだから、無理しないで」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨が運んできてくれたティーセットを受け取った。
 
 #@miu_small_kuruma
@@ -920,84 +716,54 @@ wait		1000
 @miu_kuruma		# 普（車いす専用）
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03140
 「お手紙を書かれていたんですか…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁね。みかん達にさ」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03141
 「電話だとみんな、新しい生活でも元気そうでしたね。安心しました」
 
 @miu_kuruma		# 普（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03142
 「そういえばかりんちゃんがこの前、樹さんの新しい引っ越し先の住所が知りたいって言ってましたよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何だろうな。不幸の手紙でも送ってくる気か……」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03143
 「ふふ。住む場所が決まったら、みんなに連絡をお願いします」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それをわざわざオレに頼む。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨はもうその頃には、住所を教えられる状態じゃなくなっているということだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……美雨の紅茶、美味しいな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「これからしばらく飲めなくなると思うと、名残惜しいよ」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03144
 「私も……この時間がなくなるのは、すごく寂しいです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 手紙をそれぞれ封筒に入れると、オレはお皿の上のクッキーを摘んだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 これも美雨の手作りだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 最後に、カップの中の紅茶を一気に呷る。
 
 #@miu_small_kuruma
@@ -1006,46 +772,30 @@ wait		1000
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「時間まで何をしようか。三人での思い出作り」
 
 @miu_kuruma		# 普（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03145
 「そうですね……。お菓子作りなんてどうでしょう」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03146
 「クッキーの作り方を、前からひーちゃんにせがまれていましたから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん。いいんじゃないかな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「クッキーだけと言わず、後先考えないで色々一緒に作りまくろう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03147
 「はいっ。今日は全部のメニューを出し尽くします」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 する事は決まった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 時間までオレ達は、それぞれの思惑を胸に思い出を積み上げていく。
 
 bgm_stop
@@ -1054,8 +804,6 @@ wait		1000
 #■BG（ひかりの部屋）
 #@bg_hikari		# ひかりの部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨と一緒に、部屋でお絵かきをしていたひかりに声を掛けた。
 
 #@hikari_small
@@ -1075,13 +823,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00787
 「クッキー作ゆの！？　行く行くーっ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03148
 「材料は他に沢山あるから、三人一緒に色々作りましょうね」
 
@@ -1094,8 +838,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00788
 「うんッ！　わぁいッ♪」
 
@@ -1106,16 +848,10 @@ wait		1000
 @bg_kitchen		# キッチン
 @bgm17			#BGM 17 : のんびりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それからオレ達三人は、キッチンにこもりお菓子作りを楽しんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 正直オレもひかりも素人なので失敗は多かったが、今の目的は思い出作り。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 失敗したときは笑いあい、成功したときは喜び合う。それで十分だった。
 
 @miu_middle_kuruma
@@ -1126,13 +862,9 @@ wait		1000
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @hikari_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00789
 「お母しゃん、混ぜてゆのトロトロになってきたの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03149
 「うん、上手いわよ。じゃあ次はそこに、メレンゲを入れて混ぜるの」
 
@@ -1145,22 +877,16 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00790
 「はーい♪　れめんげ、れめんげー」
 
 @miu_kuruma		# 普（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03150
 「樹さん、そちらはどうですか？」
 
 @hikari_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「見てくれ美雨！　噛まずに済むボロボロのホットケーキが出来上がった！」
 
@@ -1168,8 +894,6 @@ layer_movepass_play	l_hikari,0,play_once
 #@miu_kuruma_odoroki	# 驚（車いす専用）
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03151
 「あ、あは……えっと、焼きあがるまでにタネを弄りすぎたみたいですね……」
 
@@ -1186,33 +910,23 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00791
 「ボロボロでも美味ししょうな匂いなのー♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「次は甘いのが苦手な人でも食べられる、しょっぱいシュークリームでも作るか」
 
 @hikari			#普
 @miu_kuruma_odoroki	# 驚（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03152
 「あぁあ、樹さんっ。メレンゲにはお塩じゃなく砂糖をお願いします～」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 @hikari_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どんな工程で何を作っても、その一緒にいる時間がかけがえのない宝物になる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 談笑した数だけ、お菓子の数だけ、過ぎた時間だけ、記憶の中へ刻み付ける。
 
 #■BG（白）
@@ -1224,44 +938,24 @@ wait			2000
 screen_whitein		100
 wait			100
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……オレは過ぎた一年間を振り返っていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……想像もしていなかった濃い生活と、慌しい日々。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……まるで一生分の出来事が、この一年間に凝縮されていたような生活だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……たくさん笑った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……たくさん苦しんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……たくさん悩んだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……たくさん努力した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……そして、たくさん幸せを感じた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……もう、未練も後悔もない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一生分の苦楽を過ごした一年間の思い出を胸に、オレは生涯の終幕に立つ。
 
 bgm_stop
@@ -1270,23 +964,15 @@ wait		1000
 #■BG（夕焼け）
 @bg_sky_y		# 夕方の空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03153
 「……樹さん」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03154
 「何を考えてるんですか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「分からない。色々すぎて、言葉では言えないよ」
 
@@ -1295,12 +981,8 @@ wait		1000
 @bg_living		# リビング
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 お菓子作りの時間も終わって、オレと美雨は二人で窓から外を眺めている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 時折、前庭で遊ぶひかりが横切るたびに、手を振って答えてあげた。
 
 @miu_small_kuruma
@@ -1308,39 +990,25 @@ wait		1000
 @miu_kurumaisu		#メイド服・車イス
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03155
 「部屋の中が甘い匂いでいっぱいですね……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「明らかに作りすぎだな。食べ残してるし……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03156
 「でも、楽しかったです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03157
 「最後に楽しい思い出がたくさん出来て」
 
 @miu_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 キィキィと、美雨が車椅子の向きを変えた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03158
 「そろそろ行きますね。未練が出てしまう前に」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
@@ -1352,258 +1020,166 @@ wait		100
 @miu_kuruma		# 普（車いす専用）
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03159
 「……樹さん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 車椅子を押さえて、静かに美雨の前へ回り込んだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨。最後に二つ、頼みを聞いてくれないか」
 
 @miu_kuruma_yorokobi	# 喜（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03160
 「はい……いいですよ、今からで出来る事になってしまいますけど…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03161
 「何でしょう……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 これから濡れ衣を被ろうと言うのに、美雨は穏やかな微笑みを絶やさない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは……
 
 bgm_stop
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりのことを、よろしく頼むよ」
 
 @miu_kuruma		# 普（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03162
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03163
 「……あの、それはどういう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「一つ目の頼みだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「警察へは、オレが出頭する」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03164
 「……ッ！」
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その言葉に美雨が、息を呑んで身体を強張らせた。
 
 @miu_kuruma_ikari	# 怒（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03165
 「な、何を言い出すんですかッ、樹さん！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03166
 「一連の事件の犯人は私です！　警察もそう捜査して、もう決まっていることなんですッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あいつらは、自分達の不利にならない犯人なら誰でもいいんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今日、誠司に話して確認した」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレが自首をすれば、誠司が内部からそう取り計らってくれるって」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03167
 「そ、そんなことをッ……！？」
 
 @miu_kuruma_ikari	# 怒（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03168
 「ダメですッ、樹さんにそんなのッ！　認められませんッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨。君はもう十分に苦しんだ。辛い目に遭った」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それはオレのせいだから、その罪を今から償いに行くんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03169
 「樹さんのせいじゃありません！　樹さんは被害者じゃないですかッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレは美雨の心に、そして身体に傷を負わせた。立派な加害者だ」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03170
 「そんな………そんなことで自首なんてッ…」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03171
 「私は今まで、たくさんの人を殺めましたッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03172
 「樹さんのお父さんも、この手にかけているんですッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03173
 「それは例えどんな事情があろうと、罪として私が償わなければなりませんッ」
 
 @miu_kuruma_ikari	# 怒（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03174
 「樹さんッ……お願いですから、バカな真似はやめてくださいっ…！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨……」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03175
 「冗談だって言ってください……樹さんっ…」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03176
 「今ならギリギリでまだ………その言葉を、受け止めていませんからッ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 衝撃から動転、困惑と焦り………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんな様々な感情を理解した先にあるのが、大きな絶望と悲しみというのが分かっているから。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だから美雨は今、手を震わせながらここで踏みとどまっているのだ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ごめんよ、美雨……」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03177
 「そ、んな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはもう、美雨を守るという決意を変えるつもりはない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……美雨。前にオレが言った事、覚えてる？」
 
 #@miu_kuruma_shinken	# 真剣（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「例え国だろうが世界だろうが敵に回しても、美雨と天秤にかけるなんて出来ない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……オレは美雨を守りたいんだ」
 
 bgm_stop
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03178
 「あっ……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは美雨に背を向け、ゆっくりと歩き出した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 背後で息を呑む美雨。
 
 #@bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03179
 「樹さんッ……私でも、同じ事が出来ますかッ！」
 
@@ -1613,16 +1189,10 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その瞬間、風を切るような音と共に頬に痛みが走った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 放たれた果物ナイフが頬をかすめていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは静かに、美雨の方へと振り返る……
 
 @miu_small_kuruma
@@ -1630,108 +1200,68 @@ se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 @miu_kuruma_ikari	# 怒（車いす専用）
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03180
 「樹さんが本気でしたら……私も本気で樹さんを止めますッ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03181
 「樹さんが守ると言ってくださった私自身も、樹さんの敵に回りますからッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
 @bgm05			#BGM 05 : 悲しいシーンの曲
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 瞳に涙を滲ませた、激しい美雨の怒りだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 自分のことでオレを犠牲にさせたくないと言う、想いのこもった怒り……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そう……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03182
 「本気、ですよッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 でも、想いが分かるから、オレは美雨の怒りを前にしても冷静でいられた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 逆に嬉しくさえ思う。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨。もしこのナイフが、オレじゃなくて美雨自身に向けられていたものだとしたら」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレが思いとどまっていたのは、分かっていたはずだ」
 
 @miu_kuruma_shinken	# 真剣（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03183
 「……ッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「でも美雨は、そんな強引な解決策より、オレを納得させようとしてくれたね」
 
 @miu_kuruma_kanashimi	# 哀（車いす専用）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03184
 「だって、それは………そんな事をしても樹さんは……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「きっと、後々抵抗して、ひかりとおとなしく過ごすような事はないだろうな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だから美雨は自分のことより、ひかりの事を案じてくれた」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっきのが、今の美雨が取れる最後の手段だったはずだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そしてオレはそれも振り切って、美雨に背を向ける。
 
 #■BG（黒）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03185
 「い、いや……樹さんッ！！」
 
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03186
 「いやぁッ、待ってッ！　行かないで樹さんッ！！」
 
@@ -1740,8 +1270,6 @@ se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 @SE27			#SE27　倒れる音（ドサッ）
 wait		500
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 身を乗り出した美雨はバランスを崩し、床へと投げ出された。
 
 #素材なし：ＥＶ
@@ -1753,125 +1281,79 @@ wait		500
 @bg_living		# リビング
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03187
 「どうしてッ……！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03188
 「どうして私とひーちゃんを置いていくんですかッ！」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03189
 「樹さんは何も悪くないッ……全部、私が犯したことなのにぃッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もう取れる手段もない、悲愴な声がオレの鼓膜を打ちつける。
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03190
 「お願いしますッ、樹さん！　私を庇って自首なんて、バカな真似は止めてくださいッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03191
 「穢れてる私なんか……ひーちゃんの側にいる資格なんてないんですッ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨。君は穢れてなんかいない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ずっと淀んだ世界で自分を顧みてたから、そう見えていただけだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だから、そんな世界に君を置いてしまったオレが、全ての罪を償うべきなんだ」
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03192
 「分かりませんッ、そんな勝手な理屈！　分かりたくないッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03193
 「私はただ………ただッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03194
 「樹さんとひーちゃんが大好きで、何よりも大事なだけなのにぃッ…！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局、オレのしていることは、自己満足でしかないのかもしれない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こうして美雨を悲しませ、泣かせているオレ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誰にだって、日陰ではなく、日向の人生を歩む権利があって当然じゃないか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「これからはひかりと、この淀んだ世界を出て、澄んだ世界を歩んでほしい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨ならもっと楽しい事、嬉しい事、幸せな事を、たくさん見つけられるはずだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それがオレの、二つ目のお願いだよ」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03195
 「そんな……いやですッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03196
 「そんなお願いなんて聞けませんッ、樹さんッ！　行かないでぇッ！」
 
 @bg_black
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03197
 「あッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 届かぬと思った美雨の手が、オレのズボンの裾を掴んでいた。
 
 @miu_large		# 近い
@@ -1879,20 +1361,14 @@ wait		500
 @miu_kanashimi2		#閉_哀
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03198
 「樹さん……幸せになってくださいッ、私なんていいですから…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「心配ないよ、美雨。オレは今、すごく幸せだから」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 腰をかがめると、オレはその美雨の手にキスをして、ズボンの裾からそっと離した。
 
 @miu_large		# 近い
@@ -1900,58 +1376,36 @@ wait		500
 @miu_kanashimi		#開_哀
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「大好きだ。美雨」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03199
 「ッ、いつき……さっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃあ、元気で」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 再び美雨に背を向け、オレはリビングを後にする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03200
 「―――ッ！？　い、樹さんッ……」
 
 @SE06			#部屋のドア開く音（ガチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 リビングのドアを開けて、廊下に一歩を足を踏み出す。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03201
 「いやッ、いやあぁぁ………行かないで、樹さんッ……樹さんッ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……っ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨の哀しみに沈んだ声で、オレは咄嗟に背中越しに口を開く。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……が、
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B03202
 「いつき…さん……」
 
@@ -1963,21 +1417,13 @@ bgm_stop
 #@bg_black
 @bg_rouka		# 廊下
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何も言葉を発することなく、リビングのドアを閉じた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その直後、リビングから聞こえる美雨の慟哭を、ドアの前にたたずんで耳に残す。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それが声の枯れそうな嗚咽になるまで、その場でオレはジッと立っていた。
 
 @bg_black
@@ -1987,8 +1433,6 @@ wait		1000
 #■BG（庭／施設外観）
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 外に出ると、遊んでいたひかりがオレの姿を見て寄って来た。
 
 @hikari_small		# 遠い
@@ -1996,13 +1440,9 @@ wait		1000
 @hikari			#普
 @bg_gate_y		# 孤児院前(夕方)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00792
 「…？　お父しゃん、お出かけすゆのっ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、ちょっと遠くに出かけてくる。しばらく帰って来れないな……」
 
@@ -2015,13 +1455,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00793
 「ふぇぇッ……帰ららいのッ！？　ぐすッ…お父しゃんまで居なくなっちゃうのぉッ…！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「代わりに美雨が居てくれるよ。ずっと」
 
@@ -2040,31 +1476,21 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00794
 「えうぅッ……どっちも居なくなるのがやぁなのぉッ！」
 
 @hikari_naki		#泣
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00795
 「ひーちゃん、お父しゃんとお母しゃんの三人で一緒がいいよぉッ…！　ふえぇぇええんッ！」
 
 @hikari_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは……甘えんぼさんだなぁ、ひかりは」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 また寂しくて泣き出してしまったひかりの前に屈み、視線を合わせる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりが笑っていてくれないと、中々帰って来られなくなっちゃうよ」
 
@@ -2095,18 +1521,12 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00796
 「ひっく、ぐしゅッ……ん、ひーちゃん、泣いてゆとダメなの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうだよ。ひかりが強い子でいてくれたら、オレも早く戻って来られるんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だから、ほら。笑顔になって」
 
@@ -2136,13 +1556,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00797
 「んぐっ……ひっく、うん……だったらひーちゃん、泣からいの…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ははっ、よし。良い子だ。今ので少し帰るのが早くなったぞ」
 
@@ -2172,27 +1588,19 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00798
 「ぐすッ、すんっ……うん！　ちゅよい子になるの…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃあ。元気でな、ひかり」
 
 bgm_stop
 @bg_white		# 白
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 頭を撫でると、前髪を上げたその額にキスをして、オレは立ち上がった。
 
 @bg_gate_y		# 孤児院前(夕方)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨が中で寂しがっているんだ。慰めてあげてくれるかい？」
 
@@ -2210,8 +1618,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00799
 「…うん！　お母しゃんも、笑ってゆのがいいの……」
 
@@ -2226,8 +1632,6 @@ event		"event\EV_HIK_020-00.png"
 screen_whitein		1500
 wait			1500
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……」
 
@@ -2241,8 +1645,6 @@ wait		100
 @hikari_tere		#照
 @bg_gate_y		# 孤児院前(夕方)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00800
 「お父しゃん、早く帰ってきてね……！」
 
@@ -2251,12 +1653,8 @@ wait		500
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 少し照れたような笑顔を見せて、ひかりは美雨の元へと元気に走っていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんな後ろ姿に目を細めると、ジワリと視界が滲んでしまった。
 
 #一拍
@@ -2267,32 +1665,20 @@ wait		1000
 #@bg_jyuutakugai	# 住宅街
 @bg_jyuutakugai_y	# 住宅街 (夕方) 
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 施設を出て最後の用事、書き上げた手紙をポストへ入れて、オレは息を吐いた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「終わったのか……」
 
 @bgm17			#BGM 17 : のんびりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やるべき事は全てやった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 後は町へ出て、警察署で事情を話せば全てが終わる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その先のことは、正直、考えても想像はつかなかった。
 
 #--------------------------------------------------
@@ -2307,25 +1693,15 @@ screen_whitein		1000
 wait			1000
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「色んなことがあった一年だったな……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは唯一つの持ち物、思い出の写真をポケットから出して見つめていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そこに写っている人達はみんな、離れ離れになった、今もかけがえのない大事な家族だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みんなそれぞれの道を歩んで、幸せに暮らしてほしいと願う。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃあみんな、行ってくるよ」
 
@@ -2334,33 +1710,19 @@ wait			1000
 #@SE79			#SE79　ページを捲る音（ペラッ）※２ギガやレクイエムで使っていた音でもＯＫです
 @bg_sky_y		# 夕方の空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 挨拶を残してオレは空を見上げた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何があろうと、みんなとの思い出があれば、心が折れることなんてない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だからこそオレは言える。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 誰が何と言おうと、みんなと過ごしたこの一年間は、最高に幸せで満たされた日々だったと。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 これからの事の不安も、その気持ちで一掃された。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「さぁ、行こうか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 たくさんの思い出を持って、オレは物語の終点へと踏み出した。
 
 window_close

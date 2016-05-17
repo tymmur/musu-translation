@@ -7,8 +7,6 @@ label	yuzu_10
 
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今日は少し寝起きが悪かった。
 
 @bg_black
@@ -16,8 +14,6 @@ wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 @bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 着替えて食堂に行くと、すでにみんな揃っている。
 
 @mikan_middle		# 中間
@@ -35,8 +31,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01968
 「遅いよ～、お兄ちゃん」
 
@@ -59,20 +53,14 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02326
 「お腹が空いて死にそうだよ～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「すまんすまん。待たせたな」
 
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんといちごをなだめつつ、オレは慌てて席に着く。
 
 #--------------------------------------------------
@@ -80,8 +68,6 @@ layer_movepass_play	l_ichigo,0,play_once
 #event		"event\EV_ALL_020-03.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それじゃ、早く食べよう。いただきます」
 
@@ -117,8 +103,6 @@ layer_movepass_play	l_ichigo,0,play_once
 #＠ゆず,F00536
 #「いただきます……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｅｖｅｒｙｏｎｅ,Z90005
 「いただきまーす！」
 
@@ -126,45 +110,25 @@ layer_movepass_play	l_ichigo,0,play_once
 
 @bgm02			#BGM 02 : 朝のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みんなの元気な声が食堂に響く。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やっぱり、女の子は元気が一番だな……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 目覚めきらない頭でそんなことを思いつつ、オレもまずはスープを一口。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 けど、そういえば……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 生物学的には女の子じゃない子が、約一名いた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そして、オレはそのゆずに、昨日はあんなことさせたんだっけ……。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 させたというか、されたというか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だけど、奉仕のはずがオレより先に射精してしまい、ゆずは少し落ち込んでいる様子だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレはパンをちぎりながら、さりげなくゆずの様子をうかがってみる。
 
 @yuzu_middle		# 中間
@@ -172,17 +136,11 @@ layer_movepass_play	l_ichigo,0,play_once
 @yuzu_kanashimi		#哀
 #@bg_dining		# 食堂
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00537
 「……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはうつむいて、黙ってスープを飲んでいた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やっぱり、ちょっと元気がないかな……？
 
 @chara_clear		#保険
@@ -191,37 +149,25 @@ wait		500
 @karin_shifuku
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02703
 「どうしたの？　ゆずのことじっと見つめて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え、あ、いや……」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんに指摘されて、焦る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんなに長い間見つめていたわけじゃないのに、目ざといな。
 
 @shizuku_middle		# 中間
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01451
 「樹は昨日、ゆずにフェラチオしてもらったのさ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ごまかす間もなく、雫さんが説明する。
 
 @chara_clear		#保険
@@ -230,8 +176,6 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02704
 「そ、そうなんだ……」
 
@@ -241,36 +185,24 @@ wait		500
 @suika_shifuku
 @suika_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00880
 「ホントですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やや引き気味のかりんと、なぜか目を輝かせているすいか。
 
 @suika_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そんな露骨に言うことないでしょう……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この施設にはプライバシーというものはないのか？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんも少し目を丸くしてオレを見つめている。
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01409
 「おめでとう、ゆず」
 
@@ -280,88 +212,56 @@ wait		500
 @yuzu_middle		# 中間
 @yuzu			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00538
 「え？　あ、ありがとうございます……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろに祝福され、ゆずは少し困ったように笑う。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01410
 「これ、ご褒美」
 
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろはゆずのスープに青ノリを振り入れた。
 
 @yuzu_kanashimi		#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00539
 「あ、ありがとうございます……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゆずはますます顔を引きつらせて礼を言う。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00540
 「でもボク、あんまり上手くできなくて……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01411
 「練習あるのみ。あとは、青ノリの力に頼る」
 
 @SE23			#青ノリを振り掛ける音（ザッザッザッ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろは青ノリをさらにゆずのスープに振りかける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00541
 「うぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00881
 「大丈夫だって。きっと上手くなるよ」
 
 @yuzu			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00542
 「そ、そうでしょうか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すいかもゆずを励ますが、ゆずはやっぱりうかない顔だ。
 
 @yuzu_kanashimi		#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00543
 「ボクは、みんなとは違うから……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あんまり気にするなって。気持ちよかったぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やはり落ち込んでいるらしいゆずに、オレも励ましの言葉をかける。
 
 @chara_clear		#保険
@@ -370,8 +270,6 @@ wait		500
 @suika_shifuku
 @suika_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00882
 「気持ちよかったんだ……」
 
@@ -381,24 +279,16 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01412
 「つっちーは変態。だから安心して、ゆず」
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 うーん、この二人はここではオレより先輩なせいか、少し雫さんに毒されている気もしてきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お前ら、いいから早く朝ご飯を食べろよ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あんまりのんびりしてると学校に遅れるぞ」
 
@@ -413,17 +303,11 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02328
 「はーい、パパ♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレの言葉に、いちごが元気に返事をする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごはさっきから、脇目もふらずに食ってただろ……」
 

@@ -11,12 +11,8 @@ bgm_stop
 @SE06			#部屋のドア開く音（ガチャ）
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 リビングへ入ると奥に美雨がいるのが見えた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……美雨？　何してるんだ？」
 
@@ -24,132 +20,84 @@ bgm_stop
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02003
 「あ、樹さん……」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 見ると、ひかりがタオルケットを羽織り、静かに寝息を立てていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりが寝てるのか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02004
 「はい。ついさっき」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 静かに言葉を交わすと、美雨はひかりの髪を優しく撫でた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00570
 「くぅ……ん…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりって、元気よく遊んでるとこも見かけるけど、同じくらい寝てるところもよく見かけるな」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02005
 「ふふ。ひーちゃんの一日は、遊びとお昼寝が半分半分くらいですから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「羨ましい限りだ」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02006
 「落ち着いたら、学校の手続きをしてあげないといけませんね」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02007
 「ひーちゃんがランドセルを背負って学校に行く姿……ぜひ見てあげたいですし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうだな。オレ達で面倒を見るって決めたんだから」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02008
 「……はい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02009
 「そうやって………ずっとこの子の成長を見守ってあげたい……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりから手を離すと、悄然とした声で呟いた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やはり美雨の様子は最近どこかおかしい。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレやひかりと居るとき特に、力無い様子を見せる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00571
 「すぅ……すぅ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02010
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……、そうだ美雨。今度ひかりと三人で出掛けないか」
 
 @miu_mu			#開_普通（無表情）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02011
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごから聞いたんだけど、ここから二駅行ったところに遊園地が出来たんだってさ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレ達、まだ三人で出掛けることってあまり無いから、どうだろう？」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02012
 「……そうですね」
 
@@ -161,49 +109,31 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02013
 「ええ。いいと思います」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02014
 「ではその日はお弁当を作って、一緒に外で食べましょうか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00572
 「にゅぅ……おべんと………くぅ…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは。ひかりが起きたら話してやろう。喜ぶぞ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 寝言を零し眠っているひかりを見る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 夢の中でオレ達の話を聞いているのか、さっきよりも頬を緩めた寝顔になっていた。
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02015
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ふいに一緒にひかりを見ていた美雨と視線が絡み合った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （あ……）
 
@@ -241,74 +171,50 @@ screen_whitein 		1000
 wait			1000
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 この前の夜のことが脳裏をよぎる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いかんいかんッ……今はまじめな話をしてるときなのに。
 
 @miu_mu			#開_普通（無表情）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02016
 「…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、いや、えっと……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうだ。前から思ってたんだけど、どうして美雨は、その……オレのことを？」
 
 #CH（美雨・照れ）
 @miu_tere		#開_照
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02017
 「えっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「って、何を聞いてんだオレはッ……。悪い、勝手に思い込んでたかな」
 
 @miu_tere2		#閉_照
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02018
 「い、いえ……その、慕わせていただいております……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そう、あははっ……うん、よかった」
 
 @miu_tere		#開_照
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02019
 「樹さんは、覚えてらっしゃいませんか？　まだ私たちが小さいころのこと」
 
 @miu_tere2		#閉_照
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02020
 「私がここで仕事をしていて、樹さんが遊びに来られていた頃のことです」
 
 bgm_stop
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 照れながら美雨は、ポツポツと想いの根源を語ってくれた。
 
 #--------------------------------------------------
@@ -325,23 +231,15 @@ event		"event\EV_MIU_090-12.png"
 wait			2000
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02021
 「あの頃の私は、今のここの子達と同じで、調教を受けて接待をする日々を過ごしていました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02022
 「人より感覚はだいぶ麻痺していましたけど、でもやっぱり時々辛く感じる時もありました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02023
 「そんな生活の中で楽しみだったのが、樹さんが来てくれることだったんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……オレが？」
 
@@ -350,68 +248,42 @@ wait			2000
 event		"event\EV_MIU_010-00.png"
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02024
 「樹さんの目的が私ではなく、前院長先生だったのは知っていましたけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02025
 「でも、樹さんが教えてくださる遊びもお話も、どれも新鮮でいつも楽しみでした」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02026
 「友達も居なくて、外にも出れない私には………樹さんの存在はまぶしくて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02027
 「最初は憧れだったんですけど、その思いはすぐ、恋愛の気持ちに変わっていきました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あの時のオレなんか……。本当にぶっきらぼうだったはずだけどな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02028
 「ふふ。泣かされたこともありましたね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えッ！？　あ、あったっけ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02029
 「でもそんな時は必ず翌日に、施設まで顔を見せに来てくれてました」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02030
 「樹さんなりの心遣いで、そういう時はいつもお菓子とか玩具とかを持ってきてくれて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うわ……物で釣ってたのか。最低じゃんオレ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02031
 「ふふっ。いいえ、でも私もそれがすごく楽しみでしたから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02032
 「苛められた日の夜などは、明日は樹さんがどんなお土産を持ってきてくれるか、ワクワクしていたくらいですよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「む、むぅ……。確かに、悪い気がして色々持っていった記憶はあるな」
 
@@ -429,208 +301,130 @@ screen_whitein		2000
 wait			2000
 #--------------------------------------------------
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02033
 「私にいつも笑顔と元気をくれていた、片思いのお友達」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02034
 「その初恋をずっと、今も想っているんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうだったんだ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 確かに父親に言われ、美雨に付き合う日々が大半だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そしてオレ自身、美雨には父親を取られている妬みに加え、やっぱり淡い恋心もあったのだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「口には出さなかったけど、オレも密かに美雨の事は気になってたんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは……そう言えば、どんな話をしようか事前に考えてたこともあったなぁ」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02035
 「ふふ、そうなんですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あれが美雨に惹かれていたなんて、思いもしなかった」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02036
 「私の生活の一点の安らぎでしたから」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02037
 「だから辛いことがあった時は、その事を励みにして頑張るようにしているんです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうかぁ……。はは、何か照れるな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 でも、妬みと恋心。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その二つの気持ちがあったから、あの夜オレは美雨を襲うようなことをしてしまったのだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんな風に思ってくれてたのに、あの夜、裏切るようなことをしてごめんよ」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02038
 「いいえ……。驚きましたけど、でも、求められて嬉しくもありましたから」
 
 @miu2			#開_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02039
 「あのままでしたら私は、いずれ見ず知らずの人に初めても奪われてしまうはずでした」
 
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02040
 「それを、好きな人と添い遂げられたんですから。感謝するくらいですよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 謝罪するオレに、美雨は微笑みを返してくれた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それがまた、さっきのよからぬ思いをオレの中に起こしてしまう……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あのさ、美雨……。良ければ今、どうだろう」
 
 @miu_tere		#開_照
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02041
 「えっ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「イヤならいいんだ、うん。でも何かこの前も、こういう雰囲気が惜しかったなって」
 
 @miu_tere2		#閉_照
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02042
 「あ…ぅ……えっと」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 遠まわしな言葉でも、結局エッチをしようという誘いに対し、美雨は明らかに恥ずかしがる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だがそれは、望んでいたし想像はしていたことだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 でも、美雨の中で葛藤がある。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02042a
 （私はもう、行動を起こさなければいけない……）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02042b
 （最後の最後で、こんな幸せに身を委ねてしまったら……決心が鈍ってしまう……）
 
 @bg_living		# リビング
 @SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02043
 「……ぁっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 優しく抱きしめられる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 決して強くない抱擁だが、想いがそれを拒めない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 上辺の理屈で抑えられるほど、今まで美雨が溜めてきた気持ちは軽いものではなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02044
 「はい……。貰ってください、樹さん……」
 
 @bg_white		# 白
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨も思考を端へ押しやると、背中に手を回して強く抱き合った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……美雨。昔とは違う。今度は一方的じゃなく、合意の上で美雨がほしい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02045
 「はい……樹さんが、私でよければ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02046
 「…ん、ちゅむ…んふぅっ……ちゅぅむ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そのまま、どちらからともなく唇を重ねた。
 
 bgm_stop

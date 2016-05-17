@@ -11,12 +11,8 @@ bgm_stop
 @bgm01			#BGM 01 : さすらいのテーマ
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんを探しに商店街にやって来た。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「今日こそ見つかるといいけど」
 
@@ -25,58 +21,38 @@ bgm_stop
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00917
 「……どうして私がいるの」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 たまたま商店街で見つけたざくろを、捜索要員として捕獲していた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「目的無く歩いてそうだったから。ついでに探してくれると助かる」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00918
 「いいけど、人が多い」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ、みかん一人を見つけるのは困難だけどな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とりあえず歩き始める。
 
 #■BG（黒）
 bgm_stop
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 …………………
 
 #■BG（商店街）
 @bgm12			#BGM 12 : メインテーマ
 @bg_syoutengai		# 商店街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 半時間ほど歩いただろうか。
 
 #@zakuro_middle		# 中間
@@ -84,45 +60,27 @@ bgm_stop
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00919
 「あ。つっちー、見つけた」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろが斜め４５度に視線を向けながら、抑揚無く呟いた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「見つけた！？　どこだ、どこッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00920
 「あそこ。青ノリがワゴンセール」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 指差した先に、青ノリが平積みされているワゴンがあった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……なんだろうあれは。需要のあるセールなんだろうか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00921
 「行きたい。行かなくちゃ」
 
@@ -132,36 +90,24 @@ wait		1000
 #SE34　外で走り去る音
 @SE34			#SE34　外で走り去る音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あっ、おい！　行かなくちゃってッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それが使命のように言って駆け出してしまうざくろ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……仕方ない。一人で捜索を続けるか……」
 
 #SE33　外で走ってくる音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00922
 「……っ」
 
 #@SE33			#SE33　外で走ってくる音
 se		0,	"sound\se\SE20_足音2～走ってくる.wav",	play_once
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが、すぐに戻ってくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お？　みかんを探す気になったか？」
 
@@ -170,19 +116,13 @@ se_stop		0
 @zakuro_shifuku
 @zakuro_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00923
 「お一人様３袋まで。来て、つっちー」
 
 screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 グイッ、グイグイッ…
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「こ、こら引っ張るな！　オレはみかんを」
 
@@ -190,22 +130,14 @@ screen_vibration	500,16,16,16
 @zakuro_shifuku
 @zakuro_iya		#嫌
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00924
 「来てくれないと変態」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ムニュッ…グニッ、グニッ……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「意味分からんッ！　っていうか変態はお前だッ、変なところを引っ張るなー！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局捜索を中断して、青ノリ購入に付き合わされてしまった。
 
 @bg_black

@@ -10,33 +10,19 @@ bgm_stop
 #■BG（黒）
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 早朝と呼ばれる時間帯。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 十分な睡眠をとった人たちは、少しずつ意識をリアルに還し始めるころ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ＺＺｚｚ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 夜更かししていたオレは、まだ眠りの中だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 …………………
 
 window_close
@@ -50,19 +36,13 @@ wait		1000
 @karin			#普通
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00702
 「……樹？」
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 控えめな声で、かりんは樹の部屋へ入った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 返事は無い。寝てるようだ。
 
 @karin_kanashimi	#哀
@@ -74,65 +54,41 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00703
 「ふぅ………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あの日、自分の中の陰りを拭ってからは、頻繁に樹との時間を持つようになった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こうして部屋にも来るし、朝に起こしに来るのだって、これで三度目になる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 自分でも考えられない変化だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 でも、嫌な変化じゃない。
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00704
 「いつ………あっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんはかけようとした声を止めた。
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00705
 「そっか。昨日は遅くまで起きてたって美雨が……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………ＺＺｚｚ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00706
 「……熟睡、してる？」
 
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ドキドキしながら、かりんはベッドの方へ近寄っていく。
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そうしてそっと、また抱きつくように樹の上に身体を被せた。
 
 #■EVCG（起こしてくれるかりん・差分ドキドキ緊張）EV_KAR_010
@@ -144,97 +100,57 @@ se_stop		0
 screen_whitein		1000
 wait			1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00707
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 密着した身体で間近に、相手の呼吸の動きを感じる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00708
 「ついこの前まで、本気で嫌いだったのに……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今はこうしていても、前のように苛立ちや怒りは感じない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 むしろ安堵感や、ドキドキと鼓動が早まる昂揚さえ感じた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00709
 「これが、あなたの言った素直な想い……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00710
 「あなたを嫌う理由が無くなった後に残った、私の気持ち……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 樹が起きないか気をつけながら、かりんは意識を緊張させていく。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつもなら樹が起きるまでこうしているのだが、今日は前回の出来事のせいで違っていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00711
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 樹の股間に視線を移し、ゆっくりと手を近づけていってみる。
 
 event		"event\EV_KAR_010-02.png"
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00712
 「あ……やっぱり今日も……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その指先に触れるのは、ズボンの中で硬さを帯びた男性器の感触だった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00713
 「本当に、朝はこうなっちゃうんだ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00714
 「エッチしてる時の反応と同じみたい。ちょっと、それよりはまだ硬さが緩いみたいだけど……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 生理現象という言葉の真偽はとにかくとして、
 少なくとも触れた感じは、エッチの時の勃起と差異は感じられない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そしてそうなった時の男性の衝動はもう、十分なくらい分かっている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00715
 「出してあげた方が………でも、寝てても感じるのかしら……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00716
 「ん……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゴソゴソと、かりんの手がズボンの上で的確に動かされる。
 
 #一拍
@@ -243,29 +159,17 @@ bgm_stop
 @bg_black
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんな状況を知ることなく、オレは眠っている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 …………………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 突然脳内に、ビビッと甘痒い痺れが走って震えた。
 
 #SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
@@ -273,88 +177,54 @@ bgm_stop
 #■EVCG（起こしてくれるかりん・差分ドキドキ緊張）
 event		"event\EV_KAR_010-03.png"
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00717
 「ひゃッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えッ……！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一瞬で目を覚ますと、オレのその反応に驚いたかりんと視線が交わった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00718
 「い、樹っ……おはようっ」
 
 @bgm02			#BGM 02 : 朝のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつもの笑みと違い、少しあわてた様子で手を引っ込めるかりん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………おはよう。何かしてたか……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00719
 「え、いいえっ。どうかしたの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん……何かな……こう、ビビッと変な痒みが。今は無いけど」
 
 event		"event\EV_KAR_010-07.png"
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00720
 「そう……？　あ、でも、今は無いなら夢じゃないの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00721
 「少なくとも、私は何もしていないけど………ね？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 「ね？」と言われても………
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こうまでいつもと様子が違うと、「何かあります」って白状してるようなものだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00722
 「そんなことより起きましょうか。あなたのここ、心地よすぎて眠っちゃいそうだし。ね？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00723
 「あっ……それとも昨日遅かったし、まだ眠い？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、眠気は飛んでる。起きようか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっきかりんが手を退けた位置、そして僅かに残った感覚から、何をされていたのか想像に難くない。
 
 #■BG（自室）
@@ -362,8 +232,6 @@ event		"event\EV_KAR_010-07.png"
 wait		1000
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんがベッドから降りると、オレも布団から身体を起こした。
 
 se_stop		0
@@ -371,141 +239,89 @@ se_stop		0
 @karin_pajama
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00724
 「改めて。おはよ、樹」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、おはよう。今日も来てくれたんだ」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00725
 「ええ。でも今日はまだ寝不足よね……ごめんなさい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは、いいよ。昼夜が逆転するよりは」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんの笑顔に答えながら、確認するために死角でズボンに手を触れる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……ちょっと濡れてるな）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 おそらく寝ている間に弄られ、先走りが滲んでいるのだろう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレが目を覚ましたから、慌てて止めたのか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00726
 「じゃあ、また朝食で。今朝は慌しくてごめんね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんのせいじゃない、目覚めの変な夢のせいだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ところで、本当にかりんは何もしてないんだよな？」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00727
 「えっ！？　う、うんっ、してないわ、何も」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00728
 「……そう、あれのせいじゃないかしら。その、朝は大きくなってるっていう………そのせいで何か……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 必死になりながらも、そこに意識を向けて誤魔化し切れないかりんは微笑ましい。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だがとりあえずオレも、イタズラをされたお返しを考えた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうか……残念だな。まさに夢心地みたいに気持ちよかったんだけど」
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00729
 「えっ……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんが何かしてくれてたのなら、また頼みたかったけど。夢なら仕方ない」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00730
 「待って、気持ちよかったの……？　寝てたのに」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、うろ覚えだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「夢だったのが残念だ………ぜひまた、同じ夢をみたいものだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気付いてないようにそう言うと、案の定、かりんが確認に近い疑問を返してきた。
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00731
 「………ほんと？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まぁ、かりんに言っても仕方ないけどな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「さ、着替えておいで。朝食の時間になるよ」
 
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P00732
 「う、うん……そうね。それじゃ」
 
@@ -515,32 +331,20 @@ wait		1000
 #SE07　部屋のドア閉まる音（パタン）
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 わざとらしくなる前に、かりんを部屋へと戻らせる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………ちょっとまどろっこし過ぎたかな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こう言っておけば、またかりんが夜這い（？）に来るかもという期待からだが。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……いっそここで言及して、強引にエッチに発展させた方が早かったかも。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いいや。楽しみということで置いておくか」
 
 bgm_stop
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレも朝の用意を始めた。
 
 @bg_black

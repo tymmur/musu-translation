@@ -11,37 +11,25 @@ bgm_stop
 #■BG（住宅街）
 @bg_jyuutakugai		# 住宅街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……まただ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつか感じた視線を、またどこかから感じた。
 
 @ichigo_small
 @ichigo_shifuku
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00800
 「うー、どうしたのパパ……お腹すいたよぉ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、悪い悪い。帰ろう」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今はいちごが接待を終え、その迎えに行った帰りだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 お昼をまたいでいるため、いちごはすっかり腹ペコ状態になっている。
 
 @ichigo_kanashimi	#哀
@@ -54,77 +42,51 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00801
 「はぁ。ずっとお腹がグゥグゥ鳴ってるよぉ」
 
 #layer_movepass_init	l_ichigo,0	#演出初期化
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なぁいちご。何か最近変なこととかないか？」
 
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00802
 「え……？　変なこと？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「誰かに追いかけられたとか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレには視線だけだが、いちごに害が出ているとなると放置は出来ない。
 
 @ichigo			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00803
 「美雨に追いかけられたよ。テストの点が悪かったから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうじゃなくて、知らない人にだ」
 
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00804
 「うーん、無いと思うよ。どうして？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、それならいいんだ。気にするな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 仕事が仕事だけに、変な男が寄ってくる可能性は十分にある。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一応雫さんにも報告はしておいた方がいいだろうな。
 
 #SE13　お腹の音・弱（キュルル……）
 @SE13			#お腹の音・弱（キュルル……）
 @ichigo_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00805
 「お腹すいた……死んじゃうかも」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「死ぬのか。それは一大事だ」
 
@@ -136,15 +98,11 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00806
 「うん……」
 
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレは視線を振り切るように、いちごは食べ物を求め、足早に歩き出した。
 
 #一拍
@@ -157,13 +115,9 @@ wait		1000
 @houkou_kage		# 影
 @bg_jyuutakugai		# 住宅街
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,E00000
 「………まさかこんなところにいるとはな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,E00001
 「さぁて、どうしてやろうか……いちご」
 

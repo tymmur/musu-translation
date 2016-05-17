@@ -10,44 +10,24 @@ label	zakuro_12
 @bg_rouka_n		# 廊下(夜)
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろの部屋を訪ねるのは久しぶりだった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あの日、無理に母親に会わせてしまってから、なんとなく二人になるのを避けていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 二人になると、ついあの日のことが気になってしまう。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが、それを話題にすること、オレが謝ろうとすること自体、ざくろは嫌がるだろうと思っていた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 その証拠に、当日の『ざくろだらけ』には母親のことなどただの一言も書かれていなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そして、平生のざくろの様子も特に変わりがなかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 それまで通りに接してくれている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 だが、それはやはり表面上のことだけだったのかもしれない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あるいは、いちごやみかんなど他の子がいるから、あえてそうしていたのか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 調教に身が入っていないということを雫さんに聞き、今さらながらそう思った。
 
 @bg_black
@@ -55,47 +35,33 @@ wait		1000
 #@bg_door		# ドア前
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……………………」
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01624
 「誰？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレだ。ざくろ、ちょっといいか？」
 
 #＠ざくろ,Q01625
 #「……………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01626
 「つっちー、何？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……いや、ちょっと話がしたくてな。今、いいか？」
 
 @bg_black
 @SE06			#部屋のドア開く音（ガチャ）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01627
 「……入って」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 微かに溜息を吐いたような気がしたが、ざくろはオレを中に招き入れる。
 
 window_close
@@ -107,55 +73,37 @@ window_close
 #@bg_zakuro		# ざくろの部屋
 @bg_zakuro_n		# ざくろの部屋(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01628
 「その辺に座って」
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 机には開いた本が伏せられている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん……本読んでたのか？」
 
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 尋ねつつ、ベッドの縁に腰を下ろす。
 
 @zakuro_middle		# 中間
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01629
 「そう、読書中」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なんて本？　またエッチ関係か？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01630
 「………………」
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろは無言でこちらに本の背表紙を向ける。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………『海苔男』」
 
@@ -163,13 +111,9 @@ window_close
 @zakuro_shifuku
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01631
 「海苔が大好きな男が、死んだ海苔作りの名人を探しに、死者の町に行く話。とても面白い。傑作」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうか……悪いな、邪魔して」
 
@@ -183,136 +127,86 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろはコクンと頷き、
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01632
 「かなり邪魔」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そうストレートに言った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 心なしか、他に誰かがいるときよりも、ぶっきらぼうな気がする。
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01633
 「でも、面倒は早くすませたい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……？」
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01634
 「違うの？　この前のことで何か言いに来たんじゃないの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 こちらが切り出す前からずばりと言った。
 
 @zakuro_iya		#嫌
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そして、好意が１ミリも感じられない目でオレを見据える。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ま、まあ……そうなんだけどな……」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01635
 「つっちーのことだから、きっと来ると思ってた。予想通り」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「予想通りか」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01636
 「うん……それでなに？　謝るとかならもういい。気にしてない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや……そうズバズバ言われると、こっちも切り出しにくいんだが……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01637
 「………………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんから相談されたんだよ。最近、調教に身が入ってないみたいだって……で、この前のことが関係してるのかなと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう言うと、ざくろはさも心外そうに唇を尖らせて、
 
 @zakuro_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01638
 「雫の勘違い。私はちゃんとやってる」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うん……ざくろがちゃんとやってるのはオレも分かってるんだけど……」
 
 @zakuro_iya		#嫌
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01639
 「ならなんで来たの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 このことに関しては自負があるらしい。声が少し怖くなる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なんでって……ほら、やっぱり気になったから……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろに睨まれ、オレはもごもごと言った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 調教に身が入っていないといっても、実際この目で見た訳ではないから、どうも強く言いづらい。
 
 #--------------------------------------------------
@@ -325,8 +219,6 @@ layer_movepass_play	l_zakuro,0,play_once
 #＠樹
 #「雫さん？　なんで？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんも心配してたし……」
 
@@ -334,57 +226,37 @@ layer_movepass_play	l_zakuro,0,play_once
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01640
 「人のことを色々言うくせに、雫も結構ボーッとしてる。きっと年、更年期障害、つっちーから言っておいて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「更年期……って、それをオレに言えと……？」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01641
 「そう、調教に身が入ってないって」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「殺されるって……」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01642
 「私は殺されない。つっちーだけ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 苦笑いするオレを見て、
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01643
 「大体、つっちー、ちゃんと雫の相手はしてあげてるの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんなことを聞いてくる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん……相手というか、ちょくちょく話すようにはしてるよ。まだ分からないことも多いしな」
 
@@ -398,26 +270,18 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレが言うと、ざくろは盛大に溜息を吐いて、
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01644
 「そんなこと聞いてない。セックスで雫を満足させられてるかって言ってる」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なっ、なんの話だっ！？」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01645
 「つっちー、熟女を相手にするときは、若い子と一緒のやり方じゃ駄目。良かったら、雫の感じる責め方とか教えようか？」
 
@@ -426,34 +290,24 @@ window_close
 wait		1000
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 なにやら同情するような顔をして、ベッドのオレの横にすとんと腰を下ろす。
 
 @zakuro_large		# 近い
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01646
 「雫って、ああ見えて結構ムードとか重視するタイプだから、まず最初は―――」
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 などと言いながら、オレの首に両手を回そうとする。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いつも通りの妙な展開にオレは慌てて立ち上がり、
 
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 screen_vibration	500,16,16,16
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待て待て！！　なにするつもりだ！？　っていうか、オレと雫さんはそんな関係じゃないぞ！　ちょっと落ち着け！」
 
@@ -461,169 +315,109 @@ screen_vibration	500,16,16,16
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01647
 「そんな関係？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろはキョトンとオレを見上げる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だ、だから別に恋人同士じゃないし、だいいち年が――いや、年の話はともかく、とにかくセックスとか関係ないから、全然！！」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01648
 「別に恋人同士じゃなくてもセックスする。私とつっちー、恋人？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01649
 「いちごにみかんにかりんにすいか、恋人？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「い、いや……そりゃそうだけどさ……オレらはその……調教のためって名目があるだろ？　な？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 恋人でもない女性とセックスしてないことを、やはり恋人でない、でも既にしてる子に責められている。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 なんなんだ、この妙な居心地の悪さは。
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01650
 「つっちー、ひょっとしてまだ雫としてないの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「してないって！」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01651
 「雫のアソコがツルツルなのも知らないとか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「し、知るわけないだろ！　っていうか……え？　そうなのか？　雫さん、パイパンなの？」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01652
 「剃ってる。熟し切ったアソコがべろって剥き出しですごくエッチ。私も将来、見習いたい。手入れは大切」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうか……まあ、それは……なんだ……見てみたい気がしないでもないが……いや、その……セックスとかはないから」
 
 @zakuro_iya		#嫌
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01653
 「私たちには手を出してるのに。雫かわいそう。それは、私に当たりたくなるし、更年期障害にもなる。つっちーダメダメ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 あからさまに非難するような目になるざくろ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だから、オレと雫さんはだな……」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01654
 「そういう関係じゃないのは聞いた。そんな話じゃない。雫が体を持て余してるって話、うちでたった一人の熟女なのに」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうかもしれんが……いやいや、待て待て、今日はそんな話で来たんじゃないんだ。なんでこんな話になったんだ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうじゃなくて……ざくろ、話ってのはお前のお母さんのことでな」
 
 @zakuro_iya		#嫌
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01655
 「つっちー」
 
 @zakuro_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01656
 「その呼び方はしないで、あの人は違う」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ……すまん……」
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01657
 「それで、なに？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 無表情の視線を突き刺しながら、ざくろは、
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01658
 「まさか、あの人と仲よくしたほうがいいとか言うつもり？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……いや、そうじゃないんだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレが手を振ると、ざくろは少し意外そうに、
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01659
 「違うの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「せっかく会えた親子なんだからなんて、いくらオレでも言わないさ。それくらいはわきまえる。オレだって許せない相手がいるしな」
 
@@ -635,65 +429,43 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01660
 「…………………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろは無言で小さく頷いて、オレを促す。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ただな、このまま放っておくのも難しい気がしてな。これからまた何度も来そうだし、そのたびに追い返すのもあれだしな」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01661
 「じゃあどうしたいの？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんとも話したんだけどな、今のざくろのことをきっちり理解してもらおうと思ってな」
 
 @zakuro_metoji		#閉
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01662
 「別に理解なんてして欲しくないし、そのために話すのとかなら嫌」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ……いや、そういう話じゃないんだ。もっとはっきりとした形でな」
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01663
 「…………？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「つまり……これも嫌かもしれないが、もうざくろが客の相手をしてるところをズバリ見せてしまえってな」
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01664
 「………………！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろは目と口を丸にして、しばし呆然とし、
 
 window_close
@@ -702,31 +474,21 @@ se	0,	"sound\se\平手打ち.wav",play_once
 wait		1000
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01665
 「すごい、そのアイデア、素敵、最高」
 
 se_stop		0
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 パチンと両手を叩いて、笑みを浮かべる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「嫌じゃないか？」
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01666
 「全然。そしたら、きっとショックでもう近づいてこない」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「多分な。あの人、自分が捨てた昔のお前は見てるけど、今のお前は見てない感じだものな」
 
@@ -738,26 +500,18 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろは頷いて、
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01667
 「そのアイデア、雫が考えたの？　それともつっちー？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？　オレだけど……」
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう答えると、ざくろは机の引き出しを開けて、そこから細長い箱を取り出した。
 
 window_close
@@ -776,79 +530,51 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01668
 「つっちー、あげる♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「なんだ？」
 
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01669
 「青ノリ麩まんじゅう、今日買ってきた。すごいアイデアのお礼。食べて、美味しいから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 青ノリ麩まんじゅう……そんなものがこの世にあるとは。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうか……ありがとう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんなものいらんとは流石に言えず、オレはその『青ノリ麩まんじゅう』なるお菓子（だよな？）の箱を受け取った。
 
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01670
 「それで、そのお客は誰がやるの？　つっちー？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？　オレが客になるってのはちょっと違うだろう」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ざくろは少しガッカリした顔になり、
 
 @zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01671
 「なんだ。つっちーじゃないんだ。悪役は嫌？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「悪役は嫌とかじゃなくてな……ほら、もう顔を見られてるから客にならないだろ。第一、オレは娼館の主で、既に悪役だ」
 
 @zakuro_iya		#嫌
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01672
 「そうだけど、やっぱりなんだか腰抜けっぽい、それ返して」
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 と、渡したばかりの菓子箱を取り返した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ゴソゴソと箱を開け、やけに緑色のその青ノリ麩まんじゅうを一個だけ取り出すと、
 
 #@zakuro_middle		# 中間
@@ -856,44 +582,28 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01673
 「はい、アイデアの分」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そう言って、オレの口元に差し出した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、ああ……ありがと……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 若干躊躇いつつも、パクリと頬張る。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もぐ……もぐ……これ、結構いけるな」
 
 @zakuro_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 中は漉し餡、皮はモチモチ、青ノリの香りも控えめで、意外にも美味かった。
 
 @zakuro_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01674
 「美味しいでしょ。ぱくっ……でも本当に良い考え。あの女、どんな顔するかしら、うふふ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 一緒にまんじゅうを頬張りながら、ざくろがクスリと残酷な笑みを浮かべた。
 
 bgm_stop

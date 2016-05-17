@@ -11,19 +11,13 @@ bgm_stop
 #■BG（自室）
 @bg_itsuki		# 自室
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 週末。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 やるべきことはあるのだが、オレはどこか無気力に部屋でゴロゴロしていた。
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はい～、入っていいよ」
 
@@ -35,13 +29,9 @@ wait		1000
 @mikan_shifuku
 @mikan_warai		#笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00747
 「お兄ちゃん、お客さんだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「お客……？　オレにか？」
 
@@ -54,32 +44,22 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00748
 「うん。何か雫さんに用事があるって言ってる人なんだけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんに……」
 
 layer_movepass_init	l_mikan,0	#演出初期化
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 がばっ、とベッドから身体を起こした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「誰だ」
 
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00749
 「見たことの無い人だよ。仕事関係の人って言ってた」
 
@@ -90,8 +70,6 @@ bgm_stop
 #@SE19			#SE19　廊下を走る音
 @SE21			#SE21　廊下を走り去る音　※徐々に小さく
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんの答えを聞きながら、オレは慌てて玄関へと駆け下りた。
 
 se_stop		0
@@ -99,28 +77,18 @@ se_stop		0
 @bgm06			#BGM 06 : 不安のテーマ
 @bg_genkan		# 玄関
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 玄関では、スーツ姿の男性が二人ほど待っていた。
 
 #音声なし
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠男性１
 「土屋樹さんですね？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ええ、そうですけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33000
 「雫さんと仕事でお付き合いさせてもらっている、笹岡といいます」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠北原,V34000
 「同じく、北原です」
 
@@ -128,8 +96,6 @@ se_stop		0
 @mikan_shifuku
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00750
 「あ、えっと、鮎川みかんですっ」
 
@@ -141,73 +107,45 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ピシっとした礼に釣られ、みかんまでペコリと頭を下げた。
 
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33001
 「鮎川……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00751
 「え？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33002
 「ああいや、ごめんよ。聞き覚えのある苗字だったから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんに用事と、この子から聞いたんですけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33003
 「そうです。ここ最近、帰られていないとか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ええ。てっきり仕事だと思っていたんですけど、そちらが知らないとなると」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33004
 「こちらも連絡がつかない状態です」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠北原,V34001
 「時に樹さん、ここの管理人というのは今在宅中ですか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……管理人？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00752
 「……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ここで生活していて、ほとんど馴染みのない単語が出てきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えっと、院長でしたらオレですけど」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠北原,V34002
 「あなたとは別に、管理人がいるはずですが。確か名前は……」
 
@@ -215,136 +153,86 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_shifuku
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00753
 「お兄ちゃんでも雫さんでもなかったら、美雨さんじゃないの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨は、みんなの生活の世話をするのが仕事みたいだし」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠北原,V34003
 「いえ、確か美雨さんという人です。在宅ですか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨が……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ここの管理人……？　そんなのは初耳だ。
 
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00754
 「美雨さんなら、少し前に買い物に出かけて留守にしてるよ」
 
 @mikan_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠北原,V34004
 「留守って……まさか大道寺社長のお嬢様のところなんじゃ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33005
 「いや、社長のお嬢様にはガードを着けている。何かあれば連絡があるはずだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠北原,V34005
 「いずれにしても、お嬢様も管理人も居ないのなら仕方ないですよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あのッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 男達の話に、つい声を上げてしまった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりんにガードって……まさかかりんの身に何か」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33006
 「ご心配なく。そうならないためのガードです」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「説明は、してくれないんですか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠笹岡,V33007
 「申し訳ありません。外部の人間に勝手な話は出来ませんので」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 外部の人間………つまり、ここの施設とは別の独立したグループということか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠北原,V34006
 「それでは、これで失礼します」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ま、待ってください！　雫さんは一体！」
 
 #SE31　玄関のドアが閉まる音
 @SE31			#SE31　玄関のドアが閉まる音
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 話を終えると、二人は態度の裏で焦りを隠すようにしながら出て行った。
 
 @mikan_small
 @mikan_shifuku
 @mikan			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00755
 「な、なんだったんだろう。今の人たち」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00756
 「雫さんって、お仕事に行ってるんじゃないの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「もちろん。そのはずだ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 しかし今のやりとりで、その可能性は限りなく０になった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （本当にどこに行ってしまったのだろうか……）
 
@@ -358,8 +246,6 @@ wait		3000
 #■BG（夕空）
 @bg_sky_y		# 夕方の空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 日が暮れ、買い物に出かけていた美雨が帰宅した。
 
 #■BG（リビング・夕方）
@@ -369,8 +255,6 @@ wait		3000
 @mikan_warai		#笑
 @bg_living		# リビング
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00757
 「おかえりなさーい！　美雨さん」
 
@@ -378,13 +262,9 @@ wait		3000
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01342
 「おかえり、美雨！　お腹空いたよぉ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 リビングでテレビを見てはしゃいでいた子供達が出迎える。
 
 @chara_clear		#保険
@@ -393,34 +273,24 @@ wait		500
 @miu_maid
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01048
 「ええ、ただいま。すぐ夕食の用意を始めるわね」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01049
 「樹さんも。遅くなってすみません」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、構わないよ。ごくろうさま」
 
 @miu_
 bgm_stop
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 材料を下げた美雨は、さっそくキッチンへと向かおうとした。
 
 @bgmk07			#BGM K07 : 深刻なテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨。今日、雫さんの仕事付き合いの人が来たんだ」
 
@@ -428,18 +298,12 @@ bgm_stop
 @miu_maid
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01050
 「え……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「雫さんは仕事の現場にもいないらしい。やっぱり何かあった可能性も出てきたよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「明日あたり、警察に届けを出したほうがいいかもしれない」
 
@@ -449,25 +313,17 @@ wait		500
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01201
 「確かに、いくら雫っていってもちょっと変よね」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P01202
 「でも大丈夫なの……？　私たちが警察なんかに出入りして」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え？　あ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 施設での売春………すっかり慣れて失念していた。
 
 @chara_clear		#保険
@@ -476,86 +332,56 @@ wait		500
 @miu_maid
 @miu			#閉_にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01051
 「それは大丈夫だと思いますよ。ただ捜索願いを出しに行くだけですから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01052
 「それでは明日すぐ、警察署で事情を話しに行ってきます」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「待って、オレが行くよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 美雨を信じないわけではないが、咄嗟にそう口をついて出た。
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01053
 「……樹さん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「美雨は忙しいだろ。それに院長はオレだし、住人の安全に責任がある」
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01054
 「責任だなんて……」
 
 @miu_komaru		#開_困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01055
 「ところで、その雫さんを尋ねて来られた方は、他に何か言っていましたか？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ別に。それが用件だったみたいだよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いくつか気になることは言っていたが、それは黙っておくことにした。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 何も気付いていないふりが、雫さんの最後の指示。みかんにも口止めしてある。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01056
 「次にまた来られたら、お引止めしておいていただけますか？　私も気になりますから」
 
 @miu_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 「分かった」とオレが頷くと、美雨は改めてキッチンへ姿を消した。
 
 @ichigo_small
 @ichigo_shifuku
 @ichigo_komaru		#困
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01343
 「雫、いなくなっちゃったの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうらしい。あの人のことだから、どっかで呑気に無事なんだろうけど」
 
@@ -565,21 +391,15 @@ wait		500
 #@zakuro_shifuku
 #@zakuro_akire		#呆
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q00482
 「案外、部屋のどこかに隠れて見ていたりするかも」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ソファーのクッションをめくりながら、そんなことを言うざくろ。
 
 @suika_small
 @suika_shifuku
 @suika_komariwarai	#困笑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00295
 「……そ、そんなところにはいないと思うけど」
 
@@ -587,25 +407,17 @@ wait		500
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A00758
 「不安だな……。お兄ちゃんも、出かけるときは気をつけてね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それはオレの台詞だっての」
 
 bgm_stop
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 苦笑しながら、心配そうなみかんの頭を撫でた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレの知らない何かが、徐々に大きくなっているのを感じる。
 
 @bg_black

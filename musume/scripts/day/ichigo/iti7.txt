@@ -13,16 +13,10 @@ bgm_stop
 @bgm06			#BGM 06 : 不安のテーマ
 @bg_choukyou		# 調教部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 今日もまた、呼んだはずのいちごは来なかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 別の部屋で宝交に捕まっているのだろう……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「またか、あいつ……」
 
@@ -40,12 +34,8 @@ if sel=1 then goto iti7_01_b
 #--------------------------------------------------
 label	iti7_01_a
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まだ手は出せなくても、せめて何かある時はすぐ対処したい。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気は進まないが、やはり今日も様子を窺いに行こう。
 
 @bg_black
@@ -54,17 +44,11 @@ wait		1000
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いちご達が入っている部屋はこの前と同じで、すぐに見つかった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 さっそく鍵を外し、中の様子を覗き見る。
 
 #--------------------------------------------------
@@ -81,8 +65,6 @@ wait		2000
 #@bg_rouka_n		# 廊下(夜)
 
 #見るに見かねてオレは、そこでドアを閉めた。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 見るに見かねてオレは、すぐにドアを閉めた。
 
 window_close
@@ -90,21 +72,13 @@ window_close
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あれが親のすることかッ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 もういちごに恨まれるのも構わず、乗り込んで殴り飛ばすか。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんな逸った考えまで浮かぶが、さすがにそれで解決は出来ないと思い直す。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 結局今日も傍観しているだけで、何も手を打つことは出来ないまま過ぎていくのだ。
 
 bgm_stop
@@ -117,16 +91,10 @@ goto	iti7_01_z
 #--------------------------------------------------
 label	iti7_01_b
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どうせ助ける術が無いんだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 見ているだけなんて、それも趣味が悪すぎる。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 無力さに舌打ちしながら、オレも自分の部屋へ引き返すことにした。
 
 bgm_stop
@@ -165,54 +133,36 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00986
 「ン、ぅ……ごほっ、けほッ…！」
 
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 layer_movepass_init	l_ichigo,0	#演出初期化
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 パパとの時間の疲労が、最近は咳になって現れるようになった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00987
 「大丈夫だよね……熱は無かったし………」
 
 @ichigo_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 寝れば治るはず……
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ベッドに入ろうとして、置いてあるお人形が視界に入った。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00988
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ちょっと迷ったけど、いちごはベッドに入った。
 
 #■BG（黒）
 @bg_black		# 黒
 wait		1000
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……ごめんね、お人形さん。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 いちごすごく疲れてて、もう眠りたいから……
 
 @bg_black

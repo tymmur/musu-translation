@@ -13,46 +13,30 @@ bgm_stop
 @bg_rouka		# 廊下
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 みかんの部屋の前を通りかかると、中から楽しげな声が聞こえてきた。
 
 #CH（立ち絵なし）
 @bg_door		# ドア前
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01830
 「ひーちゃん、これこれ。こっちが正解だよきっと」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00346
 「う…？　んぅ～……迷うの～」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02272
 「さ、どれにする？　どちらか一枚がハズレよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんが居るのはデフォとして、今日はそこにひかりも混ざっているようだ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 （……ふむ。変な性癖をうつされてないか心配だな）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 どんな心配の仕方だ……
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「みかん～、入るぞ」
 
@@ -73,8 +57,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01831
 「あ、お兄ちゃん」
 
@@ -85,8 +67,6 @@ wait		500
 #@karin_keno		#嫌悪
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02273
 「げ……」
 
@@ -108,13 +88,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00347
 「お父しゃんだ～♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「予想通りの反応だな。特にかりん……」
 
@@ -124,24 +100,16 @@ wait		500
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02274
 「ふん。いいでしょ、別に」
 
 @chara_clear		#保険
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 まぁオレも、今に始まったことじゃないから慣れてきつつあるが……
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00348
 「……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「トランプしてたのか。三人で」
 
@@ -156,8 +124,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01832
 「ひーちゃんも入れて、ババ抜きしてたの。お兄ちゃんも一緒にやろう！」
 
@@ -174,13 +140,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00349
 「うんッ、お父しゃんもやろ！　やろう！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん～、そうだな。少し混ざって行こうか」
 
@@ -190,13 +152,9 @@ wait		500
 @karin_shifuku
 @karin_bubetsu		#侮蔑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02275
 「残念だけどダメよ。このトランプは三人用だから」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……お前はどっかの金持ちお坊ちゃまか」
 
@@ -209,8 +167,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02276
 「失礼ねッ。誰がキツネ顔よ！」
 
@@ -221,27 +177,17 @@ wait		500
 @hikari_shifuku
 @hikari_komaru		#困.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00350
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00351
 「かりんお姉しゃん、お父しゃんと喧嘩してゆの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02277
 「え…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 そんなオレとかりんのやり取りを見て、ひかりが困惑気に尋ねてきた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00352
 「ひーちゃん、喧嘩嫌いなの。かりんお姉しゃん喧嘩中なの……？」
 
@@ -251,8 +197,6 @@ wait		500
 @karin_shifuku
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02278
 「え……えっと、喧嘩って言うか、私が樹のことを嫌いなのよ」
 
@@ -262,25 +206,17 @@ wait		500
 @mikan_shifuku
 @mikan_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01833
 「えッ、そうだったの！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……えらく直球で言われるものだ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「っていうか、みかんは今ごろ気付いたのか……？」
 
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01834
 「だ、だってみかん、てっきりかりんちゃん照れてるだけだと思ってたから」
 
@@ -290,8 +226,6 @@ wait		500
 @karin_shifuku
 @karin_ikari		#怒
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02279
 「て、照れてなんかないっ。私が照れるのは生涯で一人、みかんだけよッ」
 
@@ -301,13 +235,9 @@ wait		500
 @hikari_shifuku
 @hikari_ikari		#怒.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00353
 「う～……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 かりんの答えに、ひかりは不満そうに眉を寄せた。
 
 #///////////////////////////////////////////////////////
@@ -321,15 +251,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00354
 「お父しゃん、優しくてかっこいいの。嫌いになったらメェッなの」
 
 layer_movepass_init	l_hikari,0	#演出初期化
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02280
 「え、う……。メッて言われても……」
 
@@ -341,8 +267,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00355
 「メェッなの！　お父しゃんのこと嫌いなかりんお姉しゃん、ひーちゃんも嫌いなのっ」
 
@@ -352,8 +276,6 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02281
 「うッ……うぅう」
 
@@ -369,13 +291,9 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02282
 「ひ、卑怯よ樹っ。ひーちゃんにこんなこと言わせるなんてっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「オレは何もしてないって。ひかりの意思だ」
 
@@ -385,8 +303,6 @@ wait		500
 @mikan_shifuku
 @mikan_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01835
 「かりんちゃん、みかんも喧嘩は良くないと思うな……」
 
@@ -397,24 +313,16 @@ wait		500
 #@karin_komikaru_namida	#コミカル涙
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02283
 「う、うぅぅ……そんな……なんで私が責められてる構図なの……？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02284
 「だって樹が、みかんや私の純潔を奪って……その後もやりたい放題なのに……」
 
 @bg_black
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 確かに、こんな風にかりんが責められるのは可哀想だ。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 常識で考えるとかりんは被害者。そしてオレが責められる立場なはずだし。
 
 #@chara_clear		#保険
@@ -422,8 +330,6 @@ wait		500
 #wait		500
 @bg_mikan		# みかんの部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかり、みかん。かりんがオレを嫌うのは理由があるんだ。だから構わないよ」
 
@@ -441,13 +347,9 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00356
 「だって、お父しゃん悪くないもん……。ひーちゃんお父しゃんのこと大しゅきだもんっ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何て言えばいいかな……。オレもかりんを傷つけてるんだ。だから―――」
 
@@ -464,29 +366,19 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02285
 「はぁ……分かった。いいわ。嫌うのを止める」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ひかりを説得しようとするオレより先に、かりんがため息を吐いて折れた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02286
 「みかんとひーちゃんに嫌われてまで、樹を責めたい訳じゃないし……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え……いいのか？　かりんの怒りは間違ってないんだぞ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02287
 「いいのっ、もう！」
 
@@ -494,19 +386,13 @@ layer_movepass_play	l_karin,0,play_once
 #@karin			#普通
 @karin_niko		#にこ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02288
 「それに私も、どこかで区切りをつけないとって思ってたし……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……それって、今はもう実は怒ってなかったって事か？
 
 @karin			#普通
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02289
 「だ、だからひーちゃんもみかんも、私のこと嫌いにならないで」
 
@@ -523,8 +409,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01836
 「みかん、かりんちゃんのこと嫌いになんかならないよ。友達だもん」
 
@@ -536,8 +420,6 @@ wait		500
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02290
 「う、友達……。マイナスにならなかっただけ、感謝しないと」
 
@@ -547,13 +429,9 @@ wait		500
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00357
 「じゃあ、お父しゃんとかりんお姉しゃん、仲直りーッ♪　ギュッてして、ギュッて」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ギュ？」
 
@@ -566,8 +444,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00358
 「うん！　こうしゅるの！」
 
@@ -580,12 +456,8 @@ wait			100
 @bg_white		# 白
 screen_whitein		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 嬉しそうに言うと、ひかりはそのままオレの胸に飛び込んできた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00359
 「ぎゅ～ッ♪」
 
@@ -602,13 +474,9 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02291
 「そっ、それを樹とするのっ！？　ここでっ？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00360
 「ひーちゃん、お父しゃんのことしゅきだから出来ゆよ。ね、みかんお姉しゃん」
 
@@ -618,8 +486,6 @@ wait		500
 @mikan_shifuku
 @mikan_yorokobi		#喜
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01837
 「うん、突然は無理だけど。お兄ちゃんが良いって言ってくれたら出来るよ、みかんも」
 
@@ -631,8 +497,6 @@ window_close
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00361
 「はい。かりんお姉しゃんもぎゅ～ってしてー」
 
@@ -642,181 +506,117 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02292
 「う……そんな」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……まぁ待て君達。オレに抱きつくことをバロメーターにするのは止めなさい」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「何か、テストされてるみたいでオレがショックだ」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02293
 「それはどうでもいいけど……。やっぱり今はダメよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「どうでもいいのか」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02294
 「だってさっき外で遊んでたし、汗掻いてるし……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02295
 「それにまだ昼間じゃない。いつもと状況がぜんぜん違って緊張するし……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……それだと、ギュッてすること自体は嫌じゃないって聞こえる」
 
 @karin_odoroki		#驚
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02296
 「しょ、しょうがないでしょッ。ひーちゃんとみかんが言うんだから！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01838
 「かりんちゃん、照れると思うけど大丈夫だよ。お兄ちゃんだもん」
 
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02297
 「うぅっ……楽しく遊んでただけなのに。何でこんなことに……」
 
 bgm_stop
 @karin_
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 観念したように、かりんがこちらへ歩み寄ってくる。
 
 @karin_large		# 近い
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02298
 「ひーちゃんがしたみたいに、抱きしめるだけだからね」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02299
 「それ以上は何もしないって約束してよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「はは……。大変だな、お互いに」
 
 @karin_
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 同意するように、かりんも僅かに相好を崩した。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 妙な流れを経て、かりんがオレの胸に顔を埋めてくる。
 
 @bg_white		# 白
 #@SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02300
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01839
 「わぁ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00362
 「えへへ～♪　お父しゃんとかりんお姉しゃんも仲直り～♪」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 満足そうなひかりの声と、こちらを見つめるみかんのため息が聞こえた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 抱き合うような強い抱擁ではないが、かりんの温もりと、その鼓動はこちらに伝わってくる。
 
 @bg_mikan		# みかんの部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「かりん、もう満足してくれたみたいだぞ。お疲れ……」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02301
 「…………」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……かりん？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02302
 「ん……うん…」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 気弱に頷きはするが、かりんは顔を伏せてすぐには離れない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ……まさか、具合でも悪くなったのか？
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おい、かりん？　どうした」
 
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 声を掛けるのと同時に、部屋のドアがノックされた。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「え…？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02303
 「……っ」
 
@@ -829,8 +629,6 @@ wait		1000
 @suika_shifuku
 @suika			#普
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00359
 「んしょ……みかんちゃん、この前の―――え？」
 
@@ -843,27 +641,17 @@ wait			100
 @bg_black
 screen_blackin		1
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ぐぶぅッ！？」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 すいかが入室してきた刹那、かりんからのボディーブローがわき腹に突き刺さった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01840
 「うわっ！？　お兄ちゃん！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00363
 「お父しゃんッ！」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ぐぅッ！　うぉお………こんな至近距離で……」
 
@@ -873,8 +661,6 @@ screen_blackin		1
 @suika_odoroki		#驚
 @bg_mikan		# みかんの部屋
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00360
 「えっ、え？　あの……一体何が」
 
@@ -884,33 +670,23 @@ wait		500
 @karin_shifuku
 @karin_bubetsu		#侮蔑
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02304
 「ふふふっ、何でもないわ。樹を殴ろうとしていただけよ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00361
 「えっと……。でも今、院長先生とかりんちゃん……」
 
 @karin_keno		#嫌悪
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02305
 「だ、だから、殴ろうとしていた瞬間よっ。すいかが思ってるような事はぜんぜん無いわ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……な、まさか、そんなことを誤魔化すためだけに、こんなパンチ……」
 
 #@karin_kanashimi	#哀
 @karin_koufun_n		#興奮ｎ
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02306
 「じゃあね、樹。はあ……身体が穢れたから洗わないと」
 
@@ -919,12 +695,8 @@ window_close
 wait		1000
 @SE07			#部屋のドア閉まる音（パタン）
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 スタスタと部屋を出て行ってしまった。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 怒りか照れか分からないが、頬に赤みを残しながら……
 
 @mikan_small
@@ -938,8 +710,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01841
 「お兄ちゃんっ、大丈夫！？」
 
@@ -947,13 +717,9 @@ layer_movepass_play	l_mikan,0,play_once
 @suika_shifuku
 @suika_kanashimi	#哀
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00362
 「……あの、もしかして私、何か不味いときに来てしまったんでしょうか」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんな事はない……。理不尽だが、誰のせいでも……」
 
@@ -976,24 +742,16 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00364
 「うぅう～、お父しゃん、死んじゃヤなのぉ～っ」
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 縁起でもない事を言いながら、本気で泣きそうなひかり。
 
 @chara_clear		#保険
 @bg_sky			# 空
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 オレも何でこんな仕打ちを受けたのか分からない。
 
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 とりあえず、かりんとの仲は微妙なまま、殴られ損というのは確かなようだった。
 
 bgm_stop
