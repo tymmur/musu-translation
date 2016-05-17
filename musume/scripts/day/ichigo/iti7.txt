@@ -13,17 +13,14 @@ bgm_stop
 @bgm06			#BGM 06 : 不安のテーマ
 @bg_choukyou		# 調教部屋
 
-#SCRIPT ORIGINAL 今日もまた、呼んだはずのいちごは来なかった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 今日もまた、呼んだはずのいちごは来なかった。
 
-#SCRIPT ORIGINAL 別の部屋で宝交に捕まっているのだろう……
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 別の部屋で宝交に捕まっているのだろう……
 
-#SCRIPT ORIGINAL 「またか、あいつ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -43,12 +40,10 @@ if sel=1 then goto iti7_01_b
 #--------------------------------------------------
 label	iti7_01_a
 
-#SCRIPT ORIGINAL まだ手は出せなくても、せめて何かある時はすぐ対処したい。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まだ手は出せなくても、せめて何かある時はすぐ対処したい。
 
-#SCRIPT ORIGINAL 気は進まないが、やはり今日も様子を窺いに行こう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 気は進まないが、やはり今日も様子を窺いに行こう。
@@ -59,18 +54,15 @@ wait		1000
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………」
 
-#SCRIPT ORIGINAL いちご達が入っている部屋はこの前と同じで、すぐに見つかった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 いちご達が入っている部屋はこの前と同じで、すぐに見つかった。
 
-#SCRIPT ORIGINAL さっそく鍵を外し、中の様子を覗き見る。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 さっそく鍵を外し、中の様子を覗き見る。
@@ -89,7 +81,6 @@ wait		2000
 #@bg_rouka_n		# 廊下(夜)
 
 #見るに見かねてオレは、そこでドアを閉めた。
-#SCRIPT ORIGINAL 見るに見かねてオレは、すぐにドアを閉めた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 見るに見かねてオレは、すぐにドアを閉めた。
@@ -99,23 +90,19 @@ window_close
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT ORIGINAL 「あれが親のすることかッ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あれが親のすることかッ……」
 
-#SCRIPT ORIGINAL もういちごに恨まれるのも構わず、乗り込んで殴り飛ばすか。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 もういちごに恨まれるのも構わず、乗り込んで殴り飛ばすか。
 
-#SCRIPT ORIGINAL そんな逸った考えまで浮かぶが、さすがにそれで解決は出来ないと思い直す。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そんな逸った考えまで浮かぶが、さすがにそれで解決は出来ないと思い直す。
 
-#SCRIPT ORIGINAL 結局今日も傍観しているだけで、何も手を打つことは出来ないまま過ぎていくのだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 結局今日も傍観しているだけで、何も手を打つことは出来ないまま過ぎていくのだ。
@@ -130,17 +117,14 @@ goto	iti7_01_z
 #--------------------------------------------------
 label	iti7_01_b
 
-#SCRIPT ORIGINAL どうせ助ける術が無いんだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 どうせ助ける術が無いんだ。
 
-#SCRIPT ORIGINAL 見ているだけなんて、それも趣味が悪すぎる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 見ているだけなんて、それも趣味が悪すぎる。
 
-#SCRIPT ORIGINAL 無力さに舌打ちしながら、オレも自分の部屋へ引き返すことにした。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 無力さに舌打ちしながら、オレも自分の部屋へ引き返すことにした。
@@ -181,7 +165,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ン、ぅ……ごほっ、けほッ…！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00986
@@ -190,12 +173,10 @@ layer_movepass_play	l_ichigo,0,play_once
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 layer_movepass_init	l_ichigo,0	#演出初期化
 
-#SCRIPT ORIGINAL パパとの時間の疲労が、最近は咳になって現れるようになった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 パパとの時間の疲労が、最近は咳になって現れるようになった。
 
-#SCRIPT ORIGINAL 「大丈夫だよね……熱は無かったし………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00987
@@ -203,25 +184,21 @@ layer_movepass_init	l_ichigo,0	#演出初期化
 
 @ichigo_
 
-#SCRIPT ORIGINAL 寝れば治るはず……
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 寝れば治るはず……
 
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT ORIGINAL ベッドに入ろうとして、置いてあるお人形が視界に入った。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ベッドに入ろうとして、置いてあるお人形が視界に入った。
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00988
 「…………」
 
-#SCRIPT ORIGINAL ちょっと迷ったけど、いちごはベッドに入った。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ちょっと迷ったけど、いちごはベッドに入った。
@@ -230,12 +207,10 @@ layer_movepass_init	l_ichigo,0	#演出初期化
 @bg_black		# 黒
 wait		1000
 
-#SCRIPT ORIGINAL ……ごめんね、お人形さん。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……ごめんね、お人形さん。
 
-#SCRIPT ORIGINAL いちごすごく疲れてて、もう眠りたいから……
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 いちごすごく疲れてて、もう眠りたいから……

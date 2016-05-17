@@ -83,7 +83,6 @@ money_open
 
 if debug=1 then goto	debug_skip01			#デバッグ用
 
-#SCRIPT ORIGINAL 日曜日だ。何をしようか？
 Ｉｔ´ｓ　Ｓｕｎｄａｙ．　Ｗｈａｔ　ｔｏ　ｄｏ．．．？
 
 label	mainloop2_0
@@ -189,7 +188,6 @@ money_open
 if mikan_on=0 then goto schedule_mikan_skip
 
 #みかんのスケジュール設定######################################################
-#SCRIPT ORIGINAL 来週のみかんのスケジュールを決めるか
 Ｗｈａｔ　ｗｉｌｌ　Ｍｉｋａｎ´ｓ　ｓｃｈｅｄｕｌｅ　ｂｅ　ｎｅｘｔ<br>
 ｗｅｅｋ？
 
@@ -211,7 +209,6 @@ label	schedule_mikan_skip
 if ichigo_on=0 then goto schedule_ichigo_skip
 
 #いちごのスケジュール設定#####################################################
-#SCRIPT ORIGINAL 来週のいちごのスケジュールを決めるか
 Ｗｈａｔ　ｗｉｌｌ　Ｉｃｈｉｇｏ´ｓ　ｓｃｈｅｄｕｌｅ　ｂｅ　ｎｅｘｔ<br>
 ｗｅｅｋ？
 
@@ -234,7 +231,6 @@ label	schedule_ichigo_skip
 if karin_on=0 then goto schedule_karin_skip
 
 #かりんのスケジュール設定#####################################################
-#SCRIPT ORIGINAL 来週のかりんのスケジュールを決めるか
 Ｗｈａｔ　ｗｉｌｌ　Ｋａｒｉｎ´ｓ　ｓｃｈｅｄｕｌｅ　ｂｅ　ｎｅｘｔ<br>
 ｗｅｅｋ？
 

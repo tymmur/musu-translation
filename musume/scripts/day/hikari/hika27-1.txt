@@ -13,17 +13,14 @@ bgm_stop
 @bg_itsuki		# 自室
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT ORIGINAL 平日の日中。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 平日の日中。
 
-#SCRIPT ORIGINAL 何となく時間を持て余し、商店街の方へ出てみようと思い立った。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 何となく時間を持て余し、商店街の方へ出てみようと思い立った。
 
-#SCRIPT ORIGINAL 「一人で行ってもつまらないし、誰かに声をかけて行こうか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -37,7 +34,6 @@ wait		100
 @SE07			#部屋のドア閉まる音（パタン）
 @bg_door		# ドア前
 
-#SCRIPT ORIGINAL リビングへ行けば誰か居るだろう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 リビングへ行けば誰か居るだろう。
@@ -46,7 +42,6 @@ wait		100
 #SE16　廊下を歩く音
 #@SE16			#SE16　廊下を歩く音
 
-#SCRIPT ORIGINAL 身なり、財布、携帯、もろもろを手探りで確認しながら、廊下を歩く。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 身なり、財布、携帯、もろもろを手探りで確認しながら、廊下を歩く。
@@ -60,17 +55,14 @@ wait		1000
 #■BG（リビング）
 @bg_living		# リビング
 
-#SCRIPT ORIGINAL すぐリビングに到着。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 すぐリビングに到着。
 
-#SCRIPT ORIGINAL 少なくても一人、手ごろな人数だと二人くらい、連れが出来ればいい。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 少なくても一人、手ごろな人数だと二人くらい、連れが出来ればいい。
 
-#SCRIPT ORIGINAL 「おーい。商店街に出かけるけど、誰か一緒に行くか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -87,7 +79,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「あ、うん！　行く行くッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01874
@@ -109,7 +100,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いちごも行くー！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02189
@@ -119,7 +109,6 @@ layer_movepass_play	l_ichigo,0,play_once
 @karin_shifuku
 @karin_niko		#にこ
 
-#SCRIPT ORIGINAL 「みかんが行くなら一緒するわ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02352
@@ -141,18 +130,15 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ひーちゃんも！　お父しゃんと一緒に行くのー♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00488
 「ひーちゃんも！　お父しゃんと一緒に行くのー♪」
 
-#SCRIPT ORIGINAL 中に居た子供達が、いっせいに手を挙げた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 中に居た子供達が、いっせいに手を挙げた。
 
-#SCRIPT ORIGINAL 「え……四人、みんなか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -168,26 +154,22 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん。そうみたい」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01875
 「うん。そうみたい」
 
-#SCRIPT ORIGINAL まさか、平日なのに四人も居るとは思わなかった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まさか、平日なのに四人も居るとは思わなかった。
 
 @karin_bubetsu		#侮蔑
 
-#SCRIPT ORIGINAL 「あら。イヤならいいのよ、樹は残ってれば？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02353
 「あら。イヤならいいのよ、樹は残ってれば？」
 
-#SCRIPT ORIGINAL 「それじゃオレが声を掛けた意味が無いだろうが」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -195,7 +177,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @ichigo_yorokobi	#喜
 
-#SCRIPT ORIGINAL 「ちょうど今、みんなで外に遊びに行こうって言ってたところなんだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02190
@@ -210,7 +191,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ええ。いい財布が出来たわ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02354
@@ -220,13 +200,11 @@ layer_movepass_play	l_karin,0,play_once
 @mikan_kusyou		#苦笑
 @ichigo_takurami	#企み
 
-#SCRIPT ORIGINAL 「へ？　お父しゃんお財布なの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00489
 「へ？　お父しゃんお財布なの？」
 
-#SCRIPT ORIGINAL 「違う……が、まぁ誘った手前、少しだけだからな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -245,13 +223,11 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「やったぁ♪　みかん、出かける準備してくるね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01876
 「やったぁ♪　みかん、出かける準備してくるね」
 
-#SCRIPT ORIGINAL ちょっと出かけるだけの予定が、このメンツだとにぎやかになりそうだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ちょっと出かけるだけの予定が、このメンツだとにぎやかになりそうだ。
@@ -264,19 +240,16 @@ wait		1000
 #@bg_gate		# 孤児院前
 @bg_sky			# 空
 
-#SCRIPT ORIGINAL 「はぁ～。今日も寒いね～」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01877
 「はぁ～。今日も寒いね～」
 
-#SCRIPT ORIGINAL 「やっぱり前の町より北なだけあって、冬は半端じゃないわね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02355
 「やっぱり前の町より北なだけあって、冬は半端じゃないわね」
 
-#SCRIPT ORIGINAL 「えへへ。いちごポケットカイロ持ってきたよ～」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02191
@@ -284,14 +257,12 @@ wait		1000
 
 @bgm17			#BGM 17 : のんびりのテーマ
 
-#SCRIPT ORIGINAL 子供達のはしゃぐ声が、白い息となって中空へと吐き出される。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 子供達のはしゃぐ声が、白い息となって中空へと吐き出される。
 
 @bg_gate		# 孤児院前
 
-#SCRIPT ORIGINAL 「ひかり、大丈夫か？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -308,7 +279,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん。ちょっと寒いけど平気なの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00490
@@ -319,7 +289,6 @@ layer_movepass_play	l_hikari,0,play_once
 #@karin			#普通
 @karin_niko		#にこ
 
-#SCRIPT ORIGINAL 「じゃ、早く行きましょ。ジッとしてるとよけいに寒いわ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02356
@@ -345,7 +314,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「お菓子食べ歩きツアに出発ー！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02192
@@ -360,13 +328,11 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「おー！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01878
 「おー！」
 
-#SCRIPT ORIGINAL 「……やめてくれ。君ら二人が言うと財布が泣きそうだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -380,24 +346,20 @@ wait		100
 
 screen_vibration	500,16,16,16
 
-#SCRIPT ORIGINAL 「んひゃぁあぁああ～～～！？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02193
 「んひゃぁあぁああ～～～！？」
 
-#SCRIPT ORIGINAL 「うわッ？　なに、どうしたのッ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01879
 「うわッ？　なに、どうしたのッ？」
 
-#SCRIPT ORIGINAL 歩き始めてすぐ、いちごが妙に上擦った悲鳴を上げた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 歩き始めてすぐ、いちごが妙に上擦った悲鳴を上げた。
 
-#SCRIPT ORIGINAL 「どうした、いちご？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -424,7 +386,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「か、カイロが～……いちごが持ってきたカイロ～……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02194
@@ -440,7 +401,6 @@ wait		500
 @mikan			#普通
 @karin			#普通
 
-#SCRIPT ORIGINAL 「カイロがどうかした………あれ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01880
@@ -448,7 +408,6 @@ wait		500
 
 @karin_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「いちご……これ、カイロじゃなくてパンチアイスじゃない……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02357
@@ -458,7 +417,6 @@ wait		500
 @bg_sky			# 空
 @SE73			#SE73　風が吹きぬける音（ヒュゥゥウ）※擬音系。場が冷めた時とかに使う場面効果。
 
-#SCRIPT ORIGINAL ガチガチと震えながらいちごが取り出した物体に、みかんが首を傾げ、かりんが呆れた顔を返す。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ガチガチと震えながらいちごが取り出した物体に、みかんが首を傾げ、かりんが呆れた顔を返す。
@@ -468,13 +426,11 @@ wait		500
 @hikari			#普.png
 @bg_jyuutakugai		# 住宅街
 
-#SCRIPT ORIGINAL 「パンチあいしゅ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00491
 「パンチあいしゅ？」
 
-#SCRIPT ORIGINAL 「持ってみれば分かるよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -484,7 +440,6 @@ window_close
 @hikari_
 wait		1000
 
-#SCRIPT ORIGINAL 「んぅ……？　ひゃあッ、ちゅめたいの！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00492
@@ -511,7 +466,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ざ、ざくろが……ぶるぶる……叩くと暖かくなるよってぇ～」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02195
@@ -527,7 +481,6 @@ wait		500
 @mikan_kusyou		#苦笑
 @karin_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「叩いちゃったんだ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01881
@@ -541,7 +494,6 @@ wait		500
 #layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「何で引っかかるの、そんなものに……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02358
@@ -563,7 +515,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いちご、また騙されたんだぁ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02196
@@ -571,13 +522,11 @@ layer_movepass_play	l_ichigo,0,play_once
 
 @ichigo_
 
-#SCRIPT ORIGINAL 「……ざくろが面白がるのも分かる気がするな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ざくろが面白がるのも分かる気がするな」
 
-#SCRIPT ORIGINAL ポイポイッ！とポケットからいくつもパンチアイスを捨てるいちご。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ポイポイッ！とポケットからいくつもパンチアイスを捨てるいちご。
@@ -590,13 +539,11 @@ layer_movepass_play	l_ichigo,0,play_once
 @mikan_kusyou		#苦笑
 @karin_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「いくつ騙されて持ってきてるのよ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02359
 「いくつ騙されて持ってきてるのよ……」
 
-#SCRIPT ORIGINAL ……まったくだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……まったくだ。
@@ -607,14 +554,12 @@ wait		1000
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 道中いろいろとあったが、とりあえず商店街に到着した。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 道中いろいろとあったが、とりあえず商店街に到着した。
 
 @bgmk12			#BGM K12 : 興味津々のテーマ
 
-#SCRIPT ORIGINAL 「さて、ついたぞ。どうする子供達」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -635,7 +580,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いちご、タイヤキがいいー！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02197
@@ -645,13 +589,11 @@ layer_movepass_play	l_ichigo,0,play_once
 @mikan_shifuku
 @mikan_komikaru_warai	#コミカル笑
 
-#SCRIPT ORIGINAL 「みかんはクレープ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01882
 「みかんはクレープ！」
 
-#SCRIPT ORIGINAL 「いきなり奢りの話か……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -659,12 +601,10 @@ layer_movepass_play	l_ichigo,0,play_once
 
 @bg_black
 
-#SCRIPT ORIGINAL 軽く出歩いて店を冷やかすくらいで、時間を潰したかったのだが。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 軽く出歩いて店を冷やかすくらいで、時間を潰したかったのだが。
 
-#SCRIPT ORIGINAL まぁこのメンバーで出費を無くすというのは不可能だろう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まぁこのメンバーで出費を無くすというのは不可能だろう。
@@ -683,13 +623,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「お父しゃん、見て。お店のガヤスに絵が描いてあゆよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00493
 「お父しゃん、見て。お店のガヤスに絵が描いてあゆよ」
 
-#SCRIPT ORIGINAL 「ん？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -697,7 +635,6 @@ layer_movepass_play	l_hikari,0,play_once
 
 #@hikari_warai		#笑.png
 
-#SCRIPT ORIGINAL 「白いので、お髭のオジさんと鹿さんが描いてゆの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00494
@@ -705,12 +642,10 @@ layer_movepass_play	l_hikari,0,play_once
 
 @bg_white		# 白
 
-#SCRIPT ORIGINAL ひかりの指す先には、スノースプレーで絵を描いた店のガラスがあった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりの指す先には、スノースプレーで絵を描いた店のガラスがあった。
 
-#SCRIPT ORIGINAL 「ああ、サンタとトナカイか。もうすぐクリスマスだからな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -722,13 +657,11 @@ layer_movepass_play	l_hikari,0,play_once
 @hikari			#普.png
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 「クイスマシュ……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00495
 「クイスマシュ……？」
 
-#SCRIPT ORIGINAL 「ひかりは良い子にしてたから、きっとプレゼントがもらえるぞ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -743,13 +676,11 @@ layer_movepass_play	l_hikari,0,play_once
 #layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「プレジェント？　ひーちゃんが貰えゆの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00496
 「プレジェント？　ひーちゃんが貰えゆの？」
 
-#SCRIPT ORIGINAL 不思議そうにガラスの絵を見ていたひかりへ頷き、頭を撫でてやる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 不思議そうにガラスの絵を見ていたひかりへ頷き、頭を撫でてやる。
@@ -775,7 +706,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いいなぁッ。パパ、いちごも良い子にしてたよ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02198
@@ -789,13 +719,11 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「お兄ちゃん、みかんも頑張ったよ。今年もプレゼント貰えるかな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01883
 「お兄ちゃん、みかんも頑張ったよ。今年もプレゼント貰えるかな」
 
-#SCRIPT ORIGINAL 「もちろん。タイヤキとクレープだっけ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -804,7 +732,6 @@ layer_movepass_play	l_mikan,0,play_once
 @ichigo_ase		#汗
 @mikan_komikaru_ikari	#コミカル怒
 
-#SCRIPT ORIGINAL 「違うよーッ、それはサンタさんへのお願いじゃないよッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01884
@@ -822,7 +749,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いちごはね、『彩羽屋』の限定アイス５０個を全部一人で食べたいってお願いするんだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02199
@@ -841,7 +767,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「はぁ、子供ねぇ。そんなのわざわざお願いするものでもないじゃない」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02360
@@ -851,7 +776,6 @@ layer_movepass_play	l_karin,0,play_once
 @mikan_shifuku
 @mikan_yorokobi		#喜
 
-#SCRIPT ORIGINAL 「かりんちゃんは何が欲しいの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01885
@@ -859,7 +783,6 @@ layer_movepass_play	l_karin,0,play_once
 
 @karin_niko		#にこ
 
-#SCRIPT ORIGINAL 「うん？　私はねぇ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02361
@@ -869,14 +792,12 @@ layer_movepass_play	l_karin,0,play_once
 #SE74　目の輝き（キラーン）
 @SE74			#SE74　目の輝き（キラーン）
 
-#SCRIPT ORIGINAL みかんを見て、妖しく瞳が光る。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 みかんを見て、妖しく瞳が光る。
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「え？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01886
@@ -884,13 +805,11 @@ layer_movepass_play	l_karin,0,play_once
 
 @karin_komikaru_yoku	#コミカル欲
 
-#SCRIPT ORIGINAL 「うふふふふ。もちろん、み・か・ん、よ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02362
 「うふふふふ。もちろん、み・か・ん、よ」
 
-#SCRIPT ORIGINAL 「無茶言うな。可愛く言ってもダメだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -898,7 +817,6 @@ layer_movepass_play	l_karin,0,play_once
 
 @mikan_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「みかん……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01887
@@ -913,7 +831,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「あ、お蜜柑のこと？　コタツで食べたら美味しいよねぇ♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01888
@@ -932,13 +849,11 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「そうねぇ。コタツで食べちゃうのもいいわねぇ～」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02363
 「そうねぇ。コタツで食べちゃうのもいいわねぇ～」
 
-#SCRIPT ORIGINAL 「話かみ合ってねぇってよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -947,12 +862,10 @@ layer_movepass_play	l_karin,0,play_once
 bgm_stop
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL ……まぁ。いつものことなので放っておこう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……まぁ。いつものことなので放っておこう。
 
-#SCRIPT ORIGINAL 「ひかりは、サンタさんから何が欲しいんだ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -962,7 +875,6 @@ bgm_stop
 @hikari_shifuku
 @hikari_kanashimi	#哀.png
 
-#SCRIPT ORIGINAL 「えぅ……お父しゃん～……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00497
@@ -970,24 +882,20 @@ bgm_stop
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT ORIGINAL ひかりは何故か悲しそうな顔をした。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりは何故か悲しそうな顔をした。
 
-#SCRIPT ORIGINAL 「ん？　ひかり？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん？　ひかり？」
 
-#SCRIPT ORIGINAL 「どうしたの、ひーちゃん？　樹に何かされたのっ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02364
 「どうしたの、ひーちゃん？　樹に何かされたのっ？」
 
-#SCRIPT ORIGINAL 「……二言目にはオレを疑うの、止めてくれないかな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -995,13 +903,11 @@ bgm_stop
 
 @hikari_naki		#泣.png
 
-#SCRIPT ORIGINAL 「ぐすっ……違うの。あのね……ひーちゃん、サンタしゃんっていう人知らないのぉ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00498
 「ぐすっ……違うの。あのね……ひーちゃん、サンタしゃんっていう人知らないのぉ」
 
-#SCRIPT ORIGINAL 「え？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01889
@@ -1025,19 +931,16 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ひっく……だから、ひーちゃんだけきっとプレジェントもらえないのぉ……ぐすっ、えぅぅ…」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00499
 「ひっく……だから、ひーちゃんだけきっとプレジェントもらえないのぉ……ぐすっ、えぅぅ…」
 
-#SCRIPT ORIGINAL 「ひーちゃん……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02365
 「ひーちゃん……」
 
-#SCRIPT ORIGINAL 「前の家………いや、今まで何も無かったのか、クリスマスに？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1053,7 +956,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん……。クイスマシュ、ぐしゅっ…聞いたこと無いの……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00500
@@ -1074,7 +976,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ふぇぇ……ひーちゃんだけプレジェント貰えないのぉ～……うわぁあん！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00501
@@ -1082,18 +983,15 @@ layer_movepass_play	l_hikari,0,play_once
 
 @hikari_
 
-#SCRIPT ORIGINAL 「ひかり……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかり……」
 
-#SCRIPT ORIGINAL そうだった。この子は……
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そうだった。この子は……
 
-#SCRIPT ORIGINAL 完全にオレが浅はかで、そして軽率な発言で、ひかりを傷つけてしまったのだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 完全にオレが浅はかで、そして軽率な発言で、ひかりを傷つけてしまったのだ。
@@ -1102,7 +1000,6 @@ layer_movepass_play	l_hikari,0,play_once
 @ichigo_shifuku
 @ichigo_warai		#笑
 
-#SCRIPT ORIGINAL 「あはははッ♪　ひーちゃんお子様～、サンタさんなんてほんとは―――」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02200
@@ -1114,7 +1011,6 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @ichigo_
 screen_vibration	500,16,16,16
 
-#SCRIPT ORIGINAL 「ぴぎゃんッ！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02201
@@ -1134,7 +1030,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ちょっとは空気読みなさいよッ、このバカいちご～ッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02366
@@ -1145,7 +1040,6 @@ window_close
 wait		1000
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT ORIGINAL 「ひひゃぁあぁ～！！　つ、冷たい冷たい～ッ、パンチアイス押し付けないでかりん～～！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02202
@@ -1154,20 +1048,17 @@ wait		1000
 bgm_stop
 @bg_black
 
-#SCRIPT ORIGINAL ……何か隅でドタバタやってるが、今は無視だ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……何か隅でドタバタやってるが、今は無視だ。
 
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 「うえぇええんッ！　んぅぐ、ぐしゅッ……ひんんんぅッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00502
 「うえぇええんッ！　んぅぐ、ぐしゅッ……ひんんんぅッ！」
 
-#SCRIPT ORIGINAL 「ひかり、オレが悪かった。大丈夫だよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1176,18 +1067,15 @@ bgm_stop
 @bg_white		# 白
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
-#SCRIPT ORIGINAL 涙を流すひかりの前にしゃがみ、優しく抱きしめた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 涙を流すひかりの前にしゃがみ、優しく抱きしめた。
 
-#SCRIPT ORIGINAL 「んぐうぅ…ぐしゅッ、お父しゃんっ……ひーちゃん、サンタしゃんの知らない子なのぉ……ぐすッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00503
 「んぐうぅ…ぐしゅッ、お父しゃんっ……ひーちゃん、サンタしゃんの知らない子なのぉ……ぐすッ」
 
-#SCRIPT ORIGINAL 「そんなことない。サンタさんはひかりのこと、ちゃんと知ってるよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1198,19 +1086,16 @@ bgm_stop
 @hikari_naki		#泣.png
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 「んっく、ひんぅッ……ほんと…？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00504
 「んっく、ひんぅッ……ほんと…？」
 
-#SCRIPT ORIGINAL 「ひかりみたいな良い子のこと、サンタが知らないはず無いじゃないか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかりみたいな良い子のこと、サンタが知らないはず無いじゃないか」
 
-#SCRIPT ORIGINAL 「だから大丈夫。きっとクリスマスには、プレゼントを届けてくれるよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1219,23 +1104,19 @@ bgm_stop
 @SE26			#SE26　柔らかい物との衝突音（バフンッ！！）※クッションや枕などをぶつけられた音
 @bg_white		# 白
 
-#SCRIPT ORIGINAL 悲しそうに嗚咽で震える身体を、いっぱいに抱きしめる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 悲しそうに嗚咽で震える身体を、いっぱいに抱きしめる。
 
-#SCRIPT ORIGINAL 今まで恵まれなかった分、今はオレが出来ることを全てしてやりたい。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 今まで恵まれなかった分、今はオレが出来ることを全てしてやりたい。
 
-#SCRIPT ORIGINAL 「えへ……ぐすッ、うん。よかったの……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00505
 「えへ……ぐすッ、うん。よかったの……」
 
-#SCRIPT ORIGINAL 瞼を濡らしながらも、ひかりはオレの言葉を信じて微笑んでくれるのだった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 瞼を濡らしながらも、ひかりはオレの言葉を信じて微笑んでくれるのだった。
@@ -1244,29 +1125,24 @@ bgm_stop
 @bg_black
 wait		1000
 
-#SCRIPT ORIGINAL …………………
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 …………………
 
-#SCRIPT ORIGINAL ……………
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT ORIGINAL ………
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ………
 
 @bg_sky			# 空
 
-#SCRIPT ORIGINAL ひかりが完全に泣き止むまで、ずっとそうしていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりが完全に泣き止むまで、ずっとそうしていた。
 
-#SCRIPT ORIGINAL 町中でそんな時間が続いたので、オレ達は周りの視線をいっぱいに浴びていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 町中でそんな時間が続いたので、オレ達は周りの視線をいっぱいに浴びていた。
@@ -1276,7 +1152,6 @@ wait		1000
 #■BG（商店街）
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 「悪かったな、ひかり。大丈夫か……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1293,7 +1168,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん！　へーき、ありがとうお父しゃん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00506
@@ -1301,7 +1175,6 @@ layer_movepass_play	l_hikari,0,play_once
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT ORIGINAL 腕の中から離すと、ひかりはいつも通り明るい笑顔を見せてくれた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 腕の中から離すと、ひかりはいつも通り明るい笑顔を見せてくれた。
@@ -1312,13 +1185,11 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「まったく、町中なのに。恥ずかしいんだから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02367
 「まったく、町中なのに。恥ずかしいんだから」
 
-#SCRIPT ORIGINAL 「はは……悪かった。オレが浅はかだったせいだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1326,7 +1197,6 @@ wait		500
 
 @karin_keno		#嫌悪
 
-#SCRIPT ORIGINAL 「当然よ。悪いのは樹で、ひーちゃんは被害者よ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02368
@@ -1336,7 +1206,6 @@ wait		500
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
-#SCRIPT ORIGINAL 「ひーちゃんもう大丈夫なの。泣かないよ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00507
@@ -1354,7 +1223,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「んーッ♪　偉いわひーちゃん！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02369
@@ -1366,13 +1234,11 @@ wait		500
 @mikan_shifuku
 @mikan_yorokobi		#喜
 
-#SCRIPT ORIGINAL 「あ、ひーちゃんもお兄ちゃんも、もう大丈夫なの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01890
 「あ、ひーちゃんもお兄ちゃんも、もう大丈夫なの？」
 
-#SCRIPT ORIGINAL 「ああ、迷惑かけたな。………みかんは何してたんだ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1380,7 +1246,6 @@ wait		500
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「え……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01891
@@ -1390,7 +1255,6 @@ wait		500
 @karin_shifuku
 @karin_keno		#嫌悪
 
-#SCRIPT ORIGINAL 「樹ッ、一番の功労者に何てこと言うのよッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02370
@@ -1398,13 +1262,11 @@ wait		500
 
 @karin_ikari		#怒
 
-#SCRIPT ORIGINAL 「みかんはね、小さい子に抱きついて変態にしか見えないあなたのために、近づいてくる警官みんなにフォローしてくれてたのよッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02371
 「みかんはね、小さい子に抱きついて変態にしか見えないあなたのために、近づいてくる警官みんなにフォローしてくれてたのよッ！」
 
-#SCRIPT ORIGINAL 「お、おぉお……そうだったのか……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1412,18 +1274,15 @@ wait		500
 
 @mikan_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「お兄ちゃん、もう少しで連行されそうだったんだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01892
 「お兄ちゃん、もう少しで連行されそうだったんだよ」
 
-#SCRIPT ORIGINAL 何だかかなり、危ない構図になっていたようだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 何だかかなり、危ない構図になっていたようだ。
 
-#SCRIPT ORIGINAL 「……んっと、じゃあとりあえず今日のところは出なおすか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1432,7 +1291,6 @@ wait		500
 #@karin_keno		#嫌悪
 @karin_bubetsu		#侮蔑
 
-#SCRIPT ORIGINAL 「何を言うの。迷惑をかけたお詫びをしてもらうに決まってるじゃない」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02372
@@ -1447,13 +1305,11 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん。みかんもお菓子食べ歩きに行きたいな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01893
 「うん。みかんもお菓子食べ歩きに行きたいな」
 
-#SCRIPT ORIGINAL 「え……マジで？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1461,7 +1317,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 #@karin_bubetsu		#侮蔑
 
-#SCRIPT ORIGINAL 「恥ずかしい思いをさせられた分、返してもらうわよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02373
@@ -1469,12 +1324,10 @@ layer_movepass_play	l_mikan,0,play_once
 
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL ひかりの件もあって、オレはすっかり帰宅モードだったんだが。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりの件もあって、オレはすっかり帰宅モードだったんだが。
 
-#SCRIPT ORIGINAL 「って言うか、ひかりは？　やっぱり一度帰りたいよな？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1494,13 +1347,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ううん、大丈夫。まだ一緒にお出かけ続けたいの！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00508
 「ううん、大丈夫。まだ一緒にお出かけ続けたいの！」
 
-#SCRIPT ORIGINAL 「うぐッ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1517,7 +1368,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「行こ、お兄ちゃん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01894
@@ -1527,12 +1377,10 @@ bgm_stop
 @chara_clear		#保険
 @bg_sky			# 空
 
-#SCRIPT ORIGINAL 最後の良心、ひかりもかりん側で、どうやら奢り歩くはめになりそうだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 最後の良心、ひかりもかりん側で、どうやら奢り歩くはめになりそうだ。
 
-#SCRIPT ORIGINAL ……あれ。でも何か忘れてるような。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……あれ。でも何か忘れてるような。
@@ -1562,25 +1410,21 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ブルブルっ…うぅぅ……いちごを忘れないで、パパ～」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02203
 「ブルブルっ…うぅぅ……いちごを忘れないで、パパ～」
 
-#SCRIPT ORIGINAL 「ん？　おわッ、どうしたいちご！？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん？　おわッ、どうしたいちご！？」
 
-#SCRIPT ORIGINAL 「ひゃあッ！　いちごお姉しゃん、ちゅめたいの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00509
 「ひゃあッ！　いちごお姉しゃん、ちゅめたいの」
 
-#SCRIPT ORIGINAL さっきかりんにお仕置きされていたいちごが、ブルブル震えながら復帰してきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 さっきかりんにお仕置きされていたいちごが、ブルブル震えながら復帰してきた。
@@ -1604,19 +1448,16 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「パンチアイス……き、危険だよ、冷たくて……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02204
 「パンチアイス……き、危険だよ、冷たくて……」
 
-#SCRIPT ORIGINAL 「あ～、ちょっと強くやりすぎたかしら……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02374
 「あ～、ちょっと強くやりすぎたかしら……」
 
-#SCRIPT ORIGINAL 「どんな使い方をしたら、こんなに冷たくなるんだッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1642,7 +1483,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「た、タイヤキ……食べて暖まらないと……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02205
@@ -1650,19 +1490,16 @@ layer_movepass_play	l_ichigo,0,play_once
 
 @ichigo_
 
-#SCRIPT ORIGINAL 「お兄ちゃんっ、いちごちゃんが凍死しちゃう！？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01895
 「お兄ちゃんっ、いちごちゃんが凍死しちゃう！？」
 
-#SCRIPT ORIGINAL 「凍死はないだろうが……。仕方ないな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「凍死はないだろうが……。仕方ないな」
 
-#SCRIPT ORIGINAL 何だかよく分からない状態のまま、結局商店街で食べまわることになる……。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 何だかよく分からない状態のまま、結局商店街で食べまわることになる……。
@@ -1675,12 +1512,10 @@ wait		1000
 @bg_syoutengai		# 商店街
 @bgm17			#BGM 17 : のんびりのテーマ
 
-#SCRIPT ORIGINAL 店を数件回り、そして子供たち行きつけの食べ歩きの屋台へ足を運んだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 店を数件回り、そして子供たち行きつけの食べ歩きの屋台へ足を運んだ。
 
-#SCRIPT ORIGINAL 商店街を歩く間、初めて知ったクリスマスについて、ひかりは興味津々だった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 商店街を歩く間、初めて知ったクリスマスについて、ひかりは興味津々だった。
@@ -1689,18 +1524,15 @@ wait		1000
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
-#SCRIPT ORIGINAL 「あのね、冬になったら、飾りは見たことあゆの。何かなって」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00510
 「あのね、冬になったら、飾りは見たことあゆの。何かなって」
 
-#SCRIPT ORIGINAL クリスマス色の飾りを見ながら話すひかり。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 クリスマス色の飾りを見ながら話すひかり。
 
-#SCRIPT ORIGINAL 「あれ全部、クイスマシュの飾りなの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00511
@@ -1710,13 +1542,11 @@ wait		1000
 @mikan_shifuku
 @mikan_yorokobi		#喜
 
-#SCRIPT ORIGINAL 「うん。でもイブになったら、きっと電飾とかもっと綺麗になるんじゃないかな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01896
 「うん。でもイブになったら、きっと電飾とかもっと綺麗になるんじゃないかな」
 
-#SCRIPT ORIGINAL 「ひかり、サンタへのプレゼント考えておくんだぞ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1731,13 +1561,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん！　そしたらお父しゃんがサンタしゃんに伝えてくえゆんだよね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00512
 「うん！　そしたらお父しゃんがサンタしゃんに伝えてくえゆんだよね」
 
-#SCRIPT ORIGINAL 「そうだ。オレはサンタと知り合いだからな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1748,7 +1576,6 @@ layer_movepass_play	l_hikari,0,play_once
 #@karin_bubetsu		#侮蔑
 @karin_niko		#にこ
 
-#SCRIPT ORIGINAL 「遠慮しないで沢山頼んだ方がいいわよ、ひーちゃん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02375
@@ -1757,7 +1584,6 @@ layer_movepass_play	l_hikari,0,play_once
 @mikan			#普通
 @hikari			#普.png
 
-#SCRIPT ORIGINAL 「たくさん？　いいの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00513
@@ -1779,7 +1605,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いちごもクリスマスまでに、もっと欲しいプレゼント増やしておくんだ～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02206
@@ -1788,7 +1613,6 @@ layer_movepass_play	l_ichigo,0,play_once
 @mikan_kusyou		#苦笑
 @karin_kanashimi	#哀
 
-#SCRIPT ORIGINAL ……いや待て、いちごよ。お前はさっきサンタの正体を知ってるって言ってたじゃないか。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……いや待て、いちごよ。お前はさっきサンタの正体を知ってるって言ってたじゃないか。
@@ -1797,13 +1621,11 @@ layer_movepass_play	l_ichigo,0,play_once
 wait		1000
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 「お父しゃんは何を頼むの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00514
 「お父しゃんは何を頼むの？」
 
-#SCRIPT ORIGINAL 「オレか？　ははっ、オレは貰えないんだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1820,26 +1642,22 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「………え」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00515
 「………え」
 
-#SCRIPT ORIGINAL そう笑って応えると、ひかりが驚いてオレを見上げた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そう笑って応えると、ひかりが驚いてオレを見上げた。
 
 @hikari			#普.png
 
-#SCRIPT ORIGINAL 「お父しゃん、サンタしゃんからプレジェント貰えないの……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00516
 「お父しゃん、サンタしゃんからプレジェント貰えないの……？」
 
-#SCRIPT ORIGINAL 「ああ。大人は貰えないんだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1847,13 +1665,11 @@ layer_movepass_play	l_hikari,0,play_once
 
 @hikari_komaru		#困.png
 
-#SCRIPT ORIGINAL 「どうしてっ？　ひーちゃん達は貰えゆのに、何で大人はくえないの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00517
 「どうしてっ？　ひーちゃん達は貰えゆのに、何で大人はくえないの？」
 
-#SCRIPT ORIGINAL 「はは、そういう決まりなんだよ。気にしないでいいから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1869,13 +1685,11 @@ wait		500
 @karin_niko		#にこ
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「サンタさんも、大人まで全員に配ってたら大変でしょう？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02376
 「サンタさんも、大人まで全員に配ってたら大変でしょう？」
 
-#SCRIPT ORIGINAL 「う～……でもひーちゃん、みんな一緒にプレジェント貰いたいの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00518
@@ -1883,7 +1697,6 @@ wait		500
 
 @mikan_yorokobi		#喜
 
-#SCRIPT ORIGINAL 「優しいね、ひーちゃん。みかんも本当はお兄ちゃんと一緒がいいけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01897
@@ -1891,12 +1704,10 @@ wait		500
 
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL まぁサンタの正体を考えると、オレが貰うというのは不可能だし。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まぁサンタの正体を考えると、オレが貰うというのは不可能だし。
 
-#SCRIPT ORIGINAL 「ありがとうな。気持ちだけ貰っておくよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1906,7 +1717,6 @@ wait		500
 @hikari_shifuku
 @hikari_komaru		#困.png
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00519
@@ -1914,7 +1724,6 @@ wait		500
 
 @hikari_kanashimi	#哀.png
 
-#SCRIPT ORIGINAL 「サンタしゃん、優しいけどちょっと意地悪なの……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00520
@@ -1937,7 +1746,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「あっ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02377
@@ -1945,7 +1753,6 @@ layer_movepass_play	l_karin,0,play_once
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「…？　どうしたの、かりんちゃん？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01898
@@ -1954,19 +1761,16 @@ layer_movepass_play	l_karin,0,play_once
 #@karin			#普通
 @karin_niko		#にこ
 
-#SCRIPT ORIGINAL 「……あ、あぁ、ううん。何でもない」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02378
 「……あ、あぁ、ううん。何でもない」
 
-#SCRIPT ORIGINAL 「えっ、気になるよー。どうしたの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02207
 「えっ、気になるよー。どうしたの」
 
-#SCRIPT ORIGINAL 「何なんだ、今の『あっ』って」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -1984,7 +1788,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「な、何でもないって言ってるでしょッ、もう！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02379
@@ -1992,13 +1795,11 @@ layer_movepass_play	l_karin,0,play_once
 
 @mikan_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「うおッ、何で怒ってんだ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「うおッ、何で怒ってんだ……」
 
-#SCRIPT ORIGINAL よく分からないが一喝され、何だったのか聞けずじまいだった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 よく分からないが一喝され、何だったのか聞けずじまいだった。
@@ -2009,12 +1810,10 @@ wait		1000
 #■BG（夕方）
 @bg_sky_y		# 夕方の空
 
-#SCRIPT ORIGINAL その後も色々お店を回って、五人で時間を忘れて過ごした。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 その後も色々お店を回って、五人で時間を忘れて過ごした。
 
-#SCRIPT ORIGINAL 財布の軽さは……ちょっと泣けるが、その分楽しめたからよしとしておく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 財布の軽さは……ちょっと泣けるが、その分楽しめたからよしとしておく。
@@ -2043,7 +1842,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「はぁ～、楽しくて美味しかった～♪　ごちそうさま、パパ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02208
@@ -2058,7 +1856,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ありがとう、お兄ちゃん。みかん、こんなにお菓子食べたの久しぶり～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01899
@@ -2073,7 +1870,6 @@ layer_movepass_type	l_karin,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_karin,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「恥ずかしさの償いとしては、上々ね。ごちそうさま」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02380
@@ -2081,13 +1877,11 @@ layer_movepass_play	l_karin,0,play_once
 
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL 「ふぅ。それじゃあ、帰るか。……もう財布の中も１円と埃くらいしか入ってないしな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ふぅ。それじゃあ、帰るか。……もう財布の中も１円と埃くらいしか入ってないしな」
 
-#SCRIPT ORIGINAL まるで銭を直接貪られたみたいにスッキリだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まるで銭を直接貪られたみたいにスッキリだ。
@@ -2103,18 +1897,15 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「またみんなで出かけてこようねっ、お父しゃん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00521
 「またみんなで出かけてこようねっ、お父しゃん」
 
-#SCRIPT ORIGINAL 色々食べて口を甘くしたひかりが、嬉しそうにはしゃぐ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 色々食べて口を甘くしたひかりが、嬉しそうにはしゃぐ。
 
-#SCRIPT ORIGINAL 「頻繁だと破産するが……。まぁたまにならいいか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -2124,7 +1915,6 @@ bgm_stop
 @chara_clear		#保険
 @bg_sky_y		# 夕方の空
 
-#SCRIPT ORIGINAL ひかりのクリスマスのことも含め、今日は出かけてきて良かったと思う。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりのクリスマスのことも含め、今日は出かけてきて良かったと思う。

@@ -13,12 +13,10 @@ bgm_stop
 @bg_gate		# 孤児院前
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT ORIGINAL お昼ご飯も終わり、美雨やひかり達とリビングでくつろいでいた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 お昼ご飯も終わり、美雨やひかり達とリビングでくつろいでいた。
 
-#SCRIPT ORIGINAL みかんとかりん、いちごの三人も、集まっている。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 みかんとかりん、いちごの三人も、集まっている。
@@ -35,7 +33,6 @@ bgm_stop
 @hikari_yorokobi	#喜.png
 @bg_living		# リビング
 
-#SCRIPT ORIGINAL 「ひーちゃん、お昼から何して遊ぼっか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01825
@@ -43,7 +40,6 @@ bgm_stop
 
 @hikari_warai		#笑.png
 
-#SCRIPT ORIGINAL 「んっとねー。お父しゃんとお母しゃんとみんなであしょびたいの！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00310
@@ -51,19 +47,16 @@ bgm_stop
 
 @karin_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「美雨はいいけど、樹とねぇ……せっかくのお休みなのに」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02266
 「美雨はいいけど、樹とねぇ……せっかくのお休みなのに」
 
-#SCRIPT ORIGINAL 「遊ぶ前から疲れるなよ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「遊ぶ前から疲れるなよ……」
 
-#SCRIPT ORIGINAL 「まぁいい、ひかり、みんなと遊んどいで。美雨は大丈夫？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -75,7 +68,6 @@ wait		500
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「はい。まだ仕事がありますから、外に出かけたりは出来ませんけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01648
@@ -83,7 +75,6 @@ wait		500
 
 @miu			#閉_にこ
 
-#SCRIPT ORIGINAL 「ひーちゃん、おうちの中で遊ぶのでもいいかしら？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01649
@@ -102,7 +93,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん！　でもひーちゃん、お父しゃんとも一緒にあしょぶのー」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00311
@@ -112,7 +102,6 @@ layer_movepass_play	l_hikari,0,play_once
 @ichigo_shifuku
 @ichigo_yorokobi	#喜
 
-#SCRIPT ORIGINAL 「そうだよ、パパも一緒に遊ぼうよー」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02175
@@ -131,7 +120,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ね、お父しゃんー♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00312
@@ -152,13 +140,11 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いいでしょ、パパー」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02176
 「いいでしょ、パパー」
 
-#SCRIPT ORIGINAL 「……ぷちいちごが増えたみたいだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -170,7 +156,6 @@ wait		500
 @miu_maid
 @miu			#閉_にこ
 
-#SCRIPT ORIGINAL 「ふふ、人気者ですね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01650
@@ -180,7 +165,6 @@ wait		500
 @SE42			#SE42　孤児院の呼び鈴
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「あ、ちょっとすみません。どなたかいらしたようです」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01651
@@ -191,7 +175,6 @@ window_close
 wait		1000
 @SE06			#部屋のドア開く音（ガチャ）
 
-#SCRIPT ORIGINAL 呼び鈴を聞いて、美雨が玄関へ出向いていく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 呼び鈴を聞いて、美雨が玄関へ出向いていく。
@@ -200,7 +183,6 @@ wait		1000
 @hikari_shifuku
 @hikari_yorokobi	#喜.png
 
-#SCRIPT ORIGINAL 「ひーちゃんも行くのー♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00313
@@ -208,7 +190,6 @@ wait		1000
 
 @hikari_
 
-#SCRIPT ORIGINAL その後を、嬉しそうにひかりが走ってついていく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 その後を、嬉しそうにひかりが走ってついていく。
@@ -217,7 +198,6 @@ wait		1000
 @mikan_shifuku
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「誰だろうね、平日のこんな時間に？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01826
@@ -227,7 +207,6 @@ wait		1000
 @karin_shifuku
 @karin_bubetsu		#侮蔑
 
-#SCRIPT ORIGINAL 「樹の来客だったら遊ぶ間もなくなって楽なんだけどね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02267
@@ -235,7 +214,6 @@ wait		1000
 
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL 「ひでぇな……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -247,101 +225,84 @@ window_close
 wait		1000
 @SE31			#SE31　玄関のドアが閉まる音
 
-#SCRIPT ORIGINAL 「おじゃましまーす」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,L00315
 「おじゃましまーす」
 
-#SCRIPT ORIGINAL 「おじゃまします」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠？？？,M00333
 「おじゃまします」
 
-#SCRIPT ORIGINAL かりんに愚痴でも返そうとしたとき、玄関から聞き慣れた声がした。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 かりんに愚痴でも返そうとしたとき、玄関から聞き慣れた声がした。
 
-#SCRIPT ORIGINAL 「いらっしゃい、涼海ちゃん、るあちゃん。それに誠司さんも」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01652
 「いらっしゃい、涼海ちゃん、るあちゃん。それに誠司さんも」
 
-#SCRIPT ORIGINAL 「おじゃまします美雨さん。いやー忙しいのにすんません、こっちの二人がどうしても遊びに来たい言うもんで」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00201
 「おじゃまします美雨さん。いやー忙しいのにすんません、こっちの二人がどうしても遊びに来たい言うもんで」
 
-#SCRIPT ORIGINAL 「別に誠司は誘ってないでしょ―――って、あれ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00316
 「別に誠司は誘ってないでしょ―――って、あれ？」
 
-#SCRIPT ORIGINAL 「こんにちわ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00314
 「こんにちわ！」
 
-#SCRIPT ORIGINAL 「わぁ、知らない子がいる。可愛い～、誰なんですか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00334
 「わぁ、知らない子がいる。可愛い～、誰なんですか？」
 
-#SCRIPT ORIGINAL 「えっと、この子は今、ここで預かっている子で――」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01653
 「えっと、この子は今、ここで預かっている子で――」
 
-#SCRIPT ORIGINAL 「ねぇお母しゃん、このお姉しゃん達だぁれ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00315
 「ねぇお母しゃん、このお姉しゃん達だぁれ？」
 
-#SCRIPT ORIGINAL 「え…？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00335
 「え…？」
 
-#SCRIPT ORIGINAL 「へ……？　お、お母さん…？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00317
 「へ……？　お、お母さん…？」
 
-#SCRIPT ORIGINAL 「………ぉ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00202
 「………ぉ」
 
-#SCRIPT ORIGINAL 「お母さん……って、美雨さんが……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00203
 「お母さん……って、美雨さんが……？」
 
-#SCRIPT ORIGINAL ……あれ。何か向こう、ややこしい事になってるんじゃないか？
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……あれ。何か向こう、ややこしい事になってるんじゃないか？
 
-#SCRIPT ORIGINAL 「お母しゃんは、ひーちゃんのお母しゃんなの。中にお父しゃんも居るの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00316
 「お母しゃんは、ひーちゃんのお母しゃんなの。中にお父しゃんも居るの」
 
-#SCRIPT ORIGINAL その瞬間、ものすごい足音が廊下を走ってきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 その瞬間、ものすごい足音が廊下を走ってきた。
@@ -364,13 +325,11 @@ window_close
 #layer_movepass_play	l_seiji,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ど、どこの誰やーーッ！　美雨さんの尊い畑に子種を実らせた奴はーーッ！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00204
 「ど、どこの誰やーーッ！　美雨さんの尊い畑に子種を実らせた奴はーーッ！！」
 
-#SCRIPT ORIGINAL 「分かりにくいっての」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -378,20 +337,17 @@ window_close
 
 @seiji_odoroki		#驚
 
-#SCRIPT ORIGINAL 「ハッ、樹！？　まさかッ……！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00205
 「ハッ、樹！？　まさかッ……！！」
 
-#SCRIPT ORIGINAL オレと目が合って硬直する誠司。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 オレと目が合って硬直する誠司。
 
 @seiji_
 
-#SCRIPT ORIGINAL その後ろからすぐ、同じく驚いて駆けつけてくる涼海とるあ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 その後ろからすぐ、同じく驚いて駆けつけてくる涼海とるあ。
@@ -404,13 +360,11 @@ se		0,	"sound\se\SE05_ずっこけドカン.WAV",	play_once
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
-#SCRIPT ORIGINAL 「お父しゃ――ぴぎゅぅッ！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00317
 「お父しゃ――ぴぎゅぅッ！！」
 
-#SCRIPT ORIGINAL それと壁に衝突するひかり。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 それと壁に衝突するひかり。
@@ -424,25 +378,21 @@ screen_vibration	500,16,16,16
 #@suzumi_odoroki		#驚
 @suzumi			#普
 
-#SCRIPT ORIGINAL 「あ、あれ……。中に居る男の人って、樹さんだけ……ですか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00318
 「あ、あれ……。中に居る男の人って、樹さんだけ……ですか？」
 
-#SCRIPT ORIGINAL 「え、じゃあ、この子ってやっぱり……樹先生と美雨さんの…」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00336
 「え、じゃあ、この子ってやっぱり……樹先生と美雨さんの…」
 
-#SCRIPT ORIGINAL 「うぅ～……お父しゃんー、おでこぶちゅけたのぉ～～……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00318
 「うぅ～……お父しゃんー、おでこぶちゅけたのぉ～～……」
 
-#SCRIPT ORIGINAL おでこを擦りながら、ひかりがオレの方へ歩いてきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 おでこを擦りながら、ひかりがオレの方へ歩いてきた。
@@ -464,7 +414,6 @@ layer_movepass_type	l_seiji,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_seiji,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「やっぱりお前かッ！　殺したるーーー！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00206
@@ -472,13 +421,11 @@ layer_movepass_play	l_seiji,0,play_once
 
 @seiji_
 
-#SCRIPT ORIGINAL 「ちょッ！？　こら、まずは話を聞けッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちょッ！？　こら、まずは話を聞けッ！」
 
-#SCRIPT ORIGINAL 「言い訳無用！　この光源氏がーー！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00207
@@ -501,7 +448,6 @@ layer_movepass_type	l_rua,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_rua,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「きゃあっ！？　お、落ち着いてくださいっ、誠司先生」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00337
@@ -511,7 +457,6 @@ layer_movepass_play	l_rua,0,play_once
 @mikan_shifuku
 @mikan_odoroki		#驚
 
-#SCRIPT ORIGINAL 「わぁっ！？　なにっ、急になに～！？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01827
@@ -519,7 +464,6 @@ layer_movepass_play	l_rua,0,play_once
 
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL 「うぁああ～～っ！　美雨さんと添い遂げたら、お前と穴兄弟になるやないか～～！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00208
@@ -528,7 +472,6 @@ layer_movepass_play	l_rua,0,play_once
 window_close
 @SE41			#SE41　暴れる音（ドタンッバタンッ！）
 
-#SCRIPT ORIGINAL 「するの確定で暴れるなッ。そんなフラグはない！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -545,13 +488,11 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「きゃっ！　ど、どうされたんですか、誠司さんっ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01654
 「きゃっ！　ど、どうされたんですか、誠司さんっ？」
 
-#SCRIPT ORIGINAL 後からやってきた美雨は理由が分からず慌てていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 後からやってきた美雨は理由が分からず慌てていた。
@@ -560,17 +501,14 @@ layer_movepass_play	l_miu,0,play_once
 @bg_black
 wait		1000
 
-#SCRIPT ORIGINAL ………
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ………
 
-#SCRIPT ORIGINAL ……………
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……………
 
-#SCRIPT ORIGINAL …………………
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 …………………
@@ -588,26 +526,22 @@ wait		1000
 @seiji			#普
 @bg_living		# リビング
 
-#SCRIPT ORIGINAL 「――と、言うわけだ。理解したか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「――と、言うわけだ。理解したか」
 
-#SCRIPT ORIGINAL 「ほほぉ、預かってる子ねぇ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00209
 「ほほぉ、預かってる子ねぇ」
 
-#SCRIPT ORIGINAL しばらくして、オレはようやく落ち着いた誠司に事情を説明できた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 しばらくして、オレはようやく落ち着いた誠司に事情を説明できた。
 
 @suzumi_niko		#にこ
 
-#SCRIPT ORIGINAL 「樹さんと美雨さんの子供じゃなかったんだ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00319
@@ -615,19 +549,16 @@ wait		1000
 
 @seiji_niko		#にこ
 
-#SCRIPT ORIGINAL 「ふっ。命拾いしたな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00210
 「ふっ。命拾いしたな」
 
-#SCRIPT ORIGINAL 「捨ててたまるか。こんなことで」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「捨ててたまるか。こんなことで」
 
-#SCRIPT ORIGINAL 「でも、いきなりだったからビックリしました」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00338
@@ -635,7 +566,6 @@ wait		1000
 
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL ひかりは今、美雨がキッチンの方へ連れて行って、席を外している。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりは今、美雨がキッチンの方へ連れて行って、席を外している。
@@ -644,7 +574,6 @@ wait		1000
 @karin_shifuku
 @karin_bubetsu		#侮蔑
 
-#SCRIPT ORIGINAL 「樹の日ごろの行いが悪いから誤解されるのよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02268
@@ -652,13 +581,11 @@ wait		1000
 
 @karin			#普通
 
-#SCRIPT ORIGINAL 「まぁ誤解じゃなくなるのも、時間の問題なのかもしれないけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02269
 「まぁ誤解じゃなくなるのも、時間の問題なのかもしれないけど」
 
-#SCRIPT ORIGINAL 「……不安になるようなことを言わないでくれ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -677,13 +604,11 @@ wait		500
 #@rua			#普
 @seiji_niko		#にこ
 
-#SCRIPT ORIGINAL 「ふふふ……まぁこれで遠慮なく美雨さんにアタックできるわけや」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00211
 「ふふふ……まぁこれで遠慮なく美雨さんにアタックできるわけや」
 
-#SCRIPT ORIGINAL 「美雨さんの畑で、オレの子種を育ててもらうんや！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00212
@@ -702,7 +627,6 @@ wait		500
 #@suzumi_ikari		#怒
 #@rua_ikari		#怒
 
-#SCRIPT ORIGINAL 「そんなことにやる気を出さないでよッ、バカ！／くださいッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ　＆　Ｒｕａ,Z90006
@@ -719,13 +643,11 @@ wait			100
 @bg_black
 screen_blackin		1
 
-#SCRIPT ORIGINAL 「ぐふぁッ！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00213
 「ぐふぁッ！！」
 
-#SCRIPT ORIGINAL 「……なかなかいいパンチだ、るあちゃんも」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -736,7 +658,6 @@ screen_blackin		1
 @ichigo_yorokobi	#喜
 @bg_living		# リビング
 
-#SCRIPT ORIGINAL 「お話が終わったんだったら、ひーちゃんと美雨も呼んで遊ぼ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02177
@@ -748,19 +669,16 @@ wait		500
 @suzumi_shifuku
 @suzumi_niko		#にこ
 
-#SCRIPT ORIGINAL 「そだねっ。ゴミ捨ててくるから、ちょっと待ってて」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00321
 「そだねっ。ゴミ捨ててくるから、ちょっと待ってて」
 
-#SCRIPT ORIGINAL 「ゴミなんだ、誠司先生……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01828
 「ゴミなんだ、誠司先生……」
 
-#SCRIPT ORIGINAL （……って言うのは建て前で。本当は人の家で、こっそり誠司とエッチしてみたいかな）
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00213a
@@ -775,7 +693,6 @@ layer_movepass_type	l_suzumi,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_suzumi,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「勝手にでたらめなナレーション入れないでッ！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｚｕｍｉ,L00322
@@ -784,7 +701,6 @@ layer_movepass_play	l_suzumi,0,play_once
 @bg_black
 @SE36			#SE36　勢いよく抱きつく音（バフッ！）
 
-#SCRIPT ORIGINAL 「は、離せ～～後生や……美雨さ～～ん……！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｅｉｊｉ,D00214
@@ -793,7 +709,6 @@ layer_movepass_play	l_suzumi,0,play_once
 #window_close
 #@SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT ORIGINAL ズリズリと引きずられていった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ズリズリと引きずられていった。
@@ -803,13 +718,11 @@ layer_movepass_play	l_suzumi,0,play_once
 @karin_kanashimi	#哀
 @bg_living		# リビング
 
-#SCRIPT ORIGINAL 「ウチの樹もあれくらいユーモアがあったら、実害も無さそうなのに」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02270
 「ウチの樹もあれくらいユーモアがあったら、実害も無さそうなのに」
 
-#SCRIPT ORIGINAL 「似たようなもんだろ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -821,7 +734,6 @@ wait		500
 @rua_shifuku
 @rua			#普
 
-#SCRIPT ORIGINAL 「害じゃないけど、誠司先生もする時はしてるよ……その、いろいろ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｒｕａ,M00340
@@ -837,13 +749,11 @@ wait		500
 @mikan			#普通
 @ichigo_yorokobi	#喜
 
-#SCRIPT ORIGINAL 「二人はお尻にしてるんだよね。誠司先生が」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02178
 「二人はお尻にしてるんだよね。誠司先生が」
 
-#SCRIPT ORIGINAL 「……お尻」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01829
@@ -855,19 +765,16 @@ wait		500
 @karin_shifuku
 @karin_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「っく……。何で私の周りには変態しかいないのッ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02271
 「っく……。何で私の周りには変態しかいないのッ……」
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
-#SCRIPT ORIGINAL 本気で悔しそうだったが、ちょっと反論し切れなかった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 本気で悔しそうだったが、ちょっと反論し切れなかった。

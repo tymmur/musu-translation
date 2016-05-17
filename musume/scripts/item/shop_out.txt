@@ -48,7 +48,6 @@ goto	shop_out_message_exit
 label	shop_out_message_1
 if shop_buy_count>2 then goto shop_out_message_3
 
-#SCRIPT ORIGINAL 「ありがとうございました……」
 ＠Ｓｕｂｕｔａ,H00258
 「Ｔｈａｎｋ　ｙｏｕ．．．」
 
@@ -59,7 +58,6 @@ goto	shop_out_message_exit
 label	shop_out_message_2
 if shop_buy_count>2 then goto shop_out_message_3
 
-#SCRIPT ORIGINAL 「ありがとうございました。またのご利用をお待ちしております……」
 ＠Ｓｕｂｕｔａ,H00259
 「Ｔｈａｎｋ　ｙｏｕ．　Ｉ　ｌｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ　ｄｏｉｎｇ<br>
 ｂｕｓｉｎｅｓｓ　ｗｉｔｈ　ｙｏｕ　ａｇａｉｎ．．．」
@@ -70,7 +68,6 @@ goto	shop_out_message_exit
 #（今回の来店でアイテムを売買した場合３・これまで２回以上アイテムを買っている場合のみ）
 label	shop_out_message_3
 
-#SCRIPT ORIGINAL 「いつもありがとうございます……」
 ＠Ｓｕｂｕｔａ,H00260
 「Ｔｈａｎｋｓ　ａｓ　ａｌｗａｙｓ．．．」
 
@@ -80,7 +77,6 @@ goto	shop_out_message_exit
 #（今回の来店で売買をしなかった場合）########################################
 label	shop_out_message_4
 
-#SCRIPT ORIGINAL 「ありがとうございました。またのご来店をお待ちしております……」
 ＠Ｓｕｂｕｔａ,H00261
 「Ｔｈａｎｋ　ｙｏｕ．　Ｉ　ｌｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ　ｓｅｅｉｎｇ<br>
 ｙｏｕ　ａｇａｉｎ．．．」
@@ -91,7 +87,6 @@ goto	shop_out_message_exit
 #（今回、前回の来店で売買をしなかった場合）##################################
 label	shop_out_message_5
 
-#SCRIPT ORIGINAL 「ありがとう……ございました……」
 ＠Ｓｕｂｕｔａ,H00262
 「Ｔｈａｎｋｓ．．．」
 
@@ -101,7 +96,6 @@ goto	shop_out_message_exit
 #（３回連続売買をしなかった場合）############################################
 label	shop_out_message_6
 
-#SCRIPT ORIGINAL 「またのご来店をお待ちしております……」
 ＠Ｓｕｂｕｔａ,H00263
 「Ｉ　ｈｏｐｅ　ｔｏ　ｓｅｅ　ｙｏｕ　ｈｅｒｅ　ａｇａｉｎ<br>
 ｓｏｏｎ．．．」
@@ -112,7 +106,6 @@ goto	shop_out_message_exit
 #（４回連続売買をしなかった場合）############################################
 label	shop_out_message_7
 
-#SCRIPT ORIGINAL 「たまには……何か買ってください……」
 ＠Ｓｕｂｕｔａ,H00264
 「Ｐｌｅａｓｅ．．．　ｂｕｙ　ｓｏｍｅｔｈｉｎｇ<br>
 ｓｏｍｅｔｉｍｅｓ．．．」
@@ -123,7 +116,6 @@ goto	shop_out_message_exit
 #（５回連続売買をしなかった場合）#############################################
 label	shop_out_message_8
 
-#SCRIPT ORIGINAL 「はぁ……」
 ＠Ｓｕｂｕｔａ,H00265
 「Ｈａａ．．．」
 
@@ -133,7 +125,6 @@ goto	shop_out_message_exit
 #（６回連続売買をしなかった場合）#############################################
 label	shop_out_message_9
 
-#SCRIPT ORIGINAL 「また冷やかしですか……」
 ＠Ｓｕｂｕｔａ,H00266
 「Ｊｕｓｔ　ｗｉｎｄｏｗ－ｓｈｏｐｐｉｎｇ　ａｇａｉｎ．．．」
 
@@ -143,7 +134,6 @@ goto	shop_out_message_exit
 #（７回以上連続売買をしなかった場合）########################################
 label	shop_out_message_10
 
-#SCRIPT ORIGINAL 「…………」
 ＠Ｓｕｂｕｔａ,H00267
 「．．．．．．」
 

@@ -11,7 +11,6 @@ bgm_stop
 @bgm01			#BGM 01 : さすらいのテーマ
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 今日はいちごを連れて、みかんを探しに出てきていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 今日はいちごを連れて、みかんを探しに出てきていた。
@@ -20,13 +19,11 @@ bgm_stop
 @ichigo_shifuku
 @ichigo			#普通
 
-#SCRIPT ORIGINAL 「パパ、探すってどこを探すの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01382
 「パパ、探すってどこを探すの？」
 
-#SCRIPT ORIGINAL 「当てはないんだよな。この町にいるって事くらいしか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -34,20 +31,16 @@ bgm_stop
 
 @ichigo_akire		#呆れ
 
-#SCRIPT ORIGINAL 「でもそれじゃ、範囲が広すぎるかくれんぼだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01383
 「でもそれじゃ、範囲が広すぎるかくれんぼだよ」
 
-#SCRIPT ORIGINAL 「だよな……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「だよな……」
 
-#SCRIPT ORIGINAL 都会から外れているとは言え、町は町だ。
-#SCRIPT ORIGINAL 女の子一人を当て所なく探すには広すぎる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 都会から外れているとは言え、町は町だ。
@@ -55,19 +48,16 @@ bgm_stop
 
 @ichigo_takurami	#企み
 
-#SCRIPT ORIGINAL 「ふふ～ん♪　でもいちご、いい考え思いついちゃった」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01384
 「ふふ～ん♪　でもいちご、いい考え思いついちゃった」
 
-#SCRIPT ORIGINAL 「みかんがお気に入りだった食べ物屋を回っていけば、きっと会えるよ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01385
 「みかんがお気に入りだった食べ物屋を回っていけば、きっと会えるよ！」
 
-#SCRIPT ORIGINAL 「それは………まぁ、可能性は無くは無いが」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -75,23 +65,19 @@ bgm_stop
 
 @ichigo_warai		#笑
 
-#SCRIPT ORIGINAL 「だったらそうしようよぉ、パパ。適当に歩くそっちの方がいいよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01386
 「だったらそうしようよぉ、パパ。適当に歩くそっちの方がいいよ」
 
-#SCRIPT ORIGINAL オレ達に連絡もせず、まさか呑気に買い食いをしているとは思えないが。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 オレ達に連絡もせず、まさか呑気に買い食いをしているとは思えないが。
 
-#SCRIPT ORIGINAL だがまぁ他に当てもないし、ヤル気になってるその線で行くか。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 だがまぁ他に当てもないし、ヤル気になってるその線で行くか。
 
-#SCRIPT ORIGINAL 「それじゃ、店の場所を教えてくれるか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -106,7 +92,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん！　まずはあそこのクレープ屋！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01387
@@ -114,19 +99,16 @@ layer_movepass_play	l_ichigo,0,play_once
 
 layer_movepass_init	l_ichigo,0	#演出初期化
 
-#SCRIPT ORIGINAL 「おう、って……あれ、トレーラー車じゃないか。見て居ないのは明らかだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「おう、って……あれ、トレーラー車じゃないか。見て居ないのは明らかだ」
 
-#SCRIPT ORIGINAL 「そんなこと無いよ。お店の人が知ってるかも。とりあえずクレープ買ってみようよ♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01388
 「そんなこと無いよ。お店の人が知ってるかも。とりあえずクレープ買ってみようよ♪」
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -137,7 +119,6 @@ bgm_stop
 @bg_black		# 黒
 wait		1000
 
-#SCRIPT ORIGINAL そして数十分後。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そして数十分後。
@@ -148,18 +129,15 @@ wait		1000
 @ichigo_komikaru_warai	#コミカル笑
 @bg_syoutengai		# 商店街
 
-#SCRIPT ORIGINAL 「はふぅー。美味しかったー♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01389
 「はふぅー。美味しかったー♪」
 
-#SCRIPT ORIGINAL 短期間で十件近くを回り終え、いちごは満足げだった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 短期間で十件近くを回り終え、いちごは満足げだった。
 
-#SCRIPT ORIGINAL 「っく……結局行った店全部でデザートを買うはめにッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -167,13 +145,11 @@ wait		1000
 
 @ichigo_warai		#笑
 
-#SCRIPT ORIGINAL 「ごちそうさま、パパ！　またデザートめぐりしようね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01390
 「ごちそうさま、パパ！　またデザートめぐりしようね」
 
-#SCRIPT ORIGINAL 「せん！　っていうか最初からしてないッ、みかんの捜索だ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -181,7 +157,6 @@ wait		1000
 
 @ichigo_komikaru_odoroki	#コミカル驚
 
-#SCRIPT ORIGINAL 「え……？　うわっ、忘れてた！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O01391
@@ -189,7 +164,6 @@ wait		1000
 
 bgm_stop
 
-#SCRIPT ORIGINAL ……全然ダメだった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……全然ダメだった。

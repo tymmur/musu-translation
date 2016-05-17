@@ -13,18 +13,15 @@ bgm_stop
 @bgm06			#BGM 06 : 不安のテーマ
 @bg_choukyou		# 調教部屋
 
-#SCRIPT ORIGINAL 部屋に来てから、もう数分が過ぎた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 部屋に来てから、もう数分が過ぎた。
 
-#SCRIPT ORIGINAL 「いちご、今日も来ないか……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちご、今日も来ないか……」
 
-#SCRIPT ORIGINAL 来れない、という方が正しいだろう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 来れない、という方が正しいだろう。
@@ -43,7 +40,6 @@ if sel=1 then goto iti8_01_b
 #--------------------------------------------------
 label	iti8_01_a
 
-#SCRIPT ORIGINAL せめて側に居てやろう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 せめて側に居てやろう。
@@ -54,7 +50,6 @@ wait		1000
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT ORIGINAL オレは二人がいる調教部屋を覗く事にした。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 オレは二人がいる調教部屋を覗く事にした。
@@ -72,7 +67,6 @@ wait		2000
 #■BG（廊下）
 #@bg_rouka_n		# 廊下(夜)
 
-#SCRIPT ORIGINAL いちごが不憫で、まともに見ることが出来なかった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 いちごが不憫で、まともに見ることが出来なかった。
@@ -82,13 +76,11 @@ window_close
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT ORIGINAL 「……戻ろう」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……戻ろう」
 
-#SCRIPT ORIGINAL 結局今日も何も出来ないまま、オレは退散した。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 結局今日も何も出来ないまま、オレは退散した。
@@ -103,12 +95,10 @@ goto	iti8_01_z
 #--------------------------------------------------
 label	iti8_01_b
 
-#SCRIPT ORIGINAL 今のオレではどうしようもない。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 今のオレではどうしようもない。
 
-#SCRIPT ORIGINAL 悔しいが部屋に戻る以外に選択は無かった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 悔しいが部屋に戻る以外に選択は無かった。
@@ -132,7 +122,6 @@ wait		1000
 #@ichigo_kanashimi	#哀
 @bg_ichigo_nn		# いちごの部屋(消灯)
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00995
@@ -140,46 +129,38 @@ wait		1000
 
 @bgmk06			#BGM K06 : 哀しいな時のテーマ
 
-#SCRIPT ORIGINAL 調教が終わり、いちごは部屋に帰ってきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 調教が終わり、いちごは部屋に帰ってきた。
 
-#SCRIPT ORIGINAL 日々少しずつ思考が鈍っていくのが分かった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 日々少しずつ思考が鈍っていくのが分かった。
 
-#SCRIPT ORIGINAL 受動的なまま現状に流され、いちご自身が何をするべきなのか分からなくなっていく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 受動的なまま現状に流され、いちご自身が何をするべきなのか分からなくなっていく。
 
 #CH（立ち絵なし）
 
-#SCRIPT ORIGINAL 「……院長せんせ……ケホッ、ゴホ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00996
 「……院長せんせ……ケホッ、ゴホ」
 
-#SCRIPT ORIGINAL 色んなことが辛い。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 色んなことが辛い。
 
-#SCRIPT ORIGINAL パパを信じたいけど、院長せんせの所にも行きたい。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 パパを信じたいけど、院長せんせの所にも行きたい。
 
-#SCRIPT ORIGINAL 「辛いよ……疲れたよ……院長せんせ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00997
 「辛いよ……疲れたよ……院長せんせ……」
 
-#SCRIPT ORIGINAL 何もする気力が起きないまま、ベッドで睡魔に意識を犯されていった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 何もする気力が起きないまま、ベッドで睡魔に意識を犯されていった。
@@ -189,7 +170,6 @@ bgm_stop
 @bg_black		# 黒
 wait		1000
 
-#SCRIPT ORIGINAL ……自分の中で、何かが弱々しく消えかかっているのを感じながら。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……自分の中で、何かが弱々しく消えかかっているのを感じながら。

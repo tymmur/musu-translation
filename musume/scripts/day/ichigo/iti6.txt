@@ -12,7 +12,6 @@ bgm_stop
 #■BG（調教部屋）※直前の選択肢で選んだ部屋
 @bg_choukyou		# 調教部屋
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -20,17 +19,14 @@ bgm_stop
 
 @bgm06			#BGM 06 : 不安のテーマ
 
-#SCRIPT ORIGINAL いちごを調教に呼んで、不安に駆られながら部屋で待っていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 いちごを調教に呼んで、不安に駆られながら部屋で待っていた。
 
-#SCRIPT ORIGINAL こういうときの時間は経過が遅い。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 こういうときの時間は経過が遅い。
 
-#SCRIPT ORIGINAL 体感で１０分くらい経った頃だろうか、
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 体感で１０分くらい経った頃だろうか、
@@ -38,24 +34,20 @@ bgm_stop
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT ORIGINAL 「いちごか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いちごか？」
 
-#SCRIPT ORIGINAL 「オレだ。残念だったなぁ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｏｕｋｏｕ,E00082
 「オレだ。残念だったなぁ」
 
-#SCRIPT ORIGINAL ノックの主は宝交だった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ノックの主は宝交だった。
 
-#SCRIPT ORIGINAL 「今日もいちごはオレに任せてもらうぜ。じゃあな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｏｕｋｏｕ,E00083
@@ -63,17 +55,14 @@ bgm_stop
 
 @SE18			#廊下を歩き去る音
 
-#SCRIPT ORIGINAL こっちの返事すら聞かず、ドア越しにそう言って、足音が遠ざかっていく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 こっちの返事すら聞かず、ドア越しにそう言って、足音が遠ざかっていく。
 
-#SCRIPT ORIGINAL もう完全にオレをやりこめたと自信を持っているのだろう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 もう完全にオレをやりこめたと自信を持っているのだろう。
 
-#SCRIPT ORIGINAL 「くそッ……どうする」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -93,12 +82,10 @@ if sel=1 then goto iti6_01_b
 #--------------------------------------------------
 label	iti6_01_a
 
-#SCRIPT ORIGINAL ジッとしてなんか居られない。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ジッとしてなんか居られない。
 
-#SCRIPT ORIGINAL 少しでも様子がおかしければすぐ飛び込めるように、様子は探っておかないと。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 少しでも様子がおかしければすぐ飛び込めるように、様子は探っておかないと。
@@ -108,18 +95,15 @@ wait		1000
 #■BG（廊下）
 @bg_rouka_n		# 廊下(夜)
 
-#SCRIPT ORIGINAL おそらく別の調教部屋にこもっているだろう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 おそらく別の調教部屋にこもっているだろう。
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
-#SCRIPT ORIGINAL そう広くない区画で目的の部屋を見つけたオレは、こっそり鍵を外して中を窺った。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そう広くない区画で目的の部屋を見つけたオレは、こっそり鍵を外して中を窺った。
@@ -137,7 +121,6 @@ wait		2000
 #■BG（廊下）
 #@bg_rouka_n		# 廊下(夜)
 
-#SCRIPT ORIGINAL （いちご……こんなことをされてまで………）
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -147,12 +130,10 @@ wait		2000
 #@bg_rouka_n		# 廊下(夜)
 @bg_door_n		# ドア前(夜)
 
-#SCRIPT ORIGINAL 見ていられず、ドアを閉めた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 見ていられず、ドアを閉めた。
 
-#SCRIPT ORIGINAL （このままじゃダメだ。何か手を打たないと）
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -166,12 +147,10 @@ goto	iti6_01_z
 #--------------------------------------------------
 label	iti6_01_b
 
-#SCRIPT ORIGINAL ジタバタしたところでどうしようもない。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ジタバタしたところでどうしようもない。
 
-#SCRIPT ORIGINAL とりあえず部屋に戻って、今後の対策を考えよう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 とりあえず部屋に戻って、今後の対策を考えよう。
@@ -192,48 +171,40 @@ wait		1000
 #@bg_ichigo		# いちごの部屋
 @bg_ichigo_nn		# いちごの部屋(消灯)
 
-#SCRIPT ORIGINAL 今日も調教の代わりに、パパとの時間が終わった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 今日も調教の代わりに、パパとの時間が終わった。
 
-#SCRIPT ORIGINAL いちごはフラフラと一人で自室へ戻ってきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 いちごはフラフラと一人で自室へ戻ってきた。
 
-#SCRIPT ORIGINAL 「………いたっ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00976
 「………いたっ」
 
 #→（された）痛みが（腕）に走る。
-#SCRIPT ORIGINAL （された）痛みが（腕）に走る。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 （された）痛みが（腕）に走る。
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00977
 「…………」
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠人形,E00084
 「………」
 
-#SCRIPT ORIGINAL 「ん……えがお、えがお」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00978
 「ん……えがお、えがお」
 
 #→我慢してパジャマに着替えると、その人形を手に取って笑顔を作った。
-#SCRIPT ORIGINAL 我慢してパジャマに着替えると、その人形を手に取って笑顔を作った。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 我慢してパジャマに着替えると、その人形を手に取って笑顔を作った。
@@ -244,34 +215,28 @@ event		"event\EV_ICH_110-01.png"
 @bgmk03			#BGM K03 : 静かの時のテーマ
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL パパ……いちご、まだ頑張れるよ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 パパ……いちご、まだ頑張れるよ。
 
-#SCRIPT ORIGINAL ……だからパパも早く、元の優しいパパに戻ってね。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……だからパパも早く、元の優しいパパに戻ってね。
 
-#SCRIPT ORIGINAL 「元気だしなよ、いちごちゃん。えがお、えがお」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠人形,E00085
 「元気だしなよ、いちごちゃん。えがお、えがお」
 
-#SCRIPT ORIGINAL 「パパ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O00979
 「パパ……」
 
-#SCRIPT ORIGINAL 大事にしていたお人形なのに、ここ数日でいくつも染みがついていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 大事にしていたお人形なのに、ここ数日でいくつも染みがついていた。
 
-#SCRIPT ORIGINAL 笑顔のお人形なのに、どんどん涙で汚れていく……
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 笑顔のお人形なのに、どんどん涙で汚れていく……

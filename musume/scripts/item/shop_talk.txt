@@ -36,91 +36,75 @@ shop_talk_kamikoki=0
 
 #（前回巣蓋さんに髪コキしてもらった場合）
 
-#SCRIPT ORIGINAL 「ところで、馬場さん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ところで、馬場さん」
 
-#SCRIPT ORIGINAL と、オレは女王様に聞いた巣蓋さんの名前を呼んでみる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 と、オレは女王様に聞いた巣蓋さんの名前を呼んでみる。
 
-#SCRIPT ORIGINAL 「っ……！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00283
 「っ……！」
 
-#SCRIPT ORIGINAL 蓋さんはびくんと身をすくめた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 蓋さんはびくんと身をすくめた。
 
-#SCRIPT ORIGINAL 「な、なぜわたしの名前を……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00284
 「な、なぜわたしの名前を……」
 
-#SCRIPT ORIGINAL 「ははは。オレにもいろいろなネットワークがあってね……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ははは。オレにもいろいろなネットワークがあってね……」
 
-#SCRIPT ORIGINAL 「女王様ですね……。ホントに意地悪なんですから……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00285
 「女王様ですね……。ホントに意地悪なんですから……」
 
-#SCRIPT ORIGINAL 巣蓋さんはため息をつくが、やっぱりちょっと嬉しそうだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 巣蓋さんはため息をつくが、やっぱりちょっと嬉しそうだ。
 
-#SCRIPT ORIGINAL 「可愛い名前じゃんか。バナナみたいで」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「可愛い名前じゃんか。バナナみたいで」
 
-#SCRIPT ORIGINAL 「だ、だからイヤなんです」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00286
 「だ、だからイヤなんです」
 
-#SCRIPT ORIGINAL 「バナナちゃ～ん♪　ババナナ～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「バナナちゃ～ん♪　ババナナ～♪」
 
-#SCRIPT ORIGINAL 「うぅ、屈辱なのですぅ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00287
 「うぅ、屈辱なのですぅ……」
 
-#SCRIPT ORIGINAL オレがからかうと、巣蓋さんは涙目になってしまった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 オレがからかうと、巣蓋さんは涙目になってしまった。
 
-#SCRIPT ORIGINAL でもやっぱり、どことなく嬉しそうなんだよな……。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 でもやっぱり、どことなく嬉しそうなんだよな……。
 
-#SCRIPT ORIGINAL もしかして、こうして虐めてもらうために自分の名前がイヤなフリをしているんだろうか……？
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 もしかして、こうして虐めてもらうために自分の名前がイヤなフリをしているんだろうか……？
 
-#SCRIPT ORIGINAL いやいや、さすがにそれは考え過ぎかもしれん……。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 いやいや、さすがにそれは考え過ぎかもしれん……。
@@ -134,65 +118,50 @@ return
 #（１回目）##################################################################
 label	shop_talk_1
 
-#SCRIPT ORIGINAL せっかくだし、ちょっとこの店員さんと話をしてみるか。
 Ｉｔ´ｓ　ａ　ｒａｒｅ　ｃｈａｎｃｅ，　ｓｏ　Ｉ　ｏｕｇｈｔ　ｔｏ　ｔｒｙ<br>
 ｍａｋｉｎｇ　ｓｏｍｅ　ｃｏｎｖｅｒｓａｔｉｏｎ　ｗｉｔｈ　ｈｅｒ．
 
-#SCRIPT ORIGINAL なんでこんな格好してるのかとか、やっぱりちょっと気になるし。
 Ｉ´ｍ　ｐｒｅｔｔｙ　ｃｕｒｉｏｕｓ　ａｂｏｕｔ　ｗｈｙ　ｓｈｅ´ｓ<br>
 ｄｒｅｓｓｅｄ　ｕｐ　ｌｉｋｅ　ｔｈｉｓ　ａｎｄ　ｓｔｕｆｆ．
 
-#SCRIPT ORIGINAL 「えーと……」
 ＠Ｉｔｓｕｋｉ
 「Ｕｍｍ．．．」
 
-#SCRIPT ORIGINAL 話しかけようとして、オレは彼女の名前を知らないことに気づく。
 Ａｓ　Ｉ´ｍ　ａｂｏｕｔ　ｔｏ　ｔｒｙ　ｔａｌｋｉｎｇ　ｔｏ　ｈｅｒ，　Ｉ<br>
 ｒｅｍｅｍｂｅｒｅｄ　Ｉ　ｄｏｎ´ｔ　ｋｎｏｗ　ｈｅｒ　ｎａｍｅ．
 
-#SCRIPT ORIGINAL 「名前はなんていうのかな、キミ？」
 ＠Ｉｔｓｕｋｉ
 「Ｉ　ｄｉｄｎ´ｔ　ｃａｔｃｈ　ｙｏｕｒ　ｎａｍｅ」
 
-#SCRIPT ORIGINAL 「えっ……！」
 ＠Ｃｌｅｒｋ,H00288
 「Ｅｈ．．．！」
 
-#SCRIPT ORIGINAL 名前を尋ねると、彼女はびくんと身を震わせた。
 Ｓｈｅ　ｇｉｖｅｓ　ａ　ｓｔａｒｔ　ｗｈｅｎ　Ｉ　ａｓｋ　ｆｏｒ　ｈｅｒ<br>
 ｎａｍｅ．
 
-#SCRIPT ORIGINAL 「な、名前ですか……？」
 ＠Ｃｌｅｒｋ,H00289
 「Ｍ－ｍｙ　ｎａｍｅ．．．？」
 
-#SCRIPT ORIGINAL 「うん。教えてくれるか？」
 ＠Ｉｔｓｕｋｉ
 「Ｙｅａｈ．　Ｗｏｕｌｄ　ｙｏｕ　ｍｉｎｄ　ｔｅｌｌｉｎｇ　ｍｅ？」
 
-#SCRIPT ORIGINAL 「…………」
 ＠Ｃｌｅｒｋ,H00290
 「．．．．．．」
 
-#SCRIPT ORIGINAL 「名前なんてありません。わたし……ただのメスブタですから」
 ＠Ｃｌｅｒｋ,H00291
 「Ｉ　ｄｏｎ´ｔ　ｈａｖｅ　ａ　ｎａｍｅ．　Ｉ´ｍ．．．　ｊｕｓｔ　ａ<br>
 ｌｏｗｌｙ　ｂｉｔｃｈ」
 
-#SCRIPT ORIGINAL 店員さんはそう言ってうつむいてしまった。
 Ｓｏ　ｓａｙｉｎｇ，　ｔｈｅ　ｓｈｏｐ　ｃｌｅｒｋ　ｃａｓｔｓ　ｈｅｒ<br>
 ｅｙｅｓ　ｄｏｗｎ．
 
-#SCRIPT ORIGINAL 「お客様も、わたしのことはどうぞメスブタとお呼びください……」
 ＠Ｃｌｅｒｋ,H00292
 「Ｍｉｓｔｅｒ　Ｃｕｓｔｏｍｅｒ，　ｐｌｅａｓｅ　ｇｏ　ｒｉｇｈｔ<br>
 ａｈｅａｄ　ａｎｄ　ｃａｌｌ　ｍｅ　“ｂｉｔｃｈ”．．．」
 
-#SCRIPT ORIGINAL 「いや、そういうわけにもいかないって……」
 ＠Ｉｔｓｕｋｉ
 「Ｎｏｐｅ，　Ｉ　ｄｏｎ´ｔ　ｔｈｉｎｋ　ｔｈａｔ´ｌｌ　ｗｏｒｋ．．．」
 
-#SCRIPT ORIGINAL うーん、大丈夫なのか、この店……？
 Ｈｍｍ，　ｈｏｗ　ｓａｆｅ　ｉｓ　ｔｈｉｓ　ｓｈｏｐ．．．？
 
 #（統合へ）
@@ -201,124 +170,97 @@ return
 #（２回目・２月以降）#########################################################
 label	shop_talk_2
 
-#SCRIPT ORIGINAL 何か話をしようかな……。
 Ｍａｙｂｅ　Ｉ　ｃａｎ　ｔｒｙ　ｔａｌｋｉｎｇ　ｔｏ　ｈｅｒ　ａｂｏｕｔ<br>
 ｓｏｍｅｔｈｉｎｇ．．．
 
-#SCRIPT ORIGINAL そう思い、オレは彼女の名前をまだ教えてもらっていないことを思い出す。
 Ｔｈｉｎｋｉｎｇ　ｔｈａｔ，　Ｉ　ｒｅｍｅｍｂｅｒｅｄ　ｓｈｅ　ｓｔｉｌｌ<br>
 ｈａｓｎ´ｔ　ｔｏｌｄ　ｍｅ　ｈｅｒ　ｎａｍｅ．
 
-#SCRIPT ORIGINAL どうやって話しかけよう？
 Ｈｏｗ　ｓｈｏｕｌｄ　Ｉ　ｇｒｅｅｔ　ｈｅｒ？
 
-#SCRIPT ORIGINAL ああ言われたとはいえ、メスブタ呼ばわりもさすがに気が引ける。
 Ｓｈｅ　ｔｏｌｄ　ｍｅ　ｔｏ　ｃａｌｌ　ｈｅｒ　ｔｈａｔ，　ｂｕｔ<br>
 ｏｂｖｉｏｕｓｌｙ　Ｉ　ｆｅｅｌ　ｕｎｃｏｍｆｏｒｔａｂｌｅ　ｃａｌｌｉｎｇ<br>
 ｈｅｒ　“ｂｉｔｃｈ”．
 
-#SCRIPT ORIGINAL さん付けで「メスブタさん」とか……それも微妙か。
 Ｍａｙｂｅ　ｉｆ　Ｉ　ａｔｔａｃｈ　ｔｈｅ　“－ｓａｎ”<br>
 ｈｏｎｏｒｉｆｉｃ，　ｌｉｋｅ　“ｂｉｔｃｈ－ｓａｎ”．．．　ｔｈａｔ<br>
 ｄｏｅｓｎ´ｔ　ｗｏｒｋ　ｅｉｔｈｅｒ．
 
-#SCRIPT ORIGINAL うーん、メスブタか……。
 Ｈｍｍ，　ｂｉｔｃｈ　ｈｕｈ．．．
 
-#SCRIPT ORIGINAL ……今気づいたけど、メスブタって、酢豚に似てるな。
 ．．．Ｎｏｗ　ｔｈａｔ　Ｉ　ｔｈｉｎｋ　ａｂｏｕｔ　ｉｔ，　“ｂｉｔｃｈ”<br>
 （ｍｅｓｕｂｕｔａ＝“ｆｅｍａｌｅ　ｐｉｇ”）　ｓｏｕｎｄｓ<br>
 ｌｉｋｅ　ｓｗｅｅｔ－ａｎｄ－ｓｏｕｒ　ｐｏｒｋ　（ｓｕｂｕｔａ）．
 
-#SCRIPT ORIGINAL まあ、豚はもともと一緒なんだけど、印象はだいぶ違う。
 Ｗｅｌｌ，　ｔｈｅｙ　ｂｏｔｈ　ｈａｖｅ　ｐｉｇ　（ｂｕｔａ）　ａｓ<br>
 ｔｈｅ　ｂａｓｅ，　ｂｕｔ　ｔｈｅ　ｃｏｎｎｏｔａｔｉｏｎ　ｉｓ<br>
 ｖａｓｔｌｙ　ｄｉｆｆｅｒｅｎｔ．
 
-#SCRIPT ORIGINAL 「えーと、店員さん……」
 ＠Ｉｔｓｕｋｉ
 「Ｕｍｍ，　ｅｘｃｕｓｅ　ｍｅ．．．」
 
-#SCRIPT ORIGINAL 「はい、なんでしょうか……？」
 ＠Ｃｌｅｒｋ,H00293
 「Ｙｅｓ，　ｗｈａｔ　ｉｓ　ｉｔ．．．？」
 
-#SCRIPT ORIGINAL 「さすがにメスブタとは呼べないし、スブタさんって呼んでもいい？」
 ＠Ｉｔｓｕｋｉ
 「Ｉ　ｄｏｎ´ｔ　ｔｈｉｎｋ　Ｉ　ｃｏｕｌｄ　ｅｖｅｒ　ｃａｌｌ　ｙｏｕ<br>
 “ｂｉｔｃｈ”，　ｓｏ　ｃａｎ　Ｉ　ｃａｌｌ　ｙｏｕ<br>
 Ｓｕｂｕｔａ－ｓａｎ？」
 
-#SCRIPT ORIGINAL 「ええっ！？」
 ＠Ｃｌｅｒｋ,H00294
 「Ｗｈａｔ！？」
 
-#SCRIPT ORIGINAL 「す、スブタですか……」
 ＠Ｃｌｅｒｋ,H00295
 「Ｓ－Ｓｕｂｕｔａ，　ｙｏｕ　ｓａｉｄ．．．？」
 
-#SCRIPT ORIGINAL 「ダメかな……？」
 ＠Ｉｔｓｕｋｉ
 「Ｃａｎ　Ｉ　ｎｏｔ．．．？」
 
-#SCRIPT ORIGINAL 「うぅ……そんな呼ばれ方では興奮できません……」
 ＠Ｃｌｅｒｋ,H00296
 「Ｕｕｈ．．．　ｔｈａｔ　ｄｏｅｓｎ´ｔ　ｔｕｒｎ　ｍｅ　ｏｎ　ａｔ<br>
 ａｌｌ．．．」
 
-#SCRIPT ORIGINAL いや、ここで興奮されても困るんだが。
 Ｆｏｒ　ｍｅ，　ｔｈｅ　ｉｓｓｕｅ　ｉｓ　ｎｏｔ　ｈｏｗ　ａｒｏｕｓｉｎｇ<br>
 ｉｔ　ｉｓ．
 
-#SCRIPT ORIGINAL 「いいじゃん、名字っぽくて」
 ＠Ｉｔｓｕｋｉ
 「Ｉｔ´ｓ　ｐｒｅｔｔｙ　ｇｏｏｄ．　Ｉｔ´ｓ　ｌｉｋｅ　ａ　ｆａｍｉｌｙ<br>
 ｎａｍｅ」
 
-#SCRIPT ORIGINAL 「漢字で書くと、鳥の巣の〝巣〟に鍋蓋の〝蓋〟とか……」
 ＠Ｉｔｓｕｋｉ
 「Ｗｉｔｈ　ｋａｎｊｉ，　ｉｔ　ｃｏｕｌｄ　ｂｅ　ｗｒｉｔｔｅｎ　ａｓ　ａ<br>
 ｂｉｒｄ´ｓ　ｎｅｓｔ　（ｓｕ）　ａｎｄ　ａ　ｐｏｔ　ｌｉｄ<br>
 （ｂｕｔａ）」
 
-#SCRIPT ORIGINAL 「……よし！」
 ＠Ｉｔｓｕｋｉ
 「．．．Ａｌｌ　ｒｉｇｈｔ！」
 
-#SCRIPT ORIGINAL 「もう決めた。今日から店員さんのことは巣蓋さんって呼ぼう」
 ＠Ｉｔｓｕｋｉ
 「Ｉｔ´ｓ　ｓｅｔｔｌｅｄ．　Ｆｒｏｍ　ｎｏｗ　ｏｎ　Ｉ´ｌｌ　ｃａｌｌ<br>
 ｙｏｕ　Ｓｕｂｕｔａ－ｓａｎ」
 
 replace_clear	"＠巣蓋さん"
 
-#SCRIPT ORIGINAL 「そ、そんなぁ……」
 ＠Ｓｕｂｕｔａ,H00297
 「Ｎ－ｎｏ　ｗａｙ．．．」
 
-#SCRIPT ORIGINAL オレの一方的な宣告に、巣蓋さんは情けない声を上げた。
 Ｓｕｂｕｔａ　ｕｔｔｅｒｓ　ａ　ｗｏｅｆｕｌ　ｃｒｙ　ａｔ　ｍｙ<br>
 ｏｎｅ－ｓｉｄｅｄ　ｖｅｒｄｉｃｔ．
 
-#SCRIPT ORIGINAL 「あ、ちなみにオレは土屋樹。樹って呼んでくれ」
 ＠Ｉｔｓｕｋｉ
 「Ａｈ，　ｂｙ　ｔｈｅ　ｗａｙ　Ｉ´ｍ　Ｉｔｓｕｋｉ　Ｔｓｕｃｈｉｙａ．<br>
 Ｙｏｕ　ｃａｎ　ｃａｌｌ　ｍｅ　Ｉｔｓｕｋｉ」
 
-#SCRIPT ORIGINAL 相手に名前を訊いてこちらが名乗らないのも失礼かと思い、一応名乗っておく。
 Ｔｈｉｎｋｉｎｇ　ｉｔ　ｗｏｕｌｄ　ｂｅ　ｉｍｐｏｌｉｔｅ　ｔｏ<br>
 ｗｉｔｈｈｏｌｄ　ｍｙ　ｎａｍｅ　ａｆｔｅｒ　ａｓｋｉｎｇ　ｆｏｒ<br>
 ｈｅｒｓ，　Ｉ　ｓｈａｒｅ　ｉｔ　ｆｏｒ　ｇｏｏｄ　ｍｅａｓｕｒｅ．
 
-#SCRIPT ORIGINAL まあ、結局名前は教えてもらってないけどな。
 Ｗｅｌｌ，　Ｉ　ｄｉｄｎ´ｔ　ｅｎｄ　ｕｐ　ｇｅｔｔｉｎｇ　ｈｅｒ<br>
 ｎａｍｅ　ａｆｔｅｒ　ａｌｌ　ｔｈｏｕｇｈ．
 
-#SCRIPT ORIGINAL 「はあ……。巣蓋ですか……」
 ＠Ｓｕｂｕｔａ,H00298
 「Ｓｉｇｈ．．．　Ｓｕｂｕｔａ，　ｉｓ　ｉｔ．．．？」
 
-#SCRIPT ORIGINAL 巣蓋さんはまだショックを受けていた。
 Ｓｕｂｕｔａ　ｗａｓ　ｓｔｉｌｌ　ｉｎ　ａ　ｓｔａｔｅ　ｏｆ　ｓｈｏｃｋ．
 
 #（統合へ）
@@ -328,59 +270,47 @@ return
 #（3rd visit・On or after 3rd month）########################################################
 label	shop_talk_3
 
-#SCRIPT ORIGINAL 「えーと、巣蓋さん……？」
 ＠Ｉｔｓｕｋｉ
 「Ｕｍｍ，　Ｓｕｂｕｔａ－ｓａｎ．．．？」
 
-#SCRIPT ORIGINAL 「うぅ、はい……。なんでしょうか？」
 ＠Ｓｕｂｕｔａ,H00299
 「Ｕｕｈ，　ｙｅｓ．．．　ｗｈａｔ　ｗｏｕｌｄ　ｙｏｕ　ｌｉｋｅ？」
 
-#SCRIPT ORIGINAL 「一応確認しておきたいんだけど、巣蓋さんってこういう店にいていい年齢なんだよね……？」
 ＠Ｉｔｓｕｋｉ
 「Ｉ　ｊｕｓｔ　ｗａｎｔ　ｔｏ　ｇｅｔ　ｔｈｉｓ　ｓｔｒａｉｇｈｔ，<br>
 ｙｏｕ´ｒｅ　ｏｌｄ　ｅｎｏｕｇｈ　ｔｏ　ｂｅ　ｗｏｒｋｉｎｇ　ｈｅｒｅ，<br>
 ｒｉｇｈｔ？」
 
-#SCRIPT ORIGINAL 「うぅ……。れ、れでぃに年齢を訊くのは失礼なのです……」
 ＠Ｓｕｂｕｔａ,H00300
 「Ｕｕｈ．．．　ｉ－ｉｔ´ｓ　ｒｕｄｅ　ｔｏ　ａｓｋ　ａ　ｌａｄｙ<br>
 ｈｅｒ　ａｇｅ．．．」
 
-#SCRIPT ORIGINAL オレの質問に、巣蓋さんはうつむいてしまう。
 Ｓｕｂｕｔａ　ｃａｓｔｓ　ｈｅｒ　ｅｙｅｓ　ｄｏｗｎ　ｕｐｏｎ<br>
 ｈｅａｒｉｎｇ　ｍｙ　ｑｕｅｓｔｉｏｎ．
 
-#SCRIPT ORIGINAL 「でもその……不法労働じゃないよな？」
 ＠Ｉｔｓｕｋｉ
 「Ｂｕｔ，　Ｉ　ｍｅａｎ．．．　ｙｏｕ´ｒｅ　ｎｏｔ　ｂｅｉｎｇ<br>
 ｍａｄｅ　ｔｏ　ｗｏｒｋ　ｈｅｒｅ　ｉｌｌｅｇａｌｌｙ，　ａｒｅ<br>
 ｙｏｕ？」
 
-#SCRIPT ORIGINAL まあ、施設の娘たちに不法労働をさせているオレが訊くようなことじゃないんだが……。
 Ｉｔ´ｓ　ｈａｒｄｌｙ　ｍｙ　ｐｌａｃｅ　ｔｏ　ｂｅ　ａｓｋｉｎｇ<br>
 ｔｈｉｓ，　ｃｏｎｓｉｄｅｒｉｎｇ　Ｉ　ｈａｖｅ　ｇｉｒｌｓ　ｗｏｒｋｉｎｇ<br>
 ｉｌｌｅｇａｌｌｙ　ｍｙｓｅｌｆ．．．
 
-#SCRIPT ORIGINAL 「一応、大学は出てますから……」
 ＠Ｓｕｂｕｔａ,H00301
 「Ｉ　ｃａｎ　ｔｅｌｌ　ｙｏｕ　ｔｈａｔ　Ｉ´ｖｅ　ｇｒａｄｕａｔｅｄ<br>
 ｕｎｉｖｅｒｓｉｔｙ．．．」
 
-#SCRIPT ORIGINAL うつむいたまま、巣蓋さんはつぶやいた。
 Ｓｕｂｕｔａ　ｍｕｔｔｅｒｅｄ　ｆｉｘｉｎｇ　ｈｅｒ　ｅｙｅｓ<br>
 ｄｏｗｎｗａｒｄ．
 
-#SCRIPT ORIGINAL 「何だ、そうなんだ……」
 ＠Ｉｔｓｕｋｉ
 「Ｏｈ　ｒｅａｌｌｙ，　ｉｓ　ｔｈａｔ　ｈｏｗ　ｉｔ　ｉｓ．．．」
 
-#SCRIPT ORIGINAL 「って、オレより年上！？」
 ＠Ｉｔｓｕｋｉ
 「Ｗａｉｔ，　ｔｈａｔ　ｍｅａｎｓ　ｙｏｕ´ｒｅ　ｏｌｄｅｒ　ｔｈａｎ<br>
 ｍｅ！？」
 
-#SCRIPT ORIGINAL 「うぅ……。だから言いたくなかったんです……」
 ＠Ｓｕｂｕｔａ,H00302
 「Ｕｕｈ．．．　ｔｈａｔ´ｓ　ｗｈｙ　Ｉ　ｄｉｄｎ´ｔ　ｗａｎｔ　ｔｏ<br>
 ｔｅｌｌ　ｙｏｕ．．．」
@@ -391,58 +321,45 @@ return
 #（４回目・４月以降）########################################################
 label	shop_talk_4
 
-#SCRIPT ORIGINAL 「そういえば、巣蓋さんってカレシとかいるの？」
 ＠Ｉｔｓｕｋｉ
 「Ｏｈ　Ｓｕｂｕｔａ－ｓａｎ，　ｄｏ　ｙｏｕ　ｈａｖｅ　ａ<br>
 ｂｏｙｆｒｉｅｎｄ？」
 
-#SCRIPT ORIGINAL かなり子供っぽく見えるが、実はオレより年上なんだよな……？
 Ｓｈｅ　ｌｏｏｋｓ　ｊｕｓｔ　ｌｉｋｅ　ａ　ｃｈｉｌｄ，　ｂｕｔ　ｓｈｅ´ｓ<br>
 ｏｌｄｅｒ　ｔｈａｎ　ｍｅ　ａｆｔｅｒ　ａｌｌ．．．
 
-#SCRIPT ORIGINAL だとしたら、カレシとかいてもおかしくないかな？
 Ｓｏ　ｉｔ　ｗｏｕｌｄｎ´ｔ　ｂｅ　ｗｅｉｒｄ　ｉｆ　ｓｈｅ　ｈａｄ<br>
 ｏｎｅ．
 
-#SCRIPT ORIGINAL こんな格好で仕事してるなんて、カレシ公認なんだろうか？
 Ｍａｙｂｅ　ｈｅ´ｓ　ｈａｖｉｎｇ　ｈｅｒ　ｗｏｒｋ　ｌｏｏｋｉｎｇ<br>
 ｌｉｋｅ　ｔｈｉｓ？
 
-#SCRIPT ORIGINAL 「え……？　か、カレシなんていないですよ……」
 ＠Ｓｕｂｕｔａ,H00303
 「Ｅｈ．．．？　Ｉ－Ｉ　ｄｏｎ´ｔ　ｈａｖｅ　ａ　ｂｏｙｆｒｉｅｎｄ<br>
 ｏｒ　ａｎｙｔｈｉｎｇ」
 
-#SCRIPT ORIGINAL オレの質問に、巣蓋さんはうつむいてしまう。
 Ｓｕｂｕｔａ　ｅｙｅｓ　ｔｈｅ　ｆｌｏｏｒ　ｒｅｐｌｙｉｎｇ　ｔｏ　ｍｙ<br>
 ｑｕｅｓｔｉｏｎ．
 
-#SCRIPT ORIGINAL そうか……。それじゃ、何でこんな仕事をしてるんだろう……？
 Ｉｓ　ｔｈａｔ　ｓｏ．．．？　Ｔｈｅｎ，　ｗｈｙ　ｄｏｅｓ　ｓｈｅ<br>
 ｈａｖｅ　ａ　ｊｏｂ　ｌｉｋｅ　ｔｈｉｓ．．．？
 
-#SCRIPT ORIGINAL 「……彼女ならいますけど」
 ＠Ｓｕｂｕｔａ,H00304
 「．．．Ｂｕｔ　Ｉ　ｄｏ　ｈａｖｅ　ａ　ｇｉｒｌｆｒｉｅｎｄ」
 
-#SCRIPT ORIGINAL うつむいたまま、巣蓋さんはつぶやいた。
 Ｓｕｂｕｔａ　ｍｕｔｔｅｒｓ　ｅｙｅｓ　ｆｉｘｅｄ　ｄｏｗｎｗａｒｄ．
 
-#SCRIPT ORIGINAL 「え……？」
 ＠Ｉｔｓｕｋｉ
 「Ｈｕｈ．．．？」
 
-#SCRIPT ORIGINAL 「彼女というか……ご主人様というか……女王様ですけど……」
 ＠Ｓｕｂｕｔａ,H00305
 「Ｗｅｌｌ　Ｉ　ｗｏｕｌｄｎ´ｔ　ｓａｙ　ｇｉｒｌｆｒｉｅｎｄ．．．<br>
 ｓｈｅ´ｓ　ｍｙ　ｍａｓｔｅｒ．．．　ｎｏ，　ｓｈｅ´ｓ　ｍｙ<br>
 ｑｕｅｅｎ」
 
-#SCRIPT ORIGINAL 「……そ、そうなんだ」
 ＠Ｉｔｓｕｋｉ
 「Ａ－Ａｈ，　Ｉ　ｓｅｅ」
 
-#SCRIPT ORIGINAL うーん、ディープな世界だ……。
 Ｈｍｍ，　ｔｈｅｒｅ´ｓ　ｎｏ　ｅｎｄ　ｔｏ　ｗｈａｔ　ｙｏｕ´ｌｌ<br>
 ｆｉｎｄ　ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ．．．
 
@@ -452,53 +369,41 @@ return
 #（５回目・５月以降）#########################################################
 label	shop_talk_5
 
-#SCRIPT ORIGINAL 「そういえば、巣蓋さんっていつもその格好だね……」
 ＠Ｉｔｓｕｋｉ
 「Ｓｏ　ｙｏｕ´ｒｅ　ａｌｗａｙｓ　ｉｎ　ｔｈａｔ　ｏｕｔｆｉｔ<br>
 ｈｕｈ．．．」
 
-#SCRIPT ORIGINAL だんだん慣れてきてしまったが、考えてみればすごいよな。
 Ｉ´ｖｅ　ｓｌｏｗｌｙ　ｂｅｅｎ　ｇｅｔｔｉｎｇ　ｕｓｅｄ　ｔｏ　ｉｔ，<br>
 ｂｕｔ　ｉｔ´ｓ　ｋｉｎｄ　ｏｆ　ａｍａｚｉｎｇ　ｗｈｅｎ　Ｉ　ｔｈｉｎｋ<br>
 ａｂｏｕｔ　ｉｔ．
 
-#SCRIPT ORIGINAL いくらアダルトショップだからって、常に裸エプロンでいいんだろうか？
 Ｉｔ　ｍａｙ　ｂｅ　ａｎ　ａｄｕｌｔ　ｓｈｏｐ，　ｂｕｔ　ｉｓ　ｓｈｅ<br>
 ｒｅａｌｌｙ　ｆｉｎｅ　ｗｉｔｈ　ｗｅａｒｉｎｇ　ａ　ｈａｄａｋａ<br>
 ａｐｒｏｎ　ｃｏｎｓｔａｎｔｌｙ？
 
-#SCRIPT ORIGINAL 「制服ですから……」
 ＠Ｓｕｂｕｔａ,H00306
 「Ｉｔ´ｓ　ｍｙ　ｕｎｉｆｏｒｍ．．．」
 
-#SCRIPT ORIGINAL 巣蓋さんは少し頬を赤らめ、うつむいた。
 Ｓｈｅ　ｂｌｕｓｈｅｓ　ａ　ｂｉｔ　ａｎｄ　ｌｏｏｋｓ　ｄｏｗｎ．
 
-#SCRIPT ORIGINAL 「そ、そうなんだ……」
 ＠Ｉｔｓｕｋｉ
 「Ｏｈ，　ｉｓ　ｔｈａｔ　ｓｏ．．．」
 
-#SCRIPT ORIGINAL 「そのネコミミも？」
 ＠Ｉｔｓｕｋｉ
 「Ｔｈｏｓｅ　ｃａｔ　ｅａｒｓ　ｔｏｏ？」
 
-#SCRIPT ORIGINAL 裸エプロンもそうだが、ネコミミも結構目立つよな。
 Ｔｈｅ　ｈａｄａｋａ　ａｐｒｏｎ　ｉｓ　ｌｉｋｅ　ｔｈａｔ　ｔｏｏ，　ｂｕｔ<br>
 ｔｈｅ　ｃａｔ　ｅａｒｓ　ｓｔｉｃｋ　ｏｕｔ　ｑｕｉｔｅ　ａ　ｂｉｔ．
 
-#SCRIPT ORIGINAL 「これは……ホンモノです……」
 ＠Ｓｕｂｕｔａ,H00307
 「Ｏｈ　ｔｈｅｓｅ．．．　Ｔｈｅｙ´ｒｅ　ｒｅａｌ．．．」
 
-#SCRIPT ORIGINAL 「動きます……」
 ＠Ｓｕｂｕｔａ,H00308
 「Ｉ´ｌｌ　ｍｏｖｅ　ｔｈｅｍ．．．」
 
-#SCRIPT ORIGINAL そう言って巣蓋さんはパタパタと耳を動かしてみせた。
 Ｓａｙｉｎｇ　ｔｈａｔ　ｓｈｅ　ｆｌａｐｓ　ｔｈｅ　ｅａｒｓ　ｂａｃｋ<br>
 ａｎｄ　ｆｏｒｔｈ．
 
-#SCRIPT ORIGINAL う、うーん、さすがにホンモノのわけがないだろうし、どんな仕掛けになってるんだろう……？
 Ｈｍｍ，　ｉｔ　ｃａｎ´ｔ　ｂｅ　ｒｅａｌ，　ｓｏ　Ｉ　ｗｏｎｄｅｒ<br>
 ｈｏｗ　ｔｈａｔ　ｗｏｒｋｓ．．．？
 
@@ -508,69 +413,57 @@ return
 #（６回目・６月以降）#######################################################
 label	shop_talk_6
 
-#SCRIPT ORIGINAL 「そういえば、ここって他に店員さんいないの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そういえば、ここって他に店員さんいないの？」
 
-#SCRIPT ORIGINAL いつ来ても巣蓋さんだけだよな、ここ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 いつ来ても巣蓋さんだけだよな、ここ。
 
-#SCRIPT ORIGINAL 「はい……。店長以外はわたしだけです……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00309
 「はい……。店長以外はわたしだけです……」
 
-#SCRIPT ORIGINAL 「大変じゃない？　休みとかある？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「大変じゃない？　休みとかある？」
 
-#SCRIPT ORIGINAL 「火曜と祝日はお休みですから、大丈夫です……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00310
 「火曜と祝日はお休みですから、大丈夫です……」
 
-#SCRIPT ORIGINAL 「営業は午後からですし、年末年始とお盆も休めますし……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00311
 「営業は午後からですし、年末年始とお盆も休めますし……」
 
-#SCRIPT ORIGINAL 「そうなんだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そうなんだ」
 
-#SCRIPT ORIGINAL それじゃ、一人でも回していけるかな。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 それじゃ、一人でも回していけるかな。
 
-#SCRIPT ORIGINAL まあ、他にこの制服で働こうという女の子もあんまりいないだろうしな。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まあ、他にこの制服で働こうという女の子もあんまりいないだろうしな。
 
-#SCRIPT ORIGINAL こんな制服を採用する店長が男の店員を雇うとも思えないし……。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 こんな制服を採用する店長が男の店員を雇うとも思えないし……。
 
-#SCRIPT ORIGINAL 「まあ、お給料は安いですけど……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00312
 「まあ、お給料は安いですけど……」
 
-#SCRIPT ORIGINAL 巣蓋さんはため息をついた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 巣蓋さんはため息をついた。
@@ -581,100 +474,83 @@ return
 #（７回目・７月以降）#########################################################
 label	shop_talk_7
 
-#SCRIPT ORIGINAL 「えーと、巣蓋さん……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「えーと、巣蓋さん……」
 
-#SCRIPT ORIGINAL 「だんだんその呼び方も興奮する気がしてきました……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00313
 「だんだんその呼び方も興奮する気がしてきました……」
 
-#SCRIPT ORIGINAL 「メスブタ以上に馬鹿にされている気がします……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00314
 「メスブタ以上に馬鹿にされている気がします……」
 
-#SCRIPT ORIGINAL 「そ、そうか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうか？」
 
-#SCRIPT ORIGINAL まあ、喜んでもらえるなら別にいいけど……。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まあ、喜んでもらえるなら別にいいけど……。
 
-#SCRIPT ORIGINAL 「……巣蓋さんって、どうしてこの仕事始めたんだ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……巣蓋さんって、どうしてこの仕事始めたんだ？」
 
-#SCRIPT ORIGINAL 「え……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00315
 「え……？」
 
-#SCRIPT ORIGINAL オレも成り行きでこの仕事を継いだだけに、この業界の人がどうしてこんなことを始めたのか、興味はある。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 オレも成り行きでこの仕事を継いだだけに、この業界の人がどうしてこんなことを始めたのか、興味はある。
 
-#SCRIPT ORIGINAL というか、こんな若くて可愛らしい女の子が何でこんなことしてるんだろう？
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 というか、こんな若くて可愛らしい女の子が何でこんなことしてるんだろう？
 
-#SCRIPT ORIGINAL 「この仕事を始めた理由、ですか……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00316
 「この仕事を始めた理由、ですか……？」
 
-#SCRIPT ORIGINAL 「理由なんてありません……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00317
 「理由なんてありません……」
 
-#SCRIPT ORIGINAL 「女王様が命令するので……ＯＬを辞めてここに就職しました……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00318
 「女王様が命令するので……ＯＬを辞めてここに就職しました……」
 
-#SCRIPT ORIGINAL 「そ、そうか……。ハードな人生だな……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうか……。ハードな人生だな……」
 
-#SCRIPT ORIGINAL 「そうでもないですよ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00319
 「そうでもないですよ……」
 
-#SCRIPT ORIGINAL 「何でも女王様に決めていただけば、自分では何も考えずに済みますから……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00320
 「何でも女王様に決めていただけば、自分では何も考えずに済みますから……」
 
-#SCRIPT ORIGINAL 「そういう考え方もあるのか……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そういう考え方もあるのか……」
 
-#SCRIPT ORIGINAL ある意味真理かもしれないなぁ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ある意味真理かもしれないなぁ。
@@ -685,60 +561,50 @@ return
 #（８回目・８月以降）#########################################################
 label shop_talk_8
 
-#SCRIPT ORIGINAL 「ここの店長ってどんな人なんだ……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ここの店長ってどんな人なんだ……？」
 
-#SCRIPT ORIGINAL 「え……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00321
 「え……？」
 
-#SCRIPT ORIGINAL 「素敵な人……です……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00322
 「素敵な人……です……」
 
-#SCRIPT ORIGINAL 巣蓋さんは頬を赤らめてうつむく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 巣蓋さんは頬を赤らめてうつむく。
 
-#SCRIPT ORIGINAL 「あ、もしかして、店長さんって巣蓋さんの女王様？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、もしかして、店長さんって巣蓋さんの女王様？」
 
-#SCRIPT ORIGINAL 「はい……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00323
 「はい……」
 
-#SCRIPT ORIGINAL 「とっても意地悪で……性格がねじ曲がっていて……いつもわたしにひどいことばかりするんです……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00324
 「とっても意地悪で……性格がねじ曲がっていて……いつもわたしにひどいことばかりするんです……」
 
-#SCRIPT ORIGINAL 「はぁっ……思い出しただけで濡れてきます……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00325
 「はぁっ……思い出しただけで濡れてきます……」
 
-#SCRIPT ORIGINAL 「そ、そうか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そ、そうか」
 
-#SCRIPT ORIGINAL うーん、筋金入りのＭだなぁ……。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 うーん、筋金入りのＭだなぁ……。
@@ -749,48 +615,40 @@ return
 #（９回目・９月以降）########################################################
 label	shop_talk_9
 
-#SCRIPT ORIGINAL 「店長さんは、店には来ないの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「店長さんは、店には来ないの？」
 
-#SCRIPT ORIGINAL 「お会いになりたいですか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00326
 「お会いになりたいですか？」
 
-#SCRIPT ORIGINAL 「あ、いや、そういうわけじゃないけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あ、いや、そういうわけじゃないけど」
 
-#SCRIPT ORIGINAL 「ただ、店長さんってどんな仕事してるのかなと思って」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ただ、店長さんってどんな仕事してるのかなと思って」
 
-#SCRIPT ORIGINAL 「女王様は……主に奥で発注とか、ネットショップの仕事をしてます」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00327
 「女王様は……主に奥で発注とか、ネットショップの仕事をしてます」
 
-#SCRIPT ORIGINAL じゃあ、店にいることはいるのか。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 じゃあ、店にいることはいるのか。
 
-#SCRIPT ORIGINAL 「あとは、梱包とか……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00328
 「あとは、梱包とか……」
 
-#SCRIPT ORIGINAL 「ずいぶん庶民的な女王様だね……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -802,13 +660,11 @@ return
 #（１０回目・１０月以降）#####################################################
 label	shop_talk_10
 
-#SCRIPT ORIGINAL 「酢豚は好き？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「酢豚は好き？」
 
-#SCRIPT ORIGINAL 「パイナップルが入っていなければ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00329
@@ -820,67 +676,56 @@ return
 #（１１回目・１１月以降）#####################################################
 label	shop_talk_11
 
-#SCRIPT ORIGINAL 「ところで、巣蓋さんって、Ｍだよね？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ところで、巣蓋さんって、Ｍだよね？」
 
-#SCRIPT ORIGINAL 「あ、はい。ドＭです……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00330
 「あ、はい。ドＭです……」
 
-#SCRIPT ORIGINAL 「Ｍになったのって、何か理由とかあるのかな？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「Ｍになったのって、何か理由とかあるのかな？」
 
-#SCRIPT ORIGINAL 「理由ですか……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00331
 「理由ですか……」
 
-#SCRIPT ORIGINAL 「あんまりハッキリとはわからないんですが……わたし、ずっと優等生だったんです」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00332
 「あんまりハッキリとはわからないんですが……わたし、ずっと優等生だったんです」
 
-#SCRIPT ORIGINAL 「なんでも親の言うことを聞いて、一生懸命勉強して大学に入って……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00333
 「なんでも親の言うことを聞いて、一生懸命勉強して大学に入って……」
 
-#SCRIPT ORIGINAL 「でも、本当はやりたいことも何もないし、親はテストの結果にしか興味なかったですし……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00334
 「でも、本当はやりたいことも何もないし、親はテストの結果にしか興味なかったですし……」
 
-#SCRIPT ORIGINAL 「親を満足させるためだけに生きていることがずっと虚しかった……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00335
 「親を満足させるためだけに生きていることがずっと虚しかった……」
 
-#SCRIPT ORIGINAL 「そんなとき、女王様に目を付けていただいて、心から虐めていただいて……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00336
 「そんなとき、女王様に目を付けていただいて、心から虐めていただいて……」
 
-#SCRIPT ORIGINAL 「それでわたしは、生まれて初めて深い満足を得ることができたんです……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00337
 「それでわたしは、生まれて初めて深い満足を得ることができたんです……」
 
-#SCRIPT ORIGINAL 「いい話だなー（棒読み）」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -891,76 +736,63 @@ return
 
 #（１２回目・１２月以降）######################################################
 label shop_talk_12
-#SCRIPT ORIGINAL 「そういえば、もうすぐクリスマスだな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そういえば、もうすぐクリスマスだな」
 
-#SCRIPT ORIGINAL 「そうですね……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00338
 「そうですね……」
 
-#SCRIPT ORIGINAL 「巣蓋さんは、女王様とプレゼント交換とかするのか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「巣蓋さんは、女王様とプレゼント交換とかするのか？」
 
-#SCRIPT ORIGINAL 「はい、もちろんです……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00339
 「はい、もちろんです……」
 
-#SCRIPT ORIGINAL 巣蓋さんは幸せそうに微笑む。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 巣蓋さんは幸せそうに微笑む。
 
-#SCRIPT ORIGINAL 「やっぱり、年に一度のセックスのお祭りですからね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00340
 「やっぱり、年に一度のセックスのお祭りですからね」
 
-#SCRIPT ORIGINAL 「パートナーと愛を深めなくては……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00341
 「パートナーと愛を深めなくては……」
 
-#SCRIPT ORIGINAL 「いや、別にセックスのお祭りじゃないと思うぞ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、別にセックスのお祭りじゃないと思うぞ……」
 
-#SCRIPT ORIGINAL まあ、実際世間はそんな感じだが。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まあ、実際世間はそんな感じだが。
 
-#SCRIPT ORIGINAL 「え？　そうなのですか……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｂｕｔａ,H00342
 「え？　そうなのですか……？」
 
-#SCRIPT ORIGINAL 巣蓋さんは不思議そうな顔をしている。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 巣蓋さんは不思議そうな顔をしている。
 
-#SCRIPT ORIGINAL 「まあいいけどな、セックスのお祭りでも……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「まあいいけどな、セックスのお祭りでも……」
 
-#SCRIPT ORIGINAL 最初からそう思えば、いっそすがすがしい気がする。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 最初からそう思えば、いっそすがすがしい気がする。

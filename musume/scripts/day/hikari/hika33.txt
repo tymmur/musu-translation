@@ -13,12 +13,10 @@ bgm_stop
 @bg_dining		# 食堂
 @bgm02			#BGM 02 : 朝のテーマ
 
-#SCRIPT ORIGINAL 朝はいつもどおり、食堂でみんなと朝食をとる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 朝はいつもどおり、食堂でみんなと朝食をとる。
 
-#SCRIPT ORIGINAL 食事ではいつも会話が途絶えず、明るく楽しい時間が過ぎていく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 食事ではいつも会話が途絶えず、明るく楽しい時間が過ぎていく。
@@ -27,19 +25,16 @@ bgm_stop
 event		"event\EV_ALL_020-08.png"
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL 「美雨さん、ご飯おかわりっ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01918
 「美雨さん、ご飯おかわりっ」
 
-#SCRIPT ORIGINAL 「あ、ボクも。半分くらいお願いします」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｙｕｚｕ,F00330
 「あ、ボクも。半分くらいお願いします」
 
-#SCRIPT ORIGINAL 「はい、ちょっと待っててね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02410
@@ -55,7 +50,6 @@ wait		100
 @karin			#普通
 @bg_dining		# 食堂
 
-#SCRIPT ORIGINAL 「今日はいちごが静かね。お腹でも痛いの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｋａｒｉｎ,P02628
@@ -74,7 +68,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「はぁ……午前中、いちごのクラス、確認テストがあるの。ヤダよぉ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02227
@@ -86,7 +79,6 @@ wait		500
 @zakuro_shifuku
 @zakuro			#普
 
-#SCRIPT ORIGINAL 「テストなら私もあった気がする」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01356
@@ -98,7 +90,6 @@ wait		500
 @ichigo_shifuku
 @ichigo_komaru		#困
 
-#SCRIPT ORIGINAL 「ざくろはイヤじゃないの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02228
@@ -110,7 +101,6 @@ wait		500
 @zakuro_shifuku
 @zakuro_metoji		#閉
 
-#SCRIPT ORIGINAL 「授業よりマイペースに出来るから、むしろ好き」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01357
@@ -122,7 +112,6 @@ wait		500
 @suika_shifuku
 @suika_komariwarai	#困笑
 
-#SCRIPT ORIGINAL 「そこまでテストを楽観的に見てるのも珍しいような……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｕｉｋａ,R00418
@@ -130,7 +119,6 @@ wait		500
 
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL 「はっは、勉強してこいいちご。成績が悪いとお小遣いに響くかもな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -166,7 +154,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「お、横暴だーッ。パパはテストも何もないのにー！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02229
@@ -178,7 +165,6 @@ wait		500
 @zakuro_shifuku
 @zakuro_akire		#呆
 
-#SCRIPT ORIGINAL 「ニートみたい」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01358
@@ -187,7 +173,6 @@ wait		500
 #SE53　傷つく言葉（グサッ！）
 @SE53			#SE53　傷つく言葉（グサッ！）
 
-#SCRIPT ORIGINAL 「ぐふぁッ――！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -196,7 +181,6 @@ wait		500
 bgm_stop
 @bg_black
 
-#SCRIPT ORIGINAL 一日が始まる、にぎやかなひと時。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 一日が始まる、にぎやかなひと時。
@@ -206,13 +190,11 @@ bgm_stop
 @miu_ikari2		#開_怒
 @bg_dining		# 食堂
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02411
 「………」
 
-#SCRIPT ORIGINAL ……一人。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……一人。
@@ -256,7 +238,6 @@ wait		1000
 #＠ひかり,N00604
 #「行ってきまーす！」
 
-#SCRIPT ORIGINAL 「いってきまーす！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｅｖｅｒｙｏｎｅ,Z90004
@@ -281,7 +262,6 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いってらっしゃい。気をつけてね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02413
@@ -300,7 +280,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「いってらっしゃーい」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00605
@@ -310,7 +289,6 @@ layer_movepass_play	l_hikari,0,play_once
 wait		100
 @bg_genkan		# 玄関
 
-#SCRIPT ORIGINAL 「いちご、ざくろ、テスト頑張ってこいよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -324,7 +302,6 @@ wait		100
 @ichigo_komaru		#困
 @zakuro_niko		#にこ
 
-#SCRIPT ORIGINAL 「ばっちり」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｚａｋｕｒｏ,Q01360
@@ -339,7 +316,6 @@ layer_movepass_type	l_ichigo,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_ichigo,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「はぁ……今月もまたお小遣いが減っていっちゃうよぉ～……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｃｈｉｇｏ,O02231
@@ -350,7 +326,6 @@ bgm_stop
 @SE31			#SE31　玄関のドアが閉まる音
 wait		1000
 
-#SCRIPT ORIGINAL やがて、子供達はみんな学校へ行く。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 やがて、子供達はみんな学校へ行く。
@@ -364,18 +339,15 @@ wait		1000
 @hikari_warai		#笑.png
 @bg_hiroma		# 広間
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02414
 「………」
 
-#SCRIPT ORIGINAL 上……これで二人。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 上……これで二人。
 
-#SCRIPT ORIGINAL 「どうした、美雨。天井に虫でもいたか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -396,7 +368,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「え～、ひーちゃん虫きらい……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00606
@@ -404,7 +375,6 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu			#閉_にこ
 
-#SCRIPT ORIGINAL 「いいえ。ちょっと汚れが気になっただけですから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02415
@@ -417,28 +387,23 @@ wait		1000
 @bg_nakaniwa		# 中庭
 @bgm17			#BGM 17 : のんびりのテーマ
 
-#SCRIPT ORIGINAL 子供達が居ない間に、家事をこなしておくのがここでの日課。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 子供達が居ない間に、家事をこなしておくのがここでの日課。
 
-#SCRIPT ORIGINAL 「～♪　～～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02416
 「～♪　～～♪」
 
-#SCRIPT ORIGINAL 鼻唄を歌いながら、真っ白に洗い上げたシーツを干していく。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 鼻唄を歌いながら、真っ白に洗い上げたシーツを干していく。
 
-#SCRIPT ORIGINAL さりげない仕事の一つ一つ全てが楽しい。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 さりげない仕事の一つ一つ全てが楽しい。
 
-#SCRIPT ORIGINAL 「美雨、ちょっと出掛けてくるよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -448,7 +413,6 @@ wait		1000
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「はい。どちらへ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02417
@@ -470,7 +434,6 @@ wait		1000
 #layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「お父しゃんと、商店街にお買い物に行くのー♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00607
@@ -479,7 +442,6 @@ wait		1000
 @miu			#閉_にこ
 wait		1000
 
-#SCRIPT ORIGINAL 「美雨も良かったら一緒にいかないか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -488,18 +450,15 @@ wait		1000
 #@miu2			#開_にこ
 @miu_mu			#開_普通（無表情）
 
-#SCRIPT ORIGINAL 「そうですね……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02418
 「そうですね……」
 
-#SCRIPT ORIGINAL 本当は行きたい。片時も離れて居たくない。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 本当は行きたい。片時も離れて居たくない。
 
-#SCRIPT ORIGINAL でも、今の私にはやることがある。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 でも、今の私にはやることがある。
@@ -507,7 +466,6 @@ wait		1000
 #@miu_komaru		#開_困
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「すみません、用事が残っていますから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02419
@@ -515,7 +473,6 @@ wait		1000
 
 #@hikari		#普.png
 
-#SCRIPT ORIGINAL 「お母しゃん、来れないの……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00608
@@ -530,7 +487,6 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「ごめんねひーちゃん。二人で楽しんできてね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02420
@@ -538,30 +494,25 @@ layer_movepass_play	l_miu,0,play_once
 
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「樹さん、ひーちゃんのことよろしくお願いします」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02421
 「樹さん、ひーちゃんのことよろしくお願いします」
 
-#SCRIPT ORIGINAL 「ああ、行ってくる」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、行ってくる」
 
-#SCRIPT ORIGINAL 「行ってきまーすっ♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00609
 「行ってきまーすっ♪」
 
-#SCRIPT ORIGINAL 二人を見送る。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 二人を見送る。
 
-#SCRIPT ORIGINAL ちょっと出掛けただけなのに、ひどく寂しさを感じてしまう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ちょっと出掛けただけなのに、ひどく寂しさを感じてしまう。
@@ -573,12 +524,10 @@ wait		1000
 #@bg_genkan		# 玄関
 @bg_hiroma		# 広間
 
-#SCRIPT ORIGINAL 施設の中は、まるで別の場所のように静かになった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 施設の中は、まるで別の場所のように静かになった。
 
-#SCRIPT ORIGINAL みんな出掛けて、今居る〝住人〟は私一人。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 みんな出掛けて、今居る〝住人〟は私一人。
@@ -587,13 +536,11 @@ wait		1000
 @miu_maid
 @miu_ikari		#閉_怒
 
-#SCRIPT ORIGINAL 「出てきてください。もう誰もいませんから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02422
 「出てきてください。もう誰もいませんから」
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠？？？
@@ -601,48 +548,40 @@ wait		1000
 
 @bgm06			#BGM 06 : 不安のテーマ
 
-#SCRIPT ORIGINAL どこに隠れていたのか……施設の奥から、二人の男が音も無く現れた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 どこに隠れていたのか……施設の奥から、二人の男が音も無く現れた。
 
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「朝からずっと居ましたね……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02423
 「朝からずっと居ましたね……」
 
-#SCRIPT ORIGINAL 「ふふ。さすが、気付いていたか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28065
 「ふふ。さすが、気付いていたか」
 
-#SCRIPT ORIGINAL どちらもスーツ姿にネクタイ、整えられた短髪、見栄えのよい姿勢。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 どちらもスーツ姿にネクタイ、整えられた短髪、見栄えのよい姿勢。
 
-#SCRIPT ORIGINAL 一見真面目そうな社会人だが、サングラスに隠されたその雰囲気からは、どこか異様なモノを感じた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 一見真面目そうな社会人だが、サングラスに隠されたその雰囲気からは、どこか異様なモノを感じた。
 
-#SCRIPT ORIGINAL 「命令はどうした。夜行さんから聞いているだろう」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男２,V28066
 「命令はどうした。夜行さんから聞いているだろう」
 
-#SCRIPT ORIGINAL 「命令？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02424
 「命令？」
 
-#SCRIPT ORIGINAL 「まさか、平和ボケて忘れていたか？　ここの住人を始末する事だ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男２,V28067
@@ -650,7 +589,6 @@ wait		1000
 
 @miu_ikari		#閉_怒
 
-#SCRIPT ORIGINAL 「それでしたら、私は実行すると言った覚えはありませんが」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02425
@@ -658,7 +596,6 @@ wait		1000
 
 bgm_stop
 
-#SCRIPT ORIGINAL 「命令違反は、裏切り行為とみなす」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28068
@@ -666,12 +603,10 @@ bgm_stop
 
 @SE106			#SE106　銃の装備（ガシャッ・カシャンッ）※銃器を装備したり動かすときに聞く音です。
 
-#SCRIPT ORIGINAL 機械のように無駄な動き無く、二人の男はスーツから拳銃を抜き出した。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 機械のように無駄な動き無く、二人の男はスーツから拳銃を抜き出した。
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02426
@@ -679,17 +614,14 @@ bgm_stop
 
 @bgm09			#BGM 09 : 緊迫したシーンの曲
 
-#SCRIPT ORIGINAL 美雨に向けられる拳銃。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 美雨に向けられる拳銃。
 
-#SCRIPT ORIGINAL だが、美雨は動じず冷静なままでいた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 だが、美雨は動じず冷静なままでいた。
 
-#SCRIPT ORIGINAL 「あんたの快諾か命の、どちらかを持ち帰るよう言われている。好きな方を選べ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28069
@@ -697,13 +629,11 @@ bgm_stop
 
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「その物騒な物を、ここで出さないでください」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02427
 「その物騒な物を、ここで出さないでください」
 
-#SCRIPT ORIGINAL 「なに？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28070
@@ -712,19 +642,16 @@ bgm_stop
 #@miu_ikari2		#開_怒
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「ここは、私が唯一、昔の私に戻れる………幸せで自由な場所」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02428
 「ここは、私が唯一、昔の私に戻れる………幸せで自由な場所」
 
-#SCRIPT ORIGINAL 「楽しくて、明るくて、みんな笑顔で。そんなかけがえの無い場所なんです」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02429
 「楽しくて、明るくて、みんな笑顔で。そんなかけがえの無い場所なんです」
 
-#SCRIPT ORIGINAL 「ふん、平和ボケたか。オレ達なんかより遥かに大勢の血を見てきた殺人鬼がよ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男２,V28071
@@ -733,7 +660,6 @@ bgm_stop
 #@miu_ikari		#閉_怒
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「夜行の下劣な言葉でしか動けない三下風情が、ここを汚さないでッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02430
@@ -741,7 +667,6 @@ bgm_stop
 
 bgm_stop
 
-#SCRIPT ORIGINAL 「ふっ、それが答えか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28072
@@ -762,19 +687,16 @@ wait		1000
 @SE94			#SE94　銃声
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
-#SCRIPT ORIGINAL 本物の火薬の音が白煙と共に響く。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 本物の火薬の音が白煙と共に響く。
 
 @bg_hiroma		# 広間
 
-#SCRIPT ORIGINAL が、一瞬遅く、その先に美雨の姿は無い。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 が、一瞬遅く、その先に美雨の姿は無い。
 
-#SCRIPT ORIGINAL 「……ッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02431
@@ -784,7 +706,6 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 #@SE50			#SE50　風を切る音（ヒュンッ）
 se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 
-#SCRIPT ORIGINAL 「なにッ―――おぐッ！？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男２,V28073
@@ -796,12 +717,10 @@ se		0,	"sound\se\SE50_空を切る.WAV",	play_once
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
-#SCRIPT ORIGINAL 銃弾の軌跡から最小限に身をかわし、一直線に迫った勢いで男の急所を打ち抜く。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 銃弾の軌跡から最小限に身をかわし、一直線に迫った勢いで男の急所を打ち抜く。
 
-#SCRIPT ORIGINAL 「正体を現したなッ、この殺人鬼が！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28074
@@ -811,7 +730,6 @@ screen_vibration	500,16,16,16
 @miu_maid
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「それが、あなたの遺言ですか……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02432
@@ -840,7 +758,6 @@ wait		1000
 @SE94			#SE94　銃声
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
-#SCRIPT ORIGINAL 至近距離で銃声が響く。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 至近距離で銃声が響く。
@@ -849,19 +766,16 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 screen_vibration	500,16,16,16
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02433
 「…………」
 
-#SCRIPT ORIGINAL 「………ッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28075
 「………ッ」
 
-#SCRIPT ORIGINAL 「ぐッ……がはッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男１,V28076
@@ -870,25 +784,21 @@ screen_vibration	500,16,16,16
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
-#SCRIPT ORIGINAL 男はグルンと眼球を裏返すと、美雨の打撃を受けて床へと倒れ伏す。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 男はグルンと眼球を裏返すと、美雨の打撃を受けて床へと倒れ伏す。
 
-#SCRIPT ORIGINAL どちらも瞬間の出来事で、常人離れした美雨の動きだった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 どちらも瞬間の出来事で、常人離れした美雨の動きだった。
 
 bgm_stop
 
-#SCRIPT ORIGINAL 「………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02434
 「………」
 
-#SCRIPT ORIGINAL 静かになったのを確認すると、美雨は身を起こす。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 静かになったのを確認すると、美雨は身を起こす。
@@ -897,26 +807,22 @@ bgm_stop
 @miu_maid
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「……この二人」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02435
 「……この二人」
 
-#SCRIPT ORIGINAL 「実力は無かったけど、殺気は本物だった……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02436
 「実力は無かったけど、殺気は本物だった……」
 
-#SCRIPT ORIGINAL 銃も本物で、迷い無く殺すつもりで狙っていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 銃も本物で、迷い無く殺すつもりで狙っていた。
 
 @miu_ikari		#閉_怒
 
-#SCRIPT ORIGINAL 「……命令違反は、裏切り」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02437
@@ -924,7 +830,6 @@ bgm_stop
 
 @SE106			#SE106　銃の装備（ガシャッ・カシャンッ）※銃器を装備したり動かすときに聞く音です。
 
-#SCRIPT ORIGINAL 「そう。そして裏切り者には死しかない」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠？？？
@@ -939,13 +844,11 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「―――ッ！？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02438
 「―――ッ！？」
 
-#SCRIPT ORIGINAL 気を緩めた瞬間、背後から第三者の声と気配がした。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 気を緩めた瞬間、背後から第三者の声と気配がした。
@@ -969,7 +872,6 @@ layer_movepass_type	l_miu,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_miu,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「――ッあうぅ！　ん、っくぅッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02439
@@ -990,7 +892,6 @@ wait		500
 @SE02			#SE02　布団に倒れる・布団を跳ね上げる（バフッ！！）
 @chara_clear		#保険
 
-#SCRIPT ORIGINAL その不意打ちの銃弾を足に掠めて床に膝をついた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 その不意打ちの銃弾を足に掠めて床に膝をついた。
@@ -1000,7 +901,6 @@ wait		500
 @kurofuku_shifuku
 @kurofuku		# 普通
 
-#SCRIPT ORIGINAL 「ほぉ、さすがだ。殺すつもりだったのに、避けるとは」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男３,V28077
@@ -1013,13 +913,11 @@ wait		500
 @miu_maid
 @miu_ikari		#閉_怒
 
-#SCRIPT ORIGINAL 「うく、んんぅッ……ひどい、後ろから急に」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02440
 「うく、んんぅッ……ひどい、後ろから急に」
 
-#SCRIPT ORIGINAL 「ふん。オレ達の仕事は結果が全てだ。手段なんか関係ないさ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男３,V28078
@@ -1027,7 +925,6 @@ wait		500
 
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「……でも、この程度の傷で銃を下ろすなんて、甘いですよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02441
@@ -1035,19 +932,16 @@ wait		500
 
 @bg_black
 
-#SCRIPT ORIGINAL 銃撃と言っても、深手でも神経をやられたわけでも無い。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 銃撃と言っても、深手でも神経をやられたわけでも無い。
 
-#SCRIPT ORIGINAL 美雨はすぐ立ち上がろうとして――――
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 美雨はすぐ立ち上がろうとして――――
 
 @SE27			#SE27　倒れる音（ドサッ）
 
-#SCRIPT ORIGINAL また膝をついた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 また膝をついた。
@@ -1058,7 +952,6 @@ wait		500
 @miu_komaru		#開_困
 @bg_hiroma		# 広間
 
-#SCRIPT ORIGINAL 「……ッう、ぁ…な、なに……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02442
@@ -1070,19 +963,16 @@ wait		500
 @kurofuku_shifuku
 @kurofuku		# 普通
 
-#SCRIPT ORIGINAL 「ふふ、ただの弾丸だと思ったのか。夜行さん特製の麻酔入りだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男３,V28079
 「ふふ、ただの弾丸だと思ったのか。夜行さん特製の麻酔入りだ」
 
-#SCRIPT ORIGINAL 「夜行のッ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02443
 「夜行のッ……」
 
-#SCRIPT ORIGINAL 「ほぉら、動けない動けない。どうする」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男３,V28080
@@ -1096,13 +986,11 @@ wait		500
 #@miu_komaru		#開_困
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「……ッ、な、なにを…ッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02444
 「……ッ、な、なにを…ッ」
 
-#SCRIPT ORIGINAL 「不意打ちの上、こんなものまで使うなんてッ……卑怯ですッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02445
@@ -1114,13 +1002,11 @@ wait		500
 @kurofuku_shifuku
 @kurofuku		# 普通
 
-#SCRIPT ORIGINAL 「そうしないと、オレじゃあんたに勝てないだろぉ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男３,V28081
 「そうしないと、オレじゃあんたに勝てないだろぉ？」
 
-#SCRIPT ORIGINAL 「殺す前に、その美味そうな肢体をたっぷり味合わせてもらうぜ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男３,V28082
@@ -1128,18 +1014,15 @@ wait		500
 
 @kurofuku_
 
-#SCRIPT ORIGINAL 舐めるような視線で美雨を見ながら、男がさらに一歩踏み込んできた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 舐めるような視線で美雨を見ながら、男がさらに一歩踏み込んできた。
 
-#SCRIPT ORIGINAL 「―――ッ！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02446
 「―――ッ！」
 
-#SCRIPT ORIGINAL 〝踏み込んだ〟と同時に、美雨が腕を伸ばす。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 〝踏み込んだ〟と同時に、美雨が腕を伸ばす。
@@ -1150,7 +1033,6 @@ bgm_stop
 @SE95			#SE95　人を殴る音　※リアル
 if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
-#SCRIPT ORIGINAL 「んぶッ！！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠男３,V28083
@@ -1158,13 +1040,11 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 @SE27			#SE27　倒れる音（ドサッ）
 
-#SCRIPT ORIGINAL 「えっ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02447
 「えっ……」
 
-#SCRIPT ORIGINAL 美雨が触れる前に、男は鈍い音と共に吹き飛び、床を転がって行った。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 美雨が触れる前に、男は鈍い音と共に吹き飛び、床を転がって行った。
@@ -1173,13 +1053,11 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 @shizuku_shifuku
 @shizuku_ikari		#怒
 
-#SCRIPT ORIGINAL 「引っ込んでなさい、木偶の棒」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01255
 「引っ込んでなさい、木偶の棒」
 
-#SCRIPT ORIGINAL 「……雫さん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02448
@@ -1187,25 +1065,21 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT ORIGINAL 横から乱入してきたのは、朝から姿の見えなかった雫だった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 横から乱入してきたのは、朝から姿の見えなかった雫だった。
 
-#SCRIPT ORIGINAL 男は不意を突かれ、そのまま床で動かなくなる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 男は不意を突かれ、そのまま床で動かなくなる。
 
 @shizuku_akire		#呆
 
-#SCRIPT ORIGINAL 「おや、一撃で落ちるなんて。本当に木偶の棒だったね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01256
 「おや、一撃で落ちるなんて。本当に木偶の棒だったね」
 
-#SCRIPT ORIGINAL 「雫さん……あの、ありがとうございました」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02449
@@ -1213,7 +1087,6 @@ if _TRANSLATOR_OPTION_DISABLE_FLASHES=0 then screen_flash		500
 
 @shizuku_yorokobi	#喜
 
-#SCRIPT ORIGINAL 「ははっ、いいよいいよ。あんなのに許していいほど、美雨の身体は安くないんだから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01257
@@ -1226,13 +1099,11 @@ wait		500
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「あは……私の身体がどうなのかは、分かりませんけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02450
 「あは……私の身体がどうなのかは、分かりませんけど」
 
-#SCRIPT ORIGINAL 「でももう一瞬遅ければ、私もちゃんと応戦できていたと思いますよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02451
@@ -1244,7 +1115,6 @@ wait		500
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-#SCRIPT ORIGINAL 「だろうね。そう見えたし」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01258
@@ -1252,13 +1122,11 @@ wait		500
 
 @shizuku_yorokobi	#喜
 
-#SCRIPT ORIGINAL 「それより、身体の方は平気かい？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01259
 「それより、身体の方は平気かい？」
 
-#SCRIPT ORIGINAL 「はい、少し力が入らない程度で……。すぐ回復すると思います」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02452
@@ -1266,7 +1134,6 @@ wait		500
 
 @shizuku		#普通
 
-#SCRIPT ORIGINAL 「ふ～ん、ならいいんだけどさ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01260
@@ -1274,31 +1141,26 @@ wait		500
 
 @shizuku_akire		#呆
 
-#SCRIPT ORIGINAL 「美雨らしくない、ずいぶん消極的な戦法だね。あそこまで接近を許すなんて」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01261
 「美雨らしくない、ずいぶん消極的な戦法だね。あそこまで接近を許すなんて」
 
-#SCRIPT ORIGINAL 「ええ、まぁ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02453
 「ええ、まぁ……」
 
-#SCRIPT ORIGINAL 理由はあるのだが、とりあえず苦笑でごまかす美雨。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 理由はあるのだが、とりあえず苦笑でごまかす美雨。
 
-#SCRIPT ORIGINAL 雫も特に追究はせず、倒れた男３人に視線を移した。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 雫も特に追究はせず、倒れた男３人に視線を移した。
 
 @shizuku		#普通
 
-#SCRIPT ORIGINAL 「この男、あたしら側の人間じゃないね。美雨の仲間じゃないの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01262
@@ -1311,13 +1173,11 @@ wait		500
 @miu_maid
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「同じ組織の人間です。つまり、施設側ですね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02454
 「同じ組織の人間です。つまり、施設側ですね」
 
-#SCRIPT ORIGINAL 「もっとも、見ての通り、今の私は狙われているようですけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02455
@@ -1329,7 +1189,6 @@ wait		500
 @shizuku_shifuku
 @shizuku_chousyou	#怒笑
 
-#SCRIPT ORIGINAL 「狙うって、この三下が美雨を？　あまりにムラムラし過ぎたのかい？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01263
@@ -1342,7 +1201,6 @@ wait		500
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「まさか……。ちょっとこちらでトラブルがあっただけですよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02456
@@ -1350,18 +1208,15 @@ wait		500
 
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「ただ、早く何とかしないと、これからもこんな事が起こるかもしれません……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02457
 「ただ、早く何とかしないと、これからもこんな事が起こるかもしれません……」
 
-#SCRIPT ORIGINAL 夜行は、昔から残酷な男だった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 夜行は、昔から残酷な男だった。
 
-#SCRIPT ORIGINAL まだこの一件に本腰を入れていないようだが、本気になると何をするか分からない。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まだこの一件に本腰を入れていないようだが、本気になると何をするか分からない。
@@ -1372,7 +1227,6 @@ wait		500
 @shizuku_shifuku
 @shizuku		#普通
 
-#SCRIPT ORIGINAL 「落ち着いてるけど、それって今もう、他の子たち危ないんじゃないの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01264
@@ -1385,13 +1239,11 @@ wait		500
 @miu_maid
 @miu_ikari2		#開_怒
 
-#SCRIPT ORIGINAL 「今はまだ大丈夫ですよ。向こうも本気ではないみたいですし」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02458
 「今はまだ大丈夫ですよ。向こうも本気ではないみたいですし」
 
-#SCRIPT ORIGINAL 「それに実力行使に出る前には必ず、夜行から連絡があります」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02459
@@ -1399,7 +1251,6 @@ wait		500
 
 @miu_ikari		#閉_怒
 
-#SCRIPT ORIGINAL 「そうやって絶望感を与えて陵辱するのが、あの男の趣味をかねたやり方ですから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02460
@@ -1411,42 +1262,35 @@ wait		500
 @shizuku_shifuku
 @shizuku_akire		#呆
 
-#SCRIPT ORIGINAL 「ふ～ん、良い趣味だことで……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01265
 「ふ～ん、良い趣味だことで……」
 
-#SCRIPT ORIGINAL あるいは、この結末はいつも、すぐ背後に忍び寄っていたのかもしれない。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 あるいは、この結末はいつも、すぐ背後に忍び寄っていたのかもしれない。
 
-#SCRIPT ORIGINAL その僅かな期間に手を打たなければ、今言った陵辱が開始されるのだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 その僅かな期間に手を打たなければ、今言った陵辱が開始されるのだ。
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02461
 「…………」
 
-#SCRIPT ORIGINAL ふと、当たり前のように乱入して展開に混ざっている雫を見る美雨。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ふと、当たり前のように乱入して展開に混ざっている雫を見る美雨。
 
 @shizuku		#普通
 
-#SCRIPT ORIGINAL 「うん、なに……？　その誘ってるみたいな視線」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01266
 「うん、なに……？　その誘ってるみたいな視線」
 
-#SCRIPT ORIGINAL 「さ、誘ってませんっ。タイミングよく帰宅されたので、気になっただけですッ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02462
@@ -1454,19 +1298,16 @@ wait		500
 
 @shizuku_chousyou	#怒笑
 
-#SCRIPT ORIGINAL 「そう、でも相手が美雨なら興味はあるねぇ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01267
 「そう、でも相手が美雨なら興味はあるねぇ」
 
-#SCRIPT ORIGINAL 「一度くらいならユーザーサービスもいいんじゃない？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01268
 「一度くらいならユーザーサービスもいいんじゃない？」
 
-#SCRIPT ORIGINAL 「しませんッ、樹さん一筋ですからッ！　―――っあ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02463
@@ -1481,19 +1322,16 @@ layer_movepass_type	l_shizuku,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_shizuku,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「はぁ……はいはい、ごちそうさま」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01269
 「はぁ……はいはい、ごちそうさま」
 
-#SCRIPT ORIGINAL 「消極的なのも、おそらくそれが原因じゃないかとは思ってたけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01270
 「消極的なのも、おそらくそれが原因じゃないかとは思ってたけど」
 
-#SCRIPT ORIGINAL 「えっと………はい」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02464
@@ -1508,7 +1346,6 @@ layer_movepass_play	l_shizuku,0,play_once
 
 @shizuku		#普通
 
-#SCRIPT ORIGINAL 「……美雨」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01271
@@ -1525,7 +1362,6 @@ layer_movepass_play	l_shizuku,0,play_once
 
 @shizuku_yorokobi	#喜
 
-#SCRIPT ORIGINAL 「またすぐ、いつもの日々が戻ってくるさ。そしたら思う存分樹に甘えればいい」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｓｈｉｚｕｋｕ,S01272
@@ -1538,7 +1374,6 @@ wait		500
 @miu_maid
 @miu_kanashimi		#開_哀
 
-#SCRIPT ORIGINAL 「ぁ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02467
@@ -1546,13 +1381,11 @@ wait		500
 
 @miu_kanashimi2		#閉_哀
 
-#SCRIPT ORIGINAL 「はい……そうですね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B02468
 「はい……そうですね」
 
-#SCRIPT ORIGINAL そうなる日々を美雨は、切実に求めるのだった……
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そうなる日々を美雨は、切実に求めるのだった……

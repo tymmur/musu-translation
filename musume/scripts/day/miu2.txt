@@ -13,29 +13,24 @@ label	miu_02
 #SE11　部屋のドアをノック（コンコン）
 @se11
 
-#SCRIPT ORIGINAL 「樹、いるかーい？」
 ＠Ｓｈｉｚｕｋｕ,S00680
 「Ｉｔｓｕｋｉ，　ａｒｅ　ｙｏｕ　ｉｎ　ｔｈｅｒｅ？」
 
-#SCRIPT ORIGINAL 「…………」
 ＠Ｉｔｓｕｋｉ
 「．．．．．．」
 
-#SCRIPT ORIGINAL 〝せっかく〟部屋でゆっくりしていたのに、雫さんが来て〝しまった〟。
 Ｓｈｉｚｕｋｕ　ｆｏｕｎｄ　ｈｅｒ　ｗａｙ　ｈｅｒｅ，　ｅｖｅｎ<br>
 ａｆｔｅｒ　Ｉ’ｄ　ｇｏｎｅ　ｏｕｔ　ｏｆ　ｍｙ　ｗａｙ　ｔｏ　ｒｅｓｔ<br>
 ｉｎ　ｍｙ　ｒｏｏｍ．
 
 #"Troublesome" Even though I was taking it easy in my room, Shizuku-san comes knocking.  "Dammit."
 
-#SCRIPT ORIGINAL 「なーんか失礼なこと考えてるね、この沈黙は」
 ＠Ｓｈｉｚｕｋｕ,S00681
 「Ｙｏｕ´ｒｅ　ｓｏ　ｑｕｉｅｔ，　ｙｏｕ´ｖｅ　ｇｏｔ　ｔｏ　ｂｅ<br>
 ｔｈｉｎｋｉｎｇ　ｓｏｍｅｔｈｉｎｇ　ｒｕｄｅ」
 
 #「Are you thinking rude things?  Such a heavy silence.」
 
-#SCRIPT ORIGINAL 「いえいえ、開いてますからどうぞ」
 ＠Ｉｔｓｕｋｉ
 「Ｎｏ　ｎｏ，　ｔｈｅ　ｄｏｏｒ´ｓ　ｏｐｅｎ，　ｓｏ　ｃｏｍｅ<br>
 ｏｎ　ｉｎ」
@@ -45,12 +40,10 @@ label	miu_02
 
 @shizuku_ikari
 
-#SCRIPT ORIGINAL 「ったく、人をトラブルメーカーか何かだと思ってるんじゃないだろうね」
 ＠Ｓｈｉｚｕｋｕ,S00682
 「Ｊｅｅｚ，　Ｉ　ｈｏｐｅ　ｙｏｕ　ｗｅｒｅｎ’ｔ　ｔｈｉｎｋｉｎｇ<br>
 ｔｈａｔ　Ｉ　ｗａｓ　ｂｅｉｎｇ　ａ　ｔｒｏｕｂｌｅｍａｋｅｒ」
 
-#SCRIPT ORIGINAL 「ははは、まさか……」
 ＠Ｉｔｓｕｋｉ
 「Ｈａｈａｈａ，　ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ．．．」
 
@@ -58,33 +51,28 @@ label	miu_02
 
 @shizuku
 
-#SCRIPT ORIGINAL 「ふむ、なら構わないけど」
 ＠Ｓｈｉｚｕｋｕ,S00683
 「Ｍｈｍ，　ｖｅｒｙ　ｗｅｌｌ　ｔｈｅｎ，　ｂｕｔ．．．」
 
 #「Hmm, in that case, there is no problem.  However…」
 
-#SCRIPT ORIGINAL ……いや、今の『まさか』は否定じゃなく、「まさか自分で気付いてないのか」の『まさか』なんだが。
 ．．．Ａｃｔｕａｌｌｙ，　Ｉ　ｄｉｄｎ´ｔ　ｍｅａｎ　ｔｏ　ｄｅｎｙ　ｉｔ，<br>
 ｗｈａｔ　Ｉ　ｍｅａｎｔ　ｔｏ　ｓａｙ　ｗａｓ　“ｈｏｗ　ｃｏｕｌｄ<br>
 ｙｏｕ　ｂｅ　ｓｏ　ｏｂｌｉｖｉｏｕｓ？”．
 
 #……no, that 『ridiculous』wasn’t a denial.  "It’s impossible that she realized."  ‘Ridiculous’, huh?
 
-#SCRIPT ORIGINAL 「今風呂が開いたから教えに来てやったのさ。親切だろう？」
 ＠Ｓｈｉｚｕｋｕ,S00684
 「Ｔｈｅ　ｂａｔｈ´ｓ　ｆｒｅｅ　ｎｏｗ　ｓｏ　Ｉ　ｃａｍｅ　ｂｙ　ｔｏ<br>
 ｔｅｌｌ　ｙｏｕ．　Ｉｓｎ´ｔ　ｔｈａｔ　ｎｉｃｅ　ｏｆ　ｍｅ？」
 
 #「Since the bath is currently unoccupied, how about I teach you thing or two?  Isn’t that kind of me? 」(maybe "how about I give you a lesson")  
 
-#SCRIPT ORIGINAL 「……だから疑うんですが」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｔｈｉｓ　ｓｅｅｍｓ　ｋｉｎｄ　ｏｆ　ｆｉｓｈｙ」
 
 #「...Knowing you, I doubt it」
 
-#SCRIPT ORIGINAL 「まぁ風呂には行かせてもらいます。入ってこれないように鍵は掛けますけど」
 ＠Ｉｔｓｕｋｉ
 「Ｗｅｌｌ，　Ｉ　ｍａｙ　ａｓ　ｗｅｌｌ　ｈｅａｄ　ｏｎ　ｔｏ　ｔｈｅ<br>
 ｂａｔｈ．　Ｉ´ｌｌ　ｌｏｃｋ　ｉｔ　ｓｏ　ｐｅｏｐｌｅ　ｗｏｎ´ｔ<br>
@@ -94,13 +82,11 @@ label	miu_02
 
 @shizuku_warai
 
-#SCRIPT ORIGINAL 「へえ～、なかなか積極的じゃないの♪」
 ＠Ｓｈｉｚｕｋｕ,S00685
 「Ｗｈｏａ～，　Ｉ　ｌｉｋｅ　ｙｏｕｒ　ａｔｔｉｔｕｄｅ♪」
 
 #「Hey～, that’s not very positive.」
 
-#SCRIPT ORIGINAL 「そうまで言われちゃ、二人きりでアレコレとしてあげないといけないねぇ」
 ＠Ｓｈｉｚｕｋｕ,S00686
 「Ｗｈｅｎ　ｙｏｕ´ｌｌ　ｇｏ　ｓｏ　ｆａｒ　ａｓ　ｔｏ　ｓａｙ<br>
 ｔｈａｔ，　Ｉ　ｍｕｓｔ　ｏｂｌｉｇｅ　ｔｏ　ｈａｖｉｎｇ　ｓｏｍｅ<br>
@@ -111,7 +97,6 @@ label	miu_02
 #SE66　効果音１（ビシッ！）
 @se66
 
-#SCRIPT ORIGINAL 「二人きりじゃなくッ！　あなたを入れないための鍵ですからッ！」
 ＠Ｉｔｓｕｋｉ
 「Ｉｔ´ｓ　ｎｏｔ　ｔｏ　ｂｅ　ａｌｏｎｅ　ｔｏｇｅｔｈｅｒ！　Ｉ’ｍ<br>
 ｌｏｃｋｉｎｇ　ｉｔ　ｔｏ　ｋｅｅｐ　ｙｏｕ　ｏｕｔ！」
@@ -120,7 +105,6 @@ label	miu_02
 
 @shizuku_akire
 
-#SCRIPT ORIGINAL 「はいはい、嫌われたもんねぇ～……下半身には大満足して貰ったっていうのに」
 ＠Ｓｈｉｚｕｋｕ,S00687
 「Ｙｅａｈ　ｙｅａｈ，　ｙｏｕ　ｒｅａｌｌｙ　ｈａｔｅ　ｍｅ，<br>
 ｈｕｈ～．．．　ｂｕｔ　Ｉ　ｓａｔｉｓｆｉｅｄ　ｙｏｕ　ｄｏｗｎ<br>
@@ -128,27 +112,23 @@ label	miu_02
 
 #「Yeah yeah, I’m disliked, huh? ……But even so, satisfy my lower half for me.」
 
-#SCRIPT ORIGINAL 「……頭痛が…」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｉ　ｆｅｅｌ　ａ　ｈｅａｄａｃｈｅ　ｃｏｍｉｎｇ　ｏｎ」
 
 #「……I have a headache…」
 
-#SCRIPT ORIGINAL 「とりあえず、風呂に行きます。入ってこないでくださいよ」
 ＠Ｉｔｓｕｋｉ
 「Ｆｏｒ　ｔｈｅ　ｔｉｍｅ　ｂｅｉｎｇ，　Ｉ´ｌｌ　ｔａｋｅ　ａ　ｂａｔｈ．<br>
 Ｐｌｅａｓｅ　ｄｏｎ’ｔ　ｃｏｍｅ　ｉｎ」
 
 @shizuku_warai
 
-#SCRIPT ORIGINAL 「分かってるわよぉ。邪魔する気はないしね」
 ＠Ｓｈｉｚｕｋｕ,S00688
 「Ｉ　ｋｎｏｗ．　Ｉ　ｄｏｎ´ｔ　ｗａｎｔ　ｔｏ　ｇｅｔ　ｉｎ　ｔｈｅ<br>
 ｗａｙ」
 
 #「I understand.  I won’t ruin the atmosphere.」
 
-#SCRIPT ORIGINAL 「………？」
 ＠Ｉｔｓｕｋｉ
 「．．．？」
 
@@ -156,13 +136,11 @@ label	miu_02
 
 @bg_black
 
-#SCRIPT ORIGINAL 何か含み笑いが気にはなったが、構わず部屋を後にする。
 Ｈｅｒ　ｃｈｕｃｋｌｅ　ｗａｓ　ａ　ｂｉｔ　ｐｕｚｚｌｉｎｇ，　ｂｕｔ　Ｉ<br>
 ｌｅｆｔ　ｍｙ　ｒｏｏｍ　ｕｎｃｏｎｃｅｒｎｅｄ．
 
 #Her suppressed laugh made me worry, but I choose not to concern myself with it and continue relaxing in my room.
 
-#SCRIPT ORIGINAL 思えば、この時にもっと怪しむべきだったのだ。
 Ｔｈｉｎｋｉｎｇ　ａｂｏｕｔ　ｉｔ，　Ｉ　ｓｈｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ<br>
 ｍｏｒｅ　ｓｕｓｐｉｃｉｏｕｓ．
 
@@ -174,14 +152,12 @@ label	miu_02
 #SE16　廊下を歩く音
 @se16
 
-#SCRIPT ORIGINAL 「やれやれ……どこまでも冗談が過ぎ過ぎる人だ…」
 ＠Ｉｔｓｕｋｉ
 「Ｏｈ　ｍａｎ．．．　ｓｈｅ　ｒｅａｌｌｙ　ｄｏｅｓｎ’ｔ　ｋｎｏｗ<br>
 ｗｈｅｎ　ｔｏ　ｃｏｏｌ　ｉｔ　ｗｉｔｈ　ｔｈｅ　ｊｏｋｅｓ．．．」
 
 #「Aaah…they’re making a racket every time they pass by…」(maybe "everywhere they go")
 
-#SCRIPT ORIGINAL 「どういう環境で暮らせば、あんな大人が出来上がるんだろうか……」
 ＠Ｉｔｓｕｋｉ
 「Ｗｈａｔ　ｋｉｎｄ　ｏｆ　ｅｎｖｉｒｏｎｍｅｎｔ　ｗａｓ　ｓｈｅ<br>
 ｒａｉｓｅｄ　ｉｎ，　ｔｏ　ｍａｋｅ　ｈｅｒ　ｅｎｄ　ｕｐ　ｌｉｋｅ<br>
@@ -189,20 +165,17 @@ label	miu_02
 
 #「If they’re living here, then I guess an adult like me is finished…」
 
-#SCRIPT ORIGINAL まぁ出来てしまったものは仕方ないのだが。
 Ｗｅｌｌ，　ｔｈｅｒｅ’ｓ　ｎｏｔｈｉｎｇ　ｙｏｕ　ｃａｎ　ｄｏ　ｔｏ<br>
 ｃｈａｎｇｅ　ｈｅｒ　ｎｏｗ．
 
 #Now that I’m up, there is no helping it.
 
-#SCRIPT ORIGINAL だがこの施設の変り種・ざくろといちごは、オレが来るまで雫さんの担当だったわけで……
 Ｂｕｔ，　ｓｅｅｉｎｇ　ａｓ　Ｓｈｉｚｕｋｕ　ｗａｓ　ｉｎ　ｃｈａｒｇｅ<br>
 ｏｆ　ｔｈｅ　ｍｏｒｅ　ｅｃｃｅｎｔｒｉｃ　ｋｉｄｓ　－　Ｚａｋｕｒｏ<br>
 ａｎｄ　Ｉｃｈｉｇｏ　－　ｂｅｆｏｒｅ　Ｉ　ｃａｍｅ　ｈｅｒｅ．．．
 
 #Still, this kind of suspicious establishment, and Zakuro and Ichigo…  And then I came here under Shizuku-san’s orders… (maybe "request")
 
-#SCRIPT ORIGINAL 「ヤッベェ……確実に何か変なノリと性格が伝染してるぞ……」
 ＠Ｉｔｓｕｋｉ
 「Ｇｏｄｄａｍｎ．．．　ｔｈｅｙ’ｒｅ　ｓｕｒｅｌｙ　ｂｅｉｎｇ<br>
 ｉｎｆｅｃｔｅｄ　ｂｙ　ｈｅｒ　ｗｅｉｒｄ　ａｎｔｉｃｓ　ａｎｄ<br>
@@ -218,7 +191,6 @@ label	miu_02
 @miu_hadaka
 @miu_middle
 
-#SCRIPT ORIGINAL ぶつぶつ実の無いことを言いながら脱衣所のドアを開ける。
 Ｉ　ｏｐｅｎｅｄ　ｔｈｅ　ｄｏｏｒ　ｔｏ　ｔｈｅ　ｂａｔｈ　ｈｏｕｓｅ，<br>
 ｍｕｔｔｅｒｉｎｇ　ｂａｓｅｌｅｓｓ　ｔｈｉｎｇｓ　ｕｎｄｅｒ　ｍｙ<br>
 ｂｒｅａｔｈ．
@@ -233,29 +205,23 @@ label	miu_02
 
 wait	2000
 
-#SCRIPT ORIGINAL 「えっ……？」
 ＠Ｍｉｕ,B00393
 「Ｅｈ．．．？」
 
-#SCRIPT ORIGINAL 「へ……？」
 ＠Ｉｔｓｕｋｉ
 「Ｈｕｈ．．．？」
 
-#SCRIPT ORIGINAL 互いに間の抜けた声を返し、その瞬間硬直した。
 Ｏｕｒ　ｓｔｕｐｅｆｉｅｄ　ｖｏｉｃｅｓ　ｅｃｈｏ　ｅａｃｈ　ｏｔｈｅｒ，<br>
 ａｎｄ　ｔｉｍｅ　ｓｔｏｏｄ　ｓｔｉｌｌ．
 
-#SCRIPT ORIGINAL おそらく同じ目的で、服を脱ぎかけていた美雨がいる。
 Ｐｒｏｂａｂｌｙ　ｔｈｅｒｅ　ｆｏｒ　ｔｈｅ　ｓａｍｅ　ｒｅａｓｏｎ，<br>
 Ｍｉｕ　ｗａｓ　ｉｎｓｉｄｅ　ｈａｌｆ－ｕｎｄｒｅｓｓｅｄ．
 
 @miu
 
-#SCRIPT ORIGINAL 「…………」
 ＠Ｍｉｕ,B00394
 「．．．．．．」
 
-#SCRIPT ORIGINAL 雪白の肌と見事なプロポーションのほとんどを露にし、突然のオレの来訪に反応できず固まっている美雨。
 Ｈｅｒ　ｓｎｏｗ－ｗｈｉｔｅ　ｓｋｉｎ　ａｎｄ　ｂｅａｔｉｆｕｌ<br>
 ｃｕｒｖｅｓ　ａｌｍｏｓｔ　ｅｎｔｉｒｅｌｙ　ｅｘｐｏｓｅｄ，　Ｍｉｕ<br>
 ｆｒｅｅｚｅｓ　ｕｎａｂｌｅ　ｔｏ　ｒｅａｃｔ　ａｔ　ｍｙ　ｓｕｄｄｅｎ<br>
@@ -265,7 +231,6 @@ wait	2000
 
 #美しく膨らんだ豊乳が外しかけの下着から覗き、ウェストから綺麗なラインを描くヒップも薄い生地のショーツ一枚のみ。
 
-#SCRIPT ORIGINAL （……す、すごい……服の上からでも分かってたけど……雫さん以上だ）
 ＠Ｉｔｓｕｋｉ
 （．．．Ａ－ａｍａｚｉｎｇ．．．　Ｉ　ｃｏｕｌｄ　ｔｅｌｌ　ｅｖｅｎ<br>
 ｂｅｙｏｎｄ　ｈｅｒ　ｃｌｏｔｈｅｓ，　ｂｕｔ．．．　ｔｈｅｙ’ｒｅ<br>
@@ -273,7 +238,6 @@ wait	2000
 
 #(A, amazing… If I understand from her top… What Shizuku-san mentioned earlier was…)   [sounds a bit weird]
 
-#SCRIPT ORIGINAL 同じ硬直でも、オレは突然の遭遇に対してではなく、美雨のプロポーションに見とれての硬直だった。
 Ｉ　ｓｔｉｆｆｅｎｅｄ　ｕｐ　ｔｏｏ，　ｂｕｔ　ｉｔ　ｗａｓｎ’ｔ<br>
 ｂｅｃａｕｓｅ　ｏｆ　ｔｈｅ　ｓｕｒｐｒｉｓｅ　ｅｎｃｏｕｎｔｅｒ，　ｂｕｔ<br>
 ｒａｔｈｅｒ　ｆａｓｃｉｎａｔｉｏｎ　ａｔ　Ｍｉｕ’ｓ<br>
@@ -283,23 +247,19 @@ wait	2000
 
 @miu_tere
 
-#SCRIPT ORIGINAL 「あ、あの……」
 ＠Ｍｉｕ,B00395
 「Ｕ－ｕｍｍ．．．」
 
 #「Um, excuse me……」
 
-#SCRIPT ORIGINAL 「えっ……」
 ＠Ｉｔｓｕｋｉ
 「Ｅｈ．．．！」
 
-#SCRIPT ORIGINAL まだ硬いままのその声で、我に返る。
 Ａｔ　ｈｅｒ　ｆｒｏｚｅｎ　ｔｏｎｅ，　Ｉ　ｃｏｍｅ　ｂａｃｋ　ｔｏ<br>
 ｍｙ　ｓｅｎｓｅｓ．
 
 #Still unsteady, her voice makes me come to my senses.
 
-#SCRIPT ORIGINAL 「うわッ、悪い！」
 ＠Ｉｔｓｕｋｉ
 「Ｕｗａｈ！　Ｉ’ｍ　ｓｏｒｒｙ！」
 
@@ -310,18 +270,15 @@ wait	2000
 #■BG（廊下・夜）
 @bg_rouka_n
 
-#SCRIPT ORIGINAL 美雨に叫ばれる前に廊下へ飛び出した。
 Ｂｅｆｏｒｅ　Ｍｉｕ　ｃｏｕｌｄ　ｓｃｒｅａｍ　ｏｕｔ，　Ｉ<br>
 ｄａｓｈｅｄ　ｂａｃｋ　ｔｏ　ｔｈｅ　ｈａｌｌ．
 
-#SCRIPT ORIGINAL 「ビックリしたっ……な、何で美雨が着替えてるんだ」
 ＠Ｉｔｓｕｋｉ
 「Ｗｈａｔ　ａ　ｓｈｏｃｋ　ｔｈａｔ　ｗａｓ．．．　ｗ－ｗｈｙ’ｓ<br>
 Ｍｉｕ　ｃｈａｎｇｉｎｇ　ｉｎ　ｔｈｅｒｅ？」
 
 #「That sure surprised me.  Hmm, for what reason would Miu be changing?」
 
-#SCRIPT ORIGINAL 「……って、原因は一人しか居ないか」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｗａｉｔ，　ｔｈｅｒｅ　ｃｏｕｌｄ　ｏｎｌｙ　ｂｅ　ｏｎｅ<br>
 ｐｅｒｓｏｎ　ｂｅｈｉｎｄ　ｔｈｉｓ」
@@ -331,7 +288,6 @@ wait	2000
 @miu_maid
 @miu_small
 
-#SCRIPT ORIGINAL 気まずいこの場を離れ、すぐ元凶を探しに行く。
 Ｉ　ｇｏ　ｓｔｒａｉｇｈｔ　ｉｎ　ｓｅａｒｃｈ　ｏｆ　ｔｈｅ　ｃｕｌｐｒｉｔ，<br>
 ｍｏｖｉｎｇ　ｆｒｏｍ　ｔｈｉｓ　ａｗｋｗａｒｄ　ｖｉｃｉｎｉｔｙ．
 
@@ -340,25 +296,20 @@ wait	2000
 #■BG（リビング・夜）
 @bg_living_n
 
-#SCRIPT ORIGINAL 「居たッ、雫さん！」
 ＠Ｉｔｓｕｋｉ
 「Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ，　Ｓｈｉｚｕｋｕ－ｓａｎ！」
 
 @shizuku
 
-#SCRIPT ORIGINAL 「んー？　あれ、樹？」
 ＠Ｓｈｉｚｕｋｕ,S00689
 「Ｈｍｍ？　Ｏｈ，　Ｉｔｓｕｋｉ？」
 
-#SCRIPT ORIGINAL 「どうしたの。お風呂行ったんじゃなかったのかい？」
 ＠Ｓｈｉｚｕｋｕ,S00690
 「Ｗｈａｔ　ｈａｐｐｅｎｅｄ？　Ｉ　ｔｈｏｕｇｈｔ　ｙｏｕ　ｗｅｎｔ<br>
 ｔｏ　ｔａｋｅ　ａ　ｂａｔｈ」
 
-#SCRIPT ORIGINAL 呑気にお菓子をかじっていた。
 Ｓｈｅ　ｎｏｎｃｈａｌａｎｔｌｙ　ｂｉｔ　ｉｎｔｏ　ａ　ｐａｓｔｒｙ．
 
-#SCRIPT ORIGINAL 「ええ、えぇ、行きましたよ。見事に裸の美雨とエンカウントしました」
 ＠Ｉｔｓｕｋｉ
 「Ｙｅｓ，　ｙｅｓ，　Ｉ　ｗｅｎｔ．　Ｉ　ｈａｄ　ａｎ<br>
 ｅｎｃｏｕｎｔｅｒ　ｗｉｔｈ　ａ　ｍａｇｎｉｆｉｃｅｎｔｌｙ　ｎａｋｅｄ<br>
@@ -372,7 +323,6 @@ wait	2000
 #@Shizuku,S00691
 #「Yeah, she’s undressing」
 
-#SCRIPT ORIGINAL 「まぁ怒るのは分かるけど、もう少しゆっくり脱衣所に向かわなかった自分の運を恨むんだね」
 ＠Ｓｈｉｚｕｋｕ,S00692
 「Ｉ　ｃａｎ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ａｎｇｅｒ，　ｂｕｔ<br>
 ｉｔ’ｓ　ｙｏｕｒ　ｏｗｎ　ｆａｕｌｔ　ｔｈａｔ　ｙｏｕ　ｄｉｄｎ’ｔ<br>
@@ -383,7 +333,6 @@ wait	2000
 #SE66　効果音１（ビシッ！）
 @se66
 
-#SCRIPT ORIGINAL 「裸が見れなかったから怒ってるんじゃないってよ！　風呂開いてないじゃないですかッ」
 ＠Ｉｔｓｕｋｉ
 「Ｉ’ｍ　ｎｏｔ　ａｎｇｒｙ　ｂｅｃａｕｓｅ　Ｉ　ｄｉｄｎ’ｔ　ｇｅｔ<br>
 ｔｏ　ｓｅｅ　ｈｅｒ　ｎａｋｅｄ　ｍｏｒｅ！　Ｔｈｅ　ｂａｔｈ　ｉｓ<br>
@@ -399,73 +348,60 @@ wait	2000
 
 @shizuku_warai
 
-#SCRIPT ORIGINAL 「よかったろ♪」
 ＠Ｓｈｉｚｕｋｕ,S00694
 「Ｓｏ　ｗｈａｔ’ｓ　ｗｒｏｎｇ　ｗｉｔｈ　ｔｈａｔ？　♪」
 
-#SCRIPT ORIGINAL 「見られる美雨の身になってくださいッ、まったく人騒がせな」
 ＠Ｉｔｓｕｋｉ
 「Ｐｌｅａｓｅ　ｔｒｙ　ａｎｄ　ｓｔｅｐ　ｉｎｔｏ　Ｍｉｕ’ｓ<br>
 ｓｈｏｅｓ　ｂｅｉｎｇ　ｓｅｅｎ！　Ｗｈａｔ　ａ　ｈｏｐｅｌｅｓｓ<br>
 ｔｒｏｕｂｌｅｍａｋｅｒ」
 
-#SCRIPT ORIGINAL 「ははは、まぁそう気を悪くしなさんな」
 ＠Ｓｈｉｚｕｋｕ,S00695
 「Ｈａｈａｈａ，　ｗｅｌｌ　ｎｏ　ｎｅｅｄ　ｔｏ　ｈａｖｅ　ｓｕｃｈ<br>
 ａ　ｈｉｓｓｙ　ｆｉｔ」
 
 @shizuku
 
-#SCRIPT ORIGINAL 「ほら、話題の子が戻ってきたよ」
 ＠Ｓｈｉｚｕｋｕ,S00696
 「Ｌｏｏｋ，　ｔｈｅ　ｓｕｂｊｅｃｔ　ｏｆ　ｏｕｒ<br>
 ｃｏｎｖｅｒｓａｔｉｏｎ　ａｐｐｒｏａｃｈｅｓ」
 
-#SCRIPT ORIGINAL 「え……？」
 ＠Ｉｔｓｕｋｉ
 「Ｅｈ．．．？」
 
 @miu_odoroki
 
-#SCRIPT ORIGINAL 「あ……」
 ＠Ｍｉｕ,B00396
 「Ａｈ．．．」
 
-#SCRIPT ORIGINAL 雫さんに言われ振り返ると、いつものメイド服に着替えた美雨がそこに立っていた。
 Ｔｏｌｄ　ｂｙ　Ｓｈｉｚｕｋｕ　Ｉ　ｔｕｒｎ　ａｂｏｕｔ，　ａｎｄ<br>
 ｔｈｅｒｅ，　ｈａｖｉｎｇ　ｃｈａｎｇｅｄ　ｉｎｔｏ　ｈｅｒ　ｕｓｕａｌ<br>
 ｍａｉｄ　ｃｌｏｔｈｉｎｇ，　ｓｔｏｏｄ　Ｍｉｕ．
 
-#SCRIPT ORIGINAL 「み、美雨……！？　お風呂に入ったんじゃ……」
 ＠Ｉｔｓｕｋｉ
 「Ｍ－Ｍｉｕ．．．！？　Ｗ－ｗｅｒｅｎ’ｔ　ｙｏｕ　ｊｕｓｔ<br>
 ｔａｋｉｎｇ　ａ．．．」
 
 @miu_tere
 
-#SCRIPT ORIGINAL 「い、いえ……すぐに着替えて出てきたんです」
 ＠Ｍｉｕ,B00397
 「Ｎ－ｎｏ．．．　Ｉ　ｃｈａｎｇｅｄ　ｒｉｇｈｔ　ａｗａｙ　ａｎｄ<br>
 ｃａｍｅ　ｏｕｔ」
 
-#SCRIPT ORIGINAL 「そうしたらリビングで樹さんの声が聞こえたので、ここに……」
 ＠Ｍｉｕ,B00398
 「Ａｎｄ　ｔｈｅｎ，　Ｉ　ｈｅａｒｄ　ｙｏｕｒ　ｖｏｉｃｅ　ｆｒｏｍ<br>
 ｔｈｅ　ｌｉｖｉｎｇ　ｒｏｏｍ，　ｓｏ　Ｉ　ｃａｍｅ　ｈｅｒｅ．．．」
 
-#SCRIPT ORIGINAL 着替えを正面から見られた恥ずかしさで面映そうに、美雨はペコリと頭を下げた。
 Ｍｉｕ　ｂｏｂｂｅｄ　ｈｅｒ　ｈｅａｄ　ｄｏｗｎ，<br>
 ｓｅｌｆ－ｃｏｎｓｃｉｏｕｓ　ａｎｄ　ｅｍｂａｒｒａｓｓｅｄ　ａｔ<br>
 ｂｅｉｎｇ　ｓｅｅｎ　ｆｕｌｌ－ｏｎ　ｕｎｄｒｅｓｓｉｎｇ．
 
 #Being seen full on changing made her embarrassed, leaving her feeling ashamed.  Miu lowered her head and bowed.
 
-#SCRIPT ORIGINAL 「えっと……樹さん、さっきはすみませんでした…」
 ＠Ｍｉｕ,B00399
 「Ｕｍｍ．．．　Ｉｔｓｕｋｉ－ｓａｎ，　ｅｘｃｕｓｅ　ｍｅ　ｆｏｒ<br>
 ｗｈａｔ　ｈａｐｐｅｎｅｄ．．．」
 
-#SCRIPT ORIGINAL 「え、ああ……いや、オレこそ唐突に入って行ってあんな……」
 ＠Ｉｔｓｕｋｉ
 「Ｈｕｈ，　ｏｈｈ．．．　ｎｏ，　Ｉ　ｗｅｎｔ　ｉｎ　ｔｈｅｒｅ　ａｌｌ<br>
 ｏｆ　ａ　ｓｕｄｄｅｎ　ａｎｄ　ｓａｗ．．．」
@@ -475,17 +411,13 @@ wait	2000
 @miu_hadaka
 @miu_tere
 
-#SCRIPT ORIGINAL 「……あんな」
 ＠Ｉｔｓｕｋｉ
 「．．．ｓａｗ．．．」
 
-#SCRIPT ORIGINAL ………
 ．．．．．．
 
-#SCRIPT ORIGINAL ……………
 ．．．．．．．．．
 
-#SCRIPT ORIGINAL 「……樹さん？」
 ＠Ｍｉｕ,B00400
 「．．．Ｉｔｓｕｋｉ－ｓａｎ？」
 
@@ -494,31 +426,26 @@ wait	2000
 @bg_living_n
 
 @miu_maid
-#SCRIPT ORIGINAL 「うわッ！　な、なんでもないッ！」
 ＠Ｉｔｓｕｋｉ
 「Ｕｗａｈ！　Ｉ－ｉｔ’ｓ　ｎｏｔｈｉｎｇ！」
 
 @miu_odoroki
 @shizuku
 
-#SCRIPT ORIGINAL 「……え？」
 ＠Ｍｉｕ,B00401
 「．．．Ｅｈ？」
 
-#SCRIPT ORIGINAL 「ふっふ～ん？　脳内オカズとしてゲットしたわけね」
 ＠Ｓｈｉｚｕｋｕ,S00697
 「Ｃｈｕｃｋｌｅ，　ｈｍｍ～？　Ｉ　ｓｕｐｐｏｓｅ　ｙｏｕ　ｇｏｔ<br>
 ｓｏｍｅ　ｎｉｃｅ　ｆｏｏｄ　ｆｏｒ　ｙｏｕｒ　ｔｈｏｕｇｈｔｓ」
 
 #「Fufu~n?  Getting some food for your mind, huh?」
 
-#SCRIPT ORIGINAL 「バ、バカなッ！　違いますッて」
 ＠Ｉｔｓｕｋｉ
 「Ｓ－ｓｔｕｆｆ　ｉｔ！　Ｉｔ’ｓ　ｎｏｔ　ｌｉｋｅ　ｔｈａｔ！」
 
 @shizuku_warai
 
-#SCRIPT ORIGINAL 「謝ることないよ美雨。あんたの着替えを見れて喜んでるみたいだからさ」
 ＠Ｓｈｉｚｕｋｕ,S00698
 「Ｔｈｅｒｅ’ｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ａｐｏｌｏｇｉｚｅ，　Ｍｉｕ．<br>
 Ｈｅ　ｌｏｏｋｓ　ｌｉｋｅ　ｈｅ　ｅｎｊｏｙｅｄ　ｓｅｅｉｎｇ　ｙｏｕ<br>
@@ -526,7 +453,6 @@ wait	2000
 
 #「That isn’t an apology, Miu.  It looks like he enjoyed the view of you changing.」
 
-#SCRIPT ORIGINAL 「脳内でその光景をリプレイして、部屋で一人スプラッシュするらしいよ」
 ＠Ｓｈｉｚｕｋｕ,S00699
 「Ｉ　ｔｈｉｎｋ　ｈｅ’ｌｌ　ｍａｋｅ　ａ　ｓｐｌａｓｈ　ｉｎ　ｈｉｓ<br>
 ｒｏｏｍ，　ｗｈｅｎ　ｈｅ　ｒｅｐｌａｙｓ　ｔｈｅ　ｓｃｅｎｅ　ｉｎ<br>
@@ -536,11 +462,9 @@ wait	2000
 
 @miu_tere
 
-#SCRIPT ORIGINAL 「す……スプラッシュって…」
 ＠Ｍｉｕ,B00402
 「Ｓｐ－．．．　ｓｐｌａｓｈ，　ｙｏｕ　ｓａｙ．．．」
 
-#SCRIPT ORIGINAL 「美雨が信じてるから止めてください！　泣かしますよッ！　っていうかオレが泣きますよ！」
 ＠Ｉｔｓｕｋｉ
 「Ｐｌｅａｓｅ　ｓｔｏｐ，　Ｍｉｕ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅｌｉｅｖｅ<br>
 ｙｏｕ！　Ｙｏｕ’ｌｌ　ｍａｋｅ　ｈｅｒ　ｃｒｙ！　Ａｃｔｕａｌｌｙ，<br>
@@ -550,11 +474,9 @@ wait	2000
 
 @shizuku_akire
 
-#SCRIPT ORIGINAL 「はいはい、退散しますよ」
 ＠Ｓｈｉｚｕｋｕ,S00700
 「Ｙｅａｈ　ｙｅａｈ，　Ｉ’ｌｌ　ｂｅ　ｏｆｆ　ｔｈｅｎ」
 
-#SCRIPT ORIGINAL 「まったく、あたしの裸を見たときは、そんな可愛い反応してくれなかったけどねぇ」
 ＠Ｓｈｉｚｕｋｕ,S00701
 「Ｊｅｅｚ，　ｗｅｌｌ　ｙｏｕ　ｄｉｄｎ’ｔ　ｍａｋｅ　ｓｕｃｈ　ａ<br>
 ｃｕｔｅ　ｒｅａｃｔｉｏｎ　ｗｈｅｎ　ｙｏｕ　ｓａｗ　ｍｅ　ｎａｋｅｄ<br>
@@ -567,17 +489,14 @@ wait	2000
 #SE07　部屋のドア閉まる音（パタン）
 @se07
 
-#SCRIPT ORIGINAL 冗談口調で愚痴を言いながら、リビングを後にする。
 Ｇｒｕｍｂｌｉｎｇ　ｃｏｍｐｌａｉｎｔｓ　ｉｎ　ａ　ｊｏｋｉｎｇ　ｗａｙ，<br>
 ｓｈｅ　ｌｅｆｔ　ｔｈｅ　ｌｉｖｉｎｇ　ｒｏｏｍ．
 
 #She leaves the living room, complaining and uttering unpleasant jokes as she goes.
 
-#SCRIPT ORIGINAL 「……って、しまった」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｗａｉｔ，　ｄａｒｎ　ｉｔ」
 
-#SCRIPT ORIGINAL あの人を追い出したら、この状況で美雨と二人きりになってしまうッ……
 Ｎｏｗ　ｔｈａｔ　Ｉ　ｇｏｔ　ｒｉｄ　ｏｆ　ｈｅｒ，　ｉｔ’ｌｌ　ｂｅ<br>
 ｊｕｓｔ　ｔｈｅ　ｔｗｏ　ｏｆ　ｕｓ，　Ｍｉｕ　ａｎｄ　Ｉ，　ａｌｏｎｅ<br>
 ｈｅｒｅ．．．！
@@ -586,11 +505,9 @@ wait	2000
 
 @miu_tere
 
-#SCRIPT ORIGINAL 「………」
 ＠Ｍｉｕ,B00403
 「．．．．．．」
 
-#SCRIPT ORIGINAL 「………えっと、やっぱりここに戻ってきたっていう事は、オレに怒ってる？」
 ＠Ｉｔｓｕｋｉ
 「．．．．．．Ｅｒｒ，　ｓｉｎｃｅ　ｙｏｕ　ｃａｍｅ　ａｌｌ　ｔｈｅ<br>
 ｗａｙ　ｂａｃｋ　ｈｅｒｅ，　ｄｏｅｓ　ｔｈａｔ　ｍｅａｎ<br>
@@ -598,27 +515,23 @@ wait	2000
 
 @miu_komaru
 
-#SCRIPT ORIGINAL 「……い、いえ、今のは事故ですし。私は気にしていませんので…」
 ＠Ｍｉｕ,B00404
 「Ｎ－ｎｏ，　ｉｔ　ｗａｓ　ａｎ　ａｃｃｉｄｅｎｔ，　ａｆｔｅｒ　ａｌｌ．<br>
 Ｉ　ｗａｓｎ’ｔ　ｐａｙｉｎｇ　ａｔｔｅｎｔｉｏｎ，　ｓｏ．．．」
 
 #「N, no, it was an accident.  Because of me, the mood hasn’t become…」(again, second part sounds weird)
 
-#SCRIPT ORIGINAL 「ですから樹さんの方も、どうか気まずくならないでください」
 ＠Ｍｉｕ,B00405
 「Ｂｅｃａｕｓｅ　ｏｆ　ｔｈａｔ，　Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｙｏｕ<br>
 ｔｏ　ｆｅｅｌ　ｂａｄ　ａｂｏｕｔ　ｔｈｉｓ，　Ｉｔｓｕｋｉ－ｓａｎ」
 
 #「For Itsuki-san as well, please don’t feel that you need to be embarrassed.」
 
-#SCRIPT ORIGINAL 「……だよな、うん。悪いのは雫さんで、事故だし」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｙｅａｈ，　ｙｏｕ’ｒｅ　ｒｉｇｈｔ．<br>
 Ｓｈｉｚｕｋｕ－ｓａｎ’ｓ　ｔｈｅ　ｏｎｅ　ａｔ　ｆａｕｌｔ，　ｉｔ<br>
 ｗａｓ　ａｎ　ａｃｃｉｄｅｎｔ」
 
-#SCRIPT ORIGINAL 仮にもエッチまでしてる仲だし。着替え中の事故くらいで……
 Ｆｏｒ　ａｒｇｕｍｅｎｔ’ｓ　ｓａｋｅ，　ｗｅ’ｖｅ　ｅｖｅｎ<br>
 ｈａｄ　ｓｅｘ　ｂｅｆｏｒｅ．　Ｔｏ　ｗｏｒｒｙ　ａｂｏｕｔ　ａ<br>
 ｃｈａｎｇｉｎｇ　ａｃｃｉｄｅｎｔ．．．
@@ -630,10 +543,8 @@ wait	2000
 @miu_hadaka
 @miu_tere
 
-#SCRIPT ORIGINAL じ、事故くらいで……
 Ａ　ｃ－ｃｈａｎｇｉｎｇ　ａｃｃｉｄｅｎｔ．．．
 
-#SCRIPT ORIGINAL （し、しかし……当たり前だけど、あの頃より数段成長してたな…）
 ＠Ｉｔｓｕｋｉ
 （Ｓ－ｓｔｉｌｌ．．．　ｉｔ’ｓ　ｔｏ　ｂｅ　ｅｘｐｅｃｔｅｄ，　ｂｕｔ<br>
 ｓｈｅ’ｓ　ｄｅｖｅｌｏｐｅｄ　ａ　ｌｏｔ　ｓｉｎｃｅ　ｔｈｏｓｅ<br>
@@ -641,7 +552,6 @@ wait	2000
 
 #(But it is to be expected, our relationship has grown since those days.)
 
-#SCRIPT ORIGINAL 一瞬だったがゆえに、返って強いインパクトで光景が頭に残っている……
 Ｆｏｒ　ｓｕｃｈ　ａ　ｂｒｉｅｆ　ｍｏｍｅｎｔ，　ｔｈｅ　ｓｃｅｎｅ<br>
 ｓｕｒｅ　ｈａｄ　ａ　ｓｔｒｏｎｇ　ｉｍｐａｃｔ　ｒｅｍａｉｎｉｎｇ　ｉｎ<br>
 ｍｙ　ｍｉｎｄ．．．
@@ -655,10 +565,8 @@ wait	2000
 
 @bg_living_n
 
-#SCRIPT ORIGINAL ブンブンブンッ！
 Ｓｈａｋｅ　ｓｈａｋｅ　ｓｈａｋｅ！
 
-#SCRIPT ORIGINAL （って……これじゃ本気で雫さんの言うとおりオカズ状態じゃんッ！）
 ＠Ｉｔｓｕｋｉ
 （Ｉ　ｍｅａｎ．．．　ａｔ　ｔｈｉｓ　ｒａｔｅ，　ｉｔ　ｒｅａｌｌｙ　ｉｓ<br>
 ｆｏｏｄ　ｆｏｒ　ｍｙ　ｔｈｏｕｇｈｔｓ　ｌｉｋｅ　Ｓｈｉｚｕｋｕ<br>
@@ -668,13 +576,11 @@ wait	2000
 
 @miu_odoroki
 
-#SCRIPT ORIGINAL 「……ど、どうかしましたか？」
 ＠Ｍｉｕ,B00406
 「．．．Ｉ－ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｔｈｅ　ｍａｔｔｅｒ？」
 
 #「S, so, how was it?」 (maybe word it differently)
 
-#SCRIPT ORIGINAL 「いや別に……気にしない方向で」
 ＠Ｉｔｓｕｋｉ
 「Ｎｏ，　ｎｏｔ　ｒｅａｌｌｙ．．．　ｉｔ’ｓ　ｎｏｔｈｉｎｇ　ｔｏ<br>
 ｗｏｒｒｙ　ａｂｏｕｔ」
@@ -683,13 +589,11 @@ wait	2000
 
 @miu_komaru
 
-#SCRIPT ORIGINAL 「………？」
 ＠Ｍｉｕ,B00407
 「．．．？」
 
 @miu_warai
 
-#SCRIPT ORIGINAL 「えっと……ではとりあえず、樹さんが先にお風呂に入ってくださいますか？」
 ＠Ｍｉｕ,B00408
 「Ｕｍｍ．．．　ｔｈｅｎ，　ｆｏｒ　ｔｈｅ　ｔｉｍｅ　ｂｅｉｎｇ，<br>
 ｗｏｕｌｄ　ｙｏｕ　ｌｉｋｅ　ｔｏ　ｔａｋｅ　ａ　ｂａｔｈ　ｂｅｆｏｒｅ<br>
@@ -697,14 +601,12 @@ wait	2000
 
 #「Um…Then for the time being, Itsuki-san, would you please do so before entering the bath.」
 
-#SCRIPT ORIGINAL 「その間に準備の方は、私がしておきますので」
 ＠Ｍｉｕ,B00409
 「Ｗｈｉｌｅ　ｙｏｕ’ｒｅ　ｄｏｉｎｇ　ｔｈａｔ，　Ｉ’ｌｌ　ｍａｋｅ<br>
 ｔｈｅ　ｐｒｅｐａｒａｔｉｏｎｓ．．．」
 
 #「This is a chance to prepare.  And I will act on that chance.」
 
-#SCRIPT ORIGINAL 「ああ、了解。それじゃお互い今のは流す方向でな」
 ＠Ｉｔｓｕｋｉ
 「Ｙｅａｈ，　ｇｏｔ　ｉｔ．　Ｗｅｌｌ　ｔｈｅｎ，　ｗｅ　ｃａｎ<br>
 ｂｏｔｈ　ｇｏ　ｏｕｒ　ｓｅｐａｒａｔｅ　ｗａｙｓ」
@@ -713,7 +615,6 @@ wait	2000
 
 @miu
 
-#SCRIPT ORIGINAL 「はい。それではこれで、失礼します」
 ＠Ｍｉｕ,B00410
 「Ｙｅｓ．　Ｔｈｅｎ　ｗｉｔｈ　ｔｈａｔ，　ｐｌｅａｓｅ　ｅｘｃｕｓｅ<br>
 ｍｅ」
@@ -723,49 +624,39 @@ wait	2000
 #SE18　廊下を歩き去る音　※徐々に小さく
 @se18
 
-#SCRIPT ORIGINAL まだ頬に僅かな赤みを残しながら、美雨もリビングから退室する。
 Ｍｉｕ　ｌｅａｖｅｓ　ｔｈｅ　ｌｉｖｉｎｇ　ｒｏｏｍ，　ｔｈｅ　ｒｅｄ<br>
 ｔｉｎｇｅ　ｏｆ　ｈｅｒ　ｃｈｅｅｋｓ　ｙｅｔ　ｔｏ　ｄｉｓａｐｐｅａｒ．
 
-#SCRIPT ORIGINAL 「はぁ、やれやれ……とんだ一件だった…」
 ＠Ｉｔｓｕｋｉ
 「Ｓｉｇｈ，　ｏｈ　ｍａｎ．．．　Ｉ　ｗｏｕｌｄ　ｎｅｖｅｒ　ｈａｖｅ<br>
 ｅｘｐｅｃｔｅｄ　ｔｈａｔ　ｔｏ　ｈａｐｐｅｎ．．．」
 
 #「Haa, fwoo…that was quite an unusual situation…」
 
-#SCRIPT ORIGINAL 「……あれ？」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｈｕｈ？」
 
-#SCRIPT ORIGINAL その姿を見送り、また疑問だけが残った。
 Ｓｅｅｉｎｇ　ｈｅｒ　ｗａｌｋ　ａｗａｙ，　ｏｎｅ　ｍｏｒｅ<br>
 ｑｕｅｓｔｉｏｎ　ｎａｇｇｅｄ　ａｔ　ｍｅ．
 
 #Seeing off that figure, there was again only one problem that remained.  (possibly, "again, it was the only problem that remained.")
 
-#SCRIPT ORIGINAL 「………準備って、何？」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｗｈａｔ　ｐｒｅｐａｒａｔｉｏｎｓ？」
 
 #■BG（黒）
 @bg_black
 
-#SCRIPT ORIGINAL …………………
 ．．．．．．．．．．．．
 
-#SCRIPT ORIGINAL ……………
 ．．．．．．．．．
 
-#SCRIPT ORIGINAL ………
 ．．．．．．
 
-#SCRIPT ORIGINAL その数十分後。
 Ｈａｌｆ　ａｎ　ｈｏｕｒ　ｌａｔｅｒ．
 
 #Ten minutes later.
 
-#SCRIPT ORIGINAL さっぱりして風呂から上がったオレは、部屋に置かれた新しいテッシュの箱で、その言葉の意味を知った。
 Ｆｅｅｌｉｎｇ　ｒｅｆｒｅｓｈｅｄ，　Ｉ　ｇｏｔ　ｏｕｔ　ｏｆ　ｔｈｅ<br>
 ｂａｔｈ．　Ｉ　ｋｎｅｗ　ｗｈａｔ　ｓｈｅ　ｍｅａｎｔ，　ｗｈｅｎ　Ｉ<br>
 ｆｏｕｎｄ　ｔｈｅ　ｎｅｗ　ｔｉｓｓｕｅ　ｂｏｘ　ｐｌａｃｅｄ　ｉｎ　ｍｙ<br>

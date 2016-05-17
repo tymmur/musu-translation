@@ -11,7 +11,6 @@ label	zakuro_08
 @bg_syoutengai		# 商店街
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT ORIGINAL その日、商店街でざくろとばったり出会った。
 Ｏｎｅ　ｄａｙ，　Ｉ　ｂｕｍｐｅｄ　ｉｎｔｏ　Ｚａｋｕｒｏ　ｉｎ　ｔｈｅ<br>
 ｓｈｏｐｐｉｎｇ　ｄｉｓｔｒｉｃｔ．
 
@@ -21,12 +20,10 @@ label	zakuro_08
 @zakuro			#普
 
 #＠ざくろ,Q01485
-#SCRIPT ORIGINAL 「あ、つっちー見つけた」
 ＠Ｚａｋｕｒｏ,Q01485
 「Ａｈ，　Ｔｓｕ－ｃｈｉ　ｓｉｇｈｔｅｄ」
 
 #＠樹
-#SCRIPT ORIGINAL 「ざくろ、一人で買い物か？」
 ＠Ｉｔｓｕｋｉ
 「Ｓｈｏｐｐｉｎｇ　ｂｙ　ｙｏｕｒｓｅｌｆ，　Ｚａｋｕｒｏ？」
 
@@ -39,16 +36,13 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 #＠ざくろ,Q01486
-#SCRIPT ORIGINAL 「そう、ちょっと空き時間ができたから」
 ＠Ｚａｋｕｒｏ,Q01486
 「Ｙｅａｈ，　ｓｉｎｃｅ　Ｉ　ｈａｄ　ｓｏｍｅ　ｆｒｅｅ　ｔｉｍｅ」
 
-#SCRIPT ORIGINAL そう言ったざくろは、大きな紙袋を抱えている。
 Ｓｏ　ｓａｙｉｎｇ，　Ｚａｋｕｒｏ´ｓ　ｓｌｉｎｇｉｎｇ　ａ　ｌａｒｇｅ<br>
 ｐａｐｅｒ　ｂａｇ．
 
 #＠樹
-#SCRIPT ORIGINAL 「何をそんなに買ったんだ？　……って聞くまでもないか。また青ノリか」
 ＠Ｉｔｓｕｋｉ
 「Ｔｈａｔ´ｓ　ａ　ｌｏｔ　ｏｆ　ｓｔｕｆｆ．．．　ｗａｉｔ，　Ｉ<br>
 ｄｏｎ´ｔ　ｎｅｅｄ　ｔｏ　ａｓｋ．　Ａｏｎｏｒｉ　ａｇａｉｎ，　ｉｓ<br>
@@ -57,31 +51,26 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01487
-#SCRIPT ORIGINAL 「うん。青ノリ分が不足したから、大量補給」
 ＠Ｚａｋｕｒｏ,Q01487
 「Ｙｕｐ．　Ｗｅ　ｗｅｒｅ　ｒｕｎｎｉｎｇ　ｏｕｔ　ｏｆ<br>
 Ａｏｎｏｒｉ，　ｓｏ　Ｉ　ｇｏｔ　ａ　ｂｉｇ　ｓｕｐｐｌｙ」
 
 #＠樹
-#SCRIPT ORIGINAL 「しかし多いな」
 ＠Ｉｔｓｕｋｉ
 「Ｔｈａｔ　ｓｕｒｅ　ｉｓ　ａ　ｌｏｔ，　ｔｈｏｕｇｈ」
 
 @zakuro_niko		#にこ
 
 #＠ざくろ,Q01488
-#SCRIPT ORIGINAL 「いつも買ってるのの他に、今日はちょっと吉野川産のと、四万十川産のも奮発してみた。すごい楽しみ」
 ＠Ｚａｋｕｒｏ,Q01488
 「Ｂｅｓｉｄｅｓ　ｔｈｅ　ｕｓｕａｌ　ｏｎｅ　Ｉ　ｂｕｙ，　ｔｏｄａｙ　Ｉ<br>
 ｓｐｌｕｒｇｅｄ　ｏｎ　Ｙｏｓｈｉｎｏ　ａｎｄ　Ｓｈｉｍａｎｔｏ<br>
 ｒｉｖｅｒ　ｐｒｏｄｕｃｅ．　Ｉ　ｃａｎ´ｔ　ｗａｉｔ」
 
-#SCRIPT ORIGINAL 袋をのぞき込んでニコニコしている。
 Ｓｈｅ　ｐｅｅｋｅｄ　ｉｎｓｉｄｅ　ｔｈｅ　ｂａｇ　ａｎｄ<br>
 ｇｒｉｎｎｅｄ．
 
 #＠樹
-#SCRIPT ORIGINAL 「へえ、青ノリにどこそこ産なんてあるんだ」
 ＠Ｉｔｓｕｋｉ
 「Ｗｈｏａ，　ｓｏ　Ａｏｎｏｒｉ　ｈａｓ　ｐｒｏｄｕｃｅ<br>
 ｌａｂｅｌｓ」
@@ -91,16 +80,13 @@ bgm_stop
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01489
-#SCRIPT ORIGINAL 「つっちー……」
 ＠Ｚａｋｕｒｏ,Q01489
 「Ｔｓｕ－ｃｈｉ．．．」
 
-#SCRIPT ORIGINAL 何気なくついた言葉に、ざくろは驚愕と軽蔑が入り交じったような表情を浮かべた。
 Ｚａｋｕｒｏ　ｍａｄｅ　ａ　ｆａｃｅ　ｏｆ　ａｓｔｏｎｉｓｈｍｅｎｔ<br>
 ａｎｄ　ｄｉｓｄａｉｎ　ａｔ　ｍｙ　ｉｎｎｏｃｅｎｔｌｙ　ｓｐｏｋｅｎ<br>
 ｗｏｒｄｓ．
 
-#SCRIPT ORIGINAL 「あ……ゴメン。そりゃあるよな、どこそこ産くらい」
 ＠Ｉｔｓｕｋｉ
 「Ａｈ．．．　ｓｏｒｒｙ．　Ｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｔｈｅｍ，<br>
 ｐｒｏｄｕｃｅ　ｌａｂｅｌｓ」
@@ -108,7 +94,6 @@ bgm_stop
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01490
-#SCRIPT ORIGINAL 「あるに決まってる。つっちー、不勉強すぎ」
 ＠Ｚａｋｕｒｏ,Q01490
 「Ｏｆ　ｃｏｕｒｓｅ　ｉｔ　ｄｏｅｓ．　Ｔｓｕ－ｃｈｉ，　ｙｏｕｒ<br>
 ｋｎｏｗｌｅｄｇｅ　ｉｓ　ｌａｃｋｉｎｇ」
@@ -118,7 +103,6 @@ bgm_stop
 wait		1000
 
 #＠ざくろ,Q01491
-#SCRIPT ORIGINAL 「青ノリには１級から５級まであるの。同じ河でとれた一番いいのが１級。でも、そもそも河ごとに味も匂いも食感も違ってる」
 ＠Ｚａｋｕｒｏ,Q01491
 「Ａｏｎｏｒｉ　ｈａｓ　ｒａｎｋｓ　１－５．　Ｔｈｅ　ｂｅｓｔ　ｏｎｅ<br>
 ｆｒｏｍ　ａ　ｒｉｖｅｒ　ｉｓ　ｒａｎｋ　１．　Ｂｕｔ　ｔｈｅ　ｔａｓｔｅ，<br>
@@ -128,7 +112,6 @@ wait		1000
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01492
-#SCRIPT ORIGINAL 「全国数ある青ノリの中でも、四万十川の１級、『すじあおのり』が最高だってことは、青ノリ好きには常識」
 ＠Ｚａｋｕｒｏ,Q01492
 「Ａｍｏｎｇ　ｔｈｅ　ｃｏｕｎｔｒｙ´ｓ　ｍａｎｙ　Ａｏｎｏｒｉ，<br>
 ｉｔ´ｓ　ｃｏｍｍｏｎ　ｋｎｏｗｌｅｄｇｅ　ｆｏｒ　Ａｏｎｏｒｉ<br>
@@ -138,18 +121,15 @@ wait		1000
 @zakuro_niko		#にこ
 
 #＠ざくろ,Q01493
-#SCRIPT ORIGINAL 「宝石みたいな緑で、絹糸のように細くて、口の中でさらりと溶けて味はもちろん、その香りといったら、あぁ、素敵すぎる、最高」
 ＠Ｚａｋｕｒｏ,Q01493
 「Ｇｒｅｅｎ　ｌｉｋｅ　ａ　ｊｅｗｅｌ，　ｔｈｉｎ　ｌｉｋｅ　ａ　ｓｉｌｋ<br>
 ｔｈｒｅａｄ，　ａ　ｆｌａｖｏｕｒ　ｔｈａｔ　ｍｅｌｔｓ　ｉｎ　ｙｏｕｒ<br>
 ｍｏｕｔｈ，　ａｎｄ　ｔｈｅ　ｓｃｅｎｔ　ｔｏｏ．．．　ａｈｈ，<br>
 ｉｔ´ｓ　ｌｏｖｅｌｙ，　ｔｈｅ　ｂｅｓｔ」
 
-#SCRIPT ORIGINAL 道の真ん中でうっとりと目を細めるざくろ。
 Ｚａｋｕｒｏ　ｓｍｉｌｅｓ　ａｂｓｅｎｔｍｉｎｄｅｄｌｙ　ｉｎ　ｔｈｅ<br>
 ｍｉｄｄｌｅ　ｏｆ　ｔｈｅ　ｓｔｒｅｅｔ．
 
-#SCRIPT ORIGINAL このまま歌でも歌い始めそうだ。
 Ｌｏｏｋｉｎｇ　ｌｉｋｅ　ｓｈｅ　ｍｉｇｈｔ　ｊｕｓｔ　ｓｔａｒｔ<br>
 ｓｉｎｇｉｎｇ　ｏｒ　ｓｏｍｅｔｈｉｎｇ．
 
@@ -171,7 +151,6 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 #＠ざくろ,Q01494
-#SCRIPT ORIGINAL 「諸君、私は青ノリが好き。諸君、私は青ノリが大好き」
 ＠Ｚａｋｕｒｏ,Q01494
 「Ｇｅｎｔｌｅｍｅｎ，　Ｉ　ｌｉｋｅ　Ａｏｎｏｒｉ．　Ｌａｄｉｅｓ，　Ｉ<br>
 ｌｏｖｅ　Ａｏｎｏｒｉ」
@@ -179,7 +158,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01495
-#SCRIPT ORIGINAL 「すじあおのりが好き、ひらあおのりが好き、ぼうあおのりが好き、うすばあおのりが好き、あなあおさが好き、おおあおさが好き」
 ＠Ｚａｋｕｒｏ,Q01495
 「Ｉ　ｌｉｋｅ　Ｓｕｊｉ　Ａｏｎｏｒｉ，　Ｉ　ｌｉｋｅ　Ｈｉｒａ<br>
 Ａｏｎｏｒｉ，　Ｉ　ｌｉｋｅ　Ｂｏｕ　Ａｏｎｏｒｉ，　Ｉ　ｌｉｋｅ<br>
@@ -189,7 +167,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01496
-#SCRIPT ORIGINAL 「ご飯で、焼き肉で、お刺身で、卵焼きで、カツ丼で、天ぷらで、肉じゃがで、焼き魚で、お好み焼きで、焼きそばで」
 ＠Ｚａｋｕｒｏ,Q01496
 「Ｏｎ　ｒｉｃｅ，　ｏｎ　ｙａｋｉｎｉｋｕ，　ｏｎ　ｏｍｅｌｅｔ，　ｏｎ<br>
 ｋａｔｓｕｄｏｎ，　ｏｎ　ｔｅｍｐｕｒａ，　ｏｎ　ｎｉｋｕｊａｇａ，<br>
@@ -202,13 +179,11 @@ layer_movepass_play	l_zakuro,0,play_once
 @SE66			#効果音１（ビシッ！）※場面を強調したりする効果音
 
 #＠ざくろ,Q01497
-#SCRIPT ORIGINAL 「この地上で振りかけられる、ありとあらゆる青ノリが大好き」
 ＠Ｚａｋｕｒｏ,Q01497
 「Ｉ　ｌｏｖｅ　ｅｖｅｒｙ　ｓｉｎｇｌｅ　Ａｏｎｏｒｉ　ｓｐｒｉｎｋｌｅｄ<br>
 ｏｎ　ｔｈｉｓ　Ｅａｒｔｈ」
 
 #＠樹
-#SCRIPT ORIGINAL 「ちょ、ちょ、ちょっと待て待て、ざくろ！」
 ＠Ｉｔｓｕｋｉ
 「Ａｃｋ，　ｗａｉ－，　ｗａｉｔ　ｗａｉｔ，　ｈｏｌｄ　ｉｔ，<br>
 Ｚａｋｕｒｏ！」
@@ -216,11 +191,9 @@ layer_movepass_play	l_zakuro,0,play_once
 bgm_stop
 @bg_black
 
-#SCRIPT ORIGINAL 歌どころか演説を始めたざくろを慌てて制止する。
 Ｆｌｕｓｔｅｒｅｄ，　Ｉ　ｃｏｎｔａｉｎ　Ｚａｋｕｒｏ　ｉｎ　ｈｅｒ<br>
 ｕｎｓｕｎｇ　ａｄｄｒｅｓｓ　ｓｈｅ　ｓｔａｒｔｅｄ．
 
-#SCRIPT ORIGINAL どこの少佐だ、お前は。
 Ｗｈａｔ　ｋｉｎｄ　ｏｆ　ａ　ｍａｒｓｈａｌ　ａｒｅ　ｙｏｕ？
 
 @zakuro_middle		# 中間
@@ -229,23 +202,19 @@ bgm_stop
 @bg_syoutengai		# 商店街
 
 #＠ざくろ,Q01498
-#SCRIPT ORIGINAL 「なに？」
 ＠Ｚａｋｕｒｏ,Q01498
 「Ｗｈａｔ？」
 
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT ORIGINAL 人目を気にした風もなく、平然とこちらを見返すざくろ。
 Ｕｎｍｉｎｄｆｕｌ　ｏｆ　ｏｔｈｅｒ　ｐｅｏｐｌｅ’ｓ　ｓｔａｒｅｓ，<br>
 Ｚａｋｕｒｏ　ｌｏｏｋｓ　ｂａｃｋ　ａｔ　ｍｅ　ｃｏｏｌｌｙ．
 
 #Without even minding other people's eyes, Zakuro calmly looked back at me.
 
-#SCRIPT ORIGINAL いきなり素に戻るか。
 Ｂａｃｋ　ｔｏ　ｎｏｒｍａｌ　ａｌｌ　ｏｆ　ａ　ｓｕｄｄｅｎ．
 
 #＠樹
-#SCRIPT ORIGINAL 「い、いや、その、なんだ……今日はその四万十川産の最高級品が手に入ったんだろ。夕食が楽しみだな」
 ＠Ｉｔｓｕｋｉ
 「Ｕ－ｕｈ　ｗｅｌｌ，　ｕｍ，　ｗｏｗ．．．　ｙｏｕ　ｇｏｔ　ｔｈｅ<br>
 ｔｏｐ　ｑｕａｌｉｔｙ　Ｓｈｉｍａｎｔｏ　ｒｉｖｅｒ　ｐｒｏｄｕｃｅ<br>
@@ -254,34 +223,29 @@ bgm_stop
 @zakuro			#普
 
 #＠ざくろ,Q01499
-#SCRIPT ORIGINAL 「うん、でもこっちは『良いことがあった時』用にちょっと熟成させるつもり」
 ＠Ｚａｋｕｒｏ,Q01499
 「Ｙｅａｈ，　ｂｕｔ　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｌｅｔ　ｔｈｉｓ　ｏｎｅ<br>
 ｒｉｐｅｎ　“ｆｏｒ　ｗｈｅｎ　ｔｈｅ　ｔｉｍｅ　ｉｓ　ｒｉｇｈｔ”」
 
 #＠樹
-#SCRIPT ORIGINAL 「熟成？」
 ＠Ｉｔｓｕｋｉ
 「Ｒｉｐｅｎ？」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01500
-#SCRIPT ORIGINAL 「すぐに食べたいのは吉野川の方。食事よりは気分転換向きだけど」
 ＠Ｚａｋｕｒｏ,Q01500
 「Ｔｈｅ　Ｙｏｓｈｉｎｏ　ｒｉｖｅｒ　ｏｎｅ　Ｉ’ｌｌ　ｅａｔ　ｒｉｇｈｔ<br>
 ａｗａｙ．　Ｉｔ’ｓ　ｍｅａｎｔ　ｍｏｒｅ　ａｓ　ａ　ｃｈａｎｇｅ<br>
 ｏｆ　ｐａｃｅ　ｔｈａｎ　ｆｏｒ　ｄｉｎｎｅｒ，　ｂｕｔ．．．」
 
 #＠樹
-#SCRIPT ORIGINAL 「はぁ、気分転換……？」
 ＠Ｉｔｓｕｋｉ
 「Ｓｉｇｈ，　ｃｈａｎｇｅ　ｏｆ　ｐａｃｅ．．．？」
 
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01501
-#SCRIPT ORIGINAL 「吉野川の『ぼうあおのり』は、幅広で口溶けは今ひとつなんだけど、その分、滋味に溢れてるわ」
 ＠Ｚａｋｕｒｏ,Q01501
 「Ｙｏｓｈｉｎｏ　ｒｉｖｅｒ´ｓ　“Ｂｏｕ　Ａｏｎｏｒｉ”　ｉｓ<br>
 ｕｎｐａｒａｌｌｅｌｅｄ　ｉｎ　ｍｅｌｔ－ｉｎ－ｙｏｕｒ－ｍｏｕｔｈ<br>
@@ -291,7 +255,6 @@ bgm_stop
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01502
-#SCRIPT ORIGINAL 「口の中でじっくり噛んでると、じわ～～っと香りが鼻に抜けていって、気持ちが落ちつくの」
 ＠Ｚａｋｕｒｏ,Q01502
 「Ａｓ　ｙｏｕ　ｃｈｅｗ　ｏｎ　ｉｔ　ｃａｒｅｆｕｌｌｙ，　ｔｈｅ<br>
 ｓｃｅｎｔ　ｓｌｏｗｌｙ　ｂｕｔ　ｓｔｅａｄｉｌｙ　ｃｏｍｅｓ　ｕｐ<br>
@@ -300,7 +263,6 @@ bgm_stop
 @zakuro			#普
 
 #＠ざくろ,Q01503
-#SCRIPT ORIGINAL 「ああ、青ノリ、青ノリ、あなたはどうして青ノリなの？　それは青ノリだから」
 ＠Ｚａｋｕｒｏ,Q01503
 「Ｏｈ，　Ａｏｎｏｒｉ，　Ａｏｎｏｒｉ，　ｗｈｅｒｅｆｏｒｅ　ａｒｔ<br>
 ｔｈｏｕ　Ａｏｎｏｒｉ？　．．．Ｔｈｏｕ　ｃａｎ　ｂｅ　ｎａｕｇｈｔ<br>
@@ -309,12 +271,10 @@ bgm_stop
 #TL note: Literally, “Why are you called “green seaweed”? Well, it’s because you are green seaweed.”
 
 #＠樹
-#SCRIPT ORIGINAL 「そ、そうか……とにかく良い物が手に入って良かったな」
 ＠Ｉｔｓｕｋｉ
 「Ｒ－ｒｉｇｈｔ．．．　ａｎｙｗａｙ，　ｉｔ’ｓ　ｇｏｏｄ　ｔｈａｔ<br>
 ｙｏｕ　ｇｏｔ　ｑｕｉｔｅ　ａ　ｈａｕｌ　ｔｏｄａｙ」
 
-#SCRIPT ORIGINAL また語り出しそうなので、口を挟むと、
 Ｉ　ｉｎｔｅｒｊｅｃｔ　ａｓ　ｓｈｅ’ｓ　ａｂｏｕｔ　ｔｏ　ｇｏ<br>
 ｏｆｆ－ｋｉｌｔｅｒ　ａｇａｉｎ，　ａｎｄ　ｔｈｅｎ．．．
 
@@ -323,12 +283,10 @@ bgm_stop
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01504
-#SCRIPT ORIGINAL 「つっちーも食べたい？」
 ＠Ｚａｋｕｒｏ,Q01504
 「Ｗａｎｔ　ｓｏｍｅ，　Ｔｓｕ－ｃｈｉ？」
 
 #＠樹
-#SCRIPT ORIGINAL 「そりゃまあ、その四万十川の最高級品か？　それにはちょっと興味あるな」
 ＠Ｉｔｓｕｋｉ
 「Ｗｅｌｌ，　Ｉ　ｓｕｐｐｏｓｅ　ｗｉｔｈ　ｔｈａｔ　Ｓｈｉｍａｎｔｏ<br>
 ｒｉｖｅｒ　ｂｅｓｔ　ｏｆ　ｔｈｅ　ｂｅｓｔ　ｓｔｕｆｆ．．．　Ｉ’ｍ　ａ<br>
@@ -339,7 +297,6 @@ bgm_stop
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01505
-#SCRIPT ORIGINAL 「それは人として当然。でも、すぐには駄目」
 ＠Ｚａｋｕｒｏ,Q01505
 「Ｉｆ　ｙｏｕ　ｌｉｖｅ　ａｎｄ　ｂｒｅａｔｈｅ　ｏｎ　ｔｈｉｓ<br>
 Ｅａｒｔｈ，　ｙｏｕ　ｗｏｕｌｄ　ｂｅ．　Ｂｕｔ　ｎｏｔ　ｒｉｇｈｔ<br>
@@ -348,14 +305,12 @@ bgm_stop
 #「That's only natural for people to do that. But, you can't eat it right away.」
 
 #＠樹
-#SCRIPT ORIGINAL 「分かってるよ」
 ＠Ｉｔｓｕｋｉ
 「Ｉ　ｋｎｏｗ」
 
 @zakuro_niko		#にこ
 
 #＠ざくろ,Q01506
-#SCRIPT ORIGINAL 「そうね、つっちーが私をちゃんとイカせられたら、一口だけ食べさせてあげる。口移しで」
 ＠Ｚａｋｕｒｏ,Q01506
 「Ｙｅａｈ，　ｏｎｃｅ　Ｔｓｕ－ｃｈｉ’ｓ　ｍａｎａｇｅｄ　ｔｏ<br>
 ｍａｋｅ　ｍｅ　ｃｏｍｅ，　Ｉ’ｌｌ　ｆｅｅｄ　ｙｏｕ　ｊｕｓｔ　ｏｎｅ<br>
@@ -364,7 +319,6 @@ bgm_stop
 #「That's right. If Tsucchii makes me come properly, I'll feed you one bite. By mouth to mouth feeding.」
 
 #＠樹
-#SCRIPT ORIGINAL 「それは……なかなかにハードルが高いな」
 ＠Ｉｔｓｕｋｉ
 「Ｔｈａｔ’ｓ．．．　ａ　ｆａｉｒｌｙ　ｌｏｆｔｙ　ｈｕｒｄｌｅ」
 
@@ -373,13 +327,11 @@ bgm_stop
 @zakuro			#普
 
 #＠ざくろ,Q01507
-#SCRIPT ORIGINAL 「下の口移しの方がいいの？」
 ＠Ｚａｋｕｒｏ,Q01507
 「Ｈｏｗ　ａｂｏｕｔ　ｍｏｕｔｈ　ｔｏ　ｍｏｕｔｈ　ｄｏｗｎ<br>
 ｔｈｅｒｅ？」
 
 #＠樹
-#SCRIPT ORIGINAL 「そっちかよ！　大体、下の口移しってどんな食べさせ方だ。美味そうな気がしないぞ」
 ＠Ｉｔｓｕｋｉ
 「Ｆｒｏｍ　ｔｈｅｒｅ，　ａｓ　ｉｆ！　Ａｎｙｗａｙ，　ｗｈａｔ<br>
 ｋｉｎｄ　ｏｆ　ｆｅｅｄｉｎｇ　ｄｏｅｓ　ｔｈａｔ　ａｍｏｕｎｔ　ｔｏ？<br>
@@ -388,11 +340,9 @@ bgm_stop
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01508
-#SCRIPT ORIGINAL 「そう。残念」
 ＠Ｚａｋｕｒｏ,Q01508
 「Ｙｅａｈ？　Ｔｏｏ　ｂａｄ」
 
-#SCRIPT ORIGINAL どこまで冗談でどこまで本気なのか、相変わらず分かりにくい顔をしている。
 Ａｓ　ｕｓｕａｌ，　ｉｔ’ｓ　ｈａｒｄ　ｔｏ　ｊｕｄｇｅ　ｔｏ　ｗｈａｔ<br>
 ｄｅｇｒｅｅ　ｓｈｅ’ｓ　ｊｏｋｉｎｇ　ｏｒ　ｓｅｒｉｏｕｓ　ｆｒｏｍ<br>
 ｈｅｒ　ｅｘｐｒｅｓｓｉｏｎ．
@@ -400,7 +350,6 @@ bgm_stop
 #As usual, her expression was too hard to tell how serious she was.
 
 #＠樹
-#SCRIPT ORIGINAL 「さて、他に寄るところがなければ帰ろう。その荷物持ってやるよ」
 ＠Ｉｔｓｕｋｉ
 「Ｗｅｌｌ，　ｉｆ　ｙｏｕ’ｒｅ　ｎｏｔ　ｓｔｏｐｐｉｎｇ　ｂｙ<br>
 ａｎｙｗｈｅｒｅ　ｅｌｓｅ，　ｌｅｔ´ｓ　ｇｏ　ｈｏｍｅ．　Ｉ´ｌｌ<br>
@@ -409,23 +358,19 @@ bgm_stop
 @zakuro_niko		#にこ
 
 #＠ざくろ,Q01509
-#SCRIPT ORIGINAL 「いい。青ノリを持ってるだけで幸せ」
 ＠Ｚａｋｕｒｏ,Q01509
 「Ｉ´ｍ　ｏｋａｙ．　Ｉ　ｆｅｅｌ　ｂｌｅｓｓｅｄ　ｊｕｓｔ<br>
 ｃａｒｒｙｉｎｇ　ｉｔ」
 
 #＠樹
-#SCRIPT ORIGINAL 「はは、そうか……」
 ＠Ｉｔｓｕｋｉ
 「Ｈａｈａ，　ｙｏｕ　ｄｏ　ｈｕｈ．．．」
 
 bgm_stop
 @bg_black
 
-#SCRIPT ORIGINAL 笑いながら家路につくオレとざくろ。
 Ｓｍｉｌｉｎｇ，　Ｚａｋｕｒｏ　ａｎｄ　Ｉ　ｈｅａｄ　ｏｎ　ｈｏｍｅ．
 
-#SCRIPT ORIGINAL と、その横を誰かがパタパタとかけていく。
 Ａｓ　ｗｅ　ｄｉｄ，　ｓｏｍｅｏｎｅ　ｐａｔｔｅｒｅｄ　ｕｐ<br>
 ａｃｒｏｓｓ　ｕｓ．
 
@@ -433,32 +378,26 @@ bgm_stop
 @bgm17			#BGM 17 : のんびりのテーマ
 
 #＠女の子,V22006
-#SCRIPT ORIGINAL 「ママぁ～～～～～、まってぇ～～～～～」
 ＠Ｇｉｒｌ,V22006
 「Ｍａｍａａ～～～～，　ｗａｉｉｉｔ～～～～～」
 
-#SCRIPT ORIGINAL 小さな女の子だ。
 Ｉｔ’ｓ　ａ　ｌｉｔｔｌｅ　ｇｉｒｌ．
 
 #＠母親,V21011
-#SCRIPT ORIGINAL 「めぐ、フラフラしてないで、早く来なさい」
 ＠Ｍｏｔｈｅｒ,V21011
 「Ｍｅｇｕ，　ｄｏｎ´ｔ　ｗａｎｄｅｒ．　Ｈｕｒｒｙ　ｕｐ　ａｎｄ<br>
 ｃｏｍｅ　ａｌｏｎｇ」
 
-#SCRIPT ORIGINAL 向こうにいるのはお母さんだろう。
 Ｔｈａｔ　ｍｕｓｔ　ｂｅ　ｈｅｒ　ｍｏｔｈｅｒ　ｏｎ　ｔｈｅ　ｏｔｈｅｒ<br>
 ｓｉｄｅ．
 
 #＠女の子,V22007
-#SCRIPT ORIGINAL 「ままぁ……ふあっ！」
 ＠Ｇｉｒｌ,V22007
 「Ｍａｍａａ．．．　ｆｗａｈ！」
 
 #SE27　倒れる音（ドサッ）
 @SE27			#SE27　倒れる音（ドサッ）
 
-#SCRIPT ORIGINAL 急いでいた女の子は足をもつれさせて、べちゃっとかなり盛大に転んでしまった。
 Ｔｈｅ　ｓｃｕｒｒｙｉｎｇ　ｇｉｒｌ　ｇｅｔｓ　ｈｅｒ　ｌｅｇｓ　ｉｎ　ａ<br>
 ｔａｎｇｌｅ，　ａｎｄ　ｆａｌｌｓ　ｄｏｗｎ　ｗｉｔｈ　ａ　ｇｒｅａｔ<br>
 ｂｉｇ　ｓｐｌａｔ．
@@ -466,29 +405,24 @@ bgm_stop
 #The girl's leg twists as she hurries, and she falls quite harshly.
 
 #＠母親,V21012
-#SCRIPT ORIGINAL 「あっ……」
 ＠Ｍｏｔｈｅｒ,V21012
 「Ａｈ．．．」
 
 #＠女の子,V22008
-#SCRIPT ORIGINAL 「ふぁぁ、うわぁぁあんんっ、ママ、ママぁぁ～～～～、おっき～～～～」
 ＠Ｇｉｒｌ,V22008
 「Ｆｗａｈｈ，　ｕｗａｈｈｈｎｎ，　Ｍａｍａ，<br>
 Ｍａｍａａａａ～～～～，　ｕｐｐｉｅ～～～～」
 
 #＠母親,V21013
-#SCRIPT ORIGINAL 「おっきならもうできるでしょ。一人でちゃんと立ちなさい、めぐ」
 ＠Ｍｏｔｈｅｒ,V21013
 「Ｙｏｕ　ｋｎｏｗ　ｈｏｗ　ｔｏ　ｄｏ　ｕｐｐｉｅ’ｓ　ｂｙ<br>
 ｎｏｗ．　Ｓｔａｎｄ　ｕｐ　ｂｙ　ｙｏｕｒｓｅｌｆ，　Ｍｅｇｕ」
 
-#SCRIPT ORIGINAL 女の子が転んだ瞬間にはハッとした顔をしたお母さん。
 Ｔｈｅ　ｍｏｔｈｅｒ　ｇａｖｅ　ａ　ｌｏｏｋ　ｏｆ　ｓｕｒｐｒｉｓｅ<br>
 ｗｈｅｎ　ｔｈｅ　ｇｉｒｌ　ｆｅｌｌ　ｄｏｗｎ．
 
 #The mother was startled when the girl fell down.
 
-#SCRIPT ORIGINAL が、子供がわんわん泣き出してからは、逆にちょっと怖い顔になって、子供が自分で立つのをじっと待ってる。
 Ｂｕｔ　ａｓ　ｔｈｅ　ｃｈｉｌｄ　ｓｔａｒｔｅｄ　ｙｏｗｌｉｎｇ，　ｓｈｅ<br>
 ｂｅｃａｍｅ　ｇｒｉｍ－ｆａｃｅｄ　ｉｎｓｔｅａｄ，　ａｎｄ　ｓｔｏｏｄ<br>
 ｉｎ　ｐｌａｃｅ　ｗａｉｔｉｎｇ　ｆｏｒ　ｈｅｒ　ｔｏ　ｇｅｔ　ｕｐ．
@@ -496,12 +430,10 @@ bgm_stop
 #But, when the child started crying loudly, she made a kind of angry face opposite of before, and waited for the child to stand up on her own.
 
 #＠女の子,V22009
-#SCRIPT ORIGINAL 「ふえぐぅ、うぅ……うぐっ……ふえ、ん……ママぁ……ママァ……」
 ＠Ｇｉｒｌ,V22009
 「Ｓｏｂ　ｓｏｂ，　ｕｕｈ．．．　ｓｏｂ．．．　ｆｕｅｈ，<br>
 ｎｈ．．．　Ｍａｍａａ．．．　Ｍａｍａａ．．．」
 
-#SCRIPT ORIGINAL 女の子はゆっくりと立ち上がると、涙で顔をぐずぐずにしたままお母さんの所までいって、しがみついた。
 Ｗｈｅｎ　ｔｈｅ　ｇｉｒｌ　ｇｏｔ　ｕｐ　ｓｌｏｗｌｙ，　ｗｉｔｈ　ａ<br>
 ｔｅａｒ－ｓｔｒｅａｋｅｄ　ｓｎｉｆｆｌｅ　ｓｈｅ　ｗｅｎｔ　ｔｏ　ｈｅｒ<br>
 ｍｏｔｈｅｒ　ａｎｄ　ｃｌｕｎｇ　ｔｏ　ｈｅｒ　ｓｉｄｅ．
@@ -509,12 +441,10 @@ bgm_stop
 #The girl slowly stands up, and with her crying face went to her mother, and clung to her.
 
 #＠母親,V21014
-#SCRIPT ORIGINAL 「まったく、きちんとしなさい。めぐももうすぐお姉ちゃんになるんだから」
 ＠Ｍｏｔｈｅｒ,V21014
 「Ｊｅｅｚ，　ｇｅｔ　ｙｏｕｒ　ａｃｔ　ｔｏｇｅｔｈｅｒ．　Ｙｏｕ’ｌｌ<br>
 ｂｅ　ａ　ｂｉｇ　ｓｉｓｔｅｒ　ｓｏｏｎ，　ａｆｔｅｒ　ａｌｌ」
 
-#SCRIPT ORIGINAL お母さんは口ではそう言いつつ、取り出したハンカチで娘の顔をやさしく拭いてやっている。
 Ｔｈｏｕｇｈ　ｇｉｖｉｎｇ　ｈｅｒ　ａ　ｌｉｇｈｔ　ｓｃｏｌｄｉｎｇ，<br>
 ｓｈｅ　ｔａｋｅｓ　ｈｅｒ　ｈａｎｄｋｅｒｃｈｉｅｆ　ｏｕｔ　ａｎｄ<br>
 ｗｉｐｅｓ　ｈｅｒ　ｄａｕｇｈｔｅｒ’ｓ　ｆａｃｅ　ｇｅｎｔｌｙ．
@@ -522,21 +452,17 @@ bgm_stop
 #The mother said that, and at the same time wiped her daughter's face with a handkerchief she took out.
 
 #＠女の子,V22010
-#SCRIPT ORIGINAL 「う、うん……めぐ、ちゃんとする……」
 ＠Ｇｉｒｌ,V22010
 「Ｏ－ｏｋａｙ．．．　Ｉ’ｌｌ　ｄｏ　ｍｙ　ｂｗｅｓｔ．．．」
 
 #＠母親,V21015
-#SCRIPT ORIGINAL 「良い子ね。じゃ、帰りましょう」
 ＠Ｍｏｔｈｅｒ,V21015
 「Ｇｏｏｄ　ｇｉｒｌ．　Ｎｏｗ，　ｌｅｔ´ｓ　ｇｏ　ｈｏｍｅ」
 
 #＠女の子,V22011
-#SCRIPT ORIGINAL 「うんっ」
 ＠Ｇｉｒｌ,V22011
 「Ｏｋａｙ！」
 
-#SCRIPT ORIGINAL お母さんは娘の手をしっかりと握りしめ、角を仲良く曲がっていった。
 Ｔｈｅ　ｍｏｔｈｅｒ　ｃｌａｓｐｉｎｇ　ｈｅｒ　ｄａｕｇｈｔｅｒ’ｓ<br>
 ｈａｎｄ　ｆｉｒｍｌｙ，　ｔｈｅｙ　ｒｏｕｎｄｅｄ　ｔｈｅ　ｂｅｎｄ　ｉｎ<br>
 ｇｏｏｄ　ｓｐｉｒｉｔｓ．
@@ -544,17 +470,14 @@ bgm_stop
 #The mother gripped her daughter's hand tightly, and they turned at the corner getting along well.
 
 #＠樹
-#SCRIPT ORIGINAL 「………………」
 ＠Ｉｔｓｕｋｉ
 「．．．．．．．．．」
 
-#SCRIPT ORIGINAL どこにでもよくある、いたって普通の親と子の姿だ。
 Ｊｕｓｔ　ａ　ｎｏｒｍａｌ　ｍｏｔｈｅｒ　ａｎｄ　ｃｈｉｌｄ　ｙｏｕ<br>
 ｃｏｕｌｄ　ｆｉｎｄ　ａｎｙｗｈｅｒｅ．
 
 #They were a very normal parent and child, which could be found anywhere.
 
-#SCRIPT ORIGINAL だが、そんなものすらなかったオレにとっては、少しばかり眩しい光景でもある。
 Ｂｕｔ　ｆｏｒ　ｍｅ，　ｉｔ　ｉｎｓｐｉｒｅｄ　ｓｏｍｅ　ａｗｅ，　ａ<br>
 ｓｃｅｎｅ　ｔｈｅ　ｌｉｋｅｓ　ｏｆ　ｗｈｉｃｈ　Ｉ　ｈａｖｅｎ’ｔ<br>
 ｅｘｐｅｒｉｅｎｃｅｄ．
@@ -567,18 +490,15 @@ bgm_stop
 @zakuro			#普
 
 #＠ざくろ,Q01510
-#SCRIPT ORIGINAL 「つっちー、何してるの？」
 ＠Ｚａｋｕｒｏ,Q01510
 「Ｔｓｕ－ｃｈｉ，　ｗｈａｔｃｈａ　ｄｏｉｎｇ？」
 
-#SCRIPT ORIGINAL いつのまにか少し先に行っていたざくろが振り返る。
 Ｂｅｆｏｒｅ　Ｉ　ｋｎｅｗ　ｉｔ，　Ｚａｋｕｒｏ　ｗｈｏ’ｄ　ｇｏｎｅ<br>
 ａｈｅａｄ　ａ　ｌｉｔｔｌｅ　ｗａｙｓ　ｔｕｒｎｓ　ａｒｏｕｎｄ．
 
 #Before I noticed, Zakuro who had gone a little bit ahead of me turned around.
 
 #＠樹
-#SCRIPT ORIGINAL 「え？　あ、ああ……ごめん」
 ＠Ｉｔｓｕｋｉ
 「Ｈｕｈ？　Ｏｈ，　ｒｉｇｈｔ．．．　ｓｏｒｒｙ」
 
@@ -587,28 +507,23 @@ wait		1000
 @bg_jyuutakugai		# 住宅街
 
 #＠ざくろ,Q01511
-#SCRIPT ORIGINAL 「………………」
 ＠Ｚａｋｕｒｏ,Q01511
 「．．．．．．．．．」
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT ORIGINAL ざくろに追いつきながら、その横顔をチラリと見た。
 Ｉ　ｃｈａｎｃｅｄ　ａ　ｇｌｉｍｐｓｅ　ｏｆ　ｈｅｒ　ｆａｃｅ　ｉｎ<br>
 ｐｒｏｆｉｌｅ　ａｓ　Ｉ　ｃａｕｇｈｔ　ｕｐ　ｔｏ　ｈｅｒ．
 
 #When I was catching up to Zakuro, I saw a glimpse of that face from the side.
 
-#SCRIPT ORIGINAL その左手に巻かれた包帯も。
 Ａｎｄ　ｔｈａｔ　ｂａｎｄａｇｅ　ａｒｏｕｎｄ　ｈｅｒ　ｌｅｆｔ<br>
 ｈａｎｄ．
 
-#SCRIPT ORIGINAL ざくろの生い立ちがどのようなものであったのかは、雫さんに見せてもらった資料以上のことはまだよく知らない。
 Ｉ　ｄｉｄｎ’ｔ　ｆｉｎｄ　ｏｕｔ　ｍｕｃｈ　ａｂｏｕｔ<br>
 Ｚａｋｕｒｏ’ｓ　ｕｐｂｒｉｎｇｉｎｇ　ｏｔｈｅｒ　ｔｈａｎ　ｓｏｍｅ<br>
 ｄｏｃｕｍｅｎｔｓ　Ｓｈｉｚｕｋｕ　ｓｈｏｗｅｄ　ｍｅ．
 
-#SCRIPT ORIGINAL 父親は不明、幼い頃は母親と一緒に暮らしていたらしいが、かなり早い頃から施設に預けられた。
 Ｈｅｒ　ｆａｔｈｅｒ　ｕｎｋｎｏｗｎ，　ｓｈｅ　ｌｉｖｅｄ　ｗｉｔｈ<br>
 ｈｅｒ　ｍｏｔｈｅｒ　ｉｎ　ｈｅｒ　ｉｎｆａｎｃｙ，　ｂｕｔ　ｗａｓ<br>
 ｇｉｖｅｎ　ｔｏ　ａｎ　ｉｎｓｔｉｔｕｔｉｏｎ　ａｔ　ａｎ　ｅａｒｌｙ<br>
@@ -616,19 +531,16 @@ wait		1000
 
 #Her father was unknown, and it seems like she lived together with her mother when she was young, but she was brought to the institution quite early.
 
-#SCRIPT ORIGINAL あまり運に恵まれなかったようで、いくつかの施設を転々とする羽目になり、里親も見つからなかった。
 Ｈｅｒ　ｌｕｃｋ　ｗａｓ　ｉｎ　ｓｈｏｒｔ　ｓｕｐｐｌｙ，　ａｓ　ｓｈｅ<br>
 ｗｅｎｔ　ｉｎ　ａｎｄ　ｏｕｔ　ｏｆ　ａ　ｆｅｗ　ｉｎｓｔｉｔｕｔｉｏｎｓ<br>
 ａｎｄ　ｃｏｕｌｄｎ’ｔ　ｆｉｎｄ　ｆｏｓｔｅｒ　ｐａｒｅｎｔｓ．
 
 #She wasn't blessed with much luck, so ended up being transferred from institution to institution, and wasn't even able to find foster parents.
 
-#SCRIPT ORIGINAL そして、今はオレたちと一緒に暮らしている。
 Ａｎｄ　ｎｏｗ　ｓｈｅ　ｌｉｖｅｓ　ｗｉｔｈ　ｕｓ．
 
 #And now, she is living with us.
 
-#SCRIPT ORIGINAL オレ同様……いや、それ以上に、普通の親子の触れあいには乏しかったはずだ。
 Ｊｕｓｔ　ｌｉｋｅ　ｍｅ．．．　ｐｅｒｈａｐｓ　ｍｏｒｅ　ｓｏ，　ｓｈｅ<br>
 ｄｉｄｎ’ｔ　ｇｅｔ　ｍｕｃｈ　ｉｎ　ｔｅｒｍｓ　ｏｆ　ｐａｒｅｎｔａｌ<br>
 ｃａｒｅ　ａｎｄ　ａｔｔｅｎｔｉｏｎ．
@@ -638,31 +550,26 @@ wait		1000
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01512
-#SCRIPT ORIGINAL 「何を見てるの？」
 ＠Ｚａｋｕｒｏ,Q01512
 「Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｌｏｏｋｉｎｇ　ａｔ？」
 
 #＠樹
-#SCRIPT ORIGINAL 「あ……いや……」
 ＠Ｉｔｓｕｋｉ
 「Ｏｈ．．．　ｎｏｔｈｉｎｇ．．．」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01513
-#SCRIPT ORIGINAL 「別にあんなの気にしてない。いちいち気にしてたら身が持たない」
 ＠Ｚａｋｕｒｏ,Q01513
 「Ｉ　ｄｏｎ’ｔ　ｃａｒｅ　ａｂｏｕｔ　ｔｈａｔ　ｓｔｕｆｆ．<br>
 Ｗｏｒｒｙｉｎｇ　ａｂｏｕｔ　ｅｖｅｒｙｔｈｉｎｇ　ｗｉｌｌ　ｔｉｒｅ　ｙｏｕ<br>
 ｏｕｔ」
 
-#SCRIPT ORIGINAL こちらを見ることなく、ざくろは言う。
 Ｚａｋｕｒｏ　ｓａｙｓ，　ｗｉｔｈｏｕｔ　ｓｏ　ｍｕｃｈ　ａｓ　ａ<br>
 ｇｌａｎｃｅ．
 
 #Without even looking here, Zakuro said that.
 
-#SCRIPT ORIGINAL いつも通り淡々とした表情だが、もし全く気にしていないのなら、わざわざ口に出して言うはずもない。
 Ｓｈｅ　ｌｏｏｋｅｄ　ａｓ　ｄｉｓｉｎｔｅｒｅｓｔｅｄ　ａｓ　ｅｖｅｒ，<br>
 ｂｕｔ　ｉｆ　ｓｈｅ　ｒｅａｌｌｙ　ｄｉｄｎ’ｔ　ｃａｒｅ，　ｓｈｅ<br>
 ｍｉｇｈｔ　ｎｏｔ　ｃｏｍｅ　ｏｕｔ　ａｎｄ　ｓａｙ　ｔｈａｔ．
@@ -670,54 +577,45 @@ wait		1000
 #She had her usual not interested expression, but if she really didn't care at all, then she wouldn't have said that on purpose.
 
 #＠樹
-#SCRIPT ORIGINAL 「そうだけどな、オレにはあんな母親はいなかったから、ちょっとな……」
 ＠Ｉｔｓｕｋｉ
 「Ｔｒｕｅ，　ｂｕｔ　Ｉ　ｃｏｕｌｄｎ’ｔ　ｈｅｌｐ　ｉｔ　ｓｉｎｃｅ　Ｉ<br>
 ｎｅｖｅｒ　ｈａｄ　ａ　ｍｏｔｈｅｒ　ｌｉｋｅ　ｔｈａｔ．．．」
 
 #「Yeah, but I didn't have that kind of mother, so I kind of......」
 
-#SCRIPT ORIGINAL どう返すか少し迷ったが、思った通りのことを口にした。
 Ｉ　ｗａｓ　ｕｎｓｕｒｅ　ｈｏｗ　ｔｏ　ｒｅｓｐｏｎｄ，　ｂｕｔ　Ｉ<br>
 ｓａｉｄ　ｗｈａｔ　ｃａｍｅ　ｔｏ　ｍｉｎｄ．
 
 @zakuro			#普
 
 #＠ざくろ,Q01514
-#SCRIPT ORIGINAL 「つっちーも？」
 ＠Ｚａｋｕｒｏ,Q01514
 「Ｔｓｕ－ｃｈｉ　ｔｏｏ？」
 
-#SCRIPT ORIGINAL ざくろがオレを見た。
 Ｚａｋｕｒｏ　ｌｏｏｋｅｄ　ａｔ　ｍｅ．
 
 #＠樹
-#SCRIPT ORIGINAL 「言ったことことなかったか？」
 ＠Ｉｔｓｕｋｉ
 「Ｎｏｂｏｄｙ　ｔｏｌｄ　ｙｏｕ？」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01515
-#SCRIPT ORIGINAL 「聞いてない。……そうなんだ。お父さんは？　うちの前の院長？」
 ＠Ｚａｋｕｒｏ,Q01515
 「Ｎｅｖｅｒ　ｈｅａｒｄ．　．．．Ｉ　ｓｅｅ．　Ｗｈａｔ　ａｂｏｕｔ<br>
 ｙｏｕｒ　ｆａｔｈｅｒ？　Ｔｈｅ　ｐｒｅｖｉｏｕｓ　ｄｉｒｅｃｔｏｒ？」
 
 #＠樹
-#SCRIPT ORIGINAL 「ああ、あれは……」
 ＠Ｉｔｓｕｋｉ
 「Ｙｅａｈ，　ｈｉｍ．．．」
 
 @bg_white		# 白
 
-#SCRIPT ORIGINAL 父親……そう呼ばれるべきあの男への記憶がふっと蘇る。
 Ｍｙ　ｆａｔｈｅｒ．．．　ｓｕｄｄｅｎｌｙ　ｍｙ　ｍｅｍｏｒｉｅｓ　ｏｆ<br>
 ｔｈａｔ　ｍａｎ　ｓｕｒｆａｃｅ．
 
 #Father... I immediately recall the man who had to be called that.
 
-#SCRIPT ORIGINAL が、その記憶の中で男の瞳にオレは映っていない。
 Ｂｕｔ　ｉｎ　ｔｈｏｓｅ　ｍｅｍｏｒｉｅｓ，　ｈｅ　ｄｏｅｓｎ’ｔ<br>
 ｓｅｅ　ｍｅ．
 
@@ -729,24 +627,20 @@ wait		1000
 @bg_jyuutakugai		# 住宅街
 
 #＠ざくろ,Q01516
-#SCRIPT ORIGINAL 「……つっちー？」
 ＠Ｚａｋｕｒｏ,Q01516
 「．．．Ｔｓｕ－ｃｈｉ？」
 
 #＠樹
-#SCRIPT ORIGINAL 「あれは、お父さんなんてものじゃなかったよ。確かにうちの院長、それだけだったよ、あの人は」
 ＠Ｉｔｓｕｋｉ
 「Ｔｈａｔ　ｗａｓ　ｎｏ　ｆａｔｈｅｒ．　Ｈｅ　ｍａｙ　ｈａｖｅ<br>
 ｂｅｅｎ　ｏｕｒ　ｄｉｒｅｃｔｏｒ，　ｂｕｔ　ｔｈａｔ´ｓ　ａｌｌ　ｈｅ<br>
 ｗａｓ」
 
 #＠ざくろ,Q01517
-#SCRIPT ORIGINAL 「……………」
 ＠Ｚａｋｕｒｏ,Q01517
 「．．．．．．」
 
 #＠樹
-#SCRIPT ORIGINAL 「まあ、それでもこうやって後を継いでるわけだが……皮肉なもんだ」
 ＠Ｉｔｓｕｋｉ
 「Ｗｅｌｌ，　Ｉ　ｓｔｉｌｌ　ｅｎｄｅｄ　ｕｐ　ｓｕｃｃｅｅｄｉｎｇ<br>
 ｈｉｍ．．．　ｈｏｗ　ｉｒｏｎｉｃ」
@@ -754,16 +648,13 @@ wait		1000
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01518
-#SCRIPT ORIGINAL 「ごめんなさい、つっちー」
 ＠Ｚａｋｕｒｏ,Q01518
 「Ｓｏｒｒｙ，　Ｔｓｕ－ｃｈｉ」
 
 #＠樹
-#SCRIPT ORIGINAL 「え？　なにが？」
 ＠Ｉｔｓｕｋｉ
 「Ｈｕｈ？　Ｆｏｒ　ｗｈａｔ？」
 
-#SCRIPT ORIGINAL いつになく神妙な声にざくろを見ると、少し俯いた顔で、
 Ｉ　ｌｏｏｋｅｄ　ａｔ　Ｚａｋｕｒｏ　ｗｈｏ　ｓｐｏｋｅ　ｉｎ　ａｎ<br>
 ｕｎｕｓｕａｌｌｙ　ｍｅｅｋ　ｖｏｉｃｅ，　ｈｅａｄ　ｈｕｎｇ<br>
 ｌｏｗ．．．
@@ -773,7 +664,6 @@ wait		1000
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01519
-#SCRIPT ORIGINAL 「全然聞かなくていいこと聞いた。私らしくない。反省」
 ＠Ｚａｋｕｒｏ,Q01519
 「Ｉ　ａｓｋｅｄ　ｙｏｕ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｓｈｏｕｌｄｎ’ｔ<br>
 ｈａｖｅ．　Ｉ　ｋｎｏｗ　ｂｅｔｔｅｒ　ｔｈａｎ　ｔｈａｔ．　Ｓｏｒｒｙ」
@@ -781,7 +671,6 @@ wait		1000
 #「I asked something that would be better off not asking. That's not like me. I'm reflecting on it.」
 
 #＠樹
-#SCRIPT ORIGINAL 「気にするな。大したことじゃない」
 ＠Ｉｔｓｕｋｉ
 「Ｄｏｎ´ｔ　ｗｏｒｒｙ　ａｂｏｕｔ　ｉｔ．　Ｉｔ´ｓ　ｎｏｔ　ａ　ｂｉｇ<br>
 ｄｅａｌ」
@@ -795,36 +684,30 @@ layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
 #＠ざくろ,Q01520
-#SCRIPT ORIGINAL 「…………うん」
 ＠Ｚａｋｕｒｏ,Q01520
 「．．．Ｏｋａｙ」
 
 @zakuro_
 
-#SCRIPT ORIGINAL ざくろはコクンと頷き、それからしばらく無言のまま歩き続ける。
 Ｚａｋｕｒｏ　ｎｏｄｄｅｄ，　ａｎｄ　ｗｅ　ｃｏｎｔｉｎｕｅｄ<br>
 ｗａｌｋｉｎｇ　ｉｎ　ｓｉｌｅｎｃｅ　ｆｏｒ　ａ　ｗｈｉｌｅ．
 
 #Zakuro nodded deeply, then for a while we continued walking silently.
 
 #＠ざくろ,Q01521
-#SCRIPT ORIGINAL 「つっちー」
 ＠Ｚａｋｕｒｏ,Q01521
 「Ｔｓｕ－ｃｈｉ」
 
 #＠樹
-#SCRIPT ORIGINAL 「……ん？」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｈｍ？」
 
-#SCRIPT ORIGINAL また、前を向いたままざくろが話し始める。
 Ｓｈｅ　ｓｐｅａｋｓ　ｕｐ　ａｇａｉｎ　ｅｙｅｓ　ｆａｃｉｎｇ<br>
 ｆｏｒｗａｒｄ．
 
 #Zakuro begins to talk again facing forward.
 
 #＠ざくろ,Q01522
-#SCRIPT ORIGINAL 「さっきのあれ、別に羨ましいとか、私と比べてどうとか、そういことは思ってない」
 ＠Ｚａｋｕｒｏ,Q01522
 「Ｗｈａｔ　ｗｅ　ｓａｗ　ｔｈｅｒｅ，　Ｉ’ｍ　ｎｏｔ　ｊｅａｌｏｕｓ<br>
 ｏｒ　ｃｏｍｐａｒｉｎｇ　ｍｙｓｅｌｆ　ｔｏ　ｔｈａｔ．　Ｉ　ｄｏｎ’ｔ<br>
@@ -833,23 +716,19 @@ layer_movepass_play	l_zakuro,0,play_once
 #「That thing before, I wasn't really thinking that I'm jealous or how it is compared to me.」
 
 #＠樹
-#SCRIPT ORIGINAL 「……いいよ、その話は」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｉｔ´ｓ　ｏｋａｙ，　ｌｅｔ’ｓ　ｐｕｔ　ｉｔ　ａｓｉｄｅ」
 
 #＠ざくろ,Q01523
-#SCRIPT ORIGINAL 「ううん、言っておきたいから。聞いて」
 ＠Ｚａｋｕｒｏ,Q01523
 「Ｎｏ，　Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｓａｙ．<br>
 Ｌｉｓｔｅｎ」
 
 #＠樹
-#SCRIPT ORIGINAL 「あ、ああ……」
 ＠Ｉｔｓｕｋｉ
 「Ｏ－ｏｋａｙ．．．」
 
 #＠ざくろ,Q01524
-#SCRIPT ORIGINAL 「あのとき私ね、いつまで続くんだろうって思ってた」
 ＠Ｚａｋｕｒｏ,Q01524
 「Ｂａｃｋ　ｔｈｅｒｅ，　ｙｏｕ　ｋｎｏｗ？　Ｉ　ｗａｓ<br>
 ｗｏｎｄｅｒｉｎｇ　ｈｏｗ　ｌｏｎｇ　ｉｔ　ｗｏｕｌｄ　ｌａｓｔ」
@@ -857,17 +736,14 @@ layer_movepass_play	l_zakuro,0,play_once
 #「That time, I used to think that she would continue forever.」
 
 #＠樹
-#SCRIPT ORIGINAL 「続く？　何が？」
 ＠Ｉｔｓｕｋｉ
 「Ｗｈａｔ　ｗｏｕｌｄ？」
 
 #＠ざくろ,Q01525
-#SCRIPT ORIGINAL 「あの母親が」
 ＠Ｚａｋｕｒｏ,Q01525
 「Ｔｈｅ　ｍｏｔｈｅｒ」
 
 #＠樹
-#SCRIPT ORIGINAL 「…………？　あの『一人でちゃんと立つまで待つ』って、ありがちなやりとりがか？」
 ＠Ｉｔｓｕｋｉ
 「．．．？　Ｙｏｕ　ｍｅａｎ　ｔｈａｔ　ｕｓｕａｌ　“ｗａｉｔｉｎｇ<br>
 ｕｎｔｉｌ　ｙｏｕ　ｇｅｔ　ｕｐ　ｂｙ　ｙｏｕｒｓｅｌｆ”<br>
@@ -880,14 +756,12 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01526
-#SCRIPT ORIGINAL 「違う。そんな話じゃない。というか、つっちーがそんな悪意を持って見てたことに驚き」
 ＠Ｚａｋｕｒｏ,Q01526
 「Ｎｏ．　Ｔｈａｔ’ｓ　ｎｏｔ　ｗｈａｔ　Ｉ　ｍｅａｎ．<br>
 Ａｃｔｕａｌｌｙ，　Ｉ’ｍ　ｍｏｒｅ　ｓｕｒｐｒｉｓｅｄ　ｙｏｕ<br>
 ｔｈｏｕｇｈｔ　ｓｏ　ｌｉｔｔｌｅ　ｏｆ　ｔｈａｔ，　Ｔｓｕ－ｃｈｉ」
 
 #＠樹
-#SCRIPT ORIGINAL 「いや……別に悪意を持って見てたわけじゃないが……」
 ＠Ｉｔｓｕｋｉ
 「Ｎｏ．．．　ｉｔ’ｓ　ｎｏｔ　ｔｈａｔ　Ｉ　ｔｈｏｕｇｈｔ　ｌｉｔｔｌｅ<br>
 ｏｆ　ｉｔ，　ｂｕｔ．．．」
@@ -895,11 +769,9 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01527
-#SCRIPT ORIGINAL 「冗談。気にしないで」
 ＠Ｚａｋｕｒｏ,Q01527
 「Ｊｕｓｔ　ｊｏｋｉｎｇ．　Ｄｏｎ’ｔ　ｗｏｒｒｙ」
 
-#SCRIPT ORIGINAL ざくろはいつものようにくすりとも笑わずに、
 Ｚａｋｕｒｏ，　ａｓ　ｕｓｕａｌ，　ｗｉｔｈｏｕｔ　ｓｏ　ｍｕｃｈ　ａｓ<br>
 ａ　ｓｍｉｒｋ．．．
 
@@ -908,7 +780,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro			#普
 
 #＠ざくろ,Q01528
-#SCRIPT ORIGINAL 「私が思ってたのは、あの人は今はああやってちゃんと母親をやってるけど、それがいつまで続くのかって」
 ＠Ｚａｋｕｒｏ,Q01528
 「Ｗｈａｔ’ｓ　ｏｎ　ｍｙ　ｍｉｎｄ　ｉｓ：　ｓｈｅ’ｓ<br>
 ｄｏｉｎｇ　ｔｈｅ　ｇｏｏｄ　ｍｏｔｈｅｒ　ｒｏｕｔｉｎｅ　ｎｏｗ，<br>
@@ -917,7 +788,6 @@ layer_movepass_play	l_zakuro,0,play_once
 #「What I was thinking was, that person was being a good mother now but, how long will that continue?」
 
 #＠樹
-#SCRIPT ORIGINAL 「続かないように見えたのか、ざくろには？」
 ＠Ｉｔｓｕｋｉ
 「Ｄｉｄ　ｉｔ　ｌｏｏｋ　ｌｉｋｅ　ｉｔ　ｗｏｕｌｄｎ’ｔ　ｌａｓｔ，　ｔｏ<br>
 ｙｏｕ？」
@@ -925,7 +795,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01529
-#SCRIPT ORIGINAL 「一目でそんなことが分かったら、私、超能力者」
 ＠Ｚａｋｕｒｏ,Q01529
 「Ｉ’ｄ　ｂｅ　ｐｓｙｃｈｉｃ　ｔｏ　ｋｎｏｗ　ｔｈａｔ　ｗｉｔｈ<br>
 ｏｎｅ　ｌｏｏｋ」
@@ -935,7 +804,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro			#普
 
 #＠ざくろ,Q01530
-#SCRIPT ORIGINAL 「今はちゃんとした母親に見える。でも、一年後は違うかも知れない、二年後は？　三年後は？　もっと先は？」
 ＠Ｚａｋｕｒｏ,Q01530
 「Ｓｈｅ　ｍａｙ　ｂｅ　ａ　ｇｏｏｄ　ｍｏｔｈｅｒ　ｎｏｗ．　Ｂｕｔ<br>
 ｔｈｉｎｇｓ　ｍｉｇｈｔ　ｂｅ　ｄｉｆｆｅｒｅｎｔ　ｉｎ　ａ　ｙｅａｒ．<br>
@@ -943,14 +811,12 @@ layer_movepass_play	l_zakuro,0,play_once
 Ｌａｔｅｒ？」
 
 #＠樹
-#SCRIPT ORIGINAL 「どう変わるか分からないと……」
 ＠Ｉｔｓｕｋｉ
 「Ｙｏｕ　ｍｅａｎ　ｔｈｉｎｇｓ　ｍｉｇｈｔ　ｃｈａｎｇｅ．．．？」
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01531
-#SCRIPT ORIGINAL 「そう、あの子が大きくなって、自分の思う通りにならなくなったら、急にイヤになるかもしれない」
 ＠Ｚａｋｕｒｏ,Q01531
 「Ｒｉｇｈｔ，　ｗｈｅｎ　ｔｈａｔ　ｇｉｒｌ　ｇｅｔｓ　ｏｌｄｅｒ，　ｈｅｒ<br>
 ｍｏｍ　ｍｉｇｈｔ　ｇｅｔ　ｆｅｄ　ｕｐ　ｗｉｔｈ　ｈｅｒ　ａｌｌ　ｏｆ<br>
@@ -961,7 +827,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01532
-#SCRIPT ORIGINAL 「父親が死ぬか別れるか、他に男ができるか、理由はなんでもいいけど、あの子が邪魔になるかも知れない」
 ＠Ｚａｋｕｒｏ,Q01532
 「Ｉｆ　ｈｅｒ　ｆａｔｈｅｒ　ｄｉｅｓ　ｏｒ　ｇｅｔｓ　ｄｉｖｏｒｃｅｄ，<br>
 ｈｅｒ　ｍｏｍ　ｆｉｎｄｓ　ａｎｏｔｈｅｒ　ｍａｎ，　ｏｒ<br>
@@ -973,20 +838,16 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01533
-#SCRIPT ORIGINAL 「いつ何時、母親をやる気がなくなるかもしれない」
 ＠Ｚａｋｕｒｏ,Q01533
 「Ｈｅｒ　ｍｏｔｈｅｒ　ｍｉｇｈｔ　ｇｉｖｅ　ｕｐ　ｏｎ<br>
 ｐａｒｅｎｔｉｎｇ　ｈｅｒ　ｗｈｅｎｅｖｅｒ」
 
 #「At any time, that mother might not feel like being a mother anymore.」
 
-#SCRIPT ORIGINAL 『でも親だぞ？』
 “Ｂｕｔ　ｓｈｅ´ｓ　ｈｅｒ　ｍｏｍ，　ｒｉｇｈｔ？”
 
-#SCRIPT ORIGINAL 普通ならそんなことを言うのだろう。
 Ｎｏｒｍａｌｌｙ　Ｉ　ｃｏｕｌｄ　ｓａｙ　ｔｈａｔ．
 
-#SCRIPT ORIGINAL だが、自分のこと、ざくろをはじめ、院にいる他の子たちのことを考えると、とてもそうは言えなかった。
 Ｂｕｔ，　ｃｏｎｓｉｄｅｒｉｎｇ　ｍｙｓｅｌｆ，　Ｚａｋｕｒｏ，　ａｎｄ<br>
 ｔｈｅ　ｏｔｈｅｒ　ｋｉｄｓ　ｉｎ　ｔｈｅ　ｉｎｓｔｉｔｕｔｉｏｎ，　Ｉ<br>
 ｃｏｕｌｄｎ’ｔ　ｍｕｓｔｅｒ　ｉｔ．
@@ -994,7 +855,6 @@ layer_movepass_play	l_zakuro,0,play_once
 #But if I thought about myself, Zakuro, and the other children in the institute, I couldn't say that.
 
 #＠樹
-#SCRIPT ORIGINAL 「人の心は変わるものだからな。それが父親だろうが、母親だろうが」
 ＠Ｉｔｓｕｋｉ
 「Ｈｕｍａｎ　ｈｅａｒｔｓ　ａｒｅ　ｆｉｃｋｌｅ．　Ｓａｍｅ　ｇｏｅｓ<br>
 ｆｏｒ　ｍｏｔｈｅｒｓ　ｏｒ　ｆａｔｈｅｒｓ」
@@ -1004,7 +864,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro			#普
 
 #＠ざくろ,Q01534
-#SCRIPT ORIGINAL 「そう、特に女は男と違って、子供を産むと、自然と愛情が生まれるとか言うけど、そんなのファンタジー、遺伝子とか知らない」
 ＠Ｚａｋｕｒｏ,Q01534
 「Ｙｅａｈ，　ｅｓｐｅｃｉａｌｌｙ　ｗｏｍｅｎ，　ｕｎｌｉｋｅ　ｍｅｎ，<br>
 ｗｈｏ’ｓ　ｌｏｖｅ’ｓ　ｓｕｐｐｏｓｅｄ　ｔｏ　ｆｌｏｗ　ｏｕｔ<br>
@@ -1016,7 +875,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01535
-#SCRIPT ORIGINAL 「ううん、逆に女の心はすぐ変わる。女だから分かる。誰だって母親である前に女」
 ＠Ｚａｋｕｒｏ,Q01535
 「Ｔｈｅ　ｔｒｕｔｈ　ｉｓ，　ｗｏｍｅｎ　ａｒｅ　ｖｅｒｙ　ｆｉｃｋｌｅ．<br>
 Ｉ’ｍ　ａ　ｗｏｍａｎ　ｓｏ　Ｉ　ｋｎｏｗ．　Ｍｏｓｔ　ｏｆ　ａｌｌ，<br>
@@ -1027,7 +885,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro			#普
 
 #＠ざくろ,Q01536
-#SCRIPT ORIGINAL 「親は自分の意志で親になる。それを続けていく。そうできるのが本当の親。そう思う」
 ＠Ｚａｋｕｒｏ,Q01536
 「Ｐａｒｅｎｔｓ　ｃｈｏｏｓｅ　ｔｏ　ｈａｖｅ　ｋｉｄｓ．　Ａｎｄ<br>
 ｔｈｅｙ　ｓｔｉｃｋ　ｗｉｔｈ　ｉｔ．　Ａ　ｒｅａｌ　ｐａｒｅｎｔ　ｗｏｕｌｄ<br>
@@ -1035,61 +892,50 @@ layer_movepass_play	l_zakuro,0,play_once
 
 #「Parents become parents by their own will. Then they continue that. Whoever can do that is a true parent. Or so I think.」
 
-#SCRIPT ORIGINAL ざくろはいつものように無表情で、その言葉に力を込めているわけでもない。
 Ｚａｋｕｒｏ，　ｅｘｐｒｅｓｓｉｏｎｌｅｓｓ　ａｓ　ｕｓｕａｌ，<br>
 ｄｉｄｎ’ｔ　ｒａｉｓｅ　ｈｅｒ　ｖｏｉｃｅ　ｅｖｅｎ　ａ<br>
 ｆｒａｃｔｉｏｎ．
 
 #Zakuro had her usual expressionless face, so there was no way she could be putting effort into those words.
 
-#SCRIPT ORIGINAL だからこそ感じる、過去への深い想い。
 Ａｌｌ　ｔｈｅ　ｍｏｒｅ　Ｉ　ｃａｎ　ｓｅｎｓｅ　ｈｅｒ　ｐａｓｔ<br>
 ｂｅｈｉｎｄ　ｉｔ．
 
 #That's why I could feel her deep feelings to her past.
 
 #＠樹
-#SCRIPT ORIGINAL 「………そうだな」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｒｉｇｈｔ」
 
-#SCRIPT ORIGINAL 頷くと、少しだけ間があって、
 Ｉ　ｎｏｄ，　ａｎｄ　ｔｈｅｎ　ａ　ｂｒｉｅｆ　ｐａｕｓｅ．．．
 
 @zakuro_akire		#呆
 
 #＠ざくろ,Q01537
-#SCRIPT ORIGINAL 「……聞かないの？」
 ＠Ｚａｋｕｒｏ,Q01537
 「．．．Ｄｏｎ’ｔ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ？」
 
-#SCRIPT ORIGINAL ざくろがポツリと言った。
 Ｚａｋｕｒｏ　ｍｕｔｔｅｒｅｄ　ｂｒｉｅｆｌｙ．
 
 #＠樹
-#SCRIPT ORIGINAL 「……ん？」
 ＠Ｉｔｓｕｋｉ
 「．．．Ｈｍ？」
 
 #＠ざくろ,Q01538
-#SCRIPT ORIGINAL 「私がどうだったか聞かないの、つっちー？」
 ＠Ｚａｋｕｒｏ,Q01538
 「Ｄｏｎ’ｔ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ　ｗｈａｔ<br>
 ｈａｐｐｅｎｅｄ　ｔｏ　ｍｅ，　Ｔｓｕ－ｃｈｉ？」
 
-#SCRIPT ORIGINAL いつもマイペースで好きなことを喋る、ざくろらしからぬ問いかけ。
 Ｎｏｔ　ａ　ｑｕｅｓｔｉｏｎ　ｙｏｕ’ｄ　ｅｘｐｅｃｔ　ｆｒｏｍ<br>
 Ｚａｋｕｒｏ，　ａｌｗａｙｓ　ｇｏｉｎｇ　ｏｎ　ａｂｏｕｔ　ｈｅｒ<br>
 ｆａｎｃｉｅｓ．
 
 #She usually talked about things at her own pace, and asked a question that was not Zakuro-like.
 
-#SCRIPT ORIGINAL オレの口から言って欲しいのだろう、多分。
 Ｐｒｏｂａｂｌｙ，　ｓｈｅ　ｗａｎｔｓ　ｔｏ　ｈｅａｒ　ｉｔ　ｄｉｒｅｃｔｌｙ<br>
 ｆｒｏｍ　ｍｅ．
 
 #＠樹
-#SCRIPT ORIGINAL 「ざくろのお母さんはなれなかったんだな、お母さんに」
 ＠Ｉｔｓｕｋｉ
 「Ｙｏｕｒ　ｍｏｍ　ｄｉｄｎ’ｔ　ｍａｋｅ　ｆｏｒ　ａ　ｇｏｏｄ<br>
 ｍｏｔｈｅｒ，　ｄｉｄ　ｓｈｅ？」
@@ -1104,13 +950,11 @@ layer_movepass_type	l_zakuro,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_zakuro,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL ざくろは小さく頷く。
 Ｚａｋｕｒｏ　ｇａｖｅ　ａ　ｃｕｒｔ　ｎｏｄ．
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01539
-#SCRIPT ORIGINAL 「あの人は結局、女だった。今なら分かる。流されやすくて、だらしなくて、だから男がいつも寄ってきてた」
 ＠Ｚａｋｕｒｏ,Q01539
 「Ｓｈｅ　ｗａｓ　ａ　ｗｏｍａｎ，　ａｆｔｅｒ　ａｌｌ．　Ｉｔ’ｓ<br>
 ｏｂｖｉｏｕｓ　ｎｏｗ．　Ｅａｓｉｌｙ　ｓｗｅｐｔ　ａｗａｙ，<br>
@@ -1122,7 +966,6 @@ layer_movepass_play	l_zakuro,0,play_once
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01540
-#SCRIPT ORIGINAL 「自分では良い親のつもりで、でも本当は自分のことしか考えてない。そういう人。だから、私を捨てた」
 ＠Ｚａｋｕｒｏ,Q01540
 「Ｓｈｅ　ｍｅａｎｔ　ｔｏ　ｂｅ　ａ　ｇｏｏｄ　ｍｏｔｈｅｒ，　ｂｕｔ<br>
 ｒｅａｌｌｙ　ｓｈｅ　ｏｎｌｙ　ｃａｒｅｄ　ｆｏｒ　ｈｅｒｓｅｌｆ．　Ｔｈａｔ<br>
@@ -1132,14 +975,12 @@ layer_movepass_play	l_zakuro,0,play_once
 #「She wanted to become a good mother, but she really only thought about herself. She was that kind of person. That's why I was thrown away.」
 
 #＠樹
-#SCRIPT ORIGINAL 「捨てた？」
 ＠Ｉｔｓｕｋｉ
 「Ｔｏｓｓｅｄ　ｙｏｕ　ａｓｉｄｅ？」
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01541
-#SCRIPT ORIGINAL 「どの男かもう忘れたけど、二人でどこかに行った。最後は女であることを選んだ。それがあの人。私を産んだ女」
 ＠Ｚａｋｕｒｏ,Q01541
 「Ｉ　ｆｏｒｇｏｔ　ｗｈｏ　ｉｔ　ｗａｓ，　ｂｕｔ　ｓｈｅ　ｗｅｎｔ<br>
 ａｗａｙ　ｗｉｔｈ　ａ　ｍａｎ．　Ｓｈｅ　ｃｈｏｓｅ　ｔｏ　ｂｅ　ａ<br>
@@ -1148,51 +989,42 @@ layer_movepass_play	l_zakuro,0,play_once
 
 #「I already forgot which man it was, but she went somewhere with him. In the end, she decided to be a woman. That is her. The woman who gave birth to me.」
 
-#SCRIPT ORIGINAL やはり淡々と語るざくろ。
 Ｈｅｒ　ｔｏｎｅ　ｗａｓ　ｓｔｉｌｌ　ｉｎｄｉｆｆｅｒｅｎｔ．
 
 #Zakuro talks indifferently.
 
-#SCRIPT ORIGINAL 自分を捨てた母親をどう思っているのか、その表情からは伺うことはできない。
 Ｉｔ’ｓ　ｎｏｔ　ｃｌｅａｒ　ｆｒｏｍ　ｈｅｒ　ｅｘｐｒｅｓｓｉｏｎ<br>
 ｗｈａｔ　ｓｈｅ　ｔｈｉｎｋｓ　ｏｆ　ｈｅｒ　ｍｏｔｈｅｒ　ｗｈｏ<br>
 ｓｈｕｎｔｅｄ　ｈｅｒ．
 
-#SCRIPT ORIGINAL 懐かしさ……それとも、憎しみ……
 Ｗｈｅｔｈｅｒ　ｓｈｅ　ｍｉｓｓｅｓ　ｈｅｒ．．．　ｏｒ　ｈａｔｅｓ<br>
 ｈｅｒ．．．
 
 #＠樹
-#SCRIPT ORIGINAL 「ざくろ……」
 ＠Ｉｔｓｕｋｉ
 「Ｚａｋｕｒｏ．．．」
 
 @zakuro			#普
 
 #＠ざくろ,Q01542
-#SCRIPT ORIGINAL 「なに？」
 ＠Ｚａｋｕｒｏ,Q01542
 「Ｗｈａｔ？」
 
 #＠樹
-#SCRIPT ORIGINAL 「会いたいか、今」
 ＠Ｉｔｓｕｋｉ
 「Ｄｏ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｓｅｅ　ｈｅｒ，　ｎｏｗ？」
 
 @zakuro_iya		#嫌
 
 #＠ざくろ,Q01543
-#SCRIPT ORIGINAL 「……………」
 ＠Ｚａｋｕｒｏ,Q01543
 「．．．．．．．．．」
 
-#SCRIPT ORIGINAL ざくろはスッと目を逸らし、
 Ｚａｋｕｒｏ　ａｖｅｒｔｅｄ　ｈｅｒ　ｅｙｅｓ．．．
 
 @zakuro_metoji		#閉
 
 #＠ざくろ,Q01544
-#SCRIPT ORIGINAL 「あの人は私と関係なく、好きに生きて好きに死ぬ。だからどうでもいい」
 ＠Ｚａｋｕｒｏ,Q01544
 「Ｓｈｅ　ｈａｓ　ｎｏｔｈｉｎｇ　ｔｏ　ｄｏ　ｗｉｔｈ　ｍｅ，　ｓｈｅ<br>
 ｃａｎ　ｌｉｖｅ　ａｎｄ　ｄｉｅ　ｈｏｗ　ｓｈｅ　ｌｉｋｅｓ．　Ｉ<br>
@@ -1201,14 +1033,12 @@ layer_movepass_play	l_zakuro,0,play_once
 bgm_stop
 @zakuro_
 
-#SCRIPT ORIGINAL 会いたいとも、会いたくないとも言わず、ざくろはそれだけを口にした。
 Ｔｈａｔ’ｓ　ａｌｌ　ｓｈｅ　ｓａｉｄ，　ｎｏｔ　ｍｅｎｔｉｏｎｉｎｇ<br>
 ｗｈｅｔｈｅｒ　ｓｈｅ　ｗａｎｔｅｄ　ｔｏ　ｓｅｅ　ｈｅｒ　ｏｒ<br>
 ｎｏｔ．
 
 #Zakuro said only that, without mentioning whether she wanted to see her, or not want to see her.
 
-#SCRIPT ORIGINAL それから家に戻るまで、オレとざくろは何も話さなかった。
 Ｚａｋｕｒｏ　ａｎｄ　Ｉ　ｄｉｄｎ’ｔ　ｓａｙ　ａｎｙｔｈｉｎｇ　ｕｎｔｉｌ<br>
 ｗｅ　ｇｏｔ　ｂａｃｋ　ｈｏｍｅ．
 

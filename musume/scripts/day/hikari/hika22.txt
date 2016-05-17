@@ -10,12 +10,10 @@ label	hikari_22
 @bg_itsuki		# 自室
 @bgm12			#BGM 12 : メインテーマ
 
-#SCRIPT ORIGINAL この前の調査書のこと、今日はみかんに訊きに行こうか。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 この前の調査書のこと、今日はみかんに訊きに行こうか。
 
-#SCRIPT ORIGINAL 「みかんには確か、『鮎川』の苗字と施設の関係について訊くんだったな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -27,7 +25,6 @@ wait		1000
 #@bg_rouka		# 廊下
 @bg_door		# ドア前
 
-#SCRIPT ORIGINAL 部屋を出ると、まっすぐみかんの部屋の前までやってきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 部屋を出ると、まっすぐみかんの部屋の前までやってきた。
@@ -35,7 +32,6 @@ wait		1000
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT ORIGINAL 「みかん、居るか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -43,25 +39,21 @@ wait		1000
 
 #CH（立ち絵なし）
 
-#SCRIPT ORIGINAL 「はーいっ。お兄ちゃん？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01842
 「はーいっ。お兄ちゃん？」
 
-#SCRIPT ORIGINAL 「ああ、ちょっと聞きたい事があるんだけど、入って大丈夫か？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ああ、ちょっと聞きたい事があるんだけど、入って大丈夫か？」
 
-#SCRIPT ORIGINAL 「うんっ、いいよ。入ってー」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01843
 「うんっ、いいよ。入ってー」
 
-#SCRIPT ORIGINAL 返事を確認して、中へ入る。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 返事を確認して、中へ入る。
@@ -86,18 +78,15 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「あ、でもごめんね、今片づけ中で散らかってるけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01844
 「あ、でもごめんね、今片づけ中で散らかってるけど」
 
-#SCRIPT ORIGINAL 中に入ると、みかんは床いっぱいのボードゲームに囲まれていた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 中に入ると、みかんは床いっぱいのボードゲームに囲まれていた。
 
-#SCRIPT ORIGINAL 「お……さすがにすごい量だな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -112,7 +101,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん。一度ゲームの本体を掃除して、並べなおしてるの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01845
@@ -121,13 +109,11 @@ layer_movepass_play	l_mikan,0,play_once
 #@mikan_kusyou		#苦笑
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「よく遊ぶのはそうでもないんだけど、ちょっと前のゲームは中に埃が入ってたりするから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01846
 「よく遊ぶのはそうでもないんだけど、ちょっと前のゲームは中に埃が入ってたりするから」
 
-#SCRIPT ORIGINAL 「そう、ちゃんと手入れしてるのか。偉いなみかん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -135,7 +121,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_warai2		#笑2
 
-#SCRIPT ORIGINAL 「えへへ～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01847
@@ -150,19 +135,16 @@ se_stop		0
 @mikan_shifuku
 @mikan_warai		#笑
 
-#SCRIPT ORIGINAL 「あ、そうだ。みかんに何か訊きたいことがあるんだよね？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01848
 「あ、そうだ。みかんに何か訊きたいことがあるんだよね？」
 
-#SCRIPT ORIGINAL 「ちょっと名前を訊きたいんだけどな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちょっと名前を訊きたいんだけどな」
 
-#SCRIPT ORIGINAL 「みかんと同じ苗字で、『鮎川瑛麻』っていう名前、聞き覚えあるか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -171,7 +153,6 @@ se_stop		0
 bgm_stop
 @mikan_odoroki		#驚
 
-#SCRIPT ORIGINAL 「へ……？　瑛麻？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01849
@@ -179,13 +160,11 @@ bgm_stop
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「それだったら、お父さんと同じ名前だよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01850
 「それだったら、お父さんと同じ名前だよ」
 
-#SCRIPT ORIGINAL 「お父さん？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -199,7 +178,6 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん。みかんのお父さん、『鮎川瑛麻』っていうの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01851
@@ -207,7 +185,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「……お父さんが、どうかしたの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01852
@@ -215,40 +192,33 @@ layer_movepass_play	l_mikan,0,play_once
 
 @bgm06			#BGM 06 : 不安のテーマ
 
-#SCRIPT ORIGINAL 振られた話題に、少しみかんの顔に影が落ちる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 振られた話題に、少しみかんの顔に影が落ちる。
 
-#SCRIPT ORIGINAL すでに故人となった家族の事なのだから、明るくは語れないだろう。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 すでに故人となった家族の事なのだから、明るくは語れないだろう。
 
-#SCRIPT ORIGINAL 「ごめんな、寂しい事をわざわざ思い出させるみたいで」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ごめんな、寂しい事をわざわざ思い出させるみたいで」
 
-#SCRIPT ORIGINAL 「ううん。でも、急にどうしてお父さんのことを聞くの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01853
 「ううん。でも、急にどうしてお父さんのことを聞くの？」
 
-#SCRIPT ORIGINAL 「それは……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「それは……」
 
-#SCRIPT ORIGINAL 正直に言うと、変に悩ませてしまうかもしれないな。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 正直に言うと、変に悩ませてしまうかもしれないな。
 
-#SCRIPT ORIGINAL 「ちょっと、仕事中に名前を聞いてな。苗字が同じだからもしかしてと思って」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -256,19 +226,16 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「そうなんだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01854
 「そうなんだ」
 
-#SCRIPT ORIGINAL 「じゃあお兄ちゃんも、お父さんの書いた本を読んでたの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01855
 「じゃあお兄ちゃんも、お父さんの書いた本を読んでたの？」
 
-#SCRIPT ORIGINAL 「本……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -276,7 +243,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_warai		#笑
 
-#SCRIPT ORIGINAL 「あのね、みかんは難しくて読めなかったんだけど、お父さん本を書いて出してたんだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01856
@@ -284,7 +250,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「えっと、何とかっていう難しい名前のお仕事だったんだけど……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01857
@@ -292,18 +257,15 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「ん～、ジャーン……ジャーリナ……ジャーナ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01858
 「ん～、ジャーン……ジャーリナ……ジャーナ……」
 
-#SCRIPT ORIGINAL そういえば、みかんとは入院が重なって慌しかったので、詳しい家庭状況は聞いていなかったな。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そういえば、みかんとは入院が重なって慌しかったので、詳しい家庭状況は聞いていなかったな。
 
-#SCRIPT ORIGINAL 「もしかして、ジャーナリストか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -311,7 +273,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_odoroki		#驚
 
-#SCRIPT ORIGINAL 「あっ、うん、その名前！」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01859
@@ -319,7 +280,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「難しい事をいっぱい調べて、いろんな人とお話してたよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01860
@@ -330,7 +290,6 @@ layer_movepass_play	l_mikan,0,play_once
 #＠みかん,A01861
 #「お父さんはそのお仕事、誠司ジャーナリストって言ってた」
 
-#SCRIPT ORIGINAL 「お父さんはそのお仕事、政治ジャーナリストって言ってた」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01861
@@ -339,7 +298,6 @@ layer_movepass_play	l_mikan,0,play_once
 #＠樹
 #「誠司……？　あぁ、政治ジャーナリストな」
 
-#SCRIPT ORIGINAL 「政治ジャーナリスト……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -347,17 +305,14 @@ layer_movepass_play	l_mikan,0,play_once
 
 @bg_black
 
-#SCRIPT ORIGINAL だとすると、あの調査記録はどういう意図で作成されたのだろうか。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 だとすると、あの調査記録はどういう意図で作成されたのだろうか。
 
-#SCRIPT ORIGINAL 公安とかそのＮＰＯとか、確かに繋がりそうな単語は文書内にあったが。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 公安とかそのＮＰＯとか、確かに繋がりそうな単語は文書内にあったが。
 
-#SCRIPT ORIGINAL ……それに、不審な死。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……それに、不審な死。
@@ -367,7 +322,6 @@ layer_movepass_play	l_mikan,0,play_once
 @mikan_warai		#笑
 @bg_mikan		# みかんの部屋
 
-#SCRIPT ORIGINAL 「……なぁ、みかん。お父さんとお母さんって何で死んだんだ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -375,18 +329,15 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「えっ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01862
 「えっ……」
 
-#SCRIPT ORIGINAL 途端にみかんが悲しそうな顔をした。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 途端にみかんが悲しそうな顔をした。
 
-#SCRIPT ORIGINAL 「あ、悪い！　ちょっと無神経すぎたな……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -394,13 +345,11 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「あ、ううん……。いいよ、死んでるのは本当だもん……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01863
 「あ、ううん……。いいよ、死んでるのは本当だもん……」
 
-#SCRIPT ORIGINAL 「みかんのお父さんとお母さんはね、事故で死んだの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01864
@@ -408,37 +357,31 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_kanashimi	#哀
 
-#SCRIPT ORIGINAL 「車を運転してるとき、前から来る車とぶつかったんだって……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01865
 「車を運転してるとき、前から来る車とぶつかったんだって……」
 
-#SCRIPT ORIGINAL 「……なるほど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……なるほど」
 
-#SCRIPT ORIGINAL 不審と言えるほど珍しくは無い、よくあるケースの交通事故だ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 不審と言えるほど珍しくは無い、よくあるケースの交通事故だ。
 
-#SCRIPT ORIGINAL だがそれだけに、故意に起こされるパターンも少なくはない。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 だがそれだけに、故意に起こされるパターンも少なくはない。
 
 bgm_stop
 
-#SCRIPT ORIGINAL 「最後に一つだけ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「最後に一つだけ」
 
-#SCRIPT ORIGINAL 「みかんはお父さんから、この施設の事を聞いたことってあるかい？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -446,13 +389,11 @@ bgm_stop
 
 @mikan			#普通
 
-#SCRIPT ORIGINAL 「え……？　ううん、無かったと思うよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01866
 「え……？　ううん、無かったと思うよ」
 
-#SCRIPT ORIGINAL 「みかんここには、怖い人から守ってもらえるようにって、初めて叔父さんと叔母さんに案内されたから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01867
@@ -461,7 +402,6 @@ bgm_stop
 #@mikan_warai		#笑
 @mikan_yorokobi		#喜
 
-#SCRIPT ORIGINAL 「それから、今までずっとお兄ちゃんがみかんの事を守ってくれてるんだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01868
@@ -469,13 +409,11 @@ bgm_stop
 
 @bgmk02			#BGM K02 : しんみりのテーマ
 
-#SCRIPT ORIGINAL 「ん、ああ……。それはみかんがお仕事を頑張ってるからさ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ん、ああ……。それはみかんがお仕事を頑張ってるからさ」
 
-#SCRIPT ORIGINAL 「だからこれからも、ちゃんとみかんを守っていってあげるよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -490,28 +428,23 @@ layer_movepass_type	l_mikan,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_mikan,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うん！　あははっ、ありがとうお兄ちゃん♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01869
 「うん！　あははっ、ありがとうお兄ちゃん♪」
 
-#SCRIPT ORIGINAL 無理に明るく振舞うように、みかんが楽しそうな笑顔を見せる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 無理に明るく振舞うように、みかんが楽しそうな笑顔を見せる。
 
-#SCRIPT ORIGINAL さて……訊きたかった事はこれで全部だ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 さて……訊きたかった事はこれで全部だ。
 
-#SCRIPT ORIGINAL 知らなかったとは言え、ちょっと辛い話をさせてしまったな。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 知らなかったとは言え、ちょっと辛い話をさせてしまったな。
 
-#SCRIPT ORIGINAL 「話っていうのはそれだけだ、みかん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -519,7 +452,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_yorokobi		#喜
 
-#SCRIPT ORIGINAL 「それじゃあ、オレも一緒にゲームの掃除と整理をしようか」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -527,13 +459,11 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_odoroki		#驚
 
-#SCRIPT ORIGINAL 「えっ、いいの？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01870
 「えっ、いいの？」
 
-#SCRIPT ORIGINAL 「話に付き合ってくれたお礼と、悲しい事を思い出させてしまったお詫びだよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -541,7 +471,6 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_kusyou		#苦笑
 
-#SCRIPT ORIGINAL 「ん～……えへへ。実は、ちょっと一人で大変だったの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01871
@@ -549,13 +478,11 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_warai		#笑
 
-#SCRIPT ORIGINAL 「じゃあみかん、お兄ちゃんにお手伝いお願いしてもいいっ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01872
 「じゃあみかん、お兄ちゃんにお手伝いお願いしてもいいっ？」
 
-#SCRIPT ORIGINAL 「ああ、何でも遠慮なく指示してくれよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -563,18 +490,15 @@ layer_movepass_play	l_mikan,0,play_once
 
 @mikan_komikaru_warai	#コミカル笑
 
-#SCRIPT ORIGINAL 「あははっ、やった！　お掃除ができて、お兄ちゃんとまで一緒に居られるよ♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｋａｎ,A01873
 「あははっ、やった！　お掃除ができて、お兄ちゃんとまで一緒に居られるよ♪」
 
-#SCRIPT ORIGINAL 今度は無理の無い、正直に嬉しそうな笑顔を弾けさせるみかん。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 今度は無理の無い、正直に嬉しそうな笑顔を弾けさせるみかん。
 
-#SCRIPT ORIGINAL それからオレ達は二人で、楽しく雑談を挟みながら作業を続けていった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 それからオレ達は二人で、楽しく雑談を挟みながら作業を続けていった。

@@ -10,12 +10,10 @@ label	hikari_14
 @bg_itsuki_n		# 自室(夜)
 @bgmk04			#BGM K04 : 寝る前のテーマ
 
-#SCRIPT ORIGINAL お風呂から上がって、オレは部屋に戻ってきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 お風呂から上がって、オレは部屋に戻ってきた。
 
-#SCRIPT ORIGINAL 毎夜の日課ではこの時間、子供たちの体調とスケジュールの見合わせをする。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 毎夜の日課ではこの時間、子供たちの体調とスケジュールの見合わせをする。
@@ -23,7 +21,6 @@ label	hikari_14
 #SE11　部屋のドアをノック（コンコン）
 @SE11			#SE11　部屋のドアをノック（コンコン）
 
-#SCRIPT ORIGINAL 「ん？　はい」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -38,18 +35,15 @@ wait		1000
 @hikari_pajama		#パジャマ
 @hikari_yorokobi	#喜.png
 
-#SCRIPT ORIGINAL 「お父しゃんー！　ひーちゃんなの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00449
 「お父しゃんー！　ひーちゃんなの」
 
-#SCRIPT ORIGINAL 先にお風呂から出ていたひかりが、パジャマ姿で入ってきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 先にお風呂から出ていたひかりが、パジャマ姿で入ってきた。
 
-#SCRIPT ORIGINAL 「ひかりか。どうかしたのか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -64,7 +58,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うんっ。お父しゃんがお風呂出ゆまで待ってたのー」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00450
@@ -76,20 +69,17 @@ wait		500
 @miu_maid
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「お仕事お疲れさまです、樹さん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01812
 「お仕事お疲れさまです、樹さん」
 
-#SCRIPT ORIGINAL ひかりに続いて、同じくお風呂上りの美雨が入ってきた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりに続いて、同じくお風呂上りの美雨が入ってきた。
 
 @miu			#閉_にこ
 
-#SCRIPT ORIGINAL 「どうぞ。まだ少しお仕事で起きられてると思いましたので」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01813
@@ -97,7 +87,6 @@ wait		500
 
 @miu_
 
-#SCRIPT ORIGINAL 「お、ありがとう。さすが気が利くな、美雨は」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -105,12 +94,10 @@ wait		500
 
 @SE35			#ティーカップを置く音（カチャ）
 
-#SCRIPT ORIGINAL 机の上に美雨が運んでくれたティーカップが置かれる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 机の上に美雨が運んでくれたティーカップが置かれる。
 
-#SCRIPT ORIGINAL お風呂上りなのも考慮してくれて、中身はアイスミルクティーだ。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 お風呂上りなのも考慮してくれて、中身はアイスミルクティーだ。
@@ -126,13 +113,11 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「それね、ひーちゃんもさっき飲んだの。美味しいーよ♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00451
 「それね、ひーちゃんもさっき飲んだの。美味しいーよ♪」
 
-#SCRIPT ORIGINAL 「それは楽しみだ。改めてありがとう、美雨」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -142,7 +127,6 @@ layer_movepass_play	l_hikari,0,play_once
 @miu_maid
 @miu			#閉_にこ
 
-#SCRIPT ORIGINAL 「そんな。そこまで改まられると、何だか照れくさくなっちゃいますよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01814
@@ -150,13 +134,11 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「他に何か、私でお手伝いできる事はありますか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01815
 「他に何か、私でお手伝いできる事はありますか？」
 
-#SCRIPT ORIGINAL 「いや、十分だよ。ところでひかりは何をしに来たんだ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -164,13 +146,11 @@ layer_movepass_play	l_hikari,0,play_once
 
 @hikari_yorokobi	#喜.png
 
-#SCRIPT ORIGINAL 「ひーちゃんはね、お父しゃんと一緒におやしゅみを言いにきたの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00452
 「ひーちゃんはね、お父しゃんと一緒におやしゅみを言いにきたの」
 
-#SCRIPT ORIGINAL 「ああ、そうか。おやすみひかり」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -178,13 +158,11 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu_mu			#開_普通（無表情）
 
-#SCRIPT ORIGINAL 「……え、お父さん？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01816
 「……え、お父さん？」
 
-#SCRIPT ORIGINAL 「ん？　あれ……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -199,31 +177,26 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「お父しゃんっ、ひーちゃんと一緒に寝よう♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00453
 「お父しゃんっ、ひーちゃんと一緒に寝よう♪」
 
-#SCRIPT ORIGINAL 首を傾げるオレと美雨に、ひかりは元気よく言い放った。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 首を傾げるオレと美雨に、ひかりは元気よく言い放った。
 
-#SCRIPT ORIGINAL 「……なるほど。そういう意味か」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……なるほど。そういう意味か」
 
-#SCRIPT ORIGINAL まさか今のやり取りを聞いて、そんな言葉が出るとは思わなかった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 まさか今のやり取りを聞いて、そんな言葉が出るとは思わなかった。
 
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「ひーちゃん、樹さんはこれからお仕事だから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01817
@@ -238,7 +211,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「お母しゃんも前みたいに、お父しゃんのベッドで一緒に寝よーっ♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00454
@@ -246,19 +218,16 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu_komaru		#開_困
 
-#SCRIPT ORIGINAL 「えっ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01818
 「えっ……」
 
-#SCRIPT ORIGINAL 「……ひかり、それは」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「……ひかり、それは」
 
-#SCRIPT ORIGINAL 「今夜は、オレも美雨も仕事があるんだ。だから我慢できるね？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -279,7 +248,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うーっ……ひーちゃん、いちゅも我慢してゆのぉ～……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00455
@@ -287,7 +255,6 @@ layer_movepass_play	l_hikari,0,play_once
 
 @hikari_kanashimi	#哀.png
 
-#SCRIPT ORIGINAL 「ほんとは毎日がいいの……お父しゃんとお母しゃんと一緒に寝ゆの……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00456
@@ -295,13 +262,11 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu_kanashimi		#開_哀
 
-#SCRIPT ORIGINAL 「ひーちゃん……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01819
 「ひーちゃん……」
 
-#SCRIPT ORIGINAL 「気持ちは分かるけど、ひかり。仕方ないだろ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -309,49 +274,41 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu_komaru		#開_困
 
-#SCRIPT ORIGINAL 「……あの、樹さん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01820
 「……あの、樹さん」
 
-#SCRIPT ORIGINAL 「この間みたいに、ひーちゃんが寝るまで側に居てあげるのはダメですか？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01821
 「この間みたいに、ひーちゃんが寝るまで側に居てあげるのはダメですか？」
 
-#SCRIPT ORIGINAL 「………。……おおぃ、美雨まで」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「………。……おおぃ、美雨まで」
 
-#SCRIPT ORIGINAL 寂しがるひかりを想って、美雨は添い寝サイドについてしまった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 寂しがるひかりを想って、美雨は添い寝サイドについてしまった。
 
-#SCRIPT ORIGINAL って言うかオレは、美雨のことを思って渋ってたんだが……
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 って言うかオレは、美雨のことを思って渋ってたんだが……
 
 @hikari_komaru		#困.png
 
-#SCRIPT ORIGINAL 「お父しゃんはダメ……？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00457
 「お父しゃんはダメ……？」
 
-#SCRIPT ORIGINAL 「いや、分かった、寝るかひかり。前みたいに川の字で」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「いや、分かった、寝るかひかり。前みたいに川の字で」
 
-#SCRIPT ORIGINAL 美雨が良いなら、オレがこれを断る理由は無い。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 美雨が良いなら、オレがこれを断る理由は無い。
@@ -369,7 +326,6 @@ layer_movepass_type	l_hikari,0,	PASSTYPE_LINEAR
 layer_movepass_play	l_hikari,0,play_once
 #///////////////////////////////////////////////////////
 
-#SCRIPT ORIGINAL 「うわーいッ♪　またお父しゃんとお母しゃんと一緒に寝えゆのー♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00458
@@ -377,13 +333,11 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu2			#開_にこ
 
-#SCRIPT ORIGINAL 「ありがとうございます、樹さん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01822
 「ありがとうございます、樹さん」
 
-#SCRIPT ORIGINAL 「いや別に、お礼はいいよ。むしろ役得してるオレが言うべきだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -391,13 +345,11 @@ layer_movepass_play	l_hikari,0,play_once
 
 @miu_tere2		#閉_照
 
-#SCRIPT ORIGINAL 「えっ……。あ、いえ、それは………こちらこそっ…」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01823
 「えっ……。あ、いえ、それは………こちらこそっ…」
 
-#SCRIPT ORIGINAL 余計な一言のせいで美雨を意識させてしまった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 余計な一言のせいで美雨を意識させてしまった。
@@ -410,7 +362,6 @@ wait		1000
 #■BG（自室・消灯）
 @bg_itsuki_nn		# 自室(消灯)
 
-#SCRIPT ORIGINAL ともあれ、消灯して前と同じように、ひかりを真ん中にしてベッドへ潜る。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ともあれ、消灯して前と同じように、ひかりを真ん中にしてベッドへ潜る。
@@ -419,25 +370,21 @@ wait		1000
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT ORIGINAL 「あははっ♪　やっぱり暖かいの」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00459
 「あははっ♪　やっぱり暖かいの」
 
-#SCRIPT ORIGINAL 「ひかり、もっとこっちおいで。ちゃんと寄ってこないと湯冷めするぞ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ひかり、もっとこっちおいで。ちゃんと寄ってこないと湯冷めするぞ」
 
-#SCRIPT ORIGINAL 「は～い♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00460
 「は～い♪」
 
-#SCRIPT ORIGINAL 「……ひーちゃん、ちょっとごめんね、狭いところ動くけど」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01824
@@ -447,36 +394,30 @@ window_close
 #SE70　衣擦れ音（シュルシュル）
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT ORIGINAL 暗い部屋の中で、また美雨の服から衣擦れの音がする。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 暗い部屋の中で、また美雨の服から衣擦れの音がする。
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
-#SCRIPT ORIGINAL 「ん…っふぅ……んぅ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01825
 「ん…っふぅ……んぅ」
 
-#SCRIPT ORIGINAL 「あの……服、緩めてるんだよな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「あの……服、緩めてるんだよな」
 
-#SCRIPT ORIGINAL 「えっ……あ、はいっ……すみません……すぐ終わりますからっ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01826
 「えっ……あ、はいっ……すみません……すぐ終わりますからっ……」
 
-#SCRIPT ORIGINAL 「うん……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -485,42 +426,35 @@ window_close
 window_close
 @SE70			#SE70　衣擦れ音（シュルシュル）
 
-#SCRIPT ORIGINAL 「えへへ～♪　お母しゃんのお胸、暖かくてふかふかなの～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00461
 「えへへ～♪　お母しゃんのお胸、暖かくてふかふかなの～♪」
 
-#SCRIPT ORIGINAL 「きゃっ…！　ひ、ひーちゃん、今は待ってっ……あ、胸のところ、そんなっ…」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01827
 「きゃっ…！　ひ、ひーちゃん、今は待ってっ……あ、胸のところ、そんなっ…」
 
-#SCRIPT ORIGINAL 「わぁ……お洋服捲ったら、お胸もっと大きくなったの～……やわやか～い」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00462
 「わぁ……お洋服捲ったら、お胸もっと大きくなったの～……やわやか～い」
 
-#SCRIPT ORIGINAL 「んふぅっ……ん！　だ、ダメよひーちゃんっ……そんなにしたら、胸元がはだけすぎちゃうから…」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01828
 「んふぅっ……ん！　だ、ダメよひーちゃんっ……そんなにしたら、胸元がはだけすぎちゃうから…」
 
-#SCRIPT ORIGINAL 「…………」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「…………」
 
-#SCRIPT ORIGINAL ……静まれ、愚息。気持ちは分かるが、いま元気になっても虚しいだけだぜ……。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ……静まれ、愚息。気持ちは分かるが、いま元気になっても虚しいだけだぜ……。
 
-#SCRIPT ORIGINAL そんな扇情的なやり取りが続いたが、やがて何とか二人とも寝る体勢に入ってくれた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 そんな扇情的なやり取りが続いたが、やがて何とか二人とも寝る体勢に入ってくれた。
@@ -530,7 +464,6 @@ window_close
 event		"event\EV_MIU_030-00.png"
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL 「えへへ、一緒のお布団なの～♪　お父しゃん、お母しゃん～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00463
@@ -538,88 +471,73 @@ event		"event\EV_MIU_030-00.png"
 
 @bgmk03			#BGM K03 : 静かの時のテーマ
 
-#SCRIPT ORIGINAL オレと美雨の間で、モゾモゾと身体を動かしてひかりが笑う。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 オレと美雨の間で、モゾモゾと身体を動かしてひかりが笑う。
 
-#SCRIPT ORIGINAL 「うふふ、そうね。一緒のお布団よひーちゃん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01829
 「うふふ、そうね。一緒のお布団よひーちゃん」
 
-#SCRIPT ORIGINAL 「相変わらず密着状態だな。大丈夫か？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「相変わらず密着状態だな。大丈夫か？」
 
-#SCRIPT ORIGINAL 「うん！　ひーちゃんもっと、ギュウッて窮屈な方がいいの～」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00464
 「うん！　ひーちゃんもっと、ギュウッて窮屈な方がいいの～」
 
-#SCRIPT ORIGINAL 「変わった注文をするやつだ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「変わった注文をするやつだ」
 
-#SCRIPT ORIGINAL 「ええ。そんなこと言ってると、本当にもっと抱きしめちゃうわよ。ひーちゃんのこと大好きなんだから」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01830
 「ええ。そんなこと言ってると、本当にもっと抱きしめちゃうわよ。ひーちゃんのこと大好きなんだから」
 
-#SCRIPT ORIGINAL 「うんっ、ひーちゃんもお母しゃん大しゅきなの～♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00465
 「うんっ、ひーちゃんもお母しゃん大しゅきなの～♪」
 
-#SCRIPT ORIGINAL ひかりがさらに、ゴソゴソとオレと美雨の胸の中を往復する。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ひかりがさらに、ゴソゴソとオレと美雨の胸の中を往復する。
 
-#SCRIPT ORIGINAL その度に幸せそうな破顔と笑い声が溢れ落ちる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 その度に幸せそうな破顔と笑い声が溢れ落ちる。
 
-#SCRIPT ORIGINAL 「ひーちゃん。嬉しそうだけど、今日はもう遅いから寝ましょうね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01831
 「ひーちゃん。嬉しそうだけど、今日はもう遅いから寝ましょうね」
 
-#SCRIPT ORIGINAL 「は～い」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00466
 「は～い」
 
-#SCRIPT ORIGINAL 「ねぇお父しゃん、お母しゃん、じゅっとここに居てくれゆ？」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00467
 「ねぇお父しゃん、お母しゃん、じゅっとここに居てくれゆ？」
 
-#SCRIPT ORIGINAL 「ええ、どこにも行かないわ。だから安心して寝ていいのよ、ひーちゃん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01832
 「ええ、どこにも行かないわ。だから安心して寝ていいのよ、ひーちゃん」
 
-#SCRIPT ORIGINAL 「ちゃんと居るから。ゆっくりお休み、ひかり」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「ちゃんと居るから。ゆっくりお休み、ひかり」
 
-#SCRIPT ORIGINAL 「ん…♪」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00468
@@ -630,47 +548,39 @@ event		"event\EV_MIU_030-00.png"
 event		"event\EV_MIU_030-01.png"
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL 安心したように頷くと、目を瞑るひかり。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 安心したように頷くと、目を瞑るひかり。
 
-#SCRIPT ORIGINAL それから数分後にはもう、静かな寝息が聞こえ始める。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 それから数分後にはもう、静かな寝息が聞こえ始める。
 
-#SCRIPT ORIGINAL 「ふふ。私たちといる時のひーちゃん、本当に嬉しそう」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01833
 「ふふ。私たちといる時のひーちゃん、本当に嬉しそう」
 
-#SCRIPT ORIGINAL 「家族だって疑ってもないから。甘えてるんだろうな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「家族だって疑ってもないから。甘えてるんだろうな」
 
-#SCRIPT ORIGINAL 「すぅ……んふぅ……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00469
 「すぅ……んふぅ……」
 
-#SCRIPT ORIGINAL 「……私も。出来ればずっと、このままの生活が続いてほしいです」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01834
 「……私も。出来ればずっと、このままの生活が続いてほしいです」
 
-#SCRIPT ORIGINAL 「私と樹さんで、この子の成長を見守って……。ずっと一緒に」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01835
 「私と樹さんで、この子の成長を見守って……。ずっと一緒に」
 
-#SCRIPT ORIGINAL 愛しげにひかりの髪を撫で、そのまま布団を整えてあげる美雨。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 愛しげにひかりの髪を撫で、そのまま布団を整えてあげる美雨。
@@ -679,25 +589,21 @@ event		"event\EV_MIU_030-01.png"
 event		"event\EV_MIU_030-02.png"
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL 「樹さんは、やっぱり迷惑ですか……？　他所の子に愛情を注ぐのは」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01836
 「樹さんは、やっぱり迷惑ですか……？　他所の子に愛情を注ぐのは」
 
-#SCRIPT ORIGINAL 「そんなことない。協力するよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「そんなことない。協力するよ」
 
-#SCRIPT ORIGINAL 「せめて、ひかりがオレを『お父さん』って呼んでくれてる間はね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
 「せめて、ひかりがオレを『お父さん』って呼んでくれてる間はね」
 
-#SCRIPT ORIGINAL 「……樹さん」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01837
@@ -707,13 +613,11 @@ event		"event\EV_MIU_030-02.png"
 event		"event\EV_MIU_030-01.png"
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL 「ありがとうございます。私もそれを聞いて……すごく嬉しいです」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01838
 「ありがとうございます。私もそれを聞いて……すごく嬉しいです」
 
-#SCRIPT ORIGINAL 「はは。でもその期間は、前にも言ったとおり、役得の夫婦関係になるけどな」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -724,7 +628,6 @@ event		"event\EV_MIU_030-01.png"
 #event		"event\EV_MIU_030-02.png"
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL 「あは……そうですね」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01839
@@ -732,12 +635,10 @@ event		"event\EV_MIU_030-01.png"
 
 @bg_white		# 白
 
-#SCRIPT ORIGINAL 照れ笑い、美雨がシーツの中で手を触れてくる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 照れ笑い、美雨がシーツの中で手を触れてくる。
 
-#SCRIPT ORIGINAL それを握り返して、ひかりの身体に被せてあげた。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 それを握り返して、ひかりの身体に被せてあげた。
@@ -746,25 +647,21 @@ event		"event\EV_MIU_030-01.png"
 event		"event\EV_MIU_030-01.png"
 #--------------------------------------------------
 
-#SCRIPT ORIGINAL 「それも含めて、よろしくお願いします。樹さん……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01840
 「それも含めて、よろしくお願いします。樹さん……」
 
-#SCRIPT ORIGINAL 「んぅ、ふぅ……お父しゃん……お母しゃん……」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｈｉｋａｒｉ,N00470
 「んぅ、ふぅ……お父しゃん……お母しゃん……」
 
-#SCRIPT ORIGINAL 「ふふっ。もちろん、大事なのはひーちゃんということで」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｍｉｕ,B01841
 「ふふっ。もちろん、大事なのはひーちゃんということで」
 
-#SCRIPT ORIGINAL 「了解。よりいっそうの努力をするよ」
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 ＠Ｉｔｓｕｋｉ
@@ -775,12 +672,10 @@ bgm_stop
 #@bg_black
 @bg_sky_n		# 夜空
 
-#SCRIPT ORIGINAL 結局、そのままオレと美雨も同じように目を閉じる。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 結局、そのままオレと美雨も同じように目を閉じる。
 
-#SCRIPT ORIGINAL 寄り添うだけのつもりだったが、このまま三人で眠る暖かさに誘われていった。
 #SCRIPT UNTRANSLATED
 ##SCRIPT NEXT LINE TRANSLATED
 寄り添うだけのつもりだったが、このまま三人で眠る暖かさに誘われていった。
