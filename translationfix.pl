@@ -2362,7 +2362,7 @@ sub InsertFile
 				{
 					$line = shift(@scriptFile);
 					die ("ERROR: Line not found\n" . $index_line . "\n") if not defined $line;
-					push(@codeFile, $line);
+					push(@codeFile, $line) if (substr($line, 0, 16) ne "#SCRIPT ORIGINAL");
 					next if substr($line, 0, 1) eq "#";
 					next if index($line, $select_line) == -1;
 					last;
@@ -2413,6 +2413,7 @@ sub InsertFile
 					my $local_line = shift(@scriptFile);
 					die if not defined $local_line;
 					last if $local_line eq $compare_line;
+					next if (substr($local_line, 0, 16) eq "#SCRIPT ORIGINAL");
 					push(@codeFile, $local_line);
 				}
 				
