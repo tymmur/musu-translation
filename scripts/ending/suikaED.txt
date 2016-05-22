@@ -13,16 +13,16 @@ label	suika_end
 @bgm17			#BGM 17 : のんびりのテーマ
 
 #SCRIPT ORIGINAL ちなみに、すいかはこの前、作っていたゲームを完成させて、同人ソフトとしてネットで発売した。
-　By the way, a while ago, Suika completed her game and sold it on the net as a doujin soft.
+　By the way, Suika finished her game and sold it on the net as a doujin soft a while ago.
 
 #SCRIPT ORIGINAL 高いゲーム性と可愛らしいキャラクターから、ゲームはたちまち各所で話題になり、注文が殺到。
-　The characters were cute like in expensive games, so the game became the subject of discussion everywhere, and orders flooded in.
+　Orders flooded in, the stellar gameplay and cute characters making it the subject of much talk.
 
 #SCRIPT ORIGINAL すいかの立ち上げたホームページも有名サイトとなり、友達もたくさんできたようだ。
-　The website Suika put up became a famous site, and she made many friends.
+　Suika's website that she made became famous, and she seems to have made many friends.
 
 #SCRIPT ORIGINAL そんな仲間たちとすいかはサークルを立ち上げ、次の即売会ではいきなり大手として壁際に配置されるという快挙を果たした。
-　Suika created a circle with those friends, and (?)
+　Making a circle with those friends, they were proudly displaying a full assortment of their wares along a wall.
 
 @bg_white		# 白
 wait		1000
@@ -39,10 +39,10 @@ event		"event\ED_SUI_010.png"
 #＠すいか,R00865
 #SCRIPT ORIGINAL 「これも先生のおかげですよ」
 ＠Suika,R00865
-「This is also thanks to you, Sensei.」
+「This is all thanks to you, Sensei」
 
 #SCRIPT ORIGINAL などとすいかは言ってくれるが、やはりすいか自身の才能と努力があってのことだと思う。
-　Suika said many things like this, but I think it's actually because of Suika's talent and hard effort.
+　So she says, but I think it's actually because of Suika's talent and hard work.
 
 #--------------------------------------------------
 #デバッグ用
@@ -56,18 +56,16 @@ if pay_debts = 0 then goto suika_ep_f01_a
 #--------------------------------------------------
 
 #SCRIPT ORIGINAL 施設の借金もなくなったので、すいかは設けたお金をどう使うのも自由だった。
-　The institution's debts were gone, so Suika was free to use the money she raised however she wanted.
+　Suika was free to use her profits however she wanted, since the institution was debt-free.
 
 #SCRIPT ORIGINAL というか、儲けすぎで税金がすごいことになりそうだったので……。
-　Or should I say, she raised too much money that (?)
+　Actually, she's earning so much it could incur a serious tax...
 
 #@suika_yorokobi		#喜
 
 #SCRIPT ORIGINAL 「しょうがないんで、法人化しようと思うんです」
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
 ＠Suika,R00866
-「しょうがないんで、法人化しようと思うんです」
+「We may have to go full-on corporate soon」
 
 #＠すいか,R00867
 #SCRIPT ORIGINAL 「院長先生も手伝っていただけますか？」
@@ -77,20 +75,20 @@ if pay_debts = 0 then goto suika_ep_f01_a
 #＠樹
 #SCRIPT ORIGINAL 「まあ、オレにできることならな……」
 ＠Itsuki
-「Well, if it's something I can do......」
+「If I can, I guess...」
 
 #@suika_warai		#笑
 
 #＠すいか,R00868
 #SCRIPT ORIGINAL 「あと、新作のテストプレイもお願いしますね」
 ＠Suika,R00868
-「Also, please test play my new work too.」
+「Please test out our new game too」
 
 #SCRIPT ORIGINAL と、そんな日々を過ごしている。
-　So, those were the kinds of days we spent.
+　And so, the times were like that.
 
 #SCRIPT ORIGINAL まあ、ずいぶん自信もついてみたいだし、すいかに関してはめでたしめでたしだ。
-　Well, it seems like she has quite a bit of confidence now, and as far as Suika is concerned, she lived happily ever after.
+　Anyway, she seems to have grown in self-confidence quite a bit, so congrats to Suika.
 
 window_close
 bgm_stop
@@ -112,35 +110,33 @@ label		suika_ep_f01_a
 #＠すいか,R00869
 #SCRIPT ORIGINAL 「今度の儲けは、全額寄付しますね」
 ＠Suika,R00869
-「I'll contribute all of my earnings this time.」
+「I'll donate all of my earnings for this」
 
 #＠すいか,R00870
 #SCRIPT ORIGINAL 「お互い、早く自由の身になりましょう」
 ＠Suika,R00870
-「Let's get freedom together soon.」
+「Let's all get freedom together soon」
 
 #SCRIPT ORIGINAL と、すいかは借金生活からの脱出をめざし、意気込んでいる。
-　And Suika aimed to get out of our debt life with great determination.
+　And so, Suika aimed to get us out of debt with great determination.
 
 #@suika_warai		#笑
 
 #＠すいか,R00871
 #SCRIPT ORIGINAL 「次の新作も考えてるんで、またテストプレイはお願いしますね」
 ＠Suika,R00871
-「I'm thinking about my next work, so please test play it.」
+「I'm thinking about my next work, so please test it out again for me」
 
 #＠樹
 #SCRIPT ORIGINAL 「ははは、それぐらいなら……」
 ＠Itsuki
-「Hahaha, if it's just that......」
+「Hahaha, I can do that...」
 
 #SCRIPT ORIGINAL 今回は本格的にデバッグさせられて、結構大変ではあったんだが……。
-#SCRIPT UNTRANSLATED
-##SCRIPT NEXT LINE TRANSLATED
-今回は本格的にデバッグさせられて、結構大変ではあったんだが……。
+　I actually had to go and debug this last one, it was a major pain...
 
 #SCRIPT ORIGINAL でもまあ、すいかもずいぶん自身がついてきたみたいだし、それぐらい喜んで手伝おう。
-　But it seems like Suika got quite a bit of confidence, and I should at least help with that much pleasure.
+　But it seems like Suika got quite a bit of confidence, so I can at least help her with that.
 
 window_close
 bgm_stop
